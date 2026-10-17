@@ -2733,7 +2733,27 @@ function seo_bcp47(string $code, array $lang): string
 {
     $iso = (string) ($lang['meta']['iso6393'] ?? '');
     $tag = $iso !== '' ? $iso : explode('_', $code)[0];
+    // BCP 47 wants the two-letter code where one exists: lang="jpn" is not a
+    // registered tag and a screen reader may not pick a Japanese voice for it
+    // (rally review r2, 2026-10-17).
+    $tag = seo_iso_short()[$tag] ?? $tag;
     return preg_match('/^[a-z]{2,3}$/', $tag) ? $tag : '';
+}
+
+/**
+ * ISO 639-3 -> ISO 639-1, read off the Word Map rows whose own code is a
+ * two-letter one (ja carries jpn, de carries deu, zh carries cmn).
+ */
+function seo_iso_short(): array
+{
+    static $m = null;
+    if ($m !== null) return $m;
+    $m = [];
+    foreach (seo_data('wordmap')['langs'] ?? [] as $c => $r) {
+        $i = (string) ($r['meta']['iso6393'] ?? '');
+        if ($i !== '' && preg_match('/^[a-z]{2}$/', (string) $c)) $m[$i] = (string) $c;
+    }
+    return $m;
 }
 
 /**
@@ -3014,25 +3034,32 @@ function seo_map_embed(?float $lat, ?float $lng, string $label, int $zoom = 5): 
   var started = false;
   function load() {
     if (started) return; started = true;
+    // Start the map only once BOTH have arrived: without leaflet.css the
+    // tiles are not positioned or clipped and spill over the page.
+    var left = 2;
+    function one() { if (--left === 0) init(); }
     var css = document.createElement('link');
     css.rel = 'stylesheet'; css.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+    css.onload = css.onerror = one;
     document.head.appendChild(css);
     var js = document.createElement('script');
     js.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
-    js.onload = init;
+    js.onload = one;
     document.head.appendChild(js);
   }
   function init() {
     if (typeof L === 'undefined') return;
     var map = L.map(el, { scrollWheelZoom: false, attributionControl: true })
       .setView([{$lat}, {$lng}], {$zoom});
-    // detectRetina: @2x-equivalent tiles on high-DPR screens (image-size-responsive).
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      maxZoom: 18, detectRetina: true,
-      attribution: '&copy; OpenStreetMap contributors'
+    // CARTO Voyager, as on the maps themselves: it serves real @2x tiles
+    // ({r}), sharp on high-DPR screens (image-size-responsive). OSM's own
+    // tiles have no @2x, and Leaflet's detectRetina on them drew every label
+    // at half size and fetched 4x the tiles (rally review r2, 2026-10-17).
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+      maxZoom: 18, subdomains: 'abcd',
+      attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a> &middot; &copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
-    // CSS and JS load in parallel; Leaflet derives the default icon path from
-    // the CSS, so pin it rather than race the stylesheet.
+    // Leaflet derives the default icon path from the stylesheet's URL; pin it.
     L.Icon.Default.imagePath = 'https://unpkg.com/leaflet@1.9.4/dist/images/';
     L.marker([{$lat}, {$lng}]).addTo(map).bindPopup({$jsLabel});
   }
@@ -3202,7 +3229,7 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   text-transform: uppercase; color: var(--muted); margin: 0 0 .35rem; }
 /* The date on a historical card. Quiet — it is the sort key made visible, not
    a second heading — and tabular so a column of centuries lines up. */
-.wcard-era { font-size: .74rem; color: var(--muted); opacity: .8;
+.wcard-era { font-size: .74rem; color: var(--muted);
   font-variant-numeric: tabular-nums; margin: -.25rem 0 .3rem; }
 .wcard > .surface { font-size: 1.75rem; line-height: 1.2; margin: 0; word-break: break-word; }
 /* Tibetan needs its own face and a little more room. Noto Serif Tibetan is
@@ -3316,17 +3343,22 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .seo-region > summary::after { content: '\25BE'; float: right; color: var(--muted);
   font-size: 1.2rem; margin-top: 2.9rem; transition: transform .15s; }
 .seo-region[open] > summary::after { transform: rotate(180deg); }
-.seo-region > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.seo-region > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; } /* inside: content-visibility clips paint at the box edge */
 /* Long sections skip style/layout/paint until they near the viewport — the
    character table alone is ~190 rows. Biggest single cut to load-time layout
    work (Lighthouse TBT, 2026-10-16). The intrinsic size is a placeholder that
    the browser replaces with the real height once a section has rendered. */
-.seo-section, .seo-ex, .seo-related { content-visibility: auto; contain-intrinsic-size: auto 1500px; }
+.seo-section, .seo-ex, .seo-related { content-visibility: auto; contain-intrinsic-size: auto 600px; }
+/* Collapsed regions (~100px) and the nav gain nothing from it, and a 1500px
+   placeholder for each made the scrollbar 4x too long (rally review r2). */
+details.seo-region, nav.seo-section { content-visibility: visible; contain-intrinsic-size: none; }
 /* Containment stops child margins collapsing through these boxes, which
    doubled the gap between sections. Put the gap on the box itself (where it
    still collapses with its siblings) and drop the inner leading/trailing
    margins that used to collapse into it. */
 .seo-section { margin-top: 2.5rem; }
+/* A region's h2 sits inside <summary> and keeps its own 2.5rem top margin. */
+.seo-region { margin-top: 0; }
 .seo-section > h2:first-child, .seo-ex > h2:first-child, .seo-related > h2:first-child { margin-top: 0; }
 .seo-section > :last-child, .seo-ex > :last-child, .seo-related > :last-child { margin-bottom: 0; }
 .seo-section h2 { font-size: 1.6rem; margin: 2.5rem 0 1rem; border-bottom: 2px solid var(--line);
@@ -3348,7 +3380,7 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .seo-word .ipa { font-size: 1.1rem; color: var(--accent); margin: .2rem 0 0; }
 .seo-word .alt { font-size: .95rem; color: var(--muted); margin: .3rem 0 0;
   word-break: break-word; }
-.seo-word .alt .alt-script { font-size: .75rem; opacity: .8; }
+.seo-word .alt .alt-script { font-size: .75rem; }
 /* Han-character readings as an aligned dictionary table (文白異讀 / 呉音漢音 etc.). */
 .seo-chartable-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0; }
 .seo-chartable { width: 100%; border-collapse: collapse; font-size: 1rem; }
@@ -3485,7 +3517,7 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease; }
 .seo-goods > a:hover { transform: translateY(-2px); border-color: #c9b68f;
   box-shadow: 0 8px 22px rgba(45,32,12,.18); }
-.seo-goods > a:focus-visible { outline: 2px solid #1b2a44; outline-offset: 3px; }
+.seo-goods > a:focus-visible { outline: 2px solid #1b2a44; outline-offset: -3px; }
 .seo-goods img { display: block; flex: none; width: 200px; height: 200px;
   object-fit: cover; border-radius: .7rem; background: #ece7dd; }
 .seo-goods-text { min-width: 0; }
@@ -4350,7 +4382,7 @@ function seo_comparisons(string $map, string $code, string $ui,
                 if ($segs === null) continue;
                 $rs = [];
                 foreach ($segs as $seg) { $t = $seg[1] ?? ''; if ($t === '') continue; $rs[] = [$t, $seg[2] ?? '', $seg[0] ?? '']; }
-                $byCode[$c] = ['n' => $woName($c), 'l' => $c === $code ? '' : $woLink($c), 's' => $rs];
+                $byCode[$c] = ['n' => $woName($c), 'g' => seo_lang_attr($c), 'l' => $c === $code ? '' : $woLink($c), 's' => $rs];
             }
             $woLazy[$si] = ['t' => $s['title'] ?? '', 'r' => $byCode];
         }
@@ -4578,12 +4610,13 @@ function seo_comparisons(string $map, string $code, string $ui,
       var h = '';
       blk.cols.forEach(function (code) {
         var row = (d.r || {})[code]; if (!row) return;
+        var lg = esc(row.g || '');
         h += '<div class="cmp-wo-row' + (row.l ? '' : ' cmp-anchor') + '"><div class="cmp-wo-name">'
-          + (row.l ? '<a href="' + esc(row.l) + '" lang="' + esc(String(code).split('_')[0]) + '">' + esc(row.n) + '</a>'
-                   : '<span lang="' + esc(String(code).split('_')[0]) + '">' + esc(row.n) + '</span>')
+          + (row.l ? '<a href="' + esc(row.l) + '" lang="' + lg + '">' + esc(row.n) + '</a>'
+                   : '<span lang="' + lg + '">' + esc(row.n) + '</span>')
           + '</div><div class="cmp-wo-segs">';
         (row.s || []).forEach(function (sg) {
-          h += '<span class="wo-seg" lang="' + esc(String(code).split('_')[0]) + '"' + (sg[2] ? ' data-seg="' + esc(sg[2]) + '"' : '') + (sg[1] ? ' style="color:' + esc(sg[1]) + '"' : '') + '>' + esc(sg[0]) + '</span>';
+          h += '<span class="wo-seg" lang="' + lg + '"' + (sg[2] ? ' data-seg="' + esc(sg[2]) + '"' : '') + (sg[1] ? ' style="color:' + esc(sg[1]) + '"' : '') + '>' + esc(sg[0]) + '</span>';
         });
         h += '</div></div>';
       });

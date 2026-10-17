@@ -154,7 +154,10 @@
         return id ? document.getElementById(id) : null;
     }
     document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') { closeOpen(); return; }
         if (e.key !== 'Enter' && e.key !== ' ' && e.key !== 'Spacebar') return;
+        // A held key auto-repeats keydown; a native button fires once.
+        if (e.repeat || e.ctrlKey || e.metaKey || e.altKey) return;
         var lb = e.target;
         if (!lb || lb.tagName !== 'LABEL' || lb.getAttribute('role') !== 'button') return;
         var cb = toggleFor(lb);
@@ -162,6 +165,21 @@
         e.preventDefault();
         cb.click();
     });
+    // Escape closes an open menu/settings panel on every page (namemap and
+    // timemap had no close-on-Esc of their own) and returns focus to its
+    // button when focus was inside it.
+    function closeOpen() {
+        var lbs = document.querySelectorAll('label[role="button"][for]');
+        for (var i = 0; i < lbs.length; i++) {
+            var cb = toggleFor(lbs[i]);
+            if (!cb || cb.type !== 'checkbox' || !cb.checked) continue;
+            cb.checked = false;
+            cb.dispatchEvent(new Event('change', { bubbles: true }));
+            if (document.activeElement === document.body || lbs[i].contains(document.activeElement)) continue;
+            var panel = lbs[i].parentNode;
+            if (panel && panel.contains(document.activeElement)) lbs[i].focus();
+        }
+    }
     function syncExpanded() {
         var lbs = document.querySelectorAll('label[role="button"][for]');
         for (var i = 0; i < lbs.length; i++) {

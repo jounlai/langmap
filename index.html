@@ -60,7 +60,7 @@
         ]
     }
     </script>
-    <link rel="stylesheet" href="styles.css?v=137">
+    <link rel="stylesheet" href="styles.css?v=138">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Gentium Plus / Charis SIL carry the Egyptological alef ꜣ (U+A723) and
@@ -97,13 +97,13 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <script src="nav-short.js?v=8"></script>
+    <script src="nav-short.js?v=9"></script>
 </head>
 <body>
     <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap</h1>
     <div class="site-header-bar">
         <a href="#" onclick="resetToDefaults(); return false;" class="logo"><span id="uiTitle">LangMap</span><span class="logo-badge logo-badge-order" aria-label="Word Order" title="Word Order"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="15" y2="12"/><line x1="3" y1="18" x2="18" y2="18"/></svg></span></a>
-        <input type="checkbox" id="hdr-menu-toggle" class="hdr-menu-toggle" aria-label="Menu toggle">
+        <input type="checkbox" id="hdr-menu-toggle" class="hdr-menu-toggle" aria-label="Menu toggle" tabindex="-1" aria-hidden="true">
         <label for="hdr-menu-toggle" class="hamburger-btn" role="button" aria-label="Menu" aria-controls="header-collapse" tabindex="0"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg></label>
         <div class="header-collapse" id="header-collapse">
             <nav class="header-nav">
@@ -157,7 +157,8 @@
         });
     })();
     </script>
-    <div class="container" role="main">
+    <div class="container">
+    <main>
 
         <div class="controls">
             <div class="control-row sentence-row">
@@ -208,7 +209,8 @@
             <button class="btn btn-sm btn-share btn-fb" onclick="shareToFacebook()">Facebook</button>
             <button class="btn btn-sm btn-share btn-line" onclick="shareToLINE()">LINE</button>
         </div>
-        <div class="site-footer">
+    </main>
+        <div class="site-footer" role="contentinfo">
             <!-- UI lang select moved to header for cross-page consistency (Pass 34) -->
             <div class="site-footer-links">
                 <a href="https://github.com/jounlai/langmap" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:-3px;margin-right:2px" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>GitHub</a>

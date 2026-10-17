@@ -62,7 +62,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=137">
+    <link rel="stylesheet" href="styles.css?v=138">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -326,13 +326,13 @@
             .tm-panel.info-open ~ .tm-sheet-backdrop { display: block; position: fixed; inset: 0; z-index: 1350; background: rgba(0,0,0,0.35); }
         }
     </style>
-    <script src="nav-short.js?v=8"></script>
+    <script src="nav-short.js?v=9"></script>
 </head>
 <body>
     <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Time Map</h1>
     <div class="site-header-bar">
         <a href="index.html" class="logo">LangMap<span class="logo-badge logo-badge-time" aria-label="TimeMap" title="TimeMap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 7.5V12l3 2"/></svg></span></a>
-        <input type="checkbox" id="hdr-menu-toggle" class="hdr-menu-toggle" aria-label="Menu toggle">
+        <input type="checkbox" id="hdr-menu-toggle" class="hdr-menu-toggle" aria-label="Menu toggle" tabindex="-1" aria-hidden="true">
         <button type="button" id="chrome-toggle" class="chrome-toggle-btn" aria-label="Simple display" title="Simple display" aria-pressed="false">
             <svg class="icon-on"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9V3h6M21 9V3h-6M3 15v6h6M21 15v6h-6"/></svg>
             <svg class="icon-off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3v6H3M15 3v6h6M9 21v-6H3M15 21v-6h6"/></svg>
@@ -577,7 +577,8 @@
                 const label=root.querySelector('.tm-label'); if(!label) return;
                 label.style.transform='translate(-50%, -50%)';
                 const pt=map.latLngToContainerPoint(mk.getLatLng()), r=label.getBoundingClientRect();
-                items.push({ label, x:pt.x, y:pt.y, w:r.width||40, h:r.height||16, pr:pri[cal.status] });
+                // The open popup's own label is placed first, so it is never the one hidden.
+                items.push({ label, x:pt.x, y:pt.y, w:r.width||40, h:r.height||16, pr: cal.id===openId ? -1 : pri[cal.status] });
             });
             items.sort((a,b)=>a.pr-b.pr);
             const cand=[[0,0]];

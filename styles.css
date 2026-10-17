@@ -243,7 +243,7 @@ body {
     .hamburger-btn:active { background: #e5e7eb; }
     /* Active-state visual when checkbox is checked: invert colors so users
        see the menu is open even when the dropdown isn't visually obvious. */
-    .hdr-menu-toggle:checked + .hamburger-btn { background: var(--accent); color: #fff; border-color: var(--accent); }
+    .hdr-menu-toggle:checked ~ .hamburger-btn { background: var(--accent); color: #fff; border-color: var(--accent); }
     .header-collapse {
         /* Use opacity + visibility instead of display so we can transition. */
         display: flex;

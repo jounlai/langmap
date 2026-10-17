@@ -77,7 +77,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=137">
+    <link rel="stylesheet" href="styles.css?v=138">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -1695,7 +1695,7 @@
             margin: -1px; padding: 0; overflow: hidden;
             clip: rect(0,0,0,0); white-space: nowrap; border: 0;
         }
-        .settings-toggle:focus-visible + .settings-fab {
+        .settings-fab:focus-visible, .settings-toggle:focus-visible + .settings-fab {
             outline: 2px solid #4a6cf7; outline-offset: 2px;
         }
         .settings-fab {
@@ -2816,14 +2816,14 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=8"></script>
+    <script src="nav-short.js?v=9"></script>
 </head>
 <body>
     <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — HanMap</h1>
     <!-- Header -->
     <div class="site-header-bar">
         <a href="index.html" class="logo">LangMap<span class="logo-badge logo-badge-han" aria-label="HanMap" title="HanMap"><span class="logo-badge-han-char">字</span></span></a>
-        <input type="checkbox" id="hdr-menu-toggle" class="hdr-menu-toggle" aria-label="Menu toggle">
+        <input type="checkbox" id="hdr-menu-toggle" class="hdr-menu-toggle" aria-label="Menu toggle" tabindex="-1" aria-hidden="true">
         <button type="button" id="chrome-toggle" class="chrome-toggle-btn" aria-label="Hide UI overlays" title="Hide UI overlays">
             <svg class="icon-on"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9V3h6M21 9V3h-6M3 15v6h6M21 15v6h-6"/></svg>
             <svg class="icon-off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3v6H3M15 3v6h6M9 21v-6H3M15 21v-6h6"/></svg>
@@ -3052,7 +3052,7 @@
              The hidden checkbox + label pair drive the secondary-controls
              drawer the same way as before; only the visual layout moved
              from floating FAB to inline button-stack member. -->
-        <input type="checkbox" id="settings-toggle" class="settings-toggle" aria-label="Display settings toggle">
+        <input type="checkbox" id="settings-toggle" class="settings-toggle" aria-label="Display settings toggle" tabindex="-1" aria-hidden="true">
         <label for="settings-toggle" class="settings-fab" role="button" aria-label="Display settings" tabindex="0"><svg class="settings-fab-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></label>
         <div style="height:8px" class="ctrl-spacer"></div>
         <div class="right-secondary-controls" id="right-secondary">
@@ -3488,7 +3488,7 @@
     <!-- 2026-10-16: the runtime copy is split by tools/build_hanmap_trivia_rt.js —
          base.js has every article with English bodies; the reader's own
          language arrives as hanmap_trivia_rt/<ui>.js (loadHanTriviaBodies). -->
-    <script type="text/plain" id="trivia-src" src="hanmap_trivia_rt/base.js?v=1"></script>
+    <script type="text/plain" id="trivia-src" src="hanmap_trivia_rt/base.js?v=2"></script>
     <!-- The meta-i18n layer is loaded dynamically (engine + the current UI's
          slice only) via loadMetaI18n() in the IIFE below. The old eager
          meta_i18n_ext + coverage{,2} tags pulled ~4.6 MB of ALL 22 UIs. -->
@@ -4756,14 +4756,6 @@
         // being compared even at low zoom (where speaker-tier gating
         // would normally hide them).
         var _triviaSpotlight = new Set();
-        // Trivia per-UI-lang translation overlay registry. Hoisted via
-        // `var` so loadTriviaI18nFor() (a hoisted function declaration)
-        // can be called from loadHash() during initial render — before
-        // the later `const TRIVIA_I18N_LANGS = …` line is reached.
-        // Without this, the `const` declaration TDZ-throws when init
-        // resolves an article id from ?trivia=<id>.
-        var TRIVIA_I18N_LANGS = new Set(['ko','zh','yue','vi','th','id','hi','de','fr','it','es','pt','ru','uk','ar','he','sw']);
-        var _loadedTriviaI18n = new Set();
         // Hoisted: read by updateGlobeLabels (which can be called from map
         // event listeners during initial render). The real assignment lives
         // in the trivia panto helpers further down; this `var` just primes
@@ -5035,7 +5027,6 @@
             names:   111,
             meta:     192,
             trivia:   27,
-            triviaI18n: 4,
             words:      15,
         };
         function assetUrl(path, key) {
@@ -11464,34 +11455,11 @@
                 || map[uiLang.split('_')[0]]
                 || map.en || '';
         }
-        // Trivia i18n: translations for each article live in separate
-        // wordmap_trivia_<lang>.js overlay files (loaded on demand based
-        // on uiLang). When an overlay script executes it populates
-        // window.TRIVIA_I18N[lang][articleId] = { title, summary, body };
-        // applyTriviaI18nOverlay merges those fields into the existing
-        // article objects so pickLocalized() finds them via map[uiLang].
-        // EN + JA live inline in wordmap_trivia.js and need no overlay.
-        // TRIVIA_I18N_LANGS and _loadedTriviaI18n are hoisted at the
-        // top of this IIFE so loadHash()'s init pass doesn't TDZ.
-        function applyTriviaI18nOverlay() {
-            const overlay = window.TRIVIA_I18N;
-            const articles = window.TRIVIA_ARTICLES;
-            if (!overlay || !articles) return;
-            for (const art of articles) {
-                for (const lang of Object.keys(overlay)) {
-                    const tr = overlay[lang] && overlay[lang][art.id];
-                    if (!tr) continue;
-                    art.title = art.title || {};
-                    art.summary = art.summary || {};
-                    art.body = art.body || {};
-                    if (tr.title && !art.title[lang]) art.title[lang] = tr.title;
-                    if (tr.summary && !art.summary[lang]) art.summary[lang] = tr.summary;
-                    if (tr.body && !art.body[lang]) art.body[lang] = tr.body;
-                }
-            }
-        }
-        // The articles themselves are lazy for the same reason the i18n
-        // overlays are: nobody has asked for them yet when the map paints.
+        // The articles are lazy: nobody has asked for them yet when the map
+        // paints. (Titles and summaries in every language are in base.js;
+        // bodies other than English in hanmap_trivia_rt/<ui>.js. The page
+        // used to fetch wordmap_trivia_<ui>.js too, 160-380 KB of Word Map
+        // articles with no Han Map id in them — rally review r2, 2026-10-17.)
         // The inert #trivia-src tag in the head carries the URL and its
         // cache-version, so there is exactly one place the version lives
         // and the version tool still maintains it.
@@ -11504,14 +11472,16 @@
             _hanTriviaPromise = new Promise((resolve) => {
                 const el = document.createElement('script');
                 el.src = src;
-                el.onload = el.onerror = () => resolve();
+                el.onload = () => resolve(true);
+                // A failed fetch resolves (nothing waits forever) but is not
+                // remembered: the next openTrivia() asks again, instead of
+                // the Trivia button going dead for the session.
+                el.onerror = () => { el.remove(); resolve(false); };
                 document.head.appendChild(el);
-            }).then(() => {
-                // A failed fetch must not leave the modal retrying forever:
-                // mark it loaded either way and render whatever arrived.
+            }).then((ok) => {
+                if (!ok) { _hanTriviaPromise = null; return; }
                 _hanTriviaLoaded = true;
                 if (!Array.isArray(window.TRIVIA_ARTICLES)) window.TRIVIA_ARTICLES = [];
-                try { applyTriviaI18nOverlay(); } catch (_) {}
                 try { loadHanTriviaBodies(String(uiLang || 'en').split('_')[0]); } catch (_) {}
                 try { refreshTriviaBlinks(); } catch (_) {}
                 const idx = document.getElementById('trivia-index');
@@ -11545,12 +11515,13 @@
             // Never START the article download from here: the boot pass calls
             // this for the UI language, and the articles are deliberately lazy.
             // Until loadHanTrivia() has run, leave it to its own .then(), which
-            // asks again for the current language. The tick also defers past
-            // the boot pass, while loadHanTrivia's `let` state is in its TDZ.
+            // asks again for the current language.
             const p = new Promise((r) => setTimeout(r, 0)).then(() => {
                 if (!_hanTriviaPromise) { _hanBodyLoads.delete(base); return Promise.reject('later'); }
                 return _hanTriviaPromise;
             }).then(() => new Promise((res) => {
+                const have = window.HANMAP_TRIVIA_LANGS;
+                if (Array.isArray(have) && !have.includes(base)) { res(); return; }
                 const s = document.createElement('script');
                 s.src = 'hanmap_trivia_rt/' + base + '.js' + (v ? '?' + v : '');
                 s.onload = () => {
@@ -11564,10 +11535,23 @@
                     const modal = document.getElementById('trivia-modal');
                     if (modal && modal.classList.contains('visible')
                         && modal.dataset.view === 'article' && modal.dataset.articleId) {
-                        const sc = document.getElementById('trivia-scroll');
-                        const top = sc ? sc.scrollTop : 0;
-                        try { renderTriviaArticle(modal.dataset.articleId); } catch (_) {}
-                        if (sc) sc.scrollTop = top;
+                        const art = (window.TRIVIA_ARTICLES || []).find((a) => a.id === modal.dataset.articleId);
+                        const tb = document.getElementById('trivia-body');
+                        // Arrived for a language no longer shown (ko -> de
+                        // -> ko): nothing on screen changes, so leave it.
+                        if (art && tb && pickLocalized(art.body) !== tb._hmHtml) {
+                            const sc = document.getElementById('trivia-scroll');
+                            const top = sc ? sc.scrollTop : 0;
+                            // Keep a keyboard user's place: innerHTML drops focus.
+                            const acts = [...tb.querySelectorAll('.trivia-action')];
+                            const fi = acts.indexOf(document.activeElement);
+                            try { renderTriviaArticle(modal.dataset.articleId); } catch (_) {}
+                            if (sc) sc.scrollTop = top;
+                            if (fi >= 0) {
+                                const now = tb.querySelectorAll('.trivia-action')[fi];
+                                if (now) now.focus({ preventScroll: true });
+                            }
+                        }
                     }
                     res();
                 };
@@ -11579,35 +11563,7 @@
         }
         function loadTriviaI18nFor(lang) {
             if (!lang) return Promise.resolve();
-            const base = lang.split('_')[0];
-            loadHanTriviaBodies(base);
-            if (base === 'en' || base === 'ja') return Promise.resolve();
-            if (!TRIVIA_I18N_LANGS.has(base)) return Promise.resolve();
-            if (_loadedTriviaI18n.has(base)) return Promise.resolve();
-            _loadedTriviaI18n.add(base);
-            return new Promise((res) => {
-                const s = document.createElement('script');
-                s.src = assetUrl(`wordmap_trivia_${base}.js`, 'triviaI18n');
-                s.onload = () => {
-                    applyTriviaI18nOverlay();
-                    // If the trivia modal is already open when the overlay
-                    // lands, re-render the current article so the user sees
-                    // the localized text without having to navigate.
-                    const modal = document.getElementById('trivia-modal');
-                    if (modal && modal.classList.contains('visible')) {
-                        const activeId = modal.dataset.view === 'article' && modal.dataset.articleId;
-                        if (activeId) renderTriviaArticle(activeId);
-                        else if (typeof renderTriviaIndex === 'function'
-                                 && document.getElementById('trivia-index')) {
-                            const idx = document.getElementById('trivia-index');
-                            if (idx.classList.contains('visible')) renderTriviaIndex();
-                        }
-                    }
-                    res();
-                };
-                s.onerror = () => { _loadedTriviaI18n.delete(base); res(); };
-                document.head.appendChild(s);
-            });
+            return loadHanTriviaBodies(lang.split('_')[0]);
         }
         // _triviaBlinkCodes is declared at the top of this IIFE (var,
         // hoisted) so that updateMarkers can call refreshTriviaBlinks
@@ -11659,7 +11615,8 @@
             const sum = pickLocalized(art.summary);
             summary.textContent = sum;
             summary.style.display = sum ? '' : 'none';
-            body.innerHTML = pickLocalized(art.body).trim();
+            body._hmHtml = pickLocalized(art.body);
+            body.innerHTML = body._hmHtml.trim();
             // Sources: shared list (citations don't vary by UI lang), but the
             // section label is localized. Each entry is either a plain string
             // or { text, url } for a hyperlinked reference.
@@ -12069,15 +12026,20 @@
             // The articles are lazy (loadHanTrivia above). If the reader beats
             // the idle fetch — or arrives on a #trivia=<id> deep link — pull
             // them now and re-enter.
-            if (!_hanTriviaLoaded) { loadHanTrivia().then(() => openTrivia(id)); return; }
+            // Wait for the reader's language too (bounded), so a shared
+            // #trivia=<id>&ui=ko link does not open in English and then swap.
+            if (!_hanTriviaLoaded) {
+                loadHanTrivia().then(() => {
+                    if (!_hanTriviaLoaded) return;
+                    const wait = loadHanTriviaBodies(String(uiLang || 'en').split('_')[0]);
+                    return Promise.race([wait, new Promise((r) => setTimeout(r, 1500))]);
+                }).then(() => { if (_hanTriviaLoaded) openTrivia(id); });
+                return;
+            }
             const list = window.TRIVIA_ARTICLES || [];
             if (!list.length) return;
-            // Best-effort load of the trivia translation overlay for the
-            // current uiLang before we open. If the overlay is already
-            // cached this resolves synchronously on the same tick; if it
-            // is still in flight, the first render falls back to EN, and
-            // navigating to the next article (after the script lands)
-            // shows the localized text.
+            // Bodies for the current uiLang: if still in flight the article
+            // renders in English and is redrawn when they land.
             if (typeof loadTriviaI18nFor === 'function') loadTriviaI18nFor(uiLang);
             // Each article opens from a clean surface — close any
             // language modal / compare panel / blinks / spotlight from

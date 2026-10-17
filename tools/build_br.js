@@ -59,6 +59,7 @@ const FILES = [
     'wordmap_meta_lite.js',
     'lang-filter.js',
     'my-languages.js',
+    'hanmap_trivia_rt/base.js',  // ~535 KB; q11 saves ~24 KB over nginx's q5
 ];
 
 const QUALITY = 11;

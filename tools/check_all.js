@@ -95,6 +95,10 @@ line('Han Map rare glyphs served', num(s, /unserved: (\d+)/));
 s = run('hanmap_group_coverage_check.js --check');
 line('Han Map rows in a filter group', num(s, /violations: (\d+)/));
 
+// Time Map's Tibetan is a hand-cut subset; a new sign would break its stack.
+s = run('timemap_tibetan_subset_check.js');
+line('Time Map Tibetan subset covers text', num(s, /problems: (\d+)/));
+
 s = run('korean_hist_font_check.js');
 line('Old Hangul font coverage', num(s, /problems: (\d+)/));
 

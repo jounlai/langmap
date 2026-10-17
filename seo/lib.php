@@ -3240,6 +3240,8 @@ function seo_head(array $opts): void
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="<?= e($title) ?>">
 <meta name="twitter:description" content="<?= e(seo_clip($desc)) ?>">
+<link rel="icon" type="image/png" sizes="48x48" href="/icon-48.png">
+<link rel="apple-touch-icon" href="/icon-180.png">
 <style>
 :root { --fg:#1a1a2e; --muted:#5c5c72; --bg:#fafafe; --accent:#2f62a3; --card:#fff; --line:#e6e6ef; }
 * { box-sizing: border-box; }
@@ -3492,7 +3494,7 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
    that seo/trivia.php turns from <button> into a label plus real links. */
 .seo-prose { font-size: 1.05rem; line-height: 1.85; }
 .seo-prose p { margin: 0 0 1.1em; }
-.seo-prose h3 { font-size: 1.25rem; margin: 2em 0 .6em; }
+.seo-prose h2, .seo-prose h3 { font-size: 1.25rem; margin: 2em 0 .6em; border-bottom: 0; padding-bottom: 0; }
 .seo-prose ul, .seo-prose ol { margin: 0 0 1.2em; padding-inline-start: 1.4em; }
 .seo-prose li { margin: 0 0 .45em; }
 .seo-prose blockquote { margin: 1.2em 0; padding: .1em 0 .1em 1em;

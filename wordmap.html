@@ -87,7 +87,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=138">
+    <link rel="stylesheet" href="styles.css?v=139">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts. Without these the characters render
          as tofu boxes: desktop Linux often ships the Noto historic fonts, but
@@ -2018,7 +2018,9 @@
                line-height: 1.4 was removed. */
             line-height: 1.2;
         }
-        .url-watermark a { pointer-events: auto; }
+        /* 24px tap target (Lighthouse target-size): the bare 12px icon and
+           13px-tall text links failed it. */
+        .url-watermark a { pointer-events: auto; display: inline-flex; align-items: center; justify-content: center; min-height: 24px; min-width: 24px; }
 
         /* --- Map credits -------------------------------------------------
            Both credits sat in the last ~17px of the viewport at
@@ -3729,7 +3731,7 @@
            per-word loader can read it", which was the intent all along — only
            the order was wrong. */
         const WM_ASSET_VERSION = {
-            styles:   138,
+            styles:   139,
             data:      342,
             metaI18n:  16,
             filter:    46,

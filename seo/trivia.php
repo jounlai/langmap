@@ -354,7 +354,10 @@ function seo_render_trivia_article(array $data, array $byId, string $id, string 
 <?php endif; ?>
 
 <article class="seo-section seo-prose">
-  <?= seo_tri_links($t['body'], $map, $ui, $data['names'] ?? [], $id, $mapLangs, $wordLabels) ?>
+  <?php // The bodies' section headings are <h3> (in the app they sit under the
+        // modal's own heading); here they follow the page <h1>, so promote them
+        // (Lighthouse heading-order). ?>
+  <?= preg_replace('~<(/?)h3\b~i', '<$1h2', seo_tri_links($t['body'], $map, $ui, $data['names'] ?? [], $id, $mapLangs, $wordLabels)) ?>
 </article>
 
 <?php if (!empty($a['sources'])): ?>

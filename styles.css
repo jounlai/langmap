@@ -168,7 +168,7 @@ body {
 }
 .site-header-bar .header-url {
     margin-left: auto;
-    font-size: 11px; color: #888; text-decoration: none; white-space: nowrap;
+    font-size: 11px; color: #666; text-decoration: none; white-space: nowrap;
     /* Faint frosted pill so the URL stays legible over light/busy map
        areas (the header floats over the map on wordmap/hanmap). */
     padding: 2px 8px; border-radius: 11px;
@@ -186,6 +186,9 @@ body {
    that capped it; promote the cap to the shared class so index.html /
    tree.html inherit it too. */
 .site-header-bar .header-ui-lang {
+    /* 30px, the height of the .lang-picker-btn that replaces it: a shorter
+       select grew the header 41 -> 47px on swap (CLS 0.4+, rally r4). */
+    height: 30px; box-sizing: border-box;
     padding: 4px 8px; font-size: 12px;
     border: 1px solid #d0d0d0; border-radius: 4px;
     background: #fff; color: #444; cursor: pointer;
@@ -405,7 +408,7 @@ body {
 .nav-icon:hover { color: #333; }
 .nav-random { display: inline-flex; align-items: center; gap: 3px; font-size: 13px; }
 .random-icon { font-size: 16px; }
-.random-text { font-size: 12px; color: #888; }
+.random-text { font-size: 12px; color: #666; }
 @media (max-width: 768px) {
     .random-text { display: none; }
 }

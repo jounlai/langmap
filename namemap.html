@@ -72,7 +72,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=138">
+    <link rel="stylesheet" href="styles.css?v=139">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for the scripts that name forms appear in. Without these,
          Arabic / Hebrew / Devanagari / Bengali / Ethiopic / Georgian /
@@ -514,7 +514,11 @@
             }
             .nm-panel.info-open ~ .nm-fab-info { display: none; }
         }
-    </style>
+            /* Desktop: the button lives in the map controls, moved there by script
+           after Leaflet loads. Painted in the header first, it made the header
+           57px then 47px and the whole stage jumped (CLS ~0.4, rally r4). */
+        @media (min-width: 641px) { .site-header-bar > .chrome-toggle-btn { display: none; } }
+</style>
     <script src="nav-short.js?v=11"></script>
 </head>
 <body>

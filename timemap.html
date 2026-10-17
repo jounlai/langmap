@@ -62,7 +62,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=138">
+    <link rel="stylesheet" href="styles.css?v=139">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -325,7 +325,11 @@
             }
             .tm-panel.info-open ~ .tm-sheet-backdrop { display: block; position: fixed; inset: 0; z-index: 1350; background: rgba(0,0,0,0.35); }
         }
-    </style>
+            /* Desktop: the button lives in the map controls, moved there by script
+           after Leaflet loads. Painted in the header first, it made the header
+           57px then 47px and the whole stage jumped (CLS ~0.4, rally r4). */
+        @media (min-width: 641px) { .site-header-bar > .chrome-toggle-btn { display: none; } }
+</style>
     <script src="nav-short.js?v=11"></script>
 </head>
 <body>
@@ -558,7 +562,9 @@
                     +(r.tr ? '<span class="t tm-script" dir="auto">'+esc(r.tr)+'</span>' : '')
                     +'<span class="r tm-script" dir="auto">'+esc(ct(cal,'name'))+'</span></div>';
                 const icon=L.divIcon({ className:'tm-divicon', html, iconSize:[0,0], iconAnchor:[0,0] });
-                const label=ct(cal,'name')+' — '+r.native+(r.tr ? ' ('+r.tr+')' : '');
+                // Visible order (native date, translation, calendar name): a voice-control
+                // user says what they see (WCAG 2.5.3 label-in-name).
+                const label=r.native+(r.tr ? ' '+r.tr : '')+' '+ct(cal,'name');
                 if(kept && cal.id===keep){
                     kept.setIcon(icon); markers[cal.id]=kept; keptUsed=true;
                     if(kept.getPopup()) kept.getPopup().update();   // content is a function of the date

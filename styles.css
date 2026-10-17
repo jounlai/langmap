@@ -166,6 +166,10 @@ body {
 .header-nav .nav-sep {
     color: #ccc; margin: 0 2px;
 }
+/* Desktop: reserve the header's final height. lang-picker.js and
+   share-button.js insert 30px buttons after first paint, which grew the
+   header 41 -> 47px and pushed every full-height page down (CLS ~0.45). */
+@media (min-width: 641px) { .site-header-bar { min-height: 47px; } }
 .site-header-bar .header-url {
     margin-left: auto;
     font-size: 11px; color: #666; text-decoration: none; white-space: nowrap;
@@ -186,9 +190,6 @@ body {
    that capped it; promote the cap to the shared class so index.html /
    tree.html inherit it too. */
 .site-header-bar .header-ui-lang {
-    /* 30px, the height of the .lang-picker-btn that replaces it: a shorter
-       select grew the header 41 -> 47px on swap (CLS 0.4+, rally r4). */
-    height: 30px; box-sizing: border-box;
     padding: 4px 8px; font-size: 12px;
     border: 1px solid #d0d0d0; border-radius: 4px;
     background: #fff; color: #444; cursor: pointer;

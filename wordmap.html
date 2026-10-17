@@ -87,7 +87,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=139">
+    <link rel="stylesheet" href="styles.css?v=140">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts. Without these the characters render
          as tofu boxes: desktop Linux often ships the Noto historic fonts, but
@@ -420,6 +420,9 @@
         .trivia-index-seo ul { columns: 2 18rem; gap: 1.5rem;
             list-style: none; padding: 8px 0 0; margin: 0; }
         .trivia-index-seo li { break-inside: avoid; margin: 0 0 4px; }
+        /* Desktop: the chrome toggle is moved out of the header by script;
+           hidden there until then so the nav does not slide (rally r5). */
+        @media (min-width: 641px) { .site-header-bar > .chrome-toggle-btn { display: none; } }
 </style>
     <!-- Khitan Small Script isn't on Google Fonts (Google Fonts returns 400
          for "Noto Serif Khitan Small Script"). Load the Serif variant
@@ -3030,7 +3033,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=11"></script>
+    <script src="nav-short.js?v=12"></script>
 </head>
 <body>
     <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Word Map</h1>
@@ -3444,17 +3447,10 @@
         // Esc closes any open drawer or modal (keyboard a11y).
         document.addEventListener('keydown', (e) => {
             if (e.key !== 'Escape') return;
-            // 1. Close drawers first.
-            let closed = false;
-            for (const { toggle } of drawers) {
-                const cb = document.getElementById(toggle);
-                if (cb && cb.checked) {
-                    cb.checked = false;
-                    cb.dispatchEvent(new Event('change'));
-                    closed = true;
-                }
-            }
-            if (closed) return;
+            // 1. Drawers: nav-short.js closes them (and stops this handler)
+            // when nothing sits on top. A dialog/game on top owns this key:
+            // closing the drawer under it lost focus to <body> (rally r5).
+            if (window.__navOverlayOpen && window.__navOverlayOpen()) return;
             // 2. Close compare panel if open.
             const comparePanel = document.getElementById('compare-panel');
             if (comparePanel && comparePanel.classList.contains('visible')) {
@@ -3731,7 +3727,7 @@
            per-word loader can read it", which was the intent all along — only
            the order was wrong. */
         const WM_ASSET_VERSION = {
-            styles:   139,
+            styles:   140,
             data:      342,
             metaI18n:  16,
             filter:    46,
@@ -12141,7 +12137,7 @@
     </script>
 
     <script src="/pwa.js?v=2"></script>
-    <script src="share-button.js?v=2"></script>
+    <script src="share-button.js?v=3"></script>
     <script src="lang-picker.js?v=3"></script>
     <!-- "My languages" share-card feature; poster_geo.js supplies the Natural-Earth
          projection its world-map card is drawn with. -->

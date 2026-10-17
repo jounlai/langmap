@@ -39,8 +39,8 @@
         var title = document.title || 'LangMap';
         var targets = [
             { label: 'X', color: '#000', href: 'https://twitter.com/intent/tweet?text=' + enc(title) + '&url=' + enc(url) },
-            { label: 'Facebook', color: '#1877f2', href: 'https://www.facebook.com/sharer/sharer.php?u=' + enc(url) },
-            { label: 'LINE', color: '#06c755', href: 'https://social-plugins.line.me/lineit/share?url=' + enc(url) + '&text=' + enc(title) }
+            { label: 'Facebook', color: '#0866d6', href: 'https://www.facebook.com/sharer/sharer.php?u=' + enc(url) },
+            { label: 'LINE', color: '#06803b', href: 'https://social-plugins.line.me/lineit/share?url=' + enc(url) + '&text=' + enc(title) }
         ];
         var back = document.createElement('div');
         back.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:100001;display:flex;align-items:center;justify-content:center;padding:20px;font-family:inherit';
@@ -77,21 +77,46 @@
         var close = document.createElement('button');
         close.type = 'button';
         close.textContent = L(CLOSE);
-        close.style.cssText = 'margin-top:10px;width:100%;padding:8px;border:0;background:none;cursor:pointer;font-size:13px;color:#888';
+        close.style.cssText = 'margin-top:10px;width:100%;padding:8px;border:0;background:none;cursor:pointer;font-size:13px;color:#666';
         close.addEventListener('click', function () { back.remove(); });
         box.appendChild(close);
         back.appendChild(box);
         back.addEventListener('click', function (e) { if (e.target === back) back.remove(); });
+        // aria-modal: move focus in, keep Tab inside, and give it back on close.
+        var ret = document.activeElement;
+        box.tabIndex = -1;
+        box.addEventListener('keydown', function (e) {
+            if (e.key !== 'Tab') return;
+            var f = box.querySelectorAll('a, button');
+            if (!f.length) return;
+            var first = f[0], last = f[f.length - 1];
+            if (e.shiftKey && (document.activeElement === first || document.activeElement === box)) { e.preventDefault(); last.focus(); }
+            else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+        });
+        new MutationObserver(function (_, mo) {
+            if (back.isConnected) return;
+            mo.disconnect();
+            if (ret && ret.isConnected) try { ret.focus(); } catch (_) {}
+        }).observe(document.body, { childList: true });
         document.body.appendChild(back);
+        var firstLink = box.querySelector('a, button');
+        (firstLink || box).focus();
     }
 
     function onClick() {
         // Prefer a page's own rich share (e.g. Word Map's word-specific text).
+        // Word Map's shares by itself; Name Map's and Time Map's return the
+        // {title, text, url} to share (and the button did nothing with it).
+        var data = null;
         if (window.__langmap && typeof window.__langmap.share === 'function') {
-            try { window.__langmap.share(); return; } catch (_) {}
+            try {
+                var r = window.__langmap.share();
+                if (!r || typeof r !== 'object' || typeof r.then === 'function') return;
+                data = r;
+            } catch (_) {}
         }
-        var url = location.href;
-        if (navigator.share) { navigator.share({ title: document.title, url: url }).catch(function () {}); return; }
+        var url = (data && data.url) || location.href;
+        if (navigator.share) { navigator.share(data || { title: document.title, url: url }).catch(function () {}); return; }
         popover(url);
     }
 

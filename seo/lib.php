@@ -3488,6 +3488,8 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
 .seo-sources a { color: var(--accent); }
 .seo-index-list { columns: 2 16rem; gap: 2rem; padding: 0; list-style: none; }
 .seo-index-list li { break-inside: avoid; margin: 0 0 .35rem; }
+/* One-character labels (水, 火) were 16x19px tap targets (Lighthouse target-size). */
+.seo-otherwords a { display: inline-block; min-width: 24px; min-height: 24px; text-align: center; }
 .seo-index-list a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
 .seo-index-list .code { color: var(--muted); font-size: .85rem; }
 /* Trivia ("読み物") pages: long-form prose, and the in-article map controls

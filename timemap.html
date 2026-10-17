@@ -62,7 +62,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=139">
+    <link rel="stylesheet" href="styles.css?v=140">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -329,8 +329,12 @@
            after Leaflet loads. Painted in the header first, it made the header
            57px then 47px and the whole stage jumped (CLS ~0.4, rally r4). */
         @media (min-width: 641px) { .site-header-bar > .chrome-toggle-btn { display: none; } }
+        /* …and its slot in the map controls is held until it arrives, so the zoom
+           buttons do not drop 46px; the era switch is filled by script. */
+        @media (min-width: 641px) { .tm-map-ctl:not(:has(> .chrome-toggle-btn))::before { content: ''; height: 40px; } }
+        #tm-era { min-height: 20px; }
 </style>
-    <script src="nav-short.js?v=11"></script>
+    <script src="nav-short.js?v=12"></script>
 </head>
 <body>
     <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Time Map</h1>
@@ -567,7 +571,10 @@
                 const label=r.native+(r.tr ? ' '+r.tr : '')+' '+ct(cal,'name');
                 if(kept && cal.id===keep){
                     kept.setIcon(icon); markers[cal.id]=kept; keptUsed=true;
-                    if(kept.getPopup()) kept.getPopup().update();   // content is a function of the date
+                    // content is a function of the date; update() also autoPans,
+                    // which would pull a panned-away map back on every step.
+                    const pp=kept.getPopup();
+                    if(pp){ const ap=pp.options.autoPan; pp.options.autoPan=false; pp.update(); pp.options.autoPan=ap; }
                     const kel=kept.getElement&&kept.getElement();
                     if(kel) kel.setAttribute('aria-label', label);
                     return;
@@ -800,7 +807,7 @@
     })();
     </script>
     <script src="/pwa.js?v=2"></script>
-    <script src="share-button.js?v=2"></script>
+    <script src="share-button.js?v=3"></script>
     <script src="lang-picker.js?v=3"></script>
 </body>
 </html>

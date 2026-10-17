@@ -77,7 +77,8 @@
         return LABELS[b] ? b : null;
     }
     function fromUrl() {
-        var m = /[?#&]l=([A-Za-z_-]+)/.exec(location.search + '&' + location.hash);
+        // ?ui= is what the pages write into shared links; l= is older.
+        var m = /[?#&](?:l|ui)=([A-Za-z_-]+)/.exec(location.search + '&' + location.hash);
         return m ? norm(m[1]) : null;
     }
     function fromCookie() {
@@ -163,10 +164,16 @@
     // Something open on top of a drawer (a modal, the share sheet, the quiz)
     // owns Escape: closing the drawer underneath would move focus behind it.
     function overlayOpen() {
-        var els = document.querySelectorAll('[aria-modal="true"], #trivia-modal.visible, .mylang-overlay.open');
+        var els = document.querySelectorAll('[aria-modal="true"], #trivia-modal.visible, .mylang-overlay.open, #lm-langle-box, #lm-quiz-box');
         for (var i = 0; i < els.length; i++) if (els[i].getClientRects().length) return true;
         return false;
     }
+    window.__navOverlayOpen = overlayOpen;
+    // Tapping the dimmed backdrop closes the drawer (namemap and timemap had
+    // no outside-click handler of their own).
+    document.addEventListener('click', function (e) {
+        if (e.target && e.target.classList && e.target.classList.contains('header-backdrop')) closeOpen();
+    });
     function closeOpen() {
         var closed = false;
         var bs = document.querySelectorAll('button[data-toggle]');

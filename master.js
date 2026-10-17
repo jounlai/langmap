@@ -297,7 +297,7 @@
     // Desktop-only key chips: shown on fine-pointer/hover devices, hidden on touch.
     var KCSS = '#lm-master-box, #lm-master-box button, #lm-master-box input { font-family: ' + serifStack() + '; }'
         + ' .lm-kbd { display:none; font-family: ui-monospace, SFMono-Regular, Menlo, monospace !important; font-size:11px; font-weight:700;'
-        + ' border:1px solid currentColor; border-radius:5px; padding:0 5px; line-height:16px; opacity:.7; margin-inline-start:8px; vertical-align:1px; }'
+        + ' border:1px solid currentColor; border-radius:5px; padding:0 5px; line-height:16px; margin-inline-start:8px; vertical-align:1px; }'
         + ' @media (hover:hover) and (pointer:fine) { .lm-kbd { display:inline-block; } }';
     function serifStack() {
         // The map labels' own font stack, so the game reads like the map.
@@ -317,6 +317,7 @@
         // render(); this one handler dispatches them.
         document.addEventListener('keydown', function (e) {
             if (!modal || modal.style.display === 'none') return;
+            if (e.isComposing || e.keyCode === 229) return;   // IME conversion owns Escape/Enter
             if (e.ctrlKey || e.metaKey || e.altKey) return;
             var t = e.target, typing = t && /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName);
             // Enter/Space on a focused button is that button's (native click),
@@ -373,12 +374,12 @@
     function header(right) {
         box.dir = /^(ar|he)/.test(ui()) ? 'rtl' : 'ltr';
         box.appendChild(el('div', 'display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:8px;flex:none',
-            '<div style="font-weight:800;font-size:20px">🏅 ' + esc(pk(T.title)) + '</div><div style="color:#8a93a3;font-weight:600;font-size:14px">' + (right || '') + '</div>'));
+            '<div style="font-weight:800;font-size:20px">🏅 ' + esc(pk(T.title)) + '</div><div style="color:#5f6673;font-weight:600;font-size:14px">' + (right || '') + '</div>'));
     }
     function btn(label, primary, onClick, key) {
         var b = el('button', primary
             ? 'width:100%;margin-top:10px;padding:12px;border:0;border-radius:10px;background:var(--accent,#2e6fb8);color:#fff;font-weight:700;font-size:16px;cursor:pointer;flex:none'
-            : 'width:100%;margin-top:8px;padding:8px;border:0;background:none;color:#7a8291;font-size:14px;cursor:pointer;flex:none', esc(label) + (key ? kbd(KEYNAME[key] || key.toUpperCase()) : ''));
+            : 'width:100%;margin-top:8px;padding:8px;border:0;background:none;color:#5f6673;font-size:14px;cursor:pointer;flex:none', esc(label) + (key ? kbd(KEYNAME[key] || key.toUpperCase()) : ''));
         b.type = 'button'; b.addEventListener('click', onClick);
         if (key) { state.keys[key.length === 1 ? key.toLowerCase() : key] = onClick; b.setAttribute('aria-keyshortcuts', KEYNAME[key] || key.toUpperCase()); }
         return b;
@@ -416,8 +417,8 @@
         box.appendChild(el('div', 'color:#556;font-size:14px;line-height:1.5;margin-bottom:10px;flex:none', esc(pk(T.sub))));
         // badge shelf
         var shelf = el('div', 'flex:none;margin-bottom:10px');
-        shelf.appendChild(el('div', 'font-size:12px;font-weight:700;color:#8a93a3;margin-bottom:4px', esc(pk(T.badges))));
-        if (!codes.length) shelf.appendChild(el('div', 'font-size:13px;color:#9aa1ad', esc(pk(T.none))));
+        shelf.appendChild(el('div', 'font-size:12px;font-weight:700;color:#5f6673;margin-bottom:4px', esc(pk(T.badges))));
+        if (!codes.length) shelf.appendChild(el('div', 'font-size:13px;color:#5f6673', esc(pk(T.none))));
         else {
             var row = el('div', 'display:flex;gap:6px;overflow-x:auto;padding-bottom:4px');
             orderedBadges().forEach(function (c) {
@@ -435,7 +436,7 @@
         var inp = el('input', 'width:100%;box-sizing:border-box;padding:10px 12px;border:1px solid #d8dbe2;border-radius:10px;font-size:15px;flex:none');
         inp.type = 'search'; inp.placeholder = pk(T.search); inp.value = state.filter; inp.setAttribute('aria-label', pk(T.search));
         box.appendChild(inp);
-        box.appendChild(el('div', 'font-size:11px;color:#9aa1ad;margin-top:4px;flex:none', '<span class="lm-kbd" style="margin:0">/</span><span class="lm-kbd">↑↓</span><span class="lm-kbd">Enter</span>'));
+        box.appendChild(el('div', 'font-size:11px;color:#5f6673;margin-top:4px;flex:none', '<span class="lm-kbd" style="margin:0">/</span><span class="lm-kbd">↑↓</span><span class="lm-kbd">Enter</span>'));
         var list = el('div', 'flex:1;min-height:0;overflow-y:auto;margin-top:6px;border-top:1px solid #eef0f3');
         box.appendChild(list);
         var all = langList().sort(function (a, b) { return (b.spk - a.spk) || a.name.localeCompare(b.name); });
@@ -446,9 +447,9 @@
             state.hi = 0; var items = [];
             rows.slice(0, 200).forEach(function (r) {
                 var it = el('button', 'display:flex;width:100%;align-items:center;justify-content:space-between;gap:8px;padding:9px 6px;border:0;border-bottom:1px solid #f1f2f5;background:none;cursor:pointer;text-align:start;font-size:15px;color:#222',
-                    '<span><span>' + esc(r.name) + '</span>' + (r.native && r.native !== r.name ? ' <span style="color:#9aa1ad;font-size:13px" dir="auto">' + esc(r.native) + '</span>' : '') + '</span>'
+                    '<span><span>' + esc(r.name) + '</span>' + (r.native && r.native !== r.name ? ' <span style="color:#5f6673;font-size:13px" dir="auto">' + esc(r.native) + '</span>' : '') + '</span>'
                     + (r.done ? '<span style="font-size:12px;color:#0d7a55;white-space:nowrap">🏅 ' + esc(pk(T.mastered)) + '</span>'
-                        : isUiLang(r.code) ? '<span style="font-size:12px;color:#9aa1ad;white-space:nowrap">' + esc(pk(T.uiTag)) + '</span>' : ''));
+                        : isUiLang(r.code) ? '<span style="font-size:12px;color:#5f6673;white-space:nowrap">' + esc(pk(T.uiTag)) + '</span>' : ''));
                 it.type = 'button'; it.addEventListener('click', function () { pick(r.code); });
                 it._code = r.code; items.push(it);
                 list.appendChild(it);
@@ -503,7 +504,7 @@
         var ready = !window.__wmLangWordsLoaded || [code].concat(siblingsOf(code)).every(function (k) { return window.__wmLangWordsLoaded(k); });
         var d = descOf(code);
         if (d) mid.appendChild(el('div', 'color:#333;font-size:14px;line-height:1.6;text-align:start;background:#f6f7f9;border-radius:10px;padding:10px 12px', esc(d)));
-        else if (!ready) mid.appendChild(el('div', 'color:#9aa1ad;font-size:14px', esc(pk(T.loading))));
+        else if (!ready) mid.appendChild(el('div', 'color:#5f6673;font-size:14px', esc(pk(T.loading))));
         box.appendChild(mid);
         if (isUiLang(code)) {
             box.appendChild(el('div', 'color:#8a5a00;background:#fff7e6;border:1px solid #f0d9a8;border-radius:10px;padding:10px 12px;font-size:14px;line-height:1.5;margin-top:8px;flex:none', esc(pk(T.uiSame))));
@@ -522,7 +523,7 @@
         var q = state.qs[state.idx], answered = state.chosen >= 0;
         header((state.idx + 1) + '/' + TOTAL + ' · ★' + state.score);
         var miss = (state.idx + (answered ? 1 : 0)) - state.score, leftN = (TOTAL - PASS) - miss;
-        box.appendChild(el('div', 'text-align:center;font-size:13px;font-weight:700;flex:none;border-radius:8px;padding:5px;' + (leftN >= 0 ? 'color:#b45309;background:#fff4e5' : 'color:#7a8291;background:#f3f4f6'),
+        box.appendChild(el('div', 'text-align:center;font-size:13px;font-weight:700;flex:none;border-radius:8px;padding:5px;' + (leftN >= 0 ? 'color:#b45309;background:#fff4e5' : 'color:#5f6673;background:#f3f4f6'),
             leftN >= 0 ? '🎯 ' + esc(pk(T.ruleShort)) + ' · ' + esc(pk(T.left).replace('{n}', leftN)) : esc(pk(T.out))));
         var mid = el('div', 'flex:1;min-height:0;overflow-y:auto;display:flex;flex-direction:column;justify-content:safe center');
         var qtext = pk(T.q).replace('{word}', '<b style="color:#222">' + esc(labelOf(q.con)) + '</b>').replace('{lang}', '<b style="color:#222">' + esc(nameOf(state.code)) + '</b>');
@@ -539,9 +540,9 @@
             var b = el('button', css + ';position:relative',
                 '<span aria-hidden="true" class="lm-kbd" style="position:absolute;top:6px;inset-inline-start:8px;margin:0;color:#aab1bd">' + (i + 1) + '</span>'
                 + '<span style="font-size:20px;line-height:1.2" dir="auto">' + esc(o.s) + '</span>'
-                + (o.ipa ? '<span style="font-size:12px;color:#8a93a3;margin-top:2px">/' + esc(o.ipa) + '/</span>' : '')
-                + (answered && q.dialect ? '<span style="font-size:12px;color:#8a93a3;margin-top:2px">' + esc(o.who.map(nameOf).slice(0, 2).join(' · ') + (o.who.length > 2 ? ' +' + (o.who.length - 2) : '')) + '</span>'
-                    : answered && !isAns ? '<span style="font-size:12px;color:#8a93a3;margin-top:2px">= ' + esc(labelOf(o.con)) + '</span>' : ''));
+                + (o.ipa ? '<span style="font-size:12px;color:#5f6673;margin-top:2px">/' + esc(o.ipa) + '/</span>' : '')
+                + (answered && q.dialect ? '<span style="font-size:12px;color:#5f6673;margin-top:2px">' + esc(o.who.map(nameOf).slice(0, 2).join(' · ') + (o.who.length > 2 ? ' +' + (o.who.length - 2) : '')) + '</span>'
+                    : answered && !isAns ? '<span style="font-size:12px;color:#5f6673;margin-top:2px">= ' + esc(labelOf(o.con)) + '</span>' : ''));
             b.type = 'button';
             b.setAttribute('aria-keyshortcuts', String(i + 1));
             if (!answered) b.addEventListener('click', function () { answer(i); });
@@ -569,7 +570,7 @@
         box.appendChild(el('div', 'color:#667;font-size:13px;margin-bottom:6px;flex:none', esc(pk(T.count).replace('{n}', codes.length))));
         var mid = el('div', 'flex:1;min-height:0;overflow-y:auto');
         grouped(codes).forEach(function (gr) {
-            mid.appendChild(el('div', 'font-size:12px;font-weight:700;color:#8a93a3;margin:10px 0 4px;border-bottom:1px solid #eef0f3;padding-bottom:2px', esc(famLabel(gr.fam)) + ' · ' + gr.codes.length));
+            mid.appendChild(el('div', 'font-size:12px;font-weight:700;color:#5f6673;margin:10px 0 4px;border-bottom:1px solid #eef0f3;padding-bottom:2px', esc(famLabel(gr.fam)) + ' · ' + gr.codes.length));
             var wrap = el('div', 'display:flex;flex-wrap:wrap;gap:8px');
             gr.codes.forEach(function (c) {
                 var cell = el('button', 'border:0;background:none;padding:0;cursor:pointer;width:68px;display:flex;flex-direction:column;align-items:center;gap:2px',
@@ -612,7 +613,7 @@
         x.font = '600 36px ' + FONT; x.fillStyle = '#8a5a00'; x.fillText(pk(T.count).replace('{n}', Object.keys(loadBadges()).length), W / 2, 170);
         var y = 240;
         groups.forEach(function (g) {
-            x.textAlign = 'left'; x.fillStyle = '#8a93a3'; x.font = '700 28px ' + FONT;
+            x.textAlign = 'left'; x.fillStyle = '#5f6673'; x.font = '700 28px ' + FONT;
             x.fillText(famLabel(g.fam) + ' · ' + g.codes.length, PAD, y + 30);
             x.fillStyle = '#e4e0d6'; x.fillRect(PAD, y + 42, W - 2 * PAD, 2);
             y += 56;

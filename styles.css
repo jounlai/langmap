@@ -741,7 +741,7 @@ select:focus { border-color: var(--accent); outline: none; }
 /* Until app.js draws the rows, hold the default map's height (six languages)
    in an invisible box: it painted ~80px tall and then pushed the page down
    ~500px (CLS 0.4+, rally r6). Once rows exist the rule no longer matches. */
-#mapContainer:has(> #langRows:empty) { visibility: hidden; display: block; min-height: calc(var(--rows, 6) * 118px + 60px); }
+#mapContainer:has(> #langRows:empty) { visibility: hidden; display: block; min-height: calc(var(--rows, 6) * 89px + 60px); }
 @media (max-width: 640px) { #mapContainer:has(> #langRows:empty) { min-height: calc(var(--rows, 6) * 96px); } .lang-row-ctrl { min-height: 58px; } }
 
 .map-toolbar {
@@ -841,6 +841,9 @@ select:focus { border-color: var(--accent); outline: none; }
     font-family: 'Noto Sans KR Old Jamo',
         'Segoe UI', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai',
         -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Roboto', 'Arial',
+        /* Linux: a sans face for Latin before the Tibetan webfont, whose Latin
+           subset otherwise set serif text and taller rows on swap (CLS). */
+        'Liberation Sans', 'DejaVu Sans', 'Noto Sans',
         'Noto Serif Tibetan', 'Kailasa', 'Microsoft Himalaya', 'Jomolhari', 'Tibetan Machine Uni',
         sans-serif;
     font-size: 20px;
@@ -1778,7 +1781,9 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
 .lang-picker-code { letter-spacing: 0.5px; }
 
 .lang-picker-menu {
-    position: absolute; top: calc(100% + 5px); left: 0;
+    /* Aligned to the inline end: the picker often sits at the right edge (the
+       URL is hidden at 641-1100px) and the menu ran off the screen. */
+    position: absolute; top: calc(100% + 5px); right: 0;
     z-index: 1300;
     min-width: 190px; max-height: 340px; overflow-y: auto;
     background: #fff; border: 1px solid #e0e0e0; border-radius: 8px;
@@ -1798,7 +1803,7 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
     flex: none; min-width: 30px;
     font-size: 10px; font-weight: 700; letter-spacing: 0.5px; color: #5f6368;
 }
-[dir="rtl"] .lang-picker-menu { left: auto; right: 0; }
+[dir="rtl"] .lang-picker-menu { right: auto; left: 0; }
 
 /* Play ▾ menu item with an optional localized descriptor line (e.g. Langle → a
    short "what is this" so an opaque proper-noun launcher is understandable). */

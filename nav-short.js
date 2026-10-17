@@ -130,7 +130,7 @@
             var icon = Array.prototype.filter.call(items[i].children, function (c) { return c.tagName !== 'svg' && c.tagName !== 'SVG' && c.getAttribute('aria-hidden') !== 'true'; })
                 .map(function (c) { return c.textContent.trim(); }).join('');
             var vis = (icon ? icon + ' ' : '') + s;
-            var nm = full && full !== s ? vis + ', ' + full : vis;
+            var nm = full && full !== s ? vis + ', ' + (icon ? icon + ' ' : '') + full : vis;
             if (items[i].getAttribute('aria-label') !== nm) items[i].setAttribute('aria-label', nm);
         }
     }

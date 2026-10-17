@@ -3051,9 +3051,33 @@ function seo_404(string $msg = 'Page not found', string $ui = 'en'): void
         . "<meta name=\"robots\" content=\"noindex\">"
         . "<style>body{font-family:system-ui,sans-serif;max-width:40rem;margin:4rem auto;padding:0 1rem}</style>"
         // The detail line is an English developer message: mark it as such.
-        . "</head><body><h1>404</h1><p>" . e(seo_t($ui, 'nf_title')) . "</p><p lang=\"en\" dir=\"ltr\" style=\"color:#5c5c72;font-size:.9rem\"><bdi>" . e($msg) . "</bdi></p>"
+        . "</head><body><main><h1>404</h1><p>" . e(seo_t($ui, 'nf_title')) . "</p><p style=\"color:#5c5c72;font-size:.9rem;overflow-wrap:anywhere\"><bdi lang=\"en\" dir=\"ltr\">" . e($msg) . "</bdi></p>"
         . "<p><a href=\"/" . e($ui) . "/wordmap/\">" . e(seo_t($ui, 'nf_wm')) . "</a> · <a href=\"/" . e($ui) . "/hanmap/\">" . e(seo_t($ui, 'nf_hm')) . "</a></p>"
-        . "</body></html>";
+        . "</main></body></html>";
+}
+
+/**
+ * Text colour for a word-order segment: the role colour from the data,
+ * darkened (same hue) until it reaches 4.5:1 on the anchor-row tint #ecf1f7,
+ * the darkest background it sits on. Many role colours were 2-4:1 as text.
+ * The connectors keep the original colour (data-c). Rally review r10.
+ */
+function seo_text_color(string $hex): string
+{
+    static $memo = [];
+    if (isset($memo[$hex])) return $memo[$hex];
+    if (!preg_match('/^#?([0-9a-f]{6})$/i', $hex, $m)) return $memo[$hex] = $hex;
+    $rgb = array_map('hexdec', str_split($m[1], 2));
+    $lum = function (array $c): float {
+        $l = array_map(function ($v) { $v /= 255; return $v <= 0.03928 ? $v / 12.92 : (($v + 0.055) / 1.055) ** 2.4; }, $c);
+        return 0.2126 * $l[0] + 0.7152 * $l[1] + 0.0722 * $l[2];
+    };
+    $bg = $lum([0xec, 0xf1, 0xf7]);
+    for ($i = 0; $i < 40; $i++) {
+        if (($bg + 0.05) / ($lum($rgb) + 0.05) >= 4.6) break;
+        $rgb = array_map(function ($v) { return (int) floor($v * 0.93); }, $rgb);
+    }
+    return $memo[$hex] = sprintf('#%02x%02x%02x', $rgb[0], $rgb[1], $rgb[2]);
 }
 
 /**
@@ -3121,7 +3145,8 @@ function seo_map_embed(?float $lat, ?float $lng, string $label, int $zoom = 5, s
     }).addTo(map);
     // Leaflet derives the default icon path from the stylesheet's URL; pin it.
     L.Icon.Default.imagePath = 'https://unpkg.com/leaflet@1.9.4/dist/images/';
-    L.marker([{$lat}, {$lng}]).addTo(map).bindPopup({$jsLabel});
+    // No shadow: Leaflet's marker-shadow.png has no 2x version (image-size-responsive).
+    L.marker([{$lat}, {$lng}], { icon: new L.Icon.Default({ shadowUrl: '', shadowSize: [0, 0] }) }).addTo(map).bindPopup({$jsLabel});
   }
   if ('IntersectionObserver' in window) {
     var io = new IntersectionObserver(function (es) {
@@ -3425,6 +3450,7 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
    character table alone is ~190 rows. Biggest single cut to load-time layout
    work (Lighthouse TBT, 2026-10-16). The intrinsic size is a placeholder that
    the browser replaces with the real height once a section has rendered. */
+.seo-hero + .seo-section, .seo-hero + .seo-applink + .seo-section { content-visibility: visible !important; contain-intrinsic-size: none !important; } /* first screen: no placeholder (hub CLS) */
 .seo-section, .seo-ex, .seo-related { content-visibility: auto; contain-intrinsic-size: auto 600px;
   overflow-clip-margin: 6px; } /* paint containment would clip focus rings at the edge */
 /* Collapsed regions (~100px) and the nav gain nothing from it, and a 1500px
@@ -4447,7 +4473,7 @@ function seo_comparisons(string $map, string $code, string $ui,
         <?php foreach (($segs ?? []) as $seg):
             $text = $seg[1] ?? ''; $color = $seg[2] ?? '';
             if ($text === '') continue; ?>
-        <span class="wo-seg" lang="<?= e(seo_lang_attr($c)) ?>" data-seg="<?= e($seg[0] ?? '') ?>"<?= $color !== '' ? ' style="color:' . e($color) . '"' : '' ?>><?= e($text) ?></span>
+        <span class="wo-seg" lang="<?= e(seo_lang_attr($c)) ?>" data-seg="<?= e($seg[0] ?? '') ?>"<?= $color !== '' ? ' data-c="' . e($color) . '" style="color:' . e(seo_text_color($color)) . '"' : '' ?>><?= e($text) ?></span>
         <?php endforeach; ?>
       </div>
     </div>
@@ -4464,7 +4490,7 @@ function seo_comparisons(string $map, string $code, string $ui,
                 $segs = $s['segs'][$c] ?? null;
                 if ($segs === null) continue;
                 $rs = [];
-                foreach ($segs as $seg) { $t = $seg[1] ?? ''; if ($t === '') continue; $rs[] = [$t, $seg[2] ?? '', $seg[0] ?? '']; }
+                foreach ($segs as $seg) { $t = $seg[1] ?? ''; if ($t === '') continue; $rs[] = [$t, $seg[2] ?? '', $seg[0] ?? '', seo_text_color((string) ($seg[2] ?? ''))]; }
                 $byCode[$c] = ['n' => $woName($c), 'g' => seo_lang_attr($c), 'l' => $c === $code ? '' : $woLink($c), 's' => $rs];
             }
             $woLazy[$si] = ['t' => $s['title'] ?? '', 'r' => $byCode];
@@ -4657,7 +4683,7 @@ function seo_comparisons(string $map, string $code, string $ui,
           (m[role] = m[role] || []).push({
             x: r.left + r.width / 2 - base.left + sx,
             bottom: r.bottom - base.top + sy, top: r.top - base.top + sy,
-            color: getComputedStyle(s).color || '#999'
+            color: s.getAttribute('data-c') || getComputedStyle(s).color || '#999'   // the role colour, not the darkened text
           });
         });
         rows.push(m);
@@ -4704,7 +4730,7 @@ function seo_comparisons(string $map, string $code, string $ui,
                    : '<span>' + esc(row.n) + '</span>')
           + '</div><div class="cmp-wo-segs">';
         (row.s || []).forEach(function (sg) {
-          h += '<span class="wo-seg" lang="' + lg + '"' + (sg[2] ? ' data-seg="' + esc(sg[2]) + '"' : '') + (sg[1] ? ' style="color:' + esc(sg[1]) + '"' : '') + '>' + esc(sg[0]) + '</span>';
+          h += '<span class="wo-seg" lang="' + lg + '"' + (sg[2] ? ' data-seg="' + esc(sg[2]) + '"' : '') + (sg[1] ? ' data-c="' + esc(sg[1]) + '" style="color:' + esc(sg[3] || sg[1]) + '"' : '') + '>' + esc(sg[0]) + '</span>';
         });
         h += '</div></div>';
       });

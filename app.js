@@ -902,7 +902,7 @@ function createModalToggle(lang) {
         // A keyboard Space toggles the (now focusable) checkbox natively and its
         // click bubbles here: follow it instead of flipping it back.
         if (e.target === cb) { /* native toggle already applied */ }
-        else { e.preventDefault(); cb.checked = !cb.checked; }
+        else { e.preventDefault(); cb.checked = !cb.checked; cb.focus({ preventScroll: true }); }   // focus stays in the dialog
         if (cb.checked) {
             modalPendingLangs.add(lang.code);
             label.classList.add('active');
@@ -982,7 +982,9 @@ function updateLangSummary() {
     }
 }
 
+let _modalSyncers = [];
 function openLangModal() {
+    _modalSyncers = [];
     modalPendingLangs = new Set([...enabledLangs].filter(c => hasLangData(c)));
     const body = document.getElementById('langModalBody');
     body.innerHTML = '';
@@ -1020,7 +1022,7 @@ function openLangModal() {
         };
         syncPressed();
         groupDiv.addEventListener('click', () => setTimeout(syncPressed, 0));
-        document.getElementById('langModalBody').addEventListener('langmap:modalsync', syncPressed);
+        _modalSyncers.push(syncPressed);   // reset on each open (no listener pile-up)
         header.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); header.click(); } });
         groupDiv.appendChild(header);
 
@@ -1108,7 +1110,7 @@ function modalToggleAll(on) {
         cb.checked = modalPendingLangs.has(code);
         label.classList.toggle('active', modalPendingLangs.has(code));
     });
-    document.getElementById('langModalBody').dispatchEvent(new Event('langmap:modalsync'));
+    _modalSyncers.forEach((f) => f());
 }
 
 // --- Row drag (reorder from the map display — insert between rows) ---

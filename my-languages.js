@@ -495,7 +495,8 @@
         if (onClick) {
             b.innerHTML = BACK_ICON + '<span>' + esc(T('back')) + '</span>';
             b.style.display = '';
-            b.onclick = onClick;
+            // The button hides itself on the way back: focus the view's main action.
+            b.onclick = function () { onClick(); var f = panelBody.querySelector('.mylang-act.primary') || panelBody.querySelector('button'); if (f) try { f.focus({ preventScroll: true }); } catch (_) {} };
         } else { b.style.display = 'none'; b.onclick = null; }
     }
 
@@ -524,6 +525,8 @@
         addInput = el('input', 'mylang-add');
         addInput.type = 'text'; addInput.placeholder = T('add_ph'); addInput.autocomplete = 'off';
         suggBox = el('div', 'mylang-sugg');
+        // Driven from the input by the arrow keys: not a Tab stop of its own.
+        suggBox.tabIndex = -1; suggBox.setAttribute('role', 'listbox'); suggBox.setAttribute('aria-label', T('add_ph'));
         addInput.addEventListener('input', onSearch);
         addInput.addEventListener('keydown', onSearchKey);
         addInput.addEventListener('focus', onSearch);

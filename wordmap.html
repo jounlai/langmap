@@ -87,7 +87,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=144">
+    <link rel="stylesheet" href="styles.css?v=146">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts. Without these the characters render
          as tofu boxes: desktop Linux often ships the Noto historic fonts, but
@@ -3036,7 +3036,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=16"></script>
+    <script src="nav-short.js?v=17"></script>
 </head>
 <body>
     <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Word Map</h1>
@@ -3731,7 +3731,7 @@
            per-word loader can read it", which was the intent all along — only
            the order was wrong. */
         const WM_ASSET_VERSION = {
-            styles:   144,
+            styles:   146,
             data:      342,
             metaI18n:  16,
             filter:    49,
@@ -7794,7 +7794,7 @@
         document.addEventListener('keydown', (e) => {
             if (e.key !== 'Escape') return;
             // A game / article / dialog on top takes this Escape by itself.
-            if (window.__wmOpenGame || document.querySelector('#trivia-modal.visible, .mylang-overlay.open')) return;
+            if (window.__wmOpenGame || document.querySelector('#trivia-modal.visible, .mylang-overlay.open, #word-modal.visible, #play-menu.open')) return;
             if (infoPanel.classList.contains('visible')) closeInfoPanel();
             const lf = document.querySelector('.lf-panel.open');
             if (lf) lf.classList.remove('open');
@@ -10612,6 +10612,9 @@
             // language modal / compare panel / blinks / spotlight from
             // before. No snapshot is taken; on close the map simply
             // stays wherever the article left it.
+            // Remember the opener before the reset (closing the info panel can move
+            // focus into the search box, which must not become the return target).
+            { const _tm = document.getElementById('trivia-modal'); if (_tm && !_tm.classList.contains('visible')) _tm._wmReturn = document.activeElement; }
             _resetTriviaSurface();
             // If no specific article requested, show the index. If a
             // requested id matches an article, open that. Otherwise
@@ -10624,7 +10627,6 @@
             const backdrop = document.getElementById('trivia-backdrop');
             // Remember what opened it (focus goes back there on close) and read
             // right to left in ar/he.
-            if (!modal.classList.contains('visible')) modal._wmReturn = document.activeElement;
             modal.dir = /^(ar|he)/.test(String(uiLang || '')) ? 'rtl' : 'ltr';
             backdrop.classList.add('visible');
             backdrop.setAttribute('aria-hidden', 'false');
@@ -10658,7 +10660,7 @@
             if (scroll) scroll.scrollTop = 0;
             if (typeof updateHash === 'function') updateHash({ push: true });
             // The focused card / back button is now hidden: keep focus in the dialog.
-            { const tm = document.getElementById('trivia-modal'); if (tm && !tm.contains(document.activeElement)) { const h = document.getElementById('trivia-heading'); if (h) h.focus({ preventScroll: true }); } }
+            { const tm = document.getElementById('trivia-modal'), ae = document.activeElement; if (tm && (!tm.contains(ae) || !ae.getClientRects().length)) { const h = document.getElementById('trivia-heading'); if (h) h.focus({ preventScroll: true }); } }
         }
         function backToTriviaIndex() {
             _resetTriviaSurface();
@@ -10668,7 +10670,7 @@
             if (_scrollBack) _scrollBack.scrollTop = 0;
             if (typeof updateHash === 'function') updateHash();
             // The focused card / back button is now hidden: keep focus in the dialog.
-            { const tm = document.getElementById('trivia-modal'); if (tm && !tm.contains(document.activeElement)) { const h = document.getElementById('trivia-heading'); if (h) h.focus({ preventScroll: true }); } }
+            { const tm = document.getElementById('trivia-modal'), ae = document.activeElement; if (tm && (!tm.contains(ae) || !ae.getClientRects().length)) { const h = document.getElementById('trivia-heading'); if (h) h.focus({ preventScroll: true }); } }
         }
         // aria-modal: keep Tab inside the article (it walked out to the map controls).
         (function () {
@@ -10689,6 +10691,7 @@
             if (modal.classList.contains('visible')) {
                 const ok = (x) => x && x.isConnected && x !== document.body && x.getClientRects().length && getComputedStyle(x).visibility !== 'hidden' && !x.closest('[inert], [aria-hidden="true"]');
                 let r = modal._wmReturn; modal._wmReturn = null;
+                if (r && r.tagName === 'INPUT') r = null;   // never pop a phone keyboard on close
                 if (!ok(r)) r = ['#play-menu-btn', '#trivia-open', '.hamburger-btn'].map((q) => document.querySelector(q)).find(ok);
                 if (r) setTimeout(() => { try { r.focus(); } catch (_) {} }, 0);
             }
@@ -11999,7 +12002,7 @@
                 if (e.ctrlKey || e.metaKey || e.altKey) return;
                 const t = e.target; if (t && /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName)) return;
                 // Enter/Space on another button (Close, share) is that button's.
-                if (t && t.closest && t.closest('button') && !t.closest('.wq-next, .wq-opt')) return;
+                if ((e.key === 'Enter' || e.key === ' ') && t && t.closest && t.closest('button') && !t.closest('.wq-next, .wq-opt')) return;
                 if (!qs.length || idx >= qs.length) return;
                 if (!answered) {
                     const n = '123456789'.indexOf(e.key);
@@ -12218,16 +12221,16 @@
 
     <script src="/pwa.js?v=2"></script>
     <script src="share-button.js?v=4"></script>
-    <script src="lang-picker.js?v=7"></script>
+    <script src="lang-picker.js?v=8"></script>
     <!-- "My languages" share-card feature; poster_geo.js supplies the Natural-Earth
          projection its world-map card is drawn with. -->
     <script src="poster_geo.js?v=12"></script>
-    <script src="my-languages.js?v=26"></script>
+    <script src="my-languages.js?v=27"></script>
     <!-- Language Master game (🏅 in the Play menu). master.js is parked as
          text/plain (not fetched at first paint, as hanmap_trivia.js is) and
          injected the first time the game opens. The stub below only labels
          the launcher and loads the module on demand. -->
-    <script type="text/plain" id="master-src" src="master.js?v=14"></script>
+    <script type="text/plain" id="master-src" src="master.js?v=15"></script>
     <script>
     (function () {
         'use strict';

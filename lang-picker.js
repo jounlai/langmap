@@ -110,10 +110,17 @@
                 it.setAttribute('aria-selected', it.dataset.value === sel.value ? 'true' : 'false');
             });
         }
+        // Scroll only the menu (scrollIntoView also scrolled the overflow:hidden
+        // page body sideways / down, and it stayed there).
+        function scrollMenuTo(el) {
+            var t = el.offsetTop, b = t + el.offsetHeight;
+            if (t < menu.scrollTop) menu.scrollTop = t;
+            else if (b > menu.scrollTop + menu.clientHeight) menu.scrollTop = b - menu.clientHeight;
+        }
         function open() {
             menu.classList.add('open'); btn.setAttribute('aria-expanded', 'true'); sync();
             var cur = menu.querySelector('[aria-selected="true"]') || menu.firstElementChild;
-            if (cur) try { cur.focus({ preventScroll: true }); cur.scrollIntoView({ block: 'nearest' }); } catch (_) {}
+            if (cur) try { cur.focus({ preventScroll: true }); scrollMenuTo(cur); } catch (_) {}
         }
         // Listbox keyboard model: arrows, Home/End, typeahead, Enter/Space, Tab closes.
         wrap.addEventListener('keydown', function (e) {
@@ -122,18 +129,19 @@
                 return;
             }
             var items = [].slice.call(menu.children), i = items.indexOf(document.activeElement);
-            var go = function (k) { var t = items[(k + items.length) % items.length]; if (t) { t.focus({ preventScroll: true }); t.scrollIntoView({ block: 'nearest' }); } };
+            var go = function (k) { var t = items[(k + items.length) % items.length]; if (t) { t.focus({ preventScroll: true }); scrollMenuTo(t); } };
             if (e.key === 'ArrowDown') { e.preventDefault(); go(i + 1); }
             else if (e.key === 'ArrowUp') { e.preventDefault(); go(i < 0 ? items.length - 1 : i - 1); }
             else if (e.key === 'Home') { e.preventDefault(); go(0); }
             else if (e.key === 'End') { e.preventDefault(); go(items.length - 1); }
             else if (e.key === 'Tab') { close(); }
             else if ((e.key === 'Enter' || e.key === ' ') && i >= 0) { e.preventDefault(); items[i].click(); btn.focus(); }
-            else if (e.key.length === 1 && /\S/.test(e.key)) {
+            else if (e.key.length === 1 && /\S/.test(e.key) && !e.ctrlKey && !e.metaKey && !e.altKey) {
                 var ch = e.key.toLowerCase();
                 for (var k = 1; k <= items.length; k++) {
                     var t = items[(Math.max(i, 0) + k) % items.length];
-                    if ((t.dataset.value || '').toLowerCase().indexOf(ch) === 0 || (t.textContent || '').trim().toLowerCase().indexOf(ch) === 0) { e.preventDefault(); go(items.indexOf(t)); break; }
+                    var nmEl = t.querySelector('.lang-picker-item-name'), nmTx = nmEl ? nmEl.textContent.trim().toLowerCase() : '';
+                    if ((t.dataset.value || '').toLowerCase().indexOf(ch) === 0 || nmTx.indexOf(ch) === 0) { e.preventDefault(); go(items.indexOf(t)); break; }
                 }
             }
         });
@@ -165,6 +173,8 @@
         // Keep the shown code in step with programmatic / external language changes.
         sel.addEventListener('change', sync);
         window.addEventListener('langmap:uichange', sync);
+        // Time Map sets <html lang> only after the language file loads: follow it.
+        new MutationObserver(sync).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
 
         sync();
         return true;

@@ -62,7 +62,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=144">
+    <link rel="stylesheet" href="styles.css?v=146">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -334,7 +334,7 @@
         @media (min-width: 641px) { .tm-map-ctl:not(:has(> .chrome-toggle-btn))::before { content: ''; height: 40px; } }
         #tm-era { min-height: 20px; }
 </style>
-    <script src="nav-short.js?v=16"></script>
+    <script src="nav-short.js?v=17"></script>
 </head>
 <body>
     <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Time Map</h1>
@@ -573,17 +573,21 @@
             // it to what is left below that line (it then scrolls).
             // Run after every pan settles (the maxBounds snap-back starts ~250ms
             // after the autoPan), while this popup is open.
+            pp._tmFullH=maxH;
             const clamp=()=>{
                 const w=pp.getElement && pp.getElement(); if(!w || !map.hasLayer(pp)) return;
-                const wr=w.getBoundingClientRect(), limit=mapR.top+top-8;
-                if(wr.top < limit){
-                    const c=w.querySelector('.leaflet-popup-content'); if(!c) return;
-                    const h=Math.max(120, Math.round(c.getBoundingClientRect().height-(limit-wr.top)));
-                    if(h < (pp.options.maxHeight||Infinity)){ pp.options.maxHeight=h; const ap=pp.options.autoPan; pp.options.autoPan=false; pp.update(); pp.options.autoPan=ap; }
+                const c=w.querySelector('.leaflet-popup-content'); if(!c) return;
+                // Fresh measurements each time: the popup can grow back after a pan.
+                const mr=document.getElementById('map').getBoundingClientRect();
+                const limit=mr.top+top-8, wr=w.getBoundingClientRect();
+                const want=Math.max(120, Math.min(pp._tmFullH||maxH, Math.round(c.getBoundingClientRect().height+(wr.top-limit))));
+                const cur=pp.options.maxHeight||Infinity;
+                if((wr.top < limit && want < cur) || (wr.top > limit+4 && want > cur+2)){
+                    pp.options.maxHeight=want; const ap=pp.options.autoPan; pp.options.autoPan=false; pp.update(); pp.options.autoPan=ap;
                 }
-                // A clamped popup scrolls: make that region reachable by keyboard.
-                const c2=w.querySelector('.leaflet-popup-content');
-                if(c2 && c2.scrollHeight > c2.clientHeight+1){ c2.tabIndex=0; c2.setAttribute('role','region'); c2.setAttribute('aria-label', (w.querySelector('.tm-pop-name, h3, b')||{}).textContent || 'Calendar'); }
+                // A popup that scrolls is a focusable region; one that does not, is not.
+                if(c.scrollHeight > c.clientHeight+1){ c.tabIndex=0; c.setAttribute('role','region'); c.setAttribute('aria-label', (w.querySelector('.tm-pop-name, h3, b')||{}).textContent || 'Calendar'); }
+                else { c.removeAttribute('tabindex'); c.removeAttribute('role'); c.removeAttribute('aria-label'); }
             };
             let tmo=null; const onEnd=()=>{ clearTimeout(tmo); tmo=setTimeout(clamp, 50); };
             if(pp._tmClamp) map.off('moveend', pp._tmClamp);
@@ -629,7 +633,13 @@
                 // Re-place labels: the open one goes first (relaxLabels), and
                 // on close the others get their spots back.
                 mk.on('popupopen', e=>{ openId=cal.id; markActive(); requestAnimationFrame(relaxLabels); fitPopupPad(e.popup); });
-                mk.on('popupclose', ()=>{ if(openId===cal.id){ openId=null; markActive(); requestAnimationFrame(relaxLabels); } });
+                mk.on('popupclose', e=>{
+                    // Focus was in the popup (or lost with it): back to the marker. Not
+                    // when it sits in some other control (the date box, a menu).
+                    const ae=document.activeElement, pe=e.popup && e.popup.getElement && e.popup.getElement();
+                    if(ae===document.body || (pe && pe.contains(ae))){ const el=mk.getElement&&mk.getElement(); if(el) setTimeout(()=>{ try{ el.focus({preventScroll:true}); }catch(_){} },0); }
+                    if(openId===cal.id){ openId=null; markActive(); requestAnimationFrame(relaxLabels); }
+                });
                 mk.addTo(map); markers[cal.id]=mk;
                 // Leaflet gives the marker role=button; a hidden (de-collided) label
                 // leaves it nameless, so name it explicitly (Lighthouse aria-command-name).
@@ -761,9 +771,8 @@
         // the popover / sheet / dialogs above it take the key first.
         window.addEventListener('keydown', e=>{
             if(e.key!=='Escape' || e.defaultPrevented || !map || !openId || !markers[openId] || !markers[openId].isPopupOpen()) return;
-            if(document.querySelector('[aria-modal="true"]') || document.getElementById('tm-panel').classList.contains('info-open')) return;
-            const mk=markers[openId]; map.closePopup();
-            const el=mk.getElement&&mk.getElement(); if(el) try{ el.focus({preventScroll:true}); }catch(_){}
+            if(document.querySelector('[aria-modal="true"]') || (SHEET_MQ.matches && document.getElementById('tm-panel').classList.contains('info-open'))) return;
+            map.closePopup();   // popupclose hands focus back to the marker when it was in the popup
         });
         // A closed sheet is only moved off-screen: keep its 50 rows out of the Tab order.
         function syncSheetInert(){ const info=document.getElementById('tm-info'); if(info) info.inert = SHEET_MQ.matches && !document.getElementById('tm-panel').classList.contains('info-open'); }
@@ -899,6 +908,6 @@
     </script>
     <script src="/pwa.js?v=2"></script>
     <script src="share-button.js?v=4"></script>
-    <script src="lang-picker.js?v=7"></script>
+    <script src="lang-picker.js?v=8"></script>
 </body>
 </html>

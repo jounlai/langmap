@@ -617,7 +617,7 @@ function detectUILang() {
 // which produced labels like "日本語(標準)" instead of the clean "日本語"
 // shown on wordmap/tree.html.)
 const HEADER_UI_LANG_NATIVE = {
-    ja:'日本語', ko:'한국어', zh:'中文', yue:'粤语', vi:'Tiếng Việt',
+    ja:'日本語', ko:'한국어', zh:'中文', yue:'粵語', vi:'Tiếng Việt',
     th:'ไทย', id:'Indonesia', hi:'हिन्दी', en:'English', de:'Deutsch',
     fr:'Français', it:'Italiano',
     es:'Español', pt:'Português',
@@ -2251,7 +2251,9 @@ function enterEditMode(row, langCode) {
     addBtn.className = 'add-segment-btn';
     addBtn.type = 'button';
     addBtn.textContent = '+';
-    addBtn.title = t('addSegment') || 'Add segment';
+    // t() returns the key itself when a string is missing.
+    addBtn.title = (t('addSegment') !== 'addSegment' && t('addSegment')) || 'Add segment';
+    addBtn.setAttribute('aria-label', addBtn.title);
     addBtn.addEventListener('click', (e) => {
         e.stopPropagation();
         showAddSegmentMenu(addBtn, textDiv, langCode, sentence);
@@ -2260,6 +2262,13 @@ function enterEditMode(row, langCode) {
 
     // Redraw lines so they stay connected with the input elements
     scheduleRedrawLines();
+    // A modal editor: named dialog, the page behind it inert, and start in the
+    // first field (focus was left on <body>, Tab walked the page behind).
+    const _row = document.querySelector('body > .lang-row.editing');
+    if (_row) { _row.setAttribute('role', 'dialog'); _row.setAttribute('aria-modal', 'true'); _row.setAttribute('aria-label', langName(langCode)); }
+    const _ct = document.querySelector('.container'); if (_ct) _ct.inert = true;
+    const _first = document.querySelector('body > .lang-row.editing .segment-input');
+    if (_first) setTimeout(() => _first.focus(), 0);
 }
 
 function createSegmentWrapper(seg, langCode) {
@@ -2283,6 +2292,7 @@ function createSegmentWrapper(seg, langCode) {
     input.dataset.seg = seg.dataset.seg;
     input.dataset.lang = seg.dataset.lang || langCode;
     input.placeholder = hasDualText ? 'Text' : '';
+    input.setAttribute('aria-label', langName(langCode) + ' ' + (seg.dataset.seg || ''));
     let translitInput = null;
     if (hasDualText) {
         translitInput = document.createElement('input');
@@ -2356,6 +2366,7 @@ function createSegmentWrapper(seg, langCode) {
     moveLeft.type = 'button';
     moveLeft.className = 'seg-move-btn';
     moveLeft.textContent = '◀';
+    moveLeft.setAttribute('aria-label', 'Move left');
     moveLeft.addEventListener('click', (e) => {
         e.stopPropagation();
         const prev = wrapper.previousElementSibling;
@@ -2368,6 +2379,7 @@ function createSegmentWrapper(seg, langCode) {
     moveRight.type = 'button';
     moveRight.className = 'seg-move-btn';
     moveRight.textContent = '▶';
+    moveRight.setAttribute('aria-label', 'Move right');
     moveRight.addEventListener('click', (e) => {
         e.stopPropagation();
         const next = wrapper.nextElementSibling;
@@ -2594,6 +2606,7 @@ function showAddSegmentMenu(anchorBtn, textDiv, langCode, sentence) {
     menu.style.left = rect.left + 'px';
     menu.style.top = rect.bottom + 4 + 'px';
     document.body.appendChild(menu);
+    menuKeyboard(menu, anchorBtn);
 
     // Close on outside click
     const closeHandler = (e) => {
@@ -2695,6 +2708,7 @@ function showChangeSegMenu(badge, wrapper, input, sentence) {
     menu.style.top = rect.bottom + 4 + 'px';
     menu.style.zIndex = '200';
     document.body.appendChild(menu);
+    menuKeyboard(menu, badge);
 
     const closeHandler = (e) => {
         if (!menu.contains(e.target) && e.target !== badge) {
@@ -2891,7 +2905,9 @@ function cancelEdit(row, langCode) {
 }
 
 function exitEditMode() {
+    const _lang = editingRow && editingRow.lang;
     editingRow = null;
+    const _ct = document.querySelector('.container'); if (_ct) _ct.inert = false;
     // Remove overlay
     const overlay = document.getElementById('editOverlay');
     if (overlay) overlay.remove();
@@ -2899,11 +2915,36 @@ function exitEditMode() {
     const editingEl = document.querySelector('body > .lang-row.editing');
     if (editingEl) editingEl.remove();
     render();
+    // render() rebuilt the rows: back to that row's Edit button.
+    if (_lang) { const b = document.querySelector('.lang-row[data-lang="' + CSS.escape(_lang) + '"] .edit-btn'); if (b) b.focus({ preventScroll: true }); }
+}
+
+// The add-segment menus: items reachable and operable by keyboard.
+function menuKeyboard(menu, opener) {
+    menu.setAttribute('role', 'menu');
+    const items = [...menu.querySelectorAll('.add-segment-menu-item')];
+    items.forEach((it) => {
+        it.setAttribute('role', 'menuitem'); it.tabIndex = -1;
+        it.addEventListener('keydown', (e) => {
+            const i = items.indexOf(it);
+            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); it.click(); }
+            else if (e.key === 'ArrowDown') { e.preventDefault(); (items[i + 1] || items[0]).focus(); }
+            else if (e.key === 'ArrowUp') { e.preventDefault(); (items[i - 1] || items[items.length - 1]).focus(); }
+        });
+    });
+    menu._opener = opener;
+    if (items[0]) setTimeout(() => items[0].focus(), 0);
 }
 
 // Keyboard shortcuts
 document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && editingRow) { exitEditMode(); return; }
+    if (e.key === 'Escape' && editingRow) {
+        // An open add-segment menu closes first; the edit itself survives.
+        const m = document.querySelector('.add-segment-menu');
+        if (m) { const o = m._opener; m.remove(); if (o) o.focus(); return; }
+        exitEditMode(); return;
+    }
+    if (e.altKey || e.ctrlKey || e.metaKey) return;   // Alt+Left is the browser's Back
     if (e.target.tagName === 'SELECT' || e.target.tagName === 'INPUT') return;
     if (document.getElementById('langModalOverlay')?.classList.contains('open')) return;
     if (e.key === 'ArrowLeft') prevSentence();

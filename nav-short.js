@@ -268,6 +268,29 @@
         // panel, compare panel) must not also run for this key press.
         if (closeOpen()) e.stopImmediatePropagation();
     });
+    // role=radiogroup switches (era, name display): arrows move the choice and
+    // focus; one Tab stop (the checked option). Pages that handle their own
+    // arrows call preventDefault first and are left alone.
+    document.addEventListener('keydown', function (e) {
+        if (e.defaultPrevented || !/^Arrow(Left|Right|Up|Down)$/.test(e.key)) return;
+        var r = e.target && e.target.closest && e.target.closest('[role="radiogroup"] [role="radio"]');
+        if (!r) return;
+        var opts = [].slice.call(r.closest('[role="radiogroup"]').querySelectorAll('[role="radio"]'));
+        var i = opts.indexOf(r), d = (e.key === 'ArrowLeft' || e.key === 'ArrowUp') ? -1 : 1;
+        var n = opts[(i + d + opts.length) % opts.length];
+        if (!n || n === r) return;
+        e.preventDefault(); n.click(); n.focus();
+    });
+    function syncRadios() {
+        var gs = document.querySelectorAll('[role="radiogroup"]');
+        for (var g = 0; g < gs.length; g++) {
+            var rs = gs[g].querySelectorAll('[role="radio"]'), any = false;
+            for (var k = 0; k < rs.length; k++) { var on = rs[k].getAttribute('aria-checked') === 'true'; rs[k].tabIndex = on ? 0 : -1; any = any || on; }
+            if (!any && rs[0]) rs[0].tabIndex = 0;
+        }
+    }
+    new MutationObserver(syncRadios).observe(document.documentElement, { subtree: true, attributes: true, attributeFilter: ['aria-checked'] });
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', syncRadios); else syncRadios();
     function syncExpanded() {
         var bs = document.querySelectorAll('button[data-toggle]');
         for (var i = 0; i < bs.length; i++) {

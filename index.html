@@ -60,7 +60,7 @@
         ]
     }
     </script>
-    <link rel="stylesheet" href="styles.css?v=146">
+    <link rel="stylesheet" href="styles.css?v=148">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Gentium Plus / Charis SIL carry the Egyptological alef ꜣ (U+A723) and
@@ -97,11 +97,11 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <script src="nav-short.js?v=17"></script>
+    <script src="nav-short.js?v=18"></script>
 </head>
 <body>
-    <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap</h1>
-    <div class="site-header-bar">
+    <header class="site-header-bar">
+        <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap</h1>
         <a href="#" onclick="resetToDefaults(); return false;" class="logo"><span id="uiTitle">LangMap</span><span class="logo-badge logo-badge-order" aria-label="Word Order" title="Word Order"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="15" y2="12"/><line x1="3" y1="18" x2="18" y2="18"/></svg></span></a>
         <input type="checkbox" id="hdr-menu-toggle" class="hdr-menu-toggle" aria-label="Menu toggle" tabindex="-1" aria-hidden="true">
         <button type="button" class="hamburger-btn" data-toggle="hdr-menu-toggle" aria-expanded="false" aria-label="Menu" aria-controls="header-collapse"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg></button>
@@ -120,7 +120,7 @@
             <select id="header-ui-lang" class="header-ui-lang" aria-label="UI language"></select>
             <a class="header-url" href="https://langmaps.com">langmaps.com</a>
         </div>
-    </div>
+    </header>
     <!-- Backdrop lives OUTSIDE the header bar so backdrop-filter on the
          header doesn't trap it inside the header's stacking context. -->
     <div class="header-backdrop" id="header-backdrop" aria-hidden="true"></div>
@@ -201,7 +201,7 @@
         <div class="rtl-note" id="rtlNote" style="display:none">
             <span id="rtlNoteText"></span>
             <label class="rtl-switch">
-                <input type="checkbox" id="rtlToggle" onchange="toggleRtlNative(this.checked)">
+                <input type="checkbox" id="rtlToggle" role="switch" onchange="toggleRtlNative(this.checked)">
                 <span class="rtl-switch-slider"></span>
                 <span id="rtlToggleLabel"></span>
             </label>
@@ -250,7 +250,7 @@
         </div>
     </div>
 
-    <div class="copy-toast" id="copyToast">URLをコピーしました</div>
+    <div class="copy-toast" id="copyToast" role="status" aria-live="polite">URLをコピーしました</div>
 
     <!-- UI polish: back-to-top button (appears after scrolling past 400px). -->
     <button type="button" id="back-to-top" class="back-to-top" aria-label="Scroll to top" hidden>↑</button>
@@ -295,7 +295,7 @@
     <script src="lang_names_shim.js?v=3"></script>
     <script src="lang_names/en.js?v=203"></script>
     <script>window.__langNamesVersion(203); window.__langNamesBoot();</script>
-    <script src="app.js?v=85"></script>
+    <script src="app.js?v=87"></script>
     <script src="/pwa.js?v=2"></script>
     <script src="share-button.js?v=4"></script>
     <script src="lang-picker.js?v=8"></script>

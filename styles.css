@@ -686,7 +686,8 @@ select:focus { border-color: var(--accent); outline: none; }
     font-weight: 600;
     white-space: nowrap;
 }
-.rtl-switch input { display: none; }
+.rtl-switch input { position: absolute; opacity: 0; width: 1px; height: 1px; margin: 0; }   /* hidden but keyboard-reachable */
+.rtl-switch input:focus-visible + .rtl-switch-slider { outline: 2px solid var(--accent); outline-offset: 2px; }
 .rtl-switch-slider {
     position: relative;
     width: 34px;
@@ -1248,11 +1249,12 @@ select:focus { border-color: var(--accent); outline: none; }
     border-radius: 20px;
     font-size: 13px;
     opacity: 0;
-    transition: opacity 0.3s;
+    visibility: hidden;   /* out of the accessibility tree until shown */
+    transition: opacity 0.3s, visibility 0s 0.3s;
     pointer-events: none;
     z-index: 1000;
 }
-.copy-toast.show { opacity: 1; }
+.copy-toast.show { opacity: 1; visibility: visible; transition-delay: 0s; }
 
 /* UI polish: back-to-top floating button (used by index.html and tree.html). */
 .back-to-top {
@@ -1785,7 +1787,7 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
        URL is hidden at 641-1100px) and the menu ran off the screen. */
     position: absolute; top: calc(100% + 5px); right: 0;
     z-index: 1300;
-    min-width: 190px; max-height: 340px; overflow-y: auto;
+    min-width: 190px; max-height: min(340px, calc(100dvh - 60px)); overflow-y: auto;   /* landscape phones */
     background: #fff; border: 1px solid #e0e0e0; border-radius: 8px;
     box-shadow: 0 6px 22px rgba(0,0,0,0.16);
     padding: 4px; display: none;
@@ -1815,3 +1817,7 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
 #lm-quiz-box, #lm-hquiz-box, #lm-quiz-box *, #lm-hquiz-box * { scrollbar-width: none; -ms-overflow-style: none; }
 #lm-quiz-box::-webkit-scrollbar, #lm-hquiz-box::-webkit-scrollbar,
 #lm-quiz-box *::-webkit-scrollbar, #lm-hquiz-box *::-webkit-scrollbar { width: 0; height: 0; display: none; }
+
+/* Row Copy / Edit buttons appear on hover; show them for keyboard focus too. */
+.lang-row:focus-within .edit-btn, .lang-row:focus-within .copy-btn,
+.edit-btn:focus-visible, .copy-btn:focus-visible { opacity: 1; }

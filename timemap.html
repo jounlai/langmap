@@ -62,7 +62,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=146">
+    <link rel="stylesheet" href="styles.css?v=148">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -334,11 +334,11 @@
         @media (min-width: 641px) { .tm-map-ctl:not(:has(> .chrome-toggle-btn))::before { content: ''; height: 40px; } }
         #tm-era { min-height: 20px; }
 </style>
-    <script src="nav-short.js?v=17"></script>
+    <script src="nav-short.js?v=18"></script>
 </head>
 <body>
-    <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Time Map</h1>
-    <div class="site-header-bar">
+    <header class="site-header-bar">
+        <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Time Map</h1>
         <a href="index.html" class="logo">LangMap<span class="logo-badge logo-badge-time" aria-label="TimeMap" title="TimeMap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 7.5V12l3 2"/></svg></span></a>
         <input type="checkbox" id="hdr-menu-toggle" class="hdr-menu-toggle" aria-label="Menu toggle" tabindex="-1" aria-hidden="true">
         <button type="button" id="chrome-toggle" class="chrome-toggle-btn" aria-label="Simple display" title="Simple display" aria-pressed="false">
@@ -361,7 +361,7 @@
             <select id="header-ui-lang" class="header-ui-lang" aria-label="UI language"></select>
             <a class="header-url" href="https://langmaps.com">langmaps.com</a>
         </div>
-    </div>
+    </header>
     <div class="header-backdrop" id="header-backdrop" aria-hidden="true"></div>
 
     <div class="tm-stage">
@@ -387,7 +387,8 @@
             </div>
         </aside>
         <div id="map"></div>
-        <div id="tm-simple-date" class="tm-simple-date" aria-hidden="true"></div>
+        <div id="tm-simple-date" class="tm-simple-date"></div>
+        <div id="tm-live" role="status" aria-live="polite" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap"></div>
         <div class="tm-map-ctl" id="tm-map-ctl">
             <div class="map-zoom-controls" role="group" aria-label="Map zoom">
                 <button type="button" id="tm-zoom-in" aria-label="Zoom in" title="Zoom in">+</button>
@@ -738,6 +739,8 @@
             document.getElementById('tm-simple-date').textContent=s;
             if(openId && markers[openId]){ if(!markers[openId].isPopupOpen()) markers[openId].openPopup(); } else if(openId){ openId=null; markActive(); }
             if(!opts || opts.hash!==false) updateHash();
+            // Step / Today buttons change the date out of sight: announce it.
+            if(opts && opts.announce){ const lv=document.getElementById('tm-live'); if(lv) lv.textContent=s; }
         }
 
         /* ---------- Mobile sheet + chrome toggle ---------- */
@@ -821,6 +824,7 @@
             document.querySelectorAll('#tm-era .radio-opt').forEach(b=>{
                 const k=b.getAttribute('data-era'), on=k===era;
                 b.classList.toggle('active', on); b.setAttribute('aria-checked', on?'true':'false');
+                b.tabIndex = on ? 0 : -1;   // radiogroup: one Tab stop, arrows move
                 const label=t(k==='modern'?'fCurrent':'fHist');
                 b.textContent = narrow ? label : label+' ('+n[k]+')';
             });
@@ -848,10 +852,16 @@
 
             document.getElementById('tm-date').value=dateStr;
             document.getElementById('tm-date').addEventListener('change', e=>{ if(e.target.value) setDate(e.target.value); });
-            document.getElementById('tm-prev').addEventListener('click', ()=>setDate(shiftDay(dateStr,-1)));
-            document.getElementById('tm-next').addEventListener('click', ()=>setDate(shiftDay(dateStr,1)));
-            document.getElementById('tm-today').addEventListener('click', ()=>setDate(todayStr()));
+            document.getElementById('tm-prev').addEventListener('click', ()=>setDate(shiftDay(dateStr,-1), {announce:true}));
+            document.getElementById('tm-next').addEventListener('click', ()=>setDate(shiftDay(dateStr,1), {announce:true}));
+            document.getElementById('tm-today').addEventListener('click', ()=>setDate(todayStr(), {announce:true}));
             document.querySelectorAll('#tm-era .radio-opt').forEach(b=>b.addEventListener('click', ()=>setEra(b.getAttribute('data-era'))));
+            document.getElementById('tm-era').addEventListener('keydown', e=>{
+                if(!/^Arrow(Left|Right|Up|Down)$/.test(e.key)) return;
+                e.preventDefault();
+                const other=era==='modern'?'historical':'modern'; setEra(other);
+                const b=document.querySelector('#tm-era .radio-opt[data-era="'+other+'"]'); if(b) b.focus();
+            });
             document.getElementById('tm-details-btn').addEventListener('click', openInfoSheet);
             document.getElementById('tm-sheet-backdrop').addEventListener('click', closeInfoSheet);
             document.getElementById('tm-info-close').addEventListener('click', closeInfoSheet);

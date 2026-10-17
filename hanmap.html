@@ -51,6 +51,21 @@
     </script>
     <meta name="google-site-verification" content="bv4ffQGbDc_Grf1Ioc8NCotrXWc2mY34wEmL-5yHJyM" />
     <script>
+    // Keep Tab inside a modal (installed once per element).
+    window.__hmTrapTab = function (root) {
+        if (!root || root._hmTrap) return;
+        root._hmTrap = true;
+        root.addEventListener('keydown', function (e) {
+            if (e.key !== 'Tab') return;
+            var f = [].filter.call(root.querySelectorAll('button, a[href], input, select, textarea, [tabindex="0"]'), function (x) { return !x.disabled && x.getClientRects().length; });
+            if (!f.length) return;
+            var first = f[0], last = f[f.length - 1];
+            if (e.shiftKey && (document.activeElement === first || !root.contains(document.activeElement))) { e.preventDefault(); last.focus(); }
+            else if (!e.shiftKey && (document.activeElement === last || !root.contains(document.activeElement))) { e.preventDefault(); first.focus(); }
+        });
+    };
+    </script>
+    <script>
         // Production-only GA firing: hostname-gated so dev/local/staging
         // traffic doesn't pollute the analytics property. Branches (develop
         // and main) stay identical — no per-branch divergence to maintain.
@@ -77,7 +92,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=146">
+    <link rel="stylesheet" href="styles.css?v=148">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -2689,7 +2704,7 @@
             flex: 0 0 auto;
             font-size: 12px;
             font-weight: 600;
-            color: #888;
+            color: #666;
             min-width: 40px;
             padding-top: 4px;
             line-height: 1.3;
@@ -2728,6 +2743,7 @@
             color: #fff;
         }
         .hm-lf-chip.active:hover { background: #1765c4; }
+        .hm-lf-chip.active .hm-lf-chip-code { opacity: 1; }
         /* Category switch (古代 / 訓読) is OFF → chips in that category
            are visually inert. The user must turn the switch back ON
            to make them selectable again. */
@@ -2783,7 +2799,7 @@
         .hm-lf-switch.is-on { color: #1a1a2e; font-weight: 600; }
         .hm-lf-chip-code {
             font-size: 11px;
-            opacity: 0.65;
+            opacity: 0.8;   /* 0.65 put the code under 4.5:1 (2.78:1 on an active chip) */
             font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
         }
         @media (max-width: 600px) {
@@ -2821,12 +2837,12 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=17"></script>
+    <script src="nav-short.js?v=18"></script>
 </head>
 <body>
-    <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — HanMap</h1>
     <!-- Header -->
-    <div class="site-header-bar">
+    <header class="site-header-bar">
+        <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — HanMap</h1>
         <a href="index.html" class="logo">LangMap<span class="logo-badge logo-badge-han" aria-label="HanMap" title="HanMap"><span class="logo-badge-han-char">字</span></span></a>
         <input type="checkbox" id="hdr-menu-toggle" class="hdr-menu-toggle" aria-label="Menu toggle" tabindex="-1" aria-hidden="true">
         <button type="button" id="chrome-toggle" class="chrome-toggle-btn" aria-label="Hide UI overlays" title="Hide UI overlays">
@@ -2879,7 +2895,7 @@
             <select id="header-ui-lang" class="header-ui-lang" aria-label="UI language"></select>
             <a class="header-url" href="https://langmaps.com">langmaps.com</a>
         </div>
-    </div>
+    </header>
 
     <!-- Floating "back to plain map" pill, visible when basemap != flat -->
     <button type="button" class="tiles-revert" id="tiles-revert"
@@ -3034,7 +3050,7 @@
             <button type="button" data-act="toggle-ancient" class="hm-lf-tool-btn hm-lf-switch" aria-pressed="false"><span class="hm-lf-switch-track"><span class="hm-lf-switch-thumb"></span></span><span class="hm-lf-switch-text">古代語</span></button>
             <button type="button" data-act="toggle-kun"     class="hm-lf-tool-btn hm-lf-switch" aria-pressed="false"><span class="hm-lf-switch-track"><span class="hm-lf-switch-thumb"></span></span><span class="hm-lf-switch-text">訓読み</span></button>
             <span style="flex:1"></span>
-            <span id="hm-lang-filter-count" style="font-size:11px;color:#777;align-self:center">0 / 0</span>
+            <span id="hm-lang-filter-count" style="font-size:11px;color:#5f6368;align-self:center">0 / 0</span>
         </div>
         <div id="hm-lang-filter-body"></div>
     </div>
@@ -3460,7 +3476,7 @@
         }
     })();
     </script>
-    <script src="wordmap_data.js?v=342"></script>
+    <script src="wordmap_data.js?v=343"></script>
     <script src="hanmap_data.js?v=189"></script>
     <script>
         // Hanmap stubs: replace the per-word loader. wordmap.html loads
@@ -4439,7 +4455,19 @@
             return code;
         }
 
+        // Re-rendering replaces every chip: keep keyboard focus on the same
+        // control (by position), or toggling chips dropped focus to <body>.
         function renderPanel() {
+            const body = document.getElementById('hm-lang-filter-body');
+            const ae = document.activeElement;
+            const idx = body && body.contains(ae) ? [...body.querySelectorAll('button')].indexOf(ae) : -1;
+            const code = idx >= 0 && ae.getAttribute('data-code');
+            renderPanelInner();
+            if (idx < 0 || !body) return;
+            const again = (code && body.querySelector('button[data-code="' + CSS.escape(code) + '"]')) || body.querySelectorAll('button')[idx];
+            if (again) again.focus({ preventScroll: true });
+        }
+        function renderPanelInner() {
             const body = document.getElementById('hm-lang-filter-body');
             if (!body) return;
             const offered = offeredCodes();
@@ -4520,7 +4548,7 @@
             const siniticAny = sinitic.some(g => g.modern.concat(g.historical).some(c => offered.has(c)));
             if (siniticAny) {
                 const sh = document.createElement('div');
-                sh.style.cssText = 'font-size:11px;font-weight:600;color:#888;letter-spacing:0.04em;text-transform:uppercase;margin:0 0 6px;padding-left:2px';
+                sh.style.cssText = 'font-size:11px;font-weight:600;color:#666;letter-spacing:0.04em;text-transform:uppercase;margin:0 0 6px;padding-left:2px';
                 sh.textContent = gParent('mandarin') || 'Sinitic';
                 blocks.push(sh);
                 for (const g of sinitic) blocks.push(renderGroup(g, offered));
@@ -4598,6 +4626,7 @@
                 const disabled = isDisabled(code);
                 chip.className = 'hm-lf-chip' + (selected.has(code) ? ' active' : '') + (disabled ? ' is-disabled' : '');
                 chip.setAttribute('data-code', code);
+                chip.setAttribute('aria-pressed', selected.has(code) ? 'true' : 'false');
                 if (disabled) chip.setAttribute('aria-disabled', 'true');
                 const nm = document.createElement('span');
                 nm.textContent = chipNameFor(code);
@@ -4626,18 +4655,24 @@
         // ----------------------------------------------------------
         //  Modal open/close
         // ----------------------------------------------------------
+        let _lfReturn = null;
         function open() {
             renderPanel();
             const bd = document.getElementById('hm-lang-filter-backdrop');
             const md = document.getElementById('hm-lang-filter-modal');
             if (bd) bd.style.display = 'block';
             if (md) md.style.display = 'block';
+            // A modal: focus in, Tab kept inside (window.__hmTrapTab), back on close.
+            _lfReturn = document.activeElement;
+            if (md) { window.__hmTrapTab && window.__hmTrapTab(md); const f = document.getElementById('hm-lang-filter-close') || md.querySelector('button'); if (f) setTimeout(() => f.focus(), 0); }
         }
         function close() {
             const bd = document.getElementById('hm-lang-filter-backdrop');
             const md = document.getElementById('hm-lang-filter-modal');
+            const was = md && md.style.display !== 'none';
             if (bd) bd.style.display = 'none';
             if (md) md.style.display = 'none';
+            if (was) { const r = (_lfReturn && _lfReturn.isConnected && _lfReturn.getClientRects().length) ? _lfReturn : document.getElementById('hm-lang-filter-btn'); if (r) try { r.focus(); } catch (_) {} }
         }
 
         // ----------------------------------------------------------
@@ -5921,14 +5956,24 @@
                     body.appendChild(wrap);
                 }
             }
+            let _cmReturn = null;
             function openModal() {
                 buildModal();
                 modal.classList.add('visible');
                 backdrop.classList.add('visible');
                 modal.setAttribute('aria-hidden', 'false');
                 backdrop.setAttribute('aria-hidden', 'false');
+                // Focus into the picker (the current character), Tab kept inside.
+                _cmReturn = document.activeElement;
+                window.__hmTrapTab && window.__hmTrapTab(modal);
+                const f = modal.querySelector('.char-btn.active') || modal.querySelector('button');
+                if (f) setTimeout(() => f.focus(), 0);
             }
             function closeModal() {
+                if (modal.classList.contains('visible')) {
+                    const r = (_cmReturn && _cmReturn.isConnected && _cmReturn.getClientRects().length) ? _cmReturn : btn;
+                    if (r) setTimeout(() => { try { r.focus(); } catch (_) {} }, 0);
+                }
                 modal.classList.remove('visible');
                 backdrop.classList.remove('visible');
                 modal.setAttribute('aria-hidden', 'true');
@@ -8401,7 +8446,7 @@
                 // Opt-in red dot at the true lat/lng (anchor), behind the label.
                 const pinHtml = showPins ? '<div class="lang-pin-dot"></div>' : '';
                 const icon = L.divIcon({ className: '', html: pinHtml + labelHtml, iconSize: [0, 0], iconAnchor: [0, 0] });
-                const marker = L.marker([lang.lat, lang.lng], { icon, interactive: true });
+                const marker = L.marker([lang.lat, lang.lng], { icon, interactive: true, keyboard: false });   // the label inside is the button
                 marker._langCode = code;
                 marker.on('click', (e) => activateLabel(code, e && e.originalEvent));
                 marker.addTo(map);
@@ -12755,8 +12800,10 @@
         }
         let _hqReturn = null;
         function hide() { if (modal && modal.style.display !== 'none') { const r = window.__hmFocusBack(_hqReturn, ['#play-menu-btn', '#hquiz-open', '.hamburger-btn']); if (r) { try { r.focus(); } catch (_) {} } } if (modal) modal.style.display = 'none'; if (window.__hmOpenGame === 'hquiz') { window.__hmOpenGame = null; if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); } }
-        function answer(i) { if (answered) return; answered = true; chosen = i; if (qs[idx].options[i].correct) score++; render(); }
-        function next() { if (!answered) return; idx++; answered = false; chosen = -1; render(); }
+        // render() rebuilds the box: keep focus inside it (Next once answered, else the first option).
+        function hqRefocus() { const bx = document.getElementById('lm-hquiz-box'); if (!bx || bx.contains(document.activeElement)) return; const f = bx.querySelector(answered ? '.hq-next, .hq-close' : '.hq-opt') || bx; try { f.focus({ preventScroll: true }); } catch (_) {} }
+        function answer(i) { if (answered) return; answered = true; chosen = i; if (qs[idx].options[i].correct) score++; render(); hqRefocus(); }
+        function next() { if (!answered) return; idx++; answered = false; chosen = -1; render(); hqRefocus(); }
         const KEYS = {"en": "Keys: 1–{n} to answer · Space or Enter for next · Esc to close", "ja": "キー操作：1〜{n}で回答・スペース／エンターで次へ・Escで閉じる", "ko": "키보드: 1~{n}로 답하기 · 스페이스/엔터로 다음 · Esc로 닫기", "zh": "键盘：1–{n} 作答 · 空格或回车下一题 · Esc 关闭", "yue": "鍵盤：1–{n} 答題 · 空白鍵或Enter下一題 · Esc 關閉", "vi": "Phím: 1–{n} để trả lời · Space để tiếp · Esc để đóng", "th": "คีย์: 1–{n} ตอบ · Space ไปต่อ · Esc ปิด", "id": "Tombol: 1–{n} untuk menjawab · Spasi untuk lanjut · Esc untuk menutup", "hi": "कुंजियाँ: 1–{n} उत्तर · Space अगला · Esc बंद", "de": "Tasten: 1–{n} antworten · Leertaste weiter · Esc schließen", "fr": "Touches : 1–{n} pour répondre · Espace pour continuer · Échap pour fermer", "it": "Tasti: 1–{n} per rispondere · Spazio per avanti · Esc per chiudere", "es": "Teclas: 1–{n} para responder · Espacio para seguir · Esc para cerrar", "pt": "Teclas: 1–{n} para responder · Espaço para avançar · Esc para fechar", "ru": "Клавиши: 1–{n} — ответ · Пробел — далее · Esc — закрыть", "uk": "Клавіші: 1–{n} — відповідь · Пробіл — далі · Esc — закрити", "ar": "المفاتيح: 1–{n} للإجابة · المسافة للتالي · Esc للإغلاق", "he": "מקשים: 1–{n} לתשובה · רווח להמשך · Esc לסגירה", "sw": "Vitufe: 1–{n} kujibu · Space kuendelea · Esc kufunga"};
         function startSet() { qs = []; idx = 0; score = 0; answered = false; chosen = -1; for (let i = 0; i < TOTAL; i++) { const q = makeQ(); if (q) qs.push(q); } render(); }
         function show() { if (!modal) build(); _hqReturn = document.activeElement; modal.style.display = 'flex';
@@ -12811,7 +12858,7 @@
                 // height), shown only once answered so the modal height stays stable.
                 const okNow = answered && qs[idx].options[chosen] && qs[idx].options[chosen].correct;
                 const fb = el('div', `text-align:center;font-weight:800;font-size:16px;margin:6px 0 2px;color:${okNow ? '#0d9f6e' : '#d4506a'};visibility:${answered ? 'visible' : 'hidden'}`, answered ? (okNow ? pk(Q.correct) : pk(Q.wrong)) : pk(Q.correct));
-                fb.className = 'hq-fb'; box.appendChild(fb);
+                fb.className = 'hq-fb'; fb.setAttribute('role', 'status'); box.appendChild(fb);
                 const nb = el('button', `width:100%;margin-top:10px;padding:12px;border:0;border-radius:10px;background:${accent};color:#fff;font-weight:700;font-size:16px;cursor:pointer;flex:none;visibility:${answered ? 'visible' : 'hidden'}`);
                 nb.className = 'hq-next'; nb.setAttribute('aria-keyshortcuts', 'Space');
                 nb.textContent = !answered ? pk(Q.next) : ((idx + 1 >= TOTAL) ? pk(Q.result).replace('{score}', score).replace('{total}', TOTAL) : pk(Q.next));

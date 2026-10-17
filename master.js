@@ -535,10 +535,10 @@
                 css = css.replace('cursor:pointer', 'cursor:default');
                 if (isAns) css += ';border-color:#0d9f6e;background:#f1faf5;color:#0d7a55';
                 else if (i === state.chosen) css += ';border-color:#e2a3af;background:#fdf1f3;color:#c0405a';
-                else css += ';opacity:.55';
+                else css += ';background:#f6f7f9;border-color:#e6e8ec';   // dimmed by background, not opacity (text stays AA)
             }
             var b = el('button', css + ';position:relative',
-                '<span aria-hidden="true" class="lm-kbd" style="position:absolute;top:6px;inset-inline-start:8px;margin:0;color:#aab1bd">' + (i + 1) + '</span>'
+                '<span aria-hidden="true" class="lm-kbd" style="position:absolute;top:6px;inset-inline-start:8px;margin:0;color:#6b7280">' + (i + 1) + '</span>'
                 + '<span style="font-size:20px;line-height:1.2" dir="auto">' + esc(o.s) + '</span>'
                 + (o.ipa ? '<span style="font-size:12px;color:#5f6673;margin-top:2px">/' + esc(o.ipa) + '/</span>' : '')
                 + (answered && q.dialect ? '<span style="font-size:12px;color:#5f6673;margin-top:2px">' + esc(o.who.map(nameOf).slice(0, 2).join(' · ') + (o.who.length > 2 ? ' +' + (o.who.length - 2) : '')) + '</span>'

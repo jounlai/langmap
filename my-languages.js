@@ -524,9 +524,18 @@
         var aw = el('div', 'mylang-addwrap');
         addInput = el('input', 'mylang-add');
         addInput.type = 'text'; addInput.placeholder = T('add_ph'); addInput.autocomplete = 'off';
+        // Combobox wiring for the suggestion listbox.
+        addInput.setAttribute('role', 'combobox'); addInput.setAttribute('aria-autocomplete', 'list');
+        addInput.setAttribute('aria-controls', 'mylang-sugg'); addInput.setAttribute('aria-expanded', 'false'); addInput.setAttribute('aria-label', T('add_ph'));
         suggBox = el('div', 'mylang-sugg');
         // Driven from the input by the arrow keys: not a Tab stop of its own.
-        suggBox.tabIndex = -1; suggBox.setAttribute('role', 'listbox'); suggBox.setAttribute('aria-label', T('add_ph'));
+        suggBox.id = 'mylang-sugg'; suggBox.tabIndex = -1;
+        new MutationObserver(function () {
+            var open = suggBox.classList.contains('open');
+            addInput.setAttribute('aria-expanded', open ? 'true' : 'false');
+            var act = open && suggBox.querySelector('.mylang-sugg-item.active');
+            if (act && act.id) addInput.setAttribute('aria-activedescendant', act.id); else addInput.removeAttribute('aria-activedescendant');
+        }).observe(suggBox, { attributes: true, attributeFilter: ['class'], childList: true }); suggBox.setAttribute('role', 'listbox'); suggBox.setAttribute('aria-label', T('add_ph'));
         addInput.addEventListener('input', onSearch);
         addInput.addEventListener('keydown', onSearchKey);
         addInput.addEventListener('focus', onSearch);
@@ -649,11 +658,12 @@
     function renderSugg() {
         suggBox.innerHTML = '';
         if (!suggData.length) {
-            var e = el('div', 'mylang-sugg-item'); e.style.opacity = '.6'; e.textContent = T('no_results');
+            var e = el('div', 'mylang-sugg-item'); e.style.opacity = '.6'; e.textContent = T('no_results'); e.setAttribute('role', 'option'); e.setAttribute('aria-disabled', 'true');
             suggBox.appendChild(e); suggBox.classList.add('open'); return;
         }
         suggData.forEach(function (code, i) {
             var it = el('div', 'mylang-sugg-item' + (i === activeSugg ? ' active' : ''));
+            it.setAttribute('role', 'option'); it.id = 'mylang-opt-' + i; it.setAttribute('aria-selected', i === activeSugg ? 'true' : 'false');
             var flag = flagOf(code), loc = dispName(code), nat = displayName(code), rc = reachStr(code);
             var sub = [];
             if (nat && nat !== loc && nat !== localName(code)) sub.push(nat);

@@ -87,7 +87,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=146">
+    <link rel="stylesheet" href="styles.css?v=148">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts. Without these the characters render
          as tofu boxes: desktop Linux often ships the Noto historic fonts, but
@@ -690,7 +690,7 @@
         #word-modal .wm-cat { margin-bottom: 14px; }
         #word-modal .wm-cat h3 {
             font-size: 12px; font-weight: 700; letter-spacing: .04em;
-            text-transform: uppercase; color: #8a8a99;
+            text-transform: uppercase; color: #5f6373;
             margin: 0 0 7px; padding-bottom: 4px; border-bottom: 1px solid #ececf2;
         }
         /* One line under the 🧪 heading saying what the group IS. The marker
@@ -937,7 +937,7 @@
         }
         .radio-switch .radio-opt {
             font-size: 11px; padding: 4px 12px; border: none; background: transparent;
-            color: #777; cursor: pointer; font-weight: 500; white-space: nowrap;
+            color: #5f6368; cursor: pointer; font-weight: 500; white-space: nowrap;
             transition: all 0.25s ease; position: relative;
             flex: 1; text-align: center;
         }
@@ -946,7 +946,7 @@
             border-right: 1px solid #ccc;
         }
         .radio-switch .radio-opt.active {
-            background: #4a6cf7; color: #fff;
+            background: #3f5fe0; color: #fff;   /* white on #4a6cf7 was 4.39:1 at 11px */
             box-shadow: 0 1px 4px rgba(74,108,247,0.35);
         }
         .radio-switch .radio-opt.active::after { border-right: none; }
@@ -1774,7 +1774,7 @@
         }
         .compare-table thead .lang-name { display: block; }
         .compare-table thead .native-name {
-            font-size: 11px; color: #888; font-weight: 400; display: block;
+            font-size: 11px; color: #5f6368; font-weight: 400; display: block;
             /* Same historical-script fallback chain as the modal native-name. */
             font-family: "Gentium Plus", "Noto Serif", "Noto Serif JP",
                 "Noto Serif SC", "Noto Serif TC", "Noto Serif KR",
@@ -3036,12 +3036,12 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=17"></script>
+    <script src="nav-short.js?v=18"></script>
 </head>
 <body>
-    <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Word Map</h1>
     <!-- Header -->
-    <div class="site-header-bar">
+    <header class="site-header-bar">
+        <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Word Map</h1>
         <a href="wordmap.html" class="logo">LangMap<span class="logo-badge logo-badge-word" aria-label="Wordmap" title="Wordmap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span></a>
         <input type="checkbox" id="hdr-menu-toggle" class="hdr-menu-toggle" aria-label="Menu toggle" tabindex="-1" aria-hidden="true">
         <button type="button" id="chrome-toggle" class="chrome-toggle-btn" aria-label="Hide UI overlays" title="Hide UI overlays">
@@ -3105,7 +3105,7 @@
             <select id="header-ui-lang" class="header-ui-lang" aria-label="UI language"></select>
             <a class="header-url" href="https://langmaps.com">langmaps.com</a>
         </div>
-    </div>
+    </header>
 
     <!-- Floating "back to plain map" pill, visible when basemap != flat -->
     <button type="button" class="tiles-revert" id="tiles-revert"
@@ -3709,7 +3709,7 @@
         }
     })();
     </script>
-    <script src="wordmap_data.js?v=342"></script>
+    <script src="wordmap_data.js?v=343"></script>
     <script src="word_manifest.js?v=960"></script>
     <script src="word_labels.js?v=68"></script>
     <script>
@@ -3731,8 +3731,8 @@
            per-word loader can read it", which was the intent all along — only
            the order was wrong. */
         const WM_ASSET_VERSION = {
-            styles:   146,
-            data:      342,
+            styles:   148,
+            data:      343,
             metaI18n:  16,
             filter:    49,
             names:   203,
@@ -5048,6 +5048,7 @@
                         var t = document.createElement('button');
                         t.type = 'button';
                         t.className = 'wm-tile' + (id === select.value ? ' active' : '');
+                        if (id === select.value) t.setAttribute('aria-current', 'true');
                         t.dataset.word = id;
                         // No per-word emoji: only 36 of 86 concepts have one, so
                         // the column read as arbitrary — in `body` just ear,
@@ -5099,11 +5100,22 @@
             document.addEventListener('keydown', function (e) {
                 if (e.key === 'Escape' && modal.classList.contains('visible')) close();
             });
+            // aria-modal: keep Tab inside the picker.
+            modal.addEventListener('keydown', function (e) {
+                if (e.key !== 'Tab') return;
+                var f = [].filter.call(modal.querySelectorAll('button, input, a[href], [tabindex="0"]'), function (x) { return !x.disabled && x.getClientRects().length; });
+                if (!f.length) return;
+                var first = f[0], last = f[f.length - 1];
+                if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+                else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+            });
             function syncBtn() {
                 var w = byId[select.value];
                 var nm = w ? nameOf(w) : (select.value || '');
                 var el = btn.querySelector('.wcb-name');
                 if (el) el.textContent = nm;
+                // Visible word first in the name (WCAG 2.5.3): "Water, Select word".
+                btn.setAttribute('aria-label', nm + ', ' + (select.getAttribute('aria-label') || 'Select word'));
                 // The name is one line and ellipsises at 150px. Nothing in the
                 // current label set gets that far, but the title is what keeps
                 // a longer one added later readable rather than cut off.
@@ -7061,7 +7073,9 @@
                 // the label text.
                 const pinHtml = showPins ? '<div class="lang-pin-dot"></div>' : '';
                 const icon = L.divIcon({ className: '', html: pinHtml + labelHtml, iconSize: [0, 0], iconAnchor: [0, 0] });
-                const marker = L.marker([lang.lat, lang.lng], { icon, interactive: true });
+                // keyboard:false: the label inside is the button (Leaflet's own
+                // focusable wrapper made two Tab stops per label; nested-interactive).
+                const marker = L.marker([lang.lat, lang.lng], { icon, interactive: true, keyboard: false });
                 marker._langCode = code;
                 marker.on('click', (e) => activateLabel(code, e && e.originalEvent));
                 marker.addTo(map);
@@ -7645,6 +7659,7 @@
             infoPanel.classList.remove('visible');
             // Clear dataset.code so the open-language state is consistent
             // (per wordmap-check-4.md §19).
+            const _closedCode = infoPanel.dataset.code;
             delete infoPanel.dataset.code;
             updateSelectedLabel();
             updateConnectorLine();
@@ -7654,8 +7669,11 @@
             if (_lastDialogOpener && document.contains(_lastDialogOpener) && typeof _lastDialogOpener.focus === 'function') {
                 try { _lastDialogOpener.focus(); } catch (_) { /* ignore */ }
             } else {
-                const search = document.getElementById('lang-search');
-                if (search) try { search.focus(); } catch (_) { /* ignore */ }
+                // The opener label was rebuilt (word change, pan): its new copy,
+                // else the word button. Not the search box (a phone keyboard).
+                const lbl = _closedCode && document.querySelector('.lang-label[data-code="' + CSS.escape(_closedCode) + '"]');
+                const fb = lbl || document.getElementById('word-current-btn');
+                if (fb) try { fb.focus({ preventScroll: true }); } catch (_) { /* ignore */ }
             }
             _lastDialogOpener = null;
         }
@@ -9266,7 +9284,7 @@
                 const top = matches.slice(0, 12);
                 if (top.length === 0) {
                     const noMatchLabel = i18n('noMatch');
-                    results.innerHTML = `<div style="padding:8px;color:#999">${escapeHtml(noMatchLabel)}</div>`;
+                    results.innerHTML = `<div style="padding:8px;color:#5f6368">${escapeHtml(noMatchLabel)}</div>`;
                 } else {
                     // The era label here is the *opposite* of current era —
                     // it tells the user "this match is in the [other] era".
@@ -9274,8 +9292,8 @@
                         ? i18n('modernLangTooltip')
                         : i18n('historicalLangTooltip');
                     results.innerHTML = top.map((m, idx) => {
-                        const native = m.native && m.native !== m.display ? ` <span style="color:#999;font-size:11px">${escapeHtml(m.native)}</span>` : '';
-                        const en = m.en !== m.display ? ` <span style="color:#aaa;font-size:11px">(${escapeHtml(m.en)})</span>` : '';
+                        const native = m.native && m.native !== m.display ? ` <span style="color:#5f6368;font-size:11px">${escapeHtml(m.native)}</span>` : '';
+                        const en = m.en !== m.display ? ` <span style="color:#5f6368;font-size:11px">(${escapeHtml(m.en)})</span>` : '';
                         // Audit Task 115: append disambiguator hint after the row
                         // when present so duplicate-name groups (mn_cn/xng,
                         // omx/mnw) are visually distinguishable in search.
@@ -9288,9 +9306,9 @@
                         const optId = `lang-search-opt-${idx}`;
                         if (m.disabled) {
                             const tooltip = i18n('eraFilterOffHint').replace('{era}', eraLbl);
-                            return `<div id="${optId}" class="lang-search-item disabled" role="option" aria-disabled="true" aria-selected="false" data-code="${escapeHtml(m.code)}" data-disabled="1" title="${escapeHtml(tooltip)}" style="${baseStyle};opacity:0.4;cursor:not-allowed">${escapeHtml(m.display)}${native}${en}${dis} <span style="float:right;color:#bbb;font-size:10px">${escapeHtml(m.code)} · ${escapeHtml(eraLbl)}</span></div>`;
+                            return `<div id="${optId}" class="lang-search-item disabled" role="option" aria-disabled="true" aria-selected="false" data-code="${escapeHtml(m.code)}" data-disabled="1" title="${escapeHtml(tooltip)}" style="${baseStyle};opacity:0.4;cursor:not-allowed">${escapeHtml(m.display)}${native}${en}${dis} <span style="float:right;color:#6b6b6b;font-size:10px">${escapeHtml(m.code)} · ${escapeHtml(eraLbl)}</span></div>`;
                         }
-                        return `<div id="${optId}" class="lang-search-item" role="option" aria-selected="false" data-code="${escapeHtml(m.code)}" style="${baseStyle};cursor:pointer">${escapeHtml(m.display)}${native}${en}${dis} <span style="float:right;color:#bbb;font-size:10px">${escapeHtml(m.code)}</span></div>`;
+                        return `<div id="${optId}" class="lang-search-item" role="option" aria-selected="false" data-code="${escapeHtml(m.code)}" style="${baseStyle};cursor:pointer">${escapeHtml(m.display)}${native}${en}${dis} <span style="float:right;color:#6b6b6b;font-size:10px">${escapeHtml(m.code)}</span></div>`;
                     }).join('');
                     // Modal only opens on explicit option click (see the
                     // 'click' handler on .lang-search-item below) —
@@ -9332,6 +9350,12 @@
                 });
             }
             input.addEventListener('keydown', e => {
+                // A hidden list (after Escape) is reopened before the arrows move in it.
+                if ((e.key === 'ArrowDown' || e.key === 'ArrowUp') && results.style.display === 'none') {
+                    if (!input.value.trim()) return;
+                    input.dispatchEvent(new Event('input', { bubbles: true }));
+                    activeOptionIdx = -1;
+                }
                 if (e.key === 'ArrowDown') { e.preventDefault(); setActiveOption(activeOptionIdx + 1); }
                 else if (e.key === 'ArrowUp')   { e.preventDefault(); setActiveOption(activeOptionIdx - 1); }
                 else if (e.key === 'Escape')    {
@@ -9349,12 +9373,7 @@
                         if (it && it.getAttribute('data-disabled') !== '1') {
                             e.preventDefault();
                             const code = it.getAttribute('data-code');
-                            if (code && LANG_DATA[code]) {
-                                showLangInfo(code);
-                                input.value = '';
-                                results.style.display = 'none';
-                                input.setAttribute('aria-expanded', 'false');
-                            }
+                            if (code && LANG_DATA[code]) chooseLang(code);
                         }
                     }
                 }
@@ -9368,7 +9387,11 @@
                 if (item.getAttribute('data-disabled') === '1') return;  // off-era item
                 const code = item.getAttribute('data-code');
                 if (!code || !LANG_DATA[code]) return;
-                const lang = LANG_DATA[code];
+                chooseLang(code);
+            });
+            // One path for Enter and click: center the map, show the panel, and
+            // reset the combobox (keyboard Enter never centered the map).
+            function chooseLang(code) {
                 centerLangOnMap(code);
                 // If modal already shows this lang (from live preview), avoid
                 // calling showLangInfo (which would toggle it closed).
@@ -9377,7 +9400,10 @@
                 }
                 input.value = '';
                 results.style.display = 'none';
-            });
+                input.setAttribute('aria-expanded', 'false');
+                input.setAttribute('aria-activedescendant', '');
+                activeOptionIdx = -1;
+            }
             results.addEventListener('mouseover', e => {
                 const item = e.target.closest('.lang-search-item');
                 if (item) item.style.background = '#f5f5f5';
@@ -9754,6 +9780,9 @@
                     e.stopPropagation();
                     showLangInfo(el.dataset.code);
                 });
+                // Keyboard: a button in all but tag (the header around it drags).
+                el.setAttribute('role', 'button'); el.tabIndex = 0;
+                el.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); el.click(); } });
             });
 
             // Drag-and-drop reordering on column headers
@@ -12225,12 +12254,12 @@
     <!-- "My languages" share-card feature; poster_geo.js supplies the Natural-Earth
          projection its world-map card is drawn with. -->
     <script src="poster_geo.js?v=12"></script>
-    <script src="my-languages.js?v=27"></script>
+    <script src="my-languages.js?v=28"></script>
     <!-- Language Master game (🏅 in the Play menu). master.js is parked as
          text/plain (not fetched at first paint, as hanmap_trivia.js is) and
          injected the first time the game opens. The stub below only labels
          the launcher and loads the module on demand. -->
-    <script type="text/plain" id="master-src" src="master.js?v=15"></script>
+    <script type="text/plain" id="master-src" src="master.js?v=16"></script>
     <script>
     (function () {
         'use strict';

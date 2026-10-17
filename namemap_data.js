@@ -105,7 +105,7 @@ const NM_UI = {
     category:'分類', noForm:'一般的な対応形なし', random:'ランダムな名前', details:'詳細', simpleDisplay:'シンプル表示', settings:'設定', fontSize:'文字サイズ',
     cats:{ biblical:'聖書由来', quran:'コーラン由来', 'greco-roman':'ギリシャ・ローマ由来', hindu:'インド・ヒンドゥー由来', indigenous:'各地固有' },
     freq:{ 'very-common':'非常に多い', common:'多い', moderate:'普通', rare:'少ない' },
-    navName:'名前マップ', navOrder:'語順', navWord:'単語マップ', navHan:'漢字マップ', navTree:'ツリー',
+    navName:'名前マップ', navOrder:'語順マップ', navWord:'単語マップ', navHan:'漢字マップ', navTree:'ツリー',
     tapCountry:'国をタップして対応形を表示', of:'の対応形',
   },
 };

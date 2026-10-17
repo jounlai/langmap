@@ -72,7 +72,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=146">
+    <link rel="stylesheet" href="styles.css?v=148">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for the scripts that name forms appear in. Without these,
          Arabic / Hebrew / Devanagari / Bengali / Ethiopic / Georgian /
@@ -519,12 +519,12 @@
            57px then 47px and the whole stage jumped (CLS ~0.4, rally r4). */
         @media (min-width: 641px) { .site-header-bar > .chrome-toggle-btn { display: none; } }
 </style>
-    <script src="nav-short.js?v=17"></script>
+    <script src="nav-short.js?v=18"></script>
 </head>
 <body>
-    <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Name Map</h1>
     <!-- Header (shared markup with wordmap/hanmap/tree/index) -->
-    <div class="site-header-bar">
+    <header class="site-header-bar">
+        <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Name Map</h1>
         <a href="index.html" class="logo">LangMap<span class="logo-badge logo-badge-name" aria-label="NameMap" title="NameMap"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21v-7a4 4 0 0 1 4-4h1"/><circle cx="9" cy="6" r="3"/><path d="M14 21v-5a3 3 0 0 1 3-3h0a3 3 0 0 1 3 3v5"/></svg></span></a>
         <input type="checkbox" id="hdr-menu-toggle" class="hdr-menu-toggle" aria-label="Menu toggle" tabindex="-1" aria-hidden="true">
         <!-- Simple-display toggle. On desktop it's positioned (via CSS) to float
@@ -549,7 +549,7 @@
             <select id="header-ui-lang" class="header-ui-lang" aria-label="UI language"></select>
             <a class="header-url" href="https://langmaps.com">langmaps.com</a>
         </div>
-    </div>
+    </header>
     <div class="header-backdrop" id="header-backdrop" aria-hidden="true"></div>
 
     <div class="nm-stage">
@@ -599,7 +599,7 @@
     </div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="namemap_data.js?v=8"></script>
+    <script src="namemap_data.js?v=9"></script>
     <script src="namemap_i18n.js?v=1"></script>
     <script src="namemap_names_ext.js?v=8"></script>
     <!-- NameMap content strings (country/language names, each name's meaning and
@@ -819,7 +819,7 @@
                 h+='<div class="nm-section-h">'+esc(t('forms'))+' · '+codes.length+'</div>';
                 codes.forEach(c=>{
                     const f=forms[c];
-                    h+='<div class="nm-form-row" data-code="'+c+'">';
+                    h+='<div class="nm-form-row" data-code="'+c+'" role="button" tabindex="0">';
                     h+='<span class="nm-form-left"><span class="nm-freq-dot '+freqClass(f.freq)+'"></span>';
                     h+='<span class="nm-form-country">'+esc(loc(LANGS[c].country))+'</span></span>';
                     h+='<span class="nm-form-main"><span class="nm-form-word nm-script">'+esc(f.form)+'</span>';
@@ -838,6 +838,7 @@
             el.scrollTop=0;
             el.querySelector('#nm-info-close').addEventListener('click', closeInfoSheet);
             el.querySelectorAll('.nm-form-row').forEach(row=>{
+                row.addEventListener('keydown', e=>{ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); row.click(); } });
                 row.addEventListener('click', ()=>{
                     const c=row.getAttribute('data-code');
                     if(!markers[c]) return;
@@ -897,6 +898,9 @@
                 mk.bindPopup(()=>popupHtml(id, code), { closeButton:true, maxWidth:260,
                     autoPanPaddingTopLeft: padTL, autoPanPaddingBottomRight: L.point(24, 24) });
                 mk.addTo(map);
+                // Visible text first, then the country: 30 buttons all named
+                // "Abraham" could not be told apart.
+                { const mel=mk.getElement&&mk.getElement(); if(mel) mel.setAttribute('aria-label', f.form+(f.rom && f.rom!==f.form ? ' '+f.rom : '')+' — '+loc(cell.country)); }
                 markers[code]=mk;
             });
             requestAnimationFrame(relaxLabels);

@@ -27,7 +27,7 @@ window.TM_I18N["ja"] = {
   "simpleDisplay": "シンプル表示",
   "settings": "設定",
   "fontSize": "文字サイズ",
-  "navOrder": "語順",
+  "navOrder": "語順マップ",
   "navWord": "単語マップ",
   "navHan": "漢字マップ",
   "navName": "名前マップ",

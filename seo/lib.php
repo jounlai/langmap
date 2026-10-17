@@ -3146,7 +3146,9 @@ function seo_map_embed(?float $lat, ?float $lng, string $label, int $zoom = 5, s
     // Leaflet derives the default icon path from the stylesheet's URL; pin it.
     L.Icon.Default.imagePath = 'https://unpkg.com/leaflet@1.9.4/dist/images/';
     // No shadow: Leaflet's marker-shadow.png has no 2x version (image-size-responsive).
-    L.marker([{$lat}, {$lng}], { icon: new L.Icon.Default({ shadowUrl: '', shadowSize: [0, 0] }) }).addTo(map).bindPopup({$jsLabel});
+    var P = 'https://unpkg.com/leaflet@1.9.4/dist/images/';
+    L.marker([{$lat}, {$lng}], { icon: L.icon({ iconUrl: P + 'marker-icon.png', iconRetinaUrl: P + 'marker-icon-2x.png',
+      iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], tooltipAnchor: [16, -28] }) }).addTo(map).bindPopup({$jsLabel});
   }
   if ('IntersectionObserver' in window) {
     var io = new IntersectionObserver(function (es) {
@@ -3450,7 +3452,7 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
    character table alone is ~190 rows. Biggest single cut to load-time layout
    work (Lighthouse TBT, 2026-10-16). The intrinsic size is a placeholder that
    the browser replaces with the real height once a section has rendered. */
-.seo-hero + .seo-section, .seo-hero + .seo-applink + .seo-section { content-visibility: visible !important; contain-intrinsic-size: none !important; } /* first screen: no placeholder (hub CLS) */
+.seo-hero + .seo-section { content-visibility: visible !important; contain-intrinsic-size: none !important; } /* a section right under the hero is in the first screen: no placeholder */
 .seo-section, .seo-ex, .seo-related { content-visibility: auto; contain-intrinsic-size: auto 600px;
   overflow-clip-margin: 6px; } /* paint containment would clip focus rings at the edge */
 /* Collapsed regions (~100px) and the nav gain nothing from it, and a 1500px
@@ -3471,6 +3473,9 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
   gap: .9rem; }
 .seo-word { background: var(--card); border: 1px solid var(--line); border-radius: .7rem;
   padding: .85rem 1rem; }
+/* 87 cards (11,600px) rendered at load and were re-laid out by every font
+   slice: mobile TBT 1-2 s. Each card skips layout until near the viewport. */
+.seo-word { content-visibility: auto; contain-intrinsic-size: auto 125px; }
 .seo-word .label { font-size: .8rem; text-transform: uppercase; letter-spacing: .04em;
   color: var(--muted); margin: 0 0 .25rem; }
 .seo-word .surface { font-size: 2rem; line-height: 1.15; margin: 0; word-break: break-word; }
@@ -4473,7 +4478,7 @@ function seo_comparisons(string $map, string $code, string $ui,
         <?php foreach (($segs ?? []) as $seg):
             $text = $seg[1] ?? ''; $color = $seg[2] ?? '';
             if ($text === '') continue; ?>
-        <span class="wo-seg" lang="<?= e(seo_lang_attr($c)) ?>" data-seg="<?= e($seg[0] ?? '') ?>"<?= $color !== '' ? ' data-c="' . e($color) . '" style="color:' . e(seo_text_color($color)) . '"' : '' ?>><?= e($text) ?></span>
+        <span class="wo-seg" lang="<?= e(seo_lang_attr($c)) ?>" data-seg="<?= e($seg[0] ?? '') ?>"<?= $color !== '' ? ' data-c="' . e($color) . '" style="color:' . e(seo_text_color($color)) . ';border-bottom-color:' . e($color) . '"' : '' ?>><?= e($text) ?></span>
         <?php endforeach; ?>
       </div>
     </div>
@@ -4730,7 +4735,7 @@ function seo_comparisons(string $map, string $code, string $ui,
                    : '<span>' + esc(row.n) + '</span>')
           + '</div><div class="cmp-wo-segs">';
         (row.s || []).forEach(function (sg) {
-          h += '<span class="wo-seg" lang="' + lg + '"' + (sg[2] ? ' data-seg="' + esc(sg[2]) + '"' : '') + (sg[1] ? ' data-c="' + esc(sg[1]) + '" style="color:' + esc(sg[3] || sg[1]) + '"' : '') + '>' + esc(sg[0]) + '</span>';
+          h += '<span class="wo-seg" lang="' + lg + '"' + (sg[2] ? ' data-seg="' + esc(sg[2]) + '"' : '') + (sg[1] ? ' data-c="' + esc(sg[1]) + '" style="color:' + esc(sg[3] || sg[1]) + ';border-bottom-color:' + esc(sg[1]) + '"' : '') + '>' + esc(sg[0]) + '</span>';
         });
         h += '</div></div>';
       });

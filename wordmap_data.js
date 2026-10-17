@@ -5789,7 +5789,7 @@ const WM_UI = {
   he: { ipaUnknown:'הגייה לא ידועה', native:'מקומי', size:'גודל', word:'כתיב', ipa:'תעתיק', ipaCol:'תעתיק / תמלול', wordCol:'כתיב / תעתיק', concept:'מושג', name:'שם', onlyCompare:'רק אלה', onlyCompareCol:'להציג רק את השפות שברשימת ההשוואה', pins:'נקודות', back:'← LangMap', family:'משפחת שפות', speakers:'דוברים', countries:'מדינות', official:'רשמית ב', script:'כתב', url:'langmaps.com/wordmap.html', modern:'מודרניות', historical:'היסטוריות' },
   sw: { ipaUnknown:'matamshi hayajulikani', native:'Asili', size:'Ukubwa', word:'Umbo', ipa:'IPA', ipaCol:'IPA / Unukuzi', wordCol:'Umbo / Tafsiri', concept:'Dhana', name:'Jina', onlyCompare:'Zilizochaguliwa', onlyCompareCol:'Onyesha lugha za orodha ya kulinganisha pekee', pins:'Vituo', back:'← LangMap', family:'Familia ya lugha', speakers:'Wasemaji', countries:'Nchi', official:'Rasmi katika', script:'Hati', url:'langmaps.com/wordmap.html', modern:'Kisasa', historical:'Lugha za kihistoria' },
 };
-const WM_UI_LABELS = { ja:'日本語', ko:'한국어', zh:'中文', yue:'粤语', vi:'Tiếng Việt', th:'ไทย', id:'Indonesia', hi:'हिन्दी', en:'English', de:'Deutsch', fr:'Français', it:'Italiano', es:'Español', pt:'Português', ru:'Русский', uk:'Українська', ar:'العربية', he:'עברית', sw:'Kiswahili' };
+const WM_UI_LABELS = { ja:'日本語', ko:'한국어', zh:'中文', yue:'粵語', vi:'Tiếng Việt', th:'ไทย', id:'Indonesia', hi:'हिन्दी', en:'English', de:'Deutsch', fr:'Français', it:'Italiano', es:'Español', pt:'Português', ru:'Русский', uk:'Українська', ar:'العربية', he:'עברית', sw:'Kiswahili' };
 
 
 

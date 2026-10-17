@@ -70,7 +70,7 @@
         gtag('config', 'G-JZ7JJBCCHG');
     }
 </script>
-<link rel="stylesheet" href="styles.css?v=148">
+<link rel="stylesheet" href="styles.css?v=149">
 <!-- Noto Serif Tibetan for native names of Tibetic languages
      (bo / xct / dz / khg / xsr / sik / lbj / bft / xkz / xct_litpr).
      Without this, Tibetan script in .node.leaf .native renders via OS
@@ -287,7 +287,7 @@
 
     /* .back-to-top styles live in styles.css (shared with index.html). */
 </style>
-    <script src="nav-short.js?v=18"></script>
+    <script src="nav-short.js?v=19"></script>
 </head>
 <body>
     <header class="site-header-bar">
@@ -316,6 +316,8 @@
         <a class="header-url" href="https://langmaps.com">langmaps.com</a>
     </div>
 </header>
+    <!-- main landmark; display:contents keeps every layout (flex body, absolute panels) unchanged -->
+    <main style="display:contents">
 <!-- Backdrop lives OUTSIDE the header bar so backdrop-filter on the
      header doesn't trap it inside the header's stacking context. -->
 <div class="header-backdrop" id="header-backdrop" aria-hidden="true"></div>
@@ -1151,7 +1153,7 @@ generates lang_names/<ui>.js from lang_names.js. -->
         root.querySelectorAll('.node.match').forEach(n => n.classList.remove('match'));
         // #stats is a live region: it announces how many languages are shown.
         const stats = document.getElementById('stats');
-        if (!q) { if (stats && typeof LANG_DATA !== 'undefined') stats.textContent = t('stats', Object.keys(LANG_DATA).length); return; }
+        if (!q) { if (stats) stats.textContent = t('stats', root.querySelectorAll('.node.leaf').length); return; }
 
         // Hide all <li>s, then unhide ones matching the query (and their ancestors).
         const allLi = root.querySelectorAll('li');
@@ -1199,7 +1201,7 @@ generates lang_names/<ui>.js from lang_names.js. -->
         document.getElementById('loading')?.remove();
         renderTree(__treeData);
         wireInteractions();
-        document.getElementById('stats').textContent = t('stats', Object.keys(LANG_DATA).length);
+        document.getElementById('stats').textContent = t('stats', document.querySelectorAll('#tree-root .node.leaf').length || Object.keys(LANG_DATA).length);
     }
 
     function init() {
@@ -1235,5 +1237,6 @@ generates lang_names/<ui>.js from lang_names.js. -->
     <script src="/pwa.js?v=2"></script>
     <script src="share-button.js?v=4"></script>
     <script src="lang-picker.js?v=8"></script>
+    </main>
 </body>
 </html>

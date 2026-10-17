@@ -1787,7 +1787,7 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
        URL is hidden at 641-1100px) and the menu ran off the screen. */
     position: absolute; top: calc(100% + 5px); right: 0;
     z-index: 1300;
-    min-width: 190px; max-height: min(340px, calc(100dvh - 60px)); overflow-y: auto;   /* landscape phones */
+    min-width: 190px; max-height: 340px; max-height: min(340px, calc(100dvh - 60px)); overflow-y: auto;   /* landscape phones; 340px for browsers without dvh */
     background: #fff; border: 1px solid #e0e0e0; border-radius: 8px;
     box-shadow: 0 6px 22px rgba(0,0,0,0.16);
     padding: 4px; display: none;
@@ -1821,3 +1821,13 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
 /* Row Copy / Edit buttons appear on hover; show them for keyboard focus too. */
 .lang-row:focus-within .edit-btn, .lang-row:focus-within .copy-btn,
 .edit-btn:focus-visible, .copy-btn:focus-visible { opacity: 1; }
+
+/* Editor: the segment badge and delete control are <button>s now (keyboard);
+   keep their old look, and show the move buttons when a segment has focus. */
+button.seg-id-badge, button.seg-delete-btn { border: 0; font-family: inherit; cursor: pointer; }
+button.seg-delete-btn { background: none; color: #767676; }
+.segment-input-wrapper:focus-within .seg-move-btns { display: flex; }
+
+/* The sentence map can be 1200px wide: scroll it instead of widening the page
+   (landscape phones above 768px laid the page out 1200px wide). */
+.map-wrapper { overflow-x: auto; }

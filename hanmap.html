@@ -92,7 +92,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=148">
+    <link rel="stylesheet" href="styles.css?v=149">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -2837,7 +2837,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=18"></script>
+    <script src="nav-short.js?v=19"></script>
 </head>
 <body>
     <!-- Header -->
@@ -2896,6 +2896,8 @@
             <a class="header-url" href="https://langmaps.com">langmaps.com</a>
         </div>
     </header>
+    <!-- main landmark; display:contents keeps every layout (flex body, absolute panels) unchanged -->
+    <main style="display:contents">
 
     <!-- Floating "back to plain map" pill, visible when basemap != flat -->
     <button type="button" class="tiles-revert" id="tiles-revert"
@@ -5944,6 +5946,7 @@
                         const b = document.createElement('button');
                         b.type = 'button';
                         b.className = 'char-btn' + (baseChar === displayCharOf(currentWord) ? ' active' : '');
+                        if (baseChar === displayCharOf(currentWord)) b.setAttribute('aria-current', 'true');
                         b.innerHTML = '<span class="char-tile-char">' + escapeHtml(baseChar) + '</span>';
                         b.dataset.char = targetId;
                         b.addEventListener('click', () => {
@@ -9717,7 +9720,7 @@
                         ar: 'الناطقون', he: 'דוברים', sw: 'Wasemaji',
                     }[uiBase] || 'Speakers';
                     const srcPart = hanMeta.speakersSource
-                        ? ` <span style="color:#999">(${escapeHtml(hanMeta.speakersSource)})</span>`
+                        ? ` <span style="color:#6b6b6b">(${escapeHtml(hanMeta.speakersSource)})</span>`
                         : '';
                     html += `<div style="margin:2px 0 6px;font-size:13px;color:#666"><b>${escapeHtml(spkLabel)}:</b> ${escapeHtml(hanMeta.speakers)}${srcPart}</div>`;
                 }
@@ -9779,7 +9782,7 @@
                                     ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" style="color:#4a6cf7;text-decoration:none">${safeTitle}</a>`
                                     : safeTitle;
                                 if (typeof s.note === 'string' && s.note) {
-                                    liHtml += ` <span style="color:#999">— ${escapeHtml(s.note)}</span>`;
+                                    liHtml += ` <span style="color:#6b6b6b">— ${escapeHtml(s.note)}</span>`;
                                 }
                             } else {
                                 // i18n object keyed by language code
@@ -9861,7 +9864,7 @@
             const hasNative = charBlocks.some(b => b.rows.some(r => r.native && r.native.trim()));
 
             html += `<table style="margin-top:10px;border-top:1px solid #eee;padding-top:8px;width:100%;border-collapse:collapse;font-size:13px">`;
-            html += `<thead><tr style="color:#999;font-size:10px;text-transform:uppercase;letter-spacing:0.04em">`;
+            html += `<thead><tr style="color:#6b6b6b;font-size:10px;text-transform:uppercase;letter-spacing:0.04em">`;
             html += `<th style="text-align:left;font-weight:500;padding:4px 6px 6px 0;width:36px">${escapeHtml(tHead[0])}</th>`;
             if (hasNative) html += `<th style="text-align:left;font-weight:500;padding:4px 6px 6px 0">${escapeHtml(tHead[1])}</th>`;
             html += `<th style="text-align:left;font-weight:500;padding:4px 6px 6px 0">${escapeHtml(tHead[2])}</th>`;
@@ -10045,7 +10048,7 @@
                         if (m.speakerYear)   annot.push(String(m.speakerYear));
                     }
                     if (annot.length) {
-                        speakerCell += ` <span style="color:#999;font-size:10px">(${annot.join(', ')})</span>`;
+                        speakerCell += ` <span style="color:#6b6b6b;font-size:10px">(${annot.join(', ')})</span>`;
                     }
                     // Show the structured 'notes' field below the main number
                     // (where present) to surface qualitative detail like
@@ -10238,7 +10241,7 @@
                 }
             }
             html += '<table style="margin-top:10px;border-top:1px solid #eee;padding-top:8px">';
-            html += `<thead><tr style="color:#999;font-size:10px;text-transform:uppercase;letter-spacing:0.04em"><th style="text-align:left;font-weight:500;padding-bottom:4px">${escapeHtml(wt('concept') || 'Concept')}</th><th style="text-align:left;font-weight:500;padding-bottom:4px">${escapeHtml(wt('wordCol') || wt('word'))}</th><th style="text-align:left;font-weight:500;padding-bottom:4px">${escapeHtml(wt('ipaCol') || wt('ipa'))}</th></tr></thead>`;
+            html += `<thead><tr style="color:#6b6b6b;font-size:10px;text-transform:uppercase;letter-spacing:0.04em"><th style="text-align:left;font-weight:500;padding-bottom:4px">${escapeHtml(wt('concept') || 'Concept')}</th><th style="text-align:left;font-weight:500;padding-bottom:4px">${escapeHtml(wt('wordCol') || wt('word'))}</th><th style="text-align:left;font-weight:500;padding-bottom:4px">${escapeHtml(wt('ipaCol') || wt('ipa'))}</th></tr></thead>`;
             // Session 31: italic IPA for reconstructed/partly-understood/pedagogical/fragmentary
             // signals "this notation is not direct phonemic transcription" (textbook convention).
             const ipaStyle = IPA_ITALIC_STATUSES.has(status)
@@ -10604,7 +10607,7 @@
                 const top = matches.slice(0, 12);
                 if (top.length === 0) {
                     const noMatchLabel = i18n('noMatch');
-                    results.innerHTML = `<div style="padding:8px;color:#999">${escapeHtml(noMatchLabel)}</div>`;
+                    results.innerHTML = `<div style="padding:8px;color:#6b6b6b">${escapeHtml(noMatchLabel)}</div>`;
                 } else {
                     // The era label here is the *opposite* of current era —
                     // it tells the user "this match is in the [other] era".
@@ -10612,7 +10615,7 @@
                         ? i18n('modernLangTooltip')
                         : i18n('historicalLangTooltip');
                     results.innerHTML = top.map((m, idx) => {
-                        const native = m.native && m.native !== m.display ? ` <span style="color:#999;font-size:11px">${escapeHtml(m.native)}</span>` : '';
+                        const native = m.native && m.native !== m.display ? ` <span style="color:#6b6b6b;font-size:11px">${escapeHtml(m.native)}</span>` : '';
                         const en = m.en !== m.display ? ` <span style="color:#aaa;font-size:11px">(${escapeHtml(m.en)})</span>` : '';
                         // Audit Task 115: append disambiguator hint after the row
                         // when present so duplicate-name groups (mn_cn/xng,
@@ -12611,7 +12614,7 @@
 
     })();
     </script>
-    <footer style="text-align:center;padding:16px 12px;font-size:12px;color:#888;border-top:1px solid #e6e6ef;margin-top:24px">
+    <footer style="text-align:center;padding:16px 12px;font-size:12px;color:#666;border-top:1px solid #e6e6ef;margin-top:24px">
         全言語インデックス: <a href="/en/wordmap/" style="color:#4178bc">Word Map</a> · <a href="/en/hanmap/" style="color:#4178bc">Han Map</a> · <a href="/en/trivia/" style="color:#4178bc">Trivia</a>
 <!-- TRIVIA-INDEX:START -->
 <details class="trivia-index-seo">
@@ -12801,8 +12804,12 @@
         let _hqReturn = null;
         function hide() { if (modal && modal.style.display !== 'none') { const r = window.__hmFocusBack(_hqReturn, ['#play-menu-btn', '#hquiz-open', '.hamburger-btn']); if (r) { try { r.focus(); } catch (_) {} } } if (modal) modal.style.display = 'none'; if (window.__hmOpenGame === 'hquiz') { window.__hmOpenGame = null; if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); } }
         // render() rebuilds the box: keep focus inside it (Next once answered, else the first option).
-        function hqRefocus() { const bx = document.getElementById('lm-hquiz-box'); if (!bx || bx.contains(document.activeElement)) return; const f = bx.querySelector(answered ? '.hq-next, .hq-close' : '.hq-opt') || bx; try { f.focus({ preventScroll: true }); } catch (_) {} }
-        function answer(i) { if (answered) return; answered = true; chosen = i; if (qs[idx].options[i].correct) score++; render(); hqRefocus(); }
+        function hqRefocus() { const bx = document.getElementById('lm-hquiz-box'); if (!bx || bx.contains(document.activeElement)) return; const f = bx.querySelector('.hq-again') || bx.querySelector(answered ? '.hq-next, .hq-close' : '.hq-opt') || bx; try { f.focus({ preventScroll: true }); } catch (_) {} }
+        function answer(i) { if (answered) return; answered = true; chosen = i; if (qs[idx].options[i].correct) score++; render(); hqRefocus();
+            // A persistent live node (render() replaces the in-box feedback, which
+            // then arrives already filled and is not announced).
+            if (modal) { let lv = modal.querySelector('.hq-live'); if (!lv) { lv = document.createElement('div'); lv.className = 'hq-live'; lv.setAttribute('role', 'status'); lv.style.cssText = 'position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)'; modal.appendChild(lv); }
+              const fbEl = document.querySelector('#lm-hquiz-box .hq-fb'); lv.textContent = ''; setTimeout(() => { lv.textContent = fbEl ? fbEl.textContent : ''; }, 50); } }
         function next() { if (!answered) return; idx++; answered = false; chosen = -1; render(); hqRefocus(); }
         const KEYS = {"en": "Keys: 1–{n} to answer · Space or Enter for next · Esc to close", "ja": "キー操作：1〜{n}で回答・スペース／エンターで次へ・Escで閉じる", "ko": "키보드: 1~{n}로 답하기 · 스페이스/엔터로 다음 · Esc로 닫기", "zh": "键盘：1–{n} 作答 · 空格或回车下一题 · Esc 关闭", "yue": "鍵盤：1–{n} 答題 · 空白鍵或Enter下一題 · Esc 關閉", "vi": "Phím: 1–{n} để trả lời · Space để tiếp · Esc để đóng", "th": "คีย์: 1–{n} ตอบ · Space ไปต่อ · Esc ปิด", "id": "Tombol: 1–{n} untuk menjawab · Spasi untuk lanjut · Esc untuk menutup", "hi": "कुंजियाँ: 1–{n} उत्तर · Space अगला · Esc बंद", "de": "Tasten: 1–{n} antworten · Leertaste weiter · Esc schließen", "fr": "Touches : 1–{n} pour répondre · Espace pour continuer · Échap pour fermer", "it": "Tasti: 1–{n} per rispondere · Spazio per avanti · Esc per chiudere", "es": "Teclas: 1–{n} para responder · Espacio para seguir · Esc para cerrar", "pt": "Teclas: 1–{n} para responder · Espaço para avançar · Esc para fechar", "ru": "Клавиши: 1–{n} — ответ · Пробел — далее · Esc — закрыть", "uk": "Клавіші: 1–{n} — відповідь · Пробіл — далі · Esc — закрити", "ar": "المفاتيح: 1–{n} للإجابة · المسافة للتالي · Esc للإغلاق", "he": "מקשים: 1–{n} לתשובה · רווח להמשך · Esc לסגירה", "sw": "Vitufe: 1–{n} kujibu · Space kuendelea · Esc kufunga"};
         function startSet() { qs = []; idx = 0; score = 0; answered = false; chosen = -1; for (let i = 0; i < TOTAL; i++) { const q = makeQ(); if (q) qs.push(q); } render(); }
@@ -12816,7 +12823,7 @@
             box.dir = /^(ar|he)/.test(String(ui() || '')) ? 'rtl' : 'ltr';
             box.innerHTML = '';
             const head = el('div', 'display:flex;justify-content:space-between;align-items:center;margin-bottom:10px',
-                `<div style="font-weight:800;font-size:20px">${pk(Q.title)}</div><div dir="ltr" style="color:#9aa;font-weight:600;font-size:14px">${Math.min(idx + 1, TOTAL)}/${TOTAL} · ★${score}</div>`);
+                `<div style="font-weight:800;font-size:20px">${pk(Q.title)}</div><div dir="ltr" style="color:#5f6368;font-weight:600;font-size:14px">${Math.min(idx + 1, TOTAL)}/${TOTAL} · ★${score}</div>`);
             head.className = 'hq-head'; box.appendChild(head);
             if (!qs.length) { box.appendChild(el('div', 'color:#667;font-size:14px;margin:10px 0', pk(Q.none))); }
             else if (idx >= qs.length) { renderResult(box); return; }
@@ -12849,7 +12856,7 @@
                     }
                     const b = el('button', css + ';position:relative');
                     b.className = 'hq-opt'; b.type = 'button'; b.setAttribute('aria-keyshortcuts', String(i + 1));
-                    b.innerHTML = `<span aria-hidden="true" class="hq-key" style="position:absolute;top:6px;inset-inline-start:8px;font-size:11px;font-weight:700;color:#aab1bd;border:1px solid #dde1e7;border-radius:5px;padding:0 5px;line-height:16px">${i + 1}</span><div style="line-height:1.15">${q.fmt === 1 ? '<bdi dir="ltr">' + txt + '</bdi>' : txt}</div><div class="hq-sub" style="font-size:12px;font-weight:400;color:#9aa1ad;line-height:1.2;margin-top:3px;display:${answered ? 'block' : 'none'}">${q.fmt === 1 ? nameOf(o.code) : '<bdi dir="ltr">' + reading(o.code, q.ch, q.ipa) + '</bdi>'}</div>`;
+                    b.innerHTML = `<span aria-hidden="true" class="hq-key" style="position:absolute;top:6px;inset-inline-start:8px;font-size:11px;font-weight:700;color:#aab1bd;border:1px solid #dde1e7;border-radius:5px;padding:0 5px;line-height:16px">${i + 1}</span><div style="line-height:1.15">${q.fmt === 1 ? '<bdi dir="ltr">' + txt + '</bdi>' : txt}</div><div class="hq-sub" style="font-size:12px;font-weight:400;color:#5f6368;line-height:1.2;margin-top:3px;display:${answered ? 'block' : 'none'}">${q.fmt === 1 ? nameOf(o.code) : '<bdi dir="ltr">' + reading(o.code, q.ch, q.ipa) + '</bdi>'}</div>`;
                     if (!answered) b.addEventListener('click', () => answer(i));
                     mid.appendChild(b);
                 });
@@ -12858,7 +12865,7 @@
                 // height), shown only once answered so the modal height stays stable.
                 const okNow = answered && qs[idx].options[chosen] && qs[idx].options[chosen].correct;
                 const fb = el('div', `text-align:center;font-weight:800;font-size:16px;margin:6px 0 2px;color:${okNow ? '#0d9f6e' : '#d4506a'};visibility:${answered ? 'visible' : 'hidden'}`, answered ? (okNow ? pk(Q.correct) : pk(Q.wrong)) : pk(Q.correct));
-                fb.className = 'hq-fb'; fb.setAttribute('role', 'status'); box.appendChild(fb);
+                fb.className = 'hq-fb'; box.appendChild(fb);
                 const nb = el('button', `width:100%;margin-top:10px;padding:12px;border:0;border-radius:10px;background:${accent};color:#fff;font-weight:700;font-size:16px;cursor:pointer;flex:none;visibility:${answered ? 'visible' : 'hidden'}`);
                 nb.className = 'hq-next'; nb.setAttribute('aria-keyshortcuts', 'Space');
                 nb.textContent = !answered ? pk(Q.next) : ((idx + 1 >= TOTAL) ? pk(Q.result).replace('{score}', score).replace('{total}', TOTAL) : pk(Q.next));
@@ -12866,11 +12873,11 @@
                 box.appendChild(nb);
                 // Key hint for mouse/keyboard devices only (as in Language Master).
                 if (window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
-                    const kh = el('div', 'text-align:center;font-size:11px;color:#aab1bd;margin-top:6px;flex:none', pk(KEYS).replace('{n}', q.options.length));
+                    const kh = el('div', 'text-align:center;font-size:11px;color:#6b7280;margin-top:6px;flex:none', pk(KEYS).replace('{n}', q.options.length));
                     kh.className = 'hq-keys'; box.appendChild(kh);
                 }
             }
-            const cl = el('button', 'width:100%;margin-top:10px;padding:8px;border:0;background:none;color:#999;font-size:14px;cursor:pointer', pk(Q.close));
+            const cl = el('button', 'width:100%;margin-top:10px;padding:8px;border:0;background:none;color:#5f6368;font-size:14px;cursor:pointer', pk(Q.close));
             cl.className = 'hq-close';
             cl.addEventListener('click', hide);
             box.appendChild(cl);
@@ -12883,9 +12890,11 @@
             top.appendChild(el('div', 'text-align:center;font-weight:800;font-size:24px', pk(Q.result).replace('{score}', score).replace('{total}', TOTAL)));
             box.appendChild(top);
             const ab = el('button', `width:100%;margin-top:10px;padding:13px;border:0;border-radius:10px;background:${accent};color:#fff;font-weight:700;font-size:16px;cursor:pointer;flex:none`, pk(Q.again));
-            ab.addEventListener('click', startSet);
+            ab.className = 'hq-again';
+            ab.addEventListener('click', () => { startSet(); hqRefocus(); });
             box.appendChild(ab);
-            const cl = el('button', 'width:100%;margin-top:10px;padding:9px;border:0;background:none;color:#999;font-size:14px;cursor:pointer;flex:none', pk(Q.close));
+            const cl = el('button', 'width:100%;margin-top:10px;padding:9px;border:0;background:none;color:#5f6368;font-size:14px;cursor:pointer;flex:none', pk(Q.close));
+            cl.className = 'hq-close';
             cl.addEventListener('click', hide);
             box.appendChild(cl);
         }
@@ -13048,5 +13057,6 @@
     </script>
     <script src="share-button.js?v=4"></script>
     <script src="lang-picker.js?v=8"></script>
+    </main>
 </body>
 </html>

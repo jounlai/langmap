@@ -147,49 +147,67 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
 
 <section class="seo-section">
   <h2 id="seo-chars-h"><?= e(seo_t($ui, 'chars_heading', ['name' => $name])) ?></h2>
-  <div class="seo-chartable-wrap" tabindex="0" role="region" aria-labelledby="seo-chars-h">
-  <table class="seo-chartable">
-    <thead>
-      <tr>
-        <th class="c-char" scope="col"><?= e(seo_t($ui, 'th_char')) ?></th>
-        <th class="c-gloss" scope="col"><?= e(seo_t($ui, 'th_gloss')) ?></th>
-        <th class="c-read" scope="col"><?= e(seo_t($ui, 'th_read')) ?></th>
-        <th class="c-form" scope="col"><?= e(seo_t($ui, 'th_form')) ?></th>
-        <th class="c-ipa" scope="col">IPA</th>
-      </tr>
-    </thead>
-    <tbody>
-  <?php foreach ($chars as $c):
-      $key = $c['key'];
-      $readings = $lang['readings'][$key] ?? null;
-      if (!$readings) continue;
-      // Each reading is { surface, ipa, label } (文白異讀 / 呉音漢音 etc.).
-      $readings = array_values(array_filter($readings, fn($r) =>
-          ($r['surface'] ?? '') !== '' || ($r['ipa'] ?? '') !== '' || ($r['native'] ?? '') !== ''));
-      if (!$readings) continue;
-      // Beside a native-script form the surface is its romanization: same
-      // language, Latin script (ja-Latn …). Vietnamese quốc ngữ is plain vi,
-      // which the cell already says. (It was lang="vi" on every row.)
-      $romLang = (function (string $t): string { return ($t === '' || $t === 'vi') ? '' : $t . '-Latn'; })(seo_lang_attr($code));
-      $n = count($readings);
-      $multi = $n > 1;
-      foreach ($readings as $i => $r):
-          $native = $r['native'] ?? ''; $surface = $r['surface'] ?? ''; $ipa = $r['ipa'] ?? ''; $label = $r['label'] ?? '';
-          if ($native === $surface) $native = ''; // avoid duplicating when they coincide
-          $first = $i === 0; ?>
-      <tr<?= $first ? ' class="char-start"' : '' ?>>
-        <?php if ($first): ?>
-        <td class="c-char" lang="zh" rowspan="<?= $n ?>"><?= e($c['char']) ?></td>
-        <td class="c-gloss" rowspan="<?= $n ?>"><?= e($c['gloss'] ?? '') ?></td>
-        <?php endif; ?>
-        <td class="c-read"><?php if ($multi && $label !== ''): ?><span class="rlabel"><?= e($label) ?></span><?php endif; ?></td>
-        <td class="c-form" lang="<?= e(seo_lang_attr($code)) ?>"><?php if ($native !== ''): ?><span class="c-native"><?= e($native) ?></span><?php endif; ?><?php if ($surface !== ''): ?><span class="c-rom"<?= ($native !== '' && $romLang !== '') ? ' lang="' . e($romLang) . '"' : '' ?>><?= e($surface) ?></span><?php endif; ?></td>
-        <td class="c-ipa"><?= $ipa !== '' ? '<bdi dir="ltr">/' . e($ipa) . '/</bdi>' : '' ?></td>
-      </tr>
-      <?php endforeach; ?>
-  <?php endforeach; ?>
-    </tbody>
-  </table>
+<?php
+    // The table is cut into ~30-row tables (whole characters, so rowspans
+    // stay inside one table). Each table after the first sits in a
+    // content-visibility wrapper and is laid out only near the viewport: the
+    // single 190-row table was laid out at load (mobile TBT). Separate tables
+    // cannot share auto column widths, so all use table-layout:fixed and one
+    // colgroup whose widths come from the longest strings printed in them.
+    $romLang = (function (string $t): string { return ($t === '' || $t === 'vi') ? '' : $t . '-Latn'; })(seo_lang_attr($code));
+    $groups = []; $wLabel = 0; $wIpa = 0;
+    foreach ($chars as $c) {
+        $readings = $lang['readings'][$c['key']] ?? null;
+        if (!$readings) continue;
+        $readings = array_values(array_filter($readings, fn($r) =>
+            ($r['surface'] ?? '') !== '' || ($r['ipa'] ?? '') !== '' || ($r['native'] ?? '') !== ''));
+        if (!$readings) continue;
+        $n = count($readings); $html = ''; $tall = 0;
+        foreach ($readings as $i => $r) {
+            $native = $r['native'] ?? ''; $surface = $r['surface'] ?? ''; $ipa = $r['ipa'] ?? ''; $label = $r['label'] ?? '';
+            if ($native === $surface) $native = '';
+            if ($native !== '') $tall++;
+            if ($n > 1 && $label !== '') $wLabel = max($wLabel, mb_strwidth($label));
+            if ($ipa !== '') $wIpa = max($wIpa, mb_strlen($ipa) + 2);
+            $html .= '<tr' . ($i === 0 ? ' class="char-start"' : '') . '>';
+            if ($i === 0) {
+                $html .= '<td class="c-char" lang="zh" rowspan="' . $n . '">' . e($c['char']) . '</td>'
+                       . '<td class="c-gloss" rowspan="' . $n . '">' . e($c['gloss'] ?? '') . '</td>';
+            }
+            $html .= '<td class="c-read">' . (($n > 1 && $label !== '') ? '<span class="rlabel">' . e($label) . '</span>' : '') . '</td>'
+                   . '<td class="c-form" lang="' . e(seo_lang_attr($code)) . '">'
+                   . ($native !== '' ? '<span class="c-native">' . e($native) . '</span>' : '')
+                   . ($surface !== '' ? '<span class="c-rom"' . (($native !== '' && $romLang !== '') ? ' lang="' . e($romLang) . '"' : '') . '>' . e($surface) . '</span>' : '')
+                   . '</td><td class="c-ipa">' . ($ipa !== '' ? '<bdi dir="ltr">/' . e($ipa) . '/</bdi>' : '') . '</td></tr>';
+        }
+        $groups[] = ['html' => $html, 'rows' => $n, 'tall' => $tall];
+    }
+    $chunks = []; $cur = []; $rows = 0;
+    foreach ($groups as $g) {
+        $cur[] = $g; $rows += $g['rows'];
+        if ($rows >= 30) { $chunks[] = $cur; $cur = []; $rows = 0; }
+    }
+    if ($cur) $chunks[] = $cur;
+    $th = [seo_t($ui, 'th_char'), seo_t($ui, 'th_gloss'), seo_t($ui, 'th_read'), seo_t($ui, 'th_form'), 'IPA'];
+    $hdr = fn(string $s): float => mb_strwidth($s) * 0.5 + 1.7;          // .8rem caps + letter-spacing + padding
+    $wC = max(4.2, $hdr($th[0]));
+    $wR = max($hdr($th[2]), $wLabel ? $wLabel * 0.36 + 2.5 : 0);        // .68rem chip
+    $wI = max($hdr($th[4]), min(14, $wIpa * 0.52 + 1.7));               // .9rem IPA
+    $tw = $wC + $wR + $wI + 15;                                         // + gloss ~7rem + form >= 8rem
+    $colgroup = sprintf('<colgroup><col style="width:%.1frem"><col class="c-gloss"><col style="width:%.1frem"><col><col style="width:%.1frem"></colgroup>', $wC, $wR, $wI);
+    $thead = '<thead><tr>'
+        . '<th class="c-char" scope="col">' . e($th[0]) . '</th><th class="c-gloss" scope="col">' . e($th[1]) . '</th>'
+        . '<th class="c-read" scope="col">' . e($th[2]) . '</th><th class="c-form" scope="col">' . e($th[3]) . '</th>'
+        . '<th class="c-ipa" scope="col">IPA</th></tr></thead>';
+?>
+  <div class="seo-chartable-wrap" tabindex="0" role="region" aria-labelledby="seo-chars-h" style="--tw:<?= sprintf('%.1f', $tw) ?>rem">
+  <?php foreach ($chunks as $k => $ch):
+      $body = implode('', array_column($ch, 'html'));
+      $table = '<table class="seo-chartable">' . $colgroup . $thead . '<tbody>' . $body . '</tbody></table>';
+      if ($k === 0): echo $table, "\n";
+      else: ?>
+  <div class="seo-chartable-chunk" style="--r:<?= array_sum(array_column($ch, 'rows')) ?>;--n:<?= array_sum(array_column($ch, 'tall')) ?>"><?= $table ?></div>
+  <?php endif; endforeach; ?>
   </div>
 </section>
 

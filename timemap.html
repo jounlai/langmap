@@ -62,7 +62,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=148">
+    <link rel="stylesheet" href="styles.css?v=149">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -334,7 +334,7 @@
         @media (min-width: 641px) { .tm-map-ctl:not(:has(> .chrome-toggle-btn))::before { content: ''; height: 40px; } }
         #tm-era { min-height: 20px; }
 </style>
-    <script src="nav-short.js?v=18"></script>
+    <script src="nav-short.js?v=19"></script>
 </head>
 <body>
     <header class="site-header-bar">
@@ -362,6 +362,8 @@
             <a class="header-url" href="https://langmaps.com">langmaps.com</a>
         </div>
     </header>
+    <!-- main landmark; display:contents keeps every layout (flex body, absolute panels) unchanged -->
+    <main style="display:contents">
     <div class="header-backdrop" id="header-backdrop" aria-hidden="true"></div>
 
     <div class="tm-stage">
@@ -740,7 +742,10 @@
             if(openId && markers[openId]){ if(!markers[openId].isPopupOpen()) markers[openId].openPopup(); } else if(openId){ openId=null; markActive(); }
             if(!opts || opts.hash!==false) updateHash();
             // Step / Today buttons change the date out of sight: announce it.
-            if(opts && opts.announce){ const lv=document.getElementById('tm-live'); if(lv) lv.textContent=s; }
+            // Debounced (a held Next queued 20 dates), and read as a long date.
+            if(opts && opts.announce){ clearTimeout(setDate._lv); setDate._lv=setTimeout(()=>{ const lv=document.getElementById('tm-live'); if(!lv) return;
+                let txt=s; try{ const p=gregParts(s); if(p) txt=new Date(Date.UTC(p.y,p.m-1,p.d)).toLocaleDateString(String(uiLang||'en').replace('_','-'),{year:'numeric',month:'long',day:'numeric',timeZone:'UTC'}); }catch(_){}
+                lv.textContent=txt; }, 400); }
         }
 
         /* ---------- Mobile sheet + chrome toggle ---------- */
@@ -857,7 +862,7 @@
             document.getElementById('tm-today').addEventListener('click', ()=>setDate(todayStr(), {announce:true}));
             document.querySelectorAll('#tm-era .radio-opt').forEach(b=>b.addEventListener('click', ()=>setEra(b.getAttribute('data-era'))));
             document.getElementById('tm-era').addEventListener('keydown', e=>{
-                if(!/^Arrow(Left|Right|Up|Down)$/.test(e.key)) return;
+                if(e.altKey||e.ctrlKey||e.metaKey||!/^Arrow(Left|Right|Up|Down)$/.test(e.key)) return;
                 e.preventDefault();
                 const other=era==='modern'?'historical':'modern'; setEra(other);
                 const b=document.querySelector('#tm-era .radio-opt[data-era="'+other+'"]'); if(b) b.focus();
@@ -919,5 +924,6 @@
     <script src="/pwa.js?v=2"></script>
     <script src="share-button.js?v=4"></script>
     <script src="lang-picker.js?v=8"></script>
+    </main>
 </body>
 </html>

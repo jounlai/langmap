@@ -1517,13 +1517,7 @@ function render() {
                 else if (!NO_QM_LANGS.has(code)) { text += '?'; }
             }
             navigator.clipboard.writeText(text).then(() => {
-                const toast = document.getElementById('copyToast');
-                toast.textContent = t('copiedText');
-                toast.classList.add('show');
-                setTimeout(() => {
-                    toast.classList.remove('show');
-                    toast.textContent = t('copied');
-                }, 2000);
+                showToast(t('copiedText'));
             });
         });
         row.appendChild(copyBtn);
@@ -1551,10 +1545,7 @@ function render() {
             e.stopPropagation();
             const text = buildFullText(sentence, code);
             navigator.clipboard.writeText(text).then(() => {
-                const toast = document.getElementById('copyToast');
-                toast.textContent = t('copiedText');
-                toast.classList.add('show');
-                setTimeout(() => { toast.classList.remove('show'); toast.textContent = t('copied'); }, 2000);
+                showToast(t('copiedText'));
             });
         });
         mobileBar.appendChild(mEditBtn);
@@ -2163,11 +2154,21 @@ function getShareText() {
     return `LangMap: ${text}`;
 }
 
+// The toast is a live region: set its text on every show (a change is what
+// gets announced) and never reset it while it is still fading out.
+let _toastTimer = null;
+function showToast(text) {
+    const toast = document.getElementById('copyToast');
+    if (!toast) return;
+    toast.textContent = '';
+    requestAnimationFrame(() => { toast.textContent = text; toast.classList.add('show'); });
+    clearTimeout(_toastTimer);
+    _toastTimer = setTimeout(() => toast.classList.remove('show'), 2000);
+}
+
 function copyShareURL() {
     navigator.clipboard.writeText(getShareURL()).then(() => {
-        const toast = document.getElementById('copyToast');
-        toast.classList.add('show');
-        setTimeout(() => toast.classList.remove('show'), 2000);
+        showToast(t('copied'));
     });
 }
 
@@ -2266,7 +2267,8 @@ function enterEditMode(row, langCode) {
     // first field (focus was left on <body>, Tab walked the page behind).
     const _row = document.querySelector('body > .lang-row.editing');
     if (_row) { _row.setAttribute('role', 'dialog'); _row.setAttribute('aria-modal', 'true'); _row.setAttribute('aria-label', langName(langCode)); }
-    const _ct = document.querySelector('.container'); if (_ct) _ct.inert = true;
+    // Everything else in <body> (header included) is inert while editing.
+    [...document.body.children].forEach((el) => { if (el !== _row && el.id !== 'editOverlay' && !el.classList.contains('add-segment-menu') && el.tagName !== 'SCRIPT') { el.inert = true; el.dataset.editInert = '1'; } });
     const _first = document.querySelector('body > .lang-row.editing .segment-input');
     if (_first) setTimeout(() => _first.focus(), 0);
 }
@@ -2333,10 +2335,12 @@ function createSegmentWrapper(seg, langCode) {
         input.style.width = Math.max(input.scrollWidth + 16, 50) + 'px';
     });
 
-    const deleteBtn = document.createElement('span');
+    const deleteBtn = document.createElement('button');
+    deleteBtn.type = 'button';
     deleteBtn.className = 'seg-delete-btn';
     deleteBtn.textContent = '\u00d7';
-    deleteBtn.title = t('deleteSegment') || 'Delete';
+    deleteBtn.title = (t('deleteSegment') !== 'deleteSegment' && t('deleteSegment')) || 'Delete';
+    deleteBtn.setAttribute('aria-label', deleteBtn.title + ' ' + (seg.dataset.seg || ''));
     deleteBtn.addEventListener('click', (e) => {
         e.stopPropagation();
         wrapper.remove();
@@ -2344,10 +2348,12 @@ function createSegmentWrapper(seg, langCode) {
     });
 
     // Segment ID badge (clickable to change segment type)
-    const badge = document.createElement('span');
+    const badge = document.createElement('button');
+    badge.type = 'button';
     badge.className = 'seg-id-badge';
     badge.textContent = seg.dataset.seg;
     badge.title = 'Change segment type';
+    badge.setAttribute('aria-label', 'Change segment type: ' + (seg.dataset.seg || ''));
     if (isCompound) {
         const colors = segSubIds.map(id => sentence.segments[id]?.color || '#666');
         badge.style.background = `linear-gradient(90deg, ${colors.join(', ')})`;
@@ -2371,7 +2377,7 @@ function createSegmentWrapper(seg, langCode) {
         e.stopPropagation();
         const prev = wrapper.previousElementSibling;
         if (prev && prev.classList.contains('segment-input-wrapper')) {
-            wrapper.parentNode.insertBefore(wrapper, prev);
+            wrapper.parentNode.insertBefore(prev, wrapper.nextSibling);   // move the neighbour: the focused button stays put in the DOM
             scheduleRedrawLines();
         }
     });
@@ -2888,13 +2894,7 @@ function saveEdit(row, langCode) {
         localStorage.setItem('langmap_corrections', JSON.stringify(stored));
 
         // Show toast
-        const toast = document.getElementById('copyToast');
-        toast.textContent = t('correctionSaved');
-        toast.classList.add('show');
-        setTimeout(() => {
-            toast.classList.remove('show');
-            toast.textContent = t('copied');
-        }, 2000);
+        showToast(t('correctionSaved'));
     }
 
     exitEditMode();
@@ -2907,7 +2907,7 @@ function cancelEdit(row, langCode) {
 function exitEditMode() {
     const _lang = editingRow && editingRow.lang;
     editingRow = null;
-    const _ct = document.querySelector('.container'); if (_ct) _ct.inert = false;
+    document.querySelectorAll('[data-edit-inert]').forEach((el) => { el.inert = false; delete el.dataset.editInert; });
     // Remove overlay
     const overlay = document.getElementById('editOverlay');
     if (overlay) overlay.remove();
@@ -2945,6 +2945,9 @@ document.addEventListener('keydown', (e) => {
         exitEditMode(); return;
     }
     if (e.altKey || e.ctrlKey || e.metaKey) return;   // Alt+Left is the browser's Back
+    // While editing, arrows / r belong to the editor (changing the sentence
+    // under it left the page inert with an orphan editor).
+    if (editingRow || document.querySelector('body > .lang-row.editing')) return;
     if (e.target.tagName === 'SELECT' || e.target.tagName === 'INPUT') return;
     if (document.getElementById('langModalOverlay')?.classList.contains('open')) return;
     if (e.key === 'ArrowLeft') prevSentence();

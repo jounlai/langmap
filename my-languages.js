@@ -424,7 +424,7 @@
             '.mylang-sugg-item{padding:8px 11px;cursor:pointer;display:flex;gap:8px;align-items:baseline}',
             '.mylang-sugg-item:hover,.mylang-sugg-item.active{background:rgba(90,140,220,.16)}',
             '.mylang-sugg-native{font-weight:600}',
-            '.mylang-sugg-rom{opacity:.6;font-size:12px}',
+            '.mylang-sugg-rom{color:#5f6368;font-size:12px}',
             '.mylang-list{display:flex;flex-direction:column;gap:6px}',
             // One line: dot + name (grows, keeps a min width) + level select
             // (shrinkable, capped so it can never crush the name or overflow) +
@@ -435,7 +435,7 @@
             '.mylang-level{flex:0 1 auto;min-width:0;max-width:56%;box-sizing:border-box;font:inherit;font-size:12px;padding:5px 6px;border:1px solid rgba(128,128,128,.35);border-radius:7px;background:transparent;color:inherit}',
             '.mylang-del{flex:0 0 auto;background:none;border:0;cursor:pointer;color:inherit;opacity:.5;font-size:19px;line-height:1;padding:0 3px}',
             '.mylang-del:hover{opacity:1;color:#d9534f}',
-            '.mylang-empty{opacity:.6;text-align:center;padding:14px 4px;font-size:13px}',
+            '.mylang-empty{color:#5f6368;text-align:center;padding:14px 4px;font-size:13px}',
             '.mylang-stats{display:grid;grid-template-columns:1fr 1fr;gap:8px}',
             '.mylang-stat{background:rgba(90,140,220,.1);border-radius:10px;padding:9px 11px}',
             '.mylang-stat.big{grid-column:1/-1;background:linear-gradient(135deg,rgba(90,140,220,.18),rgba(120,90,200,.14))}',
@@ -450,7 +450,7 @@
             '.mylang-act:disabled{opacity:.45;cursor:default}',
             '.mylang-imgwrap{display:flex;flex-direction:column;gap:12px;align-items:center}',
             '.mylang-imgwrap img{max-width:100%;border-radius:12px;box-shadow:0 8px 30px rgba(0,0,0,.3)}',
-            '.mylang-note{font-size:11px;opacity:.6;text-align:center}',
+            '.mylang-note{font-size:11px;color:#5f6368;text-align:center}',
         ].join('\n');
         var st = document.createElement('style'); st.id = 'mylang-styles'; st.textContent = css;
         document.head.appendChild(st);
@@ -573,7 +573,7 @@
             nm.appendChild(nat);
             if (rc) {
                 var rr = el('div', 'mylang-rom'); rr.textContent = rc;
-                rr.style.cssText = 'display:block;font-size:11px;line-height:1.2;opacity:.6;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:' + mainCol + ';-webkit-text-fill-color:' + mainCol;
+                rr.style.cssText = 'display:block;font-size:11px;line-height:1.2;opacity:.85;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:' + mainCol + ';-webkit-text-fill-color:' + mainCol;
                 nm.appendChild(rr);
             }
             // Overlap note (dialect folded into its parent), on its own line.
@@ -678,6 +678,8 @@
     function onSearchKey(e) {
         // Escape with suggestions showing closes the list, not the whole panel.
         if (e.key === 'Escape' && suggBox.classList.contains('open')) { e.preventDefault(); e.stopPropagation(); suggBox.classList.remove('open'); return; }
+        // Closed with Escape but text still there: arrows/Enter reopen the list.
+        if ((e.key === 'ArrowDown' || e.key === 'ArrowUp' || e.key === 'Enter') && !suggBox.classList.contains('open') && addInput.value.trim()) onSearch();
         if (!suggBox.classList.contains('open') || !suggData.length) return;
         if (e.key === 'ArrowDown') { activeSugg = Math.min(suggData.length - 1, activeSugg + 1); renderSugg(); e.preventDefault(); }
         else if (e.key === 'ArrowUp') { activeSugg = Math.max(0, activeSugg - 1); renderSugg(); e.preventDefault(); }
@@ -794,6 +796,8 @@
         if (canvas) {
             var img = new Image();
             try { img.src = canvas.toDataURL('image/png'); } catch (e) {}
+            // The card as text for screen readers.
+            img.alt = T('make_img') + ': ' + state.langs.map(function (x) { return dispName(x.code); }).join(', ') + '. ' + shareText();
             wrap.appendChild(img);
             var acts = el('div', 'mylang-actions'); acts.style.width = '100%';
             var dl = el('button', 'mylang-act primary'); dl.textContent = T('download');
@@ -846,9 +850,11 @@
     }
     function toast(msg) {
         var t = document.createElement('div');
-        t.textContent = msg;
+        t.setAttribute('role', 'status'); t.setAttribute('aria-live', 'polite');
+        document.body.appendChild(t);   // in the DOM first, then the text: announced
+        setTimeout(function () { t.textContent = msg; }, 30);
         t.style.cssText = 'position:fixed;left:50%;bottom:28px;transform:translateX(-50%);z-index:100003;background:#222;color:#fff;padding:9px 16px;border-radius:999px;font-size:13px;box-shadow:0 4px 16px rgba(0,0,0,.25)';
-        document.body.appendChild(t); setTimeout(function () { t.remove(); }, 1800);
+        setTimeout(function () { t.remove(); }, 1800);
     }
     // Per-network share links (works on desktop, unlike the Web Share API) plus
     // copy-link and — where supported — native image share.
@@ -856,8 +862,8 @@
         var url = passportUrl(), text = shareText(), enc = encodeURIComponent;
         var targets = [
             { label: 'X', color: '#000', href: 'https://twitter.com/intent/tweet?text=' + enc(text) + '&url=' + enc(url) },
-            { label: 'Facebook', color: '#1877f2', href: 'https://www.facebook.com/sharer/sharer.php?u=' + enc(url) },
-            { label: 'LINE', color: '#06c755', href: 'https://social-plugins.line.me/lineit/share?url=' + enc(url) + '&text=' + enc(text) }
+            { label: 'Facebook', color: '#0b5fcc', href: 'https://www.facebook.com/sharer/sharer.php?u=' + enc(url) },
+            { label: 'LINE', color: '#047a34', href: 'https://social-plugins.line.me/lineit/share?url=' + enc(url) + '&text=' + enc(text) }
         ];
         var back = document.createElement('div');
         back.className = 'mylang-share-back wm-overlay';

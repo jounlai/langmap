@@ -72,7 +72,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=148">
+    <link rel="stylesheet" href="styles.css?v=149">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for the scripts that name forms appear in. Without these,
          Arabic / Hebrew / Devanagari / Bengali / Ethiopic / Georgian /
@@ -519,7 +519,7 @@
            57px then 47px and the whole stage jumped (CLS ~0.4, rally r4). */
         @media (min-width: 641px) { .site-header-bar > .chrome-toggle-btn { display: none; } }
 </style>
-    <script src="nav-short.js?v=18"></script>
+    <script src="nav-short.js?v=19"></script>
 </head>
 <body>
     <!-- Header (shared markup with wordmap/hanmap/tree/index) -->
@@ -550,6 +550,8 @@
             <a class="header-url" href="https://langmaps.com">langmaps.com</a>
         </div>
     </header>
+    <!-- main landmark; display:contents keeps every layout (flex body, absolute panels) unchanged -->
+    <main style="display:contents">
     <div class="header-backdrop" id="header-backdrop" aria-hidden="true"></div>
 
     <div class="nm-stage">
@@ -1203,5 +1205,6 @@
     <script src="/pwa.js?v=2"></script>
     <script src="share-button.js?v=4"></script>
     <script src="lang-picker.js?v=8"></script>
+    </main>
 </body>
 </html>

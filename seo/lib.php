@@ -3143,11 +3143,9 @@ function seo_map_embed(?float $lat, ?float $lng, string $label, int $zoom = 5, s
       maxZoom: 18, subdomains: 'abcd',
       attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a> &middot; &copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
-    // Leaflet derives the default icon path from the stylesheet's URL; pin it.
-    L.Icon.Default.imagePath = 'https://unpkg.com/leaflet@1.9.4/dist/images/';
     // No shadow: Leaflet's marker-shadow.png has no 2x version (image-size-responsive).
     var P = 'https://unpkg.com/leaflet@1.9.4/dist/images/';
-    L.marker([{$lat}, {$lng}], { icon: L.icon({ iconUrl: P + 'marker-icon.png', iconRetinaUrl: P + 'marker-icon-2x.png',
+    L.marker([{$lat}, {$lng}], { alt: {$jsLabel}, icon: L.icon({ iconUrl: P + 'marker-icon.png', iconRetinaUrl: P + 'marker-icon-2x.png',
       iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], tooltipAnchor: [16, -28] }) }).addTo(map).bindPopup({$jsLabel});
   }
   if ('IntersectionObserver' in window) {
@@ -3424,6 +3422,8 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   .seo-ex .cmp-page[hidden] { display: table-row !important; }
   /* Wide tables: no scroll box on paper, wrap instead of cutting the right edge. */
   .seo-cmp-wrap, .seo-chartable-wrap { overflow: visible !important; }
+  .seo-chartable-chunk { content-visibility: visible !important; min-width: 0 !important; }
+  .seo-chartable { min-width: 0 !important; }
   .seo-cmp-tbl { min-width: 0 !important; width: 100% !important; }
   /* IPA has no break points: let long forms break anywhere rather than run off the page. */
   .seo-cmp-tbl.seo-cmp-tbl { font-size: 9pt; }
@@ -3475,7 +3475,8 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
   padding: .85rem 1rem; }
 /* 87 cards (11,600px) rendered at load and were re-laid out by every font
    slice: mobile TBT 1-2 s. Each card skips layout until near the viewport. */
-.seo-word { content-visibility: auto; contain-intrinsic-size: auto 125px; }
+.seo-word { content-visibility: auto; contain-intrinsic-size: auto 90px; }
+.seo-word.widx { contain-intrinsic-size: auto 51px; }
 .seo-word .label { font-size: .8rem; text-transform: uppercase; letter-spacing: .04em;
   color: var(--muted); margin: 0 0 .25rem; }
 .seo-word .surface { font-size: 2rem; line-height: 1.15; margin: 0; word-break: break-word; }
@@ -3517,6 +3518,17 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
     "HanaMinB", "Nom Na Tong", serif; }
 .seo-chartable td.c-form .c-rom { display: block; font-size: .92rem; color: var(--muted); }
 .seo-chartable td.c-ipa { color: var(--accent); font-size: .9rem; white-space: nowrap; }
+/* The table is cut into ~30-row tables (seo/hanmap.php). One colgroup, fixed
+   layout: columns line up across the tables. Every table after the first is
+   laid out only near the viewport; its thead stays for screen readers. */
+.seo-chartable { table-layout: fixed; min-width: var(--tw, 32rem); }
+.seo-chartable col.c-gloss { width: 22%; }
+.seo-chartable thead th { white-space: normal; overflow-wrap: anywhere; }
+.seo-chartable td.c-ipa { white-space: normal; overflow-wrap: anywhere; }
+.seo-chartable-chunk { content-visibility: auto; min-width: var(--tw, 32rem);
+  contain-intrinsic-size: auto calc(var(--r) * 2.7rem + var(--n) * 1.6rem); }
+.seo-chartable-chunk thead th { padding-block: 0; border: 0; height: 0; line-height: 0; clip-path: inset(50%); }
+.seo-chartable-chunk tbody tr:first-child td { border-top: 1px solid var(--line); }
 /* Serif for Han glyphs & surface forms (Mincho/Song for CJK); IPA stays sans.
    Body cells only (td) so the thead row keeps the uniform sans UI font.
    Broad CJK serif stack + generic `serif` so individual Han glyphs reliably
@@ -3718,7 +3730,7 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
 .seo-ex .ex-wo-sent { background: var(--card); border: 1px solid var(--line); border-radius: .7rem;
   padding: 1rem 1.1rem; }
 .seo-ex .ex-wo-sent .wo-title { font-size: .9rem; color: var(--muted); margin: 0 0 .6rem; }
-.seo-ex .ex-wo-sent .wo-seg { display: inline-block; margin: 0 .3rem .4rem 0; padding: .15rem 0;
+.seo-ex .ex-wo-sent .wo-seg, .seo-ex .ex-wo-lazy .wo-seg { display: inline-block; margin: 0 .3rem .4rem 0; padding: .15rem 0;
   border-bottom: 2px solid currentColor; font-size: 1.2rem;
   font-family: "Gentium Plus", "Noto Serif", "Noto Serif JP", "Noto Serif SC",
     "Noto Serif TC", "Noto Serif KR", Georgia, serif; }

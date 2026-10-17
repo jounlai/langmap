@@ -550,7 +550,7 @@
         });
         box.appendChild(mid);
         var ok = answered && q.options[state.chosen].key === q.answer;
-        box.appendChild(el('div', 'text-align:center;font-weight:800;font-size:16px;margin:4px 0 0;flex:none;color:' + (ok ? '#0d9f6e' : '#d4506a') + ';visibility:' + (answered ? 'visible' : 'hidden'), esc(answered ? (ok ? pk(T.correct) : pk(T.wrong)) : pk(T.correct))));
+        box.appendChild(el('div', 'text-align:center;font-weight:800;font-size:16px;margin:4px 0 0;flex:none;color:' + (ok ? '#097550' : '#b8324f') + ';visibility:' + (answered ? 'visible' : 'hidden'), esc(answered ? (ok ? pk(T.correct) : pk(T.wrong)) : pk(T.correct))));
         var nb = btn(nextLabel() + (answered && autoT ? ' (' + autoLeft + ')' : ''), true, advance, 'Enter');
         if (!answered) delete state.keys.Enter;
         nb.id = 'lm-master-next'; nb.setAttribute('aria-keyshortcuts', 'Space');

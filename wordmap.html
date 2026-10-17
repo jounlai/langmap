@@ -87,7 +87,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=148">
+    <link rel="stylesheet" href="styles.css?v=149">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts. Without these the characters render
          as tofu boxes: desktop Linux often ships the Noto historic fonts, but
@@ -891,7 +891,7 @@
         .toggle-btn {
             font-size: 11px; padding: 4px 10px; border: 1px solid #d0d0d0;
             border-radius: 20px; background: #f0f0f0; cursor: pointer; white-space: nowrap;
-            color: #777; font-weight: 500;
+            color: #5f6368; font-weight: 500;
             transition: all 0.25s ease;
             user-select: none;
         }
@@ -925,7 +925,7 @@
             padding: 0;
         }
         .toggle-3d-btn.active {
-            background: #4a6cf7; border-color: #3a5ce5;
+            background: #3f5fe0; border-color: #3a5ce5;
             box-shadow: 0 1px 4px rgba(74,108,247,0.35);
         }
         .toggle-3d-btn.active:hover { background: #3a5ce5; }
@@ -1456,7 +1456,7 @@
             background: rgba(255,255,255,0.85); border: none;
             width: 26px; height: 26px; line-height: 1;
             border-radius: 50%;
-            font-size: 18px; cursor: pointer; color: #999;
+            font-size: 18px; cursor: pointer; color: #5f6368;
             display: inline-flex; align-items: center; justify-content: center;
         }
         .lang-info-panel .close-btn:hover { color: #333; background: rgba(255,255,255,0.95); }
@@ -1941,7 +1941,7 @@
         @media (prefers-reduced-motion: reduce) { .tshirt-nudge-track { animation: none; } }
         .tshirt-nudge-text { display: flex; flex-direction: column; gap: 1px; min-width: 0; }
         .tshirt-nudge-title { font-size: 12.5px; font-weight: 700; color: #3a2a12; }
-        .tshirt-nudge-sub { font-size: 11px; color: #8a7f6f; }
+        .tshirt-nudge-sub { font-size: 11px; color: #6b5f4f; }
         /* Compare-panel nudge sits under the table, kept to a sane width. */
         .compare-tshirt-wrap { padding: 4px 12px 14px; }
         .compare-tshirt-wrap .tshirt-nudge { max-width: 440px; margin: 8px 0 0; }
@@ -3036,7 +3036,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=18"></script>
+    <script src="nav-short.js?v=19"></script>
 </head>
 <body>
     <!-- Header -->
@@ -3106,6 +3106,8 @@
             <a class="header-url" href="https://langmaps.com">langmaps.com</a>
         </div>
     </header>
+    <!-- main landmark; display:contents keeps every layout (flex body, absolute panels) unchanged -->
+    <main style="display:contents">
 
     <!-- Floating "back to plain map" pill, visible when basemap != flat -->
     <button type="button" class="tiles-revert" id="tiles-revert"
@@ -3731,7 +3733,7 @@
            per-word loader can read it", which was the intent all along — only
            the order was wrong. */
         const WM_ASSET_VERSION = {
-            styles:   148,
+            styles:   149,
             data:      343,
             metaI18n:  16,
             filter:    49,
@@ -7671,9 +7673,10 @@
             } else {
                 // The opener label was rebuilt (word change, pan): its new copy,
                 // else the word button. Not the search box (a phone keyboard).
-                const lbl = _closedCode && document.querySelector('.lang-label[data-code="' + CSS.escape(_closedCode) + '"]');
-                const fb = lbl || document.getElementById('word-current-btn');
-                if (fb) try { fb.focus({ preventScroll: true }); } catch (_) { /* ignore */ }
+                // 2D label or 3D globe label, whichever is actually shown.
+                const lbl = _closedCode && [...document.querySelectorAll('.lang-label[data-code="' + CSS.escape(_closedCode) + '"], .globe-label[data-code="' + CSS.escape(_closedCode) + '"]')].find((x) => x.getClientRects().length);
+                if (lbl) try { lbl.focus({ preventScroll: true }); } catch (_) { /* ignore */ }
+                if (!lbl || document.activeElement !== lbl) { const wb = document.getElementById('word-current-btn'); if (wb) try { wb.focus({ preventScroll: true }); } catch (_) {} }
             }
             _lastDialogOpener = null;
         }
@@ -7987,7 +7990,7 @@
         const DATA_STATUS_BADGE = {
             modern: null,
             attested: {
-                bg:'#e8f0fe', fg:'#1a73e8',
+                bg:'#e8f0fe', fg:'#1557b0',
                 labels: { en:'attested', ja:'文献あり', ko:'문헌 있음', zh:'文献存在', yue:'文獻存在', vi:'có chứng tích', th:'มีหลักฐาน', id:'terdokumentasi', hi:'प्रमाणित', de:'belegt', fr:'attesté', it:'attestato', es:'atestiguado', es: 'atestiguado', pt:'atestado', pt: 'atestado', ru:'засвидетельствовано', uk:'засвідчено', ar:'مُؤكَّد', he:'מתועד', sw:'imethibitishwa' },
                 descs: {
                     en:'Direct primary text corpus exists; values cite real sources.',
@@ -8037,7 +8040,7 @@
                 },
             },
             reconstructed: {
-                bg:'#fff5e0', fg:'#b56500',
+                bg:'#fff5e0', fg:'#8a4b00',
                 labels: { en:'reconstructed', ja:'比較再構', ko:'재구', zh:'重构', yue:'重構', vi:'tái dựng', th:'สร้างใหม่', id:'rekonstruksi', hi:'पुनर्निर्मित', de:'rekonstruiert', fr:'reconstitué', it:'ricostruito', es:'reconstruido', es: 'reconstruido', pt:'reconstruído', pt: 'reconstruído', ru:'реконструкция', uk:'реконструйовано', ar:'مُعاد البناء', he:'שוחזר', sw:'imerejeshwa' },
                 descs: {
                     en:'Comparative reconstruction; no direct text record.',
@@ -8087,7 +8090,7 @@
                 },
             },
             'partly-understood': {
-                bg:'#fff0d0', fg:'#a06000',
+                bg:'#fff0d0', fg:'#8a5200',
                 labels: { en:'partly understood', ja:'部分解読', ko:'부분 해독', zh:'部分解读', yue:'部分解讀', vi:'hiểu một phần', th:'เข้าใจบางส่วน', id:'sebagian dimengerti', hi:'आंशिक समझ', de:'teilweise verstanden', fr:'partiellement compris', it:'parzialmente compreso', es:'parcialmente entendido', es: 'parcialmente entendido', pt:'parcialmente compreendido', pt: 'parcialmente compreendido', ru:'частично понятно', uk:'частково зрозуміле', ar:'مفهوم جزئيًا', he:'מובן חלקית', sw:'inaeleweka kwa sehemu' },
                 descs: {
                     en:'Script readable but lexicon/grammar incomplete; many cells uncertain.',
@@ -8648,13 +8651,13 @@
                         if (m.speakerYear)   annot.push(String(m.speakerYear));
                     }
                     if (annot.length) {
-                        speakerCell += ` <span style="color:#999;font-size:10px">(${annot.join(', ')})</span>`;
+                        speakerCell += ` <span style="color:#5f6368;font-size:10px">(${annot.join(', ')})</span>`;
                     }
                     // Show the structured 'notes' field below the main number
                     // (where present) to surface qualitative detail like
                     // "L1 ≈ 380M; L2 ≈ 1.1B" without crowding the main cell.
                     if (sc && sc.notes) {
-                        speakerCell += `<div style="margin-top:2px;font-size:10px;color:#888;line-height:1.4">${escapeHtml(sc.notes)}</div>`;
+                        speakerCell += `<div style="margin-top:2px;font-size:10px;color:#5f6368;line-height:1.4">${escapeHtml(sc.notes)}</div>`;
                     }
                     html += `<tr><td>${escapeHtml(wt('speakers'))}</td><td>${speakerCell}</td></tr>`;
                 }
@@ -8668,7 +8671,7 @@
                         const noteObj = lang.scriptDisplayPolicy.note;
                         const note = noteObj[uiLang] || noteObj[uiLang.split('_')[0]] || noteObj.en || '';
                         if (note) {
-                            scriptCell += `<div style="margin-top:2px;font-size:10px;color:#888;font-style:italic;line-height:1.4">${escapeHtml(note)}</div>`;
+                            scriptCell += `<div style="margin-top:2px;font-size:10px;color:#5f6368;font-style:italic;line-height:1.4">${escapeHtml(note)}</div>`;
                         }
                     }
                     html += `<tr><td>${escapeHtml(wt('script'))}</td><td>${scriptCell}</td></tr>`;
@@ -8687,7 +8690,7 @@
                             'family-default': { en:'family', ja:'語族', ko:'어족', zh:'语系', yue:'語系', vi:'họ', th:'ตระกูล', id:'rumpun', hi:'परिवार', de:'Familie', fr:'famille', it:'famiglia', es:'familia', pt:'família', ru:'семья', uk:'сім\'я', ar:'عائلة', he:'משפחה', sw:'familia' },
                             'unknown': { en:'?', ja:'?', ko:'?', zh:'?', yue:'?', vi:'?', th:'?', id:'?', hi:'?', de:'?', fr:'?', it:'?', es:'?', pt:'?', ru:'?', uk:'?', ar:'?', he:'?', sw:'?' },
                         };
-                        const provColor = { 'manual-override': '#3a8a3a', 'family-default': '#888', 'unknown': '#bbb' };
+                        const provColor = { 'manual-override': '#2e7d32', 'family-default': '#888', 'unknown': '#bbb' };
                         // Tone (boolean) → localized "tonal" / "non-tonal"
                         const TONE_LBL = {
                             true:  { en:'tonal',     ja:'声調あり',   ko:'성조 있음', zh:'有声调',   yue:'有聲調',   vi:'có thanh điệu',   th:'มีวรรณยุกต์',     id:'tonal',         hi:'स्वराघातिक',         de:'tonal',     fr:'tonale',     it:'tonale',     es:'tonal',     pt:'tonal',     ru:'тональный',    uk:'тональна',    ar:'نبري',        he:'טונאלית',     sw:'yenye toni' },
@@ -8721,7 +8724,7 @@
                             return String(val);
                         };
                         const fmtCell = (val, prov) => {
-                            if (val === null || val === undefined) return '<span style="color:#bbb">—</span>';
+                            if (val === null || val === undefined) return '<span style="color:#5f6368">—</span>';
                             const v = localizeVal(val);
                             const tag = localizeProv(prov);
                             const c = provColor[prov] || '#888';
@@ -8807,7 +8810,7 @@
                     || LOCATION_BASIS_LABEL[locBasis][uiLang.split('_')[0]]
                     || LOCATION_BASIS_LABEL[locBasis].en;
                 const lbHeader = LOCATION_BASIS_HEADER[uiLang] || LOCATION_BASIS_HEADER[uiLang.split('_')[0]] || LOCATION_BASIS_HEADER.en;
-                html += `<div style="margin:2px 0 -2px;font-size:10px;color:#888"><b>${escapeHtml(lbHeader)}:</b> ${escapeHtml(lbLabel)}</div>`;
+                html += `<div style="margin:2px 0 -2px;font-size:10px;color:#5f6368"><b>${escapeHtml(lbHeader)}:</b> ${escapeHtml(lbLabel)}</div>`;
             }
             // Audit Task 79: coverage flag for regional variant rows
             if (m.coverage && COVERAGE_LABEL[m.coverage]) {
@@ -8823,7 +8826,7 @@
                 html += `<div style="margin:2px 0 -2px;font-size:10px;color:${cvTone}"><b>${escapeHtml(cvHeader)}:</b> ${escapeHtml(cvLabel)}</div>`;
                 // Audit Task 88: show coverageNote when present (translated)
                 if (m.coverageNote && typeof m.coverageNote === 'string') {
-                    html += `<div style="margin:1px 0 -2px;padding-left:8px;font-size:10px;color:#888;font-style:italic">${escapeHtml(translateMeta(m.coverageNote))}</div>`;
+                    html += `<div style="margin:1px 0 -2px;padding-left:8px;font-size:10px;color:#5f6368;font-style:italic">${escapeHtml(translateMeta(m.coverageNote))}</div>`;
                 }
             }
             // Audit Task 108: review status badge (separate from coverage / dataStatus)
@@ -8832,7 +8835,7 @@
                 const rsLabel = rsObj[uiLang] || rsObj[uiLang.split('_')[0]] || rsObj.en;
                 const rsHeader = REVIEW_STATUS_HEADER[uiLang] || REVIEW_STATUS_HEADER[uiLang.split('_')[0]] || REVIEW_STATUS_HEADER.en;
                 const rsTone = (m.reviewStatus === 'needs-rebuild') ? '#a04020'
-                            : (m.reviewStatus === 'source-checked') ? '#3a8a3a'
+                            : (m.reviewStatus === 'source-checked') ? '#2e7d32'
                             : '#888';
                 html += `<div style="margin:2px 0 -2px;font-size:10px;color:${rsTone}"><b>${escapeHtml(rsHeader)}:</b> ${escapeHtml(rsLabel)}</div>`;
             }
@@ -8871,7 +8874,7 @@
             html += window.__lmMasterCard ? window.__lmMasterCard(code) : '';
             html += nextTshirtNudge();
             html += '<table style="margin-top:10px;border-top:1px solid #eee;padding-top:8px">';
-            html += `<thead><tr style="color:#999;font-size:10px;text-transform:uppercase;letter-spacing:0.04em"><th style="text-align:left;font-weight:500;padding-bottom:4px">${escapeHtml(wt('concept') || 'Concept')}</th><th style="text-align:left;font-weight:500;padding-bottom:4px">${escapeHtml(wt('wordCol') || wt('word'))}</th><th style="text-align:left;font-weight:500;padding-bottom:4px">${escapeHtml(wt('ipaCol') || wt('ipa'))}</th></tr></thead>`;
+            html += `<thead><tr style="color:#5f6368;font-size:10px;text-transform:uppercase;letter-spacing:0.04em"><th style="text-align:left;font-weight:500;padding-bottom:4px">${escapeHtml(wt('concept') || 'Concept')}</th><th style="text-align:left;font-weight:500;padding-bottom:4px">${escapeHtml(wt('wordCol') || wt('word'))}</th><th style="text-align:left;font-weight:500;padding-bottom:4px">${escapeHtml(wt('ipaCol') || wt('ipa'))}</th></tr></thead>`;
             // Session 31: italic IPA for reconstructed/partly-understood/pedagogical/fragmentary
             // signals "this notation is not direct phonemic transcription" (textbook convention).
             // Colour/italic only — the IPA font-size is governed by the CSS
@@ -8879,8 +8882,8 @@
             // font-size here would inline-override that back down to 11px now
             // that ipaStyle sits on the .wm-ipa span rather than the <td>.
             const ipaStyle = IPA_ITALIC_STATUSES.has(status)
-                ? 'color:#888;font-style:italic'
-                : 'color:#888';
+                ? 'color:#5f6368;font-style:italic'
+                : 'color:#5f6368';
             // Phase 2 (Session 33): per-cell evidence overlay
             const wEv = lang.wordEvidence || {};
             // Audit Task 119 / user request 2026-05-06: alternate script
@@ -8895,7 +8898,7 @@
                     const wLabel = (uiLang === 'en' ? w.label.en : localWord);
                     if (isUnattestedEntry(entry)) {
                         const unattLabel = UNATTESTED_LABEL[uiLang] || UNATTESTED_LABEL[uiLang.split('_')[0]] || UNATTESTED_LABEL.en;
-                        html += `<tr><td>${escapeHtml(wLabel)}</td><td colspan="2" style="color:#bbb;font-size:11px;font-style:italic">— (${escapeHtml(unattLabel)})</td></tr>`;
+                        html += `<tr><td>${escapeHtml(wLabel)}</td><td colspan="2" style="color:#5f6368;font-size:11px;font-style:italic">— (${escapeHtml(unattLabel)})</td></tr>`;
                     } else {
                         const ev = wEv[w.id];
                         // Audit Task 101: evidence markers are keyboard-accessible.
@@ -8912,7 +8915,7 @@
                             const altParts = alts.map(a => {
                                 const formHtml = escapeHtml(a.form || '');
                                 const scriptTip = escapeHtml((a.script || '') + (a.source ? ' — ' + a.source : ''));
-                                return `<span style="font-size:11px;color:#888" title="${scriptTip}">${formHtml}</span>`;
+                                return `<span style="font-size:11px;color:#5f6368" title="${scriptTip}">${formHtml}</span>`;
                             });
                             altLine = `<div style="margin-top:2px;padding-left:0">${altParts.join(' / ')}</div>`;
                         }
@@ -9035,7 +9038,7 @@
                     }
                     return safeTitle;
                 };
-                html += `<div style="margin-top:10px;padding-top:6px;border-top:1px dotted #ddd;font-size:10px;color:#888;line-height:1.5">` +
+                html += `<div style="margin-top:10px;padding-top:6px;border-top:1px dotted #ddd;font-size:10px;color:#5f6368;line-height:1.5">` +
                     `<span style="font-weight:600;color:#666">${escapeHtml(srcLabel)}:</span> ` +
                     sourceItems.map(renderItem).join(' · ') +
                     `</div>`;
@@ -11094,7 +11097,7 @@
 
     })();
     </script>
-    <footer style="text-align:center;padding:16px 12px;font-size:12px;color:#888;border-top:1px solid #e6e6ef;margin-top:24px">
+    <footer style="text-align:center;padding:16px 12px;font-size:12px;color:#666;border-top:1px solid #e6e6ef;margin-top:24px">
         全言語インデックス: <a href="/en/wordmap/" style="color:var(--accent)">Word Map</a> · <a href="/en/word/" style="color:var(--accent)">Words</a> · <a href="/en/hanmap/" style="color:var(--accent)">Han Map</a> · <a href="/en/trivia/" style="color:var(--accent)">Trivia</a>
 <!-- TRIVIA-INDEX:START -->
 <details class="trivia-index-seo">
@@ -12254,12 +12257,12 @@
     <!-- "My languages" share-card feature; poster_geo.js supplies the Natural-Earth
          projection its world-map card is drawn with. -->
     <script src="poster_geo.js?v=12"></script>
-    <script src="my-languages.js?v=28"></script>
+    <script src="my-languages.js?v=29"></script>
     <!-- Language Master game (🏅 in the Play menu). master.js is parked as
          text/plain (not fetched at first paint, as hanmap_trivia.js is) and
          injected the first time the game opens. The stub below only labels
          the launcher and loads the module on demand. -->
-    <script type="text/plain" id="master-src" src="master.js?v=16"></script>
+    <script type="text/plain" id="master-src" src="master.js?v=17"></script>
     <script>
     (function () {
         'use strict';
@@ -12298,5 +12301,6 @@
         if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
     })();
     </script>
+    </main>
 </body>
 </html>

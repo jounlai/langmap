@@ -272,7 +272,7 @@
     // focus; one Tab stop (the checked option). Pages that handle their own
     // arrows call preventDefault first and are left alone.
     document.addEventListener('keydown', function (e) {
-        if (e.defaultPrevented || !/^Arrow(Left|Right|Up|Down)$/.test(e.key)) return;
+        if (e.defaultPrevented || e.altKey || e.ctrlKey || e.metaKey || !/^Arrow(Left|Right|Up|Down)$/.test(e.key)) return;
         var r = e.target && e.target.closest && e.target.closest('[role="radiogroup"] [role="radio"]');
         if (!r) return;
         var opts = [].slice.call(r.closest('[role="radiogroup"]').querySelectorAll('[role="radio"]'));

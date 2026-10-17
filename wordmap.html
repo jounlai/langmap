@@ -87,7 +87,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=153">
+    <link rel="stylesheet" href="styles.css?v=154">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts. Without these the characters render
          as tofu boxes: desktop Linux often ships the Noto historic fonts, but
@@ -683,7 +683,7 @@
         }
         #word-modal #word-modal-title {
             font-size: 18px; margin: 0 0 12px; color: #1a1a2e; font-weight: 700;
-            padding-right: 28px;       /* clear of the close button */
+            padding-inline-end: 28px;  /* clear of the close button */
         }
         #word-modal #word-modal-body {
             flex: 1 1 auto; min-height: 0;
@@ -1365,6 +1365,7 @@
         }
         .tea-legend-row[data-route]:hover,
         .tea-legend-row[data-route]:focus-visible { background: rgba(0,0,0,0.07); outline: none; }
+        .tea-legend-row[data-route]:focus-visible { outline: 2px solid var(--accent, #2e6fb8); outline-offset: 0; }
         @media (prefers-color-scheme: dark) {
             .tea-legend-row[data-route]:hover,
             .tea-legend-row[data-route]:focus-visible { background: rgba(255,255,255,0.12); }
@@ -2316,7 +2317,7 @@
             box-shadow: 0 2px 6px rgba(180,130,30,0.28);
         }
         .trivia-btn:focus-visible {
-            outline: 2px solid #b8860b;
+            outline: 2px solid #8a5a0e;
             outline-offset: 2px;
         }
 
@@ -3039,9 +3040,11 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=21"></script>
+    <script src="nav-short.js?v=22"></script>
 </head>
 <body>
+    <div id="pg-live" role="status" aria-live="polite" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap"></div>
+    <script>window.__pgAnnounce=function(m){var l=document.getElementById('pg-live');if(!l||!m)return;l.textContent='';setTimeout(function(){l.textContent=m;},30);};</script>
     <!-- Header -->
     <header class="site-header-bar">
         <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Word Map</h1>
@@ -3075,7 +3078,7 @@
                     <span class="trivia-btn-label" id="play-menu-label">Play</span>
                     <span aria-hidden="true" class="play-caret"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></span>
                 </button>
-                <div id="play-menu" role="menu"></div>
+                <div id="play-menu" role="menu" aria-labelledby="play-menu-label"></div>
             </div>
             <button type="button" class="trivia-btn game-btn" id="trivia-open"
                     aria-haspopup="dialog" aria-controls="trivia-modal"
@@ -3181,7 +3184,7 @@
     <div id="word-modal" role="dialog" aria-modal="true" aria-labelledby="word-modal-title"
          style="position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);background:#fff;border-radius:14px;box-shadow:0 12px 48px rgba(0,0,0,0.35);width:min(720px,calc(100vw - 32px));max-height:calc(100vh - 64px);z-index:2001;display:none">
         <button id="word-modal-close" type="button" aria-label="Close"
-                style="position:absolute;top:10px;right:14px;background:none;border:none;font-size:24px;color:#888;cursor:pointer;line-height:1;padding:4px 8px;z-index:1">&times;</button>
+                style="position:absolute;top:10px;inset-inline-end:14px;background:none;border:none;font-size:24px;color:#888;cursor:pointer;line-height:1;padding:4px 8px;z-index:1">&times;</button>
         <div id="word-modal-head">
             <h2 id="word-modal-title">Select a word</h2>
         </div>
@@ -3740,12 +3743,12 @@
            per-word loader can read it", which was the intent all along — only
            the order was wrong. */
         const WM_ASSET_VERSION = {
-            styles:   153,
+            styles:   154,
             data:      343,
             metaI18n:  16,
-            filter:    50,
+            filter:    51,
             names:   203,
-            meta:     415,
+            meta:     416,
             trivia:   44,
             triviaI18n: 27,
             words:      960,
@@ -3885,7 +3888,7 @@
          loaded. Loading them eagerly meant half a megabyte on every visit for
          data that only matters once a language modal opens. They now load
          inside loadMeta(). See __wmLoadMetaI18n() below. -->
-    <script src="lang-filter.js?v=50"></script>
+    <script src="lang-filter.js?v=51"></script>
     <!-- Translated language names: 1,154 codes × 19 UI languages is ~215 KB
          gzipped, and a reader uses one of them plus English as the fallback.
          Load the shim, then English, then whichever UI language this visitor
@@ -4737,9 +4740,15 @@
             // Localize search input placeholder (Audit i18n gap fix)
             const searchInput = document.getElementById('lang-search');
             if (searchInput) searchInput.placeholder = i18n('searchPlaceholder');
+            if (searchInput) {
+                const _sl = i18n('searchPlaceholder').replace(/^\S*\u{1F50D}\s*/u, '').replace(/[\u2026.]+$/u, '').trim();
+                searchInput.setAttribute('aria-label', _sl);
+                const _rb = document.getElementById('lang-search-results'); if (_rb) _rb.setAttribute('aria-label', _sl);
+            }
             // Audit Task 106: localize remaining ARIA labels for top-bar
             // controls. Updates on every UI lang change so screen readers
             // see the user's chosen language immediately.
+            { const d = /^(ar|he)/.test(String(uiLang || '')) ? 'rtl' : 'ltr'; ['lang-info', 'compare-panel', 'word-modal', 'char-modal'].forEach(i => { const e = document.getElementById(i); if (e) e.dir = d; }); }
             const ariaTargets = [
                 ['word-select',     'ariaSelectWord',  'aria-label'],
                 ['header-ui-lang',  'ariaUiLanguage',  'aria-label'],
@@ -4783,6 +4792,7 @@
             setAttr('#trivia-back', 'aria-label', 'triviaBack');
             setAttr('#tiles-revert', 'title', 'tilesRevert');
             setAttr('#tiles-revert', 'aria-label', 'tilesRevert');
+            { const b = document.getElementById('word-def-toggle'); if (b) { const t = (typeof WM_UI !== 'undefined' && ((WM_UI[uiLang] && WM_UI[uiLang].concept) || (WM_UI.en && WM_UI.en.concept))) || 'Concept'; b.title = t; b.setAttribute('aria-label', t); } }
             // Append per-era language counts in parens: "現代言語 (478)" / "歴史言語 (79)"
             let modernCount = 0, historicalCount = 0;
             if (typeof HIST_CODE_SET !== 'undefined' && typeof LANG_DATA !== 'undefined') {
@@ -4820,7 +4830,7 @@
                 const cmpClear = document.getElementById('compare-clear');
                 if (cmpClear && typeof compareT === 'function') cmpClear.textContent = compareT('clear');
                 const cmpClose = document.getElementById('compare-close');
-                if (cmpClose && typeof compareT === 'function') cmpClose.setAttribute('aria-label', compareT('title'));
+                if (cmpClose && typeof compareT === 'function') cmpClose.setAttribute('aria-label', ((typeof i18n === 'function' ? i18n('ariaClose') : 'Close') + ' — ' + compareT('title')));
             } catch (e) { /* compareT may not yet be defined during early init */ }
             // Localize trivia button + modal eyebrow + close/restore/expand.
             // On mobile the button sits in the header bar with the hamburger
@@ -8915,7 +8925,7 @@
             html += window.__lmMasterCard ? window.__lmMasterCard(code) : '';
             html += nextTshirtNudge();
             html += '<table style="margin-top:10px;border-top:1px solid #eee;padding-top:8px">';
-            html += `<thead><tr style="color:#5f6368;font-size:10px;text-transform:uppercase;letter-spacing:0.04em"><th style="text-align:left;font-weight:500;padding-bottom:4px">${escapeHtml(wt('concept') || 'Concept')}</th><th style="text-align:left;font-weight:500;padding-bottom:4px">${escapeHtml(wt('wordCol') || wt('word'))}</th><th style="text-align:left;font-weight:500;padding-bottom:4px">${escapeHtml(wt('ipaCol') || wt('ipa'))}</th></tr></thead>`;
+            html += `<thead><tr style="color:#5f6368;font-size:10px;text-transform:uppercase;letter-spacing:0.04em"><th style="text-align:start;font-weight:500;padding-bottom:4px">${escapeHtml(wt('concept') || 'Concept')}</th><th style="text-align:start;font-weight:500;padding-bottom:4px">${escapeHtml(wt('wordCol') || wt('word'))}</th><th style="text-align:start;font-weight:500;padding-bottom:4px">${escapeHtml(wt('ipaCol') || wt('ipa'))}</th></tr></thead>`;
             // Session 31: italic IPA for reconstructed/partly-understood/pedagogical/fragmentary
             // signals "this notation is not direct phonemic transcription" (textbook convention).
             // Colour/italic only — the IPA font-size is governed by the CSS
@@ -9095,7 +9105,7 @@
                 const href = '/' + ui + '/wordmap/' + escapeHtml(code);
                 html += `<div style="margin-top:12px;padding-top:8px;border-top:1px dotted #ddd">` +
                     `<a href="${href}" style="display:inline-block;font-size:12px;color:#3f5fe0;text-decoration:none;font-weight:600">` +
-                    `📄 ${(({en:'Big-text page',ja:'デカ文字版ページ',ko:'큰 글씨 페이지',zh:'大字版页面',yue:'大字版頁面',vi:'Trang chữ lớn',th:'หน้าตัวอักษรใหญ่',id:'Halaman teks besar',hi:'बड़े अक्षरों वाला पेज',de:'Großschrift-Seite',fr:'Page en gros caractères',it:'Pagina a caratteri grandi',es:'Página en letra grande',pt:'Página em letra grande',ru:'Страница крупным шрифтом',uk:'Сторінка великим шрифтом',ar:'صفحة بخط كبير',he:'עמוד באותיות גדולות',sw:'Ukurasa wa herufi kubwa'})[ui]) || 'Big-text page'} →</a></div>`;
+                    `📄 ${(({en:'Big-text page',ja:'デカ文字版ページ',ko:'큰 글씨 페이지',zh:'大字版页面',yue:'大字版頁面',vi:'Trang chữ lớn',th:'หน้าตัวอักษรใหญ่',id:'Halaman teks besar',hi:'बड़े अक्षरों वाला पेज',de:'Großschrift-Seite',fr:'Page en gros caractères',it:'Pagina a caratteri grandi',es:'Página en letra grande',pt:'Página em letra grande',ru:'Страница крупным шрифтом',uk:'Сторінка великим шрифтом',ar:'صفحة بخط كبير',he:'עמוד באותיות גדולות',sw:'Ukurasa wa herufi kubwa'})[ui]) || 'Big-text page'} ${/^(ar|he)/.test(String(uiLang || '')) ? '←' : '→'}</a></div>`;
             })();
             // The second slot, with the next message in the rotation.
             html += nextTshirtNudge();
@@ -9467,7 +9477,10 @@
                 e.preventDefault();
                 const target = a.getAttribute('data-langcode');
                 if (target && LANG_DATA[target]) {
+                    const _hadF = document.activeElement === a;
                     showLangInfo(target);
+                    // The link was rebuilt away: keep keyboard focus in the panel.
+                    if (_hadF && !a.isConnected) { const ic = document.getElementById('info-close'); if (ic) ic.focus({ preventScroll: true }); }
                     if (typeof map !== 'undefined' && map && map.setView) {
                         const t = LANG_DATA[target];
                         map.setView([t.lat, t.lng], Math.max(map.getZoom(), 4));
@@ -9647,6 +9660,7 @@
         function removeFromCompare(code) {
             const i = _compareList.indexOf(code);
             if (i === -1) return;
+            const _cpp = document.getElementById('compare-panel'), _had = _cpp && _cpp.contains(document.activeElement);
             _compareList.splice(i, 1);
             saveCompareList();
             updateCompareFab();
@@ -9654,6 +9668,13 @@
             updateModalCompareBtn(code);
             refreshCompareMarkers();
             if (_compareList.length === 0) closeComparePanel();
+            // The focused Remove button was re-rendered away: focus the next one, else the fab.
+            if (_had && !_cpp.contains(document.activeElement)) {
+                const rb = [..._cpp.querySelectorAll('.remove-col')].filter(b => b.getClientRects().length);
+                const nx = rb[Math.min(i, rb.length - 1)];
+                const fab = document.getElementById('compare-fab');
+                if (nx && _compareList.length) nx.focus(); else if (fab && fab.getClientRects().length) fab.focus(); else if (!_cpp.classList.contains('visible')) { const f = ['#info-close', '#lang-search'].map(q => document.querySelector(q)).find(x => x && x.getClientRects().length); if (f) f.focus(); }
+            }
         }
         function clearCompare() {
             const wasOpen = _compareList.slice();
@@ -9680,7 +9701,7 @@
             }
         }
         function openComparePanel() {
-            { const _cp = document.getElementById('compare-panel'); if (_cp) _cp.dir = /^(ar|he)/.test(String((typeof uiLang !== 'undefined' && uiLang) || '')) ? 'rtl' : 'ltr'; const _x = _cp && _cp.querySelector('.compare-close'); if (_x) _x.setAttribute('aria-label', compareT('title')); }
+            { const _cp = document.getElementById('compare-panel'); if (_cp) _cp.dir = /^(ar|he)/.test(String((typeof uiLang !== 'undefined' && uiLang) || '')) ? 'rtl' : 'ltr'; const _x = _cp && _cp.querySelector('.compare-close'); if (_x) _x.setAttribute('aria-label', ((typeof i18n === 'function' ? i18n('ariaClose') : 'Close') + ' — ' + compareT('title'))); }
             if (_compareList.length === 0) return;
             refreshCompareMarkers();
             renderCompare();
@@ -9694,7 +9715,10 @@
         }
         function closeComparePanel() {
             const panel = document.getElementById('compare-panel');
+            const had = panel && panel.contains(document.activeElement);
             if (panel) panel.classList.remove('visible');
+            // Focus was inside: back to the compare button rather than <body>.
+            if (had) { const f = ['#compare-fab', '#lang-info.visible .compare-add-btn', '#info-close', '#lang-search'].map(q => document.querySelector(q)).find(x => x && x.getClientRects().length); if (f) f.focus(); }
             // Drop `cmp` from the URL now that the panel is closed.
             try { updateHash(); } catch (e) {}
         }
@@ -9796,7 +9820,7 @@
                         const surface = cell[0] || '';
                         const ipa = cell[1] || '';
                         html += '<td><span class="surface" dir="auto">' + escapeHtml(surface) + '</span>'
-                             + (ipa && ipa !== '—' ? '<span class="ipa">' + escapeHtml(ipa) + '</span>' : (surface && surface !== '—' && !ipa ? '<span class="ipa ipa-unknown" title="' + escapeHtml(wt('ipaUnknown')) + '">/?/</span>' : ''))
+                             + (ipa && ipa !== '—' ? '<span class="ipa"><bdi dir="ltr">' + escapeHtml(ipa) + '</bdi></span>' : (surface && surface !== '—' && !ipa ? '<span class="ipa ipa-unknown" title="' + escapeHtml(wt('ipaUnknown')) + '">/?/</span>' : ''))
                              + '</td>';
                     }
                 }
@@ -9956,6 +9980,7 @@
                 if (!pool.length) return;
                 const code = pool[Math.floor(Math.random() * pool.length)];
                 _spinDie(randomBtn);
+                window.__pgAnnounce(getDisplayName(code, LANG_DATA[code]));
                 // Floor the zoom at 5 so the pick clears the speaker-count
                 // tier gate on its own. The _forced exemption in
                 // getVisibleLangs covers the desktop case where the modal
@@ -10061,6 +10086,7 @@
                     _spinDie(wordDie, 360, () => {
                         wsel.value = pick;
                         wsel.dispatchEvent(new Event('change', { bubbles: true }));
+                        if (wsel.selectedOptions[0]) window.__pgAnnounce(wsel.selectedOptions[0].textContent.trim());
                     });
                 });
             }
@@ -10748,7 +10774,9 @@
             if (typeof updateHash === 'function') updateHash({ push: true });
             // The focused card / back button is now hidden: keep focus in the dialog.
             { const tm = document.getElementById('trivia-modal'), ae = document.activeElement; if (tm && (!tm.contains(ae) || !ae.getClientRects().length)) { const h = document.getElementById('trivia-heading'); if (h) h.focus({ preventScroll: true }); } }
+            _triviaLastId = id;
         }
+        var _triviaLastId = null;
         function backToTriviaIndex() {
             _resetTriviaSurface();
             renderTriviaIndex();
@@ -10756,8 +10784,8 @@
             const _scrollBack = document.getElementById('trivia-scroll');
             if (_scrollBack) _scrollBack.scrollTop = 0;
             if (typeof updateHash === 'function') updateHash();
-            // The focused card / back button is now hidden: keep focus in the dialog.
-            { const tm = document.getElementById('trivia-modal'), ae = document.activeElement; if (tm && (!tm.contains(ae) || !ae.getClientRects().length)) { const h = document.getElementById('trivia-heading'); if (h) h.focus({ preventScroll: true }); } }
+            // Back on the index: focus the card that was opened, else keep focus in the dialog.
+            { const tm = document.getElementById('trivia-modal'), c = tm && _triviaLastId && tm.querySelector('.trivia-card[data-article-id="' + CSS.escape(_triviaLastId) + '"]'); if (c && c.getClientRects().length) c.focus({ preventScroll: true }); else { const ae = document.activeElement; if (tm && (!tm.contains(ae) || !ae.getClientRects().length)) { const h = document.getElementById('trivia-heading'); if (h) h.focus({ preventScroll: true }); } } }
         }
         // aria-modal: keep Tab inside the article (it walked out to the map controls).
         (function () {
@@ -11766,7 +11794,7 @@
                 const w = words[concept]; if (!w || !w.data || !w.data[t]) continue;
                 const cell = w.data[t]; if (!cell[0] || cell[0] === '—') continue;
                 const lbl = (w.label && (w.label[ui()] || w.label[ui().split('_')[0]] || w.label.en)) || concept;
-                rows += `<div style="display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px solid #f0f1f4"><span style="color:#5f6368;font-size:12px">${lbl}</span><span style="font-weight:600">${cell[0]} <span style="color:#5f6368;font-weight:400;font-size:12px">/${cell[1]}/</span></span></div>`;
+                rows += `<div style="display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px solid #f0f1f4"><span style="color:#5f6368;font-size:12px">${lbl}</span><span style="font-weight:600"><bdi>${cell[0]}</bdi> <bdi dir="ltr" style="color:#5f6368;font-weight:400;font-size:12px">/${cell[1]}/</bdi></span></div>`;
                 shown++;
             }
             return rows;
@@ -12357,7 +12385,7 @@
          text/plain (not fetched at first paint, as hanmap_trivia.js is) and
          injected the first time the game opens. The stub below only labels
          the launcher and loads the module on demand. -->
-    <script type="text/plain" id="master-src" src="master.js?v=18"></script>
+    <script type="text/plain" id="master-src" src="master.js?v=19"></script>
     <script>
     (function () {
         'use strict';

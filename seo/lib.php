@@ -2977,6 +2977,26 @@ function seo_meta_value(string $ui, string $value): string
 }
 
 /**
+ * lang of a meta chip value when seo_meta_value() found no translation and
+ * printed the stored string: Han Map speakers prose is Japanese (約9000万人),
+ * everything else English. '' when translated or when it has no letters.
+ */
+function seo_meta_value_lang(string $ui, string $value): string
+{
+    if ($value === '' || !preg_match('/\p{L}/u', $value)) return '';
+    $src = preg_match('/[\x{3041}-\x{3096}\x{30A1}-\x{30FA}]|[万億]人|^約/u', $value) ? 'ja' : 'en';
+    if ($ui === $src) return '';
+    if ($ui !== 'en' && isset(seo_data('meta_i18n')['fields'][$value][$ui])) return '';
+    return $src;
+}
+/** Chip value markup: an untranslated value is isolated and tagged; CJK runs inside English keep their own lang. */
+function seo_chip_value(string $text, string $lang): string
+{
+    if ($lang === '') return e($text);
+    return '<bdi lang="' . $lang . '">' . ($lang === 'en' ? seo_cjk_lang_runs(e($text)) : e($text)) . '</bdi>';
+}
+
+/**
  * vitality is a kebab-case enum ('critically-endangered'), not prose, so the
  * smart translator never had anything to match and the raw slug was printed.
  * The table mirrors SC_VITALITY_LBL in wordmap.html and is extracted from it
@@ -3065,18 +3085,21 @@ function seo_404(string $msg = 'Page not found', string $ui = 'en'): void
 function seo_src_lang(string $t, string $ui): string
 {
     if ($ui === 'en' || $t === '') return '';
-    if (preg_match('/[^\x{0000}-\x{02FF}\x{1E00}-\x{1EFF}\x{2000}-\x{206F}\x{2190}-\x{21FF}]/u', $t)) return '';
-    if (preg_match('/^(?:Ethnologue|Glottolog|Wikipedia|Wiktionary|ASJP|ABVD|UNESCO|Unicode|WOLD|IDS|Lexibank|CLDF|Omniglot|PHOIBLE)\b/u', $t)) return 'en';
-    return preg_match('/(?<!\p{L})(?:the|of|and|dictionary|grammar|language|languages|vocabulary|wordlist|entries|texts?|via|from|with|database|table|row|press|university|edition|version|phonology|morphology|studies|association|lexicon|estimate)(?!\p{L})/iu', $t) ? 'en' : '';
+    if (preg_match('/[^\x{0000}-\x{036F}\x{1E00}-\x{1EFF}\x{2000}-\x{206F}\x{2190}-\x{21FF}\x{2C60}-\x{2C7F}\x{A720}-\x{A7FF}]/u', $t)) return '';
+    if (preg_match('/^(?:Ethnologue|Glottolog|Wikipedia|Wiktionary|ASJP|ABVD|UNESCO|Unicode|WOLD|IDS|Lexibank|CLDF|Omniglot|PHOIBLE|NorthEuraLex)\b/u', $t)) return 'en';
+    return preg_match('/(?<!\p{L})(?:the|of|and|an|to|for|dictionary|grammar|language|languages|vocabulary|wordlist|entries|texts?|via|from|with|database|table|row|press|university|edition|phonology|morphology|studies|study|association|lexicon|lemmas|estimate|introduction|reconstruction|history|survey|structures|resources|spoken|written|reference|papers|chapter|pronunciation|short|new)(?!\p{L})/iu', $t) ? 'en' : '';
 }
 
 /** Wrap each CJK run of already-escaped text in its own lang (ja / ko / zh). */
 function seo_cjk_lang_runs(string $escaped): string
 {
-    return preg_replace_callback('/[\p{Han}\p{Hiragana}\p{Katakana}\p{Hangul}ー・]+/u', function ($m) {
-        $l = preg_match('/[\p{Hiragana}\p{Katakana}]/u', $m[0]) ? 'ja' : (preg_match('/\p{Hangul}/u', $m[0]) ? 'ko' : 'zh');
+    // Explicit code points: \p{Han}/\p{Hiragana} follow Script_Extensions in
+    // newer PCRE2, so 《》、。 counted as kana and Chinese came out lang=ja.
+    return preg_replace_callback('/[\x{2E80}-\x{2FDF}\x{3005}-\x{3007}\x{3021}-\x{3029}\x{3041}-\x{3096}\x{309D}-\x{309F}\x{30A1}-\x{30FA}\x{30FC}-\x{30FF}\x{31F0}-\x{31FF}\x{3400}-\x{4DBF}\x{4E00}-\x{9FFF}\x{F900}-\x{FAFF}\x{1100}-\x{11FF}\x{3131}-\x{318E}\x{AC00}-\x{D7A3}\x{20000}-\x{3134F}]+/u', function ($m) {
+        $l = preg_match('/[\x{3041}-\x{3096}\x{30A1}-\x{30FA}\x{31F0}-\x{31FF}]/u', $m[0]) ? 'ja'
+           : (preg_match('/[\x{1100}-\x{11FF}\x{3131}-\x{318E}\x{AC00}-\x{D7A3}]/u', $m[0]) ? 'ko' : 'zh');
         return '<span lang="' . $l . '">' . $m[0] . '</span>';
-    }, $escaped);
+    }, $escaped) ?? $escaped;
 }
 
 /**

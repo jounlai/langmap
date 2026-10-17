@@ -273,14 +273,14 @@
     // button counts down. Any manual move (click, Space, Enter) cancels it.
     var AUTO = 5, autoT = null, autoLeft = 0;
     function stopAuto() { if (autoT) { clearInterval(autoT); autoT = null; } }
-    function answer(i) {
+    function answer(i, fromKey) {
         var q = state.qs[state.idx]; if (!q || state.chosen >= 0 || !q.options[i]) return;
         state.chosen = i; if (q.options[i].key === q.answer) state.score++;
         stopAuto(); autoLeft = AUTO;
         // Keyboard / screen-reader users answer with keys: no timed auto-advance
         // for them (the focused Next renamed itself every second), and the
         // verdict is announced from a live node.
-        var viaKey = !!(window.event && window.event.type === 'keydown');
+        var viaKey = !!fromKey || !!(window.event && window.event.type === 'keydown');
         setTimeout(function () {
             var lv = modal && modal.querySelector('.lm-live');
             if (modal && !lv) { lv = document.createElement('div'); lv.className = 'lm-live'; lv.setAttribute('role', 'status'); lv.style.cssText = 'position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)'; modal.appendChild(lv); }
@@ -555,7 +555,7 @@
                     : answered && !isAns ? '<span style="font-size:12px;color:#5f6673;margin-top:2px">= ' + esc(labelOf(o.con)) + '</span>' : ''));
             b.type = 'button';
             b.setAttribute('aria-keyshortcuts', String(i + 1));
-            if (!answered) b.addEventListener('click', function () { answer(i); });
+            if (!answered) b.addEventListener('click', function (e) { answer(i, e.detail === 0); });
             mid.appendChild(b);
         });
         box.appendChild(mid);

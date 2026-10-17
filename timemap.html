@@ -62,7 +62,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=153">
+    <link rel="stylesheet" href="styles.css?v=154">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -334,7 +334,7 @@
         @media (min-width: 641px) { .tm-map-ctl:not(:has(> .chrome-toggle-btn))::before { content: ''; height: 40px; } }
         #tm-era { min-height: 20px; }
 </style>
-    <script src="nav-short.js?v=21"></script>
+    <script src="nav-short.js?v=22"></script>
 </head>
 <body>
     <header class="site-header-bar">
@@ -543,7 +543,7 @@
               +'<dt>'+esc(t('epoch'))+'</dt><dd dir="auto">'+esc(ct(cal,'epoch'))+'</dd>'
               +'<dt>'+esc(t('used'))+'</dt><dd dir="auto">'+esc(ct(cal,'used'))+'</dd></dl>';
             if(cal.note) h+='<div class="tm-pop-note" dir="auto">'+esc(ct(cal,'note'))+'</div>';
-            return h;
+            return '<div dir="'+(/^(ar|he)/.test(String(uiLang||''))?'rtl':'ltr')+'">'+h+'</div>';
         }
 
         // The popup's top-left autoPan padding, measured now: the mobile date bar
@@ -632,7 +632,7 @@
                 mk.bindPopup(()=>popupHtml(cal), { maxWidth: 280, autoPanPaddingTopLeft: padTL, autoPanPaddingBottomRight: L.point(24, 24) });
                 // Re-place labels: the open one goes first (relaxLabels), and
                 // on close the others get their spots back.
-                mk.on('popupopen', e=>{ openId=cal.id; markActive(); requestAnimationFrame(relaxLabels); fitPopupPad(e.popup); });
+                mk.on('popupopen', e=>{ { const _c=e.popup.getElement && e.popup.getElement() && e.popup.getElement().querySelector('.leaflet-popup-close-button'); if(_c && window.__tmA11){ _c.setAttribute('aria-label', window.__tmA11('close')); _c.title=window.__tmA11('close'); } } openId=cal.id; markActive(); requestAnimationFrame(relaxLabels); fitPopupPad(e.popup); });
                 mk.on('popupclose', e=>{
                     // Focus was in the popup (or lost with it): back to the marker. Not
                     // when it sits in some other control (the date box, a menu).
@@ -801,7 +801,13 @@
               const DATE={en:'Date',ja:'日付',ko:'날짜',zh:'日期',yue:'日期',vi:'Ngày',th:'วันที่',id:'Tanggal',hi:'तारीख',de:'Datum',fr:'Date',it:'Data',es:'Fecha',pt:'Data',ru:'Дата',uk:'Дата',ar:'التاريخ',he:'תאריך',sw:'Tarehe'};
               const ERA={ en:'Era (modern / historical)', ja:'時代（現代/歴史）', ko:'시대 (현대/역사)', zh:'时代（现代/历史）', yue:'時代（現代／歷史）', vi:'Thời kỳ (hiện đại / lịch sử)', th:'ยุค (สมัยใหม่ / ประวัติศาสตร์)', id:'Era (modern / historis)', hi:'युग (आधुनिक / ऐतिहासिक)', de:'Epoche (modern / historisch)', fr:'Époque (moderne / historique)', it:'Epoca (moderna / storica)', es:'Época (moderna / histórica)', pt:'Era (moderna / histórica)', ru:'Эпоха (современная / историческая)', uk:'Епоха (сучасна / історична)', ar:'الحقبة (حديثة / تاريخية)', he:'תקופה (מודרני / היסטורי)', sw:'Enzi (kisasa / kihistoria)' };
               document.getElementById('tm-date').setAttribute('aria-label', DATE[uiLang]||DATE[_b]||DATE.en);
-              document.getElementById('tm-era').setAttribute('aria-label', ERA[uiLang]||ERA[_b]||ERA.en); }
+              document.getElementById('tm-era').setAttribute('aria-label', ERA[uiLang]||ERA[_b]||ERA.en);
+              const A11Y={uilang:{ en:'UI language', ja:'UI 言語', ko:'UI 언어', zh:'界面语言', yue:'介面語言', vi:'Ngôn ngữ giao diện', th:'ภาษาส่วนติดต่อ', id:'Bahasa antarmuka', hi:'UI भाषा', de:'UI-Sprache', fr:'Langue de l\'interface', it:'Lingua dell\'interfaccia', es:'Idioma de interfaz', pt:'Idioma da interface', ru:'Язык интерфейса', uk:'Мова інтерфейсу', ar:'لغة الواجهة', he:'שפת ממשק', sw:'Lugha ya kiolesura' },zoom:{ en:'Map zoom', ja:'地図ズーム', ko:'지도 확대/축소', zh:'地图缩放', yue:'地圖縮放', vi:'Thu phóng bản đồ', th:'ซูมแผนที่', id:'Zoom peta', hi:'मानचित्र ज़ूम', de:'Karten-Zoom', fr:'Zoom de la carte', it:'Zoom mappa', es:'Zoom del mapa', pt:'Zoom do mapa', ru:'Масштаб карты', uk:'Масштаб мапи', ar:'تكبير الخريطة', he:'זום מפה', sw:'Kuza ramani' },zin:{ en:'Zoom in', ja:'拡大', ko:'확대', zh:'放大', yue:'放大', vi:'Phóng to', th:'ขยาย', id:'Perbesar', hi:'ज़ूम इन', de:'Vergrößern', fr:'Agrandir', it:'Ingrandisci', es:'Acercar', pt:'Aproximar', ru:'Увеличить', uk:'Збільшити', ar:'تكبير', he:'הגדל', sw:'Kuza' },zout:{ en:'Zoom out', ja:'縮小', ko:'축소', zh:'缩小', yue:'縮小', vi:'Thu nhỏ', th:'ย่อ', id:'Perkecil', hi:'ज़ूम आउट', de:'Verkleinern', fr:'Réduire', it:'Riduci', es:'Alejar', pt:'Afastar', ru:'Уменьшить', uk:'Зменшити', ar:'تصغير', he:'הקטן', sw:'Punguza' },finc:{ en:'Increase label font size', ja:'ラベルの文字を大きく', ko:'라벨 글자 크게', zh:'增大标签字号', yue:'放大標籤字體', vi:'Tăng cỡ chữ nhãn', th:'เพิ่มขนาดตัวอักษรป้าย', id:'Perbesar ukuran teks label', hi:'लेबल फ़ॉन्ट बड़ा करें', de:'Schriftgröße vergrößern', fr:'Agrandir la police des étiquettes', it:'Aumenta dimensione etichette', es:'Aumentar tamaño de fuente', pt:'Aumentar tamanho da fonte', ru:'Увеличить шрифт подписей', uk:'Збільшити шрифт підписів', ar:'تكبير حجم خط التسميات', he:'הגדלת גופן התוויות', sw:'Kuza saizi ya maandishi' },fdec:{ en:'Decrease label font size', ja:'ラベルの文字を小さく', ko:'라벨 글자 작게', zh:'减小标签字号', yue:'縮小標籤字體', vi:'Giảm cỡ chữ nhãn', th:'ลดขนาดตัวอักษรป้าย', id:'Perkecil ukuran teks label', hi:'लेबल फ़ॉन्ट छोटा करें', de:'Schriftgröße verkleinern', fr:'Réduire la police des étiquettes', it:'Riduci dimensione etichette', es:'Reducir tamaño de fuente', pt:'Diminuir tamanho da fonte', ru:'Уменьшить шрифт подписей', uk:'Зменшити шрифт підписів', ar:'تصغير حجم خط التسميات', he:'הקטנת גופן התוויות', sw:'Punguza saizi ya maandishi' },close:{ en:'Close', ja:'閉じる', ko:'닫기', zh:'关闭', yue:'關閉', vi:'Đóng', th:'ปิด', id:'Tutup', hi:'बंद करें', de:'Schließen', fr:'Fermer', it:'Chiudi', es:'Cerrar', pt:'Fechar', ru:'Закрыть', uk:'Закрити', ar:'إغلاق', he:'סגור', sw:'Funga' }};
+              const a11=k=>A11Y[k][uiLang]||A11Y[k][String(uiLang).split('_')[0]]||A11Y[k].en;
+              { const _u=document.getElementById('header-ui-lang'); if(_u) _u.setAttribute('aria-label', a11('uilang')); }
+              window.__tmA11 = a11;
+              const mz=document.querySelector('.map-zoom-controls'); if(mz) mz.setAttribute('aria-label', a11('zoom'));
+              [['tm-zoom-in','zin'],['tm-zoom-out','zout'],['tm-font-inc','finc'],['tm-font-dec','fdec'],['tm-info-close','close']].forEach(([id,k])=>{ const e=document.getElementById(id); if(e){ e.setAttribute('aria-label',a11(k)); if(e.title) e.title=a11(k); } }); }
             document.getElementById('tm-prev').title=t('prevDay'); document.getElementById('tm-prev').setAttribute('aria-label',t('prevDay'));
             document.getElementById('tm-next').title=t('nextDay'); document.getElementById('tm-next').setAttribute('aria-label',t('nextDay'));
             const db=document.getElementById('tm-details-btn'); db.title=t('details'); db.setAttribute('aria-label',t('details'));
@@ -900,7 +906,7 @@
             });
             map.on('moveend', ()=>{ clearTimeout(boot._mh); boot._mh=setTimeout(updateHash, 250); });
             // Markers off the visible map are not Tab stops (focus vanished off screen).
-            { let _mt=null; const syncMk=()=>{ const mr=map.getContainer().getBoundingClientRect(); document.querySelectorAll('#map .leaflet-marker-icon[tabindex]').forEach(el=>{ const r=el.getBoundingClientRect(); const cx=r.left+r.width/2, cy=r.top+r.height/2; const want=(cx>mr.left&&cx<mr.right&&cy>mr.top&&cy<mr.bottom)?0:-1; if(el.tabIndex!==want && el!==document.activeElement) el.tabIndex=want; }); }; map.on('moveend zoomend layeradd', ()=>{ clearTimeout(_mt); _mt=setTimeout(syncMk,120); }); }
+            { let _mt=null; const syncMk=()=>{ const mr=map.getContainer().getBoundingClientRect(); let ml=mr.left; { const pn=document.getElementById('tm-panel'), pr=pn&&pn.getClientRects().length&&pn.getBoundingClientRect(); if(pr && pr.left<=mr.left+2 && pr.right<mr.left+mr.width/2) ml=Math.max(ml,pr.right); } document.querySelectorAll('#map .leaflet-marker-icon[tabindex]').forEach(el=>{ let r=el.getBoundingClientRect(); if((!r.width||!r.height) && el.firstElementChild) r=el.firstElementChild.getBoundingClientRect(); const cx=r.left+r.width/2, cy=r.top+r.height/2; const want=(cx>ml&&cx<mr.right&&cy>mr.top&&cy<mr.bottom)?0:-1; if(el.tabIndex!==want && el!==document.activeElement) el.tabIndex=want; }); }; map.on('moveend zoomend layeradd', ()=>{ clearTimeout(_mt); _mt=setTimeout(syncMk,120); }); }
             window.addEventListener('hashchange', ()=>{
                 const o=readState();
                 if(o.l && HAS[o.l] && o.l!==uiLang){ document.getElementById('header-ui-lang').value=o.l; setLang(o.l); }

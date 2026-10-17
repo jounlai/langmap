@@ -58,6 +58,22 @@
     --accent-rgb: 46, 111, 184;   /* #2e6fb8, for rgba() tints */
 }
 
+/* Site-wide focus ring (rally r17). Mobile Chrome's default is a 1px orange
+   ring at ~2.2:1. :where() keeps specificity at zero so every component ring
+   still wins. */
+:where(:focus-visible) { outline: 2px solid var(--accent, #2e6fb8); outline-offset: 2px; }
+/* inside clipping / scrolling boxes and full-bleed containers: draw the ring inside */
+:where(.map-zoom-controls, .tree-wrap, #nm-info, #tm-info, #char-modal, #word-modal-body, .header-nav) :focus-visible,
+:where(.leaflet-container, tr, .tm-row, .nm-form-row, #nm-info):focus-visible { outline-offset: -2px; }
+/* segmented control: overflow:hidden + accent-filled active option -> draw inside */
+.radio-switch .radio-opt:focus-visible { outline: 2px solid var(--accent, #2e6fb8); outline-offset: -2px; }
+/* on an accent-filled (selected) option, a white inset ring: >=5:1 against #3f5fe0 / #3a5ce5 */
+.radio-switch .radio-opt.active:focus-visible, .char-btn.active:focus-visible { outline: 2px solid #fff; outline-offset: -4px; }
+select:focus-visible { outline: 2px solid var(--accent, #2e6fb8); outline-offset: 1px; }
+.segment-input:focus-visible { box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--accent, #2e6fb8); }
+.tea-legend-row[data-route]:focus-visible { outline: 2px solid var(--accent, #2e6fb8); outline-offset: 0; }
+.trivia-btn:focus-visible { outline-color: #8a5a0e; }
+
 
 body {
     /* IMPORTANT: do NOT add Tibetan fonts (Kailasa / Microsoft Himalaya /
@@ -458,6 +474,7 @@ select {
     cursor: pointer;
 }
 select:focus { border-color: var(--accent); outline: none; }
+select:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
 
 .btn {
     padding: 8px 16px;
@@ -1125,7 +1142,7 @@ select:focus { border-color: var(--accent); outline: none; }
     text-align: center;
 }
 .segment-input:focus {
-    box-shadow: 0 0 0 3px rgba(var(--accent-rgb), 0.25);
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--accent);
     border-style: solid;
 }
 
@@ -1453,6 +1470,7 @@ select:focus { border-color: var(--accent); outline: none; }
     color: #999;
 }
 .seg-move-btn:hover { background: #f0f2f5; color: #333; }
+.seg-id-badge:focus-visible, .seg-move-btn:focus-visible { position: relative; z-index: 1; }
 
 /* ============================================================
    Chrome-toggle button (clean-view mode) — 2026-05-26

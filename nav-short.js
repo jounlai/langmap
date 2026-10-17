@@ -269,6 +269,23 @@
         }
         return closed;
     }
+    // Tab past the last drawer item closes the drawer: focus otherwise walked
+    // onto controls hidden underneath it (rally r17).
+    document.addEventListener('focusout', function (e) {
+        var to = e.relatedTarget;
+        if (!to) return;
+        var bs = document.querySelectorAll('button[data-toggle]');
+        for (var i = 0; i < bs.length; i++) {
+            var cb = toggleFor(bs[i]);
+            if (!cb || cb.type !== 'checkbox' || !cb.checked || !bs[i].getClientRects().length) continue;
+            var panel = document.getElementById(bs[i].getAttribute('aria-controls') || '');
+            if (!panel || !(panel.contains(e.target) || bs[i] === e.target)) continue;
+            if (panel.contains(to) || bs[i] === to || bs[i].contains(to)) continue;
+            if (to.closest && to.closest('[aria-modal="true"], .lang-picker-menu')) continue;
+            cb.checked = false;
+            cb.dispatchEvent(new Event('change', { bubbles: true }));
+        }
+    });
     document.addEventListener('keydown', function (e) {
         if (e.key !== 'Escape' || e.defaultPrevented || overlayOpen()) return;
         // One Escape, one layer: the page's own Escape handlers (language

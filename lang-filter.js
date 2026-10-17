@@ -1070,8 +1070,8 @@
                 : [...document.querySelectorAll('.lang-label, .globe-label')].map(el => el.dataset.code).filter(Boolean);
             const total = cohort.length;
             const matched = active ? cohort.filter(c => passesFilter(c)).length : total;
-            if (active) counter.textContent = t('count_active', { m: matched, n: total });
-            else counter.textContent = t('count_total', { n: total });
+            const txt = active ? t('count_active', { m: matched, n: total }) : t('count_total', { n: total });
+            if (counter.textContent !== txt) counter.textContent = txt;
         }
     }
 
@@ -1167,7 +1167,7 @@
             margin-bottom: 4px; display: flex; justify-content: space-between;
         }
         .lf-section-clear {
-            font-size: 10px; color: #4a6cf7; cursor: pointer; user-select: none;
+            background: none; border: 0; padding: 0; font: inherit; font-size: 10px; color: #4a6cf7; cursor: pointer; user-select: none;
         }
         .lf-section-clear:hover { text-decoration: underline; }
         .lf-chips {
@@ -1351,6 +1351,9 @@
     // META_I18N covers most family names but is sparse for these tags, so
     // we ship a self-contained table here.
     const CHIP_LABELS = {
+        wo: {
+            free: { en:'free', ja:'自由語順', ko:'자유 어순', zh:'自由语序', yue:'自由語序', vi:'tự do', th:'อิสระ', id:'bebas', hi:'मुक्त', de:'frei', fr:'libre', it:'libero', es:'libre', pt:'livre', ru:'свободный', uk:'вільний', ar:'حر', he:'חופשי', sw:'huria' },
+        },
         morph: {
             isolating: { ja:'孤立語', ko:'고립어', zh:'孤立语', yue:'孤立語', vi:'đơn lập', th:'ภาษาคำโดด', id:'isolatif', hi:'वियोगात्मक', de:'isolierend', fr:'isolante', it:'isolante', es_eu:'aislante', es_mx:'aislante', pt_eu:'isolante', pt_br:'isolante', ru:'изолирующий', uk:'ізолятивна', ar:'عازلة', he:'מבודדת', sw:'isiyoambika' },
             fusional: { ja:'屈折語', ko:'굴절어', zh:'屈折语', yue:'屈折語', vi:'biến hình', th:'ภาษาวิภัตติ', id:'fusional', hi:'योगात्मक', de:'flektierend', fr:'fusionnelle', it:'fusiva', es_eu:'flexiva', es_mx:'flexiva', pt_eu:'fusional', pt_br:'fusional', ru:'флективный', uk:'флективна', ar:'اندماجية', he:'פוזיונלית', sw:'iliyoungana' },
@@ -1406,7 +1409,10 @@
         if (cat === 'tone') {
             return val === 'tonal' ? t('val_tonal') : t('val_non_tonal');
         }
-        if (cat === 'wo') return val; // SVO/SOV/etc. — universal codes
+        if (cat === 'wo') { // SVO/SOV/etc. are universal codes; only 'free' is translated
+            const d = CHIP_LABELS.wo[val], ui = getUiLang();
+            return (d && (d[ui] || d[String(ui).split('_')[0]])) || val;
+        }
         if (cat === 'speaker') {
             const ui = getUiLang();
             const dict = SPEAKER_TIER_LABELS[ui];
@@ -1446,9 +1452,9 @@
         const values = enumerateValues();
         let html = `
             <div class="lf-panel-header">
-                <span class="lf-panel-title">${t('title_filter')}</span>
+                <span class="lf-panel-title" id="lf-panel-title">${t('title_filter')}</span>
                 <div class="lf-actions">
-                    <span class="lf-counter"></span>
+                    <span class="lf-counter" role="status" aria-live="polite" aria-atomic="true"></span>
                     <button class="lf-reset">${t('btn_clear')}</button>
                     <button type="button" class="lf-close" aria-label="${t('close')}" title="${t('close')}">×</button>
                 </div>
@@ -1462,10 +1468,10 @@
         // attested span overlaps [from, to]. Placed first so it's prominent.
         if (histMode) {
             html += `
-                <div class="lf-section lf-period-section" data-cat="period">
+                <div class="lf-section lf-period-section" data-cat="period" role="group" aria-labelledby="lf-sec-period">
                     <div class="lf-section-title">
-                        <span>${t('title_period')}</span>
-                        <span class="lf-section-clear" data-cat="period" style="display:${periodActive() ? '' : 'none'}">${t('btn_clear')}</span>
+                        <span id="lf-sec-period">${t('title_period')}</span>
+                        <button type="button" class="lf-section-clear" data-cat="period" aria-label="${t('btn_clear')}: ${t('title_period')}" style="display:${periodActive() ? '' : 'none'}">${t('btn_clear')}</button>
                     </div>
                     <div class="lf-period-readout"><span class="lf-period-label">${fmtIdx(periodFilter.fromIdx)} – ${fmtIdx(periodFilter.toIdx)}</span></div>
                     <div class="lf-period-dual">
@@ -1507,10 +1513,10 @@
                 ? `<button type="button" class="lf-chip-more" aria-expanded="false" data-collapsed-label="${collapsedLabel}" data-expanded-label="${expandedLabel}">${collapsedLabel}</button>`
                 : '';
             html += `
-                <div class="lf-section" data-cat="${sec.key}">
+                <div class="lf-section" data-cat="${sec.key}" role="group" aria-labelledby="lf-sec-${sec.key}">
                     <div class="lf-section-title">
-                        <span>${t(sec.titleKey)}</span>
-                        <span class="lf-section-clear" data-cat="${sec.key}" style="display:none">${t('btn_clear')}</span>
+                        <span id="lf-sec-${sec.key}">${t(sec.titleKey)}</span>
+                        <button type="button" class="lf-section-clear" data-cat="${sec.key}" aria-label="${t('btn_clear')}: ${t(sec.titleKey)}" style="display:none">${t('btn_clear')}</button>
                     </div>
                     <div class="lf-chips">
                         ${visibleHtml}${hiddenHtml}${moreToggle}
@@ -1616,12 +1622,17 @@
         // Placeholder panel (shown while meta loads). Replaced after load.
         let panel = document.createElement('div');
         panel.className = 'lf-panel';
+        panel.id = 'lf-panel';
+        panel.setAttribute('role', 'dialog');
+        panel.setAttribute('aria-modal', 'false');
+        panel.setAttribute('aria-labelledby', 'lf-panel-title');
+        fab.setAttribute('aria-controls', 'lf-panel');
         function renderPlaceholder() {
             panel.innerHTML = `
                 <div class="lf-panel-header">
-                    <span class="lf-panel-title">${t('title_filter')}</span>
+                    <span class="lf-panel-title" id="lf-panel-title">${t('title_filter')}</span>
                     <div class="lf-actions">
-                        <span class="lf-counter">${t('loading')}</span>
+                        <span class="lf-counter" role="status" aria-live="polite" aria-atomic="true">${t('loading')}</span>
                         <button type="button" class="lf-close" aria-label="${t('close')}" title="${t('close')}">×</button>
                     </div>
                 </div>
@@ -1664,7 +1675,7 @@
             panel.classList.toggle('open');
             // Keyboard: the panel sits at the end of <body>, so take focus into it.
             if (panel.classList.contains('open')) {
-                const f = panel.querySelector('.lf-chip, button, input, [tabindex="0"]');
+                const f = panel.querySelector('.lf-chip') || panel.querySelector('button, input, [tabindex="0"]');
                 if (f) setTimeout(() => { try { f.focus({ preventScroll: true }); } catch (_) {} }, 0);
             }
         });

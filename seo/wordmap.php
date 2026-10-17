@@ -130,10 +130,14 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
     if (!empty($meta['vitality'])) $chips[seo_t($ui, 'vitality')]  = seo_vitality($ui, $meta['vitality']);
     if (!empty($meta['iso6393']))  $chips[seo_t($ui, 'iso')]       = $meta['iso6393'];
     if (!empty($meta['glottocode']))$chips[seo_t($ui, 'glotto')]   = $meta['glottocode'];
+    // Untranslated values (stored English) are tagged so they are read as English.
+    $chipLang = [];
+    foreach (['family','speakers','script','countries','official','region'] as $f)
+        if (!empty($meta[$f])) $chipLang[seo_t($ui, $f)] = seo_meta_value_lang($ui, (string) $meta[$f]);
     if ($chips): ?>
 <div class="seo-meta">
   <?php foreach ($chips as $k => $v): ?>
-    <span class="chip"><b><?= e($k) ?></b> <?= e($v) ?></span>
+    <span class="chip"><b><?= e($k) ?></b> <?= seo_chip_value((string) $v, $chipLang[$k] ?? '') ?></span>
   <?php endforeach; ?>
 </div>
 <?php endif; ?>

@@ -115,10 +115,14 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
     if (!empty($lang['region']))      $chips[seo_t($ui, 'region')]   = seo_meta_value($ui, $lang['region']);
     if (!empty($lang['romanization']))$chips[seo_t($ui, 'romanization')] = $lang['romanization'];
     if ($readingType !== '')          $chips[seo_t($ui, 'reading')]  = $readingType;
+    $chipLang = [];
+    foreach (['family','speakers','region'] as $f)
+        if (!empty($lang[$f])) $chipLang[seo_t($ui, $f)] = seo_meta_value_lang($ui, (string) $lang[$f]);
+    if (!empty($lang['romanization']) && $ui !== 'en') $chipLang[seo_t($ui, 'romanization')] = 'en';
     if ($chips): ?>
 <div class="seo-meta">
   <?php foreach ($chips as $k => $v): ?>
-    <span class="chip"><b><?= e($k) ?></b> <?php if ($ui !== 'en' && $k === seo_t($ui, 'romanization')): ?><span lang="en"><?= seo_cjk_lang_runs(e($v)) ?></span><?php else: ?><?= e($v) ?><?php endif; ?></span>
+    <span class="chip"><b><?= e($k) ?></b> <?= seo_chip_value((string) $v, $chipLang[$k] ?? '') ?></span>
   <?php endforeach; ?>
 </div>
 <?php endif; ?>

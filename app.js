@@ -2416,7 +2416,7 @@ function createSegmentWrapper(seg, langCode) {
     moveLeft.type = 'button';
     moveLeft.className = 'seg-move-btn';
     // In a right-to-left row the earlier segment sits on the right: swap the arrows.
-    const _rtlRow = !!(seg.closest && seg.closest('.rtl-native'));
+    const _rtlRow = !!(seg.closest && seg.closest('.rtl-native')) || !!(rtlNative && langCode && RTL_LANGS.has(langCode));
     moveLeft.textContent = _rtlRow ? '▶' : '◀';
     moveLeft.setAttribute('aria-label', edT('moveEarlier'));
     moveLeft.addEventListener('click', (e) => {
@@ -2976,6 +2976,8 @@ function exitEditMode() {
 // The add-segment menus: items reachable and operable by keyboard.
 function menuKeyboard(menu, opener) {
     menu.setAttribute('role', 'menu');
+    const _n = opener && (opener.title || opener.getAttribute('aria-label') || opener.textContent.trim());
+    if (_n) menu.setAttribute('aria-label', _n);
     const items = [...menu.querySelectorAll('.add-segment-menu-item')];
     items.forEach((it) => {
         it.setAttribute('role', 'menuitem'); it.tabIndex = -1;
@@ -3005,7 +3007,18 @@ document.addEventListener('keydown', (e) => {
     if (editingRow || document.querySelector('body > .lang-row.editing')) return;
     if (e.target.tagName === 'SELECT' || e.target.tagName === 'INPUT') return;
     if (document.getElementById('langModalOverlay')?.classList.contains('open')) return;
+    // Share dialog / UI-language menu / any header overlay: not behind it.
+    if (typeof window.__navOverlayOpen === 'function' && window.__navOverlayOpen()) return;
+    if ([...document.querySelectorAll('[role="dialog"][aria-modal="true"]')].some(d => d.getClientRects().length)) return;
+    if (!['ArrowLeft', 'ArrowRight', 'r'].includes(e.key)) return;
+    // A focused row button is re-rendered away: put focus back on its twin.
+    const _row = e.target.closest && e.target.closest('.lang-row[data-lang]');
+    const _cls = _row && [...e.target.classList].find(c => c.endsWith('-btn'));
     if (e.key === 'ArrowLeft') prevSentence();
     if (e.key === 'ArrowRight') nextSentence();
-    if (e.key === 'r' && !e.ctrlKey && !e.metaKey) randomSentence();
+    if (e.key === 'r') randomSentence();
+    if (_row && _cls && !e.target.isConnected) {
+        const b = document.querySelector('.lang-row[data-lang="' + CSS.escape(_row.dataset.lang) + '"] .' + CSS.escape(_cls));
+        if (b) b.focus({ preventScroll: true });
+    }
 });

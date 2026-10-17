@@ -2741,17 +2741,45 @@ function seo_bcp47(string $code, array $lang): string
 }
 
 /**
- * ISO 639-3 -> ISO 639-1, read off the Word Map rows whose own code is a
- * two-letter one (ja carries jpn, de carries deu, zh carries cmn).
+ * ISO 639-3 -> ISO 639-1, the 184 languages that have a two-letter code
+ * (ISO 639 table, via Debian iso-codes), plus the individual codes the Word
+ * Map's two-letter rows carry. Reading only the rows missed ssw, her, nbl and
+ * ave (no such row) — rally review r3, 2026-10-17.
  */
 function seo_iso_short(): array
 {
     static $m = null;
     if ($m !== null) return $m;
     $m = [];
+    $t = ''
+        . 'aar:aa abk:ab afr:af aka:ak amh:am ara:ar arg:an asm:as ava:av ave:ae '
+        . 'aym:ay aze:az bak:ba bam:bm bel:be ben:bn bis:bi bod:bo bos:bs bre:br '
+        . 'bul:bg cat:ca ces:cs cha:ch che:ce chu:cu chv:cv cor:kw cos:co cre:cr '
+        . 'cym:cy dan:da deu:de div:dv dzo:dz ell:el eng:en epo:eo est:et eus:eu '
+        . 'ewe:ee fao:fo fas:fa fij:fj fin:fi fra:fr fry:fy ful:ff gla:gd gle:ga '
+        . 'glg:gl glv:gv grn:gn guj:gu hat:ht hau:ha hbs:sh heb:he her:hz hin:hi '
+        . 'hmo:ho hrv:hr hun:hu hye:hy ibo:ig ido:io iii:ii iku:iu ile:ie ina:ia '
+        . 'ind:id ipk:ik isl:is ita:it jav:jv jpn:ja kal:kl kan:kn kas:ks kat:ka '
+        . 'kau:kr kaz:kk khm:km kik:ki kin:rw kir:ky kom:kv kon:kg kor:ko kua:kj '
+        . 'kur:ku lao:lo lat:la lav:lv lim:li lin:ln lit:lt ltz:lb lub:lu lug:lg '
+        . 'mah:mh mal:ml mar:mr mkd:mk mlg:mg mlt:mt mon:mn mri:mi msa:ms mya:my '
+        . 'nau:na nav:nv nbl:nr nde:nd ndo:ng nep:ne nld:nl nno:nn nob:nb nor:no '
+        . 'nya:ny oci:oc oji:oj ori:or orm:om oss:os pan:pa pli:pi pol:pl por:pt '
+        . 'pus:ps que:qu roh:rm ron:ro run:rn rus:ru sag:sg san:sa sin:si slk:sk '
+        . 'slv:sl sme:se smo:sm sna:sn snd:sd som:so sot:st spa:es sqi:sq srd:sc '
+        . 'srp:sr ssw:ss sun:su swa:sw swe:sv tah:ty tam:ta tat:tt tel:te tgk:tg '
+        . 'tgl:tl tha:th tir:ti ton:to tsn:tn tso:ts tuk:tk tur:tr twi:tw uig:ug '
+        . 'ukr:uk urd:ur uzb:uz ven:ve vie:vi vol:vo wln:wa wol:wo xho:xh yid:yi '
+        . 'yor:yo zha:za zho:zh zul:zu ';
+    foreach (explode(' ', trim($t)) as $p) {
+        [$three, $two] = explode(':', $p);
+        $m[$three] = $two;
+    }
+    // Individual languages a two-letter row carries for its macrolanguage
+    // (zh = cmn, ar = arb, fa = pes, sw = swh …), read off the Word Map.
     foreach (seo_data('wordmap')['langs'] ?? [] as $c => $r) {
         $i = (string) ($r['meta']['iso6393'] ?? '');
-        if ($i !== '' && preg_match('/^[a-z]{2}$/', (string) $c)) $m[$i] = (string) $c;
+        if ($i !== '' && !isset($m[$i]) && preg_match('/^[a-z]{2}$/', (string) $c)) $m[$i] = (string) $c;
     }
     return $m;
 }
@@ -3020,9 +3048,12 @@ function seo_map_embed(?float $lat, ?float $lng, string $label, int $zoom = 5): 
     $lng = (float) $lng;
     $jsLabel = json_encode($label, JSON_UNESCAPED_UNICODE | JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT);
     $id = 'seo-map';
+    // An attribute, so HTML-escaped (the JSON form above is for the script:
+    // its quotes broke the attribute apart — rally review r3).
+    $attrLabel = e('Map: ' . $label);
     return <<<HTML
 <div class="seo-map-wrap">
-  <div id="{$id}" class="seo-map" role="img" aria-label="Map centered on {$jsLabel}"></div>
+  <div id="{$id}" class="seo-map" role="region" aria-label="{$attrLabel}"></div>
 </div>
 <script>
 (function () {
@@ -3036,8 +3067,14 @@ function seo_map_embed(?float $lat, ?float $lng, string $label, int $zoom = 5): 
     if (started) return; started = true;
     // Start the map only once BOTH have arrived: without leaflet.css the
     // tiles are not positioned or clipped and spill over the page.
-    var left = 2;
+    // basemap_key.js (CARTO_BASEMAP_KEY, not in the repo) as on the maps:
+    // CARTO stamps "API key required" on tiles requested without it.
+    var left = 3;
     function one() { if (--left === 0) init(); }
+    var key = document.createElement('script');
+    key.src = '/basemap_key.js';
+    key.onload = key.onerror = one;
+    document.head.appendChild(key);
     var css = document.createElement('link');
     css.rel = 'stylesheet'; css.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
     css.onload = css.onerror = one;
@@ -3055,7 +3092,9 @@ function seo_map_embed(?float $lat, ?float $lng, string $label, int $zoom = 5): 
     // ({r}), sharp on high-DPR screens (image-size-responsive). OSM's own
     // tiles have no @2x, and Leaflet's detectRetina on them drew every label
     // at half size and fetched 4x the tiles (rally review r2, 2026-10-17).
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+    var k = (typeof window.CARTO_BASEMAP_KEY === 'string' && window.CARTO_BASEMAP_KEY)
+      ? '?key=' + encodeURIComponent(window.CARTO_BASEMAP_KEY) : '';
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png' + k, {
       maxZoom: 18, subdomains: 'abcd',
       attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a> &middot; &copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
@@ -3189,8 +3228,7 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   color: var(--fg); background: var(--bg); margin: 0; line-height: 1.5; }
 .seo-wrap { max-width: 60rem; margin: 0 auto; padding: 1.5rem 1.25rem 4rem; }
 .seo-crumbs { font-size: .95rem; color: var(--muted); margin: 0 0 1rem; }
-.seo-crumbs a { color: var(--accent); text-decoration: none; }
-.seo-crumbs a:hover { text-decoration: underline; }
+.seo-crumbs a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; } /* link-in-text-block: accent vs muted is 1.05:1 */
 .seo-hero h1 { font-size: clamp(2.4rem, 7vw, 4.5rem); line-height: 1.05;
   margin: .2rem 0 .3rem; letter-spacing: -.01em; }
 .seo-hero .native { font-size: clamp(1.6rem, 5vw, 3rem); color: var(--accent);
@@ -3343,7 +3381,7 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .seo-region > summary::after { content: '\25BE'; float: right; color: var(--muted);
   font-size: 1.2rem; margin-top: 2.9rem; transition: transform .15s; }
 .seo-region[open] > summary::after { transform: rotate(180deg); }
-.seo-region > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; } /* inside: content-visibility clips paint at the box edge */
+.seo-region > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 /* Long sections skip style/layout/paint until they near the viewport — the
    character table alone is ~190 rows. Biggest single cut to load-time layout
    work (Lighthouse TBT, 2026-10-16). The intrinsic size is a placeholder that

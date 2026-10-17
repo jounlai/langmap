@@ -90,11 +90,11 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
         'altpath' => $altPath,
     ]);
     ?>
-<nav class="seo-crumbs"><a href="<?= e(seo_path($ui, 'hanmap')) ?>">Han Map</a> &rsaquo; <?= e($name) ?></nav>
+<nav class="seo-crumbs" aria-label="Breadcrumb"><a href="<?= e(seo_path($ui, 'hanmap')) ?>">Han Map</a> &rsaquo; <?= e($name) ?></nav>
 
 <header class="seo-hero">
   <?php if ($native && $native !== $name): ?>
-    <p class="native"><?= e($native) ?></p>
+    <p class="native" lang="<?= e(seo_lang_attr($code)) ?>"><?= e($native) ?></p>
   <?php endif; ?>
   <h1><?= e($name) ?></h1>
   <?php if (!empty($lang['family'])): ?>
@@ -233,7 +233,7 @@ function seo_render_hanmap_index(array $data, string $ui): void
         'altpath' => '/hanmap/',
     ]);
     ?>
-<nav class="seo-crumbs"><a href="<?= e(seo_path($ui, '')) ?>">LangMap</a> &rsaquo; Han Map</nav>
+<nav class="seo-crumbs" aria-label="Breadcrumb"><a href="<?= e(seo_path($ui, '')) ?>">LangMap</a> &rsaquo; Han Map</nav>
 <header class="seo-hero">
   <h1>Han Map</h1>
   <p class="sub"><?= e(seo_t($ui, 'hm_index_sub', ['c' => (string) count($data['chars']), 'n' => (string) count($langs)])) ?></p>

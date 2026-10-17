@@ -326,7 +326,7 @@
             .tm-panel.info-open ~ .tm-sheet-backdrop { display: block; position: fixed; inset: 0; z-index: 1350; background: rgba(0,0,0,0.35); }
         }
     </style>
-    <script src="nav-short.js?v=9"></script>
+    <script src="nav-short.js?v=10"></script>
 </head>
 <body>
     <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Time Map</h1>
@@ -539,7 +539,11 @@
         }
 
         function drawMarkers(){
+            // Removing a marker closes its popup, and popupclose clears openId;
+            // keep it so setDate / applyUILang can reopen the same popup.
+            const keep=openId;
             Object.values(markers).forEach(m=>map.removeLayer(m));
+            openId=keep;
             for(const k in markers) delete markers[k];
             const onMobile = window.matchMedia('(max-width: 780px)').matches;
             const padTL = onMobile ? L.point(16, 66) : L.point(PANEL_WIDTH + 16, 72);
@@ -554,8 +558,10 @@
                 const icon=L.divIcon({ className:'tm-divicon', html, iconSize:[0,0], iconAnchor:[0,0] });
                 const mk=L.marker([cal.lat, cal.lng], { icon, riseOnHover:true });
                 mk.bindPopup(()=>popupHtml(cal), { maxWidth: 280, autoPanPaddingTopLeft: padTL, autoPanPaddingBottomRight: L.point(24, 24) });
-                mk.on('popupopen', ()=>{ openId=cal.id; markActive(); const el=mk.getElement&&mk.getElement(); const lb=el&&el.querySelector('.tm-label'); if(lb) lb.style.visibility=''; });
-                mk.on('popupclose', ()=>{ if(openId===cal.id){ openId=null; markActive(); } });
+                // Re-place labels: the open one goes first (relaxLabels), and
+                // on close the others get their spots back.
+                mk.on('popupopen', ()=>{ openId=cal.id; markActive(); requestAnimationFrame(relaxLabels); });
+                mk.on('popupclose', ()=>{ if(openId===cal.id){ openId=null; markActive(); requestAnimationFrame(relaxLabels); } });
                 mk.addTo(map); markers[cal.id]=mk;
                 // Leaflet gives the marker role=button; a hidden (de-collided) label
                 // leaves it nameless, so name it explicitly (Lighthouse aria-command-name).
@@ -645,7 +651,7 @@
             dateStr=s; document.getElementById('tm-date').value=s;
             renderPanel(); drawMarkers();
             document.getElementById('tm-simple-date').textContent=s;
-            if(openId && markers[openId]) markers[openId].openPopup();
+            if(openId && markers[openId]) markers[openId].openPopup(); else if(openId){ openId=null; markActive(); }
             if(!opts || opts.hash!==false) updateHash();
         }
 
@@ -677,7 +683,7 @@
                 for(let i=el.childNodes.length-1;i>=0;i--){ const n=el.childNodes[i]; if(n.nodeType===3 && n.textContent.trim()){ n.textContent=t(nav[id]); break; } }
             });
             renderPanel(); drawMarkers();
-            if(openId && markers[openId]) markers[openId].openPopup();
+            if(openId && markers[openId]) markers[openId].openPopup(); else if(openId){ openId=null; markActive(); }
         }
         function setLang(lang){
             uiLang=lang; setCookie('wm_uilang', uiLang);

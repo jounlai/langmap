@@ -344,7 +344,7 @@ function seo_render_word(array $data, array $word, string $ui): void
         'altpath'     => $altPath,
     ]);
     ?>
-<nav class="seo-crumbs"><a href="<?= e(seo_path($ui, 'word')) ?>"><?= e(seo_t($ui, 'wd_link')) ?></a> &rsaquo; <?= e($label) ?></nav>
+<nav class="seo-crumbs" aria-label="Breadcrumb"><a href="<?= e(seo_path($ui, 'word')) ?>"><?= e(seo_t($ui, 'wd_link')) ?></a> &rsaquo; <?= e($label) ?></nav>
 
 <header class="seo-hero">
   <h1><?= e(seo_t($ui, 'wd_title', ['name' => $label, 'n' => $nStr])) ?></h1>
@@ -485,8 +485,8 @@ function seo_render_word(array $data, array $word, string $ui): void
 </details>
 <?php endforeach; ?>
 
-<nav class="seo-section">
-  <h2><?= e(seo_t($ui, 'wd_index_h1', ['w' => (string) count($data['words'])])) ?></h2>
+<nav class="seo-section" aria-labelledby="seo-otherwords-h">
+  <h2 id="seo-otherwords-h"><?= e(seo_t($ui, 'wd_index_h1', ['w' => (string) count($data['words'])])) ?></h2>
   <p class="seo-otherwords">
     <?php foreach ($data['words'] as $w):
         $wid = (string) ($w['id'] ?? '');

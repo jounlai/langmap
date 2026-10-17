@@ -175,8 +175,9 @@
             if (!cb || cb.type !== 'checkbox' || !cb.checked) continue;
             cb.checked = false;
             cb.dispatchEvent(new Event('change', { bubbles: true }));
-            if (document.activeElement === document.body || lbs[i].contains(document.activeElement)) continue;
-            var panel = lbs[i].parentNode;
+            // Only when focus was inside the panel this button controls:
+            // its parent (the whole header bar / control column) is too wide.
+            var panel = document.getElementById(lbs[i].getAttribute('aria-controls') || '');
             if (panel && panel.contains(document.activeElement)) lbs[i].focus();
         }
     }
@@ -187,6 +188,15 @@
             if (cb && cb.type === 'checkbox') lbs[i].setAttribute('aria-expanded', cb.checked ? 'true' : 'false');
         }
     }
+    // Clicking a label focuses its control, here a hidden aria-hidden
+    // checkbox: a tap would leave a screen reader focused on nothing.
+    // Hand focus back to the button.
+    document.addEventListener('focusin', function (e) {
+        var t = e.target;
+        if (!t || t.type !== 'checkbox' || t.getAttribute('aria-hidden') !== 'true' || !t.id) return;
+        var lb = document.querySelector('label[role="button"][for="' + t.id + '"]');
+        if (lb) lb.focus({ preventScroll: true });
+    });
     document.addEventListener('change', function (e) {
         if (e.target && e.target.type === 'checkbox') syncExpanded();
     });

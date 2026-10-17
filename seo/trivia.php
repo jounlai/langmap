@@ -333,7 +333,7 @@ function seo_render_trivia_article(array $data, array $byId, string $id, string 
         'altpath' => '/trivia/' . rawurlencode($id),
     ]);
     ?>
-<nav class="seo-crumbs">
+<nav class="seo-crumbs" aria-label="Breadcrumb">
   <a href="<?= e(seo_path($ui, '')) ?>">LangMap</a> &rsaquo;
   <a href="<?= e(seo_path($ui, 'trivia')) ?>"><?= e(seo_t($ui, 'tri_link')) ?></a> &rsaquo;
   <?= e($t['title']) ?>
@@ -425,7 +425,7 @@ function seo_render_trivia_hub(array $data, array $byId, string $ui): void
         'altpath' => '/trivia/',
     ]);
     ?>
-<nav class="seo-crumbs"><a href="<?= e(seo_path($ui, '')) ?>">LangMap</a> &rsaquo; <?= e(seo_t($ui, 'tri_link')) ?></nav>
+<nav class="seo-crumbs" aria-label="Breadcrumb"><a href="<?= e(seo_path($ui, '')) ?>">LangMap</a> &rsaquo; <?= e(seo_t($ui, 'tri_link')) ?></nav>
 <header class="seo-hero">
   <h1><?= e(seo_t($ui, 'tri_link')) ?></h1>
   <p class="sub"><?= e(seo_t($ui, 'tri_hub_sub', ['n' => $n])) ?></p>

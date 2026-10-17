@@ -103,11 +103,11 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
         'altpath' => $altPath,
     ]);
     ?>
-<nav class="seo-crumbs"><a href="<?= e(seo_path($ui, 'wordmap')) ?>">Word Map</a> &rsaquo; <?= e($name) ?></nav>
+<nav class="seo-crumbs" aria-label="Breadcrumb"><a href="<?= e(seo_path($ui, 'wordmap')) ?>">Word Map</a> &rsaquo; <?= e($name) ?></nav>
 
 <header class="seo-hero">
   <?php if ($native && $native !== $name): ?>
-    <p class="native"><?= e($native) ?></p>
+    <p class="native" lang="<?= e(seo_lang_attr($code)) ?>"><?= e($native) ?></p>
   <?php endif; ?>
   <h1><?= e($name) ?></h1>
   <?php if (!empty($meta['family'])): ?>
@@ -288,7 +288,7 @@ function seo_render_wordmap_index(array $data, string $ui): void
         'altpath' => '/wordmap/',
     ]);
     ?>
-<nav class="seo-crumbs"><a href="<?= e(seo_path($ui, '')) ?>">LangMap</a> &rsaquo; Word Map</nav>
+<nav class="seo-crumbs" aria-label="Breadcrumb"><a href="<?= e(seo_path($ui, '')) ?>">LangMap</a> &rsaquo; Word Map</nav>
 <header class="seo-hero">
   <h1>Word Map</h1>
   <p class="sub"><?= e(seo_t($ui, 'wm_index_sub', ['n' => (string) count($langs), 'w' => $wc])) ?></p>

@@ -2816,7 +2816,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=9"></script>
+    <script src="nav-short.js?v=10"></script>
 </head>
 <body>
     <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — HanMap</h1>
@@ -3053,7 +3053,7 @@
              drawer the same way as before; only the visual layout moved
              from floating FAB to inline button-stack member. -->
         <input type="checkbox" id="settings-toggle" class="settings-toggle" aria-label="Display settings toggle" tabindex="-1" aria-hidden="true">
-        <label for="settings-toggle" class="settings-fab" role="button" aria-label="Display settings" tabindex="0"><svg class="settings-fab-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></label>
+        <label for="settings-toggle" class="settings-fab" role="button" aria-label="Display settings" aria-controls="right-secondary" tabindex="0"><svg class="settings-fab-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></label>
         <div style="height:8px" class="ctrl-spacer"></div>
         <div class="right-secondary-controls" id="right-secondary">
             <button class="toggle-btn active" id="toggle-word" aria-pressed="true" aria-label="Toggle form display"><span class="label">Form</span><span class="onoff">ON</span></button>
@@ -5013,11 +5013,11 @@
             // 3. Default
             return 'en';
         }
-        // Audit Task 134: Central cache-buster version registry. Static
-        // <script src="...?v=N"> and <link href="...?v=N"> tags above must
-        // be kept in sync with this object. validate_wordmap_data.js #19
-        // checks that the HTML versions match these values, so drift is
-        // caught at validation time. The dynamic wordmap_meta.js load
+        // Audit Task 134: cache-buster version registry, copied from the
+        // Word Map. NOTE (2026-10-17): nothing on this page loads through
+        // assetUrl() any more and validate_wordmap_data.js #19 reads only
+        // wordmap.html, so these numbers are stale and unchecked; the literal
+        // ?v= tags are kept fresh by tools/page_asset_version_check.js. The dynamic wordmap_meta.js load
         // below uses assetUrl() so its version is always read from here.
         const WM_ASSET_VERSION = {
             styles:    93,
@@ -11438,7 +11438,7 @@
         if (new URLSearchParams(location.hash.slice(1)).get('cmp')) openComparePanel();
 
         // --- Linguistic trivia modal ---------------------------------
-        // Articles live in window.TRIVIA_ARTICLES (wordmap_trivia.js).
+        // Articles live in window.TRIVIA_ARTICLES (hanmap_trivia_rt/base.js).
         // Open via the "📚 Trivia" header button; close with the X, the
         // backdrop, or Escape. Content is author-written HTML, so we
         // intentionally use innerHTML rather than textContent.
@@ -11504,6 +11504,7 @@
         // `var`, not const: loadTriviaI18nFor() runs from the boot pass above
         // this line (hoisted function), which would hit the TDZ.
         var _hanBodyLoads;
+        var _triviaPendingOpen, _triviaOpenWaiting = false;
         function loadHanTriviaBodies(base) {
             if (!base || base === 'en') return Promise.resolve();
             if (!_hanBodyLoads) _hanBodyLoads = new Map();
@@ -11520,6 +11521,9 @@
                 if (!_hanTriviaPromise) { _hanBodyLoads.delete(base); return Promise.reject('later'); }
                 return _hanTriviaPromise;
             }).then(() => new Promise((res) => {
+                // base.js failed (and will be retried): do not cache this
+                // language as loaded with nothing merged into it.
+                if (!_hanTriviaLoaded) { _hanBodyLoads.delete(base); res(); return; }
                 const have = window.HANMAP_TRIVIA_LANGS;
                 if (Array.isArray(have) && !have.includes(base)) { res(); return; }
                 const s = document.createElement('script');
@@ -11555,7 +11559,7 @@
                     }
                     res();
                 };
-                s.onerror = () => { _hanBodyLoads.delete(base); res(); };
+                s.onerror = () => { s.remove(); _hanBodyLoads.delete(base); res(); };
                 document.head.appendChild(s);
             })).catch(() => {});
             _hanBodyLoads.set(base, p);
@@ -12029,11 +12033,21 @@
             // Wait for the reader's language too (bounded), so a shared
             // #trivia=<id>&ui=ko link does not open in English and then swap.
             if (!_hanTriviaLoaded) {
+                // One pending open: a second click while waiting just
+                // retargets it (two chains meant two renders and two
+                // history entries).
+                _triviaPendingOpen = id;   // may be undefined (= the index)
+                if (_triviaOpenWaiting) return;
+                _triviaOpenWaiting = true;
                 loadHanTrivia().then(() => {
                     if (!_hanTriviaLoaded) return;
                     const wait = loadHanTriviaBodies(String(uiLang || 'en').split('_')[0]);
                     return Promise.race([wait, new Promise((r) => setTimeout(r, 1500))]);
-                }).then(() => { if (_hanTriviaLoaded) openTrivia(id); });
+                }).then(() => {
+                    const want = _triviaPendingOpen;
+                    _triviaOpenWaiting = false;
+                    if (_hanTriviaLoaded) openTrivia(want);
+                });
                 return;
             }
             const list = window.TRIVIA_ARTICLES || [];

@@ -157,7 +157,7 @@
             <div class="date">2026-10-17 — Keyboard and screen-reader touches ♿</div>
             <ul>
                 <li>Escape closes the menu on every page (and the display-settings panel on the Word and Han maps), and the menu button stays highlighted while the menu is open. Each of these buttons is now a single stop when you move with Tab, instead of two.</li>
-                <li>Han Map: a shared link to a reading article opens straight in the reader's language instead of showing English first. The page also no longer downloads a 160–380 KB Word Map translation file it never used.</li>
+                <li>Han Map: a shared link to a reading article now waits a moment for the reader's language, so it usually opens in that language instead of English first. For readers using a language other than English or Japanese, the page also no longer downloads a 60–85 KB Word Map translation file it never used.</li>
                 <li>Home page: screen readers can tell the main content from the footer.</li>
                 <li>Language and word pages: the small map now has sharp tiles with full-size labels on high-resolution screens, the scrollbar no longer jumps as you scroll down, the gap above the collapsible region headings is back to normal, and their keyboard focus outline shows again.</li>
                 <li>Time Map: the label of the calendar you have open stays visible when the others are rearranged.</li>
@@ -170,7 +170,7 @@
                 <li>The small map on each language page no longer holds up the page: it loads when it comes into view, and its map tiles are sharp on high-resolution phone screens.</li>
                 <li>Long tables further down the page (the character table, the comparisons, the word-order sentences) are only laid out when you scroll near them, so the page responds sooner after opening.</li>
                 <li>The page no longer asks for fonts for scripts it does not show: Korean, Tibetan, Mongolian and other rare scripts are fetched only when the page uses them.</li>
-                <li>Links and readings are a slightly darker blue so they are easier to read, and screen readers now get a proper language tag (ja, ko, zh …) for dialect names and forms such as 広島弁 and 文化語.</li>
+                <li>Links and readings are a slightly darker blue so they are easier to read, and screen readers now get a proper language tag (ja, ko, zh …) for the names, words and readings on dialect pages such as 広島弁 (Hiroshima Japanese).</li>
                 <li>Home page: the faint grey labels, footer and disclaimer text, and the Facebook / LINE share buttons are darker so they meet the contrast standard; the links in the disclaimer are underlined, and screen readers can jump straight to the main content.</li>
                 <li>Time Map: every calendar marker on the map now has a name for screen readers, even when its label is hidden to avoid overlap.</li>
             </ul>
@@ -192,7 +192,7 @@
                 <li>Screen readers and keyboards: the menu and display-settings buttons are now announced as buttons with their open/closed state, and open with Enter or Space.</li>
                 <li>The analytics script now loads on your first tap or scroll, or a few seconds after the page has finished loading, instead of competing with the page while it opens. The same font and analytics changes apply to the language and word pages.</li>
                 <li>Time Map: the Tibetan font was a 730 KB download for a few dozen letters; it is now a 31 KB file (34 KB for bold) with exactly the Tibetan letters and digits the map prints.</li>
-                <li>Han Map: the 40 reading articles were one 1.6 MB download carrying every article in all 19 languages. The page now fetches the articles with English text (225 KB) and then only the reader's own language (about 70 KB), about 1.3 MB less to download.</li>
+                <li>Han Map: the 40 reading articles were one 1.3 MB download carrying every article in all 19 languages. The page now fetches the articles with English text (about 170 KB) and then only the reader's own language (about 70 KB), about 1.1 MB less to download.</li>
             </ul>
         </div>
 

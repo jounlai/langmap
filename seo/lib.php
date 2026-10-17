@@ -3290,8 +3290,8 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .seo-meta { display: flex; flex-wrap: wrap; gap: .5rem .75rem; margin: 1rem 0 1.5rem; }
 .seo-meta .chip { background: var(--card); border: 1px solid var(--line);
   border-radius: 999px; padding: .3rem .85rem; font-size: .95rem; }
-.seo-meta .chip b { color: var(--muted); font-weight: 600; margin-inline-end: .35rem; }
-.seo-desc { font-size: 1.15rem; max-width: 50rem; margin: 0 0 2rem; }
+.seo-meta .chip b { color: var(--muted); font-weight: 600; }   /* the space after </b> is the gap */
+.seo-desc { font-size: 1.15rem; max-width: 50rem; margin: 0 0 2rem; overflow-wrap: anywhere; }
 /* --- word page: one card per language group ------------------------------
    Grid, and NOT CSS columns. Columns were tried and had to be undone: they
    pack beautifully, but opening one card re-flows the whole list and throws
@@ -3558,7 +3558,7 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
 .seo-index-list .code { color: var(--muted); font-size: .85rem; }
 /* Trivia ("読み物") pages: long-form prose, and the in-article map controls
    that seo/trivia.php turns from <button> into a label plus real links. */
-.seo-prose { font-size: 1.05rem; line-height: 1.85; }
+.seo-prose { font-size: 1.05rem; line-height: 1.85; overflow-wrap: anywhere; }
 .seo-prose p { margin: 0 0 1.1em; }
 .seo-prose h2, .seo-prose h3 { font-size: 1.25rem; margin: 2em 0 .6em; border-bottom: 0; padding-bottom: 0; }
 .seo-prose ul, .seo-prose ol { margin: 0 0 1.2em; padding-inline-start: 1.4em; }
@@ -3580,7 +3580,7 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
 .trivia-embed { margin: 1.6em 0; padding: 0; }
 /* .trivia-actions is a flex row of small note chips. A map or a table is not a
    chip — give it the whole row rather than letting it share one with a link. */
-.trivia-actions .trivia-embed { flex: 1 0 100%; margin: .4em 0; }
+.trivia-actions .trivia-embed { flex: 1 0 100%; min-width: 0; margin: .4em 0; }   /* min-width:0 so the table scrolls inside it */
 .trivia-embed figcaption { font-size: .95rem; color: var(--muted); margin: .5rem 0 0;
   display: flex; flex-wrap: wrap; gap: .5rem; align-items: baseline; }
 .trivia-embed .trivia-embed-more { color: var(--accent); text-decoration: none;
@@ -3698,7 +3698,7 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
 .seo-ex h2 { font-size: 1.6rem; margin: 2.5rem 0 1rem; border-bottom: 2px solid var(--line);
   padding-bottom: .35rem; }
 .seo-ex .ex-note { color: var(--muted); font-size: .85rem; margin: -.5rem 0 1rem; }
-.seo-ex .ex-nav { display: flex; align-items: center; gap: .6rem; margin: .9rem 0 0; }
+.seo-ex .ex-nav { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem; margin: .9rem 0 0; }
 .seo-ex .ex-nav button { font: inherit; cursor: pointer; padding: .35rem .85rem;
   border-radius: .5rem; border: 1px solid var(--line); background: var(--card); color: var(--fg); }
 .seo-ex .ex-nav button:hover { border-color: var(--accent); }
@@ -4523,7 +4523,8 @@ function seo_comparisons(string $map, string $code, string $ui,
     <label for="ex-wo-<?= e($uid) ?>" class="ex-ind"><?= e(seo_t($ui, 'ex_pick')) ?>: </label>
     <select id="ex-wo-<?= e($uid) ?>" class="ex-wo-select">
       <?php foreach ($sentList as $si => $s): ?>
-      <option value="<?= $si ?>"><?= e($s['title'] !== '' ? $s['title'] : ('#' . $si)) ?></option>
+      <?php $tl = (string) ($s['title'] ?? ''); $tlang = preg_match('/[\x{3040}-\x{30FF}\x{4E00}-\x{9FFF}]/u', $tl) ? 'ja' : (preg_match('/^[\x{0020}-\x{007E}]+$/u', $tl) ? 'en' : ''); ?>
+      <option value="<?= $si ?>"<?= ($tlang !== '' && $tlang !== $ui) ? ' lang="' . $tlang . '"' : '' ?>><?= e($tl !== '' ? $tl : ('#' . $si)) ?></option>
       <?php endforeach; ?>
     </select>
   </div>

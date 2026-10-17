@@ -92,7 +92,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=151">
+    <link rel="stylesheet" href="styles.css?v=152">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -637,7 +637,7 @@
             line-height: 1.2; padding: 3px 6px;
         }
         .right-controls .toggle-btn .onoff {
-            font-size: 7px; opacity: 0.6; margin-top: 1px;
+            font-size: 7px; margin-top: 1px;
         }
         .radio-switch.radio-switch-v {
             flex-direction: column; border-radius: 4px; max-width: 56px;
@@ -691,7 +691,7 @@
         .toggle-btn {
             font-size: 13px; padding: 6px 12px; border: 1px solid #d0d0d0;
             border-radius: 20px; background: #f0f0f0; cursor: pointer; white-space: nowrap;
-            color: #777; font-weight: 500;
+            color: #5f6368; font-weight: 500;
             transition: all 0.25s ease;
             user-select: none;
         }
@@ -735,7 +735,7 @@
         }
         .radio-switch .radio-opt {
             font-size: 11px; padding: 4px 12px; border: none; background: transparent;
-            color: #777; cursor: pointer; font-weight: 500; white-space: nowrap;
+            color: #5f6368; cursor: pointer; font-weight: 500; white-space: nowrap;
             transition: all 0.25s ease; position: relative;
             flex: 1; text-align: center;
         }
@@ -744,7 +744,7 @@
             border-right: 1px solid #ccc;
         }
         .radio-switch .radio-opt.active {
-            background: #4a6cf7; color: #fff;
+            background: #3f5fe0; color: #fff;
             box-shadow: 0 1px 4px rgba(74,108,247,0.35);
         }
         .radio-switch .radio-opt.active::after { border-right: none; }
@@ -944,7 +944,7 @@
            because :not([style]) doesn't apply — preserving the original color. */
         .lang-label.selected .word:not([style]), .globe-label.selected .word:not([style]) { color: #1a1a2e; }
         .lang-label.selected .ipa:not([style]),  .globe-label.selected .ipa:not([style])  { color: #555; }
-        .lang-label.selected .name:not([style]), .globe-label.selected .name:not([style]) { color: #888; }
+        .lang-label.selected .name:not([style]), .globe-label.selected .name:not([style]) { color: #6b6b6b; }
         /* Compare-set marker — every language currently in the comparison
            panel (window.__compareList) gets a consistent amber ring + soft
            halo so the whole comparison set is identifiable at a glance on
@@ -1037,7 +1037,7 @@
             line-height: 1.2;
         }
         .lang-label .name {
-            font-size: calc(9px * var(--label-scale)); color: #888; line-height: 1.3;
+            font-size: calc(9px * var(--label-scale)); color: #6b6b6b; line-height: 1.3;
         }
         /* Second name line for the historical rows: the period the reading
            belongs to (meta.period), e.g. "7–10c" for Tang Chinese. Same
@@ -2837,7 +2837,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=19"></script>
+    <script src="nav-short.js?v=20"></script>
 </head>
 <body>
     <!-- Header -->
@@ -3006,7 +3006,7 @@
             </div>
         </div>
         <div class="lang-search-wrap" style="display:none;position:relative;gap:4px">
-            <input type="text" id="lang-search" placeholder="🔍 Search language…" autocomplete="off"
+            <input type="text" id="lang-search" dir="auto" placeholder="🔍 Search language…" autocomplete="off"
                    role="combobox" aria-autocomplete="list" aria-expanded="false"
                    aria-controls="lang-search-results" aria-activedescendant=""
                    style="width:200px;padding:5px 9px;font-size:12px;border:1px solid #d0d0d0;border-radius:4px;background:#fff;color:#333">
@@ -4665,6 +4665,7 @@
             if (md) md.style.display = 'block';
             // A modal: focus in, Tab kept inside (window.__hmTrapTab), back on close.
             _lfReturn = document.activeElement;
+            if (md) md.dir = /^(ar|he)/.test(String(uiL() || '')) ? 'rtl' : 'ltr';
             if (md) { window.__hmTrapTab && window.__hmTrapTab(md); const f = document.getElementById('hm-lang-filter-close') || md.querySelector('button'); if (f) setTimeout(() => f.focus(), 0); }
         }
         function close() {
@@ -8926,6 +8927,19 @@
         // attach their own one-shot moveend listener so they re-render
         // as soon as the fly settles, regardless of this debounce.
         let _panDebounceTimer = null;
+        // Labels outside the visible map are not Tab stops (focus vanished off
+        // screen for 30-70 presses); re-evaluated whenever the view settles.
+        function syncLabelTabs() {
+            const mr = document.getElementById('map').getBoundingClientRect();
+            document.querySelectorAll('#map .lang-label[role="button"]').forEach((l) => {
+                const r = l.getBoundingClientRect();
+                const inside = r.width && r.right > mr.left && r.left < mr.right && r.bottom > mr.top && r.top < mr.bottom;
+                const want = inside ? 0 : -1;
+                if (l.tabIndex !== want && l !== document.activeElement) l.tabIndex = want;
+            });
+        }
+        let _labTabT = null;
+        map.on('moveend zoomend layeradd', () => { clearTimeout(_labTabT); _labTabT = setTimeout(syncLabelTabs, 120); });
         map.on('moveend', () => {
             updateHash();
             scheduleConnectorUpdate();
@@ -11051,6 +11065,12 @@
                 return;
             }
             showLangInfo(code);
+            // Opened from the keyboard: take focus to the panel (it sat 50-130
+            // Tab stops away, behind every other label). Escape brings it back.
+            if (ev && ev.type === 'keydown') {
+                const ic = document.getElementById('info-close');
+                if (ic && ic.getClientRects().length) setTimeout(() => ic.focus(), 0);
+            }
         }
         function isInCompare(code) { return _compareList.indexOf(code) !== -1; }
         // Toggle the `in-compare` marker class on every label already in the
@@ -12835,8 +12855,8 @@
                 const chEl = el('div', 'text-align:center;font-size:52px;line-height:1.15;margin:0 0 6px;font-family:\'Noto Serif JP\',\'Noto Serif SC\',\'Noto Serif TC\',serif', q.ch);
                 chEl.className = 'hq-char'; mid.appendChild(chEl);
                 const prompt = q.fmt === 1
-                    ? pk(Q.q1).replace('{lang}', `<b style="color:#222">${nameOf(q.target)}</b>`)
-                    : pk(Q.q2).replace('{reading}', `<b style="color:#222">${q.reading}</b>`);
+                    ? pk(Q.q1).replace('{lang}', `<b dir="auto" style="color:#222">${nameOf(q.target)}</b>`)
+                    : pk(Q.q2).replace('{reading}', `<b dir="ltr" style="color:#222">${q.reading}</b>`);
                 const pEl = el('div', 'text-align:center;color:#556;font-size:17px;margin-bottom:14px;line-height:1.5', prompt);
                 pEl.className = 'hq-prompt'; mid.appendChild(pEl);
                 q.options.forEach((o, i) => {
@@ -12970,7 +12990,18 @@
             const b = btn(); if (!b || b._wired) return; b._wired = true;
             b.addEventListener('click', e => { e.stopPropagation(); toggle(); });
             document.addEventListener('click', e => { const m = menu(); if (m && m.classList.contains('open') && !m.contains(e.target) && !b.contains(e.target)) close(); });
-            document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
+            document.addEventListener('keydown', e => {
+                const m = menu(); const isOpen = m && m.classList.contains('open');
+                if (!isOpen) return;
+                if (e.key === 'Escape') {
+                    // Focus was on an item that is about to hide: back to the Play button.
+                    const had = m.contains(document.activeElement);
+                    close(); if (had) { const pb = btn(); if (pb) pb.focus(); }
+                } else if ((e.key === 'ArrowDown' || e.key === 'ArrowUp') && m.contains(document.activeElement)) {
+                    const items = [...m.querySelectorAll('.play-menu-item')], i = items.indexOf(document.activeElement);
+                    e.preventDefault(); (items[(i + (e.key === 'ArrowDown' ? 1 : -1) + items.length) % items.length] || items[0]).focus();
+                }
+            });
             localize();
             window.addEventListener('langmap:uichange', localize);
         }
@@ -13055,7 +13086,7 @@
         else start();
     })();
     </script>
-    <script src="share-button.js?v=4"></script>
+    <script src="share-button.js?v=5"></script>
     <script src="lang-picker.js?v=8"></script>
 </body>
 </html>

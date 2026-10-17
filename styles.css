@@ -1378,9 +1378,10 @@ select:focus { border-color: var(--accent); outline: none; }
         max-height: 50vh;
     }
 
-    /* Mobile: hide copy/edit buttons, show on tap below text */
-    .edit-btn, .copy-btn {
-        display: none !important;
+    /* Touch phones: copy/edit live in the tap-to-show bar below the text.
+       (Not on a narrow desktop window: there they are the keyboard's only way in.) */
+    @media (hover: none) {
+        .edit-btn, .copy-btn { display: none !important; }
     }
     .lang-row { position: relative; }
     .lang-row.show-actions .mobile-action-bar {
@@ -1632,6 +1633,7 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
     font-family: inherit;
 }
 .play-menu-item:hover, .play-menu-item:focus-visible { background: #f3f4f6; outline: none; }
+.play-menu-item:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
 
 /* UI-language selector relocated from the header to a small pill at the bottom
    of the map (header declutter). Floats above the map, below modals. */
@@ -1801,6 +1803,7 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
     font-family: inherit; font-size: 13px; color: #333;
 }
 .lang-picker-item:hover, .lang-picker-item:focus-visible { background: #f3f4f6; outline: none; }
+.lang-picker-item:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
 .lang-picker-item[aria-selected="true"] { background: var(--accent-tint, #eef2ff); font-weight: 600; }
 .lang-picker-item-code {
     flex: none; min-width: 30px;
@@ -1811,7 +1814,7 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
 /* Play ▾ menu item with an optional localized descriptor line (e.g. Langle → a
    short "what is this" so an opaque proper-noun launcher is understandable). */
 .play-menu-item-txt { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.25; }
-.play-menu-item-sub { font-size: 11px; color: #9aa1ad; font-weight: 400; margin-top: 1px; }
+.play-menu-item-sub { font-size: 11px; color: #6f737d; font-weight: 400; margin-top: 1px; }
 
 /* Quiz modals: keep scrolling but hide the scrollbar (it showed on mobile where
    the fixed-height box/middle band can overflow). */

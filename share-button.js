@@ -22,7 +22,8 @@
         var g = (window.__langmap && window.__langmap.uiLang);
         if (g) return g;
         var sel = document.getElementById('header-ui-lang');
-        return (sel && sel.value) || 'en';
+        // Tree fills the select after this runs: fall back to <html lang>.
+        return (sel && sel.value) || String(document.documentElement.lang || 'en').replace('-', '_') || 'en';
     }
     function L(m) { var u = ui(); return m[u] || m[String(u).split('_')[0]] || m.en; }
 
@@ -48,6 +49,7 @@
         var box = document.createElement('div');
         box.style.cssText = 'background:#fff;border-radius:14px;padding:20px;max-width:340px;width:100%;box-shadow:0 12px 40px rgba(0,0,0,.3)';
         box.setAttribute('role', 'dialog'); box.setAttribute('aria-modal', 'true'); box.setAttribute('aria-label', L(SHARE));
+        box.dir = /^(ar|he)/.test(ui()) ? 'rtl' : 'ltr';
         // Escape closes this sheet only, not a drawer underneath it.
         function onKey(e) {
             if (e.key !== 'Escape' || !back.isConnected) { if (!back.isConnected) document.removeEventListener('keydown', onKey, true); return; }

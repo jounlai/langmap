@@ -349,7 +349,7 @@ function seo_render_trivia_article(array $data, array $byId, string $id, string 
 
 <?php if (!empty($a['tags'])): ?>
 <p class="seo-crumbs"><?= e(seo_t($ui, 'tri_tags')) ?>:
-  <?php foreach ($a['tags'] as $tag): ?><span class="code"><?= e($tag) ?></span> <?php endforeach; ?>
+  <?php foreach ($a['tags'] as $tag): ?><span class="code" translate="no"<?= $ui !== 'en' ? ' lang="en"' : '' ?>><?= e($tag) ?></span> <?php endforeach; ?>
 </p>
 <?php endif; ?>
 

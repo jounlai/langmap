@@ -202,7 +202,7 @@
         // the nav; a language change rewrites its labels. Re-measure on both.
         if (window.ResizeObserver) new ResizeObserver(current).observe(nav);
         nav._lmCurrent = current;
-        current();
+        requestAnimationFrame(current);
     }
     function settle() {
         parseObs.disconnect();
@@ -210,7 +210,14 @@
         navScroll();
         // Pages rewrite their nav text on a language change; re-check then too.
         var navs = document.querySelectorAll('.site-header-bar .header-nav');
-        var mo = new MutationObserver(function () { run(); var nv = document.querySelector('.site-header-bar .header-nav'); if (nv && nv._lmCurrent) nv._lmCurrent(); });
+        // Re-measure in the next frame, once per burst: measuring inside the
+        // callback forced a layout during page boot (Time Map LCP +3 s at 4x CPU).
+        var pend = 0;
+        var mo = new MutationObserver(function () {
+            run();
+            if (pend) return;
+            pend = requestAnimationFrame(function () { pend = 0; var nv = document.querySelector('.site-header-bar .header-nav'); if (nv && nv._lmCurrent) nv._lmCurrent(); });
+        });
         for (var i = 0; i < navs.length; i++) mo.observe(navs[i], { childList: true, characterData: true, subtree: true });
     }
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', settle); else settle();

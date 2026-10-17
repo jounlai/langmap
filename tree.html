@@ -70,7 +70,7 @@
         gtag('config', 'G-JZ7JJBCCHG');
     }
 </script>
-<link rel="stylesheet" href="styles.css?v=151">
+<link rel="stylesheet" href="styles.css?v=152">
 <!-- Noto Serif Tibetan for native names of Tibetic languages
      (bo / xct / dz / khg / xsr / sik / lbj / bft / xkz / xct_litpr).
      Without this, Tibetan script in .node.leaf .native renders via OS
@@ -287,7 +287,7 @@
 
     /* .back-to-top styles live in styles.css (shared with index.html). */
 </style>
-    <script src="nav-short.js?v=19"></script>
+    <script src="nav-short.js?v=20"></script>
 </head>
 <body>
     <header class="site-header-bar">
@@ -582,7 +582,7 @@ generates lang_names/<ui>.js from lang_names.js. -->
     // The tree only reads structured fields (family / parentCode / speakers) +
     // the base META_I18N table — all in wordmap_meta_lite.js (~1.1 MB), so it
     // no longer pulls the 19 MB wordmap_meta.js (descriptions/sources unused).
-    _loadJS('wordmap_meta_lite.js?v=273')
+    _loadJS('wordmap_meta_lite.js?v=414')
         .then(() => loadMetaI18nForUi(uiLang))   // lite defines META_I18N before the per-UI slice fills it
         .then(init)
         .catch(() => { document.getElementById('loading').textContent = 'Failed to load language metadata.'; });
@@ -1235,7 +1235,7 @@ generates lang_names/<ui>.js from lang_names.js. -->
 })();
 </script>
     <script src="/pwa.js?v=2"></script>
-    <script src="share-button.js?v=4"></script>
+    <script src="share-button.js?v=5"></script>
     <script src="lang-picker.js?v=8"></script>
     </main>
 </body>

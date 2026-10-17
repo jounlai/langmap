@@ -40,7 +40,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=151">
+    <link rel="stylesheet" href="styles.css?v=152">
     <style>
         .changelog {
             max-width: 760px;
@@ -156,27 +156,41 @@
         <div class="entry">
             <div class="date">2026-10-17 — Keyboard and screen-reader touches ♿</div>
             <ul>
-                <li>Escape closes the menu on every page (and the display-settings panel on the Word and Han maps), and the menu button stays highlighted while the menu is open. Each of these buttons is now a single stop when you move with Tab, instead of two.</li>
-                <li>Han Map: a shared link to a reading article now waits a moment for the reader's language, so it usually opens in that language instead of English first. For readers using a language other than English or Japanese, the page also no longer downloads a 60–85 KB Word Map translation file it never used.</li>
-                <li>Home page: screen readers can tell the main content from the footer.</li>
-                <li>Language and word pages: the small map now has sharp tiles with full-size labels on high-resolution screens, the scrollbar no longer jumps as you scroll down, the gap above the collapsible region headings is back to normal, and their keyboard focus outline shows again.</li>
-                <li>Time Map: the label of the calendar you have open stays visible when the others are rearranged, and its popup stays put while you step through dates instead of blinking and pulling the map back to it.</li>
-                <li>Escape closes only the top thing on screen: a share sheet, quiz or game open over the menu closes first, and the menu stays open behind it.</li>
-                <li>More keyboard and screen-reader work: the Han Map character picker and language filter, the Word Map word picker and language search, the home page's correction editor, Name Map's list of spellings, and the era switches (arrow keys) can all be used without a mouse. Copy and save messages are now read out, and the family tree search announces how many languages match.</li>
-                <li>Language pages load noticeably lighter on phones: the 87 word cards and the Han Map character table are only laid out as you scroll to them.</li>
-                <li>Cantonese is now written 粵語 in the language menu everywhere.</li>
-                <li>Language and word pages: the coloured words in the word-order examples are a little darker so they are easier to read, and the top of each section no longer jumps as the page settles. The home page's sentence map now reserves its space properly, and English text there stays sans-serif on every system.</li>
-                <li>The language menu at the top works with the arrow keys, Home/End and typing a letter. On the Time Map, Escape closes an open calendar card. On the Han Map, one Escape now closes one window at a time.</li>
-                <li>Keyboard and screen readers, continued: the home page's "Select languages" window, Name Map's name search (arrow keys and Enter), the Language Master game and the My Languages card can all be used from the keyboard. Escape closes them, and focus goes back where it was.</li>
-                <li>Name Map reads right to left in Arabic and Hebrew. The language menu at the top names the current language for screen readers and closes when you Tab away from it.</li>
-                <li>Word Map: reading articles show in the reader's language again. For languages other than English and Japanese they had been showing in English. The Langle and quiz games now take keyboard focus when they open and give it back when they close.</li>
-                <li>Printing a language or word page now prints every row of the comparison tables and the full lists under each region heading, without the on-screen buttons.</li>
-                <li>Keyboard: the calendar list on the Time Map and the language families on the family tree can now be opened with Tab and Enter, and the Time Map's details sheet on phones closes with Escape. Screen readers no longer read each menu item's name twice.</li>
-                <li>Arabic and Hebrew: Han Map articles and the reading quiz now read right to left, and on language pages the frozen name column in comparison tables stays in place when you scroll.</li>
-                <li>Home page: the page no longer jumps down as the sentence map appears. In a narrow window the language menu and the links at the top no longer run off the right edge.</li>
-                <li>Name Map and Time Map: the Share button works again (it did nothing), and the share sheet's Facebook and LINE buttons and its Close link are easier to read. Tapping the dimmed area beside an open menu closes it.</li>
-                <li>Han Map: the Back button now leaves a reading article properly; before, Back could reopen the same article again and again.</li>
-                <li>Name Map, Time Map and family tree: on a computer the page no longer jumps down a few pixels as it finishes loading. The small links in the Word Map and Han Map credit line are easier to tap, and faint grey text on the home page and the family tree is darker.</li>
+                <li>Escape works as you would expect everywhere. It closes the menu, the display settings, the language menu at the top and an open calendar card on the Time Map. It closes only the top thing on screen: a share sheet, quiz or game opened over the menu closes first, and focus goes back to where you were. Tapping the dimmed area beside an open menu also closes it.</li>
+                <li>Much more of the site now works without a mouse:
+                    <ul>
+                        <li>Han Map: the character picker and the language filter.</li>
+                        <li>Word Map: the word picker and the language search.</li>
+                        <li>Name Map: the name search and the list of spellings.</li>
+                        <li>Time Map: the calendar list.</li>
+                        <li>Home page: the "Select languages" window and the correction editor.</li>
+                        <li>Also the family tree, the era switches, the quizzes, Langle, Language Master and the My Languages card.</li>
+                        <li>The language menu at the top works with the arrow keys, Home/End and typing a letter.</li>
+                    </ul>
+                </li>
+                <li>Screen readers:
+                    <ul>
+                        <li>Each menu button is now a single Tab stop.</li>
+                        <li>Menu items are no longer read twice.</li>
+                        <li>Copy and save messages are read out.</li>
+                        <li>The family tree search says how many languages match.</li>
+                        <li>The language menu names the current language.</li>
+                        <li>Labels are in your own language.</li>
+                    </ul>
+                </li>
+                <li>Arabic and Hebrew: the Name Map and Time Map text panels, the Han Map reading articles, the language filter and the reading quiz now read right to left. On language pages, the name column in comparison tables stays in place when you scroll.</li>
+                <li>Reading articles open in your own language again. On the Word Map they had been showing in English for most languages. On the Han Map, a shared article link now usually opens in the reader's language instead of English first, and Back now leaves an article properly instead of reopening it.</li>
+                <li>Language and word pages:
+                    <ul>
+                        <li>The top of each section no longer jumps as the page settles.</li>
+                        <li>The coloured words in the word-order examples are a little darker.</li>
+                        <li>Long words no longer push the page sideways on phones.</li>
+                        <li>Printing gives every table row and every list, without the on-screen buttons.</li>
+                    </ul>
+                </li>
+                <li>Name Map and Time Map: the Share button works again. On the Time Map, the calendar you have open keeps its label, and its popup stays put while you step through dates.</li>
+                <li>Home page: the page no longer jumps as the sentence map appears, the top bar fits narrow windows, and English text keeps the same typeface on every system.</li>
+                <li>Easier to read and tap: faint grey text across all the maps is darker, the share sheet's buttons are easier to read, and the small credit-line links on the Word and Han maps are bigger. Cantonese is now written 粵語 in the language menu everywhere.</li>
             </ul>
         </div>
 

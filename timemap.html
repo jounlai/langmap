@@ -62,7 +62,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=151">
+    <link rel="stylesheet" href="styles.css?v=152">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -334,7 +334,7 @@
         @media (min-width: 641px) { .tm-map-ctl:not(:has(> .chrome-toggle-btn))::before { content: ''; height: 40px; } }
         #tm-era { min-height: 20px; }
 </style>
-    <script src="nav-short.js?v=19"></script>
+    <script src="nav-short.js?v=20"></script>
 </head>
 <body>
     <header class="site-header-bar">
@@ -794,6 +794,8 @@
         /* ---------- UI language ---------- */
         function applyUILang(){
             document.documentElement.lang = uiLang==='yue' ? 'zh-HK' : uiLang;
+            // The side panel reads right to left in ar/he (as on Name Map).
+            { const _p=document.getElementById('tm-panel'); if(_p) _p.dir = /^(ar|he)/.test(String(uiLang||'')) ? 'rtl' : 'ltr'; }
             document.getElementById('tm-today').textContent=t('today');
             document.getElementById('tm-prev').title=t('prevDay'); document.getElementById('tm-prev').setAttribute('aria-label',t('prevDay'));
             document.getElementById('tm-next').title=t('nextDay'); document.getElementById('tm-next').setAttribute('aria-label',t('nextDay'));
@@ -920,7 +922,7 @@
     })();
     </script>
     <script src="/pwa.js?v=2"></script>
-    <script src="share-button.js?v=4"></script>
+    <script src="share-button.js?v=5"></script>
     <script src="lang-picker.js?v=8"></script>
     </main>
     <footer>

@@ -100,6 +100,8 @@
             (document.getElementById('header-ui-lang') && document.getElementById('header-ui-lang').value) || 'en';
         return String(g);
     }
+    // "Remove {lang}" for the row's delete button (it read "multiplication sign").
+    var REMOVE = {en:'Remove {lang}',ja:'{lang}を削除',ko:'{lang} 삭제',zh:'删除{lang}',yue:'刪除{lang}',vi:'Xóa {lang}',th:'ลบ{lang}',id:'Hapus {lang}',hi:'{lang} हटाएँ',de:'{lang} entfernen',fr:'Retirer {lang}',it:'Rimuovi {lang}',es:'Quitar {lang}',pt:'Remover {lang}',ru:'Удалить: {lang}',uk:'Видалити: {lang}',ar:'إزالة {lang}',he:'הסרת {lang}',sw:'Ondoa {lang}'};
     function T(k, vars) {
         var u = ui(), base = u.split('_')[0];
         var d = STR[u] || STR[base] || STR.en;
@@ -592,7 +594,7 @@
                 sel.appendChild(o);
             });
             sel.addEventListener('change', function () { item.level = sel.value; dot.style.color = dot.style.background = levelColor(item.level); syncHash(); });
-            var del = el('button', 'mylang-del'); del.innerHTML = '×'; del.setAttribute('aria-label', '× ' + localName(item.code)); del.title = localName(item.code);
+            var del = el('button', 'mylang-del'); del.innerHTML = '×'; var _rm = REMOVE[ui()] || REMOVE[ui().split('_')[0]] || REMOVE.en; del.setAttribute('aria-label', _rm.replace('{lang}', localName(item.code))); del.title = del.getAttribute('aria-label');
             del.style.color = mainCol;
             del.addEventListener('click', function () {
                 state.langs.splice(idx, 1); renderList(); renderStats(); renderActions(); plotIfActive(); syncHash();
@@ -1203,7 +1205,7 @@
         try { if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); } catch (e) {}
     }
     var returnTo = null;
-    function open() { returnTo = document.activeElement; if (!overlay) buildPanel(); else renderBuilder(); overlay.classList.add('open'); markGame(true); setTimeout(function () { if (nameInput) addInput.focus(); }, 30); }
+    function open() { returnTo = document.activeElement; if (!overlay) buildPanel(); else renderBuilder(); { var _pn = overlay.querySelector('.mylang-panel'); if (_pn) _pn.dir = /^(ar|he)/.test(ui()) ? 'rtl' : 'ltr'; } overlay.classList.add('open'); markGame(true); setTimeout(function () { if (nameInput) addInput.focus(); }, 30); }
     function close() {
         var was = overlay && overlay.classList.contains('open');
         if (overlay) overlay.classList.remove('open'); markGame(false);

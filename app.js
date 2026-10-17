@@ -32,6 +32,30 @@ function _normalizeUiLang(code) {
     return code;
 }
 
+// Correction-editor and map labels for screen readers, in every UI language.
+const EDIT_STR = {
+    addSegment:   {en:'Add segment',ja:'セグメントを追加',ko:'구간 추가',zh:'添加片段',yue:'加入片段',vi:'Thêm đoạn',th:'เพิ่มส่วน',id:'Tambah segmen',hi:'खंड जोड़ें',de:'Segment hinzufügen',fr:'Ajouter un segment',it:'Aggiungi segmento',es:'Añadir segmento',pt:'Adicionar segmento',ru:'Добавить сегмент',uk:'Додати сегмент',ar:'إضافة مقطع',he:'הוספת מקטע',sw:'Ongeza sehemu'},
+    deleteSegment:{en:'Delete',ja:'削除',ko:'삭제',zh:'删除',yue:'刪除',vi:'Xóa',th:'ลบ',id:'Hapus',hi:'हटाएँ',de:'Löschen',fr:'Supprimer',it:'Elimina',es:'Eliminar',pt:'Excluir',ru:'Удалить',uk:'Видалити',ar:'حذف',he:'מחיקה',sw:'Futa'},
+    changeSegType:{en:'Change segment type',ja:'セグメントの種類を変更',ko:'구간 종류 변경',zh:'更改片段类型',yue:'更改片段類型',vi:'Đổi loại đoạn',th:'เปลี่ยนชนิดส่วน',id:'Ubah jenis segmen',hi:'खंड का प्रकार बदलें',de:'Segmenttyp ändern',fr:'Changer le type de segment',it:'Cambia tipo di segmento',es:'Cambiar tipo de segmento',pt:'Alterar tipo de segmento',ru:'Изменить тип сегмента',uk:'Змінити тип сегмента',ar:'تغيير نوع المقطع',he:'שינוי סוג מקטע',sw:'Badilisha aina ya sehemu'},
+    moveEarlier:  {en:'Move earlier',ja:'前へ移動',ko:'앞으로 이동',zh:'前移',yue:'向前移',vi:'Chuyển lên trước',th:'ย้ายไปก่อน',id:'Pindah ke depan',hi:'पहले ले जाएँ',de:'Nach vorn',fr:'Déplacer avant',it:'Sposta prima',es:'Mover antes',pt:'Mover para antes',ru:'Переместить раньше',uk:'Перемістити раніше',ar:'نقل إلى الأمام',he:'הזזה מוקדם יותר',sw:'Sogeza mbele'},
+    moveLater:    {en:'Move later',ja:'後ろへ移動',ko:'뒤로 이동',zh:'后移',yue:'向後移',vi:'Chuyển ra sau',th:'ย้ายไปหลัง',id:'Pindah ke belakang',hi:'बाद में ले जाएँ',de:'Nach hinten',fr:'Déplacer après',it:'Sposta dopo',es:'Mover después',pt:'Mover para depois',ru:'Переместить позже',uk:'Перемістити пізніше',ar:'نقل إلى الخلف',he:'הזזה מאוחר יותר',sw:'Sogeza nyuma'},
+    sentenceMap:  {en:'Sentence map',ja:'語順マップ',ko:'어순 맵',zh:'语序图',yue:'語序圖',vi:'Bản đồ trật tự từ',th:'แผนที่ลำดับคำ',id:'Peta urutan kata',hi:'शब्द क्रम मानचित्र',de:'Satzkarte',fr:'Carte de l’ordre des mots',it:'Mappa dell’ordine delle parole',es:'Mapa del orden de palabras',pt:'Mapa da ordem das palavras',ru:'Карта порядка слов',uk:'Карта порядку слів',ar:'خريطة ترتيب الكلمات',he:'מפת סדר מילים',sw:'Ramani ya mpangilio wa maneno'},
+};
+function edT(key) { const m = EDIT_STR[key] || {}; return m[currentUILang] || m[String(currentUILang || '').split('_')[0]] || m.en || key; }
+
+// Word-order role colours are 2-4:1 as text on white: darken (same hue) to
+// 4.5:1 for the words themselves; lines and underlines keep the raw colour.
+// Same rule as seo_text_color() in seo/lib.php.
+const _aaMemo = {};
+function aaText(hex) {
+    if (_aaMemo[hex]) return _aaMemo[hex];
+    const m = /^#?([0-9a-f]{6})$/i.exec(hex || ''); if (!m) return hex;
+    let c = [0, 2, 4].map((i) => parseInt(m[1].slice(i, i + 2), 16));
+    const lum = (v) => { const l = v.map((x) => { x /= 255; return x <= 0.03928 ? x / 12.92 : Math.pow((x + 0.055) / 1.055, 2.4); }); return 0.2126 * l[0] + 0.7152 * l[1] + 0.0722 * l[2]; };
+    for (let i = 0; i < 40 && (1.05 / (lum(c) + 0.05)) < 4.6; i++) c = c.map((x) => Math.floor(x * 0.93));
+    return (_aaMemo[hex] = '#' + c.map((x) => x.toString(16).padStart(2, '0')).join(''));
+}
+
 function t(key) {
     return (UI_STRINGS[currentUILang] || UI_STRINGS.en)[key] || UI_STRINGS.en[key] || UI_STRINGS.ja[key] || key;
 }
@@ -722,6 +746,7 @@ function applyUILang() {
     const uilLbl ={ja:'UI 言語',ko:'UI 언어',zh:'界面语言',yue:'介面語言',vi:'Ngôn ngữ giao diện',th:'ภาษาส่วนติดต่อ',id:'Bahasa antarmuka',hi:'UI भाषा',en:'UI language',de:'UI-Sprache',fr:'Langue de l\'interface',it:'Lingua dell\'interfaccia',es:'Idioma de interfaz',pt:'Idioma da interface',ru:'Язык интерфейса',uk:'Мова інтерфейсу',ar:'لغة الواجهة',he:'שפת ממשק',sw:'Lugha ya kiolesura'};
     const L = m => m[currentUILang] || m.en;
     const setA = (sel, attr, val) => { const el = document.querySelector(sel); if (el && val) el.setAttribute(attr, val); };
+    setA('.map-wrapper', 'aria-label', edT('sentenceMap'));
     const woText = woLabels[currentUILang] || woLabels.en;
     setA('.logo-badge-order', 'aria-label', woText);
     setA('.logo-badge-order', 'title', woText);
@@ -1388,7 +1413,7 @@ function render() {
                     seg.style.color = 'transparent';
                 }
             } else {
-                seg.style.color = segColor;
+                seg.style.color = aaText(segColor);
             }
             seg.dataset.rawText = text;
             const applyCompoundGradient = (hieroSpan) => {
@@ -2265,7 +2290,7 @@ function enterEditMode(row, langCode) {
     addBtn.type = 'button';
     addBtn.textContent = '+';
     // t() returns the key itself when a string is missing.
-    addBtn.title = (t('addSegment') !== 'addSegment' && t('addSegment')) || 'Add segment';
+    addBtn.title = edT('addSegment');
     addBtn.setAttribute('aria-label', addBtn.title);
     addBtn.addEventListener('click', (e) => {
         e.stopPropagation();
@@ -2351,7 +2376,7 @@ function createSegmentWrapper(seg, langCode) {
     deleteBtn.type = 'button';
     deleteBtn.className = 'seg-delete-btn';
     deleteBtn.textContent = '\u00d7';
-    deleteBtn.title = (t('deleteSegment') !== 'deleteSegment' && t('deleteSegment')) || 'Delete';
+    deleteBtn.title = edT('deleteSegment');
     deleteBtn.setAttribute('aria-label', deleteBtn.title + ' ' + (seg.dataset.seg || ''));
     deleteBtn.addEventListener('click', (e) => {
         e.stopPropagation();
@@ -2368,8 +2393,8 @@ function createSegmentWrapper(seg, langCode) {
     badge.type = 'button';
     badge.className = 'seg-id-badge';
     badge.textContent = seg.dataset.seg;
-    badge.title = 'Change segment type';
-    badge.setAttribute('aria-label', 'Change segment type: ' + (seg.dataset.seg || ''));
+    badge.title = edT('changeSegType');
+    badge.setAttribute('aria-label', edT('changeSegType') + ': ' + (seg.dataset.seg || ''));
     if (isCompound) {
         const colors = segSubIds.map(id => sentence.segments[id]?.color || '#666');
         badge.style.background = `linear-gradient(90deg, ${colors.join(', ')})`;
@@ -2388,7 +2413,7 @@ function createSegmentWrapper(seg, langCode) {
     moveLeft.type = 'button';
     moveLeft.className = 'seg-move-btn';
     moveLeft.textContent = '◀';
-    moveLeft.setAttribute('aria-label', 'Move left');
+    moveLeft.setAttribute('aria-label', edT('moveEarlier'));
     moveLeft.addEventListener('click', (e) => {
         e.stopPropagation();
         const prev = wrapper.previousElementSibling;
@@ -2401,7 +2426,7 @@ function createSegmentWrapper(seg, langCode) {
     moveRight.type = 'button';
     moveRight.className = 'seg-move-btn';
     moveRight.textContent = '▶';
-    moveRight.setAttribute('aria-label', 'Move right');
+    moveRight.setAttribute('aria-label', edT('moveLater'));
     moveRight.addEventListener('click', (e) => {
         e.stopPropagation();
         const next = wrapper.nextElementSibling;
@@ -2654,7 +2679,7 @@ function addNewSegment(textDiv, langCode, segId, sentence) {
         seg.style.backgroundClip = 'text';
         seg.style.color = 'transparent';
     } else {
-        seg.style.color = sentence.segments[segId]?.color || '#666';
+        seg.style.color = aaText(sentence.segments[segId]?.color || '#666');
     }
     seg.textContent = '';
     seg.offsetWidth = 0; // will default to min-width
@@ -2747,10 +2772,10 @@ function applySegChange(badge, input, newSegId, sentence) {
     input.dataset.seg = newSegId;
     badge.textContent = newSegId;
     // Keep the accessible names in step with the new segment id.
-    badge.setAttribute('aria-label', 'Change segment type: ' + newSegId);
+    badge.setAttribute('aria-label', edT('changeSegType') + ': ' + newSegId);
     const _w = input.closest('.segment-input-wrapper');
     const _del = _w && _w.querySelector('.seg-delete-btn');
-    if (_del) _del.setAttribute('aria-label', (_del.title || 'Delete') + ' ' + newSegId);
+    if (_del) _del.setAttribute('aria-label', edT('deleteSegment') + ' ' + newSegId);
     input.setAttribute('aria-label', langName(input.dataset.lang || '') + ' ' + newSegId);
     const subIds = newSegId.split('|');
     if (subIds.length > 1) {

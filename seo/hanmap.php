@@ -118,7 +118,7 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
     if ($chips): ?>
 <div class="seo-meta">
   <?php foreach ($chips as $k => $v): ?>
-    <span class="chip"><b><?= e($k) ?></b> <?= e($v) ?></span>
+    <span class="chip"><b><?= e($k) ?></b> <?php if ($ui !== 'en' && $k === seo_t($ui, 'romanization')): ?><span lang="en"><?= e($v) ?></span><?php else: ?><?= e($v) ?><?php endif; ?></span>
   <?php endforeach; ?>
 </div>
 <?php endif; ?>

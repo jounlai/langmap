@@ -60,6 +60,9 @@ const FILES = [
     'lang-filter.js',
     'my-languages.js',
     'hanmap_trivia_rt/base.js',  // ~535 KB; q11 saves ~24 KB over nginx's q5
+    'countries.geojson',         // 1.95 MB, every map page; q11 saves ~219 KB
+    'data.js',                   // index; q11 saves ~110 KB
+    'hanmap_data.js',            // parser-blocking on Han Map; q11 saves ~82 KB
 ];
 
 const QUALITY = 11;

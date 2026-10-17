@@ -1,7 +1,7 @@
 {
   "app.js": {
-    "version": 90,
-    "hash": "2d2ebd7fe2310195"
+    "version": 91,
+    "hash": "b44401504fd7adcb"
   },
   "data.js": {
     "version": 92,
@@ -36,8 +36,8 @@
     "hash": "eea4c9a6d735f800"
   },
   "my-languages.js": {
-    "version": 31,
-    "hash": "7579af3b82520eb4"
+    "version": 32,
+    "hash": "ec653c4d5210fa55"
   },
   "namemap_data.js": {
     "version": 9,
@@ -56,8 +56,8 @@
     "hash": "13754e5759677c52"
   },
   "nav-short.js": {
-    "version": 19,
-    "hash": "632bf89fdb58e1fe"
+    "version": 20,
+    "hash": "8669d01d629ff628"
   },
   "poster_geo.js": {
     "version": 12,
@@ -80,12 +80,12 @@
     "hash": "ceda6c52e92f0f39"
   },
   "share-button.js": {
-    "version": 4,
-    "hash": "c72954f3fef6fcce"
+    "version": 5,
+    "hash": "a8212694df6a93fa"
   },
   "styles.css": {
-    "version": 151,
-    "hash": "570fcc07747894bf"
+    "version": 152,
+    "hash": "545a75a6b3200ae8"
   },
   "timemap_calendars.js": {
     "version": 15,

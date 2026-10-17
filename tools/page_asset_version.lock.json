@@ -1,23 +1,23 @@
 {
   "app.js": {
-    "version": 94,
-    "hash": "592e8906ea40ea87"
+    "version": 95,
+    "hash": "d5f4995748d33925"
   },
   "data.js": {
     "version": 92,
     "hash": "af605212ac66624c"
   },
   "hanmap_data.js": {
-    "version": 189,
-    "hash": "4edd0f1d2e1a24ce"
+    "version": 190,
+    "hash": "72192b8804294d3b"
   },
   "hanmap_trivia_rt/base.js": {
     "version": 2,
     "hash": "aa03d6c05a4b3504"
   },
   "lang-filter.js": {
-    "version": 51,
-    "hash": "301bddd01e98510f"
+    "version": 52,
+    "hash": "75237b754594d9d2"
   },
   "lang-picker.js": {
     "version": 8,
@@ -32,8 +32,8 @@
     "hash": "f432bf4317c25936"
   },
   "master.js": {
-    "version": 19,
-    "hash": "29888fe0907c93f5"
+    "version": 20,
+    "hash": "40b21b013ca7082d"
   },
   "my-languages.js": {
     "version": 33,
@@ -84,8 +84,8 @@
     "hash": "a8212694df6a93fa"
   },
   "styles.css": {
-    "version": 154,
-    "hash": "ced024ae6b61783b"
+    "version": 155,
+    "hash": "8294261b229d340b"
   },
   "timemap_calendars.js": {
     "version": 15,

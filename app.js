@@ -1045,6 +1045,10 @@ function openLangModal() {
         header.style.cursor = 'pointer';
         // Keyboard: the group label toggles its whole group, like a click.
         header.setAttribute('role', 'button'); header.tabIndex = 0;
+        // Its name was just the group name, the same as the first checkbox: say what it does.
+        header.id = 'lmg-' + groupCode;
+        groupDiv.setAttribute('role', 'group'); groupDiv.setAttribute('aria-labelledby', header.id);
+        header.setAttribute('aria-label', groupLabel(groupCode) + ' — ' + (typeof t === 'function' && t('allOn') !== 'allOn' ? t('allOn') + '/' + t('allOff') : 'all'));
         // aria-pressed: all / some / none of the group selected.
         const syncPressed = () => {
             const on = selectableLangs.filter(l => modalPendingLangs && modalPendingLangs.has(l.code)).length;
@@ -2398,6 +2402,7 @@ function createSegmentWrapper(seg, langCode) {
     badge.textContent = seg.dataset.seg;
     badge.title = edT('changeSegType');
     badge.setAttribute('aria-label', edT('changeSegType') + ': ' + (seg.dataset.seg || ''));
+    badge.setAttribute('aria-haspopup', 'menu'); badge.setAttribute('aria-expanded', 'false');
     if (isCompound) {
         const colors = segSubIds.map(id => sentence.segments[id]?.color || '#666');
         badge.style.background = `linear-gradient(90deg, ${colors.join(', ')})`;
@@ -2989,8 +2994,19 @@ function menuKeyboard(menu, opener) {
             else if (e.key === 'ArrowUp') { e.preventDefault(); (items[i - 1] || items[items.length - 1]).focus(); }
         });
     });
+    // The current choice (change-type menu) is a checked radio item and takes focus first.
+    const cur = items.find((it) => it.classList.contains('active'));
+    if (cur) items.forEach((it) => { it.setAttribute('role', 'menuitemradio'); it.setAttribute('aria-checked', it === cur ? 'true' : 'false'); });
+    // Fixed-position menus live on <body>, outside the aria-modal row dialog: own them from it.
+    const dlg = opener && opener.closest && opener.closest('[aria-modal="true"]');
+    if (dlg && !dlg.contains(menu)) { menu.id = menu.id || 'seg-menu-' + Date.now(); dlg.setAttribute('aria-owns', menu.id); }
+    if (opener) {
+        opener.setAttribute('aria-haspopup', 'menu'); opener.setAttribute('aria-expanded', 'true');
+        new MutationObserver((_, ob) => { if (!menu.isConnected) { opener.setAttribute('aria-expanded', 'false'); if (dlg) dlg.removeAttribute('aria-owns'); ob.disconnect(); } }).observe(menu.parentNode || document.body, { childList: true });
+    }
     menu._opener = opener;
-    if (items[0]) setTimeout(() => items[0].focus(), 0);
+    const first = cur || items[0];
+    if (first) setTimeout(() => first.focus(), 0);
 }
 
 // Keyboard shortcuts

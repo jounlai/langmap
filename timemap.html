@@ -62,7 +62,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=154">
+    <link rel="stylesheet" href="styles.css?v=155">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -906,7 +906,7 @@
             });
             map.on('moveend', ()=>{ clearTimeout(boot._mh); boot._mh=setTimeout(updateHash, 250); });
             // Markers off the visible map are not Tab stops (focus vanished off screen).
-            { let _mt=null; const syncMk=()=>{ const mr=map.getContainer().getBoundingClientRect(); let ml=mr.left; { const pn=document.getElementById('tm-panel'), pr=pn&&pn.getClientRects().length&&pn.getBoundingClientRect(); if(pr && pr.left<=mr.left+2 && pr.right<mr.left+mr.width/2) ml=Math.max(ml,pr.right); } document.querySelectorAll('#map .leaflet-marker-icon[tabindex]').forEach(el=>{ let r=el.getBoundingClientRect(); if((!r.width||!r.height) && el.firstElementChild) r=el.firstElementChild.getBoundingClientRect(); const cx=r.left+r.width/2, cy=r.top+r.height/2; const want=(cx>ml&&cx<mr.right&&cy>mr.top&&cy<mr.bottom)?0:-1; if(el.tabIndex!==want && el!==document.activeElement) el.tabIndex=want; }); }; map.on('moveend zoomend layeradd', ()=>{ clearTimeout(_mt); _mt=setTimeout(syncMk,120); }); }
+            { let _mt=null; const syncMk=()=>{ const mr=map.getContainer().getBoundingClientRect(); let ml=mr.left; { const pn=document.getElementById('tm-panel'), pr=pn&&pn.getClientRects().length&&pn.getBoundingClientRect(); if(pr && pr.left<=mr.left+40 && pr.right<mr.left+mr.width/2) ml=Math.max(ml,pr.right); } document.querySelectorAll('#map .leaflet-marker-icon[tabindex]').forEach(el=>{ let r=el.getBoundingClientRect(); if((!r.width||!r.height) && el.firstElementChild) r=el.firstElementChild.getBoundingClientRect(); const cx=r.left+r.width/2, cy=r.top+r.height/2; const want=(cx>ml&&cx<mr.right&&cy>mr.top&&cy<mr.bottom)?0:-1; if(el.tabIndex!==want && el!==document.activeElement) el.tabIndex=want; }); }; map.on('moveend zoomend layeradd', ()=>{ clearTimeout(_mt); _mt=setTimeout(syncMk,120); }); }
             window.addEventListener('hashchange', ()=>{
                 const o=readState();
                 if(o.l && HAS[o.l] && o.l!==uiLang){ document.getElementById('header-ui-lang').value=o.l; setLang(o.l); }

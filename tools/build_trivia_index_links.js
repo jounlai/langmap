@@ -66,11 +66,11 @@ function block(articles, label) {
     // Japanese chrome, but keep the English title in the title attribute so the
     // link still describes itself to an English-reading crawler.
     return `<li><a href="/en/trivia/${encodeURIComponent(a.id)}"`
-      + (en ? ` title="${esc(en)}"` : '') + `>${esc((a.icon ? a.icon + ' ' : '') + t)}</a></li>`;
+      + (en ? ` title="${esc(en)}"` : '') + `>${a.icon ? '<span aria-hidden="true">' + esc(a.icon) + '</span> ' : ''}${esc(t)}</a></li>`;
   });
   return [
     START,
-    `<details class="trivia-index-seo">`,
+    `<details class="trivia-index-seo" lang="ja">`,
     `<summary>${esc(label)} (${articles.length})</summary>`,
     `<ul>`,
     ...items,

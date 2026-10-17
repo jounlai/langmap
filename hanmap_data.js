@@ -24441,7 +24441,7 @@ const HAN_LANG_META = {
       "西安方言詞典"
     ],
     "romanization": {
-      "name": "Pinyin-style spelling of the Xi'an syllable (pf for the labiodental affricate, v for v-) with superscript tone value; IPA follows MCPDict, with Wiktionary (Module:cmn-pron-Xian) where the row follows it",
+      "name": "Pinyin-style spelling of the Xi'an syllable (pf for the labiodental affricate, v for v-) with superscript tone value; IPA follows MCPDict, with Wiktionary (Module:cmn-pron-Xian) for the forms taken from it",
       "authority": "convention",
       "year": null
     },

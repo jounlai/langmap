@@ -2984,15 +2984,26 @@ function seo_meta_value(string $ui, string $value): string
 function seo_meta_value_lang(string $ui, string $value): string
 {
     if ($value === '' || !preg_match('/\p{L}/u', $value)) return '';
-    $src = preg_match('/[\x{3041}-\x{3096}\x{30A1}-\x{30FA}]|[万億]人|^約/u', $value) ? 'ja' : 'en';
+    // Stored values are Japanese or English; Japanese with no kana (歴史言語 / 推定不可, Han Map regions) is Han with no Latin.
+    $ja = '/[\x{3041}-\x{3096}\x{30A1}-\x{30FA}]|[万億]人|^約/u';
+    $src = (preg_match($ja, $value) || (preg_match('/\p{Han}/u', $value) && !preg_match('/\p{Latin}/u', $value))) ? 'ja' : 'en';
     if ($ui === $src) return '';
-    if ($ui !== 'en' && isset(seo_data('meta_i18n')['fields'][$value][$ui])) return '';
-    return $src;
+    $shown = seo_meta_value($ui, $value);
+    if ($shown === $value) return $src;
+    if ($ui === 'ja') return '';
+    // Some stored "translations" are the Japanese copied over (ko 歴史言語 / 推定不可) or
+    // half-translated (ar 約4400万人 (هاكا全体)): tag what is still Japanese.
+    $jaShown = preg_match($ja, $shown) && !in_array($ui, ['zh', 'yue'], true) || preg_match('/[\x{3041}-\x{3096}\x{30A1}-\x{30FA}]/u', $shown);
+    if (!$jaShown && !in_array($ui, ['zh', 'yue'], true) && preg_match('/\p{Han}/u', $shown)) $jaShown = true;
+    if (!$jaShown) return '';
+    // Only CJK letters (plus digits/punctuation): the whole value is Japanese; mixed: tag the runs.
+    return preg_match('/[^\p{Han}\p{Hiragana}\p{Katakana}\P{L}]/u', $shown) ? 'ja-runs' : 'ja';
 }
 /** Chip value markup: an untranslated value is isolated and tagged; CJK runs inside English keep their own lang. */
 function seo_chip_value(string $text, string $lang): string
 {
     if ($lang === '') return e($text);
+    if ($lang === 'ja-runs') return (string) preg_replace('/[\p{Han}\p{Hiragana}\p{Katakana}\x{30FC}][\p{Han}\p{Hiragana}\p{Katakana}\x{30FC}0-9,.~+\/\x{3000}-\x{303F}]*/u', '<span lang="ja">$0</span>', e($text));
     return '<bdi lang="' . $lang . '">' . ($lang === 'en' ? seo_cjk_lang_runs(e($text)) : e($text)) . '</bdi>';
 }
 

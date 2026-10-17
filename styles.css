@@ -73,6 +73,17 @@ select:focus-visible { outline: 2px solid var(--accent, #2e6fb8); outline-offset
 .segment-input:focus-visible { box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--accent, #2e6fb8); }
 .tea-legend-row[data-route]:focus-visible { outline: 2px solid var(--accent, #2e6fb8); outline-offset: 0; }
 .trivia-btn:focus-visible { outline-color: #8a5a0e; }
+/* r18: containers and headings focused from code (tabindex=-1) get no frame;
+   arrow-key list items with tabindex=-1 keep theirs. */
+:where([role="dialog"], dialog, h1, h2, h3)[tabindex="-1"]:focus-visible { outline: none; }
+/* A focused map label rises above its neighbours (Leaflet sets inline z-index on the icon). */
+.leaflet-marker-icon:has(> :focus-visible) { z-index: 100000 !important; }
+/* Full-bleed map: Leaflet's outline-offset:1px put the ring off-screen; paint it inside, over the tiles. */
+.leaflet-container:focus-visible { outline-offset: -2px; }
+.leaflet-container:focus-visible::after { content: ""; position: absolute; inset: 0; z-index: 1000; pointer-events: none; box-shadow: inset 0 0 0 2px var(--accent, #2e6fb8), inset 0 0 0 4px #fff; }
+.url-watermark a:focus-visible, #era-switch #era-help:focus-visible { outline-offset: -2px; }
+html { scroll-padding-block: 8px; }
+#langModalBody, .lang-text { scroll-padding: 6px 8px; }
 
 
 body {

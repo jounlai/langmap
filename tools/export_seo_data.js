@@ -312,6 +312,7 @@ function buildWordMapJSON(nameIndex) {
 // It goes in its own file, not into wordmap_seo.json, because only the
 // language-detail page needs it and that blob is already ~23 MB.
 // ---------------------------------------------------------------------------
+const CJK_WORD_SALAD = /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}] +(?:[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}]|\d)/u;
 const META_I18N_FIELDS = ['family', 'speakers', 'countries', 'official', 'script', 'region'];
 
 function buildMetaI18n(LANG_DATA, hanLangs) {
@@ -351,6 +352,10 @@ function buildMetaI18n(LANG_DATA, hanLangs) {
     for (const ui of UI_LANGS) {
       if (ui === 'en') continue;
       const t = translate(en, ui);
+      // Word-by-word atom fallback leaves spaces between CJK words
+      // (本土 南東 アジア, 公用 以来 2006): worse than the English, which the
+      // page tags lang="en" (rally r18).
+      if (/^(ja|zh|yue)/.test(ui) && CJK_WORD_SALAD.test(t || '')) continue;
       if (t && t !== en) row[ui] = t;
     }
     if (Object.keys(row).length) { fields[en] = row; translated++; }
@@ -541,6 +546,23 @@ function main() {
   wm.wordorder = wordorder;
   hm.wordorder = wordorder;
   const metaI18n = buildMetaI18n(loadWordMap().LANG_DATA, hm.langs);
+
+  // Review-process notes must never reach a published page ("via round 60",
+  // "the r62 fixes", "byte for byte" — rally r18 found 38 pages carrying them).
+  // \bround so "around 1,000" does not match.
+  {
+    const JARGON = /(?<![\p{L}\p{M}])round[ -]\d|(?<![\p{L}\p{M}\d])r\d\d(?![\p{L}\p{M}\d.-])|this round|byte for byte|the row follows|not consulted/iu;
+    const hits = [];
+    const walk = (v, at) => {
+      if (typeof v === 'string') { if (JARGON.test(v)) hits.push(at + ': ' + v.match(new RegExp('.{0,40}(?:' + JARGON.source + ').{0,40}', 'iu'))[0]); }
+      else if (v && typeof v === 'object') for (const k of Object.keys(v)) walk(v[k], at + '.' + k);
+    };
+    walk(wm.langs, 'wordmap'); walk(hm.langs, 'hanmap'); walk(metaI18n.fields, 'meta_i18n');
+    if (hits.length) {
+      console.error('Review jargon in published SEO strings (' + hits.length + '):\n  ' + hits.slice(0, 20).join('\n  '));
+      process.exit(1);
+    }
+  }
 
   let stale = 0;
   stale += emit('wordmap_seo.json', wm);

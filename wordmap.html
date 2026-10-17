@@ -87,7 +87,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=154">
+    <link rel="stylesheet" href="styles.css?v=155">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts. Without these the characters render
          as tofu boxes: desktop Linux often ships the Noto historic fonts, but
@@ -3743,12 +3743,12 @@
            per-word loader can read it", which was the intent all along — only
            the order was wrong. */
         const WM_ASSET_VERSION = {
-            styles:   154,
+            styles:   155,
             data:      343,
             metaI18n:  16,
-            filter:    51,
+            filter:    52,
             names:   203,
-            meta:     416,
+            meta:     417,
             trivia:   44,
             triviaI18n: 27,
             words:      960,
@@ -3888,7 +3888,7 @@
          loaded. Loading them eagerly meant half a megabyte on every visit for
          data that only matters once a language modal opens. They now load
          inside loadMeta(). See __wmLoadMetaI18n() below. -->
-    <script src="lang-filter.js?v=51"></script>
+    <script src="lang-filter.js?v=52"></script>
     <!-- Translated language names: 1,154 codes × 19 UI languages is ~215 KB
          gzipped, and a reader uses one of them plus English as the fallback.
          Load the shim, then English, then whichever UI language this visitor
@@ -4926,14 +4926,18 @@
             // On mobile the UI-lang select lives inside the hamburger drawer.
             // After a pick the drawer should collapse so the user sees the
             // map in their new UI language without an extra tap to dismiss.
+            // Not for arrow keys on a closed native select: each press fires change,
+            // so collapsing there left keyboard users stuck one language on (r18).
             const _hdrToggle = document.getElementById('hdr-menu-toggle');
-            if (_hdrToggle && _hdrToggle.checked
+            const _byKey = Date.now() - (window.__uiSelKeyAt || 0) < 600;
+            if (_hdrToggle && _hdrToggle.checked && !_byKey
                 && window.matchMedia('(max-width: 640px)').matches) {
                 _hdrToggle.checked = false;
                 _hdrToggle.dispatchEvent(new Event('change'));
             }
         });
 
+        document.addEventListener('keydown', (e) => { if (e.target && e.target.id === 'header-ui-lang') window.__uiSelKeyAt = Date.now(); }, true);
         // --- Word selector ---
         const select = document.getElementById('word-select');
 
@@ -7527,10 +7531,16 @@
             // Restore open trivia article from URL (?trivia=<id>). Deferred
             // so the trivia setup block at the end of the IIFE has run.
             const triviaId = params.get('trivia');
+            if (!triviaId) {
+                // Back from an article to the plain map: close the modal too,
+                // or its next updateHash writes trivia= back into the entry.
+                const tm = document.getElementById('trivia-modal');
+                if (tm && tm.classList.contains('visible') && typeof closeTrivia === 'function') closeTrivia();
+            }
             if (triviaId) {
                 setTimeout(() => {
                     if (typeof window.openTrivia === 'function') {
-                        window.openTrivia(triviaId);
+                        window.openTrivia(triviaId, { fromHash: true });
                     }
                 }, 150);
             }
@@ -7791,7 +7801,66 @@
                 requestAnimationFrame(updateSelectedLabel);
             }
         }
+        // Panel-cover guard (rally r18). While #lang-info or #compare-panel is
+        // open, the visible controls it paints over (zoom, 3D, settings at
+        // desktop; nearly all map chrome on a phone) are made inert so Tab
+        // cannot land on something the reader cannot see. Only covered elements
+        // are touched: the map container keeps pointer input and merely loses
+        // its own tab stop. When the set of open panels changes, the release is
+        // synchronous (the close paths restore focus on the very next line);
+        // re-applying waits a frame because updateConnectorLine also runs on
+        // every map move. `var`, not `let`: updateConnectorLine first runs
+        // during the initial updateMarkers(), before this point is reached.
+        var _PCOV_Q = 'a[href],button,input,select,textarea,summary,[tabindex]:not([tabindex="-1"])';
+        var _pcovRaf = 0, _pcovKey = '';
+        function _pcovPanels() {
+            return ['lang-info', 'compare-panel'].map((id) => document.getElementById(id)).filter((p) => p && p.classList.contains('visible'));
+        }
+        function _pcovRelease() {
+            for (const e of document.querySelectorAll('[data-pcov]')) {
+                if (e.dataset.pcov === 'inert') e.inert = false;
+                else if (e.dataset.pcov === 'none') e.removeAttribute('tabindex');
+                else e.setAttribute('tabindex', e.dataset.pcov);
+                delete e.dataset.pcov;
+            }
+        }
+        function _pcovApply() {
+            _pcovRaf = 0;
+            _pcovRelease();
+            const panels = _pcovPanels();
+            if (!panels.length) return;
+            const rects = panels.map((p) => p.getBoundingClientRect());
+            let refocus = null;
+            for (const e of document.querySelectorAll(_PCOV_Q)) {
+                const r = e.getBoundingClientRect();
+                if (!r.width) continue;
+                const cx = r.left + r.width / 2, cy = r.top + r.height / 2;
+                if (!rects.some((q) => cx >= q.left && cx <= q.right && cy >= q.top && cy <= q.bottom)) continue;
+                if (!e.checkVisibility({ visibilityProperty: true, opacityProperty: true })) continue;   // closed drawer / menu
+                const hit = document.elementFromPoint(cx, cy);
+                const over = hit && panels.find((p) => p.contains(hit));
+                if (!over || over.contains(e) || e.contains(over)) continue;   // not covered, or drawn above
+                if (e === document.activeElement) refocus = over;
+                if (e.classList.contains('leaflet-container')) {
+                    e.dataset.pcov = e.getAttribute('tabindex') ?? 'none';
+                    e.setAttribute('tabindex', '-1');
+                } else { e.dataset.pcov = 'inert'; e.inert = true; }
+            }
+            // The focused control went under a panel (a tapped label on a phone,
+            // the compare button): move focus to that panel's close button.
+            if (refocus) { const c = refocus.querySelector('#info-close') || refocus.querySelector('.compare-close') || refocus.querySelector('button'); if (c) c.focus({ preventScroll: true }); }
+        }
+        function syncPanelCover() {
+            const key = _pcovPanels().map((p) => p.id).join();
+            if (key !== _pcovKey) { _pcovKey = key; _pcovRelease(); }
+            if (!key) { cancelAnimationFrame(_pcovRaf); _pcovRaf = 0; return; }
+            if (!_pcovRaf) _pcovRaf = requestAnimationFrame(_pcovApply);
+        }
+        // Open/close paths that do not pass through updateConnectorLine (compare
+        // panel, globe click). closeComparePanel still needs its own direct call.
+        ['lang-info', 'compare-panel'].forEach((id) => { const p = document.getElementById(id); if (p) new MutationObserver(syncPanelCover).observe(p, { attributes: true, attributeFilter: ['class'] }); });
         function updateConnectorLine() {
+            syncPanelCover();
             const ip = _infoPanel();
             const svg = _connectorSvg();
             if (!ip || !svg) return;
@@ -9105,7 +9174,7 @@
                 const href = '/' + ui + '/wordmap/' + escapeHtml(code);
                 html += `<div style="margin-top:12px;padding-top:8px;border-top:1px dotted #ddd">` +
                     `<a href="${href}" style="display:inline-block;font-size:12px;color:#3f5fe0;text-decoration:none;font-weight:600">` +
-                    `📄 ${(({en:'Big-text page',ja:'デカ文字版ページ',ko:'큰 글씨 페이지',zh:'大字版页面',yue:'大字版頁面',vi:'Trang chữ lớn',th:'หน้าตัวอักษรใหญ่',id:'Halaman teks besar',hi:'बड़े अक्षरों वाला पेज',de:'Großschrift-Seite',fr:'Page en gros caractères',it:'Pagina a caratteri grandi',es:'Página en letra grande',pt:'Página em letra grande',ru:'Страница крупным шрифтом',uk:'Сторінка великим шрифтом',ar:'صفحة بخط كبير',he:'עמוד באותיות גדולות',sw:'Ukurasa wa herufi kubwa'})[ui]) || 'Big-text page'} ${/^(ar|he)/.test(String(uiLang || '')) ? '←' : '→'}</a></div>`;
+                    `<span aria-hidden="true">📄</span> ${(({en:'Big-text page',ja:'デカ文字版ページ',ko:'큰 글씨 페이지',zh:'大字版页面',yue:'大字版頁面',vi:'Trang chữ lớn',th:'หน้าตัวอักษรใหญ่',id:'Halaman teks besar',hi:'बड़े अक्षरों वाला पेज',de:'Großschrift-Seite',fr:'Page en gros caractères',it:'Pagina a caratteri grandi',es:'Página en letra grande',pt:'Página em letra grande',ru:'Страница крупным шрифтом',uk:'Сторінка великим шрифтом',ar:'صفحة بخط كبير',he:'עמוד באותיות גדולות',sw:'Ukurasa wa herufi kubwa'})[ui]) || 'Big-text page'} <span aria-hidden="true">${/^(ar|he)/.test(String(uiLang || '')) ? '←' : '→'}</span></a></div>`;
             })();
             // The second slot, with the next message in the rotation.
             html += nextTshirtNudge();
@@ -9480,7 +9549,8 @@
                     const _hadF = document.activeElement === a;
                     showLangInfo(target);
                     // The link was rebuilt away: keep keyboard focus in the panel.
-                    if (_hadF && !a.isConnected) { const ic = document.getElementById('info-close'); if (ic) ic.focus({ preventScroll: true }); }
+                    // The panel may rebuild later (words still loading): watch for focus falling to <body>.
+                    if (_hadF) { let n = 0; const chk = () => { const ae = document.activeElement; if (!a.isConnected && (!ae || ae === document.body)) { const ic = document.getElementById('info-close'); if (ic) ic.focus({ preventScroll: true }); } else if (a.isConnected && ++n < 40) setTimeout(chk, 50); }; chk(); }
                     if (typeof map !== 'undefined' && map && map.setView) {
                         const t = LANG_DATA[target];
                         map.setView([t.lat, t.lng], Math.max(map.getZoom(), 4));
@@ -9698,6 +9768,8 @@
                 if (badge) badge.textContent = String(_compareList.length);
                 const lbl = fab.querySelector('.compare-fab-label');
                 if (lbl) lbl.textContent = compareT('fab');
+                fab.setAttribute('aria-label', compareT('fab') + ' (' + _compareList.length + ')');
+                fab.setAttribute('aria-controls', 'compare-panel');
             }
         }
         function openComparePanel() {
@@ -9706,7 +9778,11 @@
             refreshCompareMarkers();
             renderCompare();
             const panel = document.getElementById('compare-panel');
+            const _fromFab = document.activeElement && document.activeElement.id === 'compare-fab';
             panel.classList.add('visible');
+            { const f = document.getElementById('compare-fab'); if (f) f.setAttribute('aria-expanded', 'true'); }
+            // Opened from the button: move focus in so the change is announced.
+            if (_fromFab) setTimeout(() => { try { panel.focus({ preventScroll: true }); } catch (_) {} }, 0);
             // Update title text per current UI lang
             const t = panel.querySelector('.compare-title'); if (t) t.textContent = compareT('title');
             const c = panel.querySelector('.compare-clear'); if (c) c.textContent = compareT('clear');
@@ -9717,6 +9793,8 @@
             const panel = document.getElementById('compare-panel');
             const had = panel && panel.contains(document.activeElement);
             if (panel) panel.classList.remove('visible');
+            { const f = document.getElementById('compare-fab'); if (f) f.setAttribute('aria-expanded', 'false'); }
+            syncPanelCover();
             // Focus was inside: back to the compare button rather than <body>.
             if (had) { const f = ['#compare-fab', '#lang-info.visible .compare-add-btn', '#info-close', '#lang-search'].map(q => document.querySelector(q)).find(x => x && x.getClientRects().length); if (f) f.focus(); }
             // Drop `cmp` from the URL now that the panel is closed.
@@ -10684,6 +10762,8 @@
             if (!modal || !backdrop) return;
             modal.classList.toggle('compact', !!on);
             backdrop.classList.toggle('transparent', !!on);
+            // Compact leaves the map usable, so the dialog stops being modal (and the Tab wrap stops).
+            modal.setAttribute('aria-modal', on ? 'false' : 'true');
         }
 
         // Close any panels that would clutter the article surface.
@@ -10702,18 +10782,21 @@
             // Remove any lingering panto label (2D marker AND 3D globe element).
             try { _clearPantoLabel(); } catch (_) {}
         }
-        function openTrivia(id) {
+        function openTrivia(id, opts) {
+            const fromHash = !!(opts && opts.fromHash);
             // Two lazy dependencies: the 25 word-data blocks (the compare table
             // inside an article uses them) and the articles themselves.
             if (!wordsReady() || !window.TRIVIA_ARTICLES) {
                 Promise.all([
                     wordsReady() ? Promise.resolve() : ensureAllWords().then(() => { _allWordsAttempted = true; }),
                     loadTrivia(),
-                ]).then(() => openTrivia(id));
+                ]).then(() => openTrivia(id, opts));
                 return;
             }
             const list = window.TRIVIA_ARTICLES || [];
             if (!list.length) return;
+            // Back/forward onto the article already showing: nothing to do.
+            { const _tm = document.getElementById('trivia-modal'); if (fromHash && _tm && _tm.classList.contains('visible') && (_tm.dataset.articleId || '') === (id || '')) return; }
             // Best-effort load of the trivia translation overlay for the
             // current uiLang before we open. If the overlay is already
             // cached this resolves synchronously on the same tick; if it
@@ -10754,7 +10837,9 @@
                 requestAnimationFrame(() => { _scrollOpen.scrollTop = 0; });
             }
             setTimeout(() => modal.focus(), 0);
-            if (typeof updateHash === 'function') updateHash({ push: true });
+            // fromHash: the URL already says this, so replace rather than push
+            // (pushing re-added the entry on every Back).
+            if (typeof updateHash === 'function') updateHash(fromHash ? undefined : { push: true });
         }
         function navigateTrivia(id) {
             const modal = document.getElementById('trivia-modal');
@@ -10792,7 +10877,7 @@
             const tm = document.getElementById('trivia-modal');
             if (!tm) return;
             tm.addEventListener('keydown', (e) => {
-                if (e.key !== 'Tab') return;
+                if (e.key !== 'Tab' || tm.classList.contains('compact')) return;
                 const f = [...tm.querySelectorAll('button, a[href], input, select, [tabindex="0"]')].filter((x) => !x.disabled && x.getClientRects().length);
                 if (!f.length) return;
                 const first = f[0], last = f[f.length - 1];
@@ -11182,41 +11267,41 @@
     </script>
     </main>
     <footer style="text-align:center;padding:16px 12px;font-size:12px;color:#666;border-top:1px solid #e6e6ef;margin-top:24px">
-        全言語インデックス: <a href="/en/wordmap/" style="color:var(--accent)">Word Map</a> · <a href="/en/word/" style="color:var(--accent)">Words</a> · <a href="/en/hanmap/" style="color:var(--accent)">Han Map</a> · <a href="/en/trivia/" style="color:var(--accent)">Trivia</a>
+        <span lang="ja">全言語インデックス:</span> <a href="/en/wordmap/" style="color:var(--accent)">Word Map</a> · <a href="/en/word/" style="color:var(--accent)">Words</a> · <a href="/en/hanmap/" style="color:var(--accent)">Han Map</a> · <a href="/en/trivia/" style="color:var(--accent)">Trivia</a>
 <!-- TRIVIA-INDEX:START -->
-<details class="trivia-index-seo">
+<details class="trivia-index-seo" lang="ja">
 <summary>読み物（言語学の記事） (30)</summary>
 <ul>
-<li><a href="/en/trivia/piraha-no-numbers" title="Pirahã — the language said to have no numbers">🌳 数を数えない言語、ピダハン語</a></li>
-<li><a href="/en/trivia/silbo-gomero" title="Silbo Gomero — a whistled Spanish that crosses canyons">🌬️ シルボ・ゴメロ — 峡谷を越える口笛のスペイン語</a></li>
-<li><a href="/en/trivia/taa-most-consonants" title="Taa (!Xóõ) — counting one of the largest consonant inventories">🔊 タア語（!Xóõ）— 世界一子音が多い言語</a></li>
-<li><a href="/en/trivia/rotokas-fewest-sounds" title="Rotokas — an eleven-phoneme sound system">🤫 ロトカス語 — 世界一音が少ないとされる言語</a></li>
-<li><a href="/en/trivia/ubykh-last-speaker" title="Ubykh — documenting a language with about 84 consonants">🕯️ ウビフ語 — 子音84個の言語が消えた日</a></li>
-<li><a href="/en/trivia/damin-secret-language" title="Damin — a ceremonial register with clicks and ingressive sounds">🔒 ダミン語 — オーストラリアの音韻常識を破った男性秘密言語</a></li>
-<li><a href="/en/trivia/khoisan-clicks" title="Click consonants — five families of sound that crossed borders">👅 吸着音 — 国境を越えた5系統の音</a></li>
-<li><a href="/en/trivia/basque-isolate" title="Basque — a language isolate of the western Pyrenees">⛰️ ヨーロッパが置き換え損ねた言語、バスク語</a></li>
-<li><a href="/en/trivia/sumerian-first-writing" title="Sumerian — among the earliest languages ever written down">𒀭 人類最古級の文字言語、シュメール語</a></li>
-<li><a href="/en/trivia/etruscan-mystery" title="Etruscan — the language we can read but can't understand">𐌀 読めるのに分からない言語、エトルリア語</a></li>
-<li><a href="/en/trivia/sentinelese-unknown" title="Sentinelese — an unrecorded language of North Sentinel Island">🏝️ 一度も録音されたことのない言語、センチネル語</a></li>
-<li><a href="/en/trivia/modern-hebrew-revival" title="Hebrew — an ancient language brought back to everyday life">✡️ 日常語として蘇った古代言語、ヘブライ語</a></li>
-<li><a href="/en/trivia/sanskrit-panini" title="Pāṇini — formal rules in an ancient Sanskrit grammar">🕉️ 計算機科学を2,400年先取りしたサンスクリット文法家、パーニニ</a></li>
-<li><a href="/en/trivia/esperanto-zamenhof" title="Esperanto — from an 1887 booklet to an international community">🟢 エスペラント──本当に話されるようになった人工言語</a></li>
-<li><a href="/en/trivia/toki-pona-minimalism" title="Toki Pona — can you say everything with 120 words?">🌱 トキポナ──120語で世界を語れるか</a></li>
-<li><a href="/en/trivia/ithkuil-complexity" title="Ithkuil — the conlang so dense its inventor cannot speak it">🧬 イスクイル──作者自身がすらすら話せない人工言語</a></li>
-<li><a href="/en/trivia/hangul-scientific-script" title="Hangul — the design principles of the Korean alphabet">🇰🇷 ハングル──王が「実験室」で設計した文字</a></li>
-<li><a href="/en/trivia/cherokee-sequoyah" title="Sequoyah and the creation of the Cherokee syllabary">✍️ シクウォイア──文字を知らぬまま文字を発明した男</a></li>
-<li><a href="/en/trivia/vai-dream-script" title="Vai — the West African script that came in a dream">💭 ヴァイ文字──夢から生まれた西アフリカの音節文字</a></li>
-<li><a href="/en/trivia/tangut-deciphered" title="Tangut — reconstructing the script of Western Xia">🈯 失われた王朝の文字、西夏文</a></li>
-<li><a href="/en/trivia/linear-a-undeciphered" title="Linear A — the script we can read but cannot understand">🏺 読めるのに分からない文字、線文字A</a></li>
-<li><a href="/en/trivia/aymara-time-reversed" title="Aymara — the language where the past is in front of you">⏳ 過去が前にある言語、アイマラ語</a></li>
-<li><a href="/en/trivia/tuyuca-evidentials" title="Tuyuca — the language in which you must reveal how you know">👁️ 「どう知ったか」を必ず明かす言語、トゥユカ語</a></li>
-<li><a href="/en/trivia/guugu-yimithirr-cardinal" title="Guugu Yimithirr — an absolute-direction spatial system">🧭 「左」も「右」も使わない言語、グーグ・イミディル語</a></li>
-<li><a href="/en/trivia/mohawk-polysynthesis" title="Mohawk — when one word is a whole sentence">🧩 一語が一文になる言語、モホーク語</a></li>
-<li><a href="/en/trivia/nuxalk-vowelless" title="Nuxalk — words with no vowels at all">🗿 母音ゼロの言語、ヌハルク語</a></li>
-<li><a href="/en/trivia/hawaiian-13-phonemes" title="Hawaiian — 13 sounds and language revitalization">🌺 13の音素とハワイ語復興運動</a></li>
-<li><a href="/en/trivia/nicaraguan-sign-language" title="Nicaraguan Sign Language — change observed across cohorts">🤟 ニカラグア手話──研究者の目の前で誕生した言語</a></li>
-<li><a href="/en/trivia/mama-papa-universals" title="Why “mama” and “papa” recur across unrelated languages">👶 なぜ世界中で母は「ママ」なのか</a></li>
-<li><a href="/en/trivia/pie-reconstruction" title="Proto-Indo-European — reconstruction through regular sound correspondences">🌳 誰も書き残さなかった言語、印欧祖語</a></li>
+<li><a href="/en/trivia/piraha-no-numbers" title="Pirahã — the language said to have no numbers"><span aria-hidden="true">🌳</span> 数を数えない言語、ピダハン語</a></li>
+<li><a href="/en/trivia/silbo-gomero" title="Silbo Gomero — a whistled Spanish that crosses canyons"><span aria-hidden="true">🌬️</span> シルボ・ゴメロ — 峡谷を越える口笛のスペイン語</a></li>
+<li><a href="/en/trivia/taa-most-consonants" title="Taa (!Xóõ) — counting one of the largest consonant inventories"><span aria-hidden="true">🔊</span> タア語（!Xóõ）— 世界一子音が多い言語</a></li>
+<li><a href="/en/trivia/rotokas-fewest-sounds" title="Rotokas — an eleven-phoneme sound system"><span aria-hidden="true">🤫</span> ロトカス語 — 世界一音が少ないとされる言語</a></li>
+<li><a href="/en/trivia/ubykh-last-speaker" title="Ubykh — documenting a language with about 84 consonants"><span aria-hidden="true">🕯️</span> ウビフ語 — 子音84個の言語が消えた日</a></li>
+<li><a href="/en/trivia/damin-secret-language" title="Damin — a ceremonial register with clicks and ingressive sounds"><span aria-hidden="true">🔒</span> ダミン語 — オーストラリアの音韻常識を破った男性秘密言語</a></li>
+<li><a href="/en/trivia/khoisan-clicks" title="Click consonants — five families of sound that crossed borders"><span aria-hidden="true">👅</span> 吸着音 — 国境を越えた5系統の音</a></li>
+<li><a href="/en/trivia/basque-isolate" title="Basque — a language isolate of the western Pyrenees"><span aria-hidden="true">⛰️</span> ヨーロッパが置き換え損ねた言語、バスク語</a></li>
+<li><a href="/en/trivia/sumerian-first-writing" title="Sumerian — among the earliest languages ever written down"><span aria-hidden="true">𒀭</span> 人類最古級の文字言語、シュメール語</a></li>
+<li><a href="/en/trivia/etruscan-mystery" title="Etruscan — the language we can read but can't understand"><span aria-hidden="true">𐌀</span> 読めるのに分からない言語、エトルリア語</a></li>
+<li><a href="/en/trivia/sentinelese-unknown" title="Sentinelese — an unrecorded language of North Sentinel Island"><span aria-hidden="true">🏝️</span> 一度も録音されたことのない言語、センチネル語</a></li>
+<li><a href="/en/trivia/modern-hebrew-revival" title="Hebrew — an ancient language brought back to everyday life"><span aria-hidden="true">✡️</span> 日常語として蘇った古代言語、ヘブライ語</a></li>
+<li><a href="/en/trivia/sanskrit-panini" title="Pāṇini — formal rules in an ancient Sanskrit grammar"><span aria-hidden="true">🕉️</span> 計算機科学を2,400年先取りしたサンスクリット文法家、パーニニ</a></li>
+<li><a href="/en/trivia/esperanto-zamenhof" title="Esperanto — from an 1887 booklet to an international community"><span aria-hidden="true">🟢</span> エスペラント──本当に話されるようになった人工言語</a></li>
+<li><a href="/en/trivia/toki-pona-minimalism" title="Toki Pona — can you say everything with 120 words?"><span aria-hidden="true">🌱</span> トキポナ──120語で世界を語れるか</a></li>
+<li><a href="/en/trivia/ithkuil-complexity" title="Ithkuil — the conlang so dense its inventor cannot speak it"><span aria-hidden="true">🧬</span> イスクイル──作者自身がすらすら話せない人工言語</a></li>
+<li><a href="/en/trivia/hangul-scientific-script" title="Hangul — the design principles of the Korean alphabet"><span aria-hidden="true">🇰🇷</span> ハングル──王が「実験室」で設計した文字</a></li>
+<li><a href="/en/trivia/cherokee-sequoyah" title="Sequoyah and the creation of the Cherokee syllabary"><span aria-hidden="true">✍️</span> シクウォイア──文字を知らぬまま文字を発明した男</a></li>
+<li><a href="/en/trivia/vai-dream-script" title="Vai — the West African script that came in a dream"><span aria-hidden="true">💭</span> ヴァイ文字──夢から生まれた西アフリカの音節文字</a></li>
+<li><a href="/en/trivia/tangut-deciphered" title="Tangut — reconstructing the script of Western Xia"><span aria-hidden="true">🈯</span> 失われた王朝の文字、西夏文</a></li>
+<li><a href="/en/trivia/linear-a-undeciphered" title="Linear A — the script we can read but cannot understand"><span aria-hidden="true">🏺</span> 読めるのに分からない文字、線文字A</a></li>
+<li><a href="/en/trivia/aymara-time-reversed" title="Aymara — the language where the past is in front of you"><span aria-hidden="true">⏳</span> 過去が前にある言語、アイマラ語</a></li>
+<li><a href="/en/trivia/tuyuca-evidentials" title="Tuyuca — the language in which you must reveal how you know"><span aria-hidden="true">👁️</span> 「どう知ったか」を必ず明かす言語、トゥユカ語</a></li>
+<li><a href="/en/trivia/guugu-yimithirr-cardinal" title="Guugu Yimithirr — an absolute-direction spatial system"><span aria-hidden="true">🧭</span> 「左」も「右」も使わない言語、グーグ・イミディル語</a></li>
+<li><a href="/en/trivia/mohawk-polysynthesis" title="Mohawk — when one word is a whole sentence"><span aria-hidden="true">🧩</span> 一語が一文になる言語、モホーク語</a></li>
+<li><a href="/en/trivia/nuxalk-vowelless" title="Nuxalk — words with no vowels at all"><span aria-hidden="true">🗿</span> 母音ゼロの言語、ヌハルク語</a></li>
+<li><a href="/en/trivia/hawaiian-13-phonemes" title="Hawaiian — 13 sounds and language revitalization"><span aria-hidden="true">🌺</span> 13の音素とハワイ語復興運動</a></li>
+<li><a href="/en/trivia/nicaraguan-sign-language" title="Nicaraguan Sign Language — change observed across cohorts"><span aria-hidden="true">🤟</span> ニカラグア手話──研究者の目の前で誕生した言語</a></li>
+<li><a href="/en/trivia/mama-papa-universals" title="Why “mama” and “papa” recur across unrelated languages"><span aria-hidden="true">👶</span> なぜ世界中で母は「ママ」なのか</a></li>
+<li><a href="/en/trivia/pie-reconstruction" title="Proto-Indo-European — reconstruction through regular sound correspondences"><span aria-hidden="true">🌳</span> 誰も書き残さなかった言語、印欧祖語</a></li>
 </ul>
 </details>
 <!-- TRIVIA-INDEX:END -->
@@ -11785,7 +11870,7 @@
             document.body.appendChild(modal);
         }
         function hide() { const wasOpen = modal && modal.style.display !== 'none'; if (modal) modal.style.display = 'none'; if (wasOpen) window.__wmDialog.close(document.getElementById('lm-langle-box')); if (window.__wmOpenGame === 'langle') { window.__wmOpenGame = null; if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); } }
-        function show() { if (!modal) build(); modal.style.display = 'flex'; render(); window.__wmDialog.open(document.getElementById('lm-langle-box'), 'Langle'); window.__wmLangleHide = hide; window.__wmOpenGame = 'langle'; if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); }
+        function show() { if (!modal) build(); modal.style.display = 'flex'; render(); window.__wmDialog.open(document.getElementById('lm-langle-box'), pk(T.title)); window.__wmLangleHide = hide; window.__wmOpenGame = 'langle'; if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); }
         function clueHtml() {
             const t = target(), words = WD(), order = ORD();
             let shown = 0, rows = '';
@@ -11821,7 +11906,7 @@
             const t = target();
             box.innerHTML = '';
             box.appendChild(el('div', 'display:flex;justify-content:space-between;align-items:center;margin-bottom:6px',
-                `<div style="font-weight:800;font-size:18px">${pk(T.title)} <span style="color:#5f6368;font-weight:600;font-size:13px">#${day() - EPOCH}</span></div>`));
+                `<div role="heading" aria-level="2" style="font-weight:800;font-size:18px">${pk(T.title)} <span style="color:#5f6368;font-weight:600;font-size:13px">#${day() - EPOCH}</span></div>`));
             box.appendChild(el('div', 'color:#667;font-size:13px;margin-bottom:12px', pk(T.sub)));
             box.appendChild(el('div', 'background:#f7f8fb;border-radius:10px;padding:10px 12px;margin-bottom:12px',
                 `<div style="font-size:11px;color:#5f6368;text-transform:uppercase;letter-spacing:.04em;margin-bottom:6px;display:flex;align-items:center;gap:5px">${ICON.help}${pk(T.mystery)}</div>${clueHtml()}`));
@@ -12158,7 +12243,7 @@
             const box = document.getElementById('lm-quiz-box'); if (!box) return;
             box.innerHTML = '';
             const head = el('div', 'display:flex;justify-content:space-between;align-items:center;margin-bottom:10px',
-                `<div style="font-weight:800;font-size:20px">${pk(Q.title)}</div><div style="color:#5f6368;font-weight:600;font-size:14px">${Math.min(idx + 1, TOTAL)}/${TOTAL} · ★${score}</div>`);
+                `<div role="heading" aria-level="2" style="font-weight:800;font-size:20px">${pk(Q.title)}</div><div style="color:#5f6368;font-weight:600;font-size:14px">${Math.min(idx + 1, TOTAL)}/${TOTAL} · ★${score}</div>`);
             head.className = 'wq-head'; box.appendChild(head);
             if (!qs.length) {
                 box.appendChild(el('div', 'color:#667;font-size:14px;margin:10px 0', pk(Q.none)));
@@ -12349,7 +12434,7 @@
                 }
                 if ((e.key === 'p' || e.key === 'P') && !anyGameOpen()) { e.preventDefault(); toggle(); return; }
             });
-            b.addEventListener('click', e => { e.stopPropagation(); toggle(); });
+            b.addEventListener('click', e => { e.stopPropagation(); toggle(); if (e.detail === 0 && menu().classList.contains('open')) setTimeout(() => { const f = menu().querySelector('.play-menu-item'); if (f) f.focus(); }, 0); });
             document.addEventListener('click', e => { const m = menu(); if (m && m.classList.contains('open') && !m.contains(e.target) && !b.contains(e.target)) close(); });
             document.addEventListener('keydown', e => {
                 const m = menu(); const isOpen = m && m.classList.contains('open');
@@ -12385,7 +12470,7 @@
          text/plain (not fetched at first paint, as hanmap_trivia.js is) and
          injected the first time the game opens. The stub below only labels
          the launcher and loads the module on demand. -->
-    <script type="text/plain" id="master-src" src="master.js?v=19"></script>
+    <script type="text/plain" id="master-src" src="master.js?v=20"></script>
     <script>
     (function () {
         'use strict';

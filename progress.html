@@ -39,7 +39,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=154">
+    <link rel="stylesheet" href="styles.css?v=155">
     <style>
         .prog { max-width: 1080px; margin: 0 auto; padding: 24px 20px 60px; }
         .prog h1 { font-size: 24px; margin: 0 0 4px; }
@@ -60,7 +60,13 @@
         .sum span { font-size: 12px; color: #666; }
         /* Filled by script after first paint: reserve their height (CLS .39). */
         #intro { min-height: 3.2em; }
-        .sum:empty { min-height: 64px; }
+        /* Reserve the filled heights (measured r18) so progress_data.js does not shift the page. */
+        .sum:empty { min-height: 182px; }
+        #intro:empty { min-height: 48px; }
+        @media (max-width: 999px) { .sum:empty { min-height: 195px; } #intro:empty { min-height: 71px; } }
+        @media (max-width: 759px) { .sum:empty { min-height: 271px; } #intro:empty { min-height: 95px; } }
+        @media (max-width: 499px) { .sum:empty { min-height: 310px; } #intro:empty { min-height: 119px; } }
+        @media (max-width: 379px) { .sum:empty { min-height: 462px; } }
         .sum em { font-style: normal; color: #666; font-size: 11px; display: block; }
 
         /* The tier legend is not decoration: a low percentage on a 🧪 word is

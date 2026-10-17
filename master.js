@@ -384,7 +384,7 @@
     function header(right) {
         box.dir = /^(ar|he)/.test(ui()) ? 'rtl' : 'ltr';
         box.appendChild(el('div', 'display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:8px;flex:none',
-            '<div style="font-weight:800;font-size:20px">🏅 ' + esc(pk(T.title)) + '</div><div style="color:#5f6673;font-weight:600;font-size:14px">' + (right || '') + '</div>'));
+            '<div role="heading" aria-level="2" style="font-weight:800;font-size:20px"><span aria-hidden="true">🏅</span> ' + esc(pk(T.title)) + '</div><div style="color:#5f6673;font-weight:600;font-size:14px">' + (right || '') + '</div>'));
     }
     function btn(label, primary, onClick, key) {
         var b = el('button', primary

@@ -92,7 +92,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=154">
+    <link rel="stylesheet" href="styles.css?v=155">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -3054,7 +3054,7 @@
             <button type="button" data-act="toggle-ancient" class="hm-lf-tool-btn hm-lf-switch" aria-pressed="false"><span class="hm-lf-switch-track"><span class="hm-lf-switch-thumb"></span></span><span class="hm-lf-switch-text">古代語</span></button>
             <button type="button" data-act="toggle-kun"     class="hm-lf-tool-btn hm-lf-switch" aria-pressed="false"><span class="hm-lf-switch-track"><span class="hm-lf-switch-thumb"></span></span><span class="hm-lf-switch-text">訓読み</span></button>
             <span style="flex:1"></span>
-            <span id="hm-lang-filter-count" role="status" aria-live="polite" style="font-size:11px;color:#5f6368;align-self:center">0 / 0</span>
+            <span id="hm-lang-filter-count" role="status" aria-live="polite" aria-atomic="true" style="font-size:11px;color:#5f6368;align-self:center">0 / 0</span>
         </div>
         <div id="hm-lang-filter-body"></div>
     </div>
@@ -3485,7 +3485,7 @@
     })();
     </script>
     <script src="wordmap_data.js?v=343"></script>
-    <script src="hanmap_data.js?v=189"></script>
+    <script src="hanmap_data.js?v=190"></script>
     <script>
         // Hanmap stubs: replace the per-word loader. wordmap.html loads
         // ~20 individual JS files under words/<id>.js (one per concept) and
@@ -3859,6 +3859,7 @@
                 _title: '言語で絞り込み', _sub: '系統 × 時代でフィルタリング。チップをタップでON/OFF。',
                 _all: 'すべて選択', _none: 'すべて解除', _reset: 'リセット', _ancient: '古代語', _kun: '訓読み',
                 _btn: '絞り込み',
+                _count: '{m} / {n} 言語',
             },
             en: {
                 mandarin:       { name: 'Mandarin',           parent: 'Sinitic' },
@@ -3880,6 +3881,7 @@
                 _title: 'Filter languages', _sub: 'Filter by family x era. Tap chips to toggle.',
                 _all: 'Select all', _none: 'Clear all', _reset: 'Reset', _ancient: 'Ancient', _kun: 'Kun-yomi',
                 _btn: 'Filter',
+                _count: '{m} / {n} languages',
             },
             ko: {
                 mandarin:       { name: '관화 (官話)',  parent: '중국어' },
@@ -3901,6 +3903,7 @@
                 _title: '언어 필터', _sub: '계통 × 시대로 필터링. 칩을 탭하여 ON/OFF.',
                 _all: '모두 선택', _none: '모두 해제', _reset: '재설정', _ancient: '고대', _kun: '훈독',
                 _btn: '필터',
+                _count: '{m} / {n}개 언어',
             },
             zh: {
                 mandarin:       { name: '官话',       parent: '汉语' },
@@ -3922,6 +3925,7 @@
                 _title: '语言筛选', _sub: '按语系 × 时代筛选。点击芯片切换。',
                 _all: '全选', _none: '清除', _reset: '重置', _ancient: '古代', _kun: '训读',
                 _btn: '筛选',
+                _count: '{m} / {n} 种语言',
             },
             yue: {
                 mandarin:       { name: '官話',       parent: '漢語' },
@@ -3943,6 +3947,7 @@
                 _title: '按語言篩選', _sub: '按語系 × 時代篩選。撳一下標籤切換。',
                 _all: '全選', _none: '清除', _reset: '重設', _ancient: '古代', _kun: '訓讀',
                 _btn: '篩選',
+                _count: '{m} / {n} 種語言',
             },
             vi: {
                 mandarin:       { name: 'Quan thoại',          parent: 'Hán' },
@@ -3964,6 +3969,7 @@
                 _title: 'Lọc ngôn ngữ', _sub: 'Lọc theo ngữ hệ × thời kỳ. Chạm vào chip để bật/tắt.',
                 _all: 'Chọn tất cả', _none: 'Xóa tất cả', _reset: 'Đặt lại', _ancient: 'Cổ đại', _kun: 'Âm bản ngữ',
                 _btn: 'Lọc',
+                _count: '{m} / {n} ngôn ngữ',
             },
             th: {
                 mandarin:       { name: 'จีนกลาง',         parent: 'จีน' },
@@ -3985,6 +3991,7 @@
                 _title: 'กรองภาษา', _sub: 'กรองตามตระกูล × ยุค แตะชิปเพื่อสลับ',
                 _all: 'เลือกทั้งหมด', _none: 'ล้างทั้งหมด', _reset: 'รีเซ็ต', _ancient: 'โบราณ', _kun: 'เสียงพื้นเมือง',
                 _btn: 'กรอง',
+                _count: '{m} / {n} ภาษา',
             },
             id: {
                 mandarin:       { name: 'Mandarin',           parent: 'Sinitik' },
@@ -4006,6 +4013,7 @@
                 _title: 'Saring bahasa', _sub: 'Saring berdasarkan rumpun × era. Ketuk chip untuk mengalihkan.',
                 _all: 'Pilih semua', _none: 'Hapus semua', _reset: 'Atur ulang', _ancient: 'Kuno', _kun: 'Bacaan asli',
                 _btn: 'Saring',
+                _count: '{m} / {n} bahasa',
             },
             hi: {
                 mandarin:       { name: 'मंदारिन',          parent: 'चीनी' },
@@ -4027,6 +4035,7 @@
                 _title: 'भाषाएँ फ़िल्टर करें', _sub: 'परिवार × युग के अनुसार फ़िल्टर करें। टॉगल करने हेतु चिप टैप करें।',
                 _all: 'सभी चुनें', _none: 'सभी हटाएँ', _reset: 'रीसेट', _ancient: 'प्राचीन', _kun: 'मूल उच्चारण',
                 _btn: 'फ़िल्टर',
+                _count: '{m} / {n} भाषाएं',
             },
             de: {
                 mandarin:       { name: 'Mandarin',           parent: 'Sinitisch' },
@@ -4048,6 +4057,7 @@
                 _title: 'Sprachen filtern', _sub: 'Nach Familie × Epoche filtern. Chips zum Umschalten antippen.',
                 _all: 'Alle auswählen', _none: 'Alle löschen', _reset: 'Zurücksetzen', _ancient: 'Antik', _kun: 'Native Lesung',
                 _btn: 'Filtern',
+                _count: '{m} / {n} Sprachen',
             },
             fr: {
                 mandarin:       { name: 'Mandarin',           parent: 'Sinitique' },
@@ -4069,6 +4079,7 @@
                 _title: 'Filtrer les langues', _sub: 'Filtrer par famille × époque. Touchez les puces pour basculer.',
                 _all: 'Tout sélectionner', _none: 'Tout effacer', _reset: 'Réinitialiser', _ancient: 'Antique', _kun: 'Lecture native',
                 _btn: 'Filtrer',
+                _count: '{m} / {n} langues',
             },
             it: {
                 mandarin:       { name: 'Mandarino',          parent: 'Sinitico' },
@@ -4090,6 +4101,7 @@
                 _title: 'Filtra lingue', _sub: 'Filtra per famiglia × epoca. Tocca i chip per attivare/disattivare.',
                 _all: 'Seleziona tutto', _none: 'Cancella tutto', _reset: 'Reimposta', _ancient: 'Antico', _kun: 'Lettura nativa',
                 _btn: 'Filtra',
+                _count: '{m} / {n} lingue',
             },
             es: {
                 mandarin:       { name: 'Mandarín',           parent: 'Sinítico' },
@@ -4111,6 +4123,7 @@
                 _title: 'Filtrar idiomas', _sub: 'Filtrar por familia × época. Toca los chips para alternar.',
                 _all: 'Seleccionar todo', _none: 'Borrar todo', _reset: 'Restablecer', _ancient: 'Antiguo', _kun: 'Lectura nativa',
                 _btn: 'Filtrar',
+                _count: '{m} / {n} idiomas',
             },
             pt: {
                 mandarin:       { name: 'Mandarim',           parent: 'Sinítico' },
@@ -4132,6 +4145,7 @@
                 _title: 'Filtrar idiomas', _sub: 'Filtrar por família × era. Toque nos chips para alternar.',
                 _all: 'Selecionar tudo', _none: 'Limpar tudo', _reset: 'Redefinir', _ancient: 'Antigo', _kun: 'Leitura nativa',
                 _btn: 'Filtrar',
+                _count: '{m} / {n} idiomas',
             },
             ru: {
                 mandarin:       { name: 'Мандаринский',       parent: 'Китайская' },
@@ -4153,6 +4167,7 @@
                 _title: 'Фильтр языков', _sub: 'Фильтр по семье × эпохе. Нажмите на чипы для переключения.',
                 _all: 'Выбрать все', _none: 'Очистить все', _reset: 'Сбросить', _ancient: 'Древний', _kun: 'Исконное чтение',
                 _btn: 'Фильтр',
+                _count: '{m} / {n} языков',
             },
             uk: {
                 mandarin:       { name: 'Мандаринська',       parent: 'китайська' },
@@ -4174,6 +4189,7 @@
                 _title: 'Фільтр мов', _sub: 'Фільтр за родиною × епохою. Торкніться чипів для перемикання.',
                 _all: 'Вибрати все', _none: 'Очистити все', _reset: 'Скинути', _ancient: 'Давній', _kun: 'Питоме читання',
                 _btn: 'Фільтр',
+                _count: '{m} / {n} мов',
             },
             ar: {
                 mandarin:       { name: 'الماندرين',          parent: 'الصينية' },
@@ -4195,6 +4211,7 @@
                 _title: 'تصفية اللغات', _sub: 'التصفية حسب العائلة × الحقبة. انقر الرقائق للتبديل.',
                 _all: 'تحديد الكل', _none: 'مسح الكل', _reset: 'إعادة تعيين', _ancient: 'قديمة', _kun: 'القراءة الأصلية',
                 _btn: 'تصفية',
+                _count: '{m} / {n} لغات',
             },
             he: {
                 mandarin:       { name: 'מנדרינית',           parent: 'סינית' },
@@ -4216,6 +4233,7 @@
                 _title: 'סינון שפות', _sub: 'סינון לפי משפחה × תקופה. הקש על השבבים כדי להחליף.',
                 _all: 'בחר הכול', _none: 'נקה הכול', _reset: 'איפוס', _ancient: 'עתיק', _kun: 'קריאה מקורית',
                 _btn: 'סינון',
+                _count: '{m} / {n} שפות',
             },
             sw: {
                 mandarin:       { name: 'Kimandarini',        parent: 'Kichina' },
@@ -4237,6 +4255,7 @@
                 _title: 'Chuja lugha', _sub: 'Chuja kwa familia × enzi. Gusa chipsi kubadilisha.',
                 _all: 'Chagua zote', _none: 'Futa zote', _reset: 'Weka upya', _ancient: 'Kale', _kun: 'Usomaji asilia',
                 _btn: 'Chuja',
+                _count: '{m} / {n} lugha',
             },
         };
 
@@ -4427,7 +4446,10 @@
                 }
             }
             const counter = document.getElementById('hm-lang-filter-count');
-            if (counter) counter.textContent = selected.size + ' / ' + offered.size;
+            const txt = String(L('_count') || '{m} / {n}').replace('{m}', selected.size).replace('{n}', offered.size);
+            if (counter && counter.textContent !== txt) counter.textContent = txt;
+            const fb = lbl && lbl.closest('button');
+            if (fb) fb.setAttribute('aria-label', L('_btn') + (active ? ' (' + txt + ')' : ''));
         }
 
         // Pretty name for a chip. Prefer LANG_NAMES translation; fall
@@ -5526,6 +5548,8 @@
             if (!m) return key;
             return m[uiLang] || m[uiLang.split('_')[0]] || m.en;
         }
+        // The opener's name was only the character, the same as the grid button behind it.
+        window.__hmCharLabel = function () { const b = document.getElementById('char-current-btn'); if (b && b.textContent.trim()) b.setAttribute('aria-label', b.textContent.trim() + ', ' + i18n('ariaSelectChar')); };
 
         function applyUILang() {
             // <html lang> drives the screen reader's voice; it was frozen at "en"
@@ -5618,6 +5642,7 @@
                 const el = document.getElementById(id);
                 if (el) el.setAttribute(attr, i18n(key));
             }
+            window.__hmCharLabel();
             // Class-only header controls the id loop can't reach (the visible
             // hamburger/settings labels; the hidden checkboxes are handled above).
             const setAttrSel = (sel, attr, key) => { const e = document.querySelector(sel); if (e) e.setAttribute(attr, i18n(key)); };
@@ -5753,14 +5778,18 @@
             // On mobile the UI-lang select lives inside the hamburger drawer.
             // After a pick the drawer should collapse so the user sees the
             // map in their new UI language without an extra tap to dismiss.
+            // Not for arrow keys on a closed native select: each press fires change,
+            // so collapsing there left keyboard users stuck one language on (r18).
             const _hdrToggle = document.getElementById('hdr-menu-toggle');
-            if (_hdrToggle && _hdrToggle.checked
+            const _byKey = Date.now() - (window.__uiSelKeyAt || 0) < 600;
+            if (_hdrToggle && _hdrToggle.checked && !_byKey
                 && window.matchMedia('(max-width: 640px)').matches) {
                 _hdrToggle.checked = false;
                 _hdrToggle.dispatchEvent(new Event('change'));
             }
         });
 
+        document.addEventListener('keydown', (e) => { if (e.target && e.target.id === 'header-ui-lang') window.__uiSelKeyAt = Date.now(); }, true);
         // --- Word selector ---
         const select = document.getElementById('word-select');
 
@@ -6095,6 +6124,7 @@
                     // any :1/:2 disambiguation, so the main button stays
                     // visually quiet.
                     cbtn.innerHTML = escapeHtml(displayCharOf(finalCh));
+                    window.__hmCharLabel();
                     cbtn.removeAttribute('aria-busy');
                     window.__pgAnnounce(displayCharOf(finalCh));
                     _rouletteRunning = false;
@@ -8726,6 +8756,7 @@
                     const {char: _hc} = senseSplitId(w);
                     _hbtn.innerHTML = escapeHtml(_hc);
                     _hbtn.title = senseLabelOf(w, uiLang) || w;
+                    window.__hmCharLabel();
                 }
             }
             // Position: new combined `p=lat,lng,z`, falling back to the legacy
@@ -9094,7 +9125,66 @@
                 requestAnimationFrame(updateSelectedLabel);
             }
         }
+        // Panel-cover guard (rally r18). While #lang-info or #compare-panel is
+        // open, the visible controls it paints over (zoom, 3D, settings at
+        // desktop; nearly all map chrome on a phone) are made inert so Tab
+        // cannot land on something the reader cannot see. Only covered elements
+        // are touched: the map container keeps pointer input and merely loses
+        // its own tab stop. When the set of open panels changes, the release is
+        // synchronous (the close paths restore focus on the very next line);
+        // re-applying waits a frame because updateConnectorLine also runs on
+        // every map move. `var`, not `let`: updateConnectorLine first runs
+        // during the initial updateMarkers(), before this point is reached.
+        var _PCOV_Q = 'a[href],button,input,select,textarea,summary,[tabindex]:not([tabindex="-1"])';
+        var _pcovRaf = 0, _pcovKey = '';
+        function _pcovPanels() {
+            return ['lang-info', 'compare-panel'].map((id) => document.getElementById(id)).filter((p) => p && p.classList.contains('visible'));
+        }
+        function _pcovRelease() {
+            for (const e of document.querySelectorAll('[data-pcov]')) {
+                if (e.dataset.pcov === 'inert') e.inert = false;
+                else if (e.dataset.pcov === 'none') e.removeAttribute('tabindex');
+                else e.setAttribute('tabindex', e.dataset.pcov);
+                delete e.dataset.pcov;
+            }
+        }
+        function _pcovApply() {
+            _pcovRaf = 0;
+            _pcovRelease();
+            const panels = _pcovPanels();
+            if (!panels.length) return;
+            const rects = panels.map((p) => p.getBoundingClientRect());
+            let refocus = null;
+            for (const e of document.querySelectorAll(_PCOV_Q)) {
+                const r = e.getBoundingClientRect();
+                if (!r.width) continue;
+                const cx = r.left + r.width / 2, cy = r.top + r.height / 2;
+                if (!rects.some((q) => cx >= q.left && cx <= q.right && cy >= q.top && cy <= q.bottom)) continue;
+                if (!e.checkVisibility({ visibilityProperty: true, opacityProperty: true })) continue;   // closed drawer / menu
+                const hit = document.elementFromPoint(cx, cy);
+                const over = hit && panels.find((p) => p.contains(hit));
+                if (!over || over.contains(e) || e.contains(over)) continue;   // not covered, or drawn above
+                if (e === document.activeElement) refocus = over;
+                if (e.classList.contains('leaflet-container')) {
+                    e.dataset.pcov = e.getAttribute('tabindex') ?? 'none';
+                    e.setAttribute('tabindex', '-1');
+                } else { e.dataset.pcov = 'inert'; e.inert = true; }
+            }
+            // The focused control went under a panel (a tapped label on a phone,
+            // the compare button): move focus to that panel's close button.
+            if (refocus) { const c = refocus.querySelector('#info-close') || refocus.querySelector('.compare-close') || refocus.querySelector('button'); if (c) c.focus({ preventScroll: true }); }
+        }
+        function syncPanelCover() {
+            const key = _pcovPanels().map((p) => p.id).join();
+            if (key !== _pcovKey) { _pcovKey = key; _pcovRelease(); }
+            if (!key) { cancelAnimationFrame(_pcovRaf); _pcovRaf = 0; return; }
+            if (!_pcovRaf) _pcovRaf = requestAnimationFrame(_pcovApply);
+        }
+        // Open/close paths that do not pass through updateConnectorLine (compare
+        // panel, globe click). closeComparePanel still needs its own direct call.
+        ['lang-info', 'compare-panel'].forEach((id) => { const p = document.getElementById(id); if (p) new MutationObserver(syncPanelCover).observe(p, { attributes: true, attributeFilter: ['class'] }); });
         function updateConnectorLine() {
+            syncPanelCover();
             const ip = _infoPanel();
             const svg = _connectorSvg();
             if (!ip || !svg) return;
@@ -9948,7 +10038,7 @@
                 const href = '/' + ui + '/hanmap/' + escapeHtml(code);
                 html += `<div style="margin-top:12px;padding-top:8px;border-top:1px dotted #ddd">` +
                     `<a href="${href}" style="display:inline-block;font-size:12px;color:#3a5ce5;text-decoration:none;font-weight:600">` +
-                    `📄 ${(({en:'Big-text page',ja:'デカ文字版ページ',ko:'큰 글씨 페이지',zh:'大字版页面',yue:'大字版頁面',vi:'Trang chữ lớn',th:'หน้าตัวอักษรใหญ่',id:'Halaman teks besar',hi:'बड़े अक्षरों वाला पेज',de:'Großschrift-Seite',fr:'Page en gros caractères',it:'Pagina a caratteri grandi',es:'Página en letra grande',pt:'Página em letra grande',ru:'Страница крупным шрифтом',uk:'Сторінка великим шрифтом',ar:'صفحة بخط كبير',he:'עמוד באותיות גדולות',sw:'Ukurasa wa herufi kubwa'})[ui]) || 'Big-text page'} ${/^(ar|he)/.test(String(uiLang || '')) ? '←' : '→'}</a></div>`;
+                    `<span aria-hidden="true">📄</span> ${(({en:'Big-text page',ja:'デカ文字版ページ',ko:'큰 글씨 페이지',zh:'大字版页面',yue:'大字版頁面',vi:'Trang chữ lớn',th:'หน้าตัวอักษรใหญ่',id:'Halaman teks besar',hi:'बड़े अक्षरों वाला पेज',de:'Großschrift-Seite',fr:'Page en gros caractères',it:'Pagina a caratteri grandi',es:'Página en letra grande',pt:'Página em letra grande',ru:'Страница крупным шрифтом',uk:'Сторінка великим шрифтом',ar:'صفحة بخط كبير',he:'עמוד באותיות גדולות',sw:'Ukurasa wa herufi kubwa'})[ui]) || 'Big-text page'} <span aria-hidden="true">${/^(ar|he)/.test(String(uiLang || '')) ? '←' : '→'}</span></a></div>`;
             })();
 
             const infoContent = document.getElementById('info-content');
@@ -11138,7 +11228,7 @@
                 const rb = [..._cpp.querySelectorAll('.remove-col')].filter(b => b.getClientRects().length);
                 const nx = rb[Math.min(i, rb.length - 1)];
                 const fab = document.getElementById('compare-fab');
-                if (nx && _compareList.length) nx.focus(); else if (fab && fab.getClientRects().length) fab.focus(); else if (!_cpp.classList.contains('visible')) { const f = ['#info-close', '#lang-search'].map(q => document.querySelector(q)).find(x => x && x.getClientRects().length); if (f) f.focus(); }
+                if (nx && _compareList.length) nx.focus(); else if (fab && fab.getClientRects().length) fab.focus(); else if (!_cpp.classList.contains('visible')) { const f = ['#info-close', '#lang-search', '#char-current-btn'].map(q => document.querySelector(q)).find(x => x && x.getClientRects().length); if (f) f.focus(); }
             }
         }
         function clearCompare() {
@@ -11163,7 +11253,8 @@
                 if (badge) badge.textContent = String(_compareList.length);
                 const lbl = fab.querySelector('.compare-fab-label');
                 if (lbl) lbl.textContent = compareT('fab');
-                fab.setAttribute('aria-label', compareT('fab'));
+                fab.setAttribute('aria-label', compareT('fab') + ' (' + _compareList.length + ')');
+                fab.setAttribute('aria-controls', 'compare-panel');
             }
         }
         function openComparePanel() {
@@ -11172,7 +11263,11 @@
             refreshCompareMarkers();
             renderCompare();
             const panel = document.getElementById('compare-panel');
+            const _fromFab = document.activeElement && document.activeElement.id === 'compare-fab';
             panel.classList.add('visible');
+            { const f = document.getElementById('compare-fab'); if (f) f.setAttribute('aria-expanded', 'true'); }
+            // Opened from the button: move focus in so the change is announced.
+            if (_fromFab) setTimeout(() => { try { panel.focus({ preventScroll: true }); } catch (_) {} }, 0);
             // Update title text per current UI lang
             const t = panel.querySelector('.compare-title'); if (t) t.textContent = compareT('title');
             const c = panel.querySelector('.compare-clear'); if (c) c.textContent = compareT('clear');
@@ -11186,8 +11281,10 @@
             const panel = document.getElementById('compare-panel');
             const had = panel && panel.contains(document.activeElement);
             if (panel) panel.classList.remove('visible');
+            { const f = document.getElementById('compare-fab'); if (f) f.setAttribute('aria-expanded', 'false'); }
+            syncPanelCover();
             // Focus was inside: back to the compare button rather than <body>.
-            if (had) { const f = ['#compare-fab', '#lang-info.visible .compare-add-btn', '#info-close', '#lang-search'].map(q => document.querySelector(q)).find(x => x && x.getClientRects().length); if (f) f.focus(); }
+            if (had) { const f = ['#compare-fab', '#lang-info.visible .compare-add-btn', '#info-close', '#lang-search', '#char-current-btn'].map(q => document.querySelector(q)).find(x => x && x.getClientRects().length); if (f) f.focus(); }
         }
         function renderCompareIfOpen() {
             const panel = document.getElementById('compare-panel');
@@ -12138,6 +12235,8 @@
             if (!modal || !backdrop) return;
             modal.classList.toggle('compact', !!on);
             backdrop.classList.toggle('transparent', !!on);
+            // Compact leaves the map usable, so the dialog stops being modal (and the Tab wrap stops).
+            modal.setAttribute('aria-modal', on ? 'false' : 'true');
         }
 
         // Close any panels that would clutter the article surface.
@@ -12266,7 +12365,7 @@
             const tm = document.getElementById('trivia-modal');
             if (!tm) return;
             tm.addEventListener('keydown', (e) => {
-                if (e.key !== 'Tab') return;
+                if (e.key !== 'Tab' || tm.classList.contains('compact')) return;
                 const f = [...tm.querySelectorAll('button, a[href], input, select, [tabindex="0"]')].filter((x) => !x.disabled && x.getClientRects().length);
                 if (!f.length) return;
                 const first = f[0], last = f[f.length - 1];
@@ -12691,51 +12790,51 @@
     </script>
     </main>
     <footer style="text-align:center;padding:16px 12px;font-size:12px;color:#666;border-top:1px solid #e6e6ef;margin-top:24px">
-        全言語インデックス: <a href="/en/wordmap/" style="color:#4178bc">Word Map</a> · <a href="/en/hanmap/" style="color:#4178bc">Han Map</a> · <a href="/en/trivia/" style="color:#4178bc">Trivia</a>
+        <span lang="ja">全言語インデックス:</span> <a href="/en/wordmap/" style="color:#4178bc">Word Map</a> · <a href="/en/hanmap/" style="color:#4178bc">Han Map</a> · <a href="/en/trivia/" style="color:#4178bc">Trivia</a>
 <!-- TRIVIA-INDEX:START -->
-<details class="trivia-index-seo">
+<details class="trivia-index-seo" lang="ja">
 <summary>読み物（文字と漢字音の記事） (40)</summary>
 <ul>
-<li><a href="/en/trivia/kanbun-yomi-invention" title="How Japan Kept 訓読み: Reading Chinese Characters with Native Words">📜 訓読みが生き残った国：漢字に大和言葉を当てた1300年</a></li>
-<li><a href="/en/trivia/kanbun-kaeriten-system" title="返り点: How Japan Reads Chinese Texts Backwards into Japanese">🔢 返り点——漢文をひっくり返して日本語に読む技法</a></li>
-<li><a href="/en/trivia/tangut-3000-syllables" title="Tangut Script: 6,000 Characters for the Tangut Language">𗼇 西夏文字：漢字に見せかけた6000字の謎</a></li>
-<li><a href="/en/trivia/khitan-large-small-scripts" title="Khitan Large and Small Scripts: Two Writing Systems for Khitan">𰀀 契丹大字と小字：ひとつの言語に生まれた2種類の文字</a></li>
-<li><a href="/en/trivia/phagspa-universal-script" title="Phags-pa Script: A Yuan-Dynasty Multilingual Alphabet">🔡 八思巴字——クビライ・ハンの「万国共通文字」</a></li>
-<li><a href="/en/trivia/hangul-sinosphere-context" title="King Sejong and the Creation of Hangul">📜 なぜ世宗大王は漢字支配の時代にハングルを作ったのか</a></li>
-<li><a href="/en/trivia/chu-nom-vietnam-script" title="Chữ Nôm — A Vietnamese Han-Character Writing Tradition">📜 字喃（チュノム）——植民地化が消した、ベトナムの二万字</a></li>
-<li><a href="/en/trivia/quoc-ngu-rhodes" title="Quốc Ngữ and Alexandre de Rhodes's 1651 Dictionary">✍️ 1651年のイエズス会士の辞書がベトナムに新しいアルファベットをもたらした理由</a></li>
-<li><a href="/en/trivia/go-on-kan-on-to-on" title="Go-on, Kan-on and Tō-on: Three Sino-Japanese Reading Layers">📜 呉音・漢音・唐音 — なぜ一つの漢字に三種の音読みがあるのか</a></li>
-<li><a href="/en/trivia/min-nan-wenbai" title="Min Nan Literary and Colloquial Readings">🗣️ 閩南語の文白異読 — 同じ漢字にある二つの読み</a></li>
-<li><a href="/en/trivia/korean-toumeop-rule" title="The Head-Sound Rule: Why 六 Is 육 in Seoul but 륙 in Pyongyang">🔤 頭音法則：なぜ「六」は南で육、北で륙なのか</a></li>
-<li><a href="/en/trivia/japanese-go-on-bias" title="Why Buddhist Japanese Sounds Different: The 呉音 (Go-on) Bias">🕌 仏教語はなぜ呉音か：「経」がkyōで「業」がgōの理由</a></li>
-<li><a href="/en/trivia/kokuji-japan-made-chars" title="Kokuji: Han Characters Invented in Japan">🗾 国字：日本で作られた漢字</a></li>
-<li><a href="/en/trivia/korea-kuk-ja" title="Korea's Own Han Characters: Rare but Real">🇰🇷 韓国固有漢字：少ないが確かに存在する</a></li>
-<li><a href="/en/trivia/naxi-dongba-living-pictograms" title="Dongba Script: A Pictographic Tradition of the Naxi">🖼️ 東巴文字：世界唯一の現存する絵文字体系</a></li>
-<li><a href="/en/trivia/yi-syllabary" title="Yi Script: From 8,000 Pictographs to 819 Official Syllables">📜 彝文：8000の象形文字から819の公式音節へ</a></li>
-<li><a href="/en/trivia/zhuang-sawndip-script" title="Sawndip: The Thousand-Year Han-Derived Script of the Zhuang People">🪨 古壯字（方塊壯字）：漢字を借りたチワン族千年の文字</a></li>
-<li><a href="/en/trivia/bai-language-script" title="Bai Script: The Han-Character Vehicle for an Unclassified Language">🏔 白文：帰属不明の言語を担う漢字文字</a></li>
-<li><a href="/en/trivia/wenzhou-devils-tongue" title="Wenzhou Wu — A Distinct Wu Variety">👻 温州語——「鬼話」と恐れられた方言</a></li>
-<li><a href="/en/trivia/hakka-diaspora-language" title="Hakka — A Sinitic Variety with a Global Diaspora">🌏 客家語——世界に散らばった「客人」たちの言語</a></li>
-<li><a href="/en/trivia/sino-vietnamese-han-viet" title="Hán-Việt: A Tang-Period Chinese Loan Layer in Vietnamese">🎵 漢越語：ベトナム語に残る唐代の中国語借用層</a></li>
-<li><a href="/en/trivia/sino-korean-versus-sino-japanese" title="Comparing Han-Character Readings in Four Languages">🔀 一つの漢字が語る四つの音——日本語・朝鮮語・ベトナム語・中国語</a></li>
-<li><a href="/en/trivia/simplified-chinese-1956" title="Chinese Character Simplification and Script Reform">✂️ 大簡化——中国の文字改革はいかに行われたか</a></li>
-<li><a href="/en/trivia/japanese-shinjitai-postwar" title="Japan's Parallel Simplification: Shinjitai and Postwar Kanji Reform">📜 日本の並行簡化——新字体と戦後漢字改革</a></li>
-<li><a href="/en/trivia/ducai-yuan-zhongyuan-yinyun" title="Zhōngyuán Yīnyùn: Yuan-Era Opera and Early Mandarin Phonology">🎭 中原音韻 — 元代の戯曲の中で生まれた近代マンダリン</a></li>
-<li><a href="/en/trivia/phags-pa-as-hangul-origin" title="Did Phags-pa Script Influence Hangul?">ꡛ ハングルは八思巴字に着想したのか — 60年続く言語学の謎</a></li>
-<li><a href="/en/trivia/manchu-script-origins" title="Manchu Script and Its Aramaic-to-Uyghur Lineage">📜 満洲文字 — 五つの文明を渡った文字</a></li>
-<li><a href="/en/trivia/old-mongol-uyghur-script" title="Why Mongolians write in two different scripts">🐎 なぜモンゴル人は二つの文字を使うのか</a></li>
-<li><a href="/en/trivia/jurchen-script-deciphered" title="Jurchen Script — A Partly Deciphered Jin-Dynasty Writing System">📜 女真文字 — 800年の謎、いまだ部分的にしか読めない</a></li>
-<li><a href="/en/trivia/yale-mc-tonal-categories" title="From Four Tone Categories to Modern Sinitic Tone Systems">🎵 4声が9声に — 中古漢語が分裂した声調の森</a></li>
-<li><a href="/en/trivia/old-chinese-baxter-sagart" title="Old Chinese Reconstruction: From Karlgren to Baxter-Sagart 2014">🪨 上古漢語の再建：カールグレンからバクスター＝サガールまで</a></li>
-<li><a href="/en/trivia/sino-tibetan-cognates" title="Sino-Tibetan Cognates: How 五 and Tibetan ལྔ Share the Same Root">🏔 漢蔵語族の同源語：なぜ「五」とチベット語ལྔは同じ語根を持つのか</a></li>
-<li><a href="/en/trivia/ko-mid-eastguk-jeongun" title="東國正韻 — A Prescriptive Sino-Korean Pronunciation Dictionary">📜 東國正韻 — 誰も実際に使わなかった理想の漢字音</a></li>
-<li><a href="/en/trivia/kokugo-versus-kango" title="和語・漢語・外来語 — Japan's Three-Layer Vocabulary">📖 和語・漢語・外来語 — 日本語の三層語彙</a></li>
-<li><a href="/en/trivia/tang-empire-multilingual-coins" title="One Coin, Four Readings: The Tang Dynasty's Multilingual Currency">🪙 一枚の銅銭、四つの読み方：唐の開元通寶が繋いだ世界</a></li>
-<li><a href="/en/trivia/korean-eumhun-tradition" title="물 수 (水): Why Korea Teaches Chinese Characters with Native Korean Glosses">📖 물 수（水）：韓国が漢字を固有語の訓で教える理由</a></li>
-<li><a href="/en/trivia/cantonese-script-uniquely" title="Cantonese Characters in Written 粵語白話文">🀄 普通話にない文字：粤語だけの漢字</a></li>
-<li><a href="/en/trivia/shanghainese-ipa-wugniu" title="Wugniu: Romanisation for Shanghainese Three-Way Stop Contrasts">🔊 呉語拼音（吳語拼音）：上海語の三者対立を救うローマ字</a></li>
-<li><a href="/en/trivia/pan-sinosphere-counting" title="Counting from 1 to 10 Across the Sinosphere">🔢 「一」の百通りの読み方――漢字圏の数詞を徹底比較</a></li>
-<li><a href="/en/trivia/tea-tea-cha-cha" title="Tea and Chai: Two Transmission Pathways for 茶">🍵 「茶」の二つの語形——海路と陸路に沿った伝播</a></li>
+<li><a href="/en/trivia/kanbun-yomi-invention" title="How Japan Kept 訓読み: Reading Chinese Characters with Native Words"><span aria-hidden="true">📜</span> 訓読みが生き残った国：漢字に大和言葉を当てた1300年</a></li>
+<li><a href="/en/trivia/kanbun-kaeriten-system" title="返り点: How Japan Reads Chinese Texts Backwards into Japanese"><span aria-hidden="true">🔢</span> 返り点——漢文をひっくり返して日本語に読む技法</a></li>
+<li><a href="/en/trivia/tangut-3000-syllables" title="Tangut Script: 6,000 Characters for the Tangut Language"><span aria-hidden="true">𗼇</span> 西夏文字：漢字に見せかけた6000字の謎</a></li>
+<li><a href="/en/trivia/khitan-large-small-scripts" title="Khitan Large and Small Scripts: Two Writing Systems for Khitan"><span aria-hidden="true">𰀀</span> 契丹大字と小字：ひとつの言語に生まれた2種類の文字</a></li>
+<li><a href="/en/trivia/phagspa-universal-script" title="Phags-pa Script: A Yuan-Dynasty Multilingual Alphabet"><span aria-hidden="true">🔡</span> 八思巴字——クビライ・ハンの「万国共通文字」</a></li>
+<li><a href="/en/trivia/hangul-sinosphere-context" title="King Sejong and the Creation of Hangul"><span aria-hidden="true">📜</span> なぜ世宗大王は漢字支配の時代にハングルを作ったのか</a></li>
+<li><a href="/en/trivia/chu-nom-vietnam-script" title="Chữ Nôm — A Vietnamese Han-Character Writing Tradition"><span aria-hidden="true">📜</span> 字喃（チュノム）——植民地化が消した、ベトナムの二万字</a></li>
+<li><a href="/en/trivia/quoc-ngu-rhodes" title="Quốc Ngữ and Alexandre de Rhodes's 1651 Dictionary"><span aria-hidden="true">✍️</span> 1651年のイエズス会士の辞書がベトナムに新しいアルファベットをもたらした理由</a></li>
+<li><a href="/en/trivia/go-on-kan-on-to-on" title="Go-on, Kan-on and Tō-on: Three Sino-Japanese Reading Layers"><span aria-hidden="true">📜</span> 呉音・漢音・唐音 — なぜ一つの漢字に三種の音読みがあるのか</a></li>
+<li><a href="/en/trivia/min-nan-wenbai" title="Min Nan Literary and Colloquial Readings"><span aria-hidden="true">🗣️</span> 閩南語の文白異読 — 同じ漢字にある二つの読み</a></li>
+<li><a href="/en/trivia/korean-toumeop-rule" title="The Head-Sound Rule: Why 六 Is 육 in Seoul but 륙 in Pyongyang"><span aria-hidden="true">🔤</span> 頭音法則：なぜ「六」は南で육、北で륙なのか</a></li>
+<li><a href="/en/trivia/japanese-go-on-bias" title="Why Buddhist Japanese Sounds Different: The 呉音 (Go-on) Bias"><span aria-hidden="true">🕌</span> 仏教語はなぜ呉音か：「経」がkyōで「業」がgōの理由</a></li>
+<li><a href="/en/trivia/kokuji-japan-made-chars" title="Kokuji: Han Characters Invented in Japan"><span aria-hidden="true">🗾</span> 国字：日本で作られた漢字</a></li>
+<li><a href="/en/trivia/korea-kuk-ja" title="Korea's Own Han Characters: Rare but Real"><span aria-hidden="true">🇰🇷</span> 韓国固有漢字：少ないが確かに存在する</a></li>
+<li><a href="/en/trivia/naxi-dongba-living-pictograms" title="Dongba Script: A Pictographic Tradition of the Naxi"><span aria-hidden="true">🖼️</span> 東巴文字：世界唯一の現存する絵文字体系</a></li>
+<li><a href="/en/trivia/yi-syllabary" title="Yi Script: From 8,000 Pictographs to 819 Official Syllables"><span aria-hidden="true">📜</span> 彝文：8000の象形文字から819の公式音節へ</a></li>
+<li><a href="/en/trivia/zhuang-sawndip-script" title="Sawndip: The Thousand-Year Han-Derived Script of the Zhuang People"><span aria-hidden="true">🪨</span> 古壯字（方塊壯字）：漢字を借りたチワン族千年の文字</a></li>
+<li><a href="/en/trivia/bai-language-script" title="Bai Script: The Han-Character Vehicle for an Unclassified Language"><span aria-hidden="true">🏔</span> 白文：帰属不明の言語を担う漢字文字</a></li>
+<li><a href="/en/trivia/wenzhou-devils-tongue" title="Wenzhou Wu — A Distinct Wu Variety"><span aria-hidden="true">👻</span> 温州語——「鬼話」と恐れられた方言</a></li>
+<li><a href="/en/trivia/hakka-diaspora-language" title="Hakka — A Sinitic Variety with a Global Diaspora"><span aria-hidden="true">🌏</span> 客家語——世界に散らばった「客人」たちの言語</a></li>
+<li><a href="/en/trivia/sino-vietnamese-han-viet" title="Hán-Việt: A Tang-Period Chinese Loan Layer in Vietnamese"><span aria-hidden="true">🎵</span> 漢越語：ベトナム語に残る唐代の中国語借用層</a></li>
+<li><a href="/en/trivia/sino-korean-versus-sino-japanese" title="Comparing Han-Character Readings in Four Languages"><span aria-hidden="true">🔀</span> 一つの漢字が語る四つの音——日本語・朝鮮語・ベトナム語・中国語</a></li>
+<li><a href="/en/trivia/simplified-chinese-1956" title="Chinese Character Simplification and Script Reform"><span aria-hidden="true">✂️</span> 大簡化——中国の文字改革はいかに行われたか</a></li>
+<li><a href="/en/trivia/japanese-shinjitai-postwar" title="Japan's Parallel Simplification: Shinjitai and Postwar Kanji Reform"><span aria-hidden="true">📜</span> 日本の並行簡化——新字体と戦後漢字改革</a></li>
+<li><a href="/en/trivia/ducai-yuan-zhongyuan-yinyun" title="Zhōngyuán Yīnyùn: Yuan-Era Opera and Early Mandarin Phonology"><span aria-hidden="true">🎭</span> 中原音韻 — 元代の戯曲の中で生まれた近代マンダリン</a></li>
+<li><a href="/en/trivia/phags-pa-as-hangul-origin" title="Did Phags-pa Script Influence Hangul?"><span aria-hidden="true">ꡛ</span> ハングルは八思巴字に着想したのか — 60年続く言語学の謎</a></li>
+<li><a href="/en/trivia/manchu-script-origins" title="Manchu Script and Its Aramaic-to-Uyghur Lineage"><span aria-hidden="true">📜</span> 満洲文字 — 五つの文明を渡った文字</a></li>
+<li><a href="/en/trivia/old-mongol-uyghur-script" title="Why Mongolians write in two different scripts"><span aria-hidden="true">🐎</span> なぜモンゴル人は二つの文字を使うのか</a></li>
+<li><a href="/en/trivia/jurchen-script-deciphered" title="Jurchen Script — A Partly Deciphered Jin-Dynasty Writing System"><span aria-hidden="true">📜</span> 女真文字 — 800年の謎、いまだ部分的にしか読めない</a></li>
+<li><a href="/en/trivia/yale-mc-tonal-categories" title="From Four Tone Categories to Modern Sinitic Tone Systems"><span aria-hidden="true">🎵</span> 4声が9声に — 中古漢語が分裂した声調の森</a></li>
+<li><a href="/en/trivia/old-chinese-baxter-sagart" title="Old Chinese Reconstruction: From Karlgren to Baxter-Sagart 2014"><span aria-hidden="true">🪨</span> 上古漢語の再建：カールグレンからバクスター＝サガールまで</a></li>
+<li><a href="/en/trivia/sino-tibetan-cognates" title="Sino-Tibetan Cognates: How 五 and Tibetan ལྔ Share the Same Root"><span aria-hidden="true">🏔</span> 漢蔵語族の同源語：なぜ「五」とチベット語ལྔは同じ語根を持つのか</a></li>
+<li><a href="/en/trivia/ko-mid-eastguk-jeongun" title="東國正韻 — A Prescriptive Sino-Korean Pronunciation Dictionary"><span aria-hidden="true">📜</span> 東國正韻 — 誰も実際に使わなかった理想の漢字音</a></li>
+<li><a href="/en/trivia/kokugo-versus-kango" title="和語・漢語・外来語 — Japan's Three-Layer Vocabulary"><span aria-hidden="true">📖</span> 和語・漢語・外来語 — 日本語の三層語彙</a></li>
+<li><a href="/en/trivia/tang-empire-multilingual-coins" title="One Coin, Four Readings: The Tang Dynasty's Multilingual Currency"><span aria-hidden="true">🪙</span> 一枚の銅銭、四つの読み方：唐の開元通寶が繋いだ世界</a></li>
+<li><a href="/en/trivia/korean-eumhun-tradition" title="물 수 (水): Why Korea Teaches Chinese Characters with Native Korean Glosses"><span aria-hidden="true">📖</span> 물 수（水）：韓国が漢字を固有語の訓で教える理由</a></li>
+<li><a href="/en/trivia/cantonese-script-uniquely" title="Cantonese Characters in Written 粵語白話文"><span aria-hidden="true">🀄</span> 普通話にない文字：粤語だけの漢字</a></li>
+<li><a href="/en/trivia/shanghainese-ipa-wugniu" title="Wugniu: Romanisation for Shanghainese Three-Way Stop Contrasts"><span aria-hidden="true">🔊</span> 呉語拼音（吳語拼音）：上海語の三者対立を救うローマ字</a></li>
+<li><a href="/en/trivia/pan-sinosphere-counting" title="Counting from 1 to 10 Across the Sinosphere"><span aria-hidden="true">🔢</span> 「一」の百通りの読み方――漢字圏の数詞を徹底比較</a></li>
+<li><a href="/en/trivia/tea-tea-cha-cha" title="Tea and Chai: Two Transmission Pathways for 茶"><span aria-hidden="true">🍵</span> 「茶」の二つの語形——海路と陸路に沿った伝播</a></li>
 </ul>
 </details>
 <!-- TRIVIA-INDEX:END -->
@@ -12899,7 +12998,7 @@
             box.dir = /^(ar|he)/.test(String(ui() || '')) ? 'rtl' : 'ltr';
             box.innerHTML = '';
             const head = el('div', 'display:flex;justify-content:space-between;align-items:center;margin-bottom:10px',
-                `<div style="font-weight:800;font-size:20px">${pk(Q.title)}</div><div dir="ltr" style="color:#5f6368;font-weight:600;font-size:14px">${Math.min(idx + 1, TOTAL)}/${TOTAL} · ★${score}</div>`);
+                `<div role="heading" aria-level="2" style="font-weight:800;font-size:20px">${pk(Q.title)}</div><div dir="ltr" style="color:#5f6368;font-weight:600;font-size:14px">${Math.min(idx + 1, TOTAL)}/${TOTAL} · ★${score}</div>`);
             head.className = 'hq-head'; box.appendChild(head);
             if (!qs.length) { box.appendChild(el('div', 'color:#667;font-size:14px;margin:10px 0', pk(Q.none))); }
             else if (idx >= qs.length) { renderResult(box); return; }
@@ -13051,7 +13150,7 @@
         function localize() { const l = document.getElementById('play-menu-label'); if (l) l.textContent = playLabel(); const b = btn(); if (b) b.title = playLabel(); }
         function init() {
             const b = btn(); if (!b || b._wired) return; b._wired = true;
-            b.addEventListener('click', e => { e.stopPropagation(); toggle(); });
+            b.addEventListener('click', e => { e.stopPropagation(); toggle(); if (e.detail === 0 && menu().classList.contains('open')) setTimeout(() => { const f = menu().querySelector('.play-menu-item'); if (f) f.focus(); }, 0); });
             document.addEventListener('click', e => { const m = menu(); if (m && m.classList.contains('open') && !m.contains(e.target) && !b.contains(e.target)) close(); });
             document.addEventListener('keydown', e => {
                 const m = menu(); const isOpen = m && m.classList.contains('open');

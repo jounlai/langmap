@@ -72,7 +72,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=154">
+    <link rel="stylesheet" href="styles.css?v=155">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for the scripts that name forms appear in. Without these,
          Arabic / Hebrew / Devanagari / Bengali / Ethiopic / Georgian /
@@ -229,7 +229,7 @@
         .nm-form-country { flex: 1 1 auto; font-size: 12px; color: #6b6b6b; text-align: start; line-height: 1.2; }
         .nm-form-main { flex: 1 1 auto; min-width: 0; }
         .nm-form-word { font-size: 16px; font-weight: 700; color: #1a1a2e; unicode-bidi: isolate; }
-        .nm-form-rom { font-size: 12px; color: #6b6b6b; margin-inline-start: 6px; unicode-bidi: isolate; }
+        .nm-form-rom { font-size: 12px; color: #6b6b6b; margin-inline-start: 2px; unicode-bidi: isolate; }
         .nm-form-ipa { display: inline-block; font-size: 12px; color: #2a64a6; font-family: 'Gentium Plus','Charis SIL',serif; }   /* no break at ˈ */
         .nm-freq-dot { flex: 0 0 auto; width: 9px; height: 9px; border-radius: 50%; }
         .nm-freq-very-common { background: #2e8b57; }
@@ -823,10 +823,10 @@
                 codes.forEach(c=>{
                     const f=forms[c];
                     h+='<div class="nm-form-row" data-code="'+c+'" role="button" tabindex="0">';
-                    h+='<span class="nm-form-left"><span class="nm-freq-dot '+freqClass(f.freq)+'"></span>';
+                    h+='<span class="nm-form-left"><span class="nm-freq-dot '+freqClass(f.freq)+'" role="img" aria-label="'+esc(t('freq')[f.freq]||f.freq)+'"></span>';
                     h+='<span class="nm-form-country">'+esc(loc(LANGS[c].country))+'</span></span>';
                     h+='<span class="nm-form-main"><span class="nm-form-word nm-script">'+esc(f.form)+'</span>';
-                    if(f.rom && f.rom!==f.form) h+='<span class="nm-form-rom">'+esc(f.rom)+'</span>';
+                    if(f.rom && f.rom!==f.form) h+=' <span class="nm-form-rom">'+esc(f.rom)+'</span>';
                     if(f.ipa) h+=' <bdi class="nm-form-ipa" dir="ltr">/'+esc(f.ipa)+'/</bdi>';
                     h+='</span></div>';
                 });
@@ -1216,7 +1216,7 @@
             if(map && map.on) map.on('moveend', ()=>{ clearTimeout(boot._mh); boot._mh=setTimeout(updateHash, 250); });
             syncSheetInert();
             // Markers off the visible map are not Tab stops (focus vanished off screen).
-            if(map && map.on){ let _mt=null; const syncMk=()=>{ const mr=map.getContainer().getBoundingClientRect(); let ml=mr.left; { const pn=document.getElementById('nm-panel'), pr=pn&&pn.getClientRects().length&&pn.getBoundingClientRect(); if(pr && pr.left<=mr.left+2 && pr.right<mr.left+mr.width/2) ml=Math.max(ml,pr.right); } document.querySelectorAll('#map .leaflet-marker-icon[tabindex]').forEach(el=>{ let r=el.getBoundingClientRect(); if((!r.width||!r.height) && el.firstElementChild) r=el.firstElementChild.getBoundingClientRect(); const cx=r.left+r.width/2, cy=r.top+r.height/2; const want=(cx>ml&&cx<mr.right&&cy>mr.top&&cy<mr.bottom)?0:-1; if(el.tabIndex!==want && el!==document.activeElement) el.tabIndex=want; }); }; map.on('moveend zoomend layeradd', ()=>{ clearTimeout(_mt); _mt=setTimeout(syncMk,120); }); }
+            if(map && map.on){ let _mt=null; const syncMk=()=>{ const mr=map.getContainer().getBoundingClientRect(); let ml=mr.left; { const pn=document.getElementById('nm-panel'), pr=pn&&pn.getClientRects().length&&pn.getBoundingClientRect(); if(pr && pr.left<=mr.left+40 && pr.right<mr.left+mr.width/2) ml=Math.max(ml,pr.right); } document.querySelectorAll('#map .leaflet-marker-icon[tabindex]').forEach(el=>{ let r=el.getBoundingClientRect(); if((!r.width||!r.height) && el.firstElementChild) r=el.firstElementChild.getBoundingClientRect(); const cx=r.left+r.width/2, cy=r.top+r.height/2; const want=(cx>ml&&cx<mr.right&&cy>mr.top&&cy<mr.bottom)?0:-1; if(el.tabIndex!==want && el!==document.activeElement) el.tabIndex=want; }); }; map.on('moveend zoomend layeradd', ()=>{ clearTimeout(_mt); _mt=setTimeout(syncMk,120); }); }
             // A popup opened from a focused marker (Enter): focus its close button,
             // or it sat behind every other marker in the Tab order.
             if(map && map.on) map.on('popupopen', e=>{ { const _c=e.popup.getElement && e.popup.getElement() && e.popup.getElement().querySelector('.leaflet-popup-close-button'); if(_c && window.__nmA11){ _c.setAttribute('aria-label', window.__nmA11('close')); _c.title=window.__nmA11('close'); } } const ae=document.activeElement; if(ae && ae.classList && ae.classList.contains('leaflet-marker-icon')){ const c=e.popup.getElement && e.popup.getElement().querySelector('.leaflet-popup-close-button'); if(c) setTimeout(()=>c.focus(),0); } });

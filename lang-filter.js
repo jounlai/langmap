@@ -880,7 +880,17 @@
     function periodActive() {
         return periodFilter.fromIdx > PERIOD_MIN_IDX || periodFilter.toIdx < PERIOD_MAX_IDX;
     }
-    function fmtIdx(i) { return i < 0 ? (-i) + 'c BCE' : (i <= 0 ? '1c CE' : i + 'c CE'); }
+    // [BCE, CE] century formats per UI language (the readout was English-only).
+    const CENTURY_FMT = {
+        en:['{n}c BCE','{n}c CE'], ja:['紀元前{n}世紀','{n}世紀'], ko:['기원전 {n}세기','{n}세기'], zh:['公元前{n}世纪','{n}世纪'], yue:['公元前{n}世紀','{n}世紀'],
+        vi:['thế kỷ {n} TCN','thế kỷ {n}'], th:['ศตวรรษที่ {n} ก่อน ค.ศ.','ศตวรรษที่ {n}'], id:['abad ke-{n} SM','abad ke-{n} M'], hi:['{n}वीं सदी ई.पू.','{n}वीं सदी ई.'],
+        de:['{n}. Jh. v. Chr.','{n}. Jh.'], fr:['{n}e s. av. J.-C.','{n}e s.'], it:['sec. {n} a.C.','sec. {n}'], es:['siglo {n} a. C.','siglo {n}'], pt:['século {n} a.C.','século {n}'],
+        ru:['{n} в. до н. э.','{n} в.'], uk:['{n} ст. до н. е.','{n} ст.'], ar:['القرن {n} ق.م','القرن {n}'], he:['המאה ה-{n} לפנה״ס','המאה ה-{n}'], sw:['karne ya {n} KK','karne ya {n}']
+    };
+    function fmtIdx(i) {
+        const ui = String(getUiLang() || 'en'), f = CENTURY_FMT[ui] || CENTURY_FMT[ui.split('_')[0]] || CENTURY_FMT.en;
+        return i < 0 ? f[0].replace('{n}', -i) : f[1].replace('{n}', i <= 0 ? 1 : i);
+    }
     // Parse a meta.period string ("15cBCE–21cCE", "6–1cBCE", "5–12c") into a
     // [startIdx, endIdx] pair of SIGNED CENTURY INDICES (BCE negative, CE
     // positive — same space as the slider). A bare side inherits the era
@@ -1452,7 +1462,7 @@
         const values = enumerateValues();
         let html = `
             <div class="lf-panel-header">
-                <span class="lf-panel-title" id="lf-panel-title">${t('title_filter')}</span>
+                <span class="lf-panel-title" id="lf-panel-title" role="heading" aria-level="2">${t('title_filter')}</span>
                 <div class="lf-actions">
                     <span class="lf-counter" role="status" aria-live="polite" aria-atomic="true"></span>
                     <button class="lf-reset">${t('btn_clear')}</button>
@@ -1477,8 +1487,8 @@
                     <div class="lf-period-dual">
                         <div class="lf-period-track"></div>
                         <div class="lf-period-fill"></div>
-                        <input type="range" class="lf-period-from" aria-label="${t('period_from')}" min="${PERIOD_MIN_IDX}" max="${PERIOD_MAX_IDX}" step="1" value="${periodFilter.fromIdx}">
-                        <input type="range" class="lf-period-to" aria-label="${t('period_to')}" min="${PERIOD_MIN_IDX}" max="${PERIOD_MAX_IDX}" step="1" value="${periodFilter.toIdx}">
+                        <input type="range" class="lf-period-from" aria-label="${t('period_from')}" aria-valuetext="${fmtIdx(periodFilter.fromIdx)}" min="${PERIOD_MIN_IDX}" max="${PERIOD_MAX_IDX}" step="1" value="${periodFilter.fromIdx}">
+                        <input type="range" class="lf-period-to" aria-label="${t('period_to')}" aria-valuetext="${fmtIdx(periodFilter.toIdx)}" min="${PERIOD_MIN_IDX}" max="${PERIOD_MAX_IDX}" step="1" value="${periodFilter.toIdx}">
                     </div>
                 </div>
             `;
@@ -1630,7 +1640,7 @@
         function renderPlaceholder() {
             panel.innerHTML = `
                 <div class="lf-panel-header">
-                    <span class="lf-panel-title" id="lf-panel-title">${t('title_filter')}</span>
+                    <span class="lf-panel-title" id="lf-panel-title" role="heading" aria-level="2">${t('title_filter')}</span>
                     <div class="lf-actions">
                         <span class="lf-counter" role="status" aria-live="polite" aria-atomic="true">${t('loading')}</span>
                         <button type="button" class="lf-close" aria-label="${t('close')}" title="${t('close')}">×</button>
@@ -1830,8 +1840,8 @@
             function updatePeriodUI() {
                 const fromEl = panel.querySelector('.lf-period-from');
                 const toEl = panel.querySelector('.lf-period-to');
-                if (fromEl) fromEl.value = String(periodFilter.fromIdx);
-                if (toEl) toEl.value = String(periodFilter.toIdx);
+                if (fromEl) { fromEl.value = String(periodFilter.fromIdx); fromEl.setAttribute('aria-valuetext', fmtIdx(periodFilter.fromIdx)); }
+                if (toEl) { toEl.value = String(periodFilter.toIdx); toEl.setAttribute('aria-valuetext', fmtIdx(periodFilter.toIdx)); }
                 const label = panel.querySelector('.lf-period-label');
                 if (label) label.textContent = fmtIdx(periodFilter.fromIdx) + ' – ' + fmtIdx(periodFilter.toIdx);
                 // Position the highlighted fill between the two thumbs.
@@ -1873,7 +1883,10 @@
                             c.setAttribute('aria-pressed', 'false');
                         });
                     }
+                    const _hadF = document.activeElement === sectionClear;
                     refresh();
+                    // The Clear button hides itself: keep focus in that section.
+                    if (_hadF) { const f = panel.querySelector(cat === 'period' ? '.lf-period-from' : `.lf-chip[data-cat="${cat}"]`) || panel.querySelector('.lf-reset'); if (f) f.focus(); }
                     return;
                 }
                 const reset = e.target.closest('.lf-reset');

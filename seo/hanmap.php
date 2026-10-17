@@ -85,12 +85,13 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
         'title' => $title,
         'description' => $metaDesc,
         'canonical' => $canonical,
-        'image' => SEO_SITE . '/ogp-tree.png',
+        'image' => SEO_SITE . '/ogp-hanmap.png',
         'ui' => $ui,
         'altpath' => $altPath,
     ]);
     ?>
 <nav class="seo-crumbs" aria-label="<?= e(seo_t($ui, 'crumbs')) ?>"><a href="<?= e(seo_path($ui, 'hanmap')) ?>">Han Map</a> &rsaquo; <?= e($name) ?></nav>
+<?= seo_breadcrumb_ld([['Han Map', seo_path($ui, 'hanmap')], [$name, null]]) ?>
 
 <header class="seo-hero">
   <?php if ($native && $native !== $name): ?>
@@ -103,7 +104,7 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
   <?php endif; ?>
   <h1><?= e($name) ?></h1>
   <?php if (!empty($lang['family'])): ?>
-    <p class="sub"><?= e(seo_meta_value($ui, $lang['family'])) ?></p>
+    <p class="sub"><?= seo_chip_value(seo_meta_value($ui, $lang['family']), seo_meta_value_lang($ui, (string) $lang['family'])) ?></p>
   <?php endif; ?>
 </header>
 
@@ -179,7 +180,7 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
                 $html .= '<td class="c-char" lang="zh" rowspan="' . $n . '">' . e($c['char']) . '</td>'
                        . '<td class="c-gloss" rowspan="' . $n . '"' . ($ui !== 'en' ? ' lang="en"' : '') . '>' . e($c['gloss'] ?? '') . '</td>';   // glosses are English in the data
             }
-            $html .= '<td class="c-read">' . (($n > 1 && $label !== '') ? '<span class="rlabel">' . e($label) . '</span>' : '') . '</td>'
+            $html .= '<td class="c-read">' . (($n > 1 && $label !== '') ? '<span class="rlabel">' . seo_reading_label($ui, $label) . '</span>' : '') . '</td>'
                    . '<td class="c-form" lang="' . e(seo_lang_attr($code)) . '">'
                    . ($native !== '' ? '<span class="c-native">' . e($native) . '</span>' : '')
                    . ($surface !== '' ? '<span class="c-rom"' . (($native !== '' && $romLang !== '') ? ' lang="' . e($romLang) . '"' : '') . '>' . e($surface) . '</span>' : '')
@@ -276,7 +277,7 @@ function seo_render_hanmap_index(array $data, string $ui): void
             'n' => (string) count($langs),
         ]),
         'canonical' => SEO_SITE . seo_path($ui, 'hanmap'),
-        'image' => SEO_SITE . '/ogp-tree.png',
+        'image' => SEO_SITE . '/ogp-hanmap.png',
         'ui' => $ui,
         'altpath' => '/hanmap/',
     ]);

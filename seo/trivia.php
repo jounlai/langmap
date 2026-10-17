@@ -330,7 +330,7 @@ function seo_render_trivia_article(array $data, array $byId, string $id, string 
         'title' => $t['title'] . ' | ' . seo_t($ui, 'tri_brand'),
         'description' => $desc,
         'canonical' => $canonical,
-        'image' => SEO_SITE . ($map === 'hanmap' ? '/ogp-tree.png' : '/ogp-wordmap.png'),
+        'image' => SEO_SITE . ($map === 'hanmap' ? '/ogp-hanmap.png' : '/ogp-wordmap.png'),
         'ui' => $ui,
         'altpath' => '/trivia/' . rawurlencode($id),
     ]);
@@ -340,6 +340,7 @@ function seo_render_trivia_article(array $data, array $byId, string $id, string 
   <a href="<?= e(seo_path($ui, 'trivia')) ?>"><?= e(seo_t($ui, 'tri_link')) ?></a> &rsaquo;
   <?= e($t['title']) ?>
 </nav>
+<?= seo_breadcrumb_ld([['LangMap', seo_path($ui, '')], [seo_t($ui, 'tri_link'), seo_path($ui, 'trivia')], [$t['title'], null]]) ?>
 <header class="seo-hero">
   <h1><?= e($title) ?></h1>
   <?php if ($t['summary'] !== ''): ?>

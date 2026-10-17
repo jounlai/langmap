@@ -1,7 +1,7 @@
 {
   "app.js": {
-    "version": 95,
-    "hash": "d5f4995748d33925"
+    "version": 96,
+    "hash": "400aa914b68119d8"
   },
   "data.js": {
     "version": 92,
@@ -16,8 +16,8 @@
     "hash": "aa03d6c05a4b3504"
   },
   "lang-filter.js": {
-    "version": 52,
-    "hash": "75237b754594d9d2"
+    "version": 53,
+    "hash": "7d16e4fe4fd187a2"
   },
   "lang-picker.js": {
     "version": 8,
@@ -36,8 +36,8 @@
     "hash": "40b21b013ca7082d"
   },
   "my-languages.js": {
-    "version": 33,
-    "hash": "2a58be2d844a8e36"
+    "version": 34,
+    "hash": "88e8de3d7709ca49"
   },
   "namemap_data.js": {
     "version": 9,
@@ -56,8 +56,8 @@
     "hash": "13754e5759677c52"
   },
   "nav-short.js": {
-    "version": 22,
-    "hash": "efc2b394fa4bd802"
+    "version": 23,
+    "hash": "3a5c9730befa1610"
   },
   "poster_geo.js": {
     "version": 12,
@@ -84,16 +84,16 @@
     "hash": "a8212694df6a93fa"
   },
   "styles.css": {
-    "version": 155,
-    "hash": "8294261b229d340b"
+    "version": 156,
+    "hash": "755cc075184f445c"
   },
   "timemap_calendars.js": {
     "version": 15,
     "hash": "481896fe87415300"
   },
   "word_labels.js": {
-    "version": 68,
-    "hash": "c0012bf83c59671b"
+    "version": 69,
+    "hash": "18831ef1448b7bad"
   },
   "word_manifest.js": {
     "version": 960,

@@ -104,6 +104,7 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
     ]);
     ?>
 <nav class="seo-crumbs" aria-label="<?= e(seo_t($ui, 'crumbs')) ?>"><a href="<?= e(seo_path($ui, 'wordmap')) ?>">Word Map</a> &rsaquo; <?= e($name) ?></nav>
+<?= seo_breadcrumb_ld([['Word Map', seo_path($ui, 'wordmap')], [$name, null]]) ?>
 
 <header class="seo-hero">
   <?php if ($native && $native !== $name): ?>
@@ -114,7 +115,7 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
   <?php endif; ?>
   <h1><?= e($name) ?></h1>
   <?php if (!empty($meta['family'])): ?>
-    <p class="sub"><?= e(seo_meta_value($ui, $meta['family'])) ?><?= !empty($lang['excluded']) ? ' · ' . e(seo_t($ui, 'hidden_tag')) : '' ?></p>
+    <p class="sub"><?= seo_chip_value(seo_meta_value($ui, $meta['family']), seo_meta_value_lang($ui, (string) $meta['family'])) ?><?= !empty($lang['excluded']) ? ' · ' . e(seo_t($ui, 'hidden_tag')) : '' ?></p>
   <?php endif; ?>
 </header>
 

@@ -80,9 +80,14 @@ select:focus-visible { outline: 2px solid var(--accent, #2e6fb8); outline-offset
 .leaflet-marker-icon:has(> :focus-visible) { z-index: 100000 !important; }
 /* Full-bleed map: Leaflet's outline-offset:1px put the ring off-screen; paint it inside, over the tiles. */
 .leaflet-container:focus-visible { outline-offset: -2px; }
-.leaflet-container:focus-visible::after { content: ""; position: absolute; inset: 0; z-index: 1000; pointer-events: none; box-shadow: inset 0 0 0 2px var(--accent, #2e6fb8), inset 0 0 0 4px #fff; }
+/* Leaflet focuses the map from code on mousedown, which Chrome counts as
+   :focus-visible: data-ptr (nav-short.js) keeps the ring for keyboard use only. */
+.leaflet-container[data-ptr]:focus-visible { outline: none; }
+.leaflet-container:focus-visible:not([data-ptr])::after { content: ""; position: absolute; inset: 0; z-index: 1000; pointer-events: none; box-shadow: inset 0 0 0 2px var(--accent, #2e6fb8), inset 0 0 0 4px #fff; }
 .url-watermark a:focus-visible, #era-switch #era-help:focus-visible { outline-offset: -2px; }
 html { scroll-padding-block: 8px; }
+/* Map pages: the fixed credit strip and attribution sit over the bottom edge. */
+html:has(.url-watermark) { scroll-padding-bottom: 56px; }
 #langModalBody, .lang-text { scroll-padding: 6px 8px; }
 
 
@@ -1305,6 +1310,8 @@ select:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
 /* Responsive */
 @media (max-width: 768px) {
     body { padding: 10px; overflow-x: hidden; }
+    /* Match the 10px body padding (the -20px header made the page pan 10px at 721–768px, r19). */
+    .site-header-bar { margin-top: -10px; margin-left: -10px; margin-right: -10px; }
     .container { max-width: 100vw; }
     .control-row { flex-direction: column; align-items: stretch; }
     .map-container { padding: 15px 10px; min-width: 0; }

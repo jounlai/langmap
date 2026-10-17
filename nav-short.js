@@ -246,6 +246,19 @@
         return false;
     }
     window.__navOverlayOpen = overlayOpen;
+    // Pointer vs keyboard on the map (see .leaflet-container[data-ptr] in styles.css).
+    document.addEventListener('pointerdown', function (e) { var m = e.target && e.target.closest && e.target.closest('.leaflet-container'); if (m) m.setAttribute('data-ptr', ''); }, true);
+    document.addEventListener('keydown', function (e) { if (e.key === 'Tab' || /^Arrow/.test(e.key)) { var ms = document.querySelectorAll('.leaflet-container[data-ptr]'); for (var i = 0; i < ms.length; i++) ms[i].removeAttribute('data-ptr'); } }, true);
+    // "Made by" credit on the map pages follows <html lang> (it was English everywhere, r18).
+    var CREDIT_BY = { en:'Made by', ja:'制作:', ko:'제작:', zh:'制作:', yue:'製作:', zh_hk:'製作:', vi:'Thực hiện bởi', th:'สร้างโดย', id:'Dibuat oleh', hi:'निर्माता:', de:'Erstellt von', fr:'Créé par', it:'Creato da', es:'Creado por', pt:'Criado por', ru:'Создано', uk:'Створено', ar:'من إعداد', he:'נוצר על ידי', sw:'Imeundwa na' };
+    function syncCredit() {
+        var l = String(document.documentElement.lang || 'en').toLowerCase().replace('-', '_');
+        var v = CREDIT_BY[l] || CREDIT_BY[l.split('_')[0]] || CREDIT_BY.en;
+        var els = document.querySelectorAll('.credit-by');
+        for (var i = 0; i < els.length; i++) if (els[i].textContent !== v) els[i].textContent = v;
+    }
+    new MutationObserver(syncCredit).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', syncCredit); else syncCredit();
     // Tapping the dimmed backdrop closes the drawer (namemap and timemap had
     // no outside-click handler of their own).
     document.addEventListener('click', function (e) {

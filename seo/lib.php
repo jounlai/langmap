@@ -2268,7 +2268,7 @@ function seo_data(string $which): array
  * occur in a translation table or in the data; a marker that could occur would
  * cut the string in the wrong place on exactly the rows nobody tests.
  */
-function seo_family_line(string $ui, string $key, string $family): string
+function seo_family_line(string $ui, string $key, string $family, string $raw = ''): string
 {
     $mark = "\u{FFFC}";
     $s = seo_t($ui, $key, ['family' => $mark]);
@@ -2276,8 +2276,9 @@ function seo_family_line(string $ui, string $key, string $family): string
     if ($i === false) {
         return e($s);
     }
-    return e(substr($s, 0, $i)) . '<bdi>' . e($family) . '</bdi>'
-         . e(substr($s, $i + strlen($mark)));
+    $l = $raw !== '' ? seo_meta_value_lang($ui, $raw) : '';
+    $v = in_array($l, ['en', 'ja'], true) ? seo_chip_value($family, $l) : '<bdi>' . seo_chip_value($family, $l) . '</bdi>';
+    return e(substr($s, 0, $i)) . $v . e(substr($s, $i + strlen($mark)));
 }
 
 /**
@@ -2991,19 +2992,24 @@ function seo_meta_value_lang(string $ui, string $value): string
     $shown = seo_meta_value($ui, $value);
     if ($shown === $value) return $src;
     if ($ui === 'ja') return '';
+    $kana = '/[\x{3041}-\x{3096}\x{30A1}-\x{30FA}]/u';
+    // An English source with Chinese place names (Fuzhou 抚州): tag the CJK runs by their own script, never as Japanese.
+    if ($src === 'en' && !preg_match($kana, $shown)) return preg_match('/[\x{3400}-\x{4DBF}\x{4E00}-\x{9FFF}]/u', $shown) && !in_array($ui, ['zh', 'yue'], true) ? 'cjk-runs' : '';
     // Some stored "translations" are the Japanese copied over (ko 歴史言語 / 推定不可) or
     // half-translated (ar 約4400万人 (هاكا全体)): tag what is still Japanese.
     $jaShown = preg_match($ja, $shown) && !in_array($ui, ['zh', 'yue'], true) || preg_match('/[\x{3041}-\x{3096}\x{30A1}-\x{30FA}]/u', $shown);
-    if (!$jaShown && !in_array($ui, ['zh', 'yue'], true) && preg_match('/\p{Han}/u', $shown)) $jaShown = true;
+    if (!$jaShown && !in_array($ui, ['zh', 'yue'], true) && preg_match('/[\x{3400}-\x{4DBF}\x{4E00}-\x{9FFF}]/u', $shown)) $jaShown = true;
     if (!$jaShown) return '';
     // Only CJK letters (plus digits/punctuation): the whole value is Japanese; mixed: tag the runs.
-    return preg_match('/[^\p{Han}\p{Hiragana}\p{Katakana}\P{L}]/u', $shown) ? 'ja-runs' : 'ja';
+    return preg_match('/[^\x{3005}\x{3041}-\x{3096}\x{30A1}-\x{30FA}\x{30FC}\x{3400}-\x{4DBF}\x{4E00}-\x{9FFF}\P{L}]/u', $shown) ? 'ja-runs' : 'ja';
 }
 /** Chip value markup: an untranslated value is isolated and tagged; CJK runs inside English keep their own lang. */
 function seo_chip_value(string $text, string $lang): string
 {
     if ($lang === '') return e($text);
-    if ($lang === 'ja-runs') return (string) preg_replace('/[\p{Han}\p{Hiragana}\p{Katakana}\x{30FC}][\p{Han}\p{Hiragana}\p{Katakana}\x{30FC}0-9,.~+\/\x{3000}-\x{303F}]*/u', '<span lang="ja">$0</span>', e($text));
+    if ($lang === 'cjk-runs') return seo_cjk_lang_runs(e($text));
+    // Explicit code points, not \p{Han}: see seo_cjk_lang_runs.
+    if ($lang === 'ja-runs') return (string) preg_replace('/[\x{3005}\x{3041}-\x{3096}\x{30A1}-\x{30FA}\x{30FC}\x{3400}-\x{4DBF}\x{4E00}-\x{9FFF}][\x{3005}\x{3041}-\x{3096}\x{30A1}-\x{30FA}\x{30FC}\x{3400}-\x{4DBF}\x{4E00}-\x{9FFF}0-9,.~+\/\x{3000}-\x{303F}]*/u', '<span lang="ja">$0</span>', e($text));
     return '<bdi lang="' . $lang . '">' . ($lang === 'en' ? seo_cjk_lang_runs(e($text)) : e($text)) . '</bdi>';
 }
 
@@ -3099,6 +3105,21 @@ function seo_src_lang(string $t, string $ui): string
     if (preg_match('/[^\x{0000}-\x{036F}\x{1E00}-\x{1EFF}\x{2000}-\x{206F}\x{2190}-\x{21FF}\x{2C60}-\x{2C7F}\x{A720}-\x{A7FF}]/u', $t)) return '';
     if (preg_match('/^(?:Ethnologue|Glottolog|Wikipedia|Wiktionary|ASJP|ABVD|UNESCO|Unicode|WOLD|IDS|Lexibank|CLDF|Omniglot|PHOIBLE|NorthEuraLex)\b/u', $t)) return 'en';
     return preg_match('/(?<!\p{L})(?:the|of|and|an|to|for|dictionary|grammar|language|languages|vocabulary|wordlist|entries|texts?|via|from|with|database|table|row|press|university|edition|phonology|morphology|studies|study|association|lexicon|lemmas|estimate|introduction|reconstruction|history|survey|structures|resources|spoken|written|reference|papers|chapter|pronunciation|short|new)(?!\p{L})/iu', $t) ? 'en' : '';
+}
+
+/**
+ * Han Map reading label (漢音 / Kan-on, 上去・上來（directional verb: go up）):
+ * CJK runs by script, and outside en the English words tagged lang="en".
+ */
+function seo_reading_label(string $ui, string $label): string
+{
+    if ($ui === 'en') return seo_cjk_lang_runs(e($label));
+    $out = '';
+    foreach (preg_split('/([A-Za-z][A-Za-z\x{00C0}-\x{024F}\x{0300}-\x{036F}\'’-]*(?:[ :\/,-]+[A-Za-z][A-Za-z\x{00C0}-\x{024F}\x{0300}-\x{036F}\'’-]*)*)/u', $label, -1, PREG_SPLIT_DELIM_CAPTURE) ?: [$label] as $i => $part) {
+        if ($part === '') continue;
+        $out .= ($i % 2) ? '<span lang="en">' . e($part) . '</span>' : seo_cjk_lang_runs(e($part));
+    }
+    return $out;
 }
 
 /** Wrap each CJK run of already-escaped text in its own lang (ja / ko / zh). */
@@ -3286,6 +3307,23 @@ function seo_fonts_links(string $html): string
 }
 
 /** Shared <head> + page chrome opening. */
+/**
+ * BreadcrumbList JSON-LD matching the visible .seo-crumbs (r19: the SSR pages
+ * had no structured data). $items: [name, path|null]; the last (current page)
+ * may omit its path, which Google allows.
+ */
+function seo_breadcrumb_ld(array $items): string
+{
+    $list = [];
+    foreach (array_values($items) as $i => [$name, $path]) {
+        $el = ['@type' => 'ListItem', 'position' => $i + 1, 'name' => (string) $name];
+        if ($path !== null) $el['item'] = SEO_SITE . $path;
+        $list[] = $el;
+    }
+    $json = json_encode(['@context' => 'https://schema.org', '@type' => 'BreadcrumbList', 'itemListElement' => $list], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP);
+    return '<script type="application/ld+json">' . $json . "</script>\n";
+}
+
 function seo_head(array $opts): void
 {
     $title = $opts['title'] ?? 'LangMap';
@@ -4462,7 +4500,7 @@ function seo_comparisons(string $map, string $code, string $ui,
     ?>
 <section class="seo-ex" data-ex="words" data-uid="<?= e($uid) ?>" data-pages="<?= $np ?>">
   <h2><?= e(seo_t($ui, 'ex_words')) ?></h2>
-  <?php if ($wFamily !== ''): ?><p class="ex-note"><?= seo_family_line($ui, 'cmp_caption', seo_meta_value($ui, $wFamily)) ?></p><?php endif; ?>
+  <?php if ($wFamily !== ''): ?><p class="ex-note"><?= seo_family_line($ui, 'cmp_caption', seo_meta_value($ui, $wFamily), $wFamily) ?></p><?php endif; ?>
   <div class="seo-cmp-wrap">
   <table class="seo-cmp-tbl">
     <thead>
@@ -4626,7 +4664,7 @@ function seo_comparisons(string $map, string $code, string $ui,
         $pages = array_chunk($rows, $perH);
         $np = count($pages);
         // Compact reading renderer.
-        $rd = function (?array $readings, string $c): string {
+        $rd = function (?array $readings, string $c) use ($ui): string {
             if (!$readings) return '<span class="cmp-sf">—</span>';
             $readings = array_values(array_filter($readings, fn($r) =>
                 ($r['surface'] ?? '') !== '' || ($r['ipa'] ?? '') !== ''));
@@ -4636,7 +4674,7 @@ function seo_comparisons(string $map, string $code, string $ui,
             foreach ($readings as $r) {
                 $surface = $r['surface'] ?? ''; $ipa = $r['ipa'] ?? ''; $label = $r['label'] ?? '';
                 $out .= '<span class="cmp-rd">';
-                if ($multi && $label !== '') $out .= '<span class="cmp-rl">' . e($label) . '</span>';
+                if ($multi && $label !== '') $out .= '<span class="cmp-rl">' . seo_reading_label($ui, $label) . '</span>';
                 if ($surface !== '') $out .= '<span class="cmp-sf" style="display:inline" lang="' . e(seo_lang_attr($c)) . '">' . e($surface) . '</span> ';
                 if ($ipa !== '') $out .= '<span class="cmp-ipa" style="display:inline"><bdi dir="ltr">/' . e($ipa) . '/</bdi></span>';
                 $out .= '</span>';
@@ -4646,7 +4684,7 @@ function seo_comparisons(string $map, string $code, string $ui,
     ?>
 <section class="seo-ex" data-ex="han" data-uid="<?= e($uid) ?>" data-pages="<?= $np ?>">
   <h2><?= e(seo_t($ui, 'ex_han')) ?></h2>
-  <?php if ($hFamily !== ''): ?><p class="ex-note"><?= seo_family_line($ui, 'cmp_caption', seo_meta_value($ui, $hFamily)) ?></p><?php endif; ?>
+  <?php if ($hFamily !== ''): ?><p class="ex-note"><?= seo_family_line($ui, 'cmp_caption', seo_meta_value($ui, $hFamily), $hFamily) ?></p><?php endif; ?>
   <div class="seo-cmp-wrap">
   <table class="seo-cmp-tbl">
     <thead>
@@ -4860,11 +4898,12 @@ function seo_foot(string $ui = 'en'): void
 </script>
 <div class="seo-foot">
   <p class="seo-foot-cta"><strong><?= e(seo_t($ui, 'open_map')) ?>:</strong>
-    <a href="/wordmap.html">Word Map</a> &middot;
-    <a href="/hanmap.html">HanMap</a> &middot;
+    <span lang="en"><a href="/wordmap.html">Word Map</a> &middot;
+    <a href="/hanmap.html">Han Map</a> &middot;
     <a href="/namemap.html">Name Map</a> &middot;
+    <a href="/timemap.html">Time Map</a> &middot;
     <a href="/index.html">Word Order</a> &middot;
-    <a href="/tree.html">Tree</a></p>
+    <a href="/tree.html">Tree</a></span></p>
   <p><?= e(seo_t($ui, 'foot')) ?></p>
   <p class="seo-foot-credit"><?= e(seo_t($ui, 'made_by')) ?>
     <a href="https://heuron.com" rel="noopener">Heuron Inc.</a> &middot;

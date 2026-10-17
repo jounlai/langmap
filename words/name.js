@@ -29,7 +29,7 @@ WORDS.name = {
     sw: "Jina",
   },
   definition: {
-    en: "Common NOUN \"name\" (a person's appellation, as in \"my name is…\"). Not a proper name and not the verb \"to name\".",
+    en: "A person's name (a common noun), as in \"my name is…\". Not a particular proper name and not the verb \"to name\".",
     ja: "普通名詞「名前」（人の呼び名。「私の名前は…」の意）。固有名や動詞「名付ける」ではない。",
     ko: "보통명사 \"이름\"（사람의 호칭, \"내 이름은…\"의 뜻). 고유명사나 동사 \"이름 짓다\"가 아님.",
     zh: "普通名词\"名字\"（人的称谓，如\"我的名字是…\"）；不是专有名称，也不是动词\"命名\"。",

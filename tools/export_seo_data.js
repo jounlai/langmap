@@ -312,6 +312,15 @@ function buildWordMapJSON(nameIndex) {
 // It goes in its own file, not into wordmap_seo.json, because only the
 // language-detail page needs it and that blob is already ~23 MB.
 // ---------------------------------------------------------------------------
+const NON_LATIN_UI = /^(ja|zh|yue|ko|th|hi|ru|uk|ar|he)/;
+const normPunct = (x) => String(x).replace(/\u3001/g, ',').replace(/\uFF08/g, '(').replace(/\uFF09/g, ')').replace(/\uFF1A/g, ':').replace(/\uFF1B/g, ';').replace(/\s+/g, '');
+// A run of 3+ Latin words with at least two English function words: an
+// untranslated English clause (proper names like "Academia Paraguaya de la Lengua" pass).
+const EN_FUNC = /^(the|of|is|are|in|on|for|and|or|no|not|its|own|since|as|by|with|to|from|a|an|but|only|has|was|which|that|used|spoken|official|language|languages)$/i;
+function englishLeft(t) {
+  const runs = String(t).match(/[A-Za-z][A-Za-z'’-]*(?:[ ,]+[A-Za-z][A-Za-z'’-]*){2,}/g) || [];
+  return runs.some((r) => r.split(/[ ,]+/).filter((w) => EN_FUNC.test(w)).length >= 2);
+}
 const CJK_WORD_SALAD = /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}] +(?:[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}]|\d)/u;
 const META_I18N_FIELDS = ['family', 'speakers', 'countries', 'official', 'script', 'region'];
 
@@ -356,6 +365,11 @@ function buildMetaI18n(LANG_DATA, hanLangs) {
       // (本土 南東 アジア, 公用 以来 2006): worse than the English, which the
       // page tags lang="en" (rally r18).
       if (/^(ja|zh|yue)/.test(ui) && CJK_WORD_SALAD.test(t || '')) continue;
+      // English with only the punctuation swapped (、（）) is not a translation, and
+      // in a non-Latin UI a run of 3+ English words left behind is word salad
+      // (اللاتينية (no المعيارية إملاء; …)). Both fall back to tagged English (r19).
+      if (t && normPunct(t) === normPunct(en)) continue;
+      if (NON_LATIN_UI.test(ui) && englishLeft(t || '')) continue;
       if (t && t !== en) row[ui] = t;
     }
     if (Object.keys(row).length) { fields[en] = row; translated++; }

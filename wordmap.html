@@ -87,7 +87,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=155">
+    <link rel="stylesheet" href="styles.css?v=156">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts. Without these the characters render
          as tofu boxes: desktop Linux often ships the Noto historic fonts, but
@@ -1518,8 +1518,9 @@
                 Georgia, "Times New Roman", serif;
         }
         .lang-info-panel table { width: 100%; border-collapse: collapse; margin-bottom: 10px; }
-        .lang-info-panel td { padding: 4px 10px 4px 0; vertical-align: middle; }
-        .lang-info-panel td:first-child { font-weight: 600; color: #555; width: 90px; white-space: nowrap; padding-right: 14px; }
+        .lang-info-panel td { padding: 4px 0; padding-inline-end: 10px; vertical-align: middle; }
+        /* Labels wrap (de/sw "Mpangilio wa Maneno" pushed the table past the panel, r18). */
+        .lang-info-panel td:first-child { font-weight: 600; color: #555; width: 90px; overflow-wrap: anywhere; padding-inline-end: 14px; }
         /* The word section is a three-column table — concept | word |
            pronunciation — with a header row, so the IPA keeps its own column
            aligned under the 発音/転写 header. Cells are vertically centred and the
@@ -2156,6 +2157,8 @@
             z-index: 1015;
             pointer-events: none;
         }
+        /* Short landscape phones: scroll the drawer, never squash its controls (r19). */
+        .right-secondary-controls > * { flex-shrink: 0; }
         body:has(.settings-toggle:checked) .right-secondary-controls {
             opacity: 1; visibility: visible; transform: translateX(0);
             pointer-events: auto;
@@ -3040,7 +3043,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=22"></script>
+    <script src="nav-short.js?v=23"></script>
 </head>
 <body>
     <div id="pg-live" role="status" aria-live="polite" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap"></div>
@@ -3644,7 +3647,7 @@
 
     <!-- Credit watermark -->
     <div class="url-watermark">
-        Made by <a href="https://x.com/jounlai" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;">Jounlai Cho</a> @<a href="https://heuron.com" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;">Heuron Inc.</a> <a href="https://github.com/jounlai/langmap" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg> GitHub</a> · <a href="tree.html" id="wm-tree-link" title="Tree" aria-label="Tree" style="color:inherit;pointer-events:auto;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px" aria-hidden="true"><circle cx="12" cy="4" r="2"/><circle cx="6" cy="12" r="2"/><circle cx="18" cy="12" r="2"/><circle cx="6" cy="20" r="2"/><circle cx="18" cy="20" r="2"/><path d="M12 6v2M12 8h-6M12 8h6M6 14v4M18 14v4"/></svg></a>
+        <span class="credit-by">Made by</span> <a href="https://x.com/jounlai" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;">Jounlai Cho</a> @<a href="https://heuron.com" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;">Heuron Inc.</a> <a href="https://github.com/jounlai/langmap" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg> GitHub</a> · <a href="tree.html" id="wm-tree-link" title="Tree" aria-label="Tree" style="color:inherit;pointer-events:auto;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px" aria-hidden="true"><circle cx="12" cy="4" r="2"/><circle cx="6" cy="12" r="2"/><circle cx="18" cy="12" r="2"/><circle cx="6" cy="20" r="2"/><circle cx="18" cy="20" r="2"/><path d="M12 6v2M12 8h-6M12 8h6M6 14v4M18 14v4"/></svg></a>
     </div>
 
     <!-- Language info panel -->
@@ -3722,8 +3725,8 @@
     })();
     </script>
     <script src="wordmap_data.js?v=343"></script>
-    <script src="word_manifest.js?v=960"></script>
-    <script src="word_labels.js?v=68"></script>
+    <script src="word_manifest.js?v=961"></script>
+    <script src="word_labels.js?v=69"></script>
     <script>
         /* Cache-buster registry. It MUST be declared here, above the per-word
            loader below, and not beside assetUrl() where it used to live.
@@ -3743,17 +3746,17 @@
            per-word loader can read it", which was the intent all along — only
            the order was wrong. */
         const WM_ASSET_VERSION = {
-            styles:   155,
+            styles:   156,
             data:      343,
             metaI18n:  16,
-            filter:    52,
+            filter:    53,
             names:   203,
             meta:     417,
             trivia:   44,
             triviaI18n: 27,
-            words:      960,
+            words:      961,
             langWords:    676,
-            labels:      68,
+            labels:      69,
             metaI18nCoverage: 10,
             metaI18nCoverage2: 2,
             metaI18nCoverage3: 3,
@@ -3888,7 +3891,7 @@
          loaded. Loading them eagerly meant half a megabyte on every visit for
          data that only matters once a language modal opens. They now load
          inside loadMeta(). See __wmLoadMetaI18n() below. -->
-    <script src="lang-filter.js?v=52"></script>
+    <script src="lang-filter.js?v=53"></script>
     <!-- Translated language names: 1,154 codes × 19 UI languages is ~215 KB
          gzipped, and a reader uses one of them plus English as the fallback.
          Load the shim, then English, then whichever UI language this visitor
@@ -4739,6 +4742,17 @@
             });
             // Localize search input placeholder (Audit i18n gap fix)
             const searchInput = document.getElementById('lang-search');
+            // Keep the results above the on-screen keyboard: only the visual viewport shrinks (r19).
+            if (searchInput && !searchInput.dataset.fitBound) {
+                searchInput.dataset.fitBound = '1';
+                const fitResults = () => {
+                    const rb = document.getElementById('lang-search-results'); if (!rb) return;
+                    const vv = window.visualViewport, bottom = vv ? vv.offsetTop + vv.height : window.innerHeight;
+                    rb.style.maxHeight = Math.max(96, Math.min(280, bottom - searchInput.getBoundingClientRect().bottom - 8)) + 'px';
+                };
+                searchInput.addEventListener('focus', fitResults); searchInput.addEventListener('input', fitResults);
+                if (window.visualViewport) window.visualViewport.addEventListener('resize', fitResults);
+            }
             if (searchInput) searchInput.placeholder = i18n('searchPlaceholder');
             if (searchInput) {
                 const _sl = i18n('searchPlaceholder').replace(/^\S*\u{1F50D}\s*/u, '').replace(/[\u2026.]+$/u, '').trim();
@@ -4864,7 +4878,8 @@
             if (tModal && tModal.classList.contains('visible')
                 && typeof renderTriviaArticle === 'function'
                 && tModal.dataset.articleId) {
-                renderTriviaArticle(tModal.dataset.articleId);
+                if (tModal.dataset.articleId === 'index') { if (typeof renderTriviaIndex === 'function') renderTriviaIndex(); }
+                else renderTriviaArticle(tModal.dataset.articleId);
             }
             if (typeof window.__refreshChromeToggleLabels === 'function') {
                 window.__refreshChromeToggleLabels(i18n);
@@ -4932,8 +4947,11 @@
             const _byKey = Date.now() - (window.__uiSelKeyAt || 0) < 600;
             if (_hdrToggle && _hdrToggle.checked && !_byKey
                 && window.matchMedia('(max-width: 640px)').matches) {
+                const _hadF = document.activeElement && document.activeElement.id === 'header-ui-lang';
                 _hdrToggle.checked = false;
                 _hdrToggle.dispatchEvent(new Event('change'));
+                // The focused select just collapsed away: back to the menu button.
+                if (_hadF) { const hb = document.querySelector('.hamburger-btn'); if (hb) hb.focus(); }
             }
         });
 
@@ -7634,11 +7652,14 @@
         // Labels outside the visible map are not Tab stops (focus vanished off
         // screen for 30-70 presses); re-evaluated whenever the view settles.
         function syncLabelTabs() {
-            const mr = document.getElementById('map').getBoundingClientRect();
+            const mapEl = document.getElementById('map'), mr = mapEl.getBoundingClientRect();
             document.querySelectorAll('#map .lang-label[role="button"]').forEach((l) => {
+                if (l.dataset.pcov) return;   // the panel-cover guard owns it while covered
                 const r = l.getBoundingClientRect();
                 const cx = r.left + r.width / 2, cy = r.top + r.height / 2;   // centre on screen, not just a sliver
-                const inside = r.width && cx > mr.left && cx < mr.right && cy > mr.top && cy < mr.bottom;
+                // ...and not painted over by the header, controls or footer (r19).
+                let inside = r.width && cx > mr.left && cx < mr.right && cy > mr.top && cy < mr.bottom;
+                if (inside) { const hit = document.elementFromPoint(cx, cy); inside = !!(hit && mapEl.contains(hit)); }
                 const want = inside ? 0 : -1;
                 if (l.tabIndex !== want && l !== document.activeElement) l.tabIndex = want;
             });
@@ -7801,47 +7822,65 @@
                 requestAnimationFrame(updateSelectedLabel);
             }
         }
-        // Panel-cover guard (rally r18). While #lang-info or #compare-panel is
-        // open, the visible controls it paints over (zoom, 3D, settings at
-        // desktop; nearly all map chrome on a phone) are made inert so Tab
-        // cannot land on something the reader cannot see. Only covered elements
-        // are touched: the map container keeps pointer input and merely loses
-        // its own tab stop. When the set of open panels changes, the release is
-        // synchronous (the close paths restore focus on the very next line);
-        // re-applying waits a frame because updateConnectorLine also runs on
-        // every map move. `var`, not `let`: updateConnectorLine first runs
-        // during the initial updateMarkers(), before this point is reached.
+        // Panel-cover guard (rally r18, reworked r19). While #lang-info or
+        // #compare-panel is open, the visible controls it paints over (zoom,
+        // 3D, settings at desktop; nearly all map chrome on a phone) leave the
+        // Tab order so focus cannot land on something the reader cannot see.
+        // - Chrome outside the map goes inert; anything inside #map (labels,
+        //   the map itself) only gets tabindex=-1, so a half-covered label can
+        //   still be clicked on its visible part.
+        // - The full pass runs when the set of open panels changes or the
+        //   window resizes; map moves re-check only the map's own focusables,
+        //   at most every 200 ms (a full pass per pan frame was a long task).
+        // `var`, not `let`: updateConnectorLine first runs during the initial
+        // updateMarkers(), before this point is reached.
         var _PCOV_Q = 'a[href],button,input,select,textarea,summary,[tabindex]:not([tabindex="-1"])';
-        var _pcovRaf = 0, _pcovKey = '';
+        var _pcovRaf = 0, _pcovKey = '', _pcovT = 0, _pcovLast = 0;
         function _pcovPanels() {
-            return ['lang-info', 'compare-panel'].map((id) => document.getElementById(id)).filter((p) => p && p.classList.contains('visible'));
+            // Also a compact trivia article: it stops being modal but still paints over the map (r19).
+            return ['lang-info', 'compare-panel', 'trivia-modal'].map((id) => document.getElementById(id)).filter((p) => p && p.classList.contains('visible') && (p.id !== 'trivia-modal' || p.classList.contains('compact')));
         }
-        function _pcovRelease() {
+        function _pcovVisible(e) {
+            if (e.checkVisibility) return e.checkVisibility({ visibilityProperty: true, opacityProperty: true });
+            for (let x = e; x && x.nodeType === 1; x = x.parentElement) { const cs = getComputedStyle(x); if (cs.display === 'none' || cs.visibility === 'hidden' || cs.opacity === '0') return false; }
+            return true;
+        }
+        const _pcovInMap = (e, mapEl) => !!((mapEl && (e === mapEl || mapEl.contains(e))) || (e.closest && e.closest('.globe-label, .lang-label')));
+        function _pcovRelease(mapOnly) {
+            const mapEl = document.getElementById('map');
             for (const e of document.querySelectorAll('[data-pcov]')) {
+                if (mapOnly && !_pcovInMap(e, mapEl)) continue;
                 if (e.dataset.pcov === 'inert') e.inert = false;
                 else if (e.dataset.pcov === 'none') e.removeAttribute('tabindex');
                 else e.setAttribute('tabindex', e.dataset.pcov);
                 delete e.dataset.pcov;
             }
         }
-        function _pcovApply() {
-            _pcovRaf = 0;
-            _pcovRelease();
+        function _pcovApply(mapOnly) {
+            _pcovRaf = 0; _pcovLast = Date.now();
+            const mapEl = document.getElementById('map');
+            _pcovRelease(mapOnly);
             const panels = _pcovPanels();
             if (!panels.length) return;
             const rects = panels.map((p) => p.getBoundingClientRect());
+            // A phone-width sheet: page content below the fold would scroll up under it when focused.
+            const sheet = rects.some((q) => q.width >= window.innerWidth * 0.9);
             let refocus = null;
-            for (const e of document.querySelectorAll(_PCOV_Q)) {
+            const cand = mapOnly
+                ? [...(mapEl ? [mapEl, ...mapEl.querySelectorAll(_PCOV_Q)] : []), ...document.querySelectorAll('.globe-label')].filter((x) => x.matches(_PCOV_Q))
+                : [...document.querySelectorAll(_PCOV_Q)];
+            for (const e of cand) {
                 const r = e.getBoundingClientRect();
                 if (!r.width) continue;
                 const cx = r.left + r.width / 2, cy = r.top + r.height / 2;
+                if (sheet && !mapOnly && cy > window.innerHeight && !panels.some((p) => p.contains(e)) && !_pcovInMap(e, mapEl)) { e.dataset.pcov = 'inert'; e.inert = true; continue; }
                 if (!rects.some((q) => cx >= q.left && cx <= q.right && cy >= q.top && cy <= q.bottom)) continue;
-                if (!e.checkVisibility({ visibilityProperty: true, opacityProperty: true })) continue;   // closed drawer / menu
+                if (!_pcovVisible(e)) continue;   // closed drawer / menu
                 const hit = document.elementFromPoint(cx, cy);
                 const over = hit && panels.find((p) => p.contains(hit));
                 if (!over || over.contains(e) || e.contains(over)) continue;   // not covered, or drawn above
                 if (e === document.activeElement) refocus = over;
-                if (e.classList.contains('leaflet-container')) {
+                if (_pcovInMap(e, mapEl)) {
                     e.dataset.pcov = e.getAttribute('tabindex') ?? 'none';
                     e.setAttribute('tabindex', '-1');
                 } else { e.dataset.pcov = 'inert'; e.inert = true; }
@@ -7852,13 +7891,18 @@
         }
         function syncPanelCover() {
             const key = _pcovPanels().map((p) => p.id).join();
-            if (key !== _pcovKey) { _pcovKey = key; _pcovRelease(); }
-            if (!key) { cancelAnimationFrame(_pcovRaf); _pcovRaf = 0; return; }
-            if (!_pcovRaf) _pcovRaf = requestAnimationFrame(_pcovApply);
+            if (key !== _pcovKey) {
+                _pcovKey = key; _pcovRelease();   // synchronous: close paths restore focus on the next line
+                cancelAnimationFrame(_pcovRaf); _pcovRaf = 0; clearTimeout(_pcovT); _pcovT = 0;
+                if (key) _pcovRaf = requestAnimationFrame(() => _pcovApply(false));
+                return;
+            }
+            if (!key || _pcovRaf || _pcovT) return;
+            const wait = Math.max(0, 200 - (Date.now() - _pcovLast));
+            _pcovT = setTimeout(() => { _pcovT = 0; _pcovRaf = requestAnimationFrame(() => _pcovApply(true)); }, wait);
         }
-        // Open/close paths that do not pass through updateConnectorLine (compare
-        // panel, globe click). closeComparePanel still needs its own direct call.
-        ['lang-info', 'compare-panel'].forEach((id) => { const p = document.getElementById(id); if (p) new MutationObserver(syncPanelCover).observe(p, { attributes: true, attributeFilter: ['class'] }); });
+        window.addEventListener('resize', () => { if (_pcovKey) { cancelAnimationFrame(_pcovRaf); _pcovRaf = requestAnimationFrame(() => _pcovApply(false)); } });
+        ['lang-info', 'compare-panel', 'trivia-modal'].forEach((id) => { const p = document.getElementById(id); if (p) new MutationObserver(syncPanelCover).observe(p, { attributes: true, attributeFilter: ['class'] }); });
         function updateConnectorLine() {
             syncPanelCover();
             const ip = _infoPanel();
@@ -8777,7 +8821,7 @@
                     // (where present) to surface qualitative detail like
                     // "L1 ≈ 380M; L2 ≈ 1.1B" without crowding the main cell.
                     if (sc && sc.notes) {
-                        speakerCell += `<div style="margin-top:2px;font-size:10px;color:#5f6368;line-height:1.4">${escapeHtml(sc.notes)}</div>`;
+                        speakerCell += `<div${/^en/.test(String(uiLang || 'en')) ? '' : ' lang="en"'} style="margin-top:2px;font-size:10px;color:#5f6368;line-height:1.4">${escapeHtml(sc.notes)}</div>`;
                     }
                     html += `<tr><td>${escapeHtml(wt('speakers'))}</td><td>${speakerCell}</td></tr>`;
                 }
@@ -10502,7 +10546,6 @@
                     + `</button>`;
             }).join('');
             index.hidden = false;
-            delete modal.dataset.articleId;
             modal.dataset.view = 'index';
             const _scrollIdx = document.getElementById('trivia-scroll');
             if (_scrollIdx) _scrollIdx.scrollTop = 0;
@@ -11617,7 +11660,7 @@
             reset:   {en:'Play again', ja:'もう一度', ko:'다시 하기', zh:'再玩一次', es:'Jugar otra vez', fr:'Rejouer', de:'Nochmal spielen', pt:'Jogar de novo', ru:'Ещё раз', it:'Rigioca', yue:'再玩一次', vi:'Chơi lại', th:'เล่นอีกครั้ง', id:'Main lagi', hi:'फिर से खेलें', uk:'Ще раз', ar:'العب مجددًا', he:'שחקו שוב', sw:'Cheza tena'},
             shWon:   {en:"I spotted today's mystery language just from how it says a few everyday words.", ja:'今日のミステリー言語を、日常語の言い方だけで見抜きました。', ko:'오늘의 미스터리 언어를 일상 단어의 발음만으로 알아냈어요.', zh:'仅凭几个日常词的说法，就认出了今天的神秘语言。', es:'Adiviné el idioma misterioso de hoy solo por cómo dice unas palabras cotidianas.', fr:"J'ai reconnu la langue mystère du jour rien qu'à sa façon de dire quelques mots courants.", de:'Ich habe die heutige Mystery-Sprache allein daran erkannt, wie sie ein paar Alltagswörter ausspricht.', pt:'Descobri a língua misteriosa de hoje só pela forma como diz algumas palavras do dia a dia.', ru:'Угадал сегодняшний таинственный язык лишь по тому, как он произносит несколько обычных слов.', it:'Ho riconosciuto la lingua misteriosa di oggi solo da come pronuncia qualche parola di uso quotidiano.', yue:'淨係聽幾個日常詞點講，就認出咗今日嘅神秘語言。', vi:'Mình đoán ra ngôn ngữ bí ẩn hôm nay chỉ từ cách nó nói vài từ thường ngày.', th:'ทายภาษาปริศนาของวันนี้ได้แค่จากวิธีพูดคำในชีวิตประจำวันไม่กี่คำ', id:'Aku menebak bahasa misterius hari ini hanya dari cara mengucapkan beberapa kata sehari-hari.', hi:'आज की रहस्यमयी भाषा को बस कुछ रोज़मर्रा के शब्दों के उच्चारण से पहचान लिया।', uk:'Вгадав сьогоднішню таємничу мову лише з того, як вона вимовляє кілька повсякденних слів.', ar:'عرفت لغة اليوم الغامضة فقط من طريقة نطقها لبضع كلمات يومية.', he:'זיהיתי את שפת היום המסתורית רק לפי האופן שבו היא אומרת כמה מילים יומיומיות.', sw:'Nilitambua lugha ya leo ya fumbo kwa jinsi inavyotamka maneno machache ya kila siku.'},
             shLost:  {en:"Today's mystery language got the better of me — can you crack it?", ja:'今日のミステリー言語には敵わず…あなたは解ける？', ko:'오늘의 미스터리 언어는 못 맞혔어요… 당신은 풀 수 있나요?', zh:'今天的神秘语言难倒了我——你能猜出来吗？', es:'El idioma misterioso de hoy me venció… ¿tú puedes descifrarlo?', fr:"La langue mystère du jour m'a eu… sauras-tu la trouver ?", de:'Die heutige Mystery-Sprache hat mich geschlagen – knackst du sie?', pt:'A língua misteriosa de hoje me venceu… você consegue descobrir?', ru:'Сегодняшний таинственный язык оказался мне не по зубам — а ты угадаешь?', it:'La lingua misteriosa di oggi mi ha battuto… tu riesci a indovinarla?', yue:'今日嘅神秘語言我估唔到…你估唔估到？', vi:'Ngôn ngữ bí ẩn hôm nay làm khó mình — bạn giải được không?', th:'ภาษาปริศนาของวันนี้เอาชนะฉันได้ — คุณจะไขได้ไหม?', id:'Bahasa misterius hari ini mengalahkanku — bisakah kamu memecahkannya?', hi:'आज की रहस्यमयी भाषा मुझ पर भारी पड़ी — क्या आप इसे पहचान सकते हैं?', uk:'Сьогоднішня таємнича мова виявилася мені не до снаги — а ти вгадаєш?', ar:'لغة اليوم الغامضة تغلبت عليّ… هل يمكنك حلّها؟', he:'שפת היום המסתורית ניצחה אותי… תצליחו לפצח אותה?', sw:'Lugha ya leo ya fumbo ilinishinda — je, unaweza kuitatua?'},
-            shFact:  {en:'In {lang}, "{word}" is "{val}".', ja:'{lang}で「{word}」は「{val}」。', ko:'{lang}로 "{word}"은(는) "{val}".', zh:'在{lang}中，"{word}"是"{val}"。', yue:'{lang}入面，「{word}」係「{val}」。', es:'En {lang}, "{word}" se dice "{val}".', fr:'En {lang}, « {word} » se dit « {val} ».', de:'Auf {lang} heißt „{word}“ „{val}“.', pt:'Em {lang}, "{word}" é "{val}".', ru:'На языке {lang} «{word}» — «{val}».', it:'In {lang}, "{word}" si dice "{val}".', vi:'Trong tiếng {lang}, "{word}" là "{val}".', th:'ในภาษา{lang} "{word}" คือ "{val}"', id:'Dalam {lang}, "{word}" adalah "{val}".', hi:'{lang} में "{word}" को "{val}" कहते हैं।', uk:'Мовою {lang} «{word}» — «{val}».', ar:'في {lang}، "{word}" هي "{val}".', he:'ב{lang}, "{word}" זה "{val}".', sw:'Kwa {lang}, "{word}" ni "{val}".'},
+            shFact:  {en:'In {lang}, "{word}" is "{val}".', ja:'{lang}で「{word}」は「{val}」。', ko:'{lang}로 "{word}"은(는) "{val}".', zh:'在{lang}中，"{word}"是"{val}"。', yue:'{lang}入面，「{word}」係「{val}」。', es:'En {lang}, "{word}" se dice "{val}".', fr:'En {lang}, « {word} » se dit « {val} ».', de:'Auf {lang} heißt „{word}“ „{val}“.', pt:'Em {lang}, "{word}" é "{val}".', ru:'На языке {lang} «{word}» — «{val}».', it:'In {lang}, "{word}" si dice "{val}".', vi:'Trong {lang}, "{word}" là "{val}".', th:'ใน{lang} "{word}" คือ "{val}"', id:'Dalam {lang}, "{word}" adalah "{val}".', hi:'{lang} में "{word}" को "{val}" कहते हैं।', uk:'Мовою {lang} «{word}» — «{val}».', ar:'في {lang}، "{word}" هي "{val}".', he:'ב{lang}, "{word}" זה "{val}".', sw:'Kwa {lang}, "{word}" ni "{val}".'},
             shHook:  {en:'Can you name a language just from its words?', ja:'あなたも、言葉だけで言語を当てられる？', ko:'당신도 단어만으로 언어를 맞힐 수 있나요?', zh:'你能只凭词语就说出是哪种语言吗？', es:'¿Puedes adivinar un idioma solo por sus palabras?', fr:"Sauras-tu reconnaître une langue rien qu'à ses mots ?", de:'Erkennst du eine Sprache allein an ihren Wörtern?', pt:'Você consegue adivinhar uma língua só pelas palavras?', ru:'А ты угадаешь язык только по его словам?', it:'Riesci a indovinare una lingua solo dalle sue parole?', yue:'你淨係睇啲字，估唔估到係邊種語言？', vi:'Bạn có thể đoán một ngôn ngữ chỉ từ các từ của nó không?', th:'คุณเดาภาษาได้ไหมแค่จากคำของมัน?', id:'Bisakah kamu menebak bahasa hanya dari kata-katanya?', hi:'क्या आप सिर्फ़ शब्दों से भाषा पहचान सकते हैं?', uk:'А ти вгадаєш мову лише за її словами?', ar:'هل تستطيع تخمين لغة من كلماتها فقط؟', he:'תוכלו לנחש שפה רק לפי המילים שלה?', sw:'Je, unaweza kutambua lugha kwa maneno yake tu?'},
             legend:  {en:'Each guess shows how far its homeland is from the mystery language and the direction toward it; ✓ means they share a language family.', ja:'各予想＝その言語の故地から正解までの「距離」と「方向（矢印）」。✓は語族が同じ。', ko:'각 추측 = 그 언어의 본거지에서 정답까지의 「거리」와 「방향(화살표)」. ✓는 어족이 같음.', zh:'每次猜测显示该语言的发源地到神秘语言的「距离」和「方向（箭头）」；✓表示同属一个语系。', es:'Cada intento muestra la distancia desde su tierra natal hasta la lengua misteriosa y la dirección hacia ella; ✓ significa que comparten familia lingüística.', fr:'Chaque essai indique la distance entre son foyer et la langue mystère et la direction vers elle ; ✓ = même famille linguistique.', de:'Jeder Tipp zeigt, wie weit seine Heimat von der Mystery-Sprache entfernt ist, und die Richtung dorthin; ✓ = gleiche Sprachfamilie.', pt:'Cada palpite mostra a distância da sua terra natal até a língua misteriosa e a direção até ela; ✓ = mesma família linguística.', ru:'Каждая догадка показывает расстояние от родины языка до загаданного и направление к нему; ✓ — одна языковая семья.', it:'Ogni tentativo mostra la distanza dalla sua terra d’origine alla lingua misteriosa e la direzione verso di essa; ✓ = stessa famiglia linguistica.', yue:'每次估都顯示嗰種語言嘅發源地去神秘語言嘅「距離」同「方向（箭嘴）」；✓即係同一語系。', vi:'Mỗi lượt đoán cho biết khoảng cách từ quê hương ngôn ngữ đó đến ngôn ngữ bí ẩn và hướng tới nó; ✓ nghĩa là cùng ngữ hệ.', th:'การเดาแต่ละครั้งแสดงระยะทางจากถิ่นกำเนิดของภาษานั้นถึงภาษาปริศนาและทิศทางไปหามัน; ✓ หมายถึงอยู่ตระกูลภาษาเดียวกัน', id:'Setiap tebakan menunjukkan jarak dari tanah asalnya ke bahasa misterius dan arah menujunya; ✓ berarti serumpun.', hi:'हर अनुमान दिखाता है कि उस भाषा का मूल स्थान रहस्यमयी भाषा से कितनी दूर है और उसकी दिशा; ✓ का अर्थ है एक ही भाषा-परिवार।', uk:'Кожна спроба показує відстань від батьківщини мови до загаданої та напрямок до неї; ✓ — одна мовна сім’я.', ar:'كل تخمين يُظهر بُعد موطن تلك اللغة عن اللغة الغامضة والاتجاه نحوها؛ ✓ تعني الانتماء إلى الفصيلة اللغوية نفسها.', he:'כל ניחוש מראה את המרחק ממולדת השפה אל שפת התעלומה ואת הכיוון אליה; ✓ פירושו אותה משפחת שפות.', sw:'Kila kisio huonyesha umbali kutoka nchi ya asili hadi lugha ya fumbo na mwelekeo kuelekea kwake; ✓ inamaanisha familia moja ya lugha.'}
         };
@@ -12104,7 +12147,7 @@
         const Q = {
             title: {en:'Which word?', ja:'どの単語？', ko:'어느 단어?', zh:'哪个词？', yue:'邊個詞？', vi:'Từ nào?', th:'คำไหน?', id:'Kata yang mana?', hi:'कौन-सा शब्द?', de:'Welches Wort?', fr:'Quel mot ?', it:'Quale parola?', es:'¿Qué palabra?', pt:'Que palavra?', ru:'Какое слово?', uk:'Яке слово?', ar:'أي كلمة؟', he:'איזו מילה?', sw:'Neno gani?'},
             sub: {en:'Spot the word that belongs to the named language.', ja:'指定した言語の単語を見分けよう。', ko:'제시된 언어의 단어를 골라보세요.', zh:'找出属于指定语言的词。', yue:'搵出屬於指定語言嘅詞。', vi:'Chọn từ thuộc về ngôn ngữ được nêu.', th:'เลือกคำที่เป็นของภาษาที่ระบุ', id:'Temukan kata milik bahasa yang disebutkan.', hi:'बताई गई भाषा का शब्द पहचानें।', de:'Finde das Wort, das zur genannten Sprache gehört.', fr:'Trouve le mot qui appartient à la langue indiquée.', it:'Individua la parola della lingua indicata.', es:'Detecta la palabra que pertenece al idioma indicado.', pt:'Encontre a palavra que pertence à língua indicada.', ru:'Найдите слово, принадлежащее указанному языку.', uk:'Знайдіть слово, що належить указаній мові.', ar:'اعثر على الكلمة التي تخص اللغة المذكورة.', he:'זהו את המילה השייכת לשפה שצוינה.', sw:'Tambua neno la lugha iliyotajwa.'},
-            qtext: {en:'In {lang}, which of these is {word}?', ja:'{lang}で {word} はどれ？', ko:'{lang}에서 {word}은(는) 어느 것?', zh:'在{lang}中，{word} 是哪个？', yue:'喺{lang}，{word} 係邊個？', vi:'Trong tiếng {lang}, đâu là {word}?', th:'ในภาษา{lang} {word} คือคำไหน?', id:'Dalam bahasa {lang}, yang mana {word}?', hi:'{lang} में {word} कौन-सा है?', de:'Welches ist {word} auf {lang}?', fr:'En {lang}, lequel est {word} ?', it:'In {lang}, qual è {word}?', es:'En {lang}, ¿cuál es {word}?', pt:'Em {lang}, qual é {word}?', ru:'Как на языке {lang} будет {word}?', uk:'Як мовою {lang} буде {word}?', ar:'بِـ{lang}، أيٌّ منها {word}؟', he:'ב{lang}, איזו מהן {word}?', sw:'Katika {lang}, lipi ni {word}?'},
+            qtext: {en:'In {lang}, which of these is {word}?', ja:'{lang}で {word} はどれ？', ko:'{lang}에서 {word}은(는) 어느 것?', zh:'在{lang}中，{word} 是哪个？', yue:'喺{lang}，{word} 係邊個？', vi:'Trong {lang}, đâu là {word}?', th:'ใน{lang} {word} คือคำไหน?', id:'Dalam {lang}, yang mana {word}?', hi:'{lang} में {word} कौन-सा है?', de:'Welches ist {word} auf {lang}?', fr:'En {lang}, lequel est {word} ?', it:'In {lang}, qual è {word}?', es:'En {lang}, ¿cuál es {word}?', pt:'Em {lang}, qual é {word}?', ru:'Как на языке {lang} будет {word}?', uk:'Як мовою {lang} буде {word}?', ar:'بِـ{lang}، أيٌّ منها {word}؟', he:'ב{lang}, איזו מהן {word}?', sw:'Katika {lang}, lipi ni {word}?'},
             correct: {en:'Correct!', ja:'正解！', ko:'정답!', zh:'答对了！', yue:'啱！', vi:'Chính xác!', th:'ถูกต้อง!', id:'Benar!', hi:'सही!', de:'Richtig!', fr:'Correct !', it:'Esatto!', es:'¡Correcto!', pt:'Certo!', ru:'Верно!', uk:'Правильно!', ar:'صحيح!', he:'נכון!', sw:'Sahihi!'},
             wrong: {en:'Not quite', ja:'惜しい！', ko:'아쉽네요', zh:'不对', yue:'唔啱', vi:'Chưa đúng', th:'ยังไม่ใช่', id:'Belum tepat', hi:'सही नहीं', de:'Leider nein', fr:'Raté', it:'Sbagliato', es:'Incorrecto', pt:'Errado', ru:'Мимо', uk:'Не те', ar:'خطأ', he:'לא בדיוק', sw:'Sio sahihi'},
             next: {en:'Next', ja:'次へ', ko:'다음', zh:'下一题', yue:'下一題', vi:'Tiếp', th:'ถัดไป', id:'Berikutnya', hi:'अगला', de:'Weiter', fr:'Suivant', it:'Avanti', es:'Siguiente', pt:'Próxima', ru:'Далее', uk:'Далі', ar:'التالي', he:'הבא', sw:'Endelea'},
@@ -12207,6 +12250,12 @@
   #lm-quiz-box .wq-sub { font-size: 11px !important; margin-top: 1px !important; }
   #lm-quiz-box .wq-next { padding: 8px !important; }
   #lm-quiz-box .wq-close { padding: 4px !important; }
+}
+/* Landscape phones (r19): two columns so all five options show without an inner scroll. */
+@media (max-height: 420px) and (orientation: landscape) {
+  #lm-quiz-box div:has(> .wq-opt) { display: grid !important; grid-template-columns: 1fr 1fr; gap: 4px; }
+  #lm-quiz-box .wq-opt { min-height: 34px !important; margin: 0 !important; font-size: 16px !important; }
+  #lm-quiz-box .wq-prompt { margin-bottom: 4px !important; }
 }`);
             css.id = 'lm-quiz-css';
             document.head.appendChild(css);
@@ -12465,7 +12514,7 @@
     <!-- "My languages" share-card feature; poster_geo.js supplies the Natural-Earth
          projection its world-map card is drawn with. -->
     <script src="poster_geo.js?v=12"></script>
-    <script src="my-languages.js?v=33"></script>
+    <script src="my-languages.js?v=34"></script>
     <!-- Language Master game (🏅 in the Play menu). master.js is parked as
          text/plain (not fetched at first paint, as hanmap_trivia.js is) and
          injected the first time the game opens. The stub below only labels

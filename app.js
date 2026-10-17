@@ -921,7 +921,7 @@ function createModalToggle(lang) {
         <span class="dot"></span>
         <input type="checkbox" ${isOn ? 'checked' : ''} data-lang="${lang.code}" aria-labelledby="lmn-${_seoCode}">
         <span id="lmn-${_seoCode}">${langName(lang.code)}</span>${badge}
-        <a class="lang-seo-link" href="${_seoHref}" title="${edT('bigTextPage')}" aria-label="${edT('bigTextPage')}: ${langName(lang.code)}" style="margin-left:6px;display:inline-flex;vertical-align:-2px;text-decoration:none;color:#4a6cf7"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg></a>
+        <a class="lang-seo-link" href="${_seoHref}" target="_blank" rel="noopener" title="${edT('bigTextPage')}" aria-label="${edT('bigTextPage')}: ${langName(lang.code)}" style="margin:-6px -6px -6px 2px;padding:6px;display:inline-flex;vertical-align:-8px;text-decoration:none;color:#4a6cf7"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg></a>
     `;
     // The SEO link must navigate, not toggle the checkbox: stop the click
     // from reaching the label's preventDefault/toggle handler below.
@@ -1302,7 +1302,14 @@ function resetOrder() {
 // Main render
 function buildSegmentTooltip(sentence, segId) {
     const refLangs = ['ja', 'zh', 'en', 'es_mx', 'ar'];
-    const labels = { ja: '日', zh: '中', en: '英', es_mx: '西', ar: '阿' };
+    let labels = { ja: '日', zh: '中', en: '英', es_mx: '西', ar: '阿' };
+    // One-character Han labels suit ja/zh/yue only; elsewhere name the language.
+    if (!/^(ja|zh|yue)/.test(String(currentUILang || ''))) {
+        try {
+            const dn = new Intl.DisplayNames([String(currentUILang || 'en').replace('_', '-')], { type: 'language' });
+            labels = Object.fromEntries(refLangs.map((l) => [l, dn.of(l === 'es_mx' ? 'es-MX' : l)]));
+        } catch (_) {}
+    }
     const lines = [];
     for (const lang of refLangs) {
         const segs = sentence.langs[lang];
@@ -2299,6 +2306,7 @@ function enterEditMode(row, langCode) {
     // t() returns the key itself when a string is missing.
     addBtn.title = edT('addSegment');
     addBtn.setAttribute('aria-label', addBtn.title);
+    addBtn.setAttribute('aria-haspopup', 'menu'); addBtn.setAttribute('aria-expanded', 'false');
     addBtn.addEventListener('click', (e) => {
         e.stopPropagation();
         showAddSegmentMenu(addBtn, textDiv, langCode, sentence);

@@ -70,7 +70,7 @@
         gtag('config', 'G-JZ7JJBCCHG');
     }
 </script>
-<link rel="stylesheet" href="styles.css?v=155">
+<link rel="stylesheet" href="styles.css?v=156">
 <!-- Noto Serif Tibetan for native names of Tibetic languages
      (bo / xct / dz / khg / xsr / sik / lbj / bft / xkz / xct_litpr).
      Without this, Tibetan script in .node.leaf .native renders via OS
@@ -287,7 +287,7 @@
 
     /* .back-to-top styles live in styles.css (shared with index.html). */
 </style>
-    <script src="nav-short.js?v=22"></script>
+    <script src="nav-short.js?v=23"></script>
 </head>
 <body>
     <header class="site-header-bar">
@@ -748,23 +748,23 @@ generates lang_names/<ui>.js from lang_names.js. -->
     const TREE_ROOT_I18N = {
         en: { 'All Languages':'All Languages', 'Unclassified':'Unclassified' },
         ja: { 'All Languages':'全言語', 'Unclassified':'未分類' },
-        ko: { 'All Languages':'전 언어', 'Unclassified':'미분류' },
-        zh: { 'All Languages':'所有语言', 'Unclassified':'未分类' },
-        yue:{ 'All Languages':'所有語言', 'Unclassified':'未分類' },
-        vi: { 'All Languages':'Tất cả ngôn ngữ', 'Unclassified':'Chưa phân loại' },
-        th: { 'All Languages':'ทุกภาษา', 'Unclassified':'ไม่ได้จำแนก' },
-        id: { 'All Languages':'Semua Bahasa', 'Unclassified':'Belum diklasifikasi' },
-        hi: { 'All Languages':'सभी भाषाएँ', 'Unclassified':'अवर्गीकृत' },
-        de: { 'All Languages':'Alle Sprachen', 'Unclassified':'Nicht klassifiziert' },
-        fr: { 'All Languages':'Toutes les langues', 'Unclassified':'Non classé' },
-        it: { 'All Languages':'Tutte le lingue', 'Unclassified':'Non classificato' },
-        es: { 'All Languages':'Todas las lenguas', 'Unclassified':'Sin clasificar' },
-        pt: { 'All Languages':'Todas as línguas', 'Unclassified':'Não classificado' },
-        ru: { 'All Languages':'Все языки', 'Unclassified':'Неклассифицировано' },
-        uk: { 'All Languages':'Усі мови', 'Unclassified':'Некласифіковано' },
-        ar: { 'All Languages':'كل اللغات', 'Unclassified':'غير مصنفة' },
-        he: { 'All Languages':'כל השפות', 'Unclassified':'לא מסווג' },
-        sw: { 'All Languages':'Lugha Zote', 'Unclassified':'Bila uainishwa' },
+        ko: { 'All Languages':'전 언어', 'Unclassified':'미분류', 'Disputed':'계통 논란' },
+        zh: { 'All Languages':'所有语言', 'Unclassified':'未分类', 'Disputed':'归属有争议' },
+        yue:{ 'All Languages':'所有語言', 'Unclassified':'未分類', 'Disputed':'歸屬有爭議' },
+        vi: { 'All Languages':'Tất cả ngôn ngữ', 'Unclassified':'Chưa phân loại', 'Disputed':'Còn tranh cãi' },
+        th: { 'All Languages':'ทุกภาษา', 'Unclassified':'ไม่ได้จำแนก', 'Disputed':'ยังเป็นที่ถกเถียง' },
+        id: { 'All Languages':'Semua Bahasa', 'Unclassified':'Belum diklasifikasi', 'Disputed':'Diperdebatkan' },
+        hi: { 'All Languages':'सभी भाषाएँ', 'Unclassified':'अवर्गीकृत', 'Disputed':'विवादित' },
+        de: { 'All Languages':'Alle Sprachen', 'Unclassified':'Nicht klassifiziert', 'Disputed':'Umstritten' },
+        fr: { 'All Languages':'Toutes les langues', 'Unclassified':'Non classé', 'Disputed':'Contesté' },
+        it: { 'All Languages':'Tutte le lingue', 'Unclassified':'Non classificato', 'Disputed':'Controverso' },
+        es: { 'All Languages':'Todas las lenguas', 'Unclassified':'Sin clasificar', 'Disputed':'Discutido' },
+        pt: { 'All Languages':'Todas as línguas', 'Unclassified':'Não classificado', 'Disputed':'Controverso' },
+        ru: { 'All Languages':'Все языки', 'Unclassified':'Неклассифицировано', 'Disputed':'Спорные' },
+        uk: { 'All Languages':'Усі мови', 'Unclassified':'Некласифіковано', 'Disputed':'Спірні' },
+        ar: { 'All Languages':'كل اللغات', 'Unclassified':'غير مصنفة', 'Disputed':'متنازع عليها' },
+        he: { 'All Languages':'כל השפות', 'Unclassified':'לא מסווג', 'Disputed':'שנוי במחלוקת' },
+        sw: { 'All Languages':'Lugha Zote', 'Unclassified':'Bila uainishwa', 'Disputed':'Yenye utata' },
     };
     function familyDisplayName(name) {
         // 1. Tree-specific overrides (root + Unclassified)

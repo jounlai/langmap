@@ -92,7 +92,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=155">
+    <link rel="stylesheet" href="styles.css?v=156">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -487,7 +487,7 @@
                 width: 5.5em;
                 margin: 0;
                 padding: 0;
-                text-align: right;
+                text-align: end;
                 font-size: 11px;
                 line-height: 1.2;
                 letter-spacing: 0;
@@ -497,7 +497,8 @@
                    uppercase transform so English labels fit too. */
                 text-transform: none;
                 word-break: keep-all;
-                overflow-wrap: normal;
+                overflow-wrap: anywhere;   /* de/ru labels spilled into the grid (r18) */
+                hyphens: auto;
             }
             .char-category .char-grid {
                 flex: 1 1 0;
@@ -1207,8 +1208,9 @@
                 Georgia, "Times New Roman", serif;
         }
         .lang-info-panel table { width: 100%; border-collapse: collapse; margin-bottom: 10px; }
-        .lang-info-panel td { padding: 4px 10px 4px 0; vertical-align: middle; }
-        .lang-info-panel td:first-child { font-weight: 600; color: #555; width: 90px; white-space: nowrap; padding-right: 14px; }
+        .lang-info-panel td { padding: 4px 0; padding-inline-end: 10px; vertical-align: middle; }
+        /* Labels wrap (de/sw "Mpangilio wa Maneno" pushed the table past the panel, r18). */
+        .lang-info-panel td:first-child { font-weight: 600; color: #555; width: 90px; overflow-wrap: anywhere; padding-inline-end: 14px; }
         .lang-info-panel .desc { color: #444; font-size: 14px; line-height: 1.6; }
         /* Audit Task 129: RTL/bidi isolation for Arabic/Hebrew/Perso-Arabic
            word cells. unicode-bidi:isolate prevents RTL text from reordering
@@ -1755,6 +1757,8 @@
             z-index: 1015;
             pointer-events: none;
         }
+        /* Short landscape phones: scroll the drawer, never squash its controls (r19). */
+        .right-secondary-controls > * { flex-shrink: 0; }
         body:has(.settings-toggle:checked) .right-secondary-controls {
             opacity: 1; visibility: visible; transform: translateX(0);
             pointer-events: auto;
@@ -2838,7 +2842,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=22"></script>
+    <script src="nav-short.js?v=23"></script>
 </head>
 <body>
     <div id="pg-live" role="status" aria-live="polite" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap"></div>
@@ -3385,7 +3389,7 @@
 
     <!-- Credit watermark -->
     <div class="url-watermark">
-        Made by <a href="https://x.com/jounlai" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;">Jounlai Cho</a> @<a href="https://heuron.com" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;">Heuron Inc.</a> <a href="https://github.com/jounlai/langmap" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg> GitHub</a>
+        <span class="credit-by">Made by</span> <a href="https://x.com/jounlai" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;">Jounlai Cho</a> @<a href="https://heuron.com" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;">Heuron Inc.</a> <a href="https://github.com/jounlai/langmap" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg> GitHub</a>
     </div>
 
     <!-- Language info panel -->
@@ -5592,6 +5596,17 @@
             });
             // Localize search input placeholder (Audit i18n gap fix)
             const searchInput = document.getElementById('lang-search');
+            // Keep the results above the on-screen keyboard: only the visual viewport shrinks (r19).
+            if (searchInput && !searchInput.dataset.fitBound) {
+                searchInput.dataset.fitBound = '1';
+                const fitResults = () => {
+                    const rb = document.getElementById('lang-search-results'); if (!rb) return;
+                    const vv = window.visualViewport, bottom = vv ? vv.offsetTop + vv.height : window.innerHeight;
+                    rb.style.maxHeight = Math.max(96, Math.min(280, bottom - searchInput.getBoundingClientRect().bottom - 8)) + 'px';
+                };
+                searchInput.addEventListener('focus', fitResults); searchInput.addEventListener('input', fitResults);
+                if (window.visualViewport) window.visualViewport.addEventListener('resize', fitResults);
+            }
             if (searchInput) searchInput.placeholder = i18n('searchPlaceholder');
             if (searchInput) {
                 const _sl = i18n('searchPlaceholder').replace(/^\S*\u{1F50D}\s*/u, '').replace(/[\u2026.]+$/u, '').trim();
@@ -5784,8 +5799,11 @@
             const _byKey = Date.now() - (window.__uiSelKeyAt || 0) < 600;
             if (_hdrToggle && _hdrToggle.checked && !_byKey
                 && window.matchMedia('(max-width: 640px)').matches) {
+                const _hadF = document.activeElement && document.activeElement.id === 'header-ui-lang';
                 _hdrToggle.checked = false;
                 _hdrToggle.dispatchEvent(new Event('change'));
+                // The focused select just collapsed away: back to the menu button.
+                if (_hadF) { const hb = document.querySelector('.hamburger-btn'); if (hb) hb.focus(); }
             }
         });
 
@@ -8981,11 +8999,14 @@
         // Labels outside the visible map are not Tab stops (focus vanished off
         // screen for 30-70 presses); re-evaluated whenever the view settles.
         function syncLabelTabs() {
-            const mr = document.getElementById('map').getBoundingClientRect();
+            const mapEl = document.getElementById('map'), mr = mapEl.getBoundingClientRect();
             document.querySelectorAll('#map .lang-label[role="button"]').forEach((l) => {
+                if (l.dataset.pcov) return;   // the panel-cover guard owns it while covered
                 const r = l.getBoundingClientRect();
                 const cx = r.left + r.width / 2, cy = r.top + r.height / 2;   // centre on screen, not just a sliver
-                const inside = r.width && cx > mr.left && cx < mr.right && cy > mr.top && cy < mr.bottom;
+                // ...and not painted over by the header, controls or footer (r19).
+                let inside = r.width && cx > mr.left && cx < mr.right && cy > mr.top && cy < mr.bottom;
+                if (inside) { const hit = document.elementFromPoint(cx, cy); inside = !!(hit && mapEl.contains(hit)); }
                 const want = inside ? 0 : -1;
                 if (l.tabIndex !== want && l !== document.activeElement) l.tabIndex = want;
             });
@@ -9125,47 +9146,65 @@
                 requestAnimationFrame(updateSelectedLabel);
             }
         }
-        // Panel-cover guard (rally r18). While #lang-info or #compare-panel is
-        // open, the visible controls it paints over (zoom, 3D, settings at
-        // desktop; nearly all map chrome on a phone) are made inert so Tab
-        // cannot land on something the reader cannot see. Only covered elements
-        // are touched: the map container keeps pointer input and merely loses
-        // its own tab stop. When the set of open panels changes, the release is
-        // synchronous (the close paths restore focus on the very next line);
-        // re-applying waits a frame because updateConnectorLine also runs on
-        // every map move. `var`, not `let`: updateConnectorLine first runs
-        // during the initial updateMarkers(), before this point is reached.
+        // Panel-cover guard (rally r18, reworked r19). While #lang-info or
+        // #compare-panel is open, the visible controls it paints over (zoom,
+        // 3D, settings at desktop; nearly all map chrome on a phone) leave the
+        // Tab order so focus cannot land on something the reader cannot see.
+        // - Chrome outside the map goes inert; anything inside #map (labels,
+        //   the map itself) only gets tabindex=-1, so a half-covered label can
+        //   still be clicked on its visible part.
+        // - The full pass runs when the set of open panels changes or the
+        //   window resizes; map moves re-check only the map's own focusables,
+        //   at most every 200 ms (a full pass per pan frame was a long task).
+        // `var`, not `let`: updateConnectorLine first runs during the initial
+        // updateMarkers(), before this point is reached.
         var _PCOV_Q = 'a[href],button,input,select,textarea,summary,[tabindex]:not([tabindex="-1"])';
-        var _pcovRaf = 0, _pcovKey = '';
+        var _pcovRaf = 0, _pcovKey = '', _pcovT = 0, _pcovLast = 0;
         function _pcovPanels() {
-            return ['lang-info', 'compare-panel'].map((id) => document.getElementById(id)).filter((p) => p && p.classList.contains('visible'));
+            // Also a compact trivia article: it stops being modal but still paints over the map (r19).
+            return ['lang-info', 'compare-panel', 'trivia-modal'].map((id) => document.getElementById(id)).filter((p) => p && p.classList.contains('visible') && (p.id !== 'trivia-modal' || p.classList.contains('compact')));
         }
-        function _pcovRelease() {
+        function _pcovVisible(e) {
+            if (e.checkVisibility) return e.checkVisibility({ visibilityProperty: true, opacityProperty: true });
+            for (let x = e; x && x.nodeType === 1; x = x.parentElement) { const cs = getComputedStyle(x); if (cs.display === 'none' || cs.visibility === 'hidden' || cs.opacity === '0') return false; }
+            return true;
+        }
+        const _pcovInMap = (e, mapEl) => !!((mapEl && (e === mapEl || mapEl.contains(e))) || (e.closest && e.closest('.globe-label, .lang-label')));
+        function _pcovRelease(mapOnly) {
+            const mapEl = document.getElementById('map');
             for (const e of document.querySelectorAll('[data-pcov]')) {
+                if (mapOnly && !_pcovInMap(e, mapEl)) continue;
                 if (e.dataset.pcov === 'inert') e.inert = false;
                 else if (e.dataset.pcov === 'none') e.removeAttribute('tabindex');
                 else e.setAttribute('tabindex', e.dataset.pcov);
                 delete e.dataset.pcov;
             }
         }
-        function _pcovApply() {
-            _pcovRaf = 0;
-            _pcovRelease();
+        function _pcovApply(mapOnly) {
+            _pcovRaf = 0; _pcovLast = Date.now();
+            const mapEl = document.getElementById('map');
+            _pcovRelease(mapOnly);
             const panels = _pcovPanels();
             if (!panels.length) return;
             const rects = panels.map((p) => p.getBoundingClientRect());
+            // A phone-width sheet: page content below the fold would scroll up under it when focused.
+            const sheet = rects.some((q) => q.width >= window.innerWidth * 0.9);
             let refocus = null;
-            for (const e of document.querySelectorAll(_PCOV_Q)) {
+            const cand = mapOnly
+                ? [...(mapEl ? [mapEl, ...mapEl.querySelectorAll(_PCOV_Q)] : []), ...document.querySelectorAll('.globe-label')].filter((x) => x.matches(_PCOV_Q))
+                : [...document.querySelectorAll(_PCOV_Q)];
+            for (const e of cand) {
                 const r = e.getBoundingClientRect();
                 if (!r.width) continue;
                 const cx = r.left + r.width / 2, cy = r.top + r.height / 2;
+                if (sheet && !mapOnly && cy > window.innerHeight && !panels.some((p) => p.contains(e)) && !_pcovInMap(e, mapEl)) { e.dataset.pcov = 'inert'; e.inert = true; continue; }
                 if (!rects.some((q) => cx >= q.left && cx <= q.right && cy >= q.top && cy <= q.bottom)) continue;
-                if (!e.checkVisibility({ visibilityProperty: true, opacityProperty: true })) continue;   // closed drawer / menu
+                if (!_pcovVisible(e)) continue;   // closed drawer / menu
                 const hit = document.elementFromPoint(cx, cy);
                 const over = hit && panels.find((p) => p.contains(hit));
                 if (!over || over.contains(e) || e.contains(over)) continue;   // not covered, or drawn above
                 if (e === document.activeElement) refocus = over;
-                if (e.classList.contains('leaflet-container')) {
+                if (_pcovInMap(e, mapEl)) {
                     e.dataset.pcov = e.getAttribute('tabindex') ?? 'none';
                     e.setAttribute('tabindex', '-1');
                 } else { e.dataset.pcov = 'inert'; e.inert = true; }
@@ -9176,13 +9215,18 @@
         }
         function syncPanelCover() {
             const key = _pcovPanels().map((p) => p.id).join();
-            if (key !== _pcovKey) { _pcovKey = key; _pcovRelease(); }
-            if (!key) { cancelAnimationFrame(_pcovRaf); _pcovRaf = 0; return; }
-            if (!_pcovRaf) _pcovRaf = requestAnimationFrame(_pcovApply);
+            if (key !== _pcovKey) {
+                _pcovKey = key; _pcovRelease();   // synchronous: close paths restore focus on the next line
+                cancelAnimationFrame(_pcovRaf); _pcovRaf = 0; clearTimeout(_pcovT); _pcovT = 0;
+                if (key) _pcovRaf = requestAnimationFrame(() => _pcovApply(false));
+                return;
+            }
+            if (!key || _pcovRaf || _pcovT) return;
+            const wait = Math.max(0, 200 - (Date.now() - _pcovLast));
+            _pcovT = setTimeout(() => { _pcovT = 0; _pcovRaf = requestAnimationFrame(() => _pcovApply(true)); }, wait);
         }
-        // Open/close paths that do not pass through updateConnectorLine (compare
-        // panel, globe click). closeComparePanel still needs its own direct call.
-        ['lang-info', 'compare-panel'].forEach((id) => { const p = document.getElementById(id); if (p) new MutationObserver(syncPanelCover).observe(p, { attributes: true, attributeFilter: ['class'] }); });
+        window.addEventListener('resize', () => { if (_pcovKey) { cancelAnimationFrame(_pcovRaf); _pcovRaf = requestAnimationFrame(() => _pcovApply(false)); } });
+        ['lang-info', 'compare-panel', 'trivia-modal'].forEach((id) => { const p = document.getElementById(id); if (p) new MutationObserver(syncPanelCover).observe(p, { attributes: true, attributeFilter: ['class'] }); });
         function updateConnectorLine() {
             syncPanelCover();
             const ip = _infoPanel();
@@ -9798,6 +9842,33 @@
                     }
                     if (rt) html += `<div style="margin:6px 0 4px;font-size:13px;color:#3f5fe0;font-weight:600">${escapeHtml(rt)}</div>`;
                 }
+                // HAN_LANG_META family/region are English, speakers Japanese prose
+                // (約630万人 (香港人口88.2%)): translate / reformat for other UIs (r18).
+                const _tm1 = v => (uiBase !== 'en' && typeof translateMetaSmart === 'function') ? (translateMetaSmart(v, uiLang) || v) : v;
+                const _tm = v => String(v).split(' > ').map(_tm1).join(' > ');   // family paths: translate each level
+                const _JA_NOTE = /[\u3041-\u3096\u30A1-\u30FA]|\u95B2\u89A7|\u82F1\u8A9E\u7248/u;   // kana, 閲覧, 英語版
+                const _CJK = /[\u3041-\u3096\u30A1-\u30FA\u3400-\u9FFF]/u;
+                const _PROV = { ja:'暫定', ko:'잠정', zh:'暂定', yue:'暫定', vi:'tạm tính', th:'ชั่วคราว', id:'sementara', hi:'अनंतिम', de:'vorläufig', fr:'provisoire', it:'provvisorio', es:'provisional', pt:'provisório', ru:'предварительно', uk:'попередньо', ar:'مؤقت', he:'זמני', sw:'ya muda' };
+                const _SPK_FIXED = [
+                    ['歴史言語 / 現代話者なし', { en:'Historical language — no living speakers', ko:'역사 언어 — 현대 화자 없음', zh:'历史语言 — 无现代使用者', yue:'歷史語言 — 冇現代使用者', vi:'Ngôn ngữ lịch sử — không còn người nói', th:'ภาษาในประวัติศาสตร์ — ไม่มีผู้พูดในปัจจุบัน', id:'Bahasa historis — tanpa penutur kini', hi:'ऐतिहासिक भाषा — कोई वर्तमान वक्ता नहीं', de:'Historische Sprache — keine heutigen Sprecher', fr:'Langue historique — aucun locuteur actuel', it:'Lingua storica — nessun parlante attuale', es:'Lengua histórica — sin hablantes actuales', pt:'Língua histórica — sem falantes atuais', ru:'Историческая форма — без современных носителей', uk:'Історична мова — без сучасних носіїв', ar:'لغة تاريخية — بلا ناطقين حاليين', he:'שפה היסטורית — אין דוברים כיום', sw:'Lugha ya kihistoria — hakuna wasemaji wa sasa' }],
+                    ['歴史言語 / 推定不可', { en:'Historical language — no estimate possible', ko:'역사 언어 — 추정 불가', zh:'历史语言 — 无法估计', yue:'歷史語言 — 無法估計', vi:'Ngôn ngữ lịch sử — không thể ước tính', th:'ภาษาในประวัติศาสตร์ — ประมาณไม่ได้', id:'Bahasa historis — tak dapat diperkirakan', hi:'ऐतिहासिक भाषा — अनुमान संभव नहीं', de:'Historische Sprache — nicht schätzbar', fr:'Langue historique — estimation impossible', it:'Lingua storica — stima impossibile', es:'Lengua histórica — sin estimación posible', pt:'Língua histórica — estimativa impossível', ru:'Историческая форма — оценка невозможна', uk:'Історична мова — оцінка неможлива', ar:'لغة تاريخية — لا يمكن التقدير', he:'שפה היסטורית — אין הערכה', sw:'Lugha ya kihistoria — haikadiriki' }],
+                    ['文字体系 / 話者数該当なし', { en:'Writing system — speaker count does not apply', ko:'문자 체계 — 화자 수 해당 없음', zh:'文字系统 — 不适用使用人口', yue:'文字系統 — 唔適用使用人口', vi:'Hệ chữ viết — không áp dụng số người nói', th:'ระบบอักษร — ไม่มีจำนวนผู้พูด', id:'Sistem tulisan — jumlah penutur tidak berlaku', hi:'लिपि — वक्ता संख्या लागू नहीं', de:'Schriftsystem — keine Sprecherzahl', fr:'Système d\'écriture — sans nombre de locuteurs', it:'Sistema di scrittura — numero di parlanti non applicabile', es:'Sistema de escritura — sin número de hablantes', pt:'Sistema de escrita — sem número de falantes', ru:'Письменность — число носителей неприменимо', uk:'Писемність — кількість носіїв не застосовна', ar:'نظام كتابة — لا ينطبق عدد الناطقين', he:'מערכת כתב — מספר דוברים אינו רלוונטי', sw:'Mfumo wa maandishi — idadi ya wasemaji haihusiki' }],
+                    ['不明', { en:'Unknown', ko:'불명', zh:'不明', yue:'不明', vi:'Không rõ', th:'ไม่ทราบ', id:'Tidak diketahui', hi:'अज्ञात', de:'Unbekannt', fr:'Inconnu', it:'Sconosciuto', es:'Desconocido', pt:'Desconhecido', ru:'Неизвестно', uk:'Невідомо', ar:'غير معروف', he:'לא ידוע', sw:'Haijulikani' }],
+                ];
+                const _spk = v => {
+                    let t = String(v).replace(/\(provisional\)/g, () => '(' + (_PROV[uiBase] || 'provisional') + ')');
+                    if (uiBase === 'ja') return t;
+                    for (const [ja, tr] of _SPK_FIXED) t = t.split(ja).join(tr[uiBase] || tr.en);
+                    const _num = (n, u) => formatSpeakerNumber(parseFloat(String(n).replace(/,/g, '')) * (u === '\u5104' ? 1e8 : 1e4), uiBase);
+                    // 約200〜400万人 (range), 約 3,000万人, 1億人余り / 以上 (more than)
+                    t = t.replace(/\u7D04?\s*([\d,]+(?:\.\d+)?)\s*[\u301C~\uFF5E]\s*([\d,]+(?:\.\d+)?)\s*(\u5104|\u4E07)\u4EBA/gu, (m, a, b, u) => (uiBase === 'en' ? '~' : '') + _num(a, u) + '–' + _num(b, u));
+                    t = t.replace(/\u7D04?\s*([\d,]+(?:\.\d+)?)\s*(\u5104|\u4E07)\u4EBA(\u4F59\u308A|\u4EE5\u4E0A)?/gu, (m, n, u, more) => (uiBase === 'en' && !more ? '~' : '') + _num(n, u) + (more ? '+' : ''));
+                    t = t.replace(/\u7D04\s*([\d,]+)\u4EBA/gu, (m, n) => '~' + n);
+                    // Notes in brackets: drop Japanese ones (CJK ones too, outside zh/yue).
+                    const drop = (uiBase === 'zh' || uiBase === 'yue') ? _JA_NOTE : _CJK;
+                    t = t.replace(/\s*[(\uFF08][^()\uFF08\uFF09]*[)\uFF09]/gu, m => drop.test(m) ? '' : m);
+                    return t.trim();
+                };
                 if (hanMeta.family) {
                     const famLabel = {
                         en: 'Family', ja: '系統', ko: '계통',
@@ -9807,7 +9878,7 @@
                         es: 'Familia', pt: 'Família', ru: 'Семья',
                         uk: 'Сім\'я', ar: 'العائلة', he: 'משפחה', sw: 'Familia',
                     }[uiBase] || 'Family';
-                    html += `<div style="margin:2px 0;font-size:13px;color:#666"><b>${escapeHtml(famLabel)}:</b> ${escapeHtml(hanMeta.family)}</div>`;
+                    html += `<div style="margin:2px 0;font-size:13px;color:#666"><b>${escapeHtml(famLabel)}:</b> ${escapeHtml(_tm(hanMeta.family))}</div>`;
                 }
                 if (hanMeta.region) {
                     const regLabel = {
@@ -9818,7 +9889,7 @@
                         es: 'Región', pt: 'Região', ru: 'Регион',
                         uk: 'Регіон', ar: 'المنطقة', he: 'אזור', sw: 'Eneo',
                     }[uiBase] || 'Region';
-                    html += `<div style="margin:2px 0 6px;font-size:13px;color:#666"><b>${escapeHtml(regLabel)}:</b> ${escapeHtml(hanMeta.region)}</div>`;
+                    html += `<div style="margin:2px 0 6px;font-size:13px;color:#666"><b>${escapeHtml(regLabel)}:</b> ${escapeHtml(_tm(hanMeta.region))}</div>`;
                 }
                 if (hanMeta.speakers) {
                     // 話者数 (speaker count) row — sourced figure with
@@ -9835,10 +9906,11 @@
                         ru: 'Носители', uk: 'Носії',
                         ar: 'الناطقون', he: 'דוברים', sw: 'Wasemaji',
                     }[uiBase] || 'Speakers';
-                    const srcPart = hanMeta.speakersSource
-                        ? ` <span style="color:#6b6b6b">(${escapeHtml(hanMeta.speakersSource)})</span>`
+                    const _src = hanMeta.speakersSource ? (uiBase === 'ja' ? String(hanMeta.speakersSource) : (() => { const segs = String(hanMeta.speakersSource).replace(/\s*[(\uFF08][^()\uFF08\uFF09]*[)\uFF09]/gu, m => _JA_NOTE.test(m) ? '' : m).split(/\s*[\/\uFF0F]\s*/).filter(x => x && !/\u95B2\u89A7/u.test(x)); const keep = segs.filter(x => !_JA_NOTE.test(x)); return (keep.length ? keep : segs).join(' / ').replace(/\u300C([^\u300D]*)\u300D/gu, (m, x) => (/^(zh|yue|ko)$/.test(uiBase) ? m : ' “' + x + '”')).trim(); })()) : '';
+                    const srcPart = _src
+                        ? ` <span style="color:#6b6b6b">(${escapeHtml(_src)})</span>`
                         : '';
-                    html += `<div style="margin:2px 0 6px;font-size:13px;color:#666"><b>${escapeHtml(spkLabel)}:</b> ${escapeHtml(hanMeta.speakers)}${srcPart}</div>`;
+                    html += `<div style="margin:2px 0 6px;font-size:13px;color:#666"><b>${escapeHtml(spkLabel)}:</b> ${escapeHtml(_spk(hanMeta.speakers))}${srcPart}</div>`;
                 }
                 if (hanMeta.description) {
                     let desc = '';
@@ -10177,7 +10249,7 @@
                     // (where present) to surface qualitative detail like
                     // "L1 ≈ 380M; L2 ≈ 1.1B" without crowding the main cell.
                     if (sc && sc.notes) {
-                        speakerCell += `<div style="margin-top:2px;font-size:10px;color:#888;line-height:1.4">${escapeHtml(sc.notes)}</div>`;
+                        speakerCell += `<div${/^en/.test(String(uiLang || 'en')) ? '' : ' lang="en"'} style="margin-top:2px;font-size:10px;color:#888;line-height:1.4">${escapeHtml(sc.notes)}</div>`;
                     }
                     html += `<tr><td>${escapeHtml(wt('speakers'))}</td><td>${speakerCell}</td></tr>`;
                 }
@@ -12860,7 +12932,7 @@
         const Q = {
             title: {en:'Reading quiz', ja:'漢字の読みクイズ', ko:'한자 독음 퀴즈', zh:'汉字读音测验', yue:'漢字讀音測驗', vi:'Đố âm đọc Hán tự', th:'ควิซการอ่านอักษรจีน', id:'Kuis bacaan Hanzi', hi:'हान्ज़ी उच्चारण क्विज़', de:'Lesungs-Quiz', fr:'Quiz de lecture', it:'Quiz di lettura', es:'Quiz de lecturas', pt:'Quiz de leituras', ru:'Викторина чтений', uk:'Вікторина читань', ar:'اختبار قراءة الحروف', he:'חידון קריאה', sw:'Jaribio la matamshi'},
             sub: {en:'How is each Han character read across the Sinosphere?', ja:'漢字が各言語・方言でどう読まれるか当てよう。', ko:'한자가 여러 언어·방언에서 어떻게 읽히는지 맞혀보세요.', zh:'猜猜同一个汉字在各语言、方言中怎么读。', yue:'估下同一個漢字喺各語言、方言點讀。', vi:'Đoán xem cùng một chữ Hán được đọc thế nào trong các ngôn ngữ, phương ngữ.', th:'เดาว่าอักษรจีนตัวเดียวกันอ่านอย่างไรในแต่ละภาษาและสำเนียง', id:'Tebak bagaimana satu Hanzi dibaca di berbagai bahasa dan dialek.', hi:'अनुमान लगाएँ कि एक ही हान अक्षर विभिन्न भाषाओं/बोलियों में कैसे पढ़ा जाता है।', de:'Wie wird ein Han-Zeichen im Sinosphären-Raum gelesen?', fr:'Comment lit-on un même caractère han selon les langues et dialectes ?', it:'Come si legge uno stesso carattere han nelle varie lingue e dialetti?', es:'¿Cómo se lee un mismo carácter han en las distintas lenguas y dialectos?', pt:'Como se lê um mesmo caractere han nas várias línguas e dialetos?', ru:'Как один и тот же иероглиф читается в разных языках и диалектах?', uk:'Як той самий ієрогліф читається в різних мовах і діалектах?', ar:'كيف يُقرأ الحرف الصيني نفسه عبر لغات ولهجات المنطقة؟', he:'כיצד נקרא אותו סימן האן בשפות ובניבים השונים?', sw:'Herufi ya Kihan husomwaje katika lugha na lahaja mbalimbali?'},
-            q1: {en:'In {lang}, how is this character read?', ja:'この字を{lang}ではどう読む？', ko:'이 글자를 {lang}에서는 어떻게 읽나요?', zh:'这个字在{lang}中怎么读？', yue:'呢個字喺{lang}點讀？', vi:'Trong {lang}, chữ này đọc thế nào?', th:'ตัวอักษรนี้ในภาษา{lang}อ่านว่าอย่างไร?', id:'Dalam {lang}, bagaimana karakter ini dibaca?', hi:'{lang} में यह अक्षर कैसे पढ़ा जाता है?', de:'Wie wird dieses Zeichen auf {lang} gelesen?', fr:'En {lang}, comment lit-on ce caractère ?', it:'In {lang}, come si legge questo carattere?', es:'En {lang}, ¿cómo se lee este carácter?', pt:'Em {lang}, como se lê este caractere?', ru:'Как этот иероглиф читается на языке {lang}?', uk:'Як цей ієрогліф читається мовою {lang}?', ar:'كيف يُقرأ هذا الحرف بِـ{lang}؟', he:'כיצד נקרא סימן זה ב{lang}?', sw:'Katika {lang}, herufi hii husomwaje?'},
+            q1: {en:'In {lang}, how is this character read?', ja:'この字を{lang}ではどう読む？', ko:'이 글자를 {lang}에서는 어떻게 읽나요?', zh:'这个字在{lang}中怎么读？', yue:'呢個字喺{lang}點讀？', vi:'Trong {lang}, chữ này đọc thế nào?', th:'ตัวอักษรนี้ใน{lang}อ่านว่าอย่างไร?', id:'Dalam {lang}, bagaimana karakter ini dibaca?', hi:'{lang} में यह अक्षर कैसे पढ़ा जाता है?', de:'Wie wird dieses Zeichen auf {lang} gelesen?', fr:'En {lang}, comment lit-on ce caractère ?', it:'In {lang}, come si legge questo carattere?', es:'En {lang}, ¿cómo se lee este carácter?', pt:'Em {lang}, como se lê este caractere?', ru:'Как этот иероглиф читается на языке {lang}?', uk:'Як цей ієрогліф читається мовою {lang}?', ar:'كيف يُقرأ هذا الحرف بِـ{lang}؟', he:'כיצד נקרא סימן זה ב{lang}?', sw:'Katika {lang}, herufi hii husomwaje?'},
             q2: {en:'Which reads this character as {reading}?', ja:'この字を「{reading}」と読むのは？', ko:'이 글자를 「{reading}」로 읽는 것은?', zh:'把这个字读作「{reading}」的是哪一个？', yue:'將呢個字讀做「{reading}」嘅係邊個？', vi:'Ngôn ngữ nào đọc chữ này là {reading}?', th:'ภาษาใดอ่านตัวอักษรนี้ว่า {reading}?', id:'Yang mana membaca karakter ini sebagai {reading}?', hi:'इस अक्षर को {reading} कौन पढ़ता है?', de:'Wer liest dieses Zeichen als {reading}?', fr:'Qui lit ce caractère {reading} ?', it:'Chi legge questo carattere {reading}?', es:'¿Cuál lee este carácter como {reading}?', pt:'Qual lê este caractere como {reading}?', ru:'Кто читает этот иероглиф как {reading}?', uk:'Хто читає цей ієрогліф як {reading}?', ar:'أيٌّ يقرأ هذا الحرف {reading}؟', he:'מי קורא את הסימן הזה {reading}?', sw:'Nani husoma herufi hii kama {reading}?'},
             correct: {en:'Correct!', ja:'正解！', ko:'정답!', zh:'答对了！', yue:'啱！', vi:'Chính xác!', th:'ถูกต้อง!', id:'Benar!', hi:'सही!', de:'Richtig!', fr:'Correct !', it:'Esatto!', es:'¡Correcto!', pt:'Certo!', ru:'Верно!', uk:'Правильно!', ar:'صحيح!', he:'נכון!', sw:'Sahihi!'},
             wrong: {en:'Not quite', ja:'惜しい！', ko:'아쉽네요', zh:'不对', yue:'唔啱', vi:'Chưa đúng', th:'ยังไม่ใช่', id:'Belum tepat', hi:'सही नहीं', de:'Leider nein', fr:'Raté', it:'Sbagliato', es:'Incorrecto', pt:'Errado', ru:'Мимо', uk:'Не те', ar:'خطأ', he:'לא בדיוק', sw:'Sio sahihi'},
@@ -12970,6 +13042,12 @@
   #lm-hquiz-box .hq-sub { font-size: 11px !important; margin-top: 1px !important; }
   #lm-hquiz-box .hq-next { padding: 8px !important; }
   #lm-hquiz-box .hq-close { padding: 4px !important; }
+}
+/* Landscape phones (r19): two columns so all five options show without an inner scroll. */
+@media (max-height: 420px) and (orientation: landscape) {
+  #lm-hquiz-box div:has(> .hq-opt) { display: grid !important; grid-template-columns: 1fr 1fr; gap: 4px; }
+  #lm-hquiz-box .hq-opt { min-height: 34px !important; margin: 0 !important; font-size: 16px !important; }
+  #lm-hquiz-box .hq-prompt { margin-bottom: 4px !important; }
 }`);
             css.id = 'lm-hquiz-css';
             document.head.appendChild(css);

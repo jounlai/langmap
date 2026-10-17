@@ -29,7 +29,7 @@ WORDS.star = {
     sw: "Nyota",
   },
   definition: {
-    en: "NOUN \"star\" = a celestial star in the night sky. Not \"movie star\" (celebrity) and not a shape/asterisk.",
+    en: "A star in the night sky (a noun). Not a \"movie star\" (celebrity) and not a star shape or asterisk.",
     ja: "名詞「星」＝夜空の天体としての恒星。「スター（有名人）」や星形・アスタリスクではない。",
     ko: "명사 \"별\" = 밤하늘의 천체. \"스타(유명인)\"나 별 모양·별표가 아님.",
     zh: "名词\"星\"＝夜空中的天体恒星；不是\"明星\"（名人），也不是星形/星号。",

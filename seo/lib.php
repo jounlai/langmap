@@ -3485,6 +3485,7 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
 .seo-map-wrap { margin: 1rem 0 2rem; }
 .seo-map { height: 360px; border-radius: .7rem; border: 1px solid var(--line); }
 .seo-sources { font-size: .95rem; padding-left: 1.2rem; }
+.seo-sources li { margin: 0 0 .5rem; } /* 24px between adjacent links (target-size) */
 .seo-sources a { color: var(--accent); }
 .seo-index-list { columns: 2 16rem; gap: 2rem; padding: 0; list-style: none; }
 .seo-index-list li { break-inside: avoid; margin: 0 0 .35rem; }
@@ -3613,8 +3614,7 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
 .seo-related .seo-cmp .note { color: var(--muted); font-size: .85rem; align-self: center; }
 .seo-related .seo-siblings { columns: 2 14rem; gap: 2rem; padding: 0; list-style: none; margin: .5rem 0 0; }
 .seo-related .seo-siblings li { break-inside: avoid; margin: 0 0 .35rem; }
-.seo-related .seo-siblings a { color: var(--accent); text-decoration: none; }
-.seo-related .seo-siblings a:hover { text-decoration: underline; }
+.seo-related .seo-siblings a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
 .seo-related .seo-siblings .code { color: var(--muted); font-size: .85rem; }
 [dir="rtl"] { text-align: right; }
 .seo-langbar { display: flex; justify-content: flex-end; align-items: center;
@@ -3845,8 +3845,11 @@ function seo_lang_ui(string $ui, string $altPath): void
     var text = (t.switch_tpl[targetUi] || t.switch_tpl.en).replace('{name}', endo);
     var box = document.createElement('div');
     box.className = 'seo-langpop';
-    box.setAttribute('role', 'dialog');
+    // alertdialog: announced when it appears (focus is not moved on page
+    // load); lang so the question is read in its own language.
+    box.setAttribute('role', 'alertdialog');
     box.setAttribute('aria-labelledby', 'seo-langpop-msg');   // axe aria-dialog-name
+    box.setAttribute('lang', targetUi);
     var p = document.createElement('p'); p.id = 'seo-langpop-msg'; p.textContent = text; box.appendChild(p);
     var btns = document.createElement('div'); btns.className = 'btns';
     var bSwitch = document.createElement('button');
@@ -4316,9 +4319,10 @@ function seo_comparisons(string $map, string $code, string $ui,
         $nm = seo_lang_name($langs, $c, $ui);
         $cls = $anchor ? ' class="cmp-anchor"' : '';
         if ($anchor) {
-            return '<th' . $cls . ' scope="col" lang="' . e(seo_lang_attr($c)) . '">' . e($nm) . '</th>';
+            // The name is in the UI language (seo_lang_name), not the row's.
+            return '<th' . $cls . ' scope="col">' . e($nm) . '</th>';
         }
-        return '<th scope="col"><a href="' . e(seo_path($ui, $mapName, $c)) . '" lang="' . e(seo_lang_attr($c)) . '">' . e($nm) . '</a></th>';
+        return '<th scope="col"><a href="' . e(seo_path($ui, $mapName, $c)) . '">' . e($nm) . '</a></th>';
     };
 
     // ----- 1) Words comparison ----------------------------------------------
@@ -4416,8 +4420,8 @@ function seo_comparisons(string $map, string $code, string $ui,
                 ?>
     <div class="cmp-wo-row<?= $anchor ? ' cmp-anchor' : '' ?>">
       <div class="cmp-wo-name">
-        <?php if ($anchor): ?><span lang="<?= e(seo_lang_attr($c)) ?>"><?= e($woName($c)) ?></span>
-        <?php else: ?><a href="<?= e($woLink($c)) ?>" lang="<?= e(seo_lang_attr($c)) ?>"><?= e($woName($c)) ?></a><?php endif; ?>
+        <?php if ($anchor): ?><span><?= e($woName($c)) ?></span>
+        <?php else: ?><a href="<?= e($woLink($c)) ?>"><?= e($woName($c)) ?></a><?php endif; ?>
       </div>
       <div class="cmp-wo-segs">
         <?php foreach (($segs ?? []) as $seg):
@@ -4671,8 +4675,8 @@ function seo_comparisons(string $map, string $code, string $ui,
         var row = (d.r || {})[code]; if (!row) return;
         var lg = esc(row.g || '');
         h += '<div class="cmp-wo-row' + (row.l ? '' : ' cmp-anchor') + '"><div class="cmp-wo-name">'
-          + (row.l ? '<a href="' + esc(row.l) + '" lang="' + lg + '">' + esc(row.n) + '</a>'
-                   : '<span lang="' + lg + '">' + esc(row.n) + '</span>')
+          + (row.l ? '<a href="' + esc(row.l) + '">' + esc(row.n) + '</a>'
+                   : '<span>' + esc(row.n) + '</span>')
           + '</div><div class="cmp-wo-segs">';
         (row.s || []).forEach(function (sg) {
           h += '<span class="wo-seg" lang="' + lg + '"' + (sg[2] ? ' data-seg="' + esc(sg[2]) + '"' : '') + (sg[1] ? ' style="color:' + esc(sg[1]) + '"' : '') + '>' + esc(sg[0]) + '</span>';

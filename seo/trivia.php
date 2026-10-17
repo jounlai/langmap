@@ -223,7 +223,7 @@ function seo_tri_minimap(string $lat, string $lng, string $z, string $label, arr
     if ($pins !== '') $svg = str_replace('</svg>', $pins . '</svg>', $svg);
 
     // role="img" needs a name (axe svg-img-alt): the caption text.
-    $svg = preg_replace('~<svg\b(?![^>]*aria-label)~', '<svg aria-label="' . e(trim(strip_tags(html_entity_decode($label, ENT_QUOTES | ENT_HTML5, 'UTF-8')))) . '"', $svg, 1);
+    $svg = preg_replace('~<svg\b(?![^>]*aria-label)~', '<svg aria-label="' . e(trim(preg_replace('/^[^\\p{L}\\p{N}]+/u', '', strip_tags(html_entity_decode($label, ENT_QUOTES | ENT_HTML5, 'UTF-8'))))) . '"', $svg, 1);
     return '<figure class="trivia-embed trivia-minimap">'
         . $svg
         . '<figcaption>' . $label . ' <a class="trivia-embed-more" href="' . e($href) . '">'

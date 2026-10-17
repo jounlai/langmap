@@ -107,7 +107,10 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
 
 <header class="seo-hero">
   <?php if ($native && $native !== $name): ?>
-    <p class="native" lang="<?= e(seo_lang_attr($code) ?: 'en') ?>"><?= e($native) ?></p><?php /* Proto-* natives are English labels */ ?>
+    <?php // No row tag: only a Proto-* label is known to be English; any other
+          // untagged row (sukh, h_vedic …) gets no lang rather than a wrong one.
+          $nl = seo_lang_attr($code) ?: (stripos((string) $native, 'proto-') === 0 ? 'en' : ''); ?>
+    <p class="native"<?= $nl !== '' ? ' lang="' . e($nl) . '"' : '' ?>><?= e($native) ?></p>
   <?php endif; ?>
   <h1><?= e($name) ?></h1>
   <?php if (!empty($meta['family'])): ?>

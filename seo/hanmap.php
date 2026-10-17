@@ -94,7 +94,12 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
 
 <header class="seo-hero">
   <?php if ($native && $native !== $name): ?>
-    <p class="native" lang="<?= e(seo_lang_attr($code) ?: 'ja') ?>"><?= e($native) ?></p><?php /* Proto-* natives are Japanese labels (原始漢蔵語) */ ?>
+    <?php $nl = seo_lang_attr($code); ?>
+    <?php if ($nl !== ''): ?>
+    <p class="native" lang="<?= e($nl) ?>"><?= e($native) ?></p>
+    <?php else: // Proto-* rows: Japanese labels (原始漢蔵語), pko adds a Korean one ?>
+    <p class="native"><?php foreach (explode(' / ', (string) $native) as $i => $part): ?><?= $i ? ' / ' : '' ?><span lang="<?= preg_match('/\p{Hangul}/u', $part) ? 'ko' : 'ja' ?>"><?= e($part) ?></span><?php endforeach; ?></p>
+    <?php endif; ?>
   <?php endif; ?>
   <h1><?= e($name) ?></h1>
   <?php if (!empty($lang['family'])): ?>

@@ -515,7 +515,7 @@ select:focus { border-color: var(--accent); outline: none; }
     font-size: 10px;
     font-weight: 700;
     color: #fff;
-    background: #e67e22;
+    background: #b35400;   /* white on #e67e22 was 2.84:1 */
     border-radius: 3px;
     padding: 2px 5px;
     margin-left: 4px;
@@ -620,7 +620,7 @@ select:focus { border-color: var(--accent); outline: none; }
     width: 72px;
     font-size: 0.7rem;
     font-weight: 600;
-    color: #888;
+    color: #666;
     padding-top: 5px;
     line-height: 1.2;
 }
@@ -649,7 +649,9 @@ select:focus { border-color: var(--accent); outline: none; }
     background: var(--accent-tint);
     border-color: var(--accent);
 }
-.lang-toggle input { display: none; }
+.lang-toggle input { position: absolute; opacity: 0; width: 1px; height: 1px; margin: 0; pointer-events: none; }  /* hidden but keyboard-focusable */
+.lang-toggle { position: relative; }
+.lang-toggle:has(input:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
 .lang-toggle .dot {
     width: 8px; height: 8px;
     border-radius: 50%;
@@ -739,8 +741,8 @@ select:focus { border-color: var(--accent); outline: none; }
 /* Until app.js draws the rows, hold the default map's height (six languages)
    in an invisible box: it painted ~80px tall and then pushed the page down
    ~500px (CLS 0.4+, rally r6). Once rows exist the rule no longer matches. */
-#mapContainer:has(> #langRows:empty) { visibility: hidden; display: block; min-height: calc(var(--rows, 6) * 89px + 60px); }
-@media (max-width: 640px) { #mapContainer:has(> #langRows:empty) { min-height: calc(var(--rows, 6) * 78px); } }
+#mapContainer:has(> #langRows:empty) { visibility: hidden; display: block; min-height: calc(var(--rows, 6) * 118px + 60px); }
+@media (max-width: 640px) { #mapContainer:has(> #langRows:empty) { min-height: calc(var(--rows, 6) * 96px); } .lang-row-ctrl { min-height: 58px; } }
 
 .map-toolbar {
     display: flex;
@@ -1794,7 +1796,7 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
 .lang-picker-item[aria-selected="true"] { background: var(--accent-tint, #eef2ff); font-weight: 600; }
 .lang-picker-item-code {
     flex: none; min-width: 30px;
-    font-size: 10px; font-weight: 700; letter-spacing: 0.5px; color: #8a8f9a;
+    font-size: 10px; font-weight: 700; letter-spacing: 0.5px; color: #5f6368;
 }
 [dir="rtl"] .lang-picker-menu { left: auto; right: 0; }
 

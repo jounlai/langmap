@@ -319,11 +319,24 @@
             if (!modal || modal.style.display === 'none') return;
             if (e.ctrlKey || e.metaKey || e.altKey) return;
             var t = e.target, typing = t && /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName);
+            // Enter/Space on a focused button is that button's (native click),
+            // not the screen's main action.
+            if ((e.key === 'Enter' || e.key === ' ') && t && t.tagName === 'BUTTON' && box.contains(t)) return;
+            // Tab stays inside the dialog.
+            if (e.key === 'Tab') {
+                var f = [].filter.call(box.querySelectorAll('button, input, select, a[href]'), function (x) { return !x.disabled && x.getClientRects().length; });
+                if (f.length) {
+                    var first = f[0], last = f[f.length - 1];
+                    if (e.shiftKey && (document.activeElement === first || !box.contains(document.activeElement))) { e.preventDefault(); last.focus(); }
+                    else if (!e.shiftKey && (document.activeElement === last || !box.contains(document.activeElement))) { e.preventDefault(); first.focus(); }
+                }
+                return;
+            }
             if (state.screen === 'quiz') {
                 if (state.chosen < 0) { var n = '1234'.indexOf(e.key); if (n >= 0) { e.preventDefault(); answer(n); return; } }
                 else if (e.key === ' ' || e.key === 'Spacebar') { e.preventDefault(); advance(); return; }
             }
-            if (state.screen === 'pick' && state.listNav && (e.key === 'ArrowDown' || e.key === 'ArrowUp' || e.key === 'Enter')) {
+            if (state.screen === 'pick' && state.listNav && (e.key === 'ArrowDown' || e.key === 'ArrowUp' || e.key === 'Enter') && (!t || t === state.search || !box.contains(t) || t === box)) {
                 e.preventDefault(); state.listNav(e.key); return;
             }
             var k = e.key.length === 1 ? e.key.toLowerCase() : e.key;
@@ -341,8 +354,17 @@
         window.__wmOpenGame = on ? 'master' : (window.__wmOpenGame === 'master' ? null : window.__wmOpenGame);
         if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash();
     }
-    function show() { if (!modal) build(); modal.style.display = 'flex'; render(); setOpen(true); }
-    function hide() { stopAuto(); if (modal) modal.style.display = 'none'; setOpen(false); }
+    var returnTo = null;
+    function show() { if (!modal) build(); returnTo = document.activeElement; box.setAttribute('aria-label', pk(T.title)); box.tabIndex = -1; modal.style.display = 'flex'; render(); setOpen(true); }
+    function hide() {
+        var was = modal && modal.style.display !== 'none';
+        stopAuto(); if (modal) modal.style.display = 'none'; setOpen(false);
+        if (!was) return;
+        // Back to what opened it, or the visible Play button.
+        var ok = function (x) { return x && x.isConnected && x !== document.body && x.getClientRects().length && getComputedStyle(x).visibility !== 'hidden'; };
+        var r = ok(returnTo) ? returnTo : [document.getElementById('play-menu-btn'), document.querySelector('.hamburger-btn')].filter(ok)[0];
+        if (r) try { r.focus(); } catch (_) {}
+    }
 
     function header(right) {
         box.dir = /^(ar|he)/.test(ui()) ? 'rtl' : 'ltr';
@@ -365,6 +387,11 @@
         else if (state.screen === 'quiz') renderQuiz();
         else if (state.screen === 'shelf') renderShelf();
         else renderResult();
+        // innerHTML dropped the focused control: keep focus in the dialog.
+        if (modal && modal.style.display !== 'none' && !box.contains(document.activeElement)) {
+            var f = state.search || box.querySelector('button') || box;
+            try { f.focus({ preventScroll: true }); } catch (_) {}
+        }
     }
 
     function langList() {

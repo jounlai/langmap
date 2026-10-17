@@ -3395,8 +3395,9 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   .seo-ex .cmp-page[hidden] { display: table-row !important; }
   /* Wide tables: no scroll box on paper, wrap instead of cutting the right edge. */
   .seo-cmp-wrap, .seo-chartable-wrap { overflow: visible !important; }
-  .seo-cmp-tbl { min-width: 0 !important; width: 100% !important; font-size: .8rem; }
-  .seo-cmp-tbl th, .seo-cmp-tbl td { white-space: normal !important; }
+  .seo-cmp-tbl { min-width: 0 !important; width: 100% !important; }
+  /* IPA has no break points: let long forms break anywhere rather than run off the page. */
+  .seo-cmp-tbl th, .seo-cmp-tbl td { white-space: normal !important; overflow-wrap: anywhere; }
   .seo-cmp-tbl th.cmp-rowhead { position: static !important; }
   .ex-wo-pick { display: none !important; }
   a { color: inherit; text-decoration: none; }
@@ -4626,6 +4627,10 @@ function seo_comparisons(string $map, string $code, string $ui,
       // Size to the SCROLL extent, not the visible box: on narrow screens the
       // block scrolls horizontally, so the SVG must span the full content width
       // (and scroll with it) or the connectors get clipped at the viewport edge.
+      // Collapse first: scrollWidth includes the SVG's previous size, so it
+      // could only ever grow (a blank scroll area after a resize or a shorter
+      // sentence).
+      svg.setAttribute('width', 0); svg.setAttribute('height', 0); svg.style.width = svg.style.height = '0px';
       var W = el.scrollWidth, H = el.scrollHeight;
       svg.setAttribute('width', W); svg.setAttribute('height', H);
       svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);

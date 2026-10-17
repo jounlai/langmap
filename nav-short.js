@@ -122,7 +122,9 @@
             // The drawn short label is hidden from the name (alt ""), so name the
             // link with both: speech input users say what they see ("Words").
             if (items[i].tagName !== 'A') continue;   // aria-label is not allowed on a plain <span>
-            var full = (items[i].textContent || '').trim();
+            // Text nodes only: the 字 icon <span> in the HanMap link is not the name.
+            var full = Array.prototype.filter.call(items[i].childNodes, function (n) { return n.nodeType === 3; })
+                .map(function (n) { return n.nodeValue; }).join('').trim();
             var nm = full && full !== s ? full + ' (' + s + ')' : (full || s);
             if (items[i].getAttribute('aria-label') !== nm) items[i].setAttribute('aria-label', nm);
         }
@@ -133,7 +135,12 @@
         // "/ ''": the drawn short label is decoration; the link's own (font-size
         // 0) text is its name. Without it screen readers read both ("Word MapWords").
         + ' .site-header-bar .header-nav.more-end { -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent); }'
+        + ' .site-header-bar .header-nav.more-start { -webkit-mask-image: linear-gradient(to left, #000 calc(100% - 28px), transparent); mask-image: linear-gradient(to left, #000 calc(100% - 28px), transparent); }'
+        + ' .site-header-bar .header-nav.more-start.more-end { -webkit-mask-image: linear-gradient(to right, transparent, #000 28px, #000 calc(100% - 28px), transparent); mask-image: linear-gradient(to right, transparent, #000 28px, #000 calc(100% - 28px), transparent); }'
+        + ' [dir="rtl"] .site-header-bar .header-nav.more-start { -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent); }'
+        + ' @media print { .site-header-bar .header-nav { -webkit-mask-image: none !important; mask-image: none !important; } }'
         + ' [dir="rtl"] .site-header-bar .header-nav.more-end { -webkit-mask-image: linear-gradient(to left, #000 calc(100% - 28px), transparent); mask-image: linear-gradient(to left, #000 calc(100% - 28px), transparent); }'
+        + ' [dir="rtl"] .site-header-bar .header-nav.more-start.more-end { -webkit-mask-image: linear-gradient(to right, transparent, #000 28px, #000 calc(100% - 28px), transparent); mask-image: linear-gradient(to right, transparent, #000 28px, #000 calc(100% - 28px), transparent); }'
         + ' .site-header-bar .header-nav [data-short]::after { content: attr(data-short); content: attr(data-short) / ""; font-size: 13px; }'
         + ' }';
     document.head.appendChild(st);
@@ -166,8 +173,10 @@
         }
         nav.addEventListener('wheel', function (e) {
             if (nav.scrollWidth <= nav.clientWidth || Math.abs(e.deltaX) > Math.abs(e.deltaY)) return;
-            var rtl = getComputedStyle(nav).direction === 'rtl';
-            nav.scrollLeft += rtl ? -e.deltaY : e.deltaY; e.preventDefault();
+            var rtl = getComputedStyle(nav).direction === 'rtl', before = nav.scrollLeft;
+            nav.scrollLeft += rtl ? -e.deltaY : e.deltaY;
+            // At an end the wheel goes back to the page.
+            if (nav.scrollLeft !== before) e.preventDefault();
         }, { passive: false });
         nav.addEventListener('focusin', function (e) {
             if (e.target && e.target.scrollIntoView) e.target.scrollIntoView({ block: 'nearest', inline: 'nearest' });
@@ -183,6 +192,10 @@
             edges();
         }
         addEventListener('resize', current);
+        // The picker and share buttons arrive after DOMContentLoaded and squeeze
+        // the nav; a language change rewrites its labels. Re-measure on both.
+        if (window.ResizeObserver) new ResizeObserver(current).observe(nav);
+        nav._lmCurrent = current;
         current();
     }
     function settle() {
@@ -191,7 +204,7 @@
         navScroll();
         // Pages rewrite their nav text on a language change; re-check then too.
         var navs = document.querySelectorAll('.site-header-bar .header-nav');
-        var mo = new MutationObserver(run);
+        var mo = new MutationObserver(function () { run(); var nv = document.querySelector('.site-header-bar .header-nav'); if (nv && nv._lmCurrent) nv._lmCurrent(); });
         for (var i = 0; i < navs.length; i++) mo.observe(navs[i], { childList: true, characterData: true, subtree: true });
     }
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', settle); else settle();

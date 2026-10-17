@@ -62,7 +62,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=142">
+    <link rel="stylesheet" href="styles.css?v=143">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -334,7 +334,7 @@
         @media (min-width: 641px) { .tm-map-ctl:not(:has(> .chrome-toggle-btn))::before { content: ''; height: 40px; } }
         #tm-era { min-height: 20px; }
 </style>
-    <script src="nav-short.js?v=14"></script>
+    <script src="nav-short.js?v=15"></script>
 </head>
 <body>
     <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Time Map</h1>
@@ -568,6 +568,18 @@
             pp.options.autoPanPaddingBottomRight=L.point(right, 24);
             const hChanged=pp.options.maxHeight!==maxH; pp.options.maxHeight=maxH;
             if(!was || was.x!==left || was.y!==top || !wasR || wasR.x!==right || hChanged) pp.update();   // re-pan with the right padding
+            // autoPan stops at the map's maxBounds, so a tall popup near the top can
+            // still end under the header / date bar: after the pan settles, shorten
+            // it to what is left below that line (it then scrolls).
+            setTimeout(()=>{
+                const w=pp.getElement && pp.getElement(); if(!w || !map.hasLayer(pp)) return;
+                const wr=w.getBoundingClientRect(), limit=mapR.top+top-8;
+                if(wr.top < limit){
+                    const c=w.querySelector('.leaflet-popup-content'); if(!c) return;
+                    const h=Math.max(120, Math.round(c.getBoundingClientRect().height-(limit-wr.top)));
+                    if(h < (pp.options.maxHeight||Infinity)){ pp.options.maxHeight=h; const ap=pp.options.autoPan; pp.options.autoPan=false; pp.update(); pp.options.autoPan=ap; }
+                }
+            }, 350);
         }
         function drawMarkers(){
             // The marker whose popup is open is kept and updated in place:
@@ -727,7 +739,13 @@
         // Only while the sheet is a sheet (mobile): left open across a widen, it is
         // invisible and must not eat the Escape meant for something else.
         const SHEET_MQ=window.matchMedia('(max-width: 780px)');
-        document.addEventListener('keydown', e=>{ if(e.key==='Escape' && SHEET_MQ.matches && document.getElementById('tm-panel').classList.contains('info-open')){ e.stopImmediatePropagation(); closeInfoSheet(); } }, true);
+        document.addEventListener('keydown', e=>{
+            if(e.key!=='Escape' || !SHEET_MQ.matches || !document.getElementById('tm-panel').classList.contains('info-open')) return;
+            // Something on top (settings popover, a share dialog) takes it first.
+            const pop=document.getElementById('tm-settings-pop');
+            if((pop && !pop.hasAttribute('hidden')) || document.querySelector('[aria-modal="true"]')) return;
+            e.stopImmediatePropagation(); closeInfoSheet();
+        }, true);
         // A closed sheet is only moved off-screen: keep its 50 rows out of the Tab order.
         function syncSheetInert(){ const info=document.getElementById('tm-info'); if(info) info.inert = SHEET_MQ.matches && !document.getElementById('tm-panel').classList.contains('info-open'); }
         SHEET_MQ.addEventListener && SHEET_MQ.addEventListener('change', syncSheetInert);
@@ -815,8 +833,8 @@
             setBtn.addEventListener('click', e=>{ e.stopPropagation(); const open=pop.hasAttribute('hidden');
                 if(open) pop.removeAttribute('hidden'); else pop.setAttribute('hidden',''); setBtn.setAttribute('aria-expanded', open?'true':'false'); });
             document.addEventListener('click', e=>{ if(!pop.hasAttribute('hidden') && !pop.contains(e.target) && !setBtn.contains(e.target)){ pop.setAttribute('hidden',''); setBtn.setAttribute('aria-expanded','false'); } });
-            // Escape closes the popover (one layer: before the sheet's handler).
-            document.addEventListener('keydown', e=>{
+            // Escape closes the popover (one layer: on window, so before the sheet's handler).
+            window.addEventListener('keydown', e=>{
                 if(e.key!=='Escape' || pop.hasAttribute('hidden')) return;
                 e.stopImmediatePropagation(); pop.setAttribute('hidden',''); setBtn.setAttribute('aria-expanded','false');
                 if(pop.contains(document.activeElement) || document.activeElement===document.body) setBtn.focus();
@@ -862,6 +880,6 @@
     </script>
     <script src="/pwa.js?v=2"></script>
     <script src="share-button.js?v=4"></script>
-    <script src="lang-picker.js?v=5"></script>
+    <script src="lang-picker.js?v=6"></script>
 </body>
 </html>

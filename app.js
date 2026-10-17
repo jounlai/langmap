@@ -1009,6 +1009,9 @@ function openLangModal() {
         header.className = 'lang-group-label';
         header.textContent = groupLabel(groupCode);
         header.style.cursor = 'pointer';
+        // Keyboard: the group label toggles its whole group, like a click.
+        header.setAttribute('role', 'button'); header.tabIndex = 0;
+        header.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); header.click(); } });
         groupDiv.appendChild(header);
 
         const toggles = document.createElement('div');
@@ -1043,7 +1046,24 @@ function openLangModal() {
     overlay.classList.add('open');
     // Close on overlay background click
     overlay.onclick = (e) => { if (e.target === overlay) closeLangModal(false); };
+    // A real dialog: focus in, Tab kept inside, Escape cancels, focus back to
+    // the opener on close (it was mouse-only: rally r8).
+    _langModalReturn = document.activeElement;
+    const first = body.querySelector('input[type="checkbox"]:not([disabled])');
+    setTimeout(() => (first || document.getElementById('btnModalConfirm')).focus(), 0);
 }
+let _langModalReturn = null;
+document.addEventListener('keydown', (e) => {
+    const overlay = document.getElementById('langModalOverlay');
+    if (!overlay || !overlay.classList.contains('open')) return;
+    if (e.key === 'Escape') { e.stopImmediatePropagation(); closeLangModal(false); return; }
+    if (e.key !== 'Tab') return;
+    const f = [...overlay.querySelectorAll('button, input, a[href], [tabindex="0"]')].filter((x) => !x.disabled && x.getClientRects().length);
+    if (!f.length) return;
+    const first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && (document.activeElement === first || !overlay.contains(document.activeElement))) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && (document.activeElement === last || !overlay.contains(document.activeElement))) { e.preventDefault(); first.focus(); }
+}, true);
 
 function closeLangModal(confirm) {
     if (confirm && modalPendingLangs) {
@@ -1059,6 +1079,9 @@ function closeLangModal(confirm) {
     }
     modalPendingLangs = null;
     document.getElementById('langModalOverlay').classList.remove('open');
+    const r = (_langModalReturn && _langModalReturn.isConnected) ? _langModalReturn : document.getElementById('btnOpenLangModal');
+    _langModalReturn = null;
+    if (r) try { r.focus(); } catch (_) {}
 }
 
 function modalToggleAll(on) {

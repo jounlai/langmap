@@ -463,15 +463,16 @@
         overlay = document.createElement('div');
         overlay.className = 'mylang-overlay';
         overlay.innerHTML =
-            '<div class="mylang-panel" role="dialog" aria-modal="true">' +
+            '<div class="mylang-panel" role="dialog" aria-modal="true" aria-labelledby="mylang-h">' +
             '<div class="mylang-head"><div class="mylang-head-left">' +
-            '<button class="mylang-back" type="button" style="display:none"></button><h2></h2>' +
+            '<button class="mylang-back" type="button" style="display:none"></button><h2 id="mylang-h"></h2>' +
             '</div><button class="mylang-x" aria-label="close">×</button></div>' +
             '<div class="mylang-body"></div></div>';
         panelBody = overlay.querySelector('.mylang-body');
         overlay.querySelector('.mylang-x').addEventListener('click', close);
         overlay.addEventListener('click', function (e) { if (e.target === overlay) close(); });
-        document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && overlay.classList.contains('open')) close(); });
+        // The share sheet on top takes Escape first (it has its own handler).
+        document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && overlay.classList.contains('open') && !document.querySelector('.mylang-share-back')) close(); });
         document.body.appendChild(overlay);
         renderBuilder();
     }
@@ -560,6 +561,7 @@
                 nm.appendChild(fn);
             }
             var sel = el('select', 'mylang-level');
+            sel.setAttribute('aria-label', localName(item.code));   // axe select-name
             LEVELS.forEach(function (lv) {
                 var o = document.createElement('option'); o.value = lv.key;
                 o.textContent = levelOptionLabel(lv.key);
@@ -567,9 +569,14 @@
                 sel.appendChild(o);
             });
             sel.addEventListener('change', function () { item.level = sel.value; dot.style.color = dot.style.background = levelColor(item.level); syncHash(); });
-            var del = el('button', 'mylang-del'); del.innerHTML = '×'; del.setAttribute('aria-label', 'remove'); del.title = 'remove';
+            var del = el('button', 'mylang-del'); del.innerHTML = '×'; del.setAttribute('aria-label', '× ' + localName(item.code)); del.title = localName(item.code);
             del.style.color = mainCol;
-            del.addEventListener('click', function () { state.langs.splice(idx, 1); renderList(); renderStats(); renderActions(); plotIfActive(); syncHash(); });
+            del.addEventListener('click', function () {
+                state.langs.splice(idx, 1); renderList(); renderStats(); renderActions(); plotIfActive(); syncHash();
+                // The focused row is gone: next row's remove button, else the add box.
+                var dels = listEl.querySelectorAll('.mylang-del');
+                (dels[Math.min(idx, dels.length - 1)] || addInput || panelBody).focus();
+            });
             row.appendChild(dot); row.appendChild(nm); row.appendChild(sel); row.appendChild(del);
             listEl.appendChild(row);
         });
@@ -825,8 +832,21 @@
             { label: 'LINE', color: '#06c755', href: 'https://social-plugins.line.me/lineit/share?url=' + enc(url) + '&text=' + enc(text) }
         ];
         var back = document.createElement('div');
+        back.className = 'mylang-share-back wm-overlay';
         back.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:100001;display:flex;align-items:center;justify-content:center;padding:20px;font-family:inherit';
         var box = document.createElement('div');
+        box.setAttribute('role', 'dialog'); box.setAttribute('aria-modal', 'true'); box.setAttribute('aria-label', T('share'));
+        var ret = document.activeElement;
+        function onKey(e) {
+            if (!back.isConnected) { document.removeEventListener('keydown', onKey, true); return; }
+            if (e.key === 'Escape') { e.stopImmediatePropagation(); back.remove(); }
+        }
+        document.addEventListener('keydown', onKey, true);
+        new MutationObserver(function (_, mo) {
+            if (back.isConnected) return;
+            mo.disconnect(); document.removeEventListener('keydown', onKey, true);
+            if (ret && ret.isConnected) try { ret.focus(); } catch (_) {}
+        }).observe(document.body, { childList: true });
         box.style.cssText = 'background:#fff;color:#1a2230;border-radius:14px;padding:20px;max-width:340px;width:100%;box-shadow:0 12px 40px rgba(0,0,0,.3)';
         box.innerHTML = '<div style="font-weight:700;font-size:15px;margin-bottom:14px">' + esc(T('share')) + '</div>';
         var grid = document.createElement('div');
@@ -855,6 +875,7 @@
         back.appendChild(box);
         back.addEventListener('click', function (e) { if (e.target === back) back.remove(); });
         document.body.appendChild(back);
+        var fl = box.querySelector('a, button'); if (fl) fl.focus();
     }
 
     // Card palette — warm "passport" look.
@@ -1145,8 +1166,16 @@
         else if (window.__wmOpenGame === 'mylang') window.__wmOpenGame = null;
         try { if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); } catch (e) {}
     }
-    function open() { if (!overlay) buildPanel(); else renderBuilder(); overlay.classList.add('open'); markGame(true); setTimeout(function () { if (nameInput) addInput.focus(); }, 30); }
-    function close() { if (overlay) overlay.classList.remove('open'); markGame(false); }
+    var returnTo = null;
+    function open() { returnTo = document.activeElement; if (!overlay) buildPanel(); else renderBuilder(); overlay.classList.add('open'); markGame(true); setTimeout(function () { if (nameInput) addInput.focus(); }, 30); }
+    function close() {
+        var was = overlay && overlay.classList.contains('open');
+        if (overlay) overlay.classList.remove('open'); markGame(false);
+        if (!was) return;
+        var ok = function (x) { return x && x.isConnected && x !== document.body && x.getClientRects().length && getComputedStyle(x).visibility !== 'hidden'; };
+        var r = ok(returnTo) ? returnTo : [document.getElementById('play-menu-btn'), document.querySelector('.hamburger-btn')].filter(ok)[0];
+        if (r) try { r.focus(); } catch (_) {}
+    }
 
     // Register as a hidden .game-btn so the page's "Play ▾ (あそぶ)" menu lists us
     // alongside the other launchers. styles.css hides .game-btn; the menu builder

@@ -89,8 +89,13 @@
 
         function sync() {
             // The page relabels the select on a language change; follow it.
-            var a = sel.getAttribute('aria-label'); if (a) btn.setAttribute('aria-label', a);
-            code.textContent = (sel.value || 'en').toUpperCase();
+            // Name = the page's label plus the visible code ("UI language (RU)"),
+            // so speech input matches what is shown; the listbox shares the label.
+            var a = sel.getAttribute('aria-label') || 'UI language';
+            var cv = (sel.value || 'en').toUpperCase();
+            btn.setAttribute('aria-label', a + ' (' + cv + ')');
+            menu.setAttribute('aria-label', a);
+            code.textContent = cv;
             label.textContent = labelFor(sel.value);
             Array.prototype.forEach.call(menu.children, function (it) {
                 it.setAttribute('aria-selected', it.dataset.value === sel.value ? 'true' : 'false');
@@ -106,8 +111,16 @@
         document.addEventListener('click', function (e) { if (!wrap.contains(e.target)) close(); });
         // Capture phase, and the key stops here: one Escape closes the menu,
         // not also the panel underneath it.
+        // Focus leaving the picker closes it (it stayed open behind other controls).
+        wrap.addEventListener('focusout', function (e) {
+            if (menu.classList.contains('open') && e.relatedTarget && !wrap.contains(e.relatedTarget)) close();
+        });
         window.addEventListener('keydown', function (e) {
             if (e.key !== 'Escape' || !menu.classList.contains('open')) return;
+            // Claim the key only when the picker has focus; otherwise it belongs to
+            // the focused control (a search box clearing its results).
+            var inPicker = wrap.contains(document.activeElement) || document.activeElement === document.body;
+            if (!inPicker) { close(); return; }
             e.preventDefault(); e.stopImmediatePropagation();
             // Focus was on an item that is about to be hidden: back to the button.
             var had = menu.contains(document.activeElement) || document.activeElement === document.body;

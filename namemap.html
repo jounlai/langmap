@@ -72,7 +72,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=142">
+    <link rel="stylesheet" href="styles.css?v=143">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for the scripts that name forms appear in. Without these,
          Arabic / Hebrew / Devanagari / Bengali / Ethiopic / Georgian /
@@ -519,7 +519,7 @@
            57px then 47px and the whole stage jumped (CLS ~0.4, rally r4). */
         @media (min-width: 641px) { .site-header-bar > .chrome-toggle-btn { display: none; } }
 </style>
-    <script src="nav-short.js?v=14"></script>
+    <script src="nav-short.js?v=15"></script>
 </head>
 <body>
     <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Name Map</h1>
@@ -558,14 +558,14 @@
                 <div class="nm-select-row">
                     <select id="name-select" aria-label="Select a name"></select>
                     <button type="button" class="nm-random-btn" id="nm-random" title="Random name" aria-label="Random name">🎲</button>
-                    <button type="button" class="nm-details-btn" id="nm-details-btn" title="Details" aria-label="Details"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><line x1="12" y1="11" x2="12" y2="16.5"/><line x1="12" y1="7.6" x2="12.01" y2="7.6"/></svg></button>
+                    <button type="button" class="nm-details-btn" id="nm-details-btn" title="Details" aria-label="Details" aria-expanded="false" aria-controls="nm-info"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><line x1="12" y1="11" x2="12" y2="16.5"/><line x1="12" y1="7.6" x2="12.01" y2="7.6"/></svg></button>
                 </div>
                 <div class="nm-search-wrap">
-                    <input type="text" id="nm-search" autocomplete="off" spellcheck="false" placeholder="Search a name…" aria-label="Search a name">
-                    <div id="nm-search-results" role="listbox"></div>
+                    <input type="text" id="nm-search" autocomplete="off" spellcheck="false" placeholder="Search a name…" aria-label="Search a name" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="nm-search-results">
+                    <div id="nm-search-results" role="listbox" aria-label="Search a name"></div>
                 </div>
             </div>
-            <div class="nm-info" id="nm-info">
+            <div class="nm-info" id="nm-info" tabindex="0">
                 <button type="button" class="nm-info-close" id="nm-info-close" aria-label="Close">&times;</button>
                 <!-- rendered by JS -->
             </div>
@@ -981,7 +981,7 @@
             function norm(s){ return (s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase(); }
             function render(q){
                 q=norm(q.trim());
-                if(!q){ box.classList.remove('open'); box.innerHTML=''; return; }
+                if(!q){ box.classList.remove('open'); box.innerHTML=''; input.setAttribute('aria-expanded','false'); return; }
                 const hits=[];
                 sortedNameIds().forEach(id=>{
                     const n=NAMES[id];
@@ -993,24 +993,56 @@
                         ...Object.values(n.tree||{}).map(nd=>nd.script)].map(norm).join(' ');
                     if(hay.includes(q)) hits.push(id);
                 });
-                if(!hits.length){ box.classList.remove('open'); box.innerHTML=''; return; }
+                if(!hits.length){ box.classList.remove('open'); box.innerHTML=''; input.setAttribute('aria-expanded','false'); return; }
                 box.innerHTML=hits.slice(0,12).map(id=>
-                    '<div class="nm-search-item" data-id="'+id+'"><span>'+esc(loc(NAMES[id].display))+'</span>'
+                    '<div class="nm-search-item" role="option" id="nm-opt-'+id+'" aria-selected="false" data-id="'+id+'"><span>'+esc(loc(NAMES[id].display))+'</span>'
                     +'<span class="sub">'+esc(t('cats')[NAMES[id].category]||'')+'</span></div>').join('');
-                box.classList.add('open');
+                box.classList.add('open'); input.setAttribute('aria-expanded','true'); active=-1; input.removeAttribute('aria-activedescendant');
                 box.querySelectorAll('.nm-search-item').forEach(it=>{
                     it.addEventListener('mousedown', e=>{ e.preventDefault(); pick(it.getAttribute('data-id')); });
                 });
             }
-            function pick(id){ input.value=''; box.classList.remove('open'); selectName(id,{fit:true}); }
+            function pick(id){ input.value=''; closeList(); selectName(id,{fit:true}); }
+            // Keyboard: ArrowUp/Down move through the results, Enter picks, Escape
+            // closes the list (results were mouse-only: rally r8).
+            let active=-1;
+            function closeList(){ box.classList.remove('open'); input.setAttribute('aria-expanded','false'); input.removeAttribute('aria-activedescendant'); active=-1; }
+            function setActive(i){
+                const items=[...box.querySelectorAll('.nm-search-item')]; if(!items.length) return;
+                active=(i+items.length)%items.length;
+                items.forEach((it,k)=>{ it.setAttribute('aria-selected', k===active?'true':'false'); it.classList.toggle('active', k===active); });
+                input.setAttribute('aria-activedescendant', items[active].id); items[active].scrollIntoView({block:'nearest'});
+            }
+            input.addEventListener('keydown', e=>{
+                const open=box.classList.contains('open');
+                if(e.key==='ArrowDown'){ if(open){ e.preventDefault(); setActive(active+1); } }
+                else if(e.key==='ArrowUp'){ if(open){ e.preventDefault(); setActive(active-1); } }
+                else if(e.key==='Enter'){ const it=box.querySelectorAll('.nm-search-item')[active<0?0:active]; if(open && it){ e.preventDefault(); pick(it.getAttribute('data-id')); } }
+                else if(e.key==='Escape' && open){ e.preventDefault(); e.stopPropagation(); closeList(); }
+            });
             input.addEventListener('input', ()=>render(input.value));
             input.addEventListener('focus', ()=>{ if(input.value) render(input.value); });
             document.addEventListener('click', e=>{ if(!box.contains(e.target)&&e.target!==input) box.classList.remove('open'); });
         }
 
         /* ---------- Mobile info sheet ---------- */
-        function openInfoSheet(){ document.getElementById('nm-panel').classList.add('info-open'); }
-        function closeInfoSheet(){ document.getElementById('nm-panel').classList.remove('info-open'); }
+        // Mobile sheet: aria-expanded, focus in and back, Escape (as on the Time Map).
+        function openInfoSheet(){
+            document.getElementById('nm-panel').classList.add('info-open');
+            const db=document.getElementById('nm-details-btn'); if(db) db.setAttribute('aria-expanded','true');
+            setTimeout(()=>{ const c=document.getElementById('nm-info-close'); if(c) c.focus(); },0);
+        }
+        function closeInfoSheet(){
+            const p=document.getElementById('nm-panel'), was=p.classList.contains('info-open');
+            p.classList.remove('info-open');
+            const db=document.getElementById('nm-details-btn'); if(db){ db.setAttribute('aria-expanded','false'); if(was && db.getClientRects().length) db.focus(); }
+        }
+        document.addEventListener('keydown', e=>{
+            if(e.key!=='Escape') return;
+            const pop=document.getElementById('nm-settings-pop'), sb=document.getElementById('nm-settings-btn');
+            if(pop && !pop.hasAttribute('hidden')){ e.stopImmediatePropagation(); pop.setAttribute('hidden',''); if(sb){ sb.setAttribute('aria-expanded','false'); sb.focus(); } return; }
+            if(window.matchMedia('(max-width: 780px)').matches && document.getElementById('nm-panel').classList.contains('info-open')){ e.stopImmediatePropagation(); closeInfoSheet(); }
+        }, true);
 
         /* ---------- Simple-display toggle placement (HanMap-style) ----------
            Desktop: the toggle sits at the TOP of the map's top-right control
@@ -1031,6 +1063,8 @@
         /* ---------- UI language application ---------- */
         function applyUILang(){
             document.documentElement.lang = String(uiLang || 'en').replace('_', '-');
+            // The text panel reads right to left in ar/he (the page frame keeps its layout).
+            { const _p=document.getElementById('nm-panel'); if(_p) _p.dir = /^(ar|he)/.test(String(uiLang || '')) ? 'rtl' : 'ltr'; }
             document.getElementById('nm-search').placeholder = t('searchPlaceholder');
             document.getElementById('nm-random').title = t('random');
             const _db=document.getElementById('nm-details-btn'); if(_db){ _db.title=t('details'); _db.setAttribute('aria-label',t('details')); }
@@ -1163,6 +1197,6 @@
     </script>
     <script src="/pwa.js?v=2"></script>
     <script src="share-button.js?v=4"></script>
-    <script src="lang-picker.js?v=5"></script>
+    <script src="lang-picker.js?v=6"></script>
 </body>
 </html>

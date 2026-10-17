@@ -77,7 +77,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=142">
+    <link rel="stylesheet" href="styles.css?v=143">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -2821,7 +2821,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=14"></script>
+    <script src="nav-short.js?v=15"></script>
 </head>
 <body>
     <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — HanMap</h1>
@@ -12147,7 +12147,7 @@
         // it if it can still take focus (not <body>, not hidden), else the first
         // visible of the fallbacks.
         function _hmFocusBack(el, fallbacks) {
-            const ok = (x) => x && x.isConnected && x !== document.body && x !== document.documentElement && x.getClientRects().length;
+            const ok = (x) => x && x.isConnected && x !== document.body && x !== document.documentElement && x.getClientRects().length && getComputedStyle(x).visibility !== 'hidden' && !x.closest('[inert], [aria-hidden="true"]');
             if (ok(el)) return el;
             for (const sel of fallbacks) { const f = document.querySelector(sel); if (ok(f)) return f; }
             return null;
@@ -12527,7 +12527,11 @@
         if (_triviaOpenBtn) _triviaOpenBtn.addEventListener('click', () => openTrivia());
         // Escape while a cold open is still waiting on the download cancels it.
         document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape' && _triviaOpenWaiting) _triviaPendingOpen = undefined;
+            if (e.key !== 'Escape') return;
+            if (_triviaOpenWaiting) _triviaPendingOpen = undefined;
+            // Snapshot before the bubbling panel handlers close them: a panel on
+            // top of the article takes this Escape, the article stays.
+            e.__hmPanelOpen = !!document.querySelector('#lang-info.visible, #compare-panel.visible');
         }, true);   // capture: nav-short.js stops the bubbling Escape once it closes a drawer
         const _triviaCloseBtn = document.getElementById('trivia-close');
         if (_triviaCloseBtn) _triviaCloseBtn.addEventListener('click', closeTrivia);
@@ -12540,7 +12544,7 @@
             const qb = document.getElementById('lm-hquiz-box');
             if (qb && qb.parentElement && qb.parentElement.style.display !== 'none') return;
             // A language panel / compare panel opened from the article sits on top.
-            if (document.querySelector('#lang-info.visible, #compare-panel.visible')) return;
+            if (e.__hmPanelOpen || document.querySelector('#lang-info.visible, #compare-panel.visible')) return;
             const modal = document.getElementById('trivia-modal');
             if (modal && modal.classList.contains('visible')) {
                 closeTrivia();
@@ -12716,7 +12720,7 @@
   #lm-hquiz-box .hq-head { margin-bottom: 6px !important; }
   #lm-hquiz-box .hq-char { font-size: 40px !important; margin-bottom: 2px !important; }
   #lm-hquiz-box .hq-prompt { font-size: 15px !important; margin-bottom: 8px !important; line-height: 1.35 !important; }
-  #lm-hquiz-box .hq-opt { min-height: 48px !important; padding: 4px 10px !important; margin-bottom: 5px !important; font-size: 17px !important; }
+  #lm-hquiz-box .hq-opt { min-height: 48px !important; padding: 4px 30px !important; margin-bottom: 5px !important; font-size: 17px !important; }
   #lm-hquiz-box .hq-fb { margin: 4px 0 0 !important; font-size: 15px !important; }
   #lm-hquiz-box .hq-next { margin-top: 6px !important; padding: 10px !important; }
   #lm-hquiz-box .hq-close { margin-top: 4px !important; padding: 6px !important; }
@@ -12727,7 +12731,7 @@
   #lm-hquiz-box .hq-head > div:first-child { font-size: 17px !important; }
   #lm-hquiz-box .hq-char { font-size: 32px !important; }
   #lm-hquiz-box .hq-prompt { font-size: 14px !important; margin-bottom: 6px !important; }
-  #lm-hquiz-box .hq-opt { min-height: 40px !important; padding: 3px 10px !important; margin-bottom: 4px !important; font-size: 16px !important; }
+  #lm-hquiz-box .hq-opt { min-height: 40px !important; padding: 3px 28px !important; margin-bottom: 4px !important; font-size: 16px !important; }
   #lm-hquiz-box .hq-sub { font-size: 11px !important; margin-top: 1px !important; }
   #lm-hquiz-box .hq-next { padding: 8px !important; }
   #lm-hquiz-box .hq-close { padding: 4px !important; }
@@ -12984,6 +12988,6 @@
     })();
     </script>
     <script src="share-button.js?v=4"></script>
-    <script src="lang-picker.js?v=5"></script>
+    <script src="lang-picker.js?v=6"></script>
 </body>
 </html>

@@ -281,7 +281,7 @@ function seo_tri_compare(array $targets, array $langs, array $wordLabels, string
             $cell = $l['words'][$w] ?? null;
             $h .= '<td>' . ($cell
                 ? '<span class="tc-form">' . e($cell[0]) . '</span>'
-                    . (!empty($cell[1]) ? '<span class="tc-ipa">/' . e($cell[1]) . '/</span>' : '')
+                    . (!empty($cell[1]) ? '<span class="tc-ipa"><bdi dir="ltr">/' . e($cell[1]) . '/</bdi></span>' : '')
                 : '—') . '</td>';
         }
         $h .= '</tr>';

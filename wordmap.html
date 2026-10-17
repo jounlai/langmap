@@ -87,7 +87,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=142">
+    <link rel="stylesheet" href="styles.css?v=143">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts. Without these the characters render
          as tofu boxes: desktop Linux often ships the Noto historic fonts, but
@@ -3036,7 +3036,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=14"></script>
+    <script src="nav-short.js?v=15"></script>
 </head>
 <body>
     <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Word Map</h1>
@@ -3731,10 +3731,10 @@
            per-word loader can read it", which was the intent all along — only
            the order was wrong. */
         const WM_ASSET_VERSION = {
-            styles:   142,
+            styles:   143,
             data:      342,
             metaI18n:  16,
-            filter:    47,
+            filter:    48,
             names:   203,
             meta:     414,
             trivia:   44,
@@ -3876,7 +3876,7 @@
          loaded. Loading them eagerly meant half a megabyte on every visit for
          data that only matters once a language modal opens. They now load
          inside loadMeta(). See __wmLoadMetaI18n() below. -->
-    <script src="lang-filter.js?v=47"></script>
+    <script src="lang-filter.js?v=48"></script>
     <!-- Translated language names: 1,154 codes × 19 UI languages is ~215 KB
          gzipped, and a reader uses one of them plus English as the fallback.
          Load the shim, then English, then whichever UI language this visitor
@@ -10681,7 +10681,7 @@
             const modal = document.getElementById('trivia-modal');
             const backdrop = document.getElementById('trivia-backdrop');
             if (modal.classList.contains('visible')) {
-                const ok = (x) => x && x.isConnected && x !== document.body && x.getClientRects().length;
+                const ok = (x) => x && x.isConnected && x !== document.body && x.getClientRects().length && getComputedStyle(x).visibility !== 'hidden' && !x.closest('[inert], [aria-hidden="true"]');
                 let r = modal._wmReturn; modal._wmReturn = null;
                 if (!ok(r)) r = ['#play-menu-btn', '#trivia-open', '.hamburger-btn'].map((q) => document.querySelector(q)).find(ok);
                 if (r) setTimeout(() => { try { r.focus(); } catch (_) {} }, 0);
@@ -11630,7 +11630,7 @@
                     setTimeout(() => { try { box.focus(); } catch (_) {} }, 0);
                 },
                 close(box) {
-                    const ok = (x) => x && x.isConnected && x !== document.body && x.getClientRects().length;
+                    const ok = (x) => x && x.isConnected && x !== document.body && x.getClientRects().length && getComputedStyle(x).visibility !== 'hidden' && !x.closest('[inert], [aria-hidden="true"]');
                     let r = box && box._wmReturn;
                     if (!ok(r)) r = ['#play-menu-btn', '.hamburger-btn'].map((q) => document.querySelector(q)).find(ok);
                     if (r) try { r.focus(); } catch (_) {}
@@ -11749,6 +11749,8 @@
                     if (winNow || guesses.length >= MAX) onFinish(winNow); else persist();
                     render();
                     updateBadge();
+                    // render() replaced the focused button: keep focus in the dialog.
+                    { const bx = document.getElementById('lm-langle-box'); if (bx && !bx.contains(document.activeElement)) { const g = bx.querySelector('select, button'); (g || bx).focus(); } }
                 }
                 gb.addEventListener('click', doGuess);
                 box.appendChild(row1); box.appendChild(row2);
@@ -11990,6 +11992,8 @@
                 if (e.key === 'Escape') { hide(); return; }
                 if (e.ctrlKey || e.metaKey || e.altKey) return;
                 const t = e.target; if (t && /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName)) return;
+                // Enter/Space on another button (Close, share) is that button's.
+                if (t && t.closest && t.closest('button') && !t.closest('.wq-next, .wq-opt')) return;
                 if (!qs.length || idx >= qs.length) return;
                 if (!answered) {
                     const n = '123456789'.indexOf(e.key);
@@ -12000,8 +12004,11 @@
             document.body.appendChild(modal);
         }
         function hide() { const wasOpen = modal && modal.style.display !== 'none'; if (modal) modal.style.display = 'none'; if (wasOpen) window.__wmDialog.close(document.getElementById('lm-quiz-box')); if (window.__wmOpenGame === 'quiz') { window.__wmOpenGame = null; if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); } }
-        function answer(i) { if (answered) return; answered = true; chosen = i; if (qs[idx].options[i].correct) score++; render(); }
-        function next() { if (!answered) return; idx++; answered = false; chosen = -1; render(); }
+        // render() rebuilds the box; keep focus inside it (Next once answered, else
+        // the first option) instead of dropping to <body> in an aria-modal dialog.
+        function refocus() { const bx = document.getElementById('lm-quiz-box'); if (!bx || bx.contains(document.activeElement)) return; const f = bx.querySelector(answered ? '.wq-next, .wq-close' : '.wq-opt') || bx.querySelector('button') || bx; f.focus(); }
+        function answer(i) { if (answered) return; answered = true; chosen = i; if (qs[idx].options[i].correct) score++; render(); refocus(); }
+        function next() { if (!answered) return; idx++; answered = false; chosen = -1; render(); refocus(); }
         const KEYS = {"en": "Keys: 1–{n} to answer · Space or Enter for next · Esc to close", "ja": "キー操作：1〜{n}で回答・スペース／エンターで次へ・Escで閉じる", "ko": "키보드: 1~{n}로 답하기 · 스페이스/엔터로 다음 · Esc로 닫기", "zh": "键盘：1–{n} 作答 · 空格或回车下一题 · Esc 关闭", "yue": "鍵盤：1–{n} 答題 · 空白鍵或Enter下一題 · Esc 關閉", "vi": "Phím: 1–{n} để trả lời · Space để tiếp · Esc để đóng", "th": "คีย์: 1–{n} ตอบ · Space ไปต่อ · Esc ปิด", "id": "Tombol: 1–{n} untuk menjawab · Spasi untuk lanjut · Esc untuk menutup", "hi": "कुंजियाँ: 1–{n} उत्तर · Space अगला · Esc बंद", "de": "Tasten: 1–{n} antworten · Leertaste weiter · Esc schließen", "fr": "Touches : 1–{n} pour répondre · Espace pour continuer · Échap pour fermer", "it": "Tasti: 1–{n} per rispondere · Spazio per avanti · Esc per chiudere", "es": "Teclas: 1–{n} para responder · Espacio para seguir · Esc para cerrar", "pt": "Teclas: 1–{n} para responder · Espaço para avançar · Esc para fechar", "ru": "Клавиши: 1–{n} — ответ · Пробел — далее · Esc — закрыть", "uk": "Клавіші: 1–{n} — відповідь · Пробіл — далі · Esc — закрити", "ar": "المفاتيح: 1–{n} للإجابة · المسافة للتالي · Esc للإغلاق", "he": "מקשים: 1–{n} לתשובה · רווח להמשך · Esc לסגירה", "sw": "Vitufe: 1–{n} kujibu · Space kuendelea · Esc kufunga"};
         function startSet() { qs = []; idx = 0; score = 0; answered = false; chosen = -1; for (let i = 0; i < TOTAL; i++) { const q = makeQ(); if (q) qs.push(q); } render(); }
         function show() { if (!modal) build(); modal.style.display = 'flex'; if (!qs.length) startSet(); else render(); if (window.__wmDialog) window.__wmDialog.open(document.getElementById('lm-quiz-box'), (document.getElementById('quiz-btn-label') || {}).textContent || 'Quiz'); window.__wmOpenGame = 'quiz'; if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); }
@@ -12177,6 +12184,12 @@
             }
             if (!b.querySelector('.wm-kbd')) { const k = document.createElement('kbd'); k.className = 'wm-kbd'; k.setAttribute('aria-hidden', 'true'); k.textContent = 'P'; b.appendChild(k); b.setAttribute('aria-keyshortcuts', 'P'); }
             document.addEventListener('keydown', e => {
+                // Langle's Escape first: its first Tab stop is a <select>, which the
+                // tag guard below would otherwise swallow.
+                if (e.key === 'Escape') {
+                    const lb = document.getElementById('lm-langle-box');
+                    if (lb && lb.parentElement && lb.parentElement.style.display !== 'none' && window.__wmLangleHide) { window.__wmLangleHide(); return; }
+                }
                 if (e.ctrlKey || e.metaKey || e.altKey) return;
                 const t = e.target; if (t && (/^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName) || t.isContentEditable)) return;
                 const m = menu(), isOpen = m && m.classList.contains('open');
@@ -12186,11 +12199,6 @@
                     return;
                 }
                 if ((e.key === 'p' || e.key === 'P') && !anyGameOpen()) { e.preventDefault(); toggle(); return; }
-                // Langle has no Escape of its own: close it like a click on its backdrop.
-                if (e.key === 'Escape') {
-                    const lb = document.getElementById('lm-langle-box');
-                    if (lb && lb.parentElement && lb.parentElement.style.display !== 'none' && window.__wmLangleHide) window.__wmLangleHide();
-                }
             });
             b.addEventListener('click', e => { e.stopPropagation(); toggle(); });
             document.addEventListener('click', e => { const m = menu(); if (m && m.classList.contains('open') && !m.contains(e.target) && !b.contains(e.target)) close(); });
@@ -12204,16 +12212,16 @@
 
     <script src="/pwa.js?v=2"></script>
     <script src="share-button.js?v=4"></script>
-    <script src="lang-picker.js?v=5"></script>
+    <script src="lang-picker.js?v=6"></script>
     <!-- "My languages" share-card feature; poster_geo.js supplies the Natural-Earth
          projection its world-map card is drawn with. -->
     <script src="poster_geo.js?v=12"></script>
-    <script src="my-languages.js?v=24"></script>
+    <script src="my-languages.js?v=25"></script>
     <!-- Language Master game (🏅 in the Play menu). master.js is parked as
          text/plain (not fetched at first paint, as hanmap_trivia.js is) and
          injected the first time the game opens. The stub below only labels
          the launcher and loads the module on demand. -->
-    <script type="text/plain" id="master-src" src="master.js?v=12"></script>
+    <script type="text/plain" id="master-src" src="master.js?v=13"></script>
     <script>
     (function () {
         'use strict';

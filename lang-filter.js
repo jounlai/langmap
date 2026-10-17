@@ -1742,9 +1742,11 @@
                 refresh();
             });
 
-            const badge = fab.querySelector('.lf-badge');
-
             function updateBadge() {
+                // Looked up each time: renderFab() rebuilds the button on a UI
+                // language change, which detached a cached badge node.
+                const badge = fab.querySelector('.lf-badge');
+                if (!badge) return;
                 const n = totalActiveFilters();
                 if (n > 0) {
                     badge.textContent = n;

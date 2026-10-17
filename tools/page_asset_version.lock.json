@@ -1,7 +1,7 @@
 {
   "app.js": {
-    "version": 82,
-    "hash": "d2dc8242bcbeb540"
+    "version": 83,
+    "hash": "ccd4e802d74f3f70"
   },
   "data.js": {
     "version": 92,
@@ -16,12 +16,12 @@
     "hash": "aa03d6c05a4b3504"
   },
   "lang-filter.js": {
-    "version": 47,
-    "hash": "80032337f3916915"
+    "version": 48,
+    "hash": "1eb48f0d11ec97d8"
   },
   "lang-picker.js": {
-    "version": 5,
-    "hash": "349d0f228a9bb421"
+    "version": 6,
+    "hash": "c52f0e38370f542e"
   },
   "lang_names/en.js": {
     "version": 203,
@@ -32,12 +32,12 @@
     "hash": "f432bf4317c25936"
   },
   "master.js": {
-    "version": 12,
-    "hash": "add1bb20aa7711a1"
+    "version": 13,
+    "hash": "3fc34aefe58bd226"
   },
   "my-languages.js": {
-    "version": 24,
-    "hash": "1c480d5fcb8ec9b9"
+    "version": 25,
+    "hash": "897667d5cac2bdd7"
   },
   "namemap_data.js": {
     "version": 8,
@@ -56,8 +56,8 @@
     "hash": "13754e5759677c52"
   },
   "nav-short.js": {
-    "version": 14,
-    "hash": "80c3df1ad964a149"
+    "version": 15,
+    "hash": "e510e94402cc4fed"
   },
   "poster_geo.js": {
     "version": 12,
@@ -84,8 +84,8 @@
     "hash": "c72954f3fef6fcce"
   },
   "styles.css": {
-    "version": 142,
-    "hash": "59434e2853313240"
+    "version": 143,
+    "hash": "5c05aa9236b796b1"
   },
   "timemap_calendars.js": {
     "version": 15,

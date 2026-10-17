@@ -420,6 +420,7 @@
             '.mylang-add{width:100%;box-sizing:border-box;padding:9px 11px;border:1px solid rgba(128,128,128,.35);border-radius:9px;font:inherit;background:transparent;color:inherit}',
             '.mylang-sugg{position:absolute;left:0;right:0;top:calc(100% + 4px);background:#fff;color:#1a2230;border-radius:10px;box-shadow:0 10px 30px rgba(0,0,0,.25);max-height:240px;overflow:auto;z-index:5;display:none}',
             '@media (prefers-color-scheme:dark){.mylang-sugg{background:#232d3d;color:#eef2f8}}',
+            '@media (prefers-color-scheme:dark){.mylang-sugg-rom,.mylang-empty,.mylang-note{color:#a9b4c4}}',   /* the light-mode grey is 2.3:1 here */
             '.mylang-sugg.open{display:block}',
             '.mylang-sugg-item{padding:8px 11px;cursor:pointer;display:flex;gap:8px;align-items:baseline}',
             '.mylang-sugg-item:hover,.mylang-sugg-item.active{background:rgba(90,140,220,.16)}',
@@ -679,7 +680,7 @@
         // Escape with suggestions showing closes the list, not the whole panel.
         if (e.key === 'Escape' && suggBox.classList.contains('open')) { e.preventDefault(); e.stopPropagation(); suggBox.classList.remove('open'); return; }
         // Closed with Escape but text still there: arrows/Enter reopen the list.
-        if ((e.key === 'ArrowDown' || e.key === 'ArrowUp' || e.key === 'Enter') && !suggBox.classList.contains('open') && addInput.value.trim()) onSearch();
+        if ((e.key === 'ArrowDown' || e.key === 'ArrowUp' || e.key === 'Enter') && !suggBox.classList.contains('open') && addInput.value.trim()) { onSearch(); if (e.key === 'Enter') { e.preventDefault(); return; } }   // Enter shows the list, it does not add blindly
         if (!suggBox.classList.contains('open') || !suggData.length) return;
         if (e.key === 'ArrowDown') { activeSugg = Math.min(suggData.length - 1, activeSugg + 1); renderSugg(); e.preventDefault(); }
         else if (e.key === 'ArrowUp') { activeSugg = Math.max(0, activeSugg - 1); renderSugg(); e.preventDefault(); }

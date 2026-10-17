@@ -169,6 +169,7 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
             if ($native !== '') $tall++;
             if ($n > 1 && $label !== '') $wLabel = max($wLabel, mb_strwidth($label));
             if ($ipa !== '') $wIpa = max($wIpa, mb_strlen($ipa) + 2);
+            $wForm = max($wForm ?? 0, mb_strwidth($native) * 0.62, mb_strwidth($surface) * 0.55);
             $html .= '<tr' . ($i === 0 ? ' class="char-start"' : '') . '>';
             if ($i === 0) {
                 $html .= '<td class="c-char" lang="zh" rowspan="' . $n . '">' . e($c['char']) . '</td>'
@@ -189,21 +190,29 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
     }
     if ($cur) $chunks[] = $cur;
     $th = [seo_t($ui, 'th_char'), seo_t($ui, 'th_gloss'), seo_t($ui, 'th_read'), seo_t($ui, 'th_form'), 'IPA'];
-    $hdr = fn(string $s): float => mb_strwidth($s) * 0.5 + 1.7;          // .8rem caps + letter-spacing + padding
+    $hdr = fn(string $s): float => mb_strwidth($s) * 0.7 + 1.8;          // .8rem caps + .04em letter-spacing + padding (0.5 broke "CHARACT/ER")
     $wC = max(4.2, $hdr($th[0]));
     $wR = max($hdr($th[2]), $wLabel ? $wLabel * 0.36 + 2.5 : 0);        // .68rem chip
     $wI = max($hdr($th[4]), min(14, $wIpa * 0.52 + 1.7));               // .9rem IPA
-    $tw = $wC + $wR + $wI + 15;                                         // + gloss ~7rem + form >= 8rem
-    $colgroup = sprintf('<colgroup><col style="width:%.1frem"><col class="c-gloss"><col style="width:%.1frem"><col><col style="width:%.1frem"></colgroup>', $wC, $wR, $wI);
+    $wG = max(7, $hdr($th[1]));                                          // gloss: fixed, from its header
+    $wF = max(8, $hdr($th[3]), min(16, ($wForm ?? 0) + 1.2));           // form: room for the longest form
+    $tw = $wC + $wG + $wR + $wI + $wF;
+    $colgroup = sprintf('<colgroup><col style="width:%.1frem"><col style="width:%.1frem"><col style="width:%.1frem"><col><col style="width:%.1frem"></colgroup>', $wC, $wG, $wR, $wI);
     $thead = '<thead><tr>'
         . '<th class="c-char" scope="col">' . e($th[0]) . '</th><th class="c-gloss" scope="col">' . e($th[1]) . '</th>'
         . '<th class="c-read" scope="col">' . e($th[2]) . '</th><th class="c-form" scope="col">' . e($th[3]) . '</th>'
         . '<th class="c-ipa" scope="col">IPA</th></tr></thead>';
+    // Later chunks: the header names for screen readers (aria-label) and for
+    // print (data-h, drawn by CSS), but no text that find-in-page would hit.
+    $cls = ['c-char', 'c-gloss', 'c-read', 'c-form', 'c-ipa'];
+    $theadQuiet = '<thead><tr>';
+    foreach ($th as $i => $h) $theadQuiet .= '<th class="' . $cls[$i] . '" scope="col" aria-label="' . e($h) . '" data-h="' . e($h) . '"></th>';
+    $theadQuiet .= '</tr></thead>';
 ?>
   <div class="seo-chartable-wrap" tabindex="0" role="region" aria-labelledby="seo-chars-h" style="--tw:<?= sprintf('%.1f', $tw) ?>rem">
   <?php foreach ($chunks as $k => $ch):
       $body = implode('', array_column($ch, 'html'));
-      $table = '<table class="seo-chartable">' . $colgroup . $thead . '<tbody>' . $body . '</tbody></table>';
+      $table = '<table class="seo-chartable" aria-labelledby="seo-chars-h">' . $colgroup . ($k === 0 ? $thead : $theadQuiet) . '<tbody>' . $body . '</tbody></table>';
       if ($k === 0): echo $table, "\n";
       else: ?>
   <div class="seo-chartable-chunk" style="--r:<?= array_sum(array_column($ch, 'rows')) ?>;--n:<?= array_sum(array_column($ch, 'tall')) ?>"><?= $table ?></div>

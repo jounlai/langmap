@@ -92,7 +92,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=149">
+    <link rel="stylesheet" href="styles.css?v=150">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -1182,7 +1182,7 @@
             background: rgba(255,255,255,0.85); border: none;
             width: 26px; height: 26px; line-height: 1;
             border-radius: 50%;
-            font-size: 18px; cursor: pointer; color: #999;
+            font-size: 18px; cursor: pointer; color: #6b6b6b;
             display: inline-flex; align-items: center; justify-content: center;
         }
         .lang-info-panel .close-btn:hover { color: #333; background: rgba(255,255,255,0.95); }
@@ -1430,7 +1430,7 @@
         }
         .compare-table thead .lang-name { display: block; }
         .compare-table thead .native-name {
-            font-size: 11px; color: #888; font-weight: 400; display: block;
+            font-size: 11px; color: #6b6b6b; font-weight: 400; display: block;
             /* Same historical-script fallback chain as the modal native-name. */
             font-family: "Gentium Plus", "Noto Serif", "Noto Serif JP",
                 "Noto Serif SC", "Noto Serif TC", "Noto Serif KR",
@@ -1529,7 +1529,7 @@
            reading block gets a thin separator and its label tag. */
         .compare-table .cmp-reading { padding: 2px 0; }
         .compare-table .cmp-reading + .cmp-reading { border-top: 1px dashed #eee; margin-top: 4px; padding-top: 4px; }
-        .compare-table .cmp-label { display: block; font-size: 10px; color: #999; margin-top: 1px; }
+        .compare-table .cmp-label { display: block; font-size: 10px; color: #6b6b6b; margin-top: 1px; }
         .compare-add-btn {
             display: inline-block; margin: 10px 0; padding: 4px 10px; /* Audit Task 223: symmetric vertical margin (was margin-top:10px which left no bottom space, causing visual collision with the next block) */
             font-size: 12px; border: 1px solid #1a73e8; background: #fff; color: #1a73e8;
@@ -2048,7 +2048,7 @@
             background: none; border: none;
             width: 28px; height: 26px;
             font-size: 22px; line-height: 1; cursor: pointer;
-            color: #a07c3a;
+            color: #7a5a1e;   /* #a07c3a was 3.49:1 on the trivia tint */
             display: inline-flex; align-items: center; justify-content: center;
             padding: 0;
         }
@@ -2057,7 +2057,7 @@
             display: inline-block;
             font-size: 10px; font-weight: 700;
             letter-spacing: 1.2px; text-transform: uppercase;
-            color: #a07c3a;
+            color: #7a5a1e;   /* #a07c3a was 3.49:1 on the trivia tint */
             margin-bottom: 6px;
         }
         .trivia-modal h2 {
@@ -2105,7 +2105,7 @@
             display: block;
             font-size: 10px; font-weight: 700;
             letter-spacing: 1.2px; text-transform: uppercase;
-            color: #a07c3a;
+            color: #7a5a1e;   /* #a07c3a was 3.49:1 on the trivia tint */
             margin-bottom: 6px;
         }
         .trivia-modal .trivia-sources ul {
@@ -2161,7 +2161,7 @@
             display: block;
             font-size: 10px; font-weight: 700;
             letter-spacing: 1px; text-transform: uppercase;
-            color: #a07c3a;
+            color: #7a5a1e;   /* #a07c3a was 3.49:1 on the trivia tint */
             margin-bottom: 2px;
         }
         .trivia-article-nav .nav-title {
@@ -2194,7 +2194,7 @@
         .trivia-card-num {
             display: inline-block;
             font-size: 10px; font-weight: 700;
-            color: #a07c3a;
+            color: #7a5a1e;   /* #a07c3a was 3.49:1 on the trivia tint */
             margin-inline-end: 4px;
         }
         @media (max-width: 600px) {
@@ -9680,7 +9680,7 @@
                     } else {
                         rt = String(hanMeta.reading_type);
                     }
-                    if (rt) html += `<div style="margin:6px 0 4px;font-size:13px;color:#4a6cf7;font-weight:600">${escapeHtml(rt)}</div>`;
+                    if (rt) html += `<div style="margin:6px 0 4px;font-size:13px;color:#3f5fe0;font-weight:600">${escapeHtml(rt)}</div>`;
                 }
                 if (hanMeta.family) {
                     const famLabel = {
@@ -9758,7 +9758,7 @@
                         pt: 'Fontes', ru: 'Источники', uk: 'Джерела',
                         ar: 'المصادر', he: 'מקורות', sw: 'Vyanzo',
                     }[uiBase] || 'Sources';
-                    html += `<div style="margin:8px 0 4px;font-size:12px;color:#888"><b>${escapeHtml(srcLabel)}:</b></div>`;
+                    html += `<div style="margin:8px 0 4px;font-size:12px;color:#6b6b6b"><b>${escapeHtml(srcLabel)}:</b></div>`;
                     html += '<ul style="margin:0 0 12px 16px;padding:0;font-size:12px;color:#666;line-height:1.55">';
                     // Unwrap mixed-shape source entries so we never render
                     // "[object Object]". Supported shapes per item:
@@ -9894,7 +9894,7 @@
                     if (hasNative) html += `<td class="hanmap-script-cell" style="padding:4px 6px 4px 0;color:#222;vertical-align:middle">${escapeHtml(r.native)}</td>`;
                     html += `<td style="padding:4px 6px 4px 0;color:#444;vertical-align:middle">${escapeHtml(r.romanized)}</td>`;
                     html += `<td style="padding:4px 6px 4px 0;color:#555;vertical-align:middle">${escapeHtml(r.ipa)}</td>`;
-                    html += `<td style="padding:4px 6px 4px 0;color:#888;font-size:10px;vertical-align:middle">${escapeHtml(r.label)}</td>`;
+                    html += `<td style="padding:4px 6px 4px 0;color:#6b6b6b;font-size:10px;vertical-align:middle">${escapeHtml(r.label)}</td>`;
                     html += `</tr>`;
                 }
             }
@@ -12614,6 +12614,7 @@
 
     })();
     </script>
+    </main>
     <footer style="text-align:center;padding:16px 12px;font-size:12px;color:#666;border-top:1px solid #e6e6ef;margin-top:24px">
         全言語インデックス: <a href="/en/wordmap/" style="color:#4178bc">Word Map</a> · <a href="/en/hanmap/" style="color:#4178bc">Han Map</a> · <a href="/en/trivia/" style="color:#4178bc">Trivia</a>
 <!-- TRIVIA-INDEX:START -->
@@ -12804,7 +12805,7 @@
         let _hqReturn = null;
         function hide() { if (modal && modal.style.display !== 'none') { const r = window.__hmFocusBack(_hqReturn, ['#play-menu-btn', '#hquiz-open', '.hamburger-btn']); if (r) { try { r.focus(); } catch (_) {} } } if (modal) modal.style.display = 'none'; if (window.__hmOpenGame === 'hquiz') { window.__hmOpenGame = null; if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); } }
         // render() rebuilds the box: keep focus inside it (Next once answered, else the first option).
-        function hqRefocus() { const bx = document.getElementById('lm-hquiz-box'); if (!bx || bx.contains(document.activeElement)) return; const f = bx.querySelector('.hq-again') || bx.querySelector(answered ? '.hq-next, .hq-close' : '.hq-opt') || bx; try { f.focus({ preventScroll: true }); } catch (_) {} }
+        function hqRefocus() { const bx = document.getElementById('lm-hquiz-box'); if (!bx || (bx.contains(document.activeElement) && document.activeElement !== bx)) return; const f = bx.querySelector('.hq-again') || bx.querySelector(answered ? '.hq-next, .hq-close' : '.hq-opt') || bx; try { f.focus({ preventScroll: true }); } catch (_) {} }
         function answer(i) { if (answered) return; answered = true; chosen = i; if (qs[idx].options[i].correct) score++; render(); hqRefocus();
             // A persistent live node (render() replaces the in-box feedback, which
             // then arrives already filled and is not announced).
@@ -12812,7 +12813,7 @@
               const fbEl = document.querySelector('#lm-hquiz-box .hq-fb'); lv.textContent = ''; setTimeout(() => { lv.textContent = fbEl ? fbEl.textContent : ''; }, 50); } }
         function next() { if (!answered) return; idx++; answered = false; chosen = -1; render(); hqRefocus(); }
         const KEYS = {"en": "Keys: 1–{n} to answer · Space or Enter for next · Esc to close", "ja": "キー操作：1〜{n}で回答・スペース／エンターで次へ・Escで閉じる", "ko": "키보드: 1~{n}로 답하기 · 스페이스/엔터로 다음 · Esc로 닫기", "zh": "键盘：1–{n} 作答 · 空格或回车下一题 · Esc 关闭", "yue": "鍵盤：1–{n} 答題 · 空白鍵或Enter下一題 · Esc 關閉", "vi": "Phím: 1–{n} để trả lời · Space để tiếp · Esc để đóng", "th": "คีย์: 1–{n} ตอบ · Space ไปต่อ · Esc ปิด", "id": "Tombol: 1–{n} untuk menjawab · Spasi untuk lanjut · Esc untuk menutup", "hi": "कुंजियाँ: 1–{n} उत्तर · Space अगला · Esc बंद", "de": "Tasten: 1–{n} antworten · Leertaste weiter · Esc schließen", "fr": "Touches : 1–{n} pour répondre · Espace pour continuer · Échap pour fermer", "it": "Tasti: 1–{n} per rispondere · Spazio per avanti · Esc per chiudere", "es": "Teclas: 1–{n} para responder · Espacio para seguir · Esc para cerrar", "pt": "Teclas: 1–{n} para responder · Espaço para avançar · Esc para fechar", "ru": "Клавиши: 1–{n} — ответ · Пробел — далее · Esc — закрыть", "uk": "Клавіші: 1–{n} — відповідь · Пробіл — далі · Esc — закрити", "ar": "المفاتيح: 1–{n} للإجابة · المسافة للتالي · Esc للإغلاق", "he": "מקשים: 1–{n} לתשובה · רווח להמשך · Esc לסגירה", "sw": "Vitufe: 1–{n} kujibu · Space kuendelea · Esc kufunga"};
-        function startSet() { qs = []; idx = 0; score = 0; answered = false; chosen = -1; for (let i = 0; i < TOTAL; i++) { const q = makeQ(); if (q) qs.push(q); } render(); }
+        function startSet() { { const lv = modal && modal.querySelector('.hq-live'); if (lv) lv.textContent = ''; } qs = []; idx = 0; score = 0; answered = false; chosen = -1; for (let i = 0; i < TOTAL; i++) { const q = makeQ(); if (q) qs.push(q); } render(); }
         function show() { if (!modal) build(); _hqReturn = document.activeElement; modal.style.display = 'flex';
             // aria-modal hides the rest of the page: name the dialog and move focus into it.
             { const bx = document.getElementById('lm-hquiz-box'); const lb = document.getElementById('hquiz-btn-label');
@@ -12852,7 +12853,7 @@
                         css = css.replace('cursor:pointer', 'cursor:default');
                         if (o.correct) css += ';border-color:#0d9f6e;background:#f1faf5;color:#0d7a55;font-weight:700';
                         else if (i === chosen) css += ';border-color:#e2a3af;background:#fdf1f3;color:#c0405a';
-                        else css += ';opacity:.5';
+                        else css += ';color:#5f6368;border-color:#e6e8ec;background:#fafbfc';
                     }
                     const b = el('button', css + ';position:relative');
                     b.className = 'hq-opt'; b.type = 'button'; b.setAttribute('aria-keyshortcuts', String(i + 1));
@@ -12864,7 +12865,7 @@
                 // Feedback line + Next button pinned below, always present (reserving
                 // height), shown only once answered so the modal height stays stable.
                 const okNow = answered && qs[idx].options[chosen] && qs[idx].options[chosen].correct;
-                const fb = el('div', `text-align:center;font-weight:800;font-size:16px;margin:6px 0 2px;color:${okNow ? '#0d9f6e' : '#d4506a'};visibility:${answered ? 'visible' : 'hidden'}`, answered ? (okNow ? pk(Q.correct) : pk(Q.wrong)) : pk(Q.correct));
+                const fb = el('div', `text-align:center;font-weight:800;font-size:16px;margin:6px 0 2px;color:${okNow ? '#0d7a55' : '#c0405a'};visibility:${answered ? 'visible' : 'hidden'}`, answered ? (okNow ? pk(Q.correct) : pk(Q.wrong)) : pk(Q.correct));
                 fb.className = 'hq-fb'; box.appendChild(fb);
                 const nb = el('button', `width:100%;margin-top:10px;padding:12px;border:0;border-radius:10px;background:${accent};color:#fff;font-weight:700;font-size:16px;cursor:pointer;flex:none;visibility:${answered ? 'visible' : 'hidden'}`);
                 nb.className = 'hq-next'; nb.setAttribute('aria-keyshortcuts', 'Space');
@@ -13057,6 +13058,5 @@
     </script>
     <script src="share-button.js?v=4"></script>
     <script src="lang-picker.js?v=8"></script>
-    </main>
 </body>
 </html>

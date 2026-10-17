@@ -1111,7 +1111,7 @@
         }
         .lf-panel-title { font-size: 13px; font-weight: 600; }
         .lf-actions { display: flex; gap: 6px; align-items: center; }
-        .lf-counter { font-size: 11px; color: #888; }
+        .lf-counter { font-size: 11px; color: #5f6368; }
         .lf-reset {
             background: transparent; border: 1px solid #ddd; border-radius: 4px;
             font-size: 10px; padding: 2px 6px; cursor: pointer; color: #666;
@@ -1205,7 +1205,7 @@
         .lf-chip-disabled:hover { background: #f8f8f8; border-color: #d0d0d0; }
         .lf-chip-more {
             font-size: 11px; padding: 3px 8px;
-            color: #4a6cf7; cursor: pointer; user-select: none;
+            color: #3f5fe0; cursor: pointer; user-select: none; font-family: inherit;
             background: transparent; border: 1px dashed transparent;
         }
         .lf-chip-more:hover { text-decoration: underline; }
@@ -1504,7 +1504,7 @@
             const collapsedLabel = collapsible ? t('btn_show_more', { n: remaining }) : '';
             const expandedLabel = collapsible ? t('btn_collapse') : '';
             const moreToggle = collapsible
-                ? `<span class="lf-chip-more" data-collapsed-label="${collapsedLabel}" data-expanded-label="${expandedLabel}">${collapsedLabel}</span>`
+                ? `<button type="button" class="lf-chip-more" aria-expanded="false" data-collapsed-label="${collapsedLabel}" data-expanded-label="${expandedLabel}">${collapsedLabel}</button>`
                 : '';
             html += `
                 <div class="lf-section" data-cat="${sec.key}">
@@ -1882,6 +1882,7 @@
                 if (more) {
                     const sec = more.closest('.lf-section');
                     sec.classList.toggle('lf-expanded');
+                    more.setAttribute('aria-expanded', sec.classList.contains('lf-expanded') ? 'true' : 'false');
                     more.textContent = sec.classList.contains('lf-expanded')
                         ? more.dataset.expandedLabel
                         : more.dataset.collapsedLabel;

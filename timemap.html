@@ -62,7 +62,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=149">
+    <link rel="stylesheet" href="styles.css?v=150">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -744,7 +744,8 @@
             // Step / Today buttons change the date out of sight: announce it.
             // Debounced (a held Next queued 20 dates), and read as a long date.
             if(opts && opts.announce){ clearTimeout(setDate._lv); setDate._lv=setTimeout(()=>{ const lv=document.getElementById('tm-live'); if(!lv) return;
-                let txt=s; try{ const p=gregParts(s); if(p) txt=new Date(Date.UTC(p.y,p.m-1,p.d)).toLocaleDateString(String(uiLang||'en').replace('_','-'),{year:'numeric',month:'long',day:'numeric',timeZone:'UTC'}); }catch(_){}
+                let txt=s; try{ const p=gregParts(s); if(p){ const d=new Date(0); d.setUTCFullYear(p.y,p.m-1,p.d);   /* years 1-99 */
+                    txt=d.toLocaleDateString(String(uiLang||'en').replace('_','-'),{year:'numeric',month:'long',day:'numeric',timeZone:'UTC',calendar:'gregory',numberingSystem:'latn'}); } }catch(_){}
                 lv.textContent=txt; }, 400); }
         }
 

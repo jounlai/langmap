@@ -3422,6 +3422,7 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   .seo-ex .cmp-page[hidden] { display: table-row !important; }
   /* Wide tables: no scroll box on paper, wrap instead of cutting the right edge. */
   .seo-cmp-wrap, .seo-chartable-wrap { overflow: visible !important; }
+  .seo-chartable-chunk thead th { height: auto !important; line-height: normal !important; padding-block: .5rem !important; clip-path: none !important; border-bottom: 2px solid var(--line) !important; }
   .seo-chartable-chunk { content-visibility: visible !important; min-width: 0 !important; }
   .seo-chartable { min-width: 0 !important; }
   .seo-cmp-tbl { min-width: 0 !important; width: 100% !important; }
@@ -3522,8 +3523,8 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
    layout: columns line up across the tables. Every table after the first is
    laid out only near the viewport; its thead stays for screen readers. */
 .seo-chartable { table-layout: fixed; min-width: var(--tw, 32rem); }
-.seo-chartable col.c-gloss { width: 22%; }
-.seo-chartable thead th { white-space: normal; overflow-wrap: anywhere; }
+.seo-chartable thead th { white-space: normal; overflow-wrap: break-word; }
+.seo-chartable-chunk thead th::before { content: attr(data-h); }
 .seo-chartable td.c-ipa { white-space: normal; overflow-wrap: anywhere; }
 .seo-chartable-chunk { content-visibility: auto; min-width: var(--tw, 32rem);
   contain-intrinsic-size: auto calc(var(--r) * 2.7rem + var(--n) * 1.6rem); }
@@ -3727,9 +3728,9 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
 .seo-ex .ex-wo-pick { margin: 0 0 .9rem; }
 .seo-ex .ex-wo-pick select { font: inherit; padding: .3rem .5rem; border: 1px solid var(--line);
   border-radius: .4rem; background: var(--card); color: var(--fg); max-width: 100%; }
-.seo-ex .ex-wo-sent { background: var(--card); border: 1px solid var(--line); border-radius: .7rem;
+.seo-ex .ex-wo-sent, .seo-ex .ex-wo-lazy { background: var(--card); border: 1px solid var(--line); border-radius: .7rem;
   padding: 1rem 1.1rem; }
-.seo-ex .ex-wo-sent .wo-title { font-size: .9rem; color: var(--muted); margin: 0 0 .6rem; }
+.seo-ex .ex-wo-sent .wo-title, .seo-ex .ex-wo-lazy .wo-title { font-size: .9rem; color: var(--muted); margin: 0 0 .6rem; }
 .seo-ex .ex-wo-sent .wo-seg, .seo-ex .ex-wo-lazy .wo-seg { display: inline-block; margin: 0 .3rem .4rem 0; padding: .15rem 0;
   border-bottom: 2px solid currentColor; font-size: 1.2rem;
   font-family: "Gentium Plus", "Noto Serif", "Noto Serif JP", "Noto Serif SC",

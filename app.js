@@ -1158,7 +1158,15 @@ function onDocPointerMove(e) {
     //    segments' getBoundingClientRect reflects the transform, so the
     //    line redraw below connects to the row's NEW visual position
     //    every frame, not just on DOM swap.
-    const dy = e.clientY - pointerDragState.startY;
+    let dy = e.clientY - pointerDragState.startY;
+    // Keep the row inside the rows box: past it, the scrolling map wrapper
+    // clipped it (and grew a scrollbar mid-drag).
+    {
+        const box = document.getElementById('langRows').getBoundingClientRect();
+        const cur = parseFloat((row.style.transform.match(/translateY\((-?[\d.]+)px\)/) || [])[1]) || 0;
+        const r = row.getBoundingClientRect(), base = r.top - cur;
+        dy = Math.max(box.top - base, Math.min(box.bottom - (base + r.height), dy));
+    }
     row.style.transform = 'translateY(' + dy + 'px)';
 
     // 2. Check if a DOM swap is needed (cursor crossed a neighbor's midpoint).
@@ -2343,7 +2351,11 @@ function createSegmentWrapper(seg, langCode) {
     deleteBtn.setAttribute('aria-label', deleteBtn.title + ' ' + (seg.dataset.seg || ''));
     deleteBtn.addEventListener('click', (e) => {
         e.stopPropagation();
+        // Keep focus in the editor: the next segment's field, else the previous, else +.
+        const nxt = wrapper.nextElementSibling, prv = wrapper.previousElementSibling, row = wrapper.closest('.lang-row');
+        const target = (nxt && nxt.querySelector && nxt.querySelector('.segment-input')) || (prv && prv.querySelector && prv.querySelector('.segment-input')) || (row && row.querySelector('.add-segment-btn'));
         wrapper.remove();
+        if (target) target.focus();
         scheduleRedrawLines();
     });
 
@@ -2678,6 +2690,7 @@ function showChangeSegMenu(badge, wrapper, input, sentence) {
         item.addEventListener('click', () => {
             menu.remove();
             applySegChange(badge, input, segId, sentence);
+            badge.focus();
         });
         menu.appendChild(item);
     });
@@ -2702,6 +2715,7 @@ function showChangeSegMenu(badge, wrapper, input, sentence) {
                 item.addEventListener('click', () => {
                     menu.remove();
                     applySegChange(badge, input, compId, sentence);
+                    badge.focus();
                 });
                 menu.appendChild(item);
             }
@@ -2728,6 +2742,12 @@ function showChangeSegMenu(badge, wrapper, input, sentence) {
 function applySegChange(badge, input, newSegId, sentence) {
     input.dataset.seg = newSegId;
     badge.textContent = newSegId;
+    // Keep the accessible names in step with the new segment id.
+    badge.setAttribute('aria-label', 'Change segment type: ' + newSegId);
+    const _w = input.closest('.segment-input-wrapper');
+    const _del = _w && _w.querySelector('.seg-delete-btn');
+    if (_del) _del.setAttribute('aria-label', (_del.title || 'Delete') + ' ' + newSegId);
+    input.setAttribute('aria-label', langName(input.dataset.lang || '') + ' ' + newSegId);
     const subIds = newSegId.split('|');
     if (subIds.length > 1) {
         const colors = subIds.map(id => sentence.segments[id]?.color || '#666');

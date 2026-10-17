@@ -87,7 +87,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=149">
+    <link rel="stylesheet" href="styles.css?v=150">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts. Without these the characters render
          as tofu boxes: desktop Linux often ships the Noto historic fonts, but
@@ -837,7 +837,7 @@
             line-height: 1.2; padding: 3px 6px;
         }
         .right-controls .toggle-btn .onoff {
-            font-size: 7px; opacity: 0.6; margin-top: 1px;
+            font-size: 7px; margin-top: 1px;
         }
         .radio-switch.radio-switch-v {
             flex-direction: column; border-radius: 4px; max-width: 56px;
@@ -2443,7 +2443,7 @@
             background: none; border: none;
             width: 28px; height: 26px;
             font-size: 22px; line-height: 1; cursor: pointer;
-            color: #a07c3a;
+            color: #7a5a1e;   /* #a07c3a was 3.49:1 on the trivia tint */
             display: inline-flex; align-items: center; justify-content: center;
             padding: 0;
         }
@@ -2452,7 +2452,7 @@
             display: inline-block;
             font-size: 10px; font-weight: 700;
             letter-spacing: 1.2px; text-transform: uppercase;
-            color: #a07c3a;
+            color: #7a5a1e;   /* #a07c3a was 3.49:1 on the trivia tint */
             margin-bottom: 6px;
         }
         .trivia-modal h2 {
@@ -2500,7 +2500,7 @@
             display: block;
             font-size: 10px; font-weight: 700;
             letter-spacing: 1.2px; text-transform: uppercase;
-            color: #a07c3a;
+            color: #7a5a1e;   /* #a07c3a was 3.49:1 on the trivia tint */
             margin-bottom: 6px;
         }
         .trivia-modal .trivia-sources ul {
@@ -2556,7 +2556,7 @@
             display: block;
             font-size: 10px; font-weight: 700;
             letter-spacing: 1px; text-transform: uppercase;
-            color: #a07c3a;
+            color: #7a5a1e;   /* #a07c3a was 3.49:1 on the trivia tint */
             margin-bottom: 2px;
         }
         .trivia-article-nav .nav-title {
@@ -2595,7 +2595,7 @@
         .trivia-card-num {
             display: inline-block;
             font-size: 10px; font-weight: 700;
-            color: #a07c3a;
+            color: #7a5a1e;   /* #a07c3a was 3.49:1 on the trivia tint */
             margin-right: 4px;
         }
         @media (max-width: 600px) {
@@ -3733,10 +3733,10 @@
            per-word loader can read it", which was the intent all along — only
            the order was wrong. */
         const WM_ASSET_VERSION = {
-            styles:   149,
+            styles:   150,
             data:      343,
             metaI18n:  16,
-            filter:    49,
+            filter:    50,
             names:   203,
             meta:     414,
             trivia:   44,
@@ -3878,7 +3878,7 @@
          loaded. Loading them eagerly meant half a megabyte on every visit for
          data that only matters once a language modal opens. They now load
          inside loadMeta(). See __wmLoadMetaI18n() below. -->
-    <script src="lang-filter.js?v=49"></script>
+    <script src="lang-filter.js?v=50"></script>
     <!-- Translated language names: 1,154 codes × 19 UI languages is ~215 KB
          gzipped, and a reader uses one of them plus English as the fallback.
          Load the shim, then English, then whichever UI language this visitor
@@ -7668,7 +7668,7 @@
             updateHash();  // remove `lang` param from URL
             // Audit Task 137: restore focus to the opener if still in DOM.
             // Falls back to language search input if opener has been removed.
-            if (_lastDialogOpener && document.contains(_lastDialogOpener) && typeof _lastDialogOpener.focus === 'function') {
+            if (_lastDialogOpener && document.contains(_lastDialogOpener) && _lastDialogOpener.getClientRects().length && typeof _lastDialogOpener.focus === 'function') {
                 try { _lastDialogOpener.focus(); } catch (_) { /* ignore */ }
             } else {
                 // The opener label was rebuilt (word change, pan): its new copy,
@@ -8589,7 +8589,7 @@
                     const label = pickBadgeLabel(badge);
                     const desc = pickBadgeDesc(badge);
                     html += `<span style="display:inline-block;font-size:10px;padding:1px 6px;border-radius:8px;background:${badge.bg};color:${badge.fg};vertical-align:middle">${escapeHtml(label)}</span>`;
-                    if (desc) html += ` <span style="font-size:10px;color:#777;vertical-align:middle">${escapeHtml(desc)}</span>`;
+                    if (desc) html += ` <span style="font-size:10px;color:#5f6368;vertical-align:middle">${escapeHtml(desc)}</span>`;
                 }
                 if (kindBadge) {
                     const kLabel = kindBadge[uiLang] || kindBadge[uiLang.split('_')[0]] || kindBadge.en;
@@ -8690,7 +8690,7 @@
                             'family-default': { en:'family', ja:'語族', ko:'어족', zh:'语系', yue:'語系', vi:'họ', th:'ตระกูล', id:'rumpun', hi:'परिवार', de:'Familie', fr:'famille', it:'famiglia', es:'familia', pt:'família', ru:'семья', uk:'сім\'я', ar:'عائلة', he:'משפחה', sw:'familia' },
                             'unknown': { en:'?', ja:'?', ko:'?', zh:'?', yue:'?', vi:'?', th:'?', id:'?', hi:'?', de:'?', fr:'?', it:'?', es:'?', pt:'?', ru:'?', uk:'?', ar:'?', he:'?', sw:'?' },
                         };
-                        const provColor = { 'manual-override': '#2e7d32', 'family-default': '#888', 'unknown': '#bbb' };
+                        const provColor = { 'manual-override': '#2e7d32', 'family-default': '#5f6368', 'unknown': '#6b6b6b' };
                         // Tone (boolean) → localized "tonal" / "non-tonal"
                         const TONE_LBL = {
                             true:  { en:'tonal',     ja:'声調あり',   ko:'성조 있음', zh:'有声调',   yue:'有聲調',   vi:'có thanh điệu',   th:'มีวรรณยุกต์',     id:'tonal',         hi:'स्वराघातिक',         de:'tonal',     fr:'tonale',     it:'tonale',     es:'tonal',     pt:'tonal',     ru:'тональный',    uk:'тональна',    ar:'نبري',        he:'טונאלית',     sw:'yenye toni' },
@@ -8727,7 +8727,7 @@
                             if (val === null || val === undefined) return '<span style="color:#5f6368">—</span>';
                             const v = localizeVal(val);
                             const tag = localizeProv(prov);
-                            const c = provColor[prov] || '#888';
+                            const c = provColor[prov] || '#5f6368';
                             return `${escapeHtml(v)} <span style="color:${c};font-size:10px">(${escapeHtml(tag)})</span>`;
                         };
                         // Localized labels for ALL UI langs (was en/ja/ko/zh-only)
@@ -8764,12 +8764,12 @@
                         const fbLabel = ENGLISH_FALLBACK_LABEL[uiLang]
                             || ENGLISH_FALLBACK_LABEL[uiLang.split('_')[0]]
                             || ENGLISH_FALLBACK_LABEL.en;
-                        html += ` <span style="color:#aaa;font-size:10px;font-style:italic">(${escapeHtml(fbLabel)})</span>`;
+                        html += ` <span style="color:#5f6368;font-size:10px;font-style:italic">(${escapeHtml(fbLabel)})</span>`;
                     }
                     html += `</div>`;
                 }
             } else {
-                html += '<div class="meta-loading" style="padding:10px 0;color:#aaa;font-size:11px">…</div>';
+                html += '<div class="meta-loading" style="padding:10px 0;color:#5f6368;font-size:11px">…</div>';
             }
             // Audit Task 76: pronunciation-type note before the word table
             // tells the user what kind of notation the IPA column actually is.
@@ -8777,7 +8777,7 @@
                 const ptObj = PRONUNCIATION_LABEL[m.pronunciationType];
                 const ptLabel = ptObj[uiLang] || ptObj[uiLang.split('_')[0]] || ptObj.en;
                 const ptHeader = PRONUNCIATION_HEADER[uiLang] || PRONUNCIATION_HEADER[uiLang.split('_')[0]] || PRONUNCIATION_HEADER.en;
-                const tone = m.pronunciationType === 'mixed' || m.pronunciationType === 'unknown' ? '#a04020' : '#888';
+                const tone = m.pronunciationType === 'mixed' || m.pronunciationType === 'unknown' ? '#a04020' : '#5f6368';
                 html += `<div style="margin:8px 0 -2px;font-size:10px;color:${tone}"><b>${escapeHtml(ptHeader)}:</b> ${escapeHtml(ptLabel)}</div>`;
             }
             // Audit Task 84/89: surfaceType badge (which kind of script is
@@ -8789,7 +8789,7 @@
                 const stObj = SURFACE_TYPE_LABEL[m.surfaceType];
                 const stLabel = stObj[uiLang] || stObj[uiLang.split('_')[0]] || stObj.en;
                 const stHeader = SURFACE_TYPE_HEADER[uiLang] || SURFACE_TYPE_HEADER[uiLang.split('_')[0]] || SURFACE_TYPE_HEADER.en;
-                const tone = (m.surfaceType === 'mixed' || m.surfaceType === 'unknown' || m.surfaceType === 'phonetic') ? '#a04020' : '#888';
+                const tone = (m.surfaceType === 'mixed' || m.surfaceType === 'unknown' || m.surfaceType === 'phonetic') ? '#a04020' : '#5f6368';
                 html += `<div style="margin:2px 0 -2px;font-size:10px;color:${tone}"><b>${escapeHtml(stHeader)}:</b> ${escapeHtml(stLabel)}</div>`;
             }
             // Show why the current concept's cell is '—', if it is.
@@ -8822,7 +8822,7 @@
                     cvLabel = cvLabel.replace('{base}', baseName);
                 }
                 const cvHeader = COVERAGE_HEADER[uiLang] || COVERAGE_HEADER[uiLang.split('_')[0]] || COVERAGE_HEADER.en;
-                const cvTone = (m.coverage === 'base-copy-with-notes') ? '#a04020' : '#888';
+                const cvTone = (m.coverage === 'base-copy-with-notes') ? '#a04020' : '#5f6368';
                 html += `<div style="margin:2px 0 -2px;font-size:10px;color:${cvTone}"><b>${escapeHtml(cvHeader)}:</b> ${escapeHtml(cvLabel)}</div>`;
                 // Audit Task 88: show coverageNote when present (translated)
                 if (m.coverageNote && typeof m.coverageNote === 'string') {
@@ -8836,7 +8836,7 @@
                 const rsHeader = REVIEW_STATUS_HEADER[uiLang] || REVIEW_STATUS_HEADER[uiLang.split('_')[0]] || REVIEW_STATUS_HEADER.en;
                 const rsTone = (m.reviewStatus === 'needs-rebuild') ? '#a04020'
                             : (m.reviewStatus === 'source-checked') ? '#2e7d32'
-                            : '#888';
+                            : '#5f6368';
                 html += `<div style="margin:2px 0 -2px;font-size:10px;color:${rsTone}"><b>${escapeHtml(rsHeader)}:</b> ${escapeHtml(rsLabel)}</div>`;
             }
             // meta.wordsNote: explanatory banner shown above the word table.
@@ -11097,6 +11097,7 @@
 
     })();
     </script>
+    </main>
     <footer style="text-align:center;padding:16px 12px;font-size:12px;color:#666;border-top:1px solid #e6e6ef;margin-top:24px">
         全言語インデックス: <a href="/en/wordmap/" style="color:var(--accent)">Word Map</a> · <a href="/en/word/" style="color:var(--accent)">Words</a> · <a href="/en/hanmap/" style="color:var(--accent)">Han Map</a> · <a href="/en/trivia/" style="color:var(--accent)">Trivia</a>
 <!-- TRIVIA-INDEX:START -->
@@ -11205,6 +11206,7 @@
             if (!el) {
                 el = document.createElement('div');
                 el.id = 'lm-toast';
+                el.setAttribute('role', 'status'); el.setAttribute('aria-live', 'polite');
                 el.style.cssText = 'position:fixed;left:50%;bottom:32px;transform:translateX(-50%);background:#1f2330;color:#fff;padding:9px 16px;border-radius:8px;font-size:13px;z-index:100000;box-shadow:0 4px 16px rgba(0,0,0,.3);opacity:0;transition:opacity .2s;pointer-events:none';
                 document.body.appendChild(el);
             }
@@ -11218,10 +11220,10 @@
             const enc = encodeURIComponent;
             const targets = [
                 {label:'X', color:'#000', href:`https://twitter.com/intent/tweet?text=${enc(text)}&url=${enc(url)}`},
-                {label:'Facebook', color:'#1877f2', href:`https://www.facebook.com/sharer/sharer.php?u=${enc(url)}`},
-                {label:'LINE', color:'#06c755', href:`https://social-plugins.line.me/lineit/share?url=${enc(url)}&text=${enc(text)}`},
-                {label:'WhatsApp', color:'#25d366', href:`https://api.whatsapp.com/send?text=${enc(text + ' ' + url)}`},
-                {label:'Reddit', color:'#ff4500', href:`https://www.reddit.com/submit?url=${enc(url)}&title=${enc(text)}`}
+                {label:'Facebook', color:'#0b5fcc', href:`https://www.facebook.com/sharer/sharer.php?u=${enc(url)}`},
+                {label:'LINE', color:'#047a34', href:`https://social-plugins.line.me/lineit/share?url=${enc(url)}&text=${enc(text)}`},
+                {label:'WhatsApp', color:'#0a7a3e', href:`https://api.whatsapp.com/send?text=${enc(text + ' ' + url)}`},
+                {label:'Reddit', color:'#c23700', href:`https://www.reddit.com/submit?url=${enc(url)}&title=${enc(text)}`}
             ];
             const back = document.createElement('div');
             back.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:100001;display:flex;align-items:center;justify-content:center;padding:20px';
@@ -11252,12 +11254,21 @@
             const closeBtn = document.createElement('button');
             closeBtn.type = 'button';
             closeBtn.textContent = pick(S.close);
-            closeBtn.style.cssText = 'margin-top:10px;width:100%;padding:8px;border:0;background:none;cursor:pointer;font-size:13px;color:#888';
+            closeBtn.style.cssText = 'margin-top:10px;width:100%;padding:8px;border:0;background:none;cursor:pointer;font-size:13px;color:#5f6368';
             closeBtn.addEventListener('click', () => back.remove());
             box.appendChild(closeBtn);
             back.appendChild(box);
             back.addEventListener('click', (e) => { if (e.target === back) back.remove(); });
+            back.classList.add('wm-overlay');
             document.body.appendChild(back);
+            // A modal: named, focus in / Tab kept inside / back on close; Escape closes.
+            if (window.__wmDialog) window.__wmDialog.open(box, 'Share');
+            const onKey = (e) => {
+                if (!back.isConnected) { document.removeEventListener('keydown', onKey, true); return; }
+                if (e.key === 'Escape') { e.stopImmediatePropagation(); back.remove(); }
+            };
+            document.addEventListener('keydown', onKey, true);
+            new MutationObserver((_, mo) => { if (back.isConnected) return; mo.disconnect(); document.removeEventListener('keydown', onKey, true); if (window.__wmDialog) window.__wmDialog.close(box); }).observe(document.body, { childList: true });
         }
 
         // A shared link must not depend on the fragment. location.href carries
@@ -11697,7 +11708,7 @@
                 const w = words[concept]; if (!w || !w.data || !w.data[t]) continue;
                 const cell = w.data[t]; if (!cell[0] || cell[0] === '—') continue;
                 const lbl = (w.label && (w.label[ui()] || w.label[ui().split('_')[0]] || w.label.en)) || concept;
-                rows += `<div style="display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px solid #f0f1f4"><span style="color:#888;font-size:12px">${lbl}</span><span style="font-weight:600">${cell[0]} <span style="color:#9aa;font-weight:400;font-size:12px">/${cell[1]}/</span></span></div>`;
+                rows += `<div style="display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px solid #f0f1f4"><span style="color:#5f6368;font-size:12px">${lbl}</span><span style="font-weight:600">${cell[0]} <span style="color:#5f6368;font-weight:400;font-size:12px">/${cell[1]}/</span></span></div>`;
                 shown++;
             }
             return rows;
@@ -11716,7 +11727,7 @@
                 <span style="flex:1;font-weight:600;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${nameOf(g)}</span>
                 ${famIco}
                 <span style="width:56px;height:7px;background:#eceef3;border-radius:4px;overflow:hidden;display:inline-block;flex:none"><span style="display:block;height:100%;width:${pct}%;background:var(--accent)"></span></span>
-                <span style="color:#9aa1ad;font-size:11px;min-width:52px;text-align:right">${f.dist.toLocaleString()} km</span>
+                <span style="color:#5f6368;font-size:11px;min-width:52px;text-align:right">${f.dist.toLocaleString()} km</span>
                 <span style="display:inline-flex;color:#6b7280">${ICON.arrow(f.bearing)}</span></div>`;
         }
         function render() {
@@ -11724,15 +11735,15 @@
             const t = target();
             box.innerHTML = '';
             box.appendChild(el('div', 'display:flex;justify-content:space-between;align-items:center;margin-bottom:6px',
-                `<div style="font-weight:800;font-size:18px">${pk(T.title)} <span style="color:#9aa;font-weight:600;font-size:13px">#${day() - EPOCH}</span></div>`));
+                `<div style="font-weight:800;font-size:18px">${pk(T.title)} <span style="color:#5f6368;font-weight:600;font-size:13px">#${day() - EPOCH}</span></div>`));
             box.appendChild(el('div', 'color:#667;font-size:13px;margin-bottom:12px', pk(T.sub)));
             box.appendChild(el('div', 'background:#f7f8fb;border-radius:10px;padding:10px 12px;margin-bottom:12px',
-                `<div style="font-size:11px;color:#9aa;text-transform:uppercase;letter-spacing:.04em;margin-bottom:6px;display:flex;align-items:center;gap:5px">${ICON.help}${pk(T.mystery)}</div>${clueHtml()}`));
+                `<div style="font-size:11px;color:#5f6368;text-transform:uppercase;letter-spacing:.04em;margin-bottom:6px;display:flex;align-items:center;gap:5px">${ICON.help}${pk(T.mystery)}</div>${clueHtml()}`));
             // guess rows
             const list = el('div', 'margin-bottom:10px');
             guesses.forEach(g => { const d = el('div'); d.innerHTML = rowHtml(g); list.appendChild(d.firstElementChild); });
             box.appendChild(list);
-            if (guesses.length) box.appendChild(el('div', 'font-size:11px;color:#9aa1ad;margin:-4px 0 12px;line-height:1.45', pk(T.legend)));
+            if (guesses.length) box.appendChild(el('div', 'font-size:11px;color:#5f6368;margin:-4px 0 12px;line-height:1.45', pk(T.legend)));
             if (!finished && guesses.length < MAX) {
                 // Continent ▸ Country ▸ Language cascading picker (localized).
                 const tr = tree();
@@ -11750,6 +11761,7 @@
                 const byName = (arr, fn) => arr.slice().sort((a, b) => fn(a).localeCompare(fn(b), ui()));
                 function fillSel(s, label, items, valFn, txtFn, disabled) {
                     s.innerHTML = ''; ph(s, label); s.disabled = !!disabled;
+                    s.setAttribute('aria-label', String(label).replace(/^[\s—–-]+|[\s—–-]+$/g, ''));   // the placeholder disappears once chosen
                     items.forEach(it => { const o = el('option'); o.value = valFn(it); o.textContent = txtFn(it); s.appendChild(o); });
                 }
                 const anyLeft = codes => codes.some(c => !guessed.has(c));
@@ -11799,7 +11811,7 @@
             if (finished) {
                 const res = el('div', 'text-align:center;margin:8px 0 4px');
                 res.innerHTML = `<div style="font-weight:800;font-size:16px;color:${won ? '#0d9f6e' : '#d4506a'}">${won ? pk(T.win) : pk(T.lose)}</div>
-                    <div style="margin-top:4px">${pk(T.answer)}: <b>${nameOf(t)}</b> <span style="color:#9aa">(${(LD()[t].meta || {}).family || ''})</span></div>
+                    <div style="margin-top:4px">${pk(T.answer)}: <b>${nameOf(t)}</b> <span style="color:#5f6368">(${(LD()[t].meta || {}).family || ''})</span></div>
                     <div style="margin-top:6px;font-size:13px;color:#555">${pk(T.streak)}: <b style="color:#222">${curStreak()}</b></div>`;
                 box.appendChild(res);
                 const popup = (url) => { window.open(url, '_blank', 'noopener,width=620,height=520'); };
@@ -11833,7 +11845,7 @@
             const rst = el('button', 'border:0;background:none;color:#8a90a0;font-size:12px;cursor:pointer;padding:8px 4px;display:inline-flex;align-items:center;gap:5px');
             rst.innerHTML = `<span style="display:inline-flex">${ICON.replay}</span>${pk(T.reset)}`;
             rst.addEventListener('click', resetGame);
-            const cl = el('button', 'border:0;background:none;color:#999;font-size:13px;cursor:pointer;padding:8px 4px', pk(T.close));
+            const cl = el('button', 'border:0;background:none;color:#5f6368;font-size:13px;cursor:pointer;padding:8px 4px', pk(T.close));
             cl.addEventListener('click', hide);
             foot.appendChild(rst); foot.appendChild(cl);
             box.appendChild(foot);
@@ -12057,7 +12069,7 @@
             const box = document.getElementById('lm-quiz-box'); if (!box) return;
             box.innerHTML = '';
             const head = el('div', 'display:flex;justify-content:space-between;align-items:center;margin-bottom:10px',
-                `<div style="font-weight:800;font-size:20px">${pk(Q.title)}</div><div style="color:#9aa;font-weight:600;font-size:14px">${Math.min(idx + 1, TOTAL)}/${TOTAL} · ★${score}</div>`);
+                `<div style="font-weight:800;font-size:20px">${pk(Q.title)}</div><div style="color:#5f6368;font-weight:600;font-size:14px">${Math.min(idx + 1, TOTAL)}/${TOTAL} · ★${score}</div>`);
             head.className = 'wq-head'; box.appendChild(head);
             if (!qs.length) {
                 box.appendChild(el('div', 'color:#667;font-size:14px;margin:10px 0', pk(Q.none)));
@@ -12087,11 +12099,11 @@
                         css = css.replace('cursor:pointer', 'cursor:default');
                         if (o.correct) css += ';border-color:#0d9f6e;background:#f1faf5;color:#0d7a55;font-weight:700';
                         else if (i === chosen) css += ';border-color:#e2a3af;background:#fdf1f3;color:#c0405a';
-                        else css += ';opacity:.5';
+                        else css += ';color:#5f6368;border-color:#e6e8ec;background:#fafbfc';
                     }
                     const b = el('button', css + ';position:relative');
                     b.className = 'wq-opt'; b.type = 'button'; b.setAttribute('aria-keyshortcuts', String(i + 1));
-                    b.innerHTML = `<span aria-hidden="true" class="wq-key" style="position:absolute;top:6px;inset-inline-start:8px;font-size:11px;font-weight:700;color:#aab1bd;border:1px solid #dde1e7;border-radius:5px;padding:0 5px;line-height:16px">${i + 1}</span><div style="line-height:1.15">${o.surf}</div><div class="wq-sub" style="font-size:12px;font-weight:400;color:#9aa1ad;line-height:1.2;margin-top:3px;display:${answered ? 'block' : 'none'}">${nameOf(o.code)}</div>`;
+                    b.innerHTML = `<span aria-hidden="true" class="wq-key" style="position:absolute;top:6px;inset-inline-start:8px;font-size:11px;font-weight:700;color:#5f6368;border:1px solid #dde1e7;border-radius:5px;padding:0 5px;line-height:16px">${i + 1}</span><div style="line-height:1.15">${o.surf}</div><div class="wq-sub" style="font-size:12px;font-weight:400;color:#5f6368;line-height:1.2;margin-top:3px;display:${answered ? 'block' : 'none'}">${nameOf(o.code)}</div>`;
                     if (!answered) b.addEventListener('click', () => answer(i));
                     mid.appendChild(b);
                 });
@@ -12108,11 +12120,11 @@
                 box.appendChild(nb);
                 // Key hint for mouse/keyboard devices only (as in Language Master).
                 if (window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
-                    const kh = el('div', 'text-align:center;font-size:11px;color:#aab1bd;margin-top:6px;flex:none', pk(KEYS).replace('{n}', q.options.length));
+                    const kh = el('div', 'text-align:center;font-size:11px;color:#5f6368;margin-top:6px;flex:none', pk(KEYS).replace('{n}', q.options.length));
                     kh.className = 'wq-keys'; box.appendChild(kh);
                 }
             }
-            const cl = el('button', 'width:100%;margin-top:10px;padding:8px;border:0;background:none;color:#999;font-size:14px;cursor:pointer', pk(Q.close));
+            const cl = el('button', 'width:100%;margin-top:10px;padding:8px;border:0;background:none;color:#5f6368;font-size:14px;cursor:pointer', pk(Q.close));
             cl.className = 'wq-close';
             cl.addEventListener('click', hide);
             box.appendChild(cl);
@@ -12127,7 +12139,7 @@
             const ab = el('button', 'width:100%;margin-top:10px;padding:13px;border:0;border-radius:10px;background:var(--accent);color:#fff;font-weight:700;font-size:16px;cursor:pointer;flex:none', pk(Q.again));
             ab.addEventListener('click', startSet);
             box.appendChild(ab);
-            const cl = el('button', 'width:100%;margin-top:10px;padding:9px;border:0;background:none;color:#999;font-size:14px;cursor:pointer;flex:none', pk(Q.close));
+            const cl = el('button', 'width:100%;margin-top:10px;padding:9px;border:0;background:none;color:#5f6368;font-size:14px;cursor:pointer;flex:none', pk(Q.close));
             cl.addEventListener('click', hide);
             box.appendChild(cl);
         }
@@ -12257,7 +12269,7 @@
     <!-- "My languages" share-card feature; poster_geo.js supplies the Natural-Earth
          projection its world-map card is drawn with. -->
     <script src="poster_geo.js?v=12"></script>
-    <script src="my-languages.js?v=29"></script>
+    <script src="my-languages.js?v=30"></script>
     <!-- Language Master game (🏅 in the Play menu). master.js is parked as
          text/plain (not fetched at first paint, as hanmap_trivia.js is) and
          injected the first time the game opens. The stub below only labels
@@ -12301,6 +12313,5 @@
         if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
     })();
     </script>
-    </main>
 </body>
 </html>

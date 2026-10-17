@@ -1826,8 +1826,16 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
    keep their old look, and show the move buttons when a segment has focus. */
 button.seg-id-badge, button.seg-delete-btn { border: 0; font-family: inherit; cursor: pointer; }
 button.seg-delete-btn { background: none; color: #767676; }
-.segment-input-wrapper:focus-within .seg-move-btns { display: flex; }
+/* Desktop: shown for a focused segment, but floated above it (in-flow they
+   reflowed the row on mousedown and broke clicks and drags). */
+@media (hover: hover) {
+    .segment-input-wrapper { position: relative; }
+    .segment-input-wrapper:focus-within .seg-move-btns {
+        display: flex; flex-direction: row; position: absolute; top: -22px; left: 0; z-index: 2;
+        background: #fff; border-radius: 4px; box-shadow: 0 1px 4px rgba(0,0,0,.15);
+    }
+}
 
-/* The sentence map can be 1200px wide: scroll it instead of widening the page
-   (landscape phones above 768px laid the page out 1200px wide). */
-.map-wrapper { overflow-x: auto; }
+/* The sentence map can be 1200px wide: on touch screens and narrow windows
+   scroll it instead of widening the page (landscape phones). */
+@media (max-width: 1100px), (pointer: coarse) { .map-wrapper { overflow-x: auto; } }

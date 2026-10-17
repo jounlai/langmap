@@ -2729,24 +2729,40 @@ function seo_sole_country(array $lang, string $code = ''): ?string
  * caller then omits the attribute, which is better than asserting a wrong
  * one.
  */
-/**
- * lang="" value for an internal row code in comparison tables: the base
- * subtag only (ja_hir -> ja, ko_kp -> ko, hak_tw -> hak), '' when the base is
- * not a BCP-47 language subtag. Same policy as seo_bcp47() for rows whose
- * metadata is not at hand; Lighthouse valid-lang, 2026-10-16.
- */
-function seo_lang_attr(string $code): string
-{
-    $tag = explode('_', $code)[0];
-    return preg_match('/^[a-z]{2,3}$/', $tag) ? $tag : '';
-}
-
 function seo_bcp47(string $code, array $lang): string
 {
     $iso = (string) ($lang['meta']['iso6393'] ?? '');
     $tag = $iso !== '' ? $iso : explode('_', $code)[0];
     return preg_match('/^[a-z]{2,3}$/', $tag) ? $tag : '';
 }
+
+/**
+ * lang="" value for a row code where only the code is at hand (comparison
+ * tables, word-order rows). Same policy as seo_bcp47(), looking the row up:
+ * the Word Map row first (its data is loaded on every page), then the Han
+ * Map row for codes the Word Map lacks. A reconstruction ("Proto-…") gets
+ * '' — the Han Map keys them pst, paa, phm, which are the real codes of
+ * Central Pashto, Papuan languages and Phimbi. Lighthouse valid-lang and
+ * rally review, 2026-10-16/17.
+ */
+function seo_lang_attr(string $code): string
+{
+    static $memo = [];
+    if (isset($memo[$code])) return $memo[$code];
+    $row = seo_data('wordmap')['langs'][$code] ?? null;
+    if ($row === null && preg_match('/^p[a-z]+$/', $code)) {
+        $row = seo_data('hanmap')['langs'][$code] ?? null;
+    }
+    if (is_array($row)) {
+        $nm = $row['name'] ?? ($row['meta']['name'] ?? '');
+        $nm = is_array($nm) ? (string) ($nm['en'] ?? reset($nm)) : (string) $nm;
+        if (stripos($nm, 'proto-') === 0) return $memo[$code] = '';
+        return $memo[$code] = seo_bcp47($code, $row);
+    }
+    $tag = explode('_', $code)[0];
+    return $memo[$code] = preg_match('/^[a-z]{2,3}$/', $tag) ? $tag : '';
+}
+
 
 /**
  * <img> for a row's flag, or '' when the row names no single country.
@@ -3015,6 +3031,9 @@ function seo_map_embed(?float $lat, ?float $lng, string $label, int $zoom = 5): 
       maxZoom: 18, detectRetina: true,
       attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
+    // CSS and JS load in parallel; Leaflet derives the default icon path from
+    // the CSS, so pin it rather than race the stylesheet.
+    L.Icon.Default.imagePath = 'https://unpkg.com/leaflet@1.9.4/dist/images/';
     L.marker([{$lat}, {$lng}]).addTo(map).bindPopup({$jsLabel});
   }
   if ('IntersectionObserver' in window) {
@@ -3070,6 +3089,18 @@ function seo_fonts_placeholder(): string
 
 function seo_fonts_links(string $html): string
 {
+    $full = $html;
+    // Look at what the page SHOWS: the body, without the shared <style> (CSS
+    // comments carry 话 / マ), the language picker (its endonyms 한국어 … are
+    // drawn in the system font of a native <select>) and scripts other than
+    // the JSON content blobs. Scanning everything requested JP/SC/TC/KR on
+    // every page (rally review, 2026-10-17).
+    $p = stripos($html, '<body');
+    if ($p !== false) $html = substr($html, $p);
+    $html = preg_replace('~<style\b.*?</style>~is', '', $html);
+    $html = preg_replace('~<select\b.*?</select>~is', '', $html);
+    $html = preg_replace('~<script(?![^>]*application/json)\b.*?</script>~is', '', $html);
+    if ($html === null) $html = $full;
     $fam = ['Gentium+Plus:wght@400;700', 'Charis+SIL:wght@400;700', 'Noto+Serif:wght@400;700'];
     $han = preg_match('/[\x{3400}-\x{9FFF}\x{F900}-\x{FAFF}\x{20000}-\x{3134F}]/u', $html);
     if ($han || preg_match('/[\x{3040}-\x{30FF}]/u', $html)) $fam[] = 'Noto+Serif+JP:wght@400;700';
@@ -3291,6 +3322,13 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
    work (Lighthouse TBT, 2026-10-16). The intrinsic size is a placeholder that
    the browser replaces with the real height once a section has rendered. */
 .seo-section, .seo-ex, .seo-related { content-visibility: auto; contain-intrinsic-size: auto 1500px; }
+/* Containment stops child margins collapsing through these boxes, which
+   doubled the gap between sections. Put the gap on the box itself (where it
+   still collapses with its siblings) and drop the inner leading/trailing
+   margins that used to collapse into it. */
+.seo-section { margin-top: 2.5rem; }
+.seo-section > h2:first-child, .seo-ex > h2:first-child, .seo-related > h2:first-child { margin-top: 0; }
+.seo-section > :last-child, .seo-ex > :last-child, .seo-related > :last-child { margin-bottom: 0; }
 .seo-section h2 { font-size: 1.6rem; margin: 2.5rem 0 1rem; border-bottom: 2px solid var(--line);
   padding-bottom: .35rem; }
 .seo-words { display: grid; grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));

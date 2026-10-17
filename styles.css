@@ -239,6 +239,7 @@ body {
         transition: background-color 0.15s, color 0.15s;
     }
     .hamburger-btn:hover, .hamburger-btn:focus { background: #f3f4f6; outline: none; }
+    .hamburger-btn:focus-visible { outline: 2px solid #2f62a3; outline-offset: 2px; }
     .hamburger-btn:active { background: #e5e7eb; }
     /* Active-state visual when checkbox is checked: invert colors so users
        see the menu is open even when the dropdown isn't visually obvious. */

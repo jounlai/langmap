@@ -62,7 +62,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=136">
+    <link rel="stylesheet" href="styles.css?v=137">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -75,11 +75,13 @@
            and day words from timemap_calendars.js / timemap_i18n, Tibetan
            digits U+0F20-0F29, generated at runtime): 31 KB. A character outside
            the subset falls back to the system font rather than tofu. Rebuild
-           with pyftsubset if a new Tibetan word is added. */
+           with pyftsubset if a new Tibetan word is added, and list its
+           codepoints in unicode-range: the range names exactly the subset's
+           cmap, so a sign the file lacks is not claimed by it. */
         @font-face { font-family: 'Noto Serif Tibetan'; font-style: normal; font-weight: 400; font-display: swap;
-            src: url('fonts/NotoSerifTibetan-timemap.woff2') format('woff2'); unicode-range: U+0F00-0FFF, U+25CC; }
+            src: url('fonts/NotoSerifTibetan-timemap.woff2') format('woff2'); unicode-range: U+0F0B, U+0F0D, U+0F20-0F29, U+0F41-0F42, U+0F44, U+0F46, U+0F51, U+0F55-0F56, U+0F58, U+0F5A, U+0F5F-0F64, U+0F66, U+0F72, U+0F74, U+0F7A, U+0F7C, U+0F95, U+0F9F, U+0FA4, U+0FA6, U+0FB1-0FB3, U+0FB7, U+25CC; }
         @font-face { font-family: 'Noto Serif Tibetan'; font-style: normal; font-weight: 700; font-display: swap;
-            src: url('fonts/NotoSerifTibetan-timemap-bold.woff2') format('woff2'); unicode-range: U+0F00-0FFF, U+25CC; }
+            src: url('fonts/NotoSerifTibetan-timemap-bold.woff2') format('woff2'); unicode-range: U+0F0B, U+0F0D, U+0F20-0F29, U+0F41-0F42, U+0F44, U+0F46, U+0F51, U+0F55-0F56, U+0F58, U+0F5A, U+0F5F-0F64, U+0F66, U+0F72, U+0F74, U+0F7A, U+0F7C, U+0F95, U+0F9F, U+0FA4, U+0FA6, U+0FB1-0FB3, U+0FB7, U+25CC; }
         /* ===== TimeMap layout — copied from NameMap so the maps look alike
                  (header/nav/lang-picker/buttons come from styles.css) ===== */
         html, body { position: fixed; top: 0; left: 0; width: 100%; height: 100vh; height: 100dvh; margin: 0; padding: 0; overflow: hidden; }
@@ -324,7 +326,7 @@
             .tm-panel.info-open ~ .tm-sheet-backdrop { display: block; position: fixed; inset: 0; z-index: 1350; background: rgba(0,0,0,0.35); }
         }
     </style>
-    <script src="nav-short.js?v=7"></script>
+    <script src="nav-short.js?v=8"></script>
 </head>
 <body>
     <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Time Map</h1>
@@ -758,6 +760,12 @@
             updateHash();
             // Labels are measured for de-collision; measure again once webfonts land.
             if(document.fonts && document.fonts.ready) document.fonts.ready.then(()=>requestAnimationFrame(relaxLabels));
+            // The Google font stylesheet is non-blocking now, so at boot no face is
+            // pending and fonts.ready resolves before Noto Sans arrives; re-measure
+            // whenever a batch of webfonts finishes loading too.
+            if(document.fonts && document.fonts.addEventListener){
+                let fr=0; document.fonts.addEventListener('loadingdone', ()=>{ cancelAnimationFrame(fr); fr=requestAnimationFrame(relaxLabels); });
+            }
 
             window.__langmap = window.__langmap || {};
             window.__langmap.share = function(){ return { title:'LangMap · '+t('title'), text:t('tagline'), url:location.href }; };

@@ -143,4 +143,34 @@
         for (var i = 0; i < navs.length; i++) mo.observe(navs[i], { childList: true, characterData: true, subtree: true });
     }
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', settle); else settle();
+
+    // Header menu / display-settings toggles are <label role="button"
+    // tabindex="0" for="checkbox">. A focused label does not activate on
+    // Enter or Space by itself, so announce-as-button without this would be a
+    // dead control for keyboard and screen-reader users. Also keep
+    // aria-expanded in step with the checkbox on every page.
+    function toggleFor(lb) {
+        var id = lb.getAttribute('for');
+        return id ? document.getElementById(id) : null;
+    }
+    document.addEventListener('keydown', function (e) {
+        if (e.key !== 'Enter' && e.key !== ' ' && e.key !== 'Spacebar') return;
+        var lb = e.target;
+        if (!lb || lb.tagName !== 'LABEL' || lb.getAttribute('role') !== 'button') return;
+        var cb = toggleFor(lb);
+        if (!cb) return;
+        e.preventDefault();
+        cb.click();
+    });
+    function syncExpanded() {
+        var lbs = document.querySelectorAll('label[role="button"][for]');
+        for (var i = 0; i < lbs.length; i++) {
+            var cb = toggleFor(lbs[i]);
+            if (cb && cb.type === 'checkbox') lbs[i].setAttribute('aria-expanded', cb.checked ? 'true' : 'false');
+        }
+    }
+    document.addEventListener('change', function (e) {
+        if (e.target && e.target.type === 'checkbox') syncExpanded();
+    });
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', syncExpanded); else syncExpanded();
 })();

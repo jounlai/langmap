@@ -77,7 +77,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=136">
+    <link rel="stylesheet" href="styles.css?v=137">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -2816,7 +2816,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=7"></script>
+    <script src="nav-short.js?v=8"></script>
 </head>
 <body>
     <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — HanMap</h1>
@@ -5649,7 +5649,13 @@
             if (tModal && tModal.classList.contains('visible')
                 && typeof renderTriviaArticle === 'function'
                 && tModal.dataset.articleId) {
-                renderTriviaArticle(tModal.dataset.articleId);
+                // The list sets articleId='index'; re-render it as the list,
+                // not as article 01 (renderTriviaArticle's fallback).
+                if (tModal.dataset.view === 'index') {
+                    if (typeof renderTriviaIndex === 'function') renderTriviaIndex();
+                } else {
+                    renderTriviaArticle(tModal.dataset.articleId);
+                }
             }
             if (typeof window.__refreshChromeToggleLabels === 'function') {
                 window.__refreshChromeToggleLabels();
@@ -11552,11 +11558,16 @@
                     for (const art of (window.TRIVIA_ARTICLES || [])) {
                         if (typeof B[art.id] === 'string') { art.body = art.body || {}; art.body[base] = B[art.id]; }
                     }
+                    // Redraw only an open ARTICLE (not the list — the heading
+                    // still names the last article read), keeping the reader's
+                    // scroll position across the English -> translated swap.
                     const modal = document.getElementById('trivia-modal');
-                    const heading = document.getElementById('trivia-heading');
-                    const activeId = heading && heading.dataset && heading.dataset.articleId;
-                    if (modal && modal.classList.contains('visible') && activeId) {
-                        try { renderTriviaArticle(activeId); } catch (_) {}
+                    if (modal && modal.classList.contains('visible')
+                        && modal.dataset.view === 'article' && modal.dataset.articleId) {
+                        const sc = document.getElementById('trivia-scroll');
+                        const top = sc ? sc.scrollTop : 0;
+                        try { renderTriviaArticle(modal.dataset.articleId); } catch (_) {}
+                        if (sc) sc.scrollTop = top;
                     }
                     res();
                 };
@@ -11584,8 +11595,7 @@
                     // the localized text without having to navigate.
                     const modal = document.getElementById('trivia-modal');
                     if (modal && modal.classList.contains('visible')) {
-                        const heading = document.getElementById('trivia-heading');
-                        const activeId = heading && heading.dataset && heading.dataset.articleId;
+                        const activeId = modal.dataset.view === 'article' && modal.dataset.articleId;
                         if (activeId) renderTriviaArticle(activeId);
                         else if (typeof renderTriviaIndex === 'function'
                                  && document.getElementById('trivia-index')) {

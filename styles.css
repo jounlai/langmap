@@ -1617,7 +1617,10 @@ html[data-wm-chrome="hidden"] body .right-secondary-controls {
        LangMap. Override here when ui-lang and friends are hidden. */
     body.chrome-hidden .site-header-bar .header-url,
     html[data-wm-chrome="hidden"] body .site-header-bar .header-url {
-        margin-left: auto !important;
+        /* logical, so in RTL it goes to the far LEFT end, opposite the logo
+           ("anchors the other end of the header", owner 2026-05-26; r30) */
+        margin-left: 0 !important; margin-right: 0 !important;
+        margin-inline-start: auto !important;
         display: inline !important; /* beats the 641-1100px hide (owner 2026-05-26) */
     }
 }

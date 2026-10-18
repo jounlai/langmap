@@ -1758,7 +1758,7 @@ const SEO_T = [
         'hidden_tag' => 'историческая / скрытая разновидность',
         'wm_lang_title' => '{w} слов и произношение',
         'hm_lang_title' => 'Чтения ханьских иероглифов',
-        'wm_t2' => '{name}: «привет», «спасибо» и ещё {w} слов с произношением', 'hm_t2' => ['one' => '{name}: как читается {n} иероглиф', 'few' => '{name}: как читаются {n} иероглифа', 'many' => '{name}: как читаются {n} иероглифов', 'other' => '{name}: как читаются {n} иероглифов'], 'hm_t2_words' => ['one' => '{name}: исконные слова для {n} иероглифа', 'other' => '{name}: исконные слова для {n} иероглифов'], 'hm_t2_loans' => ['one' => '{name}: {n} раннее китайское заимствование', 'few' => '{name}: {n} ранних китайских заимствования', 'other' => '{name}: {n} ранних китайских заимствований'], 'wm_q' => '{name}: как сказать «{word}»? {form}.', 'aka' => 'Другие названия: {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2' => ['one' => '{name}: «привет», «спасибо» и ещё {w} слово с произношением', 'few' => '{name}: «привет», «спасибо» и ещё {w} слова с произношением', 'many' => '{name}: «привет», «спасибо» и ещё {w} слов с произношением', 'other' => '{name}: «привет», «спасибо» и ещё {w} слов с произношением'], 'hm_t2' => ['one' => '{name}: как читается {n} иероглиф', 'few' => '{name}: как читаются {n} иероглифа', 'many' => '{name}: как читаются {n} иероглифов', 'other' => '{name}: как читаются {n} иероглифов'], 'hm_t2_words' => ['one' => '{name}: исконные слова для {n} иероглифа', 'other' => '{name}: исконные слова для {n} иероглифов'], 'hm_t2_loans' => ['one' => '{name}: {n} раннее китайское заимствование', 'few' => '{name}: {n} ранних китайских заимствования', 'other' => '{name}: {n} ранних китайских заимствований'], 'wm_q' => '{name}: как сказать «{word}»? {form}.', 'aka' => 'Другие названия: {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'Произношение {w} основных слов на языке {name}, с МФА и исконными формами, на LangMap Word Map.',
         'hm_lang_meta' => 'Чтения ханьских иероглифов на языке {name} на LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} основных слов в {n} языках',
@@ -1821,7 +1821,7 @@ const SEO_T = [
         'hidden_tag' => 'історичний / прихований різновид',
         'wm_lang_title' => 'Основні слова ({w}) і вимова',
         'hm_lang_title' => 'Читання ханьських ієрогліфів',
-        'wm_t2' => '{name}: «привіт», «дякую» та ще {w} слів з вимовою', 'hm_t2' => ['one' => '{name}: як читається {n} ієрогліф', 'few' => '{name}: як читаються {n} ієрогліфи', 'many' => '{name}: як читаються {n} ієрогліфів', 'other' => '{name}: як читаються {n} ієрогліфів'], 'hm_t2_words' => ['one' => '{name}: питомі слова для {n} ієрогліфа', 'other' => '{name}: питомі слова для {n} ієрогліфів'], 'hm_t2_loans' => ['one' => '{name}: {n} раннє китайське запозичення', 'few' => '{name}: {n} ранні китайські запозичення', 'other' => '{name}: {n} ранніх китайських запозичень'], 'wm_q' => '{name}: як сказати «{word}»? {form}.', 'aka' => 'Інші назви: {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2' => ['one' => '{name}: «привіт», «дякую» та ще {w} слово з вимовою', 'few' => '{name}: «привіт», «дякую» та ще {w} слова з вимовою', 'many' => '{name}: «привіт», «дякую» та ще {w} слів з вимовою', 'other' => '{name}: «привіт», «дякую» та ще {w} слів з вимовою'], 'hm_t2' => ['one' => '{name}: як читається {n} ієрогліф', 'few' => '{name}: як читаються {n} ієрогліфи', 'many' => '{name}: як читаються {n} ієрогліфів', 'other' => '{name}: як читаються {n} ієрогліфів'], 'hm_t2_words' => ['one' => '{name}: питомі слова для {n} ієрогліфа', 'other' => '{name}: питомі слова для {n} ієрогліфів'], 'hm_t2_loans' => ['one' => '{name}: {n} раннє китайське запозичення', 'few' => '{name}: {n} ранні китайські запозичення', 'other' => '{name}: {n} ранніх китайських запозичень'], 'wm_q' => '{name}: як сказати «{word}»? {form}.', 'aka' => 'Інші назви: {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'Вимова {w} основних слів мовою {name}, з МФА та питомими формами, на LangMap Word Map.',
         'hm_lang_meta' => 'Читання ханьських ієрогліфів мовою {name} на LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} основних слів у {n} мовах',
@@ -1884,7 +1884,7 @@ const SEO_T = [
         'hidden_tag' => 'نوع تاريخي / مخفي',
         'wm_lang_title' => '{w} كلمة والنطق',
         'hm_lang_title' => 'قراءات الحروف الهانية',
-        'wm_t2' => '{name}: مرحبًا وشكرًا و{w} كلمة مع النطق', 'hm_t2' => '{name}: كيف تُقرأ {n} حروف صينية', 'hm_t2_words' => '{name}: كلمات أصلية لمعاني الحروف الصينية ({n})', 'hm_t2_loans' => '{name}: كلمات صينية مقترضة مبكرة ({n})','wm_q' => 'كيف تقول «{word}» بـ{name}؟ {form}.', 'aka' => 'يُسمّى أيضًا: {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2' => ['few' => '{name}: مرحبًا وشكرًا و{w} كلمات مع النطق', 'many' => '{name}: مرحبًا وشكرًا و{w} كلمةً مع النطق', 'other' => '{name}: مرحبًا وشكرًا و{w} كلمة مع النطق'], 'hm_t2' => ['few' => '{name}: كيف تُقرأ {n} حروف صينية', 'many' => '{name}: كيف تُقرأ {n} حرفًا صينيًا', 'other' => '{name}: كيف تُقرأ {n} حرف صيني'], 'hm_t2_words' => '{name}: كلمات أصلية لمعاني الحروف الصينية ({n})', 'hm_t2_loans' => '{name}: كلمات صينية مقترضة مبكرة ({n})','wm_q' => 'كيف تقول «{word}» ب{name}؟ {form}.', 'aka' => 'يُسمّى أيضًا: {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'نطق {w} كلمة أساسية في {name}، مع الأبجدية الصوتية الدولية والأشكال المحلية، على LangMap Word Map.',
         'hm_lang_meta' => 'قراءات الحروف الهانية في {name} على LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} كلمة أساسية عبر {n} لغة',
@@ -2233,9 +2233,11 @@ function seo_t(string $ui, string $key, array $vars = []): string
         foreach (SEO_T_WORD as $l => $kv) { $T[$l] = ($T[$l] ?? []) + $kv; }
     }
     $s = $T[$ui][$key] ?? ($T['en'][$key] ?? $key);
-    // Plural-form entries ['one' => …, 'few' => …, 'other' => …] pick by {n}.
+    // Plural-form entries ['one' => …, 'few' => …, 'other' => …] pick by {n},
+    // or by {w} when the count arrives as the Word Map word count (wm_t2:
+    // "ещё 83 слова", not "83 слов" — rally r30 a2#2).
     if (is_array($s)) {
-        $cnt = (int) preg_replace('/\D/u', '', (string) ($vars['n'] ?? '0'));
+        $cnt = (int) preg_replace('/\D/u', '', (string) ($vars['n'] ?? ($vars['w'] ?? '0')));
         $s = $s[seo_plural_cat($ui, $cnt)] ?? $s['other'];
     }
     // Auto-fill the Word Map word count for any label using {w} that didn't
@@ -2271,6 +2273,12 @@ function seo_t(string $ui, string $key, array $vars = []): string
     }
     if ($ui === 'ko' && strpos($s, '{') !== false) {
         $s = seo_ko_josa($s);
+    }
+    // Indonesian templates say "bahasa {name}", and most Indonesian names
+    // already start with "Bahasa" (lowercased inline): "Apa bahasa bahasa
+    // Jepang-nya" (rally r30 a2#1). Say it once.
+    if ($ui === 'id') {
+        $s = preg_replace('/\b([Bb])ahasa bahasa /u', '$1ahasa ', $s);
     }
     return $s;
 }
@@ -4255,10 +4263,39 @@ function seo_lang_name(array $langs, string $code, string $ui = 'en'): string
  * nickname, the other map's name for the code, and in English the rows' own
  * English names. Without the primary name and the native form, at most $max.
  */
+/** Traditional → simplified for the characters language names use (zh/yue alias folding). */
+function seo_zh_fold(string $t): string
+{
+    return strtr($t, ['語' => '语', '話' => '话', '粵' => '粤', '漢' => '汉', '國' => '国', '東' => '东', '閩' => '闽', '廣' => '广', '灣' => '湾', '臺' => '台', '門' => '门', '陽' => '阳', '蘇' => '苏', '寧' => '宁', '貴' => '贵', '慶' => '庆', '鄉' => '乡', '韓' => '韩', '鮮' => '鲜', '滿' => '满', '島' => '岛', '縣' => '县', '區' => '区', '雲' => '云', '贛' => '赣', '開' => '开', '濟' => '济', '寶' => '宝', '劇' => '剧', '頭' => '头', '僑' => '侨', '亞' => '亚', '馬' => '马', '來' => '来', '興' => '兴', '華' => '华', '連' => '连', '鹽' => '盐', '遼' => '辽', '膠' => '胶', '蘭' => '兰', '銀' => '银', '時' => '时', '說' => '说', '學' => '学', '書' => '书', '讀' => '读', '揚' => '扬']);
+}
+
+/**
+ * The native form adds nothing in brackets after the name when the name already
+ * contains it ("Tiếng Neko (Neko)", "ภาษาไทย (ไทย)", "上海吳語 (吳語)") or is the
+ * same name in the other Chinese script ("汉代汉语 (漢代漢語)") — rally r30 a2#6/#7.
+ */
+function seo_native_redundant(string $name, string $native): bool
+{
+    $native = trim($native);
+    if ($native === '' || $native === $name) return true;
+    if (mb_stripos($name, $native) !== false) return true;
+    return seo_zh_fold($name) === seo_zh_fold($native);
+}
+
 function seo_lang_aliases(string $ui, string $code, string $primary, string $native, int $max = 3, array $extra = []): array
 {
     $cand = [];
-    foreach (['wordmap', 'hanmap'] as $map) {
+    // Codes the Han Map renames (zh_han, ko_mid, zh_jh) mean different things on
+    // the two maps, so the other map's names are not aliases: keep only the map
+    // whose name is the page's primary one (rally r30: "Old Chinese
+    // (Han-period Chinese)", "中世韓国語 (後期中世韓国語)").
+    $maps = ['wordmap', 'hanmap'];
+    if (!empty(((seo_data('hanmap')['langs'] ?? [])[$code] ?? [])['ownNames'])) {
+        $hl = seo_data('hanmap')['langs'][$code];
+        $onHan = (($hl['names'] ?? [])[$ui] ?? ($hl['name'] ?? '')) === $primary;
+        $maps = [$onHan ? 'hanmap' : 'wordmap'];
+    }
+    foreach ($maps as $map) {
         $l = (seo_data($map)['langs'] ?? [])[$code] ?? null;
         if (!$l) continue;
         $cand[] = (string) (($l['nicknames'] ?? [])[$ui] ?? '');
@@ -4275,14 +4312,12 @@ function seo_lang_aliases(string $ui, string $code, string $primary, string $nat
     // zh/yue: a form in the other script is the same name, not an alias
     // (粤语 / 粵語, r29). zh drops candidates with traditional-only characters,
     // yue those with simplified-only ones; compare on the folded form too.
-    $zhFold = function (string $t): string {
-        return strtr($t, ['語' => '语', '話' => '话', '粵' => '粤', '漢' => '汉', '國' => '国', '東' => '东', '閩' => '闽', '廣' => '广', '灣' => '湾', '臺' => '台', '門' => '门', '陽' => '阳', '蘇' => '苏', '寧' => '宁', '貴' => '贵', '慶' => '庆', '鄉' => '乡', '韓' => '韩', '鮮' => '鲜', '滿' => '满', '島' => '岛', '縣' => '县', '區' => '区', '雲' => '云', '贛' => '赣', '開' => '开', '濟' => '济', '寶' => '宝', '劇' => '剧', '頭' => '头', '僑' => '侨', '亞' => '亚', '馬' => '马', '來' => '来', '興' => '兴', '華' => '华', '連' => '连', '鹽' => '盐', '遼' => '辽', '膠' => '胶', '蘭' => '兰', '銀' => '银', '時' => '时', '說' => '说', '學' => '学', '書' => '书', '讀' => '读']);
-    };
+    $zhFold = fn(string $t): string => seo_zh_fold($t);
     if ($ui === 'zh' || $ui === 'yue') {
         $cand = array_values(array_filter($cand, function ($c) use ($ui, $zhFold) {
             $f = $zhFold($c);
             if ($ui === 'zh') return $f === $c;                       // no traditional-only character
-            return !preg_match('/[语话粤汉国东闽广湾门阳苏宁贵庆乡韩鲜满岛县区云赣开济宝剧头侨亚马来兴华连盐辽胶兰银时说学书读]/u', $c);   // no simplified-only character
+            return !preg_match('/[语话粤汉国东闽广湾门阳苏宁贵庆乡韩鲜满岛县区云赣开济宝剧头侨亚马来兴华连盐辽胶兰银时说学书读扬]/u', $c);   // no simplified-only character
         }));
     }
     // The other map's English row name first in English: "Shanghainese" beats

@@ -618,6 +618,11 @@ document.addEventListener('DOMContentLoaded', () => {
     updateLangSummary();
     syncUIFromState();
     applyUILang();
+    // The names slice the shim guessed may not be the UI the hash chose
+    // (#ui=ja from an English browser): fetch it and repaint (r30).
+    if (typeof window.__ensureLangNames === 'function') {
+        window.__ensureLangNames(currentUILang).then(applyUILang);
+    }
 
     // Redraw lines on resize
     window.addEventListener('resize', scheduleRedrawLines);

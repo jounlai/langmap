@@ -427,7 +427,30 @@ function loadHanMap() {
 
 const HAN_EMPTY = (v) => !v || v === '—' || v === '-' || v === '';
 
+// The Han Map renames a few codes on its own page only (zh_han is Old Chinese
+// there, ko_mid the short 中世韓国語, zh_jh 揚州話) through the OV table in
+// hanmap.html's applyHanmapNameOverrides(). The SEO Han Map pages must show the
+// same names, so the table is parsed out of hanmap.html here rather than copied
+// (rally r30 a4#2: /en/hanmap/zh_han said "Han-period Chinese"). Returns
+// { code: { ui: name } }, restricted to the SEO UI set.
+function loadHanmapNameOverrides() {
+  const html = read('hanmap.html');
+  const m = html.match(/function applyHanmapNameOverrides\(\)[\s\S]*?const\s+OV\s*=\s*(\{[\s\S]*?\n\s*\});/);
+  if (!m) throw new Error('applyHanmapNameOverrides OV table not found in hanmap.html');
+  const ctx = {};
+  vm.createContext(ctx);
+  vm.runInContext('this.__OV = ' + m[1], ctx);
+  const byCode = {};
+  for (const [ui, map] of Object.entries(ctx.__OV)) {
+    if (!UI_LANGS.includes(ui)) continue;
+    for (const [code, name] of Object.entries(map)) (byCode[code] || (byCode[code] = {}))[ui] = name;
+  }
+  if (!byCode.zh_han || !byCode.zh_han.en) throw new Error('Han Map OV table parsed without zh_han.en');
+  return byCode;
+}
+
 function buildHanMapJSON(nameIndex) {
+  const hanOv = loadHanmapNameOverrides();
   const { LANG_DATA, HAN_DATA, HAN_LIST, HAN_CATEGORIES, HAN_LANG_META, HAN_LANGS, HAN_VARIANTS, HAN_GLOSS_I18N } = loadHanMap();
 
   // Character list metadata. HAN_LIST may carry disambiguators ("中:1").
@@ -496,7 +519,11 @@ function buildHanMapJSON(nameIndex) {
       region: m.region || '',
       romanization: (m.romanization && m.romanization.name) ? m.romanization.name : '',
       lat, lng,
-      names: nameIndex[code] || {},
+      names: Object.assign({}, nameIndex[code] || {}, hanOv[code] || {}),
+      // The Han Map means something else by this code (zh_han = Old Chinese
+      // here, the Han-period stage on the Word Map): the two maps' names are
+      // not aliases of each other (seo_lang_aliases).
+      ...(hanOv[code] ? { ownNames: true } : {}),
       nicknames: buildNicknameIndex()[code] || {},
       readingType: pickLangs(m.reading_type),
       description: pickLangs(m.description),

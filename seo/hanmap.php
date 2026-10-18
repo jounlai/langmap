@@ -19,6 +19,13 @@ function hm_gloss_is_echo(string $ch, string $g): bool
 /** Speaker chip value: the prose as is in ja, else its first figure in the UI's number style (r24). */
 function hm_speakers_value(string $ui, string $raw): string
 {
+    // A value with no figure ("(no published count)") is shown only where it
+    // has a translation; ja used to print the English as is (rally r30 a2#8).
+    if (!preg_match('/\d/u', $raw)) {
+        if ($ui === 'ja' && preg_match('/[\x{3041}-\x{30FA}\x{3400}-\x{9FFF}]/u', $raw)) return $raw;   // 歴史言語 / 現代話者なし
+        $tr = seo_meta_value($ui, $raw);
+        return ($tr !== $raw && $ui !== 'en') ? $tr : '';
+    }
     if ($ui === 'ja') return seo_meta_value($ui, $raw);
     $tr = seo_meta_value($ui, $raw);
     if ($tr !== $raw && !preg_match('/[\x{3041}-\x{30FA}\x{3400}-\x{9FFF}]/u', $tr)) return $tr;   // a real translation exists
@@ -54,6 +61,82 @@ function hm_speakers_value(string $ui, string $raw): string
     elseif ($n >= 1e4)  $t = $trim($n / 1e3, 0, $dec) . $K;
     else                $t = number_format($n, 0, $dec, $comma ? '.' : ',');
     return '~' . $t . $more;
+}
+
+/**
+ * Descriptive romanization labels in the reader's language (rally r30 a2#8:
+ * "Jyutping-style respelling", "MCPDict IPA with Chao tone numbers" were
+ * English in every UI). System names (MCPDict, Jyutping, Hanyu Pinyin,
+ * Wiktionary) stay Latin. Labels that are only a system's own name (Tâi-lô,
+ * Wugniu, RTGS, Möllendorff …) are returned unchanged, tagged lang="en".
+ * Returns [text, translated?].
+ */
+function hm_romanization_label(string $ui, string $raw): array
+{
+    if ($ui === 'en') return [$raw, true];
+    static $EXACT = [
+        'MCPDict IPA with Chao tone numbers' => [
+            'ja' => 'MCPDict の IPA（趙元任の五度声調数字）', 'ko' => 'MCPDict IPA(자오위안런 5도 성조 숫자)', 'zh' => 'MCPDict 国际音标（赵元任五度调值数字）', 'yue' => 'MCPDict 國際音標（趙元任五度調值數字）',
+            'vi' => 'IPA theo MCPDict, kèm số thanh điệu Chao', 'th' => 'IPA ตาม MCPDict พร้อมตัวเลขระดับเสียงแบบเจ้าหยวนเริ่น', 'id' => 'IPA MCPDict dengan angka nada Chao', 'hi' => 'MCPDict IPA, चाओ स्वर-अंकों के साथ',
+            'de' => 'MCPDict-IPA mit Chao-Tonziffern', 'fr' => 'API de MCPDict avec chiffres de ton de Chao', 'it' => 'IPA di MCPDict con cifre tonali di Chao', 'es' => 'AFI de MCPDict con números tonales de Chao', 'pt' => 'AFI do MCPDict com números tonais de Chao',
+            'ru' => 'МФА по MCPDict с тоновыми цифрами Чжао Юаньжэня', 'uk' => 'МФА за MCPDict із тоновими цифрами Чжао Юаньженя', 'ar' => 'الأبجدية الصوتية الدولية من MCPDict مع أرقام نغمات تشاو', 'he' => 'IPA לפי MCPDict עם ספרות טונים של צ\'או', 'sw' => 'IPA ya MCPDict pamoja na tarakimu za toni za Chao'],
+        'IPA with Chao tone numbers' => [
+            'ja' => 'IPA（趙元任の五度声調数字）', 'ko' => 'IPA(자오위안런 5도 성조 숫자)', 'zh' => '国际音标（赵元任五度调值数字）', 'yue' => '國際音標（趙元任五度調值數字）',
+            'vi' => 'IPA kèm số thanh điệu Chao', 'th' => 'IPA พร้อมตัวเลขระดับเสียงแบบเจ้าหยวนเริ่น', 'id' => 'IPA dengan angka nada Chao', 'hi' => 'IPA, चाओ स्वर-अंकों के साथ',
+            'de' => 'IPA mit Chao-Tonziffern', 'fr' => 'API avec chiffres de ton de Chao', 'it' => 'IPA con cifre tonali di Chao', 'es' => 'AFI con números tonales de Chao', 'pt' => 'AFI com números tonais de Chao',
+            'ru' => 'МФА с тоновыми цифрами Чжао Юаньжэня', 'uk' => 'МФА з тоновими цифрами Чжао Юаньженя', 'ar' => 'الأبجدية الصوتية الدولية مع أرقام نغمات تشاو', 'he' => 'IPA עם ספרות טונים של צ\'או', 'sw' => 'IPA pamoja na tarakimu za toni za Chao'],
+        'IPA with tone-category digit (MCPDict notation)' => [
+            'ja' => 'IPA＋調類番号（MCPDict 方式）', 'ko' => 'IPA와 성조 부류 숫자(MCPDict 방식)', 'zh' => '国际音标加调类数字（MCPDict 记法）', 'yue' => '國際音標加調類數字（MCPDict 記法）',
+            'vi' => 'IPA kèm số loại thanh (cách ghi của MCPDict)', 'th' => 'IPA พร้อมตัวเลขหมวดวรรณยุกต์ (ตามระบบ MCPDict)', 'id' => 'IPA dengan angka kategori nada (notasi MCPDict)', 'hi' => 'IPA, स्वर-वर्ग अंक के साथ (MCPDict पद्धति)',
+            'de' => 'IPA mit Tonkategorie-Ziffer (MCPDict-Notation)', 'fr' => 'API avec chiffre de catégorie tonale (notation MCPDict)', 'it' => 'IPA con cifra della categoria tonale (notazione MCPDict)', 'es' => 'AFI con dígito de categoría tonal (notación de MCPDict)', 'pt' => 'AFI com dígito de categoria tonal (notação do MCPDict)',
+            'ru' => 'МФА с цифрой тонового класса (нотация MCPDict)', 'uk' => 'МФА з цифрою тонового класу (нотація MCPDict)', 'ar' => 'الأبجدية الصوتية الدولية مع رقم فئة النغمة (ترميز MCPDict)', 'he' => 'IPA עם ספרת קטגוריית טון (סימון MCPDict)', 'sw' => 'IPA pamoja na tarakimu ya kundi la toni (mtindo wa MCPDict)'],
+        'MCPDict IPA' => [
+            'ja' => 'MCPDict の IPA', 'ko' => 'MCPDict IPA 표기', 'zh' => 'MCPDict 国际音标', 'yue' => 'MCPDict 國際音標', 'vi' => 'IPA theo MCPDict', 'th' => 'IPA ตาม MCPDict', 'id' => 'IPA MCPDict', 'hi' => 'MCPDict के अनुसार IPA',
+            'de' => 'MCPDict-IPA', 'fr' => 'API de MCPDict', 'it' => 'IPA di MCPDict', 'es' => 'AFI de MCPDict', 'pt' => 'AFI do MCPDict', 'ru' => 'МФА по MCPDict', 'uk' => 'МФА за MCPDict', 'ar' => 'الأبجدية الصوتية الدولية من MCPDict', 'he' => 'IPA לפי MCPDict', 'sw' => 'IPA ya MCPDict'],
+        'Jyutping-style respelling' => [
+            'ja' => 'Jyutping（粤拼）式の表記', 'ko' => 'Jyutping(월병)식 표기', 'zh' => '仿 Jyutping（粤拼）拼写', 'yue' => '仿 Jyutping（粵拼）拼寫', 'vi' => 'cách viết theo kiểu Jyutping', 'th' => 'การสะกดแบบ Jyutping', 'id' => 'ejaan bergaya Jyutping', 'hi' => 'Jyutping-शैली की वर्तनी',
+            'de' => 'Schreibung nach Art von Jyutping', 'fr' => 'graphie de type Jyutping', 'it' => 'grafia sul modello Jyutping', 'es' => 'grafía al estilo Jyutping', 'pt' => 'grafia ao estilo Jyutping', 'ru' => 'запись в стиле Jyutping', 'uk' => 'запис у стилі Jyutping', 'ar' => 'كتابة على نمط Jyutping', 'he' => 'כתיב בסגנון Jyutping', 'sw' => 'tahajia ya mtindo wa Jyutping'],
+        'Hanyu Pinyin with Kaifeng tone numbers' => [
+            'ja' => 'Hanyu Pinyin＋開封方言の声調数字', 'ko' => 'Hanyu Pinyin과 카이펑 방언 성조 숫자', 'zh' => '汉语拼音加开封话调值数字', 'yue' => '漢語拼音加開封話調值數字', 'vi' => 'Hanyu Pinyin kèm số thanh điệu tiếng Khai Phong', 'th' => 'Hanyu Pinyin พร้อมตัวเลขวรรณยุกต์สำเนียงไคเฟิง', 'id' => 'Hanyu Pinyin dengan angka nada dialek Kaifeng', 'hi' => 'Hanyu Pinyin, काइफ़ेंग बोली के स्वर-अंकों के साथ',
+            'de' => 'Hanyu Pinyin mit Tonziffern des Kaifeng-Dialekts', 'fr' => 'Hanyu Pinyin avec chiffres tonals du parler de Kaifeng', 'it' => 'Hanyu Pinyin con cifre tonali del dialetto di Kaifeng', 'es' => 'Hanyu Pinyin con números tonales del habla de Kaifeng', 'pt' => 'Hanyu Pinyin com números tonais da fala de Kaifeng', 'ru' => 'Hanyu Pinyin с тоновыми цифрами кайфэнского говора', 'uk' => 'Hanyu Pinyin з тоновими цифрами кайфенської говірки', 'ar' => 'Hanyu Pinyin مع أرقام نغمات لهجة كايفنغ', 'he' => 'Hanyu Pinyin עם ספרות הטונים של הדיבור בקאיפנג', 'sw' => 'Hanyu Pinyin pamoja na tarakimu za toni za lahaja ya Kaifeng'],
+        "Xi'an Pinyin-style spelling with Chao tone numbers" => [
+            'ja' => 'Pinyin 式の西安方言表記（趙元任の五度声調数字）', 'ko' => 'Pinyin식 시안 방언 표기(자오위안런 5도 성조 숫자)', 'zh' => '仿拼音的西安话拼写（赵元任五度调值数字）', 'yue' => '仿拼音嘅西安話拼寫（趙元任五度調值數字）', 'vi' => 'cách viết kiểu Pinyin cho tiếng Tây An, kèm số thanh điệu Chao', 'th' => 'การสะกดแบบ Pinyin สำหรับสำเนียงซีอาน พร้อมตัวเลขระดับเสียงแบบเจ้าหยวนเริ่น', 'id' => "ejaan bergaya Pinyin untuk dialek Xi'an dengan angka nada Chao", 'hi' => 'शीआन बोली की Pinyin-शैली वर्तनी, चाओ स्वर-अंकों के साथ',
+            'de' => "Pinyin-artige Schreibung des Xi'an-Dialekts mit Chao-Tonziffern", 'fr' => "graphie de type Pinyin pour le parler de Xi'an, avec chiffres de ton de Chao", 'it' => "grafia sul modello Pinyin per il dialetto di Xi'an, con cifre tonali di Chao", 'es' => "grafía al estilo Pinyin para el habla de Xi'an, con números tonales de Chao", 'pt' => "grafia ao estilo Pinyin para a fala de Xi'an, com números tonais de Chao", 'ru' => 'запись в стиле Pinyin для сианьского говора с тоновыми цифрами Чжао Юаньжэня', 'uk' => 'запис у стилі Pinyin для сіаньської говірки з тоновими цифрами Чжао Юаньженя', 'ar' => 'كتابة على نمط Pinyin للهجة شيآن مع أرقام نغمات تشاو', 'he' => 'כתיב בסגנון Pinyin לדיבור של שיאן, עם ספרות טונים של צ\'או', 'sw' => "tahajia ya mtindo wa Pinyin kwa lahaja ya Xi'an pamoja na tarakimu za toni za Chao"],
+        'Taiyuan Pinyin-style romanization (Wiktionary)' => [
+            'ja' => 'Pinyin 式の太原方言ローマ字（Wiktionary）', 'ko' => 'Pinyin식 타이위안 방언 로마자 표기(Wiktionary)', 'zh' => '仿拼音的太原话罗马字（Wiktionary）', 'yue' => '仿拼音嘅太原話羅馬字（Wiktionary）', 'vi' => 'chữ La-tinh kiểu Pinyin cho tiếng Thái Nguyên (Wiktionary)', 'th' => 'อักษรโรมันแบบ Pinyin สำหรับสำเนียงไท่หยวน (Wiktionary)', 'id' => 'romanisasi bergaya Pinyin untuk dialek Taiyuan (Wiktionary)', 'hi' => 'ताइयुआन बोली का Pinyin-शैली रोमनकरण (Wiktionary)',
+            'de' => 'Pinyin-artige Umschrift des Taiyuan-Dialekts (Wiktionary)', 'fr' => 'romanisation de type Pinyin pour le parler de Taiyuan (Wiktionary)', 'it' => 'romanizzazione sul modello Pinyin per il dialetto di Taiyuan (Wiktionary)', 'es' => 'romanización al estilo Pinyin para el habla de Taiyuan (Wiktionary)', 'pt' => 'romanização ao estilo Pinyin para a fala de Taiyuan (Wiktionary)', 'ru' => 'латинизация в стиле Pinyin для тайюаньского говора (Wiktionary)', 'uk' => 'латинізація в стилі Pinyin для тайюаньської говірки (Wiktionary)', 'ar' => 'كتابة لاتينية على نمط Pinyin للهجة تاييوان (Wiktionary)', 'he' => 'תעתיק לטיני בסגנון Pinyin לדיבור של טאייואן (Wiktionary)', 'sw' => 'uandishi wa Kilatini wa mtindo wa Pinyin kwa lahaja ya Taiyuan (Wiktionary)'],
+        'Changsha romanization (Wiktionary, old style)' => [
+            'ja' => '長沙方言ローマ字（Wiktionary・旧方式）', 'ko' => '창사 방언 로마자 표기(Wiktionary 구식)', 'zh' => '长沙话罗马字（Wiktionary 旧式）', 'yue' => '長沙話羅馬字（Wiktionary 舊式）', 'vi' => 'chữ La-tinh tiếng Trường Sa (Wiktionary, kiểu cũ)', 'th' => 'อักษรโรมันสำเนียงฉางชา (Wiktionary แบบเก่า)', 'id' => 'romanisasi dialek Changsha (Wiktionary, gaya lama)', 'hi' => 'छांगशा बोली का रोमनकरण (Wiktionary, पुरानी शैली)',
+            'de' => 'Umschrift des Changsha-Dialekts (Wiktionary, alte Form)', 'fr' => 'romanisation du parler de Changsha (Wiktionary, ancien style)', 'it' => 'romanizzazione del dialetto di Changsha (Wiktionary, vecchio stile)', 'es' => 'romanización del habla de Changsha (Wiktionary, estilo antiguo)', 'pt' => 'romanização da fala de Changsha (Wiktionary, estilo antigo)', 'ru' => 'латинизация чаншаского говора (Wiktionary, старый вариант)', 'uk' => 'латинізація чаншаської говірки (Wiktionary, старий варіант)', 'ar' => 'كتابة لاتينية للهجة تشانغشا (Wiktionary، النمط القديم)', 'he' => 'תעתיק לטיני לדיבור של צ\'אנגשה (Wiktionary, סגנון ישן)', 'sw' => 'uandishi wa Kilatini wa lahaja ya Changsha (Wiktionary, mtindo wa zamani)'],
+    ];
+    if (isset($EXACT[$raw][$ui])) return [$EXACT[$raw][$ui], true];
+    // "Hanyu Pinyin with tone-contour superscripts (成都音)" — 12 Mandarin rows.
+    if (preg_match('/^Hanyu Pinyin with tone-contour superscripts \((\p{Han}+)\)$/u', $raw, $m)) {
+        $T = [
+            'ja' => 'Hanyu Pinyin＋声調曲線の上付き数字（%s）', 'ko' => 'Hanyu Pinyin과 성조 곡선 위첨자(%s)', 'zh' => '汉语拼音加调值上标（%s）', 'yue' => '漢語拼音加調值上標（%s）', 'vi' => 'Hanyu Pinyin kèm chỉ số trên ghi đường nét thanh điệu (%s)', 'th' => 'Hanyu Pinyin พร้อมตัวยกแสดงระดับเสียง (%s)', 'id' => 'Hanyu Pinyin dengan superskrip kontur nada (%s)', 'hi' => 'Hanyu Pinyin, स्वर-रेखा के सुपरस्क्रिप्ट अंकों के साथ (%s)',
+            'de' => 'Hanyu Pinyin mit hochgestellten Tonverlaufsziffern (%s)', 'fr' => 'Hanyu Pinyin avec exposants de contour tonal (%s)', 'it' => 'Hanyu Pinyin con apici del profilo tonale (%s)', 'es' => 'Hanyu Pinyin con superíndices de contorno tonal (%s)', 'pt' => 'Hanyu Pinyin com sobrescritos de contorno tonal (%s)', 'ru' => 'Hanyu Pinyin с надстрочными цифрами тонального контура (%s)', 'uk' => 'Hanyu Pinyin із надрядковими цифрами тонального контуру (%s)', 'ar' => 'Hanyu Pinyin مع أرقام علوية لمسار النغمة (%s)', 'he' => 'Hanyu Pinyin עם ספרות עיליות של קו הטון (%s)', 'sw' => 'Hanyu Pinyin pamoja na tarakimu za juu za mwenendo wa toni (%s)',
+        ];
+        if (isset($T[$ui])) return [sprintf($T[$ui], $m[1]), true];
+    }
+    // "Loudi romanization", "Jinhua romanization (調值 tone-value)", Wenzhou.
+    if (preg_match('/^(Loudi|Jinhua|Wenzhou) romanization( \(調值 tone-value\))?$/u', $raw, $m)) {
+        $C = [
+            'Loudi'   => ['ja' => '婁底', 'ko' => '러우디', 'zh' => '娄底', 'yue' => '婁底', 'vi' => 'Lâu Để', 'th' => 'โหลวตี่', 'hi' => 'लोउदी', 'ru' => 'лоудиского', 'uk' => 'лоудіської', 'ar' => 'لوودي', 'he' => 'לואודי'],
+            'Jinhua'  => ['ja' => '金華', 'ko' => '진화', 'zh' => '金华', 'yue' => '金華', 'vi' => 'Kim Hoa', 'th' => 'จินหัว', 'hi' => 'जिनहुआ', 'ru' => 'цзиньхуаского', 'uk' => 'цзіньхуаської', 'ar' => 'جينهوا', 'he' => 'ג\'ינחואה'],
+            'Wenzhou' => ['ja' => '温州', 'ko' => '원저우', 'zh' => '温州', 'yue' => '溫州', 'vi' => 'Ôn Châu', 'th' => 'เวินโจว', 'hi' => 'वेनझोउ', 'ru' => 'вэньчжоуского', 'uk' => 'веньчжоуської', 'ar' => 'ونتشو', 'he' => 'ונג\'ואו'],
+        ];
+        $c = $C[$m[1]][$ui] ?? $m[1];
+        $T = [
+            'ja' => '%s方言ローマ字', 'ko' => '%s 방언 로마자 표기', 'zh' => '%s话罗马字', 'yue' => '%s話羅馬字', 'vi' => 'chữ La-tinh tiếng %s', 'th' => 'อักษรโรมันสำเนียง%s', 'id' => 'romanisasi dialek %s', 'hi' => '%s बोली का रोमनकरण',
+            'de' => 'Umschrift des %s-Dialekts', 'fr' => 'romanisation du parler de %s', 'it' => 'romanizzazione del dialetto di %s', 'es' => 'romanización del habla de %s', 'pt' => 'romanização da fala de %s', 'ru' => 'латинизация %s говора', 'uk' => 'латинізація %s говірки', 'ar' => 'كتابة لاتينية للهجة %s', 'he' => 'תעתיק לטיני לדיבור של %s', 'sw' => 'uandishi wa Kilatini wa lahaja ya %s',
+        ];
+        $V = [
+            'ja' => '（調値表記）', 'ko' => '(성조값 표기)', 'zh' => '（调值标记）', 'yue' => '（調值標記）', 'vi' => ' (ghi giá trị thanh điệu)', 'th' => ' (ระบุค่าระดับเสียง)', 'id' => ' (dengan nilai nada)', 'hi' => ' (स्वर-मान सहित)',
+            'de' => ' (mit Tonwerten)', 'fr' => ' (avec valeurs tonales)', 'it' => ' (con valori tonali)', 'es' => ' (con valores tonales)', 'pt' => ' (com valores tonais)', 'ru' => ' (с тоновыми значениями)', 'uk' => ' (з тоновими значеннями)', 'ar' => ' (بقيم النغمات)', 'he' => ' (עם ערכי טון)', 'sw' => ' (pamoja na thamani za toni)',
+        ];
+        if (isset($T[$ui])) return [sprintf($T[$ui], $c) . (!empty($m[2]) ? $V[$ui] : ''), true];
+    }
+    return [$raw, false];
 }
 
 require_once __DIR__ . '/lib.php';
@@ -131,7 +214,7 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
     // A proto row's `native` is a Japanese scholarly label (原始タイ語), not a
     // name the reader's search uses: kept in the hero, left out of title and
     // snippet (r29).
-    $tNative = ($native && $native !== $name && strpos((string) ($lang['family'] ?? ''), '(proto)') === false) ? $native : '';
+    $tNative = (!seo_native_redundant($name, (string) $native) && strpos((string) ($lang['family'] ?? ''), '(proto)') === false) ? $native : '';
     $paren = array_values(array_filter([seo_title_alias($aliases), $tNative]));
     $kind = seo_hanmap_kind($code, $lang);
     $title = seo_t($ui, $kind === 'reading' ? 'hm_t2' : 'hm_t2_' . $kind, ['name' => $name . ($paren ? ' (' . implode(', ', $paren) . ')' : ''), 'n' => (string) count($lang['readings'] ?? [])]) . ' | LangMap';
@@ -178,13 +261,14 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
     $spkV = !empty($lang['speakers']) ? hm_speakers_value($ui, (string) $lang['speakers']) : '';
     if ($spkV !== '')                 $chips[seo_t($ui, 'speakers')] = $spkV;
     if (!empty($lang['region']))      $chips[seo_t($ui, 'region')]   = seo_meta_value($ui, $lang['region']);
-    if (!empty($lang['romanization']))$chips[seo_t($ui, 'romanization')] = $lang['romanization'];
+    [$romV, $romTr] = !empty($lang['romanization']) ? hm_romanization_label($ui, (string) $lang['romanization']) : ['', false];
+    if ($romV !== '')                 $chips[seo_t($ui, 'romanization')] = $romV;
     if ($readingType !== '')          $chips[seo_t($ui, 'reading')]  = $readingType;
     $chipLang = [];
     foreach (['family','speakers','region'] as $f)
         if (!empty($lang[$f])) $chipLang[seo_t($ui, $f)] = seo_meta_value_lang($ui, (string) $lang[$f]);
     if ($spkV !== '' && $ui !== 'ja') unset($chipLang[seo_t($ui, 'speakers')]);   // formatted in the page language
-    if (!empty($lang['romanization']) && $ui !== 'en') $chipLang[seo_t($ui, 'romanization')] = 'en';
+    if ($romV !== '' && !$romTr && $ui !== 'en') $chipLang[seo_t($ui, 'romanization')] = 'en';
     if ($chips): ?>
 <div class="seo-meta">
   <?php foreach ($chips as $k => $v): ?>
@@ -203,7 +287,7 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
     $embed = seo_map_embed(
         is_numeric($lat) ? (float) $lat : null,
         is_numeric($lng) ? (float) $lng : null,
-        $name . ($native && $native !== $name ? " ($native)" : ''),
+        $name . (!seo_native_redundant($name, (string) $native) ? " ($native)" : ''),
         5,
         $ui
     );

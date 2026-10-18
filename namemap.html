@@ -72,7 +72,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=166">
+    <link rel="stylesheet" href="styles.css?v=167">
     <link rel="stylesheet" href="/vendor/leaflet-1.9.4/leaflet.css" />
     <!-- Webfonts for the scripts that name forms appear in. Without these,
          Arabic / Hebrew / Devanagari / Bengali / Ethiopic / Georgian /
@@ -578,7 +578,7 @@
 
         .leaflet-popup-close-button { width: 40px !important; height: 40px !important; font-size: 24px !important; line-height: 38px !important; }   /* 24px was hard to tap (r27) */
 </style>
-    <script src="nav-short.js?v=39"></script>
+    <script src="nav-short.js?v=40"></script>
 </head>
 <body>
     <div id="pg-live" role="status" aria-live="polite" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap"></div>
@@ -935,7 +935,10 @@
             if(f.rom && f.rom!==f.form) h+='<div class="nm-pop-line"><span class="k">'+esc(t('romanization'))+':</span> '+esc(f.rom)+'</div>';
             if(f.ipa) h+='<div class="nm-pop-line"><span class="k">'+esc(t('ipa'))+':</span> <span class="nm-pop-ipa" dir="ltr">/'+esc(f.ipa)+'/</span></div>';
             h+='<div class="nm-pop-line nm-pop-freq"><span class="nm-freq-dot '+freqClass(f.freq)+'"></span>'+esc(t('freq')[f.freq]||f.freq)+'</div>';
-            if(f.note) h+='<div class="nm-pop-line" style="color:#b07acc">'+esc(loc(f.note))+'</div>';
+            // Form notes exist in en/ja only: an English note inside an Arabic
+            // or Korean popup read as untranslated, so other UIs skip the line (r30).
+            { const nt=f.note && (typeof f.note==='string' ? f.note : (f.note[uiLang] || f.note[String(uiLang||'').split('_')[0]] || ''));
+              if(nt) h+='<div class="nm-pop-line" style="color:#b07acc">'+esc(nt)+'</div>'; }
             if(f.people && f.people.length){
                 h+='<div class="nm-pop-line k" style="margin-top:6px">'+esc(t('notablePeople'))+'</div>';
                 h+='<ul class="nm-pop-people">'+f.people.map(p=>'<li>'+esc(p)+'</li>').join('')+'</ul>';
@@ -1305,6 +1308,24 @@
             if(map && map.on){ let _mt=null; const syncMk=()=>{ const mr=map.getContainer().getBoundingClientRect(); let ml=mr.left; { const pn=document.getElementById('nm-panel'), pr=pn&&pn.getClientRects().length&&pn.getBoundingClientRect(); if(pr && pr.left<=mr.left+40 && pr.right<mr.left+mr.width/2) ml=Math.max(ml,pr.right); } document.querySelectorAll('#map .leaflet-marker-icon[tabindex]').forEach(el=>{ let r=el.getBoundingClientRect(); if((!r.width||!r.height) && el.firstElementChild) r=el.firstElementChild.getBoundingClientRect(); const cx=r.left+r.width/2, cy=r.top+r.height/2; let want=(cx>ml&&cx<mr.right&&cy>mr.top&&cy<mr.bottom)?0:-1; if(!want){ const hit=document.elementFromPoint(cx,cy); if(!(hit && (el.contains(hit) || map.getContainer().contains(hit)))) want=-1; } if(el.tabIndex!==want && el!==document.activeElement) el.tabIndex=want; }); }; map.on('moveend zoomend layeradd', ()=>{ clearTimeout(_mt); _mt=setTimeout(syncMk,120); }); }
             // A popup opened from a focused marker (Enter): focus its close button,
             // or it sat behind every other marker in the Tab order.
+            // Popup padding measured from the controls, as the Time Map's
+            // fitPopupPad: a fixed 66 px top let the popup open under the name
+            // picker on 360 px phones, with its × under the gear (r30).
+            if(map && map.on) map.on('popupopen', e=>{
+                const pp=e.popup; if(!pp || !pp.options) return;
+                const mob=window.matchMedia('(max-width: 780px)').matches;
+                const mr=map.getContainer().getBoundingClientRect();
+                const vis=el=>el && el.getClientRects().length ? el.getBoundingClientRect() : null;
+                let top=mob ? 16 : 72, left=mob ? 16 : PANEL_WIDTH+16, right=24;
+                if(mob){ const cr=vis(document.querySelector('.nm-controls')); if(cr && cr.height) top=Math.max(top, Math.round(cr.bottom-mr.top)+8); }
+                else if(!vis(document.getElementById('nm-panel'))) left=16;
+                const kr=vis(document.getElementById('nm-map-ctl')); if(kr && kr.width) right=Math.max(right, Math.round(mr.right-kr.left)+8);
+                const was=pp.options.autoPanPaddingTopLeft, wasR=pp.options.autoPanPaddingBottomRight;
+                if(was && was.x===left && was.y===top && wasR && wasR.x===right) return;
+                pp.options.autoPanPaddingTopLeft=L.point(left, top);
+                pp.options.autoPanPaddingBottomRight=L.point(right, 24);
+                pp.update();
+            });
             if(map && map.on) map.on('popupopen', e=>{ { const _c=e.popup.getElement && e.popup.getElement() && e.popup.getElement().querySelector('.leaflet-popup-close-button'); if(_c && window.__nmA11){ _c.setAttribute('aria-label', window.__nmA11('close')); _c.title=window.__nmA11('close'); } } const ae=document.activeElement; if(ae && ae.classList && ae.classList.contains('leaflet-marker-icon')){ const c=e.popup.getElement && e.popup.getElement().querySelector('.leaflet-popup-close-button'); if(c) setTimeout(()=>c.focus(),0); } });
             if(map && map.on){
             // Label popups get a history entry: the phone Back gesture closes the popup

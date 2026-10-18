@@ -89,8 +89,12 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
     // what the page answers — "Shanghai Wu (Shanghainese, 吳語): hello, thank
     // you & 87 words with pronunciation | LangMap".
     $aliases = seo_lang_aliases($ui, $code, $name, (string) $native);
-    $paren = array_values(array_filter([seo_title_alias($aliases), ($native && $native !== $name) ? $native : '']));
-    $own = strtolower(explode('_', $code)[0]) === explode('_', $ui)[0];   // ja page in the ja UI: "日本語で「こんにちは」は？" reads oddly
+    $tNative = seo_native_redundant($name, (string) $native) ? '' : (string) $native;
+    $paren = array_values(array_filter([seo_title_alias($aliases), $tNative]));
+    // ja page in the ja UI: "日本語で「こんにちは」は？" reads oddly. Only the
+    // reader's own language itself: ja_osa, es_cr, zh_han are other varieties
+    // and keep the hello/thank-you title (rally r30 a2#6).
+    $own = strtolower($code) === explode('-', $ui)[0];
     // The title promises hello and thank you only where the row has one of them.
     $hasGreet = false;
     foreach (['hello', 'thanks'] as $gid) {
@@ -100,7 +104,7 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
     if (!$hasGreet && !$own) {
         $title = $name . ($paren ? ' (' . implode(', ', $paren) . ')' : '') . ' — ' . seo_t($ui, 'wm_lang_title', ['w' => $wc]) . ' | LangMap';
     } else $title = $own
-        ? $name . ($native && $native !== $name ? " ($native)" : '') . ' — ' . seo_t($ui, 'wm_lang_title', ['w' => $wc]) . ' | LangMap'
+        ? $name . ($tNative !== '' ? " ($tNative)" : '') . ' — ' . seo_t($ui, 'wm_lang_title', ['w' => $wc]) . ' | LangMap'
         : seo_t($ui, 'wm_t2', ['name' => $name . ($paren ? ' (' . implode(', ', $paren) . ')' : ''), 'w' => $wc]) . ' | LangMap';
     $hmName = ((seo_data('hanmap')['langs'] ?? [])[$code]['name'] ?? '');
     // The Han Map's English name only when it is a plain name: "Central Bai
@@ -108,7 +112,7 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
     $q = seo_lang_question($ui, $data, $code, ($ui === 'en' && $hmName !== '' && !preg_match('/[(（]/u', $hmName)) ? $hmName : $name);
     $metaDesc = seo_lang_meta_lead(
         array_values(array_filter(seo_wordmap_samples($data, $code, $ui), fn($p) => $q === '' || $p[1] !== trim((string) ((($data['langs'][$code]['words'] ?? [])['hello'] ?? [''])[0] ?? '')))),
-        $desc !== '' ? $desc : seo_t($ui, 'wm_lang_meta', ['name' => $name . ($native && $native !== $name ? " ($native)" : ''), 'w' => $wc]),
+        $desc !== '' ? $desc : seo_t($ui, 'wm_lang_meta', ['name' => $name . ($tNative !== '' ? " ($tNative)" : ''), 'w' => $wc]),
         $ui
     );
     if ($q !== '') $metaDesc = seo_clip($q . (in_array($ui, ['ja', 'zh', 'yue'], true) ? '' : ' ') . $metaDesc, 160);
@@ -177,7 +181,7 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
     $embed = seo_map_embed(
         is_numeric($lat) ? (float) $lat : null,
         is_numeric($lng) ? (float) $lng : null,
-        $name . ($native && $native !== $name ? " ($native)" : ''),
+        $name . ($tNative !== '' ? " ($tNative)" : ''),
         5,
         $ui
     );

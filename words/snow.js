@@ -407,7 +407,7 @@ WORDS.snow = {
     frr_amr: ["snä", "snɛː"],
     li: ["sjnie", "ʃniː"],
     nn: ["snø", "snøː"],
-    fo: ["kavi", "ˈkɛaːvɪ"],
+    fo: ["kavi", "ˈkʰɛaːvɪ"],
     fr_qc: ["neige", "naɪ̯ʒ"],
     fr_af: ["neige", "nɛʒ"],
     fr_be: ["neige", "nɛʒ"],

@@ -708,7 +708,7 @@ WORDS.hello = {
     mer: ["muuga", "muːɡa"],
     kam: ["wakya", "wakja"],
     ebu: ["wĩ mwaro", "we mwaɾɔ"],
-    tn: ["dumela", "dumela"],
+    tn: ["dumela", "dumɛla"],
     st: ["dumela", "dumɛla"],
     ts: ["avuxeni", "aβuʃeni"],
     ve: ["ndaa", "ndaː"],

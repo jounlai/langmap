@@ -312,7 +312,17 @@ function seo_word_meta_desc(array $data, string $id, string $ui, string $label, 
             continue;
         }
         $seen[$k] = true;
-        $ex[] = seo_lang_name($langs, $code, $ui) . ' ' . $surface;
+        // Mid-list names are running text: "Испанский gato, французский
+        // chat", "Espagnol gato, français chat" (rally r30 a2#10). ru/uk have
+        // no inline rule elsewhere; their language names here are all common
+        // adjectives or indeclinables (суахили, хинди), lowercase in prose.
+        $ln = seo_lang_name($langs, $code, $ui);
+        if ($ex) {
+            $ln = ($ui === 'ru' || $ui === 'uk')
+                ? mb_strtolower(mb_substr($ln, 0, 1)) . mb_substr($ln, 1)
+                : seo_inline_name($ui, 'wd_list', $ln);
+        }
+        $ex[] = $ln . ' ' . $surface;
     }
     $sep = in_array($ui, ['ja', 'zh', 'yue'], true) ? '、' : ($ui === 'ar' ? '، ' : ', ');
     $tail = seo_t($ui, 'wd_meta', ['name' => $label, 'n' => $nStr]);

@@ -300,6 +300,16 @@ WORDS.lol = {
     yue_gz: ["哈哈", "haː˥˨ haː˥˨"],
     yue_dg: ["哈哈", "ha˨˧ ha˨˧"],
     yue_nn: ["哈哈", "ha˥˥ ha˥˥"],
-    yue_zs: ["哈哈", "ha˥˥ ha˥˥"]
+    yue_zs: ["哈哈", "ha˥˥ ha˥˥"],
+    // Varieties whose parent got lol only in the 2026-10-18 parity pass
+    // (r30): same typed form, read in the row's own sounds.
+    es_uy: ["jajaja", "ˈxaxaxa"],
+    ar_sy: ["ههه", "hahaha"],
+    ar_lb: ["ههه", "hahaha"],
+    ar_sa: ["ههه", "hahaha"],
+    wae: ["lol", "lɔl"],
+    gsw_w: ["lol", "lɔl"],
+    gsw_als: ["lol", "lɔl"],
+    zh_hf: ["233", "ʔa˥˩ sɐ̃˨˩˨ sɐ̃˨˩˨"]
   },
 };

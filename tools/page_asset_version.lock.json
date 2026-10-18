@@ -1,7 +1,7 @@
 {
   "app.js": {
-    "version": 109,
-    "hash": "087b475f914eab1f"
+    "version": 110,
+    "hash": "865b20ea4233b94c"
   },
   "data.js": {
     "version": 92,
@@ -28,12 +28,12 @@
     "hash": "1ea8ce0dd0d9f0df"
   },
   "lang_names/en.js": {
-    "version": 206,
+    "version": 207,
     "hash": "151b9851cb640cd0"
   },
   "lang_names_shim.js": {
-    "version": 4,
-    "hash": "72a59f7e6407e0c5"
+    "version": 5,
+    "hash": "14cc4b70876a8e62"
   },
   "master.js": {
     "version": 26,
@@ -60,8 +60,8 @@
     "hash": "45e649c2244267b3"
   },
   "nav-short.js": {
-    "version": 39,
-    "hash": "f517ba5dd2be8416"
+    "version": 40,
+    "hash": "f33905c441c32047"
   },
   "poster_geo.js": {
     "version": 12,
@@ -76,8 +76,8 @@
     "hash": "86181f3bf041494a"
   },
   "progress_data.js": {
-    "version": 233,
-    "hash": "2c1ecb5a9d5d6634"
+    "version": 234,
+    "hash": "72fb145c3f9ecc70"
   },
   "pwa.js": {
     "version": 2,
@@ -88,8 +88,8 @@
     "hash": "a9a5ec0b06fdab27"
   },
   "styles.css": {
-    "version": 166,
-    "hash": "02188177f9b5f0e4"
+    "version": 167,
+    "hash": "e924325de46bb2d0"
   },
   "timemap_calendars.js": {
     "version": 17,
@@ -100,7 +100,7 @@
     "hash": "71c78ae558968bf5"
   },
   "word_manifest.js": {
-    "version": 969,
+    "version": 970,
     "hash": "99fafa5b03aba24a"
   },
   "wordmap_data.js": {

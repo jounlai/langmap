@@ -81,7 +81,19 @@
     // so every non-English reader was served a stale cached slice.
     window.__langNamesBoot = function () {
         var ui = 'en';
+        // A link's ui= (#ui=ja, ?ui=ja) beats the cookie and the browser: the
+        // apps obey it, and without this the names fell through to English (or,
+        // on the Han Map, to bracketed reading-type labels) (r30).
+        var fromLink = false;
         try {
+            var q = /[#?&]ui=([^&#]+)/.exec(location.hash || '') || /[?&]ui=([^&#]+)/.exec(location.search || '');
+            if (q) {
+                var u = decodeURIComponent(q[1]).replace('-', '_').toLowerCase();
+                if (UIS.indexOf(u) !== -1) { ui = u; fromLink = true; }
+                else if (UIS.indexOf(u.split('_')[0]) !== -1) { ui = u.split('_')[0]; fromLink = true; }
+            }
+        } catch (_) {}
+        if (!fromLink) try {
             var m = /(?:^|;\s*)wm_uilang=([^;]+)/.exec(document.cookie || '');
             if (m) {
                 var c = decodeURIComponent(m[1]).toLowerCase();
@@ -89,7 +101,7 @@
                 else if (UIS.indexOf(c.split('_')[0]) !== -1) ui = c.split('_')[0];
             }
         } catch (_) {}
-        if (ui === 'en') {
+        if (!fromLink && ui === 'en') {
             try {
                 var langs = navigator.languages || [navigator.language || 'en'];
                 for (var i = 0; i < langs.length; i++) {

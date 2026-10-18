@@ -106,7 +106,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=166">
+    <link rel="stylesheet" href="styles.css?v=167">
     <link rel="stylesheet" href="/vendor/leaflet-1.9.4/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -2862,7 +2862,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=39"></script>
+    <script src="nav-short.js?v=40"></script>
     <style>
         /* r23 desktop: the compare panel clears the settings gear and the map
            attribution; the settings drawer is readable at desktop sizes. */
@@ -3572,9 +3572,9 @@
     Load the shim, then English, then whichever UI language this visitor
     will actually see (~12 KB gzipped). tools/build_lang_names.js
     generates lang_names/<ui>.js from lang_names.js. -->
-    <script src="lang_names_shim.js?v=4"></script>
-    <script src="lang_names/en.js?v=206"></script>
-    <script>window.__langNamesVersion(206); window.__langNamesBoot();</script>
+    <script src="lang_names_shim.js?v=5"></script>
+    <script src="lang_names/en.js?v=207"></script>
+    <script>window.__langNamesVersion(207); window.__langNamesBoot();</script>
     <script>
     // HanMap-specific display-name overrides.
     // THIS IS THE MECHANISM for "one code, two maps, two meanings". lang_names.js
@@ -8501,16 +8501,26 @@
                 // Widths taken before the web fonts arrive are the fallback
                 // font's (Hakka names came out ~25% too wide), so a finished
                 // font load starts a new generation and re-places the labels once.
+                // r30: measuring before that, then again after, ran the whole
+                // measure twice on load (181 + 147 ms at 4x CPU). Until the first
+                // fonts.ready (capped at 3 s) labels place with the fixed box, and
+                // the ready and loadingdone triggers share one debounced redraw.
                 if (!window.__hmFontHook && document.fonts && document.fonts.addEventListener) {
                     window.__hmFontHook = true;
                     let _t = 0;
-                    document.fonts.addEventListener('loadingdone', () => {
+                    const _refont = () => {
                         clearTimeout(_t);
-                        _t = setTimeout(() => { window.__hmFontGen = (window.__hmFontGen || 0) + 1; window.__hmLabelFonts = null; try { if (typeof currentWord !== 'undefined') updateMarkers(currentWord); } catch (_) {} }, 150);
-                    });
-                }
+                        _t = setTimeout(() => { if (document.fonts.status === 'loading' && performance.now() < 3000) return; window.__hmFontsOK = true; window.__hmFontGen = (window.__hmFontGen || 0) + 1; window.__hmLabelFonts = null; try { if (typeof currentWord !== 'undefined') updateMarkers(currentWord); } catch (_) {} }, 150);
+                    };
+                    document.fonts.addEventListener('loadingdone', _refont);
+                    document.fonts.addEventListener('loadingerror', _refont);
+                    // after this pass's labels are in the DOM, so their fonts are requested
+                    setTimeout(() => {
+                        Promise.race([document.fonts.ready, new Promise((r) => setTimeout(r, 3000))]).then(_refont);
+                    }, 0);
+                } else if (!document.fonts || !document.fonts.addEventListener) window.__hmFontsOK = true;
                 const _hw = {};
-                {
+                if (window.__hmFontsOK) {
                     const miss = _rendered.filter(c => !_hwCache.has(c + _hwKey));
                     if (miss.length) {
                         try {
@@ -8544,12 +8554,46 @@
                             }
                             const ctx = window.__hmMeasureCtx || (window.__hmMeasureCtx = document.createElement('canvas').getContext('2d'));
                             const dom = [];
+                            // r30: the name (and period) line is the same for every
+                            // character and usually the widest, so it is measured
+                            // once per font + text and goes first; a reading line
+                            // whose generous upper bound (1.05 em per wide char,
+                            // 1 em per capital / non-ASCII, 0.65 em otherwise) cannot
+                            // beat the widest line so far, or the fixed box, is skipped.
+                            const _nmW = window.__hmNameW || (window.__hmNameW = new Map());
+                            const _px = {};
+                            const _ub = (s, f) => {
+                                const px = _px[f] || (_px[f] = parseFloat((/([\d.]+)px/.exec(f) || [0, 16])[1]));
+                                let u = 0;
+                                for (const ch of s) {
+                                    const cp = ch.codePointAt(0);
+                                    u += cp >= 0x1100 ? 1.05 : (cp < 0x80 && !/[A-Z@mwMW%]/.test(ch)) ? 0.65 : 1;
+                                }
+                                return u * px;
+                            };
+                            const _floor = 2 * (_bbHalfW + 2) - F.padX;
+                            let _cf = '';
+                            const _mt = (f, s) => { if (f !== _cf) { ctx.font = f; _cf = f; } return ctx.measureText(s).width; };
                             roots.forEach((r, i) => {
                                 if (r.classList.contains('vertical') || needSample(r)) { dom.push(i); return; }
                                 let w = 0;
-                                for (const ch of r.children) { ctx.font = F.font[ch.className]; w = Math.max(w, ctx.measureText(ch.textContent).width); }
+                                const kids = Array.from(r.children);
+                                for (const ch of kids) {
+                                    if (ch.className !== 'name' && ch.className !== 'period') continue;
+                                    const f = F.font[ch.className], s = ch.textContent, k = (window.__hmFontGen || 0) + '\u0001' + f + '\u0001' + s;
+                                    let nw = _nmW.get(k);
+                                    if (nw === undefined) { nw = _mt(f, s); _nmW.set(k, nw); }
+                                    w = Math.max(w, nw);
+                                }
+                                for (const ch of kids) {
+                                    if (ch.className === 'name' || ch.className === 'period') continue;
+                                    const f = F.font[ch.className], s = ch.textContent;
+                                    if (_ub(s, f) <= Math.max(w, _floor)) continue;
+                                    w = Math.max(w, _mt(f, s));
+                                }
                                 _hwCache.set(miss[i] + _hwKey, (w + F.padX) / 2 - 2);
                             });
+                            if (_nmW.size > 4000) _nmW.clear();
                             if (dom.length) toDom(dom, (el, i) => _hwCache.set(miss[i] + _hwKey, el.offsetWidth / 2 - 2));
                             if (_hwCache.size > 4000) _hwCache.clear();
                         } catch (_) {}
@@ -9009,7 +9053,9 @@
             try {
                 const _st = history.state || {};
                 if (_closePushed) { _hmBackRewrite = true; history.back(); }
-                else if (_push) history.pushState(_g ? { hmGame: _g } : (opts.state || null), '', hash);
+                // A game over the language panel keeps the panel's mark, so Forward
+                // onto it reopens the game instead of reading "panel left" (r30).
+                else if (_push) history.pushState(_g ? { hmGame: _g, hmPanel: _hmPanelEntry ? 1 : undefined } : (opts.state || null), '', hash);
                 else          history.replaceState((_g && _st.hmGame === _g) || (_st.hmPanel && _hmPanelEntry) ? _st : null, '', hash);
             } catch (e) { location.hash = hash; }
         }
@@ -9126,6 +9172,20 @@
                 window.__langmap.uiLang = uiLang;
                 window.dispatchEvent(new CustomEvent('langmap:uichange', { detail: { uiLang } }));
                 applyUILang();
+                // The names file for a linked ui= (the SEO "open in app" link,
+                // an English browser) was never fetched, so labels fell back to
+                // bracketed reading-type text (r30). Same as the menu handler.
+                // Only when the slice is missing: every #w= switch carries ui=,
+                // and an unconditional repaint cost a second full render (~120 ms).
+                const _lnHave = window.LANG_NAMES && window.LANG_NAMES[uiLang] && Object.keys(window.LANG_NAMES[uiLang]).length > 50;
+                if (!_lnHave && typeof window.__ensureLangNames === 'function') {
+                    const _ui = uiLang;
+                    window.__ensureLangNames(_ui).then(() => {
+                        if (uiLang !== _ui) return;
+                        applyUILang();
+                        if (typeof currentWord !== 'undefined') updateMarkers(currentWord);
+                    });
+                }
             }
             // Fetch trivia translation overlay for the resolved uiLang (initial
             // load — also retriggered when the user picks a different uiLang).
@@ -9224,7 +9284,7 @@
             {
                 const _st = history.state || {};
                 const _ip = document.getElementById('lang-info');
-                const leavingPanel = _hmPanelEntry && _ip && _ip.classList.contains('visible') && !_st.hmPanel;
+                const leavingPanel = _hmPanelEntry && _ip && _ip.classList.contains('visible') && !_st.hmPanel && !_st.hmGame;
                 const leavingGame = !!window.__hmOpenGame && !_st.hmGame && !new URLSearchParams(location.hash.slice(1)).get('play');
                 if (leavingPanel || leavingGame) {
                     _applyingHashState = true;
@@ -9274,7 +9334,10 @@
         // need not draw it again (r22 perf: ~0.5 s per zoom step on a phone).
         let _zoomDrawnView = null;
         const _viewKey = () => { const c = map.getCenter(); return map.getZoom() + ',' + c.lat.toFixed(5) + ',' + c.lng.toFixed(5); };
-        map.on('zoomend', () => { updateMarkers(currentWord); _zoomDrawnView = _viewKey(); updateHash(); updateSelectedLabel(); scheduleConnectorUpdate(); });
+        // updateZoomClass first: the label widths are keyed on (and measured in)
+        // the zoom-far/mid/close fonts, and its own zoomend listener is only
+        // registered further down, so the redraw used the old class (r30).
+        map.on('zoomend', () => { if (typeof updateZoomClass === 'function') updateZoomClass(); updateMarkers(currentWord); _zoomDrawnView = _viewKey(); updateHash(); updateSelectedLabel(); scheduleConnectorUpdate(); });
         // moveend re-runs updateMarkers so the viewport-scoped pin cap
         // (selectByPriority) re-evaluates which langs are in the visible
         // area. Without this, after panning, dropped pins stay dropped
@@ -9373,7 +9436,7 @@
         // can be restored on close. document.activeElement at close time is
         // unreliable because Leaflet markers are recreated on every render.
         let _lastDialogOpener = null;
-        function closeInfoPanel() {
+        function closeInfoPanel(opts) {
             infoPanel.classList.remove('visible');
             // Clear dataset.code so the open-language state is consistent
             // (per wordmap-check-4.md §19).
@@ -9381,7 +9444,8 @@
             updateSelectedLabel();
             updateConnectorLine();
             const _applying = window.__langmap && window.__langmap.isApplyingHash && window.__langmap.isApplyingHash();
-            if (_hmPanelEntry && !_applying && history.state && history.state.hmPanel) { _hmPanelEntry = false; _hmBackRewrite = true; history.back(); }
+            // noStep: Trivia replaces the panel and takes its entry (r30).
+            if (_hmPanelEntry && !_applying && !(opts && opts.noStep) && history.state && history.state.hmPanel && !history.state.hmGame) { _hmPanelEntry = false; _hmBackRewrite = true; history.back(); }
             else { _hmPanelEntry = false; updateHash(); }  // remove `lang` param from URL
             // Audit Task 137: restore focus to the opener if still in DOM.
             // Falls back to language search input if opener has been removed.
@@ -9679,7 +9743,7 @@
             // word atoms arrived: "Hong Kong SAR", "Japan" … stayed English (r25).
             if (typeof META_I18N === 'undefined') window.META_I18N = {};
             if (!_metaEnginePromise) _metaEnginePromise = _hmInject('meta_i18n_engine.js?v=1');
-            _metaI18nByUi[ui] = Promise.all([_metaEnginePromise, _hmInject('meta_i18n/' + ui + '.js?v=9')]);
+            _metaI18nByUi[ui] = Promise.all([_metaEnginePromise, _hmInject('meta_i18n/' + ui + '.js?v=10')]);
             return _metaI18nByUi[ui];
         }
         window.loadMetaI18n = loadMetaI18n;
@@ -12780,6 +12844,11 @@
             // language modal / compare panel / blinks / spotlight from
             // before. No snapshot is taken; on close the map simply
             // stays wherever the article left it.
+            // Opened over the language panel: Trivia replaces it and takes its
+            // entry; the panel's step back closed Trivia at once (r30).
+            const _takePanel = !fromHash && !_tmWasOpen && _hmPanelEntry && infoPanel.classList.contains('visible')
+                && history.state && history.state.hmPanel;
+            if (_takePanel) closeInfoPanel({ noStep: true });
             _resetTriviaSurface();
             // If no specific article requested, show the index. If a
             // requested id matches an article, open that. Otherwise
@@ -12807,7 +12876,7 @@
             // Its one history entry comes from the shared helper (_triviaHist
             // below), taken before the URL write so the entry under it keeps the
             // plain map URL. fromHash: Back/Forward or a shared link restoring it.
-            if (!fromHash && !_tmWasOpen && _triviaHist) _triviaHist.opened();
+            if (!fromHash && !_tmWasOpen && _triviaHist) _triviaHist.opened(_takePanel ? { take: true } : undefined);
             if (typeof updateHash === 'function') updateHash();
         }
         function navigateTrivia(id) {
@@ -12904,7 +12973,8 @@
             return window.__lmOverlay('trivia', { el: m, attrs: ['class'],
                 isOpen: () => m.classList.contains('visible'),
                 close: () => closeTrivia(),
-                open: () => openTrivia(m._lmLast && m._lmLast !== 'index' ? m._lmLast : undefined, { fromHash: true }) });
+                // The article in the entry's URL first: a reload wipes _lmLast (r30).
+                open: () => { const t = new URLSearchParams(location.hash.slice(1)).get('trivia') || m._lmLast; return openTrivia(t && t !== 'index' ? t : undefined, { fromHash: true }); } });
         })();
 
         // 2D / 3D aware "fly to" — Leaflet on the 2D map, globe.gl

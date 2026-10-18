@@ -295,18 +295,40 @@
         }
         return took;
     }
-    function lmhOpened(id) {
-        if (LMH.quiet) return;
+    // take: the overlay replaces a page panel whose own entry is the current one
+    // (Trivia over the language panel), so it takes that entry instead of going
+    // above it. With a closing overlay above that entry (the phone menu), its
+    // step back runs first and the overlay takes the entry it lands on (r30).
+    function lmhOpened(id, take) {
+        if (LMH.quiet || LMH.takeOnLand === id) return;
         if (lmhPending[id]) { clearTimeout(lmhPending[id]); delete lmhPending[id]; return; }   // closed and reopened in one task (popup A -> B): keep the entry
         if (LMH.stack.indexOf(id) >= 0) return;
-        var reuse = lmhTakeClosingTop();   // phone menu -> Trivia: Trivia takes the menu's entry
+        if (take) {
+            var cur0 = history.state || {}, top = LMH.stack[LMH.stack.length - 1], ot = top && LMH.reg[top];
+            if (top && (lmhPending[top] || (ot && !ot.isOpen())) && cur0.lmN != null && LMH.ovN[top] === cur0.lmN) {
+                LMH.takeOnLand = id;
+                setTimeout(function () { if (LMH.takeOnLand === id) { LMH.takeOnLand = null; lmhOpened(id); } }, 1500);
+                return;
+            }
+        }
+        // Reopened after a reload (or a return from another page) on the entry
+        // that was its own: take that entry back instead of pushing a second one,
+        // which left a dead Back (r30).
+        var ri = LMH.restore && (history.state || {}).lmN === LMH.restoreN ? LMH.restore.indexOf(id) : -1;
+        if (ri >= 0) LMH.restore.splice(ri, 1);
+        var reuse = lmhTakeClosingTop() || !!take || ri >= 0;   // phone menu -> Trivia: Trivia takes the menu's entry
         LMH.stack.push(id);
+        if (ri >= 0) {
+            var ord = function (x) { var k = LMH.restoreAll.indexOf(x); return k < 0 ? 1e9 : k; };
+            LMH.stack.sort(function (a, b) { return ord(a) - ord(b); });
+        }
         try {
             var s = Object.assign({}, history.state || {}, { lmOv: LMH.stack.slice() });
             LMH.fresh = false;
             if (reuse) { s.lmN = LMH.n; LMH._rep(s, '', location.href); }
             else { s.lmN = ++LMH.n; LMH._push(s, '', location.href); }
-            LMH.ovN[id] = LMH.n;
+            // A restored overlay below the top one has its own entry under this one.
+            LMH.ovN[id] = ri >= 0 ? LMH.n - (LMH.restoreAll.length - 1 - LMH.restoreAll.indexOf(id)) : LMH.n;
         } catch (_) {}
     }
     function lmhSelfGo(d) {
@@ -340,7 +362,7 @@
                 .observe(o.el, { attributes: true, attributeFilter: o.attrs || ['class', 'hidden', 'style', 'open'] });
             if (was) lmhOpened(id);
         }
-        return { opened: function () { lmhOpened(id); }, closed: function () { lmhClosed(id); } };
+        return { opened: function (o) { lmhOpened(id, !!(o && o.take)); }, closed: function () { lmhClosed(id); } };
     };
     window.__lmPopHandled = false;
     window.addEventListener('popstate', function () {
@@ -348,7 +370,7 @@
         LMH.lastURL = location.href;
         var st = history.state || {};
         var want = st.lmOv || [];
-        LMH.fresh = false;
+        LMH.fresh = false; LMH.restore = null;
         var self = LMH.selfBack > 0; if (self) LMH.selfBack--;
         // Direction from the entries' places; an entry without one is new (the
         // reader edited the hash): number it after the current one.
@@ -364,6 +386,7 @@
             }
             for (var j = 0; j < want.length; j++) {
                 if (LMH.stack.indexOf(want[j]) >= 0) continue;
+                if (want[j] === 'about' && !LMH.reg.about && typeof creditHist === 'function') creditHist();   // registered on first open
                 var o2 = LMH.reg[want[j]];
                 if (o2 && o2.isOpen()) continue;   // open already: just track it
                 // Forward reopens an overlay. Back never does: an entry naming an
@@ -372,7 +395,10 @@
                 // An open() that returns false could not reopen it (its marker is gone).
                 var ok = false;
                 if (dir > 0 && o2 && o2.open) { try { ok = o2.open() !== false; } catch (_) { ok = false; } }
-                if (ok) changed = true; else stale.push(want[j]);
+                // Reopened under LMH.quiet, so lmhOpened did not note its entry:
+                // its own × then left a dead Back (r30). One entry per overlay,
+                // the top one on this entry.
+                if (ok) { changed = true; LMH.ovN[want[j]] = LMH.n - (want.length - 1 - j); } else stale.push(want[j]);
             }
         } finally { LMH.quiet = false; }
         LMH.stack = want.filter(function (x) { return stale.indexOf(x) < 0; });
@@ -388,6 +414,14 @@
             return;
         }
         if (stale.length) { try { LMH._rep(Object.assign({}, st, { lmOv: ovList() }), '', location.href); } catch (_) {} }
+        // The step back a taking overlay waited for (lmhOpened take) has landed.
+        if (LMH.takeOnLand && LMH.selfBack === 0) {
+            var tid = LMH.takeOnLand, to = LMH.reg[tid]; LMH.takeOnLand = null;
+            if (to && to.isOpen() && LMH.stack.indexOf(tid) < 0) {
+                LMH.stack.push(tid); LMH.ovN[tid] = LMH.n; changed = true;
+                try { LMH._rep(Object.assign({}, history.state || {}, { lmOv: ovList() }), '', location.href); } catch (_) {}
+            }
+        }
         if (!changed) return;
         // An overlay opened or closed: the content under it stays as it is now.
         // Put the live URL back on this entry and tell the page not to re-apply
@@ -403,12 +437,40 @@
     window.__lmPopSkip = function () { return window.__lmPopHandled || (window.__lmSkipHash != null && window.__lmSkipHash === location.hash); };
     // An entry carrying overlays that are not open (reload, or back from a link
     // followed inside one): drop the marker so it is not a dead step (r28).
+    // Its overlays are put back on it: the ones the URL restores (cmp=, trivia=)
+    // or the browser restores (a checked drawer box) take it back when they open
+    // (lmhOpened); the rest are reopened once the page has settled. Leaving the
+    // entry plain made one Back dead, as it sat over an entry with the same
+    // screen (r30).
     try {
         var st0 = Object.assign({}, history.state || {});
         if (st0.lmN != null) LMH.n = st0.lmN; else st0.lmN = LMH.n;
+        if (st0.lmOv && st0.lmOv.length) { LMH.restore = st0.lmOv.slice(); LMH.restoreAll = st0.lmOv.slice(); LMH.restoreN = st0.lmN; }
         delete st0.lmOv;
         LMH._rep(st0, '', location.href);
     } catch (_) {}
+    (function () {
+        if (!LMH.restore) return;
+        // Open already (a drawer box the browser put back): track it.
+        var track = function () {
+            (LMH.restore || []).slice().forEach(function (id) { var o = LMH.reg[id]; if (o && o.isOpen() && LMH.stack.indexOf(id) < 0) lmhOpened(id); });
+        };
+        var rest = function () {
+            track();
+            var ids = (LMH.restore || []).slice();
+            for (var i = 0; i < ids.length; i++) {
+                if (ids[i] === 'about' && !LMH.reg.about && typeof creditHist === 'function') creditHist();   // registered on first open
+                var o = LMH.reg[ids[i]];
+                if (!o || !o.open || o.isOpen() || LMH.stack.indexOf(ids[i]) >= 0) continue;
+                try { o.open(); } catch (_) {}
+            }
+            // Whatever could not reopen leaves the entry plain; a later open pushes.
+            setTimeout(function () { LMH.restore = null; }, 4000);
+        };
+        var start = function () { setTimeout(track, 0); setTimeout(rest, 1200); };
+        if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start();
+        window.addEventListener('load', track);
+    })();
     window.addEventListener('pageshow', function (e) { if (e.persisted) { LMH.stack = (history.state && history.state.lmOv) || []; if (history.state && history.state.lmN != null) LMH.n = history.state.lmN; } });
     // A landing that opens an overlay from the URL (a shared #play=, #lang=,
     // #trivia= link) gets an entry under it, the same URL without those keys, so
@@ -455,6 +517,9 @@
                 open: function () { cb.checked = true; cb.dispatchEvent(new Event('change', { bubbles: true })); }
             });
             cb.addEventListener('change', function () { if (cb.checked) h.opened(); else h.closed(); });
+            // Checked already: the browser put the box back (Back from a link
+            // followed in the phone menu). Untracked, it cost a dead Back (r30).
+            if (cb.checked) h.opened();
         })(bs[i]);
     }
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', registerDrawers); else registerDrawers();
@@ -610,6 +675,11 @@
         var cp = document.getElementById('compare-panel'); if (cp && cp.classList.contains('visible')) return;
         try { if (localStorage.getItem('lm_taphint')) return; } catch (_) { return; }
         var map = document.getElementById('map'); if (!map) return;
+        // Not over an open phone menu or dialog (it covered the UI-language
+        // select): try again later, at most 10 times (r30).
+        var busy = document.querySelector('.hamburger-btn[aria-expanded="true"]');
+        if (!busy) { var ms = document.querySelectorAll('[aria-modal="true"]'); for (var mi = 0; mi < ms.length; mi++) { if (ms[mi].getClientRects().length && !ms[mi].hidden && getComputedStyle(ms[mi]).visibility !== 'hidden') { busy = ms[mi]; break; } } }
+        if (busy) { tapHint._n = (tapHint._n || 0) + 1; if (tapHint._n <= 10) setTimeout(tapHint, 3000); return; }
         var l = String(document.documentElement.lang || 'en').toLowerCase().replace('-', '_'), b = l === 'zh_hk' ? 'yue' : l.split('_')[0];
         var box = document.createElement('div'), x = document.createElement('button');
         box.setAttribute('role', 'note');
@@ -621,7 +691,7 @@
         box.appendChild(t); box.appendChild(x); document.body.appendChild(box);
         var mo = null;
         var done = function () { box.remove(); try { localStorage.setItem('lm_taphint', '1'); } catch (_) {} document.removeEventListener('click', onClick, true); document.removeEventListener('keydown', onKey, true); document.removeEventListener('focusin', onFocus, true); if (mo) mo.disconnect(); };
-        var onClick = function (e) { if (e.target === x || (e.target.closest && e.target.closest('.lang-label, .globe-label'))) done(); };
+        var onClick = function (e) { if (e.target === x || (e.target.closest && e.target.closest('.lang-label, .globe-label, .hamburger-btn'))) done(); };
         document.addEventListener('click', onClick, true);
         // Keyboard users: it must not sit over a focused control (2.4.11); Escape or
         // focus leaving the map dismisses it (r23).

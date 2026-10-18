@@ -67,7 +67,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=166">
+    <link rel="stylesheet" href="styles.css?v=167">
     <link rel="stylesheet" href="/vendor/leaflet-1.9.4/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -292,6 +292,10 @@
             box-shadow: 0 2px 6px rgba(0,0,0,0.2);
         }
         /* Label lines on/off (owner, r28): native date, weekday, translation, calendar name. */
+        /* Landscape phones: the four line toggles ran the pop past the screen
+           bottom with no scroll (r30). JS caps max-height to what is left. */
+        #tm-settings-pop { overflow-y: auto; overscroll-behavior: contain; justify-content: flex-start; }
+        #tm-settings-pop > * { flex-shrink: 0; }
         .tm-show-sep { width: 80%; height: 1px; background: #e0e0e0; margin: 4px 0 2px; }
         .tm-show-btn { min-width: 64px; max-width: 92px; min-height: 30px; padding: 3px 6px; border: 1px solid #d0d0d0; border-radius: 15px; background: #fff; color: #9aa0a6; font: inherit; font-size: 10px; line-height: 1.15; cursor: pointer; text-align: center; overflow-wrap: anywhere; }
         .tm-show-btn[aria-pressed="true"] { background: #e8f0fe; border-color: #1a73e8; color: #1a56c4; font-weight: 600; }
@@ -354,6 +358,10 @@
             .tm-controls > * { pointer-events: auto; }
             /* the full-width era row ate taps on the gear below/beside it (r29) */
             .tm-controls > .tm-era-row { pointer-events: none; }
+            /* ≤340px wraps the date row onto two lines, and its full-width box then
+               ate taps on the gear in en/de/fr/ru… (r30, as the era row in r29) */
+            .tm-controls > .tm-date-row { pointer-events: none; }
+            .tm-date-row > * { pointer-events: auto; }
             .tm-era-row > * { pointer-events: auto; }
             /* RTL puts the era pill at the right, under the gear: keep it clear (r29) */
             .tm-panel[dir="rtl"] .tm-era-row { margin-inline-start: 56px; }
@@ -406,7 +414,7 @@
 
         .leaflet-popup-close-button { width: 40px !important; height: 40px !important; font-size: 24px !important; line-height: 38px !important; }   /* 24px was hard to tap (r27) */
 </style>
-    <script src="nav-short.js?v=39"></script>
+    <script src="nav-short.js?v=40"></script>
 </head>
 <body>
     <header class="site-header-bar">
@@ -1016,7 +1024,10 @@
             document.getElementById('tm-zoom-out').addEventListener('click', ()=>map.zoomOut());
             const setBtn=document.getElementById('tm-settings-btn'), pop=document.getElementById('tm-settings-pop');
             setBtn.addEventListener('click', e=>{ e.stopPropagation(); const open=pop.hasAttribute('hidden');
-                if(open) pop.removeAttribute('hidden'); else pop.setAttribute('hidden',''); setBtn.setAttribute('aria-expanded', open?'true':'false'); });
+                if(open) pop.removeAttribute('hidden'); else pop.setAttribute('hidden',''); setBtn.setAttribute('aria-expanded', open?'true':'false'); if(open) fitSetPop(); });
+            // Cap the pop to the viewport below its own top (landscape phones, r30).
+            const fitSetPop=()=>{ if(pop.hasAttribute('hidden')) return; pop.style.maxHeight=''; const r=pop.getBoundingClientRect(), vh=(window.visualViewport&&window.visualViewport.height)||window.innerHeight; pop.style.maxHeight=Math.max(96, Math.floor(vh-r.top-24))+'px'; };   // 24: clear the attribution line too
+            window.addEventListener('resize', fitSetPop);
             document.addEventListener('click', e=>{ if(!pop.hasAttribute('hidden') && !pop.contains(e.target) && !setBtn.contains(e.target)){ pop.setAttribute('hidden',''); setBtn.setAttribute('aria-expanded','false'); } });
             // Escape closes the popover (one layer: on window, so before the sheet's handler).
             window.addEventListener('keydown', e=>{

@@ -119,10 +119,39 @@ const DECISIONS = [
     },
     {
         id: 'partial-word-dialect-parity',
-        what: 'Partial words keep dialect parity: a variety row has its own cell where its parent has one (owner 2026-07-11). lol skipped them (992be529); 116 cells added 2026-10-18',
+        what: 'Partial words keep dialect parity: a living variety row has its own cell where its parent has one (owner 2026-07-11). lol is complete; the older gaps in other partial words may only shrink (budget per word)',
         check: () => {
-            const l = read('words/lol.js');
-            return /only where the variety demonstrably/.test(l) || (l.match(/^\s*["']?\w+["']?:\s*\[/gm) || []).length < 200 ? ['words/lol.js'] : [];
+            const L = JSON.parse(read('data/wordmap_seo.json')).langs;
+            // Separate languages that only share a code prefix (Ryukyuan, Jejueo, Guinea-Bissau Kriol).
+            const SEP = new Set(['ja_oki', 'ja_mvi', 'ja_rys', 'ko_jeju', 'pt_gw']);
+            const BUDGET = { lol: 0, atsign: 29, blue: 5, cockcrow: 45, coffee: 25, computer: 8, cuckoo: 26, dopamine: 31, n99: 11, orange: 6, sugar: 11, sushi: 11, tea: 8, wifi: 25, woof: 29 };
+            const bad = [];
+            for (const f of fs.readdirSync(path.join(ROOT, 'words'))) {
+                if (!f.endsWith('.js') || !/partial:\s*true/.test(read('words/' + f))) continue;
+                const w = f.slice(0, -3), miss = [];
+                for (const [c, l] of Object.entries(L)) {
+                    const m = l.meta || {};
+                    if ((l.words && l.words[w]) || m.period || SEP.has(c)) continue;
+                    const p = m.parentCode || (c.includes('_') ? c.split('_')[0] : '');
+                    if (p && L[p] && L[p].words && L[p].words[w]) miss.push(c);
+                }
+                if (miss.length > (BUDGET[w] || 0)) bad.push(`words/${f} (${miss.length} > ${BUDGET[w] || 0}: ${miss.slice(0, 6).join(' ')})`);
+            }
+            if (/only where the variety demonstrably/.test(read('words/lol.js'))) bad.push('words/lol.js header');
+            return bad;
+        },
+    },
+    {
+        id: 'hanmap-names-everywhere',
+        what: 'The Han Map language pages and ui= links use the Han Map names (short, no brackets): the SEO export applies the hanmap.html override table, and ui= loads the names file (r30)',
+        check: () => {
+            const bad = [], L = JSON.parse(read('data/hanmap_seo.json')).langs;
+            const get = (c) => (Array.isArray(L) ? L.find((r) => r.code === c) : L[c]) || {};
+            if ((get('ko_mid').names || {}).ja !== '中世韓国語') bad.push('data/hanmap_seo.json ko_mid');
+            if ((get('zh_jh').names || {}).ja !== '揚州話') bad.push('data/hanmap_seo.json zh_jh');
+            for (const [c, r] of Object.entries(L)) for (const [ui, n] of Object.entries(r.names || {})) if (/[（(]/.test(n)) { bad.push('data/hanmap_seo.json ' + c + ' ' + ui); break; }
+            if (!/__ensureLangNames\(uiLang\)/.test(read('hanmap.html'))) bad.push('hanmap.html ui= branch');
+            return bad;
         },
     },
 ];

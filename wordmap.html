@@ -7367,7 +7367,11 @@
                 // Fine ring step (~6px) so a label nicked at the clearance
                 // edge settles just past it rather than a whole label-height
                 // away.
-                const _ringStep = Math.max(4, _ch * 0.13), _maxR = MAX_PUSH * 2.2;
+                // The budget grows with the label size, so at a large text size (fs=420)
+                // labels were placed 400-800px from their place (Suzhou Wu out at sea).
+                // Keep the on-screen distance of the normal size: a label that cannot
+                // fit near its place is hidden, not moved far away (owner, r27).
+                const _ringStep = Math.max(4, _ch * 0.13), _maxR = MAX_PUSH * 2.2 / Math.max(1, _geomScale);
                 for (const c of _rendered) {
                     const ax = ppx[c].x, ay = ppx[c].y, hw = _hw[c] || _bbHalfW, hh = _hh[c] || _bbHalfH;
                     let chosen = null;

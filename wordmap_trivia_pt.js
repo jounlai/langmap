@@ -185,7 +185,7 @@ window.TRIVIA_I18N['pt'] = {
 <p>Esenç compreendeu seu papel com clareza incomum. Memorizou provérbios, canções, orações, nomes de lugares e contos populares especificamente para que pudessem ser registrados. A pedra que traz essas palavras está no cemitério da aldeia de Hacıosman, e elas foram gravadas em turco — não na língua que celebram. O linguista norueguês <strong>Hans Vogt</strong> produziu o dicionário padrão, <em>Dictionnaire de la langue oubykh</em> (1963), cujos erros Dumézil depois corrigiu. <strong>Georges Charachidzé</strong>, colaborador de Dumézil, trabalhou com Esenç até o fim, e George Hewitt o gravou em Istambul em 1974. Junto com as edições de textos de Dumézil, esse trabalho deixou milhares de páginas e horas de áudio — o suficiente para Rhona Fenwick escrever uma gramática completa da língua em 2011, dezenove anos depois de ela silenciar.</p>
 
 <div class="trivia-actions">
-  <button type="button" class="trivia-action" data-action="panto" data-lat="40.50" data-lng="29.20" data-zoom="7">🕯️ Aproximar de Hacıosman, Turquia</button>
+  <button type="button" class="trivia-action" data-action="panto" data-lat="39.99" data-lng="27.81" data-zoom="7">🕯️ Aproximar de Hacıosman, Turquia</button>
 </div>
 
 <p>Hoje há pequenos grupos de ubykh étnicos na Turquia, Jordânia e Estados Unidos que estudam as gravações, tentam revitalização limitada e mantêm um senso de identidade por meio de organizações de solidariedade circassianas. Mas ninguém voltou a falá-lo fluentemente, com suas 84 consoantes e seus verbos densamente empilhados, e é pouco provável que alguém volte. O Ubykh continua sendo o caso clássico de uma língua que foi <strong>captada e descrita bem a tempo</strong> — e depois perdida de qualquer forma.</p>

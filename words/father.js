@@ -199,7 +199,7 @@ WORDS.father = {
     vi: ["bố", "ɓo˧˥"],
     vi_c: ["bọ", "ɓɔ˧˩"],
     vi_s: ["ba", "ɓaː˧"],
-    th: ["พ่อ", "pʰɔː˨˩"],
+    th: ["พ่อ", "pʰɔː˥˩"],
     id: ["ayah", "ajah"],
     ms: ["ayah", "ajah"],
     hi: ["पिता", "pɪtaː"],

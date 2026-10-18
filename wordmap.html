@@ -3738,8 +3738,8 @@
     })();
     </script>
     <script src="wordmap_data.js?v=345"></script>
-    <script src="lang_attention.js?v=1"></script>
-    <script src="word_manifest.js?v=963"></script>
+    <script src="lang_attention.js?v=2"></script>
+    <script src="word_manifest.js?v=964"></script>
     <script src="word_labels.js?v=71"></script>
     <script>
         /* Cache-buster registry. It MUST be declared here, above the per-word
@@ -3765,11 +3765,11 @@
             metaI18n:  17,
             filter:    59,
             names:   203,
-            meta:     419,
-            trivia:   44,
-            triviaI18n: 27,
-            words:      963,
-            langWords:    676,
+            meta:     420,
+            trivia:   45,
+            triviaI18n: 28,
+            words:      964,
+            langWords:    677,
             labels:      71,
             metaI18nCoverage: 11,
             metaI18nCoverage2: 2,
@@ -8303,10 +8303,24 @@
             } catch (_) {}
         };
         window.__langmap.clearSpotlight = function () { try { window.__langmap.setSpotlight([]); } catch (_) {} };
+        // Longitudes for framing a set of points: if the widest empty stretch
+        // is not across the antimeridian, shift the western points by +360 so
+        // Pacific sets (Rotokas, Hawaiian, Māori) are framed the short way
+        // instead of across Africa (r23).
+        window.__langmap.unwrapLngs = function (lngs) {
+            if (lngs.length < 2) return lngs.slice();
+            const sorted = lngs.slice().sort((x, y) => x - y);
+            let gap = sorted[0] + 360 - sorted[sorted.length - 1], cut = null;
+            for (let i = 1; i < sorted.length; i++) { const g = sorted[i] - sorted[i - 1]; if (g > gap) { gap = g; cut = sorted[i]; } }
+            if (cut === null) return lngs.slice();   // widest gap already spans the antimeridian
+            return lngs.map((l) => (l < cut ? l + 360 : l));
+        };
         // Frame a set of languages (Language Master's map mode shows the mastered ones).
         window.__langmap.fitCodes = function (codes) {
             try {
-                const pts = (codes || []).map(c => LANG_DATA[c]).filter(r => r && typeof r.lat === 'number').map(r => [r.lat, r.lng]);
+                const rows = (codes || []).map(c => LANG_DATA[c]).filter(r => r && typeof r.lat === 'number');
+                const ul = window.__langmap.unwrapLngs(rows.map(r => r.lng));
+                const pts = rows.map((r, i) => [r.lat, ul[i]]);
                 if (!pts.length || typeof map === 'undefined' || !map.fitBounds) return;
                 if (pts.length === 1) map.setView(pts[0], Math.max(map.getZoom(), 5));
                 else map.fitBounds(pts, { padding: [80, 80], maxZoom: 6 });
@@ -11399,10 +11413,12 @@
                         // 3D: compute centroid + a wide altitude so all
                         // points fit on the visible hemisphere.
                         const latC = points.reduce((s, d) => s + d.lat, 0) / points.length;
-                        const lngC = points.reduce((s, d) => s + d.lng, 0) / points.length;
+                        const _ul3 = window.__langmap.unwrapLngs(points.map(d => d.lng));
+                        const lngC = (((_ul3.reduce((s, l) => s + l, 0) / points.length) + 540) % 360) - 180;
                         _triviaFlyTo(latC, lngC, 3, 1000);
                     } else {
-                        const bounds = L.latLngBounds(points.map(d => [d.lat, d.lng]));
+                        const _ul = window.__langmap.unwrapLngs(points.map(d => d.lng));
+                        const bounds = L.latLngBounds(points.map((d, i) => [d.lat, _ul[i]]));
                         try { map.flyToBounds(bounds, { padding: [60, 60], maxZoom: 5, duration: 1.0 }); }
                         catch (_) { map.fitBounds(bounds, { padding: [60, 60], maxZoom: 5 }); }
                     }

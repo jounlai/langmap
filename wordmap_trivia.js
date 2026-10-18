@@ -433,7 +433,7 @@ const TRIVIA_ARTICLES = [
   <p>Esenç understood his role with unusual clarity. He memorised proverbs, songs, prayers, place names and folktales specifically so that they could be recorded. The stone that carries those words stands in the village cemetery at Hacıosman, and they are cut in Turkish — not in the language they commemorate. Norwegian linguist <strong>Hans Vogt</strong> produced the standard dictionary, <em>Dictionnaire de la langue oubykh</em> (1963), whose errors Dumézil later corrected. Dumézil's associate <strong>Georges Charachidzé</strong> worked with Esenç to the very end, and George Hewitt recorded him in Istanbul in 1974. Together with Dumézil's text editions, their work left thousands of pages and hours of audio, enough for Rhona Fenwick to write a full grammar of the language in 2011, nineteen years after it fell silent.</p>
   
   <div class="trivia-actions">
-    <button type="button" class="trivia-action" data-action="panto" data-lat="40.50" data-lng="29.20" data-zoom="7">🕯️ Zoom into Hacıosman, Turkey</button>
+    <button type="button" class="trivia-action" data-action="panto" data-lat="39.99" data-lng="27.81" data-zoom="7">🕯️ Zoom into Hacıosman, Turkey</button>
   </div>
   
   <p>Today there are small groups of ethnic Ubykh in Turkey, Jordan and the United States who study the recordings, attempt limited revitalisation, and maintain a sense of identity through Circassian solidarity organisations. But no one has learned to speak it fluently again, with its 84 consonants and its densely packed verbs, and it is unlikely anyone will. Ubykh remains the textbook case of a language that was <strong>caught and described just in time</strong>, and then lost anyway.</p>
@@ -467,7 +467,7 @@ const TRIVIA_ARTICLES = [
   <p>エセンチは自らの役割を異例の明晰さで理解していた。ことわざ、歌、祈り、地名、民話を意図的に記憶し、録音されるべき形で残した。その言葉を刻んだ石はハジオスマン村の墓地に立つ。彫られているのはウビフ語ではなく、トルコ語である。ノルウェーの言語学者<strong>ハンス・フォクト</strong>は標準的な辞典『ウビフ語辞典』（<em>Dictionnaire de la langue oubykh</em>、1963年）を編み、その誤りはのちにデュメジルが訂正した。デュメジルの協力者<strong>ジョルジュ・シャラシゼ</strong>は最後の最後までエセンチとともに仕事をし、ジョージ・ヒューイットは1974年にイスタンブールでエセンチを録音した。デュメジルのテキスト校訂と併せ、彼らの仕事は何千ページもの資料と何時間もの音声を残した。それがあったからこそ、ロナ・フェンウィックは、この言語が沈黙してから19年後の2011年に、ウビフ語の本格的な文法書を書き上げることができたのである。</p>
   
   <div class="trivia-actions">
-    <button type="button" class="trivia-action" data-action="panto" data-lat="40.50" data-lng="29.20" data-zoom="7">🕯️ ハジオスマン村へズーム</button>
+    <button type="button" class="trivia-action" data-action="panto" data-lat="39.99" data-lng="27.81" data-zoom="7">🕯️ ハジオスマン村へズーム</button>
   </div>
   
   <p>現在もトルコ、ヨルダン、アメリカに少数のウビフ系住民がおり、録音を学びチェルケス連帯運動を通じてアイデンティティを保っている。だが84の子音とぎっしり詰まった動詞を持つこの言語を、再び流暢に話せるようになった人はおらず、これからもまず現れないだろう。ウビフ語は<strong>「ぎりぎり間に合って記述され、それでも失われた言語」</strong>の教科書的事例である。</p>
@@ -1086,7 +1086,7 @@ const TRIVIA_ARTICLES = [
     <li><strong>chashmal</strong> (חשמל) — "electricity", a mysterious shining substance in Ezekiel's vision, put to modern use around 1880 by the poet Judah Leib Gordon. The choice was apt: the Greek word behind "electric" means amber, and <em>chashmal</em> has long been read as "amber" too.</li>
   </ul>
   
-  <p>He began the gigantic <em>Complete Dictionary of Ancient and Modern Hebrew</em>, 17 volumes in the end, which his widow Hemda, his son Ehud and the scholars they recruited, finally Naftali Herz Tur-Sinai, only completed in 1959, 37 years after his death,, and helped found the <strong>Va'ad ha-Lashon ha-Ivrit</strong> (Hebrew Language Committee, 1890), which became today's <strong>Academy of the Hebrew Language</strong> — still the official Israeli body that coins new vocabulary: <em>machshev</em> "computer" (from the root for "think, calculate"), and in 2016 <em>tag hakbatsa</em> for "hashtag".</p>
+  <p>He began the gigantic <em>Complete Dictionary of Ancient and Modern Hebrew</em>, 17 volumes in the end, which his widow Hemda, his son Ehud and the scholars they recruited, finally Naftali Herz Tur-Sinai, only completed in 1959, 37 years after his death, and helped found the <strong>Va'ad ha-Lashon ha-Ivrit</strong> (Hebrew Language Committee, 1890), which became today's <strong>Academy of the Hebrew Language</strong> — still the official Israeli body that coins new vocabulary: <em>machshev</em> "computer" (from the root for "think, calculate"), and in 2016 <em>tag hakbatsa</em> for "hashtag".</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="setword" data-word="hello" data-code="he">👋 See Hebrew "Hello"</button>

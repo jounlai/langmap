@@ -181,7 +181,7 @@ window.TRIVIA_I18N['zh'] = {
 <p>埃森奇异常清晰地理解了自己的角色。他刻意背诵谚语、歌曲、祈祷、地名与民间故事,以便它们能被记录下来。刻着这些话的石碑立在哈奇奥斯曼村的墓地里,碑文用的是土耳其语——并不是它所纪念的那门语言。挪威语言学家<strong>汉斯·福格特</strong>编纂了标准词典《Dictionnaire de la langue oubykh》(1963),杜梅泽尔后来订正了其中的错误。杜梅泽尔的同事<strong>乔治·沙拉希泽</strong>与埃森奇一直合作到最后,乔治·休伊特也于1974年在伊斯坦布尔为他录过音。他们的成果加上杜梅泽尔的文本编订,留下了数千页文字和数小时录音,足以让罗娜·芬威克在2011年——这门语言沉寂19年之后——写出一部完整的语法书。</p>
 
 <div class="trivia-actions">
-  <button type="button" class="trivia-action" data-action="panto" data-lat="40.50" data-lng="29.20" data-zoom="7">🕯️ 放大查看土耳其哈奇奥斯曼村</button>
+  <button type="button" class="trivia-action" data-action="panto" data-lat="39.99" data-lng="27.81" data-zoom="7">🕯️ 放大查看土耳其哈奇奥斯曼村</button>
 </div>
 
 <p>如今土耳其、约旦和美国仍有小群乌比赫族裔在研究录音,尝试有限的复兴,并通过切尔克斯人团结组织维持身份认同。但再也没有人重新学会流利地说它——它有84个辅音和塞得满满当当的动词——将来恐怕也不会有。乌比赫语仍然是教科书中那个<strong>"在最后一刻被记录下来——然后依然失去"</strong>语言的范例。</p>

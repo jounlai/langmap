@@ -383,7 +383,7 @@ window.TRIVIA_I18N['vi'] = {
 <p>Esenç hiểu vai trò của mình với sự rõ ràng bất thường. Ông đã ghi nhớ các câu tục ngữ, bài hát, lời cầu nguyện, tên địa danh và truyện dân gian cụ thể để chúng có thể được ghi âm. Tấm bia mang những dòng chữ ấy nằm trong nghĩa trang làng Hacıosman, và chúng được khắc bằng tiếng Thổ Nhĩ Kỳ — không phải bằng thứ tiếng mà chúng tưởng niệm. Nhà ngôn ngữ học người Na Uy <strong>Hans Vogt</strong> đã biên soạn cuốn từ điển tiêu chuẩn <em>Dictionnaire de la langue oubykh</em> (1963), mà về sau Dumézil đã đính chính các chỗ sai. Cộng sự của Dumézil là <strong>Georges Charachidzé</strong> làm việc với Esenç đến tận phút cuối, còn George Hewitt đã ghi âm ông ở Istanbul năm 1974. Cùng với các bản biên tập văn bản của Dumézil, công sức của họ để lại hàng nghìn trang giấy và hàng giờ băng ghi âm, đủ để Rhona Fenwick viết trọn một cuốn ngữ pháp của ngôn ngữ này vào năm 2011, mười chín năm sau khi nó lặng tiếng.</p>
 
 <div class="trivia-actions">
-  <button type="button" class="trivia-action" data-action="panto" data-lat="40.50" data-lng="29.20" data-zoom="7">🕯️ Phóng to vào Hacıosman, Thổ Nhĩ Kỳ</button>
+  <button type="button" class="trivia-action" data-action="panto" data-lat="39.99" data-lng="27.81" data-zoom="7">🕯️ Phóng to vào Hacıosman, Thổ Nhĩ Kỳ</button>
 </div>
 
 <p>Ngày nay có những nhóm nhỏ người dân tộc Ubykh ở Thổ Nhĩ Kỳ, Jordan và Hoa Kỳ học các bản ghi âm, nỗ lực tái sinh hạn chế, và duy trì cảm thức bản sắc thông qua các tổ chức đoàn kết Circassian. Nhưng chưa ai học lại được cách nói nó trôi chảy, với 84 phụ âm và những động từ dày đặc ấy, và có lẽ sẽ chẳng ai làm được. Ubykh vẫn là trường hợp sách giáo khoa của một ngôn ngữ được <strong>bắt và mô tả vừa kịp lúc</strong> — và rồi vẫn bị mất.</p>

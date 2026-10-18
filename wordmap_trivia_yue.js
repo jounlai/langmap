@@ -184,7 +184,7 @@ window.TRIVIA_I18N['yue'] = {
   <p>埃森奇異常清晰咁理解自己嘅角色。佢特登背低諺語、歌曲、祈禱詞、地名同民間故事,專門為咗錄音保留。刻住呢啲字嘅石碑,就企喺哈吉奧斯曼村嘅墳場度;刻嘅係土耳其文,唔係佢所紀念嘅嗰隻語言。挪威語言學家<strong>漢斯·沃格特</strong>編纂咗標準詞典《Dictionnaire de la langue oubykh》(1963),當中嘅錯誤後來由杜梅齊爾修正。杜梅齊爾嘅同事<strong>喬治·沙拉希澤</strong>(Georges Charachidzé)同埃森奇一直合作到最後,喬治·休伊特亦喺1974年喺伊斯坦堡為佢錄音。佢哋嘅成果連同杜梅齊爾嘅文本編訂,留低咗幾千頁文字同好多個鐘頭嘅錄音,多到足夠畀羅娜·芬威克喺2011年——呢隻語言沉寂十九年之後——寫出一部完整嘅文法書。</p>
 
   <div class="trivia-actions">
-    <button type="button" class="trivia-action" data-action="panto" data-lat="40.50" data-lng="29.20" data-zoom="7">🕯️ 放大睇土耳其哈吉奧斯曼</button>
+    <button type="button" class="trivia-action" data-action="panto" data-lat="39.99" data-lng="27.81" data-zoom="7">🕯️ 放大睇土耳其哈吉奧斯曼</button>
   </div>
 
   <p>今日喺土耳其、約旦同美國仲有細小嘅烏比克族群,研究錄音、嘗試有限嘅復興、透過切爾克斯團結組織維持身份認同。但冇人再學識流利講呢隻有84個輔音、動詞密密麻麻嘅語言,亦好可能永遠都唔會有。烏比克語係教科書上嘅典型案例——一隻<strong>剛好被記錄落來、然後仍然失去</strong>嘅語言。</p>

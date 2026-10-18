@@ -3263,9 +3263,9 @@ const SPEAKER_COUNT_OVERLAY = {
         notes: 'L1 ≈ 80M; L2 ≈ 240M (Africa francophonie + Europe)',
     },
     de: {
-        l1: 130_000_000, range: 'point',
+        l1: 75_000_000, total: 134_000_000, range: 'point',
         year: 2024, source: 'Ethnologue 27',
-        notes: 'L1; L2 ≈ 80M additional (mostly EU)',
+        notes: 'L1 ~75M; ~134M with L2 (r23: 130M had been stored as L1)',
     },
     it: {
         l1: 65_000_000, range: 'range', rangeMin: 60_000_000, rangeMax: 85_000_000,
@@ -3308,9 +3308,9 @@ const SPEAKER_COUNT_OVERLAY = {
         notes: 'aggregate across Modern Standard Arabic + regional colloquials; MSA itself has near-zero L1',
     },
     hi: {
-        l1: 600_000_000, range: 'point',
+        l1: 345_000_000, total: 609_000_000, range: 'point',
         year: 2024, source: 'Ethnologue 27',
-        notes: 'L1 estimate; intelligibility with Urdu raises shared Hindustani total to ~700M',
+        notes: 'L1 ~345M, ~609M with L2; with Urdu the shared Hindustani total is larger',
     },
     sw: {
         total: 100_000_000, range: 'point', l1RangeMin: 15_000_000, l1RangeMax: 20_000_000,
@@ -3344,9 +3344,9 @@ const SPEAKER_COUNT_OVERLAY = {
         notes: 'effectively all L1; tiny L2 community',
     },
     th: {
-        l1: 60_000_000, range: 'point',
+        l1: 20_800_000, total: 61_000_000, range: 'point',
         year: 2024, source: 'Ethnologue 27',
-        notes: 'L1; ~10M additional speak Thai as L2 in Thailand',
+        notes: 'L1 ~20.8M (Central Thai); ~61M with L2',
     },
     id: {
         total: 200_000_000, range: 'point', l1RangeMin: 25_000_000, l1RangeMax: 40_000_000,
@@ -4117,7 +4117,7 @@ const SPEAKER_COUNT_OVERLAY = {
     tk: { l1: 7_000_000, range: 'point', year: 2024, source: 'Ethnologue 27' },
     tkl: { l1: 2000, range: 'point', year: 2024, source: 'Ethnologue 27' },
     tkr: { l1: 13_000, range: 'point', year: 2024, source: 'Ethnologue 27', notes: 'Russia ~10K + Azerbaijan ~3K' },
-    tl: { l1: 82_000_000, range: 'point', year: 2024, source: 'Ethnologue 27', notes: 'total' },
+    tl: { l1: 29_000_000, total: 82_000_000, range: 'point', year: 2024, source: 'Ethnologue 27' },
     tll: { l1: 750_000, range: 'point', year: 2024, source: 'Ethnologue 27' },
     tly: { l1: 900_000, range: 'point', year: 2024, source: 'Ethnologue 27' },
     tmh: { l1: 1_600_000, range: 'point', year: 2024, source: 'Ethnologue 27', notes: 'across Tuareg varieties' },
@@ -4155,7 +4155,7 @@ const SPEAKER_COUNT_OVERLAY = {
     umb: { l1: 6_000_000, range: 'point', year: 2024, source: 'Ethnologue 27' },
     umu: { l1: 2, range: 'point', year: 2024, source: 'Ethnologue 27', vitality: 'critically-endangered', notes: 'critically endangered, heritage revival ongoing' },
     unr: { l1: 1_600_000, range: 'point', year: 2024, source: 'Ethnologue 27' },
-    ur: { l1: 230_000_000, range: 'point', year: 2024, source: 'Ethnologue 27' },
+    ur: { l1: 78_000_000, total: 232_000_000, range: 'point', year: 2024, source: 'Ethnologue 27' },
     urh: { l1: 550_000, range: 'point', year: 2024, source: 'Ethnologue 27' },
     usp: { l1: 5000, range: 'point', year: 2024, source: 'Ethnologue 27', vitality: 'definitely-endangered', notes: 'endangered — UNESCO definitely endangered; intergenerational transmission challenged but functional in core Uspantán community' },
     uz: { l1: 35_000_000, range: 'point', year: 2024, source: 'Ethnologue 27' },

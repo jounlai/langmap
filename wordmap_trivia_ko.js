@@ -181,7 +181,7 @@ window.TRIVIA_I18N['ko'] = {
 <p>에센치는 자신의 역할을 비범한 명료함으로 이해했다. 속담, 노래, 기도, 지명, 민담을 일부러 기억해 두어 녹음될 수 있게 했다. 그 말을 새긴 비석은 하즈오스만 마을 묘지에 서 있다. 새겨진 것은 우비흐어가 아니라 터키어다. 표준 사전 <em>Dictionnaire de la langue oubykh</em>(1963)를 펴낸 것은 노르웨이 언어학자 <strong>한스 포크트</strong>였고, 그 오류는 나중에 뒤메질이 바로잡았다. 뒤메질의 동료 <strong>조르주 샤라시제</strong>는 마지막까지 에센치와 함께 작업했고, 조지 휴잇은 1974년 이스탄불에서 그를 녹음했다. 뒤메질의 텍스트 편찬과 함께 이들의 작업은 수천 쪽의 자료와 몇 시간 분량의 음성을 남겼다. 덕분에 로나 펜윅은 이 언어가 침묵한 지 19년 뒤인 2011년에 온전한 문법서를 쓸 수 있었다.</p>
 
 <div class="trivia-actions">
-  <button type="button" class="trivia-action" data-action="panto" data-lat="40.50" data-lng="29.20" data-zoom="7">🕯️ 터키 하즈오스만 확대</button>
+  <button type="button" class="trivia-action" data-action="panto" data-lat="39.99" data-lng="27.81" data-zoom="7">🕯️ 터키 하즈오스만 확대</button>
 </div>
 
 <p>오늘날에도 터키, 요르단, 미국에 소규모의 우비흐계 사람들이 녹음을 공부하고 제한된 부흥을 시도하며, 체르케스 연대 단체를 통해 정체성 의식을 유지한다. 그러나 자음 84개와 빽빽하게 채워진 동사를 갖춘 이 언어를 다시 유창하게 말하게 된 사람은 아무도 없고, 앞으로도 그럴 가능성은 낮다. 우비흐어는 <strong>가까스로 제때 포착되어 기술되었지만, 결국 잃어버린 언어</strong>의 교과서적 사례로 남아 있다.</p>

@@ -187,7 +187,7 @@ window.TRIVIA_I18N['sw'] = {
   <p>Esenç alielewa jukumu lake kwa uwazi usio wa kawaida. Alikumbuka methali, nyimbo, sala, majina ya mahali na hadithi haswa ili ziweze kurekodiwa. Jiwe lenye maneno hayo lipo katika makaburi ya kijiji cha Hacıosman, na yamechongwa kwa Kituruki — si kwa lugha ambayo yanaikumbuka. Mwanaisimu wa Norway <strong>Hans Vogt</strong> alitoa kamusi ya kawaida, <em>Dictionnaire de la langue oubykh</em> (1963), ambayo makosa yake Dumézil aliyasahihisha baadaye. Mshirika wa Dumézil <strong>Georges Charachidzé</strong> alifanya kazi na Esenç hadi mwisho kabisa, na George Hewitt alimrekodi Istanbul mwaka 1974. Pamoja na matoleo ya maandiko ya Dumézil, kazi yao iliacha maelfu ya kurasa na saa nyingi za sauti, za kutosha kumwezesha Rhona Fenwick kuandika sarufi kamili ya lugha hiyo mwaka 2011, miaka kumi na tisa baada ya kunyamaza.</p>
 
   <div class="trivia-actions">
-    <button type="button" class="trivia-action" data-action="panto" data-lat="40.50" data-lng="29.20" data-zoom="7">🕯️ Vuta karibu na Hacıosman, Uturuki</button>
+    <button type="button" class="trivia-action" data-action="panto" data-lat="39.99" data-lng="27.81" data-zoom="7">🕯️ Vuta karibu na Hacıosman, Uturuki</button>
   </div>
 
   <p>Leo kuna vikundi vidogo vya Ubykh wa kikabila katika Uturuki, Jordan na Marekani ambao husoma rekodi, hujaribu uhuishaji mdogo, na huhifadhi hisia ya utambulisho kupitia mashirika ya mshikamano wa Kicherkess. Lakini hakuna aliyejifunza tena kuizungumza kwa ufasaha, pamoja na konsonanti zake 84 na vitenzi vyake vilivyosheheni viambishi, na haielekei kwamba yeyote atafanikiwa. Ubykh inabaki kuwa kesi ya kitabu cha kufundisha cha lugha ambayo <strong>ilikamatwa na kuelezwa kabla tu</strong> — na kisha ikapotea hata hivyo.</p>

@@ -27,7 +27,7 @@ const html = fs.readFileSync(path.join(ROOT, 'timemap.html'), 'utf8');
 const rules = [...html.matchAll(/@font-face\s*\{[^}]*\}/g)].map((m) => m[0])
     .filter((r) => /NotoSerifTibetan-timemap/.test(r))
     .map((r) => ({
-        file: (/url\(['"]?([^'")]+)/.exec(r) || [])[1] || '',
+        file: ((/url\(['"]?([^'")]+)/.exec(r) || [])[1] || '').replace(/\?.*$/, ''),   // drop ?v= (r28)
         set: parseRange((/unicode-range:\s*([^;}]+)/.exec(r) || [])[1] || ''),
     }));
 function parseRange(txt) {

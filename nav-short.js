@@ -448,6 +448,45 @@
         };
         if (document.body) show(); else document.addEventListener('DOMContentLoaded', show);
     }, true);
+    // Name Map / Time Map, PC: the left panel's details fold away so the map shows
+    // behind it; the date / name controls stay (owner, r28). Remembered per page.
+    var PANEL_HIDE = {en:'Hide details',ja:'詳細を閉じる',ko:'상세 정보 접기',zh:'收起详情',yue:'收埋詳情',vi:'Ẩn chi tiết',th:'ซ่อนรายละเอียด',id:'Sembunyikan detail',hi:'विवरण छिपाएँ',de:'Details ausblenden',fr:'Masquer les détails',it:'Nascondi dettagli',es:'Ocultar detalles',pt:'Ocultar detalhes',ru:'Скрыть подробности',uk:'Сховати подробиці',ar:'إخفاء التفاصيل',he:'הסתרת הפרטים',sw:'Ficha maelezo'};
+    var PANEL_SHOW = {en:'Show details',ja:'詳細を開く',ko:'상세 정보 펼치기',zh:'展开详情',yue:'展開詳情',vi:'Hiện chi tiết',th:'แสดงรายละเอียด',id:'Tampilkan detail',hi:'विवरण दिखाएँ',de:'Details einblenden',fr:'Afficher les détails',it:'Mostra dettagli',es:'Mostrar detalles',pt:'Mostrar detalhes',ru:'Показать подробности',uk:'Показати подробиці',ar:'إظهار التفاصيل',he:'הצגת הפרטים',sw:'Onyesha maelezo'};
+    function panelFold() {
+        var pn = document.getElementById('nm-panel') || document.getElementById('tm-panel');
+        if (!pn || pn.__lmFold) return;
+        var ctl = pn.querySelector('.nm-controls, .tm-controls'), body = document.getElementById(pn.id === 'nm-panel' ? 'nm-info' : 'tm-info');
+        if (!ctl || !body) return;
+        pn.__lmFold = true;
+        var key = 'lm_fold_' + pn.id, st = document.createElement('style');
+        st.textContent = '.lm-fold-btn{display:none}'
+            + '@media (min-width:781px){.lm-fold-btn{display:flex;align-items:center;justify-content:center;gap:6px;width:100%;min-height:30px;margin:6px 0 -4px;padding:2px 8px;border:0;border-top:1px solid rgba(0,0,0,.08);background:transparent;color:#5f6368;font:inherit;font-size:12px;cursor:pointer;border-radius:0 0 8px 8px}'
+            + '.lm-fold-btn:hover{color:#202124;background:rgba(0,0,0,.04)}'
+            + '.lm-fold-btn svg{transition:transform .15s}'
+            + '.lm-folded .lm-fold-btn svg{transform:rotate(180deg)}'
+            + '#nm-panel.lm-folded,#tm-panel.lm-folded{bottom:auto!important}'
+            + '#nm-panel.lm-folded #nm-info,#tm-panel.lm-folded #tm-info{display:none!important}}';
+        document.head.appendChild(st);
+        var btn = document.createElement('button');
+        btn.type = 'button'; btn.className = 'lm-fold-btn'; btn.setAttribute('aria-controls', body.id);
+        btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg><span></span>';
+        ctl.appendChild(btn);
+        var label = function () {
+            var b = creditLang(), folded = pn.classList.contains('lm-folded');
+            btn.querySelector('span').textContent = (folded ? PANEL_SHOW : PANEL_HIDE)[b] || (folded ? PANEL_SHOW : PANEL_HIDE).en;
+            btn.setAttribute('aria-expanded', folded ? 'false' : 'true');
+        };
+        var set = function (folded) {
+            pn.classList.toggle('lm-folded', folded);
+            try { localStorage.setItem(key, folded ? '1' : '0'); } catch (_) {}
+            label();
+        };
+        btn.addEventListener('click', function () { set(!pn.classList.contains('lm-folded')); });
+        var saved = '0'; try { saved = localStorage.getItem(key) || '0'; } catch (_) {}
+        set(saved === '1');
+        window.addEventListener('langmap:uichange', function () { setTimeout(label, 0); });
+        new MutationObserver(label).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
+    }
     // Compact credit (r26): the strip "Made by … @Heuron Inc. GitHub · 🌳 · ⟲ · 📊"
     // ran wider than a phone. It becomes one short button; the links move into
     // a small dialog. The page's own markup stays as the no-script fallback.
@@ -600,7 +639,7 @@
     }
     window.addEventListener('load', syncMapLabel);
     new MutationObserver(function () { syncCredit(); syncTitle(); syncFooterLinks(); syncMapLabel(); }).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
-    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function () { compactCredit(); syncCredit(); syncTitle(); syncFooterLinks(); }); else { compactCredit(); syncCredit(); syncTitle(); syncFooterLinks(); }
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function () { compactCredit(); panelFold(); syncCredit(); syncTitle(); syncFooterLinks(); }); else { compactCredit(); panelFold(); syncCredit(); syncTitle(); syncFooterLinks(); }
     // Tapping the dimmed backdrop closes the drawer (namemap and timemap had
     // no outside-click handler of their own).
     document.addEventListener('click', function (e) {

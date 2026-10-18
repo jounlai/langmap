@@ -16,12 +16,16 @@
     "hash": "aa03d6c05a4b3504"
   },
   "lang-filter.js": {
-    "version": 57,
-    "hash": "2c98f1f9b916d1fa"
+    "version": 58,
+    "hash": "f80951f4670ae160"
   },
   "lang-picker.js": {
     "version": 8,
     "hash": "f962a1f35003cb38"
+  },
+  "lang_attention.js": {
+    "version": 1,
+    "hash": "59b18498cb043952"
   },
   "lang_names/en.js": {
     "version": 203,

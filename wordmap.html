@@ -3736,6 +3736,7 @@
     })();
     </script>
     <script src="wordmap_data.js?v=345"></script>
+    <script src="lang_attention.js?v=1"></script>
     <script src="word_manifest.js?v=962"></script>
     <script src="word_labels.js?v=70"></script>
     <script>
@@ -3760,7 +3761,7 @@
             styles:   158,
             data:      345,
             metaI18n:  16,
-            filter:    57,
+            filter:    58,
             names:   203,
             meta:     419,
             trivia:   44,
@@ -3902,7 +3903,7 @@
          loaded. Loading them eagerly meant half a megabyte on every visit for
          data that only matters once a language modal opens. They now load
          inside loadMeta(). See __wmLoadMetaI18n() below. -->
-    <script src="lang-filter.js?v=57"></script>
+    <script src="lang-filter.js?v=58"></script>
     <!-- Translated language names: 1,154 codes × 19 UI languages is ~215 KB
          gzipped, and a reader uses one of them plus English as the fallback.
          Load the shim, then English, then whichever UI language this visitor
@@ -5942,9 +5943,15 @@
             }
             return _coverageCache[code] || 0;
         }
+        // Which label keeps a contested spot: international attention first
+        // (lang_attention.js — Wikipedia editions writing about the language),
+        // then speakers, then coverage. Speakers alone made every historical
+        // language 0 and let a big dialect bury a minority language (owner
+        // 2026-10-18).
         function langPriority(code) {
+            const a = (window.LANG_ATTENTION && window.LANG_ATTENTION[code]) || 0;
             const s = langSpeakerCount(code);
-            return s > 0 ? s : langCoverageCount(code);
+            return a * 1e12 + Math.min(s > 0 ? s : langCoverageCount(code), 9e11);
         }
 
         // Priority-based greedy thinning for the modern map (user request
@@ -5974,8 +5981,8 @@
                 return codes.slice();
             }
             const sorted = codes.slice().sort((a, b) => {
-                const sa = langSpeakerCount(a) || 0;
-                const sb = langSpeakerCount(b) || 0;
+                const sa = langPriority(a) || 0;
+                const sb = langPriority(b) || 0;
                 if (sb !== sa) return sb - sa;
                 // Stable tiebreak by code string so panning doesn't reshuffle
                 return a < b ? -1 : (a > b ? 1 : 0);
@@ -6143,7 +6150,7 @@
             // Visible order (word, IPA, name): speech-input users say what they see (WCAG 2.5.3).
             const ariaParts = [];
             if (showWord && word) ariaParts.push(word);
-            if (showIpa) ariaParts.push(ipa ? '/' + ipa + '/' : wt('ipaUnknown'));
+            if (showIpa) ariaParts.push(ipa ? ipa : wt('ipaUnknown'));   // no /…/ on the map (owner 2026-10-18)
             ariaParts.push(displayName);   // raw: the join is escaped once below (n is already escaped)
             const ariaLabel = escapeHtml(ariaParts.filter(Boolean).join(' — '));
             const inCompareCls = (window.__compareList || []).indexOf(code) !== -1 ? ' in-compare' : '';
@@ -6159,8 +6166,8 @@
             if (showWord) html += `<div class="word" dir="auto" ${routeColor || c ? `style="color:${routeColor || c}"` : ''}>${w}</div>`;
             // Typed-only forms (lol: wkwk, KTK …) carry an empty IPA: say so instead of printing "//".
             if (showIpa) html += i
-                ? `<div class="ipa" dir="ltr" ${routeColor || c ? `style="color:${routeColor || c}"` : ''}>/${i}/</div>`
-                : `<div class="ipa ipa-unknown" dir="ltr" title="${escapeHtml(wt('ipaUnknown'))}">/?/</div>`;
+                ? `<div class="ipa" dir="ltr" ${routeColor || c ? `style="color:${routeColor || c}"` : ''}>${i}</div>`
+                : `<div class="ipa ipa-unknown" dir="ltr" title="${escapeHtml(wt('ipaUnknown'))}">?</div>`;
             // "@" concept only: the literal meaning of this language's @ name.
             if (typeof currentWord !== 'undefined' && currentWord === 'atsign') {
                 const mng = atsignMeaning(code);

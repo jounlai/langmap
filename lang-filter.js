@@ -540,14 +540,21 @@
 
     // ----- Speaker tier parsing -------------------------------------------
 
+    // 1-5-10 steps (owner 2026-10-18: the decade tiers were too coarse).
     function tierFor(count) {
         if (count >= 100_000_000) return '100M+';
+        if (count >= 50_000_000)  return '50M+';
         if (count >= 10_000_000)  return '10M+';
+        if (count >= 5_000_000)   return '5M+';
         if (count >= 1_000_000)   return '1M+';
+        if (count >= 500_000)     return '500K+';
         if (count >= 100_000)     return '100K+';
+        if (count >= 50_000)      return '50K+';
         if (count >= 10_000)      return '10K+';
+        if (count >= 5_000)       return '5K+';
         if (count >= 1_000)       return '1K+';
-        return '<1K';
+        if (count >= 100)         return '100+';
+        return '<100';
     }
 
     // Audit Task 220 Phase 3: prefer structured speakerCount over prose
@@ -607,16 +614,16 @@
         return null;
     }
 
-    const SPEAKER_TIERS = ['100M+', '10M+', '1M+', '100K+', '10K+', '1K+', '<1K'];
+    const SPEAKER_TIERS = ['100M+', '50M+', '10M+', '5M+', '1M+', '500K+', '100K+', '50K+', '10K+', '5K+', '1K+', '100+', '<100'];
 
     // CJK reads in 億 (10^8) / 万 (10^4) groupings rather than M/K, so the
     // tier labels above don't translate cleanly. Provide per-UI overrides
     // for ja/ko/zh/yue. Other UI langs keep the English K/M form.
     const SPEAKER_TIER_LABELS = {
-        ja:  { '100M+':'1億+', '10M+':'1千万+', '1M+':'100万+', '100K+':'10万+', '10K+':'1万+', '1K+':'1千+', '<1K':'千未満' },
-        ko:  { '100M+':'1억+', '10M+':'천만+',   '1M+':'백만+', '100K+':'십만+', '10K+':'만+',   '1K+':'천+',   '<1K':'천 미만' },
-        zh:  { '100M+':'1亿+', '10M+':'1千万+', '1M+':'100万+', '100K+':'10万+', '10K+':'1万+', '1K+':'1千+', '<1K':'<1千' },
-        yue: { title_period:'時期', period_from:'起', period_to:'迄', close:'關閉', '100M+':'1億+', '10M+':'1千萬+', '1M+':'100萬+', '100K+':'10萬+', '10K+':'1萬+', '1K+':'1千+', '<1K':'<1千' },
+        ja:  { '100M+':'1億+', '50M+':'5千万+', '10M+':'1千万+', '5M+':'500万+', '1M+':'100万+', '500K+':'50万+', '100K+':'10万+', '50K+':'5万+', '10K+':'1万+', '5K+':'5千+', '1K+':'1千+', '100+':'100+', '<100':'100未満' },
+        ko:  { '100M+':'1억+', '50M+':'5천만+', '10M+':'천만+', '5M+':'5백만+', '1M+':'백만+', '500K+':'50만+', '100K+':'십만+', '50K+':'5만+', '10K+':'만+', '5K+':'5천+', '1K+':'천+', '100+':'100+', '<100':'100 미만' },
+        zh:  { '100M+':'1亿+', '50M+':'5千万+', '10M+':'1千万+', '5M+':'500万+', '1M+':'100万+', '500K+':'50万+', '100K+':'10万+', '50K+':'5万+', '10K+':'1万+', '5K+':'5千+', '1K+':'1千+', '100+':'100+', '<100':'<100' },
+        yue: { title_period:'時期', period_from:'起', period_to:'迄', close:'關閉', '100M+':'1億+', '50M+':'5千萬+', '10M+':'1千萬+', '5M+':'500萬+', '1M+':'100萬+', '500K+':'50萬+', '100K+':'10萬+', '50K+':'5萬+', '10K+':'1萬+', '5K+':'5千+', '1K+':'1千+', '100+':'100+', '<100':'<100' },
     };
 
     // ----- Family aggregation (top-level only, drop parens) ---------------

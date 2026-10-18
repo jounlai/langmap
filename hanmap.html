@@ -3495,6 +3495,7 @@
     })();
     </script>
     <script src="wordmap_data.js?v=345"></script>
+    <script src="lang_attention.js?v=1"></script>
     <script src="hanmap_data.js?v=194"></script>
     <script>
         // Hanmap stubs: replace the per-word loader. wordmap.html loads
@@ -6663,6 +6664,14 @@
         // Read the canonical speaker count for `code`. Falls back through
         // the structured speakerCount overlay (Task 220) → prose parsing
         // → 0. Used by getVisibleLangs() to gate display by zoom level.
+        // Which label keeps a contested spot: international attention first
+        // (lang_attention.js — Wikipedia editions writing about the language),
+        // speakers as the tie-break. Speakers alone let a big Sinitic dialect
+        // bury a minority language and made proto rows 0 (owner 2026-10-18).
+        function langPriority(code) {
+            const a = (window.LANG_ATTENTION && window.LANG_ATTENTION[code]) || 0;
+            return a * 1e12 + Math.min(langSpeakerCount(code) || 0, 9e11);
+        }
         function langSpeakerCount(code) {
             let m = LANG_DATA[code] && LANG_DATA[code].meta;
             // Hanmap stubs out wordmap_meta.js (see loadMeta), so wordmap-
@@ -6728,8 +6737,8 @@
                 // under-cap early-return fix; Han Map needs no change here.)
             }
             const sorted = codes.slice().sort((a, b) => {
-                const sa = langSpeakerCount(a) || 0;
-                const sb = langSpeakerCount(b) || 0;
+                const sa = langPriority(a) || 0;
+                const sb = langPriority(b) || 0;
                 if (sb !== sa) return sb - sa;
                 // Stable tiebreak by code string so panning doesn't reshuffle
                 return a < b ? -1 : (a > b ? 1 : 0);
@@ -8154,8 +8163,8 @@
                 const aUna = unattestedSet.has(a) ? 1 : 0;
                 const bUna = unattestedSet.has(b) ? 1 : 0;
                 if (aUna !== bUna) return aUna - bUna;
-                const sa = langSpeakerCount(a) || 0;
-                const sb = langSpeakerCount(b) || 0;
+                const sa = langPriority(a) || 0;
+                const sb = langPriority(b) || 0;
                 if (sb !== sa) return sb - sa;
                 return a < b ? -1 : a > b ? 1 : 0;
             });
@@ -8328,7 +8337,7 @@
                         const aS = _spotlight.has(a) ? 0 : 1, bS = _spotlight.has(b) ? 0 : 1;
                         if (aS !== bS) return aS - bS;
                     }
-                    const sa = langSpeakerCount(a) || 0, sb = langSpeakerCount(b) || 0;
+                    const sa = langPriority(a) || 0, sb = langPriority(b) || 0;
                     if (sb !== sa) return sb - sa;
                     return a < b ? -1 : a > b ? 1 : 0;
                 });
@@ -8404,7 +8413,7 @@
                     }
                     const id = _units.length;
                     let prio = -Infinity;
-                    for (const m of members) { _clusterOf[m] = id; prio = Math.max(prio, langSpeakerCount(m) || 0); }
+                    for (const m of members) { _clusterOf[m] = id; prio = Math.max(prio, langPriority(m) || 0); }
                     _units.push({ members, prio });
                 }
                 // Highest-priority unit places first (focus / spotlight override,
@@ -8484,7 +8493,7 @@
                     if (_blockFree(0)) dy = 0;
                     else { for (let s = _step; s <= _maxR; s += _step) { if (_blockFree(s)) { dy = s; break; } if (_blockFree(-s)) { dy = -s; break; } } }
                     if (dy == null) {
-                        const bySpk = members.slice().sort((a, b) => (langSpeakerCount(b) || 0) - (langSpeakerCount(a) || 0));
+                        const bySpk = members.slice().sort((a, b) => (langPriority(b) || 0) - (langPriority(a) || 0));
                         for (const m of bySpk) _placeSolo(m);
                         continue;
                     }

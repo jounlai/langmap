@@ -3036,7 +3036,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=31"></script>
+    <script src="nav-short.js?v=32"></script>
     <style>
         /* Rally r21: the settings-drawer buttons were capped at 54-56px with 8px text,
            so de "Aussprache" / "Einheimisch" and ar "المحددة فقط" spilled or were cut. */
@@ -3776,7 +3776,7 @@
             styles:   161,
             data:      345,
             metaI18n:  17,
-            filter:    60,
+            filter:    61,
             names:   203,
             meta:     420,
             trivia:   45,
@@ -3938,7 +3938,7 @@
          loaded. Loading them eagerly meant half a megabyte on every visit for
          data that only matters once a language modal opens. They now load
          inside loadMeta(). See __wmLoadMetaI18n() below. -->
-    <script src="lang-filter.js?v=60"></script>
+    <script src="lang-filter.js?v=61"></script>
     <!-- Translated language names: 1,154 codes × 19 UI languages is ~215 KB
          gzipped, and a reader uses one of them plus English as the fallback.
          Load the shim, then English, then whichever UI language this visitor
@@ -6175,6 +6175,16 @@
         const ALLOWED_DESC_COLORS = new Set(['#c0392b', '#ff6b6b', '']);
         function safeColor(c) { return ALLOWED_DESC_COLORS.has(c) ? c : ''; }
 
+        // BCP 47 tag for a row's own text (lang="…" on its words and native name, so
+        // speech and Han glyph shaping use that language; 3.1.2, r24). Varieties
+        // take their base code; proto / historical rows with no code get none.
+        function rowLangAttr(code) {
+            if (/^zh_(tw|hk|mo)/.test(code)) return 'zh-Hant';
+            const b = String(code).split('_')[0];
+            if (!/^[a-z]{2,3}$/.test(b) || /^p[a-z]{2,3}$/.test(code) && LANG_DATA[code] && LANG_DATA[code].meta && LANG_DATA[code].meta.languageKind === 'reconstructed-proto') return '';
+            return b;
+        }
+        window.__rowLangAttr = rowLangAttr;
         function buildLabelHtml(code, word, ipa, displayName, descColor, cssClass) {
             const isVertical = VERTICAL_LANGS.has(code);
             const c = safeColor(descColor);
@@ -6201,7 +6211,8 @@
             // gets this — tea (cha/te) and orange (naranj/portakal/…) today.
             // A legend explains the colours.
             const routeColor = routeColorFor(code);
-            if (showWord) html += `<div class="word" dir="auto" ${routeColor || c ? `style="color:${routeColor || c}"` : ''}>${w}</div>`;
+            const _lg = rowLangAttr(code);
+            if (showWord) html += `<div class="word" dir="auto"${_lg ? ` lang="${_lg}"` : ''} ${routeColor || c ? `style="color:${routeColor || c}"` : ''}>${w}</div>`;
             // Typed-only forms (lol: wkwk, KTK …) carry an empty IPA: say so instead of printing "//".
             if (showIpa) html += i
                 ? `<div class="ipa" dir="ltr" ${routeColor || c ? `style="color:${routeColor || c}"` : ''}>${i}</div>`
@@ -8932,7 +8943,7 @@
             const displayName = names[code] || lang.name;
             // All data values escaped (per wordmap-check-4.md §5).
             let html = `<h2 id="lang-info-heading">${escapeHtml(displayName)}</h2>`;
-            html += `<div class="native-name"><span class="wm-form" dir="auto">${escapeHtml(lang.native)}</span> [${escapeHtml(code)}]</div>`;
+            { const _lg = window.__rowLangAttr ? window.__rowLangAttr(code) : ''; html += `<div class="native-name"><span class="wm-form" dir="auto"${_lg ? ` lang="${_lg}"` : ''}>${escapeHtml(lang.native)}</span> [${escapeHtml(code)}]</div>`; }
             // Audit Task 216: Compare button placed inline under native-name
             // (was previously absolute top-right or duplicated at bottom).
             (() => {
@@ -10149,7 +10160,7 @@
                 // name (日本語, 大阪弁, and 186 rows in the English UI) would
                 // double the same way.
                 const nativeLine = (lang.native && lang.native !== display)
-                    ? '<span class="native-name" dir="auto">' + escapeHtml(lang.native) + '</span>'
+                    ? '<span class="native-name" dir="auto"' + ((window.__rowLangAttr && window.__rowLangAttr(code)) ? ' lang="' + window.__rowLangAttr(code) + '"' : '') + '>' + escapeHtml(lang.native) + '</span>'
                     : '';
                 html += '<th draggable="true" data-code="' + escapeHtml(code) + '" data-idx="' + idx + '" title="Drag to reorder">'
                      + '<span class="lang-name" data-code="' + escapeHtml(code) + '">' + escapeHtml(display) + '</span>'

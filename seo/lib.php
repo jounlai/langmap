@@ -4077,10 +4077,11 @@ function seo_lang_ui(string $ui, string $altPath): void
     var text = (t.switch_tpl[targetUi] || t.switch_tpl.en).replace('{name}', endo);
     var box = document.createElement('div');
     box.className = 'seo-langpop';
-    // alertdialog: announced when it appears (focus is not moved on page
-    // load); lang so the question is read in its own language.
-    box.setAttribute('role', 'alertdialog');
-    box.setAttribute('aria-labelledby', 'seo-langpop-msg');   // axe aria-dialog-name
+    // A labelled region near the top of the body (r24: an alertdialog that
+    // never took focus, last in the DOM, over focused links); lang so the
+    // question is read in its own language. Escape dismisses it like Stay.
+    box.setAttribute('role', 'region');
+    box.setAttribute('aria-labelledby', 'seo-langpop-msg');
     box.setAttribute('lang', targetUi);
     box.setAttribute('dir', (targetUi === 'ar' || targetUi === 'he') ? 'rtl' : 'ltr');
     var p = document.createElement('p'); p.id = 'seo-langpop-msg'; p.textContent = text; box.appendChild(p);
@@ -4093,7 +4094,14 @@ function seo_lang_ui(string $ui, string $altPath): void
     bStay.textContent = t.stay[targetUi] || t.stay.en;
     bStay.onclick = function () { set(C.pageUi); if (box.parentNode) box.parentNode.removeChild(box); };
     btns.appendChild(bSwitch); btns.appendChild(bStay); box.appendChild(btns);
-    document.body.appendChild(box);
+    document.body.insertBefore(box, document.body.firstChild);
+    // Keep focused content clear of the fixed box (2.4.11).
+    var pad = function () { document.documentElement.style.scrollPaddingBottom = box.parentNode ? (box.offsetHeight + 16) + 'px' : ''; };
+    var close = function () { set(C.pageUi); if (box.parentNode) box.parentNode.removeChild(box); pad(); document.removeEventListener('keydown', onEsc); };
+    var onEsc = function (e) { if (e.key === 'Escape') close(); };
+    bStay.onclick = close;
+    document.addEventListener('keydown', onEsc);
+    setTimeout(pad, 0);
   }
 
   function init() {

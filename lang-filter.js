@@ -1968,7 +1968,18 @@
                 updatePeriodUI();
                 refresh();
             }
-            function endPeriodDrag() {
+            function endPeriodDrag(e) {
+                // A tap on the fill (no movement) moves the nearer handle there:
+                // at the default range the fill covers the whole track (2.5.7, r24).
+                if (periodDrag && e && Math.abs(e.clientX - periodDrag.startX) < 4 && periodDrag.rect) {
+                    const r = periodDrag.rect, rtl = periodDrag.rtl;
+                    let frac = (e.clientX - r.left) / r.width; if (rtl) frac = 1 - frac;
+                    const idx = Math.round(PERIOD_MIN_IDX + Math.max(0, Math.min(1, frac)) * (PERIOD_MAX_IDX - PERIOD_MIN_IDX));
+                    if (Math.abs(idx - periodFilter.fromIdx) <= Math.abs(idx - periodFilter.toIdx)) periodFilter.fromIdx = Math.min(idx, periodFilter.toIdx);
+                    else periodFilter.toIdx = Math.max(idx, periodFilter.fromIdx);
+                    updatePeriodUI();
+                    refresh();
+                }
                 periodDrag = null;
                 document.removeEventListener('pointermove', onPeriodDrag);
                 document.removeEventListener('pointerup', endPeriodDrag);
@@ -2000,6 +2011,7 @@
                     toIdx: periodFilter.toIdx,
                     width: periodFilter.toIdx - periodFilter.fromIdx,
                     pxPerIdx: rect.width / (PERIOD_MAX_IDX - PERIOD_MIN_IDX),
+                    rect, rtl: getComputedStyle(dual).direction === 'rtl',
                 };
                 document.addEventListener('pointermove', onPeriodDrag);
                 document.addEventListener('pointerup', endPeriodDrag);

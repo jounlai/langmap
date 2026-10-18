@@ -1397,28 +1397,12 @@ function render() {
         } else {
             label.textContent = langName(code);
         }
-        // Keyboard / single-pointer alternative to dragging rows (2.5.7, r23):
-        // Alt+↑ / Alt+↓ on the focused name moves the row.
-        label.tabIndex = 0;
-        label.setAttribute('aria-keyshortcuts', 'Alt+ArrowUp Alt+ArrowDown');
-        label.setAttribute('aria-description', edT('moveEarlier') + ' / ' + edT('moveLater') + ': Alt+↑ / Alt+↓');
-        label.addEventListener('keydown', (e) => {
-            if (!e.altKey || (e.key !== 'ArrowUp' && e.key !== 'ArrowDown')) return;
-            e.preventDefault();
-            const sib = e.key === 'ArrowUp' ? row.previousElementSibling : row.nextElementSibling;
-            if (!sib || !sib.classList.contains('lang-row')) return;
-            if (e.key === 'ArrowUp') row.parentNode.insertBefore(row, sib); else row.parentNode.insertBefore(sib, row);
-            syncLangOrderFromDOM(); updateURL(); scheduleRedrawLines();
-            label.focus();
-            const rows = [...row.parentNode.querySelectorAll('.lang-row')];
-            let st = document.getElementById('row-move-status');
-            if (!st) { st = document.createElement('div'); st.id = 'row-move-status'; st.setAttribute('role', 'status'); st.style.cssText = 'position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)'; document.body.appendChild(st); }
-            st.textContent = ''; setTimeout(() => { st.textContent = langName(code) + ': ' + (rows.indexOf(row) + 1) + ' / ' + rows.length; }, 50);
-        });
         row.appendChild(label);
 
         const textDiv = document.createElement('div');
         textDiv.className = 'lang-text';
+        // The row's own language on its sentence (3.1.2, r24).
+        { const b = String(code).split('_')[0]; if (/^[a-z]{2,3}$/.test(b) && !HISTORICAL_LANGS.has(code)) textDiv.lang = /^zh_(tw|hk)/.test(code) ? 'zh-Hant' : b; }
 
         langData.forEach(([segId, text], i) => {
             const seg = document.createElement('span');
@@ -1618,6 +1602,30 @@ function render() {
         });
         row.appendChild(editBtn);
 
+        // Move up / down: the alternative to dragging a row, for mouse, touch and
+        // keyboard alike (2.5.7, r24). Desktop: with copy/edit on hover; phones:
+        // in the tap bar below.
+        const moveRow = (dir) => {
+            const sib = dir < 0 ? row.previousElementSibling : row.nextElementSibling;
+            if (!sib || !sib.classList.contains('lang-row')) return;
+            if (dir < 0) row.parentNode.insertBefore(row, sib); else row.parentNode.insertBefore(sib, row);
+            syncLangOrderFromDOM(); updateURL(); scheduleRedrawLines();
+            const rows = [...row.parentNode.querySelectorAll('.lang-row')];
+            const st = document.getElementById('row-move-status');
+            if (st) { st.textContent = ''; setTimeout(() => { st.textContent = langName(code) + ': ' + (rows.indexOf(row) + 1) + ' / ' + rows.length; }, 50); }
+        };
+        const mkMove = (dir, cls) => {
+            const b = document.createElement('button');
+            b.type = 'button'; b.className = cls;
+            b.textContent = dir < 0 ? '↑' : '↓';
+            const lbl = edT(dir < 0 ? 'moveEarlier' : 'moveLater');
+            b.title = lbl; b.setAttribute('aria-label', lbl + ' — ' + langName(code));
+            b.addEventListener('click', (e) => { e.stopPropagation(); moveRow(dir); b.focus({ preventScroll: true }); });
+            return b;
+        };
+        const upBtn = mkMove(-1, 'copy-btn row-move-btn'); upBtn.style.right = '100px'; row.appendChild(upBtn);
+        const downBtn = mkMove(1, 'copy-btn row-move-btn'); downBtn.style.right = '68px'; row.appendChild(downBtn);
+
         // Mobile action bar (shown on tap)
         const mobileBar = document.createElement('div');
         mobileBar.className = 'mobile-action-bar';
@@ -1633,6 +1641,8 @@ function render() {
                 showToast(t('copiedText'));
             });
         });
+        mobileBar.appendChild(mkMove(-1, ''));
+        mobileBar.appendChild(mkMove(1, ''));
         mobileBar.appendChild(mEditBtn);
         mobileBar.appendChild(mCopyBtn);
         row.appendChild(mobileBar);

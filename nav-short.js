@@ -348,11 +348,28 @@
     var _pageKey = (location.pathname.match(/(wordmap|hanmap|namemap|timemap)(\.html)?\/?$/) || [])[1];
     var _origTitle = document.title;
     function syncTitle() {
-        if (!_pageKey) return;
+        if (!_pageKey) {
+            // Tree page: its own code sets the tab title; the heading follows LABELS.
+            if (/tree(\.html)?\/?$/.test(location.pathname)) {
+                var l0 = String(document.documentElement.lang || 'en').toLowerCase().replace('-', '_'), b0 = l0.split('_')[0];
+                var L0 = LABELS[l0] || LABELS[b0]; syncH1(l0, b0, L0 && L0.tree);
+            }
+            return;
+        }
         var l = String(document.documentElement.lang || 'en').toLowerCase().replace('-', '_'), b = l.split('_')[0];
         var m = TITLE_BY[_pageKey], v = m[l] || (l === 'zh_hk' && m.yue) || m[b];   // Time Map's yue UI sets lang=zh-HK (r21)
         var t = (b === 'en' || !v) ? _origTitle : 'LangMap — ' + v;
         if (document.title !== t) document.title = t;
+        syncH1(l, b, v);
+    }
+    // The page's only heading (visually hidden) stayed English in every UI (3.1.2, r24).
+    var _origH1 = null;
+    function syncH1(l, b, v) {
+        var h = document.querySelector('header h1, .site-header-bar h1, body > h1') || document.querySelector('h1');
+        if (!h || !/^LangMap/.test(h.textContent)) return;
+        if (_origH1 === null) _origH1 = h.textContent;
+        var txt = (b === 'en' || !v) ? _origH1 : 'LangMap — ' + v;
+        if (h.textContent !== txt) h.textContent = txt;
     }
     new MutationObserver(function () { syncCredit(); syncTitle(); syncFooterLinks(); }).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function () { syncCredit(); syncTitle(); syncFooterLinks(); }); else { syncCredit(); syncTitle(); syncFooterLinks(); }

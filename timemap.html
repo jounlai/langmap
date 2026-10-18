@@ -372,7 +372,7 @@
         @media (min-width: 641px) { .tm-map-ctl:not(:has(> .chrome-toggle-btn))::before { content: ''; height: 40px; } }
         #tm-era { min-height: 20px; }
 </style>
-    <script src="nav-short.js?v=31"></script>
+    <script src="nav-short.js?v=32"></script>
 </head>
 <body>
     <header class="site-header-bar">
@@ -654,7 +654,9 @@
                 const r=dateOf(cal); if(!r) return;
                 const cls = cal.status==='historical' ? ' is-hist' : cal.status==='gregorian' ? ' is-greg' : '';
                 // native date / the same date in the UI language / calendar name
-                const html='<div class="tm-label'+cls+' cal-'+cal.id+'"><span class="w tm-script" dir="auto">'+esc(r.native)+'</span>'
+                // The native date's language, for speech and glyph choice (3.1.2, r24).
+                const _nl = { greg_jp:'ja', japanese:'ja', roc:'zh-Hant', juche:'ko', buddhist:'th', chinese:'zh', dangi:'ko', hebrew:'he', islamic:'ar', persian:'fa', indian:'hi', bengali:'bn', ethiopic:'am', amazigh:'zgh', nepali:'ne', vietnamese:'vi', javanese:'jv', kurdish:'ckb', iceland:'is', tibetan:'bo', mongolian:'mn', bhutanese:'dz', myanmar:'my', khmer:'km', yuan:'zh-Hant', ming:'zh-Hant', qing:'zh-Hant', ryukyu:'ja', korean_empire:'ko', joseon:'ko', nguyen:'vi', koki:'ja', rattanakosin:'th', iran_imperial:'fa', french_rep:'fr', roman:'la', byzantine:'el', akan:'ak', kiche:'quc' }[cal.id] || '';
+                const html='<div class="tm-label'+cls+' cal-'+cal.id+'"><span class="w tm-script" dir="auto"'+(_nl?' lang="'+_nl+'"':'')+'>'+esc(r.native)+'</span>'
                     +(r.tr ? '<span class="t tm-script" dir="auto">'+esc(r.tr)+'</span>' : '')
                     +'<span class="r tm-script" dir="auto">'+esc(ct(cal,'name'))+'</span></div>';
                 const icon=L.divIcon({ className:'tm-divicon', html, iconSize:[0,0], iconAnchor:[0,0] });

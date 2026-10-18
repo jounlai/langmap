@@ -37,5 +37,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
+      # The Name/Time Map CJK subset guard reads the committed subset fonts'
+      # cmaps with fontTools (tools/build_cjk_page_subsets.py --check, r24).
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install fontTools
+        run: python -m pip install fonttools
       - name: Run all deterministic data guards
         run: node tools/check_all.js

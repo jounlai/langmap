@@ -105,6 +105,12 @@ try { s = cp.execSync(`python3 ${path.join(__dirname, 'build_cjk_page_subsets.py
 catch (e) { s = String(e.stdout || ''); }
 line('Name/Time Map CJK subsets fresh', num(s, /stale: (\d+)/));
 
+// Han Map readings' Latin/IPA font: a new character in hanmap_data.js needs
+// tools/build_hanmap_ipa_font.py, or its clusters fall back down the stack (r22).
+try { s = cp.execSync(`python3 ${path.join(__dirname, 'build_hanmap_ipa_font.py')} --check`, { encoding: 'utf8' }); }
+catch (e) { s = String(e.stdout || ''); }
+line('Han Map IPA font covers readings', num(s, /stale: (\d+)/));
+
 s = run('korean_hist_font_check.js');
 line('Old Hangul font coverage', num(s, /problems: (\d+)/));
 

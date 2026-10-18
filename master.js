@@ -489,7 +489,9 @@
             // search box keeps focus, so typing still filters.
             function paint() {
                 items.forEach(function (x, i) { x.style.background = i === state.hi ? '#eef4fb' : 'none'; x.setAttribute('aria-selected', i === state.hi ? 'true' : 'false'); });
-                if (items[state.hi]) { items[state.hi].scrollIntoView({ block: 'nearest' }); inp.setAttribute('aria-activedescendant', items[state.hi].id); } else inp.removeAttribute('aria-activedescendant');
+                // Row 0 is already in view: its scrollIntoView forced a 0.7 s layout of
+                // 200 rows on first paint at 4x CPU (r25).
+                if (items[state.hi]) { if (state.hi > 0) items[state.hi].scrollIntoView({ block: 'nearest' }); inp.setAttribute('aria-activedescendant', items[state.hi].id); } else inp.removeAttribute('aria-activedescendant');
             }
             state.listNav = function (key) {
                 if (!items.length) return;

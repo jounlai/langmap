@@ -961,7 +961,7 @@ NAMES.elizabeth = {
     hy:  { form:'Եղիսաբեթ',   rom:'Yeghisabet', ipa:'jɛʁisɑˈbɛtʰ',    freq:'moderate',    note:{en:'Zabel is the Isabel form',ja:'ザベルはイサベル形'} },
     he:  { form:'אֱלִישֶׁבַע',    rom:'Elišévaʿ',   ipa:'eliˈʃeva',     freq:'moderate',    note:{en:'the original',ja:'原形'} },
     ar:  { form:'أليصابات',   rom:'Alīṣābāt',   ipa:'ʔaliːsˤaːˈbaːt', freq:'rare',        note:{en:'Christian; wife of Zechariah',ja:'キリスト教形。ザカリヤの妻'} },
-    ko:  { form:'엘리사벳',    rom:'Ellisabet', ipa:'el.li.sa.bet',   freq:'moderate',    note:{en:'a real Korean Christian given name (Catholic 엘리사벳; Protestant 엘리자베스)',ja:'実在の韓国キリスト教徒の名（カトリック엘리사벳・プロテスタント엘리자베스）'} },
+    ko:  { form:'엘리사벳',    rom:'Ellisabet', ipa:'el.li.sa.bet',   freq:'moderate',    note:{en:'a real Korean Christian given name (the Bible form 엘리사벳, used by Catholic and Protestant Bibles alike; English-style 엘리자베스 is a separate modern borrowing)',ja:'実在の韓国キリスト教徒の名（聖書形はカトリック・プロテスタントとも엘리사벳。英語式の엘리자베스は別の近代借用）'} },
     id:  { form:'Elisabet',   rom:'Elisabet',   ipa:'elisabɛt',       freq:'moderate',    note:{en:'Christian usage',ja:'キリスト教で使用'} },
     fil: { form:'Elizabeth',  rom:'Elizabeth',  ipa:'ɪˈlɪsabɛt',      freq:'common',      note:{en:'also Isabel',ja:'イサベルとも'} },
   },

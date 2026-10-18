@@ -359,7 +359,7 @@
     // which is what crawlers see).
     var TITLE_BY = {
         wordmap: {ja:"単語マップ",ko:"단어 맵",zh:"词汇地图",yue:"詞彙地圖",vi:"Bản đồ từ",th:"แผนที่คำ",id:"Peta Kata",hi:"शब्द मानचित्र",en:"Word Map",de:"Wortkarte",fr:"Carte des mots",it:"Mappa parole",es:"Mapa de palabras",pt:"Mapa de palavras",ru:"Карта слов",uk:"Карта слів",ar:"خريطة الكلمات",he:"מפת מילים",sw:"Ramani ya maneno"},
-        hanmap: {ja:"漢字マップ",ko:"한자 맵",zh:"汉字地图",yue:"漢字地圖",vi:"Bản đồ Hán tự",th:"แผนที่อักษรจีน",id:"Peta Hanzi",hi:"हान्ज़ी मानचित्र",en:"HanMap",de:"HanMap",fr:"Carte des hanzi",it:"Mappa hanzi",es:"Mapa de hanzi",pt:"Mapa de hanzi",ru:"Карта иероглифов",uk:"Карта ієрогліфів",ar:"خريطة الحروف",he:"מפת תווים",sw:"Ramani ya hanzi"},
+        hanmap: {ja:"漢字マップ",ko:"한자 맵",zh:"汉字地图",yue:"漢字地圖",vi:"Bản đồ Hán tự",th:"แผนที่อักษรจีน",id:"Peta Hanzi",hi:"हान्ज़ी मानचित्र",en:"HanMap",de:"Hanzi-Karte",fr:"Carte des hanzi",it:"Mappa hanzi",es:"Mapa de hanzi",pt:"Mapa de hanzi",ru:"Карта иероглифов",uk:"Карта ієрогліфів",ar:"خريطة الحروف",he:"מפת תווים",sw:"Ramani ya hanzi"},
         namemap: {ja:"名前マップ",ko:"이름 맵",zh:"姓名地图",yue:"姓名地圖",vi:"Bản đồ tên",th:"แผนที่ชื่อ",id:"Peta Nama",hi:"नाम मानचित्र",en:"Name Map",de:"Namenskarte",fr:"Carte des prénoms",it:"Mappa dei nomi",es:"Mapa de nombres",pt:"Mapa de nomes",ru:"Карта имён",uk:"Карта імен",ar:"خريطة الأسماء",he:"מפת שמות",sw:"Ramani ya majina"},
         timemap: {en:"Time Map",ja:"暦マップ",ko:"달력 맵",zh:"历法地图",yue:"曆法地圖",vi:"Bản đồ lịch",th:"แผนที่ปฏิทิน",id:"Peta Kalender",hi:"कैलेंडर मानचित्र",de:"Kalenderkarte",fr:"Carte des calendriers",it:"Mappa dei calendari",es:"Mapa de calendarios",pt:"Mapa de calendários",ru:"Карта календарей",uk:"Карта календарів",ar:"خريطة التقاويم",he:"מפת לוחות שנה",sw:"Ramani ya kalenda"}
     };

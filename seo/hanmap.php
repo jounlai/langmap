@@ -8,7 +8,7 @@ declare(strict_types=1);
 /** A gloss that is just the character again, its simplified / shinjitai form, or a digit (r24). */
 function hm_gloss_is_echo(string $ch, string $g): bool
 {
-    static $var = ['鐵'=>'鐵铁鉄','龍'=>'龍龙竜','馬'=>'馬马','雞'=>'雞鸡鶏','豬'=>'豬猪','貓'=>'貓猫','鳥'=>'鳥鸟','魚'=>'魚鱼','頭'=>'頭头','兒'=>'兒儿児','門'=>'門门','飯'=>'飯饭','錢'=>'錢钱銭','來'=>'來来','飛'=>'飛飞','見'=>'見见','聞'=>'聞闻','飲'=>'飲饮','紅'=>'紅红','黃'=>'黃黄','綠'=>'綠绿緑','長'=>'長长','遠'=>'遠远','熱'=>'熱热','東'=>'東东','無'=>'無无','個'=>'個个箇','気'=>'気氣'];
+    static $var = ['鐵'=>'鐵铁鉄','龍'=>'龍龙竜','馬'=>'馬马','雞'=>'雞鸡鶏','豬'=>'豬猪','貓'=>'貓猫','鳥'=>'鳥鸟','魚'=>'魚鱼','頭'=>'頭头','兒'=>'兒儿児','門'=>'門门','飯'=>'飯饭','錢'=>'錢钱銭','來'=>'來来','飛'=>'飛飞','見'=>'見见','聞'=>'聞闻','飲'=>'飲饮','紅'=>'紅红','黃'=>'黃黄','綠'=>'綠绿緑','長'=>'長长','遠'=>'遠远','熱'=>'熱热','東'=>'東东','無'=>'無无','個'=>'個个箇','気'=>'気氣','黑'=>'黑黒'];
     if ($g === '' ) return false;
     if (preg_match('/^\d+$/', $g) || $g === $ch) return true;
     if (mb_strlen($g) !== 1) return false;
@@ -27,19 +27,28 @@ function hm_speakers_value(string $ui, string $raw): string
     if ($n < 1) return '';
     $more = preg_match('/以上/u', $raw) ? '+' : '';
     $trim = function (float $v, int $p, string $dec = '.'): string {
-        $t = rtrim(rtrim(number_format($v, $p, '.', ''), '0'), '.');
+        $t = number_format($v, $p, '.', '');
+        if ($p > 0) $t = rtrim(rtrim($t, '0'), '.');   // "300" must keep its zeros (r25)
         return str_replace('.', $dec, $t);
     };
     if ($ui === 'ko' || $ui === 'zh' || $ui === 'yue') {
-        $wan = $ui === 'ko' ? '만' : '万'; $yi = $ui === 'ko' ? '억' : ($ui === 'yue' ? '億' : '亿');
+        $wan = $ui === 'ko' ? '만' : ($ui === 'yue' ? '萬' : '万'); $yi = $ui === 'ko' ? '억' : ($ui === 'yue' ? '億' : '亿');
         $t = $n >= 1e8 ? $trim($n / 1e8, 2) . $yi : ($n >= 1e4 ? $trim($n / 1e4, 1) . $wan : number_format($n));
         return '~' . $t . $more;
     }
     $comma = in_array($ui, ['de', 'fr', 'it', 'es', 'pt', 'ru', 'uk', 'id', 'vi'], true);
     $dec = $comma ? ',' : '.';
-    $M = ['de' => ' Mio.', 'fr' => ' M', 'it' => ' Mln', 'es' => ' M', 'pt' => ' mi', 'ru' => ' млн', 'uk' => ' млн', 'id' => ' jt', 'vi' => ' tr'][$ui] ?? 'M';
-    $B = ['de' => ' Mrd.', 'fr' => ' Md', 'it' => ' Mrd', 'es' => ' mil M', 'pt' => ' bi', 'ru' => ' млрд', 'uk' => ' млрд', 'id' => ' M', 'vi' => ' tỷ'][$ui] ?? 'B';
-    $K = ['de' => ' Tsd.', 'fr' => ' k', 'it' => ' mila', 'es' => ' mil', 'pt' => ' mil', 'ru' => ' тыс.', 'uk' => ' тис.', 'id' => ' rb', 'vi' => ' N'][$ui] ?? 'K';
+    $M = ['de' => ' Mio.', 'fr' => ' M', 'it' => ' Mln', 'es' => ' M', 'pt' => ' mi', 'ru' => ' млн', 'uk' => ' млн', 'id' => ' jt', 'vi' => ' tr',
+          'ar' => ' مليون', 'he' => ' מיליון', 'th' => ' ล้าน', 'hi' => ' मिलियन', 'sw' => ' milioni'][$ui] ?? 'M';
+    $B = ['de' => ' Mrd.', 'fr' => ' Md', 'it' => ' Mrd', 'es' => ' mil M', 'pt' => ' bi', 'ru' => ' млрд', 'uk' => ' млрд', 'id' => ' M', 'vi' => ' tỷ',
+          'ar' => ' مليار', 'he' => ' מיליארד', 'th' => ' พันล้าน', 'hi' => ' अरब', 'sw' => ' bilioni'][$ui] ?? 'B';
+    $K = ['de' => ' Tsd.', 'fr' => ' k', 'it' => ' mila', 'es' => ' mil', 'pt' => ' mil', 'ru' => ' тыс.', 'uk' => ' тис.', 'id' => ' rb', 'vi' => ' N',
+          'ar' => ' ألف', 'he' => ' אלף', 'th' => ' พัน', 'hi' => ' हज़ार', 'sw' => ' elfu'][$ui] ?? 'K';
+    if ($ui === 'sw') {   // Swahili puts the unit first: "milioni 86" (r25)
+        if ($n >= 1e9) return '~bilioni ' . $trim($n / 1e9, 2) . $more;
+        if ($n >= 1e6) return '~milioni ' . $trim($n / 1e6, 1) . $more;
+        if ($n >= 1e4) return '~elfu ' . $trim($n / 1e3, 0) . $more;
+    }
     if ($n >= 1e9)      $t = $trim($n / 1e9, 2, $dec) . $B;
     elseif ($n >= 1e6)  $t = $trim($n / 1e6, 1, $dec) . $M;
     elseif ($n >= 1e4)  $t = $trim($n / 1e3, 0, $dec) . $K;

@@ -394,7 +394,7 @@ const META_I18N_COVERAGE_ATOMS = {
         'Languages': '言語法',
         'Law': '法', 'Act': '法',
         'Basic Act': '基本法',
-        'Truku': 'タロコ', 'Seediq': 'サキザヤ',
+        'Truku': 'タロコ', 'Seediq': 'セデック',
         'Truku & Seediq separately recognized since 2008/2017': 'タロコ・セデック分離認定（2008・2017）',
         'Akan': 'アカン', 'Wolaita': 'ウォライタ',
 

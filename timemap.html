@@ -120,6 +120,8 @@
                  (header/nav/lang-picker/buttons come from styles.css) ===== */
         html, body { position: fixed; top: 0; left: 0; width: 100%; height: 100vh; height: 100dvh; margin: 0; padding: 0; overflow: hidden; }
         body { background: #fff; display: flex; flex-direction: column; }
+        /* The CJK faces here are CJK-only subsets: without Noto Sans before Thai, Latin fell to Noto Sans Thai off Windows (r25). */
+        body { font-family: 'Segoe UI', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans', 'Noto Sans Thai', sans-serif; }
         .site-header-bar { margin: 0 !important; flex: 0 0 auto; position: relative; z-index: 1100; }
         .site-header-bar .logo-badge-time { background: #0f766e; }
         :root { --tm-accent: #0f766e; --tm-accent-dark: #0b5a54; --tm-accent-tint: #e6f4f2; --tm-hist: #8a5a1c; }
@@ -152,7 +154,6 @@
             background: #fff; cursor: pointer; font-size: 15px; line-height: 1; color: #333; padding: 0 8px;
         }
         .tm-today-btn { font-size: 13px; font-weight: 600; color: var(--tm-accent-dark); }
-        html:is([lang=ar], [lang=he]) .tm-step-btn { transform: scaleX(-1); }   /* chevrons follow the mirrored order (r24) */
         .tm-step-btn:hover, .tm-today-btn:hover { background: var(--tm-accent-tint); border-color: var(--tm-accent); }
         /* Era switch — WordMap's Modern / Historical radio pill, verbatim. */
         .tm-era-row { margin-top: 8px; }
@@ -373,7 +374,7 @@
         @media (min-width: 641px) { .tm-map-ctl:not(:has(> .chrome-toggle-btn))::before { content: ''; height: 40px; } }
         #tm-era { min-height: 20px; }
 </style>
-    <script src="nav-short.js?v=33"></script>
+    <script src="nav-short.js?v=34"></script>
 </head>
 <body>
     <header class="site-header-bar">
@@ -586,7 +587,11 @@
             h+='<dl class="tm-pop-dl">'+(useKey ? '<dt>'+esc(t('status'))+'</dt><dd>'+esc(t(useKey))+'</dd>' : '')+'<dt>'+esc(t('type'))+'</dt><dd dir="auto">'+esc(ct(cal,'type'))+'</dd>'
               +'<dt>'+esc(t('epoch'))+'</dt><dd dir="auto">'+esc(ct(cal,'epoch'))+'</dd>'
               +'<dt>'+esc(t('used'))+'</dt><dd dir="auto">'+esc(ct(cal,'used'))+'</dd></dl>';
-            if(cal.note) h+='<div class="tm-pop-note" dir="auto">'+esc(ct(cal,'note'))+'</div>';
+            // The Maya note's example count is the one shown above for this date, not a
+            // fixed 13.0.13.17.16 that contradicted it (r25).
+            let note=cal.note ? ct(cal,'note') : '';
+            if(cal.id==='maya' && r && r.tr){ const lc=(String(r.tr).match(/\d+(?:\.\d+){4}/)||[])[0]; if(lc) note=note.split('13.0.13.17.16').join(lc); }
+            if(note) h+='<div class="tm-pop-note" dir="auto">'+esc(note)+'</div>';
             return '<div dir="'+(/^(ar|he)/.test(String(uiLang||''))?'rtl':'ltr')+'">'+h+'</div>';
         }
 
@@ -795,13 +800,23 @@
         /* ---------- Mobile sheet + chrome toggle ---------- */
         // Mobile details sheet: aria-expanded on its button, focus into it,
         // Escape closes it and focus goes back to the button.
+        // The details sheet gets a history entry so the phone Back gesture closes it
+        // instead of leaving the site (r25). Closing it otherwise steps back over
+        // that entry, keeping the current hash (the name/date may have changed).
+        let _sheetPushed=false, _sheetKeep=null;
+        window.addEventListener('popstate', ()=>{
+            if(_sheetKeep!==null){ const k=_sheetKeep; _sheetKeep=null; try{ history.replaceState(null,'',k); }catch(_){} return; }
+            if(_sheetPushed && document.getElementById('tm-panel').classList.contains('info-open')){ _sheetPushed=false; closeInfoSheet(); }
+        });
         function openInfoSheet(){
+            if(!_sheetPushed){ try{ history.pushState({ sheet:1 },'',location.href); _sheetPushed=true; }catch(_){} }
             document.getElementById('tm-panel').classList.add('info-open');
             syncSheetInert();
             const db=document.getElementById('tm-details-btn'); db.setAttribute('aria-expanded','true');
             const c=document.getElementById('tm-info-close'); if(c) setTimeout(()=>c.focus(),0);
         }
         function closeInfoSheet(){
+            if(_sheetPushed){ _sheetPushed=false; _sheetKeep=location.hash||location.pathname; try{ history.back(); }catch(_){ _sheetKeep=null; } }
             const p=document.getElementById('tm-panel'), was=p.classList.contains('info-open');
             p.classList.remove('info-open');
             syncSheetInert();

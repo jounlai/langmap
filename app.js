@@ -1120,6 +1120,32 @@ function openLangModal() {
         body.appendChild(groupDiv);
     }
 
+    // A filter box: 223 languages were ~9 screens of scrolling on a phone with
+    // no way to search (r25). Matches the shown name, the English name or code.
+    {
+        const ph = { en:'Search languages', ja:'言語を検索', ko:'언어 검색', zh:'搜索语言', yue:'搜尋語言', vi:'Tìm ngôn ngữ', th:'ค้นหาภาษา', id:'Cari bahasa', hi:'भाषा खोजें', de:'Sprachen suchen', fr:'Rechercher une langue', it:'Cerca lingue', es:'Buscar idiomas', pt:'Buscar idiomas', ru:'Поиск языков', uk:'Пошук мов', ar:'ابحث عن لغة', he:'חיפוש שפות', sw:'Tafuta lugha' }[String(currentUILang || 'en').split('_')[0]] || 'Search languages';
+        const box = document.createElement('input');
+        box.type = 'search'; box.className = 'lang-modal-search'; box.placeholder = ph; box.setAttribute('aria-label', ph);
+        box.style.cssText = 'width:100%;box-sizing:border-box;margin:0 0 10px;padding:8px 10px;font:inherit;font-size:15px;border:1px solid #ccc;border-radius:8px';
+        const norm = (x) => String(x || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+        box.addEventListener('input', () => {
+            const q = norm(box.value.trim());
+            body.querySelectorAll('.lang-group').forEach((g) => {
+                let any = false;
+                g.querySelectorAll('.lang-toggle').forEach((lab) => {
+                    const cb = lab.querySelector('input');
+                    const code = cb ? cb.dataset.lang : '';
+                    const L0 = LANGUAGES.find((l) => l.code === code) || {};
+                    const hit = !q || norm(lab.textContent).includes(q) || norm(code).startsWith(q) || norm(L0.name || L0.en || '').includes(q);
+                    lab.style.display = hit ? '' : 'none';
+                    if (hit) any = true;
+                });
+                g.style.display = any ? '' : 'none';
+            });
+        });
+        body.insertBefore(box, body.firstChild);
+    }
+
     const overlay = document.getElementById('langModalOverlay');
     overlay.classList.add('open');
     // Close on overlay background click
@@ -1678,7 +1704,9 @@ function render() {
     // Show/hide RTL note based on whether any RTL language is active
     const rtlNoteEl = document.getElementById('rtlNote');
     if (rtlNoteEl) {
-        const hasRtl = activeLangs.some(c => RTL_LANGS.has(c));
+        // In an Arabic/Hebrew interface every row already runs right to left, so
+        // the "shown left-to-right" note was false and its switch did nothing (r25).
+        const hasRtl = activeLangs.some(c => RTL_LANGS.has(c)) && !(currentUILang === 'ar' || currentUILang === 'he');
         rtlNoteEl.style.display = hasRtl ? '' : 'none';
         if (hasRtl) {
             document.getElementById('rtlNoteText').textContent = t('rtlNote');

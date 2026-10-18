@@ -3353,6 +3353,12 @@ function seo_fonts_links(string $html): string
     if ($han || preg_match('/[\x{3040}-\x{30FF}]/u', $html)) $fam[] = 'Noto+Serif+JP:wght@400;700';
     if ($han) { $fam[] = 'Noto+Serif+SC:wght@400;700'; $fam[] = 'Noto+Serif+TC:wght@400;700'; }
     if (preg_match('/[\x{1100}-\x{11FF}\x{3130}-\x{318F}\x{AC00}-\x{D7AF}]/u', $html)) $fam[] = 'Noto+Serif+KR:wght@400;700';
+    // Indic / Southeast Asian / other scripts: the app gives each its Noto face;
+    // here they fell to the system font, or to tofu where Noto Serif SC's slices
+    // claim the codepoint (r25). Google slices these, so only the script's slice loads.
+    foreach ([['/[\x{0900}-\x{097F}]/u', 'Noto+Serif+Devanagari'], ['/[\x{0980}-\x{09FF}]/u', 'Noto+Serif+Bengali'], ['/[\x{0A80}-\x{0AFF}]/u', 'Noto+Serif+Gujarati'], ['/[\x{0A00}-\x{0A7F}]/u', 'Noto+Serif+Gurmukhi'], ['/[\x{0B00}-\x{0B7F}]/u', 'Noto+Serif+Oriya'], ['/[\x{0B80}-\x{0BFF}]/u', 'Noto+Serif+Tamil'], ['/[\x{0C00}-\x{0C7F}]/u', 'Noto+Serif+Telugu'], ['/[\x{0C80}-\x{0CFF}]/u', 'Noto+Serif+Kannada'], ['/[\x{0D00}-\x{0D7F}]/u', 'Noto+Serif+Malayalam'], ['/[\x{0D80}-\x{0DFF}]/u', 'Noto+Serif+Sinhala'], ['/[\x{0E00}-\x{0E7F}]/u', 'Noto+Serif+Thai'], ['/[\x{0E80}-\x{0EFF}]/u', 'Noto+Serif+Lao'], ['/[\x{1780}-\x{17FF}]/u', 'Noto+Serif+Khmer'], ['/[\x{1000}-\x{109F}]/u', 'Noto+Serif+Myanmar'], ['/[\x{1C50}-\x{1C7F}]/u', 'Noto+Sans+Ol+Chiki'], ['/[\x{10A0}-\x{10FF}]/u', 'Noto+Serif+Georgian'], ['/[\x{0530}-\x{058F}]/u', 'Noto+Serif+Armenian'], ['/[\x{1200}-\x{139F}]/u', 'Noto+Serif+Ethiopic'], ['/[\x{0700}-\x{074F}]/u', 'Noto+Sans+Syriac']] as [$re, $f]) {
+        if (preg_match($re, $html)) $fam[] = $f;
+    }
     // Tibetan, Tangut, Phags-pa and Mongolian are one unsliced file each (Tibetan
     // 732 KB for the three glyphs a word page shows): request only the glyphs
     // on the page, through a second URL with &text= (r21).
@@ -3448,18 +3454,18 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   /* Lead with the loaded CJK serifs so a native name renders in ONE font even
      when the OS font lacks a glyph (e.g. simplified-only 话 in 普通话, which a
      Japanese system font drops, leaving it in a mismatched fallback face). */
-  font-family: "Noto Serif SC", "Noto Serif TC", "Noto Serif JP", "Noto Serif KR",
+  font-family: "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao", "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Sans Ol Chiki", "Noto Serif Georgian", "Noto Serif Armenian", "Noto Serif Ethiopic", "Noto Sans Syriac", "Noto Serif SC", "Noto Serif TC", "Noto Serif JP", "Noto Serif KR",
     "Gentium Plus", system-ui, sans-serif; }
 /* ...but Han in a Japanese, Korean or traditional-Chinese name takes that
    language's glyph shapes, not the Simplified Chinese ones (日本語 was drawn
    in Noto Serif SC). */
 .seo-hero .native:lang(ja), .seo-hero .native [lang|="ja"], .seo-hero .native:lang(ojp), .seo-hero .native:lang(ain), .seo-hero .native:lang(rys), .seo-hero .native:lang(mvi) {
-  font-family: "Noto Serif JP", "Noto Serif SC", "Noto Serif TC", "Noto Serif KR", "Gentium Plus", system-ui, sans-serif; }
+  font-family: "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao", "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Sans Ol Chiki", "Noto Serif Georgian", "Noto Serif Armenian", "Noto Serif Ethiopic", "Noto Sans Syriac", "Noto Serif JP", "Noto Serif SC", "Noto Serif TC", "Noto Serif KR", "Gentium Plus", system-ui, sans-serif; }
 .seo-hero .native:lang(ko), .seo-hero .native [lang|="ko"], .seo-hero .native:lang(okm), .seo-hero .native:lang(oko) {
-  font-family: "Noto Serif KR", "Noto Serif TC", "Noto Serif JP", "Noto Serif SC", "Gentium Plus", system-ui, sans-serif; }
+  font-family: "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao", "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Sans Ol Chiki", "Noto Serif Georgian", "Noto Serif Armenian", "Noto Serif Ethiopic", "Noto Sans Syriac", "Noto Serif KR", "Noto Serif TC", "Noto Serif JP", "Noto Serif SC", "Gentium Plus", system-ui, sans-serif; }
 .seo-hero .native:lang(yue), .seo-hero .native:lang(zh-Hant), .seo-hero .native:lang(zh-HK), .seo-hero .native:lang(zh-TW),
 .seo-hero .native [lang|="yue"], .seo-hero .native [lang="zh-Hant"] {
-  font-family: "Noto Serif TC", "Noto Serif SC", "Noto Serif JP", "Noto Serif KR", "Gentium Plus", system-ui, sans-serif; }
+  font-family: "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao", "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Sans Ol Chiki", "Noto Serif Georgian", "Noto Serif Armenian", "Noto Serif Ethiopic", "Noto Sans Syriac", "Noto Serif TC", "Noto Serif SC", "Noto Serif JP", "Noto Serif KR", "Gentium Plus", system-ui, sans-serif; }
 .seo-hero .sub { font-size: 1.1rem; color: var(--muted); margin: 0 0 1rem; }
 .seo-meta { display: flex; flex-wrap: wrap; gap: .5rem .75rem; margin: 1rem 0 1.5rem; }
 .seo-meta .chip { background: var(--card); border: 1px solid var(--line);
@@ -3689,7 +3695,7 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
 /* Native-script glyph (Chữ Nôm / kana / hangul / Tangut / Phags-pa / Manchu …)
    shown above the romanization. */
 .seo-chartable td.c-form .c-native { display: block; font-size: 1.5rem; line-height: 1.2;
-  font-family: "Noto Serif JP", "Noto Serif SC", "Noto Serif TC", "Noto Serif KR",
+  font-family: "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao", "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Sans Ol Chiki", "Noto Serif Georgian", "Noto Serif Armenian", "Noto Serif Ethiopic", "Noto Sans Syriac", "Noto Serif JP", "Noto Serif SC", "Noto Serif TC", "Noto Serif KR",
     "Noto Serif Tangut", "Noto Sans Phags Pa", "Noto Sans Mongolian", "HanaMinA",
     "HanaMinB", "Nom Na Tong", serif; }
 .seo-chartable td.c-form .c-rom { display: block; font-size: .92rem; color: var(--muted); }
@@ -3715,7 +3721,7 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
   /* Same chain as the interactive map: Gentium Plus / Charis SIL render the
      romanized diacritics (POJ tone marks, ǔ) cleanly; Noto Serif CJK + platform
      Mincho/Song fonts cover the Han glyphs. */
-  font-family: "Gentium Plus", "Charis SIL", "Noto Serif", "Noto Serif JP",
+  font-family: "Gentium Plus", "Charis SIL", "Noto Serif", "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao", "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Sans Ol Chiki", "Noto Serif Georgian", "Noto Serif Armenian", "Noto Serif Ethiopic", "Noto Sans Syriac", "Noto Serif JP",
     "Noto Serif SC", "Noto Serif TC", "Noto Serif KR", "Source Han Serif",
     "Songti SC", "STSong", "SimSun", "Hiragino Mincho ProN", "Yu Mincho",
     "MS Mincho", Georgia, "Times New Roman", serif;
@@ -3886,7 +3892,7 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
 .seo-ex .ex-w .lbl { font-size: .72rem; text-transform: uppercase; letter-spacing: .04em;
   color: var(--muted); margin: 0 0 .2rem; }
 .seo-ex .ex-w .sf { font-size: 1.5rem; line-height: 1.15; margin: 0; word-break: break-word;
-  font-family: "Gentium Plus", "Charis SIL", "Noto Serif", "Noto Serif JP", "Noto Serif SC",
+  font-family: "Gentium Plus", "Charis SIL", "Noto Serif", "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao", "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Sans Ol Chiki", "Noto Serif Georgian", "Noto Serif Armenian", "Noto Serif Ethiopic", "Noto Sans Syriac", "Noto Serif JP", "Noto Serif SC",
     "Noto Serif TC", "Noto Serif KR", Georgia, serif; }
 .seo-ex .ex-w .ipa { font-size: .95rem; color: var(--accent); margin: .15rem 0 0; }
 .seo-ex .ex-han { display: grid; grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
@@ -3894,7 +3900,7 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
 .seo-ex .ex-h { background: var(--card); border: 1px solid var(--line); border-radius: .6rem;
   padding: .55rem .7rem; }
 .seo-ex .ex-h .hc { font-size: 1.7rem; line-height: 1; margin: 0 0 .25rem; text-align: center;
-  font-family: "Noto Serif SC", "Noto Serif TC", "Noto Serif JP", "Noto Serif KR", serif; }
+  font-family: "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao", "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Sans Ol Chiki", "Noto Serif Georgian", "Noto Serif Armenian", "Noto Serif Ethiopic", "Noto Sans Syriac", "Noto Serif SC", "Noto Serif TC", "Noto Serif JP", "Noto Serif KR", serif; }
 .seo-ex .ex-h .hr { font-size: .85rem; margin: .15rem 0 0; line-height: 1.3; }
 .seo-ex .ex-h .hr .rl { display: inline-block; font-size: .62rem; color: var(--muted);
   border: 1px solid var(--line); border-radius: .4rem; padding: 0 .3rem; margin-inline-end: .3rem; }
@@ -3908,7 +3914,7 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
 .seo-ex .ex-wo-sent .wo-title, .seo-ex .ex-wo-lazy .wo-title { font-size: .9rem; color: var(--muted); margin: 0 0 .6rem; }
 .seo-ex .ex-wo-sent .wo-seg, .seo-ex .ex-wo-lazy .wo-seg { display: inline-block; margin: 0 .3rem .4rem 0; padding: .15rem 0;
   border-bottom: 2px solid currentColor; font-size: 1.2rem;
-  font-family: "Gentium Plus", "Noto Serif", "Noto Serif JP", "Noto Serif SC",
+  font-family: "Gentium Plus", "Noto Serif", "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao", "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Sans Ol Chiki", "Noto Serif Georgian", "Noto Serif Armenian", "Noto Serif Ethiopic", "Noto Sans Syriac", "Noto Serif JP", "Noto Serif SC",
     "Noto Serif TC", "Noto Serif KR", Georgia, serif; }
 .seo-ex [hidden] { display: none !important; }
 /* --- Comparison tables (current lang + sibling-language columns) --- */
@@ -3923,13 +3929,13 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
 .seo-cmp-tbl th.cmp-rowhead { color: var(--muted); font-weight: 600; font-size: .85rem;
   white-space: nowrap; position: sticky; inset-inline-start: 0; background: var(--bg); z-index: 1; }
 .seo-cmp-tbl th.cmp-rowhead .cmp-char { font-size: 1.5rem; line-height: 1;
-  font-family: "Noto Serif SC", "Noto Serif TC", "Noto Serif JP", "Noto Serif KR", serif; }
+  font-family: "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao", "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Sans Ol Chiki", "Noto Serif Georgian", "Noto Serif Armenian", "Noto Serif Ethiopic", "Noto Sans Syriac", "Noto Serif SC", "Noto Serif TC", "Noto Serif JP", "Noto Serif KR", serif; }
 /* Anchor (current language) column / header highlight. */
 .seo-cmp-tbl .cmp-anchor { background: color-mix(in srgb, var(--accent) 9%, var(--card)); }
 .seo-cmp-tbl thead th.cmp-anchor { background: color-mix(in srgb, var(--accent) 14%, var(--bg)); }
 .seo-cmp-tbl thead th.cmp-anchor a, .seo-cmp-tbl thead th.cmp-anchor { color: var(--accent); font-weight: 700; }
 .seo-cmp-tbl td .cmp-sf { display: block; word-break: break-word;
-  font-family: "Gentium Plus", "Charis SIL", "Noto Serif", "Noto Serif JP", "Noto Serif SC",
+  font-family: "Gentium Plus", "Charis SIL", "Noto Serif", "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao", "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Sans Ol Chiki", "Noto Serif Georgian", "Noto Serif Armenian", "Noto Serif Ethiopic", "Noto Sans Syriac", "Noto Serif JP", "Noto Serif SC",
     "Noto Serif TC", "Noto Serif KR", Georgia, serif; }
 .seo-cmp-tbl td .cmp-ipa { display: block; color: var(--accent); font-size: .85rem; }
 .seo-cmp-tbl td .cmp-rl { font-size: .62rem; color: var(--muted); border: 1px solid var(--line);
@@ -3955,7 +3961,7 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
 .seo-cmp-wo .cmp-wo-name a:hover { text-decoration: underline; }
 .seo-cmp-wo .cmp-wo-segs .wo-seg { display: inline-block; margin: 0 .8rem .4rem 0; padding: .1rem 0;
   font-size: 1.15rem;
-  font-family: "Gentium Plus", "Noto Serif", "Noto Serif JP", "Noto Serif SC",
+  font-family: "Gentium Plus", "Noto Serif", "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao", "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Sans Ol Chiki", "Noto Serif Georgian", "Noto Serif Armenian", "Noto Serif Ethiopic", "Noto Sans Syriac", "Noto Serif JP", "Noto Serif SC",
     "Noto Serif TC", "Noto Serif KR", Georgia, serif; }
 /* Narrow screens: keep each language's segments on a single line and let the
    whole block scroll horizontally instead of wrapping. Wrapping is what tangled
@@ -4705,8 +4711,27 @@ function seo_comparisons(string $map, string $code, string $ui,
   <div class="ex-wo-pick">
     <label for="ex-wo-<?= e($uid) ?>" class="ex-ind"><?= e(seo_t($ui, 'ex_pick')) ?>: </label>
     <select id="ex-wo-<?= e($uid) ?>" class="ex-wo-select">
+      <?php
+        // Label each sentence in the page's language (its own row of the same
+        // sentence), then English; the stored titles are Japanese or English
+        // source titles and showed in every UI (r25).
+        $woText = function (string $c, $id) use ($allWo): string {
+            static $byId = [];
+            if (!isset($byId[$c])) { $byId[$c] = []; foreach (($allWo[$c] ?? []) as $r) if (isset($r['id'])) $byId[$c][$r['id']] = $r['segs'] ?? []; }
+            $segs = $byId[$c][$id] ?? null; if (!$segs) return '';
+            $parts = array_values(array_filter(array_map(fn($g) => preg_replace('/[\x{200B}-\x{200D}\x{2060}]/u', '', explode('|', (string) ($g[1] ?? ''))[0]), $segs), 'strlen'));   // drop the |transliteration and zero-width marks
+            $sp = preg_match('/^(ja|zh|yue|th|lo|km|my)(_|$)/', $c) ? '' : ' ';
+            return trim(implode($sp, $parts));
+        };
+        $uiRow = ['zh_hant' => 'zh_tw'][$ui] ?? $ui;
+        $sentIds = array_keys($sentIndex);
+      ?>
       <?php foreach ($sentList as $si => $s): ?>
-      <?php $tl = (string) ($s['title'] ?? ''); $tlang = preg_match('/[\x{3040}-\x{30FF}\x{4E00}-\x{9FFF}]/u', $tl) ? 'ja' : (preg_match('/^[\x{0020}-\x{007E}]+$/u', $tl) ? 'en' : ''); ?>
+      <?php $sid = $sentIds[$si] ?? null;
+            $tl = $sid !== null ? $woText($uiRow, $sid) : ''; $tlang = '';
+            if ($tl === '' && $sid !== null) { $tl = $woText('en', $sid); $tlang = $tl !== '' && $ui !== 'en' ? 'en' : ''; }
+            if ($tl === '') { $tl = (string) ($s['title'] ?? ''); $tlang = preg_match('/[\x{3040}-\x{30FF}\x{4E00}-\x{9FFF}]/u', $tl) ? 'ja' : (preg_match('/^[\x{0020}-\x{007E}]+$/u', $tl) ? 'en' : ''); }
+            if (mb_strlen($tl) > 60) $tl = mb_substr($tl, 0, 58) . '…'; ?>
       <option value="<?= $si ?>"<?= ($tlang !== '' && $tlang !== $ui) ? ' lang="' . $tlang . '"' : '' ?>><?= e($tl !== '' ? $tl : ('#' . $si)) ?></option>
       <?php endforeach; ?>
     </select>

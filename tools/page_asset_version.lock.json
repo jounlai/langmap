@@ -1,23 +1,23 @@
 {
   "app.js": {
-    "version": 105,
-    "hash": "8921fb9380f3c5b4"
+    "version": 106,
+    "hash": "fbeeedf4c5306ab5"
   },
   "data.js": {
     "version": 92,
     "hash": "af605212ac66624c"
   },
   "hanmap_data.js": {
-    "version": 196,
-    "hash": "d893f64d0d750d68"
+    "version": 197,
+    "hash": "93bab11d22da7436"
   },
   "hanmap_trivia_rt/base.js": {
     "version": 2,
     "hash": "aa03d6c05a4b3504"
   },
   "lang-filter.js": {
-    "version": 62,
-    "hash": "0d7eb9b487561d4b"
+    "version": 63,
+    "hash": "163fd7c46aa3e4ac"
   },
   "lang-picker.js": {
     "version": 8,
@@ -36,12 +36,12 @@
     "hash": "72a59f7e6407e0c5"
   },
   "master.js": {
-    "version": 25,
-    "hash": "48ff49b3f94a4491"
+    "version": 26,
+    "hash": "c258867a3086dc8f"
   },
   "my-languages.js": {
-    "version": 39,
-    "hash": "19ddf9dbe6f5a4c8"
+    "version": 40,
+    "hash": "1722d584402cce03"
   },
   "namemap_data.js": {
     "version": 9,
@@ -56,12 +56,12 @@
     "hash": "1725c7a21734a986"
   },
   "namemap_names_ext.js": {
-    "version": 8,
-    "hash": "13754e5759677c52"
+    "version": 9,
+    "hash": "45e649c2244267b3"
   },
   "nav-short.js": {
-    "version": 33,
-    "hash": "e244c1dca3a8b9b8"
+    "version": 34,
+    "hash": "10ee4730c65e0f40"
   },
   "poster_geo.js": {
     "version": 12,
@@ -104,7 +104,7 @@
     "hash": "99fafa5b03aba24a"
   },
   "wordmap_data.js": {
-    "version": 345,
-    "hash": "361ace197de90657"
+    "version": 346,
+    "hash": "2ef170d2ce9e2554"
   }
 }

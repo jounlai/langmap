@@ -480,7 +480,7 @@ const LANG_DATA = {
   ta: { name: 'Tamil', native: 'தமிழ்', lat: 13.08, lng: 80.27, // Chennai
 },
   // Irula — Dravidian Southern (Tamil-Kannada), ~200K speakers, Tamil Nadu/Kerala/Karnataka. Distinctive Adivasi tribal language.
-  // Sources: Ethnologue 27 'iru'; Glottolog irul1241; Zvelebil (1973) Comparative Dravidian Phonology.
+  // Sources: Ethnologue 27 'iru'; Glottolog irul1243; Zvelebil (1973) Comparative Dravidian Phonology.
   iru: { name: 'Irula', native: 'இருளர் மொழி', lat: 11.45, lng: 76.71, // Nilgiri Hills (Irula heartland)
 },
   // === European ===
@@ -542,7 +542,7 @@ const LANG_DATA = {
   prs: { name: 'Dari', native: 'دری', lat: 34.53, lng: 69.17, // Kabul
 },
   // Tregami (Trēgāmī) — Nuristani (sister to Kati and Waigali within the small Nuristani family of Indo-Iranian), ~3.5K, Afghanistan (Nuristan Province — Tregam Valley).
-  // Sources: Ethnologue 27 'trm'; Glottolog treg1245; Morgenstierne (1973) Notes on Tregami.
+  // Sources: Ethnologue 27 'trm'; Glottolog treg1243; Morgenstierne (1973) Notes on Tregami.
   trm: { name: 'Tregami', native: 'Trēgāmī', lat: 35.31, lng: 70.47, // Tregam Valley, Nuristan Province, Afghanistan
 },
   sw: { name: 'Swahili', native: 'Kiswahili', lat: -6.79, lng: 39.28, // Dar es Salaam
@@ -572,11 +572,11 @@ const LANG_DATA = {
   sbp: { name: 'Sangu', native: 'Eshisango', lat: -8.91, lng: 33.46, // Mbeya, Tanzania
 },
   // Rwa (North Pare) — Bantu E.301 Pare cluster, ~140K speakers, Tanzania (Mwanga / Same districts, North Pare mountains).
-  // Sources: Ethnologue 27 'rwk'; Glottolog rwac1239; Mreta (1998) Rwa grammar; Schadeberg/Sebonego (2010).
+  // Sources: Ethnologue 27 'rwk'; Glottolog rwaa1238; Mreta (1998) Rwa grammar; Schadeberg/Sebonego (2010).
   rwk: { name: 'Rwa', native: 'Kirwa', lat: -3.35, lng: 36.75, // Mwanga district, Kilimanjaro Region
 },
   // Asu (Pare, Chasu) — Bantu E.31 (sister to rwk Rwa within Pare cluster), ~500K, Tanzania (Kilimanjaro Region — South Pare mountains, Same District).
-  // Sources: Ethnologue 27 'asu'; Glottolog pare1247; Mreta (1998) Asu phonology and grammar.
+  // Sources: Ethnologue 27 'asu'; Glottolog asut1235; Mreta (1998) Asu phonology and grammar.
   asu: { name: 'Asu', native: 'Chasu', lat: -4.07, lng: 37.74, // Same, Kilimanjaro Region, Tanzania
 },
   tl: { name: 'Tagalog', native: 'Tagalog', lat: 14.60, lng: 120.98, // Manila
@@ -633,7 +633,7 @@ const LANG_DATA = {
   yrk: { name: 'Nenets', native: 'Ненэцяˮ вада', lat: 67.64, lng: 53.01, // Naryan-Mar
 },
   // Forest Enets — Uralic Samoyedic Northern (sister to Tundra Enets enh and Tundra Nenets yrk within the Northern Samoyedic branch; the Forest Enets community lives in the taiga forest zone south of the Tundra Enets), ~30 fluent (critically endangered — UNESCO critically endangered; on the verge of extinction with only elderly speakers remaining), Russia (Krasnoyarsk Krai — Taymyr Dolgan-Nenets District; Potapovo and Vorontsovo settlements on the lower Yenisei River).
-  // Sources: Ethnologue 27 'enf'; Glottolog fore1281; Sorokina (1995) Forest Enets Reference Grammar.
+  // Sources: Ethnologue 27 'enf'; Glottolog fore1265; Sorokina (1995) Forest Enets Reference Grammar.
   enf: { name: 'Forest Enets', native: 'Бай тоны', lat: 68.71, lng: 86.17, // Potapovo, Taymyr Dolgan-Nenets District, Krasnoyarsk Krai
 },
   // Nganasan — Samoyedic, ~125 speakers, Taymyr Peninsula. Northernmost Eurasian language.
@@ -778,7 +778,7 @@ const LANG_DATA = {
       good:   { evidence: 'direct', source: 'Reinhorn (1970) — ດີ diː "good"; rising tone (T5); cognate Thai ดี' },
     } },
   // Thai Song (Lao Song, Song Dam) — Tai-Kadai (Southwestern Tai, Black Tai diaspora; sister to bj_blk Black Tai of Vietnam), ~32K, Thailand (central + western — Petchaburi, Suphanburi, Nakhon Pathom).
-  // Sources: Ethnologue 27 'soa'; Glottolog thai1267; Hartmann (1986) Sons of Soung; Theraphan (2007) Tai dialect study.
+  // Sources: Ethnologue 27 'soa'; Glottolog thai1259; Hartmann (1986) Sons of Soung; Theraphan (2007) Tai dialect study.
   soa: { name: 'Thai Song', native: 'ภาษาไทยซง / Tai Sǒng', lat: 13.85, lng: 100.13, // Nakhon Pathom (Thai Song heartland in Thailand)
 },
   // === African ===
@@ -802,7 +802,7 @@ const LANG_DATA = {
   aiw: { name: 'Aari', native: 'Aramado', lat: 6.05, lng: 36.77, // Bako, Aari woreda, South Omo, Ethiopia
 },
   // Sebat Bet Gurage — Ethiopian Semitic, ~440K speakers, Gurage Zone Ethiopia. "Seven Houses" macrolanguage.
-  // Sources: Ethnologue 27 'sgw'; Glottolog seba1240; Hetzron (1972) Ethiopian Semitic.
+  // Sources: Ethnologue 27 'sgw'; Glottolog seba1251; Hetzron (1972) Ethiopian Semitic.
   sgw: { name: 'Sebat Bet Gurage', native: 'ሰባት ቤት ጉራጌ', lat: 8.20, lng: 38.20, // Welkite, Gurage Zone
 },
   mg: { name: 'Malagasy', native: 'Malagasy', lat: -18.91, lng: 47.52, // Antananarivo
@@ -851,13 +851,13 @@ const LANG_DATA = {
   lzz: { name: 'Laz', native: 'Lazuri', lat: 41.04, lng: 41.41, // Pazar, Rize, Turkey (Laz heartland)
 },
   // Svan — Kartvelian (sister to Zan-Georgian branch), ~14-30K, Svaneti highlands of NW Georgia. Most divergent Kartvelian.
-  // Sources: Ethnologue 27 'sva'; Glottolog svan1245; Tuite (1997) Svan; Schmidt (1991) Kartvelian phonology.
+  // Sources: Ethnologue 27 'sva'; Glottolog svan1243; Tuite (1997) Svan; Schmidt (1991) Kartvelian phonology.
   sva: { name: 'Svan', native: 'ლუშნუ ნინ', lat: 43.00, lng: 42.72, // Mestia, Svaneti
 },
   hy: { name: 'Armenian', native: 'Հայերեն', lat: 40.18, lng: 44.51, // Yerevan
 },
   // Western Armenian (Արեւմտահայերէն Arevmdahayerēn) — Indo-European Armenian (sister to hy Eastern Armenian; the two diverged after the Armenian Genocide of 1915 displaced Western speakers from Anatolian homeland), ~1M+ in diaspora.
-  // Sources: Ethnologue 27 'hyw'; Glottolog west2348; Donabédian (2018) Western Armenian grammar.
+  // Sources: Ethnologue 27 'hyw'; Glottolog homs1234; Donabédian (2018) Western Armenian grammar.
   hyw: { name: 'Western Armenian', native: 'Արեւմտահայերէն', lat: 40.99, lng: 28.96, // Istanbul (largest historical Western Armenian center)
 },
   nv: { name: 'Navajo', native: 'Diné bizaad', lat: 36.17, lng: -109.51, // Window Rock
@@ -892,7 +892,7 @@ const LANG_DATA = {
       good:   { evidence: 'direct', source: 'Young & Morgan (1987) — yáʼátʼééh "it is good" (impersonal verb form); same as the greeting', formType: 'inflected-form', note: 'lexical overlap with hello: yáʼátʼééh = "it is good" used as both greeting and adjective' },
     } },
   // Koyukon — Na-Dené Athabaskan (Northern), ~65 speakers, central Alaska along the Yukon-Koyukuk-Tanana rivers.
-  // Sources: Ethnologue 27 'koy'; Glottolog koyu1242; Jones (2000) Koyukon Athabaskan Dictionary.
+  // Sources: Ethnologue 27 'koy'; Glottolog koyu1237; Jones (2000) Koyukon Athabaskan Dictionary.
   koy: { name: 'Koyukon', native: 'Denaakkʼe', lat: 64.74, lng: -156.96, // Galena, Alaska (Yukon River)
 },
   haw: { name: 'Hawaiian', native: 'ʻŌlelo Hawaiʻi', lat: 21.31, lng: -157.86, // Honolulu
@@ -975,7 +975,7 @@ const LANG_DATA = {
   bft: { name: 'Balti', native: 'བལ་ཏི་སྐད', lat: 35.30, lng: 75.63, // Skardu, Gilgit-Baltistan
 },
   // Ladakhi — Sino-Tibetan Bodish (Western Tibetic, Ladakhi-Balti subgroup — sister to bft Balti within Western Tibetic), ~110K, India (Ladakh — Leh district + lower Kargil; small Tibetan-region populations).
-  // Sources: Ethnologue 27 'lbj'; Glottolog lada1255; Koshal (1979) Ladakhi Grammar; Norman (2010) Ladakhi-English Dictionary.
+  // Sources: Ethnologue 27 'lbj'; Glottolog lada1244; Koshal (1979) Ladakhi Grammar; Norman (2010) Ladakhi-English Dictionary.
   lbj: { name: 'Ladakhi', native: 'ལ་དྭགས་སྐད', lat: 34.16, lng: 77.58, // Leh, Ladakh
 },
   // Khams Tibetan — Sino-Tibetan Bodish, ~1.5M speakers, eastern Tibet (Kham region) + western Sichuan + NW Yunnan + SE Qinghai.
@@ -989,11 +989,11 @@ const LANG_DATA = {
   ii: { name: "Yi", native: 'ꆈꌠꉙ', lat: 27.90, lng: 102.26,
 },
   // Azhe — Sino-Tibetan (Tibeto-Burman, Loloish, Southeastern), ~50K, China (Yunnan — Mile and Yiliang counties around Honghe Hani-Yi Autonomous Prefecture).
-  // Sources: Ethnologue 27 'yiz'; Glottolog azhe1239; Wang & Yu (1994) Yi/Lolo-Burmese phonology.
+  // Sources: Ethnologue 27 'yiz'; Glottolog azhe1235; Wang & Yu (1994) Yi/Lolo-Burmese phonology.
   yiz: { name: 'Azhe', native: 'Azhepu', lat: 24.41, lng: 103.41, // Mile County, Honghe Prefecture, Yunnan
 },
   // Hani — Sino-Tibetan (Tibeto-Burman, Loloish, Southeastern — sister to Akha ahk and Bisu within Hanoid Loloish), ~1.5M, China (Yunnan — Honghe + Pu'er prefectures) + Vietnam (Lào Cai) + Laos (Phongsaly).
-  // Sources: Ethnologue 27 'hni'; Glottolog hani1247; Lewis (1989) Akha-English Dictionary (Hani context).
+  // Sources: Ethnologue 27 'hni'; Glottolog hani1248; Lewis (1989) Akha-English Dictionary (Hani context).
   hni: { name: 'Hani', native: 'Haqniqdoq', lat: 23.37, lng: 102.42, // Honghe County, Yunnan (Hani heartland)
 },
   th_isan: { name: "Isan", native: 'ภาษาอีสาน', lat: 16.43, lng: 102.83,
@@ -1198,7 +1198,7 @@ const LANG_DATA = {
   ckb: { name: "Sorani Kurdish", native: 'سۆرانی', lat: 36.19, lng: 44.01,
 },
   // Southern Kurdish (Kermashani / Pehlewani / Kelhori / Lekî) — Iranian (Northwest), ~3M, western Iran (Kermanshah, Ilam) + Iraqi border.
-  // Sources: Ethnologue 27 'sdh'; Glottolog sout2664; Fattah (2000) Les Dialectes Kurdes Méridionaux.
+  // Sources: Ethnologue 27 'sdh'; Glottolog sout2640; Fattah (2000) Les Dialectes Kurdes Méridionaux.
   sdh: { name: 'Southern Kurdish', native: 'کوردیی خوارین', lat: 34.31, lng: 47.07, // Kermanshah
 },
   ps: { name: 'Pashto', native: 'پښتو', lat: 34.52, lng: 69.17,
@@ -1265,11 +1265,11 @@ const LANG_DATA = {
   efi: { name: 'Efik', native: 'Usem Efik', lat: 4.96, lng: 8.32, // Calabar, Cross River State (historic Efik kingdom)
 },
   // Ekpeye — Niger-Congo (Atlantic-Congo, Volta-Niger, Igboid — sister to ig Igbo within Igboid; classified as separate language under Igboid by Ethnologue), ~50K, Nigeria (Rivers State — Ahoada West, Ahoada East).
-  // Sources: Ethnologue 27 'ekp'; Glottolog ekpe1248; Williamson (1989) Niger-Congo classification.
+  // Sources: Ethnologue 27 'ekp'; Glottolog ekpe1253; Williamson (1989) Niger-Congo classification.
   ekp: { name: 'Ekpeye', native: 'Ekpeye', lat: 5.05, lng: 6.52, // Ahoada, Rivers State, Nigeria
 },
   // Izii — Niger-Congo (Atlantic-Congo, Volta-Niger, Igboid — sister to ig Igbo and ekp Ekpeye within Igboid; classified as separate language by Ethnologue), ~600K, Nigeria (Ebonyi State — Abakaliki, Izzi LGA).
-  // Sources: Ethnologue 27 'izz'; Glottolog izii1238; Williamson (1989) Niger-Congo classification.
+  // Sources: Ethnologue 27 'izz'; Glottolog izii1239; Williamson (1989) Niger-Congo classification.
   izz: { name: 'Izii', native: 'Izi', lat: 6.32, lng: 8.11, // Abakaliki, Ebonyi State, Nigeria
 },
   // Ibibio — Cross River, ~5M speakers, southeastern Nigeria. Major Niger-Congo language.
@@ -1285,11 +1285,11 @@ const LANG_DATA = {
   deg: { name: 'Degema', native: 'Atala-mọ', lat: 4.75, lng: 6.75, // Bonny, Rivers State, Nigeria
 },
   // Yekhee (Etsako, formerly Etsako proper) — Niger-Congo Edoid (North-Central, sister to bin Edo and other Edoid; Yekhee cluster includes Auchi, Avianwu, Uzairue), ~660K, Nigeria (Edo State — Etsako).
-  // Sources: Ethnologue 27 'ets'; Glottolog yekh1235; Williamson (1989) Niger-Congo classification.
+  // Sources: Ethnologue 27 'ets'; Glottolog yekh1238; Williamson (1989) Niger-Congo classification.
   ets: { name: 'Yekhee', native: 'Yekhee', lat: 7.07, lng: 6.27, // Auchi, Etsako, Edo State, Nigeria
 },
   // Isoko — Niger-Congo Edoid, ~600K speakers, Delta State Nigeria. Sister to Urhobo (urh).
-  // Sources: Ethnologue 27 'iso'; Glottolog isok1238; Williamson (1972) Isoko phonology.
+  // Sources: Ethnologue 27 'iso'; Glottolog isok1239; Williamson (1972) Isoko phonology.
   iso: { name: 'Isoko', native: 'Isoko', lat: 5.66, lng: 6.24, // Oleh, Delta State (Isoko heartland)
 },
   ha: { name: 'Hausa', native: 'Hausa', lat: 12.00, lng: 8.52,
@@ -1299,7 +1299,7 @@ const LANG_DATA = {
   xed: { name: 'Hdi', native: 'Hədi', lat: 10.74, lng: 13.80, // Mokolo, Cameroon (Mandara Mountains)
 },
   // Kera — Afro-Asiatic (Chadic, East, A subgroup), ~50K, Chad (Mayo-Kebbi East prefecture) + Cameroon (Far North border).
-  // Sources: Ethnologue 27 'ker'; Glottolog kera1252; Ebert (1979) Sprache und Tradition der Kera.
+  // Sources: Ethnologue 27 'ker'; Glottolog kera1255; Ebert (1979) Sprache und Tradition der Kera.
   ker: { name: 'Kera', native: 'kura kera', lat: 10.05, lng: 15.42, // Léré, Mayo-Kebbi East, Chad
 },
   // Daba — Afro-Asiatic (Chadic, Central, Daba subgroup), ~30K, Cameroon (Far North Region) + Nigeria (Adamawa State).
@@ -1322,7 +1322,7 @@ const LANG_DATA = {
   om: { name: 'Oromo', native: 'Afaan Oromoo', lat: 8.55, lng: 39.27, // Adama (Oromia regional center)
 },
   // Konso — Cushitic East (Lowland), ~250K, Ethiopia (SNNPR — Konso Special Woreda). Famous for terraced agriculture and stone tower-stelae (UNESCO heritage 2011).
-  // Sources: Ethnologue 27 'kxc'; Glottolog kons1241; Ongaye (2013) Konso grammar; Sasse (1976) East Cushitic.
+  // Sources: Ethnologue 27 'kxc'; Glottolog kons1243; Ongaye (2013) Konso grammar; Sasse (1976) East Cushitic.
   // Review 433: this row cited Ongaye (2013) above while actually holding
   // Oromo. 19 of 25 cells were Oromo or unidentifiable; every replacement
   // below is a page-level citation from the grammar itself. The tell was
@@ -1361,7 +1361,7 @@ const LANG_DATA = {
   drs: { name: 'Gedeo', native: 'Gedeʼuffa', lat: 6.10, lng: 38.30, // Dilla, Gedeo Zone, SNNPR
 },
   // Daasanach — Cushitic East (Lowland), ~50K, Kenya/Ethiopia border (Lake Turkana/Omo Delta). Distinctive cattle-pastoral culture (Murle-Daasanach).
-  // Sources: Ethnologue 27 'dsh'; Glottolog daas1239; Tosco (2001) The Dhaasanac Language.
+  // Sources: Ethnologue 27 'dsh'; Glottolog daas1238; Tosco (2001) The Dhaasanac Language.
   dsh: { name: 'Daasanach', native: 'Daasanach', lat: 4.55, lng: 36.04, // Omorate, South Omo, Ethiopia (centroid Kenya/Ethiopia border)
 },
   rw: { name: 'Kinyarwanda', native: 'Ikinyarwanda', lat: -1.94, lng: 30.06,
@@ -1550,7 +1550,7 @@ const LANG_DATA = {
   kmh: { name: 'Kalam', native: 'Kalam', lat: -5.05, lng: 144.55, // Schrader Range, Madang, PNG
 },
   // Neko — Trans-New Guinea (Madang, Rai Coast — Yaganon family, close to Kalam-Kobon area), ~640 speakers, PNG (Madang Province — Rai Coast District). SOV word order, Latin script.
-  // Sources: Ethnologue 27 'nej'; Glottolog neko1242; Wiktionary; transnewguinea.org/language/neko.
+  // Sources: Ethnologue 27 'nej'; Glottolog neko1240; Wiktionary; transnewguinea.org/language/neko.
   nej: { name: 'Neko', native: 'Neko', lat: -5.85, lng: 145.95, // Rai Coast, Madang, PNG
 },
   // Kanite — Trans-New Guinea (Kainantu-Goroka, Kainantu — sister to Kamano, Yagaria, Gadsup within the Kainantu branch of Eastern Highlands), ~6K, PNG (Eastern Highlands Province — Kainantu District around Kanite hamlet/Henganofi area).
@@ -1558,7 +1558,7 @@ const LANG_DATA = {
   kmu: { name: 'Kanite', native: 'Kanite', lat: -6.30, lng: 145.85, // Kainantu/Henganofi area, Eastern Highlands, PNG
 },
   // Mapos Buang — Austronesian (Malayo-Polynesian, Oceanic, Western Oceanic, Buang), ~10K, PNG (Morobe Province — Snake River valley, Mumeng District).
-  // Sources: Ethnologue 27 'bzh'; Glottolog mapo1252; Hooley (2002) The Buang of Papua New Guinea.
+  // Sources: Ethnologue 27 'bzh'; Glottolog mapo1242; Hooley (2002) The Buang of Papua New Guinea.
   // Mussau-Emira — Austronesian (Oceanic, Western Oceanic, Mussau-Emira), ~5K, PNG (St Matthias Group — Mussau Island, Emira Island, north of New Ireland).
   // Sources: Ethnologue 27 'emi'; Glottolog muss1246; Ross (1988) Proto Oceanic and the Austronesian Languages of Western Melanesia.
   emi: { name: 'Mussau-Emira', native: 'Mussau', lat: -1.51, lng: 149.62, // Mussau Island, St Matthias Group, PNG
@@ -1568,9 +1568,9 @@ const LANG_DATA = {
   hot: { name: 'Hote', native: 'Hote', lat: -6.85, lng: 147.05, // Lae area, Morobe Province, PNG
 },
   // Nalca — Trans-New Guinea (Mek family, sister to other Mek languages of central Highlands New Guinea), ~10K, Indonesia (Papua Highlands — Yahukimo Regency).
-  // Sources: Ethnologue 27 'nlc'; Glottolog nalc1238; Heeschen (1992) The Mek Languages of Irian Jaya.
+  // Sources: Ethnologue 27 'nlc'; Glottolog nalc1240; Heeschen (1992) The Mek Languages of Irian Jaya.
   // Faiwol — Trans-New Guinea (Ok family — sister to Telefol, Mian, Bimin within Ok), ~5K, PNG (Western Province — Olsobip area, Star Mountains).
-  // Sources: Ethnologue 27 'fai'; Glottolog faiw1238; Healey (1964) The Ok Family; Mecklenburg (1974) Faiwol Phonology.
+  // Sources: Ethnologue 27 'fai'; Glottolog faiw1243; Healey (1964) The Ok Family; Mecklenburg (1974) Faiwol Phonology.
   fai: { name: 'Faiwol', native: 'Faiwol', lat: -5.42, lng: 141.08, // Olsobip, Star Mountains, Western Province, PNG
 },
   nlc: { name: 'Nalca', native: 'Nalca', lat: -4.50, lng: 139.63, // Yahukimo Regency, Highlands Papua, Indonesia
@@ -1845,7 +1845,7 @@ const LANG_DATA = {
       one:    { evidence: 'direct', source: 'Cleasby-Vigfusson — einn (num.) "one"; nominative singular masculine strong adjective; geminate /nː/ from *ainaz', formType: 'inflected-form', note: 'feminine ein, neuter eitt; cognate OE ān (whence Mod. Eng. one/an)' },
       good:   { evidence: 'direct', source: 'Cleasby-Vigfusson — góðr (adj.) "good"; nominative singular masculine strong adjective; long ó; suppletive comparative betri', formType: 'inflected-form' },
     } },
-  got: { name: 'Gothic', native: '𐌲𐌿𐍄𐌹𐍃𐌺', lat: 45.05, lng: 34.10,
+  got: { name: 'Gothic', native: '𐌲𐌿𐍄𐌹𐍃𐌺', lat: 43.21, lng: 25.61,
 },
   cu: { name: 'Old Church Slavonic', native: 'Словѣньскъ', lat: 42.70, lng: 23.32,
 },
@@ -1925,7 +1925,7 @@ const LANG_DATA = {
   hch: { name: 'Wixarika', native: 'Wixárika niukieya', lat: 22.13, lng: -104.50, // San Andrés Cohamiata, Jalisco
 },
   // Guerrero Nahuatl — Uto-Aztecan Nahuan Central (sister to Classical Nahuatl nci and Huasteca varieties nch/nhw/nhe; the major southern variety preserving Postclassic Nahuatl features), ~150K, Mexico (Guerrero state — Sierra Norte/La Montaña region — Tlapa, Olinalá, Atlixtac, Copanatoyac, Acatepec municipalities; small populations in Puebla and Morelos border areas).
-  // Sources: Ethnologue 27 'ngu'; Glottolog guer1235; Lastra (1986) Las áreas dialectales del náhuatl moderno.
+  // Sources: Ethnologue 27 'ngu'; Glottolog guer1241; Lastra (1986) Las áreas dialectales del náhuatl moderno.
   ngu: { name: 'Guerrero Nahuatl', native: 'Náhuatl', lat: 17.55, lng: -98.57, // Tlapa de Comonfort, Guerrero
 },
   // Nawat (Pipil) — Uto-Aztecan Nahuan (sister to other Nahuan varieties; survived as a "post-Classical" Nahuan offshoot in El Salvador for 800 years before nearly going extinct in the 1932 La Matanza massacre that targeted indigenous Salvadorans), ~500-2000 fluent (critically endangered — UNESCO critically endangered; revival via El Salvador Pipil Communities and IRIN-USAID educational programs), El Salvador (Sonsonate department — Nahuizalco, Santo Domingo de Guzmán, Cuisnahuat municipalities).
@@ -2242,7 +2242,7 @@ const LANG_DATA = {
   gaa: { name: 'Ga', native: 'Gã', lat: 5.55, lng: -0.20, // Accra (Ga heartland)
 },
   // Nzima — Niger-Congo Kwa Bia (sister to Ahanta and more distantly to ak Akan within the Bia/Volta-Comoé branch), ~330K, Ghana (Western Region — Nzema East/West districts) + Côte d'Ivoire (Aboisso area).
-  // Sources: Ethnologue 27 'nzi'; Glottolog nzim1241; Annan (1994) Nzema Phonology and Morphology.
+  // Sources: Ethnologue 27 'nzi'; Glottolog nzim1238; Annan (1994) Nzema Phonology and Morphology.
   nzi: { name: 'Nzima', native: 'Nzɛma', lat: 4.85, lng: -2.49, // Axim, Western Region, Ghana
 },
   // South Slavic
@@ -2253,11 +2253,11 @@ const LANG_DATA = {
   lg: { name: 'Luganda', native: 'Luganda', lat: 0.31, lng: 32.58, // Kampala
 },
   // Zande — Niger-Congo Ubangian (sister to Nzakara and the Ngbandi-Sango cluster within Ubangian; not Bantu despite Central African location), ~1.1M, South Sudan (Western Equatoria, Yambio area) + Democratic Republic of Congo (Bas-Uélé/Haut-Uélé) + Central African Republic (Mbomou Prefecture). Famous as the subject of E.E. Evans-Pritchard's classic 1937 anthropological monograph "Witchcraft, Oracles and Magic Among the Azande".
-  // Sources: Ethnologue 27 'zne'; Glottolog zand1257; Tucker (1959) Le Groupe Linguistique Zandé.
+  // Sources: Ethnologue 27 'zne'; Glottolog zand1248; Tucker (1959) Le Groupe Linguistique Zandé.
   zne: { name: 'Zande', native: 'Pa-Zande', lat: 4.57, lng: 28.40, // Yambio, Western Equatoria, South Sudan
 },
   // Masaaba (Lugisu) — Bantu JE31, ~3M, Mt Elgon eastern Uganda. 4th-largest Ugandan language.
-  // Sources: Ethnologue 27 'myx'; Glottolog masa1320; Brown (1972) Lumasaaba grammar.
+  // Sources: Ethnologue 27 'myx'; Glottolog masa1299; Brown (1972) Lumasaaba grammar.
   myx: { name: 'Masaaba', native: 'Lumasaaba', lat: 1.08, lng: 34.18, // Mbale, Mt Elgon
 },
   // Bukusu (Lubukusu) — Bantu JE31c (Luhya cluster), ~750K-1.4M, Bungoma County Kenya. Sister to Masaaba (myx).
@@ -2300,7 +2300,7 @@ const LANG_DATA = {
   lol: { name: 'Mongo', native: 'Lomongo', lat: 0.51, lng: 18.97, // Mbandaka
 },
   // Tetela — Bantu C71, ~750K, Sankuru region central DRC. Patrice Lumumba's mother tongue.
-  // Sources: Ethnologue 27 'tll'; Glottolog tete1259; Hagendorens (1956) Dictionnaire Otetela.
+  // Sources: Ethnologue 27 'tll'; Glottolog tete1250; Hagendorens (1956) Dictionnaire Otetela.
   tll: { name: 'Tetela', native: 'Otetela', lat: -4.74, lng: 24.05, // Kindu/Lodja, Kasai-Oriental
 },
   // West African (Niger-Congo Atlantic / Mande)
@@ -2309,7 +2309,7 @@ const LANG_DATA = {
   bm: { name: 'Bambara', native: 'Bamanankan', lat: 12.65, lng: -7.99, // Bamako
 },
   // Donno So (Kamba So) — Niger-Congo Atlantic-Congo Dogon (sister to Toro So, Toro Tegu, Tommo So within the Dogon family of Mali — Dogon is a small distinctive language family of central Mali on the Bandiagara escarpment, with ~13 distinct Dogon languages historically; the type-language for the Dogon people internationally famous for their Bandiagara cliff dwellings, traditional cosmology, and the role of French anthropologist Marcel Griaule's mid-20th c ethnography), ~50K, Mali (Mopti region — Bandiagara escarpment, Dourou, Sangha villages).
-  // Sources: Ethnologue 27 'dds'; Glottolog donn1238; Plungian (1995) Dogon.
+  // Sources: Ethnologue 27 'dds'; Glottolog donn1239; Plungian (1995) Dogon.
   // Code corrected ddn -> dds on 2026-08-26: ISO 639-3 'ddn' is Dendi, a Songhay
   // language of Benin. Three cells (blood, tongue, tooth) had been filled from the
   // Songhay rows and a fourth (night) from Dendi itself; all four re-sourced from
@@ -2329,7 +2329,7 @@ const LANG_DATA = {
   snk: { name: 'Soninke', native: 'Sooninkanxannen', lat: 14.92, lng: -10.81, // Kayes, Mali (Soninke heartland)
 },
   // Kita Maninkakan — Niger-Congo Mande Western Manding (sister to Bambara/Maninka/Dyula/Kao), ~430K, Mali (Kita Region — south-central, Cercle de Kita).
-  // Sources: Ethnologue 27 'mwk'; Glottolog kita1244; Vydrin (2009) Manding language family.
+  // Sources: Ethnologue 27 'mwk'; Glottolog kita1249; Vydrin (2009) Manding language family.
   mwk: { name: 'Kita Maninkakan', native: 'Maninkakan', lat: 13.04, lng: -9.49, // Kita, Mali
 },
   // Western Maninkakan (Maninka of Guinea) — Niger-Congo Mande Western Manding (sister to bm Bambara/mwk Kita Maninka), ~750K-1M, Mali (south) + Guinea (Kankan, Faranah) + Senegal (Tambacounda).
@@ -2341,7 +2341,7 @@ const LANG_DATA = {
   mev: { name: 'Mano', native: 'Maa', lat: 7.68, lng: -8.88, // Sanniquellie, Nimba County, Liberia
 },
   // Dan (Yacouba) — Niger-Congo Mande, ~1.6M speakers, western Côte d'Ivoire + Liberia.
-  // Sources: Ethnologue 27 'dnj'; Glottolog yacu1238; Erman (2005) Dan tone system.
+  // Sources: Ethnologue 27 'dnj'; Glottolog nucl1770; Erman (2005) Dan tone system.
   dnj: { name: 'Dan', native: 'Yacouba', lat: 7.41, lng: -7.55, // Man, Côte d'Ivoire (Dan heartland)
 },
   // Koyraboro Senni (Eastern Songhai) — Mali, Saharan trade-corridor
@@ -2402,11 +2402,11 @@ const LANG_DATA = {
   zap: { name: 'Zapotec', native: 'Diidxazá', lat: 16.43, lng: -95.02, // Juchitán
 },
   // Tlacolula Zapotec (San Juan Guelavía / Valley Zapotec) — Otomanguean (Zapotecan, Central Zapotec — sister to Isthmus zap and Sierra Norte varieties within the Zapotec language complex), ~6K, Mexico (Oaxaca — Tlacolula Valley east of Oaxaca City; San Juan Guelavía, Tlacolula de Matamoros).
-  // Sources: Ethnologue 27 'zts'; Glottolog tlac1241; Munro & Lopez et al. (1999) Di'csyonaary X:tee'n Dii'zh Sah Sann Lu'uc (San Lucas Quiaviní Zapotec dictionary).
+  // Sources: Ethnologue 27 'zts'; Glottolog sanj1284; Munro & Lopez et al. (1999) Di'csyonaary X:tee'n Dii'zh Sah Sann Lu'uc (San Lucas Quiaviní Zapotec dictionary).
   zts: { name: "Tlacolula Zapotec", native: "Dizhsa", lat: 16.95, lng: -96.48, // Tlacolula de Matamoros, Oaxaca, Mexico
 },
   // Mazahua (Jñatjo) — Otomanguean Otomi-Mazahua (sister to Otomi varieties such as ote, ots, otq within the Otomian sub-branch; closely related Otomi-Mazahua family is the second-largest branch of Otomanguean by speakers), ~150K, Mexico (Estado de México — Jocotitlán, Atlacomulco, San Felipe del Progreso, Ixtapan del Oro; small Michoacán populations).
-  // Sources: Ethnologue 27 'maz'; Glottolog maza1273; Stewart (1966) Mazahua phonology and morphology.
+  // Sources: Ethnologue 27 'maz'; Glottolog cent2144; Stewart (1966) Mazahua phonology and morphology.
   maz: { name: 'Mazahua', native: 'Jñatjo', lat: 19.71, lng: -99.92, // San Felipe del Progreso, Estado de México (Mazahua heartland)
 },
   // Mixtepec Mixtec — Otomanguean (Mixtecan, Eastern Mixtec — sister to mix Mixtec macro-language varieties), ~7K, Mexico (Oaxaca — San Juan Mixtepec area, Sierra Sur).
@@ -2414,22 +2414,22 @@ const LANG_DATA = {
   mix: { name: 'Mixtepec Mixtec', native: 'Sa\'an Sàvǐ Sa San Juan Mixtepec', lat: 16.64, lng: -97.92, // San Juan Mixtepec, Oaxaca
 },
   // Metlatónoc Mixtec — Otomanguean (Mixtecan, Mixtec — sister variety to mix Mixtec macrolanguage and xtm Mixtepec Mixtec; spoken in Guerrero highlands rather than Oaxaca core area).
-  // Sources: Ethnologue 27 'mxv'; Glottolog metl1240; Caballero (2008) Choices and constraints in the analysis of mountain Mixtec.
+  // Sources: Ethnologue 27 'mxv'; Glottolog metl1238; Caballero (2008) Choices and constraints in the analysis of mountain Mixtec.
   mxv: { name: "Metlatónoc Mixtec", native: "Tu'un Sávi", lat: 17.20, lng: -98.50, // Metlatónoc, Guerrero, Mexico
 },
   // Coyutla Totonac — Totonacan (Totonac branch, Northern/Sierra Totonac — sister to Papantla and Misantla Totonac varieties; the Totonacan family is small and centered in central Mexican Gulf coast), ~50K, Mexico (Veracruz — Coyutla, Coahuitlán, Filomeno Mata, Mecatlán municipalities, north-central Sierra de Papantla).
-  // Sources: Ethnologue 27 'toc'; Glottolog coyu1238; Levy (1987) Fonología del totonaco de Papantla.
+  // Sources: Ethnologue 27 'toc'; Glottolog coyu1235; Levy (1987) Fonología del totonaco de Papantla.
   toc: { name: "Coyutla Totonac", native: "Tachiwíin", lat: 20.25, lng: -97.45, // Coyutla, Veracruz, Mexico
 },
   // Huave (San Mateo del Mar Huave, Umbeyajts) — language isolate (no proven genealogical relatives, despite areal Mesoamerican features), ~12K, Mexico (Oaxaca — San Mateo del Mar municipality, Pacific coast lagoon system on Tehuantepec Isthmus).
-  // Sources: Ethnologue 27 'huv'; Glottolog sanm1284; Stairs Kreger & Scharfe de Stairs (1981) Diccionario huave de San Mateo del Mar.
+  // Sources: Ethnologue 27 'huv'; Glottolog sanm1287; Stairs Kreger & Scharfe de Stairs (1981) Diccionario huave de San Mateo del Mar.
   huv: { name: "San Mateo del Mar Huave", native: "Umbeyajts", lat: 16.21, lng: -94.99, // San Mateo del Mar, Oaxaca, Mexico
 },
   // Quechuan / Aymaran
   ay: { name: 'Aymara', native: 'Aymar aru', lat: -16.49, lng: -68.15, // La Paz
 },
   // Jaqaru — Aymaran (Tupe-Cauqui branch — sister to Aymara within Aymaran family), ~700, Yauyos Province, Peru.
-  // Sources: Ethnologue 27 'jqr'; Glottolog jaqa1251; Belleza (1995) Vocabulario Jaqaru-Castellano; Hardman (1983) Jaqaru.
+  // Sources: Ethnologue 27 'jqr'; Glottolog jaqa1244; Belleza (1995) Vocabulario Jaqaru-Castellano; Hardman (1983) Jaqaru.
   jqr: { name: 'Jaqaru', native: 'Jaqaru aru', lat: -12.31, lng: -75.83, // Tupe district, Yauyos, Peru
 },
   // Asháninka — Arawakan (Kampan), Peruvian Amazon, ~25K-50K speakers. Largest Arawakan in Peru.
@@ -2469,7 +2469,7 @@ const LANG_DATA = {
   pbb: { name: 'Páez', native: 'Nasa Yuwe', lat: 2.55, lng: -76.32, // Popayán/Tierradentro, Cauca
 },
   // Misak (Guambiano, Wam) — Barbacoan (sister to Awa Pit, Cha\'palaa, Tsafiki within the Barbacoan family of southwestern Colombia and northwestern Ecuador), ~25K, Colombia (Cauca Department — Silvia, Totoró, Jambaló municipalities; Misak Resguardo de Guambía).
-  // Sources: Ethnologue 27 'gum'; Glottolog guam1247; Vásquez de Ruiz (1988) La predicación en Guambiano.
+  // Sources: Ethnologue 27 'gum'; Glottolog guam1248; Vásquez de Ruiz (1988) La predicación en Guambiano.
   gum: { name: 'Misak', native: 'Wam', lat: 2.61, lng: -76.39, // Silvia, Cauca, Colombia (Misak heartland)
 },
   // Araucanian
@@ -2501,7 +2501,7 @@ const LANG_DATA = {
   abe: { name: 'Western Abenaki', native: 'Aln8baôdwawôgan', lat: 46.05, lng: -72.83, // Odanak/Saint-François, Quebec
 },
   // Munsee — Algonquian Eastern (Lenape branch), critically endangered (~2 fluent), heritage-revival.
-  // Sources: Ethnologue 27 'umu'; Glottolog muns1238; Goddard (1979) Munsee Phonology.
+  // Sources: Ethnologue 27 'umu'; Glottolog muns1251; Goddard (1979) Munsee Phonology.
   umu: { name: 'Munsee', native: 'Lunaapeew', lat: 42.78, lng: -82.05, // Moraviantown, Ontario (Munsee Delaware Nation)
 },
   // Plains Cree (Y-dialect / Nēhiyawēwin) — Algonquian (Cree-Innu), ~26K, Alberta/Saskatchewan/Manitoba. Largest Cree variety.
@@ -2681,9 +2681,9 @@ const LANG_DATA = {
   nha: { name: 'Nhanda', native: 'Nhanda', lat: -28.78, lng: 114.61, // Geraldton, Western Australia
 },
   // Adnyamathanha — Pama-Nyungan (Thura-Yura, sister to Kaurna), ~10 fluent + ~150 partial speakers, Australia (South Australia — Flinders Ranges, Nepabunna).
-  // Sources: Ethnologue 27 'adt'; Glottolog adny1238; Schebeck (1973) Texts on the Social System of the Atyñamatana People.
+  // Sources: Ethnologue 27 'adt'; Glottolog adny1235; Schebeck (1973) Texts on the Social System of the Atyñamatana People.
   // Olkol — Pama-Nyungan (Paman, Northern — sister to Yir-Yoront and other Cape York Peninsula Paman), ~50 fluent + heritage learners, Australia (Queensland — Cape York Peninsula, Coen, Pormpuraaw).
-  // Sources: Ethnologue 27 'olk'; Glottolog olko1239; Sutton (1976) Cape York Peninsula linguistic survey.
+  // Sources: Ethnologue 27 'olk'; Glottolog olko1234; Sutton (1976) Cape York Peninsula linguistic survey.
   olk: { name: 'Olkol', native: 'Olkol', lat: -13.94, lng: 143.20, // Coen, Cape York Peninsula, Queensland
 },
   adt: { name: 'Adnyamathanha', native: 'Adnyamathanha-na yarta', lat: -30.78, lng: 138.83, // Nepabunna, Flinders Ranges, SA
@@ -2693,11 +2693,11 @@ const LANG_DATA = {
   nys: { name: 'Noongar', native: 'Noongar wangkiny', lat: -31.95, lng: 115.86, // Perth, Western Australia (cultural center)
 },
   // Ngunnawal — Pama-Nyungan (Yuin-Kuric, ACT region), ~5K heritage learners, Australia (ACT — Canberra; SE NSW). Critically endangered with active community-led revival since 1990s.
-  // Sources: Ethnologue 27 'xul'; Glottolog ngun1242; Koch & Hercus (2009) Aboriginal Placenames.
+  // Sources: Ethnologue 27 'xul'; Glottolog ngun1277; Koch & Hercus (2009) Aboriginal Placenames.
   xul: { name: 'Ngunnawal', native: 'Ngunnawal', lat: -35.28, lng: 149.13, // Canberra, ACT (traditional Ngunnawal country)
 },
   // Warnman — Pama-Nyungan (Western Desert, sister to wbp Warlpiri and pjt Pitjantjatjara within Western Desert subgroup), ~50, Australia (WA — Pilbara/Western Desert).
-  // Sources: Ethnologue 27 'wbt'; Glottolog warn1238; Tindale (1974) Aboriginal Tribes of Australia.
+  // Sources: Ethnologue 27 'wbt'; Glottolog wanm1242; Tindale (1974) Aboriginal Tribes of Australia.
   wbt: { name: 'Warnman', native: 'Warnman', lat: -22.50, lng: 122.00, // Punmu / Karlamilyi National Park, Western Desert, WA
 },
   // === Phase 3F: Tibeto-Burman, Indonesian/Philippine, misc ===
@@ -2715,13 +2715,13 @@ const LANG_DATA = {
   lif: { name: 'Limbu', native: 'ᤕᤰᤌᤢᤱ ᤐᤠᤴ', lat: 26.66, lng: 87.27, // Dhankuta
 },
   // Thulung — Sino-Tibetan Western Kiranti, ~33K speakers, Solu-Khumbu region E Nepal.
-  // Sources: Ethnologue 27 'tdh'; Glottolog thul1244; Allen (1975) Thulung grammar.
+  // Sources: Ethnologue 27 'tdh'; Glottolog thul1246; Allen (1975) Thulung grammar.
   tdh: { name: 'Thulung', native: 'थुलुङ', lat: 27.45, lng: 86.65, // Solukhumbu (Thulung heartland)
 },
   brx: { name: 'Bodo', native: 'बर\'', lat: 26.40, lng: 90.27, // Kokrajhar, Assam
 },
   // Adi — Sino-Tibetan Tani, ~250K speakers, Arunachal Pradesh + Assam India + adjoining China.
-  // Sources: Ethnologue 27 'adi'; Glottolog adii1235; Sun (1993) Tani branch grammars.
+  // Sources: Ethnologue 27 'adi'; Glottolog bori1243; Sun (1993) Tani branch grammars.
   adi: { name: 'Adi', native: 'Adi Agom', lat: 28.05, lng: 95.32, // Pasighat, Arunachal Pradesh
 },
   // Nagamese — Assamese-based pidgin/creole, Naga lingua franca, ~30K L1 + 1.4M L2.
@@ -2789,18 +2789,18 @@ const LANG_DATA = {
   bik: { name: 'Bikol Central', native: 'Bikol', lat: 13.62, lng: 123.18, // Naga
 },
   // Iriga Bicolano (Rinconada Bikol) — Austronesian (Malayo-Polynesian, Greater Central Philippine, Bikol — sister to bik Bikol Central within the Bikol cluster; distinct dialect group of Rinconada district, southern Camarines Sur), ~250K, Philippines (Camarines Sur — Iriga, Bato, Buhi, Baao, Bula, Nabua, Balatan; Rinconada is its own subgroup not mutually intelligible with bik).
-  // Sources: Ethnologue 27 'bto'; Glottolog rinc1238; McFarland (1974) Bikol dialect survey; Lobel (2013) Philippine and North Bornean languages.
+  // Sources: Ethnologue 27 'bto'; Glottolog irig1242; McFarland (1974) Bikol dialect survey; Lobel (2013) Philippine and North Bornean languages.
   bto: { name: 'Iriga Bicolano', native: 'Rinconada Bikol', lat: 13.43, lng: 123.41, // Iriga City, Camarines Sur
 },
   // Bantu (filling Phase 3A gap)
   tum: { name: 'Tumbuka', native: 'ChiTumbuka', lat: -11.46, lng: 34.02, // Mzuzu
 },
   // Makonde — Bantu P23, ~2M speakers across Tanzania/Mozambique. Famous for ebony carving tradition.
-  // Sources: Ethnologue 27 'kde'; Glottolog mako1247; Leach (2010) Makonde Reference Grammar.
+  // Sources: Ethnologue 27 'kde'; Glottolog mako1251; Leach (2010) Makonde Reference Grammar.
   kde: { name: 'Makonde', native: 'Chimakonde', lat: -10.66, lng: 39.27, // Mtwara, Tanzania
 },
   // Lomwe — Bantu P32, ~1.5M+ speakers, northern Mozambique + adjoining Malawi.
-  // Sources: Ethnologue 27 'ngl'; Glottolog lomw1238; Kröger (2009) Lomwe-English Dictionary.
+  // Sources: Ethnologue 27 'ngl'; Glottolog lomw1241; Kröger (2009) Lomwe-English Dictionary.
   // Sena — Bantu N44, ~1.4M, central Mozambique + adjoining Malawi.
   // Sources: Ethnologue 27 'seh'; Glottolog sena1262; Funnell (2004) Sena Grammar.
   seh: { name: 'Sena', native: 'Cisena', lat: -17.88, lng: 35.04, // Beira/Sofala area, Mozambique
@@ -2822,7 +2822,7 @@ const LANG_DATA = {
   mas: { name: 'Maasai', native: 'ɔl Maa', lat: -1.08, lng: 35.86, // Narok
 },
   // Samburu — Eastern Nilotic (Maa cluster, sister to Maasai mas), ~150K, Kenya (Samburu/Marsabit Counties — semi-nomadic pastoralists in Northern Frontier).
-  // Sources: Ethnologue 27 'saq'; Glottolog samb1300; Heine (1980) Samburu Texts; Payne (1995) Samburu phonology.
+  // Sources: Ethnologue 27 'saq'; Glottolog samb1315; Heine (1980) Samburu Texts; Payne (1995) Samburu phonology.
   // Bari — Nilotic Eastern (sister to Maasai mas, Samburu saq within Maa cluster), ~600K, South Sudan (Central Equatoria — Juba region) + Uganda (West Nile — Moyo District).
   // Sources: Ethnologue 27 'bfa'; Glottolog bari1284; Owen (1908) Bari Grammar.
   bfa: { name: 'Bari', native: 'Karo Bari', lat: 4.85, lng: 31.61, // Juba, South Sudan (Bari heartland)
@@ -3031,7 +3031,7 @@ const LANG_DATA = {
   ksw: { name: 'Sgaw Karen', native: 'ကညီကျိာ်', lat: 16.89, lng: 97.63, // Hpa-an
 },
   // Western Pwo Karen — Sino-Tibetan Karenic Pwo (sister to Sgaw Karen ksw within the Karenic branch; Pwo is more conservative phonologically), ~1.6M, Myanmar (Irrawaddy Delta and Bago Region) + Thailand (Tak, Mae Hong Son, Kanchanaburi).
-  // Sources: Ethnologue 27 'pwo'; Glottolog wpwo1238; Phillips (2009) Pwo Karen Phonology and Lexicon.
+  // Sources: Ethnologue 27 'pwo'; Glottolog pwow1235; Phillips (2009) Pwo Karen Phonology and Lexicon.
   pwo: { name: 'Western Pwo Karen', native: 'ဖျိၣ်ၤ', lat: 17.34, lng: 96.49, // Pathein, Ayeyarwady Region, Myanmar
 },
   // Audit Task 146: Lahu surface normalized to consistent Matisoff
@@ -3094,7 +3094,7 @@ const LANG_DATA = {
   gej: { name: 'Gen', native: 'Gengbe', lat: 6.23, lng: 1.59, // Aného, Togo (Mina/Gen heartland)
 },
   // Aja (Adja-Gbe) — Niger-Congo Volta-Niger Gbe (sister to Ewe ee, Fon fon, Gen gej within the Gbe branch; the historical "ancestral" Gbe variety from which the Ewe and Fon migrated southward in the 17th century), ~600K, Benin (Couffo, Mono, Plateau departments — Aplahoué, Klouékanmè, Dogbo) + Togo (Plateaux Region).
-  // Sources: Ethnologue 27 'aja'; Glottolog ajag1239; Capo (1991) A Comparative Phonology of Gbe.
+  // Sources: Ethnologue 27 'aja'; Glottolog ajab1235; Capo (1991) A Comparative Phonology of Gbe.
   aja: { name: 'Aja', native: 'Ajagbe', lat: 6.93, lng: 1.78, // Aplahoué, Couffo Department, Benin
 },
   // Niger-Congo (Bantu, additional)
@@ -3167,7 +3167,7 @@ const LANG_DATA = {
   men: { name: 'Mende', native: 'Mende', lat: 7.96, lng: -11.74, // Bo, Sierra Leone
 },
   // Vai — Mande, ~120K speakers, Liberia + Sierra Leone. Has its own indigenous syllabary (Unicode 5.1).
-  // Sources: Ethnologue 27 'vai'; Glottolog vaii1239; Welmers (1976) Reference Grammar of Vai.
+  // Sources: Ethnologue 27 'vai'; Glottolog vaii1241; Welmers (1976) Reference Grammar of Vai.
   vai: { name: 'Vai', native: 'ꕙꔤ', lat: 6.84, lng: -11.36, // Robertsport, Liberia
 },
   // Themne — Atlantic-Congo Mel branch, Sierra Leone (Audit Task 149 Batch 3)
@@ -3176,7 +3176,7 @@ const LANG_DATA = {
   dyu: { name: 'Dyula', native: 'Julakan', lat: 11.18, lng: -4.30, // Bobo-Dioulasso
 },
   // Konabéré (Konabéré-Sangué, "Bobo Konabéré") — Niger-Congo Mande Western (Bobo-Konabéré subgroup), ~32K, Burkina Faso (around Bobo-Dioulasso).
-  // Sources: Ethnologue 27 'bbo'; Glottolog kona1268; Le Bris (1986) Bobo Konabéré phonology.
+  // Sources: Ethnologue 27 'bbo'; Glottolog nort2819; Le Bris (1986) Bobo Konabéré phonology.
   bbo: { name: 'Konabéré', native: 'Konabéré', lat: 11.17, lng: -4.30, // Bobo-Dioulasso area, Burkina Faso
 },
   // Senoufo Supyire (Suppire) — Niger-Congo (Atlantic-Congo, Senufo, Senari — sister to Mamara, Sicite, and other Senufo cluster), ~750K, Mali (Sikasso Region — Sikasso, Koutiala) + small Burkina Faso border.
@@ -3251,7 +3251,7 @@ const LANG_DATA = {
   arp: { name: 'Arapaho', native: 'Hinónoʼeitíít', lat: 43.06, lng: -108.64, // Wind River Reservation, Wyoming
 },
   // Kiowa — Kiowa-Tanoan family (sister to Tanoan languages: Tewa, Tiwa, Towa), ~20-100 (heritage learners), Oklahoma USA (Kiowa Tribe headquarters at Carnegie).
-  // Sources: Ethnologue 27 'kio'; Glottolog kiow1267; Watkins (1984) A Grammar of Kiowa.
+  // Sources: Ethnologue 27 'kio'; Glottolog kiow1266; Watkins (1984) A Grammar of Kiowa.
   kio: { name: 'Kiowa', native: 'Cáuijògà', lat: 35.10, lng: -98.60, // Carnegie, Oklahoma (Kiowa Tribe headquarters)
 },
   // === Phase 3M: Italian regional + S Asian + Pacific ===
@@ -3330,7 +3330,7 @@ const LANG_DATA = {
   // confident Hale / Ngakulmungan Kangka Leman (1996) attestation are filled; the remaining cells
   // are left '—' under dataStatus:'fragmentary' rather than fabricated. Sources: Hale (1973,
   // 1997) on Lardil and Damin; Klokeid (1976) "Topics in Lardil Grammar"; Ngakulmungan Kangka
-  // Leman (1996) "Lardil Dictionary"; Glottolog lard1248.
+  // Leman (1996) "Lardil Dictionary"; Glottolog lard1243.
   lbz: { name: 'Lardil', native: 'Leerdil', lat: -16.65, lng: 139.45, // Mornington Island, Queensland
 
     wordEvidence: {
@@ -3445,7 +3445,7 @@ const LANG_DATA = {
   guc: { name: 'Wayuu', native: 'Wayuunaiki', lat: 11.54, lng: -72.91, // Riohacha
 },
   // Maquiritari (Ye'kwana, Yekuana) — Cariban (Northern), ~6K, Venezuela (Bolívar/Amazonas states — Orinoco/Caura headwaters) + Brazil (Roraima — Auaris, Surucucu villages).
-  // Sources: Ethnologue 27 'mch'; Glottolog yekw1242; Hall (1988) The Morphosyntax of Discourse in De'kwana Carib.
+  // Sources: Ethnologue 27 'mch'; Glottolog maqu1238; Hall (1988) The Morphosyntax of Discourse in De'kwana Carib.
   mch: { name: "Maquiritari", native: "Ye'kwana", lat: 4.45, lng: -64.42, // Auaris, Brazil (Yekuana center)
 },
   // Warao — language isolate, ~28K (largest isolate in northern South America), Venezuela (Orinoco Delta) + small Guyana/Suriname border population.
@@ -3569,14 +3569,14 @@ const LANG_DATA = {
 },
   // === Phase 3O: Indonesian/Philippine + Pahari + Micronesian ===
   // Austronesian (Indonesia, additional)
-  bbc: { name: 'Toba Batak', native: 'Batak Toba', lat: -2.62, lng: 98.83, // Balige, Lake Toba
+  bbc: { name: 'Toba Batak', native: 'Batak Toba', lat: 2.33, lng: 99.07, // Balige, Lake Toba
 },
   // Simalungun Batak — Austronesian Malayo-Polynesian Batak (sister to Toba Batak bbc and Karo Batak btx within the Batak cluster; the language of Simalungun Regency on the eastern shore of Lake Toba), ~1.2M, Indonesia (North Sumatra province — Simalungun Regency around Pematangsiantar; small populations in surrounding regencies).
-  // Sources: Ethnologue 27 'bts'; Glottolog sima1278; Saragih (1989) Bahasa Simalungun.
+  // Sources: Ethnologue 27 'bts'; Glottolog bata1288; Saragih (1989) Bahasa Simalungun.
   bts: { name: 'Simalungun Batak', native: 'Hata Simalungun', lat: 2.96, lng: 99.07, // Pematangsiantar, North Sumatra (Simalungun Regency seat)
 },
   // Batak Angkola — Austronesian Sumatran (Batak cluster, sister to bbc Toba and btx Karo), ~750K, Indonesia (North Sumatra — Tapanuli Selatan / Padang Sidempuan).
-  // Sources: Ethnologue 27 'akb'; Glottolog batt1247; Eades & Hajek (2006) Batak Angkola Phonology; van der Tuuk (1864).
+  // Sources: Ethnologue 27 'akb'; Glottolog bata1290; Eades & Hajek (2006) Batak Angkola Phonology; van der Tuuk (1864).
   akb: { name: 'Batak Angkola', native: 'Hata Angkola', lat: 1.38, lng: 99.27, // Padang Sidempuan, North Sumatra
 },
   bjn: { name: 'Banjar', native: 'Bahasa Banjar', lat: -3.32, lng: 114.59, // Banjarmasin
@@ -4302,7 +4302,7 @@ const LANG_DATA = {
   tsi: { name: 'Coast Tsimshian', native: 'Sm\'algyax', lat: 54.31, lng: -130.32, // Prince Rupert
 },
   // Thompson (Nlaka'pamuctsin) — Salishan (Interior, Northern — sister to Lillooet, Shuswap, Okanagan within Northern Interior Salish), ~200 fluent + ~500 partial, Canada (British Columbia — Thompson and Fraser canyons).
-  // Sources: Ethnologue 27 'thp'; Glottolog thom1242; Thompson & Thompson (1992) The Thompson Language.
+  // Sources: Ethnologue 27 'thp'; Glottolog thom1243; Thompson & Thompson (1992) The Thompson Language.
   thp: { name: 'Thompson', native: "Nlaka'pamuctsin", lat: 50.21, lng: -121.59, // Lytton, BC (Nlaka'pamux territory confluence of Thompson + Fraser rivers)
 },
   // Iranian (Pamir)
@@ -4452,7 +4452,7 @@ const LANG_DATA = {
   mgo: { name: "Meta'", native: "Meta'", lat: 6.05, lng: 10.04, // Mbengwi, NW Region, Cameroon
 },
   // Dii (Duru, Dourou) — Niger-Congo Adamawa, ~50K speakers, North Cameroon (Adamaoua region).
-  // Sources: Ethnologue 27 'dur'; Glottolog dury1238; Bohnhoff (1986) Yag Dii grammar.
+  // Sources: Ethnologue 27 'dur'; Glottolog diii1241; Bohnhoff (1986) Yag Dii grammar.
   dur: { name: 'Dii', native: 'Yag Dii', lat: 7.32, lng: 13.58, // Ngaoundéré, Adamawa Cameroon
 },
   ndc: { name: 'Ndau', native: 'ChiNdau', lat: -19.12, lng: 33.48, // Chimoio
@@ -4460,7 +4460,7 @@ const LANG_DATA = {
   ote: { name: 'Otomi', native: 'Hñähñu', lat: 20.48, lng: -99.22, // Ixmiquilpan
 },
   // Querétaro Otomi (Hñöñho) — Otomanguean Otomi-Mazahua Otomi (sister to ote Mezquital Otomi within the Otomi macrolanguage; one of the most-vibrant Otomi varieties), ~30K, Mexico (Querétaro state — Amealco de Bonfil, Tolimán, Cadereyta, Ezequiel Montes municipalities).
-  // Sources: Ethnologue 27 'otq'; Glottolog quer1238; Hekking & Andrés de Jesús (1989) Diccionario Hñähñu-Español Querétaro.
+  // Sources: Ethnologue 27 'otq'; Glottolog quer1236; Hekking & Andrés de Jesús (1989) Diccionario Hñähñu-Español Querétaro.
   otq: { name: 'Querétaro Otomi', native: 'Hñöñho', lat: 20.18, lng: -100.14, // Amealco de Bonfil, Querétaro
 },
   tar: { name: 'Tarahumara', native: 'Rarámuri', lat: 27.75, lng: -107.63, // Creel
@@ -4998,7 +4998,7 @@ const LANG_DATA = {
   pyu: { name: 'Puyuma', native: 'Pinuyumayan', lat: 22.78, lng: 121.13, // Taitung, East Taiwan
 },
   // Sakizaya — Austronesian Formosan (recognized as Taiwan\\'s 13th aboriginal nation 2007; previously classified within Amis ami), ~600 fluent + ~3K partial, Taiwan (East Coast — Hualien).
-  // Sources: Ethnologue 27 'szy'; Glottolog saki1259; Aboriginal Languages of Taiwan Council Report.
+  // Sources: Ethnologue 27 'szy'; Glottolog saki1247; Aboriginal Languages of Taiwan Council Report.
   szy: { name: 'Sakizaya', native: 'Sakizaya', lat: 23.97, lng: 121.61, // Hualien, East Taiwan
 },
   // Thao (Sao) — Austronesian Formosan (one of the smallest Formosan languages; classified as Western Plains Formosan), ~5 fluent + ~600 ethnic Thao, Taiwan (Sun Moon Lake — Yuchi Township, Nantou County).
@@ -5051,7 +5051,7 @@ const LANG_DATA = {
   wbm: { name: 'Wa', native: 'Vāx', lat: 22.07, lng: 99.21, // Pangsang/Wa State
 },
   // Shwe Palaung (Ta-ang) — Mon-Khmer (Palaungic, Palaung — sister to Wa wbm, Eastern Lawa lwl within Palaungic; distinct from Wa cluster), ~560K, Myanmar (northern Shan State — Namhsan/Ta-ang region) + China (Yunnan — Dehong, small populations) + Thailand (border refugee communities).
-  // Sources: Ethnologue 27 'pll'; Glottolog shwe1235; Milne (1921) Elementary Palaung Grammar; Janzen (1976) Shwe Palaung phonology.
+  // Sources: Ethnologue 27 'pll'; Glottolog shwe1236; Milne (1921) Elementary Palaung Grammar; Janzen (1976) Shwe Palaung phonology.
   pll: { name: 'Shwe Palaung', native: 'Ta-ang', lat: 23.07, lng: 97.40, // Namhsan, northern Shan State, Myanmar
 },
   ahk: { name: 'Akha', native: 'Akhazà', lat: 20.50, lng: 100.07, // Chiang Rai area
@@ -5118,11 +5118,11 @@ const LANG_DATA = {
   cuk: { name: 'San Blas Kuna', native: 'Tule', lat: 9.34, lng: -78.74, // El Porvenir / Gardi Sugdup, Guna Yala, Panama
 },
   // Tabasco Chontal (Yokot'an) — Mayan (Cholan-Tzeltalan, Cholan — sister to Chol ctu within the Cholan branch), ~36K, Mexico (Tabasco — Nacajuca, Centla, Centro, Macuspana municipalities; lowland Gulf coast).
-  // Sources: Ethnologue 27 'chf'; Glottolog tabz1238; Knowles (1984) A descriptive grammar of Chontal Maya.
+  // Sources: Ethnologue 27 'chf'; Glottolog taba1266; Knowles (1984) A descriptive grammar of Chontal Maya.
   chf: { name: "Tabasco Chontal", native: "Yokot'an", lat: 18.17, lng: -93.02, // Nacajuca, Tabasco, Mexico
 },
   // Aguacateco (Awakateko) — Mayan (Quichean-Mamean, Mam-Awakateko branch — sister to Mam mam and Ixil ixl), ~17K, Guatemala (Huehuetenango — Aguacatán).
-  // Sources: Ethnologue 27 'agu'; Glottolog awak1244; McArthur & McArthur (1956) Aguacatec phonology.
+  // Sources: Ethnologue 27 'agu'; Glottolog agua1252; McArthur & McArthur (1956) Aguacatec phonology.
   agu: { name: "Aguacateco", native: "Awakateko", lat: 15.34, lng: -91.32, // Aguacatán, Huehuetenango, Guatemala
 },
   // Ixil — Mayan Mamean, ~70K speakers, Cuchumatanes mountains (Guatemala). Survivors of 1980s genocide.

@@ -1233,6 +1233,13 @@
         @media (max-width: 768px) {
             .lf-panel { left: 6px; max-height: 60vh; width: calc(100vw - 70px); }   /* clear the settings gear (r21) */
         }
+        /* Touch: 21px chips 4px apart, and Close (25x20) beside Clear (40x17) (r25). */
+        @media (pointer: coarse) {
+            .lf-chips { gap: 6px; }
+            .lf-chip { min-height: 32px; padding: 6px 11px; font-size: 12px; }
+            .lf-close, .lf-reset { min-width: 40px; min-height: 40px; }
+            .lf-actions { gap: 10px; }
+        }
         `;
         const style = document.createElement('style');
         style.id = 'lf-styles';

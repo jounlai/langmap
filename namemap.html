@@ -79,8 +79,8 @@
          Armenian / Thai and CJK forms tofu on iOS and Windows. -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+Hebrew:wght@400;700&family=Noto+Sans+Arabic:wght@400;700&family=Noto+Sans+Devanagari:wght@400;700&family=Noto+Sans+Bengali:wght@400;700&family=Noto+Sans+Ethiopic:wght@400;700&family=Noto+Sans+Georgian:wght@400;700&family=Noto+Sans+Armenian:wght@400;700&family=Noto+Sans+Thai:wght@400;700&display=swap" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+Hebrew:wght@400;700&family=Noto+Sans+Arabic:wght@400;700&family=Noto+Sans+Devanagari:wght@400;700&family=Noto+Sans+Bengali:wght@400;700&family=Noto+Sans+Ethiopic:wght@400;700&family=Noto+Sans+Georgian:wght@400;700&family=Noto+Sans+Armenian:wght@400;700&family=Noto+Sans+Thai:wght@400;700&display=swap"></noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+Hebrew:wght@400;700&family=Noto+Sans+Arabic:wght@400;700&family=Noto+Sans+Devanagari:wght@400;700&family=Noto+Sans+Bengali:wght@400;700&family=Noto+Sans+Ethiopic:wght@400;700&family=Noto+Sans+Georgian:wght@400;700&family=Noto+Sans+Armenian:wght@400;700&family=Noto+Sans+Thai:wght@400;700&family=Noto+Sans+Syriac&family=Gentium+Plus&display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+Hebrew:wght@400;700&family=Noto+Sans+Arabic:wght@400;700&family=Noto+Sans+Devanagari:wght@400;700&family=Noto+Sans+Bengali:wght@400;700&family=Noto+Sans+Ethiopic:wght@400;700&family=Noto+Sans+Georgian:wght@400;700&family=Noto+Sans+Armenian:wght@400;700&family=Noto+Sans+Thai:wght@400;700&family=Noto+Sans+Syriac&family=Gentium+Plus&display=swap"></noscript>
     <style>
         /* Markers are zero-size divIcons: the default focus outline was a 4px dot (2.4.7, r23). */
         .nm-divicon:focus { outline: none; }
@@ -148,8 +148,8 @@
            DECOMPOSE the syllable into those jamo: 필립보 rendered as ㅍㅣㄹㄹㅣㅂ보 (owner
            report 2026-10-15; 보 is in the sans subset, 필/립 are not). The body override
            below drops it from the inherited styles.css stack too. */
-        body { font-family: 'Segoe UI', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', sans-serif; }
-        .nm-script { font-family: 'Noto Sans','Noto Sans Hebrew','Noto Sans Arabic','Noto Sans Devanagari','Noto Sans Bengali','Noto Sans Ethiopic','Noto Sans Georgian','Noto Sans Armenian','Noto Sans Thai','Noto Sans JP','Noto Sans SC','Noto Sans KR', sans-serif; }
+        body { font-family: 'Segoe UI', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans', 'Noto Sans Thai', sans-serif; }   /* Noto Sans before Thai: the CJK faces here are CJK-only subsets, so Latin fell to Noto Sans Thai off Windows (r25) */
+        .nm-script { font-family: 'Noto Sans','Noto Sans Hebrew','Noto Sans Arabic','Noto Sans Syriac','Noto Sans Devanagari','Noto Sans Bengali','Noto Sans Ethiopic','Noto Sans Georgian','Noto Sans Armenian','Noto Sans Thai','Noto Sans JP','Noto Sans SC','Noto Sans KR', sans-serif; }
 
         /* Stage below the header: full-bleed map with a floating card panel
            (same over-the-map treatment as WordMap / HanMap). */
@@ -566,7 +566,7 @@
         @media (min-width: 641px) { .site-header-bar > .chrome-toggle-btn { display: none; } }
         #name-select:focus-visible { outline: 2px solid var(--nm-accent); outline-offset: 1px; }   /* it had no focus indicator */
 </style>
-    <script src="nav-short.js?v=33"></script>
+    <script src="nav-short.js?v=34"></script>
 </head>
 <body>
     <div id="pg-live" role="status" aria-live="polite" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap"></div>
@@ -652,7 +652,7 @@
     <script src="/vendor/leaflet-1.9.4/leaflet.js"></script>
     <script src="namemap_data.js?v=9"></script>
     <script src="namemap_i18n.js?v=3"></script>
-    <script src="namemap_names_ext.js?v=8"></script>
+    <script src="namemap_names_ext.js?v=9"></script>
     <!-- NameMap content strings (country/language names, each name's meaning and
          background) come in one file per UI language: 217 KB gzipped for all
          nineteen, ~14 KB for the one this reader will see. English is the
@@ -1108,13 +1108,23 @@
             }
         }
         NM_SHEET_MQ.addEventListener && NM_SHEET_MQ.addEventListener('change', syncSheetInert);
+        // The details sheet gets a history entry so the phone Back gesture closes it
+        // instead of leaving the site (r25). Closing it otherwise steps back over
+        // that entry, keeping the current hash (the name/date may have changed).
+        let _sheetPushed=false, _sheetKeep=null;
+        window.addEventListener('popstate', ()=>{
+            if(_sheetKeep!==null){ const k=_sheetKeep; _sheetKeep=null; try{ history.replaceState(null,'',k); }catch(_){} return; }
+            if(_sheetPushed && document.getElementById('nm-panel').classList.contains('info-open')){ _sheetPushed=false; closeInfoSheet(); }
+        });
         function openInfoSheet(){
+            if(!_sheetPushed){ try{ history.pushState({ sheet:1 },'',location.href); _sheetPushed=true; }catch(_){} }
             document.getElementById('nm-panel').classList.add('info-open');
             syncSheetInert();
             const db=document.getElementById('nm-details-btn'); if(db) db.setAttribute('aria-expanded','true');
             setTimeout(()=>{ const c=document.getElementById('nm-info-close'); if(c) c.focus(); },0);
         }
         function closeInfoSheet(){
+            if(_sheetPushed){ _sheetPushed=false; _sheetKeep=location.hash||location.pathname; try{ history.back(); }catch(_){ _sheetKeep=null; } }
             const p=document.getElementById('nm-panel'), was=p.classList.contains('info-open');
             p.classList.remove('info-open');
             syncSheetInert();

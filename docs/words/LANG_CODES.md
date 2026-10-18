@@ -418,7 +418,7 @@ Total: 1190 codes.
 | `hil` | Hiligaynon | ヒリガイノン語 | Austronesian (Visayan) | ~9M |
 | `hit` | Hittite | ヒッタイト語 | Anatolian (Indo-European) | Extinct |
 | `hmn` | Hmong | ミャオ語 | Hmong-Mien | ~5M |
-| `hne` | Chhattisgarhi | チャッティースガリー語 | Indo-European (Eastern Indo-Aryan, Hindi belt) | ~16M |
+| `hne` | Chhattisgarhi | チャッティースガリー語 | Indo-European (Indo-Aryan, Central zone — Eastern Hindi) | ~16M |
 | `hni` | Hani | ハニ語 | Sino-Tibetan | ~1.5M (China ~1.4M + Vietnam ~12K + Laos ~25K) |
 | `hno` | Hindko | ヒンドコ語 | Indo-Aryan (NW, Lahnda) | ~5M |
 | `hns` | Caribbean Hindustani | カリビアン・ヒンドゥスターニー語 | Indo-European | ~165K |

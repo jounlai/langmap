@@ -473,6 +473,10 @@
             '.mylang-level{flex:0 1 auto;min-width:0;max-width:56%;box-sizing:border-box;font:inherit;font-size:12px;padding:5px 6px;border:1px solid rgba(128,128,128,.35);border-radius:7px;background:transparent;color:inherit}',
             '.mylang-del{flex:0 0 auto;background:none;border:0;cursor:pointer;color:inherit;opacity:.5;font-size:19px;line-height:1;padding:0 3px}',
             '.mylang-del:hover{opacity:1;color:#d9534f}',
+            // Phones: the name kept ~4 letters ("Span…", French and Fula both "フラ…").
+            // Let the row wrap, the level menu taking its own full-width line, and
+            // give the remove button a 40px target (r25).
+            '@media (max-width:420px){.mylang-row{flex-wrap:wrap}.mylang-row-name{flex:1 1 0;min-width:0}.mylang-level{order:3;flex:1 1 100%;max-width:none;min-height:36px}.mylang-del{min-width:40px;min-height:40px}}',
             '.mylang-empty{color:#5f6368;text-align:center;padding:14px 4px;font-size:13px}',
             '.mylang-stats{display:grid;grid-template-columns:1fr 1fr;gap:8px}',
             '.mylang-stat{background:rgba(90,140,220,.1);border-radius:10px;padding:9px 11px}',

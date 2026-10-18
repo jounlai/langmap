@@ -2858,7 +2858,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=33"></script>
+    <script src="nav-short.js?v=34"></script>
     <style>
         /* r23 desktop: the compare panel clears the settings gear and the map
            attribution; the settings drawer is readable at desktop sizes. */
@@ -3524,16 +3524,16 @@
                     btn3D.disabled = true;
                     btn3D.style.opacity = '0.4';
                     btn3D.style.cursor = 'not-allowed';
-                    btn3D.title = '3D globe unavailable (Globe.gl CDN failed to load)';
+                    btn3D.title = ({en:'3D globe unavailable (could not load)',ja:'3D地球儀を読み込めませんでした',ko:'3D 지구본을 불러오지 못했습니다',zh:'无法加载3D地球仪',yue:'載入唔到3D地球儀',vi:'Không tải được quả địa cầu 3D',th:'โหลดลูกโลก 3 มิติไม่ได้',id:'Globe 3D tidak dapat dimuat',hi:'3D ग्लोब लोड नहीं हो सका',de:'3D-Globus konnte nicht geladen werden',fr:'Impossible de charger le globe 3D',it:'Impossibile caricare il globo 3D',es:'No se pudo cargar el globo 3D',pt:'Não foi possível carregar o globo 3D',ru:'Не удалось загрузить 3D-глобус',uk:'Не вдалося завантажити 3D-глобус',ar:'تعذّر تحميل الكرة الأرضية ثلاثية الأبعاد',he:'לא ניתן לטעון את הגלובוס התלת־ממדי',sw:'Imeshindwa kupakia tufe la 3D'})[String((window.__langmap && window.__langmap.uiLang) || 'en').split('_')[0]] || '3D globe unavailable (could not load)';   // localized (r25)
                     btn3D.setAttribute('aria-disabled', 'true');
                 }
             });
         }
     })();
     </script>
-    <script src="wordmap_data.js?v=345"></script>
+    <script src="wordmap_data.js?v=346"></script>
     <script src="lang_attention.js?v=3"></script>
-    <script src="hanmap_data.js?v=196"></script>
+    <script src="hanmap_data.js?v=197"></script>
     <script>
         // Hanmap stubs: replace the per-word loader. wordmap.html loads
         // ~20 individual JS files under words/<id>.js (one per concept) and
@@ -4472,6 +4472,13 @@
                 return hf ? HASH_PARAM + '=' + hf : '';
             }
             if (!anyFilterActive()) return '';
+            // The default selection (modern readings, ancient and kun off) is what a
+            // URL without hf= gets: writing its 83 codes made every link ~700
+            // characters long (r25).
+            const def = new Set(offeredCodes());
+            for (const c of KUN_DEFAULT_OFF) def.delete(c);
+            for (const c of ANCIENT_DEFAULT_OFF) def.delete(c);
+            if (def.size === selected.size && [...selected].every((c) => def.has(c))) return '';
             return HASH_PARAM + '=' + Array.from(selected).sort().join(',');
         }
 
@@ -5627,7 +5634,7 @@
         // form, or a digit tells a CJK reader nothing. A different character
         // (走 = 跑, 豬 = 豚) is a real gloss and stays (r24; r23 hid every
         // single-character gloss).
-        const _HM_VARIANTS = {'鐵':'鐵铁鉄','龍':'龍龙竜','馬':'馬马','雞':'雞鸡鶏','豬':'豬猪','貓':'貓猫','鳥':'鳥鸟','魚':'魚鱼','頭':'頭头','兒':'兒儿児','門':'門门','飯':'飯饭','錢':'錢钱銭','來':'來来','飛':'飛飞','見':'見见','聞':'聞闻','飲':'飲饮','紅':'紅红','黃':'黃黄','綠':'綠绿緑','長':'長长','遠':'遠远','熱':'熱热','東':'東东','無':'無无','個':'個个箇','気':'気氣'};
+        const _HM_VARIANTS = {'鐵':'鐵铁鉄','龍':'龍龙竜','馬':'馬马','雞':'雞鸡鶏','豬':'豬猪','貓':'貓猫','鳥':'鳥鸟','魚':'魚鱼','頭':'頭头','兒':'兒儿児','門':'門门','飯':'飯饭','錢':'錢钱銭','來':'來来','飛':'飛飞','見':'見见','聞':'聞闻','飲':'飲饮','紅':'紅红','黃':'黃黄','綠':'綠绿緑','長':'長长','遠':'遠远','熱':'熱热','東':'東东','無':'無无','個':'個个箇','気':'気氣','黑':'黑黒'};
         window.__hmGlossIsEcho = function (ch, g) {
             g = String(g || ''); ch = String(ch || '');
             if (!g) return false;
@@ -6065,9 +6072,11 @@
                     const {char: cChar} = senseSplitId(ch);
                     btn.innerHTML = escapeHtml(cChar);
                     btn.title = senseLabelOf(ch, uiLang) || ch;
-                    if (window.__hmCharLabel) window.__hmCharLabel();
                 }
                 if (select.value !== ch) select.value = ch;
+                // After the select moves: the label reads the meaning from it, and
+                // ran one character behind (六 said "one") (r25).
+                if (window.__hmCharLabel) window.__hmCharLabel();
                 renderSenseTabs(ch);
                 updateMarkers(ch);
                 try { updateHash && updateHash(); } catch (_) {}
@@ -8864,11 +8873,21 @@
             const hash = '#' + hashBody;
             // replaceState by default — avoids history bloat from continuous
             // moveend/zoomend. Caller can pass {push:true} for explicit nav.
+            // Opening a game or the language panel is a step the phone Back gesture
+            // should undo (it left the site); closing one we pushed steps back over
+            // it (r25, as on the Word Map).
+            const _g = window.__hmOpenGame || null;
+            const _push = opts.push || (_g && _g !== _hmLastGame && new URLSearchParams(location.hash.slice(1)).get('play') !== _g);
+            const _closePushed = !_g && _hmLastGame && history.state && history.state.hmGame === _hmLastGame;
+            _hmLastGame = _g;
             try {
-                if (opts.push) history.pushState(null, '', hash);
-                else          history.replaceState(null, '', hash);
+                const _st = history.state || {};
+                if (_closePushed) { _hmBackRewrite = true; history.back(); }
+                else if (_push) history.pushState(_g ? { hmGame: _g } : (opts.state || null), '', hash);
+                else          history.replaceState((_g && _st.hmGame === _g) || (_st.hmPanel && _hmPanelEntry) ? _st : null, '', hash);
             } catch (e) { location.hash = hash; }
         }
+        var _hmLastGame = null, _hmPanelEntry = false, _hmBackRewrite = false;
 
         function loadHash() {
             const params = new URLSearchParams(location.hash.slice(1));
@@ -9011,6 +9030,8 @@
                 const _noView = !params.get('p') && !(params.get('lat') && params.get('lng'));
                 // Defer until after initial markers are rendered.
                 setTimeout(() => { if (_noView) { try { centerLangOnMap(langCode); } catch (_) {} } showLangInfo(langCode); }, 100);
+            } else if (document.getElementById('lang-info')?.classList.contains('visible') && typeof closeInfoPanel === 'function') {   // not infoPanel: a const declared after this first runs
+                closeInfoPanel();   // Back to an entry with no open language (r25)
             }
             // Restore open trivia article from URL (?trivia=<id>). Deferred
             // so the trivia setup block at the end of the IIFE has run.
@@ -9063,10 +9084,12 @@
         // updateHash() for transient state changes during application.
         let _applyingHashState = false;
         function applyHashState() {
+            if (_hmBackRewrite) { _hmBackRewrite = false; _hmLastGame = null; updateHash(); return; }
             if (_applyingHashState) return;
             _applyingHashState = true;
             try {
                 loadHash();
+                _hmLastGame = new URLSearchParams(location.hash.slice(1)).get('play') || null;
                 updateMarkers(currentWord);
             } finally {
                 _applyingHashState = false;
@@ -9204,7 +9227,9 @@
             delete infoPanel.dataset.code;
             updateSelectedLabel();
             updateConnectorLine();
-            updateHash();  // remove `lang` param from URL
+            const _applying = window.__langmap && window.__langmap.isApplyingHash && window.__langmap.isApplyingHash();
+            if (_hmPanelEntry && !_applying && history.state && history.state.hmPanel) { _hmPanelEntry = false; _hmBackRewrite = true; history.back(); }
+            else { _hmPanelEntry = false; updateHash(); }  // remove `lang` param from URL
             // Audit Task 137: restore focus to the opener if still in DOM.
             // Falls back to language search input if opener has been removed.
             if (_lastDialogOpener && document.contains(_lastDialogOpener) && typeof _lastDialogOpener.focus === 'function') {
@@ -9496,8 +9521,12 @@
             const ui = (typeof uiLang === 'string' ? uiLang : 'en');
             if (ui === 'en') return Promise.resolve();
             if (_metaI18nByUi[ui]) return _metaI18nByUi[ui];
+            // The Han Map never loads wordmap_meta_lite.js, which is where META_I18N
+            // is declared, so each slice skipped its whole-value table and only the
+            // word atoms arrived: "Hong Kong SAR", "Japan" … stayed English (r25).
+            if (typeof META_I18N === 'undefined') window.META_I18N = {};
             if (!_metaEnginePromise) _metaEnginePromise = _hmInject('meta_i18n_engine.js?v=1');
-            _metaI18nByUi[ui] = Promise.all([_metaEnginePromise, _hmInject('meta_i18n/' + ui + '.js?v=7')]);
+            _metaI18nByUi[ui] = Promise.all([_metaEnginePromise, _hmInject('meta_i18n/' + ui + '.js?v=8')]);
             return _metaI18nByUi[ui];
         }
         window.loadMetaI18n = loadMetaI18n;
@@ -10892,7 +10921,9 @@
             _selRetries = 0;
             updateSelectedLabel();
             updateConnectorLine();
-            updateHash();  // persist `lang` to URL so reload restores
+            const _openStep = !_hmPanelEntry && !(window.__langmap && window.__langmap.isApplyingHash && window.__langmap.isApplyingHash());
+            updateHash(_openStep ? { push: true, state: { hmPanel: 1 } } : undefined);  // persist `lang` to URL so reload restores
+            if (_openStep) _hmPanelEntry = true;
             // Han Map rows never get .meta (the panel reads HAN_LANG_META), so this
             // re-render rebuilt the 1,300-node panel for nothing on every open (r22).
             if (!lang.meta && typeof HAN_LANGS === 'undefined') {
@@ -11592,7 +11623,7 @@
                 const code = _compareList[idx];
                 const lang = LANG_DATA[code]; if (!lang) continue;
                 const display = names[code] || hanReadingName(code) || lang.name || code;
-                html += '<th draggable="true" data-code="' + escapeHtml(code) + '" data-idx="' + idx + '" title="Drag to reorder">'
+                html += '<th draggable="true" data-code="' + escapeHtml(code) + '" data-idx="' + idx + '" title="' + escapeHtml(({en:'Drag to reorder',ja:'ドラッグで並べ替え',ko:'드래그하여 순서 변경',zh:'拖动以排序',yue:'拖動以排序',vi:'Kéo để sắp xếp',th:'ลากเพื่อจัดลำดับ',id:'Seret untuk mengurutkan',hi:'क्रम बदलने के लिए खींचें',de:'Zum Umordnen ziehen',fr:'Faire glisser pour réordonner',it:'Trascina per riordinare',es:'Arrastra para reordenar',pt:'Arraste para reordenar',ru:'Перетащите, чтобы изменить порядок',uk:'Перетягніть, щоб змінити порядок',ar:'اسحب لإعادة الترتيب',he:'גררו כדי לשנות סדר',sw:'Buruta ili kupanga upya'})[String(uiLang || 'en').split('_')[0]] || 'Drag to reorder') + '">'
                      + '<span class="lang-name" data-code="' + escapeHtml(code) + '">' + escapeHtml(display) + '</span>'
                      + (lang.native ? '<span class="native-name" dir="auto">' + escapeHtml(lang.native) + '</span>' : '')
                      + '</th>';
@@ -11615,12 +11646,19 @@
                     let cellRows = [];
                     if (variants && variants.length) {
                         for (const v of variants) {
-                            let s = v.surface || '', i = v.ipa || '';
-                            if (typeof hanmapNormalize === 'function') {
-                                const norm = hanmapNormalize(code, s, i, w.id);
-                                s = norm[0]; i = norm[1];
+                            // Same reading as the map label (buildLabelHtml): the
+                            // variant's own native/surface/IPA. hanmapNormalize read
+                            // the primary cell and fed IPA to the kana converter, so
+                            // 六 showed "ɾikɯ (イ)" (r25).
+                            let n = v.native || '', s = v.surface || '', i = v.ipa || '';
+                            if ((!i || !n) && typeof hanmapNormalizeFull === 'function') {
+                                const derived = s || n || '';
+                                const [dN, dS, dIpa] = hanmapNormalizeFull(code, derived, derived, w.id);
+                                if (!i) i = dIpa || derived;
+                                if (!n) n = dN || '';
+                                if (!s) s = dS || derived;
                             }
-                            cellRows.push({ surface: s, ipa: i, label: v.label || '' });
+                            cellRows.push({ surface: (s && n && s !== n) ? s + ' (' + n + ')' : (n || s), ipa: i, label: v.label || '' });
                         }
                     } else {
                         const cell = LANG_DATA[code] && LANG_DATA[code].words && LANG_DATA[code].words[w.id];
@@ -12131,10 +12169,10 @@
             const srcList = art.sources || [];
             if (srcList.length) {
                 const items = srcList.map(s => {
-                    if (typeof s === 'string') return '<li>' + s + '</li>';
+                    if (typeof s === 'string') return '<li dir="auto">' + s + '</li>';   // dir=auto: a Latin citation keeps its full stop at the end in ar/he (r25)
                     const safeUrl = (s.url || '').replace(/"/g, '&quot;');
                     const safeText = s.text || s.url || '';
-                    return `<li><a href="${safeUrl}" target="_blank" rel="noopener noreferrer">${safeText}</a></li>`;
+                    return `<li dir="auto"><a href="${safeUrl}" target="_blank" rel="noopener noreferrer">${safeText}</a></li>`;
                 }).join('');
                 sources.innerHTML =
                     `<span class="trivia-sources-label">${i18n('triviaSources')}</span>` +
@@ -12145,7 +12183,9 @@
                 sources.innerHTML = '';
             }
             tags.innerHTML = '';
-            (art.tags || []).forEach(t => {
+            // The tags are English keywords (#whistled, #spain): show them only in
+            // the English interface rather than untranslated in 18 others (r25).
+            (String(uiLang || 'en').split('_')[0] === 'en' ? (art.tags || []) : []).forEach(t => {
                 const span = document.createElement('span');
                 span.className = 'trivia-tag';
                 span.textContent = '#' + t;
@@ -12162,7 +12202,7 @@
                 const a = document.createElement('a');
                 a.className = 'trivia-seo-link';
                 a.href = '/' + ui + '/trivia/' + encodeURIComponent(art.id);
-                a.textContent = '\ud83d\udcc4 ' + i18n('triviaPageLink') + ' \u2192';
+                a.textContent = '\ud83d\udcc4 ' + i18n('triviaPageLink') + (/^(ar|he)/.test(String(uiLang || '')) ? ' \u2190' : ' \u2192');   // points along the reading direction (r25)
                 tags.appendChild(a);
             })();
             modal.dataset.articleId = art.id;
@@ -13117,7 +13157,7 @@
             return (m && (m.native || m.name)) || code;
         }
         // ipa=true → phonetic (IPA) form; otherwise the romanization (surface).
-        function reading(code, ch, ipa) { const e = HD()[ch]; const src = e && (ipa ? e.ipa : e.surface); if (!src) return null; const s = src[code]; if (!s || s === '—' || /^—/.test(s)) return null; return s; }
+        function reading(code, ch, ipa) { const e = HD()[ch]; const src = e && (ipa ? e.ipa : e.surface); if (!src) return null; const s = src[code]; if (!s || s === '—' || /^—/.test(s)) return null; return (code === 'vi' || code.startsWith('vi_')) && !ipa ? s.charAt(0).toLowerCase() + s.slice(1) : s; }   // vi is stored capitalised; the map lower-cases it, and a lone capital gave the answer away (r25)
         const chars = () => [...new Set(HLIST().map(x => String(x).split(':')[0]))].filter(ch => HD()[ch] && HD()[ch].surface);
         function shuffle(a) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1));[a[i], a[j]] = [a[j], a[i]]; } return a; }
         const majorAvail = () => MAJOR.filter(c => HM()[c] || NM().en && NM().en[c]);

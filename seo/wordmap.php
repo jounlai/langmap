@@ -88,7 +88,7 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
         . ' — ' . seo_t($ui, 'wm_lang_title', ['w' => $wc]) . ' | Word Map';
     $metaDesc = seo_lang_meta_lead(
         seo_wordmap_samples($data, $code, $ui),
-        $desc !== '' ? $desc : seo_t($ui, 'wm_lang_meta', ['name' => $name . ($native ? " ($native)" : ''), 'w' => $wc]),
+        $desc !== '' ? $desc : seo_t($ui, 'wm_lang_meta', ['name' => $name . ($native && $native !== $name ? " ($native)" : ''), 'w' => $wc]),
         $ui
     );
     $robots = !empty($lang['excluded']) ? 'noindex,follow' : 'index,follow';
@@ -161,7 +161,7 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
     $embed = seo_map_embed(
         is_numeric($lat) ? (float) $lat : null,
         is_numeric($lng) ? (float) $lng : null,
-        $name . ($native ? " ($native)" : ''),
+        $name . ($native && $native !== $name ? " ($native)" : ''),
         5,
         $ui
     );

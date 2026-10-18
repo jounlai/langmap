@@ -345,10 +345,11 @@ function seo_render_word(array $data, array $word, string $ui): void
     ]);
     ?>
 <nav class="seo-crumbs" aria-label="<?= e(seo_t($ui, 'crumbs')) ?>"><a href="<?= e(seo_path($ui, 'word')) ?>"><?= e(seo_t($ui, 'wd_link')) ?></a> &rsaquo; <?= e($label) ?></nav>
+<?= seo_breadcrumb_ld([[seo_t($ui, 'wd_link'), seo_path($ui, 'word')], [$label, null]]) ?>
 
 <header class="seo-hero">
   <h1><?= e(seo_t($ui, 'wd_title', ['name' => $label, 'n' => $nStr])) ?></h1>
-  <p class="sub"><?= e(seo_t($ui, 'wd_forms', ['n' => $nStr])) ?></p>
+  <?php // No "{n} languages" subtitle: it repeated the title word for word (r21). ?>
 </header>
 
 <?php if ($def !== ''): ?>
@@ -507,7 +508,7 @@ function seo_render_word_index(array $data, array $byId, string $ui): void
     $wc = (string) count($data['words']);
     seo_head([
         'title'       => seo_t($ui, 'wd_index_h1', ['w' => $wc]) . ' | Word Map',
-        'description' => seo_t($ui, 'wd_index_meta', ['w' => $wc]),
+        'description' => seo_t($ui, 'wd_index_meta', ['w' => $wc, 'n' => seo_int(count($data['langs']), $ui)]),
         'canonical'   => SEO_SITE . seo_path($ui, 'word'),
         'image'       => SEO_SITE . '/ogp-wordmap.png',
         'ui'          => $ui,
@@ -516,7 +517,7 @@ function seo_render_word_index(array $data, array $byId, string $ui): void
     ?>
 <header class="seo-hero">
   <h1><?= e(seo_t($ui, 'wd_index_h1', ['w' => $wc])) ?></h1>
-  <p class="sub"><?= e(seo_t($ui, 'wd_index_meta', ['w' => $wc])) ?></p>
+  <p class="sub"><?= e(seo_t($ui, 'wd_index_meta', ['w' => $wc, 'n' => seo_int(count($data['langs']), $ui)])) ?></p>
 </header>
 
 <section class="seo-section">

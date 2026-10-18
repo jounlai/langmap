@@ -78,6 +78,34 @@ function seo_speaker_count(array $lang): ?int
     return $n >= 1 ? (int) round($n) : null;
 }
 
+/** CLDR plural category for an integer (only the languages that need one here). */
+function seo_plural_cat(string $ui, int $n): string
+{
+    $m10 = $n % 10; $m100 = $n % 100;
+    if ($ui === 'ru' || $ui === 'uk') {
+        if ($m10 === 1 && $m100 !== 11) return 'one';
+        if ($m10 >= 2 && $m10 <= 4 && ($m100 < 12 || $m100 > 14)) return 'few';
+        return 'many';
+    }
+    if ($ui === 'ar') {
+        if ($n === 0) return 'zero';
+        if ($n === 1) return 'one';
+        if ($n === 2) return 'two';
+        if ($m100 >= 3 && $m100 <= 10) return 'few';
+        if ($m100 >= 11) return 'many';
+        return 'other';
+    }
+    return $n === 1 ? 'one' : 'other';
+}
+
+/** A plain count (1,190 / 1.190 / 1 190 / 1190) in the UI language's style. */
+function seo_int(int $n, string $ui): string
+{
+    if (in_array($ui, ['es', 'pt', 'ru', 'uk', 'ar'], true) && $n < 10000) return (string) $n;   // these write 4-digit counts ungrouped
+    $sep = in_array($ui, ['vi', 'id', 'de', 'it', 'es', 'pt'], true) ? '.' : (in_array($ui, ['fr', 'ru', 'uk'], true) ? "\u{202F}" : ',');
+    return number_format($n, 0, '', $sep);
+}
+
 function seo_people(int $n, string $ui): string
 {
     $grp = fn(int $x, string $sep) => number_format($x, 0, '', $sep);
@@ -219,12 +247,19 @@ function seo_redirect_if_renamed(string $map, string $id, string $ui): bool
 }
 const SEO_DATA_DIR = __DIR__ . '/../data';
 
-// Number of Word Map concepts (= WORD_ORDER length in word_manifest.js).
-// Used as the {w} placeholder in cross-navigation labels (hub / Han Map pages)
-// that don't load the Word Map JSON. The Word Map content pages override this
-// with the live count($words) from the data, so they never go stale; keep this
-// in sync when WORD_ORDER grows (tools/export_seo_data.js prints "concepts: N").
-const SEO_WM_WORDS = 30;
+// Word Map concept / language counts for the {w} / {n} placeholders on pages
+// that don't load the 27 MB Word Map JSON (hub, Han Map, trivia). Written by
+// tools/export_seo_data.js; it was a hand-kept constant left at 30 for 87.
+function seo_counts(): array
+{
+    static $c = null;
+    if ($c === null) {
+        $raw = @file_get_contents(SEO_DATA_DIR . '/seo_counts.json');
+        $c = ($raw !== false ? json_decode($raw, true) : null) ?: [];
+        $c += ['words' => 87, 'langs' => 1190];
+    }
+    return $c;
+}
 
 // UI languages with multilingual text, mirroring the export.
 const SEO_UI_LANGS = ['en', 'ja', 'ko', 'zh', 'yue', 'vi', 'th', 'id', 'hi',
@@ -300,7 +335,7 @@ const SEO_T_WORD = [
         'wd_other' => 'Elsewhere',
         'wd_link' => 'Words',
         'wd_index_h1' => 'All {w} words',
-        'wd_index_meta' => 'Every word on the Word Map — {w} concepts across 1,188 languages, with pronunciation.',
+        'wd_index_meta' => 'Every word on the Word Map — {w} concepts across {n} languages, with pronunciation.',
         'wd_title' => '{name} in {n} languages',
         'wd_meta' => 'How to say {name} in {n} languages, with pronunciation and native script.',
         'wd_forms' => '{n} languages',
@@ -327,7 +362,7 @@ const SEO_T_WORD = [
         'wd_other' => 'その他',
         'wd_link' => '単語',
         'wd_index_h1' => '{w}語すべて',
-        'wd_index_meta' => 'ワードマップに載っている全{w}語を、1,188言語の発音つきで。',
+        'wd_index_meta' => 'ワードマップに載っている全{w}語を、{n}言語の発音つきで。',
         'wd_title' => '「{name}」を{n}言語で',
         'wd_meta' => '「{name}」を{n}言語でどう言うか。発音と現地表記つき。',
         'wd_forms' => '{n}言語',
@@ -354,7 +389,7 @@ const SEO_T_WORD = [
         'wd_other' => '기타',
         'wd_link' => '단어',
         'wd_index_h1' => '전체 {w}개 단어',
-        'wd_index_meta' => '워드맵의 모든 단어 — 1,188개 언어의 {w}개 개념을 발음과 함께.',
+        'wd_index_meta' => '워드맵의 모든 단어 — {n}개 언어의 {w}개 개념을 발음과 함께.',
         'wd_title' => '{n}개 언어로 보는 「{name}」',
         'wd_meta' => '「{name}」을 {n}개 언어로 어떻게 말하는지, 발음과 현지 문자로.',
         'wd_forms' => '{n}개 언어',
@@ -381,7 +416,7 @@ const SEO_T_WORD = [
         'wd_other' => '其他',
         'wd_link' => '词语',
         'wd_index_h1' => '全部 {w} 个词',
-        'wd_index_meta' => '词语地图收录的全部 {w} 个词，涵盖 1,188 种语言，附发音。',
+        'wd_index_meta' => '词语地图收录的全部 {w} 个词，涵盖 {n} 种语言，附发音。',
         'wd_title' => '{n} 种语言里的「{name}」',
         'wd_meta' => '「{name}」在 {n} 种语言中怎么说，附发音与当地文字。',
         'wd_forms' => '{n} 种语言',
@@ -408,7 +443,7 @@ const SEO_T_WORD = [
         'wd_other' => '其他',
         'wd_link' => '詞語',
         'wd_index_h1' => '全部 {w} 個詞',
-        'wd_index_meta' => '詞語地圖收錄嘅全部 {w} 個詞，涵蓋 1,188 種語言，附發音。',
+        'wd_index_meta' => '詞語地圖收錄嘅全部 {w} 個詞，涵蓋 {n} 種語言，附發音。',
         'wd_title' => '{n} 種語言入面嘅「{name}」',
         'wd_meta' => '「{name}」喺 {n} 種語言點講，附發音同當地文字。',
         'wd_forms' => '{n} 種語言',
@@ -435,7 +470,7 @@ const SEO_T_WORD = [
         'wd_other' => 'Nơi khác',
         'wd_link' => 'Từ vựng',
         'wd_index_h1' => 'Tất cả {w} từ',
-        'wd_index_meta' => 'Mọi từ trên Bản đồ Từ vựng — {w} khái niệm trong 1.188 ngôn ngữ, kèm phát âm.',
+        'wd_index_meta' => 'Mọi từ trên Bản đồ Từ vựng — {w} khái niệm trong {n} ngôn ngữ, kèm phát âm.',
         'wd_title' => '“{name}” trong {n} ngôn ngữ',
         'wd_meta' => 'Cách nói “{name}” trong {n} ngôn ngữ, kèm phát âm và chữ viết bản địa.',
         'wd_forms' => '{n} ngôn ngữ',
@@ -462,7 +497,7 @@ const SEO_T_WORD = [
         'wd_other' => 'อื่น ๆ',
         'wd_link' => 'คำศัพท์',
         'wd_index_h1' => 'คำทั้งหมด {w} คำ',
-        'wd_index_meta' => 'ทุกคำในแผนที่คำศัพท์ — {w} มโนทัศน์ใน 1,188 ภาษา พร้อมคำอ่าน',
+        'wd_index_meta' => 'ทุกคำในแผนที่คำศัพท์ — {w} มโนทัศน์ใน {n} ภาษา พร้อมคำอ่าน',
         'wd_title' => '“{name}” ใน {n} ภาษา',
         'wd_meta' => '“{name}” พูดอย่างไรใน {n} ภาษา พร้อมคำอ่านและอักษรท้องถิ่น',
         'wd_forms' => '{n} ภาษา',
@@ -489,7 +524,7 @@ const SEO_T_WORD = [
         'wd_other' => 'Lainnya',
         'wd_link' => 'Kata',
         'wd_index_h1' => 'Semua {w} kata',
-        'wd_index_meta' => 'Setiap kata di Peta Kata — {w} konsep dalam 1.188 bahasa, lengkap dengan pelafalan.',
+        'wd_index_meta' => 'Setiap kata di Peta Kata — {w} konsep dalam {n} bahasa, lengkap dengan pelafalan.',
         'wd_title' => '“{name}” dalam {n} bahasa',
         'wd_meta' => 'Cara mengucapkan “{name}” dalam {n} bahasa, dengan pelafalan dan aksara asli.',
         'wd_forms' => '{n} bahasa',
@@ -516,7 +551,7 @@ const SEO_T_WORD = [
         'wd_other' => 'अन्य',
         'wd_link' => 'शब्द',
         'wd_index_h1' => 'सभी {w} शब्द',
-        'wd_index_meta' => 'वर्ड मैप के सभी शब्द — 1,188 भाषाओं में {w} अवधारणाएँ, उच्चारण सहित।',
+        'wd_index_meta' => 'वर्ड मैप के सभी शब्द — {n} भाषाओं में {w} अवधारणाएँ, उच्चारण सहित।',
         'wd_title' => '{n} भाषाओं में “{name}”',
         'wd_meta' => '{n} भाषाओं में “{name}” कैसे कहते हैं — उच्चारण और मूल लिपि के साथ।',
         'wd_forms' => '{n} भाषाएँ',
@@ -543,7 +578,7 @@ const SEO_T_WORD = [
         'wd_other' => 'Sonstige',
         'wd_link' => 'Wörter',
         'wd_index_h1' => 'Alle {w} Wörter',
-        'wd_index_meta' => 'Jedes Wort der Wortkarte — {w} Begriffe in 1.188 Sprachen, mit Aussprache.',
+        'wd_index_meta' => 'Jedes Wort der Wortkarte — {w} Begriffe in {n} Sprachen, mit Aussprache.',
         'wd_title' => '„{name}“ in {n} Sprachen',
         'wd_meta' => 'Wie man „{name}“ in {n} Sprachen sagt – mit Aussprache und Originalschrift.',
         'wd_forms' => '{n} Sprachen',
@@ -570,7 +605,7 @@ const SEO_T_WORD = [
         'wd_other' => 'Ailleurs',
         'wd_link' => 'Mots',
         'wd_index_h1' => 'Les {w} mots',
-        'wd_index_meta' => 'Tous les mots de la Carte des mots — {w} notions dans 1 188 langues, avec la prononciation.',
+        'wd_index_meta' => 'Tous les mots de la Carte des mots — {w} notions dans {n} langues, avec la prononciation.',
         'wd_title' => '« {name} » en {n} langues',
         'wd_meta' => 'Comment dire « {name} » en {n} langues, avec la prononciation et l’écriture d’origine.',
         'wd_forms' => '{n} langues',
@@ -597,7 +632,7 @@ const SEO_T_WORD = [
         'wd_other' => 'Altrove',
         'wd_link' => 'Parole',
         'wd_index_h1' => 'Tutte le {w} parole',
-        'wd_index_meta' => 'Ogni parola della Mappa delle parole — {w} concetti in 1.188 lingue, con la pronuncia.',
+        'wd_index_meta' => 'Ogni parola della Mappa delle parole — {w} concetti in {n} lingue, con la pronuncia.',
         'wd_title' => '«{name}» in {n} lingue',
         'wd_meta' => 'Come si dice «{name}» in {n} lingue, con pronuncia e scrittura originale.',
         'wd_forms' => '{n} lingue',
@@ -624,7 +659,7 @@ const SEO_T_WORD = [
         'wd_other' => 'Otros',
         'wd_link' => 'Palabras',
         'wd_index_h1' => 'Las {w} palabras',
-        'wd_index_meta' => 'Todas las palabras del Mapa de palabras: {w} conceptos en 1188 lenguas, con pronunciación.',
+        'wd_index_meta' => 'Todas las palabras del Mapa de palabras: {w} conceptos en {n} lenguas, con pronunciación.',
         'wd_title' => '«{name}» en {n} lenguas',
         'wd_meta' => 'Cómo se dice «{name}» en {n} lenguas, con pronunciación y escritura original.',
         'wd_forms' => '{n} lenguas',
@@ -651,7 +686,7 @@ const SEO_T_WORD = [
         'wd_other' => 'Outras',
         'wd_link' => 'Palavras',
         'wd_index_h1' => 'Todas as {w} palavras',
-        'wd_index_meta' => 'Cada palavra do Mapa de Palavras — {w} conceitos em 1188 línguas, com pronúncia.',
+        'wd_index_meta' => 'Cada palavra do Mapa de Palavras — {w} conceitos em {n} línguas, com pronúncia.',
         'wd_title' => '«{name}» em {n} línguas',
         'wd_meta' => 'Como se diz «{name}» em {n} línguas, com pronúncia e escrita original.',
         'wd_forms' => '{n} línguas',
@@ -678,10 +713,10 @@ const SEO_T_WORD = [
         'wd_other' => 'Прочее',
         'wd_link' => 'Слова',
         'wd_index_h1' => 'Все {w} слов',
-        'wd_index_meta' => 'Каждое слово Карты слов — {w} понятий на 1188 языках, с произношением.',
-        'wd_title' => '«{name}» на {n} языках',
+        'wd_index_meta' => 'Каждое слово Карты слов — {w} понятий на {n} языках, с произношением.',
+        'wd_title' => ['one' => '«{name}» на {n} языке', 'other' => '«{name}» на {n} языках'],
         'wd_meta' => 'Как сказать «{name}» на {n} языках — с произношением и родным письмом.',
-        'wd_forms' => '{n} языков',
+        'wd_forms' => ['one' => '{n} язык', 'few' => '{n} языка', 'many' => '{n} языков', 'other' => '{n} языка'],
         'wd_open_app' => 'Посмотреть «{name}» на карте',
     ],
     'uk' => [
@@ -705,10 +740,10 @@ const SEO_T_WORD = [
         'wd_other' => 'Інше',
         'wd_link' => 'Слова',
         'wd_index_h1' => 'Усі {w} слів',
-        'wd_index_meta' => 'Кожне слово Карти слів — {w} понять у 1188 мовах, із вимовою.',
-        'wd_title' => '«{name}» {n} мовами',
+        'wd_index_meta' => 'Кожне слово Карти слів — {w} понять у {n} мовах, із вимовою.',
+        'wd_title' => ['one' => '«{name}» {n} мовою', 'other' => '«{name}» {n} мовами'],
         'wd_meta' => 'Як сказати «{name}» {n} мовами — з вимовою та рідним письмом.',
-        'wd_forms' => '{n} мов',
+        'wd_forms' => ['one' => '{n} мова', 'few' => '{n} мови', 'many' => '{n} мов', 'other' => '{n} мови'],
         'wd_open_app' => 'Подивитися «{name}» на карті',
     ],
     'ar' => [
@@ -732,10 +767,10 @@ const SEO_T_WORD = [
         'wd_other' => 'أخرى',
         'wd_link' => 'الكلمات',
         'wd_index_h1' => 'كل الكلمات الـ{w}',
-        'wd_index_meta' => 'كل كلمة في خريطة الكلمات — {w} مفهومًا في 1188 لغة، مع النطق.',
-        'wd_title' => '«{name}» في {n} لغة',
+        'wd_index_meta' => 'كل كلمة في خريطة الكلمات — {w} مفهومًا في {n} لغة، مع النطق.',
+        'wd_title' => ['few' => '«{name}» في {n} لغات', 'other' => '«{name}» في {n} لغة'],
         'wd_meta' => 'كيف تقول «{name}» في {n} لغة، مع النطق والكتابة الأصلية.',
-        'wd_forms' => '{n} لغة',
+        'wd_forms' => ['few' => '{n} لغات', 'other' => '{n} لغة'],
         'wd_open_app' => 'شاهد «{name}» على الخريطة',
     ],
     'he' => [
@@ -759,7 +794,7 @@ const SEO_T_WORD = [
         'wd_other' => 'אחר',
         'wd_link' => 'מילים',
         'wd_index_h1' => 'כל {w} המילים',
-        'wd_index_meta' => 'כל מילה במפת המילים — {w} מושגים ב-1,188 שפות, עם הגייה.',
+        'wd_index_meta' => 'כל מילה במפת המילים — {w} מושגים ב-{n} שפות, עם הגייה.',
         'wd_title' => '«{name}» ב-{n} שפות',
         'wd_meta' => 'איך אומרים «{name}» ב-{n} שפות, עם הגייה וכתב מקורי.',
         'wd_forms' => '{n} שפות',
@@ -786,7 +821,7 @@ const SEO_T_WORD = [
         'wd_other' => 'Nyingine',
         'wd_link' => 'Maneno',
         'wd_index_h1' => 'Maneno yote {w}',
-        'wd_index_meta' => 'Kila neno kwenye Ramani ya Maneno — dhana {w} katika lugha 1,188, pamoja na matamshi.',
+        'wd_index_meta' => 'Kila neno kwenye Ramani ya Maneno — dhana {w} katika lugha {n}, pamoja na matamshi.',
         'wd_title' => '“{name}” katika lugha {n}',
         'wd_meta' => 'Jinsi ya kusema “{name}” katika lugha {n}, pamoja na matamshi na maandishi asilia.',
         'wd_forms' => 'lugha {n}',
@@ -2173,10 +2208,15 @@ function seo_t(string $ui, string $key, array $vars = []): string
         foreach (SEO_T_WORD as $l => $kv) { $T[$l] = ($T[$l] ?? []) + $kv; }
     }
     $s = $T[$ui][$key] ?? ($T['en'][$key] ?? $key);
+    // Plural-form entries ['one' => …, 'few' => …, 'other' => …] pick by {n}.
+    if (is_array($s)) {
+        $cnt = (int) preg_replace('/\D/u', '', (string) ($vars['n'] ?? '0'));
+        $s = $s[seo_plural_cat($ui, $cnt)] ?? $s['other'];
+    }
     // Auto-fill the Word Map word count for any label using {w} that didn't
     // receive an explicit 'w' (e.g. the hub / Han Map cross-nav links).
     if (!isset($vars['w']) && strpos($s, '{w}') !== false) {
-        $vars['w'] = (string) SEO_WM_WORDS;
+        $vars['w'] = (string) seo_counts()['words'];
     }
     // A language name sitting inside a sentence is cased differently from one
     // standing on its own — but only in some languages, and never when the
@@ -3174,6 +3214,11 @@ function seo_map_embed(?float $lat, ?float $lng, string $label, int $zoom = 5, s
     // An attribute, so HTML-escaped (the JSON form above is for the script:
     // its quotes broke the attribute apart — rally review r3).
     $attrLabel = e(seo_t($ui, 'where') . ' — ' . $label);
+    // Leaflet's own control titles are English; give them the page language (r21).
+    $zi = ['en' => 'Zoom in', 'ja' => '拡大', 'ko' => '확대', 'zh' => '放大', 'yue' => '放大', 'vi' => 'Phóng to', 'th' => 'ขยาย', 'id' => 'Perbesar', 'hi' => 'ज़ूम इन', 'de' => 'Vergrößern', 'fr' => 'Agrandir', 'it' => 'Ingrandisci', 'es' => 'Acercar', 'pt' => 'Aproximar', 'ru' => 'Увеличить', 'uk' => 'Збільшити', 'ar' => 'تكبير', 'he' => 'הגדל', 'sw' => 'Kuza'];
+    $zo = ['en' => 'Zoom out', 'ja' => '縮小', 'ko' => '축소', 'zh' => '缩小', 'yue' => '縮小', 'vi' => 'Thu nhỏ', 'th' => 'ย่อ', 'id' => 'Perkecil', 'hi' => 'ज़ूम आउट', 'de' => 'Verkleinern', 'fr' => 'Réduire', 'it' => 'Riduci', 'es' => 'Alejar', 'pt' => 'Afastar', 'ru' => 'Уменьшить', 'uk' => 'Зменшити', 'ar' => 'تصغير', 'he' => 'הקטן', 'sw' => 'Punguza'];
+    $jsZin = json_encode($zi[$ui] ?? $zi['en'], JSON_UNESCAPED_UNICODE | JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP);
+    $jsZout = json_encode($zo[$ui] ?? $zo['en'], JSON_UNESCAPED_UNICODE | JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP);
     return <<<HTML
 <div class="seo-map-wrap">
   <div id="{$id}" class="seo-map" role="region" aria-label="{$attrLabel}"></div>
@@ -3209,8 +3254,11 @@ function seo_map_embed(?float $lat, ?float $lng, string $label, int $zoom = 5, s
   }
   function init() {
     if (typeof L === 'undefined') return;
-    var map = L.map(el, { scrollWheelZoom: false, attributionControl: true })
+    var map = L.map(el, { scrollWheelZoom: false, attributionControl: true, zoomControl: false })
       .setView([{$lat}, {$lng}], {$zoom});
+    L.control.zoom({ zoomInTitle: {$jsZin}, zoomOutTitle: {$jsZout} }).addTo(map);
+    // The Leaflet credit link's English title ("A JavaScript library for interactive maps").
+    if (map.attributionControl) map.attributionControl.setPrefix('<a href="https://leafletjs.com">Leaflet</a>');
     // CARTO Voyager, as on the maps themselves: it serves real @2x tiles
     // ({r}), sharp on high-DPR screens (image-size-responsive). OSM's own
     // tiles have no @2x, and Leaflet's detectRetina on them drew every label
@@ -3296,14 +3344,26 @@ function seo_fonts_links(string $html): string
     if ($han || preg_match('/[\x{3040}-\x{30FF}]/u', $html)) $fam[] = 'Noto+Serif+JP:wght@400;700';
     if ($han) { $fam[] = 'Noto+Serif+SC:wght@400;700'; $fam[] = 'Noto+Serif+TC:wght@400;700'; }
     if (preg_match('/[\x{1100}-\x{11FF}\x{3130}-\x{318F}\x{AC00}-\x{D7AF}]/u', $html)) $fam[] = 'Noto+Serif+KR:wght@400;700';
-    if (preg_match('/[\x{0F00}-\x{0FFF}]/u', $html)) $fam[] = 'Noto+Serif+Tibetan:wght@400;700';
-    if (preg_match('/[\x{17000}-\x{18AFF}]/u', $html)) $fam[] = 'Noto+Serif+Tangut';
-    if (preg_match('/[\x{A840}-\x{A87F}]/u', $html)) $fam[] = 'Noto+Sans+Phags+Pa';
-    if (preg_match('/[\x{1800}-\x{18AF}]/u', $html)) $fam[] = 'Noto+Sans+Mongolian';
-    $url = 'https://fonts.googleapis.com/css2?family=' . implode('&family=', $fam) . '&display=swap';
-    $u = htmlspecialchars($url, ENT_QUOTES);
-    return '<link rel="stylesheet" href="' . $u . '" media="print" onload="this.media=\'all\'">' . "\n"
-        . '<noscript><link rel="stylesheet" href="' . $u . '"></noscript>';
+    // Tibetan, Tangut, Phags-pa and Mongolian are one unsliced file each (Tibetan
+    // 732 KB for the three glyphs a word page shows): request only the glyphs
+    // on the page, through a second URL with &text= (r21).
+    $rare = [];
+    foreach ([['/[\x{0F00}-\x{0FFF}]/u', 'Noto+Serif+Tibetan:wght@400;700'], ['/[\x{17000}-\x{18AFF}]/u', 'Noto+Serif+Tangut'],
+              ['/[\x{A840}-\x{A87F}]/u', 'Noto+Sans+Phags+Pa'], ['/[\x{1800}-\x{18AF}]/u', 'Noto+Sans+Mongolian']] as [$re, $f]) {
+        if (preg_match_all($re, $html, $mm)) { $rare[$f] = array_unique($mm[0]); }
+    }
+    $link = function (string $url): string {
+        $u = htmlspecialchars($url, ENT_QUOTES);
+        return '<link rel="stylesheet" href="' . $u . '" media="print" onload="this.media=\'all\'">' . "\n"
+            . '<noscript><link rel="stylesheet" href="' . $u . '"></noscript>';
+    };
+    $out = $link('https://fonts.googleapis.com/css2?family=' . implode('&family=', $fam) . '&display=swap');
+    if ($rare) {
+        $chars = array_unique(array_merge(...array_values($rare)));
+        $out .= "\n" . $link('https://fonts.googleapis.com/css2?family=' . implode('&family=', array_keys($rare))
+            . '&display=swap&text=' . rawurlencode(implode('', $chars)));
+    }
+    return $out;
 }
 
 /** Shared <head> + page chrome opening. */
@@ -3381,6 +3441,16 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
      Japanese system font drops, leaving it in a mismatched fallback face). */
   font-family: "Noto Serif SC", "Noto Serif TC", "Noto Serif JP", "Noto Serif KR",
     "Gentium Plus", system-ui, sans-serif; }
+/* ...but Han in a Japanese, Korean or traditional-Chinese name takes that
+   language's glyph shapes, not the Simplified Chinese ones (日本語 was drawn
+   in Noto Serif SC). */
+.seo-hero .native:lang(ja), .seo-hero .native [lang|="ja"] {
+  font-family: "Noto Serif JP", "Noto Serif SC", "Noto Serif TC", "Noto Serif KR", "Gentium Plus", system-ui, sans-serif; }
+.seo-hero .native:lang(ko), .seo-hero .native [lang|="ko"] {
+  font-family: "Noto Serif KR", "Noto Serif TC", "Noto Serif JP", "Noto Serif SC", "Gentium Plus", system-ui, sans-serif; }
+.seo-hero .native:lang(yue), .seo-hero .native:lang(zh-Hant), .seo-hero .native:lang(zh-HK), .seo-hero .native:lang(zh-TW),
+.seo-hero .native [lang|="yue"], .seo-hero .native [lang="zh-Hant"] {
+  font-family: "Noto Serif TC", "Noto Serif SC", "Noto Serif JP", "Noto Serif KR", "Gentium Plus", system-ui, sans-serif; }
 .seo-hero .sub { font-size: 1.1rem; color: var(--muted); margin: 0 0 1rem; }
 .seo-meta { display: flex; flex-wrap: wrap; gap: .5rem .75rem; margin: 1rem 0 1.5rem; }
 .seo-meta .chip { background: var(--card); border: 1px solid var(--line);
@@ -3600,8 +3670,9 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
 .seo-chartable td { padding: .55rem .85rem; vertical-align: middle; }
 .seo-chartable td.c-char { text-align: center; vertical-align: middle;
   font-size: 1.6rem; line-height: 1; white-space: nowrap; }
-.seo-chartable td.c-gloss { color: var(--muted); font-size: .8rem; vertical-align: middle;
-  max-width: 14rem; }
+.seo-chartable td.c-char .c-gl { display: block; margin-top: .3rem; color: var(--muted);
+  font-size: .72rem; line-height: 1.25; white-space: normal; overflow-wrap: break-word;
+  font-family: system-ui, sans-serif; }
 .seo-chartable td.c-read { white-space: normal; }   /* long labels wrap inside the capped column */
 .seo-chartable td.c-read .rlabel { display: inline-block; font-size: .68rem; color: var(--muted);
   border: 1px solid var(--line); border-radius: .5rem; padding: 0 .4rem; line-height: 1.5; }

@@ -582,6 +582,9 @@ function main() {
   stale += emit('wordmap_seo.json', wm);
   stale += emit('hanmap_seo.json', hm);
   stale += emit('meta_i18n_seo.json', metaI18n);
+  // Counts the hub / Han Map / trivia pages quote without loading the 27 MB
+  // Word Map file (lib.php used a hand-kept constant that sat at 30 for 87).
+  stale += emit('seo_counts.json', { words: wm.words.length, langs: Object.keys(wm.langs).length });
 
   if (CHECK) {
     console.log('stale: ' + stale);

@@ -348,9 +348,11 @@ function seo_render_trivia_article(array $data, array $byId, string $id, string 
   <?php endif; ?>
 </header>
 
-<?php if (!empty($a['tags'])): ?>
+<?php // Tags are untranslated English slugs ("isolate amazon controversy"): on
+      // other UIs they read as a stray English phrase, so English pages only (r21). ?>
+<?php if (!empty($a['tags']) && $ui === 'en'): ?>
 <p class="seo-crumbs"><?= e(seo_t($ui, 'tri_tags')) ?>:
-  <?php foreach ($a['tags'] as $tag): ?><span class="code" translate="no"<?= $ui !== 'en' ? ' lang="en"' : '' ?>><?= e($tag) ?></span> <?php endforeach; ?>
+  <?php foreach ($a['tags'] as $i => $tag): ?><?= $i ? ', ' : '' ?><span class="code" translate="no"><?= e($tag) ?></span><?php endforeach; ?>
 </p>
 <?php endif; ?>
 

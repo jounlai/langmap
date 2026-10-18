@@ -1390,7 +1390,7 @@ WORDS.n99 = {
     ar:    ["تسعة وتسعون", "tisʕa wa tisʕuːn"],
     tl: ["siyamnapuʼt siyam", "siˌjamnaˈput siˈjam"], // was ["siyamnapuʼt siyam", "ʃamnaˈput ʃam"] (vi dialect rules 2026-10-06)
     ru:    ["девяносто девять", "dʲɪvʲɪˈnostə ˈdʲevʲɪtʲ"],
-    pl:    ["dziewięćdziesiąt dziewięć", "dʑɛvʲɛɲˈdʑɛɕɔnt ˈdʑɛvʲɛɲtɕ"],
+    pl:    ["dziewięćdziesiąt dziewięć", "dʑɛvjɛɲˈdʑɛɕɔnt ˈdʑɛvjɛɲtɕ"],
     tr:    ["doksan dokuz", "dokˈsan doˈkuz"],
     hu:    ["kilencvenkilenc", "ˈkilɛntsvɛnˌkilɛnts"],
     fi: ["yhdeksänkymmentäyhdeksän", "ˈyhdeksænˌkymːentæˌyhdeksæn"], // was ["yhdeksänkymmentäyhdeksän", "ˈyhdeksænˌkymmentæˌyhdeksæn"] (vi dialect rules 2026-10-06)

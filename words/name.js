@@ -297,7 +297,7 @@ WORDS.name = {
       ohu: ["név", "neːv"],
       el: ["όνομα", "ˈonoma"],
       nl: ["naam", "naːm"],
-      pl: ["imię", "ˈimʲɛ"],
+      pl: ["imię", "ˈimjɛ"],
       szl: ["miano", "ˈmjanɔ"],
       uk: ["ім'я", "iˈmja"],
       sv: ["namn", "namn"],

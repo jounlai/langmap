@@ -1539,9 +1539,9 @@ WORDS.sugar = {
     am: ["ስኳር", "sɨkʷar"],
     fi: ["sokeri", "ˈsokeri"],
     hu: ["cukor", "ˈtsukor"],
-    el: ["ζάχαρη", "ˈzaxari"],
-    nl: ["suiker", "ˈsœʏkər"],
-    pl: ["cukier", "ˈtsukʲɛr"],
+    el: ["ζάχαρη", "ˈzaxaɾi"],
+    nl: ["suiker", "ˈsœy̯kər"],
+    pl: ["cukier", "ˈtsukjɛr"],
     uk: ["цукор", "ˈtsukɔr"], // was ["цукор", "ˈtsukor"] (vi dialect rules 2026-10-06)
     sv: ["socker", "ˈsɔkːɛr"],
     no: ["sukker", "ˈsʊkːər"],

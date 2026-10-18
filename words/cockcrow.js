@@ -478,7 +478,7 @@ WORDS.cockcrow = {
     tl: ["tiktilaok", "tiktiˈlaʔok"],
     fi: ["kukkokiekuu", "ˈkukːoˌkiekuː"],
     hu: ["kukurikú", "ˈkukurikuː"],
-    el: ["κικιρίκου", "kikiˈriku"],
+    el: ["κικιρίκου", "kikiˈɾiku"],
     nl: ["kukeleku", "kykələˈky"],
     pl: ["kukuryku", "kukuˈrɨku"],
     uk: ["кукуріку", "kukuriˈku"],

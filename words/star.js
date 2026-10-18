@@ -295,7 +295,7 @@ WORDS.star = {
       fi: ["tähti", "ˈtæhti"],
       hu: ["csillag", "ˈtʃilːɒɡ"],
       ohu: ["csillag", "ˈtʃilːɒɡ"],
-      el: ["αστέρι", "aˈsteri"],
+      el: ["αστέρι", "aˈsteɾi"],
       nl: ["ster", "stɛr"],
       pl: ["gwiazda", "ˈɡvjazda"],
       szl: ["gwiŏzda", "ˈɡvjɔzda"],

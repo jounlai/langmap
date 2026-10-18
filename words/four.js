@@ -87,7 +87,7 @@ WORDS.four = {
     la: ["quattuor", "ˈkʷattuor"],
     el_grc: ["τέσσαρες", "téssares"],
     el_kath: ["τέσσαρες", "ˈtesares"],
-    el: ["τέσσερα", "ˈtesera"],
+    el: ["τέσσερα", "ˈteseɾa"],
     cy: ["pedwar", "ˈpɛdwar"],
     ga: ["ceathair", "ˈcahəɾʲ"],
     sga: ["cethair", "ˈkʲeθərʲ"],

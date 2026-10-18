@@ -232,7 +232,7 @@ WORDS.father = {
     ar: ["أب", "ʔab"],
     he: ["אבא", "ˈaba"],
     tr: ["baba", "baˈba"],
-    fa: ["پدر", "pedær"],
+    fa: ["پدر", "pedæɾ"],
     jpr: ["פדר", "pedær"],
     prs: ["پدر", "padaɾ"],
     trm: ["tata", "tata"],

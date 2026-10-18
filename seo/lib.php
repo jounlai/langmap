@@ -3497,11 +3497,7 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
    a second heading — and tabular so a column of centuries lines up. */
 .wcard-era { font-size: .74rem; color: var(--muted);
   font-variant-numeric: tabular-nums; margin: -.25rem 0 .3rem; }
-.wcard > .surface { font-size: 1.75rem; line-height: 1.2; margin: 0; word-break: break-word;
-  font-family: "Gentium Plus", "Charis SIL", "Noto Serif", "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao", "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Sans Ol Chiki", "Noto Serif Georgian", "Noto Serif Armenian", "Noto Serif Ethiopic", "Noto Sans Syriac", "Noto Serif JP",
-    "Noto Serif SC", "Noto Serif TC", "Noto Serif KR", "Source Han Serif",
-    "Songti SC", "STSong", "SimSun", "Hiragino Mincho ProN", "Yu Mincho",
-    "MS Mincho", Georgia, "Times New Roman", serif; }   /* it inherited system-ui, so the script faces never applied (r26) */
+.wcard > .surface { font-size: 1.75rem; line-height: 1.2; margin: 0; word-break: break-word; }
 /* Tibetan needs its own face and a little more room. Noto Serif Tibetan is
    loaded above; the rest of the chain is the one the interactive map uses.
    The size bump is small and the leading is not: Tibetan stacks subjoined
@@ -3509,6 +3505,10 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .s-tibt { font-family: "Noto Serif Tibetan", "Kailasa", "Microsoft Himalaya",
   "Jomolhari", "Tibetan Machine Uni", serif; }
 .wcard > .surface.s-tibt { font-size: 2.15rem; line-height: 1.5; }
+.wcard .surface:not(.s-tibt):not(.s-mong) { font-family: "Gentium Plus", "Charis SIL", "Noto Serif", "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao", "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Sans Ol Chiki", "Noto Serif Georgian", "Noto Serif Armenian", "Noto Serif Ethiopic", "Noto Sans Syriac", "Noto Serif JP",
+    "Noto Serif SC", "Noto Serif TC", "Noto Serif KR", "Source Han Serif",
+    "Songti SC", "STSong", "SimSun", "Hiragino Mincho ProN", "Yu Mincho",
+    "MS Mincho", Georgia, "Times New Roman", serif; }   /* nested alternate spellings too (r27) */
 /* Traditional Mongolian / Manchu: columns, top to bottom, running left to
    right. Same chain and the same rotation the map uses. max-height so that
    the one long form in the data — Inner Mongolian hello, 11 characters —
@@ -4065,7 +4065,10 @@ function seo_lang_ui(string $ui, string $altPath): void
 <script>
 (function () {
   var C = <?= $json ?>;
-  var KEY = 'langmap_ui_pref';
+  // v2: until r26 the page saved the visitor's language silently; those saves
+  // are not choices, so the old key no longer counts (r27).
+  var KEY = 'langmap_ui_pref_v2';
+  try { localStorage.removeItem('langmap_ui_pref'); } catch (e) {}
   function get() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
   function set(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
   function supported(u) { return C.supported.indexOf(u) !== -1; }
@@ -4131,12 +4134,13 @@ function seo_lang_ui(string $ui, string $altPath): void
       var commit = function () {
         pending = false;
         var u = sel.value;
-        if (!supported(u)) return;
+        if (!supported(u) || u === C.pageUi) return;   // nothing chosen: nothing saved (r27)
         set(u);
-        if (u !== C.pageUi) go(u);
+        go(u);
       };
       sel.addEventListener('keydown', function (e) {
         if (e.key === 'Enter') { e.preventDefault(); if (pending) commit(); return; }
+        if (e.key === 'Escape') { pending = false; sel.value = C.pageUi; return; }   // cancel, don't commit on blur
         kb = /^(Arrow|Page|Home|End)/.test(e.key) || e.key.length === 1;
       });
       sel.addEventListener('pointerdown', function () { kb = false; });

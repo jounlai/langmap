@@ -1525,9 +1525,12 @@ body.chrome-hidden .chrome-toggle-btn .icon-off { display: block; }
    reads as one consistent button stack [chrome-toggle][zoom +/-][2D][gear].
    margin-left:8px (default) doesn't apply inside the right-controls
    flex column — its `align-items: center` handles horizontal placement. */
-.right-controls > .chrome-toggle-btn {
+.right-controls > .chrome-toggle-btn,
+.tm-map-ctl > .chrome-toggle-btn,
+.nm-map-ctl > .chrome-toggle-btn {
     margin-left: 0;
     border-radius: 50%;
+    background: rgba(255,255,255,.92);   /* in the map column labels showed through the icon (r27) */
 }
 
 /* Mobile: chrome-toggle sits BETWEEN trivia and hamburger.

@@ -76,7 +76,7 @@ WORDS.green = {
     uk: ["зелений", "zeˈɫɛnei̯"],
     pl: ["zielony", "ʑɛˈlɔnɨ"],
     cs: ["zelený", "ˈzɛlɛniː"],
-    el: ["πράσινο", "ˈprasino"],
+    el: ["πράσινο", "ˈpɾasino"],
     ja: ["緑", "midoɾi"],
     ko: ["초록", "tɕʰoɾok̚"],
     zh: ["绿", "ly˥˩"],

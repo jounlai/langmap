@@ -298,7 +298,7 @@ WORDS.fish = {
     fi: ["kala", "ˈkɑlɑ"],
     hu: ["hal", "hɒl"],
     ohu: ["hal", "hɒl"],
-    el: ["ψάρι", "ˈpsari"],
+    el: ["ψάρι", "ˈpsaɾi"],
     nl: ["vis", "vɪs"],
     pl: ["ryba", "ˈrɨba"],
     szl: ["ryba", "ˈrɪba"],

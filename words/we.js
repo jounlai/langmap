@@ -1439,7 +1439,7 @@ WORDS.we = {
     hu: ["mi", "mi"],
     ohu: ["mi", "mi"],
     el: ["εμείς", "eˈmis"],
-    nl: ["wij", "ʋɛi"],
+    nl: ["wij", "ʋɛi̯"],
     pl: ["my", "mɨ"],
     szl: ["my", "mɪ"], // was ["my", "mɨ"] (vi dialect rules 2026-10-06)
     uk: ["ми", "mɪ"],

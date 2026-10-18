@@ -192,7 +192,7 @@ WORDS.honey = {
     // --- Iranian: angubēn, then the Arabic loan ------------------------
     pal: ["𐭠𐭭𐭢𐭯𐭩𐭭", "aŋɡubeːn"],
     fa_clas: ["انگبین", "aŋɡubiːn"],
-    fa: ["عسل", "æsæl"],
+    fa: ["عسل", "ʔæsæl"],
     prs: ["عسل", "asal"],
     tg: ["асал", "aˈsal"],
     ku: ["hingiv", "hɪnˈɡɪv"],

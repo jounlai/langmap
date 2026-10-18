@@ -93,7 +93,7 @@ WORDS.mountain = {
     ko: ["산", "san"],
     zh: ["山", "ʂan˥"],
     yue: ["山", "saːn˥"],
-    vi: ["núi", "nui˧˥"],
+    vi: ["núi", "nuj˧˥"],
     th: ["ภูเขา", "pʰuː˧kʰaw˩˩˦"],
     id: ["gunung", "ˈɡunuŋ"],
     ms: ["gunung", "ˈɡunuŋ"],

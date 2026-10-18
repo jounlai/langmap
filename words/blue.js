@@ -1580,7 +1580,7 @@ WORDS.blue = {
     et: ["sinine", "ˈsinine"],  // sinine vs roheline.
     eu: ["urdin", "urˈdin"],  // Basque urdin vs berde. urdin is inherited and originally covered a blue-grey-green range (ur 'water'); it still names grey hair and mould, while berde is a Romance loan carrying green.
     evn: ["диктэмэ", "dʒiktəˈmə"],  // Evenki диктэмэ vs чуларин.
-    fa: ["آبی", "ʔɒːˈbi"],  // آبی (< آب 'water') vs سبز 'green'.
+    fa: ["آبی", "ʔɒːˈbiː"],  // آبی (< آب 'water') vs سبز 'green'.
     fi: ["sininen", "ˈsininen"],  // sininen vs vihreä.
     fj: ["karakarawa", "karakarawa"],  // One term covers blue and green; POc *kara-karawa 'blue-green'. Fijian drokadroka 'green' (< droka 'unripe') is the later narrowing.
     fo: ["bláur", "ˈplɔɑːvʊɹ"],  // Faroese bláur against grønur. // was ["bláur", "ˈblɔaːɹʊɹ"] (vi dialect rules 2026-10-06)
@@ -1746,7 +1746,7 @@ WORDS.blue = {
     pau: ["mellemau", "məlːəˈmaw"],  // Green has no independent basic term: Josephs' finder gives 'green' as bedengel a biib / bedengel a chudel ('colour of the biib plant/of grass') and mellemau el ua llel a lius ('mellemau like a coconut leaf'). Stress from Josephs' own transcription of the reduplicate melellemáu [məlεlːəmáw].
     piu: ["puluuwana", "puluːwana"],  // Loan from English 'blue one', parallel to the same dictionary's kuriinwana 'green object. From English, "green one"' and (y)iluwuwana 'yellow object'. The inherited system has no blue term: maru 'black; dark colour ... covers dark shades of other colours also' and yukiri 'green grass, green shoots ... also used for any object that is green in colour'. ilkari/yilkari and ngaṉka are 'sky', not colour terms.
     pkp: ["yengayenga", "ðeŋaðeŋa"],  // The only Pukapukan item POLLEX carries with a 'blue' gloss, and it covers blue, green and yellow together — a very wide grue. Marked uncertain because the cognates elsewhere in Polynesian mean 'yellow/yellowish-red', so 'blue' may not be its focal sense. Pukapukan also has uli 'black' and uyi 'dark (of flora)'. // was ["yengayenga", "jeŋajeŋa"] (vi dialect rules 2026-10-06)
-    pl: ["niebieski", "ɲɛˈbʲɛskʲi"],  // niebieski (< niebo 'sky') is the everyday blue; błękitny is the lighter sky-blue and modry is archaic/poetic. Against zielony.
+    pl: ["niebieski", "ɲɛˈbjɛski"],  // niebieski (< niebo 'sky') is the everyday blue; błękitny is the lighter sky-blue and modry is archaic/poetic. Against zielony.
     plg: ["malaʁadaik", "malaʁadaik"],  // Exactly the convention of this row's red 'toom-aʁad-aik → toomaʁadaik.
     pmt: ["ninamu", "ninamu"],  // Stimson glosses ninamu simply 'Blue' and lists a large set of synonyms. Class marked uncertain because Tuamotuan nena/manena is glossed 'light bright blue' AND 'light bright green ... blue-green, blue with a greenish tinge', and Stimson records no monolexemic basic 'green'. Cognate with Tahitian nīnamu.
     pmy: ["biru", "ˈbiɾu"],  // IPA taken verbatim from Kluge's own transcription, which already matches the row's style (row red: merah/ˈmeɾa). Kluge also records reduplicated biru~biru 'be very blue' (p. 212) and nyonyor 'be black and blue' (p. 582).

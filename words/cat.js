@@ -232,7 +232,7 @@ WORDS.cat = {
     ar: ["قطة", "qitˤtˤa"],
     he: ["חתול", "χaˈtul"],
     tr: ["kedi", "ceˈdi"],
-    fa: ["گربه", "ɡorbe"],
+    fa: ["گربه", "ɡoɾbe"],
     jpr: ["גורבה", "ɡorbe"],
     prs: ["پشک", "piʃak"],
     trm: ["—", "—"],

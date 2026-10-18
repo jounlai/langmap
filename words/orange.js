@@ -1121,7 +1121,7 @@ WORDS.orange = {
     mg: ["voasary", "vuaˈsari"], // was ["voasary", "vuˈsarʲ"] (vi dialect rules 2026-10-06)
     fi: ["appelsiini", "ˈɑpːelsiːni"],
     hu: ["narancs", "ˈnɒrɒntʃ"],
-    el: ["πορτοκάλι", "portoˈkali"],
+    el: ["πορτοκάλι", "poɾtoˈkali"],
     nl: ["sinaasappel", "ˈsinɑsɑpəl"],
     pl: ["pomarańcza", "pɔmaˈraɲtʂa"],
     szl: ["pōmerańcza", "pomɛˈraɲtʂa"], // was ["pōmerańcza", "pɔmɛˈraɲtʂa"] (vi dialect rules 2026-10-06)

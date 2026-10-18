@@ -296,7 +296,7 @@ WORDS.you = {
       hu: ["te", "tɛ"],
       ohu: ["te", "te"],
       el: ["εσύ", "eˈsi"],
-      nl: ["jij", "jɛi"],
+      nl: ["jij", "jɛi̯"],
       pl: ["ty", "tɨ"],
       szl: ["ty", "tɪ"],
       uk: ["ти", "tɪ"],

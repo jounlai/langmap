@@ -174,7 +174,7 @@ WORDS.ear = {
     rbb: ["ʨhok", "tɕʰok"],
     blr: ["ja31 juk51", "ja˧˩ juk˥˩"],
     blt: ["ꪬꪴ", "huː˨"],
-    vi: ["tai", "taj˧"],
+    vi: ["tai", "taːj˧"],
     vi_c: ["tai", "taːj˥"],
     vi_s: ["tai", "taːj˧"],
     km: ["ត្រចៀក", "trɑˈciəʔ"],

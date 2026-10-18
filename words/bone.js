@@ -213,7 +213,7 @@ WORDS.bone = {
     ar: ["عظم", "ʕaðˤm"],
     he: ["עצם", "ˈetsem"],
     tr: ["kemik", "ceˈmic"],
-    fa: ["استخوان", "ostoˈxɒːn"],
+    fa: ["استخوان", "ʔostoˈxɒːn"],
     jpr: ["אסתכואן", "ostoxɒːn"],
     prs: ["استخوان", "ustuˈxɑːn"],
     trm: ["aṭi", "aʈi"],

@@ -1259,7 +1259,13 @@
 
     function gregParts(dateStr) {
         const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(dateStr || ''); if (!m) return null;
-        return { y: +m[1], m: +m[2], d: +m[3] };
+        // A date that does not exist (2026-02-30, 2026-13-45, 0000-00-00) is not a
+        // date: callers fall back to today instead of every calendar disagreeing (r27).
+        const y = +m[1], mo = +m[2], d = +m[3];
+        if (y < 1 || mo < 1 || mo > 12 || d < 1) return null;
+        const t = new Date(0); t.setUTCFullYear(y, mo - 1, d);
+        if (t.getUTCMonth() !== mo - 1 || t.getUTCDate() !== d) return null;
+        return { y: y, m: mo, d: d };
     }
     const cmp = (a, b) => (a.y - b.y) || (a.m - b.m) || (a.d - b.d);
     function render(cal, g) {

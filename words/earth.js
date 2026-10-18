@@ -351,7 +351,7 @@ WORDS.earth = {
     ru: ["земля", "zʲɪmˈlʲa"],
     uk: ["земля", "zemˈlʲa"],
     be: ["зямля", "zʲamˈlʲa"],
-    pl: ["ziemia", "ˈʑɛmʲa"],
+    pl: ["ziemia", "ˈʑɛmja"],
     cs: ["země", "ˈzɛmɲɛ"],
     sk: ["zem", "zɛm"],
     sl: ["zemlja", "ˈzɛːmlja"],

@@ -1219,7 +1219,7 @@ WORDS.wine = {
     la: ["vīnum", "ˈwiːnum"],
     el_grc: ["οἶνος", "oînos"],
     el_kath: ["οἶνος", "ˈinos"],
-    el: ["κρασί", "kraˈsi"],
+    el: ["κρασί", "kɾaˈsi"],
     hit: ["𒉿𒅀𒈾𒀸", "wijanas"],
     hy_grab: ["գինի", "ɡini"],
     hy: ["գինի", "ɡiˈni"],
@@ -1256,7 +1256,7 @@ WORDS.wine = {
     sva: ["ღუ̂ინელ", "ɣwinel"], // was ["ღვინელ", "ɣvinel"] (vi dialect rules 2026-10-06)
 
     // --- Modern Europe --------------------------------------------------
-    nl: ["wijn", "ʋɛin"],
+    nl: ["wijn", "ʋɛi̯n"],
     af: ["wyn", "vəin"],
     sv: ["vin", "viːn"],
     no: ["vin", "viːn"],

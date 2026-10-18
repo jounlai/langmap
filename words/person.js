@@ -81,7 +81,7 @@ WORDS.person = {
     sr: ["човек", "tʃôʋek"],
     hr: ["čovjek", "tʃǒʋjek"],
     sl: ["človek", "ˈtʃlɔːʋɛk"],
-    el: ["άνθρωπος", "ˈanθropos"],
+    el: ["άνθρωπος", "ˈanθɾopos"],
     hi: ["व्यक्ति", "ˈʋjəkti"],
     bn: ["মানুষ", "ˈmanuʃ"],
     fa: ["انسان", "ʔenˈsɒːn"],

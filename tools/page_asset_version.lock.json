@@ -1,7 +1,7 @@
 {
   "app.js": {
-    "version": 107,
-    "hash": "480daa541a778b13"
+    "version": 108,
+    "hash": "7ec9c4099e405cc8"
   },
   "data.js": {
     "version": 92,
@@ -60,8 +60,8 @@
     "hash": "45e649c2244267b3"
   },
   "nav-short.js": {
-    "version": 35,
-    "hash": "7036dbfca4f0f18b"
+    "version": 36,
+    "hash": "c5f49e4e62a5189d"
   },
   "poster_geo.js": {
     "version": 12,
@@ -88,19 +88,19 @@
     "hash": "a9a5ec0b06fdab27"
   },
   "styles.css": {
-    "version": 163,
-    "hash": "6d210b5d8cf588b7"
+    "version": 164,
+    "hash": "b8f5529590576df3"
   },
   "timemap_calendars.js": {
-    "version": 15,
-    "hash": "481896fe87415300"
+    "version": 16,
+    "hash": "f0771270be7372f5"
   },
   "word_labels.js": {
     "version": 71,
     "hash": "71c78ae558968bf5"
   },
   "word_manifest.js": {
-    "version": 965,
+    "version": 966,
     "hash": "99fafa5b03aba24a"
   },
   "wordmap_data.js": {

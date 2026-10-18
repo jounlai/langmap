@@ -295,7 +295,7 @@ WORDS.heart = {
     fi: ["sydän", "ˈsydæn"],
     hu: ["szív", "siːv"],
     ohu: ["szīw", "siːw"],
-    el: ["καρδιά", "kaɾˈðʲa"],
+    el: ["καρδιά", "kaɾˈðʝa"],
     nl: ["hart", "ɦɑrt"],
     pl: ["serce", "ˈsɛrtsɛ"],
     szl: ["serce", "ˈsɛrtsɛ"],

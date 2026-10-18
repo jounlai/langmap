@@ -232,7 +232,7 @@ WORDS.eat = {
     ar: ["أكل", "ʔakala"],
     he: ["לאכול", "leʔeˈχol"],
     tr: ["yemek", "jeˈmec"],
-    fa: ["خوردن", "xordæn"],
+    fa: ["خوردن", "xoɾdæn"],
     jpr: ["חורדן", "xordæn"],
     prs: ["خوردن", "xuɾdan"],
     trm: ["—", "—"],

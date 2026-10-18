@@ -295,7 +295,7 @@ WORDS.house = {
     hu: ["ház", "haːz"],
     ohu: ["hāz", "haːz"],
     el: ["σπίτι", "ˈspiti"],
-    nl: ["huis", "ɦœʏs"],
+    nl: ["huis", "ɦœy̯s"],
     pl: ["dom", "dɔm"],
     szl: ["chałpa", "ˈxawpa"],
     uk: ["дім", "dim"],

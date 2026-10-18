@@ -73,7 +73,7 @@ WORDS.iron = {
     la: ["ferrum", "ˈferrum"],
     el_grc: ["σίδηρος", "sídɛːros"],
     el_kath: ["σίδηρος", "ˈsiðiros"],
-    el: ["σίδερο", "ˈsiðero"],
+    el: ["σίδερο", "ˈsiðeɾo"],
     got: ["𐌴𐌹𐍃𐌰𐍂𐌽", "ˈiːsarn"],
     ang: ["īsern", "ˈiːzern"],
     enm: ["iren", "ˈiːrən"],
@@ -107,7 +107,7 @@ WORDS.iron = {
     nci: ["tepoztli", "tepostɬi"],
 
     // --- Modern Europe --------------------------------------------------
-    nl: ["ijzer", "ˈɛizər"],
+    nl: ["ijzer", "ˈɛi̯zər"],
     af: ["yster", "ˈəistər"],
     sv: ["järn", "jæːɳ"],
     no: ["jern", "jæːɳ"],

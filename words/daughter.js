@@ -130,7 +130,7 @@ WORDS.daughter = {
     bg: ["дъщеря", "dɐʃtɛˈrʲa"],
     mk: ["ќерка", "ˈcɛrka"],
     be: ["дачка", "datʂˈka"],
-    el: ["κόρη", "ˈkori"],
+    el: ["κόρη", "ˈkoɾi"],
     ro: ["fiică", "ˈfijkə"],
     sq: ["bijë", "ˈbijə"],
     ca: ["filla", "ˈfiʎə"],

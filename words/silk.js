@@ -62,7 +62,7 @@ WORDS.silk = {
   data: {
     en: ["silk", "sɪlk"],
     de: ["Seide", "ˈzaɪ̯də"],
-    nl: ["zijde", "ˈzɛidə"],
+    nl: ["zijde", "ˈzɛi̯də"],
     sv: ["silke", "ˈsɪlkɛ"],
     da: ["silke", "ˈsilɡə"],
     no: ["silke", "ˈsɪlkə"],
@@ -90,7 +90,7 @@ WORDS.silk = {
     bn: ["রেশম", "ˈreʃom"],
     ur: ["ریشم", "ˈɾeːʃəm"],
     ta: ["பட்டு", "paʈːɯ"],
-    fa: ["ابریشم", "æbɾiːˈʃæm"],
+    fa: ["ابریشم", "ʔæbɾiːˈʃæm"],
     tr: ["ipek", "iˈpec"],
     ar: ["حرير", "ħaˈriːr"],
     he: ["משי", "ˈmeʃi"],

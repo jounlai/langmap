@@ -297,7 +297,7 @@ WORDS.three = {
     fi: ["kolme", "ˈkolme"],
     hu: ["három", "ˈhaːrom"],
     ohu: ["három", "ˈhaːrom"],
-    el: ["τρία", "ˈtria"],
+    el: ["τρία", "ˈtɾia"],
     nl: ["drie", "driː"],
     pl: ["trzy", "tʂɨ"],
     szl: ["trzi", "tʂi"],

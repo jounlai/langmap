@@ -128,7 +128,7 @@ WORDS.nose = {
     zh_tw: ["鼻子", "pi˧˥ tsɨ"],
     wuu: ["鼻头", "biɪʔ˩˨ dɤ˨˧"],
     hak_cn: ["鼻公", "pʰi˥˧ kuŋ˦"],
-    vi: ["mũi", "mui˧ˀ˥"],
+    vi: ["mũi", "muj˧ˀ˥"],
     vi_c: ["mũi", "mui˧˩˨"],
     vi_s: ["mũi", "mui˨˩˦"],
     th: ["จมูก", "tɕa˨˩muːk˨˩"],

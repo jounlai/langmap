@@ -202,7 +202,7 @@ WORDS.stone = {
     fi: ["kivi", "ˈkivi"],
     hu: ["kő", "køː"],
     ohu: ["kő", "køː"],
-    el: ["πέτρα", "ˈpetra"],
+    el: ["πέτρα", "ˈpetɾa"],
     nl: ["steen", "steːn"],
     pl: ["kamień", "ˈkamjɛɲ"],
     szl: ["kamiyń", "ˈkamjɪɲ"],

@@ -121,7 +121,7 @@ WORDS.black = {
     mk: ["црн", "tsr̩n"],
 
     // --- Other Europe -------------------------------------------------
-    el: ["μαύρο", "ˈmavro"],
+    el: ["μαύρο", "ˈmavɾo"],
     ro: ["negru", "ˈneɡru"],
     hu: ["fekete", "ˈfɛkɛtɛ"],
     sq: ["i zi", "i ˈzi"],

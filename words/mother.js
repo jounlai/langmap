@@ -232,7 +232,7 @@ WORDS.mother = {
     ar: ["أم", "ʔumm"],
     he: ["אמא", "ˈima"],
     tr: ["anne", "aˈnːe"],
-    fa: ["مادر", "mɒːdær"],
+    fa: ["مادر", "mɒːdæɾ"],
     jpr: ["מאדר", "mɒːdær"],
     prs: ["مادر", "mɑːdaɾ"],
     trm: ["žey", "ʒej"],

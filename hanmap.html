@@ -106,7 +106,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=163">
+    <link rel="stylesheet" href="styles.css?v=164">
     <link rel="stylesheet" href="/vendor/leaflet-1.9.4/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -2861,7 +2861,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=35"></script>
+    <script src="nav-short.js?v=36"></script>
     <style>
         /* r23 desktop: the compare panel clears the settings gear and the map
            attribution; the settings drawer is readable at desktop sizes. */
@@ -4403,6 +4403,7 @@
                 const hf = params.get(HASH_PARAM);
                 // An empty hf= came from the bug above, never from a real choice:
                 // treat it as no filter so those links show the map again (r24).
+                if (hf === 'all') { selected = new Set(offered); ancientOn = true; kunOn = true; return; }
                 if (hf != null && hf !== '') {
                     selected = new Set(hf.split(',').filter(Boolean).filter(c => offered.has(c)));
                     // Seed the 古代語/kun switches from the restored selection
@@ -4442,6 +4443,14 @@
             for (const c of KUN_DEFAULT_OFF)     selected.delete(c);
             for (const c of ANCIENT_DEFAULT_OFF) selected.delete(c);
             ancientOn = false; kunOn = false;
+            // A link that opens a language the default hides (an SEO page's "open in
+            // the app" for Tang Chinese) switches its group on, or the panel opened
+            // with no label on the map (r27).
+            try {
+                const _lc = new URLSearchParams((location.hash || '').slice(1)).get('lang');
+                if (_lc && ANCIENT_DEFAULT_OFF.includes(_lc)) { ancientOn = true; for (const c of ANCIENT_DEFAULT_OFF) if (offered.has(c)) selected.add(c); }
+                if (_lc && KUN_DEFAULT_OFF.includes(_lc)) { kunOn = true; for (const c of KUN_DEFAULT_OFF) if (offered.has(c)) selected.add(c); }
+            } catch (_) {}
         }
 
         function saveState() {
@@ -4479,7 +4488,9 @@
                 const hf = new URLSearchParams((location.hash || '').slice(1)).get(HASH_PARAM);
                 return hf ? HASH_PARAM + '=' + hf : '';
             }
-            if (!anyFilterActive()) return '';
+            // Everything selected (古代語 and 訓読 both on) is not the default, so it
+            // must be written: 'all', short, or a reload fell back to the default (r27).
+            if (!anyFilterActive()) return HASH_PARAM + '=all';
             // The default selection (modern readings, ancient and kun off) is what a
             // URL without hf= gets: writing its 83 codes made every link ~700
             // characters long (r25).
@@ -8931,7 +8942,7 @@
             }
             // Out-of-range values from a link (#p=1e308,1e308,99) threw and blanked the page (r22).
             if (Number.isFinite(z) && Number.isFinite(lat) && Number.isFinite(lng) && Math.abs(lat) <= 85 && Math.abs(lng) <= 1e4 && z >= 0 && z <= 20) {
-                map.setView([lat, lng], z);
+                map.setView([lat, ((lng + 180) % 360 + 360) % 360 - 180], z);   // wrap: beyond ±180 drew an empty world copy (r27)
             }
             const nat = params.get('nat');
             if (nat === '0' || nat === '1') {
@@ -9045,8 +9056,9 @@
                 const _noView = !params.get('p') && !(params.get('lat') && params.get('lng'));
                 // Defer until after initial markers are rendered.
                 clearTimeout(window.__langRestoreTimer);
-                window.__langRestoreTimer = setTimeout(() => { if (_noView) { try { centerLangOnMap(langCode); } catch (_) {} } showLangInfo(langCode, { fromHash: true }); }, 100);
-            } else if (document.getElementById('lang-info')?.classList.contains('visible') && typeof closeInfoPanel === 'function') {   // not infoPanel: a const declared after this first runs
+                window.__langRestoreTimer = setTimeout(() => { if (new URLSearchParams(location.hash.slice(1)).get('lang') !== langCode) return;   // the URL moved on before this ran (r27)
+                    if (_noView) { try { centerLangOnMap(langCode); } catch (_) {} } showLangInfo(langCode, { fromHash: true }); }, 100);
+            } else if ((clearTimeout(window.__langRestoreTimer), document.getElementById('lang-info')?.classList.contains('visible')) && typeof closeInfoPanel === 'function') {   // not infoPanel: a const declared after this first runs
                 closeInfoPanel();   // Back to an entry with no open language (r25)
             }
             // Restore open trivia article from URL (?trivia=<id>). Deferred

@@ -452,7 +452,10 @@ function updateURL() {
     if (suppressHashUpdate) return;
     const newHash = '#' + stateToHash();
     if (location.hash !== newHash) {
-        history.pushState(null, '', newHash);
+        // The first write only fills in the default state: replace, or the first
+        // Back did nothing visible (r27).
+        if (!location.hash || location.hash === '#') history.replaceState(null, '', newHash);
+        else history.pushState(null, '', newHash);
     }
 }
 
@@ -580,6 +583,21 @@ function applyStoredCorrections() {
                 && c.data.every((p) => Array.isArray(p) && p.length >= 2 && typeof p[1] === 'string')) s.langs[c.lang] = c.data;
         }
     } catch (_) {}
+}
+
+// Clipboard can be denied (permissions, insecure context): fall back to a hidden
+// textarea + execCommand, and never leave an unhandled rejection (r27).
+function _copyText(text) {
+    const fallback = () => {
+        try {
+            const ta = document.createElement('textarea'); ta.value = text; ta.setAttribute('readonly', '');
+            ta.style.cssText = 'position:fixed;left:-9999px;top:0'; document.body.appendChild(ta); ta.select();
+            const ok = document.execCommand('copy'); ta.remove(); if (ok) return Promise.resolve();
+        } catch (_) {}
+        try { window.prompt('', text); } catch (_) {}   // last resort: the reader copies it by hand
+        return new Promise(() => {});   // no "copied" toast for a copy that did not happen
+    };
+    try { return navigator.clipboard ? navigator.clipboard.writeText(text).catch(fallback) : fallback(); } catch (_) { return fallback(); }
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -1627,7 +1645,7 @@ function render() {
                 else if (code === 'hy') { text += '՞'; }
                 else if (!NO_QM_LANGS.has(code)) { text += '?'; }
             }
-            navigator.clipboard.writeText(text).then(() => {
+            _copyText(text).then(() => {
                 showToast(t('copiedText'));
             });
         });
@@ -1682,7 +1700,7 @@ function render() {
         mCopyBtn.addEventListener('click', (e) => {
             e.stopPropagation();
             const text = buildFullText(sentence, code);
-            navigator.clipboard.writeText(text).then(() => {
+            _copyText(text).then(() => {
                 showToast(t('copiedText'));
             });
         });
@@ -2309,7 +2327,7 @@ function showToast(text) {
 }
 
 function copyShareURL() {
-    navigator.clipboard.writeText(getShareURL()).then(() => {
+    _copyText(getShareURL()).then(() => {
         showToast(t('copied'));
     });
 }

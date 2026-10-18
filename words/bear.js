@@ -1338,7 +1338,7 @@ WORDS.bear = {
     la: ["ursus", "ˈursus"],
     el_grc: ["ἄρκτος", "árktos"],
     el_kath: ["ἄρκτος", "ˈarktos"],
-    el: ["αρκούδα", "arˈkuða"],
+    el: ["αρκούδα", "aɾˈkuða"],
     pnt: ["άρκος", "ˈarkos"], // was ["άρκον", "ˈaɾkon"] (vi dialect rules 2026-10-06)
     sa: ["ऋक्षः", "r̩kʂɐh"], // was ["ऋक्षः", "r̥kʂɐɦ"] (vi dialect rules 2026-10-06)
     h_vedic: ["ऋक्षः", "ŕ̩kʂɐɦ"], // was ["ऋक्षः", "ŕ̥kʂaɦ"] (r51 audit 2026-10-04) // was ["ऋक्षः", "ŕ̥kʂɐɦ"] (vi dialect rules 2026-10-06)
@@ -1381,7 +1381,7 @@ WORDS.bear = {
     cu: ["медвѣдь", "medvædĭ"], // was ["медвѣдь", "medvædʲ"] (vi dialect rules 2026-10-06)
     orv: ["медвѣдь", "medvʲedĭ"], // was ["медвѣдь", "medvʲedʲ"] (vi dialect rules 2026-10-06)
     be: ["мядзведзь", "mʲadzʲˈvʲetsʲ"], // was ["мядзведзь", "mʲadzʲˈvʲedzʲ"] (vi dialect rules 2026-10-06)
-    pl: ["niedźwiedź", "ˈɲɛdʑvʲɛtɕ"],
+    pl: ["niedźwiedź", "ˈɲɛdʑvjɛtɕ"],
     hsb: ["mjedwjedź", "ˈmjɛdɥɛtʃ"], // was ["mjedwjedź", "ˈmjɛdwjɛtɕ"] (vi dialect rules 2026-10-06)
     cs: ["medvěd", "ˈmɛdvjɛt"],
     sk: ["medveď", "ˈmɛdvɛc"],

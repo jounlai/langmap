@@ -61,7 +61,7 @@ WORDS.rice = {
   data: {
     en: ["rice", "ɹaɪs"],
     de: ["Reis", "ʁaɪ̯s"],
-    nl: ["rijst", "rɛist"],
+    nl: ["rijst", "rɛi̯st"],
     sv: ["ris", "riːs"],
     da: ["ris", "ʁiˀs"],
     no: ["ris", "riːs"],
@@ -76,7 +76,7 @@ WORDS.rice = {
     ru: ["рис", "rʲis"],
     uk: ["рис", "rɪs"],
     pl: ["ryż", "rɨʂ"],
-    el: ["ρύζι", "ˈrizi"],
+    el: ["ρύζι", "ˈɾizi"],
     ja: ["米", "kome"],
     ko: ["쌀", "s͈al"],
     zh: ["米", "mi˧˩˧"],

@@ -60,8 +60,8 @@
             var f = [].filter.call(root.querySelectorAll('button, a[href], input, select, textarea, [tabindex="0"]'), function (x) { return !x.disabled && x.getClientRects().length; });
             if (!f.length) return;
             var first = f[0], last = f[f.length - 1];
-            if (e.shiftKey && (document.activeElement === first || !root.contains(document.activeElement))) { e.preventDefault(); last.focus(); }
-            else if (!e.shiftKey && (document.activeElement === last || !root.contains(document.activeElement))) { e.preventDefault(); first.focus(); }
+            if (e.shiftKey && (document.activeElement === first || document.activeElement === root || !root.contains(document.activeElement))) { e.preventDefault(); last.focus(); }
+            else if (!e.shiftKey && (document.activeElement === last || document.activeElement === root || !root.contains(document.activeElement))) { e.preventDefault(); first.focus(); }
         });
     };
     </script>
@@ -2834,7 +2834,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=24"></script>
+    <script src="nav-short.js?v=25"></script>
 </head>
 <body>
     <div id="pg-live" role="status" aria-live="polite" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap"></div>
@@ -12487,8 +12487,9 @@
             const scroll = document.getElementById('trivia-scroll');
             if (scroll) scroll.scrollTop = 0;
             if (typeof updateHash === 'function') updateHash({ push: true });
-            // The focused card / back button is now hidden: keep focus in the dialog.
-            { const tm = document.getElementById('trivia-modal'), ae = document.activeElement; if (tm && (!tm.contains(ae) || !ae.getClientRects().length)) { const h = document.getElementById('trivia-heading'); if (h) h.focus({ preventScroll: true }); } }
+            // The focused card / back button is now hidden, or focus sat on Next/Previous
+            // at the bottom of the old article: start at the new article's heading (r21).
+            { const tm = document.getElementById('trivia-modal'), ae = document.activeElement; if (tm && (!tm.contains(ae) || !ae.getClientRects().length || (ae.closest && ae.closest('#trivia-article-nav')))) { const h = document.getElementById('trivia-heading'); if (h) h.focus({ preventScroll: true }); } }
             _triviaLastId = id;
         }
         var _triviaLastId = null;
@@ -13094,7 +13095,7 @@
         function show() { if (!modal) build(); _hqReturn = document.activeElement; modal.style.display = 'flex';
             // aria-modal hides the rest of the page: name the dialog and move focus into it.
             { const bx = document.getElementById('lm-hquiz-box'); const lb = document.getElementById('hquiz-btn-label');
-              if (bx) { bx.setAttribute('aria-label', (lb && lb.textContent.trim()) || 'Reading quiz'); setTimeout(() => { try { bx.focus(); } catch (_) {} }, 0); } } if (!qs.length) startSet(); else render(); window.__hmOpenGame = 'hquiz'; if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); }
+              if (bx) { bx.setAttribute('aria-label', (lb && lb.textContent.trim()) || 'Reading quiz'); if (window.__hmTrapTab) window.__hmTrapTab(bx); setTimeout(() => { try { bx.focus(); } catch (_) {} }, 0); } } if (!qs.length) startSet(); else render(); window.__hmOpenGame = 'hquiz'; if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); }
         const accent = 'var(--accent, #2e6fb8)';
         function render() {
             const box = document.getElementById('lm-hquiz-box'); if (!box) return;
@@ -13135,6 +13136,7 @@
                     const b = el('button', css + ';position:relative');
                     b.className = 'hq-opt'; b.type = 'button'; b.setAttribute('aria-keyshortcuts', String(i + 1));
                     b.innerHTML = `<span aria-hidden="true" class="hq-key" style="position:absolute;top:6px;inset-inline-start:8px;font-size:11px;font-weight:700;color:#5f6368;border:1px solid #dde1e7;border-radius:5px;padding:0 5px;line-height:16px">${i + 1}</span><div style="line-height:1.15">${q.fmt === 1 ? '<bdi dir="ltr">' + txt + '</bdi>' : txt}</div><div class="hq-sub" style="font-size:12px;font-weight:400;color:#5f6368;line-height:1.2;margin-top:3px;display:${answered ? 'block' : 'none'}">${q.fmt === 1 ? nameOf(o.code) : '<bdi dir="ltr">' + reading(o.code, q.ch, q.ipa) + '</bdi>'}</div>`;
+                    if (answered) { b.setAttribute('aria-disabled', 'true'); if (window.__ansMark) b.insertAdjacentHTML('beforeend', window.__ansMark(!!o.correct, i === chosen)); }
                     if (!answered) b.addEventListener('click', () => answer(i));
                     mid.appendChild(b);
                 });
@@ -13356,7 +13358,7 @@
         else start();
     })();
     </script>
-    <script src="share-button.js?v=5"></script>
+    <script src="share-button.js?v=6"></script>
     <script src="lang-picker.js?v=8"></script>
 </body>
 </html>

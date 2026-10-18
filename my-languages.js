@@ -515,6 +515,7 @@
 
     // The default "builder" view (name + add + list + stats + actions).
     function renderBuilder() {
+        { const x = overlay && overlay.querySelector('.mylang-x'); if (x) x.setAttribute('aria-label', T('close')); }   // kept its first UI language (r21)
         overlay.querySelector('.mylang-head h2').textContent = T('title');
         showBack(null);
         panelBody.innerHTML = '';

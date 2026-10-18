@@ -29,10 +29,12 @@
 
     function toast(msg) {
         var t = document.createElement('div');
-        t.textContent = msg;
+        // Announced: added empty, filled a tick later (r21: "Link copied" was silent).
+        t.setAttribute('role', 'status'); t.setAttribute('aria-live', 'polite');
+        setTimeout(function () { t.textContent = msg; }, 50);
         t.style.cssText = 'position:fixed;left:50%;bottom:28px;transform:translateX(-50%);z-index:100003;background:#222;color:#fff;padding:9px 16px;border-radius:999px;font-size:13px;box-shadow:0 4px 16px rgba(0,0,0,.25)';
         document.body.appendChild(t);
-        setTimeout(function () { t.remove(); }, 1800);
+        setTimeout(function () { t.remove(); }, 2400);
     }
 
     function popover(url) {

@@ -3035,7 +3035,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=24"></script>
+    <script src="nav-short.js?v=25"></script>
 </head>
 <body>
     <div id="pg-live" role="status" aria-live="polite" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap"></div>
@@ -10202,6 +10202,8 @@
         // ESC closes the compare panel
         document.addEventListener('keydown', e => {
             if (e.key === 'Escape') {
+                // A game / article / dialog on top takes this Escape (it closed the compare panel too, r21).
+                if (window.__wmOpenGame || document.querySelector('#trivia-modal.visible, .mylang-overlay.open, #word-modal.visible, #play-menu.open, .mylang-share-back')) return;
                 const panel = document.getElementById('compare-panel');
                 if (panel && panel.classList.contains('visible')) {
                     closeComparePanel();
@@ -11040,8 +11042,9 @@
             const scroll = document.getElementById('trivia-scroll');
             if (scroll) scroll.scrollTop = 0;
             if (typeof updateHash === 'function') updateHash({ push: true });
-            // The focused card / back button is now hidden: keep focus in the dialog.
-            { const tm = document.getElementById('trivia-modal'), ae = document.activeElement; if (tm && (!tm.contains(ae) || !ae.getClientRects().length)) { const h = document.getElementById('trivia-heading'); if (h) h.focus({ preventScroll: true }); } }
+            // The focused card / back button is now hidden, or focus sat on Next/Previous
+            // at the bottom of the old article: start at the new article's heading (r21).
+            { const tm = document.getElementById('trivia-modal'), ae = document.activeElement; if (tm && (!tm.contains(ae) || !ae.getClientRects().length || (ae.closest && ae.closest('#trivia-article-nav')))) { const h = document.getElementById('trivia-heading'); if (h) h.focus({ preventScroll: true }); } }
             _triviaLastId = id;
         }
         var _triviaLastId = null;
@@ -11748,6 +11751,8 @@
             title:   {en:'Langle', ja:'Langle（言語あてゲーム）', ko:'Langle', zh:'Langle 猜语言', es:'Langle', fr:'Langle', de:'Langle', pt:'Langle', ru:'Langle', it:'Langle', yue:'Langle', vi:'Langle', th:'Langle', id:'Langle', hi:'Langle', uk:'Langle', ar:'Langle', he:'Langle', sw:'Langle'},
             sub:     {en:'Guess today’s mystery language from how it says these words.', ja:'下の単語の言い方から、今日のミステリー言語を当てよう。', ko:'아래 단어의 발음으로 오늘의 미스터리 언어를 맞혀보세요.', zh:'根据下列单词的说法，猜出今天的神秘语言。', es:'Adivina el idioma misterioso de hoy por cómo dice estas palabras.', fr:'Devinez la langue mystère du jour d’après ces mots.', de:'Errate die heutige Mystery-Sprache anhand dieser Wörter.', pt:'Adivinhe a língua misteriosa de hoje por estas palavras.', ru:'Угадайте сегодняшний таинственный язык по этим словам.', it:'Indovina la lingua misteriosa di oggi da come dice queste parole.', yue:'由下面啲詞點講，估出今日嘅神秘語言。', vi:'Đoán ngôn ngữ bí ẩn hôm nay qua cách nói các từ này.', th:'เดาภาษาปริศนาของวันนี้จากวิธีพูดคำเหล่านี้', id:'Tebak bahasa misterius hari ini dari cara mengucapkan kata-kata ini.', hi:'इन शब्दों के उच्चारण से आज की रहस्यमयी भाषा का अनुमान लगाएँ।', uk:'Вгадайте сьогоднішню таємничу мову за тим, як вона вимовляє ці слова.', ar:'خمِّن لغة اليوم الغامضة من طريقة نطق هذه الكلمات.', he:'נחשו את שפת היום המסתורית לפי האופן שבו היא אומרת מילים אלה.', sw:'Kisia lugha ya leo ya fumbo kutokana na jinsi inavyosema maneno haya.'},
             guess:   {en:'Guess', ja:'回答', ko:'추측', zh:'猜', es:'Adivinar', fr:'Deviner', de:'Raten', pt:'Adivinhar', ru:'Угадать', it:'Indovina', yue:'估', vi:'Đoán', th:'เดา', id:'Tebak', hi:'अनुमान', uk:'Вгадати', ar:'خمِّن', he:'ניחוש', sw:'Kisia'},
+            famSame: {en:'same family', ja:'同じ語族', ko:'같은 어족', zh:'同一语系', yue:'同一語系', vi:'cùng ngữ hệ', th:'ตระกูลเดียวกัน', id:'rumpun sama', hi:'एक ही भाषा-परिवार', de:'gleiche Familie', fr:'même famille', it:'stessa famiglia', es:'misma familia', pt:'mesma família', ru:'та же семья', uk:"та сама сім'я", ar:'العائلة نفسها', he:'אותה משפחה', sw:'familia moja'},
+            famDiff: {en:'different family', ja:'別の語族', ko:'다른 어족', zh:'不同语系', yue:'唔同語系', vi:'khác ngữ hệ', th:'ต่างตระกูล', id:'rumpun berbeda', hi:'अलग भाषा-परिवार', de:'andere Familie', fr:'autre famille', it:'famiglia diversa', es:'otra familia', pt:'outra família', ru:'другая семья', uk:"інша сім'я", ar:'عائلة مختلفة', he:'משפחה אחרת', sw:'familia tofauti'},
             fam:     {en:'Family', ja:'語族', ko:'어족', zh:'语系', es:'Familia', fr:'Famille', de:'Familie', pt:'Família', ru:'Семья', it:'Famiglia', yue:'語系', vi:'Ngữ hệ', th:'ตระกูลภาษา', id:'Rumpun', hi:'भाषा-परिवार', uk:'Сім’я', ar:'الفصيلة', he:'משפחה', sw:'Familia'},
             win:     {en:'Solved!', ja:'正解！', ko:'정답!', zh:'答对了！', es:'¡Resuelto!', fr:'Trouvé !', de:'Gelöst!', pt:'Acertou!', ru:'Угадали!', it:'Risolto!', yue:'答啱喇！', vi:'Đúng rồi!', th:'ถูกต้อง!', id:'Tepat!', hi:'सही!', uk:'Відгадано!', ar:'أحسنت!', he:'פתרת!', sw:'Umeshinda!'},
             lose:    {en:'Out of guesses', ja:'残念！', ko:'기회 소진', zh:'机会用完', es:'Sin intentos', fr:'Perdu', de:'Keine Versuche mehr', pt:'Sem tentativas', ru:'Попытки кончились', it:'Tentativi finiti', yue:'冇機會喇', vi:'Hết lượt', th:'หมดโอกาส', id:'Kesempatan habis', hi:'मौके खत्म', uk:'Спроби вичерпано', ar:'انتهت المحاولات', he:'נגמרו הניחושים', sw:'Majaribio yamekwisha'},
@@ -12031,6 +12036,12 @@
             }
             return rows;
         }
+        function rowSpeech(g, f) {
+            const ARW = ['\u2191', '\u2197', '\u2192', '\u2198', '\u2193', '\u2199', '\u2190', '\u2196'];
+            const arrow = ARW[Math.round((((f.bearing || 0) % 360) + 360) % 360 / 45) % 8];
+            const rest = ', ' + (f.fam ? pk(T.famSame) : pk(T.famDiff)) + ', ' + f.dist.toLocaleString() + ' km ' + arrow;
+            return { rest, all: nameOf(g) + rest };
+        }
         function rowHtml(g) {
             const t = target(), f = feedback(g, t);
             if (f.win) {
@@ -12038,11 +12049,13 @@
                     <span style="flex:1;font-weight:700">${nameOf(g)}</span><span style="display:inline-flex">${ICON.check}</span></div>`;
             }
             const pct = proxPct(f.dist);
+            // Spoken summary: the tick/cross and the arrow are icons only (r21).
+            const _sr = rowSpeech(g, f);
             const famIco = f.fam
                 ? `<span title="${pk(T.fam)}" style="color:#0d9f6e;display:inline-flex">${ICON.check}</span>`
                 : `<span title="${pk(T.fam)}" style="color:#c2c6d0;display:inline-flex">${ICON.cross}</span>`;
             return `<div style="display:flex;align-items:center;gap:9px;padding:9px 11px;border:1px solid #e6e7ec;border-radius:9px;margin-bottom:6px">
-                <span style="flex:1;font-weight:600;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${nameOf(g)}</span>
+                <span style="flex:1;font-weight:600;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${nameOf(g)}<span style="position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap">${_sr.rest}</span></span>
                 ${famIco}
                 <span style="width:56px;height:7px;background:#eceef3;border-radius:4px;overflow:hidden;display:inline-block;flex:none"><span style="display:block;height:100%;width:${pct}%;background:var(--accent)"></span></span>
                 <span style="color:#5f6368;font-size:11px;min-width:52px;text-align:right">${f.dist.toLocaleString({ de:'de-DE', fr:'fr-FR', it:'it-IT', es:'es-ES', pt:'pt-BR', ru:'ru-RU', uk:'uk-UA' }[String((window.__langmap && window.__langmap.uiLang) || 'en').split('_')[0]] || 'en-US')} km</span>
@@ -12119,6 +12132,11 @@
                     const winNow = code === t;
                     if (winNow || guesses.length >= MAX) onFinish(winNow); else persist();
                     render();
+                    // Announce the new row (or the result) once (r21).
+                    { const bx = document.getElementById('lm-langle-box'), host = bx && bx.parentElement;
+                      if (host) { let lv = host.querySelector('.ll-live'); if (!lv) { lv = document.createElement('div'); lv.className = 'll-live'; lv.setAttribute('role', 'status'); lv.style.cssText = 'position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap'; host.appendChild(lv); }
+                        const msg = winNow ? pk(T.win) : (guesses.length >= MAX ? pk(T.lose) + ' ' + pk(T.answer) + ': ' + nameOf(t) : rowSpeech(code, feedback(code, t)).all);
+                        lv.textContent = ''; setTimeout(() => { lv.textContent = msg; }, 60); } }
                     updateBadge();
                     // render() replaced the focused button: keep focus in the dialog.
                     { const bx = document.getElementById('lm-langle-box'); if (bx && !bx.contains(document.activeElement)) { const g = bx.querySelector('select, button'); (g || bx).focus(); } }
@@ -12432,6 +12450,7 @@
                     const b = el('button', css + ';position:relative');
                     b.className = 'wq-opt'; b.type = 'button'; b.setAttribute('aria-keyshortcuts', String(i + 1));
                     b.innerHTML = `<span aria-hidden="true" class="wq-key" style="position:absolute;top:6px;inset-inline-start:8px;font-size:11px;font-weight:700;color:#5f6368;border:1px solid #dde1e7;border-radius:5px;padding:0 5px;line-height:16px">${i + 1}</span><div style="line-height:1.15">${o.surf}</div><div class="wq-sub" style="font-size:12px;font-weight:400;color:#5f6368;line-height:1.2;margin-top:3px;display:${answered ? 'block' : 'none'}">${nameOf(o.code)}</div>`;
+                    if (answered) { b.setAttribute('aria-disabled', 'true'); if (window.__ansMark) b.insertAdjacentHTML('beforeend', window.__ansMark(!!o.correct, i === chosen)); }
                     if (!answered) b.addEventListener('click', () => answer(i));
                     mid.appendChild(b);
                 });
@@ -12560,7 +12579,8 @@
         // Chips (.wm-kbd) show the keys on hover/fine-pointer devices only.
         function anyGameOpen() {
             return ['lm-langle-box', 'lm-quiz-box', 'lm-master-box'].some(id => { const x = document.getElementById(id); return x && x.parentElement && x.parentElement.style.display !== 'none'; })
-                || !!document.querySelector('#trivia-modal.visible, .mylang-overlay.open');
+                || !!document.querySelector('#trivia-modal.visible, .mylang-overlay.open, #word-modal.visible')
+                || [...document.querySelectorAll('[aria-modal="true"]')].some((x) => x.getClientRects().length);   // the word picker let P open the Play menu behind it (r21)
         }
         function init() {
             const b = btn(); if (!b || b._wired) return; b._wired = true;
@@ -12614,17 +12634,17 @@
     </script>
 
     <script src="/pwa.js?v=2"></script>
-    <script src="share-button.js?v=5"></script>
+    <script src="share-button.js?v=6"></script>
     <script src="lang-picker.js?v=8"></script>
     <!-- "My languages" share-card feature; poster_geo.js supplies the Natural-Earth
          projection its world-map card is drawn with. -->
     <script src="poster_geo.js?v=12"></script>
-    <script src="my-languages.js?v=35"></script>
+    <script src="my-languages.js?v=36"></script>
     <!-- Language Master game (🏅 in the Play menu). master.js is parked as
          text/plain (not fetched at first paint, as hanmap_trivia.js is) and
          injected the first time the game opens. The stub below only labels
          the launcher and loads the module on demand. -->
-    <script type="text/plain" id="master-src" src="master.js?v=21"></script>
+    <script type="text/plain" id="master-src" src="master.js?v=22"></script>
     <script>
     (function () {
         'use strict';

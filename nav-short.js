@@ -262,6 +262,21 @@
             if (wm) { var d = /^(ar|he)/.test(l) ? 'rtl' : ''; if (wm.getAttribute('dir') !== (d || null)) { if (d) wm.setAttribute('dir', d); else wm.removeAttribute('dir'); } }
         }
     }
+    // Quiz options after an answer: a visible ✓ / ✗ (colour alone told the right
+    // answer apart) plus words for screen readers (r21).
+    var ANS_LBL = {
+        ok:   { en:'correct answer', ja:'正解', ko:'정답', zh:'正确答案', yue:'正確答案', vi:'đáp án đúng', th:'คำตอบที่ถูก', id:'jawaban benar', hi:'सही उत्तर', de:'richtige Antwort', fr:'bonne réponse', it:'risposta giusta', es:'respuesta correcta', pt:'resposta correta', ru:'правильный ответ', uk:'правильна відповідь', ar:'الإجابة الصحيحة', he:'התשובה הנכונה', sw:'jibu sahihi' },
+        mine: { en:'your answer', ja:'あなたの回答', ko:'내 답', zh:'你的答案', yue:'你嘅答案', vi:'câu trả lời của bạn', th:'คำตอบของคุณ', id:'jawaban Anda', hi:'आपका उत्तर', de:'deine Antwort', fr:'votre réponse', it:'la tua risposta', es:'tu respuesta', pt:'sua resposta', ru:'ваш ответ', uk:'ваша відповідь', ar:'إجابتك', he:'התשובה שלך', sw:'jibu lako' }
+    };
+    window.__ansMark = function (ok, mine) {
+        var l = String(document.documentElement.lang || 'en').toLowerCase().replace('-', '_'), b = l.split('_')[0];
+        var words = [];
+        if (ok) words.push(ANS_LBL.ok[l] || ANS_LBL.ok[b] || ANS_LBL.ok.en);
+        if (mine) words.push(ANS_LBL.mine[l] || ANS_LBL.mine[b] || ANS_LBL.mine.en);
+        if (!words.length) return '';
+        return '<span aria-hidden="true" style="position:absolute;top:5px;inset-inline-end:9px;font-size:15px;font-weight:800;line-height:1">' + (ok ? '\u2713' : '\u2717') + '</span>'
+            + '<span style="position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap">, ' + words.join(', ') + '</span>';
+    };
     // Browser-tab title in the UI language (the English <title> stays for en,
     // which is what crawlers see).
     var TITLE_BY = {

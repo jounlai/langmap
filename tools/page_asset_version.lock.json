@@ -32,12 +32,12 @@
     "hash": "f432bf4317c25936"
   },
   "master.js": {
-    "version": 21,
-    "hash": "da9dc2c9fa694ecc"
+    "version": 22,
+    "hash": "f21306a7cef95195"
   },
   "my-languages.js": {
-    "version": 35,
-    "hash": "0a849b719e30f728"
+    "version": 36,
+    "hash": "e66d22017842225f"
   },
   "namemap_data.js": {
     "version": 9,
@@ -56,8 +56,8 @@
     "hash": "13754e5759677c52"
   },
   "nav-short.js": {
-    "version": 24,
-    "hash": "0c4944c2af3aeafc"
+    "version": 25,
+    "hash": "ca3a95d800605858"
   },
   "poster_geo.js": {
     "version": 12,
@@ -80,8 +80,8 @@
     "hash": "ceda6c52e92f0f39"
   },
   "share-button.js": {
-    "version": 5,
-    "hash": "a8212694df6a93fa"
+    "version": 6,
+    "hash": "a9a5ec0b06fdab27"
   },
   "styles.css": {
     "version": 157,

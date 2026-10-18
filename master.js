@@ -329,7 +329,9 @@
         try { var w = document.querySelector('.lang-label .word'); if (w) return getComputedStyle(w).fontFamily; } catch (e) {}
         return "'Gentium Plus','Noto Serif','Noto Serif JP','Noto Serif SC','Noto Serif KR',Georgia,serif";
     }
-    function kbd(k) { return '<kbd class="lm-kbd">' + esc(k) + '</kbd>'; }
+    // The key chip is a visual hint; aria-keyshortcuts says it to screen readers (r21).
+    function kbd(k) { return '<kbd class="lm-kbd" aria-hidden="true">' + esc(k) + '</kbd>'; }
+    var ARIA_KEY = { Enter: 'Enter', Escape: 'Escape', Backspace: 'Backspace', ' ': 'Space' };
     var KEYNAME = { Enter: 'Enter', Escape: 'Esc', Backspace: '⌫', ' ': 'Space' };
     function build() {
         modal = el('div', 'position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:100002;display:flex;align-items:center;justify-content:center;padding:16px');
@@ -406,7 +408,7 @@
             ? 'width:100%;margin-top:10px;padding:12px;border:0;border-radius:10px;background:var(--accent,#2e6fb8);color:#fff;font-weight:700;font-size:16px;cursor:pointer;flex:none'
             : 'width:100%;margin-top:8px;padding:8px;border:0;background:none;color:#5f6673;font-size:14px;cursor:pointer;flex:none', esc(label) + (key ? kbd(KEYNAME[key] || key.toUpperCase()) : ''));
         b.type = 'button'; b.addEventListener('click', onClick);
-        if (key) { state.keys[key.length === 1 ? key.toLowerCase() : key] = onClick; b.setAttribute('aria-keyshortcuts', KEYNAME[key] || key.toUpperCase()); }
+        if (key) { state.keys[key.length === 1 ? key.toLowerCase() : key] = onClick; b.setAttribute('aria-keyshortcuts', ARIA_KEY[key] || key.toUpperCase()); }
         return b;
     }
     function render() {
@@ -460,9 +462,12 @@
         box.appendChild(shelf);
         var inp = el('input', 'width:100%;box-sizing:border-box;padding:10px 12px;border:1px solid #d8dbe2;border-radius:10px;font-size:15px;flex:none');
         inp.type = 'search'; inp.placeholder = pk(T.search); inp.value = state.filter; inp.setAttribute('aria-label', pk(T.search));
+        // Combobox + listbox: the highlight moved by ↑↓ was silent (r21).
+        inp.setAttribute('role', 'combobox'); inp.setAttribute('aria-autocomplete', 'list'); inp.setAttribute('aria-expanded', 'true'); inp.setAttribute('aria-controls', 'lm-master-list');
         box.appendChild(inp);
         box.appendChild(el('div', 'font-size:11px;color:#5f6673;margin-top:4px;flex:none', '<span class="lm-kbd" style="margin:0">/</span><span class="lm-kbd">↑↓</span><span class="lm-kbd">Enter</span>'));
         var list = el('div', 'flex:1;min-height:0;overflow-y:auto;margin-top:6px;border-top:1px solid #eef0f3');
+        list.id = 'lm-master-list'; list.setAttribute('role', 'listbox'); list.setAttribute('aria-label', pk(T.search));
         box.appendChild(list);
         var all = langList().sort(function (a, b) { return (b.spk - a.spk) || a.name.localeCompare(b.name); });
         function fill() {
@@ -476,12 +481,16 @@
                     + (r.done ? '<span style="font-size:12px;color:#0d7a55;white-space:nowrap">🏅 ' + esc(pk(T.mastered)) + '</span>'
                         : isUiLang(r.code) ? '<span style="font-size:12px;color:#5f6673;white-space:nowrap">' + esc(pk(T.uiTag)) + '</span>' : ''));
                 it.type = 'button'; it.addEventListener('click', function () { pick(r.code); });
+                it.setAttribute('role', 'option'); it.id = 'lm-mo-' + items.length; it.tabIndex = -1;
                 it._code = r.code; items.push(it);
                 list.appendChild(it);
             });
             // Up/Down move a highlight through the list and Enter opens it; the
             // search box keeps focus, so typing still filters.
-            function paint() { items.forEach(function (x, i) { x.style.background = i === state.hi ? '#eef4fb' : 'none'; }); if (items[state.hi]) items[state.hi].scrollIntoView({ block: 'nearest' }); }
+            function paint() {
+                items.forEach(function (x, i) { x.style.background = i === state.hi ? '#eef4fb' : 'none'; x.setAttribute('aria-selected', i === state.hi ? 'true' : 'false'); });
+                if (items[state.hi]) { items[state.hi].scrollIntoView({ block: 'nearest' }); inp.setAttribute('aria-activedescendant', items[state.hi].id); } else inp.removeAttribute('aria-activedescendant');
+            }
             state.listNav = function (key) {
                 if (!items.length) return;
                 if (key === 'ArrowDown') state.hi = Math.min(items.length - 1, state.hi + 1);
@@ -570,6 +579,7 @@
                     : answered && !isAns ? '<span style="font-size:12px;color:#5f6673;margin-top:2px">= ' + esc(labelOf(o.con)) + '</span>' : ''));
             b.type = 'button';
             b.setAttribute('aria-keyshortcuts', String(i + 1));
+            if (answered) { b.setAttribute('aria-disabled', 'true'); if (window.__ansMark) b.insertAdjacentHTML('beforeend', window.__ansMark(isAns, i === state.chosen)); }
             if (!answered) b.addEventListener('click', function (e) { answer(i, e.detail === 0); });
             mid.appendChild(b);
         });
@@ -578,7 +588,7 @@
         box.appendChild(el('div', 'text-align:center;font-weight:800;font-size:16px;margin:4px 0 0;flex:none;color:' + (ok ? '#097550' : '#b8324f') + ';visibility:' + (answered ? 'visible' : 'hidden'), esc(answered ? (ok ? pk(T.correct) : pk(T.wrong)) : pk(T.correct))));
         var nb = btn(nextLabel() + (answered && autoT ? ' (' + autoLeft + ')' : ''), true, advance, 'Enter');
         if (!answered) delete state.keys.Enter;
-        nb.id = 'lm-master-next'; nb.setAttribute('aria-keyshortcuts', 'Space');
+        nb.id = 'lm-master-next'; nb.setAttribute('aria-keyshortcuts', 'Enter Space');
         nb.style.visibility = answered ? 'visible' : 'hidden';
         box.appendChild(nb);
         box.appendChild(btn(pk(T.quit), false, function () {

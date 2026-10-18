@@ -449,7 +449,7 @@ WORDS.bone = {
     sgs: ["kauls", "kɐʊls"],
     lv: ["kauls", "kauls"],
     prg: ["kaulan", "ˈkaulan"],
-    sq: ["kockë", "ˈkotskə"],
+    sq: ["kockë", "ˈkɔtskə"],
     aae: ["asht", "aʃt"],
     et: ["luu", "luː"],
     ht: ["zo", "zo"],

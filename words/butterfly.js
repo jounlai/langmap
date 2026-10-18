@@ -245,7 +245,7 @@ WORDS.butterfly = {
     ami: ["ʼadipangpang", "ʔaðipaŋpaŋ"],  // reduplicated -pangpang after ʼadi- < PAN *qaNi-/*qali-, the prefix for words touching on the spirit world (ACD)
     kmc: ["ma55 mən323", "ma˥˥ mən˧˨˧"],  // IDS writes the tone numbers after a dot; reformatted to the row's own tone-number surface style (cf. its mok21).
     ha: ["malam-buɗa-littafi", "maːlam buɗa litːaːfiː"],  // a phrase-name, literally 'teacher, open the book' (malam 'teacher' + buɗa 'open' + littafi 'book'), after the opening and closing wings; Newman also records malam buɗa mana littafi
-    sq: ["flutur", "ˈflutur"],  // Cognate with Romanian fluture. IDS transcribes it 'flʸutur; the standard Albanian spelling is flutur.
+    sq: ["flutur", "ˈflutuɾ"],  // Cognate with Romanian fluture. IDS transcribes it 'flʸutur; the standard Albanian spelling is flutur.
     rmy: ["paparuga", "papaˈruɡa"],  // Reduplicated pa-pa-; the same areal shape as Bulgarian пеперуда.
     ang: ["butorflēoge", "ˈbutorfleːoɣe"],  // Ancestor of Modern English butterfly. IDS also records fīfalde — the reduplicated *pVl-pVl- word that survives as Icelandic fiðrildi and Swedish fjäril.
     enm: ["buterflie", "ˈbutərfliː"],  // continues Old English butorflēoge, 'butter' + 'fly'

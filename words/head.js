@@ -301,7 +301,7 @@ WORDS.head = {
     lt: ["galva", "ɡɐlˈvɐ"],
     lv: ["galva", "ˈɡalva"],
     prg: ["gallū", "ˈɡaluː"],
-    sq: ["kokë", "ˈkokə"],
+    sq: ["kokë", "ˈkɔkə"],
     et: ["pea", "peɑ"],
     ht: ["tèt", "tɛt"],
     jam: ["ed", "ɛd"],

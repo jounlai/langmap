@@ -8575,7 +8575,7 @@ const HAN_DATA = {
       "hak_hy": "het²¹",
       "nan": "huih",
       "zh": "xuè",
-      "zh_tw": "xuè",
+      "zh_tw": "xiě",
       "yue": "hyut3",
       "yue_ts": "hut2",
       "nan_te": "huêh4",
@@ -8676,7 +8676,7 @@ const HAN_DATA = {
       "wuu_qt": "ɕyæʔ˦˨",
       "hak_hy": "het̚˨˩",
       "zh": "ɕye˥˩",
-      "zh_tw": "ɕye˥˩",
+      "zh_tw": "ɕje˨˩˦",
       "zh_db": "ɕyɛ˨˩˧",
       "zh_sc": "ɕye˨˩",
       "zh_cd": "ɕye˨˩",
@@ -23553,6 +23553,7 @@ const HAN_LANG_META = {
   "czh_wy": {"name":"Wuyuan Hui","native":"婺源话","family":"Sino-Tibetan (Sinitic, Hui — 祁婺片)","lat":29.25,"lng":117.86,"region":"China (Jiangxi — Wuyuan 婺源)","reading_type":{"ja":"徽語（婺源）","en":"Hui Chinese (Wuyuan)","ko":"후이어(우위안)","zh":"徽语（婺源）","fr":"Chinois Hui (Wuyuan)","de":"Hui-Chinesisch (Wuyuan)","es":"Chino Hui (Wuyuan)","ru":"Хуийский китайский (Вуюань)","ar":"الصينية الهوية (وويوان)","he":"סינית הוויי (וויוואן)","sw":"Kichina Hui (Wuyuan)","yue":"徽語（婺源）","vi":"Tiếng Huy (Wuyuan)","th":"ภาษาฮุ่ย (อุหวี่ยวน)","id":"Bahasa Hui (Wuyuan)","hi":"हुई चीनी (वुयुआन)","it":"Cinese Hui (Wuyuan)","pt":"Chinês Hui (Wuyuan)","uk":"Гуійська китайська (Вуюань)"},"description":{"en": "Hui Chinese of Wuyuan county, Jiangxi, in the 祁婺片 of the Language Atlas of China; the readings are from 《徽州方言研究》 as entered in MCPDict. It has six tones: 陰平 44, 陽平 11, 陰上 2, 陽上 31, 陰去 35, 陽去 51. There is no separate checked tone — old checked syllables read 51 (八 po⁵¹, 十 sɑ⁵¹) — and many nasal finals end in -m, even in 東 tɔm⁴⁴ and 龍 lɔm¹¹.", "ja": "江西省婺源県の徽語で、『中国語言地図集』では祁婺片に属する。読みは漢字音典（MCPDict）に収録された《徽州方言研究》による。声調は六つ：陰平 44, 陽平 11, 陰上 2, 陽上 31, 陰去 35, 陽去 51。独立した入声調はなく、古い入声音節は 51 で読まれる（八 po⁵¹、十 sɑ⁵¹）。また鼻音韻尾の多くは -m で、東 tɔm⁴⁴ や 龍 lɔm¹¹ にまで及ぶ。", "ko": "장시성 우위안현의 후이어로, 『중국어언지도집』에서는 祁婺片에 속한다. 독음은 한자음전(MCPDict)에 수록된 《徽州方言研究》에 따른다. 성조는 여섯 개: 陰平 44, 陽平 11, 陰上 2, 陽上 31, 陰去 35, 陽去 51. 독립된 입성조는 없으며 옛 입성 음절은 51로 읽힌다(八 po⁵¹, 十 sɑ⁵¹). 또 많은 비음 운미가 -m으로 끝나며, 東 tɔm⁴⁴이나 龍 lɔm¹¹에까지 나타난다.", "zh": "江西婺源县的徽语，《中国语言地图集》归入祁婺片。读音取自汉字音典（MCPDict）收录的《徽州方言研究》。共有六个声调：陰平 44, 陽平 11, 陰上 2, 陽上 31, 陰去 35, 陽去 51。没有独立的入声调，古入声字读 51（八 po⁵¹、十 sɑ⁵¹）；许多鼻音韵尾读 -m，连 東 tɔm⁴⁴、龍 lɔm¹¹ 也是如此。", "yue": "江西婺源縣嘅徽語，《中國語言地圖集》將佢歸入祁婺片。讀音出自漢字音典（MCPDict）收錄嘅《徽州方言研究》。一共有六個聲調：陰平 44, 陽平 11, 陰上 2, 陽上 31, 陰去 35, 陽去 51。冇獨立嘅入聲調，古入聲字讀 51（八 po⁵¹、十 sɑ⁵¹）；好多鼻音韻尾讀 -m，連 東 tɔm⁴⁴、龍 lɔm¹¹ 都係噉。", "vi": "Tiếng Huy của huyện Vụ Nguyên, Giang Tây, thuộc 祁婺片 theo Bản đồ Ngôn ngữ Trung Quốc; cách đọc lấy từ 《徽州方言研究》 như được nhập trong MCPDict. Có sáu thanh điệu: 陰平 44, 陽平 11, 陰上 2, 陽上 31, 陰去 35, 陽去 51. Không có thanh nhập riêng — các âm tiết nhập thanh cũ đọc 51 (八 po⁵¹, 十 sɑ⁵¹) — và nhiều vần mũi kết thúc bằng -m, kể cả 東 tɔm⁴⁴ và 龍 lɔm¹¹.", "th": "ภาษาฮุ่ยของอำเภออู้หยวน มณฑลเจียงซี จัดอยู่ใน 祁婺片 ตามแผนที่ภาษาแห่งประเทศจีน การอ่านมาจาก 《徽州方言研究》 ตามที่บันทึกไว้ใน MCPDict มีวรรณยุกต์หกเสียง: 陰平 44, 陽平 11, 陰上 2, 陽上 31, 陰去 35, 陽去 51 ไม่มีวรรณยุกต์เสียงกักแยกต่างหาก พยางค์เสียงกักเดิมอ่านเป็น 51 (八 po⁵¹, 十 sɑ⁵¹) และหน่วยเสียงท้ายนาสิกจำนวนมากลงท้ายด้วย -m แม้แต่ใน 東 tɔm⁴⁴ และ 龍 lɔm¹¹", "id": "Bahasa Hui di Kabupaten Wuyuan, Jiangxi, termasuk 祁婺片 menurut Atlas Bahasa Tiongkok; pelafalannya berasal dari 《徽州方言研究》 sebagaimana dimasukkan dalam MCPDict. Ada enam nada: 陰平 44, 陽平 11, 陰上 2, 陽上 31, 陰去 35, 陽去 51. Tidak ada nada tertutup (checked) tersendiri — suku kata tertutup lama dibaca 51 (八 po⁵¹, 十 sɑ⁵¹) — dan banyak akhiran nasal berakhir dengan -m, bahkan pada 東 tɔm⁴⁴ dan 龍 lɔm¹¹.", "hi": "जियांगशी के वुयुआन काउंटी की हुई चीनी, जिसे चीन का भाषा एटलस 祁婺片 में रखता है; उच्चारण MCPDict में दर्ज 《徽州方言研究》 से हैं। इसमें छह टोन हैं: 陰平 44, 陽平 11, 陰上 2, 陽上 31, 陰去 35, 陽去 51। कोई अलग अवरुद्ध (चेक्ड) टोन नहीं है — पुराने अवरुद्ध अक्षर 51 में पढ़े जाते हैं (八 po⁵¹, 十 sɑ⁵¹) — और कई नासिक्य अंत्य -m पर समाप्त होते हैं, यहाँ तक कि 東 tɔm⁴⁴ और 龍 lɔm¹¹ में भी।", "de": "Hui-Chinesisch des Kreises Wuyuan in Jiangxi, im Sprachatlas Chinas dem 祁婺片 zugeordnet; die Lesungen stammen aus 《徽州方言研究》, wie in MCPDict erfasst. Es hat sechs Töne: 陰平 44, 陽平 11, 陰上 2, 陽上 31, 陰去 35, 陽去 51. Einen eigenen Eingangston gibt es nicht — alte Eingangston-Silben lauten auf 51 (八 po⁵¹, 十 sɑ⁵¹) —, und viele Nasalauslaute enden auf -m, selbst in 東 tɔm⁴⁴ und 龍 lɔm¹¹.", "fr": "Chinois hui du district de Wuyuan (Jiangxi), classé dans le 祁婺片 par l'Atlas linguistique de la Chine ; les lectures proviennent de 《徽州方言研究》, tel que saisi dans MCPDict. Il a six tons : 陰平 44, 陽平 11, 陰上 2, 陽上 31, 陰去 35, 陽去 51. Il n'y a pas de ton entrant distinct — les anciennes syllabes à ton entrant se lisent en 51 (八 po⁵¹, 十 sɑ⁵¹) — et beaucoup de finales nasales se terminent en -m, même dans 東 tɔm⁴⁴ et 龍 lɔm¹¹.", "it": "Cinese hui della contea di Wuyuan, nello Jiangxi, classificato nel 祁婺片 dall'Atlante linguistico della Cina; le letture provengono da 《徽州方言研究》, come inserito in MCPDict. Ha sei toni: 陰平 44, 陽平 11, 陰上 2, 陽上 31, 陰去 35, 陽去 51. Non esiste un tono entrante distinto — le antiche sillabe a tono entrante si leggono 51 (八 po⁵¹, 十 sɑ⁵¹) — e molte finali nasali terminano in -m, persino in 東 tɔm⁴⁴ e 龍 lɔm¹¹.", "es": "Chino hui del condado de Wuyuan, en Jiangxi, clasificado en el 祁婺片 por el Atlas Lingüístico de China; las lecturas proceden de 《徽州方言研究》, tal como figura en MCPDict. Tiene seis tonos: 陰平 44, 陽平 11, 陰上 2, 陽上 31, 陰去 35, 陽去 51. No hay un tono entrante propio — las antiguas sílabas de tono entrante se leen 51 (八 po⁵¹, 十 sɑ⁵¹) — y muchas finales nasales terminan en -m, incluso en 東 tɔm⁴⁴ y 龍 lɔm¹¹.", "pt": "Chinês hui do condado de Wuyuan, em Jiangxi, classificado no 祁婺片 pelo Atlas Linguístico da China; as leituras vêm de 《徽州方言研究》, conforme registrado no MCPDict. Tem seis tons: 陰平 44, 陽平 11, 陰上 2, 陽上 31, 陰去 35, 陽去 51. Não há um tom entrante próprio — as antigas sílabas de tom entrante leem-se 51 (八 po⁵¹, 十 sɑ⁵¹) — e muitas finais nasais terminam em -m, até em 東 tɔm⁴⁴ e 龍 lɔm¹¹.", "ru": "Хуэйский китайский уезда Уюань (Цзянси), который «Лингвистический атлас Китая» относит к 祁婺片; чтения взяты из 《徽州方言研究》 в том виде, в каком они внесены в MCPDict. В нём шесть тонов: 陰平 44, 陽平 11, 陰上 2, 陽上 31, 陰去 35, 陽去 51. Отдельного входящего тона нет — старые слоги входящего тона читаются 51 (八 po⁵¹, 十 sɑ⁵¹), — а многие носовые финали оканчиваются на -m, даже в 東 tɔm⁴⁴ и 龍 lɔm¹¹.", "uk": "Хуейська китайська повіту Уюань (Цзянсі), яку «Лінгвістичний атлас Китаю» відносить до 祁婺片; читання взято з 《徽州方言研究》 у тому вигляді, в якому їх внесено до MCPDict. У ній шість тонів: 陰平 44, 陽平 11, 陰上 2, 陽上 31, 陰去 35, 陽去 51. Окремого вхідного тону немає — давні склади вхідного тону читаються 51 (八 po⁵¹, 十 sɑ⁵¹), — а багато носових фіналей закінчуються на -m, навіть у 東 tɔm⁴⁴ і 龍 lɔm¹¹.", "ar": "صينية هوي في محافظة ووييوان بمقاطعة جيانغشي، ويصنّفها أطلس لغات الصين ضمن 祁婺片؛ والقراءات مأخوذة من 《徽州方言研究》 كما أُدخل في MCPDict. لها ست نغمات: 陰平 44, 陽平 11, 陰上 2, 陽上 31, 陰去 35, 陽去 51. لا توجد نغمة داخلة مستقلة — فالمقاطع ذات النغمة الداخلة القديمة تُقرأ 51 (八 po⁵¹, 十 sɑ⁵¹) — وكثير من الخواتيم الأنفية تنتهي بـ -m، حتى في 東 tɔm⁴⁴ و龍 lɔm¹¹.", "he": "סינית הוויי של מחוז ווּיוּאן שבג'יאנגשי, שאטלס השפות של סין משייך ל-祁婺片; ההגיות לקוחות מ-《徽州方言研究》 כפי שהוזן ב-MCPDict. יש בה שישה טונים: 陰平 44, 陽平 11, 陰上 2, 陽上 31, 陰去 35, 陽去 51. אין טון נכנס נפרד — הברות הטון הנכנס הישנות נקראות 51 (八 po⁵¹, 十 sɑ⁵¹) — ורבים מהסיומות האפיות מסתיימים ב-m-, אפילו ב-東 tɔm⁴⁴ וב-龍 lɔm¹¹.", "sw": "Kichina cha Kihui cha wilaya ya Wuyuan, Jiangxi, ambacho Atlasi ya Lugha za China inakiweka katika 祁婺片; matamshi yanatoka kwenye 《徽州方言研究》 kama yalivyoingizwa katika MCPDict. Kina toni sita: 陰平 44, 陽平 11, 陰上 2, 陽上 31, 陰去 35, 陽去 51. Hakuna toni ya kuingia iliyo tofauti — silabi za zamani za toni ya kuingia husomwa 51 (八 po⁵¹, 十 sɑ⁵¹) — na miishilizi mingi ya pua huishia kwa -m, hata katika 東 tɔm⁴⁴ na 龍 lɔm¹¹."},"romanization":{"name": "MCPDict IPA with Chao tone numbers", "authority": "漢字音典 MCPDict — 婺源", "year": 2026},"sources":[{"type": "reference", "title": "《徽州方言研究》, via 漢字音典 MCPDict table 婺源 (osfans/MCPDict)"}, {"type": "reference", "title": "Tone values: MCPDict's table for 婺源 (1=44 2=11 3=2 4=31 5=35 6=51)"}],"speakers":"(no published count)","speakersSource":"Wikipedia (英語版「Huizhou Chinese」/ 中文版「徽语」, 2026-10-18閲覧: figures for Hui as a whole only)"},
   "cnp_gl": {"name":"Guilin Pinghua","native":"桂北平话","family":"Sino-Tibetan (Sinitic, Pinghua — 桂北)","lat":25.27,"lng":110.29,"region":"China (Guangxi — Guilin 桂林)","reading_type":{"ja":"桂北平話","en":"Guibei Pinghua","ko":"귀북평화","zh":"桂北平话","fr":"Pinghua de Guilin nord","de":"Guibei Pinghua","es":"Pinghua de Guilin Norte","ru":"Губэй пиньхуа","ar":"لغة جويبي بينجهوا","he":"גווייביי פינג'והא","sw":"Pinghua ya Guibei","yue":"桂北平話","vi":"Pinghua Quguilbei","th":"ภาษาปิงฮวาเกวยเบย","id":"Pinghua Guibei","hi":"गुइबेई पिंगहुआ","it":"Pinghua di Guibei","pt":"Pinghua de Guibei","uk":"Гуйбей піньхуа"},"description":{"en": "Northern Guangxi Pinghua, in the 桂北片 of 平話和土話 in the Language Atlas of China; the readings are from 梁村 village in Liangjiang, Lingui, Guilin, taken from 《临桂两江平话同音字汇》 via MCPDict. It has six tones: 陰平 35, 陽平 13, 上 33, 陰去 53, 陽去 31, 入 5. Checked syllables have no final stop (北 po⁵, 七 tsʰe⁵), and many words begin with ʃ- (山 ʃã³⁵, 水 ʃu³³).", "ja": "広西北部の平話で、『中国語言地図集』では平話和土話の桂北片に属する。読みは桂林市臨桂の両江にある梁村のもので、漢字音典（MCPDict）経由で《临桂两江平话同音字汇》から採った。声調は六つ：陰平 35, 陽平 13, 上 33, 陰去 53, 陽去 31, 入 5。入声音節には末尾の閉鎖音がなく（北 po⁵、七 tsʰe⁵）、多くの語が ʃ- で始まる（山 ʃã³⁵、水 ʃu³³）。", "ko": "광시 북부의 핑화로, 『중국어언지도집』에서는 平話和土話의 桂北片에 속한다. 독음은 구이린시 린구이 량장의 梁村 마을의 것으로, 한자음전(MCPDict)을 통해 《临桂两江平话同音字汇》에서 가져왔다. 성조는 여섯 개: 陰平 35, 陽平 13, 上 33, 陰去 53, 陽去 31, 入 5. 입성 음절에는 말음 폐쇄음이 없고(北 po⁵, 七 tsʰe⁵), 많은 낱말이 ʃ-로 시작한다(山 ʃã³⁵, 水 ʃu³³).", "zh": "广西北部的平话，《中国语言地图集》归入平話和土話的桂北片。读音为桂林临桂两江梁村的读音，经汉字音典（MCPDict）取自《临桂两江平话同音字汇》。共有六个声调：陰平 35, 陽平 13, 上 33, 陰去 53, 陽去 31, 入 5。入声字没有塞音韵尾（北 po⁵、七 tsʰe⁵），许多字以 ʃ- 起首（山 ʃã³⁵、水 ʃu³³）。", "yue": "廣西北部嘅平話，《中國語言地圖集》將佢歸入平話和土話嘅桂北片。讀音係桂林臨桂兩江梁村嘅讀音，經漢字音典（MCPDict）取自《临桂两江平话同音字汇》。一共有六個聲調：陰平 35, 陽平 13, 上 33, 陰去 53, 陽去 31, 入 5。入聲字冇塞音韻尾（北 po⁵、七 tsʰe⁵），好多字以 ʃ- 開頭（山 ʃã³⁵、水 ʃu³³）。", "vi": "Tiếng Bình thoại miền bắc Quảng Tây, thuộc 桂北片 của 平話和土話 theo Bản đồ Ngôn ngữ Trung Quốc; cách đọc là của làng 梁村 ở Lưỡng Giang, Lâm Quế, Quế Lâm, lấy từ 《临桂两江平话同音字汇》 qua MCPDict. Có sáu thanh điệu: 陰平 35, 陽平 13, 上 33, 陰去 53, 陽去 31, 入 5. Các âm tiết nhập thanh không có âm tắc cuối (北 po⁵, 七 tsʰe⁵), và nhiều từ bắt đầu bằng ʃ- (山 ʃã³⁵, 水 ʃu³³).", "th": "ภาษาผิงฮว่าทางเหนือของกว่างซี จัดอยู่ใน 桂北片 ของ 平話和土話 ตามแผนที่ภาษาแห่งประเทศจีน การอ่านเป็นของหมู่บ้าน 梁村 ที่เหลียงเจียง อำเภอหลินกุ้ย เมืองกุ้ยหลิน นำมาจาก 《临桂两江平话同音字汇》 ผ่าน MCPDict มีวรรณยุกต์หกเสียง: 陰平 35, 陽平 13, 上 33, 陰去 53, 陽去 31, 入 5 พยางค์เสียงกักไม่มีพยัญชนะกักท้ายพยางค์ (北 po⁵, 七 tsʰe⁵) และคำจำนวนมากขึ้นต้นด้วย ʃ- (山 ʃã³⁵, 水 ʃu³³)", "id": "Pinghua Guangxi utara, termasuk 桂北片 dari 平話和土話 menurut Atlas Bahasa Tiongkok; pelafalannya berasal dari desa 梁村 di Liangjiang, Lingui, Guilin, diambil dari 《临桂两江平话同音字汇》 melalui MCPDict. Ada enam nada: 陰平 35, 陽平 13, 上 33, 陰去 53, 陽去 31, 入 5. Suku kata tertutup (checked) tidak memiliki konsonan hambat akhir (北 po⁵, 七 tsʰe⁵), dan banyak kata diawali ʃ- (山 ʃã³⁵, 水 ʃu³³).", "hi": "उत्तरी गुआंगशी की पिंगहुआ, जिसे चीन का भाषा एटलस 平話和土話 के 桂北片 में रखता है; उच्चारण गुइलिन के लिंगुई के लियांगजियांग में स्थित 梁村 गाँव के हैं, जो MCPDict के माध्यम से 《临桂两江平话同音字汇》 से लिए गए हैं। इसमें छह टोन हैं: 陰平 35, 陽平 13, 上 33, 陰去 53, 陽去 31, 入 5। अवरुद्ध (चेक्ड) अक्षरों में अंतिम स्पर्श व्यंजन नहीं है (北 po⁵, 七 tsʰe⁵), और कई शब्द ʃ- से शुरू होते हैं (山 ʃã³⁵, 水 ʃu³³)।", "de": "Pinghua des nördlichen Guangxi, im Sprachatlas Chinas dem 桂北片 des 平話和土話 zugeordnet; die Lesungen stammen aus dem Dorf 梁村 in Liangjiang, Lingui (Guilin), entnommen aus 《临桂两江平话同音字汇》 über MCPDict. Es hat sechs Töne: 陰平 35, 陽平 13, 上 33, 陰去 53, 陽去 31, 入 5. Silben mit Eingangston haben keinen auslautenden Verschlusslaut (北 po⁵, 七 tsʰe⁵), und viele Wörter beginnen mit ʃ- (山 ʃã³⁵, 水 ʃu³³).", "fr": "Pinghua du nord du Guangxi, classé dans le 桂北片 du 平話和土話 par l'Atlas linguistique de la Chine ; les lectures sont celles du village de 梁村 à Liangjiang, Lingui (Guilin), tirées de 《临桂两江平话同音字汇》 via MCPDict. Il a six tons : 陰平 35, 陽平 13, 上 33, 陰去 53, 陽去 31, 入 5. Les syllabes à ton entrant n'ont pas d'occlusive finale (北 po⁵, 七 tsʰe⁵), et beaucoup de mots commencent par ʃ- (山 ʃã³⁵, 水 ʃu³³).", "it": "Pinghua del Guangxi settentrionale, classificato nel 桂北片 del 平話和土話 dall'Atlante linguistico della Cina; le letture sono del villaggio di 梁村 a Liangjiang, Lingui (Guilin), tratte da 《临桂两江平话同音字汇》 tramite MCPDict. Ha sei toni: 陰平 35, 陽平 13, 上 33, 陰去 53, 陽去 31, 入 5. Le sillabe a tono entrante non hanno occlusiva finale (北 po⁵, 七 tsʰe⁵), e molte parole iniziano con ʃ- (山 ʃã³⁵, 水 ʃu³³).", "es": "Pinghua del norte de Guangxi, clasificado en el 桂北片 del 平話和土話 por el Atlas Lingüístico de China; las lecturas son del pueblo de 梁村 en Liangjiang, Lingui (Guilin), tomadas de 《临桂两江平话同音字汇》 a través de MCPDict. Tiene seis tonos: 陰平 35, 陽平 13, 上 33, 陰去 53, 陽去 31, 入 5. Las sílabas de tono entrante no tienen oclusiva final (北 po⁵, 七 tsʰe⁵), y muchas palabras empiezan por ʃ- (山 ʃã³⁵, 水 ʃu³³).", "pt": "Pinghua do norte de Guangxi, classificado no 桂北片 do 平話和土話 pelo Atlas Linguístico da China; as leituras são da aldeia de 梁村 em Liangjiang, Lingui (Guilin), tiradas de 《临桂两江平话同音字汇》 via MCPDict. Tem seis tons: 陰平 35, 陽平 13, 上 33, 陰去 53, 陽去 31, 入 5. As sílabas de tom entrante não têm oclusiva final (北 po⁵, 七 tsʰe⁵), e muitas palavras começam por ʃ- (山 ʃã³⁵, 水 ʃu³³).", "ru": "Пинхуа северного Гуанси, которое «Лингвистический атлас Китая» относит к 桂北片 группы 平話和土話; чтения записаны в деревне 梁村 в Лянцзяне, Линьгуй (Гуйлинь), и взяты из 《临桂两江平话同音字汇》 через MCPDict. В нём шесть тонов: 陰平 35, 陽平 13, 上 33, 陰去 53, 陽去 31, 入 5. Слоги входящего тона не имеют конечного смычного (北 po⁵, 七 tsʰe⁵), а многие слова начинаются с ʃ- (山 ʃã³⁵, 水 ʃu³³).", "uk": "Піньхуа північного Гуансі, яке «Лінгвістичний атлас Китаю» відносить до 桂北片 групи 平話和土話; читання записано в селі 梁村 у Лянцзяні, Ліньгуй (Гуйлінь), і взято з 《临桂两江平话同音字汇》 через MCPDict. У ньому шість тонів: 陰平 35, 陽平 13, 上 33, 陰去 53, 陽去 31, 入 5. Склади вхідного тону не мають кінцевого проривного (北 po⁵, 七 tsʰe⁵), а багато слів починаються з ʃ- (山 ʃã³⁵, 水 ʃu³³).", "ar": "بينغهوا شمال غوانغشي، ويصنّفها أطلس لغات الصين ضمن 桂北片 من 平話和土話؛ والقراءات من قرية 梁村 في ليانغجيانغ بمنطقة لينغوي في غويلين، مأخوذة من 《临桂两江平话同音字汇》 عبر MCPDict. لها ست نغمات: 陰平 35, 陽平 13, 上 33, 陰去 53, 陽去 31, 入 5. لا تحتوي المقاطع ذات النغمة الداخلة على صامت انفجاري ختامي (北 po⁵, 七 tsʰe⁵)، وتبدأ كلمات كثيرة بـ ʃ- (山 ʃã³⁵, 水 ʃu³³).", "he": "פינגחואה של צפון גואנגשי, שאטלס השפות של סין משייך ל-桂北片 של 平話和土話; ההגיות הן מהכפר 梁村 בליאנגג'יאנג, לינגוויי שבגווילין, ונלקחו מ-《临桂两江平话同音字汇》 דרך MCPDict. יש בה שישה טונים: 陰平 35, 陽平 13, 上 33, 陰去 53, 陽去 31, 入 5. בהברות הטון הנכנס אין עיצור סותם סופי (北 po⁵, 七 tsʰe⁵), ומילים רבות מתחילות ב-ʃ- (山 ʃã³⁵, 水 ʃu³³).", "sw": "Kipinghua cha kaskazini mwa Guangxi, ambacho Atlasi ya Lugha za China inakiweka katika 桂北片 ya 平話和土話; matamshi ni ya kijiji cha 梁村 huko Liangjiang, Lingui, Guilin, yaliyochukuliwa kutoka 《临桂两江平话同音字汇》 kupitia MCPDict. Kina toni sita: 陰平 35, 陽平 13, 上 33, 陰去 53, 陽去 31, 入 5. Silabi za toni ya kuingia hazina konsonanti kizuizi ya mwisho (北 po⁵, 七 tsʰe⁵), na maneno mengi huanza na ʃ- (山 ʃã³⁵, 水 ʃu³³)."},"romanization":{"name": "MCPDict IPA with Chao tone numbers", "authority": "漢字音典 MCPDict — 臨桂兩江", "year": 2026},"sources":[{"type": "reference", "title": "《临桂两江平话同音字汇》, via 漢字音典 MCPDict table 臨桂兩江 (osfans/MCPDict)"}, {"type": "reference", "title": "Tone values: MCPDict's table for 臨桂兩江 (1=35 2=13 3=33 5=53 6=31 7=5)"}],"speakers":"(no published count)","speakersSource":"Wikipedia (英語版「Pinghua Chinese」/ 中文版「平话」, 2026-10-18閲覧: figures for Pinghua as a whole only)"},
   "zh": {
+    "region": "China (standard based on Beijing 北京 speech)",
     "name": "Mandarin",
     "native": "普通话",
     "family": "Sinitic (Mandarin)",
@@ -23612,6 +23613,7 @@ const HAN_LANG_META = {
     "speakersSource": "Ethnologue 2024 (cmn)"
   },
   "yue": {
+    "region": "China (Guangdong — Guangzhou 广州); Hong Kong; Macau",
     "name": "Cantonese",
     "native": "粵語",
     "family": "Sinitic (Yue)",
@@ -23671,6 +23673,7 @@ const HAN_LANG_META = {
     "speakersSource": "Ethnologue 2024 (yue)"
   },
   "nan": {
+    "region": "Taiwan",
     "name": "Taiwanese Min Nan",
     "native": "閩南語",
     "family": "Sinitic (Min)",
@@ -23730,6 +23733,7 @@ const HAN_LANG_META = {
     "speakersSource": "Ethnologue 2024 (nan)"
   },
   "wuu": {
+    "region": "China (Shanghai 上海)",
     "name": "Shanghainese",
     "native": "上海话",
     "family": "Sinitic (Wu)",
@@ -23789,6 +23793,7 @@ const HAN_LANG_META = {
     "speakersSource": "Ethnologue 2024 (wuu)"
   },
   "hak_cn": {
+    "region": "China (Guangdong — Meixian 梅县, Meizhou 梅州)",
     "name": "Hakka",
     "native": "客家話",
     "family": "Sinitic (Hakka)",
@@ -23848,6 +23853,7 @@ const HAN_LANG_META = {
     "speakersSource": "Ethnologue 2024 (hak)"
   },
   "cdo": {
+    "region": "China (Fujian — Fuzhou 福州)",
     "name": "Fuzhou Eastern Min",
     "native": "福州話",
     "family": "Sinitic (Min)",
@@ -23907,6 +23913,7 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Eastern Min」, 2026-10-15閲覧: 10.9 million, Ethnologue 27, 2022) / Ethnologue (cdo)"
   },
   "hsn": {
+    "region": "China (Hunan — Changsha 长沙)",
     "name": "Changsha Xiang",
     "native": "湘語",
     "family": "Sinitic (Xiang)",
@@ -23965,6 +23972,7 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Xiang Chinese」, 2026-05-30閲覧) / Ethnologue 2017 (hsn)"
   },
   "gan": {
+    "region": "China (Jiangxi — Nanchang 南昌)",
     "name": "Nanchang Gan",
     "native": "贛語",
     "family": "Sinitic (Gan)",
@@ -23996,6 +24004,7 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Gan Chinese」, 2026-05-30閲覧) / Ethnologue (gan)"
   },
   "cjy": {
+    "region": "China (Shanxi — Taiyuan 太原)",
     "name": "Taiyuan Jin",
     "native": "晉語",
     "family": "Sinitic (Jin)",
@@ -24055,6 +24064,7 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Jin Chinese」, 2026-05-30閲覧) / Ethnologue (cjy)"
   },
   "mnp": {
+    "region": "China (Fujian — Jianʼou 建瓯)",
     "name": "Jian'ou Northern Min",
     "native": "閩北語",
     "family": "Sinitic (Min)",
@@ -24113,6 +24123,7 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Northern Min」, 2004年時点の数値, 出典 Language Atlas of China 第2版 (2012); 同記事の編集注は1100万人説を Ethnologue 第14版で生じた誤りとする, 2026-10-15閲覧)"
   },
   "cpx": {
+    "region": "China (Fujian — Putian 莆田, Xianyou 仙游)",
     "name": "Pu-Xian Min",
     "native": "莆仙話",
     "family": "Sinitic (Min)",
@@ -24171,6 +24182,8 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Pu–Xian Min」, 2026-10-15閲覧: 3.15 million, Ethnologue 26, 2022)"
   },
   "zh_db": {
+    "family": "Sinitic (Mandarin, Northeastern — 哈阜片 肇撫小片)",
+    "region": "China (Heilongjiang — Harbin 哈尔滨)",
     "reading_type": {
       "ja": "東北官話",
       "ko": "둥베이 관화 (동북관화)",
@@ -24228,6 +24241,8 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Northeastern Mandarin」, 2026-05-30閲覧)"
   },
   "zh_sc": {
+    "family": "Sinitic (Mandarin, Southwestern)",
+    "region": "China (Sichuan 四川, Chongqing 重庆)",
     "reading_type": {
       "ja": "四川官話",
       "ko": "쓰촨 관화",
@@ -24283,6 +24298,8 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Sichuanese dialects」, 2026-05-30閲覧)"
   },
   "zh_cd": {
+    "family": "Sinitic (Mandarin, Southwestern — 川黔片 成渝小片)",
+    "region": "China (Sichuan — Chengdu 成都)",
     "reading_type": {
       "ja": "成都官話",
       "ko": "청두 관화",
@@ -24338,6 +24355,8 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Chengdu-Chongqing dialect」, 2026-05-30閲覧)"
   },
   "zh_cq": {
+    "family": "Sinitic (Mandarin, Southwestern — 川黔片 成渝小片)",
+    "region": "China (Chongqing 重庆)",
     "reading_type": {
       "ja": "重慶官話",
       "ko": "충칭 관화",
@@ -24393,6 +24412,8 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Chengdu-Chongqing dialect」, 2026-05-30閲覧)"
   },
   "zh_xa": {
+    "family": "Sinitic (Mandarin, Zhongyuan — 關中片)",
+    "region": "China (Shaanxi — Xiʼan 西安)",
     "reading_type": {
       "ja": "西安官話（中原官話）",
       "ko": "시안 관화 (중원관화)",
@@ -24449,6 +24470,8 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Zhongyuan Mandarin」, 2026-05-30閲覧)"
   },
   "zh_km": {
+    "family": "Sinitic (Mandarin, Southwestern — 雲南片 滇中小片)",
+    "region": "China (Yunnan — Kunming 昆明)",
     "reading_type": {
       "ja": "昆明官話",
       "ko": "쿤밍 관화",
@@ -24506,6 +24529,8 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (中文版「昆明话」, 2026-05-30閲覧)"
   },
   "zh_jn": {
+    "family": "Sinitic (Mandarin, Ji-Lu — 石濟片 聊泰小片)",
+    "region": "China (Shandong — Jinan 济南)",
     "reading_type": {
       "ja": "済南官話（冀魯官話）",
       "ko": "지난 관화 (지루관화)",
@@ -24563,6 +24588,8 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Ji–Lu Mandarin」, 2026-05-30閲覧)"
   },
   "zh_kf": {
+    "family": "Sinitic (Mandarin, Zhongyuan — 鄭開片)",
+    "region": "China (Henan — Kaifeng 开封)",
     "reading_type": {
       "ja": "開封官話（中原官話）",
       "ko": "카이펑 관화 (중원관화)",
@@ -24618,6 +24645,8 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Zhongyuan Mandarin」, 2026-05-30閲覧)"
   },
   "zh_hf": {
+    "family": "Sinitic (Mandarin, Jianghuai — 洪巢片)",
+    "region": "China (Anhui — Hefei 合肥)",
     "reading_type": {
       "ja": "合肥官話（江淮官話）",
       "ko": "허페이 관화 (장화이관화)",
@@ -24746,6 +24775,8 @@ const HAN_LANG_META = {
     "family": "Sinitic (Mandarin, Jianghuai)"
   },
   "zh_nj": {
+    "family": "Sinitic (Mandarin, Jianghuai — 洪巢片)",
+    "region": "China (Jiangsu — Nanjing 南京)",
     "reading_type": {
       "ja": "南京官話",
       "ko": "난징 관화",
@@ -24801,6 +24832,8 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Nanjing dialect」, 2026-05-30閲覧)"
   },
   "zh_tj": {
+    "family": "Sinitic (Mandarin, Ji-Lu — 保唐片 天津小片)",
+    "region": "China (Tianjin 天津)",
     "reading_type": {
       "ja": "天津官話",
       "ko": "톈진 관화",
@@ -24856,6 +24889,8 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Tianjin dialect」, 2026-05-30閲覧)"
   },
   "zh_lz": {
+    "family": "Sinitic (Mandarin, Lan-Yin — 金城片)",
+    "region": "China (Gansu — Lanzhou 兰州)",
     "reading_type": {
       "ja": "蘭銀官話（蘭州）",
       "ko": "란인관화 (란저우)",
@@ -24911,6 +24946,8 @@ const HAN_LANG_META = {
     "speakersSource": "zh.wikipedia 兰州话 (2026-10-15閲覧: infobox gives no speaker figure)"
   },
   "zh_wh": {
+    "family": "Sinitic (Mandarin, Southwestern — 湖廣片 鄂中小片)",
+    "region": "China (Hubei — Wuhan 武汉)",
     "reading_type": {
       "ja": "武漢官話（西南官話）",
       "ko": "우한 관화 (서남관화)",
@@ -25034,6 +25071,8 @@ const HAN_LANG_META = {
     "family": "Sinitic (Yue, Gaoyang)"
   },
   "yue_ts": {
+    "family": "Sinitic (Yue — 四邑片)",
+    "region": "China (Guangdong — Taishan 台山)",
     "reading_type": {
       "ja": "台山語（四邑粤語）",
       "ko": "타이산어 (台山話, 四邑 광둥어)",
@@ -25089,6 +25128,8 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Taishanese」, 2026-05-30閲覧)"
   },
   "yue_dg": {
+    "family": "Sinitic (Yue — 廣府片)",
+    "region": "China (Guangdong — Dongguan 东莞)",
     "reading_type": {
       "ja": "東莞粤語",
       "ko": "둥관 광둥어 (東莞粵語)",
@@ -25117,6 +25158,8 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Dongguan dialect」, 2026-05-30閲覧)"
   },
   "yue_nn": {
+    "family": "Sinitic (Yue — 邕潯片)",
+    "region": "China (Guangxi — Nanning 南宁)",
     "reading_type": {
       "ja": "南寧粤語（邕潯粤語）",
       "ko": "난닝 광둥어 (南寧粵語, 邕潯粵語)",
@@ -25165,6 +25208,8 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (中文版「南寧白話」, 2026-10-15閲覧: the infobox gives no speaker count)"
   },
   "yue_zs": {
+    "family": "Sinitic (Yue — 廣府片)",
+    "region": "China (Guangdong — Zhongshan 中山, Shiqi 石岐)",
     "reading_type": {
       "ja": "中山粤語（石岐話）",
       "ko": "중산 광둥어 (中山粵語, 石岐話)",
@@ -25213,6 +25258,8 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (中文版「中山話」, 2026-05-30閲覧)"
   },
   "nan_qz": {
+    "family": "Sinitic (Min — 閩南片 泉漳小片)",
+    "region": "China (Fujian — Quanzhou 泉州)",
     "reading_type": {
       "ja": "泉州閩南語",
       "ko": "취안저우 민난어 (泉州閩南語)",
@@ -25268,6 +25315,8 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Quanzhou dialects」, Lin 2008 による; 2026-10-15閲覧)"
   },
   "nan_te": {
+    "family": "Sinitic (Min — 閩南片 潮汕小片)",
+    "region": "China (Guangdong — Chaozhou 潮州)",
     "reading_type": {
       "ja": "潮州語（潮汕語）",
       "ko": "차오저우어 (潮州語, 潮汕語)",
@@ -25323,6 +25372,8 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Teochew dialect」, 2026-05-30閲覧)"
   },
   "nan_pn": {
+    "family": "Sinitic (Min — 閩南片)",
+    "region": "Malaysia (Penang 檳城)",
     "reading_type": {
       "ja": "檳城閩南語（檳城福建話）",
       "ko": "페낭 호키엔 (檳城閩南語)",
@@ -25378,6 +25429,8 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Penang Hokkien」, 2026-10-15閲覧; Penang Monthly「Dialects and Languages in Numbers」による)"
   },
   "nan_hai": {
+    "family": "Sinitic (Min — 瓊文片 府城小片)",
+    "region": "China (Hainan — Haikou 海口)",
     "reading_type": {
       "ja": "海南語(海南話)",
       "ko": "하이난어 (海南話)",
@@ -25426,6 +25479,8 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Hainanese」, 2026-05-30閲覧)"
   },
   "nan_xm": {
+    "family": "Sinitic (Min — 閩南片 泉漳小片)",
+    "region": "China (Fujian — Xiamen 厦门)",
     "reading_type": {
       "ja": "廈門閩南語（アモイ語）",
       "ko": "샤먼 호키엔 (廈門閩南語)",
@@ -25474,13 +25529,15 @@ const HAN_LANG_META = {
     ],
     "romanization": {
       "name": "Tâi-lô (臺羅 — Amoy)",
-      "authority": "London Missionary Society (Carstairs Douglas 1873)",
-      "year": 1873
+      "authority": "Ministry of Education, Taiwan",
+      "year": 2006
     },
     "speakers": "約200万人 (廈門話)",
     "speakersSource": "Wikipedia (英語版「Amoy dialect」, 2026-10-15閲覧: 2 million, 2021)"
   },
   "nan_zz": {
+    "family": "Sinitic (Min — 閩南片 泉漳小片)",
+    "region": "China (Fujian — Zhangzhou 漳州)",
     "reading_type": {
       "ja": "漳州閩南語",
       "ko": "장저우 호키엔 (漳州閩南語)",
@@ -25537,6 +25594,8 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Zhangzhou dialect」, 2026-05-30閲覧)"
   },
   "wuu_nb": {
+    "family": "Sinitic (Wu — 太湖片 甬江小片)",
+    "region": "China (Zhejiang — Ningbo 宁波)",
     "reading_type": {
       "ja": "寧波呉語",
       "ko": "닝보 우어 (寧波吳語)",
@@ -25585,6 +25644,8 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Ningbo dialect」, 2026-05-30閲覧)"
   },
   "wuu_sz": {
+    "family": "Sinitic (Wu — 太湖片 蘇嘉湖小片)",
+    "region": "China (Jiangsu — Suzhou 苏州)",
     "reading_type": {
       "ja": "蘇州呉語",
       "ko": "쑤저우 우어 (蘇州吳語)",
@@ -25643,6 +25704,8 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Suzhou dialect」, 2026-05-30閲覧)"
   },
   "wuu_wz": {
+    "family": "Sinitic (Wu — 甌江片)",
+    "region": "China (Zhejiang — Wenzhou 温州)",
     "reading_type": {
       "ja": "温州呉語（甌語）",
       "ko": "원저우 우어 (溫州吳語, 甌江吳語)",
@@ -25699,6 +25762,8 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Wenzhounese」, 2026-05-30閲覧)"
   },
   "wuu_hz": {
+    "family": "Sinitic (Wu — 太湖片 杭州小片)",
+    "region": "China (Zhejiang — Hangzhou 杭州)",
     "reading_type": {
       "ja": "杭州呉語",
       "ko": "항저우 우어 (杭州吳語)",
@@ -25747,6 +25812,8 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Hangzhou dialect」, 2026-10-15閲覧: 1.92 million, Li 2012)"
   },
   "wuu_jx": {
+    "family": "Sinitic (Wu — 太湖片 蘇嘉湖小片)",
+    "region": "China (Zhejiang — Jiaxing 嘉兴)",
     "reading_type": {
       "ja": "嘉興呉語",
       "ko": "자싱 우어 (嘉興吳語)",
@@ -25775,6 +25842,8 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (中文版「嘉興話」, 2026-05-30閲覧)"
   },
   "wuu_jh": {
+    "family": "Sinitic (Wu — 金衢片)",
+    "region": "China (Zhejiang — Jinhua 金华)",
     "reading_type": {
       "ja": "金華呉語",
       "ko": "진화 우어 (金華吳語)",
@@ -25831,6 +25900,8 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Jinhua dialect」, 2026-10-15閲覧)"
   },
   "hak_tw": {
+    "family": "Sinitic (Hakka — 粵台片 梅惠小片)",
+    "region": "Taiwan (Miaoli 苗栗, Taoyuan 桃園; Liudui 六堆 — Kaohsiung 高雄, Pingtung 屏東)",
     "reading_type": {
       "ja": "台湾客家語（四縣腔）",
       "ko": "대만 객가어 (四縣腔)",
@@ -25879,14 +25950,16 @@ const HAN_LANG_META = {
       "客家語委員會"
     ],
     "romanization": {
-      "name": "Taiwanese Hakka Romanisation System (臺灣客家語拼音方案)",
+      "name": "Taiwanese Hakka Romanization System spelling (臺灣客家語拼音方案), tones as digits 1–6",
       "authority": "台灣教育部",
-      "year": 2003
+      "year": 2012
     },
-    "speakers": "約250万人 (台湾客家語)",
-    "speakersSource": "Wikipedia (英語版「Taiwanese Hakka」, 2026-05-30閲覧)"
+    "speakers": "約120万人 (L1 約33万人, 2020)",
+    "speakersSource": "Wikipedia (英語版「Taiwanese Hakka」, Ethnologue 2020 による; 2026-10-18閲覧)"
   },
   "hak_hl": {
+    "family": "Sinitic (Hakka — 海陸片)",
+    "region": "Taiwan (Hsinchu 新竹, southwestern Taoyuan 桃園)",
     "reading_type": {
       "ja": "台湾客家語（海陸腔）",
       "ko": "대만 객가어 (海陸腔)",
@@ -25938,10 +26011,11 @@ const HAN_LANG_META = {
       "authority": "客語白話字 / Hakka church romanization",
       "year": 1860
     },
-    "speakers": "約30万人 (海陸客家・台湾)",
-    "speakersSource": "Wikipedia (英語版「Hai-Lu Hakka」, 2026-05-30閲覧)"
+    "speakers": "(no published count)",
+    "speakersSource": "Wikipedia (英語版「Hailu dialect」, 2026-10-18閲覧: 1.18 million for Shanwei, China (2012) only; no count for Taiwan)"
   },
   "czh": {
+    "region": "China (Anhui — Shexian 歙县, Huangshan 黄山)",
     "name": "Hui Chinese",
     "native": "徽語",
     "family": "Sinitic (Hui)",
@@ -25973,6 +26047,7 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Hui Chinese」, 2026-10-15閲覧; Ethnologue 26th ed.) / Ethnologue (czh)"
   },
   "cnp": {
+    "region": "China (Guangxi — Nanning 南宁)",
     "name": "Nanning Pinghua",
     "native": "南寧平話",
     "family": "Sinitic (Pinghua)",
@@ -26024,6 +26099,7 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Pinghua Chinese」, 余瑾 2016 による; 2026-10-15閲覧)"
   },
   "zh_han": {
+    "region": "China, Zhou–Han period (1st millennium BCE)",
     "name": "Old Chinese",
     "period": "3cBCE–3cCE",
     "native": "上古漢語",
@@ -26084,6 +26160,7 @@ const HAN_LANG_META = {
     "speakersSource": "上古漢語 (Old Chinese, Baxter-Sagart 2014再構)"
   },
   "zh_tang": {
+    "region": "China, Sui–Tang period (Changʼan 長安 prestige speech)",
     "name": "Middle Chinese",
     "period": "7–10c",
     "native": "中古漢語",
@@ -26144,6 +26221,7 @@ const HAN_LANG_META = {
     "speakersSource": "中古漢語 (Middle Chinese, 切韻・Baxter 1992再構)"
   },
   "ko": {
+    "region": "South Korea",
     "name": "Korean",
     "native": "한국 한자음",
     "family": "Koreanic",
@@ -26203,6 +26281,7 @@ const HAN_LANG_META = {
     "speakersSource": "Ethnologue 2024 (kor)"
   },
   "vi": {
+    "region": "Vietnam (north — Hanoi)",
     "reading_type": {
       "ja": "ベトナム語（北部、ハノイ）— 漢越音",
       "ko": "베트남어 (북부, 하노이) — 한월음",
@@ -26260,6 +26339,7 @@ const HAN_LANG_META = {
     "speakersSource": "Ethnologue 2024 (vie)"
   },
   "vi_c": {
+    "region": "Vietnam (central — Huế)",
     "reading_type": {
       "ja": "ベトナム語（中部、フエ）— 漢越音",
       "ko": "베트남어 (중부, 후에) — 한월음",
@@ -26317,6 +26397,7 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Central Vietnamese」, 2026-05-30閲覧)"
   },
   "vi_s": {
+    "region": "Vietnam (south — Saigon)",
     "reading_type": {
       "ja": "ベトナム語（南部、サイゴン）— 漢越音",
       "ko": "베트남어 (남부, 사이공) — 한월음",
@@ -26845,8 +26926,8 @@ const HAN_LANG_META = {
     },
     "romanization": {
       "name": "Hepburn romanisation (修正ヘボン式)",
-      "authority": "ISO 3602 / 国土地理院",
-      "year": 1885
+      "authority": "J. C. Hepburn (1867); revised Hepburn, Kenkyusha 3rd ed.",
+      "year": 1954
     },
     "sources": [
       "Wiktionary (Japanese entries)",
@@ -27274,8 +27355,8 @@ const HAN_LANG_META = {
       "authority": "convention",
       "year": null
     },
-    "speakers": "約190万人 (マレーシア福建話)",
-    "speakersSource": "Wikipedia (英語版「Southern Peninsular Malaysian Hokkien」, 2026-05-30閲覧)"
+    "speakers": "(no published count)",
+    "speakersSource": "Wikipedia (英語版「Southern Peninsular Malaysian Hokkien」, 2026-10-18閲覧: infobox gives \"?\")"
   },
   "sjo": {
     "name": "Sibe",
@@ -28873,7 +28954,7 @@ const HAN_LANG_META = {
     "description": {"en": "Hakka of Sha Tau Kok in Shenzhen, Guangdong, on the border with Hong Kong, in the 梅惠小片 of the 粵台片 group. The readings are from Academia Sinica's 小學堂 Hakka database, whose Pearl River Delta points come from 詹伯慧 and 張日昇 (eds.), 《珠江三角洲方言字音對照》 (1987). It has six tones: 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21 and 陽入 55. Old ŋ- is written as a prenasalised g (人 gin¹¹, 牛 giu¹¹), and 口 kʰiu³¹ and 頭 tʰiu¹¹ have -iu. This row formerly stood for Huiyang Hakka, for which no character survey is available online.", "ja": "広東省深圳市沙頭角の客家語で、香港との境界に位置し、粵台片の梅惠小片に属する。読音は中央研究院「小學堂」客語データベースによるもので、同データベースの珠江デルタの地点は 詹伯慧・張日昇 主編《珠江三角洲方言字音對照》（1987）に基づく。声調は六つで、陰平 33、陽平 11、上 31、去 42、陰入 21、陽入 55。古い ŋ- は前鼻音化した g で表記され（人 gin¹¹、牛 giu¹¹）、口 kʰiu³¹ や 頭 tʰiu¹¹ は -iu をもつ。この行はかつて恵陽客家語を表していたが、恵陽客家語の字音調査はオンラインで入手できない。", "ko": "광둥성 선전시 사타우콕(沙頭角)의 객가어로, 홍콩과의 경계에 있으며 粵台片의 梅惠小片에 속한다. 독음은 중앙연구원 '小學堂' 객가어 데이터베이스에서 가져왔으며, 이 데이터베이스의 주강 삼각주 지점은 詹伯慧·張日昇 주편 《珠江三角洲方言字音對照》(1987)에 근거한다. 성조는 여섯 개로, 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21, 陽入 55이다. 옛 ŋ-는 전비음화된 g로 표기되며(人 gin¹¹, 牛 giu¹¹), 口 kʰiu³¹와 頭 tʰiu¹¹는 -iu를 가진다. 이 행은 이전에 후이양 객가어를 나타냈으나, 후이양 객가어의 한자음 조사는 온라인에서 구할 수 없다.", "zh": "广东省深圳市沙头角的客家话，位于与香港交界处，属粤台片梅惠小片。读音取自中央研究院「小學堂」客语数据库，该数据库的珠江三角洲地点出自 詹伯慧、張日昇 主编《珠江三角洲方言字音對照》（1987）。共有六个声调：陰平 33、陽平 11、上 31、去 42、陰入 21、陽入 55。古 ŋ- 写作带前鼻音的 g（人 gin¹¹、牛 giu¹¹），口 kʰiu³¹、頭 tʰiu¹¹ 读 -iu。此行原先代表惠阳客家话，但惠阳客家话的字音调查在网上无法取得。", "yue": "廣東省深圳市沙頭角嘅客家話，喺同香港交界嘅地方，屬粵台片梅惠小片。讀音取自中央研究院「小學堂」客語資料庫，呢個資料庫嘅珠江三角洲地點出自 詹伯慧、張日昇 主編《珠江三角洲方言字音對照》（1987）。一共有六個聲調：陰平 33、陽平 11、上 31、去 42、陰入 21、陽入 55。古 ŋ- 寫做帶前鼻音嘅 g（人 gin¹¹、牛 giu¹¹），口 kʰiu³¹、頭 tʰiu¹¹ 讀 -iu。呢行以前代表惠陽客家話，但係惠陽客家話嘅字音調查喺網上搵唔到。", "vi": "Tiếng Khách Gia ở Sa Đầu Giác (沙頭角), Thâm Quyến, Quảng Đông, sát biên giới với Hồng Kông, thuộc tiểu phiến 梅惠小片 của phiến 粵台片. Các cách đọc lấy từ cơ sở dữ liệu tiếng Khách Gia 小學堂 của Viện Nghiên cứu Trung ương (Academia Sinica), mà các điểm vùng châu thổ Châu Giang trong đó lấy từ 詹伯慧 và 張日昇 (chủ biên), 《珠江三角洲方言字音對照》 (1987). Có sáu thanh điệu: 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21 và 陽入 55. Âm đầu ŋ- cũ được viết bằng g tiền mũi hóa (人 gin¹¹, 牛 giu¹¹), và 口 kʰiu³¹ và 頭 tʰiu¹¹ có vần -iu. Hàng này trước đây đại diện cho tiếng Khách Gia Huệ Dương, loại tiếng mà không có khảo sát âm chữ Hán nào trên mạng.", "th": "ภาษาแคะของซาเทาก๊อก (沙頭角) ในเซินเจิ้น มณฑลกวางตุ้ง ติดชายแดนฮ่องกง อยู่ในกลุ่มย่อย 梅惠小片 ของกลุ่ม 粵台片 การอ่านนำมาจากฐานข้อมูลภาษาแคะ 小學堂 ของ Academia Sinica ซึ่งจุดสำรวจในสามเหลี่ยมปากแม่น้ำจูเจียงมาจาก 詹伯慧 และ 張日昇 (บรรณาธิการ) 《珠江三角洲方言字音對照》 (1987) มีหกวรรณยุกต์: 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21 และ 陽入 55 เสียง ŋ- เดิมเขียนเป็น g ที่มีเสียงนาสิกนำ (人 gin¹¹, 牛 giu¹¹) และ 口 kʰiu³¹ กับ 頭 tʰiu¹¹ มีสระ -iu แถวนี้เดิมแทนภาษาแคะฮุ่ยหยาง ซึ่งไม่มีการสำรวจเสียงอักษรจีนที่หาได้ทางออนไลน์", "id": "Hakka dari Sha Tau Kok di Shenzhen, Guangdong, di perbatasan dengan Hong Kong, termasuk 梅惠小片 dari kelompok 粵台片. Bacaannya diambil dari basis data Hakka 小學堂 milik Academia Sinica, yang titik-titik Delta Sungai Mutiaranya berasal dari 詹伯慧 dan 張日昇 (ed.), 《珠江三角洲方言字音對照》 (1987). Ada enam nada: 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21, dan 陽入 55. Bunyi ŋ- lama ditulis sebagai g pranasal (人 gin¹¹, 牛 giu¹¹), dan 口 kʰiu³¹ serta 頭 tʰiu¹¹ memiliki -iu. Baris ini dahulu mewakili Hakka Huiyang, yang survei bunyi aksaranya tidak tersedia secara daring.", "hi": "क्वांगतुंग के शेनचेन में, हांगकांग की सीमा पर स्थित शा ताउ कोक (沙頭角) की हक्का बोली, जो 粵台片 समूह के 梅惠小片 में आती है। उच्चारण अकादेमिया सिनिका के 小學堂 हक्का डेटाबेस से लिए गए हैं, जिसके पर्ल नदी डेल्टा के स्थल 詹伯慧 और 張日昇 (संपादक), 《珠江三角洲方言字音對照》 (1987) से आते हैं। इसमें छह स्वर हैं: 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21 और 陽入 55। पुराना ŋ- पूर्व-नासिकीकृत g के रूप में लिखा जाता है (人 gin¹¹, 牛 giu¹¹), और 口 kʰiu³¹ तथा 頭 tʰiu¹¹ में -iu है। यह पंक्ति पहले हुइयांग हक्का को दर्शाती थी, जिसका कोई अक्षर-उच्चारण सर्वेक्षण ऑनलाइन उपलब्ध नहीं है।", "de": "Hakka von Sha Tau Kok in Shenzhen, Guangdong, an der Grenze zu Hongkong, im 梅惠小片 der Gruppe 粵台片. Die Lesungen stammen aus der Hakka-Datenbank 小學堂 der Academia Sinica, deren Punkte im Perlflussdelta auf 詹伯慧 und 張日昇 (Hrsg.), 《珠江三角洲方言字音對照》 (1987), zurückgehen. Es hat sechs Töne: 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21 und 陽入 55. Altes ŋ- wird als pränasaliertes g geschrieben (人 gin¹¹, 牛 giu¹¹), und 口 kʰiu³¹ und 頭 tʰiu¹¹ haben -iu. Diese Zeile stand früher für das Huiyang-Hakka, für das keine Schriftzeichen-Erhebung online verfügbar ist.", "fr": "Hakka de Sha Tau Kok, à Shenzhen (Guangdong), à la frontière de Hong Kong, dans le 梅惠小片 du groupe 粵台片. Les lectures proviennent de la base de données hakka 小學堂 de l'Academia Sinica, dont les points du delta de la rivière des Perles sont tirés de 詹伯慧 et 張日昇 (dir.), 《珠江三角洲方言字音對照》 (1987). Il a six tons : 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21 et 陽入 55. L'ancien ŋ- s'écrit g prénasalisé (人 gin¹¹, 牛 giu¹¹), et 口 kʰiu³¹ et 頭 tʰiu¹¹ ont -iu. Cette ligne représentait auparavant le hakka de Huiyang, pour lequel aucune enquête sur la prononciation des caractères n'est disponible en ligne.", "it": "Hakka di Sha Tau Kok, a Shenzhen (Guangdong), al confine con Hong Kong, nel 梅惠小片 del gruppo 粵台片. Le letture provengono dalla banca dati hakka 小學堂 dell'Academia Sinica, i cui punti del delta del Fiume delle Perle derivano da 詹伯慧 e 張日昇 (a cura di), 《珠江三角洲方言字音對照》 (1987). Ha sei toni: 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21 e 陽入 55. L'antico ŋ- è scritto come g prenasalizzata (人 gin¹¹, 牛 giu¹¹), e 口 kʰiu³¹ e 頭 tʰiu¹¹ hanno -iu. Questa riga rappresentava in passato l'hakka di Huiyang, per il quale non è disponibile online alcuna indagine sulla pronuncia dei caratteri.", "es": "Hakka de Sha Tau Kok, en Shenzhen (Guangdong), en la frontera con Hong Kong, dentro del 梅惠小片 del grupo 粵台片. Las lecturas proceden de la base de datos hakka 小學堂 de la Academia Sinica, cuyos puntos del delta del río de las Perlas provienen de 詹伯慧 y 張日昇 (eds.), 《珠江三角洲方言字音對照》 (1987). Tiene seis tonos: 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21 y 陽入 55. La antigua ŋ- se escribe como g prenasalizada (人 gin¹¹, 牛 giu¹¹), y 口 kʰiu³¹ y 頭 tʰiu¹¹ tienen -iu. Esta fila representaba antes el hakka de Huiyang, del que no hay en línea ningún estudio de la pronunciación de los caracteres.", "pt": "Hakka de Sha Tau Kok, em Shenzhen (Guangdong), na fronteira com Hong Kong, no 梅惠小片 do grupo 粵台片. As leituras vêm da base de dados hakka 小學堂 da Academia Sinica, cujos pontos do delta do rio das Pérolas provêm de 詹伯慧 e 張日昇 (orgs.), 《珠江三角洲方言字音對照》 (1987). Tem seis tons: 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21 e 陽入 55. O antigo ŋ- escreve-se como g pré-nasalizado (人 gin¹¹, 牛 giu¹¹), e 口 kʰiu³¹ e 頭 tʰiu¹¹ têm -iu. Esta linha representava antes o hakka de Huiyang, para o qual não há nenhum levantamento da pronúncia dos caracteres disponível online.", "ru": "Хакка Шатаукока в Шэньчжэне (Гуандун), на границе с Гонконгом; относится к 梅惠小片 группы 粵台片. Чтения взяты из базы данных хакка 小學堂 Academia Sinica, пункты которой в дельте Жемчужной реки восходят к изданию 詹伯慧 и 張日昇 (ред.) 《珠江三角洲方言字音對照》 (1987). В нём шесть тонов: 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21 и 陽入 55. Древний ŋ- записывается как преназализованный g (人 gin¹¹, 牛 giu¹¹), а 口 kʰiu³¹ и 頭 tʰiu¹¹ имеют -iu. Раньше эта строка представляла хойянский хакка, для которого никакого обследования чтений иероглифов в интернете нет.", "uk": "Хакка Шатаукока в Шеньчжені (Гуандун), на кордоні з Гонконгом; належить до 梅惠小片 групи 粵台片. Читання взято з бази даних хакка 小學堂 Academia Sinica, пункти якої в дельті Перлинної річки походять із видання 詹伯慧 і 張日昇 (ред.) 《珠江三角洲方言字音對照》 (1987). У ньому шість тонів: 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21 і 陽入 55. Давній ŋ- записується як преназалізований g (人 gin¹¹, 牛 giu¹¹), а 口 kʰiu³¹ і 頭 tʰiu¹¹ мають -iu. Раніше цей рядок представляв хойянський хакка, для якого жодного обстеження читань ієрогліфів в інтернеті немає.", "ar": "لهجة هاكا في شا تاو كوك بمدينة شنتشن في قوانغدونغ، على الحدود مع هونغ كونغ، ضمن 梅惠小片 من مجموعة 粵台片. القراءات مأخوذة من قاعدة بيانات الهاكا 小學堂 التابعة لأكاديميا سينيكا، والتي تستند نقاطها في دلتا نهر اللؤلؤ إلى كتاب 詹伯慧 و張日昇 (محرّران) 《珠江三角洲方言字音對照》 (1987). لها ست نغمات: 陰平 33، 陽平 11، 上 31، 去 42، 陰入 21 و陽入 55. يُكتب الصوت القديم ŋ- حرف g مسبوقًا بأنفية (人 gin¹¹، 牛 giu¹¹)، وفي 口 kʰiu³¹ و頭 tʰiu¹¹ نجد ‎-iu. كان هذا الصف يمثّل سابقًا هاكا هوييانغ، التي لا يتوفّر لها على الإنترنت أي مسح لنطق الحروف الصينية.", "he": "האקה של שה טאו קוק בשנג'ן שבגואנגדונג, על הגבול עם הונג קונג, בתת-הקבוצה 梅惠小片 של קבוצת 粵台片. ההגיות לקוחות ממאגר ההאקה 小學堂 של האקדמיה סיניקה, שנקודותיו בדלתת נהר הפנינה מבוססות על 詹伯慧 ו-張日昇 (עורכים), 《珠江三角洲方言字音對照》 (1987). יש בו שישה טונים: 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21 ו-陽入 55. ה-ŋ- הקדום נכתב כ-g פְּרֶה-אפי (人 gin¹¹, 牛 giu¹¹), ול-口 kʰiu³¹ ול-頭 tʰiu¹¹ יש ‎-iu. שורה זו ייצגה בעבר את האקה של חוּאיאנג, שלגביו אין בנמצא סקר הגייה של סימנים זמין ברשת.", "sw": "Kihakka cha Sha Tau Kok huko Shenzhen, Guangdong, mpakani na Hong Kong, katika 梅惠小片 ya kundi la 粵台片. Matamshi yametoka kwenye hifadhidata ya Kihakka 小學堂 ya Academia Sinica, ambayo vituo vyake vya delta ya Mto Lulu vinatoka kwa 詹伯慧 na 張日昇 (wahariri), 《珠江三角洲方言字音對照》 (1987). Kina toni sita: 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21 na 陽入 55. Sauti ya zamani ŋ- huandikwa kama g yenye unazali-awali (人 gin¹¹, 牛 giu¹¹), na 口 kʰiu³¹ na 頭 tʰiu¹¹ zina -iu. Safu hii hapo awali iliwakilisha Kihakka cha Huiyang, ambacho hakuna uchunguzi wa matamshi ya herufi zake unaopatikana mtandaoni."},
     "romanization":{"name": "IPA with Chao tone numbers", "authority": "小學堂 客語 — 深圳(沙頭角)", "year": 2026},
     "speakers": "(no published count)",
-    "speakersSource": "Wikipedia 惠陽話 / 客家語 (2026-06-19閲覧)",
+    "speakersSource": "no Wikipedia article or survey gives a count for Sha Tau Kok Hakka (2026-10-18確認)",
     "sources":[{"type": "reference", "title": "詹伯慧、張日昇主編《珠江三角洲方言字音對照》(廣東人民出版社 1987), via 中研院 小學堂 客語 point 粵台片 梅惠小片 深圳(沙頭角) (attribution inferred: the database's only Pearl River Delta source)", "url": "https://xiaoxue.iis.sinica.edu.tw/Keyu"}, {"type": "reference", "title": "Tone values from the same source: 陰平33 陽平11 上31 去42 陰入21 陽入55. Re-pointed 2026-09-30 from Huiyang, for which no character survey is available online"}]
   }
 ,
@@ -41988,6 +42069,20 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "hiat",
         "ipa": "hiɛt̚˧˨",
+        "label": "文讀"
+      }
+    ],
+    "zh_tw": [
+      {
+        "native": "",
+        "surface": "xiě",
+        "ipa": "ɕje˨˩˦",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "xuè",
+        "ipa": "ɕye˥˩",
         "label": "文讀"
       }
     ]

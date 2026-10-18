@@ -147,7 +147,7 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-left: 4px;
+    margin-inline-start: 4px;
     width: 15px;
     height: 15px;
     color: #fff;

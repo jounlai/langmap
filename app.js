@@ -448,14 +448,16 @@ function unpackCompact(n) {
     return { s, langBits, ui, rtl };
 }
 
+window.__lmRewriteHash = () => { try { history.replaceState(null, '', '#' + stateToHash()); } catch (_) {} };
 function updateURL() {
     if (suppressHashUpdate) return;
     const newHash = '#' + stateToHash();
     if (location.hash !== newHash) {
         // The first write only fills in the default state: replace, or the first
         // Back did nothing visible (r27).
-        if (!location.hash || location.hash === '#') history.replaceState(null, '', newHash);
-        else history.pushState(null, '', newHash);
+        // Content changes replace, as on the maps: Back is for closing what is
+        // open, not for walking back through sentences (site-wide rule, r28).
+        history.replaceState(null, '', newHash);
     }
 }
 
@@ -626,6 +628,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Handle browser back/forward
     window.addEventListener('popstate', () => {
+        if (window.__lmPopSkip && window.__lmPopSkip()) return;   // an overlay (language picker, About …) closed: keep the live state (r28)
         suppressHashUpdate = true;
         loadFromHash();
         syncUIFromState();

@@ -189,7 +189,7 @@ WORDS.rain = {
     pt_mo: ["chuva", "ˈʃuvɐ"],
     ca: ["pluja", "ˈpluʒə"],
     ca_va: ["pluja", "ˈpludʒa"],
-    gl: ["choiva", "ˈtʃojβa"],
+    gl: ["chuvia", "ˈtʃuβja"],
     ast: ["lluvia", "ˈʎuβja"],
     ext: ["lluvia", "ˈʎuβja"],
     vec: ["piova", "ˈpjɔva"],

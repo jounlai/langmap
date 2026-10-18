@@ -307,7 +307,7 @@ WORDS.star = {
       ga: ["réalta", "ˈɾˠeːl̪ˠt̪ˠə"],
       eu: ["izar", "is̻ar"],
       cy: ["seren", "ˈsɛrɛn"],
-      ka: ["ვარსკვლავი", "varskvlavi"],
+      ka: ["ვარსკვლავი", "varskʼvlavi"],
       lzz: ["მურუცხი", "murutsxi"],
       sva: ["ამტყუ̂ა̈სგ", "amtʼqʼwæsɡ"],
       hy: ["աստղ", "ˈɑstəʁ"],

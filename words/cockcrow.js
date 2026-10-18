@@ -529,7 +529,7 @@ WORDS.cockcrow = {
     es_pe: ["quiquiriquí", "kikiɾiˈki"],
     es_an: ["quiquiriquí", "kikiɾiˈki"],
     mk: ["кукурику", "kukuˈriku"],
-    hr: ["kukuriku", "kukuˈriːku"],
+    hr: ["kukuriku", "kukurîːku"],
     ja_hak: ["コケコッコー", "kokekokːoː"],
     ja_kyo: ["コケコッコー", "kokekokːoː"],
     ja_hir: ["コケコッコー", "kokekokːoː"],

@@ -353,7 +353,7 @@ WORDS.computer = {
     "sm": ["komipiuta", "komipiuta"],
     "sn": ["kombiyuta", "kombijuta"],
     "so": ["kombuyuutar", "kombujuːtar"],
-    "sq": ["kompjuter", "komˈpjuteɾ"],
+    "sq": ["kompjuter", "kɔmˈpjutɛɾ"],
     "sr": ["рачунар", "ratʃǔnaːr"],
     "st": ["khomputa", "kʰomputa"],
     "stq": ["Computer", "kɔmˈpjuːtər"],

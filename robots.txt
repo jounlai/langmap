@@ -26,10 +26,10 @@ Disallow: /_cardtest.html
 # carries .br in its URI.
 Disallow: /*.br$
 
-# SEO big-text pages (sitemap-seo.xml) are intentionally NOT declared here —
-# discovery is left to organic internal-link crawling (footer → /en/wordmap/
-# index → hreflang) rather than bulk-submitting 18k URLs. The file still exists
-# at /sitemap-seo.xml if ever needed; since 2026-09-04 that URL is a sitemap
-# INDEX pointing at /sitemap-seo-1.xml … -5.xml, so declaring it here would
-# still be one line.
+# The per-language and per-word text pages (/{ui}/wordmap/<code>, /{ui}/word/<id>,
+# /{ui}/hanmap/<code>, /{ui}/trivia/<id>) are declared below. Until r28 they were
+# left to internal-link crawling and the PHP sitemap's parts 404'd in production,
+# so most of them were never found. The index and its gzipped parts are static
+# files written by tools/build_seo_sitemaps.js.
 Sitemap: https://langmaps.com/sitemap.xml
+Sitemap: https://langmaps.com/sitemap-seo-index.xml

@@ -471,7 +471,7 @@ WORDS.fish = {
     sgs: ["žovis", "ʒoːvɪs"],
     lv: ["zivs", "ziws"],
     prg: ["suckis", "ˈsukis"],
-    sq: ["peshk", "peʃk"],
+    sq: ["peshk", "pɛʃk"],
     aae: ["pishk", "piʃk"],
     et: ["kala", "ˈkɑlɑ"],
     ht: ["pwason", "pwasɔ̃"],

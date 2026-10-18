@@ -111,7 +111,7 @@ WORDS.book = {
     ha: ["littafi", "litːaːfiː"],
     fi: ["kirja", "ˈkirjɑ"],
     hu: ["könyv", "køɲv"],
-    et: ["raamat", "ˈrɑːmɑt"],
+    et: ["raamat", "ˈrɑˑmɑt"],
     eu: ["liburu", "liβuɾu"],
     mn: ["ном", "nɔm"],
     sa: ["पुस्तक", "pustɐkɐ"],

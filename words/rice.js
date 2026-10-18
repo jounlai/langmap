@@ -111,7 +111,7 @@ WORDS.rice = {
     cs: ["rýže", "ˈriːʒɛ"],
     sk: ["ryža", "ˈriʒa"],
     sl: ["riž", "riːʃ"],
-    hr: ["riža", "riʒa"],
+    hr: ["riža", "rǐːʒa"],
     sr: ["пиринач", "piˈrinatʃ"],
     bs: ["riža", "riʒa"],
     bg: ["ориз", "oˈris"],

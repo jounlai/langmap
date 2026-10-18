@@ -106,7 +106,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=164">
+    <link rel="stylesheet" href="styles.css?v=165">
     <link rel="stylesheet" href="/vendor/leaflet-1.9.4/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -2862,7 +2862,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=37"></script>
+    <script src="nav-short.js?v=38"></script>
     <style>
         /* r23 desktop: the compare panel clears the settings gear and the map
            attribution; the settings drawer is readable at desktop sizes. */
@@ -3437,7 +3437,7 @@
     <!-- Credit watermark -->
     <div class="url-watermark">
         <span class="credit-by">Made by</span> <a href="https://x.com/jounlai" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;">Jounlai Cho</a> @<a href="https://heuron.com" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;">Heuron Inc.</a> <a href="https://github.com/jounlai/langmap" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg> GitHub</a> · <a href="changelog.html" class="credit-icon" data-k="changelog" title="Changelog" aria-label="Changelog" style="color:inherit;pointer-events:auto;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/><path d="M12 7v5l3 2"/></svg></a> · <a href="progress.html" class="credit-icon" data-k="progress" title="Coverage" aria-label="Coverage" style="color:inherit;pointer-events:auto;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></a>
-    </div>
+     · <a href="/en/" style="color:inherit;pointer-events:auto;">Language pages</a></div>
 
     <!-- Language info panel -->
     <div id="lang-info" class="lang-info-panel" role="dialog" aria-labelledby="lang-info-heading" aria-modal="false" tabindex="-1">
@@ -3537,7 +3537,7 @@
     </script>
     <script src="wordmap_data.js?v=346"></script>
     <script src="lang_attention.js?v=3"></script>
-    <script src="hanmap_data.js?v=197"></script>
+    <script src="hanmap_data.js?v=198"></script>
     <script>
         // Hanmap stubs: replace the per-word loader. wordmap.html loads
         // ~20 individual JS files under words/<id>.js (one per concept) and
@@ -8882,7 +8882,9 @@
                 ? triviaModal.dataset.articleId : '';
             if (openTrivia) params.set('trivia', openTrivia);
             // Pass 32: persist compare list
-            if (window.__compareList && window.__compareList.length > 0) {
+            // Only while the panel is open, as on the Word Map: a closed panel's
+            // list reopened it for whoever opened the shared link (r28).
+            if (window.__compareList && window.__compareList.length > 0 && document.getElementById('compare-panel')?.classList.contains('visible')) {
                 params.set('cmp', window.__compareList.join(','));
             }
             // Persist an open game (reading quiz) so it deep-links / reopens.
@@ -9119,6 +9121,26 @@
             if (window.__skipHashOnce != null && location.hash === window.__skipHashOnce) { window.__skipHashOnce = null; return; }
             if (_hmBackRewrite) { _hmBackRewrite = false; _hmLastGame = null; updateHash(); window.__skipHashOnce = location.hash; setTimeout(() => { window.__skipHashOnce = null; }, 300); return; }
             if (_applyingHashState) return;
+            if (window.__lmPopSkip && window.__lmPopSkip()) return;   // a shared-helper overlay opened/closed (r28)
+            // Back off the panel's or a game's own entry: close it, keep the live
+            // character / view (r28 navigation rule).
+            {
+                const _st = history.state || {};
+                const _ip = document.getElementById('lang-info');
+                const leavingPanel = _hmPanelEntry && _ip && _ip.classList.contains('visible') && !_st.hmPanel;
+                const leavingGame = !!window.__hmOpenGame && !_st.hmGame && !new URLSearchParams(location.hash.slice(1)).get('play');
+                if (leavingPanel || leavingGame) {
+                    _applyingHashState = true;
+                    try {
+                        if (leavingGame && window.__hmGamesHide && window.__hmGamesHide[window.__hmOpenGame]) window.__hmGamesHide[window.__hmOpenGame]();
+                        if (leavingPanel) { _hmPanelEntry = false; try { closeInfoPanel(); } catch (_) {} }
+                    } finally { _applyingHashState = false; }
+                    _hmLastGame = null;
+                    updateHash();
+                    window.__skipHashOnce = location.hash; setTimeout(() => { window.__skipHashOnce = null; }, 300);
+                    return;
+                }
+            }
             _applyingHashState = true;
             try {
                 loadHash();
@@ -9128,6 +9150,7 @@
                 _applyingHashState = false;
             }
         }
+        window.__lmRewriteHash = () => { try { updateHash(); } catch (_) {} };   // shared overlay helper keeps the URL live (r28)
         window.addEventListener('popstate',   applyHashState);
         window.addEventListener('hashchange', applyHashState);
         // Also expose so other code paths (search/option) can guard if needed.
@@ -13601,5 +13624,16 @@
     </script>
     <script src="share-button.js?v=6"></script>
     <script src="lang-picker.js?v=8"></script>
+    <script>
+    // Compare panel: one history entry through the shared helper (r28).
+    (function () {
+        var p = document.getElementById('compare-panel'); if (!p || !window.__lmOverlay) return;
+        window.__lmOverlay('compare', { el: p, attrs: ['class'],
+            isOpen: function () { return p.classList.contains('visible'); },
+            close: function () { var c = p.querySelector('.compare-close'); if (c) c.click(); else p.classList.remove('visible'); },
+            open: function () { var f = document.querySelector('.compare-fab'); if (f) f.click(); } });
+        new MutationObserver(function () { if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); }).observe(p, { attributes: true, attributeFilter: ['class'] });   // cmp= follows open/closed
+    })();
+    </script>
 </body>
 </html>

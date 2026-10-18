@@ -469,7 +469,7 @@ WORDS.red = {
     sgs: ["raudons", "rɐʊˈdons"],
     lv: ["sarkans", "ˈsarkans"],
     prg: ["wormyan", "ˈwormjan"],
-    sq: ["kuq", "kuc"],
+    sq: ["i kuq", "i ˈkuc"],
     aae: ["i kuq", "i kuc"],
     et: ["punane", "ˈpunɑne"],
     ht: ["wouj", "wuʒ"],

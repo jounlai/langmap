@@ -34,7 +34,11 @@ const SEO_SITEMAP_CHUNK = 250;
 $wm = seo_data('wordmap');
 $hm = seo_data('hanmap');
 $tr = seo_data('trivia');
-$today = date('Y-m-d');
+// lastmod = the date the SEO data was exported, not the request date: the
+// sitemaps are also written out as static files (tools/build_seo_sitemaps.js,
+// production nginx does not route /sitemap-seo-<n>.xml to PHP) and must not
+// change every day (r28).
+$today = substr((string) ($wm['generated'] ?? ''), 0, 10) ?: date('Y-m-d');
 
 /**
  * The full ordered list of pages, as [altPath, priority]. altPath is the part

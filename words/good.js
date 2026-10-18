@@ -468,7 +468,7 @@ WORDS.good = {
     sgs: ["gers", "ɡʲɛrs"],
     lv: ["labs", "labs"],
     prg: ["labs", "labs"],
-    sq: ["mirë", "ˈmiɾə"],
+    sq: ["i mirë", "i ˈmiɾə"],
     aae: ["mirë", "miɾə"],
     et: ["hea", "heɑ"],
     ht: ["bon", "bɔ̃"],

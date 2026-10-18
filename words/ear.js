@@ -471,7 +471,7 @@ WORDS.ear = {
     rmy: ["kan", "kan"],
     rmf: ["kan", "kan"],
     eu: ["belarri", "belari"],
-    sq: ["vesh", "veʃ"],
+    sq: ["vesh", "vɛʃ"],
     aln: ["vesh", "veʃ"],
     hy: ["ականջ", "ɑˈkɑndʒ"],
     hyw: ["ականջ", "ɑˈɡɑntʃʰ"],

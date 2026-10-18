@@ -124,7 +124,7 @@ WORDS.wheel = {
     ca: ["roda", "ˈrɔðə"],
     gl: ["roda", "ˈrɔða"],
     oc: ["ròda", "ˈrɔdɔ"],
-    sq: ["rrotë", "ˈrotə"],
+    sq: ["rrotë", "ˈrɔtə"],
     hu: ["kerék", "ˈkɛreːk"],
     fi: ["pyörä", "ˈpyøræ"],
     et: ["ratas", "ˈrɑtɑs"],

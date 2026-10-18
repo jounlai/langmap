@@ -124,8 +124,12 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
 
     $canonical = SEO_SITE . seo_path($ui, 'hanmap', $code);
     $altPath = '/hanmap/' . rawurlencode($code);
-    $title = $name . ($native && $native !== $name ? " ($native)" : '')
-        . ' — ' . seo_t($ui, 'hm_lang_title') . ' | Han Map';
+    // Search title (r28): the searched name, one alias, the native form, and what
+    // the page answers — "Shanghai Wu (Shanghainese, 上海话): how 104 Chinese
+    // characters are read | LangMap".
+    $aliases = seo_lang_aliases($ui, $code, $name, (string) $native);
+    $paren = array_values(array_filter([$aliases[0] ?? '', ($native && $native !== $name) ? $native : '']));
+    $title = seo_t($ui, 'hm_t2', ['name' => $name . ($paren ? ' (' . implode(', ', $paren) . ')' : ''), 'n' => (string) count($lang['readings'] ?? [])]) . ' | LangMap';
     $metaDesc = seo_lang_meta_lead(
         seo_hanmap_samples($lang),
         $desc !== '' ? $desc : seo_t($ui, 'hm_lang_meta', ['name' => $name . ($native && $native !== $name ? " ($native)" : '')]),
@@ -154,6 +158,7 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
     <?php endif; ?>
   <?php endif; ?>
   <h1><?= e($name) ?></h1>
+  <?php if (!empty($aliases)): ?><p class="sub aka"><?= e(seo_t($ui, 'aka', ['list' => implode($ui === 'ja' || $ui === 'zh' || $ui === 'yue' ? '、' : ', ', $aliases)])) ?></p><?php endif; ?>
   <?php if (!empty($lang['family'])): ?>
     <p class="sub"><?= seo_chip_value(seo_meta_value($ui, $lang['family']), seo_meta_value_lang($ui, (string) $lang['family'])) ?></p>
   <?php endif; ?>

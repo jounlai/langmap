@@ -177,7 +177,7 @@ WORDS.chocolate = {
     bs: ["čokolada", "tʃokoˈlada"],
     be: ["шакалад", "ʂakaˈlat"],
     et: ["šokolaad", "ˈʃokolɑːd"],
-    sq: ["çokollatë", "tʃokoˈɫatə"],
+    sq: ["çokollatë", "tʃɔkɔˈɫatə"],
     hy: ["շոկոլադ", "ʃokoˈlɑd"],
     ka: ["შოკოლადი", "ʃokʼoladi"],
     pa: ["ਚਾਕਲੇਟ", "ˈtʃaːkleːʈ"],

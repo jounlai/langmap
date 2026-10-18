@@ -469,7 +469,7 @@ WORDS.three = {
     sgs: ["trīs", "triːs"],
     lv: ["trīs", "triːs"],
     prg: ["tīrjans", "tiːrjans"],
-    sq: ["tre", "tɾe"],
+    sq: ["tre", "tɾɛ"],
     aae: ["tre", "tɾɛ"],
     et: ["kolm", "kolm"],
     ht: ["twa", "twa"],

@@ -6,7 +6,7 @@
  * Semitic *ʔarṣ̂- gives Arabic أرض and Hebrew ארץ, but the everyday word for
  * soil comes from other roots again — Arabic تراب (t-r-b), Hebrew אדמה (ʔ-d-m);
  * Sino-Tibetan 土; Japanese 土 tsuchi; Korean 흙 heurk. Note the soil-vs-planet split that
- * many languages make explicitly (e.g. Albanian dhé vs tokë).
+ * many languages make explicitly (e.g. Albanian dhe vs tokë).
  */
 WORDS.earth = {
   emoji: "🟫",
@@ -187,7 +187,7 @@ WORDS.earth = {
     hyw: ["հող", "hoʁ"],
     hy_grab: ["հող", "hoɫ"],
     ka: ["მიწა", "mitsʼa"],
-    sq: ["dhé", "ðɛ"],
+    sq: ["dhe", "ðɛ"],
     aae: ["dhé", "ðɛ"],
     aln: ["dhé", "ðɛ"],
     tr: ["toprak", "topˈɾak"],

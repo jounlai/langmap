@@ -471,7 +471,7 @@ WORDS.father = {
     sgs: ["tievs", "tʲieːvs"],
     lv: ["tēvs", "tæːws"],
     prg: ["tāws", "taːws"],
-    sq: ["baba", "baba"],
+    sq: ["baba", "baˈba"],
     aae: ["tata", "tata"],
     et: ["isa", "ˈisɑ"],
     ht: ["papa", "papa"],

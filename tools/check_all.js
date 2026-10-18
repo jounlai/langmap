@@ -844,6 +844,9 @@ line('Sinitic tone class per row', num(s, /violations: (\d+)/), num(s, /stale: (
 s = run('export_seo_data.js --check');
 line('data/*_seo.json freshness', num(s, /stale: (\d+)/));
 
+s = run('build_seo_sitemaps.js --check');
+line('static SEO sitemaps fresh', num(s, /stale: (\d+)/));
+
 s = run('export_trivia_seo.js --check');
 line('data/trivia_seo.json freshness', num(s, /stale: (\d+)/));
 

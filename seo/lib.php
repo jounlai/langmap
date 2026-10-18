@@ -342,7 +342,7 @@ const SEO_T_WORD = [
         'wd_link' => 'Words',
         'wd_index_h1' => 'All {w} words',
         'wd_index_meta' => 'Every word on the Word Map — {w} concepts across {n} languages, with pronunciation.',
-        'wd_title' => '{name} in {n} languages',
+        'wd_title' => 'How to say “{name}” in {n} languages — with pronunciation',
         'wd_meta' => 'How to say {name} in {n} languages, with pronunciation and native script.',
         'wd_forms' => '{n} languages',
         'wd_open_app' => 'See {name} on the map',
@@ -369,7 +369,7 @@ const SEO_T_WORD = [
         'wd_link' => '単語',
         'wd_index_h1' => '{w}語すべて',
         'wd_index_meta' => 'ワードマップに載っている全{w}語を、{n}言語の発音つきで。',
-        'wd_title' => '「{name}」を{n}言語で',
+        'wd_title' => '「{name}」を{n}言語で何と言う？ 発音つき',
         'wd_meta' => '「{name}」を{n}言語でどう言うか。発音と現地表記つき。',
         'wd_forms' => '{n}言語',
         'wd_open_app' => '地図で「{name}」を見る',
@@ -396,7 +396,7 @@ const SEO_T_WORD = [
         'wd_link' => '단어',
         'wd_index_h1' => '전체 {w}개 단어',
         'wd_index_meta' => '워드맵의 모든 단어 — {n}개 언어의 {w}개 개념을 발음과 함께.',
-        'wd_title' => '{n}개 언어로 보는 「{name}」',
+        'wd_title' => '‘{name}’을 {n}개 언어로 어떻게 말할까? 발음과 함께',
         'wd_meta' => '「{name}」을 {n}개 언어로 어떻게 말하는지, 발음과 현지 문자로.',
         'wd_forms' => '{n}개 언어',
         'wd_open_app' => '지도에서 「{name}」 보기',
@@ -423,7 +423,7 @@ const SEO_T_WORD = [
         'wd_link' => '词语',
         'wd_index_h1' => '全部 {w} 个词',
         'wd_index_meta' => '词语地图收录的全部 {w} 个词，涵盖 {n} 种语言，附发音。',
-        'wd_title' => '{n} 种语言里的「{name}」',
+        'wd_title' => '“{name}”用{n}种语言怎么说？附发音',
         'wd_meta' => '「{name}」在 {n} 种语言中怎么说，附发音与当地文字。',
         'wd_forms' => '{n} 种语言',
         'wd_open_app' => '在地图上看「{name}」',
@@ -450,7 +450,7 @@ const SEO_T_WORD = [
         'wd_link' => '詞語',
         'wd_index_h1' => '全部 {w} 個詞',
         'wd_index_meta' => '詞語地圖收錄嘅全部 {w} 個詞，涵蓋 {n} 種語言，附發音。',
-        'wd_title' => '{n} 種語言入面嘅「{name}」',
+        'wd_title' => '「{name}」用{n}種語言點講？附發音',
         'wd_meta' => '「{name}」喺 {n} 種語言點講，附發音同當地文字。',
         'wd_forms' => '{n} 種語言',
         'wd_open_app' => '喺地圖上面睇「{name}」',
@@ -477,7 +477,7 @@ const SEO_T_WORD = [
         'wd_link' => 'Từ vựng',
         'wd_index_h1' => 'Tất cả {w} từ',
         'wd_index_meta' => 'Mọi từ trên Bản đồ Từ vựng — {w} khái niệm trong {n} ngôn ngữ, kèm phát âm.',
-        'wd_title' => '“{name}” trong {n} ngôn ngữ',
+        'wd_title' => '“{name}” trong {n} ngôn ngữ nói thế nào? Kèm phát âm',
         'wd_meta' => 'Cách nói “{name}” trong {n} ngôn ngữ, kèm phát âm và chữ viết bản địa.',
         'wd_forms' => '{n} ngôn ngữ',
         'wd_open_app' => 'Xem “{name}” trên bản đồ',
@@ -504,7 +504,7 @@ const SEO_T_WORD = [
         'wd_link' => 'คำศัพท์',
         'wd_index_h1' => 'คำทั้งหมด {w} คำ',
         'wd_index_meta' => 'ทุกคำในแผนที่คำศัพท์ — {w} มโนทัศน์ใน {n} ภาษา พร้อมคำอ่าน',
-        'wd_title' => '“{name}” ใน {n} ภาษา',
+        'wd_title' => '“{name}” ใน {n} ภาษาพูดว่าอย่างไร? พร้อมการออกเสียง',
         'wd_meta' => '“{name}” พูดอย่างไรใน {n} ภาษา พร้อมคำอ่านและอักษรท้องถิ่น',
         'wd_forms' => '{n} ภาษา',
         'wd_open_app' => 'ดู “{name}” บนแผนที่',
@@ -531,7 +531,7 @@ const SEO_T_WORD = [
         'wd_link' => 'Kata',
         'wd_index_h1' => 'Semua {w} kata',
         'wd_index_meta' => 'Setiap kata di Peta Kata — {w} konsep dalam {n} bahasa, lengkap dengan pelafalan.',
-        'wd_title' => '“{name}” dalam {n} bahasa',
+        'wd_title' => 'Cara mengucapkan “{name}” dalam {n} bahasa — beserta pelafalan',
         'wd_meta' => 'Cara mengucapkan “{name}” dalam {n} bahasa, dengan pelafalan dan aksara asli.',
         'wd_forms' => '{n} bahasa',
         'wd_open_app' => 'Lihat “{name}” di peta',
@@ -558,7 +558,7 @@ const SEO_T_WORD = [
         'wd_link' => 'शब्द',
         'wd_index_h1' => 'सभी {w} शब्द',
         'wd_index_meta' => 'वर्ड मैप के सभी शब्द — {n} भाषाओं में {w} अवधारणाएँ, उच्चारण सहित।',
-        'wd_title' => '{n} भाषाओं में “{name}”',
+        'wd_title' => '“{name}” को {n} भाषाओं में कैसे कहते हैं — उच्चारण सहित',
         'wd_meta' => '{n} भाषाओं में “{name}” कैसे कहते हैं — उच्चारण और मूल लिपि के साथ।',
         'wd_forms' => '{n} भाषाएँ',
         'wd_open_app' => 'मानचित्र पर “{name}” देखें',
@@ -585,7 +585,7 @@ const SEO_T_WORD = [
         'wd_link' => 'Wörter',
         'wd_index_h1' => 'Alle {w} Wörter',
         'wd_index_meta' => 'Jedes Wort der Wortkarte — {w} Begriffe in {n} Sprachen, mit Aussprache.',
-        'wd_title' => '„{name}“ in {n} Sprachen',
+        'wd_title' => 'Was heißt „{name}“ in {n} Sprachen? Mit Aussprache',
         'wd_meta' => 'Wie man „{name}“ in {n} Sprachen sagt – mit Aussprache und Originalschrift.',
         'wd_forms' => '{n} Sprachen',
         'wd_open_app' => '„{name}“ auf der Karte ansehen',
@@ -612,7 +612,7 @@ const SEO_T_WORD = [
         'wd_link' => 'Mots',
         'wd_index_h1' => 'Les {w} mots',
         'wd_index_meta' => 'Tous les mots de la Carte des mots — {w} notions dans {n} langues, avec la prononciation.',
-        'wd_title' => '« {name} » en {n} langues',
+        'wd_title' => 'Comment dit-on « {name} » dans {n} langues ? Avec la prononciation',
         'wd_meta' => 'Comment dire « {name} » en {n} langues, avec la prononciation et l’écriture d’origine.',
         'wd_forms' => '{n} langues',
         'wd_open_app' => 'Voir « {name} » sur la carte',
@@ -639,7 +639,7 @@ const SEO_T_WORD = [
         'wd_link' => 'Parole',
         'wd_index_h1' => 'Tutte le {w} parole',
         'wd_index_meta' => 'Ogni parola della Mappa delle parole — {w} concetti in {n} lingue, con la pronuncia.',
-        'wd_title' => '«{name}» in {n} lingue',
+        'wd_title' => 'Come si dice “{name}” in {n} lingue? Con la pronuncia',
         'wd_meta' => 'Come si dice «{name}» in {n} lingue, con pronuncia e scrittura originale.',
         'wd_forms' => '{n} lingue',
         'wd_open_app' => 'Vedi «{name}» sulla mappa',
@@ -666,7 +666,7 @@ const SEO_T_WORD = [
         'wd_link' => 'Palabras',
         'wd_index_h1' => 'Las {w} palabras',
         'wd_index_meta' => 'Todas las palabras del Mapa de palabras: {w} conceptos en {n} lenguas, con pronunciación.',
-        'wd_title' => '«{name}» en {n} lenguas',
+        'wd_title' => '¿Cómo se dice «{name}» en {n} lenguas? Con pronunciación',
         'wd_meta' => 'Cómo se dice «{name}» en {n} lenguas, con pronunciación y escritura original.',
         'wd_forms' => '{n} lenguas',
         'wd_open_app' => 'Ver «{name}» en el mapa',
@@ -693,7 +693,7 @@ const SEO_T_WORD = [
         'wd_link' => 'Palavras',
         'wd_index_h1' => 'Todas as {w} palavras',
         'wd_index_meta' => 'Cada palavra do Mapa de Palavras — {w} conceitos em {n} línguas, com pronúncia.',
-        'wd_title' => '«{name}» em {n} línguas',
+        'wd_title' => 'Como se diz “{name}” em {n} línguas? Com pronúncia',
         'wd_meta' => 'Como se diz «{name}» em {n} línguas, com pronúncia e escrita original.',
         'wd_forms' => '{n} línguas',
         'wd_open_app' => 'Ver «{name}» no mapa',
@@ -801,7 +801,7 @@ const SEO_T_WORD = [
         'wd_link' => 'מילים',
         'wd_index_h1' => 'כל {w} המילים',
         'wd_index_meta' => 'כל מילה במפת המילים — {w} מושגים ב-{n} שפות, עם הגייה.',
-        'wd_title' => '«{name}» ב-{n} שפות',
+        'wd_title' => 'איך אומרים „{name}” ב־{n} שפות? עם הגייה',
         'wd_meta' => 'איך אומרים «{name}» ב-{n} שפות, עם הגייה וכתב מקורי.',
         'wd_forms' => '{n} שפות',
         'wd_open_app' => 'לראות «{name}» על המפה',
@@ -828,7 +828,7 @@ const SEO_T_WORD = [
         'wd_link' => 'Maneno',
         'wd_index_h1' => 'Maneno yote {w}',
         'wd_index_meta' => 'Kila neno kwenye Ramani ya Maneno — dhana {w} katika lugha {n}, pamoja na matamshi.',
-        'wd_title' => '“{name}” katika lugha {n}',
+        'wd_title' => 'Unasemaje “{name}” katika lugha {n}? Pamoja na matamshi',
         'wd_meta' => 'Jinsi ya kusema “{name}” katika lugha {n}, pamoja na matamshi na maandishi asilia.',
         'wd_forms' => 'lugha {n}',
         'wd_open_app' => 'Tazama “{name}” kwenye ramani',
@@ -876,6 +876,7 @@ const SEO_T = [
         'hidden_tag' => 'historical / hidden variety',
         'wm_lang_title' => '{w} words & pronunciations',
         'hm_lang_title' => 'Han character readings',
+        'wm_t2' => '{name}: hello, thank you & {w} words with pronunciation', 'hm_t2' => '{name}: how {n} Chinese characters are read', 'wm_q' => 'How do you say “{word}” in {name}? {form}.', 'aka' => 'Also called {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'Pronunciations of {w} core words in {name}, with IPA and native forms, on the LangMap Word Map.',
         'hm_lang_meta' => 'Readings of Han characters in {name} on the LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} core words across {n} languages',
@@ -886,8 +887,8 @@ const SEO_T = [
         'hm_index_sub' => '{c} core Han characters across {n} languages and varieties — surface forms with IPA / romanized readings.',
         'see_also' => 'See also',
         'home' => 'LangMap home',
-        'hub_title' => 'LangMap — Word Map & Han Map (text index)',
-        'hub_desc' => 'Crawlable text index of the LangMap Word Map and Han Map: core-word pronunciations and Han-character readings per language.',
+        'hub_title' => 'LangMap — 1,190 languages on a map: words, Chinese characters, names, calendars',
+        'hub_desc' => 'How do you say water, thank you or mother in 1,190 languages? Browse every language with pronunciation (IPA), how Chinese characters are read across Asia, and short articles about languages.',
         'hub_h1' => 'LangMap text index',
         'hub_sub' => 'Server-rendered, crawlable summaries of each language.',
         'maps' => 'Maps',
@@ -938,6 +939,7 @@ const SEO_T = [
         'hidden_tag' => '歴史的・非表示の変種',
         'wm_lang_title' => '{w}語と発音',
         'hm_lang_title' => '漢字の読み',
+        'wm_t2' => '{name}で「こんにちは」「ありがとう」は？ 発音つき{w}語', 'hm_t2' => '{name}の漢字の読み方 {n}字', 'wm_q' => '{name}で「{word}」は何と言う？ {form}。', 'aka' => '別名：{list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'LangMap Word Map での、{name}の基本{w}語の発音（IPA・現地表記つき）。',
         'hm_lang_meta' => 'LangMap Han Map での、{name}の漢字の読み。',
         'wm_index_title' => 'Word Map — {n}言語の基本{w}語',
@@ -948,8 +950,8 @@ const SEO_T = [
         'hm_index_sub' => '{n}の言語・変種にわたる{c}の基本漢字 — 表記とIPA／ローマ字読み。',
         'see_also' => '関連',
         'home' => 'LangMap ホーム',
-        'hub_title' => 'LangMap — Word Map と Han Map（テキスト索引）',
-        'hub_desc' => 'LangMap の Word Map と Han Map のクロール可能なテキスト索引。言語ごとの基本語の発音と漢字の読み。',
+        'hub_title' => 'LangMap — 1,190言語を地図で：単語・漢字・名前・暦',
+        'hub_desc' => '「水」「ありがとう」「母」は1,190の言語で何と言う？ 発音（IPA）つきで言語ごとに一覧。漢字のアジア各地での読み方や、言語にまつわる読み物も。',
         'hub_h1' => 'LangMap テキスト索引',
         'hub_sub' => 'サーバーレンダリングされた、各言語のクロール可能な要約。',
         'maps' => 'マップ',
@@ -1000,6 +1002,7 @@ const SEO_T = [
         'hidden_tag' => '역사적·숨겨진 변종',
         'wm_lang_title' => '단어 {w}개와 발음',
         'hm_lang_title' => '한자 독음',
+        'wm_t2' => '{name}로 ‘안녕하세요’, ‘고맙습니다’는? 발음과 함께 보는 {w}단어', 'hm_t2' => '{name}의 한자 읽기 {n}자', 'wm_q' => '{name}로 ‘{word}’은 어떻게 말할까? {form}.', 'aka' => '다른 이름: {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'LangMap Word Map에서 {name}의 핵심 단어 {w}개 발음(IPA·고유 표기 포함).',
         'hm_lang_meta' => 'LangMap Han Map에서 {name}의 한자 독음.',
         'wm_index_title' => 'Word Map — {n}개 언어의 핵심 단어 {w}개',
@@ -1010,8 +1013,8 @@ const SEO_T = [
         'hm_index_sub' => '{n}개 언어 및 변종에 걸친 {c}개 핵심 한자 — 표기와 IPA／로마자 독음.',
         'see_also' => '함께 보기',
         'home' => 'LangMap 홈',
-        'hub_title' => 'LangMap — Word Map과 Han Map(텍스트 색인)',
-        'hub_desc' => 'LangMap Word Map과 Han Map의 크롤링 가능한 텍스트 색인. 언어별 핵심 단어 발음과 한자 독음.',
+        'hub_title' => 'LangMap — 지도로 보는 1,190개 언어: 단어·한자·이름·달력',
+        'hub_desc' => '‘물’, ‘고맙습니다’, ‘어머니’를 1,190개 언어로 어떻게 말할까? 발음(IPA)과 함께 언어별로 보고, 아시아 각지의 한자 읽기와 언어 읽을거리도 만나 보세요.',
         'hub_h1' => 'LangMap 텍스트 색인',
         'hub_sub' => '서버에서 렌더링된, 각 언어의 크롤링 가능한 요약.',
         'maps' => '지도',
@@ -1062,6 +1065,7 @@ const SEO_T = [
         'hidden_tag' => '历史／隐藏变体',
         'wm_lang_title' => '{w}个词与发音',
         'hm_lang_title' => '汉字读音',
+        'wm_t2' => '{name}的“你好”“谢谢”怎么说？{w}个常用词及发音', 'hm_t2' => '{name}怎么读汉字：{n}个字', 'wm_q' => '“{word}”用{name}怎么说？{form}。', 'aka' => '又称：{list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => '在 LangMap Word Map 上，{name}的{w}个核心词发音（含IPA与本地写法）。',
         'hm_lang_meta' => '在 LangMap Han Map 上，{name}的汉字读音。',
         'wm_index_title' => 'Word Map — {n}种语言的{w}个核心词',
@@ -1072,8 +1076,8 @@ const SEO_T = [
         'hm_index_sub' => '{n}种语言及变体中的{c}个核心汉字 — 字形与IPA／罗马字读音。',
         'see_also' => '另见',
         'home' => 'LangMap 主页',
-        'hub_title' => 'LangMap — Word Map 与 Han Map（文本索引）',
-        'hub_desc' => 'LangMap Word Map 与 Han Map 的可抓取文本索引。各语言的核心词发音与汉字读音。',
+        'hub_title' => 'LangMap — 在地图上看1,190种语言：词汇、汉字、人名、历法',
+        'hub_desc' => '“水”“谢谢”“妈妈”用1,190种语言怎么说？按语言浏览，附发音（IPA），还有汉字在亚洲各地的读法和语言趣谈。',
         'hub_h1' => 'LangMap 文本索引',
         'hub_sub' => '服务器渲染的、可抓取的各语言摘要。',
         'maps' => '地图',
@@ -1124,6 +1128,7 @@ const SEO_T = [
         'hidden_tag' => '歷史／隱藏變體',
         'wm_lang_title' => '{w}個詞同發音',
         'hm_lang_title' => '漢字讀音',
+        'wm_t2' => '{name}嘅「你好」「多謝」點講？{w}個常用詞同發音', 'hm_t2' => '{name}點讀漢字：{n}個字', 'wm_q' => '「{word}」用{name}點講？{form}。', 'aka' => '又稱：{list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => '喺 LangMap Word Map 上，{name}嘅{w}個核心詞發音（連IPA同本地寫法）。',
         'hm_lang_meta' => '喺 LangMap Han Map 上，{name}嘅漢字讀音。',
         'wm_index_title' => 'Word Map — {n}種語言嘅{w}個核心詞',
@@ -1134,8 +1139,8 @@ const SEO_T = [
         'hm_index_sub' => '{n}種語言同變體中嘅{c}個核心漢字 — 字形同IPA／羅馬字讀音。',
         'see_also' => '另見',
         'home' => 'LangMap 主頁',
-        'hub_title' => 'LangMap — Word Map 同 Han Map（文本索引）',
-        'hub_desc' => 'LangMap Word Map 同 Han Map 嘅可抓取文本索引。各語言嘅核心詞發音同漢字讀音。',
+        'hub_title' => 'LangMap — 喺地圖上睇1,190種語言：詞彙、漢字、人名、曆法',
+        'hub_desc' => '「水」「多謝」「媽媽」用1,190種語言點講？按語言瀏覽，附發音（IPA），仲有漢字喺亞洲各地嘅讀法同語言趣談。',
         'hub_h1' => 'LangMap 文本索引',
         'hub_sub' => '伺服器渲染嘅、可抓取嘅各語言摘要。',
         'maps' => '地圖',
@@ -1186,6 +1191,7 @@ const SEO_T = [
         'hidden_tag' => 'biến thể lịch sử / ẩn',
         'wm_lang_title' => '{w} từ & cách phát âm',
         'hm_lang_title' => 'Cách đọc chữ Hán',
+        'wm_t2' => '{name}: xin chào, cảm ơn và {w} từ kèm phát âm', 'hm_t2' => '{name}: cách đọc {n} chữ Hán', 'wm_q' => '“{word}” trong {name} nói thế nào? {form}.', 'aka' => 'Còn gọi là {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'Cách phát âm {w} từ cốt lõi trong {name}, kèm IPA và dạng bản địa, trên LangMap Word Map.',
         'hm_lang_meta' => 'Cách đọc các chữ Hán trong {name} trên LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} từ cốt lõi qua {n} ngôn ngữ',
@@ -1196,8 +1202,8 @@ const SEO_T = [
         'hm_index_sub' => '{c} chữ Hán cốt lõi qua {n} ngôn ngữ và biến thể — dạng chữ với cách đọc IPA / La-tinh hóa.',
         'see_also' => 'Xem thêm',
         'home' => 'Trang chủ LangMap',
-        'hub_title' => 'LangMap — Word Map & Han Map (chỉ mục văn bản)',
-        'hub_desc' => 'Chỉ mục văn bản có thể thu thập của LangMap Word Map và Han Map: cách phát âm từ cốt lõi và cách đọc chữ Hán theo từng ngôn ngữ.',
+        'hub_title' => 'LangMap — 1.190 ngôn ngữ trên bản đồ: từ ngữ, chữ Hán, tên, lịch',
+        'hub_desc' => '“Nước”, “cảm ơn”, “mẹ” trong 1.190 ngôn ngữ nói thế nào? Xem từng ngôn ngữ kèm phát âm (IPA), cách đọc chữ Hán khắp châu Á và các bài viết về ngôn ngữ.',
         'hub_h1' => 'Chỉ mục văn bản LangMap',
         'hub_sub' => 'Bản tóm tắt từng ngôn ngữ, kết xuất phía máy chủ, có thể thu thập.',
         'maps' => 'Bản đồ',
@@ -1248,6 +1254,7 @@ const SEO_T = [
         'hidden_tag' => 'รูปแบบทางประวัติศาสตร์ / ที่ซ่อน',
         'wm_lang_title' => '{w} คำและการออกเสียง',
         'hm_lang_title' => 'การอ่านอักษรจีน',
+        'wm_t2' => '{name}: สวัสดี ขอบคุณ และอีก {w} คำ พร้อมการออกเสียง', 'hm_t2' => '{name}: วิธีอ่านอักษรจีน {n} ตัว', 'wm_q' => '“{word}” ใน{name}พูดว่าอย่างไร? {form}', 'aka' => 'ชื่ออื่น: {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'การออกเสียง {w} คำหลักใน {name} พร้อม IPA และรูปท้องถิ่น บน LangMap Word Map',
         'hm_lang_meta' => 'การอ่านอักษรจีนใน {name} บน LangMap Han Map',
         'wm_index_title' => 'Word Map — {w} คำหลักใน {n} ภาษา',
@@ -1258,8 +1265,8 @@ const SEO_T = [
         'hm_index_sub' => '{c} อักษรจีนหลักใน {n} ภาษาและรูปแบบ — รูปอักษรพร้อมการอ่าน IPA / อักษรโรมัน',
         'see_also' => 'ดูเพิ่มเติม',
         'home' => 'หน้าแรก LangMap',
-        'hub_title' => 'LangMap — Word Map และ Han Map (ดัชนีข้อความ)',
-        'hub_desc' => 'ดัชนีข้อความที่ค้นเก็บได้ของ LangMap Word Map และ Han Map: การออกเสียงคำหลักและการอ่านอักษรจีนต่อภาษา',
+        'hub_title' => 'LangMap — 1,190 ภาษาบนแผนที่: คำศัพท์ อักษรจีน ชื่อ ปฏิทิน',
+        'hub_desc' => '“น้ำ” “ขอบคุณ” “แม่” ใน 1,190 ภาษาพูดว่าอย่างไร? ดูทีละภาษาพร้อมการออกเสียง (IPA) วิธีอ่านอักษรจีนทั่วเอเชีย และบทความเกี่ยวกับภาษา',
         'hub_h1' => 'ดัชนีข้อความ LangMap',
         'hub_sub' => 'สรุปแต่ละภาษาที่เรนเดอร์ฝั่งเซิร์ฟเวอร์และค้นเก็บได้',
         'maps' => 'แผนที่',
@@ -1310,6 +1317,7 @@ const SEO_T = [
         'hidden_tag' => 'varietas historis / tersembunyi',
         'wm_lang_title' => '{w} kata & pelafalan',
         'hm_lang_title' => 'Bacaan aksara Han',
+        'wm_t2' => '{name}: halo, terima kasih & {w} kata beserta pelafalan', 'hm_t2' => '{name}: cara membaca {n} aksara Han', 'wm_q' => 'Apa bahasa {name}-nya “{word}”? {form}.', 'aka' => 'Disebut juga {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'Pelafalan {w} kata inti dalam {name}, dengan IPA dan bentuk lokal, di LangMap Word Map.',
         'hm_lang_meta' => 'Bacaan aksara Han dalam {name} di LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} kata inti di {n} bahasa',
@@ -1320,8 +1328,8 @@ const SEO_T = [
         'hm_index_sub' => '{c} aksara Han inti di {n} bahasa dan varietas — bentuk aksara dengan bacaan IPA / Latin.',
         'see_also' => 'Lihat juga',
         'home' => 'Beranda LangMap',
-        'hub_title' => 'LangMap — Word Map & Han Map (indeks teks)',
-        'hub_desc' => 'Indeks teks yang dapat dirayapi dari LangMap Word Map dan Han Map: pelafalan kata inti dan bacaan aksara Han per bahasa.',
+        'hub_title' => 'LangMap — 1.190 bahasa di peta: kata, aksara Han, nama, kalender',
+        'hub_desc' => 'Bagaimana mengucapkan air, terima kasih, atau ibu dalam 1.190 bahasa? Jelajahi tiap bahasa beserta pelafalan (IPA), bacaan aksara Han di Asia, dan artikel tentang bahasa.',
         'hub_h1' => 'Indeks teks LangMap',
         'hub_sub' => 'Ringkasan tiap bahasa yang dirender di server dan dapat dirayapi.',
         'maps' => 'Peta',
@@ -1372,6 +1380,7 @@ const SEO_T = [
         'hidden_tag' => 'ऐतिहासिक / छिपी किस्म',
         'wm_lang_title' => '{w} शब्द और उच्चारण',
         'hm_lang_title' => 'हान वर्णों के उच्चारण',
+        'wm_t2' => '{name} में नमस्ते, धन्यवाद और {w} शब्द — उच्चारण सहित', 'hm_t2' => '{name}: {n} चीनी अक्षर कैसे पढ़े जाते हैं', 'wm_q' => '{name} में “{word}” कैसे कहते हैं? {form}।', 'aka' => 'अन्य नाम: {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'LangMap Word Map पर {name} में {w} मूल शब्दों के उच्चारण, IPA और मूल रूपों सहित।',
         'hm_lang_meta' => 'LangMap Han Map पर {name} में हान वर्णों के उच्चारण।',
         'wm_index_title' => 'Word Map — {n} भाषाओं में {w} मूल शब्द',
@@ -1382,8 +1391,8 @@ const SEO_T = [
         'hm_index_sub' => '{n} भाषाओं और किस्मों में {c} मूल हान वर्ण — IPA / रोमन उच्चारण सहित वर्ण रूप।',
         'see_also' => 'यह भी देखें',
         'home' => 'LangMap होम',
-        'hub_title' => 'LangMap — Word Map और Han Map (पाठ सूचकांक)',
-        'hub_desc' => 'LangMap Word Map और Han Map का क्रॉल-योग्य पाठ सूचकांक: प्रति भाषा मूल शब्दों और हान वर्णों के उच्चारण।',
+        'hub_title' => 'LangMap — नक़्शे पर 1,190 भाषाएँ: शब्द, चीनी अक्षर, नाम, पंचांग',
+        'hub_desc' => 'पानी, धन्यवाद या माँ को 1,190 भाषाओं में कैसे कहते हैं? हर भाषा उच्चारण (IPA) के साथ देखें, एशिया भर में चीनी अक्षरों के उच्चारण और भाषाओं पर लेख भी।',
         'hub_h1' => 'LangMap पाठ सूचकांक',
         'hub_sub' => 'सर्वर-रेंडर किए गए, प्रत्येक भाषा के क्रॉल-योग्य सारांश।',
         'maps' => 'मानचित्र',
@@ -1434,6 +1443,7 @@ const SEO_T = [
         'hidden_tag' => 'historische / verborgene Varietät',
         'wm_lang_title' => '{w} Wörter & Aussprache',
         'hm_lang_title' => 'Lesungen der Han-Zeichen',
+        'wm_t2' => '{name}: Hallo, danke & {w} Wörter mit Aussprache', 'hm_t2' => '{name}: wie {n} chinesische Schriftzeichen gelesen werden', 'wm_q' => 'Was heißt „{word}“ auf {name}? {form}.', 'aka' => 'Auch genannt: {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'Aussprache von {w} Kernwörtern in {name}, mit IPA und einheimischen Formen, auf der LangMap Word Map.',
         'hm_lang_meta' => 'Lesungen der Han-Zeichen in {name} auf der LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} Kernwörter in {n} Sprachen',
@@ -1444,8 +1454,8 @@ const SEO_T = [
         'hm_index_sub' => '{c} Kern-Han-Zeichen in {n} Sprachen und Varietäten — Schriftformen mit IPA- / romanisierten Lesungen.',
         'see_also' => 'Siehe auch',
         'home' => 'LangMap Startseite',
-        'hub_title' => 'LangMap — Word Map & Han Map (Textindex)',
-        'hub_desc' => 'Crawlbarer Textindex der LangMap Word Map und Han Map: Aussprache von Kernwörtern und Lesungen der Han-Zeichen pro Sprache.',
+        'hub_title' => 'LangMap — 1.190 Sprachen auf der Karte: Wörter, chinesische Schriftzeichen, Namen, Kalender',
+        'hub_desc' => 'Was heißt Wasser, danke oder Mutter in 1.190 Sprachen? Jede Sprache mit Aussprache (IPA), wie chinesische Schriftzeichen in ganz Asien gelesen werden, und kurze Artikel über Sprachen.',
         'hub_h1' => 'LangMap Textindex',
         'hub_sub' => 'Serverseitig gerenderte, crawlbare Zusammenfassungen jeder Sprache.',
         'maps' => 'Karten',
@@ -1496,6 +1506,7 @@ const SEO_T = [
         'hidden_tag' => 'variété historique / masquée',
         'wm_lang_title' => '{w} mots & prononciations',
         'hm_lang_title' => 'Lectures des caractères han',
+        'wm_t2' => '{name} : bonjour, merci et {w} mots avec la prononciation', 'hm_t2' => '{name} : la lecture de {n} caractères chinois', 'wm_q' => 'Comment dit-on « {word} » en {name} ? {form}.', 'aka' => 'Aussi appelé {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'Prononciations de {w} mots essentiels en {name}, avec API et formes natives, sur la LangMap Word Map.',
         'hm_lang_meta' => 'Lectures des caractères han en {name} sur la LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} mots essentiels dans {n} langues',
@@ -1506,8 +1517,8 @@ const SEO_T = [
         'hm_index_sub' => '{c} caractères han essentiels dans {n} langues et variétés — formes écrites avec lectures API / romanisées.',
         'see_also' => 'Voir aussi',
         'home' => 'Accueil LangMap',
-        'hub_title' => 'LangMap — Word Map & Han Map (index texte)',
-        'hub_desc' => 'Index texte explorable de la LangMap Word Map et Han Map : prononciations des mots essentiels et lectures des caractères han par langue.',
+        'hub_title' => 'LangMap — 1 190 langues sur une carte : mots, caractères chinois, prénoms, calendriers',
+        'hub_desc' => 'Comment dit-on eau, merci ou mère dans 1 190 langues ? Chaque langue avec sa prononciation (API), la lecture des caractères chinois à travers l’Asie, et de courts articles sur les langues.',
         'hub_h1' => 'Index texte LangMap',
         'hub_sub' => 'Résumés de chaque langue, rendus côté serveur et explorables.',
         'maps' => 'Cartes',
@@ -1558,6 +1569,7 @@ const SEO_T = [
         'hidden_tag' => 'varietà storica / nascosta',
         'wm_lang_title' => '{w} parole & pronunce',
         'hm_lang_title' => 'Letture dei caratteri han',
+        'wm_t2' => '{name}: ciao, grazie e {w} parole con la pronuncia', 'hm_t2' => '{name}: come si leggono {n} caratteri cinesi', 'wm_q' => 'Come si dice “{word}” in {name}? {form}.', 'aka' => 'Detto anche {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'Pronunce di {w} parole essenziali in {name}, con IPA e forme native, sulla LangMap Word Map.',
         'hm_lang_meta' => 'Letture dei caratteri han in {name} sulla LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} parole essenziali in {n} lingue',
@@ -1568,8 +1580,8 @@ const SEO_T = [
         'hm_index_sub' => '{c} caratteri han essenziali in {n} lingue e varietà — forme scritte con letture IPA / romanizzate.',
         'see_also' => 'Vedi anche',
         'home' => 'Home LangMap',
-        'hub_title' => 'LangMap — Word Map & Han Map (indice testuale)',
-        'hub_desc' => 'Indice testuale scansionabile della LangMap Word Map e Han Map: pronunce delle parole essenziali e letture dei caratteri han per lingua.',
+        'hub_title' => 'LangMap — 1.190 lingue sulla mappa: parole, caratteri cinesi, nomi, calendari',
+        'hub_desc' => 'Come si dice acqua, grazie o madre in 1.190 lingue? Ogni lingua con la pronuncia (IPA), la lettura dei caratteri cinesi in Asia e brevi articoli sulle lingue.',
         'hub_h1' => 'Indice testuale LangMap',
         'hub_sub' => 'Riepiloghi di ciascuna lingua, resi lato server e scansionabili.',
         'maps' => 'Mappe',
@@ -1620,6 +1632,7 @@ const SEO_T = [
         'hidden_tag' => 'variedad histórica / oculta',
         'wm_lang_title' => '{w} palabras y pronunciaciones',
         'hm_lang_title' => 'Lecturas de caracteres han',
+        'wm_t2' => '{name}: hola, gracias y {w} palabras con pronunciación', 'hm_t2' => '{name}: cómo se leen {n} caracteres chinos', 'wm_q' => '¿Cómo se dice «{word}» en {name}? {form}.', 'aka' => 'También llamado {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'Pronunciaciones de {w} palabras esenciales en {name}, con AFI y formas nativas, en el LangMap Word Map.',
         'hm_lang_meta' => 'Lecturas de caracteres han en {name} en el LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} palabras esenciales en {n} lenguas',
@@ -1630,8 +1643,8 @@ const SEO_T = [
         'hm_index_sub' => '{c} caracteres han esenciales en {n} lenguas y variedades — formas escritas con lecturas AFI / romanizadas.',
         'see_also' => 'Véase también',
         'home' => 'Inicio de LangMap',
-        'hub_title' => 'LangMap — Word Map y Han Map (índice de texto)',
-        'hub_desc' => 'Índice de texto rastreable del LangMap Word Map y Han Map: pronunciaciones de palabras esenciales y lecturas de caracteres han por lengua.',
+        'hub_title' => 'LangMap — 1190 lenguas en un mapa: palabras, caracteres chinos, nombres, calendarios',
+        'hub_desc' => '¿Cómo se dice agua, gracias o madre en 1190 lenguas? Cada lengua con su pronunciación (AFI), cómo se leen los caracteres chinos en Asia y artículos breves sobre lenguas.',
         'hub_h1' => 'Índice de texto LangMap',
         'hub_sub' => 'Resúmenes de cada lengua, renderizados en el servidor y rastreables.',
         'maps' => 'Mapas',
@@ -1682,6 +1695,7 @@ const SEO_T = [
         'hidden_tag' => 'variedade histórica / oculta',
         'wm_lang_title' => '{w} palavras e pronúncias',
         'hm_lang_title' => 'Leituras de caracteres han',
+        'wm_t2' => '{name}: olá, obrigado e {w} palavras com pronúncia', 'hm_t2' => '{name}: como se leem {n} caracteres chineses', 'wm_q' => 'Como se diz “{word}” em {name}? {form}.', 'aka' => 'Também chamado {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'Pronúncias de {w} palavras essenciais em {name}, com AFI e formas nativas, no LangMap Word Map.',
         'hm_lang_meta' => 'Leituras de caracteres han em {name} no LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} palavras essenciais em {n} línguas',
@@ -1692,8 +1706,8 @@ const SEO_T = [
         'hm_index_sub' => '{c} caracteres han essenciais em {n} línguas e variedades — formas escritas com leituras AFI / romanizadas.',
         'see_also' => 'Veja também',
         'home' => 'Início do LangMap',
-        'hub_title' => 'LangMap — Word Map e Han Map (índice de texto)',
-        'hub_desc' => 'Índice de texto rastreável do LangMap Word Map e Han Map: pronúncias de palavras essenciais e leituras de caracteres han por língua.',
+        'hub_title' => 'LangMap — 1.190 línguas no mapa: palavras, caracteres chineses, nomes, calendários',
+        'hub_desc' => 'Como se diz água, obrigado ou mãe em 1.190 línguas? Cada língua com a pronúncia (AFI), como os caracteres chineses são lidos na Ásia e artigos curtos sobre línguas.',
         'hub_h1' => 'Índice de texto LangMap',
         'hub_sub' => 'Resumos de cada língua, renderizados no servidor e rastreáveis.',
         'maps' => 'Mapas',
@@ -1744,6 +1758,7 @@ const SEO_T = [
         'hidden_tag' => 'историческая / скрытая разновидность',
         'wm_lang_title' => '{w} слов и произношение',
         'hm_lang_title' => 'Чтения ханьских иероглифов',
+        'wm_t2' => '{name}: «привет», «спасибо» и ещё {w} слов с произношением', 'hm_t2' => '{name}: как читаются {n} иероглифов', 'wm_q' => 'Как сказать «{word}» на языке {name}? {form}.', 'aka' => 'Другие названия: {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'Произношение {w} основных слов на языке {name}, с МФА и исконными формами, на LangMap Word Map.',
         'hm_lang_meta' => 'Чтения ханьских иероглифов на языке {name} на LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} основных слов в {n} языках',
@@ -1754,8 +1769,8 @@ const SEO_T = [
         'hm_index_sub' => '{c} основных ханьских иероглифов в {n} языках и разновидностях — формы письма с чтениями МФА / латиницей.',
         'see_also' => 'См. также',
         'home' => 'Главная LangMap',
-        'hub_title' => 'LangMap — Word Map и Han Map (текстовый указатель)',
-        'hub_desc' => 'Индексируемый текстовый указатель LangMap Word Map и Han Map: произношение основных слов и чтения ханьских иероглифов по языкам.',
+        'hub_title' => 'LangMap — 1190 языков на карте: слова, иероглифы, имена, календари',
+        'hub_desc' => 'Как сказать «вода», «спасибо» или «мама» на 1190 языках? Каждый язык с произношением (МФА), чтения иероглифов по всей Азии и короткие статьи о языках.',
         'hub_h1' => 'Текстовый указатель LangMap',
         'hub_sub' => 'Отрендеренные на сервере, индексируемые сводки по каждому языку.',
         'maps' => 'Карты',
@@ -1806,6 +1821,7 @@ const SEO_T = [
         'hidden_tag' => 'історичний / прихований різновид',
         'wm_lang_title' => 'Основні слова ({w}) і вимова',
         'hm_lang_title' => 'Читання ханьських ієрогліфів',
+        'wm_t2' => '{name}: «привіт», «дякую» та ще {w} слів з вимовою', 'hm_t2' => '{name}: як читаються {n} ієрогліфів', 'wm_q' => 'Як сказати «{word}» мовою {name}? {form}.', 'aka' => 'Інші назви: {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'Вимова {w} основних слів мовою {name}, з МФА та питомими формами, на LangMap Word Map.',
         'hm_lang_meta' => 'Читання ханьських ієрогліфів мовою {name} на LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} основних слів у {n} мовах',
@@ -1816,8 +1832,8 @@ const SEO_T = [
         'hm_index_sub' => 'Основні ханьські ієрогліфи ({c}) у {n} мовах і різновидах — форми письма з читаннями МФА / латиницею.',
         'see_also' => 'Див. також',
         'home' => 'Головна LangMap',
-        'hub_title' => 'LangMap — Word Map і Han Map (текстовий покажчик)',
-        'hub_desc' => 'Індексований текстовий покажчик LangMap Word Map і Han Map: вимова основних слів і читання ханьських ієрогліфів за мовами.',
+        'hub_title' => 'LangMap — 1190 мов на карті: слова, ієрогліфи, імена, календарі',
+        'hub_desc' => 'Як сказати «вода», «дякую» чи «мама» 1190 мовами? Кожна мова з вимовою (МФА), читання ієрогліфів по всій Азії та короткі статті про мови.',
         'hub_h1' => 'Текстовий покажчик LangMap',
         'hub_sub' => 'Відрендерені на сервері, індексовані зведення кожної мови.',
         'maps' => 'Карти',
@@ -1868,6 +1884,7 @@ const SEO_T = [
         'hidden_tag' => 'نوع تاريخي / مخفي',
         'wm_lang_title' => '{w} كلمة والنطق',
         'hm_lang_title' => 'قراءات الحروف الهانية',
+        'wm_t2' => '{name}: مرحبًا وشكرًا و{w} كلمة مع النطق', 'hm_t2' => '{name}: كيف تُقرأ {n} حروف صينية', 'wm_q' => 'كيف تقول «{word}» بـ{name}؟ {form}.', 'aka' => 'يُسمّى أيضًا: {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'نطق {w} كلمة أساسية في {name}، مع الأبجدية الصوتية الدولية والأشكال المحلية، على LangMap Word Map.',
         'hm_lang_meta' => 'قراءات الحروف الهانية في {name} على LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} كلمة أساسية عبر {n} لغة',
@@ -1878,8 +1895,8 @@ const SEO_T = [
         'hm_index_sub' => '{c} حرفًا هانيًا أساسيًا عبر {n} لغة ولهجة — أشكال مكتوبة مع قراءات الأبجدية الصوتية الدولية / رومنة.',
         'see_also' => 'انظر أيضًا',
         'home' => 'الصفحة الرئيسية LangMap',
-        'hub_title' => 'LangMap — Word Map و Han Map (فهرس نصي)',
-        'hub_desc' => 'فهرس نصي قابل للفهرسة لـ LangMap Word Map و Han Map: نطق الكلمات الأساسية وقراءات الحروف الهانية لكل لغة.',
+        'hub_title' => 'LangMap — 1190 لغة على الخريطة: كلمات وحروف صينية وأسماء وتقاويم',
+        'hub_desc' => 'كيف تقول ماء أو شكرًا أو أم بـ1190 لغة؟ تصفح كل لغة مع النطق (IPA)، وكيف تُقرأ الحروف الصينية في آسيا، ومقالات قصيرة عن اللغات.',
         'hub_h1' => 'فهرس LangMap النصي',
         'hub_sub' => 'ملخصات لكل لغة، معروضة من الخادم وقابلة للفهرسة.',
         'maps' => 'الخرائط',
@@ -1930,6 +1947,7 @@ const SEO_T = [
         'hidden_tag' => 'גרסה היסטורית / מוסתרת',
         'wm_lang_title' => '{w} מילים והגייה',
         'hm_lang_title' => 'קריאות תווי האן',
+        'wm_t2' => '{name}: שלום, תודה ועוד {w} מילים עם הגייה', 'hm_t2' => '{name}: איך נקראים {n} סימנים סיניים', 'wm_q' => 'איך אומרים „{word}” ב{name}? {form}.', 'aka' => 'נקראת גם: {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'הגיית {w} מילים בסיסיות ב{name}, עם IPA וצורות מקומיות, ב-LangMap Word Map.',
         'hm_lang_meta' => 'קריאות תווי האן ב{name} ב-LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} מילים בסיסיות ב-{n} שפות',
@@ -1940,8 +1958,8 @@ const SEO_T = [
         'hm_index_sub' => '{c} תווי האן בסיסיים ב-{n} שפות וגרסאות — צורות כתב עם קריאות IPA / לטיניות.',
         'see_also' => 'ראו גם',
         'home' => 'דף הבית של LangMap',
-        'hub_title' => 'LangMap — Word Map ו-Han Map (אינדקס טקסט)',
-        'hub_desc' => 'אינדקס טקסט הניתן לסריקה של LangMap Word Map ו-Han Map: הגיית מילים בסיסיות וקריאות תווי האן לכל שפה.',
+        'hub_title' => 'LangMap — 1,190 שפות על המפה: מילים, סימנים סיניים, שמות, לוחות שנה',
+        'hub_desc' => 'איך אומרים מים, תודה או אמא ב־1,190 שפות? כל שפה עם הגייה (IPA), איך נקראים הסימנים הסיניים ברחבי אסיה, ומאמרים קצרים על שפות.',
         'hub_h1' => 'אינדקס הטקסט של LangMap',
         'hub_sub' => 'סיכומים של כל שפה, מעובדים בצד השרת וניתנים לסריקה.',
         'maps' => 'מפות',
@@ -1992,6 +2010,7 @@ const SEO_T = [
         'hidden_tag' => 'aina ya kihistoria / iliyofichwa',
         'wm_lang_title' => 'Maneno {w} na matamshi',
         'hm_lang_title' => 'Usomaji wa herufi za Han',
+        'wm_t2' => '{name}: habari, asante na maneno {w} pamoja na matamshi', 'hm_t2' => '{name}: jinsi herufi {n} za Kichina zinavyosomwa', 'wm_q' => 'Unasemaje “{word}” kwa {name}? {form}.', 'aka' => 'Pia huitwa {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'Matamshi ya maneno {w} ya msingi katika {name}, yenye IPA na maumbo asilia, kwenye LangMap Word Map.',
         'hm_lang_meta' => 'Usomaji wa herufi za Han katika {name} kwenye LangMap Han Map.',
         'wm_index_title' => 'Word Map — Maneno {w} ya msingi katika lugha {n}',
@@ -2002,8 +2021,8 @@ const SEO_T = [
         'hm_index_sub' => 'Herufi {c} za msingi za Han katika lugha na aina {n} — maumbo ya maandishi yenye usomaji wa IPA / Kilatini.',
         'see_also' => 'Tazama pia',
         'home' => 'Mwanzo wa LangMap',
-        'hub_title' => 'LangMap — Word Map na Han Map (faharasa ya maandishi)',
-        'hub_desc' => 'Faharasa ya maandishi inayoweza kutambaliwa ya LangMap Word Map na Han Map: matamshi ya maneno ya msingi na usomaji wa herufi za Han kwa kila lugha.',
+        'hub_title' => 'LangMap — lugha 1,190 kwenye ramani: maneno, herufi za Kichina, majina, kalenda',
+        'hub_desc' => 'Unasemaje maji, asante au mama katika lugha 1,190? Tazama kila lugha pamoja na matamshi (IPA), jinsi herufi za Kichina zinavyosomwa Asia, na makala fupi kuhusu lugha.',
         'hub_h1' => 'Faharasa ya maandishi ya LangMap',
         'hub_sub' => 'Muhtasari wa kila lugha, uliotolewa upande wa seva na unaoweza kutambaliwa.',
         'maps' => 'Ramani',
@@ -4185,6 +4204,51 @@ function seo_lang_name(array $langs, string $code, string $ui = 'en'): string
  * A language page's meta description: sample pairs first ("水＝eau"), then the
  * page's own description, clipped to snippet length.
  */
+/**
+ * Other names a reader may search for (r28: "langmap shanghainese" found nothing:
+ * the page called itself "Shanghai Wu"). From both maps' rows: the UI's
+ * nickname, the other map's name for the code, and in English the rows' own
+ * English names. Without the primary name and the native form, at most $max.
+ */
+function seo_lang_aliases(string $ui, string $code, string $primary, string $native, int $max = 3): array
+{
+    $cand = [];
+    foreach (['wordmap', 'hanmap'] as $map) {
+        $l = (seo_data($map)['langs'] ?? [])[$code] ?? null;
+        if (!$l) continue;
+        $cand[] = (string) (($l['nicknames'] ?? [])[$ui] ?? '');
+        $cand[] = (string) (($l['names'] ?? [])[$ui] ?? '');
+        if ($ui === 'en') $cand[] = (string) ($l['name'] ?? '');
+        if ($map === 'hanmap' && in_array($ui, ['zh', 'yue'], true)) $cand[] = (string) ($l['native'] ?? '');   // 上海话: what a Chinese reader types
+    }
+    // The other map's English row name first in English: "Shanghainese" beats
+    // the Word Map's macrolanguage label "Wu Chinese".
+    if ($ui === 'en') usort($cand, fn($a, $b) => (int) ($b === ((seo_data('hanmap')['langs'] ?? [])[$code]['name'] ?? '')) - (int) ($a === ((seo_data('hanmap')['langs'] ?? [])[$code]['name'] ?? '')));
+    $seen = [mb_strtolower($primary) => 1, mb_strtolower($native) => 1];
+    $out = [];
+    foreach ($cand as $c) {
+        $c = trim($c); $k = mb_strtolower($c);
+        if ($c === '' || isset($seen[$k])) continue;
+        $seen[$k] = 1; $out[] = $c;
+        if (count($out) >= $max) break;
+    }
+    return $out;
+}
+
+/** "How do you say "hello" in X? 侬好 [noŋ hɔ]." for the start of a snippet (r28). */
+function seo_lang_question(string $ui, array $data, string $code, string $name): string
+{
+    $w = (($data['langs'] ?? [])[$code]['words'] ?? [])['hello'] ?? null;
+    if (!$w) return '';
+    $form = trim((string) ($w[0] ?? '')); $ipa = trim((string) ($w[1] ?? ''));
+    if ($form === '' || preg_match('/^[\s\x{2014}\x{2013}\-?]*$/u', $form)) return '';
+    $label = '';
+    foreach ($data['words'] ?? [] as $wd) if (($wd['id'] ?? '') === 'hello') { $label = seo_pick($wd['label'] ?? [], $ui); break; }
+    if ($label === '' || mb_strtolower($label) === mb_strtolower($form)) return '';   // the reader's own language: no question
+    $f = $form . ($ipa !== '' && $ipa !== $form && !preg_match('/^[\s\x{2014}\-?]*$/u', $ipa) ? ' [' . $ipa . ']' : '');
+    return seo_t($ui, 'wm_q', ['word' => $label, 'name' => $name, 'form' => $f]);
+}
+
 function seo_lang_meta_lead(array $pairs, string $rest, string $ui): string
 {
     if (!$pairs) {

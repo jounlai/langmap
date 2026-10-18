@@ -336,7 +336,7 @@ function seo_render_word(array $data, array $word, string $ui): void
     $altPath = '/word/' . rawurlencode($id);
 
     seo_head([
-        'title'       => seo_t($ui, 'wd_title', ['name' => $label, 'n' => $nStr]) . ' | Word Map',
+        'title'       => seo_t($ui, 'wd_title', ['name' => $label, 'n' => $nStr]) . ' | LangMap',
         'description' => seo_word_meta_desc($data, $id, $ui, $label, $nStr),
         'canonical'   => $canonical,
         'image'       => SEO_SITE . '/ogp-wordmap.png',

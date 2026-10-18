@@ -494,7 +494,7 @@ WORDS.tooth = {
     prg: ["dantis", "dantis"],
     sq: ["dhëmb", "ðəmb"],
     aae: ["dhëmb", "ðəmb"],
-    et: ["hammas", "ˈhɑmːɑs"],
+    et: ["hammas", "ˈhɑmˑɑs"],
     ht: ["dan", "dã"],
     jam: ["tiit", "tiːt"],
     bah: ["tooth", "tuːt"],

@@ -1396,7 +1396,7 @@ WORDS.n99 = {
     fi: ["yhdeksänkymmentäyhdeksän", "ˈyhdeksænˌkymːentæˌyhdeksæn"], // was ["yhdeksänkymmentäyhdeksän", "ˈyhdeksænˌkymmentæˌyhdeksæn"] (vi dialect rules 2026-10-06)
     la:    ["ūndēcentum", "uːndeːˈkentum"],
     yo: ["ọ̀kàndínlọ́gọ́rùn-ún", "ɔ̀kã̀dĩ́lɔ́ɡɔ́ɾũ̀ṹ"], // was ["ọ̀kàndínlọ́gọ́rùn-ún", "ɔ̀kãdĩ́lɔ́ɡɔ́ɾṹṹ"] (vi dialect rules 2026-10-06)
-    sq:    ["nëntëdhjetë e nëntë", "nəntəˈðjetə e ˈnəntə"],
+    sq:    ["nëntëdhjetë e nëntë", "nəntəˈðjɛtə ɛ ˈnəntə"],
     el:    ["ενενήντα εννέα", "eneˈninda eˈnea"],
     hy: ["իննսունինը", "innəsuˈninə"], // was ["իննսունինը", "innsuˈninə"] (vi dialect rules 2026-10-06)
     mn: ["ерэн ес", "jereŋ jes"], // was ["ерэн ес", "jeren jes"] (vi dialect rules 2026-10-06)
@@ -1427,7 +1427,7 @@ WORDS.n99 = {
     eo:     ["naŭdek naŭ", "ˈnaudek ˈnau"],
     sl:     ["devetindevetdeset", "dɛˈʋeːtindɛˈʋeːddɛsɛt"],  // r73: Slovene says unit-and-tens (SSKJ/en.wiktionary devetindevetdeset), route unit; was "devetdeset devet" (tens-first, the Croatian/Serbian order).
     sk: ["deväťdesiat deväť", "ˈɟɛvɛɟːɛsjat ˈɟɛvɛc"], // was ["deväťdesiat deväť", "ˈdɛvɛcdɛsɪat ˈdɛvɛc"] (vi dialect rules 2026-10-06)
-    hr:     ["devedeset devet", "dɛʋɛˈdɛsɛt ˈdɛʋɛt"],
+    hr:     ["devedeset devet", "deʋeděseːt dêʋet"],
     sr:     ["деведесет девет", "dɛʋɛˈdɛsɛt ˈdɛʋɛt"],
     bs:     ["devedeset devet", "dɛʋɛˈdɛsɛt ˈdɛʋɛt"],
     mk: ["деведесет и девет", "dɛˈvɛdɛsɛt i ˈdɛvɛt"], // was ["деведесет и девет", "dɛvɛˈdɛsɛt i ˈdɛvɛt"] (vi dialect rules 2026-10-06)

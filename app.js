@@ -1397,6 +1397,24 @@ function render() {
         } else {
             label.textContent = langName(code);
         }
+        // Keyboard / single-pointer alternative to dragging rows (2.5.7, r23):
+        // Alt+↑ / Alt+↓ on the focused name moves the row.
+        label.tabIndex = 0;
+        label.setAttribute('aria-keyshortcuts', 'Alt+ArrowUp Alt+ArrowDown');
+        label.setAttribute('aria-description', edT('moveEarlier') + ' / ' + edT('moveLater') + ': Alt+↑ / Alt+↓');
+        label.addEventListener('keydown', (e) => {
+            if (!e.altKey || (e.key !== 'ArrowUp' && e.key !== 'ArrowDown')) return;
+            e.preventDefault();
+            const sib = e.key === 'ArrowUp' ? row.previousElementSibling : row.nextElementSibling;
+            if (!sib || !sib.classList.contains('lang-row')) return;
+            if (e.key === 'ArrowUp') row.parentNode.insertBefore(row, sib); else row.parentNode.insertBefore(sib, row);
+            syncLangOrderFromDOM(); updateURL(); scheduleRedrawLines();
+            label.focus();
+            const rows = [...row.parentNode.querySelectorAll('.lang-row')];
+            let st = document.getElementById('row-move-status');
+            if (!st) { st = document.createElement('div'); st.id = 'row-move-status'; st.setAttribute('role', 'status'); st.style.cssText = 'position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)'; document.body.appendChild(st); }
+            st.textContent = ''; setTimeout(() => { st.textContent = langName(code) + ': ' + (rows.indexOf(row) + 1) + ' / ' + rows.length; }, 50);
+        });
         row.appendChild(label);
 
         const textDiv = document.createElement('div');

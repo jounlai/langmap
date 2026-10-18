@@ -1169,11 +1169,11 @@
         .lf-period-dual input[type=range]::-moz-range-track { background: none; border: none; }
         .lf-period-dual input[type=range]::-webkit-slider-thumb {
             -webkit-appearance: none; appearance: none; pointer-events: auto; cursor: pointer;
-            width: 15px; height: 15px; border-radius: 50%; background: #fff;
+            width: 22px; height: 22px; border-radius: 50%; background: #fff;   /* 24px target incl. border (2.5.8, r23) */
             border: 2px solid #4a6cf7; box-shadow: 0 1px 3px rgba(0,0,0,0.3);
         }
         .lf-period-dual input[type=range]::-moz-range-thumb {
-            pointer-events: auto; cursor: pointer; width: 15px; height: 15px;
+            pointer-events: auto; cursor: pointer; width: 22px; height: 22px;
             border-radius: 50%; background: #fff; border: 2px solid #4a6cf7;
             box-shadow: 0 1px 3px rgba(0,0,0,0.3);
         }
@@ -1973,6 +1973,20 @@
                 document.removeEventListener('pointermove', onPeriodDrag);
                 document.removeEventListener('pointerup', endPeriodDrag);
             }
+            // A tap on the bare track moves the nearer handle there: the range was
+            // otherwise drag-only (2.5.7, r23).
+            panel.addEventListener('click', (e) => {
+                const dual = e.target.classList && e.target.classList.contains('lf-period-dual') ? e.target : null;
+                if (!dual) return;
+                const rect = dual.getBoundingClientRect(); if (!rect.width) return;
+                const rtl = getComputedStyle(dual).direction === 'rtl';
+                let frac = (e.clientX - rect.left) / rect.width; if (rtl) frac = 1 - frac;
+                const idx = Math.round(PERIOD_MIN_IDX + Math.max(0, Math.min(1, frac)) * (PERIOD_MAX_IDX - PERIOD_MIN_IDX));
+                if (Math.abs(idx - periodFilter.fromIdx) <= Math.abs(idx - periodFilter.toIdx)) periodFilter.fromIdx = Math.min(idx, periodFilter.toIdx);
+                else periodFilter.toIdx = Math.max(idx, periodFilter.fromIdx);
+                updatePeriodUI();
+                refresh();
+            });
             panel.addEventListener('pointerdown', (e) => {
                 if (!e.target.classList || !e.target.classList.contains('lf-period-fill')) return;
                 const dual = e.target.closest('.lf-period-dual');

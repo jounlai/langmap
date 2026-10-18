@@ -360,7 +360,7 @@ function seo_render_word(array $data, array $word, string $ui): void
   <?php /* ?w= and not #w=: a fragment never reaches the server, and Facebook
            replaced it with the page's og:url, so every shared word opened the
            default one. See the note in wordmap.html's head. */ ?>
-  <a href="/wordmap.html?w=<?= e(rawurlencode($id)) ?>"><?= e(seo_t($ui, 'wd_open_app', ['name' => $label])) ?></a>
+  <a href="/wordmap.html?w=<?= e(rawurlencode($id)) ?>&amp;ui=<?= e($ui) ?>"><?= e(seo_t($ui, 'wd_open_app', ['name' => $label])) ?></a>
 </div>
 
 <?php

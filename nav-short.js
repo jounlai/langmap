@@ -308,22 +308,32 @@
     // (r22: nothing told a newcomer the words were tappable). Gone on the first
     // label tap or ×, remembered per browser.
     var TAP_HINT = { en:'Tap a label to see the language and its pronunciation', ja:'ラベルをタップすると、言語と発音が表示されます', ko:'라벨을 누르면 언어와 발음이 표시됩니다', zh:'点按标签即可查看语言和读音', yue:'撳標籤就睇到語言同讀音', vi:'Chạm vào nhãn để xem ngôn ngữ và cách phát âm', th:'แตะป้ายเพื่อดูภาษาและการออกเสียง', id:'Ketuk label untuk melihat bahasa dan pelafalannya', hi:'भाषा और उच्चारण देखने के लिए किसी लेबल पर टैप करें', de:'Tippe auf eine Beschriftung, um Sprache und Aussprache zu sehen', fr:'Touchez une étiquette pour voir la langue et sa prononciation', it:'Tocca un’etichetta per vedere la lingua e la pronuncia', es:'Toca una etiqueta para ver el idioma y su pronunciación', pt:'Toque em um rótulo para ver o idioma e a pronúncia', ru:'Нажмите на подпись, чтобы увидеть язык и произношение', uk:'Торкніться підпису, щоб побачити мову та вимову', ar:'اضغط على أي تسمية لرؤية اللغة ونطقها', he:'הקישו על תווית כדי לראות את השפה ואת ההגייה', sw:'Gusa lebo kuona lugha na matamshi yake' };
+    var CLOSE_LBL = { en:'Close', ja:'閉じる', ko:'닫기', zh:'关闭', yue:'關閉', vi:'Đóng', th:'ปิด', id:'Tutup', hi:'बंद करें', de:'Schließen', fr:'Fermer', it:'Chiudi', es:'Cerrar', pt:'Fechar', ru:'Закрыть', uk:'Закрити', ar:'إغلاق', he:'סגירה', sw:'Funga' };
     function tapHint() {
-        if (!/(wordmap|hanmap)(\.html)?\/?$/.test(location.pathname) || /[#&](lang|trivia|play)=/.test(location.hash)) return;
+        if (!/(wordmap|hanmap)(\.html)?\/?$/.test(location.pathname) || /[#&?](lang|trivia|play|cmp)=/.test(location.hash + location.search)) return;
+        var cp = document.getElementById('compare-panel'); if (cp && cp.classList.contains('visible')) return;
         try { if (localStorage.getItem('lm_taphint')) return; } catch (_) { return; }
         var map = document.getElementById('map'); if (!map) return;
         var l = String(document.documentElement.lang || 'en').toLowerCase().replace('-', '_'), b = l === 'zh_hk' ? 'yue' : l.split('_')[0];
         var box = document.createElement('div'), x = document.createElement('button');
         box.setAttribute('role', 'note');
-        box.style.cssText = 'position:fixed;left:50%;transform:translateX(-50%);bottom:' + (/hanmap/.test(location.pathname) ? 84 : 48) + 'px;z-index:1200;display:flex;align-items:center;gap:8px;max-width:min(92vw,420px);padding:7px 8px 7px 14px;border-radius:999px;background:rgba(26,26,46,0.92);color:#fff;font-size:13px;line-height:1.35;box-shadow:0 4px 16px rgba(0,0,0,0.25)';
+        // Above the compare button, route legend, credit strip and footer links (r23).
+        box.style.cssText = 'position:fixed;left:50%;transform:translateX(-50%);bottom:' + (/hanmap/.test(location.pathname) ? 110 : 112) + 'px;z-index:1200;display:flex;align-items:center;gap:8px;max-width:min(92vw,420px);padding:7px 8px 7px 14px;border-radius:999px;background:rgba(26,26,46,0.92);color:#fff;font-size:13px;line-height:1.35;box-shadow:0 4px 16px rgba(0,0,0,0.25)';
         var t = document.createElement('span'); t.textContent = TAP_HINT[b] || TAP_HINT.en;
-        x.type = 'button'; x.textContent = '\u00d7'; x.setAttribute('aria-label', 'OK');
+        x.type = 'button'; x.textContent = '\u00d7'; x.setAttribute('aria-label', (CLOSE_LBL[b] || CLOSE_LBL.en));
         x.style.cssText = 'flex:none;min-width:28px;min-height:28px;border:0;border-radius:50%;background:rgba(255,255,255,0.15);color:#fff;font-size:18px;line-height:1;cursor:pointer';
         box.appendChild(t); box.appendChild(x); document.body.appendChild(box);
         var mo = null;
-        var done = function () { box.remove(); try { localStorage.setItem('lm_taphint', '1'); } catch (_) {} document.removeEventListener('click', onClick, true); if (mo) mo.disconnect(); };
+        var done = function () { box.remove(); try { localStorage.setItem('lm_taphint', '1'); } catch (_) {} document.removeEventListener('click', onClick, true); document.removeEventListener('keydown', onKey, true); document.removeEventListener('focusin', onFocus, true); if (mo) mo.disconnect(); };
         var onClick = function (e) { if (e.target === x || (e.target.closest && e.target.closest('.lang-label, .globe-label'))) done(); };
         document.addEventListener('click', onClick, true);
+        // Keyboard users: it must not sit over a focused control (2.4.11); Escape or
+        // focus leaving the map dismisses it (r23).
+        var onKey = function (e) { if (e.key === 'Escape') done(); };
+        var onFocus = function (e) { if (!(e.target.closest && e.target.closest('#map'))) done(); };
+        document.addEventListener('keydown', onKey, true); document.addEventListener('focusin', onFocus, true);
+        var relabel = function () { var l2 = String(document.documentElement.lang || 'en').toLowerCase().replace('-', '_'), b2 = l2 === 'zh_hk' ? 'yue' : l2.split('_')[0]; t.textContent = TAP_HINT[b2] || TAP_HINT.en; x.setAttribute('aria-label', CLOSE_LBL[b2] || CLOSE_LBL.en); };
+        window.addEventListener('langmap:uichange', function () { setTimeout(relabel, 0); });
         mo = new MutationObserver(function () { var lb = document.querySelector('#lang-info.visible'); if (lb) done(); }); mo.observe(document.getElementById('lang-info') || document.body, { attributes: true, attributeFilter: ['class'] });
     }
     if (document.readyState === 'complete') setTimeout(tapHint, 2500); else window.addEventListener('load', function () { setTimeout(tapHint, 2500); });

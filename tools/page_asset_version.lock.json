@@ -1,7 +1,7 @@
 {
   "app.js": {
-    "version": 102,
-    "hash": "2ff411e7e9f8d948"
+    "version": 103,
+    "hash": "8ba5d09e7cf717d9"
   },
   "data.js": {
     "version": 92,
@@ -16,16 +16,16 @@
     "hash": "aa03d6c05a4b3504"
   },
   "lang-filter.js": {
-    "version": 59,
-    "hash": "21453d9dbd1fa5c9"
+    "version": 60,
+    "hash": "e139617c36940a55"
   },
   "lang-picker.js": {
     "version": 8,
     "hash": "f962a1f35003cb38"
   },
   "lang_attention.js": {
-    "version": 2,
-    "hash": "fab576cd148faf45"
+    "version": 3,
+    "hash": "1ea8ce0dd0d9f0df"
   },
   "lang_names/en.js": {
     "version": 203,
@@ -60,8 +60,8 @@
     "hash": "13754e5759677c52"
   },
   "nav-short.js": {
-    "version": 29,
-    "hash": "ea81f5ed83e62a0c"
+    "version": 30,
+    "hash": "c13e8a208e4b1635"
   },
   "poster_geo.js": {
     "version": 12,

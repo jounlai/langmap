@@ -29,13 +29,15 @@ PAGES = {
     'namemap': {
         'html': 'namemap.html',
         'sources': ['namemap.html', 'namemap_data.js', 'namemap_i18n.js', 'namemap_names_ext.js',
-                    'namemap_content_i18n.js', 'namemap_i18n/*.js', 'nav-short.js'],
+                    'namemap_content_i18n.js', 'namemap_i18n/*.js', 'nav-short.js',
+                    'share-button.js', 'pwa.js', 'lang-picker.js'],   # shared scripts these pages load (r23)
         'faces': [('Noto Sans JP', (400, 700)), ('Noto Sans SC', (400, 700)), ('Noto Sans KR', (400, 700)),
                   ('Noto Serif JP', (700,)), ('Noto Serif SC', (700,)), ('Noto Serif KR', (700,))],
     },
     'timemap': {
         'html': 'timemap.html',
-        'sources': ['timemap.html', 'timemap_calendars.js', 'timemap_i18n/*.js', 'nav-short.js'],
+        'sources': ['timemap.html', 'timemap_calendars.js', 'timemap_i18n/*.js', 'nav-short.js',
+                    'share-button.js', 'pwa.js', 'lang-picker.js'],
         'faces': [('Noto Serif JP', (400, 700)), ('Noto Serif SC', (400, 700)), ('Noto Serif KR', (400, 700))],
     },
 }

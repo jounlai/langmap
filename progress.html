@@ -77,7 +77,7 @@
 
         .ctl { display: flex; flex-wrap: wrap; gap: 14px 22px; align-items: center;
                margin-bottom: 14px; font-size: 13px; }
-        .ctl .grp { display: flex; gap: 6px; align-items: center; }
+        .ctl .grp { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }   /* chips wrap at 320px (1.4.10, r23) */
         .ctl .grp > span { color: #595959; }
         .chip {
             border: 1px solid #d8d8d8; background: #fff; border-radius: 999px;
@@ -179,6 +179,7 @@
             </div>
         </div>
 
+        <div class="wp-scroll" style="overflow-x:auto">
         <table class="wp">
             <thead><tr>
                 <th>Word</th>
@@ -190,6 +191,7 @@
             </tr></thead>
             <tbody id="rows"></tbody>
         </table>
+        </div>
 
         <p class="lead" style="margin-top:22px" id="foot"></p>
     </main>

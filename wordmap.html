@@ -719,11 +719,11 @@
             overflow-wrap: anywhere; word-break: normal;
         }
         #word-modal .wm-tile .wm-en {
-            flex: 0 0 auto; font-size: 11px; color: #9a9aa8;
+            flex: 0 0 auto; font-size: 11px; color: #6b6b78;   /* 4.5:1 (was 2.77:1, r23) */
             overflow-wrap: anywhere;
         }
         #word-modal .wm-tile.active .wm-en { color: #b9b9c8; }
-        #word-modal .wm-empty { color: #8a8a99; font-size: 13px; padding: 6px 2px; }
+        #word-modal .wm-empty { color: #6b6b78; font-size: 13px; padding: 6px 2px; }
         @media (max-width: 640px) {
             /* Wider minimum than the desktop grid would suggest: the tiles
                wrap rather than clip, and 96px columns turned ordinary words
@@ -2988,7 +2988,7 @@
         .lang-label.trivia-blink,
         .globe-label.trivia-blink,
         .unattested-marker.trivia-blink {
-            animation: triviaPulse 1.4s ease-out infinite;
+            animation: triviaPulse 1.4s ease-out 3;   /* 3 pulses, then the static highlight stays (2.2.2, r23) */
             border-radius: 6px;
             background: rgba(255,243,205,0.85);
             /* Padding matches .lang-label.selected (6px 10px) so the
@@ -3005,8 +3005,9 @@
         }
         .lang-label.trivia-blink .word,
         .globe-label.trivia-blink .word {
-            animation: triviaPulseText 1.4s ease-in-out infinite;
+            animation: triviaPulseText 1.4s ease-in-out 3;
         }
+        @media (prefers-reduced-motion: reduce) { .trivia-blink, .trivia-blink .word { animation: none !important; } }
         body.is-3d .globe-label.trivia-blink {
             background: rgba(255,213,93,0.35);
         }
@@ -3035,7 +3036,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=29"></script>
+    <script src="nav-short.js?v=30"></script>
     <style>
         /* Rally r21: the settings-drawer buttons were capped at 54-56px with 8px text,
            so de "Aussprache" / "Einheimisch" and ar "المحددة فقط" spilled or were cut. */
@@ -3738,7 +3739,7 @@
     })();
     </script>
     <script src="wordmap_data.js?v=345"></script>
-    <script src="lang_attention.js?v=2"></script>
+    <script src="lang_attention.js?v=3"></script>
     <script src="word_manifest.js?v=964"></script>
     <script src="word_labels.js?v=71"></script>
     <script>
@@ -3763,7 +3764,7 @@
             styles:   159,
             data:      345,
             metaI18n:  17,
-            filter:    59,
+            filter:    60,
             names:   203,
             meta:     420,
             trivia:   45,
@@ -3822,15 +3823,22 @@
             window.__wmInitialWord = initial;
 
             var pending = Object.create(null);
-            var LOAD_FAIL = { en: "Couldn't load this word. Check your connection, then pick it again.", ja: 'この単語を読み込めませんでした。接続を確認して、もう一度選んでください。', ko: '이 단어를 불러오지 못했습니다. 연결을 확인한 뒤 다시 선택하세요.', zh: '无法加载这个词。请检查网络连接后重新选择。', yue: '載入唔到呢個詞。請檢查網絡連線再揀過。', vi: 'Không tải được từ này. Hãy kiểm tra kết nối rồi chọn lại.', th: 'โหลดคำนี้ไม่ได้ ตรวจสอบการเชื่อมต่อแล้วเลือกอีกครั้ง', id: 'Kata ini gagal dimuat. Periksa koneksi, lalu pilih lagi.', hi: 'यह शब्द लोड नहीं हो सका। कनेक्शन जाँचकर फिर से चुनें।', de: 'Dieses Wort konnte nicht geladen werden. Prüfe die Verbindung und wähle es erneut.', fr: 'Impossible de charger ce mot. Vérifiez la connexion, puis choisissez-le à nouveau.', it: 'Impossibile caricare questa parola. Controlla la connessione e sceglila di nuovo.', es: 'No se pudo cargar esta palabra. Revisa la conexión y vuelve a elegirla.', pt: 'Não foi possível carregar esta palavra. Verifique a conexão e escolha-a de novo.', ru: 'Не удалось загрузить это слово. Проверьте подключение и выберите его снова.', uk: 'Не вдалося завантажити це слово. Перевірте з’єднання й виберіть його знову.', ar: 'تعذّر تحميل هذه الكلمة. تحقّق من الاتصال ثم اخترها مرة أخرى.', he: 'לא ניתן לטעון את המילה הזו. בדקו את החיבור ובחרו בה שוב.', sw: 'Imeshindwa kupakia neno hili. Angalia muunganisho kisha ulichague tena.' };
-            function loadFailToast() {
+            var LOAD_FAIL = { en: "Couldn't load this word. Check your connection and try again.", ja: 'この単語を読み込めませんでした。接続を確認して、もう一度お試しください。', ko: '이 단어를 불러오지 못했습니다. 연결을 확인한 뒤 다시 시도하세요.', zh: '无法加载这个词。请检查网络连接后重试。', yue: '載入唔到呢個詞。請檢查網絡連線再試。', vi: 'Không tải được từ này. Hãy kiểm tra kết nối rồi thử lại.', th: 'โหลดคำนี้ไม่ได้ ตรวจสอบการเชื่อมต่อแล้วลองอีกครั้ง', id: 'Kata ini gagal dimuat. Periksa koneksi, lalu coba lagi.', hi: 'यह शब्द लोड नहीं हो सका। कनेक्शन जाँचकर फिर से कोशिश करें।', de: 'Dieses Wort konnte nicht geladen werden. Prüfe die Verbindung und versuche es erneut.', fr: 'Impossible de charger ce mot. Vérifiez la connexion et réessayez.', it: 'Impossibile caricare questa parola. Controlla la connessione e riprova.', es: 'No se pudo cargar esta palabra. Revisa la conexión e inténtalo de nuevo.', pt: 'Não foi possível carregar esta palavra. Verifique a conexão e tente de novo.', ru: 'Не удалось загрузить это слово. Проверьте подключение и повторите попытку.', uk: 'Не вдалося завантажити це слово. Перевірте з’єднання й спробуйте ще раз.', ar: 'تعذّر تحميل هذه الكلمة. تحقّق من الاتصال ثم أعد المحاولة.', he: 'לא ניתן לטעון את המילה הזו. בדקו את החיבור ונסו שוב.', sw: 'Imeshindwa kupakia neno hili. Angalia muunganisho kisha ujaribu tena.' };
+            // Picking the same word again fires no change event on a <select>, so the
+            // toast carries its own Retry (r23).
+            var RETRY = { en: 'Retry', ja: '再試行', ko: '다시 시도', zh: '重试', yue: '再試', vi: 'Thử lại', th: 'ลองอีกครั้ง', id: 'Coba lagi', hi: 'फिर से कोशिश करें', de: 'Erneut versuchen', fr: 'Réessayer', it: 'Riprova', es: 'Reintentar', pt: 'Tentar de novo', ru: 'Повторить', uk: 'Повторити', ar: 'إعادة المحاولة', he: 'ניסיון חוזר', sw: 'Jaribu tena' };
+            function loadFailToast(id) {
                 var u = String((window.__langmap && window.__langmap.uiLang) || document.documentElement.lang || 'en').replace('-', '_').split('_')[0];
-                var t = document.createElement('div');
-                t.setAttribute('role', 'status');
-                t.style.cssText = 'position:fixed;left:50%;bottom:64px;transform:translateX(-50%);z-index:100003;background:#222;color:#fff;padding:9px 16px;border-radius:12px;font-size:13px;max-width:min(90vw,420px);text-align:center;box-shadow:0 4px 16px rgba(0,0,0,.25)';
-                document.body.appendChild(t);
-                setTimeout(function () { t.textContent = LOAD_FAIL[u] || LOAD_FAIL.en; }, 50);
-                setTimeout(function () { t.remove(); }, 5000);
+                var old = document.getElementById('wm-loadfail'); if (old) old.remove();
+                var t = document.createElement('div'); t.id = 'wm-loadfail';
+                t.style.cssText = 'position:fixed;left:50%;bottom:64px;transform:translateX(-50%);z-index:100003;display:flex;align-items:center;gap:10px;background:#222;color:#fff;padding:8px 10px 8px 16px;border-radius:12px;font-size:13px;max-width:min(92vw,460px);box-shadow:0 4px 16px rgba(0,0,0,.25)';
+                var msg = document.createElement('span'); msg.setAttribute('role', 'status');
+                var b = document.createElement('button'); b.type = 'button'; b.textContent = RETRY[u] || RETRY.en;
+                b.style.cssText = 'flex:none;min-height:32px;padding:4px 12px;border:1px solid rgba(255,255,255,.5);border-radius:8px;background:transparent;color:#fff;font:inherit;cursor:pointer';
+                b.addEventListener('click', function () { t.remove(); if (id && window.__wmEnsureWords) window.__wmEnsureWords([id]); });
+                t.appendChild(msg); t.appendChild(b); document.body.appendChild(t);
+                setTimeout(function () { msg.textContent = LOAD_FAIL[u] || LOAD_FAIL.en; }, 50);
+                setTimeout(function () { if (t.isConnected && !t.contains(document.activeElement)) t.remove(); }, 12000);
             }
             function loadWord(id) {
                 if (WORDS[id] && WORDS[id].data) return Promise.resolve();
@@ -3842,7 +3850,7 @@
                     el.onload = function () { resolve(); };
                     // A failed fetch (offline) must not stay cached as "loaded":
                     // forget it so picking the word again retries, and say so (r22).
-                    el.onerror = function () { delete pending[id]; el.remove(); loadFailToast(); resolve(); };
+                    el.onerror = function () { delete pending[id]; el.remove(); loadFailToast(id); resolve(); };
                     document.head.appendChild(el);
                 });
                 return pending[id];
@@ -3918,7 +3926,7 @@
          loaded. Loading them eagerly meant half a megabyte on every visit for
          data that only matters once a language modal opens. They now load
          inside loadMeta(). See __wmLoadMetaI18n() below. -->
-    <script src="lang-filter.js?v=59"></script>
+    <script src="lang-filter.js?v=60"></script>
     <!-- Translated language names: 1,154 codes × 19 UI languages is ~215 KB
          gzipped, and a reader uses one of them plus English as the fallback.
          Load the shim, then English, then whichever UI language this visitor
@@ -7141,9 +7149,13 @@
             // (owner 2026-09-07). In the modern map the gate still keeps
             // far-pushed labels off the map.
             if (!showHistorical && !onlyCompare) {
+                // The best-known labels in view skip this gate: it hides by offset,
+                // not priority, and dropped Bengali at India z5 while Santali
+                // stayed (r23). The pull-home pass below still places them.
+                const _topPri = new Set(_saCodes.slice().sort((a, b) => (langPriority(b) || 0) - (langPriority(a) || 0)).slice(0, 12));
                 for (const code of _saCodes) {
                     const off = offsets[code];
-                    if (!off) continue;
+                    if (!off || _topPri.has(code)) continue;
                     if (Math.abs(off.x) + Math.abs(off.y) > MAX_PUSH * 2.2) {
                         hiddenCodes.add(code);
                     }
@@ -8257,7 +8269,13 @@
                     document.head.appendChild(f);
                 };
                 document.head.appendChild(s);
-            }).then(() => loadMetaI18n());
+            }).then(() => {
+                // The zoom-tier gate reads speaker counts from this meta: a deep link
+                // at zoom <= 4 drew before it arrived and showed an empty map until
+                // the next zoom (r23). Draw once more now that the counts exist.
+                try { if (typeof currentWord !== 'undefined' && currentWord) updateMarkers(currentWord); } catch (_) {}
+                return loadMetaI18n();
+            });
             return _metaLoadPromise;
         }
         // Expose so self-contained modules (e.g. Langle) can ensure the
@@ -9643,7 +9661,11 @@
                 const top = matches.slice(0, 12);
                 if (top.length === 0) {
                     const noMatchLabel = i18n('noMatch');
-                    results.innerHTML = `<div style="padding:8px;color:#5f6368">${escapeHtml(noMatchLabel)}</div>`;
+                    results.innerHTML = `<div style="padding:8px;color:#5f6368" aria-hidden="true">${escapeHtml(noMatchLabel)}</div>`;
+                    // Spoken through a status node by the input, not inside the listbox (4.1.3, r23).
+                    { let st = document.getElementById('lang-search-status');
+                      if (!st) { st = document.createElement('div'); st.id = 'lang-search-status'; st.setAttribute('role', 'status'); st.style.cssText = 'position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)'; results.parentNode.insertBefore(st, results); }
+                      st.textContent = ''; setTimeout(() => { st.textContent = noMatchLabel; }, 50); }
                 } else {
                     // The era label here is the *opposite* of current era —
                     // it tells the user "this match is in the [other] era".
@@ -10134,7 +10156,7 @@
                         const surface = cell[0] || '';
                         const ipa = cell[1] || '';
                         html += '<td><span class="surface" dir="auto">' + escapeHtml(surface) + '</span>'
-                             + (ipa && ipa !== '—' ? '<span class="ipa"><bdi dir="ltr">' + escapeHtml(ipa) + '</bdi></span>' : (surface && surface !== '—' && !ipa ? '<span class="ipa ipa-unknown" title="' + escapeHtml(wt('ipaUnknown')) + '">/?/</span>' : ''))
+                             + (ipa && ipa !== '—' ? '<span class="ipa"><bdi dir="ltr">' + escapeHtml(ipa) + '</bdi></span>' : (surface && surface !== '—' && !ipa ? '<span class="ipa ipa-unknown" title="' + escapeHtml(wt('ipaUnknown')) + '">?</span>' : ''))
                              + '</td>';
                     }
                 }
@@ -10775,7 +10797,7 @@
                         const word = entry[0] || '';
                         const ipa = entry[1] || '';
                         html += '<td><div class="wm-form" dir="auto">' + escapeHtml(word) + '</div>'
-                              + (ipa ? '<div class="wm-ipa">' + escapeHtml(ipa) + '</div>' : (word ? '<div class="wm-ipa ipa-unknown" title="' + escapeHtml(wt('ipaUnknown')) + '">/?/</div>' : ''))
+                              + (ipa ? '<div class="wm-ipa">' + escapeHtml(ipa) + '</div>' : (word ? '<div class="wm-ipa ipa-unknown" title="' + escapeHtml(wt('ipaUnknown')) + '">?</div>' : ''))
                               + '</td>';
                     }
                 });

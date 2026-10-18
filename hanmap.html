@@ -106,7 +106,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=162">
+    <link rel="stylesheet" href="styles.css?v=163">
     <link rel="stylesheet" href="/vendor/leaflet-1.9.4/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -126,7 +126,7 @@
          Solution: self-host a precisely subset Han-Nom serif font.
          - NomNaTong-subset.woff2: 40 codepoints, drawn from the Nôm
            Preservation Foundation's NomNaTong v5.18 (incl. 𠄩 two, 𠸜 name,
-           𣋀 star for vi_nom and 𠊎 ngai for hak_cn). Two were added
+           𣋀 (now 𣇟) star for vi_nom and 𠊎 ngai for hak_cn). Two were added
            2026-09-10: 㗂 (U+35C2) for the vi_nom NATIVE NAME, which is now
            written 字喃㗂越 in Nôm rather than in quốc ngữ, and 㹥 (U+3E65),
            which the word data has always used and no subset covered — the
@@ -142,7 +142,7 @@
             font-style: normal;
             font-weight: 400;
             font-display: swap;
-            src: url('fonts/NomNaTong-subset.woff2') format('woff2');
+            src: url('fonts/NomNaTong-subset.woff2?v=a3e1416714') format('woff2');
             unicode-range:
                 
                 
@@ -150,7 +150,7 @@
                 U+3575, U+35C2, U+3E65, U+5400, U+6E03, U+20027,
                 U+20129, U+2028E, U+2029B, U+20B20, U+20E1C, U+21419,
                 U+215B5, U+215F6, U+21795, U+21914, U+21A38, U+21B36,
-                U+21CDB, U+22051, U+22782, U+22785, U+232C0, U+23603,
+                U+21CDB, U+22051, U+22782, U+22785, U+231DF, U+232C0, U+23603,
                 U+23D13, U+243EC, U+2475E, U+2512B, U+265BB, U+269DC,
                 U+275B1, U+27E65, U+2910E, U+29218, U+2964B, U+29D5C,
                 U+2A635, U+2B5D2, U+27289;
@@ -354,6 +354,9 @@
         @media (min-width: 641px) { .site-header-bar > .chrome-toggle-btn { display: none; } }
         /* A selected label still shows a real focus ring (outline:none on .selected hid it). */
         .lang-label.selected:focus-visible { outline: 2px solid #1a73e8; outline-offset: 2px; }
+
+        /* r26: the compare button hides while its panel is open (it showed through). */
+        body:has(.compare-panel.visible) .compare-fab { visibility: hidden; }
 </style>
     <!-- Khitan Small Script isn't on Google Fonts (Google Fonts returns 400
          for "Noto Serif Khitan Small Script"). Load the Serif variant
@@ -2858,7 +2861,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=34"></script>
+    <script src="nav-short.js?v=35"></script>
     <style>
         /* r23 desktop: the compare panel clears the settings gear and the map
            attribution; the settings drawer is readable at desktop sizes. */
@@ -3432,7 +3435,7 @@
 
     <!-- Credit watermark -->
     <div class="url-watermark">
-        <span class="credit-by">Made by</span> <a href="https://x.com/jounlai" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;">Jounlai Cho</a> @<a href="https://heuron.com" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;">Heuron Inc.</a> <a href="https://github.com/jounlai/langmap" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg> GitHub</a>
+        <span class="credit-by">Made by</span> <a href="https://x.com/jounlai" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;">Jounlai Cho</a> @<a href="https://heuron.com" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;">Heuron Inc.</a> <a href="https://github.com/jounlai/langmap" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg> GitHub</a> · <a href="changelog.html" class="credit-icon" data-k="changelog" title="Changelog" aria-label="Changelog" style="color:inherit;pointer-events:auto;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/><path d="M12 7v5l3 2"/></svg></a> · <a href="progress.html" class="credit-icon" data-k="progress" title="Coverage" aria-label="Coverage" style="color:inherit;pointer-events:auto;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></a>
     </div>
 
     <!-- Language info panel -->
@@ -4412,7 +4415,12 @@
                     return;
                 }
             } catch (_) {}
-            try {
+            // A shared link (it carries w= / lang= / p=) without hf= means the sender
+            // had the default selection: open it with the default, not with this
+            // reader's saved filter (r26).
+            let _shared = false;
+            try { const _hp = new URLSearchParams((location.hash || '').slice(1)); _shared = _hp.has('w') || _hp.has('lang') || _hp.has('p'); } catch (_) {}
+            if (!_shared) try {
                 const raw = localStorage.getItem(LS_KEY);
                 if (raw) {
                     const arr = JSON.parse(raw);
@@ -7867,6 +7875,9 @@
         window._hmClearLabelOffsetCache = () => _hmLabelOffsetCache.clear();
 
         function updateMarkers(wordId) {
+            // A label that has keyboard focus is rebuilt below: put focus back on its
+            // new copy, or a redraw (Back, filter, word switch) dropped it to <body> (r26).
+            const _focusCode = (() => { const a = document.activeElement; const l = a && a.closest && a.closest('#map .lang-label'); return l ? l.dataset.code : null; })();
             currentWord = wordId;
 
             if (is3D) {
@@ -8667,6 +8678,10 @@
                     markers.push(line, dot);
                 }
             }
+            if (_focusCode && (!document.activeElement || document.activeElement === document.body)) {
+                const _nl = document.querySelector('#map .lang-label[data-code="' + CSS.escape(_focusCode) + '"]');
+                if (_nl) try { _nl.focus({ preventScroll: true }); } catch (_) {}
+            }
             // Re-apply selected highlight + connector after re-render
             // (markers are torn down and re-added each updateMarkers call).
             if (typeof updateSelectedLabel === 'function') updateSelectedLabel();
@@ -9029,7 +9044,8 @@
                 // map on the locale default, the label off screen (r24): go there.
                 const _noView = !params.get('p') && !(params.get('lat') && params.get('lng'));
                 // Defer until after initial markers are rendered.
-                setTimeout(() => { if (_noView) { try { centerLangOnMap(langCode); } catch (_) {} } showLangInfo(langCode); }, 100);
+                clearTimeout(window.__langRestoreTimer);
+                window.__langRestoreTimer = setTimeout(() => { if (_noView) { try { centerLangOnMap(langCode); } catch (_) {} } showLangInfo(langCode, { fromHash: true }); }, 100);
             } else if (document.getElementById('lang-info')?.classList.contains('visible') && typeof closeInfoPanel === 'function') {   // not infoPanel: a const declared after this first runs
                 closeInfoPanel();   // Back to an entry with no open language (r25)
             }
@@ -9084,7 +9100,10 @@
         // updateHash() for transient state changes during application.
         let _applyingHashState = false;
         function applyHashState() {
-            if (_hmBackRewrite) { _hmBackRewrite = false; _hmLastGame = null; updateHash(); return; }
+            // The same step back also fires hashchange: skip that one too, or its
+            // full re-apply redraws the markers and drops keyboard focus (r26).
+            if (window.__skipHashOnce != null && location.hash === window.__skipHashOnce) { window.__skipHashOnce = null; return; }
+            if (_hmBackRewrite) { _hmBackRewrite = false; _hmLastGame = null; updateHash(); window.__skipHashOnce = location.hash; setTimeout(() => { window.__skipHashOnce = null; }, 300); return; }
             if (_applyingHashState) return;
             _applyingHashState = true;
             try {
@@ -9526,7 +9545,7 @@
             // word atoms arrived: "Hong Kong SAR", "Japan" … stayed English (r25).
             if (typeof META_I18N === 'undefined') window.META_I18N = {};
             if (!_metaEnginePromise) _metaEnginePromise = _hmInject('meta_i18n_engine.js?v=1');
-            _metaI18nByUi[ui] = Promise.all([_metaEnginePromise, _hmInject('meta_i18n/' + ui + '.js?v=8')]);
+            _metaI18nByUi[ui] = Promise.all([_metaEnginePromise, _hmInject('meta_i18n/' + ui + '.js?v=9')]);
             return _metaI18nByUi[ui];
         }
         window.loadMetaI18n = loadMetaI18n;
@@ -10211,7 +10230,7 @@
                         } else {
                             liHtml = escapeHtml(String(s));
                         }
-                        if (liHtml) html += `<li dir="auto">${liHtml}</li>`;
+                        if (liHtml) html += `<li><bdi>${liHtml}</bdi></li>`;   // bdi, not li dir: the bullet stays beside the text in ar/he (r26)
                     }
                     html += '</ul>';
                 }
@@ -10892,7 +10911,7 @@
             }
         }
 
-        function showLangInfo(code) {
+        function showLangInfo(code, opts) {
             { const _li = document.getElementById('lang-info'); if (_li) _li.dir = /^(ar|he)/.test(String((typeof uiLang !== 'undefined' && uiLang) || '')) ? 'rtl' : 'ltr'; }   // ar/he read right to left
             const lang = LANG_DATA[code];
             if (!lang) return;
@@ -10904,6 +10923,9 @@
             if (opener && opener !== document.body) _lastDialogOpener = opener;
             // UX fix #1: toggle — second click on same code closes the modal.
             if (infoPanel.classList.contains('visible') && infoPanel.dataset.code === code) {
+                // Restoring from the URL (Back/Forward fire popstate and hashchange,
+                // two deferred restores) must not toggle it shut (r26).
+                if (opts && opts.fromHash) return;
                 closeInfoPanel();
                 return;
             }
@@ -10921,7 +10943,8 @@
             _selRetries = 0;
             updateSelectedLabel();
             updateConnectorLine();
-            const _openStep = !_hmPanelEntry && !(window.__langmap && window.__langmap.isApplyingHash && window.__langmap.isApplyingHash());
+            if (opts && opts.fromHash) _hmPanelEntry = !!(history.state && (history.state.wmPanel || history.state.hmPanel));   // Forward onto an entry we pushed
+            const _openStep = !_hmPanelEntry && !(opts && opts.fromHash) && !(window.__langmap && window.__langmap.isApplyingHash && window.__langmap.isApplyingHash());
             updateHash(_openStep ? { push: true, state: { hmPanel: 1 } } : undefined);  // persist `lang` to URL so reload restores
             if (_openStep) _hmPanelEntry = true;
             // Han Map rows never get .meta (the panel reads HAN_LANG_META), so this
@@ -12169,10 +12192,10 @@
             const srcList = art.sources || [];
             if (srcList.length) {
                 const items = srcList.map(s => {
-                    if (typeof s === 'string') return '<li dir="auto">' + s + '</li>';   // dir=auto: a Latin citation keeps its full stop at the end in ar/he (r25)
+                    if (typeof s === 'string') return '<li><bdi>' + s + '</bdi></li>';   // dir=auto: a Latin citation keeps its full stop at the end in ar/he (r25)
                     const safeUrl = (s.url || '').replace(/"/g, '&quot;');
                     const safeText = s.text || s.url || '';
-                    return `<li dir="auto"><a href="${safeUrl}" target="_blank" rel="noopener noreferrer">${safeText}</a></li>`;
+                    return `<li><bdi><a href="${safeUrl}" target="_blank" rel="noopener noreferrer">${safeText}</a></bdi></li>`;   // bdi: the bullet stays with the text in ar/he (r26)
                 }).join('');
                 sources.innerHTML =
                     `<span class="trivia-sources-label">${i18n('triviaSources')}</span>` +

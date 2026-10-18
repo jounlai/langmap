@@ -118,7 +118,7 @@ window.TRIVIA_I18N['sw'] = {
 
   'rotokas-fewest-sounds': {
     title: 'Rotokas — lugha yenye (karibu) sauti chache zaidi',
-    summary: 'Katika kisiwa cha kahawa cha Bougainville, lahaja kuu ya Rotokas inajulikana kwa kuwa na fonimu kumi na moja tu — konsonanti sita na vokali tano — iliyowahi kunukuliwa kama orodha ndogo zaidi ya fonimu duniani.',
+    summary: 'Lahaja kuu ya Rotokas, inayozungumzwa katika kisiwa cha Bougainville, imechambuliwa kuwa na konsonanti sita na vokali tano tu, hivyo iko upande wa chini kabisa wa orodha za fonimu zilizorekodiwa duniani.',
     body: `
   <p>Iwapo Taa ni paradiso ya mtaalamu wa wingi, <strong>Rotokas</strong> ni ya mtaalamu wa uchache. Ikisemwa na watu wapatao 4,300 (takwimu ya 1981) katika mlima wa ndani wa <strong>Bougainville</strong>, kisiwa kinachomilikiwa kisiasa na Papua New Guinea lakini kijiografia kwa msururu wa Solomon, lahaja kuu ya Rotokas ina <strong>fonimu kumi na moja tu tofauti</strong>: konsonanti sita — <em>p, t, k, β, ɾ, ɡ</em> — na vokali tano <em>a, e, i, o, u</em>, kila moja inaweza kuwa fupi au ndefu.</p>
 

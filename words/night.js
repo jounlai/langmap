@@ -220,7 +220,7 @@ WORDS.night = {
     bn: ["রাত", "rat"],
     rkt: ["রাইত", "rait"],
     ur: ["رات", "ɾaːt"],
-    ta: ["இரவு", "iɾaʋu"],
+    ta: ["இரவு", "iɾaʋɯ"],
     iru: ["rāvu", "raːvu"],
     en: ["night", "naɪt"],
     de: ["Nacht", "naxt"],

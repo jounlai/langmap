@@ -844,6 +844,9 @@ line('Sinitic tone class per row', num(s, /violations: (\d+)/), num(s, /stale: (
 s = run('export_seo_data.js --check');
 line('data/*_seo.json freshness', num(s, /stale: (\d+)/));
 
+s = run('export_trivia_seo.js --check');
+line('data/trivia_seo.json freshness', num(s, /stale: (\d+)/));
+
 // The full validator. Its warnings are advisory; its ERRORS block the commit.
 // This is what catches a bumped WM_ASSET_VERSION whose <script src=?v=N> was
 // left behind — a stale-cache bug that CI, not the pre-commit hook, used to

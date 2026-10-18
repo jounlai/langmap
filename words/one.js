@@ -209,7 +209,7 @@ WORDS.one = {
     bn: ["এক", "ɛk"],
     rkt: ["এক", "ek"],
     ur: ["ایک", "eːk"],
-    ta: ["ஒன்று", "ondru"],
+    ta: ["ஒன்று", "ondrɯ"],
     iru: ["onnu", "onːu"],
     en: ["one", "wʌn"],
     en_scouse: ["one", "wʊn"],

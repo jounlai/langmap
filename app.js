@@ -1136,7 +1136,8 @@ function openLangModal() {
                     const cb = lab.querySelector('input');
                     const code = cb ? cb.dataset.lang : '';
                     const L0 = LANGUAGES.find((l) => l.code === code) || {};
-                    const hit = !q || norm(lab.textContent).includes(q) || norm(code).startsWith(q) || norm(L0.name || L0.en || '').includes(q);
+                    const LN = window.LANG_NAMES || {}, en = (LN.en && LN.en[code]) || '';   // English name in every UI; L0.name is the Japanese one (r26)
+                    const hit = !q || norm(lab.textContent).includes(q) || norm(code).startsWith(q) || norm(en).includes(q) || norm(L0.name || '').includes(q);
                     lab.style.display = hit ? '' : 'none';
                     if (hit) any = true;
                 });
@@ -1665,8 +1666,10 @@ function render() {
             b.addEventListener('click', (e) => { e.stopPropagation(); moveRow(dir); b.focus({ preventScroll: true }); });
             return b;
         };
-        const upBtn = mkMove(-1, 'copy-btn row-move-btn'); upBtn.style.right = '100px'; row.appendChild(upBtn);
-        const downBtn = mkMove(1, 'copy-btn row-move-btn'); downBtn.style.right = '68px'; row.appendChild(downBtn);
+        // Before Copy/Edit in the source, so Tab follows the on-screen order (r26).
+        const _firstBtn = row.querySelector('.copy-btn, .edit-btn');
+        const upBtn = mkMove(-1, 'copy-btn row-move-btn'); upBtn.style.right = '100px'; row.insertBefore(upBtn, _firstBtn);
+        const downBtn = mkMove(1, 'copy-btn row-move-btn'); downBtn.style.right = '68px'; row.insertBefore(downBtn, _firstBtn);
 
         // Mobile action bar (shown on tap)
         const mobileBar = document.createElement('div');

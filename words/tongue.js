@@ -221,7 +221,7 @@ WORDS.tongue = {
     bn: ["জিভ", "dʒibʱ"],
     rkt: ["জিভা", "dʒibʱa"],
     ur: ["زبان", "zəbaːn"],
-    ta: ["நாக்கு", "naːkːu"],
+    ta: ["நாக்கு", "naːkːɯ"],
     iru: ["nāku", "naːku"],
     en: ["tongue", "tʌŋ"],
     de: ["Zunge", "ˈtsʊŋə"],

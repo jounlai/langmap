@@ -1,7 +1,7 @@
 {
   "app.js": {
-    "version": 106,
-    "hash": "fbeeedf4c5306ab5"
+    "version": 107,
+    "hash": "480daa541a778b13"
   },
   "data.js": {
     "version": 92,
@@ -40,8 +40,8 @@
     "hash": "c258867a3086dc8f"
   },
   "my-languages.js": {
-    "version": 40,
-    "hash": "1722d584402cce03"
+    "version": 41,
+    "hash": "10482d1de1927600"
   },
   "namemap_data.js": {
     "version": 9,
@@ -60,8 +60,8 @@
     "hash": "45e649c2244267b3"
   },
   "nav-short.js": {
-    "version": 34,
-    "hash": "10ee4730c65e0f40"
+    "version": 35,
+    "hash": "7036dbfca4f0f18b"
   },
   "poster_geo.js": {
     "version": 12,
@@ -88,8 +88,8 @@
     "hash": "a9a5ec0b06fdab27"
   },
   "styles.css": {
-    "version": 162,
-    "hash": "af918aacf4b5603e"
+    "version": 163,
+    "hash": "6d210b5d8cf588b7"
   },
   "timemap_calendars.js": {
     "version": 15,
@@ -100,7 +100,7 @@
     "hash": "71c78ae558968bf5"
   },
   "word_manifest.js": {
-    "version": 964,
+    "version": 965,
     "hash": "99fafa5b03aba24a"
   },
   "wordmap_data.js": {

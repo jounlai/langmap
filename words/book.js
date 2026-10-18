@@ -100,7 +100,7 @@ WORDS.book = {
     hi: ["किताब", "kɪˈtaːb"],
     ur: ["کتاب", "kɪˈtaːb"],
     bn: ["বই", "boi"],
-    ta: ["புத்தகம்", "put̪t̪aɡam"],
+    ta: ["புத்தகம்", "put̪ːaɡam"],
     te: ["పుస్తకం", "pust̪akam"],
     ar: ["كتاب", "kiˈtaːb"],
     he: ["ספר", "ˈsefeʁ"],

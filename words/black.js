@@ -144,7 +144,7 @@ WORDS.black = {
     pa: ["ਕਾਲਾ", "kaːɭaː"],
     ne: ["कालो", "kaːlo"],
     si: ["කළු", "kaɭu"],
-    ta: ["கருப்பு", "kaɾuppu"],
+    ta: ["கருப்பு", "kaɾupːɯ"],
     te: ["నలుపు", "nalupu"],
     ml: ["കറുപ്പ്", "karuppɨ"],
     kn: ["ಕಪ್ಪು", "kappu"],

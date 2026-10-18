@@ -1412,7 +1412,7 @@ WORDS.n99 = {
     km: ["កៅសិបប្រាំបួន", "kawsəp pramɓuən"], // was ["កៅសិបប្រាំបួន", "kawsəp praːmɓuən"] (vi dialect rules 2026-10-06)
     ms:    ["sembilan puluh sembilan", "səmbilan puluh səmbilan"],
     id:    ["sembilan puluh sembilan", "səmbilan puluh səmbilan"],
-    ta: ["தொண்ணூற்று ஒன்பது", "t̪oɳɳuːtru onbad̪u"], // was ["தொண்ணூற்று ஒன்பது", "toɳɳuːtru onbad̪u"] (vi dialect rules 2026-10-06)
+    ta: ["தொண்ணூற்று ஒன்பது", "t̪oɳːuːtrɯ onbad̪ɯ"], // was ["தொண்ணூற்று ஒன்பது", "toɳɳuːtru onbad̪u"] (vi dialect rules 2026-10-06)
     ur:    ["ننانوے", "nənaːnəʋeː"],
     wo: ["juróom-ñeenti fukk ak juróom-ñeent", "dʒuˈroːmɲɛːnti fukː ak dʒuˈroːmɲɛːnt"], // was ["juróom-ñeenti fukk ak juróom-ñeent", "dʒuˈroːmɲeːnti fukː ak dʒuˈroːmɲeːnt"] (vi dialect rules 2026-10-06)
     am:    ["ዘጠና ዘጠኝ", "zətʼəna zətʼəɲː"],

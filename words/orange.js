@@ -1087,7 +1087,7 @@ WORDS.orange = {
     hi: ["संतरा", "sənˈtɾaː"],
     bn: ["কমলা", "kɔmla"], // was ["কমলা", "komla"] (vi dialect rules 2026-10-06)
     ur: ["سنگترہ", "səŋɡtəɾaː"], // was ["سنگترہ", "səŋɡˈtəɾa"] (vi dialect rules 2026-10-06)
-    ta: ["ஆரஞ்சு", "aːɾaɲdʒu"], // was ["ஆரஞ்சு", "aːɾaɲtʃu"] (vi dialect rules 2026-10-06)
+    ta: ["ஆரஞ்சு", "aːɾaɲdʒɯ"], // was ["ஆரஞ்சு", "aːɾaɲtʃu"] (vi dialect rules 2026-10-06)
     en: ["orange", "ˈɒɹɪndʒ"],
     de: ["Orange", "oˈʁãːʒə"],
     fr: ["orange", "ɔʁɑ̃ʒ"],
@@ -1115,7 +1115,7 @@ WORDS.orange = {
     my: ["လိမ္မော်", "lèɪɴmɔ̀"], // was ["လိမ္မော်", "leɪ̯mmɔ̀"] (vi dialect rules 2026-10-06)
     km: ["ក្រូច", "kroːc"],
     lo: ["ໝາກກ້ຽງ", "maːk˧˩kiːə̯ŋ˥˨"], // was ["ໝາກກ້ຽງ", "maːk˧˩kiaŋ˥˨"] (vi dialect rules 2026-10-06)
-    yo: ["ọsan", "ɔsã"],
+    yo: ["ọsàn", "ɔsã̀"],
     zu: ["iwolintshi", "iwolintʃi"],
     am: ["ብርቱካን", "bɨrtukan"],
     mg: ["voasary", "vuaˈsari"], // was ["voasary", "vuˈsarʲ"] (vi dialect rules 2026-10-06)

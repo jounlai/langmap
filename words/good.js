@@ -209,7 +209,7 @@ WORDS.good = {
     bn: ["ভালো", "bʱalo"],
     rkt: ["ভাল্", "bʱal"],
     ur: ["اچھا", "ətʃːʰaː"],
-    ta: ["நல்ல", "nalla"],
+    ta: ["நல்ல", "nalːa"],
     iru: ["nalla", "nalːa"],
     en: ["good", "ɡʊd"],
     en_scouse: ["good", "ɡʊd"],

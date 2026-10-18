@@ -165,7 +165,7 @@ WORDS.five = {
     bn: ["পাঁচ", "pãtʃ"],
     rkt: ["পাঁচ", "pãtʃ"],
     ur: ["پانچ", "pãːtʃ"],
-    ta: ["ஐந்து", "aɪn̪d̪u"],
+    ta: ["ஐந்து", "aɪn̪d̪ɯ"],
     en: ["five", "faɪv"],
     de: ["fünf", "fʏnf"],
     fr: ["cinq", "sɛ̃k"],

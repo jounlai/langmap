@@ -217,7 +217,7 @@ WORDS.three = {
     bn: ["তিন", "tin"],
     rkt: ["তিন", "tin"],
     ur: ["تین", "tiːn"],
-    ta: ["மூன்று", "muːndru"],
+    ta: ["மூன்று", "muːndrɯ"],
     iru: ["mūnu", "muːnu"],
     en: ["three", "θɹiː"],
     de: ["drei", "dʁaɪ̯"],

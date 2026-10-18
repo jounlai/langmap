@@ -38,14 +38,26 @@
         <priority>0.85</priority>
     </url>
     <url>
-        <loc>https://langmaps.com/wordmap/</loc>
-        <lastmod>2026-06-13</lastmod>
+        <loc>https://langmaps.com/en/wordmap/</loc>
+        <lastmod>2026-10-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://langmaps.com/hanmap/</loc>
-        <lastmod>2026-06-13</lastmod>
+        <loc>https://langmaps.com/en/hanmap/</loc>
+        <lastmod>2026-10-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://langmaps.com/en/</loc>
+        <lastmod>2026-10-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://langmaps.com/en/trivia/</loc>
+        <lastmod>2026-10-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>

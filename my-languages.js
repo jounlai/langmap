@@ -476,7 +476,7 @@
             // Phones: the name kept ~4 letters ("Span…", French and Fula both "フラ…").
             // Let the row wrap, the level menu taking its own full-width line, and
             // give the remove button a 40px target (r25).
-            '@media (max-width:420px){.mylang-row{flex-wrap:wrap}.mylang-row-name{flex:1 1 0;min-width:0}.mylang-level{order:3;flex:1 1 100%;max-width:none;min-height:36px}.mylang-del{min-width:40px;min-height:40px}}',
+            '@media (max-width:520px){.mylang-row{flex-wrap:wrap}.mylang-row-name{flex:1 1 0;min-width:0}.mylang-level{order:3;flex:1 1 100%;max-width:none;min-height:36px}.mylang-del{min-width:40px;min-height:40px}}',
             '.mylang-empty{color:#5f6368;text-align:center;padding:14px 4px;font-size:13px}',
             '.mylang-stats{display:grid;grid-template-columns:1fr 1fr;gap:8px}',
             '.mylang-stat{background:rgba(90,140,220,.1);border-radius:10px;padding:9px 11px}',
@@ -1298,7 +1298,7 @@
         // opens the passport — straight to the finished card when it carries a
         // selection, otherwise to the builder.
         window.__wmGames = window.__wmGames || {};
-        window.__wmGames.mylang = function () { open(); if (state.langs.length) setTimeout(openImage, 90); };
+        window.__wmGames.mylang = function () { open(); if (state.langs.length) { const lm = window.__langmap && window.__langmap.loadMeta; Promise.resolve(typeof lm === 'function' ? lm() : null).catch(function () {}).then(function () { setTimeout(openImage, 90); }); } };   // the card counts speakers: wait for the meta, or a shared passport read 0 (r26)
     }
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
     else init();

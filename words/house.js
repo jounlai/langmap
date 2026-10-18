@@ -209,7 +209,7 @@ WORDS.house = {
     bn: ["বাড়ি", "baɽi"],
     rkt: ["ঘর", "ɡʱoɾ"],
     ur: ["گھر", "ɡʱəɾ"],
-    ta: ["வீடு", "ʋiːɖu"],
+    ta: ["வீடு", "ʋiːɖɯ"],
     iru: ["kūre", "kuːre"],
     en: ["house", "haʊs"],
     en_scouse: ["house", "haʊs"],

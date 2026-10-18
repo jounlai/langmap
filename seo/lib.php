@@ -3454,18 +3454,18 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   /* Lead with the loaded CJK serifs so a native name renders in ONE font even
      when the OS font lacks a glyph (e.g. simplified-only 话 in 普通话, which a
      Japanese system font drops, leaving it in a mismatched fallback face). */
-  font-family: "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao", "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Sans Ol Chiki", "Noto Serif Georgian", "Noto Serif Armenian", "Noto Serif Ethiopic", "Noto Sans Syriac", "Noto Serif SC", "Noto Serif TC", "Noto Serif JP", "Noto Serif KR",
+  font-family: "Gentium Plus", "Noto Serif", "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao", "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Sans Ol Chiki", "Noto Serif Georgian", "Noto Serif Armenian", "Noto Serif Ethiopic", "Noto Sans Syriac", "Noto Serif SC", "Noto Serif TC", "Noto Serif JP", "Noto Serif KR",
     "Gentium Plus", system-ui, sans-serif; }
 /* ...but Han in a Japanese, Korean or traditional-Chinese name takes that
    language's glyph shapes, not the Simplified Chinese ones (日本語 was drawn
    in Noto Serif SC). */
 .seo-hero .native:lang(ja), .seo-hero .native [lang|="ja"], .seo-hero .native:lang(ojp), .seo-hero .native:lang(ain), .seo-hero .native:lang(rys), .seo-hero .native:lang(mvi) {
-  font-family: "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao", "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Sans Ol Chiki", "Noto Serif Georgian", "Noto Serif Armenian", "Noto Serif Ethiopic", "Noto Sans Syriac", "Noto Serif JP", "Noto Serif SC", "Noto Serif TC", "Noto Serif KR", "Gentium Plus", system-ui, sans-serif; }
+  font-family: "Gentium Plus", "Noto Serif", "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao", "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Sans Ol Chiki", "Noto Serif Georgian", "Noto Serif Armenian", "Noto Serif Ethiopic", "Noto Sans Syriac", "Noto Serif JP", "Noto Serif SC", "Noto Serif TC", "Noto Serif KR", "Gentium Plus", system-ui, sans-serif; }
 .seo-hero .native:lang(ko), .seo-hero .native [lang|="ko"], .seo-hero .native:lang(okm), .seo-hero .native:lang(oko) {
-  font-family: "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao", "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Sans Ol Chiki", "Noto Serif Georgian", "Noto Serif Armenian", "Noto Serif Ethiopic", "Noto Sans Syriac", "Noto Serif KR", "Noto Serif TC", "Noto Serif JP", "Noto Serif SC", "Gentium Plus", system-ui, sans-serif; }
+  font-family: "Gentium Plus", "Noto Serif", "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao", "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Sans Ol Chiki", "Noto Serif Georgian", "Noto Serif Armenian", "Noto Serif Ethiopic", "Noto Sans Syriac", "Noto Serif KR", "Noto Serif TC", "Noto Serif JP", "Noto Serif SC", "Gentium Plus", system-ui, sans-serif; }
 .seo-hero .native:lang(yue), .seo-hero .native:lang(zh-Hant), .seo-hero .native:lang(zh-HK), .seo-hero .native:lang(zh-TW),
 .seo-hero .native [lang|="yue"], .seo-hero .native [lang="zh-Hant"] {
-  font-family: "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao", "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Sans Ol Chiki", "Noto Serif Georgian", "Noto Serif Armenian", "Noto Serif Ethiopic", "Noto Sans Syriac", "Noto Serif TC", "Noto Serif SC", "Noto Serif JP", "Noto Serif KR", "Gentium Plus", system-ui, sans-serif; }
+  font-family: "Gentium Plus", "Noto Serif", "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao", "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Sans Ol Chiki", "Noto Serif Georgian", "Noto Serif Armenian", "Noto Serif Ethiopic", "Noto Sans Syriac", "Noto Serif TC", "Noto Serif SC", "Noto Serif JP", "Noto Serif KR", "Gentium Plus", system-ui, sans-serif; }
 .seo-hero .sub { font-size: 1.1rem; color: var(--muted); margin: 0 0 1rem; }
 .seo-meta { display: flex; flex-wrap: wrap; gap: .5rem .75rem; margin: 1rem 0 1.5rem; }
 .seo-meta .chip { background: var(--card); border: 1px solid var(--line);
@@ -3497,7 +3497,11 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
    a second heading — and tabular so a column of centuries lines up. */
 .wcard-era { font-size: .74rem; color: var(--muted);
   font-variant-numeric: tabular-nums; margin: -.25rem 0 .3rem; }
-.wcard > .surface { font-size: 1.75rem; line-height: 1.2; margin: 0; word-break: break-word; }
+.wcard > .surface { font-size: 1.75rem; line-height: 1.2; margin: 0; word-break: break-word;
+  font-family: "Gentium Plus", "Charis SIL", "Noto Serif", "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao", "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Sans Ol Chiki", "Noto Serif Georgian", "Noto Serif Armenian", "Noto Serif Ethiopic", "Noto Sans Syriac", "Noto Serif JP",
+    "Noto Serif SC", "Noto Serif TC", "Noto Serif KR", "Source Han Serif",
+    "Songti SC", "STSong", "SimSun", "Hiragino Mincho ProN", "Yu Mincho",
+    "MS Mincho", Georgia, "Times New Roman", serif; }   /* it inherited system-ui, so the script faces never applied (r26) */
 /* Tibetan needs its own face and a little more room. Noto Serif Tibetan is
    loaded above; the rest of the chain is the one the interactive map uses.
    The size bump is small and the leading is not: Tibetan stacks subjoined
@@ -3695,7 +3699,7 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
 /* Native-script glyph (Chữ Nôm / kana / hangul / Tangut / Phags-pa / Manchu …)
    shown above the romanization. */
 .seo-chartable td.c-form .c-native { display: block; font-size: 1.5rem; line-height: 1.2;
-  font-family: "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao", "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Sans Ol Chiki", "Noto Serif Georgian", "Noto Serif Armenian", "Noto Serif Ethiopic", "Noto Sans Syriac", "Noto Serif JP", "Noto Serif SC", "Noto Serif TC", "Noto Serif KR",
+  font-family: "Gentium Plus", "Noto Serif", "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao", "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Sans Ol Chiki", "Noto Serif Georgian", "Noto Serif Armenian", "Noto Serif Ethiopic", "Noto Sans Syriac", "Noto Serif JP", "Noto Serif SC", "Noto Serif TC", "Noto Serif KR",
     "Noto Serif Tangut", "Noto Sans Phags Pa", "Noto Sans Mongolian", "HanaMinA",
     "HanaMinB", "Nom Na Tong", serif; }
 .seo-chartable td.c-form .c-rom { display: block; font-size: .92rem; color: var(--muted); }
@@ -3900,7 +3904,7 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
 .seo-ex .ex-h { background: var(--card); border: 1px solid var(--line); border-radius: .6rem;
   padding: .55rem .7rem; }
 .seo-ex .ex-h .hc { font-size: 1.7rem; line-height: 1; margin: 0 0 .25rem; text-align: center;
-  font-family: "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao", "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Sans Ol Chiki", "Noto Serif Georgian", "Noto Serif Armenian", "Noto Serif Ethiopic", "Noto Sans Syriac", "Noto Serif SC", "Noto Serif TC", "Noto Serif JP", "Noto Serif KR", serif; }
+  font-family: "Gentium Plus", "Noto Serif", "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao", "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Sans Ol Chiki", "Noto Serif Georgian", "Noto Serif Armenian", "Noto Serif Ethiopic", "Noto Sans Syriac", "Noto Serif SC", "Noto Serif TC", "Noto Serif JP", "Noto Serif KR", serif; }
 .seo-ex .ex-h .hr { font-size: .85rem; margin: .15rem 0 0; line-height: 1.3; }
 .seo-ex .ex-h .hr .rl { display: inline-block; font-size: .62rem; color: var(--muted);
   border: 1px solid var(--line); border-radius: .4rem; padding: 0 .3rem; margin-inline-end: .3rem; }
@@ -3929,7 +3933,7 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
 .seo-cmp-tbl th.cmp-rowhead { color: var(--muted); font-weight: 600; font-size: .85rem;
   white-space: nowrap; position: sticky; inset-inline-start: 0; background: var(--bg); z-index: 1; }
 .seo-cmp-tbl th.cmp-rowhead .cmp-char { font-size: 1.5rem; line-height: 1;
-  font-family: "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao", "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Sans Ol Chiki", "Noto Serif Georgian", "Noto Serif Armenian", "Noto Serif Ethiopic", "Noto Sans Syriac", "Noto Serif SC", "Noto Serif TC", "Noto Serif JP", "Noto Serif KR", serif; }
+  font-family: "Gentium Plus", "Noto Serif", "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao", "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Sans Ol Chiki", "Noto Serif Georgian", "Noto Serif Armenian", "Noto Serif Ethiopic", "Noto Sans Syriac", "Noto Serif SC", "Noto Serif TC", "Noto Serif JP", "Noto Serif KR", serif; }
 /* Anchor (current language) column / header highlight. */
 .seo-cmp-tbl .cmp-anchor { background: color-mix(in srgb, var(--accent) 9%, var(--card)); }
 .seo-cmp-tbl thead th.cmp-anchor { background: color-mix(in srgb, var(--accent) 14%, var(--bg)); }
@@ -4119,12 +4123,26 @@ function seo_lang_ui(string $ui, string $altPath): void
   function init() {
     // Wire the picker pulldown.
     var sel = document.getElementById('seo-lang-pick');
-    if (sel) sel.addEventListener('change', function () {
-      var u = sel.value;
-      if (!supported(u)) return;
-      set(u);
-      if (u !== C.pageUi) go(u);
-    });
+    // Arrow keys on a closed <select> fire change on Windows/Linux: moving through
+    // the list must not jump to each language and save it. Keyboard choices
+    // commit on Enter or when the menu loses focus; mouse/touch picks at once (r26).
+    if (sel) {
+      var kb = false, pending = false;
+      var commit = function () {
+        pending = false;
+        var u = sel.value;
+        if (!supported(u)) return;
+        set(u);
+        if (u !== C.pageUi) go(u);
+      };
+      sel.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter') { e.preventDefault(); if (pending) commit(); return; }
+        kb = /^(Arrow|Page|Home|End)/.test(e.key) || e.key.length === 1;
+      });
+      sel.addEventListener('pointerdown', function () { kb = false; });
+      sel.addEventListener('change', function () { if (kb) { pending = true; return; } commit(); });
+      sel.addEventListener('blur', function () { if (pending) commit(); });
+    }
 
     var pref = get();
     if (pref && supported(pref)) {
@@ -4136,9 +4154,9 @@ function seo_lang_ui(string $ui, string $altPath): void
     var browserUi = detectBrowser();
     if (browserUi && browserUi !== C.pageUi) {
       showPopup(browserUi);
-    } else {
-      set(C.pageUi); // browser matches page or unsupported: remember silently.
     }
+    // No silent set() when the browser already matches: a saved language is only
+    // ever an explicit choice, or every later /fr/ link bounced back to /ja/ (r26).
   }
 
   if (document.readyState === 'loading') {

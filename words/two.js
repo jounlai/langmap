@@ -209,7 +209,7 @@ WORDS.two = {
       bn: ["দুই", "dui"],
       rkt: ["দুই", "dui"],
       ur: ["دو", "doː"],
-      ta: ["இரண்டு", "iɾaɳɖu"],
+      ta: ["இரண்டு", "iɾaɳɖɯ"],
       iru: ["reṇḍu", "reɳɖu"],
       en: ["two", "tuː"],
       en_scouse: ["two", "tuː"],

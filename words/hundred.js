@@ -515,7 +515,7 @@ WORDS.hundred = {
 
     // --- Dravidian and Indo-Aryan -------------------------------------------
     p_dra: ["*nūṟu", "nuːru"],
-    ta: ["நூறு", "nuːru"],
+    ta: ["நூறு", "nuːrɯ"],
     ml: ["നൂറ്", "nuːrɨ"],
     kn: ["ನೂರು", "nuːru"],
     te: ["వంద", "ʋan̪d̪a"],

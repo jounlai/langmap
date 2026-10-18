@@ -216,7 +216,7 @@ WORDS.red = {
     bn: ["লাল", "lal"],
     rkt: ["লাল", "lal"],
     ur: ["لال", "laːl"],
-    ta: ["சிவப்பு", "siʋappu"],
+    ta: ["சிவப்பு", "siʋapːɯ"],
     iru: ["sikappu", "sikappu"],
     en: ["red", "ɹɛd"],
     de: ["rot", "ʁoːt"],

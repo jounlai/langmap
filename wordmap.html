@@ -20,11 +20,11 @@
     <meta http-equiv="Pragma" content="no-cache">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LangMap — Word Map: 1,187 Languages on an Interactive World Map (IPA + Pronunciation)</title>
-    <meta name="description" content="Interactive world map of 67 key words (water, fire, sun, mother, hello, thanks…) in 1,187 languages with pronunciation — IPA, broad transcription, and romanization. 2D / 3D globe view, compare panel, language family filter, includes ancient and historical languages like Sumerian, Akkadian, Old Chinese, Vedic Sanskrit, Sogdian.">
+    <meta name="description" content="Interactive world map of 87 key words (water, fire, sun, mother, hello, thanks…) in 1,190 languages with pronunciation — IPA, broad transcription, and romanization. 2D / 3D globe view, compare panel, language family filter, includes ancient and historical languages like Sumerian, Akkadian, Old Chinese, Vedic Sanskrit, Sogdian.">
     <meta name="keywords" content="world language map, IPA, pronunciation, language comparison, linguistic atlas, language family, historical linguistics, ancient languages, Sumerian, Akkadian, Old Chinese, Vedic Sanskrit, dialectology, language typology">
     <meta name="author" content="Jounlai Cho, Heuron Inc.">
     <meta property="og:title" content="LangMap — Word Map: 1,187 Languages with Pronunciation">
-    <meta property="og:description" content="67 key words in 1,187 languages on an interactive world map — IPA, broad transcription, romanization, plus 3D globe view and a compare panel.">
+    <meta property="og:description" content="87 key words in 1,190 languages on an interactive world map — IPA, broad transcription, romanization, plus 3D globe view and a compare panel.">
     <meta property="og:type" content="website">
     <!-- No og:url, deliberately. This page's content is chosen by ?w=<word>,
          and a fixed og:url made Facebook replace every shared link with the
@@ -48,7 +48,7 @@
     <meta property="og:locale:alternate" content="zh_CN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="LangMap — Word Map: 1,187 Languages with Pronunciation">
-    <meta name="twitter:description" content="67 key words in 1,187 languages on an interactive world map — IPA, broad transcription, romanization, plus 3D globe view.">
+    <meta name="twitter:description" content="87 key words in 1,190 languages on an interactive world map — IPA, broad transcription, romanization, plus 3D globe view.">
     <meta name="twitter:image" content="https://langmaps.com/ogp-wordmap.png">
     <meta name="twitter:creator" content="@jounlai">
     <link rel="canonical" href="https://langmaps.com/wordmap.html">
@@ -68,7 +68,7 @@
         "@type": "WebPage",
         "name": "Word Map: 1,187 Languages with Pronunciation",
         "url": "https://langmaps.com/wordmap.html",
-        "description": "Interactive world map of 67 key words in 1,187 languages with IPA, broad transcription, and romanization.",
+        "description": "Interactive world map of 87 key words in 1,190 languages with IPA, broad transcription, and romanization.",
         "isPartOf": {"@id": "https://langmaps.com/#website"},
         "inLanguage": ["en", "ja", "ko", "zh", "yue", "vi", "th", "id", "hi", "de", "fr", "it", "es", "pt", "ru", "uk", "ar", "he", "sw"]
     }
@@ -101,7 +101,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=162">
+    <link rel="stylesheet" href="styles.css?v=163">
     <link rel="stylesheet" href="/vendor/leaflet-1.9.4/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts. Without these the characters render
          as tofu boxes: desktop Linux often ships the Noto historic fonts, but
@@ -126,7 +126,7 @@
          Solution: self-host a precisely subset Han-Nom serif font.
          - NomNaTong-subset.woff2: 40 codepoints, drawn from the Nôm
            Preservation Foundation's NomNaTong v5.18 (incl. 𠄩 two, 𠸜 name,
-           𣋀 star for vi_nom and 𠊎 ngai for hak_cn). Two were added
+           𣋀 (now 𣇟) star for vi_nom and 𠊎 ngai for hak_cn). Two were added
            2026-09-10: 㗂 (U+35C2) for the vi_nom NATIVE NAME, which is now
            written 字喃㗂越 in Nôm rather than in quốc ngữ, and 㹥 (U+3E65),
            which the word data has always used and no subset covered — the
@@ -142,7 +142,7 @@
             font-style: normal;
             font-weight: 400;
             font-display: swap;
-            src: url('fonts/NomNaTong-subset.woff2') format('woff2');
+            src: url('fonts/NomNaTong-subset.woff2?v=a3e1416714') format('woff2');
             unicode-range:
                 
                 
@@ -150,7 +150,7 @@
                 U+3575, U+35C2, U+3E65, U+5400, U+6E03, U+20027,
                 U+20129, U+2028E, U+2029B, U+20B20, U+20E1C, U+21419,
                 U+215B5, U+215F6, U+21795, U+21914, U+21A38, U+21B36,
-                U+21CDB, U+22051, U+22782, U+22785, U+232C0, U+23603,
+                U+21CDB, U+22051, U+22782, U+22785, U+231DF, U+232C0, U+23603,
                 U+23D13, U+243EC, U+2475E, U+2512B, U+265BB, U+269DC,
                 U+275B1, U+27E65, U+2910E, U+29218, U+2964B, U+29D5C,
                 U+2A635, U+2B5D2, U+27289;
@@ -440,6 +440,16 @@
         /* A selected label still shows a real focus ring (outline:none on .selected hid it). */
         .lang-label.selected:focus-visible { outline: 2px solid #1a73e8; outline-offset: 2px; }
         body.is-3d .globe-label .period { color: #ff9d8f; }   /* #c0392b was ~2:1 on the globe */
+
+        /* r26: route legend rows are buttons: 24px targets (2.5.8); the t-shirt
+           slideshow pauses on hover/focus and stops after one cycle (2.2.2); the
+           compare button hides while its panel is open (it showed through). */
+        .tea-legend-row[data-route] { min-height: 24px; display: flex; align-items: center; }
+        .tshirt-nudge-track { animation-iteration-count: 1 !important; }
+        .tshirt-nudge:hover .tshirt-nudge-track, .tshirt-nudge:focus-within .tshirt-nudge-track { animation-play-state: paused; }
+        body:has(.compare-panel.visible) .compare-fab { visibility: hidden; }
+        /* ar/he field names in the panel: no break inside a two-word label. */
+        .lang-info-panel table td:first-child { white-space: nowrap; }
 </style>
     <!-- Khitan Small Script isn't on Google Fonts (Google Fonts returns 400
          for "Noto Serif Khitan Small Script"). Load the Serif variant
@@ -3061,7 +3071,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=34"></script>
+    <script src="nav-short.js?v=35"></script>
     <style>
         /* Labels' Latin/IPA in one first font, so ɪ̯ / ɯ̥ clusters resolve there (r24). */
         /* WORDMAP-IPA:START — generated by tools/build_ipa_fonts.py; do not edit by hand.
@@ -3704,7 +3714,7 @@
 
     <!-- Credit watermark -->
     <div class="url-watermark">
-        <span class="credit-by">Made by</span> <a href="https://x.com/jounlai" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;">Jounlai Cho</a> @<a href="https://heuron.com" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;">Heuron Inc.</a> <a href="https://github.com/jounlai/langmap" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg> GitHub</a> · <a href="tree.html" id="wm-tree-link" title="Tree" aria-label="Tree" style="color:inherit;pointer-events:auto;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px" aria-hidden="true"><circle cx="12" cy="4" r="2"/><circle cx="6" cy="12" r="2"/><circle cx="18" cy="12" r="2"/><circle cx="6" cy="20" r="2"/><circle cx="18" cy="20" r="2"/><path d="M12 6v2M12 8h-6M12 8h6M6 14v4M18 14v4"/></svg></a>
+        <span class="credit-by">Made by</span> <a href="https://x.com/jounlai" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;">Jounlai Cho</a> @<a href="https://heuron.com" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;">Heuron Inc.</a> <a href="https://github.com/jounlai/langmap" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg> GitHub</a> · <a href="tree.html" id="wm-tree-link" title="Tree" aria-label="Tree" style="color:inherit;pointer-events:auto;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px" aria-hidden="true"><circle cx="12" cy="4" r="2"/><circle cx="6" cy="12" r="2"/><circle cx="18" cy="12" r="2"/><circle cx="6" cy="20" r="2"/><circle cx="18" cy="20" r="2"/><path d="M12 6v2M12 8h-6M12 8h6M6 14v4M18 14v4"/></svg></a> · <a href="changelog.html" class="credit-icon" data-k="changelog" title="Changelog" aria-label="Changelog" style="color:inherit;pointer-events:auto;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/><path d="M12 7v5l3 2"/></svg></a> · <a href="progress.html" class="credit-icon" data-k="progress" title="Coverage" aria-label="Coverage" style="color:inherit;pointer-events:auto;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></a>
     </div>
 
     <!-- Language info panel -->
@@ -3783,7 +3793,7 @@
     </script>
     <script src="wordmap_data.js?v=346"></script>
     <script src="lang_attention.js?v=3"></script>
-    <script src="word_manifest.js?v=964"></script>
+    <script src="word_manifest.js?v=965"></script>
     <script src="word_labels.js?v=71"></script>
     <script>
         /* Cache-buster registry. It MUST be declared here, above the per-word
@@ -3804,22 +3814,22 @@
            per-word loader can read it", which was the intent all along — only
            the order was wrong. */
         const WM_ASSET_VERSION = {
-            styles:   162,
+            styles:   163,
             data:      346,
             metaI18n:  17,
             filter:    63,
             names:   203,
             meta:     422,
             trivia:   45,
-            triviaI18n: 28,
-            words:      964,
-            langWords:    677,
+            triviaI18n: 29,
+            words:      965,
+            langWords:    678,
             labels:      71,
             metaI18nCoverage: 13,
             metaI18nCoverage2: 2,
-            metaI18nCoverage3: 9,
+            metaI18nCoverage3: 10,
             metaI18nEngine: 1,
-            metaI18nUi: 8,
+            metaI18nUi: 9,
         };
         window.WM_ASSET_VERSION = WM_ASSET_VERSION;
     </script>
@@ -6690,6 +6700,9 @@
             if (window.requestIdleCallback) requestIdleCallback(run, { timeout: 1500 }); else setTimeout(run, 300);
         }
         function updateMarkers(wordId) {
+            // A label that has keyboard focus is rebuilt below: put focus back on its
+            // new copy, or a redraw (Back, filter, word switch) dropped it to <body> (r26).
+            const _focusCode = (() => { const a = document.activeElement; const l = a && a.closest && a.closest('#map .lang-label'); return l ? l.dataset.code : null; })();
             // Desktop always (the first pan was ~18 s of font relayouts); on a
             // phone only when every matching label is drawn — a filter or the
             // historical map — since the batch costs ~3 MB of fonts there.
@@ -7285,23 +7298,60 @@
                 // once every rendered label reached this pass (r25). One hidden
                 // batch measures them all in a single layout.
                 const _hw = {}, _hh = {};
+                // Each label's real size: the fixed box (60% of labelW) is narrower
+                // than long names, so they overprinted (r25). Measured with canvas
+                // measureText from each line's computed font, cached per zoom class:
+                // the r25 hidden-DOM batch forced a ~1 s layout on desktop load and
+                // ~0.4 s per word switch (r26). Vertical labels and any line class
+                // not seen yet still go through the DOM.
                 try {
-                    const _probe = document.createElement('div');
-                    _probe.style.cssText = 'position:absolute;left:-10000px;top:0;visibility:hidden;pointer-events:none';
+                    if (typeof updateZoomClass === 'function') updateZoomClass();   // zoomend order: the class must match this zoom before measuring (r26)
+                    const _ctn = map.getContainer();
+                    const _fkey = (_ctn.className.match(/zoom-\w+/) || [''])[0] + '|' + getComputedStyle(document.documentElement).getPropertyValue('--label-scale') + '|' + document.body.className;
+                    const _tpl = document.createElement('template');
                     let _ph = '';
                     for (const c of _rendered) {
                         const L0 = LANG_DATA[c], e = L0.words && L0.words[wordId], una = unattestedSet.has(c);
-                        _ph += '<div style="position:absolute;white-space:nowrap">' + buildLabelHtml(c, una ? '—' : e[0], una ? '—' : e[1], getDisplayName(c, L0), '', una ? 'lang-label unattested' : 'lang-label') + '</div>';
+                        _ph += buildLabelHtml(c, una ? '—' : e[0], una ? '—' : e[1], getDisplayName(c, L0), '', una ? 'lang-label unattested' : 'lang-label');
                     }
-                    _probe.innerHTML = _ph;
-                    map.getContainer().appendChild(_probe);
-                    const kids = _probe.children;
-                    for (let i = 0; i < _rendered.length; i++) {
-                        const el = kids[i].firstElementChild || kids[i];
-                        _hw[_rendered[i]] = Math.max(_bbHalfW, el.offsetWidth / 2 - 2);
-                        _hh[_rendered[i]] = Math.max(_bbHalfH, el.offsetHeight / 2 - 2);
+                    _tpl.innerHTML = _ph;
+                    const _roots = Array.from(_tpl.content.children);
+                    let _F = window.__wmLabelFonts;
+                    const _needSample = (root) => !_F || _F.key !== _fkey || Array.from(root.children).some((ch) => !(ch.classList[0] in _F.font));
+                    const _sample = (roots) => {
+                        if (!_F || _F.key !== _fkey) _F = window.__wmLabelFonts = { key: _fkey, font: {}, lh: {}, padX: 0, padY: 0 };
+                        const box = document.createElement('div');
+                        box.style.cssText = 'position:absolute;left:-10000px;top:0;visibility:hidden;pointer-events:none';
+                        roots.forEach((r) => { const w = document.createElement('div'); w.style.cssText = 'position:absolute;white-space:nowrap'; w.appendChild(r.cloneNode(true)); box.appendChild(w); });
+                        _ctn.appendChild(box);
+                        for (const w of box.children) {
+                            const r = w.firstElementChild, rc = getComputedStyle(r);
+                            _F.padX = (parseFloat(rc.paddingLeft) || 0) + (parseFloat(rc.paddingRight) || 0) + (parseFloat(rc.borderLeftWidth) || 0) + (parseFloat(rc.borderRightWidth) || 0);
+                            _F.padY = (parseFloat(rc.paddingTop) || 0) + (parseFloat(rc.paddingBottom) || 0) + (parseFloat(rc.borderTopWidth) || 0) + (parseFloat(rc.borderBottomWidth) || 0);
+                            for (const ch of r.children) { const k = ch.classList[0]; if (!(k in _F.font)) { _F.font[k] = getComputedStyle(ch).font; _F.lh[k] = ch.offsetHeight; } }
+                        }
+                        box.remove();
+                    };
+                    const _first = _roots.filter((r) => !r.classList.contains('vertical') && _needSample(r));
+                    if (_first.length) _sample(_first.slice(0, 4));
+                    const _ctx = window.__wmMeasureCtx || (window.__wmMeasureCtx = document.createElement('canvas').getContext('2d'));
+                    const _dom = [];
+                    _roots.forEach((r, i) => {
+                        const c = _rendered[i];
+                        if (r.classList.contains('vertical') || _needSample(r)) { _dom.push(i); return; }
+                        let w = 0, h = _F.padY;
+                        for (const ch of r.children) { const k = ch.classList[0]; _ctx.font = _F.font[k]; w = Math.max(w, _ctx.measureText(ch.textContent).width); h += _F.lh[k]; }
+                        _hw[c] = Math.max(_bbHalfW, (w + _F.padX) / 2 - 2);
+                        _hh[c] = Math.max(_bbHalfH, h / 2 - 2);
+                    });
+                    if (_dom.length) {
+                        const _probe = document.createElement('div');
+                        _probe.style.cssText = 'position:absolute;left:-10000px;top:0;visibility:hidden;pointer-events:none';
+                        _dom.forEach((i) => { const w = document.createElement('div'); w.style.cssText = 'position:absolute;white-space:nowrap'; w.appendChild(_roots[i].cloneNode(true)); _probe.appendChild(w); });
+                        _ctn.appendChild(_probe);
+                        Array.from(_probe.children).forEach((w, k) => { const el = w.firstElementChild, c = _rendered[_dom[k]]; _hw[c] = Math.max(_bbHalfW, el.offsetWidth / 2 - 2); _hh[c] = Math.max(_bbHalfH, el.offsetHeight / 2 - 2); });
+                        _probe.remove();
                     }
-                    _probe.remove();
                 } catch (_) {}
                 const _placed = [];
                 const _free = (x, y, hw, hh) => {
@@ -7383,6 +7433,10 @@
                 marker.on('click', (e) => activateLabel(code, e && e.originalEvent));
                 marker.addTo(map);
                 markers.push(marker);
+            }
+            if (_focusCode && (!document.activeElement || document.activeElement === document.body)) {
+                const _nl = document.querySelector('#map .lang-label[data-code="' + CSS.escape(_focusCode) + '"]');
+                if (_nl) try { _nl.focus({ preventScroll: true }); } catch (_) {}
             }
             // Re-apply selected highlight + connector after re-render
             // (markers are torn down and re-added each updateMarkers call).
@@ -7790,7 +7844,8 @@
                 // map on the locale default, the label off screen (r24): go there.
                 const _noView = !params.get('p') && !(params.get('lat') && params.get('lng'));
                 // Defer until after initial markers are rendered.
-                setTimeout(() => { if (_noView) { try { centerLangOnMap(langCode, 5); } catch (_) {} } showLangInfo(langCode); }, 100);
+                clearTimeout(window.__langRestoreTimer);
+                window.__langRestoreTimer = setTimeout(() => { if (_noView) { try { centerLangOnMap(langCode, 5); } catch (_) {} } showLangInfo(langCode, { fromHash: true }); }, 100);
             } else {
                 // Back/forward landed on a state with no open language → close the
                 // panel so the URL reflects what's shown. `infoPanel` is a `const`
@@ -7859,7 +7914,10 @@
         // rewrite it from the live state instead of restoring it (r25).
         var _wmBackRewrite = false;
         function applyHashState() {
-            if (_wmBackRewrite) { _wmBackRewrite = false; _lastGame = null; updateHash(); return; }
+            // The same step back also fires hashchange: skip that one too, or its
+            // full re-apply redraws the markers and drops keyboard focus (r26).
+            if (window.__skipHashOnce != null && location.hash === window.__skipHashOnce) { window.__skipHashOnce = null; return; }
+            if (_wmBackRewrite) { _wmBackRewrite = false; _lastGame = null; updateHash(); window.__skipHashOnce = location.hash; setTimeout(() => { window.__skipHashOnce = null; }, 300); return; }
             if (_applyingHashState) return;
             _applyingHashState = true;
             try {
@@ -9179,7 +9237,10 @@
                     // (where present) to surface qualitative detail like
                     // "L1 ≈ 380M; L2 ≈ 1.1B" without crowding the main cell.
                     if (sc && sc.notes) {
-                        speakerCell += `<div${/^en/.test(String(uiLang || 'en')) ? '' : ' lang="en"'} style="margin-top:2px;font-size:10px;color:#5f6368;line-height:1.4">${escapeHtml(sc.notes)}</div>`;
+                        // Translated where the UI's slice has the note (r26); English, marked as such, otherwise.
+                        const _u = String(uiLang || 'en'), _mi = (typeof META_I18N !== 'undefined' && META_I18N) || {};
+                        const _nt = /^en/.test(_u) ? null : ((_mi[_u] && _mi[_u][sc.notes]) || (_mi[_u.split('_')[0]] && _mi[_u.split('_')[0]][sc.notes]) || null);
+                        speakerCell += `<div${/^en/.test(_u) || _nt ? '' : ' lang="en"'} style="margin-top:2px;font-size:10px;color:#5f6368;line-height:1.4">${escapeHtml(_nt || sc.notes)}</div>`;
                     }
                     html += `<tr><td>${escapeHtml(wt('speakers'))}</td><td>${speakerCell}</td></tr>`;
                 }
@@ -9686,6 +9747,9 @@
             if (opener && opener !== document.body) _lastDialogOpener = opener;
             // UX fix #1: toggle — second click on same code closes the modal.
             if (infoPanel.classList.contains('visible') && infoPanel.dataset.code === code) {
+                // Restoring from the URL (Back/Forward fire popstate and hashchange,
+                // two deferred restores) must not toggle it shut (r26).
+                if (opts && opts.fromHash) return;
                 closeInfoPanel();
                 return;
             }
@@ -9708,7 +9772,8 @@
             // other callers replace (default) to avoid history bloat.
             // Opening the panel from closed is a step the phone Back gesture should
             // undo (it left the site, r25); switching languages inside it is not.
-            const _openStep = !_wmPanelEntry && !(window.__langmap && window.__langmap.isApplyingHash && window.__langmap.isApplyingHash());
+            if (opts && opts.fromHash) _wmPanelEntry = !!(history.state && (history.state.wmPanel || history.state.hmPanel));   // Forward onto an entry we pushed
+            const _openStep = !_wmPanelEntry && !(opts && opts.fromHash) && !(window.__langmap && window.__langmap.isApplyingHash && window.__langmap.isApplyingHash());
             updateHash(opts && opts.push ? { push: true } : _openStep ? { push: true, state: { wmPanel: 1 } } : undefined);  // persist `lang` to URL so reload restores
             if (_openStep) _wmPanelEntry = true;
             // Structured meta (lite, all langs) + THIS language's description.
@@ -10793,10 +10858,10 @@
             const srcList = art.sources || [];
             if (srcList.length) {
                 const items = srcList.map(s => {
-                    if (typeof s === 'string') return '<li dir="auto">' + s + '</li>';   // dir=auto: a Latin citation keeps its full stop at the end in ar/he (r25)
+                    if (typeof s === 'string') return '<li><bdi>' + s + '</bdi></li>';   // dir=auto: a Latin citation keeps its full stop at the end in ar/he (r25)
                     const safeUrl = (s.url || '').replace(/"/g, '&quot;');
                     const safeText = s.text || s.url || '';
-                    return `<li dir="auto"><a href="${safeUrl}" target="_blank" rel="noopener noreferrer">${safeText}</a></li>`;
+                    return `<li><bdi><a href="${safeUrl}" target="_blank" rel="noopener noreferrer">${safeText}</a></bdi></li>`;   // bdi: the bullet stays with the text in ar/he (r26)
                 }).join('');
                 sources.innerHTML =
                     `<span class="trivia-sources-label">${i18n('triviaSources')}</span>` +
@@ -12879,7 +12944,7 @@
     <!-- "My languages" share-card feature; poster_geo.js supplies the Natural-Earth
          projection its world-map card is drawn with. -->
     <script src="poster_geo.js?v=12"></script>
-    <script src="my-languages.js?v=40"></script>
+    <script src="my-languages.js?v=41"></script>
     <!-- Language Master game (🏅 in the Play menu). master.js is parked as
          text/plain (not fetched at first paint, as hanmap_trivia.js is) and
          injected the first time the game opens. The stub below only labels

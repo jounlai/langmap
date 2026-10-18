@@ -152,6 +152,16 @@ function main() {
   const missing = [...referenced].filter((c) => !names[c]);
 
   const out = { articles: all, tags, names, uiLangs: UI_LANGS };
+  // --check: compare with the committed export instead of writing it. The SEO
+  // trivia pages served a month-old text because nobody re-ran this (r26).
+  if (process.argv.includes('--check')) {
+    const f = path.join(OUT_DIR, 'trivia_seo.json');
+    const cur = fs.existsSync(f) ? fs.readFileSync(f, 'utf8') : '';
+    const stale = cur === JSON.stringify(out) ? 0 : 1;
+    console.log(`stale: ${stale}`);
+    if (stale) console.log('  run: node tools/export_trivia_seo.js');
+    process.exit(0);
+  }
   fs.writeFileSync(path.join(OUT_DIR, 'trivia_seo.json'), JSON.stringify(out));
 
   const coverage = {};

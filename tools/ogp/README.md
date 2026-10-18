@@ -48,6 +48,7 @@ in its `CFG` object; `?p=<page>` selects one). It reads a cleaned map crop
    - hanmap → `hanmap.html` (character 一)
    - namemap→ `namemap.html#n=john&l=ja&s=110&c=50,14&z=4`
    - tree   → `tree.html`
+   - timemap→ `timemap.html#ui=en&c=25,40&z=3`, header / panel / controls hidden, crop (380,170)-(1540,800) (r26)
    The tree page needs `?ui=ja` (the UI-language param is `ui`, not `l`) and a
    tall window — `--window-size=760,1220 --force-device-scale-factor=2` — so
    that 28 family rows fit above the footer. Scale the 2x capture to 0.625 of

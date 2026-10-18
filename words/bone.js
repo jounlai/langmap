@@ -196,7 +196,7 @@ WORDS.bone = {
     bn: ["হাড়", "haɽ"],
     rkt: ["হাড্ডী", "haɖːi"],
     ur: ["ہڈی", "ɦəɖːiː"],
-    ta: ["எலும்பு", "elumbu"],
+    ta: ["எலும்பு", "elumbɯ"],
     iru: ["elumbu", "elumbu"],
     en: ["bone", "bəʊn"],
     de: ["Knochen", "ˈknɔxən"],

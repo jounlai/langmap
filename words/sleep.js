@@ -136,7 +136,7 @@ WORDS.sleep = {
     sa: ["स्वपिति", "sʋɐpiti"],
     bn: ["ঘুমানো", "ɡʱumano"],
     ur: ["سونا", "soːnaː"],
-    ta: ["தூங்கு", "t̪uːŋɡu"],
+    ta: ["தூங்கு", "t̪uːŋɡɯ"],
     en: ["sleep", "sliːp"],
     de: ["schlafen", "ˈʃlaːfn̩"],
     fr: ["dormir", "dɔʁmiʁ"],

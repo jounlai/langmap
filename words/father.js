@@ -209,7 +209,7 @@ WORDS.father = {
     bn: ["বাবা", "baba"],
     rkt: ["বাও", "bao"],
     ur: ["والد", "ʋaːlɪd"],
-    ta: ["அப்பா", "appaː"],
+    ta: ["அப்பா", "apːaː"],
     iru: ["amme", "amːe"],
     en: ["father", "ˈfɑːðə"],
     en_scouse: ["father", "ˈfɑːðə"],

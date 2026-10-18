@@ -219,7 +219,7 @@ WORDS.blood = {
     bn: ["রক্ত", "rɔkto"],
     rkt: ["রক্ত", "rɔkto"],
     ur: ["خون", "xuːn"],
-    ta: ["இரத்தம்", "iɾat̪tam"],
+    ta: ["இரத்தம்", "iɾat̪ːam"],
     iru: ["netaru", "netaru"],
     en: ["blood", "blʌd"],
     de: ["Blut", "bluːt"],

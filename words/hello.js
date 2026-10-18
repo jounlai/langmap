@@ -209,7 +209,7 @@ WORDS.hello = {
     bn: ["নমস্কার", "nɔmoʃkaɾ"],
     rkt: ["হামার সালাম", "hamaɾ salam"],
     ur: ["السلام علیکم", "əsːalaːm əlaɪkʊm"],
-    ta: ["வணக்கம்", "ʋaɳakkam"],
+    ta: ["வணக்கம்", "ʋaɳakːam"],
     iru: ["vannakkam", "vanːakːam"],
     en: ["hello", "həˈləʊ"],
     en_scouse: ["hello", "həˈləʊ"],

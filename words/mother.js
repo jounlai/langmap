@@ -209,7 +209,7 @@ WORDS.mother = {
     bn: ["মা", "ma"],
     rkt: ["মাও", "mao"],
     ur: ["ماں", "mãː"],
-    ta: ["அம்மா", "ammaː"],
+    ta: ["அம்மா", "amːaː"],
     iru: ["ammā", "amːaː"],
     en: ["mother", "ˈmʌðə"],
     en_scouse: ["mother", "ˈmʊðə"],

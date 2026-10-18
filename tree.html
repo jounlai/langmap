@@ -70,7 +70,7 @@
         gtag('config', 'G-JZ7JJBCCHG');
     }
 </script>
-<link rel="stylesheet" href="styles.css?v=162">
+<link rel="stylesheet" href="styles.css?v=163">
 <!-- Noto Serif Tibetan for native names of Tibetic languages
      (bo / xct / dz / khg / xsr / sik / lbj / bft / xkz / xct_litpr).
      Without this, Tibetan script in .node.leaf .native renders via OS
@@ -304,8 +304,10 @@
     }
 
     /* .back-to-top styles live in styles.css (shared with index.html). */
+    .tree-credit { margin: 28px 0 12px; text-align: center; font-size: 12px; color: #6b6b6b; }
+    .tree-credit a { color: inherit; }
 </style>
-    <script src="nav-short.js?v=34"></script>
+    <script src="nav-short.js?v=35"></script>
 </head>
 <body>
     <header class="site-header-bar">
@@ -600,7 +602,7 @@ generates lang_names/<ui>.js from lang_names.js. -->
         if (!_enginePromise) _enginePromise = _loadJS('meta_i18n_engine.js?v=1');
         // per-UI writes META_I18N[ui] (the const from the lite file) + fills
         // META_I18N_ATOMS — engine must run first (async=false guarantees it).
-        _i18nByUi[ui] = Promise.all([_enginePromise, _loadJS('meta_i18n/' + ui + '.js?v=8')]);
+        _i18nByUi[ui] = Promise.all([_enginePromise, _loadJS('meta_i18n/' + ui + '.js?v=9')]);
         return _i18nByUi[ui];
     }
     // The tree only reads structured fields (family / parentCode / speakers) +
@@ -1292,6 +1294,7 @@ generates lang_names/<ui>.js from lang_names.js. -->
     <script src="/pwa.js?v=2"></script>
     <script src="share-button.js?v=6"></script>
     <script src="lang-picker.js?v=8"></script>
+    <p class="tree-credit"><span class="credit-by">Made by</span> <a href="https://x.com/jounlai" target="_blank" rel="noopener">Jounlai Cho</a> @<a href="https://heuron.com" target="_blank" rel="noopener">Heuron Inc.</a> · <a href="https://github.com/jounlai/langmap" target="_blank" rel="noopener">GitHub</a> · <a href="changelog.html" class="credit-icon" data-k="changelog" title="Changelog" aria-label="Changelog"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/><path d="M12 7v5l3 2"/></svg></a> · <a href="progress.html" class="credit-icon" data-k="progress" title="Coverage" aria-label="Coverage"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></a></p>
     </main>
 </body>
 </html>

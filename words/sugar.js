@@ -1511,7 +1511,7 @@ WORDS.sugar = {
     sa: ["शर्करा", "ɕɐɾkɐɾaː"], // was ["शर्करा", "ɕɐrkɐraː"] (vi dialect rules 2026-10-06)
     bn: ["চিনি", "tʃini"],
     ur: ["چینی", "tʃiːniː"],
-    ta: ["சர்க்கரை", "sarkkaɾai"],
+    ta: ["சர்க்கரை", "sarkːaɾai"],
     en: ["sugar", "ˈʃʊɡə"],
     de: ["Zucker", "ˈtsʊkɐ"],
     fr: ["sucre", "sykʁ"],

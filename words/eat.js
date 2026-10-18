@@ -209,7 +209,7 @@ WORDS.eat = {
     bn: ["খাওয়া", "kʰaoa"],
     rkt: ["খাওয়া", "kʰawa"],
     ur: ["کھانا", "kʰaːnaː"],
-    ta: ["சாப்பிடு", "saːppiɖu"],
+    ta: ["சாப்பிடு", "saːpːiɖɯ"],
     iru: ["činnu", "tʃinːu"],
     en: ["eat", "iːt"],
     en_scouse: ["eat", "iːt̪s"],

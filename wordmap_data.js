@@ -3740,7 +3740,7 @@ const LANG_DATA = {
   // Buddhist counterpart of Quranic Arabic recitation and Pali monastic
   // chanting traditions. Anchored at Dharamsala (Indian-exile Tibetan
   // pedagogical center; modern Geluk authoritative tradition).
-  xct_litpr: { name: 'Liturgical Classical Tibetan', native: 'ཆོས་སྐད (གྲྭ་པའི)', lat: 32.22, lng: 76.32,
+  xct_litpr: { name: 'Liturgical Classical Tibetan', native: 'གྲྭ་པའི་ཆོས་སྐད', lat: 32.22, lng: 76.32,
 },
   xct: { name: 'Classical Tibetan', native: 'ཆོས་སྐད', lat: 29.65, lng: 91.10, // Lhasa area
 
@@ -4386,7 +4386,7 @@ const LANG_DATA = {
   wuu_nb: { name: 'Ningbo Wu', native: '宁波话', lat: 29.87, lng: 121.55, // Ningbo
 },
   // Yue Chinese (Western Guangdong)
-  yue_gz: { name: 'Huazhou Yue', native: '化州话（上江话）', lat: 21.67, lng: 110.64, // Gaozhou
+  yue_gz: { name: 'Huazhou Yue', native: '化州话', lat: 21.67, lng: 110.64, // Gaozhou
 },
   // Tai Lue (Sipsongpanna)
   khb: { name: 'Tai Lue', native: 'ᦅᧄᦺᦑᦟᦹᧉ', lat: 22.01, lng: 100.80, // Jinghong, Sipsongpanna

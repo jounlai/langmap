@@ -3758,7 +3758,9 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
 .seo-index-list li { break-inside: avoid; margin: 0 0 .35rem; }
 /* One-character labels (水, 火) were 16x19px tap targets (Lighthouse target-size). */
 .seo-otherwords a { display: inline-block; min-width: 24px; min-height: 24px; text-align: center; }
-.seo-index-list a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+/* No underline on language-name lists (owner 2026-09-21: 「言語に下線があるのもちょっと圧が強い」) */
+.seo-index-list a { color: var(--accent); text-decoration: none; text-underline-offset: 2px; }
+.seo-index-list a:hover, .seo-index-list a:focus-visible { text-decoration: underline; }
 .seo-index-list .code { color: var(--muted); font-size: .85rem; }
 /* Trivia ("読み物") pages: long-form prose, and the in-article map controls
    that seo/trivia.php turns from <button> into a label plus real links. */
@@ -3881,7 +3883,9 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
 .seo-related .seo-cmp .note { color: var(--muted); font-size: .85rem; align-self: center; }
 .seo-related .seo-siblings { columns: 2 14rem; gap: 2rem; padding: 0; list-style: none; margin: .5rem 0 0; }
 .seo-related .seo-siblings li { break-inside: avoid; margin: 0 0 .35rem; }
-.seo-related .seo-siblings a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+/* No underline on language-name lists (owner 2026-09-21: 「言語に下線があるのもちょっと圧が強い」) */
+.seo-related .seo-siblings a { color: var(--accent); text-decoration: none; text-underline-offset: 2px; }
+.seo-related .seo-siblings a:hover, .seo-related .seo-siblings a:focus-visible { text-decoration: underline; }
 .seo-related .seo-siblings .code { color: var(--muted); font-size: .85rem; }
 [dir="rtl"] { text-align: right; }
 .seo-langbar { display: flex; justify-content: flex-end; align-items: center;

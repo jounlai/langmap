@@ -40,7 +40,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=165">
+    <link rel="stylesheet" href="styles.css?v=166">
     <style>
         .changelog {
             max-width: 760px;
@@ -152,6 +152,26 @@
         </div>
 
         <nav class="month-nav">Months: <strong>2026-10</strong> · <a href="changelog-202609.html">2026-09</a> · <a href="changelog-202608.html">2026-08</a> · <a href="changelog-202607.html">2026-07</a> · <a href="changelog-202606.html">2026-06</a> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
+
+        <div class="entry">
+            <div class="date">2026-10-18 — Owner decisions put back, and now checked automatically 🔒</div>
+            <ul>
+                <li>Some earlier review fixes had quietly undone choices the owner made on purpose. These are restored:
+                    <ul>
+                        <li>In simple mode on a PC, langmaps.com stays at the right of the header at every window width.</li>
+                        <li>On short phones held sideways, the Word Map settings window stops above the Compare button again.</li>
+                        <li>Language names carry no brackets: Yangzhou and Huazhou on the Han Map, Early Mandarin on the Word Map, and two native names.</li>
+                        <li>The Han Map keeps the short name Middle Korean.</li>
+                        <li>The help for the Word Map's historical view says what it does: it shows historical languages only.</li>
+                        <li>Lists of languages on the language pages are no longer underlined; the underline appears when you point at one.</li>
+                        <li>When zoomed in on the Han Map, a label with no room near its place is hidden instead of drifting far away.</li>
+                        <li>The Han Map's name in the tree page menu reads the same as on every other page.</li>
+                        <li>Words: Puerto Rican Spanish keeps its dropped d (mai, pai). Central Vietnamese r is ɹ again. English "fire" has no stress mark. The "lol" map now shows dialects such as US English, as every other partial word already did.</li>
+                    </ul>
+                </li>
+                <li>A new automatic check now runs these decisions on every change, so a later fix cannot undo them again without anyone noticing.</li>
+            </ul>
+        </div>
 
         <div class="entry">
             <div class="date">2026-10-18 — Clearer focus, Arabic and Hebrew fixes ♿</div>

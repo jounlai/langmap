@@ -106,7 +106,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=165">
+    <link rel="stylesheet" href="styles.css?v=166">
     <link rel="stylesheet" href="/vendor/leaflet-1.9.4/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -3533,9 +3533,9 @@
         }
     })();
     </script>
-    <script src="wordmap_data.js?v=346"></script>
+    <script src="wordmap_data.js?v=347"></script>
     <script src="lang_attention.js?v=3"></script>
-    <script src="hanmap_data.js?v=198"></script>
+    <script src="hanmap_data.js?v=199"></script>
     <script>
         // Hanmap stubs: replace the per-word loader. wordmap.html loads
         // ~20 individual JS files under words/<id>.js (one per concept) and
@@ -3573,8 +3573,8 @@
     will actually see (~12 KB gzipped). tools/build_lang_names.js
     generates lang_names/<ui>.js from lang_names.js. -->
     <script src="lang_names_shim.js?v=4"></script>
-    <script src="lang_names/en.js?v=203"></script>
-    <script>window.__langNamesVersion(203); window.__langNamesBoot();</script>
+    <script src="lang_names/en.js?v=204"></script>
+    <script>window.__langNamesVersion(204); window.__langNamesBoot();</script>
     <script>
     // HanMap-specific display-name overrides.
     // THIS IS THE MECHANISM for "one code, two maps, two meanings". lang_names.js
@@ -3593,28 +3593,32 @@
     // read "mittelkoreanisch (Sino)". It is now named after the work itself.
     (function applyHanmapNameOverrides() {
       if (typeof LANG_NAMES !== 'object' || !LANG_NAMES) return;
+      // No brackets in names (owner 2026-09-13): zh_jh is the Yangzhou row, so it
+      // is named after the city like zh_nj / zh_cd; yue_gz uses lang_names'
+      // 化州粵語. ko_mid keeps the short 中世韓国語 the owner settled on
+      // (035d8a6f) — the Word Map's 後期中世韓国語 rename is not this page's.
       const OV = {
-        ja:        { zh_han: '上古漢語', yue_gz: '化州粤語（高陽片）', zh_jh: '江淮官話（揚州）' },
-        ko:        { zh_han: '상고한어', yue_gz: '화저우 웨어 (高陽片)', zh_jh: '장화이관화 (양저우)' },
-        zh:        { zh_han: '上古汉语', yue_gz: '化州粤语（高阳片）', zh_jh: '江淮官话（扬州）' },
-        'zh-hant': { zh_han: '上古漢語' },
-        yue:       { zh_han: '上古漢語', yue_gz: '化州粵語（高陽片）', zh_jh: '江淮官話（揚州）' },
-        en:        { zh_han: 'Old Chinese', yue_gz: 'Yue (Huazhou, Gaoyang)', zh_jh: 'Jianghuai Mandarin (Yangzhou)' },
-        fr:        { zh_han: 'Chinois archaïque', yue_gz: 'Yue de Huazhou (Gaoyang)', zh_jh: 'Mandarin Jianghuai (Yangzhou)' },
-        de:        { zh_han: 'Altchinesisch', yue_gz: 'Huazhou-Yue (Gaoyang)', zh_jh: 'Jianghuai-Mandarin (Yangzhou)' },
-        es:        { zh_han: 'Chino arcaico', yue_gz: 'Yue de Huazhou (Gaoyang)', zh_jh: 'Mandarín Jianghuái (Yangzhou)' },
-        pt:        { zh_han: 'Chinês arcaico', yue_gz: 'Yue de Huazhou (Gaoyang)', zh_jh: 'Mandarim Jianghuai (Yangzhou)' },
-        it:        { zh_han: 'Cinese arcaico', yue_gz: 'Yue di Huazhou (Gaoyang)', zh_jh: 'Mandarino Jianghuai (Yangzhou)' },
-        id:        { zh_han: 'Tionghoa Kuno', yue_gz: 'Yue Huazhou (Gaoyang)', zh_jh: 'Mandarin Jianghuai (Yangzhou)' },
-        ms:        { zh_han: 'Tionghoa Kuno', yue_gz: 'Yue (Huazhou, Gaoyang)', zh_jh: 'Jianghuai Mandarin (Yangzhou)' },
-        sw:        { zh_han: 'Kichina cha Kale', yue_gz: 'Yue ya Huazhou (Gaoyang)', zh_jh: 'Mandarin ya Jianghuai (Yangzhou)' },
-        vi:        { zh_han: 'Thượng cổ Hán ngữ', yue_gz: 'Việt ngữ Hóa Châu (Cao Dương)', zh_jh: 'Quan thoại Giang Hoài (Dương Châu)' },
-        ru:        { zh_han: 'Древнекитайский', yue_gz: 'Хуачжоуский юэ (Гаоян)', zh_jh: 'Цзянхуайский мандарин (Янчжоу)' },
-        uk:        { zh_han: 'Давньокитайська', yue_gz: 'Хуачжоуський юе (Гаоян)', zh_jh: 'Цзянхуайський мандарин (Янчжоу)' },
-        ar:        { zh_han: 'الصينية القديمة', yue_gz: 'يُوئيه هواتشو (قاويانغ)', zh_jh: 'ماندرين جيانغهوآي (يانغتشو)' },
-        he:        { zh_han: 'סינית עתיקה', yue_gz: "יואה הואג'ואו (גאויאנג)", zh_jh: "מנדרינית ג'יאנגהואי (יאנגג'ואו)" },
-        th:        { zh_han: 'ภาษาจีนโบราณ', yue_gz: 'ภาษาเยว่ฮว่าโจว (กลุ่มเกาหยาง)', zh_jh: 'ภาษาจีนกลางเจียงหวาย (หยางโจว)' },
-        hi:        { zh_han: 'प्राचीन चीनी', yue_gz: 'हुआझोउ युए (गाओयांग)', zh_jh: 'जियांगहुआई मंदारिन (यांगझोउ)' },
+        ja:        { zh_han: '上古漢語', zh_jh: '揚州話', ko_mid: '中世韓国語' },
+        ko:        { zh_han: '상고한어', zh_jh: '양저우 관화', ko_mid: '중세 한국어' },
+        zh:        { zh_han: '上古汉语', zh_jh: '扬州话', ko_mid: '中世韩国语' },
+        'zh-hant': { zh_han: '上古漢語', zh_jh: '揚州話', ko_mid: '中世韓國語' },
+        yue:       { zh_han: '上古漢語', zh_jh: '揚州話', ko_mid: '中世韓國語' },
+        en:        { zh_han: 'Old Chinese', zh_jh: 'Yangzhou Mandarin', ko_mid: 'Middle Korean' },
+        fr:        { zh_han: 'Chinois archaïque', zh_jh: 'Mandarin de Yangzhou', ko_mid: 'Moyen coréen' },
+        de:        { zh_han: 'Altchinesisch', zh_jh: 'Yangzhou-Mandarin', ko_mid: 'Mittelkoreanisch' },
+        es:        { zh_han: 'Chino arcaico', zh_jh: 'Mandarín de Yangzhou', ko_mid: 'Coreano medio' },
+        pt:        { zh_han: 'Chinês arcaico', zh_jh: 'Mandarim de Yangzhou', ko_mid: 'Coreano médio' },
+        it:        { zh_han: 'Cinese arcaico', zh_jh: 'Mandarino di Yangzhou', ko_mid: 'Coreano medio' },
+        id:        { zh_han: 'Tionghoa Kuno', zh_jh: 'Mandarin Yangzhou', ko_mid: 'Korea Pertengahan' },
+        ms:        { zh_han: 'Tionghoa Kuno', zh_jh: 'Mandarin Yangzhou', ko_mid: 'Korea Pertengahan' },
+        sw:        { zh_han: 'Kichina cha Kale', zh_jh: 'Kimandarini cha Yangzhou', ko_mid: 'Kikorea cha Kati' },
+        vi:        { zh_han: 'Thượng cổ Hán ngữ', zh_jh: 'Quan thoại Dương Châu', ko_mid: 'Tiếng Triều Tiên trung đại' },
+        ru:        { zh_han: 'Древнекитайский', zh_jh: 'Янчжоуский мандарин', ko_mid: 'Среднекорейский' },
+        uk:        { zh_han: 'Давньокитайська', zh_jh: 'Янчжоуський мандарин', ko_mid: 'Середньокорейський' },
+        ar:        { zh_han: 'الصينية القديمة', zh_jh: 'ماندرين يانغتشو', ko_mid: 'الكورية الوسطى' },
+        he:        { zh_han: 'סינית עתיקה', zh_jh: "מנדרינית יאנגג'ואו", ko_mid: 'קוריאנית ביניימית' },
+        th:        { zh_han: 'ภาษาจีนโบราณ', zh_jh: 'ภาษาจีนกลางหยางโจว', ko_mid: 'ภาษาเกาหลีกลาง' },
+        hi:        { zh_han: 'प्राचीन चीनी', zh_jh: 'यांगझोउ मंदारिन', ko_mid: 'मध्य-कोरियाई' },
       };
       for (const [ui, m] of Object.entries(OV)) {
         if (!LANG_NAMES[ui]) LANG_NAMES[ui] = {};
@@ -8610,7 +8614,12 @@
                 // the bin at z=4 — the exact thing being fixed — so the radius
                 // is 260 px and the drift is accepted. Turning the Pins toggle
                 // on marks every true location if a reader wants to check.
-                const _rescueR = Math.max(_maxR, Math.min(260, _pxPerDeg * 10));
+                //
+                // Only below z=6. The 2026-09-17 report was about the world view
+                // (z=3-4); at z>=6 the owner's rule from 2026-09-06 stands — a
+                // label that does not fit within ~0.6° hides rather than being
+                // flung 260 px away (675a7344, d69f0b31).
+                const _rescueR = zoom < 6 ? Math.max(_maxR, Math.min(260, _pxPerDeg * 10)) : _maxR;
                 const _placeSolo = (c) => {
                     const ax = ppx[c].x, ay = ppx[c].y, hh = _hhOf(c), hw = _hw[c];
                     const _ringStep = Math.max(4, hh * 0.26);   // ~0.13 * full height

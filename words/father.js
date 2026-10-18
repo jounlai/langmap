@@ -149,7 +149,7 @@ WORDS.father = {
       gon: ["तप्पे", "tappe"],
       bfq: ["appa", "ɑpːɑ"],
       har: ["āw", "aːw"],
-      es_pr: ["padre", "ˈpaðɾe"],
+      es_pr: ["padre", "pai̯"],
       es_do: ["padre", "ˈpaðɾe"],
       es_gt: ["padre", "ˈpaðɾe"],
       es_ec: ["padre", "ˈpaðɾe"],

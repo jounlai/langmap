@@ -101,7 +101,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=165">
+    <link rel="stylesheet" href="styles.css?v=166">
     <link rel="stylesheet" href="/vendor/leaflet-1.9.4/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts. Without these the characters render
          as tofu boxes: desktop Linux often ships the Noto historic fonts, but
@@ -3293,8 +3293,8 @@
                 <button class="radio-opt active" id="era-modern" data-val="modern" role="radio" aria-checked="true"></button>
                 <button class="radio-opt" id="era-historical" data-val="historical" role="radio" aria-checked="false"></button>
                 <!-- Audit Task 112: legend explaining what each era shows.
-                     Compact help icon; tooltip describes that historical mode
-                     also overlays modern descendants as cross-reference. -->
+                     Compact help icon; tooltip says historical mode shows historical
+                     languages only (owner 2026-07-19). -->
                 <span id="era-help" tabindex="0" role="button" aria-label=""
                       style="display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;margin-left:4px;border-radius:50%;background:#eee;color:#666;font-size:11px;cursor:help;user-select:none"
                       title="">?</span>
@@ -3428,7 +3428,11 @@
                 const t = (_hdr ? _hdr.getBoundingClientRect().bottom : 8) + 6;
                 drawer.style.top = t + 'px';
                 drawer.style.right = (window.innerWidth - r.left + 6) + 'px';
-                drawer.style.maxHeight = Math.max(80, window.innerHeight - 24 - t) + 'px';
+                // Still stop above the 比較 button (owner, 2026-09-13).
+                const _cmp = document.getElementById('compare-fab');
+                const _cr = _cmp && _cmp.classList.contains('visible') ? _cmp.getBoundingClientRect() : null;
+                const _floor = (_cr && _cr.height > 0) ? _cr.top - 8 : window.innerHeight - 24;
+                drawer.style.maxHeight = Math.max(80, _floor - t) + 'px';
                 return;
             }
             drawer.style.right = Math.max(8, window.innerWidth - r.right) + 'px';
@@ -3790,9 +3794,9 @@
         }
     })();
     </script>
-    <script src="wordmap_data.js?v=346"></script>
+    <script src="wordmap_data.js?v=347"></script>
     <script src="lang_attention.js?v=3"></script>
-    <script src="word_manifest.js?v=967"></script>
+    <script src="word_manifest.js?v=968"></script>
     <script src="word_labels.js?v=71"></script>
     <script>
         /* Cache-buster registry. It MUST be declared here, above the per-word
@@ -3813,16 +3817,16 @@
            per-word loader can read it", which was the intent all along — only
            the order was wrong. */
         const WM_ASSET_VERSION = {
-            styles:   165,
-            data:      346,
+            styles:   166,
+            data:      347,
             metaI18n:  17,
             filter:    63,
-            names:   203,
+            names:   204,
             meta:     423,
             trivia:   45,
             triviaI18n: 29,
-            words:      967,
-            langWords:    680,
+            words:      968,
+            langWords:    681,
             labels:      71,
             metaI18nCoverage: 13,
             metaI18nCoverage2: 2,
@@ -3989,8 +3993,8 @@
          will actually see (~12 KB gzipped). tools/build_lang_names.js
          generates lang_names/<ui>.js from lang_names.js. -->
     <script src="lang_names_shim.js?v=4"></script>
-    <script src="lang_names/en.js?v=203"></script>
-    <script>window.__langNamesVersion(203); window.__langNamesBoot();</script>
+    <script src="lang_names/en.js?v=204"></script>
+    <script>window.__langNamesVersion(204); window.__langNamesBoot();</script>
     <!-- Trivia articles (125 KB gz) are read on demand and drive decorative
          map blinks. Loaded after `load`; window.TRIVIA_ARTICLES readers all
          guard with `|| []`, and the blinks refresh once it lands. -->
@@ -4544,9 +4548,9 @@
             ariaRandomWord:    { en:'Random word', ja:'ランダムな単語', ko:'무작위 단어', zh:'随机词', yue:'隨機詞', vi:'Từ ngẫu nhiên', th:'คำแบบสุ่ม', id:'Kata acak', hi:'यादृच्छिक शब्द', de:'Zufälliges Wort', fr:'Mot aléatoire', it:'Parola casuale', es:'Palabra aleatoria', pt:'Palavra aleatória', ru:'Случайное слово', uk:'Випадкове слово', ar:'كلمة عشوائية', he:'מילה אקראית', sw:'Neno la nasibu' },
             ariaRandomLang:    { en:'Random language', ja:'ランダムな言語', ko:'무작위 언어', zh:'随机语言', yue:'隨機語言', vi:'Ngôn ngữ ngẫu nhiên', th:'ภาษาแบบสุ่ม', id:'Bahasa acak', hi:'यादृच्छिक भाषा', de:'Zufällige Sprache', fr:'Langue aléatoire', it:'Lingua casuale', es:'Idioma aleatorio', pt:'Idioma aleatório', ru:'Случайный язык', uk:'Випадкова мова', ar:'لغة عشوائية', he:'שפה אקראית', sw:'Lugha ya nasibu' },
             // Audit Task 112: era legend explanation. Modern mode shows
-            // only modern languages; historical mode adds historical
-            // entries plus their modern descendants as cross-reference
-            // markers (drawn in red).
+            // only modern languages; historical mode shows historical
+            // languages only — the red modern-descendant overlay was dropped
+            // (owner 2026-07-19), so the text must not promise it.
             eraHelpModern: {
                 en:'Modern mode: shows modern languages and varieties.',
                 ja:'現代モード：現代言語・地方変種のみ表示します。',
@@ -4569,25 +4573,25 @@
                 sw:'Hali ya kisasa: huonyesha lugha na ainalugha za kisasa.',
             },
             eraHelpHistorical: {
-                en:'Historical mode: shows historical languages plus modern descendants (red) as cross-reference.',
-                ja:'歴史モード：歴史言語に加え、現代後裔言語（赤色）を参照として併せて表示します。',
-                ko:'역사 모드: 역사 언어와 함께 현대 후손 언어(빨간색)를 참조용으로 표시합니다.',
-                zh:'历史模式：显示历史语言以及作为参照的现代后裔语言（红色）。',
-                yue:'歷史模式：顯示歷史語言以及作為參照嘅現代後裔語言（紅色）。',
-                vi:'Chế độ lịch sử: hiển thị các ngôn ngữ lịch sử cùng hậu duệ hiện đại (đỏ) để đối chiếu.',
-                th:'โหมดประวัติศาสตร์: แสดงภาษาประวัติศาสตร์พร้อมลูกหลานสมัยใหม่ (สีแดง) เป็นการอ้างอิง',
-                id:'Mode historis: menampilkan bahasa historis beserta keturunan modern (merah) sebagai referensi.',
-                hi:'ऐतिहासिक मोड: ऐतिहासिक भाषाएँ तथा संदर्भ के रूप में आधुनिक वंशज (लाल) दिखाता है।',
-                de:'Historischer Modus: zeigt historische Sprachen plus moderne Nachfahren (rot) als Querverweis.',
-                fr:'Mode historique : affiche les langues historiques et les descendants modernes (rouges) en référence.',
-                it:'Modalità storica: mostra lingue storiche più discendenti moderni (rossi) come riferimento.',
-                es:'Modo histórico: muestra idiomas históricos junto con descendientes modernos (rojo) como referencia.',
-                pt:'Modo histórico: mostra idiomas históricos com descendentes modernos (vermelho) como referência.',
-                ru:'Исторический режим: показывает исторические языки и современные потомки (красные) для сопоставления.',
-                uk:'Історичний режим: показує історичні мови та сучасних нащадків (червоних) як посилання.',
-                ar:'الوضع التاريخي: يعرض اللغات التاريخية مع السلائل الحديثة (بالأحمر) كمرجع.',
-                he:'מצב היסטורי: מציג שפות היסטוריות לצד צאצאים מודרניים (אדום) כעזר.',
-                sw:'Hali ya kihistoria: huonyesha lugha za kihistoria pamoja na wazao wa kisasa (nyekundu) kama rejea.',
+                en:'Historical mode: shows historical languages only.',
+                ja:'歴史モード：歴史言語のみを表示します。',
+                ko:'역사 모드: 역사 언어만 표시합니다.',
+                zh:'历史模式：只显示历史语言。',
+                yue:'歷史模式：只顯示歷史語言。',
+                vi:'Chế độ lịch sử: chỉ hiển thị các ngôn ngữ lịch sử.',
+                th:'โหมดประวัติศาสตร์: แสดงเฉพาะภาษาประวัติศาสตร์',
+                id:'Mode historis: hanya menampilkan bahasa historis.',
+                hi:'ऐतिहासिक मोड: केवल ऐतिहासिक भाषाएँ दिखाता है।',
+                de:'Historischer Modus: zeigt nur historische Sprachen.',
+                fr:'Mode historique : affiche uniquement les langues historiques.',
+                it:'Modalità storica: mostra solo le lingue storiche.',
+                es:'Modo histórico: muestra solo idiomas históricos.',
+                pt:'Modo histórico: mostra apenas idiomas históricos.',
+                ru:'Исторический режим: показывает только исторические языки.',
+                uk:'Історичний режим: показує лише історичні мови.',
+                ar:'الوضع التاريخي: يعرض اللغات التاريخية فقط.',
+                he:'מצב היסטורי: מציג שפות היסטוריות בלבד.',
+                sw:'Hali ya kihistoria: huonyesha lugha za kihistoria pekee.',
             },
             noMatch: { en:'No match', ja:'該当なし', ko:'일치 항목 없음', zh:'无匹配', yue:'冇匹配',
                 vi:'Không tìm thấy', th:'ไม่พบรายการ', id:'Tidak ada', hi:'कोई मेल नहीं',
@@ -9553,7 +9557,7 @@
                         // this column is not always phonemic — for a row marked
                         // phonetic or romanization the slashes were simply wrong.
                         // The compare table already renders it bare.
-                        html += `<tr><td>${escapeHtml(wLabel)}</td><td><span class="wm-form" dir="auto">${escapeHtml(entry[0])}</span>${evMark}${altLine}</td><td style="${ipaStyle}"><span class="wm-ipa${entry[1] ? '' : ' ipa-unknown'}"${entry[1] ? '' : ` title="${escapeHtml(wt('ipaUnknown'))}"`}>${entry[1] ? escapeHtml(entry[1]) : '/?/'}</span></td></tr>`;
+                        html += `<tr><td>${escapeHtml(wLabel)}</td><td><span class="wm-form" dir="auto">${escapeHtml(entry[0])}</span>${evMark}${altLine}</td><td style="${ipaStyle}"><span class="wm-ipa${entry[1] ? '' : ' ipa-unknown'}"${entry[1] ? '' : ` title="${escapeHtml(wt('ipaUnknown'))}"`}>${entry[1] ? escapeHtml(entry[1]) : '?'}</span></td></tr>`;
                     }
                 }
             }

@@ -149,7 +149,7 @@ WORDS.mother = {
       gon: ["यावल", "jaːʋal"],
       bfq: ["thaaya", "t̪ɑːjɑ"],
       har: ["āy", "aːj"],
-      es_pr: ["madre", "ˈmaðɾe"],
+      es_pr: ["madre", "mai̯"],
       es_do: ["madre", "ˈmaðɾe"],
       es_gt: ["madre", "ˈmaðɾe"],
       es_ec: ["madre", "ˈmaðɾe"],

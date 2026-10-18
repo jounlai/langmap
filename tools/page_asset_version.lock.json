@@ -8,8 +8,8 @@
     "hash": "af605212ac66624c"
   },
   "hanmap_data.js": {
-    "version": 198,
-    "hash": "673490a4d329c001"
+    "version": 199,
+    "hash": "a2857bc7673471cf"
   },
   "hanmap_trivia_rt/base.js": {
     "version": 2,
@@ -28,8 +28,8 @@
     "hash": "1ea8ce0dd0d9f0df"
   },
   "lang_names/en.js": {
-    "version": 203,
-    "hash": "566a276bb2d2e22a"
+    "version": 204,
+    "hash": "b008a38a09f35ecd"
   },
   "lang_names_shim.js": {
     "version": 4,
@@ -76,8 +76,8 @@
     "hash": "86181f3bf041494a"
   },
   "progress_data.js": {
-    "version": 231,
-    "hash": "ed4647b32074761a"
+    "version": 232,
+    "hash": "3425d6488cb79234"
   },
   "pwa.js": {
     "version": 2,
@@ -88,8 +88,8 @@
     "hash": "a9a5ec0b06fdab27"
   },
   "styles.css": {
-    "version": 165,
-    "hash": "2e142dd9533d5f38"
+    "version": 166,
+    "hash": "02188177f9b5f0e4"
   },
   "timemap_calendars.js": {
     "version": 17,
@@ -100,11 +100,11 @@
     "hash": "71c78ae558968bf5"
   },
   "word_manifest.js": {
-    "version": 967,
+    "version": 968,
     "hash": "99fafa5b03aba24a"
   },
   "wordmap_data.js": {
-    "version": 346,
-    "hash": "2ef170d2ce9e2554"
+    "version": 347,
+    "hash": "262ffd8b800c7031"
   }
 }

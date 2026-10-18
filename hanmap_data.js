@@ -25064,7 +25064,7 @@ const HAN_LANG_META = {
     "speakers": "約200〜300万人 (茂名市一帯)",
     "speakersSource": "中国语言地图集 (第2版, 2012) ・ 广东省地方志",
     "name": "Huazhou Yue",
-    "native": "化州話（上江話）",
+    "native": "化州話",
     "lat": 21.67,
     "lng": 110.64,
     "region": "China (Guangdong — Huazhou 化州, Hexi 河西)",

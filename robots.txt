@@ -27,9 +27,9 @@ Disallow: /_cardtest.html
 Disallow: /*.br$
 
 # The per-language and per-word text pages (/{ui}/wordmap/<code>, /{ui}/word/<id>,
-# /{ui}/hanmap/<code>, /{ui}/trivia/<id>) are declared below. Until r28 they were
-# left to internal-link crawling and the PHP sitemap's parts 404'd in production,
-# so most of them were never found. The index and its gzipped parts are static
-# files written by tools/build_seo_sitemaps.js.
+# /{ui}/hanmap/<code>, /{ui}/trivia/<id>) are intentionally NOT declared here
+# (owner 2026-06-15, restated 2026-10-16: 「サイトマップは意図的に登録していません」).
+# Discovery is left to ordinary internal links (footer and credit → /en/ hubs →
+# hreflang) rather than bulk-feeding crawlers ~25k generated pages. The static
+# sitemap-seo-index.xml and its parts still exist if the owner ever wants them.
 Sitemap: https://langmaps.com/sitemap.xml
-Sitemap: https://langmaps.com/sitemap-seo-index.xml

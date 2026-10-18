@@ -1647,7 +1647,7 @@ WORDS.wine = {
     ko_jeju: ["포도주", "pododʑu"],
     ko_hg: ["포도주", "pododʑu"],
     ko_jl: ["포도주", "pododʑu"],
-    vi_c: ["rượu vang", "ʐɨəw˧˩ vaːŋ˥"], // was ["rượu vang", "ɹɨəw˨˨ vaŋ˧"] (vi dialect rules 2026-10-06)
+    vi_c: ["rượu vang", "ɹɨəw˧˩ vaːŋ˥"], // r is ɹ, not ʐ (owner 2026-08-31, c9d451e8); tones per vi dialect rules 2026-10-06
     vi_s: ["rượu vang", "ɹɨw˨˩˨ jaːŋ˧"], // was ["rượu vang", "ɹɨəw˨˩˨ vaŋ˧"] (vi dialect rules 2026-10-06)
     my: ["ဝိုင်", "wàɪɴ"], // was ["ဝိုင်", "wàiɴ"] (vi dialect rules 2026-10-06)
     rki: ["စပျစ်ရည်", "səbjaɪʔ ɹè"], // was ["စပျစ်ရည်", "səbjiˀ ɹì"] (r51 audit 2026-10-04)

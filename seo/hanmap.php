@@ -179,9 +179,10 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
             if ($i === 0) {
                 // The meaning sits under the character, not in a column of its own:
                 // the extra column pushed the readings off a phone screen (r21).
-                $gl = (string) ($c['gloss'] ?? '');
+                $glT = (string) (($c['glosses'] ?? [])[$ui] ?? '');   // r22: translated meanings
+                $gl = $glT !== '' ? $glT : (string) ($c['gloss'] ?? '');
                 $html .= '<td class="c-char" rowspan="' . $n . '"><span lang="zh">' . e($c['char']) . '</span>'
-                       . ($gl !== '' ? '<span class="c-gl"' . ($ui !== 'en' ? ' lang="en"' : '') . '>' . e($gl) . '</span>' : '') . '</td>';   // glosses are English in the data
+                       . ($gl !== '' ? '<span class="c-gl"' . ($ui !== 'en' && $glT === '' ? ' lang="en"' : '') . '>' . e($gl) . '</span>' : '') . '</td>';
             }
             $html .= '<td class="c-read">' . (($n > 1 && $label !== '') ? '<span class="rlabel">' . seo_reading_label($ui, $label) . '</span>' : '') . '</td>'
                    . '<td class="c-form" lang="' . e(seo_lang_attr($code)) . '">'

@@ -2836,7 +2836,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=26"></script>
+    <script src="nav-short.js?v=27"></script>
 </head>
 <body>
     <div id="pg-live" role="status" aria-live="polite" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap"></div>
@@ -3495,7 +3495,7 @@
     })();
     </script>
     <script src="wordmap_data.js?v=345"></script>
-    <script src="hanmap_data.js?v=192"></script>
+    <script src="hanmap_data.js?v=194"></script>
     <script>
         // Hanmap stubs: replace the per-word loader. wordmap.html loads
         // ~20 individual JS files under words/<id>.js (one per concept) and
@@ -3705,7 +3705,7 @@
         const synthList = HAN_LIST.map(ch => ({
             id: ch,
             label: { en: ch, ja: ch, ko: ch, zh: ch, yue: ch, vi: ch },
-            definition: { en: (HAN_DATA[ch] && HAN_DATA[ch].en && HAN_DATA[ch].en.gloss) || '' },
+            definition: Object.assign({ en: (HAN_DATA[ch] && HAN_DATA[ch].en && HAN_DATA[ch].en.gloss) || '' }, (window.HAN_GLOSS_I18N || {})[ch] || {}),
             en: ch, ja: ch,
         }));
         window.WORD_LIST = synthList;
@@ -3717,7 +3717,7 @@
             window.WORDS[ch] = {
                 id: ch,
                 label: { en: ch, ja: ch },
-                definition: { en: (HAN_DATA[ch] && HAN_DATA[ch].en && HAN_DATA[ch].en.gloss) || '' },
+                definition: Object.assign({ en: (HAN_DATA[ch] && HAN_DATA[ch].en && HAN_DATA[ch].en.gloss) || '' }, (window.HAN_GLOSS_I18N || {})[ch] || {}),
                 data: {},
             };
         }
@@ -12944,7 +12944,7 @@
     </script>
     </main>
     <footer style="text-align:center;padding:16px 12px 64px;font-size:12px;color:#666;border-top:1px solid #e6e6ef;margin-top:24px">
-        <a href="/en/wordmap/" style="color:#4178bc">Word Map</a> · <a href="/en/hanmap/" style="color:#4178bc">Han Map</a> · <a href="/en/trivia/" style="color:#4178bc">Trivia</a>
+        <a href="/en/wordmap/" data-seo-seg="wordmap" style="color:#4178bc">Word Map</a> · <a href="/en/hanmap/" data-seo-seg="hanmap" style="color:#4178bc">Han Map</a> · <a href="/en/trivia/" data-seo-seg="trivia" style="color:#4178bc">Trivia</a>
     </footer>
     <!-- ============================================================
          "Reading quiz" — Han-character pronunciation quiz. Two formats:

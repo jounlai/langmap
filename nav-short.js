@@ -281,6 +281,25 @@
         return '<span aria-hidden="true" style="position:absolute;top:5px;inset-inline-end:9px;font-size:15px;font-weight:800;line-height:1">' + (ok ? '\u2713' : '\u2717') + '</span>'
             + '<span style="position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap">, ' + words.join(', ') + '</span>';
     };
+    // Footer links to the server-rendered pages: the UI language's own pages and
+    // labels (they were /en/ and English in every UI; r22).
+    var SEO_LINK_LBL = { word: {"en":"Words","ja":"単語","ko":"단어","zh":"词语","yue":"詞語","vi":"Từ vựng","th":"คำศัพท์","id":"Kata","hi":"शब्द","de":"Wörter","fr":"Mots","it":"Parole","es":"Palabras","pt":"Palavras","ru":"Слова","uk":"Слова","ar":"الكلمات","he":"מילים","sw":"Maneno"},
+        trivia: {"en":"Trivia","ja":"読み物","ko":"읽을거리","zh":"读物","yue":"讀物","vi":"Bài đọc","th":"บทความ","id":"Bacaan","hi":"पठन सामग्री","de":"Lesestoff","fr":"Lectures","it":"Letture","es":"Lecturas","pt":"Leituras","ru":"Статьи","uk":"Статті","ar":"مقالات","he":"מאמרים","sw":"Makala"} };
+    function syncFooterLinks() {
+        var as = document.querySelectorAll('footer a[data-seo-seg]');
+        if (!as.length) return;
+        var l = String(document.documentElement.lang || 'en').toLowerCase().replace('-', '_'), b = l.split('_')[0];
+        var ui = l === 'zh_hk' ? 'yue' : b;
+        if (!SEO_LINK_LBL.word[ui]) ui = 'en';
+        for (var i = 0; i < as.length; i++) {
+            var seg = as[i].getAttribute('data-seo-seg');
+            if (!as[i].hasAttribute('data-en')) as[i].setAttribute('data-en', as[i].textContent);
+            var lbl = ui === 'en' ? as[i].getAttribute('data-en')
+                : (SEO_LINK_LBL[seg] ? SEO_LINK_LBL[seg][ui] : (TITLE_BY[seg] && TITLE_BY[seg][ui])) || as[i].getAttribute('data-en');
+            as[i].textContent = lbl;
+            as[i].setAttribute('href', '/' + ui + '/' + seg + '/');
+        }
+    }
     // Browser-tab title in the UI language (the English <title> stays for en,
     // which is what crawlers see).
     var TITLE_BY = {
@@ -298,8 +317,8 @@
         var t = (b === 'en' || !v) ? _origTitle : 'LangMap — ' + v;
         if (document.title !== t) document.title = t;
     }
-    new MutationObserver(function () { syncCredit(); syncTitle(); }).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
-    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function () { syncCredit(); syncTitle(); }); else { syncCredit(); syncTitle(); }
+    new MutationObserver(function () { syncCredit(); syncTitle(); syncFooterLinks(); }).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function () { syncCredit(); syncTitle(); syncFooterLinks(); }); else { syncCredit(); syncTitle(); syncFooterLinks(); }
     // Tapping the dimmed backdrop closes the drawer (namemap and timemap had
     // no outside-click handler of their own).
     document.addEventListener('click', function (e) {

@@ -409,6 +409,7 @@ function loadHanMap() {
   src += 'this.__HAN_LANG_META = (typeof HAN_LANG_META!=="undefined") ? HAN_LANG_META : window.HAN_LANG_META;\n';
   src += 'this.__HAN_LANGS = (typeof HAN_LANGS!=="undefined") ? HAN_LANGS : window.HAN_LANGS;\n';
   src += 'this.__HAN_VARIANTS = (typeof HAN_VARIANTS!=="undefined") ? HAN_VARIANTS : (window.HAN_VARIANTS||{});\n';
+  src += 'this.__HAN_GLOSS_I18N = (typeof HAN_GLOSS_I18N!=="undefined") ? HAN_GLOSS_I18N : (window.HAN_GLOSS_I18N||{});\n';
   const ctx = {};
   vm.createContext(ctx);
   vm.runInContext(src, ctx);
@@ -420,13 +421,14 @@ function loadHanMap() {
     HAN_LANG_META: ctx.__HAN_LANG_META,
     HAN_LANGS: ctx.__HAN_LANGS,
     HAN_VARIANTS: ctx.__HAN_VARIANTS || {},
+    HAN_GLOSS_I18N: ctx.__HAN_GLOSS_I18N || {},
   };
 }
 
 const HAN_EMPTY = (v) => !v || v === '—' || v === '-' || v === '';
 
 function buildHanMapJSON(nameIndex) {
-  const { LANG_DATA, HAN_DATA, HAN_LIST, HAN_CATEGORIES, HAN_LANG_META, HAN_LANGS, HAN_VARIANTS } = loadHanMap();
+  const { LANG_DATA, HAN_DATA, HAN_LIST, HAN_CATEGORIES, HAN_LANG_META, HAN_LANGS, HAN_VARIANTS, HAN_GLOSS_I18N } = loadHanMap();
 
   // Character list metadata. HAN_LIST may carry disambiguators ("中:1").
   const chars = HAN_LIST.map((ch) => {
@@ -436,6 +438,7 @@ function buildHanMapJSON(nameIndex) {
       key: ch,
       char: display,
       gloss: (cd.en && cd.en.gloss) || (cd.gloss) || '',
+      glosses: (HAN_GLOSS_I18N || {})[ch] || {},
     };
   });
 

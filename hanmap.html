@@ -8822,7 +8822,15 @@
                 // Mandarin, Cantonese, Hokkien and Shanghai Wu vanished. The
                 // default size (fs=140, scale 1.4) keeps the old radius.
                 const _rescueK = Math.max(1, labelScale / 1.4);
-                const _rescueR = zoom < 6 ? Math.max(_maxR, Math.min(260 * _rescueK, _pxPerDeg * 10 * _rescueK)) : _maxR;
+                //
+                // Owner 2026-10-19 (海陸客家語 drawn far away at z5.5, Fujian):
+                // 260 px was still "flinging" — ~25 labels per view sat 100-230 px
+                // from their dots. The second try now reaches at most 80 px (about
+                // one label width, scaled with the text size like the Word Map's
+                // push cap); a label that still does not fit hides. Middle Korean
+                // still shows at z=4 (measured at 1440, 36,125,4).
+                const RESCUE_PX = 80;
+                const _rescueR = zoom < 6 ? Math.max(_maxR, Math.min(RESCUE_PX * _rescueK, _pxPerDeg * 10 * _rescueK)) : _maxR;
                 const _placeSolo = (c) => {
                     const ax = ppx[c].x, ay = ppx[c].y, hh = _hhOf(c), hw = _hw[c];
                     const _ringStep = Math.max(4, hh * 0.26);   // ~0.13 * full height

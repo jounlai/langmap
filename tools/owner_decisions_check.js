@@ -120,10 +120,12 @@ const DECISIONS = [
     },
     {
         id: 'hanmap-no-far-fling',
-        what: 'At z>=6 a Han Map label that does not fit near its point hides instead of moving far (owner 2026-09-06, 675a7344; the 260 px rescue applies below z=6 only). Co-located stacks too: at z>=6 a member further than _maxR + its half-height from its dot leaves the stack (r32)',
+        what: 'At z>=6 a Han Map label that does not fit near its point hides instead of moving far (owner 2026-09-06, 675a7344). Below z=6 the second try reaches at most 80 px (owner 2026-10-19: 海陸客家語 far away at z5.5). Co-located stacks too: at z>=6 a member further than _maxR + its half-height from its dot leaves the stack (r32)',
         check: () => {
             const h = read('hanmap.html'), bad = [];
             if (!/const _rescueR = zoom < 6 \?/.test(h)) bad.push('hanmap.html solo rescue');
+            const rp = h.match(/const RESCUE_PX = (\d+);/);
+            if (!rp || +rp[1] > 80 || !/Math\.min\(RESCUE_PX \* _rescueK/.test(h)) bad.push('hanmap.html rescue radius > 80 px');
             if (!/const _tooFar = [^\n]*> _maxR \+ hhs\[i\]\)/.test(h) || !/if \(zoom >= 6 && members\.length > 1 && dy != null && _tooFar\(dy\)\)/.test(h)) bad.push('hanmap.html stack path');
             return bad;
         },

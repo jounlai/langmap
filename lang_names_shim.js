@@ -23,7 +23,12 @@
     // into LANG_NAMES[ui] right after load, and __ensureLangNames() can bring a
     // slice in afterwards; assigning would silently wipe the page's entries.
     // Whatever is already there wins, because it was set deliberately.
+    // Which slices have actually arrived: hanmap.html seeds LANG_NAMES[ui] with
+    // three overrides for every UI, so "LN[ui] exists" made __ensureLangNames
+    // skip the fetch and the Han Map showed reading-type labels as names (r21).
+    var loaded = {};
     window.__langNamesAdd = function (ui, table) {
+        loaded[ui] = true;
         var cur = LN[ui];
         if (!cur) { LN[ui] = table; return; }
         for (var k in table) if (!(k in cur)) cur[k] = table[k];
@@ -102,7 +107,7 @@
         if (!ui) return Promise.resolve();
         // A regional code like es_mx falls back to its base table.
         var base = String(ui).split('_')[0];
-        var want = LN[ui] ? null : ui;
+        var want = (loaded[ui] || (LN[ui] && Object.keys(LN[ui]).length > 50)) ? null : ui;
         if (!want) return Promise.resolve();
         if (pending[ui]) return pending[ui];
         pending[ui] = new Promise(function (resolve) {

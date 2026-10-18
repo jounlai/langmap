@@ -70,7 +70,7 @@
         gtag('config', 'G-JZ7JJBCCHG');
     }
 </script>
-<link rel="stylesheet" href="styles.css?v=157">
+<link rel="stylesheet" href="styles.css?v=158">
 <!-- Noto Serif Tibetan for native names of Tibetic languages
      (bo / xct / dz / khg / xsr / sik / lbj / bft / xkz / xct_litpr).
      Without this, Tibetan script in .node.leaf .native renders via OS
@@ -275,6 +275,12 @@
         .node .label, .node.leaf .label, .node.leaf .native {
             word-break: break-word; overflow-wrap: anywhere;
         }
+        /* A long family name wrapped under the arrow and dot, outdented past the
+           tree line (de "Englischbasierte Kreolsprache"): keep it in its own column (r21). */
+        .node { flex-wrap: nowrap; align-items: flex-start; }
+        .node .toggle, .node .family-dot { flex: none; margin-top: .45em; }
+        .node .toggle { margin-top: .2em; }
+        .node .label { min-width: 0; }
     }
 
     /* Audit Task 232: prevent iOS Safari focus auto-zoom (font < 16px). */
@@ -287,7 +293,7 @@
 
     /* .back-to-top styles live in styles.css (shared with index.html). */
 </style>
-    <script src="nav-short.js?v=25"></script>
+    <script src="nav-short.js?v=26"></script>
 </head>
 <body>
     <header class="site-header-bar">
@@ -397,7 +403,7 @@
 })();
 </script>
 
-<script src="wordmap_data.js?v=344"></script>
+<script src="wordmap_data.js?v=345"></script>
 <!-- The meta-i18n layer (engine + the current UI's slice only) is loaded
      dynamically below, next to the meta file — see loadMetaI18nForUi(). The old
      eager meta_i18n_ext + coverage{,2,3} tags pulled ~5 MB of ALL 22 UIs. -->
@@ -406,7 +412,7 @@ gzipped, and a reader uses one of them plus English as the fallback.
 Load the shim, then English, then whichever UI language this visitor
 will actually see (~12 KB gzipped). tools/build_lang_names.js
 generates lang_names/<ui>.js from lang_names.js. -->
-<script src="lang_names_shim.js?v=3"></script>
+<script src="lang_names_shim.js?v=4"></script>
 <script src="lang_names/en.js?v=203"></script>
 <script>window.__langNamesVersion(203); window.__langNamesBoot();</script>
 <script>
@@ -436,7 +442,7 @@ generates lang_names/<ui>.js from lang_names.js. -->
         vi: { title:'Cây phả hệ ngôn ngữ', subtitle:n=>n+' ngôn ngữ theo họ.', search:'🔍 Lọc theo tên hoặc mã…', expand:'Mở rộng tất cả', collapse:'Thu gọn tất cả', legend:'Nhấp vào họ để mở rộng · nhấp ngôn ngữ để mở bản đồ', stats:n=>n+' ngôn ngữ', navOrder:'Trật tự từ', navMap:'Bản đồ từ', navHan:'Bản đồ Hán tự', navName:'Bản đồ tên', navTree:'Cây phả hệ', jumpLast:'Đến ngôn ngữ vừa xem' },
         th: { title:'แผนภูมิตระกูลภาษา', subtitle:n=>'จัด '+n+' ภาษา', search:'🔍 กรอง…', expand:'ขยายทั้งหมด', collapse:'ยุบทั้งหมด', legend:'คลิกตระกูลเพื่อขยาย · คลิกภาษาเพื่อเปิดบนแผนที่', stats:n=>n+' ภาษา', navOrder:'ลำดับคำ', navMap:'แผนที่คำ', navHan:'แผนที่อักษรจีน', navName:'แผนที่ชื่อ', navTree:'แผนภูมิ', jumpLast:'ไปยังภาษาล่าสุด' },
         id: { title:'Pohon Keluarga Bahasa', subtitle:n=>n+' bahasa berdasarkan keluarga.', search:'🔍 Filter…', expand:'Perluas semua', collapse:'Ciutkan semua', legend:'Klik keluarga untuk memperluas · klik bahasa untuk membuka peta', stats:n=>n+' bahasa', navOrder:'Urutan Kata', navMap:'Peta Kata', navHan:'Peta Hanzi', navName:'Peta Nama', navTree:'Pohon', jumpLast:'Ke bahasa terakhir' },
-        hi: { title:'भाषा परिवार वृक्ष', subtitle:n=>n+' भाषाएँ परिवार अनुसार।', search:'🔍 फ़िल्टर…', expand:'सभी विस्तार करें', collapse:'सभी संक्षिप्त', legend:'परिवार पर क्लिक करें · भाषा पर क्लिक से मानचित्र', stats:n=>n+' भाषाएँ', navOrder:'शब्द क्रम', navMap:'शब्द मानचित्र', navHan:'हन्ज़ी मानचित्र', navName:'नाम मानचित्र', navTree:'वृक्ष', jumpLast:'पिछली भाषा पर जाएँ' },
+        hi: { title:'भाषा परिवार वृक्ष', subtitle:n=>n+' भाषाएँ परिवार अनुसार।', search:'🔍 फ़िल्टर…', expand:'सभी विस्तार करें', collapse:'सभी संक्षिप्त', legend:'परिवार पर क्लिक करें · भाषा पर क्लिक से मानचित्र', stats:n=>n+' भाषाएँ', navOrder:'शब्द क्रम', navMap:'शब्द मानचित्र', navHan:'हान्ज़ी मानचित्र', navName:'नाम मानचित्र', navTree:'वृक्ष', jumpLast:'पिछली भाषा पर जाएँ' },
         de: { title:'Sprachstammbaum', subtitle:n=>n+' Sprachen nach Familie.', search:'🔍 Nach Name/Code filtern…', expand:'Alle erweitern', collapse:'Alle einklappen', legend:'Klicken zum Erweitern · Sprache anklicken öffnet Karte', stats:n=>n+' Sprachen', navOrder:'Wortstellung', navMap:'Wortkarte', navHan:'Hanzi-Karte', navName:'Namenskarte', navTree:'Stammbaum', jumpLast:'Zur zuletzt besuchten Sprache' },
         fr: { title:'Arbre des familles linguistiques', subtitle:n=>n+' langues par famille.', search:'🔍 Filtrer…', expand:'Tout développer', collapse:'Tout réduire', legend:'Cliquer sur une famille · cliquer sur une langue ouvre la carte', stats:n=>n+' langues', navOrder:'Ordre des mots', navMap:'Carte des mots', navHan:'Carte des Hanzi', navName:'Carte des prénoms', navTree:'Arbre', jumpLast:'Aller à la dernière langue' },
         it: { title:'Albero delle lingue', subtitle:n=>n+' lingue per famiglia.', search:'🔍 Filtra…', expand:'Espandi tutto', collapse:'Comprimi tutto', legend:'Clic per espandere · clic foglia apre mappa', stats:n=>n+' lingue', navOrder:'Ordine parole', navMap:'Mappa parole', navHan:'Mappa Hanzi', navName:'Mappa dei nomi', navTree:'Albero', jumpLast:"Vai all'ultima lingua" },
@@ -580,7 +586,7 @@ generates lang_names/<ui>.js from lang_names.js. -->
         if (!_enginePromise) _enginePromise = _loadJS('meta_i18n_engine.js?v=1');
         // per-UI writes META_I18N[ui] (the const from the lite file) + fills
         // META_I18N_ATOMS — engine must run first (async=false guarantees it).
-        _i18nByUi[ui] = Promise.all([_enginePromise, _loadJS('meta_i18n/' + ui + '.js?v=2')]);
+        _i18nByUi[ui] = Promise.all([_enginePromise, _loadJS('meta_i18n/' + ui + '.js?v=3')]);
         return _i18nByUi[ui];
     }
     // The tree only reads structured fields (family / parentCode / speakers) +

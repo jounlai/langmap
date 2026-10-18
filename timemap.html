@@ -62,7 +62,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=157">
+    <link rel="stylesheet" href="styles.css?v=158">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -319,10 +319,11 @@
             .tm-info-close {
                 display: flex; align-items: center; justify-content: center;
                 position: sticky; top: 8px; z-index: 5;
-                margin: 0 0 -40px auto; width: 38px; height: 38px;
+                margin: 0 0 -40px; margin-inline-start: auto; width: 38px; height: 38px;   /* mirrors in RTL (r21) */
                 border: none; border-radius: 50%; background: rgba(0,0,0,0.07); color: #333;
                 font-size: 24px; line-height: 1; cursor: pointer;
             }
+            .tm-title, .tm-tagline { padding-inline-end: 44px; }   /* the close circle sat on the tagline (r21) */
             .tm-panel.info-open ~ .tm-sheet-backdrop { display: block; position: fixed; inset: 0; z-index: 1350; background: rgba(0,0,0,0.35); }
         }
             /* Desktop: the button lives in the map controls, moved there by script
@@ -334,7 +335,7 @@
         @media (min-width: 641px) { .tm-map-ctl:not(:has(> .chrome-toggle-btn))::before { content: ''; height: 40px; } }
         #tm-era { min-height: 20px; }
 </style>
-    <script src="nav-short.js?v=25"></script>
+    <script src="nav-short.js?v=26"></script>
 </head>
 <body>
     <header class="site-header-bar">
@@ -791,7 +792,7 @@
             else ['role','aria-modal','aria-labelledby'].forEach(a=>info.removeAttribute(a));
             document.querySelectorAll('[data-sheet-inert]').forEach(el=>{ el.inert=false; el.removeAttribute('data-sheet-inert'); });
             if(open) for(let n=info; n && n!==document.body; n=n.parentElement){
-                for(const sib of n.parentElement.children){ if(sib!==n && !sib.inert && sib.tagName!=='SCRIPT' && sib.tagName!=='STYLE'){ sib.inert=true; sib.setAttribute('data-sheet-inert',''); } }
+                for(const sib of n.parentElement.children){ if(sib!==n && !sib.inert && sib.tagName!=='SCRIPT' && sib.tagName!=='STYLE' && !sib.matches('.tm-sheet-backdrop,[aria-live],[role="status"]')){   /* the backdrop closes the sheet on tap; live regions keep speaking (r21) */ sib.inert=true; sib.setAttribute('data-sheet-inert',''); } }
             }
         }
         SHEET_MQ.addEventListener && SHEET_MQ.addEventListener('change', syncSheetInert);

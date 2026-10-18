@@ -505,3 +505,37 @@
     }
   }
 })();
+
+/*
+ * Rally r21: notes inside family paths that the tree draws as nodes
+ * ("reconstructed", "branch debated", …) were English in th/hi/ru/ar/vi/id/sw/de.
+ * Only fills gaps: an existing translation wins.
+ */
+(function () {
+  if (typeof META_I18N_ATOMS === 'undefined') return;
+  const A = {
+    "reconstructed": {th:"สืบสร้าง",hi:"पुनर्निर्मित",ru:"реконструированный",ar:"مُعاد بناؤها",id:"rekonstruksi",sw:"iliyoundwa upya",de:"rekonstruiert"},
+    "creolized": {th:"กลายเป็นครีโอล",hi:"क्रियोलीकृत",ru:"креолизованный",ar:"مُكرْيَلة",ja:"クレオール化",vi:"đã creole hóa",id:"terkreolisasi",sw:"iliyogeuka krioli",de:"kreolisiert"},
+    "branch debated": {th:"สาขายังเป็นที่ถกเถียง",hi:"शाखा विवादित",ru:"ветвь спорна",ar:"الفرع موضع خلاف",ja:"下位分類に議論あり",vi:"nhánh còn tranh cãi",id:"cabang diperdebatkan",sw:"tawi lina utata",de:"Zweig umstritten"},
+    "heavily restructured": {th:"ปรับโครงสร้างอย่างมาก",hi:"अत्यधिक पुनर्गठित",ru:"сильно перестроенный",ar:"أُعيدت هيكلته بشدة",ja:"大幅に再構造化",vi:"tái cấu trúc mạnh",id:"sangat terstruktur ulang",sw:"imebadilishwa muundo sana",de:"stark umgebaut"},
+    "likely isolate": {th:"น่าจะเป็นภาษาเดี่ยว",hi:"संभवतः पृथक भाषा",ru:"вероятно, изолят",ar:"معزولة على الأرجح",ja:"孤立言語の可能性",vi:"có lẽ là ngôn ngữ biệt lập",id:"kemungkinan isolat",sw:"huenda ni lugha pweke",de:"wahrscheinlich isoliert"},
+    "isolate": {id:"isolat",sw:"lugha pweke",de:"isolierte Sprache"},
+    "isolate or small family": {id:"isolat atau rumpun kecil",sw:"lugha pweke au familia ndogo",de:"isolierte Sprache oder kleine Familie"},
+    "German-based": {th:"ฐานภาษาเยอรมัน",hi:"जर्मन-आधारित",ru:"на немецкой основе",ar:"قائمة على الألمانية",ja:"ドイツ語ベース",vi:"gốc tiếng Đức",id:"berbasis bahasa Jerman",sw:"yenye msingi wa Kijerumani",de:"deutschbasiert"},
+    "possibly pre-IE": {th:"อาจเก่ากว่าอินโด-ยูโรเปียน",hi:"संभवतः पूर्व-भारोपीय",ru:"возможно, доиндоевропейский",ar:"ربما سابقة للهندوأوروبية",ja:"印欧語以前の可能性",vi:"có thể tiền Ấn-Âu",id:"mungkin pra-Indo-Eropa",sw:"huenda ni kabla ya Kihindi-Kiulaya",de:"möglicherweise vorindogermanisch"},
+    "sometimes grouped as Paezan": {th:"บางครั้งจัดอยู่ในกลุ่มปาเอซ",hi:"कभी-कभी पाएज़ समूह में",ru:"иногда относят к паэсским",ar:"تُصنَّف أحيانًا ضمن البايزية",ja:"パエス語族に含める説あり",vi:"đôi khi xếp vào nhóm Paez",id:"kadang dikelompokkan ke Paezan",sw:"wakati mwingine huwekwa katika Paezan",de:"manchmal zu Paez gestellt"},
+    "usually treated as a language isolate": {th:"มักถือเป็นภาษาเดี่ยว",hi:"आमतौर पर पृथक भाषा मानी जाती है",ru:"обычно считается изолятом",ar:"تُعدّ عادةً لغة معزولة",ja:"通常は孤立言語とされる",vi:"thường coi là ngôn ngữ biệt lập",id:"biasanya dianggap bahasa isolat",sw:"kwa kawaida huchukuliwa kuwa lugha pweke",de:"meist als isolierte Sprache betrachtet"},
+    "its only relative Yuri being extinct": {th:"ญาติเพียงภาษาเดียวคือยูรีสูญไปแล้ว",hi:"इसकी एकमात्र संबंधी यूरी विलुप्त है",ru:"единственный родственный юри вымер",ar:"قريبتها الوحيدة يوري منقرضة",ja:"唯一の同系言語ユリ語は消滅",vi:"họ hàng duy nhất là tiếng Yuri đã tuyệt chủng",id:"satu-satunya kerabatnya, Yuri, telah punah",sw:"jamaa yake pekee, Kiyuri, imetoweka",de:"einziger Verwandter Yuri ausgestorben"},
+    "schematic": {th:"เชิงแบบแผน",hi:"योजनाबद्ध",ru:"схематический",ar:"تخطيطية",vi:"sơ đồ",id:"skematik",sw:"kimpangilio",de:"schematisch"},
+    "a posteriori": {th:"อะโพสเทอริโอริ",hi:"उत्तरानुभविक",ru:"апостериорный",ar:"بَعدية",vi:"hậu nghiệm",id:"a posteriori",sw:"a posteriori",de:"a posteriori"},
+    "artistic": {th:"เชิงศิลปะ",hi:"कलात्मक",ru:"художественный",ar:"فنية",vi:"nghệ thuật",id:"artistik",sw:"kisanaa",de:"künstlerisch"},
+    "logical": {th:"เชิงตรรกะ",hi:"तार्किक",ru:"логический",ar:"منطقية",vi:"logic",id:"logis",sw:"kimantiki",de:"logisch"},
+    "philosophical": {th:"เชิงปรัชญา",hi:"दार्शनिक",ru:"философский",ar:"فلسفية",vi:"triết học",id:"filosofis",sw:"kifalsafa",de:"philosophisch"},
+  };
+  for (const [term, tr] of Object.entries(A)) {
+    for (const [lang, v] of Object.entries(tr)) {
+      if (!META_I18N_ATOMS[lang]) META_I18N_ATOMS[lang] = {};
+      if (!(term in META_I18N_ATOMS[lang])) META_I18N_ATOMS[lang][term] = v;
+    }
+  }
+})();

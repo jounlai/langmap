@@ -1,14 +1,14 @@
 {
   "namemap_i18n": {
-    "version": "1",
-    "hash": "f9d3273a7ea77a71"
+    "version": "2",
+    "hash": "c5130819a69860ad"
   },
   "countries.geojson": {
     "version": "1",
     "hash": "0b43ff5c126c23df"
   },
   "meta_i18n": {
-    "version": "2",
-    "hash": "01a33c76ccb4f203"
+    "version": "3",
+    "hash": "2eef9ee973d9f8db"
   }
 }

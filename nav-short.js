@@ -28,7 +28,7 @@
         zh: {"order":"语序图","word":"词汇地图","han":"汉字地图","name":"姓名地图","time":"历法地图","tree":"谱系树"},
         yue: {"order":"語序圖","word":"詞彙地圖","han":"漢字地圖","name":"姓名地圖","time":"曆法地圖","tree":"譜系樹"},
         vi: {"order":"Trật tự từ","word":"Bản đồ từ","han":"Bản đồ Hán tự","name":"Bản đồ tên","time":"Bản đồ lịch","tree":"Cây phả hệ"},
-        th: {"order":"ลำดับคำ","word":"แผนที่คำ","han":"แผนที่ตัวอักษร","name":"แผนที่ชื่อ","time":"แผนที่ปฏิทิน","tree":"แผนภูมิ"},
+        th: {"order":"ลำดับคำ","word":"แผนที่คำ","han":"แผนที่อักษรจีน","name":"แผนที่ชื่อ","time":"แผนที่ปฏิทิน","tree":"แผนภูมิ"},
         id: {"order":"Urutan Kata","word":"Peta Kata","han":"Peta Hanzi","name":"Peta Nama","time":"Peta Kalender","tree":"Pohon"},
         hi: {"order":"शब्द क्रम","word":"शब्द मानचित्र","han":"हान्ज़ी मानचित्र","name":"नाम मानचित्र","time":"कैलेंडर मानचित्र","tree":"वृक्ष"},
         de: {"order":"Wortstellung","word":"Wortkarte","han":"HanMap","name":"Namenskarte","time":"Kalenderkarte","tree":"Stammbaum"},
@@ -257,6 +257,10 @@
         var els = document.querySelectorAll('.credit-by');
         for (var i = 0; i < els.length; i++) {
             if (els[i].textContent !== v) els[i].textContent = v;
+            // A full-width colon already carries its own space: drop the markup's
+            // space after it (a double gap in ja/zh/yue), restore it otherwise (r21).
+            var nx = els[i].nextSibling;
+            if (nx && nx.nodeType === 3) { var want = /：$/.test(v) ? nx.nodeValue.replace(/^\s+/, '') : (/^\s/.test(nx.nodeValue) ? nx.nodeValue : ' ' + nx.nodeValue); if (nx.nodeValue !== want) nx.nodeValue = want; }
             // ar/he read the strip right to left (credit first); the names stay LTR (styles.css).
             var wm = els[i].closest('.url-watermark');
             if (wm) { var d = /^(ar|he)/.test(l) ? 'rtl' : ''; if (wm.getAttribute('dir') !== (d || null)) { if (d) wm.setAttribute('dir', d); else wm.removeAttribute('dir'); } }
@@ -281,7 +285,7 @@
     // which is what crawlers see).
     var TITLE_BY = {
         wordmap: {ja:"単語マップ",ko:"단어 맵",zh:"词汇地图",yue:"詞彙地圖",vi:"Bản đồ từ",th:"แผนที่คำ",id:"Peta Kata",hi:"शब्द मानचित्र",en:"Word Map",de:"Wortkarte",fr:"Carte des mots",it:"Mappa parole",es:"Mapa de palabras",pt:"Mapa de palavras",ru:"Карта слов",uk:"Карта слів",ar:"خريطة الكلمات",he:"מפת מילים",sw:"Ramani ya maneno"},
-        hanmap: {ja:"漢字マップ",ko:"한자 맵",zh:"汉字地图",yue:"漢字地圖",vi:"Bản đồ Hán tự",th:"แผนที่ตัวอักษร",id:"Peta Hanzi",hi:"हान्ज़ी मानचित्र",en:"HanMap",de:"HanMap",fr:"Carte des hanzi",it:"Mappa hanzi",es:"Mapa de hanzi",pt:"Mapa de hanzi",ru:"Карта иероглифов",uk:"Карта ієрогліфів",ar:"خريطة الحروف",he:"מפת תווים",sw:"Ramani ya hanzi"},
+        hanmap: {ja:"漢字マップ",ko:"한자 맵",zh:"汉字地图",yue:"漢字地圖",vi:"Bản đồ Hán tự",th:"แผนที่อักษรจีน",id:"Peta Hanzi",hi:"हान्ज़ी मानचित्र",en:"HanMap",de:"HanMap",fr:"Carte des hanzi",it:"Mappa hanzi",es:"Mapa de hanzi",pt:"Mapa de hanzi",ru:"Карта иероглифов",uk:"Карта ієрогліфів",ar:"خريطة الحروف",he:"מפת תווים",sw:"Ramani ya hanzi"},
         namemap: {ja:"名前マップ",ko:"이름 맵",zh:"姓名地图",yue:"姓名地圖",vi:"Bản đồ tên",th:"แผนที่ชื่อ",id:"Peta Nama",hi:"नाम मानचित्र",en:"Name Map",de:"Namenskarte",fr:"Carte des prénoms",it:"Mappa dei nomi",es:"Mapa de nombres",pt:"Mapa de nomes",ru:"Карта имён",uk:"Карта імен",ar:"خريطة الأسماء",he:"מפת שמות",sw:"Ramani ya majina"},
         timemap: {en:"Time Map",ja:"暦マップ",ko:"달력 맵",zh:"历法地图",yue:"曆法地圖",vi:"Bản đồ lịch",th:"แผนที่ปฏิทิน",id:"Peta Kalender",hi:"कैलेंडर मानचित्र",de:"Kalenderkarte",fr:"Carte des calendriers",it:"Mappa dei calendari",es:"Mapa de calendarios",pt:"Mapa de calendários",ru:"Карта календарей",uk:"Карта календарів",ar:"خريطة التقاويم",he:"מפת לוחות שנה",sw:"Ramani ya kalenda"}
     };
@@ -290,7 +294,7 @@
     function syncTitle() {
         if (!_pageKey) return;
         var l = String(document.documentElement.lang || 'en').toLowerCase().replace('-', '_'), b = l.split('_')[0];
-        var m = TITLE_BY[_pageKey], v = m[l] || m[b];
+        var m = TITLE_BY[_pageKey], v = m[l] || (l === 'zh_hk' && m.yue) || m[b];   // Time Map's yue UI sets lang=zh-HK (r21)
         var t = (b === 'en' || !v) ? _origTitle : 'LangMap — ' + v;
         if (document.title !== t) document.title = t;
     }

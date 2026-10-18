@@ -26919,7 +26919,8 @@ const HAN_LANG_META = {
       "year": 1975
     },
     "speakers": "歴史言語 / 現代話者なし",
-    "speakersSource": "近世初期マンダリン (中原音韻 1324)"
+    "speakersSource": "近世初期マンダリン (中原音韻 1324)",
+    "speakersSourceEn": "Early Mandarin (Zhongyuan Yinyun 中原音韻, 1324)"
   },
   "zh_phagspa": {
     "name": "Phags-pa Yuan Mandarin",
@@ -26983,7 +26984,8 @@ const HAN_LANG_META = {
       "year": 1269
     },
     "speakers": "文字体系 / 話者数該当なし",
-    "speakersSource": "パスパ文字 (元朝 1269-1368)"
+    "speakersSource": "パスパ文字 (元朝 1269-1368)",
+    "speakersSourceEn": "ʼPhags-pa script (Yuan dynasty, 1269–1368)"
   },
   "yue_hk": {
     "name": "Hong Kong Cantonese",
@@ -27136,7 +27138,8 @@ const HAN_LANG_META = {
       "year": 1993
     },
     "speakers": "約54万人 (2021年、3歳以上人口の81.0%が日常使用)",
-    "speakersSource": "マカオ統計暨普查局『2021人口普查 詳細結果』(zh.wikipedia「澳門粵語」経由)"
+    "speakersSource": "マカオ統計暨普查局『2021人口普查 詳細結果』(zh.wikipedia「澳門粵語」経由)",
+    "speakersSourceEn": "Macao Statistics and Census Service, 2021 Population Census detailed results (via zh.wikipedia 澳門粵語)"
   },
   "nan_sg": {
     "name": "Singaporean Hokkien",

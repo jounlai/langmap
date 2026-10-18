@@ -1888,3 +1888,21 @@ button.seg-delete-btn { background: none; color: #767676; }
 .lang-seo-link { border-radius: 6px; }
 .lang-seo-link:focus-visible { outline-offset: -2px; }
 .url-watermark[dir="rtl"] a { direction: ltr; unicode-bidi: isolate; }
+
+/* Rally r21 (phones / RTL) ------------------------------------------------ */
+/* Arabic / Hebrew language panel: the close circle stayed on the right and
+   covered the native name. */
+#lang-info[dir="rtl"] .close-btn { right: auto; left: 12px; }
+#lang-info[dir="rtl"] h2 { padding-right: 0; padding-left: 36px; }
+@media (max-width: 768px) {
+    #lang-info[dir="rtl"] .close-btn { left: max(16px, calc(env(safe-area-inset-left) + 8px)); }
+    #lang-info[dir="rtl"] h2 { padding-left: 56px; }
+}
+@media (max-width: 640px) {
+    /* RTL header: the hamburger sat against the logo instead of the far edge. */
+    .hamburger-btn { margin-left: 0; margin-inline-start: auto; }
+    .site-header-bar > .chrome-toggle-btn { margin-left: 0; margin-inline-start: auto; }
+    .site-header-bar > .chrome-toggle-btn + .hamburger-btn { margin-left: 0; margin-inline-start: 6px; }
+    /* Word Order language picker: group names were clipped at 52px. */
+    .lang-group-label { width: auto; min-width: 52px; max-width: 84px; overflow-wrap: break-word; hyphens: auto; }
+}

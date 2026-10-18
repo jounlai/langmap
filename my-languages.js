@@ -109,6 +109,26 @@
         if (vars) for (var p in vars) s = s.replace('{' + p + '}', vars[p]);
         return s;
     }
+    // Stat-card labels sit under a count: plural forms by Intl category (r21:
+    // "1 languages", ru "3 языков"). Missing categories fall back to STR.
+    var PL = {
+        en: { s_langs: { one: 'language' }, s_countries: { one: 'country' } },
+        ru: { s_langs: { one: 'язык', few: 'языка', many: 'языков' }, s_countries: { one: 'страна', few: 'страны', many: 'стран' } },
+        uk: { s_langs: { one: 'мова', few: 'мови', many: 'мов' }, s_countries: { one: 'країна', few: 'країни', many: 'країн' } },
+        ar: { s_langs: { zero: 'لغة', one: 'لغة', two: 'لغتان', few: 'لغات', many: 'لغة', other: 'لغة' }, s_countries: { zero: 'دولة', one: 'دولة', two: 'دولتان', few: 'دول', many: 'دولة', other: 'دولة' } },
+        he: { s_langs: { one: 'שפה' }, s_countries: { one: 'מדינה' } },
+        hi: { s_langs: { one: 'भाषा' } },
+        de: { s_langs: { one: 'Sprache' }, s_countries: { one: 'Land' } },
+        fr: { s_langs: { one: 'langue' } },
+        it: { s_langs: { one: 'lingua' }, s_countries: { one: 'paese' } },
+        es: { s_langs: { one: 'idioma' }, s_countries: { one: 'país' } },
+        pt: { s_langs: { one: 'língua' }, s_countries: { one: 'país' } }
+    };
+    function TN(k, n) {
+        var u = ui(), base = u.split('_')[0], d = PL[u] || PL[base], c = 'other';
+        try { c = new Intl.PluralRules(base).select(n); } catch (_) {}
+        return (d && d[k] && d[k][c]) || T(k);
+    }
     function nativeLabel() { var u = ui().split('_')[0]; return NATIVE[u] || NATIVE.en; }
 
     // ---- data helpers ------------------------------------------------------
@@ -275,7 +295,10 @@
         if (u === 'zh') { if (n >= 1e8) return trim1(n / 1e8) + '亿'; if (n >= 1e4) return trim1(n / 1e4) + '万'; return String(n); }
         if (u === 'ko') { if (n >= 1e8) return trim1(n / 1e8) + '억'; if (n >= 1e4) return trim1(n / 1e4) + '만'; return String(n); }
         // Other UIs: the locale's own compact form (1,2 Mio., 1,2 млн) — K/M/B was English-only.
-        try { return new Intl.NumberFormat(ui().replace('_', '-'), { notation: 'compact', maximumFractionDigits: 1 }).format(n); } catch (_) {}
+        // th/sw/vi/id: the short forms mix styles ("elfu 1.2" / "1.4M") or read as the
+        // wrong magnitude (id "2,3 M" = miliar); the long words are unambiguous (r21).
+        var cd = /^(th|sw|vi|id)/.test(ui()) ? 'long' : 'short';
+        try { return new Intl.NumberFormat(ui().replace('_', '-'), { notation: 'compact', compactDisplay: cd, maximumFractionDigits: 1 }).format(n); } catch (_) {}
         if (n >= 1e9) return trim1(n / 1e9) + 'B';
         if (n >= 1e6) return trim1(n / 1e6) + 'M';
         if (n >= 1e3) return trim1(n / 1e3) + 'K';
@@ -455,6 +478,9 @@
             '.mylang-stat .v{font-size:22px;font-weight:800;line-height:1.1}',
             '.mylang-stat.big .v{font-size:30px}',
             '.mylang-stat .l{font-size:11px;opacity:.7;margin-top:2px}',
+            // One big card + three small in two columns left an empty cell (r21).
+            '.mylang-stat:last-child{grid-column:1/-1}',
+            '@media (min-width:421px){.mylang-stats{grid-template-columns:repeat(3,minmax(0,1fr))}.mylang-stat:last-child{grid-column:auto}}',
             '.mylang-actions{display:flex;flex-wrap:wrap;gap:8px}',
             '.mylang-act{flex:1;min-width:120px;padding:11px;border-radius:10px;border:1px solid rgba(128,128,128,.3);background:transparent;color:inherit;font:inherit;font-weight:700;cursor:pointer;text-align:center;display:flex;align-items:center;justify-content:center}',
             '.mylang-act:hover{background:rgba(90,140,220,.12)}',
@@ -624,8 +650,8 @@
         statsEl.innerHTML = '';
         statsEl.appendChild(statCard(fmtBig(s.reach), T('s_reach'), true));
         statsEl.appendChild(statCard(pct, T('s_world')));
-        statsEl.appendChild(statCard(String(s.langs), T('s_langs')));
-        statsEl.appendChild(statCard(String(s.countries), T('s_countries')));
+        statsEl.appendChild(statCard(String(s.langs), TN('s_langs', s.langs)));
+        statsEl.appendChild(statCard(String(s.countries), TN('s_countries', s.countries)));
     }
     function statCard(v, l, big) {
         var c = el('div', 'mylang-stat' + (big ? ' big' : ''));

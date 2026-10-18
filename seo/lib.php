@@ -290,6 +290,12 @@ function seo_is_rtl(string $ui): bool
     return in_array($ui, SEO_RTL, true);
 }
 
+/** Breadcrumb separator that points along the reading direction (r24). */
+function seo_crumb_sep(string $ui): string
+{
+    return seo_is_rtl($ui) ? '&lsaquo;' : '&rsaquo;';
+}
+
 /** og:locale for a UI lang (fallback en_US). */
 function seo_locale(string $ui): string
 {

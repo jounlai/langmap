@@ -70,7 +70,7 @@
         gtag('config', 'G-JZ7JJBCCHG');
     }
 </script>
-<link rel="stylesheet" href="styles.css?v=161">
+<link rel="stylesheet" href="styles.css?v=162">
 <!-- Noto Serif Tibetan for native names of Tibetic languages
      (bo / xct / dz / khg / xsr / sik / lbj / bft / xkz / xct_litpr).
      Without this, Tibetan script in .node.leaf .native renders via OS
@@ -170,7 +170,7 @@
     .tree li { position: relative; padding: 2px 0; }
     /* Expand all laid out ~13,000 rows in one 2-4 s task: skip the content of rows far off screen.
        On the row (.node), not the <li>: containment on the <li> clipped the tree lines (r22). */
-    #tree-root .node { content-visibility: auto; contain-intrinsic-size: auto 24px; }
+    #tree-root .node { content-visibility: auto; contain-intrinsic-size: auto 30px; }   /* ~real row height: 24px shifted rows on first paint (CLS 0.046, r24) */
     /* RTL: spacing follows the reading direction (r23). */
     [dir="rtl"] .node:not(.expanded) .toggle { transform: scaleX(-1); }
     /* Wide screens: one centred column instead of rows hugging the left edge. */
@@ -304,7 +304,7 @@
 
     /* .back-to-top styles live in styles.css (shared with index.html). */
 </style>
-    <script src="nav-short.js?v=32"></script>
+    <script src="nav-short.js?v=33"></script>
 </head>
 <body>
     <header class="site-header-bar">
@@ -474,7 +474,9 @@ generates lang_names/<ui>.js from lang_names.js. -->
         const cookie = getCookie('wm_uilang');
         if (cookie && Object.prototype.hasOwnProperty.call(UI_I18N, cookie)) return cookie;
         if (cookie) { const base = cookie.split('_')[0]; if (Object.prototype.hasOwnProperty.call(UI_I18N, base)) return base; }
-        const nav = (navigator.language || 'en').toLowerCase().split('-')[0];
+        const navFull = (navigator.language || 'en').toLowerCase();
+        if (/^(yue|zh-(hk|mo)|zh-hant-(hk|mo))\b/.test(navFull) && Object.prototype.hasOwnProperty.call(UI_I18N, 'yue')) return 'yue';   // as on the other pages (r24)
+        const nav = navFull.split('-')[0];
         if (Object.prototype.hasOwnProperty.call(UI_I18N, nav)) return nav;
         return 'en';
     }
@@ -597,14 +599,19 @@ generates lang_names/<ui>.js from lang_names.js. -->
         if (!_enginePromise) _enginePromise = _loadJS('meta_i18n_engine.js?v=1');
         // per-UI writes META_I18N[ui] (the const from the lite file) + fills
         // META_I18N_ATOMS — engine must run first (async=false guarantees it).
-        _i18nByUi[ui] = Promise.all([_enginePromise, _loadJS('meta_i18n/' + ui + '.js?v=6')]);
+        _i18nByUi[ui] = Promise.all([_enginePromise, _loadJS('meta_i18n/' + ui + '.js?v=7')]);
         return _i18nByUi[ui];
     }
     // The tree only reads structured fields (family / parentCode / speakers) +
     // the base META_I18N table — all in wordmap_meta_lite.js (~1.1 MB), so it
     // no longer pulls the 19 MB wordmap_meta.js (descriptions/sources unused).
     _loadJS('wordmap_meta_lite.js?v=417')
-        .then(() => loadMetaI18nForUi(uiLang))   // lite defines META_I18N before the per-UI slice fills it
+        .then(() => Promise.all([
+            loadMetaI18nForUi(uiLang),   // lite defines META_I18N before the per-UI slice fills it
+            // A ?ui= / #ui= link picks the UI without the cookie the name table's
+            // boot reads, so language names stayed English (r24).
+            (typeof window.__ensureLangNames === 'function' ? window.__ensureLangNames(uiLang).catch(() => {}) : null),
+        ]))
         .then(init)
         .catch(() => { document.getElementById('loading').textContent = 'Failed to load language metadata.'; });
 
@@ -762,26 +769,28 @@ generates lang_names/<ui>.js from lang_names.js. -->
     // Tree-specific labels for the synthetic root + the rare "Unclassified"
     // fallback. These don't appear in meta.family, so translateMetaSmart()
     // can't translate them. Minimal entry per UI lang.
+    // Also tree-only names where the shared meta value is a script ("Mandaic" =
+    // Mandaic script in the script field), which a tree node must not show (r24).
     const TREE_ROOT_I18N = {
         en: { 'All Languages':'All Languages', 'Unclassified':'Unclassified' },
         ja: { 'All Languages':'全言語', 'Unclassified':'未分類' },
         ko: { 'All Languages':'전 언어', 'Unclassified':'미분류', 'Disputed':'계통 논란' },
         zh: { 'All Languages':'所有语言', 'Unclassified':'未分类', 'Disputed':'归属有争议' },
         yue:{ 'All Languages':'所有語言', 'Unclassified':'未分類', 'Disputed':'歸屬有爭議' },
-        vi: { 'All Languages':'Tất cả ngôn ngữ', 'Unclassified':'Chưa phân loại', 'Disputed':'Còn tranh cãi' },
+        vi: { 'Mandaic':'Tiếng Mandaic', 'Assamese':'Tiếng Assam', 'All Languages':'Tất cả ngôn ngữ', 'Unclassified':'Chưa phân loại', 'Disputed':'Còn tranh cãi' },
         th: { 'All Languages':'ทุกภาษา', 'Unclassified':'ไม่ได้จำแนก', 'Disputed':'ยังเป็นที่ถกเถียง' },
-        id: { 'All Languages':'Semua Bahasa', 'Unclassified':'Belum diklasifikasi', 'Disputed':'Diperdebatkan' },
+        id: { 'Mandaic':'Bahasa Mandaik', 'Assamese':'Bahasa Assam', 'All Languages':'Semua Bahasa', 'Unclassified':'Belum diklasifikasi', 'Disputed':'Diperdebatkan' },
         hi: { 'All Languages':'सभी भाषाएँ', 'Unclassified':'अवर्गीकृत', 'Disputed':'विवादित' },
-        de: { 'All Languages':'Alle Sprachen', 'Unclassified':'Nicht klassifiziert', 'Disputed':'Umstritten' },
-        fr: { 'All Languages':'Toutes les langues', 'Unclassified':'Non classé', 'Disputed':'Contesté' },
-        it: { 'All Languages':'Tutte le lingue', 'Unclassified':'Non classificato', 'Disputed':'Controverso' },
-        es: { 'All Languages':'Todas las lenguas', 'Unclassified':'Sin clasificar', 'Disputed':'Discutido' },
-        pt: { 'All Languages':'Todas as línguas', 'Unclassified':'Não classificado', 'Disputed':'Controverso' },
+        de: { 'Mandaic':'Mandäisch', 'Assamese':'Assamesisch', 'All Languages':'Alle Sprachen', 'Unclassified':'Nicht klassifiziert', 'Disputed':'Umstritten' },
+        fr: { 'Mandaic':'Mandéen', 'All Languages':'Toutes les langues', 'Unclassified':'Non classé', 'Disputed':'Contesté' },
+        it: { 'Mandaic':'Mandaico', 'All Languages':'Tutte le lingue', 'Unclassified':'Non classificato', 'Disputed':'Controverso' },
+        es: { 'Mandaic':'Mandeo', 'All Languages':'Todas las lenguas', 'Unclassified':'Sin clasificar', 'Disputed':'Discutido' },
+        pt: { 'Mandaic':'Mandaico', 'All Languages':'Todas as línguas', 'Unclassified':'Não classificado', 'Disputed':'Controverso' },
         ru: { 'All Languages':'Все языки', 'Unclassified':'Неклассифицировано', 'Disputed':'Спорные' },
         uk: { 'All Languages':'Усі мови', 'Unclassified':'Некласифіковано', 'Disputed':'Спірні' },
         ar: { 'All Languages':'كل اللغات', 'Unclassified':'غير مصنفة', 'Disputed':'متنازع عليها' },
         he: { 'All Languages':'כל השפות', 'Unclassified':'לא מסווג', 'Disputed':'שנוי במחלוקת' },
-        sw: { 'All Languages':'Lugha Zote', 'Unclassified':'Bila uainishwa', 'Disputed':'Yenye utata' },
+        sw: { 'Mandaic':'Kimandaiki', 'Assamese':'Kiassam', 'All Languages':'Lugha Zote', 'Unclassified':'Bila uainishwa', 'Disputed':'Yenye utata' },
     };
     function familyDisplayName(name) {
         // 1. Tree-specific overrides (root + Unclassified)

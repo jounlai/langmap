@@ -567,7 +567,23 @@ function scheduleRedrawLines() {
 }
 
 // Initialize
+// Corrections are kept on this device and re-applied on load: "Correction
+// saved" used to mean nothing after a reload (r24).
+function applyStoredCorrections() {
+    try {
+        const stored = JSON.parse(localStorage.getItem('langmap_corrections') || '[]');
+        if (!Array.isArray(stored)) return;
+        for (const c of stored) {
+            if (!c || !Array.isArray(c.data) || typeof c.lang !== 'string') continue;
+            const s = SENTENCES.find((x) => x.id === c.sentenceId);
+            if (s && s.langs && Object.prototype.hasOwnProperty.call(s.langs, c.lang)
+                && c.data.every((p) => Array.isArray(p) && p.length >= 2 && typeof p[1] === 'string')) s.langs[c.lang] = c.data;
+        }
+    } catch (_) {}
+}
+
 document.addEventListener('DOMContentLoaded', () => {
+    applyStoredCorrections();
     // Pass 34: detect UI lang from cookie / navigator.language before parsing
     // hash, so a brand-new visitor sees their preferred language even on the
     // first load. URL ?ui= still overrides via loadFromHash below.
@@ -2997,6 +3013,7 @@ function saveEdit(row, langCode) {
             sentenceId: sentence.id,
             lang: langCode,
             corrections,
+            data: newLangData,   // the edited row, re-applied on the next visit (r24)
             timestamp: new Date().toISOString()
         };
         // Store to localStorage

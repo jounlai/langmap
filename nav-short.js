@@ -226,6 +226,24 @@
     }
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', settle); else settle();
 
+    // A #ui= / ?ui= landing (SEO pages link that way) sets the language for this
+    // page only, without the cookie, so the first click to another map came up
+    // in English (r24). Carry the page's language on header-nav clicks when it
+    // differs from the saved choice.
+    document.addEventListener('click', function (e) {
+        var a = e.target && e.target.closest && e.target.closest('.site-header-bar a[href]');
+        if (!a || e.defaultPrevented || e.button !== 0) return;
+        var href = a.getAttribute('href') || '';
+        if (!/^[a-z0-9_-]+\.html(?:[?#].*)?$/i.test(href) || /[#&?]ui=/.test(href)) return;
+        var hl = String(document.documentElement.lang || '');
+        var ui = /^zh-hk$/i.test(hl) ? 'yue' : hl.replace('-', '_');
+        var m = /(?:^|;\s*)wm_uilang=([^;]+)/.exec(document.cookie || '');
+        var saved = m ? decodeURIComponent(m[1]) : '';
+        if (!ui || ui === saved || (!saved && ui === 'en')) return;
+        a.setAttribute('href', href + (href.indexOf('#') < 0 ? '#' : '&') + 'ui=' + encodeURIComponent(ui));
+        setTimeout(function () { a.setAttribute('href', href); }, 0);   // a later language change must not inherit it
+    }, true);
+
     // Header menu / display-settings toggles: a real <button data-toggle=
     // "checkbox-id"> drives a hidden checkbox, whose :checked state the CSS
     // drawers key off. (They were <label role="button">, which a label may

@@ -3265,7 +3265,7 @@ const SPEAKER_COUNT_OVERLAY = {
     de: {
         l1: 75_000_000, total: 134_000_000, range: 'point',
         year: 2024, source: 'Ethnologue 27',
-        notes: 'L1 ~75M; ~134M with L2 (r23: 130M had been stored as L1)',
+        notes: 'L1 ~75M; ~134M with L2',
     },
     it: {
         l1: 65_000_000, range: 'range', rangeMin: 60_000_000, rangeMax: 85_000_000,

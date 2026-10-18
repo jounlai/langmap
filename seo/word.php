@@ -344,7 +344,7 @@ function seo_render_word(array $data, array $word, string $ui): void
         'altpath'     => $altPath,
     ]);
     ?>
-<nav class="seo-crumbs" aria-label="<?= e(seo_t($ui, 'crumbs')) ?>"><a href="<?= e(seo_path($ui, 'word')) ?>"><?= e(seo_t($ui, 'wd_link')) ?></a> &rsaquo; <?= e($label) ?></nav>
+<nav class="seo-crumbs" aria-label="<?= e(seo_t($ui, 'crumbs')) ?>"><a href="<?= e(seo_path($ui, 'word')) ?>"><?= e(seo_t($ui, 'wd_link')) ?></a> <?= seo_crumb_sep($ui) ?> <?= e($label) ?></nav>
 <?= seo_breadcrumb_ld([[seo_t($ui, 'wd_link'), seo_path($ui, 'word')], [$label, null]]) ?>
 
 <header class="seo-hero">

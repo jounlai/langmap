@@ -452,6 +452,8 @@ body {
     line-height: 1;
 }
 .nav-icon:hover { color: #333; }
+/* Prev/next sit mirrored in Arabic/Hebrew; mirror the chevrons too (r24). */
+html:is([lang=ar], [lang=he]) .nav-icon:not(.nav-random) > span { display: inline-block; transform: scaleX(-1); }
 .nav-random { display: inline-flex; align-items: center; gap: 3px; font-size: 13px; }
 .random-icon { font-size: 16px; }
 .random-text { font-size: 12px; color: #666; }

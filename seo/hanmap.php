@@ -5,6 +5,48 @@
 
 declare(strict_types=1);
 
+/** A gloss that is just the character again, its simplified / shinjitai form, or a digit (r24). */
+function hm_gloss_is_echo(string $ch, string $g): bool
+{
+    static $var = ['鐵'=>'鐵铁鉄','龍'=>'龍龙竜','馬'=>'馬马','雞'=>'雞鸡鶏','豬'=>'豬猪','貓'=>'貓猫','鳥'=>'鳥鸟','魚'=>'魚鱼','頭'=>'頭头','兒'=>'兒儿児','門'=>'門门','飯'=>'飯饭','錢'=>'錢钱銭','來'=>'來来','飛'=>'飛飞','見'=>'見见','聞'=>'聞闻','飲'=>'飲饮','紅'=>'紅红','黃'=>'黃黄','綠'=>'綠绿緑','長'=>'長长','遠'=>'遠远','熱'=>'熱热','東'=>'東东','無'=>'無无','個'=>'個个箇','気'=>'気氣'];
+    if ($g === '' ) return false;
+    if (preg_match('/^\d+$/', $g) || $g === $ch) return true;
+    if (mb_strlen($g) !== 1) return false;
+    foreach ($var as $k => $set) if ($k === $ch || mb_strpos($set, $ch) !== false) return mb_strpos($set, $g) !== false;
+    return false;
+}
+
+/** Speaker chip value: the prose as is in ja, else its first figure in the UI's number style (r24). */
+function hm_speakers_value(string $ui, string $raw): string
+{
+    if ($ui === 'ja') return seo_meta_value($ui, $raw);
+    $tr = seo_meta_value($ui, $raw);
+    if ($tr !== $raw && !preg_match('/[\x{3041}-\x{30FA}\x{3400}-\x{9FFF}]/u', $tr)) return $tr;   // a real translation exists
+    if (!preg_match('/(\d[\d,]*(?:\.\d+)?)\s*(億|万)?人/u', $raw, $m)) return '';
+    $n = (float) str_replace(',', '', $m[1]) * (($m[2] ?? '') === '億' ? 1e8 : (($m[2] ?? '') === '万' ? 1e4 : 1));
+    if ($n < 1) return '';
+    $more = preg_match('/以上/u', $raw) ? '+' : '';
+    $trim = function (float $v, int $p, string $dec = '.'): string {
+        $t = rtrim(rtrim(number_format($v, $p, '.', ''), '0'), '.');
+        return str_replace('.', $dec, $t);
+    };
+    if ($ui === 'ko' || $ui === 'zh' || $ui === 'yue') {
+        $wan = $ui === 'ko' ? '만' : '万'; $yi = $ui === 'ko' ? '억' : ($ui === 'yue' ? '億' : '亿');
+        $t = $n >= 1e8 ? $trim($n / 1e8, 2) . $yi : ($n >= 1e4 ? $trim($n / 1e4, 1) . $wan : number_format($n));
+        return '~' . $t . $more;
+    }
+    $comma = in_array($ui, ['de', 'fr', 'it', 'es', 'pt', 'ru', 'uk', 'id', 'vi'], true);
+    $dec = $comma ? ',' : '.';
+    $M = ['de' => ' Mio.', 'fr' => ' M', 'it' => ' Mln', 'es' => ' M', 'pt' => ' mi', 'ru' => ' млн', 'uk' => ' млн', 'id' => ' jt', 'vi' => ' tr'][$ui] ?? 'M';
+    $B = ['de' => ' Mrd.', 'fr' => ' Md', 'it' => ' Mrd', 'es' => ' mil M', 'pt' => ' bi', 'ru' => ' млрд', 'uk' => ' млрд', 'id' => ' M', 'vi' => ' tỷ'][$ui] ?? 'B';
+    $K = ['de' => ' Tsd.', 'fr' => ' k', 'it' => ' mila', 'es' => ' mil', 'pt' => ' mil', 'ru' => ' тыс.', 'uk' => ' тис.', 'id' => ' rb', 'vi' => ' N'][$ui] ?? 'K';
+    if ($n >= 1e9)      $t = $trim($n / 1e9, 2, $dec) . $B;
+    elseif ($n >= 1e6)  $t = $trim($n / 1e6, 1, $dec) . $M;
+    elseif ($n >= 1e4)  $t = $trim($n / 1e3, 0, $dec) . $K;
+    else                $t = number_format($n, 0, $dec, $comma ? '.' : ',');
+    return '~' . $t . $more;
+}
+
 require_once __DIR__ . '/lib.php';
 
 /** @var string $seo_id */
@@ -90,7 +132,7 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
         'altpath' => $altPath,
     ]);
     ?>
-<nav class="seo-crumbs" aria-label="<?= e(seo_t($ui, 'crumbs')) ?>"><a href="<?= e(seo_path($ui, 'hanmap')) ?>">Han Map</a> &rsaquo; <?= e($name) ?></nav>
+<nav class="seo-crumbs" aria-label="<?= e(seo_t($ui, 'crumbs')) ?>"><a href="<?= e(seo_path($ui, 'hanmap')) ?>">Han Map</a> <?= seo_crumb_sep($ui) ?> <?= e($name) ?></nav>
 <?= seo_breadcrumb_ld([['Han Map', seo_path($ui, 'hanmap')], [$name, null]]) ?>
 
 <header class="seo-hero">
@@ -112,13 +154,17 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
     $chips = [];
     // Values, not just labels, are translated — see seo_meta_value().
     if (!empty($lang['family']))      $chips[seo_t($ui, 'family')]   = seo_meta_value($ui, $lang['family']);
-    if (!empty($lang['speakers']))    $chips[seo_t($ui, 'speakers')] = seo_meta_value($ui, $lang['speakers']);
+    // HAN_LANG_META.speakers is Japanese prose (約400万人 (台山語・四邑片)); other
+    // UIs get the figure in their own number style, or no chip (r24).
+    $spkV = !empty($lang['speakers']) ? hm_speakers_value($ui, (string) $lang['speakers']) : '';
+    if ($spkV !== '')                 $chips[seo_t($ui, 'speakers')] = $spkV;
     if (!empty($lang['region']))      $chips[seo_t($ui, 'region')]   = seo_meta_value($ui, $lang['region']);
     if (!empty($lang['romanization']))$chips[seo_t($ui, 'romanization')] = $lang['romanization'];
     if ($readingType !== '')          $chips[seo_t($ui, 'reading')]  = $readingType;
     $chipLang = [];
     foreach (['family','speakers','region'] as $f)
         if (!empty($lang[$f])) $chipLang[seo_t($ui, $f)] = seo_meta_value_lang($ui, (string) $lang[$f]);
+    if ($spkV !== '' && $ui !== 'ja') unset($chipLang[seo_t($ui, 'speakers')]);   // formatted in the page language
     if (!empty($lang['romanization']) && $ui !== 'en') $chipLang[seo_t($ui, 'romanization')] = 'en';
     if ($chips): ?>
 <div class="seo-meta">
@@ -180,7 +226,7 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
                 // The meaning sits under the character, not in a column of its own:
                 // the extra column pushed the readings off a phone screen (r21).
                 $glT = (string) (($c['glosses'] ?? [])[$ui] ?? '');   // r22: translated meanings
-                if (preg_match('/^(?:[\x{3400}-\x{9FFF}\x{F900}-\x{FAFF}]|\d+)$/u', $glT)) $glT = '-';   // just the character again / a digit: nothing to add (r23)
+                if (hm_gloss_is_echo((string) $c['char'], $glT)) $glT = '-';   // the character again (or its simplified / shinjitai form) or a digit (r24)
                 $gl = $glT === '-' ? '' : ($glT !== '' ? $glT : (string) ($c['gloss'] ?? ''));
                 $html .= '<td class="c-char" rowspan="' . $n . '"><span lang="zh">' . e($c['char']) . '</span>'
                        . ($gl !== '' ? '<span class="c-gl"' . ($ui !== 'en' && $glT === '' ? ' lang="en"' : '') . '>' . e($gl) . '</span>' : '') . '</td>';
@@ -286,7 +332,7 @@ function seo_render_hanmap_index(array $data, string $ui): void
         'altpath' => '/hanmap/',
     ]);
     ?>
-<nav class="seo-crumbs" aria-label="<?= e(seo_t($ui, 'crumbs')) ?>"><a href="<?= e(seo_path($ui, '')) ?>">LangMap</a> &rsaquo; Han Map</nav>
+<nav class="seo-crumbs" aria-label="<?= e(seo_t($ui, 'crumbs')) ?>"><a href="<?= e(seo_path($ui, '')) ?>">LangMap</a> <?= seo_crumb_sep($ui) ?> Han Map</nav>
 <header class="seo-hero">
   <h1>Han Map</h1>
   <p class="sub"><?= e(seo_t($ui, 'hm_index_sub', ['c' => (string) count($data['chars']), 'n' => (string) count($langs)])) ?></p>

@@ -336,8 +336,8 @@ function seo_render_trivia_article(array $data, array $byId, string $id, string 
     ]);
     ?>
 <nav class="seo-crumbs" aria-label="<?= e(seo_t($ui, 'crumbs')) ?>">
-  <a href="<?= e(seo_path($ui, '')) ?>">LangMap</a> &rsaquo;
-  <a href="<?= e(seo_path($ui, 'trivia')) ?>"><?= e(seo_t($ui, 'tri_link')) ?></a> &rsaquo;
+  <a href="<?= e(seo_path($ui, '')) ?>">LangMap</a> <?= seo_crumb_sep($ui) ?>
+  <a href="<?= e(seo_path($ui, 'trivia')) ?>"><?= e(seo_t($ui, 'tri_link')) ?></a> <?= seo_crumb_sep($ui) ?>
   <?= e($t['title']) ?>
 </nav>
 <?= seo_breadcrumb_ld([['LangMap', seo_path($ui, '')], [seo_t($ui, 'tri_link'), seo_path($ui, 'trivia')], [$t['title'], null]]) ?>
@@ -432,7 +432,7 @@ function seo_render_trivia_hub(array $data, array $byId, string $ui): void
         'altpath' => '/trivia/',
     ]);
     ?>
-<nav class="seo-crumbs" aria-label="<?= e(seo_t($ui, 'crumbs')) ?>"><a href="<?= e(seo_path($ui, '')) ?>">LangMap</a> &rsaquo; <?= e(seo_t($ui, 'tri_link')) ?></nav>
+<nav class="seo-crumbs" aria-label="<?= e(seo_t($ui, 'crumbs')) ?>"><a href="<?= e(seo_path($ui, '')) ?>">LangMap</a> <?= seo_crumb_sep($ui) ?> <?= e(seo_t($ui, 'tri_link')) ?></nav>
 <header class="seo-hero">
   <h1><?= e(seo_t($ui, 'tri_link')) ?></h1>
   <p class="sub"><?= e(seo_t($ui, 'tri_hub_sub', ['n' => $n])) ?></p>

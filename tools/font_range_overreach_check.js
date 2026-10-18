@@ -79,7 +79,8 @@ for (const f of FILES) {
     // Han there restyles nothing, so it is outside this check's concern (r22).
     const s = fs.readFileSync(path.join(ROOT, f), 'utf8').replace(/\/\* CJK-SUBSET:START[\s\S]*?CJK-SUBSET:END \*\//g, '')
         // Same for HANMAP-IPA: a Gentium Plus subset listed just before Gentium Plus itself.
-        .replace(/\/\* HANMAP-IPA:START[\s\S]*?HANMAP-IPA:END \*\//g, '');
+        .replace(/\/\* HANMAP-IPA:START[\s\S]*?HANMAP-IPA:END \*\//g, '')
+        .replace(/\/\* WORDMAP-IPA:START[\s\S]*?WORDMAP-IPA:END \*\//g, '');   // and its Word Map twin (r24)
     for (const m of s.matchAll(/@font-face\s*\{([\s\S]*?)\}/g)) {
         const body = m[1];
         const fam = (/font-family:\s*['"]([^'"]+)['"]/.exec(body) || [])[1];

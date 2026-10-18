@@ -1382,3 +1382,4332 @@
     if (!(src in META_I18N[lang])) META_I18N[lang][src] = v;
   }
 })();
+
+// r24: language-tree branch names for ko zh yue uk he vi de fr es it pt id sw.
+// These override earlier entries: the agents that wrote them checked every
+// tree level and every other meta string before and after, and replaced
+// word-by-word compositions ("West- Germanisch", "东部 印地语") and a few
+// plainly wrong hand entries (zh 缅彝 for Burmish, sw Kijerumani for Germanic).
+(function () {
+  if (typeof META_I18N_ATOMS === 'undefined') return;
+  const A = {
+ "Udege-Oroch subgroup": {
+  "ko": "우데게-오로치 하위군",
+  "zh": "乌德盖-奥罗奇亚群",
+  "yue": "烏德蓋-奧羅奇亞群",
+  "uk": "удейсько-орочська підгрупа",
+  "he": "תת-קבוצת אודגה-אורוץ׳"
+ },
+ "sister to Oroch and Negidal": {
+  "ko": "오로치어·네기달어와 자매 관계",
+  "zh": "与奥罗奇语、涅吉达尔语为姊妹语",
+  "yue": "同奧羅奇語、涅吉達爾語係姊妹語",
+  "uk": "споріднена з орочською та негідальською",
+  "he": "אחות לאורוץ׳ ולנגידל"
+ },
+ "Hungarian": {
+  "ko": "헝가리어",
+  "zh": "匈牙利语",
+  "yue": "匈牙利語",
+  "uk": "угорська",
+  "he": "הונגרית"
+ },
+ "Svan branch": {
+  "ko": "스반어파",
+  "zh": "斯万语支",
+  "yue": "斯萬語支",
+  "uk": "сванська гілка",
+  "he": "הענף הסוואני"
+ },
+ "sister to Zan-Georgian": {
+  "ko": "잔-조지아어군과 자매 관계",
+  "zh": "与赞-格鲁吉亚语支为姊妹",
+  "yue": "同贊-格魯吉亞語支係姊妹",
+  "uk": "сестринська до зансько-грузинської",
+  "he": "אחות לזאנית-גאורגית"
+ },
+ "Kam-Sui": {
+  "ko": "캄수이어군",
+  "zh": "侗水语支",
+  "yue": "侗水語支",
+  "uk": "кам-суйський",
+  "he": "קאם-סואי",
+  "vi": "nhóm Đồng-Thủy"
+ },
+ "Waic": {
+  "ko": "와어군",
+  "zh": "佤语支",
+  "yue": "佤語支",
+  "uk": "васький",
+  "he": "קבוצת וא",
+  "de": "Wa-Sprachen",
+  "es": "lenguas wa",
+  "it": "lingue wa",
+  "pt": "wa",
+  "id": "Wa",
+  "fr": "Langues wa",
+  "vi": "nhóm Wa",
+  "sw": "lugha za Wa"
+ },
+ "Shughni-Yazgulami": {
+  "ko": "슈그니-야즈굴라미어군",
+  "zh": "舒格南-亚兹古拉米语支",
+  "yue": "舒格南-亞茲古拉米語支",
+  "uk": "шугнансько-язгулямський",
+  "he": "שוגני-יזגולאמי"
+ },
+ "Kra": {
+  "ko": "크라어군",
+  "zh": "仡央语支",
+  "yue": "仡央語支",
+  "uk": "кра",
+  "he": "קרא"
+ },
+ "Hlai": {
+  "ko": "흘라이어군",
+  "zh": "黎语支",
+  "yue": "黎語支",
+  "uk": "хлайський",
+  "he": "הלאי"
+ },
+ "Shirongolic": {
+  "ko": "시롱골어군",
+  "zh": "甘青蒙古语支",
+  "yue": "甘青蒙古語支",
+  "uk": "широнгольський",
+  "he": "שירונגולית",
+  "de": "Shirongolisch",
+  "pt": "shirongólica",
+  "id": "Shirongolik",
+  "fr": "Shirongol",
+  "vi": "Shirongol",
+  "sw": "Shirongol"
+ },
+ "Lolo-Burmese": {
+  "ko": "로로버마어파",
+  "zh": "缅彝语群",
+  "yue": "緬彝語群",
+  "uk": "лоло-бірманський",
+  "he": "לולו-בורמזית",
+  "es": "lolo-birmana",
+  "it": "lolo-birmana",
+  "vi": "nhóm Lô Lô-Miến",
+  "sw": "Kilolo-Kiburma"
+ },
+ "branch debated": {
+  "ko": "계통 논쟁 중",
+  "zh": "分支有争议",
+  "yue": "分支有爭議",
+  "uk": "гілка дискусійна",
+  "he": "הענף שנוי במחלוקת"
+ },
+ "Digarish": {
+  "ko": "디가로어군",
+  "zh": "迪加罗语支",
+  "yue": "迪加羅語支",
+  "uk": "дігарський",
+  "he": "דיגארית",
+  "pt": "digárica",
+  "id": "Digaro"
+ },
+ "\"Mishmi\" is areal": {
+  "ko": "‘미시미’는 지역적 명칭",
+  "zh": "“米什米”为地域名称",
+  "yue": "「米什米」係地域名稱",
+  "uk": "«мішмі» — ареальна назва",
+  "he": "„מישמי” הוא כינוי אזורי"
+ },
+ "Mafa-Bata subgroup": {
+  "ko": "마파-바타 하위군",
+  "zh": "马法-巴塔亚群",
+  "yue": "馬法-巴塔亞群",
+  "uk": "мафа-батська підгрупа",
+  "he": "תת-קבוצת מאפה-באטה"
+ },
+ "Kera-Kwang sub-cluster": {
+  "ko": "케라-쾅 소군집",
+  "zh": "克拉-夸恩小群",
+  "yue": "克拉-夸恩小群",
+  "uk": "кластер кера-кванг",
+  "he": "אשכול קרה-קוואנג"
+ },
+ "Mafa-Bata": {
+  "ko": "마파-바타",
+  "zh": "马法-巴塔",
+  "yue": "馬法-巴塔",
+  "uk": "мафа-бата",
+  "he": "מאפה-באטה"
+ },
+ "Daba subgroup": {
+  "ko": "다바 하위군",
+  "zh": "达巴亚群",
+  "yue": "達巴亞群",
+  "uk": "підгрупа даба",
+  "he": "תת-קבוצת דאבה"
+ },
+ "Bangi-Tetela": {
+  "ko": "방기-테텔라어군",
+  "zh": "班吉-特特拉语群",
+  "yue": "班吉-特特拉語群",
+  "uk": "бангі-тетела",
+  "he": "באנגי-טטלה"
+ },
+ "Western Caribbean": {
+  "ko": "서카리브",
+  "zh": "西加勒比",
+  "yue": "西加勒比",
+  "uk": "західнокарибський",
+  "he": "קריבית מערבית"
+ },
+ "Romanichal-Kaale subgroup": {
+  "ko": "로마니찰-칼레 하위군",
+  "zh": "罗曼尼查尔-卡莱亚群",
+  "yue": "羅曼尼查爾-卡萊亞群",
+  "uk": "підгрупа романічал-кале",
+  "he": "תת-קבוצת רומניצ׳ל-קאלה"
+ },
+ "Kalam-Kobon": {
+  "ko": "칼람-코본어군",
+  "zh": "卡拉姆-科邦语群",
+  "yue": "卡拉姆-科邦語群",
+  "uk": "калам-кобон",
+  "he": "קלאם-קובון"
+ },
+ "Pacific": {
+  "ko": "태평양",
+  "fr": "Pacifique",
+  "vi": "Thái Bình Dương",
+  "sw": "Pasifiki"
+ },
+ "Melanesian Pijin family": {
+  "ko": "멜라네시아 피진어군",
+  "zh": "美拉尼西亚皮钦语族",
+  "yue": "美拉尼西亞皮欽語族",
+  "uk": "меланезійські піджини",
+  "he": "משפחת הפיג׳ין המלנזי"
+ },
+ "Tuscarora-Nottoway": {
+  "ko": "터스커로라-노터웨이어군",
+  "zh": "塔斯卡洛拉-诺托韦语支",
+  "yue": "塔斯卡洛拉-諾托韋語支",
+  "uk": "тускарора-нотавей",
+  "he": "טוסקרורה-נוטוויי"
+ },
+ "a posteriori": {
+  "ko": "아 포스테리오리",
+  "zh": "后验语",
+  "yue": "後驗語",
+  "uk": "апостеріорна",
+  "he": "א-פוסטריורית",
+  "sw": "inayotokana na lugha zilizopo"
+ },
+ "schematic": {
+  "ko": "도식적",
+  "zh": "图式型",
+  "yue": "圖式型",
+  "uk": "схематична",
+  "he": "סכמטית"
+ },
+ "philosophical": {
+  "ko": "철학적",
+  "zh": "哲学",
+  "yue": "哲學",
+  "uk": "філософська",
+  "he": "פילוסופית"
+ },
+ "artistic": {
+  "ko": "예술적",
+  "zh": "艺术",
+  "yue": "藝術",
+  "uk": "художня",
+  "he": "אמנותית"
+ },
+ "logical": {
+  "ko": "논리적",
+  "zh": "逻辑",
+  "yue": "邏輯",
+  "uk": "логічна",
+  "he": "לוגית"
+ },
+ "Central zone": {
+  "ko": "중앙 지대",
+  "zh": "中部区",
+  "yue": "中部區",
+  "uk": "центральна зона",
+  "he": "האזור המרכזי"
+ },
+ "Ga-Adangme": {
+  "ko": "가-아당메어군",
+  "zh": "加-阿当梅语支",
+  "yue": "加-阿當梅語支",
+  "uk": "га-адангме",
+  "he": "גא-אדנגמה"
+ },
+ "Masaba-Luhya": {
+  "ko": "마사바-루햐어군",
+  "zh": "马萨巴-卢希亚语群",
+  "yue": "馬薩巴-盧希亞語群",
+  "uk": "масаба-лух'я",
+  "he": "מסאבה-לוהיה"
+ },
+ "Mongo": {
+  "ko": "몽고어군",
+  "zh": "蒙戈语群",
+  "yue": "蒙戈語群",
+  "uk": "монго",
+  "he": "מונגו",
+  "sw": "Kimongo"
+ },
+ "Tetela": {
+  "ko": "테텔라",
+  "zh": "特特拉",
+  "yue": "特特拉",
+  "uk": "тетела",
+  "he": "טטלה",
+  "sw": "Kitetela"
+ },
+ "Senegambian": {
+  "ko": "세네감비아어군",
+  "zh": "塞内冈比亚语支",
+  "yue": "塞內岡比亞語支",
+  "uk": "сенегамбійський",
+  "he": "סנגמבית",
+  "de": "Senegambisch",
+  "es": "senegambiana",
+  "it": "senegambiana",
+  "pt": "senegambiana",
+  "id": "Senegambia",
+  "fr": "Sénégambien",
+  "vi": "nhóm Senegambia",
+  "sw": "lugha za Senegambia"
+ },
+ "Kampan": {
+  "ko": "캄파어군",
+  "zh": "坎帕语支",
+  "yue": "坎帕語支",
+  "uk": "кампа",
+  "he": "קמפה",
+  "de": "Kampa-Sprachen",
+  "pt": "campa",
+  "fr": "Campa",
+  "vi": "nhóm Kampa",
+  "sw": "lugha za Kampa"
+ },
+ "sometimes grouped as Paezan": {
+  "ko": "때때로 파에스어족으로 묶임",
+  "zh": "有时归入派埃斯语系",
+  "yue": "有時歸入派埃斯語系",
+  "uk": "іноді відносять до паесських мов",
+  "he": "לעתים מסווגת עם הפאאסיות"
+ },
+ "Lenape": {
+  "ko": "레나페어",
+  "zh": "德拉瓦语支",
+  "yue": "德拉瓦語支",
+  "uk": "ленапе",
+  "he": "לנאפה"
+ },
+ "Aghul-Tabasaran-Tsakhur subgroup": {
+  "ko": "아굴-타바사란-차후르 하위군",
+  "zh": "阿古尔-塔巴萨兰-查胡尔亚群",
+  "yue": "阿古爾-塔巴薩蘭-查胡爾亞群",
+  "uk": "агульсько-табасарансько-цахурська підгрупа",
+  "he": "תת-קבוצת אגול-טבסרן-צחור"
+ },
+ "Kipchak-Cuman": {
+  "ko": "킵차크-쿠만어군",
+  "zh": "钦察-库曼语支",
+  "yue": "欽察-庫曼語支",
+  "uk": "кипчацько-половецький",
+  "he": "קיפצ׳קית-קומאנית",
+  "de": "Kiptschakisch-Kumanisch",
+  "fr": "Kiptchak-coumane"
+ },
+ "Timor-Babar": {
+  "ko": "티모르-바바르어군",
+  "zh": "帝汶-巴巴尔语群",
+  "yue": "帝汶-巴巴爾語群",
+  "uk": "тимор-бабарський",
+  "he": "טימור-בבאר"
+ },
+ "Western Desert": {
+  "ko": "서부 사막어",
+  "zh": "西部沙漠语",
+  "yue": "西部沙漠語",
+  "uk": "мова Західної пустелі",
+  "he": "שפת המדבר המערבי"
+ },
+ "Indo-Aryan-lexified": {
+  "ko": "인도아리아어 어휘 기반",
+  "zh": "以印度-雅利安语为词汇来源",
+  "yue": "以印度-雅利安語為詞彙來源",
+  "uk": "з індоарійською лексикою",
+  "he": "בעלת לקסיקון הודו-ארי"
+ },
+ "Northwest Sumatra-Barrier Islands": {
+  "ko": "북서 수마트라-방벽 제도어군",
+  "zh": "西北苏门答腊-堰洲群岛语群",
+  "yue": "西北蘇門答臘-堰洲群島語群",
+  "uk": "північно-західносуматранський і бар'єрних островів",
+  "he": "צפון-מערב סומטרה–איי המחסום"
+ },
+ "Senga-Sena": {
+  "ko": "셍가-세나어군",
+  "zh": "森加-塞纳语群",
+  "yue": "森加-塞納語群",
+  "uk": "сенга-сена",
+  "he": "סנגה-סנה"
+ },
+ "Makua-Lomwe": {
+  "ko": "마쿠아-로므웨어군",
+  "zh": "马库阿-洛姆韦语群",
+  "yue": "馬庫阿-洛姆韋語群",
+  "uk": "макуа-ломве",
+  "he": "מקואה-לומווה"
+ },
+ "Maa cluster": {
+  "ko": "마아어군",
+  "zh": "马阿语群",
+  "yue": "馬阿語群",
+  "uk": "кластер маа",
+  "he": "אשכול מאא"
+ },
+ "sister to Maasai mas": {
+  "ko": "마사이어(mas)와 자매 관계",
+  "zh": "与马赛语（mas）为姊妹语",
+  "yue": "同馬賽語（mas）係姊妹語",
+  "uk": "сестринська до масаї (mas)",
+  "he": "אחות למסאי (mas)"
+ },
+ "Western Indo-Aryan": {
+  "ko": "서부 인도아리아어파",
+  "zh": "西部印度-雅利安语支",
+  "yue": "西部印度-雅利安語支",
+  "uk": "західноіндоарійський",
+  "he": "הודו-ארית מערבית"
+ },
+ "Eastern Oti-Volta": {
+  "ko": "동부 오티-볼타어군",
+  "zh": "东奥蒂-沃尔特语支",
+  "yue": "東奧蒂-沃爾特語支",
+  "uk": "східний оті-вольта",
+  "he": "אוטי-וולטה מזרחית"
+ },
+ "Vai-Kono": {
+  "ko": "바이-코노어군",
+  "zh": "瓦伊-科诺语支",
+  "yue": "瓦伊-科諾語支",
+  "uk": "ваї-коно",
+  "he": "וואי-קונו"
+ },
+ "Susu-Yalunka": {
+  "ko": "수수-얄룽카어군",
+  "zh": "苏苏-亚隆卡语支",
+  "yue": "蘇蘇-亞隆卡語支",
+  "uk": "сусу-ялунка",
+  "he": "סוסו-יאלונקה"
+ },
+ "Papuan Tip": {
+  "ko": "파푸아 팁어군",
+  "zh": "巴布亚尖端语群",
+  "yue": "巴布亞尖端語群",
+  "uk": "група Папуан-Тіп",
+  "he": "קצה פפואה"
+ },
+ "Guaicuruan": {
+  "ko": "과이쿠루어족",
+  "zh": "瓜伊库鲁语系",
+  "yue": "瓜伊庫魯語系",
+  "uk": "Гуайкуруська",
+  "he": "גואיקורואית",
+  "de": "Guaicurú-Sprachen",
+  "es": "guaicurú",
+  "it": "guaicurú",
+  "pt": "guaicuru",
+  "id": "Guaykuru",
+  "fr": "Guaicuru",
+  "vi": "ngữ hệ Guaicuru",
+  "sw": "familia ya Guaicuru"
+ },
+ "Karajá": {
+  "ko": "카라자어",
+  "zh": "卡拉雅语",
+  "yue": "卡拉雅語",
+  "uk": "караджа",
+  "he": "קרג׳ה"
+ },
+ "Yanomaman": {
+  "ko": "야노마미어족",
+  "zh": "亚诺马米语系",
+  "yue": "亞諾馬米語系",
+  "uk": "Яномамська",
+  "he": "יאנומאמית",
+  "de": "Yanomami-Sprachen",
+  "es": "yanomami",
+  "it": "yanomami",
+  "pt": "ianomâmi",
+  "id": "Yanomami",
+  "fr": "Yanomami",
+  "vi": "ngữ hệ Yanomami",
+  "sw": "familia ya Yanomami"
+ },
+ "Matacoan": {
+  "ko": "마타코어족",
+  "zh": "马塔科语系",
+  "yue": "馬塔科語系",
+  "uk": "Матако-матагуайська",
+  "he": "מטאקואית",
+  "de": "Mataco-Sprachen",
+  "pt": "mataco",
+  "id": "Mataco",
+  "fr": "Mataco",
+  "vi": "ngữ hệ Mataco",
+  "sw": "familia ya Mataco"
+ },
+ "Trumai": {
+  "ko": "트루마이어",
+  "zh": "特鲁迈语",
+  "yue": "特魯邁語",
+  "uk": "трумаї",
+  "he": "טרומאי"
+ },
+ "Nadahup": {
+  "ko": "나다훕어족",
+  "zh": "纳达胡普语系",
+  "yue": "納達胡普語系",
+  "uk": "Надахуп",
+  "he": "נאדאהופ"
+ },
+ "Bassa": {
+  "ko": "바사어",
+  "zh": "巴萨语",
+  "yue": "巴薩語",
+  "sw": "Kibassa"
+ },
+ "Oshiwambo": {
+  "ko": "오시왐보어",
+  "zh": "奥万博语",
+  "yue": "奧萬博語",
+  "uk": "ошівамбо",
+  "he": "אושיוומבו"
+ },
+ "Guthrie Zone H.20": {
+  "ko": "거스리 구역 H.20",
+  "zh": "格思里分区 H.20",
+  "yue": "格思里分區 H.20",
+  "uk": "зона Гатрі H.20",
+  "he": "אזור גת׳רי H.20"
+ },
+ "Chokwe-Luchazi": {
+  "ko": "초퀘-루차지어군",
+  "zh": "乔奎-卢查齐语群",
+  "yue": "喬奎-盧查齊語群",
+  "uk": "чокве-лучазі",
+  "he": "צ׳וקווה-לוצ׳אזי"
+ },
+ "Oirat-Kalmyk": {
+  "ko": "오이라트-칼미크어",
+  "zh": "卫拉特-卡尔梅克语",
+  "yue": "衛拉特-卡爾梅克語",
+  "uk": "ойратсько-калмицький",
+  "he": "אויראטית-קלמיקית",
+  "de": "Oiratisch-Kalmückisch",
+  "fr": "Oïrat-kalmouk"
+ },
+ "creolized": {
+  "ko": "크리올화",
+  "zh": "克里奥尔化",
+  "yue": "克里奧爾化",
+  "uk": "креолізований",
+  "he": "שעברה קריאוליזציה"
+ },
+ "Tonga-Lenje": {
+  "ko": "통가-렌제어군",
+  "zh": "汤加-伦杰语群",
+  "yue": "湯加-倫傑語群",
+  "uk": "тонга-ленже",
+  "he": "טונגה-לנג׳ה"
+ },
+ "Castilian": {
+  "ko": "카스티야어",
+  "zh": "卡斯蒂利亚语",
+  "yue": "卡斯蒂利亞語",
+  "uk": "кастильська",
+  "he": "קסטיליאנית",
+  "de": "Kastilisch",
+  "pt": "castelhano",
+  "id": "Kastilia",
+  "fr": "Castillan",
+  "vi": "tiếng Castilla",
+  "sw": "Kikastilia"
+ },
+ "Insular": {
+  "ko": "도서",
+  "zh": "海岛",
+  "yue": "海島",
+  "uk": "острівний",
+  "he": "איים",
+  "vi": "nhóm Celt hải đảo",
+  "sw": "Kikelti cha Visiwani"
+ },
+ "Caribbean": {
+  "ko": "카리브",
+  "zh": "加勒比",
+  "yue": "加勒比",
+  "uk": "карибський",
+  "he": "קריבית",
+  "de": "Karibisch",
+  "fr": "Caraïbe",
+  "vi": "Caribe",
+  "sw": "Karibi"
+ },
+ "Ring": {
+  "ko": "링어군",
+  "zh": "林语群",
+  "yue": "林語群",
+  "uk": "рінг",
+  "he": "רינג"
+ },
+ "Mbum-Day": {
+  "ko": "음붐-다이어군",
+  "zh": "姆布姆-戴语支",
+  "yue": "姆布姆-戴語支",
+  "uk": "мбум-дай",
+  "he": "מבום-דאי"
+ },
+ "likely isolate": {
+  "ko": "고립어일 가능성이 높음",
+  "zh": "可能为孤立语言",
+  "yue": "可能係孤立語言",
+  "uk": "імовірно ізольована",
+  "he": "כנראה שפה מבודדת"
+ },
+ "Jurchen-Manchu": {
+  "ko": "여진-만주어",
+  "zh": "女真-满语",
+  "yue": "女真-滿語",
+  "uk": "чжурчженьсько-маньчжурський",
+  "he": "ג׳ורצ׳נית-מנצ׳ורית",
+  "de": "Dschurchisch-Mandschurisch",
+  "fr": "Djurtchète-mandchou",
+  "vi": "nhóm Nữ Chân-Mãn",
+  "sw": "Kijurchen-Kimanchu"
+ },
+ "Kaqchikelan": {
+  "ko": "칵치켈어군",
+  "zh": "卡克奇克尔语支",
+  "yue": "卡克奇克爾語支",
+  "uk": "какчикельський",
+  "he": "קקצ׳יקלית",
+  "de": "Kaqchikel-Sprachen",
+  "pt": "kaqchikel",
+  "id": "Kaqchikel",
+  "fr": "Kaqchikel",
+  "vi": "nhóm Kaqchikel",
+  "sw": "lugha za Kaqchikel"
+ },
+ "Mamean": {
+  "ko": "맘어군",
+  "zh": "马姆语支",
+  "yue": "馬姆語支",
+  "uk": "мамський",
+  "he": "מאמית",
+  "de": "Mam-Sprachen",
+  "es": "mameana",
+  "it": "mameana",
+  "pt": "mameana",
+  "id": "Mam",
+  "fr": "Mam",
+  "vi": "nhóm Mam",
+  "sw": "lugha za Mam"
+ },
+ "Greater Mamean": {
+  "ko": "대맘어군",
+  "zh": "大马姆语支",
+  "yue": "大馬姆語支",
+  "uk": "великий мамський",
+  "he": "מאמית רבתי"
+ },
+ "Ixilan": {
+  "ko": "익실어군",
+  "zh": "伊西尔语支",
+  "yue": "伊西爾語支",
+  "uk": "ішильський",
+  "he": "אישילית"
+ },
+ "language isolate within Italy": {
+  "ko": "이탈리아 안의 고립어",
+  "zh": "意大利境内的孤立语言",
+  "yue": "意大利境內嘅孤立語言",
+  "uk": "ізольована мова в межах Італії",
+  "he": "שפה מבודדת בתוך איטליה"
+ },
+ "Indo-European Celtic per Koch 2009": {
+  "ko": "코흐(Koch 2009)에 따르면 인도유럽어족 켈트어파",
+  "zh": "据Koch 2009为印欧语系凯尔特语族",
+  "yue": "據Koch 2009係印歐語系凱爾特語族",
+  "uk": "індоєвропейська кельтська за Koch 2009",
+  "he": "הודו-אירופית קלטית לפי Koch 2009"
+ },
+ "non-IE per Untermann 1997": {
+  "ko": "운터만(Untermann 1997)에 따르면 비인도유럽어",
+  "zh": "据Untermann 1997为非印欧语",
+  "yue": "據Untermann 1997係非印歐語",
+  "uk": "неіндоєвропейська за Untermann 1997",
+  "he": "לא הודו-אירופית לפי Untermann 1997"
+ },
+ "German-based": {
+  "ko": "독일어 기반",
+  "zh": "以德语为基础",
+  "yue": "以德語為基礎",
+  "uk": "на німецькій основі",
+  "he": "מבוססת גרמנית"
+ },
+ "possibly Indo-European and Illyrian-related": {
+  "ko": "인도유럽어족이며 일리리아어와 관련되었을 가능성",
+  "zh": "可能属印欧语系并与伊利里亚语有关",
+  "yue": "可能屬印歐語系並同伊利里亞語有關",
+  "uk": "можливо, індоєвропейська й споріднена з іллірійською",
+  "he": "אולי הודו-אירופית וקשורה לאילירית"
+ },
+ "possibly pre-IE": {
+  "ko": "인도유럽어 이전 언어일 가능성",
+  "zh": "可能为前印欧语",
+  "yue": "可能係前印歐語",
+  "uk": "можливо, доіндоєвропейська",
+  "he": "אולי קדם-הודו-אירופית"
+ },
+ "or an independent IE branch": {
+  "ko": "또는 독립된 인도유럽어파",
+  "zh": "或为独立的印欧语族",
+  "yue": "或為獨立嘅印歐語族",
+  "uk": "або окрема індоєвропейська гілка",
+  "he": "או ענף הודו-אירופי עצמאי"
+ },
+ "Pacific Coast": {
+  "ko": "태평양 연안",
+  "he": "חוף האוקיינוס השקט"
+ },
+ "Malay-based": {
+  "ko": "말레이어 기반",
+  "zh": "以马来语为基础",
+  "yue": "以馬來語為基礎",
+  "uk": "на малайській основі",
+  "he": "מבוססת מלאית"
+ },
+ "heavily restructured": {
+  "ko": "크게 재구조화됨",
+  "zh": "经过大幅重构",
+  "yue": "經過大幅重構",
+  "uk": "значно перебудована",
+  "he": "עברה ארגון מחדש ניכר"
+ },
+ "Balto-Slavic": {
+  "ko": "발트슬라브어파",
+  "zh": "波罗的-斯拉夫语族",
+  "yue": "波羅的-斯拉夫語族",
+  "uk": "балто-слов'янський",
+  "he": "בלטו-סלאבית",
+  "de": "Baltoslawisch",
+  "fr": "Balto-slave",
+  "vi": "nhóm Balt-Slav",
+  "sw": "Kibaltiki-Kislaviki"
+ },
+ "Yolŋu": {
+  "ko": "욜릉우어군",
+  "zh": "约尔努语群",
+  "yue": "約爾努語群",
+  "uk": "йолнгу",
+  "he": "יולנגו",
+  "de": "Yolŋu"
+ },
+ "Dhuwal": {
+  "ko": "두왈어",
+  "zh": "杜瓦尔语",
+  "yue": "杜瓦爾語",
+  "uk": "дувал",
+  "he": "דוואל"
+ },
+ "Esperantido": {
+  "ko": "에스페란티도",
+  "zh": "世界语衍生语",
+  "yue": "世界語衍生語",
+  "uk": "есперантидо",
+  "he": "אספרנטידו",
+  "fr": "Espérantide"
+ },
+ "Low Franconian": {
+  "ko": "저지 프랑크어",
+  "zh": "低地法兰克语",
+  "yue": "低地法蘭克語",
+  "uk": "нижньофранкський",
+  "he": "פרנקית תחתית"
+ },
+ "Awadhi–Bhojpuri-based koiné": {
+  "ko": "아와디어·보지푸리어 기반 코이네",
+  "zh": "以阿瓦德语–博杰普尔语为基础的共通语",
+  "yue": "以阿瓦德語–博傑普爾語為基礎嘅共通語",
+  "uk": "койне на основі авадхі та бходжпурі",
+  "he": "קוינה מבוססת אוודהי–בוג׳פורי"
+ },
+ "planned standard pooling Tashelhiyt": {
+  "ko": "타셸히트어를 통합한 계획 표준어",
+  "zh": "整合希尔哈语的规划标准语",
+  "yue": "整合希爾哈語嘅規劃標準語",
+  "uk": "запланований стандарт, що об'єднує ташельхіт",
+  "he": "תקן מתוכנן המאגד תשלחית"
+ },
+ "Central Atlas Tamazight and Tarifit": {
+  "ko": "중앙 아틀라스 타마지트어 및 타리피트어",
+  "zh": "中阿特拉斯柏柏尔语及里夫语",
+  "yue": "中阿特拉斯柏柏爾語同里夫語",
+  "uk": "центральноатласький тамазігт і тарифіт",
+  "he": "תמזיגת של האטלס המרכזי וריפית"
+ },
+ "Gheg": {
+  "ko": "게그어",
+  "zh": "盖格方言",
+  "yue": "蓋格方言",
+  "uk": "гегський",
+  "he": "גגית"
+ },
+ "one of the two primary dialect groups alongside Tosk": {
+  "ko": "토스크어와 함께 두 주요 방언군 중 하나",
+  "zh": "与托斯克方言并列的两大方言群之一",
+  "yue": "同托斯克方言並列嘅兩大方言群之一",
+  "uk": "одна з двох основних діалектних груп поряд із тоскською",
+  "he": "אחת משתי קבוצות הניבים העיקריות לצד הטוסקית"
+ },
+ "Nubian": {
+  "ko": "누비아어군",
+  "zh": "努比亚语支",
+  "yue": "努比亞語支",
+  "uk": "нубійський",
+  "he": "נובית",
+  "de": "Nubisch",
+  "pt": "núbia",
+  "id": "Nubia",
+  "fr": "Nubien",
+  "vi": "nhóm Nubia",
+  "sw": "lugha za Kinubi"
+ },
+ "Fur": {
+  "ko": "푸르어",
+  "zh": "富尔语",
+  "yue": "富爾語",
+  "uk": "фур",
+  "he": "פור",
+  "fr": "Four",
+  "sw": "Kifur"
+ },
+ "Nuclear Polynesian": {
+  "ko": "핵심 폴리네시아어군",
+  "zh": "核心波利尼西亚语支",
+  "yue": "核心波利尼西亞語支",
+  "uk": "ядерний полінезійський",
+  "he": "פולינזית גרעינית"
+ },
+ "Ticuna–Yuri": {
+  "ko": "티쿠나-유리어족",
+  "zh": "提库纳-尤里语系",
+  "yue": "提庫納-尤里語系",
+  "uk": "Тікуна-юрі",
+  "he": "טיקונה–יורי"
+ },
+ "usually treated as a language isolate": {
+  "ko": "보통 고립어로 취급",
+  "zh": "通常视为孤立语言",
+  "yue": "通常視為孤立語言",
+  "uk": "зазвичай вважається ізольованою мовою",
+  "he": "בדרך כלל נחשבת לשפה מבודדת"
+ },
+ "its only relative Yuri being extinct": {
+  "ko": "유일한 친족어인 유리어는 사멸",
+  "zh": "其唯一亲属语言尤里语已消亡",
+  "yue": "佢唯一嘅親屬語言尤里語已經消亡",
+  "uk": "її єдина споріднена мова юрі вимерла",
+  "he": "קרובתה היחידה, יורי, נכחדה"
+ },
+ "Wiradhuric": {
+  "ko": "위라주리어군",
+  "zh": "威拉朱里语群",
+  "yue": "威拉朱里語群",
+  "uk": "віраджурійський",
+  "he": "וירדג׳ורית",
+  "de": "Wiradjuri-Sprachen",
+  "es": "wiradhuri",
+  "it": "wiradhuri",
+  "pt": "wiradhúrica",
+  "id": "Wiradhurik",
+  "fr": "Wiradjuri",
+  "vi": "nhóm Wiradhuri",
+  "sw": "lugha za Wiradhuri"
+ },
+ "Benue-Congo": {
+  "ko": "베누에콩고어파",
+  "zh": "贝努埃-刚果语支",
+  "yue": "貝努埃-剛果語支",
+  "uk": "бенуе-конголезький",
+  "he": "בנואה-קונגו",
+  "de": "Benue-Kongo",
+  "fr": "Bénoué-congo",
+  "sw": "Benue-Kongo"
+ },
+ "Guthrie zone L.52": {
+  "ko": "거스리 구역 L.52",
+  "zh": "格思里分区 L.52",
+  "yue": "格思里分區 L.52",
+  "uk": "зона Гатрі L.52",
+  "he": "אזור גת׳רי L.52"
+ },
+ "close to but not descended from Classical Tibetan": {
+  "ko": "고전 티베트어와 가깝지만 그 후손은 아님",
+  "zh": "接近古典藏语但并非其后裔",
+  "yue": "接近古典藏語但唔係佢嘅後裔",
+  "uk": "близькі до класичної тибетської, але не походять від неї",
+  "he": "קרובה לטיבטית הקלאסית אך אינה צאצאית שלה"
+ },
+ "Himalayish": {
+  "ko": "히말라야어군",
+  "zh": "喜马拉雅语支",
+  "yue": "喜馬拉雅語支",
+  "uk": "гімалайський",
+  "he": "הימלאית"
+ },
+ "isolated within it": {
+  "ko": "그 안에서 고립됨",
+  "zh": "在其中处于孤立地位",
+  "yue": "喺其中處於孤立地位",
+  "uk": "ізольована в її межах",
+  "he": "מבודדת בתוכה"
+ },
+ "sometimes linked to Mahakiranti": {
+  "ko": "때때로 마하키란티어군과 연결됨",
+  "zh": "有时与大基兰蒂语支相联系",
+  "yue": "有時同大基蘭蒂語支相聯繫",
+  "uk": "іноді пов'язується з магакіранті",
+  "he": "לעתים מקושרת למהאקירנטי"
+ },
+ "Five Nations": {
+  "zh": "五族语支",
+  "yue": "五族語支",
+  "uk": "п'ять націй",
+  "he": "חמש האומות"
+ },
+ "Edoid": {
+  "zh": "埃多语支",
+  "yue": "埃多語支",
+  "uk": "едоїдний",
+  "he": "אדואידית",
+  "de": "Edoide Sprachen",
+  "es": "edoide",
+  "it": "edoide",
+  "pt": "edoide",
+  "fr": "Edoïde",
+  "vi": "nhóm Edo",
+  "sw": "lugha za Edo"
+ },
+ "Macro-Jê": {
+  "zh": "大热语系",
+  "yue": "大熱語系",
+  "uk": "Макро-же",
+  "he": "מאקרו-ז׳ה",
+  "de": "Makro-Ge",
+  "es": "macro-yê",
+  "it": "macro-gê",
+  "fr": "Macro-jê"
+ },
+ "Sukuma-Nyamwezi": {
+  "zh": "苏库马-尼扬韦齐语群",
+  "yue": "蘇庫馬-尼揚韋齊語群",
+  "uk": "сукума-ньямвезі",
+  "he": "סוקומה-ניאמווזי"
+ },
+ "Chaga": {
+  "zh": "查加语群",
+  "yue": "查加語群",
+  "uk": "чага",
+  "he": "צ׳אגה",
+  "de": "Chagga",
+  "sw": "Kichagga"
+ },
+ "Manchu-Nanai": {
+  "zh": "满-那乃语支",
+  "yue": "滿-那乃語支",
+  "uk": "маньчжуро-нанайський",
+  "he": "מנצ׳ו-ננאי",
+  "vi": "nhóm Mãn-Nanai"
+ },
+ "Gurage": {
+  "zh": "古拉格语群",
+  "yue": "古拉格語群",
+  "uk": "гураге",
+  "he": "גוראגה"
+ },
+ "Southern Indo-Aryan": {
+  "zh": "南部印度-雅利安语支",
+  "yue": "南部印度-雅利安語支",
+  "uk": "південноіндоарійський",
+  "he": "הודו-ארית דרומית"
+ },
+ "Cross River": {
+  "zh": "克罗斯河语支",
+  "yue": "克羅斯河語支",
+  "uk": "крос-ріверський",
+  "he": "קרוס ריבר"
+ },
+ "Lower Cross": {
+  "zh": "下克罗斯语群",
+  "yue": "下克羅斯語群",
+  "uk": "нижньокроський",
+  "he": "קרוס התחתונה"
+ },
+ "Yao-Makonde": {
+  "zh": "尧-马孔德语群",
+  "yue": "堯-馬孔德語群",
+  "uk": "яо-маконде",
+  "he": "יאו-מקונדה"
+ },
+ "German": {
+  "zh": "德语",
+  "yue": "德語",
+  "uk": "німецька",
+  "he": "גרמנית",
+  "vi": "tiếng Đức"
+ },
+ "Italo-Romance": {
+  "zh": "意大利-罗曼语支",
+  "yue": "意大利-羅曼語支",
+  "uk": "італо-романський",
+  "he": "רומאנית איטלקית",
+  "de": "Italoromanisch",
+  "fr": "Italo-roman",
+  "vi": "nhóm Ý-Rôman",
+  "sw": "Kiitalo-Kiromance"
+ },
+ "Madang": {
+  "zh": "马当语群",
+  "yue": "馬當語群",
+  "uk": "маданг",
+  "he": "מדאנג"
+ },
+ "Sami": {
+  "zh": "萨米语支",
+  "yue": "薩米語支",
+  "uk": "саамський",
+  "he": "סאמית",
+  "de": "Samisch",
+  "fr": "Same",
+  "vi": "nhóm Sami",
+  "sw": "Kisami"
+ },
+ "Kola Sami": {
+  "zh": "科拉萨米语",
+  "yue": "科拉薩米語",
+  "uk": "кольська саамська",
+  "he": "סאמית של קולה"
+ },
+ "Nahuan": {
+  "zh": "纳瓦语支",
+  "yue": "納瓦語支",
+  "uk": "науанський",
+  "he": "נאוואית",
+  "de": "Nahua-Sprachen",
+  "es": "nahua",
+  "it": "nahua",
+  "pt": "nahua",
+  "id": "Nahua",
+  "fr": "Nahua",
+  "vi": "nhóm Nahua",
+  "sw": "lugha za Kinahua"
+ },
+ "Jin": {
+  "zh": "晋语",
+  "yue": "晉語",
+  "uk": "цзінь",
+  "he": "ג׳ין",
+  "vi": "tiếng Tấn",
+  "sw": "Kichina cha Jin"
+ },
+ "Xiang": {
+  "zh": "湘语",
+  "yue": "湘語",
+  "uk": "сян",
+  "he": "שיאנג",
+  "vi": "tiếng Tương",
+  "sw": "Kichina cha Xiang"
+ },
+ "Gan": {
+  "zh": "赣语",
+  "yue": "贛語",
+  "uk": "гань",
+  "he": "גאן",
+  "vi": "tiếng Cám",
+  "sw": "Kichina cha Gan"
+ },
+ "Fula": {
+  "zh": "富拉语",
+  "yue": "富拉語",
+  "uk": "фула",
+  "he": "פולה",
+  "de": "Fulfulde",
+  "fr": "Peul",
+  "sw": "Kifula"
+ },
+ "Kiranti": {
+  "zh": "基兰蒂语支",
+  "yue": "基蘭蒂語支",
+  "uk": "кіранті",
+  "he": "קירנטי"
+ },
+ "Tani": {
+  "zh": "塔尼语支",
+  "yue": "塔尼語支",
+  "uk": "тані",
+  "he": "טאני"
+ },
+ "Bikol": {
+  "zh": "比科尔语群",
+  "yue": "比科爾語群",
+  "uk": "бікольський",
+  "he": "ביקול"
+ },
+ "Mel": {
+  "zh": "梅尔语支",
+  "yue": "梅爾語支",
+  "uk": "мел",
+  "he": "מל"
+ },
+ "Kru": {
+  "zh": "克鲁语支",
+  "yue": "克魯語支",
+  "uk": "кру",
+  "he": "קרו",
+  "sw": "Kikru"
+ },
+ "Herero": {
+  "zh": "赫雷罗语",
+  "yue": "赫雷羅語",
+  "uk": "гереро",
+  "he": "הררו",
+  "sw": "Kiherero"
+ },
+ "Ethio-Semitic": {
+  "zh": "埃塞俄比亚闪米特语支",
+  "yue": "埃塞俄比亞閃米特語支",
+  "uk": "ефіосемітський",
+  "he": "שמית אתיופית",
+  "de": "Äthiosemitisch",
+  "fr": "Éthiosémitique",
+  "vi": "nhóm Semit Ethiopia",
+  "sw": "Kisemiti cha Ethiopia"
+ },
+ "separate from IE": {
+  "zh": "独立于印欧语",
+  "yue": "獨立於印歐語",
+  "uk": "окремо від індоєвропейських",
+  "he": "נפרדת מההודו-אירופית"
+ },
+ "Sundic": {
+  "zh": "巽他语群",
+  "yue": "巽他語群",
+  "uk": "зондський",
+  "he": "סונדית",
+  "de": "Sundisch",
+  "es": "súndica",
+  "it": "sundica",
+  "pt": "súndica",
+  "id": "Sundik",
+  "fr": "Sondique",
+  "vi": "nhóm Sunda",
+  "sw": "lugha za Kisunda"
+ },
+ "Grassfields": {
+  "zh": "草原班图语群",
+  "yue": "草原班圖語群",
+  "uk": "грасфілдс",
+  "he": "גראספילדס",
+  "de": "Grasland-Sprachen"
+ },
+ "possibly Eastern Sudanic": {
+  "zh": "可能属东苏丹语族",
+  "yue": "可能屬東蘇丹語族",
+  "uk": "можливо, східносуданська",
+  "he": "אולי סודנית מזרחית"
+ },
+ "Eastern Indo-Aryan": {
+  "zh": "东部印度-雅利安语支",
+  "yue": "東部印度-雅利安語支",
+  "uk": "східноіндоарійський",
+  "he": "הודו-ארית מזרחית"
+ },
+ "Danao": {
+  "yue": "達瑙語群",
+  "uk": "данао",
+  "he": "דנאו"
+ },
+ "Philippine": {
+  "yue": "菲律賓語群",
+  "uk": "філіппінський",
+  "he": "פיליפינית",
+  "de": "Philippinisch",
+  "fr": "Philippin",
+  "vi": "nhóm Philippines",
+  "sw": "lugha za Ufilipino"
+ },
+ "Central New South Wales": {
+  "yue": "新南威爾士中部語群",
+  "uk": "центральний Новий Південний Уельс",
+  "he": "מרכז ניו סאות׳ ויילס"
+ },
+ "Chadic": {
+  "uk": "чадський",
+  "he": "צ׳אדית",
+  "de": "Tschadisch",
+  "es": "chádica",
+  "it": "ciadica",
+  "pt": "chádica",
+  "id": "Chadik",
+  "fr": "Tchadique",
+  "vi": "ngữ tộc Tchad",
+  "sw": "lugha za Kichadi"
+ },
+ "Southeastern": {
+  "uk": "південно-східний",
+  "he": "דרום-מזרחית",
+  "vi": "Đông Nam",
+  "sw": "Kusini-Mashariki"
+ },
+ "debated": {
+  "uk": "дискусійно",
+  "he": "שנוי במחלוקת"
+ },
+ "Northeast Coast": {
+  "he": "החוף הצפון-מזרחי"
+ },
+ "Rai Coast": {
+  "he": "חוף ראי"
+ },
+ "reconstructed": {
+  "he": "משוחזרת"
+ },
+ "Tuareg": {
+  "he": "טוארגית",
+  "pt": "tuaregue",
+  "fr": "Touareg",
+  "sw": "Kituareg"
+ },
+ "Gorontalo-Mongondow": {
+  "he": "גורונטלו-מונגונדאו"
+ },
+ "Paiwanic": {
+  "he": "פאיוואנית",
+  "de": "Paiwan-Sprachen",
+  "es": "paiwánica",
+  "it": "paiwanica",
+  "pt": "paiwânica",
+  "id": "Paiwanik",
+  "fr": "Paiwanique",
+  "vi": "nhóm Paiwan",
+  "sw": "lugha za Paiwan"
+ },
+ "Omotic": {
+  "he": "אומוטית",
+  "de": "Omotisch",
+  "es": "omótica",
+  "it": "omotica",
+  "pt": "omótica",
+  "id": "Omotik",
+  "fr": "Omotique",
+  "vi": "ngữ tộc Omo",
+  "sw": "lugha za Kiomo"
+ },
+ "Algonquian": {
+  "de": "Algonkin",
+  "es": "algonquina",
+  "it": "algonchina",
+  "pt": "algonquina",
+  "id": "Algonkin",
+  "fr": "Algonquien",
+  "vi": "Algonquin",
+  "sw": "lugha za Algonquin"
+ },
+ "Micronesian": {
+  "de": "Mikronesisch",
+  "es": "micronesia",
+  "it": "micronesiana",
+  "pt": "micronésia",
+  "id": "Mikronesia",
+  "fr": "Micronésien",
+  "sw": "lugha za Kimikronesia"
+ },
+ "Dardic": {
+  "de": "Dardisch",
+  "es": "dárdica",
+  "it": "dardica",
+  "pt": "dárdica",
+  "id": "Dardik",
+  "fr": "Dardique",
+  "vi": "nhóm Dard",
+  "sw": "lugha za Kidardi"
+ },
+ "Bodish": {
+  "de": "Bodisch",
+  "es": "bódica",
+  "it": "bodica",
+  "pt": "bódica",
+  "id": "Bodik",
+  "fr": "Bodique",
+  "vi": "nhóm Bod",
+  "sw": "lugha za Bod"
+ },
+ "Oghuz": {
+  "de": "Oghusisch",
+  "pt": "oguz",
+  "fr": "Oghouze"
+ },
+ "Kipchak": {
+  "de": "Kiptschakisch",
+  "pt": "quipchaca",
+  "fr": "Kiptchak"
+ },
+ "Oghur": {
+  "de": "Oghurisch",
+  "pt": "ogúrica",
+  "fr": "Oghour"
+ },
+ "Shirongol": {
+  "de": "Shirongolisch",
+  "fr": "Shirongol"
+ },
+ "Monguoric": {
+  "de": "Monguorisch",
+  "pt": "monguórica",
+  "id": "Monguorik",
+  "fr": "Monguor",
+  "sw": "lugha za Monguor"
+ },
+ "Samoyedic": {
+  "de": "Samojedisch",
+  "es": "samoyeda",
+  "it": "samoieda",
+  "pt": "samoieda",
+  "id": "Samoyedik",
+  "fr": "Samoyède",
+  "vi": "nhóm Samoyed",
+  "sw": "lugha za Kisamoyedi"
+ },
+ "Ob-Ugric": {
+  "de": "Obugrisch",
+  "vi": "nhánh Ugor Ob",
+  "sw": "Kiugori cha Ob"
+ },
+ "Kamchatkan": {
+  "de": "Kamtschadalisch",
+  "pt": "kamchatkana",
+  "id": "Kamchatka",
+  "fr": "Kamtchatkien",
+  "sw": "Kikamchatka"
+ },
+ "Yukaghir": {
+  "de": "Jukagirisch",
+  "es": "yukaguir",
+  "it": "iukaghira",
+  "pt": "iucaguir",
+  "fr": "Youkaguir"
+ },
+ "Lechitic": {
+  "de": "Lechisch",
+  "es": "lequítica",
+  "it": "lechitica",
+  "pt": "lequítica",
+  "id": "Lekhitik",
+  "fr": "Léchitique",
+  "vi": "nhóm Lechit",
+  "sw": "lugha za Lechiti"
+ },
+ "Athabaskan": {
+  "de": "Athapaskisch",
+  "es": "atabascana",
+  "it": "athabaska",
+  "pt": "atabascana",
+  "id": "Athabaska",
+  "fr": "Athapascan",
+  "vi": "nhóm Athabasca",
+  "sw": "lugha za Athabaska"
+ },
+ "Loloish": {
+  "de": "Loloisch",
+  "es": "lolo",
+  "it": "lolo",
+  "pt": "lolo",
+  "id": "Lolo",
+  "fr": "Loloïque",
+  "sw": "lugha za Lolo"
+ },
+ "Italo-Dalmatian": {
+  "de": "Italodalmatisch",
+  "fr": "Italo-dalmate",
+  "sw": "Kiitalo-Dalmatia"
+ },
+ "Gallo-Romance": {
+  "de": "Galloromanisch",
+  "fr": "Gallo-roman",
+  "sw": "Kigallo-Kiromance"
+ },
+ "Finnic": {
+  "de": "Ostseefinnisch",
+  "es": "fínica",
+  "it": "finnica",
+  "pt": "fínica",
+  "id": "Finnik",
+  "fr": "Fennique",
+  "vi": "nhóm Finn",
+  "sw": "lugha za Kifini"
+ },
+ "Rhaeto-Romance": {
+  "de": "Rätoromanisch",
+  "fr": "Rhéto-roman",
+  "sw": "Kiretoromani"
+ },
+ "Yucatecan": {
+  "de": "Yukatekisch",
+  "pt": "iucateca",
+  "id": "Yukatek",
+  "fr": "Yucatèque",
+  "vi": "nhóm Yucatec",
+  "sw": "lugha za Yukatani"
+ },
+ "Mixtecan": {
+  "de": "Mixtekisch",
+  "es": "mixtecana",
+  "it": "mixtecana",
+  "pt": "mixteca",
+  "id": "Mixtek",
+  "fr": "Mixtèque",
+  "vi": "nhóm Mixtec",
+  "sw": "lugha za Mixtec"
+ },
+ "Zapotecan": {
+  "de": "Zapotekisch",
+  "es": "zapotecana",
+  "it": "zapotecana",
+  "pt": "zapoteca",
+  "id": "Zapotek",
+  "fr": "Zapotèque",
+  "vi": "nhóm Zapotec",
+  "sw": "lugha za Zapotec"
+ },
+ "Nakh": {
+  "de": "Nachisch"
+ },
+ "Lezgic": {
+  "de": "Lesgisch",
+  "es": "lezguica",
+  "it": "lezgica",
+  "pt": "lezguiana",
+  "id": "Lezgik",
+  "fr": "Lezguien",
+  "vi": "nhóm Lezgi",
+  "sw": "lugha za Kilezgi"
+ },
+ "Dargic": {
+  "de": "Darginisch",
+  "es": "darguina",
+  "it": "dargica",
+  "pt": "darguínica",
+  "id": "Dargik",
+  "fr": "Darguine",
+  "vi": "nhóm Dargin",
+  "sw": "lugha za Dargin"
+ },
+ "Circassian": {
+  "de": "Tscherkessisch",
+  "pt": "circassiana",
+  "id": "Sirkasia",
+  "fr": "Circassien",
+  "vi": "nhóm Circassia",
+  "sw": "lugha za Kisirkasia"
+ },
+ "Tahitic": {
+  "de": "Tahitisch",
+  "es": "tahítica",
+  "it": "tahitica",
+  "pt": "taitiana",
+  "id": "Tahiti",
+  "fr": "Tahitique",
+  "sw": "lugha za Kitahiti"
+ },
+ "Malayic": {
+  "de": "Malaiisch",
+  "pt": "malaica",
+  "id": "Melayik",
+  "fr": "Malaïque",
+  "sw": "lugha za Kimalay"
+ },
+ "Chamic": {
+  "de": "Chamisch",
+  "es": "chámica",
+  "it": "chamica",
+  "pt": "châmica",
+  "id": "Chamik",
+  "fr": "Chamique",
+  "sw": "lugha za Kichamu"
+ },
+ "Sorbian": {
+  "de": "Sorbisch",
+  "es": "soraba",
+  "it": "soraba",
+  "pt": "sorábia",
+  "id": "Sorbia",
+  "fr": "Sorabe",
+  "vi": "nhóm Sorb",
+  "sw": "Kisorbia"
+ },
+ "Astur-Leonese": {
+  "de": "Asturleonesisch",
+  "fr": "Asturo-léonais",
+  "vi": "nhóm Astur-León",
+  "sw": "Kiasturia-Leoni"
+ },
+ "Pyrenean": {
+  "de": "Pyrenäisch",
+  "pt": "pirenaica",
+  "id": "Pirenia",
+  "fr": "Pyrénéen",
+  "vi": "nhóm Pyrénées",
+  "sw": "lugha za Pirenei"
+ },
+ "Permic": {
+  "de": "Permisch",
+  "es": "pérmica",
+  "it": "permica",
+  "pt": "pérmica",
+  "id": "Permik",
+  "fr": "Permien",
+  "vi": "nhóm Perm",
+  "sw": "lugha za Kiperm"
+ },
+ "Mordvinic": {
+  "de": "Mordwinisch",
+  "es": "mordvina",
+  "it": "mordvinica",
+  "pt": "mordovínica",
+  "id": "Mordvinik",
+  "fr": "Mordve",
+  "vi": "nhóm Mordvin",
+  "sw": "lugha za Kimordvin"
+ },
+ "Oceanic": {
+  "de": "Ozeanisch",
+  "es": "oceánica",
+  "it": "oceanica",
+  "pt": "oceânica",
+  "id": "Oseania",
+  "fr": "Océanien",
+  "sw": "lugha za Kiosheania"
+ },
+ "Aramaic": {
+  "de": "Aramäisch",
+  "pt": "aramaica",
+  "id": "Aram",
+  "fr": "Araméen",
+  "sw": "Kiaramu"
+ },
+ "Goidelic": {
+  "de": "Goidelisch",
+  "es": "goidélica",
+  "it": "goidelica",
+  "pt": "goidélica",
+  "id": "Goidelik",
+  "fr": "Goïdélique",
+  "vi": "nhóm Goidel",
+  "sw": "lugha za Kigaeli"
+ },
+ "Brythonic": {
+  "de": "Britannisch",
+  "es": "britónica",
+  "it": "brittonica",
+  "pt": "britônica",
+  "id": "Britonik",
+  "fr": "Brittonique",
+  "vi": "nhóm Britton",
+  "sw": "lugha za Kibritoni"
+ },
+ "Ubangian": {
+  "de": "Ubangisch",
+  "es": "ubangiana",
+  "it": "ubangiana",
+  "pt": "ubangiana",
+  "id": "Ubangi",
+  "fr": "Oubanguien",
+  "vi": "nhóm Ubangi",
+  "sw": "lugha za Ubangi"
+ },
+ "Canaanite": {
+  "de": "Kanaanäisch",
+  "pt": "cananeia",
+  "id": "Kanaan",
+  "fr": "Cananéen",
+  "vi": "nhóm Canaan",
+  "sw": "lugha za Kikanaani"
+ },
+ "Elamite": {
+  "de": "Elamisch",
+  "pt": "elamita",
+  "id": "Elam",
+  "fr": "Élamite",
+  "sw": "Kielami"
+ },
+ "Nilotic": {
+  "de": "Nilotisch",
+  "es": "nilótica",
+  "it": "nilotica",
+  "pt": "nilótica",
+  "id": "Nilotik",
+  "fr": "Nilotique",
+  "vi": "nhóm Nin",
+  "sw": "Kiniloti"
+ },
+ "Lurish": {
+  "de": "Lurisch",
+  "pt": "luri",
+  "id": "Luri",
+  "fr": "Lori",
+  "vi": "nhóm Lur",
+  "sw": "Kiluri"
+ },
+ "Karluk": {
+  "de": "Karlukisch",
+  "pt": "carluque",
+  "fr": "Karlouk"
+ },
+ "Scythian": {
+  "de": "Skythisch",
+  "pt": "cita",
+  "id": "Skithia",
+  "fr": "Scythe",
+  "vi": "tiếng Scythia",
+  "sw": "Kiskithi"
+ },
+ "Frisian": {
+  "de": "Friesisch",
+  "pt": "frísia",
+  "id": "Frisia",
+  "fr": "Frison",
+  "sw": "Kifrisia"
+ },
+ "Tyrsenian": {
+  "de": "Tyrsenisch",
+  "es": "tirsénica",
+  "it": "tirrenica",
+  "pt": "tirsênica",
+  "id": "Tirsenia",
+  "fr": "Tyrsénien",
+  "sw": "familia ya Tyrsenia"
+ },
+ "Formosan": {
+  "de": "Formosanisch",
+  "es": "formosana",
+  "it": "formosana",
+  "pt": "formosana",
+  "id": "Formosa",
+  "vi": "nhóm Đài Loan",
+  "sw": "lugha za Kiformosa"
+ },
+ "Vietic": {
+  "de": "Vietisch",
+  "es": "viética",
+  "it": "vietica",
+  "pt": "viética",
+  "id": "Vietik",
+  "fr": "Viétique",
+  "sw": "lugha za Kivietinamu"
+ },
+ "Saami": {
+  "de": "Samisch",
+  "fr": "Same",
+  "vi": "nhóm Sami",
+  "sw": "Kisami"
+ },
+ "Aleut": {
+  "de": "Aleutisch",
+  "pt": "aleúte",
+  "fr": "Aléoute"
+ },
+ "Avar-Andic": {
+  "de": "Awarisch-Andisch",
+  "fr": "Avaro-andi",
+  "vi": "nhóm Avar-Andi",
+  "sw": "lugha za Avar-Andi"
+ },
+ "Lak-Dargic": {
+  "de": "Lakisch-Darginisch",
+  "fr": "Lak-darguine",
+  "vi": "nhóm Lak-Dargin",
+  "sw": "lugha za Lak-Dargin"
+ },
+ "Abkhaz-Abaza": {
+  "de": "Abchasisch-Abasinisch",
+  "fr": "Abkhaze-abaza"
+ },
+ "Tongic": {
+  "de": "Tongaisch",
+  "es": "tongana",
+  "it": "tongana",
+  "pt": "tongana",
+  "id": "Tonga",
+  "fr": "Tongique",
+  "sw": "lugha za Tonga"
+ },
+ "Ethiopian": {
+  "de": "Äthiopisch",
+  "id": "Etiopia",
+  "fr": "Éthiopien",
+  "vi": "nhóm Ethiopia",
+  "sw": "lugha za Kiethiopia"
+ },
+ "Azerbaijani": {
+  "de": "Aserbaidschanisch",
+  "pt": "azerbaijano",
+  "id": "Azerbaijan",
+  "fr": "Azéri",
+  "vi": "tiếng Azerbaijan",
+  "sw": "Kiazeri"
+ },
+ "Dutch": {
+  "de": "Niederländisch",
+  "fr": "Néerlandais",
+  "sw": "Kiholanzi"
+ },
+ "Saharan": {
+  "de": "Saharanisch",
+  "pt": "saariana",
+  "id": "Sahara",
+  "fr": "Saharien",
+  "vi": "nhóm Sahara",
+  "sw": "lugha za Sahara"
+ },
+ "Caspian": {
+  "de": "Kaspisch",
+  "fr": "Caspien",
+  "vi": "nhóm Caspi",
+  "sw": "lugha za Kaspi"
+ },
+ "Visayan": {
+  "de": "Visaya-Sprachen",
+  "pt": "bisaia",
+  "id": "Bisaya",
+  "fr": "Bisaya",
+  "sw": "lugha za Kibisaya"
+ },
+ "Burmish": {
+  "de": "Birmanische Sprachen",
+  "es": "birmana",
+  "it": "birmana",
+  "pt": "birmânica",
+  "id": "Burmik",
+  "fr": "Langues birmanes",
+  "vi": "nhóm Miến",
+  "sw": "lugha za Kiburma"
+ },
+ "Burmic": {
+  "de": "Burmisch",
+  "es": "birmánica",
+  "it": "birmanica",
+  "pt": "birmânica",
+  "id": "Burmik",
+  "fr": "Birmique",
+  "vi": "nhóm Miến",
+  "sw": "lugha za Kiburma"
+ },
+ "Karenic": {
+  "de": "Karen-Sprachen",
+  "es": "lenguas karen",
+  "it": "lingue karen",
+  "pt": "karênica",
+  "id": "Karenik",
+  "fr": "Langues karens",
+  "vi": "nhóm Karen",
+  "sw": "lugha za Karen"
+ },
+ "Palaungic": {
+  "de": "Palaung-Sprachen",
+  "es": "lenguas palaung",
+  "it": "lingue palaung",
+  "pt": "palaúngica",
+  "id": "Palaungik",
+  "fr": "Palaungique",
+  "sw": "lugha za Palaung"
+ },
+ "Khmuic": {
+  "de": "Khmu-Sprachen",
+  "es": "lenguas khmu",
+  "it": "lingue khmu",
+  "pt": "khmúica",
+  "id": "Khmuik",
+  "fr": "Khmuique",
+  "sw": "lugha za Khmu"
+ },
+ "Khmeric": {
+  "de": "Khmer-Sprachen",
+  "es": "lenguas jemer",
+  "it": "lingue khmer",
+  "pt": "khmérica",
+  "id": "Khmerik",
+  "fr": "Khmérique",
+  "sw": "lugha za Kikhmer"
+ },
+ "Monic": {
+  "de": "Mon-Sprachen",
+  "es": "lenguas mon",
+  "it": "lingue mon",
+  "pt": "mônica",
+  "id": "Monik",
+  "fr": "Mônique",
+  "sw": "lugha za Kimon"
+ },
+ "Khasian": {
+  "de": "Khasi-Sprachen",
+  "pt": "khasiana",
+  "id": "Khasi",
+  "fr": "Khasi",
+  "sw": "lugha za Kikhasi"
+ },
+ "Batanic": {
+  "de": "Batan-Sprachen",
+  "es": "batánica",
+  "it": "batanica",
+  "pt": "batânica",
+  "id": "Batanik",
+  "fr": "Batanique",
+  "vi": "nhóm Batan",
+  "sw": "lugha za Batan"
+ },
+ "Otomian": {
+  "de": "Otomí-Sprachen",
+  "es": "otomiana",
+  "it": "otomiana",
+  "pt": "otomiana",
+  "id": "Otomi",
+  "fr": "Otomi",
+  "vi": "nhóm Otomi",
+  "sw": "lugha za Otomi"
+ },
+ "Jivaroan": {
+  "de": "Jívaro-Sprachen",
+  "es": "jíbara",
+  "it": "jivaro",
+  "pt": "jívara",
+  "id": "Jivaro",
+  "fr": "Jivaro",
+  "sw": "familia ya Jivaro"
+ },
+ "Ellicean": {
+  "de": "Ellice-Sprachen",
+  "es": "eliceana",
+  "it": "elliceana",
+  "pt": "elliceana",
+  "id": "Ellice",
+  "fr": "Ellicéen",
+  "sw": "lugha za Ellice"
+ },
+ "Lampungic": {
+  "de": "Lampung-Sprachen",
+  "es": "lampung",
+  "it": "lampung",
+  "pt": "lampúngica",
+  "id": "Lampungik",
+  "fr": "Lampung",
+  "vi": "nhóm Lampung",
+  "sw": "Kilampung"
+ },
+ "Atayalic": {
+  "de": "Atayal-Sprachen",
+  "es": "atayálica",
+  "it": "atayalica",
+  "pt": "atayálica",
+  "id": "Atayalik",
+  "fr": "Atayalique",
+  "vi": "nhóm Atayal",
+  "sw": "lugha za Atayal"
+ },
+ "Tsouic": {
+  "de": "Tsou-Sprachen",
+  "es": "lenguas tsou",
+  "it": "lingue tsou",
+  "pt": "tsouica",
+  "id": "Tsouik",
+  "fr": "Tsouique",
+  "vi": "nhóm Tsou",
+  "sw": "lugha za Tsou"
+ },
+ "Sabahan": {
+  "de": "Sabah-Sprachen",
+  "es": "sabahana",
+  "it": "sabahana",
+  "pt": "sabahana",
+  "id": "Sabah",
+  "fr": "Sabahien",
+  "vi": "nhóm Sabah",
+  "sw": "lugha za Sabah"
+ },
+ "Quichean": {
+  "de": "Quiché-Sprachen",
+  "es": "quicheana",
+  "it": "quicheana",
+  "pt": "quicheana",
+  "id": "Kiche",
+  "fr": "Quichéen",
+  "vi": "nhóm K'iche'",
+  "sw": "lugha za Kiche"
+ },
+ "Taracahitan": {
+  "de": "Taracahita-Sprachen",
+  "es": "taracahita",
+  "it": "taracahita",
+  "pt": "taracahita",
+  "id": "Taracahita",
+  "fr": "Taracahita",
+  "vi": "nhóm Taracahita",
+  "sw": "lugha za Taracahita"
+ },
+ "Engan": {
+  "de": "Enga-Sprachen",
+  "es": "enga",
+  "it": "enga",
+  "pt": "enga",
+  "fr": "Enga",
+  "vi": "nhóm Enga",
+  "sw": "lugha za Enga"
+ },
+ "Saka": {
+  "de": "Sakisch",
+  "sw": "Kisaka"
+ },
+ "Jingpho": {
+  "de": "Jingpo",
+  "fr": "Jingpo",
+  "vi": "tiếng Cảnh Pha",
+  "sw": "Kijingpho"
+ },
+ "Jê": {
+  "de": "Ge",
+  "es": "yê",
+  "it": "gê"
+ },
+ "Manding": {
+  "pt": "mandinga",
+  "sw": "Kimanding"
+ },
+ "Songhai": {
+  "pt": "songai",
+  "fr": "Songhaï",
+  "vi": "nhóm Songhay",
+  "sw": "Kisonghai"
+ },
+ "Rajasthani": {
+  "pt": "rajastani",
+  "vi": "tiếng Rajasthan",
+  "sw": "Kirajasthani"
+ },
+ "Khoisan": {
+  "pt": "coissã"
+ },
+ "Yupik": {
+  "pt": "iúpique"
+ },
+ "Naic": {
+  "pt": "naica",
+  "id": "Na"
+ },
+ "Adamawa": {
+  "pt": "adamaua",
+  "fr": "Adamaoua"
+ },
+ "Pamir": {
+  "pt": "pamírica",
+  "sw": "lugha za Kipamiri"
+ },
+ "Polynesian": {
+  "id": "Polinesia",
+  "sw": "lugha za Kipolinesia"
+ },
+ "Iberian": {
+  "id": "Iberia",
+  "sw": "lugha za Iberia"
+ },
+ "Chibchan": {
+  "fr": "Chibcha"
+ },
+ "Min Nan": {
+  "vi": "tiếng Mân Nam",
+  "sw": "Kimin-Nan"
+ },
+ "Wu": {
+  "vi": "tiếng Ngô",
+  "sw": "Kichina cha Wu"
+ },
+ "Hakka": {
+  "vi": "tiếng Khách Gia",
+  "sw": "Kichina cha Hakka"
+ },
+ "Pinghua": {
+  "vi": "tiếng Bình thoại",
+  "sw": "Kichina cha Pinghua"
+ },
+ "Pu-Xian Min": {
+  "vi": "tiếng Mân Phủ Tiên",
+  "sw": "Kipu-Xian"
+ },
+ "Romani": {
+  "vi": "tiếng Digan",
+  "sw": "Kiromani"
+ },
+ "Cholan-Tseltalan": {
+  "vi": "nhóm Chol-Tzeltal",
+  "sw": "lugha za Chol-Tzeltal"
+ },
+ "Bihari": {
+  "vi": "nhóm Bihar",
+  "sw": "Kibihari"
+ },
+ "Hani": {
+  "vi": "tiếng Hà Nhì",
+  "sw": "Kihani"
+ },
+ "Tujia": {
+  "vi": "tiếng Thổ Gia",
+  "sw": "Kitujia"
+ },
+ "Maritime": {
+  "vi": "Duyên hải",
+  "sw": "Pwani"
+ },
+ "Tai": {
+  "vi": "nhóm Thái",
+  "sw": "lugha za Kitai"
+ },
+ "Nilo-Saharan": {
+  "vi": "Nin-Sahara"
+ },
+ "NE Caucasian": {
+  "vi": "Kavkaz Đông Bắc"
+ },
+ "NW Caucasian": {
+  "vi": "Kavkaz Tây Bắc"
+ },
+ "Celebic": {
+  "vi": "nhánh Celebes"
+ },
+ "Tsezic": {
+  "vi": "nhánh Tsez"
+ },
+ "Numic": {
+  "vi": "nhánh Numa"
+ },
+ "Munda": {
+  "sw": "Kimunda"
+ },
+ "Mon-Khmer": {
+  "sw": "Kimon-Khmer"
+ },
+ "Mandarin": {
+  "sw": "Kimandarini"
+ },
+ "Malayo-Polynesian": {
+  "sw": "Kimalayo-Polinesia"
+ },
+ "Tibeto-Burman": {
+  "sw": "Kitibeti-Kiburma"
+ },
+ "Melanesian Pijin": {
+  "sw": "Pijin ya Melanesia"
+ },
+ "Mande": {
+  "sw": "Kimande"
+ },
+ "Berber": {
+  "sw": "Kiberiberi"
+ },
+ "Maa": {
+  "sw": "Kimaa"
+ },
+ "Mari": {
+  "sw": "Kimari"
+ },
+ "Gur": {
+  "sw": "Kigur"
+ },
+ "Gbe": {
+  "sw": "Kigbe"
+ },
+ "Bhili": {
+  "sw": "Kibhili"
+ },
+ "Beti": {
+  "sw": "Kibeti"
+ },
+ "Shona": {
+  "sw": "Kishona"
+ },
+ "Bunun": {
+  "sw": "Kibunun"
+ },
+ "Karen": {
+  "sw": "Kikaren"
+ },
+ "Toraja-Sa'dan": {
+  "sw": "Kitoraja-Sa'dan"
+ },
+ "Tupi-Guarani": {
+  "sw": "Kitupi-Guarani"
+ },
+ "Southwestern": {
+  "sw": "Kusini-Magharibi"
+ },
+ "Northwestern": {
+  "sw": "Kaskazini-Magharibi"
+ },
+ "Southwest": {
+  "sw": "Kusini-Magharibi"
+ },
+ "Northwest": {
+  "sw": "Kaskazini-Magharibi"
+ },
+ "Middle": {
+  "sw": "kipindi cha kati"
+ },
+ "auxiliary": {
+  "sw": "saidizi"
+ },
+ "naturalistic": {
+  "sw": "kiasili"
+ },
+ "Old": {
+  "sw": "Kale"
+ },
+ "pre-classical": {
+  "sw": "kabla ya kipindi cha klasiki"
+ }
+};
+  const F = {
+ "Eastern Hindi": {
+  "zh": "东印地语",
+  "yue": "東印地語",
+  "he": "הינדית מזרחית"
+ },
+ "Northern Berber": {
+  "zh": "北柏柏尔语支",
+  "yue": "北柏柏爾語支",
+  "uk": "північноберберський",
+  "he": "ברברית צפונית"
+ },
+ "Burmish": {
+  "zh": "缅语支",
+  "yue": "緬語支"
+ },
+ "Tupí-Guaraní": {
+  "zh": "图皮-瓜拉尼语族",
+  "yue": "圖皮-瓜拉尼語族",
+  "uk": "тупі-гуаранійська гілка",
+  "he": "טופי-גוארני",
+  "de": "Tupí-Guaraní",
+  "es": "tupí-guaraní",
+  "it": "tupí-guaraní",
+  "pt": "tupi-guarani",
+  "id": "Tupi-Guarani",
+  "fr": "Tupi-guarani",
+  "vi": "nhánh Tupi-Guarani",
+  "sw": "Kitupi-Guarani"
+ },
+ "Jê": {
+  "zh": "热语族",
+  "yue": "熱語族",
+  "uk": "же",
+  "he": "ז׳ה"
+ },
+ "Southern Jê": {
+  "ko": "남부 제어군",
+  "zh": "南热语支",
+  "yue": "南熱語支",
+  "uk": "південні же",
+  "he": "ז׳ה דרומית",
+  "de": "Süd-Ge",
+  "es": "yê meridional",
+  "it": "gê meridionale",
+  "pt": "jê meridional",
+  "id": "Jê Selatan",
+  "fr": "Jê méridional",
+  "vi": "nhóm Jê Nam",
+  "sw": "Jê ya Kusini"
+ },
+ "Wu": {
+  "zh": "吴语",
+  "yue": "吳語",
+  "uk": "у",
+  "he": "וו"
+ },
+ "Ju": {
+  "ko": "주어군",
+  "zh": "朱语支",
+  "yue": "朱語支",
+  "uk": "жу",
+  "he": "ז׳ו"
+ },
+ "emerged 1970s-1980s": {
+  "ko": "1970~1980년대에 형성",
+  "zh": "形成于1970至1980年代",
+  "yue": "形成於1970至1980年代",
+  "uk": "виникла в 1970–1980-х",
+  "he": "התהוותה בשנות ה-70–80 של המאה ה-20",
+  "de": "entstanden in den 1970er–1980er Jahren",
+  "es": "surgida en los años 1970-1980",
+  "it": "emersa negli anni 1970-1980",
+  "pt": "surgida nas décadas de 1970–1980",
+  "id": "muncul pada 1970-an–1980-an",
+  "fr": "apparue dans les années 1970–1980",
+  "vi": "hình thành trong thập niên 1970–1980",
+  "sw": "iliyoibuka miaka ya 1970–1980"
+ },
+ "or proposed Sandawe-Hadza": {
+  "zh": "或假设的桑达韦-哈扎语系",
+  "yue": "或提議嘅桑達韋-哈扎語系",
+  "uk": "або гіпотетична сандаве-хадза",
+  "he": "או סנדאווה-הדזה המוצעת",
+  "de": "oder vorgeschlagenes Sandawe-Hadza",
+  "es": "o sandawe-hadza propuesto",
+  "it": "o sandawe-hadza proposto",
+  "pt": "ou o grupo sandawe-hadza proposto",
+  "id": "atau Sandawe-Hadza yang diusulkan",
+  "fr": "ou sandawe-hadza (proposé)",
+  "vi": "hoặc nhóm Sandawe-Hadza theo đề xuất",
+  "sw": "au Sandawe-Hadza inayopendekezwa"
+ },
+ "proposed isolate or with Hadza": {
+  "zh": "假设为孤立语言或与哈扎语同组",
+  "de": "vorgeschlagenes Isolat oder mit dem Hadza verwandt",
+  "es": "aislada propuesta o con el hadza",
+  "it": "isolata proposta o con l'hadza",
+  "pt": "isolada (proposta) ou ligada ao hadza",
+  "id": "diusulkan isolat atau berkerabat dengan Hadza",
+  "fr": "isolat proposé ou apparenté au hadza",
+  "vi": "được đề xuất là ngôn ngữ biệt lập hoặc cùng nhóm với Hadza",
+  "sw": "inapendekezwa kuwa lugha pweke au pamoja na Kihadza"
+ },
+ "Mountain Ok": {
+  "ko": "산악 오크어군",
+  "es": "ok de montaña",
+  "it": "ok di montagna",
+  "pt": "ok das montanhas",
+  "id": "Ok Pegunungan",
+  "fr": "Ok des montagnes",
+  "vi": "nhóm Ok Miền núi",
+  "sw": "Ok ya Milimani"
+ },
+ "Zone JE.16": {
+  "ko": "구역 JE.16",
+  "zh": "JE.16区",
+  "yue": "JE.16區",
+  "uk": "зона JE.16",
+  "he": "אזור JE.16",
+  "es": "zona JE.16",
+  "it": "zona JE.16",
+  "pt": "zona JE.16",
+  "id": "Zona JE.16",
+  "vi": "vùng JE.16",
+  "sw": "Kanda JE.16"
+ },
+ "Five Nations": {
+  "de": "Fünf Nationen",
+  "es": "Cinco Naciones",
+  "it": "Cinque Nazioni",
+  "pt": "Cinco Nações",
+  "id": "Lima Bangsa",
+  "fr": "Cinq-Nations",
+  "vi": "nhóm Năm Bộ tộc",
+  "sw": "Mataifa Matano"
+ },
+ "Old": {
+  "de": "Alt",
+  "es": "antiguo",
+  "it": "antico",
+  "pt": "antigo",
+  "id": "Kuno",
+  "fr": "Ancien"
+ },
+ "Middle": {
+  "de": "Mittel",
+  "es": "medio",
+  "it": "medio",
+  "pt": "médio",
+  "id": "Pertengahan",
+  "fr": "Moyen"
+ },
+ "Northeast Coast": {
+  "de": "Nordostküste",
+  "es": "costa nororiental",
+  "it": "costa nord-orientale",
+  "pt": "costa nordeste",
+  "id": "Pesisir Timur Laut",
+  "fr": "Côte nord-est",
+  "vi": "nhóm Duyên hải Đông Bắc",
+  "sw": "Pwani ya Kaskazini-Mashariki"
+ },
+ "Western Tanzania": {
+  "de": "Westtansania",
+  "es": "Tanzania occidental",
+  "it": "Tanzania occidentale",
+  "pt": "Tanzânia ocidental",
+  "id": "Tanzania Barat",
+  "fr": "Tanzanie occidentale",
+  "vi": "nhóm Tây Tanzania",
+  "sw": "Tanzania Magharibi"
+ },
+ "Siberian / Northeastern Turkic": {
+  "de": "Sibirisch / Nordosttürkisch",
+  "es": "siberiana / túrquica nororiental",
+  "it": "siberiana / turca nord-orientale",
+  "pt": "siberiana / túrquica do nordeste",
+  "id": "Siberia / Turkik Timur Laut",
+  "fr": "Sibérien / turc du Nord-Est",
+  "vi": "nhóm Siberia / Turk Đông Bắc",
+  "sw": "Kisiberia / Kituruki cha Kaskazini-Mashariki"
+ },
+ "Manchu-Nanai": {
+  "de": "Mandschu-Nanai",
+  "es": "manchú-nanai",
+  "it": "manciù-nanai",
+  "fr": "Mandchou-nanaï"
+ },
+ "Udege-Oroch subgroup — sister to Oroch and Negidal": {
+  "de": "Udehe-Orotschische Untergruppe — Schwester des Orotschischen und Negidalischen",
+  "es": "subgrupo udege-oroch — hermano del oroch y el negidal",
+  "it": "sottogruppo udege-oroch — fratello dell'oroch e del negidal",
+  "pt": "subgrupo udege-oroch — irmão do oroch e do negidal",
+  "id": "subkelompok Udege-Oroch — kerabat Oroch dan Negidal",
+  "fr": "sous-groupe oudèghe-orotche — apparenté à l'orotche et au néguidal",
+  "vi": "phân nhóm Udege-Oroch — chị em với tiếng Oroch và tiếng Negidal",
+  "sw": "kikundi kidogo cha Udege-Oroch — dada wa Kioroch na Kinegidal"
+ },
+ "Hungarian — historical stage of modern Hungarian hu": {
+  "de": "Ungarisch — historische Stufe des modernen Ungarischen (hu)",
+  "es": "húngaro — etapa histórica del húngaro moderno (hu)",
+  "it": "ungherese — stadio storico dell'ungherese moderno (hu)",
+  "pt": "húngaro — estágio histórico do húngaro moderno (hu)",
+  "id": "Hungaria — tahap historis bahasa Hungaria modern (hu)",
+  "fr": "Hongrois — stade historique du hongrois moderne (hu)",
+  "vi": "tiếng Hungary — giai đoạn lịch sử của tiếng Hungary hiện đại (hu)",
+  "sw": "Kihungaria — hatua ya kihistoria ya Kihungaria cha kisasa (hu)"
+ },
+ "Svan branch — sister to Zan-Georgian": {
+  "de": "Swanischer Zweig — Schwester des Georgisch-Sanischen",
+  "es": "rama esvana — rama hermana del zano-georgiano",
+  "it": "ramo svano — ramo fratello dello zan-georgiano",
+  "pt": "ramo svan — irmão do zan-georgiano",
+  "id": "cabang Svan — kerabat Zan-Georgia",
+  "fr": "branche svane — apparentée au zane-géorgien",
+  "vi": "nhánh Svan — chị em với nhánh Zan-Gruzia",
+  "sw": "tawi la Kisvan — dada wa Kizan-Kijojia"
+ },
+ "Central Alaska": {
+  "de": "Zentralalaska",
+  "es": "Alaska central",
+  "it": "Alaska centrale",
+  "pt": "Alasca central",
+  "id": "Alaska Tengah",
+  "fr": "Alaska central",
+  "vi": "nhóm Trung Alaska",
+  "sw": "Alaska ya Kati"
+ },
+ "Min Dong / Eastern Min": {
+  "de": "Min Dong / Östliches Min",
+  "es": "min dong / min oriental",
+  "it": "min dong / min orientale",
+  "pt": "min dong / min oriental",
+  "id": "Min Dong / Min Timur",
+  "fr": "Min dong / min oriental",
+  "vi": "tiếng Mân Đông",
+  "sw": "Kimin-Dong"
+ },
+ "Eastern Iranian": {
+  "de": "Ostiranisch",
+  "es": "irania oriental",
+  "it": "iranica orientale",
+  "pt": "irânica oriental",
+  "id": "Iran Timur",
+  "fr": "Iranien oriental",
+  "vi": "nhóm Đông Iran",
+  "sw": "Kiirani cha Mashariki"
+ },
+ "Shughni-Yazgulami": {
+  "de": "Schughni-Jasgulami",
+  "fr": "Chougni-yazgoulami"
+ },
+ "Lolo-Burmese": {
+  "de": "Lolo-Birmanisch",
+  "pt": "lolo-birmanesa",
+  "id": "Lolo-Burma",
+  "fr": "Lolo-birman"
+ },
+ "East Bodish": {
+  "de": "Ostbodisch",
+  "es": "bódica oriental",
+  "it": "bodica orientale",
+  "pt": "bódica oriental",
+  "id": "Bodik Timur",
+  "fr": "Bodique oriental",
+  "vi": "nhóm Bod Đông",
+  "sw": "lugha za Bod za Mashariki"
+ },
+ "Digarish; \"Mishmi\" is areal": {
+  "de": "Digarisch; „Mishmi“ ist ein arealer Sammelbegriff",
+  "es": "digarish; «mishmi» es una denominación areal",
+  "it": "digarish; «mishmi» è una denominazione areale",
+  "pt": "digárica; «mishmi» é um termo areal",
+  "id": "Digaro; \"Mishmi\" adalah istilah areal",
+  "fr": "Digarique; « mishmi » est un terme aréal",
+  "vi": "nhóm Digaro; \"Mishmi\" là tên gọi theo vùng",
+  "sw": "lugha za Digaro; \"Mishmi\" ni jina la kieneo"
+ },
+ "Northern / Eastern Pahari": {
+  "de": "Nord- / Ost-Pahari",
+  "es": "septentrional / pahari oriental",
+  "it": "settentrionale / pahari orientale",
+  "fr": "Pahari septentrional / oriental",
+  "vi": "Pahari Bắc / Pahari Đông",
+  "sw": "Pahari ya Kaskazini / Pahari ya Mashariki"
+ },
+ "Southern Indo-Aryan": {
+  "de": "Südindoarisch",
+  "es": "indoaria meridional",
+  "it": "indoaria meridionale",
+  "pt": "indo-ariana meridional",
+  "id": "Indo-Arya Selatan",
+  "fr": "Indo-aryen méridional",
+  "vi": "nhóm Ấn-Arya Nam",
+  "sw": "Kihindi-Aria cha Kusini"
+ },
+ "Northwest": {
+  "de": "Nordwest",
+  "es": "noroccidental",
+  "it": "nord-occidentale",
+  "pt": "noroeste",
+  "id": "Barat Laut",
+  "fr": "Nord-ouest"
+ },
+ "Southwest": {
+  "de": "Südwest",
+  "es": "suroeste",
+  "it": "sud-ovest",
+  "pt": "sudoeste",
+  "id": "Barat Daya",
+  "fr": "Sud-ouest"
+ },
+ "Maghrebi Arabic": {
+  "de": "Maghrebinisches Arabisch",
+  "es": "árabe magrebí",
+  "it": "arabo maghrebino",
+  "pt": "árabe magrebino",
+  "id": "Arab Maghribi",
+  "fr": "Arabe maghrébin",
+  "sw": "Kiarabu cha Maghreb"
+ },
+ "Cross River": {
+  "de": "Cross-River",
+  "es": "río Cross",
+  "pt": "rio Cross"
+ },
+ "Lower Cross": {
+  "de": "Lower-Cross",
+  "es": "bajo Cross",
+  "pt": "baixo Cross",
+  "id": "Cross Hilir",
+  "vi": "nhóm Hạ Cross",
+  "sw": "Cross ya Chini"
+ },
+ "Mafa-Bata subgroup": {
+  "de": "Mafa-Bata-Untergruppe",
+  "es": "subgrupo mafa-bata",
+  "it": "sottogruppo mafa-bata",
+  "pt": "subgrupo mafa-bata",
+  "id": "subkelompok Mafa-Bata",
+  "fr": "sous-groupe mafa-bata",
+  "vi": "phân nhóm Mafa-Bata",
+  "sw": "kikundi kidogo cha Mafa-Bata"
+ },
+ "A subgroup — Kera-Kwang sub-cluster": {
+  "de": "Untergruppe A — Kera-Kwang-Teilgruppe",
+  "es": "subgrupo A — agrupación kera-kwang",
+  "it": "sottogruppo A — raggruppamento kera-kwang",
+  "pt": "subgrupo A — subconjunto kera-kwang",
+  "id": "subkelompok A — subgugus Kera-Kwang",
+  "fr": "sous-groupe A — sous-ensemble kera-kwang",
+  "vi": "phân nhóm A — cụm Kera-Kwang",
+  "sw": "kikundi kidogo A — kundi dogo la Kera-Kwang"
+ },
+ "Mafa-Bata — Daba subgroup": {
+  "de": "Mafa-Bata — Daba-Untergruppe",
+  "es": "mafa-bata — subgrupo daba",
+  "it": "mafa-bata — sottogruppo daba",
+  "pt": "mafa-bata — subgrupo daba",
+  "id": "Mafa-Bata — subkelompok Daba",
+  "fr": "Mafa-bata — sous-groupe daba",
+  "vi": "Mafa-Bata — phân nhóm Daba",
+  "sw": "Mafa-Bata — kikundi kidogo cha Daba"
+ },
+ "Great Lakes": {
+  "de": "Große Seen",
+  "es": "Grandes Lagos",
+  "it": "Grandi Laghi",
+  "pt": "Grandes Lagos",
+  "id": "Danau Besar",
+  "fr": "Grands Lacs",
+  "vi": "nhóm Hồ Lớn",
+  "sw": "Maziwa Makuu"
+ },
+ "Western Caribbean": {
+  "de": "Westkaribisch",
+  "es": "Caribe occidental",
+  "it": "Caraibi occidentali",
+  "pt": "Caribe ocidental",
+  "id": "Karibia Barat",
+  "fr": "Caraïbe occidentale",
+  "vi": "nhóm Tây Caribe",
+  "sw": "Karibi ya Magharibi"
+ },
+ "Romanichal-Kaale subgroup": {
+  "de": "Romanichal-Kaale-Untergruppe",
+  "es": "subgrupo romanichal-kaale",
+  "it": "sottogruppo romanichal-kaale",
+  "pt": "subgrupo romanichal-kaale",
+  "id": "subkelompok Romanichal-Kaale",
+  "fr": "sous-groupe romanichal-kaale",
+  "vi": "phân nhóm Romanichal-Kaale",
+  "sw": "kikundi kidogo cha Romanichal-Kaale"
+ },
+ "Rai Coast — Yaganon": {
+  "de": "Rai-Küste — Yaganon",
+  "es": "costa Rai — yaganon",
+  "it": "costa Rai — yaganon",
+  "id": "Pesisir Rai — Yaganon",
+  "fr": "Côte Rai — yaganon",
+  "vi": "Bờ biển Rai — Yaganon",
+  "sw": "Pwani ya Rai — Yaganon"
+ },
+ "Pacific": {
+  "de": "Pazifisch",
+  "es": "Pacífico",
+  "it": "Pacifico",
+  "pt": "Pacífico",
+  "id": "Pasifik"
+ },
+ "Melanesian Pijin family": {
+  "de": "Melanesische Pidgin-Familie",
+  "es": "familia del pidgin melanesio",
+  "it": "famiglia del pidgin melanesiano",
+  "pt": "família do pijin melanésio",
+  "id": "keluarga Pijin Melanesia",
+  "fr": "famille du pidgin mélanésien",
+  "vi": "nhóm Pijin Melanesia",
+  "sw": "familia ya Pijin ya Melanesia"
+ },
+ "Melanesian Pijin": {
+  "de": "Melanesisches Pidgin",
+  "es": "pidgin melanesio",
+  "it": "pidgin melanesiano",
+  "pt": "pijin melanésio",
+  "id": "Pijin Melanesia",
+  "fr": "Pidgin mélanésien"
+ },
+ "Kola Sami": {
+  "de": "Kola-Samisch",
+  "es": "sami de Kola",
+  "it": "sami di Kola",
+  "pt": "sámi de Kola",
+  "id": "Sami Kola",
+  "fr": "Same de Kola",
+  "vi": "tiếng Sami Kola",
+  "sw": "Kisami cha Kola"
+ },
+ "South Estonian": {
+  "de": "Südestnisch",
+  "es": "estonio meridional",
+  "it": "estone meridionale",
+  "pt": "estoniano do sul",
+  "id": "Estonia Selatan",
+  "fr": "Estonien du Sud",
+  "vi": "tiếng Estonia Nam",
+  "sw": "Kiestonia cha Kusini"
+ },
+ "debated; possible Japonic affinity": {
+  "de": "umstritten; mögliche Verwandtschaft mit dem Japonischen",
+  "es": "discutida; posible afinidad japónica",
+  "it": "controversa; possibile affinità giapponese",
+  "pt": "debatido; possível afinidade japônica",
+  "id": "diperdebatkan; mungkin berkerabat dengan Japonik",
+  "fr": "débattu; affinité japonique possible",
+  "vi": "còn tranh cãi; có thể có quan hệ với ngữ hệ Nhật Bản",
+  "sw": "yenye utata; huenda ina uhusiano na Kijapani"
+ },
+ "auxiliary": {
+  "de": "Welthilfssprache",
+  "es": "auxiliar",
+  "it": "ausiliaria",
+  "pt": "auxiliar",
+  "id": "bantu",
+  "fr": "auxiliaire"
+ },
+ "naturalistic": {
+  "de": "naturalistisch",
+  "es": "naturalista",
+  "it": "naturalistica",
+  "pt": "naturalista",
+  "id": "naturalistik",
+  "fr": "naturaliste"
+ },
+ "Central zone — Eastern Hindi": {
+  "de": "Zentralzone — Osthindi",
+  "es": "zona central — hindi oriental",
+  "it": "zona centrale — hindi orientale",
+  "pt": "zona central — hindi oriental",
+  "id": "zona tengah — Hindi Timur",
+  "fr": "zone centrale — hindi oriental",
+  "vi": "vùng Trung tâm — tiếng Hindi Đông",
+  "sw": "eneo la Kati — Kihindi cha Mashariki"
+ },
+ "Western Hindi": {
+  "de": "Westhindi",
+  "es": "hindi occidental",
+  "it": "hindi occidentale",
+  "pt": "hindi ocidental",
+  "id": "Hindi Barat",
+  "fr": "Hindi occidental",
+  "vi": "tiếng Hindi Tây",
+  "sw": "Kihindi cha Magharibi"
+ },
+ "Southern Bantu": {
+  "de": "Südbantu",
+  "es": "bantú meridional",
+  "it": "bantu meridionale",
+  "pt": "Bantu meridional",
+  "id": "Bantu Selatan",
+  "fr": "Bantou méridional",
+  "vi": "nhóm Bantu Nam",
+  "sw": "Kibantu cha Kusini"
+ },
+ "Western Mande": {
+  "de": "Westmande",
+  "es": "mandé occidental",
+  "it": "mandé occidentale",
+  "pt": "mande ocidental",
+  "id": "Mande Barat",
+  "fr": "Mandé occidental",
+  "vi": "nhóm Mande Tây",
+  "sw": "Kimande cha Magharibi"
+ },
+ "Central Mande": {
+  "de": "Zentralmande",
+  "es": "mandé central",
+  "it": "mandé centrale",
+  "pt": "mande central",
+  "id": "Mande Tengah",
+  "fr": "Mandé central",
+  "vi": "nhóm Mande Trung",
+  "sw": "Kimande cha Kati"
+ },
+ "Cholan-Tseltalan": {
+  "de": "Chol-Tzeltal",
+  "es": "chol-tzeltalana",
+  "it": "chol-tzeltal",
+  "pt": "chol-tseltal",
+  "fr": "Chol-tzeltal"
+ },
+ "Aghul-Tabasaran-Tsakhur subgroup": {
+  "de": "Aghulisch-Tabassaranisch-Zachurische Untergruppe",
+  "es": "subgrupo aghul-tabasarán-tsajur",
+  "it": "sottogruppo aghul-tabasaran-tsakhur",
+  "pt": "subgrupo aghul-tabasaran-tsakhur",
+  "id": "subkelompok Aghul-Tabasaran-Tsakhur",
+  "fr": "sous-groupe agoul-tabassaran-tsakhour",
+  "vi": "phân nhóm Aghul-Tabasaran-Tsakhur",
+  "sw": "kikundi kidogo cha Aghul-Tabasaran-Tsakhur"
+ },
+ "Western Malayo-Polynesian": {
+  "de": "Westmalayo-polynesisch",
+  "es": "malayo-polinesio occidental",
+  "it": "maleo-polinesiano occidentale",
+  "pt": "malaio-polinésia ocidental",
+  "id": "Melayu-Polinesia Barat",
+  "fr": "Malayo-polynésien occidental",
+  "vi": "nhóm Mã Lai-Polynesia Tây",
+  "sw": "Kimalayo-Polinesia cha Magharibi"
+ },
+ "Central Malayo-Polynesian": {
+  "de": "Zentralmalayo-polynesisch",
+  "es": "malayo-polinesio central",
+  "it": "maleo-polinesiano centrale",
+  "pt": "malaio-polinésia central",
+  "id": "Melayu-Polinesia Tengah",
+  "fr": "Malayo-polynésien central",
+  "vi": "nhóm Mã Lai-Polynesia Trung",
+  "sw": "Kimalayo-Polinesia cha Kati"
+ },
+ "Western Desert": {
+  "de": "Westliche Wüste",
+  "es": "Desierto Occidental",
+  "it": "Deserto Occidentale",
+  "pt": "Deserto Ocidental",
+  "id": "Gurun Barat",
+  "fr": "Désert occidental",
+  "vi": "nhóm Sa mạc Tây",
+  "sw": "Jangwa la Magharibi"
+ },
+ "Indo-Aryan-lexified": {
+  "de": "indoarisch lexifiziert",
+  "es": "de léxico indoario",
+  "it": "a lessico indoario",
+  "pt": "de léxico indo-ariano",
+  "id": "berleksikon Indo-Arya",
+  "fr": "à lexique indo-aryen",
+  "vi": "từ vựng gốc Ấn-Arya",
+  "sw": "yenye msamiati wa Kihindi-Aria"
+ },
+ "Southern/Central Tibetic": {
+  "de": "Süd- / Zentraltibetisch",
+  "es": "tibético meridional / central",
+  "it": "tibetico meridionale / centrale",
+  "id": "Tibetik Selatan / Tengah",
+  "fr": "Tibétique méridional / central",
+  "vi": "nhóm Tạng Nam / Trung",
+  "sw": "Kitibeti cha Kusini / cha Kati"
+ },
+ "Northwest Sumatra-Barrier Islands": {
+  "de": "Nordwestsumatra-Barriereinseln",
+  "es": "Sumatra noroccidental-islas Barrera",
+  "it": "Sumatra nord-occidentale-isole Barriera",
+  "pt": "Noroeste de Samatra–ilhas Barreira",
+  "id": "Sumatra Barat Laut–Kepulauan Penghalang",
+  "fr": "Nord-ouest de Sumatra–îles Barrière",
+  "vi": "nhóm Tây Bắc Sumatra-Quần đảo Chắn",
+  "sw": "lugha za Sumatra Kaskazini-Magharibi na Visiwa vya Kizuizi"
+ },
+ "South Sulawesi": {
+  "de": "Süd-Sulawesi",
+  "es": "Sulawesi meridional",
+  "it": "Sulawesi meridionale",
+  "pt": "Celebes do Sul",
+  "id": "Sulawesi Selatan",
+  "fr": "Sulawesi du Sud",
+  "vi": "Nam Sulawesi",
+  "sw": "Sulawesi Kusini"
+ },
+ "Central Philippine": {
+  "de": "Zentralphilippinisch",
+  "es": "filipina central",
+  "it": "filippina centrale",
+  "pt": "filipina central",
+  "id": "Filipina Tengah",
+  "fr": "Philippin central",
+  "vi": "nhóm Trung Philippines",
+  "sw": "lugha za Ufilipino ya Kati"
+ },
+ "Western Nilotic": {
+  "de": "Westnilotisch",
+  "es": "nilótica occidental",
+  "it": "nilotica occidentale",
+  "pt": "nilótica ocidental",
+  "id": "Nilotik Barat",
+  "fr": "Nilotique occidental",
+  "vi": "nhóm Nin Tây",
+  "sw": "Kiniloti cha Magharibi"
+ },
+ "Eastern Nilotic": {
+  "de": "Ostnilotisch",
+  "es": "nilótica oriental",
+  "it": "nilotica orientale",
+  "pt": "nilótica oriental",
+  "id": "Nilotik Timur",
+  "fr": "Nilotique oriental",
+  "vi": "nhóm Nin Đông",
+  "sw": "Kiniloti cha Mashariki"
+ },
+ "Maa cluster — sister to Maasai mas": {
+  "de": "Maa-Gruppe — Schwester des Maasai (mas)",
+  "es": "grupo maa — hermano del masái mas",
+  "it": "gruppo maa — fratello del masai mas",
+  "pt": "grupo maa — irmão do maasai (mas)",
+  "id": "gugus Maa — kerabat Maasai (mas)",
+  "fr": "groupe maa — apparenté au maasaï (mas)",
+  "vi": "cụm Maa — chị em với tiếng Maasai (mas)",
+  "sw": "kundi la Kimaa — dada wa Kimaasai (mas)"
+ },
+ "Western Indo-Aryan": {
+  "de": "Westindoarisch",
+  "es": "indoaria occidental",
+  "it": "indoaria occidentale",
+  "pt": "indo-ariana ocidental",
+  "id": "Indo-Arya Barat",
+  "fr": "Indo-aryen occidental",
+  "vi": "nhóm Ấn-Arya Tây",
+  "sw": "Kihindi-Aria cha Magharibi"
+ },
+ "Min Bei / Northern Min": {
+  "de": "Min Bei / Nördliches Min",
+  "es": "min bei / min septentrional",
+  "it": "min bei / min settentrionale",
+  "pt": "min bei / min setentrional",
+  "id": "Min Bei / Min Utara",
+  "fr": "Min bei / min septentrional",
+  "vi": "tiếng Mân Bắc",
+  "sw": "Kimin-Bei"
+ },
+ "Hui / Huizhou": {
+  "de": "Hui / Huizhou",
+  "es": "hui / huizhou",
+  "it": "hui / huizhou",
+  "fr": "Hui / huizhou",
+  "vi": "tiếng Huy Châu",
+  "sw": "Kichina cha Huizhou"
+ },
+ "Eastern Romance / Balkan Romance": {
+  "de": "Ostromanisch / Balkanromanisch",
+  "es": "romance oriental / romance balcánico",
+  "it": "romanza orientale / romanza balcanica",
+  "pt": "românica oriental / românica balcânica",
+  "id": "Romanik Timur / Romanik Balkan",
+  "fr": "Roman oriental / roman balkanique",
+  "vi": "nhóm Đông Rôman / Rôman Balkan",
+  "sw": "Kiromance cha Mashariki / Kiromance cha Balkani"
+ },
+ "NW Caspian": {
+  "de": "Nordwest-Kaspisch",
+  "es": "caspia noroccidental",
+  "it": "caspica nord-occidentale",
+  "pt": "cáspia do noroeste",
+  "id": "Kaspia Barat Laut",
+  "fr": "Caspien du Nord-Ouest",
+  "vi": "nhóm Caspi Tây Bắc",
+  "sw": "Kaspi ya Kaskazini-Magharibi"
+ },
+ "Ponto-Caspian / West Kipchak": {
+  "de": "pontokaspische Gruppe / Westkiptschakisch",
+  "es": "grupo póntico-caspio / kipchak occidental",
+  "it": "gruppo ponto-caspico / kipchak occidentale",
+  "fr": "groupe ponto-caspien / kiptchak occidental",
+  "vi": "nhóm Ponto-Caspi / Kipchak Tây",
+  "sw": "kundi la Ponto-Kaspia / Kipchak cha Magharibi"
+ },
+ "Naic/Loloish": {
+  "de": "Naisch / Loloisch",
+  "es": "naica / lolo",
+  "it": "naica / lolo",
+  "fr": "Naïque / loloïque",
+  "vi": "nhóm Na / Lolo",
+  "sw": "lugha za Na / lugha za Lolo"
+ },
+ "Eastern Oti-Volta": {
+  "de": "Ost-Oti-Volta",
+  "es": "oti-volta oriental",
+  "it": "oti-volta orientale",
+  "pt": "oti-volta oriental",
+  "id": "Oti-Volta Timur",
+  "fr": "Oti-volta oriental",
+  "vi": "nhóm Oti-Volta Đông",
+  "sw": "Oti-Volta ya Mashariki"
+ },
+ "A.70 Yaounde-Fang": {
+  "de": "A.70 Yaoundé-Fang",
+  "es": "A.70 yaundé-fang",
+  "fr": "A.70 yaoundé-fang"
+ },
+ "Central Siberian": {
+  "de": "Zentralsibirisch",
+  "es": "siberiano central",
+  "it": "siberiano centrale",
+  "id": "Siberia Tengah",
+  "fr": "Sibérien central",
+  "vi": "nhóm Trung Siberia",
+  "sw": "Kisiberia cha Kati"
+ },
+ "Papuan Tip": {
+  "de": "Papuan-Tip",
+  "es": "Punta Papúa",
+  "it": "Punta Papua",
+  "pt": "Ponta Papua",
+  "id": "Ujung Papua",
+  "fr": "Pointe papoue",
+  "vi": "nhóm Mũi Papua",
+  "sw": "Ncha ya Papua"
+ },
+ "Northwest Sumatran": {
+  "de": "Nordwestsumatranisch",
+  "es": "sumatrana noroccidental",
+  "it": "sumatrana nord-occidentale",
+  "pt": "do noroeste de Samatra",
+  "id": "Sumatra Barat Laut",
+  "fr": "Sumatra du Nord-Ouest",
+  "vi": "nhóm Tây Bắc Sumatra",
+  "sw": "lugha za Sumatra Kaskazini-Magharibi"
+ },
+ "Greater Central Philippine": {
+  "de": "Großzentralphilippinisch",
+  "es": "gran filipina central",
+  "it": "grande filippina centrale",
+  "pt": "grande filipina central",
+  "id": "Filipina Tengah Raya",
+  "fr": "Grand philippin central",
+  "vi": "nhóm Đại Trung Philippines",
+  "sw": "lugha za Ufilipino ya Kati Kuu"
+ },
+ "Admiralty Islands or independent Oceanic": {
+  "de": "Admiralitätsinseln oder eigenständiger ozeanischer Zweig",
+  "es": "islas del Almirantazgo u oceánica independiente",
+  "it": "isole dell'Ammiragliato o oceanica indipendente",
+  "pt": "ilhas do Almirantado ou oceânica independente",
+  "id": "Kepulauan Admiralty atau Oseania mandiri",
+  "fr": "îles de l'Amirauté ou branche océanienne indépendante",
+  "vi": "nhóm quần đảo Admiralty hoặc nhánh Đại Dương độc lập",
+  "sw": "Visiwa vya Admiralty au tawi huru la Kiosheania"
+ },
+ "Central Pahari": {
+  "de": "Zentral-Pahari",
+  "es": "pahari central",
+  "it": "pahari centrale",
+  "pt": "pahari central",
+  "id": "Pahari Tengah",
+  "fr": "Pahari central",
+  "vi": "Pahari Trung",
+  "sw": "Pahari ya Kati"
+ },
+ "Western Pahari": {
+  "de": "West-Pahari",
+  "es": "pahari occidental",
+  "it": "pahari occidentale",
+  "pt": "pahari ocidental",
+  "id": "Pahari Barat",
+  "fr": "Pahari occidental",
+  "vi": "Pahari Tây",
+  "sw": "Pahari ya Magharibi"
+ },
+ "South Slavic": {
+  "de": "Südslawisch",
+  "es": "eslava meridional",
+  "it": "slava meridionale",
+  "pt": "eslava meridional",
+  "id": "Slavik Selatan",
+  "fr": "Slave méridional",
+  "vi": "nhóm Slav Nam",
+  "sw": "Kislaviki cha Kusini"
+ },
+ "Bantu; Guthrie Zone H.20 — North Mbundu": {
+  "de": "Bantu; Guthrie-Zone H.20 — Nord-Mbundu",
+  "es": "Bantú; zona H.20 de Guthrie — mbundu septentrional",
+  "it": "Bantu; zona H.20 di Guthrie — mbundu settentrionale",
+  "fr": "Bantou; zone H.20 de Guthrie — mbundu du Nord",
+  "vi": "Bantu; vùng Guthrie H.20 — Mbundu Bắc",
+  "sw": "Kibantu; Kanda ya Guthrie H.20 — Mbundu ya Kaskazini"
+ },
+ "Chokwe-Luchazi / K.10 group": {
+  "de": "Chokwe-Luchazi / K.10-Gruppe",
+  "es": "chokwe-luchazi / grupo K.10",
+  "it": "chokwe-luchazi / gruppo K.10",
+  "pt": "chokwe-luchazi / grupo K.10",
+  "id": "Chokwe-Luchazi / kelompok K.10",
+  "fr": "Chokwe-luchazi / groupe K.10",
+  "vi": "Chokwe-Luchazi / nhóm K.10",
+  "sw": "Chokwe-Luchazi / kundi la K.10"
+ },
+ "Northwest Semitic": {
+  "de": "Nordwestsemitisch",
+  "es": "semítica noroccidental",
+  "it": "semitica nord-occidentale",
+  "pt": "semítica do noroeste",
+  "id": "Semitik Barat Laut",
+  "fr": "Sémitique du Nord-Ouest",
+  "vi": "nhóm Semit Tây Bắc",
+  "sw": "Kisemiti cha Kaskazini-Magharibi"
+ },
+ "Northern French": {
+  "de": "Nordfranzösisch",
+  "es": "francés septentrional",
+  "it": "francese settentrionale",
+  "pt": "francês setentrional",
+  "id": "Prancis Utara",
+  "fr": "Français du Nord",
+  "vi": "tiếng Pháp miền Bắc",
+  "sw": "Kifaransa cha Kaskazini"
+ },
+ "pre-classical": {
+  "de": "vorklassisch",
+  "es": "preclásico",
+  "it": "preclassico",
+  "pt": "pré-clássico",
+  "id": "pra-klasik",
+  "fr": "préclassique"
+ },
+ "separate from IE/Semitic": {
+  "de": "vom Indogermanischen / Semitischen getrennt",
+  "es": "independiente del IE / semítico",
+  "it": "distinta dall'IE / semitico",
+  "pt": "distinta das indo-europeias e semíticas",
+  "id": "terpisah dari Indo-Eropa/Semitik",
+  "fr": "distinct de l'indo-européen et du sémitique",
+  "vi": "tách biệt với Ấn-Âu / Semit",
+  "sw": "tofauti na Kihindi-Ulaya / Kisemiti"
+ },
+ "Old South Arabian": {
+  "de": "Altsüdarabisch",
+  "es": "sudarábigo antiguo",
+  "it": "sudarabico antico",
+  "pt": "sul-arábico antigo",
+  "id": "Arab Selatan Kuno",
+  "fr": "Sudarabique ancien",
+  "vi": "tiếng Nam Ả Rập cổ",
+  "sw": "Kiarabu cha Kusini cha Kale"
+ },
+ "West Germanic": {
+  "de": "Westgermanisch",
+  "es": "germánica occidental",
+  "it": "germanica occidentale",
+  "pt": "germânica ocidental",
+  "id": "Germanik Barat",
+  "fr": "Germanique occidental",
+  "vi": "nhóm German Tây",
+  "sw": "Kijerumaniki cha Magharibi"
+ },
+ "Old Saxon": {
+  "de": "Altsächsisch",
+  "es": "sajón antiguo",
+  "it": "sassone antico",
+  "pt": "saxão antigo",
+  "id": "Sachsen Kuno",
+  "fr": "Vieux saxon",
+  "vi": "tiếng Saxon cổ",
+  "sw": "Kisaksoni cha Kale"
+ },
+ "Eastern Sudanic": {
+  "de": "Ostsudanisch",
+  "es": "sudánica oriental",
+  "it": "sudanica orientale",
+  "pt": "sudânica oriental",
+  "id": "Sudanik Timur",
+  "fr": "Soudanique oriental",
+  "vi": "nhóm Đông Sudan",
+  "sw": "Kisudani cha Mashariki"
+ },
+ "Southern Nilotic — Kalenjin cluster": {
+  "de": "Südnilotisch — Kalendjin-Gruppe",
+  "es": "nilótica meridional — grupo kalenjin",
+  "it": "nilotica meridionale — gruppo kalenjin",
+  "fr": "Nilotique méridional — groupe kalendjin",
+  "vi": "nhóm Nin Nam — cụm ngôn ngữ Kalenjin",
+  "sw": "Kiniloti cha Kusini — kundi la Kalenjin"
+ },
+ "mixed English/Portuguese lexicon": {
+  "de": "gemischter englisch-portugiesischer Wortschatz",
+  "es": "léxico mixto inglés / portugués",
+  "it": "lessico misto inglese / portoghese",
+  "pt": "léxico misto inglês/português",
+  "id": "kosakata campuran Inggris/Portugis",
+  "fr": "lexique mixte anglais-portugais",
+  "vi": "từ vựng pha trộn tiếng Anh / tiếng Bồ Đào Nha",
+  "sw": "msamiati mchanganyiko wa Kiingereza / Kireno"
+ },
+ "Akan/Gbe substrate": {
+  "de": "Akan- / Gbe-Substrat",
+  "es": "sustrato akan / gbe",
+  "it": "sostrato akan / gbe",
+  "pt": "substrato akan/gbe",
+  "id": "substrat Akan/Gbe",
+  "fr": "substrat akan / gbe",
+  "vi": "lớp nền Akan / Gbe",
+  "sw": "tabaka la chini la Kiakan / Kigbe"
+ },
+ "Central Salish / Coast Salish": {
+  "de": "Zentral-Salish / Küsten-Salish",
+  "es": "salish central / salish de la costa",
+  "it": "salish centrale / salish della costa",
+  "pt": "salish central / salish costeiro",
+  "id": "Salish Tengah / Salish Pesisir",
+  "fr": "Salish central / salish de la Côte",
+  "vi": "Salish Trung / Salish Duyên hải",
+  "sw": "Kisalishi cha Kati / Kisalishi cha Pwani"
+ },
+ "Insular": {
+  "de": "Inselkeltisch",
+  "es": "insular",
+  "it": "insulare",
+  "pt": "insular",
+  "id": "Insular",
+  "fr": "Celtique insulaire"
+ },
+ "Eastern Highlands": {
+  "de": "Östliches Hochland",
+  "es": "Tierras Altas Orientales",
+  "it": "Altopiani Orientali",
+  "pt": "Terras Altas Orientais",
+  "id": "Dataran Tinggi Timur",
+  "fr": "Hautes-Terres orientales",
+  "vi": "Cao nguyên Đông",
+  "sw": "Nyanda za Juu za Mashariki"
+ },
+ "Cuzco-Collao": {
+  "de": "Cusco-Collao"
+ },
+ "Maritime": {
+  "de": "Küsten-Tsimshian",
+  "es": "marítima",
+  "it": "marittima",
+  "pt": "marítima",
+  "id": "Maritim"
+ },
+ "Southern Luo": {
+  "de": "Süd-Luo",
+  "es": "luo meridional",
+  "it": "luo meridionale",
+  "pt": "luo meridional",
+  "id": "Luo Selatan",
+  "fr": "Luo méridional",
+  "vi": "tiếng Luo Nam",
+  "sw": "Kiluo cha Kusini"
+ },
+ "Central Luzon": {
+  "de": "Zentral-Luzon",
+  "es": "Luzón central",
+  "it": "Luzon centrale",
+  "pt": "Luzon central",
+  "id": "Luzon Tengah",
+  "fr": "Luçon central",
+  "vi": "nhóm Trung Luzon",
+  "sw": "Luzon ya Kati"
+ },
+ "Northern Luzon": {
+  "de": "Nord-Luzon",
+  "es": "Luzón septentrional",
+  "it": "Luzon settentrionale",
+  "pt": "Luzon setentrional",
+  "id": "Luzon Utara",
+  "fr": "Luçon septentrional",
+  "vi": "nhóm Bắc Luzon",
+  "sw": "Luzon ya Kaskazini"
+ },
+ "Bantu; Great Lakes / Northeast Bantu": {
+  "de": "Bantu; Große Seen / Nordost-Bantu",
+  "es": "Bantú; Grandes Lagos / bantú nororiental",
+  "it": "Bantu; Grandi Laghi / bantu nord-orientale",
+  "pt": "Bantu; Grandes Lagos / Bantu do nordeste",
+  "id": "Bantu; Danau Besar / Bantu Timur Laut",
+  "fr": "Bantou; Grands Lacs / bantou du Nord-Est",
+  "vi": "Bantu; nhóm Hồ Lớn / Bantu Đông Bắc",
+  "sw": "Kibantu; Maziwa Makuu / Kibantu cha Kaskazini-Mashariki"
+ },
+ "Ring": {
+  "de": "Ring-Sprachen"
+ },
+ "debated; possibly Eastern Sudanic": {
+  "de": "umstritten; möglicherweise ostsudanisch",
+  "es": "discutida; posiblemente sudánica oriental",
+  "it": "controversa; forse sudanica orientale",
+  "pt": "debatido; possivelmente sudânica oriental",
+  "id": "diperdebatkan; mungkin Sudanik Timur",
+  "fr": "débattu; peut-être soudanique oriental",
+  "vi": "còn tranh cãi; có thể thuộc nhóm Đông Sudan",
+  "sw": "yenye utata; huenda ni Kisudani cha Mashariki"
+ },
+ "East Formosan": {
+  "de": "Ostformosanisch",
+  "es": "formosana oriental",
+  "it": "formosana orientale",
+  "pt": "formosana oriental",
+  "id": "Formosa Timur",
+  "fr": "Formosan oriental",
+  "vi": "nhóm Đài Loan Đông",
+  "sw": "Kiformosa cha Mashariki"
+ },
+ "Eastern Indo-Aryan": {
+  "de": "Ostindoarisch",
+  "es": "indoaria oriental",
+  "it": "indoaria orientale",
+  "pt": "indo-ariana oriental",
+  "id": "Indo-Arya Timur",
+  "fr": "Indo-aryen oriental",
+  "vi": "nhóm Ấn-Arya Đông",
+  "sw": "Kihindi-Aria cha Mashariki"
+ },
+ "Hindi belt": {
+  "de": "Hindi-Gürtel",
+  "es": "cinturón hindi",
+  "it": "cintura hindi",
+  "pt": "cinturão hindi",
+  "id": "sabuk Hindi",
+  "fr": "Ceinture hindi",
+  "sw": "ukanda wa Kihindi"
+ },
+ "Greater Mamean": {
+  "de": "Groß-Mam",
+  "es": "gran mameana",
+  "it": "grande mameana",
+  "pt": "grande mameana",
+  "id": "Mam Raya",
+  "fr": "Grand mam",
+  "vi": "nhóm Đại Mam",
+  "sw": "lugha za Mam Kuu"
+ },
+ "Greater Mamean — Ixilan": {
+  "de": "Groß-Mam — Ixil-Sprachen",
+  "es": "gran mameana — ixil",
+  "it": "grande mameana — ixil",
+  "pt": "grande mameana — ixil",
+  "id": "Mam Raya — Ixil",
+  "fr": "Grand mam — ixil",
+  "vi": "nhóm Đại Mam — nhóm Ixil",
+  "sw": "lugha za Mam Kuu — lugha za Ixil"
+ },
+ "Highland East": {
+  "de": "Hochland-Ostkuschitisch",
+  "es": "oriental de las tierras altas",
+  "it": "orientale degli altopiani",
+  "pt": "terras altas orientais",
+  "id": "Dataran Tinggi Timur",
+  "fr": "Couchitique oriental des hautes terres",
+  "vi": "nhóm Cao nguyên Đông",
+  "sw": "Nyanda za Juu za Mashariki"
+ },
+ "West Barito": {
+  "de": "West-Barito",
+  "es": "barito occidental",
+  "it": "barito occidentale",
+  "pt": "barito ocidental",
+  "id": "Barito Barat",
+  "fr": "Barito occidental",
+  "vi": "nhóm Barito Tây",
+  "sw": "Barito ya Magharibi"
+ },
+ "East Barito": {
+  "de": "Ost-Barito",
+  "es": "barito oriental",
+  "it": "barito orientale",
+  "pt": "barito oriental",
+  "id": "Barito Timur",
+  "fr": "Barito oriental",
+  "vi": "nhóm Barito Đông",
+  "sw": "Barito ya Mashariki"
+ },
+ "language isolate within Italy": {
+  "de": "isolierte Sprache innerhalb Italiens",
+  "es": "lengua aislada en Italia",
+  "it": "lingua isolata in Italia",
+  "pt": "língua isolada na Itália",
+  "fr": "isolat linguistique en Italie",
+  "vi": "ngôn ngữ biệt lập ở Ý",
+  "sw": "lugha pweke ndani ya Italia"
+ },
+ "Indo-European Celtic per Koch 2009; non-IE per Untermann 1997": {
+  "de": "indogermanisch-keltisch nach Koch 2009; nicht indogermanisch nach Untermann 1997",
+  "es": "celta indoeuropea según Koch 2009; no IE según Untermann 1997",
+  "it": "celtica indoeuropea secondo Koch 2009; non IE secondo Untermann 1997",
+  "pt": "céltica indo-europeia segundo Koch 2009; não IE segundo Untermann 1997",
+  "id": "Keltik Indo-Eropa menurut Koch 2009; non-IE menurut Untermann 1997",
+  "fr": "celtique indo-européen selon Koch 2009; non indo-européen selon Untermann 1997",
+  "vi": "nhóm Celt thuộc Ấn-Âu theo Koch 2009; không thuộc Ấn-Âu theo Untermann 1997",
+  "sw": "Kikelti (Kihindi-Ulaya) kwa mujibu wa Koch 2009; si Kihindi-Ulaya kwa mujibu wa Untermann 1997"
+ },
+ "Eastern Timor": {
+  "de": "Osttimor",
+  "es": "Timor oriental",
+  "it": "Timor orientale",
+  "pt": "Timor oriental",
+  "id": "Timor Timur",
+  "fr": "Timor oriental",
+  "vi": "nhóm Timor Đông",
+  "sw": "Timor ya Mashariki"
+ },
+ "unclassified; possibly Indo-European and Illyrian-related": {
+  "de": "unklassifiziert; möglicherweise indogermanisch und mit dem Illyrischen verwandt",
+  "es": "sin clasificar; posiblemente indoeuropea y emparentada con el ilirio",
+  "it": "non classificato; forse indoeuropea e affine all'illirico",
+  "pt": "não classificado; possivelmente indo-europeu e aparentado com o ilírio",
+  "id": "tak terklasifikasi; mungkin Indo-Eropa dan berkerabat dengan Iliria",
+  "fr": "non classé; peut-être indo-européen et apparenté à l'illyrien",
+  "vi": "chưa phân loại; có thể thuộc Ấn-Âu và liên quan đến tiếng Illyria",
+  "sw": "isiyoainishwa; huenda ni Kihindi-Ulaya na yenye uhusiano na Kiiliria"
+ },
+ "isolated branch — closest to Greek/Armenian per current consensus": {
+  "de": "isolierter Zweig — nach derzeitigem Konsens dem Griechischen / Armenischen am nächsten",
+  "es": "rama aislada — más cercana al griego / armenio según el consenso actual",
+  "id": "cabang terisolasi — menurut konsensus terkini paling dekat dengan Yunani/Armenia",
+  "fr": "branche isolée — la plus proche du grec et de l'arménien selon le consensus actuel",
+  "vi": "nhánh biệt lập — theo đồng thuận hiện nay gần nhất với tiếng Hy Lạp và tiếng Armenia",
+  "sw": "tawi lililotengwa — kwa maafikiano ya sasa, karibu zaidi na Kigiriki na Kiarmenia"
+ },
+ "or an independent IE branch — debated": {
+  "de": "oder ein eigenständiger indogermanischer Zweig — umstritten",
+  "es": "o una rama independiente del IE — discutido",
+  "it": "o un ramo indipendente dell'IE — controverso",
+  "pt": "ou um ramo IE independente — debatido",
+  "id": "atau cabang IE mandiri — diperdebatkan",
+  "fr": "ou branche indo-européenne indépendante — débattu",
+  "vi": "hoặc một nhánh Ấn-Âu độc lập — còn tranh cãi",
+  "sw": "au tawi huru la Kihindi-Ulaya — lina utata"
+ },
+ "Pacific Coast": {
+  "de": "Pazifikküste",
+  "es": "costa del Pacífico",
+  "it": "costa del Pacifico",
+  "pt": "Costa do Pacífico",
+  "id": "Pesisir Pasifik",
+  "fr": "Côte pacifique",
+  "vi": "nhóm Duyên hải Thái Bình Dương",
+  "sw": "Pwani ya Pasifiki"
+ },
+ "South Oghuz": {
+  "de": "Südoghusisch",
+  "es": "oghuz meridional",
+  "it": "oghuz meridionale",
+  "pt": "oguz meridional",
+  "id": "Oghuz Selatan",
+  "fr": "Oghouze méridional",
+  "vi": "nhóm Oghuz Nam",
+  "sw": "Oghuz ya Kusini"
+ },
+ "Central Algonquian": {
+  "de": "Zentral-Algonkin",
+  "es": "algonquina central",
+  "it": "algonchina centrale",
+  "pt": "algonquina central",
+  "id": "Algonkin Tengah",
+  "fr": "Algonquien central",
+  "vi": "nhóm Algonquin Trung",
+  "sw": "lugha za Algonquin za Kati"
+ },
+ "Malayic — Malay-based": {
+  "de": "Malaiisch — auf malaiischer Grundlage",
+  "es": "malaya — de base malaya",
+  "it": "maleica — a base malese",
+  "pt": "malaica — de base malaia",
+  "id": "Melayik — berbasis Melayu",
+  "fr": "Malaïque — à base malaise",
+  "vi": "Mã Lai — gốc tiếng Mã Lai",
+  "sw": "lugha za Kimalay — zenye msingi wa Kimalay"
+ },
+ "Eastern Baltic": {
+  "de": "Ostbaltisch",
+  "es": "báltica oriental",
+  "it": "baltica orientale",
+  "pt": "báltica oriental",
+  "id": "Baltik Timur",
+  "fr": "Balte oriental",
+  "vi": "nhóm Balt Đông",
+  "sw": "Kibaltiki cha Mashariki"
+ },
+ "Low Franconian": {
+  "de": "Niederfränkisch",
+  "es": "bajo francónico",
+  "it": "basso francone",
+  "pt": "baixo-frâncica",
+  "id": "Franka Hilir",
+  "fr": "Bas-francique",
+  "vi": "nhóm Hạ Franken",
+  "sw": "Kifranconi cha Chini"
+ },
+ "Eastern Hindi/Bihari": {
+  "de": "Osthindi / Bihari",
+  "es": "hindi oriental / bihari",
+  "it": "hindi orientale / bihari",
+  "pt": "hindi oriental / bihari",
+  "id": "Hindi Timur / Bihari",
+  "fr": "Hindi oriental / bihari",
+  "vi": "tiếng Hindi Đông / nhóm Bihar",
+  "sw": "Kihindi cha Mashariki / Kibihari"
+ },
+ "Awadhi–Bhojpuri-based koiné": {
+  "de": "Koine auf Awadhi-Bhojpuri-Grundlage",
+  "es": "koiné de base awadhi-bhojpuri",
+  "it": "koinè a base awadhi-bhojpuri",
+  "pt": "coiné de base awadhi–bhojpuri",
+  "id": "koine berbasis Awadhi–Bhojpuri",
+  "fr": "koinè à base awadhi-bhojpuri",
+  "vi": "koiné dựa trên Awadhi–Bhojpuri",
+  "sw": "koiné yenye msingi wa Kiawadhi–Kibhojpuri"
+ },
+ "Northern Berber; planned standard pooling Tashelhiyt": {
+  "de": "Nordberberisch; geplante Standardsprache unter Einbeziehung des Taschelhit",
+  "es": "bereber septentrional; estándar planificado que integra el tashelhit",
+  "it": "berbero settentrionale; standard pianificato che integra il tashelhit",
+  "pt": "berbere setentrional; norma planejada que agrega o tachelhit",
+  "id": "Berber Utara; standar terencana yang menggabungkan Tashelhiyt",
+  "fr": "Berbère septentrional; standard prévu englobant le tachelhit",
+  "vi": "Berber Bắc; chuẩn dự kiến gộp Tashelhiyt",
+  "sw": "Kiberiberi cha Kaskazini; kiwango kilichopangwa kinachounganisha Tashelhiyt"
+ },
+ "Central Atlas Tamazight and Tarifit": {
+  "de": "Zentralatlas-Tamazight und Tarifit",
+  "es": "tamazight del Atlas central y rifeño",
+  "it": "tamazight dell'Atlante centrale e rifano",
+  "pt": "tamazight do Atlas Central e tarifit",
+  "id": "Tamazight Atlas Tengah dan Tarifit",
+  "fr": "tamazight du Maroc central et rifain",
+  "vi": "Tamazight Trung Atlas và Tarifit",
+  "sw": "Tamazight ya Atlas ya Kati na Tarifit"
+ },
+ "Gheg — one of the two primary dialect groups alongside Tosk": {
+  "de": "Gegisch — eine der beiden Hauptdialektgruppen neben dem Toskischen",
+  "es": "guego — uno de los dos grandes grupos dialectales junto al tosco",
+  "it": "ghego — uno dei due principali gruppi dialettali insieme al tosco",
+  "pt": "guego — um dos dois principais grupos dialetais, ao lado do tosco",
+  "id": "Gheg — salah satu dari dua kelompok dialek utama selain Tosk",
+  "fr": "Guègue — l'un des deux grands groupes dialectaux avec le tosque",
+  "vi": "Gheg — một trong hai nhóm phương ngữ chính, bên cạnh Tosk",
+  "sw": "Gheg — mojawapo ya makundi mawili makuu ya lahaja, pamoja na Tosk"
+ },
+ "Nuclear Polynesian": {
+  "de": "Kernpolynesisch",
+  "es": "polinesio nuclear",
+  "it": "polinesiano nucleare",
+  "pt": "polinésia nuclear",
+  "id": "Polinesia Inti",
+  "fr": "Polynésien nucléaire",
+  "vi": "nhóm Polynesia Hạt nhân",
+  "sw": "Kipolinesia cha Kiini"
+ },
+ "Central New South Wales": {
+  "de": "Zentral-New-South-Wales",
+  "es": "Nueva Gales del Sur central",
+  "it": "Nuovo Galles del Sud centrale",
+  "pt": "Nova Gales do Sul central",
+  "id": "New South Wales Tengah",
+  "fr": "Centre de la Nouvelle-Galles du Sud",
+  "vi": "nhóm Trung New South Wales",
+  "sw": "New South Wales ya Kati"
+ },
+ "Guthrie zone L.52": {
+  "de": "Guthrie-Zone L.52",
+  "es": "zona L.52 de Guthrie",
+  "it": "zona L.52 di Guthrie",
+  "pt": "zona de Guthrie L.52",
+  "id": "zona Guthrie L.52",
+  "fr": "zone L.52 de Guthrie",
+  "vi": "vùng Guthrie L.52",
+  "sw": "kanda ya Guthrie L.52"
+ },
+ "Bodish — close to but not descended from Classical Tibetan": {
+  "de": "Bodisch — dem klassischen Tibetisch nahe, aber nicht davon abstammend",
+  "es": "bódica — cercana al tibetano clásico pero no descendiente de él",
+  "it": "bodica — vicina al tibetano classico ma non sua discendente",
+  "pt": "bódica — próxima do tibetano clássico, mas não descendente dele",
+  "id": "Bodik — dekat dengan, tetapi bukan turunan, bahasa Tibet Klasik",
+  "fr": "Bodique — proche du tibétain classique sans en descendre",
+  "vi": "nhóm Bod — gần với tiếng Tạng cổ điển nhưng không bắt nguồn từ nó",
+  "sw": "lugha za Bod — karibu na Kitibeti cha Kale lakini haikutokana nacho"
+ },
+ "Himalayish — isolated within it; sometimes linked to Mahakiranti": {
+  "de": "Himalayisch — darin isoliert; mitunter mit dem Mahakiranti verbunden",
+  "es": "himalaya — aislada dentro del grupo; a veces vinculada al mahakiranti",
+  "it": "himalayana — isolata al suo interno; talvolta collegata al mahakiranti",
+  "pt": "himalaica — isolada dentro dela; às vezes ligada ao mahakiranti",
+  "id": "Himalayik — terisolasi di dalamnya; kadang dikaitkan dengan Mahakiranti",
+  "fr": "Himalayen — isolé en son sein; parfois rattaché au mahakiranti",
+  "vi": "nhóm Himalaya — biệt lập trong nhóm; đôi khi được liên hệ với Mahakiranti",
+  "sw": "lugha za Himalaya — iliyotengwa ndani yake; wakati mwingine huhusishwa na Mahakiranti"
+ },
+ "Old Burmese script": {
+  "de": "altbirmanische Schrift",
+  "fr": "ancienne écriture birmane"
+ },
+ "Old Aramaic alphabet": {
+  "de": "altaramäisches Alphabet",
+  "fr": "alphabet araméen ancien",
+  "sw": "alfabeti ya Kiaramu cha Kale"
+ },
+ "Old Nubian alphabet": {
+  "de": "altnubisches Alphabet",
+  "fr": "alphabet vieux-nubien",
+  "vi": "bảng chữ cái Nubia cổ",
+  "sw": "alfabeti ya Kinubi cha Kale"
+ },
+ "Elamite kingdoms": {
+  "de": "elamische Königreiche",
+  "fr": "royaumes élamites",
+  "sw": "falme za Kielami"
+ },
+ "Aramaic-derived": {
+  "de": "vom Aramäischen abgeleitet",
+  "fr": "dérivé de l'araméen",
+  "sw": "inayotokana na hati ya Kiaramu"
+ },
+ "ancestor of modern Frisian": {
+  "de": "Vorfahre des modernen Friesischen",
+  "fr": "ancêtre du frison moderne",
+  "sw": "babu wa Kifrisia cha kisasa"
+ },
+ "Aramaic / Syriac": {
+  "de": "Aramäisch / Syrisch",
+  "fr": "Araméen / syriaque",
+  "sw": "hati ya Kiaramu / hati ya Kisiria"
+ },
+ "Eastern / Magadhan": {
+  "de": "Ost / Magadhi",
+  "fr": "Oriental / magadhi",
+  "sw": "mashariki / Magadhi"
+ },
+ "West": {
+  "de": "West"
+ },
+ "Tundra": {
+  "de": "Tundra-Jukagirisch",
+  "fr": "Toundra"
+ },
+ "isolate": {
+  "es": "lengua aislada",
+  "it": "lingua isolata",
+  "pt": "língua isolada",
+  "fr": "isolat"
+ },
+ "South-Central": {
+  "es": "centromeridional",
+  "it": "centro-meridionale",
+  "id": "Selatan-Tengah",
+  "fr": "Centre-sud",
+  "vi": "nhánh Trung-Nam",
+  "sw": "Kusini-Kati"
+ },
+ "Ob-Ugric": {
+  "es": "ugria del Obi",
+  "it": "ugrica dell'Ob",
+  "pt": "úgrica do Ob",
+  "id": "Ugrik Ob",
+  "fr": "Ougrien de l'Ob"
+ },
+ "Kamchatkan": {
+  "es": "kamchatka",
+  "it": "kamciatka"
+ },
+ "Ethiopian": {
+  "es": "etiópica",
+  "it": "etiopica",
+  "pt": "etíope"
+ },
+ "Pu-Xian Min": {
+  "es": "min puxian",
+  "it": "min puxian"
+ },
+ "Nungish / Loloish": {
+  "es": "lenguas nungish / lolo",
+  "it": "lingue nungiche / lolo"
+ },
+ "branch debated": {
+  "es": "rama discutida",
+  "it": "ramo controverso",
+  "pt": "ramo debatido",
+  "fr": "branche débattue"
+ },
+ "Azerbaijani": {
+  "es": "azerbaiyano",
+  "it": "azero"
+ },
+ "Saharan": {
+  "es": "sahariano",
+  "it": "sahariano"
+ },
+ "Volta-Niger": {
+  "es": "volta-níger",
+  "pt": "volta-níger"
+ },
+ "Italo-Romance": {
+  "es": "italorromance",
+  "it": "italo-romanza",
+  "pt": "ítalo-românica",
+  "id": "Italo-Roman"
+ },
+ "Italo-Dalmatian": {
+  "es": "italo-dálmata",
+  "it": "italo-dalmata",
+  "pt": "ítalo-dálmata",
+  "id": "Italo-Dalmatia",
+  "vi": "nhóm Ý-Dalmatia"
+ },
+ "Gallo-Romance": {
+  "es": "galorromance",
+  "it": "gallo-romanza",
+  "pt": "galo-românica",
+  "id": "Gallo-Roman"
+ },
+ "Rhaeto-Romance": {
+  "es": "retorrománica",
+  "it": "retoromanza",
+  "pt": "reto-românica",
+  "id": "Reto-Roman"
+ },
+ "Romani": {
+  "es": "romaní",
+  "it": "romaní"
+ },
+ "Saami": {
+  "es": "sami",
+  "it": "sami",
+  "pt": "sámi",
+  "id": "Sami"
+ },
+ "Sami": {
+  "es": "sami",
+  "it": "sami",
+  "pt": "sámi"
+ },
+ "reconstructed": {
+  "es": "reconstruida",
+  "it": "ricostruita",
+  "pt": "reconstruída",
+  "fr": "reconstruite"
+ },
+ "schematic": {
+  "es": "esquemática",
+  "it": "schematica",
+  "pt": "esquemática",
+  "fr": "schématique"
+ },
+ "philosophical": {
+  "es": "filosófica",
+  "it": "filosofica",
+  "pt": "filosófica",
+  "fr": "philosophique"
+ },
+ "artistic": {
+  "es": "artística",
+  "it": "artistica",
+  "pt": "artística",
+  "fr": "artistique"
+ },
+ "logical": {
+  "es": "lógica",
+  "it": "logica",
+  "pt": "lógica",
+  "fr": "logique"
+ },
+ "Visayan": {
+  "es": "bisaya",
+  "it": "visaya"
+ },
+ "Mande": {
+  "es": "mandé"
+ },
+ "Manding": {
+  "es": "mandinga"
+ },
+ "Songhai": {
+  "es": "songhay"
+ },
+ "Yucatecan": {
+  "es": "yucateca",
+  "it": "yucateca"
+ },
+ "Kampan": {
+  "es": "campa",
+  "it": "campa"
+ },
+ "sometimes grouped as Paezan": {
+  "es": "a veces agrupada como paeza",
+  "it": "talvolta raggruppata come paezana",
+  "pt": "às vezes agrupada como paeza",
+  "fr": "parfois rattaché au paezan",
+  "sw": "wakati mwingine huwekwa katika Paez"
+ },
+ "isolate or small family": {
+  "es": "lengua aislada o familia pequeña",
+  "it": "lingua isolata o piccola famiglia",
+  "pt": "língua isolada ou pequena família",
+  "fr": "isolat ou petite famille",
+  "vi": "ngôn ngữ biệt lập hoặc ngữ hệ nhỏ"
+ },
+ "Avar-Andic": {
+  "es": "avar-andí",
+  "it": "avaro-andica",
+  "pt": "ávaro-ândica",
+  "id": "Avar-Andik"
+ },
+ "Lak-Dargic": {
+  "es": "lak-darguina",
+  "it": "lak-dargica",
+  "pt": "lak-darguínica",
+  "id": "Lak-Dargik"
+ },
+ "Kipchak-Cuman": {
+  "es": "kipchak-cumana",
+  "it": "kipchak-cumana",
+  "pt": "quipchaca-cumana"
+ },
+ "Circassian": {
+  "es": "circasiana",
+  "it": "circassa"
+ },
+ "Abkhaz-Abaza": {
+  "es": "abjasio-abazino",
+  "it": "abcaso-abaza",
+  "pt": "abcázio-abaza",
+  "id": "Abkhaz-Abaza"
+ },
+ "Wati / Western Desert": {
+  "es": "wati / Desierto Occidental",
+  "it": "wati / Deserto Occidentale"
+ },
+ "Malayic": {
+  "es": "malaya",
+  "it": "maleica"
+ },
+ "heavily restructured": {
+  "es": "muy reestructurada",
+  "it": "fortemente ristrutturata",
+  "pt": "fortemente reestruturada",
+  "fr": "fortement restructuré"
+ },
+ "Philippine": {
+  "es": "filipina",
+  "it": "filippina",
+  "pt": "filipina",
+  "id": "Filipina"
+ },
+ "Rajasthani": {
+  "es": "rajastaní"
+ },
+ "Astur-Leonese": {
+  "es": "asturleonés",
+  "it": "asturleonese",
+  "pt": "asturo-leonesa",
+  "id": "Astur-Leon"
+ },
+ "Pyrenean": {
+  "es": "pirenaica",
+  "it": "pirenaica"
+ },
+ "Caspian": {
+  "es": "caspia",
+  "it": "caspica",
+  "pt": "cáspia",
+  "id": "Kaspia"
+ },
+ "Aleut": {
+  "es": "aleutiana",
+  "it": "aleutina",
+  "id": "Aleut"
+ },
+ "Aramaic": {
+  "es": "arameo",
+  "it": "aramaico"
+ },
+ "Mandaic": {
+  "es": "mandeo",
+  "it": "mandaico"
+ },
+ "Matacoan": {
+  "es": "mataco",
+  "it": "mataco"
+ },
+ "Khasian": {
+  "es": "khasi",
+  "it": "khasi"
+ },
+ "Oirat-Kalmyk": {
+  "es": "oirat-calmuco",
+  "it": "oirato-calmucco",
+  "pt": "oirate-calmuca",
+  "id": "Oirat-Kalmyk"
+ },
+ "creolized": {
+  "es": "criollizada",
+  "it": "creolizzata",
+  "pt": "crioulizada",
+  "fr": "créolisé"
+ },
+ "Canaanite": {
+  "es": "cananea",
+  "it": "cananaica"
+ },
+ "Ethio-Semitic": {
+  "es": "etiosemítica",
+  "it": "etiosemitica",
+  "pt": "etiossemítica",
+  "id": "Semitik Etiopia"
+ },
+ "Elamite": {
+  "es": "elamita",
+  "it": "elamica"
+ },
+ "Castilian": {
+  "es": "castellano",
+  "it": "castigliano"
+ },
+ "Lurish": {
+  "es": "lur",
+  "it": "luri"
+ },
+ "Caribbean": {
+  "es": "caribeña",
+  "it": "caraibica",
+  "pt": "caribenha",
+  "id": "Karibia"
+ },
+ "Scythian": {
+  "es": "escita",
+  "it": "scitica"
+ },
+ "likely isolate": {
+  "es": "probablemente aislada",
+  "it": "probabilmente isolata",
+  "pt": "provavelmente isolada",
+  "fr": "probablement un isolat"
+ },
+ "Jurchen-Manchu": {
+  "es": "yurchen-manchú",
+  "it": "jurchen-manciù"
+ },
+ "Formosan — Western Plains": {
+  "es": "formosana — llanuras occidentales",
+  "it": "formosana — pianure occidentali"
+ },
+ "Frisian": {
+  "es": "frisón",
+  "it": "frisone",
+  "vi": "nhóm Frisia"
+ },
+ "German-based": {
+  "es": "de base alemana",
+  "it": "a base tedesca",
+  "pt": "de base alemã",
+  "fr": "à base allemande"
+ },
+ "possibly pre-IE": {
+  "es": "posiblemente preindoeuropea",
+  "it": "forse preindoeuropea",
+  "pt": "possivelmente pré-IE",
+  "fr": "peut-être pré-indo-européen"
+ },
+ "Balto-Slavic": {
+  "es": "baltoeslava",
+  "it": "balto-slava",
+  "pt": "balto-eslava",
+  "id": "Balto-Slavik"
+ },
+ "Dutch": {
+  "es": "neerlandés",
+  "it": "olandese",
+  "pt": "neerlandês",
+  "id": "Belanda"
+ },
+ "Nubian": {
+  "es": "nubia",
+  "it": "nubiana"
+ },
+ "Ticuna–Yuri": {
+  "es": "ticuna-yurí",
+  "it": "ticuna-yuri"
+ },
+ "usually treated as a language isolate": {
+  "es": "suele tratarse como lengua aislada",
+  "it": "di solito considerata una lingua isolata",
+  "pt": "geralmente tratada como língua isolada",
+  "fr": "généralement considéré comme un isolat"
+ },
+ "its only relative Yuri being extinct": {
+  "es": "su único pariente, el yurí, está extinto",
+  "it": "il suo unico parente, lo yuri, è estinto",
+  "pt": "seu único parente, o yuri, está extinto",
+  "fr": "son seul parent, le yuri, étant éteint"
+ },
+ "Benue-Congo": {
+  "es": "benué-congo",
+  "it": "benue-congo"
+ },
+ "Lezgic — isolated within Lezgic; not part of any subgroup": {
+  "es": "lezguica — aislada dentro del grupo lezguico; no pertenece a ningún subgrupo",
+  "it": "lezgica — isolata all'interno del gruppo lezgico; non appartenente ad alcun sottogruppo"
+ },
+ "Lezgic; ancestor/sister of modern Udi": {
+  "es": "lezguica; antecesora o hermana del udi moderno",
+  "it": "lezgica; antenata o sorella dell'udi moderno",
+  "sw": "lugha za Kilezgi; babu / lugha dada ya Kiudi cha kisasa"
+ },
+ "Kaqchikelan": {
+  "es": "kaqchikel",
+  "it": "kaqchikel"
+ },
+ "Inuit": {
+  "pt": "inuíte"
+ },
+ "Eastern Pahari": {
+  "pt": "pahari oriental",
+  "id": "Pahari Timur"
+ },
+ "Oïl": {
+  "pt": "de oïl",
+  "fr": "Langues d'oïl"
+ },
+ "West Kipchak": {
+  "pt": "quipchaca ocidental",
+  "id": "Kipchak Barat"
+ },
+ "Atlas": {
+  "pt": "Atlas"
+ },
+ "NE Caucasian": {
+  "pt": "caucasiana do nordeste",
+  "sw": "Kikaukasi cha Kaskazini-Mashariki"
+ },
+ "NW Caucasian": {
+  "pt": "caucasiana do noroeste",
+  "sw": "Kikaukasi cha Kaskazini-Magharibi"
+ },
+ "Muna-Buton": {
+  "pt": "muna-buton",
+  "id": "Muna-Buton"
+ },
+ "Southern Nilotic": {
+  "pt": "nilótica meridional",
+  "id": "Nilotik Selatan"
+ },
+ "Anatolian": {
+  "pt": "anatólica"
+ },
+ "Malayo-Polynesian": {
+  "id": "Melayu-Polinesia"
+ },
+ "Tibeto-Burman": {
+  "id": "Tibet-Burma"
+ },
+ "Southwestern": {
+  "id": "Barat Daya"
+ },
+ "Northwestern": {
+  "id": "Barat Laut"
+ },
+ "Southeastern": {
+  "id": "Tenggara"
+ },
+ "East": {
+  "id": "Timur"
+ },
+ "South": {
+  "id": "Selatan"
+ },
+ "North": {
+  "id": "Utara"
+ },
+ "NW": {
+  "id": "BL",
+  "vi": "Tây Bắc",
+  "sw": "Kaskazini-Magharibi"
+ },
+ "reconstructed-proto": {
+  "fr": "reconstructed-proto"
+ },
+ "Japonic-Koreanic": {
+  "fr": "Japonico-coréen",
+  "vi": "Nhật Bản-Hàn Quốc"
+ },
+ "Maritime Region": {
+  "vi": "vùng Duyên hải"
+ },
+ "Formosan homeland": {
+  "vi": "quê hương nhóm Đài Loan"
+ },
+ "Wu family total": {
+  "vi": "tổng cả nhóm tiếng Ngô"
+ },
+ "Nahuan total": {
+  "vi": "tổng nhóm Nahua",
+  "sw": "jumla ya lugha za Kinahua"
+ },
+ "Italic": {
+  "vi": "nhóm gốc Ý"
+ },
+ "Baltic": {
+  "vi": "nhóm Balt"
+ },
+ "Jivaroan": {
+  "vi": "ngữ hệ Jivaro"
+ },
+ "Tyrsenian": {
+  "vi": "ngữ hệ Tyrseni"
+ },
+ "Monguoric": {
+  "vi": "nhóm Monguor"
+ },
+ "Iberian": {
+  "vi": "nhóm Iberia"
+ },
+ "Germanic": {
+  "sw": "Kijerumaniki"
+ },
+ "Language isolate": {
+  "sw": "Lugha pweke"
+ },
+ "Finno-Ugric": {
+  "sw": "Kifini-Kiugori"
+ },
+ "Trans-New Guinea": {
+  "sw": "Kivuka-Guinea Mpya"
+ },
+ "Indo-Aryan; Old Indo-Aryan": {
+  "sw": "Kihindi-Aria; Kihindi-Aria cha Kale"
+ },
+ "Early Mandarin": {
+  "sw": "Kimandarini cha mapema"
+ },
+ "Southwestern Iranian": {
+  "sw": "Kiirani cha Kusini-Magharibi"
+ },
+ "NW Mexico": {
+  "sw": "Kaskazini-Magharibi mwa Meksiko"
+ },
+ "US Southwest": {
+  "sw": "Kusini-Magharibi mwa Marekani"
+ },
+ "Karen script": {
+  "sw": "hati ya Kikaren"
+ },
+ "Iberian-derived": {
+  "sw": "inayotokana na hati ya Kiiberia"
+ },
+ "Sukuma-Nyamwezi": {
+  "sw": "Kisukuma-Kinyamwezi"
+ }
+};
+  for (const [term, tr] of Object.entries(A)) for (const [lang, v] of Object.entries(tr)) {
+    if (!META_I18N_ATOMS[lang]) META_I18N_ATOMS[lang] = {};
+    META_I18N_ATOMS[lang][term] = v;
+  }
+  if (typeof META_I18N === 'undefined') return;
+  for (const [src, tr] of Object.entries(F)) for (const [lang, v] of Object.entries(tr)) {
+    if (!META_I18N[lang]) META_I18N[lang] = {};
+    META_I18N[lang][src] = v;
+  }
+})();
+
+// r24: Han Map family atoms (Sinitic groups, proto, reading layers) the
+// whole-value translator needs before it will translate a family line.
+// Fill-only: an existing entry wins.
+(function () {
+  if (typeof META_I18N_ATOMS === 'undefined') return;
+  const A = {
+ "Gan": {
+  "ja": "贛語",
+  "ko": "감어",
+  "zh": "赣语",
+  "yue": "贛語",
+  "vi": "tiếng Cám",
+  "th": "ภาษากั้น",
+  "hi": "गान",
+  "fr": "gan",
+  "it": "gan",
+  "es": "gan",
+  "pt": "gan",
+  "ru": "гань",
+  "uk": "гань",
+  "ar": "الغان",
+  "he": "גאן",
+  "sw": "Kigan"
+ },
+ "Jin": {
+  "ja": "晋語",
+  "ko": "진어",
+  "zh": "晋语",
+  "yue": "晉語",
+  "vi": "tiếng Tấn",
+  "th": "ภาษาจิ้น",
+  "hi": "जिन",
+  "fr": "jin",
+  "it": "jin",
+  "es": "jin",
+  "pt": "jin",
+  "ru": "цзинь",
+  "uk": "цзінь",
+  "ar": "الجين",
+  "he": "ג׳ין",
+  "sw": "Kijin"
+ },
+ "Xiang": {
+  "ja": "湘語",
+  "ko": "상어",
+  "zh": "湘语",
+  "yue": "湘語",
+  "vi": "tiếng Tương",
+  "th": "ภาษาเซียง",
+  "hi": "शियांग",
+  "fr": "xiang",
+  "it": "xiang",
+  "es": "xiang",
+  "pt": "xiang",
+  "ru": "сян",
+  "uk": "сян",
+  "ar": "الشيانغ",
+  "he": "שיאנג",
+  "sw": "Kixiang"
+ },
+ "Wu": {
+  "ja": "呉語",
+  "ko": "오어",
+  "zh": "吴语",
+  "yue": "吳語",
+  "vi": "tiếng Ngô",
+  "th": "ภาษาอู๋",
+  "hi": "वू",
+  "fr": "wu",
+  "it": "wu",
+  "es": "wu",
+  "pt": "wu",
+  "ru": "у",
+  "uk": "у",
+  "ar": "الوو",
+  "he": "וו",
+  "sw": "Kiwu"
+ },
+ "Hui": {
+  "ja": "徽語",
+  "ko": "휘어",
+  "zh": "徽语",
+  "yue": "徽語",
+  "vi": "tiếng Huy",
+  "th": "ภาษาฮุย",
+  "hi": "हुई",
+  "fr": "hui",
+  "it": "hui",
+  "es": "hui",
+  "pt": "hui",
+  "ru": "хуэй",
+  "uk": "хуей",
+  "ar": "الهوي",
+  "he": "חואי",
+  "sw": "Kihui"
+ },
+ "Pinghua": {
+  "ja": "平話",
+  "ko": "평화",
+  "zh": "平话",
+  "yue": "平話",
+  "vi": "Bình thoại",
+  "th": "ภาษาผิงฮว่า",
+  "hi": "पिंगहुआ",
+  "fr": "pinghua",
+  "it": "pinghua",
+  "es": "pinghua",
+  "pt": "pinghua",
+  "ru": "пинхуа",
+  "uk": "пінхуа",
+  "ar": "البينغهوا",
+  "he": "פינגחואה",
+  "sw": "Kipinghua"
+ },
+ "Min": {
+  "ja": "閩語",
+  "ko": "민어",
+  "zh": "闽语",
+  "yue": "閩語",
+  "vi": "tiếng Mân",
+  "th": "ภาษาหมิ่น",
+  "hi": "मिन",
+  "fr": "min",
+  "it": "min",
+  "es": "min",
+  "pt": "min",
+  "ru": "минь",
+  "uk": "мінь",
+  "ar": "المين",
+  "he": "מין",
+  "sw": "Kimin"
+ },
+ "Min Nan": {
+  "ja": "閩南語",
+  "ko": "민난어",
+  "zh": "闽南语",
+  "yue": "閩南語",
+  "vi": "tiếng Mân Nam",
+  "th": "ภาษาหมิ่นใต้",
+  "id": "Min Selatan",
+  "hi": "दक्षिणी मिन",
+  "fr": "minnan",
+  "it": "min nan",
+  "es": "min nan",
+  "pt": "min nan",
+  "ru": "южноминьский",
+  "uk": "південноміньська",
+  "ar": "المين الجنوبية",
+  "he": "מין נאן",
+  "sw": "Kimin-Nan"
+ },
+ "Hakka": {
+  "ja": "客家語",
+  "ko": "객가어",
+  "zh": "客家话",
+  "yue": "客家話",
+  "vi": "tiếng Khách Gia",
+  "th": "ภาษาแคะ",
+  "hi": "हक्का",
+  "fr": "hakka",
+  "it": "hakka",
+  "es": "hakka",
+  "pt": "hakka",
+  "ru": "хакка",
+  "uk": "хакка",
+  "ar": "الهاكا",
+  "he": "האקה",
+  "sw": "Kihakka"
+ },
+ "Mandarin": {
+  "ja": "官話",
+  "ko": "관화",
+  "zh": "官话",
+  "yue": "官話",
+  "vi": "tiếng Quan thoại",
+  "th": "ภาษาจีนกลาง",
+  "hi": "मंदारिन",
+  "fr": "mandarin",
+  "it": "mandarino",
+  "es": "mandarín",
+  "pt": "mandarim",
+  "ru": "мандаринский",
+  "uk": "мандаринська",
+  "ar": "الماندرين",
+  "he": "מנדרינית",
+  "sw": "Kimandarini"
+ },
+ "Yue": {
+  "ja": "粤語",
+  "ko": "월어",
+  "zh": "粤语",
+  "yue": "粵語",
+  "vi": "Việt ngữ",
+  "th": "ภาษาเยว่",
+  "hi": "यू",
+  "fr": "yue",
+  "it": "yue",
+  "es": "yue",
+  "pt": "yue",
+  "ru": "юэ",
+  "uk": "юе",
+  "ar": "اليوي",
+  "he": "יואה",
+  "sw": "Kiyue"
+ },
+ "proto": {
+  "ja": "祖語",
+  "ko": "조어",
+  "zh": "原始语",
+  "yue": "原始語",
+  "vi": "tiền ngữ",
+  "th": "ภาษาดั้งเดิม",
+  "hi": "आद्य",
+  "de": "Ursprache",
+  "fr": "proto-langue",
+  "it": "protolingua",
+  "es": "protolengua",
+  "pt": "protolíngua",
+  "ru": "праязык",
+  "uk": "прамова",
+  "ar": "اللغة الأم الأولى",
+  "he": "שפת־אם קדומה",
+  "sw": "lugha mama"
+ },
+ "native reading layer": {
+  "ja": "固有語の読みの層",
+  "ko": "고유어 읽기 층",
+  "zh": "固有词读音层",
+  "yue": "固有詞讀音層",
+  "vi": "lớp âm đọc thuần",
+  "th": "ชั้นการอ่านแบบคำดั้งเดิม",
+  "id": "lapisan bacaan asli",
+  "hi": "देशज पठन परत",
+  "de": "einheimische Leseschicht",
+  "fr": "couche de lecture native",
+  "it": "strato di lettura nativo",
+  "es": "capa de lectura nativa",
+  "pt": "camada de leitura nativa",
+  "ru": "слой исконных чтений",
+  "uk": "шар питомих читань",
+  "ar": "طبقة القراءة الأصلية",
+  "he": "שכבת קריאה מקומית",
+  "sw": "tabaka la usomaji asilia"
+ },
+ "Southern Tungusic": {
+  "ja": "南ツングース語群",
+  "ko": "남퉁구스어군",
+  "zh": "南通古斯语支",
+  "yue": "南通古斯語支",
+  "vi": "nhóm Tungus Nam",
+  "th": "ตุงกูสิกใต้",
+  "id": "Tungus Selatan",
+  "hi": "दक्षिणी तुंगुसिक",
+  "de": "Südtungusisch",
+  "fr": "toungouse méridional",
+  "it": "tungusico meridionale",
+  "es": "tungúsico meridional",
+  "pt": "tungúsico meridional",
+  "ru": "южные тунгусо-маньчжурские",
+  "uk": "південні тунгусо-маньчжурські",
+  "ar": "التنغوسية الجنوبية",
+  "he": "טונגוסית דרומית",
+  "sw": "Kitungusi cha Kusini"
+ },
+ "Zhuang": {
+  "ja": "チワン語",
+  "ko": "좡어",
+  "zh": "壮语",
+  "yue": "壯語",
+  "vi": "tiếng Tráng",
+  "th": "ภาษาจ้วง",
+  "hi": "झुआंग",
+  "fr": "zhuang",
+  "it": "zhuang",
+  "es": "zhuang",
+  "pt": "zhuang",
+  "ru": "чжуанский",
+  "uk": "чжуанська",
+  "ar": "الجوانغ",
+  "he": "ז׳ואנג",
+  "sw": "Kizhuang"
+ },
+ "Old Chinese": {
+  "ja": "上古中国語",
+  "ko": "상고 중국어",
+  "zh": "上古汉语",
+  "yue": "上古漢語",
+  "vi": "tiếng Hán thượng cổ",
+  "th": "ภาษาจีนเก่า",
+  "id": "Tionghoa Kuno",
+  "hi": "प्राचीन चीनी",
+  "de": "Altchinesisch",
+  "fr": "chinois archaïque",
+  "it": "cinese antico",
+  "es": "chino antiguo",
+  "pt": "chinês antigo",
+  "ru": "древнекитайский",
+  "uk": "давньокитайська",
+  "ar": "الصينية القديمة",
+  "he": "סינית עתיקה",
+  "sw": "Kichina cha Kale"
+ },
+ "Middle Chinese": {
+  "ja": "中古中国語",
+  "ko": "중고 중국어",
+  "zh": "中古汉语",
+  "yue": "中古漢語",
+  "vi": "tiếng Hán trung cổ",
+  "th": "ภาษาจีนยุคกลาง",
+  "id": "Tionghoa Pertengahan",
+  "hi": "मध्य चीनी",
+  "de": "Mittelchinesisch",
+  "fr": "chinois médiéval",
+  "it": "cinese medio",
+  "es": "chino medio",
+  "pt": "chinês médio",
+  "ru": "среднекитайский",
+  "uk": "середньокитайська",
+  "ar": "الصينية الوسطى",
+  "he": "סינית תיכונה",
+  "sw": "Kichina cha Kati"
+ }
+};
+  for (const [term, tr] of Object.entries(A)) for (const [lang, v] of Object.entries(tr)) {
+    if (!META_I18N_ATOMS[lang]) META_I18N_ATOMS[lang] = {};
+    const cur = META_I18N_ATOMS[lang][term];
+    if (cur === undefined || cur === term) META_I18N_ATOMS[lang][term] = v;
+  }
+})();

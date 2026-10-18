@@ -1437,7 +1437,19 @@
         if (cat === 'speaker') {
             const ui = getUiLang();
             const dict = SPEAKER_TIER_LABELS[ui];
-            return (dict && dict[val]) || val;
+            if (dict && dict[val]) return dict[val];
+            // Other UIs: the locale's own compact numbers (500 тыс.+, 1 Mio.+, elfu 500+)
+            // instead of English K/M (r24).
+            const m = /^(<)?(\d+)([KM]?)\+?$/.exec(val);
+            const base = String(ui).split('_')[0];
+            if (m && base !== 'en') {
+                const n = +m[2] * ({ '': 1, K: 1e3, M: 1e6 })[m[3]];
+                try {
+                    const f = new Intl.NumberFormat(base, { notation: 'compact', compactDisplay: /^(th|sw|vi|id)$/.test(base) ? 'long' : 'short' }).format(n);
+                    return m[1] ? '<' + f : f + '+';
+                } catch (_) {}
+            }
+            return val;
         }
         const ui = getUiLang();
         if (ui === 'en') return val;

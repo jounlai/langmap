@@ -4834,21 +4834,26 @@
             // Audit Task 112: refresh era help tooltip after labels update
             if (typeof updateEraHelp === 'function') updateEraHelp();
             // Refresh Compare UI labels for the current UI lang.
-            try {
-                const fabLbl = document.querySelector('#compare-fab .compare-fab-label');
-                if (fabLbl && typeof compareT === 'function') fabLbl.textContent = compareT('fab');
-                const fabBtn = document.getElementById('compare-fab');
-                if (fabBtn && typeof compareT === 'function') {
-                    fabBtn.setAttribute('aria-label', compareT('fab'));
-                    fabBtn.title = compareT('fab');
-                }
-                const cmpTitle = document.querySelector('#compare-panel .compare-title');
-                if (cmpTitle && typeof compareT === 'function') cmpTitle.textContent = compareT('title');
-                const cmpClear = document.getElementById('compare-clear');
-                if (cmpClear && typeof compareT === 'function') cmpClear.textContent = compareT('clear');
-                const cmpClose = document.getElementById('compare-close');
-                if (cmpClose && typeof compareT === 'function') cmpClose.setAttribute('aria-label', ((typeof i18n === 'function' ? i18n('ariaClose') : 'Close') + ' — ' + compareT('title')));
-            } catch (e) { /* compareT may not yet be defined during early init */ }
+            // Also called once compareT exists (it is defined in a later script,
+            // so this first pass left the English labels; r20).
+            window.__syncCompareLabels = function () {
+                try {
+                    const fabLbl = document.querySelector('#compare-fab .compare-fab-label');
+                    if (fabLbl && typeof compareT === 'function') fabLbl.textContent = compareT('fab');
+                    const fabBtn = document.getElementById('compare-fab');
+                    if (fabBtn && typeof compareT === 'function') {
+                        fabBtn.setAttribute('aria-label', compareT('fab'));
+                        fabBtn.title = compareT('fab');
+                    }
+                    const cmpTitle = document.querySelector('#compare-panel .compare-title');
+                    if (cmpTitle && typeof compareT === 'function') cmpTitle.textContent = compareT('title');
+                    const cmpClear = document.getElementById('compare-clear');
+                    if (cmpClear && typeof compareT === 'function') cmpClear.textContent = compareT('clear');
+                    const cmpClose = document.getElementById('compare-close');
+                    if (cmpClose && typeof compareT === 'function') cmpClose.setAttribute('aria-label', ((typeof i18n === 'function' ? i18n('ariaClose') : 'Close') + ' — ' + compareT('title')));
+                } catch (e) { /* compareT may not yet be defined during early init */ }
+            };
+            window.__syncCompareLabels();
             // Localize trivia button + modal eyebrow + close/restore/expand.
             // On mobile the button sits in the header bar with the hamburger
             // and the qualifier in front of "Trivia/豆知識/토막상식" would
@@ -6497,7 +6502,79 @@
         // Expose a manual cache-clear hook for the console / tests.
         window._wmClearLabelOffsetCache = () => _wmLabelOffsetCache.clear();
 
+        // Web fonts are fetched glyph range by glyph range as labels first need
+        // them, and every face that lands re-lays out the whole map: ~50 times
+        // in a row while a pan or a filter revealed new scripts (r20 perf:
+        // 9 s TBT on a phone). Ask for every face the current word's labels
+        // can need in one idle batch, so they arrive together, up front.
+        let _fontPreKey = '';
+        function preloadLabelFonts(wordId) {
+            if (!document.fonts || !document.fonts.load) return;
+            const key = wordId + '|' + (typeof uiLang !== 'undefined' ? uiLang : '') + '|' + (typeof showHistorical !== 'undefined' && showHistorical ? 'h' : 'm');
+            if (key === _fontPreKey) return;
+            _fontPreKey = key;
+            const run = () => {
+                if (_fontPreKey !== key) return;
+                const seen = new Set();
+                // Only the languages this view can show (the modern map never draws
+                // Tangut or cuneiform; those faces alone were 3 MB).
+                let codes;
+                try { codes = getVisibleLangs(wordId, 20).visibleLangs; } catch (_) { codes = Object.keys(LANG_DATA); }
+                for (const code of codes) {
+                    const lang = LANG_DATA[code], e = lang && lang.words && lang.words[wordId];
+                    let t = '';
+                    try { t = (e ? String(e[0]) + String(e[1]) : '') + getDisplayName(code, lang); } catch (_) {}
+                    for (const ch of t) seen.add(ch);
+                }
+                const sample = document.querySelector('#map .lang-label');
+                const fam = sample ? getComputedStyle(sample).fontFamily : '';
+                if (!fam || !seen.size) return;
+                // fonts.load() would fetch EVERY listed family whose ranges meet the
+                // text (279 files). Pick, per character, the first face in the label
+                // stack that covers it — the one the browser would use — and load
+                // only those (regular and bold).
+                const order = fam.split(',').map((f) => f.trim().replace(/^["']|["']$/g, ''));
+                const byFam = new Map();
+                document.fonts.forEach((f) => {
+                    const fm = f.family.replace(/^["']|["']$/g, '');
+                    if (!order.includes(fm) || f.style !== 'normal' || f.status !== 'unloaded') { if (order.includes(fm)) (byFam.get(fm) || byFam.set(fm, []).get(fm)).push(null); return; }
+                    const rs = f.unicodeRange.split(',').map((r) => { const m = r.trim().replace(/^U\+/i, '').split('-'); const a = parseInt(m[0].replace(/\?/g, '0'), 16), b = m[1] ? parseInt(m[1], 16) : parseInt(m[0].replace(/\?/g, 'F'), 16); return [a, b]; });
+                    (byFam.get(fm) || byFam.set(fm, []).get(fm)).push({ f, rs });
+                });
+                // A character many faces claim (ZWJ, dotted circle, punctuation) makes
+                // the browser try them one after another, a relayout each: load all
+                // of those candidates; for the rest, only the first match.
+                const want = new Set();
+                const ok = (x) => /^(400|700|normal|bold)$/.test(String(x.f.weight));
+                for (const ch of seen) {
+                    const c = ch.codePointAt(0);
+                    if (c < 0x80) continue;   // ASCII: the first slice of the first face, loaded at first paint
+                    // Han/kana/Hangul stay lazy: ~100 slices per CJK face made this
+                    // 6.5 MB, and they render in the viewport's labels anyway.
+                    if ((c >= 0x3040 && c <= 0x30FF) || (c >= 0x3400 && c <= 0x9FFF) || (c >= 0xAC00 && c <= 0xD7AF) || (c >= 0xF900 && c <= 0xFAFF) || c >= 0x20000) continue;
+                    const hits = [];
+                    for (const fm of order) {
+                        const faces = (byFam.get(fm) || []).filter((x) => x && x.rs.some(([a, b]) => c >= a && c <= b));
+                        // The CJK faces also claim Latin, punctuation and symbols; they
+                        // are never reached for those after Gentium / Noto Serif.
+                        if (faces.length && (!hits.length || !/^Noto Serif (JP|SC|TC|KR)$/.test(fm))) hits.push(faces);
+                    }
+                    // ...except Han/kana/Hangul, which all four CJK faces claim: the first
+                    // (JP) has nearly all of them, and the rare misses stay lazy.
+                    const cjk = (c >= 0x3040 && c <= 0x30FF) || (c >= 0x3400 && c <= 0x9FFF) || (c >= 0xAC00 && c <= 0xD7AF) || (c >= 0xF900 && c <= 0xFAFF) || c >= 0x20000;
+                    const use = (hits.length > 2 && !cjk) ? hits : hits.slice(0, 1);
+                    for (const faces of use) for (const x of faces) if (ok(x)) want.add(x.f);
+                }
+                want.forEach((f) => f.load().catch(() => {}));
+            };
+            if (window.requestIdleCallback) requestIdleCallback(run, { timeout: 1500 }); else setTimeout(run, 300);
+        }
         function updateMarkers(wordId) {
+            // Desktop always (the first pan was ~18 s of font relayouts); on a
+            // phone only when every matching label is drawn — a filter or the
+            // historical map — since the batch costs ~3 MB of fonts there.
+            if (window.matchMedia('(min-width: 1025px)').matches || showHistorical
+                || (window.__langmap && typeof window.__langmap.anyFilterActive === 'function' && window.__langmap.anyFilterActive())) preloadLabelFonts(wordId);
             currentWord = wordId;
             updateRouteLegend();
             // Re-measure here rather than only on word switch: a word's data can
@@ -9740,6 +9817,7 @@
                 || (COMPARE_I18N[base] && COMPARE_I18N[base][key])
                 || COMPARE_I18N.en[key];
         }
+        if (window.__syncCompareLabels) setTimeout(window.__syncCompareLabels, 0);
 
         function loadCompareList() {
             // Priority: URL hash → localStorage

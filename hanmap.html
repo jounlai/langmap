@@ -5691,23 +5691,28 @@
             // Audit Task 112: refresh era help tooltip after labels update
             if (typeof updateEraHelp === 'function') updateEraHelp();
             // Refresh Compare UI labels for the current UI lang.
-            try {
-                const fabLbl = document.querySelector('#compare-fab .compare-fab-label');
-                if (fabLbl && typeof compareT === 'function') fabLbl.textContent = compareT('fab');
-                const fabBtn = document.getElementById('compare-fab');
-                if (fabBtn && typeof compareT === 'function') {
-                    fabBtn.setAttribute('aria-label', compareT('fab'));
-                    fabBtn.title = compareT('fab');
-                }
-                const cmpTitle = document.querySelector('#compare-panel .compare-title');
-                if (cmpTitle && typeof compareT === 'function') cmpTitle.textContent = compareT('title');
-                const cmpClear = document.getElementById('compare-clear');
-                if (cmpClear && typeof compareT === 'function') cmpClear.textContent = compareT('clear');
-                const cmpClose = document.getElementById('compare-close');
-                if (cmpClose && typeof compareT === 'function') cmpClose.setAttribute('aria-label', ((typeof i18n === 'function' ? i18n('ariaClose') : 'Close') + ' — ' + compareT('title')));
-                const cmpSimLbl = document.querySelector('.compare-simcolor-label');
-                if (cmpSimLbl && typeof compareT === 'function') cmpSimLbl.textContent = compareT('simcolor');
-            } catch (e) { /* compareT may not yet be defined during early init */ }
+            // Also called once compareT exists (it is defined in a later script,
+            // so this first pass left the English labels; r20).
+            window.__syncCompareLabels = function () {
+                try {
+                    const fabLbl = document.querySelector('#compare-fab .compare-fab-label');
+                    if (fabLbl && typeof compareT === 'function') fabLbl.textContent = compareT('fab');
+                    const fabBtn = document.getElementById('compare-fab');
+                    if (fabBtn && typeof compareT === 'function') {
+                        fabBtn.setAttribute('aria-label', compareT('fab'));
+                        fabBtn.title = compareT('fab');
+                    }
+                    const cmpTitle = document.querySelector('#compare-panel .compare-title');
+                    if (cmpTitle && typeof compareT === 'function') cmpTitle.textContent = compareT('title');
+                    const cmpClear = document.getElementById('compare-clear');
+                    if (cmpClear && typeof compareT === 'function') cmpClear.textContent = compareT('clear');
+                    const cmpClose = document.getElementById('compare-close');
+                    if (cmpClose && typeof compareT === 'function') cmpClose.setAttribute('aria-label', ((typeof i18n === 'function' ? i18n('ariaClose') : 'Close') + ' — ' + compareT('title')));
+                    const cmpSimLbl = document.querySelector('.compare-simcolor-label');
+                    if (cmpSimLbl && typeof compareT === 'function') cmpSimLbl.textContent = compareT('simcolor');
+                } catch (e) { /* compareT may not yet be defined during early init */ }
+            };
+            window.__syncCompareLabels();
             // Localize trivia button + modal eyebrow + close/restore/expand.
             // On mobile the button sits in the header bar with the hamburger
             // and the qualifier in front of "Trivia/豆知識/토막상식" would
@@ -11085,6 +11090,7 @@
                 || (COMPARE_I18N[base] && COMPARE_I18N[base][key])
                 || COMPARE_I18N.en[key];
         }
+        if (window.__syncCompareLabels) setTimeout(window.__syncCompareLabels, 0);
 
         // === Compare-table similarity colorizer (Pass 33) =======================
         // Cluster cells within a single row whose readings are phonologically

@@ -6713,6 +6713,26 @@
             if (window.requestIdleCallback) requestIdleCallback(run, { timeout: 1500 }); else setTimeout(run, 300);
         }
         function updateMarkers(wordId) {
+            // First draw waits for wordmap_meta_lite.js (speaker counts, vitality):
+            // without it the zoom/tier gates cannot thin the labels, so a reload
+            // showed ~130 crowded labels for about a second before the real 84
+            // (owner 2026-10-19: 「一瞬海の上などにぎっしり」). Wait at most 2.5 s, then
+            // draw anyway so a failed load never leaves an empty map.
+            if (!window._wmMetaLoaded && !window.__wmFirstDrawOk) {
+                currentWord = wordId;
+                if (!window.__wmFirstDrawWait) {
+                    window.__wmFirstDrawWait = true;
+                    const go = () => { if (window.__wmFirstDrawOk) return; window.__wmFirstDrawOk = true; try { updateMarkers(currentWord); } catch (_) {} };
+                    // loadMeta lives in a later script block, so it may not exist
+                    // yet: poll the loaded flag instead (the page starts the load).
+                    const t0 = Date.now();
+                    const poll = () => { if (window._wmMetaLoaded || Date.now() - t0 > 2500) go(); else setTimeout(poll, 60); };
+                    try { if (window.__langmap && window.__langmap.loadMeta) window.__langmap.loadMeta().then(go, go); } catch (_) {}
+                    poll();
+                }
+                return;
+            }
+            window.__wmFirstDrawOk = true;
             // A label that has keyboard focus is rebuilt below: put focus back on its
             // new copy, or a redraw (Back, filter, word switch) dropped it to <body> (r26).
             const _focusCode = (() => { const a = document.activeElement; const l = a && a.closest && a.closest('#map .lang-label'); return l ? l.dataset.code : null; })();

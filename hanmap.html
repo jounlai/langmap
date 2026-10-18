@@ -4405,6 +4405,15 @@
                 // An empty hf= came from the bug above, never from a real choice:
                 // treat it as no filter so those links show the map again (r24).
                 if (hf === 'all') { selected = new Set(offered); ancientOn = true; kunOn = true; return; }
+                if (hf === '~anc' || hf === '~kun') {
+                    selected = new Set(offered);
+                    for (const c of KUN_DEFAULT_OFF) selected.delete(c);
+                    for (const c of ANCIENT_DEFAULT_OFF) selected.delete(c);
+                    const grp = hf === '~anc' ? ANCIENT_DEFAULT_OFF : KUN_DEFAULT_OFF;
+                    for (const c of grp) if (offered.has(c)) selected.add(c);
+                    ancientOn = hf === '~anc'; kunOn = hf === '~kun';
+                    return;
+                }
                 if (hf != null && hf !== '') {
                     selected = new Set(hf.split(',').filter(Boolean).filter(c => offered.has(c)));
                     // Seed the 古代語/kun switches from the restored selection
@@ -4499,6 +4508,12 @@
             for (const c of KUN_DEFAULT_OFF) def.delete(c);
             for (const c of ANCIENT_DEFAULT_OFF) def.delete(c);
             if (def.size === selected.size && [...selected].every((c) => def.has(c))) return '';
+            // The default plus one whole group (古代語 or 訓読): a short token, not
+            // 80 codes (a lang= link to a default-hidden language did this, r29).
+            const offered = offeredCodes();
+            const plus = (grp) => { const want = new Set(def); for (const c of grp) if (offered.has(c)) want.add(c); return want.size === selected.size && [...selected].every((c) => want.has(c)); };
+            if (plus(ANCIENT_DEFAULT_OFF)) return HASH_PARAM + '=~anc';
+            if (plus(KUN_DEFAULT_OFF)) return HASH_PARAM + '=~kun';
             return HASH_PARAM + '=' + Array.from(selected).sort().join(',');
         }
 
@@ -8464,11 +8479,40 @@
                 // it the per-label work in the greedy + SA passes would be
                 // re-packed away at uniform height. For a plain label hh equals
                 // the old _bbHalfH, so p.hh+hh == the old _ch (unchanged).
-                const _cw = _bbHalfW * 2;
+                // Each label's real half-width (r29): the fixed box (60% of labelW,
+                // 60-100 px) is narrower than names like "Jianghuai Mandarin
+                // (Yangzhou)", so neighbours printed over each other at every
+                // desktop size. Measured once per label / character / UI / zoom
+                // class in a hidden batch, then cached, so panning costs nothing.
+                const _hwCache = window.__hmLabelW || (window.__hmLabelW = new Map());
+                const _hwKey = '|' + wordId + '|' + (typeof uiLang !== 'undefined' ? uiLang : '') + '|' + map.getContainer().className + '|' + document.body.className + '|' + labelScale;
+                const _hw = {};
+                {
+                    const miss = _rendered.filter(c => !_hwCache.has(c + _hwKey));
+                    if (miss.length) {
+                        try {
+                            const box = document.createElement('div');
+                            box.style.cssText = 'position:absolute;left:-10000px;top:0;visibility:hidden;pointer-events:none';
+                            let h = '';
+                            for (const c of miss) {
+                                const L0 = LANG_DATA[c], una = unattestedSet.has(c), e = L0.words && L0.words[wordId];
+                                h += '<div style="position:absolute;white-space:nowrap">' + buildLabelHtml(c, una ? '—' : e[0], una ? '—' : e[1], getDisplayName(c, L0), una ? '' : hanmapLabelColor(c), una ? 'lang-label unattested' : 'lang-label') + '</div>';
+                            }
+                            box.innerHTML = h;
+                            map.getContainer().appendChild(box);
+                            const kids = box.children;
+                            for (let i = 0; i < miss.length; i++) _hwCache.set(miss[i] + _hwKey, ((kids[i].firstElementChild || kids[i]).offsetWidth) / 2 - 2);
+                            box.remove();
+                            if (_hwCache.size > 4000) _hwCache.clear();
+                        } catch (_) {}
+                    }
+                    for (const c of _rendered) _hw[c] = Math.max(_bbHalfW, _hwCache.get(c + _hwKey) || 0);
+                }
                 const _placed = [];
-                const _free = (x, y, hh) => {
+                const _free = (x, y, hh, hw) => {
+                    hw = hw || _bbHalfW;
                     for (const p of _placed) {
-                        if (Math.abs(p.x - x) < _cw && Math.abs(p.y - y) < (p.hh + hh)) return false;
+                        if (Math.abs(p.x - x) < (p.hw || _bbHalfW) + hw && Math.abs(p.y - y) < (p.hh + hh)) return false;
                     }
                     return true;
                 };
@@ -8570,16 +8614,16 @@
                 // on marks every true location if a reader wants to check.
                 const _rescueR = Math.max(_maxR, Math.min(260, _pxPerDeg * 10));
                 const _placeSolo = (c) => {
-                    const ax = ppx[c].x, ay = ppx[c].y, hh = _hhOf(c);
+                    const ax = ppx[c].x, ay = ppx[c].y, hh = _hhOf(c), hw = _hw[c];
                     const _ringStep = Math.max(4, hh * 0.26);   // ~0.13 * full height
-                    if (_free(ax, ay, hh)) { _placed.push({ x: ax, y: ay, hh }); offsets[c] = { x: 0, y: 0 }; return; }
+                    if (_free(ax, ay, hh, hw)) { _placed.push({ x: ax, y: ay, hh, hw }); offsets[c] = { x: 0, y: 0 }; return; }
                     const _ring = (limit) => {
                         for (let r = _ringStep; r <= limit; r += _ringStep) {
                             const n = Math.max(8, Math.round((2 * Math.PI * r) / _ringStep));
                             for (let k = 0; k < n; k++) {
                                 const rad = (2 * Math.PI * k) / n;
                                 const x = ax + Math.cos(rad) * r, y = ay + Math.sin(rad) * r;
-                                if (_free(x, y, hh)) { _placed.push({ x, y, hh }); offsets[c] = { x: x - ax, y: y - ay }; return true; }
+                                if (_free(x, y, hh, hw)) { _placed.push({ x, y, hh, hw }); offsets[c] = { x: x - ax, y: y - ay }; return true; }
                             }
                         }
                         return false;
@@ -8603,7 +8647,7 @@
                     const hhs = members.map(m => _hhOf(m));
                     let tot = 0; for (const hh of hhs) tot += 2 * hh;
                     const relY = []; { let y = -tot / 2; for (let i = 0; i < members.length; i++) { y += hhs[i]; relY.push(y); y += hhs[i]; } }
-                    const _blockFree = (dy) => relY.every((ry, i) => _free(cxG, cyG + ry + dy, hhs[i]));
+                    const _blockFree = (dy) => relY.every((ry, i) => _free(cxG, cyG + ry + dy, hhs[i], _hw[members[i]]));
                     const _step = Math.max(4, hhs[0] * 0.26);
                     let dy = null;
                     if (_blockFree(0)) dy = 0;
@@ -8616,7 +8660,7 @@
                     for (let i = 0; i < members.length; i++) {
                         const y = cyG + relY[i] + dy;
                         offsets[members[i]] = { x: cxG - ppx[members[i]].x, y: y - ppx[members[i]].y };
-                        _placed.push({ x: cxG, y, hh: hhs[i] });
+                        _placed.push({ x: cxG, y, hh: hhs[i], hw: _hw[members[i]] });
                     }
                 }
             }

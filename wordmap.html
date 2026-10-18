@@ -436,7 +436,8 @@
         @media (min-width: 641px) { .site-header-bar > .chrome-toggle-btn { display: none; } }
         /* ≤400px: the map attribution covered the credit line's right end (the
            Tree link, the only link to the family tree here). Lift it above. */
-        @media (max-width: 400px) { .leaflet-bottom.leaflet-right { margin-bottom: 30px; } }
+        /* (r27) the lift is gone: the credit is now one short link, and lifting the
+           attribution put the two bottom credits on different lines on phones. */
         /* A selected label still shows a real focus ring (outline:none on .selected hid it). */
         .lang-label.selected:focus-visible { outline: 2px solid #1a73e8; outline-offset: 2px; }
         body.is-3d .globe-label .period { color: #ff9d8f; }   /* #c0392b was ~2:1 on the globe */

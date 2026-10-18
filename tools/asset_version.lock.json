@@ -60,8 +60,8 @@
     "files": 1
   },
   "metaI18nCoverage3": {
-    "version": 4,
-    "hash": "8e6662c4fa9ee865",
+    "version": 5,
+    "hash": "889d268ad2d4b3f8",
     "files": 1
   },
   "metaI18nEngine": {
@@ -70,8 +70,8 @@
     "files": 1
   },
   "metaI18nUi": {
-    "version": 3,
-    "hash": "818492bf908583dd",
+    "version": 4,
+    "hash": "7e1d2c66003667a6",
     "files": 18
   },
   "triviaI18n": {

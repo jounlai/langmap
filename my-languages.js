@@ -421,6 +421,7 @@
             '.mylang-back:hover{background:rgba(90,140,220,.14)}',
             '.mylang-back svg{width:16px;height:16px}',
             '.mylang-x{background:none;border:0;font-size:22px;line-height:1;cursor:pointer;color:inherit;opacity:.6;flex:none;min-width:32px;min-height:32px;display:inline-flex;align-items:center;justify-content:center;margin:-6px}',
+            '.mylang-x:hover,.mylang-x:focus-visible{opacity:1}',
             '.mylang-x:hover{opacity:1}',
             '.mylang-body{padding:14px 16px;display:flex;flex-direction:column;gap:12px}',
             '.mylang-intro{font-size:13px;line-height:1.55;opacity:.72;margin:-2px 0 2px}',

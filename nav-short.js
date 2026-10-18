@@ -250,15 +250,37 @@
     document.addEventListener('pointerdown', function (e) { var m = e.target && e.target.closest && e.target.closest('.leaflet-container'); if (m) m.setAttribute('data-ptr', ''); }, true);
     document.addEventListener('keydown', function (e) { if (e.key === 'Tab' || /^Arrow/.test(e.key)) { var ms = document.querySelectorAll('.leaflet-container[data-ptr]'); for (var i = 0; i < ms.length; i++) ms[i].removeAttribute('data-ptr'); } }, true);
     // "Made by" credit on the map pages follows <html lang> (it was English everywhere, r18).
-    var CREDIT_BY = { en:'Made by', ja:'制作:', ko:'제작:', zh:'制作:', yue:'製作:', zh_hk:'製作:', vi:'Thực hiện bởi', th:'สร้างโดย', id:'Dibuat oleh', hi:'निर्माता:', de:'Erstellt von', fr:'Créé par', it:'Creato da', es:'Creado por', pt:'Criado por', ru:'Создано', uk:'Створено', ar:'من إعداد', he:'נוצר על ידי', sw:'Imeundwa na' };
+    var CREDIT_BY = { en:'Made by', ja:'制作：', ko:'제작:', zh:'制作：', yue:'製作：', zh_hk:'製作：', vi:'Thực hiện bởi', th:'สร้างโดย', id:'Dibuat oleh', hi:'निर्माता:', de:'Erstellt von', fr:'Créé par', it:'Creato da', es:'Creado por', pt:'Criado por', ru:'Создано', uk:'Створено', ar:'من إعداد', he:'נוצר על ידי', sw:'Imeundwa na' };
     function syncCredit() {
         var l = String(document.documentElement.lang || 'en').toLowerCase().replace('-', '_');
         var v = CREDIT_BY[l] || CREDIT_BY[l.split('_')[0]] || CREDIT_BY.en;
         var els = document.querySelectorAll('.credit-by');
-        for (var i = 0; i < els.length; i++) if (els[i].textContent !== v) els[i].textContent = v;
+        for (var i = 0; i < els.length; i++) {
+            if (els[i].textContent !== v) els[i].textContent = v;
+            // ar/he read the strip right to left (credit first); the names stay LTR (styles.css).
+            var wm = els[i].closest('.url-watermark');
+            if (wm) { var d = /^(ar|he)/.test(l) ? 'rtl' : ''; if (wm.getAttribute('dir') !== (d || null)) { if (d) wm.setAttribute('dir', d); else wm.removeAttribute('dir'); } }
+        }
     }
-    new MutationObserver(syncCredit).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
-    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', syncCredit); else syncCredit();
+    // Browser-tab title in the UI language (the English <title> stays for en,
+    // which is what crawlers see).
+    var TITLE_BY = {
+        wordmap: {ja:"単語マップ",ko:"단어 맵",zh:"词汇地图",yue:"詞彙地圖",vi:"Bản đồ từ",th:"แผนที่คำ",id:"Peta Kata",hi:"शब्द मानचित्र",en:"Word Map",de:"Wortkarte",fr:"Carte des mots",it:"Mappa parole",es:"Mapa de palabras",pt:"Mapa de palavras",ru:"Карта слов",uk:"Карта слів",ar:"خريطة الكلمات",he:"מפת מילים",sw:"Ramani ya maneno"},
+        hanmap: {ja:"漢字マップ",ko:"한자 맵",zh:"汉字地图",yue:"漢字地圖",vi:"Bản đồ Hán tự",th:"แผนที่ตัวอักษร",id:"Peta Hanzi",hi:"हान्ज़ी मानचित्र",en:"HanMap",de:"HanMap",fr:"Carte des hanzi",it:"Mappa hanzi",es:"Mapa de hanzi",pt:"Mapa de hanzi",ru:"Карта иероглифов",uk:"Карта ієрогліфів",ar:"خريطة الحروف",he:"מפת תווים",sw:"Ramani ya hanzi"},
+        namemap: {ja:"名前マップ",ko:"이름 맵",zh:"姓名地图",yue:"姓名地圖",vi:"Bản đồ tên",th:"แผนที่ชื่อ",id:"Peta Nama",hi:"नाम मानचित्र",en:"Name Map",de:"Namenskarte",fr:"Carte des prénoms",it:"Mappa dei nomi",es:"Mapa de nombres",pt:"Mapa de nomes",ru:"Карта имён",uk:"Карта імен",ar:"خريطة الأسماء",he:"מפת שמות",sw:"Ramani ya majina"},
+        timemap: {en:"Time Map",ja:"暦マップ",ko:"달력 맵",zh:"历法地图",yue:"曆法地圖",vi:"Bản đồ lịch",th:"แผนที่ปฏิทิน",id:"Peta Kalender",hi:"कैलेंडर मानचित्र",de:"Kalenderkarte",fr:"Carte des calendriers",it:"Mappa dei calendari",es:"Mapa de calendarios",pt:"Mapa de calendários",ru:"Карта календарей",uk:"Карта календарів",ar:"خريطة التقاويم",he:"מפת לוחות שנה",sw:"Ramani ya kalenda"}
+    };
+    var _pageKey = (location.pathname.match(/(wordmap|hanmap|namemap|timemap)(\.html)?\/?$/) || [])[1];
+    var _origTitle = document.title;
+    function syncTitle() {
+        if (!_pageKey) return;
+        var l = String(document.documentElement.lang || 'en').toLowerCase().replace('-', '_'), b = l.split('_')[0];
+        var m = TITLE_BY[_pageKey], v = m[l] || m[b];
+        var t = (b === 'en' || !v) ? _origTitle : 'LangMap — ' + v;
+        if (document.title !== t) document.title = t;
+    }
+    new MutationObserver(function () { syncCredit(); syncTitle(); }).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function () { syncCredit(); syncTitle(); }); else { syncCredit(); syncTitle(); }
     // Tapping the dimmed backdrop closes the drawer (namemap and timemap had
     // no outside-click handler of their own).
     document.addEventListener('click', function (e) {

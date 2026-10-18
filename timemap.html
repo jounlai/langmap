@@ -62,7 +62,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=156">
+    <link rel="stylesheet" href="styles.css?v=157">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -334,7 +334,7 @@
         @media (min-width: 641px) { .tm-map-ctl:not(:has(> .chrome-toggle-btn))::before { content: ''; height: 40px; } }
         #tm-era { min-height: 20px; }
 </style>
-    <script src="nav-short.js?v=23"></script>
+    <script src="nav-short.js?v=24"></script>
 </head>
 <body>
     <header class="site-header-bar">
@@ -769,7 +769,7 @@
             if(e.key!=='Escape' || !SHEET_MQ.matches || !document.getElementById('tm-panel').classList.contains('info-open')) return;
             // Something on top (settings popover, a share dialog) takes it first.
             const pop=document.getElementById('tm-settings-pop');
-            if((pop && !pop.hasAttribute('hidden')) || document.querySelector('[aria-modal="true"]')) return;
+            if((pop && !pop.hasAttribute('hidden')) || document.querySelector('[aria-modal="true"]:not(#tm-info)')) return;
             e.stopImmediatePropagation(); closeInfoSheet();
         }, true);
         // Escape closes an open calendar popup (Leaflet only listens when the map
@@ -777,11 +777,23 @@
         // the popover / sheet / dialogs above it take the key first.
         window.addEventListener('keydown', e=>{
             if(e.key!=='Escape' || e.defaultPrevented || !map || !openId || !markers[openId] || !markers[openId].isPopupOpen()) return;
-            if(document.querySelector('[aria-modal="true"]') || (SHEET_MQ.matches && document.getElementById('tm-panel').classList.contains('info-open'))) return;
+            if(document.querySelector('[aria-modal="true"]:not(#tm-info)') || (SHEET_MQ.matches && document.getElementById('tm-panel').classList.contains('info-open'))) return;
             map.closePopup();   // popupclose hands focus back to the marker when it was in the popup
         });
         // A closed sheet is only moved off-screen: keep its 50 rows out of the Tab order.
-        function syncSheetInert(){ const info=document.getElementById('tm-info'); if(info) info.inert = SHEET_MQ.matches && !document.getElementById('tm-panel').classList.contains('info-open'); }
+        function syncSheetInert(){
+            const info=document.getElementById('tm-info'); if(!info) return;
+            const isSheet=SHEET_MQ.matches, open=isSheet && document.getElementById('tm-panel').classList.contains('info-open');
+            info.inert = isSheet && !open;
+            // An open sheet is modal (it dims the page): dialog semantics, and
+            // everything outside its ancestor chain leaves the Tab order.
+            if(open){ info.setAttribute('role','dialog'); info.setAttribute('aria-modal','true'); info.setAttribute('aria-labelledby','tm-details-btn'); }
+            else ['role','aria-modal','aria-labelledby'].forEach(a=>info.removeAttribute(a));
+            document.querySelectorAll('[data-sheet-inert]').forEach(el=>{ el.inert=false; el.removeAttribute('data-sheet-inert'); });
+            if(open) for(let n=info; n && n!==document.body; n=n.parentElement){
+                for(const sib of n.parentElement.children){ if(sib!==n && !sib.inert && sib.tagName!=='SCRIPT' && sib.tagName!=='STYLE'){ sib.inert=true; sib.setAttribute('data-sheet-inert',''); } }
+            }
+        }
         SHEET_MQ.addEventListener && SHEET_MQ.addEventListener('change', syncSheetInert);
         function placeChromeToggle(){
             const btn=document.getElementById('chrome-toggle'), ctl=document.getElementById('tm-map-ctl');

@@ -48,11 +48,12 @@ const TARGETS = [
   // links, so index → hub → article is an ordinary two-hop internal path rather
   // than the sitemap-only discovery this file was written to avoid.
   //
-  // wordmap.html and hanmap.html keep their blocks, where the list is topical
-  // (30 and 40) rather than the whole catalogue — but the same UI objection
-  // applies to them and they should probably go the same way.
-  { file: 'wordmap.html', maps: ['wordmap'], label: '読み物（言語学の記事）' },
-  { file: 'hanmap.html', maps: ['hanmap'], label: '読み物（文字と漢字音の記事）' },
+  // wordmap.html and hanmap.html kept their blocks, where the list was topical
+  // (30 and 40) rather than the whole catalogue.
+  //
+  // 2026-10-18 (rally r20): they went the same way. The Japanese-only label
+  // and article titles were read out by screen readers in every UI language,
+  // and the footer's Trivia link already reaches the same /en/trivia/ hub.
 ];
 
 const esc = (s) => String(s)

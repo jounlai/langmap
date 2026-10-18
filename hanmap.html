@@ -92,7 +92,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=156">
+    <link rel="stylesheet" href="styles.css?v=157">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -335,14 +335,6 @@
             src: url('fonts/HanaMinExC-hanmap.woff2') format('woff2');
             unicode-range: U+2B233;
         }
-            /* Crawlable article index in the footer. Collapsed for readers,
-           but the links are in the HTML source so crawlers reach every
-           /{ui}/trivia/{slug} page without running the modal. */
-        .trivia-index-seo { margin: 10px auto 0; max-width: 62rem; text-align: start; }
-        .trivia-index-seo > summary { cursor: pointer; text-align: center; }
-        .trivia-index-seo ul { columns: 2 18rem; gap: 1.5rem;
-            list-style: none; padding: 8px 0 0; margin: 0; }
-        .trivia-index-seo li { break-inside: avoid; margin: 0 0 4px; }
         /* Desktop: the chrome toggle is moved out of the header by script;
            hidden there until then so the nav does not slide (rally r5). */
         @media (min-width: 641px) { .site-header-bar > .chrome-toggle-btn { display: none; } }
@@ -497,7 +489,7 @@
                    uppercase transform so English labels fit too. */
                 text-transform: none;
                 word-break: keep-all;
-                overflow-wrap: anywhere;   /* de/ru labels spilled into the grid (r18) */
+                overflow-wrap: break-word; hyphens: auto; -webkit-hyphens: auto;   /* de/ru labels spilled into the grid (r18); no mid-word cut (r20) */
                 hyphens: auto;
             }
             .char-category .char-grid {
@@ -649,7 +641,7 @@
             font-size: 8px; padding: 3px 6px; text-align: center;
             overflow: hidden; text-overflow: ellipsis;
         }
-        .radio-switch-v .radio-opt:not(:last-child)::after {
+        .radio-switch.radio-switch-v .radio-opt:not(:last-child)::after {   /* beats the later horizontal divider rule (r20) */
             content: none;
         }
         .radio-switch-v .radio-opt + .radio-opt {
@@ -1210,7 +1202,7 @@
         .lang-info-panel table { width: 100%; border-collapse: collapse; margin-bottom: 10px; }
         .lang-info-panel td { padding: 4px 0; padding-inline-end: 10px; vertical-align: middle; }
         /* Labels wrap (de/sw "Mpangilio wa Maneno" pushed the table past the panel, r18). */
-        .lang-info-panel td:first-child { font-weight: 600; color: #555; width: 90px; overflow-wrap: anywhere; padding-inline-end: 14px; }
+        .lang-info-panel td:first-child { font-weight: 600; color: #555; width: 90px; overflow-wrap: break-word; hyphens: auto; -webkit-hyphens: auto; padding-inline-end: 14px; }
         .lang-info-panel .desc { color: #444; font-size: 14px; line-height: 1.6; }
         /* Audit Task 129: RTL/bidi isolation for Arabic/Hebrew/Perso-Arabic
            word cells. unicode-bidi:isolate prevents RTL text from reordering
@@ -2842,7 +2834,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=23"></script>
+    <script src="nav-short.js?v=24"></script>
 </head>
 <body>
     <div id="pg-live" role="status" aria-live="polite" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap"></div>
@@ -3165,8 +3157,20 @@
             if (!fab || !drawer) return;
             const r = fab.getBoundingClientRect();
             if (r.height === 0) return; // not yet rendered
+            // Short landscape phone: nothing fits below the gear, so open the
+            // drawer beside the control column, from just under the header (r20).
+            const _need = drawer.scrollHeight || 0, _hdr = document.querySelector('.site-header-bar');
+            if (_need && window.innerHeight < 500 && window.innerWidth > window.innerHeight && r.left > 160
+                && window.innerHeight - 24 - (r.bottom + 6) < _need) {
+                const t = (_hdr ? _hdr.getBoundingClientRect().bottom : 8) + 6;
+                drawer.style.top = t + 'px';
+                drawer.style.right = (window.innerWidth - r.left + 6) + 'px';
+                drawer.style.maxHeight = Math.max(80, window.innerHeight - 24 - t) + 'px';
+                return;
+            }
             drawer.style.top   = (r.bottom + 6) + 'px';
             drawer.style.right = Math.max(8, window.innerWidth - r.right) + 'px';
+            drawer.style.maxHeight = Math.max(80, window.innerHeight - 24 - (r.bottom + 6)) + 'px';
         }
         positionSettingsDrawer();
         window.addEventListener('resize', positionSettingsDrawer);
@@ -3488,8 +3492,8 @@
         }
     })();
     </script>
-    <script src="wordmap_data.js?v=343"></script>
-    <script src="hanmap_data.js?v=190"></script>
+    <script src="wordmap_data.js?v=344"></script>
+    <script src="hanmap_data.js?v=191"></script>
     <script>
         // Hanmap stubs: replace the per-word loader. wordmap.html loads
         // ~20 individual JS files under words/<id>.js (one per concept) and
@@ -5967,6 +5971,7 @@
                     const {char: cChar} = senseSplitId(ch);
                     btn.innerHTML = escapeHtml(cChar);
                     btn.title = senseLabelOf(ch, uiLang) || ch;
+                    if (window.__hmCharLabel) window.__hmCharLabel();
                 }
                 if (select.value !== ch) select.value = ch;
                 renderSenseTabs(ch);
@@ -9000,6 +9005,9 @@
         // screen for 30-70 presses); re-evaluated whenever the view settles.
         function syncLabelTabs() {
             const mapEl = document.getElementById('map'), mr = mapEl.getBoundingClientRect();
+            // All reads first, then the writes: a tabIndex write between two
+            // elementFromPoint calls forced a fresh layout per label (r20 perf).
+            const want = [];
             document.querySelectorAll('#map .lang-label[role="button"]').forEach((l) => {
                 if (l.dataset.pcov) return;   // the panel-cover guard owns it while covered
                 const r = l.getBoundingClientRect();
@@ -9007,12 +9015,13 @@
                 // ...and not painted over by the header, controls or footer (r19).
                 let inside = r.width && cx > mr.left && cx < mr.right && cy > mr.top && cy < mr.bottom;
                 if (inside) { const hit = document.elementFromPoint(cx, cy); inside = !!(hit && mapEl.contains(hit)); }
-                const want = inside ? 0 : -1;
-                if (l.tabIndex !== want && l !== document.activeElement) l.tabIndex = want;
+                want.push([l, inside ? 0 : -1]);
             });
+            for (const [l, w] of want) if (l.tabIndex !== w && l !== document.activeElement) l.tabIndex = w;
         }
         let _labTabT = null;
-        map.on('moveend zoomend layeradd', () => { clearTimeout(_labTabT); _labTabT = setTimeout(syncLabelTabs, 120); });
+        const _idle = window.requestIdleCallback ? (f) => requestIdleCallback(f, { timeout: 500 }) : (f) => f();
+        map.on('moveend zoomend layeradd', () => { clearTimeout(_labTabT); _labTabT = setTimeout(() => _idle(syncLabelTabs), 120); });
         map.on('moveend', () => {
             updateHash();
             scheduleConnectorUpdate();
@@ -9159,10 +9168,15 @@
         // `var`, not `let`: updateConnectorLine first runs during the initial
         // updateMarkers(), before this point is reached.
         var _PCOV_Q = 'a[href],button,input,select,textarea,summary,[tabindex]:not([tabindex="-1"])';
-        var _pcovRaf = 0, _pcovKey = '', _pcovT = 0, _pcovLast = 0;
+        var _pcovRaf = 0, _pcovKey = '', _pcovT = 0, _pcovLast = 0, _pcovMoving = false;
         function _pcovPanels() {
             // Also a compact trivia article: it stops being modal but still paints over the map (r19).
-            return ['lang-info', 'compare-panel', 'trivia-modal'].map((id) => document.getElementById(id)).filter((p) => p && p.classList.contains('visible') && (p.id !== 'trivia-modal' || p.classList.contains('compact')));
+            const ps = ['lang-info', 'compare-panel', 'trivia-modal'].map((id) => document.getElementById(id)).filter((p) => p && p.classList.contains('visible') && (p.id !== 'trivia-modal' || p.classList.contains('compact')));
+            // Non-modal floating panels paint over the map too: the filter panel
+            // (Word Map) and the dialect legend (Han Map) (r20).
+            const lf = document.querySelector('.lf-panel.open'); if (lf) ps.push(lf);
+            const lg = document.getElementById('dialect-legend-panel'); if (lg && !lg.hidden) ps.push(lg);
+            return ps;
         }
         function _pcovVisible(e) {
             if (e.checkVisibility) return e.checkVisibility({ visibilityProperty: true, opacityProperty: true });
@@ -9214,19 +9228,37 @@
             if (refocus) { const c = refocus.querySelector('#info-close') || refocus.querySelector('.compare-close') || refocus.querySelector('button'); if (c) c.focus({ preventScroll: true }); }
         }
         function syncPanelCover() {
-            const key = _pcovPanels().map((p) => p.id).join();
+            const key = _pcovPanels().map((p) => p.id || p.className).join();
             if (key !== _pcovKey) {
                 _pcovKey = key; _pcovRelease();   // synchronous: close paths restore focus on the next line
                 cancelAnimationFrame(_pcovRaf); _pcovRaf = 0; clearTimeout(_pcovT); _pcovT = 0;
                 if (key) _pcovRaf = requestAnimationFrame(() => _pcovApply(false));
+                // Labels judged hidden while an overlay covered them get their Tab stop back (r20).
+                if (typeof syncLabelTabs === 'function') setTimeout(syncLabelTabs, 450);
                 return;
             }
-            if (!key || _pcovRaf || _pcovT) return;
+            if (!key || _pcovRaf || _pcovT || _pcovMoving) return;   // map passes wait for moveend (r20 perf)
             const wait = Math.max(0, 200 - (Date.now() - _pcovLast));
             _pcovT = setTimeout(() => { _pcovT = 0; _pcovRaf = requestAnimationFrame(() => _pcovApply(true)); }, wait);
         }
         window.addEventListener('resize', () => { if (_pcovKey) { cancelAnimationFrame(_pcovRaf); _pcovRaf = requestAnimationFrame(() => _pcovApply(false)); } });
         ['lang-info', 'compare-panel', 'trivia-modal'].forEach((id) => { const p = document.getElementById(id); if (p) new MutationObserver(syncPanelCover).observe(p, { attributes: true, attributeFilter: ['class'] }); });
+        // The filter panel and the legend have no observer: re-check the open
+        // set after any click or key that might have opened or closed one.
+        const _pcovKeyNow = () => _pcovPanels().map((p) => p.id || p.className).join();
+        ['click', 'keyup'].forEach((t) => document.addEventListener(t, () => requestAnimationFrame(() => { if (_pcovKeyNow() !== _pcovKey) syncPanelCover(); }), true));
+        // The compact trivia box slides into place (0.35 s): measure again where it lands.
+        { const tm = document.getElementById('trivia-modal'); if (tm) tm.addEventListener('transitionend', (e) => { if (e.target.parentElement !== tm && e.target !== tm) return; if (_pcovKey && !_pcovRaf) _pcovRaf = requestAnimationFrame(() => _pcovApply(false)); }); }
+        // The page is a fixed, non-scrolling app; Tab into the footer scrolls
+        // body to reach it. Scroll back once focus leaves the footer, or the
+        // header stayed cut off (r20).
+        document.addEventListener('focusin', (e) => {
+            if (e.target.closest && e.target.closest('footer')) return;
+            const reset = () => { for (const el of [document.body, document.documentElement]) if (el.scrollTop) el.scrollTop = 0; };
+            reset(); requestAnimationFrame(reset);   // focus() scrolls into view after focusin
+        });
+        map.on('movestart', () => { _pcovMoving = true; });
+        map.on('moveend', () => { _pcovMoving = false; syncPanelCover(); });
         function updateConnectorLine() {
             syncPanelCover();
             const ip = _infoPanel();
@@ -9530,6 +9562,12 @@
         // (万/亿/억) when the value is large; falls back to the legacy
         // m.speakers prose if the structure is unrecognizable.
         const SC_RANGE_SEP = { ja: '〜', ko: '~', en: '–' };
+        // Part labels for "L1 …, L2 …, total …" (same wording as the basis labels).
+        const SC_PART_LBL = {
+            L1:    {en:'L1',ja:'母語',ko:'모어',zh:'母语',yue:'母語',vi:'tiếng mẹ đẻ',th:'ภาษาแม่',id:'L1',hi:'मातृभाषा',de:'L1',fr:'L1',it:'L1',es:'L1',pt:'L1',ru:'родной язык',uk:'рідна мова',ar:'اللغة الأم',he:'שפת אם',sw:'L1'},
+            L2:    {en:'L2',ja:'第二言語',ko:'제2언어',zh:'第二语言',yue:'第二語言',vi:'ngôn ngữ thứ hai',th:'ภาษาที่สอง',id:'L2',hi:'दूसरी भाषा',de:'L2',fr:'L2',it:'L2',es:'L2',pt:'L2',ru:'второй язык',uk:'друга мова',ar:'اللغة الثانية',he:'שפה שנייה',sw:'L2'},
+            total: {en:'total',ja:'合計',ko:'합계',zh:'合计',yue:'合計',vi:'tổng',th:'รวม',id:'total',hi:'कुल',de:'gesamt',fr:'total',it:'totale',es:'total',pt:'total',ru:'всего',uk:'усього',ar:'إجمالي',he:'סה"כ',sw:'jumla'},
+        };
         const SC_VITALITY_LBL = {
             'extinct':                { en:'extinct',                ja:'死語',          ko:'사어',           zh:'已灭绝',     yue:'已滅絕',     vi:'đã tuyệt chủng',         th:'สูญพันธุ์',                id:'punah',                 hi:'विलुप्त',                de:'ausgestorben',     fr:'éteinte',                it:'estinta',           es:'extinta',             pt:'extinta',          ru:'мёртвый',                  uk:'мертва',                 ar:'منقرضة',           he:'נכחדה',         sw:'imepotea' },
             'critically-endangered':  { en:'critically endangered',  ja:'極めて深刻な危機', ko:'심각한 위기',     zh:'极度濒危',   yue:'極度瀕危',   vi:'cực kỳ nguy cấp',        th:'ใกล้สูญพันธุ์อย่างยิ่ง', id:'sangat terancam punah', hi:'गंभीर रूप से संकटग्रस्त',  de:'akut bedroht',     fr:'en danger critique',     it:'in grave pericolo', es:'en peligro crítico',  pt:'criticamente ameaçada', ru:'на грани вымирания',     uk:'на межі вимирання',      ar:'مهددة بالانقراض الشديد', he:'בסכנת הכחדה חמורה', sw:'hatari kubwa sana' },
@@ -9564,6 +9602,12 @@
                 if (n >= 1_0000)      return trim(n / 1_0000, 1) + '万';
                 return n.toLocaleString('zh-CN');
             }
+            // European UIs: the locale's own millions/billions word and decimal comma
+            // (1,43 Mio. / 1,43 млн), not the English "1.43M".
+            const compactLoc = { de:'de-DE', fr:'fr-FR', it:'it-IT', es:'es-ES', pt:'pt-BR', ru:'ru-RU', uk:'uk-UA' }[ui];
+            if (compactLoc && n >= 1_000_000) {
+                try { return new Intl.NumberFormat(compactLoc, { notation: 'compact', maximumFractionDigits: 2 }).format(n); } catch (_) {}
+            }
             if (n >= 1_000_000_000) return trim(n / 1_000_000_000, 2) + 'B';
             if (n >= 1_000_000)     return trim(n / 1_000_000, 2) + 'M';
             const localeMap = { vi:'vi-VN', th:'th-TH', id:'id-ID', hi:'hi-IN', de:'de-DE', fr:'fr-FR', it:'it-IT', es:'es-ES', pt:'pt-BR', ru:'ru-RU', uk:'uk-UA', ar:'ar', he:'he-IL', sw:'sw' };
@@ -9579,10 +9623,11 @@
             } else if (sc.l1RangeMin != null && sc.l1RangeMax != null) {
                 mainStr = formatSpeakerNumber(sc.l1RangeMin, ui) + sep + formatSpeakerNumber(sc.l1RangeMax, ui);
             } else if (sc.l1 != null && (sc.l2 != null || sc.total != null)) {
-                const parts = ['L1 ' + formatSpeakerNumber(sc.l1, ui)];
-                if (sc.l2 != null)    parts.push('L2 ' + formatSpeakerNumber(sc.l2, ui));
-                if (sc.total != null) parts.push(formatSpeakerNumber(sc.total, ui) + ' total');
-                mainStr = parts.join(', ');
+                const lbl = (k) => SC_PART_LBL[k][ui] || SC_PART_LBL[k].en;
+                const parts = [lbl('L1') + ' ' + formatSpeakerNumber(sc.l1, ui)];
+                if (sc.l2 != null)    parts.push(lbl('L2') + ' ' + formatSpeakerNumber(sc.l2, ui));
+                if (sc.total != null) parts.push(lbl('total') + ' ' + formatSpeakerNumber(sc.total, ui));
+                mainStr = parts.join(ui === 'ja' || ui === 'zh' || ui === 'yue' ? '、' : ', ');
             } else if (sc.l1 != null) {
                 mainStr = formatSpeakerNumber(sc.l1, ui);
             } else if (sc.total != null) {
@@ -9844,7 +9889,23 @@
                 }
                 // HAN_LANG_META family/region are English, speakers Japanese prose
                 // (約630万人 (香港人口88.2%)): translate / reformat for other UIs (r18).
-                const _tm1 = v => (uiBase !== 'en' && typeof translateMetaSmart === 'function') ? (translateMetaSmart(v, uiLang) || v) : v;
+                // Whole-value matches only: the word-by-word fallback produced salad
+                // ("满洲（东北 中国）", "北部 中国、Yellow River basin") (r20). A " / " list
+                // is translated only when every item has its own entry.
+                const _tmExact = (v) => {
+                    for (const k of [uiLang, uiBase]) {
+                        const d = (typeof META_I18N !== 'undefined' && META_I18N[k]) || {}, at = (typeof META_I18N_ATOMS !== 'undefined' && META_I18N_ATOMS[k]) || {};
+                        if (d[v]) return d[v]; if (at[v]) return at[v];
+                    }
+                    return null;
+                };
+                const _tm1 = v => {
+                    if (uiBase === 'en' || !v) return v;
+                    const x = _tmExact(v); if (x) return x;
+                    const parts = String(v).split(' / ');
+                    if (parts.length > 1) { const t = parts.map(_tmExact); if (t.every(Boolean)) return t.join(' / '); }
+                    return v;
+                };
                 const _tm = v => String(v).split(' > ').map(_tm1).join(' > ');   // family paths: translate each level
                 const _JA_NOTE = /[\u3041-\u3096\u30A1-\u30FA]|\u95B2\u89A7|\u82F1\u8A9E\u7248/u;   // kana, 閲覧, 英語版
                 const _CJK = /[\u3041-\u3096\u30A1-\u30FA\u3400-\u9FFF]/u;
@@ -9853,6 +9914,9 @@
                     ['歴史言語 / 現代話者なし', { en:'Historical language — no living speakers', ko:'역사 언어 — 현대 화자 없음', zh:'历史语言 — 无现代使用者', yue:'歷史語言 — 冇現代使用者', vi:'Ngôn ngữ lịch sử — không còn người nói', th:'ภาษาในประวัติศาสตร์ — ไม่มีผู้พูดในปัจจุบัน', id:'Bahasa historis — tanpa penutur kini', hi:'ऐतिहासिक भाषा — कोई वर्तमान वक्ता नहीं', de:'Historische Sprache — keine heutigen Sprecher', fr:'Langue historique — aucun locuteur actuel', it:'Lingua storica — nessun parlante attuale', es:'Lengua histórica — sin hablantes actuales', pt:'Língua histórica — sem falantes atuais', ru:'Историческая форма — без современных носителей', uk:'Історична мова — без сучасних носіїв', ar:'لغة تاريخية — بلا ناطقين حاليين', he:'שפה היסטורית — אין דוברים כיום', sw:'Lugha ya kihistoria — hakuna wasemaji wa sasa' }],
                     ['歴史言語 / 推定不可', { en:'Historical language — no estimate possible', ko:'역사 언어 — 추정 불가', zh:'历史语言 — 无法估计', yue:'歷史語言 — 無法估計', vi:'Ngôn ngữ lịch sử — không thể ước tính', th:'ภาษาในประวัติศาสตร์ — ประมาณไม่ได้', id:'Bahasa historis — tak dapat diperkirakan', hi:'ऐतिहासिक भाषा — अनुमान संभव नहीं', de:'Historische Sprache — nicht schätzbar', fr:'Langue historique — estimation impossible', it:'Lingua storica — stima impossibile', es:'Lengua histórica — sin estimación posible', pt:'Língua histórica — estimativa impossível', ru:'Историческая форма — оценка невозможна', uk:'Історична мова — оцінка неможлива', ar:'لغة تاريخية — لا يمكن التقدير', he:'שפה היסטורית — אין הערכה', sw:'Lugha ya kihistoria — haikadiriki' }],
                     ['文字体系 / 話者数該当なし', { en:'Writing system — speaker count does not apply', ko:'문자 체계 — 화자 수 해당 없음', zh:'文字系统 — 不适用使用人口', yue:'文字系統 — 唔適用使用人口', vi:'Hệ chữ viết — không áp dụng số người nói', th:'ระบบอักษร — ไม่มีจำนวนผู้พูด', id:'Sistem tulisan — jumlah penutur tidak berlaku', hi:'लिपि — वक्ता संख्या लागू नहीं', de:'Schriftsystem — keine Sprecherzahl', fr:'Système d\'écriture — sans nombre de locuteurs', it:'Sistema di scrittura — numero di parlanti non applicabile', es:'Sistema de escritura — sin número de hablantes', pt:'Sistema de escrita — sem número de falantes', ru:'Письменность — число носителей неприменимо', uk:'Писемність — кількість носіїв не застосовна', ar:'نظام كتابة — لا ينطبق عدد الناطقين', he:'מערכת כתב — מספר דוברים אינו רלוונטי', sw:'Mfumo wa maandishi — idadi ya wasemaji haihusiki' }],
+                    ['(no published count)', { en:'(no published count)', ko:'(공표된 수치 없음)', zh:'(无公开数据)', yue:'(冇公開數字)', vi:'(chưa có số liệu công bố)', th:'(ไม่มีตัวเลขที่เผยแพร่)', id:'(tak ada angka terbitan)', hi:'(कोई प्रकाशित संख्या नहीं)', de:'(keine veröffentlichte Zahl)', fr:'(aucun chiffre publié)', it:'(nessun dato pubblicato)', es:'(sin cifra publicada)', pt:'(sem número publicado)', ru:'(нет опубликованных данных)', uk:'(немає опублікованих даних)', ar:'(لا يوجد رقم منشور)', he:'(אין נתון שפורסם)', sw:'(hakuna idadi iliyochapishwa)' }],
+                    ['数千人', { en:'a few thousand', ko:'수천 명', zh:'数千人', yue:'數千人', vi:'vài nghìn', th:'หลายพันคน', id:'beberapa ribu', hi:'कुछ हज़ार', de:'einige Tausend', fr:'quelques milliers', it:'alcune migliaia', es:'unos miles', pt:'alguns milhares', ru:'несколько тысяч', uk:'кілька тисяч', ar:'بضعة آلاف', he:'כמה אלפים', sw:'elfu kadhaa' }],
+                    ['＋ 欧州ディアスポラ多数', { en:'+ a large diaspora in Europe', ko:'+ 유럽의 많은 이주민', zh:'+ 欧洲大量侨民', yue:'+ 歐洲大量僑民', vi:'+ đông đảo kiều dân ở châu Âu', th:'+ ชุมชนพลัดถิ่นจำนวนมากในยุโรป', id:'+ diaspora besar di Eropa', hi:'+ यूरोप में बड़ा प्रवासी समुदाय', de:'+ große Diaspora in Europa', fr:'+ importante diaspora en Europe', it:'+ ampia diaspora in Europa', es:'+ amplia diáspora en Europa', pt:'+ grande diáspora na Europa', ru:'+ большая диаспора в Европе', uk:'+ велика діаспора в Європі', ar:'+ جالية كبيرة في أوروبا', he:'+ פזורה גדולה באירופה', sw:'+ diaspora kubwa barani Ulaya' }],
                     ['不明', { en:'Unknown', ko:'불명', zh:'不明', yue:'不明', vi:'Không rõ', th:'ไม่ทราบ', id:'Tidak diketahui', hi:'अज्ञात', de:'Unbekannt', fr:'Inconnu', it:'Sconosciuto', es:'Desconocido', pt:'Desconhecido', ru:'Неизвестно', uk:'Невідомо', ar:'غير معروف', he:'לא ידוע', sw:'Haijulikani' }],
                 ];
                 const _spk = v => {
@@ -9906,7 +9970,7 @@
                         ru: 'Носители', uk: 'Носії',
                         ar: 'الناطقون', he: 'דוברים', sw: 'Wasemaji',
                     }[uiBase] || 'Speakers';
-                    const _src = hanMeta.speakersSource ? (uiBase === 'ja' ? String(hanMeta.speakersSource) : (() => { const segs = String(hanMeta.speakersSource).replace(/\s*[(\uFF08][^()\uFF08\uFF09]*[)\uFF09]/gu, m => _JA_NOTE.test(m) ? '' : m).split(/\s*[\/\uFF0F]\s*/).filter(x => x && !/\u95B2\u89A7/u.test(x)); const keep = segs.filter(x => !_JA_NOTE.test(x)); return (keep.length ? keep : segs).join(' / ').replace(/\u300C([^\u300D]*)\u300D/gu, (m, x) => (/^(zh|yue|ko)$/.test(uiBase) ? m : ' “' + x + '”')).trim(); })()) : '';
+                    const _src = hanMeta.speakersSource ? (uiBase === 'ja' ? String(hanMeta.speakersSource) : (() => { const segs = String(hanMeta.speakersSource).replace(/\s*[(\uFF08][^()\uFF08\uFF09]*[)\uFF09]/gu, m => _JA_NOTE.test(m) ? '' : m).split(/\s*[\/\uFF0F]\s*/).filter(x => x && !/\u95B2\u89A7/u.test(x)); const keep = segs.map(x => x.replace(/\s+[\u2014\u2013-]\s+.*$/u, m => _JA_NOTE.test(m) ? '' : m)).filter(x => x && !_JA_NOTE.test(x)); return keep.join(' / ').replace(/\u300C([^\u300D]*)\u300D/gu, (m, x) => (/^(zh|yue|ko)$/.test(uiBase) ? m : ' “' + x + '”')).trim(); })()) : '';
                     const srcPart = _src
                         ? ` <span style="color:#6b6b6b">(${escapeHtml(_src)})</span>`
                         : '';
@@ -12861,55 +12925,8 @@
     })();
     </script>
     </main>
-    <footer style="text-align:center;padding:16px 12px;font-size:12px;color:#666;border-top:1px solid #e6e6ef;margin-top:24px">
-        <span lang="ja">全言語インデックス:</span> <a href="/en/wordmap/" style="color:#4178bc">Word Map</a> · <a href="/en/hanmap/" style="color:#4178bc">Han Map</a> · <a href="/en/trivia/" style="color:#4178bc">Trivia</a>
-<!-- TRIVIA-INDEX:START -->
-<details class="trivia-index-seo" lang="ja">
-<summary>読み物（文字と漢字音の記事） (40)</summary>
-<ul>
-<li><a href="/en/trivia/kanbun-yomi-invention" title="How Japan Kept 訓読み: Reading Chinese Characters with Native Words"><span aria-hidden="true">📜</span> 訓読みが生き残った国：漢字に大和言葉を当てた1300年</a></li>
-<li><a href="/en/trivia/kanbun-kaeriten-system" title="返り点: How Japan Reads Chinese Texts Backwards into Japanese"><span aria-hidden="true">🔢</span> 返り点——漢文をひっくり返して日本語に読む技法</a></li>
-<li><a href="/en/trivia/tangut-3000-syllables" title="Tangut Script: 6,000 Characters for the Tangut Language"><span aria-hidden="true">𗼇</span> 西夏文字：漢字に見せかけた6000字の謎</a></li>
-<li><a href="/en/trivia/khitan-large-small-scripts" title="Khitan Large and Small Scripts: Two Writing Systems for Khitan"><span aria-hidden="true">𰀀</span> 契丹大字と小字：ひとつの言語に生まれた2種類の文字</a></li>
-<li><a href="/en/trivia/phagspa-universal-script" title="Phags-pa Script: A Yuan-Dynasty Multilingual Alphabet"><span aria-hidden="true">🔡</span> 八思巴字——クビライ・ハンの「万国共通文字」</a></li>
-<li><a href="/en/trivia/hangul-sinosphere-context" title="King Sejong and the Creation of Hangul"><span aria-hidden="true">📜</span> なぜ世宗大王は漢字支配の時代にハングルを作ったのか</a></li>
-<li><a href="/en/trivia/chu-nom-vietnam-script" title="Chữ Nôm — A Vietnamese Han-Character Writing Tradition"><span aria-hidden="true">📜</span> 字喃（チュノム）——植民地化が消した、ベトナムの二万字</a></li>
-<li><a href="/en/trivia/quoc-ngu-rhodes" title="Quốc Ngữ and Alexandre de Rhodes's 1651 Dictionary"><span aria-hidden="true">✍️</span> 1651年のイエズス会士の辞書がベトナムに新しいアルファベットをもたらした理由</a></li>
-<li><a href="/en/trivia/go-on-kan-on-to-on" title="Go-on, Kan-on and Tō-on: Three Sino-Japanese Reading Layers"><span aria-hidden="true">📜</span> 呉音・漢音・唐音 — なぜ一つの漢字に三種の音読みがあるのか</a></li>
-<li><a href="/en/trivia/min-nan-wenbai" title="Min Nan Literary and Colloquial Readings"><span aria-hidden="true">🗣️</span> 閩南語の文白異読 — 同じ漢字にある二つの読み</a></li>
-<li><a href="/en/trivia/korean-toumeop-rule" title="The Head-Sound Rule: Why 六 Is 육 in Seoul but 륙 in Pyongyang"><span aria-hidden="true">🔤</span> 頭音法則：なぜ「六」は南で육、北で륙なのか</a></li>
-<li><a href="/en/trivia/japanese-go-on-bias" title="Why Buddhist Japanese Sounds Different: The 呉音 (Go-on) Bias"><span aria-hidden="true">🕌</span> 仏教語はなぜ呉音か：「経」がkyōで「業」がgōの理由</a></li>
-<li><a href="/en/trivia/kokuji-japan-made-chars" title="Kokuji: Han Characters Invented in Japan"><span aria-hidden="true">🗾</span> 国字：日本で作られた漢字</a></li>
-<li><a href="/en/trivia/korea-kuk-ja" title="Korea's Own Han Characters: Rare but Real"><span aria-hidden="true">🇰🇷</span> 韓国固有漢字：少ないが確かに存在する</a></li>
-<li><a href="/en/trivia/naxi-dongba-living-pictograms" title="Dongba Script: A Pictographic Tradition of the Naxi"><span aria-hidden="true">🖼️</span> 東巴文字：世界唯一の現存する絵文字体系</a></li>
-<li><a href="/en/trivia/yi-syllabary" title="Yi Script: From 8,000 Pictographs to 819 Official Syllables"><span aria-hidden="true">📜</span> 彝文：8000の象形文字から819の公式音節へ</a></li>
-<li><a href="/en/trivia/zhuang-sawndip-script" title="Sawndip: The Thousand-Year Han-Derived Script of the Zhuang People"><span aria-hidden="true">🪨</span> 古壯字（方塊壯字）：漢字を借りたチワン族千年の文字</a></li>
-<li><a href="/en/trivia/bai-language-script" title="Bai Script: The Han-Character Vehicle for an Unclassified Language"><span aria-hidden="true">🏔</span> 白文：帰属不明の言語を担う漢字文字</a></li>
-<li><a href="/en/trivia/wenzhou-devils-tongue" title="Wenzhou Wu — A Distinct Wu Variety"><span aria-hidden="true">👻</span> 温州語——「鬼話」と恐れられた方言</a></li>
-<li><a href="/en/trivia/hakka-diaspora-language" title="Hakka — A Sinitic Variety with a Global Diaspora"><span aria-hidden="true">🌏</span> 客家語——世界に散らばった「客人」たちの言語</a></li>
-<li><a href="/en/trivia/sino-vietnamese-han-viet" title="Hán-Việt: A Tang-Period Chinese Loan Layer in Vietnamese"><span aria-hidden="true">🎵</span> 漢越語：ベトナム語に残る唐代の中国語借用層</a></li>
-<li><a href="/en/trivia/sino-korean-versus-sino-japanese" title="Comparing Han-Character Readings in Four Languages"><span aria-hidden="true">🔀</span> 一つの漢字が語る四つの音——日本語・朝鮮語・ベトナム語・中国語</a></li>
-<li><a href="/en/trivia/simplified-chinese-1956" title="Chinese Character Simplification and Script Reform"><span aria-hidden="true">✂️</span> 大簡化——中国の文字改革はいかに行われたか</a></li>
-<li><a href="/en/trivia/japanese-shinjitai-postwar" title="Japan's Parallel Simplification: Shinjitai and Postwar Kanji Reform"><span aria-hidden="true">📜</span> 日本の並行簡化——新字体と戦後漢字改革</a></li>
-<li><a href="/en/trivia/ducai-yuan-zhongyuan-yinyun" title="Zhōngyuán Yīnyùn: Yuan-Era Opera and Early Mandarin Phonology"><span aria-hidden="true">🎭</span> 中原音韻 — 元代の戯曲の中で生まれた近代マンダリン</a></li>
-<li><a href="/en/trivia/phags-pa-as-hangul-origin" title="Did Phags-pa Script Influence Hangul?"><span aria-hidden="true">ꡛ</span> ハングルは八思巴字に着想したのか — 60年続く言語学の謎</a></li>
-<li><a href="/en/trivia/manchu-script-origins" title="Manchu Script and Its Aramaic-to-Uyghur Lineage"><span aria-hidden="true">📜</span> 満洲文字 — 五つの文明を渡った文字</a></li>
-<li><a href="/en/trivia/old-mongol-uyghur-script" title="Why Mongolians write in two different scripts"><span aria-hidden="true">🐎</span> なぜモンゴル人は二つの文字を使うのか</a></li>
-<li><a href="/en/trivia/jurchen-script-deciphered" title="Jurchen Script — A Partly Deciphered Jin-Dynasty Writing System"><span aria-hidden="true">📜</span> 女真文字 — 800年の謎、いまだ部分的にしか読めない</a></li>
-<li><a href="/en/trivia/yale-mc-tonal-categories" title="From Four Tone Categories to Modern Sinitic Tone Systems"><span aria-hidden="true">🎵</span> 4声が9声に — 中古漢語が分裂した声調の森</a></li>
-<li><a href="/en/trivia/old-chinese-baxter-sagart" title="Old Chinese Reconstruction: From Karlgren to Baxter-Sagart 2014"><span aria-hidden="true">🪨</span> 上古漢語の再建：カールグレンからバクスター＝サガールまで</a></li>
-<li><a href="/en/trivia/sino-tibetan-cognates" title="Sino-Tibetan Cognates: How 五 and Tibetan ལྔ Share the Same Root"><span aria-hidden="true">🏔</span> 漢蔵語族の同源語：なぜ「五」とチベット語ལྔは同じ語根を持つのか</a></li>
-<li><a href="/en/trivia/ko-mid-eastguk-jeongun" title="東國正韻 — A Prescriptive Sino-Korean Pronunciation Dictionary"><span aria-hidden="true">📜</span> 東國正韻 — 誰も実際に使わなかった理想の漢字音</a></li>
-<li><a href="/en/trivia/kokugo-versus-kango" title="和語・漢語・外来語 — Japan's Three-Layer Vocabulary"><span aria-hidden="true">📖</span> 和語・漢語・外来語 — 日本語の三層語彙</a></li>
-<li><a href="/en/trivia/tang-empire-multilingual-coins" title="One Coin, Four Readings: The Tang Dynasty's Multilingual Currency"><span aria-hidden="true">🪙</span> 一枚の銅銭、四つの読み方：唐の開元通寶が繋いだ世界</a></li>
-<li><a href="/en/trivia/korean-eumhun-tradition" title="물 수 (水): Why Korea Teaches Chinese Characters with Native Korean Glosses"><span aria-hidden="true">📖</span> 물 수（水）：韓国が漢字を固有語の訓で教える理由</a></li>
-<li><a href="/en/trivia/cantonese-script-uniquely" title="Cantonese Characters in Written 粵語白話文"><span aria-hidden="true">🀄</span> 普通話にない文字：粤語だけの漢字</a></li>
-<li><a href="/en/trivia/shanghainese-ipa-wugniu" title="Wugniu: Romanisation for Shanghainese Three-Way Stop Contrasts"><span aria-hidden="true">🔊</span> 呉語拼音（吳語拼音）：上海語の三者対立を救うローマ字</a></li>
-<li><a href="/en/trivia/pan-sinosphere-counting" title="Counting from 1 to 10 Across the Sinosphere"><span aria-hidden="true">🔢</span> 「一」の百通りの読み方――漢字圏の数詞を徹底比較</a></li>
-<li><a href="/en/trivia/tea-tea-cha-cha" title="Tea and Chai: Two Transmission Pathways for 茶"><span aria-hidden="true">🍵</span> 「茶」の二つの語形——海路と陸路に沿った伝播</a></li>
-</ul>
-</details>
-<!-- TRIVIA-INDEX:END -->
+    <footer style="text-align:center;padding:16px 12px 64px;font-size:12px;color:#666;border-top:1px solid #e6e6ef;margin-top:24px">
+        <a href="/en/wordmap/" style="color:#4178bc">Word Map</a> · <a href="/en/hanmap/" style="color:#4178bc">Han Map</a> · <a href="/en/trivia/" style="color:#4178bc">Trivia</a>
     </footer>
     <!-- ============================================================
          "Reading quiz" — Han-character pronunciation quiz. Two formats:
@@ -13045,7 +13062,9 @@
 }
 /* Landscape phones (r19): two columns so all five options show without an inner scroll. */
 @media (max-height: 420px) and (orientation: landscape) {
-  #lm-hquiz-box div:has(> .hq-opt) { display: grid !important; grid-template-columns: 1fr 1fr; gap: 4px; }
+  #lm-hquiz-box div:has(> .hq-opt) { display: grid !important; grid-template-columns: 1fr 1fr; gap: 4px; align-content: safe center; }
+  #lm-hquiz-box .hq-prompt { grid-column: 1 / -1; }
+  #lm-hquiz-box .hq-opt { padding-inline: 32px !important; }
   #lm-hquiz-box .hq-opt { min-height: 34px !important; margin: 0 !important; font-size: 16px !important; }
   #lm-hquiz-box .hq-prompt { margin-bottom: 4px !important; }
 }`);

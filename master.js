@@ -28,6 +28,12 @@
     var FB = 'en';
     function ui() { var g = window.__langmap && window.__langmap.uiLang; return g || FB; }
     function pk(m) { var u = ui(); return m[u] || m[u.split('_')[0]] || m[FB]; }
+    function pn(key, n) {
+        var u = ui(), b = u.split('_')[0], c = 'other';
+        try { c = new Intl.PluralRules(b).select(n); } catch (e) {}
+        var m = T[key + '_' + c], v = m && (m[u] || m[b]);
+        return (v || pk(T[key])).replace('{n}', n);
+    }
 
     var T = {
         title: {en:'Language Master', ja:'言語マスター', ko:'언어 마스터', zh:'语言大师', yue:'語言大師', vi:'Bậc thầy ngôn ngữ', th:'เซียนภาษา', id:'Master Bahasa', hi:'भाषा मास्टर', de:'Sprachmeister', fr:'Maître des langues', it:'Maestro di lingue', es:'Maestro de idiomas', pt:'Mestre de idiomas', ru:'Мастер языка', uk:'Майстер мови', ar:'سيّد اللغة', he:'אלוף השפה', sw:'Bingwa wa Lugha'},
@@ -36,6 +42,15 @@
         brag: {en:'Show off my badges', ja:'バッジを自慢する', ko:'배지 자랑하기', zh:'炫耀我的徽章', yue:'晒吓我嘅徽章', vi:'Khoe huy hiệu', th:'อวดเหรียญตรา', id:'Pamerkan lencanaku', hi:'मेरे बैज दिखाएँ', de:'Abzeichen zeigen', fr:'Montrer mes badges', it:'Mostra i miei distintivi', es:'Presumir mis insignias', pt:'Exibir meus selos', ru:'Похвастаться значками', uk:'Похизуватися значками', ar:'تباهَ بشاراتي', he:'להשוויץ בתגים', sw:'Onyesha beji zangu'},
         collection: {en:'My badge collection', ja:'バッジコレクション', ko:'배지 컬렉션', zh:'我的徽章收藏', yue:'我嘅徽章收藏', vi:'Bộ sưu tập huy hiệu', th:'คอลเลกชันเหรียญตรา', id:'Koleksi lencanaku', hi:'मेरा बैज संग्रह', de:'Meine Abzeichen', fr:'Ma collection de badges', it:'I miei distintivi', es:'Mi colección de insignias', pt:'Minha coleção de selos', ru:'Моя коллекция значков', uk:'Моя колекція значків', ar:'مجموعة شاراتي', he:'אוסף התגים שלי', sw:'Mkusanyiko wa beji zangu'},
         count: {en:'{n} languages mastered', ja:'{n}言語をマスター', ko:'{n}개 언어 마스터', zh:'已掌握 {n} 种语言', yue:'搞掂咗 {n} 種語言', vi:'Đã thành thạo {n} ngôn ngữ', th:'เป็นเซียน {n} ภาษา', id:'{n} bahasa dikuasai', hi:'{n} भाषाएँ मास्टर', de:'{n} Sprachen gemeistert', fr:'{n} langues maîtrisées', it:'{n} lingue padroneggiate', es:'{n} idiomas dominados', pt:'{n} idiomas dominados', ru:'Освоено языков: {n}', uk:'Опановано мов: {n}', ar:'أتقنت {n} لغة', he:'{n} שפות נשלטו', sw:'Lugha {n} zimemudu'},
+        // Plural variants: pn() picks key_<Intl plural category> when the UI has one.
+        count_one: {en:'{n} language mastered', de:'{n} Sprache gemeistert', fr:'{n} langue maîtrisée', es:'{n} idioma dominado', pt:'{n} idioma dominado', it:'{n} lingua padroneggiata', ar:'أتقنت لغة واحدة', he:'שפה אחת נשלטה'},
+        count_two: {ar:'أتقنت لغتين', he:'שתי שפות נשלטו'},
+        count_few: {ar:'أتقنت {n} لغات'},
+        shareText_one: {en:'I mastered 1 language in LangMap’s Language Master! 🏅', de:'Ich habe im LangMap-Sprachmeister 1 Sprache gemeistert! 🏅', fr:'J’ai maîtrisé 1 langue dans Maître des langues de LangMap ! 🏅', es:'¡Dominé 1 idioma en Maestro de idiomas de LangMap! 🏅', pt:'Dominei 1 idioma no Mestre de idiomas do LangMap! 🏅', it:'Ho padroneggiato 1 lingua in Maestro di lingue di LangMap! 🏅', ru:'Я освоил(а) {n} язык в «Мастере языка» LangMap! 🏅', uk:'Я опанував(ла) {n} мову у «Майстрі мови» LangMap! 🏅', ar:'أتقنت لغة واحدة في لعبة سيّد اللغة على LangMap! 🏅', he:'שלטתי בשפה אחת באלוף השפה של LangMap! 🏅'},
+        shareText_two: {ar:'أتقنت لغتين في لعبة سيّد اللغة على LangMap! 🏅', he:'שלטתי בשתי שפות באלוף השפה של LangMap! 🏅'},
+        shareText_few: {ru:'Я освоил(а) {n} языка в «Мастере языка» LangMap! 🏅', uk:'Я опанував(ла) {n} мови у «Майстрі мови» LangMap! 🏅', ar:'أتقنت {n} لغات في لعبة سيّد اللغة على LangMap! 🏅'},
+        shareText_other: {ru:'Я освоил(а) {n} языка в «Мастере языка» LangMap! 🏅', uk:'Я опанував(ла) {n} мови у «Майстрі мови» LangMap! 🏅'},
+        mapOn_one: {en:'Showing your mastered language', de:'Deine gemeisterte Sprache', fr:'Votre langue maîtrisée', es:'Mostrando tu idioma dominado', pt:'Mostrando seu idioma dominado', it:'La tua lingua padroneggiata', he:'מוצגת השפה שנשלטה'},
         shareImg: {en:'Share as image', ja:'画像でシェア', ko:'이미지로 공유', zh:'以图片分享', yue:'用圖片分享', vi:'Chia sẻ dạng ảnh', th:'แชร์เป็นรูปภาพ', id:'Bagikan sebagai gambar', hi:'छवि के रूप में साझा करें', de:'Als Bild teilen', fr:'Partager en image', it:'Condividi come immagine', es:'Compartir como imagen', pt:'Compartilhar como imagem', ru:'Поделиться картинкой', uk:'Поділитися зображенням', ar:'شارك كصورة', he:'שיתוף כתמונה', sw:'Shiriki kama picha'},
         save: {en:'Download image', ja:'画像を保存', ko:'이미지 저장', zh:'保存图片', yue:'儲存圖片', vi:'Tải ảnh', th:'บันทึกรูปภาพ', id:'Unduh gambar', hi:'छवि डाउनलोड करें', de:'Bild speichern', fr:'Télécharger l’image', it:'Scarica immagine', es:'Descargar imagen', pt:'Baixar imagem', ru:'Скачать картинку', uk:'Завантажити зображення', ar:'تنزيل الصورة', he:'הורדת תמונה', sw:'Pakua picha'},
         shareText: {en:'I mastered {n} languages in LangMap’s Language Master! 🏅', ja:'LangMapの言語マスターで{n}言語をマスターしました！🏅', ko:'LangMap 언어 마스터에서 {n}개 언어를 마스터했어요! 🏅', zh:'我在 LangMap 的语言大师里掌握了 {n} 种语言！🏅', yue:'我喺 LangMap 語言大師搞掂咗 {n} 種語言！🏅', vi:'Mình đã thành thạo {n} ngôn ngữ trong Language Master của LangMap! 🏅', th:'ฉันเป็นเซียน {n} ภาษาในเกมเซียนภาษาของ LangMap! 🏅', id:'Aku menguasai {n} bahasa di Master Bahasa LangMap! 🏅', hi:'मैंने LangMap के भाषा मास्टर में {n} भाषाएँ मास्टर कीं! 🏅', de:'Ich habe im LangMap-Sprachmeister {n} Sprachen gemeistert! 🏅', fr:'J’ai maîtrisé {n} langues dans Maître des langues de LangMap ! 🏅', it:'Ho padroneggiato {n} lingue in Maestro di lingue di LangMap! 🏅', es:'¡Dominé {n} idiomas en Maestro de idiomas de LangMap! 🏅', pt:'Dominei {n} idiomas no Mestre de idiomas do LangMap! 🏅', ru:'Я освоил(а) {n} языков в «Мастере языка» LangMap! 🏅', uk:'Я опанував(ла) {n} мов у «Майстрі мови» LangMap! 🏅', ar:'أتقنت {n} لغة في لعبة سيّد اللغة على LangMap! 🏅', he:'שלטתי ב-{n} שפות באלוף השפה של LangMap! 🏅', sw:'Nimekuwa bingwa wa lugha {n} kwenye Bingwa wa Lugha wa LangMap! 🏅'},
@@ -577,7 +592,7 @@
         var codes = Object.keys(loadBadges());
         header('🏅 ' + codes.length);
         box.appendChild(el('div', 'font-weight:800;font-size:17px;flex:none', esc(pk(T.collection))));
-        box.appendChild(el('div', 'color:#667;font-size:13px;margin-bottom:6px;flex:none', esc(pk(T.count).replace('{n}', codes.length))));
+        box.appendChild(el('div', 'color:#667;font-size:13px;margin-bottom:6px;flex:none', esc(pn('count', codes.length))));
         var mid = el('div', 'flex:1;min-height:0;overflow-y:auto');
         grouped(codes).forEach(function (gr) {
             mid.appendChild(el('div', 'font-size:12px;font-weight:700;color:#5f6673;margin:10px 0 4px;border-bottom:1px solid #eef0f3;padding-bottom:2px', esc(famLabel(gr.fam)) + ' · ' + gr.codes.length));
@@ -605,7 +620,7 @@
         box.appendChild(btn(pk(T.back), false, function () { state.screen = 'pick'; render(); }, 'Backspace'));
     }
     function shareUrl() { return 'https://langmaps.com/wordmap.html#play=master'; }
-    function shareText() { return pk(T.shareText).replace('{n}', Object.keys(loadBadges()).length); }
+    function shareText() { return pn('shareText', Object.keys(loadBadges()).length); }
     // The share card: drawn with canvas primitives (no SVG images), grouped by
     // family like the collection screen.
     function cardBlob(done) {
@@ -620,7 +635,7 @@
         x.fillStyle = '#fbf8f1'; x.fillRect(0, 0, W, cv.height);
         x.fillStyle = '#1b2a44'; x.textAlign = 'center';
         x.font = '800 64px ' + FONT; x.fillText('🏅 ' + pk(T.title), W / 2, 110);
-        x.font = '600 36px ' + FONT; x.fillStyle = '#8a5a00'; x.fillText(pk(T.count).replace('{n}', Object.keys(loadBadges()).length), W / 2, 170);
+        x.font = '600 36px ' + FONT; x.fillStyle = '#8a5a00'; x.fillText(pn('count', Object.keys(loadBadges()).length), W / 2, 170);
         var y = 240;
         groups.forEach(function (g) {
             x.textAlign = 'left'; x.fillStyle = '#5f6673'; x.font = '700 28px ' + FONT;
@@ -688,7 +703,7 @@
         if (pill) { pill.remove(); pill = null; }
         if (!on) return;
         pill = el('div', 'position:fixed;left:50%;transform:translateX(-50%);bottom:28px;z-index:100001;background:#fff8e6;color:#8a5a00;border:1px solid #f0c36d;border-radius:999px;padding:8px 10px 8px 16px;box-shadow:0 4px 16px rgba(0,0,0,.15);display:flex;align-items:center;gap:10px;font-weight:700;font-size:14px;font-family:' + serifStack().replace(/"/g, "'"),
-            '<span>🏅 ' + esc(pk(T.mapOn).replace('{n}', codes.length)) + '</span>');
+            '<span>🏅 ' + esc(pn('mapOn', codes.length)) + '</span>');
         var x = el('button', 'border:0;border-radius:999px;background:#8a5a00;color:#fff;font-weight:700;font-size:13px;padding:5px 12px;cursor:pointer', esc(pk(T.exit)) + kbd('Esc'));
         x.type = 'button'; x.addEventListener('click', function () { mapMode(false); });
         pill.appendChild(x); document.body.appendChild(pill);

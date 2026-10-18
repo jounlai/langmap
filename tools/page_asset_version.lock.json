@@ -1,23 +1,23 @@
 {
   "app.js": {
-    "version": 96,
-    "hash": "400aa914b68119d8"
+    "version": 97,
+    "hash": "9fcd5257a2129ccc"
   },
   "data.js": {
     "version": 92,
     "hash": "af605212ac66624c"
   },
   "hanmap_data.js": {
-    "version": 190,
-    "hash": "72192b8804294d3b"
+    "version": 191,
+    "hash": "eb3f89a1a275397b"
   },
   "hanmap_trivia_rt/base.js": {
     "version": 2,
     "hash": "aa03d6c05a4b3504"
   },
   "lang-filter.js": {
-    "version": 53,
-    "hash": "7d16e4fe4fd187a2"
+    "version": 54,
+    "hash": "0e660e5cac79ff1b"
   },
   "lang-picker.js": {
     "version": 8,
@@ -32,12 +32,12 @@
     "hash": "f432bf4317c25936"
   },
   "master.js": {
-    "version": 20,
-    "hash": "40b21b013ca7082d"
+    "version": 21,
+    "hash": "da9dc2c9fa694ecc"
   },
   "my-languages.js": {
-    "version": 34,
-    "hash": "88e8de3d7709ca49"
+    "version": 35,
+    "hash": "0a849b719e30f728"
   },
   "namemap_data.js": {
     "version": 9,
@@ -56,8 +56,8 @@
     "hash": "13754e5759677c52"
   },
   "nav-short.js": {
-    "version": 23,
-    "hash": "3a5c9730befa1610"
+    "version": 24,
+    "hash": "0c4944c2af3aeafc"
   },
   "poster_geo.js": {
     "version": 12,
@@ -72,8 +72,8 @@
     "hash": "86181f3bf041494a"
   },
   "progress_data.js": {
-    "version": 228,
-    "hash": "af68d4d4591a1512"
+    "version": 229,
+    "hash": "5980fdbe85372f05"
   },
   "pwa.js": {
     "version": 2,
@@ -84,8 +84,8 @@
     "hash": "a8212694df6a93fa"
   },
   "styles.css": {
-    "version": 156,
-    "hash": "755cc075184f445c"
+    "version": 157,
+    "hash": "1c2a0bf72d6d48f6"
   },
   "timemap_calendars.js": {
     "version": 15,
@@ -100,7 +100,7 @@
     "hash": "99fafa5b03aba24a"
   },
   "wordmap_data.js": {
-    "version": 343,
-    "hash": "5fe669c20d3bebd1"
+    "version": 344,
+    "hash": "22f4ec421f5dc8ca"
   }
 }

@@ -1882,3 +1882,9 @@ button.seg-delete-btn { background: none; color: #767676; }
 /* The sentence map can be 1200px wide: on touch screens and narrow windows
    scroll it instead of widening the page (landscape phones). */
 .map-wrapper { overflow-x: auto; }   /* drags are clamped, so it can scroll at every width (1101-1199px scrolled the page) */
+
+/* Index language modal: the big-text link's focus ring sat outside its box and
+   under the next row's pill; keep it inside, rounded like the pill (r20). */
+.lang-seo-link { border-radius: 6px; }
+.lang-seo-link:focus-visible { outline-offset: -2px; }
+.url-watermark[dir="rtl"] a { direction: ltr; unicode-bidi: isolate; }

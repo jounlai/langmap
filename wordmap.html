@@ -87,7 +87,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=156">
+    <link rel="stylesheet" href="styles.css?v=157">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts. Without these the characters render
          as tofu boxes: desktop Linux often ships the Noto historic fonts, but
@@ -412,14 +412,6 @@
             src: url('fonts/NotoSerifTangut-subset.woff2') format('woff2');
             unicode-range: U+17000-18AFF;
         }
-            /* Crawlable article index in the footer. Collapsed for readers,
-           but the links are in the HTML source so crawlers reach every
-           /{ui}/trivia/{slug} page without running the modal. */
-        .trivia-index-seo { margin: 10px auto 0; max-width: 62rem; text-align: left; }
-        .trivia-index-seo > summary { cursor: pointer; text-align: center; }
-        .trivia-index-seo ul { columns: 2 18rem; gap: 1.5rem;
-            list-style: none; padding: 8px 0 0; margin: 0; }
-        .trivia-index-seo li { break-inside: avoid; margin: 0 0 4px; }
         /* Desktop: the chrome toggle is moved out of the header by script;
            hidden there until then so the nav does not slide (rally r5). */
         @media (min-width: 641px) { .site-header-bar > .chrome-toggle-btn { display: none; } }
@@ -849,7 +841,7 @@
             font-size: 8px; padding: 3px 6px; text-align: center;
             overflow: hidden; text-overflow: ellipsis;
         }
-        .radio-switch-v .radio-opt:not(:last-child)::after {
+        .radio-switch.radio-switch-v .radio-opt:not(:last-child)::after {   /* beats the later horizontal divider rule (r20) */
             content: none;
         }
         .radio-switch-v .radio-opt + .radio-opt {
@@ -1520,7 +1512,7 @@
         .lang-info-panel table { width: 100%; border-collapse: collapse; margin-bottom: 10px; }
         .lang-info-panel td { padding: 4px 0; padding-inline-end: 10px; vertical-align: middle; }
         /* Labels wrap (de/sw "Mpangilio wa Maneno" pushed the table past the panel, r18). */
-        .lang-info-panel td:first-child { font-weight: 600; color: #555; width: 90px; overflow-wrap: anywhere; padding-inline-end: 14px; }
+        .lang-info-panel td:first-child { font-weight: 600; color: #555; width: 90px; overflow-wrap: break-word; hyphens: auto; -webkit-hyphens: auto; padding-inline-end: 14px; }
         /* The word section is a three-column table — concept | word |
            pronunciation — with a header row, so the IPA keeps its own column
            aligned under the 発音/転写 header. Cells are vertically centred and the
@@ -3043,7 +3035,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=23"></script>
+    <script src="nav-short.js?v=24"></script>
 </head>
 <body>
     <div id="pg-live" role="status" aria-live="polite" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap"></div>
@@ -3365,6 +3357,17 @@
             if (!fab || !drawer) return;
             const r = fab.getBoundingClientRect();
             if (r.height === 0) return; // not yet rendered
+            // Short landscape phone: nothing fits below the gear, so open the
+            // drawer beside the control column, from just under the header (r20).
+            const _need = drawer.scrollHeight || 0, _hdr = document.querySelector('.site-header-bar');
+            if (_need && window.innerHeight < 500 && window.innerWidth > window.innerHeight && r.left > 160
+                && window.innerHeight - 24 - (r.bottom + 6) < _need) {
+                const t = (_hdr ? _hdr.getBoundingClientRect().bottom : 8) + 6;
+                drawer.style.top = t + 'px';
+                drawer.style.right = (window.innerWidth - r.left + 6) + 'px';
+                drawer.style.maxHeight = Math.max(80, window.innerHeight - 24 - t) + 'px';
+                return;
+            }
             drawer.style.right = Math.max(8, window.innerWidth - r.right) + 'px';
             // Keep the drawer clear of the 比較 button. Both are position:fixed
             // at z-index 1015, so on a short window the drawer's lower controls
@@ -3724,7 +3727,7 @@
         }
     })();
     </script>
-    <script src="wordmap_data.js?v=343"></script>
+    <script src="wordmap_data.js?v=344"></script>
     <script src="word_manifest.js?v=961"></script>
     <script src="word_labels.js?v=69"></script>
     <script>
@@ -3746,10 +3749,10 @@
            per-word loader can read it", which was the intent all along — only
            the order was wrong. */
         const WM_ASSET_VERSION = {
-            styles:   156,
-            data:      343,
+            styles:   157,
+            data:      344,
             metaI18n:  16,
-            filter:    53,
+            filter:    54,
             names:   203,
             meta:     418,
             trivia:   44,
@@ -3891,7 +3894,7 @@
          loaded. Loading them eagerly meant half a megabyte on every visit for
          data that only matters once a language modal opens. They now load
          inside loadMeta(). See __wmLoadMetaI18n() below. -->
-    <script src="lang-filter.js?v=53"></script>
+    <script src="lang-filter.js?v=54"></script>
     <!-- Translated language names: 1,154 codes × 19 UI languages is ~215 KB
          gzipped, and a reader uses one of them plus English as the fallback.
          Load the shim, then English, then whichever UI language this visitor
@@ -7635,7 +7638,11 @@
                 updateConnectorLine();
             });
         }
-        map.on('zoomend', () => { updateMarkers(currentWord); updateHash(); updateSelectedLabel(); scheduleConnectorUpdate(); });
+        // The view zoomend just drew: the moveend that follows at the same view
+        // need not draw it again (r20 perf).
+        let _zoomDrawnView = null;
+        const _viewKey = () => { const c = map.getCenter(); return map.getZoom() + ',' + c.lat.toFixed(5) + ',' + c.lng.toFixed(5); };
+        map.on('zoomend', () => { updateMarkers(currentWord); _zoomDrawnView = _viewKey(); updateHash(); updateSelectedLabel(); scheduleConnectorUpdate(); });
         // moveend re-runs updateMarkers so the viewport-scoped pin cap
         // (selectByPriority) re-evaluates which langs are in the visible
         // area. Without this, after panning, dropped pins stay dropped
@@ -7653,6 +7660,9 @@
         // screen for 30-70 presses); re-evaluated whenever the view settles.
         function syncLabelTabs() {
             const mapEl = document.getElementById('map'), mr = mapEl.getBoundingClientRect();
+            // All reads first, then the writes: a tabIndex write between two
+            // elementFromPoint calls forced a fresh layout per label (r20 perf).
+            const want = [];
             document.querySelectorAll('#map .lang-label[role="button"]').forEach((l) => {
                 if (l.dataset.pcov) return;   // the panel-cover guard owns it while covered
                 const r = l.getBoundingClientRect();
@@ -7660,16 +7670,20 @@
                 // ...and not painted over by the header, controls or footer (r19).
                 let inside = r.width && cx > mr.left && cx < mr.right && cy > mr.top && cy < mr.bottom;
                 if (inside) { const hit = document.elementFromPoint(cx, cy); inside = !!(hit && mapEl.contains(hit)); }
-                const want = inside ? 0 : -1;
-                if (l.tabIndex !== want && l !== document.activeElement) l.tabIndex = want;
+                want.push([l, inside ? 0 : -1]);
             });
+            for (const [l, w] of want) if (l.tabIndex !== w && l !== document.activeElement) l.tabIndex = w;
         }
         let _labTabT = null;
-        map.on('moveend zoomend layeradd', () => { clearTimeout(_labTabT); _labTabT = setTimeout(syncLabelTabs, 120); });
+        const _idle = window.requestIdleCallback ? (f) => requestIdleCallback(f, { timeout: 500 }) : (f) => f();
+        map.on('moveend zoomend layeradd', () => { clearTimeout(_labTabT); _labTabT = setTimeout(() => _idle(syncLabelTabs), 120); });
         map.on('moveend', () => {
             updateHash();
             scheduleConnectorUpdate();
             clearTimeout(_panDebounceTimer);
+            const fresh = _zoomDrawnView && _zoomDrawnView === _viewKey();
+            _zoomDrawnView = null;
+            if (fresh) return;
             _panDebounceTimer = setTimeout(() => {
                 try { updateMarkers(currentWord); } catch (_) {}
             }, 400);
@@ -7792,10 +7806,21 @@
         // when the lang's marker is genuinely off-screen (e.g. far from the
         // current map center on reload). Reset every time the modal opens.
         let _selRetries = 0;
+        var _selEl = null;   // var: updateSelectedLabel runs before this line on first render
         function updateSelectedLabel() {
             const ip = _infoPanel();
             if (!ip) return;
             const open = ip.classList.contains('visible');
+            // Runs on every pan frame (scheduleConnectorUpdate): leave the DOM
+            // alone when nothing changed (rally r20 perf).
+            if (!open && !_selEl) return;
+            if (open && _selEl && _selEl.isConnected && _selEl.classList.contains('selected') && getSelectedLabelEl() === _selEl) {
+                // Leaflet rewrites the icon's z-index on zoom: keep it on top.
+                const mk = _selEl.closest('.leaflet-marker-icon');
+                if (mk && mk.style.zIndex !== '1000') mk.style.zIndex = '1000';
+                return;
+            }
+            _selEl = null;
             // Clear previous selection AND restore the Leaflet marker's natural
             // z-index (the CSS z-index on `.selected` doesn't escape the marker
             // icon container — we have to bump the marker icon itself).
@@ -7808,6 +7833,7 @@
             const el = getSelectedLabelEl();
             if (el) {
                 _selRetries = 0;
+                _selEl = el;
                 el.classList.add('selected');
                 // Bring selected label's marker icon to front so overlapping
                 // nearby labels don't cover it (per user request).
@@ -7835,10 +7861,15 @@
         // `var`, not `let`: updateConnectorLine first runs during the initial
         // updateMarkers(), before this point is reached.
         var _PCOV_Q = 'a[href],button,input,select,textarea,summary,[tabindex]:not([tabindex="-1"])';
-        var _pcovRaf = 0, _pcovKey = '', _pcovT = 0, _pcovLast = 0;
+        var _pcovRaf = 0, _pcovKey = '', _pcovT = 0, _pcovLast = 0, _pcovMoving = false;
         function _pcovPanels() {
             // Also a compact trivia article: it stops being modal but still paints over the map (r19).
-            return ['lang-info', 'compare-panel', 'trivia-modal'].map((id) => document.getElementById(id)).filter((p) => p && p.classList.contains('visible') && (p.id !== 'trivia-modal' || p.classList.contains('compact')));
+            const ps = ['lang-info', 'compare-panel', 'trivia-modal'].map((id) => document.getElementById(id)).filter((p) => p && p.classList.contains('visible') && (p.id !== 'trivia-modal' || p.classList.contains('compact')));
+            // Non-modal floating panels paint over the map too: the filter panel
+            // (Word Map) and the dialect legend (Han Map) (r20).
+            const lf = document.querySelector('.lf-panel.open'); if (lf) ps.push(lf);
+            const lg = document.getElementById('dialect-legend-panel'); if (lg && !lg.hidden) ps.push(lg);
+            return ps;
         }
         function _pcovVisible(e) {
             if (e.checkVisibility) return e.checkVisibility({ visibilityProperty: true, opacityProperty: true });
@@ -7890,19 +7921,37 @@
             if (refocus) { const c = refocus.querySelector('#info-close') || refocus.querySelector('.compare-close') || refocus.querySelector('button'); if (c) c.focus({ preventScroll: true }); }
         }
         function syncPanelCover() {
-            const key = _pcovPanels().map((p) => p.id).join();
+            const key = _pcovPanels().map((p) => p.id || p.className).join();
             if (key !== _pcovKey) {
                 _pcovKey = key; _pcovRelease();   // synchronous: close paths restore focus on the next line
                 cancelAnimationFrame(_pcovRaf); _pcovRaf = 0; clearTimeout(_pcovT); _pcovT = 0;
                 if (key) _pcovRaf = requestAnimationFrame(() => _pcovApply(false));
+                // Labels judged hidden while an overlay covered them get their Tab stop back (r20).
+                if (typeof syncLabelTabs === 'function') setTimeout(syncLabelTabs, 450);
                 return;
             }
-            if (!key || _pcovRaf || _pcovT) return;
+            if (!key || _pcovRaf || _pcovT || _pcovMoving) return;   // map passes wait for moveend (r20 perf)
             const wait = Math.max(0, 200 - (Date.now() - _pcovLast));
             _pcovT = setTimeout(() => { _pcovT = 0; _pcovRaf = requestAnimationFrame(() => _pcovApply(true)); }, wait);
         }
         window.addEventListener('resize', () => { if (_pcovKey) { cancelAnimationFrame(_pcovRaf); _pcovRaf = requestAnimationFrame(() => _pcovApply(false)); } });
         ['lang-info', 'compare-panel', 'trivia-modal'].forEach((id) => { const p = document.getElementById(id); if (p) new MutationObserver(syncPanelCover).observe(p, { attributes: true, attributeFilter: ['class'] }); });
+        // The filter panel and the legend have no observer: re-check the open
+        // set after any click or key that might have opened or closed one.
+        const _pcovKeyNow = () => _pcovPanels().map((p) => p.id || p.className).join();
+        ['click', 'keyup'].forEach((t) => document.addEventListener(t, () => requestAnimationFrame(() => { if (_pcovKeyNow() !== _pcovKey) syncPanelCover(); }), true));
+        // The compact trivia box slides into place (0.35 s): measure again where it lands.
+        { const tm = document.getElementById('trivia-modal'); if (tm) tm.addEventListener('transitionend', (e) => { if (e.target.parentElement !== tm && e.target !== tm) return; if (_pcovKey && !_pcovRaf) _pcovRaf = requestAnimationFrame(() => _pcovApply(false)); }); }
+        // The page is a fixed, non-scrolling app; Tab into the footer scrolls
+        // body to reach it. Scroll back once focus leaves the footer, or the
+        // header stayed cut off (r20).
+        document.addEventListener('focusin', (e) => {
+            if (e.target.closest && e.target.closest('footer')) return;
+            const reset = () => { for (const el of [document.body, document.documentElement]) if (el.scrollTop) el.scrollTop = 0; };
+            reset(); requestAnimationFrame(reset);   // focus() scrolls into view after focusin
+        });
+        map.on('movestart', () => { _pcovMoving = true; });
+        map.on('moveend', () => { _pcovMoving = false; syncPanelCover(); });
         function updateConnectorLine() {
             syncPanelCover();
             const ip = _infoPanel();
@@ -8326,6 +8375,12 @@
         // (万/亿/억) when the value is large; falls back to the legacy
         // m.speakers prose if the structure is unrecognizable.
         const SC_RANGE_SEP = { ja: '〜', ko: '~', en: '–' };
+        // Part labels for "L1 …, L2 …, total …" (same wording as the basis labels).
+        const SC_PART_LBL = {
+            L1:    {en:'L1',ja:'母語',ko:'모어',zh:'母语',yue:'母語',vi:'tiếng mẹ đẻ',th:'ภาษาแม่',id:'L1',hi:'मातृभाषा',de:'L1',fr:'L1',it:'L1',es:'L1',pt:'L1',ru:'родной язык',uk:'рідна мова',ar:'اللغة الأم',he:'שפת אם',sw:'L1'},
+            L2:    {en:'L2',ja:'第二言語',ko:'제2언어',zh:'第二语言',yue:'第二語言',vi:'ngôn ngữ thứ hai',th:'ภาษาที่สอง',id:'L2',hi:'दूसरी भाषा',de:'L2',fr:'L2',it:'L2',es:'L2',pt:'L2',ru:'второй язык',uk:'друга мова',ar:'اللغة الثانية',he:'שפה שנייה',sw:'L2'},
+            total: {en:'total',ja:'合計',ko:'합계',zh:'合计',yue:'合計',vi:'tổng',th:'รวม',id:'total',hi:'कुल',de:'gesamt',fr:'total',it:'totale',es:'total',pt:'total',ru:'всего',uk:'усього',ar:'إجمالي',he:'סה"כ',sw:'jumla'},
+        };
         const SC_VITALITY_LBL = {
             // 'safe' is never annotated onto a speaker count (there is nothing
             // to warn about), but the SSR pages print vitality as its own chip
@@ -8367,6 +8422,12 @@
                 if (n >= 1_0000)      return trim(n / 1_0000, 1) + '万';
                 return n.toLocaleString('zh-CN');
             }
+            // European UIs: the locale's own millions/billions word and decimal comma
+            // (1,43 Mio. / 1,43 млн), not the English "1.43M".
+            const compactLoc = { de:'de-DE', fr:'fr-FR', it:'it-IT', es:'es-ES', pt:'pt-BR', ru:'ru-RU', uk:'uk-UA' }[ui];
+            if (compactLoc && n >= 1_000_000) {
+                try { return new Intl.NumberFormat(compactLoc, { notation: 'compact', maximumFractionDigits: 2 }).format(n); } catch (_) {}
+            }
             if (n >= 1_000_000_000) return trim(n / 1_000_000_000, 2) + 'B';
             if (n >= 1_000_000)     return trim(n / 1_000_000, 2) + 'M';
             const localeMap = { vi:'vi-VN', th:'th-TH', id:'id-ID', hi:'hi-IN', de:'de-DE', fr:'fr-FR', it:'it-IT', es:'es-ES', pt:'pt-BR', ru:'ru-RU', uk:'uk-UA', ar:'ar', he:'he-IL', sw:'sw' };
@@ -8382,10 +8443,11 @@
             } else if (sc.l1RangeMin != null && sc.l1RangeMax != null) {
                 mainStr = formatSpeakerNumber(sc.l1RangeMin, ui) + sep + formatSpeakerNumber(sc.l1RangeMax, ui);
             } else if (sc.l1 != null && (sc.l2 != null || sc.total != null)) {
-                const parts = ['L1 ' + formatSpeakerNumber(sc.l1, ui)];
-                if (sc.l2 != null)    parts.push('L2 ' + formatSpeakerNumber(sc.l2, ui));
-                if (sc.total != null) parts.push(formatSpeakerNumber(sc.total, ui) + ' total');
-                mainStr = parts.join(', ');
+                const lbl = (k) => SC_PART_LBL[k][ui] || SC_PART_LBL[k].en;
+                const parts = [lbl('L1') + ' ' + formatSpeakerNumber(sc.l1, ui)];
+                if (sc.l2 != null)    parts.push(lbl('L2') + ' ' + formatSpeakerNumber(sc.l2, ui));
+                if (sc.total != null) parts.push(lbl('total') + ' ' + formatSpeakerNumber(sc.total, ui));
+                mainStr = parts.join(ui === 'ja' || ui === 'zh' || ui === 'yue' ? '、' : ', ');
             } else if (sc.l1 != null) {
                 mainStr = formatSpeakerNumber(sc.l1, ui);
             } else if (sc.total != null) {
@@ -10911,7 +10973,8 @@
             setTriviaCompact(false);
             const _scrollBack = document.getElementById('trivia-scroll');
             if (_scrollBack) _scrollBack.scrollTop = 0;
-            if (typeof updateHash === 'function') updateHash();
+            // A new entry: replacing the article's left [index, index] and lost Forward (r20).
+            if (typeof updateHash === 'function') updateHash({ push: true });
             // Back on the index: focus the card that was opened, else keep focus in the dialog.
             { const tm = document.getElementById('trivia-modal'), c = tm && _triviaLastId && tm.querySelector('.trivia-card[data-article-id="' + CSS.escape(_triviaLastId) + '"]'); if (c && c.getClientRects().length) c.focus({ preventScroll: true }); else { const ae = document.activeElement; if (tm && (!tm.contains(ae) || !ae.getClientRects().length)) { const h = document.getElementById('trivia-heading'); if (h) h.focus({ preventScroll: true }); } } }
         }
@@ -11309,45 +11372,8 @@
     })();
     </script>
     </main>
-    <footer style="text-align:center;padding:16px 12px;font-size:12px;color:#666;border-top:1px solid #e6e6ef;margin-top:24px">
-        <span lang="ja">全言語インデックス:</span> <a href="/en/wordmap/" style="color:var(--accent)">Word Map</a> · <a href="/en/word/" style="color:var(--accent)">Words</a> · <a href="/en/hanmap/" style="color:var(--accent)">Han Map</a> · <a href="/en/trivia/" style="color:var(--accent)">Trivia</a>
-<!-- TRIVIA-INDEX:START -->
-<details class="trivia-index-seo" lang="ja">
-<summary>読み物（言語学の記事） (30)</summary>
-<ul>
-<li><a href="/en/trivia/piraha-no-numbers" title="Pirahã — the language said to have no numbers"><span aria-hidden="true">🌳</span> 数を数えない言語、ピダハン語</a></li>
-<li><a href="/en/trivia/silbo-gomero" title="Silbo Gomero — a whistled Spanish that crosses canyons"><span aria-hidden="true">🌬️</span> シルボ・ゴメロ — 峡谷を越える口笛のスペイン語</a></li>
-<li><a href="/en/trivia/taa-most-consonants" title="Taa (!Xóõ) — counting one of the largest consonant inventories"><span aria-hidden="true">🔊</span> タア語（!Xóõ）— 世界一子音が多い言語</a></li>
-<li><a href="/en/trivia/rotokas-fewest-sounds" title="Rotokas — an eleven-phoneme sound system"><span aria-hidden="true">🤫</span> ロトカス語 — 世界一音が少ないとされる言語</a></li>
-<li><a href="/en/trivia/ubykh-last-speaker" title="Ubykh — documenting a language with about 84 consonants"><span aria-hidden="true">🕯️</span> ウビフ語 — 子音84個の言語が消えた日</a></li>
-<li><a href="/en/trivia/damin-secret-language" title="Damin — a ceremonial register with clicks and ingressive sounds"><span aria-hidden="true">🔒</span> ダミン語 — オーストラリアの音韻常識を破った男性秘密言語</a></li>
-<li><a href="/en/trivia/khoisan-clicks" title="Click consonants — five families of sound that crossed borders"><span aria-hidden="true">👅</span> 吸着音 — 国境を越えた5系統の音</a></li>
-<li><a href="/en/trivia/basque-isolate" title="Basque — a language isolate of the western Pyrenees"><span aria-hidden="true">⛰️</span> ヨーロッパが置き換え損ねた言語、バスク語</a></li>
-<li><a href="/en/trivia/sumerian-first-writing" title="Sumerian — among the earliest languages ever written down"><span aria-hidden="true">𒀭</span> 人類最古級の文字言語、シュメール語</a></li>
-<li><a href="/en/trivia/etruscan-mystery" title="Etruscan — the language we can read but can't understand"><span aria-hidden="true">𐌀</span> 読めるのに分からない言語、エトルリア語</a></li>
-<li><a href="/en/trivia/sentinelese-unknown" title="Sentinelese — an unrecorded language of North Sentinel Island"><span aria-hidden="true">🏝️</span> 一度も録音されたことのない言語、センチネル語</a></li>
-<li><a href="/en/trivia/modern-hebrew-revival" title="Hebrew — an ancient language brought back to everyday life"><span aria-hidden="true">✡️</span> 日常語として蘇った古代言語、ヘブライ語</a></li>
-<li><a href="/en/trivia/sanskrit-panini" title="Pāṇini — formal rules in an ancient Sanskrit grammar"><span aria-hidden="true">🕉️</span> 計算機科学を2,400年先取りしたサンスクリット文法家、パーニニ</a></li>
-<li><a href="/en/trivia/esperanto-zamenhof" title="Esperanto — from an 1887 booklet to an international community"><span aria-hidden="true">🟢</span> エスペラント──本当に話されるようになった人工言語</a></li>
-<li><a href="/en/trivia/toki-pona-minimalism" title="Toki Pona — can you say everything with 120 words?"><span aria-hidden="true">🌱</span> トキポナ──120語で世界を語れるか</a></li>
-<li><a href="/en/trivia/ithkuil-complexity" title="Ithkuil — the conlang so dense its inventor cannot speak it"><span aria-hidden="true">🧬</span> イスクイル──作者自身がすらすら話せない人工言語</a></li>
-<li><a href="/en/trivia/hangul-scientific-script" title="Hangul — the design principles of the Korean alphabet"><span aria-hidden="true">🇰🇷</span> ハングル──王が「実験室」で設計した文字</a></li>
-<li><a href="/en/trivia/cherokee-sequoyah" title="Sequoyah and the creation of the Cherokee syllabary"><span aria-hidden="true">✍️</span> シクウォイア──文字を知らぬまま文字を発明した男</a></li>
-<li><a href="/en/trivia/vai-dream-script" title="Vai — the West African script that came in a dream"><span aria-hidden="true">💭</span> ヴァイ文字──夢から生まれた西アフリカの音節文字</a></li>
-<li><a href="/en/trivia/tangut-deciphered" title="Tangut — reconstructing the script of Western Xia"><span aria-hidden="true">🈯</span> 失われた王朝の文字、西夏文</a></li>
-<li><a href="/en/trivia/linear-a-undeciphered" title="Linear A — the script we can read but cannot understand"><span aria-hidden="true">🏺</span> 読めるのに分からない文字、線文字A</a></li>
-<li><a href="/en/trivia/aymara-time-reversed" title="Aymara — the language where the past is in front of you"><span aria-hidden="true">⏳</span> 過去が前にある言語、アイマラ語</a></li>
-<li><a href="/en/trivia/tuyuca-evidentials" title="Tuyuca — the language in which you must reveal how you know"><span aria-hidden="true">👁️</span> 「どう知ったか」を必ず明かす言語、トゥユカ語</a></li>
-<li><a href="/en/trivia/guugu-yimithirr-cardinal" title="Guugu Yimithirr — an absolute-direction spatial system"><span aria-hidden="true">🧭</span> 「左」も「右」も使わない言語、グーグ・イミディル語</a></li>
-<li><a href="/en/trivia/mohawk-polysynthesis" title="Mohawk — when one word is a whole sentence"><span aria-hidden="true">🧩</span> 一語が一文になる言語、モホーク語</a></li>
-<li><a href="/en/trivia/nuxalk-vowelless" title="Nuxalk — words with no vowels at all"><span aria-hidden="true">🗿</span> 母音ゼロの言語、ヌハルク語</a></li>
-<li><a href="/en/trivia/hawaiian-13-phonemes" title="Hawaiian — 13 sounds and language revitalization"><span aria-hidden="true">🌺</span> 13の音素とハワイ語復興運動</a></li>
-<li><a href="/en/trivia/nicaraguan-sign-language" title="Nicaraguan Sign Language — change observed across cohorts"><span aria-hidden="true">🤟</span> ニカラグア手話──研究者の目の前で誕生した言語</a></li>
-<li><a href="/en/trivia/mama-papa-universals" title="Why “mama” and “papa” recur across unrelated languages"><span aria-hidden="true">👶</span> なぜ世界中で母は「ママ」なのか</a></li>
-<li><a href="/en/trivia/pie-reconstruction" title="Proto-Indo-European — reconstruction through regular sound correspondences"><span aria-hidden="true">🌳</span> 誰も書き残さなかった言語、印欧祖語</a></li>
-</ul>
-</details>
-<!-- TRIVIA-INDEX:END -->
+    <footer style="text-align:center;padding:16px 12px 64px;font-size:12px;color:#666;border-top:1px solid #e6e6ef;margin-top:24px">
+        <a href="/en/wordmap/" style="color:var(--accent)">Word Map</a> · <a href="/en/word/" style="color:var(--accent)">Words</a> · <a href="/en/hanmap/" style="color:var(--accent)">Han Map</a> · <a href="/en/trivia/" style="color:var(--accent)">Trivia</a>
     </footer>
 
     <!-- ============================================================
@@ -11399,7 +11425,7 @@
             he:(w)=>`איך אומרים “${w}” בשפות העולם? — LangMap (${ct()} שפות)`,
             sw:(w)=>`Watu husemaje “${w}” kote ulimwenguni? — LangMap (lugha ${ct()})`
         };
-        const ct = () => { try { const d = (typeof LANG_DATA !== 'undefined' && LANG_DATA) ? LANG_DATA : (window.LANG_DATA || null); return (d ? Object.keys(d).length : 1112).toLocaleString('en-US'); } catch (_) { return '1,112'; } };
+        const ct = () => { try { const d = (typeof LANG_DATA !== 'undefined' && LANG_DATA) ? LANG_DATA : (window.LANG_DATA || null); const loc = { de:'de-DE', fr:'fr-FR', it:'it-IT', es:'es-ES', pt:'pt-BR', ru:'ru-RU', uk:'uk-UA' }[String(ui()).split('_')[0]] || 'en-US'; return (d ? Object.keys(d).length : 1112).toLocaleString(loc); } catch (_) { return '1,112'; } };
         const tpl = () => SHARE_TPL[ui()] || SHARE_TPL[ui().split('_')[0]] || SHARE_TPL.en;
 
         function curWordLabel() {
@@ -11941,7 +11967,7 @@
                 <span style="flex:1;font-weight:600;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${nameOf(g)}</span>
                 ${famIco}
                 <span style="width:56px;height:7px;background:#eceef3;border-radius:4px;overflow:hidden;display:inline-block;flex:none"><span style="display:block;height:100%;width:${pct}%;background:var(--accent)"></span></span>
-                <span style="color:#5f6368;font-size:11px;min-width:52px;text-align:right">${f.dist.toLocaleString()} km</span>
+                <span style="color:#5f6368;font-size:11px;min-width:52px;text-align:right">${f.dist.toLocaleString({ de:'de-DE', fr:'fr-FR', it:'it-IT', es:'es-ES', pt:'pt-BR', ru:'ru-RU', uk:'uk-UA' }[String((window.__langmap && window.__langmap.uiLang) || 'en').split('_')[0]] || 'en-US')} km</span>
                 <span style="display:inline-flex;color:#6b7280">${ICON.arrow(f.bearing)}</span></div>`;
         }
         function render() {
@@ -12253,7 +12279,8 @@
 }
 /* Landscape phones (r19): two columns so all five options show without an inner scroll. */
 @media (max-height: 420px) and (orientation: landscape) {
-  #lm-quiz-box div:has(> .wq-opt) { display: grid !important; grid-template-columns: 1fr 1fr; gap: 4px; }
+  #lm-quiz-box div:has(> .wq-opt) { display: grid !important; grid-template-columns: 1fr 1fr; gap: 4px; align-content: safe center; }
+  #lm-quiz-box .wq-prompt { grid-column: 1 / -1; }
   #lm-quiz-box .wq-opt { min-height: 34px !important; margin: 0 !important; font-size: 16px !important; }
   #lm-quiz-box .wq-prompt { margin-bottom: 4px !important; }
 }`);
@@ -12514,12 +12541,12 @@
     <!-- "My languages" share-card feature; poster_geo.js supplies the Natural-Earth
          projection its world-map card is drawn with. -->
     <script src="poster_geo.js?v=12"></script>
-    <script src="my-languages.js?v=34"></script>
+    <script src="my-languages.js?v=35"></script>
     <!-- Language Master game (🏅 in the Play menu). master.js is parked as
          text/plain (not fetched at first paint, as hanmap_trivia.js is) and
          injected the first time the game opens. The stub below only labels
          the launcher and loads the module on demand. -->
-    <script type="text/plain" id="master-src" src="master.js?v=20"></script>
+    <script type="text/plain" id="master-src" src="master.js?v=21"></script>
     <script>
     (function () {
         'use strict';

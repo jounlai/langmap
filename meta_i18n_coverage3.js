@@ -6138,6 +6138,26 @@
   "he": "טונגוסית > טונגוסית דרומית > מנצ'ו-שיבה",
   "sw": "Kitungusi > Kitungusi cha Kusini > Kimanchu-Kisibe"
  },
+ "Tungusic > Southern": {
+  "ja": "ツングース語族 > 南ツングース語群",
+  "ko": "퉁구스어족 > 남퉁구스어군",
+  "zh": "通古斯语族 > 南通古斯语支",
+  "yue": "通古斯語族 > 南通古斯語支",
+  "vi": "Tungus > Nam Tungus",
+  "th": "ตุงกูสิก > ตุงกูสิกใต้",
+  "id": "Tungusik > Tungusik Selatan",
+  "hi": "तुंगुसिक > दक्षिणी तुंगुसिक",
+  "de": "Tungusisch > Südtungusisch",
+  "fr": "Toungouse > toungouse méridional",
+  "it": "Tunguso > tunguso meridionale",
+  "es": "Tungúsico > tungúsico meridional",
+  "pt": "Tungúsico > tungúsico meridional",
+  "ru": "тунгусские > южнотунгусские",
+  "uk": "тунгуські > південнотунгуські",
+  "ar": "التنغوسية > التنغوسية الجنوبية",
+  "he": "טונגוסית > טונגוסית דרומית",
+  "sw": "Kitungusi > Kitungusi cha Kusini"
+ },
  "Qapqal Xibe Autonomous County, Xinjiang": {
   "ja": "新疆チャプチャル・シベ自治県",
   "ko": "신장 차브차르 시버 자치현",

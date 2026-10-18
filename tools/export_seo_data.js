@@ -449,8 +449,22 @@ function loadHanmapNameOverrides() {
   return byCode;
 }
 
+// Han Map-only coordinates (zh_jh = Yangzhou there, Nanjing on the Word Map),
+// parsed from the PT table in the same hanmap.html block (r31 a4).
+function loadHanmapPointOverrides() {
+  const html = read('hanmap.html');
+  const m = html.match(/function applyHanmapNameOverrides\(\)[\s\S]*?const\s+PT\s*=\s*(\{[\s\S]*?\n\s*\});/);
+  if (!m) throw new Error('applyHanmapNameOverrides PT table not found in hanmap.html');
+  const ctx = {};
+  vm.createContext(ctx);
+  vm.runInContext('this.__PT = ' + m[1], ctx);
+  if (!ctx.__PT.zh_jh) throw new Error('Han Map PT table parsed without zh_jh');
+  return ctx.__PT;
+}
+
 function buildHanMapJSON(nameIndex) {
   const hanOv = loadHanmapNameOverrides();
+  const hanPt = loadHanmapPointOverrides();
   const { LANG_DATA, HAN_DATA, HAN_LIST, HAN_CATEGORIES, HAN_LANG_META, HAN_LANGS, HAN_VARIANTS, HAN_GLOSS_I18N } = loadHanMap();
 
   // Character list metadata. HAN_LIST may carry disambiguators ("中:1").
@@ -471,7 +485,7 @@ function buildHanMapJSON(nameIndex) {
   const langs = {};
   for (const code of codes) {
     const m = HAN_LANG_META[code] || {};
-    const ld = LANG_DATA[code] || {};
+    const ld = Object.assign({}, LANG_DATA[code] || {}, hanPt[code] || {});
     // Coordinates: prefer Word Map LANG_DATA, fall back to HAN_LANG_META.
     let lat = typeof ld.lat === 'number' ? ld.lat
       : (typeof m.lat === 'number' ? m.lat : null);
@@ -513,7 +527,11 @@ function buildHanMapJSON(nameIndex) {
     langs[code] = {
       code,
       name: m.name || ld.name || code,
-      native: m.native || ld.native || '',
+      // A reconstructed proto row's `native` is the Han Map's Japanese row label
+      // (原始漢蔵語, 原始オーストロアジア語), not a name in the language: the SEO
+      // page printed it as the hero's native line and in the map marker in every
+      // UI (rally r31 a2#6). The map app keeps it; only the export drops it.
+      native: /\(proto\)/.test(m.family || ld.family || '') ? '' : (m.native || ld.native || ''),
       family: m.family || ld.family || '',
       speakers: m.speakers || (ld.meta && ld.meta.speakers) || '',
       region: m.region || '',

@@ -2074,6 +2074,11 @@
             padding: 0;
         }
         .trivia-modal .close-btn:hover { color: #5a3f15; }
+        /* Touch: × was 28x26 next to ⤢; same 40x40 targets as wordmap.html (r25, r31). */
+        @media (pointer: coarse) {
+            .trivia-expand, .trivia-modal .close-btn { min-width: 40px; min-height: 40px; }
+            .trivia-modal.compact .trivia-expand { margin-inline-end: 12px; }
+        }
         .trivia-modal .trivia-eyebrow {
             display: inline-block;
             font-size: 10px; font-weight: 700;
@@ -2862,7 +2867,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=40"></script>
+    <script src="nav-short.js?v=41"></script>
     <style>
         /* r23 desktop: the compare panel clears the settings gear and the map
            attribution; the settings drawer is readable at desktop sizes. */
@@ -3206,15 +3211,48 @@
                 const t = (_hdr ? _hdr.getBoundingClientRect().bottom : 8) + 6;
                 drawer.style.top = t + 'px';
                 drawer.style.right = (window.innerWidth - r.left + 6) + 'px';
-                drawer.style.maxHeight = Math.max(80, window.innerHeight - 24 - t) + 'px';
+                // Still stop above the 比較 button (owner, 2026-09-13).
+                const _cmp = document.getElementById('compare-fab');
+                const _cr = _cmp && _cmp.classList.contains('visible') ? _cmp.getBoundingClientRect() : null;
+                const _floor = (_cr && _cr.height > 0) ? _cr.top - 8 : window.innerHeight - 24;
+                drawer.style.maxHeight = Math.max(80, _floor - t) + 'px';
                 return;
             }
-            drawer.style.top   = (r.bottom + 6) + 'px';
             drawer.style.right = Math.max(8, window.innerWidth - r.right) + 'px';
-            drawer.style.maxHeight = Math.max(80, window.innerHeight - 24 - (r.bottom + 6)) + 'px';
+            // Keep the drawer clear of the 比較 button in every layout (owner,
+            // 2026-09-13; same rule and code as wordmap.html). Below the gear
+            // is preferred; when that leaves too little room the drawer rises
+            // so it still ends above the button.
+            const GAP = 6, MIN_USABLE = 140, CEILING = 8;
+            const cmp = document.getElementById('compare-fab');
+            const cmpR = cmp && cmp.classList.contains('visible') ? cmp.getBoundingClientRect() : null;
+            const floor = (cmpR && cmpR.height > 0) ? cmpR.top - 8 : window.innerHeight - 24;
+            let top = r.bottom + GAP;
+            let avail = floor - top;
+            if (avail < MIN_USABLE) {
+                const wanted = Math.min(MIN_USABLE, floor - CEILING);
+                top = Math.max(CEILING, floor - wanted);
+                avail = floor - top;
+            }
+            drawer.style.top = top + 'px';
+            drawer.style.maxHeight = Math.max(80, avail) + 'px';
         }
         positionSettingsDrawer();
         window.addEventListener('resize', positionSettingsDrawer);
+        // The compare button comes and goes with the comparison list, which
+        // moves the drawer's floor. #compare-fab is declared later in the
+        // page, so attach after DOMContentLoaded.
+        function watchCompareFab() {
+            if (typeof MutationObserver === 'undefined') return;
+            const cf = document.getElementById('compare-fab');
+            if (!cf) return;
+            new MutationObserver(positionSettingsDrawer)
+                .observe(cf, { attributes: true, attributeFilter: ['class'] });
+            positionSettingsDrawer();
+        }
+        if (document.readyState === 'loading')
+            document.addEventListener('DOMContentLoaded', watchCompareFab);
+        else watchCompareFab();
         const _stCb = document.getElementById('settings-toggle');
         if (_stCb) _stCb.addEventListener('change',
             () => requestAnimationFrame(positionSettingsDrawer));
@@ -3252,8 +3290,12 @@
             // closing the drawer under it lost focus to <body> (rally r5).
             if (window.__navOverlayOpen && window.__navOverlayOpen()) return;
             // 2. Close compare panel if open.
+            // Unless the language panel was opened over it (its entry is above
+            // Compare's): one Escape, the top layer, as on the Word Map (r31).
             const comparePanel = document.getElementById('compare-panel');
-            if (comparePanel && comparePanel.classList.contains('visible')) {
+            const _H = window.__lmHistory, _li = document.getElementById('lang-info');
+            const _panelOver = _li && _li.classList.contains('visible') && _H && _H.ovN.compare !== (history.state || {}).lmN;
+            if (comparePanel && comparePanel.classList.contains('visible') && !_panelOver) {
                 const cc = document.getElementById('compare-close');
                 if (cc) cc.click();
                 e.__hmEscDone = true;   // one layer per Escape (the later handlers check this)
@@ -3573,8 +3615,8 @@
     will actually see (~12 KB gzipped). tools/build_lang_names.js
     generates lang_names/<ui>.js from lang_names.js. -->
     <script src="lang_names_shim.js?v=5"></script>
-    <script src="lang_names/en.js?v=207"></script>
-    <script>window.__langNamesVersion(207); window.__langNamesBoot();</script>
+    <script src="lang_names/en.js?v=208"></script>
+    <script>window.__langNamesVersion(208); window.__langNamesBoot();</script>
     <script>
     // HanMap-specific display-name overrides.
     // THIS IS THE MECHANISM for "one code, two maps, two meanings". lang_names.js
@@ -3592,6 +3634,17 @@
     // the one nobody actually used. Four UIs were also lowercase-initial and de
     // read "mittelkoreanisch (Sino)". It is now named after the work itself.
     (function applyHanmapNameOverrides() {
+      // Han Map-only points. zh_jh is the generic Jianghuai row centred on
+      // Nanjing on the Word Map, but here it is the Yangzhou row (MCPDict 揚州),
+      // so it sits on Yangzhou, not stacked on zh_nj (r31 a4; Wikipedia
+      // Yangzhou 32.3944 N 119.4128 E). tools/export_seo_data.js parses this
+      // table for data/hanmap_seo.json.
+      const PT = {
+        zh_jh: { lat: 32.39, lng: 119.41 },
+      };
+      if (typeof LANG_DATA === 'object' && LANG_DATA) {
+        for (const [c, p] of Object.entries(PT)) if (LANG_DATA[c]) Object.assign(LANG_DATA[c], p);
+      }
       if (typeof LANG_NAMES !== 'object' || !LANG_NAMES) return;
       // No brackets in names (owner 2026-09-13): zh_jh is the Yangzhou row, so it
       // is named after the city like zh_nj / zh_cd; yue_gz uses lang_names'
@@ -8497,7 +8550,10 @@
                 const _hwCache = window.__hmLabelW || (window.__hmLabelW = new Map());
                 const _ctn = map.getContainer();
                 const _fkey = (_ctn.className.match(/\b(zoom-[\w-]+|long-forms)\b/g) || []).join(' ') + '|' + document.body.className + '|' + labelScale;
-                const _hwKey = '|' + wordId + '|' + (typeof uiLang !== 'undefined' ? uiLang : '') + '|' + (window.__hmFontGen || 0) + '|' + _fkey;
+                // The display toggles change which lines a label has (r31 a3#1:
+                // turning Name back on reused the name-less widths, 9-21 overlaps).
+                const _hwKey = '|' + wordId + '|' + (typeof uiLang !== 'undefined' ? uiLang : '') + '|' + (window.__hmFontGen || 0) + '|' + _fkey
+                    + '|' + [showWord, showScript, showIpa, showName, showNative].map(Number).join('');
                 // Widths taken before the web fonts arrive are the fallback
                 // font's (Hakka names came out ~25% too wide), so a finished
                 // font load starts a new generation and re-places the labels once.
@@ -8508,9 +8564,38 @@
                 if (!window.__hmFontHook && document.fonts && document.fonts.addEventListener) {
                     window.__hmFontHook = true;
                     let _t = 0;
+                    // r31: the re-layout after the fonts arrive measured ~110 lines
+                    // with canvas in one 100+ ms task at 4x CPU. Measure the lines
+                    // already on the map first, in ~12 ms slices, into the same
+                    // font + text cache the pass reads, then re-place once.
+                    const _prewarm = (done) => {
+                        const gen = window.__hmFontGen;
+                        const ctx = window.__hmMeasureCtx || (window.__hmMeasureCtx = document.createElement('canvas').getContext('2d'));
+                        const nm = window.__hmNameW || (window.__hmNameW = new Map());
+                        const fonts = {};
+                        let els = [], i = 0, cf = '';
+                        try { els = Array.from(map.getContainer().querySelectorAll('.lang-label:not(.vertical) > *')); } catch (_) {}
+                        const step = () => {
+                            if (window.__hmFontGen !== gen) return;
+                            const t0 = performance.now();
+                            try {
+                                while (i < els.length && performance.now() - t0 < 12) {
+                                    const el = els[i++], cls = el.className, s = el.textContent;
+                                    if (!cls || !s || !el.isConnected) continue;
+                                    const f = fonts[cls] || (fonts[cls] = getComputedStyle(el).font);
+                                    const k = gen + '\u0001' + f + '\u0001' + s;
+                                    if (nm.has(k)) continue;
+                                    if (f !== cf) { ctx.font = f; cf = f; }
+                                    nm.set(k, ctx.measureText(s).width);
+                                }
+                            } catch (_) { i = els.length; }
+                            if (i < els.length) setTimeout(step, 0); else done();
+                        };
+                        step();
+                    };
                     const _refont = () => {
                         clearTimeout(_t);
-                        _t = setTimeout(() => { if (document.fonts.status === 'loading' && performance.now() < 3000) return; window.__hmFontsOK = true; window.__hmFontGen = (window.__hmFontGen || 0) + 1; window.__hmLabelFonts = null; try { if (typeof currentWord !== 'undefined') updateMarkers(currentWord); } catch (_) {} }, 150);
+                        _t = setTimeout(() => { if (document.fonts.status === 'loading' && performance.now() < 3000) return; window.__hmFontsOK = true; window.__hmFontGen = (window.__hmFontGen || 0) + 1; window.__hmLabelFonts = null; _prewarm(() => { try { if (typeof currentWord !== 'undefined') updateMarkers(currentWord); } catch (_) {} }); }, 150);
                     };
                     document.fonts.addEventListener('loadingdone', _refont);
                     document.fonts.addEventListener('loadingerror', _refont);
@@ -8567,7 +8652,8 @@
                                 let u = 0;
                                 for (const ch of s) {
                                     const cp = ch.codePointAt(0);
-                                    u += cp >= 0x1100 ? 1.05 : (cp < 0x80 && !/[A-Z@mwMW%]/.test(ch)) ? 0.65 : 1;
+                                    // wide: A-Z @ % m w (charCodes, no per-char regex; r31)
+                                    u += cp >= 0x1100 ? 1.05 : (cp < 0x80 && !((cp >= 65 && cp <= 90) || cp === 64 || cp === 37 || cp === 109 || cp === 119)) ? 0.65 : 1;
                                 }
                                 return u * px;
                             };
@@ -8587,9 +8673,15 @@
                                 }
                                 for (const ch of kids) {
                                     if (ch.className === 'name' || ch.className === 'period') continue;
-                                    const f = F.font[ch.className], s = ch.textContent;
-                                    if (_ub(s, f) <= Math.max(w, _floor)) continue;
-                                    w = Math.max(w, _mt(f, s));
+                                    // reading lines are cached by font + text too (r31),
+                                    // so a toggle or zoom-class change re-measures nothing seen
+                                    const f = F.font[ch.className], s = ch.textContent, k = (window.__hmFontGen || 0) + '\u0001' + f + '\u0001' + s;
+                                    let rw = _nmW.get(k);
+                                    if (rw === undefined) {
+                                        if (_ub(s, f) <= Math.max(w, _floor)) continue;
+                                        rw = _mt(f, s); _nmW.set(k, rw);
+                                    }
+                                    w = Math.max(w, rw);
                                 }
                                 _hwCache.set(miss[i] + _hwKey, (w + F.padX) / 2 - 2);
                             });
@@ -9217,7 +9309,14 @@
                 // Defer until after initial markers are rendered.
                 clearTimeout(window.__langRestoreTimer);
                 window.__langRestoreFor = langCode;
-                window.__langRestoreTimer = setTimeout(() => { if (window.__langRestoreFor !== langCode) return;   // token, not the URL: boot-time updateHash() rewrote the hash before this ran and every lang= link opened nothing (r28)
+                // lang= with trivia=: the panel was opened over the article (an
+                // article's focus button), so the article opens first and the
+                // panel over it. The other way round, opening the article closed
+                // the panel, whose step back closed the article too (r31).
+                const _overTrivia = !!params.get('trivia');
+                window.__langRestoreTimer = setTimeout(function _lr(k) { if (window.__langRestoreFor !== langCode) return;   // token, not the URL: boot-time updateHash() rewrote the hash before this ran and every lang= link opened nothing (r28)
+                    const _tm = document.getElementById('trivia-modal');
+                    if (_overTrivia && (k || 0) < 60 && !(_tm && _tm.classList.contains('visible'))) { window.__langRestoreTimer = setTimeout(() => _lr((k || 0) + 1), 150); return; }
                     if (_noView) { try { centerLangOnMap(langCode); } catch (_) {} } showLangInfo(langCode, { fromHash: true }); }, 100);
             } else if ((clearTimeout(window.__langRestoreTimer), window.__langRestoreFor = null, document.getElementById('lang-info')?.classList.contains('visible')) && typeof closeInfoPanel === 'function') {   // not infoPanel: a const declared after this first runs
                 closeInfoPanel();   // Back to an entry with no open language (r25)
@@ -9696,8 +9795,10 @@
         // (per wordmap-check-4.md §3).
         document.addEventListener('keydown', (e) => {
             if (e.key !== 'Escape' || e.__hmEscDone) return;
-            // The compare panel sits on top of the language panel: it goes first.
-            const cmpOpen = !!document.querySelector('#compare-panel.visible');
+            // The compare panel sits on top of the language panel: it goes first,
+            // unless the panel was opened over it (r31).
+            const _H = window.__lmHistory;
+            const cmpOpen = !!document.querySelector('#compare-panel.visible') && (!_H || _H.ovN.compare === (history.state || {}).lmN);
             if (!cmpOpen && infoPanel.classList.contains('visible')) { closeInfoPanel(); e.__hmEscDone = true; }
             const lf = document.querySelector('.lf-panel.open');
             if (lf) lf.classList.remove('open');
@@ -9743,7 +9844,7 @@
             // word atoms arrived: "Hong Kong SAR", "Japan" … stayed English (r25).
             if (typeof META_I18N === 'undefined') window.META_I18N = {};
             if (!_metaEnginePromise) _metaEnginePromise = _hmInject('meta_i18n_engine.js?v=1');
-            _metaI18nByUi[ui] = Promise.all([_metaEnginePromise, _hmInject('meta_i18n/' + ui + '.js?v=10')]);
+            _metaI18nByUi[ui] = Promise.all([_metaEnginePromise, _hmInject('meta_i18n/' + ui + '.js?v=11')]);
             return _metaI18nByUi[ui];
         }
         window.loadMetaI18n = loadMetaI18n;
@@ -12057,6 +12158,9 @@
         document.addEventListener('keydown', e => {
             if (e.key === 'Escape' && !e.__hmEscDone) {
                 const panel = document.getElementById('compare-panel');
+                // The language panel opened over it takes this Escape alone (r31).
+                const _H = window.__lmHistory;
+                if (document.querySelector('#lang-info.visible') && _H && _H.ovN.compare !== (history.state || {}).lmN) return;
                 if (panel && panel.classList.contains('visible')) {
                     closeComparePanel(); e.__hmEscDone = true;
                 }
@@ -12197,7 +12301,32 @@
         updateCompareFab();
         refreshCompareMarkers();
         // Arriving via a compare deep-link (#cmp=...) opens the panel directly.
-        if (new URLSearchParams(location.hash.slice(1)).get('cmp')) openComparePanel();
+        // With lang= as well: the language panel first and Compare over it, the
+        // order the site writes that URL in. Each gets its own entry (r31).
+        {
+            const _cp = new URLSearchParams(location.hash.slice(1));
+            if (_cp.get('cmp')) {
+                if (_cp.get('lang') && window.__langRestoreFor) (function _wc(k) {
+                    if (document.getElementById('lang-info').classList.contains('visible') || k >= 30) openComparePanel(); else setTimeout(() => _wc(k + 1), 150);
+                })(0);
+                else openComparePanel();
+            }
+        }
+        // Forward / reload reopening the panel (nav-short.js): the list from the
+        // entry's cmp=, as a shared link's list is not stored and the fab click
+        // did nothing, a dead Forward (r31, the Word Map's r30 fix).
+        // false: nothing to show.
+        window.__hmCompareReopen = function () {
+            const cmp = new URLSearchParams(location.hash.slice(1)).get('cmp');
+            const list = cmp ? cmp.split(',').filter(c => Object.prototype.hasOwnProperty.call(LANG_DATA, c)).slice(0, COMPARE_MAX) : [];
+            if (list.length && list.join(',') !== _compareList.join(',')) {
+                _compareList = list; window.__compareList = _compareList;
+                updateCompareFab(); refreshCompareMarkers();
+            }
+            if (!_compareList.length) return false;
+            openComparePanel();
+            return document.getElementById('compare-panel').classList.contains('visible');
+        };
 
         // --- Linguistic trivia modal ---------------------------------
         // Articles live in window.TRIVIA_ARTICLES (hanmap_trivia_rt/base.js).
@@ -13825,7 +13954,7 @@
         window.__lmOverlay('compare', { el: p, attrs: ['class'],
             isOpen: function () { return p.classList.contains('visible'); },
             close: function () { var c = p.querySelector('.compare-close'); if (c) c.click(); else p.classList.remove('visible'); },
-            open: function () { var f = document.querySelector('.compare-fab'); if (f) f.click(); } });
+            open: function () { if (window.__hmCompareReopen) return window.__hmCompareReopen(); var f = document.querySelector('.compare-fab'); if (f && f.getClientRects().length) f.click(); else return false; } });
         new MutationObserver(function () { if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); }).observe(p, { attributes: true, attributeFilter: ['class'] });   // cmp= follows open/closed
     })();
     </script>

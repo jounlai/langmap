@@ -257,9 +257,59 @@
     // and Forward are told apart by it, and an overlay knows which entry is its
     // own (ovN), so closing it never steps back over an entry a page pushed.
     // fresh: this load is a new landing (no state yet), not a reload or a return.
-    var LMH = window.__lmHistory = { reg: {}, stack: [], selfBack: 0, quiet: false, lastURL: location.href, n: 0, ovN: {}, fresh: !history.state };
+    // dead: entries left behind that name nothing live (r31), by lmN; an entry
+    // is also marked on itself (state.lmDead). Back and Forward step over them.
+    var LMH = window.__lmHistory = { reg: {}, stack: [], selfBack: 0, quiet: false, lastURL: location.href, n: 0, ovN: {}, fresh: !history.state, dead: {} };
     var lmhPending = {};
     var ovList = function () { return LMH.stack.length ? LMH.stack.slice() : undefined; };
+    // A new entry at n drops whatever was forward of it, dead marks included.
+    // Called just before the push, on the entry being left.
+    function lmhDropDead(n) {
+        for (var k in LMH.dead) if (+k >= n) delete LMH.dead[k];
+        var c = history.state;
+        if (c && c.lmDeadNext) { var c2 = Object.assign({}, c); delete c2.lmDeadNext; try { LMH._rep(c2, '', location.href); } catch (_) {} }
+    }
+    // The entry after the current one is dead. Kept on this entry too
+    // (lmDeadNext), as the next one cannot be written from here and a reload
+    // or a return from another page forgets LMH.dead.
+    function lmhDeadNext() {
+        LMH.dead[LMH.n + 1] = 1;
+        try { LMH._rep(Object.assign({}, history.state || {}, { lmDeadNext: 1 }), '', location.href); } catch (_) {}
+    }
+    // ---- Deep landings (r31) ----
+    // A fresh landing whose URL opens overlays (lang=, cmp=, trivia=, play=,
+    // in any mix) gets a base entry without any of those keys, then one entry
+    // per overlay in the order they open. Only the first opener used to get
+    // the base entry: with lang= and cmp= the panel had none and Back left the
+    // site with it open. deepOn: still landing (no input, no Back/Forward yet).
+    var DEEP = ['lang', 'cmp', 'trivia', 'play'], OVKEY = { compare: 'cmp', trivia: 'trivia' };
+    LMH.deepOn = LMH.fresh; LMH.deepPend = null;
+    (function () {
+        if (!LMH.deepOn) return;
+        var end = function (e) { if (e && e.isTrusted === false) return; LMH.deepOn = false; };
+        ['pointerdown', 'keydown', 'touchstart', 'wheel'].forEach(function (t) { window.addEventListener(t, end, { capture: true, passive: true }); });
+        window.addEventListener('popstate', function () { end(); });
+        setTimeout(end, 15000);
+    })();
+    // q: the query to use (the base entry's rewrite changes location's).
+    function lmhStripURL(keys, h, q) {
+        var strip = function (s, lead) {
+            var p = String(s || '').replace(/^[?#]/, '').split('&').filter(function (kv) { return kv && keys.indexOf(kv.split('=')[0]) < 0; });
+            return p.length ? lead + p.join('&') : '';
+        };
+        return location.pathname + strip(q != null ? q : location.search, '?') + strip(h != null ? h : location.hash, '#');
+    }
+    function lmhDeepStart(h) {
+        var hh = h != null ? h : location.hash, pend = [];
+        (location.search.replace(/^\?/, '') + '&' + String(hh).replace(/^#/, '')).split('&').forEach(function (kv) {
+            var k = kv.split('=')[0]; if (DEEP.indexOf(k) >= 0 && pend.indexOf(k) < 0) pend.push(k);
+        });
+        LMH.deepPend = pend;
+        LMH._rep(Object.assign({}, history.state || {}, { lmOv: undefined, lmN: LMH.n }), '', lmhStripURL(pend, hh));
+    }
+    // This overlay's keys are open now: the URL for its entry keeps them and
+    // drops the keys of the overlays still to open.
+    function lmhDeepOwn(keys) { if (LMH.deepPend) LMH.deepPend = LMH.deepPend.filter(function (k) { return keys.indexOf(k) < 0; }); return LMH.deepPend || []; }
     (function () {
         var _push = history.pushState.bind(history), _rep = history.replaceState.bind(history);
         LMH._rep = _rep; LMH._push = _push;
@@ -272,12 +322,14 @@
             var s = Object.assign({}, st || {}), r;
             LMH.fresh = false;
             if (lmhTakeClosingTop()) { s.lmOv = ovList(); s.lmN = LMH.n; r = _rep(s, t, u); }
-            else { s.lmOv = ovList(); s.lmN = ++LMH.n; r = _push(s, t, u); }
+            else { s.lmOv = ovList(); s.lmN = ++LMH.n; lmhDropDead(LMH.n); r = _push(s, t, u); }
             LMH.lastURL = location.href; return r;
         };
         history.replaceState = function (st, t, u) {
             var cur = history.state || {}, s = Object.assign({}, st || {});
             if (!('lmOv' in s) && cur.lmOv) s.lmOv = cur.lmOv;
+            if (cur.lmDead) s.lmDead = 1;   // r31: a dead entry stays dead while shown
+            if (cur.lmDeadNext) s.lmDeadNext = 1;
             s.lmN = cur.lmN != null ? cur.lmN : LMH.n;
             var r = _rep(s, t, u); LMH.lastURL = location.href; return r;
         };
@@ -306,10 +358,15 @@
         if (take) {
             var cur0 = history.state || {}, top = LMH.stack[LMH.stack.length - 1], ot = top && LMH.reg[top];
             if (top && (lmhPending[top] || (ot && !ot.isOpen())) && cur0.lmN != null && LMH.ovN[top] === cur0.lmN) {
-                LMH.takeOnLand = id;
+                LMH.takeOnLand = id; LMH.takeFrom = cur0.lmN;
                 setTimeout(function () { if (LMH.takeOnLand === id) { LMH.takeOnLand = null; lmhOpened(id); } }, 1500);
                 return;
             }
+            // The menu it was chosen from closed and stepped back first, and the
+            // article came later (its data loads first): the menu's entry is left
+            // forward and a Forward reopened the menu over the article (r31).
+            var lc = LMH.lastClosed;
+            if (lc && cur0.lmN != null && lc.n === cur0.lmN + 1 && LMH.n === cur0.lmN && Date.now() - lc.t < 10000) { LMH.lastClosed = null; lmhDeadNext(); }
         }
         // Reopened after a reload (or a return from another page) on the entry
         // that was its own: take that entry back instead of pushing a second one,
@@ -323,10 +380,18 @@
             LMH.stack.sort(function (a, b) { return ord(a) - ord(b); });
         }
         try {
+            // The first overlay a fresh landing opens from its URL (cmp=, trivia=):
+            // the entry under it loses the deep keys (r31).
+            var h0 = location.hash, q0 = location.search, href0 = location.href;
+            if (!reuse && LMH.fresh) lmhDeepStart();
             var s = Object.assign({}, history.state || {}, { lmOv: LMH.stack.slice() });
+            delete s.lmDead; if (reuse) LMH.curDead = null;   // a live overlay's entry is not dead
             LMH.fresh = false;
             if (reuse) { s.lmN = LMH.n; LMH._rep(s, '', location.href); }
-            else { s.lmN = ++LMH.n; LMH._push(s, '', location.href); }
+            else {
+                var rest = LMH.deepPend && LMH.deepOn && OVKEY[id] ? lmhDeepOwn([OVKEY[id]]) : null;
+                s.lmN = ++LMH.n; lmhDropDead(LMH.n); LMH._push(s, '', rest ? lmhStripURL(rest, h0, q0) : href0);
+            }
             // A restored overlay below the top one has its own entry under this one.
             LMH.ovN[id] = ri >= 0 ? LMH.n - (LMH.restoreAll.length - 1 - LMH.restoreAll.indexOf(id)) : LMH.n;
         } catch (_) {}
@@ -339,6 +404,33 @@
         var tok = LMH.selfTok = (LMH.selfTok || 0) + 1;
         setTimeout(function () { if (LMH.selfTok === tok) LMH.selfBack = 0; }, 1500);
     }
+    // Step on past the current entry (dead), in the direction of travel. st is
+    // what the entry keeps, marked dead; it takes the URL of the screen still
+    // showing. At the end of the history there is nothing past it: go back to
+    // where the press came from, so the press does nothing at all.
+    // st null: the entry is not dead itself, only the same screen as the dead
+    // one just left (the URL is still put back on it).
+    function lmhStepOver(st, dir, prevURL) {
+        var dn = st ? st.lmN : LMH.n;
+        window.__lmPopHandled = true;
+        try { if (st) st.lmDead = 1; LMH._rep(st || history.state, '', prevURL); LMH.lastURL = prevURL; } catch (_) {}
+        window.__lmSkipHash = location.hash;
+        setTimeout(function () { window.__lmPopHandled = false; }, 0);
+        setTimeout(function () { window.__lmSkipHash = null; }, 400);
+        var nav = window.navigation, can = nav && typeof nav.canGoForward === 'boolean' ? (dir > 0 ? nav.canGoForward : nav.canGoBack) : null;
+        if (can === false) { if (st) { LMH.selfBack = 0; lmhSelfGo(-dir); } return; }
+        lmhSelfGo(dir);
+        if (can === null && st) setTimeout(function () { if ((history.state || {}).lmN === dn && LMH.n === dn) { LMH.selfBack = 0; lmhSelfGo(-dir); } }, 450);
+    }
+    // The entry a reload (or a return from another page) landed on, whose
+    // overlays none came back: it shows the same screen as the entry under it.
+    // One the URL still names (cmp=, trivia=) may only be slow to load.
+    function lmhRestoreDead(n, url) {
+        if (LMH.curDead != null && LMH.curDead === n) return true;
+        if (!LMH.restore || !LMH.restoreAll || n == null || n <= 0 || n !== LMH.restoreN || LMH.n !== n || LMH.stack.length) return false;
+        var hp = new URLSearchParams(String(url != null ? url : location.href).split('#')[1] || '');
+        return !LMH.restoreAll.some(function (id) { return OVKEY[id] && hp.get(OVKEY[id]); });
+    }
     function lmhClosed(id) {
         if (LMH.quiet) return;
         var at = LMH.stack.indexOf(id); if (at < 0) return;
@@ -350,7 +442,7 @@
             var cur = history.state || {};
             // Step back only over the overlay's own entry. One a page pushed above
             // it (a game, the language panel) stays; the overlay just leaves it.
-            if (at2 === LMH.stack.length && cur.lmN != null && cur.lmN === LMH.ovN[id]) lmhSelfGo(-1);
+            if (at2 === LMH.stack.length && cur.lmN != null && cur.lmN === LMH.ovN[id]) { LMH.lastClosed = { n: cur.lmN, t: Date.now() }; lmhSelfGo(-1); }
             else { try { LMH._rep(Object.assign({}, cur, { lmOv: ovList() }), '', location.href); } catch (_) {} }
         }, 0);
     }
@@ -370,6 +462,10 @@
         LMH.lastURL = location.href;
         var st = history.state || {};
         var want = st.lmOv || [];
+        // Leaving a dead entry we stood on (its overlays did not come back after
+        // a reload): the one under it shows the same screen.
+        var prevN = LMH.n, leftDead = lmhRestoreDead(prevN, prevURL);
+        LMH.curDead = null;
         LMH.fresh = false; LMH.restore = null;
         var self = LMH.selfBack > 0; if (self) LMH.selfBack--;
         // Direction from the entries' places; an entry without one is new (the
@@ -377,6 +473,14 @@
         var dir;
         if (st.lmN == null) { dir = 1; LMH.n++; try { LMH._rep(Object.assign({}, st, { lmN: LMH.n }), '', location.href); } catch (_) {} }
         else { dir = st.lmN < LMH.n ? -1 : (st.lmN > LMH.n ? 1 : 0); LMH.n = st.lmN; }
+        if (st.lmDeadNext) LMH.dead[st.lmN + 1] = 1;
+        // A dead entry (left behind by a take, stepped over before, or one whose
+        // overlays could not come back after a reload): step on past it the same
+        // way, opening and closing nothing. Left plain it was a dead press (r31).
+        if (dir !== 0 && (st.lmDead || LMH.dead[st.lmN])) { lmhStepOver(Object.assign({}, st, { lmOv: ovList() }), dir, prevURL); return; }
+        // Back from that dead entry: this press would change nothing on screen,
+        // so it goes one further; Forward later steps over the dead one (r31).
+        if (leftDead && dir < 0 && st.lmN === prevN - 1 && !LMH.stack.length) { lmhDeadNext(); lmhStepOver(null, -1, prevURL); return; }
         var changed = self, stale = [];
         LMH.quiet = true;
         try {
@@ -403,20 +507,20 @@
         } finally { LMH.quiet = false; }
         LMH.stack = want.filter(function (x) { return stale.indexOf(x) < 0; });
         if (stale.length && dir !== 0) {
-            // Drop the dead marker from this entry and step on past it; the page
-            // ignores this stop, and the next one keeps the live URL (self).
-            window.__lmPopHandled = true;
-            try { LMH._rep(Object.assign({}, st, { lmOv: ovList(), lmN: LMH.n }), '', prevURL); LMH.lastURL = prevURL; } catch (_) {}
-            window.__lmSkipHash = location.hash;
-            setTimeout(function () { window.__lmPopHandled = false; }, 0);
-            setTimeout(function () { window.__lmSkipHash = null; }, 400);
-            lmhSelfGo(dir);
+            // Mark this entry dead and step on past it; the page ignores this
+            // stop, and the next one keeps the live URL (self). Left plain, it
+            // cost a dead press the next time either way (r31).
+            lmhStepOver(Object.assign({}, st, { lmOv: ovList(), lmN: LMH.n }), dir, prevURL);
             return;
         }
         if (stale.length) { try { LMH._rep(Object.assign({}, st, { lmOv: ovList() }), '', location.href); } catch (_) {} }
         // The step back a taking overlay waited for (lmhOpened take) has landed.
         if (LMH.takeOnLand && LMH.selfBack === 0) {
             var tid = LMH.takeOnLand, to = LMH.reg[tid]; LMH.takeOnLand = null;
+            // The entry stepped back off (the menu's) still names the menu: a
+            // Forward reopened it over the article (r31).
+            if (LMH.takeFrom === LMH.n + 1) lmhDeadNext();
+            LMH.takeFrom = null;
             if (to && to.isOpen() && LMH.stack.indexOf(tid) < 0) {
                 LMH.stack.push(tid); LMH.ovN[tid] = LMH.n; changed = true;
                 try { LMH._rep(Object.assign({}, history.state || {}, { lmOv: ovList() }), '', location.href); } catch (_) {}
@@ -445,6 +549,8 @@
     try {
         var st0 = Object.assign({}, history.state || {});
         if (st0.lmN != null) LMH.n = st0.lmN; else st0.lmN = LMH.n;
+        if (st0.lmDeadNext) LMH.dead[st0.lmN + 1] = 1;   // r31
+        if (st0.lmDead) LMH.curDead = st0.lmN;
         if (st0.lmOv && st0.lmOv.length) { LMH.restore = st0.lmOv.slice(); LMH.restoreAll = st0.lmOv.slice(); LMH.restoreN = st0.lmN; }
         delete st0.lmOv;
         LMH._rep(st0, '', location.href);
@@ -465,29 +571,31 @@
                 try { o.open(); } catch (_) {}
             }
             // Whatever could not reopen leaves the entry plain; a later open pushes.
+            // When none of them came back, the entry shows the same screen as the
+            // one under it (r31): mark it dead, so Forward steps over it and Back
+            // from it steps over the one under it too (lmhRestoreDead).
+            setTimeout(function () {
+                var cur = history.state || {};
+                if (lmhRestoreDead(cur.lmN)) { try { LMH._rep(Object.assign({}, cur, { lmDead: 1 }), '', location.href); } catch (_) {} LMH.curDead = cur.lmN; }
+            }, 1000);
             setTimeout(function () { LMH.restore = null; }, 4000);
         };
         var start = function () { setTimeout(track, 0); setTimeout(rest, 1200); };
         if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start();
         window.addEventListener('load', track);
     })();
-    window.addEventListener('pageshow', function (e) { if (e.persisted) { LMH.stack = (history.state && history.state.lmOv) || []; if (history.state && history.state.lmN != null) LMH.n = history.state.lmN; } });
+    window.addEventListener('pageshow', function (e) { if (e.persisted) { LMH.stack = (history.state && history.state.lmOv) || []; if (history.state && history.state.lmN != null) LMH.n = history.state.lmN; LMH.curDead = history.state && history.state.lmDead ? LMH.n : null; } });
     // A landing that opens an overlay from the URL (a shared #play=, #lang=,
     // #trivia= link) gets an entry under it, the same URL without those keys, so
     // Back closes the overlay and stays on the site; it left the site with the
     // overlay open (r29). Once, on a fresh landing, before any other push.
+    // r31: the base entry drops every deep key, and the later openers of the
+    // same landing (lang= after cmp= or trivia=) get an entry each too.
     window.__lmDeepBase = function (keys, st, hash) {
-        if (!LMH.fresh) return false;
-        LMH.fresh = false;
-        var strip = function (s, lead) {
-            var p = String(s || '').replace(/^[?#]/, '').split('&').filter(function (kv) { return kv && keys.indexOf(kv.split('=')[0]) < 0; });
-            return p.length ? lead + p.join('&') : '';
-        };
-        var h = hash != null ? hash : location.hash;
-        try {
-            LMH._rep(Object.assign({}, history.state || {}, { lmOv: undefined, lmN: LMH.n }), '', location.pathname + strip(location.search, '?') + strip(h, '#'));
-            history.pushState(st || null, '', location.pathname + location.search + h);
-        } catch (_) { return false; }
+        var h = hash != null ? hash : location.hash, q = location.search;
+        if (LMH.fresh) { LMH.fresh = false; try { lmhDeepStart(h); } catch (_) { return false; } }
+        else if (!(LMH.deepPend && LMH.deepOn)) return false;
+        try { history.pushState(st || null, '', lmhStripURL(lmhDeepOwn(keys), h, q)); } catch (_) { return false; }
         return true;
     };
 

@@ -143,7 +143,8 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
   <h1><?= e($name) ?></h1>
   <?php if (!empty($akaList)): ?><p class="sub aka"><?= e(seo_t($ui, 'aka', ['list' => implode($ui === 'ja' || $ui === 'zh' || $ui === 'yue' ? '、' : ', ', $akaList)])) ?></p><?php endif; ?>
   <?php if (!empty($meta['family'])): ?>
-    <p class="sub"><?= seo_chip_value(seo_meta_value($ui, $meta['family']), seo_meta_value_lang($ui, (string) $meta['family'])) ?><?= !empty($lang['excluded']) ? ' · ' . e(seo_t($ui, 'hidden_tag')) : '' ?></p>
+    <p class="sub"><?= seo_chip_value(seo_meta_value($ui, $meta['family']), seo_meta_value_lang($ui, (string) $meta['family'])) ?></p><?php /* No "historical / hidden variety" tag: "hidden" is the map's internal
+         default-view flag, not something a reader of the page can use (r31 a2). */ ?>
   <?php endif; ?>
 </header>
 
@@ -202,7 +203,7 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
 <p class="seo-goods-peek"><a href="#seo-goods"><?= e(seo_t($ui, 'goods_peek', ['name' => $name])) ?></a></p>
 
 <section class="seo-section">
-  <h2><?= e(seo_t($ui, 'words_heading', ['name' => $name, 'w' => (string) count($words)])) ?></h2>
+  <h2><?= e(seo_t($ui, 'words_heading', ['name' => $name, 'w' => $wc])) ?></h2>
   <div class="seo-words">
   <?php foreach ($words as $w):
       $id = $w['id'];
@@ -210,7 +211,9 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
       $label = seo_pick($w['label'] ?? [], $ui) ?: $id;
       $surface = $entry[0] ?? '';
       $ipa = $entry[1] ?? '';
-      if ($surface === '' && $ipa === '') continue;
+      // The same test seo_wordmap_filled() counts with, so the heading's number
+      // is the number of cards: a "—" placeholder cell is not a word (r31 a2#1).
+      if (preg_match('/^[\s\x{2014}\x{2013}\-?]*$/u', trim((string) $surface))) continue;
       // Alternate script / period forms — Sawndip for Zhuang, the Khitan large
       // script, the Jurchen 女真譯語 transliterations, and the oracle-bone and
       // bronze writings of Old Chinese. The map shows these under the main word;

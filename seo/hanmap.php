@@ -202,6 +202,8 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
 
     $name = seo_pick($lang['names'] ?? [], $ui) ?: ($lang['name'] ?? $code);
     $native = $lang['native'] ?? '';
+    // Proto rows: the export already drops their Japanese row label (r31 a2#6).
+    if (strpos((string) ($lang['family'] ?? ''), '(proto)') !== false) $native = '';
     $desc = seo_pick($lang['description'] ?? [], $ui);
     $readingType = seo_pick($lang['readingType'] ?? [], $ui);
 
@@ -300,7 +302,8 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
 <?php endif; ?>
 
 <section class="seo-section">
-  <h2 id="seo-chars-h"><?= e(seo_t($ui, 'chars_heading', ['name' => $name])) ?></h2>
+  <?php /* The heading follows the title's $kind: native words and early loans are not "readings" (r31 a2#5). */ ?>
+  <h2 id="seo-chars-h"><?= e(seo_t($ui, $kind === 'reading' ? 'chars_heading' : 'chars_heading_' . $kind, ['name' => $name])) ?></h2>
 <?php
     // The table is cut into ~30-row tables (whole characters, so rowspans
     // stay inside one table). Each table after the first sits in a

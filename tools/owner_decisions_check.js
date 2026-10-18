@@ -34,14 +34,17 @@ const DECISIONS = [
     },
     {
         id: 'settings-drawer-above-compare',
-        what: 'The Word Map settings drawer stops above the 比較 button in every layout (owner 2026-09-13, fd04ef72; skipped on short landscape phones by rally r20 4f86ecfe, restored 2026-10-18)',
-        check: () => {
-            const m = read('wordmap.html').match(/function positionSettingsDrawer\(\) \{([\s\S]*?)\n        \}/);
-            if (!m) return ['wordmap.html'];
-            // every early return must come after a compare-fab measurement
-            const body = m[1], rets = [...body.matchAll(/\n\s*return;/g)].map((x) => x.index);
-            return rets.every((i) => body.slice(0, i).lastIndexOf('compare-fab') > body.slice(0, i).lastIndexOf('if (r.height === 0)')) ? [] : ['wordmap.html'];
-        },
+        what: 'The Word Map and Han Map settings drawers stop above the 比較 button in every layout (owner 2026-09-13, fd04ef72; skipped on short landscape phones by rally r20 4f86ecfe, restored 2026-10-18; Han Map never had it until r31)',
+        check: () => ['wordmap.html', 'hanmap.html'].filter((f) => {
+            const m = read(f).match(/function positionSettingsDrawer\(\) \{([\s\S]*?)\n        \}/);
+            if (!m) return true;
+            // every early return, and the end of the function, must come after
+            // a compare-fab measurement; the drawer must also re-measure when
+            // the compare button appears or goes
+            const body = m[1], rets = [...body.matchAll(/\n\s*return;/g)].map((x) => x.index).concat([body.length]);
+            const afterFab = (i) => body.slice(0, i).lastIndexOf('compare-fab') > body.slice(0, i).lastIndexOf('if (r.height === 0)');
+            return !rets.every(afterFab) || !/new MutationObserver\(positionSettingsDrawer\)/.test(read(f));
+        }),
     },
     {
         id: 'hanmap-names-no-brackets',

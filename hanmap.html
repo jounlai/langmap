@@ -9057,9 +9057,10 @@
                 const _noView = !params.get('p') && !(params.get('lat') && params.get('lng'));
                 // Defer until after initial markers are rendered.
                 clearTimeout(window.__langRestoreTimer);
-                window.__langRestoreTimer = setTimeout(() => { if (new URLSearchParams(location.hash.slice(1)).get('lang') !== langCode) return;   // the URL moved on before this ran (r27)
+                window.__langRestoreFor = langCode;
+                window.__langRestoreTimer = setTimeout(() => { if (window.__langRestoreFor !== langCode) return;   // token, not the URL: boot-time updateHash() rewrote the hash before this ran and every lang= link opened nothing (r28)
                     if (_noView) { try { centerLangOnMap(langCode); } catch (_) {} } showLangInfo(langCode, { fromHash: true }); }, 100);
-            } else if ((clearTimeout(window.__langRestoreTimer), document.getElementById('lang-info')?.classList.contains('visible')) && typeof closeInfoPanel === 'function') {   // not infoPanel: a const declared after this first runs
+            } else if ((clearTimeout(window.__langRestoreTimer), window.__langRestoreFor = null, document.getElementById('lang-info')?.classList.contains('visible')) && typeof closeInfoPanel === 'function') {   // not infoPanel: a const declared after this first runs
                 closeInfoPanel();   // Back to an entry with no open language (r25)
             }
             // Restore open trivia article from URL (?trivia=<id>). Deferred

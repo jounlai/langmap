@@ -7372,7 +7372,7 @@
                 // labels were placed 400-800px from their place (Suzhou Wu out at sea).
                 // Keep the on-screen distance of the normal size: a label that cannot
                 // fit near its place is hidden, not moved far away (owner, r27).
-                const _ringStep = Math.max(4, _ch * 0.13), _maxR = MAX_PUSH * 2.2 / Math.max(1, _geomScale);
+                const _ringStep = Math.max(4, _ch * 0.13), _maxR = MAX_PUSH * 2.2 / Math.max(1, _geomScale / 1.4);   // 1.4 = the default text size (slider 140): r27 already cut the ring there (r28)
                 for (const c of _rendered) {
                     const ax = ppx[c].x, ay = ppx[c].y, hw = _hw[c] || _bbHalfW, hh = _hh[c] || _bbHalfH;
                     let chosen = null;
@@ -7854,10 +7854,11 @@
                 const _noView = !params.get('p') && !(params.get('lat') && params.get('lng'));
                 // Defer until after initial markers are rendered.
                 clearTimeout(window.__langRestoreTimer);
-                window.__langRestoreTimer = setTimeout(() => { if (new URLSearchParams(location.hash.slice(1)).get('lang') !== langCode) return;   // the URL moved on before this ran (r27)
+                window.__langRestoreFor = langCode;
+                window.__langRestoreTimer = setTimeout(() => { if (window.__langRestoreFor !== langCode) return;   // token, not the URL: boot-time updateHash() rewrote the hash before this ran and every lang= link opened nothing (r28)
                     if (_noView) { try { centerLangOnMap(langCode, 5); } catch (_) {} } showLangInfo(langCode, { fromHash: true }); }, 100);
             } else {
-                clearTimeout(window.__langRestoreTimer);   // a restore queued by the previous entry (r27)
+                clearTimeout(window.__langRestoreTimer); window.__langRestoreFor = null;   // a restore queued by the previous entry (r27)
                 // Back/forward landed on a state with no open language → close the
                 // panel so the URL reflects what's shown. `infoPanel` is a `const`
                 // declared later, so on the very first loadHash() it's in the

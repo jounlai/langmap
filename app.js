@@ -635,7 +635,10 @@ function detectUILang() {
         const map = { ja:'ja', ko:'ko', zh:'zh', vi:'vi', th:'th', id:'id', hi:'hi',
             en:'en', de:'de', fr:'fr', it:'it', ru:'ru', uk:'uk', ar:'ar', he:'he',
             sw:'sw', pt:'pt', es:'es' };
-        if (map[base] && UI_STRINGS[map[base]]) return map[base];
+        // Hong Kong / Macau Chinese is the Cantonese UI: decide before the generic
+                // zh entry below swallows it (r23). Taiwan stays Mandarin.
+                if (/^(zh_(hk|mo)|yue)/.test(code)) { if (UI_STRINGS.yue) return 'yue'; }
+                if (map[base] && UI_STRINGS[map[base]]) return map[base];
     }
     return 'en';
 }

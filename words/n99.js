@@ -184,7 +184,7 @@ WORDS.n99 = {
     en: "The number 99 — chosen because it is where numeral systems stop agreeing: base ten against base twenty, tens-first against units-first, Danish half-scores, subtraction from a hundred, and numerals too opaque to decompose at all. Within base ten it splits again, on whether the decade is still nine times ten or has fossilised into a word of its own.",
     ja: "数の99。数詞の体系が最も食い違う数だから選んだ——10進と20進、十の位が先か一の位が先か、デンマーク語の「半分の score」、100からの引き算、そして分解できないほど不透明な数詞。10進の内部でもさらに分かれる——十位が「9×10」と透けて見えるか、独立した語に固まっているか。",
     ko: "숫자 99. 수사 체계가 가장 크게 갈리는 수여서 골랐다 — 십진법과 이십진법, 십의 자리가 먼저인가 일의 자리가 먼저인가, 덴마크어의 반(半) 스코어, 100에서 빼기, 그리고 아예 분해되지 않는 수사. 십진법 안에서도 다시 갈린다 — 십의 자리가 여전히 9×10인지, 독립된 낱말로 굳었는지.",
-    zh: "数字99。选它是因为这是各语言数词体系分歧最大的数——十进制与二十进制、十位在前还是个位在前、丹麦语的「半个二十」、从一百中减去，以及根本无法拆解的数词。在十进制内部还会再分——十位究竟仍是9×10，还是已固化为独立的词。",
+    zh: "数字99。选它是因为这是各语言数词体系分歧最大的数——十进制与二十进制、十位在前还是个位在前、丹麦语的“半个二十”、从一百中减去，以及根本无法拆解的数词。在十进制内部还会再分——十位究竟仍是9×10，还是已固化为独立的词。",
     yue: "數字99。揀佢係因為呢個數最能顯示數詞體系嘅分歧——十進制同二十進制、十位定個位喺前、丹麥語嘅「半個二十」、由一百減出嚟，同埋完全拆唔開嘅數詞。喺十進制入面仲會再分——十位究竟仲係9×10，定係已經固化成獨立嘅詞。",
     vi: "Số 99 — được chọn vì đây là nơi các hệ đếm khác nhau nhất: cơ số mười so với cơ số hai mươi, hàng chục trước hay hàng đơn vị trước, lối đếm nửa-score của tiếng Đan Mạch, phép trừ từ một trăm, và những số từ không thể phân tích. Trong hệ cơ số mười nó lại chia tiếp: hàng chục còn là 9×10 hay đã hoá thạch thành một từ riêng.",
     th: "เลข 99 — เลือกเพราะเป็นจุดที่ระบบเลขของภาษาต่าง ๆ ต่างกันมากที่สุด: ฐานสิบกับฐานยี่สิบ หลักสิบมาก่อนหรือหลักหน่วยมาก่อน ระบบครึ่งยี่สิบของเดนมาร์ก การลบจากหนึ่งร้อย และคำเลขที่แยกส่วนไม่ได้เลย ภายในฐานสิบยังแยกอีกชั้น — หลักสิบยังเป็น 9×10 อยู่ หรือกลายเป็นคำเฉพาะไปแล้ว",

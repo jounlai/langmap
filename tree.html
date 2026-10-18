@@ -591,7 +591,7 @@ generates lang_names/<ui>.js from lang_names.js. -->
         if (!_enginePromise) _enginePromise = _loadJS('meta_i18n_engine.js?v=1');
         // per-UI writes META_I18N[ui] (the const from the lite file) + fills
         // META_I18N_ATOMS — engine must run first (async=false guarantees it).
-        _i18nByUi[ui] = Promise.all([_enginePromise, _loadJS('meta_i18n/' + ui + '.js?v=5')]);
+        _i18nByUi[ui] = Promise.all([_enginePromise, _loadJS('meta_i18n/' + ui + '.js?v=6')]);
         return _i18nByUi[ui];
     }
     // The tree only reads structured fields (family / parentCode / speakers) +
@@ -1213,7 +1213,7 @@ generates lang_names/<ui>.js from lang_names.js. -->
         if (!shown) showNoMatch(query);
     }
     const NO_MATCH = {
-        en: ['No language matches “{q}”.', 'Clear search'], ja: ['「{q}」に一致する言語はありません。', '検索をクリア'], ko: ['“{q}”와 일치하는 언어가 없습니다.', '검색 지우기'],
+        en: ['No language matches “{q}”.', 'Clear search'], ja: ['「{q}」に一致する言語はありません。', '検索をクリア'], ko: ['“{q}”에 해당하는 언어가 없습니다.', '검색 지우기'],
         zh: ['没有与“{q}”匹配的语言。', '清除搜索'], yue: ['冇語言符合「{q}」。', '清除搜尋'], vi: ['Không có ngôn ngữ nào khớp với “{q}”.', 'Xóa tìm kiếm'],
         th: ['ไม่มีภาษาที่ตรงกับ “{q}”', 'ล้างการค้นหา'], id: ['Tidak ada bahasa yang cocok dengan “{q}”.', 'Hapus pencarian'], hi: ['“{q}” से मेल खाने वाली कोई भाषा नहीं।', 'खोज साफ़ करें'],
         de: ['Keine Sprache passt zu „{q}“.', 'Suche löschen'], fr: ['Aucune langue ne correspond à « {q} ».', 'Effacer la recherche'], it: ['Nessuna lingua corrisponde a «{q}».', 'Cancella ricerca'],

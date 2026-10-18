@@ -37,7 +37,7 @@ WORDS.green = {
     en: "The basic colour term for green — the hue of grass and fresh leaves, lying between yellow and blue. The ordinary colour word; where a language has a single 'grue' term covering both green and blue, that shared word is given here (and also appears under 'blue').",
     ja: "緑の基本色名——草や若葉の色で、黄と青の間にある色相。日常の色語を採り、緑と青を一語でまとめる「grue（青緑）」型の言語では、その共通語をここに載せる（「青」の項にも現れる）。",
     ko: "녹색을 가리키는 기본 색이름 — 풀과 새잎의 빛깔로, 노랑과 파랑 사이의 색조이다. 일상적인 색낱말을 싣되, 초록과 파랑을 한 낱말로 아우르는 'grue'형 언어에서는 그 공통 낱말을 여기에 싣는다('파랑' 항목에도 나타난다).",
-    zh: "绿的基本颜色词——草和嫩叶的颜色，位于黄与蓝之间的色相。取日常的颜色词；若语言用一个「grue」词同时涵盖绿与蓝，则在此列出该共用词（它也出现在「蓝」条目中）。",
+    zh: "绿的基本颜色词——草和嫩叶的颜色，位于黄与蓝之间的色相。取日常的颜色词；若语言用一个“grue”词同时涵盖绿与蓝，则在此列出该共用词（它也出现在“蓝”条目中）。",
     yue: "綠嘅基本顏色詞——草同嫩葉嘅顏色，喺黃同藍之間嘅色相。取日常嘅顏色詞；若語言用一個「grue」詞同時涵蓋綠同藍，就喺呢度列出嗰個共用詞（佢亦會出現喺「藍」條目度）。",
     vi: "Từ chỉ màu cơ bản cho màu xanh lá — sắc của cỏ và lá non, nằm giữa vàng và lam. Lấy từ chỉ màu thường ngày; ở những ngôn ngữ có một từ 'grue' bao gồm cả xanh lá lẫn xanh lam, từ dùng chung ấy được ghi ở đây (và cũng xuất hiện ở mục 'xanh lam').",
     th: "คำเรียกสีพื้นฐานสำหรับสีเขียว — สีของหญ้าและใบไม้อ่อน อยู่ระหว่างสีเหลืองกับสีน้ำเงินในสเปกตรัม เอาคำเรียกสีที่ใช้ในชีวิตประจำวัน ภาษาที่มีคำ 'grue' คำเดียวครอบคลุมทั้งเขียวและน้ำเงิน จะลงคำร่วมนั้นไว้ที่นี่ (และปรากฏในหมวด 'น้ำเงิน' ด้วย)",

@@ -32,7 +32,7 @@ WORDS.moon = {
     en: "Earth's natural satellite; not the calendar month.",
     ja: "地球の衛星としての月。暦の「月」ではない。",
     ko: "지구의 위성으로서의 달. 달력의 \"월\"이 아니다.",
-    zh: "地球的天然卫星；不是日历上的\"月\"。",
+    zh: "地球的天然卫星；不是日历上的“月”。",
     yue: "地球嘅天然衛星；唔係指曆法上嘅「月份」。",
     vi: "Vệ tinh tự nhiên của Trái Đất; không phải \"tháng\" trong lịch.",
     th: "ดวงจันทร์ ดาวบริวารของโลก; ไม่ใช่ \"เดือน\" ในปฏิทิน",

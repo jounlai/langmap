@@ -32,7 +32,7 @@ WORDS.thanks = {
     en: "Spoken thank-you formula for modern languages. For historical languages, use — or a clearly noted liturgical/gratitude noun rather than inventing a formula.",
     ja: "現代語では話し言葉の感謝表現。歴史言語では「—」または明記された宗教/感謝名詞を用い、表現を捏造しない。",
     ko: "현대어에서는 구어 감사 표현. 역사 언어에서는 \"—\" 또는 명기된 종교/감사 명사를 사용하고 임의로 만들어내지 않음.",
-    zh: "现代语言使用口语感谢表达。历史语言用 \"—\" 或明确标注的礼仪/感谢名词，而非杜撰表达。",
+    zh: "现代语言使用口语感谢表达。历史语言用“—”或明确标注的礼仪/感谢名词，而非杜撰表达。",
     yue: "現代語：口語感謝表達。歷史語言用「—」或者明確標記嘅祈福／感謝名詞，唔好捏造。",
     vi: "Lời cảm ơn nói thường ngày trong ngôn ngữ hiện đại. Ngôn ngữ lịch sử dùng \"—\" hoặc danh từ tạ ơn có chú giải, không bịa.",
     th: "คำขอบคุณเชิงพูดในภาษาสมัยใหม่ ภาษาประวัติศาสตร์ใช้ \"—\" หรือคำนามขอบคุณ/ศาสนา; ห้ามสร้างขึ้นเอง",

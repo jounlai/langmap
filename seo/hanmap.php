@@ -180,7 +180,8 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
                 // The meaning sits under the character, not in a column of its own:
                 // the extra column pushed the readings off a phone screen (r21).
                 $glT = (string) (($c['glosses'] ?? [])[$ui] ?? '');   // r22: translated meanings
-                $gl = $glT !== '' ? $glT : (string) ($c['gloss'] ?? '');
+                if (preg_match('/^(?:[\x{3400}-\x{9FFF}\x{F900}-\x{FAFF}]|\d+)$/u', $glT)) $glT = '-';   // just the character again / a digit: nothing to add (r23)
+                $gl = $glT === '-' ? '' : ($glT !== '' ? $glT : (string) ($c['gloss'] ?? ''));
                 $html .= '<td class="c-char" rowspan="' . $n . '"><span lang="zh">' . e($c['char']) . '</span>'
                        . ($gl !== '' ? '<span class="c-gl"' . ($ui !== 'en' && $glT === '' ? ' lang="en"' : '') . '>' . e($gl) . '</span>' : '') . '</td>';
             }

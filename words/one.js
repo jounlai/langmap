@@ -32,7 +32,7 @@ WORDS.one = {
     en: "Cardinal numeral 1; masculine/default citation form where languages distinguish gender (e.g. ar واحد, he אחד, fr un, es uno).",
     ja: "基数 1。性別区別がある言語では男性形・既定形 (例: ar واحد, he אחד, fr un, es uno)。",
     ko: "기수 1. 성을 구분하는 언어에서는 남성형/기본형 (예: ar واحد, he אחד, fr un, es uno).",
-    zh: "基数 1。区分性别的语言中使用阳性/默认形式 (如 ar واحد, he אחד, fr un, es uno)。",
+    zh: "基数 1。区分性别的语言中使用阳性/默认形式（如 ar واحد, he אחד, fr un, es uno）。",
     yue: "基數 1。分性別嘅語言用陽性／預設形（例如 ar واحد、he אחד、fr un、es uno）。",
     vi: "Số đếm 1. Với ngôn ngữ phân biệt giống, dùng dạng giống đực/mặc định (ar واحد, he אחד, fr un, es uno).",
     th: "เลขนับ 1; ภาษาที่จำแนกเพศใช้รูปบุรุษ/รูปอ้างอิงพื้นฐาน (เช่น ar واحد, he אחד, fr un, es uno)",

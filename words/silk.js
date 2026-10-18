@@ -38,7 +38,7 @@ WORDS.silk = {
     en: "Silk as the fibre and the cloth — the fine thread spun by the mulberry silkworm and the fabric woven from it. A Silk-Road Wanderwort: most of these words descend from Chinese sī 絲 by way of Greek and Latin, though a few families (Persian abrišam, Arabic ḥarīr, Sanskrit-borrowed sutra) took their own routes.",
     ja: "繊維および布としての絹——カイコが吐く細い糸と、それで織った織物。シルクロードの伝播語で、これらの語の多くは中国語の「絲（sī）」からギリシャ語・ラテン語を経て広まったが、一部の系統（ペルシア語 abrišam、アラビア語 ḥarīr、サンスクリット借用の sutra）は独自の経路をたどった。",
     ko: "섬유이자 천으로서의 비단 — 누에가 뽑아내는 가는 실과 그것으로 짠 직물. 실크로드를 따라 퍼진 이동 낱말로, 이 낱말들 대부분은 중국어 '사(絲, sī)'에서 그리스어·라틴어를 거쳐 퍼졌으나, 일부 갈래(페르시아어 abrišam, 아랍어 ḥarīr, 산스크리트 차용 sutra)는 저마다 다른 길을 갔다.",
-    zh: "作为纤维与织物的丝绸——蚕吐出的细丝以及用它织成的织物。这是一条丝绸之路上的漫游词：这些词多半源自汉语的「絲（sī）」，经希腊语、拉丁语传播，但少数词族（波斯语 abrišam、阿拉伯语 ḥarīr、借自梵语的 sutra）另有来路。",
+    zh: "作为纤维与织物的丝绸——蚕吐出的细丝以及用它织成的织物。这是一条丝绸之路上的漫游词：这些词多半源自汉语的“絲（sī）”，经希腊语、拉丁语传播，但少数词族（波斯语 abrišam、阿拉伯语 ḥarīr、借自梵语的 sutra）另有来路。",
     yue: "作為纖維同織物嘅絲綢——蠶吐出嘅幼絲以及用佢織成嘅織物。呢個係絲綢之路上嘅漫遊詞：呢啲詞大多源自漢語嘅「絲（sī）」，經希臘文、拉丁文傳開，但少數詞族（波斯文 abrišam、阿拉伯文 ḥarīr、借自梵文嘅 sutra）另有來路。",
     vi: "Lụa với tư cách là sợi và vải — sợi tơ mảnh do con tằm nhả ra và tấm vải dệt từ nó. Một từ lang thang của Con đường Tơ lụa: phần lớn các từ này bắt nguồn từ chữ Hán 絲 (sī) qua tiếng Hy Lạp và Latinh, dù vài nhóm (tiếng Ba Tư abrišam, tiếng Ả Rập ḥarīr, sutra mượn từ tiếng Phạn) đi theo con đường riêng.",
     th: "ไหมในฐานะเส้นใยและผ้า — เส้นใยละเอียดที่ตัวไหมชักออกมา และผ้าที่ทอจากมัน เป็นคำพเนจรของเส้นทางสายไหม คำเหล่านี้ส่วนใหญ่สืบมาจากคำจีน 絲 (sī) ผ่านภาษากรีกและละติน แม้บางตระกูล (abrišam ในภาษาเปอร์เซีย, ḥarīr ในภาษาอาหรับ, sutra ที่ยืมจากสันสกฤต) จะมีเส้นทางของตนเอง",

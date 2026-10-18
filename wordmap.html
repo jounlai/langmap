@@ -3739,8 +3739,8 @@
     </script>
     <script src="wordmap_data.js?v=345"></script>
     <script src="lang_attention.js?v=1"></script>
-    <script src="word_manifest.js?v=962"></script>
-    <script src="word_labels.js?v=70"></script>
+    <script src="word_manifest.js?v=963"></script>
+    <script src="word_labels.js?v=71"></script>
     <script>
         /* Cache-buster registry. It MUST be declared here, above the per-word
            loader below, and not beside assetUrl() where it used to live.
@@ -3762,20 +3762,20 @@
         const WM_ASSET_VERSION = {
             styles:   159,
             data:      345,
-            metaI18n:  16,
-            filter:    58,
+            metaI18n:  17,
+            filter:    59,
             names:   203,
             meta:     419,
             trivia:   44,
             triviaI18n: 27,
-            words:      962,
+            words:      963,
             langWords:    676,
-            labels:      70,
-            metaI18nCoverage: 10,
+            labels:      71,
+            metaI18nCoverage: 11,
             metaI18nCoverage2: 2,
-            metaI18nCoverage3: 6,
+            metaI18nCoverage3: 7,
             metaI18nEngine: 1,
-            metaI18nUi: 5,
+            metaI18nUi: 6,
         };
         window.WM_ASSET_VERSION = WM_ASSET_VERSION;
     </script>
@@ -3918,7 +3918,7 @@
          loaded. Loading them eagerly meant half a megabyte on every visit for
          data that only matters once a language modal opens. They now load
          inside loadMeta(). See __wmLoadMetaI18n() below. -->
-    <script src="lang-filter.js?v=58"></script>
+    <script src="lang-filter.js?v=59"></script>
     <!-- Translated language names: 1,154 codes × 19 UI languages is ~215 KB
          gzipped, and a reader uses one of them plus English as the fallback.
          Load the shim, then English, then whichever UI language this visitor
@@ -4257,6 +4257,9 @@
                 const map = { ja:'ja', ko:'ko', zh:'zh', vi:'vi', th:'th', id:'id', hi:'hi',
                     en:'en', de:'de', fr:'fr', it:'it', ru:'ru', uk:'uk', ar:'ar', he:'he',
                     sw:'sw', pt:'pt', es:'es', da:'en', sv:'en', no:'en', nl:'en' };
+                // Hong Kong / Macau Chinese is the Cantonese UI: decide before the generic
+                // zh entry below swallows it (r23). Taiwan stays Mandarin.
+                if (/^(zh_(hk|mo)|yue)/.test(code)) { if (WM_UI.yue) return 'yue'; }
                 if (map[base] && WM_UI[map[base]]) return map[base];
                 if (base === 'zh') {
                     if (code.includes('hk') || code.includes('tw') || code.includes('hant')) return 'yue';
@@ -4482,7 +4485,7 @@
             // markers (drawn in red).
             eraHelpModern: {
                 en:'Modern mode: shows modern languages and varieties.',
-                ja:'現代モード: 現代言語・地方変種のみ表示します。',
+                ja:'現代モード：現代言語・地方変種のみ表示します。',
                 ko:'현대 모드: 현대 언어와 지역 변종을 표시합니다.',
                 zh:'现代模式：只显示现代语言和地区变体。',
                 yue:'現代模式：只顯示現代語言同地區變體。',
@@ -4503,7 +4506,7 @@
             },
             eraHelpHistorical: {
                 en:'Historical mode: shows historical languages plus modern descendants (red) as cross-reference.',
-                ja:'歴史モード: 歴史言語に加え、現代後裔言語（赤色）を参照として併せて表示します。',
+                ja:'歴史モード：歴史言語に加え、現代後裔言語（赤色）を参照として併せて表示します。',
                 ko:'역사 모드: 역사 언어와 함께 현대 후손 언어(빨간색)를 참조용으로 표시합니다.',
                 zh:'历史模式：显示历史语言以及作为参照的现代后裔语言（红色）。',
                 yue:'歷史模式：顯示歷史語言以及作為參照嘅現代後裔語言（紅色）。',
@@ -9031,8 +9034,8 @@
                         const provColor = { 'manual-override': '#2e7d32', 'family-default': '#5f6368', 'unknown': '#6b6b6b' };
                         // Tone (boolean) → localized "tonal" / "non-tonal"
                         const TONE_LBL = {
-                            true:  { en:'tonal',     ja:'声調あり',   ko:'성조 있음', zh:'有声调',   yue:'有聲調',   vi:'có thanh điệu',   th:'มีวรรณยุกต์',     id:'tonal',         hi:'सुरयुक्त',         de:'tonal',     fr:'tonale',     it:'tonale',     es:'tonal',     pt:'tonal',     ru:'тональный',    uk:'тональна',    ar:'نبري',        he:'טונאלית',     sw:'yenye toni' },
-                            false: { en:'non-tonal', ja:'声調なし',   ko:'성조 없음', zh:'无声调',   yue:'無聲調',   vi:'không thanh điệu',th:'ไม่มีวรรณยุกต์', id:'non-tonal',     hi:'सुररहित',    de:'nicht tonal', fr:'non tonale', it:'non tonale', es:'no tonal',  pt:'não tonal', ru:'нетональный', uk:'нетональна', ar:'غير نبري',    he:'לא טונאלית',  sw:'isiyo na toni' },
+                            true:  { en:'tonal',     ja:'声調あり',   ko:'성조 있음', zh:'有声调',   yue:'有聲調',   vi:'có thanh điệu',   th:'มีวรรณยุกต์',     id:'tonal',         hi:'सुरयुक्त',         de:'tonal',     fr:'tonale',     it:'tonale',     es:'tonal',     pt:'tonal',     ru:'тональный',    uk:'тональна',    ar:'نغمية',        he:'טונאלית',     sw:'yenye toni' },
+                            false: { en:'non-tonal', ja:'声調なし',   ko:'성조 없음', zh:'无声调',   yue:'無聲調',   vi:'không thanh điệu',th:'ไม่มีวรรณยุกต์', id:'non-tonal',     hi:'सुररहित',    de:'nicht tonal', fr:'non tonale', it:'non tonale', es:'no tonal',  pt:'não tonal', ru:'нетональный', uk:'нетональна', ar:'غير نغمية',    he:'לא טונאלית',  sw:'isiyo na toni' },
                         };
                         // Morphology values → localized
                         const MORPH_LBL = {
@@ -12683,7 +12686,7 @@
          text/plain (not fetched at first paint, as hanmap_trivia.js is) and
          injected the first time the game opens. The stub below only labels
          the launcher and loads the module on demand. -->
-    <script type="text/plain" id="master-src" src="master.js?v=24"></script>
+    <script type="text/plain" id="master-src" src="master.js?v=25"></script>
     <script>
     (function () {
         'use strict';

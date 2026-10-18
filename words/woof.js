@@ -17,10 +17,10 @@ WORDS.woof = {
   },
   definition: {
     en: "The onomatopoeia for a dog's bark — the conventional imitative word in each language (English 'woof' / 'bow-wow', Japanese ワンワン, Mandarin 汪汪). NOT the verb 'to bark' and NOT a literal recording; the culturally agreed spelling of the sound.",
-    ja: "犬の吠え声の擬音語 — 各言語で慣用的に用いる写声語（英語 'woof'／'bow-wow'、日本語 ワンワン、中国語 汪汪）。動詞「吠える」ではなく、音を文化的に綴った形。",
+    ja: "犬の吠え声の擬音語 — 各言語で慣用的に用いる写声語（英語「woof」／「bow-wow」、日本語 ワンワン、中国語 汪汪）。動詞「吠える」ではなく、音を文化的に綴った形。",
     ko: "개 짖는 소리의 의성어 — 각 언어에서 관용적으로 쓰는 흉내말(영어 'woof', 일본어 ワンワン, 중국어 汪汪). 동사 '짖다'가 아니라 소리를 관습적으로 적은 형태.",
-    zh: "狗吠声的拟声词 — 各语言约定俗成的摹声词（英语 'woof'、日语 ワンワン、汉语 汪汪）。不是动词「吠」，而是对声音的习惯写法。",
-    yue: "狗吠聲嘅擬聲詞 — 各語言約定俗成嘅摹聲詞（英語 'woof'、日語 ワンワン、漢語 汪汪）。唔係動詞「吠」，係對聲音嘅慣用寫法。",
+    zh: "狗吠声的拟声词——各语言约定俗成的摹声词（英语“woof”、日语 ワンワン、汉语 汪汪）。不是动词“吠”，而是对声音的习惯写法。",
+    yue: "狗吠聲嘅擬聲詞——各語言約定俗成嘅摹聲詞（英語「woof」、日語 ワンワン、漢語 汪汪）。唔係動詞「吠」，係對聲音嘅慣用寫法。",
     vi: "Từ tượng thanh cho tiếng chó sủa — dạng mô phỏng quy ước của mỗi ngôn ngữ (Anh 'woof', Nhật ワンワン, Hán 汪汪). KHÔNG phải động từ 'sủa'.",
     th: "คำเลียนเสียงเห่าของหมา — รูปเลียนเสียงที่แต่ละภาษาใช้กันจนเป็นแบบแผน (อังกฤษ 'woof', ญี่ปุ่น ワンワン, จีน 汪汪) ไม่ใช่คำกริยา 'เห่า'",
     id: "Onomatope untuk gonggongan anjing — bentuk tiruan bunyi yang lazim di tiap bahasa (Inggris 'woof', Jepang ワンワン, Mandarin 汪汪). BUKAN kata kerja 'menggonggong'.",

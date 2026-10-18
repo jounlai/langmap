@@ -32,7 +32,7 @@ WORDS.hello = {
     en: "Neutral everyday greeting. Time-of-day forms (morning/evening) only if the language has no neutral form. Blessings (e.g. \"peace\") accepted only as the normal greeting.",
     ja: "中立的な日常挨拶。時刻別の挨拶 (おはよう・こんばんは) は中立形がない場合のみ。「平安」などの祝福語も、それが通常の挨拶である場合のみ。",
     ko: "중립적 일상 인사. 시간대별 인사 (아침/저녁)는 중립형이 없을 때만 사용. \"평안\" 등 축복어는 그것이 통상적 인사일 경우에만.",
-    zh: "中性日常问候语。仅当语言无中性形式时才使用时段问候 (早安/晚安)。\"平安\"等祝福语仅在它本身就是日常问候时使用。",
+    zh: "中性日常问候语。仅当语言无中性形式时才使用时段问候（早安/晚安）。“平安”等祝福语仅在它本身就是日常问候时使用。",
     yue: "中性日常問候語。時間性問候（早晨／晚上）淨喺冇中性形時用。「平安」呢類祝福只喺佢本身就係日常問候時用。",
     vi: "Lời chào trung tính hàng ngày. Chào theo thời điểm chỉ khi không có dạng trung tính. \"Bình an\" chỉ khi đó là lời chào thường ngày.",
     th: "คำทักทายกลางๆ ประจำวัน; ใช้คำตามช่วงเวลาเฉพาะเมื่อไม่มีคำกลาง; ใช้คำอวยพร (\"สันติ\") เฉพาะเมื่อเป็นคำทักทายปกติ",

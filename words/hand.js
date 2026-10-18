@@ -32,7 +32,7 @@ WORDS.hand = {
     en: "Hand (distal upper limb); not \"arm\". Some languages do not distinguish hand vs arm.",
     ja: "手（上肢の末端部）。「腕」ではない。手と腕を区別しない言語もある。",
     ko: "손 (팔의 말단부). \"팔\"이 아니다. 손과 팔을 구별하지 않는 언어도 있다.",
-    zh: "手（上肢末端）；不是\"手臂\"。部分语言不区分手与手臂。",
+    zh: "手（上肢末端）；不是“手臂”。部分语言不区分手与手臂。",
     yue: "手（前臂末端）；唔係「手臂」。部分語言唔分手同臂。",
     vi: "Bàn tay (đầu xa của chi trên); không phải \"cánh tay\". Một số ngôn ngữ không tách hai khái niệm.",
     th: "มือ (ปลายแขนส่วนล่าง); ไม่ใช่ \"แขน\" บางภาษาไม่แยกสองคำนี้",

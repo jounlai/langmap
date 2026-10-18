@@ -41,7 +41,7 @@ WORDS.fish = {
     en: "The live aquatic animal (a noun, singular). Not fish as food where a language has a separate word for that, not the verb \"to fish\", and not a particular species.",
     ja: "名詞「魚」＝水中に生きる動物としての魚、単数形。食材としての魚と語が分かれる言語ではそちらではない。「釣る」という動詞や特定の魚種でもない。",
     ko: "명사 \"물고기\" = 물에 사는 동물로서의 물고기, 단수형. 식재료를 따로 이르는 언어에서는 그 말이 아니다. \"낚다\"라는 동사나 특정 어종도 아니다.",
-    zh: "名词\"鱼\"＝作为水生动物的鱼，单数。若该语言区分食用鱼，则不取食用义；也不是动词\"钓鱼\"或某一具体鱼类。",
+    zh: "名词“鱼”＝作为水生动物的鱼，单数。若该语言区分食用鱼，则不取食用义；也不是动词“钓鱼”或某一具体鱼类。",
     yue: "名詞「魚」＝作為水生動物嘅魚，單數。如果嗰種語言分開食用魚，唔取食用義；亦唔係動詞「釣魚」或者某一種魚。",
     vi: "Danh từ \"cá\" = con vật sống dưới nước, số ít. Không phải cá làm thức ăn ở những ngôn ngữ tách riêng, không phải động từ \"câu cá\", cũng không phải một loài cụ thể.",
     th: "คำนาม \"ปลา\" = สัตว์น้ำที่มีชีวิต รูปเอกพจน์ ไม่ใช่ปลาที่เป็นอาหารในภาษาที่แยกคำ ไม่ใช่กริยา \"ตกปลา\" และไม่ใช่ชนิดใดชนิดหนึ่ง",

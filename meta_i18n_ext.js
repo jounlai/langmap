@@ -3041,7 +3041,7 @@ const META_I18N_ATOMS = {
         'Central Malayo-Polynesian': '中央マレー・ポリネシア諸語',
         'Wati': 'ワティ', 'Ngumpin-Yapa': 'ングンピン・ヤパ',
         'Bodo-Garo': 'ボド・ガロ語群', 'Kuki-Chin': 'クキ・チン諸語',
-        'Bodish': 'ボド諸語', 'Chamic': 'チャム諸語',
+        'Bodish': 'チベット語群', 'Chamic': 'チャム諸語',
         'Central Philippine': '中央フィリピン諸語', 'Maa': 'マサイ諸語',
         'Dardic': 'ダルド諸語',
         'Pu-Xian Min': '莆仙閩語', 'Chao-Shan': '潮汕語',
@@ -4182,7 +4182,7 @@ const KO_HISTORICAL_META_FIXES = {
     // Scripts and script qualifiers
     'Old': '고대', 'Middle': '중세', 'Tocharian': '토하라어파',
     'Canaanite': '가나안어파', 'Northwest Semitic': '북서 셈어파',
-    'Gallo-Romance': '갈로로망스어파', 'Goidelic': '고이델어파', 'Bodish': '보드어파',
+    'Gallo-Romance': '갈로로망스어파', 'Goidelic': '고이델어파', 'Bodish': '티베트어군',
     'Samoyedic': '사모예드어파', 'Ob': '오브', 'Ugric': '우고르어파',
     'Munda': '문다어파', 'Visayan': '비사야어군', 'Yucatecan': '유카텍어파',
     'Cholan': '촐란어파', 'Tseltalan': '첼탈란어파', 'Mixtecan': '믹스텍어파',

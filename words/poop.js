@@ -39,7 +39,7 @@ WORDS.poop = {
     en: "Poop — the everyday, informal/childish word for excrement, not the clinical term (feces/stool).",
     ja: "うんち——排泄物を指す日常的・幼児語的な言い方。医学用語の「便」ではない。",
     ko: "똥 — 배설물을 가리키는 일상적·유아어적인 말. 의학 용어인 '대변'이 아니다.",
-    zh: "便便——指排泄物的日常、儿语化说法，不是临床用语「粪便」。",
+    zh: "便便——指排泄物的日常、儿语化说法，不是临床用语“粪便”。",
     yue: "屎——指排泄物嘅日常、口語講法，唔係臨床用語。",
     vi: "Phân — từ thông dụng, đời thường để chỉ chất thải của cơ thể; không phải thuật ngữ y khoa.",
     th: "อึ — คำเรียกอุจจาระแบบลำลองหรือคำเด็ก ไม่ใช่ศัพท์ทางการแพทย์",

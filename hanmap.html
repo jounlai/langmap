@@ -3506,7 +3506,7 @@
     </script>
     <script src="wordmap_data.js?v=345"></script>
     <script src="lang_attention.js?v=1"></script>
-    <script src="hanmap_data.js?v=194"></script>
+    <script src="hanmap_data.js?v=195"></script>
     <script>
         // Hanmap stubs: replace the per-word loader. wordmap.html loads
         // ~20 individual JS files under words/<id>.js (one per concept) and
@@ -5103,6 +5103,9 @@
                 const map = { ja:'ja', ko:'ko', zh:'zh', vi:'vi', th:'th', id:'id', hi:'hi',
                     en:'en', de:'de', fr:'fr', it:'it', ru:'ru', uk:'uk', ar:'ar', he:'he',
                     sw:'sw', pt:'pt', es:'es', da:'en', sv:'en', no:'en', nl:'en' };
+                // Hong Kong / Macau Chinese is the Cantonese UI: decide before the generic
+                // zh entry below swallows it (r23). Taiwan stays Mandarin.
+                if (/^(zh_(hk|mo)|yue)/.test(code)) { if (WM_UI.yue) return 'yue'; }
                 if (map[base] && WM_UI[map[base]]) return map[base];
                 if (base === 'zh') {
                     if (code.includes('hk') || code.includes('tw') || code.includes('hant')) return 'yue';
@@ -5339,7 +5342,7 @@
             // markers (drawn in red).
             eraHelpModern: {
                 en:'Modern mode: shows modern languages and varieties.',
-                ja:'現代モード: 現代言語・地方変種のみ表示します。',
+                ja:'現代モード：現代言語・地方変種のみ表示します。',
                 ko:'현대 모드: 현대 언어와 지역 변종을 표시합니다.',
                 zh:'现代模式：只显示现代语言和地区变体。',
                 yue:'現代模式：只顯示現代語言同地區變體。',
@@ -5360,7 +5363,7 @@
             },
             eraHelpHistorical: {
                 en:'Historical mode: shows historical languages plus modern descendants (red) as cross-reference.',
-                ja:'歴史モード: 歴史言語に加え、現代後裔言語（赤色）を参照として併せて表示します。',
+                ja:'歴史モード：歴史言語に加え、現代後裔言語（赤色）を参照として併せて表示します。',
                 ko:'역사 모드: 역사 언어와 함께 현대 후손 언어(빨간색)를 참조용으로 표시합니다.',
                 zh:'历史模式：显示历史语言以及作为参照的现代后裔语言（红色）。',
                 yue:'歷史模式：顯示歷史語言以及作為參照嘅現代後裔語言（紅色）。',
@@ -5584,7 +5587,11 @@
         };
         window.__hmCharLabel = function () {
             const b = document.getElementById('char-current-btn'); if (!b || !b.textContent.trim()) return;
-            const sel = document.getElementById('word-select'), g = window.__hmGlossOf(sel ? sel.value : '');
+            const sel = document.getElementById('word-select');
+            let g = window.__hmGlossOf(sel ? sel.value : '');
+            // A gloss that is just the character again (or its simplified form) or a
+            // digit tells a CJK reader nothing: no pill, no extra words (r23).
+            if (/^(?:[\u3400-\u9FFF\uF900-\uFAFF]|\d+)$/u.test(g)) g = '';
             b.setAttribute('aria-label', b.textContent.trim() + (g ? ' (' + g + ')' : '') + ', ' + i18n('ariaSelectChar'));
             // The meaning under the tile: a first-time reader saw a lone 一 (r22).
             const p = document.getElementById('char-gloss'); if (p) { p.textContent = g; p.hidden = !g; }
@@ -6055,7 +6062,7 @@
                         if (baseChar === displayCharOf(currentWord)) b.setAttribute('aria-current', 'true');
                         b.innerHTML = '<span class="char-tile-char">' + escapeHtml(baseChar) + '</span>';
                         b.dataset.char = targetId;
-                        { const g = window.__hmGlossOf ? window.__hmGlossOf(targetId) : ''; if (g) { b.title = g; b.setAttribute('aria-label', baseChar + ' (' + g + ')'); } }
+                        { const g = window.__hmGlossOf ? window.__hmGlossOf(targetId) : ''; if (g && !/^(?:[\u3400-\u9FFF\uF900-\uFAFF]|\d+)$/u.test(g)) { b.title = g; b.setAttribute('aria-label', baseChar + ' (' + g + ')'); } }
                         b.addEventListener('click', () => {
                             setChar(targetId);
                             closeModal();
@@ -9436,7 +9443,7 @@
             if (ui === 'en') return Promise.resolve();
             if (_metaI18nByUi[ui]) return _metaI18nByUi[ui];
             if (!_metaEnginePromise) _metaEnginePromise = _hmInject('meta_i18n_engine.js?v=1');
-            _metaI18nByUi[ui] = Promise.all([_metaEnginePromise, _hmInject('meta_i18n/' + ui + '.js?v=5')]);
+            _metaI18nByUi[ui] = Promise.all([_metaEnginePromise, _hmInject('meta_i18n/' + ui + '.js?v=6')]);
             return _metaI18nByUi[ui];
         }
         window.loadMetaI18n = loadMetaI18n;
@@ -10415,8 +10422,8 @@
                         const provColor = { 'manual-override': '#3a8a3a', 'family-default': '#888', 'unknown': '#bbb' };
                         // Tone (boolean) → localized "tonal" / "non-tonal"
                         const TONE_LBL = {
-                            true:  { en:'tonal',     ja:'声調あり',   ko:'성조 있음', zh:'有声调',   yue:'有聲調',   vi:'có thanh điệu',   th:'มีวรรณยุกต์',     id:'tonal',         hi:'सुरयुक्त',         de:'tonal',     fr:'tonale',     it:'tonale',     es:'tonal',     pt:'tonal',     ru:'тональный',    uk:'тональна',    ar:'نبري',        he:'טונאלית',     sw:'yenye toni' },
-                            false: { en:'non-tonal', ja:'声調なし',   ko:'성조 없음', zh:'无声调',   yue:'無聲調',   vi:'không thanh điệu',th:'ไม่มีวรรณยุกต์', id:'non-tonal',     hi:'सुररहित',    de:'nicht tonal', fr:'non tonale', it:'non tonale', es:'no tonal',  pt:'não tonal', ru:'нетональный', uk:'нетональна', ar:'غير نبري',    he:'לא טונאלית',  sw:'isiyo na toni' },
+                            true:  { en:'tonal',     ja:'声調あり',   ko:'성조 있음', zh:'有声调',   yue:'有聲調',   vi:'có thanh điệu',   th:'มีวรรณยุกต์',     id:'tonal',         hi:'सुरयुक्त',         de:'tonal',     fr:'tonale',     it:'tonale',     es:'tonal',     pt:'tonal',     ru:'тональный',    uk:'тональна',    ar:'نغمية',        he:'טונאלית',     sw:'yenye toni' },
+                            false: { en:'non-tonal', ja:'声調なし',   ko:'성조 없음', zh:'无声调',   yue:'無聲調',   vi:'không thanh điệu',th:'ไม่มีวรรณยุกต์', id:'non-tonal',     hi:'सुररहित',    de:'nicht tonal', fr:'non tonale', it:'non tonale', es:'no tonal',  pt:'não tonal', ru:'нетональный', uk:'нетональна', ar:'غير نغمية',    he:'לא טונאלית',  sw:'isiyo na toni' },
                         };
                         // Morphology values → localized
                         const MORPH_LBL = {
@@ -13021,7 +13028,7 @@
             title: {en:'Reading quiz', ja:'漢字の読みクイズ', ko:'한자 독음 퀴즈', zh:'汉字读音测验', yue:'漢字讀音測驗', vi:'Đố âm đọc Hán tự', th:'ควิซการอ่านอักษรจีน', id:'Kuis bacaan Hanzi', hi:'हान्ज़ी उच्चारण क्विज़', de:'Lesungs-Quiz', fr:'Quiz de lecture', it:'Quiz di lettura', es:'Quiz de lecturas', pt:'Quiz de leituras', ru:'Викторина чтений', uk:'Вікторина читань', ar:'اختبار قراءة الحروف', he:'חידון קריאה', sw:'Jaribio la matamshi'},
             sub: {en:'How is each Han character read across the Sinosphere?', ja:'漢字が各言語・方言でどう読まれるか当てよう。', ko:'한자가 여러 언어·방언에서 어떻게 읽히는지 맞혀보세요.', zh:'猜猜同一个汉字在各语言、方言中怎么读。', yue:'估下同一個漢字喺各語言、方言點讀。', vi:'Đoán xem cùng một chữ Hán được đọc thế nào trong các ngôn ngữ, phương ngữ.', th:'เดาว่าอักษรจีนตัวเดียวกันอ่านอย่างไรในแต่ละภาษาและภาษาถิ่น', id:'Tebak bagaimana satu Hanzi dibaca di berbagai bahasa dan dialek.', hi:'अनुमान लगाएँ कि एक ही हान अक्षर विभिन्न भाषाओं/बोलियों में कैसे पढ़ा जाता है।', de:'Wie wird ein Han-Zeichen im Sinosphären-Raum gelesen?', fr:'Comment lit-on un même caractère han selon les langues et dialectes ?', it:'Come si legge uno stesso carattere han nelle varie lingue e dialetti?', es:'¿Cómo se lee un mismo carácter han en las distintas lenguas y dialectos?', pt:'Como se lê um mesmo caractere han nas várias línguas e dialetos?', ru:'Как один и тот же иероглиф читается в разных языках и диалектах?', uk:'Як той самий ієрогліф читається в різних мовах і діалектах?', ar:'كيف يُقرأ الحرف الصيني نفسه عبر لغات ولهجات المنطقة؟', he:'כיצד נקרא אותו סימן האן בשפות ובניבים השונים?', sw:'Herufi ya Kihan husomwaje katika lugha na lahaja mbalimbali?'},
             q1: {en:'In {lang}, how is this character read?', ja:'この字を{lang}ではどう読む？', ko:'이 글자를 {lang}에서는 어떻게 읽나요?', zh:'这个字在{lang}中怎么读？', yue:'呢個字喺{lang}點讀？', vi:'Trong {lang}, chữ này đọc thế nào?', th:'ตัวอักษรนี้ใน{lang}อ่านว่าอย่างไร?', id:'Dalam {lang}, bagaimana karakter ini dibaca?', hi:'{lang} में यह अक्षर कैसे पढ़ा जाता है?', de:'Wie wird dieses Zeichen auf {lang} gelesen?', fr:'En {lang}, comment lit-on ce caractère ?', it:'In {lang}, come si legge questo carattere?', es:'En {lang}, ¿cómo se lee este carácter?', pt:'Em {lang}, como se lê este caractere?', ru:'Как этот иероглиф читается на языке {lang}?', uk:'Як цей ієрогліф читається мовою {lang}?', ar:'كيف يُقرأ هذا الحرف بِـ{lang}؟', he:'כיצד נקרא סימן זה ב{lang}?', sw:'Katika {lang}, herufi hii husomwaje?'},
-            q2: {en:'Which reads this character as {reading}?', ja:'この字を「{reading}」と読むのは？', ko:'이 글자를 「{reading}」로 읽는 것은?', zh:'把这个字读作「{reading}」的是哪一个？', yue:'將呢個字讀做「{reading}」嘅係邊個？', vi:'Ngôn ngữ nào đọc chữ này là {reading}?', th:'ภาษาใดอ่านตัวอักษรนี้ว่า {reading}?', id:'Yang mana membaca karakter ini sebagai {reading}?', hi:'इस अक्षर को {reading} कौन पढ़ता है?', de:'Wer liest dieses Zeichen als {reading}?', fr:'Qui lit ce caractère {reading} ?', it:'Chi legge questo carattere {reading}?', es:'¿Cuál lee este carácter como {reading}?', pt:'Qual lê este caractere como {reading}?', ru:'Кто читает этот иероглиф как {reading}?', uk:'Хто читає цей ієрогліф як {reading}?', ar:'أيٌّ يقرأ هذا الحرف {reading}؟', he:'מי קורא את הסימן הזה {reading}?', sw:'Nani husoma herufi hii kama {reading}?'},
+            q2: {en:'Which reads this character as {reading}?', ja:'この字を「{reading}」と読むのは？', ko:'이 글자를 「{reading}」(으)로 읽는 것은?', zh:'把这个字读作「{reading}」的是哪一个？', yue:'將呢個字讀做「{reading}」嘅係邊個？', vi:'Ngôn ngữ nào đọc chữ này là {reading}?', th:'ภาษาใดอ่านตัวอักษรนี้ว่า {reading}?', id:'Yang mana membaca karakter ini sebagai {reading}?', hi:'इस अक्षर को {reading} कौन पढ़ता है?', de:'Wer liest dieses Zeichen als {reading}?', fr:'Qui lit ce caractère {reading} ?', it:'Chi legge questo carattere {reading}?', es:'¿Cuál lee este carácter como {reading}?', pt:'Qual lê este caractere como {reading}?', ru:'Кто читает этот иероглиф как {reading}?', uk:'Хто читає цей ієрогліф як {reading}?', ar:'أيٌّ يقرأ هذا الحرف {reading}؟', he:'מי קורא את הסימן הזה {reading}?', sw:'Nani husoma herufi hii kama {reading}?'},
             correct: {en:'Correct!', ja:'正解！', ko:'정답!', zh:'答对了！', yue:'啱！', vi:'Chính xác!', th:'ถูกต้อง!', id:'Benar!', hi:'सही!', de:'Richtig!', fr:'Correct !', it:'Esatto!', es:'¡Correcto!', pt:'Certo!', ru:'Верно!', uk:'Правильно!', ar:'صحيح!', he:'נכון!', sw:'Sahihi!'},
             wrong: {en:'Not quite', ja:'惜しい！', ko:'아쉽네요', zh:'不对', yue:'唔啱', vi:'Chưa đúng', th:'ยังไม่ใช่', id:'Belum tepat', hi:'सही नहीं', de:'Leider nein', fr:'Raté', it:'Sbagliato', es:'Incorrecto', pt:'Errado', ru:'Мимо', uk:'Не те', ar:'خطأ', he:'לא בדיוק', sw:'Si sahihi'},
             next: {en:'Next', ja:'次へ', ko:'다음', zh:'下一题', yue:'下一題', vi:'Tiếp', th:'ถัดไป', id:'Berikutnya', hi:'अगला', de:'Weiter', fr:'Suivant', it:'Avanti', es:'Siguiente', pt:'Próxima', ru:'Далее', uk:'Далі', ar:'التالي', he:'הבא', sw:'Endelea'},
@@ -13381,7 +13388,7 @@
             japonic:  { en:'Japanese', ja:'日本語', ko:'일본어', zh:'日语', yue:'日語', vi:'Tiếng Nhật', th:'ญี่ปุ่น', id:'Jepang', hi:'जापानी', de:'Japanisch', fr:'Japonais', it:'Giapponese', es:'Japonés', pt:'Japonês', ru:'Японский', uk:'Японська', ar:'اليابانية', he:'יפנית', sw:'Kijapani' },
             vietic:   { en:'Vietnamese', ja:'ベトナム語', ko:'베트남어', zh:'越南语', yue:'越南語', vi:'Tiếng Việt', th:'เวียดนาม', id:'Vietnam', hi:'वियतनामी', de:'Vietnamesisch', fr:'Vietnamien', it:'Vietnamita', es:'Vietnamita', pt:'Vietnamita', ru:'Вьетнамский', uk:'Вʼєтнамська', ar:'الفيتنامية', he:'וייטנאמית', sw:'Kivietinamu' },
             other:    { en:'Other',    ja:'その他', ko:'기타', zh:'其他', yue:'其他', vi:'Khác', th:'อื่น ๆ', id:'Lainnya', hi:'अन्य', de:'Andere', fr:'Autres', it:'Altro', es:'Otros', pt:'Outros', ru:'Другие', uk:'Інші', ar:'أخرى', he:'אחר', sw:'Nyingine' },
-            ancient:  { en:'Historical', ja:'古語（歴史）', ko:'역사(고어)', zh:'历史(古语)', yue:'歷史(古語)', vi:'Lịch sử', th:'ประวัติศาสตร์', id:'Historis', hi:'ऐतिहासिक', de:'Historisch', fr:'Historique', it:'Storico', es:'Histórico', pt:'Histórico', ru:'Исторические', uk:'Історичні', ar:'تاريخية', he:'היסטוריות', sw:'Kihistoria' }
+            ancient:  { en:'Historical', ja:'古語（歴史）', ko:'역사(고어)', zh:'历史（古语）', yue:'歷史（古語）', vi:'Lịch sử', th:'ประวัติศาสตร์', id:'Historis', hi:'ऐतिहासिक', de:'Historisch', fr:'Historique', it:'Storico', es:'Histórico', pt:'Histórico', ru:'Исторические', uk:'Історичні', ar:'تاريخية', he:'היסטוריות', sw:'Kihistoria' }
         };
         var TITLE = { en:'Dialect colours', ja:'方言の色', ko:'방언 색상', zh:'方言颜色', yue:'方言顏色', vi:'Màu phương ngữ', th:'สีของภาษาถิ่น', id:'Warna dialek', hi:'बोली के रंग', de:'Dialektfarben', fr:'Couleurs des dialectes', it:'Colori dei dialetti', es:'Colores de los dialectos', pt:'Cores dos dialetos', ru:'Цвета диалектов', uk:'Кольори діалектів', ar:'ألوان اللهجات', he:'צבעי הניבים', sw:'Rangi za lahaja' };
         function render() {
@@ -13425,8 +13432,8 @@
         var TAGS = [
             ['wen', '文', { en:'literary reading', ja:'文読（文語的な読み）', ko:'문독(문어 독음)', zh:'文读（书面音）', yue:'文讀（書面音）', vi:'cách đọc văn', th:'การอ่านแบบภาษาเขียน', id:'bacaan sastra', hi:'साहित्यिक उच्चारण', de:'literarische Lesung', fr:'lecture littéraire', it:'lettura letteraria', es:'lectura literaria', pt:'leitura literária', ru:'книжное чтение', uk:'книжне читання', ar:'القراءة الأدبية', he:'קריאה ספרותית', sw:'usomaji wa kifasihi' }],
             ['bai', '白', { en:'colloquial reading', ja:'白読（口語的な読み）', ko:'백독(구어 독음)', zh:'白读（口语音）', yue:'白讀（口語音）', vi:'cách đọc khẩu ngữ', th:'การอ่านแบบภาษาพูด', id:'bacaan lisan', hi:'बोलचाल का उच्चारण', de:'umgangssprachliche Lesung', fr:'lecture familière', it:'lettura colloquiale', es:'lectura coloquial', pt:'leitura coloquial', ru:'разговорное чтение', uk:'розмовне читання', ar:'القراءة العامية', he:'קריאה מדוברת', sw:'usomaji wa mazungumzo' }],
-            ['kun', '訓', { en:'a native word written with this character', ja:'訓読み（固有語をこの漢字で書く）', ko:'훈(고유어 뜻으로 읽기)', zh:'训读（用此字写本族固有词）', yue:'訓讀（用呢個字寫本土詞）', vi:'từ thuần bản ngữ viết bằng chữ này', th:'คำดั้งเดิมที่เขียนด้วยอักษรนี้', id:'kata asli yang ditulis dengan aksara ini', hi:'इस अक्षर से लिखा मूल शब्द', de:'heimisches Wort, mit diesem Zeichen geschrieben', fr:'mot autochtone écrit avec ce caractère', it:'parola nativa scritta con questo carattere', es:'palabra nativa escrita con este carácter', pt:'palavra nativa escrita com este caractere', ru:'исконное слово, записанное этим знаком', uk:'питоме слово, записане цим знаком', ar:'كلمة أصلية تُكتب بهذا الحرف', he:'מילה מקורית שנכתבת בתו הזה', sw:'neno asilia linaloandikwa kwa herufi hii' }],
-            ['kanon', '漢音', { en:'Japanese on-reading, Tang-era layer', ja:'漢音（唐代に伝わった音読み）', ko:'일본 한음(당대 층)', zh:'日语汉音（唐代层）', yue:'日語漢音（唐代層）', vi:'âm Hán tiếng Nhật, lớp đời Đường', th:'เสียงอ่านจีนในญี่ปุ่น ชั้นสมัยถัง', id:'bacaan on Jepang, lapisan era Tang', hi:'जापानी ओन-पठन, तांग काल की परत', de:'japanische On-Lesung, Tang-Schicht', fr:'lecture on japonaise, couche Tang', it:'lettura on giapponese, strato Tang', es:'lectura on japonesa, capa Tang', pt:'leitura on japonesa, camada Tang', ru:'японское он-чтение, танский слой', uk:'японське он-читання, танський шар', ar:'قراءة أون اليابانية، طبقة عصر تانغ', he:'קריאת און יפנית, שכבת תקופת טאנג', sw:'usomaji wa on wa Kijapani, tabaka la enzi ya Tang' }],
+            ['kun', '訓', { en:'a native word written with this character', ja:'訓読み（固有語をこの漢字で書く）', ko:'훈독(고유어 뜻으로 읽기)', zh:'训读（用此字写本族固有词）', yue:'訓讀（用呢個字寫本土詞）', vi:'từ thuần bản ngữ viết bằng chữ này', th:'คำดั้งเดิมที่เขียนด้วยอักษรนี้', id:'kata asli yang ditulis dengan aksara ini', hi:'इस अक्षर से लिखा मूल शब्द', de:'heimisches Wort, mit diesem Zeichen geschrieben', fr:'mot autochtone écrit avec ce caractère', it:'parola nativa scritta con questo carattere', es:'palabra nativa escrita con este carácter', pt:'palavra nativa escrita com este caractere', ru:'исконное слово, записанное этим знаком', uk:'питоме слово, записане цим знаком', ar:'كلمة أصلية تُكتب بهذا الحرف', he:'מילה מקורית שנכתבת בתו הזה', sw:'neno asilia linaloandikwa kwa herufi hii' }],
+            ['kanon', '漢音', { en:'Japanese on-reading, Tang-era layer', ja:'漢音（唐代に伝わった音読み）', ko:'일본 한음(당나라 시대 층)', zh:'日语汉音（唐代层）', yue:'日語漢音（唐代層）', vi:'âm Hán tiếng Nhật, lớp đời Đường', th:'เสียงอ่านจีนในญี่ปุ่น ชั้นสมัยถัง', id:'bacaan on Jepang, lapisan era Tang', hi:'जापानी ओन-पठन, तांग काल की परत', de:'japanische On-Lesung, Tang-Schicht', fr:'lecture on japonaise, couche Tang', it:'lettura on giapponese, strato Tang', es:'lectura on japonesa, capa Tang', pt:'leitura on japonesa, camada Tang', ru:'японское он-чтение, танский слой', uk:'японське он-читання, танський шар', ar:'قراءة أون اليابانية، طبقة عصر تانغ', he:'קריאת און יפנית, שכבת תקופת טאנג', sw:'usomaji wa on wa Kijapani, tabaka la enzi ya Tang' }],
             ['goon', '呉音', { en:'Japanese on-reading, older layer', ja:'呉音（漢音より古い音読み）', ko:'일본 오음(더 오래된 층)', zh:'日语吴音（较早层）', yue:'日語吳音（較早層）', vi:'âm Hán tiếng Nhật, lớp cổ hơn', th:'เสียงอ่านจีนในญี่ปุ่น ชั้นที่เก่ากว่า', id:'bacaan on Jepang, lapisan lebih tua', hi:'जापानी ओन-पठन, पुरानी परत', de:'japanische On-Lesung, ältere Schicht', fr:'lecture on japonaise, couche plus ancienne', it:'lettura on giapponese, strato più antico', es:'lectura on japonesa, capa más antigua', pt:'leitura on japonesa, camada mais antiga', ru:'японское он-чтение, более древний слой', uk:'японське он-читання, давніший шар', ar:'قراءة أون اليابانية، طبقة أقدم', he:'קריאת און יפנית, שכבה קדומה יותר', sw:'usomaji wa on wa Kijapani, tabaka la zamani zaidi' }]
         ];
         function start() {

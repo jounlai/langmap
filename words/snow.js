@@ -30,10 +30,10 @@ WORDS.snow = {
   },
   definition: {
     en: "Snow — frozen precipitation that falls as soft white flakes and settles on the ground; not the verb 'to snow' nor plain ice.",
-    ja: "雪 — 白い結晶となって空から降り、地面に積もる凍った降水。動詞の『雪が降る』でも、単なる氷でもない。",
+    ja: "雪 — 白い結晶となって空から降り、地面に積もる凍った降水。動詞の「雪が降る」でも、単なる氷でもない。",
     ko: "눈 — 하늘에서 하얀 결정으로 내려 땅에 쌓이는 언 강수; 동사 '눈이 오다'나 단순한 얼음이 아니다.",
-    zh: "雪 — 以白色晶片形式从空中降下并积在地面的冻结降水；不是动词'下雪'，也不是普通的冰。",
-    yue: "雪 — 以白色雪片形式從天上落落嚟、積喺地面嘅凍結降水；唔係動詞'落雪'，亦唔係普通嘅冰。",
+    zh: "雪——以白色晶片形式从空中降下并积在地面的冻结降水；不是动词“下雪”，也不是普通的冰。",
+    yue: "雪——以白色雪片形式從天上落落嚟、積喺地面嘅凍結降水；唔係動詞「落雪」，亦唔係普通嘅冰。",
     vi: "Tuyết — mưa đóng băng rơi xuống thành những bông trắng mềm và phủ trên mặt đất; không phải động từ 'đổ tuyết' cũng không phải nước đá thường.",
     th: "หิมะ — หยาดน้ำฟ้าที่แข็งตัวตกลงมาเป็นเกล็ดสีขาวและทับถมบนพื้น ไม่ใช่กริยา 'หิมะตก' และไม่ใช่น้ำแข็งธรรมดา",
     id: "Salju — presipitasi beku yang turun sebagai serpihan putih lembut dan menumpuk di tanah; bukan kata kerja 'turun salju' maupun es biasa.",

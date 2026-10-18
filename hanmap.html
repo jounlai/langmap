@@ -92,7 +92,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=159">
+    <link rel="stylesheet" href="styles.css?v=161">
     <link rel="stylesheet" href="/vendor/leaflet-1.9.4/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -2844,7 +2844,19 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=30"></script>
+    <script src="nav-short.js?v=31"></script>
+    <style>
+        /* r23 desktop: the compare panel clears the settings gear and the map
+           attribution; the settings drawer is readable at desktop sizes. */
+        @media (min-width: 601px) { .compare-panel { right: 62px; bottom: 28px; } }
+        @media (min-width: 1000px) {
+            .right-controls .right-secondary-controls .toggle-btn:not(.toggle-3d-btn),
+            .right-secondary-controls .radio-switch.radio-switch-v { min-width: 72px; max-width: 72px; }
+            .right-controls .right-secondary-controls .toggle-btn:not(.toggle-3d-btn),
+            .right-secondary-controls .radio-switch.radio-switch-v .radio-opt { font-size: 11px; }
+            .right-controls .right-secondary-controls .toggle-btn .onoff { font-size: 9px; }
+        }
+    </style>
 </head>
 <body>
     <div id="pg-live" role="status" aria-live="polite" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap"></div>

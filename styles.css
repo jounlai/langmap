@@ -1922,3 +1922,23 @@ button.seg-delete-btn { background: none; color: #767676; }
 .lang-row[data-lang="okm"] .segment, .lang-row[data-lang="oko"] .segment {
     font-family: 'Noto Sans KR Old Jamo', 'Segoe UI', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Roboto', 'Arial', sans-serif;
 }
+
+/* Rally r23 (desktop / tablet) ------------------------------------------- */
+/* 641-900px: every header link fits without the hidden-scroll fade (icons and
+   separators drop out; the Play label shrinks to its icon below 800px). */
+@media (min-width: 641px) and (max-width: 900px) {
+    .site-header-bar .header-nav .nav-sep { display: none; }
+    .site-header-bar .header-nav { gap: 6px; }
+    .site-header-bar .header-nav :is(.header-nav-link, .header-nav-current) { font-size: 12.5px; }
+    .site-header-bar .header-nav :is(.header-nav-link, .header-nav-current) > :is(svg, span):first-child { display: none !important; }
+}
+@media (min-width: 641px) and (max-width: 800px) {
+    #play-menu-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+/* Arabic / Hebrew: the header mirrors on every page (it did on index/tree only),
+   with a gap between each nav icon and its label. */
+html:is([lang="ar"], [lang="he"]) .site-header-bar { direction: rtl; }
+html:is([lang="ar"], [lang="he"]) .header-nav :is(.header-nav-link, .header-nav-current) > :first-child,
+[dir="rtl"] .header-nav :is(.header-nav-link, .header-nav-current) > :first-child { margin-right: 0 !important; margin-left: 3px !important; }
+/* Index at >= 1025px: the diagram card spans the same width as the controls. */
+@media (min-width: 1025px) { .map-container { display: block; } }

@@ -70,7 +70,7 @@
         gtag('config', 'G-JZ7JJBCCHG');
     }
 </script>
-<link rel="stylesheet" href="styles.css?v=159">
+<link rel="stylesheet" href="styles.css?v=161">
 <!-- Noto Serif Tibetan for native names of Tibetic languages
      (bo / xct / dz / khg / xsr / sik / lbj / bft / xkz / xct_litpr).
      Without this, Tibetan script in .node.leaf .native renders via OS
@@ -152,7 +152,7 @@
         background: #fff; color: #444; border-radius: 4px; cursor: pointer;
     }
     .controls-bar button:hover { background: #f1f3f4; }
-    .controls-bar .stats { color: #666; font-size: 12px; margin-left: auto; }
+    .controls-bar .stats { color: #666; font-size: 12px; margin-inline-start: auto; }
     .controls-bar .legend { font-size: 11px; color: #666; }
 
     /* === Vertical collapsible tree === */
@@ -165,25 +165,31 @@
     .tree, .tree ul {
         list-style: none; margin: 0; padding: 0;
     }
-    .tree ul { padding-left: 24px; position: relative; }
+    .tree ul { padding-inline-start: 24px; position: relative; }   /* logical: lines and indent mirror in RTL (r23) */
     /* Connector lines: vertical down the left side, horizontal into each child */
     .tree li { position: relative; padding: 2px 0; }
     /* Expand all laid out ~13,000 rows in one 2-4 s task: skip the content of rows far off screen.
        On the row (.node), not the <li>: containment on the <li> clipped the tree lines (r22). */
     #tree-root .node { content-visibility: auto; contain-intrinsic-size: auto 24px; }
-    /* Expand all laid out ~13,000 nodes in one 2-4 s task: lay out only what is near the screen (r22). */
+    /* RTL: spacing follows the reading direction (r23). */
+    [dir="rtl"] .node:not(.expanded) .toggle { transform: scaleX(-1); }
+    /* Wide screens: one centred column instead of rows hugging the left edge. */
+    @media (min-width: 1280px) {
+        .tree-wrap > * { max-width: 1100px; margin-inline: auto; }
+        .controls-bar { padding-inline: max(20px, calc((100% - 1100px) / 2)); }
+    }
 
     .tree ul > li::before {
         content: '';
         position: absolute;
-        top: 13px; left: -12px; width: 10px; height: 0;
+        top: 13px; inset-inline-start: -12px; width: 10px; height: 0;
         border-top: 1.5px solid #c7d3e7;
     }
     .tree ul > li::after {
         content: '';
         position: absolute;
-        top: 0; bottom: -2px; left: -12px;
-        border-left: 1.5px solid #c7d3e7;
+        top: 0; bottom: -2px; inset-inline-start: -12px;
+        border-inline-start: 1.5px solid #c7d3e7;
     }
     .tree ul > li:last-child::after {
         bottom: auto;
@@ -228,7 +234,7 @@
         font-weight: 600; color: #2c4a7a;
     }
     .node .count {
-        color: #666; font-size: 11px; font-weight: 400; margin-left: 2px;
+        color: #666; font-size: 11px; font-weight: 400; margin-inline-start: 2px;
     }
     .node.leaf .label { color: #333; font-weight: 400; }
     .node.leaf .label a { color: #1967d2; text-decoration: none; }   /* AA on the #fafbfc / hover / last-visited backgrounds */
@@ -241,19 +247,19 @@
             -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
             'Noto Serif Tibetan', 'Kailasa', 'Microsoft Himalaya', 'Jomolhari', 'Tibetan Machine Uni',
             sans-serif;
-        color: #6b6b6b; font-size: 12px; margin-left: 8px;
+        color: #6b6b6b; font-size: 12px; margin-inline-start: 8px;
         unicode-bidi: isolate;
     }
     .node.leaf .code {
         color: #5f6368; font-size: 11px; font-family: monospace;
-        margin-left: 8px;
+        margin-inline-start: 8px;
     }
 
     /* family-color dot before each top-level family node */
     .family-dot {
         display: inline-block; width: 8px; height: 8px;
         border-radius: 50%;
-        margin-right: 4px;
+        margin-inline-end: 4px;
         vertical-align: middle;
     }
 
@@ -269,9 +275,9 @@
 
     @media (max-width: 600px) {
         .tree-wrap { padding: 8px 10px 80px; }
-        .tree ul { padding-left: 18px; }
-        .tree ul > li::before { left: -10px; width: 8px; }
-        .tree ul > li::after { left: -10px; }
+        .tree ul { padding-inline-start: 18px; }
+        .tree ul > li::before { inset-inline-start: -10px; width: 8px; }
+        .tree ul > li::after { inset-inline-start: -10px; }
         .node { padding: 2px 6px; }
         /* Allow long node labels to wrap on narrow screens instead of
            overflowing the viewport. The native-name and code stay
@@ -298,7 +304,7 @@
 
     /* .back-to-top styles live in styles.css (shared with index.html). */
 </style>
-    <script src="nav-short.js?v=30"></script>
+    <script src="nav-short.js?v=31"></script>
 </head>
 <body>
     <header class="site-header-bar">

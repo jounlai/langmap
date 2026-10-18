@@ -87,7 +87,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=159">
+    <link rel="stylesheet" href="styles.css?v=161">
     <link rel="stylesheet" href="/vendor/leaflet-1.9.4/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts. Without these the characters render
          as tofu boxes: desktop Linux often ships the Noto historic fonts, but
@@ -3036,7 +3036,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=30"></script>
+    <script src="nav-short.js?v=31"></script>
     <style>
         /* Rally r21: the settings-drawer buttons were capped at 54-56px with 8px text,
            so de "Aussprache" / "Einheimisch" and ar "المحددة فقط" spilled or were cut. */
@@ -3044,6 +3044,18 @@
         .right-secondary-controls .radio-switch.radio-switch-v { max-width: 84px; min-width: 64px; }
         .right-controls .right-secondary-controls .toggle-btn:not(.toggle-3d-btn),
         .right-secondary-controls .radio-switch.radio-switch-v .radio-opt { font-size: 10px; }
+    </style>
+    <style>
+        /* r23 desktop: the compare panel clears the settings gear and the map
+           attribution; the settings drawer is readable at desktop sizes. */
+        @media (min-width: 601px) { .compare-panel { right: 62px; bottom: 28px; } }
+        @media (min-width: 1000px) {
+            .right-controls .right-secondary-controls .toggle-btn:not(.toggle-3d-btn),
+            .right-secondary-controls .radio-switch.radio-switch-v { min-width: 72px; max-width: 72px; }
+            .right-controls .right-secondary-controls .toggle-btn:not(.toggle-3d-btn),
+            .right-secondary-controls .radio-switch.radio-switch-v .radio-opt { font-size: 11px; }
+            .right-controls .right-secondary-controls .toggle-btn .onoff { font-size: 9px; }
+        }
     </style>
 </head>
 <body>
@@ -3761,7 +3773,7 @@
            per-word loader can read it", which was the intent all along — only
            the order was wrong. */
         const WM_ASSET_VERSION = {
-            styles:   159,
+            styles:   161,
             data:      345,
             metaI18n:  17,
             filter:    60,
@@ -12719,7 +12731,7 @@
     <!-- "My languages" share-card feature; poster_geo.js supplies the Natural-Earth
          projection its world-map card is drawn with. -->
     <script src="poster_geo.js?v=12"></script>
-    <script src="my-languages.js?v=37"></script>
+    <script src="my-languages.js?v=38"></script>
     <!-- Language Master game (🏅 in the Play menu). master.js is parked as
          text/plain (not fetched at first paint, as hanmap_trivia.js is) and
          injected the first time the game opens. The stub below only labels

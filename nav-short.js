@@ -52,7 +52,7 @@
         th: {"word":"คำ","han":"ตัวอักษร","name":"ชื่อ","time":"ปฏิทิน"},
         id: {"word":"Kata","han":"Hanzi","name":"Nama","time":"Kalender"},
         hi: {"word":"शब्द","han":"हान्ज़ी","name":"नाम","time":"कैलेंडर"},
-        de: {"word":"Wörter","han":"Hanzi","name":"Namen","time":"Kalender"},
+        de: {"order":"Wortfolge","word":"Wörter","han":"Hanzi","name":"Namen","time":"Kalender","tree":"Baum"},
         fr: {"order":"Ordre","word":"Mots","han":"Hanzi","name":"Prénoms","time":"Calendriers"},
         it: {"order":"Ordine","word":"Parole","han":"Hanzi","name":"Nomi","time":"Calendari"},
         es: {"order":"Orden","word":"Palabras","han":"Hanzi","name":"Nombres","time":"Calendarios"},

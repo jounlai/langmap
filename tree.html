@@ -293,7 +293,7 @@
 
     /* .back-to-top styles live in styles.css (shared with index.html). */
 </style>
-    <script src="nav-short.js?v=27"></script>
+    <script src="nav-short.js?v=28"></script>
 </head>
 <body>
     <header class="site-header-bar">
@@ -426,7 +426,7 @@ generates lang_names/<ui>.js from lang_names.js. -->
     // ===== Cookie persistence (shared across pages via wm_uilang) =====
     function getCookie(name) {
         const m = document.cookie.match(new RegExp('(?:^|;\\s*)' + name + '=([^;]+)'));
-        return m ? decodeURIComponent(m[1]) : null;
+        try { return m ? decodeURIComponent(m[1]) : null; } catch (_) { return null; }
     }
     function setCookie(name, value) {
         document.cookie = name + '=' + encodeURIComponent(value) + '; path=/; max-age=31536000; SameSite=Lax';
@@ -458,13 +458,13 @@ generates lang_names/<ui>.js from lang_names.js. -->
     function resolveUiLang() {
         try {
             const params = new URLSearchParams(location.search || location.hash.replace(/^#/, ''));
-            const u = params.get('ui'); if (u && UI_I18N[u]) return u;
+            const u = params.get('ui'); if (u && Object.prototype.hasOwnProperty.call(UI_I18N, u)) return u;   // own keys only ('constructor'; r22)
         } catch (e) {}
         const cookie = getCookie('wm_uilang');
-        if (cookie && UI_I18N[cookie]) return cookie;
-        if (cookie) { const base = cookie.split('_')[0]; if (UI_I18N[base]) return base; }
+        if (cookie && Object.prototype.hasOwnProperty.call(UI_I18N, cookie)) return cookie;
+        if (cookie) { const base = cookie.split('_')[0]; if (Object.prototype.hasOwnProperty.call(UI_I18N, base)) return base; }
         const nav = (navigator.language || 'en').toLowerCase().split('-')[0];
-        if (UI_I18N[nav]) return nav;
+        if (Object.prototype.hasOwnProperty.call(UI_I18N, nav)) return nav;
         return 'en';
     }
     let uiLang = resolveUiLang();

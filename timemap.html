@@ -63,7 +63,7 @@
         }
     </script>
     <link rel="stylesheet" href="styles.css?v=158">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="/vendor/leaflet-1.9.4/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+Hebrew:wght@400;700&family=Noto+Sans+Arabic:wght@400;700&family=Noto+Sans+Devanagari:wght@400;700&family=Noto+Sans+Bengali:wght@400;700&family=Noto+Sans+Ethiopic:wght@400;700&family=Noto+Sans+Thai:wght@400;700&family=Noto+Sans+Mayan+Numerals&family=Noto+Sans+Tifinagh&family=Noto+Sans+Myanmar:wght@400;700&family=Noto+Sans+Khmer:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+KR:wght@400;700&display=swap" media="print" onload="this.media='all'">
@@ -335,7 +335,7 @@
         @media (min-width: 641px) { .tm-map-ctl:not(:has(> .chrome-toggle-btn))::before { content: ''; height: 40px; } }
         #tm-era { min-height: 20px; }
 </style>
-    <script src="nav-short.js?v=27"></script>
+    <script src="nav-short.js?v=28"></script>
 </head>
 <body>
     <header class="site-header-bar">
@@ -410,7 +410,7 @@
     </div>
 
 
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="/vendor/leaflet-1.9.4/leaflet.js"></script>
     <script src="timemap_calendars.js?v=15"></script>
     <script>
     (function () {
@@ -438,14 +438,16 @@
                 document.head.appendChild(s);
             });
         }
-        function getCookie(n){ const m=document.cookie.match(new RegExp('(?:^|;\\s*)'+n+'=([^;]+)')); return m?decodeURIComponent(m[1]):null; }
+        const _own=(o,k)=>typeof k==='string'&&Object.prototype.hasOwnProperty.call(o,k);   // URL / cookie values must not match inherited keys ('constructor'; r22)
+        const _dec=(v)=>{ try{ return decodeURIComponent(v); }catch(e){ return v; } };   // a truncated %-sequence threw and blanked the page (r22)
+        function getCookie(n){ const m=document.cookie.match(new RegExp('(?:^|;\\s*)'+n+'=([^;]+)')); return m?_dec(m[1]):null; }
         function setCookie(n,v){ document.cookie=n+'='+encodeURIComponent(v)+'; path=/; max-age=31536000; SameSite=Lax'; }
         function detectLang(){
-            const c=getCookie('wm_uilang'); if(c&&HAS[c]) return c;
+            const c=getCookie('wm_uilang'); if(c&&_own(HAS,c)) return c;
             for(const l of (navigator.languages||[navigator.language||'en'])){
                 const low=(l||'').toLowerCase();
                 if(low==='zh-hk'||low==='zh-mo'||low.startsWith('yue')) return 'yue';
-                const b=low.slice(0,2); if(HAS[b]) return b;
+                const b=low.slice(0,2); if(_own(HAS,b)) return b;
             }
             return 'en';
         }
@@ -501,7 +503,7 @@
             const h='#'+parts.join('&'); if(location.hash!==h) history.replaceState(null,'',h);
         }
         function readState(){
-            const o={}; location.hash.replace(/^#/,'').split('&').forEach(kv=>{ const i=kv.indexOf('='); if(i>0) o[kv.slice(0,i)]=decodeURIComponent(kv.slice(i+1)); });
+            const o={}; location.hash.replace(/^#/,'').split('&').forEach(kv=>{ const i=kv.indexOf('='); if(i>0) o[kv.slice(0,i)]=_dec(kv.slice(i+1)); });
             return o;
         }
 
@@ -870,13 +872,13 @@
         function boot(){
             initMap();
             const st=readState();
-            if(st.l && HAS[st.l]) uiLang=st.l;
+            if(st.l && _own(HAS,st.l)) uiLang=st.l;
             if(st.s){ const v=parseInt(st.s,10); if(v>=70&&v<=160) fontScale=v/100; }
             if(st.d && gregParts(st.d)) dateStr=st.d;
             if(st.era==='hist') era='historical';
             if(st.simple==='1'){ document.body.classList.add('chrome-hidden'); document.getElementById('chrome-toggle').setAttribute('aria-pressed','true'); }
             // animate:false — an animated zoom is still running when boot reads the centre back.
-            if(st.c && st.z){ const p=st.c.split(','); const lat=+p[0], lng=+p[1], z=+st.z; if(isFinite(lat)&&isFinite(lng)&&isFinite(z)) map.setView([lat,lng], z, { animate:false }); }
+            if(st.c && st.z){ const p=st.c.split(','); const lat=+p[0], lng=+p[1], z=+st.z; if(isFinite(lat)&&isFinite(lng)&&isFinite(z)&&Math.abs(lat)<=85&&Math.abs(lng)<=1e4&&z>=0&&z<=20) map.setView([lat,lng], z, { animate:false }); }
             setupLangSelect(); syncEra(); applyFontScale();
 
             document.getElementById('tm-date').value=dateStr;
@@ -922,7 +924,7 @@
             { let _mt=null; const syncMk=()=>{ const mr=map.getContainer().getBoundingClientRect(); let ml=mr.left; { const pn=document.getElementById('tm-panel'), pr=pn&&pn.getClientRects().length&&pn.getBoundingClientRect(); if(pr && pr.left<=mr.left+40 && pr.right<mr.left+mr.width/2) ml=Math.max(ml,pr.right); } document.querySelectorAll('#map .leaflet-marker-icon[tabindex]').forEach(el=>{ let r=el.getBoundingClientRect(); if((!r.width||!r.height) && el.firstElementChild) r=el.firstElementChild.getBoundingClientRect(); const cx=r.left+r.width/2, cy=r.top+r.height/2; let want=(cx>ml&&cx<mr.right&&cy>mr.top&&cy<mr.bottom)?0:-1; if(!want){ const hit=document.elementFromPoint(cx,cy); if(!(hit && (el.contains(hit) || map.getContainer().contains(hit)))) want=-1; } if(el.tabIndex!==want && el!==document.activeElement) el.tabIndex=want; }); }; map.on('moveend zoomend layeradd', ()=>{ clearTimeout(_mt); _mt=setTimeout(syncMk,120); }); }
             window.addEventListener('hashchange', ()=>{
                 const o=readState();
-                if(o.l && HAS[o.l] && o.l!==uiLang){ document.getElementById('header-ui-lang').value=o.l; setLang(o.l); }
+                if(o.l && _own(HAS,o.l) && o.l!==uiLang){ document.getElementById('header-ui-lang').value=o.l; setLang(o.l); }
                 if(o.d && o.d!==dateStr && gregParts(o.d)) setDate(o.d, { hash:false });
                 const e=o.era==='hist'?'historical':'modern'; if(e!==era) setEra(e);
             });

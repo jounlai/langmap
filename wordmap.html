@@ -88,7 +88,7 @@
         }
     </script>
     <link rel="stylesheet" href="styles.css?v=158">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="/vendor/leaflet-1.9.4/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts. Without these the characters render
          as tofu boxes: desktop Linux often ships the Noto historic fonts, but
          iOS and Windows ship almost none of them, so every script that appears
@@ -3035,7 +3035,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=27"></script>
+    <script src="nav-short.js?v=28"></script>
     <style>
         /* Rally r21: the settings-drawer buttons were capped at 54-56px with 8px text,
            so de "Aussprache" / "Einheimisch" and ar "المحددة فقط" spilled or were cut. */
@@ -3698,7 +3698,7 @@
         <path class="conn-path" d="" marker-end="url(#conn-arrow)"></path>
     </svg>
 
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="/vendor/leaflet-1.9.4/leaflet.js"></script>
     <!-- globe.gl is NOT loaded here. It is 404 KB gzipped — 48% of this page's
          839 KB of eager JavaScript — and it draws a 3D globe that nothing
          shows until the reader presses the 3D button. It is fetched on demand
@@ -3760,7 +3760,7 @@
             styles:   158,
             data:      345,
             metaI18n:  16,
-            filter:    56,
+            filter:    57,
             names:   203,
             meta:     419,
             trivia:   44,
@@ -3902,7 +3902,7 @@
          loaded. Loading them eagerly meant half a megabyte on every visit for
          data that only matters once a language modal opens. They now load
          inside loadMeta(). See __wmLoadMetaI18n() below. -->
-    <script src="lang-filter.js?v=56"></script>
+    <script src="lang-filter.js?v=57"></script>
     <!-- Translated language names: 1,154 codes × 19 UI languages is ~215 KB
          gzipped, and a reader uses one of them plus English as the fallback.
          Load the shim, then English, then whichever UI language this visitor
@@ -4207,7 +4207,7 @@
         // Cookie helpers: shared cross-page UI-lang persistence (wm_uilang).
         function _wmGetCookie(name) {
             const m = document.cookie.match(new RegExp('(?:^|;\\s*)' + name + '=([^;]+)'));
-            return m ? decodeURIComponent(m[1]) : null;
+            try { return m ? decodeURIComponent(m[1]) : null; } catch (_) { return null; }
         }
         function _wmSetCookie(name, value) {
             document.cookie = name + '=' + encodeURIComponent(value) + '; path=/; max-age=31536000; SameSite=Lax';
@@ -4217,6 +4217,9 @@
         // collapsed into 'es' / 'pt'. Normalize at every read site so
         // saved cookies and shared ?ui= URLs keep working.
         function _normalizeUiLang(code) {
+            // Only code-shaped values: 'constructor' / '__proto__' from a link or a
+            // planted cookie matched inherited object keys and blanked every page (r22).
+            if (typeof code !== 'string' || !/^[a-z]{2,3}(?:[_-][a-z0-9]{2,8})*$/.test(code)) return null;
             if (code === 'es_eu' || code === 'es_mx') return 'es';
             if (code === 'pt_eu' || code === 'pt_br') return 'pt';
             return code;
@@ -4232,7 +4235,7 @@
             // 2. navigator.language fallback
             const langs = navigator.languages || [navigator.language || 'en'];
             for (const l of langs) {
-                const code = _normalizeUiLang(l.replace('-', '_').toLowerCase());
+                const code = _normalizeUiLang(l.replace('-', '_').toLowerCase()) || '';
                 if (WM_UI[code]) return code;
                 const base = code.split('_')[0];
                 const map = { ja:'ja', ko:'ko', zh:'zh', vi:'vi', th:'th', id:'id', hi:'hi',
@@ -5568,6 +5571,7 @@
             _globeLibP = new Promise((resolve, reject) => {
                 const el = document.createElement('script');
                 el.src = 'https://unpkg.com/globe.gl@2.35.1/dist/globe.gl.min.js';
+                el.integrity = 'sha384-AGB6YjA55RJdZrJIBCOhqI1gdda3ApY6Je74fLo1MmC4xQDQQuLae86tEgdO1uA7'; el.crossOrigin = 'anonymous';   // pinned file, checked (r22)
                 el.onload = () => resolve();
                 el.onerror = () => { _globeLibP = null; reject(new Error('globe.gl failed to load')); };
                 document.head.appendChild(el);
@@ -5590,9 +5594,9 @@
         function initGlobe() {
             if (globe) return;
             globe = Globe()(globeEl)
-                .globeImageUrl('https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg')
-                .bumpImageUrl('https://unpkg.com/three-globe/example/img/earth-topology.png')
-                .backgroundImageUrl('https://unpkg.com/three-globe/example/img/night-sky.png')
+                .globeImageUrl('https://unpkg.com/three-globe@2.45.6/example/img/earth-blue-marble.jpg')
+                .bumpImageUrl('https://unpkg.com/three-globe@2.45.6/example/img/earth-topology.png')
+                .backgroundImageUrl('https://unpkg.com/three-globe@2.45.6/example/img/night-sky.png')
                 .showAtmosphere(true)
                 .atmosphereColor('#4488ff')
                 .atmosphereAltitude(0.2)
@@ -7508,7 +7512,8 @@
                 const pp = pParam.split(',');
                 if (pp.length >= 3) { lat = parseFloat(pp[0]); lng = parseFloat(pp[1]); z = parseFloat(pp[2]); }
             }
-            if (Number.isFinite(z) && Number.isFinite(lat) && Number.isFinite(lng)) {
+            // Out-of-range values from a link (#p=1e308,1e308,99) threw and blanked the page (r22).
+            if (Number.isFinite(z) && Number.isFinite(lat) && Number.isFinite(lng) && Math.abs(lat) <= 85 && Math.abs(lng) <= 1e4 && z >= 0 && z <= 20) {
                 map.setView([lat, lng], z);
             }
             const nat = params.get('nat');
@@ -7623,7 +7628,7 @@
             // Restore open language modal (after everything else is loaded so
             // map markers exist by the time we look up the label DOM).
             const langCode = params.get('lang');
-            if (langCode && LANG_DATA[langCode]) {
+            if (langCode && Object.prototype.hasOwnProperty.call(LANG_DATA, langCode)) {   // own keys only (r22)
                 // Defer until after initial markers are rendered.
                 setTimeout(() => { showLangInfo(langCode); }, 100);
             } else {
@@ -9832,7 +9837,7 @@
             const params = new URLSearchParams(location.hash.slice(1));
             const cmp = params.get('cmp');
             if (cmp) {
-                _compareList = cmp.split(',').filter(c => LANG_DATA[c]).slice(0, COMPARE_MAX);
+                _compareList = cmp.split(',').filter(c => Object.prototype.hasOwnProperty.call(LANG_DATA, c)).slice(0, COMPARE_MAX);
             } else {
                 try {
                     const stored = localStorage.getItem(COMPARE_STORAGE_KEY);

@@ -3244,11 +3244,11 @@ function seo_map_embed(?float $lat, ?float $lng, string $label, int $zoom = 5, s
     key.onload = key.onerror = one;
     document.head.appendChild(key);
     var css = document.createElement('link');
-    css.rel = 'stylesheet'; css.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+    css.rel = 'stylesheet'; css.href = '/vendor/leaflet-1.9.4/leaflet.css';
     css.onload = css.onerror = one;
     document.head.appendChild(css);
     var js = document.createElement('script');
-    js.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+    js.src = '/vendor/leaflet-1.9.4/leaflet.js';
     js.onload = one;
     document.head.appendChild(js);
   }
@@ -3270,7 +3270,7 @@ function seo_map_embed(?float $lat, ?float $lng, string $label, int $zoom = 5, s
       attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a> &middot; &copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
     // No shadow: Leaflet's marker-shadow.png has no 2x version (image-size-responsive).
-    var P = 'https://unpkg.com/leaflet@1.9.4/dist/images/';
+    var P = '/vendor/leaflet-1.9.4/images/';
     L.marker([{$lat}, {$lng}], { alt: {$jsLabel}, icon: L.icon({ iconUrl: P + 'marker-icon.png', iconRetinaUrl: P + 'marker-icon-2x.png',
       iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], tooltipAnchor: [16, -28] }) }).addTo(map).bindPopup({$jsLabel});
   }

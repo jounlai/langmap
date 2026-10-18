@@ -72,9 +72,10 @@
     function norm(code) {
         code = String(code || '').toLowerCase().replace('_', '-');
         if (code === 'yue' || code.indexOf('zh-hk') === 0 || code.indexOf('zh-mo') === 0 || code.indexOf('yue') === 0) return 'yue';
-        if (LABELS[code]) return code;
+        var own = function (k) { return Object.prototype.hasOwnProperty.call(LABELS, k); };   // not 'constructor' (r22)
+        if (own(code)) return code;
         var b = code.slice(0, 2);
-        return LABELS[b] ? b : null;
+        return own(b) ? b : null;
     }
     function fromUrl() {
         // ?ui= is what the pages write into shared links; l= is older.
@@ -83,7 +84,7 @@
     }
     function fromCookie() {
         var m = document.cookie.match(/(?:^|;\s*)wm_uilang=([^;]+)/);
-        return m ? norm(decodeURIComponent(m[1])) : null;
+        try { return m ? norm(decodeURIComponent(m[1])) : null; } catch (_) { return null; }
     }
     function fromBrowser() {
         var l = navigator.languages || [navigator.language || 'en'];

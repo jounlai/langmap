@@ -27,6 +27,9 @@ let currentUILang = 'en';
 // Applied at every read site (cookie, URL hash, ?ui= param, compact decode) so
 // users with old saved settings or shared URLs continue to work.
 function _normalizeUiLang(code) {
+    // Only code-shaped values: 'constructor' / '__proto__' from a link or a
+    // planted cookie matched inherited object keys and blanked every page (r22).
+    if (typeof code !== 'string' || !/^[a-z]{2,3}(?:[_-][a-z0-9]{2,8})*$/.test(code)) return null;
     if (code === 'es_eu' || code === 'es_mx') return 'es';
     if (code === 'pt_eu' || code === 'pt_br') return 'pt';
     return code;
@@ -609,7 +612,7 @@ function syncUIFromState() {
 // Pass 34: cookie helpers for cross-page UI-lang persistence (cookie 'wm_uilang')
 function _wmGetCookie(name) {
     const m = document.cookie.match(new RegExp('(?:^|;\\s*)' + name + '=([^;]+)'));
-    return m ? decodeURIComponent(m[1]) : null;
+    try { return m ? decodeURIComponent(m[1]) : null; } catch (_) { return null; }
 }
 function _wmSetCookie(name, value) {
     document.cookie = name + '=' + encodeURIComponent(value) + '; path=/; max-age=31536000; SameSite=Lax';
@@ -619,14 +622,14 @@ function _wmSetCookie(name, value) {
 function detectUILang() {
     const cookie = _wmGetCookie('wm_uilang');
     if (cookie) {
-        const normalized = _normalizeUiLang(cookie);
+        const normalized = _normalizeUiLang(cookie) || '';
         if (UI_STRINGS[normalized]) return normalized;
         const base = normalized.split('_')[0];
         if (UI_STRINGS[base]) return base;
     }
     const langs = navigator.languages || [navigator.language || 'en'];
     for (const l of langs) {
-        const code = _normalizeUiLang(l.replace('-', '_').toLowerCase());
+        const code = _normalizeUiLang(l.replace('-', '_').toLowerCase()) || '';
         if (UI_STRINGS[code]) return code;
         const base = code.split('_')[0];
         const map = { ja:'ja', ko:'ko', zh:'zh', vi:'vi', th:'th', id:'id', hi:'hi',
@@ -2227,18 +2230,18 @@ function copyShareURL() {
 function shareToX() {
     const url = encodeURIComponent(getShareURL());
     const text = encodeURIComponent(getShareText());
-    window.open(`https://x.com/intent/tweet?text=${text}&url=${url}`, '_blank', 'width=550,height=420');
+    window.open(`https://x.com/intent/tweet?text=${text}&url=${url}`, '_blank', 'noopener,width=550,height=420');
 }
 
 function shareToFacebook() {
     const url = encodeURIComponent(getShareURL());
-    window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank', 'width=550,height=420');
+    window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank', 'noopener,width=550,height=420');
 }
 
 function shareToLINE() {
     const url = encodeURIComponent(getShareURL());
     const text = encodeURIComponent(getShareText());
-    window.open(`https://social-plugins.line.me/lineit/share?url=${url}&text=${text}`, '_blank', 'width=550,height=420');
+    window.open(`https://social-plugins.line.me/lineit/share?url=${url}&text=${text}`, '_blank', 'noopener,width=550,height=420');
 }
 
 // --- Inline editing ---
@@ -2957,9 +2960,13 @@ function saveEdit(row, langCode) {
             timestamp: new Date().toISOString()
         };
         // Store to localStorage
-        const stored = JSON.parse(localStorage.getItem('langmap_corrections') || '[]');
-        stored.push(correction);
-        localStorage.setItem('langmap_corrections', JSON.stringify(stored));
+        // Blocked or malformed storage must not leave the editor stuck open (r22).
+        try {
+            let stored = JSON.parse(localStorage.getItem('langmap_corrections') || '[]');
+            if (!Array.isArray(stored)) stored = [];
+            stored.push(correction);
+            localStorage.setItem('langmap_corrections', JSON.stringify(stored));
+        } catch (_) {}
 
         // Show toast
         showToast(t('correctionSaved'));

@@ -951,7 +951,7 @@
                 if (m) out.period = { fromIdx: parseInt(m[1], 10), toIdx: parseInt(m[2], 10) };
                 continue;
             }
-            if (!filterState[cat]) continue;
+            if (!Object.prototype.hasOwnProperty.call(filterState, cat)) continue;   // '#f=constructor:x' threw (r22)
             out[cat] = vals.split(',').map(v => { try { return decodeURIComponent(v); } catch (e) { return v; } });
         }
         return out;

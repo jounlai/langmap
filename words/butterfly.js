@@ -99,7 +99,7 @@ WORDS.butterfly = {
     cho: ["hatapushik", "hatapoʃik"],  // Byington also records haahtapushik and hatapushi; the Choctaw Nation of Oklahoma dictionary spells the word hʋtapushik (reached via Wiktionary, which cites it)
     chp: ["yágoli", "jáɡoli"],  // formation not stated in the source
     cjy: ["蝴蝶", "xu˦˥ tiəʔ˥˦"],  // the general Chinese word; earlier written 胡蝶. Taiyuan also has the diminutive 蝴蝶兒
-    ckb: ["پەپوولە", "pɛpuːlɛ"],  // a reduplicated pe-pû-le, matching Kurmanji p'irp'irok, Zazaki filfilik and Hebrew parpar; Sorani keeps it distinct from پەروانە perwane 'moth'
+    ckb: ["پەپوولە", "papuːla"],  // a reduplicated pe-pû-le, matching Kurmanji p'irp'irok, Zazaki filfilik and Hebrew parpar; Sorani keeps it distinct from پەروانە perwane 'moth'
     dak: ["kímama", "kímama"],  // reduplicative in shape; Riggs also records the diminutive kimamana, Williamson a variant kimimana
     gu: ["પતંગિયું", "pətəŋɡijũ"],  // a diminutive of પતંગ patang 'flying insect, moth' (Sanskrit pataṅgá 'flying creature', Turner CDIAL p. 436) - a different root from the titlī of Hindi-Urdu-Punjabi
     hil: ["alibangbang", "ʔaliˈbaŋbaŋ"],  // reduplicated -bangbang, from Proto-Malayo-Polynesian *baŋbaŋ; the same word names the Bauhinia tree, for its butterfly-shaped leaves

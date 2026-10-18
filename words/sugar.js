@@ -1571,7 +1571,7 @@ WORDS.sugar = {
     ml: ["പഞ്ചസാര", "paɲtʃasaːɾa"],
     tg: ["шакар", "ʃaˈkar"],
     ku: ["şekir", "ʃɛˈkɪɾ"], // was ["şekir", "ʃɛˈkɪr"] (vi dialect rules 2026-10-06)
-    ckb: ["شەکر", "ʃɛˈkɪr"],
+    ckb: ["شەکر", "ʃaˈkɪɾ"],
     az: ["şəkər", "ʃæˈcæɾ"], // was ["şəkər", "ʃæˈkæɾ"] (vi dialect rules 2026-10-06)
     azb: ["شکر", "ʃæˈkæɾ"],
     ug: ["شېكەر", "ʃeˈkɛr"],

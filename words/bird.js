@@ -260,7 +260,7 @@ WORDS.bird = {
     ml: ["പക്ഷി", "pakʂi"],
     tg: ["паранда", "paranda"],
     ku: ["balinde", "bɑːlɪnˈdɛ"],
-    ckb: ["باڵندە", "baːɫɪndæ"],
+    ckb: ["باڵندە", "baːɫɪnda"],
     sdh: ["باڵنده", "bɑːɫinde"],
     ps: ["مرغه", "marɣa"],
     az: ["quş", "ɡuʃ"],

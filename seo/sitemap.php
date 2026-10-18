@@ -62,8 +62,8 @@ foreach (($wm['words'] ?? []) as $w) {
     $pages[] = ['/word/' . rawurlencode($w['id']), '0.7'];
 }
 foreach (($wm['langs'] ?? []) as $code => $l) {
-    if (!empty($l['excluded'])) {
-        continue; // noindex'd; keep out of the sitemap
+    if (!empty($l['excluded']) || seo_wordmap_thin($l)) {
+        continue; // noindex'd (hidden variety, or too few cells); keep out of the sitemap
     }
     $pages[] = ['/wordmap/' . rawurlencode($code), '0.6'];
 }
@@ -112,7 +112,7 @@ $emit = function (string $altPath, string $priority) use ($today): void {
     $alts = '';
     foreach (SEO_UI_LANGS as $ui) {
         $href = SEO_SITE . '/' . $ui . $altPath;
-        $alts .= '    <xhtml:link rel="alternate" hreflang="' . e($ui)
+        $alts .= '    <xhtml:link rel="alternate" hreflang="' . e(seo_hreflang_code($ui))
             . '" href="' . e($href) . "\"/>\n";
     }
     $alts .= '    <xhtml:link rel="alternate" hreflang="x-default" href="'

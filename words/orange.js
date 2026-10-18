@@ -1161,14 +1161,14 @@ WORDS.orange = {
     ml: ["ഓറഞ്ച്", "oːraɲdʒɨ"], // was ["ഓറഞ്ച്", "oːɾaɲdʒɨ"] (vi dialect rules 2026-10-06)
     tg: ["афлесун", "afleˈsun"],
     ku: ["pirteqal", "pɪɾtɛˈqɑːl"], // was ["pirteqal", "pɪɾtɛˈqal"] (vi dialect rules 2026-10-06)
-    ckb: ["پرتەقاڵ", "pɪɾtɛˈqaːɫ"], // was ["پرتەقاڵ", "pɪɾtɛˈqaɫ"] (vi dialect rules 2026-10-06)
+    ckb: ["پرتەقاڵ", "pɪɾtaˈqaːɫ"], // was ["پرتەقاڵ", "pɪɾtɛˈqaɫ"] (vi dialect rules 2026-10-06)
     sdh: ["پرتەقاڵ", "pɪɾtæˈqɑːɫ"], // was ["پرتەقاڵ", "pɪɾtɛˈqaɫ"] (vi dialect rules 2026-10-06)
     ps: ["مالټه", "maːlʈa"],
     az: ["portağal", "poɾtɑˈɣɑl"], // was ["portağal", "poɾtaˈɣal"] (vi dialect rules 2026-10-06)
     azb: ["پرتقال", "poɾtaˈɣal"],
     ug: ["ئاپېلسىن", "ɑpelsin"], // was ["ئاپېلسىن", "apelsin"] (vi dialect rules 2026-10-06)
     kk: ["апельсин", "ɑpelʲˈsin"],
-    ky: ["апельсин", "apelʲˈsin"],
+    ky: ["апельсин", "ɑpelʲˈsin"],
     uz: ["apelsin", "apelˈsin"],
     tk: ["pyrtykal", "pɯɾtɯˈkal"], // was ["pyrtykal", "pɯrtɯˈkal"] (vi dialect rules 2026-10-06)
     mn_cn: ["ᠵᠦᠷᠵᠢ", "dʒʉrdʒ"],

@@ -235,7 +235,7 @@ WORDS.daughter = {
     de_lut: ["Tochter", "ˈtɔxtər"],
     gsw: ["Tochter", "ˈtɔxtər"],
     yi: ["טאָכטער", "ˈtɔxtər"],
-    fo: ["dóttir", "ˈdœhtɪɹ"],
+    fo: ["dóttir", "ˈtœhtɪɹ"],
 
     // --- Romance — the fīlia side, plus the rows that lost the l ---------
     es_ar: ["hija", "ˈixa"],

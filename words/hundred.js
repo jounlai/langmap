@@ -140,7 +140,7 @@ WORDS.hundred = {
     prs: ["صد", "sad"],
     tg: ["сад", "sad"],
     ku: ["sed", "sɛd"],
-    ckb: ["سەد", "sæd"],
+    ckb: ["سەد", "sad"],
     ps: ["سل", "səl"],
     os: ["сӕдӕ", "sædæ"],
     rom: ["šel", "ʃel"],
@@ -691,7 +691,7 @@ WORDS.hundred = {
     // --- Europe, the Caucasus rim and mainland Asia ------------------------
     kw: ["kans", "kans"],   // Celtic centum, beside Welsh cant and Breton kant
     gv: ["keead", "kʲiəd"],   // the Goidelic form, beside Irish céad
-    fo: ["hundrað", "ˈhʊndɹa"],
+    fo: ["hundrað", "ˈhʊntɹa"],
     gsw: ["hundert", "ˈhʊndərt"],
     stq: ["hunnert", "ˈhʊnərd"],
     pcd: ["chint", "ʃɛ̃"],

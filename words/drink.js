@@ -372,7 +372,7 @@ WORDS.drink = {
     ml: ["കുടിക്കുക", "kuɖikːjuɡa"],
     tg: ["нӯшидан", "nɵʃidan"],
     ku: ["vexwarin", "vɛxwɑːˈɾɪn"],
-    ckb: ["خواردنەوە", "xwɑːɾdɪnɛwɛ"],
+    ckb: ["خواردنەوە", "xwaːɾdɪnawa"],
     sdh: ["خواردنەوە", "xwɑːɾdɪnˈæwæ"],
     ps: ["څکل", "tskəl"],
     az: ["içmək", "itʃˈmæc"],

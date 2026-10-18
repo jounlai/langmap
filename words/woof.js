@@ -124,7 +124,7 @@ WORDS.woof = {
     "sl": ["hov hov", "xɔʋ xɔʋ"],
     "sq": ["ham ham", "ham ham"],
     "sr": ["ав ав", "aʋ aʋ"],
-    "su": ["gogog", "ˈɡɔɡɔɡ"],
+    "su": ["gogog", "ɡoɡoɡ"],
     "sv": ["voff voff", "vɔf vɔf"],
     "ta": ["வள் வள்", "ʋaɭ ʋaɭ"],
     "te": ["భౌ భౌ", "bʱau bʱau"],

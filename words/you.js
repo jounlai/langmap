@@ -596,7 +596,7 @@ WORDS.you = {
       frr_amr: ["dü", "dʏ"],
       li: ["doe", "du"],
       nn: ["du", "dʉː"],
-      fo: ["tú", "tʉuː"],
+      fo: ["tú", "tʰʉuː"],
       fr_qc: ["tu", "tsy"],
       fr_af: ["tu", "ty"],
       fr_be: ["tu", "ty"],

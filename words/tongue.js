@@ -534,7 +534,7 @@ WORDS.tongue = {
     frr_amr: ["tong", "tɔŋ"],
     li: ["tóng", "tɔŋ"],
     nn: ["tunge", "ˈtʊŋə"],
-    fo: ["tunga", "ˈtʊŋɡa"],
+    fo: ["tunga", "ˈtʰʊŋka"],
     fr_qc: ["langue", "lãːɡ"],
     fr_af: ["langue", "lɑ̃ɡ"],
     fr_be: ["langue", "lɑ̃ːɡ"],

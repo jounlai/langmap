@@ -220,7 +220,7 @@ WORDS.person = {
     cic: ["hattak", "hatːak"],
     cjs: ["кижи", "kiʒi"],
     cjy: ["人", "zəŋ˩"],
-    ckb: ["کەس", "kɛs"],
+    ckb: ["کەس", "kas"],
     ckt: ["оравэтԓьан", "orawetɬʔan"],
     cmg: ["ᠬᠦᠮᠦᠨ", "kymyn"],
     cnh: ["mi", "mi"],

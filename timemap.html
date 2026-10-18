@@ -234,6 +234,10 @@
 
         /* Leaflet popup */
         .leaflet-popup-content { margin: 12px 14px; min-width: 200px; }
+        /* Arabic/Hebrew popups: Leaflet's text-align:left beat dir=rtl; one right edge
+           for every line, dir=auto ones included (r29) */
+        .leaflet-popup-content > [dir="rtl"] { text-align: right; }
+        .leaflet-popup-content > [dir="rtl"] > :first-child { padding-right: 28px; }   /* clear of the close button, which stays top-right */
         .tm-pop-region { font-size: 12px; color: #6b6b6b; text-transform: uppercase; letter-spacing: 0.5px; }
         .tm-pop-name { font-size: 15px; font-weight: 700; color: var(--tm-accent-dark); margin: 2px 0 6px; }
         .tm-pop-date { font-size: 20px; font-weight: 800; color: #1a1a2e; line-height: 1.3; }
@@ -291,7 +295,12 @@
         .tm-show-sep { width: 80%; height: 1px; background: #e0e0e0; margin: 4px 0 2px; }
         .tm-show-btn { min-width: 64px; max-width: 92px; min-height: 30px; padding: 3px 6px; border: 1px solid #d0d0d0; border-radius: 15px; background: #fff; color: #9aa0a6; font: inherit; font-size: 10px; line-height: 1.15; cursor: pointer; text-align: center; overflow-wrap: anywhere; }
         .tm-show-btn[aria-pressed="true"] { background: #e8f0fe; border-color: #1a73e8; color: #1a56c4; font-weight: 600; }
-        body.tm-hide-w .tm-label .w, body.tm-hide-t .tm-label .t, body.tm-hide-r .tm-label .r, body.tm-hide-d .tm-label .d { display: none; }
+        body.tm-hide-t .tm-label .t, body.tm-hide-r .tm-label .r, body.tm-hide-d .tm-label .d { display: none; }
+        /* Date off, Weekday on: the weekday stays as its own line (r29: it sat inside
+           the date and vanished with it). A calendar with no weekday drops the line,
+           unless Weekday is the only line on: then it keeps its date, not a blank. */
+        body.tm-hide-w .tm-label:not(.no-wd) .w :is(.n, .s) { display: none; }
+        body.tm-hide-w.tm-hide-d .tm-label .w, body.tm-hide-w:not(.tm-wd-only) .tm-label.no-wd .w { display: none; }
         .size-slider-wrap[hidden] { display: none; }
         .size-step-btn {
             width: 32px; height: 30px; border: 1px solid #d0d0d0; border-radius: 6px;
@@ -343,6 +352,11 @@
             }
             @media (max-width: 340px) { .tm-date-row { flex-wrap: wrap; row-gap: 6px; } }   /* 320px cut the year (r28) */
             .tm-controls > * { pointer-events: auto; }
+            /* the full-width era row ate taps on the gear below/beside it (r29) */
+            .tm-controls > .tm-era-row { pointer-events: none; }
+            .tm-era-row > * { pointer-events: auto; }
+            /* RTL puts the era pill at the right, under the gear: keep it clear (r29) */
+            .tm-panel[dir="rtl"] .tm-era-row { margin-inline-start: 56px; }
             .map-zoom-controls { display: none; }
             .site-header-bar > .chrome-toggle-btn { margin-left: auto; }
             .site-header-bar > .chrome-toggle-btn + .hamburger-btn { margin-left: 6px; }
@@ -392,7 +406,7 @@
 
         .leaflet-popup-close-button { width: 40px !important; height: 40px !important; font-size: 24px !important; line-height: 38px !important; }   /* 24px was hard to tap (r27) */
 </style>
-    <script src="nav-short.js?v=38"></script>
+    <script src="nav-short.js?v=39"></script>
 </head>
 <body>
     <header class="site-header-bar">
@@ -603,8 +617,11 @@
             if(!W || !g) return esc(native);
             const d=new Date(0); d.setUTCFullYear(g.y, g.m-1, g.d); const wd=W.n[d.getUTCDay()]; if(!wd) return esc(native);
             const i=W.f.indexOf('{date}'); const pre=W.f.slice(0,i), post=W.f.slice(i+6);
-            const part=(x)=>{ if(x.indexOf('{wd}')<0) return esc(x); const h=esc(x.replace('{wd}', wd)); return span ? '<span class="d">'+h+'</span>' : h; };
-            return part(pre)+esc(native)+part(post);
+            // Separators next to the weekday (", ", "، ") sit in .s, dropped when the date is hidden (r29).
+            const part=(x)=>{ if(x.indexOf('{wd}')<0) return esc(x); const h=x.replace('{wd}', wd); if(!span) return esc(h);
+                const m=h.match(/^([\s,،、፣၊;]*)([\s\S]*?)((?:ที่)?[\s,،、፣၊;]*)$/u);   // + Thai ที่ ("the", before the date)
+                return '<span class="d">'+(m[1]?'<span class="s">'+esc(m[1])+'</span>':'')+esc(m[2])+(m[3]?'<span class="s">'+esc(m[3])+'</span>':'')+'</span>'; };
+            return part(pre)+(span ? '<span class="n">'+esc(native)+'</span>' : esc(native))+part(post);
         }
         function popupHtml(cal){
             const g=gregParts(dateStr), r=dateOf(cal);
@@ -694,7 +711,8 @@
                 // native date / the same date in the UI language / calendar name
                 // The native date's language, for speech and glyph choice (3.1.2, r24).
                 const _nl = { greg_jp:'ja', japanese:'ja', roc:'zh-Hant', juche:'ko', buddhist:'th', chinese:'zh', dangi:'ko', hebrew:'he', islamic:'ar', persian:'fa', indian:'hi', bengali:'bn', ethiopic:'am', amazigh:'zgh', nepali:'ne', vietnamese:'vi', javanese:'jv', kurdish:'ckb', iceland:'is', tibetan:'bo', mongolian:'mn', bhutanese:'dz', myanmar:'my', khmer:'km', yuan:'zh-Hant', ming:'zh-Hant', qing:'zh-Hant', ryukyu:'ja', korean_empire:'ko', joseon:'ko', nguyen:'vi', koki:'ja', rattanakosin:'th', iran_imperial:'fa', french_rep:'fr', roman:'la', byzantine:'el', akan:'ak', kiche:'quc' }[cal.id] || '';
-                const html='<div class="tm-label'+cls+' cal-'+cal.id+'"><span class="w tm-script" dir="auto"'+(_nl?' lang="'+_nl+'"':'')+'>'+withWeekday(cal, r.native, true)+'</span>'
+                const _wh=withWeekday(cal, r.native, true);
+                const html='<div class="tm-label'+cls+(_wh.indexOf('class="d"')<0?' no-wd':'')+' cal-'+cal.id+'"><span class="w tm-script" dir="auto"'+(_nl?' lang="'+_nl+'"':'')+'>'+_wh+'</span>'
                     +(r.tr ? '<span class="t tm-script" dir="auto">'+esc(r.tr)+'</span>' : '')
                     +'<span class="r tm-script" dir="auto">'+esc(ct(cal,'name'))+'</span></div>';
                 const icon=L.divIcon({ className:'tm-divicon', html, iconSize:[0,0], iconAnchor:[0,0] });
@@ -960,8 +978,11 @@
             initMap();
             // Label popups get a history entry: the phone Back gesture closes the popup
             // instead of leaving the site; closing it by hand steps back (r27).
-            { const _popH = window.__lmOverlay ? window.__lmOverlay('popup', { isOpen: () => !!document.querySelector('#map .leaflet-popup'), close: () => map.closePopup() }) : null;
-              if (_popH) { map.on('popupopen', () => _popH.opened()); map.on('popupclose', () => _popH.closed()); } }
+            // Forward reopens the last popup while its marker is still on the map (r29).
+            { let _lastPop = null;
+              const _popH = window.__lmOverlay ? window.__lmOverlay('popup', { isOpen: () => !!document.querySelector('#map .leaflet-popup'), close: () => map.closePopup(),
+                open: () => { const s = _lastPop && _lastPop._source; if (!s || !map.hasLayer(s) || !s.openPopup) return false; s.openPopup(); } }) : null;
+              if (_popH) { map.on('popupopen', (e) => { _lastPop = e.popup; _popH.opened(); }); map.on('popupclose', () => _popH.closed()); } }
 
             const st=readState();
             if(st.l && _own(HAS,st.l)) uiLang=st.l;
@@ -1012,7 +1033,8 @@
                 r:{en:'Calendar',ja:'暦の名前',ko:'달력 이름',zh:'历法名称',yue:'曆法名稱',vi:'Tên lịch',th:'ชื่อปฏิทิน',id:'Nama kalender',hi:'पंचांग का नाम',de:'Kalender',fr:'Calendrier',it:'Calendario',es:'Calendario',pt:'Calendário',ru:'Календарь',uk:'Календар',ar:'اسم التقويم',he:'שם הלוח',sw:'Kalenda'} };
               const btns=[...document.querySelectorAll('.tm-show-btn')];
               let hide={}; try{ hide=JSON.parse(localStorage.getItem('tm_hide')||'{}')||{}; }catch(_){ hide={}; }
-              const apply=()=>{ btns.forEach(b=>{ const k=b.dataset.show, on=!hide[k]; b.setAttribute('aria-pressed', on?'true':'false'); document.body.classList.toggle('tm-hide-'+k, !on);
+              if(!hide || typeof hide!=='object' || ['w','d','t','r'].every(x=>hide[x])) hide={};   // a saved all-off state opened to a blank map (r29)
+              const apply=()=>{ document.body.classList.toggle('tm-wd-only', !!(hide.w && hide.t && hide.r && !hide.d)); btns.forEach(b=>{ const k=b.dataset.show, on=!hide[k]; b.setAttribute('aria-pressed', on?'true':'false'); document.body.classList.toggle('tm-hide-'+k, !on);
                   const L=SHOW_LBL[k], u=String(uiLang||'en').split('_')[0]; b.textContent=(L[u]||L.en); }); };
               btns.forEach(b=>b.addEventListener('click', e=>{ e.stopPropagation(); const k=b.dataset.show; hide[k]=!hide[k];
                   // keep at least one line visible
@@ -1063,7 +1085,7 @@
     </script>
     <script src="/pwa.js?v=2"></script>
     <script src="share-button.js?v=6"></script>
-    <script src="lang-picker.js?v=8"></script>
+    <script src="lang-picker.js?v=9"></script>
     </main>
     <footer>
 

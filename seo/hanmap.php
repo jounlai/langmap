@@ -128,11 +128,16 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
     // the page answers — "Shanghai Wu (Shanghainese, 上海话): how 104 Chinese
     // characters are read | LangMap".
     $aliases = seo_lang_aliases($ui, $code, $name, (string) $native);
-    $paren = array_values(array_filter([$aliases[0] ?? '', ($native && $native !== $name) ? $native : '']));
-    $title = seo_t($ui, 'hm_t2', ['name' => $name . ($paren ? ' (' . implode(', ', $paren) . ')' : ''), 'n' => (string) count($lang['readings'] ?? [])]) . ' | LangMap';
+    // A proto row's `native` is a Japanese scholarly label (原始タイ語), not a
+    // name the reader's search uses: kept in the hero, left out of title and
+    // snippet (r29).
+    $tNative = ($native && $native !== $name && strpos((string) ($lang['family'] ?? ''), '(proto)') === false) ? $native : '';
+    $paren = array_values(array_filter([seo_title_alias($aliases), $tNative]));
+    $kind = seo_hanmap_kind($code, $lang);
+    $title = seo_t($ui, $kind === 'reading' ? 'hm_t2' : 'hm_t2_' . $kind, ['name' => $name . ($paren ? ' (' . implode(', ', $paren) . ')' : ''), 'n' => (string) count($lang['readings'] ?? [])]) . ' | LangMap';
     $metaDesc = seo_lang_meta_lead(
         seo_hanmap_samples($lang),
-        $desc !== '' ? $desc : seo_t($ui, 'hm_lang_meta', ['name' => $name . ($native && $native !== $name ? " ($native)" : '')]),
+        $desc !== '' ? $desc : seo_t($ui, 'hm_lang_meta', ['name' => $name . ($tNative !== '' ? " ($tNative)" : '')]),
         $ui
     );
 

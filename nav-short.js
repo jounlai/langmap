@@ -253,25 +253,69 @@
     // Pages register an overlay with __lmOverlay(id, { isOpen, close, open }),
     // or let watch() detect it from the element. The entry carries the open
     // overlays as state.lmOv; replaceState/pushState keep it (wrapped below).
-    var LMH = window.__lmHistory = { reg: {}, stack: [], selfBack: 0, quiet: false, lastURL: location.href };
+    // Every entry also carries its place in the session, state.lmN (r29): Back
+    // and Forward are told apart by it, and an overlay knows which entry is its
+    // own (ovN), so closing it never steps back over an entry a page pushed.
+    // fresh: this load is a new landing (no state yet), not a reload or a return.
+    var LMH = window.__lmHistory = { reg: {}, stack: [], selfBack: 0, quiet: false, lastURL: location.href, n: 0, ovN: {}, fresh: !history.state };
+    var lmhPending = {};
+    var ovList = function () { return LMH.stack.length ? LMH.stack.slice() : undefined; };
     (function () {
         var _push = history.pushState.bind(history), _rep = history.replaceState.bind(history);
-        var withOv = function (st) {
-            var cur = history.state;
-            if (cur && cur.lmOv && !(st && st.lmOv)) st = Object.assign({}, st || {}, { lmOv: cur.lmOv });
-            return st;
+        LMH._rep = _rep; LMH._push = _push;
+        // A page's new entry while the top overlay is closing (closed in this task,
+        // its step back still pending: a game started from the Play menu or the
+        // phone menu) takes that overlay's entry instead of going above it. The
+        // step back undid the page's entry: a dead Back, then the next one left
+        // the site with the game open (r29).
+        history.pushState = function (st, t, u) {
+            var s = Object.assign({}, st || {}), r;
+            LMH.fresh = false;
+            if (lmhTakeClosingTop()) { s.lmOv = ovList(); s.lmN = LMH.n; r = _rep(s, t, u); }
+            else { s.lmOv = ovList(); s.lmN = ++LMH.n; r = _push(s, t, u); }
+            LMH.lastURL = location.href; return r;
         };
-        history.pushState = function (st, t, u) { var r = _push(withOv(st), t, u); LMH.lastURL = location.href; return r; };
-        history.replaceState = function (st, t, u) { var r = _rep(withOv(st), t, u); LMH.lastURL = location.href; return r; };
-        LMH._rep = _rep;
+        history.replaceState = function (st, t, u) {
+            var cur = history.state || {}, s = Object.assign({}, st || {});
+            if (!('lmOv' in s) && cur.lmOv) s.lmOv = cur.lmOv;
+            s.lmN = cur.lmN != null ? cur.lmN : LMH.n;
+            var r = _rep(s, t, u); LMH.lastURL = location.href; return r;
+        };
     })();
-    var lmhPending = {};
+    // Overlays on top of the stack that are closing, whose own entry is the
+    // current one: drop them (no step back) and say the entry can be reused.
+    function lmhTakeClosingTop() {
+        var cur = history.state || {}, took = false;
+        while (LMH.stack.length) {
+            var id = LMH.stack[LMH.stack.length - 1], o = LMH.reg[id];
+            if (!(lmhPending[id] || (o && !o.isOpen()))) break;
+            if (cur.lmN == null || LMH.ovN[id] !== cur.lmN) break;
+            if (lmhPending[id]) { clearTimeout(lmhPending[id]); delete lmhPending[id]; }
+            LMH.stack.pop(); took = true;
+        }
+        return took;
+    }
     function lmhOpened(id) {
         if (LMH.quiet) return;
         if (lmhPending[id]) { clearTimeout(lmhPending[id]); delete lmhPending[id]; return; }   // closed and reopened in one task (popup A -> B): keep the entry
         if (LMH.stack.indexOf(id) >= 0) return;
+        var reuse = lmhTakeClosingTop();   // phone menu -> Trivia: Trivia takes the menu's entry
         LMH.stack.push(id);
-        try { history.pushState(Object.assign({}, history.state || {}, { lmOv: LMH.stack.slice() }), '', location.href); } catch (_) {}
+        try {
+            var s = Object.assign({}, history.state || {}, { lmOv: LMH.stack.slice() });
+            LMH.fresh = false;
+            if (reuse) { s.lmN = LMH.n; LMH._rep(s, '', location.href); }
+            else { s.lmN = ++LMH.n; LMH._push(s, '', location.href); }
+            LMH.ovN[id] = LMH.n;
+        } catch (_) {}
+    }
+    function lmhSelfGo(d) {
+        LMH.selfBack++;
+        try { history.go(d); } catch (_) { LMH.selfBack--; return; }
+        // At an end of the history nothing happens: do not let the count leak
+        // onto the reader's next Back.
+        var tok = LMH.selfTok = (LMH.selfTok || 0) + 1;
+        setTimeout(function () { if (LMH.selfTok === tok) LMH.selfBack = 0; }, 1500);
     }
     function lmhClosed(id) {
         if (LMH.quiet) return;
@@ -281,8 +325,11 @@
             delete lmhPending[id];
             var at2 = LMH.stack.indexOf(id); if (at2 < 0) return;
             LMH.stack.splice(at2, 1);
-            if (at2 === LMH.stack.length) { LMH.selfBack++; try { history.back(); } catch (_) { LMH.selfBack--; } }
-            else { try { LMH._rep(Object.assign({}, history.state || {}, { lmOv: LMH.stack.slice() }), '', location.href); } catch (_) {} }
+            var cur = history.state || {};
+            // Step back only over the overlay's own entry. One a page pushed above
+            // it (a game, the language panel) stays; the overlay just leaves it.
+            if (at2 === LMH.stack.length && cur.lmN != null && cur.lmN === LMH.ovN[id]) lmhSelfGo(-1);
+            else { try { LMH._rep(Object.assign({}, cur, { lmOv: ovList() }), '', location.href); } catch (_) {} }
         }, 0);
     }
     window.__lmOverlay = function (id, o) {
@@ -299,9 +346,16 @@
     window.addEventListener('popstate', function () {
         var prevURL = LMH.lastURL;
         LMH.lastURL = location.href;
-        var want = (history.state && history.state.lmOv) || [];
+        var st = history.state || {};
+        var want = st.lmOv || [];
+        LMH.fresh = false;
         var self = LMH.selfBack > 0; if (self) LMH.selfBack--;
-        var changed = self;
+        // Direction from the entries' places; an entry without one is new (the
+        // reader edited the hash): number it after the current one.
+        var dir;
+        if (st.lmN == null) { dir = 1; LMH.n++; try { LMH._rep(Object.assign({}, st, { lmN: LMH.n }), '', location.href); } catch (_) {} }
+        else { dir = st.lmN < LMH.n ? -1 : (st.lmN > LMH.n ? 1 : 0); LMH.n = st.lmN; }
+        var changed = self, stale = [];
         LMH.quiet = true;
         try {
             for (var i = LMH.stack.length - 1; i >= 0; i--) {
@@ -309,10 +363,31 @@
                 if (want.indexOf(id) < 0) { changed = true; var o = LMH.reg[id]; if (o && o.isOpen()) try { o.close(); } catch (_) {} }
             }
             for (var j = 0; j < want.length; j++) {
-                if (LMH.stack.indexOf(want[j]) < 0) { changed = true; var o2 = LMH.reg[want[j]]; if (o2 && o2.open && !o2.isOpen()) try { o2.open(); } catch (_) {} }
+                if (LMH.stack.indexOf(want[j]) >= 0) continue;
+                var o2 = LMH.reg[want[j]];
+                if (o2 && o2.isOpen()) continue;   // open already: just track it
+                // Forward reopens an overlay. Back never does: an entry naming an
+                // overlay that is not open (closed by hand under another one, or
+                // before a reload) is a dead step (r29).
+                // An open() that returns false could not reopen it (its marker is gone).
+                var ok = false;
+                if (dir > 0 && o2 && o2.open) { try { ok = o2.open() !== false; } catch (_) { ok = false; } }
+                if (ok) changed = true; else stale.push(want[j]);
             }
         } finally { LMH.quiet = false; }
-        LMH.stack = want.slice();
+        LMH.stack = want.filter(function (x) { return stale.indexOf(x) < 0; });
+        if (stale.length && dir !== 0) {
+            // Drop the dead marker from this entry and step on past it; the page
+            // ignores this stop, and the next one keeps the live URL (self).
+            window.__lmPopHandled = true;
+            try { LMH._rep(Object.assign({}, st, { lmOv: ovList(), lmN: LMH.n }), '', prevURL); LMH.lastURL = prevURL; } catch (_) {}
+            window.__lmSkipHash = location.hash;
+            setTimeout(function () { window.__lmPopHandled = false; }, 0);
+            setTimeout(function () { window.__lmSkipHash = null; }, 400);
+            lmhSelfGo(dir);
+            return;
+        }
+        if (stale.length) { try { LMH._rep(Object.assign({}, st, { lmOv: ovList() }), '', location.href); } catch (_) {} }
         if (!changed) return;
         // An overlay opened or closed: the content under it stays as it is now.
         // Put the live URL back on this entry and tell the page not to re-apply
@@ -328,8 +403,31 @@
     window.__lmPopSkip = function () { return window.__lmPopHandled || (window.__lmSkipHash != null && window.__lmSkipHash === location.hash); };
     // An entry carrying overlays that are not open (reload, or back from a link
     // followed inside one): drop the marker so it is not a dead step (r28).
-    try { if (history.state && history.state.lmOv) LMH._rep(Object.assign({}, history.state, { lmOv: undefined }), '', location.href); } catch (_) {}
-    window.addEventListener('pageshow', function (e) { if (e.persisted) LMH.stack = (history.state && history.state.lmOv) || []; });
+    try {
+        var st0 = Object.assign({}, history.state || {});
+        if (st0.lmN != null) LMH.n = st0.lmN; else st0.lmN = LMH.n;
+        delete st0.lmOv;
+        LMH._rep(st0, '', location.href);
+    } catch (_) {}
+    window.addEventListener('pageshow', function (e) { if (e.persisted) { LMH.stack = (history.state && history.state.lmOv) || []; if (history.state && history.state.lmN != null) LMH.n = history.state.lmN; } });
+    // A landing that opens an overlay from the URL (a shared #play=, #lang=,
+    // #trivia= link) gets an entry under it, the same URL without those keys, so
+    // Back closes the overlay and stays on the site; it left the site with the
+    // overlay open (r29). Once, on a fresh landing, before any other push.
+    window.__lmDeepBase = function (keys, st, hash) {
+        if (!LMH.fresh) return false;
+        LMH.fresh = false;
+        var strip = function (s, lead) {
+            var p = String(s || '').replace(/^[?#]/, '').split('&').filter(function (kv) { return kv && keys.indexOf(kv.split('=')[0]) < 0; });
+            return p.length ? lead + p.join('&') : '';
+        };
+        var h = hash != null ? hash : location.hash;
+        try {
+            LMH._rep(Object.assign({}, history.state || {}, { lmOv: undefined, lmN: LMH.n }), '', location.pathname + strip(location.search, '?') + strip(h, '#'));
+            history.pushState(st || null, '', location.pathname + location.search + h);
+        } catch (_) { return false; }
+        return true;
+    };
 
     // Header menu / display-settings toggles: a real <button data-toggle=
     // "checkbox-id"> drives a hidden checkbox, whose :checked state the CSS
@@ -369,32 +467,58 @@
         return cs.display !== 'none' && cs.visibility !== 'hidden' && el.getClientRects().length > 0;
     }
     function lmCloseEl(el) {
-        var b = el.querySelector('.char-modal-close, #hm-lang-filter-close, .lf-close, .modal-close, .close-btn, [data-close], button[aria-label="Close"]');
+        // The UI-language menu: its own button (an Escape sent to the page would
+        // also reach the panel under it).
+        if (el.classList.contains('lang-picker-menu')) { var pb = el.parentNode && el.parentNode.querySelector('.lang-picker-btn'); if (pb) { pb.click(); return; } }
+        var b =el.querySelector('.char-modal-close, #hm-lang-filter-close, .lf-close, .modal-close, .close-btn, [data-close], button[aria-label="Close"]');
         if (b && lmVisible(b)) { b.click(); return; }
         if (el.classList.contains('wm-overlay')) { el.dispatchEvent(new MouseEvent('click', { bubbles: true })); if (!el.isConnected) return; }
         document.dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape', bubbles: true }));
     }
-    function lmWatch(id, el) {
+    // opener: the control that opens it (an element, or a selector): Forward
+    // clicks it to reopen the overlay (it stayed shut and left a dead Back, r29).
+    function lmWatch(id, el, opener) {
         if (el.__lmWatched) return; el.__lmWatched = true;
-        var h = window.__lmOverlay(id, { isOpen: function () { return lmVisible(el); }, close: function () { lmCloseEl(el); } });
+        var reopen = opener ? function () {
+            var b = typeof opener === 'string' ? document.querySelector(opener) : opener;
+            if (b && b.isConnected) b.click();
+        } : undefined;
+        var h = window.__lmOverlay(id, { isOpen: function () { return lmVisible(el); }, close: function () { lmCloseEl(el); }, open: reopen });
         var was = lmVisible(el);
         var check = function () { var now = lmVisible(el); if (now === was) return; was = now; if (now) h.opened(); else h.closed(); };
         new MutationObserver(function () { check(); setTimeout(check, 350); }).observe(el, { attributes: true, attributeFilter: ['class', 'style', 'hidden'] });
         if (was) h.opened();
         return { check: check };
     }
+    window.__lmWatch = lmWatch;   // lang-picker.js builds its menu after autoOverlays() ran (r29)
+    var OPENERS = { '#word-modal': '#word-current-btn', '.lf-panel': '.lf-fab', '#char-modal': '#char-current-btn',
+        '#hm-lang-filter-modal': '#hm-lang-filter-btn', '#play-menu': '#play-menu-btn', '#langModalOverlay': '#btnOpenLangModal',
+        '#nm-settings-pop': '#nm-settings-btn', '#tm-settings-pop': '#tm-settings-btn', '.lang-picker-menu': '.lang-picker-btn' };
+    // The control last clicked: what a share sheet created on open came from.
+    var lastClicked = null;
+    document.addEventListener('click', function (e) { var b = e.target && e.target.closest && e.target.closest('button, a, [role="button"]'); if (b) lastClicked = b; }, true);
+    // A game or Trivia started from the phone menu closes the menu first; it
+    // stayed open under the game and needed another Back (r29).
+    document.addEventListener('click', function (e) {
+        var g = e.target && e.target.closest && e.target.closest('.header-collapse .game-btn, .header-collapse #play-menu .play-menu-item');
+        if (!g) return;
+        var cb = document.getElementById('hdr-menu-toggle');
+        if (cb && cb.checked) { cb.checked = false; cb.dispatchEvent(new Event('change', { bubbles: true })); }
+    }, true);
     function autoOverlays() {
-        ['#word-modal', '.lf-panel', '#char-modal', '#hm-lang-filter-modal', '#play-menu', '#langModalOverlay', '#nm-settings-pop', '#tm-settings-pop', '.lang-picker-menu']
-            .forEach(function (sel) { document.querySelectorAll(sel).forEach(function (el, i) { lmWatch(sel + (i ? i : ''), el); }); });
+        Object.keys(OPENERS)
+            .forEach(function (sel) { document.querySelectorAll(sel).forEach(function (el, i) { lmWatch(sel + (i ? i : ''), el, OPENERS[sel]); }); });
         // Share sheets are created on open and removed on close.
         var n = 0;
         new MutationObserver(function (muts) {
             muts.forEach(function (m) {
                 m.addedNodes.forEach(function (el) {
                     if (el.nodeType !== 1) return;
-                    if (el.classList.contains('lf-panel')) { lmWatch('.lf-panel', el); return; }
+                    if (el.classList.contains('lf-panel')) { lmWatch('.lf-panel', el, OPENERS['.lf-panel']); return; }
                     if (!el.classList.contains('wm-overlay') || el.querySelector('#lm-langle-box, #lm-quiz-box')) return;
-                    var id = 'share' + (++n), w = lmWatch(id, el);
+                    // Named after its opener: the sheet Forward rebuilds is the same overlay.
+                    var op = lastClicked && lastClicked.isConnected ? lastClicked : null;
+                    var id = 'share:' + (op ? (op.id || String(op.className) || op.tagName) : ++n), w = lmWatch(id, el, op);
                     var gone = new MutationObserver(function () { if (!el.isConnected) { gone.disconnect(); w.check(); } });
                     gone.observe(document.body, { childList: true });
                 });

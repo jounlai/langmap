@@ -368,7 +368,7 @@ WORDS.thanks = {
     ml: ["നന്ദി", "nandi"],
     tg: ["раҳмат", "rahˈmat"],
     ku: ["spas", "spɑːs"],
-    ckb: ["سوپاس", "supɑːs"],
+    ckb: ["سوپاس", "supaːs"],
     sdh: ["سپاس", "spɑːs"],
     ps: ["مننه", "mənəna"],
     az: ["təşəkkür", "tæʃæˈcːyɾ"],

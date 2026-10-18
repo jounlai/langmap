@@ -1117,7 +1117,7 @@ WORDS.n99 = {
     gbm: ["निन्याणबे", "ninjaːɳbe"],
     gag: ["doksan dokuz", "doksan dokuz"],
     gaa: ["nyɔŋmai nɛɛhu kɛ nɛɛhu", "ɲɔŋmai nɛːhu kɛ nɛːhu"],
-    fo: ["níggju og níti", "nʊdʒːʊ ɔ nʊitɪ"],
+    fo: ["níggju og níti", "nʊtʃːʊ ɔ nʊitɪ"],
     et: ["üheksakümmend üheksa", "yheksɑkymːend yheksɑ"],
     emi: ["ghasiongaulu ghasio", "ɣasioŋaulu ɣasio"],
     dv: ["ނުވަދިހަ ނުވަ", "nuvadiha nuva"],
@@ -1300,7 +1300,7 @@ WORDS.n99 = {
     kg: ["makumi ivwa na ivwa", "makumi ivwa na ivwa"],
     kr: ["filəgar ləgar", "filəɡar ləɡar"],
     ts: ["makume nkaye nkaye", "makume ŋkaje ŋkaje"],
-    st: ["mashome a robong a metso e robong", "maʃome a ʀoboŋ a metso e ʀoboŋ"],
+    st: ["mashome a robong a metso e robong", "maʃome a roboŋ a metso e roboŋ"],
     tn: ["masome a robongwe robongwe", "masome a roboŋwe roboŋwe"],
     ny: ["makumi asanu ndi anayi mphambu zisanu ndi zinayi", "makumi asanu ndi anaji mpʰambu zisanu ndi zinaji"],
     vmw: ["miloko mithanu na mixexe ni thanu na xexe", "miloko mitʰanu na miʃeʃe ni tʰanu na ʃeʃe"],
@@ -1354,7 +1354,7 @@ WORDS.n99 = {
     mzn: ["نود و نه", "navad o ne"],
     tg: ["наваду нӯҳ", "navadu nɵh"], // was ["наваду нӯҳ", "navadu nʉh"] (vi dialect rules 2026-10-06)
     ku: ["nod û neh", "noːd uː nɛh"],
-    ckb: ["نەوەد و نۆ", "næwæd u noː"],
+    ckb: ["نەوەد و نۆ", "nawad u noː"],
     ps: ["نه نوي", "nəh nəˈwi"],
     ce: ["дезткъе ткъоьсна", "destʼqʼe tʼqʼɥ̯øsna"], // was ["дезткъе итт исс", "destqʼe itː isː"] (vi dialect rules 2026-10-06)
     dje: ["wayyegga cindi yegga", "wajːeɡːa tʃindi jeɡːa"],

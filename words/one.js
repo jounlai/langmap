@@ -365,7 +365,7 @@ WORDS.one = {
     ml: ["ഒന്ന്", "onːɨ"],
     tg: ["як", "jak"],
     ku: ["yek", "jɛk"],
-    ckb: ["یەک", "jɛk"],
+    ckb: ["یەک", "jak"],
     sdh: ["یەک", "jæk"],
     ps: ["یو", "jaw"],
     az: ["bir", "biɾ"],

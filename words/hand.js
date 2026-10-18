@@ -372,7 +372,7 @@ WORDS.hand = {
     ml: ["കൈ", "kai"],
     tg: ["даст", "dast"],
     ku: ["dest", "dɛst"],
-    ckb: ["دەست", "dɛst"],
+    ckb: ["دەست", "dast"],
     sdh: ["دەس", "dæs"],
     ps: ["لاس", "lɑs"],
     az: ["əl", "æl"],

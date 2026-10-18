@@ -339,7 +339,7 @@ WORDS.new = {
     en_sg: ["new", "nju"],
     fy: ["nij", "nɛi"],
     li: ["nuuj", "nyːj"],
-    fo: ["nýggjur", "ˈnʊdʒːʊɹ"],
+    fo: ["nýggjur", "ˈnʊtʃːʊɹ"],
     fr_qc: ["nouveau", "nuvo"],
     fr_af: ["nouveau", "nuvo"],
     fr_be: ["nouveau", "nuvo"],

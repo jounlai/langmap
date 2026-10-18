@@ -279,7 +279,7 @@ WORDS.poop = {
     en_wc: ["poo", "puː"],
     en_est: ["poo", "puː"],
     en_sg: ["poop", "puːp"],
-    fo: ["kúkur", "ˈkʉːkʊɹ"],
+    fo: ["kúkur", "ˈkʰʉːkʊɹ"],
     fr_qc: ["caca", "kaka"],
     fr_af: ["caca", "kaka"],
     fr_be: ["caca", "kaka"],

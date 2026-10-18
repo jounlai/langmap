@@ -708,7 +708,7 @@ WORDS.foot = {
     min: "leg+foot",
     mix: "distinct",
     mjg: "leg+foot",
-    mk: "distinct",
+    mk: "leg+foot",
     mkz: "leg+foot",
     ml: "compound",
     mlm: "distinct",
@@ -1407,7 +1407,7 @@ WORDS.foot = {
     cjy: ["脚", "tɕyəʔ˨"],  // Jin keeps them apart.
     cjy_lv: ["脚", "tɕiəʔ˦"],  // Jin keeps them apart, as the Taiyuan row does: Wiktionary's dialect tables give Lishi 腳/腳片子 for the foot, and both Jin points with dictionary coverage — Taiyuan and Xinzhou — set 腿 against it. MCPDict 離石 脚 tɕiəʔ7; ˦ is this row's 陰入, and 李小平 2004's published 離石 values (陰平24 陽平44 上聲312 去52 陰入4 陽入23) match the row throughout.
     cjy_xz: ["脚", "tɕiɛʔ˦˧"],  // Jin keeps them apart, and Xinzhou is one of the points where the dictionaries record both sides: 腳/腳板子 against 腿, 大腿, 小腿子. MCPDict 忻州秀容 脚 tɕiɛʔ7, the row's 陰入 ˨. // was ["脚", "tɕiɛʔ˨"] (r46 fix 2026-10-03)
-    ckb: ["پێ", "peː"],  // Sorani splits them. IPA is the plain reading of the orthography, following how this row's own hand cell writes دەست as dɛst.
+    ckb: ["پێ", "peː"],  // Sorani splits them. IPA is the plain reading of the orthography, following how this row's own hand cell writes دەست as dast.
     ckt: ["гыткаԓгын", "ɣətkaɬɣən"],  // One word for the lower limb.
     ckv: ["zapan", "zaˈpan"],  // Li & Tsuchida gloss zapan 'leg and foot' in one entry; Ruqap is the sole and betis the calf, neither a rival.
     clk: ["ɑ55ge55ɕɑ53", "ɑ˥˥ɡe˥˥ɕɑ˥˧"],  // ZMYYC 263.50 ɑ⁵⁵ɡe⁵⁵ɕɑ⁵³ 'foot' against 264.50 ɑ⁵⁵nu⁵⁵pu⁵³ 'leg'; Pulu 1978 and the 1962 NEFA list gloss the same aŋ-ge-sa 'leg', but both of them also record a leg word of their own.
@@ -1873,7 +1873,7 @@ WORDS.foot = {
     min: ["kaki", "kaki"],  // Taken to follow Malay/Indonesian kaki, which covers the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes tangan as taŋan.
     mix: ["tsaʼa", "tsaʔá"],  // Bowers's Mixtepec-Mixtec lexicon lemmatises tsa'a 'foot, pie' apart from si'in 'leg, pierna', the same split the mxv row carries as xaʼa against siʼin.
     mjg: ["kol", "kol"],  // kol covers both; Georg gives Halchighol kol against Naringhol kuor and Mangghuer khuer.
-    mk: ["стапало", "ˈstapaɫɔ"],  // стапало is foot-specific, but нога also reaches the foot.
+    mk: ["нога", "ˈnɔɡa"],  // нога covers the lower limb and is the everyday word for the foot; стапало only stresses the foot as against the leg (Wiktionary usage note). // was ["стапало", "ˈstapaɫɔ"] (r29)
     mkz: ["iti", "ˈiti"],  // Stokhof gives iti for the leg and Wiktionary gives iti for the foot — the same word twice over.
     ml: ["കാൽപ്പാദം", "kaːlpːaːd̪am"],  // Malayalam's everyday foot word കാൽപ്പാദം is കാൽ 'leg' + പാദം 'foot' — the compound pattern.
     mlm: ["tin1", "tin˦˨"],  // IDS 417 gives Mulam tin.1 for the foot against tan.1 for the leg; the row's own ABVD Dongmen list builds the leg on the foot instead, tin1 kwa3, and leaves tin1 bare for the foot.

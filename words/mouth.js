@@ -326,7 +326,7 @@ WORDS.mouth = {
     chk: ["aaw", "aːw"],
     cjs: ["ақсы", "aqsɯ"],
     cjy: ["嘴", "tsuei˥˧"],
-    ckb: ["دەم", "dɛm"],
+    ckb: ["دەم", "dam"],
     cmg: ["ᠠᠮᠠᠨ", "aman"],
     co: ["bocca", "ˈbɔkka"],
     cop: ["ⲣⲟ", "ro"],

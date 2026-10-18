@@ -83,25 +83,38 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
 
     $canonical = SEO_SITE . seo_path($ui, 'wordmap', $code);
     $altPath = '/wordmap/' . rawurlencode($code);
-    $wc = (string) count($words);
+    // Filled cells, not the concept list: ncs has 0, nej 18 (r29).
+    $wc = (string) seo_wordmap_filled($lang);
     // Search titles (r28): the name people type, one alias, the native form, and
     // what the page answers — "Shanghai Wu (Shanghainese, 吳語): hello, thank
     // you & 87 words with pronunciation | LangMap".
     $aliases = seo_lang_aliases($ui, $code, $name, (string) $native);
-    $paren = array_values(array_filter([$aliases[0] ?? '', ($native && $native !== $name) ? $native : '']));
+    $paren = array_values(array_filter([seo_title_alias($aliases), ($native && $native !== $name) ? $native : '']));
     $own = strtolower(explode('_', $code)[0]) === explode('_', $ui)[0];   // ja page in the ja UI: "日本語で「こんにちは」は？" reads oddly
-    $title = $own
+    // The title promises hello and thank you only where the row has one of them.
+    $hasGreet = false;
+    foreach (['hello', 'thanks'] as $gid) {
+        $g = trim((string) ((($lang['words'] ?? [])[$gid] ?? [''])[0] ?? ''));
+        if ($g !== '' && !preg_match('/^[\s\x{2014}\x{2013}\-?]*$/u', $g)) $hasGreet = true;
+    }
+    if (!$hasGreet && !$own) {
+        $title = $name . ($paren ? ' (' . implode(', ', $paren) . ')' : '') . ' — ' . seo_t($ui, 'wm_lang_title', ['w' => $wc]) . ' | LangMap';
+    } else $title = $own
         ? $name . ($native && $native !== $name ? " ($native)" : '') . ' — ' . seo_t($ui, 'wm_lang_title', ['w' => $wc]) . ' | LangMap'
         : seo_t($ui, 'wm_t2', ['name' => $name . ($paren ? ' (' . implode(', ', $paren) . ')' : ''), 'w' => $wc]) . ' | LangMap';
     $hmName = ((seo_data('hanmap')['langs'] ?? [])[$code]['name'] ?? '');
-    $q = seo_lang_question($ui, $data, $code, ($ui === 'en' && $hmName !== '') ? $hmName : $name);
+    // The Han Map's English name only when it is a plain name: "Central Bai
+    // (Zhoucheng, Dali)" is a row label with a location (r29).
+    $q = seo_lang_question($ui, $data, $code, ($ui === 'en' && $hmName !== '' && !preg_match('/[(（]/u', $hmName)) ? $hmName : $name);
     $metaDesc = seo_lang_meta_lead(
         array_values(array_filter(seo_wordmap_samples($data, $code, $ui), fn($p) => $q === '' || $p[1] !== trim((string) ((($data['langs'][$code]['words'] ?? [])['hello'] ?? [''])[0] ?? '')))),
         $desc !== '' ? $desc : seo_t($ui, 'wm_lang_meta', ['name' => $name . ($native && $native !== $name ? " ($native)" : ''), 'w' => $wc]),
         $ui
     );
     if ($q !== '') $metaDesc = seo_clip($q . (in_array($ui, ['ja', 'zh', 'yue'], true) ? '' : ' ') . $metaDesc, 160);
-    $robots = !empty($lang['excluded']) ? 'noindex,follow' : 'index,follow';
+    $robots = (!empty($lang['excluded']) || seo_wordmap_thin($lang)) ? 'noindex,follow' : 'index,follow';
+    // One alias line: the cross-map aliases, then the row's own list (r29).
+    $akaList = seo_lang_aliases($ui, $code, $name, (string) $native, 6, is_array($meta['aliases'] ?? null) ? $meta['aliases'] : []);
 
     seo_head([
         'title' => $title,
@@ -124,7 +137,7 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
     <p class="native"<?= $nl !== '' ? ' lang="' . e($nl) . '"' : '' ?>><?= e($native) ?></p>
   <?php endif; ?>
   <h1><?= e($name) ?></h1>
-  <?php if (!empty($aliases)): ?><p class="sub aka"><?= e(seo_t($ui, 'aka', ['list' => implode($ui === 'ja' || $ui === 'zh' || $ui === 'yue' ? '、' : ', ', $aliases)])) ?></p><?php endif; ?>
+  <?php if (!empty($akaList)): ?><p class="sub aka"><?= e(seo_t($ui, 'aka', ['list' => implode($ui === 'ja' || $ui === 'zh' || $ui === 'yue' ? '、' : ', ', $akaList)])) ?></p><?php endif; ?>
   <?php if (!empty($meta['family'])): ?>
     <p class="sub"><?= seo_chip_value(seo_meta_value($ui, $meta['family']), seo_meta_value_lang($ui, (string) $meta['family'])) ?><?= !empty($lang['excluded']) ? ' · ' . e(seo_t($ui, 'hidden_tag')) : '' ?></p>
   <?php endif; ?>
@@ -153,14 +166,6 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
   <?php endforeach; ?>
 </div>
 <?php endif; ?>
-
-<?php
-    $aliases = $meta['aliases'] ?? [];
-    if (is_array($aliases) && $aliases):
-        $aliasStr = implode(', ', array_filter($aliases, fn($a) => $a !== ''));
-        if ($aliasStr !== ''): ?>
-<p class="seo-aliases" style="color:var(--muted)"><?= e(seo_t($ui, 'aliases')) ?>: <?= e($aliasStr) ?></p>
-<?php endif; endif; ?>
 
 <?php if ($desc !== ''): ?>
 <p class="seo-desc"><?= e($desc) ?></p>

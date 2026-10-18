@@ -354,7 +354,7 @@ WORDS.iron = {
     prs: ["آهن", "ɑːhan"],
     haz: ["آهن", "ɒhan"],
     ku: ["hesin", "hɛˈsɪn"],
-    ckb: ["ئاسن", "ɑːsɪn"],
+    ckb: ["ئاسن", "ʔaːsɪn"],
     bal: ["آسن", "aːsan"],
     zza: ["asın", "aˈsɨn"],
     ps: ["اوسپنه", "ˈospəna"],

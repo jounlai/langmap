@@ -321,6 +321,11 @@
         .nm-pop-people li::before { content: '★'; position: absolute; left: 0; color: var(--nm-accent); font-size: 10px; top: 2px; }
         .nm-pop-freq { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; color: #666; }
         .leaflet-popup-content { margin: 12px 14px; min-width: 180px; }
+        /* Arabic/Hebrew popups: Leaflet's text-align:left beat dir=rtl (r29) */
+        .leaflet-popup-content > [dir="rtl"] { text-align: right; }
+        .leaflet-popup-content > [dir="rtl"] > :first-child { padding-right: 28px; }   /* clear of the close button, which stays top-right */
+        .leaflet-popup-content > [dir="rtl"] .nm-pop-people li { padding: 1px 14px 1px 0; }
+        .leaflet-popup-content > [dir="rtl"] .nm-pop-people li::before { left: auto; right: 0; }
 
         /* ---- Simple-display mode (HanMap-style chrome toggle): hide the
                floating panels so only the map + name labels show, but keep the
@@ -573,7 +578,7 @@
 
         .leaflet-popup-close-button { width: 40px !important; height: 40px !important; font-size: 24px !important; line-height: 38px !important; }   /* 24px was hard to tap (r27) */
 </style>
-    <script src="nav-short.js?v=38"></script>
+    <script src="nav-short.js?v=39"></script>
 </head>
 <body>
     <div id="pg-live" role="status" aria-live="polite" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap"></div>
@@ -1304,8 +1309,11 @@
             if(map && map.on){
             // Label popups get a history entry: the phone Back gesture closes the popup
             // instead of leaving the site; closing it by hand steps back (r27).
-            { const _popH = window.__lmOverlay ? window.__lmOverlay('popup', { isOpen: () => !!document.querySelector('#map .leaflet-popup'), close: () => map.closePopup() }) : null;
-              if (_popH) { map.on('popupopen', () => _popH.opened()); map.on('popupclose', () => _popH.closed()); } }
+            // Forward reopens the last popup while its marker is still on the map (r29).
+            { let _lastPop = null;
+              const _popH = window.__lmOverlay ? window.__lmOverlay('popup', { isOpen: () => !!document.querySelector('#map .leaflet-popup'), close: () => map.closePopup(),
+                open: () => { const s = _lastPop && _lastPop._source; if (!s || !map.hasLayer(s) || !s.openPopup) return false; s.openPopup(); } }) : null;
+              if (_popH) { map.on('popupopen', (e) => { _lastPop = e.popup; _popH.opened(); }); map.on('popupclose', () => _popH.closed()); } }
             }
             // Genuine URL changes (back/forward, edited URL) re-apply full state.
             window.addEventListener('hashchange', ()=>{ if(window.__lmPopSkip && window.__lmPopSkip()) return; applyState(readState()); });   // an overlay Back keeps the live state (r28)
@@ -1328,7 +1336,7 @@
     </script>
     <script src="/pwa.js?v=2"></script>
     <script src="share-button.js?v=6"></script>
-    <script src="lang-picker.js?v=8"></script>
+    <script src="lang-picker.js?v=9"></script>
     </main>
     <footer>
     <div class="url-watermark">

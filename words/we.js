@@ -1509,7 +1509,7 @@ WORDS.we = {
     ml: ["നമ്മൾ / ഞങ്ങൾ", "namːaɭ / ɲaŋːaɭ"], // was ["നമ്മൾ / ഞങ്ങൾ", "nəmːaɭ / ɲaŋːaɭ"] (vi dialect rules 2026-10-06)
     tg: ["мо", "mo"], // was ["мо", "mɔ"] (vi dialect rules 2026-10-06)
     ku: ["em", "ɛm"],
-    ckb: ["ئێمە", "eːmæ"], // was ["ئێمە", "eːme"] (vi dialect rules 2026-10-06)
+    ckb: ["ئێمە", "ʔeːma"], // was ["ئێمە", "eːme"] (vi dialect rules 2026-10-06)
     sdh: ["ئیمە", "iːmæ"], // was ["ئیمە", "iːme"] (vi dialect rules 2026-10-06)
     ps: ["موږ", "muʐ"], // was ["موږ", "muːʐ"] (vi dialect rules 2026-10-06)
     az: ["biz", "biz"],

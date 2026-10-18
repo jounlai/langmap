@@ -1290,7 +1290,7 @@ WORDS.tea = {
     kn: ["ಚಹಾ", "tʃahaː"], // was ["ಚಹಾ", "tʃəɦaː"] (vi dialect rules 2026-10-06)
     ko: ["차", "tɕʰa"],
     ku: ["çay", "tʃɑːj"], // was ["çay", "tʃaj"] (vi dialect rules 2026-10-06)
-    ky: ["чай", "tʃaj"],
+    ky: ["чай", "tʃɑj"],
     lo: ["ຊາ", "saː˧˥"],
     lrc: ["چای", "tʃɒːj"],
     mk: ["чај", "tʃaj"],

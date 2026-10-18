@@ -596,7 +596,7 @@ WORDS.two = {
       frr_amr: ["tau", "taʊ̯"],
       li: ["twee", "tweː"],
       nn: ["to", "tuː"],
-      fo: ["tveir", "tvaɪɹ"],
+      fo: ["tveir", "tʰvaiːɹ"],
       fr_qc: ["deux", "dø"],
       fr_af: ["deux", "dø"],
       fr_be: ["deux", "dø"],

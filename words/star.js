@@ -366,7 +366,7 @@ WORDS.star = {
       ml: ["നക്ഷത്രം", "nakʂat̪ram"],
       tg: ["ситора", "sitoˈra"],
       ku: ["stêrk", "steːɾk"],
-      ckb: ["ئەستێرە", "ʔæsteːɾæ"],
+      ckb: ["ئەستێرە", "ʔasteːɾa"],
       sdh: ["ئەستارە", "æstɑːɾæ"],
       ps: ["ستوری", "storaj"],
       az: ["ulduz", "ulˈduz"],

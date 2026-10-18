@@ -2862,7 +2862,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=38"></script>
+    <script src="nav-short.js?v=39"></script>
     <style>
         /* r23 desktop: the compare panel clears the settings gear and the map
            attribution; the settings drawer is readable at desktop sizes. */
@@ -3533,7 +3533,7 @@
         }
     })();
     </script>
-    <script src="wordmap_data.js?v=347"></script>
+    <script src="wordmap_data.js?v=348"></script>
     <script src="lang_attention.js?v=3"></script>
     <script src="hanmap_data.js?v=199"></script>
     <script>
@@ -3573,8 +3573,8 @@
     will actually see (~12 KB gzipped). tools/build_lang_names.js
     generates lang_names/<ui>.js from lang_names.js. -->
     <script src="lang_names_shim.js?v=4"></script>
-    <script src="lang_names/en.js?v=204"></script>
-    <script>window.__langNamesVersion(204); window.__langNamesBoot();</script>
+    <script src="lang_names/en.js?v=206"></script>
+    <script>window.__langNamesVersion(206); window.__langNamesBoot();</script>
     <script>
     // HanMap-specific display-name overrides.
     // THIS IS THE MECHANISM for "one code, two maps, two meanings". lang_names.js
@@ -4416,8 +4416,12 @@
                     ancientOn = hf === '~anc'; kunOn = hf === '~kun';
                     return;
                 }
-                if (hf != null && hf !== '') {
-                    selected = new Set(hf.split(',').filter(Boolean).filter(c => offered.has(c)));
+                // Nothing in it names a language on offer (an unknown token such
+                // as hf=~foo, a mistyped code): open with the default, as a link
+                // without hf= does, not with an empty map (r29).
+                const _hfCodes = hf ? hf.split(',').filter(Boolean).filter(c => offered.has(c)) : [];
+                if (hf != null && hf !== '' && _hfCodes.length) {
+                    selected = new Set(_hfCodes);
                     // Seed the 古代語/kun switches from the restored selection
                     // too, or a shared #hf link that includes ancient codes
                     // would plot them while the filter panel shows the switch
@@ -8482,29 +8486,71 @@
                 // re-packed away at uniform height. For a plain label hh equals
                 // the old _bbHalfH, so p.hh+hh == the old _ch (unchanged).
                 // Each label's real half-width (r29): the fixed box (60% of labelW,
-                // 60-100 px) is narrower than names like "Jianghuai Mandarin
-                // (Yangzhou)", so neighbours printed over each other at every
-                // desktop size. Measured once per label / character / UI / zoom
-                // class in a hidden batch, then cached, so panning costs nothing.
+                // 60-100 px) is narrower than names like "Jianghuai Mandarin", so
+                // neighbours printed over each other at every desktop size.
+                // Measured with canvas measureText from each line's computed font
+                // (as the Word Map, r26), cached per label / character / UI / zoom
+                // class. The first version measured a hidden DOM batch, and its
+                // offsetWidth forced a full-page layout: +170 ms on load and
+                // 100-200 ms per character switch at 4x CPU (r29). Vertical labels
+                // and a line class not seen yet still go through the DOM.
                 const _hwCache = window.__hmLabelW || (window.__hmLabelW = new Map());
-                const _hwKey = '|' + wordId + '|' + (typeof uiLang !== 'undefined' ? uiLang : '') + '|' + map.getContainer().className + '|' + document.body.className + '|' + labelScale;
+                const _ctn = map.getContainer();
+                const _fkey = (_ctn.className.match(/\b(zoom-[\w-]+|long-forms)\b/g) || []).join(' ') + '|' + document.body.className + '|' + labelScale;
+                const _hwKey = '|' + wordId + '|' + (typeof uiLang !== 'undefined' ? uiLang : '') + '|' + (window.__hmFontGen || 0) + '|' + _fkey;
+                // Widths taken before the web fonts arrive are the fallback
+                // font's (Hakka names came out ~25% too wide), so a finished
+                // font load starts a new generation and re-places the labels once.
+                if (!window.__hmFontHook && document.fonts && document.fonts.addEventListener) {
+                    window.__hmFontHook = true;
+                    let _t = 0;
+                    document.fonts.addEventListener('loadingdone', () => {
+                        clearTimeout(_t);
+                        _t = setTimeout(() => { window.__hmFontGen = (window.__hmFontGen || 0) + 1; window.__hmLabelFonts = null; try { if (typeof currentWord !== 'undefined') updateMarkers(currentWord); } catch (_) {} }, 150);
+                    });
+                }
                 const _hw = {};
                 {
                     const miss = _rendered.filter(c => !_hwCache.has(c + _hwKey));
                     if (miss.length) {
                         try {
-                            const box = document.createElement('div');
-                            box.style.cssText = 'position:absolute;left:-10000px;top:0;visibility:hidden;pointer-events:none';
+                            const tpl = document.createElement('template');
                             let h = '';
                             for (const c of miss) {
                                 const L0 = LANG_DATA[c], una = unattestedSet.has(c), e = L0.words && L0.words[wordId];
-                                h += '<div style="position:absolute;white-space:nowrap">' + buildLabelHtml(c, una ? '—' : e[0], una ? '—' : e[1], getDisplayName(c, L0), una ? '' : hanmapLabelColor(c), una ? 'lang-label unattested' : 'lang-label') + '</div>';
+                                h += buildLabelHtml(c, una ? '—' : e[0], una ? '—' : e[1], getDisplayName(c, L0), '', una ? 'lang-label unattested' : 'lang-label');
                             }
-                            box.innerHTML = h;
-                            map.getContainer().appendChild(box);
-                            const kids = box.children;
-                            for (let i = 0; i < miss.length; i++) _hwCache.set(miss[i] + _hwKey, ((kids[i].firstElementChild || kids[i]).offsetWidth) / 2 - 2);
-                            box.remove();
+                            tpl.innerHTML = h;
+                            const roots = Array.from(tpl.content.children);
+                            let F = window.__hmLabelFonts;
+                            const needSample = (r) => !F || F.key !== _fkey || Array.from(r.children).some((ch) => !(ch.className in F.font));
+                            const toDom = (idx, fn) => {
+                                const box = document.createElement('div');
+                                box.style.cssText = 'position:absolute;left:-10000px;top:0;visibility:hidden;pointer-events:none';
+                                idx.forEach((i) => { const w = document.createElement('div'); w.style.cssText = 'position:absolute;white-space:nowrap'; w.appendChild(roots[i].cloneNode(true)); box.appendChild(w); });
+                                _ctn.appendChild(box);
+                                Array.from(box.children).forEach((w, k) => fn(w.firstElementChild, idx[k]));
+                                box.remove();
+                            };
+                            const first = [];
+                            roots.forEach((r, i) => { if (!r.classList.contains('vertical') && needSample(r) && first.length < 4) first.push(i); });
+                            if (first.length) {
+                                if (!F || F.key !== _fkey) F = window.__hmLabelFonts = { key: _fkey, font: {}, padX: 0 };
+                                toDom(first, (el) => {
+                                    const rc = getComputedStyle(el);
+                                    F.padX = (parseFloat(rc.paddingLeft) || 0) + (parseFloat(rc.paddingRight) || 0) + (parseFloat(rc.borderLeftWidth) || 0) + (parseFloat(rc.borderRightWidth) || 0);
+                                    for (const ch of el.children) { const k = ch.className; if (!(k in F.font)) F.font[k] = getComputedStyle(ch).font; }
+                                });
+                            }
+                            const ctx = window.__hmMeasureCtx || (window.__hmMeasureCtx = document.createElement('canvas').getContext('2d'));
+                            const dom = [];
+                            roots.forEach((r, i) => {
+                                if (r.classList.contains('vertical') || needSample(r)) { dom.push(i); return; }
+                                let w = 0;
+                                for (const ch of r.children) { ctx.font = F.font[ch.className]; w = Math.max(w, ctx.measureText(ch.textContent).width); }
+                                _hwCache.set(miss[i] + _hwKey, (w + F.padX) / 2 - 2);
+                            });
+                            if (dom.length) toDom(dom, (el, i) => _hwCache.set(miss[i] + _hwKey, el.offsetWidth / 2 - 2));
                             if (_hwCache.size > 4000) _hwCache.clear();
                         } catch (_) {}
                     }
@@ -11032,6 +11078,8 @@
             updateSelectedLabel();
             updateConnectorLine();
             if (opts && opts.fromHash) _hmPanelEntry = !!(history.state && (history.state.wmPanel || history.state.hmPanel));   // Forward onto an entry we pushed
+            // A shared lang= link: an entry under the panel, so Back closes it and stays on the site (r29).
+            if (opts && opts.fromHash && !_hmPanelEntry && window.__lmDeepBase && window.__lmDeepBase(['lang'], { hmPanel: 1 })) _hmPanelEntry = true;
             const _openStep = !_hmPanelEntry && !(opts && opts.fromHash) && !(window.__langmap && window.__langmap.isApplyingHash && window.__langmap.isApplyingHash());
             updateHash(_openStep ? { push: true, state: { hmPanel: 1 } } : undefined);  // persist `lang` to URL so reload restores
             if (_openStep) _hmPanelEntry = true;
@@ -12756,7 +12804,11 @@
             }
             if (!_tmWasOpen) _triviaReturn = _opener;
             setTimeout(() => modal.focus(), 0);
-            if (typeof updateHash === 'function') updateHash(fromHash ? undefined : { push: true });
+            // Its one history entry comes from the shared helper (_triviaHist
+            // below), taken before the URL write so the entry under it keeps the
+            // plain map URL. fromHash: Back/Forward or a shared link restoring it.
+            if (!fromHash && !_tmWasOpen && _triviaHist) _triviaHist.opened();
+            if (typeof updateHash === 'function') updateHash();
         }
         function navigateTrivia(id) {
             const modal = document.getElementById('trivia-modal');
@@ -12773,7 +12825,9 @@
             if (!wasCompact) setTriviaCompact(false);
             const scroll = document.getElementById('trivia-scroll');
             if (scroll) scroll.scrollTop = 0;
-            if (typeof updateHash === 'function') updateHash({ push: true });
+            // Another article is a content change inside the window: replace (r29;
+            // one entry per overlay, Back closes Trivia).
+            if (typeof updateHash === 'function') updateHash();
             // The focused card / back button is now hidden, or focus sat on Next/Previous
             // at the bottom of the old article: start at the new article's heading (r21).
             { const tm = document.getElementById('trivia-modal'), ae = document.activeElement; if (tm && (!tm.contains(ae) || !ae.getClientRects().length || (ae.closest && ae.closest('#trivia-article-nav')))) { const h = document.getElementById('trivia-heading'); if (h) h.focus({ preventScroll: true }); } }
@@ -12817,6 +12871,7 @@
             const modal = document.getElementById('trivia-modal');
             // Give focus back to what opened it (or the Play button) — it fell to <body>.
             if (modal && modal.classList.contains('visible')) {
+                modal._lmLast = modal.dataset.articleId || '';   // what Forward reopens (r29)
                 const r = _hmFocusBack(_triviaReturn, ['#play-menu-btn', '#trivia-open', '.hamburger-btn']);
                 _triviaReturn = null;
                 if (r) setTimeout(() => { try { r.focus(); } catch (_) {} }, 0);
@@ -12839,6 +12894,18 @@
             if (typeof setTilesMode === 'function') setTilesMode('flat');
             if (typeof updateHash === 'function') updateHash();
         }
+        // The Trivia window has one history entry, through the shared helper
+        // (nav-short.js), like every other overlay: × and Back close it, Forward
+        // reopens the last article. Its articles used to push entries of their
+        // own, so × left them behind and Back reopened Trivia (r29).
+        var _triviaHist = (function () {
+            const m = document.getElementById('trivia-modal');
+            if (!m || !window.__lmOverlay) return null;
+            return window.__lmOverlay('trivia', { el: m, attrs: ['class'],
+                isOpen: () => m.classList.contains('visible'),
+                close: () => closeTrivia(),
+                open: () => openTrivia(m._lmLast && m._lmLast !== 'index' ? m._lmLast : undefined, { fromHash: true }) });
+        })();
 
         // 2D / 3D aware "fly to" — Leaflet on the 2D map, globe.gl
         // pointOfView on the 3D globe. Without this, action buttons
@@ -13660,6 +13727,12 @@
             if (!wrap || !toggle || !panel) return;
             render();
             wrap.hidden = false;
+            // One history entry while it is open: it covers half a phone screen and
+            // the Back gesture left the site with it still open (r29).
+            if (window.__lmOverlay) window.__lmOverlay('legend', { el: panel, attrs: ['hidden'],
+                isOpen: function () { return !panel.hidden; },
+                close: function () { if (!panel.hidden) toggle.click(); },
+                open: function () { if (panel.hidden) toggle.click(); } });
             toggle.addEventListener('click', function () {
                 var open = panel.hidden;
                 panel.hidden = !open;
@@ -13674,7 +13747,7 @@
     })();
     </script>
     <script src="share-button.js?v=6"></script>
-    <script src="lang-picker.js?v=8"></script>
+    <script src="lang-picker.js?v=9"></script>
     <script>
     // Compare panel: one history entry through the shared helper (r28).
     (function () {

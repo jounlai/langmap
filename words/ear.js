@@ -337,7 +337,7 @@ WORDS.ear = {
     uz: ["quloq", "qulɒq"],
     ug: ["قۇلاق", "qulɑq"],
     kk: ["құлақ", "qʊlɑq"],
-    ky: ["кулак", "qulɑq"],
+    ky: ["кулак", "quˈlɑq"],
     kaa: ["qulaq", "qulɑq"],
     crh: ["qulaq", "qulɑq"],
     tt: ["колак", "qolɑq"],

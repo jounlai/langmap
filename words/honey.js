@@ -196,7 +196,7 @@ WORDS.honey = {
     prs: ["عسل", "asal"],
     tg: ["асал", "aˈsal"],
     ku: ["hingiv", "hɪnˈɡɪv"],
-    ckb: ["هەنگوین", "hɛnɡwiːn"],
+    ckb: ["هەنگوین", "hanɡwiːn"],
 
     // --- Old Chinese 蜜 and Tocharian mit ------------------------------
     // Baxter–Sagart OC *mit from the Tocharian etymon: one of the few proposed
@@ -242,7 +242,7 @@ WORDS.honey = {
     gag: ["bal", "bal"],
     crh: ["bal", "bal"],
     kk: ["бал", "bɑl"],
-    ky: ["бал", "bal"],
+    ky: ["бал", "bɑl"],
     kaa: ["pal", "pal"],
     tt: ["бал", "bal"],
     ba: ["бал", "bal"],

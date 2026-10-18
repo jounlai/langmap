@@ -396,8 +396,8 @@ const SEO_T_WORD = [
         'wd_link' => '단어',
         'wd_index_h1' => '전체 {w}개 단어',
         'wd_index_meta' => '워드맵의 모든 단어 — {n}개 언어의 {w}개 개념을 발음과 함께.',
-        'wd_title' => '‘{name}’을 {n}개 언어로 어떻게 말할까? 발음과 함께',
-        'wd_meta' => '「{name}」을 {n}개 언어로 어떻게 말하는지, 발음과 현지 문자로.',
+        'wd_title' => '‘{name}’{을} {n}개 언어로 어떻게 말할까? 발음과 함께',
+        'wd_meta' => '「{name}」{을} {n}개 언어로 어떻게 말하는지, 발음과 현지 문자로.',
         'wd_forms' => '{n}개 언어',
         'wd_open_app' => '지도에서 「{name}」 보기',
     ],
@@ -876,7 +876,7 @@ const SEO_T = [
         'hidden_tag' => 'historical / hidden variety',
         'wm_lang_title' => '{w} words & pronunciations',
         'hm_lang_title' => 'Han character readings',
-        'wm_t2' => '{name}: hello, thank you & {w} words with pronunciation', 'hm_t2' => '{name}: how {n} Chinese characters are read', 'wm_q' => 'How do you say “{word}” in {name}? {form}.', 'aka' => 'Also called {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2' => '{name}: hello, thank you & {w} words with pronunciation', 'hm_t2' => '{name}: how {n} Chinese characters are read', 'hm_t2_words' => '{name}: native words for {n} Chinese characters', 'hm_t2_loans' => '{name}: {n} early Chinese loanwords','wm_q' => 'How do you say “{word}” in {name}? {form}.', 'aka' => 'Also called {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'Pronunciations of {w} core words in {name}, with IPA and native forms, on the LangMap Word Map.',
         'hm_lang_meta' => 'Readings of Han characters in {name} on the LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} core words across {n} languages',
@@ -939,7 +939,7 @@ const SEO_T = [
         'hidden_tag' => '歴史的・非表示の変種',
         'wm_lang_title' => '{w}語と発音',
         'hm_lang_title' => '漢字の読み',
-        'wm_t2' => '{name}で「こんにちは」「ありがとう」は？ 発音つき{w}語', 'hm_t2' => '{name}の漢字の読み方 {n}字', 'wm_q' => '{name}で「{word}」は何と言う？ {form}。', 'aka' => '別名：{list}',   // r28 search titles / snippet question / aliases
+        'wm_t2' => '{name}で「こんにちは」「ありがとう」は？ 発音つき{w}語', 'hm_t2' => '{name}の漢字の読み方 {n}字', 'hm_t2_words' => '{name}で漢字{n}字の意味を表す固有語', 'hm_t2_loans' => '{name}の古い漢語借用語 {n}語','wm_q' => '{name}で「{word}」は何と言う？ {form}。', 'aka' => '別名：{list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'LangMap Word Map での、{name}の基本{w}語の発音（IPA・現地表記つき）。',
         'hm_lang_meta' => 'LangMap Han Map での、{name}の漢字の読み。',
         'wm_index_title' => 'Word Map — {n}言語の基本{w}語',
@@ -1002,7 +1002,7 @@ const SEO_T = [
         'hidden_tag' => '역사적·숨겨진 변종',
         'wm_lang_title' => '단어 {w}개와 발음',
         'hm_lang_title' => '한자 독음',
-        'wm_t2' => '{name}로 ‘안녕하세요’, ‘고맙습니다’는? 발음과 함께 보는 {w}단어', 'hm_t2' => '{name}의 한자 읽기 {n}자', 'wm_q' => '{name}로 ‘{word}’은 어떻게 말할까? {form}.', 'aka' => '다른 이름: {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2' => '{name}{로} ‘안녕하세요’, ‘고맙습니다’는? 발음과 함께 보는 {w}단어', 'hm_t2' => '{name}의 한자 읽기 {n}자', 'hm_t2_words' => '{name}의 고유어로 본 한자 {n}자', 'hm_t2_loans' => '{name}의 이른 시기 중국어 차용어 {n}개', 'wm_q' => '{name}{로} ‘{word}’{은} 어떻게 말할까? {form}.', 'aka' => '다른 이름: {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'LangMap Word Map에서 {name}의 핵심 단어 {w}개 발음(IPA·고유 표기 포함).',
         'hm_lang_meta' => 'LangMap Han Map에서 {name}의 한자 독음.',
         'wm_index_title' => 'Word Map — {n}개 언어의 핵심 단어 {w}개',
@@ -1065,7 +1065,7 @@ const SEO_T = [
         'hidden_tag' => '历史／隐藏变体',
         'wm_lang_title' => '{w}个词与发音',
         'hm_lang_title' => '汉字读音',
-        'wm_t2' => '{name}的“你好”“谢谢”怎么说？{w}个常用词及发音', 'hm_t2' => '{name}怎么读汉字：{n}个字', 'wm_q' => '“{word}”用{name}怎么说？{form}。', 'aka' => '又称：{list}',   // r28 search titles / snippet question / aliases
+        'wm_t2' => '{name}的“你好”“谢谢”怎么说？{w}个常用词及发音', 'hm_t2' => '{name}怎么读汉字：{n}个字', 'hm_t2_words' => '{name}的固有词：对应{n}个汉字', 'hm_t2_loans' => '{name}中的早期汉语借词：{n}个','wm_q' => '“{word}”用{name}怎么说？{form}。', 'aka' => '又称：{list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => '在 LangMap Word Map 上，{name}的{w}个核心词发音（含IPA与本地写法）。',
         'hm_lang_meta' => '在 LangMap Han Map 上，{name}的汉字读音。',
         'wm_index_title' => 'Word Map — {n}种语言的{w}个核心词',
@@ -1128,7 +1128,7 @@ const SEO_T = [
         'hidden_tag' => '歷史／隱藏變體',
         'wm_lang_title' => '{w}個詞同發音',
         'hm_lang_title' => '漢字讀音',
-        'wm_t2' => '{name}嘅「你好」「多謝」點講？{w}個常用詞同發音', 'hm_t2' => '{name}點讀漢字：{n}個字', 'wm_q' => '「{word}」用{name}點講？{form}。', 'aka' => '又稱：{list}',   // r28 search titles / snippet question / aliases
+        'wm_t2' => '{name}嘅「你好」「多謝」點講？{w}個常用詞同發音', 'hm_t2' => '{name}點讀漢字：{n}個字', 'hm_t2_words' => '{name}嘅固有詞：對應{n}個漢字', 'hm_t2_loans' => '{name}入面嘅早期漢語借詞：{n}個','wm_q' => '「{word}」用{name}點講？{form}。', 'aka' => '又稱：{list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => '喺 LangMap Word Map 上，{name}嘅{w}個核心詞發音（連IPA同本地寫法）。',
         'hm_lang_meta' => '喺 LangMap Han Map 上，{name}嘅漢字讀音。',
         'wm_index_title' => 'Word Map — {n}種語言嘅{w}個核心詞',
@@ -1191,7 +1191,7 @@ const SEO_T = [
         'hidden_tag' => 'biến thể lịch sử / ẩn',
         'wm_lang_title' => '{w} từ & cách phát âm',
         'hm_lang_title' => 'Cách đọc chữ Hán',
-        'wm_t2' => '{name}: xin chào, cảm ơn và {w} từ kèm phát âm', 'hm_t2' => '{name}: cách đọc {n} chữ Hán', 'wm_q' => '“{word}” trong {name} nói thế nào? {form}.', 'aka' => 'Còn gọi là {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2' => '{name}: xin chào, cảm ơn và {w} từ kèm phát âm', 'hm_t2' => '{name}: cách đọc {n} chữ Hán', 'hm_t2_words' => '{name}: từ bản địa ứng với {n} chữ Hán', 'hm_t2_loans' => '{name}: {n} từ mượn tiếng Hán cổ','wm_q' => '“{word}” trong {name} nói thế nào? {form}.', 'aka' => 'Còn gọi là {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'Cách phát âm {w} từ cốt lõi trong {name}, kèm IPA và dạng bản địa, trên LangMap Word Map.',
         'hm_lang_meta' => 'Cách đọc các chữ Hán trong {name} trên LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} từ cốt lõi qua {n} ngôn ngữ',
@@ -1254,7 +1254,7 @@ const SEO_T = [
         'hidden_tag' => 'รูปแบบทางประวัติศาสตร์ / ที่ซ่อน',
         'wm_lang_title' => '{w} คำและการออกเสียง',
         'hm_lang_title' => 'การอ่านอักษรจีน',
-        'wm_t2' => '{name}: สวัสดี ขอบคุณ และอีก {w} คำ พร้อมการออกเสียง', 'hm_t2' => '{name}: วิธีอ่านอักษรจีน {n} ตัว', 'wm_q' => '“{word}” ใน{name}พูดว่าอย่างไร? {form}', 'aka' => 'ชื่ออื่น: {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2' => '{name}: สวัสดี ขอบคุณ และอีก {w} คำ พร้อมการออกเสียง', 'hm_t2' => '{name}: วิธีอ่านอักษรจีน {n} ตัว', 'hm_t2_words' => '{name}: คำดั้งเดิมที่ตรงกับอักษรจีน {n} ตัว', 'hm_t2_loans' => '{name}: คำยืมภาษาจีนยุคเก่า {n} คำ','wm_q' => '“{word}” ใน{name}พูดว่าอย่างไร? {form}', 'aka' => 'ชื่ออื่น: {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'การออกเสียง {w} คำหลักใน {name} พร้อม IPA และรูปท้องถิ่น บน LangMap Word Map',
         'hm_lang_meta' => 'การอ่านอักษรจีนใน {name} บน LangMap Han Map',
         'wm_index_title' => 'Word Map — {w} คำหลักใน {n} ภาษา',
@@ -1317,7 +1317,7 @@ const SEO_T = [
         'hidden_tag' => 'varietas historis / tersembunyi',
         'wm_lang_title' => '{w} kata & pelafalan',
         'hm_lang_title' => 'Bacaan aksara Han',
-        'wm_t2' => '{name}: halo, terima kasih & {w} kata beserta pelafalan', 'hm_t2' => '{name}: cara membaca {n} aksara Han', 'wm_q' => 'Apa bahasa {name}-nya “{word}”? {form}.', 'aka' => 'Disebut juga {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2' => '{name}: halo, terima kasih & {w} kata beserta pelafalan', 'hm_t2' => '{name}: cara membaca {n} aksara Han', 'hm_t2_words' => '{name}: kata asli untuk {n} aksara Han', 'hm_t2_loans' => '{name}: {n} kata pinjaman Tionghoa awal','wm_q' => 'Apa bahasa {name}-nya “{word}”? {form}.', 'aka' => 'Disebut juga {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'Pelafalan {w} kata inti dalam {name}, dengan IPA dan bentuk lokal, di LangMap Word Map.',
         'hm_lang_meta' => 'Bacaan aksara Han dalam {name} di LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} kata inti di {n} bahasa',
@@ -1380,7 +1380,7 @@ const SEO_T = [
         'hidden_tag' => 'ऐतिहासिक / छिपी किस्म',
         'wm_lang_title' => '{w} शब्द और उच्चारण',
         'hm_lang_title' => 'हान वर्णों के उच्चारण',
-        'wm_t2' => '{name} में नमस्ते, धन्यवाद और {w} शब्द — उच्चारण सहित', 'hm_t2' => '{name}: {n} चीनी अक्षर कैसे पढ़े जाते हैं', 'wm_q' => '{name} में “{word}” कैसे कहते हैं? {form}।', 'aka' => 'अन्य नाम: {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2' => '{name} में नमस्ते, धन्यवाद और {w} शब्द — उच्चारण सहित', 'hm_t2' => '{name}: {n} चीनी अक्षर कैसे पढ़े जाते हैं', 'hm_t2_words' => '{name}: {n} चीनी अक्षरों के लिए देशी शब्द', 'hm_t2_loans' => '{name}: {n} प्रारंभिक चीनी उधार-शब्द','wm_q' => '{name} में “{word}” कैसे कहते हैं? {form}।', 'aka' => 'अन्य नाम: {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'LangMap Word Map पर {name} में {w} मूल शब्दों के उच्चारण, IPA और मूल रूपों सहित।',
         'hm_lang_meta' => 'LangMap Han Map पर {name} में हान वर्णों के उच्चारण।',
         'wm_index_title' => 'Word Map — {n} भाषाओं में {w} मूल शब्द',
@@ -1443,7 +1443,7 @@ const SEO_T = [
         'hidden_tag' => 'historische / verborgene Varietät',
         'wm_lang_title' => '{w} Wörter & Aussprache',
         'hm_lang_title' => 'Lesungen der Han-Zeichen',
-        'wm_t2' => '{name}: Hallo, danke & {w} Wörter mit Aussprache', 'hm_t2' => '{name}: wie {n} chinesische Schriftzeichen gelesen werden', 'wm_q' => 'Was heißt „{word}“ auf {name}? {form}.', 'aka' => 'Auch genannt: {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2' => '{name}: Hallo, danke & {w} Wörter mit Aussprache', 'hm_t2' => '{name}: wie {n} chinesische Schriftzeichen gelesen werden', 'hm_t2_words' => '{name}: Erbwörter für {n} chinesische Schriftzeichen', 'hm_t2_loans' => '{name}: {n} frühe chinesische Lehnwörter', 'wm_q' => '{name}: Was heißt „{word}“? {form}.', 'aka' => 'Auch genannt: {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'Aussprache von {w} Kernwörtern in {name}, mit IPA und einheimischen Formen, auf der LangMap Word Map.',
         'hm_lang_meta' => 'Lesungen der Han-Zeichen in {name} auf der LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} Kernwörter in {n} Sprachen',
@@ -1506,7 +1506,7 @@ const SEO_T = [
         'hidden_tag' => 'variété historique / masquée',
         'wm_lang_title' => '{w} mots & prononciations',
         'hm_lang_title' => 'Lectures des caractères han',
-        'wm_t2' => '{name} : bonjour, merci et {w} mots avec la prononciation', 'hm_t2' => '{name} : la lecture de {n} caractères chinois', 'wm_q' => 'Comment dit-on « {word} » en {name} ? {form}.', 'aka' => 'Aussi appelé {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2' => '{name} : bonjour, merci et {w} mots avec la prononciation', 'hm_t2' => '{name} : la lecture de {n} caractères chinois', 'hm_t2_words' => '{name} : mots natifs pour {n} caractères chinois', 'hm_t2_loans' => '{name} : {n} emprunts chinois anciens','wm_q' => 'Comment dit-on « {word} » en {name} ? {form}.', 'aka' => 'Aussi appelé {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'Prononciations de {w} mots essentiels en {name}, avec API et formes natives, sur la LangMap Word Map.',
         'hm_lang_meta' => 'Lectures des caractères han en {name} sur la LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} mots essentiels dans {n} langues',
@@ -1569,7 +1569,7 @@ const SEO_T = [
         'hidden_tag' => 'varietà storica / nascosta',
         'wm_lang_title' => '{w} parole & pronunce',
         'hm_lang_title' => 'Letture dei caratteri han',
-        'wm_t2' => '{name}: ciao, grazie e {w} parole con la pronuncia', 'hm_t2' => '{name}: come si leggono {n} caratteri cinesi', 'wm_q' => 'Come si dice “{word}” in {name}? {form}.', 'aka' => 'Detto anche {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2' => '{name}: ciao, grazie e {w} parole con la pronuncia', 'hm_t2' => '{name}: come si leggono {n} caratteri cinesi', 'hm_t2_words' => '{name}: parole native per {n} caratteri cinesi', 'hm_t2_loans' => '{name}: {n} prestiti cinesi antichi','wm_q' => 'Come si dice “{word}” in {name}? {form}.', 'aka' => 'Detto anche {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'Pronunce di {w} parole essenziali in {name}, con IPA e forme native, sulla LangMap Word Map.',
         'hm_lang_meta' => 'Letture dei caratteri han in {name} sulla LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} parole essenziali in {n} lingue',
@@ -1632,7 +1632,7 @@ const SEO_T = [
         'hidden_tag' => 'variedad histórica / oculta',
         'wm_lang_title' => '{w} palabras y pronunciaciones',
         'hm_lang_title' => 'Lecturas de caracteres han',
-        'wm_t2' => '{name}: hola, gracias y {w} palabras con pronunciación', 'hm_t2' => '{name}: cómo se leen {n} caracteres chinos', 'wm_q' => '¿Cómo se dice «{word}» en {name}? {form}.', 'aka' => 'También llamado {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2' => '{name}: hola, gracias y {w} palabras con pronunciación', 'hm_t2' => '{name}: cómo se leen {n} caracteres chinos', 'hm_t2_words' => '{name}: palabras nativas para {n} caracteres chinos', 'hm_t2_loans' => '{name}: {n} préstamos chinos antiguos','wm_q' => '¿Cómo se dice «{word}» en {name}? {form}.', 'aka' => 'También llamado {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'Pronunciaciones de {w} palabras esenciales en {name}, con AFI y formas nativas, en el LangMap Word Map.',
         'hm_lang_meta' => 'Lecturas de caracteres han en {name} en el LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} palabras esenciales en {n} lenguas',
@@ -1695,7 +1695,7 @@ const SEO_T = [
         'hidden_tag' => 'variedade histórica / oculta',
         'wm_lang_title' => '{w} palavras e pronúncias',
         'hm_lang_title' => 'Leituras de caracteres han',
-        'wm_t2' => '{name}: olá, obrigado e {w} palavras com pronúncia', 'hm_t2' => '{name}: como se leem {n} caracteres chineses', 'wm_q' => 'Como se diz “{word}” em {name}? {form}.', 'aka' => 'Também chamado {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2' => '{name}: olá, obrigado e {w} palavras com pronúncia', 'hm_t2' => '{name}: como se leem {n} caracteres chineses', 'hm_t2_words' => '{name}: palavras nativas para {n} caracteres chineses', 'hm_t2_loans' => '{name}: {n} empréstimos chineses antigos','wm_q' => 'Como se diz “{word}” em {name}? {form}.', 'aka' => 'Também chamado {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'Pronúncias de {w} palavras essenciais em {name}, com AFI e formas nativas, no LangMap Word Map.',
         'hm_lang_meta' => 'Leituras de caracteres han em {name} no LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} palavras essenciais em {n} línguas',
@@ -1758,7 +1758,7 @@ const SEO_T = [
         'hidden_tag' => 'историческая / скрытая разновидность',
         'wm_lang_title' => '{w} слов и произношение',
         'hm_lang_title' => 'Чтения ханьских иероглифов',
-        'wm_t2' => '{name}: «привет», «спасибо» и ещё {w} слов с произношением', 'hm_t2' => '{name}: как читаются {n} иероглифов', 'wm_q' => 'Как сказать «{word}» на языке {name}? {form}.', 'aka' => 'Другие названия: {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2' => '{name}: «привет», «спасибо» и ещё {w} слов с произношением', 'hm_t2' => ['one' => '{name}: как читается {n} иероглиф', 'few' => '{name}: как читаются {n} иероглифа', 'many' => '{name}: как читаются {n} иероглифов', 'other' => '{name}: как читаются {n} иероглифов'], 'hm_t2_words' => ['one' => '{name}: исконные слова для {n} иероглифа', 'other' => '{name}: исконные слова для {n} иероглифов'], 'hm_t2_loans' => ['one' => '{name}: {n} раннее китайское заимствование', 'few' => '{name}: {n} ранних китайских заимствования', 'other' => '{name}: {n} ранних китайских заимствований'], 'wm_q' => '{name}: как сказать «{word}»? {form}.', 'aka' => 'Другие названия: {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'Произношение {w} основных слов на языке {name}, с МФА и исконными формами, на LangMap Word Map.',
         'hm_lang_meta' => 'Чтения ханьских иероглифов на языке {name} на LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} основных слов в {n} языках',
@@ -1821,7 +1821,7 @@ const SEO_T = [
         'hidden_tag' => 'історичний / прихований різновид',
         'wm_lang_title' => 'Основні слова ({w}) і вимова',
         'hm_lang_title' => 'Читання ханьських ієрогліфів',
-        'wm_t2' => '{name}: «привіт», «дякую» та ще {w} слів з вимовою', 'hm_t2' => '{name}: як читаються {n} ієрогліфів', 'wm_q' => 'Як сказати «{word}» мовою {name}? {form}.', 'aka' => 'Інші назви: {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2' => '{name}: «привіт», «дякую» та ще {w} слів з вимовою', 'hm_t2' => ['one' => '{name}: як читається {n} ієрогліф', 'few' => '{name}: як читаються {n} ієрогліфи', 'many' => '{name}: як читаються {n} ієрогліфів', 'other' => '{name}: як читаються {n} ієрогліфів'], 'hm_t2_words' => ['one' => '{name}: питомі слова для {n} ієрогліфа', 'other' => '{name}: питомі слова для {n} ієрогліфів'], 'hm_t2_loans' => ['one' => '{name}: {n} раннє китайське запозичення', 'few' => '{name}: {n} ранні китайські запозичення', 'other' => '{name}: {n} ранніх китайських запозичень'], 'wm_q' => '{name}: як сказати «{word}»? {form}.', 'aka' => 'Інші назви: {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'Вимова {w} основних слів мовою {name}, з МФА та питомими формами, на LangMap Word Map.',
         'hm_lang_meta' => 'Читання ханьських ієрогліфів мовою {name} на LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} основних слів у {n} мовах',
@@ -1884,7 +1884,7 @@ const SEO_T = [
         'hidden_tag' => 'نوع تاريخي / مخفي',
         'wm_lang_title' => '{w} كلمة والنطق',
         'hm_lang_title' => 'قراءات الحروف الهانية',
-        'wm_t2' => '{name}: مرحبًا وشكرًا و{w} كلمة مع النطق', 'hm_t2' => '{name}: كيف تُقرأ {n} حروف صينية', 'wm_q' => 'كيف تقول «{word}» بـ{name}؟ {form}.', 'aka' => 'يُسمّى أيضًا: {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2' => '{name}: مرحبًا وشكرًا و{w} كلمة مع النطق', 'hm_t2' => '{name}: كيف تُقرأ {n} حروف صينية', 'hm_t2_words' => '{name}: كلمات أصلية لمعاني الحروف الصينية ({n})', 'hm_t2_loans' => '{name}: كلمات صينية مقترضة مبكرة ({n})','wm_q' => 'كيف تقول «{word}» بـ{name}؟ {form}.', 'aka' => 'يُسمّى أيضًا: {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'نطق {w} كلمة أساسية في {name}، مع الأبجدية الصوتية الدولية والأشكال المحلية، على LangMap Word Map.',
         'hm_lang_meta' => 'قراءات الحروف الهانية في {name} على LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} كلمة أساسية عبر {n} لغة',
@@ -1947,7 +1947,7 @@ const SEO_T = [
         'hidden_tag' => 'גרסה היסטורית / מוסתרת',
         'wm_lang_title' => '{w} מילים והגייה',
         'hm_lang_title' => 'קריאות תווי האן',
-        'wm_t2' => '{name}: שלום, תודה ועוד {w} מילים עם הגייה', 'hm_t2' => '{name}: איך נקראים {n} סימנים סיניים', 'wm_q' => 'איך אומרים „{word}” ב{name}? {form}.', 'aka' => 'נקראת גם: {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2' => '{name}: שלום, תודה ועוד {w} מילים עם הגייה', 'hm_t2' => '{name}: איך נקראים {n} סימנים סיניים', 'hm_t2_words' => '{name}: מילים מקוריות עבור {n} סימנים סיניים', 'hm_t2_loans' => '{name}: {n} מילים שאולות סיניות קדומות','wm_q' => 'איך אומרים „{word}” ב{name}? {form}.', 'aka' => 'נקראת גם: {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'הגיית {w} מילים בסיסיות ב{name}, עם IPA וצורות מקומיות, ב-LangMap Word Map.',
         'hm_lang_meta' => 'קריאות תווי האן ב{name} ב-LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} מילים בסיסיות ב-{n} שפות',
@@ -2010,7 +2010,7 @@ const SEO_T = [
         'hidden_tag' => 'aina ya kihistoria / iliyofichwa',
         'wm_lang_title' => 'Maneno {w} na matamshi',
         'hm_lang_title' => 'Usomaji wa herufi za Han',
-        'wm_t2' => '{name}: habari, asante na maneno {w} pamoja na matamshi', 'hm_t2' => '{name}: jinsi herufi {n} za Kichina zinavyosomwa', 'wm_q' => 'Unasemaje “{word}” kwa {name}? {form}.', 'aka' => 'Pia huitwa {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2' => '{name}: habari, asante na maneno {w} pamoja na matamshi', 'hm_t2' => '{name}: jinsi herufi {n} za Kichina zinavyosomwa', 'hm_t2_words' => '{name}: maneno asilia kwa herufi {n} za Kichina', 'hm_t2_loans' => '{name}: maneno {n} ya mkopo ya Kichina ya mapema','wm_q' => 'Unasemaje “{word}” kwa {name}? {form}.', 'aka' => 'Pia huitwa {list}',   // r28 search titles / snippet question / aliases
         'wm_lang_meta' => 'Matamshi ya maneno {w} ya msingi katika {name}, yenye IPA na maumbo asilia, kwenye LangMap Word Map.',
         'hm_lang_meta' => 'Usomaji wa herufi za Han katika {name} kwenye LangMap Han Map.',
         'wm_index_title' => 'Word Map — Maneno {w} ya msingi katika lugha {n}',
@@ -2269,7 +2269,48 @@ function seo_t(string $ui, string $key, array $vars = []): string
         }
         $s = strtr($s, $repl);
     }
+    if ($ui === 'ko' && strpos($s, '{') !== false) {
+        $s = seo_ko_josa($s);
+    }
     return $s;
+}
+
+/**
+ * Korean particles that depend on the word before them (r29: "오사카 방언로",
+ * "‘고양이’을"). Templates write {은} {을} {이} {와} {로} after the slot; this
+ * looks at the last syllable before the marker — skipping closing quotes and a
+ * trailing "(…)" gloss, which a Korean reader does not pronounce — and picks
+ * 은/는, 을/를, 이/가, 과/와, 으로/로. A final ㄹ takes 로, not 으로. A name that
+ * ends in Latin letters or other non-Hangul gets the vowel form.
+ */
+function seo_ko_josa(string $s): string
+{
+    $pairs = ['은' => ['은', '는'], '을' => ['을', '를'], '이' => ['이', '가'], '와' => ['과', '와'], '로' => ['으로', '로']];
+    // Split, not preg_replace_callback: each particle needs the text already
+    // built before it, including the particles resolved earlier.
+    $parts = preg_split('/(\{(?:은|을|이|와|로)\})/u', $s, -1, PREG_SPLIT_DELIM_CAPTURE);
+    $out = '';
+    foreach ($parts as $i => $p) {
+        if ($i % 2 === 0) { $out .= $p; continue; }
+        $k = mb_substr($p, 1, 1);
+        $prev = preg_replace('/[\s’」”"\'』]+$/u', '', $out);
+        while (preg_match('/\s*[(（][^()（）]*[)）]$/u', $prev)) $prev = preg_replace('/\s*[(（][^()（）]*[)）]$/u', '', $prev);
+        $prev = preg_replace('/[\s’」”"\'』]+$/u', '', $prev);
+        $last = mb_substr($prev, -1);
+        $cp = $last === '' ? 0 : mb_ord($last);
+        $jong = 0;   // 0 = no final consonant (also the fallback for non-Hangul)
+        if ($cp >= 0xAC00 && $cp <= 0xD7A3) $jong = ($cp - 0xAC00) % 28;
+        elseif (preg_match('/^[0-9]$/', $last)) $jong = [21, 8, 0, 16, 0, 0, 1, 8, 8, 0][(int) $last];   // 영 일 이 삼 사 오 육 칠 팔 구
+        if ($k === '로') $out .= ($jong > 0 && $jong !== 8) ? '으로' : '로';
+        else $out .= $pairs[$k][$jong > 0 ? 0 : 1];
+    }
+    return $out;
+}
+
+/** hreflang value for a UI code (r29): Google wants ISO 639-1 (+ script/region); "yue" has none. URLs keep the UI code. */
+function seo_hreflang_code(string $ui): string
+{
+    return ['zh' => 'zh-Hans', 'yue' => 'zh-Hant-HK'][$ui] ?? $ui;
 }
 
 /** Build a path: ('en','') => /en/ ; ('en','wordmap') => /en/wordmap/ ;
@@ -3324,7 +3365,7 @@ function seo_hreflang(string $altPath): void
 {
     foreach (SEO_UI_LANGS as $ui) {
         $href = SEO_SITE . '/' . $ui . $altPath;
-        echo '<link rel="alternate" hreflang="' . e($ui) . '" href="' . e($href) . "\">\n";
+        echo '<link rel="alternate" hreflang="' . e(seo_hreflang_code($ui)) . '" href="' . e($href) . "\">\n";
     }
     echo '<link rel="alternate" hreflang="x-default" href="'
         . e(SEO_SITE . '/en' . $altPath) . "\">\n";
@@ -4214,7 +4255,7 @@ function seo_lang_name(array $langs, string $code, string $ui = 'en'): string
  * nickname, the other map's name for the code, and in English the rows' own
  * English names. Without the primary name and the native form, at most $max.
  */
-function seo_lang_aliases(string $ui, string $code, string $primary, string $native, int $max = 3): array
+function seo_lang_aliases(string $ui, string $code, string $primary, string $native, int $max = 3, array $extra = []): array
 {
     $cand = [];
     foreach (['wordmap', 'hanmap'] as $map) {
@@ -4223,20 +4264,84 @@ function seo_lang_aliases(string $ui, string $code, string $primary, string $nat
         $cand[] = (string) (($l['nicknames'] ?? [])[$ui] ?? '');
         $cand[] = (string) (($l['names'] ?? [])[$ui] ?? '');
         if ($ui === 'en') $cand[] = (string) ($l['name'] ?? '');
-        if ($map === 'hanmap' && in_array($ui, ['zh', 'yue'], true)) $cand[] = (string) ($l['native'] ?? '');   // 上海话: what a Chinese reader types
+        // 上海话: what a Chinese reader types. Only a Han-script name ending in
+        // 话/語…: the Han Map `native` is often a reading-layer label instead
+        // (한국 한자음, Âm thuần Việt, 原始タイ語), which is not a language name (r29).
+        if ($map === 'hanmap' && in_array($ui, ['zh', 'yue'], true)) {
+            $hn = trim((string) ($l['native'] ?? ''));
+            if (preg_match('/^\p{Han}+(话|話|语|語)$/u', $hn) && strpos((string) ($l['family'] ?? ''), '(proto)') === false) $cand[] = $hn;
+        }
+    }
+    // zh/yue: a form in the other script is the same name, not an alias
+    // (粤语 / 粵語, r29). zh drops candidates with traditional-only characters,
+    // yue those with simplified-only ones; compare on the folded form too.
+    $zhFold = function (string $t): string {
+        return strtr($t, ['語' => '语', '話' => '话', '粵' => '粤', '漢' => '汉', '國' => '国', '東' => '东', '閩' => '闽', '廣' => '广', '灣' => '湾', '臺' => '台', '門' => '门', '陽' => '阳', '蘇' => '苏', '寧' => '宁', '貴' => '贵', '慶' => '庆', '鄉' => '乡', '韓' => '韩', '鮮' => '鲜', '滿' => '满', '島' => '岛', '縣' => '县', '區' => '区', '雲' => '云', '贛' => '赣', '開' => '开', '濟' => '济', '寶' => '宝', '劇' => '剧', '頭' => '头', '僑' => '侨', '亞' => '亚', '馬' => '马', '來' => '来', '興' => '兴', '華' => '华', '連' => '连', '鹽' => '盐', '遼' => '辽', '膠' => '胶', '蘭' => '兰', '銀' => '银', '時' => '时', '說' => '说', '學' => '学', '書' => '书', '讀' => '读']);
+    };
+    if ($ui === 'zh' || $ui === 'yue') {
+        $cand = array_values(array_filter($cand, function ($c) use ($ui, $zhFold) {
+            $f = $zhFold($c);
+            if ($ui === 'zh') return $f === $c;                       // no traditional-only character
+            return !preg_match('/[语话粤汉国东闽广湾门阳苏宁贵庆乡韩鲜满岛县区云赣开济宝剧头侨亚马来兴华连盐辽胶兰银时说学书读]/u', $c);   // no simplified-only character
+        }));
     }
     // The other map's English row name first in English: "Shanghainese" beats
     // the Word Map's macrolanguage label "Wu Chinese".
     if ($ui === 'en') usort($cand, fn($a, $b) => (int) ($b === ((seo_data('hanmap')['langs'] ?? [])[$code]['name'] ?? '')) - (int) ($a === ((seo_data('hanmap')['langs'] ?? [])[$code]['name'] ?? '')));
+    // The row's own alias list (meta.aliases) comes last, in the same line (r29:
+    // it used to be a second "Also known as" line repeating the first).
+    foreach ($extra as $x) $cand[] = (string) $x;
     $seen = [mb_strtolower($primary) => 1, mb_strtolower($native) => 1];
     $out = [];
     foreach ($cand as $c) {
         $c = trim($c); $k = mb_strtolower($c);
         if ($c === '' || isset($seen[$k])) continue;
+        // "Central Bai (Zhoucheng, Dali)" under "Central Bai" is the same name
+        // with a location, and in a title it nests brackets (r29).
+        if (mb_strpos($k, mb_strtolower($primary) . ' (') === 0 || mb_strpos($k, mb_strtolower($primary) . '（') === 0) continue;
         $seen[$k] = 1; $out[] = $c;
         if (count($out) >= $max) break;
     }
     return $out;
+}
+
+/** The first alias that can sit in a title's parentheses without nesting them. */
+function seo_title_alias(array $aliases): string
+{
+    foreach ($aliases as $a) if (!preg_match('/[(（]/u', (string) $a)) return (string) $a;
+    return '';
+}
+
+/** Word Map cells that hold a word, not "—" (r29: titles counted the concept list). */
+function seo_wordmap_filled(array $l): int
+{
+    $n = 0;
+    foreach (($l['words'] ?? []) as $w) {
+        $f = trim((string) (is_array($w) ? ($w[0] ?? '') : $w));
+        if ($f !== '' && !preg_match('/^[\s\x{2014}\x{2013}\-?]*$/u', $f)) $n++;
+    }
+    return $n;
+}
+
+/** A row too empty to be a search result of its own (ncs: 0 cells). noindex, and out of the sitemap. */
+const SEO_WORDMAP_MIN_CELLS = 10;
+function seo_wordmap_thin(array $l): bool
+{
+    return seo_wordmap_filled($l) < SEO_WORDMAP_MIN_CELLS;
+}
+
+/**
+ * What a Han Map row's cells are (r29). Most rows are readings of the
+ * characters; reconstructed proto-languages and the languages that never wrote
+ * Chinese characters (Manchu, Sibe, Jurchen, Khitan, Tangut) give native words
+ * for the meaning, and Thai gives early loanwords. 'reading' | 'words' | 'loans'.
+ */
+function seo_hanmap_kind(string $code, array $l): string
+{
+    if ($code === 'th') return 'loans';
+    if (strpos((string) ($l['family'] ?? ''), '(proto)') !== false) return 'words';
+    if (in_array($code, ['mnc', 'sjo', 'juc', 'zkt', 'txg'], true)) return 'words';
+    return 'reading';
 }
 
 /** "How do you say "hello" in X? 侬好 [noŋ hɔ]." for the start of a snippet (r28). */

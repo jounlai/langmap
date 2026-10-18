@@ -372,7 +372,7 @@ WORDS.eat = {
     ml: ["കഴിക്കുക", "kaɻikːjuɡa"],
     tg: ["хӯрдан", "xɵrˈdan"],
     ku: ["xwarin", "xwɑːˈɾɪn"],
-    ckb: ["خواردن", "xwɑːɾdɪn"],
+    ckb: ["خواردن", "xwaːɾdɪn"],
     sdh: ["خواردن", "xwɑːɾdɪn"],
     ps: ["خوړل", "xwaɽəl"],
     az: ["yemək", "jeˈmæc"],

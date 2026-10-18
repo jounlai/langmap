@@ -385,7 +385,7 @@ WORDS.blood = {
     gag: ["kan", "kan"],
     ug: ["قان", "qɑn"],
     kk: ["қан", "qɑn"],
-    ky: ["кан", "qan"],
+    ky: ["кан", "qɑn"],
     uz: ["qon", "qɒn"],
     tk: ["gan", "ɡaːn"],
     mn_cn: ["ᠴᠢᠰᠤ", "tʃʰʊs"],

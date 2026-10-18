@@ -177,6 +177,10 @@
         new MutationObserver(sync).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
 
         sync();
+        // One history entry while the menu is open (nav-short.js). The menu is
+        // built after nav-short's own scan ran, so it was never watched and the
+        // phone Back left the site with it open (r29).
+        if (window.__lmWatch) window.__lmWatch('.lang-picker-menu', menu, btn);
         return true;
     }
 

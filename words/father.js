@@ -376,7 +376,7 @@ WORDS.father = {
     ml: ["അച്ഛൻ", "atʃːʰan"],
     tg: ["падар", "padar"],
     ku: ["bav", "bɑːv"],
-    ckb: ["باوک", "bɑːwk"],
+    ckb: ["باوک", "baːwk"],
     sdh: ["باوگ", "bɑːwɡ"],
     ps: ["پلار", "plɑːɾ"],
     az: ["ata", "ɑˈtɑ"],

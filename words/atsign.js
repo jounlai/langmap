@@ -393,7 +393,7 @@ WORDS.atsign = {
     kl: ["aajusaq", "aːjusaq"],
     hyw: ["շնիկ", "ʃəˈniɡ"],
     guc: ["aroowa", "aroːwa"],
-    ckb: ["ئەت", "ʔɛt"],
+    ckb: ["ئەت", "ʔat"],
     prs: ["ات", "at"],
     sco: ["at", "at"],
     ast: ["arroba", "aˈroβa"],

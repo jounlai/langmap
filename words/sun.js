@@ -340,7 +340,7 @@ WORDS.sun = {
     hmn: ["hnub", "n̥u˥"],
     jv: ["srengéngé", "srəŋeŋe"],
     jvn: ["srengéngé", "srəŋeŋe"],
-    su: ["panonpoé", "panɔnpɔe"],
+    su: ["panonpoé", "panonpoe"],
     ceb: ["adlaw", "ˈʔadlaw"],
     ilo: ["init", "ˈʔinit"],
     fj: ["matanisiga", "matanisiŋa"],

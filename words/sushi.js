@@ -329,7 +329,7 @@ WORDS.sushi = {
     "sl": ["suši", "ˈsuːʃi"],
     "sq": ["sushi", "ˈsuʃi"],
     "sr": ["суши", "sûʃi"],
-    "su": ["sushi", "ˈsuʃi"],
+    "su": ["sushi", "suʃi"],
     "sukh": ["ปลาร้า", "plaː raː"],
     "sv": ["sushi", "ˈsʉːɧi"],
     "sw": ["sushi", "ˈsuʃi"],

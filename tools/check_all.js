@@ -99,6 +99,12 @@ line('Han Map rows in a filter group', num(s, /violations: (\d+)/));
 s = run('timemap_tibetan_subset_check.js');
 line('Time Map Tibetan subset covers text', num(s, /problems: (\d+)/));
 
+// Name / Time Map CJK fonts are per-page subsets: a new character in the names,
+// calendars or their translations needs tools/build_cjk_page_subsets.py (r22).
+try { s = cp.execSync(`python3 ${path.join(__dirname, 'build_cjk_page_subsets.py')} --check`, { encoding: 'utf8' }); }
+catch (e) { s = String(e.stdout || ''); }
+line('Name/Time Map CJK subsets fresh', num(s, /stale: (\d+)/));
+
 s = run('korean_hist_font_check.js');
 line('Old Hangul font coverage', num(s, /problems: (\d+)/));
 

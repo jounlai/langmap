@@ -74,7 +74,10 @@ const FILES = fs.readdirSync(ROOT).filter((f) => /\.(html|css)$/.test(f));
 let faces = 0;
 const bad = [];
 for (const f of FILES) {
-    const s = fs.readFileSync(path.join(ROOT, f), 'utf8');
+    // The CJK-SUBSET block (tools/build_cjk_page_subsets.py) re-declares the
+    // page's own Noto CJK families as subsets of the same font: claiming common
+    // Han there restyles nothing, so it is outside this check's concern (r22).
+    const s = fs.readFileSync(path.join(ROOT, f), 'utf8').replace(/\/\* CJK-SUBSET:START[\s\S]*?CJK-SUBSET:END \*\//g, '');
     for (const m of s.matchAll(/@font-face\s*\{([\s\S]*?)\}/g)) {
         const body = m[1];
         const fam = (/font-family:\s*['"]([^'"]+)['"]/.exec(body) || [])[1];

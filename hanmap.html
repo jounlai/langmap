@@ -106,7 +106,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=167">
+    <link rel="stylesheet" href="styles.css?v=168">
     <link rel="stylesheet" href="/vendor/leaflet-1.9.4/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -2867,7 +2867,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=41"></script>
+    <script src="nav-short.js?v=42"></script>
     <style>
         /* r23 desktop: the compare panel clears the settings gear and the map
            attribution; the settings drawer is readable at desktop sizes. */
@@ -3577,7 +3577,7 @@
     </script>
     <script src="wordmap_data.js?v=348"></script>
     <script src="lang_attention.js?v=3"></script>
-    <script src="hanmap_data.js?v=199"></script>
+    <script src="hanmap_data.js?v=201"></script>
     <script>
         // Hanmap stubs: replace the per-word loader. wordmap.html loads
         // ~20 individual JS files under words/<id>.js (one per concept) and
@@ -8599,6 +8599,20 @@
                     };
                     document.fonts.addEventListener('loadingdone', _refont);
                     document.fonts.addEventListener('loadingerror', _refont);
+                    // r32 a3#3: the first labelled placement used the fixed box and
+                    // a second full placement (117-135 ms at 4x CPU) followed when
+                    // the label font arrived, on every load, warm ones included:
+                    // Han Map IPA, first in every label's font list (it covers
+                    // Latin and IPA), was only requested once a label was drawn
+                    // and took ~500 ms to come in. It is requested here, on the
+                    // first pass, before the readings arrive; when it is in before
+                    // the first label, fonts.ready marks the fonts ready and that
+                    // pass measures, so no second placement follows. Only this one
+                    // family is named: document.fonts.load() on a label's whole
+                    // font list fetches every family in it (Mongolian, Sogdian, …).
+                    try {
+                        for (const wt of ['400', '700']) document.fonts.load(wt + ' 16px "Han Map IPA"', 'Aaəŋ˥').catch(() => {});
+                    } catch (_) {}
                     // after this pass's labels are in the DOM, so their fonts are requested
                     setTimeout(() => {
                         Promise.race([document.fonts.ready, new Promise((r) => setTimeout(r, 3000))]).then(_refont);
@@ -8801,7 +8815,14 @@
                 // (z=3-4); at z>=6 the owner's rule from 2026-09-06 stands — a
                 // label that does not fit within ~0.6° hides rather than being
                 // flung 260 px away (675a7344, d69f0b31).
-                const _rescueR = zoom < 6 ? Math.max(_maxR, Math.min(260, _pxPerDeg * 10)) : _maxR;
+                //
+                // r32 a3#1: the radius grows with the label size. At fs>=300 a
+                // Mandarin label is ~280x155 px and could not fit in the fixed
+                // 114 px at z=4, so Korean (placed first) took the room and
+                // Mandarin, Cantonese, Hokkien and Shanghai Wu vanished. The
+                // default size (fs=140, scale 1.4) keeps the old radius.
+                const _rescueK = Math.max(1, labelScale / 1.4);
+                const _rescueR = zoom < 6 ? Math.max(_maxR, Math.min(260 * _rescueK, _pxPerDeg * 10 * _rescueK)) : _maxR;
                 const _placeSolo = (c) => {
                     const ax = ppx[c].x, ay = ppx[c].y, hh = _hhOf(c), hw = _hw[c];
                     const _ringStep = Math.max(4, hh * 0.26);   // ~0.13 * full height
@@ -8822,28 +8843,51 @@
                     hiddenCodes.add(c);
                 };
                 for (const unit of _units) {
-                    const members = unit.members;
+                    let members = unit.members.slice();
                     if (members.length === 1) { _placeSolo(members[0]); continue; }
                     // Cluster: build the centred vertical stack (dots between the
                     // labels), then shift the WHOLE stack to the nearest free
                     // vertical band so it clears other units. If even the shifted
                     // block won't fit within the cap, drop back to placing members
                     // one at a time by speaker priority (lowest may then hide).
+                    //
+                    // r32 a3#2 (owner rule hanmap-no-far-fling): at z>=6 a stack
+                    // member may sit no further from its dot than _maxR plus its
+                    // own half-height. Each member moves by the others' heights,
+                    // so three rows on Hong Kong at fs=420 put Cantonese 200 px
+                    // out at sea. The lowest-priority member leaves the stack
+                    // until the rest fit, and goes through _placeSolo, which at
+                    // z>=6 places it near its dot or hides it.
                     members.sort((a, b) => ppx[a].y - ppx[b].y);  // N→S
-                    let sumX = 0, sumY = 0;
-                    for (const m of members) { sumX += ppx[m].x; sumY += ppx[m].y; }
-                    const cxG = sumX / members.length, cyG = sumY / members.length;
-                    const hhs = members.map(m => _hhOf(m));
-                    let tot = 0; for (const hh of hhs) tot += 2 * hh;
-                    const relY = []; { let y = -tot / 2; for (let i = 0; i < members.length; i++) { y += hhs[i]; relY.push(y); y += hhs[i]; } }
-                    const _blockFree = (dy) => relY.every((ry, i) => _free(cxG, cyG + ry + dy, hhs[i], _hw[members[i]]));
-                    const _step = Math.max(4, hhs[0] * 0.26);
-                    let dy = null;
-                    if (_blockFree(0)) dy = 0;
-                    else { for (let s = _step; s <= _maxR; s += _step) { if (_blockFree(s)) { dy = s; break; } if (_blockFree(-s)) { dy = -s; break; } } }
+                    const _spill = [];
+                    let cxG, cyG, hhs, relY, dy;
+                    for (;;) {
+                        let sumX = 0, sumY = 0;
+                        for (const m of members) { sumX += ppx[m].x; sumY += ppx[m].y; }
+                        cxG = sumX / members.length; cyG = sumY / members.length;
+                        hhs = members.map(m => _hhOf(m));
+                        let tot = 0; for (const hh of hhs) tot += 2 * hh;
+                        relY = []; { let y = -tot / 2; for (let i = 0; i < members.length; i++) { y += hhs[i]; relY.push(y); y += hhs[i]; } }
+                        const _blockFree = (d) => relY.every((ry, i) => _free(cxG, cyG + ry + d, hhs[i], _hw[members[i]]));
+                        const _step = Math.max(4, hhs[0] * 0.26);
+                        dy = null;
+                        if (_blockFree(0)) dy = 0;
+                        else { for (let s = _step; s <= _maxR; s += _step) { if (_blockFree(s)) { dy = s; break; } if (_blockFree(-s)) { dy = -s; break; } } }
+                        const _tooFar = (d) => members.some((m, i) => Math.hypot(cxG - ppx[m].x, cyG + relY[i] + d - ppx[m].y) > _maxR + hhs[i]);
+                        if (zoom >= 6 && members.length > 1 && dy != null && _tooFar(dy)) {
+                            let lo = 0;
+                            for (let i = 1; i < members.length; i++) if ((langPriority(members[i]) || 0) < (langPriority(members[lo]) || 0)) lo = i;
+                            _spill.push(members.splice(lo, 1)[0]);
+                            continue;
+                        }
+                        break;
+                    }
+                    const _placeSpill = () => { for (const m of _spill.reverse()) _placeSolo(m); };
+                    if (members.length === 1) { _placeSolo(members[0]); _placeSpill(); continue; }
                     if (dy == null) {
                         const bySpk = members.slice().sort((a, b) => (langPriority(b) || 0) - (langPriority(a) || 0));
                         for (const m of bySpk) _placeSolo(m);
+                        _placeSpill();
                         continue;
                     }
                     for (let i = 0; i < members.length; i++) {
@@ -8851,6 +8895,7 @@
                         offsets[members[i]] = { x: cxG - ppx[members[i]].x, y: y - ppx[members[i]].y };
                         _placed.push({ x: cxG, y, hh: hhs[i], hw: _hw[members[i]] });
                     }
+                    _placeSpill();
                 }
             }
 
@@ -9844,7 +9889,7 @@
             // word atoms arrived: "Hong Kong SAR", "Japan" … stayed English (r25).
             if (typeof META_I18N === 'undefined') window.META_I18N = {};
             if (!_metaEnginePromise) _metaEnginePromise = _hmInject('meta_i18n_engine.js?v=1');
-            _metaI18nByUi[ui] = Promise.all([_metaEnginePromise, _hmInject('meta_i18n/' + ui + '.js?v=11')]);
+            _metaI18nByUi[ui] = Promise.all([_metaEnginePromise, _hmInject('meta_i18n/' + ui + '.js?v=13')]);
             return _metaI18nByUi[ui];
         }
         window.loadMetaI18n = loadMetaI18n;
@@ -13855,10 +13900,13 @@
             ['#5a4a5e','pinghua'], ['#6a5a24','hui'], ['#39447a','koreanic'], ['#2f6b46','japonic'],
             ['#8a5a1f','vietic'], ['#5e1f1f','other'], ['#998270','ancient']
         ];
+        // Family names carry no brackets (owner rule: no brackets in names, r32):
+        // one natural name each, the group name as for Jin, Min, Wu (Yue, not
+        // "Yue (Cantonese)").
         var LBL = {
-            mandarin: { en:'Mandarin', ja:'官話', ko:'관화(만다린)', zh:'官话', yue:'官話', vi:'Quan thoại', th:'จีนกลาง', id:'Mandarin', hi:'मंदारिन', de:'Mandarin', fr:'Mandarin', it:'Mandarino', es:'Mandarín', pt:'Mandarim', ru:'Мандаринский', uk:'Мандаринська', ar:'الماندرين', he:'מנדרינית', sw:'Kimandarini' },
+            mandarin: { en:'Mandarin', ja:'官話', ko:'관화', zh:'官话', yue:'官話', vi:'Quan thoại', th:'จีนกลาง', id:'Mandarin', hi:'मंदारिन', de:'Mandarin', fr:'Mandarin', it:'Mandarino', es:'Mandarín', pt:'Mandarim', ru:'Мандаринский', uk:'Мандаринська', ar:'الماندرين', he:'מנדרינית', sw:'Kimandarini' },
             jin:      { en:'Jin',      ja:'晋語', ko:'진어', zh:'晋语', yue:'晉語', vi:'Tấn', th:'จิ้น', hi:'जिन', ru:'Цзинь', uk:'Цзінь', ar:'جين', he:'ג\'ין', id:'Jin', de:'Jin', fr:'Jin', it:'Jin', es:'Jin', pt:'Jin', sw:'Jin' },
-            yue:      { en:'Yue (Cantonese)', ja:'粤語', ko:'월어(광둥어)', zh:'粤语', yue:'粵語', vi:'Tiếng Quảng Đông', th:'กวางตุ้ง', id:'Yue (Kanton)', hi:'यूए (कैंटोनी)', de:'Yue (Kantonesisch)', fr:'Yue (cantonais)', it:'Yue (cantonese)', es:'Yue (cantonés)', pt:'Yue (cantonês)', ru:'Юэ (кантонский)', uk:'Юе (кантонська)', ar:'يوي (الكانتونية)', he:'יואה (קנטונזית)', sw:'Yue (Kikantoni)' },
+            yue:      { en:'Yue', ja:'粤語', ko:'월어', zh:'粤语', yue:'粵語', vi:'Tiếng Quảng Đông', th:'กวางตุ้ง', id:'Yue', hi:'यूए', de:'Yue', fr:'Yue', it:'Yue', es:'Yue', pt:'Yue', ru:'Юэ', uk:'Юе', ar:'يوي', he:'יואה', sw:'Yue' },
             min:      { en:'Min',      ja:'閩語', ko:'민어', zh:'闽语', yue:'閩語', vi:'Mân', th:'หมิ่น', hi:'मिन', ru:'Минь', uk:'Мінь', ar:'مين', he:'מין', id:'Min', de:'Min', fr:'Min', it:'Min', es:'Min', pt:'Min', sw:'Min' },
             wu:       { en:'Wu',       ja:'呉語', ko:'오어', zh:'吴语', yue:'吳語', vi:'Ngô', th:'อู๋', hi:'वू', ru:'У', uk:'У', ar:'وو', he:'וו', id:'Wu', de:'Wu', fr:'Wu', it:'Wu', es:'Wu', pt:'Wu', sw:'Wu' },
             hakka:    { en:'Hakka',    ja:'客家語', ko:'객가어', zh:'客家话', yue:'客家話', vi:'Khách Gia', th:'แคะ', hi:'हक्का', ru:'Хакка', uk:'Хакка', ar:'هاكا', he:'האקה', id:'Hakka', de:'Hakka', fr:'Hakka', it:'Hakka', es:'Hakka', pt:'Hakka', sw:'Hakka' },
@@ -13870,7 +13918,7 @@
             japonic:  { en:'Japanese', ja:'日本語', ko:'일본어', zh:'日语', yue:'日語', vi:'Tiếng Nhật', th:'ญี่ปุ่น', id:'Jepang', hi:'जापानी', de:'Japanisch', fr:'Japonais', it:'Giapponese', es:'Japonés', pt:'Japonês', ru:'Японский', uk:'Японська', ar:'اليابانية', he:'יפנית', sw:'Kijapani' },
             vietic:   { en:'Vietnamese', ja:'ベトナム語', ko:'베트남어', zh:'越南语', yue:'越南語', vi:'Tiếng Việt', th:'เวียดนาม', id:'Vietnam', hi:'वियतनामी', de:'Vietnamesisch', fr:'Vietnamien', it:'Vietnamita', es:'Vietnamita', pt:'Vietnamita', ru:'Вьетнамский', uk:'Вʼєтнамська', ar:'الفيتنامية', he:'וייטנאמית', sw:'Kivietinamu' },
             other:    { en:'Other',    ja:'その他', ko:'기타', zh:'其他', yue:'其他', vi:'Khác', th:'อื่น ๆ', id:'Lainnya', hi:'अन्य', de:'Andere', fr:'Autres', it:'Altro', es:'Otros', pt:'Outros', ru:'Другие', uk:'Інші', ar:'أخرى', he:'אחר', sw:'Nyingine' },
-            ancient:  { en:'Historical', ja:'古語（歴史）', ko:'역사(고어)', zh:'历史（古语）', yue:'歷史（古語）', vi:'Lịch sử', th:'ประวัติศาสตร์', id:'Historis', hi:'ऐतिहासिक', de:'Historisch', fr:'Historique', it:'Storico', es:'Histórico', pt:'Histórico', ru:'Исторические', uk:'Історичні', ar:'تاريخية', he:'היסטוריות', sw:'Kihistoria' }
+            ancient:  { en:'Historical', ja:'古代語', ko:'고대어', zh:'古代语', yue:'古代語', vi:'Lịch sử', th:'ประวัติศาสตร์', id:'Historis', hi:'ऐतिहासिक', de:'Historisch', fr:'Historique', it:'Storico', es:'Histórico', pt:'Histórico', ru:'Исторические', uk:'Історичні', ar:'تاريخية', he:'היסטוריות', sw:'Kihistoria' }
         };
         var TITLE = { en:'Dialect colours', ja:'方言の色', ko:'방언 색상', zh:'方言颜色', yue:'方言顏色', vi:'Màu phương ngữ', th:'สีของภาษาถิ่น', id:'Warna dialek', hi:'बोली के रंग', de:'Dialektfarben', fr:'Couleurs des dialectes', it:'Colori dei dialetti', es:'Colores de los dialectos', pt:'Cores dos dialetos', ru:'Цвета диалектов', uk:'Кольори діалектів', ar:'ألوان اللهجات', he:'צבעי הניבים', sw:'Rangi za lahaja' };
         function render() {
@@ -13955,7 +14003,12 @@
             isOpen: function () { return p.classList.contains('visible'); },
             close: function () { var c = p.querySelector('.compare-close'); if (c) c.click(); else p.classList.remove('visible'); },
             open: function () { if (window.__hmCompareReopen) return window.__hmCompareReopen(); var f = document.querySelector('.compare-fab'); if (f && f.getClientRects().length) f.click(); else return false; } });
-        new MutationObserver(function () { if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); }).observe(p, { attributes: true, attributeFilter: ['class'] });   // cmp= follows open/closed
+        // cmp= follows open/closed; not on a hand close off its own entry, which
+        // steps back and keeps that entry's cmp= for Forward after a reload (r32).
+        new MutationObserver(function () {
+            if (!p.classList.contains('visible') && window.__lmOwnEntry && window.__lmOwnEntry('compare')) return;
+            if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash();
+        }).observe(p, { attributes: true, attributeFilter: ['class'] });
     })();
     </script>
 </body>

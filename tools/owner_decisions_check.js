@@ -53,6 +53,9 @@ const DECISIONS = [
             const h = read('hanmap.html'), a = h.indexOf('const OV = {'), b = h.indexOf('};', a);
             const bad = a < 0 ? ['hanmap.html'] : (/[（(]/.test(h.slice(a, b).replace(/\/\/.*$/gm, '')) ? ['hanmap.html override table'] : []);
             if (/"native": "[^"]*[（(]/.test(read('hanmap_data.js'))) bad.push('hanmap_data.js native');
+            // the dialect legend's family names too (r32: "Yue (Cantonese)", "관화(만다린)")
+            const la = h.indexOf('        var LBL = {\n            mandarin:'), lb = h.indexOf('var TITLE', la);
+            if (la < 0 || lb < 0 || /[（(]/.test(h.slice(la, lb))) bad.push('hanmap.html dialect legend');
             return bad;
         },
     },
@@ -117,8 +120,13 @@ const DECISIONS = [
     },
     {
         id: 'hanmap-no-far-fling',
-        what: 'At z>=6 a Han Map label that does not fit near its point hides instead of moving far (owner 2026-09-06, 675a7344; the 260 px rescue applies below z=6 only)',
-        check: () => /const _rescueR = zoom < 6 \?/.test(read('hanmap.html')) ? [] : ['hanmap.html'],
+        what: 'At z>=6 a Han Map label that does not fit near its point hides instead of moving far (owner 2026-09-06, 675a7344; the 260 px rescue applies below z=6 only). Co-located stacks too: at z>=6 a member further than _maxR + its half-height from its dot leaves the stack (r32)',
+        check: () => {
+            const h = read('hanmap.html'), bad = [];
+            if (!/const _rescueR = zoom < 6 \?/.test(h)) bad.push('hanmap.html solo rescue');
+            if (!/const _tooFar = [^\n]*> _maxR \+ hhs\[i\]\)/.test(h) || !/if \(zoom >= 6 && members\.length > 1 && dy != null && _tooFar\(dy\)\)/.test(h)) bad.push('hanmap.html stack path');
+            return bad;
+        },
     },
     {
         id: 'partial-word-dialect-parity',

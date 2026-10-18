@@ -1834,8 +1834,11 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
 
 .lang-picker-menu {
     /* Aligned to the inline end: the picker often sits at the right edge (the
-       URL is hidden at 641-1100px) and the menu ran off the screen. */
-    position: absolute; top: calc(100% + 5px); right: 0;
+       URL is hidden at 641-1100px) and the menu ran off the screen.
+       inset-inline-end, not right + a [dir="rtl"] override: the map pages set
+       RTL through CSS direction with no dir attribute, so the override never
+       matched and the Arabic/Hebrew menu ran off the left edge (r32 a5#1). */
+    position: absolute; top: calc(100% + 5px); inset-inline-end: 0;
     z-index: 1300;
     min-width: 190px; max-height: 340px; max-height: min(340px, calc(100dvh - 60px)); overflow-y: auto;   /* landscape phones; 340px for browsers without dvh */
     background: #fff; border: 1px solid #e0e0e0; border-radius: 8px;
@@ -1856,7 +1859,6 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
     flex: none; min-width: 30px;
     font-size: 10px; font-weight: 700; letter-spacing: 0.5px; color: #5f6368;
 }
-[dir="rtl"] .lang-picker-menu { right: auto; left: 0; }
 
 /* Play ▾ menu item with an optional localized descriptor line (e.g. Langle → a
    short "what is this" so an opaque proper-noun launcher is understandable). */

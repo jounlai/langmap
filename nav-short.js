@@ -21,6 +21,13 @@
  */
 (function () {
     'use strict';
+    // The UI-language list, in one place: order and names as on index, Word Map
+    // and Han Map (wordmap_data.js WM_UI_LABELS). Name Map, Time Map and the tree
+    // had their own lists, English first and "Bahasa Indonesia" (r32).
+    window.LM_UI_LANGS = [['ja','日本語'],['ko','한국어'],['zh','中文'],['yue','粵語'],['vi','Tiếng Việt'],
+        ['th','ไทย'],['id','Indonesia'],['hi','हिन्दी'],['en','English'],['de','Deutsch'],['fr','Français'],
+        ['it','Italiano'],['es','Español'],['pt','Português'],['ru','Русский'],['uk','Українська'],
+        ['ar','العربية'],['he','עברית'],['sw','Kiswahili']];
     var LABELS = {
         en: {"order":"Word Order","word":"Word Map","han":"HanMap","name":"Name Map","time":"Time Map","tree":"Tree"},
         ja: {"order":"語順マップ","word":"単語マップ","han":"漢字マップ","name":"名前マップ","time":"暦マップ","tree":"系統樹"},
@@ -311,8 +318,11 @@
     // drops the keys of the overlays still to open.
     function lmhDeepOwn(keys) { if (LMH.deepPend) LMH.deepPend = LMH.deepPend.filter(function (k) { return keys.indexOf(k) < 0; }); return LMH.deepPend || []; }
     (function () {
-        var _push = history.pushState.bind(history), _rep = history.replaceState.bind(history);
-        LMH._rep = _rep; LMH._push = _push;
+        var _push0 = history.pushState.bind(history), _rep0 = history.replaceState.bind(history);
+        // lastSt: the state of the entry shown, for the popstate that leaves it (r32).
+        var _push = function (s, t, u) { var r = _push0(s, t, u); LMH.lastSt = history.state; return r; };
+        var _rep = function (s, t, u) { var r = _rep0(s, t, u); LMH.lastSt = history.state; return r; };
+        LMH._rep = _rep; LMH._push = _push; LMH.lastSt = history.state;
         // A page's new entry while the top overlay is closing (closed in this task,
         // its step back still pending: a game started from the Play menu or the
         // phone menu) takes that overlay's entry instead of going above it. The
@@ -419,6 +429,7 @@
         setTimeout(function () { window.__lmSkipHash = null; }, 400);
         var nav = window.navigation, can = nav && typeof nav.canGoForward === 'boolean' ? (dir > 0 ? nav.canGoForward : nav.canGoBack) : null;
         if (can === false) { if (st) { LMH.selfBack = 0; lmhSelfGo(-dir); } return; }
+        if (dir > 0) { var fn = LMH.fwdOver = dn; setTimeout(function () { if (LMH.fwdOver === fn) LMH.fwdOver = null; }, 1500); }
         lmhSelfGo(dir);
         if (can === null && st) setTimeout(function () { if ((history.state || {}).lmN === dn && LMH.n === dn) { LMH.selfBack = 0; lmhSelfGo(-dir); } }, 450);
     }
@@ -456,10 +467,24 @@
         }
         return { opened: function (o) { lmhOpened(id, !!(o && o.take)); }, closed: function () { lmhClosed(id); } };
     };
+    // The overlay's own entry is the current one and nothing is above it: a
+    // hand close steps back over it, so the page should not rewrite its URL
+    // first. Rewritten without cmp=, a reload forgot the shared list and
+    // Forward could not bring Compare back (r32).
+    window.__lmOwnEntry = function (id) {
+        if (LMH.quiet) return false;
+        var cur = history.state || {};
+        return LMH.stack[LMH.stack.length - 1] === id && cur.lmN != null && LMH.ovN[id] === cur.lmN;
+    };
+    // A page panel with an entry of its own (the Word / Han Map language panel)
+    // is not an overlay here; Back off its entry is the page's to apply.
+    var PAGE_PANEL = ['wmPanel', 'hmPanel'];
+    var hasPagePanel = function (s) { return !!s && PAGE_PANEL.some(function (k) { return s[k]; }); };
     window.__lmPopHandled = false;
     window.addEventListener('popstate', function () {
         var prevURL = LMH.lastURL;
         LMH.lastURL = location.href;
+        var prevSt = LMH.lastSt; LMH.lastSt = history.state;
         var st = history.state || {};
         var want = st.lmOv || [];
         // Leaving a dead entry we stood on (its overlays did not come back after
@@ -481,7 +506,7 @@
         // Back from that dead entry: this press would change nothing on screen,
         // so it goes one further; Forward later steps over the dead one (r31).
         if (leftDead && dir < 0 && st.lmN === prevN - 1 && !LMH.stack.length) { lmhDeadNext(); lmhStepOver(null, -1, prevURL); return; }
-        var changed = self, stale = [];
+        var changed = self, stale = [], reopened = 0;
         LMH.quiet = true;
         try {
             for (var i = LMH.stack.length - 1; i >= 0; i--) {
@@ -502,14 +527,25 @@
                 // Reopened under LMH.quiet, so lmhOpened did not note its entry:
                 // its own × then left a dead Back (r30). One entry per overlay,
                 // the top one on this entry.
-                if (ok) { changed = true; LMH.ovN[want[j]] = LMH.n - (want.length - 1 - j); } else stale.push(want[j]);
+                if (ok) { changed = true; reopened++; LMH.ovN[want[j]] = LMH.n - (want.length - 1 - j); } else stale.push(want[j]);
             }
         } finally { LMH.quiet = false; }
         LMH.stack = want.filter(function (x) { return stale.indexOf(x) < 0; });
-        if (stale.length && dir !== 0) {
+        // Only when none of its overlays came back: one that did (the settings
+        // popover over a popup that cannot) keeps the entry, cut down to it.
+        // Stepping over it closed the popover again at the end of the history (r32).
+        if (stale.length && dir !== 0 && !reopened) {
             // Mark this entry dead and step on past it; the page ignores this
             // stop, and the next one keeps the live URL (self). Left plain, it
             // cost a dead press the next time either way (r31).
+            // Back from the page's language panel entry: the landing is the
+            // page's to apply (it closes the panel, keeping the live word).
+            // Kept as the screen, the panel stayed open over a lang= URL and
+            // the next Back left the site with it (r32).
+            if (dir < 0 && hasPagePanel(prevSt) && !hasPagePanel(st)) {
+                var pn = LMH.pageLeave = LMH.n;
+                setTimeout(function () { if (LMH.pageLeave === pn) LMH.pageLeave = null; }, 1500);
+            }
             lmhStepOver(Object.assign({}, st, { lmOv: ovList(), lmN: LMH.n }), dir, prevURL);
             return;
         }
@@ -527,6 +563,22 @@
             }
         }
         if (!changed) return;
+        // Landed from the step over the stale entry under the page's panel
+        // entry: carry the live URL, but let the page handle this stop.
+        if (self && LMH.pageLeave != null && st.lmN < LMH.pageLeave && !hasPagePanel(st)) {
+            LMH.pageLeave = null;
+            try { LMH._rep(history.state, '', prevURL); LMH.lastURL = prevURL; } catch (_) {}
+            window.__lmPopHandled = false; window.__lmSkipHash = null;
+            return;
+        }
+        // Forward over a dead entry onto the page's language panel entry: the
+        // page reopens the panel from that entry's own URL. Given the URL of
+        // the screen left, the press changed nothing (r32).
+        if (self && dir > 0 && LMH.fwdOver != null && st.lmN > LMH.fwdOver && hasPagePanel(st) && !hasPagePanel(prevSt)) {
+            LMH.fwdOver = null;
+            window.__lmPopHandled = false; window.__lmSkipHash = null;
+            return;
+        }
         // An overlay opened or closed: the content under it stays as it is now.
         // Put the live URL back on this entry and tell the page not to re-apply
         // the older hash it would otherwise read (popstate + hashchange).
@@ -584,7 +636,7 @@
         if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start();
         window.addEventListener('load', track);
     })();
-    window.addEventListener('pageshow', function (e) { if (e.persisted) { LMH.stack = (history.state && history.state.lmOv) || []; if (history.state && history.state.lmN != null) LMH.n = history.state.lmN; LMH.curDead = history.state && history.state.lmDead ? LMH.n : null; } });
+    window.addEventListener('pageshow', function (e) { if (e.persisted) { LMH.lastSt = history.state; LMH.stack = (history.state && history.state.lmOv) || []; if (history.state && history.state.lmN != null) LMH.n = history.state.lmN; LMH.curDead = history.state && history.state.lmDead ? LMH.n : null; } });
     // A landing that opens an overlay from the URL (a shared #play=, #lang=,
     // #trivia= link) gets an entry under it, the same URL without those keys, so
     // Back closes the overlay and stays on the site; it left the site with the
@@ -799,7 +851,8 @@
         box.appendChild(t); box.appendChild(x); document.body.appendChild(box);
         var mo = null;
         var done = function () { box.remove(); try { localStorage.setItem('lm_taphint', '1'); } catch (_) {} document.removeEventListener('click', onClick, true); document.removeEventListener('keydown', onKey, true); document.removeEventListener('focusin', onFocus, true); if (mo) mo.disconnect(); };
-        var onClick = function (e) { if (e.target === x || (e.target.closest && e.target.closest('.lang-label, .globe-label, .hamburger-btn'))) done(); };
+        // and the Han Map dialect legend: the hint (z 1200) sat over its rows (r32)
+        var onClick = function (e) { if (e.target === x || (e.target.closest && e.target.closest('.lang-label, .globe-label, .hamburger-btn, #dialect-legend-toggle'))) done(); };
         document.addEventListener('click', onClick, true);
         // Keyboard users: it must not sit over a focused control (2.4.11); Escape or
         // focus leaving the map dismisses it (r23).

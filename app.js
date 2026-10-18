@@ -690,13 +690,9 @@ function detectUILang() {
 // (Pre-fix: this dropdown reused langName() over the LANGUAGES data list,
 // which produced labels like "日本語(標準)" instead of the clean "日本語"
 // shown on wordmap/tree.html.)
-const HEADER_UI_LANG_NATIVE = {
-    ja:'日本語', ko:'한국어', zh:'中文', yue:'粵語', vi:'Tiếng Việt',
-    th:'ไทย', id:'Indonesia', hi:'हिन्दी', en:'English', de:'Deutsch',
-    fr:'Français', it:'Italiano',
-    es:'Español', pt:'Português',
-    ru:'Русский', uk:'Українська', ar:'العربية', he:'עברית', sw:'Kiswahili',
-};
+// r32: the list itself now lives in nav-short.js (window.LM_UI_LANGS), shared
+// by every page.
+const HEADER_UI_LANG_NATIVE = Object.fromEntries(window.LM_UI_LANGS || [['en', 'English']]);
 function initUILangSelect() {
     const sel = document.getElementById('header-ui-lang');
     if (!sel) return;

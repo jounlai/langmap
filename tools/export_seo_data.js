@@ -353,6 +353,17 @@ function buildMetaI18n(LANG_DATA, hanLangs) {
   for (const l of Object.values(hanLangs || {})) {
     for (const f of ['family', 'speakers', 'region']) if (l[f]) values.add(String(l[f]));
   }
+  // Word-page flag tooltips (seo_country_label in seo/lib.php): the first
+  // country of meta.countries, or its SEO_ISO_CANON spelling. Those single
+  // names ("Iraq", "United Kingdom", "Han Dynasty China") were never field
+  // values on their own, so the tooltip stayed English in every UI (r32 a2).
+  for (const ld of Object.values(LANG_DATA)) {
+    const c = String(((ld && ld.meta) || {}).countries || '').trim();
+    if (c) values.add(c.split(',')[0].replace(/\s*\(.*$/u, '').trim());
+  }
+  const libSrc = read('seo/lib.php');
+  const canon = (libSrc.match(/const SEO_ISO_CANON = \[([\s\S]*?)\];/) || [])[1] || '';
+  for (const m of canon.matchAll(/=>\s*'([^']+)'/g)) values.add(m[1]);
 
   const fields = {};
   let translated = 0;

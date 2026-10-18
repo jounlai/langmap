@@ -596,7 +596,7 @@ WORDS.good = {
     frr_amr: ["gud", "ɡʊd"],
     li: ["good", "ɡoːt"],
     nn: ["god", "ɡuː"],
-    fo: ["góður", "kɔuːʊɹ"],
+    fo: ["góður", "ˈkɔuːwʊɹ"],
     fr_qc: ["bon", "bɔ̃"],
     fr_af: ["bon", "bɔ̃"],
     fr_be: ["bon", "bɔ̃"],

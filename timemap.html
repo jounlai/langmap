@@ -67,7 +67,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=167">
+    <link rel="stylesheet" href="styles.css?v=168">
     <link rel="stylesheet" href="/vendor/leaflet-1.9.4/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -419,7 +419,7 @@
 
         .leaflet-popup-close-button { width: 40px !important; height: 40px !important; font-size: 24px !important; line-height: 38px !important; }   /* 24px was hard to tap (r27) */
 </style>
-    <script src="nav-short.js?v=41"></script>
+    <script src="nav-short.js?v=42"></script>
 </head>
 <body>
     <header class="site-header-bar">
@@ -500,7 +500,7 @@
 
 
     <script src="/vendor/leaflet-1.9.4/leaflet.js"></script>
-    <script src="timemap_calendars.js?v=17"></script>
+    <script src="timemap_calendars.js?v=18"></script>
     <script>
     (function () {
         'use strict';
@@ -509,10 +509,8 @@
         /* ---------- UI language ----------
            English is built into timemap_calendars.js; every other language is
            one file, timemap_i18n/<lang>.js, fetched when first chosen. */
-        const LANGS = [['en','English'],['ja','日本語'],['ko','한국어'],['zh','中文'],['yue','粵語'],
-            ['vi','Tiếng Việt'],['th','ไทย'],['id','Bahasa Indonesia'],['hi','हिन्दी'],['de','Deutsch'],
-            ['fr','Français'],['it','Italiano'],['es','Español'],['pt','Português'],['ru','Русский'],
-            ['uk','Українська'],['ar','العربية'],['he','עברית'],['sw','Kiswahili']];
+        // The shared UI-language list (nav-short.js): same order and names on every map (r32).
+        const LANGS = window.LM_UI_LANGS || [['en','English']];
         const HAS = Object.fromEntries(LANGS.map(([c]) => [c, true]));
         const I18N_VERSION = 7;
         window.TM_I18N = window.TM_I18N || {};
@@ -790,6 +788,20 @@
             for(let ring=1; ring<=8; ring++) for(const [ox,oy] of [[0,-1],[0,1],[-1,0],[1,0],[-1,-1],[1,-1],[-1,1],[1,1],[-2,-1],[2,-1],[-2,1],[2,1]]) cand.push([ox*ring*14, oy*ring*12]);
             const placed=[];
             const hit=(a,b)=> Math.abs(a.cx-b.cx) < (a.w+b.w)/2+2 && Math.abs(a.cy-b.cy) < (a.h+b.h)/2+2;
+            // Simple mode: the header floats over the map, with the date and the
+            // control column. Their boxes count as placed, so a label that would
+            // cover them hides like any other loser (r32: on landscape phones
+            // labels ran over the logo, langmaps.com, the date and the exit button).
+            if(document.body.classList.contains('chrome-hidden')){
+                const mr=map.getContainer().getBoundingClientRect();
+                // links and buttons, not the bar's children: .header-collapse is
+                // display:contents, so its langmaps.com had no box of its own
+                document.querySelectorAll('.site-header-bar a, .site-header-bar button, .site-header-bar .header-url, #tm-simple-date, #tm-map-ctl').forEach(el=>{
+                    if(!el.getClientRects().length || getComputedStyle(el).visibility==='hidden') return;
+                    const r=el.getBoundingClientRect(); if(!r.width || !r.height) return;
+                    placed.push({ cx:r.left+r.width/2-mr.left, cy:r.top+r.height/2-mr.top, w:r.width, h:r.height });
+                });
+            }
             items.forEach(it=>{
                 let spot=null;
                 for(const [ox,oy] of cand){ const box={ cx:it.x+ox, cy:it.y+oy, w:it.w, h:it.h }; if(!placed.some(p=>hit(box,p))){ spot=[ox,oy]; break; } }
@@ -1060,7 +1072,7 @@
             document.getElementById('tm-font-inc').addEventListener('click', ()=>setFontScale(fontScale+0.1));
             // Label lines on/off, remembered on this device (r28).
             { const SHOW_LBL={w:{en:'Date',ja:'日付',ko:'날짜',zh:'日期',yue:'日期',vi:'Ngày',th:'วันที่',id:'Tanggal',hi:'तारीख़',de:'Datum',fr:'Date',it:'Data',es:'Fecha',pt:'Data',ru:'Дата',uk:'Дата',ar:'التاريخ',he:'תאריך',sw:'Tarehe'},
-                d:{en:'Weekday',ja:'曜日',ko:'요일',zh:'星期',yue:'星期',vi:'Thứ',th:'วัน',id:'Hari',hi:'वार',de:'Wochentag',fr:'Jour',it:'Giorno',es:'Día',pt:'Dia da semana',ru:'День недели',uk:'День тижня',ar:'اليوم',he:'יום',sw:'Siku'},
+                d:{en:'Weekday',ja:'曜日',ko:'요일',zh:'星期',yue:'星期',vi:'Thứ',th:'วัน',id:'Hari',hi:'वार',de:'Wochentag',fr:'Jour',it:'Giorno',es:'Día',pt:'Dia da semana',ru:'День недели',uk:'День тижня',ar:'يوم الأسبوع',he:'יום',sw:'Siku'},
                 t:{en:'Translation',ja:'訳',ko:'번역',zh:'译文',yue:'譯文',vi:'Bản dịch',th:'คำแปล',id:'Terjemahan',hi:'अनुवाद',de:'Übersetzung',fr:'Traduction',it:'Traduzione',es:'Traducción',pt:'Tradução',ru:'Перевод',uk:'Переклад',ar:'الترجمة',he:'תרגום',sw:'Tafsiri'},
                 r:{en:'Calendar',ja:'暦の名前',ko:'달력 이름',zh:'历法名称',yue:'曆法名稱',vi:'Tên lịch',th:'ชื่อปฏิทิน',id:'Nama kalender',hi:'पंचांग का नाम',de:'Kalender',fr:'Calendrier',it:'Calendario',es:'Calendario',pt:'Calendário',ru:'Календарь',uk:'Календар',ar:'اسم التقويم',he:'שם הלוח',sw:'Kalenda'} };
               const btns=[...document.querySelectorAll('.tm-show-btn')];
@@ -1081,7 +1093,8 @@
                 const hidden=document.body.classList.toggle('chrome-hidden');
                 chromeBtn.setAttribute('aria-pressed', hidden?'true':'false');
                 if(hidden) closeInfoSheet();
-                setTimeout(()=>map.invalidateSize(), 60); updateHash();
+                // the floating header, date and controls are label obstacles in simple mode (r32)
+                setTimeout(()=>{ map.invalidateSize(); requestAnimationFrame(relaxLabels); }, 60); updateHash();
             });
             map.on('moveend', ()=>{ clearTimeout(boot._mh); boot._mh=setTimeout(updateHash, 250); });
             // Markers off the visible map are not Tab stops (focus vanished off screen).

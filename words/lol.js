@@ -279,7 +279,7 @@ WORDS.lol = {
     ko_jl: ["ㅋㅋㅋ", "kʰɯkʰɯkʰɯ"],
     vi_c: ["hihi", "hi˥ hi˥"],
     vi_s: ["hihi", "hi˧ hi˧"],
-    th_isan: ["555", "haː˥˩ haː˥˩ haː˥˩"],
+    th_isan: ["555", "haː˨˩ haː˨˩ haː˨˩"],
     th_n: ["555", "haː˥˩ haː˥˩ haː˥˩"],
     th_s: ["555", "haː˥˩ haː˥˩ haː˥˩"],
     zh_db: ["233", "ɑɚ˥˩ san˥ san˥"],

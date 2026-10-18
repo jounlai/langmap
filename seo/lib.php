@@ -838,7 +838,7 @@ const SEO_T_WORD = [
 const SEO_T = [
     'en' => [
         'family' => 'Family', 'speakers' => 'Speakers', 'script' => 'Script',
-        'region' => 'Region', 'countries' => 'Countries', 'official' => 'Official in',
+        'region' => 'Region', 'countries' => 'Countries', 'official' => 'Official language',
         'reading' => 'Reading',
         'iso' => 'ISO 639-3', 'glotto' => 'Glottocode', 'vitality' => 'Vitality',
         'aliases' => 'Also known as', 'romanization' => 'Romanization',
@@ -1415,7 +1415,7 @@ const SEO_T = [
     ],
     'de' => [
         'family' => 'Sprachfamilie', 'speakers' => 'Sprecher', 'script' => 'Schrift',
-        'region' => 'Region', 'countries' => 'Länder', 'official' => 'Amtssprache in',
+        'region' => 'Region', 'countries' => 'Länder', 'official' => 'Amtssprache',
         'reading' => 'Lesung',
         'iso' => 'ISO 639-3', 'glotto' => 'Glottocode', 'vitality' => 'Vitalität',
         'aliases' => 'Auch bekannt als', 'romanization' => 'Umschrift',
@@ -1867,7 +1867,7 @@ const SEO_T = [
     ],
     'ar' => [
         'family' => 'العائلة', 'speakers' => 'المتحدثون', 'script' => 'الكتابة',
-        'region' => 'المنطقة', 'countries' => 'البلدان', 'official' => 'لغة رسمية في',
+        'region' => 'المنطقة', 'countries' => 'البلدان', 'official' => 'لغة رسمية',
         'reading' => 'القراءة',
         'iso' => 'ISO 639-3', 'glotto' => 'Glottocode', 'vitality' => 'الحيوية',
         'aliases' => 'يُعرف أيضًا بـ', 'romanization' => 'الكتابة اللاتينية',
@@ -1883,7 +1883,9 @@ const SEO_T = [
         'goods_sub' => 'شاهد التصميم ←',
         'goods_lede' => 'اختر ما يعجبك من {w} كلمة في {name}؛ تُطبع بخط الخريطة نفسه.',
         'goods_peek' => '👕 يمكن طباعة كلمات هذه اللغة على تي شيرت أيضًا (أدناه)',
-        'goods_title_n' => 'ارتدِ لغةً يتحدّثها نحو {n} شخص.',
+        // Counted noun by the last two digits (r32 a2#6): 3–10 أشخاص, 11–99
+        // accusative شخصًا, otherwise (100, 1000, "1.2 مليون") genitive شخص.
+        'goods_title_n' => ['few' => 'ارتدِ لغةً يتحدّثها نحو {n} أشخاص.', 'many' => 'ارتدِ لغةً يتحدّثها نحو {n} شخصًا.', 'other' => 'ارتدِ لغةً يتحدّثها نحو {n} شخص.'],
         'goods_note' => 'تجرّب التصميم في صفحة المتجر الشريك، وتقرّر الطلب بعد أن تراه.',
         'open_app_wm' => 'فتح Word Map التفاعلية ←',
         'open_app_hm' => 'فتح Han Map التفاعلية ←',
@@ -2261,7 +2263,10 @@ function seo_t(string $ui, string $key, array $vars = []): string
     // or by {w} when the count arrives as the Word Map word count (wm_t2:
     // "ещё 83 слова", not "83 слов" — rally r30 a2#2).
     if (is_array($s)) {
-        $cnt = (int) preg_replace('/\D/u', '', (string) ($vars['n'] ?? ($vars['w'] ?? '0')));
+        // 'cnt' when {n} is a display string the digits cannot be read back
+        // from ("1.2 مليون" is not 12): the goods card's speaker count.
+        $cnt = isset($vars['cnt']) ? (int) $vars['cnt']
+            : (int) preg_replace('/\D/u', '', (string) ($vars['n'] ?? ($vars['w'] ?? '0')));
         $s = $s[seo_plural_cat($ui, $cnt)] ?? $s['other'];
     }
     // Auto-fill the Word Map word count for any label using {w} that didn't
@@ -3143,6 +3148,19 @@ function seo_meta_value_lang(string $ui, string $value): string
     if (!$jaShown) return '';
     // Only CJK letters (plus digits/punctuation): the whole value is Japanese; mixed: tag the runs.
     return preg_match('/[^\x{3005}\x{3041}-\x{3096}\x{30A1}-\x{30FA}\x{30FC}\x{3400}-\x{4DBF}\x{4E00}-\x{9FFF}\P{L}]/u', $shown) ? 'ja-runs' : 'ja';
+}
+/**
+ * First letter upper-cased, for a value that stands alone as a line (the
+ * family subtitle under the h1). The stored translations are written to sit
+ * inside a sentence ("sinitico (wu)", "тунгусские > ..."), so on their own
+ * line hundreds of pages started lowercase (r32 a2#5). Uncased scripts pass
+ * through unchanged.
+ */
+function seo_ucfirst(string $s): string
+{
+    if ($s === '') return $s;
+    $first = mb_substr($s, 0, 1, 'UTF-8');
+    return mb_strtoupper($first, 'UTF-8') . mb_substr($s, 1, null, 'UTF-8');
 }
 /** Chip value markup: an untranslated value is isolated and tagged; CJK runs inside English keep their own lang. */
 function seo_chip_value(string $text, string $lang): string

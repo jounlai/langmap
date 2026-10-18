@@ -588,7 +588,7 @@ WORDS.mother = {
     frr_amr: ["mam", "mam"],
     li: ["mam", "mam"],
     nn: ["mor", "muːr"],
-    fo: ["móðir", "mɔuːɪɹ"],
+    fo: ["móðir", "ˈmɔuːwɪɹ"],
     fr_qc: ["mère", "mɛːʁ"],
     fr_af: ["mère", "mɛʁ"],
     fr_be: ["mère", "mɛʁ"],

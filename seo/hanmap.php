@@ -250,7 +250,7 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
   <h1><?= e($name) ?></h1>
   <?php if (!empty($aliases)): ?><p class="sub aka"><?= e(seo_t($ui, 'aka', ['list' => implode($ui === 'ja' || $ui === 'zh' || $ui === 'yue' ? '、' : ', ', $aliases)])) ?></p><?php endif; ?>
   <?php if (!empty($lang['family'])): ?>
-    <p class="sub"><?= seo_chip_value(seo_meta_value($ui, $lang['family']), seo_meta_value_lang($ui, (string) $lang['family'])) ?></p>
+    <p class="sub"><?= seo_chip_value(seo_ucfirst(seo_meta_value($ui, $lang['family'])),seo_meta_value_lang($ui, (string) $lang['family'])) ?></p>
   <?php endif; ?>
 </header>
 

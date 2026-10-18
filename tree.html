@@ -70,7 +70,7 @@
         gtag('config', 'G-JZ7JJBCCHG');
     }
 </script>
-<link rel="stylesheet" href="styles.css?v=167">
+<link rel="stylesheet" href="styles.css?v=168">
 <!-- Noto Serif Tibetan for native names of Tibetic languages
      (bo / xct / dz / khg / xsr / sik / lbj / bft / xkz / xct_litpr).
      Without this, Tibetan script in .node.leaf .native renders via OS
@@ -307,7 +307,7 @@
     .tree-credit { margin: 28px 0 12px; text-align: center; font-size: 12px; color: #6b6b6b; }
     .tree-credit a { color: inherit; }
 </style>
-    <script src="nav-short.js?v=41"></script>
+    <script src="nav-short.js?v=42"></script>
 </head>
 <body>
     <header class="site-header-bar">
@@ -494,8 +494,11 @@ generates lang_names/<ui>.js from lang_names.js. -->
 
     function populateUiLangSelect() {
         const sel = document.getElementById('header-ui-lang');
-        const NATIVE = { en:'English', ja:'日本語', ko:'한국어', zh:'中文', yue:'粵語', vi:'Tiếng Việt', th:'ภาษาไทย', id:'Bahasa Indonesia', hi:'हिन्दी', de:'Deutsch', fr:'Français', it:'Italiano', es:'Español', pt:'Português', ru:'Русский', uk:'Українська', ar:'العربية', he:'עברית', sw:'Kiswahili' };
-        for (const u of Object.keys(UI_I18N)) {
+        // The shared UI-language list (nav-short.js): same order and names as the maps (r32).
+        const SHARED = window.LM_UI_LANGS || [];
+        const NATIVE = Object.fromEntries(SHARED);
+        const order = SHARED.map(([c]) => c).filter((c) => UI_I18N[c]).concat(Object.keys(UI_I18N).filter((c) => !NATIVE[c]));
+        for (const u of order) {
             const opt = document.createElement('option');
             opt.value = u; opt.textContent = NATIVE[u] || u;
             if (u === uiLang) opt.selected = true;
@@ -602,7 +605,7 @@ generates lang_names/<ui>.js from lang_names.js. -->
         if (!_enginePromise) _enginePromise = _loadJS('meta_i18n_engine.js?v=1');
         // per-UI writes META_I18N[ui] (the const from the lite file) + fills
         // META_I18N_ATOMS — engine must run first (async=false guarantees it).
-        _i18nByUi[ui] = Promise.all([_enginePromise, _loadJS('meta_i18n/' + ui + '.js?v=11')]);
+        _i18nByUi[ui] = Promise.all([_enginePromise, _loadJS('meta_i18n/' + ui + '.js?v=13')]);
         return _i18nByUi[ui];
     }
     // The tree only reads structured fields (family / parentCode / speakers) +

@@ -143,7 +143,7 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
   <h1><?= e($name) ?></h1>
   <?php if (!empty($akaList)): ?><p class="sub aka"><?= e(seo_t($ui, 'aka', ['list' => implode($ui === 'ja' || $ui === 'zh' || $ui === 'yue' ? '、' : ', ', $akaList)])) ?></p><?php endif; ?>
   <?php if (!empty($meta['family'])): ?>
-    <p class="sub"><?= seo_chip_value(seo_meta_value($ui, $meta['family']), seo_meta_value_lang($ui, (string) $meta['family'])) ?></p><?php /* No "historical / hidden variety" tag: "hidden" is the map's internal
+    <p class="sub"><?= seo_chip_value(seo_ucfirst(seo_meta_value($ui, $meta['family'])),seo_meta_value_lang($ui, (string) $meta['family'])) ?></p><?php /* No "historical / hidden variety" tag: "hidden" is the map's internal
          default-view flag, not something a reader of the page can use (r31 a2). */ ?>
   <?php endif; ?>
 </header>
@@ -258,8 +258,8 @@ $goods_photo = '/assets/tshirts/tshirt-' . (crc32($code) % 3) . '.jpg'; ?>
     <img src="<?= e($goods_photo) ?>" alt="" width="760" height="744" loading="lazy" decoding="async">
     <span class="seo-goods-text">
       <?php $spk = seo_speaker_count($lang); ?>
-      <span class="seo-goods-title"><?= e($spk ? seo_t($ui, 'goods_title_n', ['n' => seo_people($spk, $ui)]) : seo_t($ui, 'goods_title')) ?></span>
-      <span class="seo-goods-lede"><?= e(seo_t($ui, 'goods_lede', ['name' => $name, 'w' => (string) count($words)])) ?></span>
+      <span class="seo-goods-title"><?= e($spk ? seo_t($ui, 'goods_title_n', ['n' => seo_people($spk, $ui), 'cnt' => min($spk, 1000000)]) : seo_t($ui, 'goods_title')) ?></span>
+      <span class="seo-goods-lede"><?= e(seo_t($ui, 'goods_lede', ['name' => $name, 'w' => $wc])) ?></span>
       <span class="seo-goods-note"><?= e(seo_t($ui, 'goods_note')) ?></span>
       <span class="seo-goods-btn"><?= e(seo_t($ui, 'goods_sub')) ?></span>
     </span>

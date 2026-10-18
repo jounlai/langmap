@@ -70,7 +70,7 @@
         gtag('config', 'G-JZ7JJBCCHG');
     }
 </script>
-<link rel="stylesheet" href="styles.css?v=158">
+<link rel="stylesheet" href="styles.css?v=159">
 <!-- Noto Serif Tibetan for native names of Tibetic languages
      (bo / xct / dz / khg / xsr / sik / lbj / bft / xkz / xct_litpr).
      Without this, Tibetan script in .node.leaf .native renders via OS
@@ -168,6 +168,11 @@
     .tree ul { padding-left: 24px; position: relative; }
     /* Connector lines: vertical down the left side, horizontal into each child */
     .tree li { position: relative; padding: 2px 0; }
+    /* Expand all laid out ~13,000 rows in one 2-4 s task: skip the content of rows far off screen.
+       On the row (.node), not the <li>: containment on the <li> clipped the tree lines (r22). */
+    #tree-root .node { content-visibility: auto; contain-intrinsic-size: auto 24px; }
+    /* Expand all laid out ~13,000 nodes in one 2-4 s task: lay out only what is near the screen (r22). */
+
     .tree ul > li::before {
         content: '';
         position: absolute;
@@ -277,7 +282,7 @@
         }
         /* A long family name wrapped under the arrow and dot, outdented past the
            tree line (de "Englischbasierte Kreolsprache"): keep it in its own column (r21). */
-        .node { flex-wrap: nowrap; align-items: flex-start; }
+        .node:not(.leaf) { flex-wrap: nowrap; align-items: flex-start; }   /* leaf rows still wrap name / native / code (r22) */
         .node .toggle, .node .family-dot { flex: none; margin-top: .45em; }
         .node .toggle { margin-top: .2em; }
         .node .label { min-width: 0; }
@@ -293,7 +298,7 @@
 
     /* .back-to-top styles live in styles.css (shared with index.html). */
 </style>
-    <script src="nav-short.js?v=28"></script>
+    <script src="nav-short.js?v=29"></script>
 </head>
 <body>
     <header class="site-header-bar">
@@ -1159,6 +1164,7 @@ generates lang_names/<ui>.js from lang_names.js. -->
         const root = document.getElementById('tree-root');
         const q = (query || '').trim().toLowerCase();
         // Reset
+        document.getElementById('tree-empty')?.remove();
         root.querySelectorAll('li').forEach(li => li.classList.remove('search-hidden'));
         root.querySelectorAll('.node.match').forEach(n => n.classList.remove('match'));
         // #stats is a live region: it announces how many languages are shown.
@@ -1201,7 +1207,30 @@ generates lang_names/<ui>.js from lang_names.js. -->
             // Also show all descendants of a matched internal node
             li.querySelectorAll('li').forEach(c => c.classList.remove('search-hidden'));
         });
+        const shown = root.querySelectorAll('li:not(.search-hidden) > .node.leaf').length + matchedInternalLi.length;
         if (stats) stats.textContent = t('stats', root.querySelectorAll('li:not(.search-hidden) > .node.leaf').length);
+        // A search with no hit left a blank page and a small grey "0" (r22).
+        if (!shown) showNoMatch(query);
+    }
+    const NO_MATCH = {
+        en: ['No language matches “{q}”.', 'Clear search'], ja: ['「{q}」に一致する言語はありません。', '検索をクリア'], ko: ['“{q}”와 일치하는 언어가 없습니다.', '검색 지우기'],
+        zh: ['没有与“{q}”匹配的语言。', '清除搜索'], yue: ['冇語言符合「{q}」。', '清除搜尋'], vi: ['Không có ngôn ngữ nào khớp với “{q}”.', 'Xóa tìm kiếm'],
+        th: ['ไม่มีภาษาที่ตรงกับ “{q}”', 'ล้างการค้นหา'], id: ['Tidak ada bahasa yang cocok dengan “{q}”.', 'Hapus pencarian'], hi: ['“{q}” से मेल खाने वाली कोई भाषा नहीं।', 'खोज साफ़ करें'],
+        de: ['Keine Sprache passt zu „{q}“.', 'Suche löschen'], fr: ['Aucune langue ne correspond à « {q} ».', 'Effacer la recherche'], it: ['Nessuna lingua corrisponde a «{q}».', 'Cancella ricerca'],
+        es: ['Ningún idioma coincide con «{q}».', 'Borrar búsqueda'], pt: ['Nenhum idioma corresponde a “{q}”.', 'Limpar busca'], ru: ['Нет языков, соответствующих «{q}».', 'Очистить поиск'],
+        uk: ['Немає мов, що відповідають «{q}».', 'Очистити пошук'], ar: ['لا توجد لغة تطابق «{q}».', 'مسح البحث'], he: ['אין שפה שתואמת ל„{q}”.', 'ניקוי החיפוש'], sw: ['Hakuna lugha inayolingana na “{q}”.', 'Futa utafutaji'],
+    };
+    function showNoMatch(query) {
+        const root = document.getElementById('tree-root');
+        const m = NO_MATCH[uiLang] || NO_MATCH[String(uiLang).split('_')[0]] || NO_MATCH.en;
+        const box = document.createElement('div'); box.id = 'tree-empty';
+        box.style.cssText = 'padding:24px 8px;text-align:center;color:#555';
+        const p = document.createElement('p'); p.style.margin = '0 0 10px'; p.textContent = m[0].replace('{q}', String(query).trim());
+        const b = document.createElement('button'); b.type = 'button'; b.textContent = m[1];
+        b.style.cssText = 'padding:6px 14px;border:1px solid #ccd;border-radius:8px;background:#fff;cursor:pointer;font:inherit';
+        b.addEventListener('click', () => { const i = document.getElementById('search'); if (i) { i.value = ''; i.focus(); } searchFilter(''); });
+        box.appendChild(p); box.appendChild(b);
+        root.parentNode.insertBefore(box, root.nextSibling);
     }
 
     // ===== Init =====

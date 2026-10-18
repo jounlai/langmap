@@ -92,7 +92,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=158">
+    <link rel="stylesheet" href="styles.css?v=159">
     <link rel="stylesheet" href="/vendor/leaflet-1.9.4/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -2836,7 +2836,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=28"></script>
+    <script src="nav-short.js?v=29"></script>
 </head>
 <body>
     <div id="pg-live" role="status" aria-live="polite" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap"></div>
@@ -2866,6 +2866,8 @@
                 <a href="namemap.html" class="header-nav-link" id="nav-name"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:3px" aria-hidden="true"><path d="M4 21v-7a4 4 0 0 1 4-4h1"/><circle cx="9" cy="6" r="3"/><path d="M14 21v-5a3 3 0 0 1 3-3a3 3 0 0 1 3 3v5"/></svg>Name Map</a>
                 <span class="nav-sep">/</span>
                 <a href="timemap.html" class="header-nav-link" id="nav-time"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:3px" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Time Map</a>
+                <span class="nav-sep">/</span>
+                <a href="tree.html" class="header-nav-link" id="nav-tree"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:2px" aria-hidden="true"><circle cx="12" cy="5" r="2"/><circle cx="6" cy="19" r="2"/><circle cx="18" cy="19" r="2"/><path d="M12 7v5M12 12H6v5M12 12h6v5"/></svg>Tree</a>
             </nav>
             <div class="play-menu-wrap">
                 <button type="button" class="trivia-btn" id="play-menu-btn"
@@ -2984,6 +2986,7 @@
                         style="position:absolute;bottom:-10px;right:-10px;font-size:22px;padding:0;width:38px;height:38px;border:1px solid #d8d8d8;border-radius:50%;background:rgba(255,255,255,0.96);backdrop-filter:blur(6px);cursor:pointer;color:#555;box-shadow:0 2px 5px rgba(0,0,0,0.12);display:inline-flex;align-items:center;justify-content:center;line-height:1;z-index:4">🎲</button>
                 </div>
             </div>
+            <div id="char-gloss" aria-hidden="true" hidden style="margin-top:4px;max-width:140px;padding:2px 9px;border-radius:999px;background:rgba(255,255,255,0.92);border:1px solid #d8d8d8;font-size:12px;line-height:1.4;color:#333;box-shadow:0 1px 4px rgba(0,0,0,0.08);overflow-wrap:anywhere"></div>
             <!-- Filter button on its own line below. -->
             <button id="hm-lang-filter-btn" type="button"
                     aria-haspopup="dialog" aria-controls="hm-lang-filter-modal"
@@ -4896,7 +4899,10 @@
             } catch (e) {}
             return [25, 20];
         }
-        const _initialCenter = detectInitialView();
+        // The Han Map's rows are all in East Asia: a visitor's timezone elsewhere
+        // (New York, Paris) opened on an empty map. Use the timezone only when
+        // it lands inside the Sinosphere, else start over southern China (r22).
+        const _initialCenter = (c => (c[0] > 0 && c[0] < 50 && c[1] > 95 && c[1] < 146) ? c : [31, 114])(detectInitialView());
 
         // --- Map setup ---
         const map = L.map('map', {
@@ -5563,7 +5569,19 @@
             return m[uiLang] || m[uiLang.split('_')[0]] || m.en;
         }
         // The opener's name was only the character, the same as the grid button behind it.
-        window.__hmCharLabel = function () { const b = document.getElementById('char-current-btn'); if (b && b.textContent.trim()) b.setAttribute('aria-label', b.textContent.trim() + ', ' + i18n('ariaSelectChar')); };
+        // Meaning of a character in the UI language (HAN_GLOSS_I18N via WORD_LIST).
+        window.__hmGlossOf = function (id) {
+            const w = (window.WORD_LIST || []).find((x) => x.id === id), d = w && w.definition;
+            if (!d || typeof d !== 'object') return '';
+            const u = String(uiLang || 'en'); return d[u] || d[u.split('_')[0]] || d.en || '';
+        };
+        window.__hmCharLabel = function () {
+            const b = document.getElementById('char-current-btn'); if (!b || !b.textContent.trim()) return;
+            const sel = document.getElementById('word-select'), g = window.__hmGlossOf(sel ? sel.value : '');
+            b.setAttribute('aria-label', b.textContent.trim() + (g ? ' (' + g + ')' : '') + ', ' + i18n('ariaSelectChar'));
+            // The meaning under the tile: a first-time reader saw a lone 一 (r22).
+            const p = document.getElementById('char-gloss'); if (p) { p.textContent = g; p.hidden = !g; }
+        };
 
         function applyUILang() {
             // <html lang> drives the screen reader's voice; it was frozen at "en"
@@ -6030,6 +6048,7 @@
                         if (baseChar === displayCharOf(currentWord)) b.setAttribute('aria-current', 'true');
                         b.innerHTML = '<span class="char-tile-char">' + escapeHtml(baseChar) + '</span>';
                         b.dataset.char = targetId;
+                        { const g = window.__hmGlossOf ? window.__hmGlossOf(targetId) : ''; if (g) { b.title = g; b.setAttribute('aria-label', baseChar + ' (' + g + ')'); } }
                         b.addEventListener('click', () => {
                             setChar(targetId);
                             closeModal();
@@ -9007,7 +9026,11 @@
                 updateConnectorLine();
             });
         }
-        map.on('zoomend', () => { updateMarkers(currentWord); updateHash(); updateSelectedLabel(); scheduleConnectorUpdate(); });
+        // The view zoomend just drew: the moveend that follows at the same view
+        // need not draw it again (r22 perf: ~0.5 s per zoom step on a phone).
+        let _zoomDrawnView = null;
+        const _viewKey = () => { const c = map.getCenter(); return map.getZoom() + ',' + c.lat.toFixed(5) + ',' + c.lng.toFixed(5); };
+        map.on('zoomend', () => { updateMarkers(currentWord); _zoomDrawnView = _viewKey(); updateHash(); updateSelectedLabel(); scheduleConnectorUpdate(); });
         // moveend re-runs updateMarkers so the viewport-scoped pin cap
         // (selectByPriority) re-evaluates which langs are in the visible
         // area. Without this, after panning, dropped pins stay dropped
@@ -9046,6 +9069,9 @@
             updateHash();
             scheduleConnectorUpdate();
             clearTimeout(_panDebounceTimer);
+            const fresh = _zoomDrawnView && _zoomDrawnView === _viewKey();
+            _zoomDrawnView = null;
+            if (fresh) return;
             _panDebounceTimer = setTimeout(() => {
                 try { updateMarkers(currentWord); } catch (_) {}
             }, 400);
@@ -9926,10 +9952,14 @@
                 const _tm1 = v => {
                     if (uiBase === 'en' || !v) return v;
                     const x = _tmExact(v); if (x) return x;
+                    // CJK UIs: "Yichun 宜春" keeps the characters only (it became "宜春 宜春").
+                    if (/^(zh|yue|ja|ko)$/.test(uiBase)) v = String(v).replace(/\b[A-Z][a-z'’-]+(?: [A-Z][a-z'’-]+)? ([\u3400-\u9FFF\uF900-\uFAFF]+)/gu, '$1');
                     const atoms = String(v).split(/\s*(?:[()（）,，;/]|\s[—–]\s)\s*/u).map((a) => a.trim()).filter(Boolean);
                     // A lone capitalised name ("Jin", "Min") may stay as it is, except in a
                     // " / " list of places, where it reads as half-translated.
-                    const proper = !/ \/ /.test(v);
+                    // ...only in Latin-script UIs: in zh/ja/hi a kept "Gaoyang" reads as
+                    // half-translated (r22).
+                    const proper = !/ \/ /.test(v) && /^(vi|id|de|fr|it|es|pt|sw)$/.test(uiBase);
                     const ok = atoms.every((a) => /[\u3400-\u9FFF\uF900-\uFAFF]/u.test(a) || !/\p{L}/u.test(a) || _tmExact(a)
                         || (proper && /^\p{Lu}[\p{Ll}'’-]*$/u.test(a)));
                     if (ok && typeof translateMetaSmart === 'function') return translateMetaSmart(v, uiLang) || v;
@@ -10788,7 +10818,9 @@
             updateSelectedLabel();
             updateConnectorLine();
             updateHash();  // persist `lang` to URL so reload restores
-            if (!lang.meta) {
+            // Han Map rows never get .meta (the panel reads HAN_LANG_META), so this
+            // re-render rebuilt the 1,300-node panel for nothing on every open (r22).
+            if (!lang.meta && typeof HAN_LANGS === 'undefined') {
                 loadMeta().then(() => {
                     if (infoPanel.classList.contains('visible') && infoPanel.dataset.code === code) {
                         renderLangInfo(code);
@@ -10801,7 +10833,8 @@
             // Meta-field labels (family/script/…) translate via the per-UI i18n
             // slice, which is now lazy-loaded. Pull it and repaint the panel so
             // they switch from English. No-op once the slice is present / for en.
-            if (uiLang !== 'en') {
+            // Only when the slice was not there yet (the first open in this UI).
+            if (uiLang !== 'en' && !(typeof META_I18N !== 'undefined' && META_I18N[uiLang] && Object.keys(META_I18N[uiLang]).length)) {
                 loadMetaI18n().then(() => {
                     if (infoPanel.classList.contains('visible') && infoPanel.dataset.code === code) {
                         renderLangInfo(code);
@@ -13362,7 +13395,33 @@
                 row.appendChild(sw); row.appendChild(nm);
                 panel.appendChild(row);
             });
+            // The small tags on some labels (r22: unexplained to a first-time reader).
+            var h = document.createElement('div');
+            h.className = 'dialect-legend-row';
+            h.style.cssText = 'margin-top:6px;font-weight:600';
+            h.textContent = L(TAGS_TITLE);
+            panel.appendChild(h);
+            TAGS.forEach(function (t) {
+                var row = document.createElement('div');
+                row.className = 'dialect-legend-row';
+                var tg = document.createElement('span');
+                tg.lang = t[0] === 'kanon' || t[0] === 'goon' ? 'ja' : 'zh-Hant';
+                tg.style.cssText = 'flex:none;min-width:2.6em;font-weight:600';
+                tg.textContent = t[1];
+                var ex = document.createElement('span');
+                ex.textContent = L(t[2]);
+                row.appendChild(tg); row.appendChild(ex);
+                panel.appendChild(row);
+            });
         }
+        var TAGS_TITLE = { en:'Reading tags', ja:'読みの種類', ko:'독음 표시', zh:'读音标签', yue:'讀音標籤', vi:'Nhãn cách đọc', th:'ป้ายการอ่าน', id:'Label bacaan', hi:'उच्चारण चिह्न', de:'Lesungs-Kennzeichen', fr:'Étiquettes de lecture', it:'Etichette di lettura', es:'Etiquetas de lectura', pt:'Rótulos de leitura', ru:'Пометы чтения', uk:'Позначки читання', ar:'وسوم القراءة', he:'תגי קריאה', sw:'Lebo za usomaji' };
+        var TAGS = [
+            ['wen', '文', { en:'literary reading', ja:'文読（文語的な読み）', ko:'문독(문어 독음)', zh:'文读（书面音）', yue:'文讀（書面音）', vi:'cách đọc văn', th:'การอ่านแบบภาษาเขียน', id:'bacaan sastra', hi:'साहित्यिक उच्चारण', de:'literarische Lesung', fr:'lecture littéraire', it:'lettura letteraria', es:'lectura literaria', pt:'leitura literária', ru:'книжное чтение', uk:'книжне читання', ar:'القراءة الأدبية', he:'קריאה ספרותית', sw:'usomaji wa kifasihi' }],
+            ['bai', '白', { en:'colloquial reading', ja:'白読（口語的な読み）', ko:'백독(구어 독음)', zh:'白读（口语音）', yue:'白讀（口語音）', vi:'cách đọc khẩu ngữ', th:'การอ่านแบบภาษาพูด', id:'bacaan lisan', hi:'बोलचाल का उच्चारण', de:'umgangssprachliche Lesung', fr:'lecture familière', it:'lettura colloquiale', es:'lectura coloquial', pt:'leitura coloquial', ru:'разговорное чтение', uk:'розмовне читання', ar:'القراءة العامية', he:'קריאה מדוברת', sw:'usomaji wa mazungumzo' }],
+            ['kun', '訓', { en:'a native word written with this character', ja:'訓読み（固有語をこの漢字で書く）', ko:'훈(고유어 뜻으로 읽기)', zh:'训读（用此字写本族固有词）', yue:'訓讀（用呢個字寫本土詞）', vi:'từ thuần bản ngữ viết bằng chữ này', th:'คำดั้งเดิมที่เขียนด้วยอักษรนี้', id:'kata asli yang ditulis dengan aksara ini', hi:'इस अक्षर से लिखा मूल शब्द', de:'heimisches Wort, mit diesem Zeichen geschrieben', fr:'mot autochtone écrit avec ce caractère', it:'parola nativa scritta con questo carattere', es:'palabra nativa escrita con este carácter', pt:'palavra nativa escrita com este caractere', ru:'исконное слово, записанное этим знаком', uk:'питоме слово, записане цим знаком', ar:'كلمة أصلية تُكتب بهذا الحرف', he:'מילה מקורית שנכתבת בתו הזה', sw:'neno asilia linaloandikwa kwa herufi hii' }],
+            ['kanon', '漢音', { en:'Japanese on-reading, Tang-era layer', ja:'漢音（唐代に伝わった音読み）', ko:'일본 한음(당대 층)', zh:'日语汉音（唐代层）', yue:'日語漢音（唐代層）', vi:'âm Hán tiếng Nhật, lớp đời Đường', th:'เสียงอ่านจีนในญี่ปุ่น ชั้นสมัยถัง', id:'bacaan on Jepang, lapisan era Tang', hi:'जापानी ओन-पठन, तांग काल की परत', de:'japanische On-Lesung, Tang-Schicht', fr:'lecture on japonaise, couche Tang', it:'lettura on giapponese, strato Tang', es:'lectura on japonesa, capa Tang', pt:'leitura on japonesa, camada Tang', ru:'японское он-чтение, танский слой', uk:'японське он-читання, танський шар', ar:'قراءة أون اليابانية، طبقة عصر تانغ', he:'קריאת און יפנית, שכבת תקופת טאנג', sw:'usomaji wa on wa Kijapani, tabaka la enzi ya Tang' }],
+            ['goon', '呉音', { en:'Japanese on-reading, older layer', ja:'呉音（漢音より古い音読み）', ko:'일본 오음(더 오래된 층)', zh:'日语吴音（较早层）', yue:'日語吳音（較早層）', vi:'âm Hán tiếng Nhật, lớp cổ hơn', th:'เสียงอ่านจีนในญี่ปุ่น ชั้นที่เก่ากว่า', id:'bacaan on Jepang, lapisan lebih tua', hi:'जापानी ओन-पठन, पुरानी परत', de:'japanische On-Lesung, ältere Schicht', fr:'lecture on japonaise, couche plus ancienne', it:'lettura on giapponese, strato più antico', es:'lectura on japonesa, capa más antigua', pt:'leitura on japonesa, camada mais antiga', ru:'японское он-чтение, более древний слой', uk:'японське он-читання, давніший шар', ar:'قراءة أون اليابانية، طبقة أقدم', he:'קריאת און יפנית, שכבה קדומה יותר', sw:'usomaji wa on wa Kijapani, tabaka la zamani zaidi' }]
+        ];
         function start() {
             var wrap = document.getElementById('dialect-legend');
             var toggle = document.getElementById('dialect-legend-toggle');

@@ -60,7 +60,7 @@
         ]
     }
     </script>
-    <link rel="stylesheet" href="styles.css?v=158">
+    <link rel="stylesheet" href="styles.css?v=159">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Gentium Plus / Charis SIL carry the Egyptological alef ꜣ (U+A723) and
@@ -97,7 +97,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <script src="nav-short.js?v=28"></script>
+    <script src="nav-short.js?v=29"></script>
 </head>
 <body>
     <header class="site-header-bar">
@@ -116,6 +116,8 @@
                 <a href="namemap.html" class="header-nav-link" id="nav-name"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:3px" aria-hidden="true"><path d="M4 21v-7a4 4 0 0 1 4-4h1"/><circle cx="9" cy="6" r="3"/><path d="M14 21v-5a3 3 0 0 1 3-3a3 3 0 0 1 3 3v5"/></svg>Name Map</a>
                 <span class="nav-sep">/</span>
                 <a href="timemap.html" class="header-nav-link" id="nav-time"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:3px" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Time Map</a>
+                <span class="nav-sep">/</span>
+                <a href="tree.html" class="header-nav-link" id="nav-tree"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:2px" aria-hidden="true"><circle cx="12" cy="5" r="2"/><circle cx="6" cy="19" r="2"/><circle cx="18" cy="19" r="2"/><path d="M12 7v5M12 12H6v5M12 12h6v5"/></svg>Tree</a>
             </nav>
             <select id="header-ui-lang" class="header-ui-lang" aria-label="UI language"></select>
             <a class="header-url" href="https://langmaps.com">langmaps.com</a>
@@ -163,7 +165,7 @@
 
         <div class="controls">
             <div class="control-row sentence-row">
-                <label id="lblSentence" for="sampleSelect" class="sentence-label">文章選択</label>
+                <label id="lblSentence" for="sampleSelect" class="sentence-label">Select sentence</label>
                 <div class="sentence-nav">
                     <button class="nav-icon" onclick="prevSentence()" title="Previous" aria-label="Previous"><span aria-hidden="true">‹</span></button>
                     <select id="sampleSelect"></select>
@@ -179,7 +181,7 @@
         </div>
 
         <div class="map-toolbar">
-            <button class="btn btn-sm" id="btnResetOrder" onclick="resetOrder()"><span aria-hidden="true">↻</span> <span id="lblResetOrder">順序をリセット</span></button>
+            <button class="btn btn-sm" id="btnResetOrder" onclick="resetOrder()"><span aria-hidden="true">↻</span> <span id="lblResetOrder">Default order</span></button>
         </div>
         <div class="map-wrapper" tabindex="0" role="region" aria-label="Sentence map">
             <div class="map-container" id="mapContainer">
@@ -295,7 +297,7 @@
     <script src="lang_names_shim.js?v=4"></script>
     <script src="lang_names/en.js?v=203"></script>
     <script>window.__langNamesVersion(203); window.__langNamesBoot();</script>
-    <script src="app.js?v=100"></script>
+    <script src="app.js?v=101"></script>
     <script src="/pwa.js?v=2"></script>
     <script src="share-button.js?v=6"></script>
     <script src="lang-picker.js?v=8"></script>

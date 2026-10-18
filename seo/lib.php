@@ -2797,6 +2797,9 @@ function seo_bcp47(string $code, array $lang): string
     // registered tag and a screen reader may not pick a Japanese voice for it
     // (rally review r2, 2026-10-17).
     $tag = seo_iso_short()[$tag] ?? $tag;
+    // Taiwan Mandarin is written in traditional characters: say so, so the
+    // hero name takes the TC glyph font rather than SC (r22).
+    if ($tag === 'zh' && preg_match('/^zh_tw/', $code)) return 'zh-Hant-TW';
     return preg_match('/^[a-z]{2,3}$/', $tag) ? $tag : '';
 }
 
@@ -3444,9 +3447,9 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 /* ...but Han in a Japanese, Korean or traditional-Chinese name takes that
    language's glyph shapes, not the Simplified Chinese ones (日本語 was drawn
    in Noto Serif SC). */
-.seo-hero .native:lang(ja), .seo-hero .native [lang|="ja"] {
+.seo-hero .native:lang(ja), .seo-hero .native [lang|="ja"], .seo-hero .native:lang(ojp), .seo-hero .native:lang(ain), .seo-hero .native:lang(rys), .seo-hero .native:lang(mvi) {
   font-family: "Noto Serif JP", "Noto Serif SC", "Noto Serif TC", "Noto Serif KR", "Gentium Plus", system-ui, sans-serif; }
-.seo-hero .native:lang(ko), .seo-hero .native [lang|="ko"] {
+.seo-hero .native:lang(ko), .seo-hero .native [lang|="ko"], .seo-hero .native:lang(okm), .seo-hero .native:lang(oko) {
   font-family: "Noto Serif KR", "Noto Serif TC", "Noto Serif JP", "Noto Serif SC", "Gentium Plus", system-ui, sans-serif; }
 .seo-hero .native:lang(yue), .seo-hero .native:lang(zh-Hant), .seo-hero .native:lang(zh-HK), .seo-hero .native:lang(zh-TW),
 .seo-hero .native [lang|="yue"], .seo-hero .native [lang="zh-Hant"] {
@@ -4228,12 +4231,12 @@ function seo_related_links(string $map, string $code, string $name, array $langs
 
   <div class="seo-cmp">
     <?php if ($majors): ?>
-    <a href="/<?= e($appPage) ?>#cmp=<?= e(rawurlencode($code . ',' . implode(',', $majors))) ?>"><?= e(seo_t($ui, 'cmp_major')) ?> (<?= e($name) ?> · <?= e(implode(' · ', array_map(fn($c) => seo_lang_name($langs, $c, $ui), $majors))) ?>)</a>
+    <a href="/<?= e($appPage) ?>#cmp=<?= e(rawurlencode($code . ',' . implode(',', $majors))) ?>&amp;ui=<?= e($ui) ?>"><?= e(seo_t($ui, 'cmp_major')) ?> (<?= e($name) ?> · <?= e(implode(' · ', array_map(fn($c) => seo_lang_name($langs, $c, $ui), $majors))) ?>)</a>
     <?php endif; ?>
     <?php if ($siblings):
         $sibCmp = array_slice($siblings, 0, 3);
     ?>
-    <a href="/<?= e($appPage) ?>#cmp=<?= e(rawurlencode($code . ',' . implode(',', $sibCmp))) ?>"><?= seo_family_line($ui, 'cmp_related', seo_meta_value($ui, $family)) ?></a>
+    <a href="/<?= e($appPage) ?>#cmp=<?= e(rawurlencode($code . ',' . implode(',', $sibCmp))) ?>&amp;ui=<?= e($ui) ?>"><?= seo_family_line($ui, 'cmp_related', seo_meta_value($ui, $family)) ?></a>
     <?php endif; ?>
     <span class="note"><?= e(seo_t($ui, 'cmp_note')) ?></span>
   </div>

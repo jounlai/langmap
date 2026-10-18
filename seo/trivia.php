@@ -137,7 +137,7 @@ function seo_tri_links(string $html, string $map, string $ui, array $names = [],
                 // article inside the interactive map rather than leaving a
                 // button-shaped box that does nothing when clicked.
                 if ($articleId !== '') {
-                    $href = $app . '#trivia=' . rawurlencode($articleId);
+                    $href = $app . '#trivia=' . rawurlencode($articleId) . '&ui=' . rawurlencode($ui);   // keep the page language (r22)
                     return '<span class="trivia-note"><a href="' . e($href) . '">' . $label . '</a></span>';
                 }
                 return '<span class="trivia-note">' . $label . '</span>';
@@ -387,7 +387,7 @@ function seo_render_trivia_article(array $data, array $byId, string $id, string 
 <?php endif; ?>
 
 <div class="seo-applink">
-  <a href="<?= ($map === 'hanmap' ? '/hanmap.html' : '/wordmap.html') . '#trivia=' . rawurlencode($id) ?>">
+  <a href="<?= ($map === 'hanmap' ? '/hanmap.html' : '/wordmap.html') . '#trivia=' . rawurlencode($id) . '&amp;ui=' . e($ui) ?>">
     <?= e(seo_t($ui, $map === 'hanmap' ? 'open_app_hm' : 'open_app_wm')) ?>
   </a>
 </div>

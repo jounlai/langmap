@@ -62,7 +62,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=158">
+    <link rel="stylesheet" href="styles.css?v=159">
     <link rel="stylesheet" href="/vendor/leaflet-1.9.4/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -335,7 +335,7 @@
         @media (min-width: 641px) { .tm-map-ctl:not(:has(> .chrome-toggle-btn))::before { content: ''; height: 40px; } }
         #tm-era { min-height: 20px; }
 </style>
-    <script src="nav-short.js?v=28"></script>
+    <script src="nav-short.js?v=29"></script>
 </head>
 <body>
     <header class="site-header-bar">
@@ -358,6 +358,8 @@
                 <a href="namemap.html" class="header-nav-link" id="nav-name"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:3px" aria-hidden="true"><path d="M4 21v-7a4 4 0 0 1 4-4h1"/><circle cx="9" cy="6" r="3"/><path d="M14 21v-5a3 3 0 0 1 3-3a3 3 0 0 1 3 3v5"/></svg>Name Map</a>
                 <span class="nav-sep">/</span>
                 <span class="header-nav-current" id="nav-time"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:3px" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Time Map</span>
+                <span class="nav-sep">/</span>
+                <a href="tree.html" class="header-nav-link" id="nav-tree"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:2px" aria-hidden="true"><circle cx="12" cy="5" r="2"/><circle cx="6" cy="19" r="2"/><circle cx="18" cy="19" r="2"/><path d="M12 7v5M12 12H6v5M12 12h6v5"/></svg>Tree</a>
             </nav>
             <select id="header-ui-lang" class="header-ui-lang" aria-label="UI language"></select>
             <a class="header-url" href="https://langmaps.com">langmaps.com</a>
@@ -504,6 +506,7 @@
         }
         function readState(){
             const o={}; location.hash.replace(/^#/,'').split('&').forEach(kv=>{ const i=kv.indexOf('='); if(i>0) o[kv.slice(0,i)]=_dec(kv.slice(i+1)); });
+            if(!o.l && o.ui) o.l=o.ui;   // #ui= is what the other pages and the SEO links write (r22)
             return o;
         }
 

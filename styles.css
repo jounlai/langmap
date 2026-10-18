@@ -872,7 +872,7 @@ select:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
        while Greek/Cyrillic (not in Noto Serif Tibetan) dropped to the system
        sans. Inserting -apple-system etc. here keeps all alphabetic scripts
        uniformly sans-serif; only Tibetan reaches the serif Tibetan fallback. */
-    font-family: 'Noto Sans KR Old Jamo',
+    font-family:
         'Segoe UI', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai',
         -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Roboto', 'Arial',
         /* Linux: a sans face for Latin before the Tibetan webfont, whose Latin
@@ -1904,5 +1904,21 @@ button.seg-delete-btn { background: none; color: #767676; }
     .site-header-bar > .chrome-toggle-btn { margin-left: 0; margin-inline-start: auto; }
     .site-header-bar > .chrome-toggle-btn + .hamburger-btn { margin-left: 0; margin-inline-start: 6px; }
     /* Word Order language picker: group names were clipped at 52px. */
-    .lang-group-label { width: auto; min-width: 52px; max-width: 84px; overflow-wrap: break-word; hyphens: auto; }
+    .lang-group-label { width: 84px; overflow-wrap: break-word; hyphens: auto; }   /* one column for every group's toggles (r22) */
+}
+/* Phones: the sentence chart scrolls sideways with nothing to say so; fade
+   the right edge while more lies beyond it (r22). */
+@media (max-width: 768px) {
+    .map-wrapper.more-right {
+        -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 32px), transparent);
+        mask-image: linear-gradient(to right, #000 calc(100% - 32px), transparent);
+    }
+}
+
+/* Middle / early-modern Korean rows only: the Old Jamo face also claims ~500
+   modern syllables, so on the general .segment rule the default Korean row
+   (저는) downloaded its 189 KB on every load (r22). */
+.lang-row[data-lang="ko_mid"] .segment, .lang-row[data-lang="ko_em"] .segment,
+.lang-row[data-lang="okm"] .segment, .lang-row[data-lang="oko"] .segment {
+    font-family: 'Noto Sans KR Old Jamo', 'Segoe UI', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Roboto', 'Arial', sans-serif;
 }

@@ -258,7 +258,7 @@ $goods_photo = '/assets/tshirts/tshirt-' . (crc32($code) % 3) . '.jpg'; ?>
 <?php endif; ?>
 
 <div class="seo-applink">
-  <a href="/wordmap.html#lang=<?= e(rawurlencode($code)) ?>"><?= e(seo_t($ui, 'open_app', ['name' => $name])) ?></a>
+  <a href="/wordmap.html#lang=<?= e(rawurlencode($code)) ?>&amp;ui=<?= e($ui) ?>"><?= e(seo_t($ui, 'open_app', ['name' => $name])) ?></a>
 </div>
 
 <?php

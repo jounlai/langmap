@@ -87,7 +87,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=158">
+    <link rel="stylesheet" href="styles.css?v=159">
     <link rel="stylesheet" href="/vendor/leaflet-1.9.4/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts. Without these the characters render
          as tofu boxes: desktop Linux often ships the Noto historic fonts, but
@@ -3035,7 +3035,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=28"></script>
+    <script src="nav-short.js?v=29"></script>
     <style>
         /* Rally r21: the settings-drawer buttons were capped at 54-56px with 8px text,
            so de "Aussprache" / "Einheimisch" and ar "المحددة فقط" spilled or were cut. */
@@ -3073,6 +3073,8 @@
                 <a href="namemap.html" class="header-nav-link" id="nav-name"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:3px" aria-hidden="true"><path d="M4 21v-7a4 4 0 0 1 4-4h1"/><circle cx="9" cy="6" r="3"/><path d="M14 21v-5a3 3 0 0 1 3-3a3 3 0 0 1 3 3v5"/></svg>Name Map</a>
                 <span class="nav-sep">/</span>
                 <a href="timemap.html" class="header-nav-link" id="nav-time"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:3px" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Time Map</a>
+                <span class="nav-sep">/</span>
+                <a href="tree.html" class="header-nav-link" id="nav-tree"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:2px" aria-hidden="true"><circle cx="12" cy="5" r="2"/><circle cx="6" cy="19" r="2"/><circle cx="18" cy="19" r="2"/><path d="M12 7v5M12 12H6v5M12 12h6v5"/></svg>Tree</a>
             </nav>
             <div class="play-menu-wrap">
                 <button type="button" class="trivia-btn" id="play-menu-btn"
@@ -3758,7 +3760,7 @@
            per-word loader can read it", which was the intent all along — only
            the order was wrong. */
         const WM_ASSET_VERSION = {
-            styles:   158,
+            styles:   159,
             data:      345,
             metaI18n:  16,
             filter:    58,
@@ -3820,6 +3822,16 @@
             window.__wmInitialWord = initial;
 
             var pending = Object.create(null);
+            var LOAD_FAIL = { en: "Couldn't load this word. Check your connection, then pick it again.", ja: 'この単語を読み込めませんでした。接続を確認して、もう一度選んでください。', ko: '이 단어를 불러오지 못했습니다. 연결을 확인한 뒤 다시 선택하세요.', zh: '无法加载这个词。请检查网络连接后重新选择。', yue: '載入唔到呢個詞。請檢查網絡連線再揀過。', vi: 'Không tải được từ này. Hãy kiểm tra kết nối rồi chọn lại.', th: 'โหลดคำนี้ไม่ได้ ตรวจสอบการเชื่อมต่อแล้วเลือกอีกครั้ง', id: 'Kata ini gagal dimuat. Periksa koneksi, lalu pilih lagi.', hi: 'यह शब्द लोड नहीं हो सका। कनेक्शन जाँचकर फिर से चुनें।', de: 'Dieses Wort konnte nicht geladen werden. Prüfe die Verbindung und wähle es erneut.', fr: 'Impossible de charger ce mot. Vérifiez la connexion, puis choisissez-le à nouveau.', it: 'Impossibile caricare questa parola. Controlla la connessione e sceglila di nuovo.', es: 'No se pudo cargar esta palabra. Revisa la conexión y vuelve a elegirla.', pt: 'Não foi possível carregar esta palavra. Verifique a conexão e escolha-a de novo.', ru: 'Не удалось загрузить это слово. Проверьте подключение и выберите его снова.', uk: 'Не вдалося завантажити це слово. Перевірте з’єднання й виберіть його знову.', ar: 'تعذّر تحميل هذه الكلمة. تحقّق من الاتصال ثم اخترها مرة أخرى.', he: 'לא ניתן לטעון את המילה הזו. בדקו את החיבור ובחרו בה שוב.', sw: 'Imeshindwa kupakia neno hili. Angalia muunganisho kisha ulichague tena.' };
+            function loadFailToast() {
+                var u = String((window.__langmap && window.__langmap.uiLang) || document.documentElement.lang || 'en').replace('-', '_').split('_')[0];
+                var t = document.createElement('div');
+                t.setAttribute('role', 'status');
+                t.style.cssText = 'position:fixed;left:50%;bottom:64px;transform:translateX(-50%);z-index:100003;background:#222;color:#fff;padding:9px 16px;border-radius:12px;font-size:13px;max-width:min(90vw,420px);text-align:center;box-shadow:0 4px 16px rgba(0,0,0,.25)';
+                document.body.appendChild(t);
+                setTimeout(function () { t.textContent = LOAD_FAIL[u] || LOAD_FAIL.en; }, 50);
+                setTimeout(function () { t.remove(); }, 5000);
+            }
             function loadWord(id) {
                 if (WORDS[id] && WORDS[id].data) return Promise.resolve();
                 if (pending[id]) return pending[id];
@@ -3827,7 +3839,10 @@
                     var el = document.createElement('script');
                     el.src = 'words/' + id + '.js?v=' + v;
                     el.async = false;               // preserve execution order
-                    el.onload = el.onerror = function () { resolve(); };
+                    el.onload = function () { resolve(); };
+                    // A failed fetch (offline) must not stay cached as "loaded":
+                    // forget it so picking the word again retries, and say so (r22).
+                    el.onerror = function () { delete pending[id]; el.remove(); loadFailToast(); resolve(); };
                     document.head.appendChild(el);
                 });
                 return pending[id];

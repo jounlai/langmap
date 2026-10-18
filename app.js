@@ -752,6 +752,15 @@ function applyUILang() {
     const L = m => m[currentUILang] || m.en;
     const setA = (sel, attr, val) => { const el = document.querySelector(sel); if (el && val) el.setAttribute(attr, val); };
     setA('.map-wrapper', 'aria-label', edT('sentenceMap'));
+    // Right-edge fade while the chart has more to the right (styles.css, r22).
+    { const w = document.querySelector('.map-wrapper');
+      if (w && !w._moreBound) {
+          w._moreBound = true;
+          const upd = () => { const rtl = getComputedStyle(w).direction === 'rtl'; const x = Math.abs(w.scrollLeft); w.classList.toggle('more-right', !rtl && w.scrollWidth - w.clientWidth - x > 4); };
+          w.addEventListener('scroll', upd, { passive: true }); window.addEventListener('resize', upd);
+          if (typeof ResizeObserver !== 'undefined') new ResizeObserver(upd).observe(w.firstElementChild || w);
+          upd();
+      } }
     const woText = woLabels[currentUILang] || woLabels.en;
     setA('.logo-badge-order', 'aria-label', woText);
     setA('.logo-badge-order', 'title', woText);

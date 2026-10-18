@@ -120,6 +120,9 @@
             var S = SHORT[lang()] || {};
             var s = S[k] || shortOf(L[k]);
             if (items[i].getAttribute('data-short') !== s) items[i].setAttribute('data-short', s);
+            // The Tree link on the map pages has no page code writing its text: the
+            // drawer (≤640px) shows the element's own text, so give it the full name (r22).
+            if (items[i].id === 'nav-tree') { var tn = items[i].lastChild; if (tn && tn.nodeType === 3 && tn.nodeValue !== L[k]) tn.nodeValue = L[k]; }
             // The drawn short label is hidden from the name (alt ""), so name the
             // link with both: speech input users say what they see ("Words").
             if (items[i].tagName !== 'A') continue;   // aria-label is not allowed on a plain <span>
@@ -301,6 +304,29 @@
             as[i].setAttribute('href', '/' + ui + '/' + seg + '/');
         }
     }
+    // First visit to the Word Map / Han Map: say once that labels open details
+    // (r22: nothing told a newcomer the words were tappable). Gone on the first
+    // label tap or ×, remembered per browser.
+    var TAP_HINT = { en:'Tap a label to see the language and its pronunciation', ja:'ラベルをタップすると、言語と発音が表示されます', ko:'라벨을 누르면 언어와 발음이 표시됩니다', zh:'点按标签即可查看语言和读音', yue:'撳標籤就睇到語言同讀音', vi:'Chạm vào nhãn để xem ngôn ngữ và cách phát âm', th:'แตะป้ายเพื่อดูภาษาและการออกเสียง', id:'Ketuk label untuk melihat bahasa dan pelafalannya', hi:'भाषा और उच्चारण देखने के लिए किसी लेबल पर टैप करें', de:'Tippe auf eine Beschriftung, um Sprache und Aussprache zu sehen', fr:'Touchez une étiquette pour voir la langue et sa prononciation', it:'Tocca un’etichetta per vedere la lingua e la pronuncia', es:'Toca una etiqueta para ver el idioma y su pronunciación', pt:'Toque em um rótulo para ver o idioma e a pronúncia', ru:'Нажмите на подпись, чтобы увидеть язык и произношение', uk:'Торкніться підпису, щоб побачити мову та вимову', ar:'اضغط على أي تسمية لرؤية اللغة ونطقها', he:'הקישו על תווית כדי לראות את השפה ואת ההגייה', sw:'Gusa lebo kuona lugha na matamshi yake' };
+    function tapHint() {
+        if (!/(wordmap|hanmap)(\.html)?\/?$/.test(location.pathname) || /[#&](lang|trivia|play)=/.test(location.hash)) return;
+        try { if (localStorage.getItem('lm_taphint')) return; } catch (_) { return; }
+        var map = document.getElementById('map'); if (!map) return;
+        var l = String(document.documentElement.lang || 'en').toLowerCase().replace('-', '_'), b = l === 'zh_hk' ? 'yue' : l.split('_')[0];
+        var box = document.createElement('div'), x = document.createElement('button');
+        box.setAttribute('role', 'note');
+        box.style.cssText = 'position:fixed;left:50%;transform:translateX(-50%);bottom:' + (/hanmap/.test(location.pathname) ? 84 : 48) + 'px;z-index:1200;display:flex;align-items:center;gap:8px;max-width:min(92vw,420px);padding:7px 8px 7px 14px;border-radius:999px;background:rgba(26,26,46,0.92);color:#fff;font-size:13px;line-height:1.35;box-shadow:0 4px 16px rgba(0,0,0,0.25)';
+        var t = document.createElement('span'); t.textContent = TAP_HINT[b] || TAP_HINT.en;
+        x.type = 'button'; x.textContent = '\u00d7'; x.setAttribute('aria-label', 'OK');
+        x.style.cssText = 'flex:none;min-width:28px;min-height:28px;border:0;border-radius:50%;background:rgba(255,255,255,0.15);color:#fff;font-size:18px;line-height:1;cursor:pointer';
+        box.appendChild(t); box.appendChild(x); document.body.appendChild(box);
+        var mo = null;
+        var done = function () { box.remove(); try { localStorage.setItem('lm_taphint', '1'); } catch (_) {} document.removeEventListener('click', onClick, true); if (mo) mo.disconnect(); };
+        var onClick = function (e) { if (e.target === x || (e.target.closest && e.target.closest('.lang-label, .globe-label'))) done(); };
+        document.addEventListener('click', onClick, true);
+        mo = new MutationObserver(function () { var lb = document.querySelector('#lang-info.visible'); if (lb) done(); }); mo.observe(document.getElementById('lang-info') || document.body, { attributes: true, attributeFilter: ['class'] });
+    }
+    if (document.readyState === 'complete') setTimeout(tapHint, 2500); else window.addEventListener('load', function () { setTimeout(tapHint, 2500); });
     // Browser-tab title in the UI language (the English <title> stays for en,
     // which is what crawlers see).
     var TITLE_BY = {

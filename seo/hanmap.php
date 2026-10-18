@@ -249,7 +249,7 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
 <?php endif; ?>
 
 <div class="seo-applink">
-  <a href="/hanmap.html#lang=<?= e(rawurlencode($code)) ?>"><?= e(seo_t($ui, 'open_app', ['name' => $name])) ?></a>
+  <a href="/hanmap.html#lang=<?= e(rawurlencode($code)) ?>&amp;ui=<?= e($ui) ?>"><?= e(seo_t($ui, 'open_app', ['name' => $name])) ?></a>
 </div>
 <?php
     $wm = seo_data('wordmap');

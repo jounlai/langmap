@@ -72,7 +72,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=158">
+    <link rel="stylesheet" href="styles.css?v=159">
     <link rel="stylesheet" href="/vendor/leaflet-1.9.4/leaflet.css" />
     <!-- Webfonts for the scripts that name forms appear in. Without these,
          Arabic / Hebrew / Devanagari / Bengali / Ethiopic / Georgian /
@@ -520,7 +520,7 @@
         @media (min-width: 641px) { .site-header-bar > .chrome-toggle-btn { display: none; } }
         #name-select:focus-visible { outline: 2px solid var(--nm-accent); outline-offset: 1px; }   /* it had no focus indicator */
 </style>
-    <script src="nav-short.js?v=28"></script>
+    <script src="nav-short.js?v=29"></script>
 </head>
 <body>
     <div id="pg-live" role="status" aria-live="polite" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap"></div>
@@ -548,6 +548,8 @@
                 <span class="header-nav-current" id="nav-name"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:3px" aria-hidden="true"><path d="M4 21v-7a4 4 0 0 1 4-4h1"/><circle cx="9" cy="6" r="3"/><path d="M14 21v-5a3 3 0 0 1 3-3a3 3 0 0 1 3 3v5"/></svg>Name Map</span>
                 <span class="nav-sep">/</span>
                 <a href="timemap.html" class="header-nav-link" id="nav-time"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:3px" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Time Map</a>
+                <span class="nav-sep">/</span>
+                <a href="tree.html" class="header-nav-link" id="nav-tree"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:2px" aria-hidden="true"><circle cx="12" cy="5" r="2"/><circle cx="6" cy="19" r="2"/><circle cx="18" cy="19" r="2"/><path d="M12 7v5M12 12H6v5M12 12h6v5"/></svg>Tree</a>
             </nav>
             <select id="header-ui-lang" class="header-ui-lang" aria-label="UI language"></select>
             <a class="header-url" href="https://langmaps.com">langmaps.com</a>
@@ -603,7 +605,7 @@
 
     <script src="/vendor/leaflet-1.9.4/leaflet.js"></script>
     <script src="namemap_data.js?v=9"></script>
-    <script src="namemap_i18n.js?v=1"></script>
+    <script src="namemap_i18n.js?v=3"></script>
     <script src="namemap_names_ext.js?v=8"></script>
     <!-- NameMap content strings (country/language names, each name's meaning and
          background) come in one file per UI language: 217 KB gzipped for all
@@ -678,7 +680,8 @@
         function readState(){
             const o={}; location.hash.replace(/^#/,'').split('&').forEach(kv=>{
                 const i=kv.indexOf('='); if(i>0) o[kv.slice(0,i)]=_dec(kv.slice(i+1));
-            }); return o;
+            }); if(!o.l && o.ui) o.l=o.ui;   // #ui= is what the other pages and the SEO links write (r22)
+            return o;
         }
         // Apply a state object from a genuine URL change (back/forward, edited URL)
         function applyState(o){
@@ -1002,7 +1005,12 @@
                         ...Object.values(n.tree||{}).map(nd=>nd.script)].map(norm).join(' ');
                     if(hay.includes(q)) hits.push(id);
                 });
-                if(!hits.length){ box.classList.remove('open'); box.innerHTML=''; input.setAttribute('aria-expanded','false'); return; }
+                if(!hits.length){
+                    // Say so instead of silently closing the list (r22). Not an .nm-search-item, so Enter cannot pick it.
+                    const NM_NOMATCH={en:'No matching name',ja:'一致する名前はありません',ko:'일치하는 이름이 없습니다',zh:'没有匹配的名字',yue:'冇相符嘅名',vi:'Không có tên phù hợp',th:'ไม่พบชื่อที่ตรงกัน',id:'Tidak ada nama yang cocok',hi:'कोई मेल खाता नाम नहीं',de:'Kein passender Name',fr:'Aucun prénom correspondant',it:'Nessun nome corrispondente',es:'Ningún nombre coincide',pt:'Nenhum nome corresponde',ru:'Нет подходящих имён',uk:'Немає відповідних імен',ar:'لا يوجد اسم مطابق',he:'אין שם תואם',sw:'Hakuna jina linalolingana'};
+                    box.innerHTML='<div class="nm-search-empty" role="status" style="padding:8px 12px;color:#666;font-size:13px">'+esc(NM_NOMATCH[uiLang]||NM_NOMATCH[String(uiLang).split('_')[0]]||NM_NOMATCH.en)+'</div>';
+                    box.classList.add('open'); input.setAttribute('aria-expanded','false'); return;
+                }
                 box.innerHTML=hits.slice(0,12).map(id=>
                     '<div class="nm-search-item" role="option" id="nm-opt-'+id+'" aria-selected="false" data-id="'+id+'"><span>'+esc(loc(NAMES[id].display))+'</span>'
                     +'<span class="sub">'+esc(t('cats')[NAMES[id].category]||'')+'</span></div>').join('');

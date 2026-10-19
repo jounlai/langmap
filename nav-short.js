@@ -482,7 +482,7 @@
     var hasPagePanel = function (s) { return !!s && PAGE_PANEL.some(function (k) { return s[k]; }); };
     window.__lmPopHandled = false;
     window.addEventListener('popstate', function () {
-        var prevURL = LMH.lastURL;
+        var prevURL = LMH.lastURL, entryURL = location.href;
         LMH.lastURL = location.href;
         var prevSt = LMH.lastSt; LMH.lastSt = history.state;
         var st = history.state || {};
@@ -579,12 +579,36 @@
             window.__lmPopHandled = false; window.__lmSkipHash = null;
             return;
         }
+        // A jump of several entries (history.go(±n), a long-pressed Back) across
+        // the page's language panel entry: the page closes or reopens the panel
+        // from this entry's own URL. Taken here, Compare closed but the panel
+        // stayed open over a lang= URL, or reopened Compare without it (r33).
+        if (!self && ((dir < 0 && hasPagePanel(prevSt) && !hasPagePanel(st)) || (dir > 0 && hasPagePanel(st) && !hasPagePanel(prevSt)))) {
+            // An overlay reopened above the panel (Compare) rewrote the URL and
+            // state before the page read them, dropping lang= and the panel's
+            // mark: give the page this entry's own URL and mark back.
+            if (dir > 0) {
+                var ks = {}; PAGE_PANEL.forEach(function (k) { if (st[k]) ks[k] = st[k]; });
+                try { LMH._rep(Object.assign({}, history.state || {}, ks), '', entryURL); LMH.lastURL = entryURL; } catch (_) {}
+                // Pages that rewrite the URL when an overlay's element changes
+                // (an observer, run before the page's own popstate) wait for it.
+                window.__lmPageLand = true; setTimeout(function () { window.__lmPageLand = false; }, 0);
+            }
+            window.__lmPopHandled = false; window.__lmSkipHash = null;
+            return;
+        }
         // An overlay opened or closed: the content under it stays as it is now.
         // Put the live URL back on this entry and tell the page not to re-apply
         // the older hash it would otherwise read (popstate + hashchange).
         window.__lmPopHandled = true;
         try { LMH._rep(history.state, '', prevURL); LMH.lastURL = prevURL; } catch (_) {}
         if (typeof window.__lmRewriteHash === 'function') { try { window.__lmRewriteHash(); } catch (_) {} }
+        // The page's rewrite drops its panel mark when the panel it is reopening
+        // from this entry's URL has not shown yet (fast Forward presses): keep
+        // the mark, or a later × or Back off that entry did nothing (r33).
+        var keepPanel = {}, lostPanel = false, curSt = history.state || {};
+        PAGE_PANEL.forEach(function (k) { if (st[k] && !curSt[k]) { keepPanel[k] = st[k]; lostPanel = true; } });
+        if (lostPanel) { try { LMH._rep(Object.assign({}, curSt, keepPanel), '', location.href); } catch (_) {} }
         window.__lmSkipHash = location.hash;
         setTimeout(function () { window.__lmPopHandled = false; }, 0);
         setTimeout(function () { window.__lmSkipHash = null; }, 400);
@@ -637,6 +661,26 @@
         window.addEventListener('load', track);
     })();
     window.addEventListener('pageshow', function (e) { if (e.persisted) { LMH.lastSt = history.state; LMH.stack = (history.state && history.state.lmOv) || []; if (history.state && history.state.lmN != null) LMH.n = history.state.lmN; LMH.curDead = history.state && history.state.lmDead ? LMH.n : null; } });
+    // An overlay above the page's language panel owns the current entry (its
+    // own entry is the one shown). Compare opened before the panel sits below
+    // it and does not (r33).
+    window.__lmOvAbove = function () {
+        var cur = history.state || {}, t = LMH.stack[LMH.stack.length - 1];
+        return !!t && cur.lmN != null && LMH.ovN[t] === cur.lmN;
+    };
+    // The panel closed by hand under such an overlay (Compare): the panel's
+    // entry, just under the lowest overlay above it, now shows the same screen
+    // as the one under it. Back and Forward step over it (r33).
+    window.__lmPanelLeft = function () {
+        // The overlays above the panel: from the top, one entry each, down to
+        // the first gap (an overlay opened before the panel, under it).
+        var cur = history.state || {}, m = cur.lmN, i = LMH.stack.length - 1;
+        if (m == null || i < 0 || LMH.ovN[LMH.stack[i]] !== m) return false;
+        while (i > 0 && LMH.ovN[LMH.stack[i - 1]] === m - 1) { i--; m--; }
+        if (m - 1 < 1) return false;
+        LMH.dead[m - 1] = 1;
+        return true;
+    };
     // A landing that opens an overlay from the URL (a shared #play=, #lang=,
     // #trivia= link) gets an entry under it, the same URL without those keys, so
     // Back closes the overlay and stays on the site; it left the site with the
@@ -998,18 +1042,18 @@
         var ui = CREDIT_TRIVIA[b] ? b : 'en';
         var maps = [['index.html', 'map', t('n_wo'), t('d_wo')], ['wordmap.html', 'map', tt('wordmap'), t('d_wm')], ['hanmap.html', 'map', tt('hanmap'), t('d_hm')],
             ['namemap.html', 'map', tt('namemap'), t('d_nm')], ['timemap.html', 'map', tt('timemap'), t('d_tm')]].filter(function (r) { return r[0] !== here; });
-        if (here !== 'tree.html') maps.push(['tree.html', 'tree', CREDIT_TREE[b] || CREDIT_TREE.en, t('d_tree')]);
-        var pages = [['/' + ui + '/', 'doc', t('n_index'), t('d_index')], ['/' + ui + '/wordmap/', 'doc', t('n_pwm'), t('d_pwm')],
-            ['/' + ui + '/word/', 'doc', t('n_pword'), t('d_pword')], ['/' + ui + '/hanmap/', 'doc', t('n_phm'), t('d_phm')],
-            ['/' + ui + '/trivia/', 'book', CREDIT_TRIVIA[b] || CREDIT_TRIVIA.en, t('d_trivia')]];
-        var more = [['changelog.html', 'changelog', CREDIT_ICON.changelog[b] || CREDIT_ICON.changelog.en, t('d_changelog')],
-            ['progress.html', 'progress', CREDIT_ICON.progress[b] || CREDIT_ICON.progress.en, t('d_progress')]];
+        if (here !== 'tree.html') maps.push(['tree.html', 'tree', CREDIT_TREE[b] || CREDIT_TREE.en, '']);
+        var pages = [['/' + ui + '/', 'doc', t('n_index'), ''], ['/' + ui + '/wordmap/', 'doc', t('n_pwm'), ''],
+            ['/' + ui + '/word/', 'doc', t('n_pword'), ''], ['/' + ui + '/hanmap/', 'doc', t('n_phm'), ''],
+            ['/' + ui + '/trivia/', 'book', CREDIT_TRIVIA[b] || CREDIT_TRIVIA.en, '']];
+        var more = [['changelog.html', 'changelog', CREDIT_ICON.changelog[b] || CREDIT_ICON.changelog.en, ''],
+            ['progress.html', 'progress', CREDIT_ICON.progress[b] || CREDIT_ICON.progress.en, '']];
         return [
             [t('h_maps'), maps],
             [t('h_pages'), pages],
             [t('h_more'), more],
-            [t('h_fix'), [['https://github.com/jounlai/langmap', 'gh', 'GitHub', t('d_gh'), 1], ['mailto:cho@heuron.com', 'mail', CREDIT_MAIL[b] || CREDIT_MAIL.en, t('d_mail'), 0]]],
-            [t('h_made'), [['https://x.com/jounlai', 'x', 'Jounlai Cho (@jounlai)', t('d_x'), 1], ['https://heuron.com', 'org', 'Heuron Inc.', t('d_org'), 1]]]
+            [t('h_fix'), [['https://github.com/jounlai/langmap', 'gh', 'GitHub', '', 1], ['mailto:cho@heuron.com', 'mail', CREDIT_MAIL[b] || CREDIT_MAIL.en, '', 0]]],
+            [t('h_made'), [['https://x.com/jounlai', 'x', 'Jounlai Cho (@jounlai)', '', 1], ['https://heuron.com', 'org', 'Heuron Inc.', '', 1]]]
         ];
     }
     var _creditH = null;
@@ -1048,10 +1092,11 @@
             + '<button type="button" class="lm-credit-x" aria-label="' + esc(CLOSE_LBL[b] || CLOSE_LBL.en) + '">×</button>'
             + '<div class="lm-credit-body"><p class="lm-credit-intro">' + tx('intro') + '</p>';
         creditSections().forEach(function (sec) {
-            h += '<h3>' + esc(sec[0]) + '</h3><ul>';
+            // Self-explanatory links carry no description (owner 2026-10-19: compact).
+            h += '<h3>' + esc(sec[0]) + '</h3><ul' + (sec[1].every(function (r) { return !r[3]; }) ? ' class="lm-credit-compact"' : '') + '>';
             sec[1].forEach(function (r) {
                 h += '<li><a href="' + r[0] + '"' + (/^https?:/.test(r[0]) ? ' target="_blank" rel="noopener"' : '') + '>' + svg(r[1], 18)
-                    + '<span class="lm-credit-t"><b' + (r[4] ? ' dir="ltr"' : '') + '>' + esc(r[2]) + '</b><small>' + esc(r[3]) + '</small></span></a></li>';
+                    + '<span class="lm-credit-t"><b' + (r[4] ? ' dir="ltr"' : '') + '>' + esc(r[2]) + '</b>' + (r[3] ? '<small>' + esc(r[3]) + '</small>' : '') + '</span></a></li>';
             });
             h += '</ul>';
         });
@@ -1064,6 +1109,31 @@
         _creditDlg.hidden = false;
         setTimeout(function () { var a = _creditDlg.querySelector('a'); if (a) a.focus(); }, 0);
     }
+    // EXPERIMENT (owner 2026-10-19): stand the credit's little dancer on the
+    // text baseline. The text and globe stay where the flex centring puts them;
+    // only the dancer moves. The baseline depends on the reader's font, so it
+    // is measured: the text's content box top + the font's ascent.
+    function placeDancer(btn) {
+        var d = btn && btn.querySelector('.lm-dancer'); if (!d) return;
+        var fit = function () {
+            var tn = null; for (var i = 0; i < btn.childNodes.length; i++) if (btn.childNodes[i].nodeType === 3 && btn.childNodes[i].nodeValue.trim()) { tn = btn.childNodes[i]; break; }
+            if (!tn || !btn.getClientRects().length) return;
+            var r = document.createRange(); r.selectNodeContents(tn); var tr = r.getBoundingClientRect(); if (!tr.height) return;
+            var cs = getComputedStyle(btn), ctx = (placeDancer._c || (placeDancer._c = document.createElement('canvas').getContext('2d')));
+            ctx.font = cs.fontStyle + ' ' + cs.fontWeight + ' ' + cs.fontSize + ' ' + cs.fontFamily;
+            var m = ctx.measureText('H'), asc = m.fontBoundingBoxAscent, desc = m.fontBoundingBoxDescent;
+            if (!(asc > 0)) return;
+            // The range box is the font's content area (ascent + descent), centred on the line.
+            var base = tr.top + (tr.height - (asc + desc)) / 2 + asc;
+            d.style.top = '0px';
+            var off = base - d.getBoundingClientRect().bottom;
+            d.style.top = off.toFixed(2) + 'px';
+        };
+        fit();
+        if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
+        window.addEventListener('resize', fit);
+        if (window.ResizeObserver) try { new ResizeObserver(fit).observe(btn); } catch (_) {}
+    }
     function compactCredit() {
         var wm = document.querySelector('.url-watermark, .tree-credit, .site-footer-links');   // .site-footer-links: the Word Order footer (r26)
         if (!wm || wm.__lmCompact) return;
@@ -1073,31 +1143,41 @@
         var st = document.createElement('style');
         st.textContent = '#lm-credit-pop[hidden],#lm-credit-backdrop[hidden]{display:none!important}'
             + '#lm-credit-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.25);z-index:100010}'
-                + '#lm-credit-pop{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);z-index:100011;width:min(400px,calc(100vw - 32px));max-height:calc(100dvh - 32px);display:flex;flex-direction:column;box-sizing:border-box;background:#fff;color:#202124;border-radius:14px;box-shadow:0 12px 40px rgba(0,0,0,.25);padding:16px 12px 12px;font:14px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}'
+                + '#lm-credit-pop{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);z-index:100011;width:min(640px,calc(100vw - 32px));max-height:calc(100dvh - 32px);display:flex;flex-direction:column;box-sizing:border-box;background:#fff;color:#202124;border-radius:14px;box-shadow:0 12px 40px rgba(0,0,0,.25);padding:14px 12px 10px;font:14px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}'
                 + '#lm-credit-pop .lm-credit-body{overflow-y:auto;padding:0 4px}'
-                + '#lm-credit-pop .lm-credit-intro{margin:0 0 6px;color:#3c4043}'
-                + '#lm-credit-pop h3{font-size:12px;font-weight:600;color:#5f6368;margin:14px 6px 4px;text-transform:none}'
+                + '#lm-credit-pop .lm-credit-intro{margin:0 0 4px;color:#3c4043;font-size:13px}'
+                + '#lm-credit-pop h3{font-size:12px;font-weight:600;color:#5f6368;margin:10px 6px 2px;text-transform:none}'
                 + '#lm-credit-pop .lm-credit-t{display:flex;flex-direction:column;min-width:0}'
                 + '#lm-credit-pop .lm-credit-t b{font-weight:600}'
-                + '#lm-credit-pop .lm-credit-t small{font-size:12px;color:#5f6368}'
+                + '#lm-credit-pop .lm-credit-t small{font-size:12px;line-height:1.3;color:#5f6368}'
                 + '#lm-credit-pop svg{flex:none;color:#5f6368}'
-                + '#lm-credit-pop .lm-credit-note{margin:14px 6px 4px;padding-top:10px;border-top:1px solid #e8eaed;font-size:12px;color:#5f6368}'
-                + '#lm-credit-pop h2{font-size:17px;margin-block:2px 8px;margin-inline:4px 44px}'
-                + '#lm-credit-pop ul{list-style:none;margin:0;padding:0}'
-                + '#lm-credit-pop a{display:flex;align-items:center;gap:12px;min-height:44px;padding:5px 6px;border-radius:8px;color:inherit;text-decoration:none}'
+                + '#lm-credit-pop .lm-credit-note{margin:10px 6px 2px;padding-top:8px;border-top:1px solid #e8eaed;font-size:12px;color:#5f6368}'
+                + '#lm-credit-pop h2{font-size:17px;margin-block:0 4px;margin-inline:4px 44px}'
+                + '#lm-credit-pop ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));column-gap:4px}'
+                + '#lm-credit-pop ul.lm-credit-compact{grid-template-columns:repeat(auto-fill,minmax(145px,1fr))}'
+                + '#lm-credit-pop ul.lm-credit-compact a{min-height:36px;padding:2px 6px}'
+                + '#lm-credit-pop .lm-credit-t b{font-weight:600;line-height:1.3}'
+                + '#lm-credit-pop a{display:flex;align-items:center;gap:10px;min-height:40px;padding:3px 6px;border-radius:8px;color:inherit;text-decoration:none}'
                 + '#lm-credit-pop a:hover,#lm-credit-pop a:focus-visible{background:#f1f3f4}'
                 + '#lm-credit-pop .lm-credit-x{position:absolute;top:8px;inset-inline-end:8px;width:40px;height:40px;border:0;background:none;font-size:22px;line-height:1;cursor:pointer;color:#5f6368;border-radius:8px}'
-                + '.lm-credit-btn{all:unset;cursor:pointer;pointer-events:auto;white-space:nowrap;text-decoration:underline;text-underline-offset:2px;display:inline-flex;align-items:center;min-height:32px;padding:0 6px;margin:-10px 0}'
+                + '.lm-credit-btn{all:unset;cursor:pointer;pointer-events:auto;white-space:nowrap;text-decoration:none;display:inline-flex;align-items:center;min-height:32px;padding:0 6px;margin:-10px 0}'
                 + '.lm-credit-btn:focus-visible{outline:2px solid #1a73e8;outline-offset:2px;border-radius:4px}'
 ;
         document.head.appendChild(st);
-        var btn = document.createElement('button');
-        btn.type = 'button'; btn.className = 'lm-credit-btn'; btn.setAttribute('aria-haspopup', 'dialog');
-        btn.dir = 'ltr'; btn.lang = 'en';   // read in an English voice in every UI (3.1.2)
-        btn.textContent = 'LangMap by Jounlai Cho';   // one fixed English line, all of it the link (owner, r26)
+        // The pages now ship this button in their HTML, so a reload no longer
+        // flashes the old long credit before the swap (owner 2026-10-19). Build
+        // it only for a page that still has the old markup.
+        var btn = wm.querySelector('.lm-credit-btn');
+        if (!btn) {
+            btn = document.createElement('button');
+            btn.type = 'button'; btn.className = 'lm-credit-btn'; btn.setAttribute('aria-haspopup', 'dialog');
+            btn.dir = 'ltr'; btn.lang = 'en';   // read in an English voice in every UI (3.1.2)
+            btn.textContent = 'LangMap | © Jounlai Cho';   // one fixed English line, all of it the link (owner, r26; © and globe 2026-10-19)
+            wm.textContent = '';
+            wm.appendChild(btn);
+        }
         btn.addEventListener('click', function () { openCredit(btn); });
-        wm.textContent = '';
-        wm.appendChild(btn);
+        placeDancer(btn);
         var dc = document.getElementById('disclaimer'); if (dc) dc.hidden = true;   // now in the About dialog
         syncCredit();
     }

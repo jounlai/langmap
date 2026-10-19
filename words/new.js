@@ -598,7 +598,7 @@ WORDS.new = {
     so: ["cusub", "ʕusub"],
     mg: ["vaovao", "vawˈvaw"],
     vi_c: ["mới", "mɤːj˨˦"],
-    th_isan: ["ใหม่", "maj˨˩"],
+    th_isan: ["ใหม่", "maj˧"],
     za: {
       form: "𮄾",
       ipa:  "mo˧˥",

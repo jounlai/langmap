@@ -1955,3 +1955,63 @@ html:is([lang="ar"], [lang="he"]) .header-nav :is(.header-nav-link, .header-nav-
 [dir="rtl"] .header-nav :is(.header-nav-link, .header-nav-current) > :first-child { margin-right: 0 !important; margin-left: 3px !important; }
 /* Index at >= 1025px: the diagram card spans the same width as the controls. */
 @media (min-width: 1025px) { .map-container { display: block; } }
+
+/* The site credit ships as this one button in every page's HTML (owner
+   2026-10-19: no flash of the old long credit on reload). Same look as the
+   rule nav-short.js injects, present from the first paint. */
+.lm-credit-btn{all:unset;cursor:pointer;pointer-events:auto;white-space:nowrap;text-decoration:none;display:inline-flex;gap:0;align-items:center;min-height:32px;padding:0 6px;margin:-10px 0}
+.lm-credit-btn:focus-visible{outline:2px solid #1a73e8;outline-offset:2px;border-radius:4px}
+.lm-credit-btn:hover{text-decoration:underline;text-underline-offset:2px}
+.lm-credit-btn .lm-credit-ico{flex:none;margin-inline-end:5px}
+/* Credit plate: half the side padding (owner 2026-10-19), 14px → 7px a side. */
+.url-watermark{padding-left:4px!important;padding-right:4px!important}
+.url-watermark .lm-credit-btn{padding-left:3px;padding-right:3px}
+
+/* EXPERIMENT (owner 2026-10-19, may be removed): a little dancer after the
+   credit, cap-height tall, feet on the text baseline. Delete this block and
+   the .lm-dancer SVG in the six pages' credit button to remove it.
+   Routine, 4.8 s: wave, wave back, disco left, disco right, jump, squat,
+   cartwheel, kick. */
+.lm-dancer{height:.72em;width:auto;aspect-ratio:12/15.8;margin-inline-start:4px;overflow:visible;flex:none;position:relative;top:0}
+.lm-dancer *{transform-box:fill-box}
+.lm-dancer .lm-d-body{transform-origin:50% 55%;animation:lm-d-body 4.8s ease-in-out infinite}
+.lm-dancer .lm-d-armL{transform-origin:100% 0;animation:lm-d-armL 4.8s ease-in-out infinite}
+.lm-dancer .lm-d-armR{transform-origin:0 0;animation:lm-d-armR 4.8s ease-in-out infinite}
+.lm-dancer .lm-d-legL{transform-origin:100% 0;animation:lm-d-legL 4.8s ease-in-out infinite}
+.lm-dancer .lm-d-legR{transform-origin:0 0;animation:lm-d-legR 4.8s ease-in-out infinite}
+@keyframes lm-d-body{
+  0%,25%{transform:translateY(0) rotate(0)}
+  6%,19%{transform:translateY(-.5px) rotate(-4deg)}
+  12.5%{transform:translateY(0) rotate(4deg)}
+  31%{transform:translateY(0) rotate(-10deg)}
+  43%{transform:translateY(0) rotate(10deg)}
+  50%{transform:translateY(0) rotate(0)}
+  55%{transform:translateY(-3.5px) rotate(0)}
+  60%{transform:translateY(0) rotate(0)}
+  65%{transform:translateY(1px) rotate(0) scaleY(.92)}
+  70%{transform:translateY(0) rotate(0)}
+  76%{transform:translateY(-2px) rotate(180deg)}
+  82%{transform:translateY(0) rotate(360deg)}
+  88%,94%{transform:translateY(0) rotate(354deg)}
+  100%{transform:translateY(0) rotate(360deg)}}
+@keyframes lm-d-armL{
+  0%{transform:rotate(0)} 6%{transform:rotate(110deg)} 12.5%{transform:rotate(60deg)} 19%{transform:rotate(110deg)} 25%{transform:rotate(0)}
+  31%,37%{transform:rotate(135deg)} 43%{transform:rotate(-10deg)} 50%{transform:rotate(30deg)}
+  55%{transform:rotate(125deg)} 60%{transform:rotate(30deg)} 65%{transform:rotate(45deg)}
+  76%{transform:rotate(90deg)} 82%{transform:rotate(30deg)} 88%,94%{transform:rotate(36deg)} 100%{transform:rotate(0)}}
+@keyframes lm-d-armR{
+  0%{transform:rotate(0)} 6%{transform:rotate(-60deg)} 12.5%{transform:rotate(-110deg)} 19%{transform:rotate(-60deg)} 25%{transform:rotate(0)}
+  31%,37%{transform:rotate(10deg)} 43%{transform:rotate(-135deg)} 50%{transform:rotate(-30deg)}
+  55%{transform:rotate(-125deg)} 60%{transform:rotate(-30deg)} 65%{transform:rotate(-45deg)}
+  76%{transform:rotate(-90deg)} 82%{transform:rotate(-30deg)} 88%,94%{transform:rotate(-36deg)} 100%{transform:rotate(0)}}
+@keyframes lm-d-legL{
+  0%,25%{transform:rotate(0)} 12.5%{transform:rotate(-8deg)}
+  31%,37%{transform:rotate(-14deg)} 43%{transform:rotate(6deg)} 50%{transform:rotate(0)}
+  55%{transform:rotate(-30deg)} 60%{transform:rotate(0)} 65%{transform:rotate(-22deg)}
+  76%{transform:rotate(0)} 88%,94%{transform:rotate(-6deg)} 100%{transform:rotate(0)}}
+@keyframes lm-d-legR{
+  0%,25%{transform:rotate(0)} 12.5%{transform:rotate(8deg)}
+  31%,37%{transform:rotate(-6deg)} 43%{transform:rotate(14deg)} 50%{transform:rotate(0)}
+  55%{transform:rotate(30deg)} 60%{transform:rotate(0)} 65%{transform:rotate(22deg)}
+  76%{transform:rotate(0)} 88%,94%{transform:rotate(-70deg)} 100%{transform:rotate(0)}}
+@media (prefers-reduced-motion: reduce){.lm-dancer *{animation:none!important}}

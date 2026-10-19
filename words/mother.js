@@ -328,7 +328,7 @@ WORDS.mother = {
     ii: ["ꀉꂿ", "a˧˦mo˧˧"],
     yiz: ["amo", "a˧˧mo˨˨"],
     hni: ["aqma", "a˧˩ma˧˧"],
-    th_isan: ["แม่", "mɛː˥˩"],
+    th_isan: ["แม่", "mɛː˧"],
     th_n: ["แม่", "mɛː˥˩"],
     th_s: ["แม่", "mɛː˥˩"],
     za: {

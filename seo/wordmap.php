@@ -106,7 +106,15 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
     } else $title = $own
         ? $name . ($tNative !== '' ? " ($tNative)" : '') . ' — ' . seo_t($ui, 'wm_lang_title', ['w' => $wc]) . ' | LangMap'
         : seo_t($ui, 'wm_t2', ['name' => $name . ($paren ? ' (' . implode(', ', $paren) . ')' : ''), 'w' => $wc]) . ' | LangMap';
-    $hmName = ((seo_data('hanmap')['langs'] ?? [])[$code]['name'] ?? '');
+    $hmLang = ((seo_data('hanmap')['langs'] ?? [])[$code] ?? []);
+    $hmName = (string) ($hmLang['name'] ?? '');
+    // Only borrow it when both maps show the same variety: the same point and
+    // no period on the Word Map row. zh_jh is Nanjing here but Yangzhou on the
+    // Han Map; zh_han is a Han-period row here, "Old Chinese" there (r33 a2#1).
+    if (!isset($hmLang['lat'], $hmLang['lng'], $lang['lat'], $lang['lng'])
+        || abs((float) $hmLang['lat'] - (float) $lang['lat']) > 0.05
+        || abs((float) $hmLang['lng'] - (float) $lang['lng']) > 0.05
+        || trim((string) ($meta['period'] ?? '')) !== '') $hmName = '';
     // The Han Map's English name only when it is a plain name: "Central Bai
     // (Zhoucheng, Dali)" is a row label with a location (r29).
     $q = seo_lang_question($ui, $data, $code, ($ui === 'en' && $hmName !== '' && !preg_match('/[(（]/u', $hmName)) ? $hmName : $name);

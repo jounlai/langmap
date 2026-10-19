@@ -24,8 +24,16 @@ const DECISIONS = [
     },
     {
         id: 'compact-credit',
-        what: 'The site credit is one link "LangMap by Jounlai Cho" opening the About window (owner 2026-10-18)',
-        check: () => /btn\.textContent = 'LangMap by Jounlai Cho'/.test(read('nav-short.js')) ? [] : ['nav-short.js'],
+        what: 'The site credit is one link "[globe] LangMap | © Jounlai Cho" opening the About window, shipped in the HTML (owner 2026-10-18; © and black globe 2026-10-19)',
+        check: () => {
+            const bad = /btn\.textContent = 'LangMap \| © Jounlai Cho'/.test(read('nav-short.js')) ? [] : ['nav-short.js'];
+            // Shipped in the HTML so a reload shows no old credit first (owner 2026-10-19).
+            for (const f of ['wordmap.html', 'hanmap.html', 'namemap.html', 'timemap.html', 'tree.html', 'index.html']) {
+                const h = read(f);
+                if (!/class="lm-credit-btn"[^>]*><svg class="lm-credit-ico"[^]*?<\/svg>(?:<span class="lm-credit-txt">)?LangMap \| © Jounlai Cho</.test(h) || /class="credit-by"/.test(h)) bad.push(f);
+            }
+            return bad;
+        },
     },
     {
         id: 'simple-mode-url',

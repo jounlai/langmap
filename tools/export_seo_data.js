@@ -542,7 +542,9 @@ function buildHanMapJSON(nameIndex) {
       // (原始漢蔵語, 原始オーストロアジア語), not a name in the language: the SEO
       // page printed it as the hero's native line and in the map marker in every
       // UI (rally r31 a2#6). The map app keeps it; only the export drops it.
-      native: /\(proto\)/.test(m.family || ld.family || '') ? '' : (m.native || ld.native || ''),
+      // A native in the PT table (zh_jh 扬州话, r33 a4#1) is what the live map
+      // shows, so it wins over HAN_LANG_META's traditional 揚州話.
+      native: /\(proto\)/.test(m.family || ld.family || '') ? '' : ((hanPt[code] && hanPt[code].native) || m.native || ld.native || ''),
       family: m.family || ld.family || '',
       speakers: m.speakers || (ld.meta && ld.meta.speakers) || '',
       region: m.region || '',

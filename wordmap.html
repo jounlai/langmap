@@ -7435,7 +7435,27 @@
                         // nothing is free within the budget, place it at its true
                         // anchor (may overlap a neighbour) rather than drop it
                         // (owner 2026-09-07: "比較言語のみ表示だと必ず全言語を表示").
-                        if (onlyCompare) { offsets[c] = { x: 0, y: 0 }; _placed.push({ x: ax, y: ay, hw, hh }); continue; }
+                        //
+                        // Before overlapping, look further out: a picked language that
+                        // cannot be hidden is better a little away from its dot than
+                        // printed on its neighbour (owner 2026-10-19: Teochew on top of
+                        // Cantonese at fs=420, only=1). Up to 4x the normal budget.
+                        if (onlyCompare) {
+                            const _far = Math.min(600, _maxR * 4);
+                            far:
+                            for (let r = _maxR + _ringStep; r <= _far; r += _ringStep) {
+                                const n = Math.max(8, Math.round((2 * Math.PI * r) / _ringStep));
+                                for (let k = 0; k < n; k++) {
+                                    const rad = (2 * Math.PI * k) / n;
+                                    const x = ax + Math.cos(rad) * r, y = ay + Math.sin(rad) * r;
+                                    if (_free(x, y, hw, hh)) { chosen = { x, y }; break far; }
+                                }
+                            }
+                            if (!chosen) { offsets[c] = { x: 0, y: 0 }; _placed.push({ x: ax, y: ay, hw, hh }); continue; }
+                            chosen.hw = hw; chosen.hh = hh; _placed.push(chosen);
+                            offsets[c] = { x: chosen.x - ax, y: chosen.y - ay };
+                            continue;
+                        }
                         hiddenCodes.add(c); continue;
                     }
                     chosen.hw = hw; chosen.hh = hh;

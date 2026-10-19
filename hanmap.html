@@ -5059,8 +5059,11 @@
             zoomControl: false, // we'll position it ourselves
             // Half-level zoom (see wordmap.html): a pinch lands on 2.5/3.0/3.5…
             // instead of a full 2× jump; +/− buttons keep a full-level step.
-            zoomSnap: 0.5,
-            zoomDelta: 1,
+            // Finer again (owner 2026-10-19: 「ズーム率をもう少し細かく」):
+            // quarter-level snap, half-level buttons, a gentler wheel.
+            zoomSnap: 0.25,
+            zoomDelta: 0.5,
+            wheelPxPerZoomLevel: 120,
         });
 
         // On mobile the header + 2D/3D + gear button stack occupy ~120px
@@ -9225,7 +9228,7 @@
             const atDefaultView = !is3D
                 && Math.abs(lat - _initialCenter[0]) < 0.02
                 && Math.abs(lng - _initialCenter[1]) < 0.02
-                && Math.round(z * 2) === 10;   // z === 5, the init zoom
+                && Math.abs(z - 5) < 0.01;   // z === 5, the init zoom (quarter steps since 2026-10-19)
             if (!atDefaultView) {
                 // One combined position param `p=lat,lng,z` instead of three
                 // keyed params. Commas kept literal (hash post-processed below).
@@ -9315,7 +9318,7 @@
             }
             // Position: new combined `p=lat,lng,z`, falling back to the legacy
             // separate z/lat/lng params so older shared URLs still work.
-            let z = parseFloat(params.get('z'));  // may be a half-level (zoomSnap 0.5)
+            let z = parseFloat(params.get('z'));  // may be fractional (zoomSnap 0.25)
             let lat = parseFloat(params.get('lat'));
             let lng = parseFloat(params.get('lng'));
             const pParam = params.get('p');

@@ -593,7 +593,7 @@
             const parts=['d='+dateStr, 'l='+uiLang, 's='+Math.round(fontScale*100)];
             if(era==='historical') parts.push('era=hist');
             if(document.body.classList.contains('chrome-hidden')) parts.push('simple=1');
-            if(map){ const c=map.getCenter(); parts.push('c='+c.lat.toFixed(2)+','+c.lng.toFixed(2)); parts.push('z='+map.getZoom().toFixed(1)); }
+            if(map){ const c=map.getCenter(); parts.push('c='+c.lat.toFixed(2)+','+c.lng.toFixed(2)); parts.push('z='+(+map.getZoom().toFixed(2))); }
             const h='#'+parts.join('&'); if(location.hash!==h) history.replaceState(null,'',h);
         }
         function readState(){
@@ -606,7 +606,7 @@
         function initMap(){
             map = L.map('map', {
                 center: [28, 62], zoom: 2.4, minZoom: 2, maxZoom: 8,
-                worldCopyJump: true, zoomControl: false, zoomSnap: 0.5,
+                worldCopyJump: true, zoomControl: false, zoomSnap: 0.25, zoomDelta: 0.5, wheelPxPerZoomLevel: 120, /* finer zoom (owner 2026-10-19) */
                 maxBounds: [[-84, -1200], [84, 1200]], maxBoundsViscosity: 1.0,
             });
             map.on('zoomend', ()=>requestAnimationFrame(relaxLabels));

@@ -95,17 +95,20 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
     // reader's own language itself: ja_osa, es_cr, zh_han are other varieties
     // and keep the hello/thank-you title (rally r30 a2#6).
     $own = strtolower($code) === explode('-', $ui)[0];
-    // The title promises hello and thank you only where the row has one of them.
-    $hasGreet = false;
+    // The title promises hello and thank you only where the row has them: both
+    // (wm_t2), one (wm_t2_hello / wm_t2_thanks, rally r37 a2#3) or neither.
+    $greet = [];
     foreach (['hello', 'thanks'] as $gid) {
         $g = trim((string) ((($lang['words'] ?? [])[$gid] ?? [''])[0] ?? ''));
-        if ($g !== '' && !preg_match('/^[\s\x{2014}\x{2013}\-?]*$/u', $g)) $hasGreet = true;
+        if (!seo_is_placeholder($g)) $greet[] = $gid;
     }
+    $hasGreet = (bool) $greet;
+    $t2Key = count($greet) === 2 ? 'wm_t2' : 'wm_t2_' . ($greet[0] ?? 'hello');
     if (!$hasGreet && !$own) {
         $title = $name . ($paren ? ' (' . implode(', ', $paren) . ')' : '') . ' — ' . seo_t($ui, 'wm_lang_title', ['w' => $wc]) . ' | LangMap';
     } else $title = $own
         ? $name . ($tNative !== '' ? " ($tNative)" : '') . ' — ' . seo_t($ui, 'wm_lang_title', ['w' => $wc]) . ' | LangMap'
-        : seo_t($ui, 'wm_t2', ['name' => $name . ($paren ? ' (' . implode(', ', $paren) . ')' : ''), 'w' => $wc]) . ' | LangMap';
+        : seo_t($ui, $t2Key, ['name' => $name . ($paren ? ' (' . implode(', ', $paren) . ')' : ''), 'w' => $wc]) . ' | LangMap';
     $hmLang = ((seo_data('hanmap')['langs'] ?? [])[$code] ?? []);
     $hmName = (string) ($hmLang['name'] ?? '');
     // Only borrow it when both maps show the same variety: the same point and

@@ -457,8 +457,36 @@
             else { try { LMH._rep(Object.assign({}, cur, { lmOv: ovList() }), '', location.href); } catch (_) {} }
         }, 0);
     }
+    // Forward onto an overlay's entry before the page registered that overlay
+    // (a return to a page still loading): it is queued, not stale, and opens
+    // when it registers. Counted stale, the entry was marked dead and stepped
+    // over, and that overlay's Forward never worked again (r37). last: the
+    // try after load; whatever is still pending then leaves the entry as a
+    // reload does (plain, or dead when nothing on it came back).
+    LMH.pendReg = {};
+    function lmhPendTry(id, last) {
+        var n = LMH.pendReg[id]; if (n == null) return;
+        var cur = history.state || {};
+        if (cur.lmN !== LMH.pendRegN || LMH.n !== LMH.pendRegN || (cur.lmOv || []).indexOf(id) < 0) { delete LMH.pendReg[id]; return; }   // moved on since
+        var o = LMH.reg[id], ok = false;
+        if (o && o.isOpen()) ok = true;
+        else if (o && o.open) { LMH.quiet = true; try { ok = o.open() !== false; } catch (_) { ok = false; } finally { LMH.quiet = false; } }
+        if (!ok && !last) return;
+        delete LMH.pendReg[id];
+        if (ok) {
+            if (LMH.stack.indexOf(id) < 0) { LMH.stack.push(id); var w = cur.lmOv; LMH.stack.sort(function (a, b) { return w.indexOf(a) - w.indexOf(b); }); }
+            LMH.ovN[id] = n;
+            return;
+        }
+        try {
+            var s = Object.assign({}, cur, { lmOv: ovList() });
+            if (!LMH.stack.length) { s.lmDead = 1; LMH.curDead = cur.lmN; }
+            LMH._rep(s, '', location.href);
+        } catch (_) {}
+    }
     window.__lmOverlay = function (id, o) {
         LMH.reg[id] = o;
+        if (LMH.pendReg[id] != null) setTimeout(function () { lmhPendTry(id); }, 0);
         if (o.el && window.MutationObserver) {
             var was = !!o.isOpen();
             new MutationObserver(function () { var now = !!o.isOpen(); if (now === was) return; was = now; if (now) lmhOpened(id); else lmhClosed(id); })
@@ -506,7 +534,7 @@
         // Back from that dead entry: this press would change nothing on screen,
         // so it goes one further; Forward later steps over the dead one (r31).
         if (leftDead && dir < 0 && st.lmN === prevN - 1 && !LMH.stack.length) { lmhDeadNext(); lmhStepOver(null, -1, prevURL); return; }
-        var changed = self, stale = [], reopened = 0;
+        var changed = self, stale = [], reopened = 0, pend = [];
         LMH.quiet = true;
         try {
             for (var i = LMH.stack.length - 1; i >= 0; i--) {
@@ -518,6 +546,11 @@
                 if (want[j] === 'about' && !LMH.reg.about && typeof creditHist === 'function') creditHist();   // registered on first open
                 var o2 = LMH.reg[want[j]];
                 if (o2 && o2.isOpen()) continue;   // open already: just track it
+                // Forward before the page registered it (still loading): queued (r37).
+                if (!o2 && dir > 0 && document.readyState !== 'complete') {
+                    LMH.pendReg[want[j]] = LMH.n - (want.length - 1 - j); LMH.pendRegN = LMH.n; pend.push(want[j]); changed = true; reopened++;
+                    continue;
+                }
                 // Forward reopens an overlay. Back never does: an entry naming an
                 // overlay that is not open (closed by hand under another one, or
                 // before a reload) is a dead step (r29).
@@ -530,7 +563,11 @@
                 if (ok) { changed = true; reopened++; LMH.ovN[want[j]] = LMH.n - (want.length - 1 - j); } else stale.push(want[j]);
             }
         } finally { LMH.quiet = false; }
-        LMH.stack = want.filter(function (x) { return stale.indexOf(x) < 0; });
+        LMH.stack = want.filter(function (x) { return stale.indexOf(x) < 0 && pend.indexOf(x) < 0; });
+        if (pend.length && !LMH.pendLoad) {
+            LMH.pendLoad = true;
+            window.addEventListener('load', function () { setTimeout(function () { LMH.pendLoad = false; Object.keys(LMH.pendReg).forEach(function (id) { lmhPendTry(id, true); }); }, 300); }, { once: true });
+        }
         // Only when none of its overlays came back: one that did (the settings
         // popover over a popup that cannot) keeps the entry, cut down to it.
         // Stepping over it closed the popover again at the end of the history (r32).

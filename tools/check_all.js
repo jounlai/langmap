@@ -198,6 +198,11 @@ line('zh/yue names in their own script', num(s, /violations: (\d+)/));
 s = run('lang_name_case_check.js --check');
 line('language names capitalised', num(s, /violations: (\d+)/));
 
+// No dictionary stress mark (combining acute U+0301) inside a name: three
+// Ukrainian names printed "Нанкі́нський" on the map (rally r37 a4#1).
+s = run('lang_name_accent_check.js --check');
+line('no stress marks in names', num(s, /violations: (\d+)/));
+
 // Two different languages may not print the same label. Derived, not listed:
 // codes that legitimately share a name share their ENGLISH name, so the nine
 // twin-coded languages are exempt automatically. The three that cannot be

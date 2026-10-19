@@ -881,6 +881,10 @@
                 "Noto Sans New Tai Lue",
                 Georgia, "Times New Roman", serif;
         }
+        /* r37 a3#1: the first labelled placement waits (≤300 ms) for the
+           label fonts, laid out but not shown, so the first placement the
+           reader sees is the measured one. */
+        #map.hm-fontwait .lang-label { visibility: hidden; }
         /* 独自文字 (native-script) tier on the map label: appears next to
            the romanization in the same line, slightly smaller so the
            romanisation stays the primary read. */
@@ -2885,7 +2889,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=53"></script>
+    <script src="nav-short.js?v=54"></script>
     <style>
         /* r23 desktop: the compare panel clears the settings gear and the map
            attribution; the settings drawer is readable at desktop sizes. */
@@ -3631,8 +3635,8 @@
     will actually see (~12 KB gzipped). tools/build_lang_names.js
     generates lang_names/<ui>.js from lang_names.js. -->
     <script src="lang_names_shim.js?v=5"></script>
-    <script src="lang_names/en.js?v=211"></script>
-    <script>window.__langNamesVersion(211); window.__langNamesBoot();</script>
+    <script src="lang_names/en.js?v=212"></script>
+    <script>window.__langNamesVersion(212); window.__langNamesBoot();</script>
     <script>
     // HanMap-specific display-name overrides.
     // THIS IS THE MECHANISM for "one code, two maps, two meanings". lang_names.js
@@ -8670,6 +8674,14 @@
                     };
                     document.fonts.addEventListener('loadingdone', _refont);
                     document.fonts.addEventListener('loadingerror', _refont);
+                    // r37 a3#1: the first labelled pass's font wait ends here. Its
+                    // generation is the committed one, so the fonts.ready / late
+                    // loadingdone above re-place only when a line's width changed.
+                    window.__hmFontFirst = () => {
+                        if (window.__hmFontsOK) return;
+                        window.__hmFontsOK = true; window.__hmFontGen = ++_seq; window.__hmLabelFonts = null;
+                        _committed = _seq;
+                    };
                     // r32 a3#3: the first labelled placement used the fixed box and
                     // a second full placement (117-135 ms at 4x CPU) followed when
                     // the label font arrived, on every load, warm ones included:
@@ -8689,8 +8701,37 @@
                         Promise.race([document.fonts.ready, new Promise((r) => setTimeout(r, 3000))]).then(_refont);
                     }, 0);
                 } else if (!document.fonts || !document.fonts.addEventListener) window.__hmFontsOK = true;
+                // r37 a3#1: labels rearranged ~1 s after they first showed, on
+                // every cold load: the first placements ran before the fonts
+                // and used the fixed box, and the first font generation placed
+                // again with measured widths (10 moved, 5 hidden, 3 shown at 4x
+                // CPU). The first labelled pass now draws its labels hidden, so
+                // the browser requests exactly the faces they use, waits for
+                // them (at most 300 ms), and places again measured before any
+                // label is shown. A font still loading after that is caught by
+                // the width check of the committed generation (r35).
+                if (!window.__hmFontsOK && !window.__hmFontWait && _rendered.length && typeof window.__hmFontFirst === 'function') {
+                    window.__hmFontWait = 1;
+                    _ctn.classList.add('hm-fontwait');
+                    const t0 = performance.now();
+                    let ended = false;
+                    const end = () => {
+                        if (ended) return; ended = true;
+                        try {
+                            window.__hmFontFirst();
+                            if (!window.__hmPlacedMeasured && typeof currentWord !== 'undefined') updateMarkers(currentWord);
+                        } catch (_) {}
+                        _ctn.classList.remove('hm-fontwait');
+                        window.__hmFontWait = 2;
+                    };
+                    requestAnimationFrame(() => setTimeout(() => {
+                        Promise.race([document.fonts.ready, new Promise((r) => setTimeout(r, Math.max(0, 300 - (performance.now() - t0))))]).then(end, end);
+                    }, 0));
+                    setTimeout(end, 1000);   // a frame that never comes (background tab): show them anyway
+                }
                 const _hw = {};
                 if (window.__hmFontsOK) {
+                    window.__hmPlacedMeasured = true;
                     const miss = _rendered.filter(c => !_hwCache.has(c + _hwKey));
                     if (miss.length) {
                         try {
@@ -8828,6 +8869,7 @@
                 // shift or hide. Clustering stays strict world-px proximity so a
                 // Min-Nan cluster never collapses distinct cities onto a centroid.
                 const _CO_EPS = 16;  // world px; ~"same point on screen" at this zoom
+                const _CORE = new Set(['zh', 'yue', 'ja', 'ko', 'nan', 'wuu', 'vi']);
                 const _wp = {};
                 for (const c of _rendered) { const L = LANG_DATA[c]; if (L) _wp[c] = map.project([L.lat, L.lng], zoom); }
                 const _clusterOf = {};
@@ -8858,6 +8900,14 @@
                         const as = a.members.some(m => _spotlight.has(m)) ? 0 : 1;
                         const bs = b.members.some(m => _spotlight.has(m)) ? 0 : 1;
                         if (as !== bs) return as - bs;
+                    }
+                    // r37 a3#2: below z=6 the seven core rows place first, as
+                    // their own tier. By rank alone North Korean (92.5) and the
+                    // two-reading Taiwan Mandarin went before Cantonese (88),
+                    // filled Guangzhou at fs=300, and Cantonese hid.
+                    if (zoom < 6) {
+                        const ac = a.members.some(m => _CORE.has(m)) ? 0 : 1, bc = b.members.some(m => _CORE.has(m)) ? 0 : 1;
+                        if (ac !== bc) return ac - bc;
                     }
                     return b.prio - a.prio;
                 };
@@ -8903,10 +8953,35 @@
                 // still shows at z=4 (measured at 1440, 36,125,4).
                 const RESCUE_PX = 80;
                 const _rescueR = zoom < 6 ? Math.max(_maxR, Math.min(RESCUE_PX * _rescueK, _pxPerDeg * 10 * _rescueK)) : _maxR;
+                // r37 a3#3: at z<4 px-per-degree cuts the second try to ~57 px
+                // (z3), and Taiwanese and Shanghai Wu hid in every z3 view. A
+                // core row gets the full RESCUE_PX there (still the 80 px cap).
+                const _rescueCore = zoom < 4 ? Math.max(_maxR, RESCUE_PX * _rescueK) : _rescueR;
+                // Codes this pass hid for want of room, for the duplicate check.
+                const _lost = new Set();
                 const _placeSolo = (c) => {
+                    // r37 a1#5 (血 at z4.5, fs=250): the r34 rule for stacks, for
+                    // solo units too. With Shanghai Wu hidden, Ningbo Wu (its own
+                    // unit) was drawn out at sea with "shiuq7", Shanghai's 文讀,
+                    // as if it were Shanghai. Below z=6 a row whose reading is
+                    // one of a hidden core row's in the same dialect group (wuu,
+                    // wuu_*), with its dot within the reach of the second try,
+                    // hides too. Only core rows: applied to every hidden row it
+                    // also hid ~10% of the z4 labels, Mandarin rows sharing
+                    // "shuǐ" with a hidden Mandarin neighbour.
+                    if (zoom < 6 && _lost.size) {
+                        const g = c.split('_')[0], reach = Math.max(_rescueR, _rescueCore);
+                        let mine = null;
+                        for (const h of _lost) {
+                            if (h.split('_')[0] !== g || !_CORE.has(h)) continue;
+                            if (Math.hypot(ppx[h].x - ppx[c].x, ppx[h].y - ppx[c].y) > reach) continue;
+                            mine = mine || _readingKeys(c);
+                            for (const k of _readingKeys(h)) if (mine.has(k)) { hiddenCodes.add(c); return; }
+                        }
+                    }
                     const ax = ppx[c].x, ay = ppx[c].y, hh = _hhOf(c), hw = _hw[c];
                     const _ringStep = Math.max(4, hh * 0.26);   // ~0.13 * full height
-                    if (_free(ax, ay, hh, hw)) { _placed.push({ x: ax, y: ay, hh, hw }); offsets[c] = { x: 0, y: 0 }; return; }
+                    const core = zoom < 6 && _CORE.has(c), rescueR = core ? _rescueCore : _rescueR;
                     // r33 a3#2: the last ring is always the limit itself. With a
                     // 16 px step and a 27 px cap (z6, fs=160) only r=16 was ever
                     // tried, so Taiwanese hid with open sea 19 px below its dot.
@@ -8917,27 +8992,49 @@
                             for (let k = 0; k < n; k++) {
                                 const rad = (2 * Math.PI * k) / n;
                                 const x = ax + Math.cos(rad) * r, y = ay + Math.sin(rad) * r;
-                                if (_free(x, y, hh, hw)) { _placed.push({ x, y, hh, hw }); offsets[c] = { x: x - ax, y: y - ay }; return true; }
+                                if (_free(x, y, hh, hw)) { _placed.push({ x, y, hh, hw, c }); offsets[c] = { x: x - ax, y: y - ay }; return true; }
                             }
                         }
                         return false;
                     };
-                    if (_ring(_maxR, hh)) return;
-                    if (_rescueR > _maxR && _ring(_rescueR, hh)) { _leadered.add(c); return; }
+                    // At its dot, then within the honest radius, then the second try.
+                    const _fit = (hh, one) => {
+                        if (_free(ax, ay, hh, hw)) { _placed.push({ x: ax, y: ay, hh, hw, c }); offsets[c] = { x: 0, y: 0 }; }
+                        else if (_ring(_maxR, hh)) { /* placed */ }
+                        else if (rescueR > _maxR && _ring(rescueR, hh)) _leadered.add(c);
+                        else return false;
+                        if (one) _oneRow.add(c);
+                        return true;
+                    };
                     // r34 a3#1 (血 at z4): a two-reading label (白讀/文讀) is
                     // twice as tall, so Shanghai Wu hid and Suzhou Wu, whose
                     // one reading equals Shanghai's 文讀, was drawn in its place.
                     // Below z=6 try once more with only the first reading
                     // (the popup still lists all of them). Same 80 px cap.
-                    if (zoom < 6 && _nVariants(c) > 1) {
-                        const hh1 = _hh1Of(c);
-                        if (hh1 < hh) {
-                            if (_free(ax, ay, hh1, hw)) { _placed.push({ x: ax, y: ay, hh: hh1, hw }); offsets[c] = { x: 0, y: 0 }; _oneRow.add(c); return; }
-                            if (_ring(_maxR, hh1)) { _oneRow.add(c); return; }
-                            if (_rescueR > _maxR && _ring(_rescueR, hh1)) { _oneRow.add(c); _leadered.add(c); return; }
+                    const _fitAny = () => {
+                        if (_fit(hh)) return true;
+                        if (zoom < 6 && _nVariants(c) > 1) { const hh1 = _hh1Of(c); if (hh1 < hh && _fit(hh1, true)) return true; }
+                        return false;
+                    };
+                    if (_fitAny()) return;
+                    // r37 a3#2: before a core row hides, a two-reading label
+                    // already placed in its reach (Taiwan Mandarin by Guangzhou)
+                    // is cut to its first reading, nearest first, one at a time.
+                    // Undone when the core row still does not fit.
+                    if (core) {
+                        const near = _placed.filter(p => p.c && p.c !== c && !_oneRow.has(p.c) && _nVariants(p.c) > 1
+                            && Math.abs(p.x - ax) < rescueR + p.hw + hw && Math.abs(p.y - ay) < rescueR + p.hh + hh)
+                            .sort((a, b) => Math.hypot(a.x - ax, a.y - ay) - Math.hypot(b.x - ax, b.y - ay));
+                        const cut = [];
+                        for (const p of near) {
+                            const h1 = _hh1Of(p.c);
+                            if (!(h1 < p.hh)) continue;
+                            cut.push([p, p.hh]); p.hh = h1; _oneRow.add(p.c);
+                            if (_fitAny()) return;
                         }
+                        for (const [p, h0] of cut) { p.hh = h0; _oneRow.delete(p.c); }
                     }
-                    hiddenCodes.add(c);
+                    hiddenCodes.add(c); _lost.add(c);
                 };
                 // Readings a label shows (romanised forms), for the duplicate
                 // check below.
@@ -9375,8 +9472,21 @@
                 if (pp.length >= 3) { lat = parseFloat(pp[0]); lng = parseFloat(pp[1]); z = parseFloat(pp[2]); }
             }
             // Out-of-range values from a link (#p=1e308,1e308,99) threw and blanked the page (r22).
-            if (Number.isFinite(z) && Number.isFinite(lat) && Number.isFinite(lng) && Math.abs(lat) <= 85 && Math.abs(lng) <= 1e4 && z >= 0 && z <= 20) {
-                map.setView([lat, ((lng + 180) % 360 + 360) % 360 - 180], z);   // wrap: beyond ±180 drew an empty world copy (r27)
+            if (Number.isFinite(z) && Number.isFinite(lat) && Number.isFinite(lng) && Math.abs(lat) <= 85 && Math.abs(lng) <= 1e4) {
+                // r37 a3#4 (as the Word Map, r36/r37): clamp to the map's zoom
+                // range and snap to zoomSnap, then correct just the zoom in the
+                // hash (the rest of the state is not restored yet). 0.5 or 1
+                // opened at z2 and kept the link's value.
+                const _zs = map.options.zoomSnap || 0;
+                let zc = Math.min(map.getMaxZoom(), Math.max(map.getMinZoom(), z));
+                if (_zs > 0) zc = Math.min(map.getMaxZoom(), Math.max(map.getMinZoom(), Math.round(zc / _zs) * _zs));
+                map.setView([lat, ((lng + 180) % 360 + 360) % 360 - 180], zc);   // wrap: beyond ±180 drew an empty world copy (r27)
+                if (zc !== z) {
+                    try {
+                        const h = location.hash.replace(/([#&]p=[^,&]*,[^,&]*,)[^&]*/, '$1' + zc).replace(/([#&]z=)[^&]*/, '$1' + zc);
+                        if (h !== location.hash) history.replaceState(history.state, '', location.pathname + location.search + h);
+                    } catch (_) {}
+                }
             }
             const nat = params.get('nat');
             if (nat === '0' || nat === '1') {

@@ -426,7 +426,7 @@
 
         .leaflet-popup-close-button { width: 40px !important; height: 40px !important; font-size: 24px !important; line-height: 38px !important; }   /* 24px was hard to tap (r27) */
 </style>
-    <script src="nav-short.js?v=53"></script>
+    <script src="nav-short.js?v=54"></script>
 </head>
 <body>
     <header class="site-header-bar">
@@ -1079,6 +1079,7 @@
             // Escape closes the popover (one layer: on window, so before the sheet's handler).
             window.addEventListener('keydown', e=>{
                 if(e.key!=='Escape' || pop.hasAttribute('hidden')) return;
+                if(document.querySelector('.lang-picker-menu.open')) return;   // the language menu is on top: let its own handler close it first (r37)
                 e.stopImmediatePropagation(); pop.setAttribute('hidden',''); setBtn.setAttribute('aria-expanded','false');
                 if(pop.contains(document.activeElement) || document.activeElement===document.body) setBtn.focus();
             }, true);

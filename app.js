@@ -2358,9 +2358,25 @@ function shareToLINE() {
 let editingRow = null; // { lang, sentenceIdx }
 let segDragWrapper = null; // currently dragged segment wrapper
 
+// The row editor is a modal overlay: one history entry, Back closes it (as
+// Cancel), Forward reopens it on the same row. It had none, and Back left the
+// site with it open (r37).
+let _editLastLang = null;
+const _editH = window.__lmOverlay ? window.__lmOverlay('edit', {
+    isOpen: () => !!document.querySelector('body > .lang-row.editing'),
+    close: () => exitEditMode(),
+    open: () => {
+        const r = _editLastLang && document.querySelector('.lang-row[data-lang="' + CSS.escape(_editLastLang) + '"]:not(.editing)');
+        if (!r || editingRow) return false;
+        enterEditMode(r, _editLastLang);
+        return true;
+    }
+}) : { opened: function () {}, closed: function () {} };
+
 function enterEditMode(row, langCode) {
     if (editingRow) return;
     editingRow = { lang: langCode, sentenceIdx: currentSentenceIdx };
+    _editLastLang = langCode;
 
     // Add overlay
     const overlay = document.createElement('div');
@@ -2437,6 +2453,7 @@ function enterEditMode(row, langCode) {
     [...document.body.children].forEach((el) => { if (el !== _row && el.id !== 'editOverlay' && !el.classList.contains('add-segment-menu') && el.tagName !== 'SCRIPT') { el.inert = true; el.dataset.editInert = '1'; } });
     const _first = document.querySelector('body > .lang-row.editing .segment-input');
     if (_first) setTimeout(() => _first.focus(), 0);
+    _editH.opened();
 }
 
 function createSegmentWrapper(seg, langCode) {
@@ -3103,6 +3120,7 @@ function exitEditMode() {
     render();
     // render() rebuilt the rows: back to that row's Edit button.
     if (_lang) { const b = document.querySelector('.lang-row[data-lang="' + CSS.escape(_lang) + '"] .edit-btn'); if (b) b.focus({ preventScroll: true }); }
+    if (_lang) _editH.closed();
 }
 
 // The add-segment menus: items reachable and operable by keyboard.

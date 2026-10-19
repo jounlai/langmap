@@ -873,6 +873,7 @@ const SEO_T = [
         'ex_words' => 'Words compared', 'ex_wordorder' => 'Word order compared', 'ex_han' => 'Han readings compared',
         'wo_major' => 'Compare with major world languages', 'wo_close' => 'Compare with languages in the same classification',
         'cmp_caption' => 'Compared with languages in the same classification: {family}',
+        'cmp_caption_ipa' => 'Compared with the languages whose pronunciation is closest',   // r37 a2#2: columns picked by sound, not family
         'ex_prev' => 'Prev', 'ex_next' => 'Next', 'ex_page' => 'Page', 'ex_pick' => 'Sentence',
         'th_char' => 'Character', 'th_gloss' => 'Meaning', 'th_read' => 'Reading', 'th_form' => 'Form',
         'where' => 'Where it is spoken',
@@ -909,6 +910,7 @@ const SEO_T = [
         'wm_lang_title' => '{w} words & pronunciations',
         'hm_lang_title' => 'Han character readings',
         'wm_t2' => '{name}: hello, thank you & {w} words with pronunciation', 'hm_t2' => '{name}: how {n} Chinese characters are read', 'hm_t2_words' => '{name}: native words for {n} Chinese characters', 'hm_t2_loans' => '{name}: {n} early Chinese loanwords','wm_q' => 'How do you say “{word}” in {name}? {form}.', 'aka' => 'Also called {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2_hello' => '{name}: hello & {w} words with pronunciation', 'wm_t2_thanks' => '{name}: thank you & {w} words with pronunciation',   // r37 a2#3: the row has only one of the two greetings
         'wm_lang_meta' => 'Pronunciations of {w} core words in {name}, with IPA and native forms, on the LangMap Word Map.',
         'hm_lang_meta' => 'Readings of Han characters in {name} on the LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} core words across {n} languages',
@@ -940,6 +942,7 @@ const SEO_T = [
         'ex_words' => '単語の比較', 'ex_wordorder' => '語順の比較', 'ex_han' => '漢字音の比較',
         'wo_major' => '世界の主要言語と比較', 'wo_close' => '系統的に近い言語と比較',
         'cmp_caption' => '{family}の関連言語と比較',
+        'cmp_caption_ipa' => '発音が近い言語と比較',   // r37 a2#2: columns picked by sound, not family
         'ex_prev' => '前へ', 'ex_next' => '次へ', 'ex_page' => 'ページ', 'ex_pick' => '文',
         'th_char' => '漢字', 'th_gloss' => '意味', 'th_read' => '発音区分', 'th_form' => '表記',
         'where' => '話される地域',
@@ -975,6 +978,7 @@ const SEO_T = [
         'wm_lang_title' => '{w}語と発音',
         'hm_lang_title' => '漢字の読み',
         'wm_t2' => '{name}で「こんにちは」「ありがとう」は？ 発音つき{w}語', 'hm_t2' => '{name}の漢字の読み方 {n}字', 'hm_t2_words' => '{name}で漢字{n}字の意味を表す固有語', 'hm_t2_loans' => '{name}の古い漢語借用語 {n}語','wm_q' => '{name}で「{word}」は何と言う？ {form}。', 'aka' => '別名：{list}',   // r28 search titles / snippet question / aliases
+        'wm_t2_hello' => '{name}で「こんにちは」は？ 発音つき{w}語', 'wm_t2_thanks' => '{name}で「ありがとう」は？ 発音つき{w}語',   // r37 a2#3: the row has only one of the two greetings
         'wm_lang_meta' => 'LangMap Word Map での、{name}の基本{w}語の発音（IPA・現地表記つき）。',
         'hm_lang_meta' => 'LangMap Han Map での、{name}の漢字の読み。',
         'wm_index_title' => 'Word Map — {n}言語の基本{w}語',
@@ -1006,6 +1010,7 @@ const SEO_T = [
         'ex_words' => '단어 비교', 'ex_wordorder' => '어순 비교', 'ex_han' => '한자음 비교',
         'wo_major' => '세계 주요 언어와 비교', 'wo_close' => '계통적으로 가까운 언어와 비교',
         'cmp_caption' => '같은 분류의 언어와 비교: {family}',
+        'cmp_caption_ipa' => '발음이 가까운 언어와 비교',   // r37 a2#2: columns picked by sound, not family
         'ex_prev' => '이전', 'ex_next' => '다음', 'ex_page' => '페이지', 'ex_pick' => '문장',
         'th_char' => '한자', 'th_gloss' => '뜻', 'th_read' => '독음', 'th_form' => '표기',
         'where' => '사용 지역',
@@ -1041,6 +1046,7 @@ const SEO_T = [
         'wm_lang_title' => '단어 {w}개와 발음',
         'hm_lang_title' => '한자 독음',
         'wm_t2' => '{name}{로} ‘안녕하세요’, ‘고맙습니다’는? 발음과 함께 보는 {w}단어', 'hm_t2' => '{name}의 한자 읽기 {n}자', 'hm_t2_words' => '{name}의 고유어로 본 한자 {n}자', 'hm_t2_loans' => '{name}의 이른 시기 중국어 차용어 {n}개', 'wm_q' => '{name}{로} ‘{word}’{은} 어떻게 말할까? {form}.', 'aka' => '다른 이름: {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2_hello' => '{name}{로} ‘안녕하세요’는? 발음과 함께 보는 {w}단어', 'wm_t2_thanks' => '{name}{로} ‘고맙습니다’는? 발음과 함께 보는 {w}단어',   // r37 a2#3: the row has only one of the two greetings
         'wm_lang_meta' => 'LangMap Word Map에서 {name}의 핵심 단어 {w}개 발음(IPA·고유 표기 포함).',
         'hm_lang_meta' => 'LangMap Han Map에서 {name}의 한자 독음.',
         'wm_index_title' => 'Word Map — {n}개 언어의 핵심 단어 {w}개',
@@ -1072,6 +1078,7 @@ const SEO_T = [
         'ex_words' => '单词比较', 'ex_wordorder' => '语序比较', 'ex_han' => '汉字读音比较',
         'wo_major' => '与世界主要语言比较', 'wo_close' => '与谱系相近的语言比较',
         'cmp_caption' => '与同属{family}的语言比较',
+        'cmp_caption_ipa' => '与发音相近的语言比较',   // r37 a2#2: columns picked by sound, not family
         'ex_prev' => '上一页', 'ex_next' => '下一页', 'ex_page' => '页', 'ex_pick' => '句子',
         'th_char' => '汉字', 'th_gloss' => '含义', 'th_read' => '读音', 'th_form' => '写法',
         'where' => '使用地区',
@@ -1107,6 +1114,7 @@ const SEO_T = [
         'wm_lang_title' => '{w}个词与发音',
         'hm_lang_title' => '汉字读音',
         'wm_t2' => '{name}的“你好”“谢谢”怎么说？{w}个常用词及发音', 'hm_t2' => '{name}怎么读汉字：{n}个字', 'hm_t2_words' => '{name}的固有词：对应{n}个汉字', 'hm_t2_loans' => '{name}中的早期汉语借词：{n}个','wm_q' => '“{word}”用{name}怎么说？{form}。', 'aka' => '又称：{list}',   // r28 search titles / snippet question / aliases
+        'wm_t2_hello' => '{name}的“你好”怎么说？{w}个常用词及发音', 'wm_t2_thanks' => '{name}的“谢谢”怎么说？{w}个常用词及发音',   // r37 a2#3: the row has only one of the two greetings
         'wm_lang_meta' => '在 LangMap Word Map 上，{name}的{w}个核心词发音（含IPA与本地写法）。',
         'hm_lang_meta' => '在 LangMap Han Map 上，{name}的汉字读音。',
         'wm_index_title' => 'Word Map — {n}种语言的{w}个核心词',
@@ -1138,6 +1146,7 @@ const SEO_T = [
         'ex_words' => '單詞比較', 'ex_wordorder' => '語序比較', 'ex_han' => '漢字讀音比較',
         'wo_major' => '同世界主要語言比較', 'wo_close' => '同譜系相近嘅語言比較',
         'cmp_caption' => '相關語言比較：{family}',
+        'cmp_caption_ipa' => '同發音相近嘅語言比較',   // r37 a2#2: columns picked by sound, not family
         'ex_prev' => '上一頁', 'ex_next' => '下一頁', 'ex_page' => '頁', 'ex_pick' => '句子',
         'th_char' => '漢字', 'th_gloss' => '意思', 'th_read' => '讀音', 'th_form' => '寫法',
         'where' => '使用地區',
@@ -1173,6 +1182,7 @@ const SEO_T = [
         'wm_lang_title' => '{w}個詞同發音',
         'hm_lang_title' => '漢字讀音',
         'wm_t2' => '{name}嘅「你好」「多謝」點講？{w}個常用詞同發音', 'hm_t2' => '{name}點讀漢字：{n}個字', 'hm_t2_words' => '{name}嘅固有詞：對應{n}個漢字', 'hm_t2_loans' => '{name}入面嘅早期漢語借詞：{n}個','wm_q' => '「{word}」用{name}點講？{form}。', 'aka' => '又稱：{list}',   // r28 search titles / snippet question / aliases
+        'wm_t2_hello' => '{name}嘅「你好」點講？{w}個常用詞同發音', 'wm_t2_thanks' => '{name}嘅「多謝」點講？{w}個常用詞同發音',   // r37 a2#3: the row has only one of the two greetings
         'wm_lang_meta' => '喺 LangMap Word Map 上，{name}嘅{w}個核心詞發音（連IPA同本地寫法）。',
         'hm_lang_meta' => '喺 LangMap Han Map 上，{name}嘅漢字讀音。',
         'wm_index_title' => 'Word Map — {n}種語言嘅{w}個核心詞',
@@ -1204,6 +1214,7 @@ const SEO_T = [
         'ex_words' => 'So sánh từ vựng', 'ex_wordorder' => 'So sánh trật tự từ', 'ex_han' => 'So sánh âm Hán tự',
         'wo_major' => 'So sánh với các ngôn ngữ lớn trên thế giới', 'wo_close' => 'So sánh với các ngôn ngữ có quan hệ gần',
         'cmp_caption' => 'So sánh trong cùng họ: {family}',
+        'cmp_caption_ipa' => 'So sánh với các ngôn ngữ có phát âm gần nhất',   // r37 a2#2: columns picked by sound, not family
         'ex_prev' => 'Trước', 'ex_next' => 'Sau', 'ex_page' => 'Trang', 'ex_pick' => 'Câu',
         'th_char' => 'Chữ Hán', 'th_gloss' => 'Nghĩa', 'th_read' => 'Âm đọc', 'th_form' => 'Dạng viết',
         'where' => 'Nơi được sử dụng',
@@ -1239,6 +1250,7 @@ const SEO_T = [
         'wm_lang_title' => '{w} từ & cách phát âm',
         'hm_lang_title' => 'Cách đọc chữ Hán',
         'wm_t2' => '{name}: xin chào, cảm ơn và {w} từ kèm phát âm', 'hm_t2' => '{name}: cách đọc {n} chữ Hán', 'hm_t2_words' => '{name}: từ bản địa ứng với {n} chữ Hán', 'hm_t2_loans' => '{name}: {n} từ mượn tiếng Hán cổ','wm_q' => '“{word}” trong {name} nói thế nào? {form}.', 'aka' => 'Còn gọi là {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2_hello' => '{name}: xin chào và {w} từ kèm phát âm', 'wm_t2_thanks' => '{name}: cảm ơn và {w} từ kèm phát âm',   // r37 a2#3: the row has only one of the two greetings
         'wm_lang_meta' => 'Cách phát âm {w} từ cốt lõi trong {name}, kèm IPA và dạng bản địa, trên LangMap Word Map.',
         'hm_lang_meta' => 'Cách đọc các chữ Hán trong {name} trên LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} từ cốt lõi qua {n} ngôn ngữ',
@@ -1270,6 +1282,7 @@ const SEO_T = [
         'ex_words' => 'เปรียบเทียบคำศัพท์', 'ex_wordorder' => 'เปรียบเทียบลำดับคำ', 'ex_han' => 'เปรียบเทียบการอ่านอักษรจีน',
         'wo_major' => 'เปรียบเทียบกับภาษาหลักของโลก', 'wo_close' => 'เปรียบเทียบกับภาษาที่มีความสัมพันธ์ใกล้ชิด',
         'cmp_caption' => 'เปรียบเทียบกับภาษาที่เกี่ยวข้อง: {family}',
+        'cmp_caption_ipa' => 'เปรียบเทียบกับภาษาที่ออกเสียงใกล้เคียงที่สุด',   // r37 a2#2: columns picked by sound, not family
         'ex_prev' => 'ก่อนหน้า', 'ex_next' => 'ถัดไป', 'ex_page' => 'หน้า', 'ex_pick' => 'ประโยค',
         'th_char' => 'อักษร', 'th_gloss' => 'ความหมาย', 'th_read' => 'การอ่าน', 'th_form' => 'รูปเขียน',
         'where' => 'พื้นที่ที่ใช้พูด',
@@ -1305,6 +1318,7 @@ const SEO_T = [
         'wm_lang_title' => '{w} คำและการออกเสียง',
         'hm_lang_title' => 'การอ่านอักษรจีน',
         'wm_t2' => '{name}: สวัสดี ขอบคุณ และ {w} คำ พร้อมการออกเสียง', 'hm_t2' => '{name}: วิธีอ่านอักษรจีน {n} ตัว', 'hm_t2_words' => '{name}: คำดั้งเดิมที่ตรงกับอักษรจีน {n} ตัว', 'hm_t2_loans' => '{name}: คำยืมภาษาจีนยุคเก่า {n} คำ','wm_q' => '“{word}” ใน{name}พูดว่าอย่างไร? {form}', 'aka' => 'ชื่ออื่น: {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2_hello' => '{name}: สวัสดี และ {w} คำ พร้อมการออกเสียง', 'wm_t2_thanks' => '{name}: ขอบคุณ และ {w} คำ พร้อมการออกเสียง',   // r37 a2#3: the row has only one of the two greetings
         'wm_lang_meta' => 'การออกเสียง {w} คำหลักใน{name} พร้อม IPA และรูปท้องถิ่น บน LangMap Word Map',
         'hm_lang_meta' => 'การอ่านอักษรจีนใน{name} บน LangMap Han Map',
         'wm_index_title' => 'Word Map — {w} คำหลักใน {n} ภาษา',
@@ -1336,6 +1350,7 @@ const SEO_T = [
         'ex_words' => 'Perbandingan kata', 'ex_wordorder' => 'Perbandingan urutan kata', 'ex_han' => 'Perbandingan bacaan Han',
         'wo_major' => 'Bandingkan dengan bahasa utama dunia', 'wo_close' => 'Bandingkan dengan bahasa yang berkerabat dekat',
         'cmp_caption' => 'Dibandingkan dengan bahasa lain dalam klasifikasi yang sama: {family}',
+        'cmp_caption_ipa' => 'Dibandingkan dengan bahasa yang pelafalannya paling mirip',   // r37 a2#2: columns picked by sound, not family
         'ex_prev' => 'Sebelumnya', 'ex_next' => 'Berikutnya', 'ex_page' => 'Halaman', 'ex_pick' => 'Kalimat',
         'th_char' => 'Aksara', 'th_gloss' => 'Arti', 'th_read' => 'Bacaan', 'th_form' => 'Bentuk',
         'where' => 'Tempat dituturkan',
@@ -1371,6 +1386,7 @@ const SEO_T = [
         'wm_lang_title' => '{w} kata & pelafalan',
         'hm_lang_title' => 'Bacaan aksara Han',
         'wm_t2' => '{name}: halo, terima kasih & {w} kata beserta pelafalan', 'hm_t2' => '{name}: cara membaca {n} aksara Han', 'hm_t2_words' => '{name}: kata asli untuk {n} aksara Han', 'hm_t2_loans' => '{name}: {n} kata pinjaman Tionghoa awal','wm_q' => 'Apa bahasa {name}-nya “{word}”? {form}.', 'aka' => 'Disebut juga {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2_hello' => '{name}: halo & {w} kata beserta pelafalan', 'wm_t2_thanks' => '{name}: terima kasih & {w} kata beserta pelafalan',   // r37 a2#3: the row has only one of the two greetings
         'wm_lang_meta' => 'Pelafalan {w} kata inti dalam {name}, dengan IPA dan bentuk lokal, di LangMap Word Map.',
         'hm_lang_meta' => 'Bacaan aksara Han dalam {name} di LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} kata inti di {n} bahasa',
@@ -1402,6 +1418,7 @@ const SEO_T = [
         'ex_words' => 'शब्दों की तुलना', 'ex_wordorder' => 'शब्द-क्रम की तुलना', 'ex_han' => 'हान उच्चारण की तुलना',
         'wo_major' => 'विश्व की प्रमुख भाषाओं से तुलना', 'wo_close' => 'इसी वर्गीकरण की भाषाओं से तुलना',
         'cmp_caption' => 'इसी वर्गीकरण की भाषाओं से तुलना: {family}',
+        'cmp_caption_ipa' => 'सबसे मिलते-जुलते उच्चारण वाली भाषाओं से तुलना',   // r37 a2#2: columns picked by sound, not family
         'ex_prev' => 'पिछला', 'ex_next' => 'अगला', 'ex_page' => 'पृष्ठ', 'ex_pick' => 'वाक्य',
         'th_char' => 'अक्षर', 'th_gloss' => 'अर्थ', 'th_read' => 'उच्चारण', 'th_form' => 'रूप',
         'where' => 'कहाँ बोली जाती है',
@@ -1437,6 +1454,7 @@ const SEO_T = [
         'wm_lang_title' => '{w} शब्द और उच्चारण',
         'hm_lang_title' => 'हान वर्णों के उच्चारण',
         'wm_t2' => '{name} में नमस्ते, धन्यवाद और {w} शब्द — उच्चारण सहित', 'hm_t2' => '{name}: {n} चीनी अक्षर कैसे पढ़े जाते हैं', 'hm_t2_words' => '{name}: {n} चीनी अक्षरों के लिए देशी शब्द', 'hm_t2_loans' => '{name}: {n} प्रारंभिक चीनी उधार-शब्द','wm_q' => '{name} में “{word}” कैसे कहते हैं? {form}।', 'aka' => 'अन्य नाम: {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2_hello' => '{name} में नमस्ते और {w} शब्द — उच्चारण सहित', 'wm_t2_thanks' => '{name} में धन्यवाद और {w} शब्द — उच्चारण सहित',   // r37 a2#3: the row has only one of the two greetings
         'wm_lang_meta' => 'LangMap Word Map पर {name} में {w} मूल शब्दों के उच्चारण, IPA और मूल रूपों सहित।',
         'hm_lang_meta' => 'LangMap Han Map पर {name} में हान वर्णों के उच्चारण।',
         'wm_index_title' => 'Word Map — {n} भाषाओं में {w} मूल शब्द',
@@ -1468,6 +1486,7 @@ const SEO_T = [
         'ex_words' => 'Wörter im Vergleich', 'ex_wordorder' => 'Wortstellung im Vergleich', 'ex_han' => 'Han-Lesungen im Vergleich',
         'wo_major' => 'Mit den wichtigsten Weltsprachen vergleichen', 'wo_close' => 'Mit nah verwandten Sprachen vergleichen',
         'cmp_caption' => 'Verglichen mit verwandten Sprachen: {family}',
+        'cmp_caption_ipa' => 'Verglichen mit den Sprachen mit der ähnlichsten Aussprache',   // r37 a2#2: columns picked by sound, not family
         'ex_prev' => 'Zurück', 'ex_next' => 'Weiter', 'ex_page' => 'Seite', 'ex_pick' => 'Satz',
         'th_char' => 'Schriftzeichen', 'th_gloss' => 'Bedeutung', 'th_read' => 'Lesung', 'th_form' => 'Form',
         'where' => 'Wo die Sprache gesprochen wird',
@@ -1503,6 +1522,7 @@ const SEO_T = [
         'wm_lang_title' => '{w} Wörter & Aussprache',
         'hm_lang_title' => 'Lesungen der Han-Zeichen',
         'wm_t2' => '{name}: Hallo, danke & {w} Wörter mit Aussprache', 'hm_t2' => '{name}: wie {n} chinesische Schriftzeichen gelesen werden', 'hm_t2_words' => '{name}: Erbwörter für {n} chinesische Schriftzeichen', 'hm_t2_loans' => '{name}: {n} frühe chinesische Lehnwörter', 'wm_q' => '{name}: Was heißt „{word}“? {form}.', 'aka' => 'Auch genannt: {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2_hello' => '{name}: Hallo & {w} Wörter mit Aussprache', 'wm_t2_thanks' => '{name}: Danke & {w} Wörter mit Aussprache',   // r37 a2#3: the row has only one of the two greetings
         'wm_lang_meta' => 'Aussprache von {w} Kernwörtern in {name}, mit IPA und einheimischen Formen, auf der LangMap Word Map.',
         'hm_lang_meta' => 'Lesungen der Han-Zeichen in {name} auf der LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} Kernwörter in {n} Sprachen',
@@ -1534,6 +1554,7 @@ const SEO_T = [
         'ex_words' => 'Mots comparés', 'ex_wordorder' => 'Ordre des mots comparé', 'ex_han' => 'Lectures han comparées',
         'wo_major' => 'Comparer avec les grandes langues du monde', 'wo_close' => 'Comparer avec des langues proches',
         'cmp_caption' => 'Comparaison avec les langues de la même famille : {family}',
+        'cmp_caption_ipa' => 'Comparaison avec les langues à la prononciation la plus proche',   // r37 a2#2: columns picked by sound, not family
         'ex_prev' => 'Préc.', 'ex_next' => 'Suiv.', 'ex_page' => 'Page', 'ex_pick' => 'Phrase',
         'th_char' => 'Caractère', 'th_gloss' => 'Sens', 'th_read' => 'Lecture', 'th_form' => 'Forme',
         'where' => 'Aire de diffusion',
@@ -1569,6 +1590,7 @@ const SEO_T = [
         'wm_lang_title' => '{w} mots & prononciations',
         'hm_lang_title' => 'Lectures des caractères han',
         'wm_t2' => '{name} : bonjour, merci et {w} mots avec la prononciation', 'hm_t2' => '{name} : la lecture de {n} caractères chinois', 'hm_t2_words' => '{name} : mots natifs pour {n} caractères chinois', 'hm_t2_loans' => '{name} : {n} emprunts chinois anciens','wm_q' => 'Comment dit-on « {word} » en {name} ? {form}.', 'aka' => 'Aussi appelé {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2_hello' => '{name} : bonjour et {w} mots avec la prononciation', 'wm_t2_thanks' => '{name} : merci et {w} mots avec la prononciation',   // r37 a2#3: the row has only one of the two greetings
         'wm_lang_meta' => 'Prononciations de {w} mots essentiels en {name}, avec API et formes natives, sur la LangMap Word Map.',
         'hm_lang_meta' => 'Lectures des caractères han en {name} sur la LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} mots essentiels dans {n} langues',
@@ -1600,6 +1622,7 @@ const SEO_T = [
         'ex_words' => 'Parole a confronto', 'ex_wordorder' => 'Ordine delle parole a confronto', 'ex_han' => 'Letture han a confronto',
         'wo_major' => 'Confronta con le principali lingue del mondo', 'wo_close' => 'Confronta con lingue della stessa classificazione',
         'cmp_caption' => 'Confronto con lingue della stessa classificazione: {family}',
+        'cmp_caption_ipa' => 'Confronto con le lingue dalla pronuncia più simile',   // r37 a2#2: columns picked by sound, not family
         'ex_prev' => 'Prec.', 'ex_next' => 'Succ.', 'ex_page' => 'Pagina', 'ex_pick' => 'Frase',
         'th_char' => 'Carattere', 'th_gloss' => 'Significato', 'th_read' => 'Lettura', 'th_form' => 'Forma',
         'where' => 'Dove si parla',
@@ -1635,6 +1658,7 @@ const SEO_T = [
         'wm_lang_title' => '{w} parole & pronunce',
         'hm_lang_title' => 'Letture dei caratteri han',
         'wm_t2' => '{name}: ciao, grazie e {w} parole con la pronuncia', 'hm_t2' => '{name}: come si leggono {n} caratteri cinesi', 'hm_t2_words' => '{name}: parole native per {n} caratteri cinesi', 'hm_t2_loans' => '{name}: {n} prestiti cinesi antichi','wm_q' => 'Come si dice “{word}” in {name}? {form}.', 'aka' => 'Detto anche {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2_hello' => '{name}: ciao e {w} parole con la pronuncia', 'wm_t2_thanks' => '{name}: grazie e {w} parole con la pronuncia',   // r37 a2#3: the row has only one of the two greetings
         'wm_lang_meta' => 'Pronunce di {w} parole essenziali in {name}, con IPA e forme native, sulla LangMap Word Map.',
         'hm_lang_meta' => 'Letture dei caratteri han in {name} sulla LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} parole essenziali in {n} lingue',
@@ -1666,6 +1690,7 @@ const SEO_T = [
         'ex_words' => 'Palabras comparadas', 'ex_wordorder' => 'Orden de palabras comparado', 'ex_han' => 'Lecturas han comparadas',
         'wo_major' => 'Comparar con las principales lenguas del mundo', 'wo_close' => 'Comparar con lenguas de clasificación más próxima',
         'cmp_caption' => 'Comparación con otras lenguas de la misma clasificación: {family}',
+        'cmp_caption_ipa' => 'Comparación con las lenguas de pronunciación más parecida',   // r37 a2#2: columns picked by sound, not family
         'ex_prev' => 'Ant.', 'ex_next' => 'Sig.', 'ex_page' => 'Página', 'ex_pick' => 'Frase',
         'th_char' => 'Carácter', 'th_gloss' => 'Significado', 'th_read' => 'Lectura', 'th_form' => 'Forma',
         'where' => 'Dónde se habla',
@@ -1701,6 +1726,7 @@ const SEO_T = [
         'wm_lang_title' => '{w} palabras y pronunciaciones',
         'hm_lang_title' => 'Lecturas de caracteres han',
         'wm_t2' => '{name}: hola, gracias y {w} palabras con pronunciación', 'hm_t2' => '{name}: cómo se leen {n} caracteres chinos', 'hm_t2_words' => '{name}: palabras nativas para {n} caracteres chinos', 'hm_t2_loans' => '{name}: {n} préstamos chinos antiguos','wm_q' => '¿Cómo se dice «{word}» en {name}? {form}.', 'aka' => 'También llamado {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2_hello' => '{name}: hola y {w} palabras con pronunciación', 'wm_t2_thanks' => '{name}: gracias y {w} palabras con pronunciación',   // r37 a2#3: the row has only one of the two greetings
         'wm_lang_meta' => 'Pronunciaciones de {w} palabras esenciales en {name}, con AFI y formas nativas, en el LangMap Word Map.',
         'hm_lang_meta' => 'Lecturas de caracteres han en {name} en el LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} palabras esenciales en {n} lenguas',
@@ -1732,6 +1758,7 @@ const SEO_T = [
         'ex_words' => 'Palavras comparadas', 'ex_wordorder' => 'Ordem das palavras comparada', 'ex_han' => 'Leituras han comparadas',
         'wo_major' => 'Comparar com as principais línguas do mundo', 'wo_close' => 'Comparar com línguas da mesma classificação',
         'cmp_caption' => 'Comparação com línguas da mesma classificação: {family}',
+        'cmp_caption_ipa' => 'Comparação com as línguas de pronúncia mais próxima',   // r37 a2#2: columns picked by sound, not family
         'ex_prev' => 'Ant.', 'ex_next' => 'Próx.', 'ex_page' => 'Página', 'ex_pick' => 'Frase',
         'th_char' => 'Caractere', 'th_gloss' => 'Significado', 'th_read' => 'Leitura', 'th_form' => 'Forma',
         'where' => 'Onde se fala',
@@ -1767,6 +1794,7 @@ const SEO_T = [
         'wm_lang_title' => '{w} palavras e pronúncias',
         'hm_lang_title' => 'Leituras de caracteres han',
         'wm_t2' => '{name}: olá, obrigado e {w} palavras com pronúncia', 'hm_t2' => '{name}: como se leem {n} caracteres chineses', 'hm_t2_words' => '{name}: palavras nativas para {n} caracteres chineses', 'hm_t2_loans' => '{name}: {n} empréstimos chineses antigos','wm_q' => 'Como se diz “{word}” em {name}? {form}.', 'aka' => 'Também chamado {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2_hello' => '{name}: olá e {w} palavras com pronúncia', 'wm_t2_thanks' => '{name}: obrigado e {w} palavras com pronúncia',   // r37 a2#3: the row has only one of the two greetings
         'wm_lang_meta' => 'Pronúncias de {w} palavras essenciais em {name}, com AFI e formas nativas, no LangMap Word Map.',
         'hm_lang_meta' => 'Leituras de caracteres han em {name} no LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} palavras essenciais em {n} línguas',
@@ -1798,6 +1826,7 @@ const SEO_T = [
         'ex_words' => 'Сравнение слов', 'ex_wordorder' => 'Сравнение порядка слов', 'ex_han' => 'Сравнение чтений ханьцзы',
         'wo_major' => 'Сравнить с основными языками мира', 'wo_close' => 'Сравнить с близкородственными языками',
         'cmp_caption' => 'Сравнение с родственными языками: {family}',
+        'cmp_caption_ipa' => 'Сравнение с языками с наиболее близким произношением',   // r37 a2#2: columns picked by sound, not family
         'ex_prev' => 'Назад', 'ex_next' => 'Вперёд', 'ex_page' => 'Страница', 'ex_pick' => 'Предложение',
         'th_char' => 'Иероглиф', 'th_gloss' => 'Значение', 'th_read' => 'Чтение', 'th_form' => 'Форма',
         'where' => 'Где на нём говорят',
@@ -1836,6 +1865,7 @@ const SEO_T = [
         'wm_lang_title' => ['one' => '{w} слово и произношение', 'few' => '{w} слова и произношение', 'many' => '{w} слов и произношение', 'other' => '{w} слов и произношение'],
         'hm_lang_title' => 'Чтения ханьских иероглифов',
         'wm_t2' => ['one' => '{name}: «привет», «спасибо» и {w} слово с произношением', 'few' => '{name}: «привет», «спасибо» и {w} слова с произношением', 'many' => '{name}: «привет», «спасибо» и {w} слов с произношением', 'other' => '{name}: «привет», «спасибо» и {w} слов с произношением'], 'hm_t2' => ['one' => '{name}: как читается {n} иероглиф', 'few' => '{name}: как читаются {n} иероглифа', 'many' => '{name}: как читаются {n} иероглифов', 'other' => '{name}: как читаются {n} иероглифов'], 'hm_t2_words' => ['one' => '{name}: исконные слова для {n} иероглифа', 'other' => '{name}: исконные слова для {n} иероглифов'], 'hm_t2_loans' => ['one' => '{name}: {n} раннее китайское заимствование', 'few' => '{name}: {n} ранних китайских заимствования', 'other' => '{name}: {n} ранних китайских заимствований'], 'wm_q' => '{name}: как сказать «{word}»? {form}.', 'aka' => 'Другие названия: {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2_hello' => ['one' => '{name}: «привет» и {w} слово с произношением', 'few' => '{name}: «привет» и {w} слова с произношением', 'many' => '{name}: «привет» и {w} слов с произношением', 'other' => '{name}: «привет» и {w} слов с произношением'], 'wm_t2_thanks' => ['one' => '{name}: «спасибо» и {w} слово с произношением', 'few' => '{name}: «спасибо» и {w} слова с произношением', 'many' => '{name}: «спасибо» и {w} слов с произношением', 'other' => '{name}: «спасибо» и {w} слов с произношением'],   // r37 a2#3: the row has only one of the two greetings
         'wm_lang_meta' => ['one' => '{name}: произношение {w} основного слова с МФА и исконными формами на LangMap Word Map.', 'other' => '{name}: произношение {w} основных слов с МФА и исконными формами на LangMap Word Map.'],
         'hm_lang_meta' => '{name}: чтения ханьских иероглифов на LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} основных слов в {n} языках',
@@ -1867,6 +1897,7 @@ const SEO_T = [
         'ex_words' => 'Порівняння слів', 'ex_wordorder' => 'Порівняння порядку слів', 'ex_han' => 'Порівняння читань ханьцзи',
         'wo_major' => 'Порівняти з основними мовами світу', 'wo_close' => 'Порівняти з мовами тієї самої класифікації',
         'cmp_caption' => 'Порівняння з мовами тієї самої класифікації: {family}',
+        'cmp_caption_ipa' => 'Порівняння з мовами з найближчою вимовою',   // r37 a2#2: columns picked by sound, not family
         'ex_prev' => 'Назад', 'ex_next' => 'Далі', 'ex_page' => 'Сторінка', 'ex_pick' => 'Речення',
         'th_char' => 'Ієрогліф', 'th_gloss' => 'Значення', 'th_read' => 'Читання', 'th_form' => 'Форма',
         'where' => 'Ареал поширення',
@@ -1903,6 +1934,7 @@ const SEO_T = [
         'wm_lang_title' => ['one' => '{w} слово і вимова', 'few' => '{w} слова і вимова', 'many' => '{w} слів і вимова', 'other' => '{w} слів і вимова'],
         'hm_lang_title' => 'Читання ханьських ієрогліфів',
         'wm_t2' => ['one' => '{name}: «привіт», «дякую» та {w} слово з вимовою', 'few' => '{name}: «привіт», «дякую» та {w} слова з вимовою', 'many' => '{name}: «привіт», «дякую» та {w} слів з вимовою', 'other' => '{name}: «привіт», «дякую» та {w} слів з вимовою'], 'hm_t2' => ['one' => '{name}: як читається {n} ієрогліф', 'few' => '{name}: як читаються {n} ієрогліфи', 'many' => '{name}: як читаються {n} ієрогліфів', 'other' => '{name}: як читаються {n} ієрогліфів'], 'hm_t2_words' => ['one' => '{name}: питомі слова для {n} ієрогліфа', 'other' => '{name}: питомі слова для {n} ієрогліфів'], 'hm_t2_loans' => ['one' => '{name}: {n} раннє китайське запозичення', 'few' => '{name}: {n} ранні китайські запозичення', 'other' => '{name}: {n} ранніх китайських запозичень'], 'wm_q' => '{name}: як сказати «{word}»? {form}.', 'aka' => 'Інші назви: {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2_hello' => ['one' => '{name}: «привіт» та {w} слово з вимовою', 'few' => '{name}: «привіт» та {w} слова з вимовою', 'many' => '{name}: «привіт» та {w} слів з вимовою', 'other' => '{name}: «привіт» та {w} слів з вимовою'], 'wm_t2_thanks' => ['one' => '{name}: «дякую» та {w} слово з вимовою', 'few' => '{name}: «дякую» та {w} слова з вимовою', 'many' => '{name}: «дякую» та {w} слів з вимовою', 'other' => '{name}: «дякую» та {w} слів з вимовою'],   // r37 a2#3: the row has only one of the two greetings
         'wm_lang_meta' => ['one' => '{name}: вимова {w} основного слова з МФА та питомими формами на LangMap Word Map.', 'other' => '{name}: вимова {w} основних слів з МФА та питомими формами на LangMap Word Map.'],
         'hm_lang_meta' => '{name}: читання ханьських ієрогліфів на LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} основних слів у {n} мовах',
@@ -1934,6 +1966,7 @@ const SEO_T = [
         'ex_words' => 'مقارنة الكلمات', 'ex_wordorder' => 'مقارنة ترتيب الكلمات', 'ex_han' => 'مقارنة قراءات الهان',
         'wo_major' => 'قارن بكبرى لغات العالم', 'wo_close' => 'قارن بلغات وثيقة القرابة',
         'cmp_caption' => 'بالمقارنة مع لغات ذات صلة: {family}',
+        'cmp_caption_ipa' => 'بالمقارنة مع اللغات الأقرب نطقًا',   // r37 a2#2: columns picked by sound, not family
         'ex_prev' => 'السابق', 'ex_next' => 'التالي', 'ex_page' => 'صفحة', 'ex_pick' => 'جملة',
         'th_char' => 'الحرف', 'th_gloss' => 'المعنى', 'th_read' => 'القراءة', 'th_form' => 'الشكل',
         'where' => 'أين تُستخدم؟',
@@ -1971,6 +2004,7 @@ const SEO_T = [
         'wm_lang_title' => '{w} كلمة والنطق',
         'hm_lang_title' => 'قراءات الحروف الهانية',
         'wm_t2' => ['few' => '{name}: مرحبًا وشكرًا و{w} كلمات مع النطق', 'many' => '{name}: مرحبًا وشكرًا و{w} كلمةً مع النطق', 'other' => '{name}: مرحبًا وشكرًا و{w} كلمة مع النطق'], 'hm_t2' => ['few' => '{name}: كيف تُقرأ {n} حروف صينية', 'many' => '{name}: كيف تُقرأ {n} حرفًا صينيًا', 'other' => '{name}: كيف تُقرأ {n} حرف صيني'], 'hm_t2_words' => '{name}: كلمات أصلية لمعاني الحروف الصينية ({n})', 'hm_t2_loans' => '{name}: كلمات صينية مقترضة مبكرة ({n})','wm_q' => 'كيف تقول «{word}» ب{name}؟ {form}.', 'aka' => 'تُسمّى أيضًا: {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2_hello' => ['few' => '{name}: مرحبًا و{w} كلمات مع النطق', 'many' => '{name}: مرحبًا و{w} كلمةً مع النطق', 'other' => '{name}: مرحبًا و{w} كلمة مع النطق'], 'wm_t2_thanks' => ['few' => '{name}: شكرًا و{w} كلمات مع النطق', 'many' => '{name}: شكرًا و{w} كلمةً مع النطق', 'other' => '{name}: شكرًا و{w} كلمة مع النطق'],   // r37 a2#3: the row has only one of the two greetings
         'wm_lang_meta' => 'نطق {w} كلمة أساسية في {name}، مع الأبجدية الصوتية الدولية والأشكال المحلية، على LangMap Word Map.',
         'hm_lang_meta' => 'قراءات الحروف الهانية في {name} على LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} كلمة أساسية عبر {n} لغة',
@@ -2002,6 +2036,7 @@ const SEO_T = [
         'ex_words' => 'השוואת מילים', 'ex_wordorder' => 'השוואת סדר מילים', 'ex_han' => 'השוואת קריאות האן',
         'wo_major' => 'השוואה לשפות העולם המרכזיות', 'wo_close' => 'השוואה לשפות מאותו סיווג',
         'cmp_caption' => 'בהשוואה לשפות מאותו סיווג: {family}',
+        'cmp_caption_ipa' => 'בהשוואה לשפות שההגייה שלהן הקרובה ביותר',   // r37 a2#2: columns picked by sound, not family
         'ex_prev' => 'הקודם', 'ex_next' => 'הבא', 'ex_page' => 'עמוד', 'ex_pick' => 'משפט',
         'th_char' => 'תו', 'th_gloss' => 'משמעות', 'th_read' => 'קריאה', 'th_form' => 'צורה',
         'where' => 'אזור הדיבור',
@@ -2037,6 +2072,7 @@ const SEO_T = [
         'wm_lang_title' => '{w} מילים והגייה',
         'hm_lang_title' => 'קריאות תווי האן',
         'wm_t2' => '{name}: שלום, תודה ו־{w} מילים עם הגייה', 'hm_t2' => '{name}: איך נקראים {n} סימנים סיניים', 'hm_t2_words' => '{name}: מילים מקוריות עבור {n} סימנים סיניים', 'hm_t2_loans' => '{name}: {n} מילים שאולות סיניות קדומות','wm_q' => 'איך אומרים „{word}” ב{name}? {form}.', 'aka' => 'נקראת גם: {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2_hello' => '{name}: שלום ו־{w} מילים עם הגייה', 'wm_t2_thanks' => '{name}: תודה ו־{w} מילים עם הגייה',   // r37 a2#3: the row has only one of the two greetings
         'wm_lang_meta' => 'הגיית {w} מילים בסיסיות ב{name}, עם IPA וצורות מקומיות, ב-LangMap Word Map.',
         'hm_lang_meta' => 'קריאות תווי האן ב{name} ב-LangMap Han Map.',
         'wm_index_title' => 'Word Map — {w} מילים בסיסיות ב-{n} שפות',
@@ -2068,6 +2104,7 @@ const SEO_T = [
         'ex_words' => 'Ulinganishaji wa maneno', 'ex_wordorder' => 'Ulinganishaji wa mpangilio wa maneno', 'ex_han' => 'Ulinganishaji wa usomaji wa Han',
         'wo_major' => 'Linganisha na lugha kuu za dunia', 'wo_close' => 'Linganisha na lugha za uainishaji ule ule',
         'cmp_caption' => 'Imelinganishwa na lugha zenye uainishaji ule ule: {family}',
+        'cmp_caption_ipa' => 'Imelinganishwa na lugha zenye matamshi yanayokaribiana zaidi',   // r37 a2#2: columns picked by sound, not family
         'ex_prev' => 'Iliyotangulia', 'ex_next' => 'Inayofuata', 'ex_page' => 'Ukurasa', 'ex_pick' => 'Sentensi',
         'th_char' => 'Herufi', 'th_gloss' => 'Maana', 'th_read' => 'Usomaji', 'th_form' => 'Umbo',
         'where' => 'Maeneo inakozungumzwa',
@@ -2103,6 +2140,7 @@ const SEO_T = [
         'wm_lang_title' => 'Maneno {w} na matamshi',
         'hm_lang_title' => 'Usomaji wa herufi za Han',
         'wm_t2' => '{name}: habari, asante na maneno {w} pamoja na matamshi', 'hm_t2' => '{name}: jinsi herufi {n} za Kichina zinavyosomwa', 'hm_t2_words' => '{name}: maneno asilia kwa herufi {n} za Kichina', 'hm_t2_loans' => '{name}: maneno {n} ya mkopo ya Kichina ya mapema','wm_q' => 'Unasemaje “{word}” kwa {name}? {form}.', 'aka' => 'Pia huitwa {list}',   // r28 search titles / snippet question / aliases
+        'wm_t2_hello' => '{name}: habari na maneno {w} pamoja na matamshi', 'wm_t2_thanks' => '{name}: asante na maneno {w} pamoja na matamshi',   // r37 a2#3: the row has only one of the two greetings
         'wm_lang_meta' => 'Matamshi ya maneno {w} ya msingi katika {name}, yenye IPA na maumbo asilia, kwenye LangMap Word Map.',
         'hm_lang_meta' => 'Usomaji wa herufi za Han katika {name} kwenye LangMap Han Map.',
         'wm_index_title' => 'Word Map — Maneno {w} ya msingi katika lugha {n}',
@@ -3482,7 +3520,7 @@ function seo_map_embed(?float $lat, ?float $lng, string $label, int $zoom = 5, s
   }
   function init() {
     if (typeof L === 'undefined') return;
-    var map = L.map(el, { scrollWheelZoom: false, attributionControl: true, zoomControl: false })
+    var map = L.map(el, { scrollWheelZoom: false, attributionControl: true, zoomControl: false, zoomSnap: 0.25, zoomDelta: 0.5 /* finer zoom, as on every map (owner 2026-10-19) */ })
       .setView([{$lat}, {$lng}], {$zoom});
     L.control.zoom({ zoomInTitle: {$jsZin}, zoomOutTitle: {$jsZout} }).addTo(map);
     // The Leaflet credit link's English title ("A JavaScript library for interactive maps").
@@ -4417,7 +4455,7 @@ function seo_lang_name(array $langs, string $code, string $ui = 'en'): string
 /** Traditional → simplified for the characters language names use (zh/yue alias folding). */
 function seo_zh_fold(string $t): string
 {
-    return strtr($t, ['語' => '语', '話' => '话', '粵' => '粤', '漢' => '汉', '國' => '国', '東' => '东', '閩' => '闽', '廣' => '广', '灣' => '湾', '臺' => '台', '門' => '门', '陽' => '阳', '蘇' => '苏', '寧' => '宁', '貴' => '贵', '慶' => '庆', '鄉' => '乡', '韓' => '韩', '鮮' => '鲜', '滿' => '满', '島' => '岛', '縣' => '县', '區' => '区', '雲' => '云', '贛' => '赣', '開' => '开', '濟' => '济', '寶' => '宝', '劇' => '剧', '頭' => '头', '僑' => '侨', '亞' => '亚', '馬' => '马', '來' => '来', '興' => '兴', '華' => '华', '連' => '连', '鹽' => '盐', '遼' => '辽', '膠' => '胶', '蘭' => '兰', '銀' => '银', '時' => '时', '說' => '说', '學' => '学', '書' => '书', '讀' => '读', '揚' => '扬']);
+    return strtr($t, ['語' => '语', '話' => '话', '粵' => '粤', '漢' => '汉', '國' => '国', '東' => '东', '閩' => '闽', '廣' => '广', '灣' => '湾', '臺' => '台', '門' => '门', '陽' => '阳', '蘇' => '苏', '寧' => '宁', '貴' => '贵', '慶' => '庆', '鄉' => '乡', '韓' => '韩', '鮮' => '鲜', '滿' => '满', '島' => '岛', '縣' => '县', '區' => '区', '雲' => '云', '贛' => '赣', '開' => '开', '濟' => '济', '寶' => '宝', '劇' => '剧', '頭' => '头', '僑' => '侨', '亞' => '亚', '馬' => '马', '來' => '来', '興' => '兴', '華' => '华', '連' => '连', '鹽' => '盐', '遼' => '辽', '膠' => '胶', '蘭' => '兰', '銀' => '银', '時' => '时', '說' => '说', '學' => '学', '書' => '书', '讀' => '读', '揚' => '扬', '吳' => '吴', '呉' => '吴']);
 }
 
 /**
@@ -4430,7 +4468,8 @@ function seo_native_redundant(string $name, string $native): bool
     $native = trim($native);
     if ($native === '' || $native === $name) return true;
     if (mb_stripos($name, $native) !== false) return true;
-    return seo_zh_fold($name) === seo_zh_fold($native);
+    // Folded too, so 上海呉語 / 上海吴语 already contain 吳語 (rally r37 a2#4).
+    return mb_stripos(seo_zh_fold($name), seo_zh_fold($native)) !== false;
 }
 
 function seo_lang_aliases(string $ui, string $code, string $primary, string $native, int $max = 3, array $extra = []): array
@@ -4553,7 +4592,9 @@ function seo_lang_meta_lead(array $pairs, string $rest, string $ui): string
     $eq = $cjk ? '＝' : ' = ';
     $sep = $cjk ? '、' : ($ui === 'ar' ? '، ' : ', ');
     $lead = implode($sep, array_map(static fn($p) => $p[0] . $eq . $p[1], $pairs));
-    return seo_clip($lead . ($cjk ? '。' : '. ') . $rest, 160);
+    // Hindi closes a sentence with a danda, Thai with a space (rally r37 a2#5).
+    $stop = $cjk ? '。' : ($ui === 'hi' ? '। ' : ($ui === 'th' ? ' ' : '. '));
+    return seo_clip($lead . $stop . $rest, 160);
 }
 
 /** The family string for a code, normalising the two map shapes. */
@@ -4775,19 +4816,25 @@ function seo_ipa_sim(string $a, string $b): float
     return 1.0 - levenshtein($a, $b) / $m;
 }
 
-/** Per-item IPA map for a lang record: word-id/char-key => IPA string. */
+/** "—", "-", "?" or blank: an empty cell, not a form (rally r37 a2#1). */
+function seo_is_placeholder(string $v): bool
+{
+    return (bool) preg_match('/^[\s\x{2014}\x{2013}\-?]*$/u', $v);
+}
+
+/** Per-item IPA map for a lang record: word-id/char-key => IPA string. Placeholders are skipped. */
 function seo_ipa_map(array $l, string $kind): array
 {
     $out = [];
     if ($kind === 'readings') {
         foreach (($l['readings'] ?? []) as $key => $arr) {
             $ipa = (is_array($arr) && isset($arr[0]['ipa'])) ? (string) $arr[0]['ipa'] : '';
-            if ($ipa !== '') $out[$key] = $ipa;
+            if (!seo_is_placeholder($ipa)) $out[$key] = $ipa;
         }
     } else {
         foreach (($l['words'] ?? []) as $id => $pair) {
             $ipa = is_array($pair) ? (string) ($pair[1] ?? '') : '';
-            if ($ipa !== '') $out[$id] = $ipa;
+            if (!seo_is_placeholder($ipa)) $out[$id] = $ipa;
         }
     }
     return $out;
@@ -4798,14 +4845,17 @@ function seo_ipa_map(array $l, string $kind): array
  * shared items — used to order the Words / Han-readings comparison columns by
  * how phonetically close each language is to the page's language.
  */
-function seo_ipa_rank(array $langs, string $self, string $kind, int $max = 6): array
+function seo_ipa_rank(array $langs, string $self, string $kind, int $max = 6, bool $sameFamily = false): array
 {
     $selfIpa = seo_ipa_map($langs[$self] ?? [], $kind);
     if (count($selfIpa) < 3) return [];
     $minShared = $kind === 'readings' ? 8 : 5;
+    $selfLv = $sameFamily ? seo_family_levels(seo_lang_family($langs[$self] ?? [])) : [];
+    if ($sameFamily && !$selfLv) return [];
     $scored = [];
     foreach ($langs as $code => $l) {
         if ((string) $code === $self) continue;
+        if ($sameFamily && seo_family_closeness($selfLv, seo_family_levels(seo_lang_family($l))) < 1) continue;
         if (empty($l[$kind]) || !is_array($l[$kind])) continue;
         $cand = seo_ipa_map($l, $kind);
         $sum = 0.0; $n = 0;
@@ -4818,6 +4868,50 @@ function seo_ipa_rank(array $langs, string $self, string $kind, int $max = 6): a
     }
     usort($scored, fn($a, $b) => ($b['s'] <=> $a['s']) ?: ($b['k'] <=> $a['k']));
     return array_map(fn($e) => $e['c'], array_slice($scored, 0, $max));
+}
+
+/**
+ * Comparison columns and the family they all share (rally r37 a2#2): the
+ * phonetically closest languages of the same family when at least two
+ * qualify, otherwise the phonetically closest of any family, captioned as
+ * such ('' family) rather than as "the same classification".
+ *
+ * The family is the page's full string only when every column shares all of
+ * it; otherwise just its top level ("Sino-Tibetan", not "Sino-Tibetan > Bai"
+ * over Sinitic columns).
+ *
+ * @return array{0: string[], 1: string} [columns, raw family to caption]
+ */
+function seo_cmp_columns(array $langs, string $self, string $kind): array
+{
+    $fam = seo_ipa_rank($langs, $self, $kind, 6, true);
+    if (count($fam) < 2) return [seo_ipa_rank($langs, $self, $kind), ''];
+    $full = seo_lang_family($langs[$self] ?? []);
+    $lv = seo_family_levels($full);
+    $depth = count($lv);
+    foreach ($fam as $c) $depth = min($depth, seo_family_closeness($lv, seo_family_levels(seo_lang_family($langs[$c] ?? []))));
+    if ($depth >= count($lv)) return [$fam, $full];
+    // The deepest shared prefix the data itself writes as a family somewhere
+    // ("Indo-European (Romance)"), so it has translations; else the top level.
+    $parts = array_values(array_filter(array_map('trim', preg_split('/[()（）｜|·›»>]/u', $full)), fn($x) => $x !== ''));
+    $known = seo_data('meta_i18n')['fields'] ?? [];
+    for ($d = min($depth, count($parts)); $d >= 2; $d--) {
+        $head = array_slice($parts, 0, $d);
+        foreach ([$head[0] . ' (' . implode(', ', array_slice($head, 1)) . ')', implode(' > ', $head)] as $cand) {
+            if (isset($known[$cand])) return [$fam, $cand];
+        }
+    }
+    return [$fam, $parts[0] ?? $full];
+}
+
+/** Caption label for a family prefix from seo_cmp_columns: never a deeper level than the columns share. */
+function seo_cmp_family_label(string $ui, string $fam, string $full): string
+{
+    if ($fam === $full || isset((seo_data('meta_i18n')['fields'] ?? [])[$fam])) return seo_meta_value($ui, $fam);
+    $t = seo_family_coarse_label($ui, $fam, $full);
+    // A "A > B > C" translation the coarse fallback could not shorten: its top level.
+    if (preg_match('/^(.*?)\s*>/u', $t, $m) && trim($m[1]) !== '') $t = trim($m[1]);
+    return $t;
 }
 
 /**
@@ -4851,15 +4945,15 @@ function seo_comparisons(string $map, string $code, string $ui,
 
     // --- Section 1: Words comparison ----------------------------------------
     $wMine = $wmLangs[$code]['words'] ?? [];
-    $wSibs = $wMine ? seo_ipa_rank($wmLangs, $code, 'words') : [];
-    $wFamily = $wMine ? seo_lang_family($wmLangs[$code] ?? []) : '';
+    [$wSibs, $wFamily] = $wMine ? seo_cmp_columns($wmLangs, $code, 'words') : [[], ''];
+    $wFull = $wMine ? seo_lang_family($wmLangs[$code] ?? []) : '';
     // Columns: anchor first, then siblings.
     $wCols = $wMine ? array_merge([$code], $wSibs) : [];
 
     // --- Section 3: Han readings comparison ---------------------------------
     $hMine = $hmLangs[$code]['readings'] ?? [];
-    $hSibs = $hMine ? seo_ipa_rank($hmLangs, $code, 'readings') : [];
-    $hFamily = $hMine ? seo_lang_family($hmLangs[$code] ?? []) : '';
+    [$hSibs, $hFamily] = $hMine ? seo_cmp_columns($hmLangs, $code, 'readings') : [[], ''];
+    $hFull = $hMine ? seo_lang_family($hmLangs[$code] ?? []) : '';
     $hCols = $hMine ? array_merge([$code], $hSibs) : [];
 
     // --- Section 2: Word order comparison -----------------------------------
@@ -4967,7 +5061,7 @@ function seo_comparisons(string $map, string $code, string $ui,
             $id = $w['id'] ?? null;
             if ($id === null) continue;
             $mine = $wMine[$id] ?? null;
-            if (!$mine || (($mine[0] ?? '') === '' && ($mine[1] ?? '') === '')) continue;
+            if (!$mine || (seo_is_placeholder((string) ($mine[0] ?? '')) && seo_is_placeholder((string) ($mine[1] ?? '')))) continue;
             $rows[] = ['id' => $id, 'label' => seo_pick($w['label'] ?? [], $ui) ?: $id];
         }
         $pages = array_chunk($rows, $perW);
@@ -4975,7 +5069,7 @@ function seo_comparisons(string $map, string $code, string $ui,
     ?>
 <section class="seo-ex" data-ex="words" data-uid="<?= e($uid) ?>" data-pages="<?= $np ?>">
   <h2><?= e(seo_t($ui, 'ex_words')) ?></h2>
-  <?php if ($wFamily !== ''): ?><p class="ex-note"><?= seo_family_line($ui, 'cmp_caption', seo_meta_value($ui, $wFamily), $wFamily) ?></p><?php endif; ?>
+  <?php if ($wFamily !== ''): ?><p class="ex-note"><?= seo_family_line($ui, 'cmp_caption', seo_cmp_family_label($ui, $wFamily, $wFull), $wFull) ?></p><?php else: ?><p class="ex-note"><?= e(seo_t($ui, 'cmp_caption_ipa')) ?></p><?php endif; ?>
   <div class="seo-cmp-wrap">
   <table class="seo-cmp-tbl">
     <thead>
@@ -4995,7 +5089,7 @@ function seo_comparisons(string $map, string $code, string $ui,
             $anchor = $ci === 0; ?>
         <td<?= $anchor ? ' class="cmp-anchor"' : '' ?>>
           <span class="cmp-sf" lang="<?= e(seo_lang_attr($c)) ?>"><?= e($surface !== '' ? $surface : '—') ?></span>
-          <?php if ($ipa !== ''): ?><span class="cmp-ipa"><bdi dir="ltr">/<?= e($ipa) ?>/</bdi></span><?php endif; ?>
+          <?php if (!seo_is_placeholder((string) $ipa)): ?><span class="cmp-ipa"><bdi dir="ltr">/<?= e($ipa) ?>/</bdi></span><?php endif; ?>
         </td>
         <?php endforeach; ?>
       </tr>
@@ -5151,7 +5245,7 @@ function seo_comparisons(string $map, string $code, string $ui,
             $mine = $hMine[$key] ?? null;
             if (!$mine) continue;
             $mine = array_values(array_filter($mine, fn($r) =>
-                ($r['surface'] ?? '') !== '' || ($r['ipa'] ?? '') !== ''));
+                !seo_is_placeholder((string) ($r['surface'] ?? '')) || !seo_is_placeholder((string) ($r['ipa'] ?? ''))));
             if (!$mine) continue;
             $rows[] = ['key' => $key, 'char' => $c['char'] ?? ''];
         }
@@ -5161,7 +5255,7 @@ function seo_comparisons(string $map, string $code, string $ui,
         $rd = function (?array $readings, string $c) use ($ui): string {
             if (!$readings) return '<span class="cmp-sf">—</span>';
             $readings = array_values(array_filter($readings, fn($r) =>
-                ($r['surface'] ?? '') !== '' || ($r['ipa'] ?? '') !== ''));
+                !seo_is_placeholder((string) ($r['surface'] ?? '')) || !seo_is_placeholder((string) ($r['ipa'] ?? ''))));
             if (!$readings) return '<span class="cmp-sf">—</span>';
             $multi = count($readings) > 1;
             $out = '';
@@ -5170,7 +5264,7 @@ function seo_comparisons(string $map, string $code, string $ui,
                 $out .= '<span class="cmp-rd">';
                 if ($multi && $label !== '') $out .= '<span class="cmp-rl">' . seo_reading_label($ui, $label) . '</span>';
                 if ($surface !== '') $out .= '<span class="cmp-sf" style="display:inline" lang="' . e(seo_lang_attr($c)) . '">' . e($surface) . '</span> ';
-                if ($ipa !== '') $out .= '<span class="cmp-ipa" style="display:inline"><bdi dir="ltr">/' . e($ipa) . '/</bdi></span>';
+                if (!seo_is_placeholder((string) $ipa)) $out .= '<span class="cmp-ipa" style="display:inline"><bdi dir="ltr">/' . e($ipa) . '/</bdi></span>';
                 $out .= '</span>';
             }
             return $out;
@@ -5178,7 +5272,7 @@ function seo_comparisons(string $map, string $code, string $ui,
     ?>
 <section class="seo-ex" data-ex="han" data-uid="<?= e($uid) ?>" data-pages="<?= $np ?>">
   <h2><?= e(seo_t($ui, 'ex_han')) ?></h2>
-  <?php if ($hFamily !== ''): ?><p class="ex-note"><?= seo_family_line($ui, 'cmp_caption', seo_meta_value($ui, $hFamily), $hFamily) ?></p><?php endif; ?>
+  <?php if ($hFamily !== ''): ?><p class="ex-note"><?= seo_family_line($ui, 'cmp_caption', seo_cmp_family_label($ui, $hFamily, $hFull), $hFull) ?></p><?php else: ?><p class="ex-note"><?= e(seo_t($ui, 'cmp_caption_ipa')) ?></p><?php endif; ?>
   <div class="seo-cmp-wrap">
   <table class="seo-cmp-tbl">
     <thead>

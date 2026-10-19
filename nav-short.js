@@ -1136,10 +1136,16 @@
             stop(); btn = b; n = 0; fired = false;
             t = setTimeout(tick, 380);
         }, true);
-        ['pointerup', 'pointercancel', 'pointerleave', 'blur'].forEach(function (ev) { (ev === 'blur' ? window : document).addEventListener(ev, stop, true); });
+        ['pointerup', 'pointercancel'].forEach(function (ev) { document.addEventListener(ev, stop, true); });
+        // pointerleave does not bubble: watch the held button itself. A capture
+        // blur on window heard the gear losing focus to the size button and
+        // stopped the first mouse hold (r36).
+        document.addEventListener('pointerout', function (e) { if (btn && e.target === btn && !btn.contains(e.relatedTarget)) { stop(); fired = false; } }, true);
+        window.addEventListener('blur', function (e) { if (e.target === window) { stop(); fired = false; } });
         // The click that ends a hold must not add one more step.
         document.addEventListener('click', function (e) {
-            if (!fired || !e.isTrusted) return;
+            if (!e.isTrusted || !e.detail) { fired = false; return; }   // keyboard click: never swallowed
+            if (!fired) return;
             var b = e.target.closest && e.target.closest('.size-step-btn'); if (!b) return;
             fired = false; e.stopImmediatePropagation(); e.preventDefault();
         }, true);

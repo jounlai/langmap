@@ -1109,6 +1109,42 @@
         _creditDlg.hidden = false;
         setTimeout(function () { var a = _creditDlg.querySelector('a'); if (a) a.focus(); }, 0);
     }
+    // Font-size +/−: press and hold to keep stepping, faster the longer the
+    // hold (owner 2026-10-19: max size took dozens of clicks). A tap is still
+    // one step. Delegated, so every page's .size-step-btn gets it.
+    (function sizeHold() {
+        var t = null, btn = null, n = 0, fired = false;
+        var stop = function () { if (t) clearTimeout(t); t = null; btn = null; };
+        var tick = function () {
+            if (!btn || btn.disabled) return stop();
+            fired = true; n++;
+            // Word/Han Map: each step redraws every label (~0.3 s), so clicks
+            // alone cannot go fast. Grow the jump instead: 1,2,4,7,10 steps.
+            var rng = btn.getAttribute('aria-controls') && document.getElementById(btn.getAttribute('aria-controls'));
+            if (rng && rng.type === 'range') {
+                var k = [1, 2, 4, 7, 10][Math.min(4, n - 1)], st = 10;
+                var dir = /up|inc/.test(btn.id) ? 1 : -1;
+                var v = Math.max(+rng.min, Math.min(+rng.max, (+rng.value) + dir * k * st));
+                if (v !== +rng.value) { rng.value = String(v); rng.dispatchEvent(new Event('input')); rng.dispatchEvent(new Event('change')); }
+                if (v === +rng.min || v === +rng.max) return stop();
+            } else btn.click();
+            t = setTimeout(tick, Math.max(45, 160 - n * 18));   // 160 → 45 ms
+        };
+        document.addEventListener('pointerdown', function (e) {
+            var b = e.target.closest && e.target.closest('.size-step-btn');
+            if (!b || b.disabled || e.button > 0) return;
+            stop(); btn = b; n = 0; fired = false;
+            t = setTimeout(tick, 380);
+        }, true);
+        ['pointerup', 'pointercancel', 'pointerleave', 'blur'].forEach(function (ev) { (ev === 'blur' ? window : document).addEventListener(ev, stop, true); });
+        // The click that ends a hold must not add one more step.
+        document.addEventListener('click', function (e) {
+            if (!fired || !e.isTrusted) return;
+            var b = e.target.closest && e.target.closest('.size-step-btn'); if (!b) return;
+            fired = false; e.stopImmediatePropagation(); e.preventDefault();
+        }, true);
+        document.addEventListener('contextmenu', function (e) { if (e.target.closest && e.target.closest('.size-step-btn')) e.preventDefault(); }, true);
+    })();
     // EXPERIMENT (owner 2026-10-19): stand the credit's little dancer on the
     // text baseline. The text and globe stay where the flex centring puts them;
     // only the dancer moves. The baseline depends on the reader's font, so it

@@ -1998,22 +1998,22 @@ html:is([lang="ar"], [lang="he"]) .header-nav :is(.header-nav-link, .header-nav-
   100%{transform:translateY(0) rotate(360deg)}}
 @keyframes lm-d-armL{
   0%{transform:rotate(0)} 6%{transform:rotate(110deg)} 12.5%{transform:rotate(60deg)} 19%{transform:rotate(110deg)} 25%{transform:rotate(0)}
-  31%,37%{transform:rotate(135deg)} 43%{transform:rotate(-10deg)} 50%{transform:rotate(30deg)}
-  55%{transform:rotate(125deg)} 60%{transform:rotate(30deg)} 65%{transform:rotate(45deg)}
+  31%,37%{transform:rotate(120deg)} 43%{transform:rotate(-10deg)} 50%{transform:rotate(30deg)}
+  55%{transform:rotate(100deg)} 60%{transform:rotate(30deg)} 65%{transform:rotate(45deg)}
   76%{transform:rotate(90deg)} 82%{transform:rotate(30deg)} 88%,94%{transform:rotate(36deg)} 100%{transform:rotate(0)}}
 @keyframes lm-d-armR{
   0%{transform:rotate(0)} 6%{transform:rotate(-60deg)} 12.5%{transform:rotate(-110deg)} 19%{transform:rotate(-60deg)} 25%{transform:rotate(0)}
-  31%,37%{transform:rotate(10deg)} 43%{transform:rotate(-135deg)} 50%{transform:rotate(-30deg)}
-  55%{transform:rotate(-125deg)} 60%{transform:rotate(-30deg)} 65%{transform:rotate(-45deg)}
+  31%,37%{transform:rotate(10deg)} 43%{transform:rotate(-120deg)} 50%{transform:rotate(-30deg)}
+  55%{transform:rotate(-100deg)} 60%{transform:rotate(-30deg)} 65%{transform:rotate(-45deg)}
   76%{transform:rotate(-90deg)} 82%{transform:rotate(-30deg)} 88%,94%{transform:rotate(-36deg)} 100%{transform:rotate(0)}}
 @keyframes lm-d-legL{
   0%,25%{transform:rotate(0)} 12.5%{transform:rotate(-8deg)}
   31%,37%{transform:rotate(-14deg)} 43%{transform:rotate(6deg)} 50%{transform:rotate(0)}
-  55%{transform:rotate(-30deg)} 60%{transform:rotate(0)} 65%{transform:rotate(-22deg)}
+  55%{transform:rotate(12deg)} 60%{transform:rotate(0)} 65%{transform:rotate(22deg)}
   76%{transform:rotate(0)} 88%,94%{transform:rotate(-6deg)} 100%{transform:rotate(0)}}
 @keyframes lm-d-legR{
   0%,25%{transform:rotate(0)} 12.5%{transform:rotate(8deg)}
   31%,37%{transform:rotate(-6deg)} 43%{transform:rotate(14deg)} 50%{transform:rotate(0)}
-  55%{transform:rotate(30deg)} 60%{transform:rotate(0)} 65%{transform:rotate(22deg)}
+  55%{transform:rotate(-12deg)} 60%{transform:rotate(0)} 65%{transform:rotate(-22deg)}
   76%{transform:rotate(0)} 88%,94%{transform:rotate(-70deg)} 100%{transform:rotate(0)}}
 @media (prefers-reduced-motion: reduce){.lm-dancer *{animation:none!important}}

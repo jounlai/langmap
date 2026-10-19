@@ -1656,7 +1656,7 @@ WORDS.wine = {
     bo: ["རྒུན་ཆང་", "kỹ˩˧tɕaŋ"], // was ["རྒུན་ཆང་", "kỹ˩˨tɕaŋ"] (vi dialect rules 2026-10-06)
     xct: ["རྒུན་ཆང", "rɡun tɕʰaŋ"],
     lbj: ["རྒུན་ཆང", "rɡuntɕʰaŋ"],
-    th_isan: ["ไวน์", "waj˧"],
+    th_isan: ["ไวน์", "waj˧˥˨"],
     th_n: ["ไวน์", "waj˧"],
     th_s: ["ไวน์", "waj˥"], // was ["ไวน์", "waj˧"] (vi dialect rules 2026-10-06)
     hmn: ["cawv txiv hmab", "caɨ˨˦ tsi˨˦ m̥a˥"],

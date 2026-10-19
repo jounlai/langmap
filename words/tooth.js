@@ -352,7 +352,7 @@ WORDS.tooth = {
     ii: ["ꎐꂷ", "dʐɿ˧˧ma˧˧"],
     yiz: ["dzɛ", "dzɛ˨˨"],
     hni: ["seq", "sɤ˧˩"],
-    th_isan: ["ฟัน", "fan˥"],
+    th_isan: ["ฟัน", "fan˧˥˨"],
     th_n: ["ฟัน", "fan˧"],
     th_s: ["ฟัน", "fan˥"],
     za: {

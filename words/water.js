@@ -328,7 +328,7 @@ WORDS.water = {
     ii: ["ꒉ", "ʑɿ˧˧"],
     yiz: ["ʐitɕɪ", "ʐi˨˨tɕɪ˧˧"],
     hni: ["wulquvq", "u˥˥tɕʰu˧˩"],
-    th_isan: ["น้ำ", "nam˦˥"],
+    th_isan: ["น้ำ", "nam˧˩"],
     th_n: ["น้ำ", "nam˦˥"],
     th_s: ["น้ำ", "nam˧˥"],
     za: {

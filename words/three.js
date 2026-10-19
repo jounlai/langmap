@@ -330,7 +330,7 @@ WORDS.three = {
     ii: ["ꌕ", "sɔ˧˧"],
     yiz: ["sɯ", "sɯ˧˧"],
     hni: ["saol", "sɔ˥˥"],
-    th_isan: ["สาม", "saːm˩˧"],
+    th_isan: ["สาม", "saːm˨˦"],
     th_n: ["สาม", "saːm˩˧"],
     th_s: ["สาม", "saːm˩˧"],
     za: {

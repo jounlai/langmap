@@ -327,7 +327,7 @@ WORDS.cat = {
     ii: ["ꀉꑐ", "a˧˦ɲɛ˧˧"],
     yiz: ["anɛ", "a˥˥nɛ˧˧"],
     hni: ["almil", "a˥˥mi˥˥"],
-    th_isan: ["แมว", "mɛːw˥"],
+    th_isan: ["แมว", "mɛːw˧˥˨"],
     th_n: ["แมว", "mɛːw˧"],
     th_s: ["แมว", "mɛːw˥"],
     za: ["meuz", "meːu˧˩"],

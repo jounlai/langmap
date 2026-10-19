@@ -426,7 +426,7 @@
 
         .leaflet-popup-close-button { width: 40px !important; height: 40px !important; font-size: 24px !important; line-height: 38px !important; }   /* 24px was hard to tap (r27) */
 </style>
-    <script src="nav-short.js?v=49"></script>
+    <script src="nav-short.js?v=51"></script>
 </head>
 <body>
     <header class="site-header-bar">
@@ -576,7 +576,11 @@
         function dateOf(cal){
             const g=gregParts(dateStr), r=render(cal, g); if(!r) return null;
             let tr=''; try { tr=localize(cal, r, lang(), toDate(g)); } catch(e){ console.warn(cal.id, e); }
-            return { native: r.native, tr: tr && tr!==r.native ? tr : '' };
+            // The Arabic UI wrote the Hijri date again with only the digits
+            // changed (٨ … ١٤٤٨ هـ / 8 … 1448 هـ, r36): compare without
+            // Arabic-Indic/Persian digits and RLM/ALM/LRM marks.
+            const norm = s => String(s).replace(/[٠-٩۰-۹]/g, c => String((c.charCodeAt(0) & 0xF) % 10)).replace(/[‎‏؜]/g, '').replace(/\s+/g, ' ').trim();
+            return { native: r.native, tr: tr && norm(tr)!==norm(r.native) ? tr : '' };
         }
 
         /* ---------- Font size ---------- */

@@ -514,7 +514,7 @@ WORDS.horse = {
     vi_s: ["ngựa", "ŋɨə˨˩˨"],
     ko_kp: ["말", "mal"],
     vi_c: ["ngựa", "ŋɨə˧˩"],
-    th_isan: ["ม้า", "maː˦˥"],
+    th_isan: ["ม้า", "maː˧˩"],
     za: {
       form: "馬",
       ipa:  "ma˦˨",

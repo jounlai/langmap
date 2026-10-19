@@ -611,7 +611,7 @@ WORDS.mouth = {
     ar_iq: ["حلگ", "ˈħaliɡ"],
     ar_tn: ["فم", "fomm"],
     ar_gulf: ["حلج", "ħaldʒ"],
-    th_isan: ["ปาก", "paːk˨˩"],
+    th_isan: ["ปาก", "paːk˨"],
     za: {
       form: "咟",
       ipa:  "paːk̚˧˥",

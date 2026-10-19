@@ -60,7 +60,7 @@ const EXCLUDE = new Set([
   'ko','ko_mid','ko_kp','ko_hun',
   'vi','vi_c','vi_s','vi_nom','vi_ohan',
   'ja','ja_kun','ja_ojp',
-  'txg','zkt','mnc','sjo','juc','bca','za','za_sd','dng','bo_sino',
+  'txg','zkt','mnc','sjo','juc','bfs','za','za_sd','dng','bo_sino',
   'pst','ptb','pko','pja','ptung','paa','ptai','pmgl','phm',
 ]);
 

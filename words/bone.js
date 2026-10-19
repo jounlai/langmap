@@ -309,7 +309,7 @@ WORDS.bone = {
     ii: ["ꃷꅍ", "vu˨˩du˧˧"],
     yiz: ["vuka", "vu˨˩ka˥˥"],
     hni: ["saqyyuq", "sa˧˩jø˧˩"],
-    th_isan: ["ดูก", "duːk˨˩"],
+    th_isan: ["ดูก", "duːk˨"],
     th_n: ["ดูก", "duːk˨˩"],
     th_s: ["ดูก", "duːk˨˩"],
     za: {

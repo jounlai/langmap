@@ -332,7 +332,7 @@ WORDS.blood = {
     ii: ["ꌦ", "sɿ˧˧"],
     yiz: ["su", "su˨˩"],
     hni: ["sivq", "si˧˩"],
-    th_isan: ["เลือด", "lɯat˥˩"],
+    th_isan: ["เลือด", "lɯat˧˩"],
     th_n: ["เลือด", "lɯat˥˧"],
     th_s: ["เลือด", "lɯat˥˩"],
     za: {

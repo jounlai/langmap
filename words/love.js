@@ -327,7 +327,7 @@ WORDS.love = {
     ii: ["ꉂ", "ŋɡu˧˧"],
     yiz: ["—", "—"],
     hni: ["gaq", "ɡa˧˩"],
-    th_isan: ["ฮัก", "hak˦˥"],
+    th_isan: ["ฮัก", "hak˦"],
     th_n: ["ฮัก", "hak˦˥"],
     th_s: ["รัก", "rak˧˥"],
     za: {

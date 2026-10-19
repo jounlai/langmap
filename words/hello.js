@@ -326,7 +326,7 @@ WORDS.hello = {
     ii: ["—", "—"],
     yiz: ["—", "—"],
     hni: ["niahuq mahuq", "nia˧˧xu˧˩ ma˧˧xu˧˩"],
-    th_isan: ["สะบายดี", "sa˨˩baːj˥diː˥"],
+    th_isan: ["สะบายดี", "sa˨˦baːj˨˩diː˨˩"],
     th_n: ["สวัสดี", "sa˨˩wat˨˩diː˧"],
     th_s: ["สวัสดี", "sa˨˩wat˨˩diː˥"],
     za: ["mwngz ndei", "mɯŋ˧˩ ɗei˨˦"],

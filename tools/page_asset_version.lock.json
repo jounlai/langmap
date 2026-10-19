@@ -8,12 +8,12 @@
     "hash": "af605212ac66624c"
   },
   "hanmap_data.js": {
-    "version": 204,
-    "hash": "b69114866ebf53c6"
+    "version": 205,
+    "hash": "628b0a8cc0ae46c1"
   },
   "hanmap_trivia_rt/base.js": {
-    "version": 3,
-    "hash": "69f403ad9b64cb03"
+    "version": 4,
+    "hash": "6c0b435b6b518ca3"
   },
   "lang-filter.js": {
     "version": 64,
@@ -24,12 +24,12 @@
     "hash": "9138a4edce5210d7"
   },
   "lang_attention.js": {
-    "version": 3,
-    "hash": "1ea8ce0dd0d9f0df"
+    "version": 4,
+    "hash": "a2f752ffa336d86b"
   },
   "lang_names/en.js": {
-    "version": 209,
-    "hash": "151b9851cb640cd0"
+    "version": 211,
+    "hash": "d686e59c21d13e6d"
   },
   "lang_names_shim.js": {
     "version": 5,
@@ -60,8 +60,8 @@
     "hash": "45e649c2244267b3"
   },
   "nav-short.js": {
-    "version": 49,
-    "hash": "c65a2bba76458d45"
+    "version": 51,
+    "hash": "91be1504d0d3b323"
   },
   "poster_geo.js": {
     "version": 12,
@@ -100,7 +100,7 @@
     "hash": "71c78ae558968bf5"
   },
   "word_manifest.js": {
-    "version": 973,
+    "version": 974,
     "hash": "99fafa5b03aba24a"
   },
   "wordmap_data.js": {

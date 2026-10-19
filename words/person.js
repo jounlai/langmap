@@ -538,7 +538,7 @@ WORDS.person = {
     ar_tn: ["شخص", "ʃaxsˤ"],
     su: ["jalma", "dʒalma"],
     vi_c: ["người", "ŋɨəj˦˨"],
-    th_isan: ["คน", "kʰon˥"],
+    th_isan: ["คน", "kʰon˧˥˨"],
     za: {
       form: "伝",
       ipa:  "wun˧˩",

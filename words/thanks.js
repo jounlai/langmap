@@ -327,7 +327,7 @@ WORDS.thanks = {
     ii: ["ꈀꎭꎭ", "kʰa˧˦ʂa˧˧ʂa˧˧"],
     yiz: ["—", "—"],
     hni: ["gaq sai", "ɡa˧˩ sai"],
-    th_isan: ["ขอบใจ", "kʰɔːp˨˩tɕaj˥"],
+    th_isan: ["ขอบใจ", "kʰɔːp˨tɕaj˨˩"],
     th_n: ["ขอบคุณ", "kʰɔːp˨˩kʰun˧"],
     th_s: ["ขอบคุณ", "kʰɔːp˨˩kʰun˥"],
     za: ["dwgrengz mwngz", "tɯk˧ ɣeːŋ˧˩ mɯŋ˧˩"],

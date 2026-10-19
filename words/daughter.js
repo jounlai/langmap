@@ -672,7 +672,7 @@ WORDS.daughter = {
     mn_cn: ["ᠥᠬᠢᠨ", "øχin"],
     enf: ["ne ne", "nɛ ɲɛ"],
     th_n: ["ลูกสาว", "luːk˥˧ saːw˩˧"],
-    th_isan: ["ลูกสาว", "luːk˥˩ saːw˩˧"],
+    th_isan: ["ลูกสาว", "luːk˧˩ saːw˨˦"],
     th_s: ["ลูกสาว", "luːk˥˩ saːw˩˧"],
     shn: ["လုၵ်ႈယိင်း", "luk˧˨ jiŋ˥"],
     bin: ["ọmọ okhuo", "ɔmɔ oxuo"],

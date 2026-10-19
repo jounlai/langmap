@@ -331,7 +331,7 @@ WORDS.fish = {
     ii: ["ꉛ", "hɯ˧˧"],
     yiz: ["aŋo", "a˥˥ŋo˨˩"],
     hni: ["ngaqdeil", "ŋa˧˩de˥˥"],
-    th_isan: ["ปลา", "paː˥"],
+    th_isan: ["ปลา", "paː˨˩"],
     th_n: ["ปลา", "paː˩˧"],
     th_s: ["ปลา", "plaː˥"],
     za: {

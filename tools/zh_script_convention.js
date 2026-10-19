@@ -148,6 +148,9 @@ function protectedSpans(s, src, code) {
   const P = [];
   const add = (a, b) => P.push([a, b]);
   for (const m of s.matchAll(/《[^》]*》|〈[^〉]*〉/gu)) add(m.index, m.index + m[0].length);
+  // A quoted cited form (“龍”tiuŋ²⁴, 「魚」): r36 replaced the bare-space
+  // citations (如 龍 tiuŋ) with quotes, since the spaces read as word salad.
+  for (const m of s.matchAll(new RegExp('[“「](?:' + H + '{1,4}(?:[、・]' + H + '){0,5})[”」]', 'gu'))) add(m.index, m.index + m[0].length);
   const paren = new RegExp('[（(](' + H + '+(?:[、／/·]' + H + '+)*)[)）]', 'gu');
   for (const m of s.matchAll(paren)) {
     const inner = m[1], before = s.slice(0, m.index);

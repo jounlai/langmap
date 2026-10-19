@@ -328,7 +328,7 @@ WORDS.star = {
       ii: ["ꃅꏸ", "mu˧˧tɕɿ˧˧"],
       yiz: ["kɛzo", "kɛ˧˧zo˨˩"],
       hni: ["aqgeel", "a˧˩ɡɯ˥˥"],
-      th_isan: ["ดาว", "daːw˥"],
+      th_isan: ["ดาว", "daːw˨˩"],
       th_n: ["ดาว", "daːw˧"],
       th_s: ["ดาว", "daːw˥"],
       za: ["ndaundeiq", "ɗaːu˨˦ɗei˧˥"],

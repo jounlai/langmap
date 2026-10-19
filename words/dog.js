@@ -328,7 +328,7 @@ WORDS.dog = {
     ii: ["ꈌ", "kʰɯ˧˧"],
     yiz: ["tʂʰi", "tʂʰi˨˩"],
     hni: ["aqkeeq", "a˧˩kʰɯ˧˩"],
-    th_isan: ["หมา", "maː˩˧"],
+    th_isan: ["หมา", "maː˨˦"],
     th_n: ["หมา", "maː˩˧"],
     th_s: ["หมา", "maː˩˧"],
     za: {

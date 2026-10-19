@@ -327,7 +327,7 @@ WORDS.drink = {
     ii: ["ꅝ", "ndo˧˧"],
     yiz: ["dʉ", "dʉ˨˨"],
     hni: ["dol", "do˥˥"],
-    th_isan: ["ดื่ม", "dɯːm˧"],
+    th_isan: ["ดื่ม", "dɯːm˦"],
     th_n: ["ดื่ม", "dɯːm˨˩"],
     th_s: ["ดื่ม", "dɯːm˨˩"],
     za: {

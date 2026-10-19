@@ -328,7 +328,7 @@ WORDS.fire = {
     ii: ["ꃆꄔ", "mu˨˩tu˥"],
     yiz: ["mɯtɯ", "mɯ˥˥tɯ˥˥"],
     hni: ["miqzaq", "mi˧˩dza˧˩"],
-    th_isan: ["ไฟ", "faj˥"],
+    th_isan: ["ไฟ", "faj˧˥˨"],
     th_n: ["ไฟ", "faj˧"],
     th_s: ["ไฟ", "faj˥"],
     za: {

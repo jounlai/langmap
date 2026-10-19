@@ -328,7 +328,7 @@ WORDS.tree = {
     ii: ["ꌩꁧ", "sɿ̠˧˧bo˧˧"],
     yiz: ["sidzɛ", "si˧˧dzɛ˨˨"],
     hni: ["albol", "a˥˥bo˥˥"],
-    th_isan: ["ต้นไม้", "ton˥˩maj˦˥"],
+    th_isan: ["ต้นไม้", "ton˧˩maj˧˩"],
     th_n: ["ต้นไม้", "ton˥˩maj˦˥"],
     th_s: ["ต้นไม้", "ton˥˩maj˧˥"],
     za: {

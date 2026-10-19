@@ -846,7 +846,7 @@ WORDS.hundred = {
     chk: ["ipwúkú", "ipʷɨkɨ"],
     zh_jh: ["百", "pəʔ˥˥"],
     ko_kp: ["백", "pɛk̚"],
-    th_isan: ["ฮ้อย", "hɔːj˦˥"],
+    th_isan: ["ฮ้อย", "hɔːj˧˩"],
     bal: ["سد", "sad"],
     syl: ["একশ", "ekʃɔ"],
     ctg: ["একশ", "ekʃɔ"],

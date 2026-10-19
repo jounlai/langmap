@@ -228,7 +228,7 @@ WORDS.stone = {
     bft: ["རྡོ", "rdwa"],
     lbj: ["རྡོ", "rdo"],
     khg: ["རྡོ", "do˧˩"],
-    th_isan: ["หิน", "hin˩˧"],
+    th_isan: ["หิน", "hin˨˦"],
     th_n: ["หิน", "hin˩˧"],
     th_s: ["หิน", "hin˩˧"],
     za: {

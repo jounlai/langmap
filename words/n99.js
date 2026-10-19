@@ -1211,7 +1211,7 @@ WORDS.n99 = {
     },
     tyz: ["cẩu slíp cẩu", "kəw˨˩˧ ɬip̚˧˥ kəw˨˩˧"], // was ["cẩu slíp cẩu", "kəw˨˩˧ ɬip˧˥ kəw˨˩˧"] (vi dialect rules 2026-10-06)
     th_s: ["เก้าสิบเก้า", "kaːw˥˩ sip˨˩ kaːw˥˩"],
-    th_isan: ["เก้าสิบเก้า", "kaːw˥˩ sip˨˩ kaːw˥˩"],
+    th_isan: ["เก้าสิบเก้า", "kaːw˧˩ sip˨˦ kaːw˧˩"],
     th_n: ["เก้าสิบเก้า", "kaːw˥˩ sip˩˧ kaːw˥˩"], // was ["เก้าสิบเก้า", "kaːw˥˩ sip˨˩ kaːw˥˩"] (vi dialect rules 2026-10-06)
     lo: ["ເກົ້າສິບເກົ້າ", "kaw˥˨ sip˧˥ kaw˥˨"], // was ["ເກົ້າສິບເກົ້າ", "kaːw˥˨ sip˧˥ kaːw˥˨"] (vi dialect rules 2026-10-06)
     ceb: ["nobentay nuybe", "noˈbentaj ˈnujbe"], // was ["nobentay nuybe", "noˈbɛntaj ˈnujbe"] (vi dialect rules 2026-10-06)

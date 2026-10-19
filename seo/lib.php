@@ -66,6 +66,23 @@ const SEO_SITE = 'https://langmaps.com';
    figure that is plainly a speaker count is used. Ranges, L2 / ethnic /
    heritage / combined figures and historical rows return null, and the card
    falls back to its fixed title. */
+/* Heading key for the map section: a living row is "where it is spoken", a
+   historical one "where it was spoken", a reconstruction its homeland. The pin
+   on Proto-Sino-Tibetan sat under "Where it is spoken" (r36 a2). Word Map rows
+   carry meta.period / excluded / p_ codes; Han Map rows say 歴史言語 in
+   speakers and "(proto)" in family. */
+function seo_where_key(array $lang, string $code): string
+{
+    $m = $lang['meta'] ?? $lang;
+    $fam = (string) ($m['family'] ?? '');
+    $spk = (string) ($m['speakers'] ?? '');
+    if (str_starts_with($code, 'p_') || stripos($fam, '(proto') !== false || stripos($fam, 'proto)') !== false || stripos($fam, 'Proto-language') !== false
+        || str_contains($spk, '祖語')) return 'where_proto';
+    if (trim((string) ($m['period'] ?? '')) !== '' || !empty($lang['excluded']) || str_starts_with($code, 'h_')
+        || str_contains($spk, '歴史言語') || $code === 'zh_phagspa') return 'where_hist';
+    return 'where';
+}
+
 function seo_speaker_count(array $lang): ?int
 {
     if (!empty($lang['excluded'])) return null;
@@ -233,6 +250,10 @@ const SEO_RENAMED_CODES = [
     'bua' => 'bxr',   // Buryat
     'ar_dz' => 'arq', // Algerian Arabic
     'eml' => 'egl',   // Emilian (eml retired from ISO in 2009)
+    // Han Map only: the Zhoucheng (Dali) row is Southern Bai [bfs], not Central
+    // Bai [bca] (Glottolog; r36 a2). The Word Map's bca row is Jianchuan, which
+    // really is Central Bai, so /wordmap/bca resolves and never reaches this.
+    'bca' => 'bfs',
 ];
 
 /**
@@ -855,6 +876,8 @@ const SEO_T = [
         'ex_prev' => 'Prev', 'ex_next' => 'Next', 'ex_page' => 'Page', 'ex_pick' => 'Sentence',
         'th_char' => 'Character', 'th_gloss' => 'Meaning', 'th_read' => 'Reading', 'th_form' => 'Form',
         'where' => 'Where it is spoken',
+        'where_hist' => 'Where it was spoken',
+        'where_proto' => 'Homeland',
         'crumbs' => 'Breadcrumb',
         'open_app' => 'Open {name} in the interactive map →',
         'goods_title' => 'Wear this language',
@@ -920,6 +943,8 @@ const SEO_T = [
         'ex_prev' => '前へ', 'ex_next' => '次へ', 'ex_page' => 'ページ', 'ex_pick' => '文',
         'th_char' => '漢字', 'th_gloss' => '意味', 'th_read' => '発音区分', 'th_form' => '表記',
         'where' => '話される地域',
+        'where_hist' => '話されていた地域',
+        'where_proto' => '原郷',
         'crumbs' => 'パンくずリスト',
         'open_app' => '{name}をインタラクティブマップで開く →',
         'goods_title' => 'この言語を、着る。',
@@ -984,6 +1009,8 @@ const SEO_T = [
         'ex_prev' => '이전', 'ex_next' => '다음', 'ex_page' => '페이지', 'ex_pick' => '문장',
         'th_char' => '한자', 'th_gloss' => '뜻', 'th_read' => '독음', 'th_form' => '표기',
         'where' => '사용 지역',
+        'where_hist' => '사용되던 지역',
+        'where_proto' => '발상지',
         'crumbs' => '이동 경로',
         'open_app' => '인터랙티브 지도에서 {name} 열기 →',
         'goods_title' => '이 언어로 나만의 티셔츠를',
@@ -1048,6 +1075,8 @@ const SEO_T = [
         'ex_prev' => '上一页', 'ex_next' => '下一页', 'ex_page' => '页', 'ex_pick' => '句子',
         'th_char' => '汉字', 'th_gloss' => '含义', 'th_read' => '读音', 'th_form' => '写法',
         'where' => '使用地区',
+        'where_hist' => '曾经使用的地区',
+        'where_proto' => '发源地',
         'crumbs' => '导航路径',
         'open_app' => '在交互式地图中打开{name} →',
         'goods_title' => '把这门语言穿上身',
@@ -1112,6 +1141,8 @@ const SEO_T = [
         'ex_prev' => '上一頁', 'ex_next' => '下一頁', 'ex_page' => '頁', 'ex_pick' => '句子',
         'th_char' => '漢字', 'th_gloss' => '意思', 'th_read' => '讀音', 'th_form' => '寫法',
         'where' => '使用地區',
+        'where_hist' => '曾經使用嘅地區',
+        'where_proto' => '發源地',
         'crumbs' => '導覽路徑',
         'open_app' => '喺互動地圖打開{name} →',
         'goods_title' => '將呢種語言着上身',
@@ -1176,6 +1207,8 @@ const SEO_T = [
         'ex_prev' => 'Trước', 'ex_next' => 'Sau', 'ex_page' => 'Trang', 'ex_pick' => 'Câu',
         'th_char' => 'Chữ Hán', 'th_gloss' => 'Nghĩa', 'th_read' => 'Âm đọc', 'th_form' => 'Dạng viết',
         'where' => 'Nơi được sử dụng',
+        'where_hist' => 'Nơi từng được sử dụng',
+        'where_proto' => 'Quê hương gốc',
         'crumbs' => 'Đường dẫn',
         'open_app' => 'Mở {name} trên bản đồ tương tác →',
         'goods_title' => 'Mặc ngôn ngữ này',
@@ -1240,6 +1273,8 @@ const SEO_T = [
         'ex_prev' => 'ก่อนหน้า', 'ex_next' => 'ถัดไป', 'ex_page' => 'หน้า', 'ex_pick' => 'ประโยค',
         'th_char' => 'อักษร', 'th_gloss' => 'ความหมาย', 'th_read' => 'การอ่าน', 'th_form' => 'รูปเขียน',
         'where' => 'พื้นที่ที่ใช้พูด',
+        'where_hist' => 'พื้นที่ที่เคยใช้พูด',
+        'where_proto' => 'ถิ่นกำเนิด',
         'crumbs' => 'เส้นทางนำทาง',
         'open_app' => 'เปิด{name}ในแผนที่แบบโต้ตอบ →',
         'goods_title' => 'สวมภาษานี้',
@@ -1304,6 +1339,8 @@ const SEO_T = [
         'ex_prev' => 'Sebelumnya', 'ex_next' => 'Berikutnya', 'ex_page' => 'Halaman', 'ex_pick' => 'Kalimat',
         'th_char' => 'Aksara', 'th_gloss' => 'Arti', 'th_read' => 'Bacaan', 'th_form' => 'Bentuk',
         'where' => 'Tempat dituturkan',
+        'where_hist' => 'Tempat dahulu dituturkan',
+        'where_proto' => 'Tanah asal',
         'crumbs' => 'Jejak navigasi',
         'open_app' => 'Lihat {name} di peta interaktif →',
         'goods_title' => 'Kenakan bahasa ini',
@@ -1368,6 +1405,8 @@ const SEO_T = [
         'ex_prev' => 'पिछला', 'ex_next' => 'अगला', 'ex_page' => 'पृष्ठ', 'ex_pick' => 'वाक्य',
         'th_char' => 'अक्षर', 'th_gloss' => 'अर्थ', 'th_read' => 'उच्चारण', 'th_form' => 'रूप',
         'where' => 'कहाँ बोली जाती है',
+        'where_hist' => 'कहाँ बोली जाती थी',
+        'where_proto' => 'मूल क्षेत्र',
         'crumbs' => 'नेविगेशन पथ',
         'open_app' => '{name} को इंटरैक्टिव मानचित्र में खोलें →',
         'goods_title' => 'इस भाषा को पहनें',
@@ -1432,6 +1471,8 @@ const SEO_T = [
         'ex_prev' => 'Zurück', 'ex_next' => 'Weiter', 'ex_page' => 'Seite', 'ex_pick' => 'Satz',
         'th_char' => 'Schriftzeichen', 'th_gloss' => 'Bedeutung', 'th_read' => 'Lesung', 'th_form' => 'Form',
         'where' => 'Wo die Sprache gesprochen wird',
+        'where_hist' => 'Wo die Sprache gesprochen wurde',
+        'where_proto' => 'Urheimat',
         'crumbs' => 'Brotkrümelnavigation',
         'open_app' => '{name} in der interaktiven Karte öffnen →',
         'goods_title' => 'Trag diese Sprache',
@@ -1495,7 +1536,9 @@ const SEO_T = [
         'cmp_caption' => 'Comparaison avec les langues de la même famille : {family}',
         'ex_prev' => 'Préc.', 'ex_next' => 'Suiv.', 'ex_page' => 'Page', 'ex_pick' => 'Phrase',
         'th_char' => 'Caractère', 'th_gloss' => 'Sens', 'th_read' => 'Lecture', 'th_form' => 'Forme',
-        'where' => 'Où elle est parlée',
+        'where' => 'Aire de diffusion',
+        'where_hist' => 'Aire de diffusion historique',
+        'where_proto' => 'Foyer originel',
         'crumbs' => 'Fil d’Ariane',
         'open_app' => 'Ouvrir dans la carte interactive : {name} →',
         'goods_title' => 'Portez cette langue',
@@ -1560,6 +1603,8 @@ const SEO_T = [
         'ex_prev' => 'Prec.', 'ex_next' => 'Succ.', 'ex_page' => 'Pagina', 'ex_pick' => 'Frase',
         'th_char' => 'Carattere', 'th_gloss' => 'Significato', 'th_read' => 'Lettura', 'th_form' => 'Forma',
         'where' => 'Dove si parla',
+        'where_hist' => 'Dove si parlava',
+        'where_proto' => 'Patria originaria',
         'crumbs' => 'Percorso di navigazione',
         'open_app' => 'Apri sulla mappa interattiva: {name} →',
         'goods_title' => 'Indossa questa lingua',
@@ -1624,6 +1669,8 @@ const SEO_T = [
         'ex_prev' => 'Ant.', 'ex_next' => 'Sig.', 'ex_page' => 'Página', 'ex_pick' => 'Frase',
         'th_char' => 'Carácter', 'th_gloss' => 'Significado', 'th_read' => 'Lectura', 'th_form' => 'Forma',
         'where' => 'Dónde se habla',
+        'where_hist' => 'Dónde se hablaba',
+        'where_proto' => 'Territorio originario',
         'crumbs' => 'Ruta de navegación',
         'open_app' => 'Abrir en el mapa interactivo: {name} →',
         'goods_title' => 'Ponte este idioma',
@@ -1687,7 +1734,9 @@ const SEO_T = [
         'cmp_caption' => 'Comparação com línguas da mesma classificação: {family}',
         'ex_prev' => 'Ant.', 'ex_next' => 'Próx.', 'ex_page' => 'Página', 'ex_pick' => 'Frase',
         'th_char' => 'Caractere', 'th_gloss' => 'Significado', 'th_read' => 'Leitura', 'th_form' => 'Forma',
-        'where' => 'Onde é falada',
+        'where' => 'Onde se fala',
+        'where_hist' => 'Onde se falava',
+        'where_proto' => 'Território de origem',
         'crumbs' => 'Trilha de navegação',
         'open_app' => 'Abrir no mapa interativo: {name} →',
         'goods_title' => 'Vista este idioma',
@@ -1752,6 +1801,8 @@ const SEO_T = [
         'ex_prev' => 'Назад', 'ex_next' => 'Вперёд', 'ex_page' => 'Страница', 'ex_pick' => 'Предложение',
         'th_char' => 'Иероглиф', 'th_gloss' => 'Значение', 'th_read' => 'Чтение', 'th_form' => 'Форма',
         'where' => 'Где на нём говорят',
+        'where_hist' => 'Где на нём говорили',
+        'where_proto' => 'Прародина',
         'crumbs' => 'Навигационная цепочка',
         'open_app' => 'Открыть на интерактивной карте: {name} →',
         'goods_title' => 'Носи этот язык',
@@ -1818,7 +1869,9 @@ const SEO_T = [
         'cmp_caption' => 'Порівняння з мовами тієї самої класифікації: {family}',
         'ex_prev' => 'Назад', 'ex_next' => 'Далі', 'ex_page' => 'Сторінка', 'ex_pick' => 'Речення',
         'th_char' => 'Ієрогліф', 'th_gloss' => 'Значення', 'th_read' => 'Читання', 'th_form' => 'Форма',
-        'where' => 'Де нею розмовляють',
+        'where' => 'Ареал поширення',
+        'where_hist' => 'Історичний ареал поширення',
+        'where_proto' => 'Прабатьківщина',
         'crumbs' => 'Навігаційний ланцюжок',
         'open_app' => 'Відкрити на інтерактивній карті: {name} →',
         'goods_title' => 'Носи цю мову',
@@ -1884,6 +1937,8 @@ const SEO_T = [
         'ex_prev' => 'السابق', 'ex_next' => 'التالي', 'ex_page' => 'صفحة', 'ex_pick' => 'جملة',
         'th_char' => 'الحرف', 'th_gloss' => 'المعنى', 'th_read' => 'القراءة', 'th_form' => 'الشكل',
         'where' => 'أين تُستخدم؟',
+        'where_hist' => 'أين كانت تُستخدم؟',
+        'where_proto' => 'الموطن الأصلي',
         'crumbs' => 'مسار التنقل',
         'open_app' => 'فتح {name} في الخريطة التفاعلية ←',
         'goods_title' => 'ارتدِ هذه اللغة',
@@ -1949,7 +2004,9 @@ const SEO_T = [
         'cmp_caption' => 'בהשוואה לשפות מאותו סיווג: {family}',
         'ex_prev' => 'הקודם', 'ex_next' => 'הבא', 'ex_page' => 'עמוד', 'ex_pick' => 'משפט',
         'th_char' => 'תו', 'th_gloss' => 'משמעות', 'th_read' => 'קריאה', 'th_form' => 'צורה',
-        'where' => 'היכן מדוברת',
+        'where' => 'אזור הדיבור',
+        'where_hist' => 'אזור הדיבור ההיסטורי',
+        'where_proto' => 'מולדת קדומה',
         'crumbs' => 'נתיב ניווט',
         'open_app' => 'פתיחה במפה האינטראקטיבית: {name} ←',
         'goods_title' => 'ללבוש את השפה הזאת',
@@ -2014,6 +2071,8 @@ const SEO_T = [
         'ex_prev' => 'Iliyotangulia', 'ex_next' => 'Inayofuata', 'ex_page' => 'Ukurasa', 'ex_pick' => 'Sentensi',
         'th_char' => 'Herufi', 'th_gloss' => 'Maana', 'th_read' => 'Usomaji', 'th_form' => 'Umbo',
         'where' => 'Maeneo inakozungumzwa',
+        'where_hist' => 'Maeneo ilipozungumzwa',
+        'where_proto' => 'Chimbuko',
         'crumbs' => 'Njia ya urambazaji',
         'open_app' => 'Fungua {name} kwenye ramani shirikishi →',
         'goods_title' => 'Vaa lugha hii',
@@ -3371,7 +3430,7 @@ function seo_text_color(string $hex): string
  * Build a Leaflet embed (minimal, self-contained) centered on a coordinate.
  * Returns HTML. If coords are missing, returns an empty string.
  */
-function seo_map_embed(?float $lat, ?float $lng, string $label, int $zoom = 5, string $ui = 'en'): string
+function seo_map_embed(?float $lat, ?float $lng, string $label, int $zoom = 5, string $ui = 'en', string $whereKey = 'where'): string
 {
     if ($lat === null || $lng === null) {
         return '';
@@ -3382,7 +3441,7 @@ function seo_map_embed(?float $lat, ?float $lng, string $label, int $zoom = 5, s
     $id = 'seo-map';
     // An attribute, so HTML-escaped (the JSON form above is for the script:
     // its quotes broke the attribute apart — rally review r3).
-    $attrLabel = e(seo_t($ui, 'where') . ' — ' . $label);
+    $attrLabel = e(seo_t($ui, $whereKey) . ' — ' . $label);
     // Leaflet's own control titles are English; give them the page language (r21).
     $zi = ['en' => 'Zoom in', 'ja' => '拡大', 'ko' => '확대', 'zh' => '放大', 'yue' => '放大', 'vi' => 'Phóng to', 'th' => 'ขยาย', 'id' => 'Perbesar', 'hi' => 'ज़ूम इन', 'de' => 'Vergrößern', 'fr' => 'Agrandir', 'it' => 'Ingrandisci', 'es' => 'Acercar', 'pt' => 'Aproximar', 'ru' => 'Увеличить', 'uk' => 'Збільшити', 'ar' => 'تكبير', 'he' => 'הגדל', 'sw' => 'Kuza'];
     $zo = ['en' => 'Zoom out', 'ja' => '縮小', 'ko' => '축소', 'zh' => '缩小', 'yue' => '縮小', 'vi' => 'Thu nhỏ', 'th' => 'ย่อ', 'id' => 'Perkecil', 'hi' => 'ज़ूम आउट', 'de' => 'Verkleinern', 'fr' => 'Réduire', 'it' => 'Riduci', 'es' => 'Alejar', 'pt' => 'Afastar', 'ru' => 'Уменьшить', 'uk' => 'Зменшити', 'ar' => 'تصغير', 'he' => 'הקטן', 'sw' => 'Punguza'];

@@ -327,7 +327,7 @@ WORDS.sun = {
     ii: ["ꉘꁮ", "ho˧˧bu˧˧"],
     yiz: ["lodʐi", "lo˨˩dʐi˨˨"],
     hni: ["naolma", "nɔ˥˥ma˧˧"],
-    th_isan: ["ตะเว็น", "ta˨˩wen˥"],
+    th_isan: ["ตะเว็น", "ta˨˦wen˧˥˨"],
     th_n: ["ตะวัน", "ta˨˩wan˧"],
     th_s: ["ตะวัน", "ta˨˩wan˥"],
     za: {

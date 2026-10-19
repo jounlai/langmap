@@ -197,7 +197,7 @@ WORDS.iron = {
     es_py: ["hierro", "ˈjero"],
     es_pa: ["hierro", "ˈʝero"],
 
-    fr_qc: ["fer", "fɛʁ"],
+    fr_qc: ["fer", "fɛːʁ"],
     fr_be: ["fer", "fɛʁ"],
     fr_ch: ["fer", "fɛʁ"],
     fr_lu: ["fer", "fɛʁ"],
@@ -834,7 +834,7 @@ WORDS.iron = {
     sd: ["لوهه", "loːɦu"],
     om: ["sibiila", "sibiːla"],
     so: ["bir", "bir"],
-    th_isan: ["เหล็ก", "lek˨˩"],
+    th_isan: ["เหล็ก", "lek˨˦"],
     za: ["diet", "tiːt̚˧˥"],
     syl: ["লুয়া", "lua"],
     ctg: ["লোয়া", "lowa"],

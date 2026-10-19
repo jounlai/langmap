@@ -194,12 +194,13 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
         is_numeric($lng) ? (float) $lng : null,
         $name . ($tNative !== '' ? " ($tNative)" : ''),
         5,
-        $ui
+        $ui,
+        seo_where_key($lang, $code)
     );
     if ($embed !== ''):
 ?>
 <section class="seo-section">
-  <h2><?= e(seo_t($ui, 'where')) ?></h2>
+  <h2><?= e(seo_t($ui, seo_where_key($lang, $code))) ?></h2>
   <?= $embed ?>
 </section>
 <?php endif; ?>

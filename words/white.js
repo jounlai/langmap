@@ -294,7 +294,7 @@ WORDS.white = {
     lbj: ["དཀར་པོ", "karpo"],
     khg: ["དཀར་པོ", "kar po"],
     yiz: ["ɬo", "ɬo˨˨"],
-    th_isan: ["ขาว", "kʰaːw˩˧"],
+    th_isan: ["ขาว", "kʰaːw˨˦"],
     th_n: ["ขาว", "kʰaːw˩˧"],
     th_s: ["ขาว", "kʰaːw˩˧"],
     za: {

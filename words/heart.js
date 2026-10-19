@@ -328,7 +328,7 @@ WORDS.heart = {
     ii: ["ꉌꂵ", "hɛ˧˧ma˥"],
     yiz: ["nimo", "ni˧˧mo˨˨"],  // lexibank/lamanisoic (CLDF of Lama 2012): 'heart' is ni-mo in every one of ~20 Nisoic lects, PN *snjik1-mo2, never s-initial. The cell had held this row's blood word.
     hni: ["neema", "nɯ˧˧ma˧˧"],
-    th_isan: ["ใจ", "tɕaj˥"],
+    th_isan: ["ใจ", "tɕaj˨˩"],
     th_n: ["ใจ๋", "tɕaj˩˧"],
     th_s: ["ใจ", "tɕaj˥"],
     za: {

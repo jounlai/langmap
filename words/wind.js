@@ -305,7 +305,7 @@ WORDS.wind = {
     vi: ["gió", "zɔ˧˥"],
     vi_s: ["gió", "jɔ˧˥"],
     th: ["ลม", "lom˧"],
-    th_isan: ["ลม", "lom˥"],
+    th_isan: ["ลม", "lom˧˥˨"],
     th_n: ["ลม", "lom˧"],
     th_s: ["ลม", "lom˥"],
     lo: ["ລົມ", "lom˧˥"],

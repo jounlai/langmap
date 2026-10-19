@@ -269,6 +269,11 @@ line('tone-digit map per row', num(s, /violations: (\d+)/),
 s = run('zhuang_ipa_check.js');
 line('Zhuang IPA matches its spelling', num(s, /wrong: (\d+)/));
 
+// Han Map row notes become the ja/zh/yue meta descriptions; a space between
+// two CJK words there ("の 揚州 字表") is word salad in the snippet (r36 a2).
+s = run('cjk_note_spacing_check.js');
+line('no CJK word spaces in Han notes', num(s, /violations: (\d+)/));
+
 s = run('chao_repeat_check.js --check');
 line('no repeated Chao level', num(s, /violations: (\d+)/));
 
@@ -637,6 +642,11 @@ s = run('tone_policy_check.js --check');
 
 s = run('stress_mark_check.js --check');
 line('stress mark on monosyllables', num(s, /violations: (\d+)/));
+
+// Isan (th_isan) tones come from one cited 6-tone box (wordmap_meta.js comment
+// above LANG_DATA['th_isan']); r33/r34 each re-normalised the row differently.
+s = run('isan_tone_check.js');
+line('Isan tones in the cited six', num(s, /violations: (\d+)/));
 
 // One sound written two ways inside a single row. The IPA field has no
 // declared depth and the rows were filled by different passes from different

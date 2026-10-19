@@ -319,9 +319,42 @@ const normPunct = (x) => String(x).replace(/\u3001/g, ',').replace(/\uFF08/g, '(
 const EN_FUNC = /^(the|of|is|are|in|on|for|and|or|no|not|its|own|since|as|by|with|to|from|a|an|but|only|has|was|which|that|used|spoken|official|language|languages)$/i;
 function englishLeft(t) {
   const runs = String(t).match(/[A-Za-z][A-Za-z'’-]*(?:[ ,]+[A-Za-z][A-Za-z'’-]*){2,}/g) || [];
-  return runs.some((r) => r.split(/[ ,]+/).filter((w) => EN_FUNC.test(w)).length >= 2);
+  if (runs.some((r) => r.split(/[ ,]+/).filter((w) => EN_FUNC.test(w)).length >= 2)) return true;
+  return gluedEnglish(t);
+}
+// Word-by-word atom output keeps a lone English function word between two
+// translated words ("английский in Либерия", "Ні (recognized minority
+// nationality; no стандартний …)"). One such word, or a leftover English
+// fragment, is enough to make the whole value machine-glued (r36 a2); it then
+// falls back to the English, tagged lang="en", unless the exact-match table
+// has a whole-clause translation.
+const LONE_FUNC = /^(in|of|for|and|not|with|to|by|on|or|the|as|no|yet|from|only|but|its|is|are|was|used|own)$/;
+const EN_FRAGMENT = /(?:^|[^A-Za-z])(?:not yet|recogni[sz]ed|unwritten|orthography|nationality|minority|divination|standard|everyday|writing|written|script)(?![A-Za-z])/;
+function gluedEnglish(t) {
+  const s = String(t);
+  if (EN_FRAGMENT.test(s)) return true;
+  // Tokens: Latin words, or runs of any other letters (any script).
+  // Latin-extended letters (Dëne Sųłiné) stay inside one Latin token, or "in"
+  // inside "Sųłiné" would read as a lone English word.
+  const toks = s.match(/[\p{Script=Latin}\p{M}'’-]+|[^\s\p{Script=Latin}\d.,;:!?()[\]{}「」『』（）、，；：。/\\|"“”«»–—-]+/gu) || [];
+  const latin = (w) => /^[\p{Script=Latin}]/u.test(w);
+  for (let i = 0; i < toks.length; i++) {
+    if (!latin(toks[i]) || !LONE_FUNC.test(toks[i])) continue;
+    const prev = toks[i - 1], next = toks[i + 1];
+    if ((prev && !latin(prev)) || (next && !latin(next))) return true;
+  }
+  return false;
 }
 const CJK_WORD_SALAD = /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}] +(?:[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}]|\d)/u;
+// The coverage tables and the atom composer join Arabic words with ASCII
+// ", " and ";" ("كندا, الولايات المتحدة"); Arabic text takes ، and ؛ (r36 a2).
+// Only between two Arabic words, so "ICC–SIL, MoEYS" inside a value stays.
+const AR_LETTER = '[\\u0600-\\u06FF\\u0750-\\u077F\\u08A0-\\u08FF]';
+const AR_COMMA = new RegExp('(' + AR_LETTER + '[)\\]»]?)\\s*,\\s*(?=[(«]?' + AR_LETTER + ')', 'gu');
+const AR_SEMI = new RegExp('(' + AR_LETTER + '[)\\]»]?)\\s*;\\s*(?=[(«]?' + AR_LETTER + ')', 'gu');
+function arabicPunct(t) {
+  return String(t).replace(AR_COMMA, '$1، ').replace(AR_SEMI, '$1؛ ');
+}
 const META_I18N_FIELDS = ['family', 'speakers', 'countries', 'official', 'script', 'region'];
 
 function buildMetaI18n(LANG_DATA, hanLangs) {
@@ -384,7 +417,10 @@ function buildMetaI18n(LANG_DATA, hanLangs) {
       // (اللاتينية (no المعيارية إملاء; …)). Both fall back to tagged English (r19).
       if (t && normPunct(t) === normPunct(en)) continue;
       if (NON_LATIN_UI.test(ui) && englishLeft(t || '')) continue;
-      if (t && t !== en) row[ui] = t;
+      // The ko atom table maps "in" to 내, so composed values read "문자 없음 내
+      // 일상 사용" / "~11K 내 인도". A free-standing 내 between words is that glue (r36 a2).
+      if (ui === 'ko' && /(?:^|\s)내\s/u.test(t || '')) continue;
+      if (t && t !== en) row[ui] = ui === 'ar' ? arabicPunct(t) : t;
     }
     if (Object.keys(row).length) { fields[en] = row; translated++; }
   }

@@ -1864,7 +1864,7 @@ WORDS.bear = {
     blt: ["ꪢꪲ", "miː˨"], // was ["ꪢꪲ", "miː˨˦"] (r31 fix 2026-10-02)
     pcc: ["moil", "moːi˨˦"], // was ["moil", "moi˧˥"] (vi dialect rules 2026-10-06) // was ["moil", "moi˨˦"] (vi dialect rules 2026-10-06)
     nut: ["mi", "mi˧˧"], // was ["mui", "mui˧˧"] (vi dialect rules 2026-10-06)
-    th_isan: ["หมี", "miː˩˧"],
+    th_isan: ["หมี", "miː˨˦"],
     th_n: ["หมี", "miː˩˧"],
     th_s: ["หมี", "miː˩˧"],
     hmn: ["dais", "dai˨˩"], // was ["dais", "tai˨˩"] (vi dialect rules 2026-10-06)

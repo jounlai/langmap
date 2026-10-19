@@ -1139,7 +1139,7 @@ WORDS.orange = {
     mi: ["ārani", "aːɾani"],
     zh_db: ["橙", "tʂʰɤŋ˧˥"],
     zh_sc: ["橙", "tsʰən˨˩"],
-    th_isan: ["ส้ม", "som˨˩"],
+    th_isan: ["ส้ม", "som˨"],
     th_n: ["ส้ม", "som˥˩"],
     th_s: ["ส้ม", "som˥˩"],
     jv: ["jeruk", "dʒəruʔ"], // was ["jeruk", "dʒəruk"] (vi dialect rules 2026-10-06)

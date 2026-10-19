@@ -328,7 +328,7 @@ WORDS.eye = {
     ii: ["ꑓ", "ɲɔ˧˧"],
     yiz: ["ȵɪdu", "ȵɪ˧˧du˨˩"],
     hni: ["miav", "mja˧˧"],
-    th_isan: ["ตา", "taː˥"],
+    th_isan: ["ตา", "taː˨˩"],
     th_n: ["ต๋า", "taː˩˧"],
     th_s: ["ตา", "taː˥"],
     za: {

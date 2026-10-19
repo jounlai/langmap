@@ -327,7 +327,7 @@ WORDS.house = {
     ii: ["ꑳ", "ʑi˧˧"],
     yiz: ["xɛ", "xɛ˨˨"],
     hni: ["laqhyul", "la˧˩xø˥˥"],
-    th_isan: ["เฮือน", "hɯan˥"],
+    th_isan: ["เฮือน", "hɯan˧˥˨"],
     th_n: ["เฮือน", "hɯːan˧"],
     th_s: ["บ้าน", "baːn˥˩"],
     za: {

@@ -215,7 +215,7 @@ WORDS.nose = {
     bft: ["སྣ", "sna"],
     lbj: ["སྣ", "sna"],
     khg: ["སྣ", "n̥a˥˧"],
-    th_isan: ["ดัง", "daŋ˥"],
+    th_isan: ["ดัง", "daŋ˨˩"],
     th_n: ["ดัง", "daŋ˧"],
     th_s: ["จมูก", "tɕa˨˩muːk˨˩"],
     za: {

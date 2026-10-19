@@ -328,7 +328,7 @@ WORDS.moon = {
     ii: ["ꆪ", "ɬɯ˨˩"],
     yiz: ["lobo", "lo˨˨bo˨˨"],
     hni: ["bala", "ba˧˧la˧˧"],
-    th_isan: ["เดือน", "dɯan˥"],
+    th_isan: ["เดือน", "dɯan˨˩"],
     th_n: ["เดือน", "dɯːan˧"],
     th_s: ["เดือน", "dɯan˥"],
     za: {

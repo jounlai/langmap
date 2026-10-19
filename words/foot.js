@@ -2193,7 +2193,7 @@ WORDS.foot = {
     tet: ["ain", "ain"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes liman as liman.
     tg: ["пой", "poj"],  // Tajik follows Persian: пой covers both; линг is the shank.
     th: ["เท้า", "tʰaːw˦˥"],  // Thai splits เท้า (colloquial ตีน) from ขา. The tin/kha split runs through the whole Tai family.
-    th_isan: ["ตีน", "tiːn˥"],  // ตีน against ขา, the same split as Lao ຕີນ. Isan does not carry the vulgar colouring Central Thai puts on ตีน — there เท้า takes over, here it does not.
+    th_isan: ["ตีน", "tiːn˨˩"],  // ตีน against ขา, the same split as Lao ຕີນ. Isan does not carry the vulgar colouring Central Thai puts on ตีน — there เท้า takes over, here it does not.
     th_n: ["ตี๋น", "tiːn˩˧"],  // Northern Thai keeps the inherited Tai tin that Central Thai demoted to a rude word, and the row's own ต๋า taː˩˧ and กิ๋น kin˩˧ give both the ๋ spelling and the ˩˧ its *t- initial requires.
     th_s: ["ตีน", "tiːn˥"],  // Southern Thai writes this class with no tone mark and reads it ˥ — ตา taː˥ and กิน kin˥ in this very row — so ตีน comes out tiːn˥ and not the parent's เท้า.
     thp: ["sqwaxt", "sqʷaxt"],  // The Thompson sketch's English index sends 'foot' to 'leg' and glosses the free noun s/qʷaxt as 'leg, foot', the same word Good wrote Squaxt in 1880; the row's blood cell peteleʼ is that sketch's petale?, so the orthography follows its own swúxwt.

@@ -328,7 +328,7 @@ WORDS.hand = {
     ii: ["ꇇ", "lo˥"],
     yiz: ["ɭɪ", "ɭɪ˨˩"],  // lexibank/lamanisoic: 'hand' < *lakL is low-toned l-initial throughout Nisoic (Azhe ɭɪ21); la33 is the head of Azhe tongue la33pi21, and HAND/TONGUE are adjacent items 47/48 in the questionnaire — the off-by-one signature.
     hni: ["aqlavq", "a˧˩la˧˩"],
-    th_isan: ["มือ", "mɯː˥"],
+    th_isan: ["มือ", "mɯː˧˥˨"],
     th_n: ["มือ", "mɯː˧"],
     th_s: ["มือ", "mɯː˥"],
     za: {

@@ -193,7 +193,7 @@ WORDS.egg = {
     mi: ["hēki", "heːki"],
     qu: ["runtu", "ˈɾuntu"],
     bo: ["སྒོ་ང", "koŋa˩˧"],
-    th_isan: ["ไข่", "kʰaj˧"],
+    th_isan: ["ไข่", "kʰaj˦"],
     th_n: ["ไข่", "kʰaj˨˩"],
     th_s: ["ไข่", "kʰaj˨˩"],
     za: {

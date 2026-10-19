@@ -460,7 +460,7 @@ WORDS.mountain = {
     ar_gulf: ["جبل", "ˈdʒabal"],
     su: ["gunung", "ɡunuŋ"],
     vi_c: ["núi", "nui˨˦"],
-    th_isan: ["ภูเขา", "pʰuː˥ kʰaw˩˧"],
+    th_isan: ["ภูเขา", "pʰuː˧˥˨ kʰaw˨˦"],
     ug: ["تاغ", "tɑʁ"],
     prs: ["کوه", "koːh"],
     mag: ["पहाड़", "pəɦaːɽ"],

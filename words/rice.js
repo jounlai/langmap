@@ -362,7 +362,7 @@ WORDS.rice = {
     vi_s: ["gạo", "ɣaːw˨˩˨"],
     ko_kp: ["쌀", "s͈al"],
     vi_c: ["gạo", "ɣaːw˧˩"],
-    th_isan: ["ข้าว", "kʰaːw˨˩"],
+    th_isan: ["ข้าว", "kʰaːw˨"],
     za: {
       form: "𬖙",
       ipa:  "hau˦˨",

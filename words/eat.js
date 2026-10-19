@@ -327,7 +327,7 @@ WORDS.eat = {
     ii: ["ꋠ", "dzɯ˧˧"],
     yiz: ["dzo", "dzo˨˩"],
     hni: ["zaq", "dza˧˩"],
-    th_isan: ["กิน", "kin˥"],
+    th_isan: ["กิน", "kin˨˩"],
     th_n: ["กิ๋น", "kin˩˧"],
     th_s: ["กิน", "kin˥"],
     za: {

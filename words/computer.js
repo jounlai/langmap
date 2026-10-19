@@ -366,7 +366,7 @@ WORDS.computer = {
     "tet": ["komputadór", "komputaˈdor"],
     "tg": ["компютер", "kompjuter"],
     "th": ["คอมพิวเตอร์", "kʰɔm˧pʰiw˧tɤː˥˩"],
-    "th_isan": ["คอมพิวเตอร์", "kʰɔm˧pʰiw˧tɤː˥˩"],
+    "th_isan": ["คอมพิวเตอร์", "kʰɔm˧˥˨pʰiw˧˥˨tɤː˧˩"],
     "th_n": ["คอมพิวเตอร์", "kʰɔm˧pʰiw˧tɤː˥˩"],
     "th_s": ["คอมพิวเตอร์", "kʰɔm˥pʰiw˥tɤː˥˩"],
     "ti": ["ኮምፒዩተር", "kompijutɐr"],

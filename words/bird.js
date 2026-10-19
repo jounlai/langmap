@@ -219,7 +219,7 @@ WORDS.bird = {
     bft: ["བྱ", "bja"],
     lbj: ["ཅ", "tɕa"],
     khg: ["བྱ", "tɕa"],
-    th_isan: ["นก", "nok˦˥"],
+    th_isan: ["นก", "nok˦"],
     th_n: ["นก", "nok˦˥"],
     th_s: ["นก", "nok˧˥"],
     za: {

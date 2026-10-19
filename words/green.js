@@ -473,7 +473,7 @@ WORDS.green = {
     ar_gulf: ["أخضر", "ˈʔaxðˤar"],
     vi_s: ["xanh lá", "san˧ laː˧˥"],
     vi_c: ["xanh lá", "san˥ laː˨˦"],
-    th_isan: ["เขียว", "kʰiaw˩˧"],
+    th_isan: ["เขียว", "kʰiaw˨˦"],
     za: {
       form: "𫇯",
       ipa:  "heːu˨˦",
@@ -713,7 +713,7 @@ WORDS.green = {
     vi_han: ["青", "tʰaɲ˧˧"],
     vi_nom: ["青蘿", "saɲ˧ laː˧˥"],
     nan_ph: ["青色", "tsʰĩ˧˧ siak˥"],
-    fr_qc: ["vert", "vɛʁ"],
+    fr_qc: ["vert", "vɛːʁ"],
     skr: ["ساوا", "saːʋaː"],
     en_au: ["green", "ɡɹiːn"],
     en_sco: ["green", "ɡɹiːn"],

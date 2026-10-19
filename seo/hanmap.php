@@ -325,12 +325,13 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
         is_numeric($lng) ? (float) $lng : null,
         $name . (!seo_native_redundant($name, (string) $native) ? " ($native)" : ''),
         5,
-        $ui
+        $ui,
+        seo_where_key($lang, $code)
     );
     if ($embed !== ''):
 ?>
 <section class="seo-section">
-  <h2><?= e(seo_t($ui, 'where')) ?></h2>
+  <h2><?= e(seo_t($ui, seo_where_key($lang, $code))) ?></h2>
   <?= $embed ?>
 </section>
 <?php endif; ?>

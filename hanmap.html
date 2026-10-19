@@ -14,6 +14,19 @@
         var s = h.toString();
         history.replaceState(history.state, '', location.pathname + (s ? '#' + s : ''));
     } catch (e) {} })();
+    // Han Map codes that moved (old => new); old shared links still open the row.
+    // The Zhoucheng (Dali) row is Southern Bai, ISO bfs, not Central Bai bca (r36 a2).
+    // The Word Map keeps bca for its Jianchuan row, so this is Han Map only.
+    (function () { try {
+        var MOVED = { bca: 'bfs' };
+        var h = new URLSearchParams(location.hash.slice(1)), ch = false;
+        ['lang', 'cmp', 'hf'].forEach(function (k) {
+            var v = h.get(k); if (!v) return;
+            var n = v.split(',').map(function (c) { return MOVED[c] || c; }).join(',');
+            if (n !== v) { h.set(k, n); ch = true; }
+        });
+        if (ch) history.replaceState(history.state, '', location.pathname + location.search + '#' + h.toString().replace(/%2C/g, ','));
+    } catch (e) {} })();
     </script>
     <meta charset="UTF-8">
     <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
@@ -2872,7 +2885,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=49"></script>
+    <script src="nav-short.js?v=51"></script>
     <style>
         /* r23 desktop: the compare panel clears the settings gear and the map
            attribution; the settings drawer is readable at desktop sizes. */
@@ -3579,8 +3592,8 @@
     })();
     </script>
     <script src="wordmap_data.js?v=349"></script>
-    <script src="lang_attention.js?v=3"></script>
-    <script src="hanmap_data.js?v=204"></script>
+    <script src="lang_attention.js?v=4"></script>
+    <script src="hanmap_data.js?v=205"></script>
     <script>
         // Hanmap stubs: replace the per-word loader. wordmap.html loads
         // ~20 individual JS files under words/<id>.js (one per concept) and
@@ -3608,7 +3621,7 @@
     <!-- 2026-10-16: the runtime copy is split by tools/build_hanmap_trivia_rt.js —
          base.js has every article with English bodies; the reader's own
          language arrives as hanmap_trivia_rt/<ui>.js (loadHanTriviaBodies). -->
-    <script type="text/plain" id="trivia-src" src="hanmap_trivia_rt/base.js?v=3"></script>
+    <script type="text/plain" id="trivia-src" src="hanmap_trivia_rt/base.js?v=4"></script>
     <!-- The meta-i18n layer is loaded dynamically (engine + the current UI's
          slice only) via loadMetaI18n() in the IIFE below. The old eager
          meta_i18n_ext + coverage{,2} tags pulled ~4.6 MB of ALL 22 UIs. -->
@@ -3618,8 +3631,8 @@
     will actually see (~12 KB gzipped). tools/build_lang_names.js
     generates lang_names/<ui>.js from lang_names.js. -->
     <script src="lang_names_shim.js?v=5"></script>
-    <script src="lang_names/en.js?v=209"></script>
-    <script>window.__langNamesVersion(209); window.__langNamesBoot();</script>
+    <script src="lang_names/en.js?v=211"></script>
+    <script>window.__langNamesVersion(211); window.__langNamesBoot();</script>
     <script>
     // HanMap-specific display-name overrides.
     // THIS IS THE MECHANISM for "one code, two maps, two meanings". lang_names.js
@@ -3853,7 +3866,7 @@
         // 訓読 (kun) = every code where the reading is a NATIVE word for
         // the concept (not a Sino-loan):
         //   - Explicit native-reading layers: ja_kun, ko_hun, vi_nom
-        //   - Modern non-Sinitic Sinosphere langs: mnc, sjo, za, bca
+        //   - Modern non-Sinitic Sinosphere langs: mnc, sjo, za, bfs
         //     (+ za_sd, 2026-10-08: the Sawndip row writes the same native
         //     Zhuang words as za — ndeu 'one', song 'two' — so it is kun too)
         //   - Extinct non-Sinitic in the Sinosphere: juc, txg, zkt
@@ -3864,7 +3877,7 @@
         //   belong under 古代語 (ANCIENT_SINO_CODES), NOT here.
         const KUN_CODES = [
             'ja_kun', 'ko_hun', 'vi_nom',
-            'mnc', 'sjo', 'za', 'za_sd', 'bca',
+            'mnc', 'sjo', 'za', 'za_sd', 'bfs',
             'juc', 'txg', 'zkt',
             'pko', 'pja', 'ptung', 'paa', 'ptai', 'pmgl', 'phm',
         ];
@@ -3925,7 +3938,7 @@
               modern: ['vi','vi_c','vi_s','vi_nom'],
               historical: ['vi_ohan'] },
             { id: 'tibeto_burman',
-              modern: ['bca','bo_sino'],
+              modern: ['bfs','bo_sino'],
               historical: ['txg','ptb'] },
             { id: 'tungusic',
               modern: ['mnc','sjo'],
@@ -4499,7 +4512,8 @@
                 if (raw) {
                     const arr = JSON.parse(raw);
                     if (Array.isArray(arr)) {
-                        selected = new Set(arr.filter(c => offered.has(c)));
+                        // bca moved to bfs (Southern Bai, r36): keep a saved pick.
+                        selected = new Set(arr.map(c => (c === 'bca' ? 'bfs' : c)).filter(c => offered.has(c)));
                         // Seed switch state from the restored selection.
                         ancientOn = ANCIENT_SINO_CODES.some(c => selected.has(c));
                         kunOn     = KUN_CODES.some(c => selected.has(c));
@@ -7464,7 +7478,7 @@
                 surface = surfArg;
                 ipaOut  = '';
             } else {
-                // mnc / txg / juc / zkt / za / bca / unrecognised: trust the
+                // mnc / txg / juc / zkt / za / bfs / unrecognised: trust the
                 // audit-supplied split as authoritative.
                 surface = storedSurf || surfArg;
                 ipaOut  = storedIpa  || ipaArg;
@@ -10038,7 +10052,7 @@
             // word atoms arrived: "Hong Kong SAR", "Japan" … stayed English (r25).
             if (typeof META_I18N === 'undefined') window.META_I18N = {};
             if (!_metaEnginePromise) _metaEnginePromise = _hmInject('meta_i18n_engine.js?v=1');
-            _metaI18nByUi[ui] = Promise.all([_metaEnginePromise, _hmInject('meta_i18n/' + ui + '.js?v=14')]);
+            _metaI18nByUi[ui] = Promise.all([_metaEnginePromise, _hmInject('meta_i18n/' + ui + '.js?v=15')]);
             return _metaI18nByUi[ui];
         }
         window.loadMetaI18n = loadMetaI18n;
@@ -10502,7 +10516,7 @@
             // non-ST native-root reconstructions → 訓読 badge.
             const HAN_KUN_BADGE_CODES = new Set([
                 'ja_kun', 'ko_hun', 'vi_nom',
-                'mnc', 'sjo', 'juc', 'txg', 'zkt', 'za', 'za_sd', 'bca',
+                'mnc', 'sjo', 'juc', 'txg', 'zkt', 'za', 'za_sd', 'bfs',
                 'pko', 'pja', 'ptung', 'paa', 'ptai', 'pmgl', 'phm',
             ]);
             const isAncient = HAN_ANCIENT_CODES.has(code);

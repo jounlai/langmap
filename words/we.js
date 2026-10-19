@@ -1471,7 +1471,7 @@ WORDS.we = {
     ii: ["ꉪꊇ", "ŋo˨˩ɣo˧˦"],
     yiz: ["—", "—"],
     hni: ["ngaldu / ngalya", "ŋa˥˥du˧˧ / ŋa˥˥ja˧˧"],
-    th_isan: ["เฮา", "haw˥"],
+    th_isan: ["เฮา", "haw˧˥˨"],
     th_n: ["เฮา", "haw˧"], // was ["เฮา", "haw˥"] (vi dialect rules 2026-10-06)
     th_s: ["เรา", "raw˥"],
     za: ["raeuz / dou", "ɣau˧˩ / tou˨˦"],

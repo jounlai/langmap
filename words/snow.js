@@ -266,7 +266,7 @@ WORDS.snow = {
     cng: ["pe", "pe"],
     ii: ["ꃰ", "vo˧˧"],
     yiz: ["ɣo", "ɣo˨˩"],
-    th_isan: ["หิมะ", "hi˨˩maʔ˦˥"],
+    th_isan: ["หิมะ", "hi˨˦maʔ˦"],
     th_n: ["หิมะ", "hi˨˩maʔ˦˥"],
     th_s: ["หิมะ", "hi˨˩maʔ˧˥"],
     za: {

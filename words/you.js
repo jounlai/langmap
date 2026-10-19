@@ -328,7 +328,7 @@ WORDS.you = {
       ii: ["ꆏ", "nɯ˧˧"],
       yiz: ["nɯ", "nɯ˨˨"],
       hni: ["nol", "no˥˥"],
-      th_isan: ["เจ้า", "tɕaw˥˩"],
+      th_isan: ["เจ้า", "tɕaw˧˩"],
       th_n: ["ตั๋ว", "tua˩˧"],
       th_s: ["สู", "suː˩˧"],
       za: {

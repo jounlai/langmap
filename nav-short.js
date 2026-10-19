@@ -1113,61 +1113,60 @@
     // hold (owner 2026-10-19: max size took dozens of clicks). A tap is still
     // one step. Delegated, so every page's .size-step-btn gets it.
     (function sizeHold() {
-        var t = null, btn = null, held = null, n = 0, done = 0, fired = false, log = [], firstAt = Infinity;
-        var stop = function () { if (t) clearTimeout(t); t = null; btn = null; };
-        var rangeOf = function (b) { var id = b.getAttribute('aria-controls'), r = id && document.getElementById(id); return r && r.type === 'range' ? r : null; };
-        // On a slow phone each step relayouts for up to ~0.9 s, so the next
-        // step's timer runs before the queued pointerup and the hold overshoots
-        // (r36). The pointerup's timeStamp is the real release time: undo every
-        // step that finished after it.
+        var t = null, btn = null, held = null, n = 0, fired = false, log = [], firstAt = Infinity, pending = null;
+        var rangeOf = function (b) { var id = b && b.getAttribute('aria-controls'), r = id && document.getElementById(id); return r && r.type === 'range' ? r : null; };
+        // Word/Han Map (a range input): a full step re-lays out every label,
+        // 0.5-2 s, so steps piled up and the size overshot and snapped back
+        // (r36/r37). During a hold only the value and --label-scale change
+        // (instant); the one re-layout happens on release.
+        var commit = function () {
+            var r = pending; pending = null;
+            if (r) { r.dispatchEvent(new Event('input')); r.dispatchEvent(new Event('change')); }
+        };
+        var stop = function () { if (t) clearTimeout(t); t = null; btn = null; commit(); };
+        // Name/Time Map steps are real clicks; undo any that landed after the
+        // finger lifted (slow phones), but never the first one.
         var release = function (e) {
-            // held, not btn: a hold that reached max/min has already stopped.
             var b = held, ts = e.timeStamp;
             stop(); held = null;
-            if (!b || !log.length || !(ts > 0)) return;
+            if (!b || !log.length || !(ts > 0)) { if (b && !(firstAt <= ts)) fired = false; return; }
             var i = 0; while (i < log.length && log[i][0] <= ts) i++;
-            if (i === 0 && log.length) i = 1;   // a press always moves at least one step (r37: 0.4-0.8 s holds did nothing)
+            if (i === 0) i = 1;
             var extra = log.slice(i); log = log.slice(0, i);
             if (extra.length) {
                 var rng = rangeOf(b);
-                if (rng) {
+                if (rng) {   // steps that started after the release: back to the value then
                     rng.value = String(extra[0][1]);
+                    document.documentElement.style.setProperty('--label-scale', (+rng.value) / 100);
                     rng.dispatchEvent(new Event('input')); rng.dispatchEvent(new Event('change'));
                 } else {
                     var opp = document.getElementById(b.id.replace(/inc|dec|up|down/, function (m) { return { inc: 'dec', dec: 'inc', up: 'down', down: 'up' }[m]; }));
                     if (opp) extra.forEach(function () { opp.click(); });
                 }
             }
-            // Released before the first step began: it was a tap, let its click
-            // step once. A step that began before but finished after the
-            // release was a hold the screen had not caught up with: no step.
             if (!(firstAt <= ts)) fired = false;
         };
         var tick = function () {
             if (!btn || btn.disabled) return stop();
-            fired = true; if (!n++) firstAt = performance.now();
-            // Word/Han Map: each step redraws every label (~0.3 s), so clicks
-            // alone cannot go fast. Grow the jump instead: 1,2,4,7,10 steps.
-            // A step is stamped when its own work is done: one still being laid
-            // out when the finger lifted was not on screen yet, so it is undone.
+            var t0 = performance.now();   // stamped at the start: a step that began after the release is undone
+            fired = true; if (!n++) firstAt = t0;
             var rng = rangeOf(btn);
             if (rng) {
-                // On a slow phone one redraw takes ~1 s, so also keep pace with
-                // the clock: at least 15 steps a second since the first step
-                // (Word Map at 4x CPU needed 6 s+ to reach max, r36).
-                var k = Math.max([1, 2, 4, 7, 10][Math.min(4, n - 1)], Math.floor(1 + (performance.now() - firstAt) * 0.015) - done), st = 10;
-                done += k;
-                var dir = /up|inc/.test(btn.id) ? 1 : -1;
-                var v = Math.max(+rng.min, Math.min(+rng.max, (+rng.value) + dir * k * st)), was = rng.value;
-                if (v !== +rng.value) { rng.value = String(v); rng.dispatchEvent(new Event('input')); rng.dispatchEvent(new Event('change')); log.push([performance.now(), was]); }
+                var k = [1, 1, 2, 3, 4][Math.min(4, n - 1)], dir = /up|inc/.test(btn.id) ? 1 : -1;
+                var v = Math.max(+rng.min, Math.min(+rng.max, (+rng.value) + dir * k * 10));
+                if (v !== +rng.value) {
+                    log.push([t0, rng.value]);
+                    rng.value = String(v); pending = rng;
+                    document.documentElement.style.setProperty('--label-scale', v / 100);
+                }
                 if (v === +rng.min || v === +rng.max) return stop();
-            } else { btn.click(); log.push([performance.now(), null]); }
+            } else { log.push([t0, null]); btn.click(); }
             t = setTimeout(tick, Math.max(45, 160 - n * 18));   // 160 → 45 ms
         };
         document.addEventListener('pointerdown', function (e) {
             var b = e.target.closest && e.target.closest('.size-step-btn');
             if (!b || b.disabled || e.button > 0) return;
-            stop(); btn = held = b; n = 0; done = 0; fired = false; log = []; firstAt = Infinity;
+            stop(); btn = held = b; n = 0; fired = false; log = []; firstAt = Infinity;
             t = setTimeout(tick, 380);
         }, true);
         ['pointerup', 'pointercancel'].forEach(function (ev) { document.addEventListener(ev, release, true); });
@@ -1178,7 +1177,7 @@
         window.addEventListener('blur', function (e) { if (e.target === window) { stop(); fired = false; } });
         // The click that ends a hold must not add one more step.
         document.addEventListener('click', function (e) {
-            if (!e.isTrusted) return;                      // the hold's own steps and undos
+            if (!e.isTrusted) return;                      // the hold's own steps
             if (!e.detail) { fired = false; return; }      // keyboard click: never swallowed
             if (!fired) return;
             var b = e.target.closest && e.target.closest('.size-step-btn'); if (!b) return;

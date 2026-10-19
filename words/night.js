@@ -333,7 +333,7 @@ WORDS.night = {
     ii: ["ꃅꌋ", "mu˧˧si˧˧"],
     yiz: ["kumo", "kʰu˧˧mo˧˧"],
     hni: ["aoqqivq", "ɔ˧˩tɕi˧˩"],
-    th_isan: ["คืน", "kʰɯːn˧"],
+    th_isan: ["คืน", "kʰɯːn˥"],
     th_n: ["คืน", "kʰɯːn˧"],
     th_s: ["คืน", "kʰɯːn˥"],
     za: ["haemh", "ham˧"],

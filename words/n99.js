@@ -1117,7 +1117,7 @@ WORDS.n99 = {
     gbm: ["निन्याणबे", "ninjaːɳbe"],
     gag: ["doksan dokuz", "doksan dokuz"],
     gaa: ["nyɔŋmai nɛɛhu kɛ nɛɛhu", "ɲɔŋmai nɛːhu kɛ nɛːhu"],
-    fo: ["níggju og níti", "nʊtʃːʊ ɔ nʊitɪ"],
+    fo: ["níggju og níti", "nʊtʃːʊ ɔ nʊiːtɪ"],
     et: ["üheksakümmend üheksa", "yheksɑkymːend yheksɑ"],
     emi: ["ghasiongaulu ghasio", "ɣasioŋaulu ɣasio"],
     dv: ["ނުވަދިހަ ނުވަ", "nuvadiha nuva"],

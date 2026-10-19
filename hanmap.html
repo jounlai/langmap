@@ -3575,7 +3575,7 @@
     </script>
     <script src="wordmap_data.js?v=348"></script>
     <script src="lang_attention.js?v=3"></script>
-    <script src="hanmap_data.js?v=202"></script>
+    <script src="hanmap_data.js?v=203"></script>
     <script>
         // Hanmap stubs: replace the per-word loader. wordmap.html loads
         // ~20 individual JS files under words/<id>.js (one per concept) and
@@ -7489,7 +7489,7 @@
             return [word, ipaOut];
         }
 
-        function buildLabelHtml(code, word, ipa, displayName, descColor, cssClass) {
+        function buildLabelHtml(code, word, ipa, displayName, descColor, cssClass, firstOnly) {
             // Hanmap normalisation: split each cell into 表記 (romanisation)
             // and 独自文字 (native script). When HAN_VARIANTS lists multiple
             // readings (Korean 頭音法則, 文白異讀, 多音字), stack them.
@@ -7548,6 +7548,10 @@
             // Multi-reading labels (白讀/文讀, 文白異讀, 原音/慣用音, …) stack one
             // word/native/ipa block per variant, so they grow tall enough to
             // overlap neighbours — tag them so the CSS can compact the stack.
+            // r34: a label the placement pass could only fit cut to its first
+            // reading draws that reading alone (the aria-label above and the
+            // popup keep all of them).
+            if (firstOnly && rows.length > 1) rows = rows.slice(0, 1);
             const multiCls = rows.length > 1 ? ' multi-variant' : '';
             let html = `<div class="${cssClass}${isVertical ? ' vertical' : ''}${multiCls}${inCompareCls}" data-code="${codeAttr}" role="button" tabindex="0" aria-label="${ariaLabel}">`;
             for (const r of rows) {
@@ -8044,10 +8048,10 @@
             const _perLH  = (zoom <= 3 ? 7 : zoom <= 5 ? 8 : 9);
             const _hasPeriod = (code) => !!(typeof HAN_LANG_META !== 'undefined'
                 && HAN_LANG_META[code] && HAN_LANG_META[code].period);
-            const _labelHeightPx = (code) => {
+            const _labelHeightPx = (code, oneRow) => {
                 const v = (typeof HAN_VARIANTS !== 'undefined' && HAN_VARIANTS[wordId])
                     ? HAN_VARIANTS[wordId][code] : null;
-                const vRows = (Array.isArray(v) && v.length > 1) ? v.length : 1;
+                const vRows = (!oneRow && Array.isArray(v) && v.length > 1) ? v.length : 1;
                 const hasNat = showScript && typeof HAN_DATA !== 'undefined' && HAN_DATA[wordId]
                     && HAN_DATA[wordId].native && HAN_DATA[wordId].native[code];
                 const natH = hasNat
@@ -8073,6 +8077,14 @@
                 // between stacked labels (owner: "もう少しマージンが必要"). Solved
                 // by placement only — co-located coordinates are NOT moved.
                 return h * 0.5 + 4 * padScale;
+            };
+            // r34: half-height of the same label cut to its first reading (see
+            // _oneRow in the placement pass).
+            const _hh1Of = (code) => _labelHeightPx(code, true) * 0.5 + 4 * padScale;
+            const _nVariants = (code) => {
+                const v = (typeof HAN_VARIANTS !== 'undefined' && HAN_VARIANTS[wordId])
+                    ? HAN_VARIANTS[wordId][code] : null;
+                return Array.isArray(v) ? v.length : 0;
             };
 
             // When a filter is active, only ACTIVE labels compete for cell
@@ -8398,6 +8410,9 @@
             // nothing is drawn for them — the owner tried the leader lines on
             // 2026-09-17 and they made the map look worse than the gap did.
             const _leadered = new Set();
+            // r34: multi-reading labels that only fit cut to their first
+            // reading (below z=6); the render loop draws just that reading.
+            const _oneRow = new Set();
             const _findFreeY = (cx, startY, _placed, dir, curHH) => {
                 // Walk dir=+1 (down) or dir=-1 (up) until we find a y with
                 // no collision against the placed boxes. Return the y, or
@@ -8844,7 +8859,7 @@
                     // r33 a3#2: the last ring is always the limit itself. With a
                     // 16 px step and a 27 px cap (z6, fs=160) only r=16 was ever
                     // tried, so Taiwanese hid with open sea 19 px below its dot.
-                    const _ring = (limit) => {
+                    const _ring = (limit, hh) => {
                         for (let r0 = _ringStep; r0 < limit + _ringStep; r0 += _ringStep) {
                             const r = Math.min(r0, limit);
                             const n = Math.max(8, Math.round((2 * Math.PI * r) / _ringStep));
@@ -8856,9 +8871,35 @@
                         }
                         return false;
                     };
-                    if (_ring(_maxR)) return;
-                    if (_rescueR > _maxR && _ring(_rescueR)) { _leadered.add(c); return; }
+                    if (_ring(_maxR, hh)) return;
+                    if (_rescueR > _maxR && _ring(_rescueR, hh)) { _leadered.add(c); return; }
+                    // r34 a3#1 (血 at z4): a two-reading label (白讀/文讀) is
+                    // twice as tall, so Shanghai Wu hid and Suzhou Wu, whose
+                    // one reading equals Shanghai's 文讀, was drawn in its place.
+                    // Below z=6 try once more with only the first reading
+                    // (the popup still lists all of them). Same 80 px cap.
+                    if (zoom < 6 && _nVariants(c) > 1) {
+                        const hh1 = _hh1Of(c);
+                        if (hh1 < hh) {
+                            if (_free(ax, ay, hh1, hw)) { _placed.push({ x: ax, y: ay, hh: hh1, hw }); offsets[c] = { x: 0, y: 0 }; _oneRow.add(c); return; }
+                            if (_ring(_maxR, hh1)) { _oneRow.add(c); return; }
+                            if (_rescueR > _maxR && _ring(_rescueR, hh1)) { _oneRow.add(c); _leadered.add(c); return; }
+                        }
+                    }
                     hiddenCodes.add(c);
+                };
+                // Readings a label shows (romanised forms), for the duplicate
+                // check below.
+                const _readingKeys = (c) => {
+                    const out = new Set();
+                    const v = (typeof HAN_VARIANTS !== 'undefined' && HAN_VARIANTS[wordId]) ? HAN_VARIANTS[wordId][c] : null;
+                    const add = (s) => { s = String(s || '').trim().toLowerCase(); if (s && s !== '—') out.add(s); };
+                    if (Array.isArray(v) && v.length) { for (const x of v) add(x.surface || x.native); return out; }
+                    const L0 = LANG_DATA[c], e = L0 && L0.words && L0.words[wordId];
+                    if (!e || unattestedSet.has(c)) return out;
+                    add(e[0]);
+                    try { add(hanmapNormalizeFull(c, e[0], e[1], wordId)[1]); } catch (_) {}
+                    return out;
                 };
                 // r33 a3#1: a stack member that cannot stay in its stack goes
                 // back into the queue as a solo unit at its OWN priority. Placing
@@ -8887,7 +8928,20 @@
                     if (zoom < 6) {
                         const byRank = members.map(m => ({ members: [m], prio: langPriority(m) || 0 })).sort(_unitCmp).map(u => u.members[0]);
                         _placeSolo(byRank[0]);
-                        _requeue(byRank.slice(1));
+                        let rest = byRank.slice(1);
+                        // r34: if the top member still hides (even cut to one
+                        // reading), a lower member of its stack whose reading
+                        // is one of the top's must not be drawn on that point
+                        // as if it were the top row (Suzhou shiuq7 for
+                        // Shanghai 白 shioq7 / 文 shiuq7).
+                        if (hiddenCodes.has(byRank[0])) {
+                            const topKeys = _readingKeys(byRank[0]);
+                            rest = rest.filter(m => {
+                                for (const k of _readingKeys(m)) if (topKeys.has(k)) { hiddenCodes.add(m); return false; }
+                                return true;
+                            });
+                        }
+                        _requeue(rest);
                         continue;
                     }
                     // Cluster: build the centred vertical stack (dots between the
@@ -8976,7 +9030,7 @@
                 const isDescendant = showHistorical && descendantCodes.has(code);
                 const descColor = isUna ? '' : hanmapLabelColor(code);
                 const cssClass = isUna ? 'lang-label unattested' : 'lang-label';
-                const html = buildLabelHtml(code, word, ipa, displayName, descColor, cssClass);
+                const html = buildLabelHtml(code, word, ipa, displayName, descColor, cssClass, _oneRow.has(code));
                 const labelHtml = html.replace('>', ` style="transform:translate(calc(-50% + ${off.x}px),calc(-50% + ${off.y}px))">`);
                 // Opt-in red dot at the true lat/lng (anchor), behind the label.
                 const pinHtml = showPins ? '<div class="lang-pin-dot"></div>' : '';

@@ -95,6 +95,11 @@ function seo_plural_cat(string $ui, int $n): string
         if ($m100 >= 11) return 'many';
         return 'other';
     }
+    // CLDR 'many' for French, Italian, Spanish and Portuguese: an exact multiple
+    // of a million, where the noun takes the partitive ("9 millions DE
+    // personnes"). The goods card passes cnt = min(speakers, 1e6), so every
+    // count shown as "N millions/milliards" lands here (rally r34 a2#3).
+    if (in_array($ui, ['fr', 'it', 'es', 'pt'], true) && $n > 0 && $n % 1000000 === 0) return 'many';
     return $n === 1 ? 'one' : 'other';
 }
 
@@ -123,7 +128,9 @@ function seo_people(int $n, string $ui): string
     if ($n < 1000000) return $grp($n, $sep);
     $big = $n >= 1e9;
     $x = $big ? $n / 1e9 : $n / 1e6;
-    $num = rtrim(rtrim(number_format($x, $x < 10 ? 1 : 0, $dec, $sep), '0'), $dec);
+    // Strip a trailing ",0" only: trimming zeros off a whole number turned
+    // 10 / 100 million into "1 million" (r34).
+    $num = $x < 10 ? rtrim(rtrim(number_format($x, 1, $dec, $sep), '0'), $dec) : number_format($x, 0, $dec, $sep);
     $one = ($num === '1');
     $W = [
       'en' => ['million','million','billion','billion'], 'de' => ['Million','Millionen','Milliarde','Milliarden'],
@@ -1490,12 +1497,12 @@ const SEO_T = [
         'th_char' => 'Caractère', 'th_gloss' => 'Sens', 'th_read' => 'Lecture', 'th_form' => 'Forme',
         'where' => 'Où elle est parlée',
         'crumbs' => 'Fil d’Ariane',
-        'open_app' => 'Ouvrir {name} dans la carte interactive →',
+        'open_app' => 'Ouvrir dans la carte interactive : {name} →',
         'goods_title' => 'Portez cette langue',
         'goods_sub' => 'Voir le design →',
         'goods_lede' => 'Choisissez parmi les {w} mots en {name} — imprimés dans la même police que la carte.',
         'goods_peek' => '👕 Les mots de cette langue existent aussi en t-shirt (plus bas)',
-        'goods_title_n' => 'Portez une langue parlée par environ {n} personnes.',
+        'goods_title_n' => ['other' => 'Portez une langue parlée par environ {n} personnes.', 'many' => 'Portez une langue parlée par environ {n} de personnes.'],
         'goods_note' => 'Le design s\'essaie sur la page de notre boutique partenaire ; vous décidez de commander après l\'avoir vu.',
         'open_app_wm' => 'Ouvrir la Word Map interactive →',
         'open_app_hm' => 'Ouvrir la Han Map interactive →',
@@ -1504,8 +1511,8 @@ const SEO_T = [
         'cmp_related' => 'Comparer aux langues apparentées : {family}',
         'cmp_note' => 'Les comparaisons portent sur la forme et la prononciation (pas l’ordre des mots).',
         'same_family' => 'Même famille',
-        'crossmap_wm' => 'Voir {name} dans la Word Map',
-        'crossmap_hm' => 'Voir {name} dans la Han Map',
+        'crossmap_wm' => 'Voir dans la Word Map : {name}',
+        'crossmap_hm' => 'Voir dans la Han Map : {name}',
         'picker' => 'Langue', 'switch' => 'Changer', 'stay' => 'Rester',
         'switch_to' => 'Afficher {name} ?',
         'sources' => 'Sources', 'languages' => 'Langues',
@@ -1554,12 +1561,12 @@ const SEO_T = [
         'th_char' => 'Carattere', 'th_gloss' => 'Significato', 'th_read' => 'Lettura', 'th_form' => 'Forma',
         'where' => 'Dove si parla',
         'crumbs' => 'Percorso di navigazione',
-        'open_app' => 'Apri {name} sulla mappa interattiva →',
+        'open_app' => 'Apri sulla mappa interattiva: {name} →',
         'goods_title' => 'Indossa questa lingua',
         'goods_sub' => 'Guarda il design →',
         'goods_lede' => 'Scegli tra le {w} parole in {name} — stampate con lo stesso carattere della mappa.',
         'goods_peek' => '👕 Le parole di questa lingua anche su una t-shirt (sotto)',
-        'goods_title_n' => 'Indossa una lingua parlata da circa {n} persone.',
+        'goods_title_n' => ['other' => 'Indossa una lingua parlata da circa {n} persone.', 'many' => 'Indossa una lingua parlata da circa {n} di persone.'],
         'goods_note' => 'Il design si prova sulla pagina del nostro negozio partner: decidi se ordinare dopo averlo visto.',
         'open_app_wm' => 'Apri la Word Map interattiva →',
         'open_app_hm' => 'Apri la Han Map interattiva →',
@@ -1568,8 +1575,8 @@ const SEO_T = [
         'cmp_related' => 'Confronta con lingue della stessa classificazione: {family}',
         'cmp_note' => 'I confronti riguardano forma e pronuncia (non l’ordine delle parole).',
         'same_family' => 'Stessa classificazione',
-        'crossmap_wm' => 'Vedi {name} sulla Word Map',
-        'crossmap_hm' => 'Vedi {name} sulla Han Map',
+        'crossmap_wm' => 'Vedi sulla Word Map: {name}',
+        'crossmap_hm' => 'Vedi sulla Han Map: {name}',
         'picker' => 'Lingua', 'switch' => 'Cambia', 'stay' => 'Resta',
         'switch_to' => 'Vuoi passare a {name}?',
         'sources' => 'Fonti', 'languages' => 'Lingue',
@@ -1618,12 +1625,12 @@ const SEO_T = [
         'th_char' => 'Carácter', 'th_gloss' => 'Significado', 'th_read' => 'Lectura', 'th_form' => 'Forma',
         'where' => 'Dónde se habla',
         'crumbs' => 'Ruta de navegación',
-        'open_app' => 'Abrir {name} en el mapa interactivo →',
+        'open_app' => 'Abrir en el mapa interactivo: {name} →',
         'goods_title' => 'Ponte este idioma',
         'goods_sub' => 'Ver el diseño →',
         'goods_lede' => 'Elige entre las {w} palabras en {name}: se estampan con la tipografía del mapa.',
         'goods_peek' => '👕 Las palabras de esta lengua también en camiseta (abajo)',
-        'goods_title_n' => 'Viste una lengua que hablan unas {n} personas.',
+        'goods_title_n' => ['other' => 'Viste una lengua que hablan unas {n} personas.', 'many' => 'Viste una lengua que hablan unos {n} de personas.'],
         'goods_note' => 'El diseño se prueba en la página de nuestra tienda asociada; decides si pedir después de verlo.',
         'open_app_wm' => 'Abrir el Word Map interactivo →',
         'open_app_hm' => 'Abrir el Han Map interactivo →',
@@ -1632,8 +1639,8 @@ const SEO_T = [
         'cmp_related' => 'Comparar con lenguas de la misma clasificación: {family}',
         'cmp_note' => 'Las comparaciones son de forma y pronunciación (no de orden de palabras).',
         'same_family' => 'Misma clasificación',
-        'crossmap_wm' => 'Ver {name} en el Word Map',
-        'crossmap_hm' => 'Ver {name} en el Han Map',
+        'crossmap_wm' => 'Ver en el Word Map: {name}',
+        'crossmap_hm' => 'Ver en el Han Map: {name}',
         'picker' => 'Idioma', 'switch' => 'Cambiar', 'stay' => 'Quedarse',
         'switch_to' => '¿Cambiar a {name}?',
         'sources' => 'Fuentes', 'languages' => 'Lenguas',
@@ -1682,12 +1689,12 @@ const SEO_T = [
         'th_char' => 'Caractere', 'th_gloss' => 'Significado', 'th_read' => 'Leitura', 'th_form' => 'Forma',
         'where' => 'Onde é falada',
         'crumbs' => 'Trilha de navegação',
-        'open_app' => 'Ver {name} no mapa interativo →',
+        'open_app' => 'Abrir no mapa interativo: {name} →',
         'goods_title' => 'Vista este idioma',
         'goods_sub' => 'Ver o design →',
         'goods_lede' => 'Escolha entre as {w} palavras em {name} — estampadas na mesma tipografia do mapa.',
         'goods_peek' => '👕 As palavras desta língua também numa camiseta (abaixo)',
-        'goods_title_n' => 'Vista uma língua falada por cerca de {n} pessoas.',
+        'goods_title_n' => ['other' => 'Vista uma língua falada por cerca de {n} pessoas.', 'many' => 'Vista uma língua falada por cerca de {n} de pessoas.'],
         'goods_note' => 'O design é testado na página da nossa loja parceira; você decide se encomenda depois de ver.',
         'open_app_wm' => 'Abrir o Word Map interativo →',
         'open_app_hm' => 'Abrir o Han Map interativo →',
@@ -1696,8 +1703,8 @@ const SEO_T = [
         'cmp_related' => 'Comparar com línguas da mesma classificação: {family}',
         'cmp_note' => 'As comparações são de forma e pronúncia (não de ordem das palavras).',
         'same_family' => 'Mesma classificação',
-        'crossmap_wm' => 'Ver {name} no Word Map',
-        'crossmap_hm' => 'Ver {name} no Han Map',
+        'crossmap_wm' => 'Ver no Word Map: {name}',
+        'crossmap_hm' => 'Ver no Han Map: {name}',
         'picker' => 'Idioma', 'switch' => 'Trocar', 'stay' => 'Ficar',
         'switch_to' => 'Trocar para {name}?',
         'sources' => 'Fontes', 'languages' => 'Línguas',
@@ -1944,7 +1951,7 @@ const SEO_T = [
         'th_char' => 'תו', 'th_gloss' => 'משמעות', 'th_read' => 'קריאה', 'th_form' => 'צורה',
         'where' => 'היכן מדוברת',
         'crumbs' => 'נתיב ניווט',
-        'open_app' => 'לפתוח את {name} במפה האינטראקטיבית ←',
+        'open_app' => 'פתיחה במפה האינטראקטיבית: {name} ←',
         'goods_title' => 'ללבוש את השפה הזאת',
         'goods_sub' => 'לראות את העיצוב ←',
         'goods_lede' => 'בחרו מילים מתוך {w} המילים ב{name} — הן יודפסו באותו הגופן שבמפה.',
@@ -1958,8 +1965,8 @@ const SEO_T = [
         'cmp_related' => 'להשוות לשפות מאותו סיווג: {family}',
         'cmp_note' => 'ההשוואות הן של צורת המילה וההגייה (לא של סדר המילים).',
         'same_family' => 'שפות באותו סיווג',
-        'crossmap_wm' => 'לראות את {name} ב-Word Map',
-        'crossmap_hm' => 'לראות את {name} ב-Han Map',
+        'crossmap_wm' => 'צפייה ב-Word Map: {name}',
+        'crossmap_hm' => 'צפייה ב-Han Map: {name}',
         'picker' => 'שפה', 'switch' => 'החלף', 'stay' => 'הישאר',
         'switch_to' => 'לעבור ל{name}?',
         'sources' => 'מקורות', 'languages' => 'שפות',
@@ -2093,6 +2100,10 @@ const SEO_INLINE_LC = [
     // "Bahasa Jepang" -> "bahasa Jepang", "Tiếng Nhật" -> "tiếng Nhật".
     'id' => ['Bahasa '],
     'vi' => ['Tiếng ', 'Ngôn ngữ '],
+    // Swahili names are proper nouns when they start with the Ki- class prefix
+    // ("Kijapani"), but "lahaja ya Osaka" (dialect), "lugha ya Sora" (language)
+    // and "usomaji wa Kanbun" (reading) lead with a common noun (rally r34 a2#6).
+    'sw' => ['Lahaja ', 'Lugha ', 'Usomaji '],
 ];
 
 /**
@@ -3124,6 +3135,43 @@ function seo_meta_value(string $ui, string $value): string
 }
 
 /**
+ * Word Map speakers chip: [value, lang]. meta.speakers is English shorthand
+ * ("~125M", "~5.2M (official language of Costa Rica)"); 821 of 1,190 rows have
+ * no translated value, so every non-English UI printed "~125M" raw, and many
+ * translated values kept the "~5.2M" figure (rally r34 a2#5). The leading
+ * figure is re-printed with seo_people() — "~125 millions", "~1億2,500万" — and
+ * only the bracketed tail is looked up. Values that do not start with a plain
+ * "~N[KMB]" figure (ranges, "L1", prose) go through seo_meta_value() as before.
+ * lang is '' when the shown value is in the UI language, else the stored
+ * language's tag for seo_chip_value().
+ */
+function seo_speakers_value(string $ui, string $raw): array
+{
+    $plain = fn() => [seo_meta_value($ui, $raw), seo_meta_value_lang($ui, $raw)];
+    if ($ui === 'en' || !preg_match('/^~\s*(\d[\d,]*(?:\.\d+)?)\s*([KMB])(?=\s|$)(.*)$/u', $raw, $m)) return $plain();
+    $tail = $m[3];
+    if ($tail !== '' && !preg_match('/^\s+\([^()]*(?:\([^()]*\)[^()]*)*\)$/u', $tail)) return $plain();
+    $n = (int) round((float) str_replace(',', '', $m[1]) * ['K' => 1e3, 'M' => 1e6, 'B' => 1e9][$m[2]]);
+    if ($n < 1) return $plain();
+    $fig = '~' . seo_people($n, $ui);
+    $tr = seo_meta_value($ui, $raw);
+    $head = '/^~\s*\d[\d,]*(?:\.\d+)?\s*[KMB](?=[\s(\x{FF08}]|$)/u';
+    if ($tr !== $raw) {
+        // A translation exists: keep it, fixing its figure if it copied "~5.2M".
+        return [preg_match($head, $tr) ? (string) preg_replace($head, $fig, $tr, 1) : $tr, ''];
+    }
+    if ($tail === '') return [$fig, ''];
+    $inner = trim($tail);
+    $inner = mb_substr($inner, 1, mb_strlen($inner) - 2);
+    $innerTr = seo_meta_value($ui, $inner);
+    $open = in_array($ui, ['zh', 'yue', 'ja'], true) ? '（' : ' (';
+    $close = in_array($ui, ['zh', 'yue', 'ja'], true) ? '）' : ')';
+    if ($innerTr !== $inner) return [$fig . $open . $innerTr . $close, ''];
+    // Untranslated English tail: localized figure, tail tagged English.
+    return [$fig . ' (' . $inner . ')', 'en-runs'];
+}
+
+/**
  * lang of a meta chip value when seo_meta_value() found no translation and
  * printed the stored string: Han Map speakers prose is Japanese (約9000万人),
  * everything else English. '' when translated or when it has no letters.
@@ -3167,6 +3215,8 @@ function seo_chip_value(string $text, string $lang): string
 {
     if ($lang === '') return e($text);
     if ($lang === 'cjk-runs') return seo_cjk_lang_runs(e($text));
+    // A localized figure with an untranslated English bracket (seo_speakers_value).
+    if ($lang === 'en-runs') return (string) preg_replace('/\((.*)\)$/us', '(<span lang="en">$1</span>)', e($text));
     // Explicit code points, not \p{Han}: see seo_cjk_lang_runs.
     if ($lang === 'ja-runs') return (string) preg_replace('/[\x{3005}\x{3041}-\x{3096}\x{30A1}-\x{30FA}\x{30FC}\x{3400}-\x{4DBF}\x{4E00}-\x{9FFF}][\x{3005}\x{3041}-\x{3096}\x{30A1}-\x{30FA}\x{30FC}\x{3400}-\x{4DBF}\x{4E00}-\x{9FFF}0-9,.~+\/\x{3000}-\x{303F}]*/u', '<span lang="ja">$0</span>', e($text));
     return '<bdi lang="' . $lang . '">' . ($lang === 'en' ? seo_cjk_lang_runs(e($text)) : e($text)) . '</bdi>';
@@ -4517,7 +4567,7 @@ function seo_related_links(string $map, string $code, string $name, array $langs
 
   <?php if ($hasCross): ?>
   <div class="crossmap">
-    <a href="<?= e(seo_path($ui, $otherMap, $code)) ?>"><?= e(seo_t($ui, $crossKey, ['name' => $otherName])) ?> →</a>
+    <a href="<?= e(seo_path($ui, $otherMap, $code)) ?>"><?= e(seo_t($ui, $crossKey, ['name' => $otherName])) ?> <?= in_array($ui, ['ar', 'he'], true) ? '←' : '→' ?></a>
   </div>
   <?php endif; ?>
 

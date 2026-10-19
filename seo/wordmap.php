@@ -160,7 +160,9 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
     $chips = [];
     // Values, not just labels, are translated — see seo_meta_value().
     if (!empty($meta['family']))   $chips[seo_t($ui, 'family')]    = seo_meta_value($ui, $meta['family']);
-    if (!empty($meta['speakers'])) $chips[seo_t($ui, 'speakers')]  = seo_meta_value($ui, $meta['speakers']);
+    // Speakers: the leading figure in the UI's own number words (r34 a2#5).
+    $spkChip = !empty($meta['speakers']) ? seo_speakers_value($ui, (string) $meta['speakers']) : null;
+    if ($spkChip) $chips[seo_t($ui, 'speakers')]  = $spkChip[0];
     if (!empty($meta['script']))   $chips[seo_t($ui, 'script')]    = seo_meta_value($ui, $meta['script']);
     if (!empty($meta['countries']))$chips[seo_t($ui, 'countries')] = seo_meta_value($ui, $meta['countries']);
     if (!empty($meta['official'])) $chips[seo_t($ui, 'official')]  = seo_meta_value($ui, $meta['official']);
@@ -171,7 +173,7 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
     // Untranslated values (stored English) are tagged so they are read as English.
     $chipLang = [];
     foreach (['family','speakers','script','countries','official','region'] as $f)
-        if (!empty($meta[$f])) $chipLang[seo_t($ui, $f)] = seo_meta_value_lang($ui, (string) $meta[$f]);
+        if (!empty($meta[$f])) $chipLang[seo_t($ui, $f)] = $f === 'speakers' && $spkChip ? $spkChip[1] : seo_meta_value_lang($ui, (string) $meta[$f]);
     if ($chips): ?>
 <div class="seo-meta">
   <?php foreach ($chips as $k => $v): ?>

@@ -381,7 +381,7 @@ WORDS.black = {
     unr: ["hende", "hende"],
     hoc: ["hende", "hende"],
     kha: ["ïong", "joŋ"],
-    th_isan: ["ดำ", "dam˧"],
+    th_isan: ["ดำ", "dam˥"],
     th_n: ["ดำ", "dam˧"],
     th_s: ["ดำ", "dam˥"],
     soa: ["ดำ", "dam˨˦"],

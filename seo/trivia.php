@@ -276,7 +276,7 @@ function seo_tri_compare(array $targets, array $langs, array $wordLabels, string
             // Speaker counts start with "~" and often mix Latin digits into an
             // RTL cell; <bdi> keeps "~2.5K" from rendering as "2.5K~" in Arabic
             // and Hebrew.
-            . '<td class="tc-meta"><bdi>' . e($speakers !== '' ? seo_meta_value($ui, $speakers) : '—') . '</bdi></td>';
+            . '<td class="tc-meta"><bdi>' . e($speakers !== '' ? seo_speakers_value($ui, (string) $speakers)[0] : '—') . '</bdi></td>';
         foreach ($cols as $w) {
             $cell = $l['words'][$w] ?? null;
             $h .= '<td>' . ($cell

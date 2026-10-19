@@ -828,7 +828,7 @@ WORDS.milk = {
     pot: ["nonagnabo", "nonaɡnabo"],
     vi_c: ["sữa", "ʂɨə˧˩˨"],
     vi_s: ["sữa", "ʂɨə˨˩˦"],
-    th_isan: ["นม", "nom˧"],
+    th_isan: ["นม", "nom˥"],
     th_n: ["นม", "nom˧"],
     th_s: ["นม", "nom˥"],
     ja_edo: ["乳", "tɕitɕi"],

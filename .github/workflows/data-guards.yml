@@ -37,12 +37,18 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
-      # The Name/Time Map CJK subset guard reads the committed subset fonts'
-      # cmaps with fontTools (tools/build_cjk_page_subsets.py --check, r24).
+      # The Name/Time Map CJK subset guard reads the committed .woff2 subset fonts'
+      # cmaps with fontTools, which needs brotli for WOFF2 (build_cjk_page_subsets.py --check).
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - name: Install fontTools
-        run: python -m pip install fonttools
+        run: python -m pip install fonttools brotli
+      # The static SEO sitemap guard renders seo/sitemap.php with the PHP CLI.
+      # Installed explicitly rather than relying on the runner image (Ubuntu 26 from 2026-10-19).
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          coverage: none
       - name: Run all deterministic data guards
         run: node tools/check_all.js

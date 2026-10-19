@@ -1122,7 +1122,8 @@
             if (!btn.getClientRects().length) return;
             var base = bl.getBoundingClientRect().top;
             d.style.top = '0px';
-            d.style.top = (base - d.getBoundingClientRect().bottom).toFixed(2) + 'px';
+            // A touch above the baseline reads as standing on it (owner 2026-10-19).
+            d.style.top = (base - d.getBoundingClientRect().bottom - parseFloat(getComputedStyle(btn).fontSize) * 0.12).toFixed(2) + 'px';
             // The globe centres on the capital letters, not on the line box
             // (flex centring put it visibly high; owner 2026-10-19).
             var g = btn.querySelector('.lm-credit-ico');

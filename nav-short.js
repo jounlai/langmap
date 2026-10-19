@@ -1114,20 +1114,23 @@
     // only the dancer moves. The baseline depends on the reader's font, so it
     // is measured: the text's content box top + the font's ascent.
     function placeDancer(btn) {
-        var d = btn && btn.querySelector('.lm-dancer'); if (!d) return;
+        var d = btn && btn.querySelector('.lm-dancer'), bl = btn && btn.querySelector('.lm-bl'); if (!bl) return;
+        if (!d) d = document.createElement('span');
+        // .lm-bl is a zero-size inline-block on the text's baseline, so this is
+        // the baseline as the reader's own fonts render it (Windows differs).
         var fit = function () {
-            var tn = null; for (var i = 0; i < btn.childNodes.length; i++) if (btn.childNodes[i].nodeType === 3 && btn.childNodes[i].nodeValue.trim()) { tn = btn.childNodes[i]; break; }
-            if (!tn || !btn.getClientRects().length) return;
-            var r = document.createRange(); r.selectNodeContents(tn); var tr = r.getBoundingClientRect(); if (!tr.height) return;
-            var cs = getComputedStyle(btn), ctx = (placeDancer._c || (placeDancer._c = document.createElement('canvas').getContext('2d')));
-            ctx.font = cs.fontStyle + ' ' + cs.fontWeight + ' ' + cs.fontSize + ' ' + cs.fontFamily;
-            var m = ctx.measureText('H'), asc = m.fontBoundingBoxAscent, desc = m.fontBoundingBoxDescent;
-            if (!(asc > 0)) return;
-            // The range box is the font's content area (ascent + descent), centred on the line.
-            var base = tr.top + (tr.height - (asc + desc)) / 2 + asc;
+            if (!btn.getClientRects().length) return;
+            var base = bl.getBoundingClientRect().top;
             d.style.top = '0px';
-            var off = base - d.getBoundingClientRect().bottom;
-            d.style.top = off.toFixed(2) + 'px';
+            d.style.top = (base - d.getBoundingClientRect().bottom).toFixed(2) + 'px';
+            // The globe centres on the capital letters, not on the line box
+            // (flex centring put it visibly high; owner 2026-10-19).
+            var g = btn.querySelector('.lm-credit-ico');
+            if (g) {
+                g.style.position = 'relative'; g.style.top = '0px';
+                var gr = g.getBoundingClientRect(), cap = parseFloat(getComputedStyle(btn).fontSize) * 0.71;
+                g.style.top = (base - cap / 2 - (gr.top + gr.height / 2)).toFixed(2) + 'px';
+            }
         };
         fit();
         if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);

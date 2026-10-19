@@ -1962,7 +1962,7 @@ html:is([lang="ar"], [lang="he"]) .header-nav :is(.header-nav-link, .header-nav-
 .lm-credit-btn{all:unset;cursor:pointer;pointer-events:auto;white-space:nowrap;text-decoration:none;display:inline-flex;gap:0;align-items:center;min-height:32px;padding:0 6px;margin:-10px 0}
 .lm-credit-btn:focus-visible{outline:2px solid #1a73e8;outline-offset:2px;border-radius:4px}
 .lm-credit-btn:hover{text-decoration:underline;text-underline-offset:2px}
-.lm-credit-btn .lm-credit-ico{flex:none;margin-inline-end:5px}
+.lm-credit-btn .lm-credit-ico{flex:none;margin-inline-end:3px}
 /* Credit plate: half the side padding (owner 2026-10-19), 14px → 7px a side. */
 .url-watermark{padding-left:4px!important;padding-right:4px!important}
 .url-watermark .lm-credit-btn{padding-left:3px;padding-right:3px}
@@ -1973,6 +1973,8 @@ html:is([lang="ar"], [lang="he"]) .header-nav :is(.header-nav-link, .header-nav-
    Routine, 4.8 s: wave, wave back, disco left, disco right, jump, squat,
    cartwheel, kick. */
 .lm-dancer{height:.72em;width:auto;aspect-ratio:12/15.8;margin-inline-start:4px;overflow:visible;flex:none;position:relative;top:0}
+.lm-credit-txt{white-space:nowrap}
+.lm-bl{display:inline-block;width:0;height:0;vertical-align:baseline}
 .lm-dancer *{transform-box:fill-box}
 .lm-dancer .lm-d-body{transform-origin:50% 55%;animation:lm-d-body 4.8s ease-in-out infinite}
 .lm-dancer .lm-d-armL{transform-origin:100% 0;animation:lm-d-armL 4.8s ease-in-out infinite}

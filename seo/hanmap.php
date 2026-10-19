@@ -108,6 +108,11 @@ function hm_romanization_label(string $ui, string $raw): array
         'Changsha romanization (Wiktionary, old style)' => [
             'ja' => '長沙方言ローマ字（Wiktionary・旧方式）', 'ko' => '창사 방언 로마자 표기(Wiktionary 구식)', 'zh' => '长沙话罗马字（Wiktionary 旧式）', 'yue' => '長沙話羅馬字（Wiktionary 舊式）', 'vi' => 'chữ La-tinh tiếng Trường Sa (Wiktionary, kiểu cũ)', 'th' => 'อักษรโรมันสำเนียงฉางชา (Wiktionary แบบเก่า)', 'id' => 'romanisasi dialek Changsha (Wiktionary, gaya lama)', 'hi' => 'छांगशा बोली का रोमनकरण (Wiktionary, पुरानी शैली)',
             'de' => 'Umschrift des Changsha-Dialekts (Wiktionary, alte Form)', 'fr' => 'romanisation du parler de Changsha (Wiktionary, ancien style)', 'it' => 'romanizzazione del dialetto di Changsha (Wiktionary, vecchio stile)', 'es' => 'romanización del habla de Changsha (Wiktionary, estilo antiguo)', 'pt' => 'romanização da fala de Changsha (Wiktionary, estilo antigo)', 'ru' => 'латинизация чаншаского говора (Wiktionary, старый вариант)', 'uk' => 'латинізація чаншаської говірки (Wiktionary, старий варіант)', 'ar' => 'كتابة لاتينية للهجة تشانغشا (Wiktionary، النمط القديم)', 'he' => 'תעתיק לטיני לדיבור של צ\'אנגשה (Wiktionary, סגנון ישן)', 'sw' => 'uandishi wa Kilatini wa lahaja ya Changsha (Wiktionary, mtindo wa zamani)'],
+        'Taiwanese Hakka Romanization System (臺灣客家語拼音方案)' => [
+            'ja' => '臺灣客家語拼音方案', 'ko' => '대만 하카어 병음 방안(臺灣客家語拼音方案)', 'zh' => '台湾客家语拼音方案', 'yue' => '臺灣客家語拼音方案'],
+        'Dungan Cyrillic transliteration' => [
+            'ja' => 'ドンガン語キリル文字の翻字', 'ko' => '둥간어 키릴 문자 전자', 'zh' => '东干语西里尔字母转写', 'yue' => '東干語西里爾字母轉寫', 'vi' => 'chuyển tự chữ Kirin tiếng Dungan', 'th' => 'การถอดอักษรซีริลลิกภาษาตุงกาน', 'id' => 'transliterasi aksara Kiril Dungan', 'hi' => 'डुंगान सिरिलिक लिप्यंतरण',
+            'de' => 'Transliteration der dunganischen Kyrilliza', 'fr' => 'translittération du cyrillique doungane', 'it' => 'traslitterazione del cirillico dungano', 'es' => 'transliteración del cirílico dungano', 'pt' => 'transliteração do cirílico dungano', 'ru' => 'транслитерация дунганской кириллицы', 'uk' => 'транслітерація дунганської кирилиці', 'ar' => 'نقل حرفي للكتابة الكيريلية الدونغانية', 'he' => 'תעתוק של הכתב הקירילי הדונגני', 'sw' => 'unukuzi-herufi wa Kisiriliki cha Kidungan'],
     ];
     if (isset($EXACT[$raw][$ui])) return [$EXACT[$raw][$ui], true];
     // "Hanyu Pinyin with tone-contour superscripts (成都音)" — 12 Mandarin rows.
@@ -135,6 +140,35 @@ function hm_romanization_label(string $ui, string $raw): array
             'de' => ' (mit Tonwerten)', 'fr' => ' (avec valeurs tonales)', 'it' => ' (con valori tonali)', 'es' => ' (con valores tonales)', 'pt' => ' (com valores tonais)', 'ru' => ' (с тоновыми значениями)', 'uk' => ' (з тоновими значеннями)', 'ar' => ' (بقيم النغمات)', 'he' => ' (עם ערכי טון)', 'sw' => ' (pamoja na thamani za toni)',
         ];
         if (isset($T[$ui])) return [sprintf($T[$ui], $c) . (!empty($m[2]) ? $V[$ui] : ''), true];
+    }
+    // "<Scholar> transcription / transliteration / reconstruction / romanization
+    // / notation" (r35 a2#3): the scholar or system name stays Latin, the
+    // descriptive noun is translated. An optional trailing "(…)" is kept as is.
+    if (preg_match('/^(Baxter notation) \(schematic tones\)$/u', $raw)) {
+        $Z = [
+            'ja' => 'Baxter 式表記（声調記号は模式的）', 'ko' => 'Baxter 표기(성조 부호는 도식적)', 'zh' => 'Baxter 标音（声调符号为示意）', 'yue' => 'Baxter 標音（聲調符號只係示意）', 'vi' => 'ký hiệu theo Baxter (dấu thanh mang tính sơ đồ)', 'th' => 'สัญกรณ์แบบ Baxter (เครื่องหมายวรรณยุกต์เป็นแบบแผนภาพ)', 'id' => 'notasi Baxter (tanda nada skematis)', 'hi' => 'Baxter संकेतन (स्वर-चिह्न केवल सांकेतिक)',
+            'de' => 'Notation nach Baxter (schematische Tonzeichen)', 'fr' => 'notation de Baxter (tons schématiques)', 'it' => 'notazione di Baxter (toni schematici)', 'es' => 'notación de Baxter (tonos esquemáticos)', 'pt' => 'notação de Baxter (tons esquemáticos)', 'ru' => 'нотация Бакстера (тоны условные)', 'uk' => 'нотація Бакстера (тони умовні)', 'ar' => 'ترميز باكستر (علامات النغمة تخطيطية)', 'he' => 'סימון לפי Baxter (סימוני טון סכמטיים)', 'sw' => 'mtindo wa uandishi wa Baxter (alama za toni ni za kimchoro)',
+        ];
+        if (isset($Z[$ui])) return [$Z[$ui], true];
+    }
+    if (preg_match('/^(\p{Lu}[\p{L}\'’\-–\/ ]*?) (transcription|transliteration|reconstruction|romanization|notation)( \([^)]+\))?$/u', $raw, $m)
+        && !preg_match('/^(Dungan Cyrillic)$/u', $m[1])) {
+        $KIND = [
+            'transcription'   => ['ja' => '%s式転写', 'ko' => '%s 전사', 'zh' => '%s转写', 'yue' => '%s轉寫', 'vi' => 'phiên âm theo %s', 'th' => 'การถอดเสียงแบบ %s', 'id' => 'transkripsi %s', 'hi' => '%s प्रतिलेखन', 'de' => 'Transkription nach %s', 'fr' => 'transcription de %s', 'it' => 'trascrizione di %s', 'es' => 'transcripción de %s', 'pt' => 'transcrição de %s', 'ru' => 'транскрипция по системе %s', 'uk' => 'транскрипція за системою %s', 'ar' => 'نسخ صوتي حسب %s', 'he' => 'תעתיק לפי %s', 'sw' => 'unukuzi wa %s'],
+            'transliteration' => ['ja' => '%s式翻字', 'ko' => '%s 전자', 'zh' => '%s转写', 'yue' => '%s轉寫', 'vi' => 'chuyển tự theo %s', 'th' => 'การถอดอักษรแบบ %s', 'id' => 'transliterasi %s', 'hi' => '%s लिप्यंतरण', 'de' => 'Transliteration nach %s', 'fr' => 'translittération de %s', 'it' => 'traslitterazione di %s', 'es' => 'transliteración de %s', 'pt' => 'transliteração de %s', 'ru' => 'транслитерация по системе %s', 'uk' => 'транслітерація за системою %s', 'ar' => 'نقل حرفي حسب %s', 'he' => 'תעתוק לפי %s', 'sw' => 'unukuzi-herufi wa %s'],
+            'reconstruction'  => ['ja' => '%sによる再構', 'ko' => '%s 재구', 'zh' => '%s构拟', 'yue' => '%s構擬', 'vi' => 'phục nguyên theo %s', 'th' => 'การสืบสร้างของ %s', 'id' => 'rekonstruksi %s', 'hi' => '%s का पुनर्निर्माण', 'de' => 'Rekonstruktion nach %s', 'fr' => 'reconstruction de %s', 'it' => 'ricostruzione di %s', 'es' => 'reconstrucción de %s', 'pt' => 'reconstrução de %s', 'ru' => 'реконструкция (%s)', 'uk' => 'реконструкція (%s)', 'ar' => 'إعادة بناء حسب %s', 'he' => 'שחזור לפי %s', 'sw' => 'uundaji upya wa %s'],
+            'romanization'    => ['ja' => '%s式ローマ字', 'ko' => '%s 로마자 표기', 'zh' => '%s罗马字', 'yue' => '%s羅馬字', 'vi' => 'chữ La-tinh kiểu %s', 'th' => 'อักษรโรมันแบบ %s', 'id' => 'romanisasi %s', 'hi' => '%s रोमनकरण', 'de' => 'Umschrift nach %s', 'fr' => 'romanisation %s', 'it' => 'romanizzazione %s', 'es' => 'romanización %s', 'pt' => 'romanização %s', 'ru' => 'романизация (%s)', 'uk' => 'романізація (%s)', 'ar' => 'كتابة لاتينية حسب %s', 'he' => 'תעתיק לטיני לפי %s', 'sw' => 'uandishi wa Kilatini wa %s'],
+            'notation'        => ['ja' => '%s式表記', 'ko' => '%s 표기', 'zh' => '%s标音', 'yue' => '%s標音', 'vi' => 'ký hiệu theo %s', 'th' => 'สัญกรณ์แบบ %s', 'id' => 'notasi %s', 'hi' => '%s संकेतन', 'de' => 'Notation nach %s', 'fr' => 'notation de %s', 'it' => 'notazione di %s', 'es' => 'notación de %s', 'pt' => 'notação de %s', 'ru' => 'нотация (%s)', 'uk' => 'нотація (%s)', 'ar' => 'ترميز حسب %s', 'he' => 'סימון לפי %s', 'sw' => 'mtindo wa uandishi wa %s'],
+        ];
+        // Names readers of these UIs know in their own script.
+        $NAME = [
+            'Hepburn'      => ['ja' => 'ヘボン', 'ko' => '헵번식', 'zh' => '黑本式', 'yue' => '黑本式'],
+            'Kunrei-shiki' => ['ja' => '訓令', 'ko' => '훈령식', 'zh' => '训令式', 'yue' => '訓令式'],
+        ];
+        $name = $NAME[$m[1]][$ui] ?? $m[1];
+        $tail = $m[3] ?? '';
+        if (in_array($ui, ['ja', 'zh', 'yue'], true) && $tail !== '') $tail = '（' . substr($tail, 2, -1) . '）';
+        if (isset($KIND[$m[2]][$ui])) return [sprintf($KIND[$m[2]][$ui], $name) . $tail, true];
     }
     return [$raw, false];
 }

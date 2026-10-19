@@ -971,7 +971,10 @@
         const newHash = others.join('&');
         if (newHash !== h) {
             // replaceState avoids growing the back-button history per click
-            try { history.replaceState(null, '', newHash ? '#' + newHash : location.pathname + location.search); }
+            // Keep history.state: the page's overlay marks (wmPanel, lmN/lmOv)
+            // live there, and nulling them left a dead panel entry that cost an
+            // extra Back and dropped f= from the URL (r35 a1-1).
+            try { history.replaceState(history.state, '', newHash ? '#' + newHash : location.pathname + location.search); }
             catch (e) { location.hash = newHash; }
         }
     }
@@ -1007,6 +1010,10 @@
     // rewrites location.hash (otherwise our state gets clobbered).
     window.__langmap = window.__langmap || {};
     window.__langmap.getFilterHashParam = function () {
+        // Hydrate first: the page's inline script can call updateHash (e.g.
+        // showLangInfo restoring an open panel on reload) before init() runs
+        // at DOMContentLoaded, and an empty answer here wrote f= away (r35 a1-2).
+        if (!_filterHydrated) { _filterHydrated = true; loadFilterFromHash(); }
         const enc = encodeFilterState();
         return enc ? 'f=' + enc : '';
     };

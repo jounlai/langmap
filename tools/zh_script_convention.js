@@ -177,22 +177,40 @@ function protectedSpans(s, src, code) {
       if (HAN_LIST_CHARS.has(m[1])) add(m.index, m.index + m[0].length);
   return P;
 }
+// Identical bracket repeats (review r35 a4). An OpenCC t2s pass turned the
+// gloss pair 老湘語（老湘语） into 老湘语（老湘语）, and older text already had
+// 博多弁（博多弁）, 化州（化州）: the same term twice, adding nothing. Every
+// CJK UI's description must be free of /(Han{1,8})（\1）/.
+const CJK_UIS = ['ja', 'zh', 'yue', 'ko'];
+const DUP_BRACKET = /(\p{Script=Han}{1,8})（\1）/u;
+function dupBracketViolations() {
+  const bad = [];
+  for (const d of _descData.cjk) {
+    const m = d.text.match(DUP_BRACKET);
+    if (m) bad.push({ src: d.src, code: d.code, ui: d.ui, hit: m[0] });
+  }
+  return bad;
+}
 function loadDescriptions() {
-  const out = [];
+  const out = [], cjk = [];
   const hctx = vm.createContext({});
   vm.runInContext('var window=this;var WORDS={};var LANG_DATA={};' +
     fs.readFileSync(path.join(ROOT, 'hanmap_data.js'), 'utf8') +
     '\nthis.__M = HAN_LANG_META; this.__HL = HAN_LIST;', hctx);
   for (const [code, m] of Object.entries(hctx.__M || {}))
     if (m && m.description && m.description.zh) out.push({ src: 'hanmap', code, zh: m.description.zh });
+  for (const [code, m] of Object.entries(hctx.__M || {}))
+    for (const ui of CJK_UIS) if (m && m.description && typeof m.description[ui] === 'string') cjk.push({ src: 'hanmap', code, ui, text: m.description[ui] });
   const wctx = vm.createContext({});
   vm.runInContext('var window=this;var LANG_DATA=new Proxy({},{get:(t,k)=>(k in t?t[k]:(typeof k==="string"?(t[k]={}):undefined))});' +
     fs.readFileSync(path.join(ROOT, 'wordmap_meta.js'), 'utf8') + '\nthis.__L = LANG_DATA;', wctx);
   for (const [code, d] of Object.entries(wctx.__L))
     if (d && d.meta && d.meta.description && d.meta.description.zh) out.push({ src: 'wordmap', code, zh: d.meta.description.zh });
-  return { out, hanList: hctx.__HL || [] };
+  for (const [code, d] of Object.entries(wctx.__L))
+    for (const ui of CJK_UIS) if (d && d.meta && d.meta.description && typeof d.meta.description[ui] === 'string') cjk.push({ src: 'wordmap', code, ui, text: d.meta.description[ui] });
+  return { out, cjk, hanList: hctx.__HL || [] };
 }
-const _descData = (process.argv.includes('--desc') || ALL) ? loadDescriptions() : { out: [], hanList: [] };
+const _descData = (process.argv.includes('--desc') || ALL) ? loadDescriptions() : { out: [], cjk: [], hanList: [] };
 const HAN_LIST_CHARS = new Set(_descData.hanList.map(c => c.split(':')[0]));
 function descriptionViolations() {
   const bad = [];
@@ -214,7 +232,10 @@ if (process.argv.includes('--desc') && !ALL) {
   const bad = descriptionViolations();
   for (const b of bad) console.log(`  ${b.src.padEnd(8)} ${b.code.padEnd(14)} ${b.hits}`);
   console.log(`\ndescription mismatches: ${bad.length}`);
-  process.exit(0);
+  const dup = dupBracketViolations();
+  for (const b of dup) console.log(`  ${b.src.padEnd(8)} ${b.code.padEnd(14)} ${b.ui.padEnd(4)} ${b.hit}`);
+  console.log(`identical bracket repeats: ${dup.length}`);
+  process.exit(dup.length ? 1 : 0);
 }
 
 if (ALL) {
@@ -244,7 +265,11 @@ if (ALL) {
   console.log('\nzh description prose (Han Map + Word Map) — traditional characters outside cited spans\n');
   for (const b2 of dbad) console.log(`  ${b2.src.padEnd(8)} ${b2.code.padEnd(14)} ${b2.hits}`);
   console.log(`description mismatches: ${dbad.length}`);
-  console.log(`\nmismatches: ${bad.length + dbad.length}`);
+  const dup = dupBracketViolations();
+  console.log('\nCJK descriptions — a term repeated in brackets right after itself (老湘语（老湘语）)\n');
+  for (const b2 of dup) console.log(`  ${b2.src.padEnd(8)} ${b2.code.padEnd(14)} ${b2.ui.padEnd(4)} ${b2.hit}`);
+  console.log(`identical bracket repeats: ${dup.length}`);
+  console.log(`\nmismatches: ${bad.length + dbad.length + dup.length}`);
   process.exit(0);
 }
 

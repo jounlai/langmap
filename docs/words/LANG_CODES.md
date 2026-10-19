@@ -724,7 +724,7 @@ Total: 1190 codes.
 | `ndc` | Ndau | ンダウ語 | Atlantic-Congo (Bantu, Shona) | ~1.6M |
 | `nds` | Low German | 低地ドイツ語 | Germanic | ~5M |
 | `ne` | Nepali | ネパール語 | Indo-European (Indo-Aryan, Northern / Eastern Pahari) | ~16M native (~32M total) |
-| `nej` | Neko | ネコ語 | Trans-New Guinea (Madang, Rai Coast — Yaganon) | ~640 |
+| `nej` | Neko | ネコ語 | Trans-New Guinea (Finisterre-Huon, Finisterre, Gusap-Mot) | ~640 |
 | `new` | Newari | ネワール語 | Sino-Tibetan (Tibeto-Burman) | ~860K |
 | `nez` | Nez Perce | ニズパース語 | Sahaptian | ~30–40 (UNESCO: critically endangered) |
 | `ng` | Ndonga | ンドンガ語 | Atlantic-Congo (Bantu, Southwest) | ~600K |

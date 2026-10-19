@@ -29,6 +29,8 @@
     "Vietnamese": {ja:"ベトナム語",ko:"베트남어",zh:"越南语",yue:"越南語",vi:"tiếng Việt",th:"ภาษาเวียดนาม",id:"Vietnam",hi:"वियतनामी",de:"vietnamesisch",fr:"vietnamien",it:"vietnamita",es:"vietnamita",pt:"vietnamita",ru:"вьетнамский",uk:"в'єтнамська",ar:"الفيتنامية",he:"וייטנאמית",sw:"Kivietinamu"},
     "Manchu-Tungus": {ja:"満洲・ツングース語派",ko:"만주퉁구스어파",zh:"满-通古斯语族",yue:"滿-通古斯語族",vi:"nhánh Mãn-Tungus",th:"สาขาแมนจู-ตุงกุส",id:"Manchu-Tungus",hi:"मंचू-तुंगुस",de:"mandschu-tungusisch",fr:"mandchou-toungouse",it:"manciù-tunguso",es:"manchú-tungús",pt:"manchu-tungúsico",ru:"тунгусо-маньчжурские",uk:"тунгусо-маньчжурські",ar:"المانشو-التنغوسية",he:"מנצ'ו-טונגוסי",sw:"Kimanchu-Tungus"},
     "Siberian": {ja:"シベリア諸語",ko:"시베리아 제어",zh:"西伯利亚语群",yue:"西伯利亞語群",vi:"nhóm Siberia",th:"กลุ่มไซบีเรีย",id:"Siberia",hi:"साइबेरियाई",de:"sibirisch",fr:"sibérien",it:"siberiano",es:"siberiano",pt:"siberiano",ru:"сибирские",uk:"сибірські",ar:"السيبيرية",he:"סיביר",sw:"Kisiberia"},
+    "Finisterre": {ja:"フィニステレ語群",ko:"피니스테레어군",zh:"菲尼斯特雷语群",yue:"菲尼斯特雷語群",vi:"nhóm Finisterre",th:"กลุ่มฟินิสแตร์",id:"Finisterre",hi:"फिनिस्टेरे समूह",de:"Finisterre",fr:"finisterre",it:"finisterre",es:"finisterre",pt:"finisterre",ru:"финистерская группа",uk:"фіністерська група",ar:"فينيستيري",he:"פיניסטר",sw:"Finisterre"},
+    "Gusap-Mot": {ja:"グサップ・モト語群",ko:"구사프-모트어군",zh:"古萨普-莫特语群",yue:"古薩普-莫特語群",vi:"nhóm Gusap-Mot",th:"กลุ่มกูซัป-โมต",id:"Gusap-Mot",hi:"गुसाप-मोट समूह",de:"Gusap-Mot",fr:"gusap-mot",it:"gusap-mot",es:"gusap-mot",pt:"gusap-mot",ru:"группа гусап-мот",uk:"група гусап-мот",ar:"غوساب-موت",he:"גוסאפ-מוט",sw:"Gusap-Mot"},
   };
   const dup = { es_eu:"es", es_mx:"es", pt_eu:"pt", pt_br:"pt" };
   for (const [term, tr] of Object.entries(A)) {

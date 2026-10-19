@@ -1549,7 +1549,7 @@ const LANG_DATA = {
   // Sources: Ethnologue 27 'kmh'; Glottolog kala1397; Pawley & Bulmer (2011) Dictionary of Kalam (with ethnographic notes 1500+ pages).
   kmh: { name: 'Kalam', native: 'Kalam', lat: -5.05, lng: 144.55, // Schrader Range, Madang, PNG
 },
-  // Neko — Trans-New Guinea (Madang, Rai Coast — Yaganon family, close to Kalam-Kobon area), ~640 speakers, PNG (Madang Province — Rai Coast District). SOV word order, Latin script.
+  // Neko — Trans-New Guinea (Finisterre-Huon, Finisterre, Gusap-Mot — Glottolog neko1240), ~640 speakers, PNG (Madang Province — Rai Coast District). SOV word order, Latin script.
   // Sources: Ethnologue 27 'nej'; Glottolog neko1240; Wiktionary; transnewguinea.org/language/neko.
   nej: { name: 'Neko', native: 'Neko', lat: -5.85, lng: 145.95, // Rai Coast, Madang, PNG
 },

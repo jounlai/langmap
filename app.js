@@ -550,9 +550,10 @@ function resetToDefaults() {
     currentSentenceIdx = 0;
     enabledLangs = new Set(MAJOR_LANGS);
     langOrder = [...DEFAULT_ORDER];
-    currentUILang = 'en';
+    // The logo resets the content, not the reader's UI language, and a content
+    // change replaces the history entry instead of pushing one (r35 a1-3).
     rtlNative = false;
-    history.pushState(null, '', location.pathname);
+    history.replaceState(history.state, '', location.pathname + location.search + (currentUILang !== 'en' ? '#ui=' + currentUILang : ''));
     syncUIFromState();
     applyUILang();
 }

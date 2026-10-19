@@ -375,7 +375,10 @@ function buildMetaI18n(LANG_DATA, hanLangs) {
       // Word-by-word atom fallback leaves spaces between CJK words
       // (本土 南東 アジア, 公用 以来 2006): worse than the English, which the
       // page tags lang="en" (rally r18).
-      if (/^(ja|zh|yue)/.test(ui) && CJK_WORD_SALAD.test(t || '')) continue;
+      // CJK runs already in the English source (川黔片 成渝小片) are not salad:
+      // drop them before the test, or every correct translation of those 16
+      // Han Map family strings is discarded (r35 a2).
+      if (/^(ja|zh|yue)/.test(ui) && CJK_WORD_SALAD.test(String(t || '').replace(/\p{Script=Han}+(?: \p{Script=Han}+)+/gu, (m) => (en.includes(m) ? '' : m)))) continue;
       // English with only the punctuation swapped (、（）) is not a translation, and
       // in a non-Latin UI a run of 3+ English words left behind is word salad
       // (اللاتينية (no المعيارية إملاء; …)). Both fall back to tagged English (r19).

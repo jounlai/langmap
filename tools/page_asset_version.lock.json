@@ -1,23 +1,23 @@
 {
   "app.js": {
-    "version": 111,
-    "hash": "07d5edef2d6f2986"
+    "version": 112,
+    "hash": "ac2004f54e85b3cc"
   },
   "data.js": {
     "version": 92,
     "hash": "af605212ac66624c"
   },
   "hanmap_data.js": {
-    "version": 203,
-    "hash": "1a635d59f70d4845"
+    "version": 204,
+    "hash": "b69114866ebf53c6"
   },
   "hanmap_trivia_rt/base.js": {
-    "version": 2,
-    "hash": "aa03d6c05a4b3504"
+    "version": 3,
+    "hash": "69f403ad9b64cb03"
   },
   "lang-filter.js": {
-    "version": 63,
-    "hash": "163fd7c46aa3e4ac"
+    "version": 64,
+    "hash": "43903101a99695e4"
   },
   "lang-picker.js": {
     "version": 9,
@@ -104,7 +104,7 @@
     "hash": "99fafa5b03aba24a"
   },
   "wordmap_data.js": {
-    "version": 348,
-    "hash": "9e55c71085fa166a"
+    "version": 349,
+    "hash": "01fcc99b20f68647"
   }
 }

@@ -484,6 +484,9 @@ line('rows mixing scripts unlisted', num(s, /rows mixing scripts without a MIXED
 // against a per-code majority baseline.
 s = run('zh_script_convention.js --all');
 line('zh simplified/traditional convention', num(s, /mismatches: (\d+)/));
+// Same run: a CJK description repeating a term in brackets right after itself,
+// 老湘语（老湘语） (review r35 a4: an OpenCC pass collapsed gloss pairs).
+line('CJK descriptions: no identical bracket repeat', num(s, /identical bracket repeats: (\d+)/));
 
 // The guard above reads word CELLS. It never looked at article prose, and 30 of
 // 30 HanMap trivia articles turned out to carry traditional zh — 18 of them end

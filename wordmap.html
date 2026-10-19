@@ -2185,6 +2185,11 @@
             opacity: 1; visibility: visible; transform: translateX(0);
             pointer-events: auto;
         }
+        /* Open drawer above the comparison panel (1020): on short landscape
+           phones it sits left of the gear, inside the panel's area, and only
+           its first button showed (r35). The drawer is fixed inside
+           .right-controls (z 1001, its stacking context), so the column rises. */
+        body:has(.settings-toggle:checked) .right-controls { z-index: 1021; }
         /* Hide the .ctrl-spacer (gap between gear and drawer) when the
            drawer is collapsed so the 2D/3D + gear stack hugs the top. */
         .ctrl-spacer { display: none; }
@@ -3799,7 +3804,7 @@
         }
     })();
     </script>
-    <script src="wordmap_data.js?v=348"></script>
+    <script src="wordmap_data.js?v=349"></script>
     <script src="lang_attention.js?v=3"></script>
     <script src="word_manifest.js?v=973"></script>
     <script src="word_labels.js?v=71"></script>
@@ -3823,11 +3828,11 @@
            the order was wrong. */
         const WM_ASSET_VERSION = {
             styles:   171,
-            data:      348,
+            data:      349,
             metaI18n:  18,
-            filter:    63,
+            filter:    64,
             names:   209,
-            meta:     426,
+            meta:     427,
             trivia:   45,
             triviaI18n: 29,
             words:      973,
@@ -3835,9 +3840,9 @@
             labels:      71,
             metaI18nCoverage: 14,
             metaI18nCoverage2: 3,
-            metaI18nCoverage3: 13,
+            metaI18nCoverage3: 14,
             metaI18nEngine: 1,
-            metaI18nUi: 13,
+            metaI18nUi: 14,
         };
         window.WM_ASSET_VERSION = WM_ASSET_VERSION;
     </script>
@@ -3991,7 +3996,7 @@
          loaded. Loading them eagerly meant half a megabyte on every visit for
          data that only matters once a language modal opens. They now load
          inside loadMeta(). See __wmLoadMetaI18n() below. -->
-    <script src="lang-filter.js?v=63"></script>
+    <script src="lang-filter.js?v=64"></script>
     <!-- Translated language names: 1,154 codes × 19 UI languages is ~215 KB
          gzipped, and a reader uses one of them plus English as the fallback.
          Load the shim, then English, then whichever UI language this visitor

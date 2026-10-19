@@ -1779,6 +1779,11 @@
             opacity: 1; visibility: visible; transform: translateX(0);
             pointer-events: auto;
         }
+        /* Open drawer above the comparison panel (1020): on short landscape
+           phones it sits left of the gear, inside the panel's area, and only
+           its first button showed (r35). The drawer is fixed inside
+           .right-controls (z 1001, its stacking context), so the column rises. */
+        body:has(.settings-toggle:checked) .right-controls { z-index: 1021; }
         /* Hide the .ctrl-spacer (gap between gear and drawer) when the
            drawer is collapsed so the 2D/3D + gear stack hugs the top. */
         .ctrl-spacer { display: none; }
@@ -3573,9 +3578,9 @@
         }
     })();
     </script>
-    <script src="wordmap_data.js?v=348"></script>
+    <script src="wordmap_data.js?v=349"></script>
     <script src="lang_attention.js?v=3"></script>
-    <script src="hanmap_data.js?v=203"></script>
+    <script src="hanmap_data.js?v=204"></script>
     <script>
         // Hanmap stubs: replace the per-word loader. wordmap.html loads
         // ~20 individual JS files under words/<id>.js (one per concept) and
@@ -3603,7 +3608,7 @@
     <!-- 2026-10-16: the runtime copy is split by tools/build_hanmap_trivia_rt.js —
          base.js has every article with English bodies; the reader's own
          language arrives as hanmap_trivia_rt/<ui>.js (loadHanTriviaBodies). -->
-    <script type="text/plain" id="trivia-src" src="hanmap_trivia_rt/base.js?v=2"></script>
+    <script type="text/plain" id="trivia-src" src="hanmap_trivia_rt/base.js?v=3"></script>
     <!-- The meta-i18n layer is loaded dynamically (engine + the current UI's
          slice only) via loadMetaI18n() in the IIFE below. The old eager
          meta_i18n_ext + coverage{,2} tags pulled ~4.6 MB of ALL 22 UIs. -->
@@ -8591,12 +8596,15 @@
                     // with canvas in one 100+ ms task at 4x CPU. Measure the lines
                     // already on the map first, in ~12 ms slices, into the same
                     // font + text cache the pass reads, then re-place once.
-                    const _prewarm = (done) => {
+                    // r35 a3: done(changed) — changed is true when a line on the
+                    // map measured under the new generation differs by more than
+                    // 1 px from its width under baseGen (or nothing compared).
+                    const _prewarm = (done, baseGen) => {
                         const gen = window.__hmFontGen;
                         const ctx = window.__hmMeasureCtx || (window.__hmMeasureCtx = document.createElement('canvas').getContext('2d'));
                         const nm = window.__hmNameW || (window.__hmNameW = new Map());
                         const fonts = {};
-                        let els = [], i = 0, cf = '';
+                        let els = [], i = 0, cf = '', compared = 0, changed = baseGen == null;
                         try { els = Array.from(map.getContainer().querySelectorAll('.lang-label:not(.vertical) > *')); } catch (_) {}
                         const step = () => {
                             if (window.__hmFontGen !== gen) return;
@@ -8609,16 +8617,42 @@
                                     const k = gen + '\u0001' + f + '\u0001' + s;
                                     if (nm.has(k)) continue;
                                     if (f !== cf) { ctx.font = f; cf = f; }
-                                    nm.set(k, ctx.measureText(s).width);
+                                    const w = ctx.measureText(s).width;
+                                    nm.set(k, w);
+                                    if (!changed) {
+                                        const ow = nm.get(baseGen + '\u0001' + f + '\u0001' + s);
+                                        if (ow !== undefined) { compared++; if (Math.abs(ow - w) > 1) changed = true; }
+                                    }
                                 }
-                            } catch (_) { i = els.length; }
-                            if (i < els.length) setTimeout(step, 0); else done();
+                            } catch (_) { i = els.length; changed = true; }
+                            if (i < els.length) setTimeout(step, 0); else done(changed || !compared);
                         };
                         step();
                     };
+                    // r35 a3: every character switch pulls in new CJK / Hangul /
+                    // Tibetan subsets, and each loadingdone started a new
+                    // generation and a full re-placement (210-290 ms of long tasks
+                    // per switch at 4x CPU) that moved no label. After the first
+                    // committed generation, the new one is kept only when a line on
+                    // the map changed width; otherwise the old generation (and its
+                    // width caches and font sample) stays and nothing is re-placed.
+                    // Generation numbers only grow (_seq), so a dropped one is never
+                    // reused with stale widths.
+                    let _committed = null, _seq = window.__hmFontGen || 0;
                     const _refont = () => {
                         clearTimeout(_t);
-                        _t = setTimeout(() => { if (document.fonts.status === 'loading' && performance.now() < 3000) return; window.__hmFontsOK = true; window.__hmFontGen = (window.__hmFontGen || 0) + 1; window.__hmLabelFonts = null; _prewarm(() => { try { if (typeof currentWord !== 'undefined') updateMarkers(currentWord); } catch (_) {} }); }, 150);
+                        _t = setTimeout(() => {
+                            if (document.fonts.status === 'loading' && performance.now() < 3000) return;
+                            const base = _committed, oldF = window.__hmLabelFonts;
+                            window.__hmFontsOK = true; window.__hmFontGen = ++_seq; window.__hmLabelFonts = null;
+                            const gen = _seq;
+                            _prewarm((changed) => {
+                                if (window.__hmFontGen !== gen) return;
+                                if (!changed) { window.__hmFontGen = base; window.__hmLabelFonts = oldF; return; }
+                                _committed = gen;
+                                try { if (typeof currentWord !== 'undefined') updateMarkers(currentWord); } catch (_) {}
+                            }, base);
+                        }, 150);
                     };
                     document.fonts.addEventListener('loadingdone', _refont);
                     document.fonts.addEventListener('loadingerror', _refont);
@@ -10004,7 +10038,7 @@
             // word atoms arrived: "Hong Kong SAR", "Japan" … stayed English (r25).
             if (typeof META_I18N === 'undefined') window.META_I18N = {};
             if (!_metaEnginePromise) _metaEnginePromise = _hmInject('meta_i18n_engine.js?v=1');
-            _metaI18nByUi[ui] = Promise.all([_metaEnginePromise, _hmInject('meta_i18n/' + ui + '.js?v=13')]);
+            _metaI18nByUi[ui] = Promise.all([_metaEnginePromise, _hmInject('meta_i18n/' + ui + '.js?v=14')]);
             return _metaI18nByUi[ui];
         }
         window.loadMetaI18n = loadMetaI18n;

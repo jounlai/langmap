@@ -1126,6 +1126,7 @@
             stop(); held = null;
             if (!b || !log.length || !(ts > 0)) return;
             var i = 0; while (i < log.length && log[i][0] <= ts) i++;
+            if (i === 0 && log.length) i = 1;   // a press always moves at least one step (r37: 0.4-0.8 s holds did nothing)
             var extra = log.slice(i); log = log.slice(0, i);
             if (extra.length) {
                 var rng = rangeOf(b);

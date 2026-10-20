@@ -175,6 +175,11 @@ const DECISIONS = [
             return bad;
         },
     },
+    {
+        id: 'timemap-labels-sans',
+        what: 'Time Map labels are sans-serif: no Noto Serif JP/SC/KR in .tm-script (owner 2026-10-21)',
+        check: () => { const m = read('timemap.html').match(/\.tm-script \{ font-family:([^}]*)\}/); return !m || /Noto Serif (JP|SC|KR)/.test(m[1]) ? ['timemap.html'] : []; },
+    },
 ];
 
 let problems = 0;

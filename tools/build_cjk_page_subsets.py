@@ -42,7 +42,10 @@ PAGES = {
         'html': 'timemap.html',
         'sources': ['timemap.html', 'timemap_calendars.js', 'timemap_i18n/*.js', 'nav-short.js',
                     'share-button.js', 'pwa.js', 'lang-picker.js'],
-        'faces': [('Noto Serif JP', (400, 700)), ('Noto Serif SC', (400, 700)), ('Noto Serif KR', (400, 700))],
+        # Sans on the map labels (owner 2026-10-21: 「地図上のフォントはsans serifに統一」);
+        # serif 700 only for the 字 nav icon, as on the Name Map.
+        'faces': [('Noto Sans JP', (400, 700)), ('Noto Sans SC', (400, 700)), ('Noto Sans KR', (400, 700)),
+                  ('Noto Serif JP', (700,)), ('Noto Serif SC', (700,)), ('Noto Serif KR', (700,))],
     },
 }
 START, END = '/* CJK-SUBSET:START', '/* CJK-SUBSET:END */'

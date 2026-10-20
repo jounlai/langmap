@@ -3244,7 +3244,14 @@ function seo_meta_value(string $ui, string $value): string
  */
 function seo_speakers_value(string $ui, string $raw): array
 {
-    $plain = fn() => [seo_meta_value($ui, $raw), seo_meta_value_lang($ui, $raw)];
+    // Every "~5.2M"-style figure in a shown value is written out in the UI's
+    // own number words, not only a leading one ("~1M (Yichun) + ~5.2M Gan
+    // total" left the second raw in 18 UIs, r38).
+    $figs = fn(string $v) => $ui === 'en' ? $v : (string) preg_replace_callback(
+        '/~\s*(\d[\d,]*(?:\.\d+)?)\s*([KMB])(?![A-Za-z])/u',
+        fn($x) => '~' . seo_people((int) round((float) str_replace(',', '', $x[1]) * ['K' => 1e3, 'M' => 1e6, 'B' => 1e9][$x[2]]), $ui),
+        $v);
+    $plain = fn() => [$figs(seo_meta_value($ui, $raw)), seo_meta_value_lang($ui, $raw)];
     if ($ui === 'en' || !preg_match('/^~\s*(\d[\d,]*(?:\.\d+)?)\s*([KMB])(?=\s|$)(.*)$/u', $raw, $m)) return $plain();
     $tail = $m[3];
     if ($tail !== '' && !preg_match('/^\s+\([^()]*(?:\([^()]*\)[^()]*)*\)$/u', $tail)) return $plain();
@@ -3255,7 +3262,7 @@ function seo_speakers_value(string $ui, string $raw): array
     $head = '/^~\s*\d[\d,]*(?:\.\d+)?\s*[KMB](?=[\s(\x{FF08}]|$)/u';
     if ($tr !== $raw) {
         // A translation exists: keep it, fixing its figure if it copied "~5.2M".
-        return [preg_match($head, $tr) ? (string) preg_replace($head, $fig, $tr, 1) : $tr, ''];
+        return [$figs(preg_match($head, $tr) ? (string) preg_replace($head, $fig, $tr, 1) : $tr), ''];
     }
     if ($tail === '') return [$fig, ''];
     $inner = trim($tail);

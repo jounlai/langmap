@@ -43,7 +43,7 @@ const WORD_CATEGORIES = [
         label: {
             en: "Body & feeling", ja: "からだと心", ko: "몸과 마음", zh: "身体与情感", yue: "身體同感情", vi: "Cơ thể và cảm xúc", th: "ร่างกายและความรู้สึก", id: "Tubuh & perasaan", hi: "शरीर और भाव", de: "Körper & Gefühl", fr: "Corps et sentiment", it: "Corpo e sentimento", es: "Cuerpo y sentimiento", pt: "Corpo e sentimento", ru: "Тело и чувства", uk: "Тіло і почуття", ar: "الجسد والشعور", he: "גוף ורגש", sw: "Mwili na hisia"
         },
-        words: ["head", "eye", "ear", "nose", "mouth", "tooth", "tongue", "hand", "foot", "heart", "bone", "blood", "poop", "love"],
+        words: ["head", "eye", "ear", "nose", "mouth", "tooth", "tongue", "hand", "thumb", "foot", "heart", "bone", "blood", "poop", "love"],
     },
     {
         key: "nature",

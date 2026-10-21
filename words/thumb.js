@@ -1,0 +1,444 @@
+/**
+ * thumb — the finger that is not like the others, and who it is named for.
+ * 
+ * Many languages give the thumb a word of its own (thumb, Daumen, pouce, pulgar
+ * < Latin pollex), but a great many name it as a relative or a rank among the
+ * fingers: Japanese 親指 'parent finger', Malay/Indonesian ibu jari 'mother of
+ * the fingers', or simply 'the big finger'. Where a
+ * language uses one word for the thumb and the big toe, the cell gives it and the
+ * note says so. The routes:
+ *   mother  'mother / parent finger'
+ *   big     'big / thick / main finger'
+ *   other   another image
+ *   plain   a word of its own
+ */
+WORDS.thumb = {
+  emoji: "👍",
+  label: {
+    en: "Thumb",
+    ja: "親指",
+    ko: "엄지",
+    zh: "拇指",
+    yue: "手指公",
+    vi: "Ngón cái",
+    th: "นิ้วโป้ง",
+    id: "Ibu jari",
+    hi: "अँगूठा",
+    de: "Daumen",
+    fr: "Pouce",
+    it: "Pollice",
+    es: "Pulgar",
+    es_eu: "Pulgar",
+    es_mx: "Pulgar",
+    pt: "Polegar",
+    pt_eu: "Polegar",
+    pt_br: "Polegar",
+    ru: "Большой палец",
+    uk: "Великий палець",
+    ar: "إبهام",
+    he: "אגודל",
+    sw: "Kidole gumba",
+  },
+  definition: {
+    en: "Thumb — the short, thick first digit of the hand. Some languages give it a word of its own (thumb, Daumen, pouce); many others name it as family or by rank: Japanese 親指 \"parent finger\", Indonesian ibu jari \"mother of the fingers\", Russian большой палец \"the big finger\", Cantonese 手指公 \"the grandfather finger\".",
+    ja: "親指 — 手の、短く太い最初の指。独自の語をもつ言語もあれば（英語 thumb、ドイツ語 Daumen、フランス語 pouce）、家族や序列で呼ぶ言語も多い。日本語の親指「親の指」、インドネシア語 ibu jari「指の母」、ロシア語 большой палец「大きい指」、広東語 手指公「おじいさん指」。",
+    ko: "엄지 — 손의 짧고 굵은 첫째 손가락. 고유한 낱말을 가진 언어도 있고(영어 thumb, 독일어 Daumen, 프랑스어 pouce), 가족이나 서열로 부르는 언어도 많다. 일본어 親指 \"어버이 손가락\", 인도네시아어 ibu jari \"손가락의 어머니\", 타이어 นิ้วหัวแม่มือ \"손의 어머니 손가락\", 러시아어 большой палец \"큰 손가락\", 광둥어 手指公 \"할아버지 손가락\".",
+    zh: "拇指——手上短而粗的第一根指头。有的语言给它一个专门的词（英语 thumb、德语 Daumen、法语 pouce），更多的语言按亲属或排行来称呼：日语 親指\"父母指\"，印尼语 ibu jari\"手指之母\"，俄语 большой палец\"大指头\"，粤语 手指公\"公公指\"。",
+    yue: "手指公——手上短而粗嘅第一隻手指。有啲語言俾佢一個專門嘅詞（英文 thumb、德文 Daumen、法文 pouce），更多語言按親屬或者排行嚟叫：日文 親指「父母指」，印尼文 ibu jari「手指嘅阿媽」，俄文 большой палец「大手指」，廣東話 手指公。",
+    vi: "Ngón cái — ngón đầu tiên, ngắn và to, của bàn tay. Có ngôn ngữ dùng một từ riêng (tiếng Anh thumb, tiếng Đức Daumen, tiếng Pháp pouce); nhiều ngôn ngữ khác gọi theo quan hệ gia đình hoặc thứ bậc: tiếng Nhật 親指 \"ngón cha mẹ\", tiếng Indonesia ibu jari \"mẹ của các ngón\", tiếng Nga большой палец \"ngón to\", tiếng Quảng Đông 手指公 \"ngón ông\".",
+    th: "นิ้วหัวแม่มือ — นิ้วแรกของมือที่สั้นและหนา บางภาษามีคำเฉพาะ (อังกฤษ thumb เยอรมัน Daumen ฝรั่งเศส pouce) อีกหลายภาษาเรียกตามเครือญาติหรือลำดับ ญี่ปุ่น 親指 \"นิ้วพ่อแม่\" อินโดนีเซีย ibu jari \"แม่ของนิ้ว\" ไทย นิ้วหัวแม่มือ เขมร មេដៃ \"แม่ของมือ\" รัสเซีย большой палец \"นิ้วใหญ่\" กวางตุ้ง 手指公 \"นิ้วปู่\"",
+    id: "Ibu jari — jari pertama tangan yang pendek dan tebal. Sebagian bahasa memberinya kata tersendiri (Inggris thumb, Jerman Daumen, Prancis pouce); banyak lainnya menamainya sebagai keluarga atau menurut urutan: Jepang 親指 \"jari orang tua\", Indonesia ibu jari \"ibu dari jari-jari\", Rusia большой палец \"jari besar\", Kanton 手指公 \"jari kakek\".",
+    hi: "अँगूठा — हाथ की छोटी, मोटी पहली उँगली। कुछ भाषाओं में इसका अपना शब्द है (अंग्रेज़ी thumb, जर्मन Daumen, फ़्रांसीसी pouce); बहुत-सी भाषाएँ इसे रिश्ते या क्रम से पुकारती हैं: जापानी 親指 \"माता-पिता उँगली\", इंडोनेशियाई ibu jari \"उँगलियों की माँ\", रूसी большой палец \"बड़ी उँगली\", कैंटोनीज़ 手指公 \"दादा उँगली\"।",
+    de: "Daumen — der kurze, dicke erste Finger der Hand. Manche Sprachen haben dafür ein eigenes Wort (thumb, Daumen, pouce); viele andere benennen ihn nach Verwandtschaft oder Rang: japanisch 親指 „Elternfinger“, indonesisch ibu jari „Mutter der Finger“, russisch большой палец „der große Finger“, kantonesisch 手指公 „Großvaterfinger“.",
+    fr: "Pouce — le premier doigt de la main, court et épais. Certaines langues lui donnent un mot propre (thumb, Daumen, pouce) ; beaucoup d'autres le nomment comme un parent ou par son rang : japonais 親指 « doigt parent », indonésien ibu jari « mère des doigts », russe большой палец « le gros doigt », cantonais 手指公 « doigt grand-père ».",
+    it: "Pollice — il primo dito della mano, corto e tozzo. Alcune lingue gli danno una parola propria (thumb, Daumen, pouce); molte altre lo chiamano come un parente o per rango: giapponese 親指 «dito genitore», indonesiano ibu jari «madre delle dita», russo большой палец «il dito grande», cantonese 手指公 «dito nonno».",
+    es: "Pulgar — el primer dedo de la mano, corto y grueso. Algunas lenguas le dan una palabra propia (thumb, Daumen, pouce); muchas otras lo nombran como un pariente o por rango: japonés 親指 «dedo padre», indonesio ibu jari «madre de los dedos», ruso большой палец «el dedo grande», cantonés 手指公 «dedo abuelo», y el español dedo gordo.",
+    es_eu: "Pulgar — el primer dedo de la mano, corto y grueso. Algunas lenguas le dan una palabra propia (thumb, Daumen, pouce); muchas otras lo nombran como un pariente o por rango: japonés 親指 «dedo padre», indonesio ibu jari «madre de los dedos», ruso большой палец «el dedo grande», cantonés 手指公 «dedo abuelo», y el español dedo gordo.",
+    es_mx: "Pulgar — el primer dedo de la mano, corto y grueso. Algunas lenguas le dan una palabra propia (thumb, Daumen, pouce); muchas otras lo nombran como un pariente o por rango: japonés 親指 «dedo padre», indonesio ibu jari «madre de los dedos», ruso большой палец «el dedo grande», cantonés 手指公 «dedo abuelo», y el español dedo gordo.",
+    pt: "Polegar — o primeiro dedo da mão, curto e grosso. Algumas línguas dão-lhe uma palavra própria (thumb, Daumen, pouce); muitas outras chamam-lhe como a um parente ou pela posição: japonês 親指 «dedo pai», indonésio ibu jari «mãe dos dedos», russo большой палец «o dedo grande», cantonês 手指公 «dedo avô», e o português dedão.",
+    pt_eu: "Polegar — o primeiro dedo da mão, curto e grosso. Algumas línguas dão-lhe uma palavra própria (thumb, Daumen, pouce); muitas outras chamam-lhe como a um parente ou pela posição: japonês 親指 «dedo pai», indonésio ibu jari «mãe dos dedos», russo большой палец «o dedo grande», cantonês 手指公 «dedo avô», e o português dedão.",
+    pt_br: "Polegar — o primeiro dedo da mão, curto e grosso. Algumas línguas dão-lhe uma palavra própria (thumb, Daumen, pouce); muitas outras chamam-lhe como a um parente ou pela posição: japonês 親指 «dedo pai», indonésio ibu jari «mãe dos dedos», russo большой палец «o dedo grande», cantonês 手指公 «dedo avô», e o português dedão.",
+    ru: "Большой палец — короткий толстый первый палец руки. В одних языках у него своё слово (thumb, Daumen, pouce), а многие называют его как родственника или по старшинству: японское 親指 «палец-родитель», индонезийское ibu jari «мать пальцев», русское большой палец, кантонское 手指公 «палец-дедушка».",
+    uk: "Великий палець — короткий товстий перший палець руки. В одних мовах він має своє слово (thumb, Daumen, pouce), а багато мов називають його як родича чи за старшинством: японське 親指 «палець-батько», індонезійське ibu jari «мати пальців», українське великий палець, кантонське 手指公 «палець-дідусь».",
+    ar: "الإبهام — أول أصابع اليد، القصير الغليظ. لبعض اللغات كلمة خاصة به (thumb وDaumen وpouce والإبهام)، وكثير غيرها يسمّيه كأنه قريب أو بحسب رتبته: اليابانية 親指 «إصبع الوالد»، والإندونيسية ibu jari «أم الأصابع»، والروسية большой палец «الإصبع الكبير»، والكانتونية 手指公 «إصبع الجد».",
+    he: "אגודל — האצבע הראשונה ביד, הקצרה והעבה. לחלק מהשפות יש לה מילה משלה (thumb, Daumen, pouce, אגודל), ורבות אחרות קוראות לה כמו לקרוב משפחה או לפי דרגה: ביפנית 親指 \"אצבע ההורה\", באינדונזית ibu jari \"אם האצבעות\", ברוסית большой палец \"האצבע הגדולה\", בקנטונזית 手指公 \"אצבע הסבא\".",
+    sw: "Kidole gumba — kidole cha kwanza cha mkono, kifupi na kinene. Lugha nyingine zina neno lake maalum (thumb, Daumen, pouce); nyingi huita kama ndugu au kwa cheo: Kijapani 親指 \"kidole mzazi\", Kiindonesia ibu jari \"mama wa vidole\", Kirusi большой палец \"kidole kikubwa\", Kikantoni 手指公 \"kidole babu\".",
+  },
+  family: {
+    lb: "plain",
+    gcr: "plain",
+    ja: "mother",
+    ko: "unknown",
+    zh: "big",
+    zh_tw: "big",
+    zh_db: "big",
+    zh_sc: "big",
+    yue: "mother",
+    hak_cn: "mother",
+    nan: "big",
+    vi: "big",
+    vi_s: "big",
+    th: "mother",
+    id: "mother",
+    ms: "mother",
+    jv: "unknown",
+    su: "unknown",
+    ceb: "unknown",
+    tl: "big",
+    hi: "plain",
+    sa: "plain",
+    bn: "other",
+    en: "plain",
+    en_us: "plain",
+    de: "plain",
+    fr: "plain",
+    it: "plain",
+    es: "plain",
+    pt: "plain",
+    pt_br: "plain",
+    ru: "big",
+    uk: "big",
+    nl: "plain",
+    pl: "unknown",
+    sv: "plain",
+    da: "plain",
+    ro: "big",
+    ga: "plain",
+    eu: "other",
+    cy: "plain",
+    fi: "plain",
+    hu: "plain",
+    el: "other",
+    ka: "plain",
+    hy: "plain",
+    he: "big",
+    ar: "plain",
+    fa: "plain",
+    tr: "other",
+    sw: "plain",
+    mn: "plain",
+    sah: "plain",
+    my: "big",
+    km: "mother",
+    yo: "unknown",
+    nv: "big",
+    haw: "big",
+    mi: "unknown",
+    ket: "plain",
+    orh: "unknown",
+    ca_va: "plain",
+    prs: "plain",
+    zh_km: "big",
+    yue_zs: "mother",
+    zh_cd: "big",
+    zh_hf: "big",
+    io: "plain",
+    pa: "plain",
+    mr: "plain",
+    gu: "plain",
+    mnc: "plain",
+    sco: "plain",
+    af: "plain",
+    pdc: "plain",
+    yi: "big",
+    is: "plain",
+    gd: "plain",
+    br: "plain",
+    ca: "plain",
+    gl: "plain",
+    cs: "plain",
+    sk: "plain",
+    sl: "plain",
+    bg: "plain",
+    mk: "plain",
+    lt: "plain",
+    lv: "plain",
+    sq: "big",
+    et: "plain",
+    ht: "plain",
+    kea: "big",
+    se: "plain",
+    la: "plain",
+    el_grc: "other",
+    enm: "plain",
+    ang: "plain",
+    cu: "plain",
+    vo: "plain",
+    kk: "other",
+    az: "other",
+    ckb: "other",
+    dv: "big",
+    te: "unknown",
+    to: "mother",
+    tzo: "mother",
+    eo: "big",
+    smn: "plain",
+    sms: "plain",
+    en_aave: "plain",
+    en_nz: "plain",
+    en_au: "plain",
+    en_south: "plain",
+    en_app: "plain",
+    en_in: "plain",
+    en_ie: "plain",
+    en_sco: "plain",
+    en_yk: "plain",
+    en_ck: "plain",
+    en_scouse: "plain",
+    en_geordie: "plain",
+    en_brum: "plain",
+    en_manc: "plain",
+    en_wc: "plain",
+    en_est: "plain",
+    en_sg: "plain",
+    en_em: "plain",
+    fr_qc: "plain",
+    fr_af: "plain",
+    fr_be: "plain",
+    fr_ch: "plain",
+    es_co: "plain",
+    es_cl: "plain",
+    es_ar: "plain",
+    es_cu: "plain",
+    es_pe: "plain",
+    es_an: "plain",
+    de_at: "plain",
+    nds: "plain",
+    ksh: "plain",
+    fy: "plain",
+    nn: "plain",
+    oc: "plain",
+    scn: "plain",
+    be: "big",
+    om: "unknown",
+    ny: "unknown",
+    fur: "plain",
+    ast: "plain",
+    rup: "plain",
+    ruq: "plain",
+    udm: "plain",
+    myv: "plain",
+    kpv: "plain",
+    ba: "other",
+    pms: "plain",
+    mfe: "plain",
+    rcf: "plain",
+    rif: "plain",
+    mwr: "plain",
+    bik: "other",
+    yue_ts: "mother",
+    yue_dg: "mother",
+    hak_tw: "mother",
+    hak_hl: "mother",
+    nan_te: "mother",
+    ota: "other",
+    xct: "unknown",
+    goh: "plain",
+    gmh: "plain",
+    fro: "plain",
+    sga: "unknown",
+    fr_class: "plain",
+    es_sgl: "plain",
+    de_lut: "plain",
+    oj: "unknown",
+    dsb: "big",
+    pjt: "mother",
+    nia: "unknown",
+    nog: "other",
+    av: "unknown",
+    os: "unknown",
+    arn: "big",
+  },
+  routes: {
+    mother: {"color":"#db2777","emoji":"👪","en":"mother · parent · elder kin","ja":"母・親・年長の身内","ko":"어머니 · 어버이 · 웃어른","zh":"母亲・父母・长辈","yue":"阿媽 · 父母 · 長輩","vi":"mẹ · cha mẹ · bậc trên","th":"แม่ · พ่อแม่ · ญาติผู้ใหญ่","id":"ibu · orang tua · kerabat tua","hi":"माँ · माता-पिता · बड़े","de":"Mutter · Eltern · ältere Verwandte","fr":"mère · parent · aîné","it":"madre · genitore · parente anziano","es":"madre · padre · pariente mayor","pt":"mãe · pai · parente mais velho","ru":"мать · родитель · старший родич","uk":"мати · батько · старший родич","ar":"أم · والد · قريب أكبر","he":"אם · הורה · קרוב מבוגר","sw":"mama · mzazi · ndugu mkubwa"},
+    big: {"color":"#2563eb","emoji":"💪","en":"the big · thick finger","ja":"大きい・太い指","ko":"큰 · 굵은 손가락","zh":"大・粗的指头","yue":"大 · 粗嘅手指","vi":"ngón to · ngón dày","th":"นิ้วใหญ่ · นิ้วหนา","id":"jari besar · tebal","hi":"बड़ी · मोटी उँगली","de":"großer · dicker Finger","fr":"gros doigt","it":"dito grande · grosso","es":"dedo grande · gordo","pt":"dedo grande · grosso","ru":"большой · толстый палец","uk":"великий · товстий палець","ar":"الإصبع الكبير · الغليظ","he":"האצבע הגדולה · העבה","sw":"kidole kikubwa · kinene"},
+    other: {"color":"#ea580c","emoji":"✨","en":"another image","ja":"ほかの見立て","ko":"다른 비유","zh":"其他意象","yue":"其他意象","vi":"hình ảnh khác","th":"ภาพอื่น","id":"citra lain","hi":"कोई और बिंब","de":"ein anderes Bild","fr":"une autre image","it":"un'altra immagine","es":"otra imagen","pt":"outra imagem","ru":"другой образ","uk":"інший образ","ar":"صورة أخرى","he":"דימוי אחר","sw":"taswira nyingine"},
+    plain: {"color":"#6b7280","emoji":"👍","en":"a word of its own","ja":"固有の語","ko":"고유어","zh":"自有的词","yue":"自己嘅詞","vi":"từ riêng","th":"คำเฉพาะของตัวเอง","id":"kata sendiri","hi":"अपना शब्द","de":"ein eigenes Wort","fr":"un mot propre","it":"una parola propria","es":"una palabra propia","pt":"uma palavra própria","ru":"своё слово","uk":"своє слово","ar":"كلمة خاصة","he":"מילה משלה","sw":"neno lake lenyewe"},
+    unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
+  },
+  data: {
+    lb: ["Daum", "dɑʊ̯m"],  // Inherited from Old High German dūmo, the same word as German Daumen and English thumb.
+    gcr: ["pous", "pus"],  // From French pouce, itself from Latin pollex 'thumb'.
+    ja: ["親指", "ojajɯbi"],  // Literally 'parent finger'; the big toe is 足の親指, 'the foot's parent finger'.
+    ko: ["엄지손가락", "ʌmdʑisonk͈aɾak̚"],  // 엄지 'thumb' plus 손가락 'finger'; the short form 엄지 alone is also common, and 엄지발가락 is the big toe.
+    zh: ["大拇指", "ta˥˩ mu˧˩˧ ʈʂɨ˧˩˧"],  // Literally 'big thumb-finger', from 大 'big' + 拇 'thumb' + 指 'finger'; the same word can also mean the big toe.
+    zh_tw: ["大拇指", "ta˥˩ mu˧˩˧ ʈʂɨ˧˩˧"],  // Literally 'big thumb-finger', from 大 'big' + 拇 'thumb' + 指 'finger'.
+    zh_db: ["大拇指", "ta˥˩ mu˧˩˧ ʈʂɨ˧˩˧"],  // Literally 'big thumb-finger'; in the Northeast 大拇哥 'big thumb brother' and 大拇指头 are also widely heard.
+    zh_sc: ["大指拇儿", "ta˨˩˧ tsɹ̩˥˧ muɚ˥˧"],  // Literally 'big finger-thumb', with the order of 指 'finger' and 拇 'thumb' reversed from standard 大拇指.
+    yue: ["手指公", "sɐu˧˥ tsiː˧˥ kʊŋ˥"],  // Literally 'finger + 公', where 公 means 'grandfather; old man; male'.
+    hak_cn: ["手指公", "su˧˩ tsɨ˧˩ kuŋ˦"],  // Literally 'finger + 公' (公 'grandfather; old man; male'), the same word as in Cantonese.
+    nan: ["大頭拇", "tua˧˧ tʰau˨˦ bu˥˧"],  // Literally 'big head-thumb', from 大 'big' + 頭 'head' + 拇 'thumb'; it also names the big toe.
+    vi: ["ngón tay cái", "ŋɔn˧˥ taj˧ kaːj˧˥"],  // Literally 'main finger': cái here means 'big, main', a sense that grew out of its older meaning 'female, mother'.
+    vi_s: ["ngón tay cái", "ŋɔŋ˧˥ taj˧ kaːj˧˥"],  // Literally 'main finger', the same word as in the North.
+    th: ["นิ้วหัวแม่มือ", "niw˦˥ hua˩˩˦ mɛː˥˩ mɯː˧"],  // Literally 'finger, head-mother of the hand'; colloquially นิ้วโป้ง 'big finger' is also common.
+    id: ["ibu jari", "ibu dʒari"],  // Literally 'mother of the fingers'; the colloquial jempol is also very common.
+    ms: ["ibu jari", "ibu dʒari"],  // Literally 'mother of the fingers'.
+    jv: ["jempol", "dʒəmpɔl"],  // The same word is borrowed into colloquial Indonesian.
+    su: ["jempol", "dʒəmpol"],  // The same word as Javanese and colloquial Indonesian jempol.
+    ceb: ["kumalagko", "kumalaɡˈkoʔ"],  // In Metro Cebu it is shortened to kumagko.
+    tl: ["hinlalaki", "hinlalaˈki"],  // Built on laki 'bigness', so roughly 'the big one'; it also names the big toe.
+    hi: ["अंगूठा", "əŋɡuːʈʰaː"],  // Inherited from Sanskrit aṅguṣṭha 'thumb'; the same word also means the big toe.
+    sa: ["अङ्गुष्ठः", "ɐŋɡuʂʈʰɐh"],  // An old Indo-Iranian word for thumb, related to aṅguli 'finger' and to Persian angošt 'finger'.
+    bn: ["বুড়ো আঙ্গুল", "buɽo aŋɡul"],  // Literally 'old finger' (বুড়ো 'old man').
+    en: ["thumb", "θʌm"],  // From Old English þūma, ultimately from a Proto-Indo-European root meaning 'to grow, swell'.
+    en_us: ["thumb", "θʌm"],  // From Old English þūma, ultimately from a Proto-Indo-European root meaning 'to grow, swell'.
+    de: ["Daumen", "ˈdaʊ̯mən"],  // The same Germanic word as English thumb and Dutch duim.
+    fr: ["pouce", "pus"],  // From Latin pollex 'thumb'; it also means 'inch'.
+    it: ["pollice", "ˈpɔllitʃe"],  // From Latin pollex; in familiar speech dito grosso 'big finger' is also heard.
+    es: ["pulgar", "pulˈɣaɾ"],  // From Latin pollicāris 'of the thumb', from pollex.
+    pt: ["polegar", "puliˈɡaɾ"],  // From Latin pollicāris 'of the thumb'; colloquially dedão is also used.
+    pt_br: ["polegar", "poleˈɡaʁ"],  // From Latin pollicāris 'of the thumb'; colloquially dedão is also used.
+    ru: ["большой палец", "bɐlʲˈʂoj ˈpalʲɪts"],  // Literally 'big finger'; it also means the big toe.
+    uk: ["великий палець", "weˈɫɪkɪj ˈpaɫetsʲ"],  // Literally 'big finger'.
+    nl: ["duim", "dœy̯m"],  // The same Germanic word as English thumb; it also means 'inch'.
+    pl: ["kciuk", "ktɕuk"],  // Possibly from a variant of chrzcić 'to baptize', since the sign of the cross is made with the thumb (Wiktionary, tentative).
+    sv: ["tumme", "ˈtɵmːɛ"],  // The same Germanic word as English thumb.
+    da: ["tommelfinger", "ˈtˢʌməlˌfeŋˀɐ"],  // Literally 'thumb-finger'; tommel is the old Germanic thumb word, also found alone.
+    ro: ["deget mare", "ˈdedʒet ˈmare"],  // Literally 'big digit'; the Latin-derived policar is also used.
+    ga: ["ordóg", "ˈauɾˠd̪ˠoːɡ"],  // Old Irish ordu 'thumb' with the diminutive suffix -óg.
+    eu: ["erpuru", "eɾpuɾu"],  // Literally 'finger-head', i.e. the head of the fingers.
+    cy: ["bawd", "baud"],  // An old Celtic word, cognate with Breton meud; it also means the big toe.
+    fi: ["peukalo", "ˈpeukɑlo"],  // An old Finnic word, related to Estonian pöial; colloquially shortened to peukku.
+    hu: ["hüvelykujj", "ˈhyvɛjkujː"],  // Literally 'thumb-finger', from hüvelyk 'thumb, inch' + ujj 'finger'.
+    el: ["αντίχειρας", "anˈdiçiɾas"],  // Literally 'the one opposite the hand', from Koine Greek antícheir.
+    ka: ["ცერი", "tsʰeɾi"],  // Inherited from Old Georgian; it also names the big toe.
+    hy: ["բութ մատ", "butʰ mɑt"],  // Literally 'thumb finger', from բութ 'thumb' (Classical բոյթ) + մատ 'finger'.
+    he: ["אגודל", "aɡuˈdal"],  // From the root of gadol 'big', so literally 'the large finger'; first attested in Mishnaic Hebrew.
+    ar: ["إبهام", "ibhaːm"],  // An old Semitic word, related to Akkadian ubānum 'finger' and Hebrew bohen 'thumb'.
+    fa: ["شست", "ʃæst"],  // Short for angošt-e šast; the same word also means 'fish-hook'.
+    tr: ["başparmak", "ˈbaʃpaɾmak"],  // Literally 'head finger'.
+    sw: ["kidole gumba", "kiˈdole ˈɠumba"],  // kidole 'finger' + gumba 'thumb'; gumba alone also means 'thumb'.
+    mn: ["эрхий", "erxiː"],  // Inherited from Proto-Mongolic *herekei; it also names the big toe.
+    sah: ["эрбэх", "erbex"],  // A word of its own; Sakha dictionaries gloss it as the 'big finger of the hand'.
+    my: ["လက်မ", "lɛʔma̰"],  // Literally 'main (one) of the hand'; it also means 'inch'.
+    km: ["មេដៃ", "mei ɗaj"],  // Literally 'mother of the hand' (មេ 'mother; chief').
+    yo: ["àtàǹpàkò", "àtàŋ̀kpàkò"],  // The same word also names the big toe.
+    nv: ["álátsoh", "ʔɑ́lɑ́tsʰòh"],  // Literally 'big finger'; compare akétsoh 'big toe'.
+    haw: ["manamana lima nui", "manamana lima nui"],  // Literally 'big finger of the hand' (manamana 'finger', lima 'hand', nui 'big').
+    mi: ["kōnui", "koːnui"],  // It also means the big toe; older synonyms include koromatua, which also means 'chief'.
+    ket: ["ӄъъль", "qʌːlʲ"],  // Inherited from Proto-Yeniseian *qaɬ 'thumb', perhaps related to Ket ӄак 'five' (Vajda & Werner 2022).
+    orh: ["uruun", "uruun"],  // Recorded by Li & Whaley for the World Loanword Database; spelled uru:n there.
+    ca_va: ["polze", "ˈpolze"],  // From Latin pollex 'thumb'.
+    prs: ["شست", "ʃast"],  // Short for angosht-e shast; the same word as in Iranian Persian.
+    zh_km: ["大拇指", "tᴀ˨˩˨ mu˥˧ tʂʅ˥˧"],  // Literally 'big thumb-finger', from 大 'big' + 拇 'thumb' + 指 'finger'.
+    yue_zs: ["手指公", "sɐu˨˩˧ tsi˨˩˧ kʊŋ˥˥"],  // Literally 'finger + 公', where 公 means 'grandfather; old man; male', as in Guangzhou Cantonese.
+    zh_cd: ["大指拇儿", "ta˨˩˧ tsɿ˥˧ muɚ˥˧"],  // Literally 'big finger-thumb', with 指 'finger' and 拇 'thumb' in reverse order from standard 大拇指; the word also means the big toe.
+    zh_hf: ["大拇指", "ta˥˩ mɐʔ˦ tʂʅ˨˦"],  // Literally 'big thumb-finger', from 大 'big' + 拇 'thumb' + 指 'finger'. In Hefei 拇 has an entering-tone reading mɐʔ, so it is also written 末.
+    io: ["polexo", "poˈlekso"],  // A word of its own, from the same root as Latin pollex 'thumb'.
+    pa: ["ਅੰਗੂਠਾ", "əŋɡuːʈʰaː"],  // From Sanskrit aṅguṣṭha 'thumb, big toe'; the same word also names the big toe.
+    mr: ["अंगठा", "əŋɡʈʰaː"],  // From Sanskrit aṅguṣṭha 'thumb, big toe'; the same word also names the big toe.
+    gu: ["અંગૂઠો", "əŋɡuːʈʰo"],  // From Sanskrit aṅguṣṭha 'thumb, big toe'; the same word also names the big toe.
+    mnc: ["ᡶᡝᡵᡥᡝ", "fərxə"],  // Inherited Tungusic word, probably related to Mongolian erekei 'thumb'.
+    sco: ["thoum", "θum"],  // Same word as English thumb, from Old English þūma.
+    af: ["duim", "dœym"],  // From Dutch duim, a cognate of English thumb.
+    pdc: ["Daume", "daʊmə"],  // From Middle High German dūme, a cognate of English thumb.
+    yi: ["גראָבער פֿינגער", "ɡrɔbər fɪŋɡər"],  // Literally 'the thick finger'.
+    is: ["þumall", "ˈθʏːmatl̥"],  // From Old Norse þumall, a cognate of English thumb; þumalfingur 'thumb-finger' is also used.
+    gd: ["òrdag", "ˈɔːrˠt̪ak"],  // One word for thumb and big toe; òrdag-làimhe 'hand òrdag' and òrdag-coise 'foot òrdag' tell them apart.
+    br: ["meud", "møːt"],  // Inherited Celtic word, from Middle Breton meut; biz-meud 'meud finger' is also said.
+    ca: ["polze", "ˈpolzə"],  // From Latin pollex 'thumb', like French pouce.
+    gl: ["polgar", "polˈɡaɾ"],  // From Latin pollicaris, from pollex 'thumb'; folk names include matapiollos 'louse-killer'.
+    cs: ["palec", "ˈpalɛts"],  // Slavic *palьcь; the same word names the big toe and, formerly, the inch.
+    sk: ["palec", "ˈpalɛts"],  // Slavic *palьcь; the same word names the big toe.
+    sl: ["palec", "ˈpaːləts"],  // From Proto-Slavic *pàlьcь 'thumb'.
+    bg: ["палец", "ˈpalɛts"],  // From Proto-Slavic *pàlьcь; the same word names the big toe.
+    mk: ["палец", "ˈpalɛts"],  // From Proto-Slavic *pàlьcь; the same word names the big toe.
+    lt: ["nykštys", "niːkʃˈtʲiːs"],  // An old Baltic word of disputed origin (Derksen: from a root 'reach').
+    lv: ["īkšķis", "ˈiːkʃcis"],  // Cognate with Lithuanian nykštys 'thumb'.
+    sq: ["gisht i madh", "ɡiʃt i mað"],  // Literally 'the big finger'; the learned word pulqer comes from Latin.
+    et: ["pöial", "ˈpøiɑl"],  // From Proto-Finnic *peikälo, the same word as Finnish peukalo.
+    ht: ["pous", "pus"],  // From French pouce 'thumb'.
+    kea: ["dedon", "deˈdõ"],  // From Portuguese dedão, 'big finger' (dedo + augmentative -ão).
+    se: ["bealgi", "ˈpeɑlki"],  // Inherited from Proto-Samic *pealkē.
+    la: ["pollex", "ˈpolleks"],  // Source of French pouce and Spanish pulgar; also used for the big toe and as a unit, the inch.
+    el_grc: ["ἀντίχειρ", "antíkʰeːr"],  // Literally 'opposite-hand', for the thumb set against the other fingers; mégas dáktulos 'big finger' was also used.
+    enm: ["thombe", "ˈθumbə"],  // From Old English þūma; the -b began in the late 13th century.
+    ang: ["þūma", "ˈθuːmɑ"],  // Ancestor of English thumb, from Proto-Germanic *þūmô.
+    cu: ["пальць", "palĭtsĭ"],  // From Proto-Slavic *pàlьcь 'thumb'.
+    vo: ["döm", "døm"],  // Volapük root word for the thumb.
+    kk: ["бас бармақ", "bɑs bɑɾmɑq"],  // Literally 'head finger' (бас 'head; chief'); бармақ alone also means thumb, since 'finger' is саусақ.
+    az: ["baş barmaq", "bɑʃ bɑɾmɑx"],  // Literally 'head finger': baş 'head; main' + barmaq 'finger'.
+    ckb: ["ئەسپێکوژە", "ʔaspeːkuʒa"],  // Literally 'louse-killer' (ئەسپێ 'louse' + کوژ 'kill'); also written ئەسپێ کوژە.
+    dv: ["ބޮޑުވައި އިނގިލި", "boɖuvai iᵑɡili"],  // Built on ބޮޑު bodu 'big' + އިނގިލި ingili 'finger'.
+    te: ["బొటనవేలు", "boʈanaʋeːlu"],  // వేలు is 'finger'; the same word also names the big toe.
+    to: ["motuʻanima", "motuʔanima"],  // Literally 'parent finger' (motuʻa 'old; parent' + nima 'hand'), per Churchward; the big toe is motuʻavaʻe.
+    tzo: ["meʼ kʼobol", "meʔ kʼoɓol"],  // Literally 'mother of the hand' (meʼ 'mother' + kʼob 'hand').
+    eo: ["dikfingro", "dikˈfinɡro"],  // Literally 'thick finger'; the Latin-based polekso is the anatomical term.
+    smn: ["pelgi", "pelɡi"],  // Cognate with Northern Sámi bealgi 'thumb'.
+    sms: ["peäʹlǧǧ", "pɛalʲɟɟʝʲɘ"],  // Cognate with Northern Sámi bealgi 'thumb'.
+    en_aave: ["thumb", "θʌm"],  // From Old English þūma.
+    en_nz: ["thumb", "θɐm"],  // From Old English þūma.
+    en_au: ["thumb", "θɐm"],  // From Old English þūma.
+    en_south: ["thumb", "θʌm"],  // From Old English þūma.
+    en_app: ["thumb", "θʌm"],  // From Old English þūma.
+    en_in: ["thumb", "t̪ʰʌm"],  // From Old English þūma.
+    en_ie: ["thumb", "θʊm"],  // From Old English þūma.
+    en_sco: ["thumb", "θʌm"],  // From Old English þūma.
+    en_yk: ["thumb", "θʊm"],  // From Old English þūma.
+    en_ck: ["thumb", "fɐm"],  // From Old English þūma.
+    en_scouse: ["thumb", "θʊm"],  // From Old English þūma.
+    en_geordie: ["thumb", "θʊm"],  // From Old English þūma.
+    en_brum: ["thumb", "θʊm"],  // From Old English þūma.
+    en_manc: ["thumb", "θʊm"],  // From Old English þūma.
+    en_wc: ["thumb", "θʌm"],  // From Old English þūma.
+    en_est: ["thumb", "θʌm"],  // From Old English þūma.
+    en_sg: ["thumb", "tam"],  // From Old English þūma.
+    en_em: ["thumb", "θʊm"],  // From Old English þūma.
+    fr_qc: ["pouce", "pus"],  // From Latin pollicem, accusative of pollex 'thumb'.
+    fr_af: ["pouce", "pus"],  // From Latin pollicem, accusative of pollex 'thumb'.
+    fr_be: ["pouce", "pus"],  // From Latin pollicem, accusative of pollex 'thumb'.
+    fr_ch: ["pouce", "pus"],  // From Latin pollicem, accusative of pollex 'thumb'.
+    es_co: ["pulgar", "pulˈɣaɾ"],  // From Latin pollicaris, from pollex 'thumb'.
+    es_cl: ["pulgar", "pulˈɣaɾ"],  // From Latin pollicaris, from pollex 'thumb'.
+    es_ar: ["pulgar", "pulˈɣaɾ"],  // From Latin pollicaris, from pollex 'thumb'.
+    es_cu: ["pulgar", "pulˈɣaɾ"],  // From Latin pollicaris, from pollex 'thumb'.
+    es_pe: ["pulgar", "pulˈɣaɾ"],  // From Latin pollicaris, from pollex 'thumb'.
+    es_an: ["pulgar", "pulˈɣaɾ"],  // From Latin pollicaris, from pollex 'thumb'.
+    de_at: ["Daumen", "ˈdaʊ̯mən"],  // From Middle High German dūme, a cognate of English thumb.
+    nds: ["Duum", "duːm"],  // Cognate with English thumb; Dumen is also used as the singular.
+    ksh: ["Dumm", "dʊm"],  // Cognate with German Daumen and English thumb.
+    fy: ["tomme", "ˈtɔmə"],  // Cognate with English thumb.
+    nn: ["tommel", "ˈtɔməl"],  // Cognate with English thumb; tommelfinger 'thumb-finger' is also common.
+    oc: ["poce", "ˈpuse"],  // From Latin pollex; familiarly also det gròs 'big finger'.
+    scn: ["puseri", "ˈpuseri"],  // Sicilian word for the thumb, 'the thickest finger of the hand'.
+    be: ["вялікі палец", "vʲalʲikʲi palʲets"],  // Literally 'big finger'; палец alone means any finger.
+    om: ["abbuudduu", "abːuːdːuː"],
+    ny: ["mphatakala", "mpʰatakala"],  // The same word also names the big toe.
+    fur: ["poleâr", "poleˈaːr"],  // From Latin pollicaris, an adjective built on pollex 'thumb'.
+    ast: ["pulgar", "pulˈɣaɾ"],  // From Latin pollicaris, built on pollex 'thumb'; dedón 'big finger' is also used.
+    rup: ["pilicar", "piliˈkar"],  // From Latin pollicaris (from pollex 'thumb'); the same word also means the big toe, and the variant pulicar is common.
+    ruq: ["pulicar", "puliˈkar"],  // From Latin pollicaris, built on pollex 'thumb'.
+    udm: ["пӧлы", "pɘlɨ"],  // Inherited from Proto-Uralic *pälkä 'thumb', the same word as Finnish peukalo.
+    myv: ["пелька", "pelʲka"],  // Inherited from Proto-Uralic *pälkä 'thumb', the same word as Finnish peukalo.
+    kpv: ["пев", "pev"],  // Inherited from Proto-Uralic *pälkä 'thumb', cognate with Udmurt пӧлы and Finnish peukalo.
+    ba: ["баш бармаҡ", "bɑʃ bɑrˈmɑq"],  // Literally 'head finger', баш 'head, main' + бармаҡ 'finger', as in Turkish başparmak; it also means the big toe.
+    pms: ["pòle", "ˈpɔle"],  // From Latin pollex, pollicem 'thumb'.
+    mfe: ["pous", "pus"],  // From French pouce, which also gave the word for 'inch'.
+    rcf: ["pous", "pus"],  // From French pouce 'thumb', from Latin pollex.
+    rif: ["ⵉⵎⴻⵣ", "iməz"],  // An inherited Berber word (Latin spelling imez), cognate with Tashelhit ikmz.
+    mwr: ["अंगुठौ", "əŋɡuʈʰɔ"],  // From Sanskrit aṅguṣṭha 'thumb', the same word as Hindi अंगूठा.
+    bik: ["tanggurang", "taŋˈɡuɾaŋ"],  // Built from the old word tangan 'thumb' plus gurang 'old, senior'; tanggurangan and tanggugurang are variants.
+    yue_ts: ["手指公", "siu˥˥ tsi˥˥ kəɯŋ˨˩"],  // Literally 'finger grandfather', with 公 'grandfather, old man' taking a changed low tone; the shorter 手公 is also used.
+    yue_dg: ["手指公", "ʃau˧˥ tʃi˧˥ koŋ˨˧"],  // Literally 'finger grandfather', the same word as Guangzhou Cantonese 手指公.
+    hak_tw: ["手指公", "su˧˩ tsɨ˧˩ kuŋ˨˦"],  // Literally 'finger grandfather', 公 being 'grandfather, old man'; 手指頭 also occurs.
+    hak_hl: ["手指公", "ʃiu˨˦ tʃi˨˦ kuŋ˥˧"],  // Literally 'finger grandfather', 公 being 'grandfather, old man'.
+    nan_te: ["指头公", "tsɯŋ˥˨ tʰau˥˥ koŋ˧˧"],  // Literally 'finger grandfather', 公 being 'grandfather, old man'; it also means the big toe.
+    ota: ["باش پرمق", "baʃ paɾˈmak"],  // Literally 'head finger', baş 'head, main' + parmak 'finger', the ancestor of Turkish başparmak.
+    xct: ["མཐེ་བོ", "mtʰebo"],  // Written mthe bo; the first syllable may be related to 'big' (Hill) or to mtha' 'limit, extreme' (Tournadre & Suzuki), so the image is uncertain.
+    goh: ["dūmo", "ˈduːmo"],  // The ancestor of German Daumen, cognate with English thumb, from a root meaning 'to swell'.
+    gmh: ["dûme", "ˈduːmə"],  // The ancestor of German Daumen, cognate with English thumb.
+    fro: ["pouce", "ˈputsə"],  // From Latin pollex, pollicem 'thumb'; also spelled polz and pouz.
+    sga: ["ordu", "ˈordu"],  // Of unknown origin; it survives as Modern Irish ordóg 'thumb'.
+    fr_class: ["pouce", "pus"],  // From Latin pollex, pollicem; the Académie in 1762 defined it as 'the thickest of the fingers of the hand'.
+    es_sgl: ["pulgar", "pulˈɣaɾ"],  // From Latin pollicaris (from pollex); the Diccionario de Autoridades notes it was the usual word, more common than learned pólice.
+    de_lut: ["Daumen", "ˈdaʊ̯mən"],  // From Middle High German dûme; 16th-century writers used both daum and daumen.
+    oj: ["midechininj", "midetʃinindʒ"],  // An independent noun (no personal prefix needed); its partner midechizid is the big toe, and Border Lakes speakers say michichin.
+    dsb: ["wjeliki palc", "ˈvʲɛlikʲi palts"],  // Literally 'big finger', wjeliki 'big' + palc 'finger'.
+    pjt: ["maṟa mama", "maɻa mama"],  // Literally 'hand father', maṟa 'hand' + mama 'father'.
+    nia: ["turu sebua", "turu sebua"],  // turu means 'finger'; the meaning of sebua in this compound was not checked in a dictionary.
+    nog: ["бас бармак", "bas barmaq"],  // Literally 'head finger', бас 'head' + бармак 'finger', the Nogai form of Turkish başparmak.
+    av: ["буртӏинкилищ", "burtʼinkiliʃː"],  // Ends in килищ 'finger'; the first element is not explained in the sources, and dialects say кӏудаб гилищ 'big finger'.
+    os: ["хистӕр ӕнгуылдз", "xistær ænɡʷɨldz"],  // The second word is ӕнгуылдз 'finger'; the sense of хистӕр here was not checked in a dictionary.
+    arn: ["fütra changüll kuwü", "fɨʈʂa tʃaŋɨʎ kuwɨ"],  // Literally 'big finger of the hand', fütra 'big' + changüll 'finger' + kuwü 'hand' (WOLD).
+  },
+};

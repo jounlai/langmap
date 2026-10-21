@@ -248,6 +248,54 @@ WORDS.mobilephone = {
     nan_ph: "hand",
     vi_c: "carry",
     vi_s: "carry",
+    no: "carry",
+    hr: "carry",
+    gan: "hand",
+    fa: "other",
+    ha: "hand",
+    yo: "carry",
+    bar: "hand",
+    nds: "hand",
+    scn: "other",
+    kk: "cell",
+    ky: "cell",
+    tg: "carry",
+    as: "carry",
+    ne: "carry",
+    bho: "carry",
+    mai: "carry",
+    awa: "carry",
+    anp: "carry",
+    pnb: "carry",
+    sd: "carry",
+    skr: "carry",
+    ks: "carry",
+    ps: "carry",
+    kn: "carry",
+    km: "hand",
+    ceb: "cell",
+    ku: "hand",
+    om: "hand",
+    ht: "cell",
+    mg: "unknown",
+    am: "carry",
+    xh: "cell",
+    tn: "cell",
+    st: "cell",
+    sn: "unknown",
+    rw: "unknown",
+    rn: "unknown",
+    bm: "carry",
+    nso: "unknown",
+    sr: "carry",
+    jv: "hand",
+    mad: "hand",
+    su: "hand",
+    min: "cell",
+    or: "carry",
+    sat: "carry",
+    azb: "carry",
+    gn: "cell",
   },
   routes: {
     hand: {"color":"#ea580c","emoji":"✋","en":"the hand","ja":"手","ko":"손","zh":"手","yue":"手","vi":"bàn tay","th":"มือ","id":"tangan","hi":"हाथ","de":"die Hand","fr":"la main","it":"la mano","es":"la mano","pt":"a mão","ru":"рука","uk":"рука","ar":"اليد","he":"היד","sw":"mkono"},
@@ -439,5 +487,53 @@ WORDS.mobilephone = {
     nan_ph: ["手機", "tsʰiu˥˥˦ ki˧˧"],  // Literally 'hand machine'.
     vi_c: ["điện thoại di động", "ɗiəŋ˧˩ tʰwaːj˧˩ ji˥ ɗəwŋ͡m˧˩"],  // Literally 'mobile telephone', a calque of Chinese 移動電話; in speech often just điện thoại.
     vi_s: ["điện thoại di động", "ɗiəŋ˨˩˨ tʰwaːj˨˩˨ ji˧ ɗəwŋ͡m˨˩˨"],  // Literally 'mobile telephone', a calque of Chinese 移動電話; in speech often just điện thoại.
+    no: ["mobil", "muˈbiːl"],  // Short for mobiltelefon 'mobile telephone', the everyday Norwegian word.
+    hr: ["mobitel", "mǒbitel"],  // Blend of mobilni telefon 'mobile telephone', popularised by the Slovene operator Mobitel; Croatian Wikipedia calls it 'simply mobitel'.
+    gan: ["手机", "siu˨˩˧ tɕi˦˨"],  // Literally 'hand machine', the same word as Standard Chinese 手机; it is the title of the Gan-language Wikipedia article.
+    fa: ["گوشی", "ɡuːʃiː"],  // Literally 'the ear-piece' (گوش 'ear'), first the handset of a landline phone; موبایل 'mobile' and formal تلفن همراه 'companion telephone' are also used.
+    ha: ["wayar hannu", "wajar hanːuː"],  // Literally 'phone of the hand' (waya 'wire, phone' + hannu 'hand'); wayar salula 'cellular phone' is also used.
+    yo: ["fóònù alágbèéká", "fóònù aláɡbèéká"],  // Literally 'phone that is carried about' (fóònù 'phone' + alágbèéká, built on gbé 'carry'); in speech often just fóònù.
+    bar: ["Handy", "ˈhɛndi"],  // The German pseudo-anglicism Handy, usually explained from 'hand'; Bavarian Wikipedia gives Mobuitelefon as the formal alternative.
+    nds: ["Handy", "ˈhɛndi"],  // The German pseudo-anglicism Handy, usually explained from 'hand'; Mobiltelefon is the formal word.
+    scn: ["tilifuninu", "tilifuˈninu"],  // Literally 'little telephone', diminutive of tilèfunu, like Italian telefonino; tilèfunu cillulari 'cellular telephone' is the fuller term.
+    kk: ["ұялы телефон", "ʊjɑˈlə teleˈfon"],  // Literally 'cellular telephone' (ұя 'nest, cell'); the colloquial қалтафон 'pocket phone' also exists.
+    ky: ["уюлдук телефон", "ujulduk telefon"],  // Literally 'cellular telephone' (уя 'nest, cell'); кол телефон 'hand telephone' is also listed.
+    tg: ["телефони мобилӣ", "telefoni mobili"],  // Literally 'mobile telephone'; the purist телефони ҳамроҳ 'companion telephone', as in Persian, is also used.
+    as: ["মোবাইল", "mʊbail"],  // Borrowed from English 'mobile'; Assamese Wikipedia titles the article ম’বাইল ফোন.
+    ne: ["मोबाइल", "mobaːil"],  // Borrowed from English 'mobile (phone)'.
+    bho: ["मोबाइल", "moːbaːɪl"],  // Borrowed from English 'mobile (phone)'; Bhojpuri Wikipedia notes it is also called सेलफोन 'cellphone' and हाथफोन 'hand phone'.
+    mai: ["मोबाइल फोन", "moːbaːil foːn"],  // Borrowed from English 'mobile phone'.
+    awa: ["मोबाइल फोन", "moːbaːil foːn"],  // Borrowed from English 'mobile phone', often just मोबाइल.
+    anp: ["मोबाइल", "moːbaːil"],  // Borrowed from English 'mobile (phone)'.
+    pnb: ["موبائل", "moːbaːjl"],  // Borrowed from English 'mobile (phone)'; سیل فون 'cell phone' is also used.
+    sd: ["موبائل فون", "moːbaːil foːn"],  // Borrowed from English 'mobile phone', often just موبائل.
+    skr: ["موبائل", "moːbaːil"],  // Borrowed from English 'mobile (phone)'.
+    ks: ["موبایل", "moːbaːjl"],  // Borrowed from English 'mobile (phone)'; سیل فون 'cell phone' is also listed.
+    ps: ["موبایل", "mobaːjl"],  // Borrowed from English 'mobile'; Pashto Wikipedia gives the fuller ګرځنده موبایل 'roaming mobile' and لاسي موبایل 'hand mobile', 'in short موبایل'.
+    kn: ["ಮೊಬೈಲ್", "mobail"],  // Borrowed from English 'mobile (phone)'; the fuller ಮೊಬೈಲ್ ಫೋನ್ is also common.
+    km: ["ទូរស័ព្ទដៃ", "tuːrəsap ɗaj"],  // Literally 'hand telephone' (ទូរស័ព្ទ 'telephone' + ដៃ 'hand'); the formal term is ទូរស័ព្ទចល័ត 'mobile telephone'.
+    ceb: ["selpon", "ˈselpon"],  // Borrowed from English 'cell phone'; the fuller teleponong selular 'cellular telephone' is the formal term.
+    ku: ["telefona destan", "tɛlɛfoːnɑː dɛsˈtɑːn"],  // Literally 'telephone of the hand' (dest 'hand'); Kurmanji also says telefona gerok 'roaming telephone' and mobîl.
+    om: ["bilbila harkaa", "bilbila harkaː"],  // Literally 'telephone of the hand' (bilbila 'small bell, telephone' + harka 'hand'); bilbila mobaayilii 'mobile phone' is also used.
+    ht: ["telefòn selilè", "telefɔn selilɛ"],  // Literally 'cellular telephone', from French téléphone cellulaire; telefòn mobil is a synonym.
+    mg: ["finday", "ˈfindaj"],  // The Malagasy word for a mobile phone, distinct from telefaonina 'telephone'; its makeup was not confirmed by a source.
+    am: ["ሞባይል ስልክ", "mobajl sɨlk"],  // Borrowed from English 'mobile' + ስልክ 'telephone' (from Arabic 'wire'), often just ሞባይል; the coinage ነፋስ ስልክ 'wind telephone' titles Amharic Wikipedia's article.
+    xh: ["iselfowuni", "iselfowuni"],  // Borrowed from English 'cellphone' (South African usage); Xhosa Wikipedia notes umnxeba is the usual spoken word for a phone in general.
+    tn: ["founo ya selula", "founo ja selula"],  // Literally 'cellular phone', from English; mogala 'telephone (line)' is the general word.
+    st: ["selefouno", "selefouno"],  // Borrowed from South African English 'cellphone'.
+    sn: ["nharembozha", "n̤aremboʒa"],  // Built on nhare 'telephone'; Shona Wikipedia lists nhareyamado and nharemado as synonyms, and some say just nhare.
+    rw: ["terefone igendanwa", "teɾefone iɡendanwa"],  // Literally a terefone 'telephone' that is igendanwa, the word used for mobile services; in speech often just terefone.
+    rn: ["terefone igendanwa", "teɾefone iɡendanwa"],  // A terefone 'telephone' that is igendanwa, the same phrase as in Kinyarwanda.
+    bm: ["telefɔni yaalata", "telefɔni jaːlata"],  // Literally 'roaming telephone' (yaala 'travel about'); Bambara Wikipedia also uses telefɔni mobili.
+    nso: ["sellathekeng", "selːatʰekeŋ"],  // The Northern Sotho word for a mobile phone, distinct from mogala 'telephone'; its makeup was not confirmed by a source.
+    sr: ["мобилни телефон", "môbiːlniː telěfoːn"],  // Literally 'mobile telephone', in speech usually just мобилни; Croatian prefers mobitel.
+    jv: ["HP", "hape"],  // The initials of Indonesian-English handphone, read ha-pé; the formal Javanese term is tilpun sélulèr 'cellular telephone'.
+    mad: ["HP", "hape"],  // The initials of Indonesian-English handphone, read ha-pé.
+    su: ["hapé", "hape"],  // From HP, the initials of handphone, read ha-pé; the formal Sundanese term is telepon keupeul 'handful telephone'.
+    min: ["ponsel", "ponsɛl"],  // Contraction of telepon seluler 'cellular telephone', as in Indonesian; Minangkabau Wikipedia says the formal talepon ganggam 'hand-held telephone' is usually shortened to ponsel.
+    or: ["ମୋବାଇଲ ଫୋନ", "mobaːilɔ pʰonɔ"],  // Borrowed from English 'mobile phone', often just ମୋବାଇଲ.
+    sat: ["ᱢᱳᱵᱟᱭᱤᱞ ᱯᱷᱳᱱ", "mobajil pʰon"],  // Borrowed from English 'mobile phone'.
+    azb: ["موبایل", "moˈbɑjl"],  // Borrowed from English 'mobile', as in Persian; North Azerbaijani says mobil telefon.
+    gn: ["celular", "seluˈlaɾ"],  // Borrowed from Spanish celular 'cellular (phone)', as in Paraguayan Spanish; the purist coinage is pumbyry po pegua 'phone of the hand'.
   },
 };

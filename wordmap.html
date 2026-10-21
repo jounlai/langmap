@@ -1925,6 +1925,12 @@
         .compare-add-btn.added { background: #1a73e8; color: #fff; }
         .lm-master-try { display: flex; align-items: center; gap: 10px; width: 100%; box-sizing: border-box; margin: 12px 0 2px; padding: 8px 10px; border: 1px dashed #e6c77a; border-radius: 10px; background: #fffaf0; color: #6b5420; text-align: start; cursor: pointer; font: inherit; }
         .lm-master-try:hover { background: #fff3dc; }
+        .lm-master-pill { display: inline-flex; align-items: center; gap: 4px; margin: 6px 0 0 6px; padding: 3px 10px 3px 7px; min-height: 28px; border: 1px dashed #b9bec7; border-radius: 999px; background: #f6f7f9; color: #5f6368; font: inherit; font-size: 12px; cursor: pointer; vertical-align: middle; }
+        .lm-master-pill .lm-mp-medal { font-size: 15px; filter: grayscale(1); opacity: .45; }
+        .lm-master-pill:hover { background: #eef0f3; }
+        .lm-master-pill.got { border: 1px solid #e3b341; background: #fff6d6; color: #7a5600; font-weight: 600; }
+        .lm-master-pill.got .lm-mp-medal { filter: none; opacity: 1; }
+        .lm-master-pill.got:hover { background: #ffefbf; }
         .lm-master-try.got { border-style: solid; border-color: #9fd6b8; background: #eef9f3; color: #0d5c3f; }
         .lm-master-try.got .lm-mt-go { color: #0d7a55; border-color: #9fd6b8; }
         .lm-mt-medal { font-size: 20px; flex: none; }
@@ -8639,6 +8645,19 @@
         window.__langmap.loadMeta = loadMeta;
         // master.js (Language Master) shows a language's description before its quiz.
         window.__langmap.loadLangDesc = loadLangDesc;
+        // Compact badge at the top of the language panel (owner 2026-10-22: the
+        // master state at a glance; the card further down stays as it is).
+        window.__lmMasterPill = function (code) {
+            const L = {
+                no:  { en: 'Master · not yet', ja: 'マスター 未獲得', ko: '마스터 미획득', zh: '大师 未获得', yue: '大師 未攞到', vi: 'Thành thạo · chưa', th: 'มาสเตอร์ · ยังไม่ได้', id: 'Master · belum', hi: 'मास्टर · अभी नहीं', de: 'Meister · noch nicht', fr: 'Maître · pas encore', it: 'Maestro · non ancora', es: 'Maestría · aún no', pt: 'Mestre · ainda não', ru: 'Мастер · ещё нет', uk: 'Майстер · ще ні', ar: 'الإتقان · ليس بعد', he: 'שליטה · עדיין לא', sw: 'Ustadi · bado' },
+                yes: { en: 'Mastered', ja: 'マスター 獲得済み', ko: '마스터 획득', zh: '大师 已获得', yue: '大師 已攞到', vi: 'Đã thành thạo', th: 'มาสเตอร์แล้ว', id: 'Sudah master', hi: 'मास्टर हो गए', de: 'Gemeistert', fr: 'Maîtrisée', it: 'Padroneggiata', es: 'Dominado', pt: 'Dominado', ru: 'Освоен', uk: 'Опановано', ar: 'تم الإتقان', he: 'הושגה שליטה', sw: 'Umeimudu' }
+            };
+            const pk = m => m[uiLang] || m[uiLang.split('_')[0]] || m.en;
+            let got = null; try { got = (JSON.parse(localStorage.getItem('lm_master_v1') || '{}') || {})[code] || null; } catch (_) {}
+            const t = pk(got ? L.yes : L.no);
+            return `<button type="button" class="lm-master-pill${got ? ' got' : ''}" data-master="${escapeHtml(code)}" aria-label="${escapeHtml(t)}">`
+                + `<span class="lm-mp-medal" aria-hidden="true">🏅</span><span class="lm-mp-txt">${escapeHtml(t)}</span></button>`;
+        };
         window.__lmMasterCard = function (code) {
             const T = {
                 q: { en: 'Do you know this language?', ja: 'この言語、わかりますか？', ko: '이 언어, 알고 있나요?', zh: '你懂这种语言吗？', yue: '你識呢種語言嗎？', vi: 'Bạn có biết ngôn ngữ này?', th: 'คุณรู้ภาษานี้ไหม?', id: 'Kamu paham bahasa ini?', hi: 'क्या आप यह भाषा जानते हैं?', de: 'Kennst du diese Sprache?', fr: 'Connaissez-vous cette langue ?', it: 'Conosci questa lingua?', es: '¿Conoces este idioma?', pt: 'Você conhece este idioma?', ru: 'Знаете этот язык?', uk: 'Знаєте цю мову?', ar: 'هل تعرف هذه اللغة؟', he: 'מכירים את השפה הזאת?', sw: 'Unaijua lugha hii?' },
@@ -9285,6 +9304,7 @@
                 const cls = inCmp ? 'compare-add-btn added' : 'compare-add-btn';
                 html += `<button type="button" class="${cls}" data-code="${escapeHtml(code)}" title="${escapeHtml(compareT('hint'))}">${escapeHtml(lbl)}</button>`;
             })();
+            html += window.__lmMasterPill ? window.__lmMasterPill(code) : '';
             // (The custom-goods "make a T-shirt" hand-off is no longer a small
             // button here — it's an image promo card appended at the BOTTOM of
             // the modal, and only on the canonical production host. See the
@@ -10639,7 +10659,7 @@
         document.getElementById('compare-clear').addEventListener('click', clearCompare);
         // Delegate compare-add-btn clicks inside the language modal
         infoContent.addEventListener('click', e => {
-            const mt = e.target.closest('.lm-master-try');
+            const mt = e.target.closest('.lm-master-try, .lm-master-pill');
             if (mt) { if (window.__lmMasterOpenLang) window.__lmMasterOpenLang(mt.dataset.master); return; }
             const btn = e.target.closest('.compare-add-btn');
             if (!btn) return;
@@ -13159,7 +13179,7 @@
          text/plain (not fetched at first paint, as hanmap_trivia.js is) and
          injected the first time the game opens. The stub below only labels
          the launcher and loads the module on demand. -->
-    <script type="text/plain" id="master-src" src="master.js?v=26"></script>
+    <script type="text/plain" id="master-src" src="master.js?v=27"></script>
     <script>
     (function () {
         'use strict';

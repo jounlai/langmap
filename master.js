@@ -209,6 +209,8 @@
         try {
             var card = document.querySelector('.lm-master-try[data-master="' + (window.CSS ? CSS.escape(code) : code) + '"]');
             if (card && window.__lmMasterCard) card.outerHTML = window.__lmMasterCard(code);
+            var pill = document.querySelector('.lm-master-pill[data-master="' + (window.CSS ? CSS.escape(code) : code) + '"]');
+            if (pill && window.__lmMasterPill) pill.outerHTML = window.__lmMasterPill(code);
         } catch (e) {}
     }
     // A badge colour per language family, so a collection reads as a map of families.

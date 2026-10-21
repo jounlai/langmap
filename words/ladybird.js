@@ -208,6 +208,15 @@ WORDS.ladybird = {
     zh_tw: "other",
     zh_jh: "other",
     zh_cd: "other",
+    nan: "other",
+    hak_cn: "other",
+    cdo: "other",
+    cjy: "other",
+    nds: "sun",
+    tt: "unknown",
+    ku: "other",
+    ckb: "other",
+    cnp: "other",
   },
   routes: {
     holy: {"color":"#7c3aed","emoji":"😇","en":"Mary · God · a saint","ja":"聖母・神・聖人","ko":"성모 · 하느님 · 성인","zh":"圣母・上帝・圣人","yue":"聖母 · 上帝 · 聖人","vi":"Đức Mẹ · Chúa · thánh","th":"พระแม่ · พระเจ้า · นักบุญ","id":"Bunda Maria · Tuhan · santo","hi":"मरियम · ईश्वर · संत","de":"Maria · Gott · Heilige","fr":"Marie · Dieu · un saint","it":"Maria · Dio · un santo","es":"María · Dios · un santo","pt":"Maria · Deus · um santo","ru":"Богородица · Бог · святой","uk":"Богородиця · Бог · святий","ar":"مريم · الله · قديس","he":"מרים · האל · קדוש","sw":"Maria · Mungu · mtakatifu"},
@@ -359,5 +368,14 @@ WORDS.ladybird = {
     zh_tw: ["瓢蟲", "pʰjau˧˥ tʂʰʊŋ˧˥"],  // Literally "gourd-ladle insect", after its rounded shape.
     zh_jh: ["花和尚", "xua˧˩ xo˩˧ saŋ˦˦"],  // Nanjing's name, literally "flowery monk".
     zh_cd: ["花姑娘儿", "xua˥˥ ku˥˥ niəɹ˥˥"],  // Literally "flowery girl"; Chengdu also uses the standard 瓢虫.
+    nan: ["珠仔龜", "tsu˦˦ a˥˧ ku˦˦"],  // Literally 'little bead turtle', 珠 'bead' + 仔 diminutive + 龜 'turtle'; the Hokkien Wikipedia instead heads its article 匏仔蟲 pû-á-thâng.
+    hak_cn: ["花萝虫", "fa˦ lo˩˩ tsʰuŋ˩˩"],  // 花 'flower, spotted' + 蘿 + 蟲 'insect'; the Hakka Wikipedia also gives 花蛄仔.
+    cdo: ["涂虼蚤", "tu˥˧ ka˥˥ tsau˥˥"],  // Literally 'earth flea', 塗 'earth' + 虼蚤 'flea' (Feng Aizhen 1998, Fuzhou Dialect Dictionary).
+    cjy: ["花大姐", "xua˩ ta˦˥ tɕiɛ˥˧"],  // Literally 'flowery big sister', the same name used in Beijing, Harbin and Jinan.
+    nds: ["Sünnenküken", "ˈzʏnənkyːkən"],  // Literally 'little sun-chick', from Sünn 'sun' + Küken 'chick'; Low German also has many regional names such as Herrgottskauh 'Lord God's cow'.
+    tt: ["камка", "qɑmˈqɑ"],  // The Tatar name for the ladybird; Tatar also says чуар таракан 'speckled cockroach'.
+    ku: ["xalxalok", "xɑːlxɑːˈloːk"],  // Literally 'little spotty-spotty', from doubled xal 'spot, dot' + diminutive -ok; Kurmanji also says kêzxatûn 'lady beetle'.
+    ckb: ["خاڵخاڵۆکە", "xaːɫxaːɫoːka"],  // Literally 'little spotty-spotty', the Sorani counterpart of Kurmanji xalxalok, from doubled خاڵ 'spot'.
+    cnp: ["瓢虫", "piu˨˩ tʃœŋ˨˩"],  // 瓢 'gourd ladle' + 虫 'insect', for the beetle's half-gourd shape; the same word as standard Chinese.
   },
 };

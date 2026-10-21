@@ -398,6 +398,31 @@ WORDS.potato = {
     tn: "other",
     min: "unknown",
     mad: "unknown",
+    hmn: "other",
+    tpi: "papa",
+    mak: "other",
+    ksw: "other",
+    sc: "papa",
+    egl: "papa",
+    ii: "other",
+    kok: "papa",
+    bik: "papa",
+    war: "papa",
+    pam: "papa",
+    pms: "papa",
+    bs: "earth",
+    tcy: "papa",
+    mzn: "unknown",
+    vec: "papa",
+    bjn: "other",
+    av: "truffle",
+    cpx: "other",
+    quz: "papa",
+    kha: "unknown",
+    brx: "unknown",
+    mni: "unknown",
+    nag: "unknown",
+    kbp: "unknown",
   },
   routes: {
     papa: {"color":"#ca8a04","emoji":"🏔️","en":"Quechua papa · Taíno batata","ja":"ケチュア語 papa・タイノ語 batata","ko":"케추아어 papa · 타이노어 batata","zh":"克丘亚语 papa・泰诺语 batata","yue":"克丘亞語 papa · 泰諾語 batata","vi":"Quechua papa · Taíno batata","th":"เกชัว papa · ไตโน batata","id":"Quechua papa · Taíno batata","hi":"क्वेचुआ papa · ताइनो batata","de":"Quechua papa · Taíno batata","fr":"quechua papa · taïno batata","it":"quechua papa · taíno batata","es":"quechua papa · taíno batata","pt":"quíchua papa · taíno batata","ru":"кечуа papa · таино batata","uk":"кечуа papa · таїно batata","ar":"كيتشوا papa · تاينو batata","he":"קצ'ואה papa · טאינו batata","sw":"Kiquechua papa · Kitaino batata"},
@@ -737,5 +762,30 @@ WORDS.potato = {
     tn: ["lekwele", "lekwele"],  // An older word for an edible tuber, applied to the potato; the Afrikaans loans tapole and aretapole are also used.
     min: ["kantang", "kantaŋ"],  // The name used for the potato by the Minangkabau Wikipedia; Indonesian has kentang.
     mad: ["kentang", "kəntaŋ"],  // Madurese Wikipedia also gives larbâ for the potato.
+    hmn: ["qos yaj ywm", "qɔ˨˩ ja˥˨ jɨ˨˩ˀ"],  // Literally "yangyu tuber": qos 'tuber' plus a loan of Chinese 洋芋 'foreign taro'; the sweet potato is qos liab 'red tuber'.
+    tpi: ["poteto", "poteto"],  // From English potato; the sweet potato, the staple of the Highlands, is kaukau.
+    mak: ["lame-lame", "ˌlameˈlame"],  // A reduplication of lame 'tuber'; the less common lame balanda means 'Dutch tuber'.
+    ksw: ["အၣ်လူ", "ʔàlú"],  // Borrowed from Burmese အာလူး, itself from Hindi ālū, the old Indian name of an edible root that passed to the potato.
+    sc: ["patata", "paˈtata"],  // Borrowed from Spanish patata; pomu de terra 'earth apple' is also used.
+    egl: ["patèta", "paˈtɛːta"],  // The Bolognese form of Italian patata, from Spanish patata.
+    ii: ["ꑸꑽ", "ʑɛ˨˩ ʑo˥"],  // Borrowed from Mandarin 洋芋 yángyù, literally 'foreign taro'.
+    kok: ["बटाट", "bəʈaːʈ"],  // From Portuguese batata, as in Marathi baṭāṭā; Konkani āḷū is taro, not the potato.
+    bik: ["patatas", "paˈtatas"],  // From Spanish patatas, the plural of patata, like Tagalog patatas.
+    war: ["patatas", "paˈtatas"],  // From Spanish patatas, the plural of patata, like Tagalog patatas.
+    pam: ["patatas", "paˈtatas"],  // From Spanish patatas, the plural of patata, like Tagalog patatas.
+    pms: ["patata", "paˈtata"],  // The same word as Italian patata, from Spanish patata.
+    bs: ["krompir", "ˈkrompiːr"],  // Borrowed from Bavarian German, literally "ground pear" (German Grundbirne); Croatian says krumpir.
+    tcy: ["ಬಟಾಟೆ", "baʈaːʈe"],  // From Portuguese batata through Marathi, the same word as Kannada baṭāṭe.
+    mzn: ["بنسه", "bense"],  // Also spelt بنه‌سه benese; Persian says sib-zamini.
+    vec: ["patata", "paˈtata"],  // The same word as Italian patata, from Spanish patata; older Venetian also has tartùfola 'little truffle' and pomo de tèra 'earth apple'.
+    bjn: ["kantang", "kantaŋ"],  // The Banjar form of Malay kentang, which comes from a Javanese word for 'tuber'; the Indonesian spelling kentang is also seen.
+    av: ["картошка", "kartoʃka"],  // Borrowed from Russian kartoshka, ultimately Italian tartufolo 'truffle'; Avar Wikipedia also glosses an older word батӀатӀ with it.
+    cpx: ["洋番薯", "ieu˩˧ hɒŋ˥˧˧ ɬy˩˧"],  // Literally "foreign sweet potato" (番薯 is the sweet potato); Putian also says 洋紅薯 and 馬鈴薯, and Xianyou 馬鈴薯.
+    quz: ["papa", "ˈpapa"],  // The native Andean word, which Spanish borrowed as papa.
+    kha: ["phan", "pʰan"],  // The Khasi name for the potato; no source gives its origin.
+    brx: ["आलु", "alu"],  // The same word as Assamese alu; no source states the borrowing.
+    mni: ["ꯑꯂꯨ", "əlu"],  // The same word as Bengali and Assamese alu; no source states the borrowing. The sweet potato is a different word, mangra.
+    nag: ["alu", "alu"],  // The same word as Assamese alu, the language Nagamese is built on.
+    kbp: ["tɛtɛɛ pɔm", "tɛtɛː pɔm"],  // The Kabiye Wikipedia name for the potato; it also gives Pɔmdɩtɛɛrɩ, from French pomme de terre.
   },
 };

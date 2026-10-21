@@ -1937,7 +1937,8 @@
         .lm-master-pill.got .lm-mp-star { fill: #fff6cf; }
         .lm-master-try.got { border-style: solid; border-color: #9fd6b8; background: #eef9f3; color: #0d5c3f; }
         .lm-master-try.got .lm-mt-go { color: #0d7a55; border-color: #9fd6b8; }
-        .lm-mt-medal { font-size: 20px; flex: none; }
+        .lm-mt-medal { flex: none; display: inline-flex; }
+        .lm-mt-medal svg { width: 22px; height: 22px; }
         .lang-label .lm-map-medal { width: 1em; height: 1em; vertical-align: -0.15em; margin-inline-end: 2px; }
         .lm-mt-txt { flex: 1; display: flex; flex-direction: column; gap: 1px; font-size: 11.5px; line-height: 1.35; }
         .lm-mt-txt b { font-size: 12.5px; }
@@ -3174,7 +3175,7 @@
             </button>
             <button type="button" class="trivia-btn game-btn" id="master-open"
                     aria-haspopup="dialog" title="Name 10 words of one language">
-                <span aria-hidden="true">🏅</span>
+                <span aria-hidden="true" class="lm-btn-medal"><svg viewBox="0 0 20 20" width="1.1em" height="1.1em" style="vertical-align:-0.2em"><path fill="#d64545" d="M6 1h3l2 6H8zM11 1h3l-2 6H9z"/><circle cx="10" cy="12.5" r="5.6" fill="#f4c430" stroke="#c99a06" stroke-width="1.2"/><path fill="#fff6cf" d="M10 9.4l.9 1.9 2 .2-1.5 1.3.5 2-1.9-1.1-1.9 1.1.5-2-1.5-1.3 2-.2z"/></svg></span>
                 <span class="trivia-btn-label" id="master-btn-label">Language Master</span>
             </button>
             <!-- Header right cluster (unified with index/tree, 2026-07-05):
@@ -8692,7 +8693,7 @@
             const q = got ? pk(T.got) : pk(T.q);
             const d = got ? pk(T.when).replace('{date}', got.date).replace('{score}', got.score) : pk(T.d);
             return `<button type="button" class="lm-master-try${got ? ' got' : ''}" data-master="${escapeHtml(code)}">`
-                + `<span class="lm-mt-medal" aria-hidden="true">🏅</span>`
+                + `<span class="lm-mt-medal" aria-hidden="true">${LM_MAP_MEDAL}</span>`
                 + `<span class="lm-mt-txt"><b>${escapeHtml(q)}</b><span>${escapeHtml(d)}</span></span>`
                 + `<span class="lm-mt-go">${escapeHtml(got ? pk(T.again) : pk(T.go))}</span></button>`;
         };
@@ -13198,7 +13199,7 @@
          text/plain (not fetched at first paint, as hanmap_trivia.js is) and
          injected the first time the game opens. The stub below only labels
          the launcher and loads the module on demand. -->
-    <script type="text/plain" id="master-src" src="master.js?v=29"></script>
+    <script type="text/plain" id="master-src" src="master.js?v=30"></script>
     <script>
     (function () {
         'use strict';

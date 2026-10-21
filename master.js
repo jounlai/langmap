@@ -226,9 +226,22 @@
         return '<svg viewBox="0 0 100 100" width="' + size + '" height="' + size + '" role="img" aria-label="' + esc(nameOf(code)) + '">'
             + '<circle cx="50" cy="50" r="47" fill="hsl(' + h + ',55%,42%)"/>'
             + '<circle cx="50" cy="50" r="40" fill="none" stroke="hsl(' + h + ',70%,82%)" stroke-width="2" stroke-dasharray="3 3"/>'
-            + '<text x="50" y="46" text-anchor="middle" font-size="' + (label.length > 6 ? 13 : 17) + '" font-weight="700" fill="#fff" dir="auto">' + esc(label) + '</text>'
-            + '<text x="50" y="66" text-anchor="middle" font-size="10" font-weight="800" letter-spacing="1.5" fill="hsl(' + h + ',80%,88%)">' + esc(pk(T.master)) + '</text>'
+            + '<g transform="translate(34 8) scale(1.6)">' + MEDAL_INNER + '</g>'
+            + '<text x="50" y="56" text-anchor="middle" font-size="' + (label.length > 6 ? 13 : 17) + '" font-weight="700" fill="#fff" dir="auto">' + esc(label) + '</text>'
+            + '<text x="50" y="73" text-anchor="middle" font-size="10" font-weight="800" letter-spacing="1.5" fill="hsl(' + h + ',80%,88%)">' + esc(pk(T.master)) + '</text>'
             + '</svg>';
+    }
+    // One medal everywhere (owner 2026-10-22): the same red-ribbon gold disc the
+    // panel and map labels use, instead of the 🏅 emoji whose look varies by OS.
+    var MEDAL_INNER = '<path fill="#d64545" d="M6 1h3l2 6H8zM11 1h3l-2 6H9z"/><circle cx="10" cy="12.5" r="5.6" fill="#f4c430" stroke="#c99a06" stroke-width="1.2"/><path fill="#fff6cf" d="M10 9.4l.9 1.9 2 .2-1.5 1.3.5 2-1.9-1.1-1.9 1.1.5-2-1.5-1.3 2-.2z"/>';
+    function medal(px) { return '<svg viewBox="0 0 20 20" width="' + (px || 18) + '" height="' + (px || 18) + '" aria-hidden="true" style="vertical-align:-0.18em;flex:none">' + MEDAL_INNER + '</svg>'; }
+    // The same medal on the share image's canvas (20-unit box at x,y, scaled k).
+    function drawMedal(x, ox, oy, k) {
+        x.save(); x.translate(ox, oy); x.scale(k, k);
+        x.fillStyle = '#d64545'; x.fill(new Path2D('M6 1h3l2 6H8zM11 1h3l-2 6H9z'));
+        x.beginPath(); x.arc(10, 12.5, 5.6, 0, Math.PI * 2); x.fillStyle = '#f4c430'; x.fill(); x.lineWidth = 1.2; x.strokeStyle = '#c99a06'; x.stroke();
+        x.fillStyle = '#fff6cf'; x.fill(new Path2D('M10 9.4l.9 1.9 2 .2-1.5 1.3.5 2-1.9-1.1-1.9 1.1.5-2-1.5-1.3 2-.2z'));
+        x.restore();
     }
     function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
 
@@ -404,7 +417,7 @@
     function header(right) {
         box.dir = /^(ar|he)/.test(ui()) ? 'rtl' : 'ltr';
         box.appendChild(el('div', 'display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:8px;flex:none',
-            '<div role="heading" aria-level="2" style="font-weight:800;font-size:20px"><span aria-hidden="true">🏅</span> ' + esc(pk(T.title)) + '</div><div style="color:#5f6673;font-weight:600;font-size:14px">' + (right || '') + '</div>'));
+            '<div role="heading" aria-level="2" style="font-weight:800;font-size:20px">' + medal(22) + ' ' + esc(pk(T.title)) + '</div><div style="color:#5f6673;font-weight:600;font-size:14px">' + (right || '') + '</div>'));
     }
     function btn(label, primary, onClick, key) {
         var b = el('button', primary
@@ -443,7 +456,7 @@
     }
     function renderPick() {
         var badges = loadBadges(), codes = Object.keys(badges);
-        header(codes.length ? '🏅 ' + codes.length : '');
+        header(codes.length ? medal(16) + ' ' + codes.length : '');
         box.appendChild(el('div', 'color:#556;font-size:14px;line-height:1.5;margin-bottom:10px;flex:none', esc(pk(T.sub))));
         // badge shelf
         var shelf = el('div', 'flex:none;margin-bottom:10px');
@@ -457,7 +470,7 @@
                 row.appendChild(b);
             });
             shelf.appendChild(row);
-            var bragB = el('button', 'margin-top:4px;padding:6px 12px;border:1px solid #f0c36d;border-radius:999px;background:#fff8e6;color:#8a5a00;font-weight:700;font-size:13px;cursor:pointer', '🏅 ' + esc(pk(T.brag)) + kbd('B'));
+            var bragB = el('button', 'margin-top:4px;padding:6px 12px;border:1px solid #f0c36d;border-radius:999px;background:#fff8e6;color:#8a5a00;font-weight:700;font-size:13px;cursor:pointer', medal(15) + ' ' + esc(pk(T.brag)) + kbd('B'));
             var toShelf = function () { state.screen = 'shelf'; render(); };
             bragB.type = 'button'; bragB.addEventListener('click', toShelf); state.keys.b = toShelf;
             shelf.appendChild(bragB);
@@ -481,7 +494,7 @@
             rows.slice(0, 200).forEach(function (r) {
                 var it = el('button', 'display:flex;width:100%;align-items:center;justify-content:space-between;gap:8px;padding:9px 6px;border:0;border-bottom:1px solid #f1f2f5;background:none;cursor:pointer;text-align:start;font-size:15px;color:#222',
                     '<span><span>' + esc(r.name) + '</span>' + (r.native && r.native !== r.name ? ' <span style="color:#5f6673;font-size:13px" dir="auto">' + esc(r.native) + '</span>' : '') + '</span>'
-                    + (r.done ? '<span style="font-size:12px;color:#0d7a55;white-space:nowrap">🏅 ' + esc(pk(T.mastered)) + '</span>'
+                    + (r.done ? '<span style="font-size:12px;color:#0d7a55;white-space:nowrap">' + medal(14) + ' ' + esc(pk(T.mastered)) + '</span>'
                         : isUiLang(r.code) ? '<span style="font-size:12px;color:#5f6673;white-space:nowrap">' + esc(pk(T.uiTag)) + '</span>' : ''));
                 it.type = 'button'; it.addEventListener('click', function () { pick(r.code); });
                 it.setAttribute('role', 'option'); it.id = 'lm-mo-' + items.length; it.tabIndex = -1;
@@ -534,7 +547,7 @@
         mid.appendChild(el('div', 'font-weight:800;font-size:22px', esc(nameOf(code))));
         if (r.native && r.native !== nameOf(code)) mid.appendChild(el('div', 'color:#667;font-size:16px', '<span dir="auto">' + esc(r.native) + '</span>'));
         var had = loadBadges()[code];
-        if (had) mid.appendChild(el('div', 'color:#0d7a55;background:#eef9f3;border:1px solid #bfe6d2;border-radius:10px;padding:8px 12px;font-size:14px;font-weight:600', '🏅 ' + esc(pk(T.already).replace('{date}', had.date).replace('{score}', had.score))));
+        if (had) mid.appendChild(el('div', 'color:#0d7a55;background:#eef9f3;border:1px solid #bfe6d2;border-radius:10px;padding:8px 12px;font-size:14px;font-weight:600', medal(16) + ' ' + esc(pk(T.already).replace('{date}', had.date).replace('{score}', had.score))));
         var facts = [];
         var mi = (typeof META_I18N !== 'undefined' && META_I18N) ? (META_I18N[ui()] || META_I18N[ui().split('_')[0]] || {}) : {};
         if (m.family) facts.push('<b>' + esc(pk(T.family)) + '</b> ' + esc(mi[m.family] || m.family));
@@ -608,7 +621,7 @@
 
     function renderShelf() {
         var codes = Object.keys(loadBadges());
-        header('🏅 ' + codes.length);
+        header(medal(16) + ' ' + codes.length);
         box.appendChild(el('div', 'font-weight:800;font-size:17px;flex:none', esc(pk(T.collection))));
         box.appendChild(el('div', 'color:#667;font-size:13px;margin-bottom:6px;flex:none', esc(pn('count', codes.length))));
         var mid = el('div', 'flex:1;min-height:0;overflow-y:auto');
@@ -652,7 +665,8 @@
         var FONT = serifStack();
         x.fillStyle = '#fbf8f1'; x.fillRect(0, 0, W, cv.height);
         x.fillStyle = '#1b2a44'; x.textAlign = 'center';
-        x.font = '800 64px ' + FONT; x.fillText('🏅 ' + pk(T.title), W / 2, 110);
+        x.font = '800 64px ' + FONT; x.fillText(pk(T.title), W / 2 + 32, 110);
+        drawMedal(x, W / 2 + 32 - x.measureText(pk(T.title)).width / 2 - 70, 52, 3.2);
         x.font = '600 36px ' + FONT; x.fillStyle = '#8a5a00'; x.fillText(pn('count', Object.keys(loadBadges()).length), W / 2, 170);
         var y = 240;
         groups.forEach(function (g) {
@@ -666,9 +680,10 @@
                 x.beginPath(); x.arc(cx, cy, R, 0, Math.PI * 2); x.fillStyle = 'hsl(' + hu + ',55%,42%)'; x.fill();
                 x.setLineDash([5, 5]); x.lineWidth = 3; x.strokeStyle = 'hsl(' + hu + ',70%,82%)';
                 x.beginPath(); x.arc(cx, cy, R - 9, 0, Math.PI * 2); x.stroke(); x.setLineDash([]);
+                drawMedal(x, cx - 19.7, cy - 51.8, 1.97);
                 var n = (LD()[c] || {}).native || nameOf(c); if (n.length > 9) n = n.slice(0, 8) + '…';
-                x.textAlign = 'center'; x.fillStyle = '#fff'; x.font = '700 ' + (n.length > 6 ? 17 : 22) + 'px ' + FONT; x.fillText(n, cx, cy + 2);
-                x.fillStyle = 'hsl(' + hu + ',80%,88%)'; x.font = '800 12px ' + FONT; x.fillText(pk(T.master), cx, cy + 24);
+                x.textAlign = 'center'; x.fillStyle = '#fff'; x.font = '700 ' + (n.length > 6 ? 17 : 22) + 'px ' + FONT; x.fillText(n, cx, cy + 13);
+                x.fillStyle = 'hsl(' + hu + ',80%,88%)'; x.font = '800 12px ' + FONT; x.fillText(pk(T.master), cx, cy + 32);
                 x.fillStyle = '#556'; x.font = '500 18px ' + FONT;
                 var nm = nameOf(c); if (nm.length > 14) nm = nm.slice(0, 13) + '…';
                 x.fillText(nm, cx, cy + R + 22);
@@ -696,7 +711,8 @@
             // A badge earned: the next step is the next language, so the
             // language list (with the new badge on its shelf) is the main button.
             box.appendChild(btn(pk(T.back), true, toPick, 'Enter'));
-            box.appendChild(btn('🏅 ' + pk(T.brag), false, function () { state.screen = 'shelf'; render(); }, 'b'));
+            var bragR = btn(pk(T.brag), false, function () { state.screen = 'shelf'; render(); }, 'b');
+            bragR.insertAdjacentHTML('afterbegin', medal(15) + ' '); box.appendChild(bragR);
         } else {
             box.appendChild(btn(pk(T.again), true, function () {
                 var set = makeSet(code); if (!set) return;
@@ -710,7 +726,7 @@
     // ---- map mode: only the mastered languages, each with its medal --------
     // The map's own spotlight (window.__langmap.setSpotlight) narrows the
     // labels to these codes; window.__lmMedals tells the label renderer to put
-    // a 🏅 on them. A pill on the map turns it off again (Esc too).
+    // a medal on them. A pill on the map turns it off again (Esc too).
     var pill = null;
     function mapMode(on) {
         var codes = Object.keys(loadBadges());
@@ -721,7 +737,7 @@
         if (pill) { pill.remove(); pill = null; }
         if (!on) return;
         pill = el('div', 'position:fixed;left:50%;transform:translateX(-50%);bottom:28px;z-index:100001;background:#fff8e6;color:#8a5a00;border:1px solid #f0c36d;border-radius:999px;padding:8px 10px 8px 16px;box-shadow:0 4px 16px rgba(0,0,0,.15);display:flex;align-items:center;gap:10px;font-weight:700;font-size:14px;font-family:' + serifStack().replace(/"/g, "'"),
-            '<span>🏅 ' + esc(pn('mapOn', codes.length)) + '</span>');
+            '<span>' + medal(18) + ' ' + esc(pn('mapOn', codes.length)) + '</span>');
         var x = el('button', 'border:0;border-radius:999px;background:#8a5a00;color:#fff;font-weight:700;font-size:13px;padding:5px 12px;cursor:pointer', esc(pk(T.exit)) + kbd('Esc'));
         x.type = 'button'; x.addEventListener('click', function () { mapMode(false); });
         pill.appendChild(x); document.body.appendChild(pill);

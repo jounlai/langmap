@@ -185,6 +185,18 @@ const DECISIONS = [
         what: 'With Only on, compared labels show no amber ring on the Word Map and the Han Map (owner 2026-08-30 / 2026-10-21)',
         check: () => ['wordmap.html', 'hanmap.html'].filter((f) => !/body\.only-compare \.lang-label\.in-compare:not\(\.selected\)[\s\S]{0,300}box-shadow: none/.test(read(f))),
     },
+    {
+        id: 'master-one-medal',
+        what: 'Language Master uses one SVG medal everywhere on screen (panel, map labels, game, seals), never the 🏅 emoji (owner 2026-10-22)',
+        check: () => {
+            const m = read('master.js'), w = read('wordmap.html');
+            const bad = [];
+            if (!/translate\(34 8\) scale\(1\.6\)">' \+ MEDAL_INNER/.test(m)) bad.push('master.js: seal lost its medal');
+            if (/[>'(]\s*['"]?🏅 ?' \+ esc|<span aria-hidden="true">🏅<\/span>|header\('🏅/.test(m)) bad.push('master.js: 🏅 emoji back in the game UI');
+            if (/lm-mt-medal" aria-hidden="true">🏅|aria-hidden="true">🏅<\/span>\s*<span class="trivia-btn-label" id="master-btn-label"/.test(w)) bad.push('wordmap.html: 🏅 emoji back');
+            return bad;
+        },
+    },
 ];
 
 let problems = 0;

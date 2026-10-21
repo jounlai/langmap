@@ -389,6 +389,37 @@ WORDS.rainbow = {
     djr: "unknown",
     wrh: "unknown",
     lwl: "unknown",
+    fa: "bow",
+    ku: "other",
+    sr: "bow",
+    rif: "other",
+    shi: "other",
+    pnb: "other",
+    ln: "unknown",
+    rw: "unknown",
+    rn: "other",
+    zu: "unknown",
+    st: "unknown",
+    nso: "unknown",
+    ts: "unknown",
+    ak: "unknown",
+    tk: "unknown",
+    kk: "unknown",
+    ug: "unknown",
+    ky: "unknown",
+    kab: "other",
+    sat: "bow",
+    sg: "unknown",
+    bho: "other",
+    hne: "bow",
+    syl: "bow",
+    lg: "unknown",
+    umb: "unknown",
+    lua: "unknown",
+    ee: "unknown",
+    ig: "serpent",
+    bm: "other",
+    nds: "bow",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -721,5 +752,36 @@ WORDS.rainbow = {
     djr: ["djäri", "caːɻi"],  // Also means 'coloured light, multi-coloured'; Ritharrŋu speakers say maḻakuy or motj instead.
     wrh: ["yuuluubirrgiyn", "ˈjuːluːbirɡijn"],  // The Wiradjuri word for the rainbow; the neighbouring Gamilaraay word is yuluwirri.
     lwl: ["soʼ", "soʔ"],  // A short native word, homophonous with the verb 'to hurt oneself'.
+    fa: ["رنگین‌کمان", "ɾæŋɡiːnkæˈmɒːn"],  // Literally 'colourful bow' (رنگین 'colourful' + کمان 'bow'), the term accepted by the Academy of Persian Language over older synonyms such as قوس و قزح.
+    ku: ["keskesor", "kɛskɛˈsoːɾ"],  // Named for its colours: literally 'green-red' (kesk 'green' + sor 'red'); Kurmanji also says keskûala and bûka baranê 'bride of the rain'.
+    sr: ["дуга", "dǔːɡa"],  // From Proto-Slavic *dǫga 'arc, arch', the same word as Russian дуга 'arc' that sits inside радуга.
+    rif: ["ⵜⴰⵙⵔⵉⵜ ⵏ ⵡⴻⵏⵥⴰⵔ", "θasɾiθ n wənzˤar"],  // Literally 'bride of the rain', an image shared with Kabyle, Tashelhit and Moroccan Arabic ʕrūsit eš-štā.
+    shi: ["ⵜⵉⵙⵍⵉⵜ ⵏ ⵓⵏⵥⴰⵔ", "tislit n unzˤar"],  // Literally 'bride of the rain' (tislit 'bride' + n 'of' + anẓar 'rain'), per Stroomer's Tashelhit dictionary; tislit n waman 'bride of the water' is a synonym.
+    pnb: ["ست رنگی پینگھ", "sət̪ɾəŋɡiː pĩ́ːŋ"],  // Literally 'seven-coloured swing' (ست رنگی 'seven-coloured' + پینگھ 'rope swing'), the rainbow pictured as a swing hung across the sky.
+    ln: ["monama", "monama"],  // The Lingala word for the rainbow (plural minama), the word the Lingala Bible uses for the rainbow around God's throne.
+    rw: ["umukororombya", "umukoɾoɾombja"],  // The Kinyarwanda word for the rainbow, used in the Kinyarwanda Bible; Kirundi instead says umunywamazi 'water-drinker'.
+    rn: ["umunywamazi", "umuɲwamaːzi"],  // Literally 'water-drinker' (umu- person/agent prefix + -nywa 'drink' + amazi 'water'), the rainbow pictured as drinking water.
+    zu: ["uthingo", "uˈtʰiŋɡo"],  // The Zulu word for the rainbow, used alone in the Zulu Bible; the fuller name is uthingo lwenkosazana, 'the princess's uthingo'.
+    st: ["mookodi", "mookodi"],  // The Sesotho word for the rainbow, used in every Sesotho Bible translation from 1909 to 2024.
+    nso: ["molalatladi", "molalatɬadi"],  // The Northern Sotho word for the rainbow, used in Sepedi Bible translations old and new.
+    ts: ["nkwangulatilo", "ŋkwaŋɡulatilo"],  // The Xitsonga word for the rainbow, used in all Xitsonga Bible translations.
+    ak: ["nyankontɔn", "ɲaŋkontɔn"],  // The Twi word for the rainbow, the same in Asante and Akuapem Bibles.
+    tk: ["älemgoşar", "ælemɡoʃaɾ"],  // The Turkmen word for the rainbow, used in the Turkmen Bible.
+    kk: ["кемпірқосақ", "kempɪɾqoˈsɑq"],  // Kazakh speakers hear it as 'the old woman's tether' (кемпір 'old woman' + қосақ), but Kazakh etymologists derive it from a Persian-Arabic name, so the image is disputed.
+    ug: ["ھەسەن-ھۈسەن", "hæsæn hysæn"],  // The Uyghur word for the rainbow, hesen-hüsen, used in the Uyghur Bible; Kyrgyz has the matching асан-үсөн.
+    ky: ["көк желе", "køk dʒeˈle"],  // Begins with көк 'blue, sky'; Kyrgyz also calls the rainbow асан-үсөн and асман жаасы 'sky bow'.
+    kab: ["tislit n wenẓar", "tislit n wənzˤar"],  // Literally 'bride of the rain' (tislit 'bride' + n 'of' + anẓar 'rain'), the image shared across Berber; the Kabyle Wikipedia also gives tameɣra wuccen.
+    sat: ["ᱞᱤᱴᱟᱹ ᱟᱜ", "liʈə aʔ"],  // Literally 'Lita's bow' (akʼ 'bow'), named, as the Santali Wikipedia puts it, because it appears bent like a bow.
+    sg: ["kongö", "koŋɡo"],  // The Sango word for the rainbow, also listed with the senses 'flower' and 'bush'.
+    bho: ["पनसोखा", "pənsokʰaː"],  // Literally 'water-sucker' (pan- 'water' + sokhā 'absorber'), the rainbow pictured as drawing up water; listed in Tiwari's Bhojpuri-Hindi dictionary.
+    hne: ["मेघ-धनुस", "meːɡʱ dʱənus"],  // Literally 'cloud bow' (मेघ 'cloud' + धनुस 'bow'), the word used throughout the Chhattisgarhi Bible.
+    syl: ["রংধেনু", "rɔŋdenu"],  // Literally 'colour bow' (রং 'colour' + ধেনু 'bow'), like Bengali রংধনু.
+    lg: ["musoke", "musoke"],  // The Luganda word for the rainbow, used in every Luganda Bible translation.
+    umb: ["olukongolo", "olukoŋɡolo"],  // The Umbundu word for the rainbow, used in the Umbundu Bible.
+    lua: ["muanzankongolo", "mwanzaŋkoŋɡolo"],  // The Tshiluba word for the rainbow, used in both Tshiluba Bible translations (one spells it muanzankongolu).
+    ee: ["anyieʋɔ", "aɲieβɔ"],  // The Ewe word for the rainbow, used in all three Ewe Bible translations.
+    ig: ["ekeneegwurugwu", "ekeneeɡʷuɾuɡʷu"],  // Begins with éké 'python' (the Igbo Bible writes it eke na egwurugwu, 'python and egwurugwu'); the second part has no gloss of its own in the dictionary.
+    bm: ["alakamuru", "álákámùru"],  // Literally 'God's knife' (Ala 'God' + ka possessive + muru 'knife'), per the Bamadaba dictionary; synonyms include sanmurubilen 'red sky-knife'.
+    nds: ["Regenbagen", "ˈreːɡn̩bɔːɡn̩"],  // Literally 'rain bow' (Regen 'rain' + Bagen 'bow'), like German Regenbogen.
   },
 };

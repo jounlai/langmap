@@ -371,6 +371,33 @@ WORDS.potato = {
     ar_iq: "papa",
     ar_sd: "papa",
     ar_ye: "papa",
+    fa: "earth",
+    mwr: "other",
+    ne: "other",
+    sat: "other",
+    pnb: "other",
+    skr: "other",
+    awa: "other",
+    mai: "other",
+    sr: "earth",
+    hr: "earth",
+    ht: "earth",
+    za: "other",
+    rif: "papa",
+    sn: "papa",
+    gn: "earth",
+    ku: "truffle",
+    azb: "earth",
+    so: "unknown",
+    rn: "unknown",
+    nap: "papa",
+    scn: "papa",
+    kab: "papa",
+    vmw: "papa",
+    ts: "earth",
+    tn: "other",
+    min: "unknown",
+    mad: "unknown",
   },
   routes: {
     papa: {"color":"#ca8a04","emoji":"🏔️","en":"Quechua papa · Taíno batata","ja":"ケチュア語 papa・タイノ語 batata","ko":"케추아어 papa · 타이노어 batata","zh":"克丘亚语 papa・泰诺语 batata","yue":"克丘亞語 papa · 泰諾語 batata","vi":"Quechua papa · Taíno batata","th":"เกชัว papa · ไตโน batata","id":"Quechua papa · Taíno batata","hi":"क्वेचुआ papa · ताइनो batata","de":"Quechua papa · Taíno batata","fr":"quechua papa · taïno batata","it":"quechua papa · taíno batata","es":"quechua papa · taíno batata","pt":"quíchua papa · taíno batata","ru":"кечуа papa · таино batata","uk":"кечуа papa · таїно batata","ar":"كيتشوا papa · تاينو batata","he":"קצ'ואה papa · טאינו batata","sw":"Kiquechua papa · Kitaino batata"},
@@ -683,5 +710,32 @@ WORDS.potato = {
     ar_iq: ["پتيتة", "puˈteːta"],  // Iraqi puteita, said /puteeta/; بطاطا is also used.
     ar_sd: ["بطاطس", "baˈtˤaːtˤis"],  // Borrowed via Ottoman Turkish patates from Spanish patata.
     ar_ye: ["بطاط", "buˈtˤɑːtˤ"],  // A short form of the batata word, as in the Gulf; one potato is بطاطة.
+    fa: ["سیب‌زمینی", "siːbzæmiːˈniː"],  // Literally "earth apple" (سیب 'apple' + زمینی 'of the earth'), a calque of French pomme de terre.
+    mwr: ["आलू", "aːluː"],  // Inherited from Sanskrit āluka, the elephant foot yam, a name the potato took over after it reached South Asia.
+    ne: ["आलु", "aːlu"],  // From Sanskrit ālu, an edible root (the elephant foot yam), the name the potato took over in South Asia.
+    sat: ["ᱟᱹᱞᱩ", "əlu"],  // Borrowed from Bengali or Hindi ālu, ultimately Sanskrit ālu 'edible root'.
+    pnb: ["آلو", "aːluː"],  // From Sanskrit āluka, the elephant foot yam, a name the potato took over after it reached South Asia.
+    skr: ["آلو", "aːluː"],  // From Sanskrit āluka, the elephant foot yam, a name the potato took over after it reached South Asia.
+    awa: ["आलु", "aːlu"],  // From Sanskrit ālu(ka), the elephant foot yam, a name the potato took over after it reached South Asia.
+    mai: ["आलु", "aːlu"],  // From Sanskrit ālu(ka), the elephant foot yam, a name the potato took over after it reached South Asia.
+    sr: ["кромпир", "krǒmpiːr"],  // From Austrian German Grundbirne, literally "ground pear", via Bavarian dialect forms.
+    hr: ["krumpir", "krǔmpiːr"],  // From Austrian German Grundbirne, literally "ground pear", borrowed in the 18th century.
+    ht: ["pòmdetè", "pɔmdetɛ"],  // From French pomme de terre, literally "apple of the earth".
+    za: ["majlingzsuz", "ma˥ liŋ˧˩ θu˧˩"],  // Borrowed from Mandarin 马铃薯, literally "horse-bell tuber".
+    rif: ["ⴱⴰⵟⴰⵟⴰ", "βˤatˤatˤa"],  // Borrowed from Moroccan Arabic baṭāṭa, which goes back through Spanish to Taíno batata.
+    sn: ["mbatatisi", "mbatatisi"],  // Ultimately from Portuguese batata, the Taíno sweet-potato word; Shona also has the synonym dapiri.
+    gn: ["yvyʼa", "ɨʋɨˈʔa"],  // Literally "earth fruit" (yvy 'earth' + 'a 'fruit').
+    ku: ["kartol", "kɑːɾˈtol"],  // Borrowed through Russian kartofel' from German Kartoffel, ultimately Italian tartufolo 'truffle'; regional synonyms include petat, qompîr and sêvik.
+    azb: ["یئرآلما", "jeɾɑlˈmɑ"],  // Literally "earth apple" (yer 'earth' + alma 'apple'); North Azerbaijani mostly says kartof.
+    so: ["baradho", "baraɖo"],  // Somali Wikipedia also gives the variants baradhe and bataati.
+    rn: ["ikiraya", "ikiɾaja"],  // Plural ibiraya; the Kinyarwanda cognate ikirayi is said to come from the word for Europe.
+    nap: ["patana", "paˈtanə"],  // From Spanish batata, according to D'Ambra's 19th-century dictionary; the metathesised tapana is also heard.
+    scn: ["patata", "paˈtata"],  // The same word as Italian patata, which came from Spanish patata.
+    kab: ["lbaṭaṭa", "lbatˤatˤa"],  // Dallet also gives the singulative tabaṭaṭat 'a potato'.
+    vmw: ["patata", "patata"],  // The sweet potato is a different word, kharaka.
+    ts: ["tapula", "tapula"],  // Borrowed from Afrikaans aartappel, literally "earth apple"; the Zulu loan zambana is also used.
+    tn: ["lekwele", "lekwele"],  // An older word for an edible tuber, applied to the potato; the Afrikaans loans tapole and aretapole are also used.
+    min: ["kantang", "kantaŋ"],  // The name used for the potato by the Minangkabau Wikipedia; Indonesian has kentang.
+    mad: ["kentang", "kəntaŋ"],  // Madurese Wikipedia also gives larbâ for the potato.
   },
 };

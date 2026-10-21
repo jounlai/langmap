@@ -22,7 +22,7 @@
     // Concepts that make bad questions: loanwords that look alike everywhere,
     // onomatopoeia, internet slang, and the long numeral phrase.
     var SKIP = { lol: 1, atsign: 1, wifi: 1, dopamine: 1, sushi: 1, computer: 1, chocolate: 1,
-        coffee: 1, tea: 1, sugar: 1, woof: 1, cockcrow: 1, cuckoo: 1, n99: 1 };
+        coffee: 1, tea: 1, sugar: 1, woof: 1, cockcrow: 1, cuckoo: 1, n99: 1, mobilephone: 1 };
     var MIN_CELLS = TOTAL + CHOICES; // enough distinct words for 10 questions + distractors
 
     var FB = 'en';

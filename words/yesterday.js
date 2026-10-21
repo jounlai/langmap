@@ -409,6 +409,38 @@ WORDS.yesterday = {
     osp: "distinct",
     it_dan: "unknown",
     aln: "unknown",
+    gu: "same",
+    shi: "distinct",
+    bar: "distinct",
+    su: "distinct",
+    gn: "distinct",
+    pcm: "distinct",
+    sn: "distinct",
+    lo: "distinct",
+    sat: "distinct",
+    kab: "distinct",
+    pnb: "same",
+    awa: "same",
+    nso: "distinct",
+    ts: "distinct",
+    nds: "distinct",
+    mai: "same",
+    hne: "same",
+    bgc: "same",
+    bgq: "same",
+    ff: "distinct",
+    dyu: "distinct",
+    mos: "distinct",
+    kri: "distinct",
+    lua: "same",
+    arq: "distinct",
+    azb: "distinct",
+    ibb: "same",
+    kln: "distinct",
+    suk: "distinct",
+    tiv: "distinct",
+    kg: "distinct",
+    rif: "distinct",
   },
   routes: {
     same: {"color":"#db2777","emoji":"🔁","en":"one word for yesterday and tomorrow","ja":"昨日と明日が同じ語","ko":"어제와 내일이 한 낱말","zh":"昨天和明天同一个词","yue":"尋日同聽日同一個詞","vi":"một từ cho hôm qua và ngày mai","th":"คำเดียวทั้งเมื่อวานและพรุ่งนี้","id":"satu kata untuk kemarin dan besok","hi":"बीते और आने वाले कल का एक शब्द","de":"ein Wort für gestern und morgen","fr":"un mot pour hier et demain","it":"una parola per ieri e domani","es":"una palabra para ayer y mañana","pt":"uma palavra para ontem e amanhã","ru":"одно слово для вчера и завтра","uk":"одне слово для учора й завтра","ar":"كلمة واحدة لأمس وغد","he":"מילה אחת לאתמול ולמחר","sw":"neno moja kwa jana na kesho"},
@@ -763,5 +795,37 @@ WORDS.yesterday = {
     osp: ["ayer", "aˈjer"],  // tomorrow: cras, from Latin crās; the older form was yer, from Latin herī.
     it_dan: ["ieri", "ˈjɛri"],  // Dante uses the elided form ier in Inferno XXI.
     aln: ["dje", "dje"],
+    gu: ["કાલ", "kaːl"],  // tomorrow: કાલ; one word for both days, made explicit as ગઈ કાલ 'gone kaal' and આવતી કાલ 'coming kaal'.
+    shi: ["ⵉⴹⴳⴰⵎ", "idˤɡam"],  // tomorrow: azkka.
+    bar: ["gestern", "ɡestɐn"],  // tomorrow: morgn; also heard as gesting or gestring.
+    su: ["kamari", "kamari"],  // tomorrow: isuk (polite énjing), words that also mean 'morning'.
+    gn: ["kuehe", "kʷehe"],  // tomorrow: ko'ẽrõ, built on ko'ẽ 'dawn'.
+    pcm: ["yestade", "jɛstade"],  // tomorrow: tumoro; both from English.
+    sn: ["nezuro", "nezuro"],  // tomorrow: mangwana.
+    lo: ["ມື້ວານ", "mɯː˥˨ ʋaːn˧˥"],  // tomorrow: ມື້ອື່ນ; literally 'day' + 'past' versus 'day' + 'other'.
+    sat: ["ᱦᱚᱞᱟ", "hɔla"],  // tomorrow: ᱜᱟᱯᱟ (gapa).
+    kab: ["iḍelli", "idˤəlli"],  // tomorrow: azekka.
+    pnb: ["کلھ", "kəlː"],  // tomorrow: کلھ; one word for both days, the verb's tense tells them apart.
+    awa: ["काल्हि", "kaːlʱi"],  // tomorrow: काल्हि; Turner records one word for both days, as in Hindi कल.
+    nso: ["maabane", "maːbane"],  // tomorrow: gosasa.
+    ts: ["tolo", "tolo"],  // tomorrow: mundzuku.
+    nds: ["gistern", "ˈɡɪstɐn"],  // tomorrow: morgen; also spelled güstern.
+    mai: ["काल्हि", "kaːlʱi"],  // tomorrow: काल्हि; one word for both days, as in Hindi कल.
+    hne: ["कल", "kəl"],  // tomorrow: कल; one word for both days, as in Hindi.
+    bgc: ["काल", "kaːl"],  // tomorrow: काल; one word for both days, with a long vowel unlike Hindi कल.
+    bgq: ["काल", "kaːl"],  // tomorrow: काल; one word for both days, though तड़कै is also used for tomorrow.
+    ff: ["hanki", "haŋki"],  // tomorrow: janngo; eastern Fulfulde (Nigeria, Cameroon) says keenya for yesterday.
+    dyu: ["kunun", "kunun"],  // tomorrow: sini.
+    mos: ["zaame", "zaːme"],  // tomorrow: beoogo.
+    kri: ["yɛstade", "ˈjɛstade"],  // tomorrow: tumara; both from English.
+    lua: ["makelela", "makelela"],  // tomorrow: makelela; one word for both days, the verb's tense tells them apart.
+    arq: ["البارح", "lbaːrəħ"],  // tomorrow: غدوة; البارح is literally 'the past (night)', shared with Moroccan Arabic.
+    azb: ["دونن", "dyˈnæn"],  // tomorrow: صاباح (sabah); دونن is from Proto-Turkic *tün 'night'.
+    ibb: ["ñkpọñ", "ŋ̩kpɔŋ"],  // tomorrow: ñkpọñ; one word for both days, the verb tells them apart.
+    kln: ["amut", "amut"],  // tomorrow: mutai.
+    suk: ["igolo", "iɡolo"],  // tomorrow: ntondo; neighbouring Nyamwezi uses igolo for both days, but Sukuma keeps them apart.
+    tiv: ["nyen", "ɲen"],  // tomorrow: kper; nyen is close to nyian 'today'.
+    kg: ["mazono", "mazono"],  // tomorrow: mbazi (also written mbasi).
+    rif: ["ⵉⴹⴻⵏⵏⴰⴹ", "iðˤənːaðˤ"],  // tomorrow: ⵜⵉⵡⴻⵛⵛⴰ (tiwecca).
   },
 };

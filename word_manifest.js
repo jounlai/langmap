@@ -36,7 +36,7 @@ const WORD_CATEGORIES = [
         label: {
             en: "People", ja: "人", ko: "사람", zh: "人", yue: "人", vi: "Con người", th: "ผู้คน", id: "Orang", hi: "लोग", de: "Menschen", fr: "Personnes", it: "Persone", es: "Personas", pt: "Pessoas", ru: "Люди", uk: "Люди", ar: "الناس", he: "אנשים", sw: "Watu"
         },
-        words: ["mother", "father", "daughter", "i", "you", "we", "name", "person"],
+        words: ["mother", "father", "daughter", "olderbrother", "i", "you", "we", "name", "person"],
     },
     {
         key: "body",

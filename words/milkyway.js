@@ -221,6 +221,18 @@ WORDS.milkyway = {
     ha: "road",
     am: "milk",
     ny: "other",
+    cpx: "river",
+    ce: "straw",
+    li: "milk",
+    quz: "river",
+    kbd: "road",
+    pms: "road",
+    lmo: "road",
+    bs: "milk",
+    jam: "milk",
+    av: "road",
+    ace: "other",
+    vec: "milk",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -385,5 +397,17 @@ WORDS.milkyway = {
     ha: ["hanya", "hanjaː"],  // Literally 'the road'; Bargery's dictionary also records hanyar Maka 'the road to Mecca'.
     am: ["የወተት ጎዳና", "jəwətət ɡodanːa"],  // Literally 'the road of milk'; Amharic also uses the English loan ሚልኪ ዌይ and the Ge'ez ፍኖተ ሀሊብ 'path of milk'.
     ny: ["chilimira", "tʃilimiɾa"],  // Inherited from a Proto-Bantu word for the Pleiades; gwalalanjovu, mlerang'amba and mbalang'amba are synonyms.
+    cpx: ["河溪", "hɒ˩˧ kʰe˥˧˧"],  // Literally 'river-stream', the Puxian name for the Milky Way, used in Putian and Xianyou alongside 天河 'sky river'.
+    ce: ["Чатакхийна тача", "tʃataqiːna tatʃa"],  // Literally 'the road of dragged straw', the Chechen counterpart of the straw-trail name found from Turkey to Persia.
+    li: ["Mèlkweeg", "mɛlkʋeːx"],  // Literally 'milk way', like Dutch melkweg.
+    quz: ["Mayu", "ˈmaju"],  // Mayu means 'river': Cusco Quechua speakers see the Milky Way as a celestial river, the sky counterpart of the Vilcanota.
+    kbd: ["Шыхулъагъуэ", "ʃəxʷəɬaʁʷa"],  // Literally 'the trail of the herd of horses': a Circassian legend says God lifted Kabardian horses into the sky and the stars are their hoofprints.
+    pms: ["Stra ëd San Giaco", "stra əd saŋ ˈdʒako"],  // Literally 'Saint James's road', after the pilgrims' way to Santiago de Compostela; Via dël làit 'milk road' is also used.
+    lmo: ["Stràda de San Giàcom", "ˈstrada de saŋ ˈdʒakom"],  // The popular Lombard name, 'Saint James's road'; the galaxy itself is called Via Làtea.
+    bs: ["Mliječni put", "mlijeːtʃniː put"],  // Literally 'the milky road', a calque of Latin via lactea.
+    jam: ["Milki Wie", "mɪlki wie"],  // The English name in Cassidy spelling, 'milky way'.
+    av: ["ГӀачинух", "ʕatʃinuχ"],  // Literally 'the cows' path'.
+    ace: ["Bima Sakti", "bima sakti"],  // The Indonesian name, after the hero Bima of the Mahabharata; Acehnese Wikipedia uses it as its title.
+    vec: ["Via Làtea", "ˈvia ˈlatea"],  // Literally 'the milky way', the name Venetian uses for the bright band across the night sky.
   },
 };

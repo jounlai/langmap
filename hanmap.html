@@ -119,7 +119,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=171">
+    <link rel="stylesheet" href="styles.css?v=172">
     <link rel="stylesheet" href="/vendor/leaflet-1.9.4/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -2905,7 +2905,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=54"></script>
+    <script src="nav-short.js?v=55"></script>
     <style>
         /* r23 desktop: the compare panel clears the settings gear and the map
            attribution; the settings drawer is readable at desktop sizes. */
@@ -14023,7 +14023,7 @@
                     }
                     const b = el('button', css + ';position:relative');
                     b.className = 'hq-opt'; b.type = 'button'; b.setAttribute('aria-keyshortcuts', String(i + 1));
-                    b.innerHTML = `<span aria-hidden="true" class="hq-key" style="position:absolute;top:6px;inset-inline-start:8px;font-size:11px;font-weight:700;color:#5f6368;border:1px solid #dde1e7;border-radius:5px;padding:0 5px;line-height:16px">${i + 1}</span><div style="line-height:1.15">${q.fmt === 1 ? '<bdi dir="ltr">' + txt + '</bdi>' : txt}</div><div class="hq-sub" style="font-size:12px;font-weight:400;color:#5f6368;line-height:1.2;margin-top:3px;display:${answered ? 'block' : 'none'}">${q.fmt === 1 ? nameOf(o.code) : '<bdi dir="ltr">' + reading(o.code, q.ch, q.ipa) + '</bdi>'}</div>`;
+                    b.innerHTML = `<span aria-hidden="true" class="hq-key" style="position:absolute;top:6px;inset-inline-start:8px;font-size:11px;font-weight:700;color:#5f6368;border:1px solid #dde1e7;border-radius:5px;padding:0 5px;line-height:16px">${i + 1}</span><div style="line-height:1.15">${q.fmt === 1 ? '<bdi dir="ltr">' + txt + '</bdi>' : txt}</div><div class="hq-sub" style="font-size:12px;font-weight:400;color:#5f6368;line-height:1.2;margin-top:3px;visibility:${answered ? 'visible' : 'hidden'}">${q.fmt === 1 ? nameOf(o.code) : '<bdi dir="ltr">' + reading(o.code, q.ch, q.ipa) + '</bdi>'}</div>`;
                     if (answered) { b.setAttribute('aria-disabled', 'true'); if (window.__ansMark) b.insertAdjacentHTML('beforeend', window.__ansMark(!!o.correct, i === chosen)); }
                     if (!answered) b.addEventListener('click', () => answer(i));
                     mid.appendChild(b);

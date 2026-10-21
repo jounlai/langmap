@@ -1146,6 +1146,30 @@
         _creditDlg.hidden = false;
         setTimeout(function () { var a = _creditDlg.querySelector('a'); if (a) a.focus(); }, 0);
     }
+    // Games (quiz, Han quiz, Language Master, Langle, Passport …): arrow keys
+    // move between the answer buttons of one group, as Tab already does
+    // (owner 2026-10-22: 「ゲーム系の選択肢などに上下カーソルやタブキーが使えるように」).
+    // A group is the buttons that share a parent. Text fields and listboxes keep
+    // their own arrow handling.
+    document.addEventListener('keydown', function (e) {
+        if (e.defaultPrevented || e.altKey || e.ctrlKey || e.metaKey) return;
+        var k = e.key; if (k !== 'ArrowUp' && k !== 'ArrowDown' && k !== 'ArrowLeft' && k !== 'ArrowRight') return;
+        var a = document.activeElement;
+        if (!a || a.tagName !== 'BUTTON' || a.closest('[role="listbox"], [role="menu"], [role="tablist"], .leaflet-container')) return;
+        if (!a.closest('[aria-modal="true"], .wm-overlay, #lm-master-box')) return;
+        var p = a.parentElement; if (!p) return;
+        var g = Array.prototype.filter.call(p.children, function (b) {
+            return b.tagName === 'BUTTON' && !b.disabled && b.getAttribute('aria-disabled') !== 'true' && b.getClientRects().length && getComputedStyle(b).visibility !== 'hidden';
+        });
+        if (g.length < 2) {   // answered options are aria-disabled: still let focus walk them
+            g = Array.prototype.filter.call(p.children, function (b) { return b.tagName === 'BUTTON' && b.getClientRects().length; });
+        }
+        var i = g.indexOf(a); if (i < 0 || g.length < 2) return;
+        var rtl = getComputedStyle(a).direction === 'rtl';
+        var fwd = k === 'ArrowDown' || (k === 'ArrowRight' && !rtl) || (k === 'ArrowLeft' && rtl);
+        g[(i + (fwd ? 1 : -1) + g.length) % g.length].focus();
+        e.preventDefault();
+    });
     // Font-size +/−: press and hold to keep stepping, faster the longer the
     // hold (owner 2026-10-19: max size took dozens of clicks). A tap is still
     // one step. Delegated, so every page's .size-step-btn gets it.

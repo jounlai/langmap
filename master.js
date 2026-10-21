@@ -579,8 +579,11 @@
                 '<span aria-hidden="true" class="lm-kbd" style="position:absolute;top:6px;inset-inline-start:8px;margin:0;color:#6b7280">' + (i + 1) + '</span>'
                 + '<span style="font-size:20px;line-height:1.2" dir="auto">' + esc(o.s) + '</span>'
                 + (o.ipa ? '<span style="font-size:12px;color:#5f6673;margin-top:2px">/' + esc(o.ipa) + '/</span>' : '')
-                + (answered && q.dialect ? '<span style="font-size:12px;color:#5f6673;margin-top:2px">' + esc(o.who.map(nameOf).slice(0, 2).join(' · ') + (o.who.length > 2 ? ' +' + (o.who.length - 2) : '')) + '</span>'
-                    : answered && !isAns ? '<span style="font-size:12px;color:#5f6673;margin-top:2px">= ' + esc(labelOf(o.con)) + '</span>' : ''));
+                // One line is always reserved under the word, filled only once
+                // answered, so the buttons keep their height (owner 2026-10-22).
+                + '<span style="font-size:12px;line-height:1.3;color:#5f6673;margin-top:2px;' + (answered && (q.dialect || !isAns) ? '' : 'visibility:hidden') + '">'
+                + (answered && q.dialect ? esc(o.who.map(nameOf).slice(0, 2).join(' · ') + (o.who.length > 2 ? ' +' + (o.who.length - 2) : ''))
+                    : answered && !isAns ? '= ' + esc(labelOf(o.con)) : '&nbsp;') + '</span>');
             b.type = 'button';
             b.setAttribute('aria-keyshortcuts', String(i + 1));
             if (answered) { b.setAttribute('aria-disabled', 'true'); if (window.__ansMark) b.insertAdjacentHTML('beforeend', window.__ansMark(isAns, i === state.chosen)); }

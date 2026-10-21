@@ -67,6 +67,9 @@
 :where(.leaflet-container, tr, .tm-row, .nm-form-row, #nm-info):focus-visible { outline-offset: -2px; }
 /* segmented control: overflow:hidden + accent-filled active option -> draw inside */
 .radio-switch .radio-opt:focus-visible { outline: 2px solid var(--accent, #2e6fb8); outline-offset: -2px; }
+/* Game answer buttons sit in a scrolling column that clips anything outside
+   it, so their focus ring is drawn inside (owner 2026-10-22: sides cut off). */
+.wq-opt:focus-visible, .hq-opt:focus-visible, #lm-master-box button:focus-visible { outline: 2px solid var(--accent, #2e6fb8); outline-offset: -3px; }
 /* on an accent-filled (selected) option, a white inset ring: >=5:1 against #3f5fe0 / #3a5ce5 */
 .radio-switch .radio-opt.active:focus-visible, .char-btn.active:focus-visible { outline: 2px solid #fff; outline-offset: -4px; }
 select:focus-visible { outline: 2px solid var(--accent, #2e6fb8); outline-offset: 1px; }

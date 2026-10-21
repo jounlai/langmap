@@ -347,6 +347,34 @@ WORDS.olderbrother = {
     gn: "age",
     af: "plain",
     bm: "age",
+    hmn: "age",
+    mak: "age",
+    bbc: "age",
+    ace: "age",
+    sc: "plain",
+    bs: "plain",
+    mrw: "age",
+    bxk: "age",
+    ve: "age",
+    yao: "age",
+    bem: "age",
+    tsg: "age",
+    myx: "plain",
+    cpx: "age",
+    ay: "plain",
+    tyz: "age",
+    pcc: "age",
+    mnw: "unknown",
+    ksw: "age",
+    cv: "age",
+    grt: "age",
+    bjn: "age",
+    mnk: "age",
+    dnj: "age",
+    dag: "age",
+    quc: "age",
+    bts: "age",
+    quz: "plain",
   },
   routes: {
     age: {"color":"#db2777","emoji":"👆","en":"a word just for an older brother","ja":"兄だけを指す語","ko":"형만 가리키는 낱말","zh":"专指哥哥的词","yue":"專指哥哥嘅詞","vi":"từ riêng cho anh","th":"คำเฉพาะสำหรับพี่ชาย","id":"kata khusus untuk kakak","hi":"बड़े भाई का अलग शब्द","de":"eigenes Wort für den älteren Bruder","fr":"un mot propre au frère aîné","it":"una parola solo per il fratello maggiore","es":"una palabra solo para el hermano mayor","pt":"uma palavra só para o irmão mais velho","ru":"отдельное слово для старшего брата","uk":"окреме слово для старшого брата","ar":"كلمة خاصة بالأخ الأكبر","he":"מילה מיוחדת לאח הגדול","sw":"neno maalum kwa kaka mkubwa"},
@@ -635,5 +663,33 @@ WORDS.olderbrother = {
     gn: ["tykeʼýra", "tɨkeˈʔɨɾa"],  // A man calls his older brother tykeʼýra (che rykeʼy 'my older brother') and his younger one tyvýra; a woman calls any brother kyvy.
     af: ["broer", "brur"],  // Afrikaans has no separate word: an older brother is an ouboet, 'old brother'.
     bm: ["kɔrɔkɛ", "kɔrɔkɛ"],  // Bambara kɔrɔkɛ is kɔrɔ 'elder sibling' plus kɛ 'male'; younger: dɔgɔkɛ.
+    hmn: ["tij", "ti˥˨"],  // Hmong has separate words by age: tij (also tij laug) is an older brother; younger: kwv.
+    mak: ["kaka", "ˈkaka"],  // Makassarese kaka is an older sibling, brother or sister; younger: andiʼ.
+    bbc: ["haha", "haha"],  // Toba Batak haha is an elder sibling of the same sex, so a man's older brother; younger: anggi; a sister calls her brother iboto.
+    ace: ["abang", "abaŋ"],  // Acehnese abang (also aduen) is an older brother, related to Malay abang; younger: adoe.
+    sc: ["frade", "ˈfrade"],  // Sardinian frade is any brother; older or younger is not lexically marked.
+    bs: ["brat", "brat"],  // Bosnian brat covers older and younger brothers alike; stariji brat 'older brother' when it matters.
+    mrw: ["kaka", "kaka"],  // Maranao kaka is an older sibling, brother or sister; younger: ari.
+    bxk: ["omukhulu", "omuxulu"],  // Lubukusu omukhulu is an older sibling, from -khulu 'big, old'; younger: omuro.
+    ve: ["mukomana", "mukomana"],  // Tshivenḓa mukomana is an older sibling of the same sex; younger: murathu.
+    yao: ["achimwene", "atʃimwene"],  // Chiyao achimwene is a man's older brother, with the honorific a- prefix seen in atati; a girl says alumbwangu; younger: mpwanga.
+    bem: ["mukalamba", "mukalamba"],  // Bemba mukalamba is an older sibling; younger: mwaice; the plain word for a man's brother is munyinane.
+    tsg: ["magulang", "maɡulaŋ"],  // Tausug magulang is an older sibling (magulang usug, an older brother), while kakaꞌ is the way to address one; younger: manghud.
+    myx: ["yaaya", "jaːja"],  // Lumasaaba says yaaya umukhulu, 'big brother', for an older brother; yaaya is a man's brother, and a woman calls her brother wandaya.
+    cpx: ["阿兄", "a˥˧˧ hia˥˧˧"],  // Pu-Xian says 阿兄, the old Min word 兄 'elder brother' with the prefix 阿; younger: 弟.
+    ay: ["jila", "xila"],  // Aymara has no separate word: an older brother is a jiliri jila, literally 'elder brother', and a younger one a sullkiri jila.
+    tyz: ["có", "kɔ˧˥"],  // Tày có is an older brother (có ché, 'older siblings'); younger: noọng.
+    pcc: ["bix", "pi˧˩"],  // Bouyei bix is an older sibling of either sex, cognate with Thai phi; younger: nuangx.
+    mnw: ["ကော", "kao"],  // Mon ကော, an elder brother, is borrowed from Burmese ကို; the matching younger-sibling term was not checked.
+    ksw: ["ဝဲၢ်", "wɛ"],  // S'gaw Karen ဝဲၢ် is an older sibling, made specific for a brother with a word for 'male'; younger: ပုၢ်.
+    cv: ["пичче", "pittɕe"],  // Chuvash пичче is an older brother, also a father's younger brother; younger: шӑллӑм; the plain word for brother is ар тӑван.
+    grt: ["ada", "ada"],  // Garo ada is an elder brother, adagipa in formal speech; younger: jong.
+    bjn: ["kaka", "kaka"],  // Banjar kaka is an older sibling, brother or sister, like Indonesian kakak; younger: ading.
+    mnk: ["kotoo", "kotoː"],  // Mandinka kotoo, from koto 'old', is an older sibling, and kotookee spells out an older brother; younger: dóo (dóokee 'little brother').
+    dnj: ["dhòo", "ɗòː"],  // Eastern Dan dhòo is an older brother, including older male cousins; an initiated older brother is addressed dʌ̄ zőo; younger: zláȁ.
+    dag: ["biɛli", "biɛli"],  // Dagbani biɛli is an older sibling; younger: tizo; mabia is a brother of any age.
+    quc: ["atz achi", "ats atʃi"],  // Kʼicheʼ atz achi pairs atz, an older sibling, with achi 'man'; younger: chaqʼ ala; achalal is a man's brother in general.
+    bts: ["abang", "abaŋ"],  // Simalungun abang is an elder brother, the same word as Malay abang; younger: anggi.
+    quz: ["wayqi", "wajqi"],  // Quechua marks the speaker's sex, not age: a man's brother is wayqi and a woman's is tura, and an older one is a kuraq wayqi.
   },
 };

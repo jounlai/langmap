@@ -22,7 +22,7 @@ WORDS.hangover = {
     vi: "Nôn nao sau khi say",
     th: "อาการเมาค้าง",
     id: "Pengar",
-    hi: "ख़ुमार",
+    hi: "हैंगओवर",
     de: "Kater",
     fr: "Gueule de bois",
     it: "Postumi della sbornia",
@@ -47,7 +47,7 @@ WORDS.hangover = {
     vi: "Nôn nao sau khi say — cơn đau đầu, buồn nôn sáng hôm sau khi uống quá chén. Ít ngôn ngữ gọi thẳng tên nó: tiếng Đức Kater là \"mèo đực\", tiếng Pháp gueule de bois là \"cái miệng gỗ\", tiếng Tây Ban Nha resaca là \"sóng rút\", cruda của Mexico là \"sống\", tiếng Nhật 二日酔い là \"say ngày thứ hai\", tiếng Trung 宿醉 là \"say qua đêm\".",
     th: "อาการเมาค้าง — อาการปวดหัวคลื่นไส้ในเช้าวันรุ่งขึ้นหลังดื่มหนัก มีไม่กี่ภาษาที่เรียกตรง ๆ เยอรมัน Kater คือ \"แมวตัวผู้\" ฝรั่งเศส gueule de bois คือ \"ปากไม้\" สเปน resaca คือ \"คลื่นที่ถอยกลับ\" cruda ของเม็กซิโกคือ \"ดิบ\" ญี่ปุ่น 二日酔い คือ \"เมาวันที่สอง\" จีน 宿醉 คือ \"เมาข้ามคืน\"",
     id: "Pengar — sakit kepala dan mual pagi hari setelah minum terlalu banyak. Sedikit bahasa yang menamainya secara harfiah: bahasa Jerman Kater berarti \"kucing jantan\", Prancis gueule de bois \"mulut kayu\", Spanyol resaca \"arus balik ombak\", cruda Meksiko \"mentah\", Jepang 二日酔い \"mabuk hari kedua\", Tionghoa 宿醉 \"mabuk semalam\".",
-    hi: "ख़ुमार — ज़्यादा पीने के बाद अगली सुबह का सिरदर्द और मतली। कम ही भाषाएँ इसे सीधे नाम देती हैं: जर्मन Kater \"बिल्ला\" है, फ़्रांसीसी gueule de bois \"लकड़ी का मुँह\", स्पेनी resaca \"लौटती लहर\", मेक्सिको का cruda \"कच्चा\", जापानी 二日酔い \"दूसरे दिन का नशा\", चीनी 宿醉 \"रात भर टिका नशा\"।",
+    hi: "हैंगओवर — ज़्यादा पीने के बाद अगली सुबह का सिरदर्द और मतली। कम ही भाषाएँ इसे सीधे नाम देती हैं: जर्मन Kater \"बिल्ला\" है, फ़्रांसीसी gueule de bois \"लकड़ी का मुँह\", स्पेनी resaca \"लौटती लहर\", मेक्सिको का cruda \"कच्चा\", जापानी 二日酔い \"दूसरे दिन का नशा\", चीनी 宿醉 \"रात भर टिका नशा\"।",
     de: "Kater — Kopfweh, Übelkeit und Elend am Morgen nach zu viel Alkohol. Wörtlich benennen ihn die wenigsten Sprachen: deutsch Kater (ein Studentenwitz auf „Katarrh“), französisch gueule de bois „Holzmaul“, spanisch resaca „Rücksog der Brandung“, mexikanisch cruda „roh“, japanisch 二日酔い „Rausch am zweiten Tag“, chinesisch 宿醉 „Rausch über Nacht“.",
     fr: "Gueule de bois — le mal de tête, la nausée et la misère du lendemain d'une beuverie. Peu de langues la nomment littéralement : l'allemand Kater est un « matou », le français une « gueule de bois », l'espagnol resaca le ressac d'une vague, le mexicain cruda « crue », le japonais 二日酔い « l'ivresse du deuxième jour », le chinois 宿醉 « l'ivresse de la veille ».",
     it: "Postumi della sbornia — mal di testa, nausea e malessere la mattina dopo aver bevuto troppo. Poche lingue li nominano alla lettera: il tedesco Kater è un «gatto maschio», il francese gueule de bois una «bocca di legno», lo spagnolo resaca la risacca, il messicano cruda «cruda», il giapponese 二日酔い «l'ebbrezza del secondo giorno», il cinese 宿醉 «l'ebbrezza della notte prima».",
@@ -170,5 +170,14 @@ WORDS.hangover = {
     en_wc: ["hangover", "ˈhaŋəʊvɚ"],  // Originally 'something left over'; the drinking sense dates from the early 20th century.
     en_est: ["hangover", "ˈhæŋəʊvə"],  // Originally 'something left over'; the drinking sense dates from the early 20th century.
     en_sg: ["hangover", "ˈhɛŋoːvə"],  // Originally 'something left over'; the drinking sense dates from the early 20th century.
+    no: ["bakrus", "ˈbɑːkrʉːs"],  // Literally 'back-intoxication': Bokmålsordboka defines it as the after-effect of a rus (intoxication); fyllesyke 'drunk-sickness' is a synonym.
+    hr: ["mamurluk", "mamǔrluk"],  // Borrowed from Ottoman Turkish mahmurluk 'hangover'.
+    sr: ["мамурлук", "mamǔrluk"],  // Borrowed from Ottoman Turkish mahmurluk 'hangover'.
+    fa: ["خماری", "xomɒːˈɾiː"],  // From Arabic xumār 'after-effect of drink'; Dehkhoda defines it as the illness that follows drinking too much wine (formal synonym می‌زدگی 'wine-struckness').
+    tg: ["хуморӣ", "χumori"],  // From Arabic-Persian xumār 'after-effect of drink'; in colloquial speech the Russian loan бодун is also used (Tajik Wikipedia).
+    hi: ["हैंगओवर", "ɦɛːŋɡoːʋəɾ"],  // A loan of English hangover, used as the title of Hindi Wikipedia's article; the Delhi word भंड is regional.
+    az: ["xumarlıq", "xumɑɾˈlɯx"],  // From xumar (Arabic-Persian xumār 'after-effect of drink') + -lıq; the Russian loan paxmel is colloquial and proscribed.
+    yue: ["宿醉", "sʊk˥ tsɵy˧"],  // Literally 'overnight drunkenness' (宿 'stay the night' + 醉 'drunk').
+    zu: ["ibhabhalazi", "ibabaˈlazi"],  // The source of South African English and Afrikaans babalaas 'hangover'.
   },
 };

@@ -180,6 +180,11 @@ const DECISIONS = [
         what: 'Time Map labels are sans-serif: no Noto Serif JP/SC/KR in .tm-script (owner 2026-10-21)',
         check: () => { const m = read('timemap.html').match(/\.tm-script \{ font-family:([^}]*)\}/); return !m || /Noto Serif (JP|SC|KR)/.test(m[1]) ? ['timemap.html'] : []; },
     },
+    {
+        id: 'only-mode-no-ring',
+        what: 'With Only on, compared labels show no amber ring on the Word Map and the Han Map (owner 2026-08-30 / 2026-10-21)',
+        check: () => ['wordmap.html', 'hanmap.html'].filter((f) => !/body\.only-compare \.lang-label\.in-compare:not\(\.selected\)[\s\S]{0,300}box-shadow: none/.test(read(f))),
+    },
 ];
 
 let problems = 0;

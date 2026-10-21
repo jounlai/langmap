@@ -1006,6 +1006,22 @@
             box-shadow: 0 0 0 1px rgba(74,108,247,0.85),
                         0 0 0 3px rgba(245, 166, 35, 0.95);
         }
+        /* Only toggle on: every label IS the comparison set, so the amber ring
+           distinguishes nothing (owner 2026-08-30 for the Word Map, 2026-10-21
+           for the Han Map). The blue `selected` state still shows. */
+        body.only-compare .lang-label.in-compare:not(.selected),
+        body.only-compare .globe-label.in-compare:not(.selected) {
+            background: none;
+            padding: 0;
+            box-shadow: none;
+        }
+        body.only-compare .lang-label.selected.in-compare,
+        body.only-compare .globe-label.selected.in-compare {
+            box-shadow: 0 2px 10px rgba(0,0,0,0.22), 0 0 0 1px rgba(74,108,247,0.6);
+        }
+        body.is-3d.only-compare .globe-label.selected.in-compare {
+            box-shadow: 0 0 0 1px rgba(74,108,247,0.85);
+        }
         /* Connector — drawn ABOVE the info modal (z-index 1011 vs panel
            1010) so the line visibly terminates on the panel surface
            rather than sliding behind it. A small filled circle at the

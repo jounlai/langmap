@@ -189,6 +189,38 @@ WORDS.milkyway = {
     os: "unknown",
     sw: "road",
     en_us: "milk",
+    fa: "milk",
+    wuu: "river",
+    ta: "milk",
+    cjy: "river",
+    nan: "river",
+    hak_cn: "river",
+    gan: "river",
+    hsn: "river",
+    cdo: "river",
+    mnp: "river",
+    ku: "straw",
+    ckb: "milk",
+    sq: "milk",
+    ht: "milk",
+    zu: "unknown",
+    xh: "other",
+    qu: "river",
+    no: "milk",
+    nds: "milk",
+    bar: "milk",
+    kn: "milk",
+    ml: "river",
+    or: "river",
+    ne: "river",
+    kab: "river",
+    gn: "road",
+    azb: "straw",
+    min: "other",
+    ilo: "other",
+    ha: "road",
+    am: "milk",
+    ny: "other",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -321,5 +353,37 @@ WORDS.milkyway = {
     os: ["Ӕрфӕныфӕд", "ærfænɨfæd"],  // The name ends in фӕд 'track, trace'; a folk variant is Саг ӕмӕ галы фӕд, 'the track of the deer and the ox'.
     sw: ["Njia Nyeupe", "ˈndʒia ɲeˈupe"],  // Literally 'the white road'; the title of the Swahili Wikipedia article.
     en_us: ["Milky Way", "ˈmɪlki weɪ"],  // A calque of Latin Via Lactea 'milky road', itself from Greek galaxías 'milky (circle)'.
+    fa: ["راه شیری", "ɾɒːhe ʃiːɾiː"],  // Literally 'the milky road', probably a calque of French Voie lactée; the older Persian name کهکشان ('straw-drawer') now means any galaxy.
+    wuu: ["银河", "ɲin˨˧ ɦu˨˧"],  // Literally 'silver river'; older Shanghainese speakers also said 天河 'sky river'.
+    ta: ["பால் வழி", "paːl ʋaɻi"],  // Literally 'milk way', a calque of English; Tamil also has ஆகாசகங்கை 'the Ganges of the sky'.
+    cjy: ["天河", "tʰiɛ˩ xɤ˩"],  // Literally 'sky river', the name recorded for Taiyuan, Datong, Xinzhou and Changzhi alike.
+    nan: ["河溪", "ho˨˦ kʰe˦˦"],  // Literally 'river-stream'; Taipei speakers say hô-khoe, and 銀河 and 天河 are also used.
+    hak_cn: ["天河", "tʰiɛn˦ ho˩˩"],  // Literally 'sky river'; Meixian Hakka also says 河溪 'river-stream' and 銀河 'silver river'.
+    gan: ["天河", "tʰiɛn˦˨ ho˨˦"],  // Literally 'sky river'.
+    hsn: ["天河", "tʰiẽ˧˧ xo˩˧"],  // Literally 'sky river', the name recorded across Changsha, Loudi and Shuangfeng.
+    cdo: ["天河", "tʰieŋ˥˥ o˥˧"],  // Literally 'sky river'; it is the title of the Eastern Min Wikipedia article, which also gives 銀河 and 銀漢.
+    mnp: ["天河", "tʰiŋ˥˦ ɔ˨˩"],  // Literally 'sky river'.
+    ku: ["Kadiz", "kɑːˈdɪz"],  // Literally 'the straw thief' (ka 'straw' + diz 'thief'), the same story as Persian kahkashān and Turkish Samanyolu; also called Riya Kadizê 'the straw thief's road'.
+    ckb: ["ڕێگای شیری", "reːɡaːj ʃiːɾiː"],  // Literally 'the milky road'; Sorani also has the older names کادز 'straw thief' and ڕێی کاکێشان 'the straw-dragger's road'.
+    sq: ["Rruga e Qumështit", "ruɡa ɛ cuməʃtit"],  // Literally 'the road of milk', a translation of Latin via lactea; the folk name Kashta e Kumtrit means 'the godfather's straw'.
+    ht: ["Vwa lakte", "vwa lakte"],  // From French Voie lactée 'milky way'.
+    zu: ["umZilafasimbe", "umzilafaˈsimbe"],  // The standard isiZulu name; the term list says it is also called umthala in traditional speech, and the traditional sky lore calls it Umthala Wezinkanyezi 'the stream of stars'.
+    xh: ["umNyele", "umɲele"],  // The raised bristles along the back of the sky, like those of an angry dog; children were told the dog would rise if they pointed at the sky with a straight finger.
+    qu: ["Mayu", "ˈmaju"],  // Literally 'river', the Andean name that pairs the sky river with the Vilcanota on earth; Quechua Wikipedia uses the coinage Qullqaquyllur.
+    no: ["Melkeveien", "ˈmɛlkəvæɪən"],  // Literally 'the milk way'; Nynorsk has Mjølkevegen and the older Vintergata 'winter street'.
+    nds: ["Melkstraat", "ˈmɛlkstraːt"],  // Literally 'milk street', like German Milchstraße.
+    bar: ["Muichstrossn", "muiçʃtrosn"],  // Literally 'milk street', a translation of Latin via lactea.
+    kn: ["ಕ್ಷೀರಪಥ", "kʂiːrapat̪ʰa"],  // Literally 'the milk path', from Sanskrit kṣīra 'milk' + patha 'path'; Kannada also says ಆಕಾಶಗಂಗೆ 'the sky Ganges'.
+    ml: ["ആകാശഗംഗ", "aːkaːʃaɡaŋɡa"],  // Literally 'the sky Ganges', from Sanskrit ākāśagaṅgā; ക്ഷീരപഥം 'milk path' is also used.
+    or: ["ଆକାଶଗଙ୍ଗା", "aːkaːsɔɡɔŋɡaː"],  // Literally 'the sky Ganges', from Sanskrit ākāśagaṅgā.
+    ne: ["आकाशगङ्गा", "aːkaːsɡəŋɡaː"],  // Literally 'the sky Ganges', from Sanskrit ākāśagaṅgā.
+    kab: ["Asif n igenwan", "asif n iɡənwan"],  // Literally 'the river of the skies', the name used by Kabyle Wikipedia.
+    gn: ["Mborevi Rape", "mboɾeʋi ɾape"],  // Literally 'the tapir's path', the old Tupi-Guarani name also recorded as Tapekue.
+    azb: ["سامان یولو", "sɑmɑn joˈlu"],  // Literally 'the straw road'; South Azerbaijani Wikipedia also gives سود یولو 'milk road' and آغ یول 'white road'.
+    min: ["Bima Sakti", "bima sakti"],  // The Indonesian name, after the hero Bima of the Mahabharata; Minangkabau Wikipedia uses it as its title.
+    ilo: ["Ariwanas", "ʔaɾiˈwanas"],  // A native Ilocano word, compare Isneg Ariwanat and Kankanaey Aggiwanas; Tagalog borrowed it as Ariwanas.
+    ha: ["hanya", "hanjaː"],  // Literally 'the road'; Bargery's dictionary also records hanyar Maka 'the road to Mecca'.
+    am: ["የወተት ጎዳና", "jəwətət ɡodanːa"],  // Literally 'the road of milk'; Amharic also uses the English loan ሚልኪ ዌይ and the Ge'ez ፍኖተ ሀሊብ 'path of milk'.
+    ny: ["chilimira", "tʃilimiɾa"],  // Inherited from a Proto-Bantu word for the Pleiades; gwalalanjovu, mlerang'amba and mbalang'amba are synonyms.
   },
 };

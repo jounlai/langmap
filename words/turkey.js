@@ -277,6 +277,16 @@ WORDS.turkey = {
     nan_zz: "local",
     nan_pn: "local",
     nan_ph: "local",
+    da: "india",
+    no: "india",
+    gu: "turkey",
+    jv: "india",
+    ku: "unknown",
+    ha: "local",
+    wuu: "local",
+    cdo: "local",
+    kab: "india",
+    kn: "turkey",
   },
   routes: {
     india: {"color":"#ea580c","emoji":"🐘","en":"named for India · the Indies","ja":"インドの名で","ko":"인도의 이름으로","zh":"以印度为名","yue":"以印度為名","vi":"theo tên Ấn Độ","th":"ตั้งตามอินเดีย","id":"dinamai India","hi":"भारत के नाम पर","de":"nach Indien benannt","fr":"nommé d'après l'Inde","it":"dal nome dell'India","es":"por la India","pt":"pelo nome da Índia","ru":"по Индии","uk":"за Індією","ar":"باسم الهند","he":"על שם הודו","sw":"kwa jina la India"},
@@ -495,5 +505,15 @@ WORDS.turkey = {
     nan_zz: ["火雞", "hue˥˧ ke˦˦"],  // Literally "fire chicken".
     nan_pn: ["火雞", "hue˦˦˥ ke˧˧"],  // Literally "fire chicken".
     nan_ph: ["火雞", "he˥˥˦ kue˧˧"],  // Literally "fire chicken".
+    da: ["kalkun", "kalˈkuˀn"],  // From Middle Low German kalekutisch hun, originally "hen from Calicut" in southern India (Den Danske Ordbog).
+    no: ["kalkun", "kɑlˈkʉːn"],  // From Low German kalkun / Dutch kalkoen, originally "hens from Calicut" (now Kozhikode) in India (Det Norske Akademis ordbok).
+    gu: ["ટર્કી", "ʈəɾkiː"],  // Borrowed from English turkey, often with મરઘું "hen" added (GujaratiLexicon).
+    jv: ["kalkun", "kalkun"],  // From Dutch kalkoen, named after the Indian port of Calicut (Kozhikode), via Indonesian; Javanese also has kalkul.
+    ku: ["elok", "ɛˈloːk"],  // Kurmanji Wikipedia lists many regional names for the bird, among them şamî, cilûx, coqcoq, çûlik and eloşîş.
+    ha: ["talotalo", "tàlótàló"],  // Probably imitative of the bird’s call (Wiktionary); the word spread from Hausa to Yoruba tòlótòló and other Nigerian languages.
+    wuu: ["火鸡", "hu˧˥ tɕi˥˧"],  // Literally "fire chicken", the same word as Standard Chinese 火鸡; IPA gives citation tones, not Shanghainese compound sandhi.
+    cdo: ["火鸡", "hui˧˧ kie˥˥"],  // Literally "fire chicken", the same word as Standard Chinese 火鸡 (Fuzhou huōi-giĕ); IPA gives citation tones, not Fuzhou sandhi.
+    kab: ["ayaziḍ n lhend", "ajazidˤ n lhənd"],  // Literally "rooster of India" (Wiktionary, citing Dallet 1982).
+    kn: ["ಟರ್ಕಿಕೋಳಿ", "ʈarkikoːɭi"],  // English turkey plus ಕೋಳಿ "hen, chicken" (Alar Kannada-English dictionary).
   },
 };

@@ -205,6 +205,7 @@
         if (!prev || score > prev.score) b[code] = { score: score, date: new Date().toISOString().slice(0, 10) };
         try { localStorage.setItem(STORE, JSON.stringify(b)); } catch (e) {}
         var bt = document.getElementById('master-open'); if (bt) bt.title = pk(T.tag) + ' · 🏅 ' + Object.keys(b).length;
+        try { window.dispatchEvent(new Event('lm-master-change')); } catch (e) {}   // map medals
         // Repaint the language panel's invitation card, if it is open for this language.
         try {
             var card = document.querySelector('.lm-master-try[data-master="' + (window.CSS ? CSS.escape(code) : code) + '"]');

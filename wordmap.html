@@ -1938,6 +1938,7 @@
         .lm-master-try.got { border-style: solid; border-color: #9fd6b8; background: #eef9f3; color: #0d5c3f; }
         .lm-master-try.got .lm-mt-go { color: #0d7a55; border-color: #9fd6b8; }
         .lm-mt-medal { font-size: 20px; flex: none; }
+        .lang-label .lm-map-medal { width: 1em; height: 1em; vertical-align: -0.15em; margin-inline-end: 2px; }
         .lm-mt-txt { flex: 1; display: flex; flex-direction: column; gap: 1px; font-size: 11.5px; line-height: 1.35; }
         .lm-mt-txt b { font-size: 12.5px; }
         .lm-mt-go { flex: none; font-size: 12px; font-weight: 700; color: #8a5a00; border: 1px solid #e6c77a; border-radius: 999px; padding: 3px 10px; background: #fff; white-space: nowrap; }
@@ -6273,6 +6274,17 @@
             return b;
         }
         window.__rowLangAttr = rowLangAttr;
+        // The set of mastered languages (Language Master, localStorage), read once
+        // and refreshed when a badge is earned (master.js fires lm-master-change).
+        let _lmMastered = null;
+        function lmMastered() {
+            if (_lmMastered) return _lmMastered;
+            let b = {}; try { b = JSON.parse(localStorage.getItem('lm_master_v1') || '{}') || {}; } catch (_) {}
+            return (_lmMastered = new Set(Object.keys(b)));
+        }
+        const LM_MAP_MEDAL = '<svg class="lm-map-medal" viewBox="0 0 20 20" aria-hidden="true"><path fill="#d64545" d="M6 1h3l2 6H8zM11 1h3l-2 6H9z"/><circle cx="10" cy="12.5" r="5.6" fill="#f4c430" stroke="#c99a06" stroke-width="1.2"/><path fill="#fff6cf" d="M10 9.4l.9 1.9 2 .2-1.5 1.3.5 2-1.9-1.1-1.9 1.1.5-2-1.5-1.3 2-.2z"/></svg>';
+        window.addEventListener('lm-master-change', () => { _lmMastered = null; try { if (typeof currentWord !== 'undefined' && currentWord) updateMarkers(currentWord); } catch (_) {} });
+        window.addEventListener('storage', (e) => { if (e.key === 'lm_master_v1') { _lmMastered = null; try { updateMarkers(currentWord); } catch (_) {} } });
         function buildLabelHtml(code, word, ipa, displayName, descColor, cssClass) {
             const isVertical = VERTICAL_LANGS.has(code);
             const c = safeColor(descColor);
@@ -6311,8 +6323,9 @@
                 if (mng) html += `<div class="meaning" dir="auto">${escapeHtml(mng)}</div>`;
             }
             if (showName) {
-                // Language Master's map mode puts a medal on each mastered language.
-                const medal = (window.__lmMedals && window.__lmMedals.has(code)) ? '🏅 ' : '';
+                // Mastered languages always carry a small gold medal on the map
+                // (owner 2026-10-22); Language Master's map mode adds its own set.
+                const medal = ((window.__lmMedals && window.__lmMedals.has(code)) || lmMastered().has(code)) ? LM_MAP_MEDAL : '';
                 html += `<div class="name" dir="auto" ${c ? `style="color:${c}"` : ''}>${medal}${n}</div>`;
                 // Historical languages carry meta.period ("~700 BCE–600 CE"): show
                 // it as a second name line so the label reads name-over-period.
@@ -13185,7 +13198,7 @@
          text/plain (not fetched at first paint, as hanmap_trivia.js is) and
          injected the first time the game opens. The stub below only labels
          the launcher and loads the module on demand. -->
-    <script type="text/plain" id="master-src" src="master.js?v=28"></script>
+    <script type="text/plain" id="master-src" src="master.js?v=29"></script>
     <script>
     (function () {
         'use strict';

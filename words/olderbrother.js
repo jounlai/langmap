@@ -329,6 +329,24 @@ WORDS.olderbrother = {
     ani: "plain",
     rut: "plain",
     khv: "plain",
+    th_isan: "age",
+    xh: "age",
+    ff: "age",
+    ln: "age",
+    am: "plain",
+    fa: "plain",
+    cjy: "age",
+    hsn: "age",
+    gan: "age",
+    mnp: "age",
+    cnp: "age",
+    sn: "age",
+    rn: "age",
+    rw: "age",
+    st: "age",
+    gn: "age",
+    af: "plain",
+    bm: "age",
   },
   routes: {
     age: {"color":"#db2777","emoji":"👆","en":"a word just for an older brother","ja":"兄だけを指す語","ko":"형만 가리키는 낱말","zh":"专指哥哥的词","yue":"專指哥哥嘅詞","vi":"từ riêng cho anh","th":"คำเฉพาะสำหรับพี่ชาย","id":"kata khusus untuk kakak","hi":"बड़े भाई का अलग शब्द","de":"eigenes Wort für den älteren Bruder","fr":"un mot propre au frère aîné","it":"una parola solo per il fratello maggiore","es":"una palabra solo para el hermano mayor","pt":"uma palavra só para o irmão mais velho","ru":"отдельное слово для старшего брата","uk":"окреме слово для старшого брата","ar":"كلمة خاصة بالأخ الأكبر","he":"מילה מיוחדת לאח הגדול","sw":"neno maalum kwa kaka mkubwa"},
@@ -599,5 +617,23 @@ WORDS.olderbrother = {
     ani: ["воцци", "wotsːi"],  // Andi has no separate word: an older brother is a 'big' воцци, a younger one a 'small' воцци.
     rut: ["шу", "ʃu"],  // Rutul has no separate word: an older brother is a кьухьды шу, 'big brother'.
     khv: ["эс", "es"],  // Khwarshi has no separate word: an older brother is an укъуса эс, 'big brother'.
+    th_isan: ["อ้าย", "ʔaːj˧˩"],  // Isan อ้าย is an older brother (เอื้อย an older sister); younger: น้อง.
+    xh: ["umkhuluwa", "umkʰuluːwa"],  // Xhosa umkhuluwa is an elder brother; younger: umninawa.
+    ff: ["mawniraaɗo", "mawniraːɗo"],  // Fula mawniraaɗo, from maw- 'big', is an elder sibling of either sex; younger: miñiraaɗo.
+    ln: ["yayá", "jajá"],  // Lingala yayá is an older sibling of either sex (yaya ya mobali for a brother); younger: léki.
+    am: ["ወንድም", "wəndɨmː"],  // Amharic has no separate word: an older brother is a ታላቅ ወንድም, 'elder brother'.
+    fa: ["برادر", "bæɾɒːˈdæɾ"],  // Standard Persian says برادر بزرگ 'big brother'; کاکا survives for an older brother only in southern dialects such as Shiraz.
+    cjy: ["哥哥", "kɤ˩ kɤ"],  // Taiyuan says 哥哥 or 哥 for an older brother.
+    hsn: ["哥哥", "ko˧˧ ko"],  // Changsha says 哥哥 or 老兄 for an older brother.
+    gan: ["兄", "ɕiaŋ˦˨"],  // Nanchang refers to an older brother as 兄, in a colloquial reading distinct from the 兄 of 兄弟, and addresses him as 哥哥.
+    mnp: ["哥仔", "kɔ˥˦ tsiɛ˨˩"],  // Jian'ou says 哥仔, with the noun suffix 仔, or 哥哥 for an older brother.
+    cnp: ["阿哥", "a˥˥ ko˥˧"],  // Nanning Pinghua says 阿哥 for an older brother, with the same 阿 prefix as 阿爸.
+    sn: ["mukoma", "mukoma"],  // Shona mukoma is an elder brother (an elder sister to a woman); younger: munin'ina.
+    rn: ["mukuru", "mukuɾu"],  // Kirundi mukuru, from -kuru 'senior', is a boy's older brother or a girl's older sister; younger: murumuna.
+    rw: ["mukuru", "mukuɾu"],  // Kinyarwanda mukuru is an older sibling of the same sex, so a man's older brother; younger: murumuna.
+    st: ["abuti", "abuti"],  // Sesotho abuti comes from Afrikaans ou boet 'old brother'; the older native word moholwane once meant any older sibling; younger: moena.
+    gn: ["tykeʼýra", "tɨkeˈʔɨɾa"],  // A man calls his older brother tykeʼýra (che rykeʼy 'my older brother') and his younger one tyvýra; a woman calls any brother kyvy.
+    af: ["broer", "brur"],  // Afrikaans has no separate word: an older brother is an ouboet, 'old brother'.
+    bm: ["kɔrɔkɛ", "kɔrɔkɛ"],  // Bambara kɔrɔkɛ is kɔrɔ 'elder sibling' plus kɛ 'male'; younger: dɔgɔkɛ.
   },
 };

@@ -1925,12 +1925,16 @@
         .compare-add-btn.added { background: #1a73e8; color: #fff; }
         .lm-master-try { display: flex; align-items: center; gap: 10px; width: 100%; box-sizing: border-box; margin: 12px 0 2px; padding: 8px 10px; border: 1px dashed #e6c77a; border-radius: 10px; background: #fffaf0; color: #6b5420; text-align: start; cursor: pointer; font: inherit; }
         .lm-master-try:hover { background: #fff3dc; }
-        .lm-master-pill { display: inline-flex; align-items: center; gap: 4px; margin: 6px 0 0 6px; padding: 3px 10px 3px 7px; min-height: 28px; border: 1px dashed #b9bec7; border-radius: 999px; background: #f6f7f9; color: #5f6368; font: inherit; font-size: 12px; cursor: pointer; vertical-align: middle; }
-        .lm-master-pill .lm-mp-medal { font-size: 15px; filter: grayscale(1); opacity: .45; }
-        .lm-master-pill:hover { background: #eef0f3; }
-        .lm-master-pill.got { border: 1px solid #e3b341; background: #fff6d6; color: #7a5600; font-weight: 600; }
-        .lm-master-pill.got .lm-mp-medal { filter: none; opacity: 1; }
-        .lm-master-pill.got:hover { background: #ffefbf; }
+        .lm-head-row { display: flex; align-items: center; gap: 6px; padding-right: 36px; margin: 0 0 2px; }
+        .lm-head-row h2 { margin: 0; padding-right: 0; min-width: 0; }
+        .lm-master-pill { flex: none; display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; margin: 0; padding: 0; border: 0; border-radius: 50%; background: none; cursor: pointer; }
+        .lm-master-pill:hover, .lm-master-pill:focus-visible { background: #f1f3f4; }
+        .lm-master-pill .lm-mp-rib { fill: #c7cbd1; }
+        .lm-master-pill .lm-mp-disc { fill: #eceef1; stroke: #b4b9c0; stroke-width: 1.2; }
+        .lm-master-pill .lm-mp-star { fill: #b4b9c0; }
+        .lm-master-pill.got .lm-mp-rib { fill: #d64545; }
+        .lm-master-pill.got .lm-mp-disc { fill: #f4c430; stroke: #c99a06; }
+        .lm-master-pill.got .lm-mp-star { fill: #fff6cf; }
         .lm-master-try.got { border-style: solid; border-color: #9fd6b8; background: #eef9f3; color: #0d5c3f; }
         .lm-master-try.got .lm-mt-go { color: #0d7a55; border-color: #9fd6b8; }
         .lm-mt-medal { font-size: 20px; flex: none; }
@@ -2288,6 +2292,8 @@
                 z-index: 1100;
             }
             .lang-info-panel h2 { padding-right: 56px; }
+            .lang-info-panel .lm-head-row { padding-right: 56px; }
+            .lang-info-panel .lm-head-row h2 { padding-right: 0; }
 
             /* Mobile credit watermark: flush against the bottom-LEFT
                corner. iOS Safari interprets env(safe-area-inset-bottom)
@@ -8655,8 +8661,9 @@
             const pk = m => m[uiLang] || m[uiLang.split('_')[0]] || m.en;
             let got = null; try { got = (JSON.parse(localStorage.getItem('lm_master_v1') || '{}') || {})[code] || null; } catch (_) {}
             const t = pk(got ? L.yes : L.no);
-            return `<button type="button" class="lm-master-pill${got ? ' got' : ''}" data-master="${escapeHtml(code)}" aria-label="${escapeHtml(t)}">`
-                + `<span class="lm-mp-medal" aria-hidden="true">🏅</span><span class="lm-mp-txt">${escapeHtml(t)}</span></button>`;
+            // Icon only: a small medal after the name, grey until earned, gold after.
+            return `<button type="button" class="lm-master-pill${got ? ' got' : ''}" data-master="${escapeHtml(code)}" aria-label="${escapeHtml(t)}" title="${escapeHtml(t)}">`
+                + `<svg viewBox="0 0 20 20" width="20" height="20" aria-hidden="true"><path class="lm-mp-rib" d="M6 1h3l2 6H8zM11 1h3l-2 6H9z"/><circle class="lm-mp-disc" cx="10" cy="12.5" r="5.6"/><path class="lm-mp-star" d="M10 9.4l.9 1.9 2 .2-1.5 1.3.5 2-1.9-1.1-1.9 1.1.5-2-1.5-1.3 2-.2z"/></svg></button>`;
         };
         window.__lmMasterCard = function (code) {
             const T = {
@@ -9293,7 +9300,7 @@
             const names = LANG_NAMES[uiLang] || LANG_NAMES.en || {};
             const displayName = names[code] || lang.name;
             // All data values escaped (per wordmap-check-4.md §5).
-            let html = `<h2 id="lang-info-heading">${escapeHtml(displayName)}</h2>`;
+            let html = `<div class="lm-head-row"><h2 id="lang-info-heading">${escapeHtml(displayName)}</h2>${window.__lmMasterPill ? window.__lmMasterPill(code) : ''}</div>`;
             { const _lg = window.__rowLangAttr ? window.__rowLangAttr(code) : ''; html += `<div class="native-name"><span class="wm-form" dir="auto"${_lg ? ` lang="${_lg}"` : ''}>${escapeHtml(lang.native)}</span> [${escapeHtml(code)}]</div>`; }
             // Audit Task 216: Compare button placed inline under native-name
             // (was previously absolute top-right or duplicated at bottom).
@@ -9304,7 +9311,6 @@
                 const cls = inCmp ? 'compare-add-btn added' : 'compare-add-btn';
                 html += `<button type="button" class="${cls}" data-code="${escapeHtml(code)}" title="${escapeHtml(compareT('hint'))}">${escapeHtml(lbl)}</button>`;
             })();
-            html += window.__lmMasterPill ? window.__lmMasterPill(code) : '';
             // (The custom-goods "make a T-shirt" hand-off is no longer a small
             // button here — it's an image promo card appended at the BOTTOM of
             // the modal, and only on the canonical production host. See the

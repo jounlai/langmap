@@ -99,7 +99,8 @@ const ROOT = path.join(__dirname, '..');
 /** Cells needing a `family` value, which lives outside the [surface, ipa]
  *  pair this tool copies. See the route marker note in wordmap_data.js. */
 const ROUTE = new Set(['bear', 'wine', 'we', 'foot', 'tea', 'orange',
-    'sugar', 'coffee', 'blue', 'n99']);
+    'sugar', 'coffee', 'blue', 'n99',
+    'turkey', 'potato', 'mobilephone', 'ladybird', 'milkyway', 'rainbow', 'thumb', 'yesterday', 'olderbrother']);
 
 /** Characters that carry no phonetic content and so cannot be a locus. */
 const NOISE = new Set([' ', '/', '-', 'ˈ', 'ˌ', '.']);

@@ -67,7 +67,8 @@ const ROOT = path.join(__dirname, '..');
 
 /** Cells needing a `family` value this tool cannot supply. */
 const ROUTE = new Set(['bear', 'wine', 'we', 'foot', 'tea', 'orange',
-    'sugar', 'coffee', 'blue', 'n99']);
+    'sugar', 'coffee', 'blue', 'n99',
+    'turkey', 'potato', 'mobilephone', 'ladybird', 'milkyway', 'rainbow', 'thumb', 'yesterday', 'olderbrother']);
 
 /** parent token -> child token, where the row is unanimous. */
 function learnPair(child, parent) {

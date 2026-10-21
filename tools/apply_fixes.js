@@ -52,7 +52,8 @@ const path = require('path');
 const ROOT = path.join(__dirname, '..');
 
 const ROUTE = new Set(['bear', 'wine', 'we', 'foot', 'tea', 'orange', 'sugar',
-    'coffee', 'blue', 'n99']);
+    'coffee', 'blue', 'n99',
+    'turkey', 'potato', 'mobilephone', 'ladybird', 'milkyway', 'rainbow', 'thumb', 'yesterday', 'olderbrother']);
 
 const file = process.argv[2];
 const dry = process.argv.includes('--dry');

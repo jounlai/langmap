@@ -248,6 +248,44 @@ WORDS.thumb = {
     av: "unknown",
     os: "unknown",
     arn: "big",
+    ur: "plain",
+    ta: "big",
+    ml: "mother",
+    so: "plain",
+    kn: "unknown",
+    pnb: "plain",
+    skr: "plain",
+    zu: "plain",
+    mg: "big",
+    ky: "other",
+    tt: "other",
+    uz: "other",
+    tk: "unknown",
+    sd: "plain",
+    ne: "other",
+    ps: "big",
+    or: "other",
+    as: "other",
+    anp: "plain",
+    bho: "plain",
+    wuu: "big",
+    cjy: "big",
+    hsn: "big",
+    cdo: "big",
+    bar: "plain",
+    hr: "plain",
+    sr: "plain",
+    no: "plain",
+    ug: "other",
+    azb: "other",
+    tg: "other",
+    lo: "big",
+    ilo: "plain",
+    sn: "plain",
+    rw: "plain",
+    am: "unknown",
+    sat: "other",
+    gn: "big",
   },
   routes: {
     mother: {"color":"#db2777","emoji":"👪","en":"mother · parent · elder kin","ja":"母・親・年長の身内","ko":"어머니 · 어버이 · 웃어른","zh":"母亲・父母・长辈","yue":"阿媽 · 父母 · 長輩","vi":"mẹ · cha mẹ · bậc trên","th":"แม่ · พ่อแม่ · ญาติผู้ใหญ่","id":"ibu · orang tua · kerabat tua","hi":"माँ · माता-पिता · बड़े","de":"Mutter · Eltern · ältere Verwandte","fr":"mère · parent · aîné","it":"madre · genitore · parente anziano","es":"madre · padre · pariente mayor","pt":"mãe · pai · parente mais velho","ru":"мать · родитель · старший родич","uk":"мати · батько · старший родич","ar":"أم · والد · قريب أكبر","he":"אם · הורה · קרוב מבוגר","sw":"mama · mzazi · ndugu mkubwa"},
@@ -440,5 +478,43 @@ WORDS.thumb = {
     av: ["буртӏинкилищ", "burtʼinkiliʃː"],  // Ends in килищ 'finger'; the first element is not explained in the sources, and dialects say кӏудаб гилищ 'big finger'.
     os: ["хистӕр ӕнгуылдз", "xistær ænɡʷɨldz"],  // The second word is ӕнгуылдз 'finger'; the sense of хистӕр here was not checked in a dictionary.
     arn: ["fütra changüll kuwü", "fɨʈʂa tʃaŋɨʎ kuwɨ"],  // Literally 'big finger of the hand', fütra 'big' + changüll 'finger' + kuwü 'hand' (WOLD).
+    ur: ["انگوٹھا", "əŋɡuːʈʰaː"],  // Inherited from Sanskrit aṅguṣṭha 'thumb, big toe'; the same word also names the big toe.
+    ta: ["பெருவிரல்", "peɾuʋiɾal"],  // Literally 'big finger' (peru 'big' + viral 'finger'); it also names the big toe, and kaṭṭaiviral is a common synonym.
+    ml: ["തള്ളവിരൽ", "t̪aɭːaʋiɾal"],  // Literally 'mother finger' (taḷḷa 'mother' + viral 'finger'), listed under the Dravidian word for mother in the Dravidian Etymological Dictionary; it also names the big toe.
+    so: ["suul", "suːl"],  // Also names the big toe; inherited from a Proto-Cushitic word for 'claw', whose cognates mean 'toe' or 'fingernail' in neighbouring languages.
+    kn: ["ಹೆಬ್ಬೆರಳು", "hebːeɾaɭu"],  // Ends in beraḷu 'finger'; the same word also names the big toe.
+    pnb: ["انگوٹھا", "əŋɡuːʈʰaː"],  // Inherited from Sanskrit aṅguṣṭha; it also names the big toe.
+    skr: ["انگوٹھا", "əŋɡuːʈʰaː"],  // Inherited from Sanskrit aṅguṣṭha 'thumb'.
+    zu: ["isithupha", "isitʰupʰa"],  // The same word also means 'six'.
+    mg: ["ankibe", "aŋˈkibe"],  // Literally 'big finger' (anky 'finger' + be 'big'); the Malagasy definition also covers the big toe.
+    ky: ["баш бармак", "bɑʃ bɑrmɑq"],  // Literally 'head finger' (баш 'head' + бармак 'finger'), as in the other Turkic languages.
+    tt: ["баш бармак", "bɑʃ bɑrmɑq"],  // Literally 'head finger' (баш 'head' + бармак 'finger'); the 👍 emoji is called баш бармак өстә 'thumb up'.
+    uz: ["bosh barmoq", "bɒʃ barmɒq"],  // Literally 'head finger' (bosh 'head' + barmoq 'finger'), as in the other Turkic languages.
+    tk: ["başam barmak", "baʃam baɾmak"],  // barmak is 'finger'; the first element başam is not explained in the sources, and the shorter baş barmak is also seen.
+    sd: ["آڱوٺو", "aːŋuːʈʰoː"],  // Inherited from Sanskrit aṅguṣṭha 'thumb'; it also names the big toe.
+    ne: ["बूढी औंला", "buɽi ʌũlaː"],  // Literally 'old-woman finger' (बूढी 'old woman' + औंला 'finger'); the big toe is 'the old-woman finger of the foot'.
+    ps: ["غټه ګوته", "ɣaʈa ɡuta"],  // Literally 'big finger' (ǧaṭa 'big' + gúta 'finger'); it also names the big toe.
+    or: ["ବୁଢ଼ା ଆଙ୍ଗୁଠି", "buɽʱaː aːŋɡuʈʰi"],  // Literally 'old finger' (buṛhā 'old' + āṅguṭhi 'finger'), matching Sanskrit vṛddhāṅguṣṭha; it also names the big toe.
+    as: ["বুঢ়া আঙুলি", "buɹa aŋuli"],  // Literally 'old finger' (বুঢ়া 'old' + আঙুলি 'finger'), like Bengali buṛo aṅul and Odia buṛhā āṅguṭhi.
+    anp: ["अंगूठा", "əŋɡuːʈʰaː"],  // From Sanskrit aṅguṣṭha 'thumb', like Hindi aṅgūṭhā.
+    bho: ["अंगूठा", "əŋɡuːʈʰaː"],  // From Sanskrit aṅguṣṭha 'thumb'; with पैर के 'of the foot' it names the big toe.
+    wuu: ["大节头", "du˨˧ tɕiɪʔ˥ dɤ˨˧"],  // Literally 'big finger-joint' (大 'big' + 节头 'finger', Shanghainese 节头 = finger).
+    cjy: ["大拇指头", "ta˦˥ məʔ˦ tsəʔ˨ tʰəu˩"],  // Literally 'big thumb-finger', 大 'big' + 拇 'thumb' + 指头 'finger'; Taiyuan reads 拇 with a glottal stop, məʔ.
+    hsn: ["大指脑", "tai˨˩ tʂɻ̩˨˦ lau˦˩"],  // Literally 'big finger-head' (大 'big' + 指 'finger' + 脑 'head'); it also names the big toe, and 大指拇 is also used in Changsha.
+    cdo: ["大拇拇", "tuai˨˦˨ mo˥˥ mo˥˥"],  // Literally 'big thumb-thumb' (大 'big' + doubled 拇 'thumb'); 大拇哥 'big thumb-brother' and 大指 are also heard in Fuzhou.
+    bar: ["Daam", "daːm"],  // Inherited from Middle High German dūme, the same word as German Daumen and English thumb.
+    hr: ["palac", "pâlats"],  // Inherited from Proto-Slavic *palьcь; it was also an old unit of length, about an inch.
+    sr: ["палац", "pâlats"],  // Inherited from Proto-Slavic *palьcь; it was also an old unit of length, about an inch.
+    no: ["tommel", "ˈtɔmːəl"],  // From Old Norse þumall; tommelfinger 'thumb-finger' is also common.
+    ug: ["باش بارماق", "bɑʃ bɑrmɑq"],  // Literally 'head finger' (باش 'head' + بارماق 'finger'), as in the other Turkic languages.
+    azb: ["باش بارماق", "bɑʃ bɑɾmɑɣ"],  // Literally 'head finger' (باش 'head' + بارماق 'finger'), as in North Azerbaijani baş barmaq.
+    tg: ["сарангушт", "saranɡuʃt"],  // Literally 'head finger' (сар 'head' + ангушт 'finger'); нарангушт 'male finger' is also used.
+    lo: ["ນິ້ວໂປ້", "niw˥˨ poː˥˨"],  // Literally 'big finger' (ນິ້ວ 'finger' + ໂປ້ 'big'); it also names the big toe, and ນິ້ວແມ່ມື 'mother of the hand' is an alternative.
+    ilo: ["tangan", "taˈŋan"],  // Also names the big toe; it is the same word as Malay tangan 'hand', narrowed to the thumb.
+    sn: ["chara", "tʃara"],  // The short, thick finger that closes against all the others, as Shona Wikipedia describes it.
+    rw: ["igikumwe", "iɡikumwe"],  // Kinyarwanda Wikipedia describes it as the biggest of the fingers (urutoki).
+    am: ["አውራ ጣት", "awra tʼat"],  // ጣት is 'finger'; the first element አውራ was not checked in a dictionary.
+    sat: ["ᱦᱟᱲᱟᱢ ᱠᱟᱹᱴᱩᱵ", "haɽam kəʈub"],  // Literally 'old finger' (haṛam 'old' + kaṭub 'finger'), like Bengali buṛo aṅul and Odia buṛhā āṅguṭhi.
+    gn: ["kuãngusu", "kʷãŋɡuˈsu"],  // Literally 'big finger' (kuã 'finger' + guasu 'big').
   },
 };

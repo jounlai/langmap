@@ -441,6 +441,71 @@ WORDS.yesterday = {
     tiv: "distinct",
     kg: "distinct",
     rif: "distinct",
+    bem: "same",
+    bci: "distinct",
+    bom: "distinct",
+    bqi: "distinct",
+    bxk: "distinct",
+    glk: "distinct",
+    gor: "distinct",
+    haz: "distinct",
+    iba: "distinct",
+    kam: "distinct",
+    kbp: "distinct",
+    luo: "distinct",
+    mzn: "distinct",
+    nbl: "distinct",
+    nut: "distinct",
+    srr: "distinct",
+    xnr: "same",
+    xog: "same",
+    zne: "same",
+    ach: "distinct",
+    bs: "distinct",
+    bej: "distinct",
+    efi: "same",
+    gbm: "distinct",
+    jam: "distinct",
+    kde: "distinct",
+    mak: "distinct",
+    mas: "distinct",
+    ay: "distinct",
+    hmn: "distinct",
+    doi: "same",
+    nyn: "distinct",
+    tem: "distinct",
+    sus: "distinct",
+    ban: "distinct",
+    myx: "distinct",
+    tum: "distinct",
+    kmb: "distinct",
+    srn: "distinct",
+    sid: "distinct",
+    sas: "distinct",
+    ssw: "distinct",
+    thr: "same",
+    pms: "distinct",
+    drs: "distinct",
+    tcy: "distinct",
+    ngl: "distinct",
+    max: "distinct",
+    abs: "distinct",
+    quc: "distinct",
+    toi: "distinct",
+    kbd: "distinct",
+    nd: "distinct",
+    ndc: "distinct",
+    ve: "distinct",
+    ljp: "distinct",
+    nag: "same",
+    seh: "distinct",
+    dag: "distinct",
+    tsg: "distinct",
+    czh: "distinct",
+    cpx: "distinct",
+    mnw: "distinct",
+    tig: "unknown",
+    dje: "distinct",
   },
   routes: {
     same: {"color":"#db2777","emoji":"🔁","en":"one word for yesterday and tomorrow","ja":"昨日と明日が同じ語","ko":"어제와 내일이 한 낱말","zh":"昨天和明天同一个词","yue":"尋日同聽日同一個詞","vi":"một từ cho hôm qua và ngày mai","th":"คำเดียวทั้งเมื่อวานและพรุ่งนี้","id":"satu kata untuk kemarin dan besok","hi":"बीते और आने वाले कल का एक शब्द","de":"ein Wort für gestern und morgen","fr":"un mot pour hier et demain","it":"una parola per ieri e domani","es":"una palabra para ayer y mañana","pt":"uma palavra para ontem e amanhã","ru":"одно слово для вчера и завтра","uk":"одне слово для учора й завтра","ar":"كلمة واحدة لأمس وغد","he":"מילה אחת לאתמול ולמחר","sw":"neno moja kwa jana na kesho"},
@@ -827,5 +892,70 @@ WORDS.yesterday = {
     tiv: ["nyen", "ɲen"],  // tomorrow: kper; nyen is close to nyian 'today'.
     kg: ["mazono", "mazono"],  // tomorrow: mbazi (also written mbasi).
     rif: ["ⵉⴹⴻⵏⵏⴰⴹ", "iðˤənːaðˤ"],  // tomorrow: ⵜⵉⵡⴻⵛⵛⴰ (tiwecca).
+    bem: ["mailo", "mailo"],  // tomorrow: mailo; Bemba uses one word for both days, and the Bible uses mailo for yesterday in Hebrews 13:8 and for tomorrow in Matthew 6:34.
+    bci: ["anunman", "anũmã"],  // tomorrow: ainman.
+    bom: ["nayos", "najos"],  // tomorrow: nahwol.
+    bqi: ["دوش", "duʃ"],  // tomorrow: صُوَ; Persian has دیروز and فردا instead.
+    bxk: ["likolooba", "likoloːβa"],  // tomorrow: muchuli (also busia in Matthew 6:34).
+    glk: ["دیروز", "diruz"],  // tomorrow: فردا; the Rasht and western Gilan Bible spells the word دیروج.
+    gor: ["olaango", "oˈlaːŋo"],  // tomorrow: loombu.
+    haz: ["دیروز", "diroz"],  // tomorrow: صباح; like Dari, Hazaragi uses Arabic-derived sabâh 'morning' for tomorrow.
+    iba: ["kemari", "kəmari"],  // tomorrow: pagila.
+    kam: ["ĩoo", "eɔː"],  // tomorrow: ũnĩ; also written ĩyoo.
+    kbp: ["ɖeɖe", "ɖeɖe"],  // tomorrow: cee.
+    luo: ["nyoro", "ɲoro"],  // tomorrow: kiny.
+    mzn: ["دیروز", "diruz"],  // tomorrow: فردا.
+    nbl: ["izolo", "izolo"],  // tomorrow: kusasa; the same words as Zulu izolo and kusasa.
+    nut: ["vằn và", "vən˨˩ vaː˨˩"],  // tomorrow: vằn chục; vằn is 'day'.
+    srr: ["faak", "faːk"],  // tomorrow: feet (o feet).
+    xnr: ["कल", "kal"],  // tomorrow: कल; as in Hindi, one word covers both days and context tells them apart.
+    xog: ["idho", "id̪o"],  // tomorrow: idho; one word for both days, with lya-idho as a specific 'yesterday' in one wordlist.
+    zne: ["gba", "ɡba"],  // tomorrow: gba; one word covers both days.
+    ach: ["laworo", "laworo"],  // tomorrow: diki.
+    bs: ["jučer", "ˈjutʃeːr"],  // tomorrow: sutra; jučer is from Proto-Slavic *vьčera 'yesterday evening', and Bosnian also uses the shorter juče.
+    bej: ["iru", "iru"],  // tomorrow: lhayt.
+    efi: ["mkpọñ", "m̩kpɔŋ"],  // tomorrow: mkpọñ; one word covers both days.
+    gbm: ["ब्यालि", "bjaːli"],  // tomorrow: भोल; the other Garhwali Bible spells the words ब्याळि and भोळ.
+    jam: ["yeside", "jeside"],  // tomorrow: tumaro; both from English, spelled in the Cassidy-JLU system used by this row.
+    kde: ["lido", "lido"],  // tomorrow: nundu.
+    mak: ["subangngi", "suˈbaŋːi"],  // tomorrow: ammuko; subangngi contains bangngi 'night'.
+    mas: ["ŋole", "ŋole"],  // tomorrow: taisere; the Bibles spell the word ng'ole.
+    ay: ["wasüru", "wasuːɾu"],  // tomorrow: qharüru; all three day words end in uru 'day'.
+    hmn: ["nag hmo", "na˧˩̤ m̥ɔ˧"],  // tomorrow: tag kis; nag hmo contains hmo 'night', and nag alone is also used.
+    doi: ["कल", "kəl"],  // tomorrow: कल; as in Hindi and Punjabi, one word serves both days.
+    nyn: ["nyomwabazyo", "ɲomwabazjo"],  // tomorrow: nyencakare.
+    tem: ["dis", "dis"],  // tomorrow: ninaŋ.
+    sus: ["xoro", "xoro"],  // tomorrow: tina.
+    ban: ["dibi", "dibi"],  // tomorrow: mani; dibi is the polite register used in the Bible text.
+    myx: ["ingoloobe", "iŋɡoloːbe"],  // tomorrow: kumukaamba.
+    tum: ["mayiro", "majiɾo"],  // tomorrow: machero.
+    kmb: ["mazá", "maza"],  // tomorrow: mungu.
+    srn: ["esde", "ˈesde"],  // tomorrow: tamara; esde is from English yesterday.
+    sid: ["beʼro", "beʔro"],  // tomorrow: ga'a.
+    sas: ["rubin", "rubin"],  // tomorrow: lémaq.
+    ssw: ["itolo", "itolo"],  // tomorrow: kusasa; itolo matches Zulu izolo.
+    thr: ["काल", "kaːl"],  // tomorrow: काल; one word serves both days in both Tharu varieties checked.
+    pms: ["ier", "jer"],  // tomorrow: douman (1835 spelling); ier is from Latin heri like Italian ieri.
+    drs: ["bereqe", "berekʼe"],  // tomorrow: soodo; Sidaama, its neighbour, says be'ro.
+    tcy: ["ಕೋಡೆ", "koːɖe"],  // tomorrow: ಎಲ್ಲೆ.
+    ngl: ["osilo", "osilo"],  // tomorrow: omelo.
+    max: ["kalamaring", "kalamariŋ"],  // tomorrow: beso; kalamaring is a form of Malay kelmarin, and beso of besok.
+    abs: ["kamareng", "kamareŋ"],  // tomorrow: eso; kamareng is a form of Malay kemarin, and eso of esok.
+    quc: ["iwir", "iwir"],  // tomorrow: chweꞌq.
+    toi: ["jilo", "dʒilo"],  // tomorrow: juunza.
+    kbd: ["дыгъуасэ", "dəʁʷaːsa"],  // tomorrow: пщэдей; compare Adyghe тыгъуасэ.
+    nd: ["izolo", "izolo"],  // tomorrow: kusasa; the same words as Zulu.
+    ndc: ["zuro", "zuro"],  // tomorrow: mangwana; Shona has nezuro and mangwana.
+    ve: ["mulovha", "mulovʱa"],  // tomorrow: matshelo.
+    ljp: ["nambi", "nambi"],  // tomorrow: jemoh.
+    nag: ["kali", "kali"],  // tomorrow: kali; as in Assamese kali, one word covers both days, with juwa 'gone' or ahha 'coming' added when needed.
+    seh: ["dzulo", "dzulo"],  // tomorrow: mangwana; Chichewa has dzulo and mawa.
+    dag: ["sɔhila", "sɔhila"],  // tomorrow: biɛɣu.
+    tsg: ["kahapun", "kahapun"],  // tomorrow: kunsum (Bible spelling kinsum); kahapun matches Tagalog kahapon.
+    czh: ["昨日", "tsʰo˩˩ ȵie˩˩"],  // tomorrow: 明日; Tunxi keeps the old pair 昨日 and 明日, while Jixi says 頭朝 and 明朝.
+    cpx: ["顶日", "tɛŋ˦˥˧ tiʔ˦"],  // tomorrow: 逢早; 顶日 literally 'the top (previous) day', and in Southern Min the same word means 'the day before yesterday'.
+    mnw: ["နူကနေံတေံ", "nṳ kəneʔ teʔ"],  // tomorrow: တ္ၚဲ ယး; in Thailand the word is shortened to နူကၞေံ.
+    tig: ["ማሌ", "male"],  // Compare ማሌ-ላሊ "last night", built with ላሊ "night".
+    dje: ["bi", "bi"],  // tomorrow: suba; bifo 'the day before yesterday' is built on bi.
   },
 };

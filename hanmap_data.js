@@ -4891,7 +4891,7 @@ const HAN_DATA = {
       "sjo": "muduri",
       "ko_mid": "ljoŋ˩",
       "ja_ojp": "riu",
-      "vi_ohan": "zawŋ͡m˨˩",
+      "vi_ohan": "zəwŋ͡m˨˩",
       "ko_kp": "ɾjoŋ",
       "pko": "*miɾ",
       "ptai": "*ŋɯək̚",

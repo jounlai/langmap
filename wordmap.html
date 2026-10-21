@@ -6765,16 +6765,32 @@
                 if (!window.__wmFirstDrawWait) {
                     window.__wmFirstDrawWait = true;
                     const go = () => { if (window.__wmFirstDrawOk) return; window.__wmFirstDrawOk = true; try { updateMarkers(currentWord); } catch (_) {} };
+                    // ...and for the label faces' Latin/IPA glyphs: label widths are
+                    // measured from the computed font, so a draw in the fallback face
+                    // packed in labels that the redraw after the webfont landed hid
+                    // again (owner 2026-10-22: 温州呉語 shown for an instant).
+                    let fontsOk = !(document.fonts && document.fonts.load);
+                    if (!fontsOk) {
+                        const lab = document.createElement('div'); lab.className = 'lang-label'; lab.style.cssText = 'position:absolute;visibility:hidden';
+                        document.getElementById('map').appendChild(lab);
+                        const fam = getComputedStyle(lab).fontFamily; lab.remove();
+                        const txt = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZəɛɔʃʒŋɪʊæˈː';
+                        Promise.all(['700 15px ', '400 10px '].map((w) => document.fonts.load(w + fam, txt)))
+                            .then(() => { fontsOk = true; }, () => { fontsOk = true; });
+                    }
                     // loadMeta lives in a later script block, so it may not exist
                     // yet: poll the loaded flag instead (the page starts the load).
                     const t0 = Date.now();
-                    const poll = () => { if (window._wmMetaLoaded || Date.now() - t0 > 2500) go(); else setTimeout(poll, 60); };
-                    try { if (window.__langmap && window.__langmap.loadMeta) window.__langmap.loadMeta().then(go, go); } catch (_) {}
+                    const poll = () => { if ((window._wmMetaLoaded && fontsOk) || Date.now() - t0 > 2500) go(); else setTimeout(poll, 60); };
+                    try { if (window.__langmap && window.__langmap.loadMeta) window.__langmap.loadMeta().then(null, go); } catch (_) {}
                     poll();
                 }
                 return;
             }
             window.__wmFirstDrawOk = true;
+            // What this draw laid out for: a moveend that lands on the very same
+            // view (the load fires one ~0.5 s after the first draw) need not redo it.
+            try { const _c = map.getCenter(), _s = map.getSize(); window.__wmDrawnView = [map.getZoom(), _c.lat.toFixed(5), _c.lng.toFixed(5), _s.x, _s.y, is3D ? 1 : 0].join(','); } catch (_) { window.__wmDrawnView = null; }
             // A label that has keyboard focus is rebuilt below: put focus back on its
             // new copy, or a redraw (Back, filter, word switch) dropped it to <body> (r26).
             const _focusCode = (() => { const a = document.activeElement; const l = a && a.closest && a.closest('#map .lang-label'); return l ? l.dataset.code : null; })();
@@ -8174,6 +8190,11 @@
             _zoomDrawnView = null;
             if (fresh) return;
             _panDebounceTimer = setTimeout(() => {
+                // Nothing moved since the last draw (the load's own pan ends just
+                // before the first draw): a second layout only reshuffled which
+                // labels win, so some flashed and vanished (owner 2026-10-22).
+                const _c = map.getCenter(), _s = map.getSize();
+                if (window.__wmDrawnView && window.__wmDrawnView === [map.getZoom(), _c.lat.toFixed(5), _c.lng.toFixed(5), _s.x, _s.y, is3D ? 1 : 0].join(',')) return;
                 try { updateMarkers(currentWord); } catch (_) {}
             }, 400);
         });

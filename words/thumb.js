@@ -286,6 +286,22 @@ WORDS.thumb = {
     am: "unknown",
     sat: "other",
     gn: "big",
+    bs: "plain",
+    doi: "plain",
+    ssw: "plain",
+    egl: "big",
+    srn: "plain",
+    aa: "plain",
+    bej: "unknown",
+    tpi: "big",
+    iba: "other",
+    shn: "mother",
+    ce: "mother",
+    nd: "plain",
+    mak: "mother",
+    war: "plain",
+    cpx: "big",
+    sc: "big",
   },
   routes: {
     mother: {"color":"#db2777","emoji":"👪","en":"mother · parent · elder kin","ja":"母・親・年長の身内","ko":"어머니 · 어버이 · 웃어른","zh":"母亲・父母・长辈","yue":"阿媽 · 父母 · 長輩","vi":"mẹ · cha mẹ · bậc trên","th":"แม่ · พ่อแม่ · ญาติผู้ใหญ่","id":"ibu · orang tua · kerabat tua","hi":"माँ · माता-पिता · बड़े","de":"Mutter · Eltern · ältere Verwandte","fr":"mère · parent · aîné","it":"madre · genitore · parente anziano","es":"madre · padre · pariente mayor","pt":"mãe · pai · parente mais velho","ru":"мать · родитель · старший родич","uk":"мати · батько · старший родич","ar":"أم · والد · قريب أكبر","he":"אם · הורה · קרוב מבוגר","sw":"mama · mzazi · ndugu mkubwa"},
@@ -516,5 +532,21 @@ WORDS.thumb = {
     am: ["አውራ ጣት", "awra tʼat"],  // ጣት is 'finger'; the first element አውራ was not checked in a dictionary.
     sat: ["ᱦᱟᱲᱟᱢ ᱠᱟᱹᱴᱩᱵ", "haɽam kəʈub"],  // Literally 'old finger' (haṛam 'old' + kaṭub 'finger'), like Bengali buṛo aṅul and Odia buṛhā āṅguṭhi.
     gn: ["kuãngusu", "kʷãŋɡuˈsu"],  // Literally 'big finger' (kuã 'finger' + guasu 'big').
+    bs: ["palac", "ˈpalats"],  // Inherited from Proto-Slavic *pàlьcь, a diminutive of the word for 'finger'; it was also an old unit of measure about an inch long.
+    doi: ["ङूठा", "ŋuːʈʰaː"],  // Inherited from Sanskrit aṅguṣṭha 'thumb', like Hindi aṅgūṭhā and Punjabi aṅgūṭhā.
+    ssw: ["sitfupha", "sitfupʰa"],  // The same word also means 'six', since counting on the fingers reaches the thumb of the second hand at six, as with Zulu isithupha.
+    egl: ["didån", "diˈdʌŋ"],  // Bolognese 'big finger': dîd 'finger' with the augmentative suffix -ån (like Italian -one).
+    srn: ["doi", "doi"],  // Borrowed from Dutch duim 'thumb'.
+    aa: ["gili", "ɡili"],  // A word of its own that also names the big toe; cognate with Saho gile.
+    bej: ["tiibalaay", "tiːbalaːj"],  // The same word as 'finger', but masculine: as a feminine noun tiibálaay means any finger, as a masculine one the thumb.
+    tpi: ["bikpela pinga", "bikpela piŋa"],  // Literally 'big finger' (bikpela 'big' + pinga 'finger'); nambawan pinga 'number-one finger' is also used.
+    iba: ["tunjuk indu", "tundʒuk induʔ"],  // Literally 'woman finger' (tunjuk 'finger' + indu 'woman'), close to the 'mother finger' of Malay ibu jari.
+    shn: ["မႄႈမိုဝ်း", "mɛː˧˨ mɯː˥"],  // Literally 'mother of the hand' (mɛ̂ 'mother' + mɯ́ 'hand'), as in Thai hǔa mɛ̂ɛ mɯɯ.
+    ce: ["нана-пӏелг", "nana pʼelɡ"],  // Literally 'mother finger' (нана 'mother' + пӏелг 'finger'); the same word names the big toe ('mother finger of the foot').
+    nd: ["isithupha", "isitʰupʰa"],  // A word of its own, which like Zulu isithupha also means 'six'; the big toe is uzwane olukhulu 'big toe'.
+    mak: ["anrong lima", "anroŋ lima"],  // Literally 'mother of the hand', continuing Proto-Malayo-Polynesian *ina ni lima 'thumb'; the big toe is anrong bangkeng.
+    war: ["tamuragko", "tamuraɡko"],  // A word of its own, used for both the thumb and, with 'foot', the big toe; compare Cebuano kumagko.
+    cpx: ["大掌头", "tua˩˩ tsiau˦˥˧ tʰau˩˧"],  // Literally 'big finger-head': 掌 writes the Min colloquial word for 'finger' and 大 is 'big'; Xianyou says 大拇.
+    sc: ["poddighe mannu", "poɖɖiɡe mannu"],  // Literally 'big finger' (poddighe 'finger', from Latin pollex 'thumb', + mannu 'big'); it also names the big toe, and didu mannu is a synonym.
   },
 };

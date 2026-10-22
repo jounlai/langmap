@@ -910,8 +910,8 @@ WORDS.rainbow = {
     zh_cd: ["虹", "kaŋ˨˩˧"],  // Chengdu says 虹 with the colloquial reading gang4; local images also include 天桥 'sky bridge' and 天龙 'sky dragon'.
     zh_cq: ["虹", "kaŋ˨˩˧"],  // Chongqing says 虹 with the colloquial Sichuanese reading gang4; 彩虹 is also used.
     hak_hl: ["虹", "kʰiuŋ˧˧"],  // Hailu Hakka uses the vernacular reading of 虹, while Sixian Hakka says 天弓 'sky bow'.
-    wuu_hz: ["鱟", "hei˦˦˥"],  // Hangzhou calls the rainbow hei, written 鱟 (the horseshoe-crab character, used only for its sound); Xiang (2014) derives it from the old rainbow word 雩.
-    wuu_jh: ["鱟", "xiu˥˥"],  // Jinhua calls the rainbow 鱟, a character borrowed for its sound from 'horseshoe crab'; Xiang (2014) derives the word from the old rainbow word 雩.
+    wuu_hz: ["鲎", "hei˦˦˥"],  // Hangzhou calls the rainbow hei, written 鱟 (the horseshoe-crab character, used only for its sound); Xiang (2014) derives it from the old rainbow word 雩.
+    wuu_jh: ["鲎", "xiu˥˥"],  // Jinhua calls the rainbow 鱟, a character borrowed for its sound from 'horseshoe crab'; Xiang (2014) derives the word from the old rainbow word 雩.
     yue_nn: ["虹", "kɔŋ˧˧"],  // Nanning says 虹 with its colloquial reading kong, keeping hung for the compound 彩虹.
     stq: ["Rienbooge", "ˈrinboːɣə"],  // Rien 'rain' + Booge 'bow, arch', from Old Frisian reinboga.
     io: ["pluvarko", "pluˈvarko"],  // Pluvo 'rain' + arko 'arch'; cielarko 'sky arch' is a synonym.

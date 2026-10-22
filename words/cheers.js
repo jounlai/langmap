@@ -378,10 +378,10 @@ WORDS.cheers = {
     zh_km: ["干杯", "kᴀ̃˦˦ pəe˦˦"],  // Literally 'dry the cup'.
     zh_xa: ["干杯", "kã˨˩ pʰei˨˩"],  // Literally 'dry the cup'; Xi'an reads 杯 with an aspirated pʰ.
     zh_kf: ["干杯", "kan˨˦ pei˨˦"],  // Literally 'dry the cup'.
-    nan_xm: ["乾杯", "kan˦˦ pue˦˦"],  // Literally 'dry the cup'.
-    nan_zz: ["乾杯", "kan˦˦ pue˦˦"],  // Literally 'dry the cup'.
-    nan_qz: ["乾杯", "kan˧˧ pue˧˧"],  // Literally 'dry the cup'.
-    nan_te: ["乾杯", "kaŋ˧˧ pue˧˧"],  // Literally 'dry the cup', in the literary reading kaŋ of 乾.
+    nan_xm: ["干杯", "kan˦˦ pue˦˦"],  // Literally 'dry the cup'.
+    nan_zz: ["干杯", "kan˦˦ pue˦˦"],  // Literally 'dry the cup'.
+    nan_qz: ["干杯", "kan˧˧ pue˧˧"],  // Literally 'dry the cup'.
+    nan_te: ["干杯", "kaŋ˧˧ pue˧˧"],  // Literally 'dry the cup', in the literary reading kaŋ of 乾.
     vi_c: ["dô", "jo˥"],  // Dô is a respelling of Southern vô 'in', used as the group toast.
   },
 };

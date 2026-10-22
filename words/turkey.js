@@ -512,8 +512,8 @@ WORDS.turkey = {
     ar_jo: ["ديك الحبش", "diːk ilħabaʃ"],  // Literally "the Abyssinian (Ethiopian) rooster", as in Palestinian Arabic.
     ar_sd: ["ديك رومي", "diːk ruːmi"],  // Literally "Roman (Byzantine) rooster".
     zh_tw: ["火雞", "xwo˧˩˧ tɕi˥"],  // Literally "fire chicken".
-    nan_xm: ["火雞", "he˥˧ kue˦˦"],  // Literally "fire chicken".
-    nan_zz: ["火雞", "hue˥˧ ke˦˦"],  // Literally "fire chicken".
+    nan_xm: ["火鸡", "he˥˧ kue˦˦"],  // Literally "fire chicken".
+    nan_zz: ["火鸡", "hue˥˧ ke˦˦"],  // Literally "fire chicken".
     nan_pn: ["火雞", "hue˦˦˥ ke˧˧"],  // Literally "fire chicken".
     nan_ph: ["火雞", "he˥˥˦ kue˧˧"],  // Literally "fire chicken".
     da: ["kalkun", "kalˈkuˀn"],  // From Middle Low German kalekutisch hun, originally "hen from Calicut" in southern India (Den Danske Ordbog).

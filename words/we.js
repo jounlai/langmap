@@ -2254,7 +2254,7 @@ WORDS.we = {
     ssf: ["ita / yamin", "ʔita / jamin"],
     hak_tw: ["𫣆兜 / 𠊎兜", "en˨˦ teu˨˦ / ŋai˩˩ teu˨˦"], // was ["𫣆兜 / 𠊎兜", "en˨˦teu˨˦ / ŋai˩˩teu˨˦"] (vi dialect rules 2026-10-06)
     wuu_sz: ["伲", "ȵi˨˧˩"],
-    wuu_wz: ["我倈", "ŋ̍˧˦ le˧˩"], // was ["我倈", "ŋ˧˩ lai˧˩"] (vi dialect rules 2026-10-06)
+    wuu_wz: ["我俫", "ŋ̍˧˦ le˧˩"], // was ["我倈", "ŋ˧˩ lai˧˩"] (vi dialect rules 2026-10-06)
     nan_qz: ["咱 / 阮", "lan˥˥˦ / ɡuan˥˥˦"],
     nan_hai: ["我侬", "va˨˩˧ naŋ˧˩"],
     zh_wh: ["我们", "ŋo˦˨ mən"],

@@ -49,6 +49,8 @@ const PAIRS = [
   // The remaining pairs are every other trad/simp character the Sinitic
   // corpus actually uses, so the blind spot is closed rather than patched.
   '齒齿','烏乌','儂侬','媽妈','鹽盐','盤盘','輪轮','鮓鲊','鵑鹃','籌筹','諸诸',
+  // added 2026-10-22: 鱟 sat in two Wu rows (rainbow) and 倈 in wuu_wz (we).
+  '鱟鲎','倈俫',
 ];
 const TRAD = new Set(), SIMP = new Set();
 for (const p of PAIRS) { TRAD.add(p[0]); SIMP.add(p[1]); }
@@ -259,6 +261,11 @@ if (ALL) {
       let t = 0, sm = 0;
       for (const ch of c.surf) { if (TRAD.has(ch)) t++; else if (SIMP.has(ch)) sm++; }
       const sc = t > sm ? 'traditional' : (sm > t ? 'simplified' : 'neutral');
+      // 乾/干 cannot be a character pair: traditional writes 干 too (東干語,
+      // 盧干達語), and lang_name_script_check learns its pairs from PAIRS. So the
+      // one word that slipped through (乾杯 in four mainland Min rows, cheers,
+      // 2026-10-22) is checked as a word.
+      if (v.verdict === 'simplified' && c.surf.includes('乾杯')) { bad.push({ code, word: c.word, surf: c.surf, is: 'traditional', want: v.verdict, ev: '乾杯' }); continue; }
       if (sc !== 'neutral' && sc !== v.verdict) bad.push({ code, word: c.word, surf: c.surf, is: sc, want: v.verdict, ev: `${v.t}/${v.s}` });
     }
   }

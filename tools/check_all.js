@@ -493,7 +493,10 @@ line('rows mixing scripts unlisted', num(s, /rows mixing scripts without a MIXED
 // script cuckoo cells in mainland rows (review 432). --all checks every word
 // against a per-code majority baseline.
 s = run('zh_script_convention.js --all');
-line('zh simplified/traditional convention', num(s, /mismatches: (\d+)/));
+// ^ anchored (2026-10-22): unanchored, the regex matched the earlier
+// 'description mismatches: 0' line, so cell mismatches (nan_zz/nan_xm 火雞,
+// four 乾杯) never reached this line and it passed while they were live.
+line('zh simplified/traditional convention', num(s, /^mismatches: (\d+)/m));
 // Same run: a CJK description repeating a term in brackets right after itself,
 // 老湘语（老湘语） (review r35 a4: an OpenCC pass collapsed gloss pairs).
 line('CJK descriptions: no identical bracket repeat', num(s, /identical bracket repeats: (\d+)/));

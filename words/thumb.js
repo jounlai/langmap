@@ -370,6 +370,30 @@ WORDS.thumb = {
     gun: "big",
     lun: "unknown",
     roo: "unknown",
+    sa_edu: "plain",
+    h_vedic: "plain",
+    pi: "plain",
+    pi_edu: "plain",
+    pmh: "plain",
+    qwc: "big",
+    ja_heian: "big",
+    ja_edo: "mother",
+    ko_mid: "unknown",
+    non: "plain",
+    ofs: "plain",
+    osx: "plain",
+    hbo: "plain",
+    he_mis: "big",
+    ar_qur: "plain",
+    fa_clas: "plain",
+    hy_grab: "plain",
+    el_kath: "other",
+    zh_wenyan_edu: "plain",
+    vi_han: "plain",
+    orv: "plain",
+    mga: "plain",
+    prg: "plain",
+    xct_litpr: "unknown",
   },
   routes: {
     mother: {"color":"#db2777","emoji":"👪","en":"mother · parent · elder kin","ja":"母・親・年長の身内","ko":"어머니 · 어버이 · 웃어른","zh":"母亲・父母・长辈","yue":"阿媽 · 父母 · 長輩","vi":"mẹ · cha mẹ · bậc trên","th":"แม่ · พ่อแม่ · ญาติผู้ใหญ่","id":"ibu · orang tua · kerabat tua","hi":"माँ · माता-पिता · बड़े","de":"Mutter · Eltern · ältere Verwandte","fr":"mère · parent · aîné","it":"madre · genitore · parente anziano","es":"madre · padre · pariente mayor","pt":"mãe · pai · parente mais velho","ru":"мать · родитель · старший родич","uk":"мати · батько · старший родич","ar":"أم · والد · قريب أكبر","he":"אם · הורה · קרוב מבוגר","sw":"mama · mzazi · ndugu mkubwa"},
@@ -684,5 +708,29 @@ WORDS.thumb = {
     gun: ["kuã guaxu", "kuã ɡwaʃu"],  // Literally 'big finger' (kuã 'finger' + guaxu 'big'); the big toe is pyxã guaxu 'big toe'.
     lun: ["munu wedimbanu", "munu wedimbanu"],  // munu 'finger' + wa dimbanu; with wa ku mwendu 'of the foot' the same phrase names the big toe.
     roo: ["aakopeva", "aːkopeβa"],  // The Rotokas word for the thumb, as recorded in Firchow et al.'s 1973 dictionary.
+    sa_edu: ["अङ्गुष्ठः", "ɐŋɡuʂʈʰɐh"],  // An old Indo-Iranian word for the thumb, related to aṅguli 'finger'; it also names the big toe.
+    h_vedic: ["अङ्गुष्ठः", "ɐŋɡúʂʈʰɐɦ"],  // Inherited from Proto-Indo-Iranian *Hangúštʰas 'thumb'; in Vedic texts it appears as a measure, the 'thumb-sized' self of the Kaṭha Upaniṣad.
+    pi: ["अङ्गुट्ठ", "aŋɡuʈːʰa"],  // The Pali form of Sanskrit aṅguṣṭha 'thumb'; it also means the big toe.
+    pi_edu: ["aṅguṭṭha", "aŋɡuʈːʰa"],  // The Pali form of Sanskrit aṅguṣṭha 'thumb'; it also means the big toe.
+    pmh: ["अंगुट्ठ", "aŋɡuʈːʰa"],  // The Prakrit form of Sanskrit aṅguṣṭha 'thumb', ancestor of Marathi aṅgṭhā.
+    qwc: ["hatun rukana", "hatun rukana"],  // Literally 'big finger' (hatun 'big' + rukana 'finger'); González Holguín (1608) also gives mama rukana 'mother finger'.
+    ja_heian: ["大指", "oɸoojobi"],  // Read ohooyobi 'big finger' (oho 'big' + oyobi 'finger'), recorded in the Wamyōshō (c. 934); it shortened to ohoyubi by the 12th century.
+    ja_edo: ["親指", "ojajɯbi"],  // Literally 'parent finger'; it appears from the late 17th century and spread in Edo verse, while the older ōyubi 'big finger' stayed in use.
+    ko_mid: ["엄·지", "əmtsi"],  // First attested in 1466 and continued unchanged as modern Korean eomji 'thumb'.
+    non: ["þumalfingr", "ˈθumalfiŋɡr"],  // Literally 'thumb-finger', from þumall 'thumb (of a glove)'; a cognate of English thumb, with þumal-tá 'thumb-toe' for the big toe.
+    ofs: ["thūma", "ˈθuːma"],  // The Frisian form of the Germanic thumb word, ancestor of West Frisian tomme (Köbler).
+    osx: ["thūmo", "ˈθuːmo"],  // Glossing Latin pollex in a 10th-century glossary; ancestor of Low German Dume.
+    hbo: ["בהן", "ˈboːhɛn"],  // In Judges 1:6 the thumbs and big toes are both bohen; with yad 'hand' it means the thumb (Leviticus 8:23).
+    he_mis: ["אגודל", "ʔaɡuˈdal"],  // Built on the root of gadol 'big', so literally 'the large finger'; it first appears in the Mishnah, beside the biblical bohen.
+    ar_qur: ["إبهام", "ʔibhaːm"],  // An old Semitic word, related to Hebrew bohen 'thumb'; it also names the big toe.
+    fa_clas: ["شست", "ʃast"],  // Steingass also lists angusht-i suturg 'the large finger' for the thumb; shast also meant an archer's thumb-ring and a fish-hook.
+    hy_grab: ["բոյթ", "bojtʰ"],  // Martirosyan takes its basic meaning as 'soft lump of flesh'; it survives as modern Armenian բութ 'thumb'.
+    el_kath: ["ἀντίχειρ", "anˈdiçir"],  // Literally 'the one opposite the hand'; Katharevousa kept this ancient form, which demotic reshaped as αντίχειρας.
+    zh_wenyan_edu: ["拇", "mou˩˧"],  // The literary word for the thumb (and big toe); Chinese linguists compare Proto-Loloish *C-ma 'thumb' and possibly 母 'mother'.
+    vi_han: ["拇", "məw˧˧ˀ˥"],  // Read mẫu, exactly like 母 'mother', with which it shares its sound component.
+    orv: ["пальць", "palĭtsĭ"],  // In old Russian texts пальць meant the thumb (Vasmer), while перстъ was the general word for finger; it later widened to modern палец 'finger'.
+    mga: ["ordu", "ˈorðu"],  // Of unknown origin; with the diminutive suffix -óg it became modern Irish ordóg 'thumb'.
+    prg: ["instixs", "instiks"],  // Recorded in the Elbing Vocabulary (c. 1300); a cognate of Lithuanian nykštys and Latvian īkšķis 'thumb'.
+    xct_litpr: ["མཐེ་བོ", "tʰepo"],  // The first syllable may be the root for 'big' (Hill) or mtha' 'extreme, end' (Tournadre & Suzuki); rkang pa'i mthe bo 'the foot's thumb' is the big toe.
   },
 };

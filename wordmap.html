@@ -3827,7 +3827,7 @@
     <script src="wordmap_data.js?v=349"></script>
     <script src="lang_attention.js?v=4"></script>
     <script src="word_manifest.js?v=1044"></script>
-    <script src="word_labels.js?v=92"></script>
+    <script src="word_labels.js?v=93"></script>
     <script>
         /* Cache-buster registry. It MUST be declared here, above the per-word
            loader below, and not beside assetUrl() where it used to live.
@@ -3857,7 +3857,7 @@
             triviaI18n: 29,
             words:      1044,
             langWords:    757,
-            labels:      92,
+            labels:      93,
             metaI18nCoverage: 14,
             metaI18nCoverage2: 4,
             metaI18nCoverage3: 16,
@@ -4044,10 +4044,11 @@
         // entry and Back stripped hist=/p= from the URL (r37).
         var _wmBootPanel = !!(history.state && history.state.wmPanel && /(?:^|[#&])lang=/.test(location.hash));
         window.WORDS = window.WORDS || {};
-        // WORD_LIST drives the word <select> and its definition line. Both are
-        // needed at first paint, and neither needs the heavy per-word `data`
-        // block — so build the list from word_labels.js (all 25 words, loaded
-        // eagerly) rather than waiting on the per-word files.
+        // WORD_LIST drives the word <select>, which is needed at first paint
+        // and does not need the heavy per-word `data` block — so build the
+        // list from word_labels.js (labels of every word, loaded eagerly)
+        // rather than waiting on the per-word files. Definitions are not in
+        // word_labels.js; each arrives with its word file (see below).
         window.WORD_LIST = (typeof WORD_ORDER !== 'undefined' && window.WORD_LABELS)
             ? WORD_ORDER.map(function (id) {
                 var w = window.WORD_LABELS[id] || {};
@@ -5493,8 +5494,9 @@
             // (and later still in the async ensureWords branch), so the URL
             // lagged one word behind the selection. (owner-reported bug)
             currentWord = id;
-            // The definition and the hash come from word_labels.js, so they can
-            // update at once; the markers need this word's data block.
+            // The hash updates at once. The definition does too when this word's
+            // file is already here; otherwise it lands with the data, when the
+            // staged loader rebuilds WORD_LIST and re-runs updateWordDefinition.
             updateWordDefinition();
             updateWordSelectLabel();
             updateHash();

@@ -567,6 +567,27 @@ WORDS.rainbow = {
     pt_mo: "bow",
     chy: "unknown",
     tsz: "unknown",
+    zh_tang: "plain",
+    zh_han: "plain",
+    zh_song: "plain",
+    zh_wenyan_edu: "plain",
+    vi_han: "plain",
+    ojp: "plain",
+    ja_heian: "plain",
+    non: "bow",
+    hy_grab: "unknown",
+    pi_edu: "bow",
+    hbo: "bow",
+    he_mis: "bow",
+    syc: "bow",
+    gez: "bow",
+    xct_litpr: "plain",
+    nci: "unknown",
+    qwc: "plain",
+    pmng: "plain",
+    cmg: "plain",
+    el_kath: "bow",
+    ja_edo: "plain",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1077,5 +1098,26 @@ WORDS.rainbow = {
     pt_mo: ["arco-íris", "aɾkuˈiɾiʃ"],  // Literally 'arc of Iris', the general Portuguese word, with no regional replacement recorded.
     chy: ["nonónóóʼe", "nonónóóʔe"],  // The same Cheyenne word also means a fishing line, a trap or a snare; the dictionary traces it to Proto-Algonquian *nakwa·kani 'a kind of trap'.
     tsz: ["xupakata", "ʃuˈpakata"],  // The Purépecha word for the rainbow in both Purépecha Bible translations; IPA read from the spelling, with x = ʃ and stress on the second syllable as unmarked words take.
+    zh_tang: ["虹", "ɦəwŋ"],  // 虹 is the old single-character word for the rainbow, glossed 螮蝀 in the Guangyun rhyme dictionary.
+    zh_han: ["虹", "ɡōŋ"],  // 虹 is the old single-character Chinese word for the rainbow.
+    zh_song: ["虹", "xuŋ"],  // 虹 is listed in the 1324 Zhongyuan Yinyun rhyme book in the same homophone group as 紅 'red'.
+    zh_wenyan_edu: ["虹", "hʊŋ˨˩"],  // 虹 is the Classical Chinese word for the rainbow, read hung4 in Cantonese.
+    vi_han: ["虹", "hoŋ͡m˨˩"],  // 虹 'rainbow' is read hồng in Sino-Vietnamese.
+    ojp: ["虹", "nizi"],  // First attested in the Kojiki of 712; eastern dialect poems also have nuzi.
+    ja_heian: ["虹", "nizi"],  // The c. 934 Wamyō Ruijushō gives the native name of 虹 as 爾之 nizi.
+    non: ["regnbogi", "ˈreɣnboɣi"],  // Literally 'rain-bow', the same compound as English rainbow.
+    hy_grab: ["ծիածան", "tsiaˈtsan"],  // Translates Greek ἶρις in the Bible (Revelation 10:1); its origin is unknown, though some read it as 'the sign' or 'the belt' of the sky god.
+    pi_edu: ["indadhanu", "indadʱanu"],  // Literally 'Indra's bow' (inda + dhanu), cited by the PTS dictionary from Buddhaghosa's Dīgha commentary.
+    hbo: ["קשת", "ˈqɛʃɛθ"],  // The ordinary word for a bow; in Genesis 9:13 God sets 'my bow in the cloud' after the Flood.
+    he_mis: ["קשת", "ˈqeʃet"],  // The same word as 'bow'; the rabbinic blessing is for 'one who sees the bow in the cloud'.
+    syc: ["ܩܫܬܐ", "qeʃtaː"],  // The word for a bow; the Peshitta's Genesis 9:13 has 'my bow I have set in the clouds'.
+    gez: ["ቀስተ ደመና", "qasta dammanaː"],  // Literally 'bow of the cloud' (qast 'bow' + dammana 'cloud'), the same phrase that survives in Amharic and Tigrinya.
+    xct_litpr: ["འཇའ", "tɕa"],  // A single inherited Tibeto-Burman root, *m-dzya 'rainbow'.
+    nci: ["cōzamālōtl", "koːsaˈmaːloːtɬ"],  // Molina's 16th-century dictionaries gloss it 'arco del cielo'; the first part may be related to coztic 'yellow', the second perhaps to a root for curving, but neither is certain.
+    qwc: ["kuychi", "kujtʃi"],  // Glossed 'arco del cielo' by González Holguín (1608); the same word gives kuychihina 'arched' for vaults.
+    pmng: ["*solaŋga", "solaŋɡa"],  // Reconstructed from Mongolian солонго, Buryat һолонго, Kalmyk солңһ and Monguor snaghua.
+    cmg: ["ᠰᠣᠯᠤᠩᠭ᠎ᠠ", "soluŋɡa"],  // The parent of modern Mongolian солонго 'rainbow'.
+    el_kath: ["οὐράνιον τόξον", "uˈranion ˈtokson"],  // Literally 'heavenly bow'; Katharevousa textbooks give it beside the learned Ἴρις.
+    ja_edo: ["虹", "ɲidʑi"],  // The same native word as Old Japanese nizi, used in Edo haikai verse.
   },
 };

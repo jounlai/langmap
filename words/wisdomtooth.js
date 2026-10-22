@@ -70,8 +70,8 @@ WORDS.wisdomtooth = {
     zh: "wisdom",
     yue: "wisdom",
     nan: "wisdom",
-    zh_cd: "other",
-    zh_nj: "other",
+    zh_cd: "age",
+    zh_nj: "age",
     vi: "wisdom",
     id: "age",
     ms: "age",
@@ -188,6 +188,15 @@ WORDS.wisdomtooth = {
     en_wc: "wisdom",
     en_est: "wisdom",
     en_sg: "wisdom",
+    ur: "wisdom",
+    mr: "wisdom",
+    or: "wisdom",
+    sr: "wisdom",
+    hr: "wisdom",
+    be: "wisdom",
+    kk: "wisdom",
+    sq: "age",
+    my: "age",
   },
   routes: {
     wisdom: {"color":"#7c3aed","emoji":"🦉","en":"wisdom · sense","ja":"知恵・分別","ko":"지혜 · 분별","zh":"智慧・理智","yue":"智慧 · 理智","vi":"trí khôn · sự hiểu biết","th":"ปัญญา · ความรู้คิด","id":"kebijaksanaan · akal","hi":"बुद्धि · अक़्ल","de":"Weisheit · Verstand","fr":"sagesse · raison","it":"saggezza · giudizio","es":"sabiduría · juicio","pt":"sabedoria · siso","ru":"мудрость · разум","uk":"мудрість · розум","ar":"الحكمة · العقل","he":"חוכמה · בינה","sw":"busara · akili"},
@@ -319,5 +328,14 @@ WORDS.wisdomtooth = {
     en_wc: ["wisdom tooth", "ˈwɪzdəm tuːθ"],  // So called because it appears at an age of discretion, a calque of Latin dentes sapientiae.
     en_est: ["wisdom tooth", "ˈwɪzdəm tuːθ"],  // So called because it appears at an age of discretion, a calque of Latin dentes sapientiae.
     en_sg: ["wisdom tooth", "ˈwɪzdəm tuːt"],  // So called because it appears at an age of discretion, a calque of Latin dentes sapientiae.
+    ur: ["عقل داڑھ", "əql daːɽʱ"],  // Literally 'molar of intellect', with عقل from Arabic ʿaql 'reason'.
+    mr: ["अक्कलदाढ", "əkkəldaːɖʱ"],  // Literally 'molar of sense' (अक्कल 'intelligence, sense', from Arabic ʿaql).
+    or: ["ଅକଲ ଦାନ୍ତ", "ɔkɔl daːntɔ"],  // Literally 'tooth of sense'; the Purnachandra dictionary calls it a modern translation of English 'wisdom tooth', with ଅକଲ from Arabic ʿaql.
+    sr: ["умњак", "ûmɲaːk"],  // Built on ум 'mind', so literally 'the mind one'; зуб мудрости 'tooth of wisdom' is also heard.
+    hr: ["umnjak", "ûmɲaːk"],  // Built on um 'mind', so literally 'the mind one'; zub mudrosti 'tooth of wisdom' is also used.
+    be: ["зуб мудрасці", "zup ˈmudrasʲtsʲi"],  // Literally 'tooth of wisdom'.
+    kk: ["ақыл тіс", "ɑˈqəl təs"],  // Literally 'mind tooth' (ақыл 'mind, reason').
+    sq: ["dhëmb i pjekurisë", "ðəmb i pjɛkuˈɾisə"],  // Literally 'tooth of maturity' (pjekuri 'maturity, ripeness'), for the adult age at which it comes in.
+    my: ["အံဆုံး", "ʔàɴ zóʊɴ"],  // Literally 'the end molar' (အံ 'molar' + ဆုံး 'to end'), the last tooth of the row.
   },
 };

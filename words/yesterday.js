@@ -569,6 +569,114 @@ WORDS.yesterday = {
     hui: "distinct",
     ho: "distinct",
     kea: "unknown",
+    es_cr: "distinct",
+    es_hn: "distinct",
+    es_ni: "distinct",
+    es_sv: "distinct",
+    es_bo: "distinct",
+    es_py: "distinct",
+    es_pa: "distinct",
+    fr_lu: "distinct",
+    fr_cm: "distinct",
+    de_lu: "distinct",
+    en_ng2: "distinct",
+    en_my: "distinct",
+    pt_mo: "distinct",
+    ar_ps: "distinct",
+    ar_jo: "distinct",
+    hsn_hy: "distinct",
+    czh_wy: "unknown",
+    cjy_xz: "distinct",
+    aer: "distinct",
+    tsu: "same",
+    hot: "distinct",
+    mpt: "distinct",
+    pjt: "distinct",
+    wbp: "distinct",
+    tao: "distinct",
+    pyu: "distinct",
+    crx: "distinct",
+    ess: "distinct",
+    kw: "distinct",
+    acf: "distinct",
+    bin: "distinct",
+    xav: "distinct",
+    ter: "distinct",
+    ake: "distinct",
+    gun: "distinct",
+    ik: "distinct",
+    gv: "distinct",
+    hop: "distinct",
+    sce: "distinct",
+    njo: "distinct",
+    gon: "distinct",
+    ivv: "distinct",
+    aau: "distinct",
+    hif: "same",
+    kfa: "distinct",
+    kgp: "distinct",
+    kpf: "same",
+    luz: "distinct",
+    pmy: "distinct",
+    qxq: "distinct",
+    djr: "distinct",
+    nuf: "distinct",
+    tca: "distinct",
+    tsj: "distinct",
+    dru: "distinct",
+    lun: "distinct",
+    men: "distinct",
+    kpe: "distinct",
+    nan_ph: "distinct",
+    nan_xm: "distinct",
+    nan_zz: "distinct",
+    mhy: "unknown",
+    roo: "unknown",
+    tab: "distinct",
+    xal: "distinct",
+    olo: "distinct",
+    shp: "same",
+    agr: "distinct",
+    pbb: "distinct",
+    tcs: "distinct",
+    toc: "distinct",
+    otq: "distinct",
+    tkr: "distinct",
+    gil: "distinct",
+    kjh: "distinct",
+    kjb: "distinct",
+    atj: "distinct",
+    cho: "distinct",
+    vai: "distinct",
+    mwl: "distinct",
+    cnh: "distinct",
+    tdh: "distinct",
+    ame: "unknown",
+    nog: "distinct",
+    hch: "distinct",
+    nhx: "distinct",
+    tvl: "distinct",
+    yap: "distinct",
+    sbp: "distinct",
+    ium: "distinct",
+    udi: "distinct",
+    kos: "distinct",
+    trv: "distinct",
+    yan: "distinct",
+    poh: "distinct",
+    pon: "distinct",
+    djk: "distinct",
+    agu: "distinct",
+    apw: "distinct",
+    mic: "distinct",
+    bzh: "unknown",
+    crs: "distinct",
+    cr: "distinct",
+    meu: "distinct",
+    ch: "distinct",
+    ja_oki: "distinct",
+    niu: "distinct",
+    mrq: "unknown",
   },
   routes: {
     same: {"color":"#db2777","emoji":"🔁","en":"one word for yesterday and tomorrow","ja":"昨日と明日が同じ語","ko":"어제와 내일이 한 낱말","zh":"昨天和明天同一个词","yue":"尋日同聽日同一個詞","vi":"một từ cho hôm qua và ngày mai","th":"คำเดียวทั้งเมื่อวานและพรุ่งนี้","id":"satu kata untuk kemarin dan besok","hi":"बीते और आने वाले कल का एक शब्द","de":"ein Wort für gestern und morgen","fr":"un mot pour hier et demain","it":"una parola per ieri e domani","es":"una palabra para ayer y mañana","pt":"uma palavra para ontem e amanhã","ru":"одно слово для вчера и завтра","uk":"одне слово для учора й завтра","ar":"كلمة واحدة لأمس وغد","he":"מילה אחת לאתמול ולמחר","sw":"neno moja kwa jana na kesho"},
@@ -1083,5 +1191,113 @@ WORDS.yesterday = {
     hui: ["abe", "abe"],  // tomorrow: yawi
     ho: ["varani", "varani"],  // tomorrow: kerukeru
     kea: ["ónti", "ˈɔnti"],  // From Portuguese ontem.
+    es_cr: ["ayer", "aˈʝeɾ"],  // tomorrow: mañana; ayer is from Latin (ab) herī, the general Spanish word.
+    es_hn: ["ayer", "aˈʝeɾ"],  // tomorrow: mañana; ayer is from Latin (ab) herī, the general Spanish word.
+    es_ni: ["ayer", "aˈʝeɾ"],  // tomorrow: mañana; ayer is from Latin (ab) herī, the general Spanish word.
+    es_sv: ["ayer", "aˈʝeɾ"],  // tomorrow: mañana; ayer is from Latin (ab) herī, the general Spanish word.
+    es_bo: ["ayer", "aˈʝeɾ"],  // tomorrow: mañana; ayer is from Latin (ab) herī, the general Spanish word.
+    es_py: ["ayer", "aˈʝeɾ"],  // tomorrow: mañana; ayer is from Latin (ab) herī, the general Spanish word.
+    es_pa: ["ayer", "aˈʝeɾ"],  // tomorrow: mañana; ayer is from Latin (ab) herī, the general Spanish word.
+    fr_lu: ["hier", "jɛʁ"],  // tomorrow: demain; hier is from Latin heri.
+    fr_cm: ["hier", "jɛʁ"],  // tomorrow: demain; hier is from Latin heri.
+    de_lu: ["gestern", "ˈɡɛstɐn"],  // tomorrow: morgen; the same word as in Germany.
+    en_ng2: ["yesterday", "ˈjɛstədeɪ"],  // tomorrow: tomorrow; from Old English ġiestrandæġ.
+    en_my: ["yesterday", "ˈjɛstədeɪ"],  // tomorrow: tomorrow; from Old English ġiestrandæġ.
+    pt_mo: ["ontem", "ˈõtɐ̃j̃"],  // tomorrow: amanhã; ontem is from Latin ad noctem 'towards the night'.
+    ar_ps: ["مبارح", "ˈmbaːreħ"],  // tomorrow: بكرة (bukra); مبارح is Arabic al-bāriḥ with the l assimilated.
+    ar_jo: ["مبارح", "mbaːreħ"],  // tomorrow: بكرة (bukra); مبارح is Arabic al-bāriḥ with the l assimilated.
+    hsn_hy: ["昨日", "tso˩˩˨ ɕi˩˩˨"],  // tomorrow: 明日; Hengyang says 昨日 like Classical Chinese, and the dialect table gives 明日 with the colloquial reading mai for 明.
+    czh_wy: ["昨日", "tsʰɒ˥˩ ȵi˥˩"],  // Wuyuan, like its Hui neighbours Xiuning and Qimen, says 昨日.
+    cjy_xz: ["夜来", "iɛ˥˨ læ˧˩"],  // tomorrow: 明儿; 夜来 (literally 'night come') is also the word in Jinan and Qingdao Mandarin.
+    aer: ["apmwerrke", "apmʷəɾkə"],  // tomorrow: ingwenthe.
+    tsu: ["hucma", "hutsma"],  // tomorrow: hucma; the Tsou New Testament writes ne hucma for yesterday and ho hucma for tomorrow, so only the particle before the word tells past from future.
+    hot: ["wakbôk", "wakbok"],  // tomorrow: yamuŋ; the word contains wak 'sun, day'.
+    mpt: ["sintalo", "sintalo"],  // tomorrow: memalo.
+    pjt: ["mungartji", "muŋaɻci"],  // tomorrow: mungawinki.
+    wbp: ["pirrarni", "piraɳi"],  // tomorrow: jukurra; the Bible writes pirrarni-rli with a suffix.
+    tao: ["kakyab", "kakjab"],  // tomorrow: simaraw.
+    pyu: ["adaman", "adaman"],  // tomorrow: 'emanan; Hebrews 13:8 has adaman, harem 'yesterday, today'.
+    crx: ["hulhdaʼ", "huɬdaʔ"],  // tomorrow: bunde.
+    ess: ["иӷивгақ", "iɣivɡaq"],  // tomorrow: уна̄ми.
+    kw: ["de", "deː"],  // tomorrow: a-vorow; de goes back to the same root as Latin heri and Welsh ddoe.
+    acf: ["yè", "jɛ"],  // tomorrow: denmen; from French hier.
+    bin: ["nodẹ", "nodɛ"],  // tomorrow: akhuẹ.
+    xav: ["ahâmhâ", "ahəmˈhə"],  // tomorrow: awẽmhã.
+    ter: ["kiyakáxeke", "kijaˈkaʃeke"],  // tomorrow: ihârotike; the word ends in káxe 'sun, day' (compare the row's káxe).
+    ake: ["koʼmamiyau", "koʔmamijau"],  // tomorrow: awanapai.
+    gun: ["kuee", "kʷeˈe"],  // tomorrow: ko'ẽ.
+    ik: ["ikpaksraq", "ikpakʂaq"],  // tomorrow: uvlaakun; North Slope speakers also say unnugman (Wiktionary).
+    gv: ["jea", "dʒɛː"],  // tomorrow: mairagh; jea comes from Old Irish indé, like Irish inné.
+    hop: ["taavok", "taːvok"],  // tomorrow: qaavo; the Bible writes long vowels with a macron (tāvok, qāvo), respelled here with the doubled vowels the row uses.
+    sce: ["uchughudu", "utʂʰuquˈdu"],  // tomorrow: maghashijie; the Dongxiang Bible uses uchughudu for 'yesterday' in three verses, beside enedu 'today'.
+    njo: ["yashi", "jaʃi"],  // tomorrow: asüng; Chungli Ao, used in the Ao Bible in three 'yesterday' verses.
+    gon: ["निन्ने", "ninne"],  // tomorrow: नाडि; Aheri Gondi (Devanagari) and Adilabad Gondi (Telugu script) Bibles both use ninne for 'yesterday'.
+    ivv: ["kakoyab", "kakojab"],  // tomorrow: andelak; Wiktionary spells it kakuyab.
+    aau: ["onkioh", "onkioh"],  // tomorrow: yaw; the Abau Bible pairs onkioh 'yesterday' with pokon 'today' and yaw 'tomorrow'.
+    hif: ["kal", "kal"],  // tomorrow: kal; as in Hindi, kal means both days, told apart by tense; bihaan is also used for 'tomorrow'.
+    kfa: ["ನಿನ್ನಾಂದ್", "ninnaːndɨ"],  // tomorrow: ನಾಳೆ; used in three 'yesterday' verses of the Kodava Bible.
+    kgp: ["rãké tá", "ɾãkɛ tʌ"],  // tomorrow: vaj kỹ.
+    kpf: ["muka", "muka"],  // tomorrow: muka; the Komba Bible uses muka for 'yesterday' (John 4:52, Acts 7:28) and for 'tomorrow' (Luke 13:32 irâk sot muka 'today and tomorrow').
+    luz: ["dig", "diɡ"],  // tomorrow: saba (صبا); written دیگ in the Perso-Arabic Southern Luri Bible.
+    pmy: ["kmarin", "ˈkmarin"],  // tomorrow: besok; a reduced form of Malay kemarin.
+    qxq: ["dönən", "døˈnæn"],  // tomorrow: saba (صابا); written دؤنَن in the Perso-Arabic Qashqai Bible, cognate with Turkish dün.
+    djr: ["barpuru", "baɻpuɻu"],  // tomorrow: goḏarr'; the Bowern wordlist gives yawungu for 'yesterday' and barkthu for 'tomorrow' instead.
+    nuf: ["ie31ȵi35", "ie˧˩ɲi˧˥"],  // tomorrow: ʔnɑ35bɑ35; the Nusu Bible writes the same word YIX NYI in three 'yesterday' verses.
+    tca: ["ĩnex", "ĩneʔ"],  // tomorrow: moxü̃.
+    tsj: ["inying", "iɲiŋ"],  // tomorrow: namning (nam niŋ); written ཨི་ཉིང་ in the Tibetan-script Tshangla Bible.
+    dru: ["kwiya", "kwija"],  // tomorrow: lwiya; the Rukai Bible pairs kwiya 'yesterday' with kaikameane 'today'.
+    lun: ["haloshi", "haloʃi"],  // tomorrow: kumadiki.
+    men: ["gbengi", "ɡbeŋɡi"],  // tomorrow: sina.
+    kpe: ["wɛ́ɛ", "wɛ́ː"],  // tomorrow: tínaa; the Liberian Kpelle Bible pairs wɛ́ɛ 'yesterday' with sâa 'today'.
+    nan_ph: ["昨日", "tsa˧˧ lit˨˦"],  // tomorrow: 明仔日; Manila Hokkien uses 昨日, where Xiamen and Taiwan prefer 昨昏.
+    nan_xm: ["昨昏", "tsa˨˨ hŋ̍˦˦"],  // tomorrow: 明仔日; 昨日 is also used.
+    nan_zz: ["昨昏", "tsã˨˨ huĩ˦˦"],  // tomorrow: 明仔日; also 明仔载.
+    mhy: ["hangkariwe", "haŋkariwe"],  // Used for 'yesterday' in two verses of the Ma'anyan Bible; the tomorrow word was not established.
+    roo: ["aruvea", "aɾuβea"],  // Used for 'yesterday' in two verses of the Rotokas Bible; the tomorrow word was not established.
+    tab: ["накь", "naqʼ"],  // tomorrow: закур; накь is used for yesterday in Hebrews 13:8, John 4:52 and Acts 7:28 of the Tabasaran Bible.
+    xal: ["өцклдүр", "øtskldyr"],  // tomorrow: маңһдур; the Kalmyk Bible uses өцклдүр for yesterday in Hebrews 13:8, John 4:52 and Acts 7:28.
+    olo: ["egläi", "ˈeɡlæi"],  // tomorrow: huomei; egläi is the yesterday of Hebrews 13:8, John 4:52 and Acts 7:28 in the Livvi translation.
+    shp: ["bakish", "bakiʃ"],  // tomorrow: bakish; the Shipibo-Conibo Bible uses bakish for yesterday (John 4:52, Acts 7:28) and for tomorrow (Matthew 6:34, Luke 13:32), and IDS also lists iba for yesterday.
+    agr: ["yau", "jau"],  // tomorrow: kashin; yau is yesterday in John 4:52 and Acts 7:28 of the Awajún Bible, and kashin is the tomorrow of Matthew 6:34 and Luke 13:32.
+    pbb: ["jũʼna", "hũʔna"],  // tomorrow: kuskus; the Nasa Yuwe New Testament uses jũʼna for yesterday in John 4:52 and Acts 7:28.
+    tcs: ["yestidei", "jestidei"],  // tomorrow: tumoro; from English yesterday, used in Hebrews 13:8, John 4:52 and Acts 7:28 of the Yumplatok New Testament.
+    toc: ["kotán", "kotán"],  // tomorrow: chalí; the Coyutla Totonac New Testament writes ko̠tán with a laryngealized first vowel, used for yesterday in Hebrews 13:8, John 4:52 and Acts 7:28.
+    otq: ["mande", "mande"],  // tomorrow: xudi; mande is yesterday in John 4:52 and Acts 7:28 of the Querétaro Otomi New Testament, and xudi is tomorrow in Matthew 6:34 and Luke 13:32.
+    tkr: ["санихьа", "sanixa"],  // tomorrow: гъийхъа; the Latin-script Tsakhur New Testament writes it sanıxha (John 4:52) and sanıxhiyna (Acts 7:28).
+    gil: ["ngkoananoa", "ŋkoananoa"],  // tomorrow: ningabong; the Kiribati Bible has ngkoananoa for yesterday in Hebrews 13:8, John 4:52 and Acts 7:28.
+    kjh: ["киҷее", "kiˈtɕeː"],  // tomorrow: таңда; the Khakas New Testament uses киҷее for yesterday in Hebrews 13:8, John 4:52 and Acts 7:28.
+    kjb: ["ewi", "ewi"],  // tomorrow: yecal; the Q'anjob'al Bible has ewi for yesterday in Acts 7:28 and ewitax in John 4:52.
+    atj: ["otakocik", "otakoʃik"],  // tomorrow: wapake; otakocik is yesterday in John 4:52 and Acts 7:28 of the Atikamekw New Testament.
+    cho: ["pilashash", "pilaʃaʃ"],  // tomorrow: onna; the 1886 Choctaw Bible uses pilashash for yesterday in Hebrews 13:8, John 4:52 and Acts 7:28.
+    vai: ["ꖴꖸ", "kunu"],  // tomorrow: ꔻꕯ; ꖴꖸ (kunu) is yesterday in Hebrews 13:8, John 4:52 and Acts 7:28 of the Vai New Testament, matching Koelle's 1854 kúnu.
+    mwl: ["onte", "ˈõtɨ"],  // tomorrow: manhana; onte is the yesterday of John 4:52 in the Mirandese Gospels.
+    cnh: ["nizan", "nizan"],  // tomorrow: thaizing; nizan is yesterday in Hebrews 13:8, John 4:52 and Acts 7:28 of the Hakha Chin Bible.
+    tdh: ["बास्ता", "basta"],  // tomorrow: दिका; बास्ता is yesterday in Hebrews 13:8, John 4:52 and Acts 7:28 of the Thulung New Testament.
+    ame: ["ellerro", "eʎeɻo"],  // ellerro is yesterday in John 4:52 and Acts 7:28 of the Yanesha' New Testament.
+    nog: ["туьнегуьн", "tyneɡyn"],  // tomorrow: эртен; туьнегуьн is yesterday in Hebrews 13:8, John 4:52 and Acts 7:28 of the Nogai Bible.
+    hch: ["takai", "takai"],  // tomorrow: 'uxa'a; takai is yesterday in John 4:52 and Acts 7:28 of the Huichol New Testament.
+    nhx: ["ya̱lwa", "jaːlwa"],  // tomorrow: mo̱sta; ya̱lwa is yesterday in John 4:52 and Acts 7:28 of the Mecayapan Nahuatl New Testament.
+    tvl: ["anafi", "anafi"],  // tomorrow: taeao; anafi is yesterday in Hebrews 13:8 (te aso anafi), John 4:52 and Acts 7:28 of the Tuvaluan Bible.
+    yap: ["fowap", "fowap"],  // tomorrow: gabul; fowap is yesterday in Hebrews 13:8, John 4:52 and Acts 7:28 of the Yapese Bible.
+    sbp: ["imihe", "imihe"],  // tomorrow: pamulaawu; imihe is yesterday in John 4:52 and Acts 7:28 of the Sangu New Testament.
+    ium: ["aqc hnoi", "aʔ˨˩ n̥oi˧"],  // tomorrow: njang hnoi; hnoi is "day", and the Iu Mien Bible uses the same word for yesterday in Hebrews 13:8, John 4:52 and Acts 7:28.
+    udi: ["наьйни", "næjni"],  // tomorrow: аьйчӏи; the Latin-script Udi New Testament writes the word nəyni (Hebrews 13:8, John 4:52, Acts 7:28).
+    kos: ["ekea", "ekea"],  // tomorrow: lutu; ekea is yesterday in Hebrews 13:8, John 4:52 and Acts 7:28 of the Kosraean Bible.
+    trv: ["ciga", "tsiɡa"],  // tomorrow: kusun; ciga is yesterday in Hebrews 13:8 and Acts 7:28 of the Truku Bible.
+    yan: ["damai", "damai"],  // tomorrow: yahan mani; damai is yesterday in Hebrews 13:8, John 4:52 and Acts 7:28 of the Mayangna New Testament, also as damai mani "yesterday day".
+    poh: ["eew", "eːw"],  // tomorrow: iqal; eew is yesterday in John 4:52 and Acts 7:28 of the Poqomchi' Bible.
+    pon: ["aio", "aio"],  // tomorrow: lakapw; aio is yesterday in Hebrews 13:8, John 4:52 and Acts 7:28 of the Pohnpeian Bible.
+    djk: ["eside", "eside"],  // tomorrow: tamaa; from English yesterday, used in John 4:52 and Acts 7:28 of the Ndyuka New Testament.
+    agu: ["ewt", "ewt"],  // tomorrow: ca'p; ewt is yesterday in John 4:52 and Acts 7:28 of the Awakateko Bible.
+    apw: ["adąądáʼ", "adãːdáʔ"],  // tomorrow: iskąą; adąądáʼ is yesterday in Hebrews 13:8 and John 4:52 of the Western Apache New Testament, and Acts 7:28 has adąąnáʼ.
+    mic: ["ulagu", "ulaɡu"],  // tomorrow: sapo'nug; ulagu (Listuguj spelling) is yesterday in Hebrews 13:8, John 4:52 and Acts 7:28 of the Mi'kmaq New Testament.
+    bzh: ["veseveng", "βətʃəβəŋ"],  // veseveng is yesterday in Hebrews 13:8, John 4:52 and Acts 7:28 of the Mapos Buang New Testament.
+    crs: ["yer", "jer"],  // tomorrow: demen; from French hier, used for yesterday in Hebrews 13:8, John 4:52 and Acts 7:28 of the Seychellois Creole Bible.
+    cr: ["ᐅᑖᑯᓰᕽ", "otaːkosiːhk"],  // tomorrow: ᐚᐸᐦᑭ; Wolvengrey's Cree: Words also glosses otâkosîhk "the previous evening", and the Plains Cree Bible uses it for yesterday in Hebrews 13:8, John 4:52 and Acts 7:28.
+    meu: ["varani", "varani"],  // tomorrow: kerukeru; varani is yesterday in Hebrews 13:8, John 4:52 and Acts 7:28 of the Motu Bible.
+    ch: ["nigap", "ˈniɡap"],  // tomorrow: agupa; nigap is yesterday in John 4:52 and Acts 7:28 of the Chamorro Gospels and Acts.
+    ja_oki: ["ちぬー", "tɕinuː"],  // tomorrow: あちゃー; cognate with Japanese きのう, it was spelled ちぬふ in the 1896 Okinawan dictionary, per JLect.
+    niu: ["ne afi", "ne afi"],  // tomorrow: pogipogi; ne afi continues Proto-Oceanic *qana-(n)afi, the source of Tongan ʔaneafi.
+    mrq: ["tinahi", "tinahi"],  // tinahi is listed as "hier, yesterday" in Charpentier and François' Marquesan wordlist, cited by POLLEX under East Polynesian *tai-nafi.
   },
 };

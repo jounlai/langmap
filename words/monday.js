@@ -475,6 +475,19 @@ WORDS.monday = {
     new: "moon",
     vai: "unknown",
     khb: "unknown",
+    yrl: "count",
+    cho: "moon",
+    ch: "moon",
+    lad: "moon",
+    mwl: "count",
+    mh: "moon",
+    fax: "moon",
+    rmf: "count",
+    car: "moon",
+    vro: "unknown",
+    agq: "unknown",
+    nog: "unknown",
+    abq: "unknown",
   },
   routes: {
     moon: {"color":"#7c3aed","emoji":"🌙","en":"the moon's day","ja":"月の日","ko":"달의 날","zh":"月亮之日","yue":"月亮嘅日","vi":"ngày mặt trăng","th":"วันของดวงจันทร์","id":"hari bulan","hi":"चंद्रमा का दिन","de":"Tag des Mondes","fr":"jour de la lune","it":"giorno della luna","es":"día de la luna","pt":"dia da lua","ru":"день луны","uk":"день місяця","ar":"يوم القمر","he":"יום הירח","sw":"siku ya mwezi"},
@@ -892,5 +905,18 @@ WORDS.monday = {
     new: ["सोमबाः", "soməbaː"],  // Ultimately from Sanskrit somavāra, "Moon's day".
     vai: ["ꗳꗡꘉ", "tɛːnɛ"],  // Tɛɛnɛ, the Vai name for Monday (CLDR, Omniglot); its origin was not checked.
     khb: ["ᦞᧃᦶᦈᧃ", "van˥˩ tsɛn˥"],  // Two sources agree on van cɛn; the meaning of the second part was not checked in a Tai Lü dictionary.
+    yrl: ["murakipí", "muɾakiˈpi"],  // From murakí "work" + yepé "first": the first work day (Wiktionary, after Avila).
+    cho: ["Mʋnti", "mənti"],  // Borrowed from English Monday (Wiktionary); Choctaw also has Nittak Hullo tuk Onna, "the day after the holy day".
+    ch: ["Lunes", "ˈlunes"],  // Borrowed from Spanish lunes, "the moon's day" (Wiktionary).
+    lad: ["lunes", "ˈlunes"],  // From Latin Lūnae diēs, "day of the moon" (Wiktionary; Ladino Wikipedia).
+    mwl: ["segunda-feira", "sɨˈɣũdɐ ˈfɐjɾɐ"],  // From Church Latin secunda fēria, "second weekday", counting Sunday as the first (Wiktionary).
+    mh: ["M̧ande", "mˠænʲrʲɛj"],  // Borrowed from English Monday (Wiktionary, after the Marshallese-English Dictionary).
+    fax: ["lunis", "ˈlunis"],  // Ultimately from Latin Lūnae diēs, "day of the Moon", probably via Spanish lunes (Wiktionary, after Valeš 2021).
+    rmf: ["vaaguno diives", "vaːɡuno diːves"],  // Literally "first day" (Wiktionary, after ROMLEX).
+    car: ["lundi", "lundi"],  // Borrowed from French lundi, "the moon's day" (WOLD, after Renault-Lescure 1985).
+    vro: ["iispäiv", "iːspæiv"],  // Iispäiv, päiv "day" with the prefix iis-, whose meaning was not sourced.
+    agq: ["tsuʔukpà", "tsuʔukpà"],  // The Aghem name for Monday (CLDR); its literal meaning was not found.
+    nog: ["дуьйсемби", "dyjsembi"],  // Дуьйсемби, the Nogai name for Monday; no source for its origin was checked, though it matches Kazakh дүйсенбі.
+    abq: ["швахьа", "ʃʷaχʲa"],  // Швахьа, the Abaza name for Monday (Russian Wiktionary); its literal meaning was not found.
   },
 };

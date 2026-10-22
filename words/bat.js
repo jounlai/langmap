@@ -339,6 +339,37 @@ WORDS.bat = {
     oj: "unknown",
     nog: "unknown",
     ady: "bird",
+    pa: "other",
+    fa: "other",
+    pcm: "plain",
+    cjy: "plain",
+    kn: "plain",
+    ig: "unknown",
+    or: "plain",
+    awa: "other",
+    sd: "bird",
+    ne: "bird",
+    zu: "unknown",
+    mg: "unknown",
+    so: "unknown",
+    xh: "unknown",
+    si: "plain",
+    hne: "other",
+    bgc: "other",
+    syl: "plain",
+    rw: "unknown",
+    rn: "unknown",
+    sr: "mouse",
+    hr: "mouse",
+    ak: "unknown",
+    tk: "other",
+    ee: "unknown",
+    kri: "plain",
+    gn: "unknown",
+    cnp: "mouse",
+    lg: "unknown",
+    no: "mouse",
+    kln: "unknown",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -623,5 +654,36 @@ WORDS.bat = {
     oj: ["apakwaanaajiinh", "apakwaːnaːdʒĩː"],  // The Ojibwe word, written ahpuhquahnahje in the older Bible spelling.
     nog: ["ярганат", "jarʁaˈnat"],  // The Kipchak Turkic bat word shared with Bashkir ярғанат and Tatar ярканат.
     ady: ["чэщбзыу", "tʃaɕbzəw"],  // Literally 'night bird': чэщ 'night' plus бзыу 'bird'.
+    pa: ["ਚਮਗਿੱਦੜ", "tʃəmɡɪdːəɽ"],  // Literally something like 'leather-jackal': ਚਮ 'skin' plus ਗਿੱਦੜ 'jackal', the same make-up as Hindi चमगादड़.
+    fa: ["خفاش", "xoffɒːʃ"],  // Borrowed from Arabic خُفَّاش, from a verb meaning 'to be day-blind'; شب‌کور 'night-blind' is a native synonym.
+    pcm: ["bat", "bat"],  // Taken over from English bat.
+    cjy: ["夜壁蝠", "iɛ˦˥ piəʔ˨ fəʔ˨"],  // The Taiyuan word: 夜 'night' and 壁 'wall' added to 蝠, the old Chinese word for the bat.
+    kn: ["ಬಾವಲಿ", "baːʋali"],  // A Dravidian word shared with Tamil vauvāl and Malayalam vavvāl.
+    ig: ["ụsụ", "ʊsʊ"],  // The everyday Igbo word for the bat; the plural is ụmụ ụsụ.
+    or: ["ବାଦୁଡ଼ି", "baːduɽi"],  // Inherited from Sanskrit vālguḍa 'bat', shared with Bengali bāduṛ; ଚାମଚିକା is the small house bat.
+    awa: ["चमगादड़", "tʃəmɡaːdəɽ"],  // The same word as Hindi चमगादड़, literally something like 'leather-jackal'.
+    sd: ["چمڙو", "tʃəmɪɽoː"],  // Turner traces it to Sanskrit carmacaṭaka, a 'leather-sparrow'.
+    ne: ["चमेरो", "tsʌmero"],  // Turner traces it to Sanskrit carmacaṭaka, a 'leather-sparrow'.
+    zu: ["ilulwane", "iluˈlwane"],  // The everyday Zulu word; it can also call someone a fool, and once meant 'umbrella'.
+    mg: ["ramanavy", "ramaˈnavi"],  // The general Malagasy word; fanihy is the large fruit bat.
+    so: ["fiidmeer", "fiːdmeːr"],  // The Somali word for the bat.
+    xh: ["ilulwane", "ilulwaːne"],  // The same word as Zulu ilulwane.
+    si: ["වවුලා", "ʋaʋulaː"],  // Shares its root with Pali vagguli and Sanskrit vālguḍa 'bat'.
+    hne: ["चमगीदड़", "tʃəmɡiːdəɽ"],  // Keeps the older vowel of Old Hindi camagīdaṛa, literally something like 'leather-jackal'.
+    bgc: ["चमगादड़", "tʃəmɡaːdəɽ"],  // The same word as Hindi चमगादड़, literally something like 'leather-jackal'.
+    syl: ["বাদুর", "badur"],  // The same word as Bengali বাদুড়, inherited from Sanskrit vālguḍa 'bat'.
+    rw: ["agacurama", "aɡatʃuɾama"],  // The Kinyarwanda word for the bat, formed in the aga- class of small things.
+    rn: ["agahungarema", "aɡahuŋɡaɾema"],  // The Kirundi word for the bat, unlike the Kinyarwanda agacurama.
+    sr: ["слепи миш", "slêːpiː mîʃ"],  // Literally 'blind mouse', the same picture as Spanish murciélago.
+    hr: ["šišmiš", "ʃǐʃmiʃ"],  // A 'fluttering mouse': the second part is miš 'mouse', as in German Fledermaus.
+    ak: ["apan", "apan"],  // The Twi word; the plural is mpan.
+    tk: ["ýarganat", "jaɾɡaːnat"],  // The old Turkic bat word *yar- joined to *kanat 'wing', as in Kazakh жарқанат.
+    ee: ["agutɔ", "aɡutɔ"],  // The Ewe word for the bat in today's Bibles; the 1913 Bible used drui instead.
+    kri: ["bat", "bat"],  // Taken over from English bat.
+    gn: ["mbopi", "mbopi"],  // The Guarani word for the bat, shared with Mbya Guarani.
+    cnp: ["飞鼠", "fi˥˧ ʃy˧˧"],  // Literally 'flying mouse': the colloquial word for the bat.
+    lg: ["ekinyira", "etʃiɲira"],  // The Luganda word for the bat; the plural is ebinyira.
+    no: ["flaggermus", "ˈflɑɡːɛrmʉːs"],  // Modelled on German Fledermaus; the last part is mus 'mouse'.
+    kln: ["reresiet", "reresiet"],  // The Kalenjin word for the bat; the plural is reresik.
   },
 };

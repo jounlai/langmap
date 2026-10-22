@@ -235,6 +235,19 @@ WORDS.littlefinger = {
     tk: "unknown",
     nap: "unknown",
     azb: "unknown",
+    lv: "small",
+    bs: "small",
+    zza: "small",
+    ban: "unknown",
+    war: "plain",
+    lmo: "small",
+    av: "small",
+    li: "plain",
+    pam: "plain",
+    iba: "child",
+    mak: "plain",
+    cv: "unknown",
+    dag: "unknown",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -415,5 +428,18 @@ WORDS.littlefinger = {
     tk: ["külembike", "kylembiˈke"],  // A word of its own for the little finger; külbike is a shorter variant.
     nap: ["mignulìllo", "miɲɲuˈlillə"],  // Akin to Italian mignolo; the descriptive dito piccerillo 'little finger' is also used.
     azb: ["چئچله بارماق", "tʃetʃælæ bɑɾmɑɣ"],  // چئچله + بارماق 'finger'; the North Azerbaijani spelling is çeçələ barmaq.
+    lv: ["mazais pirkstiņš", "mazais pirkstiɲʃ"],  // Literally 'the small little-finger': the definite form of mazs 'small' with pirkstiņš, a diminutive of pirksts 'finger'.
+    bs: ["mali prst", "maːliː prst"],  // Literally 'small finger' (mali 'small' + prst 'finger'); peti prst 'fifth finger' is also used.
+    zza: ["engışta qıce", "ɛŋɡɨʃta qɨdʒɛ"],  // Literally 'small finger' (engışte 'finger' + qıc 'small'), as Filippone notes for the Iranian languages generally.
+    ban: ["kacing", "katʃiŋ"],  // The ordinary Balinese name; kelingking, as in Indonesian, is also heard, and calilingan is the high-register word.
+    war: ["tamuyingking", "tamujiŋˈkiŋ"],  // A word of its own, paired with tamuragko 'thumb'; kamuyingking is a variant.
+    lmo: ["didin", "diˈdiŋ"],  // A diminutive of dit 'finger', so 'the little finger', in the Milanese spelling.
+    av: ["гьитӏинкилищ", "hitʼinkiliʃː"],  // Literally 'little finger' (гьитӀин 'little' + килищ 'finger'), built like буртӏинкилищ 'thumb'.
+    li: ["pink", "pɪŋk"],  // A word of its own shared with Dutch pink; Wiktionary's Limburgish entry gives it for the outermost, smallest finger.
+    pam: ["kalingkingan", "kaliŋˈkiŋan"],  // A word of its own, continuing Proto-Western Malayo-Polynesian *kaliŋkiŋ 'little finger' (Blust's ACD), like Tagalog kalingkingan.
+    iba: ["tunjuk anak", "tundʒuk anak"],  // Literally 'child finger' (tunjuk 'finger' + anak 'child'), the counterpart of tunjuk indu 'woman finger' for the thumb; Richards spells it tunjok anak.
+    mak: ["kaningking", "kaˈniŋkiŋ"],  // A word of its own, inherited from Proto-Malayo-Polynesian *kiŋkiŋ 'little finger', alongside anrong lima 'mother of the hand' for the thumb.
+    cv: ["кача пӳрне", "katɕa pyrne"],  // Ends in пӳрне 'finger'; the Chuvash Wikipedia notes that кача is also a separate word, but the sources seen do not explain the first element.
+    dag: ["nubilikpaliŋga", "nubilikpaliŋɡa"],  // Built on nubila 'finger'; the dictionary lists kpaliŋga only as 'little (finger)' in this compound and does not explain it further.
   },
 };

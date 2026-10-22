@@ -456,6 +456,30 @@ WORDS.bat = {
     agr: "unknown",
     car: "unknown",
     crn: "unknown",
+    lkt: "unknown",
+    aqc: "plain",
+    stq: "mouse",
+    ppl: "plain",
+    yur: "unknown",
+    pqm: "unknown",
+    szy: "unknown",
+    tsz: "unknown",
+    es_cr: "mouse",
+    es_hn: "mouse",
+    es_ni: "mouse",
+    es_sv: "mouse",
+    es_bo: "mouse",
+    es_py: "mouse",
+    es_pa: "mouse",
+    ar_jo: "other",
+    ar_ps: "other",
+    fr_lu: "mouse",
+    fr_cm: "mouse",
+    de_lu: "mouse",
+    en_ng2: "plain",
+    en_my: "plain",
+    pt_mo: "mouse",
+    cjy_xz: "plain",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -857,5 +881,29 @@ WORDS.bat = {
     agr: ["jiincham", "hiːntʃam"],  // The Awajún word for the bat; stress is left unmarked.
     car: ["rere", "ɾeɾe"],  // The Kariʼna word for the bat, also spelled lele.
     crn: ["átziʼi", "ˈatsiʔi"],  // The Cora word for the bat, plural átziʼise; Wiktionary compares Huichol ʼási.
+    lkt: ["ȟupákiglake", "χupákiɡlake"],  // The Lakota word for the bat.
+    aqc: ["къелълъибожо", "qʼeɬːiboʒo"],  // An Archi word of its own for the bat, which WOLD classes as unanalyzable.
+    stq: ["Fledermúus", "ˈfleːdərmuːs"],  // Like its cousins German Fledermaus and West Frisian flearmûs, a 'flutter-mouse'.
+    ppl: ["tzinakan", "tsiˈnaːkaŋ"],  // Inherited from Proto-Nahuan *ȼinaakan 'bat', the same word as Classical Nahuatl tzinācantli.
+    yur: ["skoyom", "ʂkɔjɔm"],  // The Yurok word for the bat.
+    pqm: ["motekoniyehs", "motekonijehs"],  // The Passamaquoddy-Maliseet word for the bat, especially the little brown bat.
+    szy: ["bidadiki", "bidadiki"],  // The Sakizaya word for the bat.
+    tsz: ["uasïsï", "waˈsɨsɨ"],  // The Purépecha word for the bat.
+    es_cr: ["murciélago", "muɾˈsjelaɣo"],  // From Old Spanish murciego, Latin mūs caecus 'blind mouse'.
+    es_hn: ["murciélago", "muɾˈsjelaɣo"],  // From Old Spanish murciego, Latin mūs caecus 'blind mouse'.
+    es_ni: ["murciélago", "muɾˈsjelaɣo"],  // From Old Spanish murciego, Latin mūs caecus 'blind mouse'.
+    es_sv: ["murciélago", "muɾˈsjelaɣo"],  // From Old Spanish murciego, Latin mūs caecus 'blind mouse'.
+    es_bo: ["murciélago", "muɾˈsjelaɣo"],  // From Old Spanish murciego, Latin mūs caecus 'blind mouse'.
+    es_py: ["murciélago", "muɾˈsjelaɣo"],  // From Old Spanish murciego, Latin mūs caecus 'blind mouse'.
+    es_pa: ["murciélago", "muɾˈsjelaɣo"],  // From Old Spanish murciego, Latin mūs caecus 'blind mouse'.
+    ar_jo: ["خفاش", "xafˈfaːʃ"],  // Inherited from Arabic khuffāsh, linked to a root meaning 'weak-sighted in daylight'.
+    ar_ps: ["خفاش", "xafˈfaːʃ"],  // Inherited from Arabic khuffāsh, linked to a root meaning 'weak-sighted in daylight'.
+    fr_lu: ["chauve-souris", "ʃovsuʁi"],  // Literally 'bald mouse'.
+    fr_cm: ["chauve-souris", "ʃovsuʁi"],  // Literally 'bald mouse'.
+    de_lu: ["Fledermaus", "ˈfleːdɐmaʊ̯s"],  // Literally 'flutter-mouse', from Old High German fledarmūs.
+    en_ng2: ["bat", "bæt"],  // From Middle English bakke, a word of Scandinavian origin.
+    en_my: ["bat", "bæt"],  // From Middle English bakke, a word of Scandinavian origin.
+    pt_mo: ["morcego", "muɾˈseɣu"],  // From Latin mūs caecus 'blind mouse'.
+    cjy_xz: ["夜蝙蝠", "iɛ˥˨ piɛ̃˧˩˧ fəʔ˦˧"],  // Literally 'night bat': 蝙蝠, the Chinese word of its own, with 夜 'night'.
   },
 };

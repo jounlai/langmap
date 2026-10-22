@@ -694,6 +694,27 @@ WORDS.tomorrow = {
     kac: "morning",
     pot: "morning",
     vi_nom: "morning",
+    tl: "unknown",
+    ilo: "morning",
+    ff: "unknown",
+    th_isan: "unknown",
+    kfy: "morning",
+    mwr: "morning",
+    kru: "unknown",
+    mer: "unknown",
+    ce: "unknown",
+    sdh: "unknown",
+    nym: "same",
+    shn: "unknown",
+    egl: "morning",
+    li: "morning",
+    sco: "morning",
+    bug: "unknown",
+    bjn: "unknown",
+    wal: "unknown",
+    kha: "unknown",
+    wbm: "unknown",
+    rhg: "unknown",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -1332,5 +1353,26 @@ WORDS.tomorrow = {
     kac: ["hpawtni", "pʰot˥˥ni˥˥"],  // Built on hpawt 'morning' (hpawtni 'tomorrow').
     pot: ["wabêk", "wapʊk"],  // Literally 'when it is morning': the conjunct of waben 'to be morning'.
     vi_nom: ["𣈜𣈕", "ŋaj˨˩ maːj˧"],  // Ngày mai in Chữ Nôm: 𣈜 ngày 'day' + 𣈕 mai 'early morning'.
+    tl: ["bukas", "ˈbukas"],  // Bukas is the Tagalog word for tomorrow; Wiktionary compares it with Ivatan and Sambal words for 'morning' but gives no etymology.
+    ilo: ["inton bigat", "ʔinton biɡat"],  // Bigat means both 'morning' and 'tomorrow'; inton marks the future, so the phrase is 'when it is morning'.
+    ff: ["janngo", "dʒaŋːɡo"],  // Janngo is the Pulaar word; other Fula Bibles write jaango (Burkina Faso) or jaŋngo (Adamawa Fulfulde).
+    th_isan: ["มื้ออื่น", "mɯː˧˩ʔɯːn˦"],  // Mue uen is the Isan word for tomorrow.
+    kfy: ["भोल", "bʱoːl"],  // Bhol comes from *bhōrā 'daybreak', like Nepali भोलि (Turner's CDIAL).
+    mwr: ["काल", "kaːl"],  // Kāl comes from Sanskrit kalya 'dawn, at dawn' (Lalas; Turner's CDIAL); Lalas glosses it only as 'the coming day'.
+    kru: ["नॆला", "nelaː"],  // Nelā is the Kurukh word for tomorrow in all three Kurukh New Testaments.
+    mer: ["rũũjũ", "ɾoːdʒo"],  // Rũũjũ is the Meru word for tomorrow.
+    ce: ["кхана", "qaːnə"],  // Кхана is the Chechen word; Wiktionary relates it to хан 'time', as with тахана 'today' and селхана 'yesterday'.
+    sdh: ["سوو", "suː"],  // Suu is the Southern Kurdish word; Kurmanji says sibê and Sorani سبەی.
+    nym: ["igolo", "iɡolo"],  // Igolo means both 'yesterday' and 'tomorrow': the Nyamwezi Bible uses it for both days.
+    shn: ["မိူဝ်ႈၽုၵ်ႈ", "məː˧˨ pʰuːk˧˨"],  // Mue phuk is the Shan word for tomorrow.
+    egl: ["dman", "dmaŋ"],  // Dman comes from Latin dē māne 'from the morning', like Italian domani.
+    li: ["mörge", "ˈmœrəɣə"],  // Mörge 'tomorrow' is the same word as Mörge 'morning', from Proto-West-Germanic *morgin.
+    sco: ["the morn", "ðə mɔrn"],  // Scots says the morn, literally 'the morning', just as it says the day for 'today'.
+    bug: ["baja", "badʒa"],  // Baja is the Buginese word for tomorrow; esso baja is 'the day of tomorrow'.
+    bjn: ["isuk", "isuk"],  // Isuk is the Banjar word for tomorrow.
+    wal: ["wontto", "wontːo"],  // Wontto is the Wolaytta word for tomorrow.
+    kha: ["lashai", "laʃai"],  // Lashai is the Khasi word for tomorrow; one Bible writes it la shai.
+    wbm: ["pasax", "pasaʔ"],  // Pasax is the Wa word for tomorrow; the same Bible also writes it as two words, pa sax.
+    rhg: ["hailla", "hailːa"],  // Hailla is 'tomorrow'; 'yesterday' is gelde hailla, literally 'the hailla that has gone'.
   },
 };

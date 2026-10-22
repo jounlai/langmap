@@ -480,6 +480,15 @@ WORDS.bat = {
     en_my: "plain",
     pt_mo: "mouse",
     cjy_xz: "plain",
+    orh: "plain",
+    jup: "plain",
+    slr: "plain",
+    nan_zz: "unknown",
+    nan_xm: "unknown",
+    tob: "unknown",
+    moc: "unknown",
+    cag: "unknown",
+    tue: "unknown",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -905,5 +914,14 @@ WORDS.bat = {
     en_my: ["bat", "bæt"],  // From Middle English bakke, a word of Scandinavian origin.
     pt_mo: ["morcego", "muɾˈseɣu"],  // From Latin mūs caecus 'blind mouse'.
     cjy_xz: ["夜蝙蝠", "iɛ˥˨ piɛ̃˧˩˧ fəʔ˦˧"],  // Literally 'night bat': 蝙蝠, the Chinese word of its own, with 夜 'night'.
+    orh: ["nəməkəldun", "nəməkəldun"],  // An Oroqen word of its own for the bat, which WOLD classes as unanalyzable and not borrowed.
+    jup: ["cɨʔbʼɨ́h", "cɨʔbʼɨ́h"],  // A Hup word of its own for the bat, which WOLD traces back to the ancestor of Hup, Yuhup and Dâw.
+    slr: ["yarasan", "jiɑrɑsɑn"],  // Inherited from the same Oghuz word as Turkish yarasa.
+    nan_zz: ["密婆", "bit̚˩˨˩ po˩˧"],  // The Zhangzhou Hokkien word for the bat, the same word as Taiwanese bi̍t-pô.
+    nan_xm: ["密婆", "bit̚˦ po˨˦"],  // The Xiamen Hokkien word for the bat, the first of three that Wiktionary lists for Xiamen (with 日婆 li̍t-pô and 夜婆 iā-pô).
+    tob: ["mikai", "mikai"],  // The Toba (Qom) word for the bat.
+    moc: ["naʔgaʁanaʁa", "naʔɡaʁanaʁa"],  // The Mocoví word for the bat, which IDS segments into several morphemes.
+    cag: ["ʃejɔ", "ʃejɔ"],  // The Nivaclé word for the bat, the one the Nivaclé Bible uses (IDS also lists fakliʔs).
+    tue: ["oso", "oˈso"],  // The Tuyuca word for the bat. [Both Huber's osó and IDS's o'so put the accent on the second syllable]
   },
 };

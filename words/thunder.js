@@ -463,6 +463,39 @@ WORDS.thunder = {
     hui: "unknown",
     bi: "unknown",
     pis: "unknown",
+    cnh: "unknown",
+    gil: "unknown",
+    lbj: "unknown",
+    ast: "plain",
+    ja_oki: "god",
+    cr: "god",
+    nog: "sky",
+    xal: "unknown",
+    tru: "unknown",
+    nzm: "unknown",
+    toj: "unknown",
+    pbb: "unknown",
+    mh: "unknown",
+    hch: "unknown",
+    oj: "god",
+    jiv: "unknown",
+    tdh: "unknown",
+    pon: "unknown",
+    djk: "unknown",
+    otq: "unknown",
+    tvl: "unknown",
+    yan: "unknown",
+    emi: "unknown",
+    tcs: "unknown",
+    car: "unknown",
+    gum: "unknown",
+    shp: "unknown",
+    esu: "unknown",
+    cho: "unknown",
+    krl: "god",
+    olo: "unknown",
+    mwl: "unknown",
+    hsb: "unknown",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -872,5 +905,38 @@ WORDS.thunder = {
     hui: ["hari kulu", "hari kulu"],  // Used in the Huli Bible for the thunder the crowd heard in John 12:29.
     bi: ["tanda", "tanda"],  // Kept apart from laetning, the lightning; compare Tok Pisin tanda, from English thunder.
     pis: ["tanda", "tanda"],  // Thunder 'bursts' (bosta) in Pijin; laetning is the lightning.
+    cnh: ["khuari", "kʰuari"],  // Kept apart from nimtlau, the lightning; the verb phrase is khua a ri 'it thunders'.
+    gil: ["baa", "baː"],  // Mark 3:17 calls James and John 'children of the baa of heaven'; rain is karau.
+    lbj: ["བྲུག་ལྡིར", "ɖuɡldir"],  // Built on བྲུག, which in Tibetan means both 'dragon' and 'thunder', with ལྡིར 'to roar'.
+    ast: ["truenu", "ˈtɾwenu"],  // From Latin tonus, reshaped after tonitrus, like Spanish trueno; troníu and tronada are synonyms.
+    ja_oki: ["雷", "kannai"],  // Kannai is kami 'god' + nai 'sounding', the same build as Japanese kaminari.
+    cr: ["ᐱᔦᓯᐤ", "pijeːsiw"],  // Thunder is the Thunderbird itself: piyêsiw means both, and when it thunders the Cree say the Thunderbirds are calling.
+    nog: ["коьк гуьрилдев", "køk ɡyrildew"],  // Literally 'the sky's rumbling': коьк 'sky' + гуьрилдев 'rumbling', like Kumyk кёк кёкюрев.
+    xal: ["оһтрһу", "oɣtrɣu"],  // Thunder's sound is оһтрһун дун, with дун 'voice, sound'; lightning is цәклһн.
+    tru: ["ܪܥܕܐ", "raʕdo"],  // Kept apart from barqo, the lightning; Mark 3:17 uses the older Syriac raʕmo for 'sons of thunder'.
+    nzm: ["tingchei", "tiŋtʃei"],  // It shares its first part, ting-, with tingrui 'rain' and tingkai 'wind'.
+    toj: ["chawuk", "tʃawuk"],  // Thunder 'rumbles' (b'otoljuk) in the Tojolabal Bible; the flashing is lijpi.
+    pbb: ["kpiʼsx", "kpiʔʃ"],  // Used in the Nasa Yuwe New Testament for the thunder the crowd heard in John 12:29.
+    mh: ["jourur", "tʲewirˠwirˠ"],  // The same word is the verb 'to thunder'.
+    hch: ["tɨranari", "tɨɾanaɾi"],  // Mark 3:17 renders 'sons of thunder' as Tɨrarɨkamete, from the same root.
+    oj: ["animikii", "animikiː"],  // Thunder is the voice of the animikiig, the Thunderbirds: animikiikaa 'there is thunder' is built on it.
+    jiv: ["ipiamat", "ipiamat"],  // Kept apart from peem, the lightning; Exodus 9:23 adds the rumble ideophone téter.
+    tdh: ["बुलु़लु़", "bulyly"],  // Used in the Thulung New Testament for 'sons of thunder' in Mark 3:17.
+    pon: ["nahnsapwe", "naːnsapʷe"],  // Kept apart from lioal, the lightning; the Bible also spells it nansapwe.
+    djk: ["donduu", "donduː"],  // Thunder 'shouts' (bali) in Aukan: donduu e bali.
+    otq: ["ñu̱ni", "ɲɨni"],  // Kept apart from hwe̱i, the lightning.
+    tvl: ["fatili", "fatili"],  // Kept apart from uila, the lightning; the Nanumea dialect has mana.
+    yan: ["alwana", "alwana"],  // Kept apart from lapna, the lightning.
+    emi: ["palapalanga", "palapalaŋa"],  // Used in the Mussau New Testament for the thunder the crowd heard in John 12:29.
+    tcs: ["tanda", "tanda"],  // Kept apart from laitning, the lightning.
+    car: ["konomeru", "konomeɾu"],  // WOLD records it as a single word of its own, not built from konopo 'rain'.
+    gum: ["palaig", "palaik"],  // Thunder 'sounds' (trashi-) in the Misak Bible.
+    shp: ["tirin", "tiɻin"],  // Kept apart from kana, the lightning.
+    esu: ["kalluk", "kaɬuk"],  // Kept apart from the lightning, kenerpak; the verb is kalli- 'to thunder'.
+    cho: ["hiloha", "hiloha"],  // Kept apart from rain, umba; the same root gives the verb 'to thunder'.
+    krl: ["ukko", "ˈukːo"],  // Named after Ukko, the Finnic god of thunder; the same word means 'old man', and the rumble is ukkosen jyry.
+    olo: ["jyry", "ˈjyry"],  // In John 12:29 the Livvi Bible says 'Holy Elijah thundered', after the folk belief that the prophet makes thunder; NorthEuraLex also gives pyhälly.
+    mwl: ["truono", "ˈtɾwonu"],  // Used in the Mirandese Gospels for 'sons of thunder' in Mark 3:17.
+    hsb: ["hrom", "ɦrɔm"],  // The noun hrimanje, from hrimać 'to thunder', is also used.
   },
 };

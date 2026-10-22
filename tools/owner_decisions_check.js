@@ -145,7 +145,7 @@ const DECISIONS = [
             const L = JSON.parse(read('data/wordmap_seo.json')).langs;
             // Separate languages that only share a code prefix (Ryukyuan, Jejueo, Guinea-Bissau Kriol).
             const SEP = new Set(['ja_oki', 'ja_mvi', 'ja_rys', 'ko_jeju', 'pt_gw']);
-            const BUDGET = { lol: 0, turkey: 50, potato: 33, mobilephone: 49, hangover: 54, ladybird: 58, monday: 28, whale: 50, atsign: 29, blue: 5, cockcrow: 45, coffee: 25, computer: 8, cuckoo: 26, dopamine: 31, n99: 11, orange: 6, sugar: 11, sushi: 11, tea: 8, wifi: 25, woof: 29 };
+            const BUDGET = { lol: 0, turkey: 50, potato: 33, mobilephone: 49, hangover: 54, ladybird: 58, monday: 28, whale: 50, wisdomtooth: 48, atsign: 29, blue: 5, cockcrow: 45, coffee: 25, computer: 8, cuckoo: 26, dopamine: 31, n99: 11, orange: 6, sugar: 11, sushi: 11, tea: 8, wifi: 25, woof: 29 };
             const bad = [];
             for (const f of fs.readdirSync(path.join(ROOT, 'words'))) {
                 if (!f.endsWith('.js') || !/partial:\s*true/.test(read('words/' + f))) continue;

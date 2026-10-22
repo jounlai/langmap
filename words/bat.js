@@ -438,6 +438,24 @@ WORDS.bat = {
     szl: "unknown",
     fy: "mouse",
     ses: "unknown",
+    ho: "unknown",
+    cnh: "unknown",
+    kjb: "plain",
+    cuk: "unknown",
+    mzh: "unknown",
+    rar: "unknown",
+    yan: "unknown",
+    kos: "unknown",
+    yap: "unknown",
+    xal: "unknown",
+    bsk: "unknown",
+    usp: "plain",
+    cr: "unknown",
+    atj: "unknown",
+    mch: "unknown",
+    agr: "unknown",
+    car: "unknown",
+    crn: "unknown",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -821,5 +839,23 @@ WORDS.bat = {
     szl: ["gacopjyrz", "ɡaˈtsɔpjɪʂ"],  // The Silesian word, related to dialectal Polish gacopierz.
     fy: ["flearmûs", "ˈfliərmuːs"],  // Literally 'flutter-mouse', like Dutch vleermuis and German Fledermaus.
     ses: ["atafirfir", "atafirfir"],  // The Koyraboro Senni word for the bat.
+    ho: ["mariboi", "mariboi"],  // The Hiri Motu word for the bat, as used in the Hiri Motu Bible.
+    cnh: ["palak", "palak"],  // The Hakha Lai word for the bat, as used in the Lai Bible.
+    kjb: ["sotzʼ", "sotsʼ"],  // Inherited from Proto-Mayan *sootzʼ 'bat' (Kaufman), the word shared across the Mayan family.
+    cuk: ["uksir", "uksir"],  // The Kuna word for the bat, as used in the Kuna Bible.
+    mzh: ["asus", "asus"],  // The Wichí word for the bat, as used in the Wichí Bible.
+    rar: ["moa kirikiri", "moa kiɾikiɾi"],  // The Cook Islands Māori name for the bat, as used in both editions of the Cook Islands Bible.
+    yan: ["umis", "umis"],  // The Mayangna word for the bat, plural umis balna.
+    kos: ["fak", "fak"],  // The Kosraean word for the bat, as used in the Kosraean Bible.
+    yap: ["maglʼaw", "maɡlʼaw"],  // The Yapese word for the bat, as used in the Yapese Bible.
+    xal: ["бавуха", "bawuˈxa"],  // The Kalmyk word for the bat, cognate with Mongolian багваахай (Wiktionary).
+    bsk: ["gonoolanas", "ɡonoːlanas"],  // The Burushaski word for the bat, plural gonoolanasho; stress is left unmarked because the source does not give it.
+    usp: ["sootzʼ", "soːtsʼ"],  // Inherited from Proto-Mayan *sootzʼ 'bat' (Kaufman), keeping the long vowel.
+    cr: ["ᐊᐸᐦᒁᒌᐢ", "apahkwaːtʃiːs"],  // The Plains Cree word for the bat, apahkwâcîs in Roman spelling; a variant pahkwâcîs is also listed.
+    atj: ["apokwaratcic", "apokwaɾatʃiʃ"],  // The Atikamekw word for the bat, related to Plains Cree apahkwâcîs.
+    mch: ["dede", "deɾ̠e"],  // The Yeʼkwana word for bats in general, also the name of the greater bulldog bat and of a basket motif.
+    agr: ["jiincham", "hiːntʃam"],  // The Awajún word for the bat; stress is left unmarked.
+    car: ["rere", "ɾeɾe"],  // The Kariʼna word for the bat, also spelled lele.
+    crn: ["átziʼi", "ˈatsiʔi"],  // The Cora word for the bat, plural átziʼise; Wiktionary compares Huichol ʼási.
   },
 };

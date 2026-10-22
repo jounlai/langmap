@@ -355,6 +355,40 @@ WORDS.thunder = {
     war: "unknown",
     bik: "plain",
     vi_nom: "plain",
+    fa: "plain",
+    sw: "plain",
+    yo: "plain",
+    af: "plain",
+    nds: "plain",
+    shi: "plain",
+    sr: "plain",
+    ki: "plain",
+    rw: "unknown",
+    tg: "plain",
+    am: "unknown",
+    ti: "unknown",
+    ug: "unknown",
+    pcm: "unknown",
+    kri: "unknown",
+    ht: "unknown",
+    ee: "sky",
+    ak: "unknown",
+    ibb: "unknown",
+    ff: "unknown",
+    wo: "unknown",
+    sg: "unknown",
+    kln: "unknown",
+    skr: "plain",
+    bal: "unknown",
+    mad: "unknown",
+    kab: "unknown",
+    zu: "plain",
+    xh: "unknown",
+    st: "unknown",
+    cjy: "plain",
+    hsn: "plain",
+    gan: "plain",
+    mnp: "god",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -656,5 +690,39 @@ WORDS.thunder = {
     war: ["dalugdog", "daluɡˈdoɡ"],  // The same word as Cebuano and Bikol dalugdog.
     bik: ["daguldol", "daɡulˈdol"],  // The Naga word, inherited from Proto-Philippine *duldúl; the southern dialects say dalugdog.
     vi_nom: ["𩆐", "səm˧˥"],  // Sấm in Chữ Nôm: rain + phonetic 稟. 𩆷 (rain + 讖) is an equally attested spelling.
+    fa: ["رعد", "ɾæʔd"],  // Borrowed from Arabic raʿd long ago; the native Persian تندر tondar is the literary synonym.
+    sw: ["radi", "ˈradi"],  // Borrowed from Arabic raʿd; it covers both thunder and lightning, and ngurumo 'rumble' is also used for the sound.
+    yo: ["àrá", "àɾá"],  // Wiktionary traces it to Arabic raʿd.
+    af: ["donder", "ˈdɔnər"],  // Inherited from Dutch donder, the same Germanic root as English thunder; donderweer is the thunderstorm.
+    nds: ["Dunner", "ˈdʊnɐ"],  // From Old Saxon thunar, the same Germanic root as English thunder and German Donner.
+    shi: ["ⵉⴳⴳⵉⴳ", "iɡːiɡ"],  // An inherited Berber word, cognate with Tarifit ajjaj; it also means the thunderstorm.
+    sr: ["грмљавина", "ɡř̩mʎaʋina"],  // Built on грмети 'to thunder', the verb of Slavic *gromъ; гром itself leans toward the thunderbolt.
+    ki: ["irurumĩ", "iɾuɾume"],  // From the verb kũruruma 'to thunder' (Benson 1964); the plural marurumĩ is the rolling thunder.
+    rw: ["inkuba", "iŋkuba"],  // The Kinyarwanda Bible uses it for the thunder the crowd heard in John 12:29.
+    tg: ["раъд", "raʔd"],  // Borrowed from Arabic raʿd, as in Persian; the native тундар also exists, but both Tajik Bibles use раъд.
+    am: ["ነጐድጓድ", "nəɡʷədɡʷad"],  // Kept apart from መብረቅ, the lightning, in Revelation 4:5.
+    ti: ["ነጐድጓድ", "nɐɡʷɐdɡʷad"],  // The same word as Amharic ነጐድጓድ; lightning is መብረቕ.
+    ug: ["گۈلدۈرماما", "ɡyldyrmɑˈmɑ"],  // Kept apart from چاقماق, the lightning, in Exodus 9:23.
+    pcm: ["tonda", "tɔnda"],  // Used in the Naija Bible for thunder in Mark, Exodus and John.
+    kri: ["tɛnda", "ˈtɛnda"],  // Kept apart from laytin, the lightning, in Revelation 4:5.
+    ht: ["loray", "loraj"],  // Kept apart from zeklè, the lightning, in Exodus 9:23.
+    ee: ["dziɖegbe", "dziɖeɡbe"],  // Literally 'the sky utters a voice', dzi 'sky' + ɖe gbe, as the paraphrase 'dzie ɖe gbe' in John 12:29 shows; lightning is dzikedzo.
+    ak: ["aprannaa", "apranːaː"],  // Kept apart from anyinam, the lightning, in Revelation 4:5.
+    ibb: ["aduma", "aduma"],  // Used for thunder in Mark, Exodus and John in the Ibibio Bible.
+    ff: ["riggaango", "riɡːaːŋɡo"],  // Found in Cameroon and Nigeria Fulfulde and in the Burkina Faso Bible; Pular uses farñitere.
+    wo: ["dënnu", "dənːu"],  // Kept apart from melax, the lightning, in Revelation 4:5.
+    sg: ["bekpa", "bekpa"],  // Hail is 'the teeth of bekpa' and lightning 'the flash of bekpa', so the word names the whole storm power.
+    kln: ["tulet", "tulet"],  // Used for thunder in Mark 3:17 and Exodus 9:23 in the Kalenjin Bible.
+    skr: ["گاج", "ɡaːdʒ"],  // From Sanskrit garjā 'roaring', like Hindi गाज and Gujarati ગાજ; the cloud's gāj is the thunder.
+    bal: ["گرند", "ɡrand"],  // Kept apart from ترۆنگل, the hail, in Exodus 9:23.
+    mad: ["galudhuk", "ɡaluɖʱuʔ"],  // ABVD marks it as a loan from Javanese gludhug.
+    kab: ["ṛṛɛud", "rˤːʕud"],  // Kept apart from lebṛuq, the lightning, in Revelation 4:5.
+    zu: ["ukuduma", "ukuˈduma"],  // The infinitive of duma 'to roar, to thunder', from Proto-Bantu *-dùma.
+    xh: ["indudumo", "indudumo"],  // A noun from duduma 'to thunder', related to Zulu duma.
+    st: ["seaduma", "seaduma"],  // Built on the verb duma 'to thunder' (John 12:29 'ho a duma'); lightning is mahadima.
+    cjy: ["忽雷", "xuəʔ˨ luei˩"],  // Wiktionary's etymology of 雷 cites Taiyuan 忽雷 as a trace of an old prefix on the same Chinese root.
+    hsn: ["雷", "lei˩˧"],  // The plain old Chinese root, as in Mandarin.
+    gan: ["雷", "lui˧˥"],  // The plain old Chinese root, as in Mandarin.
+    mnp: ["雷公", "so˧˧ kɔŋ˥˦"],  // Literally 'Thunder Duke', the thunder god's name; Jian'ou reads 雷 with a vernacular s-.
   },
 };

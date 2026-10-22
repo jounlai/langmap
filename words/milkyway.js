@@ -245,6 +245,26 @@ WORDS.milkyway = {
     arn: "river",
     tzo: "road",
     rup: "milk",
+    och: "river",
+    zh_han: "river",
+    zh_tang: "river",
+    zh_song: "river",
+    zh_wenyan_edu: "river",
+    vi_han: "river",
+    ja_kanbun: "river",
+    ojp: "river",
+    ja_heian: "river",
+    ja_edo: "river",
+    non: "road",
+    enm: "milk",
+    en_em: "milk",
+    el_kath: "milk",
+    fr_class: "milk",
+    it_dan: "road",
+    ar_qur: "road",
+    fa_clas: "straw",
+    gmh: "road",
+    tpn: "road",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -433,5 +453,25 @@ WORDS.milkyway = {
     arn: ["wenu leufü", "wenu lewfɨ"],  // Literally 'the river above'; it mirrors in the sky the souls' journey along earthly rivers, and the Río Bueno bears the same name. Pascual Coña also recorded Rüpü epew 'the road of tales'. Spelling adapted to the row's alphabet from the source's Wenuleufu.
     tzo: ["be taiv", "be taiv"],  // Literally 'the path of frost', the Zinacantán name for the Milky Way in the dry season; in the rainy season it is be voʼ 'the path of rain'.
     rup: ["calea a laptilui", "ˈkale̯a a ˈlaptiluj"],  // Literally 'the road of the milk', glossed by Papahagi with Romanian calea-laptelui; Aromanian also has calea a paljilor 'the road of the straws'. Respelled into the row's standard orthography; first word cale 'road'.
+    och: ["雲漢", "*[ɢ]ʷə[n] n̥ˤar-s"],  // 雲漢 'the cloud Han' names the Milky Way after the Han River in the Shijing ode 'Bright is that Yunhan, turning across the sky'.
+    zh_han: ["河漢", "ɣǟ ŋ̥ānh"],  // 河漢 joins the names of the Yellow River and the Han River; one of the Eastern Han Nineteen Old Poems says '河漢清且淺' 'the Milky Way is clear and shallow'.
+    zh_tang: ["銀河", "ŋjin ɦa"],  // 銀河 'silver river' is the Tang name Li Bai uses when he likens a waterfall to the Milky Way falling from the ninth heaven.
+    zh_song: ["銀河", "iən xɔ"],  // 銀河 'silver river' is the Milky Way of Bai Pu's Yuan drama Rain on the Paulownia Tree, beside 銀漢 and 天河 in the same act.
+    zh_wenyan_edu: ["銀河", "ŋɐn˨˩ hɔː˨˩"],  // 銀河 'silver river' is the Classical Chinese name of Li Bai's famous waterfall line, read ngan4 ho4 in Cantonese.
+    vi_han: ["銀河", "ŋən˧˧ haː˨˩"],  // 銀河 'silver river' is read Ngân Hà in Sino-Vietnamese.
+    ja_kanbun: ["銀河", "ɡiŋɡa"],  // 銀河 'silver river' came into Japanese with Chinese verse and is first cited in the Kaifūsō of 751.
+    ojp: ["天河", "amanəɡapa"],  // Ama no gapa 'river of heaven', spelled out phonetically as 安麻能我波 in the Man'yōshū.
+    ja_heian: ["天の河", "amanokaɸa"],  // The Wamyō Ruijushō dictionary of about 934 glosses 天河 'heaven river' with the native name a-ma-no-ka-fa.
+    ja_edo: ["天の川", "amanoɡawa"],  // Amanogawa 'river of heaven' is the Milky Way of Bashō's haiku stretched over the rough sea toward Sado.
+    non: ["vetrarbraut", "ˈvetrɑrbrɑut"],  // Vetrarbraut 'the winter road' is the native name in the Old Icelandic computus Rímbegla, while mjólkrhringr 'milk-ring' only translated Latin via lactea.
+    enm: ["milky wey", "milki wɛi"],  // Chaucer's House of Fame is the first English record: 'the Galaxy, which men call the Milky Way, for it is white'.
+    en_em: ["milkie way", "mɪlki wɛː"],  // Milton describes the road to heaven as 'seen in the Galaxie, that Milkie way, which nightly as a circling Zone thou seest'.
+    el_kath: ["Γαλαξίας", "ɣalaˈksias"],  // Γαλαξίας is the ancient Greek 'milky (circle)', from γάλα 'milk', kept in learned Katharevousa prose.
+    fr_class: ["voie de lait", "vwɛ də lɛ"],  // The Académie's 1694 dictionary defines the 'voye de lait' and notes that the common people call it the road of Saint James.
+    it_dan: ["Via di Sa' Iacopo", "via di sa jakopo"],  // Dante says the learned call it the Galassia but the common people call it the Way of Saint James, after the pilgrim road to Santiago.
+    ar_qur: ["مجرة", "madʒarra"],  // Al-majarra is the classical Arabic name, which Lane explains as 'the drag-track', since the band looks like the trail left by something dragged across the sky.
+    fa_clas: ["کهکشان", "kahkaʃaːn"],  // Kahkashān 'straw-dragger' pictures the band as a road strewn with straw that was dragged across the sky.
+    gmh: ["herstrâze", "ˈhɛrstraːsə"],  // Konrad von Megenberg's Book of Nature (c. 1350) says lay people call the white band in the sky the 'army road'.
+    tpn: ["tapiʼirapé", "tapiʔiɾaˈpɛ"],  // Tapiʼirapé 'the tapir's path' is recorded once, in the colonial Vocabulário na Língua Brasílica, glossing 'the Way of Saint James in the sky, via lactea'.
   },
 };

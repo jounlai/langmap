@@ -523,6 +523,36 @@ WORDS.olderbrother = {
     wls: "age",
     ckv: "age",
     nan_xm: "age",
+    och: "age",
+    zh_han: "age",
+    zh_tang: "age",
+    zh_song: "age",
+    zh_wenyan_edu: "age",
+    vi_han: "age",
+    ojp: "age",
+    ja_heian: "age",
+    ja_chu: "age",
+    ja_edo: "age",
+    nci: "age",
+    puaz: "age",
+    xng: "age",
+    cmg: "age",
+    paus: "age",
+    p_dra: "age",
+    ko_mid: "age",
+    el_grc: "plain",
+    hbo: "plain",
+    he_mis: "plain",
+    hy_grab: "plain",
+    fr_class: "plain",
+    sukh: "age",
+    ptai: "age",
+    tpn: "age",
+    qwc: "plain",
+    sa_edu: "age",
+    akk: "plain",
+    enm: "plain",
+    el_kath: "plain",
   },
   routes: {
     age: {"color":"#db2777","emoji":"👆","en":"a word just for an older brother","ja":"兄だけを指す語","ko":"형만 가리키는 낱말","zh":"专指哥哥的词","yue":"專指哥哥嘅詞","vi":"từ riêng cho anh","th":"คำเฉพาะสำหรับพี่ชาย","id":"kata khusus untuk kakak","hi":"बड़े भाई का अलग शब्द","de":"eigenes Wort für den älteren Bruder","fr":"un mot propre au frère aîné","it":"una parola solo per il fratello maggiore","es":"una palabra solo para el hermano mayor","pt":"uma palavra só para o irmão mais velho","ru":"отдельное слово для старшего брата","uk":"окреме слово для старшого брата","ar":"كلمة خاصة بالأخ الأكبر","he":"מילה מיוחדת לאח הגדול","sw":"neno maalum kwa kaka mkubwa"},
@@ -987,5 +1017,35 @@ WORDS.olderbrother = {
     wls: ["taʻokete", "taʔokete"],  // Taʻokete is an older same-sex sibling, from Proto-Polynesian *taqokete; a younger one is tehina.
     ckv: ["qaqa", "ˈqaqa"],  // Qaqa is an older sibling of either sex, from Proto-Malayo-Polynesian *kaka; a younger sibling is suani.
     nan_xm: ["阿兄", "a˦˦ hiã˦˦"],  // A-hiaⁿ, with the familiar prefix a-, is the everyday word for an older brother in Xiamen; a younger brother is 小弟 sió-tī.
+    och: ["兄", "*m̥raŋ"],  // younger brother: 弟 *lˤəjʔ; already paired in the Shijing, and Mencius says a child grown up 'knows to respect his elder brother' (敬其兄).
+    zh_han: ["兄", "m̥reŋ"],  // younger brother: 弟 (Eastern Han l(h)ǝ̄́j).
+    zh_tang: ["兄", "hwiajŋ"],  // younger brother: 弟; colloquial 哥, a Xianbei loan akin to Mongolian aqa, was spreading in the Tang and later replaced 兄 in speech.
+    zh_song: ["哥哥", "kɔ kɔ"],  // Literary 兄 (xiuŋ in the Zhongyuan Yinyun) survived in writing, but 哥哥, from a Xianbei word akin to Mongolian aqa, was the spoken term.
+    zh_wenyan_edu: ["兄", "hɪŋ˥"],  // younger brother: 弟 (dai6); Mencius: a child grown up 'knows to respect his elder brother' (敬其兄).
+    vi_han: ["兄", "hwiŋ˧˧"],  // younger brother: 弟 (đệ); read huynh, as in huynh đệ 兄弟 'brothers'.
+    ojp: ["兄", "je"],  // younger: 弟 oto; ye named the older sibling of either sex, and was replaced by ani in the Heian period.
+    ja_heian: ["兄", "ani"],  // younger brother: 弟 (otouto); Heian ani replaced Old Japanese ye, and the dictionary also lists konokami as a synonym.
+    ja_chu: ["兄", "ani"],  // younger brother: 弟, usually pronounced ototo in the Middle Japanese period.
+    ja_edo: ["兄貴", "aɲiki"],  // younger brother: 弟 (otōto), which only in the Edo period came to mean a younger brother specifically; plain 兄 ani was the neutral word.
+    nci: ["āchcāuhtli", "aːtʃkaːwtɬi"],  // younger brother: iccāuhtli; āchcāuhtli also meant a leader or captain, and a shorter āchtli is also recorded.
+    puaz: ["*paʔti", "paʔti"],  // Stubbs (2011) glosses it 'older sibling'; it survives in Classical Nahuatl āchtli 'older brother'.
+    xng: ["ᠠᠬᠠ", "aqa"],  // younger sibling: degü; the Xianbei word behind Chinese 哥 'elder brother' is a close relative.
+    cmg: ["ᠠᠬ᠎ᠠ", "aqa"],  // younger sibling: degüü; modern Khalkha ах.
+    paus: ["*kaka", "kaka"],  // It named an older sibling of either sex; descendants include Amis kaka.
+    p_dra: ["*aṇṇa", "aɳɳa"],  // The ancestor of Tamil aṇṇaṉ and Telugu anna, both still 'older brother'.
+    ko_mid: ["혀ᇰ", "hjəŋ"],  // younger brother: 아ᅀᆞ (àzò, a man's younger brother), the ancestor of modern 아우; 혀ᇰ is a borrowing of Chinese 兄.
+    el_grc: ["ἀδελφός", "adelpʰós"],  // Greek had no separate word: the Septuagint calls Shem 'brother of Japheth the greater' (ἀδελφῷ Ιαφεθ τοῦ μείζονος).
+    hbo: ["אח", "ʔɔːħ"],  // An older brother is 'the big brother': 1 Samuel 17:28 calls Eliab אָחִיו הַגָּדוֹל, 'his brother the great one'.
+    he_mis: ["אח", "ʔaħ"],  // The Mishnah tells the brothers apart as הגדול 'the big one' and הקטן 'the small one'; the word for brother itself is the same.
+    hy_grab: ["եղբայր", "eɫbajɾ"],  // Age was added with an adjective: երէց եղբայր 'elder brother', կրտսեր եղբայր 'younger brother'.
+    fr_class: ["frère", "frɛːr"],  // An older brother was a frère aîné and a younger one a frère puîné or cadet; aîné is an adjective, 'first-born'.
+    sukh: ["พี่", "biː"],  // younger sibling: น้อง; the inscription opens 'my father was Si Inthrathit, my mother Nang Sueang, my elder brother Ban Mueang'.
+    ptai: ["*biː", "biː"],  // younger sibling: *nwoːŋ; the pair survives as Thai phi and nong, which do not specify sex.
+    tpn: ["tykeʼyra", "tɨkeˈʔɨɾa"],  // Said by a man; 'younger brother' was ybyra for a man speaking and kybyra for a woman.
+    qwc: ["wawqi", "wawqi"],  // A man's brother; older and younger were kuraq wawqi and sullk'a wawqi, and a woman called her brother tura.
+    sa_edu: ["अग्रजः", "ɐɡɾɐdʑɐh"],  // Literally 'born first'; a younger brother is अनुजः (anujaḥ), 'born after'.
+    akk: ["𒀀𒄷", "aχu"],  // An older brother was aḫum rabûm, 'big brother', and a younger one aḫum ṣeḫrum, 'small brother'.
+    enm: ["brother", "ˈbroːðər"],  // The Wycliffe Bible calls Eliab David's 'more brother', 'greater brother', and a younger one 'the lasse brother'.
+    el_kath: ["ἀδελφός", "aðelˈfos"],  // Greek adds an adjective: 'big brother' (μεγάλος ἀδελφός) for an older one and 'small brother' (μικρός ἀδελφός) for a younger one.
   },
 };

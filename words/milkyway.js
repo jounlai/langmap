@@ -233,6 +233,18 @@ WORDS.milkyway = {
     av: "road",
     ace: "other",
     vec: "milk",
+    udm: "road",
+    aii: "straw",
+    ng: "unknown",
+    wa: "road",
+    br: "road",
+    fy: "milk",
+    oc: "road",
+    sm: "other",
+    to: "other",
+    arn: "river",
+    tzo: "road",
+    rup: "milk",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -409,5 +421,17 @@ WORDS.milkyway = {
     av: ["ГӀачинух", "ʕatʃinuχ"],  // Literally 'the cows' path'.
     ace: ["Bima Sakti", "bima sakti"],  // The Indonesian name, after the hero Bima of the Mahabharata; Acehnese Wikipedia uses it as its title.
     vec: ["Via Làtea", "ˈvia ˈlatea"],  // Literally 'the milky way', the name Venetian uses for the bright band across the night sky.
+    udm: ["Кизилисюрес", "kiʑiʎiɕures"],  // Literally 'star road'; Udmurt also calls it Ӟазегсюрес 'goose road' and Лудӟазегсюрес 'wild-goose road'. First element equals the row's star cell кизили.
+    aii: ["ܫܒܝܠ ܬܒܢܐ", "ʃəwiːl tɪwnaː"],  // Literally 'the path of the chaff', like Arabic درب التبانة; ܐܘܪܚܐ ܕܓܢܒܐ 'the road of the thieves' is a synonym.
+    ng: ["Ekaladhidhi", "ekalaðiði"],  // The Oshindonga name for the Milky Way; its etymology is not given in the source.
+    wa: ["Voye Sint-Djåke", "voːj sɛ̃ dʒɔːk"],  // Literally 'Saint James's Road': in August it stretches south-west from Wallonia, as if showing the pilgrims' way to Santiago de Compostela.
+    br: ["Hent Sant-Jakez", "hɛ̃nt sɑ̃nt ˈʒaːkɛs"],  // Literally 'Saint James's Road'; Breton also says Hent Gwenn 'the white road'. IPA assembled from spelling.
+    fy: ["molkewei", "ˈmolkəvai"],  // Literally 'milk way', like Dutch melkweg; Frisian also says molkenpaad 'milk path'. First part is the row's milk cell molke.
+    oc: ["Camin de Sant Jaume", "kaˈmi de san ˈdʒawme"],  // Literally 'Saint James's Road', the pilgrims' way to Santiago; the learned name is Via Lactèa. IPA from Languedocien spelling rules.
+    sm: ["ʻAniva", "ʔaniva"],  // An inherited Polynesian name for the Milky Way (Proto-Polynesian *kaniwa, Tongan Kaniva); no literal meaning is recorded.
+    to: ["Kaniva", "kaniva"],  // An inherited Polynesian name (Proto-Polynesian *kaniwa), shared with Samoan ʻAniva and Tokelauan Kaniva; no literal meaning is recorded.
+    arn: ["wenu leufü", "wenu lewfɨ"],  // Literally 'the river above'; it mirrors in the sky the souls' journey along earthly rivers, and the Río Bueno bears the same name. Pascual Coña also recorded Rüpü epew 'the road of tales'. Spelling adapted to the row's alphabet from the source's Wenuleufu.
+    tzo: ["be taiv", "be taiv"],  // Literally 'the path of frost', the Zinacantán name for the Milky Way in the dry season; in the rainy season it is be voʼ 'the path of rain'.
+    rup: ["calea a laptilui", "ˈkale̯a a ˈlaptiluj"],  // Literally 'the road of the milk', glossed by Papahagi with Romanian calea-laptelui; Aromanian also has calea a paljilor 'the road of the straws'. Respelled into the row's standard orthography; first word cale 'road'.
   },
 };

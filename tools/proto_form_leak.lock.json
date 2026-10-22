@@ -59,6 +59,12 @@
     "ruling": "circular",
     "note": "Classical Mongolian is, with Middle Mongol, the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
   },
+  "cmg|sea": {
+    "form": "dalai",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Classical Mongolian is, with Middle Mongol, the basis of the Proto-Mongolic reconstruction. Ruled 2026-10-03 (round 45)."
+  },
   "cmg|sleep": {
     "form": "unta-",
     "proto": "pmng",
@@ -100,6 +106,12 @@
     "proto": "pmay",
     "ruling": "inherited",
     "note": "Kettunen & Helmke 'naʼ | na | na[ʼ] | n | \"lady, mother\"'. Attested. Row confirmed Classic Maya, not a mislabelled modern wordlist: its pronouns hiin and hat exist only in the glyphic corpus and match none of the atlas's yua/quc/ctu/itz rows."
+  },
+  "emy|mountain": {
+    "form": "witz",
+    "proto": "pmay",
+    "ruling": "inherited",
+    "note": "Classic Maya witz \"mountain\" is attested in the inscriptions (Boot 2009) and unchanged from Proto-Mayan. Ruled 2026-10-03 (round 45)."
   },
   "emy|one": {
     "form": "jun",
@@ -197,11 +209,23 @@
     "ruling": "inherited",
     "note": "Old Burmese လ la, attested, continued as modern လ."
   },
+  "obr|wind": {
+    "form": "lij",
+    "proto": "p_sit",
+    "ruling": "inherited",
+    "note": "Old Burmese လိယ် lij 'wind' (Sagart et al. 2019 Sino-Tibetan database; en.wiktionary လေ etym.) continues the atlas's Proto-Sino-Tibetan *qV-lij. Ruled 2026-10-12 (r92)."
+  },
   "obr|you": {
     "form": "naŋ",
     "proto": "p_sit",
     "ruling": "inherited",
     "note": "Old Burmese နင် naṅ, attested, continued as modern နင်. Also byte-identical to the pyx you cell, which is still flagged as a leak."
+  },
+  "ocm|father": {
+    "form": "ama",
+    "proto": "paus",
+    "ruling": "inherited",
+    "note": "Old Cham ama, inherited unchanged from PAn *ama (Cham inscriptions; r73). Ruled 2026-10-09."
   },
   "ocm|five": {
     "form": "lima",
@@ -209,17 +233,35 @@
     "ruling": "inherited",
     "note": "Old Cham lima 'five', attested; unchanged into modern Cham."
   },
+  "ocm|mother": {
+    "form": "ina",
+    "proto": "paus",
+    "ruling": "inherited",
+    "note": "Old Cham ina, inherited unchanged from PAn *ina (Cham inscriptions; r73). Ruled 2026-10-09."
+  },
   "ojp|bear": {
     "form": "kuma",
     "proto": "p_jpn",
     "ruling": "circular",
     "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
   },
+  "ojp|bird": {
+    "form": "təri",
+    "proto": "p_jpn,p_ryu",
+    "ruling": "circular",
+    "note": "Old Japanese tori 鳥 (Man'yōshū) is one of the attestations Proto-Japonic *tori is reconstructed from. Surfaced 2026-09-29 when review 547 corrected the row's one ɾ to the r it writes everywhere else (kurosi, kasira, kəkərə). Re-ruled 2026-10-15 (r108): ONCOJ ə vowel now written."
+  },
   "ojp|blood": {
     "form": "ti",
     "proto": "p_jpn,p_ryu",
     "ruling": "circular",
     "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|blue": {
+    "form": "awo",
+    "proto": "p_jpn",
+    "ruling": "inherited",
+    "note": "Old Japanese awo 'blue/green' (one grue word) continues the atlas's Proto-Japonic *awo. Ruled 2026-10-13 (r96)."
   },
   "ojp|bone": {
     "form": "pone",
@@ -245,6 +287,12 @@
     "ruling": "circular",
     "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
   },
+  "ojp|fire": {
+    "form": "pi",
+    "proto": "p_ryu",
+    "ruling": "inherited",
+    "note": "Old Japanese pi 'fire' and Proto-Ryukyuan *pi both continue Proto-Japonic *pi — shared inheritance, not a leak. Ruled 2026-10-15 (r107)."
+  },
   "ojp|five": {
     "form": "itu",
     "proto": "p_jpn,p_ryu",
@@ -256,6 +304,18 @@
     "proto": "p_jpn,p_ryu",
     "ruling": "circular",
     "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|green": {
+    "form": "awo",
+    "proto": "p_jpn",
+    "ruling": "inherited",
+    "note": "Old Japanese awo 'blue/green' (one grue word) continues the atlas's Proto-Japonic *awo. Ruled 2026-10-13 (r96)."
+  },
+  "ojp|hand": {
+    "form": "te",
+    "proto": "p_ryu",
+    "ruling": "inherited",
+    "note": "Old Japanese te 'hand' and Proto-Ryukyuan *te both continue Proto-Japonic *te. Ruled 2026-10-15 (r107)."
   },
   "ojp|head": {
     "form": "kasira",
@@ -269,6 +329,12 @@
     "ruling": "circular",
     "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
   },
+  "ojp|horse": {
+    "form": "uma",
+    "proto": "p_jpn",
+    "ruling": "circular",
+    "note": "Old Japanese is the principal basis of the Proto-Japonic reconstruction; Proto-Ryukyuan forms coincide where the word is unchanged. Ruled 2026-10-03 (round 45)."
+  },
   "ojp|hundred": {
     "form": "momo",
     "proto": "p_jpn",
@@ -281,11 +347,23 @@
     "ruling": "circular",
     "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
   },
+  "ojp|milk": {
+    "form": "ti",
+    "proto": "p_jpn",
+    "ruling": "inherited",
+    "note": "Old Japanese ti \"milk, breast\" (ONCOJ) continues Proto-Japonic *ti. Ruled 2026-10-12 (r88)."
+  },
   "ojp|mother": {
     "form": "papa",
     "proto": "p_jpn",
     "ruling": "circular",
     "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|mouth": {
+    "form": "kuti",
+    "proto": "p_ryu",
+    "ruling": "circular",
+    "note": "Old Japanese is the principal basis of the Proto-Japonic reconstruction; Proto-Ryukyuan forms coincide where the word is unchanged. Ruled 2026-10-03 (round 45)."
   },
   "ojp|name": {
     "form": "na",
@@ -298,6 +376,12 @@
     "proto": "p_jpn,p_ryu",
     "ruling": "circular",
     "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|person": {
+    "form": "pitə",
+    "proto": "p_ryu",
+    "ruling": "circular",
+    "note": "Old Japanese is the principal basis of the Proto-Japonic reconstruction; Proto-Ryukyuan forms coincide where the word is unchanged. Ruled 2026-10-03 (round 45). Re-ruled 2026-10-15 (r108): ONCOJ ə vowel now written."
   },
   "ojp|poop": {
     "form": "kuso",
@@ -353,6 +437,12 @@
     "ruling": "circular",
     "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
   },
+  "ojp|yesterday": {
+    "form": "kinəpu",
+    "proto": "p_jpn",
+    "ruling": "circular",
+    "note": "Old Japanese kino2pu (きのふ) is attested in the Man'yōshū; the Proto-Japonic *kinəpu is reconstructed on it and on Ryukyuan."
+  },
   "ojp|you": {
     "form": "na",
     "proto": "p_jpn",
@@ -364,6 +454,12 @@
     "proto": "p_aav",
     "ruling": "inherited",
     "note": "Old Khmer aññ, securely attested in the inscriptions; ʔaɲ is the only sensible IPA for it, so the agreement with PAA *ʔaɲ carries no information."
+  },
+  "omx|earth": {
+    "form": "tiʔ",
+    "proto": "p_aav",
+    "ruling": "inherited",
+    "note": "Old Mon attests the word unchanged from the Austroasiatic reconstruction (Shorto 1971; r45 slice 1). Ruled 2026-10-03 (round 45)."
   },
   "omx|fish": {
     "form": "kaʔ",
@@ -413,17 +509,35 @@
     "ruling": "inherited",
     "note": "Old Sundanese is attested in inscriptions and in Carita Parahyangan; manuk, lima, batu are ordinary. Row-level ruling."
   },
+  "osn|three": {
+    "form": "telu",
+    "proto": "paus",
+    "ruling": "inherited",
+    "note": "Old Sundanese telu (inscriptions) continues PAn *telu. Ruled 2026-10-12 (r88)."
+  },
   "ota|honey": {
     "form": "bal",
     "proto": "ptrk",
     "ruling": "inherited",
     "note": "Ottoman Turkish is documented in centuries of printed and manuscript material; bal, ben, sen are its ordinary words and survive unchanged in modern Turkish. Row-level ruling."
   },
+  "ota|horse": {
+    "form": "at",
+    "proto": "ptrk",
+    "ruling": "inherited",
+    "note": "Ottoman Turkish attests the word unchanged from Proto-Turkic (round 45 source in ~/langmap-work/r45/slice5.tsv). Ruled 2026-10-03 (round 45)."
+  },
   "ota|i": {
     "form": "ben",
     "proto": "ptrk",
     "ruling": "inherited",
     "note": "Ottoman Turkish is documented in centuries of printed and manuscript material; bal, ben, sen are its ordinary words and survive unchanged in modern Turkish. Row-level ruling."
+  },
+  "ota|poop": {
+    "form": "bok",
+    "proto": "ptrk",
+    "ruling": "inherited",
+    "note": "Ottoman Turkish attests the word unchanged from Proto-Turkic (round 45 source in ~/langmap-work/r45/slice5.tsv). Ruled 2026-10-03 (round 45)."
   },
   "ota|you": {
     "form": "sen",
@@ -436,6 +550,12 @@
     "proto": "ptrk",
     "ruling": "circular",
     "note": "Old Turkic (Orkhon and Yenisei inscriptions) is the primary witness FOR Proto-Turkic; the reconstruction is built on it, so agreement is the method, not a copy. Ruled at ROW level on that structural ground — individual cells were not re-verified against a dictionary."
+  },
+  "otk|horse": {
+    "form": "at",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Old Turkic (Orkhon) is the principal basis of the Proto-Turkic reconstruction. Ruled 2026-10-03 (round 45)."
   },
   "otk|i": {
     "form": "ben",
@@ -454,6 +574,12 @@
     "proto": "ptrk",
     "ruling": "circular",
     "note": "Old Turkic (Orkhon and Yenisei inscriptions) is the primary witness FOR Proto-Turkic; the reconstruction is built on it, so agreement is the method, not a copy. Ruled at ROW level on that structural ground — individual cells were not re-verified against a dictionary."
+  },
+  "otk|tongue": {
+    "form": "til",
+    "proto": "ptrk",
+    "ruling": "inherited",
+    "note": "Old Turkic til 'tongue' (Orkhon) continues the atlas's Proto-Turkic form. Ruled 2026-10-15 (r108)."
   },
   "otk|two": {
     "form": "eki",
@@ -509,6 +635,12 @@
     "ruling": "inherited",
     "note": "Sukhothai Thai; nok, taa, plaa, haa, sii, rooy, saam are ordinary Thai words that have not changed since the inscriptions, and Proto-Tai is reconstructed from the modern languages rather than from Sukhothai. Row-level ruling."
   },
+  "sukh|horse": {
+    "form": "maː",
+    "proto": "ptai",
+    "ruling": "inherited",
+    "note": "Sukhothai (Ramkhamhaeng inscription) attests the Tai word unchanged from Proto-Tai (r45 slice 3). Ruled 2026-10-03 (round 45)."
+  },
   "sukh|hundred": {
     "form": "rɔːj",
     "proto": "ptai",
@@ -521,11 +653,41 @@
     "ruling": "inherited",
     "note": "Sukhothai Thai; nok, taa, plaa, haa, sii, rooy, saam are ordinary Thai words that have not changed since the inscriptions, and Proto-Tai is reconstructed from the modern languages rather than from Sukhothai. Row-level ruling."
   },
+  "sukh|mouth": {
+    "form": "paːk",
+    "proto": "ptai",
+    "ruling": "inherited",
+    "note": "Sukhothai (Ramkhamhaeng inscription) attests the Tai word unchanged from Proto-Tai (r45 slice 3). Ruled 2026-10-03 (round 45)."
+  },
+  "sukh|one": {
+    "form": "nɯːŋ",
+    "proto": "ptai",
+    "ruling": "inherited",
+    "note": "Sukhothai-era Old Thai one continues the atlas's Proto-Tai one. Ruled 2026-10-13 (r94)."
+  },
   "sukh|three": {
     "form": "saːm",
     "proto": "ptai",
     "ruling": "inherited",
     "note": "Sukhothai Thai; nok, taa, plaa, haa, sii, rooy, saam are ordinary Thai words that have not changed since the inscriptions, and Proto-Tai is reconstructed from the modern languages rather than from Sukhothai. Row-level ruling."
+  },
+  "sukh|we": {
+    "form": "raw",
+    "proto": "ptai",
+    "ruling": "inherited",
+    "note": "Sukhothai Thai raw 'we' continues the atlas's Proto-Tai *raw. Ruled 2026-10-15 (r107)."
+  },
+  "sukh|you": {
+    "form": "mɯŋ",
+    "proto": "ptai",
+    "ruling": "inherited",
+    "note": "Sukhothai (Ramkhamhaeng inscription) attests the Tai word unchanged from Proto-Tai (r45 slice 3). Ruled 2026-10-03 (round 45)."
+  },
+  "txb|black": {
+    "form": "erkent",
+    "proto": "p_toc",
+    "ruling": "circular",
+    "note": "Tocharian B erkent 'black' is attested (Thomas, Tocharisches Elementarbuch II glossary); the Proto-Tocharian form is reconstructed from it and its A cognate. Attested, not a copy (r49, 2026-10-04)."
   },
   "txb|dog": {
     "form": "ku",
@@ -538,6 +700,12 @@
     "proto": "p_toc",
     "ruling": "circular",
     "note": "Tocharian B keme, in Adams; same construction."
+  },
+  "txb|you": {
+    "form": "tuwe",
+    "proto": "p_toc",
+    "ruling": "circular",
+    "note": "Tocharian B is a basis of the Proto-Tocharian reconstruction. Ruled 2026-10-03 (round 45)."
   },
   "xct|eye": {
     "form": "mik",
@@ -563,6 +731,12 @@
     "ruling": "circular",
     "note": "Middle Mongol (the Secret History, hP'ags-pa material) is the primary witness FOR Proto-Mongolic. Row-level ruling on the structural relationship."
   },
+  "xng|good": {
+    "form": "sajin",
+    "proto": "pmng",
+    "ruling": "inherited",
+    "note": "Middle Mongol sayin 'good' continues the atlas's Proto-Mongolic good. Ruled 2026-10-13 (r94)."
+  },
   "xng|i": {
     "form": "bi",
     "proto": "pmng",
@@ -581,6 +755,12 @@
     "ruling": "circular",
     "note": "Middle Mongol (the Secret History, hP'ags-pa material) is the primary witness FOR Proto-Mongolic. Row-level ruling on the structural relationship."
   },
+  "xng|mouth": {
+    "form": "aman",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol is a basis of the Proto-Mongolic reconstruction. Ruled 2026-10-03 (round 45)."
+  },
   "xng|name": {
     "form": "nere",
     "proto": "pmng",
@@ -592,6 +772,12 @@
     "proto": "pmng",
     "ruling": "circular",
     "note": "Middle Mongol (the Secret History, hP'ags-pa material) is the primary witness FOR Proto-Mongolic. Row-level ruling on the structural relationship."
+  },
+  "xng|sea": {
+    "form": "dalai",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol is a basis of the Proto-Mongolic reconstruction. Ruled 2026-10-03 (round 45)."
   },
   "xng|star": {
     "form": "hodun",
@@ -629,6 +815,18 @@
     "ruling": "circular",
     "note": "Karakhanid, i.e. the language of Kashgari's Diwan Lughat al-Turk, is with Old Turkic the primary witness for Proto-Turkic. Row-level ruling on the structural relationship; cells not individually re-verified."
   },
+  "xqa|book": {
+    "form": "bitig",
+    "proto": "ptrk",
+    "ruling": "inherited",
+    "note": "Kashgari (Dankoff & Kelly) attests bitig 'book, writing' in Karakhanid; Proto-Turkic *bitig is reconstructed from forms like it. Attested, not a copy (r49, 2026-10-04)."
+  },
+  "xqa|earth": {
+    "form": "jer",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Karakhanid (Kāšġarī) is a principal basis of the Proto-Turkic reconstruction. Ruled 2026-10-03 (round 45)."
+  },
   "xqa|eye": {
     "form": "köz",
     "proto": "ptrk",
@@ -641,11 +839,23 @@
     "ruling": "circular",
     "note": "Karakhanid, i.e. the language of Kashgari's Diwan Lughat al-Turk, is with Old Turkic the primary witness for Proto-Turkic. Row-level ruling on the structural relationship; cells not individually re-verified."
   },
+  "xqa|hand": {
+    "form": "elig",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Karakhanid elig \"hand\" (Kashgari's Dīwān) is among the attestations Proto-Turkic *elig is reconstructed from. Surfaced when review 547 replaced the row's qol, which means \"arm\"."
+  },
   "xqa|honey": {
     "form": "bal",
     "proto": "ptrk",
     "ruling": "circular",
     "note": "Karakhanid, i.e. the language of Kashgari's Diwan Lughat al-Turk, is with Old Turkic the primary witness for Proto-Turkic. Row-level ruling on the structural relationship; cells not individually re-verified."
+  },
+  "xqa|horse": {
+    "form": "at",
+    "proto": "ptrk",
+    "ruling": "inherited",
+    "note": "Karakhanid at (Kashgari) inherited unchanged from Proto-Turkic *at. Ruled 2026-10-12 (r87)."
   },
   "xqa|iron": {
     "form": "temür",
@@ -671,6 +881,12 @@
     "ruling": "circular",
     "note": "Karakhanid, i.e. the language of Kashgari's Diwan Lughat al-Turk, is with Old Turkic the primary witness for Proto-Turkic. Row-level ruling on the structural relationship; cells not individually re-verified."
   },
+  "xqa|person": {
+    "form": "kiši",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Karakhanid (Kāšġarī) is a principal basis of the Proto-Turkic reconstruction. Ruled 2026-10-03 (round 45)."
+  },
   "xqa|stone": {
     "form": "taš",
     "proto": "ptrk",
@@ -688,6 +904,12 @@
     "proto": "ptrk",
     "ruling": "circular",
     "note": "Karakhanid, i.e. the language of Kashgari's Diwan Lughat al-Turk, is with Old Turkic the primary witness for Proto-Turkic. Row-level ruling on the structural relationship; cells not individually re-verified."
+  },
+  "xqa|tongue": {
+    "form": "til",
+    "proto": "ptrk",
+    "ruling": "inherited",
+    "note": "Karakhanid til 'tongue' (Kashgari) continues the atlas's Proto-Turkic form. Ruled 2026-10-15 (r107)."
   },
   "xqa|you": {
     "form": "sen",
@@ -707,226 +929,10 @@
     "ruling": "circular",
     "note": "Tocharian A ku, attested; same construction."
   },
-  "ojp|bird": {
-    "form": "təri",
-    "proto": "p_jpn,p_ryu",
-    "ruling": "circular",
-    "note": "Old Japanese tori 鳥 (Man'yōshū) is one of the attestations Proto-Japonic *tori is reconstructed from. Surfaced 2026-09-29 when review 547 corrected the row's one ɾ to the r it writes everywhere else (kurosi, kasira, kəkərə). Re-ruled 2026-10-15 (r108): ONCOJ ə vowel now written."
-  },
-  "xqa|hand": {
-    "form": "elig",
-    "proto": "ptrk",
-    "ruling": "circular",
-    "note": "Karakhanid elig \"hand\" (Kashgari's Dīwān) is among the attestations Proto-Turkic *elig is reconstructed from. Surfaced when review 547 replaced the row's qol, which means \"arm\"."
-  },
-  "cmg|sea": {
-    "form": "dalai",
-    "proto": "pmng",
-    "ruling": "circular",
-    "note": "Classical Mongolian is, with Middle Mongol, the basis of the Proto-Mongolic reconstruction. Ruled 2026-10-03 (round 45)."
-  },
-  "emy|mountain": {
-    "form": "witz",
-    "proto": "pmay",
-    "ruling": "inherited",
-    "note": "Classic Maya witz \"mountain\" is attested in the inscriptions (Boot 2009) and unchanged from Proto-Mayan. Ruled 2026-10-03 (round 45)."
-  },
-  "ojp|horse": {
-    "form": "uma",
-    "proto": "p_jpn",
-    "ruling": "circular",
-    "note": "Old Japanese is the principal basis of the Proto-Japonic reconstruction; Proto-Ryukyuan forms coincide where the word is unchanged. Ruled 2026-10-03 (round 45)."
-  },
-  "ojp|mouth": {
-    "form": "kuti",
-    "proto": "p_ryu",
-    "ruling": "circular",
-    "note": "Old Japanese is the principal basis of the Proto-Japonic reconstruction; Proto-Ryukyuan forms coincide where the word is unchanged. Ruled 2026-10-03 (round 45)."
-  },
-  "ojp|person": {
-    "form": "pitə",
-    "proto": "p_ryu",
-    "ruling": "circular",
-    "note": "Old Japanese is the principal basis of the Proto-Japonic reconstruction; Proto-Ryukyuan forms coincide where the word is unchanged. Ruled 2026-10-03 (round 45). Re-ruled 2026-10-15 (r108): ONCOJ ə vowel now written."
-  },
-  "omx|earth": {
-    "form": "tiʔ",
-    "proto": "p_aav",
-    "ruling": "inherited",
-    "note": "Old Mon attests the word unchanged from the Austroasiatic reconstruction (Shorto 1971; r45 slice 1). Ruled 2026-10-03 (round 45)."
-  },
-  "ota|horse": {
-    "form": "at",
-    "proto": "ptrk",
-    "ruling": "inherited",
-    "note": "Ottoman Turkish attests the word unchanged from Proto-Turkic (round 45 source in ~/langmap-work/r45/slice5.tsv). Ruled 2026-10-03 (round 45)."
-  },
-  "ota|poop": {
-    "form": "bok",
-    "proto": "ptrk",
-    "ruling": "inherited",
-    "note": "Ottoman Turkish attests the word unchanged from Proto-Turkic (round 45 source in ~/langmap-work/r45/slice5.tsv). Ruled 2026-10-03 (round 45)."
-  },
-  "otk|horse": {
-    "form": "at",
-    "proto": "ptrk",
-    "ruling": "circular",
-    "note": "Old Turkic (Orkhon) is the principal basis of the Proto-Turkic reconstruction. Ruled 2026-10-03 (round 45)."
-  },
-  "sukh|horse": {
-    "form": "maː",
-    "proto": "ptai",
-    "ruling": "inherited",
-    "note": "Sukhothai (Ramkhamhaeng inscription) attests the Tai word unchanged from Proto-Tai (r45 slice 3). Ruled 2026-10-03 (round 45)."
-  },
-  "sukh|mouth": {
-    "form": "paːk",
-    "proto": "ptai",
-    "ruling": "inherited",
-    "note": "Sukhothai (Ramkhamhaeng inscription) attests the Tai word unchanged from Proto-Tai (r45 slice 3). Ruled 2026-10-03 (round 45)."
-  },
-  "sukh|you": {
-    "form": "mɯŋ",
-    "proto": "ptai",
-    "ruling": "inherited",
-    "note": "Sukhothai (Ramkhamhaeng inscription) attests the Tai word unchanged from Proto-Tai (r45 slice 3). Ruled 2026-10-03 (round 45)."
-  },
-  "txb|you": {
-    "form": "tuwe",
-    "proto": "p_toc",
-    "ruling": "circular",
-    "note": "Tocharian B is a basis of the Proto-Tocharian reconstruction. Ruled 2026-10-03 (round 45)."
-  },
-  "xng|mouth": {
-    "form": "aman",
-    "proto": "pmng",
-    "ruling": "circular",
-    "note": "Middle Mongol is a basis of the Proto-Mongolic reconstruction. Ruled 2026-10-03 (round 45)."
-  },
-  "xng|sea": {
-    "form": "dalai",
-    "proto": "pmng",
-    "ruling": "circular",
-    "note": "Middle Mongol is a basis of the Proto-Mongolic reconstruction. Ruled 2026-10-03 (round 45)."
-  },
-  "xqa|earth": {
-    "form": "jer",
-    "proto": "ptrk",
-    "ruling": "circular",
-    "note": "Karakhanid (Kāšġarī) is a principal basis of the Proto-Turkic reconstruction. Ruled 2026-10-03 (round 45)."
-  },
-  "xqa|person": {
-    "form": "kiši",
-    "proto": "ptrk",
-    "ruling": "circular",
-    "note": "Karakhanid (Kāšġarī) is a principal basis of the Proto-Turkic reconstruction. Ruled 2026-10-03 (round 45)."
-  },
   "zh_tang|i": {
     "form": "ŋa",
     "proto": "p_sit",
     "ruling": "inherited",
     "note": "我 in Pulleyblank's Early Middle Chinese (ytenx 蒲立本 column) is ŋa; Proto-Sino-Tibetan *ŋa is its ancestor. A real inheritance, not a copy (zh_tang rebuild 2026-10-04)."
-  },
-  "xqa|book": {
-    "form": "bitig",
-    "proto": "ptrk",
-    "ruling": "inherited",
-    "note": "Kashgari (Dankoff & Kelly) attests bitig 'book, writing' in Karakhanid; Proto-Turkic *bitig is reconstructed from forms like it. Attested, not a copy (r49, 2026-10-04)."
-  },
-  "txb|black": {
-    "form": "erkent",
-    "proto": "p_toc",
-    "ruling": "circular",
-    "note": "Tocharian B erkent 'black' is attested (Thomas, Tocharisches Elementarbuch II glossary); the Proto-Tocharian form is reconstructed from it and its A cognate. Attested, not a copy (r49, 2026-10-04)."
-  },
-  "ocm|father": {
-    "form": "ama",
-    "proto": "paus",
-    "ruling": "inherited",
-    "note": "Old Cham ama, inherited unchanged from PAn *ama (Cham inscriptions; r73). Ruled 2026-10-09."
-  },
-  "ocm|mother": {
-    "form": "ina",
-    "proto": "paus",
-    "ruling": "inherited",
-    "note": "Old Cham ina, inherited unchanged from PAn *ina (Cham inscriptions; r73). Ruled 2026-10-09."
-  },
-  "xqa|horse": {
-    "form": "at",
-    "proto": "ptrk",
-    "ruling": "inherited",
-    "note": "Karakhanid at (Kashgari) inherited unchanged from Proto-Turkic *at. Ruled 2026-10-12 (r87)."
-  },
-  "ojp|milk": {
-    "form": "ti",
-    "proto": "p_jpn",
-    "ruling": "inherited",
-    "note": "Old Japanese ti \"milk, breast\" (ONCOJ) continues Proto-Japonic *ti. Ruled 2026-10-12 (r88)."
-  },
-  "osn|three": {
-    "form": "telu",
-    "proto": "paus",
-    "ruling": "inherited",
-    "note": "Old Sundanese telu (inscriptions) continues PAn *telu. Ruled 2026-10-12 (r88)."
-  },
-  "obr|wind": {
-    "form": "lij",
-    "proto": "p_sit",
-    "ruling": "inherited",
-    "note": "Old Burmese လိယ် lij 'wind' (Sagart et al. 2019 Sino-Tibetan database; en.wiktionary လေ etym.) continues the atlas's Proto-Sino-Tibetan *qV-lij. Ruled 2026-10-12 (r92)."
-  },
-  "sukh|one": {
-    "form": "nɯːŋ",
-    "proto": "ptai",
-    "ruling": "inherited",
-    "note": "Sukhothai-era Old Thai one continues the atlas's Proto-Tai one. Ruled 2026-10-13 (r94)."
-  },
-  "xng|good": {
-    "form": "sajin",
-    "proto": "pmng",
-    "ruling": "inherited",
-    "note": "Middle Mongol sayin 'good' continues the atlas's Proto-Mongolic good. Ruled 2026-10-13 (r94)."
-  },
-  "ojp|blue": {
-    "form": "awo",
-    "proto": "p_jpn",
-    "ruling": "inherited",
-    "note": "Old Japanese awo 'blue/green' (one grue word) continues the atlas's Proto-Japonic *awo. Ruled 2026-10-13 (r96)."
-  },
-  "ojp|green": {
-    "form": "awo",
-    "proto": "p_jpn",
-    "ruling": "inherited",
-    "note": "Old Japanese awo 'blue/green' (one grue word) continues the atlas's Proto-Japonic *awo. Ruled 2026-10-13 (r96)."
-  },
-  "ojp|fire": {
-    "form": "pi",
-    "proto": "p_ryu",
-    "ruling": "inherited",
-    "note": "Old Japanese pi 'fire' and Proto-Ryukyuan *pi both continue Proto-Japonic *pi — shared inheritance, not a leak. Ruled 2026-10-15 (r107)."
-  },
-  "ojp|hand": {
-    "form": "te",
-    "proto": "p_ryu",
-    "ruling": "inherited",
-    "note": "Old Japanese te 'hand' and Proto-Ryukyuan *te both continue Proto-Japonic *te. Ruled 2026-10-15 (r107)."
-  },
-  "sukh|we": {
-    "form": "raw",
-    "proto": "ptai",
-    "ruling": "inherited",
-    "note": "Sukhothai Thai raw 'we' continues the atlas's Proto-Tai *raw. Ruled 2026-10-15 (r107)."
-  },
-  "xqa|tongue": {
-    "form": "til",
-    "proto": "ptrk",
-    "ruling": "inherited",
-    "note": "Karakhanid til 'tongue' (Kashgari) continues the atlas's Proto-Turkic form. Ruled 2026-10-15 (r107)."
-  },
-  "otk|tongue": {
-    "form": "til",
-    "proto": "ptrk",
-    "ruling": "inherited",
-    "note": "Old Turkic til 'tongue' (Orkhon) continues the atlas's Proto-Turkic form. Ruled 2026-10-15 (r108)."
   }
 }

@@ -677,6 +677,35 @@ WORDS.yesterday = {
     ja_oki: "distinct",
     niu: "distinct",
     mrq: "unknown",
+    p_ine: "unknown",
+    p_jpn: "distinct",
+    p_ryu: "distinct",
+    akk: "distinct",
+    arc: "distinct",
+    syc: "distinct",
+    egy: "distinct",
+    cop: "distinct",
+    h_vedic: "distinct",
+    pmh: "unknown",
+    mga: "distinct",
+    goh: "distinct",
+    orv: "distinct",
+    fr_class: "distinct",
+    es_sgl: "distinct",
+    nci: "distinct",
+    qwc: "distinct",
+    fa_clas: "distinct",
+    ojp: "distinct",
+    ja_heian: "distinct",
+    ja_edo: "distinct",
+    ko_mid: "distinct",
+    zh_wenyan_edu: "distinct",
+    vi_han: "distinct",
+    hbo: "distinct",
+    gez: "distinct",
+    paus: "unknown",
+    cmg: "distinct",
+    pzh: "unknown",
   },
   routes: {
     same: {"color":"#db2777","emoji":"🔁","en":"one word for yesterday and tomorrow","ja":"昨日と明日が同じ語","ko":"어제와 내일이 한 낱말","zh":"昨天和明天同一个词","yue":"尋日同聽日同一個詞","vi":"một từ cho hôm qua và ngày mai","th":"คำเดียวทั้งเมื่อวานและพรุ่งนี้","id":"satu kata untuk kemarin dan besok","hi":"बीते और आने वाले कल का एक शब्द","de":"ein Wort für gestern und morgen","fr":"un mot pour hier et demain","it":"una parola per ieri e domani","es":"una palabra para ayer y mañana","pt":"uma palavra para ontem e amanhã","ru":"одно слово для вчера и завтра","uk":"одне слово для учора й завтра","ar":"كلمة واحدة لأمس وغد","he":"מילה אחת לאתמול ולמחר","sw":"neno moja kwa jana na kesho"},
@@ -1299,5 +1328,34 @@ WORDS.yesterday = {
     ja_oki: ["ちぬー", "tɕinuː"],  // tomorrow: あちゃー; cognate with Japanese きのう, it was spelled ちぬふ in the 1896 Okinawan dictionary, per JLect.
     niu: ["ne afi", "ne afi"],  // tomorrow: pogipogi; ne afi continues Proto-Oceanic *qana-(n)afi, the source of Tongan ʔaneafi.
     mrq: ["tinahi", "tinahi"],  // tinahi is listed as "hier, yesterday" in Charpentier and François' Marquesan wordlist, cited by POLLEX under East Polynesian *tai-nafi.
+    p_ine: ["*dʰǵʰyés", "dʰǵʰjés"],  // Source of Latin herī, Greek χθές, Sanskrit hyás and English yester-; no common PIE word for 'tomorrow' is reconstructed.
+    p_jpn: ["*kinəpu", "kinəpu"],  // tomorrow: *asita; *kinəpu ends in *pu 'day', the ancestor of Japanese kinō.
+    p_ryu: ["*kinou", "kinou"],  // tomorrow: *asita; recorded as kʰi.ri.u in the Korean Haedong chegukki of 1501.
+    akk: ["𒄠𒊭𒇷", "amʃaːli"],  // tomorrow: urram (𒌨𒊏𒄠); amšāli comes from Proto-Semitic *ʔamšay- and is related to Arabic ams.
+    arc: ["ܐܬܡܠܝ", "ʔeθmaːl"],  // tomorrow: ܡܚܪ (mḥār); CAL records ʾeṯmāl from the 5th-c. BCE Elephantine letters onwards but not in Old or Biblical Aramaic.
+    syc: ["ܐܬܡܠܝ", "ʔeθmaːl"],  // tomorrow: ܡܚܪ (mḥār); the final yodh of ܐܬܡܠܝ is written but not pronounced.
+    egy: ["𓋴𓆑𓇳", "sef"],  // tomorrow: dwꜣw ('early morning'); sf is written with the sun sign as determinative and survives as Coptic ⲥⲁϥ.
+    cop: ["ⲥⲁϥ", "saf"],  // tomorrow: ⲣⲁⲥⲧⲉ; ⲥⲁϥ continues Egyptian sf 'yesterday' (Akhmimic/Fayyumic ⲥⲉϥ).
+    h_vedic: ["ह्यः", "ɦjɐ́ɦ"],  // tomorrow: श्वः (śvás); hyás is a direct cognate of Greek χθές and English yester-.
+    pmh: ["हिज्जो", "ɦidʒːo"],  // From Sanskrit hyáḥ 'yesterday'; the Prakrit word for 'tomorrow' was not confirmed here.
+    mga: ["indé", "inʲˈdʲeː"],  // tomorrow: i mbárach; indé gives Irish inné and Scottish Gaelic an-dè, its in- copied from indiu 'today'.
+    goh: ["gesteron", "ˈɡesteron"],  // tomorrow: morgane; gesteron is the ancestor of German gestern (Köbler).
+    orv: ["вьчера", "vĭtʃera"],  // tomorrow: заутра; вьчера is the ancestor of Russian вчера and Ukrainian учора.
+    fr_class: ["hier", "jɛr"],  // tomorrow: demain; 17th-century verse could count hier as one syllable or two (hi-er).
+    es_sgl: ["ayer", "aˈʝeɾ"],  // tomorrow: mañana; ayer comes from Latin ad heri, and mañana also meant 'morning'.
+    nci: ["yālhua", "jaːlwa"],  // tomorrow: mōztla; both are recorded in Alonso de Molina's 1555 Spanish–Nahuatl vocabulary.
+    qwc: ["qayna", "qajna"],  // tomorrow: kaya (q'aya, Holguín 1608); Holguín writes ccayna, ccayna punchao 'yesterday's day'.
+    fa_clas: ["دیروز", "diːroːz"],  // tomorrow: فردا (fardā); dī-rōz is literally 'yester-day', dī going back to Middle Persian dīk.
+    ojp: ["昨日", "kinəpu"],  // tomorrow: 明日 (asu); the final pu of kino2pu is a form of pi 'day', as in kepu 'today'.
+    ja_heian: ["昨日", "kinoɸu"],  // tomorrow: 明日 (asu); written きのふ in kana, a spelling kept until 1946.
+    ja_edo: ["昨日", "kinoː"],  // tomorrow: 明日 (ashita, asu); ashita first meant 'next morning' before shifting to 'tomorrow'.
+    ko_mid: ["어·제", "ətsəj"],  // tomorrow: ᄂᆡᅀᅵᆯ (nòyzíl, Sino-Korean 來日); the high-tone dot falls on the second syllable.
+    zh_wenyan_edu: ["昨日", "tsɔːk˨ jɐt˨"],  // tomorrow: 明日; both words appear in one passage of the Zhuangzi (Shanmu chapter).
+    vi_han: ["昨日", "taːk˨˩ ɲət˨˩"],  // tomorrow: 明日 (minh nhật); read tạc nhật in Sino-Vietnamese.
+    hbo: ["תמול", "təˈmoːl"],  // tomorrow: מחר (māḥār); the prothetic variant אֶתְמוֹל ʾeṯmōl also occurs, and gave Modern Hebrew etmol.
+    gez: ["ትማልም", "təmaːləm"],  // tomorrow: ጌሰም (gesam); Leslau notes that both words carry the same old ending -m.
+    paus: ["*siRa", "siRa"],  // Blust reconstructs *siRa 'yesterday' for Proto-Austronesian; the ACD lists no matching PAN 'tomorrow' word.
+    cmg: ["ᠥᠴᠦᠭᠡᠳᠦᠷ", "øtʃyɡedyr"],  // tomorrow: ᠮᠠᠷᠭᠠᠰᠢ (margasi); written öčügedür in the script, it is spoken өчигдөр in modern Khalkha.
+    pzh: ["nukuazixa", "nukuazixa"],  // Pazeh example sentence: nukuazixa meken akaw ki balan 'yesterday the cat ate the fish'.
   },
 };

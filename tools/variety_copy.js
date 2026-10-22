@@ -100,7 +100,8 @@ const ROOT = path.join(__dirname, '..');
  *  pair this tool copies. See the route marker note in wordmap_data.js. */
 const ROUTE = new Set(['bear', 'wine', 'we', 'foot', 'tea', 'orange',
     'sugar', 'coffee', 'blue', 'n99',
-    'turkey', 'potato', 'mobilephone', 'ladybird', 'milkyway', 'rainbow', 'thumb', 'yesterday', 'olderbrother']);
+    'turkey', 'potato', 'mobilephone', 'ladybird', 'milkyway', 'rainbow', 'thumb', 'yesterday', 'olderbrother',
+    'grandmother', 'tomorrow', 'bat', 'littlefinger', 'thunder', 'monday', 'wisdomtooth', 'cheers', 'blessyou', 'whale']);
 
 /** Characters that carry no phonetic content and so cannot be a locus. */
 const NOISE = new Set([' ', '/', '-', 'ˈ', 'ˌ', '.']);

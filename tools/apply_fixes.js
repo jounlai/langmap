@@ -53,7 +53,8 @@ const ROOT = path.join(__dirname, '..');
 
 const ROUTE = new Set(['bear', 'wine', 'we', 'foot', 'tea', 'orange', 'sugar',
     'coffee', 'blue', 'n99',
-    'turkey', 'potato', 'mobilephone', 'ladybird', 'milkyway', 'rainbow', 'thumb', 'yesterday', 'olderbrother']);
+    'turkey', 'potato', 'mobilephone', 'ladybird', 'milkyway', 'rainbow', 'thumb', 'yesterday', 'olderbrother',
+    'grandmother', 'tomorrow', 'bat', 'littlefinger', 'thunder', 'monday', 'wisdomtooth', 'cheers', 'blessyou', 'whale']);
 
 const file = process.argv[2];
 const dry = process.argv.includes('--dry');

@@ -375,6 +375,113 @@ WORDS.olderbrother = {
     quc: "age",
     bts: "age",
     quz: "plain",
+    ami: "age",
+    is: "plain",
+    wa: "plain",
+    tzh: "age",
+    loz: "age",
+    kqn: "age",
+    lue: "age",
+    her: "age",
+    ote: "plain",
+    quy: "plain",
+    nij: "age",
+    new: "age",
+    akb: "age",
+    sda: "age",
+    aoz: "age",
+    hwc: "plain",
+    aii: "plain",
+    mt: "plain",
+    sm: "plain",
+    mam: "age",
+    cak: "age",
+    gej: "age",
+    lol: "age",
+    ebu: "plain",
+    ses: "age",
+    fj: "age",
+    pis: "plain",
+    pap: "plain",
+    pdc: "plain",
+    bxr: "age",
+    naq: "plain",
+    bdq: "age",
+    ctu: "age",
+    ty: "age",
+    rar: "age",
+    niu: "age",
+    tvl: "plain",
+    cr: "age",
+    meu: "age",
+    pwn: "plain",
+    mh: "age",
+    pau: "age",
+    ch: "plain",
+    bnn: "age",
+    tab: "plain",
+    tkr: "plain",
+    nog: "age",
+    shp: "age",
+    crs: "plain",
+    kmh: "plain",
+    gil: "plain",
+    esu: "age",
+    xal: "age",
+    cnh: "age",
+    lbj: "age",
+    nzm: "age",
+    xkz: "age",
+    gay: "age",
+    hui: "plain",
+    bru: "age",
+    ho: "age",
+    cuk: "age",
+    agr: "plain",
+    trv: "age",
+    tru: "plain",
+    tay: "age",
+    kjh: "age",
+    sbp: "age",
+    djk: "plain",
+    mxv: "plain",
+    iu: "age",
+    gd: "plain",
+    emp: "plain",
+    mrq: "age",
+    ko_jeju: "age",
+    mic: "age",
+    tsu: "age",
+    moh: "age",
+    wbp: "age",
+    tao: "age",
+    pyu: "age",
+    lkt: "age",
+    chy: "age",
+    tkl: "plain",
+    stq: "plain",
+    kw: "plain",
+    szy: "age",
+    sma: "plain",
+    dak: "age",
+    yux: "age",
+    es_cr: "plain",
+    es_hn: "plain",
+    es_ni: "plain",
+    es_sv: "plain",
+    ar_jo: "plain",
+    ar_ps: "plain",
+    fr_lu: "plain",
+    fr_cm: "plain",
+    de_lu: "plain",
+    en_ng2: "plain",
+    pt_mo: "plain",
+    hsn_hy: "age",
+    win: "age",
+    cro: "age",
+    es_bo: "plain",
+    es_py: "plain",
+    es_pa: "plain",
   },
   routes: {
     age: {"color":"#db2777","emoji":"👆","en":"a word just for an older brother","ja":"兄だけを指す語","ko":"형만 가리키는 낱말","zh":"专指哥哥的词","yue":"專指哥哥嘅詞","vi":"từ riêng cho anh","th":"คำเฉพาะสำหรับพี่ชาย","id":"kata khusus untuk kakak","hi":"बड़े भाई का अलग शब्द","de":"eigenes Wort für den älteren Bruder","fr":"un mot propre au frère aîné","it":"una parola solo per il fratello maggiore","es":"una palabra solo para el hermano mayor","pt":"uma palavra só para o irmão mais velho","ru":"отдельное слово для старшего брата","uk":"окреме слово для старшого брата","ar":"كلمة خاصة بالأخ الأكبر","he":"מילה מיוחדת לאח הגדול","sw":"neno maalum kwa kaka mkubwa"},
@@ -691,5 +798,112 @@ WORDS.olderbrother = {
     quc: ["atz achi", "ats atʃi"],  // Kʼicheʼ atz achi pairs atz, an older sibling, with achi 'man'; younger: chaqʼ ala; achalal is a man's brother in general.
     bts: ["abang", "abaŋ"],  // Simalungun abang is an elder brother, the same word as Malay abang; younger: anggi.
     quz: ["wayqi", "wajqi"],  // Quechua marks the speaker's sex, not age: a man's brother is wayqi and a woman's is tura, and an older one is a kuraq wayqi.
+    ami: ["kaka", "kaka"],  // Kaka means an older sibling of either sex, from Proto-Malayo-Polynesian *kaka; a younger sibling is safa.
+    is: ["bróðir", "ˈprouːðɪr"],  // Icelandic uses bróðir for older and younger brothers alike; an older one is eldri or stóri bróðir.
+    wa: ["fré", "fʁe"],  // Walloon fré, from Latin frater, covers older and younger brothers alike.
+    tzh: ["bankil", "bankil"],  // Bankil is a man's older brother (in northern dialects anyone's); some dialects use xi'lel for a woman's older brother, and a younger brother is ihts'inal.
+    loz: ["muhulwani", "muhulwani"],  // Muhulwani is an older sibling of the same sex; a younger one is munyani, and a sibling of the opposite sex is kaizeli.
+    kqn: ["koloja", "kolodʒa"],  // Koloja is an older sibling; a younger one is nkasa.
+    lue: ["yaya", "jaja"],  // Yaya is an older sibling; a younger one is mwanyike (mwanyikami 'my younger sibling').
+    her: ["erumbi", "erumbi"],  // Erumbi is an older sibling; a younger one is omuangu.
+    ote: ["jwädä", "xʷãdã"],  // An older brother is dätä jwädä, 'big brother'; ida̲ is a woman's brother.
+    quy: ["wawqi", "ˈwawχi"],  // Wawqi is a man's brother of any age; the Bible says mayor wawqi, with Spanish mayor 'older', for an older brother.
+    nij: ["kaka", "kaka"],  // Kaka is an older sibling; a younger one is andi.
+    new: ["दाजु", "daːdʒu"],  // Dāju is an older brother; a younger brother is kijā (किजा).
+    akb: ["angkang", "aŋkaŋ"],  // Angkang is an older sibling of the same sex; a younger one is anggi.
+    sda: ["kaka", "kaka"],  // Kaka is an older sibling; a younger one is adiʼ.
+    aoz: ["tataf", "tataf"],  // Tataf is a man's older brother (or a woman's older sister); a younger one is olif, and a woman's brother is nauf.
+    hwc: ["braddah", "brɑdə"],  // Pidgin says older braddah for an older brother; braddah also means a male friend.
+    aii: ["ܐܲܚܘܿܢܵܐ", "aˈxona"],  // An older brother is akhona gura, 'big brother'; there is no separate word.
+    mt: ["ħu", "ħuː"],  // Maltese says ħuh il-kbir, 'his big brother', for an older brother; there is no separate word.
+    sm: ["uso", "uso"],  // Uso is a man's brother (or a woman's sister) of any age; an older one is uso matua, and a woman's brother is tuagane.
+    mam: ["tzik", "tsik"],  // -tzik is an older brother; a younger one is -itzʼin.
+    cak: ["nimalaxel", "nimalaʃel"],  // Nimalaxel is an older sibling (unpossessed form of -nimal); a younger one is chaq'alaxel.
+    gej: ["fòfo", "fòfo"],  // Fofo is an older brother; nɔvi is a sibling in general.
+    lol: ["botomolo", "botomolo"],  // Botomolo is an older sibling; a younger one is bokune.
+    ebu: ["mûrwang'ina", "moɾwaŋina"],  // Literally 'child of his mother'; an older brother is a mûrwang'ina ûrîa mûkûrû, 'brother who is older'.
+    ses: ["beere", "beːre"],  // Beere is an older sibling, with aru 'man' added for a brother; arma is 'brother' in general.
+    fj: ["tuaka", "tuaka"],  // Tuaka (tuakana 'his elder sibling') is an older sibling of the same sex; a younger one is taci, and a woman's brother is gane.
+    pis: ["brata", "brata"],  // Pijin uses brata for any brother; the eldest is the fasbon brata, 'first-born brother'.
+    pap: ["ruman", "ruman"],  // Ruman is a sibling of either sex; an older brother is a ruman mayó, and ruman hòmber specifies a brother.
+    pdc: ["Bruder", "bruːdər"],  // Pennsylvania German adds an adjective for age, as in eldshtah Bruder, 'eldest brother'.
+    bxr: ["аха", "axa"],  // Аха is an older brother, also a respectful word for any older man; a younger sibling is дүү.
+    naq: ["ǃgâsab", "ǃɡãːsab"],  // An older brother is kai ǃgâsab, 'big brother'; there is no separate word.
+    bdq: ["ʼnhŏng", "ʔɲoŋ"],  // ʼNhŏng is an older sibling, with kơdră 'male' added for a brother; a younger sibling is oh.
+    ctu: ["ʌscun", "ɨskun"],  // -ʌscun is an older brother; a younger one is -ijtsʼin.
+    ty: ["tuaʻana", "tuaʔana"],  // Same-sex older sibling (a man's older brother, a woman's older sister), from Proto-Polynesian *tuakana; younger: teina.
+    rar: ["tuakana", "tuakana"],  // Same-sex older sibling, from Proto-Polynesian *tuakana; younger: teina; a woman calls her brother tungāne.
+    niu: ["taokete", "taokete"],  // A man's older brother or a woman's older sister; younger: tehina; a woman calls any brother tugaane.
+    tvl: ["taina", "taina"],  // Taina is any same-sex sibling; an older one is taina matuaatu, a younger one taina foolikiifoo.
+    cr: ["ᓂᐢᑌᐢ", "nisteːs"],  // 'My older brother' (also an older male parallel cousin); a younger sibling is nisîmis.
+    meu: ["kakana", "kakana"],  // 'His older brother' (a man's older brother or a woman's older sister), possessed like tamana 'his father'; younger: tadina.
+    pwn: ["kaka", "kaka"],  // Kaka covers any sibling or cousin regardless of age or sex; relative age shows only in possessed reference forms (ti-kaka 'my older siblings', ku-kaka 'my younger siblings').
+    mh: ["jein", "tʲejin"],  // 'His/her older sibling' — the word covers an older brother or sister; a younger sibling is jati- (jatū 'my younger sibling').
+    pau: ["obekuk", "obɛkuk"],  // 'My older brother', said by a man (possessed like demak 'my father'); a younger brother is ochell-.
+    ch: ["cheʼlu", "ˈtʃeʔlu"],  // Che'lu means any sibling, brother or sister, with no separate word for an older one.
+    bnn: ["masituhas", "masituhas"],  // 'Older sibling' (brother or sister), from Proto-Austronesian *tuqaS 'old'; younger: masinauba.
+    tab: ["гъардаш", "ʁardaʃ"],  // Plain 'brother'; an older brother is аьхю гъардаш 'big brother' and a younger one бицӏи гъардаш 'little brother'.
+    tkr: ["чодж", "tʃodʒ"],  // Plain 'brother'; older and younger are херна чодж and кӏылна чодж, brother with an adjective.
+    nog: ["ага", "aɡa"],  // Older brother, as in Kazakh аға; a younger brother is ини, and кардаш is 'brother' in general.
+    shp: ["jochi", "hotʃi"],  // Older brother; a younger brother is chio.
+    crs: ["frer", "frɛr"],  // Plain 'brother' from French frère; older and younger are gran frer and pti frer.
+    kmh: ["mam", "mam"],  // Plain 'brother/sibling'; an older one is mam nd and a younger one mam ksen.
+    gil: ["tari", "taɾi"],  // Same-sex sibling with no age distinction; older and younger are marked with te karimoa 'the first-born' and te karimwi 'the last-born'.
+    esu: ["anngaq", "anŋaq"],  // Older brother, from Proto-Yupik *anəŋaʀ; a younger sibling is kinguqliq.
+    xal: ["ах", "ax"],  // Older brother, as Mongolian ах; a younger brother or sibling is дү.
+    cnh: ["u", "u"],  // Older same-sex sibling; a younger one is nau (naupa 'younger brother').
+    lbj: ["ཨ་ཅོ", "atɕo"],  // Older brother (acho); a younger brother is ནོ (no).
+    nzm: ["misipeu", "misipeu"],  // Older brother, with the mi- prefix of mipeu 'father'; younger: mikinapeu.
+    xkz: ["aci", "atɕi"],  // Elder brother; a younger brother is no.
+    gay: ["abang", "abaŋ"],  // Older brother, cognate with Malay abang; younger siblings have a separate term.
+    hui: ["hamene", "hamene"],  // Plain 'brother'; an elder one is hamene wahene, literally 'big brother'.
+    bru: ["ai", "ʔaːj"],  // Older brother; a younger sibling is a-ễm.
+    ho: ["kakana", "kakana"],  // Older brother, from Motu kakana; a younger brother is tadina.
+    cuk: ["ia", "ia"],  // A man's older brother; a younger sibling is urba.
+    agr: ["yatsu", "jatsu"],  // A man's brother, older or younger; the eldest is yatsu emkau 'first brother'.
+    trv: ["qbsuran", "qbsuɾan"],  // Older sibling (brother or sister); a younger one is swai (mtswai).
+    tru: ["ܐܚܘܢܐ", "aħuno"],  // Plain 'brother'; the Turoyo Bible uses it for both Esau and the prodigal son, adding 'big' or 'little' only to sons.
+    tay: ["qbsuyan", "qbsujan"],  // Older sibling (brother or sister; mlikuy 'male' specifies a brother); a younger sibling is sswe'.
+    kjh: ["аха", "axa"],  // Older brother in literary Khakas (Kyzyl dialect ажа), paired with пиче 'older sister'.
+    sbp: ["umuvaha", "umuvaha"],  // Older sibling (with the u- prefix of udaada 'father'); a younger sibling is umunangʼana.
+    djk: ["baala", "baːla"],  // Plain 'brother', from English brother; a younger one is pikin baala 'little brother'.
+    mxv: ["ñani", "ɲani"],  // A man's brother, older or younger alike, as in other Mixtec varieties.
+    iu: ["ᐊᖓᔪᒃ", "aŋajuk"],  // Older sibling of the same sex (a man's older brother); a younger one is nukaq; a woman calls her brother ani.
+    gd: ["bràthair", "ˈpɾaːhəɾʲ"],  // Plain 'brother'; the Gaelic Bible calls Esau simply do bhràthair 'your brother' and marks age only on sons (a mac a bu shine 'her elder son').
+    emp: ["djaba", "ʒaˈba"],  // Plain 'brother'; an older one is djaba nabema 'first brother' and a younger one djaba tẽãbema.
+    mrq: ["tuakana", "tuakana"],  // A man's older brother or a woman's older sister, from Proto-Polynesian *tuakana (tuaʻana in the south); younger: teina; a woman calls her brother tunane.
+    ko_jeju: ["성", "səŋ"],  // From Sino-Korean 兄, used by a man for an older brother (honorific 성님); younger: 아시; a woman calls her brother 오라방.
+    mic: ["nsis", "nsis"],  // Literally 'my older brother' (his or her older brother is ugsisl); a younger brother is njignam.
+    tsu: ["ohaeva", "ohaeva"],  // Ohaeva is an older sibling of either sex, specified as male or female with a following word; a younger sibling is ohaesa.
+    moh: ["rakhtsì:ʼa", "rakʰtsìːʔa"],  // Literally 'my older brother', built on an older-sibling stem; a younger sibling is named with a different stem.
+    wbp: ["papardi", "papaɽi"],  // An older brother is papardi and a younger one kukurnu.
+    tao: ["kaka", "kaka"],  // Kaka is an older sibling of either sex, from Proto-Malayo-Polynesian *kaka; a younger sibling is wari.
+    pyu: ["baelri", "baəli"],  // Baelri is any older sibling, made male as baelri na mainayan; a younger sibling is wadi, and an older brother is addressed as eba.
+    lkt: ["čhiyé", "tʃʰijé"],  // A man's older brother; a woman calls hers thibló, and a younger brother is misúŋ.
+    chy: ["naʼneha", "naʔneha"],  // Literally 'my older brother', used both to refer to him and to address him; a younger sibling is násemáhe, and a woman's brother in general is nȧhtatanéme.
+    tkl: ["taina", "taina"],  // Taina is a same-sex sibling of any age; a woman calls her brother tuagāne.
+    stq: ["Brúur", "bruːr"],  // Saterland Frisian uses Brúur for an older or a younger brother alike.
+    kw: ["broder", "ˈbrɔdər"],  // Cornish uses broder for an older or a younger brother alike.
+    szy: ["kaka", "kaka"],  // Kaka is an older sibling of either sex, as in neighbouring Amis; a younger sibling is saba.
+    sma: ["vïelle", "ˈvɨɛlːɛ"],  // An older brother is a stoere-vïelle, 'big brother'; vïelle itself is any brother.
+    dak: ["čiŋyé", "tʃĩjé"],  // A man's older brother; a woman calls hers timdó, and a younger brother is a separate word, misuŋka.
+    yux: ["чаачаа", "tʃaːtʃaː"],  // Also used for a parent's elder brother; a younger sibling is эмдьэ.
+    es_cr: ["hermano", "eɾˈmano"],  // Older and younger brothers are both hermano: hermano mayor and hermano menor.
+    es_hn: ["hermano", "eɾˈmano"],  // Older and younger brothers are both hermano: hermano mayor and hermano menor.
+    es_ni: ["hermano", "eɾˈmano"],  // Older and younger brothers are both hermano: hermano mayor and hermano menor.
+    es_sv: ["hermano", "eɾˈmano"],  // Older and younger brothers are both hermano: hermano mayor and hermano menor.
+    ar_jo: ["أخو", "ˈʔaxu"],  // Levantine Arabic has no separate older-brother word; age is added with an adjective.
+    ar_ps: ["أخو", "ˈʔaxu"],  // Levantine Arabic has no separate older-brother word; age is added with an adjective.
+    fr_lu: ["frère", "fʁɛʁ"],  // Older and younger brothers are both frère: grand frère or frère aîné for the older.
+    fr_cm: ["frère", "fʁɛʁ"],  // Older and younger brothers are both frère; an older one is a grand frère.
+    de_lu: ["Bruder", "ˈbruːdɐ"],  // German has no separate older-brother word: großer Bruder, 'big brother', or älterer Bruder.
+    en_ng2: ["brother", "ˈbɹʌðə"],  // Older and younger brothers are both just brother, with an adjective added for age.
+    pt_mo: ["irmão", "iɾˈmɐ̃w̃"],  // An older brother is an irmão mais velho.
+    hsn_hy: ["老兄", "lau˧˧ ɕian˦˦˥"],  // Hengyang refers to an older brother as 老兄, using the colloquial reading of 兄, and addresses him as 哥哥.
+    win: ["hinį", "hinĩ"],  // A man's older brother (hinįra with the article); a woman's is hicito, and a younger brother is hisų́k.
+    cro: ["iiká", "iːká"],  // A man's older brother; a woman's is isaalí, and a younger brother is ichuuká.
+    es_bo: ["hermano", "eɾˈmano"],  // Older and younger brothers are both hermano; Andean ñaño, from Quechua, is a fond word for any brother.
+    es_py: ["hermano", "eɾˈmano"],  // Older and younger brothers are both hermano: hermano mayor and hermano menor.
+    es_pa: ["hermano", "eɾˈmano"],  // Older and younger brothers are both hermano: hermano mayor and hermano menor.
   },
 };

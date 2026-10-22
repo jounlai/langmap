@@ -201,6 +201,11 @@ const pairs = Object.entries(byPair).sort((x, y) => y[1].length - x[1].length);
 // egészségedre, наздраве …). Across Iberia and Central/Eastern Europe the same
 // 'to health' formula answers both a raised glass and a sneeze; both word notes
 // say so. Genuine polysemy, not a copied cell.
+// 2026-10-22: accepts ki ira = snow + yesterday and confirms bci anunman =
+// bird + yesterday. Both checked in the Bible text, not inferred: Kikuyu GKN has
+// ira 'yesterday' in Heb 13:8 and John 4:52 and 'white as ira' (snow) in
+// Isa 1:18; Baoulé BB98 and BLNT74 both have anunman 'birds' in Matt 6:26 and
+// 13:32 and anunman 'yesterday' in Heb 13:8 and John 4:52. Homographs.
 const LOCK = path.join(__dirname, 'intra_row_dup.lock.json');
 const sig = (h) => `${h.code}|${[h.a, h.b].sort().join('|')}`;
 const current = new Set(hits.map(sig));

@@ -370,6 +370,41 @@ WORDS.bat = {
     lg: "unknown",
     no: "mouse",
     kln: "unknown",
+    bik: "plain",
+    bug: "unknown",
+    hmn: "plain",
+    kam: "unknown",
+    bem: "unknown",
+    bs: "mouse",
+    ssw: "unknown",
+    nd: "unknown",
+    li: "mouse",
+    sco: "unknown",
+    srn: "unknown",
+    mer: "unknown",
+    teo: "unknown",
+    wbm: "unknown",
+    drs: "unknown",
+    kha: "unknown",
+    ndc: "unknown",
+    ve: "unknown",
+    ach: "unknown",
+    dag: "unknown",
+    zne: "unknown",
+    ada: "unknown",
+    tum: "unknown",
+    myx: "unknown",
+    quc: "plain",
+    ay: "unknown",
+    mni: "unknown",
+    mak: "unknown",
+    max: "plain",
+    pag: "plain",
+    mrw: "plain",
+    pam: "unknown",
+    efi: "unknown",
+    bci: "unknown",
+    mtq: "unknown",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -685,5 +720,40 @@ WORDS.bat = {
     lg: ["ekinyira", "etʃiɲira"],  // The Luganda word for the bat; the plural is ebinyira.
     no: ["flaggermus", "ˈflɑɡːɛrmʉːs"],  // Modelled on German Fledermaus; the last part is mus 'mouse'.
     kln: ["reresiet", "reresiet"],  // The Kalenjin word for the bat; the plural is reresik.
+    bik: ["paniki", "paˈniki"],  // Inherited from Proto-Malayo-Polynesian *paniki 'fruit bat', the same word as Tagalog paniki.
+    bug: ["panning", "panːiŋ"],  // The Buginese word for the bat; its origin is not established here.
+    hmn: ["puav", "pua˨˦"],  // Probably borrowed from Middle Chinese 蝠 'bat', the second syllable of Chinese 蝙蝠.
+    kam: ["ũvuvu", "oβuβu"],  // The Kamba word for the bat; its origin is not established here.
+    bem: ["kasusu", "kasusu"],  // The Bemba word for the bat; the plural is tususu.
+    bs: ["šišmiš", "ˈʃiʃmiʃ"],  // A 'fluttering mouse': the second element is miš 'mouse', as in Croatian šišmiš.
+    ssw: ["lilulwane", "lilulwane"],  // The same word as Zulu and Xhosa ilulwane.
+    nd: ["ululwane", "ululwane"],  // The same word as Zulu ilulwane.
+    li: ["flaermoes", "ˈflɛːrmuːs"],  // A 'flutter-mouse': the second element is moes 'mouse', as in Dutch vleermuis.
+    sco: ["baukie", "ˈbɑːki"],  // The general Scots name for the bat, also heard as bawkie-bird (Scottish National Dictionary).
+    srn: ["fremusu", "fremusu"],  // The Sranan Tongo word for the bat.
+    mer: ["kĩreere", "keɾeːɾe"],  // The Meru word for the bat; the plural is ireere.
+    teo: ["emenia", "emenia"],  // The Ateso word for the bat; the plural is imeniai.
+    wbm: ["blak", "blak"],  // The Wa word for the bat.
+    drs: ["cirrichcho", "tʃʼirːitʃːo"],  // The Gedeo word for the bat.
+    kha: ["lymbit", "ləmbit"],  // The Khasi word for the bat, used in both Khasi Bible translations.
+    ndc: ["chinyamuremwaremwa", "tʃiɲamuremwaremwa"],  // The Ndau word for the bat; compare Shona karemwaremwa.
+    ve: ["mulemalema", "mulemalema"],  // The Venda word for the bat; the plural is milemalema.
+    ach: ["olik", "olik"],  // The Acholi word for the bat.
+    dag: ["zɔŋ", "zɔŋ"],  // The Dagbani word for the bat; the plural is zɔna.
+    zne: ["fura", "fura"],  // The Zande word for the bat; the plural is afura.
+    ada: ["apani", "apani"],  // The Dangme word for the bat; the plural is apanihi.
+    tum: ["kasuska", "kasuska"],  // The Tumbuka word for the bat.
+    myx: ["liwukuru", "liwukuru"],  // The Lumasaaba word for the bat; the plural is kamawukuru.
+    quc: ["sotzʼ", "sotsʼ"],  // Inherited from Proto-Mayan *sootzʼ 'bat', like Yucatec sootsʼ and Tzotzil sotzʼ.
+    ay: ["chiñi", "tʃiɲi"],  // The Aymara word for the bat, shared with Quechua chiñi.
+    mni: ["ꯁꯦꯛꯄꯤ", "sekpi"],  // The Meitei word for the bat.
+    mak: ["paʼnyiki", "paʔˈɲiki"],  // The Makassarese word for the bat.
+    max: ["paniki", "paniki"],  // Probably taken from a language of North Sulawesi, ultimately from Proto-Malayo-Polynesian *paniki 'fruit bat'.
+    pag: ["paniki", "paniˈki"],  // Inherited from Proto-Malayo-Polynesian *paniki 'fruit bat', the same word as Tagalog paniki.
+    mrw: ["kabeg", "kabəɡ"],  // Inherited from Proto-Philippine *kabə́g 'large fruit bat', like Cebuano kabog.
+    pam: ["talibatab", "talibatab"],  // The Kapampangan word for the bat; Forman's 1971 dictionary also has kabág for one kind of bat.
+    efi: ["emiañ", "emiaŋ"],  // The Efik word for the bat.
+    bci: ["akpannin", "akpãnĩ"],  // The Baoulé word for the bat.
+    mtq: ["tẳng", "taŋ"],  // The Mường Bi word for the bat, also reduplicated as tẳng tẳng.
   },
 };

@@ -224,7 +224,7 @@ const I = m => infos.push(m);
 // Pinned deliberately: adding a concept means touching word_manifest.js,
 // words/<id>.js, word_labels.js and lang_words/, and this is the check that
 // fails if the manifest was edited without the rest following.
-const EXPECTED_WORDS = 100;   // 100 since 2026-10-22: + grandmother, monday, tomorrow (second set of ten new words)
+const EXPECTED_WORDS = 101;   // 101 since 2026-10-22: + grandmother, monday, tomorrow, bat (second set of ten new words)
 if (!Array.isArray(ctx.WORD_LIST) || ctx.WORD_LIST.length !== EXPECTED_WORDS) {
     E(`WORD_LIST length ${ctx.WORD_LIST?.length} (expected ${EXPECTED_WORDS})`);
 }

@@ -588,6 +588,7 @@ WORDS.rainbow = {
     cmg: "plain",
     el_kath: "bow",
     ja_edo: "plain",
+    vi_nom: "other",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1119,5 +1120,6 @@ WORDS.rainbow = {
     cmg: ["ᠰᠣᠯᠤᠩᠭ᠎ᠠ", "soluŋɡa"],  // The parent of modern Mongolian солонго 'rainbow'.
     el_kath: ["οὐράνιον τόξον", "uˈranion ˈtokson"],  // Literally 'heavenly bow'; Katharevousa textbooks give it beside the learned Ἴρις.
     ja_edo: ["虹", "ɲidʑi"],  // The same native word as Old Japanese nizi, used in Edo haikai verse.
+    vi_nom: ["求𱽐", "kəw˨˩ vəwŋ͡m˨˩"],  // Cầu vồng in Chữ Nôm: 求 for cầu, 𱽐 (plant + phonetic) for vồng.
   },
 };

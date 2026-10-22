@@ -375,6 +375,50 @@ WORDS.monday = {
     ar_iq: "count",
     ar_tn: "count",
     ar_ye: "count",
+    fa: "count",
+    ku: "count",
+    my: "moon",
+    bo: "moon",
+    sr: "after",
+    ne: "moon",
+    ti: "count",
+    ceb: "moon",
+    ilo: "moon",
+    mg: "count",
+    kr: "count",
+    shi: "count",
+    su: "count",
+    wuu: "count",
+    cdo: "count",
+    rif: "count",
+    mai: "moon",
+    bgc: "moon",
+    sg: "count",
+    luy: "count",
+    ki: "count",
+    rn: "count",
+    ts: "unknown",
+    ee: "unknown",
+    sat: "unknown",
+    nso: "unknown",
+    wuu_nb: "count",
+    wuu_sz: "count",
+    wuu_wz: "count",
+    wuu_hz: "count",
+    yue_dg: "count",
+    ja_osa: "moon",
+    ja_aom: "moon",
+    ja_hak: "moon",
+    ja_kyo: "moon",
+    ja_hir: "moon",
+    ja_kg: "moon",
+    ja_sd: "moon",
+    ko_bus: "moon",
+    ko_yb: "moon",
+    ko_hg: "moon",
+    ko_jl: "moon",
+    prs: "count",
+    th_isan: "moon",
   },
   routes: {
     moon: {"color":"#7c3aed","emoji":"🌙","en":"the moon's day","ja":"月の日","ko":"달의 날","zh":"月亮之日","yue":"月亮嘅日","vi":"ngày mặt trăng","th":"วันของดวงจันทร์","id":"hari bulan","hi":"चंद्रमा का दिन","de":"Tag des Mondes","fr":"jour de la lune","it":"giorno della luna","es":"día de la luna","pt":"dia da lua","ru":"день луны","uk":"день місяця","ar":"يوم القمر","he":"יום הירח","sw":"siku ya mwezi"},
@@ -692,5 +736,49 @@ WORDS.monday = {
     ar_iq: ["الاثنين", "liθneːn"],  // "The two": the second day counting from Sunday; also said يوم الاثنين yoom li-thneen.
     ar_tn: ["الاثنين", "liθniːn"],  // "The two": the second day counting from Sunday, usually said with نهار nhār "day" before it.
     ar_ye: ["الاثنين", "alʔiθˈnajn"],  // "The two": the second day counting from Sunday.
+    fa: ["دوشنبه", "doʃæmbe"],  // do "two" + shanbe "Saturday": the second day after the Sabbath.
+    ku: ["duşem", "dʊˈʃɛm"],  // du "two" + şem "Saturday", a cognate of Persian doshanbe "two (days after) Saturday".
+    my: ["တနင်္လာ", "tənɪ́ɴlà"],  // From Old Burmese tan-hnin-la; Burmese Wikipedia explains the last syllable as an old form of la "moon", making it "the moon day".
+    bo: ["གཟའ་ཟླ་བ", "sa˩˨ta˩˨wa˥˥"],  // gza' "planet, weekday" + zla ba "moon": the moon's day.
+    sr: ["понедељак", "ponědeʎak"],  // po "after" + nedelja "Sunday": the day after Sunday.
+    ne: ["सोमबार", "sombaːɾ"],  // From Sanskrit somavāra, "moon day".
+    ti: ["ሰኑይ", "sɐnuj"],  // From the Semitic root for "two", like Amharic säñño; colloquially also soni.
+    ceb: ["Lunes", "ˈlunes"],  // From Spanish lunes, Latin "day of the Moon".
+    ilo: ["Lunes", "ˈlunes"],  // From Spanish lunes, Latin dies Lunae "day of the Moon".
+    mg: ["alatsinainy", "alatsiˈnajni"],  // From Arabic al-ithnayn, "the second (day)".
+    kr: ["litilin", "litilin"],  // Borrowed through Islamic contact (cf. Hausa Litinin), ultimately Arabic al-ithnayn "the two".
+    shi: ["ⵍⵜⵏⵉⵏ", "ltnin"],  // From Moroccan Arabic etnin, Arabic al-ithnayn "the two".
+    su: ["Senén", "sənen"],  // From Arabic al-ithnayn "two"; Soma, from Sanskrit "moon", is another name.
+    wuu: ["礼拜一", "li˨˨ pa˥˥ iɪʔ˨˩"],  // 礼拜 "worship, week" + 一 "one": week-day one; 星期一 is also used.
+    cdo: ["礼拜一", "lɛ˧˧ pai˨˩˧ ɛiʔ˨˦"],  // 禮拜 "worship, week" + 一 "one"; shortened 拜一 is also used.
+    rif: ["ⵔⴻⵜⵏⴰⵢⴻⵏ", "rəθnajən"],  // From Moroccan Arabic letnayn, Arabic al-ithnayn "the two"; it also names the Monday market.
+    mai: ["सोम दिन", "soːm din"],  // "Soma (moon) day", with Maithili din "day" in place of Sanskrit vāra.
+    bgc: ["सोमवार", "soːmʋaːɾ"],  // From Sanskrit somavāra, "moon day".
+    sg: ["Bïkua-ûse", "bikua use"],  // "Bïkua two": Sango numbers the days from Sunday (Bikua-ôko "one").
+    luy: ["Jumatatu", "dʒumatatu"],  // Borrowed from Swahili Jumatatu: juma "week" + tatu "three".
+    ki: ["Njumatatũ", "ɲdʒumatato"],  // From Swahili Jumatatu: juma "week" + tatu "three".
+    rn: ["ku wa mbere", "ku wa mbeɾe"],  // "The first (day)": the week is counted from Monday, as in Kinyarwanda kuwa mbere.
+    ts: ["Musumbhunuku", "musumbʱunuku"],  // Tuesday to Friday are numbered (Ravumbirhi "second"), but Monday has its own name; spellings vary (Musumbuluku, Musumbunuku).
+    ee: ["Dzoɖagbe", "dzoɖaɡbe"],  // Also written dzoɖa; Ewe Wikipedia matches it with Twi Ɛdwoada, and the sources do not give its meaning.
+    sat: ["ᱚᱛᱮ ᱢᱟᱦᱟᱸ", "ɔte mahã"],  // mahã is "day"; Wiktionary gives no etymology for ote.
+    nso: ["Mošupologo", "moʃupoloɣo"],  // Northern Sotho name for Monday, like Setswana Mosupologo; the meaning is not given in the sources.
+    wuu_nb: ["礼拜一", "li˨˩˧ pa˦˦ iɪʔ˥˥"],  // 礼拜 "worship, week" + 一 "one": week-day one. 一 is written with the tone this row uses for 'one'.
+    wuu_sz: ["礼拜一", "li˨˧˩ pɑ˥˨˧ iəʔ˥"],  // 礼拜 "worship, week" + 一 "one": week-day one. 星期一 is also used. 一 is written with the tone this row uses for 'one'.
+    wuu_wz: ["礼拜一", "lei˧˥ pa˥˨ ʔjiai˨˩˧"],  // 礼拜 "worship, week" + 一 "one": week-day one.
+    wuu_hz: ["礼拜一", "li˥˧ pᴇ˦˦˥ ʔieʔ˥"],  // 礼拜 "worship, week" + 一 "one": week-day one. 星期一 is also used.
+    yue_dg: ["礼拜一", "lɔi˧˦ pai˦˦˧ jak˥"],  // 禮拜 "worship, week" + 一 "one": week-day one.
+    ja_osa: ["月曜日", "ɡetsɯjoːbi"],  // "Moon-luminary day", the national word, in common use since the Meiji calendar reform.
+    ja_aom: ["月曜日", "ɡetsɯjoːbi"],  // "Moon-luminary day", the national word, in common use since the Meiji calendar reform.
+    ja_hak: ["月曜日", "ɡetsɯjoːbi"],  // "Moon-luminary day", the national word, in common use since the Meiji calendar reform.
+    ja_kyo: ["月曜日", "ɡetsɯjoːbi"],  // "Moon-luminary day", the national word, in common use since the Meiji calendar reform.
+    ja_hir: ["月曜日", "ɡetsɯjoːbi"],  // "Moon-luminary day", the national word, in common use since the Meiji calendar reform.
+    ja_kg: ["月曜日", "ɡetsɯjoːbi"],  // "Moon-luminary day", the national word, in common use since the Meiji calendar reform.
+    ja_sd: ["月曜日", "ɡetsɯjoːbi"],  // "Moon-luminary day", the national word, in common use since the Meiji calendar reform.
+    ko_bus: ["월요일", "wʌɾjoil"],  // Sino-Korean 月曜日, "moon-luminary day", the same word as the standard.
+    ko_yb: ["월요일", "wʌɾjoil"],  // Sino-Korean 月曜日, "moon-luminary day", the same word as the standard.
+    ko_hg: ["월요일", "wʌɾjoil"],  // Sino-Korean 月曜日, "moon-luminary day", the same word as the standard.
+    ko_jl: ["월요일", "wəɾjoil"],  // Sino-Korean 月曜日, "moon-luminary day", the same word as the standard.
+    prs: ["دوشنبه", "duʃamˈbeː"],  // do "two" + shanbe "Saturday": the second day after the Sabbath.
+    th_isan: ["วันจันทร์", "wan˧˥˨tɕan˨˩"],  // "Moon day": jan is the Moon (Sanskrit candra), as in Lao ວັນຈັນ.
   },
 };

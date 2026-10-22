@@ -342,6 +342,30 @@ WORDS.grandmother = {
     quc: "unknown",
     mas: "unknown",
     mak: "unknown",
+    ady: "one",
+    kek: "one",
+    sda: "one",
+    tji: "split",
+    lhu: "unknown",
+    lus: "unknown",
+    new: "unknown",
+    dv: "unknown",
+    aii: "unknown",
+    szl: "unknown",
+    guc: "one",
+    cab: "unknown",
+    cak: "unknown",
+    yua: "one",
+    oc: "unknown",
+    kum: "unknown",
+    sm: "one",
+    lzz: "unknown",
+    cbk: "unknown",
+    dar: "unknown",
+    dtp: "unknown",
+    enq: "one",
+    her: "one",
+    tzh: "one",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -628,5 +652,29 @@ WORDS.grandmother = {
     quc: ["atiʼt", "atiʔt"],  // The same word marks female animals: ati't ak' 'hen', ati't kej 'mare'.
     mas: ["kokoo", "kokoː"],  // Also 'old woman', and used affectionately in address like 'grandma'.
     mak: ["toaʼ", "ˈtoaʔ"],  // One word for a grandparent of either sex.
+    ady: ["нэнэжъ", "nanaʐ"],  // One word for either grandmother; the grandfather is тэтэжъ.
+    kek: ["ixaʼan", "iʃaʔan"],  // One word for either grandmother; WOLD also lists na'chin.
+    sda: ["neneʼ", "neneʔ"],  // Used for both the father's and the mother's mother; a loan from Indonesian/Malay nenek.
+    tji: ["a-ma", "a˥˥ma˥˥"],  // Father's mother; mother's mother: pa-pu (Tian 1986; also ka-bu).
+    lhu: ["a-pi", "api"],  // The term of reference; the address form is ɔ-pi.
+    lus: ["pi", "pi"],  // Also used for a great-grandmother; the grandfather is pu.
+    new: ["अजि", "ədʑi"],  // Wiktionary glosses it 'paternal grandmother'; the mother's-side term was not found; the goddess name Ajima is built on it.
+    dv: ["މާމަ", "maːma"],  // The everyday word for grandmother.
+    aii: ["ܣܒܬܐ", "sawta"],  // Also 'old woman, elder'; the colloquial, endearing word is ܢܢܐ nana.
+    szl: ["ōma", "ˈoma"],  // From German Oma; synonyms babka and starka.
+    guc: ["oushu", "ouʃu"],  // One word for either grandmother; 'my grandmother' is toushu.
+    cab: ["agütü", "aɡɨtɨ"],  // The possessed stem is -gütü.
+    cak: ["atitaj", "atitax"],  // Glossed 'father's mother' (abuela paterna); the source has no separate mother's-mother entry, so whether the two are distinguished is not established.
+    yua: ["chiich", "tʃiːtʃ"],  // One word for either grandmother; mamich is a synonym.
+    oc: ["menina", "meˈninɔ"],  // Also 'old woman'; synonyms include grand, mairegrand and mameta.
+    kum: ["уллу ана", "ullu ana"],  // Literally 'big mother' (contracted уллана); къарт ана 'old mother' is also used.
+    sm: ["tinā matua", "tinaː matua"],  // Literally 'elder mother'; grandparents of either side are called by the parent words, tinā and tamā.
+    lzz: ["დიდინანა", "didinana"],  // Literally 'big mother' (didi 'big' + nana 'mother'); Vizha says ბედი or ბენა.
+    cbk: ["abuela", "aˈbwela"],  // From Spanish abuela; lola, borrowed from Tagalog, and the short form 'la are also common.
+    dar: ["хала неш", "χala neʃ"],  // Literally 'big mother'; the grandfather is хала дудеш, 'big father'.
+    dtp: ["todu", "todu"],  // The term of reference; odu is the address form, and the grandfather is taki.
+    enq: ["aputingi", "aputiŋɡi"],  // Covers any female relative two or more generations up, on either side.
+    her: ["omukurukaze", "omukurukaze"],  // Same word for either grandmother; the grandfather is omukururume, and Kolbe (1883) gives mama omunene, 'big mother'.
+    tzh: ["chuchuʼ", "tʃutʃuʔ"],  // One word for either grandmother (Bachajón dictionary); the grandfather is mamuch.
   },
 };

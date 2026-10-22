@@ -310,6 +310,38 @@ WORDS.grandmother = {
     ff: "unknown",
     min: "unknown",
     ts: "one",
+    hmn: "split",
+    ce: "split",
+    iba: "one",
+    cpx: "split",
+    pam: "one",
+    bik: "unknown",
+    ban: "unknown",
+    pcc: "unknown",
+    kok: "unknown",
+    tcy: "unknown",
+    ssw: "unknown",
+    nd: "unknown",
+    nbl: "unknown",
+    sc: "unknown",
+    grt: "unknown",
+    mfe: "unknown",
+    bjn: "one",
+    ach: "one",
+    ve: "one",
+    kfy: "one",
+    av: "unknown",
+    rom: "unknown",
+    ba: "unknown",
+    pag: "unknown",
+    ay: "one",
+    sid: "unknown",
+    aa: "unknown",
+    ii: "unknown",
+    luo: "one",
+    quc: "unknown",
+    mas: "unknown",
+    mak: "unknown",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -564,5 +596,37 @@ WORDS.grandmother = {
     ff: ["maama", "maːma"],  // A word for a grandparent of either sex, inherited from Proto-Fula-Sereer *maam.
     min: ["anduang", "anduaŋ"],  // The Minangkabau word for grandmother, borrowed into Indonesian as andung.
     ts: ["kokwana", "kokwana"],  // A word for a grandparent of either sex, used for both grandmothers (also for maternal uncles).
+    hmn: ["pog", "pɔ˧˩"],  // Father's mother; mother's mother: niam tais.
+    ce: ["денана", "denana"],  // Literally 'father-mother'; mother's mother: ненан нана, 'mother's mother'.
+    iba: ["ini", "ini"],  // One word for either grandmother.
+    cpx: ["阿妈", "aʔ˨˩ ma˦˥˧"],  // Father's mother; the mother's mother is also addressed 阿妈, but referred to as 外头妈, 'outside grandmother'.
+    pam: ["apu", "ˈʔapuʔ"],  // Also 'grandparent' in general; ápung babai, 'female grandparent', specifies a grandmother of either side.
+    bik: ["lola", "ˈlola"],  // From Spanish abuela; also a respectful title for old women.
+    ban: ["dadong", "dadoŋ"],  // Also a polite way to address any elderly woman.
+    pcc: ["nail", "nɐi˨˦"],  // Wiktionary glosses it simply 'grandmother'; the maternal grandfather has his own word, dal.
+    kok: ["आजी", "aːdʒiː"],  // Feminine of आजो 'grandfather'.
+    tcy: ["ಅಜ್ಜಿ", "addʒi"],  // Borrowed from Prakrit, ultimately from Sanskrit ārya 'noble'.
+    ssw: ["gogo", "ɡoɡo"],  // A class 1a kin noun, plural bogogo.
+    nd: ["ugogo", "uɡoɡo"],  // A class 1a kin noun, plural ogogo.
+    nbl: ["ugogo", "uɡoɡo"],  // A class 1a kin noun, plural abogogo.
+    sc: ["jaja", "ˈjaja"],  // Probably from Spanish yaya or Greek γιαγιά; grandfather is jaju.
+    grt: ["ambi", "ambi"],  // The a- is the kin-term prefix; ambigipa and ambitang are the formal forms.
+    mfe: ["granmer", "ɡɰɑ̃mɛː"],  // From French grand-mère; families of Indian descent also say dadi (father's mother) and nani (mother's mother).
+    bjn: ["nini", "nini"],  // One word for either grandmother.
+    ach: ["daa", "daː"],  // One word for either grandmother.
+    ve: ["makhulu", "makʰulu"],  // One word for either grandmother.
+    kfy: ["आमा", "aːmaː"],  // From Sanskrit ambā 'mother'; one word for either grandmother, while Kumaoni says ईजा for mother.
+    av: ["кӏодо", "kʼodo"],  // кӏодоэбел, with эбел 'mother', is a fuller form.
+    rom: ["mami", "mami"],  // Turner records māmi 'grandmother' in the Romani of Romania.
+    ba: ["әбәй", "æbæj"],  // The NorthEuraLex form; the side is not marked.
+    pag: ["bai", "ˈbai"],  // Inherited from Proto-Austronesian *bahi 'woman'; laki is the grandfather.
+    ay: ["awicha", "awitʃa"],  // From Spanish abuela; one word for either grandmother.
+    sid: ["ahaahe", "ahaːhe"],  // Feminine of ahaaho 'grandfather'.
+    aa: ["aboyyá", "abojˈja"],  // Feminine counterpart of kaxxa-abbá 'grandfather'.
+    ii: ["ꀊꂵ", "a˧˧ma˥˥"],  // The a- is the kin-term prefix, as in ꀉꂿ 'mother'.
+    luo: ["dani", "dani"],  // One word for either grandmother; the grandfather is kwaru.
+    quc: ["atiʼt", "atiʔt"],  // The same word marks female animals: ati't ak' 'hen', ati't kej 'mare'.
+    mas: ["kokoo", "kokoː"],  // Also 'old woman', and used affectionately in address like 'grandma'.
+    mak: ["toaʼ", "ˈtoaʔ"],  // One word for a grandparent of either sex.
   },
 };

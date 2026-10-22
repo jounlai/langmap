@@ -526,6 +526,25 @@ WORDS.thunder = {
     acf: "unknown",
     swb: "unknown",
     adx: "unknown",
+    nan_xm: "god",
+    nan_zz: "god",
+    nan_ph: "god",
+    yue_zs: "plain",
+    slr: "other",
+    acn: "sky",
+    kky: "unknown",
+    guu: "god",
+    njo: "unknown",
+    tob: "unknown",
+    moc: "unknown",
+    cag: "unknown",
+    kfa: "unknown",
+    mcf: "unknown",
+    tca: "unknown",
+    mhy: "unknown",
+    aau: "unknown",
+    yle: "unknown",
+    mbc: "unknown",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -998,5 +1017,24 @@ WORDS.thunder = {
     acf: ["loway", "lowaj"],  // Kept apart from zéklè, the lightning, in Revelation 4:5.
     swb: ["guguma", "ɡuɡuma"],  // Mark 3:17 in the Maore New Testament renders Boanerges as wana wa maguguma, 'children of thunders'.
     adx: ["འབྲུག", "nɖʐək"],  // The same Tibetan word means both 'dragon' and 'thunder'.
+    nan_xm: ["雷公", "lui˨˦ kɔŋ˦˦"],  // Literally 'Thunder Duke', the Chinese thunder god's name, used for thunder itself.
+    nan_zz: ["雷公", "lui˩˧ kɔŋ˦˦"],  // Literally 'Thunder Duke', the Chinese thunder god's name, used for thunder itself.
+    nan_ph: ["雷公", "lui˨˦ kɔŋ˧˧"],  // Literally 'Thunder Duke', the Chinese thunder god's name, used for thunder itself.
+    yue_zs: ["雷", "lui˥˩"],  // The old Chinese root 雷; nearby Cuiheng in Zhongshan also says 雷公 'Thunder Duke' (Wiktionary dialect map).
+    slr: ["boğunaq", "poʁunɑχ"],  // From an old Turkic word for 'stifling, muffled noise'; the same word means 'dragon'.
+    acn: ["mau31 ʐau31", "mau˧˩ ʐau˧˩"],  // Built on mau 'sky, rain', like this row's rain mau31 ʐo55; lightning is maunyoq.
+    kky: ["dharramali", "d̪aramali"],  // Cognate with Kuku-Yalanji jarramali (Wiktionary).
+    guu: ["jãɾu", "jãɾu"],  // Thunder is also a supernatural being who lives in the sky; Wiktionary spells it yãru, the Bible ya̦lu.
+    njo: ["tsüngmok", "tsəŋmok"],  // Kept apart from the lightning, tsüngpreti, in Psalm 77:18.
+    tob: ["nalataʁa", "nalataʁa"],  // A noun from a verb 'to rumble' (IDS); the lightning is nqashelgaxa.
+    moc: ["nalataʁa", "nalataʁa"],  // A noun from a verb 'to rumble' (IDS); Mark 3:17 in the Bible uses soxonaxa 'noise' instead.
+    cag: ["kuukten", "kuukten"],  // Kept apart from the lightning, tachinshi.
+    kfa: ["ತೆಡ್", "teɖɨ"],  // Kept apart from the lightning, ಮಿನ್ನಲ್, in Revelation 4:5.
+    mcf: ["abu", "aβu"],  // Thunder 'sounds', cuëd-, in the Matsés Bible.
+    tca: ["duruane", "duɾuanɛ"],  // Kept apart from the lightning, ãẽmacü; tone is not marked, as in this row's rain and wind cells.
+    mhy: ["nanyu", "naɲu"],  // Kept apart from the lightning, kelat, which ABVD lists under 'thunder'.
+    aau: ["nompow", "nompow"],  // The Abau Bible renders 'sons of thunder' as nompow so ney.
+    yle: ["mwini", "mʷin̪i"],  // Thunder 'speaks' in the Yele Bible's John 12:29.
+    mbc: ["waraʔnapi", "waraʔnapi"],  // IDS notes thunder is also said to 'say tɨrɨn', echoing its sound.
   },
 };

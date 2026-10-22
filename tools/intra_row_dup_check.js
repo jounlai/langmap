@@ -197,6 +197,10 @@ const pairs = Object.entries(byPair).sort((x, y) => y[1].length - x[1].length);
 // under both, and Sakha was settled that way in round 14. Refusing the other
 // eight would have meant publishing "this language has no word for green" to
 // keep a counter at zero.
+// 2026-10-22: accepts 31 rows where blessyou = cheers (salud, saúde, na zdrowie,
+// egészségedre, наздраве …). Across Iberia and Central/Eastern Europe the same
+// 'to health' formula answers both a raised glass and a sneeze; both word notes
+// say so. Genuine polysemy, not a copied cell.
 const LOCK = path.join(__dirname, 'intra_row_dup.lock.json');
 const sig = (h) => `${h.code}|${[h.a, h.b].sort().join('|')}`;
 const current = new Set(hits.map(sig));

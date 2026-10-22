@@ -453,6 +453,28 @@ WORDS.monday = {
     nd: "unknown",
     ay: "unknown",
     kbp: "unknown",
+    kea: "count",
+    gaa: "unknown",
+    ksb: "count",
+    asu: "count",
+    ebu: "count",
+    ses: "unknown",
+    khq: "unknown",
+    dyo: "unknown",
+    ewo: "unknown",
+    pis: "unknown",
+    szl: "after",
+    cbk: "moon",
+    aii: "count",
+    pnt: "count",
+    rue: "after",
+    krc: "other",
+    kaa: "count",
+    her: "moon",
+    guc: "unknown",
+    new: "moon",
+    vai: "unknown",
+    khb: "unknown",
   },
   routes: {
     moon: {"color":"#7c3aed","emoji":"🌙","en":"the moon's day","ja":"月の日","ko":"달의 날","zh":"月亮之日","yue":"月亮嘅日","vi":"ngày mặt trăng","th":"วันของดวงจันทร์","id":"hari bulan","hi":"चंद्रमा का दिन","de":"Tag des Mondes","fr":"jour de la lune","it":"giorno della luna","es":"día de la luna","pt":"dia da lua","ru":"день луны","uk":"день місяця","ar":"يوم القمر","he":"יום הירח","sw":"siku ya mwezi"},
@@ -848,5 +870,27 @@ WORDS.monday = {
     nd: ["Mvulo", "mvulo"],  // Mvulo, the Northern Ndebele name for Monday; its literal meaning is not given in the source.
     ay: ["Lunisa", "lunisa"],  // Lunisa, the Aymara name for Monday; the source does not state its origin.
     kbp: ["Hodo wiye", "hodo wije"],  // Hodo wiye, the Kabiye name for Monday; the source does not explain the name.
+    kea: ["sigunda-fera", "siˈɡũdɐ ˈfeɾɐ"],  // From Portuguese segunda-feira, "second weekday", counting Sunday as the first.
+    gaa: ["Ju", "dʒu"],  // Ju, the Ga name for Monday (CLDR); its literal meaning was not found.
+    ksb: ["Jumaatatu", "ɟumaːtatu"],  // The Swahili name Jumatatu, juma "week" + tatu "three": day three of the week.
+    asu: ["Jumatatu", "dʒumatatu"],  // The Swahili name Jumatatu, juma "week" + tatu "three": day three of the week.
+    ebu: ["Njumatatu", "ɲdʒumatatu"],  // From Swahili Jumatatu, juma "week" + tatu "three": day three of the week.
+    ses: ["Atinni", "atinːi"],  // Atinni, the Koyraboro Senni name for Monday (CLDR), the same name as Zarma Atinni.
+    khq: ["Atini", "atini"],  // Atini, the Koyra Chiini name for Monday (CLDR).
+    dyo: ["Teneŋ", "teneŋ"],  // Teneŋ, the Jola-Fonyi name for Monday (CLDR); its origin was not checked.
+    ewo: ["mɔ́ndi", "mɔ́ndi"],  // mɔ́ndi, the Ewondo name for Monday (CLDR); its origin was not checked in a dictionary.
+    pis: ["Mande", "mande"],  // Resembles English Monday, but no source states the borrowing.
+    szl: ["pyndziałek", "pɪnˈdʑawɛk"],  // Clipped from pōniedziałek: po- "after" + niydziela "Sunday".
+    cbk: ["Lunes", "ˈlunes"],  // From Spanish lunes, "day of the Moon".
+    aii: ["ܬܪܝܢܒܫܒܐ", "treːwʃabba"],  // "Two in the week": treːn "two" + b- "in" + šabba "week".
+    pnt: ["Δευτέραν", "ðefˈteran"],  // "Second (day)", like Greek Δευτέρα.
+    rue: ["понедїлёк", "poneˈdʲilʲok"],  // From po nedili, "after Sunday".
+    krc: ["баш кюн", "baʃ kyn"],  // "Head day": baš "head" + kün "day", the first day of the week (Karachay-Balkar Wikipedia).
+    kaa: ["dúyshembi", "dyjʃembi"],  // From Persian dushanbe: du "two" + shanbe "Saturday".
+    her: ["Omandaha", "omandaha"],  // Borrowed from Afrikaans Maandag, "moon day".
+    guc: ["luune", "luːne"],  // Resembles Spanish lunes, but no source states the borrowing.
+    new: ["सोमबाः", "soməbaː"],  // Ultimately from Sanskrit somavāra, "Moon's day".
+    vai: ["ꗳꗡꘉ", "tɛːnɛ"],  // Tɛɛnɛ, the Vai name for Monday (CLDR, Omniglot); its origin was not checked.
+    khb: ["ᦞᧃᦶᦈᧃ", "van˥˩ tsɛn˥"],  // Two sources agree on van cɛn; the meaning of the second part was not checked in a Tai Lü dictionary.
   },
 };

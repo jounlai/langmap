@@ -206,6 +206,9 @@ const pairs = Object.entries(byPair).sort((x, y) => y[1].length - x[1].length);
 // ira 'yesterday' in Heb 13:8 and John 4:52 and 'white as ira' (snow) in
 // Isa 1:18; Baoulé BB98 and BLNT74 both have anunman 'birds' in Matt 6:26 and
 // 13:32 and anunman 'yesterday' in Heb 13:8 and John 4:52. Homographs.
+// 2026-10-22: accepts cdo 依妈 = grandmother + mother. Wiktionary 依媽 has two
+// Eastern Min etymologies: ĭ-mă 'mum' /i⁵⁵ ma⁵⁵/ and ĭ-mā 'paternal
+// grandmother' /i⁵⁵⁻⁵³ ma³³/. Same characters, different tone; the IPA differs.
 const LOCK = path.join(__dirname, 'intra_row_dup.lock.json');
 const sig = (h) => `${h.code}|${[h.a, h.b].sort().join('|')}`;
 const current = new Set(hits.map(sig));

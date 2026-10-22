@@ -272,6 +272,44 @@ WORDS.grandmother = {
     rap: "unknown",
     tt: "unknown",
     mdr: "unknown",
+    wuu: "split",
+    cjy: "split",
+    hsn: "split",
+    gan: "split",
+    cdo: "split",
+    mnp: "split",
+    cnp: "split",
+    pnb: "split",
+    gu: "split",
+    sd: "split",
+    ta: "one",
+    fa: "one",
+    si: "one",
+    mwr: "split",
+    gn: "one",
+    kr: "unknown",
+    uz: "unknown",
+    ku: "one",
+    mg: "unknown",
+    ilo: "one",
+    ceb: "one",
+    hil: "one",
+    tn: "unknown",
+    ig: "split",
+    tiv: "one",
+    sr: "one",
+    as: "one",
+    ky: "split",
+    azb: "one",
+    so: "unknown",
+    rw: "unknown",
+    sn: "unknown",
+    am: "unknown",
+    ti: "unknown",
+    ak: "unknown",
+    ff: "unknown",
+    min: "unknown",
+    ts: "one",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -488,5 +526,43 @@ WORDS.grandmother = {
     rap: ["mamaruʻau", "mamaɾuʔau"],  // Literally 'old mama' (ruʻau 'old'); tupuna is the general word for any grandparent.
     tt: ["әби", "æbi"],  // Also means 'old woman'; дәү әни and зур әни, both 'big mother', are other words.
     mdr: ["kanneq", "kanːeʔ"],  // A word for any grandparent, not only the grandmother.
+    wuu: ["阿奶", "aʔ˧˧ na˦˦"],  // Father's mother (younger Shanghainese also say 奶奶); mother's mother: 外婆 nga-bu, 'outside grandmother'.
+    cjy: ["奶奶", "nai˥˧ nai"],  // Father's mother; mother's mother: 姥娘 or 姥姥 in Taiyuan.
+    hsn: ["娭毑", "ŋai˧˧ tɕie˦˩"],  // Father's mother, also a polite address for any elderly woman in Changsha; mother's mother: 外婆 uai bo.
+    gan: ["婆婆", "pʰo˨˦ pʰo"],  // Father's mother (also 奶奶); mother's mother: 阿婆 nga-po, a different word built on the same 婆.
+    cdo: ["依妈", "i˥˥ ma˧˧"],  // Father's mother — written like 'mum' 依妈 but with a different tone on 妈; mother's mother: 外妈 ngiê-mā, 'outside grandma'.
+    mnp: ["奶奶", "nai˨˩ nai˨˦"],  // Father's mother in Jian'ou (also 妈妈); mother's mother: 外婆 uài-pô̤ or 畲嫲.
+    cnp: ["奶奶", "nai˨˩ nai˨˦"],  // Father's mother (also 阿奶); mother's mother: 阿婆 or 外婆.
+    pnb: ["دادی", "daːdiː"],  // Father's mother; mother's mother: نانی nānī.
+    gu: ["દાદી", "daːdiː"],  // Father's mother; mother's mother: નાની nānī (બા bā is also a common word for grandmother).
+    sd: ["ڏاڏي", "ɗaːɗiː"],  // Father's mother; mother's mother: ناني nānī.
+    ta: ["பாட்டி", "paːʈːi"],  // One word for either grandmother; regional words such as அம்மாச்சி ammācci (mother's mother) also exist.
+    fa: ["مادربزرگ", "mɒːdæɾbozoɾɡ"],  // Literally 'big mother', used for either grandmother (ننه nane is the homely word).
+    si: ["ආච්චි", "aːtʃːi"],  // One word for either grandmother; ආත්තම්මා āttammā and කිරිඅම්මා kiriammā are synonyms.
+    mwr: ["दादी", "daːdiː"],  // Father's mother; mother's mother: नांनी nānī.
+    gn: ["jarýi", "dʒaˈɾɨi"],  // One word for either grandmother; sy guasu, literally 'big mother', is also used.
+    kr: ["kaka", "kaka"],  // The word for grandmother in the WOLD list; whether the two grandmothers are told apart is not recorded.
+    uz: ["buvi", "buvi"],  // The everyday word for grandmother; katta ona 'big mother' is a descriptive synonym.
+    ku: ["dapîr", "dɑːˈpiːɾ"],  // One word for either grandmother (pîrik is also common).
+    mg: ["renibe", "reniˈbe"],  // Literally 'big mother' (reny + be).
+    ilo: ["lola", "ˈlola"],  // From Spanish abuela; one word for either grandmother, beside native apong (grandparent).
+    ceb: ["lola", "ˈlola"],  // From Spanish abuela; one word for either grandmother (older native úyang).
+    hil: ["lola", "ˈlola"],  // From Spanish abuela; one word for either grandmother.
+    tn: ["nkoko", "ŋkʊkʊ"],  // The word for grandmother in the Bantu Basic Vocabulary list; whether the two grandmothers are told apart is not recorded.
+    ig: ["nne nna", "nːe nːa"],  // Literally 'mother of father'; mother's mother: nne nne 'mother of mother' or nne ochie 'old mother'.
+    tiv: ["ngo u tamen", "ŋɡo u tamen"],  // Built on ngo 'mother'; one term for either grandmother.
+    sr: ["баба", "bâba"],  // One word for either grandmother (also 'old woman'); the affectionate бака baka is very common.
+    as: ["আইতা", "aita"],  // One word for either grandmother; some sources note ābu as a variant for the mother's mother.
+    ky: ["чоң эне", "tʃoŋ eˈne"],  // Literally 'big mother', the father's mother; mother's mother: таене tayene (тай эне).
+    azb: ["ننه", "næˈnæ"],  // Borrowed from Persian nane; one word for either grandmother, though around Urmia and Salmas it means 'mother'.
+    so: ["ayeeyo", "ajeːjo"],  // The everyday word for grandmother.
+    rw: ["nyogokuru", "ɲoɡokuɾu"],  // The everyday word for grandmother; nyirakuru is the formal synonym.
+    sn: ["ambuya", "ambuja"],  // The everyday word for grandmother (short form mbuya); its counterpart is sekuru 'grandfather'.
+    am: ["ሴት አያት", "set ajat"],  // Literally 'female grandparent' (ሴት 'woman' + አያት 'grandparent').
+    ti: ["ዓባይ", "ʕabaj"],  // The everyday word for grandmother, also said ኣደይ ዓባይ.
+    ak: ["nanabaa", "nanabaː"],  // Built on nana 'grandparent', which is also used on its own.
+    ff: ["maama", "maːma"],  // A word for a grandparent of either sex, inherited from Proto-Fula-Sereer *maam.
+    min: ["anduang", "anduaŋ"],  // The Minangkabau word for grandmother, borrowed into Indonesian as andung.
+    ts: ["kokwana", "kokwana"],  // A word for a grandparent of either sex, used for both grandmothers (also for maternal uncles).
   },
 };

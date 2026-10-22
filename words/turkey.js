@@ -287,6 +287,17 @@ WORDS.turkey = {
     cdo: "local",
     kab: "india",
     kn: "turkey",
+    egl: "unknown",
+    ga: "turkey",
+    bik: "local",
+    ssw: "india",
+    mak: "elsewhere",
+    bs: "unknown",
+    zza: "unknown",
+    vec: "india",
+    mrw: "local",
+    luo: "unknown",
+    quc: "local",
   },
   routes: {
     india: {"color":"#ea580c","emoji":"🐘","en":"named for India · the Indies","ja":"インドの名で","ko":"인도의 이름으로","zh":"以印度为名","yue":"以印度為名","vi":"theo tên Ấn Độ","th":"ตั้งตามอินเดีย","id":"dinamai India","hi":"भारत के नाम पर","de":"nach Indien benannt","fr":"nommé d'après l'Inde","it":"dal nome dell'India","es":"por la India","pt":"pelo nome da Índia","ru":"по Индии","uk":"за Індією","ar":"باسم الهند","he":"על שם הודו","sw":"kwa jina la India"},
@@ -515,5 +526,16 @@ WORDS.turkey = {
     cdo: ["火鸡", "hui˧˧ kie˥˥"],  // Literally "fire chicken", the same word as Standard Chinese 火鸡 (Fuzhou huōi-giĕ); IPA gives citation tones, not Fuzhou sandhi.
     kab: ["ayaziḍ n lhend", "ajazidˤ n lhənd"],  // Literally "rooster of India" (Wiktionary, citing Dallet 1982).
     kn: ["ಟರ್ಕಿಕೋಳಿ", "ʈarkikoːɭi"],  // English turkey plus ಕೋಳಿ "hen, chicken" (Alar Kannada-English dictionary).
+    egl: ["tuchén", "tuˈkeŋ"],  // Bolognese word, a cognate of Italian tacchino; the Parma dialect says pît instead.
+    ga: ["turcaí", "ˈt̪ˠʊɾˠkiː"],  // Borrowed from English turkey; the variant turcach also occurs.
+    bik: ["pabo", "ˈpabo"],  // From Spanish pavo, originally the word for the peacock, as in Tagalog and Cebuano pabo.
+    ssw: ["ingalukhuni", "iŋɡalukʰuni"],  // Borrowed from Afrikaans kalkoen, which names the bird after the Indian port of Calicut.
+    mak: ["jangang balanda", "dʒaŋaŋ balanda"],  // Literally "Dutch chicken", like Malay ayam belanda.
+    bs: ["ćurka", "ˈtɕuːrka"],  // Strictly the hen (the cock is ćuran), but used as the general name, as in the Bosnian Wikipedia; tuka is a synonym.
+    zza: ["qulquli", "qulquˈli"],  // Also spelled qulguli in the Zazaki Wikipedia article; final stress assumed from the regular Zazaki noun pattern.
+    vec: ["dindio", "ˈdindjo"],  // From 'pollo d'India', the bird of the (West) Indies; Wiktionary also records piton for Venetian.
+    mrw: ["pabo", "pabo"],  // From Spanish pavo, originally the word for the peacock, as in most Philippine languages.
+    luo: ["mbata", "mbata"],  // Compare Swahili bata mzinga; the dictionary notes the bird is uncommon in Luoland and was once called Mbata Musinga Gwend Ulaya.
+    quc: ["noʼs", "noʔs"],  // A native K'iche' word, not a borrowing from Spanish.
   },
 };

@@ -3651,8 +3651,8 @@
     will actually see (~12 KB gzipped). tools/build_lang_names.js
     generates lang_names/<ui>.js from lang_names.js. -->
     <script src="lang_names_shim.js?v=5"></script>
-    <script src="lang_names/en.js?v=212"></script>
-    <script>window.__langNamesVersion(212); window.__langNamesBoot();</script>
+    <script src="lang_names/en.js?v=213"></script>
+    <script>window.__langNamesVersion(213); window.__langNamesBoot();</script>
     <script>
     // HanMap-specific display-name overrides.
     // THIS IS THE MECHANISM for "one code, two maps, two meanings". lang_names.js
@@ -6934,7 +6934,10 @@
             // (no 4-digit run) parsed as 0, mis-ordering the largest languages.
             const s = m.speakers;
             if (typeof s !== 'string') return 0;
-            const jp = s.match(/(\d+(?:\.\d+)?)\s*(億|万)/);
+            // Thousands commas first: "約 3,500万人" read as 500万 (zh_jiao),
+            // "約 1,600万人" as 600万 (hak_mz) and "約 4,000万人" as 0 (zh_gl),
+            // so Qingdao and Guilin fell under the 10M zoom-4 gate (2026-10-23).
+            const jp = s.replace(/(\d),(?=\d{3})/g, '$1').match(/(\d+(?:\.\d+)?)\s*(億|万)/);
             if (jp) {
                 return Math.round(parseFloat(jp[1]) * (jp[2] === '億' ? 1e8 : 1e4));
             }

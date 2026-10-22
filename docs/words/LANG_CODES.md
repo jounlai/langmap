@@ -1160,7 +1160,7 @@ Total: 1190 codes.
 | `yue_gz` | Huazhou Yue | 化州粤語 | Sinitic (Yue, Gaoyang) | ~1.4M |
 | `yue_nn` | Nanning Yue | 南寧白話 | Sinitic (Yue–Pinghua boundary, Yongxun Yue) | ~3M |
 | `yue_ts` | Taishanese | 台山語 | Sinitic (Yue, Sze Yap) | ~2M (Taishan + global diaspora) |
-| `yue_zs` | Zhongshan Yue | 中山白話 | Sino-Tibetan (Sinitic, Yue, Yuehai) | ~1.5M |
+| `yue_zs` | Zhongshan Yue | 中山粤語 | Sino-Tibetan (Sinitic, Yue, Yuehai) | ~1.5M |
 | `yug` | Yugh | ユグ語 | Yeniseian (Southern) | Extinct (last L1 speaker died early 2000s) |
 | `yur` | Yurok | ユロク語 | Algic | ~250 (critically endangered) |
 | `yux` | Kolyma Yukaghir | コリマ・ユカギール語 | Yukaghir | ~30 fluent |

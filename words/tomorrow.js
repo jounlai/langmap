@@ -738,6 +738,19 @@ WORDS.tomorrow = {
     xmf: "unknown",
     lbe: "unknown",
     mev: "unknown",
+    tvl: "morning",
+    vot: "morning",
+    fax: "morning",
+    stq: "morning",
+    slr: "morning",
+    szy: "unknown",
+    esu: "unknown",
+    acu: "unknown",
+    yan: "unknown",
+    jbo: "other",
+    xkz: "unknown",
+    ja_mvi: "unknown",
+    bla: "unknown",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -1420,5 +1433,18 @@ WORDS.tomorrow = {
     xmf: ["ჭუმე", "tʃʼume"],  // Ჭუმე is cognate with Laz ჭუმანი 'tomorrow' and Svan ჰამ 'morning' (Wiktionary, after Klimov).
     lbe: ["гьунттий", "huntːij"],  // Гьунттий is the Lak word for tomorrow in both IDS and NorthEuraLex.
     mev: ["tòò", "tòː"],  // Tòò is the Mano word for tomorrow; yalá is 'yesterday'.
+    tvl: ["taeao", "taeao"],  // Taeao is both 'morning' and 'tomorrow' in Tuvaluan, from Polynesian *taiqao 'early morning, dawn; tomorrow' (POLLEX).
+    vot: ["oomõn", "ˈoːmɤn"],  // Oomõn is an old essive of the Finnic word for 'morning', like Finnish huomenna.
+    fax: ["amañán", "amaˈɲan"],  // Amañán is 'at morning' (a + mañán 'morning'); Valverdeñu, the dialect of Valverde del Fresno, says amiñán (Valeš 2021).
+    stq: ["mäiden", "ˈmɛɪ̯dən"],  // Mäiden 'tomorrow' is the same word as Mäiden 'morning', cognate with German morgen.
+    slr: ["ette", "eʰtæ"],  // Ette goes back to Proto-Turkic *ẹ̄rte 'early', the source of Kazakh ерте 'early'.
+    szy: ["anucila", "anutsila"],  // Anucila is 'tomorrow' in Sakizaya.
+    esu: ["unuaqu", "unuaqu"],  // Unuaqu is 'tomorrow' in the Yup'ik Bible (Luke 13:32, 'today and tomorrow').
+    acu: ["kashin", "kaʃin"],  // Kashin is 'tomorrow' in the Achuar Bible (Luke 13:32, 'today and tomorrow').
+    yan: ["yahan mani", "jahan mani"],  // Yahan mani is 'tomorrow' in the Mayangna Bible (Matthew 6:34, Luke 13:32).
+    jbo: ["bavlamdei", "bavˈlamdej"],  // Bavlamdei is a compound of balvi 'future', lamli 'adjacent' and djedi 'day': 'the adjacent future day'.
+    xkz: ["yangpa", "jaŋpa"],  // Yangpa is 'tomorrow' in Hyslop et al.'s Kurtöp dictionary.
+    ja_mvi: ["あつぁ", "atsa"],  // Atsa is 'tomorrow' (明日) in the Okinawa Center of Language Study's Miyako dictionary.
+    bla: ["aapinákos", "aːpinákos"],  // Aapinákos is 'tomorrow' in Frantz and Russell's Blackfoot dictionary.
   },
 };

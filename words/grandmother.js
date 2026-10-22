@@ -366,6 +366,18 @@ WORDS.grandmother = {
     enq: "one",
     her: "one",
     tzh: "one",
+    cr: "one",
+    mic: "one",
+    iu: "unknown",
+    csb: "unknown",
+    hsb: "unknown",
+    krl: "unknown",
+    olo: "unknown",
+    dsb: "unknown",
+    pon: "one",
+    niu: "one",
+    tvl: "one",
+    pbb: "one",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -676,5 +688,17 @@ WORDS.grandmother = {
     enq: ["aputingi", "aputiŋɡi"],  // Covers any female relative two or more generations up, on either side.
     her: ["omukurukaze", "omukurukaze"],  // Same word for either grandmother; the grandfather is omukururume, and Kolbe (1883) gives mama omunene, 'big mother'.
     tzh: ["chuchuʼ", "tʃutʃuʔ"],  // One word for either grandmother (Bachajón dictionary); the grandfather is mamuch.
+    cr: ["ᓅᐦᑯᒼ", "noːhkom"],  // 'My grandmother', used for either grandmother; the address form is nôhkô!.
+    mic: ["nugumij", "nuɡumidʒ"],  // 'My grandmother', used for either grandmother; nugumi is the address form 'granny!'.
+    iu: ["ᐊᓈᓇᑦᓯᐊᖅ", "anaːnatsiaq"],  // Built on anaana 'mother'; the grandfather is ataatatsiaq.
+    csb: ["starka", "ˈstarka"],  // Feminine of stark 'grandfather'; babcza and óma are synonyms.
+    hsb: ["wowka", "ˈwɔwka"],  // From wowa with the suffix -ka, from Proto-Slavic *ova.
+    krl: ["ämmö", "ˈæmːø"],  // From Proto-Finnic *ämmoi; dialectal ämmä is a synonym.
+    olo: ["buabo", "ˈbuabo"],  // Borrowed from East Slavic, ultimately Proto-Slavic *baba.
+    dsb: ["stara mama", "stara mama"],  // Literally 'old mother'; the German loans grosa and grosmuter(ka) are also used.
+    pon: ["nohno kahlap", "noːno kaːlap"],  // Literally 'grand mother' (nohno 'mother' + kahlap 'grand'), used for either grandmother; the grandfather is pahpa kahlap.
+    niu: ["tupuna fifine", "tupuna fifine"],  // Literally 'female grandparent' (tupuna + fifine 'female'), used for either grandmother.
+    tvl: ["tupuna fafine", "tupuna fafine"],  // Literally 'female grandparent' (tupuna + fafine 'female'), used for either grandmother.
+    pbb: ["mama-wala", "mamawaɺa"],  // Literally 'big mother', used for either grandmother; the grandfather is tata-wala 'big father'.
   },
 };

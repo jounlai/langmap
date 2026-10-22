@@ -405,6 +405,39 @@ WORDS.bat = {
     efi: "unknown",
     bci: "unknown",
     mtq: "unknown",
+    nyo: "unknown",
+    gaa: "unknown",
+    tll: "unknown",
+    loz: "unknown",
+    sda: "unknown",
+    izz: "unknown",
+    bfa: "unknown",
+    ng: "unknown",
+    kj: "unknown",
+    jmc: "unknown",
+    kaa: "other",
+    crh: "other",
+    tyv: "unknown",
+    krc: "unknown",
+    aii: "other",
+    cak: "plain",
+    tzh: "plain",
+    mam: "plain",
+    ctu: "plain",
+    nhe: "plain",
+    nch: "plain",
+    nhw: "unknown",
+    ngu: "unknown",
+    pap: "mouse",
+    hwc: "plain",
+    cab: "unknown",
+    kxc: "unknown",
+    tet: "plain",
+    new: "unknown",
+    lez: "unknown",
+    szl: "unknown",
+    fy: "mouse",
+    ses: "unknown",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -755,5 +788,38 @@ WORDS.bat = {
     efi: ["emiañ", "emiaŋ"],  // The Efik word for the bat.
     bci: ["akpannin", "akpãnĩ"],  // The Baoulé word for the bat.
     mtq: ["tẳng", "taŋ"],  // The Mường Bi word for the bat, also reduplicated as tẳng tẳng.
+    nyo: ["ekihuguhugu", "ekihuɡuhuɡu"],  // The Runyoro word for the bat, plural ebihuguhugu; Tooro next door has the same word.
+    gaa: ["aputupata", "aputupata"],  // The Ga word for the bat, plural aputupatai.
+    tll: ["fukifuki", "fukifuki"],  // The Tetela word for the bat; Isaiah 2:20 has the plural tufukifuki.
+    loz: ["sikampafwa", "sikampafwa"],  // The Lozi word for the bat.
+    sda: ["ledo", "ledo"],  // The Toraja-Sa'dan word for the bat.
+    izz: ["ụtsu-nwankụta", "ʊtsunwankʊta"],  // The Izii word for the bat.
+    bfa: ["lukululi", "lukululi"],  // The Bari word for the bat, plural lukululiet.
+    ng: ["elimalima", "elimalima"],  // The Oshindonga word for the bat, plural omalimalima.
+    kj: ["elimalima", "elimalima"],  // The Oshikwanyama word for the bat, the same as in Oshindonga.
+    jmc: ["munyunyu", "muɲuɲu"],  // The Kimashami word for the bat, plural mamunyunyu.
+    kaa: ["jarǵanat", "ʒarʁanat"],  // The old Turkic bat word *yar joined to qanat 'wing', the same word as Kazakh жарғанат.
+    crh: ["yarqanat", "jarqanat"],  // The old Turkic bat word *yar joined to qanat 'wing'.
+    tyv: ["часкы", "tʃaskɯ"],  // The Tuvan word for the bat.
+    krc: ["биттир", "bittir"],  // The Karachay-Balkar word for the bat.
+    aii: ["ܦܵܪܚܲܬ݂ ܠܲܝܠܹܐ", "parxaθ lajleː"],  // Literally 'flier of the night'; a synonym is ܦܪܲܚܕܘܼܕ݂ܵܐ praḥdūḏā.
+    cak: ["sotzʼ", "sotsʼ"],  // Inherited from the Proto-Mayan word for the bat, *sootzʼ.
+    tzh: ["sotsʼ", "sotsʼ"],  // Inherited from the Proto-Mayan word for the bat, *sootzʼ.
+    mam: ["sotzʼ", "sotsʼ"],  // Inherited from the Proto-Mayan word for the bat, *sootzʼ.
+    ctu: ["sutsʼ", "sutsʼ"],  // Inherited from the Proto-Mayan word for the bat, *sootzʼ.
+    nhe: ["tzotzo", "ˈtsotso"],  // Borrowed from Huastec (Wastek) tsots 'bat'.
+    nch: ["tzotzo", "tsotso"],  // Borrowed from Huastec (Wastek) tsots 'bat', as in Eastern Huasteca Nahuatl.
+    nhw: ["tzole", "tsole"],  // The Western Huasteca Nahuatl word for the bat; the other Huasteca varieties say tzotzo.
+    ngu: ["tsinakan", "tsiˈnakan"],  // The Guerrero Nahuatl word, the descendant of Classical Nahuatl tzinacan.
+    pap: ["raton di anochi", "raton di anotʃi"],  // Literally 'mouse of the night'.
+    hwc: ["bat", "bæt"],  // Taken over from English bat.
+    cab: ["búriri", "ˈbuɾiɾi"],  // The Garifuna word for the bat.
+    kxc: ["shipinshipirraata", "ʃipinʃipirːaːta"],  // The Konso word for the bat, plural shipinshipirrawwa.
+    tet: ["niki", "niki"],  // Inherited from Proto-Malayo-Polynesian *paniki 'fruit bat', the same word as Tagalog paniki.
+    new: ["चिकंलापा", "tɕikə̃lapa"],  // The Newar word for both large and small bats.
+    lez: ["кьаркьулув", "qʼarqʼuluv"],  // The common Lezgian word for the bat; some villages say хъархъаба instead.
+    szl: ["gacopjyrz", "ɡaˈtsɔpjɪʂ"],  // The Silesian word, related to dialectal Polish gacopierz.
+    fy: ["flearmûs", "ˈfliərmuːs"],  // Literally 'flutter-mouse', like Dutch vleermuis and German Fledermaus.
+    ses: ["atafirfir", "atafirfir"],  // The Koyraboro Senni word for the bat.
   },
 };

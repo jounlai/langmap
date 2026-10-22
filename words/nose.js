@@ -184,7 +184,7 @@ WORDS.nose = {
     yo: ["imú", "imú"],
     zu: ["ikhala", "iˈkʰala"],
     am: ["አፍንጫ", "afɨntʃʼa"],
-    mg: ["orona", "uˈruna"],
+    mg: ["orona", "ˈuruna"],
     ain: ["エトゥ", "etu"],
     fi: ["nenä", "ˈnenæ"],
     hu: ["orr", "orː"],

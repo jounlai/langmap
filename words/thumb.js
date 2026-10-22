@@ -594,7 +594,7 @@ WORDS.thumb = {
     pnb: ["انگوٹھا", "əŋɡuːʈʰaː"],  // Inherited from Sanskrit aṅguṣṭha; it also names the big toe.
     skr: ["انگوٹھا", "əŋɡuːʈʰaː"],  // Inherited from Sanskrit aṅguṣṭha 'thumb'.
     zu: ["isithupha", "isitʰupʰa"],  // The same word also means 'six'.
-    mg: ["ankibe", "aŋˈkibe"],  // Literally 'big finger' (anky 'finger' + be 'big'); the Malagasy definition also covers the big toe.
+    mg: ["ankibe", "aŋkiˈbe"],  // Literally 'big finger' (anky 'finger' + be 'big'); the Malagasy definition also covers the big toe.
     ky: ["баш бармак", "bɑʃ bɑrmɑq"],  // Literally 'head finger' (баш 'head' + бармак 'finger'), as in the other Turkic languages.
     tt: ["баш бармак", "bɑʃ bɑrmɑq"],  // Literally 'head finger' (баш 'head' + бармак 'finger'); the 👍 emoji is called баш бармак өстә 'thumb up'.
     uz: ["bosh barmoq", "bɒʃ barmɒq"],  // Literally 'head finger' (bosh 'head' + barmoq 'finger'), as in the other Turkic languages.

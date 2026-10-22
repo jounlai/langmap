@@ -290,7 +290,7 @@ WORDS.hand = {
     am: ["እጅ", "ɨdʒː"],
     aiw: ["aani", "ʔaːni"],
     sgw: ["ኧጅ", "ɛdʒ"],
-    mg: ["tanana", "taˈnana"],
+    mg: ["tanana", "ˈtanana"],
     ain: ["テㇰ", "tek"],
     fi: ["käsi", "ˈkæsi"],
     hu: ["kéz", "keːz"],

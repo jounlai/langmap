@@ -398,7 +398,7 @@ WORDS.rain = {
     ilo: ["tudo", "ˈtudo"],
     pam: ["uran", "ʔuˈɾan"],
     pag: ["uran", "ʔuˈɾan"],
-    mg: ["orana", "uˈrana"],
+    mg: ["orana", "ˈurana"],
     mi: ["ua", "ua"],
     haw: ["ua", "ua"],
     sm: ["ua", "ua"],

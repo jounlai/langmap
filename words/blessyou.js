@@ -214,7 +214,7 @@ WORDS.blessyou = {
     sw: ["afya", "ˈafja"],  // Literally 'health', from Arabic ʿāfiya.
     km: ["ស្បើយ", "sɓaəj"],  // Literally '(may it) abate', i.e. a quick recovery; អាយុវែង 'long life' is also said.
     yo: ["pẹ̀lẹ́", "kpɛ̀lɛ́"],  // Literally 'sorry / gently', the word of sympathy also used in greetings.
-    mg: ["velona", "veˈluna"],  // Literally 'alive', i.e. a wish for life and health.
+    mg: ["velona", "ˈveluna"],  // Literally 'alive', i.e. a wish for life and health.
     fi: ["terveydeksi", "ˈterʋeydeksi"],  // Literally 'for health', calqued on German zur Gesundheit.
     hu: ["egészségedre", "ˈɛɡeːʃːeːɡɛdrɛ"],  // Literally 'to your health'; the same word is the drinking toast.
     el: ["γείτσες", "ˈʝitses"],  // Literally 'little healths', a diminutive plural of υγεία 'health'.

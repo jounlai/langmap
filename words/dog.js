@@ -290,7 +290,7 @@ WORDS.dog = {
     am: ["ውሻ", "wɨʃːa"],
     aiw: ["aksi", "ˈʔaksi"],
     sgw: ["ግየ", "ɡɨjɐ"],
-    mg: ["alika", "ˈalika"],
+    mg: ["alika", "aˈlika"],
     ain: ["セタ", "seta"],
     fi: ["koira", "ˈkoirɑ"],
     hu: ["kutya", "ˈkucɒ"],

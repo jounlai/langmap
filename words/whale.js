@@ -344,7 +344,7 @@ WORDS.whale = {
     gld: ["калима", "kalima"],  // Borrowed from Mongolic, compare Mongolian xalim.
     ckt: ["ръэв", "rʔev"],  // An inherited Chukotko-Kamchatkan word for the whale, shared with Koryak and Kerek.
     my: ["ဝေလငါး", "wèla̰ŋá"],  // English 'whale' plus ငါး 'fish': a 'whale fish'.
-    mg: ["trozona", "ʈʂuˈzuna"],  // Inherited from Proto-Malayo-Polynesian *duyuŋ, which meant the dugong.
+    mg: ["trozona", "ˈʈʂuzuna"],  // Inherited from Proto-Malayo-Polynesian *duyuŋ, which meant the dugong.
     ain: ["フンペ", "humpe"],  // An inherited Ainu word for the whale.
     fi: ["valas", "ˈʋɑlɑs"],  // Borrowed through Sami from Germanic hwalaz 'whale'; once mostly used in the compound valaskala 'whale-fish'.
     hu: ["bálna", "ˈbaːlnɒ"],  // From Latin balaena; the formal and scientific word is cet.

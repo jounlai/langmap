@@ -523,7 +523,7 @@ WORDS.thunder = {
     hni: ["aoqjiq", "ɔ˧˩dʑi˧˩"],  // Starts with the same aoq- as this row's rain, aoqsseil.
     haw: ["hekili", "hekili"],  // Recorded as hekili in every Hawaiian wordlist.
     mi: ["whatitiri", "fatitiɾi"],  // Also said whaitiri; inherited from the Polynesian thunder word seen in Walworth's lists.
-    mg: ["kotroka", "kuˈʈʂuka"],  // Inherited from Proto-Malagasy *kuDuk, matching Tagalog kulog.
+    mg: ["kotroka", "ˈkuʈʂuka"],  // Inherited from Proto-Malagasy *kuDuk, matching Tagalog kulog.
     nv: ["iiʼniʼ", "ìːʔnìʔ"],  // One word for thunder and lightning, from a verb 'it strikes it'.
     kmc: ["pja323", "pja˧˨˧"],  // Different from this row's stone, pja55, only by tone; IDS writes the word with an aspirated pjh-.
     swi: ["ʔȵa3", "ʔȵa˧˧"],  // IDS records the word inside a longer expression, qum4 ʔȵa3.

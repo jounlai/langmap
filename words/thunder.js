@@ -496,6 +496,36 @@ WORDS.thunder = {
     olo: "unknown",
     mwl: "unknown",
     hsb: "unknown",
+    es_cr: "plain",
+    es_hn: "plain",
+    es_ni: "plain",
+    es_sv: "plain",
+    es_bo: "plain",
+    es_py: "plain",
+    es_pa: "plain",
+    fr_lu: "plain",
+    fr_cm: "plain",
+    de_lu: "plain",
+    en_ng2: "plain",
+    en_my: "plain",
+    pt_mo: "other",
+    acw: "plain",
+    ar_ps: "plain",
+    cjy_xz: "plain",
+    cjy_lv: "plain",
+    hsn_hy: "plain",
+    kw: "plain",
+    ain: "god",
+    sjd: "god",
+    vep: "unknown",
+    gld: "unknown",
+    tsu: "unknown",
+    hot: "unknown",
+    tao: "unknown",
+    szy: "unknown",
+    acf: "unknown",
+    swb: "unknown",
+    adx: "unknown",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -938,5 +968,35 @@ WORDS.thunder = {
     olo: ["jyry", "ˈjyry"],  // In John 12:29 the Livvi Bible says 'Holy Elijah thundered', after the folk belief that the prophet makes thunder; NorthEuraLex also gives pyhälly.
     mwl: ["truono", "ˈtɾwonu"],  // Used in the Mirandese Gospels for 'sons of thunder' in Mark 3:17.
     hsb: ["hrom", "ɦrɔm"],  // The noun hrimanje, from hrimać 'to thunder', is also used.
+    es_cr: ["trueno", "ˈtɾweno"],  // From Latin tonus 'thunderclap', with an r taken from tronar 'to thunder'.
+    es_hn: ["trueno", "ˈtɾweno"],  // From Latin tonus 'thunderclap', with an r taken from tronar 'to thunder'.
+    es_ni: ["trueno", "ˈtɾweno"],  // From Latin tonus 'thunderclap', with an r taken from tronar 'to thunder'.
+    es_sv: ["trueno", "ˈtɾweno"],  // From Latin tonus 'thunderclap', with an r taken from tronar 'to thunder'.
+    es_bo: ["trueno", "ˈtɾweno"],  // From Latin tonus 'thunderclap', with an r taken from tronar 'to thunder'.
+    es_py: ["trueno", "ˈtɾweno"],  // From Latin tonus 'thunderclap', with an r taken from tronar 'to thunder'.
+    es_pa: ["trueno", "ˈtɾweno"],  // From Latin tonus 'thunderclap', with an r taken from tronar 'to thunder'.
+    fr_lu: ["tonnerre", "tɔnɛʁ"],  // From Latin tonitrus, built on tonāre 'to thunder'.
+    fr_cm: ["tonnerre", "tɔnɛʁ"],  // From Latin tonitrus, built on tonāre 'to thunder'.
+    de_lu: ["Donner", "ˈdɔnɐ"],  // Inherited from Old High German donar, the same Germanic root as English thunder.
+    en_ng2: ["thunder", "ˈtʌndə"],  // Old English þunor, from a Germanic root shared with the god-name Thor, who was named after the thunder.
+    en_my: ["thunder", "ˈtandə"],  // Old English þunor, from a Germanic root shared with the god-name Thor, who was named after the thunder.
+    pt_mo: ["trovão", "tɾuˈvɐ̃w"],  // From Latin turbo 'whirlwind', reshaped under troar 'to thunder', so a storm word rather than the Latin thunder root.
+    acw: ["رعد", "raʕad"],  // Inherited from Proto-Semitic *raʕd-, the same word as Standard Arabic raʕd.
+    ar_ps: ["رعد", "raʕd"],  // Inherited from Proto-Semitic *raʕd-, the same word as Standard Arabic raʕd.
+    cjy_xz: ["忽雷", "xuəʔ˦˧ luei˧˩"],  // Wiktionary's etymology of 雷 cites Jin 忽雷 as a trace of an old prefix on the same Chinese root.
+    cjy_lv: ["雷", "luɐɪ˦˦"],  // The plain old Chinese root, as in Mandarin.
+    hsn_hy: ["雷", "lui˩˩˨"],  // The plain old Chinese root, as in Mandarin; 雷公 'Lord Thunder' is also used.
+    kw: ["taran", "ˈtaran"],  // From Proto-Celtic *toranos, the root behind the Gaulish thunder god Taranis; lightning is lughes.
+    ain: ["カムイフㇺ", "kamujhum"],  // Kamuy 'god' + hum 'sound': thunder is the god's sound.
+    sjd: ["тӣрьмесь", "tiːrʲmesʲ"],  // The same word as Tiermes, the thunder god of the Eastern Sámi.
+    vep: ["juru", "ˈjuru"],  // The Veps Bible also calls it jumalanjuru, 'God's thunder'.
+    gld: ["агди", "aɡdʒi"],  // Akin to Evenki агды agdy 'thunder'.
+    tsu: ["akʼengʉca", "akʔeŋɨtsa"],  // Kept apart from the lightning in Revelation 4:5.
+    hot: ["kakalu", "kakalu"],  // Mark 3:17 explains Boanerges as 'kakalu anêŋ nali', the children of thunder.
+    tao: ["adey", "adej"],  // Cognate with Ivatan aduy.
+    szy: ["kakeleng", "kakələŋ"],  // Kept as in the Wiktionary entry, which gives the pronunciation /kakəˈləŋ/.
+    acf: ["loway", "lowaj"],  // Kept apart from zéklè, the lightning, in Revelation 4:5.
+    swb: ["guguma", "ɡuɡuma"],  // Mark 3:17 in the Maore New Testament renders Boanerges as wana wa maguguma, 'children of thunders'.
+    adx: ["འབྲུག", "nɖʐək"],  // The same Tibetan word means both 'dragon' and 'thunder'.
   },
 };

@@ -77,6 +77,12 @@ const ALLOW = {
     // counted against a budget.
     'foot|hak_cn': true,
 
+    // thunder: cjy_lv (Lishi) 雷 where cjy and cjy_xz say 忽雷. Wiktionary's
+    // dial-syn/雷 lists bare 雷 for Lishi (and both 忽雷 and 雷 for Xinzhou);
+    // the reading luɐɪ44 is MCPDict's 離石 table, not Mandarin. Checked
+    // 2026-10-22.
+    'thunder|cjy_lv': true,
+
     // tongue: gan (Nanchang) writes 舌头 where gan_yc, gan_ja and gan_fz write
     // bare 舌. That is a real split inside Gan, not an import — 《南昌方言詞典》
     // p.257 heads 舌頭, and 語保 gives 舌頭 at the Ji'an and Fuzhou CITY points

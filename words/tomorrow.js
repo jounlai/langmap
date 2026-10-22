@@ -715,6 +715,29 @@ WORDS.tomorrow = {
     kha: "unknown",
     wbm: "unknown",
     rhg: "unknown",
+    tll: "same",
+    bra: "same",
+    gej: "same",
+    kqn: "same",
+    naq: "same",
+    kfx: "same",
+    yai: "morning",
+    fj: "morning",
+    bi: "unknown",
+    bum: "unknown",
+    izz: "unknown",
+    kxc: "unknown",
+    maw: "unknown",
+    rwk: "unknown",
+    jiv: "unknown",
+    co: "unknown",
+    yua: "unknown",
+    lbj: "unknown",
+    tru: "unknown",
+    iu: "unknown",
+    xmf: "unknown",
+    lbe: "unknown",
+    mev: "unknown",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -1374,5 +1397,28 @@ WORDS.tomorrow = {
     kha: ["lashai", "laʃai"],  // Lashai is the Khasi word for tomorrow; one Bible writes it la shai.
     wbm: ["pasax", "pasaʔ"],  // Pasax is the Wa word for tomorrow; the same Bible also writes it as two words, pa sax.
     rhg: ["hailla", "hailːa"],  // Hailla is 'tomorrow'; 'yesterday' is gelde hailla, literally 'the hailla that has gone'.
+    tll: ["lui", "lui"],  // Lui means both 'yesterday' and 'tomorrow' in the Otetela Bible; elo is 'today'.
+    bra: ["कल", "kəl"],  // Kal means both 'yesterday' and 'tomorrow' in the Braj Bible, as in Hindi.
+    gej: ["esɔ", "esɔ"],  // Esɔ means both 'yesterday' and 'tomorrow' in the Gɛ̃gbe Bible; a following 'that is coming' or 'that has gone' can make it explicit.
+    kqn: ["kesha", "keʃa"],  // Kesha means both 'yesterday' and 'tomorrow' in the Kaonde New Testament.
+    naq: ["ǁari", "ǁari"],  // ǁAri(s) means both 'yesterday' and 'tomorrow' in the 2020 Khoekhoegowab Bible.
+    kfx: ["काल", "kaːl"],  // Kāl means both 'yesterday' and 'tomorrow' in the Kullui New Testament.
+    yai: ["fironta", "fiˈronta"],  // Fironta means both 'morning' and 'tomorrow' (DatSemShift).
+    fj: ["nimataka", "nimataka"],  // Nimataka is ni mataka 'of the morning'; the Bible writes siga ni mataka 'the day of the morning'.
+    bi: ["tumora", "tumora"],  // Tumora is the Bislama word for tomorrow, set against yestedei 'yesterday'.
+    bum: ["akiti", "akiti"],  // Akiti is the Bulu word for tomorrow.
+    izz: ["echele", "etʃele"],  // Echele is the Izii word for tomorrow.
+    kxc: ["kuyyaata", "kujːaːta"],  // Kuyyaata is the Konso word for tomorrow.
+    maw: ["beoo", "beoː"],  // Beoo is the Mampruli word for tomorrow.
+    rwk: ["ndesi", "ndesi"],  // Ndesi is the Rwa word for tomorrow; neighbouring Machame has the same word.
+    jiv: ["kashin", "kaʃin"],  // Kashin is the Shuar word for tomorrow, close to kashi 'night'.
+    co: ["dumane", "duˈmane"],  // Dumane is the Corsican word for tomorrow; the Luke text also writes dumani.
+    yua: ["sáamal", "saːmal"],  // Sáamal is the Yucatec Maya word for tomorrow; u kʼiinil sáamal is 'the day of tomorrow'.
+    lbj: ["ཐོ་རེ", "tʰore"],  // Thore is the Ladakhi word for tomorrow, set against diring 'today'.
+    tru: ["ܪܡܚܠ", "ramħəl"],  // Ramḥël comes from an older lamḥor, like Classical Syriac lamḥār (Wiktionary).
+    iu: ["ᖃᐅᒃᐸᑦ", "qaukpat"],  // Qaukpat is the Inuktitut word for tomorrow.
+    xmf: ["ჭუმე", "tʃʼume"],  // Ჭუმე is cognate with Laz ჭუმანი 'tomorrow' and Svan ჰამ 'morning' (Wiktionary, after Klimov).
+    lbe: ["гьунттий", "huntːij"],  // Гьунттий is the Lak word for tomorrow in both IDS and NorthEuraLex.
+    mev: ["tòò", "tòː"],  // Tòò is the Mano word for tomorrow; yalá is 'yesterday'.
   },
 };

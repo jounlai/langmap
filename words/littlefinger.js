@@ -207,6 +207,34 @@ WORDS.littlefinger = {
     hak_hl: "other",
     nan_te: "other",
     nan_qz: "other",
+    wuu: "small",
+    cjy: "small",
+    hsn: "small",
+    cdo: "other",
+    mnp: "other",
+    as: "small",
+    bn: "small",
+    pa: "unknown",
+    pnb: "unknown",
+    skr: "unknown",
+    sd: "unknown",
+    ml: "small",
+    kn: "small",
+    ne: "child",
+    fa: "small",
+    te: "unknown",
+    gu: "unknown",
+    or: "unknown",
+    mg: "small",
+    ceb: "unknown",
+    ilo: "unknown",
+    gn: "small",
+    sq: "small",
+    uz: "unknown",
+    tg: "small",
+    tk: "unknown",
+    nap: "unknown",
+    azb: "unknown",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -359,5 +387,33 @@ WORDS.littlefinger = {
     hak_hl: ["手指尾", "ʃiu˨˦ tʃi˨˦ mui˥˧"],  // Literally the 'tail of the fingers', matching 手指公 for the thumb; Hailu says mui for 'tail'.
     nan_te: ["指尾囝", "tsɯŋ˥˨ bue˥˨ kiã˥˨"],  // Literally the 'little one at the finger tail', with 囝 'child' as a diminutive.
     nan_qz: ["尾指", "bə˥˥˦ tsuĩ˥˥˦"],  // Literally the 'tail finger'; Quanzhou also adds the diminutive 仔.
+    wuu: ["小节头", "ɕiɔ˧˥ tɕiɪʔ˥ dɤ˨˧"],  // Literally 'small finger-joint' (小 'small' + 节头 'finger'), the Shanghainese counterpart of 大节头 'thumb'.
+    cjy: ["小拇指头", "ɕiau˥˧ məʔ˩ tsəʔ˨ tʰəu˦˥"],  // Literally 'small thumb-finger' (小 'small' + 拇指头), the Taiyuan partner of 大拇指头 'thumb'.
+    hsn: ["细指脑", "si˦˥ tʂɻ̩˨˦ lau˦˩"],  // Literally 'small finger-head' (细 'small' + 指脑 'finger'), the partner of 大指脑 'thumb'.
+    cdo: ["尾掌指", "mui˧˧ tsieŋ˧˧ tsai˧˧"],  // Literally 'tail finger' (尾 'tail, end' + 掌指 'finger'): the finger at the end of the hand.
+    mnp: ["尾指仔", "muɛ˨˩ ki˨˦ tsiɛ˨˩"],  // Literally 'little tail finger' (尾 'tail, end' + 指 'finger' + diminutive 仔).
+    as: ["কেঞা আঙুলি", "kɛã aŋuli"],  // Literally 'smallest finger' (কেঞা 'small, smallest' + আঙুলি 'finger').
+    bn: ["কড়ে আঙ্গুল", "kɔɽe aŋɡul"],  // Literally 'little finger' (কড়ে 'little, small' + আঙ্গুল 'finger'); কানি আঙ্গুল is an alternative form.
+    pa: ["ਚੀਚੀ", "tʃiːtʃiː"],  // A word of its own for the little finger, also used for the little toe.
+    pnb: ["چیچی", "tʃiːtʃiː"],  // A word of its own for the little finger, also used for the little toe.
+    skr: ["چیچی", "tʃiːtʃiː"],  // A word of its own for the little finger, shared with Punjabi.
+    sd: ["چيچ", "tʃiːtʃə"],  // A word of its own for the little finger, which also names the little toe.
+    ml: ["ചെറുവിരൽ", "tʃeɾuʋiɾal"],  // Literally 'small finger' (ചെറു 'small' + വിരൽ 'finger'), the partner of തള്ളവിരൽ 'thumb'.
+    kn: ["ಕಿರುಬೆರಳು", "kiɾubeɾaɭu"],  // Literally 'small finger' (ಕಿರು 'small' + ಬೆರಳು 'finger'), the partner of ಹೆಬ್ಬೆರಳು 'thumb'.
+    ne: ["कान्छी औंला", "kaːntsʰi ʌũlaː"],  // Literally 'youngest-daughter finger' (कान्छी 'youngest daughter'), while the thumb is बूढी औंला 'old-woman finger'.
+    fa: ["انگشت کوچک", "ʔæŋɡoʃte kutʃæk"],  // Literally 'small finger' (انگشت 'finger' + کوچک 'small').
+    te: ["చిటికెనవేలు", "tʃiʈikenaʋeːlu"],  // చిటికెన + వేలు 'finger'; చిటికెన alone also names the little finger or toe.
+    gu: ["ટચલી આંગળી", "ʈətʃliː aːŋɡəɭiː"],  // ટચલી + આંગળી 'finger'; ટચલી alone is also used.
+    or: ["କାଣି ଆଙ୍ଗୁଠି", "kaːɳi aːŋɡuʈʰi"],  // କାଣି + ଆଙ୍ଗୁଠି 'finger'; Praharaj derives it from Sanskrit kaniṣṭha 'least, youngest'.
+    mg: ["ankihikely", "aŋkihiˈkeli"],  // Literally 'small finger' (ankihy 'finger' + kely 'small'), the partner of ankibe 'thumb'.
+    ceb: ["kumingking", "kuˈmiŋkiŋ"],  // Short for kumalingking; Wolff files it under the root kingking 'do gingerly with the thumb and forefinger'.
+    ilo: ["kikit", "kiˈkit"],  // A word of its own for the little finger; Ibatan uses the same word.
+    gn: ["kuãʼi", "kʷãˈʔi"],  // Literally 'small finger' (kuã 'finger' + diminutive -'i), the partner of kuãngusu 'big finger', the thumb.
+    sq: ["gisht i vogël", "ɡiʃt i vɔɡəl"],  // Literally 'small finger', matching gisht i madh 'big finger' for the thumb.
+    uz: ["jimjiloq", "dʒimdʒiˈlɒq"],  // A word of its own; Filippone groups it with other expressive reduplicated little-finger names across the region.
+    tg: ["лелача", "lelatʃa"],  // Literally 'little finger': лела 'finger' with a diminutive suffix.
+    tk: ["külembike", "kylembiˈke"],  // A word of its own for the little finger; külbike is a shorter variant.
+    nap: ["mignulìllo", "miɲɲuˈlillə"],  // Akin to Italian mignolo; the descriptive dito piccerillo 'little finger' is also used.
+    azb: ["چئچله بارماق", "tʃetʃælæ bɑɾmɑɣ"],  // چئچله + بارماق 'finger'; the North Azerbaijani spelling is çeçələ barmaq.
   },
 };

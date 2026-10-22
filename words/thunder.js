@@ -389,6 +389,39 @@ WORDS.thunder = {
     hsn: "plain",
     gan: "plain",
     mnp: "god",
+    tpi: "sky",
+    bug: "unknown",
+    sas: "unknown",
+    iba: "unknown",
+    abs: "unknown",
+    max: "unknown",
+    ljp: "unknown",
+    mak: "unknown",
+    gor: "unknown",
+    jam: "unknown",
+    xog: "unknown",
+    kmb: "unknown",
+    mer: "unknown",
+    wal: "unknown",
+    quz: "unknown",
+    kha: "plain",
+    ve: "unknown",
+    tyz: "sky",
+    bs: "unknown",
+    kok: "unknown",
+    pms: "unknown",
+    tsg: "plain",
+    nbl: "unknown",
+    nd: "unknown",
+    ba: "sky",
+    seh: "unknown",
+    sus: "unknown",
+    zne: "unknown",
+    bxk: "unknown",
+    ada: "unknown",
+    efi: "unknown",
+    quc: "unknown",
+    ay: "unknown",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -724,5 +757,38 @@ WORDS.thunder = {
     hsn: ["雷", "lei˩˧"],  // The plain old Chinese root, as in Mandarin.
     gan: ["雷", "lui˧˥"],  // The plain old Chinese root, as in Mandarin.
     mnp: ["雷公", "so˧˧ kɔŋ˥˦"],  // Literally 'Thunder Duke', the thunder god's name; Jian'ou reads 雷 with a vernacular s-.
+    tpi: ["klaut pairap", "klaut pairap"],  // Built on klaut 'cloud', from English cloud.
+    bug: ["letté", "lətːe"],  // ABVD also lists guttu for the Soppeng dialect.
+    sas: ["guntur", "ɡuntur"],  // The same word as Malay and Indonesian guntur.
+    iba: ["guntur", "ɡuntur"],  // The same word as Malay and Indonesian guntur.
+    abs: ["guntur", "ɡuntur"],  // The same word as standard Malay and Indonesian guntur.
+    max: ["guntur", "ɡuntur"],  // The same word as standard Malay and Indonesian guntur.
+    ljp: ["guntor", "ɡuntoʁ"],  // A cognate of Malay guntur; ABVD records gəgoʁ in some other Lampung dialects.
+    mak: ["gunturuʼ", "ˈɡunturuʔ"],  // Makassarese guntur with the echo vowel -uʼ that the language adds after a final r.
+    gor: ["bulonggodu", "buloŋɡodu"],  // Gorontalo has a word of its own here, unrelated to Malay guntur.
+    jam: ["tonda", "tɔnda"],  // Revelation 4:5 in the Jamaican New Testament calls the clap of thunder tonda klap.
+    xog: ["olukuba", "olukuba"],  // Kept apart from okumyansa, the lightning, in Exodus 9:23; enkuba is the rain.
+    kmb: ["kinuminu", "kinuminu"],  // Related to the verb ku-numina 'to thunder' used in John 12:29; the plural is inuminu.
+    mer: ["ngorogoro", "ŋɡoɾoɡoɾo"],  // Kept apart from ndweni, the lightning, in Revelation 4:5 and Exodus 9:23.
+    wal: ["dadaa", "dadaː"],  // Kept apart from wolqqanttaa, the lightning, in Revelation 4:5 and Exodus 9:23.
+    quz: ["qʼaqya", "ˈqʼaqja"],  // Kept apart from illapa and chikchi in the Cusco Bible.
+    kha: ["pyrthat", "prtʰat"],  // Inherited from Austroasiatic, a cognate of Khmer រន្ទះ 'lightning, thunderbolt' (Wiktionary).
+    ve: ["mubvumo", "mubvumo"],  // A noun from the verb bvuma 'to rumble' (Wiktionary); John 12:29 says the rain rumbled.
+    tyz: ["fạ roọng", "faː˧˨ʔ rɔŋ˧˨ʔ"],  // Built on fạ 'sky', the cognate of Thai ฟ้า.
+    bs: ["grmljavina", "ˈɡr̩mʎaʋina"],  // Grom, the older Slavic word in Mark 3:17 'Sinovi groma', leans toward the thunderbolt.
+    kok: ["गडगड", "ɡəɖɡəɖ"],  // John 12:29 in the Konkani Bible says the thunder 'struck' (marla).
+    pms: ["tron", "truŋ"],  // Wiktionary also gives the spelling trun.
+    tsg: ["dawgdug", "dawɡˈduɡ"],  // Inherited from Proto-Austronesian *dəʀdəʀ 'thunder' (Wiktionary).
+    nbl: ["umdumo", "umdumo"],  // A noun from duma 'to thunder', the verb behind Zulu ukuduma.
+    nd: ["umdumo", "umdumo"],  // A noun from duma 'to thunder'; the 1978 Bible uses the infinitive ukuduma instead.
+    ba: ["күк күкрәү", "kyk kykræw"],  // Literally the sky's rumbling: күк 'sky' + күкрәү, like Kazakh күн күркіреу.
+    seh: ["njazi", "ndʒazi"],  // Revelation 4:5 in the same Bible keeps kucetuma, the flashing, apart.
+    sus: ["galanyi", "ɡalaɲi"],  // Kept apart from seyamakɔnyi, the lightning, in Revelation 4:5 and Exodus 9:23.
+    zne: ["gumba", "ɡumba"],  // Exodus 9:23 pairs it with morogumba, the hail.
+    bxk: ["likukuma", "likukuma"],  // Often said likukuma lie fula 'the rumbling of the rain'; lueni is the lightning.
+    ada: ["oslaba", "oslaba"],  // Revelation 4:5 in the Dangme Bible speaks of the oslaba's sounds.
+    efi: ["obuma", "obuma"],  // John 12:29 instead says enyɔŋ atuak 'the sky struck'.
+    quc: ["kaqulja", "kaqulxa"],  // Kept apart from kayapaꞌ, the lightning, in Revelation 4:5.
+    ay: ["qhixu qhixu", "qʰixu qʰixu"],  // A doubled word, kept apart from lliju lliju, the lightning, in Exodus 9:23.
   },
 };

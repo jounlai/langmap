@@ -348,6 +348,95 @@ WORDS.mobilephone = {
     teo: "other",
     bts: "hand",
     ce: "cell",
+    quy: "cell",
+    kea: "carry",
+    kek: "cell",
+    yua: "cell",
+    nia: "hand",
+    gaa: "carry",
+    tll: "other",
+    loz: "other",
+    iso: "other",
+    urh: "other",
+    hwc: "other",
+    tzh: "other",
+    os: "other",
+    lue: "other",
+    rcf: "other",
+    mt: "carry",
+    kqn: "other",
+    nzi: "carry",
+    tzo: "cell",
+    fj: "carry",
+    pap: "cell",
+    kj: "other",
+    ng: "other",
+    bi: "carry",
+    zap: "cell",
+    ngu: "cell",
+    nch: "other",
+    cak: "other",
+    ote: "cell",
+    gym: "cell",
+    arn: "other",
+    aja: "other",
+    xmf: "carry",
+    tyv: "other",
+    pdt: "other",
+    gcf: "other",
+    krc: "carry",
+    lez: "carry",
+    sah: "other",
+    fy: "carry",
+    szl: "carry",
+    co: "other",
+    oc: "carry",
+    lij: "other",
+    pdc: "other",
+    kaa: "carry",
+    dv: "carry",
+    guc: "cell",
+    tly: "carry",
+    wls: "carry",
+    lun: "cell",
+    fud: "other",
+    tob: "cell",
+    io: "other",
+    zgh: "carry",
+    gcr: "carry",
+    acf: "carry",
+    tsz: "cell",
+    bin: "other",
+    vo: "carry",
+    vep: "carry",
+    stq: "hand",
+    tkl: "carry",
+    sma: "carry",
+    smn: "hand",
+    ho: "carry",
+    meu: "carry",
+    toj: "cell",
+    tar: "other",
+    mxv: "other",
+    poh: "cell",
+    mzh: "cell",
+    jiv: "cell",
+    yrl: "cell",
+    kl: "carry",
+    alt: "carry",
+    djk: "other",
+    rtm: "other",
+    crs: "other",
+    tvl: "cell",
+    niu: "cell",
+    gil: "other",
+    haw: "hand",
+    tok: "hand",
+    ast: "carry",
+    an: "carry",
+    rm: "other",
+    kpv: "carry",
+    se: "carry",
   },
   routes: {
     hand: {"color":"#ea580c","emoji":"✋","en":"the hand","ja":"手","ko":"손","zh":"手","yue":"手","vi":"bàn tay","th":"มือ","id":"tangan","hi":"हाथ","de":"die Hand","fr":"la main","it":"la mano","es":"la mano","pt":"a mão","ru":"рука","uk":"рука","ar":"اليد","he":"היד","sw":"mkono"},
@@ -639,5 +728,94 @@ WORDS.mobilephone = {
     teo: ["esimu", "esimu"],  // From Swahili simu "telephone" (originally "wire"), with the Ateso noun prefix e-.
     bts: ["HP", "hape"],  // Read hape, the Indonesian abbreviation of English "handphone".
     ce: ["сотови телефон", "ˈsotovi teleˈfon"],  // From Russian сотовый телефон "cellular telephone"; мобильни телефон is also written.
+    quy: ["celular", "seluˈlaɾ"],  // Borrowed from Spanish celular "cellular (phone)".
+    kea: ["telemóvel", "tɛlɛˈmɔvɛl"],  // Borrowed from European Portuguese telemóvel, from tele- "far" + móvel "mobile".
+    kek: ["selular", "selular"],  // Borrowed from Spanish celular "cellular (phone)".
+    yua: ["celular", "selular"],  // Borrowed from Spanish celular "cellular (phone)".
+    nia: ["HP", "hape"],  // Read hape, the Indonesian abbreviation HP of English "handphone".
+    gaa: ["mobail foŋ", "mobail foŋ"],  // Borrowed from English "mobile phone"; often shortened to foŋ "phone".
+    tll: ["telefɔnɛ", "telefɔnɛ"],  // Borrowed from French téléphone "telephone", the general word, used for the mobile.
+    loz: ["foni", "foni"],  // Borrowed from English "phone"; older texts call the mobile luwaile lwa ku fumbata.
+    iso: ["ifonu", "ifonu"],  // Borrowed from English "phone".
+    urh: ["ifonu", "ifonu"],  // Borrowed from English "phone".
+    hwc: ["phone", "foʊn"],  // From English "phone"; Pidgin simply says phone for the mobile.
+    tzh: ["telefono", "telefono"],  // Borrowed from Spanish teléfono "telephone", used for the mobile.
+    os: ["телефон", "telefon"],  // Borrowed from Russian телефон "telephone", used for the mobile.
+    lue: ["shinga", "ʃiŋɡa"],  // The general Luvale word for a telephone (plural jishinga), used for the mobile.
+    rcf: ["téléfone", "telefɔn"],  // From French téléphone "telephone", used for the mobile.
+    mt: ["mowbajl", "ˈmɔwbajl"],  // Borrowed from English "mobile"; the formal term is telefon ċellulari.
+    kqn: ["foni", "foni"],  // Borrowed from English "phone" (plural mafoni).
+    nzi: ["moba", "moba"],  // Clipped from English "mobile (phone)"; fonu "phone" is also used.
+    tzo: ["selular", "selular"],  // Borrowed from Spanish celular "cellular (phone)".
+    fj: ["mobail", "mobail"],  // Borrowed from English "mobile (phone)".
+    pap: ["telefòn selular", "telefɔn selular"],  // Literally "cellular telephone"; in running speech often just telefòn.
+    kj: ["ongodi", "oŋɡodi"],  // The general Kwanyama word for a telephone, used for the mobile; the fuller form is ongodi yopeke.
+    ng: ["ongodhi", "oŋɡoði"],  // The general Ndonga word for a telephone, used for the mobile; the fuller form is ongodhi yopeke.
+    bi: ["mobaelfon", "mobaelfon"],  // From English "mobile phone"; often shortened to fon "phone".
+    zap: ["celular", "selulaɾ"],  // Borrowed from Spanish celular "cellular (phone)"; teléfono is also used.
+    ngu: ["celular", "seluˈlar"],  // Borrowed from Spanish celular "cellular (phone)"; teléfono is also used.
+    nch: ["teléfono", "teˈlefono"],  // Borrowed from Spanish teléfono "telephone", used for the mobile.
+    cak: ["teléfono", "teˈlefono"],  // Borrowed from Spanish teléfono "telephone", used for the mobile.
+    ote: ["celular", "selulaɾ"],  // Borrowed from Spanish celular "cellular (phone)"; telefono is also used.
+    gym: ["celular", "selulaɾ"],  // Borrowed from Spanish celular "cellular (phone)".
+    arn: ["telefono", "telefono"],  // Borrowed from Spanish teléfono "telephone", used for the mobile.
+    aja: ["telefonu", "telefonu"],  // Borrowed from French téléphone "telephone", used for the mobile.
+    xmf: ["მობილური ტელეფონი", "mobiˈluri tʼeleˈpʰoni"],  // Borrowed from Georgian მობილური ტელეფონი "mobile telephone"; often just ტელეფონი.
+    tyv: ["телефон", "teleˈfon"],  // Borrowed from Russian телефон "telephone", used for the mobile.
+    pdt: ["Fon", "foːn"],  // Short word for the telephone ("phone"), used for the mobile.
+    gcf: ["téléfòn", "telefɔn"],  // From French téléphone "telephone", used for the mobile.
+    krc: ["мобил телефон", "moˈbil teleˈfon"],  // Borrowed from Russian мобильный телефон "mobile telephone"; the article also gives хурджун телефон "saddlebag telephone".
+    lez: ["мобил телефон", "moˈbil teleˈfon"],  // Borrowed from Russian мобильный телефон "mobile telephone".
+    sah: ["сиэп төлөппүөнэ", "siep tøløpˈpyøne"],  // Literally "pocket telephone" (сиэп "pocket"); Russian мобильнай телефон and сотовай телефон are also used.
+    fy: ["mobyltsje", "moˈbiltsjə"],  // Diminutive of mobyl "mobile"; the formal term is mobile telefoan.
+    szl: ["mobilniok", "mɔˈbilɲɔk"],  // A Silesian coinage from mobil- "mobile", proposed by the writer Karol Gwóźdź and increasingly heard in place of Polish komórka.
+    co: ["telefuninu", "telefuˈninu"],  // Literally "little telephone", a diminutive like Italian telefonino.
+    oc: ["telefòn mobil", "teleˈfɔn muˈbil"],  // Literally "mobile telephone", often shortened to mobil; telefonet "little telephone" is also used.
+    lij: ["telefonin", "telefuˈniŋ"],  // Literally "little telephone", a diminutive like Italian telefonino.
+    pdc: ["Sackfoohn", "ˈsakfoːn"],  // Literally "pocket phone" (Sack "pocket" + Foohn "phone").
+    kaa: ["mobil telefon", "moˈbil teleˈfon"],  // Literally "mobile telephone"; the article also gives qol telefonı "hand telephone" and uyalı telefon "cellular telephone".
+    dv: ["މޮބައިލް ފޯނު", "mobail foːnu"],  // Borrowed from English "mobile phone".
+    guc: ["serulaalü", "serulaːlɨ"],  // Borrowed from Spanish celular "cellular (phone)"; the fuller form is taleepana serulaalü.
+    tly: ["mobil telefon", "mobil telefon"],  // Literally "mobile telephone", as in Azerbaijani and Russian.
+    wls: ["telefoni toʻotoʻo", "telefoni toʔotoʔo"],  // Literally "carried telephone": telefoni from French téléphone plus toʼotoʼo, a reduplication of toʼo "take, carry" (Rensch 1984); the same toʼotoʼo describes mobile devices (masini toʼotoʼo).
+    lun: ["selufoni", "selufoni"],  // Borrowed from English "cell phone" (plural maselufoni); mafoni "phones" is also used.
+    fud: ["telefoni", "telefoni"],  // Borrowed from French téléphone "telephone", used for the mobile phone one reads the Bible on.
+    tob: ["celular", "selular"],  // Borrowed from Spanish celular "cellular (phone)".
+    io: ["posh-telefonilo", "poʃtelefoˈnilo"],  // Literally "pocket telephone" (posho "pocket" + telefonilo); portebla telefonilo "portable telephone" is also used.
+    zgh: ["ⴰⵎⵓⴱⴰⵢⵍ", "amubajl"],  // Borrowed from "mobile" (as in Moroccan usage); a smartphone is ⴰⵎⵓⴱⴰⵢⵍ ⵉⵎⵉⵖⵉⵙ "clever mobile".
+    gcr: ["pòrtab", "pɔʁtab"],  // From French portable "portable (phone)"; téléfonn "phone" is also used for it.
+    acf: ["pòtab", "pɔtab"],  // From French portable "portable (phone)".
+    tsz: ["selulari", "selulaɾi"],  // Borrowed from Spanish celular "cellular (phone)"; telefonu "telephone" is also used.
+    bin: ["efoni", "efoni"],  // Borrowed from English "phone".
+    vo: ["telefonöm polovik", "telefonøm polovik"],  // Literally "carriable telephone", from polön "to carry" + -ov- "-able" + -ik (adjective).
+    vep: ["mobiline telefon", "mobiline telefon"],  // Literally "mobile telephone", modelled on Russian мобильный телефон.
+    stq: ["Handy", "ˈhɛndi"],  // Borrowed from German Handy, a pseudo-anglicism built on English "hand".
+    tkl: ["telefoni fekaveaki", "telefoni fekaveaki"],  // Literally a telephone that is carried about, built on kave "to carry"; an older text spells it fekavefaki.
+    sma: ["mobïjle", "ˈmupɨjlɛ"],  // Borrowed from Norwegian/Swedish mobil "mobile (phone)"; the full form is mobïjletelefovne.
+    smn: ["kánnyk", "ˈkaːnːyk"],  // Borrowed from Finnish kännykkä, coined at Nokia from dialectal känny "hand"; the fuller term is mätkipuhelin "travel phone".
+    ho: ["mobael fon", "mobael fon"],  // Borrowed from English "mobile phone"; often shortened to fon "phone".
+    meu: ["mobael foun", "mobael foun"],  // Borrowed from English "mobile phone"; often shortened to foun "phone".
+    toj: ["celular", "selular"],  // Borrowed from Spanish celular "cellular (phone)".
+    tar: ["teléfono", "telefono"],  // Borrowed from Spanish teléfono "telephone", used for the mobile.
+    mxv: ["teléfono", "telefono"],  // Borrowed from Spanish teléfono "telephone", used for the mobile; source is the JW Guerrero Mixtec edition (code mxv).
+    poh: ["celular", "selular"],  // Borrowed from Spanish celular "cellular (phone)".
+    mzh: ["celular", "selular"],  // Borrowed from Spanish celular "cellular (phone)".
+    jiv: ["celular", "selulaɾ"],  // Borrowed from Spanish celular "cellular (phone)".
+    yrl: ["celular", "seluˈlar"],  // Borrowed from Portuguese celular "cellular (phone)".
+    kl: ["mobili", "mobili"],  // From Danish mobil(telefon) "mobile (phone)"; the native coinage is oqarasuaat nassartariaq "telephone that can be carried".
+    alt: ["мобильный телефон", "mobilnɨj telefon"],  // Borrowed from Russian мобильный телефон "mobile telephone".
+    djk: ["telefon", "telefon"],  // From Dutch/English telefoon/telephone, the general word, used for the mobile.
+    rtm: ["telefon", "telefon"],  // From English "telephone", the general word, used for the mobile.
+    crs: ["telefonn", "telefɔn"],  // From French téléphone "telephone", used for the mobile; mobayl (from English "mobile") also occurs.
+    tvl: ["selefoni", "selefoni"],  // Borrowed from English "cell phone"; telefoni "telephone" is also used.
+    niu: ["selafoni", "selafoni"],  // Borrowed from English "cell phone"; the 2013 text says telefoni utafano instead.
+    gil: ["tareboon", "taɾeboon"],  // From English "telephone", used for the mobile; the 2013 text writes the fuller tareboon aika uouotaki.
+    haw: ["kelepona paʻa lima", "kelepona paʔa lima"],  // Literally "telephone held in the hand" (kelepona "telephone" + paʻa "hold" + lima "hand"), the Māmaka Kaiao coinage; kelulā "cellular" is also listed.
+    tok: ["ilo toki luka", "ilo toki luka"],  // Literally "hand talking-tool": ilo toki "phone" + luka "hand", because it is held and carried in the hand.
+    ast: ["móvil", "ˈmoβil"],  // Short for teléfonu móvil "mobile telephone".
+    an: ["móbil", "ˈmoβil"],  // Short for telefono móbil "mobile telephone".
+    rm: ["telefonin", "telefoˈnin"],  // Literally "little telephone"; the formal term is telefon mobil, and handy and natel are also everyday words.
+    kpv: ["мобильнӧй телефон", "mobilnɘj telefon"],  // From Russian мобильный телефон "mobile telephone", with the Komi adjective ending -ӧй.
+    se: ["mátketelefovdna", "ˈmaːtːketelefovːtna"],  // Literally "travel telephone" (mátki "trip" + telefovdna); Finnish-side texts such as Kela use mobiilatelefovdna.
   },
 };

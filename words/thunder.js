@@ -422,6 +422,47 @@ WORDS.thunder = {
     efi: "unknown",
     quc: "unknown",
     ay: "unknown",
+    bxr: "sky",
+    kum: "sky",
+    krc: "sky",
+    crh: "sky",
+    kaa: "unknown",
+    tyv: "unknown",
+    yi: "plain",
+    dv: "unknown",
+    wa: "plain",
+    cbk: "plain",
+    blt: "sky",
+    gaa: "god",
+    ho: "sky",
+    ses: "unknown",
+    nij: "unknown",
+    ami: "unknown",
+    lus: "unknown",
+    kac: "unknown",
+    sda: "unknown",
+    dtp: "unknown",
+    aoz: "unknown",
+    bdq: "unknown",
+    lol: "unknown",
+    loz: "unknown",
+    jmc: "unknown",
+    asu: "unknown",
+    her: "unknown",
+    nzi: "unknown",
+    mev: "unknown",
+    cab: "unknown",
+    gym: "unknown",
+    guc: "unknown",
+    ssy: "unknown",
+    naq: "unknown",
+    izz: "unknown",
+    nhw: "unknown",
+    nhe: "unknown",
+    nch: "unknown",
+    hui: "unknown",
+    bi: "unknown",
+    pis: "unknown",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -790,5 +831,46 @@ WORDS.thunder = {
     efi: ["obuma", "obuma"],  // John 12:29 instead says enyɔŋ atuak 'the sky struck'.
     quc: ["kaqulja", "kaqulxa"],  // Kept apart from kayapaꞌ, the lightning, in Revelation 4:5.
     ay: ["qhixu qhixu", "qʰixu qʰixu"],  // A doubled word, kept apart from lliju lliju, the lightning, in Exodus 9:23.
+    bxr: ["тэнгэриин дуун", "teŋɡeriːŋ duːŋ"],  // Literally 'the sky's sound': тэнгэри 'sky' + дуун 'sound', like Khalkha тэнгэрийн дуу; аянга is also used.
+    kum: ["кёк кёкюрев", "køk køkyrew"],  // Literally 'the sky's rumbling': кёк 'sky' + кёкюрев, the verbal noun of кёкюре- 'to thunder'.
+    krc: ["кёк кюкюреу", "køk kykyrew"],  // Literally 'the sky's rumbling', кёк 'sky' + the verbal noun кюкюреу, the same build as Kumyk кёк кёкюрев; lightning is шыбыла.
+    crh: ["kök güdürdisi", "køk ɡydyrdisi"],  // Literally 'the sky's rumbling', kök 'sky' + güdürdi 'rumble'; the Bible also uses kök gürültisi.
+    kaa: ["gúldirmama", "ɡyldirmama"],  // Kept apart from jasın and shaqmaq, the lightning; the same word as Uyghur گۈلدۈرماما.
+    tyv: ["диңмирээшкин", "diŋmireːʃˈkin"],  // A noun from диңмире- 'to thunder'; lightning is кызаңнаашкын.
+    yi: ["דונער", "ˈdʊnər"],  // From Middle High German doner, the Germanic thunder word shared with German Donner and English thunder.
+    dv: ["ގުގުރި", "ɡuɡuɾi"],  // Inherited from Sanskrit ghurghurā and cognate with Sinhala ගිගුරුම; it can also mean a snore.
+    wa: ["tonire", "tɔniːʀ"],  // From Latin tonitrus, like French tonnerre; tonoere is a synonym.
+    cbk: ["trueno", "ˈtɾweno"],  // Borrowed from Spanish trueno, from Latin tonitrus; the verb is trona.
+    blt: ["ꪡ꫁ꪱꪵꪠ꫁", "faː˧˩ˀfɛː˨˩ˀ"],  // Built on ꪡ꫁ꪱ 'sky', like Thai ฟ้าร้อง 'the sky roars'.
+    gaa: ["nyɔŋmɔshimɔ", "ɲɔŋmɔʃimɔ"],  // Literally 'Nyɔŋmɔ's thundering': Nyɔŋmɔ is the Ga Supreme Being and also the word for rain, and the Ga say that when it thunders, God is speaking.
+    ho: ["guba boiboi", "ɡuba boiboi"],  // Literally the sky's noise: guba 'sky', as in Motu guba rahua 'thunder'.
+    ses: ["jiŋjiŋ", "dʒiŋdʒiŋ"],  // The same word is the verb 'to thunder'; the Bible also says beenaa jiŋjiŋyanoo, 'the sky's thundering'.
+    nij: ["nyaho", "ɲaho"],  // Kept apart from kilat, the lightning; the older ABVD wordlist writes it nyahu.
+    ami: ["kakeleng", "kakələŋ"],  // Kept apart from kalapiyat, the lightning; the 2019 Amis Bible spells it kakleng.
+    lus: ["khawpui", "kʰawpui"],  // Thunder 'sounds' (ri) in Mizo: khawpui a ri; lightning is kâwlphe.
+    kac: ["mu", "muʔ˥"],  // Thunder 'sounds' (ngoi) in Jingpho, mu ngoi; lightning is myihprap.
+    sda: ["guntuʼ", "ɡuntuʔ"],  // Kept apart from kila', the lightning; galugu is the rumbling.
+    dtp: ["tinggoron", "tiŋɡoron"],  // Used in the Kadazandusun Bible for the thunder the crowd heard in John 12:29.
+    aoz: ["lotos", "lotos"],  // Kept apart from limat, the lightning.
+    bdq: ["grơ̆m", "ɡrəm"],  // Paired with glaih, the lightning, as grơ̆m glaih.
+    lol: ["likungola", "likuŋɡola"],  // A noun from the verb kungola 'to thunder', used as 'likungola jokungola', 'the thunder thundered'.
+    loz: ["mushika", "muʃika"],  // Kept apart from lumonyi, the lightning; the plural is mishika.
+    jmc: ["iruruma", "iɾuɾuma"],  // Kept apart from ukova, the lightning; the plural is maruruma.
+    asu: ["mrurumo", "mrurumo"],  // Kept apart from luimiji, the lightning, in Revelation 4:5.
+    her: ["oruṱuṱumo", "orut̪ut̪umo"],  // Kept apart from orutjeno, the lightning.
+    nzi: ["ɛhululɛ", "ɛhululɛ"],  // A noun from hulule 'to thunder'; ɛsɛnlɛmanye is the lightning.
+    mev: ["gbánà", "ɡbánà"],  // Used in the Mano New Testament for the thunder the crowd heard in John 12:29.
+    cab: ["wayuhuru", "wajuhuɾu"],  // Kept apart from labirihaniga, the lightning.
+    gym: ["unsuni", "unsuni"],  // Thunder 'speaks' (ngö käinta) in the Ngäbere Bible.
+    guc: ["sütürüla juya", "sɨtɨɾɨla huja"],  // The phrase contains juya 'rain'; Juya is also the Wayuu rain being.
+    ssy: ["angud", "anɡud"],  // Kept apart from xankarha, the lightning.
+    naq: ["ǃgurub", "ǃɡurub"],  // Kept apart from napagu, the lightning; -b is the masculine singular ending.
+    izz: ["egbigwe", "eɡbiɡwe"],  // Kept apart from ebemu, the lightning.
+    nhw: ["tlatomonilotl", "tɬatomonilotɬ"],  // Kept apart from tlapetlanilotl, the lightning; the verb is tlatomoni 'it thunders'.
+    nhe: ["tlatomonilotl", "tɬatomonilotɬ"],  // Kept apart from tlapetlanilotl, the lightning; the verb is tlatomoni 'it thunders'.
+    nch: ["tatomonilot", "tatomoˈnilot"],  // The Central Huasteca form of tlatomonilotl, with tl reduced to t; lightning is tapetanilot.
+    hui: ["hari kulu", "hari kulu"],  // Used in the Huli Bible for the thunder the crowd heard in John 12:29.
+    bi: ["tanda", "tanda"],  // Kept apart from laetning, the lightning; compare Tok Pisin tanda, from English thunder.
+    pis: ["tanda", "tanda"],  // Thunder 'bursts' (bosta) in Pijin; laetning is the lightning.
   },
 };

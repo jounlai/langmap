@@ -492,6 +492,12 @@ line('rows mixing scripts unlisted', num(s, /rows mixing scripts without a MIXED
 // words it was written for (sushi, computer) and so missed six traditional-
 // script cuckoo cells in mainland rows (review 432). --all checks every word
 // against a per-code majority baseline.
+// Speaker prose read by the pages' own parsers. The figure is never shown; it
+// only decides which labels survive the zoom gate and thinning, so a misread
+// (約 3,500万 → 500万, 'Extinct (~1700s' → 1,700) hides a row silently.
+s = run('speaker_prose_parse_check.js');
+line('speaker prose parsed as written', num(s, /^violations: (\d+)/m));
+
 s = run('zh_script_convention.js --all');
 // ^ anchored (2026-10-22): unanchored, the regex matched the earlier
 // 'description mismatches: 0' line, so cell mismatches (nan_zz/nan_xm 火雞,

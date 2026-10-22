@@ -3613,7 +3613,7 @@
     </script>
     <script src="wordmap_data.js?v=349"></script>
     <script src="lang_attention.js?v=4"></script>
-    <script src="hanmap_data.js?v=208"></script>
+    <script src="hanmap_data.js?v=209"></script>
     <script>
         // Hanmap stubs: replace the per-word loader. wordmap.html loads
         // ~20 individual JS files under words/<id>.js (one per concept) and
@@ -3651,8 +3651,8 @@
     will actually see (~12 KB gzipped). tools/build_lang_names.js
     generates lang_names/<ui>.js from lang_names.js. -->
     <script src="lang_names_shim.js?v=5"></script>
-    <script src="lang_names/en.js?v=213"></script>
-    <script>window.__langNamesVersion(213); window.__langNamesBoot();</script>
+    <script src="lang_names/en.js?v=214"></script>
+    <script>window.__langNamesVersion(214); window.__langNamesBoot();</script>
     <script>
     // HanMap-specific display-name overrides.
     // THIS IS THE MECHANISM for "one code, two maps, two meanings". lang_names.js
@@ -6937,7 +6937,8 @@
             // Thousands commas first: "約 3,500万人" read as 500万 (zh_jiao),
             // "約 1,600万人" as 600万 (hak_mz) and "約 4,000万人" as 0 (zh_gl),
             // so Qingdao and Guilin fell under the 10M zoom-4 gate (2026-10-23).
-            const jp = s.replace(/(\d),(?=\d{3})/g, '$1').match(/(\d+(?:\.\d+)?)\s*(億|万)/);
+            // Checked by tools/speaker_prose_parse_check.js.
+            const jp = s.replace(/(\d),(?=\d{3}(?!\d))/g, '$1').match(/(\d+(?:\.\d+)?)\s*(億|万)/);
             if (jp) {
                 return Math.round(parseFloat(jp[1]) * (jp[2] === '億' ? 1e8 : 1e4));
             }

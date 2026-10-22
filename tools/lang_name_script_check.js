@@ -85,6 +85,23 @@ for (const [code, name] of Object.entries(N.zh || {})) {
   if (hits.length) problems.push(`zh.${code} = "${name}" is traditional [${hits.join('')}] — should read "${[...name].map((ch) => tradToSimp.get(ch) || ch).join('')}"`);
 }
 
+// ja is written in shinjitai. Added 2026-10-23 after 台灣華語 (zh_tw) and
+// 梅縣客家語 (hak_mz) were found in the ja table; the zh/yue pass above could
+// not see them, since ja shares the traditional 語/話 forms. Candidates are the
+// hand-checked kyūjitai:shinjitai pairs below, each kept only while the
+// kyūjitai member is near-absent from the ja table (the exclusivity test used
+// above). Requiring the shinjitai member to be in use as well missed 梅縣:
+// 県 appears in no other ja name.
+const KYU = '灣湾臺台廣広國国學学會会體体鐵鉄澤沢縣県與与圓円變変號号關関實実寫写數数歐欧歷歴龍竜區区戰戦藝芸齒歯對対應応壓圧榮栄驛駅鹽塩櫻桜賣売單単團団斷断黨党讀読圖図兒児亞亜佛仏價価條条來来兩両傳伝參参嚴厳彈弾樂楽氣気滿満獨独當当眞真經経繪絵聲声舊旧莊荘萬万蟲虫觀観譯訳豐豊轉転邊辺醫医釋釈錢銭隨随險険雜雑靈霊顯顕黑黒';
+const kyuToShin = new Map();
+for (let i = 0; i + 1 < KYU.length; i += 2) {
+  if (count(N.ja, KYU[i]) <= 4) kyuToShin.set(KYU[i], KYU[i + 1]);
+}
+for (const [code, name] of Object.entries(N.ja || {})) {
+  const hits = [...name].filter((ch) => kyuToShin.has(ch));
+  if (hits.length) problems.push(`ja.${code} = "${name}" has kyūjitai [${hits.join('')}] — should read "${[...name].map((ch) => kyuToShin.get(ch) || ch).join('')}"`);
+}
+
 if (!CHECK) {
   console.log(`language-name script convention — ${simpToTrad.size} discriminating pairs learned`);
   console.log('');

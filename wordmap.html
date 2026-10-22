@@ -3851,7 +3851,7 @@
             data:      349,
             metaI18n:  18,
             filter:    64,
-            names:   213,
+            names:   214,
             meta:     428,
             trivia:   45,
             triviaI18n: 29,
@@ -4023,8 +4023,8 @@
          will actually see (~12 KB gzipped). tools/build_lang_names.js
          generates lang_names/<ui>.js from lang_names.js. -->
     <script src="lang_names_shim.js?v=5"></script>
-    <script src="lang_names/en.js?v=213"></script>
-    <script>window.__langNamesVersion(213); window.__langNamesBoot();</script>
+    <script src="lang_names/en.js?v=214"></script>
+    <script>window.__langNamesVersion(214); window.__langNamesBoot();</script>
     <!-- Trivia articles (125 KB gz) are read on demand and drive decorative
          map blinks. Loaded after `load`; window.TRIVIA_ARTICLES readers all
          guard with `|| []`, and the blinks refresh once it lands. -->
@@ -6035,8 +6035,13 @@
                 if (typeof sc.l1RangeMax === 'number') return sc.l1RangeMax;
             }
             // Light prose fallback: pull the leading numeric magnitude.
-            const s = m.speakers;
+            let s = m.speakers;
             if (typeof s !== 'string') return 0;
+            // 'Extinct (~1700s as L1 …)' read the century as 1,700 speakers
+            // (tpn), and a thousands comma ('~1,200') stopped the bare-digit
+            // path at '1'. Checked by tools/speaker_prose_parse_check.js.
+            if (/^\s*extinct\b/i.test(s)) return 0;
+            s = s.replace(/(\d),(?=\d{3}(?!\d))/g, '$1');
             const mat = s.match(/(\d+(?:[.,]\d+)?)\s*([KMB])\b/i);
             if (mat) {
                 const n = parseFloat(mat[1].replace(',', '.'));

@@ -709,7 +709,7 @@ Total: 1190 codes.
 | `nan` | Taiwanese | 台湾語 | Sinitic (Min Nan) | ~49M (incl. ~16M Taiwan Hokkien) |
 | `nan_hai` | Hainanese | 海南語 | Sinitic (Min Nan, Hainanese) | ~5M |
 | `nan_ph` | Philippine Hokkien | フィリピン福建話 | Sinitic (Min Nan, Philippines) | ~1M |
-| `nan_pn` | Penang Hokkien | ペナン福建語 | Sinitic (Min Nan, Penang) | ~1M |
+| `nan_pn` | Penang Hokkien | ペナン福建話 | Sinitic (Min Nan, Penang) | ~1M |
 | `nan_qz` | Quanzhou Hokkien | 泉州閩南語 | Sinitic (Min Nan) | ~7M (in Quanzhou + diaspora) |
 | `nan_te` | Teochew | 潮州語 | Sinitic (Min Nan, Chao-Shan) | ~13M (Chaoshan + diaspora) |
 | `nan_xm` | Xiamen Hokkien | 厦門閩南語 | Sino-Tibetan (Sinitic, Min Nan, Quanzhang/Hokkien) | ~3M |
@@ -1158,7 +1158,7 @@ Total: 1190 codes.
 | `yue` | Cantonese | 広東語 | Sinitic (Yue) | ~85M |
 | `yue_dg` | Dongguan Yue | 東莞粤語 | Sinitic (Yue, Guan-Bao / Yuehai) | ~3M |
 | `yue_gz` | Huazhou Yue | 化州粤語 | Sinitic (Yue, Gaoyang) | ~1.4M |
-| `yue_nn` | Nanning Yue | 南寧白話 | Sinitic (Yue–Pinghua boundary, Yongxun Yue) | ~3M |
+| `yue_nn` | Nanning Yue | 南寧粤語 | Sinitic (Yue–Pinghua boundary, Yongxun Yue) | ~3M |
 | `yue_ts` | Taishanese | 台山語 | Sinitic (Yue, Sze Yap) | ~2M (Taishan + global diaspora) |
 | `yue_zs` | Zhongshan Yue | 中山粤語 | Sino-Tibetan (Sinitic, Yue, Yuehai) | ~1.5M |
 | `yug` | Yugh | ユグ語 | Yeniseian (Southern) | Extinct (last L1 speaker died early 2000s) |
@@ -1185,7 +1185,7 @@ Total: 1190 codes.
 | `zh_song` | Early Mandarin | 早期官話 | Sinitic (Early Mandarin) | Extinct |
 | `zh_tang` | Middle Chinese | 中古漢語 | Sinitic (Early Middle Chinese) | Extinct |
 | `zh_tj` | Tianjin Mandarin | 天津官話 | Sinitic (Mandarin, Ji-Lu / Tianjin) | ~10M |
-| `zh_tw` | Taiwan Mandarin | 台灣華語 | Sinitic (Mandarin) | ~23M |
+| `zh_tw` | Taiwan Mandarin | 台湾華語 | Sinitic (Mandarin) | ~23M |
 | `zh_wenyan_edu` | Cantonese Classical Chinese | 粤音文言文 | Sinitic (Yue, Cantonese pedagogical reading of Literary Chinese) | Active pedagogical use (~7M HK 文言文 curriculum) |
 | `zh_wh` | Wuhan Mandarin | 武漢官話 | Sinitic (Mandarin, Southwestern) | ~10M |
 | `zh_xa` | Xi'an Mandarin | 西安官話 | Sinitic (Mandarin, Zhongyuan) | ~10M |

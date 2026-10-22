@@ -357,6 +357,19 @@ WORDS.thumb = {
     cjy_lv: "big",
     an: "plain",
     sma: "plain",
+    hsn_hy: "big",
+    nan_xm: "big",
+    nan_zz: "big",
+    es_bo: "plain",
+    es_py: "plain",
+    es_pa: "plain",
+    en_my: "plain",
+    fud: "unknown",
+    wls: "unknown",
+    dru: "unknown",
+    gun: "big",
+    lun: "unknown",
+    roo: "unknown",
   },
   routes: {
     mother: {"color":"#db2777","emoji":"👪","en":"mother · parent · elder kin","ja":"母・親・年長の身内","ko":"어머니 · 어버이 · 웃어른","zh":"母亲・父母・长辈","yue":"阿媽 · 父母 · 長輩","vi":"mẹ · cha mẹ · bậc trên","th":"แม่ · พ่อแม่ · ญาติผู้ใหญ่","id":"ibu · orang tua · kerabat tua","hi":"माँ · माता-पिता · बड़े","de":"Mutter · Eltern · ältere Verwandte","fr":"mère · parent · aîné","it":"madre · genitore · parente anziano","es":"madre · padre · pariente mayor","pt":"mãe · pai · parente mais velho","ru":"мать · родитель · старший родич","uk":"мати · батько · старший родич","ar":"أم · والد · قريب أكبر","he":"אם · הורה · קרוב מבוגר","sw":"mama · mzazi · ndugu mkubwa"},
@@ -658,5 +671,18 @@ WORDS.thumb = {
     cjy_lv: ["大拇指", "tɔ˥˨ mu˧˩˨ tsɿ˧˩˨"],  // Literally 'big thumb-finger' (大 'big' + 拇 'thumb' + 指 'finger'); Lishi, the seat of Lüliang, also says 大拇指头.
     an: ["pulgar", "pulˈɣaɾ"],  // From Latin pollicaris, from pollex 'thumb'; Aragonese Wikipedia also gives dido gran, 'big finger'.
     sma: ["bielkie", "ˈpiɛlkiɛ"],  // A word of its own, cognate with Northern Sami bealgi and Inari Sami pelgi.
+    hsn_hy: ["大手脑", "tai˨˩˧ ɕiu˧˧ nau˧˧"],  // Literally 'big hand-head' (大 'big' + 手 'hand' + 脑 'head'), a Hengyang word for the thumb.
+    nan_xm: ["大部拇", "tua˨˨ pɔ˨˨ bu˥˧"],  // Built on 大 'big' and 拇 'thumb'; in Xiamen the same word also means the big toe.
+    nan_zz: ["大头拇", "tua˨˨ tʰau˩˧ bo˥˧"],  // Literally 'big head-thumb' (大 'big' + 头 'head' + 拇 'thumb'); it also names the big toe, and Zhangzhou also says 大部拇.
+    es_bo: ["pulgar", "pulˈɣaɾ"],  // From Latin pollicaris (from pollex 'thumb'), the general Spanish word, which also covers the big toe.
+    es_py: ["pulgar", "pulˈɣaɾ"],  // From Latin pollicaris (from pollex 'thumb'), the general Spanish word, which also covers the big toe.
+    es_pa: ["pulgar", "pulˈɣaɾ"],  // From Latin pollicaris (from pollex 'thumb'), the general Spanish word, which also covers the big toe.
+    en_my: ["thumb", "tam"],  // From Old English þūma; Malaysian English typically pronounces the th as t.
+    fud: ["maikao matua", "maikao matua"],  // maikao 'finger' + matua, which Pollex glosses 'main, principal' across Polynesian; with o le vae 'of the foot' the same phrase names the big toe.
+    wls: ["tuhi matua", "tuhi matua"],  // tuhi 'finger' + matua 'main, principal' (Pollex); the Bible also writes kaui tuhi matua, and with o te vae 'of the foot' it names the big toe.
+    dru: ["dradrangalrane", "ɖaɖaŋaɭanə"],  // The same word names the thumb and the big toe, told apart by ki alrima 'of the hand' or ki drapale 'of the foot'.
+    gun: ["kuã guaxu", "kuã ɡwaʃu"],  // Literally 'big finger' (kuã 'finger' + guaxu 'big'); the big toe is pyxã guaxu 'big toe'.
+    lun: ["munu wedimbanu", "munu wedimbanu"],  // munu 'finger' + wa dimbanu; with wa ku mwendu 'of the foot' the same phrase names the big toe.
+    roo: ["aakopeva", "aːkopeβa"],  // The Rotokas word for the thumb, as recorded in Firchow et al.'s 1973 dictionary.
   },
 };

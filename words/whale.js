@@ -272,6 +272,18 @@ WORDS.whale = {
     th_s: "fish",
     gsw: "plain",
     smj: "plain",
+    fa: "plain",
+    az: "plain",
+    sr: "plain",
+    hr: "plain",
+    no: "plain",
+    ky: "plain",
+    tt: "plain",
+    zu: "unknown",
+    nso: "unknown",
+    ln: "unknown",
+    so: "unknown",
+    prs: "plain",
   },
   routes: {
     fish: {"color":"#2563eb","emoji":"🐟","en":"called a fish","ja":"「魚」と呼ぶ","ko":"\"물고기\"라 부름","zh":"称作\"鱼\"","yue":"叫做「魚」","vi":"gọi là cá","th":"เรียกว่าปลา","id":"disebut ikan","hi":"मछली कहा जाता है","de":"als Fisch bezeichnet","fr":"appelée poisson","it":"chiamata pesce","es":"llamada pez","pt":"chamada peixe","ru":"называют рыбой","uk":"називають рибою","ar":"تُسمّى سمكة","he":"נקרא דג","sw":"huitwa samaki"},
@@ -489,5 +501,17 @@ WORDS.whale = {
     th_s: ["ปลาวาฬ", "plaː˥waːn˥"],  // Literally 'whale fish': ปลา 'fish' plus วาฬ 'whale'.
     gsw: ["Waal", "vaːl"],  // The old Germanic whale word, written Waal in Swiss German spelling for the long vowel.
     smj: ["sváles", "ˈsvaːlɛs"],  // From Proto-Sami *fālēs, an early loan from Germanic *hwalaz 'whale'.
+    fa: ["نهنگ", "næˈhæŋɡ"],  // Inherited from Middle Persian nihang, which meant the crocodile; وال vâl is a less common synonym.
+    az: ["balina", "bɑˈlinɑ"],  // Ultimately from Italian balena, probably via Ottoman Turkish; the Russian loan kit is an older synonym.
+    sr: ["кит", "kît"],  // From Ancient Greek kêtos 'sea monster', the same root as cetacean.
+    hr: ["kit", "kît"],  // From Ancient Greek kêtos 'sea monster', the same root as cetacean.
+    no: ["hval", "vɑːl"],  // From Old Norse hvalr, the same Germanic word as English whale; Nynorsk spells it kval.
+    ky: ["кит", "kit"],  // Borrowed from Russian кит, from Ancient Greek kêtos.
+    tt: ["кит", "kit"],  // Borrowed from Russian кит, from Ancient Greek kêtos.
+    zu: ["umkhomo", "umkʰomo"],  // The Zulu word for the whale; it does not contain inhlanzi 'fish'.
+    nso: ["leruarua", "leruarua"],  // The Northern Sotho word for the whale, shared with Sotho and Tswana.
+    ln: ["mondɛ́lɛ́", "mondɛ́lɛ́"],  // The Lingala word for the whale; it does not contain mbisi 'fish'.
+    so: ["nibiri", "nibiri"],  // The Somali word for the whale; it does not contain kalluun 'fish'.
+    prs: ["نهنگ", "naˈhaŋɡ"],  // The same word as Persian نهنگ; in Middle Persian it meant 'crocodile'.
   },
 };

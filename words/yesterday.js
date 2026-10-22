@@ -506,6 +506,69 @@ WORDS.yesterday = {
     mnw: "distinct",
     tig: "unknown",
     dje: "distinct",
+    nyo: "same",
+    quy: "distinct",
+    nij: "distinct",
+    new: "distinct",
+    dty: "distinct",
+    gaa: "distinct",
+    tll: "same",
+    spp: "distinct",
+    loz: "distinct",
+    akb: "distinct",
+    sda: "distinct",
+    aoz: "distinct",
+    ksb: "distinct",
+    hwc: "distinct",
+    tzh: "distinct",
+    dz: "distinct",
+    wa: "distinct",
+    bsq: "distinct",
+    ng: "distinct",
+    lue: "distinct",
+    kaa: "distinct",
+    ewo: "distinct",
+    bra: "same",
+    rim: "distinct",
+    dtp: "distinct",
+    mam: "distinct",
+    asu: "distinct",
+    tet: "distinct",
+    jmc: "distinct",
+    nhw: "distinct",
+    gej: "same",
+    ebu: "distinct",
+    ses: "distinct",
+    tzo: "distinct",
+    nhe: "distinct",
+    pdt: "distinct",
+    kqn: "same",
+    mev: "unknown",
+    pis: "distinct",
+    dv: "distinct",
+    nzi: "distinct",
+    krc: "distinct",
+    ote: "distinct",
+    kj: "distinct",
+    pdc: "distinct",
+    bxr: "distinct",
+    adi: "distinct",
+    anu: "distinct",
+    naq: "same",
+    her: "distinct",
+    ssy: "distinct",
+    enq: "distinct",
+    nch: "distinct",
+    cab: "distinct",
+    ami: "distinct",
+    kfx: "same",
+    bzj: "distinct",
+    saq: "distinct",
+    gag: "distinct",
+    ngu: "distinct",
+    hui: "distinct",
+    ho: "distinct",
+    kea: "unknown",
   },
   routes: {
     same: {"color":"#db2777","emoji":"🔁","en":"one word for yesterday and tomorrow","ja":"昨日と明日が同じ語","ko":"어제와 내일이 한 낱말","zh":"昨天和明天同一个词","yue":"尋日同聽日同一個詞","vi":"một từ cho hôm qua và ngày mai","th":"คำเดียวทั้งเมื่อวานและพรุ่งนี้","id":"satu kata untuk kemarin dan besok","hi":"बीते और आने वाले कल का एक शब्द","de":"ein Wort für gestern und morgen","fr":"un mot pour hier et demain","it":"una parola per ieri e domani","es":"una palabra para ayer y mañana","pt":"uma palavra para ontem e amanhã","ru":"одно слово для вчера и завтра","uk":"одне слово для учора й завтра","ar":"كلمة واحدة لأمس وغد","he":"מילה אחת לאתמול ולמחר","sw":"neno moja kwa jana na kesho"},
@@ -957,5 +1020,68 @@ WORDS.yesterday = {
     mnw: ["နူကနေံတေံ", "nṳ kəneʔ teʔ"],  // tomorrow: တ္ၚဲ ယး; in Thailand the word is shortened to နူကၞေံ.
     tig: ["ማሌ", "male"],  // Compare ማሌ-ላሊ "last night", built with ላሊ "night".
     dje: ["bi", "bi"],  // tomorrow: suba; bifo 'the day before yesterday' is built on bi.
+    nyo: ["ijo", "idʒo"],  // Ijo means both 'yesterday' (Hebrews 13:8, John 4:52) and 'tomorrow' (Matthew 6:34, Luke 13:32) in the Runyoro Bible; nyenkya is also used for 'tomorrow'.
+    quy: ["qayna", "ˈqajna"],  // tomorrow: paqarin; also said qayna punchaw 'the past day'.
+    nij: ["male", "male"],  // tomorrow: jewu; usually andau male 'yesterday' (andau 'day'), tomorrow andau jewu.
+    new: ["म्हिगः", "mʱiɡəː"],  // tomorrow: कन्हय्
+    dty: ["बेलि", "beli"],  // tomorrow: भोल
+    gaa: ["nyɛ", "ɲɛ"],  // tomorrow: wɔ
+    tll: ["lui", "lui"],  // Lui means both 'yesterday' (Hebrews 13:8, John 4:52) and 'tomorrow' (Matthew 6:34, Luke 13:32) in the Otetela Bible; elo is 'today'.
+    spp: ["taɲjaa", "taɲɟaː"],  // tomorrow: nùmpanŋa
+    loz: ["maabani", "maːbani"],  // tomorrow: kamuso
+    akb: ["natuari", "natuari"],  // tomorrow: ancogot
+    sda: ["iongiʼ", "ioŋiʔ"],  // tomorrow: masiang
+    aoz: ["afi neno", "afi neno"],  // tomorrow: noka; afi neno is literally 'past day' (neno 'day').
+    ksb: ["γulo", "ɣulo"],  // tomorrow: keloi; also written ghulo.
+    hwc: ["yestaday", "jɛstədeɪ"],  // tomorrow: tomorra
+    tzh: ["wojey", "wohej"],  // tomorrow: pajel
+    dz: ["ཁ་ཙ", "kʰatsa"],  // tomorrow: ནངས་པ
+    wa: ["ayir", "aˈjiːʀ"],  // tomorrow: dimwin; from Latin heri.
+    bsq: ["mabã̀a", "mabã̀a"],  // tomorrow: gàɖàà
+    ng: ["ohela", "ohela"],  // tomorrow: ngula
+    lue: ["zau", "zau"],  // tomorrow: hamene
+    kaa: ["keshe", "keʃe"],  // tomorrow: erteń
+    ewo: ["ongoge", "oŋɡoɡe"],  // tomorrow: okidi
+    bra: ["कल", "kəl"],  // The same word means 'yesterday' (Hebrews 13:8, Acts 7:28) and 'tomorrow' (Matthew 6:34, Luke 13:32) in the Braj Bible, as in Hindi.
+    rim: ["ighoo", "iɣoː"],  // tomorrow: fadiu
+    dtp: ["konihab", "konihab"],  // tomorrow: suab
+    mam: ["ewe", "ewe"],  // tomorrow: nchiʼj
+    asu: ["ighuo", "iɣuo"],  // tomorrow: yavo
+    tet: ["horisehik", "horisehik"],  // tomorrow: awan; also written horiseik, literally 'the other day'.
+    jmc: ["ukwau", "ukwau"],  // tomorrow: ndesi
+    nhw: ["yalohua", "jalowa"],  // tomorrow: mostla
+    gej: ["esɔ", "esɔ"],  // Esɔ (written èsɔ̀ in the 2014 Gɛ̃gbe Bible) means both 'yesterday' and 'tomorrow', as in Ewe; tense makes the difference.
+    ebu: ["ĩgoro", "eɡoɾo"],  // tomorrow: rũyũ; the Bible writes îgoro, rûyû.
+    ses: ["bi", "bi"],  // tomorrow: suba
+    tzo: ["volje", "volhe"],  // tomorrow: okʼom
+    nhe: ["yalhuaya", "jalwaja"],  // tomorrow: mostla
+    pdt: ["jistren", "ˈjistrən"],  // tomorrow: morjen
+    kqn: ["kesha", "keʃa"],  // Kesha means both 'yesterday' (Hebrews 13:8, John 4:52) and 'tomorrow' (Matthew 6:34, Luke 13:32) in the Kaonde New Testament.
+    mev: ["yalá", "jalá"],  // Tomorrow word not established from the same Bible.
+    pis: ["yestade", "jestade"],  // tomorrow: tumoro; from English yesterday.
+    dv: ["އިއްޔެ", "ijje"],  // tomorrow: މާދަމާ; from Sanskrit hyas, cognate with Sinhala ඊයේ.
+    nzi: ["anoma", "anoma"],  // tomorrow: ɛhyema
+    krc: ["тюнене", "tynene"],  // tomorrow: тамбла
+    ote: ["mande", "mande"],  // tomorrow: xudi
+    kj: ["onghela", "oŋ̊ela"],  // tomorrow: mongula
+    pdc: ["geschder", "ɡeʃtər"],  // tomorrow: meiya (spelling of the Pennsylvania Dutch Bible, which writes yesterday geshtah); cognate with German gestern.
+    bxr: ["үсэгэлдэр", "yseɡelder"],  // tomorrow: үглөөдэр
+    adi: ["melo", "melo"],  // tomorrow: nyampo
+    anu: ["awääre", "awaːre"],  // tomorrow: diøø
+    naq: ["ǁari", "ǁari"],  // ǁari(s) means both 'yesterday' (Hebrews 13:8) and 'tomorrow' (Matthew 6:34, Luke 13:32) in the 2020 Khoekhoegowab Bible.
+    her: ["erero", "erero"],  // tomorrow: muhuka
+    ssy: ["kumal", "kumal"],  // tomorrow: beera
+    enq: ["kuaka", "kuaka"],  // tomorrow: taita
+    nch: ["yalohua", "jalowa"],  // tomorrow: mosta
+    cab: ["gúñaarü", "ˈɡuɲaːɾɨ"],  // tomorrow: haruga
+    ami: ["inacila", "inatsila"],  // tomorrow: anocila
+    kfx: ["काल", "kaːl"],  // The same word means 'yesterday' (Hebrews 13:8, Acts 7:28) and 'tomorrow' (Matthew 6:34, James 4:13) in the Kullui New Testament.
+    bzj: ["yestudeh", "jestude"],  // tomorrow: tumaaro
+    saq: ["ng'ole", "ŋole"],  // tomorrow: teisiere
+    gag: ["dün", "dyn"],  // tomorrow: yaarın
+    ngu: ["yalohua", "jalowa"],  // tomorrow: mostla
+    hui: ["abe", "abe"],  // tomorrow: yawi
+    ho: ["varani", "varani"],  // tomorrow: kerukeru
+    kea: ["ónti", "ˈɔnti"],  // From Portuguese ontem.
   },
 };

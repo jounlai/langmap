@@ -1252,5 +1252,6 @@ WORDS.love = {
     nan_ph: ["愛", "ai˦˩"],
     aiw: ["—", "—"],
     dzg: ["nagi", "nàɡɪ́"],  // Noun 'love, desire' and verb 'love, want'.
+    zag: ["—", "—"],
   }
 };

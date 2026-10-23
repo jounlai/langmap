@@ -946,6 +946,7 @@ WORDS.poop = {
     kos: ["fohk", "fɔk"],
     tig: ["ሐርዕ", "ħarəʕ"],
     bin: ["isan", "isã"],
-    kqn: ["tuvwi", "tuvwi"]
+    kqn: ["tuvwi", "tuvwi"],
+    zag: ["hire", "hɪɾɛ"],  // The neutral word for excrement is tîye.
   },
 };

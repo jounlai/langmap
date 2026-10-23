@@ -1252,5 +1252,6 @@ WORDS.you = {
     gsw_als: ["dü", "dy"],
     nan_ph: ["汝", "li˥˥˦"],
     dzg: ["inta", "ɪ́ntà"],  // Synonym noore.
+    zag: ["na", "na"],  // Plural nuw.
   },
 };

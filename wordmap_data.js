@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 86 word concepts × 1191 languages/varieties (incl. ~140 excluded from the default modern view)
+ * Word Map Data — 86 word concepts × 1192 languages/varieties (incl. ~140 excluded from the default modern view)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -3635,6 +3635,8 @@ const LANG_DATA = {
   tmh: { name: "Tamasheq", native: 'Tamaceq', lat: 22.78, lng: 5.52, // Tamanrasset (Tahaggart)
 },
   dzg: { name: "Dazaga", native: "Dazaga", lat: 14.25, lng: 13.11, // N'guigmi (Diffa, Niger)
+},
+  zag: { name: "Zaghawa", native: "Beria", lat: 15.12, lng: 22.25, // Iriba (Wadi Fira, Chad)
 },
   // Bantu (Namibia/Angola)
   ng: { name: 'Ndonga', native: 'Oshindonga', lat: -17.78, lng: 15.69, // Oshakati

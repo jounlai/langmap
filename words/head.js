@@ -1211,5 +1211,6 @@ WORDS.head = {
     ik: ["niaquq", "niaquq"],
     zne: ["ri", "ri"],
     dzg: ["dahu", "dàhʊ́"],  // Also 'top, summit'.
+    zag: ["ta", "ta"],  // tafa is 'head, skull'; ta also means 'above'.
   },
 };

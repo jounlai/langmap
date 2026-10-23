@@ -1264,5 +1264,6 @@ WORDS.dog = {
     gsw_als: ["Hùnd", "hʊnt"],
     nan_ph: ["狗", "kau˥˥˦"],
     dzg: ["kîri", "kírí"],
+    zag: ["bîrî", "biɾi"],
   },
 };

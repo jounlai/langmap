@@ -1194,5 +1194,6 @@ WORDS.nose = {
     bzd: ["yík", "jík"],
     abe: ["mejol", "medʒol"],
     dzg: ["ca", "cá"],
+    zag: ["sina", "sɪna"],
   },
 };

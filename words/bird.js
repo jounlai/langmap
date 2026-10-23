@@ -1210,5 +1210,6 @@ WORDS.bird = {
     mvf: ["xuu", "ɕuu"],
     itl: ["ийон", "ijon"],
     dzg: ["côfuri", "còfɨ̀rí"],  // Also 'airplane'.
+    zag: ["torfo", "toɾfo"],  // Glossed 'bird (generic)'.
   },
 };

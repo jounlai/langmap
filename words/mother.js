@@ -1251,5 +1251,6 @@ WORDS.mother = {
     gsw_als: ["Müeter", "myətər"],
     nan_ph: ["老母", "lau˧˧ bu˥˥˦"],
     dzg: ["aya", "ájá"],
+    zag: ["kira", "kɪɾa"],  // îya is the familiar term of address for one's mother.
   },
 };

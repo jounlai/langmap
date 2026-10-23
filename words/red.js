@@ -1259,5 +1259,6 @@ WORDS.red = {
     gsw_als: ["rot", "roːt"],
     nan_ph: ["紅", "aŋ˨˦"],
     dzg: ["maru", "màrʊ́"],  // Also covers orange and pink.
+    zag: ["maraî", "maɾai"],  // Covers red, purple and violet.
   },
 };

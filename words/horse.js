@@ -1140,5 +1140,6 @@ WORDS.horse = {
     prg: ["russis", "rusis"],
     kos: ["ohsr", "ɔʂ"],
     dzg: ["aski", "áskɪ́"],
+    zag: ["hirde", "hɪɾdɛ"],
   }
 };

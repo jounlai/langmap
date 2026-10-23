@@ -1252,5 +1252,6 @@ WORDS.good = {
     gsw_als: ["güet", "ɡyət"],
     nan_ph: ["好", "ho˥˥˦"],
     dzg: ["gali", "ɡálɪ̀"],  // Synonyms dîli and tîri.
+    zag: ["ayî", "ʔaji"],  // okaî is 'perfect, good in character'.
   },
 };

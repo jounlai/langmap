@@ -1215,5 +1215,6 @@ WORDS.white = {
     ja_rys: ["っすさーん", "ssusaːɴ"],
     mxv: ["yaa", "jaː"],
     dzg: ["cuu", "cʊ̀ʊ́"],
+    zag: ["terri", "tɛɾɾɪ"],
   },
 };

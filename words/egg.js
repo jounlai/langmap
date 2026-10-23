@@ -1176,5 +1176,6 @@ WORDS.egg = {
     zts: ["dzɨtbɨdy", "dzɨtbɨdj"],
     cuk: ["akwa", "akwa"],
     dzg: ["šili", "ʃɪ́lɪ̀"],  // Synonym kûili.
+    zag: ["gûnû", "ɡunu"],  // Glossed in the plural, 'eggs'.
   },
 };

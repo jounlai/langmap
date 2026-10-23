@@ -1208,6 +1208,9 @@ for (const code of codes) {
                 // is tuu only as a cross-reference with no pronunciation; 'we' has two
                 // unlabelled forms (tunta, taara) and no source says which is current.
                 dzg: new Set(['we', 'eat']),
+                // zag (Zaghawa/Beria, 2026-10-23, ADESK 2006 dictionary): no greeting
+                // formula in the dictionary, only naga 'peace; salutation'.
+                zag: new Set(['hello', 'love']),   // love: the entry's bracket gives another word (tagarì 'able')
                 // dds fish: Heath and the Dogon project both give it as ídù — but
                 // Donno So 'dog' is ìdú, the same segments with the opposite tone,
                 // and this row is toneless in all 39 of its other cells. Writing

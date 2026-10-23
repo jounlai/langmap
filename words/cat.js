@@ -1251,5 +1251,6 @@ WORDS.cat = {
     nan_ph: ["貓", "niãu˧˧"],
     aiw: ["—", "—"],
     dzg: ["bôtu", "bòtú"],  // Marked as an Arabic loan (ar.) in the dictionary.
+    zag: ["matu", "matʊ"],
   }
 };

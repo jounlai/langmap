@@ -1252,5 +1252,6 @@ WORDS.drink = {
     nan_ph: ["啉", "lim˧˧"],
     aiw: ["—", "—"],
     dzg: ["têi", "tèí"],  // Also 'feel, experience'.
+    zag: ["jarì", "ɟaɾɪ"],  // Listed as jarì, kiyarí; the first form is given.
   }
 };

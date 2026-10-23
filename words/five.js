@@ -1214,5 +1214,6 @@ WORDS.five = {
     myp: ["baágiso", "baáɡiso"],
     itz: ["joʼ", "hoʔ"],
     dzg: ["fôu", "fòú"],
+    zag: ["hûy", "huj"],
   },
 };

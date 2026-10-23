@@ -927,5 +927,6 @@ WORDS.butterfly = {
     nyo: ["ekihoiholya", "ekihoiholja"],
     kos: ["sacliki", "sɛliki"],
     dzg: ["kuli-mallimi", "kʊ̀lɪ̀málɪ́mɪ́"],  // Covers butterflies and moths; synonym popur.
+    zag: ["ofûfût", "ʔofufut"],  // One word for moth and butterfly.
   },
 };

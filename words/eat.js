@@ -1252,5 +1252,6 @@ WORDS.eat = {
     nan_ph: ["食", "tsiaʔ˨˦"],
     aiw: ["—", "—"],
     dzg: ["—", "—"],
+    zag: ["serì", "sɛɾɪ"],  // Listed as serì, kiserí; the first form is given.
   }
 };

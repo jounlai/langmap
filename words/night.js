@@ -1256,5 +1256,6 @@ WORDS.night = {
     gsw_als: ["Nàcht", "nɒxt"],
     nan_ph: ["暗暝", "am˦˩ mĩ˨˦"],
     dzg: ["dugusu", "dʊ̀ɡʊ̀sʊ́"],
+    zag: ["gini", "ɡɪnɪ"],  // Also the first part of ginimay 'dream'.
   },
 };

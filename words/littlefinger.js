@@ -248,6 +248,7 @@ WORDS.littlefinger = {
     mak: "plain",
     cv: "unknown",
     dag: "unknown",
+    zag: "unknown",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -441,5 +442,6 @@ WORDS.littlefinger = {
     mak: ["kaningking", "kaˈniŋkiŋ"],  // A word of its own, inherited from Proto-Malayo-Polynesian *kiŋkiŋ 'little finger', alongside anrong lima 'mother of the hand' for the thumb.
     cv: ["кача пӳрне", "katɕa pyrne"],  // Ends in пӳрне 'finger'; the Chuvash Wikipedia notes that кача is also a separate word, but the sources seen do not explain the first element.
     dag: ["nubilikpaliŋga", "nubilikpaliŋɡa"],  // Built on nubila 'finger'; the dictionary lists kpaliŋga only as 'little (finger)' in this compound and does not explain it further.
+    zag: ["ba tende", "ba tende"],  // Built on ba 'arm, hand'; the little toe is dey tende.
   },
 };

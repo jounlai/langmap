@@ -1257,5 +1257,6 @@ WORDS.fire = {
     nan_ph: ["火", "he˥˥˦"],
     mlq: ["ta", "ta"],
     dzg: ["wûni", "wúní"],  // Also 'electricity', 'firearm' and 'hell'.
+    zag: ["jiye", "ɟɪjɛ"],
   }
 };

@@ -1215,5 +1215,6 @@ WORDS.ear = {
     tca: ["naxpaxchinü", "naʔpaʔtʃinɨ"],
     sip: ["རྣམ་མཆོག", "namtɕoʔ"],
     dzg: ["šîĩ", "ʃḭ́ḭ́"],
+    zag: ["kebe", "kɛbɛ"],
   },
 };

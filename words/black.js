@@ -1301,5 +1301,6 @@ WORDS.black = {
     bor: ["čoreu", "tʃoɾew"],
     ik: ["maŋaqtaaq", "maŋaqtaːq"],
     dzg: ["yesku", "jɛ́skʊ̀"],  // Also 'dark'.
+    zag: ["mîye", "mije"],
   },
 };

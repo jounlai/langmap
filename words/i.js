@@ -1252,5 +1252,6 @@ WORDS.i = {
     gsw_als: ["ich", "ɪx"],
     nan_ph: ["我", "ɡua˥˥˦"],
     dzg: ["tani", "tànɪ́"],  // Synonym toore.
+    zag: ["ay", "ʔaj"],
   },
 };

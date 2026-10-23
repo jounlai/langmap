@@ -1267,5 +1267,6 @@ WORDS.fish = {
     nan_ph: ["魚", "hi˨˦"],
     mlq: ["yego", "jeɡo"],
     dzg: ["bosu", "bɔ̀sʊ́"],
+    zag: ["hût", "hut"],  // Marked as Arabic in the dictionary (Arabic ḥūt).
   }
 };

@@ -1172,5 +1172,6 @@ WORDS.daughter = {
     hop: ["maana", "maːna"],
     glk: ["دختر", "duxtəɾ"],
     dzg: ["dôu", "dòú"],  // Glossed 'girl, daughter'.
+    zag: ["tene", "tɛnɛ"],  // Also a niece; tene gonoy is a second word for 'daughter'.
   },
 };

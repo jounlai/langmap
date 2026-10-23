@@ -1263,5 +1263,6 @@ WORDS.one = {
     gsw_als: ["eins", "eins"],
     nan_ph: ["一", "tsit˨˦"],
     dzg: ["turon", "trɔ̌n"],
+    zag: ["noko", "nɔkɔ"],  // nî [ni] is also glossed 'one' (and 'dead').
   },
 };

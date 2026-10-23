@@ -1207,6 +1207,7 @@ WORDS.we = {
     kry: "clusive",
     tca: "clusive",
     prk: "clusive",
+    zag: "single",
   },
   routes: {
     clusive: { color: "#7c3aed", emoji: "👥", en: "two words · inclusive ≠ exclusive", ja: "二語・「あなたを含む/含まない」を区別", ko: "두 낱말 · 듣는 이를 넣느냐 빼느냐", zh: "两个词・包括式与排除式有别", yue: "兩個詞 · 包括式同排除式有別", vi: "hai từ · bao gộp ≠ loại trừ", th: "สองคำ · รวมผู้ฟัง ≠ ไม่รวมผู้ฟัง", id: "dua kata · inklusif ≠ eksklusif", hi: "दो शब्द · समावेशी ≠ अपवर्जी", de: "zwei Wörter · inklusiv ≠ exklusiv", fr: "deux mots · inclusif ≠ exclusif", it: "due parole · inclusivo ≠ esclusivo", es: "dos palabras · inclusivo ≠ exclusivo", pt: "duas palavras · inclusivo ≠ exclusivo", ru: "два слова · инклюзив ≠ эксклюзив", uk: "два слова · інклюзив ≠ ексклюзив", ar: "كلمتان · شاملة ≠ غير شاملة", he: "שתי מילים · כוללת ≠ בלעדית", sw: "maneno mawili · jumuishi ≠ tengefu" },
@@ -2405,5 +2406,6 @@ WORDS.we = {
     lep: ["ᰀᰦᰚᰫ", "kaju"],
     mhy: ["takam", "takam"],
     dzg: ["—", "—"],
+    zag: ["togoy", "tɔɡɔj"],  // ADESK also lists tow 'we'; Compes (2021) finds an inclusive/exclusive split only in Wagi verb forms, never in the independent pronouns.
   },
 };

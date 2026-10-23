@@ -1252,5 +1252,6 @@ WORDS.house = {
     nan_ph: ["厝", "tsʰu˦˩"],
     aiw: ["—", "—"],
     dzg: ["yege", "jɛ́ɡɛ̀"],  // 'House, tent'; also 'household, home'.
+    zag: ["bîye", "bije"],  // Also 'wrapping'.
   }
 };

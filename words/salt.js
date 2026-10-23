@@ -1274,5 +1274,6 @@ WORDS.salt = {
     cjm: ["ꨦꨣꨩ", "saraː"],
     kim: ["тус", "tus"],
     dzg: ["gîleni", "ɡìléní"],
+    zag: ["terî", "teɾi"],  // Also 'moonlight'; terî 'termite' is a homonym.
   },
 };

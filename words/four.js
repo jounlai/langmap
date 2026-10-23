@@ -1241,6 +1241,7 @@ WORDS.four = {
     haj: ["চৗৰ", "tʃɯɾ"],
     myp: ["baágiso", "baáɡiso"],
     wmt: ["kurriny kurriny", "kuriɲ kuriɲ"],
-    vls: ["vier", "viːr"]
+    vls: ["vier", "viːr"],
+    zag: ["isti", "ʔɪstɪ"],
   },
 };

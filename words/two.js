@@ -1252,5 +1252,6 @@ WORDS.two = {
     gsw_als: ["zwei", "tsvei"],
     nan_ph: ["二", "li˦˩"],
     dzg: ["cûu", "cúú"],
+    zag: ["suwi", "sʊwɪ"],
   },
 };

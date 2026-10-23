@@ -1209,6 +1209,7 @@ WORDS.earth = {
     deg: ["ụto", "ʊtɔ"],
     wic: ["hiraːrʔa", "hiɾaːɾʔa"],
     yuc: ["sʼæ", "sʼæ"],
-    tus: ["awéhreh", "awehɾeh"]
+    tus: ["awéhreh", "awehɾeh"],
+    zag: ["suwa", "sʊwa"],  // Glossed 'dirt, soil'.
   }
 };

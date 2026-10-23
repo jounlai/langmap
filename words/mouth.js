@@ -1238,5 +1238,6 @@ WORDS.mouth = {
     na: ["aanaquan", "aanakʷan"],
     kpe: ["lá", "lá"],
     dzg: ["cî", "cí"],  // Also 'beak, opening, lid'.
+    zag: ["a", "ʔa"],  // Also 'language': Beria is beri a, 'the Beri mouth'.
   }
 };

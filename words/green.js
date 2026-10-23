@@ -1067,5 +1067,6 @@ WORDS.green = {
     ebu: ["ngirini", "ŋɡiɾini"],
     kqn: ["maanzha mataamba", "maːnʒa mataːmba"],
     dzg: ["ziri", "zɪ̀rɪ́"],  // One word for blue and green.
+    zag: ["jir", "ɟɪɾ"],  // One word for green and blue.
   }
 };

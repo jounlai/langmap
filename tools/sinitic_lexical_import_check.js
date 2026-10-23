@@ -83,6 +83,12 @@ const ALLOW = {
     // 2026-10-22.
     'thunder|cjy_lv': true,
 
+    // sunflower: wuu (Shanghai) and wuu_sz (Suzhou) 向日葵, cjy_lv (Lishi) 向日葵
+    // listed first. All three are in Wiktionary's dial-syn/向日葵 for those
+    // towns, with local readings (MCPDict); the siblings' 葵花/朝日葵/太阳佛花
+    // are other towns' words. Checked 2026-10-23.
+    'sunflower|wuu': true, 'sunflower|wuu_sz': true, 'sunflower|cjy_lv': true,
+
     // tongue: gan (Nanchang) writes 舌头 where gan_yc, gan_ja and gan_fz write
     // bare 舌. That is a real split inside Gan, not an import — 《南昌方言詞典》
     // p.257 heads 舌頭, and 語保 gives 舌頭 at the Ji'an and Fuzhou CITY points

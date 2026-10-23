@@ -216,6 +216,8 @@ const pairs = Object.entries(byPair).sort((x, y) => y[1].length - x[1].length);
 // (separate GUIDs), homophones.
 // 2026-10-23: new row zag (Zaghawa). ay = I + iron: two ADESK entries on p.10
 // ('I (first person singular)' / 'iron'), homophones.
+// 2026-10-23: cho hashi = sun + sunflower: Wiktionary's Choctaw hashi lists
+// 'sun; luminary; sunflower; moon'. One word, several senses.
 const LOCK = path.join(__dirname, 'intra_row_dup.lock.json');
 const sig = (h) => `${h.code}|${[h.a, h.b].sort().join('|')}`;
 const current = new Set(hits.map(sig));

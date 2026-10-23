@@ -1256,5 +1256,6 @@ WORDS.eat = {
     ttq: ["atšu", "ætʃu"],
     gha: ["ešš", "ɐʃː"],
     auj: ["əčč", "ətʃː"],  // Cited as the imperative.
+    siz: ["əʧʧ", "ətʃː"],  // The imperative, the form Berber dictionaries list.
   }
 };

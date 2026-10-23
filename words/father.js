@@ -1256,5 +1256,6 @@ WORDS.father = {
     ttq: ["abba", "abːa"],
     gha: ["dedda", "dɐdːa"],
     auj: ["àbba", "ˈabːa"],  // A kinship noun that takes possessive suffixes (abbà-s 'his/her father').
+    siz: ["ábba", "ˈabːa"],  // The bare word means 'my father' (Schiattarella p. 146).
   },
 };

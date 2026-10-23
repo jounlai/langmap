@@ -1256,5 +1256,6 @@ WORDS.name = {
     ttq: ["esǝm", "esəm"],
     gha: ["ism", "ism"],
     auj: ["—", "—"],
+    siz: ["smijə́t", "smiˈjət"],  // Borrowed from Arabic.
   },
 };

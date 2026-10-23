@@ -1217,5 +1217,6 @@ WORDS.five = {
     zag: ["hûy", "huj"],
     ttq: ["sǝmmos", "səmˤːos"],
     gha: ["səmməs", "səmːəs"],
+    siz: ["xamsa", "χamsa"],  // Borrowed from Arabic.
   },
 };

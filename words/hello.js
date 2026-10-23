@@ -1249,5 +1249,6 @@ WORDS.hello = {
     ttq: ["ma tǝxlaka", "ma təxlækæ"],  // Literally 'how have you come into being?' (Prasse); the New Testament uses it for 'Hail!'.
     gha: ["assalām ɛalaykum", "asːaˈlam ʕalajkum"],  // The Arabic "peace be upon you"; Lanfry defines the verb "to greet" as saying this formula.
     auj: ["ssalámu ʕalèykum", "sːalamu ʕalejkum"],  // The Arabic 'peace be upon you', used as the greeting in Paradisi's texts; Facebook posters also write a=sal-ax fəllikim, 'I greet you'.
+    siz: ["assalama", "asːalama"],  // An Arabic welcome formula, 'safety'; Laoust lists it under both 'good morning' and 'goodbye', and gives ṣbaḥ lxir for 'good morning'.
   }
 };

@@ -1255,5 +1255,6 @@ WORDS.heart = {
     ttq: ["ǝwǝl", "əwəl"],  // Also 'courage' and the seat of intentions.
     gha: ["ụ̄g̣əm", "ˈoɟəm"],  // Also the core of a fruit.
     auj: ["ul", "ul"],  // Facebook posters also use təḥəbbit, from Arabic (van Putten & Souag 2015).
+    siz: ["ulí", "uˈli"],
   },
 };

@@ -1286,5 +1286,6 @@ WORDS.tooth = {
     ttq: ["ešen", "eʃen"],  // Other Tuareg varieties say esen.
     gha: ["asịn", "asen"],  // Lanfry glosses it "incisor"; molars are taɣməst.
     auj: ["asìn", "aˈsin"],
+    siz: ["asén", "aˈsen"],
   },
 };

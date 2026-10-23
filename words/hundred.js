@@ -1196,5 +1196,6 @@ WORDS.hundred = {
     zag: ["mî", "mi"],  // Same as mî 'calf'.
     ttq: ["temeday", "temedˤæj"],
     auj: ["mìyət", "ˈmijət"],  // From Arabic.
+    siz: ["məjja", "məjːa"],  // Borrowed from Arabic.
   },
 };

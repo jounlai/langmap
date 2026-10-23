@@ -1249,5 +1249,6 @@ WORDS.star = {
     ttq: ["atri", "atˤri"],
     gha: ["iri", "iri"],  // Dew is aman n-iran, "water of the stars".
     auj: ["—", "—"],
+    siz: ["iri", "iri"],
   },
 };

@@ -1261,5 +1261,6 @@ WORDS.eye = {
     ttq: ["šat", "ʃætˤː"],  // Tawəlləmmət turns ti- into š- (Ayr tyəṭṭ); the New Testament writes the final geminate as a single t.
     gha: ["awell", "awɐlː"],
     auj: ["tit", "tit"],  // Tears are imìn n əttiwìn, 'water of the eyes'.
+    siz: ["təṭṭ", "tətˤː"],  // Also means 'spring (of water)'.
   },
 };

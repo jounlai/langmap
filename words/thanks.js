@@ -1249,5 +1249,6 @@ WORDS.thanks = {
     ttq: ["tanǝmmert", "tanəmːert"],  // Also tanəmmert-năk 'thank you' (to a man).
     gha: ["—", "—"],
     auj: ["—", "—"],
+    siz: ["—", "—"],
   }
 };

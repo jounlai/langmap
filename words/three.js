@@ -1263,5 +1263,6 @@ WORDS.three = {
     ttq: ["karad", "kæradˤ"],
     gha: ["kāreḍ", "ˈkarɐdˤ"],  // Masculine; the feminine is kerḍet.
     auj: ["tlàta", "ˈtlata"],  // From Arabic.
+    siz: ["tláta", "ˈtlata"],  // Borrowed from Arabic, like every Siwi numeral above two.
   },
 };

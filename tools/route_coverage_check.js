@@ -132,7 +132,9 @@ const DEBT = {};
 // 2026-10-23: we 42 -> 43 — gha nekkenịn (Lanfry 1973, new Ghadamès row): one
 // form, and Lanfry says nothing about inclusive/exclusive, so 'unknown' by the
 // we-column rule. A first cell, not a reclassification.
-const UNDECIDED = { we: { route: 'unknown', max: 43 }, bear: { route: 'unknown', max: 22 }, foot: { route: 'unknown', max: 24 } };
+// 2026-10-23: we 43 -> 44 — siz ənʃni (Laoust 1931, Schiattarella 2015, new Siwi row):
+// one form, and no source says whether Siwi splits inclusive and exclusive.
+const UNDECIDED = { we: { route: 'unknown', max: 44 }, bear: { route: 'unknown', max: 22 }, foot: { route: 'unknown', max: 24 } };
 
 let violations = 0;
 const notes = [];

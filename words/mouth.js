@@ -1242,5 +1242,6 @@ WORDS.mouth = {
     ttq: ["imi", "imi"],  // Elsewhere emi; Niger dialects have generalised imi (Prasse).
     gha: ["amị", "ame"],  // Also "entrance, opening".
     auj: ["am", "am"],
+    siz: ["aṃḅú", "amˤˈbˤu"],
   }
 };

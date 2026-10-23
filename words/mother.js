@@ -1255,5 +1255,6 @@ WORDS.mother = {
     ttq: ["anna", "anːa"],  // Prasse also lists ma, used only with a possessive suffix.
     gha: ["mā", "ma"],  // 'My mother' is imma or yəmma.
     auj: ["mmá", "mːa"],  // A kinship noun that takes possessive suffixes (mmà-k 'your mother').
+    siz: ["ə́ṃṃa", "ˈəmˤːa"],  // Kinship nouns always carry a possessor, so the bare word means 'my mother' (Schiattarella p. 146); Laoust wrote umma.
   },
 };

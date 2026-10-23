@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 86 word concepts × 1195 languages/varieties (incl. ~140 excluded from the default modern view)
+ * Word Map Data — 86 word concepts × 1196 languages/varieties (incl. ~140 excluded from the default modern view)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -3643,6 +3643,8 @@ const LANG_DATA = {
   gha: { name: "Ghadamès", native: "Ghadamès", lat: 30.13, lng: 9.5, // Ghadames old town (Nalut District, Libya), the oasis the language is named after and its only home
 },
   auj: { name: "Awjila", native: "žlan n awilən", lat: 29.11, lng: 21.29, // Awjila oasis (Al Wahat District, Cyrenaica, Libya)
+},
+  siz: { name: "Siwi", native: "ʒlan n isiwan", lat: 29.2, lng: 25.52, // Siwa town (Shali), Siwa Oasis, Matrouh Governorate, Egypt
 },
   // Bantu (Namibia/Angola)
   ng: { name: 'Ndonga', native: 'Oshindonga', lat: -17.78, lng: 15.69, // Oshakati

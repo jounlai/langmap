@@ -1069,5 +1069,6 @@ WORDS.green = {
     dzg: ["ziri", "zɪ̀rɪ́"],  // One word for blue and green.
     zag: ["jir", "ɟɪɾ"],  // One word for green and blue.
     ttq: ["dalăt", "dalæt"],  // A verb 'to be green'; the New Testament uses its noun for the green of grass and for the blue of the sky.
+    siz: ["awraɣ", "awraʁ"],  // Elsewhere in Berber the same word means 'yellow' (Laoust).
   }
 };

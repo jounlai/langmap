@@ -1246,5 +1246,6 @@ WORDS.four = {
     ttq: ["ǝkkoz", "əkːozˤ"],
     gha: ["aqqụz", "aqːoz"],  // Arabic ərbeɛ replaces it in compounds such as 400.
     auj: ["àrbʕa", "ˈarbʕa"],  // From Arabic.
+    siz: ["arbaʕa", "arˤbˤəʢa"],  // Borrowed from Arabic; Laoust wrote arbaʕ.
   },
 };

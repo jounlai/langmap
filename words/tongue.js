@@ -1268,5 +1268,6 @@ WORDS.tongue = {
     ttq: ["ilǝs", "iləs"],
     gha: ["ị̄ləs", "ˈeləs"],
     auj: ["ìləs", "ˈiləs"],
+    siz: ["ilə́s", "iˈləs"],
   },
 };

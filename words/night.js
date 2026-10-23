@@ -1260,5 +1260,6 @@ WORDS.night = {
     ttq: ["ehad", "ehædˤ"],  // The New Testament spelling leaves the emphatic ḍ unmarked.
     gha: ["ị̄b̆eḍ", "ˈeβɐdˤ"],
     auj: ["àvəṭ", "ˈavətˤ"],
+    siz: ["iṭ", "itˤ"],  // The plural liyali is Arabic; 'tonight' is íṭa (Schiattarella p. 48).
   },
 };

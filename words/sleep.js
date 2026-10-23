@@ -1213,5 +1213,6 @@ WORDS.sleep = {
     ttq: ["ǝṭṭǝs", "ətˤːəs"],  // Ayr Tuareg uses ənsu instead.
     gha: ["nəddəm", "nədːəm"],
     auj: ["iš", "iʃ"],  // Cited as the imperative.
+    siz: ["əṭṭəs", "ətˤːəs"],  // Schiattarella's speakers also use nəddum, 'lie down, sleep'.
   },
 };

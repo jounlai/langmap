@@ -1256,5 +1256,6 @@ WORDS.house = {
     ttq: ["ehan", "ehæn"],  // First 'tent', the traditional home.
     gha: ["daž", "daʒ"],  // Also taddart "family dwelling".
     auj: ["tfìlli", "ˈtfilːi"],
+    siz: ["agbə́n", "aɡˈbən"],  // Stumme linked it to Late Latin capanna 'hut' (Laoust); with final stress it means 'a house', with penultimate stress 'the house'.
   }
 };

@@ -1219,5 +1219,6 @@ WORDS.ear = {
     ttq: ["tǝmǝzzuk", "təməzˤːuk"],
     gha: ["ị̄səm", "ˈesəm"],
     auj: ["ìsəm", "ˈisəm"],  // Its only known Berber cognate is Ghadames ésəm (van Putten, after Bynon 1984).
+    siz: ["taməzzuxt", "taməzːuχt"],
   },
 };

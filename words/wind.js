@@ -1195,5 +1195,6 @@ WORDS.wind = {
     zag: ["efî", "ʔefi"],  // Not efi 'tears', which differs in the vowels.
     ttq: ["aḍu", "adˤu"],
     gha: ["aḍụ", "adˤo"],  // Also means "scent, smell".
+    siz: ["əlăhawa", "əlăɦawa"],  // Borrowed from Arabic hawāʾ 'air'.
   },
 };

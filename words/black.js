@@ -1305,5 +1305,6 @@ WORDS.black = {
     ttq: ["kawalan", "kæwælæn"],  // The participle of ikwal 'to be black'.
     gha: ["əzḍəf", "əzdˤəf"],  // A verb, "to be black".
     auj: ["šṭàf", "ʃtˤaf"],
+    siz: ["azəṭṭáf", "azəˈtˤːaf"],  // Schiattarella records the feminine tazəṭṭáft.
   },
 };

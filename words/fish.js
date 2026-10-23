@@ -1271,5 +1271,6 @@ WORDS.fish = {
     ttq: ["kifi", "kifi"],  // A Hausa loan (Prasse).
     gha: ["—", "—"],
     auj: ["—", "—"],
+    siz: ["tisməkt", "tisməkt"],  // Laoust's French–Berber glossary gives only assir, a small fish of the springs.
   }
 };

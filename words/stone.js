@@ -1208,5 +1208,6 @@ WORDS.stone = {
     ttq: ["tǝhunt", "təhunt"],
     gha: ["ị̄rəg̣", "ˈerəɟ"],
     auj: ["azə̀rg", "aˈzərɡ"],  // Middle Atlas Berber azerg means 'handmill' (van Putten).
+    siz: ["tɣoɣət", "tʁoʁət"],
   },
 };

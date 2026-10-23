@@ -1262,5 +1262,6 @@ WORDS.water = {
     ttq: ["aman", "aman"],  // A plural noun, as across Berber.
     gha: ["āman", "ˈaman"],  // A plural noun, as across Berber.
     auj: ["imìn", "iˈmin"],  // A plural noun, as across Berber; van Putten notes that imìn is unique to Awjila, where all other Berber languages have aman.
+    siz: ["amán", "aˈman"],  // A plural noun, as across Berber.
   },
 };

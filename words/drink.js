@@ -1256,5 +1256,6 @@ WORDS.drink = {
     ttq: ["ăšu", "æʃu"],  // Written ăšwu, pronounced ăšu in Tawəlləmmət (Prasse).
     gha: ["esw", "ɐsw"],
     auj: ["šu", "ʃu"],  // Cited as the imperative.
+    siz: ["su", "su"],
   }
 };

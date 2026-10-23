@@ -1118,5 +1118,6 @@ WORDS.sea = {
     dzg: ["bahar", "báhàr"],  // A loan from Arabic (marked ar. in the dictionary), 'sea, ocean'.
     gha: ["elbəḫər", "ɐlbəħər"],  // From Arabic al-baḥr (Lanfry marks it ar.).
     auj: ["əlbə̀ḥr", "əlˈbəħr"],  // Borrowed from Arabic baḥr, article and all.
+    siz: ["ləbħaṛ", "ləbʜarˤ"],  // Borrowed from Arabic baḥr; in Siwa it mostly means the oasis's two large lakes (Souag).
   }
 };

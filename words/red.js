@@ -1263,5 +1263,6 @@ WORDS.red = {
     ttq: ["zaggaɣan", "zæɡːaɣæn"],  // The participle of izwaɣ 'to be red'.
     gha: ["azə̣ggaɣ", "azəɡːaɣ"],  // Also the name of a free but lower-ranking social class; the verb is əzgəɣ "be red".
     auj: ["zwàɣ", "zwaɣ"],
+    siz: ["azəggaɣ", "azəɡːaʁ"],
   },
 };

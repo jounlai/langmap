@@ -908,5 +908,6 @@ WORDS.rice = {
     ttq: ["tafăɣăt", "tafæɣæt"],
     gha: ["ərruzz", "ərːuzː"],  // From Arabic ar-ruzz.
     auj: ["əṛṛùz", "əˈrˤːuz"],  // From Arabic ruzz.
+    siz: ["aṛṛə́ẓ", "aˈrˤːəzˤ"],  // Borrowed from Arabic; Laoust notes the rice came from the Nile Delta.
   }
 };

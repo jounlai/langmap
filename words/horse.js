@@ -1144,5 +1144,6 @@ WORDS.horse = {
     ttq: ["ays", "æjs"],  // The plural əggəsan is a different stem.
     gha: ["ag̣mar", "aɟmar"],
     auj: ["agmàr", "aɡˈmar"],
+    siz: ["agmár", "aɡˈmar"],
   }
 };

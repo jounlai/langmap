@@ -1256,5 +1256,6 @@ WORDS.i = {
     ttq: ["nak", "næk"],
     gha: ["nešš", "nɐʃː"],  // Also neššən.
     auj: ["nək", "nək"],
+    siz: ["niʃ", "niʃ"],
   },
 };

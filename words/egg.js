@@ -1180,5 +1180,6 @@ WORDS.egg = {
     ttq: ["tǝkǝkit", "təkəkit"],
     gha: ["tasadəlt", "tasadəlt"],
     auj: ["tisí", "tiˈsi"],
+    siz: ["tabəṭaot", "tabətˤaot"],  // Basset took it for a reshaping of Arabic bayḍa (Laoust).
   },
 };

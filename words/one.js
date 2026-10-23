@@ -1267,5 +1267,6 @@ WORDS.one = {
     ttq: ["ǝyyăn", "əjːæn"],  // Feminine əyyăt; the New Testament spells it iyyan.
     gha: ["yụ̄n", "jon"],  // Masculine; the feminine is yụ̄t.
     auj: ["iwínan", "iˈwinan"],  // Masculine (feminine iwátan); the variants iwinàn and iwìn are also recorded.
+    siz: ["ə́ʤʤən", "ˈədʒːən"],  // Masculine; the feminine is ə́ʤʤət. Arabic waḥəd competes with it in counting.
   },
 };

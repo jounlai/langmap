@@ -1266,5 +1266,6 @@ WORDS.blood = {
     ttq: ["azni", "azni"],
     gha: ["demmen", "dɐmːɐn"],  // A plural noun.
     auj: ["dìmmən", "ˈdimːən"],  // A plural noun, as across Berber.
+    siz: ["idammə́n", "idaˈmːən"],  // A plural noun; Laoust heard the stress on the second syllable (idámmən).
   },
 };

@@ -930,5 +930,6 @@ WORDS.butterfly = {
     zag: ["ofûfût", "ʔofufut"],  // One word for moth and butterfly.
     ttq: ["ǝlkǝttab-n-eklan", "əlkətːab n eklan"],  // Made of əlkəttab 'book' and eklan 'slaves' (both in Prasse).
     gha: ["meḫbesụfa", "mɐħbɐsofa"],  // Literally "prisoner of the fire" (Lanfry), from Arabic ḥabs "prison" and ụfa "fire".
+    siz: ["zrizmá", "zrizˈma"],
   },
 };

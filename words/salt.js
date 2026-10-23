@@ -1278,5 +1278,6 @@ WORDS.salt = {
     ttq: ["tesǝmt", "tesəmt"],
     gha: ["tịsənt", "tesənt"],  // To have eaten "water and salt" together is a pact of friendship (Lanfry).
     auj: ["tisə̀nt", "tiˈsənt"],
+    siz: ["tisə́nt", "tiˈsənt"],
   },
 };

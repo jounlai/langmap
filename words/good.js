@@ -1256,5 +1256,6 @@ WORDS.good = {
     ttq: ["olaɣan", "olæɣæn"],  // The participle of aləɣ 'to be good'; Tuareg adjectives are verbs.
     gha: ["samịḫ", "sameħ"],  // A quality verb from Arabic, "it is beautiful, good"; Lanfry also gives ɛažib "be good".
     auj: ["bàhi", "ˈbahi"],  // A stative verb ('it is good'), as Awjila adjectives often are; from Libyan Arabic bāhi.
+    siz: ["kwajə́s", "kwaˈjəs"],  // Also 'beautiful'.
   },
 };

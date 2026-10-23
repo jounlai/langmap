@@ -1195,5 +1195,6 @@ WORDS.new = {
     dzg: ["êski", "èskí"],
     ttq: ["aynayan", "æjnajæn"],  // The participle of inay 'to be new'.
     auj: ["atràr", "atˈrar"],  // Also 'fresh', as in aɣv d-atràr 'fresh milk'.
+    siz: ["atrár", "atˈrar"],
   }
 };

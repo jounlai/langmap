@@ -1261,5 +1261,6 @@ WORDS.fire = {
     ttq: ["temsay", "temsæj"],  // Tawəlləmmət diphthongises final -e to -ăy (temse > temsay); it also means 'firearm'.
     gha: ["ụfa", "ofa"],
     auj: ["afìw", "aˈfiw"],
+    siz: ["təmsí", "təmˈsi"],  // In baby talk it is fufu (Laoust).
   }
 };

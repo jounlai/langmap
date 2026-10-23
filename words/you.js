@@ -1256,5 +1256,6 @@ WORDS.you = {
     ttq: ["kay", "kæj"],  // Masculine; a woman is addressed as kăm.
     gha: ["šegg", "ʃɐɡː"],  // Masculine; Lanfry also gives šeggən.
     auj: ["kú", "ku"],  // Masculine; to a woman it is kəm.
+    siz: ["ʃək", "ʃək"],  // Masculine; the feminine is ʃəm.
   },
 };

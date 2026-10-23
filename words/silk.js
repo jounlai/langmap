@@ -831,5 +831,6 @@ WORDS.silk = {
     ibb: ["sịrek", "sɪrek"],
     ttq: ["ǝlxǝrir", "əlxərir"],  // From Arabic ḥarīr (Prasse).
     gha: ["elḫarir", "ɐlħarir"],  // From Arabic al-ḥarīr (Lanfry marks it ar.).
+    siz: ["əlaħrir", "əlaʜrir"],  // Borrowed from Arabic ḥarīr.
   }
 };

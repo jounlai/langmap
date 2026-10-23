@@ -1214,5 +1214,6 @@ WORDS.earth = {
     ttq: ["amaḍal", "amædˤal"],  // Also 'land, country' and 'the Earth'.
     gha: ["tammurt", "tamːurt"],
     auj: ["tmùrt", "tmurt"],  // Also recorded as təmùrt.
+    siz: ["iʒdi", "iʒdi"],  // Laoust glosses it 'earth' and cross-refers it to 'sand'; tamart is 'land, country'.
   }
 };

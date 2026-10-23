@@ -1218,6 +1218,9 @@ for (const code of codes) {
                 // absent from the lexicon and texts; star is attested only as the
                 // plural nžùm, name only with a clitic (əsməyyət=ənnəs).
                 auj: new Set(['fish', 'tree', 'thanks', 'star', 'name']),
+                // siz (Siwi, 2026-10-23, Laoust 1931, Schiattarella 2015, Souag 2010):
+                // no thanking formula in any of the sources.
+                siz: new Set(['thanks']),
                 // dds fish: Heath and the Dogon project both give it as ídù — but
                 // Donno So 'dog' is ìdú, the same segments with the opposite tone,
                 // and this row is toneless in all 39 of its other cells. Writing

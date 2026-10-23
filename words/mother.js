@@ -1254,5 +1254,6 @@ WORDS.mother = {
     zag: ["kira", "kɪɾa"],  // îya is the familiar term of address for one's mother.
     ttq: ["anna", "anːa"],  // Prasse also lists ma, used only with a possessive suffix.
     gha: ["mā", "ma"],  // 'My mother' is imma or yəmma.
+    auj: ["mmá", "mːa"],  // A kinship noun that takes possessive suffixes (mmà-k 'your mother').
   },
 };

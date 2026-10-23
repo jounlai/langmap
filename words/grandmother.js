@@ -381,6 +381,7 @@ WORDS.grandmother = {
     dzg: "one",
     zag: "one",
     ttq: "unknown",
+    auj: "unknown",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -706,5 +707,6 @@ WORDS.grandmother = {
     dzg: ["kaga", "kàɡá"],  // The dictionary glosses it 'grandmother (maternal or paternal side)'.
     zag: ["obu", "ɔbʊ"],  // One word for both grandmothers, 'be she maternal or paternal', says the dictionary.
     ttq: ["tăližăddăt", "tæliʒædːæt"],  // An Arabic loan; Prasse does not say whether it covers both sides of the family.
+    auj: ["nàna", "ˈnana"],  // Only one word is recorded; the sources do not say whether the two grandmothers are distinguished.
   },
 };

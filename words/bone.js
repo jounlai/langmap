@@ -1255,5 +1255,6 @@ WORDS.bone = {
     zag: ["uru", "ʔʊɾʊ"],
     ttq: ["eɣas", "eɣæs"],
     gha: ["ɣess", "ɣɐsː"],  // Also a fruit stone; the Ayt Ulid say ɣaṣṣ.
+    auj: ["aɣàst", "aˈɣast"],  // It has a final t that no other Berber language has (Kabyle iɣəss).
   },
 };

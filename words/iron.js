@@ -1160,5 +1160,6 @@ WORDS.iron = {
     zag: ["ay", "ʔaj"],  // Sounds the same as ay 'I'.
     ttq: ["tăẓoli", "tæzˤoli"],
     gha: ["wẹzzāl", "wɐˈzːal"],  // Lanfry says examples are rare.
+    auj: ["zzìl", "zːil"],  // The common Berber word (Kabyle uzzal).
   },
 };

@@ -1210,6 +1210,7 @@ WORDS.we = {
     zag: "single",
     ttq: "single",
     gha: "unknown",
+    auj: "single",
   },
   routes: {
     clusive: { color: "#7c3aed", emoji: "👥", en: "two words · inclusive ≠ exclusive", ja: "二語・「あなたを含む/含まない」を区別", ko: "두 낱말 · 듣는 이를 넣느냐 빼느냐", zh: "两个词・包括式与排除式有别", yue: "兩個詞 · 包括式同排除式有別", vi: "hai từ · bao gộp ≠ loại trừ", th: "สองคำ · รวมผู้ฟัง ≠ ไม่รวมผู้ฟัง", id: "dua kata · inklusif ≠ eksklusif", hi: "दो शब्द · समावेशी ≠ अपवर्जी", de: "zwei Wörter · inklusiv ≠ exklusiv", fr: "deux mots · inclusif ≠ exclusif", it: "due parole · inclusivo ≠ esclusivo", es: "dos palabras · inclusivo ≠ exclusivo", pt: "duas palavras · inclusivo ≠ exclusivo", ru: "два слова · инклюзив ≠ эксклюзив", uk: "два слова · інклюзив ≠ ексклюзив", ar: "كلمتان · شاملة ≠ غير شاملة", he: "שתי מילים · כוללת ≠ בלעדית", sw: "maneno mawili · jumuishi ≠ tengefu" },
@@ -2411,5 +2412,6 @@ WORDS.we = {
     zag: ["togoy", "tɔɡɔj"],  // ADESK also lists tow 'we'; Compes (2021) finds an inclusive/exclusive split only in Wagi verb forms, never in the independent pronouns.
     ttq: ["nakkanay", "nækːænæj"],  // Masculine; the feminine is năkkănăte. Tuareg splits 'we' by gender, not by clusivity (Grambank, from Sudlow 2001).
     gha: ["nekkenịn", "nɐkːɐnen"],  // One form for both genders; Lanfry says nothing about inclusive and exclusive.
+    auj: ["nəkkəní", "nəkːəˈni"],  // One word for both inclusive and exclusive 'we' (Grambank, from van Putten 2013).
   },
 };

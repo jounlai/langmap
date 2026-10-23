@@ -907,5 +907,6 @@ WORDS.rice = {
     dzg: ["rûsu", "rúsù"],  // Synonym ciŋafu (marked as Hausa).
     ttq: ["tafăɣăt", "tafæɣæt"],
     gha: ["ərruzz", "ərːuzː"],  // From Arabic ar-ruzz.
+    auj: ["əṛṛùz", "əˈrˤːuz"],  // From Arabic ruzz.
   }
 };

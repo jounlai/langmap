@@ -1255,5 +1255,6 @@ WORDS.house = {
     zag: ["bîye", "bije"],  // Also 'wrapping'.
     ttq: ["ehan", "ehæn"],  // First 'tent', the traditional home.
     gha: ["daž", "daʒ"],  // Also taddart "family dwelling".
+    auj: ["tfìlli", "ˈtfilːi"],
   }
 };

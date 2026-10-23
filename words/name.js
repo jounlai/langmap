@@ -1255,5 +1255,6 @@ WORDS.name = {
     zag: ["tir", "tɪɾ"],
     ttq: ["esǝm", "esəm"],
     gha: ["ism", "ism"],
+    auj: ["—", "—"],
   },
 };

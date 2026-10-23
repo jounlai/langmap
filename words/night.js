@@ -1259,5 +1259,6 @@ WORDS.night = {
     zag: ["gini", "ɡɪnɪ"],  // Also the first part of ginimay 'dream'.
     ttq: ["ehad", "ehædˤ"],  // The New Testament spelling leaves the emphatic ḍ unmarked.
     gha: ["ị̄b̆eḍ", "ˈeβɐdˤ"],
+    auj: ["àvəṭ", "ˈavətˤ"],
   },
 };

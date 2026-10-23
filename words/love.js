@@ -1255,5 +1255,6 @@ WORDS.love = {
     zag: ["—", "—"],
     ttq: ["tara", "tara"],  // The noun of əru 'to love, want'.
     gha: ["əb̆r", "əβr"],  // The verb means both "want" and "love".
+    auj: ["aɣə́š", "aˈɣəʃ"],  // Cited as the imperative, as van Putten cites all verbs.
   }
 };

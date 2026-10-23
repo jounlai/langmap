@@ -1113,5 +1113,6 @@ WORDS.book = {
     yur: ["ʼahtemar", "ʔahtemaɹ"],
     ruq: ["carti", "ˈkarti"],
     ttq: ["ǝlkǝttab", "əlkətːab"],  // From Arabic.
+    auj: ["əlmə́ṣḥaf", "əlˈməsˤħaf"],  // From Arabic muṣḥaf, which also means a copy of the Qur'an.
   }
 };

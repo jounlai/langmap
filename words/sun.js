@@ -1259,5 +1259,6 @@ WORDS.sun = {
     zag: ["ido", "ʔɪdɔ"],  // Also 'sunrise'.
     ttq: ["tǝfuk", "təfˤuk"],  // Prasse marks the word emphatic throughout although no old emphatic consonant is in it.
     gha: ["ị̄sị", "ˈese"],  // The disc of the sun; Lanfry says the light of the sun is tụ̄fət, which also means "the sun".
+    auj: ["tafùt", "taˈfut"],  // It has lost the final k of the Berber word (Tuareg tə́fukk).
   },
 };

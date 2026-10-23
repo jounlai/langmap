@@ -1169,5 +1169,6 @@ WORDS.milk = {
     zag: ["oh", "ʔo"],
     ttq: ["ax", "ax"],
     gha: ["yeff", "jɐfː"],
+    auj: ["aɣv", "aɣv"],  // The vowel between ɣ and v is optional (aɣəv).
   },
 };

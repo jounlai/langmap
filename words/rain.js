@@ -1188,5 +1188,6 @@ WORDS.rain = {
     bci: ["nzue", "nzue"],
     ttq: ["akonak", "ækonak"],  // Prasse suggests it may come from a Hausa expression.
     gha: ["anaẓar", "anazˤar"],
+    auj: ["avùn", "aˈvun"],  // 'It rains' is awìt avùn, literally 'rain hits'.
   },
 };

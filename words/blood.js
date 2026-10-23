@@ -1265,5 +1265,6 @@ WORDS.blood = {
     zag: ["ogû", "oɡu"],
     ttq: ["azni", "azni"],
     gha: ["demmen", "dɐmːɐn"],  // A plural noun.
+    auj: ["dìmmən", "ˈdimːən"],  // A plural noun, as across Berber.
   },
 };

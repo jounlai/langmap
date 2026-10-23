@@ -1245,5 +1245,6 @@ WORDS.four = {
     zag: ["isti", "ʔɪstɪ"],
     ttq: ["ǝkkoz", "əkːozˤ"],
     gha: ["aqqụz", "aqːoz"],  // Arabic ərbeɛ replaces it in compounds such as 400.
+    auj: ["àrbʕa", "ˈarbʕa"],  // From Arabic.
   },
 };

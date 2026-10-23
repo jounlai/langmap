@@ -1207,5 +1207,6 @@ WORDS.stone = {
     zag: ["ha", "ha"],  // Also 'rock'; ASJP gives the same word for 'mountain'.
     ttq: ["tǝhunt", "təhunt"],
     gha: ["ị̄rəg̣", "ˈerəɟ"],
+    auj: ["azə̀rg", "aˈzərɡ"],  // Middle Atlas Berber azerg means 'handmill' (van Putten).
   },
 };

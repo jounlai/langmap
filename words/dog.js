@@ -1267,5 +1267,6 @@ WORDS.dog = {
     zag: ["bîrî", "biɾi"],
     ttq: ["idi", "idi"],  // The plural iḍan is emphatic, the singular is not.
     gha: ["ị̄dị", "ˈede"],
+    auj: ["gzìn", "ɡzin"],  // In Ghadames and Nafusi the cognate means 'puppy'.
   },
 };

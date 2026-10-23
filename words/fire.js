@@ -1260,5 +1260,6 @@ WORDS.fire = {
     zag: ["jiye", "ɟɪjɛ"],
     ttq: ["temsay", "temsæj"],  // Tawəlləmmət diphthongises final -e to -ăy (temse > temsay); it also means 'firearm'.
     gha: ["ụfa", "ofa"],
+    auj: ["afìw", "aˈfiw"],
   }
 };

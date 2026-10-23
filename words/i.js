@@ -1255,5 +1255,6 @@ WORDS.i = {
     zag: ["ay", "ʔaj"],
     ttq: ["nak", "næk"],
     gha: ["nešš", "nɐʃː"],  // Also neššən.
+    auj: ["nək", "nək"],
   },
 };

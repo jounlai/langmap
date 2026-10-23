@@ -1179,5 +1179,6 @@ WORDS.egg = {
     zag: ["gûnû", "ɡunu"],  // Glossed in the plural, 'eggs'.
     ttq: ["tǝkǝkit", "təkəkit"],
     gha: ["tasadəlt", "tasadəlt"],
+    auj: ["tisí", "tiˈsi"],
   },
 };

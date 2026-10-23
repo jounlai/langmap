@@ -1255,5 +1255,6 @@ WORDS.eat = {
     zag: ["serì", "sɛɾɪ"],  // Listed as serì, kiserí; the first form is given.
     ttq: ["atšu", "ætʃu"],
     gha: ["ešš", "ɐʃː"],
+    auj: ["əčč", "ətʃː"],  // Cited as the imperative.
   }
 };

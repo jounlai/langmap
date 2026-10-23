@@ -1277,5 +1277,6 @@ WORDS.salt = {
     zag: ["terî", "teɾi"],  // Also 'moonlight'; terî 'termite' is a homonym.
     ttq: ["tesǝmt", "tesəmt"],
     gha: ["tịsənt", "tesənt"],  // To have eaten "water and salt" together is a pact of friendship (Lanfry).
+    auj: ["tisə̀nt", "tiˈsənt"],
   },
 };

@@ -1213,5 +1213,6 @@ WORDS.earth = {
     zag: ["suwa", "sʊwa"],  // Glossed 'dirt, soil'.
     ttq: ["amaḍal", "amædˤal"],  // Also 'land, country' and 'the Earth'.
     gha: ["tammurt", "tamːurt"],
+    auj: ["tmùrt", "tmurt"],  // Also recorded as təmùrt.
   }
 };

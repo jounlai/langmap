@@ -1262,5 +1262,6 @@ WORDS.red = {
     zag: ["maraî", "maɾai"],  // Covers red, purple and violet.
     ttq: ["zaggaɣan", "zæɡːaɣæn"],  // The participle of izwaɣ 'to be red'.
     gha: ["azə̣ggaɣ", "azəɡːaɣ"],  // Also the name of a free but lower-ranking social class; the verb is əzgəɣ "be red".
+    auj: ["zwàɣ", "zwaɣ"],
   },
 };

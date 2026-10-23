@@ -1255,5 +1255,6 @@ WORDS.father = {
     zag: ["aba", "ʔaba"],  // Also used for paternal uncles, and most often as a term of address; kisir is 'father of'.
     ttq: ["abba", "abːa"],
     gha: ["dedda", "dɐdːa"],
+    auj: ["àbba", "ˈabːa"],  // A kinship noun that takes possessive suffixes (abbà-s 'his/her father').
   },
 };

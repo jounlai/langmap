@@ -1267,5 +1267,6 @@ WORDS.tongue = {
     zag: ["tamsi", "tamsɪ"],
     ttq: ["ilǝs", "iləs"],
     gha: ["ị̄ləs", "ˈeləs"],
+    auj: ["ìləs", "ˈiləs"],
   },
 };

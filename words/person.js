@@ -1167,5 +1167,6 @@ WORDS.person = {
     dzg: ["aũ", "à̰ʊ̰́"],
     zag: ["o", "o"],  // Glossed 'a living person'.
     ttq: ["awedan", "æwedæn"],  // From ăw 'son of' + Adəm 'Adam' (Prasse); the plural ăytedăn means 'people'.
+    auj: ["arəgàz", "arəˈɡaz"],  // The Berber word for 'man' elsewhere (Kabyle argaz); in Awjila it means 'person', and 'man' is amə̀dən.
   }
 };

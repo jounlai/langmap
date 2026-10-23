@@ -1214,6 +1214,10 @@ for (const code of codes) {
                 // gha (Ghadamès, 2026-10-23, Lanfry 1973 glossary): fish has only ụlisma
                 // 'poisson de sable' (a skink); no thanking formula is recorded.
                 gha: new Set(['fish', 'thanks']),
+                // auj (Awjila, 2026-10-23, van Putten 2013): fish, tree and thanks are
+                // absent from the lexicon and texts; star is attested only as the
+                // plural nžùm, name only with a clitic (əsməyyət=ənnəs).
+                auj: new Set(['fish', 'tree', 'thanks', 'star', 'name']),
                 // dds fish: Heath and the Dogon project both give it as ídù — but
                 // Donno So 'dog' is ìdú, the same segments with the opposite tone,
                 // and this row is toneless in all 39 of its other cells. Writing

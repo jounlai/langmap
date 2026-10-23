@@ -1260,5 +1260,6 @@ WORDS.moon = {
     zag: ["urduy", "ʔʊɾdʊwɪ"],  // Not the month, which is urde.
     ttq: ["tallit", "talːit"],  // The same word means 'month'.
     gha: ["ụ̄yer", "ˈojɐr"],  // The same word means "lunar month"; the full moon is taziri.
+    auj: ["təžə́r", "təˈʒər"],  // One of the few nouns with a lexical (unpredictable) accent; 'month' is a different word, ayùr.
   },
 };

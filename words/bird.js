@@ -1213,5 +1213,6 @@ WORDS.bird = {
     zag: ["torfo", "toɾfo"],  // Glossed 'bird (generic)'.
     ttq: ["agǝḍiḍ", "aɡədˤidˤ"],
     gha: ["ag̣aḍịḍ", "aɟadˤedˤ"],
+    auj: ["agəṭìṭ", "aɡəˈtˤitˤ"],  // Also 'sparrow'; the general Berber word for bird.
   },
 };

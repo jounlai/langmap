@@ -1254,5 +1254,6 @@ WORDS.cat = {
     zag: ["matu", "matʊ"],
     ttq: ["măss", "mˤæsː"],  // Feminine; Ayr Tuareg says muš.
     gha: ["takaṭṭust", "takatˤːust"],  // Children say kūsa.
+    auj: ["aqəṭṭùš", "aqəˈtˤːuʃ"],  // The masculine form; ultimately from Latin cattus (van Putten).
   }
 };

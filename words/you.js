@@ -1255,5 +1255,6 @@ WORDS.you = {
     zag: ["na", "na"],  // Plural nuw.
     ttq: ["kay", "kæj"],  // Masculine; a woman is addressed as kăm.
     gha: ["šegg", "ʃɐɡː"],  // Masculine; Lanfry also gives šeggən.
+    auj: ["kú", "ku"],  // Masculine; to a woman it is kəm.
   },
 };

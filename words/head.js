@@ -1214,5 +1214,6 @@ WORDS.head = {
     zag: ["ta", "ta"],  // tafa is 'head, skull'; ta also means 'above'.
     ttq: ["eɣaf", "eɣæf"],
     gha: ["ị̄ɣef", "ˈeɣɐf"],
+    auj: ["tgìli", "ˈtɡili"],
   },
 };

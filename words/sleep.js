@@ -1212,5 +1212,6 @@ WORDS.sleep = {
     dzg: ["ñakti", "ɲáktɪ́"],
     ttq: ["ǝṭṭǝs", "ətˤːəs"],  // Ayr Tuareg uses ənsu instead.
     gha: ["nəddəm", "nədːəm"],
+    auj: ["iš", "iʃ"],  // Cited as the imperative.
   },
 };

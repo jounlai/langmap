@@ -1248,5 +1248,6 @@ WORDS.star = {
     zag: ["mar", "maɾ"],
     ttq: ["atri", "atˤri"],
     gha: ["iri", "iri"],  // Dew is aman n-iran, "water of the stars".
+    auj: ["—", "—"],
   },
 };

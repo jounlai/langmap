@@ -1117,5 +1117,6 @@ WORDS.sea = {
     gym: ["mren", "mɾẽ"],
     dzg: ["bahar", "báhàr"],  // A loan from Arabic (marked ar. in the dictionary), 'sea, ocean'.
     gha: ["elbəḫər", "ɐlbəħər"],  // From Arabic al-baḥr (Lanfry marks it ar.).
+    auj: ["əlbə̀ḥr", "əlˈbəħr"],  // Borrowed from Arabic baḥr, article and all.
   }
 };

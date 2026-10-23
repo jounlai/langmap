@@ -903,6 +903,7 @@ WORDS.rice = {
     vls: ["rys", "ris"],
     abv: ["عيش", "ʕeːʃ"],
     tsj: ["khu", "kʰu"],
-    roo: ["rais", "ɾais"]
+    roo: ["rais", "ɾais"],
+    dzg: ["rûsu", "rúsù"],  // Synonym ciŋafu (marked as Hausa).
   }
 };

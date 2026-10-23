@@ -1255,6 +1255,7 @@ WORDS.moon = {
     lep: ["ᰜᰦᰟᰨ", "lavo"],
     mhy: ["wulan", "wulan"],
     gsw_als: ["Mon", "moːn"],
-    nan_ph: ["月娘", "ɡeʔ˨˦ niũ˨˦"]
+    nan_ph: ["月娘", "ɡeʔ˨˦ niũ˨˦"],
+    dzg: ["ôwuri", "òwùrí"],  // The same word also means 'month' and 'salary'.
   },
 };

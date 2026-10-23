@@ -1257,6 +1257,7 @@ WORDS.tree = {
     lep: ["ᰀᰫᰵ", "kuŋ"],
     mhy: ["kakaw", "kakaw"],
     gsw_als: ["Baum", "baʊm"],
-    nan_ph: ["樹", "tsʰiu˦˩"]
+    nan_ph: ["樹", "tsʰiu˦˩"],
+    dzg: ["eke", "ɛ̀kɛ́"],  // Also 'wood' and 'plant'.
   },
 };

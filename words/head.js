@@ -1209,6 +1209,7 @@ WORDS.head = {
     haj: ["matha", "matʰa"],
     one: ["onútsiʼ", "onṹtsiʔ"],
     ik: ["niaquq", "niaquq"],
-    zne: ["ri", "ri"]
+    zne: ["ri", "ri"],
+    dzg: ["dahu", "dàhʊ́"],  // Also 'top, summit'.
   },
 };

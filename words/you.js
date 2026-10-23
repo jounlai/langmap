@@ -1250,6 +1250,7 @@ WORDS.you = {
     lep: ["ᰝᰩ", "hɔ"],
     mhy: ["hañuʔ", "haɲuʔ"],
     gsw_als: ["dü", "dy"],
-    nan_ph: ["汝", "li˥˥˦"]
+    nan_ph: ["汝", "li˥˥˦"],
+    dzg: ["inta", "ɪ́ntà"],  // Synonym noore.
   },
 };

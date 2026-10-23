@@ -1261,6 +1261,7 @@ WORDS.one = {
     lep: ["ᰀᰦᰳ", "kat"],
     mhy: ["isaʔ", "isaʔ"],
     gsw_als: ["eins", "eins"],
-    nan_ph: ["一", "tsit˨˦"]
+    nan_ph: ["一", "tsit˨˦"],
+    dzg: ["turon", "trɔ̌n"],
   },
 };

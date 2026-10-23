@@ -1114,6 +1114,7 @@ WORDS.sea = {
     srb: ["gəning", "ɡəniŋ"],
     kim: ["далай", "dalaj"],
     din: ["adɛkdiɛt", "adɛkdiɛt"],
-    gym: ["mren", "mɾẽ"]
+    gym: ["mren", "mɾẽ"],
+    dzg: ["bahar", "báhàr"],  // A loan from Arabic (marked ar. in the dictionary), 'sea, ocean'.
   }
 };

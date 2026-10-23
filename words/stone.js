@@ -1202,6 +1202,7 @@ WORDS.stone = {
     yuc: ["ti", "ti"],
     kao: ["bere", "beɾe"],
     kio: ["tsʼó:", "tsʼóː"],
-    hup: ["tse", "tse"]
+    hup: ["tse", "tse"],
+    dzg: ["êĩ", "ḛ̀ḭ́"],  // Also 'hail', and in some dialects 'mountain'.
   },
 };

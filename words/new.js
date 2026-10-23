@@ -1191,6 +1191,7 @@ WORDS.new = {
     kim: ["няа", "ɲaː"],
     sip: ["གསར་པུ", "saːpu"],
     one: ["a:sé", "aːsé"],
-    ko_jeju: ["세", "se"]
+    ko_jeju: ["세", "se"],
+    dzg: ["êski", "èskí"],
   }
 };

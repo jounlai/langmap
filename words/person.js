@@ -1163,6 +1163,7 @@ WORDS.person = {
     dyo: ["an", "an"],
     bor: ["boe", "boe"],
     wym: ["menś", "menʃ"],
-    vls: ["mens", "mɛns"]
+    vls: ["mens", "mɛns"],
+    dzg: ["aũ", "à̰ʊ̰́"],
   }
 };

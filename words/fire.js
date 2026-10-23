@@ -1255,6 +1255,7 @@ WORDS.fire = {
     mhy: ["apuy", "apuj"],
     gsw_als: ["Fir", "fiːr"],
     nan_ph: ["火", "he˥˥˦"],
-    mlq: ["ta", "ta"]
+    mlq: ["ta", "ta"],
+    dzg: ["wûni", "wúní"],  // Also 'electricity', 'firearm' and 'hell'.
   }
 };

@@ -1250,6 +1250,7 @@ WORDS.love = {
     mhy: ["sinta", "sinta"],
     gsw_als: ["Lieb", "liəp"],
     nan_ph: ["愛", "ai˦˩"],
-    aiw: ["—", "—"]
+    aiw: ["—", "—"],
+    dzg: ["nagi", "nàɡɪ́"],  // Noun 'love, desire' and verb 'love, want'.
   }
 };

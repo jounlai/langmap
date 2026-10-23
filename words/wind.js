@@ -1190,6 +1190,7 @@ WORDS.wind = {
     kim: ["ӄат", "qat"],
     kdt: ["jaːl", "jaːl"],
     pqm: ["wocawson", "wotʃawson"],
-    glk: ["باد", "bɒːd"]
+    glk: ["باد", "bɒːd"],
+    dzg: ["owon", "ɔ̀wɔ́n"],  // The same word also means 'demon, evil spirit'.
   },
 };

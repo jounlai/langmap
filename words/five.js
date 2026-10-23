@@ -1212,6 +1212,7 @@ WORDS.five = {
     wic: ["iskwiːc", "iskʷiːts"],
     koy: ["kʼeełtsʼidnaal", "kʼiːɬtsʼidnaːl"],
     myp: ["baágiso", "baáɡiso"],
-    itz: ["joʼ", "hoʔ"]
+    itz: ["joʼ", "hoʔ"],
+    dzg: ["fôu", "fòú"],
   },
 };

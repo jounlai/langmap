@@ -1174,6 +1174,7 @@ WORDS.egg = {
     aja: ["klokloʒin", "klokloʒĩ"],
     kpe: ["ɣáloŋ", "ɣáloŋ"],
     zts: ["dzɨtbɨdy", "dzɨtbɨdj"],
-    cuk: ["akwa", "akwa"]
+    cuk: ["akwa", "akwa"],
+    dzg: ["šili", "ʃɪ́lɪ̀"],  // Synonym kûili.
   },
 };

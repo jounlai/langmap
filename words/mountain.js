@@ -1159,6 +1159,7 @@ WORDS.mountain = {
     sip: ["རི", "ri"],
     lij_t: ["munte", "ˈmuŋte"],
     kpe: ["yée", "jée"],
-    abe: ["wajo", "wadʒo"]
+    abe: ["wajo", "wadʒo"],
+    dzg: ["hadai", "hàdàɪ́"],  // Also 'rock'.
   }
 };

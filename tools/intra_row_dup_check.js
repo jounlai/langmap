@@ -211,6 +211,9 @@ const pairs = Object.entries(byPair).sort((x, y) => y[1].length - x[1].length);
 // grandmother' /i⁵⁵⁻⁵³ ma³³/. Same characters, different tone; the IPA differs.
 // 2026-10-22: accepts pcc nail = grandmother + snow. Wiktionary's Bouyei 'nail'
 // has two etymologies, 'grandmother' and 'snow, ice': a homograph, same tone.
+// 2026-10-23: new row dzg (Dazaga). ziri = blue + green is the grue word
+// ('bleu, vert, verdâtre'); suru = bone + name are two Webonary entries
+// (separate GUIDs), homophones.
 const LOCK = path.join(__dirname, 'intra_row_dup.lock.json');
 const sig = (h) => `${h.code}|${[h.a, h.b].sort().join('|')}`;
 const current = new Set(hits.map(sig));

@@ -2862,6 +2862,7 @@ const LANG_NAMES = {
                de: "Ma'anyan", fr: "Ma'anyan", it: "Ma'anyan",
                es: "Ma'anyan", pt: "Ma'anyan",
                ru: 'Маанянский', uk: 'Маанянська', ar: 'المأنيانية', he: 'מאאניאן', sw: 'Kimaanyan' },
+        dzg: { en: "Dazaga", ja: "ダザガ語", ko: "다자가어", zh: "达扎加语", yue: "達扎加語", vi: "Tiếng Daza", th: "ภาษาดาซากา", id: "Bahasa Dazaga", hi: "दज़ागा", de: "Dazaga", fr: "Dazaga", it: "Dazaga", es: "Dazaga", pt: "Daza", ru: "Даза", uk: "Даза", ar: "الدازاغا", he: "דזאגה", sw: "Kidazaga" },
     };
     for (const code of Object.keys(ADDED110)) {
         for (const ui of Object.keys(ADDED110[code])) {

@@ -1249,6 +1249,7 @@ WORDS.heart = {
     lep: ["ᰣᰦᰜᰪᰳ", "ʔalɯt"],
     mhy: ["atei", "atei"],
     gsw_als: ["Hërz", "hærts"],
-    nan_ph: ["心", "sim˧˧"]
+    nan_ph: ["心", "sim˧˧"],
+    dzg: ["owor", "ɔ̀wɔ́r"],  // Also the seat of feelings in many expressions (owor juu 'sorrow').
   },
 };

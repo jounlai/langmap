@@ -1250,6 +1250,7 @@ WORDS.name = {
     lep: ["ᰣᰦᰓᰥᰤᰦᰵ", "ʔabrjaŋ"],
     mhy: ["ŋaran", "ŋaran"],
     gsw_als: ["Nàme", "nɒːmə"],
-    nan_ph: ["名", "miã˨˦"]
+    nan_ph: ["名", "miã˨˦"],
+    dzg: ["suru", "sʊ́rʊ́"],  // A homophone of suru 'bone'.
   },
 };

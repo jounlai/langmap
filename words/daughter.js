@@ -1170,6 +1170,7 @@ WORDS.daughter = {
     bzg: ["sjiem mammali", "ʃiem mamːali"],
     gsw_als: ["Tochter", "dɔxtər"],
     hop: ["maana", "maːna"],
-    glk: ["دختر", "duxtəɾ"]
+    glk: ["دختر", "duxtəɾ"],
+    dzg: ["dôu", "dòú"],  // Glossed 'girl, daughter'.
   },
 };

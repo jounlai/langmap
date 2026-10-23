@@ -1256,6 +1256,7 @@ WORDS.water = {
     lep: ["ᰣᰫᰵ", "ʔuŋ"],
     mhy: ["ranuʔ", "ranuʔ"],
     gsw_als: ["Wàsser", "vɒsər"],
-    nan_ph: ["水", "tsui˥˥˦"]
+    nan_ph: ["水", "tsui˥˥˦"],
+    dzg: ["îyi", "ìjí"],  // Senses 'water' and 'liquid'.
   },
 };

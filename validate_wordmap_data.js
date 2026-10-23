@@ -1204,6 +1204,10 @@ for (const code of codes) {
                 // Khalkha; no Mongghul greeting is attested in Junast or the Qidar dictionary.
                 yue_gz: new Set(['sun', 'you', 'tongue', 'hand', 'heart', 'dog', 'drink', 'three', 'hello', 'red']),
                 mvf: new Set(['hello']),
+                // dzg (Dazaga, added 2026-10-23 from the SIL Webonary dictionary): 'eat'
+                // is tuu only as a cross-reference with no pronunciation; 'we' has two
+                // unlabelled forms (tunta, taara) and no source says which is current.
+                dzg: new Set(['we', 'eat']),
                 // dds fish: Heath and the Dogon project both give it as ídù — but
                 // Donno So 'dog' is ìdú, the same segments with the opposite tone,
                 // and this row is toneless in all 39 of its other cells. Writing

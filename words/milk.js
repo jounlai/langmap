@@ -1164,6 +1164,7 @@ WORDS.milk = {
     ja_rys: ["乳", "tsɨː"],
     tar: ["leche", "letʃe"],
     zgh: ["ⴰⵖⵖⵓ", "aʁːu"],
-    roo: ["rovi", "ɾoβi"]
+    roo: ["rovi", "ɾoβi"],
+    dzg: ["yiĩ", "jɪ̰́ɪ̰́"],
   },
 };

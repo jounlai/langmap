@@ -1262,6 +1262,7 @@ WORDS.tongue = {
     lep: ["ᰣᰜᰧ", "ʔəli"],
     mhy: ["lelaʔ", "lelaʔ"],
     gsw_als: ["Zùng", "tsʊŋ"],
-    nan_ph: ["舌仔", "tsiʔ˨˦ a˥˥˦"]
+    nan_ph: ["舌仔", "tsiʔ˨˦ a˥˥˦"],
+    dzg: ["tileši", "tɪ̀lɛ̀ʃɪ̌"],  // Also 'language'.
   },
 };

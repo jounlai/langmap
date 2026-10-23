@@ -1236,6 +1236,7 @@ WORDS.mouth = {
     dbl: ["ngan.gu", "ˈŋanɡu"],
     cjm: ["ꨚꨝꩍ", "pabah"],
     na: ["aanaquan", "aanakʷan"],
-    kpe: ["lá", "lá"]
+    kpe: ["lá", "lá"],
+    dzg: ["cî", "cí"],  // Also 'beak, opening, lid'.
   }
 };

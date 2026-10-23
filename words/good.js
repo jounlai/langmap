@@ -1250,6 +1250,7 @@ WORDS.good = {
     lep: ["ᰣᰦᰛᰤᰫᰮ", "ʔarjum"],
     mhy: ["maʔeh", "maʔeh"],
     gsw_als: ["güet", "ɡyət"],
-    nan_ph: ["好", "ho˥˥˦"]
+    nan_ph: ["好", "ho˥˥˦"],
+    dzg: ["gali", "ɡálɪ̀"],  // Synonyms dîli and tîri.
   },
 };

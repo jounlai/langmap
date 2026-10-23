@@ -1155,6 +1155,7 @@ WORDS.iron = {
     hup: ["tse:łchʼeʼ", "tseːɬtʃʼeʔ"],
     srb: ["luang", "luaŋ"],
     mrq: ["puhipuhi", "puhipuhi"],
-    itl: ["зэљэзаʼ", "zelʲezaʔ"]
+    itl: ["зэљэзаʼ", "zelʲezaʔ"],
+    dzg: ["asuu", "àsʊ̀ʊ́"],  // 'Metal, iron'; also 'weapon, tool' and 'engine'.
   },
 };

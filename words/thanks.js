@@ -1243,6 +1243,7 @@ WORDS.thanks = {
     nan_ph: ["多謝", "to˧˧ sia˦˩"],
     aiw: ["—", "—"],
     mlq: ["—", "—"],
-    byn: ["—", "—"]
+    byn: ["—", "—"],
+    dzg: ["wuše", "wʊ́ʃɛ̀"],  // Arabic šukuran is also listed.
   }
 };

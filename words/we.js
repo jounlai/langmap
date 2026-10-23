@@ -2404,5 +2404,6 @@ WORDS.we = {
     tsj: ["ai", "ai"],
     lep: ["ᰀᰦᰚᰫ", "kaju"],
     mhy: ["takam", "takam"],
+    dzg: ["—", "—"],
   },
 };

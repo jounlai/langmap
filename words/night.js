@@ -1254,6 +1254,7 @@ WORDS.night = {
     lep: ["ᰍᰱ", "nəp"],
     mhy: ["kamalem", "kamalem"],
     gsw_als: ["Nàcht", "nɒxt"],
-    nan_ph: ["暗暝", "am˦˩ mĩ˨˦"]
+    nan_ph: ["暗暝", "am˦˩ mĩ˨˦"],
+    dzg: ["dugusu", "dʊ̀ɡʊ̀sʊ́"],
   },
 };

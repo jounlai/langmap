@@ -1191,6 +1191,7 @@ WORDS.hundred = {
     woe: ["sebiugiuw", "sebʉɡʉw"],
     vls: ["hoenderd", "ˈhundərt"],
     nut: ["pác", "paːk˥"],
-    kpy: ["ыстон", "əston"]
+    kpy: ["ыстон", "əston"],
+    dzg: ["kîdiri", "kídírí"],
   },
 };

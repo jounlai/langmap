@@ -1272,6 +1272,7 @@ WORDS.salt = {
     sdo: ["guloʼ", "ɡuloʔ"],
     kio: ["ɔ́:thą́tʼą́y", "ɔ́ːtʰã́tʼã́j"],
     cjm: ["ꨦꨣꨩ", "saraː"],
-    kim: ["тус", "tus"]
+    kim: ["тус", "tus"],
+    dzg: ["gîleni", "ɡìléní"],
   },
 };

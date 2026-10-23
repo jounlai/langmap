@@ -1249,6 +1249,7 @@ WORDS.cat = {
     mhy: ["using", "usiŋ"],
     gsw_als: ["Kàtz", "kʰɒts"],
     nan_ph: ["貓", "niãu˧˧"],
-    aiw: ["—", "—"]
+    aiw: ["—", "—"],
+    dzg: ["bôtu", "bòtú"],  // Marked as an Arabic loan (ar.) in the dictionary.
   }
 };

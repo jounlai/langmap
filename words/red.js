@@ -1257,6 +1257,7 @@ WORDS.red = {
     lep: ["ᰠᰦᰵ", "saŋ"],
     mhy: ["mariaŋ", "mariaŋ"],
     gsw_als: ["rot", "roːt"],
-    nan_ph: ["紅", "aŋ˨˦"]
+    nan_ph: ["紅", "aŋ˨˦"],
+    dzg: ["maru", "màrʊ́"],  // Also covers orange and pink.
   },
 };

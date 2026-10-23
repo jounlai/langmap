@@ -1213,6 +1213,7 @@ WORDS.white = {
     iru: ["velle", "velːe"],
     aiw: ["tsaami", "tsaːmi"],
     ja_rys: ["っすさーん", "ssusaːɴ"],
-    mxv: ["yaa", "jaː"]
+    mxv: ["yaa", "jaː"],
+    dzg: ["cuu", "cʊ̀ʊ́"],
   },
 };

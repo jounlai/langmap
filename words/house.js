@@ -1250,6 +1250,7 @@ WORDS.house = {
     mhy: ["lewuʔ", "lewuʔ"],
     gsw_als: ["Hüs", "hyːs"],
     nan_ph: ["厝", "tsʰu˦˩"],
-    aiw: ["—", "—"]
+    aiw: ["—", "—"],
+    dzg: ["yege", "jɛ́ɡɛ̀"],  // 'House, tent'; also 'household, home'.
   }
 };

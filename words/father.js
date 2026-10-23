@@ -1250,6 +1250,7 @@ WORDS.father = {
     lep: ["ᰣᰦᰓᰨ", "ʔabo"],
     mhy: ["amah", "amah"],
     gsw_als: ["Vàtter", "fɒtər"],
-    nan_ph: ["老爸", "lau˧˧ pe˧˧"]
+    nan_ph: ["老爸", "lau˧˧ pe˧˧"],
+    dzg: ["abba", "ábbà"],
   },
 };

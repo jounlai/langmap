@@ -1260,6 +1260,7 @@ WORDS.blood = {
     lep: ["ᰟᰧ", "vi"],
     mhy: ["iraʔ", "iraʔ"],
     gsw_als: ["Blüet", "blyət"],
-    nan_ph: ["血", "huiʔ˥"]
+    nan_ph: ["血", "huiʔ˥"],
+    dzg: ["gire", "ɡɪ́rɛ́"],  // Also 'blood money'.
   },
 };

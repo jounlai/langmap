@@ -1249,6 +1249,7 @@ WORDS.mother = {
     lep: ["ᰣᰦᰕᰫ", "ʔamu"],
     mhy: ["ineh", "ineh"],
     gsw_als: ["Müeter", "myətər"],
-    nan_ph: ["老母", "lau˧˧ bu˥˥˦"]
+    nan_ph: ["老母", "lau˧˧ bu˥˥˦"],
+    dzg: ["aya", "ájá"],
   },
 };

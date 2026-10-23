@@ -1280,6 +1280,7 @@ WORDS.tooth = {
     lep: ["ᰣᰦᰑᰨ", "ʔafo"],
     mhy: ["dipen", "dipen"],
     gsw_als: ["Zohn", "tsoːn"],
-    nan_ph: ["喙齒", "tsʰui˦˩ kʰi˥˥˦"]
+    nan_ph: ["喙齒", "tsʰui˦˩ kʰi˥˥˦"],
+    dzg: ["tiĩ", "tɪ̰́ɪ̰́"],
   },
 };

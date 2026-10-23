@@ -925,6 +925,7 @@ WORDS.butterfly = {
     usp: ["pepe", "pepe"],
     bgc: ["पटबीजणा", "pəʈbiːdʒɳaː"],
     nyo: ["ekihoiholya", "ekihoiholja"],
-    kos: ["sacliki", "sɛliki"]
+    kos: ["sacliki", "sɛliki"],
+    dzg: ["kuli-mallimi", "kʊ̀lɪ̀málɪ́mɪ́"],  // Covers butterflies and moths; synonym popur.
   },
 };

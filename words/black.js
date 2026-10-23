@@ -1299,6 +1299,7 @@ WORDS.black = {
     lij_t: ["nàigru", "ˈnajɡru"],
     mcf: ["chëshë", "tʃɨʃɨ"],
     bor: ["čoreu", "tʃoɾew"],
-    ik: ["maŋaqtaaq", "maŋaqtaːq"]
+    ik: ["maŋaqtaaq", "maŋaqtaːq"],
+    dzg: ["yesku", "jɛ́skʊ̀"],  // Also 'dark'.
   },
 };

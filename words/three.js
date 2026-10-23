@@ -1257,6 +1257,7 @@ WORDS.three = {
     lep: ["ᰠᰦᰮ", "sam"],
     mhy: ["telo", "telo"],
     gsw_als: ["drei", "drei"],
-    nan_ph: ["三", "sã˧˧"]
+    nan_ph: ["三", "sã˧˧"],
+    dzg: ["aguzuu", "àɡʊ̀zʊ́ʊ́"],
   },
 };

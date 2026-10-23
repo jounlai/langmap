@@ -1065,6 +1065,7 @@ WORDS.green = {
     bxk: ["lubookha", "luβoːxa"],
     xnr: ["सैला", "sɛːlaː"],
     ebu: ["ngirini", "ŋɡiɾini"],
-    kqn: ["maanzha mataamba", "maːnʒa mataːmba"]
+    kqn: ["maanzha mataamba", "maːnʒa mataːmba"],
+    dzg: ["ziri", "zɪ̀rɪ́"],  // One word for blue and green.
   }
 };

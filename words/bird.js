@@ -1208,6 +1208,7 @@ WORDS.bird = {
     olk: ["ant", "ant"],
     kim: ["ӄушӄаш", "quʃqaʃ"],
     mvf: ["xuu", "ɕuu"],
-    itl: ["ийон", "ijon"]
+    itl: ["ийон", "ijon"],
+    dzg: ["côfuri", "còfɨ̀rí"],  // Also 'airplane'.
   },
 };

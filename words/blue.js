@@ -952,6 +952,7 @@ WORDS.blue = {
     zu: "grue",
     zh_song: "distinct", // r88: route for the new blue cell,
     qwc: "distinct", // r88: route for the new blue cell
+    dzg: "grue",
   },
   routes: {
     "distinct": {"color": "#2563eb", "emoji": "🔵", "en": "blue has its own word", "ja": "青に専用の語", "ko": "파랑에 고유한 낱말", "zh": "蓝有专词", "yue": "藍有專詞", "vi": "lam có từ riêng", "th": "น้ำเงินมีคำเฉพาะ", "id": "biru punya katanya sendiri", "hi": "नीले का अपना शब्द", "de": "eigenes Wort für Blau", "fr": "le bleu a son mot", "it": "il blu ha una parola propria", "es": "el azul tiene palabra propia", "pt": "o azul tem palavra própria", "ru": "у синего своё слово", "uk": "синій має власне слово", "ar": "للأزرق كلمته الخاصة", "he": "לכחול מילה משלו", "sw": "buluu lina neno lake"},
@@ -1861,5 +1862,6 @@ WORDS.blue = {
     zu: ["luhlaza", "luˈɬaːza"],  // One basic term for blue and green. Blue is specified as luhlaza okwesibhakabhaka 'like the sky', green as luhlaza okotshani 'like grass'. Also 'raw, unripe, clear (of water)'. Cited as a relative stem to match -bomvu/-mhlophe/-mnyama in this row.
     zh_song: ["藍", "lam"],
     qwc: ["anqas", "aŋqas"], // was ["anqas", "anqas"] (vi dialect rules 2026-10-06)
+    dzg: ["ziri", "zɪ̀rɪ́"],  // One word for blue and green ('bleu, vert, verdâtre').
   },
 };

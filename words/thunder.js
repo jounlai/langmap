@@ -545,6 +545,7 @@ WORDS.thunder = {
     aau: "unknown",
     yle: "unknown",
     mbc: "unknown",
+    dzg: "unknown",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1036,5 +1037,6 @@ WORDS.thunder = {
     aau: ["nompow", "nompow"],  // The Abau Bible renders 'sons of thunder' as nompow so ney.
     yle: ["mwini", "mʷin̪i"],  // Thunder 'speaks' in the Yele Bible's John 12:29.
     mbc: ["waraʔnapi", "waraʔnapi"],  // IDS notes thunder is also said to 'say tɨrɨn', echoing its sound.
+    dzg: ["kînjile", "kìnɟílè"],
   },
 };

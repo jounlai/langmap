@@ -1254,6 +1254,7 @@ WORDS.sun = {
     lep: ["ᰠᰗᰪᰭ", "sətsɯk"],
     mhy: ["mate andraw", "mate andraw"],
     gsw_als: ["Sùnn", "sʊn"],
-    nan_ph: ["日頭", "lit˨˦ tʰau˨˦"]
+    nan_ph: ["日頭", "lit˨˦ tʰau˨˦"],
+    dzg: ["ize", "ɪ̀zɛ́"],  // The same word also means 'day, daytime'.
   },
 };

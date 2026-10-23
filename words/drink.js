@@ -1250,6 +1250,7 @@ WORDS.drink = {
     mhy: ["ŋoʔot", "ŋoʔot"],
     gsw_als: ["trìnke", "trɪŋkə"],
     nan_ph: ["啉", "lim˧˧"],
-    aiw: ["—", "—"]
+    aiw: ["—", "—"],
+    dzg: ["têi", "tèí"],  // Also 'feel, experience'.
   }
 };

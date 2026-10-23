@@ -724,6 +724,7 @@ WORDS.computer = {
     atj: ["kanokepitcikan", "kanokepitʃikan"],
     com: ["taa tekwapʉha pooitʉ", "taː tekʷapɨha poːitɨ"],
     tlh: ["De'wI'", "ɖɛʔwɪʔ"],
-    pot: ["tasomkekos", "tasomkəkos"]
+    pot: ["tasomkekos", "tasomkəkos"],
+    dzg: ["kômputir", "kòmpútɨ̀r"],  // From English (marked ang.).
   },
 };

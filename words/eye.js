@@ -1255,6 +1255,7 @@ WORDS.eye = {
     lep: ["ᰣᰦᰕᰧᰭᰶ", "ʔamik"],
     mhy: ["mate", "mate"],
     gsw_als: ["Aug", "ɒik"],
-    nan_ph: ["目睭", "bak˨˦ tsiu˧˧"]
+    nan_ph: ["目睭", "bak˨˦ tsiu˧˧"],
+    dzg: ["saa", "sá̰á̰"],  // Also 'sight'.
   },
 };

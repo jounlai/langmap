@@ -1985,6 +1985,6 @@ WORDS.bear = {
     to: ["pea", "pea"],
     rtm: ["pea", "pea"],
     sux: ["𒊍", "az"],
-    cmg: ["ᠪᠠᠭᠠᠪᠠᠭᠠᠢ", "baɣabaɣai"]
+    cmg: ["ᠪᠠᠭᠠᠪᠠᠭᠠᠢ", "baɣabaɣai"],
   },
 };

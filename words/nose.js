@@ -1192,6 +1192,7 @@ WORDS.nose = {
     kpe: ["sṹa", "sṹa"],
     sgw: ["አንና", "anna"],
     bzd: ["yík", "jík"],
-    abe: ["mejol", "medʒol"]
+    abe: ["mejol", "medʒol"],
+    dzg: ["ca", "cá"],
   },
 };

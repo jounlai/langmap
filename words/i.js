@@ -1250,6 +1250,7 @@ WORDS.i = {
     lep: ["ᰃᰨ", "ɡo"],
     mhy: ["aku", "aku"],
     gsw_als: ["ich", "ɪx"],
-    nan_ph: ["我", "ɡua˥˥˦"]
+    nan_ph: ["我", "ɡua˥˥˦"],
+    dzg: ["tani", "tànɪ́"],  // Synonym toore.
   },
 };

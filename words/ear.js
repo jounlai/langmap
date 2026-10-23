@@ -1213,6 +1213,7 @@ WORDS.ear = {
     wic: ["aːcʔa", "aːtsʔa"],
     koy: ["-dzaghaʼ", "tsaɣaʔ"],
     tca: ["naxpaxchinü", "naʔpaʔtʃinɨ"],
-    sip: ["རྣམ་མཆོག", "namtɕoʔ"]
+    sip: ["རྣམ་མཆོག", "namtɕoʔ"],
+    dzg: ["šîĩ", "ʃḭ́ḭ́"],
   },
 };

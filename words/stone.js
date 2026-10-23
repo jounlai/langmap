@@ -1206,5 +1206,6 @@ WORDS.stone = {
     dzg: ["êĩ", "ḛ̀ḭ́"],  // Also 'hail', and in some dialects 'mountain'.
     zag: ["ha", "ha"],  // Also 'rock'; ASJP gives the same word for 'mountain'.
     ttq: ["tǝhunt", "təhunt"],
+    gha: ["ị̄rəg̣", "ˈerəɟ"],
   },
 };

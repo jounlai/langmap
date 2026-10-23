@@ -1265,5 +1265,6 @@ WORDS.one = {
     dzg: ["turon", "trɔ̌n"],
     zag: ["noko", "nɔkɔ"],  // nî [ni] is also glossed 'one' (and 'dead').
     ttq: ["ǝyyăn", "əjːæn"],  // Feminine əyyăt; the New Testament spells it iyyan.
+    gha: ["yụ̄n", "jon"],  // Masculine; the feminine is yụ̄t.
   },
 };

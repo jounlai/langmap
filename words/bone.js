@@ -1254,5 +1254,6 @@ WORDS.bone = {
     dzg: ["suru", "sʊ́rʊ́"],  // A homophone of suru 'name'.
     zag: ["uru", "ʔʊɾʊ"],
     ttq: ["eɣas", "eɣæs"],
+    gha: ["ɣess", "ɣɐsː"],  // Also a fruit stone; the Ayt Ulid say ɣaṣṣ.
   },
 };

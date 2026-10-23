@@ -1211,6 +1211,9 @@ for (const code of codes) {
                 // zag (Zaghawa/Beria, 2026-10-23, ADESK 2006 dictionary): no greeting
                 // formula in the dictionary, only naga 'peace; salutation'.
                 zag: new Set(['hello', 'love']),   // love: the entry's bracket gives another word (tagarì 'able')
+                // gha (Ghadamès, 2026-10-23, Lanfry 1973 glossary): fish has only ụlisma
+                // 'poisson de sable' (a skink); no thanking formula is recorded.
+                gha: new Set(['fish', 'thanks']),
                 // dds fish: Heath and the Dogon project both give it as ídù — but
                 // Donno So 'dog' is ìdú, the same segments with the opposite tone,
                 // and this row is toneless in all 39 of its other cells. Writing

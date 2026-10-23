@@ -1254,5 +1254,6 @@ WORDS.two = {
     dzg: ["cûu", "cúú"],
     zag: ["suwi", "sʊwɪ"],
     ttq: ["ǝššin", "əʃːin"],  // Feminine sănatăt.
+    gha: ["sən", "sən"],  // Masculine; the feminine is sənet.
   },
 };

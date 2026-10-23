@@ -830,5 +830,6 @@ WORDS.silk = {
     bin: ["esiliki", "esiliki"],
     ibb: ["sịrek", "sɪrek"],
     ttq: ["ǝlxǝrir", "əlxərir"],  // From Arabic ḥarīr (Prasse).
+    gha: ["elḫarir", "ɐlħarir"],  // From Arabic al-ḥarīr (Lanfry marks it ar.).
   }
 };

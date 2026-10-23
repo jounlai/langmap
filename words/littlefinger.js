@@ -250,6 +250,7 @@ WORDS.littlefinger = {
     dag: "unknown",
     zag: "unknown",
     ttq: "small",
+    gha: "unknown",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -445,5 +446,6 @@ WORDS.littlefinger = {
     dag: ["nubilikpaliŋga", "nubilikpaliŋɡa"],  // Built on nubila 'finger'; the dictionary lists kpaliŋga only as 'little (finger)' in this compound and does not explain it further.
     zag: ["ba tende", "ba tende"],  // Built on ba 'arm, hand'; the little toe is dey tende.
     ttq: ["taḍaṭ", "tadˤatˤ"],  // The feminine diminutive of aḍaḍ 'finger' (Prasse).
+    gha: ["taləṭṭịṭ", "talətˤːetˤ"],  // Lanfry gives no make-up.
   },
 };

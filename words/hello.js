@@ -1247,5 +1247,6 @@ WORDS.hello = {
     dzg: ["—", "—"],
     zag: ["—", "—"],
     ttq: ["ma tǝxlaka", "ma təxlækæ"],  // Literally 'how have you come into being?' (Prasse); the New Testament uses it for 'Hail!'.
+    gha: ["assalām ɛalaykum", "asːaˈlam ʕalajkum"],  // The Arabic "peace be upon you"; Lanfry defines the verb "to greet" as saying this formula.
   }
 };

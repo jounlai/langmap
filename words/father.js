@@ -1254,5 +1254,6 @@ WORDS.father = {
     dzg: ["abba", "ábbà"],
     zag: ["aba", "ʔaba"],  // Also used for paternal uncles, and most often as a term of address; kisir is 'father of'.
     ttq: ["abba", "abːa"],
+    gha: ["dedda", "dɐdːa"],
   },
 };

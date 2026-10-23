@@ -1261,5 +1261,6 @@ WORDS.tree = {
     dzg: ["eke", "ɛ̀kɛ́"],  // Also 'wood' and 'plant'.
     zag: ["begidi", "bɛɡɪdɪ"],
     ttq: ["ašǝk", "aʃək"],  // Also 'wood'.
+    gha: ["temdikt", "tɐmdikt"],  // At Tunin it means "fig tree".
   },
 };

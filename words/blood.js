@@ -1264,5 +1264,6 @@ WORDS.blood = {
     dzg: ["gire", "ɡɪ́rɛ́"],  // Also 'blood money'.
     zag: ["ogû", "oɡu"],
     ttq: ["azni", "azni"],
+    gha: ["demmen", "dɐmːɐn"],  // A plural noun.
   },
 };

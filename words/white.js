@@ -1217,5 +1217,6 @@ WORDS.white = {
     dzg: ["cuu", "cʊ̀ʊ́"],
     zag: ["terri", "tɛɾɾɪ"],
     ttq: ["mallan", "mælːæn"],  // The participle of imlal 'to be white'.
+    gha: ["əmləl", "əmləl"],  // A verb, "to be white", as Berber colour words are.
   },
 };

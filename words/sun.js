@@ -1258,5 +1258,6 @@ WORDS.sun = {
     dzg: ["ize", "ɪ̀zɛ́"],  // The same word also means 'day, daytime'.
     zag: ["ido", "ʔɪdɔ"],  // Also 'sunrise'.
     ttq: ["tǝfuk", "təfˤuk"],  // Prasse marks the word emphatic throughout although no old emphatic consonant is in it.
+    gha: ["ị̄sị", "ˈese"],  // The disc of the sun; Lanfry says the light of the sun is tụ̄fət, which also means "the sun".
   },
 };

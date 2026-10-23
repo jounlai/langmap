@@ -1178,5 +1178,6 @@ WORDS.egg = {
     dzg: ["šili", "ʃɪ́lɪ̀"],  // Synonym kûili.
     zag: ["gûnû", "ɡunu"],  // Glossed in the plural, 'eggs'.
     ttq: ["tǝkǝkit", "təkəkit"],
+    gha: ["tasadəlt", "tasadəlt"],
   },
 };

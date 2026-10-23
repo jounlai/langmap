@@ -1159,5 +1159,6 @@ WORDS.iron = {
     dzg: ["asuu", "àsʊ̀ʊ́"],  // 'Metal, iron'; also 'weapon, tool' and 'engine'.
     zag: ["ay", "ʔaj"],  // Sounds the same as ay 'I'.
     ttq: ["tăẓoli", "tæzˤoli"],
+    gha: ["wẹzzāl", "wɐˈzːal"],  // Lanfry says examples are rare.
   },
 };

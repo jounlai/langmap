@@ -129,7 +129,10 @@ const DEBT = {};
 // r114: bear 16 — kln magalaluut, mer, jmc ngare, gej sisiblìsi: Bible words (each beside 'lion'), origins unsourced.
 // r115: bear 20, foot 24 — Bible/dictionary words with no etymology or no leg word (see review_594).
 // r116: bear 22 — ibb amọnikọd (2025 Ibibio Bible), tlh mIl'oD (Klingon dictionary: Earth bears).
-const UNDECIDED = { we: { route: 'unknown', max: 42 }, bear: { route: 'unknown', max: 22 }, foot: { route: 'unknown', max: 24 } };
+// 2026-10-23: we 42 -> 43 — gha nekkenịn (Lanfry 1973, new Ghadamès row): one
+// form, and Lanfry says nothing about inclusive/exclusive, so 'unknown' by the
+// we-column rule. A first cell, not a reclassification.
+const UNDECIDED = { we: { route: 'unknown', max: 43 }, bear: { route: 'unknown', max: 22 }, foot: { route: 'unknown', max: 24 } };
 
 let violations = 0;
 const notes = [];

@@ -1260,5 +1260,6 @@ WORDS.hand = {
     dzg: ["kee", "kɛ́ɛ́"],  // One word for hand and arm.
     zag: ["ba", "ba"],  // One word for arm and hand; 'hand, palm' specifically is ba adagani.
     ttq: ["ǝfus", "əfˤus"],  // Also the whole arm.
+    gha: ["ụ̄fəss", "ˈofəsː"],  // Also the handle of a tool.
   },
 };

@@ -1259,5 +1259,6 @@ WORDS.fire = {
     dzg: ["wûni", "wúní"],  // Also 'electricity', 'firearm' and 'hell'.
     zag: ["jiye", "ɟɪjɛ"],
     ttq: ["temsay", "temsæj"],  // Tawəlləmmət diphthongises final -e to -ăy (temse > temsay); it also means 'firearm'.
+    gha: ["ụfa", "ofa"],
   }
 };

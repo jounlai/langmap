@@ -1260,5 +1260,6 @@ WORDS.water = {
     dzg: ["îyi", "ìjí"],  // Senses 'water' and 'liquid'.
     zag: ["bi", "bi"],
     ttq: ["aman", "aman"],  // A plural noun, as across Berber.
+    gha: ["āman", "ˈaman"],  // A plural noun, as across Berber.
   },
 };

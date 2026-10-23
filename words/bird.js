@@ -1212,5 +1212,6 @@ WORDS.bird = {
     dzg: ["côfuri", "còfɨ̀rí"],  // Also 'airplane'.
     zag: ["torfo", "toɾfo"],  // Glossed 'bird (generic)'.
     ttq: ["agǝḍiḍ", "aɡədˤidˤ"],
+    gha: ["ag̣aḍịḍ", "aɟadˤedˤ"],
   },
 };

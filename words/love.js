@@ -1254,5 +1254,6 @@ WORDS.love = {
     dzg: ["nagi", "nàɡɪ́"],  // Noun 'love, desire' and verb 'love, want'.
     zag: ["—", "—"],
     ttq: ["tara", "tara"],  // The noun of əru 'to love, want'.
+    gha: ["əb̆r", "əβr"],  // The verb means both "want" and "love".
   }
 };

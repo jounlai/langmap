@@ -1254,5 +1254,6 @@ WORDS.eat = {
     dzg: ["—", "—"],
     zag: ["serì", "sɛɾɪ"],  // Listed as serì, kiserí; the first form is given.
     ttq: ["atšu", "ætʃu"],
+    gha: ["ešš", "ɐʃː"],
   }
 };

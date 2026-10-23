@@ -1194,5 +1194,6 @@ WORDS.wind = {
     dzg: ["owon", "ɔ̀wɔ́n"],  // The same word also means 'demon, evil spirit'.
     zag: ["efî", "ʔefi"],  // Not efi 'tears', which differs in the vowels.
     ttq: ["aḍu", "adˤu"],
+    gha: ["aḍụ", "adˤo"],  // Also means "scent, smell".
   },
 };

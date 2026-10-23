@@ -1254,5 +1254,6 @@ WORDS.good = {
     dzg: ["gali", "ɡálɪ̀"],  // Synonyms dîli and tîri.
     zag: ["ayî", "ʔaji"],  // okaî is 'perfect, good in character'.
     ttq: ["olaɣan", "olæɣæn"],  // The participle of aləɣ 'to be good'; Tuareg adjectives are verbs.
+    gha: ["samịḫ", "sameħ"],  // A quality verb from Arabic, "it is beautiful, good"; Lanfry also gives ɛažib "be good".
   },
 };

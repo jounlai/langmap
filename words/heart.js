@@ -1253,5 +1253,6 @@ WORDS.heart = {
     dzg: ["owor", "ɔ̀wɔ́r"],  // Also the seat of feelings in many expressions (owor juu 'sorrow').
     zag: ["todu", "todu"],  // Not todû 'anus'.
     ttq: ["ǝwǝl", "əwəl"],  // Also 'courage' and the seat of intentions.
+    gha: ["ụ̄g̣əm", "ˈoɟəm"],  // Also the core of a fruit.
   },
 };

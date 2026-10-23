@@ -1261,5 +1261,6 @@ WORDS.three = {
     dzg: ["aguzuu", "àɡʊ̀zʊ́ʊ́"],
     zag: ["we", "we"],  // Same as we 'head lice'.
     ttq: ["karad", "kæradˤ"],
+    gha: ["kāreḍ", "ˈkarɐdˤ"],  // Masculine; the feminine is kerḍet.
   },
 };

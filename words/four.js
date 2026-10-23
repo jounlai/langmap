@@ -1244,5 +1244,6 @@ WORDS.four = {
     vls: ["vier", "viːr"],
     zag: ["isti", "ʔɪstɪ"],
     ttq: ["ǝkkoz", "əkːozˤ"],
+    gha: ["aqqụz", "aqːoz"],  // Arabic ərbeɛ replaces it in compounds such as 400.
   },
 };

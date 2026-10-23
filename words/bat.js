@@ -492,6 +492,7 @@ WORDS.bat = {
     dzg: "unknown",
     zag: "unknown",
     ttq: "unknown",
+    gha: "unknown",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -929,5 +930,6 @@ WORDS.bat = {
     dzg: ["batata", "bàtàtá"],  // Marked ar. (Arabic loan); synonyms lebelebeti, mîri, wûruwuruma.
     zag: ["farfara", "faɾfaɾa"],
     ttq: ["afărtătta", "afærtætːa"],  // Also called ăḍaggal ən-təfuk, 'in-law of the sun' (Prasse: ăḍaggal 'father-in-law, son-in-law').
+    gha: ["abeddedar", "abɐdːɐdar"],  // Lanfry gives no make-up.
   },
 };

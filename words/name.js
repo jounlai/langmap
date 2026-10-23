@@ -1254,5 +1254,6 @@ WORDS.name = {
     dzg: ["suru", "sʊ́rʊ́"],  // A homophone of suru 'bone'.
     zag: ["tir", "tɪɾ"],
     ttq: ["esǝm", "esəm"],
+    gha: ["ism", "ism"],
   },
 };

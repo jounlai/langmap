@@ -1211,5 +1211,6 @@ WORDS.sleep = {
     pqm: ["kuhu", "kuhu"],
     dzg: ["ñakti", "ɲáktɪ́"],
     ttq: ["ǝṭṭǝs", "ətˤːəs"],  // Ayr Tuareg uses ənsu instead.
+    gha: ["nəddəm", "nədːəm"],
   },
 };

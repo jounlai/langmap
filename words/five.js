@@ -1216,5 +1216,6 @@ WORDS.five = {
     dzg: ["fôu", "fòú"],
     zag: ["hûy", "huj"],
     ttq: ["sǝmmos", "səmˤːos"],
+    gha: ["səmməs", "səmːəs"],
   },
 };

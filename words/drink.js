@@ -1254,5 +1254,6 @@ WORDS.drink = {
     dzg: ["têi", "tèí"],  // Also 'feel, experience'.
     zag: ["jarì", "ɟaɾɪ"],  // Listed as jarì, kiyarí; the first form is given.
     ttq: ["ăšu", "æʃu"],  // Written ăšwu, pronounced ăšu in Tawəlləmmət (Prasse).
+    gha: ["esw", "ɐsw"],
   }
 };

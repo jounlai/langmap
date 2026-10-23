@@ -548,6 +548,7 @@ WORDS.thunder = {
     dzg: "unknown",
     zag: "unknown",
     ttq: "plain",
+    gha: "unknown",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1042,5 +1043,6 @@ WORDS.thunder = {
     dzg: ["kînjile", "kìnɟílè"],
     zag: ["ûnî", "ʔuni"],
     ttq: ["eggag", "eɡːaɡ"],  // The verbal noun of əggəg 'to thunder' (also used of cannon and gunfire).
+    gha: ["ag̣g̣ag̣", "aɟːaɟ"],  // The Ayt Waziten form; Lanfry gives no make-up.
   },
 };

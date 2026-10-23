@@ -2865,6 +2865,7 @@ const LANG_NAMES = {
         dzg: { en: "Dazaga", ja: "ダザガ語", ko: "다자가어", zh: "达扎加语", yue: "達扎加語", vi: "Tiếng Daza", th: "ภาษาดาซากา", id: "Bahasa Dazaga", hi: "दज़ागा", de: "Dazaga", fr: "Dazaga", it: "Dazaga", es: "Dazaga", pt: "Daza", ru: "Даза", uk: "Даза", ar: "الدازاغا", he: "דזאגה", sw: "Kidazaga" },
         zag: { en: "Zaghawa", ja: "ザガワ語", ko: "자가와어", zh: "扎加瓦语", yue: "扎加瓦語", vi: "Tiếng Zaghawa", th: "ภาษาซากาวา", id: "Bahasa Zaghawa", hi: "ज़गावा", de: "Zaghawa", fr: "Zaghawa", it: "Zaghawa", es: "Zaghawa", pt: "Zagaua", ru: "Загава", uk: "Загава", ar: "الزغاوة", he: "זגאווה", sw: "Kizaghawa" },
         ttq: { en: "Tawallammat Tamajaq", ja: "タワランマト語", ko: "타왈람마트어", zh: "塔瓦拉马特语", yue: "塔瓦拉馬特語", vi: "Tiếng Tawallammat", th: "ภาษาตาวัลลัมมัต", id: "Bahasa Tawallammat", hi: "तावल्लम्मत", de: "Tawallammat", fr: "Tawellemmet", it: "Tawallammat", es: "Tamajaq tawallammat", pt: "Uelémeda", ru: "Тауллеммет", uk: "Тауллеммет", ar: "تاولميت", he: "טאוולמט", sw: "Kitamajaq" },
+        gha: { en: "Ghadamès", ja: "ガダミス語", ko: "가다메스어", zh: "古达米斯语", yue: "古達米斯語", vi: "Tiếng Ghadamès", th: "ภาษากาดามิส", id: "Bahasa Ghadamès", hi: "ग़दामिस", de: "Ghadamsi", fr: "Tamazight de Ghadamès", it: "Ghadamès", es: "Ghadamés", pt: "Gadamesa", ru: "Гхадамесский", uk: "Гхадамеська", ar: "الغدامسية", he: "גדאמסית", sw: "Kighadamès" },
     };
     for (const code of Object.keys(ADDED110)) {
         for (const ui of Object.keys(ADDED110[code])) {

@@ -1266,5 +1266,6 @@ WORDS.tongue = {
     dzg: ["tileši", "tɪ̀lɛ̀ʃɪ̌"],  // Also 'language'.
     zag: ["tamsi", "tamsɪ"],
     ttq: ["ilǝs", "iləs"],
+    gha: ["ị̄ləs", "ˈeləs"],
   },
 };

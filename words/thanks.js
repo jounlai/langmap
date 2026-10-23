@@ -1247,5 +1247,6 @@ WORDS.thanks = {
     dzg: ["wuše", "wʊ́ʃɛ̀"],  // Arabic šukuran is also listed.
     zag: ["oso", "ɔsɔ"],  // Also 'excuse me' and 'please'; the Arabic sûkûran is also used.
     ttq: ["tanǝmmert", "tanəmːert"],  // Also tanəmmert-năk 'thank you' (to a man).
+    gha: ["—", "—"],
   }
 };

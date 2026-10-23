@@ -1212,5 +1212,6 @@ WORDS.earth = {
     tus: ["awéhreh", "awehɾeh"],
     zag: ["suwa", "sʊwa"],  // Glossed 'dirt, soil'.
     ttq: ["amaḍal", "amædˤal"],  // Also 'land, country' and 'the Earth'.
+    gha: ["tammurt", "tamːurt"],
   }
 };

@@ -1187,5 +1187,6 @@ WORDS.rain = {
     pqm: ["komiwon", "komiwon"],
     bci: ["nzue", "nzue"],
     ttq: ["akonak", "ækonak"],  // Prasse suggests it may come from a Hausa expression.
+    gha: ["anaẓar", "anazˤar"],
   },
 };

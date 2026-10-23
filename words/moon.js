@@ -1259,5 +1259,6 @@ WORDS.moon = {
     dzg: ["ôwuri", "òwùrí"],  // The same word also means 'month' and 'salary'.
     zag: ["urduy", "ʔʊɾdʊwɪ"],  // Not the month, which is urde.
     ttq: ["tallit", "talːit"],  // The same word means 'month'.
+    gha: ["ụ̄yer", "ˈojɐr"],  // The same word means "lunar month"; the full moon is taziri.
   },
 };

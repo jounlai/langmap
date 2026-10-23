@@ -1254,5 +1254,6 @@ WORDS.i = {
     dzg: ["tani", "tànɪ́"],  // Synonym toore.
     zag: ["ay", "ʔaj"],
     ttq: ["nak", "næk"],
+    gha: ["nešš", "nɐʃː"],  // Also neššən.
   },
 };

@@ -1168,5 +1168,6 @@ WORDS.honey = {
     sad: ["chiŋ", "tʃʰiŋ"],
     bts: ["manisan", "manisan"],
     ttq: ["turawat", "turawæt"],
+    gha: ["tamamt", "tamamt"],  // Both date syrup and bees' honey; the Ayt Mazɣen say tamimt.
   },
 };

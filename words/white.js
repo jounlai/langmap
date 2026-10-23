@@ -1216,5 +1216,6 @@ WORDS.white = {
     mxv: ["yaa", "jaː"],
     dzg: ["cuu", "cʊ̀ʊ́"],
     zag: ["terri", "tɛɾɾɪ"],
+    ttq: ["mallan", "mælːæn"],  // The participle of imlal 'to be white'.
   },
 };

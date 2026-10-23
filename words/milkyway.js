@@ -266,6 +266,7 @@ WORDS.milkyway = {
     gmh: "road",
     tpn: "road",
     ko_jeju: "river",
+    ttq: "unknown",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -475,5 +476,6 @@ WORDS.milkyway = {
     gmh: ["herstrâze", "ˈhɛrstraːsə"],  // Konrad von Megenberg's Book of Nature (c. 1350) says lay people call the white band in the sky the 'army road'.
     tpn: ["tapiʼirapé", "tapiʔiɾaˈpɛ"],  // Tapiʼirapé 'the tapir's path' is recorded once, in the colonial Vocabulário na Língua Brasílica, glossing 'the Way of Saint James in the sky, via lactea'.
     ko_jeju: ["미리내", "miɾinɛ"],  // Likely 미르 'dragon' + 내 'stream': the 'dragon's stream'. The native word survives in Jeju; mainland Korean uses Sino-Korean 은하수.
+    ttq: ["Madǝl", "madəl"],  // Ayr Tuareg calls it Malle; Prasse gives no literal meaning for either.
   },
 };

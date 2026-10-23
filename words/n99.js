@@ -790,7 +790,8 @@ WORDS.n99 = {
     af: "unit",
     eo: "mult", sl: "unit", sk: "mult", hr: "mult", sr: "mult", bs: "mult", mk: "mult", lv: "mult",
     be: "dec", ca: "dec", gl: "dec", oc: "dec",
-    hi: "opaque", bn: "opaque", ur: "opaque"
+    hi: "opaque", bn: "opaque", ur: "opaque",
+    ttq: "mult",
   },
   routes: {
     dec: {
@@ -1594,6 +1595,7 @@ WORDS.n99 = {
     en_yk: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
     en_ck: ["ninety-nine", "ˈnɑɪnti ˈnɑɪn"], // was ["ninety-nine", "ˈnaɪnti ˈnaɪn"] (vi dialect rules 2026-10-06)
     vi_nom: ["𠃩𨒒𠃩", "tɕin˧˥ mɨəj˧ tɕin˧˥"],
-    tsz: ["tʼámu ekuatse témpeni iúmu tʼámu", "ˈtʰamu ekʷatse ˈtempeni ˈjumu ˈtʰamu"]
+    tsz: ["tʼámu ekuatse témpeni iúmu tʼámu", "ˈtʰamu ekʷatse ˈtempeni ˈjumu ˈtʰamu"],
+    ttq: ["tazayat tǝmǝrwen ǝd tazayat", "tæzˤajæt təmərwen əd tæzˤajæt"],  // 'Nine tens and nine', feminine to agree with tilay 'sheep'; the masculine nine is tăẓa.
   }
 };

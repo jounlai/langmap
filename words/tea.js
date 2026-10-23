@@ -782,6 +782,7 @@ WORDS.tea = {
     my: "leaf",
     pl: "other",
     dzg: "cha",
+    ttq: "cha",
   },
   // Route marker shown on each tea label (this concept only): which trade
   // route the word travelled. Localized; falls back to en.
@@ -1524,5 +1525,6 @@ WORDS.tea = {
     en_ck: ["tea", "tiː"],
     vi_nom: ["茶", "tɕaː˨˩"],
     dzg: ["šai", "ʃáɪ̀"],  // An Arabic loan (marked ar.), Arabic šāy.
+    ttq: ["ǝššahi", "əʃːahi"],  // From Arabic, from Chinese (Prasse).
   },
 };

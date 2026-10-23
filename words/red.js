@@ -1260,5 +1260,6 @@ WORDS.red = {
     nan_ph: ["紅", "aŋ˨˦"],
     dzg: ["maru", "màrʊ́"],  // Also covers orange and pink.
     zag: ["maraî", "maɾai"],  // Covers red, purple and violet.
+    ttq: ["zaggaɣan", "zæɡːaɣæn"],  // The participle of izwaɣ 'to be red'.
   },
 };

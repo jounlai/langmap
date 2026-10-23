@@ -1239,5 +1239,6 @@ WORDS.mouth = {
     kpe: ["lá", "lá"],
     dzg: ["cî", "cí"],  // Also 'beak, opening, lid'.
     zag: ["a", "ʔa"],  // Also 'language': Beria is beri a, 'the Beri mouth'.
+    ttq: ["imi", "imi"],  // Elsewhere emi; Niger dialects have generalised imi (Prasse).
   }
 };

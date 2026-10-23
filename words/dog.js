@@ -1265,5 +1265,6 @@ WORDS.dog = {
     nan_ph: ["狗", "kau˥˥˦"],
     dzg: ["kîri", "kírí"],
     zag: ["bîrî", "biɾi"],
+    ttq: ["idi", "idi"],  // The plural iḍan is emphatic, the singular is not.
   },
 };

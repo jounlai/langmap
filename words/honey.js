@@ -1166,6 +1166,7 @@ WORDS.honey = {
     lij_t: ["amé", "aˈme"],
     cia: ["golano vani", "ɡolano βani"],
     sad: ["chiŋ", "tʃʰiŋ"],
-    bts: ["manisan", "manisan"]
+    bts: ["manisan", "manisan"],
+    ttq: ["turawat", "turawæt"],
   },
 };

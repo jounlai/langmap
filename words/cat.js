@@ -1252,5 +1252,6 @@ WORDS.cat = {
     aiw: ["—", "—"],
     dzg: ["bôtu", "bòtú"],  // Marked as an Arabic loan (ar.) in the dictionary.
     zag: ["matu", "matʊ"],
+    ttq: ["măss", "mˤæsː"],  // Feminine; Ayr Tuareg says muš.
   }
 };

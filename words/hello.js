@@ -1246,5 +1246,6 @@ WORDS.hello = {
     byn: ["—", "—"],
     dzg: ["—", "—"],
     zag: ["—", "—"],
+    ttq: ["ma tǝxlaka", "ma təxlækæ"],  // Literally 'how have you come into being?' (Prasse); the New Testament uses it for 'Hail!'.
   }
 };

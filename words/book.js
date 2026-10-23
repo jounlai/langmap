@@ -1111,6 +1111,7 @@ WORDS.book = {
     gsw_w: ["Büech", "byə̯x"],
     vls: ["boek", "buk"],
     yur: ["ʼahtemar", "ʔahtemaɹ"],
-    ruq: ["carti", "ˈkarti"]
+    ruq: ["carti", "ˈkarti"],
+    ttq: ["ǝlkǝttab", "əlkətːab"],  // From Arabic.
   }
 };

@@ -1257,5 +1257,6 @@ WORDS.night = {
     nan_ph: ["暗暝", "am˦˩ mĩ˨˦"],
     dzg: ["dugusu", "dʊ̀ɡʊ̀sʊ́"],
     zag: ["gini", "ɡɪnɪ"],  // Also the first part of ginimay 'dream'.
+    ttq: ["ehad", "ehædˤ"],  // The New Testament spelling leaves the emphatic ḍ unmarked.
   },
 };

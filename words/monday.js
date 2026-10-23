@@ -490,6 +490,7 @@ WORDS.monday = {
     abq: "unknown",
     dzg: "count",
     zag: "unknown",
+    ttq: "count",
   },
   routes: {
     moon: {"color":"#7c3aed","emoji":"🌙","en":"the moon's day","ja":"月の日","ko":"달의 날","zh":"月亮之日","yue":"月亮嘅日","vi":"ngày mặt trăng","th":"วันของดวงจันทร์","id":"hari bulan","hi":"चंद्रमा का दिन","de":"Tag des Mondes","fr":"jour de la lune","it":"giorno della luna","es":"día de la luna","pt":"dia da lua","ru":"день луны","uk":"день місяця","ar":"يوم القمر","he":"יום הירח","sw":"siku ya mwezi"},
@@ -922,5 +923,6 @@ WORDS.monday = {
     abq: ["швахьа", "ʃʷaχʲa"],  // Швахьа, the Abaza name for Monday (Russian Wiktionary); its literal meaning was not found.
     dzg: ["lidinin", "lɪ̀dɪ̀nɪ́n"],  // An Arabic loan (marked ar.), Arabic (yawm) al-ithnayn 'day two'.
     zag: ["Itinen", "ɪtɪnɛn"],  // Resembles Arabic al-ithnayn, but the dictionary does not mark it as a loan.
+    ttq: ["ălitnin", "ælitnin"],  // From Arabic al-iṯnayn, 'the second (day)'; Prasse adds it is a good day to start a risky journey.
   },
 };

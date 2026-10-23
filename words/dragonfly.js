@@ -148,6 +148,7 @@ WORDS.dragonfly = {
     jiu: "unknown",
     nuf: "unknown",
     zag: "other",
+    ttq: "other",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -241,5 +242,6 @@ WORDS.dragonfly = {
     jiu: ["te55kœ33lɑ33kɐ33", "te˥˥kœ˧˧lɑ˧˧kɐ˧˧"],  // Etymology not given by the source.
     nuf: ["ɹi35liɯ31liɯ31ɑ31", "ɹi˧˥liɯ˧˩liɯ˧˩ɑ˧˩"],  // Etymology not given by the source.
     zag: ["saw taher", "saw tahɛɾ"],  // Literally 'the fly's airplane' (saw 'housefly').
+    ttq: ["tatololăyăt", "tatololˤæjæt"],  // Literally 'the one that zigzags, flying this way and that' (Prasse).
   },
 };

@@ -1216,5 +1216,6 @@ WORDS.ear = {
     sip: ["རྣམ་མཆོག", "namtɕoʔ"],
     dzg: ["šîĩ", "ʃḭ́ḭ́"],
     zag: ["kebe", "kɛbɛ"],
+    ttq: ["tǝmǝzzuk", "təməzˤːuk"],
   },
 };

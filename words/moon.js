@@ -1258,5 +1258,6 @@ WORDS.moon = {
     nan_ph: ["月娘", "ɡeʔ˨˦ niũ˨˦"],
     dzg: ["ôwuri", "òwùrí"],  // The same word also means 'month' and 'salary'.
     zag: ["urduy", "ʔʊɾdʊwɪ"],  // Not the month, which is urde.
+    ttq: ["tallit", "talːit"],  // The same word means 'month'.
   },
 };

@@ -1194,5 +1194,6 @@ WORDS.hundred = {
     kpy: ["ыстон", "əston"],
     dzg: ["kîdiri", "kídírí"],
     zag: ["mî", "mi"],  // Same as mî 'calf'.
+    ttq: ["temeday", "temedˤæj"],
   },
 };

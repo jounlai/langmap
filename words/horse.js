@@ -1141,5 +1141,6 @@ WORDS.horse = {
     kos: ["ohsr", "ɔʂ"],
     dzg: ["aski", "áskɪ́"],
     zag: ["hirde", "hɪɾdɛ"],
+    ttq: ["ays", "æjs"],  // The plural əggəsan is a different stem.
   }
 };

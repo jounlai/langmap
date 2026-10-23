@@ -1268,5 +1268,6 @@ WORDS.fish = {
     mlq: ["yego", "jeɡo"],
     dzg: ["bosu", "bɔ̀sʊ́"],
     zag: ["hût", "hut"],  // Marked as Arabic in the dictionary (Arabic ḥūt).
+    ttq: ["kifi", "kifi"],  // A Hausa loan (Prasse).
   }
 };

@@ -1302,5 +1302,6 @@ WORDS.black = {
     ik: ["maŋaqtaaq", "maŋaqtaːq"],
     dzg: ["yesku", "jɛ́skʊ̀"],  // Also 'dark'.
     zag: ["mîye", "mije"],
+    ttq: ["kawalan", "kæwælæn"],  // The participle of ikwal 'to be black'.
   },
 };

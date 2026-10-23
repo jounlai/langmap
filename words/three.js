@@ -1260,5 +1260,6 @@ WORDS.three = {
     nan_ph: ["三", "sã˧˧"],
     dzg: ["aguzuu", "àɡʊ̀zʊ́ʊ́"],
     zag: ["we", "we"],  // Same as we 'head lice'.
+    ttq: ["karad", "kæradˤ"],
   },
 };

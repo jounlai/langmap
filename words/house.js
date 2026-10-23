@@ -1253,5 +1253,6 @@ WORDS.house = {
     aiw: ["—", "—"],
     dzg: ["yege", "jɛ́ɡɛ̀"],  // 'House, tent'; also 'household, home'.
     zag: ["bîye", "bije"],  // Also 'wrapping'.
+    ttq: ["ehan", "ehæn"],  // First 'tent', the traditional home.
   }
 };

@@ -1167,5 +1167,6 @@ WORDS.milk = {
     roo: ["rovi", "ɾoβi"],
     dzg: ["yiĩ", "jɪ̰́ɪ̰́"],
     zag: ["oh", "ʔo"],
+    ttq: ["ax", "ax"],
   },
 };

@@ -1193,5 +1193,6 @@ WORDS.new = {
     one: ["a:sé", "aːsé"],
     ko_jeju: ["세", "se"],
     dzg: ["êski", "èskí"],
+    ttq: ["aynayan", "æjnajæn"],  // The participle of inay 'to be new'.
   }
 };

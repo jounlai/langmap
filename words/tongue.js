@@ -1265,5 +1265,6 @@ WORDS.tongue = {
     nan_ph: ["舌仔", "tsiʔ˨˦ a˥˥˦"],
     dzg: ["tileši", "tɪ̀lɛ̀ʃɪ̌"],  // Also 'language'.
     zag: ["tamsi", "tamsɪ"],
+    ttq: ["ilǝs", "iləs"],
   },
 };

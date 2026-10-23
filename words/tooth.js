@@ -1283,5 +1283,6 @@ WORDS.tooth = {
     nan_ph: ["喙齒", "tsʰui˦˩ kʰi˥˥˦"],
     dzg: ["tiĩ", "tɪ̰́ɪ̰́"],
     zag: ["margî", "maɾɡi"],  // Glossed 'incisor teeth'; canines are girde and molars tini.
+    ttq: ["ešen", "eʃen"],  // Other Tuareg varieties say esen.
   },
 };

@@ -1257,5 +1257,6 @@ WORDS.sun = {
     nan_ph: ["日頭", "lit˨˦ tʰau˨˦"],
     dzg: ["ize", "ɪ̀zɛ́"],  // The same word also means 'day, daytime'.
     zag: ["ido", "ʔɪdɔ"],  // Also 'sunrise'.
+    ttq: ["tǝfuk", "təfˤuk"],  // Prasse marks the word emphatic throughout although no old emphatic consonant is in it.
   },
 };

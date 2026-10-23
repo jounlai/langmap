@@ -1260,5 +1260,6 @@ WORDS.tree = {
     nan_ph: ["樹", "tsʰiu˦˩"],
     dzg: ["eke", "ɛ̀kɛ́"],  // Also 'wood' and 'plant'.
     zag: ["begidi", "bɛɡɪdɪ"],
+    ttq: ["ašǝk", "aʃək"],  // Also 'wood'.
   },
 };

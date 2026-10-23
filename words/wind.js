@@ -1193,5 +1193,6 @@ WORDS.wind = {
     glk: ["باد", "bɒːd"],
     dzg: ["owon", "ɔ̀wɔ́n"],  // The same word also means 'demon, evil spirit'.
     zag: ["efî", "ʔefi"],  // Not efi 'tears', which differs in the vowels.
+    ttq: ["aḍu", "adˤu"],
   },
 };

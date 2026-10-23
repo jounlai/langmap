@@ -1253,5 +1253,6 @@ WORDS.two = {
     nan_ph: ["二", "li˦˩"],
     dzg: ["cûu", "cúú"],
     zag: ["suwi", "sʊwɪ"],
+    ttq: ["ǝššin", "əʃːin"],  // Feminine sănatăt.
   },
 };

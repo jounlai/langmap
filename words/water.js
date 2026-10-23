@@ -1259,5 +1259,6 @@ WORDS.water = {
     nan_ph: ["水", "tsui˥˥˦"],
     dzg: ["îyi", "ìjí"],  // Senses 'water' and 'liquid'.
     zag: ["bi", "bi"],
+    ttq: ["aman", "aman"],  // A plural noun, as across Berber.
   },
 };

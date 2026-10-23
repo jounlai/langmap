@@ -1263,5 +1263,6 @@ WORDS.blood = {
     nan_ph: ["血", "huiʔ˥"],
     dzg: ["gire", "ɡɪ́rɛ́"],  // Also 'blood money'.
     zag: ["ogû", "oɡu"],
+    ttq: ["azni", "azni"],
   },
 };

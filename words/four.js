@@ -1243,5 +1243,6 @@ WORDS.four = {
     wmt: ["kurriny kurriny", "kuriɲ kuriɲ"],
     vls: ["vier", "viːr"],
     zag: ["isti", "ʔɪstɪ"],
+    ttq: ["ǝkkoz", "əkːozˤ"],
   },
 };

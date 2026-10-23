@@ -928,5 +928,6 @@ WORDS.butterfly = {
     kos: ["sacliki", "sɛliki"],
     dzg: ["kuli-mallimi", "kʊ̀lɪ̀málɪ́mɪ́"],  // Covers butterflies and moths; synonym popur.
     zag: ["ofûfût", "ʔofufut"],  // One word for moth and butterfly.
+    ttq: ["ǝlkǝttab-n-eklan", "əlkətːab n eklan"],  // Made of əlkəttab 'book' and eklan 'slaves' (both in Prasse).
   },
 };

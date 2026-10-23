@@ -1253,5 +1253,6 @@ WORDS.name = {
     nan_ph: ["名", "miã˨˦"],
     dzg: ["suru", "sʊ́rʊ́"],  // A homophone of suru 'bone'.
     zag: ["tir", "tɪɾ"],
+    ttq: ["esǝm", "esəm"],
   },
 };

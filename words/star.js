@@ -1246,5 +1246,6 @@ WORDS.star = {
     nan_ph: ["星", "tsʰĩ˧˧"],
     dzg: ["têski", "tèskí"],
     zag: ["mar", "maɾ"],
+    ttq: ["atri", "atˤri"],
   },
 };

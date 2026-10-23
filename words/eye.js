@@ -1258,5 +1258,6 @@ WORDS.eye = {
     nan_ph: ["目睭", "bak˨˦ tsiu˧˧"],
     dzg: ["saa", "sá̰á̰"],  // Also 'sight'.
     zag: ["î", "ʔi"],  // Also 'eyelid'.
+    ttq: ["šat", "ʃætˤː"],  // Tawəlləmmət turns ti- into š- (Ayr tyəṭṭ); the New Testament writes the final geminate as a single t.
   },
 };

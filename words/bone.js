@@ -1253,5 +1253,6 @@ WORDS.bone = {
     nan_ph: ["骨頭", "kut˥ tʰau˨˦"],
     dzg: ["suru", "sʊ́rʊ́"],  // A homophone of suru 'name'.
     zag: ["uru", "ʔʊɾʊ"],
+    ttq: ["eɣas", "eɣæs"],
   },
 };

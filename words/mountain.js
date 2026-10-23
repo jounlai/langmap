@@ -1161,5 +1161,6 @@ WORDS.mountain = {
     kpe: ["yée", "jée"],
     abe: ["wajo", "wadʒo"],
     dzg: ["hadai", "hàdàɪ́"],  // Also 'rock'.
+    ttq: ["adɣaɣ", "adɣaɣ"],  // Not adrar, which is the Ahaggar word (Prasse).
   }
 };

@@ -1253,5 +1253,6 @@ WORDS.you = {
     nan_ph: ["汝", "li˥˥˦"],
     dzg: ["inta", "ɪ́ntà"],  // Synonym noore.
     zag: ["na", "na"],  // Plural nuw.
+    ttq: ["kay", "kæj"],  // Masculine; a woman is addressed as kăm.
   },
 };

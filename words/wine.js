@@ -965,6 +965,7 @@ WORDS.wine = {
     vls: "ie",
     aln: "ie",
     dzg: "other",
+    ttq: "other",
   },
   routes: {
     ie: { color: "#7c2d12", emoji: "🏺", en: "Indo-European *wóyh₁nom", ja: "印欧祖語 *wóyh₁nom", ko: "인도유럽조어 *wóyh₁nom", zh: "原始印欧语 *wóyh₁nom", yue: "原始印歐語 *wóyh₁nom", vi: "Ấn-Âu nguyên thủy *wóyh₁nom", th: "อินโด-ยูโรเปียนดั้งเดิม *wóyh₁nom", id: "Proto-Indo-Eropa *wóyh₁nom", hi: "आद्य-भारोपीय *wóyh₁nom", de: "Urindogermanisch *wóyh₁nom", fr: "indo-européen commun *wóyh₁nom", it: "protoindoeuropeo *wóyh₁nom", es: "protoindoeuropeo *wóyh₁nom", pt: "protoindo-europeu *wóyh₁nom", ru: "праиндоевроп. *wóyh₁nom", uk: "праіндоєвроп. *wóyh₁nom", ar: "الهندية الأوروبية الأم *wóyh₁nom", he: "הודו-אירופית קדומה *wóyh₁nom", sw: "Kihindi-Ulaya cha kale *wóyh₁nom" },
@@ -1959,5 +1960,6 @@ WORDS.wine = {
     vls: ["wyn", "win"],
     aln: ["venë", "vɛːn"],
     dzg: ["êgiši anab-u", "èɡìʃí ánàbʊ̀"],  // Literally 'alcohol of grapes': êgiši 'alcohol' + anab 'grape' (an Arabic loan).
+    ttq: ["esmad", "esmæd"],  // Any alcoholic drink; the New Testament specifies 'esmad of grapes'.
   },
 };

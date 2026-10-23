@@ -828,6 +828,7 @@ WORDS.silk = {
     brx: ["रेसम", "resom"],
     roo: ["gausisi varo", "ɡausisi βaɾo"],
     bin: ["esiliki", "esiliki"],
-    ibb: ["sịrek", "sɪrek"]
+    ibb: ["sịrek", "sɪrek"],
+    ttq: ["ǝlxǝrir", "əlxərir"],  // From Arabic ḥarīr (Prasse).
   }
 };

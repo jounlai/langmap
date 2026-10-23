@@ -905,5 +905,6 @@ WORDS.rice = {
     tsj: ["khu", "kʰu"],
     roo: ["rais", "ɾais"],
     dzg: ["rûsu", "rúsù"],  // Synonym ciŋafu (marked as Hausa).
+    ttq: ["tafăɣăt", "tafæɣæt"],
   }
 };

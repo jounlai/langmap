@@ -491,6 +491,7 @@ WORDS.bat = {
     tue: "unknown",
     dzg: "unknown",
     zag: "unknown",
+    ttq: "unknown",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -927,5 +928,6 @@ WORDS.bat = {
     tue: ["oso", "oˈso"],  // The Tuyuca word for the bat. [Both Huber's osó and IDS's o'so put the accent on the second syllable]
     dzg: ["batata", "bàtàtá"],  // Marked ar. (Arabic loan); synonyms lebelebeti, mîri, wûruwuruma.
     zag: ["farfara", "faɾfaɾa"],
+    ttq: ["afărtătta", "afærtætːa"],  // Also called ăḍaggal ən-təfuk, 'in-law of the sun' (Prasse: ăḍaggal 'father-in-law, son-in-law').
   },
 };

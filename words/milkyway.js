@@ -265,6 +265,7 @@ WORDS.milkyway = {
     fa_clas: "straw",
     gmh: "road",
     tpn: "road",
+    ko_jeju: "river",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -473,5 +474,6 @@ WORDS.milkyway = {
     fa_clas: ["کهکشان", "kahkaʃaːn"],  // Kahkashān 'straw-dragger' pictures the band as a road strewn with straw that was dragged across the sky.
     gmh: ["herstrâze", "ˈhɛrstraːsə"],  // Konrad von Megenberg's Book of Nature (c. 1350) says lay people call the white band in the sky the 'army road'.
     tpn: ["tapiʼirapé", "tapiʔiɾaˈpɛ"],  // Tapiʼirapé 'the tapir's path' is recorded once, in the colonial Vocabulário na Língua Brasílica, glossing 'the Way of Saint James in the sky, via lactea'.
+    ko_jeju: ["미리내", "miɾinɛ"],  // Likely 미르 'dragon' + 내 'stream': the 'dragon's stream'. The native word survives in Jeju; mainland Korean uses Sino-Korean 은하수.
   },
 };

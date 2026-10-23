@@ -128,7 +128,7 @@ const DECISIONS = [
     },
     {
         id: 'hanmap-no-far-fling',
-        what: 'At z>=6 a Han Map label that does not fit near its point hides instead of moving far (owner 2026-09-06, 675a7344). Below z=6 the second try reaches at most 80 px (owner 2026-10-19: 海陸客家語 far away at z5.5). Co-located stacks too: at z>=6 a member further than _maxR + its half-height from its dot leaves the stack (r32)',
+        what: 'At z>=6 a Han Map label that does not fit near its point hides instead of moving far (owner 2026-09-06, 675a7344). Below z=6 the second try reaches at most 80 px (owner 2026-10-19: 海陸客家語 far away at z5.5). Co-located stacks too: at z>=6 a member further than _maxR + its half-height from its dot leaves the stack (r32). Exception (owner 2026-10-23, 西 with a 日韓 filter at z6.5): with a filter on, the second try runs at every zoom, up to two label widths; and _maxR grows with the text size above fs=140',
         check: () => {
             const h = read('hanmap.html'), bad = [];
             if (!/const _rescueR = zoom < 6 \?/.test(h)) bad.push('hanmap.html solo rescue');

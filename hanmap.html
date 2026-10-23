@@ -8873,7 +8873,14 @@
                 // nudge apart). No MAX_PUSH floor: at low zoom even one label-
                 // height of push is ~100 km, so the floor would re-introduce the
                 // sea-drift. Colliding losers that don't fit within ~0.6° hide.
-                const _maxR = Math.max(8, _pxPerDeg * _MAX_GEO_DEG);
+                // Owner 2026-10-23 (西 at z6.5, fs=230, 日韓 filter): with the
+                // text enlarged the labels grow but the 0.6° radius did not, so
+                // Japanese kun and Korean hun — pinned ~1° from 日本語/韓国語 —
+                // hid "with nothing around them". The radius now grows with the
+                // text the way the second try already does (r32 a3#1); at the
+                // default size (fs=140) it is unchanged, so "near" still means
+                // the same on screen relative to the label.
+                const _maxR = Math.max(8, _pxPerDeg * _MAX_GEO_DEG * Math.max(1, labelScale / 1.4));
                 // Single priority pass over PLACEMENT UNITS. A unit is either a
                 // cluster of TRULY co-located labels (anchors within a few world
                 // px — coincident variants like 客家語/梅縣客家語 or 江淮官話/南京話,
@@ -8972,7 +8979,14 @@
                 // push cap); a label that still does not fit hides. Middle Korean
                 // still shows at z=4 (measured at 1440, 36,125,4).
                 const RESCUE_PX = 80;
-                const _rescueR = zoom < 6 ? Math.max(_maxR, Math.min(RESCUE_PX * _rescueK, _pxPerDeg * 10 * _rescueK)) : _maxR;
+                // Owner 2026-10-23: with a filter on, the reader has picked these
+                // rows, and at z>=6 a kun/hun row hid next to a three-reading
+                // 日本語 label (~270 px tall at fs=230) with open land around it.
+                // A filtered view gets the second try at every zoom, reaching
+                // two label widths; the unfiltered z>=6 rule (hide, do not
+                // fling) is unchanged.
+                const _rescueR = zoom < 6 ? Math.max(_maxR, Math.min(RESCUE_PX * _rescueK, _pxPerDeg * 10 * _rescueK))
+                    : (filterActive ? Math.max(_maxR, 2 * RESCUE_PX * _rescueK) : _maxR);
                 // r37 a3#3: at z<4 px-per-degree cuts the second try to ~57 px
                 // (z3), and Taiwanese and Shanghai Wu hid in every z3 view. A
                 // core row gets the full RESCUE_PX there (still the 80 px cap).

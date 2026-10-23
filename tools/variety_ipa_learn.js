@@ -69,7 +69,8 @@ const ROOT = path.join(__dirname, '..');
 const ROUTE = new Set(['bear', 'wine', 'we', 'foot', 'tea', 'orange',
     'sugar', 'coffee', 'blue', 'n99',
     'turkey', 'potato', 'mobilephone', 'ladybird', 'milkyway', 'rainbow', 'thumb', 'yesterday', 'olderbrother',
-    'grandmother', 'tomorrow', 'bat', 'littlefinger', 'thunder', 'monday', 'wisdomtooth', 'cheers', 'blessyou', 'whale']);
+    'grandmother', 'tomorrow', 'bat', 'littlefinger', 'thunder', 'monday', 'wisdomtooth', 'cheers', 'blessyou', 'whale',
+    'goosebumps', 'shootingstar', 'sunflower', 'dragonfly', 'octopus', 'jellyfish', 'tomato', 'pineapple', 'hiccup', 'adamsapple']);
 
 /** parent token -> child token, where the row is unanimous. */
 function learnPair(child, parent) {

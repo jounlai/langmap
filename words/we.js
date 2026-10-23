@@ -1946,7 +1946,7 @@ WORDS.we = {
     rue: ["мы", "mɨ"], // was ["мы", "mɪ"] (r51 audit 2026-10-04)
     fur: ["nô", "noː"],
     ast: ["nosotros", "noˈsotɾos"], // was ["nosotros", "nosoˈtɾos"] (r51 audit 2026-10-04)
-    ext: ["nusotrus", "nusoˈtɾus"],
+    ext: ["nusotrus", "nuˈsotɾus"],
     fax: ["nós", "nɔʃ"],
     an: ["nusatros", "nuˈsatɾos"],
     rup: ["noi", "noj"],

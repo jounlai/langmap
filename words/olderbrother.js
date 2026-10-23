@@ -622,7 +622,7 @@ WORDS.olderbrother = {
     ta: ["அண்ணன்", "aɳːan"],  // Tamil splits brothers by age: அண்ணன் older, தம்பி younger; அண்ணா is a common variant.
     sa: ["अग्रजः", "ɐɡɾɐdʑɐh"],  // Literally 'born first'; Sanskrit can also say jyāyān bhrātā, 'the older brother', against avaraja 'born after' for a younger one.
     prs: ["لالا", "lɑːlɑː"],  // Colloquial Dari لالا is an older brother, compare Pashto and Punjabi lālā; the formal word for any brother is برادر.
-    tr: ["ağabey", "aːbej"],  // Turkish ağabey, usually said abi, is an older brother; younger: (erkek) kardeş.
+    tr: ["ağabey", "aːˈbej"],  // Turkish ağabey, usually said abi, is an older brother; younger: (erkek) kardeş.
     mn: ["ах", "ax"],  // Mongolian splits by age: ах older brother, дүү younger sibling, and ах дүү for brothers together.
     ar: ["أخ", "ʔax"],  // Arabic has no separate older-brother word: an older brother is أخ أكبر, 'bigger brother'.
     ar_qur: ["أخ", "ʔax"],  // In the Joseph sura the eldest brother is only kabīruhum, 'the eldest of them'; the kin word itself is plain akh.

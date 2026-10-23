@@ -50,7 +50,7 @@ const WORD_CATEGORIES = [
         label: {
             en: "Animals & plants", ja: "動物と植物", ko: "동물과 식물", zh: "动物与植物", yue: "動物同植物", vi: "Động vật và thực vật", th: "สัตว์และพืช", id: "Hewan & tumbuhan", hi: "जानवर और पौधे", de: "Tiere & Pflanzen", fr: "Animaux et plantes", it: "Animali e piante", es: "Animales y plantas", pt: "Animais e plantas", ru: "Животные и растения", uk: "Тварини і рослини", ar: "الحيوانات والنباتات", he: "בעלי חיים וצמחים", sw: "Wanyama na mimea"
         },
-        words: ["tree", "dog", "cat", "fish", "bird", "bat", "butterfly", "egg", "bear", "horse"],
+        words: ["tree", "dog", "cat", "fish", "bird", "bat", "butterfly", "dragonfly", "egg", "bear", "horse"],
     },
     {
         key: "home",

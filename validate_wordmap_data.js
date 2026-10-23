@@ -224,7 +224,7 @@ const I = m => infos.push(m);
 // Pinned deliberately: adding a concept means touching word_manifest.js,
 // words/<id>.js, word_labels.js and lang_words/, and this is the check that
 // fails if the manifest was edited without the rest following.
-const EXPECTED_WORDS = 107;   // 107 since 2026-10-22: + grandmother, monday, tomorrow, bat, littlefinger, thunder, whale, wisdomtooth, cheers, blessyou (second set of ten new words)
+const EXPECTED_WORDS = 108;   // 108 since 2026-10-23: + dragonfly (third set). Was: 107 since 2026-10-22: + grandmother, monday, tomorrow, bat, littlefinger, thunder, whale, wisdomtooth, cheers, blessyou (second set of ten new words)
 if (!Array.isArray(ctx.WORD_LIST) || ctx.WORD_LIST.length !== EXPECTED_WORDS) {
     E(`WORD_LIST length ${ctx.WORD_LIST?.length} (expected ${EXPECTED_WORDS})`);
 }
@@ -244,7 +244,8 @@ const PARTIAL_WORD_IDS = new Set(WORD_IDS.filter(id => ctx.WORDS && ctx.WORDS[id
 const FILLING_IN = new Set(['foot', 'butterfly', 'poop', 'ear', 'rain', 'wind', 'earth', 'snow', 'stone', 'nose', 'bird', 'egg', 'sleep', 'white', 'five', 'black', 'four', 'daughter', 'iron', 'wheel', 'salt', 'milk', 'wine', 'hundred', 'honey', 'bear',
     'head', 'new', 'mouth', 'person', 'mountain', 'sea', 'green', 'rice', 'silk', 'horse', 'chocolate', 'book',   // +mouth & 8 new concepts 2026-09-15 (WIP core words, seed only)
     'milkyway', 'rainbow', 'thumb', 'yesterday', 'olderbrother',
-    'grandmother', 'tomorrow', 'bat', 'littlefinger', 'thunder']);   // +5 core words 2026-10-22 (sourced seed, filling in)
+    'grandmother', 'tomorrow', 'bat', 'littlefinger', 'thunder',   // +5 core words 2026-10-22 (sourced seed, filling in)
+    'dragonfly']);   // third set, 2026-10-23
 // +foot 2026-09-20. It came off `partial: true` the same day, having gone 265
 // -> 1,132 cells (95.3%, against hand's 97.8%). FILLING_IN rather than an
 // em-dash cell for each of the 56 that remain, because those 56 are not one

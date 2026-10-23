@@ -71,7 +71,7 @@ const WORD_CATEGORIES = [
         label: {
             en: "Actions", ja: "動作", ko: "동작", zh: "动作", yue: "動作", vi: "Hành động", th: "การกระทำ", id: "Tindakan", hi: "क्रियाएँ", de: "Handlungen", fr: "Actions", it: "Azioni", es: "Acciones", pt: "Ações", ru: "Действия", uk: "Дії", ar: "الأفعال", he: "פעולות", sw: "Vitendo"
         },
-        words: ["eat", "drink", "sleep"],
+        words: ["eat", "drink", "sleep", "hiccup"],
     },
     {
         key: "numbers",

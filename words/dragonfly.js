@@ -147,6 +147,44 @@ WORDS.dragonfly = {
     clk: "unknown",
     jiu: "unknown",
     nuf: "unknown",
+    awa: "unknown",
+    sd: "unknown",
+    gu: "unknown",
+    ps: "other",
+    mg: "unknown",
+    kk: "unknown",
+    sv: "creature",
+    af: "other",
+    sr: "creature",
+    za: "unknown",
+    sw: "unknown",
+    ny: "unknown",
+    wo: "unknown",
+    gn: "unknown",
+    tg: "unknown",
+    sn: "unknown",
+    hr: "creature",
+    bs: "creature",
+    no: "other",
+    lt: "creature",
+    gl: "creature",
+    ky: "other",
+    tt: "unknown",
+    mn: "unknown",
+    lg: "unknown",
+    ace: "unknown",
+    srn: "other",
+    bjn: "unknown",
+    ban: "unknown",
+    ga: "other",
+    lv: "unknown",
+    mak: "unknown",
+    iba: "unknown",
+    ba: "other",
+    cv: "other",
+    pms: "unknown",
+    ksw: "unknown",
+    mrw: "unknown",
     zag: "other",
     ttq: "other",
   },
@@ -241,6 +279,44 @@ WORDS.dragonfly = {
     clk: ["e55tɑ31tɕuŋ55", "e˥˥tɑ˧˩tɕuŋ˥˥"],  // Etymology not given by the source.
     jiu: ["te55kœ33lɑ33kɐ33", "te˥˥kœ˧˧lɑ˧˧kɐ˧˧"],  // Etymology not given by the source.
     nuf: ["ɹi35liɯ31liɯ31ɑ31", "ɹi˧˥liɯ˧˩liɯ˧˩ɑ˧˩"],  // Etymology not given by the source.
+    awa: ["भँभीरी", "bʱə̃bʱiːriː"],  // McGregor marks the word as Braj and Awadhi; it also names a butterfly and a child's spinning top.
+    sd: ["ڀنڀوري", "bʱənbʱuːɾiː"],  // Mewaram (1910) records it with a variant ڀۇنڀۇريِ; it is related to Hindi-Urdu bhaṅbhīrī.
+    gu: ["વાણિયો", "ʋaːɳijo"],  // The same word means a member of the Bania merchant caste, or a merchant; no source says how the insect got the name.
+    ps: ["ستن", "stən"],  // The word for 'needle' (also 'pin', 'pillar'), used for the dragonfly's long thin body.
+    mg: ["angidina", "aŋˈɡidina"],  // The ordinary Malagasy name, used for the adult of the water nymph called ondrindrano.
+    kk: ["инелік", "ɪjneˈlɪk"],  // The Kazakh word for dragonflies and damselflies (Odonata); Kyrgyz has the similar ийнелик.
+    sv: ["trollslända", "ˈtrɔlslɛnda"],  // Troll 'troll' + slända, originally 'spindle, distaff': the 'troll's spindle'.
+    af: ["naaldekoker", "ˈnɑːldəkʊəkər"],  // Literally a 'needle case', the tube that sewing needles are kept in, after the insect's long cylindrical body.
+    sr: ["вилин коњиц", "ʋǐːlin kôɲiːts"],  // The 'fairy's little horse', from vila 'fairy' and konjic, a diminutive of konj 'horse'.
+    za: ["螃蚍", "piːŋ˧˩ pei˧"],  // Written biengzbeih in the Latin orthography; some dialects say duzfix instead.
+    sw: ["kereng'ende", "kereˈŋende"],  // Swahili Wikipedia notes the name first meant the red species and is now recommended for all dragonflies and damselflies.
+    ny: ["tombolombo", "tomboˈlombo"],  // Field interviews in Malawi found it used for dragonflies in general, 'everything that flies like an airplane'; Ngoni says tombolimbo.
+    wo: ["xund-xund", "xundxund"],  // A reduplicated name, like many Wolof names for small creatures.
+    gn: ["ñahatĩ", "ɲahatĩ"],  // Not to be confused with ñati'ũ 'mosquito', one of the insects it hunts.
+    tg: ["сӯзанак", "sɵzanak"],  // The Tajik word for the dragonfly.
+    sn: ["mukonikoni", "mukonikoni"],  // Shona Wikipedia describes it as a big-eyed, long-bodied insect found near water, said to be among the fastest flyers.
+    hr: ["vilinski konjic", "ʋilîːnski kôɲiːts"],  // Literally 'fairy's little horse' (vila 'fairy' + konjic, diminutive of konj 'horse'); the standard Hrvatski jezični portal gives it as the everyday name beside the zoological vretenca.
+    bs: ["vilin konjic", "ʋilin koɲiːts"],  // Literally 'fairy's little horse' (vila 'fairy' + konjic 'little horse').
+    no: ["øyenstikker", "ˈœʏənstɪkːər"],  // Literally 'eye-stinger' (øye 'eye' + stikker 'one that stabs').
+    lt: ["laumžirgis", "ˈlɒʊmʲʒʲɪrʲɡʲɪs"],  // Literally 'the laumė's horse': laumė is a fairy or witch of Lithuanian folklore and žirgas a steed; žirgelis 'little horse' is a common synonym.
+    gl: ["cabalo do demo", "kaβalo ðo ðemo"],  // Literally 'the devil's horse' (cabalo 'horse' + demo 'demon'); the Royal Galician Academy lists libélula as a synonym.
+    ky: ["ийнелик", "ijneˈlik"],  // Built on ийне 'needle' with the suffix -лик.
+    tt: ["энә карагы", "enæ qɑrɑʁɯ"],  // The Tatar word for the dragonfly; neighbouring Bashkir says энәғараҡ.
+    mn: ["соно", "sɔn"],  // Mongolian Odonata literature uses соно as the name of the order and its members.
+    lg: ["nnamunkanga", "nːamuŋkaŋɡa"],  // The same word names the helicopter: ennyonyi nnamunkanga, literally 'dragonfly bird'.
+    ace: ["dén-dén", "denden"],  // A reduplicated form.
+    srn: ["grasbarki", "ɡrasbarki"],  // A compound of grasi 'grass; glass' and barki 'beam, bar'.
+    bjn: ["sisiur", "sisiur"],  // Damselflies are sisiur jarum, 'needle dragonflies'.
+    ban: ["capung", "tʃapuŋ"],  // The same word as Indonesian capung; the larva is called blauk in Balinese.
+    ga: ["snáthaid mhór", "sˠn̪ˠaːhədʲ woːɾˠ"],  // Literally 'big needle'; the same phrase also means a coarse needle and the minute hand of a clock.
+    lv: ["spāre", "ˈspaːrɛ"],  // The general Latvian word for dragonflies and damselflies; Wiktionary leaves its etymology open.
+    mak: ["bereng-bereng", "ˌbereŋˈbereŋ"],  // A reduplicated word; in the Turatea dialect the word pedoʼ is used instead.
+    iba: ["chechawir", "tʃətʃawir"],  // The Iban name for the dragonfly, also the title of the Iban Wikipedia article on Anisoptera.
+    ba: ["энәғараҡ", "enæʁaˈraq"],  // Built from энә 'needle' and ҡараҡ 'thief': a 'needle-thief', like Chuvash йӗп вӑрри.
+    cv: ["йӗп вӑрри", "jɘp vərːi"],  // Literally 'needle thief', from йӗп 'needle' and вӑрӑ 'thief'.
+    pms: ["liòla", "liˈɔla"],  // The Piedmontese name for the dragonfly, also called gavaeuj.
+    ksw: ["ကွဲၢ်မိၢ်ဘီ", "kwɛ̀mòbè"],  // One of two S'gaw Karen words for the dragonfly, the other being ကွဲၢ်လဲၢ်ဘီ.
+    mrw: ["tapodiʼ", "tapodiʔ"],  // The Maranao word for the dragonfly, as recorded in McKaughan and Macaraya's Maranao dictionary.
     zag: ["saw taher", "saw tahɛɾ"],  // Literally 'the fly's airplane' (saw 'housefly').
     ttq: ["tatololăyăt", "tatololˤæjæt"],  // Literally 'the one that zigzags, flying this way and that' (Prasse).
   },

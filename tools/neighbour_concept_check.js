@@ -35,7 +35,7 @@
  *
  *   2. SAME SEMANTIC CATEGORY, as WORD_CATEGORIES in word_manifest.js draws
  *      them (sky / people / body / nature / home / made / actions / numbers /
- *      greetings / colour / experimental). A gloss slip in a harvest lands on
+ *      greetings / colour; the 🧪 group was dissolved into these 2026-10-25). A gloss slip in a harvest lands on
  *      a NEIGHBOURING gloss, because lexical questionnaires are ordered by
  *      semantic field; chance homophony lands anywhere. Measured: 11.1% of the
  *      2,000,968 concept pairs that co-occur in a row are same-category, but

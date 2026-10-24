@@ -2595,7 +2595,11 @@
         .dialect-legend-toggle:hover { background: #fff; border-color: #1a73e8; color: #1a73e8; }
         .dialect-legend-toggle svg { width: 14px; height: 14px; }
         .dialect-legend-panel {
-            margin-bottom: 6px; width: 176px; max-height: 52vh; overflow-y: auto;
+            /* Sized to its longest row, capped by the screen. A fixed 176px
+               wrapped the reading-tag rows (文読（文語的な読み）) onto two
+               lines once they were added (owner 2026-10-25). */
+            margin-bottom: 6px; width: max-content; min-width: 176px;
+            max-width: calc(100vw - 24px); max-height: 52vh; overflow-y: auto;
             background: #fff; border: 1px solid #e0e0e0; border-radius: 10px;
             box-shadow: 0 4px 16px rgba(0,0,0,0.16); padding: 8px 10px;
         }

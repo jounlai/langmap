@@ -1381,7 +1381,22 @@
                legend grown to eight rows — was painted over. */
             z-index: 1001;
         }
-        .tea-legend-title { font-weight: 700; margin-bottom: 3px; color: #333; }
+        /* The title is the open/close button (owner 2026-10-25, after the Han
+           Map's dialect legend). Collapsed, the legend shrinks to this line. */
+        .tea-legend-title {
+            display: flex; align-items: center; gap: 6px; width: 100%;
+            font: inherit; font-weight: 700; color: #333; text-align: start;
+            background: none; border: 0; padding: 0; margin: 0 0 3px;
+            cursor: pointer; pointer-events: auto;
+        }
+        .tea-legend.collapsed .tea-legend-title { margin-bottom: 0; }
+        .tea-legend-title:focus-visible { outline: 2px solid var(--accent, #2e6fb8); outline-offset: 2px; border-radius: 3px; }
+        .tea-legend .tl-chev {
+            margin-inline-start: auto; width: 7px; height: 7px; flex: none;
+            border-right: 2px solid currentColor; border-bottom: 2px solid currentColor;
+            transform: rotate(45deg) translate(-2px, -2px); opacity: .6;
+        }
+        .tea-legend.collapsed .tl-chev { transform: rotate(-135deg) translate(-2px, -2px); }
         .tea-legend-row { display: flex; align-items: center; gap: 7px; white-space: nowrap; }
         /* The legend itself stays click-through (pointer-events: none above) so
            it never blocks the map; only the rows take clicks. */
@@ -6425,9 +6440,20 @@
                      + `<span class="sw" style="background:${escapeHtml(r.color || '#888')}"></span>`
                      + `<span class="tl-text">${escapeHtml(text)}</span></div>`;
             }).join('');
-            el.innerHTML = `<div class="tea-legend-title">${escapeHtml(title)}</div>` + rows;
+            // The title is a toggle, as the Han Map's dialect legend is: an
+            // eight-row legend covers a lot of a phone map (owner 2026-10-25).
+            // Open by default — the colours mean nothing without it — and the
+            // reader's choice carries over to the next route word.
+            const open = routeLegendOpen();
+            el.innerHTML = `<button type="button" class="tea-legend-title" aria-expanded="${open}">`
+                         + `<span>${escapeHtml(title)}</span><span class="tl-chev" aria-hidden="true"></span></button>`
+                         + `<div class="tea-legend-rows"${open ? '' : ' hidden'}>${rows}</div>`;
+            el.classList.toggle('collapsed', !open);
             el.hidden = false; el.setAttribute('aria-hidden', 'false');
             wireRouteLegendClicks(el);
+        }
+        function routeLegendOpen() {
+            try { return localStorage.getItem('wm-route-legend') !== 'closed'; } catch (_) { return true; }
         }
 
         // Clicking a legend row blinks every marker in that route twice, so the
@@ -6438,6 +6464,16 @@
         function wireRouteLegendClicks(el) {
             if (el._routeWired) return;
             el._routeWired = true;
+            el.addEventListener('click', (ev) => {
+                const btn = ev.target.closest('.tea-legend-title');
+                if (!btn) return;
+                const open = btn.getAttribute('aria-expanded') !== 'true';
+                btn.setAttribute('aria-expanded', String(open));
+                const rows = el.querySelector('.tea-legend-rows');
+                if (rows) rows.hidden = !open;
+                el.classList.toggle('collapsed', !open);
+                try { localStorage.setItem('wm-route-legend', open ? 'open' : 'closed'); } catch (_) {}
+            });
             const fire = (ev) => {
                 const row = ev.target.closest('.tea-legend-row[data-route]');
                 if (!row) return;

@@ -262,6 +262,104 @@ WORDS.tomato = {
     vi_s: "other",
     prs: "foreign",
     hyw: "other",
+    ar: "nahuatl",
+    tr: "nahuatl",
+    mr: "unknown",
+    ps: "nahuatl",
+    nan: "nahuatl",
+    yo: "nahuatl",
+    arq: "nahuatl",
+    ln: "unknown",
+    or: "unknown",
+    am: "nahuatl",
+    ne: "unknown",
+    ku: "other",
+    mg: "unknown",
+    xh: "unknown",
+    kk: "unknown",
+    azb: "unknown",
+    tn: "unknown",
+    st: "unknown",
+    rw: "unknown",
+    sn: "nahuatl",
+    ilo: "unknown",
+    rn: "unknown",
+    ts: "unknown",
+    tg: "apple",
+    ti: "unknown",
+    hil: "nahuatl",
+    ak: "nahuatl",
+    qu: "nahuatl",
+    sq: "nahuatl",
+    mad: "unknown",
+    ki: "unknown",
+    mn: "other",
+    no: "nahuatl",
+    ky: "apple",
+    nds: "unknown",
+    be: "unknown",
+    tt: "unknown",
+    bho: "unknown",
+    mai: "unknown",
+    skr: "unknown",
+    min: "unknown",
+    gn: "unknown",
+    nso: "unknown",
+    bik: "nahuatl",
+    war: "nahuatl",
+    hmn: "foreign",
+    bjn: "unknown",
+    glk: "apple",
+    ce: "unknown",
+    ban: "unknown",
+    tcy: "unknown",
+    fon: "unknown",
+    lv: "nahuatl",
+    bs: "apple",
+    pms: "unknown",
+    egl: "unknown",
+    quc: "unknown",
+    cpx: "foreign",
+    aa: "nahuatl",
+    mak: "unknown",
+    bem: "unknown",
+    kok: "nahuatl",
+    czh: "foreign",
+    shy: "unknown",
+    pag: "unknown",
+    ba: "apple",
+    cv: "apple",
+    av: "apple",
+    nbl: "nahuatl",
+    iba: "nahuatl",
+    gor: "unknown",
+    kbp: "unknown",
+    sc: "unknown",
+    brx: "unknown",
+    kha: "other",
+    quz: "nahuatl",
+    ar_jo: "apple",
+    ar_ps: "apple",
+    ar_lev: "apple",
+    ar_eg: "other",
+    ar_gulf: "nahuatl",
+    ar_iq: "nahuatl",
+    ar_ma: "nahuatl",
+    es_pr: "nahuatl",
+    es_do: "nahuatl",
+    es_gt: "nahuatl",
+    es_ec: "nahuatl",
+    es_ve: "nahuatl",
+    es_uy: "nahuatl",
+    ko_yb: "other",
+    wuu_hz: "foreign",
+    ar_tn: "nahuatl",
+    nan_te: "foreign",
+    nan_ph: "nahuatl",
+    nan_qz: "nahuatl",
+    nan_xm: "other",
+    nan_zz: "other",
+    nan_hai: "other",
   },
   routes: {
     nahuatl: {"color":"#dc2626","emoji":"🌽","en":"from Nahuatl tomatl","ja":"ナワトル語 tomatl から","ko":"나우아틀어 tomatl에서","zh":"源自纳瓦特尔语 tomatl","yue":"源自納瓦特爾語 tomatl","vi":"từ tiếng Nahuatl tomatl","th":"จากภาษานาวัตล์ tomatl","id":"dari bahasa Nahuatl tomatl","hi":"नाहुआत्ल tomatl से","de":"aus Nahuatl tomatl","fr":"du nahuatl tomatl","it":"dal nahuatl tomatl","es":"del náhuatl tomatl","pt":"do náuatle tomatl","ru":"из науатль tomatl","uk":"з науатль tomatl","ar":"من الناواتلية tomatl","he":"מנאוואטל tomatl","sw":"kutoka Kinahuatl tomatl"},
@@ -468,5 +566,103 @@ WORDS.tomato = {
     vi_s: ["cà chua", "kaː˨˩ cuə˧"],  // cà 'eggplant' + chua 'sour': the 'sour eggplant'.
     prs: ["بادنجان رومی", "bɑːdindʒɑːni ɾuːmiː"],  // Literally 'Roman aubergine'; Iranian Persian says گوجه‌فرنگی.
     hyw: ["լոլիկ", "loˈliɡ"],  // From a dialect root lol- 'round'; colloquial Western Armenian also says տոմաթէս.
+    ar: ["طماطم", "tˤaˈmaːtˤim"],  // Borrowed from Spanish tomate, itself from Nahuatl tomatl; in Syria, Lebanon and Palestine the usual word is بندورة, from Italian pomodoro.
+    tr: ["domates", "doˈmates"],  // Came via Ottoman Turkish from Greek ντομάτα, which goes back through Spanish tomate to Nahuatl tomatl.
+    mr: ["टोमॅटो", "ʈomæʈo"],  // Marathi Wikipedia gives टोमॅटो as the name, with older भेदरे and बेलवांगे also in use.
+    ps: ["ټماټر", "ʈamaːʈər"],  // Taken from Hindustani ṭamāṭar, which goes back through English and Spanish to Nahuatl tomatl; in Afghanistan people also say رومي بانجان, 'Roman eggplant'.
+    nan: ["柑仔蜜", "kam˦˦ a˥˧ bit˦"],  // It reworks Tagalog kamatis into characters that read 'little-orange honey', and kamatis goes back through Spanish tomate to Nahuatl tomatl; it is the word mainly in southern Taiwan.
+    yo: ["tòmátì", "tòmátì"],  // Borrowed from English tomato, which goes back through Spanish tomate to Nahuatl tomatl.
+    arq: ["طوماطيش", "tˤuːmaːtˤiːʃ"],  // Borrowed from the Spanish plural tomates (from Nahuatl tomatl); it is a collective noun, with singular طوماطيشة.
+    ln: ["tomáti", "tomáti"],  // Borrowed from Bangi tomati.
+    or: ["ଟମାଟୋ", "ʈɔmaːʈo"],  // The older Odia name is ବିଲାତି ବାଇଗଣ, 'foreign brinjal'.
+    am: ["ቲማቲም", "timatim"],  // Borrowed from Arabic ṭamāṭim, which goes back through Spanish tomate to Nahuatl tomatl.
+    ne: ["गोलभेंडा", "ɡolbʱẽɽaː"],  // Schmidt's dictionary calls this the usual hill word; टमाटर is used mainly in the Terai.
+    ku: ["bacansor", "bɑːdʒɑːnˈsoːɾ"],  // Literally 'red eggplant' (bacan + sor); by region people also say firingî, originally 'European', or tomate.
+    mg: ["voatabia", "vuataˈbia"],  // The voa- at the front is the same element seen in other fruit names, like voasary 'orange'.
+    xh: ["itumato", "itumato"],
+    kk: ["қызанақ", "qɯzɑˈnɑq"],  // Kazakh Wikipedia also gives the Russian loans томат and помидор, which are common in speech.
+    azb: ["پامادور", "pɑmɑˈdoɾ"],  // South Azerbaijani Wikipedia also lists قیزاناق and قیرمیزی بادیمجان, 'red eggplant'.
+    tn: ["tamati", "tamati"],
+    st: ["tamati", "tamati"],
+    rw: ["inyanya", "iɲaɲa"],  // The same word as Swahili nyanya; a class-11 form urunyanya, borrowed from Swahili, also exists.
+    sn: ["domasi", "domasi"],  // Came through a Nguni language from Afrikaans tamatie, which goes back through Dutch and Spanish to Nahuatl tomatl.
+    ilo: ["kamatis", "kaˈmatis"],  // The same word as Tagalog kamatis, which comes from Spanish tomates.
+    rn: ["inyanya", "iɲaɲa"],
+    ts: ["tamatisi", "tamatisi"],
+    tg: ["помидор", "pamidor"],  // Borrowed from Russian pomidor, which comes from Italian pomi d'oro, 'golden apples'.
+    ti: ["ኮሚደረ", "komidɐrɐ"],
+    hil: ["kamatis", "kaˈmatis"],  // Borrowed from Spanish tomate, from Nahuatl tomatl.
+    ak: ["ntoosi", "ntoːsi"],  // A Twi borrowing of English 'tomatoes' (ultimately Nahuatl tomatl); a native name, nɛnkyemɔɔno, also exists.
+    qu: ["tumati", "tuˈmati"],  // Borrowed from Spanish tomate, from Nahuatl tomatl; the native name chilltu is also used.
+    sq: ["domate", "dɔˈmatɛ"],  // From Greek ntomata, which goes back through Spanish tomate to Nahuatl tomatl.
+    mad: ["rantè", "rantɛ"],  // Madurese Wikipedia also gives rangam.
+    ki: ["nyanya", "ɲaɲa"],  // The same word as Swahili nyanya.
+    mn: ["улаан лооль", "ʊˈɮaːŋ ɮɔːɮʲ"],  // Literally 'red loolʹ'; Wiktionary suggests лооль was probably first the name of a goosefoot plant.
+    no: ["tomat", "tʊˈmɑːt"],  // From Nahuatl tomatl, which came in through Spanish, French and German.
+    ky: ["помидор", "pomiˈdor"],  // From Russian pomidor, from Italian pomo d'oro, 'golden apple'; the native Kyrgyz word кызанак also exists.
+    nds: ["Tomaat", "toˈmaːt"],
+    be: ["памідор", "pamʲiˈdor"],  // Belarusian Wikipedia also gives тамат as the formal name.
+    tt: ["помидор", "pomiˈdor"],  // Tatar Wikipedia gives both томат and помидор.
+    bho: ["टमाटर", "ʈəmaːʈəɾ"],
+    mai: ["टमाटर", "ʈəmaːʈər"],
+    skr: ["ٹماٹر", "ʈəmaːʈəɾ"],
+    min: ["tomaik", "tomaiʔ"],
+    gn: ["tomáte", "toˈmate"],
+    nso: ["tamati", "tamati"],
+    bik: ["kamatis", "kaˈmatis"],  // Borrowed from Spanish tomate, ultimately from Nahuatl tomatl.
+    war: ["kamatis", "kaˈmatis"],  // Borrowed from Spanish tomate, ultimately from Nahuatl tomatl.
+    hmn: ["txiv lws suav", "tsi˨˦ lɨ˨˩ ʂua˨˦"],  // 'Chinese eggplant fruit': txiv lws alone covers both tomato and eggplant, and suav 'Chinese' marks the tomato.
+    bjn: ["balinjan", "balindʒan"],  // Also bulinjan; the etymology is not given by the sources.
+    glk: ["پامادور", "pɒmɒdoɾ"],  // From Russian pomidor, from Italian pomi d'oro 'golden apples'.
+    ce: ["бадарж", "badarʒ"],  // The Chechen Wikipedia word; the Aukh form бадаржа is traced to Persian bādinjān 'eggplant', and Russian-derived помидор and адамат are also used.
+    ban: ["tomat", "tomat"],  // The same word as Indonesian tomat; the Balinese borrowing route is not given by the sources.
+    tcy: ["ಟೊಮೆಟೊ", "ʈomeʈo"],  // The etymology is not given by the sources.
+    fon: ["timati", "timati"],  // The etymology is not given by the sources.
+    lv: ["tomāts", "ˈtɔmaːts"],  // From German Tomate or Russian tomat, ultimately from Nahuatl tomatl; first recorded in Latvian at the end of the 19th century.
+    bs: ["paradajz", "paˈradajz"],  // From Austrian German Paradeis, short for Paradeisapfel 'paradise apple'.
+    pms: ["tomatica", "tumaˈtika"],  // Pomatica is also recorded; the etymology is not given by the sources.
+    egl: ["pundôr", "puŋˈdoːr"],  // The Bolognese counterpart of Italian pomodoro 'golden apple'.
+    quc: ["pix", "piʃ"],  // A native K'iche' word; the sources give no etymology.
+    cpx: ["番柿", "huaŋ˥˧˧ kʰi˩˩"],  // 番 'foreign' + 柿 'persimmon': the 'foreign persimmon'; 番茄 means chilli pepper in Xianyou.
+    aa: ["tamaatim", "tamaːtim"],  // From Arabic ṭamāṭim, ultimately from Nahuatl tomatl; bomodooro, from Italian pomodoro, is also recorded.
+    mak: ["tagalae", "taɡaˈlae"],  // Also tagalai; Cense records boʼdong-boʼdong sitamboloʼ 'Istanbul eggplant' as a botanical name.
+    bem: ["matimati", "matimati"],  // The etymology is not given by the source.
+    kok: ["तोमात", "toːmaːt"],  // Borrowed from Portuguese tomate, ultimately from Nahuatl tomatl.
+    czh: ["番茄", "fuːə˩˩ kɔ˩˩"],  // 番 'foreign' + 茄 'eggplant': the 'foreign eggplant', as in Mandarin.
+    shy: ["tmatem", "tmatəm"],  // The etymology is not given by the source.
+    pag: ["kamatis", "kaˈmatis"],  // The same word as Tagalog kamatis; the Pangasinan borrowing route is not given by the source.
+    ba: ["помидор", "pamʲiˈdɔr"],  // Borrowed from Russian помидор, which goes back to Italian pomi d'oro 'golden apples'.
+    cv: ["помидор", "pomʲiˈdor"],  // Borrowed from Russian помидор, from Italian pomi d'oro 'golden apples'; томат is also used.
+    av: ["помидор", "pomidor"],  // Borrowed from Russian помидор, from Italian pomi d'oro 'golden apples'.
+    nbl: ["itamati", "itamati"],  // Borrowed from Afrikaans tamatie, which goes back through Dutch and Spanish to Nahuatl tomatl.
+    iba: ["tomato", "tomato"],  // Borrowed from English tomato, which comes via Spanish tomate from Nahuatl tomatl.
+    gor: ["tamate", "taˈmate"],  // Gorontalo Wikipedia gives tamate, also kamate, for the tomato.
+    kbp: ["tɩmaatɩ", "tɪmaːtɪ"],  // The Kabiye Wikipedia article on the tomato uses tɩmaatɩ throughout.
+    sc: ["tamata", "taˈmata"],  // Sardinian has tamàta and pumàta for the tomato.
+    brx: ["बिलाथी फान्थाव", "bilatʰi pʰantʰao"],  // Literally 'foreign brinjal', the same model as Assamese বিলাহী বেঙেনা; Bodo bilathi corresponds to Assamese বিলাতী 'foreign' (the Bodo etymology itself is inferred from that parallel).
+    kha: ["sohsaw", "sɔʔsaw"],  // Literally 'red fruit' (soh 'fruit' + saw 'red'); Singh's 1906 Khasi dictionary gives an older name, soh-pdok.
+    quz: ["tumati", "tuˈmati"],  // Borrowed from Spanish tomate, from Nahuatl tomatl; native names chilltu / ch'illtu also exist, and the sources do not say which Cusco speakers prefer.
+    ar_jo: ["بندورة", "banˈdoːra"],  // Borrowed from Italian pomodoro, the 'golden apple'.
+    ar_ps: ["بندورة", "banˈdoːra"],  // Borrowed from Italian pomodoro, the 'golden apple'.
+    ar_lev: ["بندورة", "banaˈdoːɾa"],  // Borrowed from Italian pomodoro, the 'golden apple'; Beirut says banadūra.
+    ar_eg: ["قوطة", "ˈʔuːtˤa"],  // Borrowed from Ottoman Turkish kavata, a green bitter tomato; طماطم is also used.
+    ar_gulf: ["طماط", "tˤuˈmaːtˤ"],  // From a European tomato word, ultimately from Nahuatl tomatl.
+    ar_iq: ["طماطة", "tˤaˈmaːtˤa"],  // From Spanish tomate, from Nahuatl tomatl.
+    ar_ma: ["ماطيشة", "maːtˤiːʃa"],  // From Spanish tomates, with the first syllable dropped.
+    es_pr: ["tomate", "toˈmate"],  // From Nahuatl tomatl; jitomate is a Mexican word.
+    es_do: ["tomate", "toˈmate"],  // From Nahuatl tomatl; jitomate is a Mexican word.
+    es_gt: ["tomate", "toˈmate"],  // From Nahuatl tomatl; jitomate is a Mexican word.
+    es_ec: ["tomate", "toˈmate"],  // From Nahuatl tomatl; jitomate is a Mexican word.
+    es_ve: ["tomate", "toˈmate"],  // From Nahuatl tomatl; jitomate is a Mexican word.
+    es_uy: ["tomate", "toˈmate"],  // From Nahuatl tomatl.
+    ko_yb: ["일년감", "illjʌnɡam"],  // 일년 'one year' + 감 'persimmon': a persimmon that grows in a single year.
+    wuu_hz: ["番茄", "fᴇ̃˧˧ ɡɑ˨˩˧"],  // 番 'foreign' + 茄 'eggplant'.
+    ar_tn: ["طماطم", "ˈtˤmaːtˤəm"],  // Tunisian ṭmāṭem, the same Spanish-derived word as Standard Arabic طماطم, from Nahuatl tomatl.
+    nan_te: ["番茄", "huaŋ˧˧ ɡie˥˥"],  // 番 'foreign' + 茄 'eggplant'; Teochew uses the Mandarin-type word, not Taiwanese 柑仔蜜.
+    nan_ph: ["柑仔得", "kam˧˧ a˥˥˦ tit˥"],  // From Tagalog kamatis, from Spanish tomate, from Nahuatl tomatl.
+    nan_qz: ["柑仔得", "kam˧˧ ma˥˥˦ tit˥"],  // From Tagalog kamatis, from Spanish tomate, from Nahuatl tomatl; 臭柿仔 'stinky persimmon' is also used.
+    nan_xm: ["臭柿仔", "tsʰau˨˩ kʰi˨˨ a˥˧"],  // Literally 'stinky little persimmon'; 柑仔得, from Tagalog kamatis, is less common in Xiamen.
+    nan_zz: ["臭柿仔", "tsʰau˨˩ kʰi˨˨ a˥˧"],  // Literally 'stinky little persimmon'.
+    nan_hai: ["红茄", "aŋ˧˩ kio˧˩"],  // Literally 'red eggplant', the Haikou word; Wenchang says 番茄.
   },
 };

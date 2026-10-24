@@ -89,6 +89,11 @@ const ALLOW = {
     // are other towns' words. Checked 2026-10-23.
     'sunflower|wuu': true, 'sunflower|wuu_sz': true, 'sunflower|cjy_lv': true,
 
+    // tomato: nan_te (Teochew) 番茄. Wiktionary dial-syn/番茄 gives 番茄 for both
+    // Chaozhou and Shantou (紅柿囝 marked dated); the Hokkien siblings' 柑仔蜜/
+    // 柑仔得/臭柿仔 are Taiwan, Quanzhou and Xiamen words. Checked 2026-10-24.
+    'tomato|nan_te': true,
+
     // tongue: gan (Nanchang) writes 舌头 where gan_yc, gan_ja and gan_fz write
     // bare 舌. That is a real split inside Gan, not an import — 《南昌方言詞典》
     // p.257 heads 舌頭, and 語保 gives 舌頭 at the Ji'an and Fuzhou CITY points

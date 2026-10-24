@@ -95,6 +95,13 @@ const WORD_CATEGORIES = [
         },
         words: ["red", "white", "black", "green", "blue"],
     },
+    {
+        key: "countries",
+        label: {
+            en: "Countries", ja: "国", ko: "나라", zh: "国家", yue: "國家", vi: "Quốc gia", th: "ประเทศ", id: "Negara", hi: "देश", de: "Länder", fr: "Pays", it: "Paesi", es: "Países", pt: "Países", ru: "Страны", uk: "Країни", ar: "البلدان", he: "מדינות", sw: "Nchi"
+        },
+        words: ["germany"],
+    },
 ];
 
 // Flattened display order. Derived — never edit this directly.

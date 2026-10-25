@@ -7591,7 +7591,12 @@
                 // labels were placed 400-800px from their place (Suzhou Wu out at sea).
                 // Keep the on-screen distance of the normal size: a label that cannot
                 // fit near its place is hidden, not moved far away (owner, r27).
-                const _ringStep = Math.max(4, _ch * 0.13), _maxR = MAX_PUSH * 2.2 / Math.max(1, _geomScale / 1.4);   // 1.4 = the default text size (slider 140): r27 already cut the ring there (r28)
+                // ...and never more than about one label height and a third from its
+                // place at any size: at z5 the budget above was 174px, so Jeju,
+                // Qingdao and the Wu/Min rows were drawn far out in the East China
+                // Sea and vanished on the next pan (owner 2026-10-25: 「海の上にたく
+                // さんの言語が」). Hidden is better than misplaced.
+                const _ringStep = Math.max(4, _ch * 0.13), _maxR = Math.min(MAX_PUSH * 2.2 / Math.max(1, _geomScale / 1.4), _ch * 1.3);   // 1.4 = the default text size (slider 140): r27 already cut the ring there (r28)
                 for (const c of _rendered) {
                     const ax = ppx[c].x, ay = ppx[c].y, hw = _hw[c] || _bbHalfW, hh = _hh[c] || _bbHalfH;
                     let chosen = null;

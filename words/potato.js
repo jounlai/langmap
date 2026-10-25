@@ -156,7 +156,7 @@ WORDS.potato = {
     zh_sc: "other",
     cdo: "other",
     jv: "other",
-    su: "unknown",
+    su: "other",
     ceb: "papa",
     ilo: "papa",
     sm: "papa",
@@ -250,7 +250,7 @@ WORDS.potato = {
     dng: "other",
     aii: "truffle",
     eo: "earth",
-    vo: "unknown",
+    vo: "papa",
     hil: "papa",
     ak: "unknown",
     mk: "earth",
@@ -275,7 +275,7 @@ WORDS.potato = {
     vep: "truffle",
     krc: "unknown",
     ab: "truffle",
-    ban: "unknown",
+    ban: "other",
     ast: "papa",
     an: "unknown",
     tet: "other",
@@ -293,7 +293,7 @@ WORDS.potato = {
     gor: "earth",
     mfe: "earth",
     quy: "papa",
-    tig: "unknown",
+    tig: "other",
     nrf_gg: "papa",
     fra_jer: "papa",
     gsw_als: "earth",
@@ -396,8 +396,8 @@ WORDS.potato = {
     vmw: "papa",
     ts: "earth",
     tn: "other",
-    min: "unknown",
-    mad: "unknown",
+    min: "other",
+    mad: "other",
     hmn: "other",
     tpi: "papa",
     mak: "other",
@@ -419,7 +419,7 @@ WORDS.potato = {
     cpx: "other",
     quz: "papa",
     kha: "unknown",
-    brx: "unknown",
+    brx: "other",
     mni: "unknown",
     nag: "unknown",
     kbp: "unknown",
@@ -521,7 +521,7 @@ WORDS.potato = {
     zh_sc: ["洋芋", "iaŋ˨˩ y˨˩˧"],  // Literally "foreign taro": the old word for taro with 洋 'foreign, from overseas'.
     cdo: ["番囝薯", "huaŋ˥˥ kiaŋ˧˧ sy˥˧"],  // Literally "foreigners' tuber", 番囝 being the Fuzhou word for a foreigner.
     jv: ["kenthang", "kənʈaŋ"],  // An older Javanese word for a tuber, which Malay and Indonesian borrowed as kentang.
-    su: ["kentang", "kəntaŋ"],  // The same word as Javanese kenthang and Indonesian kentang; kumeli is an older Sundanese synonym.
+    su: ["kentang", "kəntaŋ"],  // The same word as Javanese kenthang and Indonesian kentang; kumeli is an older Sundanese synonym. Route by resemblance to the neighbouring forms (id(kentang) ms(kentang)); no etymology of its own.
     ceb: ["patatas", "paˈtatas"],  // Borrowed from Spanish patatas, the plural of patata.
     ilo: ["patatas", "paˈtatas"],  // Borrowed from Spanish patatas, the plural of patata.
     sm: ["pateta", "pateta"],  // Borrowed from English potato.
@@ -615,7 +615,7 @@ WORDS.potato = {
     dng: ["ёнйү", "iɑŋ˨˦y˦"],  // Literally "foreign taro", the same word (洋芋) as in Gansu and Shaanxi.
     aii: ["ܟܪܬܘܦܐ", "kɪrtawpa"],  // Borrowed from Russian картофель, itself from German Kartoffel.
     eo: ["terpomo", "terˈpomo"],  // Literally "earth apple", a calque of French pomme de terre.
-    vo: ["pötet", "pøˈtet"],  // Volapük's word for the potato.
+    vo: ["pötet", "pøˈtet"],  // Volapük's word for the potato. Route by resemblance to the neighbouring forms (no(potet) nn(potet)); no etymology of its own.
     hil: ["patatas", "paˈtatas"],  // Borrowed from the Spanish plural patatas.
     ak: ["aborɔdwomaa", "abɹ̩odʑʊmaː"],  // The Twi word for the potato; a synonym is atommo.
     mk: ["компир", "ˈkɔmpir"],  // From Austrian German Grundbirne, "ground pear".
@@ -640,7 +640,7 @@ WORDS.potato = {
     vep: ["kartohk", "ˈkartohk"],  // From Russian картошка, ultimately from Italian tartufolo "truffle".
     krc: ["гардош", "ɡarˈdoʃ"],  // Apparently an adaptation of Russian картошка.
     ab: ["акартош", "akartoʃ"],  // Russian картошка with the Abkhaz article а-; ultimately from Italian tartufolo "truffle".
-    ban: ["kentang", "kentaŋ"],  // The same word as Indonesian and Malay kentang.
+    ban: ["kentang", "kentaŋ"],  // The same word as Indonesian and Malay kentang. Route by resemblance to the neighbouring forms (id(kentang) ms(kentang)); no etymology of its own.
     ast: ["pataca", "paˈtaka"],  // From the Spanish patata / Taíno batata family; western Asturian says indina "the Indian one".
     an: ["trunfa", "ˈtɾunfa"],  // Shared with Northern Catalan trumfa; patata is also used.
     tet: ["fehuk-ropa", "ˈfehuk ˈropa"],  // Literally "foreign yam"; fehuk-malae, also "foreigner's yam", is a synonym.
@@ -658,7 +658,7 @@ WORDS.potato = {
     gor: ["artape", "arˈtape"],  // Borrowed from Dutch aardappel, literally "earth apple".
     mfe: ["pomdeter", "pomdetɛʁ"],  // From French pomme de terre, literally "apple of the earth".
     quy: ["papa", "ˈpapa"],  // The Quechua word itself, the source of Spanish papa; the sweet potato is apichu.
-    tig: ["ድንሽ", "dɨnnɨʃ"],  // Borrowed from Tigrinya; a synonym is በጣጢስ (bäṭaṭis).
+    tig: ["ድንሽ", "dɨnnɨʃ"],  // Borrowed from Tigrinya; a synonym is በጣጢስ (bäṭaṭis). Route by resemblance to the neighbouring forms (ti(ድንሽ)); no etymology of its own.
     nrf_gg: ["patate", "patat"],  // From French patate, ultimately Spanish patata and Taíno batata.
     fra_jer: ["patate", "patat"],  // From French patate, ultimately Spanish patata and Taíno batata.
     gsw_als: ["Grumbeer", "krʊmber"],  // Literally "ground pear" (alternative form Grundbeer).
@@ -761,8 +761,8 @@ WORDS.potato = {
     vmw: ["patata", "patata"],  // The sweet potato is a different word, kharaka.
     ts: ["tapula", "tapula"],  // Borrowed from Afrikaans aartappel, literally "earth apple"; the Zulu loan zambana is also used.
     tn: ["lekwele", "lekwele"],  // An older word for an edible tuber, applied to the potato; the Afrikaans loans tapole and aretapole are also used.
-    min: ["kantang", "kantaŋ"],  // The name used for the potato by the Minangkabau Wikipedia; Indonesian has kentang.
-    mad: ["kentang", "kəntaŋ"],  // Madurese Wikipedia also gives larbâ for the potato.
+    min: ["kantang", "kantaŋ"],  // The name used for the potato by the Minangkabau Wikipedia; Indonesian has kentang. Route by resemblance to the neighbouring forms (nan_pn(蕳砃) bjn(kantang)); no etymology of its own.
+    mad: ["kentang", "kəntaŋ"],  // Madurese Wikipedia also gives larbâ for the potato. Route by resemblance to the neighbouring forms (id(kentang) ms(kentang)); no etymology of its own.
     hmn: ["qos yaj ywm", "qɔ˨˩ ja˥˨ jɨ˨˩ˀ"],  // Literally "yangyu tuber": qos 'tuber' plus a loan of Chinese 洋芋 'foreign taro'; the sweet potato is qos liab 'red tuber'.
     tpi: ["poteto", "poteto"],  // From English potato; the sweet potato, the staple of the Highlands, is kaukau.
     mak: ["lame-lame", "ˌlameˈlame"],  // A reduplication of lame 'tuber'; the less common lame balanda means 'Dutch tuber'.
@@ -784,7 +784,7 @@ WORDS.potato = {
     cpx: ["洋番薯", "ieu˩˧ hɒŋ˥˧˧ ɬy˩˧"],  // Literally "foreign sweet potato" (番薯 is the sweet potato); Putian also says 洋紅薯 and 馬鈴薯, and Xianyou 馬鈴薯.
     quz: ["papa", "ˈpapa"],  // The native Andean word, which Spanish borrowed as papa.
     kha: ["phan", "pʰan"],  // The Khasi name for the potato; no source gives its origin.
-    brx: ["आलु", "alu"],  // The same word as Assamese alu; no source states the borrowing.
+    brx: ["आलु", "alu"],  // The same word as Assamese alu; no source states the borrowing. Route by resemblance to the neighbouring forms (hi(आलू) bn(আলু)); no etymology of its own.
     mni: ["ꯑꯂꯨ", "əlu"],  // The same word as Bengali and Assamese alu; no source states the borrowing. The sweet potato is a different word, mangra.
     nag: ["alu", "alu"],  // The same word as Assamese alu, the language Nagamese is built on.
     kbp: ["tɛtɛɛ pɔm", "tɛtɛː pɔm"],  // The Kabiye Wikipedia name for the potato; it also gives Pɔmdɩtɛɛrɩ, from French pomme de terre.

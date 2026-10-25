@@ -92,29 +92,29 @@ WORDS.jellyfish = {
     ro: "medusa",
     gan: "plain",
     el: "medusa",
-    hu: "unknown",
+    hu: "medusa",
     sv: "other",
-    cs: "unknown",
+    cs: "medusa",
     cdo: "plain",
     ca: "medusa",
     he: "medusa",
-    sq: "unknown",
+    sq: "medusa",
     bg: "medusa",
     hy: "medusa",
-    fi: "unknown",
-    sk: "unknown",
+    fi: "medusa",
+    sk: "medusa",
     no: "other",
-    ka: "unknown",
+    ka: "medusa",
     lt: "medusa",
     sr: "medusa",
     hr: "medusa",
     mk: "medusa",
-    eo: "unknown",
+    eo: "medusa",
     yi: "medusa",
     is: "other",
     mic: "unknown",
     pon: "unknown",
-    gl: "unknown",
+    gl: "medusa",
     es_cr: "other",
     es_ni: "other",
     es_pa: "other",
@@ -251,29 +251,29 @@ WORDS.jellyfish = {
     ro: ["meduză", "meˈduzə"],  // Borrowed from French méduse, named after Medusa.
     gan: ["海蜇", "hai˨˩˧ tsɛt˥"],  // "Sea" plus 蜇, itself a word for jellyfish.
     el: ["μέδουσα", "ˈmeðusa"],  // From French méduse, after Medusa; the colloquial τσούχτρα "stinger" is also common.
-    hu: ["medúza", "ˈmɛduːzɒ"],
+    hu: ["medúza", "ˈmɛduːzɒ"],  // Route by resemblance to the neighbouring forms (it(medusa) pl(meduza)); no etymology of its own.
     sv: ["manet", "maˈneːt"],  // From Old Norse *marnæta, "sea nettle".
-    cs: ["medúza", "ˈmɛduːza"],
+    cs: ["medúza", "ˈmɛduːza"],  // Route by resemblance to the neighbouring forms (it(medusa) pl(meduza)); no etymology of its own.
     cdo: ["䖳", "tʰa˨˩˧"],  // An old Southern Chinese word for jellyfish.
     ca: ["medusa", "məˈðuzə"],  // From Latin Medusa, the Gorgon.
     he: ["מדוזה", "meˈduza"],  // Ultimately from Greek Medusa.
-    sq: ["meduzë", "mɛˈduzə"],  // The same word names the mythological Medusa; kandil deti "sea lamp" is also listed.
+    sq: ["meduzë", "mɛˈduzə"],  // The same word names the mythological Medusa; kandil deti "sea lamp" is also listed. Route by resemblance to the neighbouring forms (ro(meduză) yi(מעדוזע)); no etymology of its own.
     bg: ["медуза", "mɛˈduzɐ"],  // From Latin Medusa, the meaning transferred from the Gorgon.
     hy: ["մեդուզա", "meduˈzɑ"],  // Via Russian медуза, after Medusa.
-    fi: ["meduusa", "ˈmeduːsɑ"],  // Borrowed from Swedish medusa.
-    sk: ["medúza", "ˈmeduːza"],
+    fi: ["meduusa", "ˈmeduːsɑ"],  // Borrowed from Swedish medusa. Route by resemblance to the neighbouring forms (it(medusa) es(medusa)); no etymology of its own.
+    sk: ["medúza", "ˈmeduːza"],  // Route by resemblance to the neighbouring forms (it(medusa) pl(meduza)); no etymology of its own.
     no: ["manet", "mɑˈneːt"],  // From Old Norse *marnæta, "sea nettle".
-    ka: ["მედუზა", "meduza"],
+    ka: ["მედუზა", "meduza"],  // Route by resemblance to the neighbouring forms (it(medusa) pl(meduza)); no etymology of its own.
     lt: ["medūza", "mʲɛduːˈzɐ"],  // Ultimately after Medusa.
     sr: ["медуза", "medǔːza"],  // From New Latin medusa, after the Gorgon Medusa.
     hr: ["meduza", "medǔːza"],  // From New Latin medusa, after the Gorgon Medusa.
     mk: ["медуза", "mɛˈduza"],  // After the Gorgon Medusa.
-    eo: ["meduzo", "meˈduzo"],
+    eo: ["meduzo", "meˈduzo"],  // Route by resemblance to the neighbouring forms (it(medusa) pl(meduza)); no etymology of its own.
     yi: ["מעדוזע", "mɛˈdʊzə"],  // From German, Polish or Russian, ultimately after Medusa.
     is: ["marglytta", "ˈmarklɪhta"],  // "Sea" plus glytta, thought to mean "something that glints".
     mic: ["sasap", "sazap"],  // Cognate with Passamaquoddy-Maliseet sahsap.
     pon: ["liht", "liːt"],  // Cognate with Mokilese lihs.
-    gl: ["medusa", "meˈðusa"],  // Augamar "sea water" is a native synonym.
+    gl: ["medusa", "meˈðusa"],  // Augamar "sea water" is a native synonym. Route by resemblance to the neighbouring forms (es(medusa) el(μέδουσα)); no etymology of its own.
     es_cr: ["aguamala", "aɣwaˈmala"],  // Literally 'bad water'; the usual regional word here, beside standard medusa.
     es_ni: ["aguamala", "aɣwaˈmala"],  // Literally 'bad water'; the usual regional word here, beside standard medusa.
     es_pa: ["aguamala", "aɣwaˈmala"],  // Literally 'bad water'; the usual regional word here, beside standard medusa.

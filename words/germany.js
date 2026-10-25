@@ -100,91 +100,91 @@ WORDS.germany = {
     pnb: "germania",
     th: "germania",
     gu: "germania",
-    bho: "unknown",
+    bho: "germania",
     ps: "alemanni",
     nan: "deutsch",
     hak_cn: "deutsch",
     es: "alemanni",
-    yo: "unknown",
+    yo: "germania",
     pl: "nemets",
     kn: "germania",
-    ig: "unknown",
+    ig: "germania",
     su: "germania",
     uk: "nemets",
-    ln: "unknown",
-    mai: "unknown",
+    ln: "alemanni",
+    mai: "germania",
     ml: "germania",
     or: "germania",
-    awa: "unknown",
-    om: "unknown",
+    awa: "germania",
+    om: "germania",
     uz: "germania",
     my: "germania",
     am: "germania",
-    sd: "unknown",
+    sd: "germania",
     ne: "germania",
     ku: "alemanni",
     zu: "germania",
-    ff: "unknown",
-    ceb: "unknown",
+    ff: "alemanni",
+    ceb: "alemanni",
     ro: "germania",
-    skr: "unknown",
+    skr: "germania",
     mg: "alemanni",
     nl: "deutsch",
     az: "alemanni",
     so: "germania",
     gan: "deutsch",
-    xh: "unknown",
+    xh: "germania",
     si: "germania",
     km: "alemanni",
     za: "deutsch",
     kk: "germania",
     ny: "germania",
     as: "germania",
-    azb: "unknown",
+    azb: "alemanni",
     bar: "deutsch",
-    tn: "unknown",
-    bm: "unknown",
+    tn: "germania",
+    bm: "alemanni",
     el: "germania",
     hu: "nemets",
     sv: "deutsch",
     ug: "germania",
-    wo: "unknown",
+    wo: "alemanni",
     rw: "deutsch",
-    sn: "unknown",
+    sn: "germania",
     sr: "nemets",
-    ht: "unknown",
+    ht: "alemanni",
     cs: "nemets",
     pt: "alemanni",
     cdo: "deutsch",
-    ilo: "unknown",
+    ilo: "alemanni",
     rn: "deutsch",
     ca: "alemanni",
     ts: "germania",
     mnp: "deutsch",
     he: "germania",
     tg: "alemanni",
-    ti: "unknown",
-    ak: "unknown",
+    ti: "germania",
+    ak: "germania",
     qu: "alemanni",
     ckb: "alemanni",
     sq: "germania",
     af: "deutsch",
     bg: "germania",
-    anp: "unknown",
-    sat: "unknown",
-    mad: "unknown",
-    ki: "unknown",
-    kg: "unknown",
-    ks: "unknown",
+    anp: "germania",
+    sat: "germania",
+    mad: "germania",
+    ki: "germania",
+    kg: "alemanni",
+    ks: "germania",
     ee: "unknown",
     da: "deutsch",
     hy: "germania",
     gn: "alemanni",
-    kab: "unknown",
-    luy: "unknown",
+    kab: "alemanni",
+    luy: "germania",
     fi: "saxon",
     lg: "unknown",
-    min: "unknown",
+    min: "germania",
     hr: "nemets",
     sk: "nemets",
     mn: "germania",
@@ -193,9 +193,9 @@ WORDS.germany = {
     nds: "deutsch",
     be: "germania",
     tt: "alemanni",
-    nso: "unknown",
-    bik: "unknown",
-    tpi: "unknown",
+    nso: "germania",
+    bik: "alemanni",
+    tpi: "germania",
     mzn: "alemanni",
     vec: "germania",
     ka: "germania",
@@ -210,7 +210,7 @@ WORDS.germany = {
     war: "alemanni",
     bs: "nemets",
     gl: "alemanni",
-    ssw: "unknown",
+    ssw: "germania",
     kok: "germania",
     egl: "germania",
     ay: "alemanni",
@@ -233,30 +233,30 @@ WORDS.germany = {
     aii: "alemanni",
     fur: "germania",
     mt: "germania",
-    wa: "unknown",
-    os: "unknown",
-    rue: "unknown",
-    kbd: "unknown",
-    cv: "unknown",
-    av: "unknown",
-    lez: "unknown",
-    new: "unknown",
-    pnt: "unknown",
-    ve: "unknown",
-    gor: "unknown",
+    wa: "alemanni",
+    os: "germania",
+    rue: "nemets",
+    kbd: "germania",
+    cv: "germania",
+    av: "germania",
+    lez: "germania",
+    new: "germania",
+    pnt: "germania",
+    ve: "germania",
+    gor: "germania",
     kbp: "unknown",
     sm: "germania",
     szl: "nemets",
     oc: "alemanni",
     fy: "deutsch",
-    sah: "unknown",
+    sah: "germania",
     pdt: "deutsch",
     is: "deutsch",
     dv: "germania",
-    udm: "unknown",
+    udm: "germania",
     pdc: "deutsch",
     br: "alemanni",
-    bi: "unknown",
+    bi: "germania",
     nv: "other",
     dng: "deutsch",
     ast: "alemanni",
@@ -269,14 +269,14 @@ WORDS.germany = {
     mh: "germania",
     mi: "germania",
     chk: "deutsch",
-    iu: "unknown",
+    iu: "germania",
     sa: "germania",
     se: "deutsch",
     haw: "germania",
     rar: "germania",
     hsb: "nemets",
     frr: "deutsch",
-    an: "unknown",
+    an: "alemanni",
     dsb: "nemets",
     lkt: "other",
     stq: "deutsch",
@@ -447,91 +447,91 @@ WORDS.germany = {
     pnb: ["جرمنی", "dʒəɾməniː"],  // Borrowed from English Germany (Wiktionary).
     th: ["เยอรมนี", "jɤː˧ra˦˥ma˦˥niː˧"],  // A semi-learned borrowing of English Germany (Wiktionary).
     gu: ["જર્મની", "dʒəɾməniː"],  // Listed among the names from Latin Germania, reaching Gujarati through English Germany.
-    bho: ["जर्मनी", "dʒəɾməniː"],  // The same form as Hindi जर्मनी; no source found that names the donor.
+    bho: ["जर्मनी", "dʒəɾməniː"],  // The same form as Hindi जर्मनी; no source found that names the donor. Route by resemblance to the neighbouring forms (hi(जर्मनी) ur(جرمنی)); no etymology of its own.
     ps: ["آلمان", "ɑlmɑn"],  // Borrowed from Persian آلمان, from French Allemagne; جرمني from English Germany is also used (Wiktionary).
     nan: ["德國", "tiɪk˧˨ kɔk˧˨"],  // 德 is short for 德意志, a transcription of Deutsch, plus 國 'country'; Taiwanese once also used 獨逸 from Japanese (Wiktionary).
     hak_cn: ["德国", "tɛt˩ kuɛt˩"],  // 德 is short for 德意志, a transcription of Deutsch, plus 国 'country' (Wiktionary).
     es: ["Alemania", "aleˈmanja"],  // Named after the Alamanni, an ancient confederation of Germanic tribes (Wiktionary).
-    yo: ["Jẹ́mánì", "dʒɛ́mánì"],  // Yoruba Wikipedia's name for Germany; no source found that names the donor.
+    yo: ["Jẹ́mánì", "dʒɛ́mánì"],  // Yoruba Wikipedia's name for Germany; no source found that names the donor. Route by resemblance to the neighbouring forms (ta(ஜெர்மனி) en(Germany)); no etymology of its own.
     pl: ["Niemcy", "ˈɲɛmtsɨ"],  // Literally 'the Germans', from Proto-Slavic němьcь 'mute, foreigner'.
     kn: ["ಜರ್ಮನಿ", "dʒarmani"],  // Listed among the names from Latin Germania.
-    ig: ["Jémanị", "dʒemanɪ"],  // Igbo Wikipedia's name for Germany; no source found that names the donor.
+    ig: ["Jémanị", "dʒemanɪ"],  // Igbo Wikipedia's name for Germany; no source found that names the donor. Route by resemblance to the neighbouring forms (ta(ஜெர்மனி) en(Germany)); no etymology of its own.
     su: ["Jérman", "dʒerman"],  // Listed among the names from Latin Germania.
     uk: ["Німеччина", "nʲiˈmɛtʃːenɐ"],  // Built on німець 'German', from Proto-Slavic němьcь 'mute, foreigner'.
-    ln: ["Alémani", "alémani"],  // Lingala Wikipedia also gives Zemani; no source found that names the donor.
-    mai: ["जर्मनी", "dʒərməniː"],  // The same form as Hindi जर्मनी; no source found that names the donor.
+    ln: ["Alémani", "alémani"],  // Lingala Wikipedia also gives Zemani; no source found that names the donor. Route by resemblance to the neighbouring forms (tl(Alemanya) es(Alemania)); no etymology of its own.
+    mai: ["जर्मनी", "dʒərməniː"],  // The same form as Hindi जर्मनी; no source found that names the donor. Route by resemblance to the neighbouring forms (hi(जर्मनी) ur(جرمنی)); no etymology of its own.
     ml: ["ജർമ്മനി", "dʒarmːani"],  // Listed among the names from Latin Germania.
     or: ["ଜର୍ମାନୀ", "dʒɔɾmaːni"],  // Listed among the names from Latin Germania; ଜର୍ମନୀ is an alternative spelling.
-    awa: ["जर्मनी", "dʒərməniː"],  // The same form as Hindi जर्मनी; no source found that names the donor.
-    om: ["Jarmanii", "dʒarmaniː"],  // Oromo Wikipedia's name for Germany; no source found that names the donor.
+    awa: ["जर्मनी", "dʒərməniː"],  // The same form as Hindi जर्मनी; no source found that names the donor. Route by resemblance to the neighbouring forms (hi(जर्मनी) ur(جرمنی)); no etymology of its own.
+    om: ["Jarmanii", "dʒarmaniː"],  // Oromo Wikipedia's name for Germany; no source found that names the donor. Route by resemblance to the neighbouring forms (bn(জার্মানি) te(జర్మనీ)); no etymology of its own.
     uz: ["Germaniya", "ɡeɾmanija"],  // Borrowed from Russian Германия; the older Olmoniya, from the Alamanni line, is a synonym (Wiktionary).
     my: ["ဂျာမနီ", "dʑàmənì"],  // Listed among the names from Latin Germania.
     am: ["ጀርመን", "dʒərmən"],  // Borrowed from English German (Wiktionary).
-    sd: ["جرمني", "dʒərməniː"],  // Sindhi Wikipedia's name for Germany; no source found that names the donor.
+    sd: ["جرمني", "dʒərməniː"],  // Sindhi Wikipedia's name for Germany; no source found that names the donor. Route by resemblance to the neighbouring forms (hi(जर्मनी) ur(جرمنی)); no etymology of its own.
     ne: ["जर्मनी", "dzʌrmʌni"],  // Borrowed from English Germany (Wiktionary).
     ku: ["Almanya", "ɑːlmɑːnˈjɑː"],  // Likely borrowed from Turkish Almanya; Elmanya is an alternative form (Wiktionary).
     zu: ["iJalimani", "idʒalimani"],  // Borrowed from English Germany (Wiktionary, citing Doke and Vilakazi's Zulu-English Dictionary).
-    ff: ["Almaanya", "almaːɲa"],  // Fula Wikipedia's name for Germany; no source found that names the donor.
-    ceb: ["Alemanya", "ʔaleˈmanja"],  // Cebuano Wikipedia's name for Germany, the same form as Tagalog Alemanya; no source found that names the donor.
+    ff: ["Almaanya", "almaːɲa"],  // Fula Wikipedia's name for Germany; no source found that names the donor. Route by resemblance to the neighbouring forms (pms(Almagna) tr(Almanya)); no etymology of its own.
+    ceb: ["Alemanya", "ʔaleˈmanja"],  // Cebuano Wikipedia's name for Germany, the same form as Tagalog Alemanya; no source found that names the donor. Route by resemblance to the neighbouring forms (tl alemanni es alemanni); no etymology of its own.
     ro: ["Germania", "dʒerˈmania"],  // From Latin Germania.
-    skr: ["جرمنی", "dʒərməniː"],  // Saraiki Wikipedia's name for Germany; no source found that names the donor.
+    skr: ["جرمنی", "dʒərməniː"],  // Saraiki Wikipedia's name for Germany; no source found that names the donor. Route by resemblance to the neighbouring forms (hi(जर्मनी) ur(جرمنی)); no etymology of its own.
     mg: ["Alemaina", "aleˈmajna"],  // Borrowed from French Allemagne, after the Alamanni tribe (Wiktionary).
     nl: ["Duitsland", "ˈdœy̯tslɑnt"],  // From Middle Dutch Duutschlant, 'the German land'.
     az: ["Almaniya", "ɑlˈmɑnijɑ"],  // Listed among the names from the Alamanni tribe.
     so: ["Jarmal", "dʒarmal"],  // Listed among the names from Latin Germania.
     gan: ["德国", "tɛt˥ kuɛt˥"],  // 德 is short for 德意志, a transcription of Deutsch, plus 国 'country'.
-    xh: ["iJamani", "idʒamani"],  // Xhosa Wikipedia's name for Germany; no source found that names the donor.
+    xh: ["iJamani", "idʒamani"],  // Xhosa Wikipedia's name for Germany; no source found that names the donor. Route by resemblance to the neighbouring forms (zu(iJalimani) bn(জার্মানি)); no etymology of its own.
     si: ["ජර්මනිය", "dʒərmənijə"],  // Borrowed from English Germany (Wiktionary).
     km: ["អាល្លឺម៉ង់", "ʔaːlləɨmɑŋ"],  // Borrowed from French allemand; in full the country is ប្រទេសអាល្លឺម៉ង់, 'country of Germany' (Wiktionary).
     za: ["Dwzgoz", "tɯ˧˩ ko˧˩"],  // Borrowed from Chinese 德国 Déguó (Wiktionary).
     kk: ["Германия", "ɡʲɪrˈmanʲɪjə"],  // Borrowed from Russian Германия; the older Алмания is now rarely used; IPA follows Russian, as the row does for компьютер, and needs review.
     ny: ["Jeremani", "dʒeɾeˈmani"],  // Borrowed from English Germany (Wiktionary).
     as: ["জাৰ্মানী", "zaɹmani"],  // Borrowed from English Germany (Wiktionary).
-    azb: ["آلمان", "ɑlˈmɑn"],  // The same form as Persian آلمان; no source found that names the donor.
+    azb: ["آلمان", "ɑlˈmɑn"],  // The same form as Persian آلمان; no source found that names the donor. Route by resemblance to the neighbouring forms (fr(Allemagne) ps(آلمان)); no etymology of its own.
     bar: ["Deitschland", "ˈdaɪtʃlɒnd"],  // The Bavarian form of Deutschland, 'the German land'.
-    tn: ["Jeremane", "dʒeremane"],  // The Setswana name used in Setswana Wikipedia; no source found that names the donor.
-    bm: ["Alimaɲi", "alimaɲi"],  // Germany in Bambara, a form that matches French Allemagne.
+    tn: ["Jeremane", "dʒeremane"],  // The Setswana name used in Setswana Wikipedia; no source found that names the donor. Route by resemblance to the neighbouring forms (ny(Jeremani) id(Jerman)); no etymology of its own.
+    bm: ["Alimaɲi", "alimaɲi"],  // Germany in Bambara, a form that matches French Allemagne. Route by resemblance to the neighbouring forms (pt(Alemanha) qu(Alimanya)); no etymology of its own.
     el: ["Γερμανία", "ʝeɾmaˈnia"],  // Continues the Latin and Ancient Greek name Germania.
     hu: ["Németország", "ˈneːmɛtorsaːɡ"],  // Literally "German country"; német is an early loan of Slavic němьcь, "mute, foreigner".
     sv: ["Tyskland", "ˈtʏskland"],  // Literally "German land"; tysk has the same source as German deutsch.
     ug: ["گېرمانىيە", "ɡermɑniˈjɛ"],  // From Latin Germania via Russian Германия.
-    wo: ["Almaañ", "almaːɲ"],  // Germany in Wolof, a form that matches French Allemagne.
+    wo: ["Almaañ", "almaːɲ"],  // Germany in Wolof, a form that matches French Allemagne. Route by resemblance to the neighbouring forms (fr(Allemagne) ps(آلمان)); no etymology of its own.
     rw: ["Ubudage", "ubudaːɡe"],  // From the class-14 prefix ubu- and German Deutsch; a folk etymology instead links it to the greeting "guten Tag".
-    sn: ["Jerumani", "dʒerumani"],  // The Shona Wikipedia name for Germany, a form that matches English Germany.
+    sn: ["Jerumani", "dʒerumani"],  // The Shona Wikipedia name for Germany, a form that matches English Germany. Route by resemblance to the neighbouring forms (sw(Ujerumani) ta(ஜெர்மனி)); no etymology of its own.
     sr: ["Немачка", "němatʃkaː"],  // From Nemac "German", ultimately Proto-Slavic němьcь, "mute, foreigner".
-    ht: ["Almay", "almaj"],  // Germany in Haitian Creole, a form that matches French Allemagne.
+    ht: ["Almay", "almaj"],  // Germany in Haitian Creole, a form that matches French Allemagne. Route by resemblance to the neighbouring forms (kw(Almayn) fr(Allemagne)); no etymology of its own.
     cs: ["Německo", "ˈɲɛmɛtsko"],  // From Němec "German", ultimately Proto-Slavic němьcь, "mute, foreigner".
     pt: ["Alemanha", "ɐlɨˈmɐɲɐ"],  // Named after the Alamanni, a Germanic tribal confederation on the upper Rhine.
     cdo: ["德国", "tɛiʔ˨˦ kuɔʔ˨˦"],  // 德 abbreviates 德意志, a transcription of German Deutsch, plus 国 "country".
-    ilo: ["Alemania", "ʔaleˈmanja"],  // Germany in Ilocano, a form that matches Spanish Alemania; stress assumed to follow Spanish.
+    ilo: ["Alemania", "ʔaleˈmanja"],  // Germany in Ilocano, a form that matches Spanish Alemania; stress assumed to follow Spanish. Route by resemblance to the neighbouring forms (tl alemanni es alemanni); no etymology of its own.
     rn: ["Ubudagi", "ubudaɡi"],  // From the class-14 prefix ubu- and German Deutsch; a folk etymology instead links it to the greeting "guten Tag".
     ca: ["Alemanya", "ələˈmaɲə"],  // Named after the Alamanni, a Germanic tribal confederation on the upper Rhine.
     ts: ["Jarimani", "dʒarimani"],  // Borrowed from English Germany, from Latin Germania.
     mnp: ["德国", "tɛ˨˦ ko˨˦"],  // 德 abbreviates 德意志, a transcription of German Deutsch, plus 国 "country".
     he: ["גרמניה", "ɡeʁˈmanja"],  // From Latin Germania, already in Mishnaic Hebrew; the modern use was probably shaped by Russian Германия.
     tg: ["Олмон", "olˈmon"],  // Same word as Persian آلمان, which came from French Allemagne and so goes back to the Alamanni.
-    ti: ["ጀርመን", "dʒɐrmɐn"],  // Germany in Tigrinya, a form that matches English German.
-    ak: ["Gyaaman", "dʑaːman"],  // Germany in Akan (Twi), a form that matches English German.
+    ti: ["ጀርመን", "dʒɐrmɐn"],  // Germany in Tigrinya, a form that matches English German. Route by resemblance to the neighbouring forms (bn(জার্মানি) te(జర్మనీ)); no etymology of its own.
+    ak: ["Gyaaman", "dʑaːman"],  // Germany in Akan (Twi), a form that matches English German. Route by resemblance to the neighbouring forms (bn(জার্মানি) te(జర్మనీ)); no etymology of its own.
     qu: ["Alimanya", "aliˈmaɲa"],  // Borrowed from Spanish Alemania, named after the Alamanni.
     ckb: ["ئەڵمانیا", "ʔaɫmaːnjaː"],  // Probably borrowed from Turkish Almanya, named after the Alamanni.
     sq: ["Gjermania", "ɟɛɾmaˈnia"],  // Borrowed from Italian Germania and cited in the definite form, as Albanian country names usually are.
     af: ["Duitsland", "ˈdœytslant"],  // Literally "German land", from Dutch Duitsland.
     bg: ["Германия", "ɡɛrˈmanijɐ"],  // From Latin Germania; the native Slavic name Немско is now obsolete.
-    anp: ["जर्मनी", "dʒərməniː"],  // The Angika Wikipedia name for Germany, the same form as Hindi जर्मनी.
-    sat: ["ᱡᱟᱨᱢᱟᱱᱤ", "dʒarmani"],  // Germany in Santali, a form that matches English Germany.
-    mad: ["Jèrman", "dʒɛrman"],  // The Madurese Wikipedia name for Germany, a form that matches Indonesian Jerman.
-    ki: ["Njĩrĩmani", "ndʒeɾemani"],  // The Kikuyu Wikipedia name for Germany, a form that matches English Germany.
-    kg: ["Alemanyi", "alemaɲi"],  // The Kikongo Wikipedia name for Germany, a form that matches French Allemagne.
-    ks: ["جَرمَنی", "dʒarmaniː"],  // The Kashmiri Wikipedia name for Germany, the same form as Urdu جرمنی.
+    anp: ["जर्मनी", "dʒərməniː"],  // The Angika Wikipedia name for Germany, the same form as Hindi जर्मनी. Route by resemblance to the neighbouring forms (hi(जर्मनी) ur(جرمنی)); no etymology of its own.
+    sat: ["ᱡᱟᱨᱢᱟᱱᱤ", "dʒarmani"],  // Germany in Santali, a form that matches English Germany. Route by resemblance to the neighbouring forms (bn(জার্মানি) te(జర్మనీ)); no etymology of its own.
+    mad: ["Jèrman", "dʒɛrman"],  // The Madurese Wikipedia name for Germany, a form that matches Indonesian Jerman. Route by resemblance to the neighbouring forms (id(Jerman) ms(Jerman)); no etymology of its own.
+    ki: ["Njĩrĩmani", "ndʒeɾemani"],  // The Kikuyu Wikipedia name for Germany, a form that matches English Germany. Route by resemblance to the neighbouring forms (ny(Jeremani) sw(Ujerumani)); no etymology of its own.
+    kg: ["Alemanyi", "alemaɲi"],  // The Kikongo Wikipedia name for Germany, a form that matches French Allemagne. Route by resemblance to the neighbouring forms (tl(Alemanya) es(Alemania)); no etymology of its own.
+    ks: ["جَرمَنی", "dʒarmaniː"],  // The Kashmiri Wikipedia name for Germany, the same form as Urdu جرمنی. Route by resemblance to the neighbouring forms (bn(জার্মানি) te(జర్మనీ)); no etymology of its own.
     ee: ["Dzamanya", "dzamaɲa"],  // The Ewe Wikipedia name for Germany.
     da: ["Tyskland", "ˈtˢysɡ̊ˌlanˀ"],  // Literally "German land"; tysk has the same source as German deutsch.
     hy: ["Գերմանիա", "ɡeɾˈmɑniɑ"],  // From Old Armenian Գերմանիա, which came from Greek Γερμανία.
     gn: ["Alemáña", "aleˈmaɲa"],  // Borrowed from Spanish, named after the Alamanni.
-    kab: ["Lalman", "lalman"],  // Germany in Kabyle, a form that matches French l'Allemagne with the article fused on.
-    luy: ["Jamani", "dʒamani"],  // Germany in Luhya, a form that matches English Germany.
+    kab: ["Lalman", "lalman"],  // Germany in Kabyle, a form that matches French l'Allemagne with the article fused on. Route by resemblance to the neighbouring forms (fr(Allemagne) ps(آلمان)); no etymology of its own.
+    luy: ["Jamani", "dʒamani"],  // Germany in Luhya, a form that matches English Germany. Route by resemblance to the neighbouring forms (bn(জার্মানি) te(జర్మనీ)); no etymology of its own.
     fi: ["Saksa", "ˈsɑksɑ"],  // From the Saxons: Finns first met Germans as Low German-speaking traders on the Baltic.
     lg: ["Girimane", "ɡirimane"],  // Germany in Luganda, a form that matches English Germany.
-    min: ["Jerman", "dʒerman"],  // The Minangkabau Wikipedia name for Germany, the same form as Indonesian Jerman.
+    min: ["Jerman", "dʒerman"],  // The Minangkabau Wikipedia name for Germany, the same form as Indonesian Jerman. Route by resemblance to the neighbouring forms (id(Jerman) ms(Jerman)); no etymology of its own.
     hr: ["Njemačka", "ɲěmatʃkaː"],  // From Nijemac "German", ultimately Proto-Slavic němьcь, "mute, foreigner".
     sk: ["Nemecko", "ˈɲemetsko"],  // From Nemec "German", ultimately Proto-Slavic němьcь, "mute, foreigner".
     mn: ["Герман", "ˈɡermaɴ"],  // From Russian Германия, ultimately Latin Germania; usually followed by улс "country".
@@ -540,9 +540,9 @@ WORDS.germany = {
     nds: ["Düütschland", "ˈdyːtʃlant"],  // Literally "German land", the Low German counterpart of Deutschland.
     be: ["Германія", "ɣʲerˈmanʲija"],  // From Latin Germania; the Taraškievica spelling standard uses the Slavic-rooted Нямеччына instead.
     tt: ["Алмания", "almaniˈja"],  // Named after the Alamanni; the Russian loan Германия is also used.
-    nso: ["Jeremane", "dʒeremane"],  // Germany in Northern Sotho, a form that matches English Germany; Names of Germany also lists an older Tôitšhi from Deutsch.
-    bik: ["Alemanya", "ʔaleˈmaɲa"],  // Germany in Central Bikol, a form that matches Spanish Alemania; stress assumed to follow Spanish.
-    tpi: ["Siamani", "siamani"],  // Tok Pisin Wikipedia's name for Germany; no source found naming its donor language.
+    nso: ["Jeremane", "dʒeremane"],  // Germany in Northern Sotho, a form that matches English Germany; Names of Germany also lists an older Tôitšhi from Deutsch. Route by resemblance to the neighbouring forms (ny(Jeremani) id(Jerman)); no etymology of its own.
+    bik: ["Alemanya", "ʔaleˈmaɲa"],  // Germany in Central Bikol, a form that matches Spanish Alemania; stress assumed to follow Spanish. Route by resemblance to the neighbouring forms (gn(Alemáña) pam(Alemanya)); no etymology of its own.
+    tpi: ["Siamani", "siamani"],  // Tok Pisin Wikipedia's name for Germany; no source found naming its donor language. Route by resemblance to the neighbouring forms (sm(Siamani) wls(Siamani)); no etymology of its own.
     mzn: ["آلمان", "ɒːlˈmɒːn"],  // Same form as Persian ālmān, borrowed from French Allemagne, from the Alamanni tribe.
     vec: ["Zermània", "zerˈmanja"],  // From Latin Germania, with the Venetian change of g- to z- (compare zente 'people').
     ka: ["გერმანია", "ɡermania"],  // From Latin Germānia.
@@ -557,7 +557,7 @@ WORDS.germany = {
     war: ["Alemanya", "ʔaleˈmaɲa"],  // From Spanish Alemania, from the Alamanni tribe.
     bs: ["Njemačka", "ˈɲɛmatʃkaː"],  // From Nijemac 'a German', from Proto-Slavic němьcь 'mute, foreigner'.
     gl: ["Alemaña", "aleˈmaɲa"],  // From Latin Alemannia, the land of the Alamanni tribe.
-    ssw: ["iJalimane", "idʒalimane"],  // siSwati Wikipedia's name for Germany; compare Zulu iJalimani; no source found naming the donor.
+    ssw: ["iJalimane", "idʒalimane"],  // siSwati Wikipedia's name for Germany; compare Zulu iJalimani; no source found naming the donor. Route by resemblance to the neighbouring forms (zu(iJalimani)); no etymology of its own.
     kok: ["जर्मनी", "dʒərməniː"],  // Borrowed from English Germany, from Latin Germania.
     egl: ["Germâgna", "dʒerˈmaːɲa"],  // Inherited from Latin Germania (Bolognese form).
     ay: ["Alimaña", "alimaɲa"],  // From Spanish Alemania, from the Alamanni tribe.
@@ -580,30 +580,30 @@ WORDS.germany = {
     aii: ["ܐܠܡܢ", "ˈʔalmaːn"],  // From French Allemagne, after the Alamanni; ܓܸܪܡܵܢ girmān is a synonym (Wiktionary).
     fur: ["Gjermanie", "ɟerˈmanie"],  // From Latin Germania.
     mt: ["Ġermanja", "dʒɛrˈmaːnja"],  // From Latin Germania via Italian Germania; usually used with the article, il-Ġermanja.
-    wa: ["Almagne", "alˈmaɲ"],  // Germany in Walloon; Wiktionary gives no etymology, though it matches French Allemagne.
-    os: ["Герман", "ɡerman"],  // Germany in Ossetian; no source found naming the donor.
-    rue: ["Нїмецько", "nʲiˈmetsʲko"],  // Germany in Rusyn, related to нїмецькый "German"; no source found that gives its etymology.
-    kbd: ["Джэрмэн", "dʒarman"],  // Germany in Kabardian Wikipedia; no source found naming the donor.
-    cv: ["Германи", "ɡerˈmani"],  // Germany in Chuvash; no source found naming the donor.
-    av: ["Германия", "ɡermanija"],  // Germany in Avar Wikipedia; Wiktionary also lists Алмания; no source found naming the donor.
-    lez: ["Германия", "ɡerˈmanija"],  // Germany in Lezgian; no source found naming the donor.
-    new: ["जर्मनी", "dʒəɾməni"],  // Germany in Newar; no source found naming the donor.
-    pnt: ["Γερμανία", "ʝermaˈnia"],  // Germany in Pontic Greek, the same form as Standard Greek; no source found naming the donor.
-    ve: ["Dzheremane", "dʒeremane"],  // Germany in Venda, as in the German Foreign Office's official Venda rendering; no source found naming the donor.
-    gor: ["Jerman", "ˈdʒerman"],  // Germany in Gorontalo Wikipedia, the same form as Indonesian Jerman; no source found naming the donor.
+    wa: ["Almagne", "alˈmaɲ"],  // Germany in Walloon; Wiktionary gives no etymology, though it matches French Allemagne. Route by resemblance to the neighbouring forms (fr(Allemagne) ps(آلمان)); no etymology of its own.
+    os: ["Герман", "ɡerman"],  // Germany in Ossetian; no source found naming the donor. Route by resemblance to the neighbouring forms (ce(Германи) mn(Герман)); no etymology of its own.
+    rue: ["Нїмецько", "nʲiˈmetsʲko"],  // Germany in Rusyn, related to нїмецькый "German"; no source found that gives its etymology. Route by resemblance to the neighbouring forms (cs(Německo) sk(Nemecko)); no etymology of its own.
+    kbd: ["Джэрмэн", "dʒarman"],  // Germany in Kabardian Wikipedia; no source found naming the donor. Route by resemblance to the neighbouring forms (bn(জার্মানি) te(జర్మనీ)); no etymology of its own.
+    cv: ["Германи", "ɡerˈmani"],  // Germany in Chuvash; no source found naming the donor. Route by resemblance to the neighbouring forms (ce(Германи) he(גרמניה)); no etymology of its own.
+    av: ["Германия", "ɡermanija"],  // Germany in Avar Wikipedia; Wiktionary also lists Алмания; no source found naming the donor. Route by resemblance to the neighbouring forms (uz(Germaniya) bg(Германия)); no etymology of its own.
+    lez: ["Германия", "ɡerˈmanija"],  // Germany in Lezgian; no source found naming the donor. Route by resemblance to the neighbouring forms (uz(Germaniya) bg(Германия)); no etymology of its own.
+    new: ["जर्मनी", "dʒəɾməni"],  // Germany in Newar; no source found naming the donor. Route by resemblance to the neighbouring forms (hi(जर्मनी) ur(جرمنی)); no etymology of its own.
+    pnt: ["Γερμανία", "ʝermaˈnia"],  // Germany in Pontic Greek, the same form as Standard Greek; no source found naming the donor. Route by resemblance to the neighbouring forms (el(Γερμανία) he(גרמניה)); no etymology of its own.
+    ve: ["Dzheremane", "dʒeremane"],  // Germany in Venda, as in the German Foreign Office's official Venda rendering; no source found naming the donor. Route by resemblance to the neighbouring forms (ny(Jeremani) id(Jerman)); no etymology of its own.
+    gor: ["Jerman", "ˈdʒerman"],  // Germany in Gorontalo Wikipedia, the same form as Indonesian Jerman; no source found naming the donor. Route by resemblance to the neighbouring forms (id(Jerman) ms(Jerman)); no etymology of its own.
     kbp: ["Caama", "tʃaːma"],  // Germany in Kabiye Wikipedia; no source found for its origin.
     sm: ["Siamani", "siamani"],  // Borrowed from English Germany (Wiktionary).
     szl: ["Miymcy", "ˈmjɪmtsɪ"],  // A plural form like Polish Niemcy, from the Slavic word for the Germans, němьcь, first meaning a mute or foreign-speaking person.
     oc: ["Alemanha", "aleˈmaɲɔ"],  // Named after the Alamanni, a Germanic tribal confederation on the Upper Rhine.
     fy: ["Dútslân", "ˈdytslɔːn"],  // Literally 'German land', from Dútsk 'German' plus lân 'land' (Wiktionary).
-    sah: ["Германия", "ɡerˈmanija"],  // Sakha Wikipedia's name for Germany, the same form as Russian Германия; no source found that names the donor.
+    sah: ["Германия", "ɡerˈmanija"],  // Sakha Wikipedia's name for Germany, the same form as Russian Германия; no source found that names the donor. Route by resemblance to the neighbouring forms (uz(Germaniya) bg(Германия)); no etymology of its own.
     pdt: ["Dietschlaunt", "ˈditʃlaunt"],  // Literally 'German land', from dietsch 'German' plus Launt 'land', a cognate of German Deutschland (Wiktionary).
     is: ["Þýskaland", "ˈθiskalant"],  // From Old Norse þýzkr 'German' plus land, a cognate of German Deutschland (Wiktionary).
     dv: ["ޖަރުމަނުވިލާތް", "dʒaɾumanuvilaːt"],  // English Germany plus ވިލާތް vilāt 'foreign country' (Wiktionary).
-    udm: ["Германия", "ɡerˈmanija"],  // Udmurt Wikipedia's name for Germany, the same form as Russian Германия; no source found that names the donor.
+    udm: ["Германия", "ɡerˈmanija"],  // Udmurt Wikipedia's name for Germany, the same form as Russian Германия; no source found that names the donor. Route by resemblance to the neighbouring forms (uz(Germaniya) bg(Германия)); no etymology of its own.
     pdc: ["Deitschland", "ˈdaɪtʃlant"],  // Descended from Middle High German Diutschlant 'German land', like German Deutschland (Wiktionary).
     br: ["Alamagn", "aˈlɑ̃mːɑ̃ɲ"],  // From French Allemagne, the land of the Alamanni (Breton Wiktionary).
-    bi: ["Jemani", "dʒemani"],  // Bislama Wikipedia's name for Germany; no source found that names the donor.
+    bi: ["Jemani", "dʒemani"],  // Bislama Wikipedia's name for Germany; no source found that names the donor. Route by resemblance to the neighbouring forms (ta(ஜெர்மனி) en(Germany)); no etymology of its own.
     nv: ["Béésh Bichʼahii Bikéyah", "péːʃ pìtʃʼɑ̀hìː pìkʰéjɑ̀h"],  // Literally 'land of the iron-hat wearers', after the steel helmets of German soldiers in the Second World War (Wiktionary).
     dng: ["Дыйгуә", "tei˨˦ kuə˥˩"],  // The Chinese name 德國: 德 short for 德意志, a transcription of Deutsch, plus 國 'country' (Wiktionary).
     ast: ["Alemaña", "aleˈmaɲa"],  // From Latin Alemannia, the land of the Alamanni tribe (Wiktionary).
@@ -616,14 +616,14 @@ WORDS.germany = {
     mh: ["Jāmne", "tʲæmʲnʲɛj"],  // Borrowed from English Germany (Wiktionary, Marshallese-English Dictionary).
     mi: ["Tiamana", "tiamana"],  // Most likely borrowed from English Germany (Wiktionary).
     chk: ["Toowis", "toːwis"],  // Probably from German Deutsch (Wiktionary, after the Trukese-English Dictionary).
-    iu: ["ᔮᒪᓂ", "jaːmani"],  // Inuktitut Wikipedia's name for Germany (jaamani); no source found that names the donor.
+    iu: ["ᔮᒪᓂ", "jaːmani"],  // Inuktitut Wikipedia's name for Germany (jaamani); no source found that names the donor. Route by resemblance to the neighbouring forms (sm(Siamani) rar(Tiāmani)); no etymology of its own.
     sa: ["शर्मण्यदेशः", "ɕɐɾmɐɳjɐdeːɕɐh"],  // A New Sanskrit coinage: शर्मण्य, from English Germany, plus देश 'country' (Wiktionary).
     se: ["Duiska", "ˈtujːska"],  // From North Germanic, compare Swedish tysk 'German' (Wiktionary).
     haw: ["Kelemānia", "kelemaːnia"],  // Most likely borrowed from English Germany (Wiktionary).
     rar: ["Tiāmani", "tiaːmani"],  // Borrowed from English Germany (Wiktionary).
     hsb: ["Němska", "ˈnɪmska"],  // From Němc 'a German', ultimately the Slavic word němьcь, first meaning a mute or foreign-speaking person.
     frr: ["Tjüschlönj", "ˈtʃʏʃlœnʲ"],  // The Mooring form, a calque of German Deutschland: tjüsch 'German' plus lönj 'land' (Wiktionary).
-    an: ["Alemanya", "aleˈmaɲa"],  // Aragonese Wikipedia's name for Germany, the same form as Catalan Alemanya; no source found that names the donor.
+    an: ["Alemanya", "aleˈmaɲa"],  // Aragonese Wikipedia's name for Germany, the same form as Catalan Alemanya; no source found that names the donor. Route by resemblance to the neighbouring forms (gn(Alemáña) pam(Alemanya)); no etymology of its own.
     dsb: ["Nimska", "ˈɲimska"],  // From Nimc 'a German', from Proto-Slavic němьcь, first meaning a mute or foreign-speaking person (Wiktionary).
     lkt: ["Iyášiča Makȟóčhe", "ijáʃitʃa makˣótʃʰe"],  // Literally 'land of the bad speakers' (Ullrich, New Lakota Dictionary 2008).
     stq: ["Düütsklound", "ˈdytskloːu̯nd"],  // Literally 'German land', a calque of German Deutschland (Wiktionary).

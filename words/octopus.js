@@ -122,7 +122,7 @@ WORDS.octopus = {
     mrw: "plain",
     eu: "unknown",
     ady: "unknown",
-    mt: "unknown",
+    mt: "other",
     sm: "plain",
     gcf: "unknown",
     is: "other",
@@ -237,9 +237,9 @@ WORDS.octopus = {
     be: "eight",
     tk: "eight",
     tt: "eight",
-    qu: "unknown",
+    qu: "many",
     sq: "unknown",
-    sat: "unknown",
+    sat: "eight",
     ak: "unknown",
     da: "other",
     no: "other",
@@ -327,7 +327,7 @@ WORDS.octopus = {
     mrw: ["kogita", "koɡita"],  // Inherited from Proto-Austronesian *guʀiCa 'octopus' (ACD).
     eu: ["olagarro", "olaɡaro"],  // The Basque name; its origin is not given in the sources.
     ady: ["псылъэхъу", "psəɬaχʷ"],  // The Adyghe name; its parts are not explained in the source.
-    mt: ["qarnit", "ʔarˈniːt"],  // Inherited from Arabic qarnīṭ, which Tunisian Arabic shares.
+    mt: ["qarnit", "ʔarˈniːt"],  // Inherited from Arabic qarnīṭ, which Tunisian Arabic shares. Route by resemblance to the neighbouring forms (ar_tn(قرنيط)); no etymology of its own.
     sm: ["feʻe", "feʔe"],  // Inherited from Proto-Polynesian *feke 'octopus' (POLLEX).
     gcf: ["chatou", "ʃatu"],  // From a Norman French word satrouille 'cuttlefish, octopus'.
     is: ["kolkrabbi", "ˈkʰɔlkʰrapɪ"],  // Literally 'coal crab': kol 'coal' + krabbi 'crab'.
@@ -442,9 +442,9 @@ WORDS.octopus = {
     be: ["васьміног", "vasʲmʲiˈnox"],  // Literally 'eight-legs', like Russian осьминог and Ukrainian восьминіг; спрут is also used.
     tk: ["sekizaýak", "sekizaˈjak"],  // Literally 'eight-foot': sekiz 'eight' + aýak 'foot'.
     tt: ["сигезаяк", "siɡezɑˈjɑq"],  // Literally 'eight-foot': сигез 'eight' + аяк 'foot, leg'.
-    qu: ["pulpu", "ˈpulpu"],  // The Quechua name; Quechua Wikipedia also gives pusaqchaki 'eight-foot'.
+    qu: ["pulpu", "ˈpulpu"],  // The Quechua name; Quechua Wikipedia also gives pusaqchaki 'eight-foot'. Route by resemblance to the neighbouring forms (ast(pulpu) es(pulpo)); no etymology of its own.
     sq: ["oktapod", "ɔktaˈpɔd"],  // The common Albanian name; tetëkëmbësh 'eight-footed' is a calque also listed by Wiktionary.
-    sat: ["ᱚᱠᱴᱚᱯᱚᱥ", "ɔkʈɔpɔs"],  // The Santali name, as used by Santali Wikipedia.
+    sat: ["ᱚᱠᱴᱚᱯᱚᱥ", "ɔkʈɔpɔs"],  // The Santali name, as used by Santali Wikipedia. Route by resemblance to the neighbouring forms (or(ଅକ୍ଟୋପସ) hi(ऑक्टोपस)); no etymology of its own.
     ak: ["posena", "posena"],  // The Akan (Twi) name; its origin is not given in the sources.
     da: ["blæksprutte", "ˈb̥lɛɡ̊ˌsb̥ʁud̥ə"],  // Literally 'ink squirter'; in everyday speech it covers octopus as well as squid, and ottearmet blæksprutte 'eight-armed' is the precise term.
     no: ["blekksprut", "ˈblekːsprʉːt"],  // Literally 'ink squirter': blekk 'ink' + sprute 'squirt'; it also covers squid.

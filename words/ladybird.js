@@ -198,7 +198,7 @@ WORDS.ladybird = {
     fr_af: "other",
     de_lu: "holy",
     nl_be: "holy",
-    ca_va: "unknown",
+    ca_va: "holy",
     pt_mo: "other",
     pt_cv: "other",
     pt_mz: "other",
@@ -358,7 +358,7 @@ WORDS.ladybird = {
     fr_af: ["coccinelle", "kɔksinɛl"],  // From the scientific Latin Coccinella, from coccinus "scarlet", after its colour; the folk name bête à bon Dieu "God's creature" also exists.
     de_lu: ["Marienkäfer", "maˈʁiːənkɛːfɐ"],  // Literally "Mary beetle", after the Virgin Mary.
     nl_be: ["lieveheersbeestje", "livəˈɦeːrsbeːstjə"],  // "Our dear Lord's little beast"; Flemish children also say pimpampoentje.
-    ca_va: ["marieta", "maɾiˈeta"],  // A diminutive of the name Maria, the same word as in Catalan.
+    ca_va: ["marieta", "maɾiˈeta"],  // A diminutive of the name Maria, the same word as in Catalan. Route by resemblance to the neighbouring forms (es(mariquita) es_ec(mariquita)); no etymology of its own.
     pt_mo: ["joaninha", "ʒwɐˈniɲɐ"],  // "Little Joan", a diminutive of the woman's name Joana.
     pt_cv: ["joaninha", "ʒwɐˈniɲɐ"],  // "Little Joan", a diminutive of the woman's name Joana.
     pt_mz: ["joaninha", "ʒwɐˈniɲɐ"],  // "Little Joan", a diminutive of the woman's name Joana.

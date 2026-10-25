@@ -83,7 +83,7 @@ WORDS.india = {
     ja: "yindu",
     fa: "persian",
     sw: "persian",
-    jv: "unknown",
+    jv: "greek",
     yue: "yindu",
     vi: "yindu",
     tr: "persian",
@@ -94,7 +94,7 @@ WORDS.india = {
     wuu: "yindu",
     ta: "greek",
     ha: "greek",
-    ms: "unknown",
+    ms: "greek",
     it: "greek",
     pnb: "bharat",
     cjy: "yindu",
@@ -108,29 +108,29 @@ WORDS.india = {
     yo: "greek",
     pl: "greek",
     kn: "bharat",
-    ig: "unknown",
-    su: "unknown",
-    uk: "unknown",
+    ig: "greek",
+    su: "greek",
+    uk: "greek",
     mai: "bharat",
     ml: "greek",
     or: "bharat",
     hsn: "yindu",
     awa: "bharat",
-    om: "unknown",
+    om: "greek",
     uz: "persian",
     my: "greek",
-    am: "unknown",
+    am: "persian",
     sd: "bharat",
     ne: "bharat",
-    ku: "unknown",
+    ku: "persian",
     zu: "greek",
     ro: "greek",
     skr: "bharat",
     nl: "greek",
-    so: "unknown",
+    so: "greek",
     gan: "yindu",
     si: "greek",
-    km: "unknown",
+    km: "greek",
     za: "yindu",
     kk: "persian",
     as: "bharat",
@@ -138,112 +138,112 @@ WORDS.india = {
     el: "greek",
     hu: "greek",
     ug: "persian",
-    wo: "unknown",
+    wo: "persian",
     rw: "unknown",
-    sn: "unknown",
+    sn: "greek",
     sr: "greek",
     ht: "greek",
     cs: "greek",
     pt: "greek",
     cdo: "yindu",
-    rn: "unknown",
+    rn: "persian",
     ca: "greek",
-    ts: "unknown",
+    ts: "greek",
     he: "persian",
     tg: "persian",
-    ti: "unknown",
-    ckb: "unknown",
-    sq: "unknown",
-    lo: "unknown",
+    ti: "persian",
+    ckb: "persian",
+    sq: "greek",
+    lo: "greek",
     af: "greek",
-    bg: "unknown",
+    bg: "greek",
     anp: "bharat",
     sat: "unknown",
-    mad: "unknown",
-    ki: "unknown",
-    kg: "unknown",
+    mad: "greek",
+    ki: "greek",
+    kg: "greek",
     ks: "persian",
     hy: "unknown",
     bo: "other",
     kab: "persian",
     fi: "greek",
-    nap: "unknown",
-    lg: "unknown",
-    min: "unknown",
+    nap: "greek",
+    lg: "greek",
+    min: "greek",
     hr: "greek",
-    sk: "unknown",
+    sk: "greek",
     mn: "other",
     no: "greek",
-    ky: "unknown",
-    nds: "unknown",
+    ky: "greek",
+    nds: "greek",
     scn: "greek",
-    tt: "unknown",
-    nso: "unknown",
-    sg: "unknown",
-    tpi: "unknown",
-    kam: "unknown",
-    din: "unknown",
-    luo: "unknown",
-    vec: "unknown",
+    tt: "persian",
+    nso: "greek",
+    sg: "greek",
+    tpi: "greek",
+    kam: "greek",
+    din: "greek",
+    luo: "greek",
+    vec: "greek",
     ka: "unknown",
-    ace: "unknown",
+    ace: "greek",
     czh: "yindu",
-    lmo: "unknown",
-    bjn: "unknown",
-    ban: "unknown",
+    lmo: "greek",
+    bjn: "greek",
+    ban: "greek",
     shn: "unknown",
-    lt: "unknown",
-    tum: "unknown",
-    zza: "unknown",
+    lt: "greek",
+    tum: "greek",
+    zza: "persian",
     sl: "greek",
     gl: "greek",
     kok: "bharat",
-    ay: "unknown",
+    ay: "greek",
     ce: "unknown",
-    mer: "unknown",
-    rhg: "unknown",
+    mer: "greek",
+    rhg: "greek",
     ga: "greek",
     lv: "greek",
     mni: "bharat",
     mk: "greek",
-    sco: "unknown",
-    ba: "unknown",
-    et: "unknown",
-    cy: "unknown",
+    sco: "greek",
+    ba: "persian",
+    et: "greek",
+    cy: "greek",
     new: "bharat",
     eu: "greek",
     aii: "persian",
-    rue: "unknown",
-    os: "unknown",
-    yi: "unknown",
-    mt: "unknown",
-    szl: "unknown",
+    rue: "greek",
+    os: "greek",
+    yi: "greek",
+    mt: "greek",
+    szl: "greek",
     oc: "greek",
-    crh: "unknown",
-    sah: "unknown",
-    kum: "unknown",
+    crh: "persian",
+    sah: "greek",
+    kum: "persian",
     is: "greek",
     dv: "greek",
     tyv: "unknown",
-    bi: "unknown",
-    br: "unknown",
-    to: "unknown",
+    bi: "greek",
+    br: "greek",
+    to: "greek",
     nv: "other",
     dng: "yindu",
-    lbe: "unknown",
+    lbe: "persian",
     ast: "greek",
-    csb: "unknown",
+    csb: "greek",
     eo: "bharat",
     fo: "greek",
-    mi: "unknown",
+    mi: "greek",
     haw: "greek",
     rar: "greek",
     hsb: "greek",
     an: "greek",
-    dsb: "unknown",
-    ia: "unknown",
+    dsb: "greek",
+    ia: "greek",
     kw: "greek",
-    mnc: "unknown",
+    mnc: "yindu",
     yue_zs: "yindu",
     lb: "greek",
     es_cr: "greek",
@@ -317,7 +317,7 @@ WORDS.india = {
     en_sg: "greek",
     de_at: "greek",
     gsw: "greek",
-    sgs: "unknown",
+    sgs: "greek",
     fr_qc: "greek",
     fr_af: "greek",
     fr_be: "greek",
@@ -393,7 +393,7 @@ WORDS.india = {
     ja: ["インド", "indo"],  // The Japanese reading of the Chinese name 印度, once written in those kanji and now in katakana (Wiktionary).
     fa: ["هند", "hend"],  // Inherited from Old Persian Hiⁿdūš, the Indus land; هندوستان Hendustân is the colloquial alternative (Wiktionary).
     sw: ["Uhindi", "uˈhindi"],  // From Arabic al-Hind, itself from Persian Hind; India, from English, is also used (Wiktionary).
-    jv: ["Indhi", "inɖi"],  // The Javanese Wikipedia spelling, with the retroflex dh of Javanese.
+    jv: ["Indhi", "inɖi"],  // The Javanese Wikipedia spelling, with the retroflex dh of Javanese. Route by resemblance to the neighbouring forms (en_in(India)); no etymology of its own.
     yue: ["印度", "jɐn˧ tou˨"],  // The Cantonese reading of 印度, the name Xuanzang fixed in 646 CE (Wiktionary).
     vi: ["Ấn Độ", "ən˧˥ ɗo˧˨ʔ"],  // The Sino-Vietnamese reading of Chinese 印度 (Wiktionary).
     tr: ["Hindistan", "hinˈdistan"],  // Hind 'India' plus Persian -istan 'land', borrowed into Ottoman from Persian (Nişanyan).
@@ -404,7 +404,7 @@ WORDS.india = {
     wuu: ["印度", "in˥ du˨˩"],  // The Shanghainese reading of 印度 (Wiktionary).
     ta: ["இந்தியா", "ind̪ijaː"],  // Borrowed from English India; பாரதம் Bhāratam is the Sanskrit-derived synonym (Wiktionary).
     ha: ["Indiya", "ʔindija"],  // Borrowed from English India (Wiktionary).
-    ms: ["India", "ˈindia"],  // The Malay Wikipedia name; Hindustan is an older alternative.
+    ms: ["India", "ˈindia"],  // The Malay Wikipedia name; Hindustan is an older alternative. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     it: ["India", "ˈindja"],  // From Latin India, from Greek Ἰνδία (Wiktionary).
     pnb: ["بھارت", "pàːɾət"],  // Learned borrowing from Sanskrit Bhārata; ہندوستان Hindustān is also used (Wiktionary).
     cjy: ["印度", "iŋ˦˥ tu˦˥"],  // The Taiyuan reading of 印度.
@@ -418,29 +418,29 @@ WORDS.india = {
     yo: ["Índíà", "ĩ́díà"],  // Borrowed from English India; also written Íńdíà (Wiktionary).
     pl: ["Indie", "ˈindjɛ"],  // Borrowed from Latin India; grammatically a plural noun, like Chiny 'China' (Wiktionary).
     kn: ["ಭಾರತ", "bʱaːɾat̪a"],  // Learned borrowing from Sanskrit Bhārata (Wiktionary).
-    ig: ["Ndia", "ndia"],  // The Igbo Wikipedia name.
-    su: ["India", "india"],  // The Sundanese Wikipedia name.
-    uk: ["Індія", "ˈinʲdʲijɐ"],  // Ultimately from Old Persian hindu and Sanskrit Sindhu, the Indus (Ukrainian Wiktionary).
+    ig: ["Ndia", "ndia"],  // The Igbo Wikipedia name. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
+    su: ["India", "india"],  // The Sundanese Wikipedia name. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
+    uk: ["Індія", "ˈinʲdʲijɐ"],  // Ultimately from Old Persian hindu and Sanskrit Sindhu, the Indus (Ukrainian Wiktionary). Route by resemblance to the neighbouring forms (tl(Indiya) ta(இந்தியா)); no etymology of its own.
     mai: ["भारत", "bʱaːrət"],  // The Maithili Wikipedia name, the same Bhārat as Hindi.
     ml: ["ഇന്ത്യ", "ind̪ja"],  // Borrowed from English India; ഭാരതം Bhāratam is the Sanskrit-derived synonym (Wiktionary).
     or: ["ଭାରତ", "bʱaːɾɔtɔ"],  // Learned borrowing from Sanskrit Bhārata; ଭାରତବର୍ଷ and ହିନ୍ଦୁସ୍ତାନ are synonyms (Wiktionary).
     hsn: ["印度", "in˦˥ təu˦˥"],  // The Changsha reading of 印度.
     awa: ["भारत", "bʱaːrət"],  // The Awadhi Wikipedia name, the same Bhārat as Hindi.
-    om: ["Indiyaa", "indijaː"],  // The Oromo Wikipedia name.
+    om: ["Indiyaa", "indijaː"],  // The Oromo Wikipedia name. Route by resemblance to the neighbouring forms (tl(Indiya) ta(இந்தியா)); no etymology of its own.
     uz: ["Hindiston", "hindisˈtɒn"],  // Hind plus Persian -iston 'land', from Chagatai and ultimately Persian Hindistān (Wiktionary).
     my: ["အိန္ဒိယ", "ʔèɪɴdḭja̰"],  // Borrowed from English India; the country is formally အိန္ဒိယနိုင်ငံ 'India country' (Wiktionary).
-    am: ["ህንድ", "hɨnd"],  // The Amharic Wikipedia name; also spelled ሕንድ.
+    am: ["ህንድ", "hɨnd"],  // The Amharic Wikipedia name; also spelled ሕንድ. Route by resemblance to the neighbouring forms (ps(هند) prs(هند)); no etymology of its own.
     sd: ["ڀارت", "bʱaːrətʊ"],  // Borrowed from Sanskrit Bhārata; ھندستان Hindustānu is a synonym (Wiktionary).
     ne: ["भारत", "bʱaːɾʌt"],  // Learned borrowing from Sanskrit Bhārata (Wiktionary).
-    ku: ["Hindistan", "hɪndɪsˈtɑːn"],  // The Kurmanji name, Hind plus -istan 'land'.
+    ku: ["Hindistan", "hɪndɪsˈtɑːn"],  // The Kurmanji name, Hind plus -istan 'land'. Route by resemblance to the neighbouring forms (tr(Hindistan) ug(ھىندىستان)); no etymology of its own.
     zu: ["iNdiya", "iˈndija"],  // Borrowed from English India (Wiktionary), with the noun prefix i-.
     ro: ["India", "ˈindia"],  // From Latin India, from Greek Ἰνδία (Romanian Wiktionary).
     skr: ["بھارت", "bʱaːɾət"],  // The Saraiki Wikipedia name, the same Bhārat as Urdu.
     nl: ["India", "ˈɪndiaː"],  // From Latin India (Wiktionary).
-    so: ["Hindiya", "hindija"],  // The Somali Wikipedia name.
+    so: ["Hindiya", "hindija"],  // The Somali Wikipedia name. Route by resemblance to the neighbouring forms (tl(Indiya) ta(இந்தியா)); no etymology of its own.
     gan: ["印度", "in˦˥ tʰu˨˩"],  // The Nanchang reading of 印度.
     si: ["ඉන්දියාව", "indijaːʋə"],  // Borrowed from English India with the Sinhala singular ending -ව; භාරතය Bhāratayə is the Sanskrit-derived synonym (Wiktionary).
-    km: ["ឥណ្ឌា", "ʔənˈɗiə"],  // The Khmer name, formally ប្រទេសឥណ្ឌា 'country India'; also spelled ឥណ្ឌៀ (Wiktionary).
+    km: ["ឥណ្ឌា", "ʔənˈɗiə"],  // The Khmer name, formally ប្រទេសឥណ្ឌា 'country India'; also spelled ឥណ្ឌៀ (Wiktionary). Route by resemblance to the neighbouring forms (af(Indië) en_nz(India)); no etymology of its own.
     za: ["Yindu", "jin˧˥ tu˧˥"],  // Borrowed from Mandarin 印度; the older Sino-Zhuang reading Yaenq Doh is also given (Zhuang Wikipedia).
     kk: ["Үндістан", "yndɪsˈtɑn"],  // Borrowed from Persian Hindūstān 'land of the Hindus' (Wiktionary).
     as: ["ভাৰত", "bʱaɹɔt"],  // Learned borrowing from Sanskrit Bhārata (Wiktionary).
@@ -448,112 +448,112 @@ WORDS.india = {
     el: ["Ινδία", "inˈðia"],  // Inherited from Ancient Greek Ἰνδία, the land of the Indus, the source of the Latin and Western names (Wiktionary).
     hu: ["India", "ˈindijɒ"],  // From Latin India (Wiktionary).
     ug: ["ھىندىستان", "hindisˈtɑn"],  // Hindistan, from Persian Hindustan "land of the Hind"; ئەنەتكەك is an older name.
-    wo: ["End", "ɛnd"],  // End is the title of the Wolof Wikipedia article on India.
+    wo: ["End", "ɛnd"],  // End is the title of the Wolof Wikipedia article on India. Route by resemblance to the neighbouring forms (fa(هند)); no etymology of its own.
     rw: ["Ubuhinde", "ubuhinde"],  // Ubuhinde, with the country prefix ubu-, as in the Kinyarwanda Wikipedia.
-    sn: ["India", "india"],  // Shona uses the international name India.
+    sn: ["India", "india"],  // Shona uses the international name India. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     sr: ["Индија", "ǐndija"],  // From Greek Indía, named after the Indus river.
     ht: ["End", "ɛ̃d"],  // From French Inde, itself from Latin India.
     cs: ["Indie", "ˈɪndɪjɛ"],  // From Latin India via Old Czech; the di is read hard, not as ďi.
     pt: ["Índia", "ˈĩdjɐ"],  // From Latin India, from Greek Indía, after the Indus river.
     cdo: ["印度", "ɛiŋ˨˩˧ tou˨˦˨"],  // Éng-dô, the Fuzhou reading of 印度, the name Xuanzang fixed in 646 CE.
-    rn: ["Ubuhindi", "ubuhindi"],  // Ubuhindi, with the country prefix ubu-, as in the Kirundi Wikipedia.
+    rn: ["Ubuhindi", "ubuhindi"],  // Ubuhindi, with the country prefix ubu-, as in the Kirundi Wikipedia. Route by resemblance to the neighbouring forms (sw(Uhindi)); no etymology of its own.
     ca: ["Índia", "ˈindiə"],  // Learned borrowing from Latin India, from Greek Indía.
-    ts: ["Indiya", "indija"],  // Indiya is the title of the Xitsonga Wikipedia article on India.
+    ts: ["Indiya", "indija"],  // Indiya is the title of the Xitsonga Wikipedia article on India. Route by resemblance to the neighbouring forms (tl(Indiya) ta(இந்தியா)); no etymology of its own.
     he: ["הודו", "ˈhodu"],  // Hodu, already in the Book of Esther, from Old Persian Hinduš; the same word also means turkey.
     tg: ["Ҳиндустон", "hindusˈton"],  // Hinduston, inherited from Persian Hindustan; the short form Ҳинд also exists.
-    ti: ["ህንዲ", "hɨndi"],  // Hindi, the Tigrinya name, as in the Tigrinya Wikipedia.
-    ckb: ["ھیندستان", "hiːndəstaːn"],  // Hindistan, the same name as Kurmanji Hindistan.
-    sq: ["India", "inˈdia"],  // India is the definite form of Indi, the form country names are usually cited in.
-    lo: ["ອິນເດຍ", "ʔin˩˧ diːə˩˧"],  // Usually said in full as ປະເທດອິນເດຍ "country India"; Wiktionary calls it a doublet of ສິນທຸ Sindhu.
+    ti: ["ህንዲ", "hɨndi"],  // Hindi, the Tigrinya name, as in the Tigrinya Wikipedia. Route by resemblance to the neighbouring forms (sw(Uhindi) ps(هند)); no etymology of its own.
+    ckb: ["ھیندستان", "hiːndəstaːn"],  // Hindistan, the same name as Kurmanji Hindistan. Route by resemblance to the neighbouring forms (tr(Hindistan) ug(ھىندىستان)); no etymology of its own.
+    sq: ["India", "inˈdia"],  // India is the definite form of Indi, the form country names are usually cited in. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
+    lo: ["ອິນເດຍ", "ʔin˩˧ diːə˩˧"],  // Usually said in full as ປະເທດອິນເດຍ "country India"; Wiktionary calls it a doublet of ສິນທຸ Sindhu. Route by resemblance to the neighbouring forms (en(India) pl(Indie)); no etymology of its own.
     af: ["Indië", "ˈəndiə"],  // From Dutch Indië, from Latin India.
-    bg: ["Индия", "ˈindijɐ"],  // Indiya, the same name as Russian Индия.
+    bg: ["Индия", "ˈindijɐ"],  // Indiya, the same name as Russian Индия. Route by resemblance to the neighbouring forms (tl(Indiya) ta(இந்தியா)); no etymology of its own.
     anp: ["भारत", "bʱaːrət"],  // Bharat, the Sanskrit-derived name, is the title of the Angika Wikipedia article.
     sat: ["ᱥᱤᱧᱚᱛ", "siɲɔt"],  // Siñot is the Santali name; ᱵᱷᱚᱨᱳᱛᱵᱳᱨᱥᱚ (Bharotborsho) is a synonym.
-    mad: ["Inḍia", "inɖia"],  // Inḍia, spelt with a retroflex ḍ in the Madurese Wikipedia.
-    ki: ["India", "india"],  // Kikuyu uses the international name India.
-    kg: ["India", "india"],  // Kikongo uses the international name India.
+    mad: ["Inḍia", "inɖia"],  // Inḍia, spelt with a retroflex ḍ in the Madurese Wikipedia. Route by resemblance to the neighbouring forms (dv(އިންޑިޔާ) id(India)); no etymology of its own.
+    ki: ["India", "india"],  // Kikuyu uses the international name India. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
+    kg: ["India", "india"],  // Kikongo uses the international name India. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     ks: ["ہِندوستان", "hindoːstaːn"],  // Hindustan, from Persian; بھارت Bharat and انڈیا India are also used.
     hy: ["Հնդկաստան", "həndkɑsˈtɑn"],  // Hndkastan, "land of the Indians", built on հնդիկ, an Iranian loan compared with Middle Persian hindūg.
     bo: ["རྒྱ་གར", "ca˩˧ kaː˥"],  // Gyagar, literally "white expanse", a native Tibetan name.
     kab: ["Lhend", "lhənd"],  // From Arabic al-Hind, itself from Persian Hind; the l is the fused Arabic article.
     fi: ["Intia", "ˈintiɑ"],  // From Latin India, with Finnish t for d.
-    nap: ["Innia", "ˈinnjə"],  // Innia shows the southern Italian change of nd to nn, as in Sicilian Ìnnia.
-    lg: ["India", "india"],  // Luganda uses the international name India.
-    min: ["India", "india"],  // Minangkabau uses the name India.
+    nap: ["Innia", "ˈinnjə"],  // Innia shows the southern Italian change of nd to nn, as in Sicilian Ìnnia. Route by resemblance to the neighbouring forms (en(India) pl(Indie)); no etymology of its own.
+    lg: ["India", "india"],  // Luganda uses the international name India. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
+    min: ["India", "india"],  // Minangkabau uses the name India. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     hr: ["Indija", "ǐndija"],  // From Greek Indía, named after the Indus river.
-    sk: ["India", "ˈindia"],  // Slovak India, unlike Czech Indie.
+    sk: ["India", "ˈindia"],  // Slovak India, unlike Czech Indie. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     mn: ["Энэтхэг", "ˈenətʰxeɡ"],  // Enetkhek, from Old Uyghur enetkek, from Sogdian.
     no: ["India", "ˈɪndiɑ"],  // From Latin India, from Greek Indía.
-    ky: ["Индия", "ˈindija"],  // Indiya, as in Russian; Үндүстан (Hindustan) is also listed.
-    nds: ["Indien", "ˈɪndiən"],  // Indien, the same spelling as German.
+    ky: ["Индия", "ˈindija"],  // Indiya, as in Russian; Үндүстан (Hindustan) is also listed. Route by resemblance to the neighbouring forms (tl(Indiya) ta(இந்தியா)); no etymology of its own.
+    nds: ["Indien", "ˈɪndiən"],  // Indien, the same spelling as German. Route by resemblance to the neighbouring forms (de(Indien) lb(Indien)); no etymology of its own.
     scn: ["Ìnnia", "ˈinnia"],  // From Latin India, with the Sicilian change of nd to nn.
-    tt: ["Һиндстан", "hindˈstɑn"],  // Hindstan, "land of the Hind", built like Persian Hindustan.
-    nso: ["India", "india"],  // Sesotho sa Leboa uses the international name India.
-    sg: ["Indïi", "indiː"],  // Indïi is the title of the Sango Wikipedia article on India.
-    tpi: ["India", "india"],  // Tok Pisin uses the English name India.
-    kam: ["India", "india"],  // Kamba uses the international name India.
-    din: ["Indiɛn", "indiɛn"],  // Indiɛn; Wiktionary suggests, without certainty, a borrowing from German Indien.
-    luo: ["India", "india"],  // Dholuo uses the international name India.
-    vec: ["Ìndia", "ˈindja"],  // Ìndia, written with a grave accent to show the stress.
+    tt: ["Һиндстан", "hindˈstɑn"],  // Hindstan, "land of the Hind", built like Persian Hindustan. Route by resemblance to the neighbouring forms (tr(Hindistan) ug(ھىندىستان)); no etymology of its own.
+    nso: ["India", "india"],  // Sesotho sa Leboa uses the international name India. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
+    sg: ["Indïi", "indiː"],  // Indïi is the title of the Sango Wikipedia article on India. Route by resemblance to the neighbouring forms (en greek id greek); no etymology of its own.
+    tpi: ["India", "india"],  // Tok Pisin uses the English name India. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
+    kam: ["India", "india"],  // Kamba uses the international name India. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
+    din: ["Indiɛn", "indiɛn"],  // Indiɛn; Wiktionary suggests, without certainty, a borrowing from German Indien. Route by resemblance to the neighbouring forms (de(Indien) lb(Indien)); no etymology of its own.
+    luo: ["India", "india"],  // Dholuo uses the international name India. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
+    vec: ["Ìndia", "ˈindja"],  // Ìndia, written with a grave accent to show the stress. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     ka: ["ინდოეთი", "indoetʰi"],  // Indoeti is the Georgian name of India.
-    ace: ["India", "india"],  // Acehnese Wikipedia name for the country, spelled as in Indonesian; no source found naming the donor.
+    ace: ["India", "india"],  // Acehnese Wikipedia name for the country, spelled as in Indonesian; no source found naming the donor. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     czh: ["印度", "in˦˨ təu˩˩"],  // The characters 印度 read in Tunxi Hui; 印度 was the name Xuanzang proposed in the 7th century (Wiktionary).
-    lmo: ["India", "ˈindja"],  // Lombard Wikipedia name for the country, used with the article, l'India; no source found naming the donor.
-    bjn: ["Hindia", "hindia"],  // Banjar Wikipedia name for the country, with an initial h; no source found giving its path.
-    ban: ["India", "india"],  // Balinese Wikipedia name for the country, the same form as Indonesian India; no source found naming the donor.
+    lmo: ["India", "ˈindja"],  // Lombard Wikipedia name for the country, used with the article, l'India; no source found naming the donor. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
+    bjn: ["Hindia", "hindia"],  // Banjar Wikipedia name for the country, with an initial h; no source found giving its path. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
+    ban: ["India", "india"],  // Balinese Wikipedia name for the country, the same form as Indonesian India; no source found naming the donor. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     shn: ["မိူင်းဢိၼ်းတီးယႃး", "mɤŋ˥ ʔiŋ˩ tiː˦˨ˀ jaː˦˨ˀ"],  // Literally "country of India", မိူင်း "country" plus ဢိၼ်းတီးယႃး; Wiktionary gives no donor for the second part.
-    lt: ["Indija", "ˈɪnʲdʲɪjɛ"],  // Lithuanian name of the country, officially Indijos Respublika; no source found giving its etymology.
-    tum: ["India", "india"],  // Tumbuka Wikipedia name for the country, spelled as in English; no source found naming the donor.
-    zza: ["Hindıstan", "hindɨsˈtan"],  // Zaza name for India, shaped like Turkish Hindistan with the -stan ending; no source found that names the donor.
+    lt: ["Indija", "ˈɪnʲdʲɪjɛ"],  // Lithuanian name of the country, officially Indijos Respublika; no source found giving its etymology. Route by resemblance to the neighbouring forms (ru(Индия) cs(Indie)); no etymology of its own.
+    tum: ["India", "india"],  // Tumbuka Wikipedia name for the country, spelled as in English; no source found naming the donor. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
+    zza: ["Hindıstan", "hindɨsˈtan"],  // Zaza name for India, shaped like Turkish Hindistan with the -stan ending; no source found that names the donor. Route by resemblance to the neighbouring forms (tr(Hindistan) ug(ھىندىستان)); no etymology of its own.
     sl: ["Indija", "ˈiːndija"],  // Named after the Indus river, whose name came through Old Persian Hindu from Sanskrit Sindhu (Slovene Wikipedia).
     gl: ["India", "ˈindja"],  // From Latin India, from Greek Ἰνδία, named after the Indus river; the reintegrationist spelling is Índia (Wiktionary).
     kok: ["भारत", "bʱaːɽət"],  // A learned borrowing of Sanskrit Bhārata, the name of the land in the epics; Romi Konkani writes it Bharot (Wiktionary).
-    ay: ["Indya", "indja"],  // Aymara name for the country; no source found naming the donor.
+    ay: ["Indya", "indja"],  // Aymara name for the country; no source found naming the donor. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     ce: ["ХӀиндойчоь", "ˈhindojtʃø"],  // Built with -чоь "land", like other Chechen country names; Инди, from Russian, is also listed (Wiktionary).
-    mer: ["India", "india"],  // Meru name for the country, spelled as in English; no source found naming the donor.
-    rhg: ["Indía", "india"],  // Rohingya name for the country in the Latin (Rohingyalish) spelling; no source found naming the donor.
+    mer: ["India", "india"],  // Meru name for the country, spelled as in English; no source found naming the donor. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
+    rhg: ["Indía", "india"],  // Rohingya name for the country in the Latin (Rohingyalish) spelling; no source found naming the donor. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     ga: ["an India", "ən̪ˠ ɪnʲdʲiə"],  // From Latin India, after the Indus river; always used with the article an (Wiktionary).
     lv: ["Indija", "ˈindija"],  // Via other European languages from Latin India and Greek Ἰνδία, named after the Indus river (Wiktionary).
     mni: ["ꯚꯥꯔꯠ", "bʱaɾət"],  // Borrowed from Sanskrit Bhārata; the Manipuri Wikipedia titles its article ꯏꯟꯗꯤꯌꯥ, borrowed from English India (Wiktionary).
     mk: ["Индија", "ˈindija"],  // Named after the Indus river, whose name came through Old Persian Hindu from Sanskrit Sindhu (Macedonian Wikipedia).
-    sco: ["Indie", "ˈɪndi"],  // Scots name for the country, as in the Indie subcontinent; no source found giving its etymology.
-    ba: ["Һиндостан", "hindosˈtan"],  // Bashkir name for India, a Hindustan-type name; no source found that names the donor.
-    et: ["India", "ˈindiɑ"],  // Estonian name for the country, officially India Vabariik; no source found giving its etymology.
-    cy: ["India", "ˈɪndja"],  // Welsh name for the country; older formal Welsh puts the article yr before it (Wiktionary).
+    sco: ["Indie", "ˈɪndi"],  // Scots name for the country, as in the Indie subcontinent; no source found giving its etymology. Route by resemblance to the neighbouring forms (en greek id greek); no etymology of its own.
+    ba: ["Һиндостан", "hindosˈtan"],  // Bashkir name for India, a Hindustan-type name; no source found that names the donor. Route by resemblance to the neighbouring forms (ks(ہِندوستان) tr(Hindistan)); no etymology of its own.
+    et: ["India", "ˈindiɑ"],  // Estonian name for the country, officially India Vabariik; no source found giving its etymology. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
+    cy: ["India", "ˈɪndja"],  // Welsh name for the country; older formal Welsh puts the article yr before it (Wiktionary). Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     new: ["भारत", "bʱaɾətə"],  // Borrowed from Sanskrit Bhārata, the land of the Bharatas (Wiktionary).
     eu: ["India", "india"],  // Named after the Indus river, whose name came through Persian Hindu from Sanskrit Sindhu (Basque Wikipedia).
     aii: ["ܗܸܢܕܘܼ", "ˈhɪnduː"],  // From Old Persian hindūš, the Persian name of the Indus land (Wiktionary).
-    rue: ["Індія", "ˈindija"],  // Rusyn name for the country, stressed on the first syllable; no source found giving its etymology.
-    os: ["Инди", "indi"],  // Ossetian name for the country, officially Индийы Республикæ; no source found naming the donor.
-    yi: ["אינדיע", "ˈɪndjə"],  // Yiddish name for the country; no source found giving its etymology.
-    mt: ["Indja", "ˈɪndja"],  // Usually used with the article, l-Indja; officially Repubblika tal-Indja (Wiktionary).
-    szl: ["Indyje", "ˈindɪjɛ"],  // Silesian name for the country; no source found giving its etymology.
+    rue: ["Індія", "ˈindija"],  // Rusyn name for the country, stressed on the first syllable; no source found giving its etymology. Route by resemblance to the neighbouring forms (tl(Indiya) ta(இந்தியா)); no etymology of its own.
+    os: ["Инди", "indi"],  // Ossetian name for the country, officially Индийы Республикæ; no source found naming the donor. Route by resemblance to the neighbouring forms (en greek id greek); no etymology of its own.
+    yi: ["אינדיע", "ˈɪndjə"],  // Yiddish name for the country; no source found giving its etymology. Route by resemblance to the neighbouring forms (en(India) pl(Indie)); no etymology of its own.
+    mt: ["Indja", "ˈɪndja"],  // Usually used with the article, l-Indja; officially Repubblika tal-Indja (Wiktionary). Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
+    szl: ["Indyje", "ˈindɪjɛ"],  // Silesian name for the country; no source found giving its etymology. Route by resemblance to the neighbouring forms (ru(Индия) cs(Indie)); no etymology of its own.
     oc: ["Índia", "ˈindjɔ"],  // Named after the Indus river, whose name came through Old Persian Hindu from Sanskrit Sindhu (Occitan Wikipedia).
-    crh: ["İndistan", "indisˈtan"],  // Crimean Tatar name for India, with the -stan ending; Hindístan is also listed (Wiktionary).
-    sah: ["Ииндийэ", "iːndiˈje"],  // The Sakha Wikipedia name for the country; Wiktionary lists the form Үүндүйэ.
-    kum: ["Гьиндистан", "hindistan"],  // Kumyk name for India, with the -stan ending; no source found that names the donor.
+    crh: ["İndistan", "indisˈtan"],  // Crimean Tatar name for India, with the -stan ending; Hindístan is also listed (Wiktionary). Route by resemblance to the neighbouring forms (kk persian tr persian); no etymology of its own.
+    sah: ["Ииндийэ", "iːndiˈje"],  // The Sakha Wikipedia name for the country; Wiktionary lists the form Үүндүйэ. Route by resemblance to the neighbouring forms (ru(Индия) cs(Indie)); no etymology of its own.
+    kum: ["Гьиндистан", "hindistan"],  // Kumyk name for India, with the -stan ending; no source found that names the donor. Route by resemblance to the neighbouring forms (tr(Hindistan) ug(ھىندىستان)); no etymology of its own.
     is: ["Indland", "ˈɪntlant"],  // Latin India plus land; it was once called Indíaland in Icelandic (Icelandic Wikipedia).
     dv: ["އިންޑިޔާ", "inɖijaː"],  // Borrowed from English India; ހިންދުސްތާނު, from Persian Hindustan, is a synonym (Wiktionary).
     tyv: ["Энеткек", "enetˈkek"],  // Tuvan name for India, the same kind of name as Mongolian Энэтхэг; no source found giving its path.
-    bi: ["India", "india"],  // Bislama name for the country, spelled as in English; no source found naming the donor.
-    br: ["India", "ˈindja"],  // Breton name for the country, officially Republik India; no source found naming the donor.
-    to: ["ʻInitia", "ʔinitia"],  // Tongan name for the country; no source found naming the donor.
+    bi: ["India", "india"],  // Bislama name for the country, spelled as in English; no source found naming the donor. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
+    br: ["India", "ˈindja"],  // Breton name for the country, officially Republik India; no source found naming the donor. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
+    to: ["ʻInitia", "ʔinitia"],  // Tongan name for the country; no source found naming the donor. Route by resemblance to the neighbouring forms (rar(Īnītia) fi(Intia)); no etymology of its own.
     nv: ["Tó Wónaanídę́ę́ʼ Bitsįʼ Yishtłizhii Bikéyah", "tʰó wónɑ̀ːnítẽ́ːʔ pìtsʰĩ̀ʔ jìʃtɬʰìʒìː pìkʰéjɑ̀h"],  // A native descriptive name ending in bikéyah "their land"; the Navajo Wikipedia also gives Biʼééʼ Łigaii Bikéyah.
     dng: ["Йиндў", "iŋ˦ tu˦"],  // The Dungan reading of Chinese 印度 (Wiktionary).
-    lbe: ["Гьиндусттан", "hindustːan"],  // Lak name for India, a Hindustan-type name; no source found that names the donor.
+    lbe: ["Гьиндусттан", "hindustːan"],  // Lak name for India, a Hindustan-type name; no source found that names the donor. Route by resemblance to the neighbouring forms (tr(Hindistan) ug(ھىندىستان)); no etymology of its own.
     ast: ["India", "ˈindja"],  // An internationalism, ultimately from Latin India and Greek Ἰνδία, after the Indus river (Wiktionary).
-    csb: ["Indie", "ˈindjɛ"],  // Kashubian name for the country, a plural form like Polish Indie; Jindie is also written (Wiktionary).
+    csb: ["Indie", "ˈindjɛ"],  // Kashubian name for the country, a plural form like Polish Indie; Jindie is also written (Wiktionary). Route by resemblance to the neighbouring forms (en(India) pl(Indie)); no etymology of its own.
     eo: ["Barato", "baˈrato"],  // Borrowed from Hindi भारत Bhārat; the older Hindio and Hindujo are now dated (Wiktionary).
     fo: ["India", "ˈɪntia"],  // From Latin India and Greek Ἰνδία, after the Indus river (Wiktionary).
-    mi: ["Īnia", "iːnia"],  // Marked as a loanword by Te Aka Māori Dictionary, which quotes it from an 1878 newspaper; it also means "an Indian".
+    mi: ["Īnia", "iːnia"],  // Marked as a loanword by Te Aka Māori Dictionary, which quotes it from an 1878 newspaper; it also means "an Indian". Route by resemblance to the neighbouring forms (haw(ʻĪnia) id(India)); no etymology of its own.
     haw: ["ʻĪnia", "ʔiːnia"],  // Borrowed from English India; it also means "Indian" (Wiktionary).
     rar: ["Īnītia", "iːniːtia"],  // Borrowed from English India; it also names the Indian subcontinent (Wiktionary).
     hsb: ["Indiska", "ˈindiska"],  // The European name, from the Indus river; in Hindi the country is called Bhārat (Upper Sorbian Wikipedia).
     an: ["India", "ˈindja"],  // Named after the Indus river, whose name came through Old Persian Hindu from Sanskrit Sindhu (Aragonese Wikipedia).
-    dsb: ["Indiska", "ˈindiska"],  // Lower Sorbian name for the country, the same form as Upper Sorbian; no source found giving its etymology.
-    ia: ["India", "ˈindja"],  // Interlingua name for the country, officially Republica de India; no source found giving its etymology.
+    dsb: ["Indiska", "ˈindiska"],  // Lower Sorbian name for the country, the same form as Upper Sorbian; no source found giving its etymology. Route by resemblance to the neighbouring forms (hsb greek kk persian); no etymology of its own.
+    ia: ["India", "ˈindja"],  // Interlingua name for the country, officially Republica de India; no source found giving its etymology. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     kw: ["Eynda", "ˈɛɪndə"],  // From Latin and Greek Ἰνδία, after the Indus river (Wiktionary).
-    mnc: ["ᠶᡝᠨ ᡩᡠ", "jən du"],  // Manchu name for India, yen du; Wiktionary leaves its origin open, asking whether it comes from Chinese 身毒.
+    mnc: ["ᠶᡝᠨ ᡩᡠ", "jən du"],  // Manchu name for India, yen du; Wiktionary leaves its origin open, asking whether it comes from Chinese 身毒. Route by resemblance to the neighbouring forms (wuu(印度) zh_kf(印度)); no etymology of its own.
     yue_zs: ["印度", "jɐn˧˧ tu˧˧"],  // The Shiqi reading of the characters 印度, the name Xuanzang proposed in the 7th century (Wiktionary).
     lb: ["Indien", "ˈindjən"],  // From German Indien, which goes back to Latin India and Greek Ἰνδία (Wiktionary).
     es_cr: ["India", "ˈindja"],  // Learned borrowing from Latin India, from Greek Ἰνδία, the land of the Indus; la India with the article is also common (Wiktionary).
@@ -627,7 +627,7 @@ WORDS.india = {
     en_sg: ["India", "ˈɪndiə"],  // India, re-Latinized from Middle English Inde; ultimately Latin India from Greek Ἰνδία 'land of the Indus' (Wiktionary).
     de_at: ["Indien", "ˈɪndi̯ən"],  // From Latin India, from Greek Ἰνδία, named after the Indus river (Wiktionary).
     gsw: ["Indie", "ˈɪndiə"],  // Alemannic Indie, with the final -n dropped as in other Swiss German names; from Latin India, from Greek Ἰνδία (Wiktionary).
-    sgs: ["Indėjė", "ɪnʲdʲeːjeː"],  // Samogitian name of the country (Lithuanian Indija); no source found for its etymology.
+    sgs: ["Indėjė", "ɪnʲdʲeːjeː"],  // Samogitian name of the country (Lithuanian Indija); no source found for its etymology. Route by resemblance to the neighbouring forms (en(India) ru(Индия)); no etymology of its own.
     fr_qc: ["Inde", "ɛ̃d"],  // From Latin India and Greek Ἰνδία, the land of the Indus (French Wiktionary); English Wiktionary instead derives it from Persian Hind via Old French Ynde.
     fr_af: ["Inde", "ɛ̃d"],  // From Latin India and Greek Ἰνδία, the land of the Indus (French Wiktionary); English Wiktionary instead derives it from Persian Hind via Old French Ynde.
     fr_be: ["Inde", "ɛ̃d"],  // From Latin India and Greek Ἰνδία, the land of the Indus (French Wiktionary); English Wiktionary instead derives it from Persian Hind via Old French Ynde.

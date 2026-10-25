@@ -172,7 +172,7 @@ WORDS.thunder = {
     si: "plain",
     te: "unknown",
     kn: "unknown",
-    ml: "unknown",
+    ml: "plain",
     az: "sky",
     kk: "unknown",
     ky: "unknown",
@@ -192,7 +192,7 @@ WORDS.thunder = {
     en_au: "plain",
     sco: "plain",
     de_at: "plain",
-    pdt: "unknown",
+    pdt: "plain",
     is: "plain",
     gd: "plain",
     br: "unknown",
@@ -249,7 +249,7 @@ WORDS.thunder = {
     enm: "plain",
     en_em: "plain",
     ang: "plain",
-    non: "unknown",
+    non: "plain",
     got: "unknown",
     cu: "plain",
     eo: "unknown",
@@ -319,7 +319,7 @@ WORDS.thunder = {
     crs: "other",
     srn: "plain",
     gv: "plain",
-    hr: "unknown",
+    hr: "plain",
     sga: "plain",
     syc: "plain",
     goh: "plain",
@@ -352,7 +352,7 @@ WORDS.thunder = {
     io: "unknown",
     ace: "unknown",
     mdr: "unknown",
-    war: "unknown",
+    war: "plain",
     bik: "plain",
     vi_nom: "plain",
     fa: "plain",
@@ -370,7 +370,7 @@ WORDS.thunder = {
     ug: "unknown",
     pcm: "unknown",
     kri: "unknown",
-    ht: "unknown",
+    ht: "other",
     ee: "sky",
     ak: "unknown",
     ibb: "unknown",
@@ -407,7 +407,7 @@ WORDS.thunder = {
     kha: "plain",
     ve: "unknown",
     tyz: "sky",
-    bs: "unknown",
+    bs: "plain",
     kok: "unknown",
     pms: "unknown",
     tsg: "plain",
@@ -446,7 +446,7 @@ WORDS.thunder = {
     bdq: "unknown",
     lol: "unknown",
     loz: "unknown",
-    jmc: "unknown",
+    jmc: "plain",
     asu: "unknown",
     her: "unknown",
     nzi: "unknown",
@@ -471,9 +471,9 @@ WORDS.thunder = {
     cr: "god",
     nog: "sky",
     xal: "unknown",
-    tru: "unknown",
+    tru: "plain",
     nzm: "unknown",
-    toj: "unknown",
+    toj: "plain",
     pbb: "unknown",
     mh: "unknown",
     hch: "unknown",
@@ -481,7 +481,7 @@ WORDS.thunder = {
     jiv: "unknown",
     tdh: "unknown",
     pon: "unknown",
-    djk: "unknown",
+    djk: "plain",
     otq: "unknown",
     tvl: "unknown",
     yan: "unknown",
@@ -494,8 +494,8 @@ WORDS.thunder = {
     cho: "unknown",
     krl: "god",
     olo: "unknown",
-    mwl: "unknown",
-    hsb: "unknown",
+    mwl: "plain",
+    hsb: "plain",
     es_cr: "plain",
     es_hn: "plain",
     es_ni: "plain",
@@ -669,7 +669,7 @@ WORDS.thunder = {
     si: ["ගිගුරුම", "ɡiɡurumə"],  // Inherited from Sanskrit ghurghurā, a rumbling sound; the Wiktionary translation table's විදුලි කෙටීම is a lightning strike, not thunder.
     te: ["ఉరుము", "uɾumu"],  // The same word is also the verb 'to thunder'.
     kn: ["ಗುಡುಗು", "ɡuɖuɡu"],  // Alar keeps it apart from lightning; it is also the verb used of clouds thundering.
-    ml: ["ഇടി", "iɖi"],  // The same word means a punch or blow; Olam and NorthEuraLex both give it first for thunder.
+    ml: ["ഇടി", "iɖi"],  // The same word means a punch or blow; Olam and NorthEuraLex both give it first for thunder. Route by resemblance to the neighbouring forms (ta(இடி)); no etymology of its own.
     az: ["göy gurultusu", "ɟœj ɡuɾultusu"],  // Literally 'sky rumble', like Turkish gök gürültüsü; ildırım is the flash, though it can also mean thunder.
     kk: ["күркіреу", "kʏrkɘˈrew"],  // A verbal noun 'rumbling'; NorthEuraLex records the fuller күн күркіреу, with күн 'sky, sun'.
     ky: ["күркүрөө", "kyrkyˈrøː"],  // The same word as the Kazakh күркіреу, a verbal noun of rumbling.
@@ -689,7 +689,7 @@ WORDS.thunder = {
     en_au: ["thunder", "ˈθɐndə"],  // Inherited from Old English þunor, from Proto-Germanic *þunraz.
     sco: ["thunner", "ˈθʌnər"],  // The Scots form of thunder, usually without the d.
     de_at: ["Donner", "ˈdɔnɐ"],  // Inherited from Old High German donar, also the name of the thunder god Donar.
-    pdt: ["Donna", "ˈdɔna"],  // Corresponds to German Donner; the Wiktionary entry gives no etymology.
+    pdt: ["Donna", "ˈdɔna"],  // Corresponds to German Donner; the Wiktionary entry gives no etymology. Route by resemblance to the neighbouring forms (lb(Donner) de(Donner)); no etymology of its own.
     is: ["þruma", "ˈθrʏːma"],  // Inherited from Old Norse þruma; a storm of it is þrumuveður.
     gd: ["tàirneanach", "ˈtʰaːrˠnanəx"],  // From Old Irish torann 'thunder', like Irish toirneach.
     br: ["kurun", "ˈkyːrỹn"],  // Recorded as gurun in Middle Breton; IDS also gives kudurun and taran.
@@ -746,7 +746,7 @@ WORDS.thunder = {
     enm: ["thonder", "ˈθundər"],  // Inherited from Old English þunor; the d grew in from the oblique stem þunr-, as in gander.
     en_em: ["thunder", "ˈθʊndər"],  // Already spelled thunder, from Middle English thonder and Old English þunor.
     ang: ["þunor", "ˈθunor"],  // Inherited from Germanic *þunraz; with a capital, Þunor is also the name of the thunder god, the English Thor.
-    non: ["þruma", "ˈθrumɑ"],  // The old Germanic thunder word lived on in Old Norse only as the god's name Þórr, so the noise itself was þruma.
+    non: ["þruma", "ˈθrumɑ"],  // The old Germanic thunder word lived on in Old Norse only as the god's name Þórr, so the noise itself was þruma. Route by resemblance to the neighbouring forms (is(þruma)); no etymology of its own.
     got: ["𐌸𐌴𐌹𐍈𐍉", "ˈθiːʍoː"],  // Attested in Wulfila's Bible, where the crowd at John 12:29 says the voice from heaven was thunder.
     cu: ["громъ", "ɡromŭ"],  // Inherited from Proto-Slavic *gromъ, the ancestor of Russian гром.
     eo: ["tondro", "ˈtondro"],  // The thunder god is tondrodio, literally 'thunder-god'.
@@ -816,7 +816,7 @@ WORDS.thunder = {
     crs: ["loraz", "loraz"],  // From French l'orage 'the storm', with the article fused on.
     srn: ["dondru", "ˈdondru"],  // Borrowed from Dutch donder, the Germanic thunder word; it is also the verb.
     gv: ["taarnagh", "ˈtaːrnʲax"],  // From Old Irish torann 'thunder', like Irish toirneach and Gaelic tàirneanach.
-    hr: ["grmljavina", "ɡř̩mʎaʋina"],  // NorthEuraLex also lists grom, the older Slavic word, which leans toward the thunderbolt.
+    hr: ["grmljavina", "ɡř̩mʎaʋina"],  // NorthEuraLex also lists grom, the older Slavic word, which leans toward the thunderbolt. Route by resemblance to the neighbouring forms (sr(грмљавина)); no etymology of its own.
     sga: ["torann", "ˈtoran"],  // From Proto-Celtic *toranos, the root of the Gaulish thunder god's name Taranis.
     syc: ["ܪܥܡܐ", "raʕmaː"],  // From the Semitic root r-ʕ-m 'to thunder', like Hebrew רעם raʿam.
     goh: ["donar", "ˈdonar"],  // The same word as Donar, the German name of the thunder god Thor.
@@ -849,7 +849,7 @@ WORDS.thunder = {
     io: ["tondro", "ˈtondro"],  // Taken from Esperanto tondro and the thunder words of English, French, German and Italian.
     ace: ["glanteue", "ɡlantɯə"],  // Recorded the same way in two separate Acehnese wordlists.
     mdr: ["guttur", "ɡutːur"],  // Close to Buginese guttu and Makassarese gunturuʔ.
-    war: ["dalugdog", "daluɡˈdoɡ"],  // The same word as Cebuano and Bikol dalugdog.
+    war: ["dalugdog", "daluɡˈdoɡ"],  // The same word as Cebuano and Bikol dalugdog. Route by resemblance to the neighbouring forms (ceb(dalugdog)); no etymology of its own.
     bik: ["daguldol", "daɡulˈdol"],  // The Naga word, inherited from Proto-Philippine *duldúl; the southern dialects say dalugdog.
     vi_nom: ["𩆐", "səm˧˥"],  // Sấm in Chữ Nôm: rain + phonetic 稟. 𩆷 (rain + 讖) is an equally attested spelling.
     fa: ["رعد", "ɾæʔd"],  // Borrowed from Arabic raʿd long ago; the native Persian تندر tondar is the literary synonym.
@@ -867,7 +867,7 @@ WORDS.thunder = {
     ug: ["گۈلدۈرماما", "ɡyldyrmɑˈmɑ"],  // Kept apart from چاقماق, the lightning, in Exodus 9:23.
     pcm: ["tonda", "tɔnda"],  // Used in the Naija Bible for thunder in Mark, Exodus and John.
     kri: ["tɛnda", "ˈtɛnda"],  // Kept apart from laytin, the lightning, in Revelation 4:5.
-    ht: ["loray", "loraj"],  // Kept apart from zeklè, the lightning, in Exodus 9:23.
+    ht: ["loray", "loraj"],  // Kept apart from zeklè, the lightning, in Exodus 9:23. Route by resemblance to the neighbouring forms (mfe(loraz) crs(loraz)); no etymology of its own.
     ee: ["dziɖegbe", "dziɖeɡbe"],  // Literally 'the sky utters a voice', dzi 'sky' + ɖe gbe, as the paraphrase 'dzie ɖe gbe' in John 12:29 shows; lightning is dzikedzo.
     ak: ["aprannaa", "apranːaː"],  // Kept apart from anyinam, the lightning, in Revelation 4:5.
     ibb: ["aduma", "aduma"],  // Used for thunder in Mark, Exodus and John in the Ibibio Bible.
@@ -904,7 +904,7 @@ WORDS.thunder = {
     kha: ["pyrthat", "prtʰat"],  // Inherited from Austroasiatic, a cognate of Khmer រន្ទះ 'lightning, thunderbolt' (Wiktionary).
     ve: ["mubvumo", "mubvumo"],  // A noun from the verb bvuma 'to rumble' (Wiktionary); John 12:29 says the rain rumbled.
     tyz: ["fạ roọng", "faː˧˨ʔ rɔŋ˧˨ʔ"],  // Built on fạ 'sky', the cognate of Thai ฟ้า.
-    bs: ["grmljavina", "ˈɡr̩mʎaʋina"],  // Grom, the older Slavic word in Mark 3:17 'Sinovi groma', leans toward the thunderbolt.
+    bs: ["grmljavina", "ˈɡr̩mʎaʋina"],  // Grom, the older Slavic word in Mark 3:17 'Sinovi groma', leans toward the thunderbolt. Route by resemblance to the neighbouring forms (sr(грмљавина)); no etymology of its own.
     kok: ["गडगड", "ɡəɖɡəɖ"],  // John 12:29 in the Konkani Bible says the thunder 'struck' (marla).
     pms: ["tron", "truŋ"],  // Wiktionary also gives the spelling trun.
     tsg: ["dawgdug", "dawɡˈduɡ"],  // Inherited from Proto-Austronesian *dəʀdəʀ 'thunder' (Wiktionary).
@@ -943,7 +943,7 @@ WORDS.thunder = {
     bdq: ["grơ̆m", "ɡrəm"],  // Paired with glaih, the lightning, as grơ̆m glaih.
     lol: ["likungola", "likuŋɡola"],  // A noun from the verb kungola 'to thunder', used as 'likungola jokungola', 'the thunder thundered'.
     loz: ["mushika", "muʃika"],  // Kept apart from lumonyi, the lightning; the plural is mishika.
-    jmc: ["iruruma", "iɾuɾuma"],  // Kept apart from ukova, the lightning; the plural is maruruma.
+    jmc: ["iruruma", "iɾuɾuma"],  // Kept apart from ukova, the lightning; the plural is maruruma. Route by resemblance to the neighbouring forms (ki(irurumĩ)); no etymology of its own.
     asu: ["mrurumo", "mrurumo"],  // Kept apart from luimiji, the lightning, in Revelation 4:5.
     her: ["oruṱuṱumo", "orut̪ut̪umo"],  // Kept apart from orutjeno, the lightning.
     nzi: ["ɛhululɛ", "ɛhululɛ"],  // A noun from hulule 'to thunder'; ɛsɛnlɛmanye is the lightning.
@@ -968,9 +968,9 @@ WORDS.thunder = {
     cr: ["ᐱᔦᓯᐤ", "pijeːsiw"],  // Thunder is the Thunderbird itself: piyêsiw means both, and when it thunders the Cree say the Thunderbirds are calling.
     nog: ["коьк гуьрилдев", "køk ɡyrildew"],  // Literally 'the sky's rumbling': коьк 'sky' + гуьрилдев 'rumbling', like Kumyk кёк кёкюрев.
     xal: ["оһтрһу", "oɣtrɣu"],  // Thunder's sound is оһтрһун дун, with дун 'voice, sound'; lightning is цәклһн.
-    tru: ["ܪܥܕܐ", "raʕdo"],  // Kept apart from barqo, the lightning; Mark 3:17 uses the older Syriac raʕmo for 'sons of thunder'.
+    tru: ["ܪܥܕܐ", "raʕdo"],  // Kept apart from barqo, the lightning; Mark 3:17 uses the older Syriac raʕmo for 'sons of thunder'. Route by resemblance to the neighbouring forms (ar(رعد) ar_qur(رعد)); no etymology of its own.
     nzm: ["tingchei", "tiŋtʃei"],  // It shares its first part, ting-, with tingrui 'rain' and tingkai 'wind'.
-    toj: ["chawuk", "tʃawuk"],  // Thunder 'rumbles' (b'otoljuk) in the Tojolabal Bible; the flashing is lijpi.
+    toj: ["chawuk", "tʃawuk"],  // Thunder 'rumbles' (b'otoljuk) in the Tojolabal Bible; the flashing is lijpi. Route by resemblance to the neighbouring forms (tzo(chauk)); no etymology of its own.
     pbb: ["kpiʼsx", "kpiʔʃ"],  // Used in the Nasa Yuwe New Testament for the thunder the crowd heard in John 12:29.
     mh: ["jourur", "tʲewirˠwirˠ"],  // The same word is the verb 'to thunder'.
     hch: ["tɨranari", "tɨɾanaɾi"],  // Mark 3:17 renders 'sons of thunder' as Tɨrarɨkamete, from the same root.
@@ -978,7 +978,7 @@ WORDS.thunder = {
     jiv: ["ipiamat", "ipiamat"],  // Kept apart from peem, the lightning; Exodus 9:23 adds the rumble ideophone téter.
     tdh: ["बुलु़लु़", "bulyly"],  // Used in the Thulung New Testament for 'sons of thunder' in Mark 3:17.
     pon: ["nahnsapwe", "naːnsapʷe"],  // Kept apart from lioal, the lightning; the Bible also spells it nansapwe.
-    djk: ["donduu", "donduː"],  // Thunder 'shouts' (bali) in Aukan: donduu e bali.
+    djk: ["donduu", "donduː"],  // Thunder 'shouts' (bali) in Aukan: donduu e bali. Route by resemblance to the neighbouring forms (srn(dondru)); no etymology of its own.
     otq: ["ñu̱ni", "ɲɨni"],  // Kept apart from hwe̱i, the lightning.
     tvl: ["fatili", "fatili"],  // Kept apart from uila, the lightning; the Nanumea dialect has mana.
     yan: ["alwana", "alwana"],  // Kept apart from lapna, the lightning.
@@ -991,8 +991,8 @@ WORDS.thunder = {
     cho: ["hiloha", "hiloha"],  // Kept apart from rain, umba; the same root gives the verb 'to thunder'.
     krl: ["ukko", "ˈukːo"],  // Named after Ukko, the Finnic god of thunder; the same word means 'old man', and the rumble is ukkosen jyry.
     olo: ["jyry", "ˈjyry"],  // In John 12:29 the Livvi Bible says 'Holy Elijah thundered', after the folk belief that the prophet makes thunder; NorthEuraLex also gives pyhälly.
-    mwl: ["truono", "ˈtɾwonu"],  // Used in the Mirandese Gospels for 'sons of thunder' in Mark 3:17.
-    hsb: ["hrom", "ɦrɔm"],  // The noun hrimanje, from hrimać 'to thunder', is also used.
+    mwl: ["truono", "ˈtɾwonu"],  // Used in the Mirandese Gospels for 'sons of thunder' in Mark 3:17. Route by resemblance to the neighbouring forms (scn(tronu) it_dan(truono)); no etymology of its own.
+    hsb: ["hrom", "ɦrɔm"],  // The noun hrimanje, from hrimać 'to thunder', is also used. Route by resemblance to the neighbouring forms (cs(hrom) sk(hrom)); no etymology of its own.
     es_cr: ["trueno", "ˈtɾweno"],  // From Latin tonus 'thunderclap', with an r taken from tronar 'to thunder'.
     es_hn: ["trueno", "ˈtɾweno"],  // From Latin tonus 'thunderclap', with an r taken from tronar 'to thunder'.
     es_ni: ["trueno", "ˈtɾweno"],  // From Latin tonus 'thunderclap', with an r taken from tronar 'to thunder'.

@@ -138,7 +138,7 @@ WORDS.turkey = {
     tg: "local",
     cv: "local",
     ky: "unknown",
-    uz: "unknown",
+    uz: "local",
     sw: "local",
     yo: "local",
     zu: "india",
@@ -172,7 +172,7 @@ WORDS.turkey = {
     kw: "elsewhere",
     srn: "india",
     ast: "local",
-    ba: "unknown",
+    ba: "local",
     nrf_gg: "india",
     fra_jer: "unknown",
     nan_te: "elsewhere",
@@ -190,11 +190,11 @@ WORDS.turkey = {
     wa: "india",
     sq: "unknown",
     oc: "unknown",
-    tt: "unknown",
-    sc: "unknown",
+    tt: "local",
+    sc: "india",
     li: "unknown",
     lmo: "unknown",
-    io: "unknown",
+    io: "india",
     fur: "india",
     dsb: "unknown",
     or: "peru",
@@ -378,7 +378,7 @@ WORDS.turkey = {
     tg: ["мурғи марҷон", "murʁi mardʒon"],  // Literally "coral bird" (мурғ "bird, chicken" + марҷон, Persian marjān "coral").
     cv: ["кӑркка", "kərkːa"],  // From Tatar күркә, which etymologists consider imitative of the call.
     ky: ["күрп", "kyrp"],
-    uz: ["kurka", "kuɾka"],
+    uz: ["kurka", "kuɾka"],  // Route by resemblance to the neighbouring forms (ro(curcan) cv(кӑркка)); no etymology of its own.
     sw: ["bata mzinga", "bata mzinɡa"],  // Literally "duck" + mzinga "beehive; cannon" (Wiktionary glosses of the parts).
     yo: ["tòlótòló", "tòlótòló"],  // Borrowed from Hausa tàlotàlo; similar names run across Nigerian languages.
     zu: ["ikalikuni", "ikaliˈkuːni"],  // From Afrikaans kalkoen, after Calicut in India.
@@ -412,7 +412,7 @@ WORDS.turkey = {
     kw: ["yar Gyni", "jaːr ɡɪːni"],  // Literally "Guinea hen"; the cock is kulyek Gyni.
     srn: ["krakun", "krakun"],  // From Dutch kalkoen, which is named after Calicut (Kozhikode) in India.
     ast: ["pavu", "ˈpaβu"],  // From Latin pāvō "peacock", the same extension as Spanish pavo.
-    ba: ["күркә", "kyrˈkæ"],  // Shared with Tatar күркә and Kazakh күркетауық; the origin is unclear.
+    ba: ["күркә", "kyrˈkæ"],  // Shared with Tatar күркә and Kazakh күркетауық; the origin is unclear. Route by resemblance to the neighbouring forms (cv(кӑркка)); no etymology of its own.
     nrf_gg: ["dindaon", "dɛ̃ˈdɔ̃"],  // Borrowed from French dindon, from coq d'Inde "rooster of India".
     fra_jer: ["picot", "piˈko"],  // Jèrriais picot; Guernsey uses dindaon instead.
     nan_te: ["番鸡", "huaŋ˧˧ koi˧˧"],  // Literally "foreign chicken" (番 "foreign"), naming no specific country; elsewhere in Chinese the bird is 火鸡 "fire chicken".
@@ -430,11 +430,11 @@ WORDS.turkey = {
     wa: ["dîne", "diːn"],  // From "d'Inde" (of India): Walloon also calls the hen poye d'Inne and the cock cok d'Inne.
     sq: ["gjel deti", "ɟɛl dɛti"],  // Literally "rooster of the sea".
     oc: ["piòt", "pjɔt"],  // Occitan piòt (hen: piòta).
-    tt: ["күркә", "kyrˈkæ"],  // Shared with Bashkir күркә; the origin is unclear.
-    sc: ["dindu", "ˈdindu"],  // Synonym: pudda de Ìndia, "hen of India".
+    tt: ["күркә", "kyrˈkæ"],  // Shared with Bashkir күркә; the origin is unclear. Route by resemblance to the neighbouring forms (cv(кӑркка)); no etymology of its own.
+    sc: ["dindu", "ˈdindu"],  // Synonym: pudda de Ìndia, "hen of India". Route by resemblance to the neighbouring forms (vo(dindun) fur(dindi)); no etymology of its own.
     li: ["sjroet", "ʃruːt"],  // Limburgish sjroet (feminine); it can also mean a silly woman.
     lmo: ["pollin", "puˈlin"],  // Milanese pollin.
-    io: ["dindo", "ˈdindo"],  // Ido dindo; male dindulo, female dindino.
+    io: ["dindo", "ˈdindo"],  // Ido dindo; male dindulo, female dindino. Route by resemblance to the neighbouring forms (vec(dindio) fur(dindi)); no etymology of its own.
     fur: ["dindi", "ˈdindi"],  // Pirona (1871) explains dindi as the "chicken or rooster of India".
     dsb: ["truta", "ˈtruta"],  // Lower Sorbian truta is the turkey hen (also trutawa).
     or: ["ପେରୁ", "peɾu"],  // Named after Peru, like Portuguese peru (Praharaj's Odia dictionary).

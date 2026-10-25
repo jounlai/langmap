@@ -126,7 +126,7 @@ WORDS.littlefinger = {
     vi: "child",
     vi_s: "child",
     th: "small",
-    lo: "unknown",
+    lo: "small",
     km: "child",
     my: "unknown",
     id: "unknown",
@@ -226,7 +226,7 @@ WORDS.littlefinger = {
     gu: "unknown",
     or: "unknown",
     mg: "small",
-    ceb: "unknown",
+    ceb: "plain",
     ilo: "unknown",
     gn: "small",
     sq: "small",
@@ -323,7 +323,7 @@ WORDS.littlefinger = {
     vi: ["ngón tay út", "ŋɔn˧˥ taj˧ ut˧˥"],  // Literally the 'youngest finger of the hand': út is the word for the lastborn child.
     vi_s: ["ngón tay út", "ŋɔŋ˧˥ taj˧ ʊk͡p˧˥"],  // Literally the 'youngest finger of the hand'.
     th: ["นิ้วก้อย", "niw˦˥ kɔːj˥˩"],  // Uses ก้อย, a dated word for 'small'.
-    lo: ["ນິ້ວກ້ອຍ", "niw˥˨ kɔːj˥˨"],  // The same word as Thai นิ้วก้อย.
+    lo: ["ນິ້ວກ້ອຍ", "niw˥˨ kɔːj˥˨"],  // The same word as Thai นิ้วก้อย. Route by resemblance to the neighbouring forms (th(นิ้วก้อย)); no etymology of its own.
     km: ["កូនដៃ", "koːn ɗaj"],  // Literally the 'child of the hand' (កូន 'child'), beside មេដៃ for the thumb.
     my: ["လက်သန်း", "lɛʔθáɴ"],  // Built on လက် 'hand', like လက်မ for the thumb.
     id: ["jari kelingking", "dʒari kəliŋkiŋ"],  // Kelingking goes back to Proto-Malayo-Polynesian *k(al)iŋkiŋ; it is also used alone.
@@ -423,7 +423,7 @@ WORDS.littlefinger = {
     gu: ["ટચલી આંગળી", "ʈətʃliː aːŋɡəɭiː"],  // ટચલી + આંગળી 'finger'; ટચલી alone is also used.
     or: ["କାଣି ଆଙ୍ଗୁଠି", "kaːɳi aːŋɡuʈʰi"],  // କାଣି + ଆଙ୍ଗୁଠି 'finger'; Praharaj derives it from Sanskrit kaniṣṭha 'least, youngest'.
     mg: ["ankihikely", "aŋkihiˈkeli"],  // Literally 'small finger' (ankihy 'finger' + kely 'small'), the partner of ankibe 'thumb'.
-    ceb: ["kumingking", "kuˈmiŋkiŋ"],  // Short for kumalingking; Wolff files it under the root kingking 'do gingerly with the thumb and forefinger'.
+    ceb: ["kumingking", "kuˈmiŋkiŋ"],  // Short for kumalingking; Wolff files it under the root kingking 'do gingerly with the thumb and forefinger'. Route by resemblance to the neighbouring forms (mak(kaningking)); no etymology of its own.
     ilo: ["kikit", "kiˈkit"],  // A word of its own for the little finger; Ibatan uses the same word.
     gn: ["kuãʼi", "kʷãˈʔi"],  // Literally 'small finger' (kuã 'finger' + diminutive -'i), the partner of kuãngusu 'big finger', the thumb.
     sq: ["gisht i vogël", "ɡiʃt i vɔɡəl"],  // Literally 'small finger', matching gisht i madh 'big finger' for the thumb.

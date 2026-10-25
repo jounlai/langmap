@@ -76,12 +76,12 @@ WORDS.china = {
     ur: "cina",
     ru: "khitan",
     id: "zhongguo",
-    pa: "unknown",
+    pa: "cina",
     de: "cina",
     ja: "zhongguo",
     fa: "cina",
-    sw: "unknown",
-    jv: "unknown",
+    sw: "cina",
+    jv: "cina",
     yue: "zhongguo",
     vi: "zhongguo",
     tr: "cina",
@@ -90,176 +90,176 @@ WORDS.china = {
     tl: "cina",
     ko: "zhongguo",
     wuu: "zhongguo",
-    ta: "unknown",
+    ta: "cina",
     ha: "cina",
     ms: "cina",
     it: "cina",
-    pnb: "unknown",
+    pnb: "cina",
     cjy: "zhongguo",
     th: "cina",
     gu: "cina",
-    bho: "unknown",
+    bho: "cina",
     ps: "cina",
     nan: "zhongguo",
     hak_cn: "zhongguo",
     es: "cina",
-    yo: "unknown",
+    yo: "cina",
     pl: "cina",
     kn: "cina",
-    su: "unknown",
+    su: "zhongguo",
     uk: "khitan",
     ln: "cina",
-    mai: "unknown",
+    mai: "cina",
     ml: "cina",
-    or: "unknown",
-    awa: "unknown",
-    om: "unknown",
+    or: "cina",
+    awa: "cina",
+    om: "cina",
     uz: "khitan",
     my: "other",
     am: "cina",
-    sd: "unknown",
-    ku: "unknown",
+    sd: "cina",
+    ku: "cina",
     zu: "cina",
-    ff: "unknown",
+    ff: "cina",
     ro: "cina",
-    skr: "unknown",
-    mg: "unknown",
+    skr: "cina",
+    mg: "cina",
     nl: "cina",
-    az: "unknown",
+    az: "cina",
     so: "unknown",
     gan: "zhongguo",
-    mag: "unknown",
+    mag: "cina",
     si: "unknown",
     km: "cina",
     za: "zhongguo",
     kk: "khitan",
     as: "cina",
-    azb: "unknown",
+    azb: "cina",
     el: "cina",
     hu: "cina",
     sv: "cina",
     ug: "zhongguo",
-    wo: "unknown",
+    wo: "cina",
     rw: "unknown",
-    sn: "unknown",
-    sr: "unknown",
+    sn: "cina",
+    sr: "cina",
     ht: "cina",
-    cs: "unknown",
+    cs: "cina",
     pt: "cina",
     cdo: "zhongguo",
-    ca: "unknown",
+    ca: "cina",
     he: "cina",
     tg: "cina",
     ti: "cina",
-    qu: "unknown",
-    ckb: "unknown",
-    sq: "unknown",
+    qu: "cina",
+    ckb: "cina",
+    sq: "cina",
     lo: "cina",
     af: "cina",
     bg: "khitan",
-    anp: "unknown",
-    sat: "unknown",
-    kg: "unknown",
-    ks: "unknown",
+    anp: "cina",
+    sat: "cina",
+    kg: "cina",
+    ks: "cina",
     da: "cina",
     hy: "unknown",
-    gn: "unknown",
-    kab: "unknown",
+    gn: "cina",
+    kab: "cina",
     fi: "cina",
-    nap: "unknown",
-    lg: "unknown",
-    min: "unknown",
-    hr: "unknown",
+    nap: "cina",
+    lg: "cina",
+    min: "cina",
+    hr: "cina",
     sk: "cina",
-    ny: "unknown",
-    ts: "unknown",
+    ny: "cina",
+    ts: "cina",
     mn: "khitan",
     no: "cina",
     ky: "khitan",
-    nds: "unknown",
-    scn: "unknown",
+    nds: "cina",
+    scn: "cina",
     be: "khitan",
     tt: "khitan",
-    nso: "unknown",
-    sg: "unknown",
+    nso: "cina",
+    sg: "cina",
     hmn: "unknown",
     tpi: "cina",
-    din: "unknown",
-    mzn: "unknown",
+    din: "cina",
+    mzn: "cina",
     vec: "cina",
     ka: "unknown",
-    ace: "unknown",
+    ace: "cina",
     czh: "zhongguo",
-    glk: "unknown",
-    bjn: "unknown",
-    ban: "unknown",
+    glk: "cina",
+    bjn: "cina",
+    ban: "cina",
     shn: "unknown",
-    jam: "unknown",
+    jam: "cina",
     lt: "unknown",
-    zza: "unknown",
+    zza: "cina",
     srn: "cina",
     sl: "khitan",
-    gl: "unknown",
+    gl: "cina",
     ii: "zhongguo",
     ga: "cina",
     lv: "cina",
     kbd: "khitan",
-    mk: "unknown",
-    sco: "unknown",
+    mk: "cina",
+    sco: "cina",
     ba: "khitan",
     mfe: "cina",
     et: "cina",
     cy: "cina",
-    lez: "unknown",
-    eu: "unknown",
+    lez: "khitan",
+    eu: "cina",
     rue: "khitan",
     ady: "khitan",
-    dz: "unknown",
+    dz: "zhongguo",
     kaa: "khitan",
-    nn: "unknown",
-    os: "unknown",
+    nn: "cina",
+    os: "khitan",
     yi: "cina",
     mt: "unknown",
     xmf: "unknown",
-    oc: "unknown",
+    oc: "cina",
     crh: "cina",
     sah: "khitan",
     is: "cina",
     dv: "unknown",
-    udm: "unknown",
+    udm: "khitan",
     krc: "khitan",
     tyv: "khitan",
-    br: "unknown",
+    br: "cina",
     ab: "unknown",
     nv: "other",
     dng: "zhongguo",
-    gag: "unknown",
-    lbe: "unknown",
-    kpv: "unknown",
-    myv: "unknown",
-    ast: "unknown",
+    gag: "khitan",
+    lbe: "khitan",
+    kpv: "khitan",
+    myv: "khitan",
+    ast: "cina",
     eo: "cina",
     ja_oki: "other",
-    vro: "unknown",
-    fo: "unknown",
+    vro: "cina",
+    fo: "cina",
     sip: "other",
     gd: "cina",
     alt: "khitan",
     mi: "cina",
     nrf: "cina",
     kjh: "khitan",
-    rm: "unknown",
-    haw: "unknown",
+    rm: "cina",
+    haw: "cina",
     olo: "khitan",
     rar: "cina",
-    mwl: "unknown",
+    mwl: "cina",
     dsb: "unknown",
     tkl: "cina",
     vo: "unknown",
     mnc: "zhongguo",
     yue_zs: "zhongguo",
     dta: "other",
-    io: "unknown",
+    io: "cina",
     fra_jer: "cina",
     es_cr: "cina",
     es_hn: "cina",
@@ -290,7 +290,7 @@ WORDS.china = {
     pt_mz: "cina",
     pt_ao: "cina",
     nl_be: "cina",
-    ca_va: "unknown",
+    ca_va: "cina",
     ar_ps: "cina",
     ar_jo: "cina",
     gan_yc: "zhongguo",
@@ -370,7 +370,7 @@ WORDS.china = {
     wuu_jx: "zhongguo",
     zh_cd: "zhongguo",
     ext: "cina",
-    mdf: "unknown",
+    mdf: "khitan",
     es_pr: "cina",
     es_do: "cina",
     es_gt: "cina",
@@ -402,12 +402,12 @@ WORDS.china = {
     ur: ["چین", "tʃiːn"],  // Borrowed from Sanskrit Cīna, possibly influenced by Persian čīn (Wiktionary).
     ru: ["Китай", "kʲɪˈtaj"],  // Named after the Khitan, the Mongolic people who ruled northern China in the 10th–12th centuries, via a Turkic source (Wiktionary).
     id: ["Tiongkok", "tiˈoŋkɔk"],  // From Hokkien 中國 Tiong-kok 'middle country'; the official name since Presidential Decision 12/2014, which replaced Cina, still common in speech (Wiktionary).
-    pa: ["ਚੀਨ", "tʃiːn"],  // Same name as Hindi and Urdu cīn; Wiktionary gives no etymology for the Punjabi form.
+    pa: ["ਚੀਨ", "tʃiːn"],  // Same name as Hindi and Urdu cīn; Wiktionary gives no etymology for the Punjabi form. Route by resemblance to the neighbouring forms (hi(चीन) bn(চীন)); no etymology of its own.
     de: ["China", "ˈçiːna"],  // Probably via Dutch and Portuguese from Persian čīn and ultimately Sanskrit Cīna; pronounced Kina in the south and Austria, Schina in the north (Wiktionary).
     ja: ["中国", "tɕɯːɡokɯ"],  // Borrowed from Middle Chinese 中國 'central country'; the prewar name 支那 Shina is now considered offensive (Wiktionary).
     fa: ["چین", "tʃiːn"],  // Inherited from Middle Persian čīn, from Sanskrit Cīna; Persian is the link that carried the name to Arabic, Turkish and Europe (Wiktionary).
-    sw: ["Uchina", "uˈtʃina"],  // The country prefix u- plus China; China alone is also used (Wiktionary).
-    jv: ["Cina", "tʃinɔ"],  // Cina is the ngoko (plain) form and Cinten the krama (polite) form (Javanese Wikipedia).
+    sw: ["Uchina", "uˈtʃina"],  // The country prefix u- plus China; China alone is also used (Wiktionary). Route by resemblance to the neighbouring forms (tl(Tsina) ms(China)); no etymology of its own.
+    jv: ["Cina", "tʃinɔ"],  // Cina is the ngoko (plain) form and Cinten the krama (polite) form (Javanese Wikipedia). Route by resemblance to the neighbouring forms (eo(Ĉinio) hi(चीन)); no etymology of its own.
     yue: ["中國", "tsʊŋ˥ kʷɔːk˧"],  // Literally 'middle country', the name used of China since the Western Zhou bronze inscriptions (Wiktionary).
     vi: ["Trung Quốc", "tɕuŋ͡m˧ kuək˧˥"],  // The Sino-Vietnamese reading of 中國 'middle country'; the informal Tàu is sometimes derogatory (Wiktionary).
     tr: ["Çin", "tʃin"],  // From Persian čīn, ultimately Sanskrit Cīna (Wiktionary).
@@ -416,176 +416,176 @@ WORDS.china = {
     tl: ["Tsina", "ˈtʃina"],  // Borrowed from Spanish China; the older native name Sungsong is now historical (Wiktionary).
     ko: ["중국", "tɕuŋɡuk"],  // The Sino-Korean reading of 中國 'middle country' (Wiktionary).
     wuu: ["中国", "tsoŋ˥ koʔ˨˩"],  // Literally 'middle country', the name used of China since the Western Zhou bronze inscriptions (Wiktionary).
-    ta: ["சீனா", "siːnaː"],  // Same Cīna name as Sanskrit and Hindi, but Wiktionary gives no etymology for the Tamil form.
+    ta: ["சீனா", "siːnaː"],  // Same Cīna name as Sanskrit and Hindi, but Wiktionary gives no etymology for the Tamil form. Route by resemblance to the neighbouring forms (ln(Sína) tpi(Saina)); no etymology of its own.
     ha: ["Sin", "sin"],  // Borrowed from Arabic (aṣ-)Ṣīn (Wiktionary).
     ms: ["China", "ˈtʃina"],  // From Persian and probably Sanskrit Cīna, attested as Chēna in 1701; the country is spelt China, the people and language Cina (Wiktionary).
     it: ["Cina", "ˈtʃiːna"],  // From Persian čīn under the influence of Medieval Latin Sina, ultimately from Sanskrit Cīna; Marco Polo's Venetian Cina passed it on to Portuguese and Spanish (Wiktionary).
-    pnb: ["چین", "tʃiːn"],  // Same name as Urdu cīn; no source gives the Punjabi form's path.
+    pnb: ["چین", "tʃiːn"],  // Same name as Urdu cīn; no source gives the Punjabi form's path. Route by resemblance to the neighbouring forms (hi(चीन) bn(চীন)); no etymology of its own.
     cjy: ["中国", "tsuŋ˩ kuəʔ˨"],  // The common Chinese name 中國 'middle country', read with Taiyuan character readings (MCPDict).
     th: ["จีน", "tɕiːn˧"],  // Probably from Sanskrit or Pali cīna; the country is often called ประเทศจีน 'country China' (Wiktionary).
     gu: ["ચીન", "tʃiːn"],  // A learned borrowing from Sanskrit Cīna (Wiktionary).
-    bho: ["चीन", "tʃiːn"],  // Same name as Hindi cīn (Bhojpuri Wikipedia).
+    bho: ["चीन", "tʃiːn"],  // Same name as Hindi cīn (Bhojpuri Wikipedia). Route by resemblance to the neighbouring forms (hi(चीन) bn(চীন)); no etymology of its own.
     ps: ["چین", "tʃin"],  // Borrowed from Persian čīn, ultimately Sanskrit Cīna; Pashto also has the older ختاي xatāy from the Khitan name (Wiktionary).
     nan: ["中國", "tiɔŋ˦˦ kɔk˧˨"],  // Literally 'middle country'; this Hokkien Tiong-kok is the source of Indonesian Tiongkok (Wiktionary).
     hak_cn: ["中国", "tsuŋ˦ kuɛt˩"],  // Literally 'middle country', the name used of China since the Western Zhou bronze inscriptions (Wiktionary).
     es: ["China", "ˈtʃina"],  // Probably from Venetian Cina, from Persian čīn, ultimately Sanskrit Cīna (Wiktionary).
-    yo: ["Ṣáínà", "ʃáínà"],  // The short name of the People's Republic, written with tones (Yoruba Wikipedia).
+    yo: ["Ṣáínà", "ʃáínà"],  // The short name of the People's Republic, written with tones (Yoruba Wikipedia). Route by resemblance to the neighbouring forms (te(చైనా) ml(ചൈന)); no etymology of its own.
     pl: ["Chiny", "ˈxinɨ"],  // Borrowed from German China and made plural, like Niemcy 'Germany' (Wiktionary).
     kn: ["ಚೀನಾ", "tʃiːnaː"],  // Borrowed from Sanskrit Cīna (Wiktionary).
-    su: ["Tiongkok", "tioŋkok"],  // The same short name as Indonesian Tiongkok, which replaced Cina in 2014 (Sundanese Wikipedia).
+    su: ["Tiongkok", "tioŋkok"],  // The same short name as Indonesian Tiongkok, which replaced Cina in 2014 (Sundanese Wikipedia). Route by resemblance to the neighbouring forms (id(Tiongkok) nan(中國)); no etymology of its own.
     uk: ["Китай", "kɪˈtai̯"],  // Named after the Khitan, the Mongolic people who ruled northern China, through Old East Slavic Китаи (Wiktionary).
     ln: ["Sína", "sína"],  // From French Chine; also written Shína (Lingala Wikipedia).
-    mai: ["चीन", "tʃiːn"],  // The short name used for the People's Republic (Maithili Wikipedia).
+    mai: ["चीन", "tʃiːn"],  // The short name used for the People's Republic (Maithili Wikipedia). Route by resemblance to the neighbouring forms (hi(चीन) bn(চীন)); no etymology of its own.
     ml: ["ചൈന", "tʃajna"],  // Borrowed from English China; the older ചീന comes straight from Sanskrit Cīna (Wiktionary).
-    or: ["ଚୀନ", "tʃinɔ"],  // Same Cīna name as Sanskrit and Hindi; Wiktionary gives no etymology for the Odia form.
-    awa: ["चीन", "tʃiːn"],  // Same name as Hindi cīn (Awadhi Wikipedia).
-    om: ["Chaayinaa", "tʃaːjinaː"],  // A borrowing of the international China (Oromo Wikipedia).
+    or: ["ଚୀନ", "tʃinɔ"],  // Same Cīna name as Sanskrit and Hindi; Wiktionary gives no etymology for the Odia form. Route by resemblance to the neighbouring forms (eo(Ĉinio) hi(चीन)); no etymology of its own.
+    awa: ["चीन", "tʃiːn"],  // Same name as Hindi cīn (Awadhi Wikipedia). Route by resemblance to the neighbouring forms (hi(चीन) bn(চীন)); no etymology of its own.
+    om: ["Chaayinaa", "tʃaːjinaː"],  // A borrowing of the international China (Oromo Wikipedia). Route by resemblance to the neighbouring forms (te(చైనా) ml(ചൈന)); no etymology of its own.
     uz: ["Xitoy", "χiˈtɒj"],  // Named after the Khitan, through Chagatai xıtāy (Wiktionary).
     my: ["တရုတ်", "təjoʊʔ"],  // From Old Burmese taruk, attested from the Bagan era; its origin is uncertain, possibly Chinese 突厥 'Turk' or 大理 Dali (Wiktionary).
     am: ["ቻይና", "tʃajna"],  // From English China (Wiktionary).
-    sd: ["چين", "tʃiːn"],  // Same name as Urdu and Persian cīn (Sindhi Wikipedia).
-    ku: ["Çîn", "tʃiːn"],  // Same name as Persian and Turkish čīn; Wiktionary gives no etymology for the Kurdish form.
+    sd: ["چين", "tʃiːn"],  // Same name as Urdu and Persian cīn (Sindhi Wikipedia). Route by resemblance to the neighbouring forms (hi(चीन) bn(চীন)); no etymology of its own.
+    ku: ["Çîn", "tʃiːn"],  // Same name as Persian and Turkish čīn; Wiktionary gives no etymology for the Kurdish form. Route by resemblance to the neighbouring forms (hi(चीन) bn(চীন)); no etymology of its own.
     zu: ["iShayina", "iʃaˈjina"],  // Borrowed from English China (Wiktionary), with the noun prefix i-.
-    ff: ["Ciina", "tʃiːna"],  // A borrowing of the international China (Fula Wikipedia).
+    ff: ["Ciina", "tʃiːna"],  // A borrowing of the international China (Fula Wikipedia). Route by resemblance to the neighbouring forms (tl(Tsina) ms(China)); no etymology of its own.
     ro: ["China", "ˈkina"],  // Borrowed from Greek Κίνα, ultimately Sanskrit Cīna, which is why the ch is read k (Wiktionary).
-    skr: ["چین", "tʃiːn"],  // Same name as Urdu cīn (Saraiki Wikipedia).
-    mg: ["Sina", "ˈsina"],  // Written like Latin Sina; Malagasy Wikipedia gives no etymology.
+    skr: ["چین", "tʃiːn"],  // Same name as Urdu cīn (Saraiki Wikipedia). Route by resemblance to the neighbouring forms (hi(चीन) bn(চীন)); no etymology of its own.
+    mg: ["Sina", "ˈsina"],  // Written like Latin Sina; Malagasy Wikipedia gives no etymology. Route by resemblance to the neighbouring forms (ln(Sína) tpi(Saina)); no etymology of its own.
     nl: ["China", "ˈʃinaː"],  // Probably from Portuguese China, ultimately from Sanskrit Cīna; the obsolete Cathaye came from the Khitan name (Wiktionary).
-    az: ["Çin", "tʃin"],  // Same name as Turkish Çin; Wiktionary gives no etymology for the Azerbaijani form.
+    az: ["Çin", "tʃin"],  // Same name as Turkish Çin; Wiktionary gives no etymology for the Azerbaijani form. Route by resemblance to the neighbouring forms (hi(चीन) bn(চীন)); no etymology of its own.
     so: ["Shiinaha", "ʃiːnaha"],  // Shiina with the definite suffix -ha, the form the name is cited in (Somali Wikipedia).
     gan: ["中国", "tsuŋ˦˨ kuɛt˥"],  // The common Chinese name 中國 'middle country', read with Nanchang character readings (MCPDict).
-    mag: ["चीन", "tʃiːn"],  // Same name as Hindi cīn (Magahi Wikipedia).
+    mag: ["चीन", "tʃiːn"],  // Same name as Hindi cīn (Magahi Wikipedia). Route by resemblance to the neighbouring forms (hi(चीन) bn(চীন)); no etymology of its own.
     si: ["චීනය", "tʃiːnəjə"],  // Cīna with the Sinhala definite ending -ya; Wiktionary gives no etymology.
     km: ["ចិន", "cən"],  // Probably from Sanskrit or Pali cīna (Wiktionary).
     za: ["中國", "ɕuŋ˧ ko˧˩"],  // Cunghgoz, borrowed from Mandarin 中國 "Middle Kingdom"; the older loan Cungguek comes from Middle Chinese.
     kk: ["Қытай", "qəˈtɑj"],  // From the name of the Khitan people via Old Turkic Qïtań, cognate with English Cathay.
     as: ["চীন", "sin"],  // From Sanskrit Cīna; চীন দেশ "China country" is also used.
-    azb: ["چین", "tʃin"],  // Same name as North Azerbaijani Çin and Persian چین.
+    azb: ["چین", "tʃin"],  // Same name as North Azerbaijani Çin and Persian چین. Route by resemblance to the neighbouring forms (hi(चीन) bn(চীন)); no etymology of its own.
     el: ["Κίνα", "ˈcina"],  // Borrowed from Italian Cina in the 18th century, displacing Ancient Greek Σῖναι from the same ultimate source.
     hu: ["Kína", "ˈkiːnɒ"],  // From Old Italian China, from Portuguese China, ultimately from Sanskrit Cīna.
     sv: ["Kina", "ˈɕiːna"],  // The European name China, ultimately from Sanskrit Cīna, itself probably from the Qin 秦 dynasty.
     ug: ["جۇڭگو", "dʒuŋˈɡo"],  // Junggo, borrowed from Mandarin 中國; the older name خىتاي Xitay (from Khitan) is dated in China and avoided there as offensive.
-    wo: ["Siin", "siːn"],  // Siin is the name used in the Wolof Wikipedia title for the People's Republic of China.
+    wo: ["Siin", "siːn"],  // Siin is the name used in the Wolof Wikipedia title for the People's Republic of China. Route by resemblance to the neighbouring forms (ha(Sin) as(চীন)); no etymology of its own.
     rw: ["Ubushinwa", "ubuʃinwa"],  // Built with the country-name prefix ubu-, as in other Kinyarwanda country names.
-    sn: ["Chayina", "tʃajina"],  // Chayina is the Shona Wikipedia name for China.
-    sr: ["Кина", "kǐːna"],  // Same name as Croatian Kina; the etymology is not given in the source.
+    sn: ["Chayina", "tʃajina"],  // Chayina is the Shona Wikipedia name for China. Route by resemblance to the neighbouring forms (te(చైనా) ml(ചൈന)); no etymology of its own.
+    sr: ["Кина", "kǐːna"],  // Same name as Croatian Kina; the etymology is not given in the source. Route by resemblance to the neighbouring forms (ro(China) da(Kina)); no etymology of its own.
     ht: ["Chin", "ʃin"],  // From French Chine.
-    cs: ["Čína", "ˈtʃiːna"],  // Čína is the standard Czech name; the sources give no etymology.
+    cs: ["Čína", "ˈtʃiːna"],  // Čína is the standard Czech name; the sources give no etymology. Route by resemblance to the neighbouring forms (tl(Tsina) ms(China)); no etymology of its own.
     pt: ["China", "ˈʃinɐ"],  // Via Persian Čīn from Sanskrit Cīna; the Portuguese form spread to English and other European languages.
     cdo: ["中国", "tyŋ˥˥ kuɔʔ˨˦"],  // Dṳ̆ng-guók, the Fuzhou reading of 中國 "Middle Kingdom".
-    ca: ["Xina", "ˈʃinə"],  // Normally used with the article: la Xina; the sources give no etymology.
+    ca: ["Xina", "ˈʃinə"],  // Normally used with the article: la Xina; the sources give no etymology. Route by resemblance to the neighbouring forms (gd(Sìona) fr(Chine)); no etymology of its own.
     he: ["סין", "sin"],  // From Latin Sīnae and Greek Σῖναι, probably from Sanskrit Cīna.
     tg: ["Чин", "tʃin"],  // Inherited from Classical Persian Čīn; Хитой (from Khitan) is a synonym.
     ti: ["ቻይና", "tʃajna"],  // Borrowed from English China.
-    qu: ["China", "ˈtʃina"],  // The Quechua Wikipedia uses China in the name of the People's Republic of China.
-    ckb: ["چین", "tʃiːn"],  // Same name as Kurmanji Çîn and Persian چین.
-    sq: ["Kina", "ˈkina"],  // Kina is the definite form of Kinë, as normally cited.
+    qu: ["China", "ˈtʃina"],  // The Quechua Wikipedia uses China in the name of the People's Republic of China. Route by resemblance to the neighbouring forms (tl(Tsina) ms(China)); no etymology of its own.
+    ckb: ["چین", "tʃiːn"],  // Same name as Kurmanji Çîn and Persian چین. Route by resemblance to the neighbouring forms (hi(चीन) bn(চীন)); no etymology of its own.
+    sq: ["Kina", "ˈkina"],  // Kina is the definite form of Kinë, as normally cited. Route by resemblance to the neighbouring forms (ro(China) da(Kina)); no etymology of its own.
     lo: ["ຈີນ", "tɕiːn˩˧"],  // Possibly from Sanskrit or Pali cīna, ultimately from the Qin 秦 dynasty.
     af: ["China", "ˈʃina"],  // From Dutch China, probably from Portuguese; the spelling Sjina also exists.
     bg: ["Китай", "kiˈtaj"],  // Borrowed from Russian Китай, from the Khitan name.
-    anp: ["चीन", "tʃiːn"],  // Same form as Hindi चीन, which comes from Sanskrit.
-    sat: ["ᱪᱤᱱ", "tʃin"],  // Also spelled ᱪᱷᱤᱱ.
-    kg: ["Sina", "sina"],  // Sina is the Kikongo Wikipedia name for China.
-    ks: ["چیٖن", "tʃiːn"],  // Also written चीन in Devanagari.
+    anp: ["चीन", "tʃiːn"],  // Same form as Hindi चीन, which comes from Sanskrit. Route by resemblance to the neighbouring forms (hi(चीन) bn(চীন)); no etymology of its own.
+    sat: ["ᱪᱤᱱ", "tʃin"],  // Also spelled ᱪᱷᱤᱱ. Route by resemblance to the neighbouring forms (hi(चीन) bn(চীন)); no etymology of its own.
+    kg: ["Sina", "sina"],  // Sina is the Kikongo Wikipedia name for China. Route by resemblance to the neighbouring forms (ln(Sína) tpi(Saina)); no etymology of its own.
+    ks: ["چیٖن", "tʃiːn"],  // Also written चीन in Devanagari. Route by resemblance to the neighbouring forms (hi(चीन) bn(চীন)); no etymology of its own.
     da: ["Kina", "ˈkʰiːna"],  // The European name China, ultimately from Sanskrit Cīna, probably from the Qin 秦 dynasty.
     hy: ["Չինաստան", "tʃʰinɑsˈtɑn"],  // Literally "land of the Chinese", from չինք "the Chinese" with the place suffix -աստան.
-    gn: ["Chína", "ˈʃina"],  // The Guarani Wikipedia uses Chína in the name of the People's Republic of China.
-    kab: ["Ccinwa", "ʃːinwa"],  // Ccinwa is the Kabyle Wikipedia name for China, shared with Tashelhit.
+    gn: ["Chína", "ˈʃina"],  // The Guarani Wikipedia uses Chína in the name of the People's Republic of China. Route by resemblance to the neighbouring forms (nl(China) sv(Kina)); no etymology of its own.
+    kab: ["Ccinwa", "ʃːinwa"],  // Ccinwa is the Kabyle Wikipedia name for China, shared with Tashelhit. Route by resemblance to the neighbouring forms (nl(China) sv(Kina)); no etymology of its own.
     fi: ["Kiina", "ˈkiːnɑ"],  // Borrowed from Swedish Kina, ultimately from Sanskrit Cīna.
-    nap: ["Cina", "ˈtʃinə"],  // Same form as Italian Cina.
-    lg: ["Cayina", "tʃajina"],  // Cayina is the Luganda Wikipedia name for China.
-    min: ["Cino", "tʃino"],  // Minangkabau Cino corresponds to Malay Cina.
-    hr: ["Kina", "kǐːna"],  // Same name as Serbian Кина; the etymology is not given in the source.
+    nap: ["Cina", "ˈtʃinə"],  // Same form as Italian Cina. Route by resemblance to the neighbouring forms (en(China) en_ng2(China)); no etymology of its own.
+    lg: ["Cayina", "tʃajina"],  // Cayina is the Luganda Wikipedia name for China. Route by resemblance to the neighbouring forms (te(చైనా) ml(ചൈന)); no etymology of its own.
+    min: ["Cino", "tʃino"],  // Minangkabau Cino corresponds to Malay Cina. Route by resemblance to the neighbouring forms (eo(Ĉinio) hi(चीन)); no etymology of its own.
+    hr: ["Kina", "kǐːna"],  // Same name as Serbian Кина; the etymology is not given in the source. Route by resemblance to the neighbouring forms (ro(China) da(Kina)); no etymology of its own.
     sk: ["Čína", "ˈtʃiːna"],  // From Sanskrit Cīna via Persian Čīn, after the Qin 秦 dynasty.
-    ny: ["China", "tʃina"],  // China is the Chichewa Wikipedia name for the country.
-    ts: ["Chayina", "tʃʰajina"],  // Chayina is the Xitsonga Wikipedia name for China.
+    ny: ["China", "tʃina"],  // China is the Chichewa Wikipedia name for the country. Route by resemblance to the neighbouring forms (tl(Tsina) ms(China)); no etymology of its own.
+    ts: ["Chayina", "tʃʰajina"],  // Chayina is the Xitsonga Wikipedia name for China. Route by resemblance to the neighbouring forms (te(చైనా) ml(ചൈന)); no etymology of its own.
     mn: ["Хятад", "ˈxʲatʰət"],  // From the name of the Khitan people, cognate with Russian Китай and English Cathay; Дундад улс "Middle State" is the calque of 中國 used in China.
     no: ["Kina", "ˈçiːnɑ"],  // The European name of China, probably from the Qin 秦 dynasty, which reached Norway through languages along the Silk Road.
     ky: ["Кытай", "qɯˈtɑj"],  // From the name of the Khitan people, probably via Uyghur; Жуңго, from Mandarin 中国, is also listed.
-    nds: ["China", "ˈʃiːna"],  // Written China but pronounced Schina in Low German, in places Kina.
-    scn: ["Cina", "ˈtʃina"],  // Same form as Italian Cina.
+    nds: ["China", "ˈʃiːna"],  // Written China but pronounced Schina in Low German, in places Kina. Route by resemblance to the neighbouring forms (nl(China) sv(Kina)); no etymology of its own.
+    scn: ["Cina", "ˈtʃina"],  // Same form as Italian Cina. Route by resemblance to the neighbouring forms (tl(Tsina) ms(China)); no etymology of its own.
     be: ["Кітай", "kʲiˈtaj"],  // From the name of the Khitan people via Turkic, like Russian and Ukrainian Китай.
     tt: ["Кытай", "qɤˈtɑj"],  // From the name of the Khitan people, cognate with Russian Китай.
-    nso: ["Tšhaena", "tʃʰaena"],  // Looks like a loan of English China, but no source names the donor.
-    sg: ["Sînä", "sina"],  // Sînä; the source gives no etymology.
+    nso: ["Tšhaena", "tʃʰaena"],  // Looks like a loan of English China, but no source names the donor. Route by resemblance to the neighbouring forms (te(చైనా) ml(ചൈന)); no etymology of its own.
+    sg: ["Sînä", "sina"],  // Sînä; the source gives no etymology. Route by resemblance to the neighbouring forms (ln(Sína) tpi(Saina)); no etymology of its own.
     hmn: ["Suav Teb", "ʂuə˧˦ te˥"],  // Suav Teb also means "Chinese"; Tuam Tshoj, from Middle Chinese 大朝 "Great Dynasty", is archaic.
     tpi: ["Saina", "saina"],  // From English China; Saina also means a Chinese person.
-    din: ["Caina", "tʃaina"],  // Looks like a loan of English China, but no source names the donor.
-    mzn: ["چین", "tʃiːn"],  // Same name as Persian چین Čīn.
+    din: ["Caina", "tʃaina"],  // Looks like a loan of English China, but no source names the donor. Route by resemblance to the neighbouring forms (te(చైనా) ml(ചൈന)); no etymology of its own.
+    mzn: ["چین", "tʃiːn"],  // Same name as Persian چین Čīn. Route by resemblance to the neighbouring forms (hi(चीन) bn(চীন)); no etymology of its own.
     vec: ["Cina", "ˈtʃina"],  // From Classical Persian Čīn, ultimately Sanskrit Cīna; Venetian Cina is thought to be the source of Portuguese and Spanish China.
     ka: ["ჩინეთი", "tʃʰinetʰi"],  // Čineti; Wiktionary gives no etymology for it.
-    ace: ["Cina", "tʃina"],  // Same form as Malay and Indonesian Cina.
+    ace: ["Cina", "tʃina"],  // Same form as Malay and Indonesian Cina. Route by resemblance to the neighbouring forms (tl(Tsina) ms(China)); no etymology of its own.
     czh: ["中国", "tsan˩˩ kuə˥"],  // The characters 中国 "Middle Kingdom" read in Tunxi Hui.
-    glk: ["چين", "tʃin"],  // Same name as Persian چین Čīn.
-    bjn: ["Cina", "tʃina"],  // Same form as Malay and Indonesian Cina.
-    ban: ["Cina", "tʃina"],  // Same form as Malay and Indonesian Cina.
+    glk: ["چين", "tʃin"],  // Same name as Persian چین Čīn. Route by resemblance to the neighbouring forms (hi(चीन) bn(চীন)); no etymology of its own.
+    bjn: ["Cina", "tʃina"],  // Same form as Malay and Indonesian Cina. Route by resemblance to the neighbouring forms (tl(Tsina) ms(China)); no etymology of its own.
+    ban: ["Cina", "tʃina"],  // Same form as Malay and Indonesian Cina. Route by resemblance to the neighbouring forms (tl(Tsina) ms(China)); no etymology of its own.
     shn: ["မိူင်းၶႄႇ", "mɤŋ˥ kʰɛː˩"],  // A compound of မိူင်း and ၶႄႇ; Wiktionary gives no further etymology.
-    jam: ["Chaina", "tʃaina"],  // The English name China in Jamaican spelling.
+    jam: ["Chaina", "tʃaina"],  // The English name China in Jamaican spelling. Route by resemblance to the neighbouring forms (te(చైనా) ml(ചൈന)); no etymology of its own.
     lt: ["Kinija", "ˈkʲɪnʲɪjɛ"],  // Formed from kinas "a Chinese" plus the country suffix -ija.
-    zza: ["Çin", "tʃin"],  // Same form as Turkish Çin.
+    zza: ["Çin", "tʃin"],  // Same form as Turkish Çin. Route by resemblance to the neighbouring forms (hi(चीन) bn(চীন)); no etymology of its own.
     srn: ["Sneisikondre", "sneisikondre"],  // Literally "Chinese country", from Sneisi (Dutch Chinees) plus kondre "country"; Wikipedia uses Sneysa.
     sl: ["Kitajska", "kiˈtaːjska"],  // From Russian Китай (from the Khitan name) plus the country suffix -ska.
-    gl: ["China", "ˈtʃina"],  // Usually said with the article, a China.
+    gl: ["China", "ˈtʃina"],  // Usually said with the article, a China. Route by resemblance to the neighbouring forms (tl(Tsina) ms(China)); no etymology of its own.
     ii: ["ꍏꇩ", "tʂo˧˧ kɔ˨˩"],  // Borrowed from Chinese 中國 Zhōngguó "Middle Kingdom".
     ga: ["an tSín", "ən̪ˠ tʲiːnʲ"],  // From Latin Sīnae and Greek Sînai, probably from Sanskrit Cīna; the article an is part of the name.
     lv: ["Ķīna", "ˈciːna"],  // Via other European languages from Middle Persian Čīn and Sanskrit Cīna, probably from the Qin dynasty.
     kbd: ["Хъутей", "χʷətej"],  // Ultimately from Old Turkic Qïtaǰ "Khitan", cognate with Russian Китай.
-    mk: ["Кина", "ˈkina"],  // Same form as Serbo-Croatian Kina.
-    sco: ["Cheenae", "ˈtʃinə"],  // Also spelt Cheena, Cheeny.
+    mk: ["Кина", "ˈkina"],  // Same form as Serbo-Croatian Kina. Route by resemblance to the neighbouring forms (ro(China) da(Kina)); no etymology of its own.
+    sco: ["Cheenae", "ˈtʃinə"],  // Also spelt Cheena, Cheeny. Route by resemblance to the neighbouring forms (en(China) en_ng2(China)); no etymology of its own.
     ba: ["Ҡытай", "qɯˈtɑj"],  // From Old Turkic Qïtaǰ "Khitan", cognate with Kazakh Қытай.
     mfe: ["Lasinn", "lasin"],  // From French la Chine, the article fused into the name.
     et: ["Hiina", "ˈhiːnɑ"],  // Most likely from German China, ultimately from Sanskrit Cīna.
     cy: ["Tsieina", "ˈtʃei̯na"],  // Borrowed from English China, itself from Portuguese and ultimately Sanskrit Cīna; Tseina is an alternative spelling (Wiktionary).
-    lez: ["Китай", "kiˈtaj"],  // The Lezgian Wikipedia names the country Китай; Wiktionary also lists Чин.
-    eu: ["Txina", "tʃina"],  // Txina is the Euskaltzaindia standard name; officially Txinako Herri Errepublika.
+    lez: ["Китай", "kiˈtaj"],  // The Lezgian Wikipedia names the country Китай; Wiktionary also lists Чин. Route by resemblance to the neighbouring forms (ru(Китай) uk(Китай)); no etymology of its own.
+    eu: ["Txina", "tʃina"],  // Txina is the Euskaltzaindia standard name; officially Txinako Herri Errepublika. Route by resemblance to the neighbouring forms (tl(Tsina) ms(China)); no etymology of its own.
     rue: ["Кітай", "kiˈtaj"],  // From the Khitan name via Old East Slavic Китаи, like Russian Китай; the Rusyn Wikipedia also gives Китай and Чіна.
     ady: ["Хъытыдж", "χətədʒ"],  // Ultimately from Old Turkic Qïtaǰ "Khitan", cognate with Russian Китай and English Cathay; Китай borrowed from Russian is also used (Wiktionary).
-    dz: ["ཀྲུང་ཀོ", "ʈuŋko"],  // The Dzongkha Wikipedia titles the country ཀྲུང་ཀོ and also gives རྒྱ་ནག, the Tibetan-script "black expanse" name.
+    dz: ["ཀྲུང་ཀོ", "ʈuŋko"],  // The Dzongkha Wikipedia titles the country ཀྲུང་ཀོ and also gives རྒྱ་ནག, the Tibetan-script "black expanse" name. Route by resemblance to the neighbouring forms (za(中國)); no etymology of its own.
     kaa: ["Qıtay", "qɯˈtaj"],  // From Old Turkic Qïtań, the name of the Khitan people, cognate with English Cathay (Wiktionary).
-    nn: ["Kina", "ˈçiːnɑ"],  // Kina is the Nynorsk name; the official name is Folkerepublikken Kina.
-    os: ["Китай", "kitaj"],  // The Ossetian Wikipedia names the country Китай; officially Китайы Адæмон Республикæ.
+    nn: ["Kina", "ˈçiːnɑ"],  // Kina is the Nynorsk name; the official name is Folkerepublikken Kina. Route by resemblance to the neighbouring forms (de(China) el(Κίνα)); no etymology of its own.
+    os: ["Китай", "kitaj"],  // The Ossetian Wikipedia names the country Китай; officially Китайы Адæмон Республикæ. Route by resemblance to the neighbouring forms (ru(Китай) uk(Китай)); no etymology of its own.
     yi: ["כינע", "ˈχɪnə"],  // From German China, which goes back through Persian to Sanskrit Cīna (Wiktionary).
     mt: ["iċ-Ċina", "ɪtʃ ˈtʃiːna"],  // Cited with the article iċ-, as in iċ-Ċina; officially ir-Repubblika Popolari taċ-Ċina.
     xmf: ["ჩინეთი", "tʃʰinetʰi"],  // The same name as Georgian ჩინეთი; officially ჩინეთიშ ოკათე რესპუბლიკა.
-    oc: ["China", "ˈtʃinɔ"],  // Officially la Republica Populara de China; Gascon also writes Shina (Wiktionary).
+    oc: ["China", "ˈtʃinɔ"],  // Officially la Republica Populara de China; Gascon also writes Shina (Wiktionary). Route by resemblance to the neighbouring forms (eo(Ĉinio) hi(चीन)); no etymology of its own.
     crh: ["Çin", "tʃin"],  // From Persian čin, ultimately Sanskrit Cīna; the Crimean Tatar Wikipedia also gives Kitay and Qıtay (Wiktionary).
     sah: ["Кытай", "kɯˈtaj"],  // Ultimately from the Khitan name via Old Uyghur Ḳïtay; Китай, borrowed from Russian, is an alternative form (Wiktionary).
     is: ["Kína", "ˈcʰiːna"],  // Ultimately from the Qin 秦 dynasty name, the source of Sanskrit Cīna and European China (Wiktionary).
     dv: ["ސީނުކަރަ", "siːnukaɾa"],  // A compound of ސީނު and ކަރަ; ޗައިނާ, from English, is also listed (Wiktionary).
-    udm: ["Китай", "kiˈtaj"],  // Officially Китай Калык Республика (Udmurt Wikipedia).
+    udm: ["Китай", "kiˈtaj"],  // Officially Китай Калык Республика (Udmurt Wikipedia). Route by resemblance to the neighbouring forms (ru(Китай) uk(Китай)); no etymology of its own.
     krc: ["Къытай", "qɯˈtaj"],  // From the name of the Khitan people, cognate with Russian Китай and English Cathay (Wiktionary).
     tyv: ["Кыдат", "qɯˈdat"],  // Borrowed from Oirat Kitad, ultimately from the Khitan name (Wiktionary).
-    br: ["Sina", "ˈsiːna"],  // The People's Republic is Republik Pobl Sina (Breton Wikipedia).
+    br: ["Sina", "ˈsiːna"],  // The People's Republic is Republik Pobl Sina (Breton Wikipedia). Route by resemblance to the neighbouring forms (ln(Sína) tpi(Saina)); no etymology of its own.
     ab: ["Китаи", "kʼitʼai"],  // The Abkhaz Wikipedia also gives Ҷынҭ (Wiktionary Чынҭ); officially Китаитәи Жәлартә Республика.
     nv: ["Tsiiʼyishbizhí Dineʼé Bikéyah", "tsʰìːʔjìʃpìʒí tìnèʔé pìkʰéjɑ̀h"],  // Literally "land of the braided-hair people", after the queue hairstyle of the Qing dynasty (Wiktionary).
     dng: ["Җунгуә", "tʂuŋ˨˦ kuə˥˩"],  // The Dungan reading of 中國 "Middle Kingdom"; the Shaanxi-based form is Җунгуй (Wiktionary).
-    gag: ["Kitay", "kiˈtaj"],  // Officially Kitay Halk Respublikası (Gagauz Wikipedia).
-    lbe: ["Китай", "kitaj"],  // Officially Китайнал Халкьуннал Республика (Lak Wikipedia).
-    kpv: ["Китай", "kiˈtaj"],  // Китай is the name used by the Komi Wikipedia.
-    myv: ["Китай", "kiˈtaj"],  // Officially Китаень Раськень Республикась; Китай мастор "China land" is also listed (Wiktionary).
-    ast: ["China", "ˈtʃina"],  // Used with the article, la China; officially República Popular China.
+    gag: ["Kitay", "kiˈtaj"],  // Officially Kitay Halk Respublikası (Gagauz Wikipedia). Route by resemblance to the neighbouring forms (ru(Китай) uk(Китай)); no etymology of its own.
+    lbe: ["Китай", "kitaj"],  // Officially Китайнал Халкьуннал Республика (Lak Wikipedia). Route by resemblance to the neighbouring forms (ru(Китай) uk(Китай)); no etymology of its own.
+    kpv: ["Китай", "kiˈtaj"],  // Китай is the name used by the Komi Wikipedia. Route by resemblance to the neighbouring forms (ru(Китай) uk(Китай)); no etymology of its own.
+    myv: ["Китай", "kiˈtaj"],  // Officially Китаень Раськень Республикась; Китай мастор "China land" is also listed (Wiktionary). Route by resemblance to the neighbouring forms (ru(Китай) uk(Китай)); no etymology of its own.
+    ast: ["China", "ˈtʃina"],  // Used with the article, la China; officially República Popular China. Route by resemblance to the neighbouring forms (tl(Tsina) ms(China)); no etymology of its own.
     eo: ["Ĉinio", "tʃiˈnio"],  // Formed from ĉino "Chinese person", which goes back through Persian čin to Sanskrit Cīna; Ĉinujo is the older form (Wiktionary).
     ja_oki: ["唐", "toː"],  // Tō, the Okinawan reading of 唐 Tang, the dynasty name used for China (Wiktionary).
-    vro: ["Hiina", "hiːnɑ"],  // Hiinamaa "China land" is also used (Võro Wikipedia).
-    fo: ["Kina", "ˈtʃʰiːna"],  // Officially Fólkalýðveldið Kina (Faroese Wikipedia).
+    vro: ["Hiina", "hiːnɑ"],  // Hiinamaa "China land" is also used (Võro Wikipedia). Route by resemblance to the neighbouring forms (et(Hiina) mi(Haina)); no etymology of its own.
+    fo: ["Kina", "ˈtʃʰiːna"],  // Officially Fólkalýðveldið Kina (Faroese Wikipedia). Route by resemblance to the neighbouring forms (tl(Tsina) ms(China)); no etymology of its own.
     sip: ["རྒྱ་ནག", "ɡʲanaʔ"],  // Literally "the black expanse", the same name as Tibetan རྒྱ་ནག (Wiktionary).
     gd: ["Sìona", "ˈʃiənə"],  // From Portuguese China, ultimately Sanskrit Cīna; also spelled Sìna (Wiktionary).
     alt: ["Кытай", "qɯˈtaj"],  // From the Khitan name, probably via Uyghur; Кыдат (from Oirat) and Китай (from Russian) are also used (Wiktionary).
     mi: ["Haina", "haina"],  // Borrowed from English China (Wiktionary).
     nrf: ["Chène", "ʃɛn"],  // Continental Norman form; Guernsey has Chaenne and Jersey Chinne (Wiktionary).
     kjh: ["Хыдат", "xɯˈdat"],  // Borrowed from Mongolic, cognate with Mongolian Хятад, from the Khitan name (Wiktionary).
-    rm: ["China", "ˈtɕina"],  // Used with the article, la China; officially Republica Populara da la China.
-    haw: ["Kina", "kina"],  // Pākē is a synonym for the country (Wiktionary).
+    rm: ["China", "ˈtɕina"],  // Used with the article, la China; officially Republica Populara da la China. Route by resemblance to the neighbouring forms (tl(Tsina) ms(China)); no etymology of its own.
+    haw: ["Kina", "kina"],  // Pākē is a synonym for the country (Wiktionary). Route by resemblance to the neighbouring forms (ro(China) da(Kina)); no etymology of its own.
     olo: ["Kitai", "ˈkitai"],  // Borrowed from Russian Китай, from the Khitan name; officially Kitain Rahvahan Tazavaldu.
     rar: ["Tinito", "tinito"],  // Borrowed from English China (Wiktionary).
-    mwl: ["China", "ˈtʃinɐ"],  // Used with the article, la China (Mirandese Wikipedia).
+    mwl: ["China", "ˈtʃinɐ"],  // Used with the article, la China (Mirandese Wikipedia). Route by resemblance to the neighbouring forms (tl(Tsina) ms(China)); no etymology of its own.
     dsb: ["Chinska", "ˈxinska"],  // Officially Chinska ludowa republika (Lower Sorbian Wikipedia).
     tkl: ["Haina", "haina"],  // Borrowed from English China (Wiktionary).
     vo: ["Tsyinän", "tsjiˈnɛn"],  // Formed with the country suffix -än, as in Yapän "Japan".
     mnc: ["ᡩᡠᠯᡳᠮᠪᠠᡳ ᡤᡠᡵᡠᠨ", "dulimbai ɡurun"],  // Dulimbai gurun "middle country", a calque of Chinese 中國; ᠨᡳᡴᠠᠨ ᡤᡠᡵᡠᠨ Nikan gurun is historical (Wiktionary).
     yue_zs: ["中國", "tsʊŋ˥˥ kɔk˧"],  // The Shiqi reading of 中國 "Middle Kingdom"; 中華 is formal or poetic (Wiktionary).
     dta: ["Niaken", "niakən"],  // Borrowed from Manchu nikan "Han Chinese" (Wiktionary).
-    io: ["Chinia", "ˈtʃinja"],  // Officially Popul-Republiko Chinia (Ido Wikipedia).
+    io: ["Chinia", "ˈtʃinja"],  // Officially Popul-Republiko Chinia (Ido Wikipedia). Route by resemblance to the neighbouring forms (tl(Tsina) ms(China)); no etymology of its own.
     fra_jer: ["Chinne", "ʃin"],  // The Jersey form; continental Norman has Chène and Guernsey Chaenne (Wiktionary).
     es_cr: ["China", "ˈtʃina"],  // Probably from Venetian Cina, from Persian čīn, ultimately Sanskrit Cīna, as in all Spanish (Wiktionary).
     es_hn: ["China", "ˈtʃina"],  // Probably from Venetian Cina, from Persian čīn, ultimately Sanskrit Cīna, as in all Spanish (Wiktionary).
@@ -616,7 +616,7 @@ WORDS.china = {
     pt_mz: ["China", "ˈʃinɐ"],  // Via Persian Čīn from Sanskrit Cīna, as in all Portuguese (Wiktionary).
     pt_ao: ["China", "ˈʃinɐ"],  // Via Persian Čīn from Sanskrit Cīna, as in all Portuguese (Wiktionary).
     nl_be: ["China", "ˈʃinaː"],  // Probably from Portuguese China, ultimately from Sanskrit Cīna, as in all Dutch (Wiktionary).
-    ca_va: ["Xina", "ˈtʃina"],  // Normally used with the article, la Xina; Valencian says it with an initial ch sound (Wiktionary).
+    ca_va: ["Xina", "ˈtʃina"],  // Normally used with the article, la Xina; Valencian says it with an initial ch sound (Wiktionary). Route by resemblance to the neighbouring forms (tl(Tsina) ms(China)); no etymology of its own.
     ar_ps: ["الصين", "isˤˈsˤiːn"],  // From Middle Persian čīn, from Sanskrit Cīna; Levantine says iṣ-ṣīn, with the article (Wiktionary).
     ar_jo: ["الصين", "isˤsˤiːn"],  // From Middle Persian čīn, from Sanskrit Cīna; Levantine says iṣ-ṣīn, with the article (Wiktionary).
     gan_yc: ["中国", "tʃɤŋ˧˥ kuøʔ˦"],  // The characters 中国 'middle country' read in Yichun Gan.
@@ -696,7 +696,7 @@ WORDS.china = {
     wuu_jx: ["中国", "tsoŋ˥˩ kuəʔ˥"],  // Literally 'middle country', the name used of China since the Western Zhou bronze inscriptions.
     zh_cd: ["中国", "tsoŋ˥˥ kue˨˩"],  // Literally 'middle country', the name used of China since the Western Zhou bronze inscriptions.
     ext: ["China", "ˈtʃina"],  // Probably from Venetian Cina, from Persian čīn, ultimately Sanskrit Cīna; written as in Spanish.
-    mdf: ["Китай", "kiˈtaj"],  // Китай is the name used by the Moksha Wikipedia; the same name as in Erzya and Russian.
+    mdf: ["Китай", "kiˈtaj"],  // Китай is the name used by the Moksha Wikipedia; the same name as in Erzya and Russian. Route by resemblance to the neighbouring forms (ru(Китай) uk(Китай)); no etymology of its own.
     es_pr: ["China", "ˈtʃina"],  // The same China as Mexican and peninsular Spanish.
     es_do: ["China", "ˈtʃina"],  // Probably from Venetian Cina, from Persian čīn, ultimately Sanskrit Cīna; the same name as in Spain.
     es_gt: ["China", "ˈtʃina"],  // Probably from Venetian Cina, from Persian čīn, ultimately Sanskrit Cīna; the same name as in Spain.

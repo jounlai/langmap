@@ -78,7 +78,7 @@ WORDS.dragonfly = {
     yue: "other",
     vi: "plain",
     tr: "other",
-    mr: "unknown",
+    mr: "plain",
     te: "unknown",
     tl: "plain",
     ko: "plain",
@@ -152,7 +152,7 @@ WORDS.dragonfly = {
     gu: "unknown",
     ps: "other",
     mg: "unknown",
-    kk: "unknown",
+    kk: "other",
     sv: "creature",
     af: "other",
     sr: "creature",
@@ -175,7 +175,7 @@ WORDS.dragonfly = {
     ace: "unknown",
     srn: "other",
     bjn: "unknown",
-    ban: "unknown",
+    ban: "plain",
     ga: "other",
     lv: "unknown",
     mak: "unknown",
@@ -211,7 +211,7 @@ WORDS.dragonfly = {
     yue: ["塘尾", "tʰɔːŋ˨˩ mei˥"],  // 塘 'pond' + 尾 'tail', with the second syllable in changed high tone; the written word is 蜻蜓.
     vi: ["chuồn chuồn", "tɕuən˨˩ tɕuən˨˩"],  // A reduplication of chuồn.
     tr: ["yusufçuk", "jusufˈtʃuk"],  // Yusuf 'Joseph' + the diminutive -çuk, a name it shares with the turtle dove; kızböceği 'girl bug' is a synonym.
-    mr: ["चतुर", "tɕətuɾ"],  // Etymology not given by the sources.
+    mr: ["चतुर", "tɕətuɾ"],  // Etymology not given by the sources. Route by resemblance to the neighbouring forms (hy(ճպուռ)); no etymology of its own.
     te: ["తూనీగ", "tuːniːɡa"],  // Telugu Wiktionary splits it as తూను + ఈగ 'fly'.
     tl: ["tutubi", "tutuˈbi"],  // A word of its own; etymology not given by the sources.
     ko: ["잠자리", "tɕamdʑaɾi"],  // Attested since 1481 as Middle Korean cancali; unrelated to its homograph 잠자리 'bed'.
@@ -285,7 +285,7 @@ WORDS.dragonfly = {
     gu: ["વાણિયો", "ʋaːɳijo"],  // The same word means a member of the Bania merchant caste, or a merchant; no source says how the insect got the name.
     ps: ["ستن", "stən"],  // The word for 'needle' (also 'pin', 'pillar'), used for the dragonfly's long thin body.
     mg: ["angidina", "aŋˈɡidina"],  // The ordinary Malagasy name, used for the adult of the water nymph called ondrindrano.
-    kk: ["инелік", "ɪjneˈlɪk"],  // The Kazakh word for dragonflies and damselflies (Odonata); Kyrgyz has the similar ийнелик.
+    kk: ["инелік", "ɪjneˈlɪk"],  // The Kazakh word for dragonflies and damselflies (Odonata); Kyrgyz has the similar ийнелик. Route by resemblance to the neighbouring forms (ky(ийнелик)); no etymology of its own.
     sv: ["trollslända", "ˈtrɔlslɛnda"],  // Troll 'troll' + slända, originally 'spindle, distaff': the 'troll's spindle'.
     af: ["naaldekoker", "ˈnɑːldəkʊəkər"],  // Literally a 'needle case', the tube that sewing needles are kept in, after the insect's long cylindrical body.
     sr: ["вилин коњиц", "ʋǐːlin kôɲiːts"],  // The 'fairy's little horse', from vila 'fairy' and konjic, a diminutive of konj 'horse'.
@@ -308,7 +308,7 @@ WORDS.dragonfly = {
     ace: ["dén-dén", "denden"],  // A reduplicated form.
     srn: ["grasbarki", "ɡrasbarki"],  // A compound of grasi 'grass; glass' and barki 'beam, bar'.
     bjn: ["sisiur", "sisiur"],  // Damselflies are sisiur jarum, 'needle dragonflies'.
-    ban: ["capung", "tʃapuŋ"],  // The same word as Indonesian capung; the larva is called blauk in Balinese.
+    ban: ["capung", "tʃapuŋ"],  // The same word as Indonesian capung; the larva is called blauk in Balinese. Route by resemblance to the neighbouring forms (id(capung)); no etymology of its own.
     ga: ["snáthaid mhór", "sˠn̪ˠaːhədʲ woːɾˠ"],  // Literally 'big needle'; the same phrase also means a coarse needle and the minute hand of a clock.
     lv: ["spāre", "ˈspaːrɛ"],  // The general Latvian word for dragonflies and damselflies; Wiktionary leaves its etymology open.
     mak: ["bereng-bereng", "ˌbereŋˈbereŋ"],  // A reduplicated word; in the Turatea dialect the word pedoʼ is used instead.

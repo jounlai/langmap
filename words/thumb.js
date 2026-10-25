@@ -232,11 +232,11 @@ WORDS.thumb = {
     hak_hl: "mother",
     nan_te: "mother",
     ota: "other",
-    xct: "unknown",
+    xct: "plain",
     goh: "plain",
     gmh: "plain",
     fro: "plain",
-    sga: "unknown",
+    sga: "plain",
     fr_class: "plain",
     es_sgl: "plain",
     de_lut: "plain",
@@ -364,7 +364,7 @@ WORDS.thumb = {
     es_py: "plain",
     es_pa: "plain",
     en_my: "plain",
-    fud: "unknown",
+    fud: "big",
     wls: "unknown",
     dru: "unknown",
     gun: "big",
@@ -393,7 +393,7 @@ WORDS.thumb = {
     orv: "plain",
     mga: "plain",
     prg: "plain",
-    xct_litpr: "unknown",
+    xct_litpr: "plain",
     zag: "unknown",
     ttq: "unknown",
     gha: "unknown",
@@ -575,11 +575,11 @@ WORDS.thumb = {
     hak_hl: ["手指公", "ʃiu˨˦ tʃi˨˦ kuŋ˥˧"],  // Literally 'finger grandfather', 公 being 'grandfather, old man'.
     nan_te: ["指头公", "tsɯŋ˥˨ tʰau˥˥ koŋ˧˧"],  // Literally 'finger grandfather', 公 being 'grandfather, old man'; it also means the big toe.
     ota: ["باش پرمق", "baʃ paɾˈmak"],  // Literally 'head finger', baş 'head, main' + parmak 'finger', the ancestor of Turkish başparmak.
-    xct: ["མཐེ་བོ", "mtʰebo"],  // Written mthe bo; the first syllable may be related to 'big' (Hill) or to mtha' 'limit, extreme' (Tournadre & Suzuki), so the image is uncertain.
+    xct: ["མཐེ་བོ", "mtʰebo"],  // Written mthe bo; the first syllable may be related to 'big' (Hill) or to mtha' 'limit, extreme' (Tournadre & Suzuki), so the image is uncertain. Route by resemblance to the neighbouring forms (lbj(ཐེ་བོ)); no etymology of its own.
     goh: ["dūmo", "ˈduːmo"],  // The ancestor of German Daumen, cognate with English thumb, from a root meaning 'to swell'.
     gmh: ["dûme", "ˈduːmə"],  // The ancestor of German Daumen, cognate with English thumb.
     fro: ["pouce", "ˈputsə"],  // From Latin pollex, pollicem 'thumb'; also spelled polz and pouz.
-    sga: ["ordu", "ˈordu"],  // Of unknown origin; it survives as Modern Irish ordóg 'thumb'.
+    sga: ["ordu", "ˈordu"],  // Of unknown origin; it survives as Modern Irish ordóg 'thumb'. Route by resemblance to the neighbouring forms (mga(ordu)); no etymology of its own.
     fr_class: ["pouce", "pus"],  // From Latin pollex, pollicem; the Académie in 1762 defined it as 'the thickest of the fingers of the hand'.
     es_sgl: ["pulgar", "pulˈɣaɾ"],  // From Latin pollicaris (from pollex); the Diccionario de Autoridades notes it was the usual word, more common than learned pólice.
     de_lut: ["Daumen", "ˈdaʊ̯mən"],  // From Middle High German dûme; 16th-century writers used both daum and daumen.
@@ -707,7 +707,7 @@ WORDS.thumb = {
     es_py: ["pulgar", "pulˈɣaɾ"],  // From Latin pollicaris (from pollex 'thumb'), the general Spanish word, which also covers the big toe.
     es_pa: ["pulgar", "pulˈɣaɾ"],  // From Latin pollicaris (from pollex 'thumb'), the general Spanish word, which also covers the big toe.
     en_my: ["thumb", "tam"],  // From Old English þūma; Malaysian English typically pronounces the th as t.
-    fud: ["maikao matua", "maikao matua"],  // maikao 'finger' + matua, which Pollex glosses 'main, principal' across Polynesian; with o le vae 'of the foot' the same phrase names the big toe.
+    fud: ["maikao matua", "maikao matua"],  // maikao 'finger' + matua, which Pollex glosses 'main, principal' across Polynesian; with o le vae 'of the foot' the same phrase names the big toe. Route by resemblance to the neighbouring forms (tvl(matikao matua)); no etymology of its own.
     wls: ["tuhi matua", "tuhi matua"],  // tuhi 'finger' + matua 'main, principal' (Pollex); the Bible also writes kaui tuhi matua, and with o te vae 'of the foot' it names the big toe.
     dru: ["dradrangalrane", "ɖaɖaŋaɭanə"],  // The same word names the thumb and the big toe, told apart by ki alrima 'of the hand' or ki drapale 'of the foot'.
     gun: ["kuã guaxu", "kuã ɡwaʃu"],  // Literally 'big finger' (kuã 'finger' + guaxu 'big'); the big toe is pyxã guaxu 'big toe'.
@@ -736,7 +736,7 @@ WORDS.thumb = {
     orv: ["пальць", "palĭtsĭ"],  // In old Russian texts пальць meant the thumb (Vasmer), while перстъ was the general word for finger; it later widened to modern палец 'finger'.
     mga: ["ordu", "ˈorðu"],  // Of unknown origin; with the diminutive suffix -óg it became modern Irish ordóg 'thumb'.
     prg: ["instixs", "instiks"],  // Recorded in the Elbing Vocabulary (c. 1300); a cognate of Lithuanian nykštys and Latvian īkšķis 'thumb'.
-    xct_litpr: ["མཐེ་བོ", "tʰepo"],  // The first syllable may be the root for 'big' (Hill) or mtha' 'extreme, end' (Tournadre & Suzuki); rkang pa'i mthe bo 'the foot's thumb' is the big toe.
+    xct_litpr: ["མཐེ་བོ", "tʰepo"],  // The first syllable may be the root for 'big' (Hill) or mtha' 'extreme, end' (Tournadre & Suzuki); rkang pa'i mthe bo 'the foot's thumb' is the big toe. Route by resemblance to the neighbouring forms (lbj(ཐེ་བོ)); no etymology of its own.
     zag: ["ba bo", "ba bo"],  // Synonym ba lûka; ba is 'arm, hand'.
     ttq: ["egmăz", "eɡmæz"],
     gha: ["ag̣əmmịz", "aɟəmːez"],

@@ -129,6 +129,25 @@ WORDS.hiccup = {
     ml: "unknown",
     as: "imitative",
     hy: "unknown",
+    zh: "imitative",
+    zh_db: "imitative",
+    zh_sc: "imitative",
+    zh_cd: "imitative",
+    zh_cq: "imitative",
+    zh_km: "imitative",
+    zh_hf: "imitative",
+    zh_kf: "imitative",
+    zh_nj: "imitative",
+    zh_jh: "imitative",
+    hsn: "imitative",
+    yue: "unknown",
+    wuu: "unknown",
+    nan: "unknown",
+    hak_tw: "unknown",
+    hak_hl: "unknown",
+    yue_ts: "unknown",
+    yue_nn: "unknown",
+    cnp: "unknown",
   },
   routes: {
     imitative: {"color":"#ea580c","emoji":"🔊","en":"imitating the sound","ja":"音のまね","ko":"소리 흉내","zh":"模仿声音","yue":"模仿聲音","vi":"mô phỏng âm thanh","th":"เลียนเสียง","id":"tiruan bunyi","hi":"ध्वनि की नक़ल","de":"lautmalend","fr":"imitant le bruit","it":"onomatopeico","es":"imita el sonido","pt":"imita o som","ru":"звукоподражание","uk":"звуконаслідування","ar":"محاكاة الصوت","he":"חיקוי הקול","sw":"kuiga sauti"},
@@ -204,5 +223,24 @@ WORDS.hiccup = {
     ml: ["ഇക്കിൾ", "ikːiɭ"],  // എക്കിൾ ekkiḷ is a synonym; cognate with Tamil விக்கல்.
     as: ["হিঁকটি", "ɦikɔti"],  // Inherited from Sanskrit hikkā, built on an onomatopoeic root; also spelled হেঁকটি.
     hy: ["զկռտոց", "zəkərˈtotsʰ"],  // A noun from զկռտալ 'to hiccup'.
+    zh: ["打嗝", "ta˧˩˧ kɤ˧˥"],  // 打 'to do, strike' + 嗝, a sound-word for the hiccup; strictly a verb phrase, it is also the everyday name of the condition, and 呃逆 is the technical term.
+    zh_db: ["打嗝", "ta˧˩˧ kɤ˧˥"],  // 打 'to do' + 嗝, a sound-word; the general Mandarin word, read here in the local tones (no source gives a local word).
+    zh_sc: ["打嗝", "ta˥˧ ke˥˧"],  // 打 'to do' + 嗝, a sound-word; the general Mandarin word, read here in the local tones (no source gives a local word).
+    zh_cd: ["打嗝", "ta˥˧ ke˥˧"],  // 打 'to do' + 嗝, a sound-word; the general Mandarin word, read here in the local tones (no source gives a local word).
+    zh_cq: ["打嗝", "ta˦˨ ke˨˩"],  // 打 'to do' + 嗝, a sound-word; the general Mandarin word, read here in the local tones (no source gives a local word).
+    zh_km: ["打嗝", "tᴀ˥˧ kə˧˩"],  // 打 'to do' + 嗝, a sound-word; the general Mandarin word, read here in the local tones (no source gives a local word).
+    zh_hf: ["打嗝", "ta˨˦ kɐʔ˦"],  // 打 'to do' + 嗝, a sound-word; the general Mandarin word, read here in the local tones (no source gives a local word).
+    zh_kf: ["打嗝", "ta˦˦ kɤ˨˦"],  // 打 'to do' + 嗝, a sound-word; the general Mandarin word, read here in the local tones (no source gives a local word).
+    zh_nj: ["打嗝", "ta˨˩˨ kəʔ˥"],  // 打 'to do' + 嗝, a sound-word; the general Mandarin word, read here in the local tones (no source gives a local word).
+    zh_jh: ["打嗝", "ta˨˩˨ kəʔ˥˥"],  // 打 'to do' + 嗝, a sound-word; the general Mandarin word, read here in the local tones (no source gives a local word).
+    hsn: ["打嗝", "ta˦˩ kɤ˨˩"],  // 打 'to do' + 嗝, a sound-word; the Changsha character table cites 嗝 in 打嗝.
+    yue: ["打思噎", "taː˧˥ siː˥ jɪk˥"],  // 打 'to do' + 思噎; strictly a verb phrase, it is also the everyday name of the condition, and yue.wikipedia spells it 打𤺊嗌.
+    wuu: ["打噎", "tã˧˧ iɪʔ˦˦"],  // 打 'to do' + 噎; the Shanghainese word for the hiccup, also written 打餩, with 打嗝 the Mandarin equivalent.
+    nan: ["呼噎仔", "kʰɔ˦˦ uʔ˧˨ a˥˧"],  // The Taiwan Ministry of Education dictionary defines khoo-uh-á as the run of hiccups caused by a spasm, while 拍呃 phah-eh is the burp.
+    hak_tw: ["打噎啄", "ta˧˩ et˥ tuk˨"],  // The Taiwan Hakka dictionary defines 打噎啄 as the involuntary spasm of the diaphragm, also called 呃逆.
+    hak_hl: ["打噎啄", "ta˨˦ et˨ tuk˥"],  // The Taiwan Hakka dictionary defines 打噎啄 as the involuntary spasm of the diaphragm, also called 呃逆; Hailu da ed dug.
+    yue_ts: ["打噎", "ʔa˥˥ ʔəɯk˨˩"],  // 打 'to do' + 噎, the hiccup word of Cantonese 打思噎; the Taishan table cites it as 打个噎.
+    yue_nn: ["打呃", "ta˧˥ ɐk˥"],  // 打 'to do' + 呃; the Nanning table glosses 打呃 and the fuller 打閡呃 as 打嗝 and derives 呃 from 餩.
+    cnp: ["打呃", "ta˧˧ ɐk˥"],  // 打 'to do' + 呃; the Nanning Tingzi table glosses 打呃 and 打塞呃 as 打嗝 and derives 呃 from 餩.
   },
 };

@@ -844,7 +844,7 @@ WORDS.tomorrow = {
     yue: ["聽日", "tʰɪŋ˥ jɐt˨"],  // The characters are phonetic; the word may be a worn-down 天光日 'daybreak day' or 天日 (Wiktionary).
     nan: ["明仔載", "bin˨˦ a˥˧ tsai˩˩"],  // From 明旦 'tomorrow morning' plus a contracted 早起 'morning' (Wiktionary).
     wuu: ["明朝", "min˨˨ tsɔ˦˦"],  // Literally 'next morning' (朝 'morning'); in Classical Chinese it meant 'tomorrow morning' (Wiktionary).
-    hak_cn: ["天光日", "tʰiɛn˦ kuɔŋ˦ ŋit˩"],  // Literally 'daybreak day': 天光 means 'dawn' (Wiktionary).
+    hak_cn: ["天光日", "tʰiɛn˦ kuoŋ˦ ŋit˩"],  // Literally 'daybreak day': 天光 means 'dawn' (Wiktionary).
     hsn_hy: ["明日", "mai˩˩˨ ɕi˩˩˨"],  // 明 'next' + 日 'day', with the colloquial reading mai for 明 (MCPDict Hengyang table).
     vi: ["ngày mai", "ŋaj˨˩ maːj˧"],  // Literally 'morning day': mai means 'early morning' (Wiktionary).
     vi_s: ["ngày mai", "ŋaj˨˩ maːj˧"],  // Literally 'morning day': mai means 'early morning' (Wiktionary).

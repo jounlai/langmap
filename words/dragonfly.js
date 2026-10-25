@@ -230,7 +230,7 @@ WORDS.dragonfly = {
     uk: ["бабка", "ˈbabkɐ"],  // The same word as бабка 'grandmother, old woman'; the sources suggest a 'witch' image or a belief that souls of the dead possess insects.
     ml: ["തുമ്പി", "t̪umbi"],  // A Dravidian word shared with Tamil தும்பி, where cognates mean 'bee' or 'wasp'.
     or: ["କଙ୍କି", "kɔŋki"],  // A native (deśya) word; regional names in Balasore and Sambalpur are defined by it.
-    hsn: ["洋咪咪", "iæn˩˧ mi˧˧ mi˧"],  // The characters spell the sound; it is also written 暘咩咩.
+    hsn: ["洋咪咪", "ian˩˧ mi˧˧ mi˧"],  // The characters spell the sound; it is also written 暘咩咩.
     uz: ["ninachi", "ninatʃi"],  // Etymology not given by the sources.
     my: ["ပုစဉ်း", "bəzɪ́ɴ"],  // ပု, perhaps from ပိုး 'insect', + စဉ်း of uncertain origin.
     zu: ["uzekamanzi", "uzeɠaˈmaːnzi"],  // A class 1a noun built on amanzi 'water'.

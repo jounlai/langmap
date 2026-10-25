@@ -396,7 +396,7 @@ WORDS.japan = {
     gu: ["જાપાન", "dʒaːpaːn"],  // Borrowed from English Japan (Wiktionary).
     bho: ["जापान", "dʒaːpaːn"],  // The same form as Hindi जापान; no source found that names the donor.
     ps: ["جاپان", "dʒɑpɑn"],  // Borrowed from English Japan, possibly through Urdu (Wiktionary).
-    nan: ["日本", "dʑit˦ pun˥˧"],  // Literally 'sun origin'; this Hokkien Ji̍t-pún is the source of Malay Jepang and, through it, of Japan (Wiktionary).
+    nan: ["日本", "lit˦ pun˥˧"],  // Literally 'sun origin'; this Hokkien Ji̍t-pún is the source of Malay Jepang and, through it, of Japan (Wiktionary).
     hak_cn: ["日本", "ŋit˩ pun˧˩"],  // Literally 'sun origin', read in Hakka (Wiktionary).
     es: ["Japón", "xaˈpon"],  // Probably from Portuguese Japão, perhaps influenced by the Hokkien of early Manila (Wiktionary).
     pl: ["Japonia", "jaˈpɔɲja"],  // Borrowed from New Latin Iaponia (Wiktionary).

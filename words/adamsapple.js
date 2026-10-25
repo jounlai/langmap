@@ -307,6 +307,6 @@ WORDS.adamsapple = {
     nan_xm: ["颔珠", "am˨˨ tsu˦˦"],  // Literally 'neck bead', with 颔 as in 颔颈 'neck'.
     nan_zz: ["咙喉核仔", "nã˩˧ au˩˧ hut̚˩˨˩ a˥˧"],  // Literally 'little throat pit': 咙喉 'throat' + 核 'fruit stone' + diminutive 仔.
     nan_pn: ["喉鐘", "au˨˧ tseŋ˧˧"],  // Literally 'throat bell'; in Xiamen and Taiwan the same word means the uvula.
-    zh_jiao: ["喉结","xou˦˨ tɕiə˥˥"],  // Literally 'throat knot'; same word as Standard Mandarin.
+    zh_jiao: ["喉结", "xou˦˨ tɕiə˥˥"],  // Literally 'throat knot'; same word as Standard Mandarin.
   },
 };

@@ -649,6 +649,6 @@ WORDS.japan = {
     es_ve: ["Japón", "haˈpoŋ"],  // The same name as elsewhere in Spanish, probably from Portuguese Japão; Venezuelan speech pronounces the j as h and the final n as ng.
     hak_hl: ["日本", "ŋit˥ pun˨˦"],  // Literally 'sun origin'; Hailu Hakka Ngit-bún, with 本 on the rising tone where Sixian has a falling one.
     zh_hf: ["日本", "ʐəʔ˦ pən˨˦"],  // Literally 'sun origin'; Hefei keeps 日 as a checked (glottal-stop) syllable.
-    zh_jiao: ["日本","i˦˨ pə̃˥˥"],  // Literally 'sun origin'; same word as Standard Mandarin.
+    zh_jiao: ["日本", "i˦˨ pə̃˥˥"],  // Literally 'sun origin'; same word as Standard Mandarin.
   },
 };

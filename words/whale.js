@@ -284,8 +284,8 @@ WORDS.whale = {
     ln: "unknown",
     so: "unknown",
     prs: "plain",
-    ttq: "unknown",
     zh_jiao: "fish",
+    ttq: "unknown",
   },
   routes: {
     fish: {"color":"#2563eb","emoji":"🐟","en":"called a fish","ja":"「魚」と呼ぶ","ko":"\"물고기\"라 부름","zh":"称作\"鱼\"","yue":"叫做「魚」","vi":"gọi là cá","th":"เรียกว่าปลา","id":"disebut ikan","hi":"मछली कहा जाता है","de":"als Fisch bezeichnet","fr":"appelée poisson","it":"chiamata pesce","es":"llamada pez","pt":"chamada peixe","ru":"называют рыбой","uk":"називають рибою","ar":"تُسمّى سمكة","he":"נקרא דג","sw":"huitwa samaki"},
@@ -515,7 +515,7 @@ WORDS.whale = {
     ln: ["mondɛ́lɛ́", "mondɛ́lɛ́"],  // The Lingala word for the whale; it does not contain mbisi 'fish'.
     so: ["nibiri", "nibiri"],  // The Somali word for the whale; it does not contain kalluun 'fish'.
     prs: ["نهنگ", "naˈhaŋɡ"],  // The same word as Persian نهنگ; in Middle Persian it meant 'crocodile'.
+    zh_jiao: ["鲸鱼", "tɕiəŋ˨˩˧ y˦˨"],  // Literally 'whale fish'; same word as Standard Mandarin.
     ttq: ["elăkămmăn", "elækæmːæn"],  // Also the name of the constellation Pisces (Prasse).
-    zh_jiao: ["鲸鱼","tɕiəŋ˨˩˧ y˦˨"],  // Literally 'whale fish'; same word as Standard Mandarin.
   },
 };

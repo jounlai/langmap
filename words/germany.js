@@ -753,6 +753,6 @@ WORDS.germany = {
     ar_lb: ["ألمانيا", "ʔalˈmaːnja"],  // From Spanish Alemania, after the Alamanni tribe; the same name as in Standard Arabic.
     hak_hl: ["德國", "tet˥ kuet˥"],  // 德 is short for 德意志, a transcription of German deutsch, plus 國 'country'.
     zh_hf: ["德国", "tɐʔ˦ kuɐʔ˦"],  // 德 is short for 德意志, a transcription of German deutsch, plus 国 'country'.
-    zh_jiao: ["德国","te˥˥ kuə˥˥"],  // 德 is short for 德意志, a transcription of Deutsch; same word as Standard Mandarin.
+    zh_jiao: ["德国", "te˥˥ kuə˥˥"],  // 德 is short for 德意志, a transcription of Deutsch; same word as Standard Mandarin.
   },
 };

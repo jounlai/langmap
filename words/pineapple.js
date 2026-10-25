@@ -471,6 +471,6 @@ WORDS.pineapple = {
     hyw: ["անանաս", "ɑnɑˈnɑs"],  // Same word in Western and Eastern Armenian; the puristic "king's apple" արքայախնձոր is rare.
     th_isan: ["บักนัด", "bak˨˦nat˦"],  // บัก is the Isan fruit prefix (Thai หมาก); compare Lao ໝາກນັດ.
     th_s: ["ยานัด", "jaː˥nat˧˥"],  // Possibly from Malay nanas via a northern peninsular dialect (Wiktionary).
-    zh_jiao: ["菠萝","pə˨˩˧ luə˦˨"],  // Clipped from 菠萝蜜, the jackfruit; same word as Standard Mandarin.
+    zh_jiao: ["菠萝", "pə˨˩˧ luə˦˨"],  // Clipped from 菠萝蜜, the jackfruit; same word as Standard Mandarin.
   },
 };

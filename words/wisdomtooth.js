@@ -338,6 +338,6 @@ WORDS.wisdomtooth = {
     kk: ["ақыл тіс", "ɑˈqəl təs"],  // Literally 'mind tooth' (ақыл 'mind, reason').
     sq: ["dhëmb i pjekurisë", "ðəmb i pjɛkuˈɾisə"],  // Literally 'tooth of maturity' (pjekuri 'maturity, ripeness'), for the adult age at which it comes in.
     my: ["အံဆုံး", "ʔàɴ zóʊɴ"],  // Literally 'the end molar' (အံ 'molar' + ဆုံး 'to end'), the last tooth of the row.
-    zh_jiao: ["智齿","tʃɿ˦˨ tʂʰʅ˥˥"],  // Literally 'wisdom tooth'; same word as Standard Mandarin.
+    zh_jiao: ["智齿", "tʃɿ˦˨ tʂʰʅ˥˥"],  // Literally 'wisdom tooth'; same word as Standard Mandarin.
   },
 };

@@ -538,6 +538,6 @@ WORDS.turkey = {
     mrw: ["pabo", "pabo"],  // From Spanish pavo, originally the word for the peacock, as in most Philippine languages.
     luo: ["mbata", "mbata"],  // Compare Swahili bata mzinga; the dictionary notes the bird is uncommon in Luoland and was once called Mbata Musinga Gwend Ulaya.
     quc: ["noʼs", "noʔs"],  // A native K'iche' word, not a borrowing from Spanish.
-    zh_jiao: ["火鸡","xuə˥˥ tɕi˨˩˧"],  // Literally 'fire chicken'; same word as Standard Mandarin.
+    zh_jiao: ["火鸡", "xuə˥˥ tɕi˨˩˧"],  // Literally 'fire chicken'; same word as Standard Mandarin.
   },
 };

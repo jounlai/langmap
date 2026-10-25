@@ -394,6 +394,6 @@ WORDS.cheers = {
     hr: ["živjeli", "ʒǐːʋjeli"],  // Literally '(may you) live!', from živjeti 'to live'; nazdravlje 'to health' is also said.
     hy: ["կենացդ", "keˈnɑtsʰəd"],  // Literally 'your toast'; կենաց 'toast' is an old genitive of 'life', so 'to (your) life'.
     hyw: ["կենացդ", "ɡeˈnɑtsʰətʰ"],  // Literally 'your toast', from an old genitive of 'life', as in Eastern Armenian.
-    zh_jiao: ["干杯","kã˨˩˧ pe˨˩˧"],  // Literally 'dry the cup'; same word as Standard Mandarin.
+    zh_jiao: ["干杯", "kã˨˩˧ pe˨˩˧"],  // Literally 'dry the cup'; same word as Standard Mandarin.
   },
 };

@@ -148,6 +148,25 @@ WORDS.hiccup = {
     yue_ts: "unknown",
     yue_nn: "unknown",
     cnp: "unknown",
+    id: "imitative",
+    jv: "imitative",
+    su: "unknown",
+    ms: "plain",
+    pa: "imitative",
+    pnb: "imitative",
+    gu: "unknown",
+    sd: "unknown",
+    skr: "unknown",
+    ne: "unknown",
+    or: "imitative",
+    ha: "unknown",
+    yo: "unknown",
+    my: "unknown",
+    sr: "unknown",
+    azb: "imitative",
+    ps: "unknown",
+    mg: "unknown",
+    km: "plain",
   },
   routes: {
     imitative: {"color":"#ea580c","emoji":"🔊","en":"imitating the sound","ja":"音のまね","ko":"소리 흉내","zh":"模仿声音","yue":"模仿聲音","vi":"mô phỏng âm thanh","th":"เลียนเสียง","id":"tiruan bunyi","hi":"ध्वनि की नक़ल","de":"lautmalend","fr":"imitant le bruit","it":"onomatopeico","es":"imita el sonido","pt":"imita o som","ru":"звукоподражание","uk":"звуконаслідування","ar":"محاكاة الصوت","he":"חיקוי הקול","sw":"kuiga sauti"},
@@ -242,5 +261,24 @@ WORDS.hiccup = {
     yue_ts: ["打噎", "ʔa˥˥ ʔəɯk˨˩"],  // 打 'to do' + 噎, the hiccup word of Cantonese 打思噎; the Taishan table cites it as 打个噎.
     yue_nn: ["打呃", "ta˧˥ ɐk˥"],  // 打 'to do' + 呃; the Nanning table glosses 打呃 and the fuller 打閡呃 as 打嗝 and derives 呃 from 餩.
     cnp: ["打呃", "ta˧˧ ɐk˥"],  // 打 'to do' + 呃; the Nanning Tingzi table glosses 打呃 and 打塞呃 as 打嗝 and derives 呃 from 餩.
+    id: ["cegukan", "tʃəɡukan"],  // From ceguk, which the KBBI defines as an imitation of the sound 'guk' made when air catches in the throat.
+    jv: ["ceguken", "tʃəɡukən"],  // Built on ceguk, which the KBBI, listing it as a Javanese word, defines as an imitation of the sound 'guk'; the -en ending marks being afflicted by it.
+    su: ["sisidueun", "sisiduɯn"],  // The everyday (loma) Sundanese word, glossed in the Sundanese Wiktionary with Indonesian cegukan.
+    ms: ["sedu", "sədu"],  // Inherited from Proto-Malayo-Polynesian *sədu 'hiccough'; the same word also means 'sob'.
+    pa: ["ਹਿਚਕੀ", "ɦɪtʃkiː"],  // The same word as Hindi-Urdu hichkī, which the Hindi Shabdasagar derives from an imitation of the sound hich.
+    pnb: ["ہچکی", "hɪtʃkiː"],  // The same word as Hindi-Urdu hichkī, which the Hindi Shabdasagar derives from an imitation of the sound hich.
+    gu: ["હેડકી", "heɖkiː"],  // The everyday Gujarati word; હીક, from Sanskrit hikkā, is a synonym.
+    sd: ["هڏڪي", "hɪɗɪkiː"],  // The Sindhi word; Turner's Nepali dictionary compares it with Nepali bāṛuli.
+    skr: ["ہݙکی", "hɪɗkiː"],  // Saraiki, from the verb ہݙکݨ; a Saraiki glossary equates it with Urdu ہچکی 'hiccup'.
+    ne: ["बाडुली", "baːɖuliː"],  // Nepali dictionaries define it as the hiccupping sound and equate it with hikkā; Turner tentatively calls it onomatopoeic.
+    or: ["ହିକ୍କା", "hikːaː"],  // From Sanskrit hikkā, built on an onomatopoeic root.
+    ha: ["shaƙuwa", "ʃakʼuwaː"],  // Used in yi shaƙuwa 'to do a hiccup', the usual way to say 'to hiccup'.
+    yo: ["èsúkè", "èsúkè"],  // The noun belonging to the verb súkè 'to hiccup'.
+    my: ["ကြို့ထိုး", "tɕo̰tʰó"],  // The verb 'to hiccup'; ကြို့ alone also means 'to belch'.
+    sr: ["штуцање", "ʃtûtsaːɲe"],  // The verbal noun of штуцати 'to hiccup'.
+    azb: ["هیچقیریق", "hɯtʃɡɯˈɾɯɡ"],  // The same word as Azerbaijani hıçqırıq, which is onomatopoeic and also means 'sobbing'.
+    ps: ["سلګۍ", "salɡəj"],  // The Pashto word; Raverty's dictionary also gives the metathesised variant sugalaʿī.
+    mg: ["solavady", "sulaˈvadi"],  // The Malagasy word, which dictionaries gloss with French hoquet.
+    km: ["ត្អើក", "tʔaək"],  // Inherited from Proto-Mon-Khmer *cʔə(ə)ʔ 'to hiccough, belch', cognate with Vietnamese nấc; it is the verb 'to hiccup'.
   },
 };

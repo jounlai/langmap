@@ -150,7 +150,7 @@ WORDS.tomato = {
     ml: "unknown",
     si: "unknown",
     kn: "nahuatl",
-    zu: "unknown",
+    zu: "nahuatl",
     km: "unknown",
     za: "unknown",
     ny: "unknown",
@@ -322,7 +322,7 @@ WORDS.tomato = {
     cpx: "foreign",
     aa: "nahuatl",
     mak: "unknown",
-    bem: "unknown",
+    bem: "nahuatl",
     kok: "nahuatl",
     czh: "foreign",
     shy: "nahuatl",
@@ -455,7 +455,7 @@ WORDS.tomato = {
     ml: ["തക്കാളി", "t̪akːaːɭi"],  // A South Indian word shared with Tamil and Kannada.
     si: ["තක්කාලි", "takːaːli"],  // Borrowed from Tamil takkāḷi.
     kn: ["ಟೊಮೇಟೊ", "ʈomeːʈo"],  // Etymology not given by the sources; ತಕ್ಕಾಳಿ is the older South Indian word. Route by resemblance to the neighbouring forms (bn(টমেটো)); no etymology of its own.
-    zu: ["utamatisi", "utamaˈtiːsi"],  // Etymology not given by the source.
+    zu: ["utamatisi", "utamaˈtiːsi"],  // Etymology not given by the source. Route by resemblance to the neighbouring forms (ts(tamatisi)); no etymology of its own.
     km: ["ប៉េងប៉ោះ", "peːŋˈpɑh"],  // Etymology not given by the source.
     za: ["makyungz", "maːk˧˥ juŋ˧˩"],  // Mak- marks fruit names; the synonym fanhgez is borrowed from Chinese 番茄.
     ny: ["phwetekere", "pʷʰetekeɽe"],  // Etymology not given by the source; matimati and tomato come from English.
@@ -627,7 +627,7 @@ WORDS.tomato = {
     cpx: ["番柿", "huaŋ˥˧˧ kʰi˩˩"],  // 番 'foreign' + 柿 'persimmon': the 'foreign persimmon'; 番茄 means chilli pepper in Xianyou.
     aa: ["tamaatim", "tamaːtim"],  // From Arabic ṭamāṭim, ultimately from Nahuatl tomatl; bomodooro, from Italian pomodoro, is also recorded.
     mak: ["tagalae", "taɡaˈlae"],  // Also tagalai; Cense records boʼdong-boʼdong sitamboloʼ 'Istanbul eggplant' as a botanical name.
-    bem: ["matimati", "matimati"],  // The etymology is not given by the source.
+    bem: ["matimati", "matimati"],  // The etymology is not given by the source. Route by resemblance to the neighbouring forms (fon(timati) kbp(tɩmaatɩ)); no etymology of its own.
     kok: ["तोमात", "toːmaːt"],  // Borrowed from Portuguese tomate, ultimately from Nahuatl tomatl.
     czh: ["番茄", "fuːə˩˩ kɔ˩˩"],  // 番 'foreign' + 茄 'eggplant': the 'foreign eggplant', as in Mandarin.
     shy: ["tmatem", "tmatəm"],  // The etymology is not given by the source. Route by resemblance to the neighbouring forms (ar_tn(طماطم)); no etymology of its own.

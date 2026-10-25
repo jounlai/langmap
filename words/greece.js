@@ -141,7 +141,7 @@ WORDS.greece = {
     sv: "graecia",
     ug: "graecia",
     wo: "graecia",
-    rw: "unknown",
+    rw: "graecia",
     sn: "graecia",
     sr: "graecia",
     cs: "graecia",
@@ -430,7 +430,7 @@ WORDS.greece = {
     sv: ["Grekland", "ˈɡreːkland"],  // Grek 'Greek' plus land; listed among the names from Latin Graecia (Wikipedia).
     ug: ["گرېتسىيە", "ɡretsiˈjɛ"],  // Borrowed from Russian Греция, from Latin Graecia; يۇنانستان Yunanistan is also listed (Wiktionary).
     wo: ["Girees", "ɡireːs"],  // The Wolof Wikipedia's name for Greece; no source gives the path of the word. Route by resemblance to the neighbouring forms (fr(Grèce) fr_lu(Grèce)); no etymology of its own.
-    rw: ["Ubugereki", "ubuɡeɾeki"],  // Ubugereki, with the country prefix ubu-, as in the Kinyarwanda Wikipedia.
+    rw: ["Ubugereki", "ubuɡeɾeki"],  // Ubugereki, with the country prefix ubu-, as in the Kinyarwanda Wikipedia. Route by resemblance to the neighbouring forms (rn(Ubugiriki)); no etymology of its own.
     sn: ["Vugiriki", "ʋuɡiriki"],  // Vugiriki is the title of the Shona Wikipedia article on Greece. Route by resemblance to the neighbouring forms (sw(Ugiriki)); no etymology of its own.
     sr: ["Грчка", "ɡr̩̂tʃkaː"],  // Grčka, from Grk "Greek", from Proto-Slavic *grьkъ, ultimately from Latin Graecus.
     cs: ["Řecko", "ˈr̝ɛtsko"],  // Řecko is Řek "Greek" plus -cko; Old Czech Hřěk was borrowed from Latin Graecus.

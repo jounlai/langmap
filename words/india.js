@@ -139,7 +139,7 @@ WORDS.india = {
     hu: "greek",
     ug: "persian",
     wo: "persian",
-    rw: "unknown",
+    rw: "persian",
     sn: "greek",
     sr: "greek",
     ht: "greek",
@@ -449,7 +449,7 @@ WORDS.india = {
     hu: ["India", "ˈindijɒ"],  // From Latin India (Wiktionary).
     ug: ["ھىندىستان", "hindisˈtɑn"],  // Hindistan, from Persian Hindustan "land of the Hind"; ئەنەتكەك is an older name.
     wo: ["End", "ɛnd"],  // End is the title of the Wolof Wikipedia article on India. Route by resemblance to the neighbouring forms (fa(هند)); no etymology of its own.
-    rw: ["Ubuhinde", "ubuhinde"],  // Ubuhinde, with the country prefix ubu-, as in the Kinyarwanda Wikipedia.
+    rw: ["Ubuhinde", "ubuhinde"],  // Ubuhinde, with the country prefix ubu-, as in the Kinyarwanda Wikipedia. Route by resemblance to the neighbouring forms (rn(Ubuhindi)); no etymology of its own.
     sn: ["India", "india"],  // Shona uses the international name India. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     sr: ["Индија", "ǐndija"],  // From Greek Indía, named after the Indus river.
     ht: ["End", "ɛ̃d"],  // From French Inde, itself from Latin India.

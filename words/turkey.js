@@ -196,7 +196,7 @@ WORDS.turkey = {
     lmo: "unknown",
     io: "india",
     fur: "india",
-    dsb: "unknown",
+    dsb: "local",
     or: "peru",
     as: "peru",
     es_cu: "local",
@@ -436,7 +436,7 @@ WORDS.turkey = {
     lmo: ["pollin", "puˈlin"],  // Milanese pollin.
     io: ["dindo", "ˈdindo"],  // Ido dindo; male dindulo, female dindino. Route by resemblance to the neighbouring forms (vec(dindio) fur(dindi)); no etymology of its own.
     fur: ["dindi", "ˈdindi"],  // Pirona (1871) explains dindi as the "chicken or rooster of India".
-    dsb: ["truta", "ˈtruta"],  // Lower Sorbian truta is the turkey hen (also trutawa).
+    dsb: ["truta", "ˈtruta"],  // Lower Sorbian truta is the turkey hen (also trutawa). Route by resemblance to the neighbouring forms (de_ch(Trute)); no etymology of its own.
     or: ["ପେରୁ", "peɾu"],  // Named after Peru, like Portuguese peru (Praharaj's Odia dictionary).
     as: ["পেৰু চৰাই", "peɹu sɔɹai"],  // Literally "Peru bird".
     es_cu: ["guanajo", "ɡwaˈnaxo"],  // A Cuban word borrowed from Arawak wanasu; most of the Spanish-speaking world says pavo.

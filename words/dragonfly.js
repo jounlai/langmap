@@ -197,6 +197,9 @@ WORDS.dragonfly = {
     ug: "unknown",
     ln: "unknown",
     bar: "other",
+    hil: "unknown",
+    lo: "plain",
+    kg: "unknown",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -339,5 +342,8 @@ WORDS.dragonfly = {
     ug: ["يىڭناغۇچ", "jiŋnaʁutʃ"],  // The Uyghur explanatory dictionary defines it as a slender, long-bodied insect with two pairs of membranous wings that flies high and lives in water, and calls it a useful insect.
     ln: ["lipúngupúngu", "lipúŋɡupúŋɡu"],  // A reduplicated noun, plural mapúngupúngu.
     bar: ["Augnstecher", "ˈaʊŋʃteçɐ"],  // Literally 'eye-stabber', the Bavarian form of German Augenstecher, like Norwegian øyenstikker.
+    hil: ["tumbak-tumbak", "ˈtumbaktumbak"],  // A reduplicated word; Motus's dictionary marks stress on the first syllable, túmbaktúmbak, and gives no etymology.
+    lo: ["ແມງປໍ", "mɛːŋ˧˥ pɔː˩˧"],  // ແມງ 'insect' + ປໍ, which Kerr's dictionary glosses as 'dragonfly' on its own; the same make-up as Thai แมลงปอ.
+    kg: ["lumpungumpungu", "lumpuŋɡumpuŋɡu"],  // Both standard Kikongo dictionaries give this word; Kikongo Wikipedia titles its article kimpungunzala, which looks built on the same mpungu stem.
   },
 };

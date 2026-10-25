@@ -257,7 +257,7 @@ WORDS.sunflower = {
     kab: "unknown",
     nds: "sun",
     he: "unknown",
-    tt: "unknown",
+    tt: "turn",
     qu: "sun",
     scn: "turn",
     es_pr: "turn",
@@ -479,7 +479,7 @@ WORDS.sunflower = {
     kab: ["magriṭij", "maɡritˤiʒ"],  // The second part is iṭij 'sun'; the sources do not explain the first part.
     nds: ["Sünnbloom", "ˈzʏnbloːm"],  // Sünn 'sun' + Bloom 'flower', like German Sonnenblume.
     he: ["חמנית", "χamaˈnit"],  // A name revived by Bialik; the sources disagree on its origin (Hebrew Wikipedia cites Rosenthal deriving it from the biblical place name Hamon).
-    tt: ["көнбагыш", "kønbaˈʁɯʃ"],  // Begins with көн 'sun, day'; айбагар and көнбакты are also given as names, but the sources do not explain the second part.
+    tt: ["көнбагыш", "kønbaˈʁɯʃ"],  // Begins with көн 'sun, day'; айбагар and көнбакты are also given as names, but the sources do not explain the second part. Route by resemblance to the neighbouring forms (kk(күнбағыс)); no etymology of its own.
     qu: ["inti wayta", "inti ˈwajta"],  // Inti 'sun' + wayta 'flower': the sun flower; inti t'ika is also used.
     scn: ["girasuli", "dʒiraˈsuli"],  // Gira 'turns' + suli 'sun', like Italian girasole.
     es_pr: ["girasol", "hiɾaˈsol"],  // Gira 'turns' + sol 'sun', the same word as in Spain.

@@ -420,8 +420,8 @@ WORDS.potato = {
     quz: "papa",
     kha: "unknown",
     brx: "other",
-    mni: "unknown",
-    nag: "unknown",
+    mni: "other",
+    nag: "other",
     kbp: "unknown",
     zh_jiao: "earth",
   },
@@ -785,8 +785,8 @@ WORDS.potato = {
     quz: ["papa", "ˈpapa"],  // The native Andean word, which Spanish borrowed as papa.
     kha: ["phan", "pʰan"],  // The Khasi name for the potato; no source gives its origin.
     brx: ["आलु", "alu"],  // The same word as Assamese alu; no source states the borrowing. Route by resemblance to the neighbouring forms (hi(आलू) bn(আলু)); no etymology of its own.
-    mni: ["ꯑꯂꯨ", "əlu"],  // The same word as Bengali and Assamese alu; no source states the borrowing. The sweet potato is a different word, mangra.
-    nag: ["alu", "alu"],  // The same word as Assamese alu, the language Nagamese is built on.
+    mni: ["ꯑꯂꯨ", "əlu"],  // The same word as Bengali and Assamese alu; no source states the borrowing. The sweet potato is a different word, mangra. Route by resemblance to the neighbouring forms (sat(ᱟᱹᱞᱩ)); no etymology of its own.
+    nag: ["alu", "alu"],  // The same word as Assamese alu, the language Nagamese is built on. Route by resemblance to the neighbouring forms (hi(आलू) bn(আলু)); no etymology of its own.
     kbp: ["tɛtɛɛ pɔm", "tɛtɛː pɔm"],  // The Kabiye Wikipedia name for the potato; it also gives Pɔmdɩtɛɛrɩ, from French pomme de terre.
     zh_jiao: ["土豆", "tʰu˥˥ tou˦˨"],  // Literally 'earth bean'; Qingdao also says 土豆儿 and 地蛋儿 'ground egg'.
   },

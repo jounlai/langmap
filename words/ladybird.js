@@ -220,7 +220,7 @@ WORDS.ladybird = {
     tl: "holy",
     sw: "unknown",
     su: "unknown",
-    jv: "unknown",
+    jv: "other",
     or: "unknown",
     scn: "unknown",
     shi: "holy",
@@ -391,7 +391,7 @@ WORDS.ladybird = {
     tl: ["marikita", "maɾiˈkita"],  // Borrowed from Spanish mariquita, 'little Mary', after the Virgin Mary; pagong-pagungan 'little turtle' is a synonym.
     sw: ["mdudu-kibibi", "mˈdudu kiˈbibi"],  // Literally 'little-lady insect'; no source gives where the image comes from.
     su: ["kukuyaan", "kukujaʔan"],  // The Sundanese name of the ladybird; breum is another name.
-    jv: ["kepik", "kəpɪʔ"],  // The everyday name, as in Indonesian; the Javanese Wikipedia notes it is properly a beetle, kumbang koksi, not a true bug.
+    jv: ["kepik", "kəpɪʔ"],  // The everyday name, as in Indonesian; the Javanese Wikipedia notes it is properly a beetle, kumbang koksi, not a true bug. Route by resemblance to the neighbouring forms (id(kepik)); no etymology of its own.
     or: ["ପାରୁଡ଼ା ପୋକ", "paːɾuɽaː pokɔ"],  // Built on ପୋକ 'insect'; Praharaj's dictionary describes it as red or yellow with black spots, often seen on pumpkin flowers, and smelly when rubbed.
     scn: ["papuzzedda", "paputˈtsɛɖɖa"],  // A diminutive in -edda of papuzza; the origin of the base is not given.
     shi: ["ⵎⵔⵉⵢⵎ ⵏ ⵢⵉⴳⵔⴰⵏ", "mrijm n jiɡran"],  // Literally "Mary of the fields", after the Virgin Mary, like Spanish mariquita.

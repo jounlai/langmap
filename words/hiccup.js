@@ -67,7 +67,7 @@ WORDS.hiccup = {
     ur: "imitative",
     ar: "unknown",
     fr: "imitative",
-    bn: "unknown",
+    bn: "imitative",
     ru: "imitative",
     de: "other",
     ja: "unknown",
@@ -83,9 +83,9 @@ WORDS.hiccup = {
     pl: "unknown",
     uk: "unknown",
     nl: "imitative",
-    sv: "unknown",
+    sv: "imitative",
     da: "unknown",
-    fi: "unknown",
+    fi: "imitative",
     is: "imitative",
     el: "unknown",
     hu: "unknown",
@@ -114,8 +114,8 @@ WORDS.hiccup = {
     eu: "unknown",
     et: "unknown",
     sl: "unknown",
-    br: "unknown",
-    no: "unknown",
+    br: "imitative",
+    no: "imitative",
     uz: "unknown",
     ckb: "unknown",
     kn: "unknown",
@@ -195,7 +195,7 @@ WORDS.hiccup = {
     ur: ["ہچکی", "ɦɪtʃkiː"],  // The same Hindustani word as Hindi हिचकी, explained as an imitation of the sound hich or a descendant of Sanskrit hikkā; Platts calls hikkā the learned and hićkī the popular form.
     ar: ["فواق", "fuwaːq"],  // Fuwāq is the standard term; حازوقة ḥāzūqa, from Syriac 'diaphragm', is a common synonym.
     fr: ["hoquet", "ɔkɛ"],  // From an onomatopoeia hoc, the noise of a jolt, per the TLFi-based French Wiktionary; the h is aspirated (le hoquet).
-    bn: ["হেঁচকি", "hẽtʃki"],  // Inherited through Old Bengali from a Prakrit *hicc-.
+    bn: ["হেঁচকি", "hẽtʃki"],  // Inherited through Old Bengali from a Prakrit *hicc-. Route by resemblance to the neighbouring forms (pnb(ہچکی)); no etymology of its own.
     ru: ["икота", "ɪˈkotə"],  // From икать 'to hiccup', built on an onomatopoeic и.
     de: ["Schluckauf", "ˈʃlʊkˌʔaʊ̯f"],  // Schluck(en) 'swallow' + auf 'up'.
     ja: ["しゃっくり", "ɕakːɯɾi"],  // A geminated form of shakuri, from the verb shakuru 'to hiccup'.
@@ -211,9 +211,9 @@ WORDS.hiccup = {
     pl: ["czkawka", "ˈtʂkafka"],  // From czkać 'to hiccup'.
     uk: ["гикавка", "ˈɦɪkawka"],  // Also spelled ікавка, икавка.
     nl: ["hik", "hɪk"],  // An imitative word.
-    sv: ["hicka", "ˈhɪkːa"],  // Attested since the 15th century as Old Swedish hikka; hickning is a synonym.
+    sv: ["hicka", "ˈhɪkːa"],  // Attested since the 15th century as Old Swedish hikka; hickning is a synonym. Route by resemblance to the neighbouring forms (or(ହିକ୍କା) nl(hik)); no etymology of its own.
     da: ["hikke", "ˈheɡ̊ə"],  // From Old Danish hikkæn; a single hiccup is et hik.
-    fi: ["hikka", "ˈhikːɑ"],  // Borrowed from Swedish hicka; nikotus and nikka are synonyms.
+    fi: ["hikka", "ˈhikːɑ"],  // Borrowed from Swedish hicka; nikotus and nikka are synonyms. Route by resemblance to the neighbouring forms (or(ହିକ୍କା) nl(hik)); no etymology of its own.
     is: ["hiksti", "ˈhɪkstɪ"],  // Of imitative origin.
     el: ["λόξυγκας", "ˈloksiŋɡas"],  // Also spelled λόξιγκας.
     hu: ["csuklás", "ˈtʃuklaːʃ"],  // From csuklik 'to hiccup' + the noun suffix -ás.
@@ -242,8 +242,8 @@ WORDS.hiccup = {
     eu: ["zotin", "s̻otin"],  // Zotin egin 'to do a hiccup' is the verb.
     et: ["luksumine", "ˈluksumine"],  // A verbal noun of luksuma 'to hiccup'.
     sl: ["kolcanje", "ˈkɔːu̯tsanjɛ"],  // The verbal noun of kolcati 'to hiccup'; a single hiccup is kolc.
-    br: ["hik", "hik"],  // Kaout an hik 'to have the hiccup'.
-    no: ["hikke", "ˈhɪkːə"],  // The same word as Danish hikke.
+    br: ["hik", "hik"],  // Kaout an hik 'to have the hiccup'. Route by resemblance to the neighbouring forms (nl(hik) af(hik)); no etymology of its own.
+    no: ["hikke", "ˈhɪkːə"],  // The same word as Danish hikke. Route by resemblance to the neighbouring forms (nl(hik) or(ହିକ୍କା)); no etymology of its own.
     uz: ["hiqichoq", "hiqiˈtʃɒq"],  // Hiqichoq tutmoq 'to be seized by hiccups'.
     ckb: ["نزگەرە", "nɪzɡaɾa"],  // Compare Laki نِزگیرە.
     kn: ["ಬಿಕ್ಕಳಿಕೆ", "bikːaɭike"],  // Related to ಬಿಕ್ಕು 'to sob, to hiccough' (Kittel); cognate with Tamil விக்கல்.

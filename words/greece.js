@@ -113,7 +113,7 @@ WORDS.greece = {
     hsn: "hellas",
     awa: "unknown",
     om: "unknown",
-    uz: "unknown",
+    uz: "graecia",
     my: "unknown",
     am: "graecia",
     sd: "unknown",
@@ -402,7 +402,7 @@ WORDS.greece = {
     hsn: ["希腊", "ɕi˧˧ la˨˦"],  // The Chinese name 希臘, based on Hellas, read with Changsha character readings (MCPDict).
     awa: ["यूनान", "juːnaːn"],  // The Awadhi Wikipedia's name for Greece, the same form as Hindi यूनान; no source gives the path for Awadhi.
     om: ["Giriik", "ɡiriːk"],  // The Oromo Wikipedia's name for Greece; no source gives the path of the word.
-    uz: ["Gretsiya", "ɡɾetsija"],  // The Uzbek Wikipedia's name for Greece; Yunoniston, the Persian-type name, is also listed (Wiktionary).
+    uz: ["Gretsiya", "ɡɾetsija"],  // Borrowed from Russian Греция, from Latin Graecia (Wiktionary).
     my: ["ဂရိ", "ɡəɹḭ"],  // Greece or Greek; the Burmese Wikipedia calls the country ဂရိနိုင်ငံ 'Greece country' (Wiktionary).
     am: ["ግሪክ", "ɡɨrik"],  // A learned borrowing from English Greek; the same word means a Greek person (Wiktionary).
     sd: ["يونان", "juːnaːn"],  // The Sindhi Wikipedia's name for Greece, the same as Persian and Urdu Yūnān; no source gives the path for Sindhi.

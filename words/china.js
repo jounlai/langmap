@@ -119,7 +119,7 @@ WORDS.china = {
     am: "cina",
     sd: "unknown",
     ku: "unknown",
-    zu: "unknown",
+    zu: "cina",
     ff: "unknown",
     ro: "cina",
     skr: "unknown",
@@ -444,7 +444,7 @@ WORDS.china = {
     am: ["ቻይና", "tʃajna"],  // From English China (Wiktionary).
     sd: ["چين", "tʃiːn"],  // Same name as Urdu and Persian cīn (Sindhi Wikipedia).
     ku: ["Çîn", "tʃiːn"],  // Same name as Persian and Turkish čīn; Wiktionary gives no etymology for the Kurdish form.
-    zu: ["iShayina", "iʃaˈjina"],  // The noun prefix i- plus a borrowing of China (Zulu Wikipedia).
+    zu: ["iShayina", "iʃaˈjina"],  // Borrowed from English China (Wiktionary), with the noun prefix i-.
     ff: ["Ciina", "tʃiːna"],  // A borrowing of the international China (Fula Wikipedia).
     ro: ["China", "ˈkina"],  // Borrowed from Greek Κίνα, ultimately Sanskrit Cīna, which is why the ch is read k (Wiktionary).
     skr: ["چین", "tʃiːn"],  // Same name as Urdu cīn (Saraiki Wikipedia).

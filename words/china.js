@@ -383,6 +383,7 @@ WORDS.china = {
     th_isan: "cina",
     hak_hl: "zhongguo",
     zh_hf: "zhongguo",
+    zh_nj: "zhongguo",
   },
   routes: {
     zhongguo: {"color":"#dc2626","emoji":"🏮","en":"reads 中國 \"Middle Kingdom\" itself","ja":"漢字 中國 を自分で読む","ko":"한자 中國을 직접 읽음","zh":"自己读汉字\"中國\"","yue":"自己讀漢字「中國」","vi":"tự đọc chữ 中國","th":"อ่านอักษร 中國 เอง","id":"membaca aksara 中國 sendiri","hi":"中國 को ख़ुद पढ़ना","de":"liest 中國 selbst","fr":"lit 中國 lui-même","it":"legge 中國 da sé","es":"lee 中國 por sí mismo","pt":"lê 中國 por si","ru":"своё чтение 中國","uk":"власне читання 中國","ar":"يقرأ 中國 بنفسه","he":"קורא את 中國 בעצמו","sw":"husoma 中國 yenyewe"},
@@ -708,5 +709,6 @@ WORDS.china = {
     th_isan: ["จีน", "tɕiːn˨˩"],  // The same name as Thai จีน, probably from Sanskrit or Pali cīna.
     hak_hl: ["中國", "tʃuŋ˥˧ kuet˥"],  // Literally 'middle country'; Hailu Hakka zhungˋ gued, with 中 on the high falling tone.
     zh_hf: ["中国", "tʂəŋ˨˩˨ kuɐʔ˦"],  // Literally 'middle country'; Hefei keeps 国 as a checked (glottal-stop) syllable.
+    zh_nj: ["中国", "tʂoŋ˧˩ koʔ˥"],  // 中 "middle" + 国 "country", read in Nanjing; 国 as in the row's 德国.
   },
 };

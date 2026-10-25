@@ -17,9 +17,12 @@ Checked, no change:
 - 21 uncertain China drafts dropped at acceptance (hsn ne xh hil tk mad bo ilo
   bik lmo tig hsb gv ltg lb xal sgs koi zh_nj …), listed in nw10/held.tsv.
 
+- zh_nj China added as 中国 tʂoŋ˧˩ koʔ˥, tied to the row's 德国 koʔ˥.
+
 Open:
-- zh_nj 国: germany cell koʔ˥ (新南京 table) vs MCPDict 南京 kuɛʔ5 and Wiktionary
-  kueʔ⁵. Decide the row's source; then fix germany and add zh_nj China.
+- zh_nj row mixes MCPDict 南京 (山 ʂan, 手 ʂəu, 嘴 tsuəi: old retroflex) and 新南京
+  vowels (德 təʔ, 黑 xəʔ, 百 pəʔ, 國 koʔ; 南京 has tɜʔ xɜʔ pɛʔ kuɛʔ). Needs one
+  stated convention for the whole row; 国 in germany and china move together.
 - Qingdao second sourcing pass (语保 1200-word survey) running.
 
 Detector: ~/langmap-work/rev1025/ (unk_raw.json).

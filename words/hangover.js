@@ -179,5 +179,9 @@ WORDS.hangover = {
     az: ["xumarlıq", "xumɑɾˈlɯx"],  // From xumar (Arabic-Persian xumār 'after-effect of drink') + -lıq; the Russian loan paxmel is colloquial and proscribed.
     yue: ["宿醉", "sʊk˥ tsɵy˧"],  // Literally 'overnight drunkenness' (宿 'stay the night' + 醉 'drunk').
     zu: ["ibhabhalazi", "ibabaˈlazi"],  // The source of South African English and Afrikaans babalaas 'hangover'.
+    bn: ["খোঁয়ারি", "kʰõaɾi"],  // The Samsad dictionary defines it as the lassitude after the intoxication of liquor wears off, comparing Arabic khumār; খোঁয়ারি ভাঙা is a small drink to chase it away.
+    ur: ["خمار", "xʊmaːɾ"],  // From Arabic خُمار, of the root of خمر 'wine'; Rekhta's first sense is the headache and aching limbs as intoxication wears off, though the word can also mean the intoxication itself.
+    te: ["హ్యాంగోవర్", "hjaːŋɡoːʋaɾ"],  // A loan of English hangover, used as the title of Telugu Wikipedia's article on it.
+    ms: ["pengar", "pəŋar"],  // Kamus Dewan defines it as feeling slightly dizzy after drunkenness has worn off; the same word as Indonesian pengar.
   },
 };

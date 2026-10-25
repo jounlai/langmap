@@ -183,6 +183,25 @@ WORDS.blessyou = {
     ar_eg: "god",
     ar_jo: "health",
     ar_ps: "health",
+    hi: "god",
+    ur: "god",
+    id: "god",
+    pa: "god",
+    yue: "other",
+    mr: "other",
+    te: "health",
+    ta: "health",
+    kn: "health",
+    si: "health",
+    am: "god",
+    ps: "other",
+    ml: "god",
+    ne: "health",
+    ku: "other",
+    kk: "health",
+    da: "other",
+    af: "health",
+    rn: "health",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"🙏","en":"God · blessing · mercy","ja":"神・祝福・慈悲","ko":"신 · 축복 · 자비","zh":"神・祝福・怜悯","yue":"神 · 祝福 · 憐憫","vi":"Chúa · phúc lành · lòng thương xót","th":"พระเจ้า · พร · ความเมตตา","id":"Tuhan · berkat · rahmat","hi":"ईश्वर · आशीर्वाद · रहम","de":"Gott · Segen · Erbarmen","fr":"Dieu · bénédiction · miséricorde","it":"Dio · benedizione · misericordia","es":"Dios · bendición · misericordia","pt":"Deus · bênção · misericórdia","ru":"Бог · благословение · милость","uk":"Бог · благословення · милість","ar":"الله · البركة · الرحمة","he":"האל · ברכה · רחמים","sw":"Mungu · baraka · rehema"},
@@ -310,5 +329,24 @@ WORDS.blessyou = {
     ar_eg: ["يرحمكم الله", "jarħamukum allaːh"],  // Literally 'may God have mercy on you'; in Egypt the sneezer answers yarḥamna wa yarḥamkum 'may He have mercy on us and on you'.
     ar_jo: ["صحة", "ˈsˤaħħa"],  // Literally 'health'; religious speakers answer the sneezer's al-ḥamdu lillāh with yarḥamak allāh.
     ar_ps: ["صحة", "ˈsˤaħħa"],  // Literally 'health'; religious speakers answer the sneezer's al-ḥamdu lillāh with yarḥamak allāh.
+    hi: ["हरि ॐ", "ɦəɾi oːm"],  // The Hindu mantra Hari Om, invoking Hari (Vishnu) and the sacred syllable om.
+    ur: ["یرحمک اللہ", "jəɾɦəmʊk əlːaːɦ"],  // Arabic yarḥamuka llāh 'may God have mercy on you', said after the sneezer says al-ḥamdu lillāh.
+    id: ["yarhamukallah", "jarhamukalah"],  // Arabic 'may God have mercy on you', the answer once the sneezer says alhamdulillah; Omniglot also lists Tuhan berkati 'God bless'.
+    pa: ["ਵਾਹਿਗੁਰੂ", "ʋaːɦɪɡʊɾuː"],  // Waheguru, the Sikh name for God ('wondrous enlightener'); ਤੇਰਾ ਭਲਾ ਹੋਵੇ 'may you be blessed' is also said.
+    yue: ["大吉利事", "taːi˨ kɐt˥ lei˨ siː˨"],  // Literally 'a great lucky thing', a touch-wood phrase: in southern Chinese belief a sneeze means someone is speaking ill of you.
+    mr: ["सत्य आहे", "sətjə aːɦe"],  // Literally 'it is the truth': a sneeze is taken to confirm what was just said.
+    te: ["చిరంజీవ", "tʃiɾandʒiːʋa"],  // From Sanskrit cirañjīva 'long-lived', a wish for long life; దీర్ఘాయుష్మాన్ భవ 'may you be long-lived' is also said.
+    ta: ["ஆயுசு நூறு", "aːjusɯ nuːrɯ"],  // Literally 'a hundred (years of) life'; ஆயுசு is the colloquial form of Sanskrit-derived ஆயுள் 'lifetime'.
+    kn: ["ಶತಾಯುಸ್ಸು", "ʃataːjusːu"],  // Literally 'a hundred-year life', said to young people; adults' sneezes usually get no response.
+    si: ["ආයුබෝවන්", "aːjuboːʋan"],  // The everyday greeting ayubowan 'may you live long', also said after a sneeze.
+    am: ["ይማርህ", "jɨmarɨh"],  // 'May (God) have mercy on you', to a man; ይማርሽ yimarish to a woman, and ያኑርህ 'may you live long' is also said.
+    ps: ["صبر", "sabəɾ"],  // Literally 'patience'; religious speakers answer the sneezer's al-ḥamdu lillāh with yarḥamukum allāh.
+    ml: ["ഹരി കൃഷ്ണാ", "haɾi krɨʂɳaː"],  // An invocation of Krishna said by Hindus; Christians say ഈശോ രക്ഷിക്ക 'Jesus save (you)'.
+    ne: ["चिरञ्जीवी भव", "tsiɾʌndzibi bʱʌbʌ"],  // Sanskrit 'may you be long-lived'.
+    ku: ["xêr be", "xeːɾ bɛ"],  // 'May it be good', short for xêr be înşala 'it will be good, God willing', since a sneeze is thought to stop what one is about to do.
+    kk: ["сау бол", "sɑw bol"],  // Literally 'be healthy', a calque of Russian будь здоров; the older жарақымалда (from Arabic 'may God have mercy on you') survives in the west and north.
+    da: ["prosit", "ˈpʰʁosid̥"],  // From Latin prōsit 'may it be of benefit'.
+    af: ["gesondheid", "χəˈsɔntɦəi̯t"],  // Literally 'health', from Dutch gezondheid; also the drinking toast.
+    rn: ["kira", "kiɾa"],  // Imperative of gukira 'get well, recover'; the sneezer answers twese 'all of us'.
   },
 };

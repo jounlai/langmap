@@ -182,6 +182,42 @@ WORDS.adamsapple = {
     nan_zz: "other",
     nan_pn: "other",
     zh_jiao: "other",
+    ko: "other",
+    vi: "plain",
+    jv: "unknown",
+    tl: "other",
+    kn: "other",
+    te: "other",
+    bn: "other",
+    si: "other",
+    pa: "plain",
+    pnb: "plain",
+    as: "unknown",
+    fa: "adam",
+    hak_cn: "other",
+    ne: "other",
+    skr: "plain",
+    ig: "unknown",
+    cnp: "other",
+    cdo: "other",
+    he: "plain",
+    sq: "adam",
+    sk: "other",
+    mn: "unknown",
+    no: "adam",
+    scn: "adam",
+    be: "adam",
+    ug: "unknown",
+    af: "adam",
+    ky: "unknown",
+    ckb: "adam",
+    gn: "unknown",
+    es_pr: "adam",
+    es_do: "adam",
+    es_ve: "adam",
+    es_ec: "adam",
+    de_at: "adam",
+    hak_tw: "other",
   },
   routes: {
     adam: {"color":"#dc2626","emoji":"🍏","en":"Adam's apple","ja":"アダムのりんご","ko":"아담의 사과","zh":"亚当的苹果","yue":"亞當嘅蘋果","vi":"táo của Adam","th":"แอปเปิลของอาดัม","id":"apel Adam","hi":"आदम का सेब","de":"Adams Apfel","fr":"pomme d'Adam","it":"pomo d'Adamo","es":"fruto de Adán","pt":"maçã de Adão","ru":"яблоко Адама","uk":"яблуко Адама","ar":"تفاحة آدم","he":"תפוח אדם","sw":"tufaha la Adamu"},
@@ -308,5 +344,41 @@ WORDS.adamsapple = {
     nan_zz: ["咙喉核仔", "nã˩˧ au˩˧ hut̚˩˨˩ a˥˧"],  // Literally 'little throat pit': 咙喉 'throat' + 核 'fruit stone' + diminutive 仔.
     nan_pn: ["喉鐘", "au˨˧ tseŋ˧˧"],  // Literally 'throat bell'; in Xiamen and Taiwan the same word means the uvula.
     zh_jiao: ["喉结", "xou˦˨ tɕiə˥˥"],  // Literally 'throat knot'; same word as Standard Mandarin.
+    ko: ["울대뼈", "uldɛp͈jʌ"],  // Literally 'voice-organ bone', from 울대, the voice organ of birds and insects, + 뼈 'bone'; the medical term is 후두융기.
+    vi: ["yết hầu", "iət˧˥ həw˨˩"],  // Sino-Vietnamese 咽喉 'throat, pharynx', used for the lump itself; trái cổ 'neck fruit' and táo Adam are also said.
+    jv: ["kalamenjing", "kalaməndʒiŋ"],  // The Javanese name in both ngoko and krama; no etymology is given in the sources.
+    tl: ["lalagukan", "lalaɡuˈkan"],  // Built on lagok 'gulp', the place that moves when one swallows; gulunggulungan and tatagukan are synonyms.
+    kn: ["ಗಂಟಲುಮಣಿ", "ɡaɳʈalumaɳi"],  // Literally 'throat gem', from ಗಂಟಲು 'throat' + ಮಣಿ 'gem, bead'.
+    te: ["కంఠమణి", "kaɳʈʰamaɳi"],  // Literally 'throat jewel', a Sanskrit compound of kaṇṭha 'throat' + maṇi 'jewel'.
+    bn: ["কণ্ঠমণি", "kɔnʈʰomoni"],  // Literally 'throat jewel', from কণ্ঠ 'throat' + মণি 'jewel'; it also still means a jewel worn at the throat.
+    si: ["උගුරු ඇටය", "uɡuru æʈəjə"],  // Literally 'throat bone' or 'throat nut'; Sinhala Wikipedia calls it the everyday name beside the technical ස්වරාල නෙරුම.
+    pa: ["ਘੰਡੀ", "kəɳ˩ɖiː"],  // From an old word for the throat, *ghaṇṭa, which Turner keeps apart from ghaṇṭā 'bell'; ghaṇḍī nikalṇī, the Adam's apple coming out, means reaching puberty (Singh 1895).
+    pnb: ["گھنڈی", "kə̀ɳɖiː"],  // From an old word for the throat, *ghaṇṭa, which Turner keeps apart from ghaṇṭā 'bell'; the Western Punjabi Wikipedia also gives کنٹھ.
+    as: ["ঘঁটিকা", "ɡʱɔ̃tika"],  // Chandrakanta's dictionary defines it as the bump that sticks out at the front of the neck.
+    fa: ["سیب آدم", "siːbe ʔɒːdæm"],  // Literally 'Adam's apple' (sib-e Âdam); سیب گلو 'throat apple' and the older جوزک are also used.
+    hak_cn: ["抢食胲", "tɕʰiɔŋ˧˩ sɨt˥ koi˦"],  // Begins with 搶食 'snatch food'; the variant 偷食胲 begins with 偷食 'steal food' (Hakka Wikipedia).
+    ne: ["रुद्रघन्टी", "ɾudɾʌɡʱʌnʈi"],  // Literally 'Rudra's bell', a compound of rudra, a name of Shiva, and ghaṇṭi 'bell' (Turner).
+    skr: ["گھنڈی", "ɡʱəɳɖiː"],  // From an old word for the throat, *ghaṇṭa, which Turner keeps apart from ghaṇṭā 'bell'; Punjabi ghaṇḍī is the same word.
+    ig: ["eko akpịrị", "eko akpɪɾɪ"],  // The Igbo name recorded with a native-speaker example sentence describing the lump that comes out on boys' throats as they grow up.
+    cnp: ["喉榄", "hɐu˨˩ nam˧˧"],  // Literally 'throat olive', the word Cantonese and Nanning Mandarin also use.
+    cdo: ["喉咙核", "ho˥˧ løyŋ˥˧ houʔ˥"],  // Literally 'throat pit', like the stone of a fruit; 橄欖核 'olive stone' is also said in Fuzhou.
+    he: ["גרגרת", "ɡaʁˈɡeʁet"],  // A biblical word for the throat or neck, now the everyday name of the Adam's apple; it is commonly pronounced grogeret.
+    sq: ["molla e Adamit", "mɔɫa ɛ adamit"],  // Literally 'the apple of Adam'; arrëza e fytit and fikth are synonyms.
+    sk: ["ohryzok", "ˈoɦrizok"],  // The same word as ohryzok 'apple core', like Czech ohryzek.
+    mn: ["төвөнх", "tɵwɵŋx"],  // The Mongolian name, given as the title of the Mongolian Wikipedia article; no etymology is given.
+    no: ["adamseple", "ˈɑːdɑmsˌeːplə"],  // Literally 'Adam's apple', from Adam + eple 'apple', a calque of medieval Latin pomum Adami.
+    scn: ["pumu d'Adamu", "pumu dadamu"],  // Literally 'Adam's apple'; pumu 'apple' alone is also used for it.
+    be: ["адамаў яблык", "adamaw jablɨk"],  // Literally 'Adam's apple', after the biblical legend; кадык is a synonym.
+    ug: ["بۇغدىيەك", "buʁdijek"],  // The Uyghur name, the title of the Uyghur Wikipedia article on the Adam's apple; no etymology is given.
+    af: ["adamsappel", "ˈɑːdamsapəl"],  // Literally 'Adam's apple', like Dutch adamsappel.
+    ky: ["коко", "koˈko"],  // Yudakhin's dictionary gives коко, in full кекиртек кокосу, for the Adam's apple; no etymology is given.
+    ckb: ["سێوی ئادەم", "seːwiː ʔaːdam"],  // Literally 'Adam's apple', like Kurmanji sêva Adem.
+    gn: ["ñokoʼẽkytã", "ɲokoʔẽkɨˈtã"],  // The Guarani name, glossed nuez de Adán by the Guarani Wikipedia.
+    es_pr: ["manzana de Adán", "mansana ðe aðan"],  // Literally 'Adam's apple'; the Diccionario de americanismos records manzana de Adán for this country, beside Spain's nuez de Adán.
+    es_do: ["manzana de Adán", "mansana ðe aðã"],  // Literally 'Adam's apple'; the Diccionario de americanismos records manzana de Adán for this country, beside Spain's nuez de Adán.
+    es_ve: ["manzana de Adán", "mansana ðe aðaŋ"],  // Literally 'Adam's apple'; the Diccionario de americanismos records manzana de Adán for this country, beside Spain's nuez de Adán.
+    es_ec: ["manzana de Adán", "mansana ðe aðan"],  // Literally 'Adam's apple'; the Diccionario de americanismos records manzana de Adán for this country, beside Spain's nuez de Adán.
+    de_at: ["Adamsapfel", "ˈaːdamsʔapfl̩"],  // Literally 'Adam's apple', after the forbidden fruit said to have stuck in Adam's throat.
+    hak_tw: ["搶食胲", "tsʰioŋ˧˩ sɨt˥ koi˨˦"],  // Begins with 搶食 'snatch food', the same word as in Meixian Hakka.
   },
 };

@@ -174,6 +174,47 @@ WORDS.jellyfish = {
     nan_qz: "plain",
     nan_te: "plain",
     nan_pn: "plain",
+    hi: "jelly",
+    bn: "jelly",
+    pa: "jelly",
+    pnb: "jelly",
+    bho: "jelly",
+    mai: "jelly",
+    ne: "jelly",
+    ta: "other",
+    ms: "unknown",
+    jv: "unknown",
+    de: "unknown",
+    nl: "unknown",
+    zu: "jelly",
+    azb: "mother",
+    kk: "medusa",
+    uz: "medusa",
+    az: "medusa",
+    si: "unknown",
+    pt: "other",
+    af: "unknown",
+    nds: "unknown",
+    be: "medusa",
+    ky: "medusa",
+    tg: "medusa",
+    tk: "medusa",
+    ht: "medusa",
+    lo: "unknown",
+    ti: "unknown",
+    es_ec: "other",
+    es_ve: "other",
+    es_uy: "other",
+    es_pr: "other",
+    pt_br: "other",
+    de_at: "unknown",
+    de_ch: "unknown",
+    nl_be: "unknown",
+    en_au: "jelly",
+    en_ie: "jelly",
+    en_in: "jelly",
+    en_yk: "jelly",
+    en_south: "jelly",
   },
   routes: {
     medusa: {"color":"#7c3aed","emoji":"🐍","en":"named after Medusa","ja":"メドゥーサにちなむ","ko":"메두사에서","zh":"源自美杜莎","yue":"源自美杜莎","vi":"theo tên Medusa","th":"ตั้งตามเมดูซา","id":"dari nama Medusa","hi":"मेडूसा के नाम पर","de":"nach Medusa","fr":"d'après Méduse","it":"da Medusa","es":"por Medusa","pt":"por Medusa","ru":"по имени Медузы","uk":"за ім'ям Медузи","ar":"على اسم ميدوسا","he":"על שם מדוזה","sw":"kwa jina la Medusa"},
@@ -292,5 +333,46 @@ WORDS.jellyfish = {
     nan_qz: ["䖳", "tʰe˦˩"],  // An old Southern Chinese word for jellyfish, attested since the 9th century. 海䖳 is also used in Quanzhou.
     nan_te: ["䖳", "tʰe˩˩"],  // An old Southern Chinese word for jellyfish, attested since the 9th century.
     nan_pn: ["海䖳", "hai˦˦˥ tʰeʔ˧"],  // 'Sea' plus 䖳, an old Southern Chinese word for jellyfish.
+    hi: ["जेलीफ़िश", "dʒeːliːfɪʃ"],  // Borrowed from English jellyfish; Hindi Wikipedia also gives the native word गिजगिजिया.
+    bn: ["জেলিফিশ", "dʒelifiʃ"],  // Borrowed from English jellyfish.
+    pa: ["ਜੈਲੀਫਿਸ਼", "dʒɛːliːfɪʃ"],  // Borrowed from English jellyfish; ਸਮੁੰਦਰੀ ਜੈਲੀ "sea jelly" is also used.
+    pnb: ["جیلی مچھی", "dʒeːliː mətʃʰiː"],  // Literally "jelly fish", a calque of English jellyfish with مچھی "fish".
+    bho: ["जेलीफिश", "dʒeliːfɪʃ"],  // Borrowed from English jellyfish; Bhojpuri Wikipedia also gives जेली मछरी "jelly fish".
+    mai: ["जेली फिस", "dʒeːliː pʰis"],  // Borrowed from English jellyfish.
+    ne: ["जेली फिस", "dzeliː pʰis"],  // Borrowed from English jellyfish; Nepali Wikipedia notes it looks like jelly, as the name says.
+    ta: ["சொறி மீன்", "soɾi miːn"],  // Literally "itch fish", for its sting; the Tamil Lexicon lists சொறி alone as "a kind of jelly fish".
+    ms: ["ampai-ampai", "ampai ampai"],  // Kamus Dewan gives ubur-ubur and obor-obor as synonyms; its origin is not given.
+    jv: ["uwur-uwur", "uwur uwur"],  // A reduplicated word, the Javanese counterpart of Indonesian and Malay ubur-ubur.
+    de: ["Qualle", "ˈkvalə"],  // From Low German, probably related to quellen "to swell"; Meduse is the scientific synonym.
+    nl: ["kwal", "kʋɑl"],  // Probably related to kwellen "to well up, swell up"; cognate with German Qualle.
+    zu: ["itheketheke", "itʰekeˈtʰeke"],  // The same word means "jelly, gelatin"; it comes from the ideophone theke.
+    azb: ["دنیزآناسی", "dæˈnizɑnɑsɯ"],  // Literally "sea's mother", like Turkish denizanası; ژله بالیق "jelly fish" is also given.
+    kk: ["медуза", "mʲɪˈduzə"],  // Borrowed from Russian медуза, named after the Gorgon Medusa.
+    uz: ["meduza", "meˈduza"],  // Borrowed from Russian медуза; Uzbek Wikipedia notes the shared name with the Gorgon Medusa.
+    az: ["meduza", "meˈduzɑ"],  // Via Russian медуза, after Medusa; dəniz anası "sea mother" is also listed.
+    si: ["ලොඩි", "loɖi"],  // Carter's dictionary has the animate form ලොඩියා "a sort of jelly-fish".
+    pt: ["alforreca", "alfuˈʁɛkɐ"],  // From Arabic for 'the nettle', via Andalusian Arabic; medusa is also used, and Brazil says água-viva.
+    af: ["kwal", "kʋal"],  // Cognate with Dutch kwal; the English loan jellievis is also common.
+    nds: ["Quall", "kval"],  // Cognate with German Qualle and Dutch kwal.
+    be: ["медуза", "mʲeˈduza"],  // Like Russian медуза, after the Gorgon Medusa.
+    ky: ["медуза", "meˈduza"],  // Borrowed from Russian медуза, named after the Gorgon Medusa.
+    tg: ["медуза", "meˈduza"],  // Borrowed from Russian медуза, named after the Gorgon Medusa.
+    tk: ["meduza", "meˈduza"],  // Borrowed from Russian медуза, named after the Gorgon Medusa.
+    ht: ["mediz", "mediz"],  // From French méduse, named after the Gorgon Medusa.
+    lo: ["ແມງກະພຸນ", "mɛːŋ˧˥ ka˧˥ pʰun˧˥"],  // The same word as Thai แมงกะพรุน, with ແມງ, the prefix for small creatures; Kerr's dictionary marks ກະພຸນ as from Thai.
+    ti: ["ዓሳ ለግለግ", "ʕasa lɐɡlɐɡ"],  // Begins with ዓሳ 'fish'.
+    es_ec: ["aguamala", "aɣwaˈmala"],  // Literally 'bad water'; listed as the Ecuadorian word beside standard medusa.
+    es_ve: ["aguamala", "aɣwaˈmala"],  // Literally 'bad water'; listed as the Venezuelan word beside standard medusa.
+    es_uy: ["aguaviva", "aɣwaˈβiβa"],  // Literally 'living water'; the Uruguayan word (also spelled agua viva), beside standard medusa.
+    es_pr: ["aguaviva", "aɣwaˈβiβa"],  // Literally 'living water'; the RAE dictionary marks it for Puerto Rico, unlike the aguamala of Mexico and Cuba.
+    pt_br: ["água-viva", "aɡwɐˈvivɐ"],  // Literally 'living water'; the Brazilian word, where Portugal says alforreca.
+    de_at: ["Qualle", "ˈkvalə"],  // The same word as in Germany, used by Austrian broadcaster ORF; from Low German, probably related to quellen 'to swell'.
+    de_ch: ["Qualle", "ˈkvalə"],  // The same word as in Germany, used by Swiss broadcaster SRF; from Low German, probably related to quellen 'to swell'.
+    nl_be: ["kwal", "kwɑl"],  // The same word as in the Netherlands, used by the Flanders Marine Institute; probably related to kwellen 'to well up'.
+    en_au: ["jellyfish", "ˈdʒelifɪʃ"],  // Jelly + fish, for its gelatinous body; it is not a fish.
+    en_ie: ["jellyfish", "ˈdʒɛlifɪʃ"],  // Jelly + fish, for its gelatinous body; it is not a fish.
+    en_in: ["jellyfish", "ˈdʒɛlifɪʃ"],  // Jelly + fish, for its gelatinous body; it is not a fish.
+    en_yk: ["jellyfish", "ˈdʒɛlifɪʃ"],  // Jelly + fish, for its gelatinous body; it is not a fish.
+    en_south: ["jellyfish", "ˈdʒɛlifɪʃ"],  // Jelly + fish, for its gelatinous body; it is not a fish.
   },
 };

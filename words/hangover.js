@@ -183,5 +183,8 @@ WORDS.hangover = {
     ur: ["خمار", "xʊmaːɾ"],  // From Arabic خُمار, of the root of خمر 'wine'; Rekhta's first sense is the headache and aching limbs as intoxication wears off, though the word can also mean the intoxication itself.
     te: ["హ్యాంగోవర్", "hjaːŋɡoːʋaɾ"],  // A loan of English hangover, used as the title of Telugu Wikipedia's article on it.
     ms: ["pengar", "pəŋar"],  // Kamus Dewan defines it as feeling slightly dizzy after drunkenness has worn off; the same word as Indonesian pengar.
+    bo: ["ཆང་ནད", "tɕʰaŋ˥ nɛː˥˨"],  // Literally 'beer sickness': ཆང chang, Tibetan barley beer, + ནད nad 'illness'.
+    tt: ["махмыр", "mɑχˈmɯr"],  // From Arabic-Persian maḫmūr 'intoxicated', the same source as Turkish mahmurluk; scholars cite it as a possible source of Russian dialect бахмур.
+    mn: ["шартах", "ʃartʰax"],  // The verb 'to be hungover', given in the -х form like this row's other verbs: the dictionary explains it as the stomach's bile (шар) being stirred up by drinking too much; шарталт is the noun, the Mongolian title of the film The Hangover.
   },
 };

@@ -177,6 +177,36 @@ WORDS.goosebumps = {
     nan_zz: "bird",
     nan_te: "bird",
     nan_hai: "bird",
+    nl: "bird",
+    uk: "bird",
+    bn: "other",
+    ur: "hair",
+    pa: "hair",
+    fa: "hair",
+    mr: "other",
+    te: "unknown",
+    ta: "hair",
+    ms: "hair",
+    cjy: "bird",
+    kn: "hair",
+    ml: "hair",
+    or: "hair",
+    ne: "other",
+    st: "unknown",
+    sr: "plain",
+    tg: "bird",
+    lo: "hair",
+    hr: "plain",
+    nds: "bird",
+    tt: "bird",
+    es_pr: "bird",
+    es_do: "bird",
+    es_gt: "bird",
+    es_ec: "bird",
+    es_uy: "bird",
+    es_ve: "bird",
+    nl_be: "bird",
+    hak_hl: "bird",
   },
   family2: {
     ko: "bird",
@@ -302,5 +332,35 @@ WORDS.goosebumps = {
     nan_zz: ["鸡母皮", "ke˦˦ bo˥˧ pʰue˩˧"],  // Literally "hen skin".
     nan_te: ["鸡母皮", "koi˧˧ bo˥˨ pʰue˥˥"],  // Literally "hen skin".
     nan_hai: ["鸡皮", "kɔi˨˧ fue˧˩"],  // Literally "chicken skin", with the colloquial reading of 皮.
+    nl: ["kippenvel", "ˈkɪpəvɛl"],  // Literally "chicken skin", from kip "chicken" and vel "skin".
+    uk: ["гусяча шкіра", "ɦusʲatʃɐ ʃkʲirɐ"],  // Literally "goose skin"; мурашки "little ants" is also common.
+    bn: ["গায়ে কাঁটা দেওয়া", "ɡaje kãʈa dewa"],  // Literally "thorns come out on the body"; Bengali calls the bumps কাঁটা "thorns" (Biswas).
+    ur: ["رونگٹے کھڑے ہونا", "ɾoːŋɡʈeː kʰəɽeː ɦoːnaː"],  // Literally "the body hairs stand up"; Urdu says it as a phrase, like Hindi.
+    pa: ["ਰੁਮਾਂਚ", "ɾʊmãːtʃ"],  // From Sanskrit romāñca, the body hair standing up; colloquially one also says the hairs stand up.
+    fa: ["سیخ شدن مو", "six ʃodæne mu"],  // Literally "the hair becoming stiff"; one says مو به تنم سیخ شد "the hair stood up on my body".
+    mr: ["काटा येणे", "kaːʈaː jeɳe"],  // Literally "thorns come", as in अंगावर काटा आला "thorns came on my body"; काटा is "thorn" (Molesworth).
+    te: ["గగుర్పాటు", "ɡaɡuɾpaːʈu"],  // A native word for the bristling of the skin; the Sanskrit loan రోమాంచం "hair-raising" is also used.
+    ta: ["மயிர்க்கூச்செறிதல்", "majiɾkːuːtʃːeriðal"],  // Literally "the hair bristling", from மயிர் "hair"; colloquially புல்லரிப்பு is also said.
+    ms: ["meremang bulu roma", "məremaŋ bulu roma"],  // Literally "the body hair stands up"; bulu roma is the fine hair of the body (Kamus Dewan).
+    cjy: ["鸡皮疙瘩", "tɕi˩ pʰi˩ kəʔ˨ taʔ˨"],  // Literally "chicken-skin lumps", the same word as Mandarin, read in Taiyuan Jin.
+    kn: ["ರೋಮಾಂಚನ", "roːmaːɲtʃana"],  // From Sanskrit romāñca, the body hair standing up; it also means "a thrill".
+    ml: ["രോമാഞ്ചം", "ɾoːmaːɲtʃam"],  // Borrowed from Sanskrit romāñca, the body hair standing up; it also means "a thrill".
+    or: ["ରୁମ ଟଙ୍କୁରିବା", "rumɔ ʈɔŋkuribaː"],  // Literally "the body hair bristling", from ରୁମ "body hair", brought on by cold, fear or wonder (Praharaj).
+    ne: ["काँडा", "kãːɽaː"],  // Literally "thorns": Nepali says thorns sprout on the body, शरीरमा काँडा उम्रन्छ (Schmidt).
+    st: ["ditlhokanyane", "ditɬʰokaɲane"],  // The Sesotho word for goosebumps; its make-up is not given by the sources.
+    sr: ["језа", "jěːza"],  // A word of its own, from Proto-Slavic *(j)ęza; it also means a shudder or horror.
+    tg: ["мурғак", "murʁak"],  // Literally "little bird", the diminutive of мурғ "bird, chicken"; one says мурғак дамид "goosebumps came up".
+    lo: ["ຂົນລຸກ", "kʰon˩˧ luk˧"],  // Literally "the body hair stands up", the same phrase as Thai ขนลุก; Lao says it with a verb.
+    hr: ["jeza", "jěːza"],  // A word of its own, from Proto-Slavic *(j)ęza; it also means a shudder of horror, and srh and žmarci are synonyms.
+    nds: ["Gooshuut", "ˈɡɔu̯zhuːt"],  // Literally "goose skin", recorded from Waldeck, the Altmark and Further Pomerania.
+    tt: ["каз тиресе", "qɑz tireˈse"],  // Literally "goose skin" (каз "goose" + тире "skin"); каз тәне "goose body" is also said.
+    es_pr: ["piel de gallina", "pjel de ɣaʝina"],  // Literally "hen skin", the general Spanish phrase.
+    es_do: ["piel de gallina", "pjel de ɣaʝina"],  // Literally "hen skin", the general Spanish phrase.
+    es_gt: ["piel de gallina", "pjel de ɣajina"],  // Literally "hen skin"; as in Mexico, Guatemalans also say the skin enchina, se me enchinó la piel.
+    es_ec: ["piel de gallina", "pjel de ɣaʝina"],  // Literally "hen skin", the general Spanish phrase.
+    es_uy: ["piel de gallina", "pjel de ɣaʒina"],  // Literally "hen skin", the general Spanish phrase.
+    es_ve: ["piel de gallina", "pjel de ɣaʝina"],  // Literally "hen skin", the general Spanish phrase.
+    nl_be: ["kippenvel", "ˈkɪpəvɛl"],  // Literally "chicken skin", from kip "chicken" and vel "skin", the same word as in the Netherlands.
+    hak_hl: ["雞嫲皮", "kai˥˧ ma˥˥ pʰi˥˥"],  // Literally "hen skin", the same word as Sixian Hakka, read in Hailu.
   },
 };

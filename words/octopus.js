@@ -201,6 +201,66 @@ WORDS.octopus = {
     vi_s: "eight",
     zh_tw: "unknown",
     nan_xm: "unknown",
+    hi: "eight",
+    ur: "eight",
+    de: "plain",
+    jv: "plain",
+    yue: "eight",
+    mr: "eight",
+    te: "eight",
+    ta: "other",
+    kn: "eight",
+    or: "eight",
+    ne: "eight",
+    th: "other",
+    gu: "eight",
+    bho: "eight",
+    ps: "eight",
+    hak_cn: "unknown",
+    ig: "eight",
+    om: "eight",
+    uz: "eight",
+    sd: "eight",
+    mg: "plain",
+    so: "unknown",
+    xh: "unknown",
+    si: "unknown",
+    kk: "eight",
+    as: "eight",
+    azb: "eight",
+    pnb: "eight",
+    skr: "eight",
+    af: "other",
+    hil: "plain",
+    fi: "other",
+    nap: "many",
+    be: "eight",
+    tk: "eight",
+    tt: "eight",
+    qu: "unknown",
+    sq: "unknown",
+    sat: "unknown",
+    ak: "unknown",
+    da: "other",
+    no: "other",
+    es_pr: "many",
+    es_do: "many",
+    es_gt: "many",
+    es_ec: "many",
+    es_uy: "many",
+    es_ve: "many",
+    de_at: "plain",
+    de_ch: "plain",
+    de_lu: "plain",
+    en_jam: "eight",
+    en_in: "eight",
+    en_ph: "eight",
+    fr_qc: "many",
+    ar_lev: "eight",
+    ar_tn: "other",
+    zh_db: "eight",
+    yue_ts: "eight",
+    yue_nn: "eight",
   },
   routes: {
     eight: {"color":"#2563eb","emoji":"8️⃣","en":"eight feet","ja":"8本の足","ko":"여덟 발","zh":"八条腿","yue":"八隻腳","vi":"tám chân","th":"แปดเท้า","id":"delapan kaki","hi":"आठ पैर","de":"acht Füße","fr":"huit pieds","it":"otto piedi","es":"ocho pies","pt":"oito pés","ru":"восемь ног","uk":"вісім ніг","ar":"ثماني أقدام","he":"שמונה רגליים","sw":"miguu minane"},
@@ -346,5 +406,65 @@ WORDS.octopus = {
     vi_s: ["bạch tuộc", "ɓat˨˩ tuək˨˩"],  // An old non-Sino-Vietnamese reading of Chinese 八足 'eight legs'.
     zh_tw: ["章魚", "ʈʂɑŋ˥ y˧˥"],  // The standard name; the origin of 章 here is not given in the sources.
     nan_xm: ["章鱼", "tsiũ˦˦ hi˨˦"],  // The same word as Mandarin 章鱼.
+    hi: ["ऑक्टोपस", "ɔkʈoːpəs"],  // Borrowed from English octopus, Greek 'eight-foot'; the learned Sanskrit coinage अष्टबाहु 'eight-armed' also exists.
+    ur: ["آکٹوپس", "aːkʈoːpəs"],  // Borrowed from English octopus, Greek 'eight-foot'; the Persian calque ہشت پا 'eight-foot' is a synonym.
+    de: ["Krake", "ˈkʁaːkə"],  // Borrowed from dialectal Norwegian krake(n), whose origin Duden calls unexplained; everyday speech also says Tintenfisch, which covers squid and cuttlefish too.
+    jv: ["gurita", "ɡuritɔ"],  // Inherited from Proto-Austronesian *guʀiCa 'octopus', the same word as Malay and Indonesian gurita.
+    yue: ["八爪魚", "paːt˧ tsaːu˧˥ jyː˧˥"],  // Literally 'eight-claw fish', the everyday Cantonese name; 章魚 is the formal word.
+    mr: ["ऑक्टोपस", "ɔkʈopəs"],  // Borrowed from English octopus, Greek 'eight-foot'; Marathi Wikipedia uses the learned calque अष्टपाद 'eight-footed'.
+    te: ["ఆక్టోపస్", "aːkʈoːpas"],  // Borrowed from English octopus, Greek 'eight-foot'; Telugu Wikipedia uses the learned అష్టపది.
+    ta: ["சாக்குக்கணவாய்", "saːkːukːaɳaʋaːj"],  // A compound of சாக்கு 'sack' and கணவாய் 'squid': the 'sack squid'; Tamil Wikipedia calls it பேய்க்கணவாய் 'devil squid'.
+    kn: ["ಆಕ್ಟೊಪಸ್", "aːkʈopas"],  // Borrowed from English octopus, Greek 'eight-foot'.
+    or: ["ଅକ୍ଟୋପସ", "ɔkʈopɔs"],  // Borrowed from English octopus, Greek 'eight-foot'.
+    ne: ["अक्टोपस", "əkʈopəs"],  // Borrowed from English octopus, a name Nepali Wikipedia explains by its eight legs.
+    th: ["หมึกยักษ์", "mɯk˨˩ jak˦˥"],  // Literally 'giant squid' (หมึก 'squid' + ยักษ์ 'giant, ogre'); หมึกสาย 'string squid' is a synonym.
+    gu: ["ઓક્ટોપસ", "okʈopəs"],  // Borrowed from English octopus, Greek 'eight-foot'; the learned calque અષ્ટપાદ 'eight-footed' also appears.
+    bho: ["ऑक्टोपस", "ɔkʈopəs"],  // Borrowed from English octopus, Greek 'eight-foot'.
+    ps: ["اختاپوس", "axtapus"],  // Taken over from Persian اختاپوس, ultimately Greek oktṓpous 'eight-foot'.
+    hak_cn: ["章鱼", "tsɔŋ˦ ŋ̍˩˩"],  // The same word as Mandarin 章鱼; Meixian also says 八带鱼 'eight-band fish'.
+    ig: ["ọktopus", "ɔktopus"],  // Borrowed from English octopus, Greek 'eight-foot'.
+    om: ["miilsaddeetoo", "miːlsadːeːtoː"],  // Built from miila 'leg' and saddeet 'eight', modelled on Greek oktṓpous.
+    uz: ["sakkizoyoq", "sakkizɒˈjɒq"],  // Literally 'eight-foot': sakkiz 'eight' + oyoq 'foot'; Russian osminog is also heard.
+    sd: ["آڪٽوپس", "aːkʈoːpəs"],  // Borrowed from English octopus, Greek 'eight-foot'.
+    mg: ["horita", "uˈrita"],  // Inherited from Proto-Austronesian *guʀiCa 'octopus', the same word as Malay gurita; it also covers cuttlefish.
+    so: ["farammugo", "faramːuɡo"],  // The Somali name; its make-up is not explained in the sources.
+    xh: ["ingwane", "iŋɡʷaːne"],  // The Xhosa name, shared with Zulu ingwane; its origin is not given in the sources.
+    si: ["බූවල්ලා", "buːʋalːaː"],  // The Sinhala name; Carter's 1924 dictionary glosses it only as 'a kind of small sea fish', and its origin is not given.
+    kk: ["сегізаяқ", "seɡizɑˈjɑq"],  // Literally 'eight-leg': сегіз 'eight' + аяқ 'leg'.
+    as: ["অক্টোপাছ", "ɔktopas"],  // Borrowed from English octopus, Greek 'eight-foot'.
+    azb: ["اوْسمینوق", "osmiˈnoɡ"],  // Borrowed from Russian осьминог 'eight-legs'; the native calque سککیزآیاق 'eight-foot' also exists.
+    pnb: ["آکٹوپس", "aːkʈoːpəs"],  // Borrowed from English octopus, Greek 'eight-foot'.
+    skr: ["آکٹوپس", "aːkʈoːpəs"],  // Borrowed from English octopus, Greek 'eight-foot'.
+    af: ["seekat", "ˈsɪəkat"],  // Literally 'sea cat': see 'sea' + kat 'cat', inherited from Dutch zeekat.
+    hil: ["kugita", "kuˈɡita"],  // The Visayan octopus word, the same as Cebuano kugita, from Proto-Malayo-Polynesian *kuRita 'octopus' (ACD).
+    fi: ["tursas", "ˈtursɑs"],  // Named after Tursas, a sea monster of Finnish mythology; mustekala is the broader word for cephalopods.
+    nap: ["purpo", "ˈpurpə"],  // Inherited from Latin polypus < Greek polýpous 'many-footed'.
+    be: ["васьміног", "vasʲmʲiˈnox"],  // Literally 'eight-legs', like Russian осьминог and Ukrainian восьминіг; спрут is also used.
+    tk: ["sekizaýak", "sekizaˈjak"],  // Literally 'eight-foot': sekiz 'eight' + aýak 'foot'.
+    tt: ["сигезаяк", "siɡezɑˈjɑq"],  // Literally 'eight-foot': сигез 'eight' + аяк 'foot, leg'.
+    qu: ["pulpu", "ˈpulpu"],  // The Quechua name; Quechua Wikipedia also gives pusaqchaki 'eight-foot'.
+    sq: ["oktapod", "ɔktaˈpɔd"],  // The common Albanian name; tetëkëmbësh 'eight-footed' is a calque also listed by Wiktionary.
+    sat: ["ᱚᱠᱴᱚᱯᱚᱥ", "ɔkʈɔpɔs"],  // The Santali name, as used by Santali Wikipedia.
+    ak: ["posena", "posena"],  // The Akan (Twi) name; its origin is not given in the sources.
+    da: ["blæksprutte", "ˈb̥lɛɡ̊ˌsb̥ʁud̥ə"],  // Literally 'ink squirter'; in everyday speech it covers octopus as well as squid, and ottearmet blæksprutte 'eight-armed' is the precise term.
+    no: ["blekksprut", "ˈblekːsprʉːt"],  // Literally 'ink squirter': blekk 'ink' + sprute 'squirt'; it also covers squid.
+    es_pr: ["pulpo", "ˈpulpo"],  // Inherited from Latin polypus < Greek polýpous 'many-footed'.
+    es_do: ["pulpo", "ˈpulpo"],  // Inherited from Latin polypus < Greek polýpous 'many-footed'.
+    es_gt: ["pulpo", "ˈpulpo"],  // Inherited from Latin polypus < Greek polýpous 'many-footed'.
+    es_ec: ["pulpo", "ˈpulpo"],  // Inherited from Latin polypus < Greek polýpous 'many-footed'.
+    es_uy: ["pulpo", "ˈpulpo"],  // Inherited from Latin polypus < Greek polýpous 'many-footed'.
+    es_ve: ["pulpo", "ˈpulpo"],  // Inherited from Latin polypus < Greek polýpous 'many-footed'.
+    de_at: ["Krake", "ˈkraːkə"],  // Borrowed from dialectal Norwegian krake(n); the standard word, with no separate Austrian term in the dictionary.
+    de_ch: ["Krake", "ˈkraːkə"],  // Borrowed from dialectal Norwegian krake(n); the standard word, with no separate Swiss term in the dictionary.
+    de_lu: ["Krake", "ˈkʁaːkə"],  // Borrowed from dialectal Norwegian krake(n); Luxembourg Standard German uses the standard word.
+    en_jam: ["octopus", "ˈɔktəpəs"],  // Borrowed via Latin from Greek oktṓpous, 'eight-foot'.
+    en_in: ["octopus", "ˈɔkʈəpəs"],  // Borrowed via Latin from Greek oktṓpous, 'eight-foot'.
+    en_ph: ["octopus", "ˈɔktəpəs"],  // Borrowed via Latin from Greek oktṓpous, 'eight-foot'.
+    fr_qc: ["pieuvre", "pjœːvʁ"],  // From Guernsey Norman, ultimately Latin polypus < Greek polýpous 'many-footed'.
+    ar_lev: ["إخطبوط", "ʔixtˤaˈbuːtˤ"],  // From Greek oktṓpous 'eight-foot'; the Syrian colloquial dictionary vocalises it with i-.
+    ar_tn: ["قرنيط", "qarˈniːtˤ"],  // Borrowed from Latin cornūta 'horned'; the Maghrebi word for octopus, also Maltese qarnit.
+    zh_db: ["八大鱼", "pa˥ ta˥˩ y˧˥"],  // Literally 'eight-big fish'; recorded for Harbin, where the standard 章鱼 is not given.
+    yue_ts: ["八爪鱼", "pat˧˧ tsau˥˥ ŋui˨˩˥"],  // Literally 'eight-claw fish', as in Cantonese.
+    yue_nn: ["八爪鱼", "pɛt˧ tʃɛu˧˥ jy˨˩"],  // Literally 'eight-claw fish'; the Nanning Cantonese word for octopus.
   },
 };

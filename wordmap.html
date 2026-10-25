@@ -736,8 +736,10 @@
             background: #8b5cf6; flex: 0 0 auto;
         }
         #word-modal .wm-tile { position: relative; }
+        /* Bottom-right, out of the flow: the top-right corner is where the
+           English gloss sits, and a dot there crowded it (owner 2026-10-25). */
         #word-modal .wm-tile > .wm-pdot {
-            position: absolute; top: 5px; right: 5px;
+            position: absolute; bottom: 5px; right: 5px;
             box-shadow: 0 0 0 2px #fff;
         }
         #word-modal .wm-tile.active > .wm-pdot { box-shadow: 0 0 0 2px #1a1a2e; background: #a78bfa; }

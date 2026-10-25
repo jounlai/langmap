@@ -224,7 +224,7 @@ const I = m => infos.push(m);
 // Pinned deliberately: adding a concept means touching word_manifest.js,
 // words/<id>.js, word_labels.js and lang_words/, and this is the check that
 // fails if the manifest was edited without the rest following.
-const EXPECTED_WORDS = 121;   // 121 since 2026-10-25: + korea. Was: 120 since 2026-10-25: + china. Was: 119 since 2026-10-25: + japan. Was: 118 since 2026-10-25: + germany (first country name). Was: 117 since 2026-10-23: + dragonfly, hiccup, sunflower, goosebumps, octopus, shootingstar, jellyfish, tomato, pineapple, adamsapple (third set of ten). Was: 107 since 2026-10-22: + grandmother, monday, tomorrow, bat, littlefinger, thunder, whale, wisdomtooth, cheers, blessyou (second set of ten new words)
+const EXPECTED_WORDS = 122;   // 122 since 2026-10-25: + india. Was: 121 since 2026-10-25: + korea. Was: 120 since 2026-10-25: + china. Was: 119 since 2026-10-25: + japan. Was: 118 since 2026-10-25: + germany (first country name). Was: 117 since 2026-10-23: + dragonfly, hiccup, sunflower, goosebumps, octopus, shootingstar, jellyfish, tomato, pineapple, adamsapple (third set of ten). Was: 107 since 2026-10-22: + grandmother, monday, tomorrow, bat, littlefinger, thunder, whale, wisdomtooth, cheers, blessyou (second set of ten new words)
 if (!Array.isArray(ctx.WORD_LIST) || ctx.WORD_LIST.length !== EXPECTED_WORDS) {
     E(`WORD_LIST length ${ctx.WORD_LIST?.length} (expected ${EXPECTED_WORDS})`);
 }

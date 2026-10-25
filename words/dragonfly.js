@@ -147,8 +147,8 @@ WORDS.dragonfly = {
     clk: "unknown",
     jiu: "unknown",
     nuf: "unknown",
-    awa: "unknown",
-    sd: "unknown",
+    awa: "plain",
+    sd: "plain",
     gu: "unknown",
     ps: "other",
     mg: "unknown",
@@ -188,6 +188,15 @@ WORDS.dragonfly = {
     zag: "other",
     ttq: "other",
     zh_jiao: "plain",
+    hi: "other",
+    ur: "plain",
+    kn: "other",
+    ne: "other",
+    ku: "other",
+    si: "unknown",
+    ug: "unknown",
+    ln: "unknown",
+    bar: "other",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -280,8 +289,8 @@ WORDS.dragonfly = {
     clk: ["e55tɑ31tɕuŋ55", "e˥˥tɑ˧˩tɕuŋ˥˥"],  // Etymology not given by the source.
     jiu: ["te55kœ33lɑ33kɐ33", "te˥˥kœ˧˧lɑ˧˧kɐ˧˧"],  // Etymology not given by the source.
     nuf: ["ɹi35liɯ31liɯ31ɑ31", "ɹi˧˥liɯ˧˩liɯ˧˩ɑ˧˩"],  // Etymology not given by the source.
-    awa: ["भँभीरी", "bʱə̃bʱiːriː"],  // McGregor marks the word as Braj and Awadhi; it also names a butterfly and a child's spinning top.
-    sd: ["ڀنڀوري", "bʱənbʱuːɾiː"],  // Mewaram (1910) records it with a variant ڀۇنڀۇريِ; it is related to Hindi-Urdu bhaṅbhīrī.
+    awa: ["भँभीरी", "bʱə̃bʱiːriː"],  // McGregor marks the word as Braj and Awadhi; it also names a butterfly and a child's spinning top. Route by resemblance to the neighbouring forms (ur بھنبھیری); no etymology of its own.
+    sd: ["ڀنڀوري", "bʱənbʱuːɾiː"],  // Mewaram (1910) records it with a variant ڀۇنڀۇريِ; it is related to Hindi-Urdu bhaṅbhīrī. Route by resemblance to the neighbouring forms (ur بھنبھیری); no etymology of its own.
     gu: ["વાણિયો", "ʋaːɳijo"],  // The same word means a member of the Bania merchant caste, or a merchant; no source says how the insect got the name.
     ps: ["ستن", "stən"],  // The word for 'needle' (also 'pin', 'pillar'), used for the dragonfly's long thin body.
     mg: ["angidina", "aŋˈɡidina"],  // The ordinary Malagasy name, used for the adult of the water nymph called ondrindrano.
@@ -321,5 +330,14 @@ WORDS.dragonfly = {
     zag: ["saw taher", "saw tahɛɾ"],  // Literally 'the fly's airplane' (saw 'housefly').
     ttq: ["tatololăyăt", "tatololˤæjæt"],  // Literally 'the one that zigzags, flying this way and that' (Prasse).
     zh_jiao: ["蜻蜓", "tsʰiəŋ˨˩˧ tʰiəŋ˦˨"],
+    hi: ["व्याध पतंग", "ʋjaːdʱ pətəŋɡ"],  // Literally 'hunter insect', from व्याध 'hunter' + पतंग 'flying insect'; McGregor gives भँभीरी as the Braj and Awadhi word.
+    ur: ["بھنبھیری", "bʱəmbʱiːɾiː"],  // Platts traces it to Sanskrit, from the root bhram 'to whirl'; the same word also means 'butterfly' and a spinning toy.
+    kn: ["ಕೊಡತಿಕೀಟ", "koɖatikiːʈa"],  // Literally 'hammer insect', from ಕೊಡತಿ 'hammer' + ಕೀಟ 'insect'; Kannada also has many regional names.
+    ne: ["गाइने कीरा", "ɡaːine kiɾaː"],  // Literally 'singer insect': Kiauta (1973) found gaine 'singer' the most widespread name in the Kathmandu Valley, where people credit dragonflies with the crickets' song.
+    ku: ["serteşî", "sɛɾtɛˈʃiː"],  // From ser 'head' + teşî 'spindle', as its head looks like a spindle; Kurmanji has many synonyms, among them zencere, dûvteşî and helîkopter.
+    si: ["කූරා", "kuːraː"],  // The first Sinhala equivalent the Madura dictionary gives for 'dragonfly', beside දියමැස්සා and සුන්දිරා.
+    ug: ["يىڭناغۇچ", "jiŋnaʁutʃ"],  // The Uyghur explanatory dictionary defines it as a slender, long-bodied insect with two pairs of membranous wings that flies high and lives in water, and calls it a useful insect.
+    ln: ["lipúngupúngu", "lipúŋɡupúŋɡu"],  // A reduplicated noun, plural mapúngupúngu.
+    bar: ["Augnstecher", "ˈaʊŋʃteçɐ"],  // Literally 'eye-stabber', the Bavarian form of German Augenstecher, like Norwegian øyenstikker.
   },
 };

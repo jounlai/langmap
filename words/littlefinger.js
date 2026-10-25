@@ -252,6 +252,49 @@ WORDS.littlefinger = {
     ttq: "small",
     gha: "unknown",
     zh_jiao: "small",
+    ur: "unknown",
+    ku: "unknown",
+    ug: "unknown",
+    za: "unknown",
+    ha: "small",
+    yo: "small",
+    ig: "small",
+    ln: "small",
+    om: "small",
+    am: "small",
+    zu: "unknown",
+    xh: "unknown",
+    so: "small",
+    si: "unknown",
+    hne: "small",
+    awa: "small",
+    bgc: "unknown",
+    ny: "unknown",
+    tn: "small",
+    st: "small",
+    wo: "unknown",
+    rw: "unknown",
+    rn: "unknown",
+    sn: "unknown",
+    ht: "small",
+    ts: "unknown",
+    bar: "small",
+    af: "plain",
+    bo: "small",
+    mn: "unknown",
+    tt: "unknown",
+    ky: "unknown",
+    hil: "unknown",
+    sat: "unknown",
+    ak: "other",
+    ti: "unknown",
+    kab: "small",
+    min: "unknown",
+    nso: "small",
+    lg: "unknown",
+    kri: "other",
+    ee: "other",
+    scn: "small",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -449,5 +492,48 @@ WORDS.littlefinger = {
     ttq: ["taḍaṭ", "tadˤatˤ"],  // The feminine diminutive of aḍaḍ 'finger' (Prasse).
     gha: ["taləṭṭịṭ", "talətˤːetˤ"],  // Lanfry gives no make-up.
     zh_jiao: ["小拇指头", "siɔ˥˥ mu˥˥ tʂʅ˥˥ tʰou˦˨"],  // The 'small' partner of 大拇指头, the thumb.
+    ur: ["چھنگلیا", "tʃʰʊŋɡlijaː"],  // The everyday name; Urdu Wikipedia gives the learned Arabic خنصر and the everyday چھنگلیا or چیچی انگلی.
+    ku: ["qilîç", "qɪˈliːtʃ"],  // A word of its own for the little finger or little toe; tiliya biçûk 'small finger' is also used.
+    ug: ["چىمچىلاق", "tʃimtʃiˈlɑq"],  // A word of its own for the smallest finger or toe; the Wikipedia form چىمەلتەك is a dialect word.
+    za: ["lwgfwngzcod", "lɯk˧ fɯŋ˧˩ ɕoːt˧"],  // Built on lwgfwngz 'finger'; the meaning of the last part, cod, is not given in the source.
+    ha: ["ƙaramin yatsa", "kʼaramin jaːtsaː"],  // Literally 'small finger' (ƙarami 'small' + yatsa 'finger').
+    yo: ["ìka ọwọ́ kékeré", "ìka ɔwɔ́ kékeré"],  // Literally 'small finger of the hand'; older texts use ọmọdirin, and dialects have their own words.
+    ig: ["mkpịsịaka nta", "mkpɪsɪaka nta"],  // Literally 'small finger' (mkpịsịaka 'finger' + nta 'small').
+    ln: ["mosapi ya mokɛ́", "mosapi ja mokɛ́"],  // Literally 'the small finger' (mosapi 'finger' + mokɛ́ 'small').
+    om: ["quba xinnaa", "kʼuba tʼinːaː"],  // Literally 'small finger' (quba 'finger' + xinnaa 'small').
+    am: ["ትንሽ ጣት", "tɨnːɨʃ tʼat"],  // Literally 'small finger' (ትንሽ 'small' + ጣት 'finger').
+    zu: ["ucikicane", "uǀikiǀane"],  // A word of its own for the little finger.
+    xh: ["ucikicane", "uǀikiǀaːne"],  // A word of its own for the little finger, shared with Zulu.
+    so: ["faryaro", "farjaro"],  // Built from far 'finger' and yar 'small', like the other Somali finger names (fardhexo 'middle finger').
+    si: ["සුළැඟිල්ල", "sulæŋɡilːə"],  // The everyday word for the little finger, beside ඇඟිල්ල 'finger'.
+    hne: ["छोटे अंगरी", "tʃʰoʈe əŋɡəɾiː"],  // Literally 'small finger' (छोटे 'small' + अंगरी 'finger').
+    awa: ["नान्ह उँगरी", "naːnʱ ʊ̃ɡəri"],  // Literally 'small finger' (नान्ह 'small' + उँगरी 'finger').
+    bgc: ["छिंगुलिया", "tʃʰɪŋɡʊlijaː"],  // A word of its own for the little finger, the same word as Hindustani chhungliyā.
+    ny: ["kanense", "kanense"],  // A word of its own for the little finger.
+    tn: ["monwana o monnye", "monwana o moɲːe"],  // Literally 'the small finger' (monwana 'finger' + monnye 'small').
+    st: ["monwana o monyenyane", "monwana o moɲeɲane"],  // Literally 'the small finger' (monwana 'finger' + monyenyane 'small').
+    wo: ["baaraamu sanqleeñ", "baːraːmu sanqleːɲ"],  // Built on baaraam 'finger'; the meaning of sanqleeñ is not given in the source.
+    rw: ["agahera", "aɡaheɾa"],  // A word of its own; also said in full as urutoki rw'agahera, 'the agahera finger'.
+    rn: ["uruhererezi", "uɾuheɾeɾezi"],  // A word of its own; also said in full as urutoke rw'uruhererezi, 'the uruhererezi finger'.
+    sn: ["kasiyanwa", "kasijanwa"],  // A word of its own; karavi, karava and munwana are also used.
+    ht: ["ti dwèt", "ti dwɛt"],  // Literally 'small finger': ti comes from French petit 'small' and dwèt from doigt.
+    ts: ["xintihwana", "ʃintihwana"],  // A word of its own for the little finger.
+    bar: ["kloane Finga", "ˈkloɐnɛ ˈfɪŋɐ"],  // Simply the 'small finger', as in Standard German kleiner Finger.
+    af: ["pinkie", "ˈpəŋki"],  // The Afrikaans form of Dutch pink(je), a word of its own for the little finger; English pinkie was borrowed from the same Dutch word.
+    bo: ["མཐེ་ཆུང", "tʰe˥ tɕʰuŋ˥"],  // Literally 'small digit': the thumb is མཐེ་བོ, and ཆུང means 'small'.
+    mn: ["чигчий хуруу", "ˈtʃʰixtʃʰiː ˈxʊrʊː"],  // Чигчий alone is the word for the smallest finger or toe; хуруу means 'finger'.
+    tt: ["чәнти бармак", "tɕænˈti bɑrˈmɑq"],  // Бармак means 'finger'; чәнчә бармак is a synonym.
+    ky: ["чыпалак", "tʃɯpɑˈlɑq"],  // A word of its own for the little finger; sucking blood from each other's little fingers was an old form of oath.
+    hil: ["kamalingking", "kamaˈliŋkiŋ"],  // Kaufmann also lists kumalingking and tingayon; compare Cebuano kumingking and Tagalog kalingkingan.
+    sat: ["ᱥᱤᱡ ᱠᱟᱹᱴᱩᱵ", "sitʃ kəʈup"],  // ᱠᱟᱹᱴᱩᱵ is 'finger'; the Santali Wikipedia also gives the spelling ᱥᱤᱵ ᱠᱟᱹᱴᱩᱵ.
+    ak: ["kokɔbɛto", "kokɔbɛto"],  // Literally 'the fowl will lay': Christaller says it was the finger used to feel a hen and tell whether an egg was coming.
+    ti: ["ሕንጥሊቶ", "ħɨntʼɨlito"],  // A word of its own, like the other Tigrinya finger names ending in -ቶ, such as ማእከለይቶ for the middle finger and ቀለቤቶ for the ring finger.
+    kab: ["aḍad ameẓyan", "adˤad aməzˤjan"],  // Literally 'the small finger', the counterpart of aḍad ameqran 'the big finger', the thumb.
+    min: ["jari kalingkiang", "dʒari kaliŋkiaŋ"],  // The Minangkabau form of Indonesian jari kelingking; jari means 'finger'.
+    nso: ["monwana o monyenyane", "monwana o moɲeɲane"],  // Literally 'the small finger' (monwana 'finger'); the same phrase with wa leoto 'of the foot' is the little toe.
+    lg: ["nasswi", "nasːwi"],  // A word of its own for the little finger, also said in full as akagalo aka nasswi 'the little finger called nasswi'.
+    kri: ["las fiŋa", "las ˈfiŋa"],  // Literally 'last finger', the one at the end of the hand.
+    ee: ["asibidɛ kɔtoetɔ", "asibidɛ kɔtoetɔ"],  // Literally 'the end-of-the-line finger': Westermann glosses kɔtoetɔ as German Flügelmann, the man at the end of a row.
+    scn: ["jiditeddu", "jidiˈtɛɖɖu"],  // Diminutive of jìditu 'finger', so the 'little finger'; it can also mean a small finger in general.
   },
 };

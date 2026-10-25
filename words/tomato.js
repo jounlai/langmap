@@ -360,6 +360,7 @@ WORDS.tomato = {
     nan_xm: "other",
     nan_zz: "other",
     nan_hai: "other",
+    zh_jiao: "foreign",
   },
   routes: {
     nahuatl: {"color":"#dc2626","emoji":"🌽","en":"from Nahuatl tomatl","ja":"ナワトル語 tomatl から","ko":"나우아틀어 tomatl에서","zh":"源自纳瓦特尔语 tomatl","yue":"源自納瓦特爾語 tomatl","vi":"từ tiếng Nahuatl tomatl","th":"จากภาษานาวัตล์ tomatl","id":"dari bahasa Nahuatl tomatl","hi":"नाहुआत्ल tomatl से","de":"aus Nahuatl tomatl","fr":"du nahuatl tomatl","it":"dal nahuatl tomatl","es":"del náhuatl tomatl","pt":"do náuatle tomatl","ru":"из науатль tomatl","uk":"з науатль tomatl","ar":"من الناواتلية tomatl","he":"מנאוואטל tomatl","sw":"kutoka Kinahuatl tomatl"},
@@ -664,5 +665,6 @@ WORDS.tomato = {
     nan_xm: ["臭柿仔", "tsʰau˨˩ kʰi˨˨ a˥˧"],  // Literally 'stinky little persimmon'; 柑仔得, from Tagalog kamatis, is less common in Xiamen.
     nan_zz: ["臭柿仔", "tsʰau˨˩ kʰi˨˨ a˥˧"],  // Literally 'stinky little persimmon'.
     nan_hai: ["红茄", "aŋ˧˩ kio˧˩"],  // Literally 'red eggplant', the Haikou word; Wenchang says 番茄.
+    zh_jiao: ["西红柿", "si˨˩˧ xəŋ˦˨ ʂʅ˦˨"],  // 西 'west' + 红 'red' + 柿 'persimmon'; Qingdao also says 洋柿子 'foreign persimmon'.
   },
 };

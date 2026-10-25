@@ -1269,5 +1269,6 @@ WORDS.dog = {
     gha: ["ị̄dị", "ˈede"],
     auj: ["gzìn", "ɡzin"],  // In Ghadames and Nafusi the cognate means 'puppy'.
     siz: ["agʷəṛzní", "aɡʷərˤzˈni"],
+    zh_jiao: ["狗", "kou˥˥"],
   },
 };

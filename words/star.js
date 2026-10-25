@@ -1250,5 +1250,6 @@ WORDS.star = {
     gha: ["iri", "iri"],  // Dew is aman n-iran, "water of the stars".
     auj: ["—", "—"],
     siz: ["iri", "iri"],
+    zh_jiao: ["星星", "siəŋ˨˩˧ siəŋ˨˩˧"],  // Qingdao also says plain 星.
   },
 };

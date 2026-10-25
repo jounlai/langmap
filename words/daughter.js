@@ -1175,5 +1175,6 @@ WORDS.daughter = {
     zag: ["tene", "tɛnɛ"],  // Also a niece; tene gonoy is a second word for 'daughter'.
     gha: ["yellị", "jɐlːe"],
     siz: ["tləʧʧá", "tləˈtʃːa"],  // Also 'girl'; Laoust's 'the father of the girl' is abba-nnəs n-tleča.
+    zh_jiao: ["闺女", "kuə̃˨˩˧ ny˥˥"],
   },
 };

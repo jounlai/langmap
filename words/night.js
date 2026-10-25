@@ -1198,6 +1198,7 @@ WORDS.night = {
     yue_nn: ["夜晚", "jɛ˨˨ man˨˦"],
     zh_cq: ["晚上", "wan˦˨ saŋ"],
     zh_jn: ["晚上", "vã˥˥ ʂɑŋ"],
+    zh_jiao: ["—", "—"],
     zh_km: ["晚辰", "uᴀ̃˥˧ tʂʰə̃ĩ"],
     zh_xa: ["晚上", "vã˥˧ ʂaŋ"],
     bbl: ["ბუჲსა", "bujsa"],

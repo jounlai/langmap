@@ -494,6 +494,7 @@ WORDS.sushi = {
     hsn_yz: ["寿司", "ʑiəɯ˨˦ sɿ˧˧"],
     czh: ["寿司", "ɕiu˩˩ sɿ˩˩"],
     cnp: ["寿司", "ʃɐu˨˨ ɬi˥˧"],
-    pon: ["susi", "susi"]
+    pon: ["susi", "susi"],
+    zh_jiao: ["寿司","ʃou˦˨ sɿ˨˩˧"],  // Same word as Standard Mandarin.
   },
 };

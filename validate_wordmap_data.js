@@ -1221,6 +1221,9 @@ for (const code of codes) {
                 // siz (Siwi, 2026-10-23, Laoust 1931, Schiattarella 2015, Souag 2010):
                 // no thanking formula in any of the sources.
                 siz: new Set(['thanks']),
+                // zh_jiao (Qingdao, 2026-10-25): no Qingdao source for these six (Wiktionary dial-syn has no
+                // Qingdao line or no module; 名兒 is erhua with no sourced reading).
+                zh_jiao: new Set(['heart', 'hello', 'love', 'thanks', 'night', 'name']),
                 // dds fish: Heath and the Dogon project both give it as ídù — but
                 // Donno So 'dog' is ìdú, the same segments with the opposite tone,
                 // and this row is toneless in all 39 of its other cells. Writing

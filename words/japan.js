@@ -353,6 +353,7 @@ WORDS.japan = {
     es_ve: "europe",
     hak_hl: "nihon",
     zh_hf: "nihon",
+    zh_jiao: "nihon",
   },
   routes: {
     nihon: {"color":"#dc2626","emoji":"☀️","en":"reads 日本 itself","ja":"漢字 日本 を自分で読む","ko":"한자 日本을 직접 읽음","zh":"自己读汉字\"日本\"","yue":"自己讀漢字「日本」","vi":"tự đọc chữ 日本","th":"อ่านอักษร 日本 เอง","id":"membaca aksara 日本 sendiri","hi":"日本 को ख़ुद पढ़ना","de":"liest 日本 selbst","fr":"lit 日本 lui-même","it":"legge 日本 da sé","es":"lee 日本 por sí mismo","pt":"lê 日本 por si","ru":"своё чтение 日本","uk":"власне читання 日本","ar":"يقرأ 日本 بنفسه","he":"קורא את 日本 בעצמו","sw":"husoma 日本 yenyewe"},
@@ -648,5 +649,6 @@ WORDS.japan = {
     es_ve: ["Japón", "haˈpoŋ"],  // The same name as elsewhere in Spanish, probably from Portuguese Japão; Venezuelan speech pronounces the j as h and the final n as ng.
     hak_hl: ["日本", "ŋit˥ pun˨˦"],  // Literally 'sun origin'; Hailu Hakka Ngit-bún, with 本 on the rising tone where Sixian has a falling one.
     zh_hf: ["日本", "ʐəʔ˦ pən˨˦"],  // Literally 'sun origin'; Hefei keeps 日 as a checked (glottal-stop) syllable.
+    zh_jiao: ["日本","i˦˨ pə̃˥˥"],  // Literally 'sun origin'; same word as Standard Mandarin.
   },
 };

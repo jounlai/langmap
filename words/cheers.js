@@ -224,6 +224,7 @@ WORDS.cheers = {
     hr: "wish",
     hy: "health",
     hyw: "health",
+    zh_jiao: "drain",
   },
   routes: {
     health: {"color":"#16a34a","emoji":"💪","en":"to health · to life","ja":"健康に・命に","ko":"건강을 위해 · 생명을 위해","zh":"为健康・为生命","yue":"為健康 · 為生命","vi":"vì sức khỏe · vì sự sống","th":"แด่สุขภาพ · แด่ชีวิต","id":"untuk kesehatan · kehidupan","hi":"सेहत के नाम · जीवन के नाम","de":"auf die Gesundheit · aufs Leben","fr":"à la santé · à la vie","it":"alla salute · alla vita","es":"por la salud · por la vida","pt":"à saúde · à vida","ru":"за здоровье · за жизнь","uk":"за здоров'я · за життя","ar":"للصحة · للحياة","he":"לבריאות · לחיים","sw":"kwa afya · kwa uhai"},
@@ -393,5 +394,6 @@ WORDS.cheers = {
     hr: ["živjeli", "ʒǐːʋjeli"],  // Literally '(may you) live!', from živjeti 'to live'; nazdravlje 'to health' is also said.
     hy: ["կենացդ", "keˈnɑtsʰəd"],  // Literally 'your toast'; կենաց 'toast' is an old genitive of 'life', so 'to (your) life'.
     hyw: ["կենացդ", "ɡeˈnɑtsʰətʰ"],  // Literally 'your toast', from an old genitive of 'life', as in Eastern Armenian.
+    zh_jiao: ["干杯","kã˨˩˧ pe˨˩˧"],  // Literally 'dry the cup'; same word as Standard Mandarin.
   },
 };

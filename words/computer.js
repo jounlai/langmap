@@ -726,5 +726,6 @@ WORDS.computer = {
     tlh: ["De'wI'", "ɖɛʔwɪʔ"],
     pot: ["tasomkekos", "tasomkəkos"],
     dzg: ["kômputir", "kòmpútɨ̀r"],  // From English (marked ang.).
+    zh_jiao: ["电脑","tiã˦˨ nɔ˥˥"],  // Literally 'electric brain'; same word as Standard Mandarin.
   },
 };

@@ -1287,5 +1287,6 @@ WORDS.tooth = {
     gha: ["asịn", "asen"],  // Lanfry glosses it "incisor"; molars are taɣməst.
     auj: ["asìn", "aˈsin"],
     siz: ["asén", "aˈsen"],
+    zh_jiao: ["牙", "ia˦˨"],
   },
 };

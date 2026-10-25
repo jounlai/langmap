@@ -1145,5 +1145,6 @@ WORDS.horse = {
     gha: ["ag̣mar", "aɟmar"],
     auj: ["agmàr", "aɡˈmar"],
     siz: ["agmár", "aɡˈmar"],
+    zh_jiao: ["马", "ma˥˥"],
   }
 };

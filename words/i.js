@@ -1257,5 +1257,6 @@ WORDS.i = {
     gha: ["nešš", "nɐʃː"],  // Also neššən.
     auj: ["nək", "nək"],
     siz: ["niʃ", "niʃ"],
+    zh_jiao: ["我", "və˥˥"],  // Qingdao also says 俺.
   },
 };

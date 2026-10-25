@@ -1262,5 +1262,6 @@ WORDS.fire = {
     gha: ["ụfa", "ofa"],
     auj: ["afìw", "aˈfiw"],
     siz: ["təmsí", "təmˈsi"],  // In baby talk it is fufu (Laoust).
+    zh_jiao: ["火", "xuə˥˥"],
   }
 };

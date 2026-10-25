@@ -1171,5 +1171,6 @@ WORDS.honey = {
     gha: ["tamamt", "tamamt"],  // Both date syrup and bees' honey; the Ayt Mazɣen say tamimt.
     auj: ["tímənt", "ˈtimənt"],
     siz: ["əlʕasəl", "əlʢasəl"],  // Borrowed from Arabic ʕasal, article and all.
+    zh_jiao: ["蜂蜜", "fəŋ˨˩˧ mi˦˨"],
   },
 };

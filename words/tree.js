@@ -1264,5 +1264,6 @@ WORDS.tree = {
     gha: ["temdikt", "tɐmdikt"],  // At Tunin it means "fig tree".
     auj: ["—", "—"],
     siz: ["tissəʒrət", "tisːəʒrət"],  // Borrowed from Arabic šajara.
+    zh_jiao: ["树", "ʃu˦˨"],
   },
 };

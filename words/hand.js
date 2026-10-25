@@ -1263,5 +1263,6 @@ WORDS.hand = {
     gha: ["ụ̄fəss", "ˈofəsː"],  // Also the handle of a tool.
     auj: ["afùs", "aˈfus"],
     siz: ["fús", "fus"],  // In baby talk it is fafa (Laoust).
+    zh_jiao: ["手", "ʃou˥˥"],
   },
 };

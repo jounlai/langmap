@@ -298,6 +298,7 @@ WORDS.turkey = {
     mrw: "local",
     luo: "unknown",
     quc: "local",
+    zh_jiao: "local",
   },
   routes: {
     india: {"color":"#ea580c","emoji":"🐘","en":"named for India · the Indies","ja":"インドの名で","ko":"인도의 이름으로","zh":"以印度为名","yue":"以印度為名","vi":"theo tên Ấn Độ","th":"ตั้งตามอินเดีย","id":"dinamai India","hi":"भारत के नाम पर","de":"nach Indien benannt","fr":"nommé d'après l'Inde","it":"dal nome dell'India","es":"por la India","pt":"pelo nome da Índia","ru":"по Индии","uk":"за Індією","ar":"باسم الهند","he":"על שם הודו","sw":"kwa jina la India"},
@@ -537,5 +538,6 @@ WORDS.turkey = {
     mrw: ["pabo", "pabo"],  // From Spanish pavo, originally the word for the peacock, as in most Philippine languages.
     luo: ["mbata", "mbata"],  // Compare Swahili bata mzinga; the dictionary notes the bird is uncommon in Luoland and was once called Mbata Musinga Gwend Ulaya.
     quc: ["noʼs", "noʔs"],  // A native K'iche' word, not a borrowing from Spanish.
+    zh_jiao: ["火鸡","xuə˥˥ tɕi˨˩˧"],  // Literally 'fire chicken'; same word as Standard Mandarin.
   },
 };

@@ -437,6 +437,7 @@ WORDS.mobilephone = {
     rm: "other",
     kpv: "carry",
     se: "carry",
+    zh_jiao: "hand",
   },
   routes: {
     hand: {"color":"#ea580c","emoji":"✋","en":"the hand","ja":"手","ko":"손","zh":"手","yue":"手","vi":"bàn tay","th":"มือ","id":"tangan","hi":"हाथ","de":"die Hand","fr":"la main","it":"la mano","es":"la mano","pt":"a mão","ru":"рука","uk":"рука","ar":"اليد","he":"היד","sw":"mkono"},
@@ -817,5 +818,6 @@ WORDS.mobilephone = {
     rm: ["telefonin", "telefoˈnin"],  // Literally "little telephone"; the formal term is telefon mobil, and handy and natel are also everyday words.
     kpv: ["мобильнӧй телефон", "mobilnɘj telefon"],  // From Russian мобильный телефон "mobile telephone", with the Komi adjective ending -ӧй.
     se: ["mátketelefovdna", "ˈmaːtːketelefovːtna"],  // Literally "travel telephone" (mátki "trip" + telefovdna); Finnish-side texts such as Kela use mobiilatelefovdna.
+    zh_jiao: ["手机","ʃou˥˥ tɕi˨˩˧"],  // Literally 'hand machine'; same word as Standard Mandarin.
   },
 };

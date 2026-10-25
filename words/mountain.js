@@ -1163,5 +1163,6 @@ WORDS.mountain = {
     dzg: ["hadai", "hàdàɪ́"],  // Also 'rock'.
     ttq: ["adɣaɣ", "adɣaɣ"],  // Not adrar, which is the Ahaggar word (Prasse).
     siz: ["adrár", "adˈrar"],  // Laoust notes Siwa has no high mountains; Souag says the adrar of Siwa are flat-topped hills.
+    zh_jiao: ["山", "ʂã˨˩˧"],
   }
 };

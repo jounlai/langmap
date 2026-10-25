@@ -1257,5 +1257,6 @@ WORDS.drink = {
     gha: ["esw", "ɐsw"],
     auj: ["šu", "ʃu"],  // Cited as the imperative.
     siz: ["su", "su"],
+    zh_jiao: ["喝", "xa˥˥"],  // Pronounced with -a, unlike Standard Mandarin hē.
   }
 };

@@ -204,6 +204,7 @@ WORDS.shootingstar = {
     vi_s: "falling",
     prs: "plain",
     ko_kp: "other",
+    zh_jiao: "moving",
   },
   routes: {
     falling: {"color":"#2563eb","emoji":"⬇️","en":"a falling star","ja":"落ちる星","ko":"떨어지는 별","zh":"落下的星","yue":"跌落嘅星","vi":"sao rơi","th":"ดาวที่ตก","id":"bintang jatuh","hi":"गिरता तारा","de":"fallender Stern","fr":"étoile qui tombe","it":"stella che cade","es":"estrella que cae","pt":"estrela que cai","ru":"падающая звезда","uk":"зірка, що падає","ar":"نجم يسقط","he":"כוכב שנופל","sw":"nyota inayoanguka"},
@@ -353,5 +354,6 @@ WORDS.shootingstar = {
     vi_s: ["sao băng", "ʂaːw˧ ɓaŋ˧"],  // Sao 'star' + băng 'to collapse' (Sino-Vietnamese 崩): a falling star.
     prs: ["شهاب", "ʃaˈhɑːb"],  // A loan of Arabic شهاب 'blazing firebrand'.
     ko_kp: ["별찌", "pjʌlt͈ɕi"],  // Literally 'star dung': 별 'star' + 찌 'droppings', the North Korean word for 별똥별.
+    zh_jiao: ["流星", "liou˦˨ siəŋ˨˩˧"],  // Literally 'flowing star'; Qingdao also says 贼星 'thief star'.
   },
 };

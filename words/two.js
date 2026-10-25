@@ -1257,5 +1257,6 @@ WORDS.two = {
     gha: ["sən", "sən"],  // Masculine; the feminine is sənet.
     auj: ["itnèn", "itˈnen"],  // From Libyan Arabic; most Awjila numerals are Arabic loans (van Putten, ch. 9).
     siz: ["sə́n", "sən"],  // Siwi keeps only 'one' and 'two' from Berber; Arabic ətnain competes with it in counting.
+    zh_jiao: ["二", "ɭə˦˨"],
   },
 };

@@ -1197,5 +1197,6 @@ WORDS.nose = {
     zag: ["sina", "sɪna"],
     auj: ["tkənzìrt", "tkənˈzirt"],  // The Berber word for nose (Kabyle tinzərt) with an initial k found only in Awjila.
     siz: ["tanzart", "tanzart"],
+    zh_jiao: ["鼻子", "pi˦˨ tsɿ˥˥"],
   },
 };

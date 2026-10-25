@@ -1169,5 +1169,6 @@ WORDS.person = {
     ttq: ["awedan", "æwedæn"],  // From ăw 'son of' + Adəm 'Adam' (Prasse); the plural ăytedăn means 'people'.
     auj: ["arəgàz", "arəˈɡaz"],  // The Berber word for 'man' elsewhere (Kabyle argaz); in Awjila it means 'person', and 'man' is amə̀dən.
     siz: ["atərras", "atərːas"],  // Laoust marks it as a word of foreign origin; 'man' is aggʷíd.
+    zh_jiao: ["人", "iə̃˦˨"],  // Mandarin r- is dropped here.
   }
 };

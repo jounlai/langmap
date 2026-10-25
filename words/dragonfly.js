@@ -187,6 +187,7 @@ WORDS.dragonfly = {
     mrw: "unknown",
     zag: "other",
     ttq: "other",
+    zh_jiao: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -319,5 +320,6 @@ WORDS.dragonfly = {
     mrw: ["tapodiʼ", "tapodiʔ"],  // The Maranao word for the dragonfly, as recorded in McKaughan and Macaraya's Maranao dictionary.
     zag: ["saw taher", "saw tahɛɾ"],  // Literally 'the fly's airplane' (saw 'housefly').
     ttq: ["tatololăyăt", "tatololˤæjæt"],  // Literally 'the one that zigzags, flying this way and that' (Prasse).
+    zh_jiao: ["蜻蜓", "tsʰiəŋ˨˩˧ tʰiəŋ˦˨"],
   },
 };

@@ -134,7 +134,9 @@ const DEBT = {};
 // we-column rule. A first cell, not a reclassification.
 // 2026-10-23: we 43 -> 44 — siz ənʃni (Laoust 1931, Schiattarella 2015, new Siwi row):
 // one form, and no source says whether Siwi splits inclusive and exclusive.
-const UNDECIDED = { we: { route: 'unknown', max: 44 }, bear: { route: 'unknown', max: 22 }, foot: { route: 'unknown', max: 24 } };
+// 2026-10-25: we 44 -> 45 — zh_jiao 我们 (Wiktionary dial-syn, new Qingdao row): the
+// 咱們 module has no Qingdao line, so no source says Qingdao has an inclusive form.
+const UNDECIDED = { we: { route: 'unknown', max: 45 }, bear: { route: 'unknown', max: 22 }, foot: { route: 'unknown', max: 24 } };
 
 let violations = 0;
 const notes = [];

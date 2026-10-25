@@ -549,6 +549,7 @@ WORDS.love = {
     yue_nn: ['爱', 'ɔi˧˧'],
     zh_cq: ['爱', 'ŋai˨˩˧'],
     zh_jn: ['爱', 'ŋɛ˨˩'],
+    zh_jiao: ["—", "—"],
     zh_km: ['爱', 'æ˨˩˨'],
     zh_xa: ["爱", "ŋæ˥˥"],
     kmu: ["avesi", "avesi"],

@@ -1279,5 +1279,6 @@ WORDS.salt = {
     gha: ["tịsənt", "tesənt"],  // To have eaten "water and salt" together is a pact of friendship (Lanfry).
     auj: ["tisə̀nt", "tiˈsənt"],
     siz: ["tisə́nt", "tiˈsənt"],
+    zh_jiao: ["咸盐", "ɕiã˦˨ iã˦˨"],  // Literally 'salty salt'; plain 盐 is also used.
   },
 };

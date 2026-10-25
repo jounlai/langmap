@@ -552,6 +552,7 @@ WORDS.thanks = {
     yue_nn: ["多谢", "tɔ˥˥ tʃɛ˨˨"],
     zh_cq: ['谢谢', 'ɕie˨˩˧ ɕie˨˩˧'],
     zh_jn: ["谢谢", "ɕiə˨˩ ɕiə˨˩"],
+    zh_jiao: ["—", "—"],
     zh_km: ['谢谢', 'ɕie˨˩˨ ɕie'],
     zh_xa: ["谢谢", "ɕiɛ˥˥ ɕiɛ"],
     kmu: ["muse", "muse"],

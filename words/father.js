@@ -1257,5 +1257,6 @@ WORDS.father = {
     gha: ["dedda", "dɐdːa"],
     auj: ["àbba", "ˈabːa"],  // A kinship noun that takes possessive suffixes (abbà-s 'his/her father').
     siz: ["ábba", "ˈabːa"],  // The bare word means 'my father' (Schiattarella p. 146).
+    zh_jiao: ["爸爸", "pa˦˨ pa˦˨"],  // Qingdao also says 爹.
   },
 };

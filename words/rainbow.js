@@ -591,6 +591,7 @@ WORDS.rainbow = {
     vi_nom: "other",
     dzg: "unknown",
     ttq: "other",
+    zh_jiao: "plain",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1125,5 +1126,6 @@ WORDS.rainbow = {
     vi_nom: ["求𱽐", "kəw˨˩ vəwŋ͡m˨˩"],  // Cầu vồng in Chữ Nôm: 求 for cầu, 𱽐 (plant + phonetic) for vồng.
     dzg: ["jôŋolou", "ɟòŋòlòú"],  // Synonym mîširema; the dictionary gives no literal make-up.
     ttq: ["tǝzzǝl-adar", "təzˤːəladˤær"],  // Literally 'she stretches out her leg' (Prasse), from əẓẓəl 'stretch out' and aḍăr 'leg'.
+    zh_jiao: ["虹", "tsiaŋ˦˨"],  // The standalone word 虹 in its colloquial reading (Mandarin jiàng); the reading xəŋ˦˨ is literary.
   },
 };

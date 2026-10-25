@@ -1257,5 +1257,6 @@ WORDS.you = {
     gha: ["šegg", "ʃɐɡː"],  // Masculine; Lanfry also gives šeggən.
     auj: ["kú", "ku"],  // Masculine; to a woman it is kəm.
     siz: ["ʃək", "ʃək"],  // Masculine; the feminine is ʃəm.
+    zh_jiao: ["你", "ni˥˥"],
   },
 };

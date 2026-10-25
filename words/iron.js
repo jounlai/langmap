@@ -1162,5 +1162,6 @@ WORDS.iron = {
     gha: ["wẹzzāl", "wɐˈzːal"],  // Lanfry says examples are rare.
     auj: ["zzìl", "zːil"],  // The common Berber word (Kabyle uzzal).
     siz: ["lə́ħdid", "ˈləʜdid"],  // Borrowed from Arabic ḥadīd.
+    zh_jiao: ["铁", "tʰiə˥˥"],
   },
 };

@@ -1267,5 +1267,6 @@ WORDS.blood = {
     gha: ["demmen", "dɐmːɐn"],  // A plural noun.
     auj: ["dìmmən", "ˈdimːən"],  // A plural noun, as across Berber.
     siz: ["idammə́n", "idaˈmːən"],  // A plural noun; Laoust heard the stress on the second syllable (idámmən).
+    zh_jiao: ["血", "ɕiə˥˥"],
   },
 };

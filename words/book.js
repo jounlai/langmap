@@ -1115,5 +1115,6 @@ WORDS.book = {
     ttq: ["ǝlkǝttab", "əlkətːab"],  // From Arabic.
     auj: ["əlmə́ṣḥaf", "əlˈməsˤħaf"],  // From Arabic muṣḥaf, which also means a copy of the Qur'an.
     siz: ["təxtəmət", "təχtəmət"],  // From Arabic ḫatma, 'a copy of the Quran'.
+    zh_jiao: ["书", "ʃu˨˩˧"],
   }
 };

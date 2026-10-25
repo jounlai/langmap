@@ -1005,6 +1005,7 @@ WORDS.snow = {
     nus: ["thäc", "t̪əc"],
     ksb: ["kau", "kau"],
     bom: ["nemuk-fwala", "nemukfwala"],
-    rtm: ["sinou", "sinou"]
+    rtm: ["sinou", "sinou"],
+    zh_jiao: ["雪", "syə˥˥"],
   }
 };

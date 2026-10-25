@@ -292,6 +292,7 @@ WORDS.lol = {
     zh_nj: ["233", "ɚ˦ sã˧˩ sã˧˩"],
     zh_tj: ["233", "ər˥˧ san˨˩ san˨˩"],
     zh_jn: ["233", "ɚ˨˩ sã˨˩˧ sã˨˩˧"],
+    zh_jiao: ["233", "ɭə˦˨ sã˨˩˧ sã˨˩˧"],  // 二 and 三 in their Qingdao readings (MCPDict 青島).
     zh_zz: ["233", "l̩˧˩˨ san˨˦ san˨˦"],
     zh_kf: ["233", "ɚ˧˩˨ san˨˦ san˨˦"],
     zh_xa: ["233", "əɻ˥˥ sã˨˩ sã˨˩"],

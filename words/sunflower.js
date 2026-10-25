@@ -219,6 +219,7 @@ WORDS.sunflower = {
     vi_s: "turn",
     prs: "other",
     hyw: "sun",
+    zh_jiao: "turn",
   },
   routes: {
     turn: {"color":"#ea580c","emoji":"🔄","en":"turns to the sun","ja":"太陽に向く","ko":"해를 향함","zh":"朝向太阳","yue":"向住太陽","vi":"hướng về mặt trời","th":"หันตามดวงอาทิตย์","id":"menghadap matahari","hi":"सूरज की ओर मुड़ता","de":"dreht sich zur Sonne","fr":"se tourne vers le soleil","it":"si volta verso il sole","es":"se gira al sol","pt":"volta-se para o sol","ru":"поворачивается к солнцу","uk":"повертається до сонця","ar":"يتّجه نحو الشمس","he":"פונה אל השמש","sw":"hugeuka kuelekea jua"},
@@ -384,5 +385,6 @@ WORDS.sunflower = {
     vi_s: ["hướng dương", "hɨəŋ˧˥ jɨəŋ˧"],  // Sino-Vietnamese 向陽 'facing the sun', with Southern j- for d-.
     prs: ["آفتاب‌پرست", "ɑːftɑːbpaɾast"],  // Literally 'sun-worshipper'; in Iran the same word means the chameleon, and Iranian Persian says آفتاب‌گردان 'sun-turner'.
     hyw: ["արեւածաղիկ", "ɑɾɛvɑdzɑˈʁiɡ"],  // Արեւ 'sun' + ծաղիկ 'flower'.
+    zh_jiao: ["朝阳花", "tʃʰɔ˦˨ iaŋ˦˨ xua˨˩˧"],  // Literally 'flower facing the sun'; Qingdao also says 转悠葵儿 'turning kui'.
   },
 };

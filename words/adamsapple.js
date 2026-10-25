@@ -181,6 +181,7 @@ WORDS.adamsapple = {
     nan_xm: "other",
     nan_zz: "other",
     nan_pn: "other",
+    zh_jiao: "other",
   },
   routes: {
     adam: {"color":"#dc2626","emoji":"🍏","en":"Adam's apple","ja":"アダムのりんご","ko":"아담의 사과","zh":"亚当的苹果","yue":"亞當嘅蘋果","vi":"táo của Adam","th":"แอปเปิลของอาดัม","id":"apel Adam","hi":"आदम का सेब","de":"Adams Apfel","fr":"pomme d'Adam","it":"pomo d'Adamo","es":"fruto de Adán","pt":"maçã de Adão","ru":"яблоко Адама","uk":"яблуко Адама","ar":"تفاحة آدم","he":"תפוח אדם","sw":"tufaha la Adamu"},
@@ -306,5 +307,6 @@ WORDS.adamsapple = {
     nan_xm: ["颔珠", "am˨˨ tsu˦˦"],  // Literally 'neck bead', with 颔 as in 颔颈 'neck'.
     nan_zz: ["咙喉核仔", "nã˩˧ au˩˧ hut̚˩˨˩ a˥˧"],  // Literally 'little throat pit': 咙喉 'throat' + 核 'fruit stone' + diminutive 仔.
     nan_pn: ["喉鐘", "au˨˧ tseŋ˧˧"],  // Literally 'throat bell'; in Xiamen and Taiwan the same word means the uvula.
+    zh_jiao: ["喉结","xou˦˨ tɕiə˥˥"],  // Literally 'throat knot'; same word as Standard Mandarin.
   },
 };

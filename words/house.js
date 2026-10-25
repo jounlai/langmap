@@ -1257,5 +1257,6 @@ WORDS.house = {
     gha: ["daž", "daʒ"],  // Also taddart "family dwelling".
     auj: ["tfìlli", "ˈtfilːi"],
     siz: ["agbə́n", "aɡˈbən"],  // Stumme linked it to Late Latin capanna 'hut' (Laoust); with final stress it means 'a house', with penultimate stress 'the house'.
+    zh_jiao: ["房子", "faŋ˦˨ tsɿ˥˥"],
   }
 };

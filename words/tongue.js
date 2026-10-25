@@ -1269,5 +1269,6 @@ WORDS.tongue = {
     gha: ["ị̄ləs", "ˈeləs"],
     auj: ["ìləs", "ˈiləs"],
     siz: ["ilə́s", "iˈləs"],
+    zh_jiao: ["舌头", "ʃə˦˨ tʰou˦˨"],
   },
 };

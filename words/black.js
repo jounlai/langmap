@@ -1306,5 +1306,6 @@ WORDS.black = {
     gha: ["əzḍəf", "əzdˤəf"],  // A verb, "to be black".
     auj: ["šṭàf", "ʃtˤaf"],
     siz: ["azəṭṭáf", "azəˈtˤːaf"],  // Schiattarella records the feminine tazəṭṭáft.
+    zh_jiao: ["黑", "xe˥˥"],
   },
 };

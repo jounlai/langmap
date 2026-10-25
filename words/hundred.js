@@ -1197,5 +1197,6 @@ WORDS.hundred = {
     ttq: ["temeday", "temedˤæj"],
     auj: ["mìyət", "ˈmijət"],  // From Arabic.
     siz: ["məjja", "məjːa"],  // Borrowed from Arabic.
+    zh_jiao: ["百", "pe˥˥"],
   },
 };

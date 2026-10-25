@@ -1243,5 +1243,6 @@ WORDS.mouth = {
     gha: ["amị", "ame"],  // Also "entrance, opening".
     auj: ["am", "am"],
     siz: ["aṃḅú", "amˤˈbˤu"],
+    zh_jiao: ["嘴", "tsue˥˥"],
   }
 };

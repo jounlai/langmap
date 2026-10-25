@@ -346,6 +346,7 @@ WORDS.dopamine = {
     quy: ["dopamina", ""],
     cnp: ["多巴胺", "to˥˧ pa˥˧ an˥˥"],
     nan_zz: ["多巴胺", "to˦˦ pa˦˦ an˦˦"],
-    yue_ts: ["多巴胺", "ʔuɔ˧˧ pa˧˧ ʔuɔn˧˧"]
+    yue_ts: ["多巴胺", "ʔuɔ˧˧ pa˧˧ ʔuɔn˧˧"],
+    zh_jiao: ["多巴胺","tuə˨˩˧ pa˨˩˧ ɣã˦˨"],  // Same word as Standard Mandarin.
   },
 };

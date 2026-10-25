@@ -263,6 +263,7 @@ WORDS.pineapple = {
     hyw: "unknown",
     th_isan: "unknown",
     th_s: "unknown",
+    zh_jiao: "other",
   },
   routes: {
     nanas: {"color":"#ea580c","emoji":"🌎","en":"from Tupi naná","ja":"トゥピ語 naná から","ko":"투피어 naná에서","zh":"源自图皮语 naná","yue":"源自圖皮語 naná","vi":"từ tiếng Tupi naná","th":"จากภาษาตูปี naná","id":"dari bahasa Tupi naná","hi":"तूपी naná से","de":"aus Tupi naná","fr":"du tupi naná","it":"dal tupi naná","es":"del tupí naná","pt":"do tupi naná","ru":"из тупи naná","uk":"з тупі naná","ar":"من التوبية naná","he":"מטופי naná","sw":"kutoka Kitupi naná"},
@@ -470,5 +471,6 @@ WORDS.pineapple = {
     hyw: ["անանաս", "ɑnɑˈnɑs"],  // Same word in Western and Eastern Armenian; the puristic "king's apple" արքայախնձոր is rare.
     th_isan: ["บักนัด", "bak˨˦nat˦"],  // บัก is the Isan fruit prefix (Thai หมาก); compare Lao ໝາກນັດ.
     th_s: ["ยานัด", "jaː˥nat˧˥"],  // Possibly from Malay nanas via a northern peninsular dialect (Wiktionary).
+    zh_jiao: ["菠萝","pə˨˩˧ luə˦˨"],  // Clipped from 菠萝蜜, the jackfruit; same word as Standard Mandarin.
   },
 };

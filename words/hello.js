@@ -551,6 +551,7 @@ WORDS.hello = {
     yue_nn: ["你好", "ni˨˦ hu˧˥"],
     zh_cq: ["你好", "li˦˨ xau˦˨"],
     zh_jn: ["你好", "ni˥˥ xɔ˥˥"],
+    zh_jiao: ["—", "—"],
     zh_km: ["你好", "ni˥˧ xʌo˥˧"],
     zh_xa: ['你好', 'ni˥˧ xau˥˧'],
     kmu: ["naipa", "naipa"],

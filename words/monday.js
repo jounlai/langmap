@@ -493,6 +493,7 @@ WORDS.monday = {
     ttq: "count",
     gha: "count",
     siz: "count",
+    zh_jiao: "count",
   },
   routes: {
     moon: {"color":"#7c3aed","emoji":"🌙","en":"the moon's day","ja":"月の日","ko":"달의 날","zh":"月亮之日","yue":"月亮嘅日","vi":"ngày mặt trăng","th":"วันของดวงจันทร์","id":"hari bulan","hi":"चंद्रमा का दिन","de":"Tag des Mondes","fr":"jour de la lune","it":"giorno della luna","es":"día de la luna","pt":"dia da lua","ru":"день луны","uk":"день місяця","ar":"يوم القمر","he":"יום הירח","sw":"siku ya mwezi"},
@@ -928,5 +929,6 @@ WORDS.monday = {
     ttq: ["ălitnin", "ælitnin"],  // From Arabic al-iṯnayn, 'the second (day)'; Prasse adds it is a good day to start a risky journey.
     gha: ["asəf n-lətnīn", "asəf nlətˈnin"],  // "Day of the second": Lanfry says the weekday names come from Arabic, where al-ithnayn is "the second (day)".
     siz: ["lətnin", "lətnin"],  // From Arabic al-ithnayn, 'the second (day)'.
+    zh_jiao: ["星期一","siəŋ˨˩˧ tɕʰi˨˩˧ i˥˥"],  // Literally 'week one'; same word as Standard Mandarin.
   },
 };

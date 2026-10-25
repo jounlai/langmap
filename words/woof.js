@@ -293,6 +293,7 @@ WORDS.woof = {
     yue_dg: ["汪汪", "wɔŋ˨˧ wɔŋ˨˧"],
     zh_hf: ["汪汪", "uɑ̃˨˩˨ uɑ̃˨˩˨"],
     zh_tj: ["汪汪", "vɑŋ˨˩ vɑŋ˨˩"],
-    zh_db: ["汪汪", "waŋ˥ waŋ˥"]
+    zh_db: ["汪汪", "waŋ˥ waŋ˥"],
+    zh_jiao: ["汪汪","vaŋ˨˩˧ vaŋ˨˩˧"],  // Same word as Standard Mandarin.
   },
 };

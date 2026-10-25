@@ -1216,5 +1216,6 @@ WORDS.head = {
     gha: ["ị̄ɣef", "ˈeɣɐf"],
     auj: ["tgìli", "ˈtɡili"],
     siz: ["axfí", "aχˈfi"],  // Laoust notes that only Siwi adds a final i to the Berber word for 'head'.
+    zh_jiao: ["头", "tʰou˦˨"],  // Qingdao also says 脑袋.
   },
 };

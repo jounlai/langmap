@@ -1272,5 +1272,6 @@ WORDS.fish = {
     gha: ["—", "—"],
     auj: ["—", "—"],
     siz: ["tisməkt", "tisməkt"],  // Laoust's French–Berber glossary gives only assir, a small fish of the springs.
+    zh_jiao: ["鱼", "y˦˨"],
   }
 };

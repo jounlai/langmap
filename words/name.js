@@ -557,6 +557,7 @@ WORDS.name = {
       yue_nn: ["名", "mɛŋ˨˩"],
       zh_cq: ["名字", "min˨˩ tsɿ"],
       zh_jn: ["名字", "miŋ˦˨ tsɿ"],
+    zh_jiao: ["—", "—"],
       zh_km: ["名字", "mĩ˧˩ tsɿ"],
       zh_xa: ["名字", "miŋ˨˦ tsɿ"],
       kmu: ["agi", "aɡi"],

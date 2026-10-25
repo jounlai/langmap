@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 86 word concepts × 1196 languages/varieties (incl. ~140 excluded from the default modern view)
+ * Word Map Data — 86 word concepts × 1197 languages/varieties (incl. ~140 excluded from the default modern view)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -3645,6 +3645,8 @@ const LANG_DATA = {
   auj: { name: "Awjila", native: "žlan n awilən", lat: 29.11, lng: 21.29, // Awjila oasis (Al Wahat District, Cyrenaica, Libya)
 },
   siz: { name: "Siwi", native: "ʒlan n isiwan", lat: 29.2, lng: 25.52, // Siwa town (Shali), Siwa Oasis, Matrouh Governorate, Egypt
+},
+  zh_jiao: { name: "Qingdao Mandarin", native: "青岛话", lat: 36.07, lng: 120.38, // Qingdao city (Shinan/Shibei old urban districts), Shandong; same pin as the Han Map zh_jiao row
 },
   // Bantu (Namibia/Angola)
   ng: { name: 'Ndonga', native: 'Oshindonga', lat: -17.78, lng: 15.69, // Oshakati

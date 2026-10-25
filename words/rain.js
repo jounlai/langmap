@@ -1190,5 +1190,6 @@ WORDS.rain = {
     gha: ["anaẓar", "anazˤar"],
     auj: ["avùn", "aˈvun"],  // 'It rains' is awìt avùn, literally 'rain hits'.
     siz: ["aṃẓáṛ", "amˤˈzˤarˤ"],  // Laoust (1931) wrote it anzar.
+    zh_jiao: ["雨", "y˥˥"],
   },
 };

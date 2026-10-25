@@ -423,6 +423,7 @@ WORDS.potato = {
     mni: "unknown",
     nag: "unknown",
     kbp: "unknown",
+    zh_jiao: "earth",
   },
   routes: {
     papa: {"color":"#ca8a04","emoji":"🏔️","en":"Quechua papa · Taíno batata","ja":"ケチュア語 papa・タイノ語 batata","ko":"케추아어 papa · 타이노어 batata","zh":"克丘亚语 papa・泰诺语 batata","yue":"克丘亞語 papa · 泰諾語 batata","vi":"Quechua papa · Taíno batata","th":"เกชัว papa · ไตโน batata","id":"Quechua papa · Taíno batata","hi":"क्वेचुआ papa · ताइनो batata","de":"Quechua papa · Taíno batata","fr":"quechua papa · taïno batata","it":"quechua papa · taíno batata","es":"quechua papa · taíno batata","pt":"quíchua papa · taíno batata","ru":"кечуа papa · таино batata","uk":"кечуа papa · таїно batata","ar":"كيتشوا papa · تاينو batata","he":"קצ'ואה papa · טאינו batata","sw":"Kiquechua papa · Kitaino batata"},
@@ -787,5 +788,6 @@ WORDS.potato = {
     mni: ["ꯑꯂꯨ", "əlu"],  // The same word as Bengali and Assamese alu; no source states the borrowing. The sweet potato is a different word, mangra.
     nag: ["alu", "alu"],  // The same word as Assamese alu, the language Nagamese is built on.
     kbp: ["tɛtɛɛ pɔm", "tɛtɛː pɔm"],  // The Kabiye Wikipedia name for the potato; it also gives Pɔmdɩtɛɛrɩ, from French pomme de terre.
+    zh_jiao: ["土豆", "tʰu˥˥ tou˦˨"],  // Literally 'earth bean'; Qingdao also says 土豆儿 and 地蛋儿 'ground egg'.
   },
 };

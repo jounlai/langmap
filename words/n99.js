@@ -792,6 +792,7 @@ WORDS.n99 = {
     be: "dec", ca: "dec", gl: "dec", oc: "dec",
     hi: "opaque", bn: "opaque", ur: "opaque",
     ttq: "mult",
+    zh_jiao: "mult",
   },
   routes: {
     dec: {
@@ -1597,5 +1598,6 @@ WORDS.n99 = {
     vi_nom: ["𠃩𨒒𠃩", "tɕin˧˥ mɨəj˧ tɕin˧˥"],
     tsz: ["tʼámu ekuatse témpeni iúmu tʼámu", "ˈtʰamu ekʷatse ˈtempeni ˈjumu ˈtʰamu"],
     ttq: ["tazayat tǝmǝrwen ǝd tazayat", "tæzˤajæt təmərwen əd tæzˤajæt"],  // 'Nine tens and nine', feminine to agree with tilay 'sheep'; the masculine nine is tăẓa.
+    zh_jiao: ["九十九", "tɕiou˥˥ ʃɿ˦˨ tɕiou˥˥"],
   }
 };

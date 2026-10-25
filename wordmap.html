@@ -735,14 +735,17 @@
             display: inline-block; width: 7px; height: 7px; border-radius: 50%;
             background: #8b5cf6; flex: 0 0 auto;
         }
-        #word-modal .wm-tile { position: relative; }
-        /* Bottom-right, out of the flow: the top-right corner is where the
-           English gloss sits, and a dot there crowded it (owner 2026-10-25). */
-        #word-modal .wm-tile > .wm-pdot {
-            position: absolute; bottom: 5px; right: 5px;
-            box-shadow: 0 0 0 2px #fff;
+        /* Experimental words are told apart by a pale violet tile rather than
+           a mark: a corner dot was too easy to miss and crowded the English
+           gloss (owner 2026-10-25). The key line above the groups shows the
+           same swatch. Active keeps the usual dark tile. */
+        #word-modal .wm-tile.partial { background: #f5f0ff; border-color: #ddd0fb; }
+        #word-modal .wm-tile.partial:hover { background: #ece3ff; border-color: #c7b3f7; }
+        #word-modal .wm-tile.partial.active { background: #1a1a2e; border-color: #1a1a2e; }
+        #word-modal .wm-key .wm-pdot {
+            width: 22px; height: 12px; border-radius: 3px;
+            background: #f5f0ff; border: 1px solid #ddd0fb;
         }
-        #word-modal .wm-tile.active > .wm-pdot { box-shadow: 0 0 0 2px #1a1a2e; background: #a78bfa; }
         #word-modal .wm-grid {
             display: grid; gap: 6px;
             grid-template-columns: repeat(auto-fill, minmax(116px, 1fr));
@@ -5269,7 +5272,7 @@
                         shown++;
                         var t = document.createElement('button');
                         t.type = 'button';
-                        t.className = 'wm-tile' + (id === select.value ? ' active' : '');
+                        t.className = 'wm-tile' + (w.partial ? ' partial' : '') + (id === select.value ? ' active' : '');
                         if (id === select.value) t.setAttribute('aria-current', 'true');
                         t.dataset.word = id;
                         // No per-word emoji: only 36 of 86 concepts have one, so
@@ -5277,12 +5280,7 @@
                         // nose, foot and bone carried one (owner).
                         var n = document.createElement('span');
                         n.className = 'wm-name'; n.textContent = nameOf(w); t.appendChild(n);
-                        if (w.partial) {
-                            var pd = document.createElement('span'); pd.className = 'wm-pdot';
-                            pd.title = EXP_NOTE[baseLang()] || EXP_NOTE.en;
-                            pd.setAttribute('aria-label', pd.title);
-                            t.appendChild(pd);
-                        }
+                        if (w.partial) t.title = EXP_NOTE[baseLang()] || EXP_NOTE.en;
                         if (baseLang() !== 'en') {
                             var en = document.createElement('span');
                             en.className = 'wm-en'; en.textContent = w.label.en; t.appendChild(en);

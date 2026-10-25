@@ -220,6 +220,62 @@ WORDS.sunflower = {
     prs: "other",
     hyw: "sun",
     zh_jiao: "turn",
+    pa: "turn",
+    pnb: "turn",
+    tr: "other",
+    th: "other",
+    gu: "turn",
+    nan: "sun",
+    yo: "turn",
+    uz: "turn",
+    ne: "turn",
+    sd: "turn",
+    ug: "other",
+    el: "sun",
+    sr: "turn",
+    ku: "turn",
+    or: "turn",
+    azb: "turn",
+    ht: "sun",
+    mg: "unknown",
+    ps: "sun",
+    km: "other",
+    as: "sun",
+    jv: "sun",
+    st: "other",
+    sn: "unknown",
+    si: "unknown",
+    sq: "sun",
+    da: "turn",
+    hr: "turn",
+    sk: "sun",
+    mn: "sun",
+    tk: "turn",
+    ky: "turn",
+    tg: "other",
+    lo: "sun",
+    kab: "unknown",
+    nds: "sun",
+    he: "unknown",
+    tt: "unknown",
+    qu: "sun",
+    scn: "turn",
+    es_pr: "turn",
+    es_do: "turn",
+    es_gt: "turn",
+    es_ve: "turn",
+    es_ec: "turn",
+    es_uy: "turn",
+    ext: "turn",
+    sgs: "turn",
+    zh_tj: "turn",
+    zh_zz: "turn",
+    zh_hf: "turn",
+    hak_hl: "turn",
+    nan_xm: "turn",
+    nan_qz: "turn",
+    nan_zz: "turn",
+    nan_te: "plain",
   },
   routes: {
     turn: {"color":"#ea580c","emoji":"🔄","en":"turns to the sun","ja":"太陽に向く","ko":"해를 향함","zh":"朝向太阳","yue":"向住太陽","vi":"hướng về mặt trời","th":"หันตามดวงอาทิตย์","id":"menghadap matahari","hi":"सूरज की ओर मुड़ता","de":"dreht sich zur Sonne","fr":"se tourne vers le soleil","it":"si volta verso il sole","es":"se gira al sol","pt":"volta-se para o sol","ru":"поворачивается к солнцу","uk":"повертається до сонця","ar":"يتّجه نحو الشمس","he":"פונה אל השמש","sw":"hugeuka kuelekea jua"},
@@ -386,5 +442,61 @@ WORDS.sunflower = {
     prs: ["آفتاب‌پرست", "ɑːftɑːbpaɾast"],  // Literally 'sun-worshipper'; in Iran the same word means the chameleon, and Iranian Persian says آفتاب‌گردان 'sun-turner'.
     hyw: ["արեւածաղիկ", "ɑɾɛvɑdzɑˈʁiɡ"],  // Արեւ 'sun' + ծաղիկ 'flower'.
     zh_jiao: ["朝阳花", "tʃʰɔ˦˨ iaŋ˦˨ xua˨˩˧"],  // Literally 'flower facing the sun'; Qingdao also says 转悠葵儿 'turning kui'.
+    pa: ["ਸੂਰਜਮੁਖੀ", "suːɾədʒmʊkʰiː"],  // ਸੂਰਜ 'sun' + -ਮੁਖੀ '-facing': the sun-facing flower, the same word as Hindi sūrajmukhī.
+    pnb: ["سورج مکھی", "suːɾədʒmʊkʰiː"],  // سورج 'sun' + مکھی '-facing', the Shahmukhi spelling of Punjabi sūrajmukhī.
+    tr: ["ayçiçeği", "ˈajtʃitʃeji"],  // Literally 'moon flower' (ay 'moon' + çiçek 'flower'), though the etymology is disputed; günebakan 'sun-looker' and gündöndü 'sun-turned' are synonyms.
+    th: ["ทานตะวัน", "tʰaːn˧ta˨˩wan˧"],  // ทาน 'to withstand' + ตะวัน 'sun': the one that withstands the sun; it first named a royal sunshade.
+    gu: ["સૂર્યમુખી", "suːɾjəmukʰiː"],  // સૂર્ય 'sun' + મુખ 'face' + -ઈ: the sun-facing flower; સૂરજમુખી is also used.
+    nan: ["日頭花", "lit˦ tʰau˨˦ hue˦˦"],  // Literally 'sun flower': 日頭 'sun' + 花 'flower'.
+    yo: ["abóòrùnyí", "abóòɾũ̀jí"],  // Literally 'one that turns with the sun': a- + bá 'with' + òòrùn 'sun' + yí 'turn'.
+    uz: ["kungaboqar", "kuŋɡabɒˈqaɾ"],  // Literally 'sun-gazer': kunga 'to the sun' + boqar 'looks', like Azerbaijani günəbaxan.
+    ne: ["सूर्यमुखी", "suːɾjəmukʰiː"],  // सूर्य 'sun' + मुखी '-facing', as in Hindi.
+    sd: ["سورج مکي", "suːɾədʒ mʊkʰiː"],  // سورج 'sun' + مکي '-facing': named because the flower keeps facing the sun.
+    ug: ["ئاپتاپپەرەس", "ɑptɑppɛˈrɛs"],  // Borrowed from Persian āftāb-parast 'sun-worshipper'.
+    el: ["ηλίανθος", "iˈlianθos"],  // From Neo-Latin helianthus, Greek ἥλιος 'sun' + ἄνθος 'flower'.
+    sr: ["сунцокрет", "sǔntsokreːt"],  // Сунце 'sun' + крет 'turn, move': built like Italian girasole 'turn-sun'.
+    ku: ["gulberoj", "ɡʊlbɛˈroːʒ"],  // Gul 'flower' + ber 'facing' + roj 'sun': named because it turns whichever way the sun goes.
+    or: ["ସୂର୍ଯ୍ୟମୁଖୀ", "suːɾdʒjɔmukʰi"],  // ସୂର୍ଯ୍ୟ 'sun' + ମୁଖୀ '-facing', as in Hindi and Bengali.
+    azb: ["گۆنه باخان", "ɟynæbɑˈxɑn"],  // Literally 'sun-looker': گۆنه 'to the sun' + باخان 'looking', as in Azerbaijani günəbaxan.
+    ht: ["flè solèy", "flɛ sɔlɛj"],  // Literally 'sun flower'; tounsòl, from French tournesol, is also said.
+    mg: ["tanamasoandro", "tanamasuˈanɖʐu"],  // Contains masoandro 'sun'; Malagasy Wiktionary says it may come from tanana 'ray' + masoandro.
+    ps: ["لمر ګل", "lmar ɡul"],  // Literally 'sun flower': لمر 'sun' + ګل 'flower'; لمرګلی is also written.
+    km: ["ឈូករ័ត្ន", "cʰuːk rŏət"],  // Literally 'jewel lotus': ឈូក 'lotus' + រ័ត្ន 'gem' (from Sanskrit ratna); often said with ផ្កា 'flower' in front.
+    as: ["বেলি ফুল", "beli pʰul"],  // Literally 'sun flower': বেলি 'sun' + ফুল 'flower'; সূৰ্যমুখী is also used.
+    jv: ["kembang srengéngé", "kəmbaŋ srəŋeŋe"],  // Literally 'sun flower': kembang 'flower' + srengéngé 'sun'; kembang kanigara is also used.
+    st: ["mooratsatsi", "moːratsatsi"],  // From morati wa letsatsi 'lover of the sun', because it follows the sun from morning to evening.
+    sn: ["ringazuva", "riŋɡazuʋa"],  // Contains zuva 'sun'; the sources do not explain the rest of the name.
+    si: ["සූරියකාන්ත", "suːrijəkaːntə"],  // Contains සූරිය 'sun', like Tamil சூரியகாந்தி; the sources do not explain the second part.
+    sq: ["lulediell", "luləˈdiɛɫ"],  // A compound of lule 'flower' + diell 'sun': the sun flower.
+    da: ["solsikke", "ˈsoːlˌseɡ̊ə"],  // From Latin solsequium, sol 'sun' + sequi 'follow': originally 'the one that follows the sun' (Den Danske Ordbog).
+    hr: ["suncokret", "sǔntsokreːt"],  // Sunce 'sun' + okretati 'to turn': the one that turns to the sun (Hrvatski jezični portal).
+    sk: ["slnečnica", "ˈsl̩ɲetʃɲitsa"],  // Derived from slnko 'sun' (via slnečný 'sunny'), like Czech slunečnice.
+    mn: ["наран цэцэг", "naran tsʰetsʰeɡ"],  // Literally 'sun flower'; Mongolian Wikipedia says it is so named because the flower is said to turn after the sun.
+    tk: ["günebakar", "ɡynebɑˈkɑɾ"],  // Güne 'to the sun' + bakar 'looks': 'sun-looker', like Azerbaijani günəbaxan.
+    ky: ["күн карама", "kyn qɑrɑˈmɑ"],  // Күн 'sun' + карама 'looking', from кара- 'to look': 'sun-looker'.
+    tg: ["офтобпараст", "oftobparast"],  // Офтоб 'sun' + -параст 'worshipper': 'sun-worshipper', inherited from Classical Persian āftāb-parast; офтобгардон 'sun-turner' is also used.
+    lo: ["ດອກຕາເວັນ", "dɔːk˧˩ taː˩˧ ʋen˧˥"],  // Literally 'sun flower': ດອກ 'flower' + ຕາເວັນ 'sun'.
+    kab: ["magriṭij", "maɡritˤiʒ"],  // The second part is iṭij 'sun'; the sources do not explain the first part.
+    nds: ["Sünnbloom", "ˈzʏnbloːm"],  // Sünn 'sun' + Bloom 'flower', like German Sonnenblume.
+    he: ["חמנית", "χamaˈnit"],  // A name revived by Bialik; the sources disagree on its origin (Hebrew Wikipedia cites Rosenthal deriving it from the biblical place name Hamon).
+    tt: ["көнбагыш", "kønbaˈʁɯʃ"],  // Begins with көн 'sun, day'; айбагар and көнбакты are also given as names, but the sources do not explain the second part.
+    qu: ["inti wayta", "inti ˈwajta"],  // Inti 'sun' + wayta 'flower': the sun flower; inti t'ika is also used.
+    scn: ["girasuli", "dʒiraˈsuli"],  // Gira 'turns' + suli 'sun', like Italian girasole.
+    es_pr: ["girasol", "hiɾaˈsol"],  // Gira 'turns' + sol 'sun', the same word as in Spain.
+    es_do: ["girasol", "hiɾaˈsol"],  // Gira 'turns' + sol 'sun', the same word as in Spain.
+    es_gt: ["girasol", "hiɾaˈsol"],  // Gira 'turns' + sol 'sun', the same word as in Spain.
+    es_ve: ["girasol", "hiɾaˈsol"],  // Gira 'turns' + sol 'sun', the same word as in Spain.
+    es_ec: ["girasol", "xiɾaˈsol"],  // Gira 'turns' + sol 'sun', the same word as in Spain.
+    es_uy: ["girasol", "xiɾaˈsol"],  // Gira 'turns' + sol 'sun', the same word as in Spain.
+    ext: ["mirassol", "miɾaˈsol"],  // Mira 'looks at' + sol 'sun'; the Extremaduran Wikipedia also gives tornassol.
+    sgs: ["sauliegrōža", "saulʲiəɡroːʒa"],  // Saulė 'sun' + grōža 'turning', the Samogitian form of Lithuanian saulėgrąža.
+    zh_tj: ["转莲", "tʂuan˥˧ lian˦˥"],  // Literally 'turning lotus', the flower that turns with the sun; Beijing and Hebei also say 转日莲.
+    zh_zz: ["照日葵", "tʂau˧˩˨ ʐʅ˨˦ kʰuei˦˨"],  // Zhengzhou says 照日葵 where Standard Mandarin says 向日葵: the kui plant that faces the sun.
+    zh_hf: ["向日葵", "ɕiɑ̃˥˩ ʐəʔ˦ kʰuɪ˦˥"],  // 向 'to face' + 日 'sun' + 葵 'kui plant'; Hefei also says 葵花.
+    hak_hl: ["向日葵", "hioŋ˩˩ ŋit˥ kʰui˥˥"],  // 向 'to face' + 日 'sun' + 葵 'kui plant': the plant that faces the sun.
+    nan_xm: ["向日葵", "hiɔŋ˨˩ lit̚˦ kui˨˦"],  // Xiamen uses 向日葵 'facing the sun' rather than 日頭花.
+    nan_qz: ["向日葵", "hiɔŋ˦˩ lit˨˦ kui˨˦"],  // Quanzhou uses 向日葵 'facing the sun' rather than 日頭花.
+    nan_zz: ["向日葵", "hiaŋ˨˩ dzit̚˩˨˩ kui˩˧"],  // Zhangzhou uses 向日葵 'facing the sun' rather than 日頭花.
+    nan_te: ["葵花", "kʰui˥˥ hue˧˧"],  // 葵 'kui plant' (short for 向日葵) + 花 'flower'.
   },
 };

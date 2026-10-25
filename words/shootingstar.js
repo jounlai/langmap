@@ -205,6 +205,58 @@ WORDS.shootingstar = {
     prs: "plain",
     ko_kp: "other",
     zh_jiao: "moving",
+    bn: "plain",
+    as: "other",
+    te: "plain",
+    ta: "other",
+    or: "plain",
+    mr: "plain",
+    pa: "plain",
+    ne: "plain",
+    my: "moving",
+    sv: "falling",
+    uz: "moving",
+    mg: "other",
+    nan: "other",
+    gan: "moving",
+    cjy: "moving",
+    hsn: "moving",
+    bar: "other",
+    am: "moving",
+    da: "moving",
+    no: "moving",
+    hy: "unknown",
+    hil: "plain",
+    hr: "falling",
+    sr: "falling",
+    lo: "falling",
+    nds: "other",
+    tg: "plain",
+    ht: "moving",
+    min: "falling",
+    mad: "falling",
+    lg: "other",
+    mn: "moving",
+    es_pr: "moving",
+    es_do: "moving",
+    es_gt: "moving",
+    es_ec: "moving",
+    es_uy: "moving",
+    es_ve: "moving",
+    ca_va: "moving",
+    ar_sy: "other",
+    ar_lb: "other",
+    ar_jo: "other",
+    ar_ps: "other",
+    hyw: "unknown",
+    nan_xm: "other",
+    nan_pn: "other",
+    nan_qz: "other",
+    nan_zz: "other",
+    zh_wh: "moving",
+    zh_km: "moving",
+    zh_jh: "moving",
+    cjy_xz: "moving",
   },
   routes: {
     falling: {"color":"#2563eb","emoji":"⬇️","en":"a falling star","ja":"落ちる星","ko":"떨어지는 별","zh":"落下的星","yue":"跌落嘅星","vi":"sao rơi","th":"ดาวที่ตก","id":"bintang jatuh","hi":"गिरता तारा","de":"fallender Stern","fr":"étoile qui tombe","it":"stella che cade","es":"estrella que cae","pt":"estrela que cai","ru":"падающая звезда","uk":"зірка, що падає","ar":"نجم يسقط","he":"כוכב שנופל","sw":"nyota inayoanguka"},
@@ -355,5 +407,57 @@ WORDS.shootingstar = {
     prs: ["شهاب", "ʃaˈhɑːb"],  // A loan of Arabic شهاب 'blazing firebrand'.
     ko_kp: ["별찌", "pjʌlt͈ɕi"],  // Literally 'star dung': 별 'star' + 찌 'droppings', the North Korean word for 별똥별.
     zh_jiao: ["流星", "liou˦˨ siəŋ˨˩˧"],  // Literally 'flowing star'; Qingdao also says 贼星 'thief star'.
+    bn: ["উল্কা", "ulka"],  // A word of its own, from Sanskrit ulkā; Samsad glosses it 'a shooting star, a meteor', and the event is called উল্কাপাত or তারা-খসা 'star-falling'.
+    as: ["পপীয়া তৰা", "pɔpia tɔɹa"],  // Literally 'sinful star', from পপীয়া 'sinful' (Sanskrit pāpa); উল্কা is the learned word.
+    te: ["ఉల్క", "ulka"],  // A word of its own, from Sanskrit ulkā, which also means 'torch'; Telugu Wikipedia adds the descriptive రాలుతున్న తారలు 'falling stars'.
+    ta: ["எரி நட்சத்திரம்", "eɾi naʈsat̪ːiɾam"],  // Literally 'burning star'; எரிவெள்ளி and எரி விண்மீன் are also used.
+    or: ["ଉଲ୍କା", "ulkaː"],  // A word of its own, from Sanskrit ulkā, which also means 'firebrand, torch'.
+    mr: ["उल्का", "ulkaː"],  // A word of its own, from Sanskrit ulkā; Marathi also says तारा तुटणे 'a star breaks' for seeing one.
+    pa: ["ਉਲਕਾ", "ʊlkaː"],  // A word of its own, borrowed from Sanskrit ulkā.
+    ne: ["उल्का", "ulkaː"],  // A word of its own, from Sanskrit ulkā; Nepali Wikipedia says it looks like a star swiftly falling (खसे जस्तो).
+    my: ["ဥက္ကာပျံ", "ʔoʊʔkàbjàɴ"],  // Literally 'flying meteor': ဥက္ကာ (from Pali ukkā 'meteor') + ပျံ 'to fly'.
+    sv: ["stjärnfall", "ˈɧæːɳˌfalː"],  // Literally 'star-fall'.
+    uz: ["uchar yulduz", "utʃaɾ julduz"],  // Literally 'flying star', from uchmoq 'to fly'; Uzbek Wikipedia gives it as the popular name of a meteor.
+    mg: ["tain-kintana", "tajŋˈkintana"],  // Literally 'star droppings', from tay 'excrement' + kintana 'star', the same image as Malay tahi bintang; zanakintana 'star child' is also said.
+    nan: ["落屎星", "lau˩˩ sai˥˧ tsʰĩ˦˦"],  // Literally 'diarrhoea star'; the MOE dictionary defines it as the shooting star, listing 流星 only as a word shared with Mandarin.
+    gan: ["星星过洲", "ɕin˦˨ ɕin˦˨ kuo˦˥ tsɨu˦˨"],  // Literally 'the star crosses the land'; Nanchang also says 星子過位 and 星哩屙屎 'the star poops'.
+    cjy: ["走星", "tsəu˥˧ ɕiŋ˩"],  // Literally 'running star', the Jin word recorded for Taiyuan and Pingyao; Taiyuan also says 流星.
+    hsn: ["射火星", "ʂa˨˩ xo˦˩ sin˧˧"],  // Literally 'shooting-fire star'; Changsha also says 射火子星, 賊星 and 流星.
+    bar: ["Steanschnuppn", "ˈʃteɐnʃnʊpm̩"],  // The Bavarian form of German Sternschnuppe, literally 'star snuff', the wick-end snuffed off a candle.
+    am: ["ተወርዋሪ ኮከብ", "təwərwari kokəb"],  // Literally 'hurled star', from ወረወረ 'to throw'; Amharic Wikipedia uses the same adjective for thrown grenades and flying discs.
+    da: ["stjerneskud", "ˈsdjɛɐ̯nəˌsɡuð"],  // Literally 'star-shot', from stjerne 'star' + skud 'shot'; meteor is the scientific word.
+    no: ["stjerneskudd", "ˈstjæːɳəˌskʉdː"],  // Literally 'star-shot', from stjerne 'star' + skudd 'shot'; Norwegian Wikipedia calls it the popular name for a meteor.
+    hy: ["ասուպ", "ɑˈsup"],  // The Armenian word for a meteor; the sources disagree on its origin.
+    hil: ["bulalakaw", "bulaˈlakaw"],  // Inherited from a Proto-Philippine word for a shooting star or a kind of spirit; it also names a Visayan deity pictured as a shining bird.
+    hr: ["zvijezda padalica", "zʋijěːzda pâdalitsa"],  // Literally 'falling star', padalica being 'something that falls'.
+    sr: ["звезда падалица", "zʋěːzda pâdalitsa"],  // Literally 'falling star'; Serbian Wikipedia says this is the folk name for meteors.
+    lo: ["ດາວຕົກ", "daːw˩˧ tok˧˥"],  // Literally 'falling star', like Thai ดาวตก; the Pali-derived ອຸກກາ is the learned word.
+    nds: ["Steernsnupp", "ˈsteːrnˌsnʊp"],  // Literally 'star snuff', the same image as German Sternschnuppe: the glowing bit of wick snuffed off a candle.
+    tg: ["шиҳоб", "ʃiˈhob"],  // The same word as Persian شهاب 'blaze, meteor', from Arabic.
+    ht: ["etwal filant", "etwal filãt"],  // From French étoile filante 'shooting star', filante being from filer 'to slip away'.
+    min: ["bintang jatuah", "bintaŋ dʒatuah"],  // Literally 'falling star', the name Minangkabau Wikipedia gives as the usual one for a meteor.
+    mad: ["bintang ghâgghâr", "bintaŋ ɡʱɤɡɡʱɤr"],  // Literally 'falling star', the popular name Madurese Wikipedia gives beside andhâru and mètèor.
+    lg: ["ekibonoomu", "etʃibonoːmu"],  // Built on the verb bona 'to see'.
+    mn: ["харвах од", "xarwax ɔt"],  // Literally 'shooting star', from харвах 'to shoot, launch' + од 'star'; Mongolian Wikipedia describes the phenomenon as од харвах 'a star shoots'.
+    es_pr: ["estrella fugaz", "ehtɾeʝa fuɣah"],  // Literally 'fleeting star', the same phrase as in Spain.
+    es_do: ["estrella fugaz", "ehtɾeʝa fuɣa"],  // Literally 'fleeting star', the same phrase as in Spain.
+    es_gt: ["estrella fugaz", "estɾeja fuɣas"],  // Literally 'fleeting star', the same phrase as in Spain.
+    es_ec: ["estrella fugaz", "estɾeʝa fuɣas"],  // Literally 'fleeting star', the same phrase as in Spain.
+    es_uy: ["estrella fugaz", "estɾeʒa fuɣas"],  // Literally 'fleeting star', the same phrase as in Spain.
+    es_ve: ["estrella fugaz", "ehtɾeʝa fuɣah"],  // Literally 'fleeting star', the same phrase as in Spain.
+    ca_va: ["estrela fugaç", "estɾɛla fuɣas"],  // Literally 'fleeting star'; the Valencian Academy's dictionary gives it under estrela, the Valencian form of estel 'star'.
+    ar_sy: ["شهاب", "ʃhaːb"],  // The same word as Standard Arabic شهاب, first a blazing firebrand.
+    ar_lb: ["شهاب", "ʃhaːb"],  // The same word as Standard Arabic شهاب, first a blazing firebrand.
+    ar_jo: ["شهاب", "ʃhaːb"],  // The same word as Standard Arabic شهاب, first a blazing firebrand.
+    ar_ps: ["شهاب", "ʃhaːb"],  // The same word as Standard Arabic شهاب, first a blazing firebrand.
+    hyw: ["ասուպ", "ɑˈsub"],  // The Armenian word for a meteor; Western Armenian Wikipedia uses it for the Leonid meteors.
+    nan_xm: ["落屎星", "lau˨˩ sai˥˧ tsʰĩ˦˦"],  // Literally 'diarrhoea star'; Xiamen also says 疶屎星 and 飞星.
+    nan_pn: ["落屎星", "lau˨˩ sai˦˦˥ tsʰẽ˧˧"],  // Literally 'diarrhoea star'.
+    nan_qz: ["疶屎星", "tsʰuaʔ˥ sai˥˥˦ tsʰĩ˧˧"],  // Literally 'loose-stool star': 疶 'to have diarrhoea' + 屎 'excrement' + 星 'star'.
+    nan_zz: ["疶屎星", "tsʰuaʔ˧˨ sai˥˧ tsʰɛ̃˦˦"],  // Literally 'loose-stool star'; Zhangzhou also says 飞星 and 星过宫 'the star passes a mansion'.
+    zh_wh: ["流星", "niou˨˩˧ ɕin˥˥"],  // 流 'flow' + 星 'star': the flowing star; Wuhan also says 溜星 and 飞星.
+    zh_km: ["流星", "liəu˧˩ ɕĩ˦˦"],  // 流 'flow' + 星 'star': the flowing star; Kunming also says 星宿屙屎 'the stars are pooping'.
+    zh_jh: ["流星", "liəu˩˧ ɕiŋ˧˩"],  // 流 'flow' + 星 'star': the flowing star; Nanjing also says 跐星 and Yangzhou 过天星.
+    cjy_xz: ["走星", "tsəu˧˩˧ ɕiəŋ˧˩˧"],  // Literally 'running star', the Jin word.
   },
 };

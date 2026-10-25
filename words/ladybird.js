@@ -217,6 +217,17 @@ WORDS.ladybird = {
     ku: "other",
     ckb: "other",
     cnp: "other",
+    tl: "holy",
+    sw: "unknown",
+    su: "unknown",
+    jv: "unknown",
+    or: "unknown",
+    scn: "unknown",
+    shi: "holy",
+    qu: "unknown",
+    ky: "unknown",
+    mn: "other",
+    kab: "unknown",
   },
   routes: {
     holy: {"color":"#7c3aed","emoji":"😇","en":"Mary · God · a saint","ja":"聖母・神・聖人","ko":"성모 · 하느님 · 성인","zh":"圣母・上帝・圣人","yue":"聖母 · 上帝 · 聖人","vi":"Đức Mẹ · Chúa · thánh","th":"พระแม่ · พระเจ้า · นักบุญ","id":"Bunda Maria · Tuhan · santo","hi":"मरियम · ईश्वर · संत","de":"Maria · Gott · Heilige","fr":"Marie · Dieu · un saint","it":"Maria · Dio · un santo","es":"María · Dios · un santo","pt":"Maria · Deus · um santo","ru":"Богородица · Бог · святой","uk":"Богородиця · Бог · святий","ar":"مريم · الله · قديس","he":"מרים · האל · קדוש","sw":"Maria · Mungu · mtakatifu"},
@@ -377,5 +388,16 @@ WORDS.ladybird = {
     ku: ["xalxalok", "xɑːlxɑːˈloːk"],  // Literally 'little spotty-spotty', from doubled xal 'spot, dot' + diminutive -ok; Kurmanji also says kêzxatûn 'lady beetle'.
     ckb: ["خاڵخاڵۆکە", "xaːɫxaːɫoːka"],  // Literally 'little spotty-spotty', the Sorani counterpart of Kurmanji xalxalok, from doubled خاڵ 'spot'.
     cnp: ["瓢虫", "piu˨˩ tʃœŋ˨˩"],  // 瓢 'gourd ladle' + 虫 'insect', for the beetle's half-gourd shape; the same word as standard Chinese.
+    tl: ["marikita", "maɾiˈkita"],  // Borrowed from Spanish mariquita, 'little Mary', after the Virgin Mary; pagong-pagungan 'little turtle' is a synonym.
+    sw: ["mdudu-kibibi", "mˈdudu kiˈbibi"],  // Literally 'little-lady insect'; no source gives where the image comes from.
+    su: ["kukuyaan", "kukujaʔan"],  // The Sundanese name of the ladybird; breum is another name.
+    jv: ["kepik", "kəpɪʔ"],  // The everyday name, as in Indonesian; the Javanese Wikipedia notes it is properly a beetle, kumbang koksi, not a true bug.
+    or: ["ପାରୁଡ଼ା ପୋକ", "paːɾuɽaː pokɔ"],  // Built on ପୋକ 'insect'; Praharaj's dictionary describes it as red or yellow with black spots, often seen on pumpkin flowers, and smelly when rubbed.
+    scn: ["papuzzedda", "paputˈtsɛɖɖa"],  // A diminutive in -edda of papuzza; the origin of the base is not given.
+    shi: ["ⵎⵔⵉⵢⵎ ⵏ ⵢⵉⴳⵔⴰⵏ", "mrijm n jiɡran"],  // Literally "Mary of the fields", after the Virgin Mary, like Spanish mariquita.
+    qu: ["kʼuslulu", "kʼusˈlulu"],  // The Quechua Wikipedia's name for the ladybird family; Ecuadorian Kichwa says muruysa or muruysi.
+    ky: ["өөдөкөч", "øːdøˈkøtʃ"],  // The Kyrgyz name of the spotted ladybirds; the seven-spot ladybird is жети чекиттүү өөдөкөч.
+    mn: ["шүрэн цох", "ʃuren tsʰɔx"],  // Literally "coral beetle", from шүр "coral" and цох "beetle".
+    kab: ["tamyigrant", "tamjiɡrant"],  // The Kabyle Wikipedia's headword for the ladybird; it also lists takunda and mrim n igran.
   },
 };

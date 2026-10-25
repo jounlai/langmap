@@ -727,7 +727,20 @@
             font-weight: 400; text-transform: none; letter-spacing: 0;
             color: #5f6368;
         }
-        #word-modal .wm-key { font-size: 12px; margin: 0 0 10px; }
+        #word-modal .wm-key { font-size: 12px; margin: 0 0 10px; display: flex; align-items: center; gap: 6px; }
+        /* The partial-word marker: a small dot in the tile's corner, keyed by
+           the line above the groups. A 🧪 in front of every such word shouted
+           louder than the words themselves (owner 2026-10-25). */
+        .wm-pdot {
+            display: inline-block; width: 7px; height: 7px; border-radius: 50%;
+            background: #8b5cf6; flex: 0 0 auto;
+        }
+        #word-modal .wm-tile { position: relative; }
+        #word-modal .wm-tile > .wm-pdot {
+            position: absolute; top: 5px; right: 5px;
+            box-shadow: 0 0 0 2px #fff;
+        }
+        #word-modal .wm-tile.active > .wm-pdot { box-shadow: 0 0 0 2px #1a1a2e; background: #a78bfa; }
         #word-modal .wm-grid {
             display: grid; gap: 6px;
             grid-template-columns: repeat(auto-fill, minmax(116px, 1fr));
@@ -5134,11 +5147,11 @@
                 const base = (uiLang === 'en' ? w.label.en : localWord + ' / ' + w.label.en);
                 // Mark a partial word (e.g. cuckoo) so the selector shows it is
                 // special — a range map, not a per-language cell.
-                // Marker goes in FRONT: the labels are "local / English" pairs
-                // of very different lengths, so a trailing 🧪 landed in a
-                // different place on every row and was easy to miss. Leading,
-                // it lines up down the left edge of the list (owner).
-                opt.textContent = w.partial ? '🧪 ' + base : base;
+                // A native <option> cannot hold a styled dot, so the plain
+                // pulldown gets a quiet trailing "·"; the picker modal and the
+                // definition line carry the real dot and its key (owner
+                // 2026-10-25: the leading 🧪 was too loud).
+                opt.textContent = w.partial ? base + ' ·' : base;
                 select.appendChild(opt);
             });
             if (curVal) select.value = curVal;
@@ -5233,7 +5246,9 @@
                 if ((window.WORD_LIST || []).some(function (w) { return w.partial; })) {
                     var key = document.createElement('div');
                     key.className = 'wm-cat-note wm-key';
-                    key.textContent = '🧪 ' + (EXP_NOTE[baseLang()] || EXP_NOTE.en);
+                    var kd = document.createElement('span'); kd.className = 'wm-pdot'; kd.setAttribute('aria-hidden', 'true');
+                    key.appendChild(kd);
+                    key.appendChild(document.createTextNode(EXP_NOTE[baseLang()] || EXP_NOTE.en));
                     body.appendChild(key);
                 }
                 WORD_CATEGORIES.forEach(function (cat) {
@@ -5259,7 +5274,13 @@
                         // the column read as arbitrary — in `body` just ear,
                         // nose, foot and bone carried one (owner).
                         var n = document.createElement('span');
-                        n.className = 'wm-name'; n.textContent = (w.partial ? '🧪 ' : '') + nameOf(w); t.appendChild(n);
+                        n.className = 'wm-name'; n.textContent = nameOf(w); t.appendChild(n);
+                        if (w.partial) {
+                            var pd = document.createElement('span'); pd.className = 'wm-pdot';
+                            pd.title = EXP_NOTE[baseLang()] || EXP_NOTE.en;
+                            pd.setAttribute('aria-label', pd.title);
+                            t.appendChild(pd);
+                        }
                         if (baseLang() !== 'en') {
                             var en = document.createElement('span');
                             en.className = 'wm-en'; en.textContent = w.label.en; t.appendChild(en);
@@ -5450,7 +5471,11 @@
                 n.style.fontSize = '10px';
                 n.style.fontStyle = 'italic';
                 n.style.opacity = '0.75';
-                n.textContent = '🧪 ' + note;
+                const nd = document.createElement('span');
+                nd.className = 'wm-pdot'; nd.setAttribute('aria-hidden', 'true');
+                nd.style.width = nd.style.height = '6px'; nd.style.marginRight = '5px'; nd.style.verticalAlign = '1px';
+                n.appendChild(nd);
+                n.appendChild(document.createTextNode(note));
                 wd.appendChild(n);
             }
             syncWordDefToggle();

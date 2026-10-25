@@ -6292,6 +6292,10 @@
                 // (owner 2026-09-07: "Zoom率関係なく、比較に選べられた言語は表示").
                 const _exempt = new Set(window.__compareList || []);
                 if (_panel && _panel.classList.contains('visible') && _panel.dataset.code) _exempt.add(_panel.dataset.code);
+                // A legend blink lifts the gate for its route's languages in view
+                // until the blink ends (owner 2026-10-25: show hidden ones while
+                // they blink). See blinkRoute.
+                for (const _rc of (window.__routeForce || [])) _exempt.add(_rc);
                 for (const [code, lang] of Object.entries(LANG_DATA)) {
                     if (EXCLUDED_CODES.has(code)) continue;
                     if (!lang.words || !lang.words[wordId]) continue;
@@ -6536,8 +6540,30 @@
             });
         }
 
+        // Labels hidden by the zoom gate or the density thinning cannot blink,
+        // so a click on a legend row first redraws the map with that route's
+        // languages in view forced visible, blinks, then redraws normally
+        // (owner 2026-10-25). Flat map only; the globe draws every label.
+        let _routeForceTimer = null;
         function blinkRoute(fam) {
             const W = (typeof currentWord !== 'undefined' && window.WORDS) ? WORDS[currentWord] : null;
+            if (W && !is3D && typeof map !== 'undefined' && map) {
+                const size = map.getSize(), force = [];
+                for (const [code, lang] of Object.entries(LANG_DATA)) {
+                    if (!lang.words || !lang.words[currentWord] || typeof lang.lat !== 'number') continue;
+                    if (!routeFamiliesOf(W, code).includes(fam)) continue;
+                    const p = map.latLngToContainerPoint([lang.lat, lang.lng]);
+                    if (p.x >= 0 && p.x <= size.x && p.y >= 0 && p.y <= size.y) force.push(code);
+                }
+                clearTimeout(_routeForceTimer);
+                window.__routeForce = force;
+                updateMarkers(currentWord);
+                // Two 0.55 s pulses, plus a beat to see them settle.
+                _routeForceTimer = setTimeout(() => {
+                    window.__routeForce = [];
+                    updateMarkers(currentWord);
+                }, 1500);
+            }
             // Restart cleanly if a previous blink is still running: removing the
             // class and forcing a reflow before re-adding it makes the animation
             // play again from zero, which a second click otherwise would not do.
@@ -7101,7 +7127,7 @@
                 // (owner 2026-09-07). getVisibleLangs already exempts them from the
                 // speaker-tier gate, so they're in visibleLangs; re-add any the
                 // priority pass dropped (viewport + projected only, like _fc).
-                for (const _cc of (window.__compareList || [])) {
+                for (const _cc of (window.__compareList || []).concat(window.__routeForce || [])) {
                     if (visibleLangs.includes(_cc) && !renderLangs.includes(_cc) && ppx[_cc]) {
                         renderLangs = renderLangs.concat([_cc]);
                     }
@@ -7268,6 +7294,7 @@
                 && _focusedPanel.classList.contains('visible'))
                 ? _focusedPanel.dataset.code : null;
             const _spotlight = (typeof _triviaSpotlight !== 'undefined') ? _triviaSpotlight : null;
+            const _routeForce = new Set(window.__routeForce || []);
             // When a filter is active, exclude filtered-out (dimmed) langs
             // from the collision pass: they render at their natural marker
             // position (offsets[code] = (0,0) from earlier — cellGroups
@@ -7298,6 +7325,12 @@
                     const aSpot = _spotlight.has(a) ? 0 : 1;
                     const bSpot = _spotlight.has(b) ? 0 : 1;
                     if (aSpot !== bSpot) return aSpot - bSpot;
+                }
+                // Languages forced in by a legend blink claim their spot first,
+                // or the collision pass would hide them again.
+                if (_routeForce.size) {
+                    const aF = _routeForce.has(a) ? 0 : 1, bF = _routeForce.has(b) ? 0 : 1;
+                    if (aF !== bF) return aF - bF;
                 }
                 // Attested before unattested (unattested has lower priority
                 // so it gets pushed in dense areas).

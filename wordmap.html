@@ -3860,7 +3860,7 @@
     </script>
     <script src="wordmap_data.js?v=358"></script>
     <script src="lang_attention.js?v=4"></script>
-    <script src="word_manifest.js?v=1132"></script>
+    <script src="word_manifest.js?v=1133"></script>
     <script src="word_labels.js?v=111"></script>
     <script>
         /* Cache-buster registry. It MUST be declared here, above the per-word
@@ -3889,8 +3889,8 @@
             meta:     440,
             trivia:   45,
             triviaI18n: 29,
-            words:      1132,
-            langWords:    836,
+            words:      1133,
+            langWords:    837,
             labels:      111,
             metaI18nCoverage: 14,
             metaI18nCoverage2: 4,
@@ -7497,7 +7497,14 @@
             // an isolated label returns home, and nothing overlaps. A label
             // that can't fit within the hide threshold is dropped.
             {
-                const _rendered = allRenderable.filter(c => ppx[c] && isActive(c) && !hiddenCodes.has(c));
+                // Languages forced in by a legend blink go first and are never hidden
+                // here: otherwise a small one beside big neighbours (Georgian at z2,
+                // owner 2026-10-25) is dropped and the blink shows nothing.
+                const _rendered = allRenderable.filter(c => ppx[c] && isActive(c) && (!hiddenCodes.has(c) || _routeForce.has(c)));
+                if (_routeForce.size) {
+                    _rendered.sort((a, b) => (_routeForce.has(a) ? 0 : 1) - (_routeForce.has(b) ? 0 : 1));
+                    for (const c of _routeForce) hiddenCodes.delete(c);
+                }
                 _rendered.sort((a, b) => {
                     // Focused (open modal) and trivia-spotlight langs claim
                     // their pin first — same precedence as the greedy pass.
@@ -7629,7 +7636,7 @@
                         // cannot be hidden is better a little away from its dot than
                         // printed on its neighbour (owner 2026-10-19: Teochew on top of
                         // Cantonese at fs=420, only=1). Up to 4x the normal budget.
-                        if (onlyCompare) {
+                        if (onlyCompare || _routeForce.has(c)) {
                             const _far = Math.min(600, _maxR * 4);
                             far:
                             for (let r = _maxR + _ringStep; r <= _far; r += _ringStep) {

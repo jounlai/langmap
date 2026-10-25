@@ -198,6 +198,25 @@ WORDS.wisdomtooth = {
     sq: "age",
     my: "age",
     zh_jiao: "wisdom",
+    wuu: "age",
+    km: "age",
+    mg: "age",
+    ceb: "age",
+    pa: "wisdom",
+    pnb: "wisdom",
+    gu: "wisdom",
+    te: "wisdom",
+    ps: "wisdom",
+    so: "wisdom",
+    ml: "wisdom",
+    as: "wisdom",
+    syl: "wisdom",
+    tt: "wisdom",
+    ky: "wisdom",
+    tg: "wisdom",
+    af: "wisdom",
+    ckb: "wisdom",
+    kab: "wisdom",
   },
   routes: {
     wisdom: {"color":"#7c3aed","emoji":"🦉","en":"wisdom · sense","ja":"知恵・分別","ko":"지혜 · 분별","zh":"智慧・理智","yue":"智慧 · 理智","vi":"trí khôn · sự hiểu biết","th":"ปัญญา · ความรู้คิด","id":"kebijaksanaan · akal","hi":"बुद्धि · अक़्ल","de":"Weisheit · Verstand","fr":"sagesse · raison","it":"saggezza · giudizio","es":"sabiduría · juicio","pt":"sabedoria · siso","ru":"мудрость · разум","uk":"мудрість · розум","ar":"الحكمة · العقل","he":"חוכמה · בינה","sw":"busara · akili"},
@@ -339,5 +358,24 @@ WORDS.wisdomtooth = {
     sq: ["dhëmb i pjekurisë", "ðəmb i pjɛkuˈɾisə"],  // Literally 'tooth of maturity' (pjekuri 'maturity, ripeness'), for the adult age at which it comes in.
     my: ["အံဆုံး", "ʔàɴ zóʊɴ"],  // Literally 'the end molar' (အံ 'molar' + ဆုံး 'to end'), the last tooth of the row.
     zh_jiao: ["智齿", "tʃɿ˦˨ tʂʰʅ˥˥"],  // Literally 'wisdom tooth'; same word as Standard Mandarin.
+    wuu: ["尽根牙", "ʑin˨˨ kən˥˥ ŋa˨˩"],  // Literally 'the tooth at the very end' of the row, a positional name; Shanghai also says 尽头牙.
+    km: ["ថ្គាមទាល់", "tʰkiəm ˈtŏəl"],  // Literally 'the blocked molar', the one at the end of the row (ថ្គាម 'molar' + ទាល់ 'blocked').
+    mg: ["faravazana", "faraˈvazana"],  // Literally 'the last molar' (fara 'last' + vazana 'molar'); the Malagasy dictionary glosses it 'the furthest molars', French dent de sagesse.
+    ceb: ["panuok", "paˈnuʔok"],  // From suok 'corner, nook': the tooth in the far corner of the jaw.
+    pa: ["ਅਕਲ ਦਾੜ੍ਹ", "əkəl daːɽ˥"],  // Literally 'molar of intellect', with ਅਕਲ from Arabic ʿaql 'reason'.
+    pnb: ["عقل داڑھ", "əkəl dáːɽ"],  // Literally 'molar of intellect', with عقل from Arabic ʿaql 'reason'.
+    gu: ["ડહાપણની દાઢ", "ɖəɦaːpəɳniː daːɖʱ"],  // Literally 'molar of wisdom' (ડહાપણ 'wisdom, good sense' + દાઢ 'molar').
+    te: ["జ్ఞాన దంతం", "dʒɲaːna dantam"],  // Literally 'tooth of knowledge' (Sanskrit jñāna 'knowledge' + danta 'tooth').
+    ps: ["د عقل غاښ", "də aql ɣɑʂ"],  // Literally 'tooth of reason', with عقل from Arabic ʿaql 'reason'.
+    so: ["gowska garashada", "ɡowska ɡaraʃada"],  // Literally 'the molar of understanding', from garo 'to understand'.
+    ml: ["വിവേകദന്തം", "ʋiʋeːkad̪an̪t̪am"],  // Literally 'tooth of discernment' (വിവേകം 'wisdom' + ദന്തം 'tooth'), named because it comes in at the age of understanding.
+    as: ["আকল-দাঁত", "akɔl dãt"],  // Literally 'tooth of intelligence', with আকল from Arabic ʿaql 'reason'; জ্ঞান দাঁত is also given.
+    syl: ["আকলদাত", "axɔldat"],  // Literally 'intelligence tooth', with ꠀꠇꠟ axol from Arabic ʿaql 'reason'; Bengali-script spelling transliterated letter for letter from Sylheti Nagari ꠀꠇꠟꠖꠣꠔ.
+    tt: ["акыл теше", "ɑqɯl teʃe"],  // Literally 'tooth of the mind' (акыл 'reason, mind', from Arabic ʿaql); also called зирәклек теше 'tooth of wisdom'.
+    ky: ["акыл азуу", "ɑqɯl ɑzuː"],  // Literally 'mind molar' (акыл 'mind, intellect', from Arabic ʿaql, + азуу 'molar'); it comes in between 16 and 25.
+    tg: ["дандони ақл", "dandoni aql"],  // Literally 'tooth of reason' (ақл 'intellect, wisdom'), like Persian dandân-e aql; also дандони хирад.
+    af: ["verstandtand", "fərˈstanttant"],  // Literally 'tooth of understanding' (verstand 'intellect' + tand 'tooth'); the older wysheidskies is listed as an archaism.
+    ckb: ["ددانی ژیری", "dɪdaːni ʒiːɾiː"],  // Literally 'tooth of intelligence' (ددان 'tooth' + ژیری 'intelligence').
+    kab: ["tuɣmest n ugerru", "tuʁməst n uɡərːu"],  // Literally 'tooth of the mind' (tuɣmest 'tooth' + agerru 'mind, intellect'); it comes in between 18 and 25.
   },
 };

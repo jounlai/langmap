@@ -225,6 +225,25 @@ WORDS.cheers = {
     hy: "health",
     hyw: "health",
     zh_jiao: "drain",
+    ar: "health",
+    wuu: "drain",
+    cjy: "drain",
+    kk: "health",
+    am: "health",
+    bar: "wish",
+    sw: "health",
+    scn: "health",
+    es_pr: "health",
+    es_do: "health",
+    es_gt: "health",
+    es_ec: "health",
+    es_uy: "health",
+    es_ve: "health",
+    cjy_xz: "drain",
+    wuu_sz: "drain",
+    wuu_hz: "drain",
+    wuu_nb: "other",
+    ar_eg: "health",
   },
   routes: {
     health: {"color":"#16a34a","emoji":"💪","en":"to health · to life","ja":"健康に・命に","ko":"건강을 위해 · 생명을 위해","zh":"为健康・为生命","yue":"為健康 · 為生命","vi":"vì sức khỏe · vì sự sống","th":"แด่สุขภาพ · แด่ชีวิต","id":"untuk kesehatan · kehidupan","hi":"सेहत के नाम · जीवन के नाम","de":"auf die Gesundheit · aufs Leben","fr":"à la santé · à la vie","it":"alla salute · alla vita","es":"por la salud · por la vida","pt":"à saúde · à vida","ru":"за здоровье · за жизнь","uk":"за здоров'я · за життя","ar":"للصحة · للحياة","he":"לבריאות · לחיים","sw":"kwa afya · kwa uhai"},
@@ -395,5 +414,24 @@ WORDS.cheers = {
     hy: ["կենացդ", "keˈnɑtsʰəd"],  // Literally 'your toast'; կենաց 'toast' is an old genitive of 'life', so 'to (your) life'.
     hyw: ["կենացդ", "ɡeˈnɑtsʰətʰ"],  // Literally 'your toast', from an old genitive of 'life', as in Eastern Armenian.
     zh_jiao: ["干杯", "kã˨˩˧ pe˨˩˧"],  // Literally 'dry the cup'; same word as Standard Mandarin.
+    ar: ["في صحتك", "fiː sˤiħħatik"],  // Literally 'to your health', the common Arabic toast (also shortened to صحة 'health').
+    wuu: ["干杯", "kø˥ pɛ˨˩"],  // Literally 'dry the cup', the same toast as Standard Chinese, recorded for Shanghai.
+    cjy: ["干杯", "kæ̃˩ pei˩"],  // Literally 'dry the cup', the same toast as Standard Chinese, recorded for Taiyuan.
+    kk: ["денсаулығыңыз үшін", "densɑwlɯʁɯŋɯz yʃɪn"],  // Literally 'for your health'; the shorter саулығыңыз үшін is also said.
+    am: ["ለጤናችን", "lətʼenatʃːɨn"],  // Literally 'to our health' (ለ 'to' + ጤና 'health' + -አችን 'our').
+    bar: ["Prost", "proːst"],  // The Bavarian short form of Latin prosit 'may it do (you) good'; zum Woi 'to (your) well-being' is also said.
+    sw: ["afya", "ˈafja"],  // Afya means 'health' (from Arabic ʿāfiya); maisha marefu 'long life' is also said, and afya is the reply to a sneeze too.
+    scn: ["â saluti", "a saluti"],  // Literally 'to health' (â = a + la), like Italian alla salute; cin cin is also heard.
+    es_pr: ["salud", "saˈluð"],  // ¡Salud! means 'health!' and is also what Spanish speakers say after a sneeze.
+    es_do: ["salud", "saˈluð"],  // ¡Salud! means 'health!' and is also what Spanish speakers say after a sneeze.
+    es_gt: ["salud", "saˈluð"],  // ¡Salud! means 'health!' and is also what Spanish speakers say after a sneeze.
+    es_ec: ["salud", "saˈluð"],  // ¡Salud! means 'health!' and is also what Spanish speakers say after a sneeze.
+    es_uy: ["salud", "saˈluð"],  // ¡Salud! means 'health!' and is also what Spanish speakers say after a sneeze.
+    es_ve: ["salud", "saˈluð"],  // ¡Salud! means 'health!' and is also what Spanish speakers say after a sneeze.
+    cjy_xz: ["干杯", "kɑ̃˧˩˧ pei˧˩˧"],  // Literally 'dry the cup', the same toast as Standard Chinese.
+    wuu_sz: ["干杯", "kɵ˦˦ pᴇ˦˦"],  // Literally 'dry the cup'; Suzhou also says 照面.
+    wuu_hz: ["干杯", "kᴇ̃˧˧ pei˧˧"],  // Literally 'dry the cup', the same toast as Standard Chinese.
+    wuu_nb: ["碰杯", "pʰã˥˥ pɐɪ˥˨"],  // Ningbo says 碰杯 'clink the cups' rather than 'dry the cup'.
+    ar_eg: ["في صحتك", "fi sˤeħˈħetak"],  // Literally 'to your health'; to a group, في صحتكم.
   },
 };

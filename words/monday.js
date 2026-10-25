@@ -615,7 +615,7 @@ WORDS.monday = {
     ar_lev: ["التنين", "ttaˈneːn"],  // "The second (day)", from Arabic al-ithnayn "the two", counting from Sunday.
     ar_ma: ["التنين", "ttniːn"],  // "The second (day)", from Arabic al-ithnayn "the two", counting from Sunday.
     ar_gulf: ["الاثنين", "ilaθˈneːn"],  // "The second (day)", from Arabic al-ithnayn "the two", counting from Sunday.
-    mt: ["it-Tnejn", "ɪttnɛjn"],  // From Arabic al-ithnayn "the two", i.e. the second day counting from Sunday (il-Ħadd).
+    mt: ["it-Tnejn", "ɪtˈtnɛjn"],  // From Arabic al-ithnayn "the two", i.e. the second day counting from Sunday (il-Ħadd).
     ha: ["Litinin", "liːtinin"],  // From Arabic al-ithnayn "the two", the second day counting from Sunday.
     wo: ["altine", "altine"],  // From Arabic al-ithnayn "the two", the second day counting from Sunday.
     so: ["isniin", "isniːn"],  // From Arabic al-ithnayn "the two", the second day counting from Sunday.

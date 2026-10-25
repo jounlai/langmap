@@ -1068,7 +1068,7 @@ WORDS.rainbow = {
     nan_zz: ["虹", "kʰiŋ˨˨"],  // Zhangzhou says the single character 虹 with its vernacular reading khēng; hông is the literary reading.
     yue_zs: ["虹拱", "hʊŋ˥˩ kʊŋ˨˩˧"],  // Literally 'rainbow arch' (虹 'rainbow' + 拱 'arch'), an older Cantonese word that Zhongshan keeps, where Guangzhou now says 彩虹.
     kfa: ["ಮಳೆಬಿಲ್ಲ್", "maɭebillɨ"],  // Literally 'rain bow' (ಮಳೆ 'rain' + ಬಿಲ್ಲ್ 'bow'), built like Kannada ಮಳೆಬಿಲ್ಲು and English rainbow.
-    aln: ["ylber", "ylbɛɾ"],  // The same word as standard Albanian ylber, whose second half is an old word for 'bow'; the first is either 'forearm' or yll 'star'.
+    aln: ["ylber", "ylˈbɛɾ"],  // The same word as standard Albanian ylber, whose second half is an old word for 'bow'; the first is either 'forearm' or yll 'star'.
     dru: ["balrilawlau", "baɭilaulau"],  // The Rukai word for the rainbow in the Rukai Bible (spelled balrilawlaw in Wiktionary); IPA is read from the spelling, lr = ɭ.
     plg: ["wosak", "wosak"],  // The Pilagá word for the rainbow, spelled huosac in the Pilagá New Testament; IPA is read from the spelling (hu = w, c = k).
     moc: ["qoɲiʔɡe", "qoɲiʔɡe"],  // The Mocoví word for the rainbow, spelled qoñi'gue in the Mocoví Bible; IPA is read from the spelling.

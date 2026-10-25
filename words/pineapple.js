@@ -318,7 +318,7 @@ WORDS.pineapple = {
     my: ["နာနတ်", "nənaʔ"],  // Borrowed from French ananas, ultimately Old Tupi naná.
     am: ["አናናስ", "ənanas"],  // Via Arabic from Portuguese ananás, from Old Tupi.
     ne: ["भुइँकटहर", "bʱuikʌʈaːɾ"],  // भुइँ "ground" + कटहर "jackfruit": the "ground jackfruit".
-    ku: ["ananas", "ɑːnɑːnɑːs"],  // No source consulted traces the Kurmanji word.
+    ku: ["ananas", "ɑːnɑːˈnɑːs"],  // No source consulted traces the Kurmanji word.
     ceb: ["pinya", "ˈpinja"],  // From Spanish piña "pine cone".
     ro: ["ananas", "anaˈnas"],  // Via French from Portuguese ananás, ultimately Old Tupi naná.
     nl: ["ananas", "ˈɑnɑnɑs"],  // From Spanish or Portuguese ananás; Dutch pijnappel, the cousin of English pineapple, now means only "pine cone".
@@ -356,7 +356,7 @@ WORDS.pineapple = {
     hr: ["ananas", "ânanas"],  // Via German Ananas from Portuguese, from Tupi.
     sk: ["ananás", "ˈananaːs"],  // From Portuguese ananás, from Old Tupi.
     no: ["ananas", "ˈɑnːɑnɑs"],  // From Spanish or Portuguese ananás, ultimately Old Tupi.
-    ky: ["ананас", "ɑnɑnɑs"],  // Via Russian and French, ultimately Old Tupi naná.
+    ky: ["ананас", "ɑnɑˈnɑs"],  // Via Russian and French, ultimately Old Tupi naná.
     be: ["ананас", "anaˈnas"],  // Via French from Portuguese ananás, ultimately Old Tupi.
     tzm: ["ⴰⵏⴰⵏⴰⵚ", "ananasˤ"],  // Origin not stated in the source.
     ka: ["ანანასი", "ananasi"],  // Via Russian from Portuguese ananás.

@@ -248,8 +248,8 @@ WORDS.dragonfly = {
     cdo: ["蚂蝴", "ma˧˧ hu˥˧"],  // 螞, an insect prefix, + 蝴; also written 螞蚨.
     ca: ["libèl·lula", "liˈβɛllulə"],  // From New Latin libellula; regional names include espiadimonis 'demon-spy' and cavall de serp 'snake's horse'.
     mnp: ["刊魁", "kʰaŋ˧˧ kʰo˥˦"],  // The characters 刊 + 魁 only write the sound.
-    he: ["שפירית", "ʃapiʁit"],  // Coined by the zoologist Shimon Bodenheimer from שפיר 'fine, beautiful' + -it.
-    sq: ["pilivesë", "pilivesə"],  // From an expressive prefix pili- + ve 'egg'; figuratively a slender, lively girl.
+    he: ["שפירית", "ʃapiˈʁit"],  // Coined by the zoologist Shimon Bodenheimer from שפיר 'fine, beautiful' + -it.
+    sq: ["pilivesë", "piliˈvesə"],  // From an expressive prefix pili- + ve 'egg'; figuratively a slender, lively girl.
     bg: ["водно конче", "vɔdno kɔntʃɛ"],  // 'Water horsie': воден 'aquatic' + конче 'little horse'.
     da: ["guldsmed", "ˈɡulsmeð"],  // The same word as guldsmed 'goldsmith'.
     hy: ["ճպուռ", "tʃəˈpur"],  // From Old Armenian čpuṙn.
@@ -262,7 +262,7 @@ WORDS.dragonfly = {
     mk: ["вилино коњче", "vilinɔ kɔɲtʃɛ"],  // 'The fairy's little horse': вила 'fairy' + коњче 'little horse'.
     et: ["kiil", "kiːl"],  // From Proto-Finnic *kiili, an old Baltic loan related to Lithuanian gylỹs 'gadfly'.
     cy: ["gwas y neidr", "ɡwaːs ə neidr"],  // 'The snake's servant': gwas 'servant' + neidr 'snake'.
-    nn: ["augestikkar", "æʉɡəstikːar"],  // Auge 'eye' + stikkar 'stinger': the 'eye-stinger'.
+    nn: ["augestikkar", "ˈæʉɡəstikːar"],  // Auge 'eye' + stikkar 'stinger': the 'eye-stinger'.
     mt: ["mazzarell", "mattsaˈrɛll"],  // Probably related to Italian mazza 'club', after its body shape; ħelikopter is a synonym.
     is: ["drekafluga", "ˈtrɛːkaflʏːɣa"],  // Dreki 'dragon' + fluga 'fly', like English dragonfly.
     bdq: ["klo ʼba", "klɔː ɓaː"],  // Etymology not given by the source.

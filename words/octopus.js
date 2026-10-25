@@ -234,7 +234,7 @@ WORDS.octopus = {
     uk: ["восьминіг", "wɔsʲmeˈnʲiɦ"],  // Literally 'eight-legs': восьми- 'eight' + -ніг '-legged'.
     ml: ["നീരാളി", "n̪iːɾaːɭi"],  // A compound of നീർ 'water, juice' and ആളി, whose sense here is not explained.
     my: ["ဘဝဲ", "bəwɛ́"],  // The Burmese name; my.wikipedia titles its article ရေဘဝဲ, with ရေ 'water'.
-    ku: ["heştpê", "hɛʃtpeː"],  // Literally 'eight-foot': heşt 'eight' + pê 'foot'.
+    ku: ["heştpê", "hɛʃtˈpeː"],  // Literally 'eight-foot': heşt 'eight' + pê 'foot'.
     ceb: ["kugita", "kuˈɡita"],  // Inherited from Proto-Austronesian *guʀiCa 'octopus' (Blust & Trussel, ACD).
     ro: ["caracatiță", "karaˈkatitsə"],  // Of Slavic origin, built on a word for 'long-legged' (крак 'leg'), perhaps influenced by Turkish kara 'black'.
     nl: ["octopus", "ˈɔktoːpʏs"],  // From Greek oktṓpous 'eight-foot'; inktvis 'ink fish' covers squid too.

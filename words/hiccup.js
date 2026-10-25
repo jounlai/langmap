@@ -167,6 +167,21 @@ WORDS.hiccup = {
     ps: "unknown",
     mg: "unknown",
     km: "plain",
+    bg: "imitative",
+    hr: "unknown",
+    sk: "unknown",
+    qu: "unknown",
+    min: "unknown",
+    tg: "unknown",
+    ky: "unknown",
+    lo: "unknown",
+    nds: "other",
+    gn: "unknown",
+    ee: "unknown",
+    umb: "unknown",
+    lua: "unknown",
+    mn: "unknown",
+    af: "imitative",
   },
   routes: {
     imitative: {"color":"#ea580c","emoji":"🔊","en":"imitating the sound","ja":"音のまね","ko":"소리 흉내","zh":"模仿声音","yue":"模仿聲音","vi":"mô phỏng âm thanh","th":"เลียนเสียง","id":"tiruan bunyi","hi":"ध्वनि की नक़ल","de":"lautmalend","fr":"imitant le bruit","it":"onomatopeico","es":"imita el sonido","pt":"imita o som","ru":"звукоподражание","uk":"звуконаслідування","ar":"محاكاة الصوت","he":"חיקוי הקול","sw":"kuiga sauti"},
@@ -280,5 +295,20 @@ WORDS.hiccup = {
     ps: ["سلګۍ", "salɡəj"],  // The Pashto word; Raverty's dictionary also gives the metathesised variant sugalaʿī.
     mg: ["solavady", "sulaˈvadi"],  // The Malagasy word, which dictionaries gloss with French hoquet.
     km: ["ត្អើក", "tʔaək"],  // Inherited from Proto-Mon-Khmer *cʔə(ə)ʔ 'to hiccough, belch', cognate with Vietnamese nấc; it is the verb 'to hiccup'.
+    bg: ["хълцане", "ˈxɤltsɐnɛ"],  // The verbal noun of хълцам 'to hiccup', a verb of expressive origin from the sound хлъц 'hic'.
+    hr: ["štucavica", "ʃtûtsaʋitsa"],  // From štucati 'to hiccup'; Hrvatski jezični portal defines it as an attack of hiccupping, and štucanje is the verbal noun.
+    sk: ["štikútka", "ˈʃcikuːtka"],  // From štikútať 'to hiccup'; čkavka and čkanie are synonyms.
+    qu: ["hikʼi", "ˈhikʼi"],  // The root of the verb hik'iy 'to hiccup'; Quechua Wikipedia describes the sound as hik - hik - hik.
+    min: ["sadu-sadu", "sadu sadu"],  // A reduplicated word; compare Malay sedu.
+    tg: ["ҳиқақ", "hiˈqaq"],  // Also spelled ҳикак and ҳиққак.
+    ky: ["ыктытуу", "ɯqtɯˈtuː"],  // A verbal noun 'hiccupping', the title Kyrgyz Wikipedia gives the reflex; ык этүү is a synonym verb.
+    lo: ["ສະອຶກ", "sa˧˥ ʔɯk˧˥"],  // The same word as Thai สะอึก; Kerr also lists ສະເອິ for the noun.
+    nds: ["Sluckop", "ˈslʊkɔp"],  // Slucken 'swallow' + op 'up', the same image as German Schluckauf; Hickop is also heard.
+    gn: ["jojói", "dʒoˈdʒoi"],  // Jojói also serves as the verb 'to have the hiccups'.
+    ee: ["hedzehedze", "hedzehedze"],  // A reduplicated noun; Westermann also gives dzedze.
+    umb: ["okasukusuku", "okasukusuku"],  // A reduplicated noun with the diminutive prefix oka-; compare Luba-Kasai cinsukunsuku.
+    lua: ["cinsukunsuku", "tʃinsukunsuku"],  // A class-7 noun; compare Umbundu okasukusuku.
+    mn: ["зогьсох", "tsɔɡʲsɔx"],  // The verb 'to have hiccups', given in the -х form like this row's other verbs; зогьсолт is the noun.
+    af: ["hik", "hɪk"],  // Inherited from Dutch hik, an imitative word.
   },
 };

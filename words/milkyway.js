@@ -268,6 +268,23 @@ WORDS.milkyway = {
     ko_jeju: "river",
     ttq: "unknown",
     zh_jiao: "river",
+    pnb: "road",
+    bho: "river",
+    ps: "milk",
+    om: "milk",
+    si: "milk",
+    sn: "road",
+    mg: "other",
+    tn: "road",
+    ff: "other",
+    tk: "road",
+    anp: "river",
+    sat: "milk",
+    shi: "straw",
+    ks: "river",
+    scn: "road",
+    rif: "straw",
+    hil: "unknown",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -479,5 +496,22 @@ WORDS.milkyway = {
     ko_jeju: ["미리내", "miɾinɛ"],  // Likely 미르 'dragon' + 내 'stream': the 'dragon's stream'. The native word survives in Jeju; mainland Korean uses Sino-Korean 은하수.
     ttq: ["Madǝl", "madəl"],  // Ayr Tuareg calls it Malle; Prasse gives no literal meaning for either.
     zh_jiao: ["天河", "tʰiã˨˩˧ xuə˦˨"],  // Literally 'sky river'.
+    pnb: ["چٹا راہ", "tʃɪʈːaː ɾáː"],  // Literally 'the white road'; the Western Punjabi Wikipedia says it looks like a white-coloured road across the night sky.
+    bho: ["आकाशगंगा", "aːkaːʃɡəŋɡaː"],  // Literally 'the sky Ganges', from Sanskrit ākāśagaṅgā, as in Hindi; the Bhojpuri Wikipedia also gives मंदाकिनी.
+    ps: ["د شیدو لار", "də ʃiːdo lɑɾ"],  // Literally 'the road of milk', a calque of Latin via lactea that the Pashto Wikipedia uses as the name.
+    om: ["Xurree Aannannoo", "tʼurːeː aːnːanːoː"],  // Literally 'the milky track' (aannan 'milk'); the Oromo Wikipedia also gives Karaa Waraabessaa 'the hyena's road'.
+    si: ["ක්‍ෂීරපථය", "kʃiːrəpətʰəjə"],  // Literally 'the milk path' (Sanskrit kṣīra 'milk' + patha 'path'), a learned calque of via lactea.
+    sn: ["Gwara raKurumbi", "ɡwara rakurumbi"],  // Literally 'the path of Kurumbi', from the Karanga belief that Kurumbi, the first man, walked alone along this path in the sky.
+    mg: ["vahindanitra", "vahinˈdaniʈʂa"],  // Literally 'the vine of the sky' (vahy 'vine' + lanitra 'sky'); the calque Lalana Mandronono 'the milky road' is also used.
+    tn: ["Molagodimo", "molaχodimo"],  // Literally 'the path above' (mola 'path' + godimo 'above'); older lore also calls it Molalatladi 'where the lightning rests'.
+    ff: ["diidol", "diːdol"],  // The same word as 'line, drawing', recorded for Pular and Maasina Fulfulde.
+    tk: ["Akmaýanyň ýoly", "aːkmajaˈnɯŋ joːˈlɯ"],  // Literally 'the white she-camel's road'; the Turkmen embassy's account of camel lore says it was also called the white camel's milk.
+    anp: ["आकाशगंगा", "aːkaːʃɡəŋɡaː"],  // Literally 'the sky Ganges', from Sanskrit ākāśagaṅgā, as in Hindi; the Angika Wikipedia also gives क्षीरमार्ग 'milk road'.
+    sat: ["ᱛᱳᱣᱟ ᱰᱟᱦᱟᱨ", "towa ɖahar"],  // Literally 'the milk road' (ᱛᱳᱣᱟ 'milk' + ᱰᱟᱦᱟᱨ 'road').
+    shi: ["ⴰⵖⴰⵔⴰⵙ ⵏ ⵡⴰⵍⵉⵎ", "aɣaras n walim"],  // Literally 'the road of straw', a calque of Arabic darb at-tabbāna; asif n ignwan 'the river of the skies' is a synonym.
+    ks: ["آکاش گنٛگ", "aːkaːʃ ɡaŋɡ"],  // Literally 'the sky Ganges', like Sanskrit ākāśagaṅgā; Grierson's dictionary, cited by the Kashmiri Wikipedia, also gives tārak ār.
+    scn: ["Jolu di San Jàbbucu", "ˈjɔlu di san ˈjabbuku"],  // Literally 'Saint James's road': the Sicilian Wikipedia says pilgrims to Santiago de Compostela followed the band's direction; Via Làttea is also used.
+    rif: ["ⴰⴱⵔⵉⴷ ⵓⵔⵓⵎ", "abrið urum"],  // Literally 'the road of hay', like Arabic darb at-tabbāna; abrid n ixewwanen is a synonym.
+    hil: ["Balatas", "baˈlatas"],  // Wiktionary gives Balatas for the Milky Way; the Astronomers Without Borders account of Philippine sky lore records the same name among the Tagalogs.
   },
 };

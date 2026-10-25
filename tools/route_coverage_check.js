@@ -149,8 +149,19 @@ for (const id of routed) {
     if (!r) missing.push(code);
     else if (!keys.has(r)) unknown.push(`${code}=${r}`);
   }
+  // family2: a second everyday word from another route. The cell must read
+  // "A / B" in word and IPA so the map can paint each half (wordmap.html
+  // twoRouteHtml), and B's route must be declared and differ from A's.
+  for (const [code, r2] of Object.entries(w.family2 || {})) {
+    const cell = (w.data || {})[code];
+    const f = Array.isArray(cell) ? cell : [];
+    const bad = !keys.has(r2) ? `route '${r2}' not declared`
+      : r2 === w.family[code] ? 'same route as family'
+      : !(String(f[0]).includes(' / ') && String(f[1]).includes(' / ')) ? 'cell is not "A / B" in both word and IPA' : '';
+    if (bad) { violations++; notes.push(`✗ ${id}: family2 ${code} — ${bad}`); }
+  }
   // a route nobody uses is a dead legend entry or a typo in a key
-  const used = new Set(Object.values(w.family));
+  const used = new Set([...Object.values(w.family), ...Object.values(w.family2 || {})]);
   const unused = [...keys].filter((k) => !used.has(k));
   if (missing.length) {
     const allowed = DEBT[id] || 0;

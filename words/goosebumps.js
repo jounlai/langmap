@@ -178,6 +178,9 @@ WORDS.goosebumps = {
     nan_te: "bird",
     nan_hai: "bird",
   },
+  family2: {
+    ko: "bird",
+  },
   routes: {
     bird: {"color":"#ea580c","emoji":"🐔","en":"bird skin","ja":"鳥の肌","ko":"새의 살갗","zh":"禽鸟的皮","yue":"雀鳥嘅皮","vi":"da chim","th":"หนังนก","id":"kulit unggas","hi":"पक्षी की खाल","de":"Vogelhaut","fr":"peau d'oiseau","it":"pelle d'uccello","es":"piel de ave","pt":"pele de ave","ru":"птичья кожа","uk":"пташина шкіра","ar":"جلد الطير","he":"עור של עוף","sw":"ngozi ya ndege"},
     ant: {"color":"#7c3aed","emoji":"🐜","en":"little ants","ja":"小さなアリ","ko":"작은 개미","zh":"小蚂蚁","yue":"細螞蟻","vi":"kiến nhỏ","th":"มดตัวเล็ก","id":"semut kecil","hi":"छोटी चींटियाँ","de":"kleine Ameisen","fr":"petites fourmis","it":"formichine","es":"hormiguitas","pt":"formiguinhas","ru":"маленькие муравьи","uk":"маленькі мурахи","ar":"نمل صغير","he":"נמלים קטנות","sw":"siafu wadogo"},
@@ -200,7 +203,7 @@ WORDS.goosebumps = {
     vi: ["da gà", "zaː˧ ɣaː˨˩"],  // Literally "chicken skin"; one says nổi da gà "chicken skin rises".
     tr: ["tüyleri diken diken olmak", "tyjleɾi dicen dicen olmak"],  // Literally "one's hairs become bristling-erect"; Turkish says it as a phrase.
     tl: ["kilabot", "kiˈlabot"],  // A word of its own that also means "terror"; kinilabutan ako "I got goosebumps".
-    ko: ["소름", "soɾɯm"],  // A native word of its own, attested since 1447; 닭살 "chicken skin" is also heard.
+    ko: ["소름 / 닭살", "soɾɯm / tak̚s͈al"],  // Both are everyday words: 소름 is a native word of its own, attested since 1447; 닭살 is "chicken skin" (닭 chicken + 살 skin).
     it: ["pelle d'oca", "pɛlle dɔka"],  // Literally "goose skin".
     th: ["ขนลุก", "kʰon˩˩˦ luk˦˥"],  // Literally "body hair stands up".
     nan: ["雞母皮", "ke˦˦ bo˥˧ pʰue˨˦"],  // Literally "hen skin".

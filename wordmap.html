@@ -3842,7 +3842,7 @@
     </script>
     <script src="wordmap_data.js?v=356"></script>
     <script src="lang_attention.js?v=4"></script>
-    <script src="word_manifest.js?v=1108"></script>
+    <script src="word_manifest.js?v=1109"></script>
     <script src="word_labels.js?v=106"></script>
     <script>
         /* Cache-buster registry. It MUST be declared here, above the per-word
@@ -3871,8 +3871,8 @@
             meta:     437,
             trivia:   45,
             triviaI18n: 29,
-            words:      1108,
-            langWords:    818,
+            words:      1109,
+            langWords:    819,
             labels:      106,
             metaI18nCoverage: 14,
             metaI18nCoverage2: 4,
@@ -6342,6 +6342,7 @@
             // gets this — tea (cha/te) and orange (naranj/portakal/…) today.
             // A legend explains the colours.
             const routeColor = routeColorFor(code);
+            const routeColor2 = routeColor ? routeColor2For(code) : null;
             const _lg = rowLangAttr(code);
             // Mastered languages carry a word-sized gold medal just after the word
             // (owner 2026-10-22; under the name it hit the stacked label below,
@@ -6350,10 +6351,10 @@
             // placed, so the label box, its centring and the declutter estimate
             // stay exactly as they are.
             const medal = ((window.__lmMedals && window.__lmMedals.has(code)) || lmMastered().has(code)) ? LM_MAP_MEDAL : '';
-            if (showWord) html += `<div class="word${medal ? ' has-medal' : ''}" dir="auto"${_lg ? ` lang="${_lg}"` : ''} ${routeColor || c ? `style="color:${routeColor || c}"` : ''}>${w}${medal}</div>`;
+            if (showWord) html += `<div class="word${medal ? ' has-medal' : ''}" dir="auto"${_lg ? ` lang="${_lg}"` : ''} ${routeColor || c ? `style="color:${routeColor || c}"` : ''}>${twoRouteHtml(w, routeColor, routeColor2) || w}${medal}</div>`;
             // Typed-only forms (lol: wkwk, KTK …) carry an empty IPA: say so instead of printing "//".
             if (showIpa) html += i
-                ? `<div class="ipa" dir="ltr" ${routeColor || c ? `style="color:${routeColor || c}"` : ''}>${i}</div>`
+                ? `<div class="ipa" dir="ltr" ${routeColor || c ? `style="color:${routeColor || c}"` : ''}>${twoRouteHtml(i, routeColor, routeColor2) || i}</div>`
                 : `<div class="ipa ipa-unknown" dir="ltr" title="${escapeHtml(wt('ipaUnknown'))}">?</div>`;
             // "@" concept only: the literal meaning of this language's @ name.
             if (typeof currentWord !== 'undefined' && currentWord === 'atsign') {
@@ -6405,6 +6406,30 @@
             const fam = W.family[code];
             return (fam && W.routes[fam] && W.routes[fam].color) || null;
         }
+        // A language can use two everyday words from different routes (Korean
+        // 소름 and 닭살 for goosebumps). The cell then holds "A / B" in both word
+        // and IPA, `family` gives A's route and `family2` gives B's, and the
+        // label paints each half in its own colour (owner 2026-10-25).
+        function routeColor2For(code) {
+            if (typeof currentWord === 'undefined' || !window.WORDS) return null;
+            const W = WORDS[currentWord];
+            if (!W || !W.family2 || !W.routes) return null;
+            const fam = W.family2[code];
+            return (fam && W.routes[fam] && W.routes[fam].color) || null;
+        }
+        function routeFamiliesOf(W, code) {
+            const out = [];
+            if (W && W.family && W.family[code]) out.push(W.family[code]);
+            if (W && W.family2 && W.family2[code]) out.push(W.family2[code]);
+            return out;
+        }
+        // "A / B" with each half in its route colour; anything else in one colour.
+        function twoRouteHtml(escaped, c1, c2) {
+            const k = escaped.indexOf(' / ');
+            if (!c2 || k < 0) return null;
+            return `<span style="color:${c1}">${escaped.slice(0, k)}</span>`
+                 + ` / <span style="color:${c2}">${escaped.slice(k + 3)}</span>`;
+        }
 
         // Build + show the localized colour legend for a route-coloured word.
         // Rows come from the word's own `routes` object, so adding a route word
@@ -6429,7 +6454,7 @@
             const active = (window.__langmap && window.__langmap.getActiveCodes)
                 ? window.__langmap.getActiveCodes() : null;
             const present = new Set();
-            if (active) { for (const c in W.family) if (active.has(c)) present.add(W.family[c]); }
+            if (active) { for (const c in W.family) if (active.has(c)) routeFamiliesOf(W, c).forEach(f => present.add(f)); }
             const rows = Object.keys(W.routes).filter(fam => !active || present.has(fam)).map(fam => {
                 const r = W.routes[fam] || {};
                 const text = r[uiLang] || r[base] || r.en || fam;
@@ -6488,7 +6513,6 @@
 
         function blinkRoute(fam) {
             const W = (typeof currentWord !== 'undefined' && window.WORDS) ? WORDS[currentWord] : null;
-            const family = (W && W.family) || {};
             // Restart cleanly if a previous blink is still running: removing the
             // class and forcing a reflow before re-adding it makes the animation
             // play again from zero, which a second click otherwise would not do.
@@ -6497,7 +6521,7 @@
             const hits = [];
             document.querySelectorAll(sel).forEach(n => {
                 const code = n.dataset && n.dataset.code;
-                if (code && family[code] === fam) hits.push(n);
+                if (code && routeFamiliesOf(W, code).includes(fam)) hits.push(n);
             });
             if (!hits.length) return;
             void hits[0].offsetWidth;

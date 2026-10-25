@@ -123,7 +123,7 @@ WORDS.india = {
     sd: "bharat",
     ne: "bharat",
     ku: "unknown",
-    zu: "unknown",
+    zu: "greek",
     ro: "greek",
     skr: "bharat",
     nl: "greek",
@@ -433,7 +433,7 @@ WORDS.india = {
     sd: ["ڀارت", "bʱaːrətʊ"],  // Borrowed from Sanskrit Bhārata; ھندستان Hindustānu is a synonym (Wiktionary).
     ne: ["भारत", "bʱaːɾʌt"],  // Learned borrowing from Sanskrit Bhārata (Wiktionary).
     ku: ["Hindistan", "hɪndɪsˈtɑːn"],  // The Kurmanji name, Hind plus -istan 'land'.
-    zu: ["iNdiya", "iˈndija"],  // The Zulu Wikipedia name, with the noun prefix i-.
+    zu: ["iNdiya", "iˈndija"],  // Borrowed from English India (Wiktionary), with the noun prefix i-.
     ro: ["India", "ˈindia"],  // From Latin India, from Greek Ἰνδία (Romanian Wiktionary).
     skr: ["بھارت", "bʱaːɾət"],  // The Saraiki Wikipedia name, the same Bhārat as Urdu.
     nl: ["India", "ˈɪndiaː"],  // From Latin India (Wiktionary).

@@ -424,6 +424,24 @@ WORDS.potato = {
     nag: "other",
     kbp: "unknown",
     zh_jiao: "earth",
+    nds: "truffle",
+    rw: "unknown",
+    nso: "earth",
+    ln: "other",
+    kg: "other",
+    ee: "other",
+    yo: "other",
+    ks: "other",
+    bo: "unknown",
+    ig: "unknown",
+    st: "unknown",
+    ny: "papa",
+    lg: "other",
+    ff: "earth",
+    hak_cn: "other",
+    cnp: "other",
+    shi: "papa",
+    arq: "papa",
   },
   routes: {
     papa: {"color":"#ca8a04","emoji":"🏔️","en":"Quechua papa · Taíno batata","ja":"ケチュア語 papa・タイノ語 batata","ko":"케추아어 papa · 타이노어 batata","zh":"克丘亚语 papa・泰诺语 batata","yue":"克丘亞語 papa · 泰諾語 batata","vi":"Quechua papa · Taíno batata","th":"เกชัว papa · ไตโน batata","id":"Quechua papa · Taíno batata","hi":"क्वेचुआ papa · ताइनो batata","de":"Quechua papa · Taíno batata","fr":"quechua papa · taïno batata","it":"quechua papa · taíno batata","es":"quechua papa · taíno batata","pt":"quíchua papa · taíno batata","ru":"кечуа papa · таино batata","uk":"кечуа papa · таїно batata","ar":"كيتشوا papa · تاينو batata","he":"קצ'ואה papa · טאינו batata","sw":"Kiquechua papa · Kitaino batata"},
@@ -789,5 +807,23 @@ WORDS.potato = {
     nag: ["alu", "alu"],  // The same word as Assamese alu, the language Nagamese is built on. Route by resemblance to the neighbouring forms (hi(आलू) bn(আলু)); no etymology of its own.
     kbp: ["tɛtɛɛ pɔm", "tɛtɛː pɔm"],  // The Kabiye Wikipedia name for the potato; it also gives Pɔmdɩtɛɛrɩ, from French pomme de terre.
     zh_jiao: ["土豆", "tʰu˥˥ tou˦˨"],  // Literally 'earth bean'; Qingdao also says 土豆儿 and 地蛋儿 'ground egg'.
+    nds: ["Kantüffel", "kanˈtʏfəl"],  // The Low German form of Kartoffel, from Italian tartufolo "little truffle"; Kartuffel, Tüffel and Eerdappel "earth apple" are also used.
+    rw: ["ikirayi", "ikiɾaːji"],  // The plural ibirayi is the usual word for potatoes; trade sources link it to Uburayi "Europe", but no dictionary etymology was found.
+    nso: ["tapola", "tapola"],  // Plural ditapola. Route by resemblance to the neighbouring forms (Tsonga tapula); no etymology of its own.
+    ln: ["mbálá", "mbálá"],  // The same word also means yam; borrowed from Kikongo mbala, and distinct from low-toned mbala "time".
+    kg: ["mbala", "mbala"],  // Mbala is also the general word for an edible tuber; kikwa is a synonym.
+    ee: ["yevúte", "jevúte"],  // Literally "European yam" (yevú "European" + te "yam").
+    yo: ["ọ̀dùnkún", "ɔ̀dũ̀kṹ"],  // Borrowed from Hausa kūdaku "sweet potato"; the same word covers the sweet potato, and ànàmọ́ is a synonym.
+    ks: ["اولُو", "oːluv"],  // From Sanskrit ālu, an edible root (CDIAL 1388); the plural olav gives the dish dum olav.
+    bo: ["ཞོ་ཁོག", "ɕo˩˧ kʰoʔ˥˧"],  // Also spelt ཞོག་ཁོག / ཞོག་གོག.
+    ig: ["nduku", "nduku"],  // The sweet potato is a different word, èkòmékò.
+    st: ["tapole", "tapole"],  // Plural litapole.
+    ny: ["mbatatesi", "mbatatesi"],  // The sweet potato is mbatata; kachere is another name for the potato. Route by resemblance to the neighbouring forms (Shona mbatatisi, Egyptian Arabic بطاطس); no etymology of its own.
+    lg: ["akammonde", "akamːoːnde"],  // Built on the stem of lumonde "sweet potato" with the ka- prefix of small things; usually heard in the plural obummonde.
+    ff: ["pompeteere", "pompeteːre"],  // Borrowed from French pomme de terre, "apple of the earth", as recorded for Niger Fulfulde; kudaku is the sweet potato.
+    hak_cn: ["马铃薯", "ma˦ laŋ˩˩ su˩˩"],  // Literally "horse-bell tuber", a name first given to the air potato; Meixian also says 荷兰薯 "Dutch tuber".
+    cnp: ["马铃薯", "ma˨˦ leŋ˨˩ ʃy˨˩"],  // Literally "horse-bell tuber", the standard Chinese word, which Nanning Pinghua shares.
+    shi: ["ⴱⴰⵟⴰⵟⴰ", "batˤatˤa"],  // From the batata word for the potato, shared with Moroccan Arabic بطاطا; a single potato is tabaṭaṭt.
+    arq: ["بطاطا", "batˤaːtˤa"],  // From the batata word for the potato, as in Moroccan Arabic.
   },
 };

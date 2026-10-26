@@ -361,6 +361,25 @@ WORDS.tomato = {
     nan_zz: "other",
     nan_hai: "other",
     zh_jiao: "foreign",
+    ha: "nahuatl",
+    kab: "nahuatl",
+    lo: "unknown",
+    kri: "nahuatl",
+    bm: "nahuatl",
+    dyu: "nahuatl",
+    ff: "nahuatl",
+    ee: "nahuatl",
+    kr: "unknown",
+    sat: "unknown",
+    rif: "nahuatl",
+    tzm: "nahuatl",
+    sg: "nahuatl",
+    lg: "unknown",
+    suk: "unknown",
+    luy: "unknown",
+    awa: "nahuatl",
+    mag: "nahuatl",
+    mos: "nahuatl",
   },
   routes: {
     nahuatl: {"color":"#dc2626","emoji":"🌽","en":"from Nahuatl tomatl","ja":"ナワトル語 tomatl から","ko":"나우아틀어 tomatl에서","zh":"源自纳瓦特尔语 tomatl","yue":"源自納瓦特爾語 tomatl","vi":"từ tiếng Nahuatl tomatl","th":"จากภาษานาวัตล์ tomatl","id":"dari bahasa Nahuatl tomatl","hi":"नाहुआत्ल tomatl से","de":"aus Nahuatl tomatl","fr":"du nahuatl tomatl","it":"dal nahuatl tomatl","es":"del náhuatl tomatl","pt":"do náuatle tomatl","ru":"из науатль tomatl","uk":"з науатль tomatl","ar":"من الناواتلية tomatl","he":"מנאוואטל tomatl","sw":"kutoka Kinahuatl tomatl"},
@@ -666,5 +685,24 @@ WORDS.tomato = {
     nan_zz: ["臭柿仔", "tsʰau˨˩ kʰi˨˨ a˥˧"],  // Literally 'stinky little persimmon'.
     nan_hai: ["红茄", "aŋ˧˩ kio˧˩"],  // Literally 'red eggplant', the Haikou word; Wenchang says 番茄.
     zh_jiao: ["西红柿", "si˨˩˧ xəŋ˦˨ ʂʅ˦˨"],  // 西 'west' + 红 'red' + 柿 'persimmon'; Qingdao also says 洋柿子 'foreign persimmon'.
+    ha: ["tumatir", "tumaːtir"],  // Borrowed from English tomato; tumatur and tumaturi are also written.
+    kab: ["ṭumaṭic", "tˤumatˤiʃ"],  // A collective noun; one tomato is taṭumaṭict. Etymology not given by the sources. Route by resemblance to the neighbouring forms (Algerian Arabic طوماطيش, Tarifit ⵟⵓⵎⴰⵟⵉⵛ); no etymology of its own.
+    lo: ["ໝາກເລັ່ນ", "maːk˧˩ len˧"],  // ໝາກ is the Lao fruit prefix; ໝາກເດັ່ນ and ເຂືອສົ້ມ 'sour eggplant' are also listed. Etymology of ເລັ່ນ not given by the source.
+    kri: ["tamatis", "taˈmatis"],  // From the English plural tomatoes, which Krio uses for one tomato.
+    bm: ["tamati", "tàmati"],  // Also tòmati; etymology not given by the sources. Route by resemblance to the neighbouring forms (Afrikaans tamatie, Tswana tamati); no etymology of its own.
+    dyu: ["tamati", "tamati"],  // The same word as Bambara tàmati; etymology not given by the source. Route by resemblance to the neighbouring forms (Afrikaans tamatie, Tswana tamati); no etymology of its own.
+    ff: ["tomati", "tomati"],  // Niger Fulfulde; etymology not given by the sources. Route by resemblance to the neighbouring forms (Finnish tomaatti, Extremaduran tomati); no etymology of its own.
+    ee: ["timati", "timati"],  // Older dictionaries give agbitsa, which also names the eggplant; etymology of timati not given by the source. Route by resemblance to the neighbouring forms (Fon timati, Kabiye tɩmaatɩ); no etymology of its own.
+    kr: ["tumatun", "tumatun"],  // Etymology not given by the source; the same manual lists yalo for the bitter tomato.
+    sat: ["ᱵᱤᱞᱟᱹᱛᱤ", "biləti"],  // Etymology not given by the sources; Hindi likewise uses विलायती 'foreign' as a name for the tomato.
+    rif: ["ⵟⵓⵎⴰⵟⵉⵛ", "tˤumatˤiʃ"],  // A collective noun borrowed from Moroccan Arabic, from Spanish tomates; one tomato is tṭumaṭict.
+    tzm: ["ⵎⴰⵜⵉⵛⴰ", "matiʃa"],  // Etymology not given by the source; compare Moroccan Arabic ماطيشة. Route by resemblance to the neighbouring forms (Moroccan Arabic ماطيشة); no etymology of its own.
+    sg: ["tomate", "tomate"],  // From French tomate, ultimately from Nahuatl tomatl.
+    lg: ["ennyaanya", "eɲːaːɲa"],  // Snoxall compares Swahili nyanya; etymology not established by the sources.
+    suk: ["iyanya", "ijaɲa"],  // Compare Swahili nyanya; etymology not given by the source.
+    luy: ["inyanya", "iɲaɲa"],  // Compare Swahili nyanya; etymology not given by the source.
+    awa: ["टमाटर", "ʈəmaːʈər"],  // The same word as Hindi टमाटर. Route by resemblance to the neighbouring forms (Hindi टमाटर, Urdu ٹماٹر); no etymology of its own.
+    mag: ["टमाटर", "ʈəmaːʈər"],  // The same word as Hindi टमाटर. Route by resemblance to the neighbouring forms (Hindi टमाटर, Urdu ٹماٹر); no etymology of its own.
+    mos: ["tomate", "tomate"],  // Etymology not given by the source. Route by resemblance to the neighbouring forms (German Tomate, Galician tomate); no etymology of its own.
   },
 };

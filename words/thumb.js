@@ -399,6 +399,41 @@ WORDS.thumb = {
     gha: "unknown",
     siz: "big",
     zh_jiao: "big",
+    ha: "big",
+    pcm: "big",
+    ig: "other",
+    ln: "big",
+    awa: "plain",
+    ku: "big",
+    xh: "plain",
+    si: "big",
+    za: "mother",
+    hne: "plain",
+    tn: "big",
+    st: "big",
+    bm: "big",
+    bgc: "plain",
+    syl: "other",
+    wo: "unknown",
+    rn: "plain",
+    ts: "plain",
+    mnp: "unknown",
+    dyu: "big",
+    ti: "big",
+    hil: "unknown",
+    ak: "unknown",
+    qu: "mother",
+    shi: "other",
+    ks: "plain",
+    ee: "unknown",
+    mos: "unknown",
+    kri: "big",
+    kab: "unknown",
+    lg: "other",
+    min: "unknown",
+    suk: "unknown",
+    nso: "big",
+    sg: "big",
   },
   routes: {
     mother: {"color":"#db2777","emoji":"👪","en":"mother · parent · elder kin","ja":"母・親・年長の身内","ko":"어머니 · 어버이 · 웃어른","zh":"母亲・父母・长辈","yue":"阿媽 · 父母 · 長輩","vi":"mẹ · cha mẹ · bậc trên","th":"แม่ · พ่อแม่ · ญาติผู้ใหญ่","id":"ibu · orang tua · kerabat tua","hi":"माँ · माता-पिता · बड़े","de":"Mutter · Eltern · ältere Verwandte","fr":"mère · parent · aîné","it":"madre · genitore · parente anziano","es":"madre · padre · pariente mayor","pt":"mãe · pai · parente mais velho","ru":"мать · родитель · старший родич","uk":"мати · батько · старший родич","ar":"أم · والد · قريب أكبر","he":"אם · הורה · קרוב מבוגר","sw":"mama · mzazi · ndugu mkubwa"},
@@ -742,5 +777,40 @@ WORDS.thumb = {
     gha: ["ag̣əmmịz", "aɟəmːez"],
     siz: ["ṭaḍ azwar", "tˤadˤ azwar"],  // Literally 'big finger' (Laoust); Nafusi says the same.
     zh_jiao: ["大拇指头", "tɛ˦˨ mu˥˥ tʂʅ˥˥ tʰou˦˨"],  // Literally 'big thumb-finger-head', the partner of 小拇指头, the little finger.
+    ha: ["babban ɗan yatsa", "babːan ɗan jaːtsaː"],  // Literally 'the big finger' (babba 'big' + ɗan yatsa 'finger'); the Hausa Bible shortens it to babban yatsa.
+    pcm: ["big finger", "biɡ fiŋɡa"],  // Literally 'big finger'; the Naija Bible calls the big toe 'big toe' and the thumb 'big finger for en rite hand'.
+    ig: ["isi mkpụrụ aka", "isi mkpʊɾʊ aka"],  // Literally 'head of the finger' (isi 'head' + mkpụrụ aka 'finger'); the big toe is likewise isi mkpụrụ ụkwụ.
+    ln: ["mosapi ya monɛ́nɛ", "mosapi ja monɛ́nɛ"],  // Literally 'the big finger' (mosapi 'finger' + monɛ́nɛ 'big'); the big toe is mosapi ya monɛ́nɛ ya lokolo.
+    awa: ["अंगूठा", "əŋɡuːʈʰaː"],  // Inherited from Sanskrit aṅguṣṭha 'thumb'; with गोड़ 'foot' the same word names the big toe.
+    ku: ["tiliya mezin", "tɪlijɑː mɛˈzɪn"],  // Literally 'the big finger' (tilî 'finger' + mezin 'big'); beranek and tiliya beranê 'ram finger' are also used.
+    xh: ["isithupha", "isitʰuːpʰa"],  // A word of its own for the thumb, shared with Zulu; the big toe is ubhontsi.
+    si: ["මාපටැඟිල්ල", "maːpəʈæŋɡilːə"],  // Carter's dictionary also lists the full form mahapaṭa-æṅgilla with maha 'big, great'; the same word names the big toe.
+    za: ["mehfwngz", "me˧ fɯŋ˧˩"],  // Literally 'mother of the hand' (meh 'mother' + fwngz 'hand'), like Khmer មេដៃ; no Sawndip spelling is recorded.
+    hne: ["अंगठा", "əŋɡʈʰaː"],  // From Sanskrit aṅguṣṭha 'thumb', like Marathi अंगठा; with गोड़ 'foot' the same word names the big toe.
+    tn: ["monwana wa kgonotswe", "monwana wa kχonotswe"],  // Kgonotswe alone also means the thumb or big toe; Matumo links it to kgwenetshwe 'short, thickset'.
+    st: ["monwana o motona", "monwana o motona"],  // Monwana is 'finger'; the same dictionary glosses -tona as 'male' and calls the big toe monwana wa leoto o moholo. Route by resemblance to the neighbouring forms (Lozi munwana o mutuna, Northern Sotho monwana o mogolo); no etymology of its own.
+    bm: ["bolokɔnikunba", "bolokɔnikunba"],  // Literally 'big finger' (bolokɔni 'finger' + kunba 'big, thick'); bolokɔnidenkunba is a variant.
+    bgc: ["अँगूठा", "əŋɡuːʈʰaː"],  // From Sanskrit aṅguṣṭha 'thumb'; with पैर 'foot' the same word names the big toe.
+    syl: ["বুড়ি আংগুল", "buɽi aŋɡul"],  // Literally 'old-woman finger', like Bengali বুড়ো আঙ্গুল and Nepali बूढी औंला; with পাও 'foot' it names the big toe.
+    wo: ["baaraamu déy", "baːraːmu dej"],  // Built on baaraam 'finger', like baaraamu sanqleeñ for the little finger; the meaning of déy is not given in the sources.
+    rn: ["urukumu", "uɾukumu"],  // A word of its own, the Kirundi counterpart of Kinyarwanda igikumwe; the big toe is ino rinini 'big toe'.
+    ts: ["rikhudzu", "rikʰudzu"],  // A word of its own for the thumb; ts.wikipedia lists it among the five fingers.
+    mnp: ["手嫲头", "siu˨˩ ma˨˩ tʰe˧˧"],  // Built on 手 'hand' and 头 'head'; in Northern Min 嫲 is a suffix marking female.
+    dyu: ["bolokunnadenba", "bolokunnadenba"],  // Built on bolokunnaden 'finger' + -ba 'big'; the big toe is senkunnadenba.
+    ti: ["ዓባይቶ", "ʕabajto"],  // Built on ዓባይ, a form of ዓቢ 'big', with the -ቶ ending of the other finger names; Tigrinya Wikipedia writes ዓባይ ዓባይቶ.
+    hil: ["kumalagko", "kumalaɡˈkoʔ"],  // The same word also serves for the big toe ('kumalagko sang tiil'); Kaufmann's 1934 dictionary also lists kamomóo.
+    ak: ["kokurobetie", "kokurobetie"],  // Akuapem Bibles spell it kokurobeti; LearnAkan's dictionary gives kokuromotie.
+    qu: ["mama rukʼana", "ˈmama ɾuˈkʼana"],  // Literally 'mother finger', mama 'mother' + ruk'ana 'finger'; kuraq ruk'ana 'eldest finger' is also listed, and Quechua Bibles say mama dedo with the Spanish loan.
+    shi: ["ⵉⴽⵎⵣ", "ikmz"],  // Inherited from Proto-Berber; Wiktionary links it synchronically to the verb kmz 'to scratch'.
+    ks: ["نۄٹھ", "noʈʰ"],  // From Sanskrit aṅguṣṭha 'thumb', the source of Hindi aṅgūṭhā; khōra-nyŏṭh 'foot-thumb' is the big toe.
+    ee: ["adegblefetsu", "adeɡblefetsu"],  // Modern Bibles also write it without the a-, degblefetsu, for both the thumb and the big toe.
+    mos: ["nug-raoogo", "nuɡraoːɡo"],  // nug- 'hand' + raoogo; the big toe is likewise nao-raoogo.
+    kri: ["big fiŋa", "biɡ ˈfiŋa"],  // Literally 'big finger', from English; the big toe is big to.
+    kab: ["adebbuz", "adəbːuz"],  // The Kabyle Wikipedia's list of the five fingers starts with adebbuz; the big toe is tafdent tameqqrant 'the big toe'.
+    lg: ["engalo ensajja", "eŋɡalo ensaɟːa"],  // Literally 'the male finger' (ensajja 'male'); the big toe is ekigere ekisajja, and some Bibles use kinkumu.
+    min: ["ampu", "ampu"],  // Glossed 'ibu jari'; ameh sagang ampu means 'gold the size of a thumb'.
+    suk: ["ikuulume", "ikuːlume"],  // The same word, with the prefix li-, also names the big toe in the Sukuma Bible.
+    nso: ["monwana o mogolo", "monwana o moxolo"],  // Literally 'the big finger', monwana 'finger' + mogolo 'big'; the big toe is monwana o mogolo wa leoto.
+    sg: ["kötä mabôko", "kota mabɔkɔ"],  // Literally 'big hand' (kötä 'big'); the Sango Bible says kötä li tî mabôko 'big tip of the hand'.
   },
 };

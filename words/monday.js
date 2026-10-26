@@ -494,6 +494,28 @@ WORDS.monday = {
     ttq: "count",
     gha: "count",
     siz: "count",
+    pnb: "other",
+    skr: "moon",
+    za: "count",
+    nds: "moon",
+    nap: "moon",
+    min: "count",
+    gn: "count",
+    ff: "unknown",
+    bm: "count",
+    kab: "count",
+    ln: "count",
+    pcm: "moon",
+    ig: "moon",
+    ps: "count",
+    bal: "count",
+    kln: "unknown",
+    gan: "count",
+    hak_cn: "count",
+    bho: "moon",
+    awa: "moon",
+    anp: "moon",
+    hak_tw: "count",
   },
   routes: {
     moon: {"color":"#7c3aed","emoji":"🌙","en":"the moon's day","ja":"月の日","ko":"달의 날","zh":"月亮之日","yue":"月亮嘅日","vi":"ngày mặt trăng","th":"วันของดวงจันทร์","id":"hari bulan","hi":"चंद्रमा का दिन","de":"Tag des Mondes","fr":"jour de la lune","it":"giorno della luna","es":"día de la luna","pt":"dia da lua","ru":"день луны","uk":"день місяця","ar":"يوم القمر","he":"יום הירח","sw":"siku ya mwezi"},
@@ -930,5 +952,27 @@ WORDS.monday = {
     ttq: ["ălitnin", "ælitnin"],  // From Arabic al-iṯnayn, 'the second (day)'; Prasse adds it is a good day to start a risky journey.
     gha: ["asəf n-lətnīn", "asəf nlətˈnin"],  // "Day of the second": Lanfry says the weekday names come from Arabic, where al-ithnayn is "the second (day)".
     siz: ["lətnin", "lətnin"],  // From Arabic al-ithnayn, 'the second (day)'.
+    pnb: ["پیر", "piːɾ"],  // The same word as pīr 'saint; old man', from Persian via Urdu; Sanskrit-derived سوموار somvār 'moon day' is also used.
+    skr: ["سوموار", "soːmʋaːɾ"],  // From Sanskrit somavāra, soma 'moon' + vāra 'day' (Turner, CDIAL 13610).
+    za: ["singhgizit", "θiŋ˧ ki˧˩ ʔit̚˥"],  // A calque of Chinese 星期一: singhgiz 'week' + it 'one'.
+    nds: ["Maandag", "ˈmaːndax"],  // From Middle Low German mânendach, 'day of the moon', a calque of Latin diēs Lūnae.
+    nap: ["lunnerì", "lunnəˈri"],  // From Latin lunae dies, 'day of the Moon' (Neapolitan Wikipedia); lunnedì is also written.
+    min: ["Sinayan", "sinajan"],  // Also written senayan; the source gives no etymology, though it resembles Indonesian Senin and Malay Isnin, from Arabic al-ithnayn 'the two'. Route by resemblance to the neighbouring forms (Banjar Sanayan); no etymology of its own.
+    gn: ["arakõi", "arakõĩ"],  // ára 'day' + mokõi 'two': the second day; Wiktionary labels it a neologism of the standardised language.
+    ff: ["aaɓnde", "aːɓnde"],  // The Pular name of Monday, also aaɓunde; tenen, from Arabic al-ithnayn, is a synonym.
+    bm: ["ntɛnɛn", "ntɛ̀nɛn"],  // From Arabic al-ithnayn 'the two', the second day counting from Sunday; ntɛnɛ is a variant.
+    kab: ["letnayen", "lətnajən"],  // The everyday name; the newer Berber coinage Arim is used in writing and in CLDR, and the source gives no etymology for letnayen. Route by resemblance to the neighbouring forms (Egyptian Arabic الاتنين, Tarifit ⵔⴻⵜⵏⴰⵢⴻⵏ); no etymology of its own.
+    ln: ["mokɔlɔ mwa mosálá mɔ̌kɔ́", "mokɔlɔ mwa mosálá mɔ̌kɔ́"],  // Literally 'day of work one', the first working day; CLDR gives mokɔlɔ mwa yambo, 'the first day'.
+    pcm: ["Mọ́ndè", "mɔ́ndè"],  // The Naijá name of Monday in the Unicode locale data; no source here states its origin, though it matches English Monday. Route by resemblance to the neighbouring forms (English Monday, Jamaican Patois Monde); no etymology of its own.
+    ig: ["Mọnde", "mɔnde"],  // An adaptation of English Monday, 'day of the Moon'; the native phrase is ụbọchị mbụ na izuụka, 'first day of the week'.
+    ps: ["دوشنبه", "doʃanbe"],  // The Persian name, du 'two' + shanbe 'Sabbath': the second day after Saturday.
+    bal: ["دوشمبه", "doʃambe"],  // Like Persian doshanbe: do 'two' + shambe 'Saturday', the second day counted from Saturday.
+    kln: ["Kotaai", "kotaːi"],  // The Kalenjin name of Monday in the Unicode locale data; its make-up is not given there.
+    gan: ["礼拜一", "li˨˩˧ pai˧˥ it˥"],  // 礼拜 'worship, week' + 一 'one': week-day one; 星期一 is also used (Gan Wikipedia).
+    hak_cn: ["礼拜一", "li˦ pai˥˧ it˩"],  // 礼拜 'worship, week' + 一 'one'; 拜一 and 星期一 are also used (Hakka Wikipedia).
+    bho: ["सोमार", "soːmaːɾ"],  // The everyday Bhojpuri form of Sanskrit somavāra, soma 'moon' + vāra 'day'; CLDR writes सोमबार.
+    awa: ["सोमवार", "soːmʋaːr"],  // From Sanskrit somavāra, soma 'moon' + vāra 'day'; Awadhi Wikipedia also gives the colloquial सुम्मार and short सोम.
+    anp: ["सोमार", "soːmaːr"],  // The Angika name of Monday; the source gives no etymology, though it matches Bhojpuri सोमार and Hindi सोमवार 'moon day'. Route by resemblance to the neighbouring forms (Konkani सोमार, Bhojpuri सोमार); no etymology of its own.
+    hak_tw: ["拜一", "pai˥˥ it˨"],  // Short for 禮拜一, 'week-day one', as Miaoli Hakka says it.
   },
 };

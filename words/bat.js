@@ -255,7 +255,7 @@ WORDS.bat = {
     yue_nn: "mouse",
     yue_zs: "mouse",
     hak_tw: "unknown",
-    hak_hl: "unknown",
+    hak_hl: "plain",
     zh_hf: "plain",
     zh_wh: "mouse",
     zh_cd: "mouse",
@@ -379,7 +379,7 @@ WORDS.bat = {
     ssw: "unknown",
     nd: "unknown",
     li: "mouse",
-    sco: "unknown",
+    sco: "plain",
     srn: "unknown",
     mer: "unknown",
     teo: "unknown",
@@ -494,6 +494,28 @@ WORDS.bat = {
     ttq: "unknown",
     gha: "unknown",
     siz: "unknown",
+    cdo: "unknown",
+    ceb: "unknown",
+    hil: "plain",
+    bm: "unknown",
+    mos: "unknown",
+    azb: "plain",
+    st: "unknown",
+    nso: "unknown",
+    ki: "unknown",
+    sn: "unknown",
+    ku: "unknown",
+    ht: "mouse",
+    om: "bird",
+    bo: "unknown",
+    dyu: "unknown",
+    suk: "unknown",
+    mai: "plain",
+    ks: "unknown",
+    pnb: "other",
+    bar: "mouse",
+    tiv: "unknown",
+    ff: "unknown",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -694,7 +716,7 @@ WORDS.bat = {
     yue_nn: ["飞鼠", "fi˥˥ ʃy˧˥"],  // Literally 'flying rat': 飞 'fly' plus 鼠 'rat, mouse'.
     yue_zs: ["飛鼠", "fi˥˥ sy˨˩˧"],  // Literally 'flying rat': 飛 'fly' plus 鼠 'rat, mouse'.
     hak_tw: ["蝠婆仔", "pʰit˥ pʰo˩˩ e˧˩"],  // Built on 蝠 'bat' with 婆 'old woman' and the diminutive 仔; the same word appears in the Taiwan Hakka Bible.
-    hak_hl: ["蝠婆", "pʰit˨ pʰo˥˥"],  // Built on 蝠 'bat' with 婆 'old woman'; Hailu speakers also say 蝙蝠.
+    hak_hl: ["蝠婆", "pʰit˨ pʰo˥˥"],  // Built on 蝠 'bat' with 婆 'old woman'; Hailu speakers also say 蝙蝠. Route by resemblance to the neighbouring forms (Northern Min 比婆); no etymology of its own.
     zh_hf: ["蝙蝠", "pĩ˨˩˨ fəʔ˦"],  // An expanded form of Old Chinese 蝠 'bat'; Hefei also says 壁蝠 and 檐老鼠 'eaves mouse'.
     zh_wh: ["檐老鼠", "iɛn˨˩˧ nau˦˨ ɕy˦˨"],  // Literally 'eaves mouse': 檐 'eaves' plus 老鼠 'mouse'; Wuhan also uses standard 蝙蝠.
     zh_cd: ["檐老鼠儿", "iɛn˨˩ nau˥˧ suɚ˥˧"],  // Literally 'eaves mouse': 檐 'eaves' plus 老鼠 'mouse' with the diminutive 儿.
@@ -818,7 +840,7 @@ WORDS.bat = {
     ssw: ["lilulwane", "lilulwane"],  // The same word as Zulu and Xhosa ilulwane.
     nd: ["ululwane", "ululwane"],  // The same word as Zulu ilulwane.
     li: ["flaermoes", "ˈflɛːrmuːs"],  // A 'flutter-mouse': the second element is moes 'mouse', as in Dutch vleermuis.
-    sco: ["baukie", "ˈbɑːki"],  // The general Scots name for the bat, also heard as bawkie-bird (Scottish National Dictionary).
+    sco: ["baukie", "ˈbɑːki"],  // The general Scots name for the bat, also heard as bawkie-bird (Scottish National Dictionary). Route by resemblance to the neighbouring forms (Middle English bakke); no etymology of its own.
     srn: ["fremusu", "fremusu"],  // The Sranan Tongo word for the bat.
     mer: ["kĩreere", "keɾeːɾe"],  // The Meru word for the bat; the plural is ireere.
     teo: ["emenia", "emenia"],  // The Ateso word for the bat; the plural is imeniai.
@@ -933,5 +955,27 @@ WORDS.bat = {
     ttq: ["afărtătta", "afærtætːa"],  // Also called ăḍaggal ən-təfuk, 'in-law of the sun' (Prasse: ăḍaggal 'father-in-law, son-in-law').
     gha: ["abeddedar", "abɐdːɐdar"],  // Lanfry gives no make-up.
     siz: ["əlwaṭwaṭ", "əlwatˤwatˤ"],  // Laoust also records ašəṭṭiṭ n irəlil, built on ašəṭṭiṭ 'little bird'.
+    cdo: ["琵琶兜壁", "pi˥˧ pa˥˧ tau˥˥ pieʔ˨˦"],  // The Fuzhou everyday word, Bàng-uâ-cê bì-bà-dău-biék; the formal 蝙蝠 is also used.
+    ceb: ["kwaknit", "ˈkwaknit"],  // The general Cebuano word for a bat; kabog is the large fruit bat (flying fox).
+    hil: ["kabog", "kaˈboɡ"],  // The Hiligaynon word for the bat. Route by resemblance to the neighbouring forms (Maranao kabeg); no etymology of its own.
+    bm: ["tonso", "tònso"],  // The Bambara word for the bat; ntonso is a variant.
+    mos: ["zãnga", "zãŋɡa"],  // The Mooré word for the bat, plural zãmse; zãnkita is a small bat.
+    azb: ["یاراسا", "jɑrɑˈsɑ"],  // The same word as Azerbaijani and Turkish yarasa, inherited from Proto-Turkic; گئجه قوشو night bird is a synonym.
+    st: ["mmankgane", "mːaŋkxane"],  // The Sesotho word for the bat; the bat-eared fox is phokojwe e ditsebe tsa mankgane, the fox with bat ears.
+    nso: ["mmankgagane", "mːaŋkxʰaɣane"],  // The Northern Sotho word for the bat; Bibles also use the diminutive mmankgaganyane.
+    ki: ["rũhuhu", "ɾohuhu"],  // The Kikuyu word for the bat, plural mahuhu.
+    sn: ["chiremwaremwa", "tʃiremwaremwa"],  // The Shona word for the bat, plural zviremwaremwa; some texts put the same stem in the mu- class, muremwaremwa.
+    ku: ["şevşevok", "ʃɛvʃɛˈvok"],  // One of many Kurmanji names for the bat, the one used in the Kurmanji Bible; perçemk is another.
+    ht: ["chòvsourit", "ʃɔvsuˈɣit"],  // From French chauve-souris, the bald mouse; some Bibles use chòchòt instead.
+    om: ["simbira halkanii", "simbira halkaniː"],  // Literally bird of the night, the same image as Amharic የሌሊት ወፍ; Wiktionary also lists a separate word lillixa.
+    bo: ["ཕ་ཝང", "pʰa˥ waŋ˩˧"],  // The Tibetan word for the bat, Wylie pha wang.
+    dyu: ["tolen", "tolen"],  // The Jula word for the bat in the Ivorian Jula Bible; another Jula translation says sufɛkɔnɔ, night bird, instead.
+    suk: ["tūnge", "tʊŋɡe"],  // The Sukuma word for the bat.
+    mai: ["बादुर", "baːdur"],  // The Maithili headword for the bat, the same word as Bengali বাদুড়; चमगादर and चमगुदड़ी are also used. Route by resemblance to the neighbouring forms (Sylheti বাদুর, Bengali বাদুড়); no etymology of its own.
+    ks: ["راتہٕ کرٛیٖل", "raːtɨ krɨːl"],  // The Kashmiri word for the bat; its first part is رات night, the second is not explained by the sources.
+    pnb: ["چمگادڑ", "tʃəmɡaːdəɽ"],  // The Shahmukhi spelling of Punjabi ਚਮਗਾਦੜ, a variant of ਚਮਗਿੱਦੜ, the same word as Urdu چمگادڑ. Route by resemblance to the neighbouring forms (Hindi चमगादड़, Urdu چمگادڑ); no etymology of its own.
+    bar: ["Fledamaus", "ˈfleːdɐmaʊs"],  // The Bavarian form of German Fledermaus, the flutter-mouse; plural Fledamais.
+    tiv: ["inima", "inima"],  // The Tiv word for the bat, plural anema.
+    ff: ["wilwilndu", "wilwilndu"],  // The Fula word for the bat in the Burkina Faso Bible, plural bilwilɗi; Adamawa Fulfulde says wilwildu.
   },
 };

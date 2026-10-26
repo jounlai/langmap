@@ -150,7 +150,7 @@ WORDS.turkey = {
     lij: "unknown",
     ca: "india",
     gl: "local",
-    cs: "unknown",
+    cs: "local",
     sk: "unknown",
     sl: "unknown",
     sr: "unknown",
@@ -210,7 +210,7 @@ WORDS.turkey = {
     mic: "unknown",
     abe: "unknown",
     kl: "unknown",
-    arn: "unknown",
+    arn: "local",
     maz: "unknown",
     ady: "unknown",
     rm: "unknown",
@@ -299,6 +299,37 @@ WORDS.turkey = {
     luo: "unknown",
     quc: "local",
     zh_jiao: "local",
+    hi: "turkey",
+    bn: "turkey",
+    ur: "turkey",
+    pa: "turkey",
+    ps: "local",
+    ig: "local",
+    su: "india",
+    ml: "unknown",
+    sd: "turkey",
+    ne: "turkey",
+    si: "india",
+    azb: "india",
+    bar: "unknown",
+    ug: "local",
+    rw: "india",
+    sn: "india",
+    mn: "unknown",
+    nds: "india",
+    nap: "india",
+    ckb: "local",
+    ak: "india",
+    ts: "india",
+    lg: "unknown",
+    ki: "local",
+    ee: "unknown",
+    qu: "local",
+    hil: "local",
+    tzm: "unknown",
+    shi: "unknown",
+    rn: "india",
+    min: "india",
   },
   routes: {
     india: {"color":"#ea580c","emoji":"🐘","en":"named for India · the Indies","ja":"インドの名で","ko":"인도의 이름으로","zh":"以印度为名","yue":"以印度為名","vi":"theo tên Ấn Độ","th":"ตั้งตามอินเดีย","id":"dinamai India","hi":"भारत के नाम पर","de":"nach Indien benannt","fr":"nommé d'après l'Inde","it":"dal nome dell'India","es":"por la India","pt":"pelo nome da Índia","ru":"по Индии","uk":"за Індією","ar":"باسم الهند","he":"על שם הודו","sw":"kwa jina la India"},
@@ -390,7 +421,7 @@ WORDS.turkey = {
     lij: ["bibìn", "biˈbiŋ"],  // Ligurian bibìn is the turkey; the female is bibìnn-a.
     ca: ["gall dindi", "ɡaʎ dindi"],  // Literally "rooster of India": dindi is a rebracketing of d'Índia, like French dinde.
     gl: ["pavo", "ˈpaβo"],  // From Latin pāvō "peacock": the peacock's name was extended to the turkey, as in Spanish pavo.
-    cs: ["krůta", "ˈkruːta"],  // krůta is the turkey hen; the cock is krocan.
+    cs: ["krůta", "ˈkruːta"],  // krůta is the turkey hen; the cock is krocan. Route by resemblance to the neighbouring forms (Lower Sorbian truta); no etymology of its own.
     sk: ["moriak", "ˈmɔrɪ̯ak"],  // moriak is the turkey cock; the hen is morka.
     sl: ["puran", "puˈraːn"],  // Slovene puran (hen: pura) is the turkey.
     sr: ["ћурка", "tɕûːrka"],  // ћурка is the turkey hen, used for the live bird only; the cock is ћуран and the meat ћуретина.
@@ -450,7 +481,7 @@ WORDS.turkey = {
     mic: ["apʼtapegiejit", "abədabeɡiedʒit"],  // Mi'kmaq apʼtapegiejit (animate noun) is the turkey.
     abe: ["nahama", "nahama"],  // Abenaki nahama; cognates are listed in neighbouring Algonquian languages.
     kl: ["qingalissuaq", "qiŋalisːuaq"],  // Greenlandic qingalissuaq (older spelling ĸingaligssuaĸ).
-    arn: ["pafu", "pafu"],  // Mapudungun pafu is the turkey.
+    arn: ["pafu", "pafu"],  // Mapudungun pafu is the turkey. Route by resemblance to the neighbouring forms (Asturian pavu, Quechua pawu); no etymology of its own.
     maz: ["ⱥjnⱥ", "əhnə"],  // Mazahua ⱥjnⱥ is the turkey.
     ady: ["тхьачэт", "tħaːtʃat"],  // Adyghe тхьачэт (also written тхьэкӏэт).
     rm: ["galdin", "ɡalˈdin"],  // Romansh galdin is the turkey.
@@ -539,5 +570,36 @@ WORDS.turkey = {
     luo: ["mbata", "mbata"],  // Compare Swahili bata mzinga; the dictionary notes the bird is uncommon in Luoland and was once called Mbata Musinga Gwend Ulaya.
     quc: ["noʼs", "noʔs"],  // A native K'iche' word, not a borrowing from Spanish.
     zh_jiao: ["火鸡", "xuə˥˥ tɕi˨˩˧"],  // Literally 'fire chicken'; same word as Standard Mandarin.
+    hi: ["टर्की", "ʈəɾkiː"],  // Borrowed from English turkey; the older पीरू (McGregor) is also found.
+    bn: ["টার্কি", "ʈaɾki"],  // Borrowed from English turkey.
+    ur: ["ٹرکی", "ʈəɾkiː"],  // Borrowed from English turkey; older words are پیرو and فیل مرغ 'elephant fowl'.
+    pa: ["ਟਰਕੀ", "ʈəɾkiː"],  // Borrowed from English turkey.
+    ps: ["فيلمرغ", "filmorɣ"],  // Literally 'elephant fowl', as in Urdu فیل مرغ and Persian; Pashto Wikipedia uses the descriptive شونډکيز چرگ.
+    ig: ["torotoro", "toɾotoɾo"],  // Related to Hausa tàlotàlo, whose name spread across Nigerian languages; the variant tòlótòló is marked as from Hausa.
+    su: ["kalkun", "kalkun"],  // From Dutch kalkoen, named after the Indian port of Calicut, as with Indonesian kalkun.
+    ml: ["കൽക്കം", "kalkːam"],  // Also called ടർക്കി and വാങ്കോഴി, a cognate of Tamil வான்கோழி.
+    sd: ["ٽرڪي", "ʈərkiː"],  // Borrowed from English turkey.
+    ne: ["टर्की", "ʈʌɾkiː"],  // Borrowed from English turkey.
+    si: ["කළුකුමා", "kalukumaː"],  // From Dutch kalkoen, named after the Indian port of Calicut.
+    azb: ["هیندوشکا", "hinduʃˈkɑ"],  // Borrowed from Russian индюшка, named after India; also called هشترخان.
+    bar: ["Kaudara", "ˈkaʊdɐrɐ"],  // Bavarian Wikipedia also gives Pipkaudara and Bieha.
+    ug: ["كۈركە", "kyrˈkɛ"],  // A Turkic word for the turkey, cognate with Kazakh күрке and Tatar күркә.
+    rw: ["dendo", "dendo"],  // Route by resemblance to the neighbouring forms (Kirundi idendo); no etymology of its own.
+    sn: ["ngarikuni", "ŋarikuni"],  // From Afrikaans kalkoen, named after the Indian port of Calicut, like Zulu ikalikuni (route by resemblance).
+    mn: ["цацагт хяруул", "tsʰatsʰaktʰ xʲarʊːɮ"],  // Literally "tasselled" (цацагт) + хяруул, the word also found in тэмээн хяруул "ostrich"; older dictionaries spell it цацагт хяргуул.
+    nds: ["Kalkuun", "kalˈkuːn"],  // Borrowed from Dutch kalkoen, named after the Indian port of Calicut; Puter and Puut are also used. Route by resemblance to the neighbouring forms (nl(kalkoen)).
+    nap: ["galledinio", "ɡalləˈdinjə"],  // Pinto is also recorded for Neapolitan. Route by resemblance to the neighbouring forms (vec(dindio) ca(gall dindi)), the "rooster of India" type; no etymology of its own.
+    ckb: ["بووقەلەموون", "buːqalamuːn"],  // The same word as Persian būqalamūn, first a many-coloured Byzantine cloth, used for the bird because its feathers seem to change colour; قەلەموون is a shorter form. Route by resemblance to the neighbouring forms (fa(بوقلمون)).
+    ak: ["krakum", "krakum"],  // Borrowed from Danish kalkun or Dutch kalkoen (Christaller 1881), which name the bird after Calicut in India.
+    ts: ["galakuni", "ɡalakuni"],  // Borrowed from Afrikaans kalkoen (Cuénod 1967), which names the bird after Calicut in India.
+    lg: ["ssekkoko", "sːekːoko"],  // Snoxall’s Luganda-English dictionary gives ssekkoko for the turkey.
+    ki: ["mbata mũcinga", "mbaːta motʃiŋɡa"],  // Literally "duck" + mũcinga "gun", the same pairing as Swahili bata mzinga, from which both parts were borrowed.
+    ee: ["dɔku", "dɔku"],  // Dictionaries from 1890 onwards give dɔku for the turkey; tone is not marked here.
+    qu: ["pawu", "ˈpawu"],  // Borrowed from Spanish pavo, originally "peacock"; qallqatu is also listed by Wiktionary.
+    hil: ["pabo", "ˈpabo"],  // From Spanish pavo, originally "peacock", as in Tagalog and Cebuano pabo.
+    tzm: ["ⴱⵉⴱⵉ", "bibi"],  // Central Atlas Tamazight bibi, plural id bibi; the female is tabibitt (Amaniss 2012).
+    shi: ["ⴱⵉⴱⵉ", "bibi"],  // Tashelhit bibi, plural id bibi, the same word as in Central Atlas Tamazight.
+    rn: ["idendo", "idendo"],  // Borrowed from French dinde, from (poule) d’Inde "hen of India". Route by resemblance to the neighbouring forms (fr(dinde)); no etymology of its own.
+    min: ["kalkun", "kalkun"],  // Same word as Indonesian kalkun, from Dutch kalkoen after the Indian port of Calicut. Route by resemblance to the neighbouring forms (id(kalkun) jv(kalkun)).
   },
 };

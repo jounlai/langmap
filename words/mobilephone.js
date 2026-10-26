@@ -438,6 +438,17 @@ WORDS.mobilephone = {
     kpv: "carry",
     se: "carry",
     zh_jiao: "hand",
+    ta: "hand",
+    si: "carry",
+    ig: "unknown",
+    so: "hand",
+    ilo: "cell",
+    ti: "carry",
+    ny: "hand",
+    ts: "cell",
+    bo: "hand",
+    tk: "carry",
+    qu: "cell",
   },
   routes: {
     hand: {"color":"#ea580c","emoji":"✋","en":"the hand","ja":"手","ko":"손","zh":"手","yue":"手","vi":"bàn tay","th":"มือ","id":"tangan","hi":"हाथ","de":"die Hand","fr":"la main","it":"la mano","es":"la mano","pt":"a mão","ru":"рука","uk":"рука","ar":"اليد","he":"היד","sw":"mkono"},
@@ -819,5 +830,16 @@ WORDS.mobilephone = {
     kpv: ["мобильнӧй телефон", "mobilnɘj telefon"],  // From Russian мобильный телефон "mobile telephone", with the Komi adjective ending -ӧй.
     se: ["mátketelefovdna", "ˈmaːtːketelefovːtna"],  // Literally "travel telephone" (mátki "trip" + telefovdna); Finnish-side texts such as Kela use mobiilatelefovdna.
     zh_jiao: ["手机", "ʃou˥˥ tɕi˨˩˧"],  // Literally 'hand machine'; same word as Standard Mandarin.
+    ta: ["கைப்பேசி", "kaipːeːsi"],  // Literally 'hand talker' (கை 'hand' + பேசி 'speaker'), the standard Tamil word; in speech மொபைல் 'mobile' and செல்போன் 'cell phone' are also common.
+    si: ["ජංගම දුරකථනය", "dʒəŋɡəmə durəkətənəjə"],  // Literally 'mobile telephone': ජංගම 'mobile, moving' + දුරකථනය 'telephone' (literally 'far-speaking').
+    ig: ["ekwentị", "ekʷentɪ"],  // The everyday Igbo word for a phone, used for the mobile phone; the Nkọwa okwu dictionary gives ntị 'ear' as its stem.
+    so: ["taleefan gacmeed", "taleːfan ɡaʕmeːd"],  // Literally 'hand telephone' (from gacan 'hand'); the English loan mobile (mobilka) is also widely used.
+    ilo: ["selpon", "ˈsɛlpon"],  // Borrowed from English 'cell phone', as in Tagalog and Cebuano.
+    ti: ["ሞባይል ቴሌፎን", "mobajl telefon"],  // Borrowed from English 'mobile telephone', often just ሞባይል.
+    ny: ["foni yam'manja", "foni jamːandʒa"],  // Literally 'phone of the hands' (foni 'phone' + m'manja 'in the hands').
+    ts: ["selulafoni", "selulafoni"],  // The word used for the mobile phone in the Xitsonga Wikipedia; plain riqingho 'phone' is also used. Route by resemblance to the neighbouring forms (Lunda selufoni); no etymology of its own.
+    bo: ["ལག་ཐོག་ཁ་དཔར", "laʔ˩˧ tʰoʔ˥˧ kʰa˥ paː˥"],  // Literally 'hand-held telephone': ལག 'hand' + ཐོག 'on' + ཁ་དཔར 'telephone' (itself borrowed from English 'cable').
+    tk: ["mobil telefon", "moˈbil teleˈfon"],  // Literally 'mobile telephone', as in Azerbaijani and Uzbek; el telefony 'hand telephone' and ykjam telefon 'compact telephone' are also listed.
+    qu: ["silular", "siˈlular"],  // Borrowed from Spanish celular 'cellular (phone)'; Quechua Wikipedia also coins apaychana karurimana 'carryable far-speaker'.
   },
 };

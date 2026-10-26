@@ -286,6 +286,41 @@ WORDS.whale = {
     prs: "plain",
     zh_jiao: "fish",
     ttq: "unknown",
+    pa: "fish",
+    pnb: "plain",
+    gu: "fish",
+    hak_cn: "fish",
+    su: "fish",
+    mai: "plain",
+    am: "fish",
+    sd: "plain",
+    ne: "other",
+    ku: "plain",
+    si: "fish",
+    km: "fish",
+    za: "fish",
+    xh: "unknown",
+    azb: "plain",
+    ilo: "plain",
+    skr: "plain",
+    syl: "plain",
+    lo: "fish",
+    bo: "other",
+    min: "plain",
+    sat: "plain",
+    nds: "fish",
+    gn: "fish",
+    tg: "plain",
+    ti: "fish",
+    ee: "unknown",
+    shi: "unknown",
+    ks: "plain",
+    mad: "plain",
+    qu: "plain",
+    nap: "plain",
+    scn: "plain",
+    hak_tw: "fish",
+    hak_hl: "fish",
   },
   routes: {
     fish: {"color":"#2563eb","emoji":"🐟","en":"called a fish","ja":"「魚」と呼ぶ","ko":"\"물고기\"라 부름","zh":"称作\"鱼\"","yue":"叫做「魚」","vi":"gọi là cá","th":"เรียกว่าปลา","id":"disebut ikan","hi":"मछली कहा जाता है","de":"als Fisch bezeichnet","fr":"appelée poisson","it":"chiamata pesce","es":"llamada pez","pt":"chamada peixe","ru":"называют рыбой","uk":"називають рибою","ar":"تُسمّى سمكة","he":"נקרא דג","sw":"huitwa samaki"},
@@ -517,5 +552,40 @@ WORDS.whale = {
     prs: ["نهنگ", "naˈhaŋɡ"],  // The same word as Persian نهنگ; in Middle Persian it meant 'crocodile'.
     zh_jiao: ["鲸鱼", "tɕiəŋ˨˩˧ y˦˨"],  // Literally 'whale fish'; same word as Standard Mandarin.
     ttq: ["elăkămmăn", "elækæmːæn"],  // Also the name of the constellation Pisces (Prasse).
+    pa: ["ਵ੍ਹੇਲ ਮੱਛੀ", "ʋeːl˥ mətʃʰːiː"],  // English 'whale' plus ਮੱਛੀ 'fish': a 'whale fish'; ਵ੍ਹੇਲ alone is also used.
+    pnb: ["وہیل", "ʋéːl"],  // Borrowed from English whale.
+    gu: ["વ્હેલ માછલી", "ʋɦeːl maːtʃʰliː"],  // English 'whale' plus માછલી 'fish': a 'whale fish'; the Sanskrit-derived તિમિ is formal and uncommon.
+    hak_cn: ["鲸鱼", "kin˦ ŋ̍˩˩"],  // Literally 'whale fish': 鲸 'whale' plus 鱼 'fish'; some Hakka also say 海鳅 'sea loach'.
+    su: ["lauk paus", "lauk paus"],  // Literally 'whale fish': lauk 'fish' plus paus 'whale'; the Sundanese Wikipedia notes it is called a fish though it is a mammal.
+    mai: ["ह्वेल", "ʋeːl"],  // Borrowed from English whale.
+    am: ["ዓሣ ነባሪ", "asa nəbari"],  // Begins with ዓሣ 'fish'.
+    sd: ["وهيل", "ʋeːl"],  // Borrowed from English whale.
+    ne: ["तिमिङ्गल", "timiŋɡʌl"],  // From Sanskrit timiṅgila, 'swallower of the timi', a mythical giant fish; the English loan ह्वेल is also common.
+    ku: ["neheng", "nɛˈhɛŋɡ"],  // Borrowed from Persian nahang 'whale'; balîna and hût are also used.
+    si: ["තල්මසා", "təlməsaː"],  // Ends in මසා, a word for 'fish'.
+    km: ["ត្រីបាឡែន", "trəj ɓaːlaen"],  // Literally 'baleine fish': ត្រី 'fish' plus បាឡែន from French baleine; Wiktionary also lists ពិន្ទង.
+    za: ["ginghyiz", "kiŋ˧ ji˧˩"],  // Borrowed from Chinese 鲸鱼 'whale fish', with yiz from 鱼 'fish'.
+    xh: ["umnenga", "umnɛŋɡa"],  // The Xhosa word for the whale; it does not contain intlanzi 'fish'.
+    azb: ["بالینا", "bɑliˈnɑ"],  // Like Turkish balina, ultimately from Italian balena.
+    ilo: ["balyena", "balˈjena"],  // Borrowed from Spanish ballena.
+    skr: ["وہیل", "ʋeːl"],  // Borrowed from English whale; وہیل مچھی 'whale fish' is also heard.
+    syl: ["তিমি", "timi"],  // From Sanskrit timi, a name for a huge sea creature, as in Bengali.
+    lo: ["ປາວານ", "paː˩˧ waːn˧˥"],  // Literally 'fish' plus wan, like Thai ปลาวาฬ; Kerr's dictionary also gives ວານ alone and the French loan ບາແລນ.
+    bo: ["ཆུ་སྲིན", "tɕʰu˥ sĩ˥"],  // Literally 'water monster': the Tibetan name of the makara, the mythical sea creature, reused for the whale.
+    min: ["pauih", "pauih"],  // The Minangkabau form of Malay paus.
+    sat: ["ᱛᱤᱢᱤ", "timi"],  // The same word as Bengali and Odia timi, from Sanskrit timi, a name for a huge sea creature.
+    nds: ["Waalfisch", "ˈvaːlfɪʃ"],  // Literally 'whale-fish': Waal 'whale' plus Fisch 'fish', like Dutch walvis.
+    gn: ["piraru", "piɾaˈɾu"],  // Built on pira 'fish'; the wider term pirapuã covers all cetaceans, and the blue whale is piraru hovy.
+    tg: ["наҳанг", "naˈhaŋɡ"],  // The same word as Persian nahang 'whale'; the Russian loan кит is also used.
+    ti: ["ዓሳ ነባሪ", "ʕasa nɐbari"],  // Built on ዓሳ 'fish', like Amharic ዓሣ ነባሪ.
+    ee: ["bòsò", "bòsò"],  // The Ewe word for the whale, recorded in Rongier's Ewe-French dictionary.
+    shi: ["ⵜⵉⵣⵎⴽⵜ", "tizmkt"],  // The word given by the IRCAM Amazigh dictionary and used by the Tashelhit Wikipedia; plural tizmkin.
+    ks: ["وہیل", "ʋeːl"],  // Borrowed from English whale, as in Urdu.
+    mad: ["paus", "paus"],  // The same word as Malay and Indonesian paus.
+    qu: ["wallina", "waˈʎina"],  // Adapted from Spanish ballena; the Quechua Wikipedia also gives hatun yakuwayt'a.
+    nap: ["balena", "baˈlenə"],  // From Latin balaena; older dictionaries also give vallena.
+    scn: ["balena", "baˈlɛna"],  // From Latin balaena, from Greek phálaina.
+    hak_tw: ["鯨魚", "kin˨˦ ŋ̍˩˩"],  // Literally 'whale fish', as in Meixian Hakka and Mandarin.
+    hak_hl: ["鯨魚", "kin˥˧ ŋ˥˥"],  // Literally 'whale fish', as in Sixian Hakka 鯨魚.
   },
 };

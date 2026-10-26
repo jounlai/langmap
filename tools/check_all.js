@@ -803,7 +803,7 @@ line('Sinitic tone letters present', num(s, /violations: (\d+)/), num(s, /stale:
 // the word choice still needs a Yongzhou dial-syn source.
 // r74 (2026-10-09): +1, wuu_sz house 房子 — Wiktionary dial-syn gives 房子 for Suzhou;
 // the old 屋里 means 'at home'. Agreeing with Mandarin is correct here.
-const LEXICAL_IMPORT_DEBT = 22;   // r97: +gan/gan_ja 喝 (lost their differing sibling). r102: +wuu, wuu_hz 喝 — their siblings moved to 吃 on dial-syn; Shanghai/Hangzhou 喝 itself is now an open question — and yue_ts 吃 (Taishan, dial-syn) r103: +nan, nan_xm 你好 — siblings moved to 汝好 (Wiktionary); 你好 is the MOE Taiwanese spelling, kept
+const LEXICAL_IMPORT_DEBT = 23;   // r97: +gan/gan_ja 喝 (lost their differing sibling). r102: +wuu, wuu_hz 喝 — their siblings moved to 吃 on dial-syn; Shanghai/Hangzhou 喝 itself is now an open question — and yue_ts 吃 (Taishan, dial-syn) r103: +nan, nan_xm 你好 — siblings moved to 汝好 (Wiktionary); 你好 is the MOE Taiwanese spelling, kept. 2026-10-26: +hak_cn 鲸鱼 whale (Wiktionary Hakka kîn-ǹg; its Taiwan siblings now agree in traditional form)
 s = run('sinitic_lexical_import_check.js --check');
 {
     const n = num(s, /mandarin-shaped cells: (\d+)/);

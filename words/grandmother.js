@@ -384,6 +384,32 @@ WORDS.grandmother = {
     auj: "unknown",
     siz: "unknown",
     zh_jiao: "split",
+    yo: "split",
+    bho: "split",
+    or: "split",
+    mai: "split",
+    lua: "one",
+    qu: "unknown",
+    ln: "one",
+    bm: "unknown",
+    st: "one",
+    ht: "one",
+    nds: "one",
+    bar: "one",
+    awa: "split",
+    hne: "split",
+    skr: "split",
+    tk: "split",
+    za: "split",
+    ug: "one",
+    bal: "unknown",
+    kab: "unknown",
+    nso: "unknown",
+    kri: "unknown",
+    dyu: "unknown",
+    pcm: "unknown",
+    sg: "unknown",
+    mos: "unknown",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -712,5 +738,31 @@ WORDS.grandmother = {
     auj: ["nàna", "ˈnana"],  // Only one word is recorded; the sources do not say whether the two grandmothers are distinguished.
     siz: ["ʤədda", "dʒədːa"],  // Means 'my grandmother'; the sources do not say whether the two grandmothers are distinguished.
     zh_jiao: ["奶奶", "nɛ˥˥ nɛ˥˥"],  // Father's mother; mother's mother is 姥娘, a different word.
+    yo: ["ìyá bàbá", "ìjá bàbá"],  // Literally 'mother of father'; the mother's mother is ìyá ìyá 'mother of mother' (ìyá àgbà 'elder mother' is the less common general phrase).
+    bho: ["आजी", "aːdʒiː"],  // Father's mother, the feminine of आजा 'father's father'; the mother's mother is नानी nānī.
+    or: ["ଜେଜେମା", "dʒedʒemaː"],  // Father's mother; the mother's mother is ଆଈ āī.
+    mai: ["दादी", "daːdiː"],  // Father's mother; the mother's mother is नानी nānī (Davis 1984; Yadav 2011 also records बाबी babi and आजी aji for a grandmother).
+    lua: ["kaku", "kaku"],  // One word for any grandparent, on either side and of either sex.
+    qu: ["hatun mama", "hatun mama"],  // Literally 'big mother' (hatun 'big' + mama 'mother'); Cusco Quechua also says hatucha for the mother's mother, but no source gives the father's-mother term to compare.
+    ln: ["nkɔ́kɔ-mwǎsí", "ŋkɔ́kɔ mwǎsí"],  // Literally 'female grandparent' (nkɔ́kɔ 'grandparent, ancestor' + mwǎsí 'woman'), used for either grandmother; the grandfather is nkɔ́kɔ-mobáli.
+    bm: ["mɔmuso", "mɔmuso"],  // Built on muso 'woman'; mamuso and mamamuso are synonyms.
+    st: ["nkgono", "ŋxʊnʊ"],  // Literally 'old mother'; every female relative above the parents' generation, on either side, is nkgono (the grandfather is ntatemoholo).
+    ht: ["grann", "ɡran"],  // From French grand-mère via grand; one word for the mother's mother or the father's mother.
+    nds: ["Grootmoder", "ˈɡroːtmoːdɐ"],  // Literally 'great mother'; the side is added as a phrase, Grootmoder op de Moder ehr Sied 'grandmother on the mother's side'.
+    bar: ["Großmuatta", "ˈɡroːsmuɐtɐ"],  // Literally 'great mother'; the side is added as a phrase, Großmuatta vätalichaseits 'grandmother on the father's side'.
+    awa: ["दादी", "daːdiː"],  // Father's mother; the mother's mother is नानी nānī.
+    hne: ["दादी", "daːdiː"],  // Father's mother; the mother's mother is ममा दाई mama dāī, literally 'maternal-uncle-side mother'.
+    skr: ["ݙاݙی", "ɗaːɗiː"],  // Father's mother; the mother's mother is نانی nānī.
+    tk: ["ene", "eˈne"],  // Father's mother in the Teke speech the standard is based on (elsewhere ene is a formal word for 'mother'); the mother's mother is mama.
+    za: ["buz", "pu˧˩"],  // Father's mother (also daxbuz 'grandma'); the mother's mother is daiq (Sawndip 𡛕), cognate with Thai ยาย.
+    ug: ["موما", "moˈma"],  // One word for either grandmother: the Uyghur Bible uses it both for Maacah, the father's mother of King Asa, and for Lois, Timothy's mother's mother.
+    bal: ["بَلُّک", "balluk"],  // The word the Balochi Bible uses for Timothy's grandmother Lois; no source shows whether the father's mother has a different word.
+    kab: ["setti", "sətːi"],  // The word the Kabyle Bible uses for Timothy's grandmother Lois; no source shows whether the two grandmothers are told apart.
+    nso: ["makgolo", "makxolo"],  // The word both Northern Sotho Bibles use for Timothy's grandmother Lois; koko is also used for a grandmother.
+    kri: ["grani", "ˈɡrani"],  // From English granny; no source shows whether the two grandmothers are told apart.
+    dyu: ["mamamuso", "mamamuso"],  // Built on muso 'woman'; no source shows whether the two grandmothers are told apart.
+    pcm: ["grand-mama", "ɡrand mama"],  // From English grand + mama; no source shows whether the two grandmothers are told apart.
+    sg: ["âta", "ata"],  // Means any grandparent (and also a grandchild); wâlï 'woman' can be added, âta tî wâlï, to make the grandmother explicit.
+    mos: ["yaab", "jaːb"],  // Means any grandparent; one Bible version adds poak 'woman', yaab poak, to make the grandmother explicit.
   },
 };

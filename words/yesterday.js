@@ -715,6 +715,19 @@ WORDS.yesterday = {
     auj: "distinct",
     siz: "distinct",
     zh_jiao: "distinct",
+    bo: "distinct",
+    skr: "same",
+    umb: "same",
+    lrc: "distinct",
+    sg: "distinct",
+    mwr: "same",
+    mag: "same",
+    anp: "same",
+    mad: "distinct",
+    min: "distinct",
+    th_isan: "distinct",
+    kr: "distinct",
+    luy: "distinct",
   },
   routes: {
     same: {"color":"#db2777","emoji":"🔁","en":"one word for yesterday and tomorrow","ja":"昨日と明日が同じ語","ko":"어제와 내일이 한 낱말","zh":"昨天和明天同一个词","yue":"尋日同聽日同一個詞","vi":"một từ cho hôm qua và ngày mai","th":"คำเดียวทั้งเมื่อวานและพรุ่งนี้","id":"satu kata untuk kemarin dan besok","hi":"बीते और आने वाले कल का एक शब्द","de":"ein Wort für gestern und morgen","fr":"un mot pour hier et demain","it":"una parola per ieri e domani","es":"una palabra para ayer y mañana","pt":"uma palavra para ontem e amanhã","ru":"одно слово для вчера и завтра","uk":"одне слово для учора й завтра","ar":"كلمة واحدة لأمس وغد","he":"מילה אחת לאתמול ולמחר","sw":"neno moja kwa jana na kesho"},
@@ -1375,5 +1388,18 @@ WORDS.yesterday = {
     auj: ["ṣə̀bəṭ", "ˈsˤəbətˤ"],  // Paradisi thought it Arabic, but van Putten found no Arabic dialect equivalent; a different word from ṣbə̀ḥ 'tomorrow'.
     siz: ["sḷaṭṭin", "sˤlˤatˤːin"],  // A different word from tafji 'tomorrow'; iṭəllin is 'last night'.
     zh_jiao: ["夜来", "iə˦˨ lɛ˦˨"],  // An old word, literally 'night came'; tomorrow is 明天, a different word.
+    bo: ["ཁ་སང", "kʰa˥saŋ˥"],  // tomorrow: སང་ཉིན; Wiktionary also lists the spelling ཁེ་སང.
+    skr: ["کلھ", "kəlʰ"],  // tomorrow: the same word; the Modern Central Saraiki Bible writes it کل and uses it for both days.
+    umb: ["hẽla", "hẽla"],  // tomorrow: hẽla; one word for both days, already recorded by Koelle in 1854.
+    lrc: ["دیرو", "diru"],  // tomorrow: صو; John 4:52 in the Khorramabadi translation also has Persian-like دیروز.
+    sg: ["bîrï", "biri"],  // tomorrow: kêkerêke; the day before yesterday is mbênî bîrï.
+    mwr: ["काले", "kaːle"],  // tomorrow: काले; the dictionary glosses it as both the coming day and the day gone by (also कालै).
+    mag: ["कल्हे", "kəlʱe"],  // tomorrow: the same word; one word for both days, from Sanskrit kalya.
+    anp: ["काल", "kaːl"],  // tomorrow: the same word; the Angika dictionary gives काल खिन 'on yesterday/tomorrow' (Hindi कल को).
+    mad: ["bâʼâriʼ", "bɤʔɤriʔ"],  // tomorrow: lagguʼ; often shortened to bâriʼ, not to be confused with bhâriʼ 'too early'.
+    min: ["kapatang", "kapataŋ"],  // tomorrow: bisuak (baisuak); kapatang is built on patang 'afternoon, evening'.
+    th_isan: ["มื้อวานนี้", "mɯː˧˩ waːn˧˥˨ niː˧˩"],  // tomorrow: มื้ออื่น; literally 'day' + 'past' + 'this', with มื้อ 'day' where Thai says เมื่อ.
+    kr: ["biska", "biska"],  // tomorrow: báli (Koelle 1854); Koelle wrote yesterday bisgá.
+    luy: ["mukoloba", "mukoloba"],  // tomorrow: mukamba; the older Oluluyia Union Version says eshiabeele, Bukusu likolooba.
   },
 };

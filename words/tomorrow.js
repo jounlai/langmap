@@ -758,6 +758,14 @@ WORDS.tomorrow = {
     auj: "morning",
     siz: "unknown",
     zh_jiao: "other",
+    bho: "same",
+    skr: "same",
+    mag: "same",
+    rkt: "unknown",
+    kr: "unknown",
+    ki: "unknown",
+    min: "unknown",
+    sg: "unknown",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -1460,5 +1468,13 @@ WORDS.tomorrow = {
     auj: ["ṣbə̀ḥ", "sˤbəħ"],  // Borrowed from Arabic ṣabāḥ 'morning' (van Putten).
     siz: ["tafji", "tafji"],  // Not the word for 'morning' (asru); Laoust, after Basset, links it to a Berber root F without giving its meaning.
     zh_jiao: ["明天", "miəŋ˦˨ tʰiã˨˩˧"],  // Literally 'bright day'; Qingdao also says 明日.
+    bho: ["काल्ह", "kaːlʱ"],  // One word for both yesterday and tomorrow, from Sanskrit kalya 'dawn; at dawn, tomorrow' (Turner).
+    skr: ["کلھ", "kəlʰ"],  // The same word means 'yesterday'; Saraiki Bibles use it for both days (Matthew 6:34, Hebrews 13:8), and it comes from Sanskrit kalya 'dawn' (Wiktionary).
+    mag: ["कल्हे", "kəlʱe"],  // One word for both yesterday and tomorrow, from Sanskrit kalya 'dawn' (Wiktionary).
+    rkt: ["কাইলক্যা", "kailkæ"],  // Kailkya pairs with aijkya 'today' in the Rangpuri Bible; the published text has no verse for 'yesterday', so whether the word also covers it is not shown.
+    kr: ["bali", "bali"],  // Bálì is the Kanuri word; yesterday is a different word, bískà (WOLD).
+    ki: ["rũciũ", "ɾotʃio"],  // Rũciũ is the Kikuyu word; yesterday is a different word, ira (Kikuyu Bible, Hebrews 13:8).
+    min: ["bisuak", "bisuaʔ"],  // Bisuak is the Minangkabau counterpart of Indonesian besok; yesterday is patang or kapatang (Wikivoyage).
+    sg: ["kêkerêke", "kekereke"],  // Kêkerêke is the Sango word; the day after tomorrow is mbênî kêkerêke 'another tomorrow', and yesterday is bîrï (ACCT dictionary).
   },
 };

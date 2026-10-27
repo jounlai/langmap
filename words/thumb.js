@@ -477,6 +477,38 @@ WORDS.thumb = {
     mnk: "unknown",
     lis: "mother",
     mrw: "mother",
+    en_wls: "plain",
+    en_jam: "plain",
+    en_ng: "plain",
+    en_ph: "plain",
+    en_ke: "plain",
+    en_ca: "plain",
+    en_za: "plain",
+    fr_sn: "plain",
+    fr_ci: "plain",
+    fr_ht: "plain",
+    pt_mz: "plain",
+    pt_ao: "plain",
+    pt_cv: "plain",
+    nl_be: "plain",
+    de_ch: "plain",
+    es_mx: "plain",
+    es_uy: "plain",
+    hyw: "plain",
+    cjy_xz: "big",
+    vi_c: "big",
+    ar_lev: "plain",
+    ar_gulf: "plain",
+    gsw: "plain",
+    koi: "plain",
+    ar_iq: "plain",
+    zh_jn: "big",
+    zh_xa: "big",
+    zh_nj: "big",
+    zh_cq: "big",
+    wuu_sz: "big",
+    nan_qz: "big",
+    nan_hai: "big",
   },
   routes: {
     mother: {"color":"#db2777","emoji":"👪","en":"mother · parent · elder kin","ja":"母・親・年長の身内","ko":"어머니 · 어버이 · 웃어른","zh":"母亲・父母・长辈","yue":"阿媽 · 父母 · 長輩","vi":"mẹ · cha mẹ · bậc trên","th":"แม่ · พ่อแม่ · ญาติผู้ใหญ่","id":"ibu · orang tua · kerabat tua","hi":"माँ · माता-पिता · बड़े","de":"Mutter · Eltern · ältere Verwandte","fr":"mère · parent · aîné","it":"madre · genitore · parente anziano","es":"madre · padre · pariente mayor","pt":"mãe · pai · parente mais velho","ru":"мать · родитель · старший родич","uk":"мати · батько · старший родич","ar":"أم · والد · قريب أكبر","he":"אם · הורה · קרוב מבוגר","sw":"mama · mzazi · ndugu mkubwa"},
@@ -898,5 +930,37 @@ WORDS.thumb = {
     mnk: ["bulukumbaa", "bulukumbaː"],  // Built on bulu 'hand'; the big toe is sinkumbaa, built the same way on sin- 'foot'.
     lis: ["la-ma", "lɛ˧˩mɑ˧˧"],  // Literally 'hand mother' (la 'hand' + ma, the Tibeto-Burman 'mother; female; principal part' element, as in a-ma 'mother').
     mrw: ["amaʼ a lima", "amaʔ a lima"],  // Literally 'father of the hand' (amaʼ 'father' + lima 'hand').
+    en_wls: ["thumb", "θʌm"],  // From Old English þūma, the same word as everywhere in English.
+    en_jam: ["thumb", "tɵm"],  // From Old English þūma, the same word as everywhere in English.
+    en_ng: ["thumb", "tɔm"],  // From Old English þūma, the same word as everywhere in English.
+    en_ph: ["thumb", "tʌm"],  // From Old English þūma, the same word as everywhere in English.
+    en_ke: ["thumb", "θʌm"],  // From Old English þūma, the same word as everywhere in English.
+    en_ca: ["thumb", "θʌm"],  // From Old English þūma, the same word as everywhere in English.
+    en_za: ["thumb", "θʌm"],  // From Old English þūma, the same word as everywhere in English.
+    fr_sn: ["pouce", "pus"],  // From Latin pollex 'thumb'; pouce also means 'inch'.
+    fr_ci: ["pouce", "pus"],  // From Latin pollex 'thumb'; pouce also means 'inch'.
+    fr_ht: ["pouce", "pus"],  // From Latin pollex 'thumb'; Haitian Creole has the same word as pous.
+    pt_mz: ["polegar", "pulɨˈɡaɾ"],  // From Latin pollicāris 'of the thumb'; colloquially dedão is also used.
+    pt_ao: ["polegar", "pulɨˈɡaɾ"],  // From Latin pollicāris 'of the thumb'; colloquially dedão is also used.
+    pt_cv: ["polegar", "pulɨˈɡaɾ"],  // From Latin pollicāris 'of the thumb'; colloquially dedão is also used.
+    nl_be: ["duim", "dœy̯m"],  // The same Germanic word as English thumb; it also means 'inch'.
+    de_ch: ["Daumen", "ˈdaʊ̯mən"],  // The same Germanic word as English thumb and Dutch duim.
+    es_mx: ["pulgar", "pulˈɣaɾ"],  // From Latin pollicāris 'of the thumb', from pollex.
+    es_uy: ["pulgar", "pulˈɣaɾ"],  // From Latin pollicaris, from pollex 'thumb'.
+    hyw: ["բութ մատ", "pʰutʰ mɑd"],  // Literally 'thumb finger', from բութ 'thumb' + մատ 'finger'; the one-word բթամատ is also used.
+    cjy_xz: ["大拇指头", "tɛ˥˨ mu˧˩˧ tsɿ˧˩˧ tʰəu˧˩"],  // Literally 'big thumb-finger' (大 'big' + 拇 'thumb' + 指头 'finger'); Xinzhou also says 大拇tɕiəu tɕiəu.
+    vi_c: ["ngón tay cái", "ŋɔŋ˨˦ taj˥ kaːj˨˦"],  // Literally 'main finger', the same word as in the North and South.
+    ar_lev: ["باهم", "ˈbaːhim"],  // From the same root b-h-m as Standard Arabic ibhām; Syrian example: ḥaraqit bāhmi 'I burned my thumb'.
+    ar_gulf: ["بهام", "bhaːm"],  // A shortened form of Standard Arabic ibhām, from the same root b-h-m.
+    gsw: ["Duume", "ˈduːmə"],  // The Swiss German form of German Daumen, the same Germanic word as English thumb.
+    koi: ["пев", "pev"],  // The same Permic word as Komi-Zyrian пев, inherited from Proto-Uralic *pälkä 'thumb'.
+    ar_iq: ["إبهام", "ibhaːm"],  // Iraqi Arabic uses the standard word, also said bhām with the first vowel dropped.
+    zh_jn: ["大拇指", "ta˨˩ mu˥˥ tʂʅ˥˥"],  // The same word as standard Mandarin, 'big thumb-finger'; Jinan also says 大拇哥 and 大拇指头.
+    zh_xa: ["大拇指", "ta˥˥ mẽ˥˥ tsɿ˨˩"],  // 'Big thumb-finger'; in Xi'an 拇 is pronounced like 门 'door' and is sometimes written so.
+    zh_nj: ["大拇指", "ta˦ mu˨˩˨ tʂʅ˨˩˨"],  // 'Big thumb-finger'; older Nanjing speech also has 大指抹头, 大指头, 大马指 and 大马哥.
+    zh_cq: ["大指拇儿", "ta˨˩˧ tsɿ˦˨ muɚ˦˨"],  // Literally 'big finger-thumb' with the 儿 suffix, the Sichuan-Chongqing word, which also names the big toe.
+    wuu_sz: ["大密节头", "dəu˨˧˩ miɪʔ˧ tsiɪʔ˥ døʏ˨˨˧"],  // Literally 'big finger-joint'; the Suzhou form of 大节头 with an extra syllable 密 (from 米).
+    nan_qz: ["大头拇", "tua˦˩ tʰau˨˦ bu˥˥˦"],  // Literally 'big head-thumb', the same word as the Hokkien parent; Quanzhou also says 部头拇 and 掌头拇.
+    nan_hai: ["大手拇", "ɗua˨˧ siu˨˩˧ vo˨˩˧"],  // Literally 'big hand-thumb'; Haikou also says plain 手拇.
   },
 };

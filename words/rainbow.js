@@ -615,6 +615,25 @@ WORDS.rainbow = {
     suk: "unknown",
     tiv: "unknown",
     bgq: "bow",
+    czh: "plain",
+    cpx: "plain",
+    tcy: "bow",
+    kok: "bow",
+    fon: "unknown",
+    haz: "bow",
+    gbm: "bow",
+    kfy: "bow",
+    kru: "unknown",
+    rhg: "bow",
+    mni: "unknown",
+    max: "other",
+    sas: "other",
+    tyz: "serpent",
+    ljp: "plain",
+    mas: "unknown",
+    sco: "bow",
+    kbd: "unknown",
+    mtq: "unknown",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1173,5 +1192,24 @@ WORDS.rainbow = {
     suk: ["ita lya baashi", "ita lja baːʃi"],  // The phrase every Sukuma Bible uses for the rainbow.
     tiv: ["ikume", "ikume"],  // In Revelation it is ikume i sha aôndo, 'the ikume of the sky'; Glosbe spells it ikyume.
     bgq: ["मेघ धनुस", "meːɡʱ dʱənus"],  // Literally 'cloud bow' (मेघ 'cloud' + धनुस 'bow'), as in neighbouring Haryanvi and Marwari.
+    czh: ["虹", "kau˦˨"],  // Tunxi Hui says the single character 虹 in its colloquial reading kau, unlike the literary reading xan.
+    cpx: ["虹", "kʰɒŋ˩˩"],  // Putian says the single character 虹 in its vernacular reading korng, unlike the literary horng.
+    tcy: ["ಅಜ್ಜಬಿರು", "addʒabiɾu"],  // Ends in ಬಿರು, a Tulu variant of ಬಿಲ್ಲು 'bow'; Tulu Wikipedia equates it with Kannada ಮಳೆಬಿಲ್ಲು 'rain bow'.
+    kok: ["इंद्रधोणू", "indɾədʱoɳuː"],  // Literally 'Indra's bow' (इंद्र + धोणू), the Konkani counterpart of Sanskrit indradhanus; इंद्रधनुष्य is a synonym.
+    fon: ["nyǐ", "ɲi"],  // The word the Fon Bible uses for the rainbow both around God's throne and in the sign of the covenant after the Flood.
+    haz: ["رنگین کمو", "ɾaŋɡin kamoː"],  // Literally 'colourful bow', the Persian رنگین‌کمان with Hazaragi -o for Persian -ān.
+    gbm: ["मेघधनुष", "meːɡʱdʱənuʂ"],  // Literally 'cloud bow' (मेघ 'cloud' + धनुष 'bow').
+    kfy: ["मेंघधनुष", "mẽːɡʱdʱənuʂ"],  // Literally 'cloud bow' (मेघ 'cloud' + धनुष 'bow'), the same build as Garhwali मेघधनुष.
+    kru: ["सोखाबोरा", "sokʰaːboɾaː"],  // The native Kurukh word the Devanagari Kurukh New Testament uses for the rainbow; the Bengali-script translation says রাংগে ধানুক 'colour bow' instead.
+    rhg: ["dónu", "donu"],  // The Indo-Aryan word for 'bow' (Sanskrit dhanus), which also names the rainbow, as Hindi धनुष does.
+    mni: ["ꯆꯨꯝꯊꯥꯡ", "tʃúmtʰáŋ"],  // The Meitei word for the rainbow; a rainbow 'appears' with the verb khan-, so chumthāng khan- is 'a rainbow forms'.
+    max: ["pelangi", "pelaŋi"],  // The Malay word pelangi, as in Indonesian and Standard Malay.
+    sas: ["sabuk bidedari", "sabuk bidədari"],  // Literally 'the nymph's belt': sabuk 'belt, sash' + bidedari, the heavenly nymph (Malay bidadari).
+    tyz: ["luồng va", "luəŋ˧˨ vaː˧˧"],  // Built on luồng 'dragon', the Tày dictionary word for the rainbow; the second part va is not glossed.
+    ljp: ["runih", "ʁunih"],  // Inherited from Proto-Western Malayo-Polynesian *duniq 'rainbow' (Blust & Trussel, ACD).
+    mas: ["olokirrai", "olokirːai"],  // The Maa dictionary's main word for the rainbow; northern dialects say siomô.
+    sco: ["rainbow", "ˈrenbʌu"],  // Rain + bow, as in English, but the Scottish National Dictionary notes that bow is said [bʌu] here.
+    kbd: ["лэгъупыкъу", "ɮaʁʷəpəqʷ"],  // The Kabardian word for the rainbow, cognate with Adyghe лэгъупэкъопс.
+    mtq: ["tòng tẫm", "tɔŋ təm"],  // The Mường New Testament's word for the rainbow, in both Revelation passages.
   },
 };

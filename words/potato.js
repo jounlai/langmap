@@ -434,7 +434,7 @@ WORDS.potato = {
     ks: "other",
     bo: "unknown",
     ig: "unknown",
-    st: "unknown",
+    st: "earth",
     ny: "papa",
     lg: "other",
     ff: "earth",
@@ -442,6 +442,20 @@ WORDS.potato = {
     cnp: "other",
     shi: "papa",
     arq: "papa",
+    aa: "papa",
+    zza: "truffle",
+    shn: "other",
+    lmo: "earth",
+    bug: "other",
+    czh: "other",
+    rhg: "other",
+    kbd: "truffle",
+    shy: "papa",
+    tyz: "other",
+    li: "earth",
+    iba: "other",
+    mas: "other",
+    mrw: "papa",
   },
   routes: {
     papa: {"color":"#ca8a04","emoji":"🏔️","en":"Quechua papa · Taíno batata","ja":"ケチュア語 papa・タイノ語 batata","ko":"케추아어 papa · 타이노어 batata","zh":"克丘亚语 papa・泰诺语 batata","yue":"克丘亞語 papa · 泰諾語 batata","vi":"Quechua papa · Taíno batata","th":"เกชัว papa · ไตโน batata","id":"Quechua papa · Taíno batata","hi":"क्वेचुआ papa · ताइनो batata","de":"Quechua papa · Taíno batata","fr":"quechua papa · taïno batata","it":"quechua papa · taíno batata","es":"quechua papa · taíno batata","pt":"quíchua papa · taíno batata","ru":"кечуа papa · таино batata","uk":"кечуа papa · таїно batata","ar":"كيتشوا papa · تاينو batata","he":"קצ'ואה papa · טאינו batata","sw":"Kiquechua papa · Kitaino batata"},
@@ -817,7 +831,7 @@ WORDS.potato = {
     ks: ["اولُو", "oːluv"],  // From Sanskrit ālu, an edible root (CDIAL 1388); the plural olav gives the dish dum olav.
     bo: ["ཞོ་ཁོག", "ɕo˩˧ kʰoʔ˥˧"],  // Also spelt ཞོག་ཁོག / ཞོག་གོག.
     ig: ["nduku", "nduku"],  // The sweet potato is a different word, èkòmékò.
-    st: ["tapole", "tapole"],  // Plural litapole.
+    st: ["tapole", "tapole"],  // Plural litapole. Route by resemblance to the neighbouring forms (Northern Sotho tapola); no etymology of its own.
     ny: ["mbatatesi", "mbatatesi"],  // The sweet potato is mbatata; kachere is another name for the potato. Route by resemblance to the neighbouring forms (Shona mbatatisi, Egyptian Arabic بطاطس); no etymology of its own.
     lg: ["akammonde", "akamːoːnde"],  // Built on the stem of lumonde "sweet potato" with the ka- prefix of small things; usually heard in the plural obummonde.
     ff: ["pompeteere", "pompeteːre"],  // Borrowed from French pomme de terre, "apple of the earth", as recorded for Niger Fulfulde; kudaku is the sweet potato.
@@ -825,5 +839,19 @@ WORDS.potato = {
     cnp: ["马铃薯", "ma˨˦ leŋ˨˩ ʃy˨˩"],  // Literally "horse-bell tuber", the standard Chinese word, which Nanning Pinghua shares.
     shi: ["ⴱⴰⵟⴰⵟⴰ", "batˤatˤa"],  // From the batata word for the potato, shared with Moroccan Arabic بطاطا; a single potato is tabaṭaṭt.
     arq: ["بطاطا", "batˤaːtˤa"],  // From the batata word for the potato, as in Moroccan Arabic.
+    aa: ["bataatá", "bataːta"],  // Borrowed from Italian patata; Afar also has dinnít, a collective 'potatoes' borrowed from Amharic ድንች.
+    zza: ["kartole", "karˈtole"],  // A feminine noun of the Kartoffel family, like Kurdish kartol. Route by resemblance to the neighbouring forms (ku(kartol)); no etymology of its own.
+    shn: ["ဢႃႇလူး", "ʔaː˩ luː˥"],  // The same word as Burmese အာလူး and Hindi ālū, from Sanskrit ālu, an edible root; the sweet potato is man ʔaa-luu.
+    lmo: ["pomm de terra", "pɔm de ˈtɛra"],  // Literally "earth apple", like French pomme de terre; Brescian says patàta and Valtellina tartúfola.
+    bug: ["lame-lame", "lamelame"],  // A reduplication of lame, the native word for a tuber such as cassava or yam.
+    czh: ["马铃芋", "muːə˨˦ lɛ˦˦ y˨˦"],  // Literally "horse-bell taro", the Tunxi form of the 马铃薯 "horse-bell tuber" name; Jixi and Shexian say 洋芋 "foreign taro" instead.
+    rhg: ["alu", "alu"],  // From Sanskrit ālu, an old word for an edible root that passed to the potato, as in Hindi and Bengali ālu.
+    kbd: ["кӏэртӏоф", "tʃʼartʼawf"],  // A loan of Russian картофель, ultimately from Italian tartufolo 'truffle'. Route by resemblance to the neighbouring forms (Russian картофель, Chechen картол); no etymology of its own.
+    shy: ["baṭaṭa", "batˤatˤa"],  // The batata word shared with Algerian Arabic and Kabyle lbaṭaṭa, which goes back through Spanish to Taíno batata. Route by resemblance to the neighbouring forms (Kabyle lbaṭaṭa, Moroccan Arabic baṭāṭa); no etymology of its own.
+    tyz: ["mằn fan", "man˧˨ faːn˧˧"],  // Built on mằn, the Tày cover word for a tuber; the sweet potato is mằn bủng.
+    li: ["aerpel", "ɛːrpəl"],  // A contraction of eer(ap)pel 'earth apple', the same compound as Dutch aardappel; kartoffel is a younger synonym.
+    iba: ["kentang", "kəntaŋ"],  // The same word as Malay kentang; the Iban dictionary glosses it 'ubi kentang', the potato. Route by resemblance to the neighbouring forms (Indonesian, Malay, Sundanese and Balinese kentang); no etymology of its own.
+    mas: ["enkuashe", "ɛŋkuaʃe"],  // Plural inkuashen; borrowed from Kikuyu ngwacĩ, and the sweet potato is a different word, olgisoyiai; Tanzanian Maasai also says olbiasi, from Swahili viazi.
+    mrw: ["patatas", "patatas"],  // The same word as Tagalog patatas; the sweet potato is a different word, obi. Route by resemblance to the neighbouring forms (Tagalog, Cebuano, Ilocano and Hiligaynon patatas); no etymology of its own.
   },
 };

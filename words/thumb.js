@@ -434,6 +434,49 @@ WORDS.thumb = {
     suk: "unknown",
     nso: "big",
     sg: "big",
+    fon: "unknown",
+    mxc: "unknown",
+    ay: "mother",
+    bbc: "mother",
+    pag: "plain",
+    teo: "big",
+    wal: "unknown",
+    drs: "unknown",
+    rhg: "other",
+    tyz: "mother",
+    kbd: "big",
+    pwo: "unknown",
+    kha: "mother",
+    ndc: "unknown",
+    ve: "unknown",
+    mas: "unknown",
+    tum: "unknown",
+    hmn: "plain",
+    ban: "mother",
+    lmo: "other",
+    rki: "big",
+    bug: "mother",
+    bjn: "unknown",
+    sas: "unknown",
+    ace: "mother",
+    yao: "unknown",
+    kok: "plain",
+    zza: "big",
+    din: "unknown",
+    haz: "plain",
+    cv: "other",
+    li: "plain",
+    rgn: "big",
+    quz: "mother",
+    dag: "other",
+    mnw: "big",
+    tsg: "plain",
+    kbp: "other",
+    grt: "mother",
+    tem: "big",
+    mnk: "unknown",
+    lis: "mother",
+    mrw: "mother",
   },
   routes: {
     mother: {"color":"#db2777","emoji":"👪","en":"mother · parent · elder kin","ja":"母・親・年長の身内","ko":"어머니 · 어버이 · 웃어른","zh":"母亲・父母・长辈","yue":"阿媽 · 父母 · 長輩","vi":"mẹ · cha mẹ · bậc trên","th":"แม่ · พ่อแม่ · ญาติผู้ใหญ่","id":"ibu · orang tua · kerabat tua","hi":"माँ · माता-पिता · बड़े","de":"Mutter · Eltern · ältere Verwandte","fr":"mère · parent · aîné","it":"madre · genitore · parente anziano","es":"madre · padre · pariente mayor","pt":"mãe · pai · parente mais velho","ru":"мать · родитель · старший родич","uk":"мати · батько · старший родич","ar":"أم · والد · قريب أكبر","he":"אם · הורה · קרוב מבוגר","sw":"mama · mzazi · ndugu mkubwa"},
@@ -812,5 +855,48 @@ WORDS.thumb = {
     suk: ["ikuulume", "ikuːlume"],  // The same word, with the prefix li-, also names the big toe in the Sukuma Bible.
     nso: ["monwana o mogolo", "monwana o moxolo"],  // Literally 'the big finger', monwana 'finger' + mogolo 'big'; the big toe is monwana o mogolo wa leoto.
     sg: ["kötä mabôko", "kota mabɔkɔ"],  // Literally 'big hand' (kötä 'big'); the Sango Bible says kötä li tî mabôko 'big tip of the hand'.
+    fon: ["alɔsú", "alɔsu"],  // Built on alɔ 'hand'; the big toe is afɔsú, built the same way on afɔ 'foot'.
+    mxc: ["chigunwe", "tʃiɡunwe"],  // Hannan marks this sense as Manyika and Zezuru; in Manyika the same word also names the big toe.
+    ay: ["tayka lukʼana", "tajka lukʼana"],  // Literally 'mother finger' (tayka 'mother' + lukʼana 'finger'); with kayu 'foot' it also names the big toe.
+    bbc: ["ina ni tangan", "ina ni taŋan"],  // Literally 'mother of the hand' (ina 'mother' + tangan 'hand').
+    pag: ["tangan", "taˈŋan"],  // One word for the thumb and the big toe: tangan na lima is the thumb of the hand, tangan na sali the big toe (Benton 1971). Route by resemblance to the neighbouring forms (Ilocano tangan); no etymology of its own.
+    teo: ["ebokorit lokapolon", "ebokorit lokapolon"],  // Literally 'the big finger' (ebokorit 'finger, toe' + -kapolon 'big'), as Kitching's 1915 handbook gives it.
+    wal: ["kushiyaa wogga biradhdhiya", "kuʃijaː woɡːa biraɗːija"],  // Literally 'the hand's wogga finger' (kushiya 'hand' + biradhdhiya 'finger'); the big toe is tohuwaa wogga biradhdhiya, with tohuwa 'foot'.
+    drs: ["abuguddo", "abuɡudːo"],  // One word for the thumb and the big toe: with anga 'hand' it is the thumb, with lekka 'foot' the big toe.
+    rhg: ["buijjá ouñl", "buidʒa oũl"],  // Literally 'old-man finger' (buijjá 'old man'), like Bengali buṛo aṅgul.
+    tyz: ["me mừ", "mɛ˧˧ mɨ˧˨"],  // Literally 'mother of the hand' (me 'mother' + mừ 'hand'); the big toe is me kha, and nịu me 'mother finger' is also used.
+    kbd: ["ӏэпхъуамбэшхуэ", "ʔapχʷambaʃxʷa"],  // Literally 'big finger' (ӏэпхъуамбэ 'finger' + шхуэ 'big'); the big toe is likewise лъэпхъуамбэшхуэ.
+    pwo: ["စူၪမု", "sumu"],  // Built on စူၪ 'hand'; the big toe is ခၪ့မု, built the same way on ခၪ့ 'foot'.
+    kha: ["'tikmie", "tikmie"],  // Literally 'mother of the hand' ('ti, short for kti 'hand', + kmie 'mother'); the big toe is likewise 'jatkmie 'mother of the foot'.
+    ndc: ["gunwe", "ɡunwe"],  // A class-5 noun on the stem of munwe 'finger', as in neighbouring Shona; with tsoka 'foot' it also names the big toe.
+    ve: ["gunwe", "ɡunwe"],  // Shares its stem with munwe 'finger' in another noun class; with mulenzhe 'leg' it also names the big toe.
+    mas: ["olmogirra", "olmoɡirːa"],  // One word for the thumb and the big toe (Payne and Ole-Kotikash); le nkaina 'of the hand' makes it the thumb.
+    tum: ["chigunwe", "tʃiɡunwe"],  // The same word, in the plural vigunwe, names both the thumbs and the big toes in the Tumbuka Bible.
+    hmn: ["ntiv tes xoo", "nti˨˦ te˨˩ sɔ̃˧"],  // ntiv tes 'finger' + xoo, a word used only for the thumb and the big toe (ntiv taw xoo 'big toe'), per Heimbach's White Hmong dictionary.
+    ban: ["inan lima", "inan limə"],  // Literally 'mother of the hand' (inan 'mother, chief' + lima 'hand'); the low-register gopong and the loan jempol are also used, and inan batis is the big toe.
+    lmo: ["mazza-pioeugg", "masaˈpjøtʃ"],  // Literally 'louse-killer', the Milanese name (like Kurdish ئەسپێکوژە); didon 'big finger' is the other name.
+    rki: ["လက်မ", "lɔʔma̰"],  // The same word as Burmese လက်မ, 'the main one of the hand'; it also means 'inch'.
+    bug: ["indoʼ jari", "indoʔ dʒari"],  // Literally 'mother of the fingers' (indoʼ 'mother' + jari 'finger'), like Malay ibu jari; the big toe is indoʼ ajé.
+    bjn: ["hibu", "hibu"],  // Also hibu tangan 'hibu of the hand' when set against hibu batis, the big toe; jempol and jumpul are also used.
+    sas: ["gempol", "ɡəmpol"],  // The Sasak word for the thumb, close to Javanese jempol.
+    ace: ["nang jaroe", "naŋ ɟaroe"],  // Literally 'mother of the hand' (nang 'mother (of animals)' + jaroe 'hand'); the big toe is nang gaki, and the dictionary also uses inong 'woman, mother' (inong gaki 'big toe').
+    yao: ["chikongo", "tʃikoŋɡo"],  // The same word also names the big toe (chikongo cha lukongolo 'thumb of the foot').
+    kok: ["आंगठो", "aːŋɡʈʰo"],  // The Konkani form of the old Indo-Aryan word for the thumb (Marathi अंगठा, Hindi अंगूठा); पांयाचो आंगठो is the big toe.
+    zza: ["gışta pil", "ɡɨʃta pil"],  // Literally 'big finger' (gışte 'finger' + pil 'big').
+    din: ["bundït", "bundit"],  // The Rek Dinka word, also in the phrase ciin bundït; Ruweng Dinka says ciin buthbuth instead.
+    haz: ["شست", "ʃast"],  // The same word as Persian شست; it names both the big toe and the thumb.
+    cv: ["пуҫ пӳрне", "puɕ pyrne"],  // Literally 'head finger' (пуҫ 'head; chief' + пӳрне 'finger'), like Turkish başparmak; паш-пӳрне is the nursery word.
+    li: ["doem", "duːm"],  // A word of its own, the Limburgish cognate of Dutch duim and German Daumen.
+    rgn: ["did gròṣ", "did ɡrɔs"],  // Literally 'big finger' (did 'finger' + gròṣ 'thick, big'); with de pe 'of the foot' it names the big toe.
+    quz: ["mama rukʼana", "ˈmama ɾuˈkʼana"],  // Literally 'mother finger' (mama 'mother' + ruk'ana 'finger'); the Cusco Bible uses the half-Spanish mama dedo.
+    dag: ["nubililɔɣu", "nubililɔɣu"],  // Literally 'male finger' (nubila 'finger' + -lɔɣu 'male'); the big toe is napombilɔɣu, the 'male toe'.
+    mnw: ["ၝောံ တဲ", "bɜ̀ʔ toa"],  // Literally 'main one of the hand' (ၝောံ 'female; main part of a thing' + တဲ 'hand'); the big toe is ၝောံ ဇိုၚ်, 'main one of the foot'.
+    tsg: ["bakul", "bakul"],  // A word of its own; the same word is also a measure, the width of a thumb.
+    kbp: ["niye abalʋ", "nije abalʊ"],  // Literally 'male finger' (niye 'finger' + abalʋ 'man; male'); the plural is niwee abalaa.
+    grt: ["jaksi ma·", "dʒaksi maʔ"],  // Literally 'mother finger' (jaksi 'finger' + ma· 'mother', as in ma·a 'mother').
+    tem: ["a-səl abana", "asəl abana"],  // Literally 'big finger' (a-səl 'finger, toe' + bana 'big').
+    mnk: ["bulukumbaa", "bulukumbaː"],  // Built on bulu 'hand'; the big toe is sinkumbaa, built the same way on sin- 'foot'.
+    lis: ["la-ma", "lɛ˧˩mɑ˧˧"],  // Literally 'hand mother' (la 'hand' + ma, the Tibeto-Burman 'mother; female; principal part' element, as in a-ma 'mother').
+    mrw: ["amaʼ a lima", "amaʔ a lima"],  // Literally 'father of the hand' (amaʼ 'father' + lima 'hand').
   },
 };

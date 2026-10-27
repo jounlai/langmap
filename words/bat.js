@@ -532,6 +532,15 @@ WORDS.bat = {
     nbl: "unknown",
     mas: "unknown",
     grt: "plain",
+    gsw: "mouse",
+    prs: "other",
+    ar_lev: "other",
+    ar_iq: "unknown",
+    ar_gulf: "unknown",
+    ar_ye: "unknown",
+    crk: "unknown",
+    ttj: "unknown",
+    laj: "unknown",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1009,5 +1018,14 @@ WORDS.bat = {
     nbl: ["umaphelaphelana", "umapʰelapʰelana"],  // The Southern Ndebele word for the bat, a class 1a noun with plural abomaphelaphelana.
     mas: ["ɛnɛkɔkɛsɛna", "ɛnɛkɔkɛsɛna"],  // The Maa word for the bat in Payne and Ole-Kotikash; fruit bats have separate names such as ɛsarambala.
     grt: ["do·bak", "doʔbak"],  // The second syllable continues the Proto-Sino-Tibetan bat word *pək.
+    gsw: ["Flädermuus", "ˈflædərmuːs"],  // The Swiss German form of Fledermaus, a 'flutter-mouse' with Muus 'mouse'; Glarus dialect lists record fledərmūs.
+    prs: ["شب‌پره", "ʃabpaˈra"],  // Literally 'night flyer': شب 'night' plus the stem of پریدن 'to fly'; Iranian Persian now says خفاش instead.
+    ar_lev: ["خفاش", "xafˈfaːʃ"],  // Inherited from Arabic khuffāsh, from a verb meaning 'to be day-blind'; وطواط waṭwāṭ is also used.
+    ar_iq: ["خشافة", "xiʃˈʃaːfa"],  // Iraqi xiššāfa 'a bat', the unit noun of collective خشاف; classical lexicons list خُشَّاف beside خُفَّاش for the bat.
+    ar_gulf: ["سحية", "siˈħijja"],  // The Gulf dialect word sḥiyya for the bat, also in the phrase سحية الليل; its origin is not given in the source.
+    ar_ye: ["خواف", "xuˈwaːf"],  // The Yemeni word xuwāf, glossed in Arabic as الوطواط، الخفاش 'the bat'.
+    crk: ["ᐊᐸᐦᒁᒌᐢ", "apahkwaːtʃiːs"],  // The Plains Cree word for the bat, apahkwâcîs in Roman spelling; a variant pahkwâcîs is also listed.
+    ttj: ["ekihuguhugu", "ekihuɡuhuɡu"],  // The Rutooro word for the bat, plural ebihuguhugu, the same word as in Runyoro.
+    laj: ["olik", "olik"],  // The Lango word for the bat, the same word as Acholi olik.
   },
 };

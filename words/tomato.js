@@ -174,7 +174,7 @@ WORDS.tomato = {
     wa: "nahuatl",
     lmo: "unknown",
     bar: "apple",
-    khb: "unknown",
+    khb: "other",
     tum: "unknown",
     pnb: "nahuatl",
     cjy_lv: "foreign",
@@ -380,6 +380,38 @@ WORDS.tomato = {
     awa: "nahuatl",
     mag: "nahuatl",
     mos: "nahuatl",
+    dag: "unknown",
+    li: "nahuatl",
+    nag: "foreign",
+    mrw: "nahuatl",
+    tsg: "nahuatl",
+    ach: "unknown",
+    mnk: "unknown",
+    grt: "foreign",
+    sus: "nahuatl",
+    mas: "unknown",
+    rhg: "unknown",
+    ay: "nahuatl",
+    dnj: "nahuatl",
+    cgg: "unknown",
+    mer: "unknown",
+    efi: "nahuatl",
+    ve: "nahuatl",
+    luo: "unknown",
+    dje: "nahuatl",
+    kmb: "unknown",
+    yao: "unknown",
+    shn: "other",
+    vec: "apple",
+    zza: "unknown",
+    srn: "nahuatl",
+    ssw: "nahuatl",
+    doi: "nahuatl",
+    kam: "unknown",
+    nyn: "unknown",
+    bej: "nahuatl",
+    bug: "unknown",
+    ace: "nahuatl",
   },
   routes: {
     nahuatl: {"color":"#dc2626","emoji":"🌽","en":"from Nahuatl tomatl","ja":"ナワトル語 tomatl から","ko":"나우아틀어 tomatl에서","zh":"源自纳瓦特尔语 tomatl","yue":"源自納瓦特爾語 tomatl","vi":"từ tiếng Nahuatl tomatl","th":"จากภาษานาวัตล์ tomatl","id":"dari bahasa Nahuatl tomatl","hi":"नाहुआत्ल tomatl से","de":"aus Nahuatl tomatl","fr":"du nahuatl tomatl","it":"dal nahuatl tomatl","es":"del náhuatl tomatl","pt":"do náuatle tomatl","ru":"из науатль tomatl","uk":"з науатль tomatl","ar":"من الناواتلية tomatl","he":"מנאוואטל tomatl","sw":"kutoka Kinahuatl tomatl"},
@@ -498,7 +530,7 @@ WORDS.tomato = {
     wa: ["tomate", "tɔˈmat"],  // From French tomate; peme d'amour 'love apple' is a synonym.
     lmo: ["tomates", "tuˈmatez"],  // Milanese tomates; eastern Lombard says pomdòr 'golden apple'.
     bar: ["Paradeiser", "bɑrɑˈdɑɛsɐ"],  // From Paradeisåpfe 'paradise apple'; Tomatn is a synonym.
-    khb: ["ᦖᦱᧅᦵᦃᦲᦉᦳᧄᧉ", "maːk˧˥ xɤː˥ sum˩˧"],  // Etymology not given by the source.
+    khb: ["ᦖᦱᧅᦵᦃᦲᦉᦳᧄᧉ", "maːk˧˥ xɤː˥ sum˩˧"],  // Etymology not given by the source. Route by resemblance to the neighbouring forms (Shan မၢၵ်ႇၶိူဝ်သူမ်ႈ); no etymology of its own.
     tum: ["mpwetekele", "mpwetekele"],  // Compare Chichewa phwetekere; etymology not given by the sources.
     pnb: ["ٹماٹر", "ʈəmaːʈəɾ"],  // Borrowed from English tomato.
     cjy_lv: ["西红柿", "sɿ˨˦ xuʌŋ˦˦ sɿ˥˨"],  // Lishi lists 西红柿 first: 西 'west' + 红 'red' + 柿 'persimmon': the 'western red persimmon'.
@@ -704,5 +736,37 @@ WORDS.tomato = {
     awa: ["टमाटर", "ʈəmaːʈər"],  // The same word as Hindi टमाटर. Route by resemblance to the neighbouring forms (Hindi टमाटर, Urdu ٹماٹر); no etymology of its own.
     mag: ["टमाटर", "ʈəmaːʈər"],  // The same word as Hindi टमाटर. Route by resemblance to the neighbouring forms (Hindi टमाटर, Urdu ٹماٹر); no etymology of its own.
     mos: ["tomate", "tomate"],  // Etymology not given by the source. Route by resemblance to the neighbouring forms (German Tomate, Galician tomate); no etymology of its own.
+    dag: ["kamantooŋa", "kamantoːŋa"],  // The plural is kamantoonsi; the etymology is not given by the source.
+    li: ["temaat", "təmaːt"],  // Plural temate; local forms such as temmaot are also listed, and the etymology is not given by the source. Route by resemblance to the neighbouring forms (English tomato, Dutch tomaat); no etymology of its own.
+    nag: ["bilati-bengena", "bilati beŋena"],  // Literally 'foreign brinjal', like Assamese bilahi-bengena; golbhera and pingana are also listed.
+    mrw: ["kamantis", "kamantis"],  // Compare Tagalog kamatis; the source gives no etymology. Route by resemblance to the neighbouring forms (Tagalog, Cebuano, Ilocano and Hiligaynon kamatis); no etymology of its own.
+    tsg: ["kamatis", "kamatis"],  // The same word as Tagalog kamatis; the source gives no etymology. Route by resemblance to the neighbouring forms (Tagalog, Cebuano, Ilocano and Hiligaynon kamatis); no etymology of its own.
+    ach: ["nyanya", "ɲaɲa"],  // The same word as Swahili nyanya; the source gives no etymology.
+    mnk: ["menteŋo", "menteŋo"],  // Cited with the -o suffix like the row's other nouns; jaatoo is the bitter tomato, and the etymology is not given.
+    grt: ["baring belati", "bariŋ belati"],  // Literally 'foreign brinjal': baring 'brinjal' + belati 'foreign', the same image as Assamese bilahi-bengena.
+    sus: ["tamasi", "tamasi"],  // Fresh tomatoes are tamasi bogi and tinned ones tamasi pɔti; the source gives no etymology. Route by resemblance to the neighbouring forms (Tswana, Sotho and Northern Sotho tamati); no etymology of its own.
+    mas: ["olnyanyai", "ɔlɲaɲai"],  // Payne and Ole-Kotikash give ɔl-nyányāī, plural ɨl-nyánya, with a western variant ɔl-nyɛ́nyāī; the dictionary gives no etymology.
+    rhg: ["thayon", "ʈʰajon"],  // Etymology not given by the source.
+    ay: ["tumati", "tuˈmati"],  // Listed beside other Spanish-derived crop names such as asituna 'olive' and pirasa 'pear'; the source gives no etymology. Route by resemblance to the neighbouring forms (Spanish and Portuguese tomate); no etymology of its own.
+    dnj: ["tàbhàntíȉ", "tàmã̀tíȉ"],  // Borrowed from French tomate (Vydrine 2021), which goes back through Spanish to Nahuatl tomatl.
+    cgg: ["enyaanya", "eɲaːɲa"],  // Taylor gives enyaanya for 'tomatoes' and orunyaanya for a single tomato or the plant; the same word as Swahili nyanya, but the sources give no etymology.
+    mer: ["nyanya", "ɲaɲa"],  // The same word as Swahili nyanya; the survey gives no etymology.
+    efi: ["tomato", "tomato"],  // Una's Efik course uses tomato in its example sentences; the source gives no etymology. Route by resemblance to the neighbouring forms (English tomato); no etymology of its own.
+    ve: ["tamatisi", "tamatisi"],  // Plural matamatisi; etymology not given by the source. Route by resemblance to the neighbouring forms (Tsonga tamatisi, Zulu utamatisi); no etymology of its own.
+    luo: ["nyanya", "ɲaɲa"],  // The same word as Swahili nyanya; its etymology is not given by the sources.
+    dje: ["tomati", "tomati"],  // Etymology not given by the source. Route by resemblance to the neighbouring forms (Lingala tomáti, Yoruba tòmátì); no etymology of its own.
+    kmb: ["mata", "mata"],  // A class 9/10 noun, plural jimata; the tomato plant is mumata. Etymology not given by the sources.
+    yao: ["mapwetechela", "mapwetetʃela"],  // A plural (ma-) noun; Hetherwick's 1902 handbook spells it mapwetechelo. Etymology not given by the sources.
+    shn: ["မၢၵ်ႇၶိူဝ်သူမ်ႈ", "maːk˩ kʰɤː˨˦ som˧˨"],  // Literally 'sour eggplant': မၢၵ်ႇၶိူဝ် 'eggplant' + သူမ်ႈ 'sour', the same image as Burmese ခရမ်းချဉ်.
+    vec: ["pomidoro", "pomiˈdoro"],  // From pomo d'oro 'golden apple', the name Boerio's Venetian dictionary records for the tomato.
+    zza: ["şamıke", "ʃaˈmɨke"],  // Lolıke is a synonym; the Zazaki Wikipedia also lists tomatese, fırenge and bıldige. Etymology not given by the sources.
+    srn: ["tomati", "tomati"],  // Etymology not given by the sources. Route by resemblance to the neighbouring forms (Dutch tomaat, Lingala tomáti); no etymology of its own.
+    ssw: ["litamatisi", "litamatiːsi"],  // A class 5/6 noun (li-/ema-), plural ematamatisi; etymology not given by the source. Route by resemblance to the neighbouring forms (Zulu utamatisi, Tsonga tamatisi); no etymology of its own.
+    doi: ["टमाटर", "ʈəmaːʈəɾ"],  // The same word as Hindi टमाटर. Route by resemblance to the neighbouring forms (Hindi टमाटर, Punjabi ਟਮਾਟਰ); no etymology of its own.
+    kam: ["nyanya", "ɲaɲa"],  // Plural manyanya; the same word as Swahili nyanya, and a homonym of Kamba nyanya 'eight'. Etymology not given by the sources.
+    nyn: ["orunyaanya", "oruɲaːɲa"],  // A class 11 noun with plural enyaanya; compare Swahili nyanya. Etymology not given by the sources.
+    bej: ["tamaatim", "tamaːtim"],  // A collective noun borrowed from Arabic ṭamāṭim, ultimately from Aztec tomatl; one tomato is tamaatnaaji.
+    bug: ["lambace", "lambatʃe"],  // Etymology not given by the source.
+    ace: ["tomat", "tomat"],  // The Acehnese Wikipedia gives the older names truëng kléng, truëng turuki and seumaté, and says the plant is now usually called tomat. Route by resemblance to the neighbouring forms (Indonesian tomat); no etymology of its own.
   },
 };

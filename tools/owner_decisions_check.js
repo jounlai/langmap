@@ -145,7 +145,7 @@ const DECISIONS = [
             const L = JSON.parse(read('data/wordmap_seo.json')).langs;
             // Separate languages that only share a code prefix (Ryukyuan, Jejueo, Guinea-Bissau Kriol).
             const SEP = new Set(['ja_oki', 'ja_mvi', 'ja_rys', 'ko_jeju', 'pt_gw']);
-            const BUDGET = { lol: 0, turkey: 51, potato: 34, mobilephone: 49, hangover: 56, ladybird: 61, monday: 21, whale: 50, wisdomtooth: 54, cheers: 31, blessyou: 24, sunflower: 40, goosebumps: 51, octopus: 54, shootingstar: 43, jellyfish: 70, tomato: 44, pineapple: 69, adamsapple: 59, germany: 37, japan: 34, china: 27, korea: 36, india: 29, greece: 38, atsign: 30, blue: 5, cockcrow: 46, coffee: 25, computer: 8, cuckoo: 27, dopamine: 31, n99: 11, orange: 7, sugar: 11, sushi: 11, tea: 8, wifi: 26, woof: 29 };
+            const BUDGET = { lol: 0, turkey: 51, potato: 34, mobilephone: 49, hangover: 56, ladybird: 61, monday: 21, whale: 50, wisdomtooth: 54, cheers: 31, blessyou: 24, sunflower: 40, goosebumps: 51, octopus: 54, shootingstar: 43, jellyfish: 70, tomato: 45, pineapple: 69, adamsapple: 59, germany: 37, japan: 34, china: 27, korea: 36, india: 29, greece: 38, atsign: 30, blue: 5, cockcrow: 46, coffee: 25, computer: 8, cuckoo: 27, dopamine: 31, n99: 11, orange: 7, sugar: 11, sushi: 11, tea: 8, wifi: 26, woof: 29 };
             const bad = [];
             for (const f of fs.readdirSync(path.join(ROOT, 'words'))) {
                 if (!f.endsWith('.js') || !/partial:\s*true/.test(read('words/' + f))) continue;

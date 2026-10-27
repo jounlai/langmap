@@ -747,6 +747,13 @@ WORDS.yesterday = {
     wal: "distinct",
     egl: "distinct",
     fon: "same",
+    ttj: "same",
+    laj: "distinct",
+    rmy: "distinct",
+    jvn: "distinct",
+    crk: "distinct",
+    gsw: "distinct",
+    ar_tn: "distinct",
   },
   routes: {
     same: {"color":"#db2777","emoji":"🔁","en":"one word for yesterday and tomorrow","ja":"昨日と明日が同じ語","ko":"어제와 내일이 한 낱말","zh":"昨天和明天同一个词","yue":"尋日同聽日同一個詞","vi":"một từ cho hôm qua và ngày mai","th":"คำเดียวทั้งเมื่อวานและพรุ่งนี้","id":"satu kata untuk kemarin dan besok","hi":"बीते और आने वाले कल का एक शब्द","de":"ein Wort für gestern und morgen","fr":"un mot pour hier et demain","it":"una parola per ieri e domani","es":"una palabra para ayer y mañana","pt":"uma palavra para ontem e amanhã","ru":"одно слово для вчера и завтра","uk":"одне слово для учора й завтра","ar":"كلمة واحدة لأمس وغد","he":"מילה אחת לאתמול ולמחר","sw":"neno moja kwa jana na kesho"},
@@ -1439,5 +1446,12 @@ WORDS.yesterday = {
     wal: ["zine", "zine"],  // tomorrow: wontto; hachchi is 'today', and Wiktionary's translation table gives the noun form zino.
     egl: ["iêr", "jeːr"],  // tomorrow: dmân; Modenese also says aiēr.
     fon: ["sɔ̀", "sɔ"],  // tomorrow: the same word; 'the sɔ̀ that has passed' (sɔ̀ é kó wá yí ɔ́) is yesterday and 'the sɔ̀ that is coming' tomorrow (Poirot).
+    ttj: ["ijo", "idʒo"],  // Ijo means both 'yesterday' (Hebrews 13:8, John 4:52) and 'tomorrow' (Matthew 6:34) in the joint Runyoro-Rutooro Bible.
+    laj: ["aworo", "aworo"],  // Tomorrow: diki; aworo is used for 'yesterday' in the Lango Bible (Hebrews 13:8, John 4:52), where Acholi has laworo.
+    rmy: ["arachi", "aratʃi"],  // Tomorrow: tehara; Vlax Romani arachi (Gurbet eraći) replaces the idž of other Romani dialects, as in Hebrews 13:8 of the Vlax Romani Bible.
+    jvn: ["wingi", "wiŋi"],  // Tomorrow: sésuk; Suriname Javanese keeps the Javanese ngoko wingi, as in John 4:52 of the Suriname Javanese Bible.
+    crk: ["ᐅᑖᑯᓰᕽ", "otaːkosiːhk"],  // Tomorrow: ᐚᐸᐦᑭ; otâkosîhk is also glossed 'the previous evening', and the Plains Cree scriptures use it for yesterday in John 4:52.
+    gsw: ["geschter", "ˈɡɛʃtər"],  // Tomorrow: moorn; geschter is the Swiss German form of German gestern, with st pronounced ʃt.
+    ar_tn: ["آمس", "ˈeːməs"],  // Tomorrow: غدوة; ēmes continues Arabic ʔams, and Tunisian also says البارح el-bāriḥ.
   },
 };

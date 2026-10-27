@@ -779,6 +779,10 @@ WORDS.tomorrow = {
     rgn: "morning",
     shy: "unknown",
     snk: "unknown",
+    ext: "morning",
+    vi_c: "morning",
+    jvn: "unknown",
+    ttj: "same",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -1502,5 +1506,9 @@ WORDS.tomorrow = {
     rgn: ["dmân", "dmaːn"],  // From Late Latin dē māne 'early in the morning', like Italian domani (Wiktionary); yesterday is jìr.
     shy: ["azekka", "azəkːa"],  // Azekka is the Chaoui word for 'tomorrow', shared with Kabyle; adečča is also used (Wiktionnaire).
     snk: ["xunbane", "xumbane"],  // Xunbane is 'tomorrow' and daaru 'yesterday' in the Asawan Soninke lexicon; xunbanefalle is 'the day after tomorrow'.
+    ext: ["mañana", "maˈɲana"],  // Mañana means both 'tomorrow' and 'morning' in Extremaduran, as in Spanish.
+    vi_c: ["ngày mai", "ŋaj˦˨ maːj˥"],  // Literally 'morning day': mai means 'early morning', the same word as in the North and South (Wiktionary).
+    jvn: ["sésuk", "sesuk"],  // Sésuk is the Suriname Javanese word for 'tomorrow', as in Java.
+    ttj: ["ijo", "idʒo"],  // Ijo serves for both 'tomorrow' and 'yesterday' in the Runyoro-Rutooro Bible; nyenkya is also used for 'tomorrow'.
   },
 };

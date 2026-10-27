@@ -456,6 +456,8 @@ WORDS.potato = {
     iba: "other",
     mas: "other",
     mrw: "papa",
+    ko_kp: "other",
+    zh_hf: "other",
   },
   routes: {
     papa: {"color":"#ca8a04","emoji":"🏔️","en":"Quechua papa · Taíno batata","ja":"ケチュア語 papa・タイノ語 batata","ko":"케추아어 papa · 타이노어 batata","zh":"克丘亚语 papa・泰诺语 batata","yue":"克丘亞語 papa · 泰諾語 batata","vi":"Quechua papa · Taíno batata","th":"เกชัว papa · ไตโน batata","id":"Quechua papa · Taíno batata","hi":"क्वेचुआ papa · ताइनो batata","de":"Quechua papa · Taíno batata","fr":"quechua papa · taïno batata","it":"quechua papa · taíno batata","es":"quechua papa · taíno batata","pt":"quíchua papa · taíno batata","ru":"кечуа papa · таино batata","uk":"кечуа papa · таїно batata","ar":"كيتشوا papa · تاينو batata","he":"קצ'ואה papa · טאינו batata","sw":"Kiquechua papa · Kitaino batata"},
@@ -853,5 +855,7 @@ WORDS.potato = {
     iba: ["kentang", "kəntaŋ"],  // The same word as Malay kentang; the Iban dictionary glosses it 'ubi kentang', the potato. Route by resemblance to the neighbouring forms (Indonesian, Malay, Sundanese and Balinese kentang); no etymology of its own.
     mas: ["enkuashe", "ɛŋkuaʃe"],  // Plural inkuashen; borrowed from Kikuyu ngwacĩ, and the sweet potato is a different word, olgisoyiai; Tanzanian Maasai also says olbiasi, from Swahili viazi.
     mrw: ["patatas", "patatas"],  // The same word as Tagalog patatas; the sweet potato is a different word, obi. Route by resemblance to the neighbouring forms (Tagalog, Cebuano, Ilocano and Hiligaynon patatas); no etymology of its own.
+    ko_kp: ["감자", "kamdʑa"],  // The same word as in the South; North Korea's potato drive centres on Taehongdan County, celebrated in the children's song 《대홍단 감자》.
+    zh_hf: ["洋山芋", "jiɑ̃˦˥ ʂɐ̃˨˩˨ jy˥˩"],  // Literally "foreign yam-taro": the native 山芋 with 洋 "from overseas"; Hefei also says 土豆 and formal 马铃薯.
   },
 };

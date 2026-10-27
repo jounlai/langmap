@@ -535,6 +535,7 @@ WORDS.monday = {
     sus: "count",
     quz: "moon",
     nag: "moon",
+    hak_hl: "count",
   },
   routes: {
     moon: {"color":"#7c3aed","emoji":"🌙","en":"the moon's day","ja":"月の日","ko":"달의 날","zh":"月亮之日","yue":"月亮嘅日","vi":"ngày mặt trăng","th":"วันของดวงจันทร์","id":"hari bulan","hi":"चंद्रमा का दिन","de":"Tag des Mondes","fr":"jour de la lune","it":"giorno della luna","es":"día de la luna","pt":"dia da lua","ru":"день луны","uk":"день місяця","ar":"يوم القمر","he":"יום הירח","sw":"siku ya mwezi"},
@@ -1012,5 +1013,6 @@ WORDS.monday = {
     sus: ["tɛnɛn", "tɛnɛn"],  // The Susu name for Monday ('Tɛnɛn nan to ra', 'it is Monday'); the source gives no etymology. Route by resemblance to the neighbouring forms (Bambara ntɛnɛn); no etymology of its own.
     quz: ["lunes", "ˈlunes"],  // Borrowed from Spanish lunes, from Latin Lūnae diēs, 'day of the Moon'; the purist coinage killachaw, 'moon day', is also taught.
     nag: ["sombar", "sombar"],  // Listed as the synonym of the English loan Monday, which is also used; the source gives no etymology for sombar. Route by resemblance to the neighbouring forms (Nepali and Dogri सोमबार, Bodo समबार); no etymology of its own.
+    hak_hl: ["拜一", "pai˩˩ ʒit˥"],  // Short for 禮拜一, "week-day one"; Hailu Hakka baiˇ rhid.
   },
 };

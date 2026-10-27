@@ -449,6 +449,15 @@ WORDS.mobilephone = {
     bo: "hand",
     tk: "carry",
     qu: "cell",
+    jam: "carry",
+    srn: "other",
+    cpx: "hand",
+    glk: "other",
+    ban: "hand",
+    li: "carry",
+    sco: "carry",
+    dag: "unknown",
+    tsg: "cell",
   },
   routes: {
     hand: {"color":"#ea580c","emoji":"✋","en":"the hand","ja":"手","ko":"손","zh":"手","yue":"手","vi":"bàn tay","th":"มือ","id":"tangan","hi":"हाथ","de":"die Hand","fr":"la main","it":"la mano","es":"la mano","pt":"a mão","ru":"рука","uk":"рука","ar":"اليد","he":"היד","sw":"mkono"},
@@ -841,5 +850,14 @@ WORDS.mobilephone = {
     bo: ["ལག་ཐོག་ཁ་དཔར", "laʔ˩˧ tʰoʔ˥˧ kʰa˥ paː˥"],  // Literally 'hand-held telephone': ལག 'hand' + ཐོག 'on' + ཁ་དཔར 'telephone' (itself borrowed from English 'cable').
     tk: ["mobil telefon", "moˈbil teleˈfon"],  // Literally 'mobile telephone', as in Azerbaijani and Uzbek; el telefony 'hand telephone' and ykjam telefon 'compact telephone' are also listed.
     qu: ["silular", "siˈlular"],  // Borrowed from Spanish celular 'cellular (phone)'; Quechua Wikipedia also coins apaychana karurimana 'carryable far-speaker'.
+    jam: ["mobail fuon", "mɔbail fuon"],  // Borrowed from English 'mobile phone'; Wiktionary also lists the spelling muobail fuon.
+    srn: ["kari", "kari"],  // Literally 'call', from English call; the same word also means a phone generally and a phone number.
+    cpx: ["手机", "tsʰiu˦˥˧ ki˥˧˧"],  // Literally 'hand machine', the same word as Mandarin 手机.
+    glk: ["گؤشي", "ɡoʃi"],  // Literally 'ear-piece', like Persian گوشی (گوش 'ear'), first the handset of a landline; مؤبايل 'mobile' is also used.
+    ban: ["hapé", "hape"],  // From HP, the Indonesian initials of English 'handphone', read ha-pé.
+    li: ["mobielke", "mobilkə"],  // Literally 'little mobile', diminutive of mobiel 'mobile' as in Dutch mobieltje; gsm is the synonym, and the Mofers dialect says Hendie.
+    sco: ["mobile phone", "ˈmobəil fon"],  // The same word as in British English, 'mobile' for short; Scots Wikipedia uses it throughout.
+    dag: ["nuchɛbaŋa", "nutʃɛbaŋa"],  // The Dagbani Wikipedia name for the mobile phone, distinct from ŋmeli baŋa 'telephone'; its make-up is not documented in the sources.
+    tsg: ["silpun", "silpun"],  // From English 'cell phone', the Philippine Tausug word; Malaysian Tausug says hinpun 'handphone'.
   },
 };

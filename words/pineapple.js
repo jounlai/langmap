@@ -342,6 +342,26 @@ WORDS.pineapple = {
     luo: "nanas",
     kmb: "nanas",
     lmo: "nanas",
+    es_py: "pine",
+    es_pr: "pine",
+    es_do: "pine",
+    es_gt: "pine",
+    es_ec: "pine",
+    es_ve: "pine",
+    es_uy: "nanas",
+    ar_sy: "nanas",
+    pt_mz: "nanas",
+    pt_cv: "nanas",
+    pt_mo: "nanas",
+    ko_kp: "pine",
+    vi_s: "other",
+    vi_c: "other",
+    en_ie: "pine",
+    en_sco: "pine",
+    en_south: "pine",
+    en_ck: "pine",
+    en_est: "pine",
+    hak_hl: "other",
   },
   routes: {
     nanas: {"color":"#ea580c","emoji":"🌎","en":"from Tupi naná","ja":"トゥピ語 naná から","ko":"투피어 naná에서","zh":"源自图皮语 naná","yue":"源自圖皮語 naná","vi":"từ tiếng Tupi naná","th":"จากภาษาตูปี naná","id":"dari bahasa Tupi naná","hi":"तूपी naná से","de":"aus Tupi naná","fr":"du tupi naná","it":"dal tupi naná","es":"del tupí naná","pt":"do tupi naná","ru":"из тупи naná","uk":"з тупі naná","ar":"من التوبية naná","he":"מטופי naná","sw":"kutoka Kitupi naná"},
@@ -628,5 +648,25 @@ WORDS.pineapple = {
     luo: ["mananas", "mananas"],  // Odaga's English-Dholuo dictionary gives mananas; no source traces the word. Route by resemblance to the neighbouring forms (sw(nanasi) lg(ennaanansi)); no etymology of its own.
     kmb: ["nanaji", "nanaʒi"],  // Marked as adapted from Portuguese ananás in the 1903 dictionary; honjo ia Putu, 'banana of Portugal', is also recorded.
     lmo: ["ananass", "anaˈnas"],  // The Milanese dictionaries write ananàss, stressed on the last syllable; no source traces the word. Route by resemblance to the neighbouring forms (it(ananas) fr(ananas)); no etymology of its own.
+    es_py: ["piña", "ˈpiɲa"],  // Piña is first of all a pine cone; the fruit was named for looking like one.
+    es_pr: ["piña", "ˈpiɲa"],  // Piña is first of all a pine cone; the fruit was named for looking like one.
+    es_do: ["piña", "ˈpiɲa"],  // Piña is first of all a pine cone; the fruit was named for looking like one.
+    es_gt: ["piña", "ˈpiɲa"],  // Piña is first of all a pine cone; the fruit was named for looking like one.
+    es_ec: ["piña", "ˈpiɲa"],  // Piña is first of all a pine cone; the fruit was named for looking like one.
+    es_ve: ["piña", "ˈpiɲa"],  // Piña is first of all a pine cone; the fruit was named for looking like one.
+    es_uy: ["ananá", "anaˈna"],  // From Portuguese ananás, with the -s taken as a plural ending; Uruguayans, like Argentines, say ananá where most Spanish speakers say piña.
+    ar_sy: ["أناناس", "ʔanaːnaːs"],  // Ultimately from Portuguese ananás, borrowed from Old Tupi.
+    pt_mz: ["ananás", "ɐnɐˈnaʃ"],  // Taken straight from Old Tupi naná; Brazilians say abacaxi.
+    pt_cv: ["ananás", "ɐnɐˈnaʃ"],  // Taken straight from Old Tupi naná; Brazilians say abacaxi.
+    pt_mo: ["ananás", "ɐnɐˈnaʃ"],  // Taken straight from Old Tupi naná; Brazilians say abacaxi.
+    ko_kp: ["파이내플", "pʰainɛpʰɯl"],  // Borrowed from English pineapple; North Korea spells it 파이내플, the South 파인애플.
+    vi_s: ["thơm", "tʰəːm˧"],  // Southern Vietnamese calls the pineapple thơm, 'fragrant'; the North says dứa.
+    vi_c: ["thơm", "tʰəːm˥"],  // Central Vietnamese calls the pineapple thơm, 'fragrant'; the North says dứa.
+    en_ie: ["pineapple", "ˈpaɪnapəl"],  // Middle English pinappel meant "pine cone"; the name passed to the fruit because it looks like one.
+    en_sco: ["pineapple", "ˈpaɪnapəl"],  // Middle English pinappel meant "pine cone"; the name passed to the fruit because it looks like one.
+    en_south: ["pineapple", "ˈpaːnæːpəl"],  // Middle English pinappel meant "pine cone"; the name passed to the fruit because it looks like one.
+    en_ck: ["pineapple", "ˈpɑɪnæpəl"],  // Middle English pinappel meant "pine cone"; the name passed to the fruit because it looks like one.
+    en_est: ["pineapple", "ˈpɑɪnæpəl"],  // Middle English pinappel meant "pine cone"; the name passed to the fruit because it looks like one.
+    hak_hl: ["黃梨", "voŋ˥˥ li˥˥"],  // "Yellow pear": 黃 "yellow" + 梨 "pear".
   },
 };

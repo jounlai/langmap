@@ -516,6 +516,25 @@ WORDS.monday = {
     awa: "moon",
     anp: "moon",
     hak_tw: "count",
+    cpx: "count",
+    tcy: "moon",
+    ii: "count",
+    kde: "count",
+    kam: "unknown",
+    luo: "unknown",
+    bci: "unknown",
+    quc: "count",
+    seh: "count",
+    nus: "unknown",
+    xnr: "moon",
+    ach: "unknown",
+    li: "moon",
+    grt: "unknown",
+    mnk: "unknown",
+    tem: "unknown",
+    sus: "count",
+    quz: "moon",
+    nag: "moon",
   },
   routes: {
     moon: {"color":"#7c3aed","emoji":"🌙","en":"the moon's day","ja":"月の日","ko":"달의 날","zh":"月亮之日","yue":"月亮嘅日","vi":"ngày mặt trăng","th":"วันของดวงจันทร์","id":"hari bulan","hi":"चंद्रमा का दिन","de":"Tag des Mondes","fr":"jour de la lune","it":"giorno della luna","es":"día de la luna","pt":"dia da lua","ru":"день луны","uk":"день місяця","ar":"يوم القمر","he":"יום הירח","sw":"siku ya mwezi"},
@@ -974,5 +993,24 @@ WORDS.monday = {
     awa: ["सोमवार", "soːmʋaːr"],  // From Sanskrit somavāra, soma 'moon' + vāra 'day'; Awadhi Wikipedia also gives the colloquial सुम्मार and short सोम.
     anp: ["सोमार", "soːmaːr"],  // The Angika name of Monday; the source gives no etymology, though it matches Bhojpuri सोमार and Hindi सोमवार 'moon day'. Route by resemblance to the neighbouring forms (Konkani सोमार, Bhojpuri सोमार); no etymology of its own.
     hak_tw: ["拜一", "pai˥˥ it˨"],  // Short for 禮拜一, 'week-day one', as Miaoli Hakka says it.
+    cpx: ["拜一", "pai˦˨ i˨˩"],  // Short for 禮拜一, "week (literally 'worship') one", as in Hokkien 拜一.
+    tcy: ["ಸೋಮಾರ", "soːmaːɾa"],  // The Tulu form of sōmavāra, "moon day"; Tulu Wikipedia gives Kannada sōmavāra / candravāra as its equivalent.
+    ii: ["ꆏꊂꋍ", "nɯ˧˧wa˧˧tsʰɿ˨˩"],  // A numbered day: Monday ends in ꋍ "one", and Tuesday to Saturday end in the numerals two to six.
+    kde: ["liduva lyatatu", "liduva ljatatu"],  // "The third day (sun)": the Makonde week is numbered, with Sunday as the second and Monday as the third, as in Swahili Jumatatu.
+    kam: ["Wa kwambĩlĩlya", "wa kwambelelja"],  // Wa kwambĩlĩlya, the Kamba name for Monday; Tuesday to Friday are numbered (wa kelĩ, wa katatũ ...), but the source does not gloss Monday's name.
+    luo: ["Wuok Tich", "wuok titʃ"],  // Wuok Tich, the Dholuo name for Monday; Tuesday to Friday are tich ariyo, tich adek ... with the numerals two to five.
+    bci: ["kisie", "kisie"],  // Kisie, the Baoulé name for Monday; boys born on it are named Kuasi (Kouassi) and girls Akisi (Akissi).
+    quc: ["Ukabʼ qʼij", "ukaɓ qʼix"],  // Literally 'second day': ukabʼ 'second' (from kebʼ 'two') + qʼij 'sun, day'; Sunday is Nabʼe qʼij, 'first day'.
+    seh: ["Chiposi", "tʃiposi"],  // Built on posi 'one': the first day of a numbered week that runs Chipiri, Chitatu, Chinai, Chishanu.
+    nus: ["Jiec la̱t", "ɟiec lat"],  // The Nuer name for Monday; Tuesday to Saturday are counted (Rɛw lätni 'two', Diɔ̱k lätni 'three' ...), but the source does not explain jiec.
+    xnr: ["सोआर", "soaːr"],  // The Kangri name for Monday as given by CLDR; the source gives no etymology. Route by resemblance to the neighbouring forms (Konkani, Bhojpuri and Angika सोमार); no etymology of its own.
+    ach: ["ceng baraja", "tʃɛŋ baradʒa"],  // Literally 'day of baraja'; the following days are counted, ceng aryo 'day two' for Tuesday, ceng adek 'day three' for Wednesday, but the source does not explain baraja.
+    li: ["maondig", "mɔːndɪç"],  // A loan translation of Latin Lunae dies, 'day of the Moon' (Limburgish Wikipedia); Maastricht writes maondag.
+    grt: ["griso", "ɡriso"],  // The Garo name for Monday; the source gives no etymology.
+    mnk: ["teneŋo", "teneŋo"],  // The Mandinka name for Monday, with the -o of the citation form; the source gives no etymology.
+    tem: ["athɛnɛ", "at̪ɛnɛ"],  // The Temne name for Monday, one of a week list (Alathi, Athɛnɛ, Athalatha ...) whose origin the source does not state.
+    sus: ["tɛnɛn", "tɛnɛn"],  // The Susu name for Monday ('Tɛnɛn nan to ra', 'it is Monday'); the source gives no etymology. Route by resemblance to the neighbouring forms (Bambara ntɛnɛn); no etymology of its own.
+    quz: ["lunes", "ˈlunes"],  // Borrowed from Spanish lunes, from Latin Lūnae diēs, 'day of the Moon'; the purist coinage killachaw, 'moon day', is also taught.
+    nag: ["sombar", "sombar"],  // Listed as the synonym of the English loan Monday, which is also used; the source gives no etymology for sombar. Route by resemblance to the neighbouring forms (Nepali and Dogri सोमबार, Bodo समबार); no etymology of its own.
   },
 };

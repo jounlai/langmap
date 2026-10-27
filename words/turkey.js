@@ -344,6 +344,8 @@ WORDS.turkey = {
     dag: "local",
     rgn: "local",
     ksw: "local",
+    zh_db: "elsewhere",
+    ext: "local",
   },
   routes: {
     india: {"color":"#ea580c","emoji":"🐘","en":"named for India · the Indies","ja":"インドの名で","ko":"인도의 이름으로","zh":"以印度为名","yue":"以印度為名","vi":"theo tên Ấn Độ","th":"ตั้งตามอินเดีย","id":"dinamai India","hi":"भारत के नाम पर","de":"nach Indien benannt","fr":"nommé d'après l'Inde","it":"dal nome dell'India","es":"por la India","pt":"pelo nome da Índia","ru":"по Индии","uk":"за Індією","ar":"باسم الهند","he":"על שם הודו","sw":"kwa jina la India"},
@@ -629,5 +631,7 @@ WORDS.turkey = {
     dag: ["torotoro", "torotoro"],  // Borrowed from Hausa tàlotàlo, the probably imitative name that spread across Nigerian and Ghanaian languages; the plural is torotoronima.
     rgn: ["galinàz", "ɡaliˈnaz"],  // Literally 'big hen', the Romagnol counterpart of Italian gallinaccio; Ercolani also lists birén for the turkey.
     ksw: ["ဆီကဆီ", "sʰɔkəsʰɔ"],  // A native compound built on ဆီ 'chicken'.
+    zh_db: ["外国鸡", "waɪ̯˥˩ kwo˧˩˧ tɕi˥"],  // Literally "foreign chicken", the name Wiktionary's dialect survey records for Harbin (and Beijing and Tianjin).
+    ext: ["pavu", "ˈpaβu"],  // From Latin pāvō "peacock", like Spanish pavo, with the Astur-Leonese final -u.
   },
 };

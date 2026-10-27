@@ -634,6 +634,21 @@ WORDS.olderbrother = {
     mas: "plain",
     nym: "age",
     tig: "unknown",
+    en_my: "plain",
+    es_ec: "plain",
+    ar_lev: "plain",
+    ar_gulf: "plain",
+    ar_iq: "plain",
+    ar_sd: "plain",
+    ar_ye: "plain",
+    gsw: "plain",
+    ksh: "plain",
+    rmy: "plain",
+    en_sg: "plain",
+    es_cl: "plain",
+    crk: "age",
+    nan_pn: "age",
+    yue_dg: "age",
   },
   routes: {
     age: {"color":"#db2777","emoji":"👆","en":"a word just for an older brother","ja":"兄だけを指す語","ko":"형만 가리키는 낱말","zh":"专指哥哥的词","yue":"專指哥哥嘅詞","vi":"từ riêng cho anh","th":"คำเฉพาะสำหรับพี่ชาย","id":"kata khusus untuk kakak","hi":"बड़े भाई का अलग शब्द","de":"eigenes Wort für den älteren Bruder","fr":"un mot propre au frère aîné","it":"una parola solo per il fratello maggiore","es":"una palabra solo para el hermano mayor","pt":"uma palavra só para o irmão mais velho","ru":"отдельное слово для старшего брата","uk":"окреме слово для старшого брата","ar":"كلمة خاصة بالأخ الأكبر","he":"מילה מיוחדת לאח הגדול","sw":"neno maalum kwa kaka mkubwa"},
@@ -1209,5 +1224,20 @@ WORDS.olderbrother = {
     mas: ["ɔlalashɛ", "ɔlalaʃɛ"],  // Maasai ɔl-aláshɛ is 'brother' whether older or younger; Payne's kin list gives the same word for both.
     nym: ["mkulu", "mkʊlʊ"],  // Nyamwezi mkulu, 'the elder one', is an older brother; mdugu is a brother or relative in general.
     tig: ["ሑ", "ħu"],  // Tigre ḥu is 'brother'; a father's brother is ḥu ab.
+    en_my: ["brother", "ˈbɹadə"],  // As elsewhere in English, an older brother is an older or elder brother; there is no separate word.
+    es_ec: ["hermano", "eɾˈmano"],  // An older brother is a hermano mayor; colloquially Ecuadorians also say ñaño, from Quechua, for a brother or sister.
+    ar_lev: ["أخ", "ʔaxx"],  // No separate older-brother word: a younger brother is أخوي الزغير 'my little brother', and Lebanese also says خيّ.
+    ar_gulf: ["أخ", "ʔax"],  // As in Standard Arabic, an older brother is just a brother described as bigger.
+    ar_iq: ["أخ", "ʔax"],  // No separate older-brother word: a younger brother is أخوه الصغيّر, 'his little brother'.
+    ar_sd: ["أخ", "ʔax"],  // As in Standard Arabic there is one word for brother; age is added with an adjective.
+    ar_ye: ["أخ", "ʔax"],  // As in Standard Arabic there is one word for brother; age is added with an adjective.
+    gsw: ["Brüeder", "ˈbryədər"],  // Swiss German Brüeder is any brother, from Middle High German bruoder; an older one is a grosse or eltere Brüeder.
+    ksh: ["Broder", "ˈbʁoːdɐ"],  // Kölsch Broder, plural Bröder, is any brother; age is added with an adjective.
+    rmy: ["phral", "pʰral"],  // Vlax Romani phral, from Sanskrit bhrātṛ, is any brother; Kalderash and Lovara also say pral.
+    en_sg: ["brother", "ˈbɹadə"],  // Singapore English says brother or big brother; in Chinese families an older brother is also called kor kor, from 哥哥.
+    es_cl: ["hermano", "eɾˈmano"],  // As elsewhere in Spanish, an older brother is a hermano mayor.
+    crk: ["ᓂᐢᑌᐢ", "nisteːs"],  // Plains Cree nistês is 'my older brother', also an older male parallel cousin; a younger sibling is nisîmis.
+    nan_pn: ["哥哥", "ko˧˧ ko˧˧"],  // Penang Hokkien calls an older brother ko or ko-ko, and adds Ko to the name of any older man of one's own generation.
+    yue_dg: ["阿哥", "ʔa˨˧ kɔ˨˧"],  // Dongguan addresses an older brother as 阿哥 and refers to him as 大佬.
   },
 };

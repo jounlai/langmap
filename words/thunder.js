@@ -369,7 +369,7 @@ WORDS.thunder = {
     ti: "unknown",
     ug: "unknown",
     pcm: "plain",
-    kri: "unknown",
+    kri: "plain",
     ht: "other",
     ee: "sky",
     ak: "unknown",
@@ -585,6 +585,35 @@ WORDS.thunder = {
     kg: "unknown",
     lrc: "unknown",
     bgq: "plain",
+    cpx: "god",
+    lmo: "plain",
+    hmn: "god",
+    zza: "unknown",
+    ssw: "plain",
+    kam: "unknown",
+    nyn: "unknown",
+    luo: "sky",
+    yao: "unknown",
+    tum: "unknown",
+    ban: "unknown",
+    bjn: "unknown",
+    brh: "unknown",
+    bej: "unknown",
+    kbd: "sky",
+    li: "plain",
+    sc: "plain",
+    mrw: "plain",
+    bbc: "unknown",
+    grt: "unknown",
+    mas: "plain",
+    hoc: "unknown",
+    tcy: "plain",
+    kfy: "plain",
+    toi: "unknown",
+    srr: "unknown",
+    drs: "unknown",
+    wbm: "unknown",
+    lis: "unknown",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -900,7 +929,7 @@ WORDS.thunder = {
     ti: ["ነጐድጓድ", "nɐɡʷɐdɡʷad"],  // The same word as Amharic ነጐድጓድ; lightning is መብረቕ.
     ug: ["گۈلدۈرماما", "ɡyldyrmɑˈmɑ"],  // Kept apart from چاقماق, the lightning, in Exodus 9:23.
     pcm: ["tonda", "tɔnda"],  // Used in the Naija Bible for thunder in Mark, Exodus and John. Route by resemblance to the neighbouring forms (English thunder); no etymology of its own.
-    kri: ["tɛnda", "ˈtɛnda"],  // Kept apart from laytin, the lightning, in Revelation 4:5.
+    kri: ["tɛnda", "ˈtɛnda"],  // Kept apart from laytin, the lightning, in Revelation 4:5. Route by resemblance to the neighbouring forms (Nigerian Pidgin and Jamaican tonda, Bislama and Pijin tanda); no etymology of its own.
     ht: ["loray", "loraj"],  // Kept apart from zeklè, the lightning, in Exodus 9:23. Route by resemblance to the neighbouring forms (mfe(loraz) crs(loraz)); no etymology of its own.
     ee: ["dziɖegbe", "dziɖeɡbe"],  // Literally 'the sky utters a voice', dzi 'sky' + ɖe gbe, as the paraphrase 'dzie ɖe gbe' in John 12:29 shows; lightning is dzikedzo.
     ak: ["aprannaa", "apranːaː"],  // Kept apart from anyinam, the lightning, in Revelation 4:5.
@@ -1116,5 +1145,34 @@ WORDS.thunder = {
     kg: ["mbandanu", "mbandanu"],  // Laman derives it from bàndana 'to crack, to crackle'; nzazi is the lightning.
     lrc: ["گِرِم‌هُر", "ɡeremhor"],  // Both Luri Bibles keep it apart from تَش‌بِریق, the lightning, in Revelation 4:5.
     bgq: ["गरजन", "ɡərdʒən"],  // The same word as Hindi garjan 'roaring'; the Bagri Bible keeps it apart from बिजळी, the lightning, in Revelation 4:5. Route by resemblance to the neighbouring forms (Gujarati ગર્જના); no etymology of its own.
+    cpx: ["雷公", "lui˩˧ kɒŋ˥˧˧"],  // Literally 'Thunder Duke', the Chinese thunder god's name, used for thunder itself; Putian also says plain 雷.
+    lmo: ["tron", "truŋ"],  // From Latin tonus 'thunderclap' with an added r, like Piedmontese and Ligurian tron; eastern Lombard says ton. IPA read from the Milanese spelling (o as u, final n as ŋ, as in this row).
+    hmn: ["xob quaj", "sɔ˥ quə˥˨"],  // Literally 'Xob cries out': Xob is the creature in the heavens held responsible for thunder and lightning (Heimbach's White Hmong dictionary).
+    zza: ["gumlerz", "ɡumˈleɾz"],  // Zazaki Wikipedia defines it as the loud sound that comes with a lightning strike (vırsık).
+    ssw: ["kudvuma", "kudvuma"],  // The infinitive of dvuma 'to roar, to thunder', from Proto-Bantu *-dùma; siSwati Wikipedia says the sound that follows lightning is commonly called kudvuma.
+    kam: ["kĩtandalĩki", "ketandaleki"],  // Kept apart from ũtisi, the lightning, in Exodus 9:23 and Revelation 4:5 of the Kamba Bible; the older Bible says ĩtundumo.
+    nyn: ["enkuba", "eŋkuba"],  // Kept apart from emirabyo, the lightning, in Exodus 9:23 of the Runyankore-Rukiga Bible; the cognate of Kinyarwanda inkuba.
+    luo: ["mor polo", "mor polo"],  // Literally 'the sky's rumble', polo being the sky of Genesis 1:8; lightning is mil polo, 'the sky's flash'.
+    yao: ["ilindimo", "ilindimo"],  // Kept apart from njasi, the lightning, in Revelation 4:5 and 8:5 of the Chiyao Bible; the verb is -lindima 'to thunder'.
+    tum: ["chidudumira", "tʃidudumiɾa"],  // Built on the verb dudumira 'to thunder'; the Tumbuka Bible renders Boanerges 'sons of thunder' as Ŵina Chidudumira, and lightning is a separate word, leza.
+    ban: ["kerug", "kəruɡ"],  // The BASAibu Bali dictionary glosses it 'sound of thunder'; the Balinese Bible pairs it with krébék, also 'thunder', and Wiktionary lists grudug.
+    bjn: ["guntur", "ɡuntur"],  // The same word as Indonesian guntur; Banjar Wikipedia uses it beside patir, the lightning.
+    brh: ["ہُورَّ", "huːrːa"],  // Recorded by Bray's Brahui dictionary; Wiktionary links it to Tamil உறுமு 'to roar, to thunder' and Telugu ఉరుము 'thunder'.
+    bej: ["thiwt", "ʈiwt"],  // Kept apart from talaw, the lightning, in Revelation 4:5 of the Beja Bible ('talaw talawiya, aree thiwt thiwta', the lightning flashed and the thunder thundered).
+    kbd: ["уафэгъуэгъуэ", "wafaʁʷaʁʷa"],  // Literally 'the sky rattling': уафэ 'sky' + гъуэгъуэ, from гъуэгъуэн 'to rattle'.
+    li: ["dónder", "dʊndər"],  // The same Germanic word as Dutch donder and English thunder.
+    sc: ["tronu", "ˈtronu"],  // From Latin tonus 'thunderclap' with an inserted r, like Sicilian tronu and Catalan tro; the same spelling also means 'throne'.
+    mrw: ["dalendeg", "daləndəɡ"],  // Inherited from Proto-Austronesian *dəʀdəʀ 'thunder', like Cebuano dalugdog; rogong and dagoʼong are synonyms.
+    bbc: ["ronggur", "roŋɡur"],  // The Toba Batak word for thunder, glossed geledek and petir in Indonesian.
+    grt: ["kimpretani", "kimpretani"],  // A noun made from the verb kimpreta 'to thunder'.
+    mas: ["ɛndarata", "ɛndarata"],  // A noun from the verb a-dár 'to make a loud noise, to thunder'; enkurrukurroto 'rumbling' is also used.
+    hoc: ["rimil saɽi", "rimil saɽi"],  // Its first part rimil is the Munda word for cloud (Santali rimil 'cloud').
+    tcy: ["ತೆಡಿಲ್", "teɖilɯ"],  // An old Dravidian word, cognate with Kannada siḍil 'thunderbolt' and Kodava tëḍï 'thunder'.
+    kfy: ["गर्जन", "ɡərdʒən"],  // From Sanskrit garjana 'roaring, thunder', the same source as Hindi garaj.
+    toi: ["muzumo", "muzumo"],  // The 1963 Tonga Bible calls James and John basimuzumo, 'sons of thunder'; the related verb zuma means 'to thunder'.
+    srr: ["ƭuuɗ", "ɗ̥uːɗ"],  // It begins with a voiceless implosive, one of the rare sounds Serer is known for.
+    drs: ["dindinso", "dindinso"],  // The Gedeo Bible uses it for the thunder heard in John 12:29 and Revelation.
+    wbm: ["sinum praix", "sinum praiʔ"],  // The Wa Common Language Bible renders Boanerges as 'sons of sinum praix'.
+    lis: ["mu-gu", "mu˧˩ɡu˧˩"],  // Two Loloish wordlists and the Lisu Bible agree on mu³¹gu³¹.
   },
 };

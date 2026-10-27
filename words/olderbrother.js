@@ -593,6 +593,47 @@ WORDS.olderbrother = {
     hr: "plain",
     nso: "age",
     sg: "age",
+    kok: "plain",
+    snk: "age",
+    kha: "age",
+    fon: "age",
+    ndc: "age",
+    toi: "age",
+    cgg: "age",
+    teo: "plain",
+    wal: "plain",
+    drs: "plain",
+    kbd: "plain",
+    rhg: "plain",
+    max: "age",
+    abs: "age",
+    aa: "age",
+    mfa: "unknown",
+    tum: "unknown",
+    shn: "age",
+    xog: "plain",
+    dje: "unknown",
+    bug: "unknown",
+    gl: "plain",
+    vec: "plain",
+    lmo: "plain",
+    zza: "plain",
+    srn: "unknown",
+    mzn: "unknown",
+    sdh: "unknown",
+    bej: "unknown",
+    sid: "unknown",
+    luo: "unknown",
+    brh: "unknown",
+    iba: "age",
+    mfe: "age",
+    sco: "unknown",
+    li: "unknown",
+    bqi: "unknown",
+    nus: "unknown",
+    mas: "plain",
+    nym: "age",
+    tig: "unknown",
   },
   routes: {
     age: {"color":"#db2777","emoji":"👆","en":"a word just for an older brother","ja":"兄だけを指す語","ko":"형만 가리키는 낱말","zh":"专指哥哥的词","yue":"專指哥哥嘅詞","vi":"từ riêng cho anh","th":"คำเฉพาะสำหรับพี่ชาย","id":"kata khusus untuk kakak","hi":"बड़े भाई का अलग शब्द","de":"eigenes Wort für den älteren Bruder","fr":"un mot propre au frère aîné","it":"una parola solo per il fratello maggiore","es":"una palabra solo para el hermano mayor","pt":"uma palavra só para o irmão mais velho","ru":"отдельное слово для старшего брата","uk":"окреме слово для старшого брата","ar":"كلمة خاصة بالأخ الأكبر","he":"מילה מיוחדת לאח הגדול","sw":"neno maalum kwa kaka mkubwa"},
@@ -1127,5 +1168,46 @@ WORDS.olderbrother = {
     hr: ["brat", "brât"],  // Croatian brat covers older and younger brothers alike; an older brother is stariji brat.
     nso: ["mogolle", "moɣolːe"],  // Northern Sotho mogolle is an older brother or sister; a younger one is moratho, and morwarre is 'brother'.
     sg: ["yayâ", "jaja"],  // Sango yayâ is an older brother or sister; a younger one is ngambe, and îtä is any sibling.
+    kok: ["भाव", "bʱaːʋ"],  // Konkani भाव is any brother; an older brother is vodlo bhav, 'big brother', and a younger one dakto bhav, 'little brother'.
+    snk: ["gide", "ɡide"],  // Soninke gide (gida with a possessor, as in n gida 'my older brother') is an older brother or sister, a separate word from its homonym gide 'rock'; a younger sibling is xoxone.
+    kha: ["hynmen", "hinmen"],  // Khasi hynmen is an older brother or sister (u hynmen for a brother); a younger sibling is para.
+    fon: ["fofó", "fofo"],  // Fon fofó is an older brother; a younger brother, or a sibling in general, is nɔví.
+    ndc: ["mukoma", "mukoma"],  // Ndau mukoma is an older brother, as in Shona; a younger brother is munun'una.
+    toi: ["mupati", "mupati"],  // Tonga mupati, literally 'the big one', is an older sibling, used here for an older brother; a younger sibling is musyoonto, and the Tonga Translation Project Bible also has mukulana.
+    cgg: ["mukuru", "mukuru"],  // Rukiga mukuru, from -kuru 'old', is an older sibling of the same sex, so a man's older brother; a younger one is murumuna (text from the joint Runyankore-Rukiga Bible).
+    teo: ["onac", "onatʃ"],  // Ateso onac is a brother of any age; an older brother is onac lokapolon, 'the big brother'.
+    wal: ["ishaa", "iʃaː"],  // Wolaytta ishaa is a brother of any age; the eldest is marked with bairaa 'first-born'.
+    drs: ["dayyo", "dajːo"],  // Gedeo dayyo is a brother of any age; the eldest is angafa dayyo, 'first-born brother'.
+    kbd: ["къуэш", "qʷaʃ"],  // Kabardian къуэш is any brother: an older one is къуэш нэхъыжь and a younger one къуэш нэхъыщӀэ.
+    rhg: ["bái", "bai"],  // Rohingya bái is a brother of any age; a younger one can be specified as šoṛo bái, 'little brother'.
+    max: ["kaka", "kaka"],  // North Moluccan Malay kaka is an older sibling, used for an older brother; a younger sibling is ade.
+    abs: ["kaka", "kaka"],  // Ambon Malay kaka is an older sibling, used for an older brother, who is addressed as bu; a younger sibling is ade.
+    aa: ["saqál", "saˈʕal"],  // Afar saqál is specifically an elder brother; a younger brother is maqánxa, and brother in general toobokóyta.
+    mfa: ["abang", "abɛ"],  // Cognate with Malay abang 'older brother'; final -ang is said -ɛ in Patani Malay, as in this row's tulang and ikan.
+    tum: ["mukuru", "mukuru"],  // Tumbuka mukuru, from Proto-Bantu *mʊ̀kʊ́dʊ́, is glossed 'older brother or older sister of the same sex'.
+    shn: ["ပီႈဢၢႆႈ", "piː˧˨ ʔaːj˧˨"],  // ပီႈ 'older sibling' plus ဢၢႆႈ 'elder brother', the cognates of Thai พี่ and อ้าย; IDS gives a younger brother as nɔ:ŋ ca:j and 'brother' as pi: / nɔ:ŋ.
+    xog: ["muganda", "muɡanda"],  // Lusoga muganda is a same-sex sibling of any age; an older brother is muganda omukulu, 'elder brother', with no separate word.
+    dje: ["beere", "beːre"],  // Zarma beere is glossed 'elder (sibling)', brother or sister.
+    bug: ["kakaʼ", "kakaʔ"],  // Buginese kakaʼ is glossed 'older sibling'; daéng, also 'older sibling', doubles as a noble title.
+    gl: ["irmán", "iɾˈmaŋ"],  // Galician irmán is a brother of any age; an older brother is said with a phrase, irmán maior.
+    vec: ["fradeło", "fraˈdɛo"],  // Venetian fradeło is a brother of any age; an older brother is said with a phrase, fradeło mazor.
+    lmo: ["fradell", "fraˈdɛl"],  // Lombard fradell, from Latin frātellus, is a brother of any age; an older brother is said with a phrase, fradel magior.
+    zza: ["bra", "bɾa"],  // Zazaki bra, also written bira or bıra, is a brother of any age; an older brother is said with a phrase, birayo pîl 'big brother'.
+    srn: ["brada", "brada"],  // From English brother; no source seen says whether Sranan has a separate older-brother word.
+    mzn: ["برار", "bərɒːɾ"],  // Inherited from Proto-Iranian *bráHtā 'brother'; no source seen settles whether an older brother has his own word.
+    sdh: ["برا", "bɪɾɑː"],  // Southern Kurdish bira is 'brother'; no source seen settles whether kaka is used for an older brother as in Sorani.
+    bej: ["san", "san"],  // Beja san is 'brother'; the family terms list gives no separate older-brother word, but no source says so outright.
+    sid: ["rodo", "rodo"],  // Sidamo rodo is a sibling, brother or sister, with no age in the word.
+    luo: ["owadwa", "owadwa"],  // Dholuo owadwa, 'our brother', is how a man's brothers are named and addressed; the elders' kinship survey lists no separate older-brother term.
+    brh: ["ایلم", "iːlum"],  // Brahui īlum, from Proto-Dravidian *eḷ- 'young, tender', is 'brother'; its diminutive īlumko means 'little brother'.
+    iba: ["aka", "akaʔ"],  // Iban aka is an older brother; a younger sibling is adi.
+    mfe: ["dada", "dada"],  // Mauritian Creole dada, borrowed from Marathi dādā, is an older brother; the general word for brother is frer.
+    sco: ["brither", "ˈbrɪðər"],  // Scots brither, from Old English brōþor, is 'brother'.
+    li: ["broor", "broːr"],  // Limburgish broor, from Middle Dutch broeder, is 'brother'.
+    bqi: ["برار", "bærɒr"],  // Bakhtiari barâr, from Middle Persian brād, is 'brother'; kakâ is listed as a synonym.
+    nus: ["däman", "dəman"],  // Nuer däman is 'brother'.
+    mas: ["ɔlalashɛ", "ɔlalaʃɛ"],  // Maasai ɔl-aláshɛ is 'brother' whether older or younger; Payne's kin list gives the same word for both.
+    nym: ["mkulu", "mkʊlʊ"],  // Nyamwezi mkulu, 'the elder one', is an older brother; mdugu is a brother or relative in general.
+    tig: ["ሑ", "ħu"],  // Tigre ḥu is 'brother'; a father's brother is ḥu ab.
   },
 };

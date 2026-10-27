@@ -254,7 +254,7 @@ WORDS.bat = {
     yue_dg: "mouse",
     yue_nn: "mouse",
     yue_zs: "mouse",
-    hak_tw: "unknown",
+    hak_tw: "plain",
     hak_hl: "plain",
     zh_hf: "plain",
     zh_wh: "mouse",
@@ -516,6 +516,22 @@ WORDS.bat = {
     bar: "mouse",
     tiv: "unknown",
     ff: "unknown",
+    war: "plain",
+    din: "unknown",
+    aa: "bird",
+    egl: "other",
+    tcy: "plain",
+    ace: "unknown",
+    bjn: "plain",
+    cv: "bird",
+    sc: "unknown",
+    kbp: "unknown",
+    ksw: "plain",
+    pwo: "plain",
+    mnw: "unknown",
+    nbl: "unknown",
+    mas: "unknown",
+    grt: "plain",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -715,7 +731,7 @@ WORDS.bat = {
     yue_dg: ["蝠鼠", "fok˥ ʃy˧˥"],  // Literally 'bat-rat': the old word 蝠 'bat' plus 鼠 'rat, mouse'.
     yue_nn: ["飞鼠", "fi˥˥ ʃy˧˥"],  // Literally 'flying rat': 飞 'fly' plus 鼠 'rat, mouse'.
     yue_zs: ["飛鼠", "fi˥˥ sy˨˩˧"],  // Literally 'flying rat': 飛 'fly' plus 鼠 'rat, mouse'.
-    hak_tw: ["蝠婆仔", "pʰit˥ pʰo˩˩ e˧˩"],  // Built on 蝠 'bat' with 婆 'old woman' and the diminutive 仔; the same word appears in the Taiwan Hakka Bible.
+    hak_tw: ["蝠婆仔", "pʰit˥ pʰo˩˩ e˧˩"],  // Built on 蝠 'bat' with 婆 'old woman' and the diminutive 仔; the same word appears in the Taiwan Hakka Bible. Route by resemblance to the neighbouring forms (Hakka 蝠婆 of Hailu); no etymology of its own.
     hak_hl: ["蝠婆", "pʰit˨ pʰo˥˥"],  // Built on 蝠 'bat' with 婆 'old woman'; Hailu speakers also say 蝙蝠. Route by resemblance to the neighbouring forms (Northern Min 比婆); no etymology of its own.
     zh_hf: ["蝙蝠", "pĩ˨˩˨ fəʔ˦"],  // An expanded form of Old Chinese 蝠 'bat'; Hefei also says 壁蝠 and 檐老鼠 'eaves mouse'.
     zh_wh: ["檐老鼠", "iɛn˨˩˧ nau˦˨ ɕy˦˨"],  // Literally 'eaves mouse': 檐 'eaves' plus 老鼠 'mouse'; Wuhan also uses standard 蝙蝠.
@@ -977,5 +993,21 @@ WORDS.bat = {
     bar: ["Fledamaus", "ˈfleːdɐmaʊs"],  // The Bavarian form of German Fledermaus, the flutter-mouse; plural Fledamais.
     tiv: ["inima", "inima"],  // The Tiv word for the bat, plural anema.
     ff: ["wilwilndu", "wilwilndu"],  // The Fula word for the bat in the Burkina Faso Bible, plural bilwilɗi; Adamawa Fulfulde says wilwildu.
+    war: ["kabog", "kaˈboɡ"],  // Inherited from Proto-Philippine *kabə́g 'large fruit bat'; Waray Wikipedia uses Kabog as the title of its article on the bats (Chiroptera).
+    din: ["alïïk", "aliːk"],  // The word given for 'bat (animal)' in the SIL Dinka-English dictionary for the Rek, Agar and Bor dialects; Padang Dinka uses agornyaŋ or anien.
+    aa: ["bartikimbiró", "bartikimbiro"],  // Literally 'bird of the night': barti 'of the night' plus kimbiró 'bird'; bartikímbir is the collective 'bats'.
+    egl: ["palpastrèl", "palpaˈstrɛːl"],  // The Bolognese word, inherited from Latin vespertīliō, the 'evening creature', like Italian pipistrello.
+    tcy: ["ಬಾವೊಲಿ", "baːvoli"],  // A Dravidian word shared with Kannada bāvali, Tamil vāval and Malayalam vavvāl (DEDR 5370).
+    ace: ["seumantông", "sɯmantoŋ"],  // The Acehnese word for the bat; the large flying fox is lhöng.
+    bjn: ["kalalawar", "kalalawar"],  // The Banjar word for the bat, the counterpart of Indonesian kelelawar. Route by resemblance to the neighbouring forms (Indonesian kelelawar); no etymology of its own.
+    cv: ["ҫара ҫерҫи", "ɕara ɕerʑi"],  // The second word is ҫерҫи 'sparrow', so the bat is filed with the birds.
+    sc: ["alipedde", "aliˈpeɖɖe"],  // The Logudorese word for the bat; Campidanese says arratapignata, and Sardinian has many local names.
+    kbp: ["sɛmʊʊ", "sɛmʊː"],  // The Kabiye word for the bat, the title of the Kabiye Wikipedia article on bats.
+    ksw: ["ဘျါ", "bla"],  // Inherited from Proto-Karen *pla 'bat', shared with Pwo Karen.
+    pwo: ["ဖျၪ", "pʰla"],  // Inherited from Proto-Karen *pla 'bat', cognate with S'gaw Karen ဘျါ; Wiktionary glosses it for the fruit bats.
+    mnw: ["ကဝ", "kəwaʔ"],  // The Mon word for the bat in Shorto's dictionary of spoken Mon.
+    nbl: ["umaphelaphelana", "umapʰelapʰelana"],  // The Southern Ndebele word for the bat, a class 1a noun with plural abomaphelaphelana.
+    mas: ["ɛnɛkɔkɛsɛna", "ɛnɛkɔkɛsɛna"],  // The Maa word for the bat in Payne and Ole-Kotikash; fruit bats have separate names such as ɛsarambala.
+    grt: ["do·bak", "doʔbak"],  // The second syllable continues the Proto-Sino-Tibetan bat word *pək.
   },
 };

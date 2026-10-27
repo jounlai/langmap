@@ -634,6 +634,10 @@ WORDS.rainbow = {
     sco: "bow",
     kbd: "unknown",
     mtq: "unknown",
+    laj: "unknown",
+    ttj: "unknown",
+    jvn: "unknown",
+    ext: "bow",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1211,5 +1215,9 @@ WORDS.rainbow = {
     sco: ["rainbow", "ˈrenbʌu"],  // Rain + bow, as in English, but the Scottish National Dictionary notes that bow is said [bʌu] here.
     kbd: ["лэгъупыкъу", "ɮaʁʷəpəqʷ"],  // The Kabardian word for the rainbow, cognate with Adyghe лэгъупэкъопс.
     mtq: ["tòng tẫm", "tɔŋ təm"],  // The Mường New Testament's word for the rainbow, in both Revelation passages.
+    laj: ["etaloka", "etaloka"],  // The Lango word for the rainbow, unlike Acholi danyu; the Lango Bible uses it in Genesis 9:13, Ezekiel 1:28 and Revelation 4:3 and 10:1. IPA read from the spelling.
+    ttj: ["omuhangazima", "omuhaŋɡazima"],  // The rainbow word of the joint Runyoro-Rutooro Bible, which serves Tooro speakers too (Ezekiel 1:28; the 1964 version spells it omuhanganzima). IPA read from the spelling.
+    jvn: ["kluwung", "kluwuŋ"],  // Suriname Javanese keeps the Javanese word kluwung, as in the Kitab Jawa Suriname Bible (Genesis 9:13, Ezekiel 1:28).
+    ext: ["arcu iris", "aɾku iɾis"],  // The Extremaduran form of Spanish arco iris, with the dialect's final -u: arcu "arc, bow" + iris.
   },
 };

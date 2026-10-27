@@ -458,6 +458,15 @@ WORDS.mobilephone = {
     sco: "carry",
     dag: "unknown",
     tsg: "cell",
+    en_za: "cell",
+    en_ng: "hand",
+    ko_hg: "hand",
+    ar_lev: "cell",
+    hyw: "cell",
+    ksh: "hand",
+    gsw_als: "hand",
+    koi: "carry",
+    pt_mo: "carry",
   },
   routes: {
     hand: {"color":"#ea580c","emoji":"✋","en":"the hand","ja":"手","ko":"손","zh":"手","yue":"手","vi":"bàn tay","th":"มือ","id":"tangan","hi":"हाथ","de":"die Hand","fr":"la main","it":"la mano","es":"la mano","pt":"a mão","ru":"рука","uk":"рука","ar":"اليد","he":"היד","sw":"mkono"},
@@ -859,5 +868,14 @@ WORDS.mobilephone = {
     sco: ["mobile phone", "ˈmobəil fon"],  // The same word as in British English, 'mobile' for short; Scots Wikipedia uses it throughout.
     dag: ["nuchɛbaŋa", "nutʃɛbaŋa"],  // The Dagbani Wikipedia name for the mobile phone, distinct from ŋmeli baŋa 'telephone'; its make-up is not documented in the sources.
     tsg: ["silpun", "silpun"],  // From English 'cell phone', the Philippine Tausug word; Malaysian Tausug says hinpun 'handphone'.
+    en_za: ["cellphone", "ˈselfəʊn"],  // South Africans say cellphone (often just cell), after the radio cells of the network, where Britain says mobile.
+    en_ng: ["handset", "ˈhændsɛt"],  // Nigerian English calls the mobile phone a handset, a word other Englishes keep for the receiver of a landline phone (Farouk Kperogi).
+    ko_hg: ["손전화", "sondʑʌnhwa"],  // Literally 'hand telephone' (손 'hand' + 전화 'telephone'), the North Korean word, used by Hamgyong residents.
+    ar_lev: ["خلوي", "ˈxalawi"],  // Literally 'cellular', clipped from هاتف خلوي 'cellular telephone'; جوال and, in Palestine, بلفون (from the Israeli brand Pelephone) are also used.
+    hyw: ["բջիջային հեռաձայն", "pʰətʃʰitʃʰɑjin hɛɾɑtsʰɑjn"],  // Literally 'cellular telephone', with the Western Armenian word հեռաձայն for telephone where Eastern Armenian says հեռախոս.
+    ksh: ["Handy", "ˈhɛndi"],  // The German pseudo-anglicism Handy, usually explained from 'hand', used in Kölsch too.
+    gsw_als: ["Händy", "hɛndi"],  // The German pseudo-anglicism Handy, spelt Händy in Alsatian; Switzerland's Natel is not used in Alsace.
+    koi: ["мобильник", "moˈbilʲnik"],  // From colloquial Russian мобильник 'mobile', the everyday word in Komi-Permyak village descriptions.
+    pt_mo: ["telemóvel", "tɛlɛˈmɔvɛl"],  // Coined from tele- 'far' + móvel 'mobile', the European Portuguese word, used in Macau.
   },
 };

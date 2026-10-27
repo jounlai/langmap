@@ -614,6 +614,18 @@ WORDS.thunder = {
     drs: "unknown",
     wbm: "unknown",
     lis: "unknown",
+    ar_lev: "plain",
+    ar_eg: "plain",
+    ar_gulf: "plain",
+    ar_iq: "plain",
+    ar_sd: "plain",
+    prs: "plain",
+    crk: "god",
+    zh_jh: "plain",
+    zh_zz: "plain",
+    ext: "plain",
+    sgs: "unknown",
+    koi: "unknown",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1174,5 +1186,17 @@ WORDS.thunder = {
     drs: ["dindinso", "dindinso"],  // The Gedeo Bible uses it for the thunder heard in John 12:29 and Revelation.
     wbm: ["sinum praix", "sinum praiʔ"],  // The Wa Common Language Bible renders Boanerges as 'sons of sinum praix'.
     lis: ["mu-gu", "mu˧˩ɡu˧˩"],  // Two Loloish wordlists and the Lisu Bible agree on mu³¹gu³¹.
+    ar_lev: ["رعد", "raʕd"],  // The same word as Standard Arabic raʿd, inherited from Proto-Semitic.
+    ar_eg: ["رعد", "raʕd"],  // The same word as Standard Arabic raʿd, inherited from Proto-Semitic.
+    ar_gulf: ["رعد", "raʕad"],  // The same root as Standard Arabic raʿd, said raʿad with an extra vowel.
+    ar_iq: ["رعد", "raʕad"],  // The same root as Standard Arabic raʿd, said raʿad; a clap is also قرقعة qarqaʿa.
+    ar_sd: ["رعد", "raʕad"],  // The same root as Standard Arabic raʿd, said raʿad or raʿd.
+    prs: ["رعد", "raʔd"],  // Borrowed from Arabic raʿd, as in Iranian Persian.
+    crk: ["ᐱᔦᓯᐤ", "pijeːsiw"],  // Piyêsiw means both the Thunderbird and thunder; when it thunders, the Thunderbirds are said to be calling (kâh-kitowak).
+    zh_jh: ["雷", "luei˩˧"],  // Nanjing and Yangzhou both say the standard word 雷.
+    zh_zz: ["雷", "luei˦˨"],  // Zhengzhou says the standard word 雷.
+    ext: ["truenu", "ˈtɾwenu"],  // The Extremaduran form of Spanish trueno, with the final -u the language uses for -o.
+    sgs: ["dundūlis", "dunduːlʲɪs"],  // Samogitian Wikipedia's article on thunder is titled Dundūlis and gives graustėnis, the cognate of Lithuanian griaustinis, as a synonym.
+    koi: ["гым", "ɡɨm"],  // The same word as Komi-Zyrian гым; a thundercloud is гыма кымӧр.
   },
 };

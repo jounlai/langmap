@@ -440,6 +440,84 @@ WORDS.grandmother = {
     kbp: "unknown",
     hoc: "unknown",
     rgn: "unknown",
+    es_cr: "one",
+    es_hn: "one",
+    es_ni: "one",
+    es_sv: "one",
+    es_bo: "one",
+    es_py: "one",
+    es_pa: "one",
+    es_pr: "one",
+    es_do: "one",
+    es_gt: "one",
+    es_ec: "one",
+    fr_lu: "one",
+    fr_cm: "one",
+    fr_sn: "one",
+    fr_ci: "one",
+    fr_ht: "one",
+    de_lu: "one",
+    en_ng2: "one",
+    en_my: "one",
+    en_wls: "one",
+    en_jam: "one",
+    en_ng: "one",
+    en_ph: "one",
+    en_ke: "one",
+    pt_mo: "one",
+    pt_mz: "one",
+    pt_cv: "one",
+    ar_ps: "unknown",
+    ar_ye: "unknown",
+    cjy_lv: "split",
+    czh_wy: "unknown",
+    en_wc: "one",
+    en_est: "one",
+    en_sg: "one",
+    fr_qc: "one",
+    fr_af: "one",
+    fr_be: "one",
+    fr_ch: "one",
+    es_co: "one",
+    es_cl: "one",
+    es_ar: "one",
+    es_cu: "one",
+    es_pe: "one",
+    es_an: "one",
+    ext: "one",
+    crk: "one",
+    mdf: "unknown",
+    nan_te: "split",
+    nan_xm: "split",
+    nan_zz: "split",
+    wuu_nb: "split",
+    wuu_sz: "split",
+    wuu_wz: "split",
+    zh_lz: "split",
+    yue_zs: "one",
+    en_ca: "one",
+    en_za: "one",
+    en_nz: "one",
+    en_au: "one",
+    en_south: "one",
+    en_app: "one",
+    en_ie: "one",
+    en_sco: "one",
+    en_yk: "one",
+    en_ck: "one",
+    en_scouse: "one",
+    en_geordie: "one",
+    en_brum: "one",
+    en_manc: "one",
+    nl_be: "one",
+    de_at: "one",
+    es_ve: "one",
+    pt_ao: "one",
+    ko_kp: "split",
+    prs: "one",
+    hyw: "one",
+    gsw: "one",
+    th_isan: "split",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -824,5 +902,83 @@ WORDS.grandmother = {
     kbp: ["neze", "neze"],  // Grandfather is a different word, cɔzɔ.
     hoc: ["jiya", "dʒija"],  // The Ho word for grandmother.
     rgn: ["nöna", "ˈnɔːna"],  // Inherited from Late Latin nonna, like Italian nonna; also spelt nòna.
+    es_cr: ["abuela", "aˈβwela"],  // From Latin aviola, 'little grandmother'; one word for either grandmother, abuelita in family speech.
+    es_hn: ["abuela", "aˈβwela"],  // From Latin aviola, 'little grandmother'; one word for either grandmother, abuelita in family speech.
+    es_ni: ["abuela", "aˈβwela"],  // From Latin aviola, 'little grandmother'; one word for either grandmother, abuelita in family speech.
+    es_sv: ["abuela", "aˈβwela"],  // From Latin aviola, 'little grandmother'; one word for either grandmother, abuelita in family speech.
+    es_bo: ["abuela", "aˈβwela"],  // From Latin aviola, 'little grandmother'; one word for either grandmother, abuelita in family speech.
+    es_py: ["abuela", "aˈβwela"],  // From Latin aviola, 'little grandmother'; one word for either grandmother, abuelita in family speech.
+    es_pa: ["abuela", "aˈβwela"],  // From Latin aviola, 'little grandmother'; one word for either grandmother, abuelita in family speech.
+    es_pr: ["abuela", "aˈβwela"],  // From Latin aviola, 'little grandmother'; one word for either grandmother, abuelita in family speech.
+    es_do: ["abuela", "aˈβwela"],  // From Latin aviola, 'little grandmother'; one word for either grandmother, abuelita in family speech.
+    es_gt: ["abuela", "aˈβwela"],  // From Latin aviola, 'little grandmother'; one word for either grandmother, abuelita in family speech.
+    es_ec: ["abuela", "aˈβwela"],  // From Latin aviola, 'little grandmother'; one word for either grandmother, abuelita in family speech.
+    fr_lu: ["grand-mère", "ɡʁɑ̃mɛʁ"],  // One word for either grandmother, mamie or mémé in family speech.
+    fr_cm: ["grand-mère", "ɡʁɑ̃mɛʁ"],  // One word for either grandmother, mamie or mémé in family speech.
+    fr_sn: ["grand-mère", "ɡʁɑ̃mɛʁ"],  // One word for either grandmother, mamie or mémé in family speech.
+    fr_ci: ["grand-mère", "ɡʁɑ̃mɛʁ"],  // One word for either grandmother, mamie or mémé in family speech.
+    fr_ht: ["grand-mère", "ɡʁɑ̃mɛʁ"],  // One word for either grandmother, mamie or mémé in family speech.
+    de_lu: ["Großmutter", "ˈɡʁoːsmʊtɐ"],  // Literally 'great mother'; one word for either grandmother, Oma in family speech.
+    en_ng2: ["grandmother", "ˈɡɹænmʌðə"],  // One word for either grandmother; 'paternal' or 'maternal' is added only when needed.
+    en_my: ["grandmother", "ˈɡɹænmadə"],  // One word for either grandmother; 'paternal' or 'maternal' is added only when needed.
+    en_wls: ["grandmother", "ˈɡɾanmʌðə"],  // One word for either grandmother; in South Wales the family word is often mamgu, from Welsh mam-gu.
+    en_jam: ["grandmother", "ˈɡɹanmɵðə"],  // One word for either grandmother; 'paternal' or 'maternal' is added only when needed.
+    en_ng: ["grandmother", "ˈɡɹænmɔðə"],  // One word for either grandmother; 'paternal' or 'maternal' is added only when needed.
+    en_ph: ["grandmother", "ˈɡɹænmʌdɚ"],  // One word for either grandmother; lola, from Tagalog, is common in family speech.
+    en_ke: ["grandmother", "ˈɡɹænmʌðə"],  // One word for either grandmother; 'paternal' or 'maternal' is added only when needed.
+    pt_mo: ["avó", "ɐˈvɔ"],  // From Latin aviola, a diminutive of avia; one word for either grandmother (avô 'grandfather' differs only in the vowel).
+    pt_mz: ["avó", "ɐˈvɔ"],  // From Latin aviola, a diminutive of avia; one word for either grandmother (avô 'grandfather' differs only in the vowel).
+    pt_cv: ["avó", "ɐˈvɔ"],  // From Latin aviola, a diminutive of avia; one word for either grandmother (avô 'grandfather' differs only in the vowel).
+    ar_ps: ["جدة", "ˈʒidde"],  // Feminine of jidd 'grandfather'; tēta and sitt are the family words.
+    ar_ye: ["جدة", "ˈdʒadda"],  // Feminine of jadd 'grandfather'; the older Yemeni word حنكة is said to be falling out of use.
+    cjy_lv: ["娘娘", "niɔ˦˦ niɔ"],  // In Lishi the father's mother is 娘娘 'niang-niang'; the mother's mother is 外婆, 'outside grandmother'.
+    czh_wy: ["婆婆", "pʰo˩˩ pʰo˩˩"],  // Wuyuan calls the father's mother 婆婆, where Tunxi says 老婄; no source checked gives Wuyuan's word for the mother's mother.
+    en_wc: ["grandmother", "ˈɡɹanmʌðɚ"],  // One word for either grandmother; 'paternal' or 'maternal' is added only when needed.
+    en_est: ["grandmother", "ˈɡɹænmʌðə"],  // One word for either grandmother; 'paternal' or 'maternal' is added only when needed.
+    en_sg: ["grandmother", "ˈɡɹɛnmadə"],  // One word for either grandmother; 'paternal' or 'maternal' is added only when needed.
+    fr_qc: ["grand-mère", "ɡʁɑ̃mɛːʁ"],  // One word for either grandmother; grand-maman when addressing her.
+    fr_af: ["grand-mère", "ɡʁɑ̃mɛʁ"],  // One word for either grandmother, as in France.
+    fr_be: ["grand-mère", "ɡʁɑ̃mɛʁ"],  // One word for either grandmother, as in France.
+    fr_ch: ["grand-mère", "ɡʁɑ̃mɛʁ"],  // One word for either grandmother; grand-maman in family speech.
+    es_co: ["abuela", "aˈβwela"],  // From Latin aviola, 'little grandmother'; one word for either grandmother.
+    es_cl: ["abuela", "aˈβwela"],  // From Latin aviola, 'little grandmother'; one word for either grandmother.
+    es_ar: ["abuela", "aˈβwela"],  // From Latin aviola, 'little grandmother'; one word for either grandmother.
+    es_cu: ["abuela", "aˈβwela"],  // From Latin aviola, 'little grandmother'; one word for either grandmother.
+    es_pe: ["abuela", "aˈβwela"],  // From Latin aviola, 'little grandmother'; one word for either grandmother.
+    es_an: ["abuela", "aˈβwela"],  // From Latin aviola, 'little grandmother'; one word for either grandmother.
+    ext: ["agüela", "aˈɣwela"],  // Extremaduran agüela, with the b of Spanish abuela turned into g; one word for either grandmother.
+    crk: ["ᓅᐦᑯᒼ", "noːhkom"],  // 'My grandmother', used for either grandmother; the address form is nôhkô!.
+    mdf: ["баба", "ˈbaba"],  // Sources disagree: one gives baba for the father's mother only, another uses baba for both, with vasolo baba 'far grandmother' for the mother's mother.
+    nan_te: ["阿妈", "a˧˧ ma˥˨"],  // Father's mother, distinguished by tone from 阿妈 a1 ma5 'mother'; mother's mother: 外妈 'outside grandma'.
+    nan_xm: ["阿妈", "a˦˦ ma˥˧"],  // Father's mother (also used loosely for both); mother's mother: 外妈 guā-má, 'outside grandma'.
+    nan_zz: ["阿妈", "a˦˦ ma˥˧"],  // Father's mother (also used loosely for both); mother's mother: 外妈 guā-má, 'outside grandma'.
+    wuu_nb: ["阿娘", "ɐʔ˥˥ ȵiã˧˩˧"],  // Father's mother (in Ningbo 阿娘 is the grandmother, while mother is 阿姆); mother's mother: 外婆, 'outside grandmother'.
+    wuu_sz: ["好婆", "hɐ˥˩ bu˨˨˧"],  // Suzhou 好婆, literally 'good granny', for the father's mother; mother's mother: 外婆, 'outside grandmother'.
+    wuu_wz: ["娘娘", "ȵi˧˩ ȵi˧˩"],  // Father's mother; mother's mother: 外婆 or 外婆娘, 'outside grandmother'.
+    zh_lz: ["奶奶", "nɛ˦˦˨ nɛ˦˦˨"],  // Father's mother; mother's mother: 外奶奶 'outside grandma', though plain 奶奶 is also used for her.
+    yue_zs: ["阿婆", "a˧˧ pʰɔ˥˩"],  // Zhongshan says 阿婆 for both grandmothers, where Cantonese of Guangzhou says 嫲嫲 for the father's mother.
+    en_ca: ["grandmother", "ˈɡɹænmʌðɚ"],  // One word for either grandmother; 'paternal' or 'maternal' is added only when needed.
+    en_za: ["grandmother", "ˈɡɹænmʌðə"],  // One word for either grandmother; 'paternal' or 'maternal' is added only when needed.
+    en_nz: ["grandmother", "ˈɡɹænmɐðə"],  // One word for either grandmother; 'paternal' or 'maternal' is added only when needed.
+    en_au: ["grandmother", "ˈɡɹæːnmɐðə"],  // One word for either grandmother; 'paternal' or 'maternal' is added only when needed.
+    en_south: ["grandmother", "ˈɡɹæːnmʌðɚ"],  // One word for either grandmother; 'paternal' or 'maternal' is added only when needed.
+    en_app: ["grandmother", "ˈɡɹænmʌðɚ"],  // One word for either grandmother; 'paternal' or 'maternal' is added only when needed.
+    en_ie: ["grandmother", "ˈɡɹanmʊðəɹ"],  // One word for either grandmother; 'paternal' or 'maternal' is added only when needed.
+    en_sco: ["grandmother", "ˈɡɹanmʌðəɹ"],  // One word for either grandmother; 'paternal' or 'maternal' is added only when needed.
+    en_yk: ["grandmother", "ˈɡɹanmʊðə"],  // One word for either grandmother; 'paternal' or 'maternal' is added only when needed.
+    en_ck: ["grandmother", "ˈɡɹænmɐvə"],  // One word for either grandmother; 'paternal' or 'maternal' is added only when needed.
+    en_scouse: ["grandmother", "ˈɡɹanmʊðə"],  // One word for either grandmother; 'paternal' or 'maternal' is added only when needed.
+    en_geordie: ["grandmother", "ˈɡɹanmʊðɐ"],  // One word for either grandmother; 'paternal' or 'maternal' is added only when needed.
+    en_brum: ["grandmother", "ˈɡɹanmʊðə"],  // One word for either grandmother; 'paternal' or 'maternal' is added only when needed.
+    en_manc: ["grandmother", "ˈɡɹanmʊðɐ"],  // One word for either grandmother; 'paternal' or 'maternal' is added only when needed.
+    nl_be: ["grootmoeder", "ˈɣroːtmudər"],  // Literally 'great mother'; one word for either grandmother, bomma in Flemish family speech.
+    de_at: ["Großmutter", "ˈɡroːsmʊtɐ"],  // Literally 'great mother'; one word for either grandmother, Oma in family speech.
+    es_ve: ["abuela", "aˈβwela"],  // From Latin aviola, 'little grandmother'; one word for either grandmother.
+    pt_ao: ["avó", "aˈvɔ"],  // From Latin aviola via Old Portuguese avoa; one word for either grandmother (avô 'grandfather' differs only in the vowel).
+    ko_kp: ["할머니", "halmʌni"],  // Father's mother (친할머니 when explicit); mother's mother: 외할머니, literally 'outside grandmother'.
+    prs: ["مادرکلان", "mɑːdaɾkalɑːn"],  // Literally 'big mother' with Dari kalān 'big' where Iranian Persian says bozorg; bibi is the homely word.
+    hyw: ["տատ", "dɑd"],  // One word for either grandmother; տատիկ is the affectionate form.
+    gsw: ["Grossmueter", "ˈɡroːsmuə̯tər"],  // Literally 'great mother'; one word for either grandmother, Grosi in family speech.
+    th_isan: ["ย่า", "ɲaː˦"],  // Father's mother, said with a nasal ny- in Isan; mother's mother: ยาย, a different word.
   },
 };

@@ -76,8 +76,8 @@
     "hash": "86181f3bf041494a"
   },
   "progress_data.js": {
-    "version": 403,
-    "hash": "a0289bf07ae51a62"
+    "version": 404,
+    "hash": "a7dade4667b64fe8"
   },
   "pwa.js": {
     "version": 2,
@@ -100,7 +100,7 @@
     "hash": "d8b1aec70df8e19b"
   },
   "word_manifest.js": {
-    "version": 1164,
+    "version": 1165,
     "hash": "8f8842e13239e2b3"
   },
   "wordmap_data.js": {

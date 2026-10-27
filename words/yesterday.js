@@ -728,6 +728,25 @@ WORDS.yesterday = {
     th_isan: "distinct",
     kr: "distinct",
     luy: "distinct",
+    din: "distinct",
+    zza: "distinct",
+    mrw: "distinct",
+    grt: "distinct",
+    rom: "distinct",
+    ace: "distinct",
+    kha: "distinct",
+    mer: "distinct",
+    shn: "distinct",
+    sdh: "distinct",
+    kru: "distinct",
+    tyz: "distinct",
+    mtq: "distinct",
+    nus: "distinct",
+    bbc: "distinct",
+    bts: "distinct",
+    wal: "distinct",
+    egl: "distinct",
+    fon: "same",
   },
   routes: {
     same: {"color":"#db2777","emoji":"🔁","en":"one word for yesterday and tomorrow","ja":"昨日と明日が同じ語","ko":"어제와 내일이 한 낱말","zh":"昨天和明天同一个词","yue":"尋日同聽日同一個詞","vi":"một từ cho hôm qua và ngày mai","th":"คำเดียวทั้งเมื่อวานและพรุ่งนี้","id":"satu kata untuk kemarin dan besok","hi":"बीते और आने वाले कल का एक शब्द","de":"ein Wort für gestern und morgen","fr":"un mot pour hier et demain","it":"una parola per ieri e domani","es":"una palabra para ayer y mañana","pt":"uma palavra para ontem e amanhã","ru":"одно слово для вчера и завтра","uk":"одне слово для учора й завтра","ar":"كلمة واحدة لأمس وغد","he":"מילה אחת לאתמול ולמחר","sw":"neno moja kwa jana na kesho"},
@@ -1401,5 +1420,24 @@ WORDS.yesterday = {
     th_isan: ["มื้อวานนี้", "mɯː˧˩ waːn˧˥˨ niː˧˩"],  // tomorrow: มื้ออื่น; literally 'day' + 'past' + 'this', with มื้อ 'day' where Thai says เมื่อ.
     kr: ["biska", "biska"],  // tomorrow: báli (Koelle 1854); Koelle wrote yesterday bisgá.
     luy: ["mukoloba", "mukoloba"],  // tomorrow: mukamba; the older Oluluyia Union Version says eshiabeele, Bukusu likolooba.
+    din: ["wäraköl", "warakol"],  // tomorrow: nhiäk; wäraköl is built on aköl 'day'.
+    zza: ["vızeri", "vɨˈzɛɾi"],  // tomorrow: mest; also written vızêr.
+    mrw: ["kagaʼi", "kaɡaʔi"],  // tomorrow: amag, also mapita'.
+    grt: ["mejao", "medʒao"],  // tomorrow: আম্বুন in the Bengali-script Garo Bible; also written mijao, and me·jal is another word for yesterday.
+    rom: ["idž", "idʒ"],  // tomorrow: tajsa (Slovak Romani); inherited from Sanskrit hyas 'yesterday', and Vlax dialects say arachi instead.
+    ace: ["baroe", "baroe"],  // tomorrow: singoh; baroe ngon uroenyoe is 'yesterday and today'.
+    kha: ["mynhynnin", "mənhənːin"],  // tomorrow: lashai; mynta is 'now'.
+    mer: ["ĩgoro", "eɡoɾo"],  // tomorrow: rũũjũ; naarua is 'today'.
+    shn: ["မိူဝ်ႈဝႃး", "mɤː˧˨ waː˥"],  // tomorrow: မိူဝ်ႈၽုၵ်ႈ; both words begin with မိူဝ်ႈ 'time, day'.
+    sdh: ["دویەکه", "dwijækæ"],  // tomorrow: سو; ئیمڕو is 'today'.
+    kru: ["चेरो", "tʃeːroː"],  // tomorrow: नेला; इन्ना is 'today'.
+    tyz: ["vằn ngòa", "van˧˨ ŋwaː˧˨"],  // tomorrow: vằn pjuc; vằn is 'day'.
+    mtq: ["ngày dấp", "ŋaj jəp"],  // tomorrow: ngày dao; ngày is 'day', as in Vietnamese.
+    nus: ["pan", "pan"],  // tomorrow: ruun; wa̱lɛ is 'today'.
+    bbc: ["nantoari", "nantoari"],  // tomorrow: marsogot (ari marsogot 'the next day'); sadari on is 'today'.
+    bts: ["nantuari", "nantuari"],  // tomorrow: patar (ari patar); sadari on is 'today'.
+    wal: ["zine", "zine"],  // tomorrow: wontto; hachchi is 'today', and Wiktionary's translation table gives the noun form zino.
+    egl: ["iêr", "jeːr"],  // tomorrow: dmân; Modenese also says aiēr.
+    fon: ["sɔ̀", "sɔ"],  // tomorrow: the same word; 'the sɔ̀ that has passed' (sɔ̀ é kó wá yí ɔ́) is yesterday and 'the sɔ̀ that is coming' tomorrow (Poirot).
   },
 };

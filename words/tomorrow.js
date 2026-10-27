@@ -766,6 +766,19 @@ WORDS.tomorrow = {
     ki: "unknown",
     min: "unknown",
     sg: "unknown",
+    bqi: "morning",
+    fon: "same",
+    bej: "unknown",
+    mtq: "unknown",
+    ada: "unknown",
+    teo: "unknown",
+    nus: "unknown",
+    din: "unknown",
+    bbc: "unknown",
+    bts: "unknown",
+    rgn: "morning",
+    shy: "unknown",
+    snk: "unknown",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -1476,5 +1489,18 @@ WORDS.tomorrow = {
     ki: ["rũciũ", "ɾotʃio"],  // Rũciũ is the Kikuyu word; yesterday is a different word, ira (Kikuyu Bible, Hebrews 13:8).
     min: ["bisuak", "bisuaʔ"],  // Bisuak is the Minangkabau counterpart of Indonesian besok; yesterday is patang or kapatang (Wikivoyage).
     sg: ["kêkerêke", "kekereke"],  // Kêkerêke is the Sango word; the day after tomorrow is mbênî kêkerêke 'another tomorrow', and yesterday is bîrï (ACCT dictionary).
+    bqi: ["سو", "sow"],  // Sow means both 'morning' and 'tomorrow', a colloquial form of Arabic ṣubḥ 'morning' (Wiktionary); yesterday is a different word, duš.
+    fon: ["sɔ̀", "sɔ"],  // Sɔ̀ means both 'tomorrow' and 'yesterday'; 'the sɔ̀ that is coming' (sɔ e jàwé ɔ́) and 'the sɔ̀ that has passed' (sɔ̀ é kó wá yí ɔ́) tell them apart (Poirot).
+    bej: ["lhayt", "lhajt"],  // Lhayt is 'tomorrow' in the Beja New Testament, set against amsi 'today' and iru 'yesterday'.
+    mtq: ["ngày dao", "ŋaj jaːw"],  // Ngày dao is 'tomorrow' in the Mường New Testament, against ngày dấp 'yesterday' and hôm may 'today'.
+    ada: ["hwɔɔ", "hwɔɔ"],  // Hwɔɔ is 'tomorrow' in both Dangme Bibles, set against mwɔnɛ 'today' and hiɛ 'yesterday'.
+    teo: ["moi", "moi"],  // Moi is 'tomorrow' in both Ateso Bibles, set against lolo 'today' and bian 'yesterday'.
+    nus: ["ruun", "ruːn"],  // Ruun is 'tomorrow' (as an adverb iruun), against walɛ 'today' and pan 'yesterday'; the Bible and the Indiana Nuer lessons agree.
+    din: ["nhiäk", "n̪iak"],  // Nhiäk is the Rek (Southwestern) word; Padang Dinka says miak, and yesterday is wäraköl (SIL Dinka-English Dictionary).
+    bbc: ["marsogot", "marsoɡot"],  // Marsogot is 'tomorrow' in the Toba Batak Bible, set against sadari on 'today' and nantoari 'yesterday'.
+    bts: ["patar", "patar"],  // Patar is 'tomorrow' in the Simalungun Bible, set against sadari on 'today'; Toba Batak says marsogot instead.
+    rgn: ["dmân", "dmaːn"],  // From Late Latin dē māne 'early in the morning', like Italian domani (Wiktionary); yesterday is jìr.
+    shy: ["azekka", "azəkːa"],  // Azekka is the Chaoui word for 'tomorrow', shared with Kabyle; adečča is also used (Wiktionnaire).
+    snk: ["xunbane", "xumbane"],  // Xunbane is 'tomorrow' and daaru 'yesterday' in the Asawan Soninke lexicon; xunbanefalle is 'the day after tomorrow'.
   },
 };

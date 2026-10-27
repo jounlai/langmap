@@ -330,6 +330,20 @@ WORDS.turkey = {
     shi: "unknown",
     rn: "india",
     min: "india",
+    shn: "local",
+    ban: "india",
+    bjn: "india",
+    war: "local",
+    pam: "local",
+    kok: "turkey",
+    kbd: "unknown",
+    kha: "peru",
+    shy: "unknown",
+    av: "unknown",
+    iba: "india",
+    dag: "local",
+    rgn: "local",
+    ksw: "local",
   },
   routes: {
     india: {"color":"#ea580c","emoji":"🐘","en":"named for India · the Indies","ja":"インドの名で","ko":"인도의 이름으로","zh":"以印度为名","yue":"以印度為名","vi":"theo tên Ấn Độ","th":"ตั้งตามอินเดีย","id":"dinamai India","hi":"भारत के नाम पर","de":"nach Indien benannt","fr":"nommé d'après l'Inde","it":"dal nome dell'India","es":"por la India","pt":"pelo nome da Índia","ru":"по Индии","uk":"за Індією","ar":"باسم الهند","he":"על שם הודו","sw":"kwa jina la India"},
@@ -601,5 +615,19 @@ WORDS.turkey = {
     shi: ["ⴱⵉⴱⵉ", "bibi"],  // Tashelhit bibi, plural id bibi, the same word as in Central Atlas Tamazight.
     rn: ["idendo", "idendo"],  // Borrowed from French dinde, from (poule) d’Inde "hen of India". Route by resemblance to the neighbouring forms (fr(dinde)); no etymology of its own.
     min: ["kalkun", "kalkun"],  // Same word as Indonesian kalkun, from Dutch kalkoen after the Indian port of Calicut. Route by resemblance to the neighbouring forms (id(kalkun) jv(kalkun)).
+    shn: ["ၵႆႇၸၢင်ႉ", "kaj˩ tsaːŋ˦˨ˀ"],  // Literally "chicken elephant" (ၵႆႇ 'chicken' + ၸၢင်ႉ 'elephant'), the same picture as Burmese ကြက်ဆင် 'elephant fowl'.
+    ban: ["kalkun", "kalkun"],  // Same word as Indonesian kalkun, from Dutch kalkoen, named after the Indian port of Calicut.
+    bjn: ["kalkun", "kalkun"],  // Same word as Indonesian kalkun, from Dutch kalkoen, named after the Indian port of Calicut.
+    war: ["pabo", "ˈpabo"],  // From Spanish pavo, originally "peacock", as in Cebuano, Tagalog and Bikol pabo.
+    pam: ["pabo", "ˈpabo"],  // From Spanish pavo, originally "peacock", as in Tagalog and Cebuano pabo.
+    kok: ["टर्की", "ʈərkiː"],  // Borrowed from English turkey; Konkani Wikipedia calls the wild turkey रानवटी टर्की.
+    kbd: ["гуэгуш", "ɡʷaɡʷəʃ"],  // The Kabardian Wikipedia calls the domestic turkey унэ гуэгуш 'house turkey'; тхьаджэд is a second name.
+    kha: ["piru", "piru"],  // The same word as Hindi पीरू; the English-Khasi dictionary also gives ïar piru 'piru fowl'. Route by resemblance to the neighbouring forms (Portuguese peru; Hindi पीरू); no etymology of its own.
+    shy: ["bibi", "bibi"],  // The same word as Central Atlas Tamazight and Tashelhit bibi; asertuk is a synonym.
+    av: ["гургур", "ɡurɡur"],  // The Avar word for the turkey; the male is бихьинаб гургур and the female цӀуяб гургур.
+    iba: ["manuk serati", "manuk sərati"],  // Literally 'Surat fowl', after the Indian port of Surat, via Malay surati (Richards 1981, who spells it manok serati).
+    dag: ["torotoro", "torotoro"],  // Borrowed from Hausa tàlotàlo, the probably imitative name that spread across Nigerian and Ghanaian languages; the plural is torotoronima.
+    rgn: ["galinàz", "ɡaliˈnaz"],  // Literally 'big hen', the Romagnol counterpart of Italian gallinaccio; Ercolani also lists birén for the turkey.
+    ksw: ["ဆီကဆီ", "sʰɔkəsʰɔ"],  // A native compound built on ဆီ 'chicken'.
   },
 };

@@ -412,6 +412,14 @@ WORDS.tomato = {
     bej: "nahuatl",
     bug: "unknown",
     ace: "nahuatl",
+    ar_sy: "apple",
+    ar_lb: "apple",
+    en_ph: "nahuatl",
+    en_geordie: "nahuatl",
+    yue_zs: "foreign",
+    wuu_wz: "foreign",
+    wuu_jh: "foreign",
+    zh_zz: "foreign",
   },
   routes: {
     nahuatl: {"color":"#dc2626","emoji":"🌽","en":"from Nahuatl tomatl","ja":"ナワトル語 tomatl から","ko":"나우아틀어 tomatl에서","zh":"源自纳瓦特尔语 tomatl","yue":"源自納瓦特爾語 tomatl","vi":"từ tiếng Nahuatl tomatl","th":"จากภาษานาวัตล์ tomatl","id":"dari bahasa Nahuatl tomatl","hi":"नाहुआत्ल tomatl से","de":"aus Nahuatl tomatl","fr":"du nahuatl tomatl","it":"dal nahuatl tomatl","es":"del náhuatl tomatl","pt":"do náuatle tomatl","ru":"из науатль tomatl","uk":"з науатль tomatl","ar":"من الناواتلية tomatl","he":"מנאוואטל tomatl","sw":"kutoka Kinahuatl tomatl"},
@@ -768,5 +776,13 @@ WORDS.tomato = {
     bej: ["tamaatim", "tamaːtim"],  // A collective noun borrowed from Arabic ṭamāṭim, ultimately from Aztec tomatl; one tomato is tamaatnaaji.
     bug: ["lambace", "lambatʃe"],  // Etymology not given by the source.
     ace: ["tomat", "tomat"],  // The Acehnese Wikipedia gives the older names truëng kléng, truëng turuki and seumaté, and says the plant is now usually called tomat. Route by resemblance to the neighbouring forms (Indonesian tomat); no etymology of its own.
+    ar_sy: ["بندورة", "banaˈdoːra"],  // Borrowed from Italian pomodoro, the 'golden apple'; Aleppo says banadōra.
+    ar_lb: ["بندورة", "banaˈduːɾa"],  // Borrowed from Italian pomodoro, the 'golden apple'; Beirut says banadūra with ū.
+    en_ph: ["tomato", "toˈmeɪto"],  // From Spanish tomate, from Nahuatl tomatl; Philippine English says the American 'tom-AY-to' with a full o.
+    en_geordie: ["tomato", "təˈmɒːtoː"],  // From Spanish tomate, from Nahuatl tomatl; the British 'tom-AH-to' with the Geordie back ɒː.
+    yue_zs: ["番茄", "fan˥˥ kʰœ˥˩"],  // 番 'foreign' + 茄 'eggplant'; the Zhongshan table records 茄 only in its plain falling tone.
+    wuu_wz: ["番茄", "fa˧˧ dzɿ˧˩"],  // 番 'foreign' + 茄 'eggplant'.
+    wuu_jh: ["番茄", "fã˧˧˦ dʑiɑ˧˩˧"],  // 番 'foreign' + 茄 'eggplant'; Jinhua reads 番 with a nasal vowel in this word.
+    zh_zz: ["番茄", "fan˨˦ tɕʰiɛ˦˨"],  // 番 'foreign' + 茄 'eggplant'; Zhengzhou also says 洋柿子 'foreign persimmon' and 西红柿.
   },
 };

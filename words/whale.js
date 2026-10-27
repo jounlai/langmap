@@ -321,6 +321,27 @@ WORDS.whale = {
     scn: "plain",
     hak_tw: "fish",
     hak_hl: "fish",
+    bik: "plain",
+    war: "plain",
+    ban: "plain",
+    vec: "plain",
+    bjn: "fish",
+    ace: "fish",
+    zza: "plain",
+    bs: "plain",
+    fon: "unknown",
+    pms: "plain",
+    kok: "fish",
+    tcy: "other",
+    mfe: "plain",
+    grt: "fish",
+    li: "fish",
+    kbp: "plain",
+    cv: "plain",
+    ba: "plain",
+    sc: "plain",
+    quz: "plain",
+    nbl: "unknown",
   },
   routes: {
     fish: {"color":"#2563eb","emoji":"🐟","en":"called a fish","ja":"「魚」と呼ぶ","ko":"\"물고기\"라 부름","zh":"称作\"鱼\"","yue":"叫做「魚」","vi":"gọi là cá","th":"เรียกว่าปลา","id":"disebut ikan","hi":"मछली कहा जाता है","de":"als Fisch bezeichnet","fr":"appelée poisson","it":"chiamata pesce","es":"llamada pez","pt":"chamada peixe","ru":"называют рыбой","uk":"називають рибою","ar":"تُسمّى سمكة","he":"נקרא דג","sw":"huitwa samaki"},
@@ -587,5 +608,26 @@ WORDS.whale = {
     scn: ["balena", "baˈlɛna"],  // From Latin balaena, from Greek phálaina.
     hak_tw: ["鯨魚", "kin˨˦ ŋ̍˩˩"],  // Literally 'whale fish', as in Meixian Hakka and Mandarin.
     hak_hl: ["鯨魚", "kin˥˧ ŋ˥˥"],  // Literally 'whale fish', as in Sixian Hakka 鯨魚.
+    bik: ["balyena", "balˈjena"],  // Borrowed from Spanish ballena.
+    war: ["balyena", "balˈjena"],  // Borrowed from Spanish ballena; the older native name is bongansiso.
+    ban: ["paus", "paus"],  // The same word as Malay and Indonesian paus; it is also called bé paus, with bé 'fish' in front.
+    vec: ["bałena", "baˈena"],  // From Latin ballaena, like Italian balena; the Venetian ł is not pronounced between vowels.
+    bjn: ["iwak paus", "iwak paus"],  // Literally 'paus fish': iwak 'fish' plus paus, the Malay word for the whale.
+    ace: ["eungkôt paôh", "ɯŋkot paoh"],  // Literally 'paôh fish': eungkôt 'fish' plus paôh, the Acehnese form of Malay paus.
+    zza: ["balina", "baliˈna"],  // The same word as Turkish balina, which comes from Italian balena.
+    bs: ["kit", "kȉt"],  // From Ancient Greek kêtos 'sea monster', the same root as cetacean.
+    fon: ["majatlɛ́", "madʒatlɛ́"],  // The Fon word for the whale, matching Gun jámajátlẹ; the Fon Wikipedia gives French baleine as its equivalent.
+    pms: ["balen-a", "baˈleŋa"],  // The Piedmontese form of Italian balena, from Latin balaena.
+    kok: ["देवमासो", "deːʋmaːso"],  // The Konkani Wikipedia's name for the whale, the same make-up as Marathi देवमासा 'god fish'. Route by resemblance to the neighbouring forms (Marathi देवमासा); no etymology of its own.
+    tcy: ["ತಿಮಿಂಗಿಲ", "timiŋɡila"],  // From Sanskrit timiṅgila, 'swallower of the timi', a mythical giant fish, as in Kannada.
+    mfe: ["labalenn", "labalɛn"],  // From French la baleine, with the French article fused onto the word.
+    grt: ["timi na·tok", "timi naʔtok"],  // Literally timi + na·tok 'fish'.
+    li: ["walvès", "ʋalvɛs"],  // Like Dutch walvis, literally 'whale-fish', with vès 'fish'.
+    kbp: ["baalɛɛnɩ", "baːlɛːnɪ"],  // Borrowed from French baleine.
+    cv: ["кит", "kit"],  // Borrowed from Russian кит, ultimately from Greek kêtos 'sea monster'.
+    ba: ["кит", "kit"],  // Borrowed from Russian кит, ultimately from Latin cetus / Greek kêtos 'sea monster'.
+    sc: ["balena", "baˈlɛna"],  // The same Latin-derived word as Italian balena; Puddu glosses it 'a very large sea animal, up to twenty metres long'.
+    quz: ["wallina", "waˈʎina"],  // Borrowed from Spanish ballena; Quechua Wikipedia also gives hatun yakuwayt'a.
+    nbl: ["umkhomo", "umkʰomo"],  // The isiNdebele term for the whale, akin to Zulu and Swati umkhoma.
   },
 };

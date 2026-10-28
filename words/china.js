@@ -384,6 +384,26 @@ WORDS.china = {
     hak_hl: "zhongguo",
     zh_hf: "zhongguo",
     zh_nj: "zhongguo",
+    cpx: "zhongguo",
+    pcc: "zhongguo",
+    bs: "cina",
+    kok: "cina",
+    tum: "cina",
+    ssw: "cina",
+    luo: "cina",
+    kam: "cina",
+    nyn: "cina",
+    ay: "cina",
+    mrw: "cina",
+    iba: "cina",
+    quz: "cina",
+    tig: "cina",
+    kbp: "cina",
+    sc: "cina",
+    cv: "khitan",
+    tsg: "unknown",
+    li: "cina",
+    mnw: "unknown",
   },
   routes: {
     zhongguo: {"color":"#dc2626","emoji":"🏮","en":"reads 中國 \"Middle Kingdom\" itself","ja":"漢字 中國 を自分で読む","ko":"한자 中國을 직접 읽음","zh":"自己读汉字\"中國\"","yue":"自己讀漢字「中國」","vi":"tự đọc chữ 中國","th":"อ่านอักษร 中國 เอง","id":"membaca aksara 中國 sendiri","hi":"中國 को ख़ुद पढ़ना","de":"liest 中國 selbst","fr":"lit 中國 lui-même","it":"legge 中國 da sé","es":"lee 中國 por sí mismo","pt":"lê 中國 por si","ru":"своё чтение 中國","uk":"власне читання 中國","ar":"يقرأ 中國 بنفسه","he":"קורא את 中國 בעצמו","sw":"husoma 中國 yenyewe"},
@@ -710,5 +730,25 @@ WORDS.china = {
     hak_hl: ["中國", "tʃuŋ˥˧ kuet˥"],  // Literally 'middle country'; Hailu Hakka zhungˋ gued, with 中 on the high falling tone.
     zh_hf: ["中国", "tʂəŋ˨˩˨ kuɐʔ˦"],  // Literally 'middle country'; Hefei keeps 国 as a checked (glottal-stop) syllable.
     zh_nj: ["中国", "tʂoŋ˧˩ koʔ˥"],  // 中 "middle" + 国 "country", read in Nanjing; 国 as in the row's 德国.
+    cpx: ["中国", "tœŋ˥˧˧ kɒʔ˨˩"],  // The Chinese name 中國 'middle country', read in Putian as doeng1 gorh6.
+    pcc: ["Zungyguef", "tsuŋ˧kuə˧˩"],  // Borrowed from Mandarin 中國 Zhōngguó; Zungyhuaf (from 中華) is a synonym.
+    bs: ["Kina", "ˈkiːna"],  // Kina is the Bosnian name of the country, officially Narodna Republika Kina.
+    kok: ["चीन", "tʃiːn"],  // चीन is the Konkani name of the country, as in Hindi and Marathi.
+    tum: ["China", "tʃina"],  // China is used in Tumbuka, as in charu cha China 'the country of China'.
+    ssw: ["iShayina", "iʃajina"],  // The noun prefix i- plus Shayina, the same name as Zulu iShayina; 'in China' is eShayina.
+    luo: ["China", "tʃina"],  // China is the spelling used in Dholuo publications and CLDR; Wiktionary lists Chaina.
+    kam: ["Kyaina", "kjaina"],  // Kyaina is the Kamba name of the country; Wiktionary's translation table gives Chaina instead.
+    nyn: ["China", "tʃina"],  // China is the Runyankore spelling, as in abantu ba China 'the people of China'.
+    ay: ["China", "tʃina"],  // Usually said as China marka 'the country China', with marka 'country, town'.
+    mrw: ["Sina", "sina"],  // The Maranao dictionary on Webonary glosses Sina as 'China' and, as an adjective, 'Chinese'.
+    iba: ["China", "tʃina"],  // China is the Iban Wikipedia title, and Iban publications write menua China 'the country China'.
+    quz: ["China", "ˈtʃina"],  // Cusco Quechua publications write China nación 'the nation of China', as the Quechua CLDR locale and Wikipedia do.
+    tig: ["ቻይና", "tʃajna"],  // Borrowed from English China (Wiktionary); the older Arabic loan ሲን sin is attested in a 1983 text.
+    kbp: ["Siini", "siːni"],  // Siini is the Kabiye Wikipedia title, used as Siini ɛjaɖɛ 'the country China' and in Siini kʋnʋŋ 'Chinese (language)'.
+    sc: ["Tzina", "ˈtsina"],  // Sardinian writes the name Tzina, with the article sa (Sa Tzina), in Wikipedia and in the CLDR locale.
+    cv: ["Китай", "kiˈtaj"],  // The same name as Russian Китай; Chuvash stress falls on the last full vowel.
+    tsg: ["Sungsung", "suŋsuŋ"],  // The Tausug dictionary glosses Sungsung as China; its Tagalog cognate Sungsong is traced either to the Song 宋 dynasty or to Proto-Malayo-Polynesian *suŋsuŋ 'against the current'.
+    li: ["China", "ˈʃinaː"],  // The Limburgish Wikipedia title; the Limburgish Wiktionary gives the pronunciation /ʃìna:/ and the alternative spelling Sjina.
+    mnw: ["ကြုက်", "krɜk"],  // Kruk is the Mon name of the Chinese; the country is also written ဍုင်ကြုက် 'land of the Chinese'.
   },
 };

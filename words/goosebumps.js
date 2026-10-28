@@ -220,6 +220,15 @@ WORDS.goosebumps = {
     it_dan: "hair",
     fr_class: "bird",
     ota: "hair",
+    jv: "plain",
+    az: "hair",
+    so: "unknown",
+    gu: "hair",
+    sd: "other",
+    sq: "unknown",
+    as: "unknown",
+    sk: "bird",
+    hy: "unknown",
   },
   family2: {
     ko: "bird",
@@ -388,5 +397,14 @@ WORDS.goosebumps = {
     it_dan: ["arricciar li peli", "arrittʃar li peli"],  // Dante, Inferno XXIII.19: 'Già mi sentia tutti arricciar li peli / de la paura', 'I already felt all my hairs bristle with fear'.
     fr_class: ["chair de poule", "ʃɛr də pul"],  // 'Hen flesh': the Académie dictionary of 1762 says 'Cela fait venir la peau de poule, la chair de poule, pour dire, Cela fait frissonner', the skin likened to that of a plucked hen.
     ota: ["اورپرمك", "yɾpeɾˈmek"],  // A verb of its own, glossed by Redhouse (1890) 'for one's hair to stand on end'.
+    jv: ["mrinding", "mrindiŋ"],  // A word of its own from prinding, a shiver that makes the skin contract and the small hairs rise; the same word as Indonesian merinding.
+    az: ["ürpəşmək", "yɾpæʃˈmæc"],  // A verb for the skin and body hair bristling from cold or fear, from the Turkic root of Turkish ürpermek 'for one's hair to stand on end'; ürpərmək is a synonym.
+    so: ["jiriirico", "dʒiriːriʕo"],  // The Somali noun for goose-flesh; the verb jiriiricood means 'to get goosebumps'.
+    gu: ["રોમાંચ", "ɾomãːtʃ"],  // From Sanskrit romāñca, the body hair standing up; it also means 'a thrill', as in Kannada and Malayalam.
+    sd: ["ڪانڊارجڻ", "kaːɳɖaːrɪdʒəɳʊ"],  // A verb built on the word for 'thorn' (Sanskrit kaṇṭaka): the body hair turns to thorns, as in Bengali and Marathi; one says لڱ ڪانڊارجڻ.
+    sq: ["mornica", "mɔɾˈnitsa"],  // A plural-only noun; the Albanian dictionary defines its second sense as the tiny bumps, like a plucked fowl's skin, that rise on the skin with cold, and its first as a shiver.
+    as: ["শিয়ৰণ", "xijɔɹɔn"],  // The verbal noun of শিয়ৰ্ 'to have one's hair stand on end and get goosebumps', defined as the bristling of the body hair from cold or fear.
+    sk: ["husia koža", "ɦusɪ̯a koʒa"],  // Literally "goose skin" (husí 'goose's' + koža 'skin').
+    hy: ["փշաքաղվել", "pʰəʃɑkʰɑʁˈvel"],  // A verb: hy.wiktionary glosses it 'a shiver passes through the body' and 'the hair stands on end'; Armenian says it as a verb, and the noun սագամաշկ 'goose skin' is labelled medical.
   },
 };

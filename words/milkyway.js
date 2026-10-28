@@ -285,6 +285,12 @@ WORDS.milkyway = {
     scn: "road",
     rif: "straw",
     hil: "unknown",
+    ssw: "unknown",
+    kok: "river",
+    unr: "road",
+    mrw: "other",
+    sc: "straw",
+    rgn: "road",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -513,5 +519,11 @@ WORDS.milkyway = {
     scn: ["Jolu di San Jàbbucu", "ˈjɔlu di san ˈjabbuku"],  // Literally 'Saint James's road': the Sicilian Wikipedia says pilgrims to Santiago de Compostela followed the band's direction; Via Làttea is also used.
     rif: ["ⴰⴱⵔⵉⴷ ⵓⵔⵓⵎ", "abrið urum"],  // Literally 'the road of hay', like Arabic darb at-tabbāna; abrid n ixewwanen is a synonym.
     hil: ["Balatas", "baˈlatas"],  // Wiktionary gives Balatas for the Milky Way; the Astronomers Without Borders account of Philippine sky lore records the same name among the Tagalogs.
+    ssw: ["umtsendze", "umtsendze"],  // The siSwati name for the Milky Way, a class 3 noun; its literal meaning is not given in the sources.
+    kok: ["आकाशगंगा", "aːkaːʃɡəŋɡaː"],  // Literally 'the Ganges of the sky', from Sanskrit; the same dictionary also gives क्षीरपथ 'milk path', and an 1883 Konkani dictionary records molbamārog 'the road on the sky'.
+    unr: ["gai-hora", "ɡai hora"],  // Literally 'the cow road' (gai 'cow', hora 'road, path').
+    mrw: ["Mala a Naga", "mala a naɡa"],  // Named after the naga, the dragon; the Maranao dictionary glosses naga as 'dragon' and mala' as 'great'.
+    sc: ["Camminu de paza", "kamˈminu de ˈpadza"],  // Literally 'the road of straw', the same image as Turkish Samanyolu and Arabic درب التبانة.
+    rgn: ["strê 'd Roma", "streː d roma"],  // Literally 'the road to Rome'; Ercolani's Romagnol dictionary gives it as the name of the Milky Way.
   },
 };

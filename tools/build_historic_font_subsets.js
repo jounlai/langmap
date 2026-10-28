@@ -113,7 +113,30 @@ for (const rel of EXTRA) {
   }
 }
 
+// --check: verify each shipped subset still holds every codepoint the data
+// needs, without rebuilding. The Tangut pass (2026-09-13) replaced most txg
+// cells and nobody re-ran this script, so the subset kept the old glyphs and
+// the Tangut row rendered as tofu on desktop browsers until 2026-10-28.
+if (process.argv.includes('--check')) {
+  let missing = 0;
+  for (const s of SCRIPTS) {
+    const cps = [...need.get(s.key)];
+    if (!cps.length) continue;
+    const out = path.join(FONTS, `${s.repo}-subset.woff2`);
+    const have = new Set(fs.existsSync(out) ? JSON.parse(execFileSync('python3', ['-c',
+      'import sys,json;from fontTools.ttLib import TTFont;print(json.dumps(list(TTFont(sys.argv[1]).getBestCmap())))', out],
+      { encoding: 'utf8' })) : []);
+    // Unassigned codepoints come from regex range ends (wordmap_meta.js RTL_RE ends at U+085F); no font has them.
+    const miss = cps.filter(c => !have.has(c) && !/\p{Cn}/u.test(String.fromCodePoint(c)));
+    if (miss.length) console.log(`  ${s.key}: ${miss.length} missing (${miss.map(c => String.fromCodePoint(c)).join('')})`);
+    missing += miss.length;
+  }
+  console.log(`missing: ${missing}`);
+  process.exit(0);
+}
+
 const jsd = repo => `https://cdn.jsdelivr.net/gh/notofonts/notofonts.github.io@main/fonts/${repo}/hinted/ttf/${repo}-Regular.ttf`;
+const raw = repo => `https://raw.githubusercontent.com/notofonts/notofonts.github.io/main/fonts/${repo}/hinted/ttf/${repo}-Regular.ttf`;
 const css = [];
 const skipped = [];
 for (const s of SCRIPTS) {
@@ -121,7 +144,12 @@ for (const s of SCRIPTS) {
   if (!cps.length) { skipped.push(`${s.key} (no codepoints in data)`); continue; }
   const ttf = path.join(TMP, `${s.repo}.ttf`);
   if (!fs.existsSync(ttf)) {
-    execFileSync('curl', ['-sSL', '-f', '-o', ttf, jsd(s.repo)], { stdio: ['ignore', 'ignore', 'inherit'] });
+    // jsDelivr answered 403 for whole-repo paths on 2026-10-28; GitHub raw is the fallback.
+    try {
+      execFileSync('curl', ['-sSL', '-f', '-o', ttf, jsd(s.repo)], { stdio: ['ignore', 'ignore', 'inherit'] });
+    } catch (e) {
+      execFileSync('curl', ['-sSL', '-f', '-o', ttf, raw(s.repo)], { stdio: ['ignore', 'ignore', 'inherit'] });
+    }
   }
   const out = path.join(FONTS, `${s.repo}-subset.woff2`);
   const unicodes = cps.map(c => 'U+' + c.toString(16).toUpperCase()).join(',');

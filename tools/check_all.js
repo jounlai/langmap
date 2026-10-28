@@ -413,6 +413,13 @@ line('asset cache-version freshness', num(s, /violations: (\d+)/));
 s = run('page_asset_version_check.js --check');
 line('page ?v= cache-buster freshness', num(s, /violations: (\d+)/));
 
+// The self-hosted historic-script subsets must hold every codepoint the data
+// renders. font_coverage_check only proves a font is NAMED; this one opens the
+// woff2. The txg row showed tofu for six weeks because the subset was cut
+// before the Tangut pass replaced its cells (2026-10-28).
+s = run('build_historic_font_subsets.js --check');
+line('historic font subset coverage', num(s, /missing: (\d+)/));
+
 // Pre-compressed .br siblings for the seven biggest shipped files. nginx has
 // `brotli_static on`, and it serves <file>.br WITHOUT checking that it is
 // newer than <file> — a stale one would serve the previous version of the

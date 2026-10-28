@@ -518,7 +518,7 @@ WORDS.butterfly = {
     zne: ["fufurafu", "fufurafu"],
     toi: ["inkoonkolekwa", "iŋkoːŋkolekwa"],
     ach: ["lapwopwo", "lapwopwo"],
-    rhg: ["bénbení", "benbeni"],
+    rhg: ["hoddafuti", "hɔdːafuti"],
     tcy: ["ಪಂತೆ", "pante"],
     tmh: ["ⴰⵍⴼⴰⵇⵇⵉ", "alfaqːi"],
     hyw: ["թիթեռ", "tʰiˈtʰɛɾ"],

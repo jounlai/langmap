@@ -200,6 +200,25 @@ WORDS.dragonfly = {
     hil: "unknown",
     lo: "plain",
     kg: "unknown",
+    bm: "unknown",
+    bal: "unknown",
+    ig: "unknown",
+    so: "unknown",
+    ht: "unknown",
+    din: "unknown",
+    shn: "unknown",
+    luo: "unknown",
+    war: "unknown",
+    mui: "unknown",
+    zza: "unknown",
+    dag: "unknown",
+    tsg: "unknown",
+    mnw: "unknown",
+    ii: "unknown",
+    rhg: "unknown",
+    ngl: "unknown",
+    mni: "unknown",
+    egl: "other",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -345,5 +364,24 @@ WORDS.dragonfly = {
     hil: ["tumbak-tumbak", "ˈtumbaktumbak"],  // A reduplicated word; Motus's dictionary marks stress on the first syllable, túmbaktúmbak, and gives no etymology.
     lo: ["ແມງປໍ", "mɛːŋ˧˥ pɔː˩˧"],  // ແມງ 'insect' + ປໍ, which Kerr's dictionary glosses as 'dragonfly' on its own; the same make-up as Thai แมลงปอ.
     kg: ["lumpungumpungu", "lumpuŋɡumpuŋɡu"],  // Both standard Kikongo dictionaries give this word; Kikongo Wikipedia titles its article kimpungunzala, which looks built on the same mpungu stem.
+    bm: ["maama", "maːma"],  // Bamadaba also gives súrukubòcɛkalama, literally 'stick for picking up hyena dung'; máama can also mean a winged termite, and no source traces the word.
+    bal: ["پرک", "pirrik"],  // The same word also means 'helicopter'; no source traces it.
+    ig: ["tatambeleke", "tatambeleke"],  // The Standard Igbo word in the Nkọwa okwu dictionary; dialects have other names, several built on mmiri 'water', and no source traces tatambeleke itself.
+    so: ["xareedeeye", "ħareːdeːje"],  // Zorc and Osman's Somali-English dictionary gives it as a masculine noun; it gives no etymology, though it is listed next to xareed 'rainwater'.
+    ht: ["demwazèl", "demwazɛl"],  // Two English-Haitian dictionaries give demwazèl, and a picture dictionary spells it madmwazel; the sources do not trace the word.
+    din: ["akɔlmagar", "akɔlmaɡar"],  // The SIL draft Dinka-English dictionary glosses akɔlmagar as 'dragonfly' and marks it for the Rek dialect; it is also the title of the Dinka Wikipedia article.
+    shn: ["မႅင်းမီႈ", "mɛŋ˥ miː˧˨"],  // Built on မႅင်း 'insect'; Cushing's 1914 dictionary glosses it 'a devil's needle, dragon fly' and notes that in some areas it also means 'butterfly'.
+    luo: ["kataporo", "kataporo"],  // Kokwaro and Johns' Luo-English Biological Dictionary uses kataporo for both dragonflies and damselflies.
+    war: ["tambuburay", "tambuˈbuɾaj"],  // Rajki's Concise Waray Dictionary glosses tambuburay as 'dragonfly' and marks the stress tambubúray; the Waray Wikipedia also gives tarimbuburay, talimbuburay and alidongdong.
+    mui: ["kinjeng", "kindʒəŋ"],  // Glossed as Indonesian capung 'dragonfly' in the Kamus Sederhana Bahasa Palembang; the same word as Javanese kinjeng.
+    zza: ["teyarek", "tɛjaˈɾɛk"],  // Hayıg and Werner's Zazaki-Turkish dictionary, covering the southern Çermik–Siverek dialects, glosses teyarek as Turkish yusufçuk 'dragonfly'; it stands next to teyare 'airplane' in the same dictionary.
+    dag: ["kulilia", "kulilia"],  // Tony Naden's Dagbani dictionary glosses it 'a dragonfly' (plural kulilii or kulilihi) and also lists saapaɣa; the Dagbani Wikipedia uses kulilia as its article title.
+    tsg: ["bānag", "baːnaɡ"],  // The SIL Tausug dictionary glosses bānag simply as 'a dragonfly'.
+    mnw: ["တၞေၚ်တ္ၜဲ", "neaŋ ɓoa"],  // Shorto's Dictionary of Modern Spoken Mon (1962) glosses it simply 'dragonfly'; the first element occurs only in this compound.
+    ii: ["ꊴ", "tsʰɛ˧˧"],  // A single syllable, cie in the Yi romanisation; the same syllable written with the same sign also means 'deer', and no source traces the word.
+    rhg: ["bínbiní", "binbini"],  // Written bínbiní in the Rohingya Latin spelling; no source traces the word.
+    ngl: ["mwanteri", "mwanteɾi"],  // The dictionary gives mwitanti as an equal synonym; no source traces either word.
+    mni: ["ꯆꯔꯥꯡ", "tʃəraŋ"],  // Romanised carāng; Sharma's dictionary glosses it 'dragonfly', and no source traces the word.
+    egl: ["frè", "frɛː"],  // The Bolognese word for a friar or monk, from Latin frater 'brother', also names the dragonfly.
   },
 };

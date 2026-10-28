@@ -407,6 +407,20 @@ WORDS.germany = {
     hak_hl: "deutsch",
     zh_hf: "deutsch",
     zh_jiao: "deutsch",
+    nyn: "germania",
+    sid: "germania",
+    kmb: "alemanni",
+    hmn: "germania",
+    jam: "germania",
+    shn: "germania",
+    czh: "deutsch",
+    mni: "germania",
+    ii: "deutsch",
+    bbc: "germania",
+    li: "other",
+    mrw: "alemanni",
+    seh: "alemanni",
+    mfe: "alemanni",
   },
   routes: {
     deutsch: {"color":"#0891b2","emoji":"🗣️","en":"the Germans' own word","ja":"ドイツ人の自称","ko":"독일인의 자칭","zh":"德国人的自称","yue":"德國人嘅自稱","vi":"tên tự gọi của người Đức","th":"ชื่อที่ชาวเยอรมันเรียกตัวเอง","id":"sebutan orang Jerman sendiri","hi":"जर्मनों का अपना शब्द","de":"die Selbstbezeichnung","fr":"le nom que se donnent les Allemands","it":"il nome che si danno i tedeschi","es":"el nombre que se dan los alemanes","pt":"o nome que os alemães se dão","ru":"самоназвание немцев","uk":"самоназва німців","ar":"اسم الألمان لأنفسهم","he":"השם שהגרמנים קוראים לעצמם","sw":"jina la Wajerumani wenyewe"},
@@ -754,5 +768,19 @@ WORDS.germany = {
     hak_hl: ["德國", "tet˥ kuet˥"],  // 德 is short for 德意志, a transcription of German deutsch, plus 國 'country'.
     zh_hf: ["德国", "tɐʔ˦ kuɐʔ˦"],  // 德 is short for 德意志, a transcription of German deutsch, plus 国 'country'.
     zh_jiao: ["德国", "te˥˥ kuə˥˥"],  // 德 is short for 德意志, a transcription of Deutsch; same word as Standard Mandarin.
+    nyn: ["Bugirimaani", "buɡirimaːni"],  // Bugirimaani, with the country prefix bu-, is the Runyankore name in CLDR and in Jehovah's Witnesses' Runyankore publications.
+    sid: ["Jarmane", "dʒarmane"],  // Germany in Sidama, as written in Jehovah's Witnesses' Sidama publications ('Umihu Alamete Oli yannara Jarmane', 'Germany in the First World War').
+    kmb: ["Alemanha", "alemaɲa"],  // The same name as Portuguese Alemanha, written that way throughout Jehovah's Witnesses' Kimbundu publications ('mu ixi ia Alemanha', 'in the land of Germany').
+    hmn: ["Ntsaws Mes Nis", "ᶯdʐaɨ˨˩ me˨˩ ni˨˩"],  // A syllable-by-syllable rendering of English Germany, glossed '(Germany)' in Jehovah's Witnesses' White Hmong publications and usually preceded by tebchaws 'country'.
+    jam: ["Jormani", "dʒɔrmani"],  // The English name Germany in Jamaican spelling, as in Jehovah's Witnesses' Patwa publications; the Patwa Wikipedia spells it Joermani.
+    shn: ["မိူင်းၵျႃႇမၼီႇ", "mɤŋ˥ dʑaː˩ ma˨˦ niː˩"],  // Literally 'country of Germany', မိူင်း 'country' plus ၵျႃႇမၼီႇ, the bare name that CLDR's Shan data gives.
+    czh: ["德国", "ti˥ kuə˥"],  // The characters 德国, the standard Chinese name (德 short for 德意志, a transcription of German Deutsch), read in Tunxi Hui.
+    mni: ["ꯖꯔꯃꯅꯤ", "dʒərməni"],  // The Meitei Wikipedia name for Germany, written জর্মনি in Bengali script; no source found that names the donor.
+    ii: ["ꄓꇩ", "tɯ˨˩ kɔ˨˩"],  // Nuosu dep guop, the Yi name for Germany in CLDR and the Yi Wikipedia, which sounds like Chinese 德国 Déguó; no source states the borrowing.
+    bbc: ["Jerman", "dʒerman"],  // The Batak Toba Wikipedia name for Germany, the same form as Indonesian Jerman; no source found that names the donor.
+    li: ["Pruses", "ˈpryːsəs"],  // Literally 'Prussia': the popular Limburgish name for Germany, which the Limburgish Wiktionary prefers over the little-used Duutsjlandj.
+    mrw: ["Alimaniya", "alimanija"],  // The Maranao name for Germany as given in the Webonary Maranao dictionary; no source names the donor language.
+    seh: ["Alemanya", "alemaɲa"],  // Borrowed from Portuguese Alemanha, named after the Alamanni tribe; CLDR writes it in the Portuguese spelling Alemanha.
+    mfe: ["Lalmagn", "lalmaɲ"],  // From French l'Allemagne with the article fused into the name, like Lasinn for China; CLDR gives the form without the article, Almagn.
   },
 };

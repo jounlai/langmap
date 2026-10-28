@@ -499,7 +499,7 @@ const TRIVIA_ARTICLES = [
       },
       body: {
         en: `
-  <p>More than 250 Indigenous languages of Australia share a broadly similar set of speech sounds: stops at four to six places of articulation, usually with no voicing contrast,, matching nasals, a few laterals, two rhotics, and no clicks, ejectives, implosives, or ingressive sounds. <strong>Damin</strong> differs sharply from that pattern.</p>
+  <p>More than 250 Indigenous languages of Australia share a broadly similar set of speech sounds: stops at four to six places of articulation, usually with no voicing contrast, matching nasals, a few laterals, two rhotics, and no clicks, ejectives, implosives, or ingressive sounds. <strong>Damin</strong> differs sharply from that pattern.</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="lbz_damin" data-zoom="6">🌍 Show Damin on the map</button>
@@ -523,7 +523,7 @@ const TRIVIA_ARTICLES = [
     <li><strong>A bilabial trill</strong> (the lip-buzz of a shivering "brrr") and a bilabial "spurt" of air pushed out by the tongue: noises that elsewhere are play or rudeness, here pressed into linguistic service.</li>
   </ul>
   
-  <blockquote>Damin's phonology was a deliberate departure from Lardil's, not a segment-by-segment recoding of it: alongside ordinary Australian stops — and the plain Lardil consonants that survive mainly in its grammatical suffixes — Damin used nasal clicks, a velar ejective <em>k'</em>, a bilabial trill and an ingressive lateral fricative, sounds attested nowhere else on the continent. — summarising Hale &amp; Nash, "Damin and Lardil phonotactics" (1997)</blockquote>
+  <p>As Hale and Nash (1997) describe it, Damin's phonology was a deliberate departure from Lardil's, not a segment-by-segment recoding of it: alongside ordinary Australian stops — and the plain Lardil consonants that survive mainly in its grammatical suffixes — it used nasal clicks, a velar ejective <em>k'</em>, a bilabial trill and an ingressive lateral fricative, sounds attested nowhere else on the continent.</p>
   
   <p>Damin bears on a broader question about Australian phonology. The familiar "Australian" profile is not an articulatory or biological limit: Lardil speakers, whose everyday sound system resembled those of neighbouring languages, could produce and teach this very different ritual register to teenage initiates. The relative uniformity of sound systems across the continent therefore calls for a cultural and sociolinguistic explanation, rather than an articulatory or cognitive one.</p>
   
@@ -558,7 +558,7 @@ const TRIVIA_ARTICLES = [
     <li><strong>両唇震え音</strong>（寒さに震えて「ブルルッ」と言うときの唇の震え）と、舌で唇から空気を押し出す「噴出音」。よそでは遊びや無作法でしかない音を、言語の要素として取り込んだ例である。</li>
   </ul>
   
-  <blockquote>ダミン語の音韻は、ラーディル語の音を一つずつ置き換えたものではなく、意図的な逸脱だった。オーストラリアでありふれた破裂音――そして主に文法接辞に残るラーディル語そのままの子音――に加え、ダミン語は鼻音吸着音、軟口蓋放出音 <em>k'</em>、両唇震え音、吸気側面摩擦音を用いた。いずれも大陸の他のどこにも見られない音である。── ヘイル&amp;ナッシュ「Damin and Lardil phonotactics」（1997年）の要約</blockquote>
+  <p>ヘイルとナッシュ（1997年）によれば、ダミン語の音韻は、ラーディル語の音を一つずつ置き換えたものではなく、意図的な逸脱だった。オーストラリアでありふれた破裂音――そして主に文法接辞に残るラーディル語そのままの子音――に加え、ダミン語は鼻音吸着音、軟口蓋放出音 <em>k'</em>、両唇震え音、吸気側面摩擦音を用いた。いずれも大陸の他のどこにも見られない音である。</p>
   
   <p>ここから言語学者が引き出した結論は不穏かつ高揚的だ。<strong>「オーストラリアらしい音体系」は生物学的必然ではない</strong>。ラーディル語話者は、日常では他言語と変わらぬ素朴な音体系を使いながら、儀礼が要求すれば、吸着音や放出音を含む異様な音体系を作り出し、成人儀礼を経た十代の若者たちに、儀礼のたびに当然のこととして教え込んでいたのだ。何千キロにわたるオーストラリアの音体系の均一性を支えているのは、調音器官でも認知能力でもなく、<strong>文化と社会言語学</strong>である。</p>
   
@@ -630,7 +630,7 @@ const TRIVIA_ARTICLES = [
     <button type="button" class="trivia-action" data-action="focus" data-code="naq" data-zoom="6">🌍 Show Khoekhoe (Nama)</button>
   </div>
   
-  <p>The most striking sociolinguistic fact about clicks is that they <strong>jumped families</strong>. The Bantu languages <strong>Zulu</strong>, <strong>Xhosa</strong>, <strong>Southern Sotho</strong> and <strong>Swati</strong> all have phonemic clicks — three click types in Zulu and Xhosa, a single one in Southern Sotho and Swati — even though the vast majority of Bantu languages have none. (A second, separate cluster of Bantu click languages, among them Yeyi, Fwe and Mbukushu, lies far to the north-west around the Okavango and Zambezi.) The explanation, pieced together by linguists such as <strong>Anthony Traill</strong> and <strong>Rainer Vossen</strong>, runs roughly as follows: as Bantu-speaking farmers spread into what is now South Africa (pioneers had reached the KwaZulu-Natal coast by about 300 CE), they encountered, intermarried with and partly absorbed Khoe and San communities. The bilingual generations who grew up in mixed households brought clicks across the family boundary, especially in respectful and ritual vocabulary. The name <em>isiXhosa</em> carries one itself: straight after the noun-class prefix, the <em>xh</em> is an aspirated lateral click. And it happened early: comparing the Nguni languages, Hilde Gunnink (2022) reconstructs a whole set of clicks for Proto-Nguni, the common ancestor of Zulu and Xhosa, including a palatal click that no living Nguni language still uses as such.</p>
+  <p>Sociolinguistically, the clicks <strong>jumped families</strong>. The Bantu languages <strong>Zulu</strong>, <strong>Xhosa</strong>, <strong>Southern Sotho</strong> and <strong>Swati</strong> all have phonemic clicks — three click types in Zulu and Xhosa, a single one in Southern Sotho and Swati — even though the vast majority of Bantu languages have none. (A second, separate cluster of Bantu click languages, among them Yeyi, Fwe and Mbukushu, lies far to the north-west around the Okavango and Zambezi.) The explanation, pieced together by linguists such as <strong>Anthony Traill</strong> and <strong>Rainer Vossen</strong>, runs roughly as follows: as Bantu-speaking farmers spread into what is now South Africa (pioneers had reached the KwaZulu-Natal coast by about 300 CE), they encountered, intermarried with and partly absorbed Khoe and San communities. The bilingual generations who grew up in mixed households brought clicks across the family boundary, especially in respectful and ritual vocabulary. The name <em>isiXhosa</em> carries one itself: straight after the noun-class prefix, the <em>xh</em> is an aspirated lateral click. And it happened early: comparing the Nguni languages, Hilde Gunnink (2022) reconstructs a whole set of clicks for Proto-Nguni, the common ancestor of Zulu and Xhosa, including a palatal click that no living Nguni language still uses as such.</p>
 
   <p style="background:rgba(255,237,190,0.55);border-left:3px solid #b8860b;padding:10px 14px;font-style:italic;border-radius:0 6px 6px 0">If you click <strong>Compare</strong> above, you'll notice how rarely one of this map's everyday basic words actually <em>contains</em> a click in Xhosa or Zulu. That's the second half of the story: clicks in Bantu live almost entirely in <strong>cultural and respectful vocabulary</strong> — names (<em>iXhosa</em>, <em>uXamu</em>), animals (<em>iqaqa</em> "polecat", <em>ixoxo</em> "frog"), greetings, taboo replacements in <em>hlonipha</em> avoidance speech, and Khoekhoe loans (Xhosa <em>icawa</em> "church", also "Sunday"). Inherited Bantu words for water / fire / sun / hand / eye remain click-free — though <em>iqanda</em> "egg" carries one in both languages, and so does Zulu <em>iqhwa</em> "snow".</p>
 
@@ -681,7 +681,7 @@ const TRIVIA_ARTICLES = [
     <button type="button" class="trivia-action" data-action="focus" data-code="naq" data-zoom="6">🌍 コエコエ（ナマ）語を表示</button>
   </div>
   
-  <p>社会言語学的にもっとも興味深いのは、吸着音が<strong>語族を飛び越えた</strong>事実だ。バントゥー諸語の<strong>ズールー語</strong>、<strong>コサ語</strong>、<strong>南ソト語</strong>、<strong>スワティ語</strong>も吸着音を音素として持つ。ズールー語とコサ語は3種、南ソト語とスワティ語は1種だけだが、バントゥー諸語の大多数には吸着音などまったくないのだから、これは際立っている（なお、これとは別系統のバントゥー系吸着音言語の一群──イェイ語、フウェ語、ムブクシュ語など──が、はるか北西のオカヴァンゴ川・ザンベジ川流域にある）。アンソニー・トレイルやライナー・フォッセンら言語学者が組み立ててきた説明は、おおよそこうだ──バントゥー系農耕民が現在の南アフリカへと広がっていく過程で（先駆けの集団は紀元300年ごろまでにクワズール・ナタール沿岸に達していた）、コエ系・サン系の人々と混血・統合し、混合家庭で育ったバイリンガル世代が、敬語や儀礼語彙を中心に吸着音を持ち込んだのである。民族名 <em>isiXhosa</em> にもそれは残っている──接頭辞のすぐあとの <em>xh</em> が有気の側面吸着音である。しかも、この移入は早い時期に起きていた。ヒルデ・グンニンク（2022）はングニ諸語を比較し、ズールー語とコサ語の共通祖先であるングニ祖語に吸着音のひとそろいを再構している。そこには、現存するどのングニ系言語でももはや本来の形では使われていない硬口蓋吸着音まで含まれる。</p>
+  <p>社会言語学の面では、吸着音は<strong>語族を飛び越えた</strong>。バントゥー諸語の<strong>ズールー語</strong>、<strong>コサ語</strong>、<strong>南ソト語</strong>、<strong>スワティ語</strong>も吸着音を音素として持つ。ズールー語とコサ語は3種、南ソト語とスワティ語は1種だけだが、バントゥー諸語の大多数には吸着音などまったくないのだから、これは際立っている（なお、これとは別系統のバントゥー系吸着音言語の一群──イェイ語、フウェ語、ムブクシュ語など──が、はるか北西のオカヴァンゴ川・ザンベジ川流域にある）。アンソニー・トレイルやライナー・フォッセンら言語学者が組み立ててきた説明は、おおよそこうだ──バントゥー系農耕民が現在の南アフリカへと広がっていく過程で（先駆けの集団は紀元300年ごろまでにクワズール・ナタール沿岸に達していた）、コエ系・サン系の人々と混血・統合し、混合家庭で育ったバイリンガル世代が、敬語や儀礼語彙を中心に吸着音を持ち込んだのである。民族名 <em>isiXhosa</em> にもそれは残っている──接頭辞のすぐあとの <em>xh</em> が有気の側面吸着音である。しかも、この移入は早い時期に起きていた。ヒルデ・グンニンク（2022）はングニ諸語を比較し、ズールー語とコサ語の共通祖先であるングニ祖語に吸着音のひとそろいを再構している。そこには、現存するどのングニ系言語でももはや本来の形では使われていない硬口蓋吸着音まで含まれる。</p>
 
   <p style="background:rgba(255,237,190,0.55);border-left:3px solid #b8860b;padding:10px 14px;font-style:italic;border-radius:0 6px 6px 0">上の「比較」ボタンを押すと、コサ語・ズールー語では、この地図の基本語彙で吸着音を含む語はごくわずかしかないことに気づくはずだ──両語の「卵」<em>iqanda</em>、そしてズールー語の「雪」<em>iqhwa</em>、ほぼそれだけである。これがもう一つのポイント。バントゥー語族における吸着音は<strong>文化・敬語・儀礼の語彙</strong>にほぼ集中している──民族名（<em>iXhosa</em>、<em>uXamu</em>）、動物名（<em>iqaqa</em>「ケナガイタチ」、<em>ixoxo</em>「カエル」）、挨拶、義母などへの婉曲語（<em>hlonipha</em> 回避語法）、コエコエ語からの借用語（コサ語の <em>icawa</em>「教会」、「日曜日」の意味にも）など。「水・火・太陽・手・目」といったバントゥー祖語から継承された基本語彙には吸着音は出てこない。</p>
 
@@ -1598,7 +1598,7 @@ const TRIVIA_ARTICLES = [
   
   <p>The Korean Confucian elite hated it. Choe Manri, deputy head of the Hall of Worthies itself, led a group of its scholars in a famous 1444 memorial calling Hangul "Mongol- or barbarian-like" and warning that adopting a vernacular script would sever Korea from civilized (i.e. Chinese) learning. Sejong overruled him. Even so, after Sejong's death in 1450, Hangul was sidelined; King Yeonsangun banned it outright in 1504 after anonymous Hangul leaflets criticized him. For most of the next four centuries it survived as a "women's script" (<em>amkeul</em>) and a tool of popular literature, while serious scholarship continued in Hanja.</p>
   
-  <p>Hangul's comeback began in the 1890s. In 1894 the Joseon court made it the preferred script for official documents, and the grammarian Ju Si-gyeong and his circle studied it systematically and gave it its modern name, <em>Hangeul</em>, which appears in the early 1910s and can be read as "Korean script" or "great script". Under Japanese colonial rule (1910–1945) Korean language and writing were increasingly suppressed, especially from the late 1930s; in 1942 members of the Korean Language Society were arrested en masse. That same society had founded Hangul Day (한글날) in 1926. Independent South Korea made it a public holiday in 1949, demoted it in 1990 to save working days, and restored the day off in 2012. North Korea calls the script <em>Chosŏn'gŭl</em> and keeps its own holiday on 15 January, apparently marking the 1443 announcement rather than the 1446 publication. Adult literacy in South Korea is now among the highest in the world.</p>
+  <p>Hangul's comeback began in the 1890s. In 1894 the Joseon court made it the preferred script for official documents, and the grammarian Ju Si-gyeong and his circle studied it systematically and gave it its modern name, <em>Hangeul</em>, which appears in the early 1910s and can be read as "Korean script" or "great script". Under Japanese colonial rule (1910–1945) Korean language and writing were increasingly suppressed, especially from the late 1930s; in 1942 members of the Korean Language Society were arrested en masse. That same society had founded Hangul Day (한글날) in 1926. Independent South Korea made it a public holiday in 1949, demoted it in 1990 to save working days, and restored the day off in 2013. North Korea calls the script <em>Chosŏn'gŭl</em> and keeps its own holiday on 15 January, apparently marking the 1443 announcement rather than the 1446 publication. Adult literacy in South Korea is now among the highest in the world.</p>
   
   <p>The linguist Geoffrey Sampson described Hangul in 1985 as "perhaps the most scientific system of writing in general use in any country". Its basic letter shapes can be learned quickly, although full reading and writing fluency still takes years. The <em>Hunminjeongeum Haerye</em> preserves an unusually detailed contemporary account of the script's design principles and intended use.</p>
         `,
@@ -1637,7 +1637,7 @@ const TRIVIA_ARTICLES = [
   
   <p>儒教官僚はこれを嫌った。集賢殿の副長官にあたる崔萬里は1444年、殿内の学者たちを率いて出した有名な反対上疏で「ハングルはモンゴル・夷狄の文字に似ており、これを採用すれば中華の学問から遠ざかる」と警告した。世宗は退けたが、1450年の死後ハングルは冷遇され、1504年には燕山君が、自らを批判する匿名のハングルの貼り紙を理由に正式に禁止する。以後400年近く、ハングルは<em>암클</em>（女文字）、または民衆文学の道具として生き延びる一方、正格の学問は漢字で続いた。</p>
   
-  <p>復権は1890年代に始まった。1894年、朝鮮王朝は公文書にハングルを優先して用いることを定め、文法学者の周時経とその周辺の人々がハングルを体系的に研究し、今の名<em>ハングル</em>を与えた。この名は1910年代初めに現れ、「韓の文字」とも「偉大な文字」とも読める。日本統治期（1910〜1945年）には朝鮮語とその文字は次第に抑圧され、1930年代後半からはそれが一段と強まった。1942年には朝鮮語学会の会員が大量に検挙されている。その朝鮮語学会こそ、1926年に「ハングルの日（한글날）」を始めた団体だった。独立後の韓国は1949年にこれを公休日としたが、1990年に労働日確保のため公休日から外し、2012年に再び休日に戻した。北朝鮮はこの文字を<em>チョソングル</em>と呼び、独自の記念日を1月15日に置いている。1446年の刊行ではなく、1443年の創製の発表を記念したものらしい。今日の韓国の成人識字率は世界でも最高水準にある。</p>
+  <p>復権は1890年代に始まった。1894年、朝鮮王朝は公文書にハングルを優先して用いることを定め、文法学者の周時経とその周辺の人々がハングルを体系的に研究し、今の名<em>ハングル</em>を与えた。この名は1910年代初めに現れ、「韓の文字」とも「偉大な文字」とも読める。日本統治期（1910〜1945年）には朝鮮語とその文字は次第に抑圧され、1930年代後半からはそれが一段と強まった。1942年には朝鮮語学会の会員が大量に検挙されている。その朝鮮語学会こそ、1926年に「ハングルの日（한글날）」を始めた団体だった。独立後の韓国は1949年にこれを公休日としたが、1990年に労働日確保のため公休日から外し、2013年に再び休日に戻した。北朝鮮はこの文字を<em>チョソングル</em>と呼び、独自の記念日を1月15日に置いている。1446年の刊行ではなく、1443年の創製の発表を記念したものらしい。今日の韓国の成人識字率は世界でも最高水準にある。</p>
   
 <p>言語学者ジェフリー・サンプソンは1985年、ハングルを「世界で使われている文字体系のうち、おそらく最も科学的なもの」と評した。基本字母は比較的短期間で覚えられるが、読み書きの習熟には他の文字と同じく時間がかかる。『訓民正音解例』には字形の設計原理と使用目的が同時代の資料として詳しく残されている。</p>
         `,
@@ -2076,7 +2076,7 @@ const TRIVIA_ARTICLES = [
 
 <p>The Aymara findings are often discussed alongside George Lakoff's work on conceptual metaphor and Lera Boroditsky's experiments on time and language. They provide evidence that <strong>spatial metaphors for abstract domains are not universal</strong> and can vary with linguistic and cultural convention.</p>
   
-  <p>Other work on Aymara includes Iván Guzmán de Rojas's disputed 1980s proposal that its grammar reflects a <em>three-valued logic</em>, research on its obligatory evidential system, and a growing body of indigenous-language publishing. The front-facing past remains the feature most often discussed in cognitive-linguistic research.</p>
+  <p>Other work on Aymara includes Iván Guzmán de Rojas's disputed 1980s proposal that its grammar reflects a <em>three-valued logic</em>, research on its obligatory evidential system, and a growing body of indigenous-language publishing. The front-facing past — the seen past ahead, the unseen future behind the back — is the feature that broke the assumption of a universal time-metaphor.</p>
         `,
         ja: `
   <p>英語話者に「先（ahead）」とは何かと聞けば、来週の会議、迫る締切、楽しみな未来──と答えるだろう。未来は前、過去は後ろ。印欧諸語のほぼすべてが時間をこの向きで切り取っており、これは人類の思考にほぼ普遍の比喩だと広く考えられていた。</p>
@@ -2110,7 +2110,7 @@ const TRIVIA_ARTICLES = [
 
 <p>この発見は、ジョージ・レイコフの概念メタファー研究やレラ・ボロディツキーの時間言語実験とあわせて論じられてきた。抽象概念を空間で表す方法がすべての言語で同じではなく、言語的・文化的な慣習によって異なることを示す資料である。</p>
   
-  <p>アイマラ語にはほかにも興味深い特徴が多い──1980年代にイバン・グスマン・デ・ロハスらが提唱した「アイマラ文法には三値論理が反映されている」とする説（現在も言語学者の間で議論が続く論争的な主張）、トゥユカ語に似た義務的な証拠性、活発な先住民出版文化。だが、「目の前に過去がある」というこの一点は、今も認知科学への最大の贈り物として語り継がれている。</p>
+  <p>アイマラ語にはほかにも興味深い特徴が多い──1980年代にイバン・グスマン・デ・ロハスらが提唱した「アイマラ文法には三値論理が反映されている」とする説（現在も言語学者の間で議論が続く論争的な主張）、トゥユカ語に似た義務的な証拠性、活発な先住民出版文化。なかでも、見えている過去を前に、見えない未来を背後に置くこの配置こそが、時間のメタファーはどの言語でも同じだという前提を崩した。</p>
         `,
       },
       sources: [
@@ -2267,7 +2267,7 @@ const TRIVIA_ARTICLES = [
     <button type="button" class="trivia-action" data-action="setword" data-word="hand" data-code="kky">✋ See Guugu Yimithirr "Hand"</button>
   </div>
   
-  <p>The cognitive consequence, documented by Levinson, John Haviland and colleagues at the Max Planck Institute, is striking. Speakers of Guugu Yimithirr maintain an unbroken <strong>dead-reckoning</strong> sense of their orientation. In Levinson's tests, Hopevale speakers asked to point at unseen places, some of them hundreds of kilometres away, pointed with remarkable accuracy. Once, after a day-long trek through dense forest to some ancient cave paintings, Levinson, sitting disoriented at the cave mouth, asked his companion Dan to point back to base. Dan did so without hesitation, straight through the hillside, and the compass and maps later showed he was spot on.</p>
+  <p>The cognitive consequence was documented by Levinson, John Haviland and colleagues at the Max Planck Institute. Speakers of Guugu Yimithirr maintain an unbroken <strong>dead-reckoning</strong> sense of their orientation. In Levinson's tests, Hopevale speakers asked to point at unseen places, some of them hundreds of kilometres away, pointed with remarkable accuracy. Once, after a day-long trek through dense forest to some ancient cave paintings, Levinson, sitting disoriented at the cave mouth, asked his companion Dan to point back to base. Dan did so without hesitation, straight through the hillside, and the compass and maps later showed he was spot on.</p>
   
   <p>This is not a special skill of a few elders. Among the older, most fluent speakers it is a <strong>property of the whole speech community</strong>, picked up in childhood. Children take the system on gradually rather than all at once: Lourdes de León's fieldwork with young speakers at Hopevale, reported by Haviland, tentatively traces a path from hearing a term like <em>naga</em> as a vague "over there", to tying it to particular places such as the beach, to a region, and only finally to an abstract four-way directional contrast. One man in his late twenties told Haviland he had thought for years that <em>yarra naga</em> just meant "over there, look!", whatever the direction. The system is changing fast: younger Hopevale speakers mix in English devices, and older speakers tease them for it.</p>
   
@@ -2305,7 +2305,7 @@ const TRIVIA_ARTICLES = [
     <button type="button" class="trivia-action" data-action="setword" data-word="hand" data-code="kky">✋ グーグ・イミディル語の「手」</button>
   </div>
   
-  <p>レヴィンソン、ジョン・ハヴィランドらマックス・プランク研究所のチームが示した認知への含意は鮮烈だ。グーグ・イミディル語話者は常に<strong>推測航法</strong>的に自分の方位を把握し続けている。レヴィンソンの実験で、見えない場所──数百キロ離れたところもある──を指さすよう頼まれたホープヴェールの話者たちは、驚くほど正確に指し示した。あるとき、古代の洞窟壁画を見に、うっそうとした森を丸一日歩いたあと、方向感覚をすっかり失って洞窟の入り口に座り込んだレヴィンソンは、同行していたダンに、拠点の方向を指してくれと頼んだ。ダンはためらいもなく、山肌を突き抜けるようにまっすぐ指さした。後でコンパスと地図で確かめると、まさにぴったりだった。</p>
+  <p>その認知面での帰結を、レヴィンソン、ジョン・ハヴィランドらマックス・プランク研究所のチームが記録している。グーグ・イミディル語話者は常に<strong>推測航法</strong>的に自分の方位を把握し続けている。レヴィンソンの実験で、見えない場所──数百キロ離れたところもある──を指さすよう頼まれたホープヴェールの話者たちは、驚くほど正確に指し示した。あるとき、古代の洞窟壁画を見に、うっそうとした森を丸一日歩いたあと、方向感覚をすっかり失って洞窟の入り口に座り込んだレヴィンソンは、同行していたダンに、拠点の方向を指してくれと頼んだ。ダンはためらいもなく、山肌を突き抜けるようにまっすぐ指さした。後でコンパスと地図で確かめると、まさにぴったりだった。</p>
   
   <p>これは長老の特殊な能力ではない。かつての最も流暢な世代にとっては<strong>話者集団全体に共通する性質</strong>で、子どもの頃に身についたものだった。ただし一息に身につくわけではない。ホープヴェールで子どもの習得を調べたロルデス・デ・レオンの報告（ハヴィランド 1998 による）では、<em>naga</em> のような語はまず漠然とした「あっち」として理解され、やがて浜辺など特定の場所と結びつき、次にその一帯の領域を指すようになり、最後に四方位の抽象的な対立として把握される、という順に進むとみられる。20代後半のある男性はハヴィランドに、何年ものあいだ <em>yarra naga</em> は方角に関係なく「ほら、あっち！」という意味だと思っていた、と打ち明けている。この体系は急速に変わりつつある。ホープヴェールの若い話者は英語流の言い方を混ぜるようになり、年配の話者はそれをからかうのだ。</p>
   
@@ -2469,7 +2469,7 @@ const TRIVIA_ARTICLES = [
   <p>How is this possible? In most languages, every syllable is built around a <strong>vowel</strong> — an open, sonorous nucleus that carries the breath. Nuxalk seems to break this rule. Linguists have answered in three main ways:</p>
   
   <ul>
-    <li><strong>No syllables at all.</strong> Stanley Newman put it bluntly in 1947: "There are no syllables in Bella Coola." Nater still defends that view and concluded in 2024 that the language is "essentially non-syllabic."</li>
+    <li><strong>No syllables at all.</strong> Stanley Newman argued in 1947 that Bella Coola has no syllable structure at all. Nater still defends that view and concluded in 2024 that the language is "essentially non-syllabic."</li>
     <li><strong>Consonants as syllable nuclei.</strong> <strong>James E. Hoard</strong> (1978) argued that even stops and fricatives can serve as the heart of a syllable, so that a word like <em>sps</em> can contain syllables with no vowel at all.</li>
     <li><strong>Syllables, but not everywhere.</strong> In an influential 1991 article Bruce Bagemihl argued that Nuxalk does have syllables, built in the usual way around vowels and sonorants, but that many consonants are left outside any syllable, attached only to units of timing called <strong>moras</strong>.</li>
   </ul>
@@ -2483,7 +2483,7 @@ const TRIVIA_ARTICLES = [
   
   <p>The implications go far beyond Nuxalk. If a language can build words from pure obstruent strings, then the universal claim that <em>every syllable needs a vowel</em> cannot stand in its strongest form. Phonologists now distinguish more carefully between <strong>sonority</strong> (the acoustic property) and <strong>nucleus-hood</strong> (the structural role), and Nuxalk is the example everyone teaches, alongside Tashlhiyt Berber in Morocco, where Rachid Ridouane's 2008 study used acoustic and imaging data to show that consonant-only syllables have no hidden vowel.</p>
   
-  <p>The First Peoples' Cultural Council counts 21 fluent speakers of Nuxalk, 44 semi-speakers and 249 learners, out of a population of 1,762. Nater put the number of native speakers at just three in 2022. The Nuxalk Nation runs immersion programs and a language-house initiative; recordings made by Nater in the 1970s, and more recent documentation supported by the First Peoples' Cultural Council, are racing to record a phonology unlike any other.</p>
+  <p>The First Peoples' Cultural Council counts 21 fluent speakers of Nuxalk, 44 semi-speakers and 249 learners, out of a population of 1,762. Nater put the number of native speakers at just three in 2022. The Nuxalk Nation runs immersion programs and a language-house initiative; recordings made by Nater in the 1970s, and more recent documentation supported by the First Peoples' Cultural Council, are racing to document it while its last native speakers remain.</p>
         `,
         ja: `
   <p>カナダ・ブリティッシュコロンビア州中央部では、数十人が<strong>ヌハルク語（Nuxalk、別名 Bella Coola）</strong>を使用している。サリシュ語族に属し、<strong>母音を含まないと分析される単語</strong>があることで音韻論の研究対象となってきた。</p>
@@ -2502,7 +2502,7 @@ const TRIVIA_ARTICLES = [
   <p>なぜ可能なのか。多くの言語で、音節は<strong>母音</strong>という響きの核を中心に組み立てられる。ヌハルク語はこの原則を破っているように見える。言語学者の答えは、大きく三つに分かれる：</p>
   
   <ul>
-    <li><strong>そもそも音節がない。</strong> スタンリー・ニューマンは1947年、「ベラクーラ語に音節はない」と言い切った。ネイターは今もこの見方を擁護しており、2024年には、この言語は「本質的に非音節的」だと結論している。</li>
+    <li><strong>そもそも音節がない。</strong> スタンリー・ニューマンは1947年、ベラクーラ語にはそもそも音節構造がないと論じた。ネイターは今もこの見方を擁護しており、2024年には、この言語は「本質的に非音節的」だと結論している。</li>
     <li><strong>子音が音節核になる。</strong> <strong>ジェイムズ・E・ホード</strong>（1978年）は、破裂音や摩擦音でさえ音節核になりうると論じた。だから <em>sps</em> のような語には、母音がまったくない音節が含まれうる、というのである。</li>
     <li><strong>音節はあるが、どこにでもあるわけではない。</strong> 1991年の影響力ある論文で、ブルース・バゲミールは、ヌハルク語にも母音や鳴音を核としてふつうに組み立てられる音節はあるが、多くの子音はどの音節にも属さず、<strong>モーラ</strong>と呼ばれるタイミングの単位にだけ結びついている、と論じた。</li>
   </ul>
@@ -2516,7 +2516,7 @@ const TRIVIA_ARTICLES = [
   
   <p>影響はヌハルク語にとどまらない。「すべての音節には母音が必要」という普遍仮説は、その最強の形では維持できなくなった。現在の音韻論は<strong>響度（音響的性質）</strong>と<strong>核となる役割（構造的性質）</strong>を慎重に区別する──そのきっかけとなった例こそヌハルク語であり、今では誰もが教える定番の例だ。並んで挙げられるのがモロッコのタシュリヒート・ベルベル語で、ラシード・リドゥアーヌの2008年の研究は、音響データと画像データを用いて、子音だけの音節に隠れた母音がないことを示している。</p>
   
-  <p>ブリティッシュコロンビア州先住民族文化評議会の集計では、人口1,762人のうち、流暢な話者は21人、準話者が44人、学習者が249人。ネイターは2022年、母語話者はわずか3人だとしている。ヌハルク・ネイションはイマージョン教育と「言語ハウス」運動を進め、ネイターの1970年代の録音、ブリティッシュコロンビア州先住民族文化評議会の支援による近年の記録活動が、世界に二つとない音韻体系を残そうと走り続けている。</p>
+  <p>ブリティッシュコロンビア州先住民族文化評議会の集計では、人口1,762人のうち、流暢な話者は21人、準話者が44人、学習者が249人。ネイターは2022年、母語話者はわずか3人だとしている。ヌハルク・ネイションはイマージョン教育と「言語ハウス」運動を進め、ネイターの1970年代の録音、ブリティッシュコロンビア州先住民族文化評議会の支援による近年の記録活動が、最後の母語話者がいるうちにこの言語を記録しようと急いでいる。</p>
         `,
       },
       sources: [
@@ -2566,7 +2566,7 @@ const TRIVIA_ARTICLES = [
     <button type="button" class="trivia-action" data-action="panto" data-lat="19.72" data-lng="-155.08" data-zoom="7">🌋 Fly to Hilo, the heart of the revival</button>
   </div>
   
-  <p>A 2016 State of Hawaiʻi report counted <strong>~18,400 people</strong> speaking Hawaiian at home; by 2024 the Office of Hawaiian Affairs put that figure at <strong>27,338</strong> (Census survey data for 2018–2022), a rise of nearly 50% in under a decade, with about 32,700 people speaking Hawaiian at home across the United States. Outside Niʻihau, where the language was never lost, children are once again growing up with Hawaiian as a first language. The phoneme inventory is still 13. The future, however, has expanded immeasurably.</p>
+  <p>A 2016 State of Hawaiʻi report counted <strong>~18,400 people</strong> speaking Hawaiian at home; by 2024 the Office of Hawaiian Affairs put that figure at <strong>27,338</strong> (Census survey data for 2018–2022), a rise of nearly 50% in under a decade, with about 32,700 people speaking Hawaiian at home across the United States. Outside Niʻihau, where the language was never lost, children are once again growing up with Hawaiian as a first language. The phoneme inventory is still 13; the number of people speaking it is not.</p>
         `,
         ja: `
   <p><strong>ʻŌlelo Hawaiʻi</strong>──ハワイ語は、現在話されている言語のなかで最少クラスの音素体系を持つ。<strong>音素はたった13個</strong>。子音8つ（<em>p, k, ʻ, h, m, n, l, w</em>）と母音5つ（<em>a, e, i, o, u</em>）、それぞれに短音と長音がある。それだけだ。声門閉鎖音「ʻokina」、長音符「kahakō」まで含めても、アルファベットは午後ひとつで覚えられる。</p>
@@ -2592,7 +2592,7 @@ const TRIVIA_ARTICLES = [
     <button type="button" class="trivia-action" data-action="panto" data-lat="19.72" data-lng="-155.08" data-zoom="7">🌋 復興の中心地ヒロへ飛ぶ</button>
   </div>
   
-  <p>2016年のハワイ州報告書では、家庭でハワイ語を話す人は<strong>約18,400人</strong>。2024年のハワイ人問題局（OHA）の報告ではこれが<strong>27,338人</strong>（2018〜2022年の国勢調査局の調査データ）となり、10年足らずで5割近く増えた（家庭でハワイ語を話す人は全米で約32,700人）。言葉が一度も途絶えなかったニイハウ島の外でも、ハワイ語を第一言語として育つ子どもたちが再び現れている。音素は13個のまま──しかし、その未来は計り知れないほど大きくなった。</p>
+  <p>2016年のハワイ州報告書では、家庭でハワイ語を話す人は<strong>約18,400人</strong>。2024年のハワイ人問題局（OHA）の報告ではこれが<strong>27,338人</strong>（2018〜2022年の国勢調査局の調査データ）となり、10年足らずで5割近く増えた（家庭でハワイ語を話す人は全米で約32,700人）。言葉が一度も途絶えなかったニイハウ島の外でも、ハワイ語を第一言語として育つ子どもたちが再び現れている。音素は今も13個のまま。だが、それを話す人の数はもう同じではない。</p>
         `,
       },
       sources: [
@@ -2700,7 +2700,7 @@ const TRIVIA_ARTICLES = [
   <ul>
     <li>When babies start to babble, around six months, among the first consonants they produce are <strong>bilabial nasals</strong> [m] and <strong>bilabial stops</strong> [p, b]. These require only that the lips close and open; no tongue control needed. The default vowel that emerges from a slightly open mouth is <strong>[a]</strong>.</li>
     <li>The very first proto-syllables a baby makes are therefore <em>ma</em>, <em>pa</em>, <em>ba</em>, repeated: <em>mama</em>, <em>papa</em>, <em>baba</em>.</li>
-    <li>Why should <em>m</em> go with mother? Jakobson's answer is the most memorable part of the paper. A nursing baby, lips pressed to the breast or bottle and mouth full, can make only one sound: a soft nasal hum, <em>mmm</em>. That hum later becomes a signal of wanting food, then of wanting the person who brings it. Adults hear the babbled <em>mama</em> as addressed to the mother; the stop syllables <em>papa</em>, <em>tata</em>, <em>baba</em> are left for the father.</li>
+    <li>Why should <em>m</em> go with mother? A nursing baby, lips pressed to the breast or bottle and mouth full, can make only one sound: a soft nasal hum, <em>mmm</em>. That hum later becomes a signal of wanting food, then of wanting the person who brings it. Adults hear the babbled <em>mama</em> as addressed to the mother; the stop syllables <em>papa</em>, <em>tata</em>, <em>baba</em> are left for the father.</li>
     <li>The adults <strong>reinforce</strong> the babble by responding to it, so the form <em>sticks</em> as the conventional word in that language — even though nothing in the structure of the language required it.</li>
   </ul>
   
@@ -2727,7 +2727,7 @@ const TRIVIA_ARTICLES = [
   <ul>
     <li>生後6か月ごろに喃語が始まると、乳児が最初に出す子音の中に<strong>両唇鼻音 [m]</strong> と<strong>両唇閉鎖音 [p, b]</strong>がある。唇を閉じて開くだけでよく、舌の制御を必要としない。わずかに開いた口から自然に出る母音は<strong>[a]</strong>だ。</li>
     <li>したがって乳児の最初の原音節は <em>ma, pa, ba</em> となり、反復されて <em>mama, papa, baba</em> になる。</li>
-    <li>では、なぜ <em>m</em> が母と結びつくのか。ヤコブソンの答えは、この論文でいちばん印象に残る部分だ。乳房や哺乳瓶に唇を押し当て、口がいっぱいの乳児に出せる音はひとつしかない。鼻にかかった柔らかなハミング、<em>mmm</em> である。このハミングがやがて「食べ物がほしい」という合図になり、さらに「食べ物をくれる人にいてほしい」という合図になる。大人は喃語の <em>mama</em> を母親への呼びかけと受け取り、閉鎖音の音節 <em>papa</em>、<em>tata</em>、<em>baba</em> は父親に回される。</li>
+    <li>では、なぜ <em>m</em> が母と結びつくのか。乳房や哺乳瓶に唇を押し当て、口がいっぱいの乳児に出せる音はひとつしかない。鼻にかかった柔らかなハミング、<em>mmm</em> である。このハミングがやがて「食べ物がほしい」という合図になり、さらに「食べ物をくれる人にいてほしい」という合図になる。大人は喃語の <em>mama</em> を母親への呼びかけと受け取り、閉鎖音の音節 <em>papa</em>、<em>tata</em>、<em>baba</em> は父親に回される。</li>
     <li>大人が反応することで赤ん坊の発音は<strong>強化</strong>され、その語形が言語の慣習語として<strong>定着</strong>する──言語構造上はそうなる必然はなかったのに。</li>
   </ul>
   

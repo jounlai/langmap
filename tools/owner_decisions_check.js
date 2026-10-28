@@ -147,7 +147,8 @@ const DECISIONS = [
             const SEP = new Set(['ja_oki', 'ja_mvi', 'ja_rys', 'ko_jeju', 'pt_gw']);
             // 2026-10-28: whale 48 → 49 — the kpv кит cell exposed koi (Komi-Permyak), which no source covers.
             // 2026-10-28: turkey 49 → 51 — new kpv индюк and myv курка cells expose koi and mdf (no Komi-Permyak or Moksha source found).
-            const BUDGET = { lol: 0, turkey: 51, potato: 32, mobilephone: 49, hangover: 56, ladybird: 61, monday: 21, whale: 49, wisdomtooth: 54, cheers: 31, blessyou: 24, sunflower: 40, goosebumps: 51, octopus: 54, shootingstar: 43, jellyfish: 70, tomato: 37, pineapple: 49, adamsapple: 59, germany: 37, japan: 34, china: 27, korea: 36, india: 29, greece: 38, atsign: 30, blue: 5, cockcrow: 46, coffee: 25, computer: 8, cuckoo: 27, dopamine: 31, n99: 11, orange: 7, sugar: 11, sushi: 11, tea: 8, wifi: 26, woof: 29 };
+            // 2026-10-28: tomato 37 → 39 — new kpv and dtp cells expose koi and dtp_kzj (Coastal Kadazan); no source for either.
+            const BUDGET = { lol: 0, turkey: 51, potato: 32, mobilephone: 49, hangover: 56, ladybird: 61, monday: 21, whale: 49, wisdomtooth: 54, cheers: 31, blessyou: 24, sunflower: 40, goosebumps: 51, octopus: 54, shootingstar: 43, jellyfish: 70, tomato: 39, pineapple: 49, adamsapple: 59, germany: 37, japan: 34, china: 27, korea: 36, india: 29, greece: 38, atsign: 30, blue: 5, cockcrow: 46, coffee: 25, computer: 8, cuckoo: 27, dopamine: 31, n99: 11, orange: 7, sugar: 11, sushi: 11, tea: 8, wifi: 26, woof: 29 };
             const bad = [];
             for (const f of fs.readdirSync(path.join(ROOT, 'words'))) {
                 if (!f.endsWith('.js') || !/partial:\s*true/.test(read('words/' + f))) continue;

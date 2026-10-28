@@ -354,6 +354,24 @@ WORDS.japan = {
     hak_hl: "nihon",
     zh_hf: "nihon",
     zh_jiao: "nihon",
+    bbc: "unknown",
+    mak: "unknown",
+    tcy: "europe",
+    mni: "europe",
+    iba: "hokkien",
+    tsg: "hokkien",
+    mrw: "europe",
+    tig: "europe",
+    gor: "unknown",
+    li: "europe",
+    dag: "europe",
+    bs: "europe",
+    cpx: "nihon",
+    ssw: "europe",
+    kok: "europe",
+    bug: "hokkien",
+    sid: "europe",
+    bci: "europe",
   },
   routes: {
     nihon: {"color":"#dc2626","emoji":"☀️","en":"reads 日本 itself","ja":"漢字 日本 を自分で読む","ko":"한자 日本을 직접 읽음","zh":"自己读汉字\"日本\"","yue":"自己讀漢字「日本」","vi":"tự đọc chữ 日本","th":"อ่านอักษร 日本 เอง","id":"membaca aksara 日本 sendiri","hi":"日本 को ख़ुद पढ़ना","de":"liest 日本 selbst","fr":"lit 日本 lui-même","it":"legge 日本 da sé","es":"lee 日本 por sí mismo","pt":"lê 日本 por si","ru":"своё чтение 日本","uk":"власне читання 日本","ar":"يقرأ 日本 بنفسه","he":"קורא את 日本 בעצמו","sw":"husoma 日本 yenyewe"},
@@ -650,5 +668,23 @@ WORDS.japan = {
     hak_hl: ["日本", "ŋit˥ pun˨˦"],  // Literally 'sun origin'; Hailu Hakka Ngit-bún, with 本 on the rising tone where Sixian has a falling one.
     zh_hf: ["日本", "ʐəʔ˦ pən˨˦"],  // Literally 'sun origin'; Hefei keeps 日 as a checked (glottal-stop) syllable.
     zh_jiao: ["日本", "i˦˨ pə̃˥˥"],  // Literally 'sun origin'; same word as Standard Mandarin.
+    bbc: ["Japang", "dʒapaŋ"],  // Japang is the title of the Toba Batak Wikipedia article on Japan, which gives Indonesian Jepang beside it.
+    mak: ["Japang", "dʒaˈpaŋ"],  // Japang in the Makassarese Wikipedia (Incubator), whose article title writes Japàng with the accent marking final stress; Nippong is given as an alternative.
+    tcy: ["ಜಪಾನ್", "dʒapaːn"],  // ಜಪಾನ್ is the title of the Tulu Wikipedia article on Japan, the same form as Kannada ಜಪಾನ್.
+    mni: ["ꯖꯄꯥꯟ", "dʒəpan"],  // ꯖꯄꯥꯟ is the title of the Manipuri Wikipedia article on Japan, and Unicode CLDR gives the same name, জাপান, in Bengali script.
+    iba: ["Jipun", "dʒipun"],  // Borrowed from Hokkien 日本 Ji̍t-pún (Wiktionary); Iban Wikipedia's article on Japan is titled Jipun.
+    tsg: ["Jipun", "dʒipun"],  // Borrowed from Malay Jepun, from Hokkien 日本 Ji̍t-pún (Wiktionary); also Hula' Jipun 'land of Japan'.
+    mrw: ["Diyapan", "dijapan"],  // Glossed 'Japan' in the Maranao dictionary; the Japanese people are Apon, and Japan is also called inged o Apon 'country of the Apon'.
+    tig: ["ጃፓን", "dʒapan"],  // Tigre Wikipedia's name for Japan, ደውለት ጃፓን 'State of Japan'.
+    gor: ["Japangi", "dʒaˈpaŋi"],  // Gorontalo Wikipedia's name for Japan; Japanese is bahasa Japangi.
+    li: ["Japan", "jaˈpan"],  // Limburgish name for Japan, spelled as in Dutch; the Limburgish Wiktionary records it for the Mheer (Mofers) dialect with stress on the second syllable.
+    dag: ["Japan", "dʒapan"],  // Dagbani name for Japan, the same spelling as English.
+    bs: ["Japan", "ˈjapaːn"],  // Borrowed from German Japan, from Dutch, from Malay Jepang, ultimately Hokkien Ji̍t-pún (Wiktionary).
+    cpx: ["日本", "tsiʔ˦ pɔŋ˦˥˧"],  // Literally 'sun origin', read in Putian as zih7 bong3 (Wiktionary).
+    ssw: ["IJaphani", "idʒapʰani"],  // Swazi Wikipedia's name for Japan, glossed there with English Japan.
+    kok: ["जपान", "dʒəpaːn"],  // Konkani Wikipedia's name for Japan, the same as Marathi जपान.
+    bug: ["Jepang", "dʒəpaŋ"],  // Buginese name for Japan, written ᨍᨛᨄ in Lontara; Said's dictionary illustrates it with 'three years Japan ruled in Indonesia'.
+    sid: ["Jaappaane", "dʒaːpːaːne"],  // Japan in Sidama, as written in Jehovah's Witnesses' Sidama publications ('Hakkiinni 1987 Jaappaane haꞌrummo', 'in 1987 I went to Japan').
+    bci: ["Japɔn", "dʒapɔ̃"],  // Japan in Baoulé, as written in Jehovah's Witnesses' Baoulé publications ('Japɔn lɔfuɛ', 'the Japanese').
   },
 };

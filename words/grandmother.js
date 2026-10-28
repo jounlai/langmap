@@ -518,6 +518,35 @@ WORDS.grandmother = {
     hyw: "one",
     gsw: "one",
     th_isan: "split",
+    kac: "unknown",
+    dz: "one",
+    loz: "one",
+    lue: "one",
+    tll: "one",
+    bsq: "unknown",
+    hwc: "unknown",
+    os: "split",
+    aoz: "split",
+    nia: "one",
+    kaa: "unknown",
+    ahk: "unknown",
+    inh: "split",
+    rup: "unknown",
+    tet: "unknown",
+    nhe: "unknown",
+    pis: "one",
+    ote: "unknown",
+    tzo: "unknown",
+    fj: "one",
+    lol: "one",
+    kqn: "one",
+    tyv: "unknown",
+    bxr: "unknown",
+    bi: "one",
+    tab: "unknown",
+    gil: "one",
+    cnh: "unknown",
+    dng: "split",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -980,5 +1009,34 @@ WORDS.grandmother = {
     hyw: ["տատ", "dɑd"],  // One word for either grandmother; տատիկ is the affectionate form.
     gsw: ["Grossmueter", "ˈɡroːsmuə̯tər"],  // Literally 'great mother'; one word for either grandmother, Grosi in family speech.
     th_isan: ["ย่า", "ɲaː˦"],  // Father's mother, said with a nasal ny- in Isan; mother's mother: ยาย, a different word.
+    kac: ["kawoi", "kəwoi˧"],  // Built on woi 'grandmother' with the prefix ka-; woi dwi is the affectionate form, and no source checked says whether the two sides are told apart.
+    dz: ["ཨང་རྒས", "aŋɡɛː"],  // One word for either grandmother, the father's mother and the mother's mother alike (Tshering 2013).
+    loz: ["kuku", "kuku"],  // A word for a grandparent of either sex, used for both grandmothers (Gluckman 1950).
+    lue: ["kaka", "kaka"],  // A word for a grandparent of either sex; the Bible says kaka wapwevo, 'female grandparent', for Timothy's grandmother.
+    tll: ["tshe", "tʃe"],  // A word for a grandparent of either sex, used for both grandmothers.
+    bsq: ["dàɓò", "dàɓò"],  // Also means 'old lady'; no source checked says whether the father's and mother's mother are told apart.
+    hwc: ["tutu", "tutu"],  // From Hawaiian tūtū; also a respectful word for any elderly woman, and granma is used too.
+    os: ["фыды мад", "fɨdɨ mad"],  // Literally 'father's mother'; mother's mother: мады мад, while стыр мад 'big mother' covers either side.
+    aoz: ["beʼif", "beʔif"],  // Father's mother, with the -f ending of ainaf 'mother'; mother's mother: ain baba (Schulte Nordholt 1981).
+    nia: ["awe", "ave"],  // One word for either grandmother, as tua is for either grandfather (Beatty 1992).
+    kaa: ["kempir apa", "kempir apa"],  // Built on kempir 'old woman' and apa, a word for an elder female relative; áje and qız apa are regional variants.
+    ahk: ["a pi", "a˨˩pʰi˨˩"],  // The Thai Akha form with two low tones (Hansson 1989); the Yunnan form has a high tone on the second syllable.
+    inh: ["даь-нана", "dænaːna"],  // Literally 'father's mother'; the mother's mother is наьна-нана 'mother's mother', and нани is a general word.
+    rup: ["omã", "ˈomə"],  // From om; babã, also 'old woman', is a synonym.
+    tet: ["ina ferik", "ina ferik"],  // Literally 'mother old woman' (ina 'mother', ferik 'old woman'); the grandparent words abo and in'bei serve for either side, and abó-feto 'female grandparent' is also given.
+    nhe: ["hueyinana", "wejiˈnana"],  // Apparently 'big mother' (huey 'big' + nana 'mother'), a pattern also found in other Nahuatl varieties.
+    pis: ["grani", "ɡrani"],  // From English granny; one word for any grandparent and also for a grandchild (grandmada is rare).
+    ote: ["txu", "tʃu"],  // The same word means 'old woman'.
+    tzo: ["mukʼta meʼil", "mukʼta meʔil"],  // Literally 'big mother', as the grandfather is mukʼta totil 'big father' (Zinacantán Tzotzil).
+    fj: ["bu", "mbu"],  // One word for either grandmother; it takes a possessive suffix, as in buqu 'my grandmother'.
+    lol: ["nkoko", "ŋkoko"],  // One word for any grandparent, on either side.
+    kqn: ["nkambo", "ŋkambo"],  // One word for either grandmother; it is the general grandparent word.
+    tyv: ["кырган-ава", "kɯrɣanaˈʋa"],  // Literally 'old mother' (кырган 'old' + ава 'mother').
+    bxr: ["хүгшэн эжы", "xʉɡʃeŋ eʒi"],  // Literally 'old mother'; Russian Wiktionary gives нагаса эжы for the grandmother on the mother's side.
+    bi: ["bubu", "bubu"],  // Glossed 'grandparent': the same word serves for a grandmother on either side (apu or bubu man for a grandfather).
+    tab: ["баб", "bab"],  // Glossed 'grandmother' (бабушка); IDS records the Southern dialect as аьхю баб and the Northern as аьхи бав.
+    gil: ["tibu", "ˈsibu"],  // One word for any grandparent on either side, and also for a grandchild; from Proto-Oceanic *tibu 'ancestor, grandparent'.
+    cnh: ["pi", "pi"],  // Hakha Lai pîi 'grandmother', from Tibeto-Burman *pəy 'grandmother'.
+    dng: ["нэнэ", "nɛ˥˩nɛ˨˦"],  // 奶奶 'father's mother'; the mother's mother is ви3нэ2нэ1 (外奶奶, 'outside grandmother').
   },
 };

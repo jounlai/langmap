@@ -208,6 +208,18 @@ WORDS.goosebumps = {
     nl_be: "bird",
     hak_hl: "bird",
     ceb: "plain",
+    sa: "hair",
+    pi: "hair",
+    pi_edu: "hair",
+    zh_wenyan_edu: "other",
+    ja_heian: "hair",
+    ja_edo: "bird",
+    ko_mid: "plain",
+    hbo: "hair",
+    de_lut: "hair",
+    it_dan: "hair",
+    fr_class: "bird",
+    ota: "hair",
   },
   family2: {
     ko: "bird",
@@ -364,5 +376,17 @@ WORDS.goosebumps = {
     nl_be: ["kippenvel", "ˈkɪpəvɛl"],  // Literally "chicken skin", from kip "chicken" and vel "skin", the same word as in the Netherlands.
     hak_hl: ["雞嫲皮", "kai˥˧ ma˥˥ pʰi˥˥"],  // Literally "hen skin", the same word as Sixian Hakka, read in Hailu.
     ceb: ["nanglimbawot", "naŋlimˈbawot"],  // A verb of its own, "for the hair to stand on end, get goose bumps": nanglimbawot akong balhibo "my hair stood on end"; also heard as nanglimbawo.
+    sa: ["रोमहर्षः", "ɾoːmɐɦɐɾʂɐh"],  // Literally "bristling of the body hair" (roman 'body hair' + harṣa 'bristling'); Arjuna feels it in the Bhagavad Gītā (1.29).
+    pi: ["लोमहंस", "lomahaŋsa"],  // Literally "bristling of the body hair" (loma 'body hair' + haṃsa 'bristling'); the Sāmaññaphala Sutta has King Ajātasattu seized by fear, terror and lomahaṃsa.
+    pi_edu: ["lomahaṃsa", "lomahaŋsa"],  // Literally "bristling of the body hair" (loma 'body hair' + haṃsa 'bristling'); the Sāmaññaphala Sutta has King Ajātasattu seized by fear, terror and lomahaṃsa.
+    zh_wenyan_edu: ["起粟", "hei˧˥ sʊk˥"],  // Literally "to raise millet grains": the bumps are pictured as millet; Su Shi wrote 凍合玉樓寒起粟 in the 11th century.
+    ja_heian: ["身の毛いよだつ", "minokeijodatu"],  // Literally "the body hair stands up", used for cold or fear; the Konjaku Monogatarishū (c. 1120) has 身の毛いよだつ.
+    ja_edo: ["鳥肌", "toɾihada"],  // Literally "bird skin"; recorded in the Jesuit Nippo Jisho (1603) and in haikai by 1692.
+    ko_mid: ["소·홈", "sohom"],  // The ancestor of modern 소름, a word of its own; the Seokbo sangjeol (1447) has 소홈 도텨 "goosebumps rose".
+    hbo: ["סמר בשרי", "sɔːˈmar vəsɔːˈriː"],  // Literally 'my flesh bristled': the verb סמר is used of hair standing up, as in Job 4:15 'the hair of my flesh bristled' (תְּסַמֵּר שַׂעֲרַת בְּשָׂרִי) and Psalm 119:120 'my flesh bristles for fear of you'.
+    de_lut: ["Har zu Berge stehen", "haːr tsuː bɛrɡə ʃteːən"],  // Luther's Job 4:15 (1545) reads 'stunden mir die har zu berge an meinem Leibe', the hair 'stood up to the mountain'; Geiler von Kaysersberg (c. 1500) has 'so gon dir die har ze berg' (Grimm, Deutsches Wörterbuch, s.v. Berg).
+    it_dan: ["arricciar li peli", "arrittʃar li peli"],  // Dante, Inferno XXIII.19: 'Già mi sentia tutti arricciar li peli / de la paura', 'I already felt all my hairs bristle with fear'.
+    fr_class: ["chair de poule", "ʃɛr də pul"],  // 'Hen flesh': the Académie dictionary of 1762 says 'Cela fait venir la peau de poule, la chair de poule, pour dire, Cela fait frissonner', the skin likened to that of a plucked hen.
+    ota: ["اورپرمك", "yɾpeɾˈmek"],  // A verb of its own, glossed by Redhouse (1890) 'for one's hair to stand on end'.
   },
 };

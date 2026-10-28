@@ -261,6 +261,18 @@ WORDS.octopus = {
     zh_db: "eight",
     yue_ts: "eight",
     yue_nn: "eight",
+    lt: "eight",
+    bs: "other",
+    ban: "unknown",
+    lv: "eight",
+    ga: "eight",
+    mak: "plain",
+    et: "eight",
+    sc: "many",
+    mfe: "plain",
+    tsg: "plain",
+    cv: "eight",
+    li: "eight",
   },
   routes: {
     eight: {"color":"#2563eb","emoji":"8️⃣","en":"eight feet","ja":"8本の足","ko":"여덟 발","zh":"八条腿","yue":"八隻腳","vi":"tám chân","th":"แปดเท้า","id":"delapan kaki","hi":"आठ पैर","de":"acht Füße","fr":"huit pieds","it":"otto piedi","es":"ocho pies","pt":"oito pés","ru":"восемь ног","uk":"вісім ніг","ar":"ثماني أقدام","he":"שמונה רגליים","sw":"miguu minane"},
@@ -466,5 +478,17 @@ WORDS.octopus = {
     zh_db: ["八大鱼", "pa˥ ta˥˩ y˧˥"],  // Literally 'eight-big fish'; recorded for Harbin, where the standard 章鱼 is not given.
     yue_ts: ["八爪鱼", "pat˧˧ tsau˥˥ ŋui˨˩˥"],  // Literally 'eight-claw fish', as in Cantonese.
     yue_nn: ["八爪鱼", "pɛt˧ tʃɛu˧˥ jy˨˩"],  // Literally 'eight-claw fish'; the Nanning Cantonese word for octopus.
+    lt: ["aštuonkojis", "ɐʃtuɔŋˈkoːjɪs"],  // Literally 'eight-leg': aštuoni 'eight' + koja 'leg'.
+    bs: ["hobotnica", "ˈxobotnitsa"],  // Built on the Slavic word for 'trunk' (*xobotъ), as in Croatian and Serbian.
+    ban: ["gerita", "ɡəritə"],  // The Balinese name of the octopus; Balinese Wikipedia spells it grita or bé grita, bé 'fish'.
+    lv: ["astoņkājis", "ˈastuɔɲkaːjis"],  // Literally 'eight-legged one': astoņi 'eight' + kāja 'leg'.
+    ga: ["ochtapas", "ˈɔxt̪ˠəpˠəsˠ"],  // Borrowed from English octopus (Greek 'eight-foot'), shaped by the native word ocht 'eight'.
+    mak: ["kurita", "kuˈrita"],  // Inherited from Proto-Austronesian *guʀiCa 'octopus', the same word as Malay gurita; people say it can sink large ships (Cense, via ACD).
+    et: ["kaheksajalg", "ˈkɑheksɑjɑlɡ"],  // Literally 'eight-leg': kaheksa 'eight' + jalg 'leg, foot'.
+    sc: ["pulpu", "ˈpulpu"],  // From Latin polypus < Greek polýpous 'many-footed'; Campidanese says pruppu.
+    mfe: ["ourit", "uʁit"],  // Borrowed from Malagasy horita, which continues the Austronesian octopus word *guʀiCa.
+    tsg: ["kugita", "kuɡita"],  // Inherited from Proto-Malayo-Polynesian *kuʀita 'octopus' (Blust & Trussel, ACD).
+    cv: ["осьминог", "osʲmʲiˈnok"],  // Borrowed from Russian осьминог 'eight-legs'.
+    li: ["oktopus", "ˈɒktopəs"],  // From Greek oktṓpous 'eight-foot'; Limburgish also has the calque achpoeat 'eight-foot'.
   },
 };

@@ -783,6 +783,24 @@ WORDS.tomorrow = {
     vi_c: "morning",
     jvn: "unknown",
     ttj: "same",
+    tly: "unknown",
+    kek: "unknown",
+    kea: "morning",
+    rcf: "morning",
+    pcd: "unknown",
+    swg: "morning",
+    pnt: "morning",
+    dar: "unknown",
+    cak: "unknown",
+    sgw: "unknown",
+    bfa: "unknown",
+    aja: "same",
+    blt: "unknown",
+    tji: "unknown",
+    spp: "unknown",
+    urh: "unknown",
+    dyo: "unknown",
+    nia: "unknown",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -1510,5 +1528,23 @@ WORDS.tomorrow = {
     vi_c: ["ngày mai", "ŋaj˦˨ maːj˥"],  // Literally 'morning day': mai means 'early morning', the same word as in the North and South (Wiktionary).
     jvn: ["sésuk", "sesuk"],  // Sésuk is the Suriname Javanese word for 'tomorrow', as in Java.
     ttj: ["ijo", "idʒo"],  // Ijo serves for both 'tomorrow' and 'yesterday' in the Runyoro-Rutooro Bible; nyenkya is also used for 'tomorrow'.
+    tly: ["maşki", "maʃki"],  // Maşki is the Talysh word for tomorrow; yesterday is a different word, zinə, and morning is maştə.
+    kek: ["wulaj", "wulaχ"],  // Matthew 6:34 in the Qʼeqchiʼ Bible reads 'li kutan wulaj' (the day of tomorrow), while yesterday is a different word, ewer (John 4:52 'Ewer, jun honal').
+    kea: ["manhan", "maˈɲɐ̃"],  // Manhan comes from Portuguese amanhã, itself built on manhã 'morning'; yesterday is a different word, onti.
+    rcf: ["demin", "dəmɛ̃"],  // Demin comes from French demain, from Late Latin dē māne 'in the morning'; yesterday is a different word, yèr.
+    pcd: ["dmain", "dmɛ̃"],  // Dmain is the Picard word for tomorrow, as in 'i m’o dit qu’i s’in alot dmain' (he told me he was leaving tomorrow); yesterday is hier.
+    swg: ["morga", "ˈmɔrɡa"],  // Swabian morga is 'tomorrow', and Morga is also how Swabians say 'good morning'; in Upper Swabian one word, moora, means both 'the morning' and 'tomorrow'.
+    pnt: ["αύριον", "ˈavrion"],  // Pontic αύριον keeps the Ancient Greek form αὔριον, an old locative of the root for 'dawn'; yesterday is οψές and morning πουρνόν.
+    dar: ["жягIял", "ʒaˤʕaˤl"],  // ЖягIял is literary Dargwa for tomorrow ('ЖягIял сигъуна аргъ бирая?' — what will the weather be tomorrow?); yesterday is a different word, даг.
+    cak: ["chwaʼq", "tʃwaʔq"],  // Chwaʼq is 'tomorrow' in Kaqchikel ('Chwaʼq xtiʼanin ri tzʼiʼ' — tomorrow the dog will run); yesterday is a different word, iwir.
+    sgw: ["ነገ", "nəɡə"],  // Matthew 6:34 in the Gurage Bible opens 'ነገ የገገታ ይትጨነቅ' (tomorrow will worry about its own), while yesterday is a different word, ትራማ (Hebrews 13:8).
+    bfa: ["kotumalu", "kɔtumalu"],  // Matthew 6:34 in the Bari Bible says 'ti kotumalu, kogwon kotumalu mo wiwinya kulya kanyit' (about tomorrow, for tomorrow will worry about itself), while yesterday is kaje (Hebrews 13:8).
+    aja: ["esɔ", "esɔ"],  // Aja esɔ means both 'yesterday' and 'tomorrow' (French 'hier; demain'), as in the related Ewe etsɔ; the context tells which.
+    blt: ["ꪣꪳ꫁ꪝꪴꪀ", "mɨː˧˩ˀ puʔ˦"],  // Tai Dam mự pụk is 'tomorrow', built with mự 'day'; yesterday is a different word, mự ngòa (Hebrews 13:8 'mự ngòa, mự nị').
+    tji: ["laozi", "lau˧˥tsi˥˥"],  // Northern Tujia lau³⁵tsi⁵⁵ is 'tomorrow'; yesterday is a different word, phu²¹ȵi²¹.
+    spp: ["nùmpanŋa", "nùmpãŋa"],  // Luke 12:28 in the Supyire Bible sets niɲjaa 'today' against nùmpanŋa 'tomorrow', while yesterday is a different word, taɲjaa (Hebrews 13:8).
+    urh: ["odẹ", "odɛ"],  // Urhobo ódẹ is 'tomorrow'; yesterday is built on it, ódẹrókporina 'the ódẹ that has passed' (Matthew 6:34 'kpahe odẹ-ẹ' — about tomorrow).
+    dyo: ["kajom", "kadʒɔm"],  // Jola-Fonyi kajɔm is 'tomorrow' and fukɛn 'yesterday'; adding -um makes 'the day after tomorrow'.
+    nia: ["mahemolu", "mahemolu"],  // Mahemolu is the Nias word for tomorrow ('Möiga ba harimbale mahemolu' — we go to the harimbale tomorrow); yesterday is a different word, menewi.
   },
 };

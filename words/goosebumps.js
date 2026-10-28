@@ -207,6 +207,7 @@ WORDS.goosebumps = {
     es_ve: "bird",
     nl_be: "bird",
     hak_hl: "bird",
+    ceb: "plain",
   },
   family2: {
     ko: "bird",
@@ -362,5 +363,6 @@ WORDS.goosebumps = {
     es_ve: ["piel de gallina", "pjel de ɣaʝina"],  // Literally "hen skin", the general Spanish phrase.
     nl_be: ["kippenvel", "ˈkɪpəvɛl"],  // Literally "chicken skin", from kip "chicken" and vel "skin", the same word as in the Netherlands.
     hak_hl: ["雞嫲皮", "kai˥˧ ma˥˥ pʰi˥˥"],  // Literally "hen skin", the same word as Sixian Hakka, read in Hailu.
+    ceb: ["nanglimbawot", "naŋlimˈbawot"],  // A verb of its own, "for the hair to stand on end, get goose bumps": nanglimbawot akong balhibo "my hair stood on end"; also heard as nanglimbawo.
   },
 };

@@ -754,6 +754,23 @@ WORDS.yesterday = {
     crk: "distinct",
     gsw: "distinct",
     ar_tn: "distinct",
+    rup: "distinct",
+    hns: "distinct",
+    gym: "distinct",
+    ctu: "distinct",
+    nmf: "distinct",
+    kxc: "distinct",
+    dng: "distinct",
+    ab: "distinct",
+    lbe: "distinct",
+    bsk: "distinct",
+    co: "distinct",
+    frp: "distinct",
+    izz: "distinct",
+    bfa: "distinct",
+    cak: "distinct",
+    zap: "distinct",
+    dar: "distinct",
   },
   routes: {
     same: {"color":"#db2777","emoji":"🔁","en":"one word for yesterday and tomorrow","ja":"昨日と明日が同じ語","ko":"어제와 내일이 한 낱말","zh":"昨天和明天同一个词","yue":"尋日同聽日同一個詞","vi":"một từ cho hôm qua và ngày mai","th":"คำเดียวทั้งเมื่อวานและพรุ่งนี้","id":"satu kata untuk kemarin dan besok","hi":"बीते और आने वाले कल का एक शब्द","de":"ein Wort für gestern und morgen","fr":"un mot pour hier et demain","it":"una parola per ieri e domani","es":"una palabra para ayer y mañana","pt":"uma palavra para ontem e amanhã","ru":"одно слово для вчера и завтра","uk":"одне слово для учора й завтра","ar":"كلمة واحدة لأمس وغد","he":"מילה אחת לאתמול ולמחר","sw":"neno moja kwa jana na kesho"},
@@ -1453,5 +1470,22 @@ WORDS.yesterday = {
     crk: ["ᐅᑖᑯᓰᕽ", "otaːkosiːhk"],  // Tomorrow: ᐚᐸᐦᑭ; otâkosîhk is also glossed 'the previous evening', and the Plains Cree scriptures use it for yesterday in John 4:52.
     gsw: ["geschter", "ˈɡɛʃtər"],  // Tomorrow: moorn; geschter is the Swiss German form of German gestern, with st pronounced ʃt.
     ar_tn: ["آمس", "ˈeːməs"],  // Tomorrow: غدوة; ēmes continues Arabic ʔams, and Tunisian also says البارح el-bāriḥ.
+    rup: ["aieri", "aˈjeri"],  // From Latin herī, also spelled aeri; tomorrow is mãni, and the Bible has "easti idyiul aieri, azã" ('is the same yesterday, today', Heb 13:8).
+    hns: ["kaal", "kaːl"],  // Unlike Hindi kal, the Sarnami NT keeps kaal for yesterday ("Kaal ek badje okar bokhaar oetar gail", John 4:52) and uses biehaan for every tomorrow.
+    gym: ["jändrin", "hɔndɾin"],  // Tomorrow is jetbe; the derived jändrinane is used for 'the next day' in narrative (Matt 27:62), while Heb 13:8 reads "nämanena jändrin, ara tä mtare" (yesterday, today).
+    ctu: ["akʼbi", "akʼɓi"],  // Respelled from the Bible's acʼbi into the row's spelling; tomorrow is ijkʼäl, as in "junlajalʌch acʼbi yicʼot wʌle" ('the same yesterday and today', Heb 13:8).
+    nmf: ["aya", "aja"],  // The 2026 Bible writes ayā, with a macron this row does not use; tomorrow is akhama.
+    kxc: ["xala", "χala"],  // Tomorrow is parri; Heb 13:8 reads "xala ka awwe ka haka" (yesterday, today and forever).
+    dng: ["зуәр", "tsuəɻ˨˦"],  // Cognate with Mandarin 昨兒 zuór; tomorrow is мир (or минтян).
+    ab: ["иацы", "jatsʰə"],  // Tomorrow is уаҵәы.
+    lbe: ["лахьхьу", "laxːu"],  // Tomorrow is гьунттий.
+    bsk: ["sabuúr", "saˈbuːr"],  // Tomorrow is jímale.
+    co: ["eri", "ˈeri"],  // From Latin herī; tomorrow is dumane.
+    frp: ["hièr", "jɛr"],  // From Latin herī, spoken iyer in Bresse and yêr in Fribourg; tomorrow is deman.
+    izz: ["ụnyaphu", "ʊɲaɸu"],  // Tomorrow is echele; the Izii Bible has ụnyaphu at Hebrews 13:8 ('ọ bụ ụnyaphu; bya abụru iya ntanụ-a', yesterday and today) and echele at Matthew 6:34.
+    bfa: ["kaje", "kaje"],  // Tomorrow is kotumalu; the Bari Bible has kaje at Acts 7:28 ('do Ejipetotyo kaje', the Egyptian yesterday) and kotumalu at Matthew 6:34.
+    cak: ["iwir", "iwir"],  // Tomorrow is chuwaʼq; the Kaqchikel Bible reads 'achiʼel ri iwir, keriʼ wakami' (as yesterday, so today) at Hebrews 13:8.
+    zap: ["neegue", "neːɡe"],  // Tomorrow is ixí; the Isthmus Zapotec Bible reads 'neegue', zaqueca yanadxí' (yesterday, so too today) at Hebrews 13:8.
+    dar: ["даг", "daɡ"],  // Tomorrow is жагӏял; IDS and NorthEuraLex both give даг for 'yesterday' in standard Dargwa.
   },
 };

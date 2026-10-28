@@ -369,6 +369,40 @@ WORDS.india = {
     ko_yb: "yindu",
     hak_hl: "yindu",
     zh_hf: "yindu",
+    bug: "greek",
+    srn: "greek",
+    bs: "greek",
+    ssw: "greek",
+    cpx: "yindu",
+    pms: "greek",
+    egl: "greek",
+    bbc: "greek",
+    ve: "greek",
+    tcy: "bharat",
+    efi: "greek",
+    mak: "greek",
+    teo: "greek",
+    wbm: "greek",
+    tyz: "yindu",
+    quc: "greek",
+    nd: "greek",
+    kha: "greek",
+    ndc: "greek",
+    nus: "greek",
+    mas: "greek",
+    mrw: "greek",
+    bem: "greek",
+    kmb: "greek",
+    iba: "greek",
+    dag: "greek",
+    cv: "greek",
+    kbp: "greek",
+    li: "greek",
+    sc: "greek",
+    av: "persian",
+    gor: "greek",
+    nbl: "greek",
+    quz: "greek",
   },
   routes: {
     greek: {"color":"#2563eb","emoji":"🏛️","en":"through Greek Ἰνδία, Latin India (India, Inde, Индия)","ja":"ギリシア語 Ἰνδία、ラテン語 India 経由（India, Inde, Индия）","ko":"그리스어 Ἰνδία, 라틴어 India를 거쳐 (India, Inde, Индия)","zh":"经希腊语 Ἰνδία、拉丁语 India（India、Inde、Индия）","yue":"經希臘文 Ἰνδία、拉丁文 India（India、Inde、Индия）","vi":"qua tiếng Hy Lạp Ἰνδία, Latin India (India, Inde, Индия)","th":"ผ่านกรีก Ἰνδία ละติน India (India, Inde, Индия)","id":"lewat Yunani Ἰνδία, Latin India (India, Inde, Индия)","hi":"यूनानी Ἰνδία, लैटिन India से होकर (India, Inde, Индия)","de":"über griechisch Ἰνδία, lateinisch India (India, Inde, Индия)","fr":"par le grec Ἰνδία, le latin India (India, Inde, Индия)","it":"attraverso il greco Ἰνδία, il latino India (India, Inde, Индия)","es":"por el griego Ἰνδία, el latín India (India, Inde, Индия)","pt":"pelo grego Ἰνδία, o latim India (India, Inde, Индия)","ru":"через греческое Ἰνδία, латинское India (India, Inde, Индия)","uk":"через грецьке Ἰνδία, латинське India (India, Inde, Индия)","ar":"عبر اليونانية Ἰνδία واللاتينية India (India, Inde, Индия)","he":"דרך היוונית Ἰνδία והלטינית India (India, Inde, Индия)","sw":"kupitia Kigiriki Ἰνδία, Kilatini India (India, Inde, Индия)"},
@@ -679,5 +713,39 @@ WORDS.india = {
     ko_yb: ["인도", "indo"],  // The Korean reading of Chinese 印度; Yanbian Daily, China's Korean-language paper, writes 인도.
     hak_hl: ["印度", "ʒin˩˩ tʰu˧˧"],  // The Hailu Hakka reading of 印度, the name Xuanzang fixed in 646 CE.
     zh_hf: ["印度", "jiən˥˩ tʉ˥˩"],  // The Hefei reading of 印度, the name Xuanzang fixed in 646 CE.
+    bug: ["India", "india"],  // Same as Indonesian India; the Bugis Bible writes India and the Buginese Wikipedia titles the article ᨕᨗᨉᨗᨐ (i-di-ya, Lontara leaves the n unwritten).
+    srn: ["India", "india"],  // The Sranan Wikipedia calls the country Indiakondre, "India country", or Ripoliku India, and the 2016 Bible writes India.
+    bs: ["Indija", "ˈindija"],  // From Greek Indía via Latin India, named after the Indus river; the Bosnian Wikipedia article is Indija.
+    ssw: ["iNdiya", "indija"],  // From English India with the noun prefix i-, as in Zulu iNdiya; the siSwati Wikipedia article is INdiya.
+    cpx: ["印度", "iŋ˦˨ tɔu˩˩"],  // The Putian reading of 印度, the name Xuanzang fixed in 646 CE.
+    pms: ["India", "ˈindja"],  // India, the title of the Piedmontese Wikipedia article on the country.
+    egl: ["Ìndia", "ˈindja"],  // Ìndia, with the grave accent marking the stressed vowel, is the title of the Emilian-Romagnol Wikipedia article on the country.
+    bbc: ["India", "india"],  // India is the Toba Batak Wikipedia name, glossed there as Hindi Bhārat.
+    ve: ["India", "india"],  // India in the Venda Bible (Esther 1:1 "u bva India u swika Kushu") and in Venda Wikipedia prose.
+    tcy: ["ಭಾರತೊ", "bʱaːɾato"],  // Bhārato, with the Tulu noun ending -o (the article title spells it ಭಾರತ); the Tulu Wikipedia says the name comes from Bharatavarsha, after King Bharata, and that ಹಿಂದುಸ್ಥಾನ Hindustāna is another name.
+    efi: ["India", "india"],  // India, as in the Efik Bible ("ke India tutu osim ke Ethiopia", Esther 1:1).
+    mak: ["India", "inˈdia"],  // India, as in the Makassarese Bible ("battu ri India sa'genna mange ri Sudan", Esther 8:9), the same name as Indonesian.
+    teo: ["India", "india"],  // India, as in the Ateso Bible ("anyoun ko India kiton Etiopia", Esther 1:1).
+    wbm: ["India", "india"],  // India, as in the Wa Bible ("khaing haktiex India tom hoek ka haktiex Ethiopia", Esther 1:1).
+    tyz: ["Ấn Độ", "ən˧˥ ɗo˧˨ʔ"],  // Ấn Độ, the same name as Vietnamese, as in the Tày Bible ("tứ Ấn Độ thâng Ê-thi-ô-pi", Esther 1:1).
+    quc: ["India", "india"],  // India, as in the Kʼicheʼ Bible ("cʼä pa India ulok", Esther 1:1).
+    nd: ["Indiya", "indija"],  // Indiya, as in both Northern Ndebele Bibles ("kusukela eIndiya kuze kube seEtiyopiya", Esther 1:1).
+    kha: ["India", "india"],  // Ka ri India "the country India", the Khasi Wikipedia (Incubator) name, also in both Khasi Bibles ("naduh ri India haduh Ethiopia", Esther 1:1; "naduh India haduh Sudan", Esther 8:9).
+    ndc: ["India", "india"],  // India, as in the Ndau Bible ("kubvira India metsa kuguma Ethiopia", Esther 1:1).
+    nus: ["In-di-ya", "indija"],  // Indiya, written syllable by syllable as In-di-ya in the Nuer Bible ("ni ro̱o̱l In-di-ya", Esther 1:1).
+    mas: ["India", "india"],  // India, as in the Maasai Bible ("ebaiki India ometabaiki Etiopia", Esther 1:1).
+    mrw: ["Indiya", "indija"],  // Indiya, glossed "India" in the SIL Maranao dictionary on Webonary.
+    bem: ["India", "india"],  // The same as English India; the 2015 Revised Bemba Bible writes "ukutula ku India ukufika ku Kushi" (from India to Cush).
+    kmb: ["India", "india"],  // The same name as Portuguese Índia; the Kimbundu Bible writes "tunde ku India katé mu Etiópia" (from India to Ethiopia).
+    iba: ["India", "india"],  // The international name India, as in Malay and English; the Iban Wikipedia and Bible both use it.
+    dag: ["India", "india"],  // The same as English India; used in the Dagbani Wikipedia and the Dagbani Bible.
+    cv: ["Инди", "inˈdi"],  // Indi, the international name India without its final -a; the Chuvash Wikipedia also records an old native name Ӗнчӗ.
+    kbp: ["Ɛɛndɩ", "ɛːndɪ"],  // From French Inde, the name of India in Togo's official language; the Kabiye Wikipedia writes Ɛɛndɩ in its prose.
+    li: ["India", "ˈɪndiaː"],  // The same name as Dutch India, from Latin India; used in the Limburgish Wikipedia.
+    sc: ["Ìndia", "ˈindia"],  // From Latin India; the Sardinian spelling marks the stress on the first syllable with a grave accent.
+    av: ["Гьиндустан", "hindustan"],  // Hindustan, the Persian name for India, rather than the Russian Индия; the Avar Wikipedia and Bible both use it.
+    gor: ["India", "inˈdia"],  // The same as Indonesian India; used in the Gorontalo Wikipedia and Bible.
+    nbl: ["i-Indiya", "iinˈdija"],  // English India with the noun prefix i-; the isiNdebele Bible writes e-Indiya 'in/from India'.
+    quz: ["India", "ˈindja"],  // From Spanish India; the Cusco Quechua Bible writes India suyu 'the land of India'.
   },
 };

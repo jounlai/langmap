@@ -62,8 +62,8 @@ foreach (($wm['words'] ?? []) as $w) {
     $pages[] = ['/word/' . rawurlencode($w['id']), '0.7'];
 }
 foreach (($wm['langs'] ?? []) as $code => $l) {
-    if (!empty($l['excluded']) || seo_wordmap_thin($l)) {
-        continue; // noindex'd (hidden variety, or too few cells); keep out of the sitemap
+    if (seo_wordmap_thin($l)) {
+        continue; // noindex'd (too few cells); keep out of the sitemap
     }
     $pages[] = ['/wordmap/' . rawurlencode($code), '0.6'];
 }

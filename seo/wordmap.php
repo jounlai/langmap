@@ -127,7 +127,10 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
         $ui
     );
     if ($q !== '') $metaDesc = seo_clip($q . (in_array($ui, ['ja', 'zh', 'yue'], true) ? '' : ' ') . $metaDesc, 160);
-    $robots = (!empty($lang['excluded']) || seo_wordmap_thin($lang)) ? 'noindex,follow' : 'index,follow';
+    // Historical rows (excluded = hidden under the map's Historical toggle) are
+    // indexed like any other: Latin or Old English is a real search. Only thin
+    // rows stay out.
+    $robots = seo_wordmap_thin($lang) ? 'noindex,follow' : 'index,follow';
     // One alias line: the cross-map aliases, then the row's own list (r29).
     $akaList = seo_lang_aliases($ui, $code, $name, (string) $native, 6, is_array($meta['aliases'] ?? null) ? $meta['aliases'] : []);
 

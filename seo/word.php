@@ -135,9 +135,8 @@ function seo_word_rows(array $data, string $id, string $ui = 'en'): array
         // and land in that section via meta.period, which is exactly the
         // separation the historical toggle makes on the map.
         //
-        // This does not index them: their own language pages stay noindex and
-        // out of the sitemap. It only stops a word page pretending they do
-        // not exist.
+        // Their own language pages are indexed and in the sitemap too
+        // (2026-10-29: Search Console listed 1,000+ of them as noindex).
         $entry = $l['words'][$id] ?? null;
         if (!$entry) {
             continue;

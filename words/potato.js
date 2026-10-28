@@ -458,6 +458,36 @@ WORDS.potato = {
     mrw: "papa",
     ko_kp: "other",
     zh_hf: "other",
+    nia: "place",
+    lez: "truffle",
+    ady: "truffle",
+    cbk: "papa",
+    khb: "other",
+    tly: "earth",
+    new: "other",
+    kek: "other",
+    tzh: "unknown",
+    inh: "truffle",
+    dv: "other",
+    pdt: "unknown",
+    pap: "papa",
+    tyv: "truffle",
+    bxr: "unknown",
+    pis: "papa",
+    wa: "earth",
+    lij: "papa",
+    kaa: "truffle",
+    xmf: "truffle",
+    mhr: "unknown",
+    rcf: "earth",
+    mam: "unknown",
+    bi: "papa",
+    csb: "other",
+    bsk: "other",
+    tab: "truffle",
+    gil: "papa",
+    saq: "other",
+    co: "unknown",
   },
   routes: {
     papa: {"color":"#ca8a04","emoji":"🏔️","en":"Quechua papa · Taíno batata","ja":"ケチュア語 papa・タイノ語 batata","ko":"케추아어 papa · 타이노어 batata","zh":"克丘亚语 papa・泰诺语 batata","yue":"克丘亞語 papa · 泰諾語 batata","vi":"Quechua papa · Taíno batata","th":"เกชัว papa · ไตโน batata","id":"Quechua papa · Taíno batata","hi":"क्वेचुआ papa · ताइनो batata","de":"Quechua papa · Taíno batata","fr":"quechua papa · taïno batata","it":"quechua papa · taíno batata","es":"quechua papa · taíno batata","pt":"quíchua papa · taíno batata","ru":"кечуа papa · таино batata","uk":"кечуа papa · таїно batata","ar":"كيتشوا papa · تاينو batata","he":"קצ'ואה papa · טאינו batata","sw":"Kiquechua papa · Kitaino batata"},
@@ -857,5 +887,35 @@ WORDS.potato = {
     mrw: ["patatas", "patatas"],  // The same word as Tagalog patatas; the sweet potato is a different word, obi. Route by resemblance to the neighbouring forms (Tagalog, Cebuano, Ilocano and Hiligaynon patatas); no etymology of its own.
     ko_kp: ["감자", "kamdʑa"],  // The same word as in the South; North Korea's potato drive centres on Taehongdan County, celebrated in the children's song 《대홍단 감자》.
     zh_hf: ["洋山芋", "jiɑ̃˦˥ ʂɐ̃˨˩˨ jy˥˩"],  // Literally "foreign yam-taro": the native 山芋 with 洋 "from overseas"; Hefei also says 土豆 and formal 马铃薯.
+    nia: ["gowi balanda", "ɡowi balanda"],  // Literally "Holland tuber" (gowi "tuber", Balanda "Holland, the Dutch"); the Nias Wikipedia gives it as the equivalent of Indonesian kentang.
+    lez: ["картуф", "kartuf"],  // Borrowed from Russian картофель, ultimately Italian tartufolo "truffle"; the Lezgian Wikipedia lists it among the Russian loans.
+    ady: ["картоф", "kaːrtof"],  // The literary Adyghe word, borrowed from Russian картофель (ultimately Italian tartufolo "truffle"); diaspora Adyghe says къантӏуф.
+    cbk: ["patatas", "paˈtatas"],  // Inherited from Spanish patatas, the plural of patata.
+    khb: ["ᦍᧂᦊᦲᧈ", "jaŋ˥˩ jiː˧˥"],  // Borrowed from Mandarin 洋芋 "foreign taro", the word used in China; Thai Lue says ᦙᧃᦀᦟᦴ, "tuber" plus aloo.
+    tly: ["büməsef", "byməsef"],  // Literally "earth apple" (büm "earth, soil" + sef "apple"), probably a calque of Azerbaijani yer alması; kərtof and yeralmə are synonyms.
+    new: ["आलु", "aːlu"],  // The South Asian potato word, from Sanskrit ālu, an edible root; the sweet potato is a different word, चाकुहि.
+    kek: ["kaxlan is", "kaʃlan is"],  // Literally "Castilian sweet potato": kaxlan "Spanish, foreign" (from castellano) plus the native Mayan word is "sweet potato"; the Spanish loan paaps is also used.
+    tzh: ["isʼakʼ", "isʔakʼ"],  // The Tseltal word for the potato, segmented is + ʼakʼ in the multidialectal dictionary; some villages instead use chiʼin, which elsewhere means the sweet potato.
+    inh: ["коартол", "kɔ̯artol"],  // Borrowed from Russian картофель (ultimately Italian tartufolo "truffle"), like Chechen картол.
+    dv: ["އަލުވި", "aluʋi"],  // Inherited from Sanskrit ālu, the same tuber word as Hindi आलू; cognate with Sinhala අල ala 'tuber'.
+    pdt: ["Ieedschock", "ˈiːtʃɔk"],  // A compound built on Ieed 'ground, earth'; the meaning of the second element Schock is not given in the source.
+    pap: ["batata", "baˈtata"],  // From Spanish and Portuguese batata, ultimately Taíno batata.
+    tyv: ["картофель", "karˈtofelʲ"],  // Borrowed from Russian картофель (ultimately Italian tartufolo "truffle"); the Tuvan Wikipedia says it spread in Tuva from 1930.
+    bxr: ["түмһэн", "tymheŋ"],  // The counterpart of Mongolian төмс; the Buryat Wikipedia also gives the Russian loan хартаабха.
+    pis: ["Ingglis puteto", "iŋɡlis puteto"],  // Literally 'English potato': plain puteto (from English potato) means the sweet potato in Pijin, so the potato proper is marked as English.
+    wa: ["crompire", "kʁɔ̃ˈpiːʁ"],  // From Germanic *grund-pehr "ground pear", like German Grundbirne; Walloon also says canada, truke and cartoxhe.
+    lij: ["patàtta", "paˈtatta"],  // From Spanish patata, the Quechua papa blended with Taíno batata; Monaco says patata and Novi patòta.
+    kaa: ["kartoshka", "karˈtoʃka"],  // Borrowed from Russian картошка, which goes back through German Kartoffel to Italian tartufolo "truffle".
+    xmf: ["კარტოფილი", "kʼartʼopʰili"],  // The same word as Georgian კარტოფილი, borrowed from Russian картофель, ultimately Italian tartufolo "truffle".
+    mhr: ["пареҥге", "pareŋɡe"],  // The everyday Meadow Mari word; tamle pareŋge "sweet potato" is built on it.
+    rcf: ["pom de tèr", "pɔm də tɛr"],  // From French pomme de terre, literally "apple of the earth".
+    mam: ["is", "is"],  // The Mam word for the potato; the sweet potato is saq is "white is" or xkamot.
+    bi: ["poteto", "poteto"],  // From English potato; the sweet potato is kumala.
+    csb: ["bùlwa", "ˈbwulva"],  // Borrowed from Polish bulwa "tuber".
+    bsk: ["aaluu", "aːluː"],  // Borrowed from Urdu ālū, the South Asian word for the potato.
+    tab: ["картуф", "kartuf"],  // Recorded in the Southern dialect, the basis of literary Tabasaran; Northern varieties have катушка or картушар. Route by resemblance to the neighbouring forms (lez(картуф) az(kartof) bg(картоф)); no etymology of its own.
+    gil: ["boteto", "boteto"],  // Borrowed from English potato.
+    saq: ["lbiasi", "lbiasi"],  // Borrowed from Swahili viazi "potatoes" (plural of kiazi "tuber"); southern Maa also says enkuashe, from Kikuyu.
+    co: ["pomu", "ˈpomu"],  // The Corsican Wikipedia article on the plant is titled U pomu; the plural is poma.
   },
 };

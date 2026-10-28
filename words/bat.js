@@ -541,6 +541,31 @@ WORDS.bat = {
     crk: "unknown",
     ttj: "unknown",
     laj: "unknown",
+    pdc: "mouse",
+    pdt: "mouse",
+    arn: "unknown",
+    bxr: "unknown",
+    inh: "unknown",
+    urh: "unknown",
+    pis: "other",
+    zap: "other",
+    naq: "unknown",
+    kac: "unknown",
+    tji: "unknown",
+    pcd: "mouse",
+    fur: "unknown",
+    rue: "unknown",
+    nij: "unknown",
+    ksb: "unknown",
+    nia: "unknown",
+    dtp: "unknown",
+    ets: "unknown",
+    co: "mouse",
+    her: "unknown",
+    bru: "unknown",
+    ab: "unknown",
+    enq: "unknown",
+    tab: "unknown",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1027,5 +1052,30 @@ WORDS.bat = {
     crk: ["ᐊᐸᐦᒁᒌᐢ", "apahkwaːtʃiːs"],  // The Plains Cree word for the bat, apahkwâcîs in Roman spelling; a variant pahkwâcîs is also listed.
     ttj: ["ekihuguhugu", "ekihuɡuhuɡu"],  // The Rutooro word for the bat, plural ebihuguhugu, the same word as in Runyoro.
     laj: ["olik", "olik"],  // The Lango word for the bat, the same word as Acholi olik.
+    pdc: ["Fleddermaus", "ˈflɛdərmaʊs"],  // Like German Fledermaus, a 'flutter-mouse'; the same word can also mean a butterfly or moth.
+    pdt: ["Flautamüss", "ˈflautamys"],  // Literally a 'flutter-mouse', built on Mus 'mouse'; the Plautdietsch Bible renders Isaiah 2:20 'de Mies un Flautamies' (the mice/moles and the bats).
+    arn: ["püṉüyken", "pɨn̪ɨjken"],  // The Mapudungun word for the bat, also written pinüyke; its make-up is not explained in the sources.
+    bxr: ["һарьһан эрбээхэй", "harʲhaŋ erbeːxej"],  // The Buryat name, the counterpart of Mongolian сарьсан багваахай; the Buryat Bible uses it in Isaiah 2:20 'мана һохорнууд, һарьһан эрбээхэйнүүд' (moles and bats).
+    inh: ["бурдолг", "burdolɡ"],  // The Ingush word for the bat, the counterpart of Chechen бирдолаг; its origin is not explained in the sources.
+    urh: ["adjan", "adʒã"],  // The Urhobo word for the bat; Ukere's dictionary also lists ehuhu 'bat', and the Bible names the bat adjan in Deuteronomy 14:18 ('evwu vwẹ adjan').
+    pis: ["flaefokis", "flaefokis"],  // From English 'flying fox', the large fruit bat of the Solomon Islands, which is the only bat word the Pijin dictionary gives.
+    zap: ["biguidi beela", "biɡidi bḛla"],  // Literally a 'flesh butterfly': biguidi' is 'butterfly' and beela 'meat, flesh' in Pickett's Isthmus Zapotec vocabulary.
+    naq: ["surutsiǃgube-s", "surutsiǃɡubes"],  // The Khoekhoegowab word for the bat in Haacke & Eiseb's dictionary; the Bible uses it in Isaiah 2:20 '...surutsiǃguben tsî tsuxudurun...' (bats and moles).
+    kac: ["patsip", "pʰətsip˥˥"],  // The Jinghpaw word for the bat; the Jinghpaw Bible's Isaiah 2:20 throws idols 'sharu ni hte patsip ni', to the moles and the bats.
+    tji: ["retasei", "zie˨˩tʰa˨˩sɯi˥˥"],  // Built from re 'mouse' and tasei 'butterfly', a mouse-butterfly, as Brassett's Tujia lexicon glosses the parts; tones follow Brassett (re3 ta3 sei1).
+    pcd: ["cate seuris", "kat søʁi"],  // The same image as French chauve-souris, with seuris 'mouse'; an old Picard rhyme begins 'Cate seuris rapache par chi'.
+    fur: ["gnotul", "ˈɲɔtul"],  // The Friulian word for the bat, with variants notul, gnutul and nuatol; figuratively it also means a dimwit.
+    rue: ["пергач", "perˈhatʃ"],  // The Carpathian Rusyn word for the bat, cognate with Ukrainian dialect пергач; the Rusyn Wikipedia also uses the compound мышперхач.
+    nij: ["pandan", "pandan"],  // The Ngaju word for the bat in Hardeland's dictionary; pandan doho is a large reddish-brown species.
+    ksb: ["ndema", "ndema"],  // The Shambala word for the bat in Seidel's 1895 handbook, a noun of the N- class.
+    nia: ["bögi", "bɤɡi"],  // The Nias word for the bat; the Nias Wikipedia names kinds such as bögi lae, bögi helua and bögi mbanua.
+    dtp: ["pungit", "puŋit"],  // The Kadazandusun word for the bat; the Kadazandusun Wikipedia calls the large fruit bats gawir, and tuadan is a small bat.
+    ets: ["akoga", "akoɡa"],  // The Yekhee word for the bat; the fruit bat has its own name, uvhiaotha.
+    co: ["topu pinnutu", "ˈtɔpu pinˈnutu"],  // Built on topu, 'mouse': the 'winged mouse', the name of the Corsican Wikipedia article and of the island's bat group, Topi Pinnuti.
+    her: ["ondiri", "ondiri"],  // The Herero word for the bat, given by Kolbe's 1883 dictionary; Isaiah 2:20 throws the idols 'ozohukuha nozondiri', to the moles and the bats.
+    bru: ["asĩap", "ʔasiap"],  // The Bru word for the bat, used in Leviticus 11:19 and Isaiah 2:20 ('cunâi cớp asĩap', rats and bats); the SIL dictionary also lists a synonym, ayiel.
+    ab: ["ахәлԥҵыс", "aχʷlpʰtsʼəs"],  // The Abkhaz word for the bat, with the a- prefix Abkhaz nouns carry in their dictionary form.
+    enq: ["saima", "saima"],  // The Enga word for the bat, as given by the SIL Enga dictionary.
+    tab: ["чаппархил", "tʃapːarχil"],  // The Tabasaran word for the bat, glossed 'bat, летучая мышь' by the Webonary Tabasaran dictionary, which gives the mouse a different word, кьюл.
   },
 };

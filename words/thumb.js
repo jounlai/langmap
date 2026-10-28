@@ -509,6 +509,30 @@ WORDS.thumb = {
     wuu_sz: "big",
     nan_qz: "big",
     nan_hai: "big",
+    lij: "big",
+    tyv: "big",
+    pdt: "plain",
+    xmf: "plain",
+    tet: "big",
+    wa: "plain",
+    pcd: "plain",
+    lez: "big",
+    kek: "mother",
+    tzh: "mother",
+    kac: "mother",
+    ahk: "mother",
+    lhu: "unknown",
+    hwc: "plain",
+    ja_oki: "big",
+    lbe: "big",
+    tab: "big",
+    co: "big",
+    frp: "unknown",
+    enq: "unknown",
+    ami: "big",
+    ctu: "mother",
+    bru: "unknown",
+    bdq: "unknown",
   },
   routes: {
     mother: {"color":"#db2777","emoji":"👪","en":"mother · parent · elder kin","ja":"母・親・年長の身内","ko":"어머니 · 어버이 · 웃어른","zh":"母亲・父母・长辈","yue":"阿媽 · 父母 · 長輩","vi":"mẹ · cha mẹ · bậc trên","th":"แม่ · พ่อแม่ · ญาติผู้ใหญ่","id":"ibu · orang tua · kerabat tua","hi":"माँ · माता-पिता · बड़े","de":"Mutter · Eltern · ältere Verwandte","fr":"mère · parent · aîné","it":"madre · genitore · parente anziano","es":"madre · padre · pariente mayor","pt":"mãe · pai · parente mais velho","ru":"мать · родитель · старший родич","uk":"мати · батько · старший родич","ar":"أم · والد · قريب أكبر","he":"אם · הורה · קרוב מבוגר","sw":"mama · mzazi · ndugu mkubwa"},
@@ -962,5 +986,29 @@ WORDS.thumb = {
     wuu_sz: ["大密节头", "dəu˨˧˩ miɪʔ˧ tsiɪʔ˥ døʏ˨˨˧"],  // Literally 'big finger-joint'; the Suzhou form of 大节头 with an extra syllable 密 (from 米).
     nan_qz: ["大头拇", "tua˦˩ tʰau˨˦ bu˥˥˦"],  // Literally 'big head-thumb', the same word as the Hokkien parent; Quanzhou also says 部头拇 and 掌头拇.
     nan_hai: ["大手拇", "ɗua˨˧ siu˨˩˧ vo˨˩˧"],  // Literally 'big hand-thumb'; Haikou also says plain 手拇.
+    lij: ["dio grosso", "ˈdiu ˈɡrɔsu"],  // Literally 'big finger'; the Ligurian Wikipedia calls it the more common name, beside the inherited pœuxo from Latin pollex.
+    tyv: ["улуг салаа", "uluɣ salaː"],  // Literally 'big finger' (улуг 'big' + салаа 'finger'); the Tuvan Bible keeps it apart from the big toe in Leviticus 14:14: 'оң холунуң улуг салаазы биле оң будунуң улуг эргээн'.
+    pdt: ["Düme", "ˈdyːmə"],  // The same Germanic word as German Daumen and English thumb; the Bible spells it Dume(n) and keeps it apart from de groote Tee 'the big toe'.
+    xmf: ["ჩანჯიკითი", "tʃʰandʒikʼitʰi"],  // ჩანჯი 'thumb' (the Zan cognate of Georgian ცერი) plus კითი 'finger'; ჩანჯი is almost never used alone.
+    tet: ["liman-fuan boot", "liman fuan boːt"],  // Literally 'big finger', liman-fuan 'finger' (liman 'hand' + fuan 'fruit') + boot 'big'.
+    wa: ["pôce", "poːs"],  // From Latin pollex 'thumb', like French pouce; it is also an old measure of about 2.9 cm, the inch.
+    pcd: ["pouche", "puʃ"],  // The Picard counterpart of French pouce; local forms poche, pau and peu are also given.
+    lez: ["чӏехи тӏуб", "tʃʼexi tʼub"],  // Literally 'big finger' (чӏехи 'big' + тӏуб 'finger'); the Lezgian Bible uses the same phrase for the thumb and, with кӏвач 'foot', the big toe.
+    kek: ["naʼ uqʼm", "naʔ uqʼm"],  // Literally 'mother hand' (naʼ 'mother' + uqʼm 'hand'); the Qʼeqchiʼ Bible likewise says xnaʼ ruʼuj ruqʼ for the thumb and xnaʼ ruʼuj roq for the big toe.
+    tzh: ["meʼ kʼab", "meʔ kʼaɓ"],  // Literally 'mother of the hand' (meʼ 'mother' + kʼab 'hand'); the Tzeltal Bibles likewise call the big toe the 'mother of the foot'.
+    kac: ["yungnu", "juŋ˧˩nu˧˩"],  // Built on yung 'finger' (as in yung sha 'the other fingers') and nu 'mother'; the Bible calls the thumb lata yungnu 'hand yungnu' and the big toe lagaw yungnu.
+    ahk: ["laq ma", "la̰˨˩ma˧"],  // Literally 'hand mother' (laq 'hand' + ma 'mother'); the big toe is likewise kui ma 'foot mother'.
+    lhu: ["làʼ-ma-pə̄", "làʔmapə̏"],  // Built on làʼ 'hand'; the Lahu Bible says la ma peu for the thumb and hkui ma peu, on the word for foot, for the big toe.
+    hwc: ["thumb", "tʌm"],  // The English word kept as it is; the Hawaii Pidgin Bible says 'da thumb a his right hand' and 'da big toe a his right foot'.
+    ja_oki: ["大指", "ʔuɸuʔiːbi"],  // Literally 'big finger' (うふ 'big' + いーび 'finger'); the same word also names the big toe.
+    lbe: ["хъумма кӏисса", "qumːa kʼisːa"],  // Literally 'big finger': кӏисса is 'finger', and хъумма is from the root of хъунмасса 'big'.
+    tab: ["аьхюну тӏуб", "æxynu tʼub"],  // Literally 'big finger': тӏуб is 'finger' and аьхю- is 'big'.
+    co: ["ditone", "diˈtɔne"],  // Built on ditu 'finger' with the augmentative -one, 'the big finger'; several villages say ditu grossu 'big finger' instead.
+    frp: ["pôjo", "poʒo"],  // The Arpitan counterpart of French pouce; Arpitan Wikipedia notes it is the finger with two phalanges instead of three.
+    enq: ["mange", "maŋɡe"],  // The same word also names the big toe; kingi kondenge 'hand finger' can also mean the thumb.
+    ami: ["salitataʼang", "salitataʔaŋ"],  // Built on tataʼang 'big', so 'the big one' among the fingers.
+    ctu: ["ñaʼkʼäb", "ɲaʔkʼɨɓ"],  // Literally 'mother of the hand' (ñaʼ 'mother' + kʼäb 'hand'); the big toe is likewise ñaʼok 'mother of the foot'.
+    bru: ["ngcứm atĩ", "ŋkɨm ʔati"],  // atĩ is 'hand'; the big toe is ngcứm ayững, with ayững 'foot'.
+    bdq: ["hơnglâu yŏng ti", "həŋləw jɔŋ tiː"],  // ti is 'hand'; the big toe is hơnglâu yŏng jơ̆ng, with jơ̆ng 'leg, foot'.
   },
 };

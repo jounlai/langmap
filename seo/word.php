@@ -450,11 +450,19 @@ function seo_render_word(array $data, array $word, string $ui): void
         $oneSpelling = count($g['spellings']) === 1;
         foreach ($g['spellings'] as $sp) {
             $b = $sp['reads'][0]['members'][0]['bcp47'];
-            echo '<div class="wcard-form' . ($oneSpelling ? '' : ' is-multi') . '">';
-            if (!$oneSpelling) {
-                echo '<p class="surface' . seo_script_class($sp['surface']) . '"'
+            // Several spellings: the fold first lists the spellings alone, and
+            // each opens to its readings. Asked 2026-10-28 on goosebumps, where
+            // 「10通りの綴り」 opened straight into every reading of every one.
+            if ($oneSpelling) {
+                echo '<div class="wcard-form">';
+            } else {
+                $nr = count($sp['reads']);
+                echo '<details class="wcard-form is-multi"><summary>'
+                   . '<span class="surface' . seo_script_class($sp['surface']) . '"'
                    . ($b !== '' ? ' lang="' . e($b) . '"' : '')
-                   . '>' . e($sp['surface']) . '</p>';
+                   . '>' . e($sp['surface']) . '</span>'
+                   . ($nr > 1 ? ' <span class="wcard-n">(' . $nr . ')</span>' : '')
+                   . '</summary>';
             }
             foreach ($sp['reads'] as $rd) {
                 // The spelling is printed once; each reading under it is just
@@ -469,7 +477,7 @@ function seo_render_word(array $data, array $word, string $ui): void
                 }
                 echo '</p></div>';
             }
-            echo '</div>';
+            echo $oneSpelling ? '</div>' : '</details>';
         }
         echo '</div></details></article>' . "\n";
     };

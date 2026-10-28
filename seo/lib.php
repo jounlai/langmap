@@ -3839,6 +3839,18 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .wcard-read { margin: .3rem 0 0; }
 .wcard-read + .wcard-read { margin-top: .4rem; }
 .wcard-form.is-multi .wcard-read { padding-inline-start: .55rem; border-inline-start: 2px solid var(--line); }
+/* Each spelling of a many-spelling card is its own fold: the card opens to a
+   list of spellings, and a spelling opens to its readings (2026-10-28). */
+.wcard-form.is-multi > summary { cursor: pointer; list-style: none; display: flex;
+  align-items: baseline; gap: .35rem; flex-wrap: wrap; }
+.wcard-form.is-multi > summary::-webkit-details-marker { display: none; }
+.wcard-form.is-multi > summary::after { content: '\203A'; color: var(--muted);
+  display: inline-block; transition: transform .15s; }
+.wcard-form.is-multi[open] > summary::after { transform: rotate(90deg); }
+.wcard-form.is-multi > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px;
+  border-radius: .25rem; }
+.wcard-form.is-multi > summary .wcard-n { font-size: .8rem; color: var(--muted); }
+.wcard-form.is-multi[open] > summary { margin-bottom: .2rem; }
 
 /* A card with 35 pronunciations in it unfolds to a few thousand pixels and
    leaves its grid neighbours staring at empty space. Capping the panel keeps
@@ -3859,7 +3871,8 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   /* display:block on the child is not enough — a closed <details> hides its
      content via the UA's own rule on the element, so the children are forced
      visible explicitly. */
-  details > div, details > .wgrid { display: block !important; visibility: visible !important; }
+  details > div, details > .wgrid, details.wcard-form > .wcard-read { display: block !important; visibility: visible !important; }
+  details.wcard-form > summary::after { content: none; }
   details:not([open]) > *:not(summary) { display: block !important; }
   .wcard-more[open] > div, .wcard-more > div { max-height: none; overflow: visible; }
   .wgrid { display: block; columns: 3 auto; column-gap: 1rem; }

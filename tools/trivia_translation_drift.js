@@ -55,6 +55,11 @@ const ALLOW = {
     'esperanto-zamenhof': { '140': 'ja says "140 years on"; arithmetic on the 1887 the English does give' },
     'guugu-yimithirr-cardinal': { '1998': 'ja dates the Haviland report the English cites without a year; Haviland, Ethos 26(1), 1998' },
     'pie-reconstruction': { '3000': 'ja says Hittite lay buried three thousand years; the English gives the decipherment date only' },
+    // 2026-10-29 new articles: number formats, same facts.
+    'oracle-bone-script.zh': { '50000': 'zh writes "about US$15,000" as 约合1.5万美元; the guard reads the tail 5万 as 50000' },
+    'oracle-bone-script.yue': { '50000': 'yue writes "about US$15,000" as 約合1.5萬美元; the guard reads the tail 5萬 as 50000' },
+    'capital-numerals-daxie.ko': { '1000': 'ko glosses 千 as 千(1000) where the English writes 千 (thousand)' },
+    'archi-million-verb-forms.ja': { '1500000': 'ja writes "1.5 million" as 150万' },
 };
 
 function load(file, pick) {

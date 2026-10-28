@@ -2827,6 +2827,418 @@ const TRIVIA_ARTICLES = [
         { text: 'Glottolog: Indo-European (indo1319)', url: 'https://glottolog.org/resource/languoid/id/indo1319' },
       ],
     },
+  {
+    "id": "archi-million-verb-forms",
+    "icon": "🏔️",
+    "tags": [
+      "northeast-caucasian",
+      "morphology",
+      "dagestan",
+      "verb-paradigm",
+      "agreement"
+    ],
+    "title": {
+      "en": "Archi — the verb with 1.5 million forms",
+      "ja": "150万通りに活用する動詞 — アルチ語"
+    },
+    "summary": {
+      "en": "Archi, a Lezgic language of about 1,200 speakers in a Dagestani mountain village, has a verb whose paradigm runs to 1,502,839 forms by Kibrik's count — tense, mood, four gender classes, case and an indirect-speech form all stacked together.",
+      "ja": "ダゲスタンの山村で約1200人が話すレズギ語派の言語アルチ語。その動詞はキブリクの計算で1,502,839通りの形を持つ。時制・法・4つの性クラス・格、そして間接話法用の形がすべて積み重なった結果だ。"
+    },
+    "body": {
+      "en": "<p>In the village of <strong>Archib</strong>, high in the mountains of southern Dagestan, roughly 1,200 people — 1,712 at the 2020 Russian census — speak <strong>Archi</strong>, a language of the Lezgic branch of the Northeast Caucasian family. In the 1998 <em>Handbook of Morphology</em>, the Russian linguist <strong>Aleksandr Kibrik</strong> calculated that a single Archi verb root can in principle produce <strong>1,502,839</strong> distinct forms (pp. 466–468).</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"focus\" data-code=\"aqc\" data-zoom=\"7\">📍 Show Archi on the map</button>\n  <button type=\"button\" class=\"trivia-action\" data-action=\"panto\" data-lat=\"42.18\" data-lng=\"46.73\" data-zoom=\"6\">🏔️ Fly to the Dagestan highlands</button>\n</div>\n\n<p>The figure is not an estimate; it is multiplied up stage by stage, and Greville Corbett reproduced Kibrik's arithmetic in a 2013 paper. Start with the tense/aspect/mood forms. Add the related gerunds, participles and masdars (verbal nouns) and the running total is already <strong>12,405</strong>, some periphrastic combinations included. Fold in the gender and number distinctions and the case-marked forms, and it rises to <strong>188,463</strong>.</p>\n\n<p>The last leap comes from one corner of the grammar. Archi has a <em>commentative</em>, a form used for indirect speech that can be built from every personal form and also from the <em>admirative</em> (the mood of surprise), and the commentative itself carries participles on top of it. Counted with case but without gender and number, the commentative series adds <strong>94,673</strong> forms, for a combined total of <strong>107,078</strong>. Once gender and number are stacked on as well, the commentative forms alone reach <strong>1,314,376</strong>. Added to the 188,463 already counted, the total is <strong>1,502,839</strong>.</p>\n\n<p>Several layers stack to get there. An agreeing Archi verb (about a third of the verbs in the Archi dictionary) marks its argument's <strong>gender class</strong> (one of four) and number. The noun itself carries no gender marking, so the class shows only on agreeing words: verbs, adjectives, pronouns, a few adverbs and one postposition. On top of that sit the tense/aspect/mood choices, the non-finite forms (participle, gerund, masdar), the evidential-like commentative, and the case endings that attach to the deverbal forms. Multiply the independent choices and the paradigm balloons.</p>\n\n<p>Two cautions keep the number honest. It is a combinatorial ceiling — what a single verb could produce in principle — and it counts periphrastic (multi-word) forms alongside single-word ones, so no speaker ever utters anything close to all of them. And Corbett's own point in 2013 was that the headline million is the <em>easy</em> part: the genuinely hard problem sits in the small part of the paradigm that expresses gender and number in their interaction with person, whose shape resists a tidy analysis even though it has only a handful of cells.</p>\n\n<p>Archi had no writing system of its own until the <strong>Surrey Morphology Group</strong> devised a Cyrillic orthography in 2006, based on the alphabet of neighbouring Avar. The same group built an online Archi–Russian–English dictionary with sound files, and in 2016 published <em>Archi: Complexities of Agreement in Cross-Theoretical Perspective</em>. The village that anchors all of this sits at about 2,000 metres, and the four-volume grammar that first recorded the verb — Kibrik and colleagues, 1977 — remains the foundation every later count is built on.</p>",
+      "ja": "<p>ダゲスタン南部の山あい、標高およそ2000メートルの<strong>アルチブ村</strong>で、およそ1200人（2020年のロシア国勢調査では1712人）が<strong>アルチ語</strong>を話している。北東コーカサス語族レズギ語派に属する言語だ。1998年刊行の『形態論ハンドブック（The Handbook of Morphology）』で、ロシアの言語学者<strong>アレクサンドル・キブリク</strong>は、アルチ語の動詞語根ひとつから原理上<strong>1,502,839通り</strong>の形が作れると計算してみせた（466〜468頁）。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"focus\" data-code=\"aqc\" data-zoom=\"7\">📍 地図でアルチ語を見る</button>\n  <button type=\"button\" class=\"trivia-action\" data-action=\"panto\" data-lat=\"42.18\" data-lng=\"46.73\" data-zoom=\"6\">🏔️ ダゲスタンの高地へ飛ぶ</button>\n</div>\n\n<p>この数字は当て推量ではなく、段階を踏んで掛け合わせて得られたものだ。グレヴィル・コーベットは2013年の論文でキブリクの計算を再現している。まず時制・相・法（テンス・アスペクト・ムード）の形がある。これに動名詞・分詞・マスダル（動詞的名詞）を加えると、合計はすでに<strong>12,405</strong>（一部、迂言的な複合形を含む）。さらに性・数の区別と格のついた形を織り込むと<strong>188,463</strong>に跳ね上がる。</p>\n\n<p>最後の飛躍は、文法のある一角から来る。アルチ語には<em>コメンタティブ（commentative）</em>という間接話法用の形があり、あらゆる人称形からも、驚きを表す<em>アドミラティブ（admirative、感嘆法）</em>からも作れる。しかもこのコメンタティブ自体に、さらに分詞が積み重なる。格は数えるが性・数は数えない段階で、コメンタティブの系列が加える形は<strong>94,673</strong>形、先の形と合わせた合計は<strong>107,078</strong>形になる。さらに性・数まで重ねると、コメンタティブの形だけで<strong>1,314,376</strong>形に達する。先の188,463を足して、総計<strong>1,502,839</strong>というわけだ。</p>\n\n<p>この数にたどり着くには、いくつもの層が積み重なる。一致するアルチ語の動詞（アルチ語辞書に載る動詞のおよそ3分の1）は、項の<strong>性クラス</strong>（4つのうちのひとつ）と数を標示する。名詞そのものには性の標識がないため、クラスが表に現れるのは一致する語、つまり動詞・形容詞・代名詞・一部の副詞・ひとつの後置詞の上だけだ。その上に、時制・相・法の選択、非定形（分詞・動名詞・マスダル）、証拠性に近いコメンタティブ、そして動詞派生形につく格語尾が乗る。独立した選択肢を掛け合わせれば、パラダイムはふくれあがる。</p>\n\n<p>ただし、この数字には二つの但し書きがいる。これはあくまで組み合わせ上の上限で、ひとつの動詞が原理上つくりうる形の数にすぎない。しかも一語からなる形だけでなく、迂言的な（複数語からなる）形も数に入れている。実際にこれほどの形を口にする話者はいない。そしてコーベットが2013年に強調したのは、見出しの「150万」はむしろ<em>やさしい</em>部分だということだった。本当に厄介なのは、性と数を人称との絡み合いのなかで表す、パラダイムの小さな一角だ。ごくわずかなセルしか持たないのに、その形はきれいな分析を拒み続けている。</p>\n\n<p>アルチ語には長らく独自の文字がなく、<strong>サリー形態論研究グループ（Surrey Morphology Group）</strong>が2006年に、隣接するアヴァル語の文字をもとにキリル文字の正書法を作った。同グループは音声付きのアルチ語・ロシア語・英語オンライン辞書を構築し、2016年には論集『Archi: Complexities of Agreement in Cross-Theoretical Perspective』を刊行している。すべての起点となった村は標高およそ2000メートルにあり、動詞をはじめて記録した全4巻の文法書（キブリクほか、1977年）は、のちのあらゆる計算がよりどころとする土台であり続けている。</p>"
+    },
+    "sources": [
+      {
+        "text": "Corbett, Greville G. (2013). \"The Unique Challenge of the Archi Paradigm.\" Proceedings of the 37th Annual Meeting of the Berkeley Linguistics Society: 52–67.",
+        "url": "https://escholarship.org/uc/item/3wz490mf"
+      },
+      {
+        "text": "Kibrik, Aleksandr E. (1998). \"Archi.\" In Andrew Spencer & Arnold M. Zwicky (eds.), The Handbook of Morphology, 455–476 (figure on pp. 466–468). Oxford: Blackwell."
+      },
+      {
+        "text": "Surrey Morphology Group — Archi language project (online Archi–Russian–English dictionary; 2006 Cyrillic orthography).",
+        "url": "https://www.smg.surrey.ac.uk/languages/archi/"
+      },
+      {
+        "text": "Bond, Oliver, Corbett, Greville G., Chumakina, Marina & Brown, Dunstan (eds.) (2016). Archi: Complexities of Agreement in Cross-Theoretical Perspective. Oxford University Press.",
+        "url": "https://global.oup.com/academic/product/archi-9780198747291"
+      }
+    ]
+  },
+  {
+    "id": "dyirbal-noun-classes",
+    "icon": "🔥",
+    "tags": [
+      "australia",
+      "noun-class",
+      "dixon",
+      "categorization",
+      "endangered"
+    ],
+    "title": {
+      "en": "Dyirbal — women, fire, and dangerous things",
+      "ja": "ディルバル語 — 女・火・危険なもの"
+    },
+    "summary": {
+      "en": "In Dyirbal, one of four noun-class markers precedes every noun. The class that groups women, fire, water and fighting — the one Lakoff named a book after — follows a real logic, not a random one.",
+      "ja": "ディルバル語では、四つの名詞クラス標示のひとつがすべての名詞に付く。女性・火・水・戦いを一括りにする——レイコフが著書の題に選んだ——クラスにも、でたらめではない論理がある。"
+    },
+    "body": {
+      "en": "<p>In the rainforest of northeast Queensland, every noun in <strong>Dyirbal</strong> takes one of four small words in front of it — <em>bayi</em>, <em>balan</em>, <em>balam</em> or <em>bala</em> — that sort the whole vocabulary into four classes. R. M. W. Dixon worked the system out in the field and published it in <em>The Dyirbal Language of North Queensland</em> (Cambridge University Press, 1972).</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"panto\" data-lat=\"-17.6\" data-lng=\"145.8\" data-zoom=\"6\">🌏 Fly to the Queensland rainforest</button>\n  <button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"fire\" data-code=\"dbl\">🔥 See Dyirbal \"fire\"</button>\n</div>\n\n<p>Class II, marked by <em>balan</em>, is the one people remember. Its members include women, water, fire and fighting, along with the sun and stars, most birds, fireflies, scorpions, the stinging caterpillar known in local English as the hairy mary grub, and a set of dangerous fish. George Lakoff took the list for the title of his 1987 book <em>Women, Fire, and Dangerous Things</em>, where he used it to argue that human categories are not tidy logical sets.</p>\n\n<p>The list reads as arbitrary. It is not. Dixon showed four plain domains sitting under it: <em>bayi</em> covers human males and most animals, <em>balan</em> covers human females together with water, fire and fighting, <em>balam</em> covers edible non-flesh food — fruit, tubers, honey — and <em>bala</em> is everything left over. By that core rule a woman is <em>balan</em> and a kangaroo is <em>bayi</em>, with no myth required.</p>\n\n<p>The surprising members arrive by a second rule: if a thing is tied by belief to one of the domains, it joins that domain's class even against the basic rule. Birds are animals and should be <em>bayi</em>, but Dyirbal tradition holds that birds are the spirits of dead human women, so most birds are <em>balan</em>. In the mythology the moon and the sun are a married couple — the moon is a man and goes in <em>bayi</em>, the sun is his wife and goes in <em>balan</em>. Fire, water and fighting need no story: in Dixon's account they are part of <em>balan</em>'s core. Lakoff went a step further and guessed that fire is there because it belongs with the sun, and that dangerous things followed fire. He flagged this as an outsider's speculation that Dyirbal speakers had never offered Dixon. The hairy mary grub earns its place the same way: its sting is said to feel like sunburn, which links it to the sun.</p>\n\n<p>A third rule splits a class when a subset carries an important property, usually harmfulness. Fish are animals and generally <em>bayi</em>, but the stonefish and the garfish are dangerous, so they move to <em>balan</em>. The danger is what the grammar marks.</p>\n\n<p>How much of the system the myths really explain is still argued. In a 2007 paper titled \"Women are not dangerous things\", Keith Plaster and Maria Polinsky reworked Dixon's data and argued that a few common semantic features, together with the sound shape of nouns and how often they occur, account for the class assignments without the elaborate chains of myth and association.</p>\n\n<p>The living evidence is thinning. The 2021 Australian census recorded 24 Dyirbal speakers. Annette Schmidt, recording younger speakers in the early 1980s, found the system coming apart in stages. Speakers of a middle generation kept the mythic links: the sun, the stars and birds stayed in <em>balan</em>. But they began to lose the links for fishing and for danger. In the \"Young Dyirbal\" of the youngest speakers only three classes were left: <em>bayi</em> for males and other animates, <em>balan</em> for females and <em>bala</em> for everything else. By then <em>balan</em>, the class that once held women, fire, water, birds, stars and stonefish, had shrunk to its centre: women, and nothing else.</p>",
+      "ja": "<p>オーストラリア北東部クイーンズランドの熱帯雨林で話される<strong>ディルバル語（Dyirbal）</strong>では、どの名詞も <em>bayi</em>・<em>balan</em>・<em>balam</em>・<em>bala</em> という四つの小さな語のいずれかを前に伴い、語彙全体が四つの名詞クラスに振り分けられる。この体系を現地調査でまとめ上げたのが言語学者 R・M・W・ディクソンで、『The Dyirbal Language of North Queensland』（ケンブリッジ大学出版局、1972年）として刊行した。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"panto\" data-lat=\"-17.6\" data-lng=\"145.8\" data-zoom=\"6\">🌏 クイーンズランドの熱帯雨林へ飛ぶ</button>\n  <button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"fire\" data-code=\"dbl\">🔥 ディルバル語の「火」</button>\n</div>\n\n<p>人々の記憶に残るのは、<em>balan</em> で標示される第2クラスだ。その成員には、女性・水・火・戦い、そして太陽と星、ほとんどの鳥、ホタル、サソリ、地元の英語で「hairy mary grub」と呼ばれる刺す毛虫、さらに危険な魚の一群が含まれる。ジョージ・レイコフはこのリストから1987年の著書『女・火・危険なもの（Women, Fire, and Dangerous Things）』の題名を取り、人間のカテゴリーがきれいな論理的集合ではないことの例として用いた。</p>\n\n<p>一覧は一見でたらめに映る。だが、そうではない。ディクソンは、その下に四つの素朴な領域が横たわっていることを示した。<em>bayi</em> は人間の男性と大半の動物、<em>balan</em> は人間の女性に加えて水・火・戦い、<em>balam</em> は果実・芋・蜂蜜といった肉以外の食べ物、そして <em>bala</em> は残りすべて、である。この基本規則だけで、女性は <em>balan</em>、カンガルーは <em>bayi</em> になる。神話は要らない。</p>\n\n<p>意外な成員は第二の規則で入ってくる。あるものが信仰によってどれかの領域と結びついていれば、基本規則に反してでもその領域のクラスに加わるのだ。鳥は動物だから本来 <em>bayi</em> のはずだが、ディルバルの伝承では鳥は死んだ女性の霊だとされるため、ほとんどの鳥は <em>balan</em> に入る。神話の中で月と太陽は夫婦であり、月は男なので <em>bayi</em>、太陽はその妻なので <em>balan</em>。火・水・戦いには物語は要らない。ディクソンの記述では、これらはもともと <em>balan</em> の中核に属している。レイコフはさらに一歩踏み込み、火がここにあるのは太陽と同じ領域に属するからで、危険なものは火に引き寄せられて加わったのだろうと推測した。ただし彼自身、これは部外者の憶測にすぎず、ディルバル語の話者がディクソンにそう語ったことはないと断っている。先の刺す毛虫も同じ理屈で居場所を得る。その刺し傷が日焼けのように感じられ、太陽と結びつくからだ。</p>\n\n<p>第三の規則は、ある部分集合が重要な性質——たいていは危険性——を帯びるとき、クラスを分ける。魚は動物でふつう <em>bayi</em> だが、オニダルマオコゼやダツは危険なので <em>balan</em> に移る。文法が標示しているのは、その危険さなのだ。</p>\n\n<p>この体系のどこまでを神話が本当に説明しているのかは、今も議論が続く。2007年、キース・プラスターとマリア・ポリンスキーは「女は危険なものではない（Women are not dangerous things）」と題した論文でディクソンのデータを組み直し、少数のありふれた意味特徴に、名詞の音の形と使用頻度を組み合わせれば、神話と連想の込み入った連鎖を持ち出さなくてもクラスの振り分けを説明できると論じた。</p>\n\n<p>生きた証拠は細りつつある。2021年のオーストラリア国勢調査が記録したディルバル語話者は24人。1980年代初めに若い世代を記録したアネット・シュミットは、体系が段階を追ってほどけていく様子を見いだした。中間の世代の話者は神話によるつながりを保っており、太陽や星や鳥は <em>balan</em> にとどまっていた。だが、漁や危険によるつながりは失われはじめていた。最も若い話者の「若者のディルバル語（Young Dyirbal）」では、クラスは三つしか残っていなかった。男性とその他の有生物の <em>bayi</em>、女性の <em>balan</em>、そして残りすべての <em>bala</em> である。かつて女性・火・水・鳥・星・オニダルマオコゼを抱えていた <em>balan</em> は、このときには中心だけに縮んでいた。女性、ただそれだけに。</p>"
+    },
+    "sources": [
+      {
+        "text": "Dixon, R. M. W. (1972). The Dyirbal Language of North Queensland. Cambridge University Press.",
+        "url": "https://www.cambridge.org/core/books/dyirbal-language-of-north-queensland/"
+      },
+      {
+        "text": "Lakoff, George (1987). Women, Fire, and Dangerous Things: What Categories Reveal About the Mind. University of Chicago Press (see pp. 92–96 on the Dyirbal classes).",
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/W/bo3684838.html"
+      },
+      {
+        "text": "Plaster, Keith; Polinsky, Maria (2007). \"Women are not dangerous things: Gender and categorization.\" Harvard Working Papers in Linguistics.",
+        "url": "https://dash.harvard.edu/bitstream/handle/1/3209556/Women%20are%20not%20dangerous%20things%20-%20Pol,%20M.pdf"
+      },
+      {
+        "text": "Schmidt, Annette (1985). Young People's Dyirbal: An Example of Language Death from Australia. Cambridge University Press. (2021 speaker figure: Australian Bureau of Statistics 2021 Census.)",
+        "url": "https://glottolog.org/resource/languoid/id/dyir1250"
+      }
+    ]
+  },
+  {
+    "id": "nushu-women-script",
+    "icon": "🀄",
+    "tags": [
+      "syllabary",
+      "china",
+      "women",
+      "endangered",
+      "writing-system"
+    ],
+    "title": {
+      "en": "Nüshu — the script only women read",
+      "ja": "女だけが読んだ文字、女書"
+    },
+    "summary": {
+      "en": "In one county of rural Hunan, women wrote their own syllabic script for a local Chinese dialect. Its last fluent writer died in 2004, and most of what women had written in it had already been burned or buried with them.",
+      "ja": "湖南省の一つの県で、女性たちは地元の中国語方言を書くための独自の音節文字を使っていた。最後の書き手は2004年に世を去り、女性たちがこの文字で書いたものの大半は、すでに焼かれるか、持ち主とともに埋葬されていた。"
+    },
+    "body": {
+      "en": "<p>In <strong>Jiangyong County</strong> in southern Hunan, along the Xiao and Yongming rivers, women wrote a script that the men around them did not read. They called it <strong>Nüshu</strong>, \"women's writing.\" It recorded <em>Xiangnan Tuhua</em>, the local Chinese dialect spoken in the district, in a set of about <strong>600 to 700 characters</strong>, each standing for a syllable. Roughly 130 phonetic values cover the language, and a single Nüshu character is used on average for about ten words that sound the same.</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"panto\" data-lat=\"25.27\" data-lng=\"111.34\" data-zoom=\"7\">🗺️ Fly to Jiangyong</button>\n</div>\n\n<p>About half of the characters are Chinese characters, reshaped. In around a hundred of them the square frame of a Chinese character was skewed into a <strong>rhomboid</strong>, sometimes mirrored, with strokes cut down to four basic kinds — dots, horizontals, slanting lines and arcs. Fine, threadlike strokes counted as good penmanship. Unlike the logographic Chinese writing the women could not use, Nüshu is phonetic: it writes the sound of the dialect, not the meaning. It was brushed or embroidered onto fans, handkerchiefs and cloth booklets, written in vertical columns.</p>\n\n<p>Girls learned it from each other, not in school — formal schooling was closed to them. \"Upstairs girls\" picked it up while embroidering and singing together, and the bonds that carried it were female ones: sworn sisters (<em>jiebai</em>) and <em>laotong</em>, paired sworn companions matched for life. The best-known use was the <strong><em>sanzhaoshu</em>, the \"third-day missive\"</strong> — a cloth-bound booklet delivered to a bride on the third day after her wedding, carrying songs of consolation from her mother and sworn sisters, and left mostly blank so she could write her own sorrows into it.</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"mother\">👩 See \"mother\" across languages</button>\n</div>\n\n<p>Almost none of this survives from before the twentieth century. By custom, a woman's Nüshu writings were burned or buried with her, so she could read them in the next world; the humid climate destroyed the rest. The first clear outside reference dates only to <strong>1931</strong>, and most manuscripts that exist were written in the 1980s. During the <strong>Cultural Revolution (1966–1976)</strong> the script was treated as occult and suppressed, and texts were destroyed.</p>\n\n<p>It was pulled back into view in the 1980s. <strong>Zhou Shuoyi</strong>, a worker at the Jiangyong county cultural centre, had learned the script in the 1950s and compiled a dictionary of its characters. In <strong>1982</strong> the Wuhan University scholar <strong>Gong Zhebing</strong> brought Nüshu to academic attention; sceptics doubted a writing system used only by the women of one county could be real, and his case was not widely accepted in Beijing until 1985. A museum opened on Puwei Island in Jiangyong in 2002, and China listed Nüshu as national intangible cultural heritage in 2006. <strong>Yang Huanyi</strong>, held to be the last woman who had learned the script in the old way, died on <strong>20 September 2004</strong>, aged 98.</p>\n\n<p>In June 2017, Unicode 10.0 gave Nüshu a block of its own, encoding <strong>396 characters</strong>; a Nüshu iteration mark was added separately, in the Ideographic Symbols and Punctuation block. The women who grew up with it are gone, and the manuscripts that reached scholars are few, so the standardised set now taught to designated \"transmitters\" and fixed in Unicode is a reconstruction drawn from a small, late corpus — how closely it matches what the sworn sisters actually wrote is a question the burned booklets took with them.</p>",
+      "ja": "<p>湖南省南部の<strong>江永県</strong>、瀟水と永明河の流れる一帯で、女性たちは周囲の男たちには読めない文字を書いていた。彼女たちはそれを<strong>女書（ニュウシュウ）</strong>、「女の文字」と呼んだ。書き記されたのは地元で話される中国語方言<em>湘南土話</em>で、使われる文字は<strong>およそ600〜700字</strong>、その一つ一つが音節を表す。方言全体はおよそ130の音価でおおわれ、一つの女書の字は、平均して同じ音の約10語に用いられた。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"panto\" data-lat=\"25.27\" data-lng=\"111.34\" data-zoom=\"7\">🗺️ 江永県へ飛ぶ</button>\n</div>\n\n<p>文字のおよそ半分は、漢字を作りかえたものだ。そのうち百字ほどは、漢字の正方形の枠を<strong>菱形</strong>にゆがめ、ときに左右を反転させ、画も点・横棒・斜め線・弧という四種類ほどに切り詰めてある。糸のように細い線が、美しい筆跡とされた。女性たちが使えなかった表語文字である漢字とは違い、女書は表音文字である。意味ではなく、方言の音を書く。扇や手ぬぐい、布綴じの冊子に、筆で書かれ、あるいは刺繍され、縦の列に連ねられた。</p>\n\n<p>少女たちはこれを学校ではなく互いから学んだ。正式な教育は彼女たちに閉ざされていたからだ。「楼上の娘」たちは刺繍をし歌を歌いながらこれを覚え、その伝承を担ったのは女どうしの絆だった──義姉妹（<em>結拝</em>）や、一生の相手として結ばれた盟友<em>老同</em>である。もっともよく知られた用途が<strong><em>三朝書</em>、「三日目の便り」</strong>だ。婚礼から三日目に花嫁へ届けられる布綴じの冊子で、母や義姉妹からの慰めの歌がしたためられ、多くの頁はあえて空白のまま残された──花嫁が自らの悲しみを書き込めるように。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"mother\">👩 各言語の「母」を見る</button>\n</div>\n\n<p>20世紀より前のものは、ほとんど残っていない。しきたりでは、女性の女書は本人とともに焼かれるか埋められた。あの世でも読めるようにである。残りは湿潤な気候が朽ちさせた。外部からの明確な言及は<strong>1931年</strong>までしかさかのぼれず、現存する写本の多くは1980年代に書かれたものだ。<strong>文化大革命（1966〜1976年）</strong>の間、この文字は迷信・妖術とみなされて抑圧され、文献は破棄された。</p>\n\n<p>再び表舞台に戻されたのは1980年代である。江永県文化館の職員<strong>周碩沂</strong>は1950年代にこの文字を学んでおり、その字を集めた字典を編んだ。<strong>1982年</strong>、武漢大学の研究者<strong>宮哲兵</strong>が女書を学界に紹介した。一つの県の女性だけが使う文字が本物の文字体系でありうるのかと懐疑的な声もあり、彼の主張が北京で広く受け入れられたのは1985年のことだった。2002年には江永の浦尾島に博物館が開かれ、2006年に中国は女書を国家級非物質文化遺産に指定した。古いやり方でこの文字を習得した最後の女性とされる<strong>陽煥宜</strong>は、<strong>2004年9月20日</strong>、98歳で世を去った。</p>\n\n<p>2017年6月、Unicode 10.0は女書に独立したブロックを与え、<strong>396字</strong>を収めた。女書の反復記号はこれとは別に、表意文字記号及び句読点（Ideographic Symbols and Punctuation）ブロックに追加されている。これとともに育った女性たちはもういない。研究者のもとに届いた写本も少ない。したがって、いま「伝承者」に教えられ、Unicodeに固定された標準字形は、小さく、しかも時代の新しい資料から組み立てられた再構成である──それが義姉妹たちの実際に書いたものとどれほど一致するのかは、焼かれた冊子がそのまま持ち去った問いなのだ。</p>"
+    },
+    "sources": [
+      {
+        "text": "Nüshu (Wikipedia), character count, structure, Xiangnan Tuhua, sanzhaoshu, Cultural Revolution, Unicode 10.0 (396 syllabograms, U+1B170–U+1B2FF).",
+        "url": "https://en.wikipedia.org/wiki/N%C3%BCshu"
+      },
+      {
+        "text": "Yang Huanyi (Wikipedia), last proficient writer, died 20 September 2004, aged 98.",
+        "url": "https://en.wikipedia.org/wiki/Yang_Huanyi"
+      },
+      {
+        "text": "China National Body (2007), \"Reply to WG2N3322 – UC Berkeley's comments on Nüshu\" (ISO/IEC JTC1/SC2/WG2 N3337).",
+        "url": "https://www.unicode.org/wg2/docs/n3337.pdf"
+      },
+      {
+        "text": "Liying Zhang, The Graduate Institute Geneva (2025), \"Nüshu: the Resistance of Chinese Peasant Women Against Patriarchy?\" — Gong Zhebing's 1982 attention, sworn sisters and laotong.",
+        "url": "https://www.graduateinstitute.ch/communications/news/nushu-resistance-chinese-peasant-women-against-patriarchy"
+      }
+    ]
+  },
+  {
+    "id": "kuskoy-whistled-turkish",
+    "icon": "🐦",
+    "tags": [
+      "whistled",
+      "turkish",
+      "unesco",
+      "neuroscience",
+      "register"
+    ],
+    "title": {
+      "en": "Kuşköy bird language — a whistled Turkish of the Black Sea",
+      "ja": "クシュキョイの鳥言語 — 黒海に響く口笛のトルコ語"
+    },
+    "summary": {
+      "en": "In a Black Sea village, Turkish is held across steep valleys by whistling. UNESCO put it on the Urgent Safeguarding list in 2017, and a 2015 study found it engages both brain hemispheres where spoken Turkish favours the left.",
+      "ja": "黒海沿岸の村では、急峻な谷をはさんで口笛でトルコ語の会話が交わされる。2017年にユネスコの緊急保護リストに登録され、2015年の研究では、話すトルコ語が左脳優位なのに対し、口笛版は左右の脳をほぼ均等に使うことが示された。"
+    },
+    "body": {
+      "en": "<p>In <strong>Kuşköy</strong> — \"bird village\" — in Giresun Province on Turkey's Black Sea coast, people hold conversations by whistling. The local name is <em>kuş dili</em>, \"bird language\": a whistled register of everyday Turkish used across the steep Pontic valleys, where a neighbour on the opposite slope is within earshot but an hour's walk away. A whistled call carries far better than a shout — several kilometres in the right terrain.</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"panto\" data-lat=\"40.7\" data-lng=\"38.4\" data-zoom=\"6\">🐦 Fly to the Black Sea coast</button>\n</div>\n\n<p>It is not a code or a fixed set of signal-calls. <em>Kuş dili</em> renders the full Turkish vocabulary and grammar: any sentence a person can speak, they can in principle whistle. The compression is severe. Turkish has eight vowels and twenty-one consonants, while a whistle offers only pitch, loudness, and the way the pitch moves. In Julien Meyer's 2007 acoustic study, vowels map onto steady whistle frequencies and consonants onto <em>modulations</em> — rises, falls and brief interruptions of the pitch as the tongue and jaw move. The voice's rich spectrum is reduced to a single narrow band of whistled frequency, and in a non-tonal language like Turkish that pitch follows each vowel's timbre, the formant cues that tell vowels apart in speech.</p>\n\n<p>The comparison with <strong>Silbo Gomero</strong>, the whistled Spanish of La Gomera, is close but not exact. Both take a non-tonal spoken language and recast its vowels and consonants as pitched gestures — there is no lexical tone to copy, so the whistle encodes timbre instead. Their official fates differ. UNESCO placed Silbo on its Representative List in 2009, and it is a compulsory school subject on La Gomera. Whistled Turkish was inscribed in 2017 (element No. 00658) on the List of Intangible Cultural Heritage in Need of Urgent Safeguarding — the list for traditions judged at risk.</p>\n\n<p>The risk is real. Kuşköy has held an annual whistling festival since 1997, where competitors whistle instructions in front of a panel of judges, and the local district began teaching <em>kuş dili</em> in primary school in 2014. But estimates put current whistlers at around 10,000, down from a tradition once spread across the provinces of Trabzon, Rize, Ordu, Artvin and Bayburt. UNESCO names mobile phones as one of the key threats: they remove the reason to learn the whistle, much as emigration, roads and telephones did on La Gomera from the 1950s on.</p>\n\n<p>The two whistles have also handed neuroscience apparently opposite results. In 2005 Manuel Carreiras's team reported in <em>Nature</em> that trained <em>silbadores</em> process Silbo in the same left-hemisphere language areas as spoken Spanish. In 2015 Onur Güntürkün, Monika Güntürkün and Constanze Hahn tested 31 Kuşköy residents with a dichotic-listening task — different syllables (pa, ba, ta, da, ka, ga) played into the two ears at once. For spoken Turkish, listeners reported the right-ear syllable about twice as often as the left-ear one (63.9 against 29.9 identifications on average), the signature of left-hemisphere dominance. For the same syllables whistled, that advantage vanished: the two hemispheres contributed almost equally.</p>\n\n<p>Güntürkün's explanation is that whistling pushes a language's information into pitch and melody, which the right hemisphere handles, so the brain spreads the load. Why whistled Turkish and Silbo point in different directions is unsettled: the studies used different methods — dichotic syllables versus fMRI during comprehension — and different tasks, and the 2015 group planned EEG studies to look more closely at the brain processes. What a village of whistlers has shown so far is that the physical shape of a signal, not only its meaning, helps decide which half of the brain does the work.</p>",
+      "ja": "<p>トルコ黒海沿岸、ギレスン県の<strong>クシュキョイ</strong>（「鳥の村」の意）では、人々が口笛で会話を交わす。土地の呼び名は <em>kuş dili</em>（クシュ・ディリ、「鳥言語」）。急峻なポントス山脈の谷をはさんで使われる、日常トルコ語の口笛版だ。向かいの斜面にいる隣人は声は届く距離にいても、歩けば一時間かかる。口笛は叫び声よりはるかに遠くまで届き、地形がよければ数キロメートル先まで通る。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"panto\" data-lat=\"40.7\" data-lng=\"38.4\" data-zoom=\"6\">🐦 黒海沿岸へ飛ぶ</button>\n</div>\n\n<p>これは暗号でも、決まった合図の寄せ集めでもない。<em>kuş dili</em> はトルコ語の語彙と文法をまるごと写し取る。口に出せる文は、原理的にはすべて口笛で吹ける。ただし圧縮は激しい。トルコ語には母音が8つ、子音が21あるが、口笛にあるのは高さ（ピッチ）と大きさ、そしてピッチの動かし方だけだ。ジュリアン・メイエの2007年の音響研究によれば、母音は一定の口笛周波数に、子音は<em>変調</em>——舌とあごの動きにともなうピッチの上昇・下降・短い途切れ——に対応づけられる。声の豊かなスペクトルは、口笛ではひとすじの狭い周波数帯に絞り込まれる。トルコ語のように声調を持たない言語では、その高さが各母音の音色、つまり話し言葉で母音どうしを聞き分ける手がかりとなるフォルマントを追いかける。</p>\n\n<p>ラ・ゴメラ島の口笛スペイン語<strong>シルボ・ゴメロ</strong>との比較は、近いが完全には重ならない。どちらも声調を持たない言語の母音と子音を、ピッチの身ぶりに置き換える。写し取るべき語の声調がないため、口笛は代わりに音色を符号化する。だが制度上の扱いは異なる。シルボは2009年にユネスコの代表リストに登録され、ラ・ゴメラ島では学校の必修科目になっている。一方、口笛トルコ語が登録されたのは2017年、しかも「緊急に保護する必要がある無形文化遺産のリスト」（登録番号00658）——危機にあると判断された伝統のためのリストだった。</p>\n\n<p>危機は現実のものだ。クシュキョイでは1997年から毎年口笛の祭りが開かれ、出場者は審査員の前で指示を口笛で吹いて競う。地元の郡は2014年から小学校で <em>kuş dili</em> を教え始めた。それでも現在の口笛話者は約1万人と推定され、かつてトラブゾン、リゼ、オルドゥ、アルトヴィン、バイブルトの各県に広がっていた伝統から大きく縮んだ。ユネスコは携帯電話を主要な脅威の一つに挙げている。携帯電話があれば、口笛を覚える理由はなくなる。ラ・ゴメラ島で1950年代以降、移民の流出や道路、電話の普及が同じ役割を果たしたように。</p>\n\n<p>この二つの口笛は、神経科学には一見正反対の結果をもたらしてもいる。2005年、マヌエル・カレイラスらは『Nature』で、熟練した<em>シルバドール</em>がシルボを、話すスペイン語と同じ左脳の言語野で処理すると報告した。2015年、オヌル・ギュントゥルキュン、モニカ・ギュントゥルキュン、コンスタンツェ・ハーンは、クシュキョイの住民31人を両耳分離聴取課題で調べた——左右の耳に別々の音節（pa, ba, ta, da, ka, ga）を同時に流す方法だ。話すトルコ語では、聞き手は右耳の音節を左耳の約2倍の頻度で答えた（平均の同定回数は右耳63.9回、左耳29.9回）。左脳優位のしるしである。ところが同じ音節を口笛にすると、その優位は消え、左右の脳がほぼ均等に働いた。</p>\n\n<p>ギュントゥルキュンの説明はこうだ。口笛は言語の情報をピッチと旋律に押し込む。それを担うのは右脳なので、脳は負荷を分散させる。口笛トルコ語とシルボがなぜ逆向きの結果を指すのかは、まだ決着していない。両研究は手法（両耳分離聴取と、理解中のfMRI）も課題も異なり、2015年のチームは、脳の処理過程をさらに詳しく調べるため、EEGを用いた研究を計画していた。口笛の村がこれまでに示したのは、信号の意味だけでなくその物理的な形もまた、脳のどちら側が仕事をするかの決定に関わっている、ということである。</p>"
+    },
+    "sources": [
+      {
+        "text": "UNESCO: Whistled language (Türkiye), inscribed 2017 on the List of Intangible Cultural Heritage in Need of Urgent Safeguarding, element no. 00658.",
+        "url": "https://ich.unesco.org/en/USL/whistled-language-00658"
+      },
+      {
+        "text": "Meyer, Julien (2007). \"Whistled Turkish: Statistical Analysis of Vowel Distribution and Consonant Modulations.\" Proceedings of the 16th International Congress of Phonetic Sciences (ICPhS XVI), Saarbrücken.",
+        "url": "https://icphs2007.de/conference/Papers/1286/index.html"
+      },
+      {
+        "text": "Güntürkün, Onur; Güntürkün, Monika; Hahn, Constanze (2015). \"Whistled Turkish alters language asymmetries.\" Current Biology 25(16): R706–R708.",
+        "url": "https://doi.org/10.1016/j.cub.2015.06.067"
+      },
+      {
+        "text": "Carreiras, Manuel; Lopez, Jorge; Rivero, Francisco; Corina, David (2005). \"Linguistic perception: Neural processing of a whistled language.\" Nature 433(7021): 31–32.",
+        "url": "https://doi.org/10.1038/433031a"
+      }
+    ]
+  },
+  {
+    "id": "ogham-tree-alphabet",
+    "icon": "🪨",
+    "tags": [
+      "writing",
+      "celtic",
+      "ireland",
+      "primitive-irish",
+      "ancient"
+    ],
+    "title": {
+      "en": "Ogham — the alphabet carved up the edge of a stone",
+      "ja": "石の角に刻む文字、オガム"
+    },
+    "summary": {
+      "en": "Ogham is an early-medieval script of strokes cut across the squared edge of a standing stone, read from the bottom up. Its roughly 380 surviving orthodox inscriptions record Primitive Irish names and lineages from the 4th to 6th centuries.",
+      "ja": "直立した石の角に刻まれた線を下から上へ読む、中世初期の文字。現存する約380の正統碑文は、4〜6世紀の原アイルランド語の人名と血統を今に伝える。"
+    },
+    "body": {
+      "en": "<p>Most alphabets want a flat surface. <strong>Ogham</strong> wanted an edge. The letters are groups of one to five straight strokes cut to one side of a line, to the other side, or straight across it — and on an orthodox inscription that line is the squared vertical <strong>arris</strong> (the Irish <em>droim</em>, \"ridge\") of a standing stone. You read from the bottom of the left edge upward, over the top, and down the right for a long text. Damian McManus's 1991 catalogue counts <strong>382</strong> such monuments, carved in <strong>Primitive Irish</strong> between about the 4th and 6th centuries AD.</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"panto\" data-lat=\"52.14\" data-lng=\"-10.27\" data-zoom=\"7\" data-label=\"Corcu Duibne\">🪨 Fly to the Dingle Peninsula</button>\n</div>\n\n<p>The system has <strong>20 letters in four groups of five</strong>, each group (an <em>aicme</em>) named after its first letter: the B-group (<em>aicme beithe</em>), H-group, M-group and A-group. One to five strokes on one side of the stemline give b, l, v/f, s, n; the same strokes on the other side give h, d, t, c, q; strokes cut diagonally across give m, g, ng, z, r; and notches on the line itself are the vowels a, o, u, e, i. The alphabet's own name, <em>beith-luis-nin</em>, is simply its first few letters strung together, the way we say \"ABC\". Five extra signs, the <em>forfeda</em>, were added later, mostly on the page rather than the stone, for 25 in all.</p>\n\n<p>The \"tree alphabet\" tag comes from the names of the letters — <em>beith</em> birch, <em>dair</em> oak, <em>sail</em> willow, <em>coll</em> hazel — glossed as trees and shrubs in the medieval scholars' primer, the <strong>Auraicept na nÉces</strong>, and illustrated on folio 170r of the Book of Ballymote (1390). That botanical layer is a later teaching device; the stone carvers left no trees. Medieval tradition credited the invention to <strong>Ogma</strong>, a god whom the Ogam Tract describes as skilled in speech and poetry, or in a rival story to the Scythian king Fenius Farsa after the fall of Babel.</p>\n\n<p>What the orthodox stones actually record is names and descent. A memorial gives the dead man's name in the genitive, then <em>MAQI</em> / <em>MAQQI</em> (\"of the son\"), then the father; <em>AVI</em> is \"of the grandson\" and <em>MUCOI</em> \"of the sept.\" The Burnham East stone in Co. Kerry (CIIC 175) reads <em>MAQQI-ERCCIA MAQQI MUCOI DOVINIA</em> — (the stone) of Maqqi-Erccia, son of the tribe of Dovinia. The distribution is lopsided: more than 300 stones in Ireland, <strong>121 in Kerry and 81 in Cork</strong> alone — those two Munster counties hold about 60% of the Irish stones — thinning out in an arc across the Irish Sea to some 40 in Wales and about 30 in Scotland.</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"name\">📛 See \"name\" across languages</button>\n</div>\n\n<p>Because the inscriptions are short, repetitive, and dated, they are a controlled sample of a language caught just before it changed shape. Primitive Irish still wrote out the full endings that <strong>Old Irish</strong> would swallow between about 500 AD and the mid-6th century, when unstressed final and then internal syllables fell away. The genitive of \"poet\" is <em>velitas</em> on stone and <em>filed</em> in Old Irish; the people called <em>Corcu Duibne</em> appear as <em>Dovinias</em>. A 5th-century Leinster king known in later annals as Mac Caírthinn Uí Enechglaiss stands on his stone as <em>MAQI CAIRATINI AVI INEQAGLAS</em> — four syllables in each name, which Old Irish cut to two in Caírthinn and three in Enechglaiss.</p>\n\n<p>The change is visible mid-corpus. The Ratass church stone in Kerry, placed in the 6th century, reads <em>ANM SILLANN MAQ VATTILLOGG</em> — \"the name of Sílán son of Fáithloga\" — where the old <em>MAQI</em> has already lost its vowel to <em>MAQ</em> and the sentence opens with <em>anm</em>, an Irish word, not a bare genitive. The Ogham in 3D project is laser-scanning the surviving stones one by one, and new ones still turn up in field walls and churchyards, so the count of 382 is a floor, not a total.</p>",
+      "ja": "<p>たいていの文字は平らな面を欲しがる。<strong>オガム</strong>が欲しがったのは角だった。文字は1〜5本の直線の組で、一本の基準線の片側、反対側、あるいは線を横切るように刻まれる──そして正統碑文では、その線とは直立した石の垂直な稜（アイルランド語で <em>droim</em>「背」、英語で arris）そのものだ。長文なら左の角の下から上へ、天辺を越え、右の角を下りながら読む。ダミアン・マクマナスの1991年の目録は、こうした石碑を<strong>382基</strong>数える。いずれも紀元後およそ4〜6世紀の<strong>原アイルランド語（Primitive Irish）</strong>で刻まれている。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"panto\" data-lat=\"52.14\" data-lng=\"-10.27\" data-zoom=\"7\" data-label=\"コルク・ディブネ\">🪨 ディングル半島へ飛ぶ</button>\n</div>\n\n<p>体系は<strong>5文字ずつ4群、計20文字</strong>からなり、各群（<em>aicme</em>）は最初の文字にちなんで呼ばれる──B群（<em>aicme beithe</em>）、H群、M群、A群。基準線の片側に1〜5本で b, l, v/f, s, n、反対側で h, d, t, c, q、線を斜めに横切って m, g, ng, z, r、線上の刻みが母音 a, o, u, e, i。文字体系の名 <em>beith-luis-nin</em> 自体、冒頭の数文字を並べただけで、「ABC」と呼ぶのと同じ発想だ。のちに補助記号 <em>forfeda</em> が5つ加わり（多くは石ではなく写本の上で）、総数25となった。</p>\n\n<p>「樹木文字（tree alphabet）」という呼び名は、文字の名に由来する──<em>beith</em> カバ、<em>dair</em> オーク、<em>sail</em> ヤナギ、<em>coll</em> ハシバミ。これらは中世の学僧向け入門書<strong>『アウラケプト・ナ・ネーケス』（Auraicept na nÉces）</strong>で樹木や灌木として注解され、『バリモート書』（1390年）の葉170表に図解された。この植物の層は後世の学習装置であって、石を刻んだ者は樹木を残していない。中世の伝承は発明を、オガム論が弁舌と詩に長けた者として描く神<strong>オグマ</strong>に、あるいは別伝ではバベルの塔崩壊後のスキタイ王フェニウス・ファルサに帰した。</p>\n\n<p>正統碑文が実際に記録するのは、名と血統である。記念碑は故人の名を属格で掲げ、続いて <em>MAQI</em> / <em>MAQQI</em>（「〜の息子の」）、そして父の名を置く。<em>AVI</em> は「〜の孫の」、<em>MUCOI</em> は「〜の氏族の」だ。ケリー州のバーナム・イースト石碑（CIIC 175）には <em>MAQQI-ERCCIA MAQQI MUCOI DOVINIA</em> と刻まれる。ドヴィニア族の子マッキ・エルキアの（石）、という意味だ。分布は大きく偏る。アイルランドに300基超、うち<strong>ケリー州だけで121基、コーク州で81基</strong>──マンスター地方のこの2州で、アイルランドの石の約6割を占める──そこからアイリッシュ海を越える弧を描いて細り、ウェールズに約40基、スコットランドに約30基が点在する。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"name\">📛 各言語の「名前」を見る</button>\n</div>\n\n<p>碑文は短く、定型的で、年代もおおむね定まる。だからこそ、姿を変える直前の言語をとらえた「管理された標本」になる。原アイルランド語は、<strong>古アイルランド語</strong>が紀元500年頃から6世紀半ばにかけて飲み込んでしまう語尾をまだ書き切っていた──この間に、強勢のない末尾の音節が、続いて語中の音節が脱落する。「詩人」の属格は石の上では <em>velitas</em>、古アイルランド語では <em>filed</em>。<em>Corcu Duibne</em> と呼ばれた民は <em>Dovinias</em> として現れる。後代の年代記で Mac Caírthinn Uí Enechglaiss として知られる5世紀レンスターの王は、その石の上では <em>MAQI CAIRATINI AVI INEQAGLAS</em>──どちらの名も4音節だが、古アイルランド語では Caírthinn が2音節、Enechglaiss が3音節に縮んだ。</p>\n\n<p>その変化は、碑文群の途中で目に見える。6世紀に置かれたケリーのラタス教会石碑は <em>ANM SILLANN MAQ VATTILLOGG</em>──「ファートロガの子シーランの名」──と読め、古い <em>MAQI</em> はすでに母音を失って <em>MAQ</em> となり、文は裸の属格ではなくアイルランド語 <em>anm</em>（名）で始まっている。Ogham in 3D プロジェクトは現存する石碑を一基ずつレーザースキャンし、畑の石垣や教会墓地から新たな石が今も見つかる。382という数は到達点ではなく、下限である。</p>"
+    },
+    "sources": [
+      {
+        "text": "McManus, Damian (1991). A Guide to Ogam. Maynooth Monographs 4. An Sagart, Maynooth.",
+        "url": ""
+      },
+      {
+        "text": "Wikipedia: Ogham (letter count, aicmí, Auraicept na nÉces, reading order, corpus size)",
+        "url": "https://en.wikipedia.org/wiki/Ogham"
+      },
+      {
+        "text": "Wikipedia: Primitive Irish (dates, inscription counts, MAQI/AVI/MUCOI, sound changes, example names)",
+        "url": "https://en.wikipedia.org/wiki/Primitive_Irish"
+      },
+      {
+        "text": "Ogham in 3D, Dublin Institute for Advanced Studies — searchable database and 3D models of ogham stones",
+        "url": "https://ogham.celt.dias.ie/"
+      }
+    ]
+  },
+  {
+    "id": "rongorongo-easter-island",
+    "icon": "🗿",
+    "tags": [
+      "undeciphered",
+      "rapa-nui",
+      "easter-island",
+      "script",
+      "boustrophedon"
+    ],
+    "title": {
+      "en": "Rongorongo — the talking boards of Rapa Nui no one can read",
+      "ja": "読み手を失ったラパ・ヌイの『語る板』、ロンゴロンゴ"
+    },
+    "summary": {
+      "en": "Easter Island left about two dozen wooden objects carved with a glyph script. We know how the lines were read — the reader flipped the board upside-down between them — but not what a single sentence says.",
+      "ja": "イースター島は、文字らしき図像を刻んだ木製品を20数点だけ残した。行の読み方──板を一行ごとに上下逆さにひっくり返す──は分かっているのに、一文の意味すら読めない。"
+    },
+    "body": {
+      "en": "<p>On <strong>Rapa Nui (Easter Island)</strong>, a glyph script called <strong>rongorongo</strong> was carved into wood — driftwood, Pacific rosewood, and even imported South African yellowwood and European ash — in rows of figures each about a centimetre tall: birds, fish, crescents, plants, and seated human forms. About <strong>two dozen</strong> inscribed objects survive, carrying 26 texts in the standard count, and only half are in good condition and authentic beyond doubt. None are still on the island. Most are flat tablets, but the set also includes a chief's staff, two <em>reimiro</em> breast ornaments, a birdman (<em>tangata manu</em>) figurine, and a snuffbox cut down from an older tablet. The whole corpus runs to roughly <strong>15,000 glyphs</strong>.</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"focus\" data-code=\"rap\" data-zoom=\"6\">📍 Show Rapa Nui on the map</button>\n  <button type=\"button\" class=\"trivia-action\" data-action=\"panto\" data-lat=\"-27.12\" data-lng=\"-109.36\" data-zoom=\"4\">🗿 Fly to Easter Island</button>\n</div>\n\n<p>The reading direction is settled even though the meaning is not. Rongorongo runs in <strong>reverse boustrophedon</strong>: you start at the bottom-left corner, read the line left to right, and then <strong>rotate the whole tablet 180°</strong> to read the next line, which was carved upside-down relative to the one before. Every second line is inverted, so a reader worked through the board turning it end over end, like winding a wheel.</p>\n\n<p>No European reported the script before the French lay brother <strong>Eugène Eyraud</strong> saw tablets in <strong>1864</strong>. In 1868 Bishop <strong>Tepano Jaussen</strong> received one wound in a cord of human hair and tried to have the texts read, but by then the island's population had collapsed and no one could reliably explain them. That silence fed a theory that rongorongo was invented only after islanders watched Spanish officers write at the 1770 annexation. A February <strong>2024</strong> radiocarbon study led by Silvia Ferrara dated four tablets held in Rome: three to between the late 17th and the 19th centuries, but one to <strong>1493–1509</strong> — more than two centuries before Jacob Roggeveen's ships arrived in 1722. The date is for the wood, not the carving, and the tree, an African yellowwood (<em>Podocarpus</em>), never grew on the island and probably arrived as driftwood, so it narrows rather than closes the question of when the script was made.</p>\n\n<p>The reference catalogue is <strong>Thomas Barthel</strong>'s <em>Grundlagen zur Entzifferung der Osterinselschrift</em> (1958), which lettered the texts A through X and assigned <strong>600 numeric sign codes</strong>; Barthel later argued these reduced to about <strong>120 basic glyphs</strong>. The one passage read with broad agreement is the lunar calendar on the <strong>Mamari tablet (Text C)</strong>, a 29 cm rosewood board. Barthel spotted it in 1958 and Jacques Guy worked it out in 1990: a run of crescent glyphs lists the <strong>nights of the lunar month</strong>, with a full-moon glyph showing the Man in the Moon of Oceanic myth in the middle and small fish turned up or down to mark the waxing and waning halves.</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"moon\" data-code=\"rap\">🌙 See \"moon\" across languages</button>\n</div>\n\n<p>Everything beyond the calendar is contested. In <strong>1995 Steven Roger Fischer</strong> announced a decipherment of the Santiago Staff, reading its text as creation chants built on a repeating triad — <em>X copulated with Y; there issued forth Z</em> — with one sign (Barthel's 76), which occurs 564 times on the Staff, read as \"copulate\". Jacques Guy replied in 1998 that the same sign works better as a patronymic marker, which would turn the Staff almost entirely into a list of personal names, and Andrew Robinson (2002) found that at most 63 of the Staff's 113 sequences fully follow the triad. Fischer's reading has not been accepted by the field.</p>\n\n<p>Konstantin and Igor Pozdniakov's 2007 frequency analysis found the script turns on a core of about <strong>52 recurring signs</strong> — close to what a syllabary for the Rapa Nui language would need, though the texts are short and repetitive enough that some researchers doubt they record continuous language at all, as against chant-prompts or a mnemonic device. With no bilingual text, some 15,000 glyphs on texts only half of which are in good condition and beyond doubt, and a living Rapa Nui reading tradition broken in the 1860s, the moon-count on Mamari is still the only stretch of rongorongo anyone can confidently read.</p>",
+      "ja": "<p><strong>ラパ・ヌイ（イースター島）</strong>には、<strong>ロンゴロンゴ（rongorongo）</strong>と呼ばれる図像文字が、流木や太平洋ローズウッド、さらには島外から持ち込まれた南アフリカ産イエローウッドやヨーロッパ産トネリコといった木に刻まれて残る。鳥・魚・三日月・植物・座った人影といった、高さ1センチほどの図像が列をなす。文字を刻んだ品は<strong>約20数点</strong>が現存し、標準的な数え方で26のテキストを載せるが、保存状態がよく真正さに疑いがないのはその半数にとどまる。島内にはもう1点も残っていない。大半は平たい板だが、首長の杖、2点の胸飾り（<em>reimiro</em>）、鳥人（<em>tangata manu</em>）の小像、古い板を削り直した嗅ぎタバコ入れも含まれる。コーパス全体でも図像はおよそ<strong>15,000字</strong>にすぎない。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"focus\" data-code=\"rap\" data-zoom=\"6\">📍 地図でラパ・ヌイ語を見る</button>\n  <button type=\"button\" class=\"trivia-action\" data-action=\"panto\" data-lat=\"-27.12\" data-lng=\"-109.36\" data-zoom=\"4\">🗿 イースター島へ飛ぶ</button>\n</div>\n\n<p>意味は不明でも、読む向きは確定している。ロンゴロンゴは<strong>逆行牛耕式（リバース・ブストロフェドン）</strong>で書かれる。板の左下の隅から始めて左から右へ1行読み、次の行を読むには<strong>板全体を180度回す</strong>。隣り合う行は互いに上下逆に刻まれているため、読み手は板を端から端へひっくり返しながら、車輪を巻くように進んでいった。</p>\n\n<p>1864年にフランス人修道士<strong>ウジェーヌ・エロー</strong>が板を見るまで、ヨーロッパ人の記録にロンゴロンゴは一度も現れない。1868年、司教<strong>テパノ・ジョーサン</strong>は人毛の紐を巻いた板を受け取り、文を読ませようとしたが、その頃には島の人口は激減し、確かに説明できる者はいなかった。この空白から、「文字は1770年のスペインによる併合でスペイン人の署名を見た後に発明された」という説が生まれた。<strong>2024年</strong>2月、シルビア・フェラーラらの放射性炭素年代測定が、ローマに所蔵される4点の板を調べた。3点は17世紀後半から19世紀のあいだだが、1点は<strong>1493〜1509年</strong>──ヤーコプ・ロッヘフェーンの船が訪れた1722年より200年以上前だった。ただし測られたのは木材であって刻んだ時期ではない。しかもその木はアフリカ産のイエローウッド（<em>Podocarpus</em>）で、島に生えたことはなく、おそらく流木として流れ着いたものだ。問いを狭めはしても、閉じはしない。</p>\n\n<p>基準となる目録はトマス・バルテルの『<em>Grundlagen zur Entzifferung der Osterinselschrift</em>（解読の基礎）』（1958年）で、テキストにAからXまでの記号を与え、<strong>600個の図像番号</strong>を割り当てた。バルテルはのちに、それらは約<strong>120の基本字</strong>に還元できると論じた。広い合意を得て読める唯一の箇所は、<strong>ママリ板（テキストC、29センチのローズウッド板）</strong>の月の暦である。バルテルが1958年に気づき、ジャック・ギーが1990年に読み解いた。三日月状の図像の連なりが<strong>月の各夜</strong>を並べ、中央にはオセアニア神話の月の中の人物を描いた満月の図像が置かれ、小さな魚が上向き・下向きになって満ちと欠けの半月ずつを示す。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"moon\" data-code=\"rap\">🌙 各言語の「月」を見る</button>\n</div>\n\n<p>暦の外側はすべて論争の的だ。<strong>1995年、スティーヴン・ロジャー・フィッシャー</strong>はサンティアゴの杖の解読を発表し、その文を「XがYと交わり、Zが生まれた」という定型句を繰り返す創世の詠唱だと読んだ。杖の上に564回現れる1つの記号（バルテル番号76）を「交わる」と読んだのである。ジャック・ギーは1998年、同じ記号はむしろ父称の標識と見た方がよく、そうなると杖はほぼ全体が人名の一覧になると反論した。アンドルー・ロビンソン（2002年）も、杖にある113の連なりのうち、この定型に完全に従うのは多くても63にすぎないと指摘した。フィッシャーの読みは学界に受け入れられていない。</p>\n\n<p>コンスタンチンとイーゴリ・ポズドニャコフの2007年の頻度分析によれば、この文字は約<strong>52の反復する記号</strong>を軸に回っている。ラパ・ヌイ語の音節文字に必要な数に近いが、テキストは短く反復的で、連続した言語を記録したものではなく詠唱の手がかりや記憶補助ではないか、と疑う研究者もいる。対訳テキストはなく、約15,000字を載せるテキストも、保存状態がよく真正さに疑いがないのは半数にすぎず、生きたラパ・ヌイの読誦の伝承は1860年代に断たれた。その中で、ママリ板の月数えだけが、いまも誰もが自信をもって読める唯一のロンゴロンゴの一節であり続けている。</p>"
+    },
+    "sources": [
+      {
+        "text": "Ferrara, Silvia; et al. (2024). \"The invention of writing on Rapa Nui (Easter Island). New radiocarbon dates on the Rongorongo script.\" Scientific Reports 14: 2794.",
+        "url": "https://doi.org/10.1038/s41598-024-53063-7"
+      },
+      {
+        "text": "Barthel, Thomas S. (1958). Grundlagen zur Entzifferung der Osterinselschrift. Hamburg: Cram, de Gruyter.",
+        "url": ""
+      },
+      {
+        "text": "Guy, Jacques B. M. (1990). \"On the Lunar Calendar of Tablet Mamari.\" Journal de la Société des Océanistes 91(2): 135–149.",
+        "url": ""
+      },
+      {
+        "text": "Wikipedia: Rongorongo",
+        "url": "https://en.wikipedia.org/wiki/Rongorongo"
+      }
+    ]
+  },
+  {
+    "id": "alphabet-single-origin",
+    "icon": "🔤",
+    "tags": [
+      "writing-system",
+      "alphabet",
+      "proto-sinaitic",
+      "phoenician",
+      "history"
+    ],
+    "title": {
+      "en": "The alphabet's single ancestor — from an ox head to A",
+      "ja": "アルファベットの祖先は一つ ― 牛の頭から生まれたA"
+    },
+    "summary": {
+      "en": "Nearly every alphabet in use today traces back to a couple of dozen signs that Semitic speakers in Egypt and the Sinai adapted from Egyptian hieroglyphs early in the second millennium BCE; among them, an ox head became A.",
+      "ja": "今日使われているほぼすべてのアルファベットは、紀元前2千年紀の初め、エジプトとシナイ半島のセム語話者がエジプトの聖刻文字をもとに作り出した二十数個の記号にさかのぼる。そのうち、牛の頭がAになった。"
+    },
+    "body": {
+      "en": "<p>The signs scratched into the rock at <strong>Serabit el-Khadim</strong>, a turquoise-mining site in the Sinai with a temple to the Egyptian goddess Hathor, are among the oldest alphabetic writing known. Flinders Petrie recorded them in 1905, and in 1916 Alan Gardiner argued in the <em>Journal of Egyptian Archaeology</em> that they spelled a Semitic language: about two dozen signs, each borrowed from an Egyptian picture but used for a single sound.</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"panto\" data-lat=\"29.04\" data-lng=\"33.46\" data-zoom=\"6\">🌍 Fly to Serabit el-Khadim</button>\n</div>\n\n<p>The device that turned pictures into letters is <strong>acrophony</strong>: a sign takes the first sound of the name of the thing it draws. An ox head is <em>ʾalp</em> \"ox\", so it writes the consonant it begins with; a house plan is <em>bayt</em> \"house\", so it writes <em>b</em>. Rotate the ox head and it is our <strong>A</strong>; the house, by way of Greek <em>beta</em>, is our <strong>B</strong>. The Phoenician, Hebrew and Greek letter-names — aleph, bet, gimel; alpha, beta, gamma — still carry the Canaanite words for ox, house and throwing-stick, long after anyone drew the pictures.</p>\n\n<p>Who invented it, and when, is the open question. In 2006 Orly Goldwasser argued that illiterate Canaanite workers at the Sinai mines, surrounded by hieroglyphs they could not read, took a handful of pictures and assigned them Semitic sounds, inventing the alphabet around the 19th century BCE. The same year Gordon Hamilton published <em>The Origins of the West Semitic Alphabet in Egyptian Scripts</em>, tracing each early letter to a hieroglyphic or hieratic model and placing the invention in the late Twelfth or early Thirteenth Dynasty.</p>\n\n<p>The dating firmed up with a second find. In the 1990s John and Deborah Darnell recorded two short alphabetic inscriptions in the <strong>Wadi el-Hol</strong>, a valley on the desert road north-west of Thebes; they were announced in 1999 and published in 2005. The Theban Desert Road Survey dates them to the reign of Amenemhat III, roughly 1830–1786 BCE, placing alphabetic writing inside Egypt proper in the early second millennium.</p>\n\n<p>From those scratched signs a single line runs forward. The Canaanite letters became the <strong>Phoenician</strong> abjad — 22 consonant signs, with vowels left unwritten — which traders carried around the Mediterranean.</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"focus\" data-code=\"phn\">🔤 See Phoenician on the map</button>\n</div>\n\n<p>Greek speakers borrowed it around the 8th century BCE and made one decisive change: Phoenician letters for consonants Greek did not use — <em>ʾaleph</em>, <em>he</em>, <em>ʿayin</em> — were spare, so they were turned into vowels, giving <em>alpha, epsilon, omicron</em>. That reworked alphabet became Latin and Cyrillic. The other branch went east: Aramaic, the chancery script of the Persian Empire, is the parent of the Hebrew, Syriac and Arabic scripts, and Arabic reached its form through a Nabataean cursive.</p>\n\n<p>The chain reaches India too, but that link is the shakiest. Britannica treats Aramaic as the probable prototype of Brahmi, the ancestor of most scripts of South and Southeast Asia; a 2023 study by Karan Damodaram Pillai argues that no one has demonstrated a clean letter-by-letter derivation, and that Brahmi may be a hybrid drawing on Aramaic, Phoenician and Greek at once. Either way the Indian line runs back through Aramaic and Phoenician to the same two dozen scratched signs; what is still argued is whether Brahmi took them from one parent script or from several at once.</p>",
+      "ja": "<p>エジプトの女神ハトホルを祀る神殿があったシナイのトルコ石採掘地、<strong>セラービト・エル・ハーディム</strong>。その岩に刻まれた記号は、知られているなかで最も古いアルファベット書記の一つである。フリンダーズ・ピートリーが1905年に記録し、1916年にはアラン・ガーディナーが『Journal of Egyptian Archaeology』誌で、これはセム語を綴ったものだと論じた。二十数個の記号は、どれもエジプトの絵文字から借りてきながら、一つの音を表すために使われていた。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"panto\" data-lat=\"29.04\" data-lng=\"33.46\" data-zoom=\"6\">🌍 セラービト・エル・ハーディムへ飛ぶ</button>\n</div>\n\n<p>絵を文字へと変えた仕掛けが<strong>アクロフォニー（頭音法）</strong>だ。記号は、それが描く物の名前の最初の音を表す。牛の頭は <em>ʾalp</em>（牛）だから、その語頭の子音を表す。家の見取り図は <em>bayt</em>（家）だから <em>b</em> を表す。牛の頭を回転させれば、それが私たちの <strong>A</strong> になり、家はギリシア語の <em>beta</em> を経て <strong>B</strong> になる。フェニキア語・ヘブライ語・ギリシア語の文字名 ― アレフ、ベート、ギメル、アルファ、ベータ、ガンマ ― は、絵を描く者がいなくなって久しい今も、牛・家・投げ棒を指すカナン語をそのまま背負っている。</p>\n\n<p>誰が、いつ発明したのかは、いまだ開かれた問いである。2006年、オルリー・ゴールドワッサーは、読めない聖刻文字に囲まれたシナイ鉱山の無文字のカナン人労働者が、いくつかの絵を選んでセム語の音を割り当て、紀元前19世紀ごろにアルファベットを生み出したと論じた。同じ年、ゴードン・ハミルトンは『The Origins of the West Semitic Alphabet in Egyptian Scripts』を刊行し、初期の各文字を聖刻文字や神官文字の原型までたどったうえで、発明の時期を第12王朝末から第13王朝初頭に置いた。</p>\n\n<p>年代の見当は、第二の発見で固まった。1990年代、ジョンとデボラのダーネル夫妻が、テーベ北西の砂漠の道沿いにある谷<strong>ワディ・エル・ホル</strong>で、二つの短いアルファベット碑文を記録した。1999年に発表され、2005年に刊行されたこの碑文を、テーベ砂漠道調査隊はアメンエムハト3世の治世、おおよそ紀元前1830〜1786年のものとした。アルファベットによる書記が、紀元前2千年紀前半のエジプト本土にまでさかのぼったのである。</p>\n\n<p>この刻まれた記号から、一本の線が前へと伸びていく。カナンの文字は<strong>フェニキア</strong>のアブジャド ― 子音だけ22個、母音は書かれない ― となり、商人たちが地中海一帯に運んだ。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"focus\" data-code=\"phn\">🔤 地図でフェニキア語を見る</button>\n</div>\n\n<p>ギリシア人は紀元前8世紀ごろこれを借り受け、決定的な変更を一つ加えた。ギリシア語が使わない子音のための文字 ― <em>ʾaleph</em>、<em>he</em>、<em>ʿayin</em> ― が余ったので、それらを母音に転用し、<em>alpha, epsilon, omicron</em> が生まれた。作り直されたこのアルファベットがラテン文字とキリル文字になった。もう一方の枝は東へ向かう。ペルシア帝国の公文書の文字だったアラム文字が、ヘブライ文字・シリア文字・アラビア文字の親であり、アラビア文字はナバテア人の筆記体を経て今の形に至った。</p>\n\n<p>鎖はインドにも届く。ただしその結び目がいちばん心もとない。ブリタニカはアラム文字を、南アジア・東南アジアの大半の文字の祖であるブラーフミー文字の有力な原型とみなす。だが2023年のカラン・ダモダラム・ピライの研究は、文字ごとのきれいな派生を示せた者は誰もいないとし、ブラーフミー文字はアラム・フェニキア・ギリシアの文字を同時に取り込んだ混成物かもしれないと論じる。いずれにせよ、インドへの系統もアラム文字とフェニキア文字を経て、あの二十数個の刻まれた記号にまでさかのぼる。いまも議論が続いているのは、ブラーフミー文字がそれを一つの親文字から受け継いだのか、それとも複数の文字から同時に取り込んだのかという点である。</p>"
+    },
+    "sources": [
+      {
+        "text": "Gardiner, Alan H. (1916). \"The Egyptian Origin of the Semitic Alphabet.\" Journal of Egyptian Archaeology 3: 1–16."
+      },
+      {
+        "text": "Hamilton, Gordon J. (2006). The Origins of the West Semitic Alphabet in Egyptian Scripts. Catholic Biblical Quarterly Monograph Series 40. Catholic Biblical Association of America.",
+        "url": "https://mitpressbookstore.mit.edu/book/9780915170395"
+      },
+      {
+        "text": "\"Wadi el-Hol inscriptions\" — discovery, dating (reign of Amenemhat III) and the Darnell et al. 2005 publication.",
+        "url": "https://en.wikipedia.org/wiki/Wadi_el-Hol_inscriptions"
+      },
+      {
+        "text": "\"Development and diffusion of alphabets.\" Encyclopædia Britannica.",
+        "url": "https://www.britannica.com/topic/alphabet-writing/Development-and-diffusion-of-alphabets"
+      },
+      {
+        "text": "Pillai, Karan Damodaram (2023). On the origin of the Brāhmī script. Indialogs vol. 10, p. 93.",
+        "url": "https://ddd.uab.cat/pub/indialogs/indialogs_a2023v10/indialogs_a2023v10p93.pdf"
+      }
+    ]
+  },
+  {
+    "id": "png-840-languages",
+    "icon": "🏝️",
+    "tags": [
+      "diversity",
+      "papua-new-guinea",
+      "tok-pisin",
+      "language-families",
+      "creole"
+    ],
+    "title": {
+      "en": "Papua New Guinea — 840 languages in one country",
+      "ja": "パプアニューギニア──一国に840の言語"
+    },
+    "summary": {
+      "en": "Ethnologue counts about 840 living languages in Papua New Guinea — more than a tenth of the world's total — and the reasons lie in deep time, rough terrain, and the absence of any single conquering tongue.",
+      "ja": "エスノローグはパプアニューギニアに約840の現用言語を数える。世界の1割以上がこの一国に集まる理由は、5万年の時間、険しい地形、そして島全体を覆う唯一の言語がついに現れなかったことにある。"
+    },
+    "body": {
+      "en": "<p>Ethnologue's 22nd edition (2019) counts <strong>840 living languages</strong> in Papua New Guinea; the current country page lists 839 indigenous languages plus English. Either figure is more than a tenth of the roughly 7,000 languages spoken on Earth, inside a country of about 10 million people. The nearest rivals are far behind: Ethnologue puts Indonesia second with 715 living languages and Nigeria third with 527.</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"panto\" data-lat=\"-6\" data-lng=\"144\" data-zoom=\"5\">🏝️ Fly to the New Guinea highlands</button>\n</div>\n\n<p>Andrew Pawley and Harald Hammarström, writing in 2018, tie the density to time and terrain. New Guinea has been settled for roughly <strong>50,000 years</strong> by people organised into small kin-based groups without overarching political structures, dispersed across rugged mountains and swampy lowlands, and given to quite frequent population movements. No empire, trade league or state religion ever imposed one language across the island, so neighbouring valleys drifted apart and stayed apart.</p>\n\n<p>The result is not one big family but many small ones. Pawley and Hammarström count at least <strong>18 language families</strong> that cannot be shown to be related, plus several isolates. The largest is <strong>Trans–New Guinea</strong>, by some counts the third-largest family in the world by number of languages, though its membership is estimated only loosely at between 300 and 500 languages and its outer boundary is still argued over. Along the coasts and islands sit Austronesian languages, carried in by seafarers thousands of years after the interior was first peopled.</p>\n\n<p>Most of these languages are small. The majority are spoken by fewer than 1,000 people, and many by only a few hundred, usually in a single cluster of villages. A language spoken by 150 people a day's walk from the next valley has no economic pressure to merge with its neighbour, which is part of why so many have survived.</p>\n\n<p>The bridge across all of them is <strong>Tok Pisin</strong>, an English-lexified creole that grew on 19th-century plantations and is now an official language alongside Hiri Motu, English and (since 2015) PNG Sign Language. It has perhaps 130,000 native speakers but several million second-language users; by one estimate at least half the population has a working command of it. A Papua New Guinean may grow up speaking a village language of a few hundred people, pick up Tok Pisin for the market and the road, and meet English only at school.</p>\n\n<p>How the 840 relate to one another is still largely open. Most of New Guinea's Papuan languages are still poorly documented, so the family tree — including the edges of Trans–New Guinea — keeps being redrawn as more are described.</p>",
+      "ja": "<p>エスノローグ第22版（2019年）は、パプアニューギニアに<strong>840の現用言語</strong>があると数える。現在の国別ページでは先住言語839に英語を加えた形だ。どちらの数字をとっても、世界で話されるおよそ7,000言語の1割以上が、人口約1,000万人のこの一国に集まっていることになる。2位以下は大きく離れ、エスノローグはインドネシアを715言語で2位、ナイジェリアを527言語で3位に置く。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"panto\" data-lat=\"-6\" data-lng=\"144\" data-zoom=\"5\">🏝️ ニューギニア高地へ飛ぶ</button>\n</div>\n\n<p>アンドルー・ポーリーとハラルド・ハンマーストレムは2018年の論考で、この密度を「時間」と「地形」に帰している。ニューギニアにはおよそ<strong>5万年</strong>前から人が住み、血縁を軸にした小さな集団が、全体をまとめる政治的な枠組みを持たないまま、険しい山々と湿地の低地に散らばって暮らし、人々の移動もかなり頻繁に起きてきた。帝国も、交易同盟も、国家宗教も、島全体に一つの言語を押しつけることはなかった。だから隣り合う谷の言葉はしだいに離れ、離れたまま固定した。</p>\n\n<p>できあがったのは一つの大きな語族ではなく、多数の小さな語族だった。ポーリーとハンマーストレムは、互いの親縁関係を証明できない語族を少なくとも<strong>18</strong>数え、さらにいくつかの孤立言語を挙げる。最大のものは<strong>トランス・ニューギニア語族</strong>で、言語数では世界で3番目に大きい語族とも言われるが、所属言語は300〜500とおおまかにしか見積もれず、外縁がどこまでかは今も論争が続く。海岸部や島々にはオーストロネシア語族の言語が並ぶ。内陸に人が住みついてから数千年も後に、海を渡ってきた人々がもたらしたものだ。</p>\n\n<p>これらの言語の多くは小さい。大半は話者1,000人未満で、数百人しかいない言語も珍しくなく、たいていは一続きの村々だけで話される。隣の谷まで歩いて一日かかる場所で150人が話す言葉には、隣の言語と融合する経済的な圧力がない。これほど多くが生き残ってきた理由の一つがそこにある。</p>\n\n<p>それらすべてを橋渡しするのが<strong>トク・ピシン</strong>だ。19世紀のプランテーションで育った英語語彙基盤のクレオールで、いまはヒリモツ語・英語、そして（2015年からは）パプアニューギニア手話と並ぶ公用語になっている。母語話者はおそらく13万人ほどだが、第二言語として使う人は数百万人にのぼり、ある推計では人口の少なくとも半数が実用的に使えるという。パプアニューギニアの人は、数百人規模の村の言語を母語に育ち、市場や街道のためにトク・ピシンを覚え、英語には学校で初めて出会う、ということがありうる。</p>\n\n<p>この840の言語が互いにどうつながるのかは、まだ大部分が未解明のままだ。ニューギニアのパプア諸語の大半は、いまも記録が乏しい。だから系統樹は──トランス・ニューギニア語族の縁も含めて──新たな記述が増えるたびに描き直され続けている。</p>"
+    },
+    "sources": [
+      {
+        "text": "Ethnologue (SIL International). \"Which countries have the most languages?\" (Ethnologue FAQ).",
+        "url": "https://www.ethnologue.com/faq/countries-most-languages"
+      },
+      {
+        "text": "Our World in Data (2025). \"Papua New Guinea has more living languages than any other country\" (drawing on Ethnologue, 22nd ed.).",
+        "url": "https://ourworldindata.org/data-insights/papua-new-guinea-has-more-living-languages-than-any-other-country"
+      },
+      {
+        "text": "Pawley, Andrew; Hammarström, Harald (2018). \"The Trans New Guinea family.\" In Bill Palmer (ed.), The Languages and Linguistics of the New Guinea Area: A Comprehensive Guide. Berlin: De Gruyter Mouton, pp. 21–196.",
+        "url": "https://doi.org/10.1515/9783110295252-002"
+      },
+      {
+        "text": "APiCS Online — Survey chapter: Tok Pisin (contribution 22). Smith, Geoff P. & Jeff Siegel (2013).",
+        "url": "https://apics-online.info/contributions/22"
+      }
+    ]
+  },
+  {
+    "id": "michif-mixed-language",
+    "icon": "🧬",
+    "tags": [
+      "mixed-language",
+      "metis",
+      "cree",
+      "french",
+      "canada"
+    ],
+    "title": {
+      "en": "Michif — French nouns, Cree verbs, two grammars at once",
+      "ja": "ミチフ語 — 名詞はフランス語、動詞はクリー語"
+    },
+    "summary": {
+      "en": "Michif, the language of the Canadian Métis, takes its nouns from French and its verbs from Plains Cree, and each half keeps its own grammar inside the same sentence.",
+      "ja": "カナダのメティスが話すミチフ語は、名詞をフランス語から、動詞をクリー語から受け継ぎ、一つの文の中で二つの文法がそのまま並び立つ。言語接触研究の定番例だ。"
+    },
+    "body": {
+      "en": "<p><strong>Michif</strong> is spoken by the Métis of the Canadian Prairies — Manitoba, Saskatchewan and Alberta — and across the border in North Dakota, mostly on the Turtle Mountain Reservation. The 2021 Canadian census counted 1,845 Indigenous people able to speak it, and fluent speakers number fewer than 1,000, most of them elderly; its ISO code is <em>crg</em>. It is a standard example in the study of language contact for one reason: its nouns come from French and its verbs from Plains Cree, and each half keeps its own grammar.</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"panto\" data-lat=\"49.9\" data-lng=\"-97.1\" data-zoom=\"4\">🌍 Fly to the Red River country</button>\n</div>\n\n<p>Take a sentence constructed and glossed by the linguist <strong>Peter Bakker</strong> for his survey of Michif in the Atlas of Pidgin and Creole Language Structures: <em>Namoya, niya mun peer kaapeekiyokeet</em> — \"No, it was my father who came to visit.\" <em>Namoya</em> \"no\" and <em>niya</em> \"I\" are Plains Cree. <em>Mun peer</em> is French <em>mon père</em>, \"my father\", carried in whole with its possessive. The verb <em>kaa-pee-kiyokee-t</em> \"came to visit\" is Cree to the core — the complementizer prefix <em>kaa-</em>, the preverb <em>pee-</em> \"come\" and the third-person suffix <em>-t</em> all follow Cree morphology, which is polysynthetic and marks whether the object is animate or inanimate.</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"father\">👨 See \"father\" across languages</button>\n</div>\n\n<p>The division runs along a clean line. From Métis French come the nouns — by one count 83 to 94 percent of them — along with the articles, adjectives, numerals and prepositions. From Plains Cree come the verbs, 88 to 99 percent of them, together with the demonstratives, question words, personal pronouns and postpositions. French noun phrases arrive with the article already fused on: <em>aen meezoñ</em> \"a house\" (from <em>une maison</em>), <em>dilo</em> \"water\" (<em>de l'eau</em>), <em>lom</em> \"man\" (<em>l'homme</em>), <em>li garsoñ</em> \"the boy\", <em>lii kutu</em> \"the knives\". They also keep French grammatical gender: an adjective placed before the noun agrees with it, one placed after it does not.</p>\n\n<p>The two systems do not blend into a simpler average — each stays intact. A Michif speaker runs French nasal vowels and gender agreement inside the noun phrase and Cree polysynthesis in the verb, so a single sentence carries two phonologies and two morphologies. Even a borrowed French verb is forced through the Cree machinery: <em>broder</em> \"to embroider\" survives only as the root <em>brod</em>, wrapped front and back in Cree affixes, as in <em>ni-miyeeht-een ee-li-brod-ii-yaan</em>.</p>\n\n<p>The language took shape in the first decades of the 1800s around the Red River settlement and the buffalo-hunt camps of the northern plains, in Métis households where the fathers spoke French and fur-trade languages and the mothers spoke Cree. In <em>A Language of Our Own</em> (1997) Bakker argued that Michif did not arise from anyone learning a second language imperfectly: its first speakers were already fluent in both French and Cree, and the mixed code served as a badge of a distinct Métis identity. Bakker and Maarten Mous had earlier grouped it with a short list of \"intertwined\" languages, in which the vocabulary of one source sits inside the grammar of another.</p>\n\n<p>How a stable grammar settled on exactly this division — French noun phrase, Cree verb phrase — is not recorded. The Métis who made it left no account of the moment, and Bakker reconstructs the process from the structure itself. With most fluent speakers now elderly, Métis organizations in Manitoba and Saskatchewan run Michif documentation and teaching programs, recording the remaining speakers while the two grammars can still be heard side by side in everyday speech.</p>",
+      "ja": "<p><strong>ミチフ語（Michif）</strong>は、カナダ中西部の草原地帯——マニトバ、サスカチュワン、アルバータ——と、国境を越えた米国ノースダコタ州、主にタートルマウンテン居留地に暮らす<strong>メティス</strong>の言語である。2021年カナダ国勢調査では、ミチフ語を話せる先住民は1,845人、流暢な話者は1,000人を下回り、その多くが高齢者だ。ISO コードは <em>crg</em>。言語接触研究で定番の例とされるのには、はっきりした理由がある——名詞はフランス語から、動詞は平原クリー語から来ており、そのそれぞれが自前の文法を保ったままなのだ。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"panto\" data-lat=\"49.9\" data-lng=\"-97.1\" data-zoom=\"4\">🌍 レッドリバー地方へ飛ぶ</button>\n</div>\n\n<p>言語学者<strong>ピーター・バッカー</strong>が『ピジン・クレオール言語構造地図』（APiCS）のミチフ語の概説のために作例し、グロス（逐語注）を付けた一文を見てみよう。<em>Namoya, niya mun peer kaapeekiyokeet</em>——「いや、訪ねてきたのは私の父だよ」。<em>Namoya</em>「いいえ」も <em>niya</em>「私」も平原クリー語だ。<em>mun peer</em> はフランス語の <em>mon père</em>「私の父」で、所有の表現ごとそっくり取り込まれている。動詞 <em>kaa-pee-kiyokee-t</em>「訪ねてきた」は芯までクリー語だ——補文標識の接頭辞 <em>kaa-</em> も、「来る」を表す前動詞 <em>pee-</em> も、三人称接尾辞 <em>-t</em> も、すべてクリー語の形態法に従う。クリー語の動詞は複統合的で、しかも目的語が有生か無生かを区別する。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"father\">👨 各言語の「父」を見る</button>\n</div>\n\n<p>線引きははっきりしている。メティス・フランス語からは名詞——ある数え方では全体の83〜94%——に加えて、冠詞・形容詞・数詞・前置詞が来る。平原クリー語からは動詞（88〜99%）に加えて、指示詞・疑問詞・人称代名詞・後置詞が来る。フランス語由来の名詞句は、冠詞が溶け込んだ形で入ってくる。<em>aen meezoñ</em>「家」（<em>une maison</em> から）、<em>dilo</em>「水」（<em>de l'eau</em>）、<em>lom</em>「男」（<em>l'homme</em>）、<em>li garsoñ</em>「少年」、<em>lii kutu</em>「ナイフ（複数）」。フランス語の文法性も保たれていて、名詞の前に置かれた形容詞は性に一致するが、後ろに置かれた形容詞は一致しない。</p>\n\n<p>二つの体系は、より単純な平均へと混ざり合うのではなく、それぞれがそのまま残る。ミチフ語の話者は、名詞句の中ではフランス語の鼻母音と性の一致を、動詞ではクリー語の複統合をそれぞれ動かす。つまり一つの文の中に二つの音韻体系と二つの形態法が同居しているのだ。借用されたフランス語の動詞すら、クリー語の仕組みを通される。<em>broder</em>「刺繍する」は語根 <em>brod</em> としてだけ生き残り、前後をクリー語の接辞で包まれる——<em>ni-miyeeht-een ee-li-brod-ii-yaan</em> のように。</p>\n\n<p>この言語がかたちを得たのは1800年代の最初の数十年、レッドリバー植民地と北部平原のバッファロー狩りの野営地のあたりでのことだ。父親はフランス語と毛皮交易の言語を、母親はクリー語を話すメティスの家庭の中で生まれた。バッカーは『A Language of Our Own』（1997年）で、ミチフ語は誰かが第二言語を不完全に習得したことから生まれたのではないと論じた。最初の話者たちはすでにフランス語とクリー語の両方に流暢で、混成の言語は独自のメティス・アイデンティティの標識として機能した——というのだ。バッカーとマールテン・マウスはそれ以前に、ミチフ語を、ある出所の語彙が別の出所の文法の中に収まる「インターワイニング（混織）」言語という短いリストに加えていた。</p>\n\n<p>安定した文法がなぜちょうどこの線——名詞句はフランス語、動詞句はクリー語——で落ち着いたのか、それを記した記録はない。それを作ったメティスの人々は、その瞬間の証言を残さなかった。バッカーは構造そのものから過程を再構成している。流暢な話者の多くが高齢となったいま、マニトバとサスカチュワンのメティス団体はミチフ語の記録と教育の事業を進めており、二つの文法が日々の話し言葉の中でまだ並んで聞こえるうちに、残る話者たちの声を録音している。</p>"
+    },
+    "sources": [
+      {
+        "text": "Bakker, Peter (1997). A Language of Our Own: The Genesis of Michif, the Mixed Cree-French Language of the Canadian Métis. Oxford University Press.",
+        "url": "https://doi.org/10.1093/oso/9780195097115.001.0001"
+      },
+      {
+        "text": "Bakker, Peter. \"Michif\" (survey chapter). Atlas of Pidgin and Creole Language Structures Online (APiCS), 2013.",
+        "url": "https://apics-online.info/contributions/75"
+      },
+      {
+        "text": "Bakker, Peter; Papen, Robert A. (2003). \"Michif and Other Languages of the Canadian Métis.\" Gabriel Dumont Institute / Virtual Museum of Métis History and Culture.",
+        "url": "https://www.metismuseum.ca/resource.php/00735"
+      },
+      {
+        "text": "Glottolog: Michif (mich1243)",
+        "url": "https://glottolog.org/resource/languoid/id/mich1243"
+      }
+    ]
+  },
+  {
+    "id": "kusunda-isolate-nepal",
+    "icon": "⛰️",
+    "tags": [
+      "isolate",
+      "nepal",
+      "endangered",
+      "revitalization",
+      "negation"
+    ],
+    "title": {
+      "en": "Kusunda — the Nepali isolate being woken, not revived",
+      "ja": "クスンダ語 — 蘇生ではなく「目覚め」を待つネパールの孤立言語"
+    },
+    "summary": {
+      "en": "Kusunda, a language isolate in western Nepal with no proven relatives, is down to one fluent speaker — and is being taught from scratch to learners who never grew up hearing it.",
+      "ja": "親縁関係の証明されない孤立言語、ネパール西部のクスンダ語。流暢な話者はただ一人になり、いまは一度も耳にして育たなかった若者たちへ、ゼロから教えられている。"
+    },
+    "body": {
+      "en": "<p>In the hills of western Nepal, a few dozen people have some command of <strong>Kusunda</strong>, a language isolate with no demonstrated relatives anywhere. Nepal's 2021 census counted 253 ethnic Kusunda and 23 self-reported native speakers; the one person able to sustain a conversation in it is <strong>Kamala Sen Khatri</strong>, whose elder sister held that position before her.</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"focus\" data-code=\"kgg\" data-zoom=\"6\">📍 Show Kusunda on the map</button>\n  <button type=\"button\" class=\"trivia-action\" data-action=\"panto\" data-lat=\"28.1\" data-lng=\"82.4\" data-zoom=\"7\">⛰️ Fly to western Nepal</button>\n</div>\n\n<p>The Kusunda were forest foragers, called <em>Ban Raja</em> (\"kings of the forest\") in Nepali; their own name for themselves is recorded variously as Mihaq, Myahq or Gemyehak. The language was twice presumed dead. After settlement and intermarriage scattered the community, it resurfaced in 2004, when three Kusunda who had travelled to Kathmandu for citizenship papers turned out to include a fluent speaker from Sakhi, in Rolpa district. By 2005 seven or eight fluent speakers were known, the youngest in her thirties. Rajamama Kusunda died on 19 April 2018, and the language was again presumed extinct, although the sisters Gyani Maiya and Kamala were still alive and fluent; <strong>Gyani Maiya Sen Kusunda</strong>, who had helped relaunch interest in it, died on 25 January 2020 at 85.</p>\n\n<p>Its isolation has drawn a long list of rejected matches. B. K. Rana argued in 2002 that Kusunda was Tibeto-Burman, like most of its neighbours; Watters's 2005–2006 grammatical description concluded it is none of them. Others have tried to attach it to Nihali (Whitehouse 1997), to the Yeniseian languages of central Siberia (Gurov 1989), to Burushaski and the Caucasian families (Reinhard and Toba 1970), and — in a 2014 proposal by George van Driem — to Yeniseian and Burushaski together. None of these has been demonstrated.</p>\n\n<p>Part of why is that Kusunda does not sound or work like what surrounds it. It has <strong>uvular consonants</strong>, which no other language in the region uses, and it lacks the retroflex consonants that are everywhere in South Asia. Its case system is nominative–accusative with no ergativity, again unlike its Tibeto-Burman neighbours. In a 2014 reanalysis, Mark Donohue, Bhoj Raj Gautam and Madhav Pokharel found that ordinary declarative clauses have <em>no unambiguous way to mark negation</em>: the irrealis suffix <em>-u</em> can carry either a positive or a negative reading, and speakers lean on a separate negative existential to say that something is not so.</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"water\" data-code=\"kgg\">💧 See \"water\" across languages</button>\n</div>\n\n<p>Since 2019 the researcher <strong>Uday Raj Aaley</strong> has run Kusunda classes with Kamala Sen Khatri as resource person and support from Nepal's Language Commission. Four residential sessions — 2019, 2021, 2022 and a final one in March 2023 — came to about 270 hours of teaching; the first drew 20 students in grades four to twelve, three of them not Kusunda at all. Aaley and Timotheus Bodt call the work an <em>awakening</em>: the language had been essentially dormant for 50 to 60 years, and with no living speech community to join, every learner starts from zero.</p>\n\n<p>The obstacles are concrete. There is no settled orthography — the uvular sounds are hard to render in Devanagari — and no textbook, audio or video teaching materials; Aaley is still writing a first book of everyday words and phrases. Everyone in the community now speaks Nepali, and intermarriage means no child is acquiring Kusunda at home. Whether a language learned deliberately, as a heritage subject, can be carried to a generation that speaks it without thinking is the question the classrooms in Dang are now testing.</p>",
+      "ja": "<p>ネパール西部の丘陵地で、数十人が<strong>クスンダ語（Kusunda）</strong>をいくらか解する。親縁関係がどこにも証明されていない孤立言語である。2021年のネパール国勢調査では、民族としてのクスンダは253人、母語話者と自己申告したのは23人だった。会話を続けられる唯一の人物は<strong>カマラ・セン・カトリ</strong>で、その役割を前に担っていたのは彼女の姉だった。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"focus\" data-code=\"kgg\" data-zoom=\"6\">📍 地図でクスンダ語を見る</button>\n  <button type=\"button\" class=\"trivia-action\" data-action=\"panto\" data-lat=\"28.1\" data-lng=\"82.4\" data-zoom=\"7\">⛰️ ネパール西部へ飛ぶ</button>\n</div>\n\n<p>クスンダの人々はかつて森の狩猟採集民で、ネパール語では<em>バン・ラジャ</em>（「森の王」）と呼ばれた。自称はミハク（Mihaq）、ミャハ（Myahq）、ゲミェハク（Gemyehak）などと一定しない。言語は二度、死んだものと見なされた。定住化と他民族との婚姻で共同体が散らばったあと、2004年に再発見される。市民権の書類のためカトマンズを訪れた三人のクスンダの中に、ロルパ郡サキ出身の流暢な話者がいたのだ。2005年の時点では、7〜8人の流暢な話者が知られていた。最も若い人で30代だった。2018年4月19日にラジャママ・クスンダが亡くなると、言語は再び絶滅とされた——実際には、ギャニ・マヤとカマラの姉妹がまだ存命で、流暢に話せたのだが。関心の再燃に力を貸した<strong>ギャニ・マヤ・セン・クスンダ</strong>も、2020年1月25日に85歳で世を去った。</p>\n\n<p>孤立しているため、系統づけの試みは却下の連続だった。B・K・ラナは2002年、クスンダ語は周囲の多くと同じくチベット・ビルマ系だと論じたが、ワッターズの2005〜2006年の文法記述は、そのいずれでもないと結論づけた。ほかにもニハリ語（ホワイトハウス1997年）、中央シベリアのエニセイ諸語（グーロフ1989年）、ブルシャスキー語やカフカース諸語（ラインハルト＆トバ1970年）、さらに2014年のジョージ・ヴァン・ドリームの提案ではエニセイ語とブルシャスキー語の両方と結びつけられた。どれも証明されていない。</p>\n\n<p>その一因は、クスンダ語が周囲とは響きも仕組みも違うことにある。この地域のどの言語も使わない<strong>口蓋垂音（uvular）</strong>を持ち、南アジアに遍在するそり舌音は欠く。格体系は能格性のない主格・対格型で、これもチベット・ビルマ系の隣人とは異なる。2014年にマーク・ドナヒュー、ボジ・ラジ・ガウタム、マダブ・ポカレルが行った再分析によれば、普通の平叙文には<em>否定を明示する手段がない</em>という。非現実法の接尾辞 <em>-u</em> は肯定にも否定にも読めてしまい、話者は「そうではない」と言うために別の否定存在表現に頼る。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"water\" data-code=\"kgg\">💧 各言語の「水」を見る</button>\n</div>\n\n<p>2019年以来、研究者の<strong>ウダイ・ラジ・アーレイ</strong>が、カマラ・セン・カトリを資料提供者とし、ネパール言語委員会の支援を受けてクスンダ語教室を開いてきた。2019年、2021年、2022年、そして2023年3月に締めくくられた合宿形式の全4回は、合わせて約270時間の授業になった。最初の回には4年生から12年生まで20人が集まり、うち3人はクスンダですらなかった。アーレイとティモテウス・ボットは、この営みを<em>目覚めさせること</em>と呼ぶ。言語は50〜60年にわたって事実上眠っていたうえ、加わるべき生きた話者共同体ももう存在せず、学ぶ者は誰もがゼロから始めるからだ。</p>\n\n<p>障害は具体的だ。正書法が定まっていない——口蓋垂音をデーヴァナーガリーで書き表しにくい——し、教科書も音声・映像の教材もない。アーレイは日常の単語や言い回しをまとめた最初の本を、いまも執筆中だ。共同体の全員がいまやネパール語を話し、他民族との結婚により、家庭でクスンダ語を身につける子どもは一人もいない。意識的に、継承語という「科目」として学ばれた言語が、考えずに話す世代へと手渡せるのか。ダンの教室が、いま試しているのはその問いである。</p>"
+    },
+    "sources": [
+      {
+        "text": "Aaley, Uday Raj & Bodt, Timotheus A. (2023). Living Languages / Lenguas Vivas / Línguas Vivas 2(1), University of Massachusetts Amherst — documentation and awakening of Kusunda.",
+        "url": "https://openpublishing.library.umass.edu/livinglanguages/article/id/1859"
+      },
+      {
+        "text": "Watters, David E. (2006). \"Notes on Kusunda Grammar: A Language Isolate of Nepal.\" Himalayan Linguistics Archive 3.",
+        "url": "https://escholarship.org/uc/item/83v8d1wv"
+      },
+      {
+        "text": "\"What does it take to revitalize a dying language?\" Global Voices, 3 April 2023.",
+        "url": "https://globalvoices.org/2023/04/03/what-does-it-take-to-revitalize-a-dying-language/"
+      },
+      {
+        "text": "\"Kusunda language\" and \"Kusunda people\", Wikipedia (2021 census figures, classification history, phonology, and the Donohue, Gautam & Pokharel 2014 reanalysis of negation).",
+        "url": "https://en.wikipedia.org/wiki/Kusunda_language"
+      }
+    ]
+  },
 ];
 
 // Expose to global so wordmap.html can read it whether this file

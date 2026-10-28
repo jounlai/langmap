@@ -467,6 +467,23 @@ WORDS.mobilephone = {
     gsw_als: "hand",
     koi: "carry",
     pt_mo: "carry",
+    yi: "cell",
+    fur: "other",
+    rue: "carry",
+    aii: "carry",
+    cbk: "cell",
+    sm: "carry",
+    tet: "carry",
+    pis: "carry",
+    nxq: "hand",
+    udm: "carry",
+    br: "carry",
+    nv: "other",
+    to: "carry",
+    ctu: "cell",
+    maz: "cell",
+    bzj: "other",
+    ami: "unknown",
   },
   routes: {
     hand: {"color":"#ea580c","emoji":"✋","en":"the hand","ja":"手","ko":"손","zh":"手","yue":"手","vi":"bàn tay","th":"มือ","id":"tangan","hi":"हाथ","de":"die Hand","fr":"la main","it":"la mano","es":"la mano","pt":"a mão","ru":"рука","uk":"рука","ar":"اليد","he":"היד","sw":"mkono"},
@@ -877,5 +894,22 @@ WORDS.mobilephone = {
     gsw_als: ["Händy", "hɛndi"],  // The German pseudo-anglicism Handy, spelt Händy in Alsatian; Switzerland's Natel is not used in Alsace.
     koi: ["мобильник", "moˈbilʲnik"],  // From colloquial Russian мобильник 'mobile', the everyday word in Komi-Permyak village descriptions.
     pt_mo: ["telemóvel", "tɛlɛˈmɔvɛl"],  // Coined from tele- 'far' + móvel 'mobile', the European Portuguese word, used in Macau.
+    yi: ["צעלקע", "ˈtsɛlkə"],  // Built from צעל 'cell' plus the noun suffix -ke; Hasidic Yiddish says סעלפאן 'cellphone', and מאָבילקע 'mobile' is a newer coinage.
+    fur: ["telefonut", "telefoˈnut"],  // Literally 'little telephone', a diminutive of telefon like Italian telefonino; the ARLeF dictionary also gives telefonin and celulâr.
+    rue: ["мобілный телефон", "mobilnɨj telefon"],  // Literally 'mobile telephone', matching Slovak mobilný telefón.
+    aii: ["ܡܫܬܢܝܢܐ", "miʃtanˈjana"],  // Literally 'the portable (one)', from the verb ܡܫܲܢܹܐ 'to move, transfer', short for 'portable telephone'.
+    cbk: ["cellphone", "ˈselfon"],  // Borrowed from English 'cellphone', as in Philippine English.
+    sm: ["telefoni feʻaveaʻi", "telefoni feʔaveaʔi"],  // Literally a telephone that is carried about, from ʻave 'to carry, take'; in running speech often just telefoni.
+    tet: ["telemovel", "teleˈmovel"],  // From Portuguese telemóvel 'mobile telephone'; the Dili dictionary lists the synonyms mobail (from English), hanfon and HP (from Indonesian).
+    pis: ["mobael", "mobael"],  // From English mobile (phone).
+    nxq: ["sheji", "ʂə˧tɕi˧"],  // Borrowed from Chinese 手机 shǒujī 'hand machine'; written with the row's ə for Naxi Pinyin e.
+    udm: ["мобильной телефон", "mobilʲnoj telefon"],  // Borrowed from Russian мобильный телефон 'mobile telephone'; Russian сотовый 'cellular' also appears as сотовой телефон.
+    br: ["hezougell", "heˈzuːɡɛl"],  // A noun made from hezoug 'portable' with the suffix -ell; the longer pellgomzer hezoug 'portable telephone' is also used.
+    nv: ["bił níjoobałí", "pìɬ nítʃòːpàɬí"],  // Literally 'the one you spin around with', from people turning in circles to catch a signal; the formal term is béésh bee haneʼé tʼóó naatʼáhígíí.
+    to: ["telefoni toʻotoʻo", "telefoni toʔotoʔo"],  // Telefoni 'telephone' plus toʻotoʻo, a reduplication of toʻo 'take hold of, carry'; the exact sense of the reduplicated form is not given in the dictionary checked. Route by resemblance to the neighbouring forms (wls(telefoni toʻotoʻo)); no etymology of its own.
+    ctu: ["celular", "selulaɾ"],  // Borrowed from Mexican Spanish celular 'cellular (phone)', used as is in Chol running text.
+    maz: ["celular", "selulaɾ"],  // Borrowed from Mexican Spanish celular 'cellular (phone)', used as is in Mazahua running text.
+    bzj: ["foan", "foːn"],  // The plain word for 'phone' from English, used for the mobile with its apps, texts and silent mode.
+    ami: ["soci", "sotsi"],  // The device word used beside pingpan 'tablet' and distinct from tingwa 'telephone, call'; its origin is not stated in the source.
   },
 };

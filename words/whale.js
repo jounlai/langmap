@@ -344,6 +344,36 @@ WORDS.whale = {
     nbl: "unknown",
     ksh: "plain",
     ext: "plain",
+    os: "unknown",
+    new: "plain",
+    pcd: "plain",
+    lez: "plain",
+    crh: "plain",
+    fur: "plain",
+    rcf: "plain",
+    wa: "plain",
+    sah: "plain",
+    pis: "fish",
+    pap: "plain",
+    inh: "plain",
+    ote: "plain",
+    bxr: "plain",
+    udm: "plain",
+    nch: "fish",
+    dv: "fish",
+    pdc: "fish",
+    ast: "plain",
+    csb: "fish",
+    dng: "fish",
+    kpv: "plain",
+    myv: "plain",
+    ty: "plain",
+    ami: "unknown",
+    gil: "plain",
+    lbe: "plain",
+    tab: "other",
+    cab: "unknown",
+    mdf: "plain",
   },
   routes: {
     fish: {"color":"#2563eb","emoji":"🐟","en":"called a fish","ja":"「魚」と呼ぶ","ko":"\"물고기\"라 부름","zh":"称作\"鱼\"","yue":"叫做「魚」","vi":"gọi là cá","th":"เรียกว่าปลา","id":"disebut ikan","hi":"मछली कहा जाता है","de":"als Fisch bezeichnet","fr":"appelée poisson","it":"chiamata pesce","es":"llamada pez","pt":"chamada peixe","ru":"называют рыбой","uk":"називають рибою","ar":"تُسمّى سمكة","he":"נקרא דג","sw":"huitwa samaki"},
@@ -633,5 +663,35 @@ WORDS.whale = {
     nbl: ["umkhomo", "umkʰomo"],  // The isiNdebele term for the whale, akin to Zulu and Swati umkhoma.
     ksh: ["Wal", "vaːl"],  // The same Germanic whale word as German Wal; the Kölsch Wikipedia also uses Walfisch.
     ext: ["ballena", "baˈʎena"],  // The same word as Spanish ballena, from Latin ballaena.
+    os: ["гай", "ɡaj"],  // The Ossetian Wikipedia's name for the whale, also гайа; Digor says гайа.
+    new: ["व्हेल", "wʱel"],  // Borrowed from English whale.
+    pcd: ["balin·ne", "balɛ̃n"],  // The Picard form of French baleine, from Latin balaena.
+    lez: ["кит", "kit"],  // Borrowed from Russian кит; the Quba dialect says балина instead.
+    crh: ["kit", "kit"],  // Borrowed from Russian kit, itself ultimately from Greek kêtos 'sea monster'.
+    fur: ["balene", "baˈlɛne"],  // The Friulian word for the whale, feminine, plural balenis. Route by resemblance to the neighbouring forms (ro(balenă) sq(balenë) nap(balena)); no etymology of its own.
+    rcf: ["balèn", "balɛn"],  // Inherited from French baleine; the more French-like balinn is the High Creole form.
+    wa: ["balinne", "baˈlɛ̃n"],  // From Latin ballaena; the Walloon dictionary defines it as a huge mammal of the oceans 'often wrongly taken for a big fish'.
+    sah: ["киит", "kiːt"],  // Taken from Russian kit (Greek kêtos); it is also called киит балык 'whale fish', and dialectally хаалым балык, a Mongolic-Manchu word.
+    pis: ["welfis", "welfis"],  // From English 'whale fish'; fis is the Pijin word for fish (Jourdan 2002).
+    pap: ["bayena", "baˈjena"],  // The Papiamentu word for the whale, as in 'bayena ta un mamífero' (Kester and Schmitt 2007). Route by resemblance to the neighbouring forms (es_gt(ballena) cbk(ballena) ote(bayenä)); no etymology of its own.
+    inh: ["кит", "kit"],  // Borrowed from Russian кит; the Ingush Wikipedia also uses a native word, сувсакх.
+    ote: ["bayenä", "bajenɐ"],  // A loan from Spanish ballena, which the World Loanword Database rates 'clearly borrowed'.
+    bxr: ["халим", "xalim"],  // Shared with Mongolian халим, which Wiktionary traces to Proto-Tungusic *kalimu; the Buryat Bible also writes халим загаһан 'whale fish'.
+    udm: ["кит", "kit"],  // Borrowed from Russian кит; the older native word зарезьчорыг 'sea fish' is now obsolete.
+    nch: ["ueyimichij", "wejiˈmitʃih"],  // Literally 'big fish': ueyi 'big' plus michij 'fish'.
+    dv: ["ބޮޑުމަސް", "boɖumas"],  // Literally 'big fish': bodu 'big' plus mas 'fish' (O'Shea 2005).
+    pdc: ["Walfisch", "ˈvalfɪʃ"],  // Literally 'whale fish', like older German Walfisch.
+    ast: ["ballena", "baˈʎena"],  // Inherited from Latin ballaena, from Greek phállaina; Asturian also says xibarte for the baleen whales.
+    csb: ["wiôlgòrëba", "vjɞlɡwɛˈrɜba"],  // Literally 'big fish': wiôldżi 'big' plus rëba 'fish', inherited from Proto-Slavic *velьryba like Polish wieloryb.
+    dng: ["җинйү", "tɕiŋ˨˦y˨˦"],  // The Dungan form of Chinese 鯨魚 'whale-fish', with йү 'fish'.
+    kpv: ["кит", "kit"],  // Borrowed from Russian кит; кит гос is whale oil.
+    myv: ["кит", "kit"],  // Borrowed from Russian кит.
+    ty: ["tohorā", "tohoɾaː"],  // The inherited Polynesian whale word (Proto-Nuclear-Polynesian *tafolaqa), cognate with Māori tohorā and Hawaiian koholā.
+    ami: ["ʼiso", "ʔiso"],  // Glossed 鯨魚 'whale' by both Amis Moedict dictionaries; a Japanese loan kucila (from kujira) is also recorded.
+    gil: ["ato", "ato"],  // An inherited Micronesian whale word, cognate with Marshallese raj and Pohnpeian roahs (ACD cognate set *rato).
+    lbe: ["кит", "kit"],  // Borrowed from Russian кит; the Shali dialect also has къуртма.
+    tab: ["гьюлин аждагьа", "hylin aʒdaha"],  // Literally 'the sea's аждагьа': гьюл 'sea' plus аждагьа, the Dagestani word for a dragon or crocodile; the Northern (Khanag) dialect says кит instead.
+    cab: ["údu", "udu"],  // Glossed 'whale, ballena' by the Garifuna Living Dictionary, with the example Hulú lumuti údu Jonah 'the whale swallowed Jonah'.
+    mdf: ["кит", "kit"],  // Borrowed from Russian кит, as in Erzya.
   },
 };

@@ -536,6 +536,36 @@ WORDS.monday = {
     quz: "moon",
     nag: "moon",
     hak_hl: "count",
+    iso: "count",
+    pcd: "moon",
+    rcf: "moon",
+    nia: "count",
+    kek: "moon",
+    yua: "moon",
+    tzh: "moon",
+    quy: "moon",
+    tll: "count",
+    bum: "moon",
+    loz: "moon",
+    lue: "moon",
+    ng: "moon",
+    aja: "unknown",
+    nij: "count",
+    hwc: "moon",
+    tly: "unknown",
+    bxr: "moon",
+    lij: "moon",
+    pdt: "moon",
+    jmc: "count",
+    naq: "moon",
+    kj: "moon",
+    kum: "count",
+    tzo: "moon",
+    nhw: "moon",
+    frp: "moon",
+    gag: "after",
+    lbe: "count",
+    saq: "count",
   },
   routes: {
     moon: {"color":"#7c3aed","emoji":"🌙","en":"the moon's day","ja":"月の日","ko":"달의 날","zh":"月亮之日","yue":"月亮嘅日","vi":"ngày mặt trăng","th":"วันของดวงจันทร์","id":"hari bulan","hi":"चंद्रमा का दिन","de":"Tag des Mondes","fr":"jour de la lune","it":"giorno della luna","es":"día de la luna","pt":"dia da lua","ru":"день луны","uk":"день місяця","ar":"يوم القمر","he":"יום הירח","sw":"siku ya mwezi"},
@@ -1014,5 +1044,35 @@ WORDS.monday = {
     quz: ["lunes", "ˈlunes"],  // Borrowed from Spanish lunes, from Latin Lūnae diēs, 'day of the Moon'; the purist coinage killachaw, 'moon day', is also taught.
     nag: ["sombar", "sombar"],  // Listed as the synonym of the English loan Monday, which is also used; the source gives no etymology for sombar. Route by resemblance to the neighbouring forms (Nepali and Dogri सोमबार, Bodo समबार); no etymology of its own.
     hak_hl: ["拜一", "pai˩˩ ʒit˥"],  // Short for 禮拜一, "week-day one"; Hailu Hakka baiˇ rhid.
+    iso: ["Ẹdọvụ Ụka", "ɛdɔvʊ ʊka"],  // "Day one" of the week: ẹdẹ "day" + ọvo "one"; Tuesday to Saturday continue the count (ẹdẹ avivẹ ụka, "second day"); JW publications write Ẹdọvo-Oka.
+    pcd: ["lindi", "lɛ̃di"],  // The Picard form of French lundi, from Latin Lūnae diēs, "day of the Moon".
+    rcf: ["lindi", "lɛ̃di"],  // From French lundi, Latin Lūnae diēs, "day of the Moon"; also written lïndi.
+    nia: ["Sinaya", "sinaja"],  // The Nias name for Monday; the Nias Wikipedia gives it as the counterpart of Malay Senin. Route by resemblance to the neighbouring forms (min(Sinayan)); no etymology of its own.
+    kek: ["luuns", "luːns"],  // Borrowed from Spanish lunes, "day of the Moon" (WOLD, "clearly borrowed"); CLDR lists LuʼKutan.
+    yua: ["lunes", "lunes"],  // Borrowed from Spanish lunes, from Latin Lūnae diēs, "day of the Moon".
+    tzh: ["lunes", "lunes"],  // Borrowed from Spanish lunes, from Latin Lūnae diēs, "day of the Moon".
+    quy: ["lunes", "ˈlunes"],  // Borrowed from Spanish lunes, "day of the Moon"; the purist coinage killachaw, "moon day", also exists.
+    tll: ["Lushi l’ɔtɔi", "luʃi lɔtɔi"],  // "The day of one": ɔtɔi "one", followed by Lushi la hende, "the day of two", for Tuesday.
+    bum: ["Mondé", "mɔnde"],  // Mondé, the Bulu name for Monday, in a week of English-looking names (Sondô, Tusedé). Route by resemblance to the neighbouring forms (en(Monday)); no etymology of its own.
+    loz: ["La Mande", "la mande"],  // Mande, like Tumbuka Mande from English Monday, after la "(day) of"; Tuesday is La Bubeli. Route by resemblance to the neighbouring forms (en(Monday)); no etymology of its own.
+    lue: ["LyaMande", "ljamande"],  // lya "(day) of" + Mande, as Tumbuka Mande from English Monday. Route by resemblance to the neighbouring forms (en(Monday)); no etymology of its own.
+    ng: ["Omaandaha", "omaːndaha"],  // Omaandaha, the Ndonga name for Monday, matching Herero Omandaha from Afrikaans Maandag, "moon day". Route by resemblance to the neighbouring forms (her(Omandaha) af(Maandag)); no etymology of its own.
+    aja: ["Tɛnigbe", "tɛniɡbe"],  // Tɛnigbe, the Aja name for Monday; the source does not explain the name.
+    nij: ["Senin", "sənin"],  // Borrowed from Indonesian Senin, from Arabic al-ithnayn, "the two": the second day counting from Sunday; used as andau Senin, "Monday".
+    hwc: ["Monday", "mɑndeɪ"],  // The English Monday, from Old English mōnandæġ, "day of the Moon".
+    tly: ["iminci rüj", "imindʒi ryʒ"],  // rüj "day" with iminci; the older dışambə (dı "two" + şambə, like Persian došanbe) is now obsolete.
+    bxr: ["дабаа", "dabaː"],  // Borrowed from Tibetan, like Mongolian даваа; Buryat Wikipedia says the Mongols name this day after the Moon, also as сумьяа (from Sanskrit) and һара үдэр 'moon day'.
+    lij: ["lunedì", "lyneˈdi"],  // From Latin Lūnae diēs, the day dedicated to the Moon; Genoese also writes Lûnedì or lunesdì.
+    pdt: ["Mondach", "ˈmɔndax"],  // Mon 'moon' + Dach 'day', from Middle Low German mânendach.
+    jmc: ["Jumatatuu", "dʒumatatuː"],  // Like Swahili Jumatatu, juma 'week' + tatu 'three'; Route by resemblance to the neighbouring form (sw(Jumatatu)); no etymology of its own.
+    naq: ["Mantaxtsees", "mantaxtseːs"],  // The Nama name of Monday, ending in tsees 'day', with Sunday Sontaxtsees; Route by resemblance to the neighbouring forms (af(Maandag) de(Montag)); no etymology of its own.
+    kj: ["Omaandaxa", "omaːndaxa"],  // The Kwanyama name of Monday; Route by resemblance to the neighbouring form (af(Maandag)); no etymology of its own.
+    kum: ["итнигюн", "itniɡyn"],  // итни + гюн 'day'; also spelt итнингюн. Route by resemblance to the neighbouring form (av(итни), from Arabic al-ithnayn 'the second'); no etymology of its own.
+    tzo: ["lunex", "luneʃ"],  // Borrowed from Spanish lunes, Latin 'day of the Moon'; Zinacantán has lunesh.
+    nhw: ["lunes", "ˈlunes"],  // The same word as Spanish lunes, Latin 'day of the Moon'. Route by resemblance to the neighbouring form (es(lunes)); no etymology of its own.
+    frp: ["delon", "dəˈlɔ̃"],  // Inherited from Latin diēs Lūnae, 'day of the Moon'; londi is also written.
+    gag: ["pazertesi", "pazerteˈsi"],  // pazar 'Sunday' + ertesi 'the following day', 'the day after Sunday', like Turkish pazartesi. Route by resemblance to the neighbouring forms (tr(pazartesi) crh(bazarertesi)); no etymology of its own.
+    lbe: ["итни", "itni"],  // The Lak name of Monday, the same word as Avar итни from Arabic al-ithnayn, 'the two'. Route by resemblance to the neighbouring forms (av(итни)); no etymology of its own.
+    saq: ["Mderot ee kuni", "mderot ee kuni"],  // 'Day three': the Samburu week is numbered, with Sunday as day two (are) and Tuesday as day four (ong’wan).
   },
 };

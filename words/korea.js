@@ -316,6 +316,25 @@ WORDS.korea = {
     ksh: "goryeo",
     hak_hl: "hanguk",
     zh_hf: "hanguk",
+    lt: "goryeo",
+    bs: "goryeo",
+    kok: "goryeo",
+    ssw: "goryeo",
+    shn: "goryeo",
+    cpx: "hanguk",
+    mni: "goryeo",
+    tcy: "goryeo",
+    bbc: "goryeo",
+    mak: "goryeo",
+    pms: "goryeo",
+    tsg: "goryeo",
+    li: "goryeo",
+    sc: "goryeo",
+    iba: "goryeo",
+    quz: "goryeo",
+    gor: "goryeo",
+    kbp: "goryeo",
+    cv: "goryeo",
   },
   routes: {
     goryeo: {"color":"#16a34a","emoji":"🏺","en":"from Goryeo 高麗 (Korea, Corée, Корея)","ja":"高麗（コリョ）から（Korea, Corée, Корея）","ko":"고려(高麗)에서 (Korea, Corée, Корея)","zh":"源自高丽（Korea、Corée、Корея）","yue":"源自高麗（Korea、Corée、Корея）","vi":"từ Cao Ly 高麗 (Korea, Corée, Корея)","th":"จากโครยอ 高麗 (Korea, Corée, Корея)","id":"dari Goryeo 高麗 (Korea, Corée, Корея)","hi":"गोरयो 高麗 से (Korea, Corée, Корея)","de":"von Goryeo 高麗 (Korea, Corée, Корея)","fr":"de Goryeo 高麗 (Korea, Corée, Корея)","it":"da Goryeo 高麗 (Korea, Corée, Корея)","es":"de Goryeo 高麗 (Korea, Corée, Корея)","pt":"de Goryeo 高麗 (Korea, Corée, Корея)","ru":"от Корё 高麗 (Korea, Corée, Корея)","uk":"від Корьо 高麗 (Korea, Corée, Корея)","ar":"من كوريو 高麗 (Korea, Corée, Корея)","he":"מקוריו 高麗 (Korea, Corée, Корея)","sw":"kutoka Goryeo 高麗 (Korea, Corée, Корея)"},
@@ -571,5 +590,24 @@ WORDS.korea = {
     ksh: ["Korea", "koˈʁeːa"],  // The European name Korea, which comes from Goryeo 高麗, the dynasty that ruled Korea from 918 to 1392 (Wiktionary, Wikipedia).
     hak_hl: ["韓國", "hon˥˥ kuet˥"],  // Hailu Hakka hon gued, literally 'Han country', short for 大韓民國, South Korea's official name.
     zh_hf: ["韩国", "xɐ̃˦˥ kuɐʔ˦"],  // Literally 'Han country', short for 大韓民國, South Korea's official name.
+    lt: ["Korėja", "kɔˈrʲeːjɛ"],  // Lithuanian Korėja is the international name from Goryeo 高麗, with the stress on the long ė; South Korea is Pietų Korėja.
+    bs: ["Koreja", "koˈrɛːja"],  // Bosnian Koreja, with a long rising accent on the e, is the international name from Goryeo 高麗; South Korea is Južna Koreja.
+    kok: ["कोरिया", "koːrijaː"],  // Konkani कोरिया is the international name from Goryeo 高麗; South Korea is दक्षिण कोरिया.
+    ssw: ["iKhoriya", "ikʰorija"],  // siSwati iKhoriya adapts the international name Korea, from Goryeo 高麗; South Korea is iKhoriya leseNingizimu, 'Korea of the south'.
+    shn: ["ၵၢဝ်းလီ", "kaːw˥ liː˨˦"],  // Shan ၵၢဝ်းလီ is the shared element of South Korea ၵၢဝ်းလီၸၢၼ်း and North Korea ၵၢဝ်းလီႁွင်ႇ, usually preceded by မိူင်း 'country'.
+    cpx: ["韩国", "haŋ˩˧ kɒʔ˨˩"],  // Putian reading of 韓國, 'Han country', the Chinese name for South Korea.
+    mni: ["ꯀꯣꯔꯤꯌꯥ", "koɾija"],  // ꯀꯣꯔꯤꯌꯥ is the title of the Meitei Wikipedia article on Korea; South Korea is ꯈꯥ ꯀꯣꯔꯤꯌꯥ.
+    tcy: ["ಕೊರಿಯಾ", "koɾijaː"],  // The Tulu name for Korea, as in ದಕ್ಷಿಣ ಕೊರಿಯಾ 'South Korea', the Tulu Wikipedia title; the same form as Kannada ಕೊರಿಯಾ.
+    bbc: ["Korea", "korea"],  // Korea in Toba Batak; South Korea is Korea Dangsina, North Korea Korea Utara (Toba Batak Wikipedia titles).
+    mak: ["Korea", "koˈrea"],  // Korea in Makassarese; South Korea is Korea I Timborok, North Korea Korea I Warak (Makassarese Wikipedia, Incubator). Stress on the penult, as in the row's India.
+    pms: ["Coréa", "kuˈrea"],  // Korea in Piedmontese; South Korea is Coréa dël Sud. Unstressed o is read u, as in the row's Giapon.
+    tsg: ["Kuriya", "kuriˈja"],  // Borrowed from English Korea, ultimately from Goryeo 高麗; South Korea is Kuriya Salatan (Wiktionary).
+    li: ["Korea", "koˈrɛːjaː"],  // Korea in Limburgish; South Korea is Zuud-Korea (Limburgish Wiktionary).
+    sc: ["Corea", "koˈrɛa"],  // Korea in Sardinian, also written Corèa; South Korea is Corea de su Sud.
+    iba: ["Korea", "korea"],  // The Iban Wikipedia's name for Korea; South Korea is Korea Selatan.
+    quz: ["Kurya", "ˈkurja"],  // The Quechua Wikipedia's name for Korea, which it glosses with 고려 Goryeo; South Korea is Urin Kurya.
+    gor: ["Korea", "koˈrea"],  // Korea in Gorontalo, as in Korea Selatan 'South Korea' and Korea Utara 'North Korea' (Gorontalo Wikipedia).
+    kbp: ["Kooree", "koːreː"],  // The Kabiye Wikipedia's name for Korea; South Korea is Kooree Hadɛ Kiŋ.
+    cv: ["Корей", "koˈrej"],  // Korea in Chuvash, which drops the Russian ending as in Япони 'Japan'; South Korea is Кӑнтӑр Корей (Chuvash Wikipedia).
   },
 };

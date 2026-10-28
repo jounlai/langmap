@@ -349,6 +349,50 @@ WORDS.greece = {
     es_ec: "graecia",
     es_ve: "graecia",
     es_uy: "graecia",
+    bs: "graecia",
+    zza: "ionia",
+    srn: "graecia",
+    kok: "graecia",
+    mzn: "ionia",
+    cpx: "hellas",
+    bug: "ionia",
+    sas: "ionia",
+    kam: "graecia",
+    xog: "graecia",
+    myx: "ionia",
+    nyn: "graecia",
+    sid: "graecia",
+    haz: "ionia",
+    sdh: "ionia",
+    gbm: "ionia",
+    bej: "ionia",
+    ay: "graecia",
+    bbc: "ionia",
+    mni: "graecia",
+    kbd: "unknown",
+    sco: "graecia",
+    brx: "graecia",
+    iba: "graecia",
+    av: "graecia",
+    li: "graecia",
+    kbp: "graecia",
+    nus: "graecia",
+    tem: "graecia",
+    ljp: "ionia",
+    gor: "ionia",
+    mnk: "graecia",
+    quz: "graecia",
+    mtq: "hellas",
+    nag: "graecia",
+    srr: "graecia",
+    seh: "graecia",
+    mfe: "graecia",
+    sus: "graecia",
+    dag: "graecia",
+    xnr: "ionia",
+    nym: "graecia",
+    ada: "hellas",
+    bqi: "ionia",
   },
   routes: {
     graecia: {"color":"#2563eb","emoji":"🏛️","en":"from Latin Graecia (Greece, Grèce, Греция)","ja":"ラテン語 Graecia から（Greece, Grèce, Греция）","ko":"라틴어 Graecia에서 (Greece, Grèce, Греция)","zh":"源自拉丁语 Graecia（Greece、Grèce、Греция）","yue":"源自拉丁文 Graecia（Greece、Grèce、Греция）","vi":"từ tiếng Latin Graecia (Greece, Grèce, Греция)","th":"จากละติน Graecia (Greece, Grèce, Греция)","id":"dari Latin Graecia (Greece, Grèce, Греция)","hi":"लैटिन Graecia से (Greece, Grèce, Греция)","de":"aus lateinisch Graecia (Greece, Grèce, Греция)","fr":"du latin Graecia (Greece, Grèce, Греция)","it":"dal latino Graecia (Greece, Grèce, Греция)","es":"del latín Graecia (Greece, Grèce, Греция)","pt":"do latim Graecia (Greece, Grèce, Греция)","ru":"от латинского Graecia (Greece, Grèce, Греция)","uk":"від латинського Graecia (Greece, Grèce, Греция)","ar":"من اللاتينية Graecia (Greece, Grèce, Греция)","he":"מהלטינית Graecia (Greece, Grèce, Греция)","sw":"kutoka Kilatini Graecia (Greece, Grèce, Греция)"},
@@ -638,5 +682,49 @@ WORDS.greece = {
     es_ec: ["Grecia", "ˈɡɾesja"],  // The Spanish name, from Latin Graecia; with the seseo of the Americas, as the Mexican Spanish cell.
     es_ve: ["Grecia", "ˈɡɾesja"],  // The Spanish name, from Latin Graecia; with the seseo of the Americas, as the Mexican Spanish cell.
     es_uy: ["Grecia", "ˈɡɾesja"],  // The Spanish name, from Latin Graecia; with the seseo of the Americas, as the Mexican Spanish cell.
+    bs: ["Grčka", "ˈɡr̩tʃkaː"],  // Grčka, from Grk "a Greek", from Proto-Slavic *grьkъ, ultimately from Latin Graecus.
+    zza: ["Yunanıstan", "junanɨsˈtan"],  // Yunanıstan is the title of the Zazaki Wikipedia article on Greece.
+    srn: ["Grikikondre", "ɡrikikondre"],  // Grikikondre, literally "Greek country", is the title of the Sranan Tongo Wikipedia article on Greece and the name in the Sranan Bible.
+    kok: ["ग्रीस", "ɡriːs"],  // ग्रीस is the title of the Konkani Wikipedia article on Greece.
+    mzn: ["یونان", "juːnɒːn"],  // یونان is the title of the Mazandarani Wikipedia article on Greece and the name used in Mazandarani Bibles.
+    cpx: ["希腊", "hi˥˧˧ laʔ˦"],  // The Putian reading of 希臘, the Chinese name that ultimately comes from Greek Hellas.
+    bug: ["Yunani", "junani"],  // Yunani, the same form as Indonesian, is the name used in the Buginese Bible.
+    sas: ["Yunani", "junani"],  // Yunani, the same form as Indonesian, is the name used in the Sasak New Testament.
+    kam: ["Ũkiliki", "okiliki"],  // Ũkiliki, with the country prefix ũ-, is the name used in the Kamba Bible.
+    xog: ["Bugureki", "buɡureki"],  // Bugureki, with the country prefix bu-, is the name used in the Lusoga Bible.
+    myx: ["Buyonaani", "bujonaːni"],  // Buyonaani, with the country prefix bu-, is the name used in both Lumasaaba Bibles; Luganda uses the same form.
+    nyn: ["Buguriiki", "buɡuriːki"],  // Buguriiki, with the country prefix bu-, is the name in the 2008 Runyankore-Rukiga Bible; the 1964 Bible wrote Bugriika.
+    sid: ["Giriike", "ɡiriːke"],  // Giriike is the name used in the Sidama Bible.
+    haz: ["یونان", "junɒn"],  // یونان, the same name as Persian Yunan, is used in the Hazaragi Bible.
+    sdh: ["یونان", "junɑːn"],  // یونان, the same name as Persian Yunan, is used in the Southern Kurdish Bible.
+    gbm: ["यूनान", "juːnaːn"],  // यूनान, the same name as Hindi, is used in both Garhwali Bibles, once as यूनान देस "the country Yunan".
+    bej: ["Yoonaan", "joːnaːn"],  // Yoonaan, the same name as Arabic al-Yūnān, is used in the Beja New Testament.
+    ay: ["Grisya", "ɡɾisja"],  // Grisya is the title of the Aymara Wikipedia article on Greece.
+    bbc: ["Junani", "dʒunani"],  // Junani is the title of the Toba Batak Wikipedia article on Greece, which glosses it as Indonesian Yunani.
+    mni: ["ꯒ꯭ꯔꯤꯁ", "ɡris"],  // ꯒ꯭ꯔꯤꯁ is the title of the Meitei Wikipedia article on Greece; the Meitei Bible (2022) likewise has Grista "to Greece" in Acts 20:2.
+    kbd: ["Алыджей", "aːɮədʒej"],  // Алыджей is the title of the Kabardian Wikipedia article on Greece, built on Алыдж "Greek" (as in Алыдж пащтыхьыгъуэ "kingdom of Greece", Daniel 8:21); the 2017 Kabardian New Testament uses the Russian loan Грецие instead.
+    sco: ["Greece", "ɡriːs"],  // The same name as English Greece, from Old French Grece, from Latin Graecia.
+    brx: ["ग्रीस", "ɡris"],  // ग्रीस is the Bodo name for Greece in the Unicode CLDR locale data; the Bodo Bible (Bengali script) has গ্রীস in Acts 20:2.
+    iba: ["Gerika", "ɡərika"],  // Borrowed from English Greek; Gerika is also the title of the Iban Wikipedia article on Greece.
+    av: ["Герек", "ɡerek"],  // Герек is the title of the Avar Wikipedia article on Greece and the Avar translation listed in Russian Wiktionary; the Avar Bible uses the Russian name Греция instead; no source gives the path of the word.
+    li: ["Griekeland", "ˈɣrikəlɑnt"],  // Griekeland, the Limburgish counterpart of Dutch Griekenland 'land of the Greeks', is the title of the Limburgish Wikipedia article on Greece.
+    kbp: ["Krɛsɩ", "krɛsɪ"],  // Krɛsɩ is the title of the Kabiye Wikipedia article on Greece; the Kabiye Bible spells it Grɛɛsɩ; no source gives the path of the word.
+    nus: ["Gɛ-rith", "ɡɛrit̪"],  // Gɛrith, written syllable by syllable as Gɛ-rith in the Nuer Bible, where Daniel's 'king of Greece' is kuäär Gɛ-rith.
+    tem: ["Kris", "kris"],  // Kris is the name of Greece in the Themne New Testament.
+    ljp: ["Yunani", "junani"],  // Yunani, the same form as Indonesian, is the name used in the Lampung Bible.
+    gor: ["Yunani", "juˈnani"],  // Yunani, the same form as Indonesian, is the name used in the Gorontalo Bible.
+    mnk: ["Jirisi", "dʒirisi"],  // Jirisi is Greece in the Mandinka Bible (Jirisi bankoo 'the land of Greece'); a Greek is Jirisinkoo.
+    quz: ["Grecia", "ˈɡɾesja"],  // Grecia, the Spanish name, is used in the Cusco Quechua Bible as Grecia suyu 'the land of Greece'; Wiktionary also lists a Quechua spelling Grisya.
+    mtq: ["Hi-lap", "hi laːp"],  // Hi-lap, like Vietnamese Hy Lạp, is the name of Greece in the Mường Bible.
+    nag: ["Greece", "ɡris"],  // Nagamese Bibles write the English name Greece.
+    srr: ["Geres", "ɡeres"],  // Geres is Greece in the Serer Bible's Acts; its Daniel keeps the Hebrew name Yawan.
+    seh: ["Geresya", "ɡeresja"],  // Geresya is Greece in the Sena New Testament (dziko ya Geresya 'the land of Greece').
+    mfe: ["Lagres", "laɡʁɛs"],  // From French la Grèce with the article fused into the name, like Lasinn for China; used in the Mauritian Creole New Testament.
+    sus: ["Girɛki", "ɡirɛki"],  // Girɛki is Greece in the Susu Bible (Girɛki bɔxi 'the land of Greece').
+    dag: ["Giriis", "ɡiriːs"],  // Giriis is Greece in both Dagbani Bibles.
+    xnr: ["यूनान", "juːnaːn"],  // यूनान, the same name as Hindi, is used in the Kangri New Testament as यूनान प्रदेस 'the land of Yunan'.
+    nym: ["Ugriki", "uɡriki"],  // Ugriki, with the country prefix u-, is Greece in the 1951 Nyamwezi Bible, like Swahili Ugiriki.
+    ada: ["Hela", "hela"],  // Hela, which echoes the Greeks' own Hellas, is Greece in both Dangme Bibles; no source gives the path of the word.
+    bqi: ["یونان", "junɒːn"],  // یونان, the same name as Persian Yunan, is used in the Bakhtiari Bible.
   },
 };

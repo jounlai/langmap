@@ -801,6 +801,15 @@ WORDS.tomorrow = {
     urh: "unknown",
     dyo: "unknown",
     nia: "unknown",
+    zap: "unknown",
+    inh: "unknown",
+    nzi: "unknown",
+    bdq: "unknown",
+    ctu: "unknown",
+    gym: "unknown",
+    gcf: "unknown",
+    frp: "morning",
+    lhu: "unknown",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -1546,5 +1555,14 @@ WORDS.tomorrow = {
     urh: ["odẹ", "odɛ"],  // Urhobo ódẹ is 'tomorrow'; yesterday is built on it, ódẹrókporina 'the ódẹ that has passed' (Matthew 6:34 'kpahe odẹ-ẹ' — about tomorrow).
     dyo: ["kajom", "kadʒɔm"],  // Jola-Fonyi kajɔm is 'tomorrow' and fukɛn 'yesterday'; adding -um makes 'the day after tomorrow'.
     nia: ["mahemolu", "mahemolu"],  // Mahemolu is the Nias word for tomorrow ('Möiga ba harimbale mahemolu' — we go to the harimbale tomorrow); yesterday is a different word, menewi.
+    zap: ["ixíʼ", "iʒiʔ"],  // Ixíʼ is 'tomorrow' in the Isthmus Zapotec Bible ('Yanadxí ne ixíʼ', today and tomorrow, Luke 13:32); yesterday is a different word, neegue.
+    inh: ["кхоана", "qoɑna"],  // Кхоана is 'tomorrow', akin to Chechen кхана; yesterday is a different word, селхан (Wiktionary).
+    nzi: ["ɛhyema", "ɛʃema"],  // Ɛhyema is 'tomorrow' in the Nzema Bible ('ɛnɛ nee ɛhyema', today and tomorrow, Luke 13:32); yesterday is a different word, anoma.
+    bdq: ["dơning", "dəniːŋ"],  // Dơning (năr dơning, 'the dơning day') is 'tomorrow' in the Bahnar Bible ('năr âu păng dơning', today and tomorrow, Luke 13:32); yesterday is năr brei.
+    ctu: ["ijkʼäl", "ihkʼɨl"],  // Ijkʼäl (Bible spelling ijc'ʌl) is 'tomorrow' in the Chol Bible ('wʌle yic'ot ijc'ʌl', today and tomorrow, Luke 13:32); yesterday is a different word, akʼbi.
+    gym: ["jetbe", "hetbe"],  // Jetbe is 'tomorrow' in the Ngäbere New Testament ('mtare ya o jetbe', today or tomorrow, James 4:13); yesterday is a different word, jändrin.
+    gcf: ["dèmen", "dɛmɛ̃"],  // Dèmen is 'tomorrow' in Guadeloupean Creole ('I ka vini dèmen', he is coming tomorrow, APiCS).
+    frp: ["deman", "dəˈmã"],  // Deman comes from Latin dē māne 'from the morning', like French demain (Wiktionary).
+    lhu: ["šɔ́-pɔ̄", "ʃɔ́pɔ̏"],  // Lahu šɔ́-pɔ̄ is 'tomorrow' (Matisoff); yesterday is a different word, a-nyi (Hebrews 13:8 'aˉ nyi, ya‸ nyi' — yesterday, today).
   },
 };

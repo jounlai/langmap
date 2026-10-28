@@ -626,6 +626,41 @@ WORDS.thunder = {
     ext: "plain",
     sgs: "unknown",
     koi: "unknown",
+    nyo: "unknown",
+    quy: "unknown",
+    dty: "plain",
+    ksb: "unknown",
+    hwc: "plain",
+    aii: "plain",
+    tzh: "plain",
+    dz: "other",
+    bum: "unknown",
+    ng: "unknown",
+    lue: "unknown",
+    khb: "sky",
+    tly: "imitative",
+    yua: "unknown",
+    spp: "unknown",
+    bsq: "unknown",
+    inh: "unknown",
+    rim: "unknown",
+    kqn: "unknown",
+    mam: "unknown",
+    pap: "unknown",
+    lij: "plain",
+    kxc: "unknown",
+    zap: "unknown",
+    gcf: "other",
+    bra: "plain",
+    rup: "unknown",
+    bzj: "plain",
+    gag: "sky",
+    tab: "unknown",
+    co: "plain",
+    bru: "unknown",
+    csb: "plain",
+    mvf: "unknown",
+    ngu: "unknown",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1198,5 +1233,40 @@ WORDS.thunder = {
     ext: ["truenu", "ˈtɾwenu"],  // The Extremaduran form of Spanish trueno, with the final -u the language uses for -o.
     sgs: ["dundūlis", "dunduːlʲɪs"],  // Samogitian Wikipedia's article on thunder is titled Dundūlis and gives graustėnis, the cognate of Lithuanian griaustinis, as a synonym.
     koi: ["гым", "ɡɨm"],  // The same word as Komi-Zyrian гым; a thundercloud is гыма кымӧр.
+    nyo: ["enkuba", "eŋkuba"],  // In John 12:29 of the 2008 Runyoro-Rutooro Bible the crowd says "nkuba niyo ebbwatukire", "it was the thunder that cracked"; the cognate of Runyankore enkuba.
+    quy: ["rayo", "ˈrajo"],  // Borrowed from Spanish rayo; the Ayacucho Bible renders Boanerges as "Rayopa churinkuna", "sons of thunder", and keeps rayo apart from llipya, the lightning, in Revelation 4:5.
+    dty: ["गर्जन", "ɡəɾdʒən"],  // The Doteli Bible explains Boanerges as "गर्जनको सन्तान", "sons of thunder" (Mark 3:17). Route by resemblance to the neighbouring forms (Hindi गरज); no etymology of its own.
+    ksb: ["lubambala", "lubambala"],  // The Shambala New Testament glosses Boanerges as "Wana lubambala", "sons of thunder" (Mark 3:17); the verb kuγuγumuka, to rumble, is used for the thundering in John 12:29.
+    hwc: ["thunda", "tʌndə"],  // In John 12:29 of the Hawaii Pidgin Bible the crowd says "Eh! Get thunda!", kept apart from lightning in Revelation 4:5. Route by resemblance to the neighbouring forms (English thunder); no etymology of its own.
+    aii: ["ܪܥܡܐ", "raʕma"],  // The Assyrian Bible renders Boanerges as "ܒܢܘܿܢܹ̈ܐ ܕܪܲܥܡܵܐ", "sons of thunder" (Mark 3:17). Route by resemblance to the neighbouring forms (Classical Syriac ܪܥܡܐ); no etymology of its own.
+    tzh: ["chauk", "tʃawk"],  // The Oxchuc Tzeltal Bible renders Boanerges as "Snich'nab Chawuc", "sons of thunder" (Mark 3:17), and keeps it apart from tsantsewal, the lightning; Amatenango writes chauk. Route by resemblance to the neighbouring forms (Tzotzil chauk); no etymology of its own.
+    dz: ["འབྲུག", "ʈuk"],  // The same word means dragon: in John 12:29 the crowd says "the dragon roared", and the sound itself is འབྲུག་སྐད, the dragon's voice.
+    bum: ["zoʼoyaŋ", "zoʔojaŋ"],  // The Bulu Bible explains Boanerges as "bone be zoʼoyaŋ", "children of thunder" (Mark 3:17), and pairs it with hail (metaʼa) in Exodus 9:23.
+    ng: ["omundundumo", "omundundumo"],  // A noun from the verb ndunduma "to thunder" (John 12:29 "omvula ya ndunduma", "the rain thundered"); the Ndonga Bible keeps it apart from oombadhi, the lightnings, in Revelation 4:5.
+    lue: ["mikalateta", "mikalateta"],  // Used in the plural: the Luvale Bible calls James and John "Vana vamikalateta", "sons of thunder", and keeps it apart from miveso, the lightnings.
+    khb: ["ᦝᦱᧉᦣᦸᧂᧉ", "faː˩ hɔŋ˩"],  // Literally "the sky cries out", like Thai ฟ้าร้อง, of which Wiktionary lists it as the cognate.
+    tly: ["qürrə", "ɡyrrə"],  // Wiktionary marks it as onomatopoeic; the fuller avəqürrə is a synonym, and the Iranian Talysh Bible calls James and John "the sons of gərr" (Mark 3:17).
+    yua: ["kíilbal cháak", "kiːlbal tʃaːk"],  // Literally "the rumbling of cháak", this row's word for rain; the Maya Bible calls James and John "u Paalal u Quíilbal Cháac", "sons of thunder" (Mark 3:17).
+    spp: ["kiletinni", "kiletinːi"],  // Kept apart from kileɲini, the lightning, in Revelation 4:5; in John 12:29 the crowd says "Kileŋ'à tîn", with Kile, the word for God, as the subject of the thundering.
+    bsq: ["zɛ", "zɛ"],  // Thunder "cracks" (páná) in the Bassa Bible, which keeps it apart from wɛ́ɖɛ́-wɛ́ɖɛ́, the lightning, in Exodus 9:23 and explains Boanerges as men with a voice like zɛ.
+    inh: ["ди", "di"],  // Spelled the same as ди 'day'; the roll of thunder is ди къовкъар, and the lightning is тӀоа.
+    rim: ["irunkumo", "iɾuŋkumo"],  // Kept apart from ufëto, the lightning, in Revelation 4:5 and 11:19; Mark 3:17 renders 'sons of thunder' differently, as anaa gëtetemo.
+    kqn: ["kilulumo", "kilulumo"],  // The noun of the verb -luluma 'to thunder' (John 12:29 'Waluluma'); the plural is bilulumo, and the lightning is kubeesha.
+    mam: ["qʼankyaq", "qʼankʲaq"],  // Kept apart from xloqʼlin kyaʼj, the lightning, in Revelation 4:5; the Huehuetenango Bible spells it qʼankyoq.
+    pap: ["strena", "ˈstrena"],  // Kept apart from lamper, the lightning: Papiamentu Wikipedia calls Thor 'e dios di strena i lamper', the god of thunder and lightning.
+    lij: ["trón", "truŋ"],  // From Latin tonus 'thunderclap', blended with tonitrus, like Piedmontese and Lombard tron; the plural is troìn.
+    kxc: ["qaqawwa", "ʛaʛawːa"],  // Kept apart from hankaada, the lightning; its q is the rare uvular implosive that Konso has instead of an ejective.
+    zap: ["rayu", "raju"],  // The lightning is called xpiaani rayu in Revelation 4:5 and 11:19.
+    gcf: ["loraj", "loʁaʒ"],  // Kept apart from zéklè, the lightning; tonnè also occurs. Route by resemblance to the neighbouring forms (ht(loray) mfe(loraz) crs(loraz)); no etymology of its own.
+    bra: ["गर्जन", "ɡərdʒən"],  // From Sanskrit garjana 'roaring', like Hindi गरज; John 12:29 uses the verb, बादर गरजौ 'the cloud thundered'. Route by resemblance to the neighbouring forms (hi(गरज) pa(ਗਰਜ)); no etymology of its own.
+    rup: ["bumbunidzari", "bumbuniˈdzari"],  // The Aromanian Bible says in John 12:29 that some thought 'eara un bumbunidzari', 'it was thunder', and Revelation 4:5 sets bumbunidzãri, the thunders, beside sfulguri, the lightnings.
+    bzj: ["tonda", "tonda"],  // The Belize Kriol New Testament says in John 12:29 that the crowd thought 'dat da-mi tonda', 'that was thunder'; route by resemblance to the neighbouring creole forms (Jamaican and Nigerian Pidgin tonda, from English thunder).
+    gag: ["gök gürültüsü", "ˈɟøc ɟyryltysy"],  // Literally 'the sky's noise', gök 'sky' + gürültü 'noise', as in Turkish; the Gagauz New Testament calls James and John 'Gök gürültü oolları', the sons of thunder.
+    tab: ["гъугърум", "ʁuʁrum"],  // IDS records гъугърум for thunder in Northern Tabasaran and хъухърум in the Southern dialect; the Tabasaran Bible's Revelation 11:19 has 'гъугърумарин гъугъ', the rumble of the thunders.
+    co: ["tonu", "ˈtɔnu"],  // The Corsican Gospels render Boanerges in Mark 3:17 as 'figlioli di u tonu', sons of thunder; tronu is also used, and route by resemblance to Italian tuono, from Latin tonus.
+    bru: ["crứm", "krɨm"],  // The Bru Bible renders Boanerges in Mark 3:17 as 'sanŏ́q crứm', sons of thunder, and Revelation 4:5 has 'sưong crứm', the sound of thunder, beside lalieiq, the lightning.
+    csb: ["grzmòt", "ɡʒmwɛt"],  // The Kashubian counterpart of Polish grzmot, from the verb 'to thunder'; grzëmòt is also recorded, meaning both thunder and a thunderstorm.
+    mvf: ["qugude", "ʨuɡude"],  // The same word names the lightning: the Huzhu Mongghul word list glosses qugude as both thunder and lightning.
+    ngu: ["tlacomonajli", "tɬakomoˈnahli"],  // A noun from the verb tlacomoni 'it thunders'; the Guerrero Nahuatl New Testament says in John 12:29 that 'ocaquistic se tlacomonajli', a thunder was heard.
   },
 };

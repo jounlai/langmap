@@ -215,6 +215,20 @@ for (const [block, info] of found) {
 }
 for (const u of unscoped) missing.push(['Nôm subset unicode-range', `add ${u}`, []]);
 
+// The SSR pages (seo/lib.php) load Tangut and Phags-pa from Google Fonts with
+// &text=, but a loaded face only draws text whose font-family names it. The
+// word cards and the hero named neither, so /ja/wordmap/txg showed tofu on
+// desktop while the font sat unused (2026-10-28). Every native-text chain
+// there (the ones carrying "Noto Sans Syriac") must name both.
+const seoCss = fs.readFileSync(path.join(ROOT, 'seo', 'lib.php'), 'utf8');
+for (const m of seoCss.matchAll(/font-family:[^;{}]*;/g)) {
+    if (!m[0].includes('"Noto Sans Syriac"')) continue;
+    const line = seoCss.slice(0, m.index).split('\n').length;
+    for (const f of ['Noto Serif Tangut', 'Noto Sans Phags Pa']) {
+        if (!m[0].includes(`"${f}"`)) missing.push([`seo/lib.php:${line}`, `${f} — missing from SSR chain`, []]);
+    }
+}
+
 console.log(`scripts without a font: ${missing.length}`);
 for (const [block, font, codes] of missing) {
     console.log(`  ${block.padEnd(24)} needs ${font}   (languages: ${codes.slice(0, 8).join(', ')}${codes.length > 8 ? ', …' : ''})`);

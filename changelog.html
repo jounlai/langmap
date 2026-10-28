@@ -157,6 +157,7 @@
             <div class="date">2026-10-28 — Tangut shows its characters again</div>
             <ul>
                 <li>Word Map: the <b>Tangut</b> page showed boxes in place of most of its characters on computers. The September review of the Tangut row replaced most of its words, but the font the site ships was still cut to the old characters, so 45 of them had no glyph. The font has been rebuilt from the current data, and a new check now opens each historic-script font file and fails when the data uses a character the file does not contain.</li>
+                <li>The language pages (such as the Japanese Tangut page) still showed boxes after that fix. They load the Tangut font, but the word cards and the page heading never asked for it by name, so the browser left it unused. The cards and heading now name the Tangut and Phags-pa fonts, and the font check covers these pages too.</li>
             </ul>
         </div>
 

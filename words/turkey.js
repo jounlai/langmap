@@ -346,6 +346,42 @@ WORDS.turkey = {
     ksw: "local",
     zh_db: "elsewhere",
     ext: "local",
+    aii: "local",
+    cbk: "local",
+    kek: "local",
+    tzh: "local",
+    khb: "local",
+    lez: "india",
+    pcd: "india",
+    kea: "peru",
+    fy: "india",
+    crh: "unknown",
+    szl: "local",
+    rcf: "india",
+    sah: "india",
+    xmf: "unknown",
+    nhw: "local",
+    zap: "unknown",
+    kaa: "local",
+    kum: "unknown",
+    nch: "local",
+    nhe: "local",
+    tzo: "local",
+    br: "india",
+    inh: "elsewhere",
+    pap: "india",
+    guc: "local",
+    maw: "local",
+    ngu: "local",
+    lbe: "elsewhere",
+    co: "local",
+    ab: "unknown",
+    kpv: "india",
+    gag: "elsewhere",
+    ami: "local",
+    ty: "unknown",
+    myv: "unknown",
+    cab: "unknown",
   },
   routes: {
     india: {"color":"#ea580c","emoji":"🐘","en":"named for India · the Indies","ja":"インドの名で","ko":"인도의 이름으로","zh":"以印度为名","yue":"以印度為名","vi":"theo tên Ấn Độ","th":"ตั้งตามอินเดีย","id":"dinamai India","hi":"भारत के नाम पर","de":"nach Indien benannt","fr":"nommé d'après l'Inde","it":"dal nome dell'India","es":"por la India","pt":"pelo nome da Índia","ru":"по Индии","uk":"за Індією","ar":"باسم الهند","he":"על שם הודו","sw":"kwa jina la India"},
@@ -633,5 +669,41 @@ WORDS.turkey = {
     ksw: ["ဆီကဆီ", "sʰɔkəsʰɔ"],  // A native compound built on ဆီ 'chicken'.
     zh_db: ["外国鸡", "waɪ̯˥˩ kwo˧˩˧ tɕi˥"],  // Literally "foreign chicken", the name Wiktionary's dialect survey records for Harbin (and Beijing and Tianjin).
     ext: ["pavu", "ˈpaβu"],  // From Latin pāvō "peacock", like Spanish pavo, with the Astur-Leonese final -u.
+    aii: ["ܟ̰ܝܼܪܘܿ", "tʃiːroː"],  // An imitative word, from the bird's call; the cock is qārōyā d-miṣrēn, the 'Egyptian rooster'.
+    cbk: ["pavo", "ˈpabo"],  // Inherited from Spanish pavo, originally 'peacock'.
+    kek: ["akʼach", "akʼatʃ"],  // Inherited from Proto-Mayan *ʔakʼ.aach 'wild turkey', a native name for a native bird.
+    tzh: ["tulukʼ", "tulukʼ"],  // Borrowed from Zoque, a neighbouring native language; it names the species in general or the hen, the cock being jkots (Polian's Tseltal dictionary).
+    khb: ["ᦺᦂᧈᦷᦇᧂ", "kaj˧˥ ŋoŋ˥˩"],  // Literally 'trunk chicken': ŋoŋ is an elephant's trunk, as in Thai ไก่งวง; the same dictionary also lists kaj xoo cii, a calque of Chinese 火鸡.
+    lez: ["уьндуьшка", "ynˈdyʃka"],  // The general word for turkey (cock, hen or bird); the cock is уьндуьшкад кӏек and the hen уьндуьшкад верч. Route by resemblance to the neighbouring forms (az(hinduşka) azb(هیندوشکا) be(індычка)); no etymology of its own.
+    pcd: ["codinne", "kɔdɛn"],  // Feminine of codin 'turkey cock', from coq d'Inde 'cock of India'; Picard Wikipedia also lists poulhdin·ne and pourdin·ne.
+    kea: ["peru", "ˈpeɾu"],  // The Santiago (Badiu) word for the turkey, written the same as Portuguese peru. Route by resemblance to the neighbouring forms (pt_br(peru) pt_ao(peru)); no etymology of its own.
+    fy: ["kalkoen", "kɔlˈkun"],  // Borrowed from Dutch kalkoen, from older Calcoensche haan 'hen from Calicut', the Indian port now Kozhikode.
+    crh: ["müsür", "myˈsyr"],  // The word used for turkey meat in Crimean Tatar cookery articles; körel and köküş are also listed by the dictionaries.
+    szl: ["pultok", "ˈpultɔk"],  // From German Puter, itself imitative of the bird's call; pulok, pulak and puter are also heard in Upper Silesia.
+    rcf: ["dind", "dɛ̃d"],  // From French dinde, from poule d'Inde 'hen of the Indies'; the male is mâle dinde.
+    sah: ["индейка", "inˈdejka"],  // Borrowed from Russian индейка, from Latin indicus 'Indian'.
+    xmf: ["კოკუში", "kʼokʼuʃi"],  // Glossed as Georgian ინდაური 'turkey' in Daniel Pipia's Mingrelian–Georgian dictionary.
+    nhw: ["totoli", "toˈtoli"],  // The native Nahuatl name of the bird, cognate with Classical tōtolin; the male is palach and the hen siuatotoli.
+    zap: ["touʼ", "touʔ"],  // Glossed 'guajolote, pavo' in Pickett's Vocabulario zapoteco del Istmo; the apostrophe marks a checked vowel.
+    kaa: ["túyetawıq", "tyjetawɯq"],  // Literally 'camel hen', from túye 'camel' and tawıq 'hen', a descriptive name for the big bird.
+    kum: ["гюргюр", "ɡyrɡyr"],  // Glossed 'turkey' (both the hen and the cock) in the 2013 Kumyk–Russian dictionary; the hen is тиши гюргюр, and Avar has the similar гургур.
+    nch: ["palach", "ˈpalatʃ"],  // Borrowed from Huastec (Teenek) palats, the native name of the bird in the Huasteca.
+    nhe: ["palach", "ˈpalatʃ"],  // From Huastec (Teenek) palats, the native name of the bird in the Huasteca; Wiktionary also lists totoli, cognate with Classical Nahuatl tōtolin.
+    tzo: ["tulukʼ", "tulukʼ"],  // The native Mesoamerican name, shared with Tseltal tulukʼ, which the Tseltal dictionary traces to Zoque; the male is kots tulukʼ.
+    br: ["yar-Indez", "jaˈrĩːndes"],  // Literally 'hen of India' (yar 'hen' + Indez 'India'); the cock is kilhog-Indez.
+    inh: ["москал", "ˈmoskaːl"],  // Ingush москал, as in Chechen, named after Moscow; the hen is москал-котам and the cock москал-боргӀал. Route by resemblance to the neighbouring forms (ce(москал)).
+    pap: ["kalakuna", "kalaˈkuna"],  // From Dutch kalkoen, itself named after the Indian port of Calicut; the 1930 Dutch-Papiamentu word list spells it Kalakoena. Route by resemblance to the neighbouring forms (nl(kalkoen)).
+    guc: ["paawo", "paːwo"],  // Borrowed from Spanish pavo, originally the word for the peacock.
+    maw: ["tɔlɔtɔlɔ", "tɔlɔtɔlɔ"],  // Borrowed from Hausa, where the name is probably imitative of the bird's call; the plural is tɔlɔtɔlɔdima.
+    ngu: ["uexolotl", "weˈʃolotɬ"],  // The native Nahuatl name, source of Mexican Spanish guajolote; the hen is totolin.
+    lbe: ["оьрус аьнакӏи", "oˤrus aˤnakʼi"],  // Literally 'Russian chicken', the bird named after Russia; compare Chechen москал.
+    co: ["gallinacciu", "ɡalliˈnattʃu"],  // From Latin gallinaceus 'of hens', like Italian gallinaccio; the hen is gallinaccia.
+    ab: ["акәакәышь", "akʼʷakʼʷəʃ"],  // The Abzhywa form, on which literary Abkhaz is based; Bzyp dialect says аҫәиҫәи.
+    kpv: ["индюк", "inˈɟuk"],  // Borrowed from Russian индюк, built on the old name of India; the hen is индейка.
+    gag: ["mısırka", "mɯˈsɯrka"],  // Literally 'Egyptian woman' (Mısır 'Egypt'); the dictionary also gives pipi for the hen and bura for the cock.
+    ami: ["siciminciw", "sitsimintsiw"],  // Borrowed from Japanese 七面鳥 shichimenchō 'seven-faced bird'.
+    ty: ["moa raʻoro", "moa ɾaʔoɾo"],  // Literally 'raʻoro fowl' (moa 'chicken'); raʻoro alone also means turkey.
+    myv: ["курка", "ˈkurka"],  // The Erzya dictionary defines it as 'Индиянь сараз' (India's hen); атяка курка is the cock and авака курка the hen.
+    cab: ["figága", "fiˈɡaɡa"],  // The Garifuna name of the turkey; no etymology found.
   },
 };

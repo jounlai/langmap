@@ -649,6 +649,46 @@ WORDS.olderbrother = {
     crk: "age",
     nan_pn: "age",
     yue_dg: "age",
+    nia: "age",
+    tly: "age",
+    fur: "unknown",
+    rue: "unknown",
+    mev: "age",
+    kxc: "age",
+    maw: "age",
+    guc: "age",
+    bft: "age",
+    rup: "plain",
+    bto: "age",
+    xmf: "unknown",
+    zap: "unknown",
+    asu: "unknown",
+    adi: "age",
+    fy: "unknown",
+    oc: "unknown",
+    lij: "unknown",
+    szl: "unknown",
+    pdt: "unknown",
+    krc: "unknown",
+    jmc: "unknown",
+    ast: "plain",
+    co: "plain",
+    csb: "plain",
+    ab: "unknown",
+    lzz: "unknown",
+    frp: "unknown",
+    byn: "unknown",
+    cab: "age",
+    mdr: "age",
+    bzj: "unknown",
+    bi: "unknown",
+    hns: "unknown",
+    kfx: "unknown",
+    ssy: "unknown",
+    enq: "unknown",
+    maz: "unknown",
+    saq: "unknown",
+    nch: "unknown",
   },
   routes: {
     age: {"color":"#db2777","emoji":"👆","en":"a word just for an older brother","ja":"兄だけを指す語","ko":"형만 가리키는 낱말","zh":"专指哥哥的词","yue":"專指哥哥嘅詞","vi":"từ riêng cho anh","th":"คำเฉพาะสำหรับพี่ชาย","id":"kata khusus untuk kakak","hi":"बड़े भाई का अलग शब्द","de":"eigenes Wort für den älteren Bruder","fr":"un mot propre au frère aîné","it":"una parola solo per il fratello maggiore","es":"una palabra solo para el hermano mayor","pt":"uma palavra só para o irmão mais velho","ru":"отдельное слово для старшего брата","uk":"окреме слово для старшого брата","ar":"كلمة خاصة بالأخ الأكبر","he":"מילה מיוחדת לאח הגדול","sw":"neno maalum kwa kaka mkubwa"},
@@ -1239,5 +1279,45 @@ WORDS.olderbrother = {
     crk: ["ᓂᐢᑌᐢ", "nisteːs"],  // Plains Cree nistês is 'my older brother', also an older male parallel cousin; a younger sibling is nisîmis.
     nan_pn: ["哥哥", "ko˧˧ ko˧˧"],  // Penang Hokkien calls an older brother ko or ko-ko, and adds Ko to the name of any older man of one's own generation.
     yue_dg: ["阿哥", "ʔa˨˧ kɔ˨˧"],  // Dongguan addresses an older brother as 阿哥 and refers to him as 大佬.
+    nia: ["kaʼa", "ˈkaʔa"],  // Ka'a is an older sibling of either sex; a younger sibling is akhi.
+    tly: ["bilə", "bilə"],  // Talysh bilə is an older brother; a younger brother is boyli, from boə 'brother'.
+    fur: ["fradi", "ˈfradi"],  // Friulian fradi, from Latin frāter, is 'brother'.
+    rue: ["брат", "brat"],  // Rusyn брат is 'brother'.
+    mev: ["lìī", "lìī"],  // Mano lìī is an older sibling of either sex (lìī gɔ̰̄zɛ̀ specifies a brother); a younger sibling is lēkè, and 'brother' in general is mɔ́nɔ̀gɔ̰̀.
+    kxc: ["aattaa", "aːtːaː"],  // Konso aattaa is an elder sibling (vocative aatti); a brother in general is alawa, 'male sibling'.
+    maw: ["beeri", "beːri"],  // Mampruli beeri is an elder sibling of the same sex as the speaker; a junior same-sex sibling is tinzɔ, and the eldest bɛkpeema.
+    guc: ["epaya", "epaja"],  // Wayuunaiki epaya is an older brother or sister; a younger brother is emiilia, and awala is any sibling.
+    bft: ["ཀ་ཀ", "kaka"],  // Balti kaka is an elder brother, also an elder man in general; a younger brother is phono, and ཨ་ཆོ is the honorific.
+    rup: ["frate", "ˈfrate"],  // Aromanian frate is a brother of any age; an older brother is said with a phrase using cama mare, 'bigger'.
+    bto: ["mānoy", "maːnɔj"],  // Rinconada Bikol mānoy is an older brother and mānay an older sister, while a brother in general is ŋod, as in Ŋod ko si Uwan, 'John is my brother'.
+    xmf: ["ჯიმა", "dʒima"],  // Mingrelian ჯიმა is 'brother'.
+    zap: ["biʼchiʼ", "biʔtʃiʔ"],  // Isthmus Zapotec bi'chi' is a man's brother; a woman's brother (or a man's sister) is biza'na'.
+    asu: ["ifolong'o", "ifoloŋo"],  // Pare ifolong'o is given for an (older) brother in both North and South Pare.
+    adi: ["aabing", "aːbɨŋ"],  // Adi aabing is used by younger siblings for an elder brother (biibing in address); biro is a brother in general, and a younger brother is biro aniyang.
+    fy: ["broer", "bruər"],  // West Frisian broer is 'brother'.
+    oc: ["fraire", "ˈfrajre"],  // Occitan fraire is 'brother', from Latin frater.
+    lij: ["fræ", "frɛː"],  // Ligurian fræ is 'brother', from Latin frater.
+    szl: ["brat", "brat"],  // Silesian brat is 'brother'.
+    pdt: ["Brooda", "ˈbroːda"],  // Plautdietsch Brooda is 'brother', plural Breeda.
+    krc: ["къарнаш", "qarˈnaʃ"],  // Karachay къарнаш is 'brother'; Balkar says къарындаш.
+    jmc: ["mwanama", "mwanama"],  // Machame mwanama is given for an (older) brother.
+    ast: ["hermanu", "eɾˈmanu"],  // Asturian hermanu is a brother of any age; an older brother is a hermanu mayor and a younger one a hermanu pequeñu.
+    co: ["fratellu", "fraˈtɛllu"],  // Corsican fratellu is a brother of any age; age is added with a phrase such as fratellu più vechju 'older brother' or più giovanu 'younger'.
+    csb: ["brat", "brat"],  // Kashubian brat is a brother of any age; an older brother is a starszi brat, 'older brother'.
+    ab: ["аиашьа", "ajaʃa"],  // Abkhaz аиашьа is a brother of any age; Abkhaz Wikipedia calls Napoleon's older brother Joseph аиашьа еиҳабы, 'senior brother'.
+    lzz: ["ჯუმა", "dʒuma"],  // Laz ჯუმა (cuma) is 'brother', from Proto-Kartvelian *ʒ₁am-; no source seen says whether Laz has a separate older-brother word.
+    frp: ["frâre", "frar"],  // Arpitan frâre, from Latin frāter, is 'brother'; no source seen says whether an older brother has his own word.
+    byn: ["ዳን", "dan"],  // Blin dan is 'brother' (sister: shani); no source seen says whether Blin has a separate older-brother word.
+    cab: ["átii", "ˈatiː"],  // Garifuna átii is an older brother; a younger brother is amule, and ibiri is 'brother' in general.
+    mdr: ["kaka", "kaka"],  // Mandar kaka, from Proto-Austronesian *kaka, is an older sibling; a younger sibling is andi.
+    bzj: ["breda", "breda"],  // Belize Kriol breda, from English brother, is a brother of any age; the Kriol New Testament calls the older brother of the Prodigal Son di oalda breda.
+    bi: ["brata", "brata"],  // Bislama brata, from English brother, is used for older and younger brothers alike; the Bislama Bible marks birth order with fasbon 'first-born' and sekenbon 'second-born' instead.
+    hns: ["bhai", "bʱai"],  // Sarnami bhai is any brother; the Sarnami New Testament calls an older brother barka bhaai, 'big brother', and a younger one tjhota bhaai.
+    kfx: ["भाई", "bʱaːiː"],  // Kullui भाई is any brother; the Kulvi New Testament calls an older brother बड़ा भाई, 'big brother'.
+    ssy: ["sacal", "saʕal"],  // Saho sacal is 'brother'; no source seen says whether Saho has a separate older-brother word.
+    enq: ["kaiminingi", "kaiminiŋɡi"],  // Enga kaiminingi is a man's brother (a sibling of the opposite sex is pimalenge); Lang's dictionary as coded in Kinbank gives no separate older-brother term.
+    maz: ["cjuarma", "kʰwaɾma"],  // Mazahua cjuarma is 'brother' in the Mazahua New Testament; no source seen says whether there is a separate older-brother word.
+    saq: ["lalache", "lalatʃe"],  // Samburu lalache is 'brother' in the Samburu Bible, the counterpart of Maasai ɔlalashɛ; no source seen says whether an older brother has his own word.
+    nch: ["noicni", "noˈikni"],  // Huasteca Nahuatl -icni 'brother' (here with no- 'my', like the row's other kin words) is used in the Bible for both the younger Abel and the older Esau.
   },
 };

@@ -295,6 +295,39 @@ WORDS.littlefinger = {
     kri: "other",
     ee: "other",
     scn: "small",
+    hmn: "plain",
+    tpi: "small",
+    shn: "small",
+    din: "unknown",
+    kam: "unknown",
+    nyn: "other",
+    tum: "unknown",
+    ssw: "unknown",
+    kmb: "small",
+    ace: "unknown",
+    bjn: "unknown",
+    sas: "unknown",
+    mui: "unknown",
+    rki: "unknown",
+    haz: "unknown",
+    pag: "plain",
+    pwo: "unknown",
+    ce: "unknown",
+    nd: "unknown",
+    kha: "other",
+    teo: "small",
+    efi: "small",
+    ndc: "small",
+    toi: "unknown",
+    tyz: "unknown",
+    kok: "unknown",
+    rhg: "unknown",
+    pms: "unknown",
+    tsg: "plain",
+    mrw: "unknown",
+    mas: "unknown",
+    rgn: "small",
+    quz: "child",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -535,5 +568,38 @@ WORDS.littlefinger = {
     kri: ["las fiŋa", "las ˈfiŋa"],  // Literally 'last finger', the one at the end of the hand.
     ee: ["asibidɛ kɔtoetɔ", "asibidɛ kɔtoetɔ"],  // Literally 'the end-of-the-line finger': Westermann glosses kɔtoetɔ as German Flügelmann, the man at the end of a row.
     scn: ["jiditeddu", "jidiˈtɛɖɖu"],  // Diminutive of jìditu 'finger', so the 'little finger'; it can also mean a small finger in general.
+    hmn: ["ntiv tes rwg qab", "nti˨˦ te˨˩ ʈɨ˧˩ qa˥"],  // ntiv tes 'finger' + rwg, a word Heimbach's White Hmong dictionary gives only for the little finger and little toe (ntiv taw rwg qab 'little toe').
+    tpi: ["liklik pinga", "liklik piŋa"],  // Literally 'small finger' (liklik 'small' + pinga 'finger'), the partner of bikpela pinga 'big finger' for the thumb; Wiktionary also lists kilikili, from Malay kelingking.
+    shn: ["ၼိဝ်ႉၵွႆႈ", "niw˦˨ˀ kɔj˧˨"],  // ၼိဝ်ႉ 'finger' + ၵွႆႈ, the same word as Thai นิ้วก้อย; en.wiktionary also gives ၵိင်ႇၵွႆႈ. Route by resemblance to the neighbouring forms (th(นิ้วก้อย) lo(ນິ້ວກ້ອຍ)); no etymology of its own.
+    din: ["ciin ther", "tʃiːn t̪er"],  // ciin 'hand, finger' + ther; the SIL Dinka dictionary lists the phrase under ther 'apart from, aloof', so the finger that stands apart.
+    kam: ["kyaa kya mwela", "kjaː kja mwela"],  // kyaa 'finger' + kya mwela; both Kamba Bible translations use this phrase for the little finger.
+    nyn: ["akahera", "akahera"],  // Literally 'the small last one', the class-12 diminutive used especially for the fifth finger (Kaji's Rukiga vocabulary); compare Kinyarwanda agahera.
+    tum: ["kamunwe", "kamunwe"],  // The Tumbuka word for the little finger, plural tumunwe; the thumb is chigunwe.
+    ssw: ["cikilicane", "ǀikiliǀane"],  // The Swazi counterpart of Zulu and Xhosa ucikicane, a word of its own for the little finger.
+    kmb: ["mulembu ua teketeke", "mulembu wa teketeke"],  // Literally 'finger of the tiny one' (mulembu 'finger' + teketeke 'tiny'), against mulembu ua kikota 'finger of the elder' for the thumb.
+    ace: ["giték", "ɡiteʔ"],  // The Acehnese word for the little finger; in a saying the five fingers stand for the Prophet and the four caliphs, and giték is Ali.
+    bjn: ["kalingking", "kaliŋkiŋ"],  // The Banjar form of Indonesian kelingking.
+    sas: ["kerigiq", "kəriɡiʔ"],  // Glossed by the Kamus Sasak-Indonesia as 'the outermost finger of the hand; little finger'; entik is a synonym.
+    mui: ["entikan", "əntikan"],  // Glossed 'kelingking' in the Kamus Sederhana Bahasa Palembang; the Musi of the interior says kalengkeng. Initial e read as schwa, as in the row's empat.
+    rki: ["လက်သန်း", "lɔʔθáɴ"],  // The same word as Burmese လက်သန်း, built on လက် 'hand' like လက်မ for the thumb.
+    haz: ["کلکک", "kilkak"],  // Glossed 'the small finger of the human hand and foot' in Shahristani's Hazaragi-Persian dictionary, which also gives the variant چلکک čilkak.
+    pag: ["kiking", "kiˈkiŋ"],  // A word of its own, continuing Proto-Malayo-Polynesian *kiŋkiŋ 'little finger'; Benton's 1971 dictionary writes it kekéng.
+    pwo: ["စူၪဒ့ၭ", "su ɗeʔ"],  // Built on စူၪ 'hand', like စူၪမု for the thumb; the second element is not explained in the sources.
+    ce: ["цӏазапӏелг", "tsʼazapʼelɡ"],  // Ends in пӏелг 'finger', like нана-пӏелг 'mother finger' for the thumb; the first element is not explained in the sources.
+    nd: ["ucikilicane", "uǀikiliǀane"],  // The Northern Ndebele word, close to Zulu ucikicane; c is the dental click.
+    kha: ["'tiduh", "tiduʔ"],  // Literally 'the last finger' ('ti, short for kti 'hand'), as Singh's 1906 dictionary glosses it; 'tikhun is given as a synonym.
+    teo: ["ibokorit", "ibokorit"],  // The diminutive of ebokorit 'finger' (diminutive nouns take i-, as ekinok 'dog' becomes ikin'ok 'puppy'); Ongodia defines it as the small finger at the end.
+    efi: ["ekpri nnuenubọk", "ekpri n̩nuenubɔk"],  // Literally 'small finger' (ekpri 'small' + nnuenubọk 'finger').
+    ndc: ["chinwe chidoko", "tʃinwe tʃidoko"],  // Literally 'small finger' (chinwe 'finger' + -doko 'small').
+    toi: ["kantengeza", "kantenɡeza"],  // The Tonga word for the little finger; the finger in general is munwe.
+    tyz: ["nịu hỏi", "niw˧˨ʔ hɔj˨˩˧"],  // Built on nịu 'finger', like nịu me 'mother finger' for the thumb; the dictionary does not explain hỏi here.
+    kok: ["करंगळी", "kəɾəŋɡɭiː"],  // The same word as Marathi करंगळी, which goes back to Sanskrit kara 'hand' + aṅguli 'finger'.
+    rhg: ["kinna ouñl", "kinːa oũl"],  // Ends in ouñl 'finger', like buijjá ouñl 'old-man finger' for the thumb.
+    pms: ["mamlin", "mamˈliŋ"],  // The Piedmontese word for the little finger; mignolin, closer to Italian mignolo, is also listed.
+    tsg: ["kingking", "kiŋkiŋ"],  // A word of its own, continuing Proto-Malayo-Polynesian *kiŋkiŋ 'little finger', like Malay kelengkeng and Tagalog kalingkingan.
+    mrw: ["tingenting", "tiŋəntiŋ"],  // The Maranao word for the little finger; Tingenting a Bolawan 'the golden little finger' is a character in Maranao legends.
+    mas: ["enkilinta", "eŋkilinta"],  // The everyday Maasai word covers both the little finger and the little toe; northern Maa dialects say lenkitórdia instead.
+    rgn: ["did znìn", "did znin"],  // Literally 'small finger' (did 'finger' + znìn 'small'), the partner of did gròṣ 'big finger' for the thumb; Ercolani also lists mégnul, like Italian mignolo.
+    quz: ["sullkʼa rukʼana", "suʎkʼa ɾukʼana"],  // Literally 'the younger finger' (sullkʼa 'younger, minor' + rukʼana 'finger'); the Cusco Academy also gives chana rukʼana, with chana 'the last-born child'.
   },
 };

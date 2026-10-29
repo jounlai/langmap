@@ -365,6 +365,39 @@ WORDS.littlefinger = {
     lbe: "unknown",
     ami: "unknown",
     cnh: "unknown",
+    fo: "small",
+    crs: "small",
+    cr: "small",
+    mh: "small",
+    pwn: "unknown",
+    bnn: "unknown",
+    vro: "small",
+    abq: "unknown",
+    kl: "unknown",
+    emp: "small",
+    haw: "small",
+    rar: "small",
+    cho: "other",
+    hsb: "small",
+    frr: "small",
+    krl: "unknown",
+    olo: "unknown",
+    kmh: "unknown",
+    pau: "child",
+    rtm: "small",
+    oj: "other",
+    iu: "unknown",
+    rm: "small",
+    lld: "small",
+    nrf: "small",
+    dbq: "unknown",
+    dur: "other",
+    ch: "unknown",
+    poh: "child",
+    ja_rys: "small",
+    cni: "unknown",
+    nhx: "child",
+    pon: "small",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -675,5 +708,38 @@ WORDS.littlefinger = {
     lbe: ["битӏя кӏисса", "bitʼja kʼisːa"],  // Ends in кӏисса 'finger'; the meaning of битӏя is not given in the source.
     ami: ["salikikiʼ", "salikikiʔ"],  // Built with sali-, like salitataʼang 'thumb' from tataʼang 'big'; the dictionary does not gloss kikiʼ.
     cnh: ["hngete", "hŋete"],  // The word the 2019 Lai Bible uses in 1 Kings 12:10: 'Ka hngete cu ka pa tai nakin a chah deuh' (my little finger is thicker than my father's waist).
+    fo: ["lítlifingur", "ˈlʊihtlɪfɪŋkʊɹ"],  // Literally 'little finger' (lítli 'little' + fingur 'finger'); the Faroese Bible has 'Lítlifingur mín er tjúkri enn mjadnir faðirs míns!' (1 Kings 12:10).
+    crs: ["pti ledwa", "pti ledwa"],  // Literally 'little finger' (pti 'little' + ledwa 'finger', from French le doigt); the Kreol Bible has 'Mon pti ledwa i pli gro ki leren mon papa' (1 Kings 12:10).
+    cr: ["ᐊᐱᓯᒋᐦᒑᓂᐢ", "apisitʃihtʃaːnis"],  // Built from apisi- 'small' (as in apisicihcêsi 's/he has small hands'), so the 'small finger'; the Western Cree Bible has 'nit apiscicihcānis nawac misāw iyikohk notāwi ē ispitāskoyawēt' (1 Kings 12:10), and iskwêcihcîs 'last finger' is another name.
+    mh: ["addi-dik", "ɰærʲrʲijrʲik"],  // Literally 'small finger' (addi 'finger' + dik 'small'); the Marshallese-English Dictionary gives 'Edik jān addi-dikū' 'It's smaller than my little finger'.
+    pwn: ["ljaljakan", "ʎaʎakan"],  // Shares its stem with aljak 'child, youngest child' and sipualjaljakan 'the youngest child', so the finger is the baby of the hand; the ILRDF dictionary example is 'paljing aku ljaljakan' 'my little finger got swollen'.
+    bnn: ["tanascina", "tanastsina"],  // The dictionary word for the little finger, paired with tanastama for the thumb; the Bunun Bible instead writes the descriptive tanuduh-ikit 'small finger' (1 Kings 12:10).
+    vro: ["väikene sõrḿ", "væikene sɤrmʲ"],  // Literally 'small finger' (väikene 'small' + sõrḿ 'finger'); the Võro dictionary also lists playful names such as väikene ants 'little Ants' and latsik.
+    abq: ["мачвкӏыс", "matʃʷkʼəs"],  // Built on мачв(ы) 'finger', like мачвхъаба for the thumb; the toe counterpart is щачвкӏыс, from щачвы 'toe'.
+    kl: ["eqeqqoq", "eqeqːoq"],  // A word of its own for the little finger; Kleinschmidt's 1871 dictionary also uses it for the outermost toe of an animal, such as on a seal's front flipper.
+    emp: ["jʌwa jĩwĩni zake", "hɨwa hĩwĩni zake"],  // Literally 'hand finger small' (jʌwa 'hand' + jĩwĩni 'finger' + zake 'small'); the Northern Embera Bible's footnote to 1 Kings 12:10 has 'Mʌ̃ jʌwa jĩwĩnĩra...' for the Hebrew 'my little finger'.
+    haw: ["manamana iki", "manamana iki"],  // Literally 'small finger' (manamana 'finger' + iki 'small'), the partner of manamana nui for the thumb; Māmaka Kaiao also gives manamana liʻiliʻi, and older dictionaries and the Bible (1 Kings 12:10, kuʻu lima iki) say lima iki.
+    rar: ["mangamangā rima iti", "maŋamaŋaː ɾima iti"],  // Literally 'small finger of the hand' (mangamangā rima 'finger' + iti 'small'), in the same set as mangamangā rima nui for the thumb; the dictionary also gives mangamangā rima meangiti, and the Bible (1 Kings 12:10) has toku maikao-rima iti.
+    cho: ["ibbak ush ahli", "ibbak uʃ ahli"],  // Literally the 'end finger' (ibbak ushi 'finger' + ʋhli 'edge, end'), as iyush ʋhli is the 'end toe'; Byington writes it ibbak ush ʋhli, here with ʋ as a as in the row's other words (achafa for Byington achʋfa).
+    hsb: ["małušk", "ˈmawuʃk"],  // Built on mały 'small', like the descriptive mały porst 'small finger' that the dictionary gives beside it; the same word also names the little toe.
+    frr: ["latjfainger", "ˈlatʲfaiŋɐ"],  // Literally 'little finger' (latj 'little' + fainger 'finger'); it is also written as two words, di latje fainger.
+    krl: ["čagari", "ˈtʃɑɡɑri"],  // Karelian's own word for the little finger, the same word as Livvi and Ludian čagari.
+    olo: ["čagari", "ˈtʃaɡari"],  // Livvi's own word for the little finger (genitive čagarin), shared with Karelian Proper and Ludian; VepKar also lists the variant čagoi.
+    kmh: ["sabdaŋ", "sabədaŋ"],  // Kalam's own word for the little finger, which is also 'one' in the body-part counting system that starts from it; saglaŋ is a synonym.
+    pau: ["ngalek", "ˈŋalək"],  // The same word as ngalek 'child, baby', so the little finger is the 'child' of the hand.
+    rtm: ["käkäʻ meaʻmeaʻ he ta", "kækæʔ meaʔmeaʔ he ta"],  // Literally 'the one small finger' (käkäʻ 'finger' + meaʻmeaʻ 'small' + he ta 'the one'), the counterpart of käkäʻ mafua he ta for the thumb.
+    oj: ["ishkweninj", "iʃkwenindʒ"],  // The 'end finger': built on ishkwe- 'at the end', with the same -ninj 'finger' ending as midechininj 'thumb'.
+    iu: ["ᐃᕿᖅᑯᖅ", "iqiqːuq"],  // The Inuktitut word for the little finger, which the glossary also gives as 'baby finger'; the 2012 Inuktitut Bible uses it in 1 Kings 12:10, ᐃᕿᖅᑯᕋ 'my little finger'.
+    rm: ["det pitschen", "det pitʃən"],  // Literally 'small finger' (det 'finger' + pitschen 'small'), used with the article as il det pitschen.
+    lld: ["pitl dëit", "pitl dəit"],  // Literally 'small finger' (pitl 'small' + dëit 'finger'), the Gherdëina word given for Italian mignolo.
+    nrf: ["p'tit dé", "pti de"],  // Literally 'little finger' (p'tit 'small' + dé 'finger'), the Jersey form; Guernsey says p'tit quérouin.
+    dbq: ["kərte zləra", "kərte ɮəra"],  // Ends in zləra 'hand', like mohul zləra, the 'boy of the hand', for the thumb; the dictionary does not explain kərte.
+    dur: ["nag sí̧ʼí̧d", "naɡ sĩʔĩd"],  // Literally the 'last finger': sí̧ʼí̧d means 'final, last', as in waa sí̧ʼí̧d 'the last-born child'.
+    ch: ["kálangkiʼ", "ˈkalaŋkiʔ"],  // The Chamorro word for the little finger and also the little toe; the 1918 Guam dictionary spells it calanque.
+    poh: ["chʼiʼp", "tʃʼiʔp"],  // The same word means the last-born child; the dictionary also gives the fuller chʼiʼp qʼabʼiis, 'little one of the hand'.
+    ja_rys: ["ういべーま", "uibeːma"],  // Hatoma Yaeyama; the source explains it as 'finger + small' (ウイビ 'finger' with the diminutive -マ), and the Miyara dialect says クユビ kujubi.
+    cni: ["tsonoitintsi", "tsonoitintsi"],  // The Asháninka word for the little finger, in its unpossessed form with the body-part ending -ntsi.
+    nhx: ["iseliꞌmájpil", "iseliʔˈmahpil"],  // 'His/her little finger', the possessed form the dictionary lists: seliꞌ 'tender, young' + májpil 'finger'; the thumb is huêmájpil, the 'big finger'.
+    pon: ["senditik", "senditik"],  // Built on send 'finger' with tik 'small' (as in tikitik 'small, little'); the Pohnpeian Bible uses it in 1 Kings 12:10, 'Senditikiet ahlapasang lukopen ei pahpao'.
   },
 };

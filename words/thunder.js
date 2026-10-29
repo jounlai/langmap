@@ -683,6 +683,18 @@ WORDS.thunder = {
     nhx: "unknown",
     pau: "unknown",
     apw: "unknown",
+    sma: "unknown",
+    liv: "unknown",
+    ess: "unknown",
+    yur: "unknown",
+    ssf: "imitative",
+    pqm: "unknown",
+    dsb: "plain",
+    yap: "unknown",
+    crx: "unknown",
+    jbo: "other",
+    chy: "god",
+    pyu: "unknown",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1312,5 +1324,17 @@ WORDS.thunder = {
     nhx: ["teyo̱ꞌ", "tejoːʔ"],  // Kept apart from the verb tatikuini 'it thunders'; the dictionary's example is Mitzijixitij teyô', 'the thunder woke you up many times'.
     pau: ["derumk", "ðəˈɾumk"],  // Related to the verb merrumk 'to make a loud and continual noise'; the boom of thunder is deremkel a derumk.
     apw: ["idiʼnii", "idiʔniː"],  // Low tone throughout, so no tone marks are written; the thunderbird is idiʼnii dlǫ́ʼ, 'thunder bird'.
+    sma: ["raejrie", "ˈræːjriɛ"],  // The Giellatekno Southern Sámi dictionary gives raejrie as the preferred word for Norwegian torden and Swedish åska.
+    liv: ["pițki", "ˈpicki"],  // Built on pitkā 'long', like Estonian pikne: thunder is 'the long one'.
+    ess: ["калъюк", "kaɬjuk"],  // The Yupik Bible's 'sons of thunder' in Mark 3:17 is Калъюгым.
+    yur: ["hlʼeʼgoh", "ɬʔeʔɣɔh"],  // The Yurok Language Project dictionary glosses hl'e'goh as the noun 'thunder', with a recording by Jessie Van Pelt.
+    ssf: ["barumbun", "barumbun"],  // The ILRDF Thao dictionary marks barumbun 'thunder' as onomatopoeic (狀聲詞); it also means a bell.
+    pqm: ["petakiyik", "petakijik"],  // An animate plural, 'the thunders', as in Petakihik motiyakuwok 'thunders are heard rumbling'; the singular petak is rarely used.
+    dsb: ["grimanje", "ˈɡrimaɲɛ"],  // A verbal noun of grimaś 'to thunder', inherited from Proto-Slavic; the 1868 Lower Sorbian Bible has 'błysk a grimanje a głosy' in Revelation 4:5.
+    yap: ["dirraʼ", "dirːaʔ"],  // The Yapese Bible calls James and John 'Yow bod e Dirra'', 'sons of thunder' (Mark 3:17), and says 'me chub e dirra'', 'it thundered' (Revelation 8:5).
+    crx: ["ditni", "ditni"],  // Thunder 'sounds' in Carrier: the Nak'azdli dictionary gives 'Ditni tube dutni', 'it is thundering very loud', with the verb dutni 'it makes a noise', and the Carrier Bible calls James and John 'Ditni Yeꞌke', 'sons of thunder' (Mark 3:17).
+    jbo: ["lidysna", "ˈlidəsna"],  // A compound of lindi 'lightning' and sance 'sound': 'a thunder sound produced by lightning'.
+    chy: ["nonómaʼe", "nonómaʔe"],  // An animate noun meaning both 'thunder' and 'the thunder god': in Cheyenne cosmology thunder is personified as a sacred power, so the thunder 'hollers' (Nonóma'e énéstoohe).
+    pyu: ["drerung", "ɖəruŋ"],  // The verb is built on it: dremerung 'to thunder', dremerudrerung 'to keep thundering'.
   },
 };

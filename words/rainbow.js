@@ -698,6 +698,21 @@ WORDS.rainbow = {
     cnh: "unknown",
     lbj: "unknown",
     bsk: "unknown",
+    dsh: "unknown",
+    kl: "other",
+    rm: "bow",
+    vro: "bow",
+    ch: "unknown",
+    bnn: "unknown",
+    poh: "unknown",
+    mzh: "unknown",
+    nzm: "unknown",
+    iu: "unknown",
+    tkr: "unknown",
+    dbq: "other",
+    apw: "unknown",
+    meu: "unknown",
+    kmh: "unknown",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1339,5 +1354,20 @@ WORDS.rainbow = {
     cnh: ["chuncha", "tsʰuntsʰa"],  // The Hakha Lai word for the rainbow in both Lai Bibles: "ka chuncha cu minmei chungah khin ka chiah" (Genesis 9:13) and "a lu ah chuncha aa khimh" (Revelation 10:1).
     lbj: ["ཟའ་ཆུ་ཐུང", "zatɕʰutʰuŋ"],  // The Ladakhi word for the rainbow in the Ladakhi Bible: "ནམ༌ཁའེ༌ ནང༌ང༌ ཟའ༌ཆུ༌ཐུང༌ཞིག༌ ཤར༌ཅུག༌ཨིན༌" (Genesis 9:13) and "ཁོང༌ངི༌ གོ༌བོ༌ ཟའ༌ཆུ༌ཐུང༌ངི༌ སྐོར༌ཏེ༌" (Revelation 10:1).
     bsk: ["níironaaṅ", "ˈniːronaːŋ"],  // The Burushaski word for the rainbow; NorthEuraLex also records bij̣oón.
+    dsh: ["chala", "tʃala"],  // The Daasanach word for the rainbow; the same word also means a string of round beads.
+    kl: ["neriusaaq", "neʁiusaːq"],  // Built on neriu- "hope": Kleinschmidt's 1871 dictionary explains it as properly "a token of hope", used only of the rainbow.
+    rm: ["artg", "artɕ"],  // From Latin arcus "bow, arch"; Pledari Grond gives artg (s. Martin) "St Martin's arch" for German Regenbogen.
+    vro: ["vikahťkaaŕ", "ˈvikɑhtʲkɑːrʲ"],  // Literally a "viker-arc", with kaaŕ "arc" as in Estonian vikerkaar; the dictionary also gives vikaťkaaŕ and, in Harglõ and Rõugõ, vikakaaŕ.
+    ch: ["isa", "ˈisa"],  // The Chamorro word for the rainbow, listed in Sandra Chung's English-Chamorro finder list for the revised Chamorro-English Dictionary.
+    bnn: ["hanivalval", "hanivalval"],  // The Isbukun Bunun word for the rainbow; the ILRDF dictionary's examples include the old taboo against pointing at it.
+    poh: ["raxkojl", "raʃkoxl"],  // The Poqomchi' Bible's word for the rainbow throughout, as at Genesis 9:13 "Re' re' raxkojl xnukoj pan suutz'" ("my rainbow I have set in the cloud").
+    mzh: ["lawo", "lawo"],  // The Wichí Bible's word for the rainbow (Revelation 4:3 "iche lawo", 10:1 "lawo i'pe lhetek" "a rainbow was on his head"); IDS records the same word as la-'wuʔ.
+    nzm: ["ngkitplei", "ŋkitplei"],  // The Zeme Bible's word for the rainbow, as at Revelation 10:1 "pe peireige 'ngkitplei ne gûm lu" ("a rainbow was on his head").
+    iu: ["ᐊᔭᒍᑕᖅ", "ajaɡutaq"],  // The Inuktitut word for the rainbow, used in the Eastern Arctic Inuktitut Bible: 'ᐊᔭᒍᑕᖅ ᑕᑯᒃᓴᐅᕙᖕᓂᐊᕐᐳᖅ ᓄᕗᔭᓂ' 'the rainbow will be seen in the clouds' (Genesis 9:14).
+    tkr: ["ханевур", "χanewur"],  // The Tsakhur word for the rainbow, a class IV noun in the Tsakhur dictionary (Latin xənevur), also used in the Tsakhur Bible: 'buludıka sacigee xənevur g'yavaales' 'the rainbow will appear in the clouds' (Genesis 9:14).
+    dbq: ["səwa van", "səwa van"],  // Literally 'the stripes of the rain' (səwa 'lines, stripes' + van 'rain'), according to the SIL Daba dictionary.
+    apw: ["iłtsą́ą́tłʼól", "iɬtsã́ã́tɬʼól"],  // The Western Apache word for the rainbow in the Apache New Testament: 'iłtsą́ą́tł'ól bitsits'in binazt'i'go' 'a rainbow encircling his head' (Revelation 10:1).
+    meu: ["kevau", "kevau"],  // The Motu word for the rainbow, used throughout the Motu Bible: 'egu kevau dagadaga ai na atoamu' 'I have set my rainbow in the cloud' (Genesis 9:13).
+    kmh: ["tibeñ", "tibeɲ"],  // The Kalam word for the rainbow (Pawley & Bulmer's Kalam dictionary); a rainbow 'forms' with the phrase tibeñ wati-tek g-.
   },
 };

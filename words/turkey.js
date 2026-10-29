@@ -382,6 +382,31 @@ WORDS.turkey = {
     ty: "unknown",
     myv: "unknown",
     cab: "unknown",
+    bnn: "unknown",
+    cr: "unknown",
+    toj: "unknown",
+    ixl: "unknown",
+    gd: "elsewhere",
+    vro: "unknown",
+    abq: "unknown",
+    xal: "elsewhere",
+    kjb: "unknown",
+    mzh: "unknown",
+    cni: "local",
+    hch: "unknown",
+    chf: "unknown",
+    poh: "local",
+    ch: "local",
+    lld: "unknown",
+    djk: "india",
+    pon: "turkey",
+    trv: "local",
+    jiv: "unknown",
+    hsb: "local",
+    haw: "local",
+    krl: "unknown",
+    rar: "local",
+    an: "local",
   },
   routes: {
     india: {"color":"#ea580c","emoji":"🐘","en":"named for India · the Indies","ja":"インドの名で","ko":"인도의 이름으로","zh":"以印度为名","yue":"以印度為名","vi":"theo tên Ấn Độ","th":"ตั้งตามอินเดีย","id":"dinamai India","hi":"भारत के नाम पर","de":"nach Indien benannt","fr":"nommé d'après l'Inde","it":"dal nome dell'India","es":"por la India","pt":"pelo nome da Índia","ru":"по Индии","uk":"за Індією","ar":"باسم الهند","he":"על שם הודו","sw":"kwa jina la India"},
@@ -705,5 +730,30 @@ WORDS.turkey = {
     ty: ["moa raʻoro", "moa ɾaʔoɾo"],  // Literally 'raʻoro fowl' (moa 'chicken'); raʻoro alone also means turkey.
     myv: ["курка", "ˈkurka"],  // The Erzya dictionary defines it as 'Индиянь сараз' (India's hen); атяка курка is the cock and авака курка the hen.
     cab: ["figága", "fiˈɡaɡa"],  // The Garifuna name of the turkey; no etymology found.
+    bnn: ["kulukuluk", "kulukuluk"],  // The Isbukun Bunun word for the turkey in the ILRDF dictionary, which also lists huluhuluh with the same meaning.
+    cr: ["ᒥᓯᐦᐁᐤ", "misiheːw"],  // Wolvengrey's Cree: Words glosses misihêw first as the turkey and also as the domestic chicken; the Maskwacîs Dictionary has ocicâhkomis for the turkey.
+    toj: ["kolko", "kolko"],  // Lenkersdorf's dictionary glosses kolko as the turkey in general, with 'ajtso for the male and snan kolko ('mother turkey') for the hen.
+    ixl: ["akʼatx", "akʼaʈʂ"],  // The Chajul Ixil dictionary glosses ak'atx as the chompipe, the domestic turkey; tchux is the wild 'gallina de monte'.
+    gd: ["eun-Frangach", "ian ˈfɾaŋɡəx"],  // Literally 'French bird' (eun 'bird' + Frangach 'French', historically also 'foreign'); the hen is cearc-Fhrangach and the cock coileach-Frangach.
+    vro: ["kuľu", "ˈkulʲu"],  // The Võro dictionary gives kuľu for the turkey, with kalkuń, the cognate of Estonian kalkun, as a second word.
+    abq: ["гвагвыщ", "ɡʷaɡʷəɕ"],  // The Russian-Abaza dictionary gives гвагвыщ for the turkey and гвагвыщыжь for its meat.
+    xal: ["немш така", "nemʃ taka"],  // Literally 'German chicken' (немш 'German' + така 'chicken'), as given in Basangov's 1940 Russian-Kalmyk dictionary; the male is эр немш така.
+    kjb: ["akʼatx", "akʼaʈʂ"],  // The ALMG Q'anjob'al vocabulary glosses ak'atx as the chompipe, the domestic turkey; txutx ak'atx is the hen and mam ak'atx the male.
+    mzh: ["nikhlitaj", "nikʰlitax"],  // The online Wichí-Spanish dictionary DIWICA glosses nikhlitaj as the turkey, Meleagris gallopavo.
+    cni: ["pavo", "paβo"],  // Kindberg's dictionary gives pavo, the same form as Spanish pavo, with the possessed form novavone 'my turkey'; the forest guans have native names such as canari.
+    hch: ["ʼaru", "ʔaɾu"],  // The Wixárika word for the turkey, plural ʼaruxi; neither source gives an etymology.
+    chf: ["muluʼ", "muluʔ"],  // Keller and Luciano give muluʼ as the general word for the turkey of either sex; the male is ajtzoʼ and the hen nacʼach.
+    poh: ["akʼach", "akʼatʃ"],  // The same word as Qʼeqchiʼ, Chʼortiʼ and Chuj akʼach, from Proto-Mayan *ʔakʼ.aach (Kaufman 2003); the wild bird is akʼach yuuqʼ 'turkey of the hills'.
+    ch: ["pabo", "ˈpabo"],  // Safford's 1918 dictionary gives pabo for the turkey in both directions, a form like Spanish pavo.
+    lld: ["tachin", "taˈkin"],  // The Gardenese word for the turkey, plural tachins, close to Italian tacchino; the Ladin Wikipedia article uses huder.
+    djk: ["kaakun", "kaːkun"],  // Borrowed from Dutch kalkoen, itself named after the Indian port of Calicut, as is Sranan krakun.
+    pon: ["teki", "teki"],  // Borrowed from English turkey, like Marshallese take; Rehg's dictionary notes that Pohnpeians like turkey tails (kahwen teki).
+    trv: ["rudux kawa", "ɾudux kawa"],  // Literally a kind of chicken: rudux 'chicken' plus kawa, which the ILRDF dictionary glosses 'swollen'; the native hen is rudux balay 'real chicken'.
+    jiv: ["papu", "papu"],  // Pellizzaro gives papu as the Shuar for the turkey, beside native names such as amúntai and wakats for the wild guans of the forest.
+    hsb: ["truta", "ˈtruta"],  // Upper Sorbian truta is the turkey hen and the general word for the bird, German Pute; the cock is trutak or kawdron. Route by resemblance to the neighbouring forms (dsb(truta)); no etymology of its own.
+    haw: ["pelehū", "pelehuː"],  // Literally 'swollen swelling', from pele and hū 'to swell, puff out', said to be from the gobbling male (Pukui & Elbert; Andrews).
+    krl: ["guru", "ˈɡuru"],  // The VepKar dictionary of the Karelian Research Centre glosses Karelian Proper guru as Russian индейка, the turkey.
+    rar: ["pīpī kororō", "piːpiː koɾoɾoː"],  // Literally a 'croaking goose': pīpī 'goose' plus kororō 'to make a rumbling, throaty noise' (Buse & Taringa's Rarotongan dictionary).
+    an: ["pavo", "ˈpaβo"],  // From Latin pāvō 'peacock', as in Spanish pavo; the Aragonese Wikipedia also lists pavostre and tito. Route by resemblance to the neighbouring forms (es(pavo), gl(pavo)).
   },
 };

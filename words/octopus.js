@@ -273,6 +273,24 @@ WORDS.octopus = {
     tsg: "plain",
     cv: "eight",
     li: "eight",
+    cy: "eight",
+    os: "eight",
+    nn: "other",
+    cbk: "plain",
+    hwc: "plain",
+    aii: "eight",
+    pis: "eight",
+    rup: "eight",
+    lij: "many",
+    oc: "many",
+    tet: "plain",
+    sah: "eight",
+    crh: "other",
+    fur: "unknown",
+    br: "other",
+    bi: "unknown",
+    ami: "unknown",
+    ja_oki: "plain",
   },
   routes: {
     eight: {"color":"#2563eb","emoji":"8️⃣","en":"eight feet","ja":"8本の足","ko":"여덟 발","zh":"八条腿","yue":"八隻腳","vi":"tám chân","th":"แปดเท้า","id":"delapan kaki","hi":"आठ पैर","de":"acht Füße","fr":"huit pieds","it":"otto piedi","es":"ocho pies","pt":"oito pés","ru":"восемь ног","uk":"вісім ніг","ar":"ثماني أقدام","he":"שמונה רגליים","sw":"miguu minane"},
@@ -490,5 +508,23 @@ WORDS.octopus = {
     tsg: ["kugita", "kuɡita"],  // Inherited from Proto-Malayo-Polynesian *kuʀita 'octopus' (Blust & Trussel, ACD).
     cv: ["осьминог", "osʲmʲiˈnok"],  // Borrowed from Russian осьминог 'eight-legs'.
     li: ["oktopus", "ˈɒktopəs"],  // From Greek oktṓpous 'eight-foot'; Limburgish also has the calque achpoeat 'eight-foot'.
+    cy: ["octopws", "ɔkˈtɔpʊs"],  // Borrowed from English octopus, from Greek oktṓpous 'eight-foot'; Welsh Wikipedia uses it as the article title.
+    os: ["асткъахыг", "astkʼaxɨɡ"],  // Literally 'eight-legged': аст 'eight' + къах 'leg'; it is the title of the Ossetian Wikipedia article.
+    nn: ["blekksprut", "ˈblɛkːsprʉːt"],  // Literally 'ink squirter': blekk 'ink' + sprute 'squirt', as in Bokmål; it also covers squid.
+    cbk: ["kugita", "kuˈɡitaʔ"],  // The same word as Cebuano and Tagalog kugita, from Proto-Austronesian *guʀiCa 'octopus'; borsebala is a synonym.
+    hwc: ["tako", "tɑko"],  // Borrowed from Japanese tako; it is usually said of octopus as food, as in tako poke.
+    aii: ["ܚܛܦܘܛܐ", "xətˤɑːpoːtˤɑː"],  // Borrowed from Greek oktṓpous 'eight feet'; ܬܡܝܼܢܘܼܢܵܐ is a synonym.
+    pis: ["oktapus", "oktapus"],  // Borrowed from English octopus, from Greek oktṓpous 'eight-foot'.
+    rup: ["uhtapodhe", "uxtaˈpoðe"],  // The Greek word χταπόδι, from Byzantine ὀκταπόδιον 'little eight-foot'; Cunia's dictionary also gives the short form htapodhe.
+    lij: ["pórpo", "ˈpurpu"],  // From Latin polypus, from Greek polýpous 'many-footed', like Italian polpo.
+    oc: ["pofre", "ˈpufɾe"],  // From Latin polypus, from Greek polýpous 'many-footed'; French poulpe came through the Occitan word.
+    tet: ["kurita", "kurita"],  // Inherited from Proto-Austronesian *guʀiCa 'octopus', a cousin of Malay gurita.
+    sah: ["аҕыс атах", "aʁɯs atax"],  // Literally 'eight legs': аҕыс 'eight' + атах 'leg', a calque like Russian осьминог.
+    crh: ["sprut", "sprut"],  // Borrowed from Russian спрут, which comes from Norwegian blekksprut 'ink squirter'.
+    fur: ["folp", "fɔlp"],  // The Friulian name, given for Italian polpo in ARLeF's bilingual dictionary; compare Venetian folpo.
+    br: ["morgazh", "ˈmorɡas"],  // Literally 'sea cat': mor 'sea' + kazh 'cat' (softened to gazh).
+    bi: ["nawita", "nawita"],  // The Bislama name, also spelled nakwita; the Bislama Spelling Dictionary glosses it 'octopus, squid'.
+    ami: ["solita", "solita"],  // The Amis name; the phrase takora'ay no riyal is a synonym, and Amis Wikipedia titles its octopus article Solita.
+    ja_oki: ["蛸", "taku"],  // The Okinawan form of Japanese tako; the saying taku nu ʔeeku 'an octopus's oar' mocks a spineless person. Route by resemblance to ja(タコ).
   },
 };

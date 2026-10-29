@@ -794,6 +794,28 @@ WORDS.yesterday = {
     tok: "distinct",
     crn: "distinct",
     xkz: "distinct",
+    pqm: "distinct",
+    ssf: "distinct",
+    nha: "distinct",
+    tlh: "distinct",
+    ykg: "distinct",
+    yur: "distinct",
+    kwk: "distinct",
+    tsi: "distinct",
+    umu: "unknown",
+    cay: "distinct",
+    fai: "same",
+    kca: "distinct",
+    evn: "distinct",
+    lkt: "distinct",
+    moh: "distinct",
+    stq: "distinct",
+    yrl: "distinct",
+    mch: "distinct",
+    szy: "distinct",
+    jbo: "distinct",
+    mus: "distinct",
+    bzd: "distinct",
   },
   routes: {
     same: {"color":"#db2777","emoji":"🔁","en":"one word for yesterday and tomorrow","ja":"昨日と明日が同じ語","ko":"어제와 내일이 한 낱말","zh":"昨天和明天同一个词","yue":"尋日同聽日同一個詞","vi":"một từ cho hôm qua và ngày mai","th":"คำเดียวทั้งเมื่อวานและพรุ่งนี้","id":"satu kata untuk kemarin dan besok","hi":"बीते और आने वाले कल का एक शब्द","de":"ein Wort für gestern und morgen","fr":"un mot pour hier et demain","it":"una parola per ieri e domani","es":"una palabra para ayer y mañana","pt":"uma palavra para ontem e amanhã","ru":"одно слово для вчера и завтра","uk":"одне слово для учора й завтра","ar":"كلمة واحدة لأمس وغد","he":"מילה אחת לאתמול ולמחר","sw":"neno moja kwa jana na kesho"},
@@ -1533,5 +1555,27 @@ WORDS.yesterday = {
     tok: ["tenpo suno pini", "tenpo suno pini"],  // Literally 'past sun time'; tomorrow is tenpo suno kama 'coming sun time'.
     crn: ["tajcaí", "tahkaˈi"],  // Tomorrow is ruijmuaʼa; John 4:52 in the Cora New Testament reads 'Aꞌatzaj pu hui huatéepuaꞌaj ɨ́ tajcaí' ('at that hour yesterday it left him').
     xkz: ["dangnin", "daŋnin"],  // Tomorrow is yangpa; dangma is a synonym.
+    pqm: ["wolaku", "wolaku"],  // Tomorrow is sepawonu or sepawonuk; the Passamaquoddy-Maliseet Dictionary gives 'Wolaku nomiya yap' for 'Yesterday I saw a buck deer'.
+    ssf: ["tilha", "tiɬa"],  // Tomorrow is simaq; the ILRDF dictionary's example 'iaku tilha ifalhaza mrauz' means 'yesterday I swam in the river'.
+    nha: ["yugangga", "juɡaŋɡa"],  // Tomorrow is induga; yugangga is recorded in Juliette Blevins's 2001 grammar of Nhanda.
+    tlh: ["wa'Hu'", "wɑʔxuʔ"],  // Literally 'one day ago', wa' 'one' + -Hu' 'days ago'; tomorrow is wa'leS 'one day from now', and cha'Hu' is the day before yesterday.
+    ykg: ["авйаа", "awjaː"],  // Tomorrow is эгуойиэ; авйаа goes back to Proto-Yukaghir *a:wə (Wiktionary, after Nikolaeva 2006).
+    yur: ["chmeyaan", "tʃmejaːn"],  // Tomorrow is ʼowook; the related chmey means 'yesterday, late', and heechmey is the day before yesterday.
+    kwk: ["ła̱nsʼwa̱ł", "ɬənsʔwəɬ"],  // Tomorrow is ła̱nstła; the two words share their first syllable, and hiʼlux̱wsuʼł is the day before yesterday.
+    tsi: ["gyitsʼiipda", "ɡʲitsʼiːpda"],  // Tomorrow is dzigyitsʼiip, the same root gyitsʼiip 'day since' with a future dzi-.
+    umu: ["wŭláakwe", "wəlaːkwe"],  // Wŭláakwe is the Munsee word for yesterday, recorded in John O'Meara's Munsee Delaware dictionary.
+    cay: ["té:dę:ʼ", "téːdɛ̃ːʔ"],  // Tomorrow is ęyó:hęʼ 'it will be tomorrow'; té:dę:ʼ is built on a root for 'past day', which also gives gyoté:dęhk 'the day before yesterday'.
+    fai: ["amsino", "amsino"],  // tomorrow: amsino; the Faiwol New Testament uses amsino for yesterday (John 4:52, Acts 7:28) and for tomorrow (Matthew 6:34, James 4:13).
+    kca: ["мо̆ԓхатәԓ", "moɬxatəɬ"],  // tomorrow: хӑԓэвәт; Acts 7:28 of the Khanty Bible reads 'хо̆ты мо̆ԓхатәԓ Египет ху веԓсэн' (as you killed the Egyptian yesterday).
+    evn: ["тынэвэ", "tinəwə"],  // tomorrow: тэгэмӣ (also given as тыматиэ).
+    lkt: ["ȟtálehaŋ", "χtálehã"],  // tomorrow: híŋhaŋni, as in James 4:13 of the Lakota Bible portions ('Hiƞhaƞni ki naƞiƞṡ hiƞhaƞni ak̇otaƞhaƞ').
+    moh: ["thetén:re", "tʰedʌ̃́ːre"],  // tomorrow: enhiórenʼne, as in James 4:13 of the Mohawk New Testament.
+    stq: ["jäärsene", "ˈjɛːrsənə"],  // tomorrow: mäiden; jäärsene goes back to West Germanic *gesteran, like English yesterday and German gestern.
+    yrl: ["kwesé", "kweˈse"],  // tomorrow: wirandé (Bible wirande); kwesé is inherited from Old Tupi kûesé 'yesterday'.
+    mch: ["koiñadö", "koiɲaɾ̠ə"],  // tomorrow: jenamma; koiñadö goes back to Proto-Cariban *koinarô, like Kari'na koinaro, and takes the distant past tense.
+    szy: ["nacila", "natsila"],  // tomorrow: anucila.
+    jbo: ["prulamdei", "pruˈlamdej"],  // tomorrow: bavlamdei; both are compounds ending in -lamdei 'adjacent day'.
+    mus: ["paksvnkē", "páksəŋkíː"],  // tomorrow: pakse; the dictionary also gives the variant vpaksvnkē.
+    bzd: ["chkì", "tʃki"],  // tomorrow: bulebök; Acts 7:28 of the Bribri New Testament has 'we̱s chkì be' tö egiptowak kötwa̱' (as you killed the Egyptian yesterday).
   },
 };

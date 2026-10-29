@@ -421,6 +421,15 @@ WORDS.pineapple = {
     frr: "nanas",
     kmh: "pine",
     ygr: "nanas",
+    pyu: "unknown",
+    ia: "nanas",
+    jbo: "nanas",
+    chy: "unknown",
+    vep: "unknown",
+    dsb: "nanas",
+    yap: "unknown",
+    mch: "unknown",
+    mrq: "unknown",
   },
   routes: {
     nanas: {"color":"#ea580c","emoji":"🌎","en":"from Tupi naná","ja":"トゥピ語 naná から","ko":"투피어 naná에서","zh":"源自图皮语 naná","yue":"源自圖皮語 naná","vi":"từ tiếng Tupi naná","th":"จากภาษาตูปี naná","id":"dari bahasa Tupi naná","hi":"तूपी naná से","de":"aus Tupi naná","fr":"du tupi naná","it":"dal tupi naná","es":"del tupí naná","pt":"do tupi naná","ru":"из тупи naná","uk":"з тупі naná","ar":"من التوبية naná","he":"מטופי naná","sw":"kutoka Kitupi naná"},
@@ -786,5 +795,14 @@ WORDS.pineapple = {
     frr: ["ananas", "ˈananas"],  // Mooring jü ananas, a feminine noun, the same word as German Ananas. Route by resemblance to the neighbouring forms (de(Ananas)); no etymology of its own.
     kmh: ["baynap", "bajnap"],  // Kalam baynap is a loan from English pineapple; the same word names the helicopter, whose rotor blades look like pineapple leaves (Pawley & Bulmer).
     ygr: ["ananasi", "ananasi"],  // Yagaria ananasi, marked as a loanword by Renck, like Tok Pisin ananas; he also lists paenapuli, from English pineapple.
+    pyu: ["pangudralr", "paŋuɖal"],  // The Puyuma name of the pineapple in the ILRDF Puyuma dictionary; its make-up is not given.
+    ia: ["ananas", "anaˈnas"],  // Interlingua ananas, which Interlingua Wikipedia derives from the shared international word (Portuguese ananás, French and German Ananas, Russian ананас).
+    jbo: ["grutrxananase", "ɡrutrxanaˈnase"],  // A Lojban fu'ivla built from grute 'fruit' and the international ananas, which its etymology note says is the word for pineapple in many languages.
+    chy: ["šéstotóʼemeno", "ʃéstotóʔemeno"],  // Cheyenne for pineapples (a plural noun in the dictionary, which files it under new fruit words); the same dictionary gives šéstótóʼe for the pine tree.
+    vep: ["ananas", "ˈananas"],  // Veps ananas, the international word; Veps Wikipedia uses it for the pineapple on the flag of Antigua and Barbuda.
+    dsb: ["ananas", "ˈananas"],  // Lower Sorbian ananas, a feminine indeclinable noun, as in the Deutsch-Niedersorbisches Wörterbuch.
+    yap: ["giyoor", "ɡijoːr"],  // Jensen's Yapese dictionary glosses giyoor as pineapple and lists ngoongoor and giigiyoor as dialect forms.
+    mch: ["anadeke", "anaːɾ̠eke"],  // Ye'kwana anadeke, possessed form anadekei; Wiktionary compares Carib anareko 'pineapple'.
+    mrq: ["haahoʻa", "haahoʔa"],  // The Académie marquisienne lexicon gives haahoà (haahoʻa) for the north and faahoka for the south.
   },
 };

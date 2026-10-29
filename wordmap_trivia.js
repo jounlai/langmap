@@ -29,7 +29,7 @@ const TRIVIA_ARTICLES = [
     icon: '🌳',
     tags: ['isolate', 'amazon', 'controversy', 'recursion'],
     title: {
-      en: 'Pirahã — the language said to have no numbers',
+      en: 'Pirahã: the language said to have no numbers',
       ja: '数を数えない言語、ピダハン語',
     },
     summary: {
@@ -115,8 +115,8 @@ const TRIVIA_ARTICLES = [
       icon: '🌬️',
       tags: ['whistled', 'spain', 'unesco', 'register'],
       title: {
-        en: 'Silbo Gomero — a whistled Spanish that crosses canyons',
-        ja: 'シルボ・ゴメロ — 峡谷を越える口笛のスペイン語',
+        en: 'Silbo Gomero: a whistled Spanish that crosses canyons',
+        ja: 'シルボ・ゴメロ：峡谷を越える口笛のスペイン語',
       },
       summary: {
         en: 'Silbo Gomero is a whistled register of Spanish used to communicate across La Gomera\'s ravines. UNESCO listed it in 2009, and it has been a compulsory school subject on the island since 1999.',
@@ -208,8 +208,8 @@ const TRIVIA_ARTICLES = [
       icon: '🔊',
       tags: ['clicks', 'phonology', 'africa', 'extreme'],
       title: {
-        en: 'Taa (!Xóõ) — counting one of the largest consonant inventories',
-        ja: 'タア語（!Xóõ）— 世界一子音が多い言語',
+        en: 'Taa (!Xóõ): counting one of the largest consonant inventories',
+        ja: 'タア語（!Xóõ）：世界一子音が多い言語',
       },
       summary: {
         en: 'Taa is spoken by about 2,500 people near the Botswana–Namibia border. Depending on how complex clicks are analysed, descriptions count roughly 120 consonants or more.',
@@ -303,8 +303,8 @@ const TRIVIA_ARTICLES = [
       icon: '🤫',
       tags: ['phonology', 'papua-new-guinea', 'extreme', 'minimal'],
       title: {
-        en: 'Rotokas — an eleven-phoneme sound system',
-        ja: 'ロトカス語 — 世界一音が少ないとされる言語',
+        en: 'Rotokas: an eleven-phoneme sound system',
+        ja: 'ロトカス語：世界一音が少ないとされる言語',
       },
       summary: {
         en: 'The central dialect of Rotokas, spoken on Bougainville, has been analysed with six consonants and five vowels, placing it at the low end of documented phoneme inventories.',
@@ -396,8 +396,8 @@ const TRIVIA_ARTICLES = [
       icon: '🕯️',
       tags: ['extinct', 'caucasian', 'phonology', 'language-death'],
       title: {
-        en: 'Ubykh — documenting a language with about 84 consonants',
-        ja: 'ウビフ語 — 子音84個の言語が消えた日',
+        en: 'Ubykh: documenting a language with about 84 consonants',
+        ja: 'ウビフ語：子音84個の言語が消えた日',
       },
       summary: {
         en: 'Ubykh, a Northwest Caucasian language with about 84 consonants and two phonemic vowels, lost its last fully fluent speaker when Tevfik Esenç died in 1992. Georges Dumézil and other scholars recorded it over several decades.',
@@ -490,8 +490,8 @@ const TRIVIA_ARTICLES = [
       icon: '🔒',
       tags: ['ritual', 'australia', 'secret-language', 'phonology'],
       title: {
-        en: 'Damin — a ceremonial register with clicks and ingressive sounds',
-        ja: 'ダミン語 — オーストラリアの音韻常識を破った男性秘密言語',
+        en: 'Damin: a ceremonial register with clicks and ingressive sounds',
+        ja: 'ダミン語：オーストラリアの音韻常識を破った男性秘密言語',
       },
       summary: {
         en: 'Damin was used by initiated Lardil men on Mornington Island. Its small vocabulary and use of clicks, ingressive laterals and ejectives set it apart from neighbouring Australian sound systems.',
@@ -585,8 +585,8 @@ const TRIVIA_ARTICLES = [
       icon: '👅',
       tags: ['clicks', 'phonology', 'africa', 'isolate'],
       title: {
-        en: 'Click consonants — the sounds that jumped between language families',
-        ja: '吸着音 — 語族の壁を飛び越えた音',
+        en: 'Click consonants: the sounds that jumped between language families',
+        ja: '吸着音：語族の壁を飛び越えた音',
       },
       summary: {
         en: 'Dental, lateral, alveolar, palatal and bilabial clicks occur across several southern African language families. Contact with Khoe-speaking communities also introduced clicks into Bantu languages including Zulu and Xhosa.',
@@ -603,9 +603,9 @@ const TRIVIA_ARTICLES = [
   <p>The traditional cluster of "click languages" comprises three completely unrelated lineages:</p>
   
   <ul>
-    <li><strong>Khoe</strong> — the family that includes Khoekhoegowab (Nama–Damara) of Namibia, Naro and Gǀui of Botswana, and several smaller languages of the Kalahari fringe.</li>
-    <li><strong>Tuu</strong> — the southern group that includes <em>Taa (!Xóõ)</em>, the consonant-record holder featured elsewhere in this trivia collection, plus the moribund N|uu of South Africa.</li>
-    <li><strong>Kx'a</strong> — a small family containing Juǀ'hoan and ǂHoan, with elaborate click inventories of their own.</li>
+    <li><strong>Khoe</strong>: the family that includes Khoekhoegowab (Nama–Damara) of Namibia, Naro and Gǀui of Botswana, and several smaller languages of the Kalahari fringe.</li>
+    <li><strong>Tuu</strong>: the southern group that includes <em>Taa (!Xóõ)</em>, the consonant-record holder featured elsewhere in this trivia collection, plus the moribund N|uu of South Africa.</li>
+    <li><strong>Kx'a</strong>: a small family containing Juǀ'hoan and ǂHoan, with elaborate click inventories of their own.</li>
   </ul>
   
   <p>To these three families one usually adds <strong>two isolates of East Africa</strong>: <strong>Hadza</strong>, spoken by perhaps a thousand hunter-gatherers around Lake Eyasi in Tanzania, and <strong>Sandawe</strong>, about 150 km to the south in the rocky uplands of Dodoma Region. Both have clicks, but they sit differently: <strong>Hadza</strong> has no demonstrated relatives anywhere, while <strong>Sandawe</strong> may be a distant relative of the Khoe family — a link Tom Güldemann and Edward Elderkin have argued on lexical and pronominal evidence is promising, though short of proven. The old umbrella term "Khoisan" lumped all five together, but Güldemann and others have argued — convincingly — that <strong>Khoisan is an areal grouping, not a genetic family</strong>.</p>
@@ -714,7 +714,7 @@ const TRIVIA_ARTICLES = [
       icon: '⛰️',
       tags: ['isolate', 'europe', 'prehistory', 'pre-indo-european'],
       title: {
-        en: 'Basque — a language isolate of the western Pyrenees',
+        en: 'Basque: a language isolate of the western Pyrenees',
         ja: 'ヨーロッパが置き換え損ねた言語、バスク語',
       },
       summary: {
@@ -799,7 +799,7 @@ const TRIVIA_ARTICLES = [
       icon: '𒀭',
       tags: ['isolate', 'mesopotamia', 'writing', 'ancient'],
       title: {
-        en: 'Sumerian — among the earliest languages ever written down',
+        en: 'Sumerian: among the earliest languages ever written down',
         ja: '人類最古級の文字言語、シュメール語',
       },
       summary: {
@@ -889,7 +889,7 @@ const TRIVIA_ARTICLES = [
       icon: '𐌀',
       tags: ['undeciphered', 'italy', 'ancient', 'isolate'],
       title: {
-        en: 'Etruscan — the language we can read but can\'t understand',
+        en: 'Etruscan: the language we can read but can\'t understand',
         ja: '読めるのに分からない言語、エトルリア語',
       },
       summary: {
@@ -976,7 +976,7 @@ const TRIVIA_ARTICLES = [
       icon: '🏝️',
       tags: ['unknown', 'isolated', 'andamanese', 'uncontacted'],
       title: {
-        en: 'Sentinelese — an unrecorded language of North Sentinel Island',
+        en: 'Sentinelese: an unrecorded language of North Sentinel Island',
         ja: '一度も録音されたことのない言語、センチネル語',
       },
       summary: {
@@ -1024,12 +1024,12 @@ const TRIVIA_ARTICLES = [
   <p>記録に残る接触の試みは、いずれも失敗するか流血で終わった:</p>
   
   <ul>
-    <li><strong>1880年</strong>: イギリス植民地官 <strong>モーリス・V・ポートマン</strong>が探検隊で上陸、高齢の夫婦と子供4人を拘束し、ポート・ブレアに連行した。夫婦はほどなく病に倒れて死亡した。おそらく島民に免疫のない感染症によるものだ。子供たちは贈り物と共に島に返された。捕虜たちから得た語彙は、何ひとつ残っていないようだ。</li>
-    <li><strong>1974年</strong>: ナショナル・ジオグラフィックと組んでドキュメンタリー『Man in Search of Man』を撮影していた一行が、生きたブタ、人形、おもちゃの車などの贈り物を浜に置いた。島民は矢で応え、監督が太ももを射抜かれた。射手は木陰に座って笑っていたといい、ほかの者たちはブタと人形を槍で突いて埋め、ココナッツとアルミ鍋は持ち去った。</li>
-    <li><strong>1991年</strong>: 1月4日、人類学者トリロクナート・パンディット率いるインドの13人の調査団が、ボートからココナッツを海に浮かべて流し、初めて平和的な接触に成功。センチネル族は武器を持たずに海へ入り、ココナッツを拾い集めた。団の人類学者<strong>マドゥマラ・チャットパディヤイ</strong>は自ら海に入ってココナッツを手渡し、外部世界の女性として、知られる限り初めて彼らと対面した。ココナッツを集めながら島民が叫んだ <em>liya</em>、<em>luwa</em> といったいくつかの語は、言語学者M・スリーナタンによって、ジャラワ語の「近い」「遠い」と暫定的に比較されている。訪問は感染症のリスクから1997年に打ち切られた。</li>
-    <li><strong>2004年のスマトラ沖津波</strong>: 沿岸警備隊のヘリが生存確認に飛んだが、矢で迎え撃たれた。少なくとも、人々が生き延びたことだけはそれでわかった。</li>
-    <li><strong>2006年</strong>: 近くでカニを密漁していた漁師2人が、夜のうちに即席の錨が外れて島に流れ着き、殺害された。</li>
-    <li><strong>2018年</strong>: アメリカ人宣教師<strong>ジョン・アレン・チャウ</strong>が、地元の漁師に金を払って違法に島まで運ばせ、上陸を試みて殺害された。彼のメモには、この言語には「甲高い音がたくさんある」と書かれていた。外部の人間が書き留めた、この言語のごく数少ない印象のひとつである。</li>
+    <li><strong>1880年</strong>：イギリス植民地官 <strong>モーリス・V・ポートマン</strong>が探検隊で上陸、高齢の夫婦と子供4人を拘束し、ポート・ブレアに連行した。夫婦はほどなく病に倒れて死亡した。おそらく島民に免疫のない感染症によるものだ。子供たちは贈り物と共に島に返された。捕虜たちから得た語彙は、何ひとつ残っていないようだ。</li>
+    <li><strong>1974年</strong>：ナショナル・ジオグラフィックと組んでドキュメンタリー『Man in Search of Man』を撮影していた一行が、生きたブタ、人形、おもちゃの車などの贈り物を浜に置いた。島民は矢で応え、監督が太ももを射抜かれた。射手は木陰に座って笑っていたといい、ほかの者たちはブタと人形を槍で突いて埋め、ココナッツとアルミ鍋は持ち去った。</li>
+    <li><strong>1991年</strong>：1月4日、人類学者トリロクナート・パンディット率いるインドの13人の調査団が、ボートからココナッツを海に浮かべて流し、初めて平和的な接触に成功。センチネル族は武器を持たずに海へ入り、ココナッツを拾い集めた。団の人類学者<strong>マドゥマラ・チャットパディヤイ</strong>は自ら海に入ってココナッツを手渡し、外部世界の女性として、知られる限り初めて彼らと対面した。ココナッツを集めながら島民が叫んだ <em>liya</em>、<em>luwa</em> といったいくつかの語は、言語学者M・スリーナタンによって、ジャラワ語の「近い」「遠い」と暫定的に比較されている。訪問は感染症のリスクから1997年に打ち切られた。</li>
+    <li><strong>2004年のスマトラ沖津波</strong>：沿岸警備隊のヘリが生存確認に飛んだが、矢で迎え撃たれた。少なくとも、人々が生き延びたことだけはそれでわかった。</li>
+    <li><strong>2006年</strong>：近くでカニを密漁していた漁師2人が、夜のうちに即席の錨が外れて島に流れ着き、殺害された。</li>
+    <li><strong>2018年</strong>：アメリカ人宣教師<strong>ジョン・アレン・チャウ</strong>が、地元の漁師に金を払って違法に島まで運ばせ、上陸を試みて殺害された。彼のメモには、この言語には「甲高い音がたくさんある」と書かれていた。外部の人間が書き留めた、この言語のごく数少ない印象のひとつである。</li>
   </ul>
   
   <p>インド政府の<strong>アンダマン・ニコバル諸島原住民保護規則</strong>（1956年制定、その後数次改正）により、北センチネル島周辺の立入禁止区域（5海里と報じられるが、5キロとする資料もある）に入ることは違法とされる。インドの沿岸警備隊と海軍の艦艇が周辺海域を巡視している。1990年代以降の公式の方針は、しばしば<strong>「見るが触れず」</strong>とまとめられる──遠くから人口を観察するのみで、接触も干渉もしない、というものだ。</p>
@@ -1058,7 +1058,7 @@ const TRIVIA_ARTICLES = [
       icon: '✡️',
       tags: ['revival', 'hebrew', 'israel', 'liturgical'],
       title: {
-        en: 'Hebrew — an ancient language brought back to everyday life',
+        en: 'Hebrew: an ancient language brought back to everyday life',
         ja: '日常語として蘇った古代言語、ヘブライ語',
       },
       summary: {
@@ -1149,7 +1149,7 @@ const TRIVIA_ARTICLES = [
       icon: '🕉️',
       tags: ['sanskrit', 'grammar', 'ancient', 'india', 'panini'],
       title: {
-        en: 'Pāṇini — formal rules in an ancient Sanskrit grammar',
+        en: 'Pāṇini: formal rules in an ancient Sanskrit grammar',
         ja: '計算機科学を2,400年先取りしたサンスクリット文法家、パーニニ',
       },
       summary: {
@@ -1245,7 +1245,7 @@ const TRIVIA_ARTICLES = [
       icon: '🟢',
       tags: ['conlang', 'esperanto', 'auxlang', 'zamenhof'],
       title: {
-        en: 'Esperanto — from an 1887 booklet to an international community',
+        en: 'Esperanto: from an 1887 booklet to an international community',
         ja: 'エスペラント──本当に話されるようになった人工言語',
       },
       summary: {
@@ -1347,7 +1347,7 @@ const TRIVIA_ARTICLES = [
       icon: '🌱',
       tags: ['conlang', 'minimalism', 'toki-pona', 'sonja-lang'],
       title: {
-        en: 'Toki Pona — can you say everything with 120 words?',
+        en: 'Toki Pona: can you say everything with 120 words?',
         ja: 'トキポナ──120語で世界を語れるか',
       },
       summary: {
@@ -1462,7 +1462,7 @@ const TRIVIA_ARTICLES = [
       icon: '🧬',
       tags: ['conlang', 'ithkuil', 'engelang', 'complexity'],
       title: {
-        en: 'Ithkuil — the conlang so dense its inventor cannot speak it',
+        en: 'Ithkuil: the conlang so dense its inventor cannot speak it',
         ja: 'イスクイル──作者自身がすらすら話せない人工言語',
       },
       summary: {
@@ -1555,7 +1555,7 @@ const TRIVIA_ARTICLES = [
       icon: '🇰🇷',
       tags: ['hangul', 'korean', 'script', 'sejong', 'featural'],
       title: {
-        en: 'Hangul — the design principles of the Korean alphabet',
+        en: 'Hangul: the design principles of the Korean alphabet',
         ja: 'ハングル──王が「実験室」で設計した文字',
       },
       summary: {
@@ -1765,7 +1765,7 @@ const TRIVIA_ARTICLES = [
       icon: '💭',
       tags: ['syllabary', 'vai', 'liberia', 'west-africa', 'dream-script'],
       title: {
-        en: 'Vai — the West African script that came in a dream',
+        en: 'Vai: the West African script that came in a dream',
         ja: 'ヴァイ文字──夢から生まれた西アフリカの音節文字',
       },
       summary: {
@@ -1861,7 +1861,7 @@ const TRIVIA_ARTICLES = [
       icon: '🈯',
       tags: ['tangut', 'dead-language', 'xixia', 'decipherment', 'sino-tibetan'],
       title: {
-        en: 'Tangut — reconstructing the script of Western Xia',
+        en: 'Tangut: reconstructing the script of Western Xia',
         ja: '失われた王朝の文字、西夏文',
       },
       summary: {
@@ -1947,7 +1947,7 @@ const TRIVIA_ARTICLES = [
       icon: '🏺',
       tags: ['undeciphered', 'minoan', 'crete', 'bronze-age', 'script'],
       title: {
-        en: 'Linear A — the script we can read but cannot understand',
+        en: 'Linear A: the script we can read but cannot understand',
         ja: '読めるのに分からない文字、線文字A',
       },
       summary: {
@@ -2036,7 +2036,7 @@ const TRIVIA_ARTICLES = [
       icon: '⏳',
       tags: ['aymara', 'andes', 'metaphor', 'time', 'cognitive-linguistics'],
       title: {
-        en: 'Aymara — the language where the past is in front of you',
+        en: 'Aymara: the language where the past is in front of you',
         ja: '過去が前にある言語、アイマラ語',
       },
       summary: {
@@ -2130,7 +2130,7 @@ const TRIVIA_ARTICLES = [
       icon: '👁️',
       tags: ['evidentiality', 'tukanoan', 'amazon', 'grammar', 'obligatory'],
       title: {
-        en: 'Tuyuca — the language in which you must reveal how you know',
+        en: 'Tuyuca: the language in which you must reveal how you know',
         ja: '「どう知ったか」を必ず明かす言語、トゥユカ語',
       },
       summary: {
@@ -2153,11 +2153,11 @@ const TRIVIA_ARTICLES = [
   <p>The pioneering description is Janet Barnes's 1984 paper. She catalogued <strong>five evidential categories</strong> in Tuyuca, each realised as a different verbal ending:</p>
   
   <ul>
-    <li><strong>Visual</strong> — the speaker saw the event with their own eyes. Tuyuca: <em>díiga apé-wi</em> "he played soccer (I saw it)".</li>
-    <li><strong>Non-visual sensory</strong> — the speaker heard, smelled, or felt the event but did not see it. <em>díiga apé-ti</em> "he played soccer (I heard them)".</li>
-    <li><strong>Inferential</strong> — the speaker did not perceive the event but saw physical traces. <em>díiga apé-yi</em> "he played soccer (I see the muddy field)".</li>
-    <li><strong>Assumed</strong> — the speaker reasons from general knowledge: e.g. he always plays on Saturdays. <em>díiga apé-hĩyi</em>.</li>
-    <li><strong>Reported</strong> — the speaker was told. <em>díiga apé-yigi</em> "he played soccer (so they say)".</li>
+    <li><strong>Visual</strong>: the speaker saw the event with their own eyes. Tuyuca: <em>díiga apé-wi</em> "he played soccer (I saw it)".</li>
+    <li><strong>Non-visual sensory</strong>: the speaker heard, smelled, or felt the event but did not see it. <em>díiga apé-ti</em> "he played soccer (I heard them)".</li>
+    <li><strong>Inferential</strong>: the speaker did not perceive the event but saw physical traces. <em>díiga apé-yi</em> "he played soccer (I see the muddy field)".</li>
+    <li><strong>Assumed</strong>: the speaker reasons from general knowledge: e.g. he always plays on Saturdays. <em>díiga apé-hĩyi</em>.</li>
+    <li><strong>Reported</strong>: the speaker was told. <em>díiga apé-yigi</em> "he played soccer (so they say)".</li>
   </ul>
   
   <p>Each ending does several jobs at once. The <em>-wi</em> in <em>apé-wi</em> means "he", "in the past" and "I saw it", all in one syllable. The system also has gaps, as real grammar often does: the "so they say" ending exists only in the past tense, and you cannot use the "I see the traces" ending to describe what you yourself are doing right now.</p>
@@ -2234,7 +2234,7 @@ const TRIVIA_ARTICLES = [
       icon: '🧭',
       tags: ['guugu-yimithirr', 'australia', 'cardinal', 'spatial', 'cognitive'],
       title: {
-        en: 'Guugu Yimithirr — an absolute-direction spatial system',
+        en: 'Guugu Yimithirr: an absolute-direction spatial system',
         ja: '「左」も「右」も使わない言語、グーグ・イミディル語',
       },
       summary: {
@@ -2337,7 +2337,7 @@ const TRIVIA_ARTICLES = [
       icon: '🧩',
       tags: ['mohawk', 'polysynthesis', 'iroquoian', 'north-america', 'morphology'],
       title: {
-        en: 'Mohawk — when one word is a whole sentence',
+        en: 'Mohawk: when one word is a whole sentence',
         ja: '一語が一文になる言語、モホーク語',
       },
       summary: {
@@ -2444,7 +2444,7 @@ const TRIVIA_ARTICLES = [
       icon: '🗿',
       tags: ['nuxalk', 'salishan', 'phonology', 'vowelless', 'canada'],
       title: {
-        en: 'Nuxalk — words with no vowels at all',
+        en: 'Nuxalk: words with no vowels at all',
         ja: '母音ゼロの言語、ヌハルク語',
       },
       summary: {
@@ -2534,7 +2534,7 @@ const TRIVIA_ARTICLES = [
       icon: '🌺',
       tags: ['hawaiian', 'polynesian', 'revival', 'minimal-phonemes', 'hawaii'],
       title: {
-        en: 'Hawaiian — 13 sounds and language revitalization',
+        en: 'Hawaiian: 13 sounds and language revitalization',
         ja: '13の音素とハワイ語復興運動',
       },
       summary: {
@@ -2611,7 +2611,7 @@ const TRIVIA_ARTICLES = [
       icon: '🤟',
       tags: ['sign-language', 'nicaragua', 'emergence', 'isn', 'kegl', 'deaf'],
       title: {
-        en: 'Nicaraguan Sign Language — change observed across cohorts',
+        en: 'Nicaraguan Sign Language: change observed across cohorts',
         ja: 'ニカラグア手話──研究者の目の前で誕生した言語',
       },
       summary: {
@@ -2756,7 +2756,7 @@ const TRIVIA_ARTICLES = [
       icon: '🌳',
       tags: ['pie', 'proto-indo-european', 'reconstruction', 'comparative-method'],
       title: {
-        en: 'Proto-Indo-European — reconstruction through regular sound correspondences',
+        en: 'Proto-Indo-European: reconstruction through regular sound correspondences',
         ja: '誰も書き残さなかった言語、印欧祖語',
       },
       summary: {
@@ -2838,8 +2838,8 @@ const TRIVIA_ARTICLES = [
       "agreement"
     ],
     "title": {
-      "en": "Archi — the verb with 1.5 million forms",
-      "ja": "150万通りに活用する動詞 — アルチ語"
+      "en": "Archi: the verb with 1.5 million forms",
+      "ja": "150万通りに活用する動詞：アルチ語"
     },
     "summary": {
       "en": "Archi, a Lezgic language of about 1,200 speakers in a Dagestani mountain village, has a verb whose paradigm runs to 1,502,839 forms by Kibrik's count — tense, mood, four gender classes, case and an indirect-speech form all stacked together.",
@@ -2878,8 +2878,8 @@ const TRIVIA_ARTICLES = [
       "endangered"
     ],
     "title": {
-      "en": "Dyirbal — women, fire, and dangerous things",
-      "ja": "ディルバル語 — 女・火・危険なもの"
+      "en": "Dyirbal: women, fire, and dangerous things",
+      "ja": "ディルバル語：女・火・危険なもの"
     },
     "summary": {
       "en": "In Dyirbal, one of four noun-class markers precedes every noun. The class that groups women, fire, water and fighting — the one Lakoff named a book after — follows a real logic, not a random one.",
@@ -2919,7 +2919,7 @@ const TRIVIA_ARTICLES = [
       "writing-system"
     ],
     "title": {
-      "en": "Nüshu — the script only women read",
+      "en": "Nüshu: the script only women read",
       "ja": "女だけが読んだ文字、女書"
     },
     "summary": {
@@ -2960,8 +2960,8 @@ const TRIVIA_ARTICLES = [
       "register"
     ],
     "title": {
-      "en": "Kuşköy bird language — a whistled Turkish of the Black Sea",
-      "ja": "クシュキョイの鳥言語 — 黒海に響く口笛のトルコ語"
+      "en": "Kuşköy bird language: a whistled Turkish of the Black Sea",
+      "ja": "クシュキョイの鳥言語：黒海に響く口笛のトルコ語"
     },
     "summary": {
       "en": "In a Black Sea village, Turkish is held across steep valleys by whistling. UNESCO put it on the Urgent Safeguarding list in 2017, and a 2015 study found it engages both brain hemispheres where spoken Turkish favours the left.",
@@ -3001,7 +3001,7 @@ const TRIVIA_ARTICLES = [
       "ancient"
     ],
     "title": {
-      "en": "Ogham — the alphabet carved up the edge of a stone",
+      "en": "Ogham: the alphabet carved up the edge of a stone",
       "ja": "石の角に刻む文字、オガム"
     },
     "summary": {
@@ -3042,7 +3042,7 @@ const TRIVIA_ARTICLES = [
       "boustrophedon"
     ],
     "title": {
-      "en": "Rongorongo — the talking boards of Rapa Nui no one can read",
+      "en": "Rongorongo: the talking boards of Rapa Nui no one can read",
       "ja": "読み手を失ったラパ・ヌイの『語る板』、ロンゴロンゴ"
     },
     "summary": {
@@ -3083,8 +3083,8 @@ const TRIVIA_ARTICLES = [
       "history"
     ],
     "title": {
-      "en": "The alphabet's single ancestor — from an ox head to A",
-      "ja": "アルファベットの祖先は一つ ― 牛の頭から生まれたA"
+      "en": "The alphabet's single ancestor: from an ox head to A",
+      "ja": "アルファベットの祖先は一つ：牛の頭から生まれたA"
     },
     "summary": {
       "en": "Nearly every alphabet in use today traces back to a couple of dozen signs that Semitic speakers in Egypt and the Sinai adapted from Egyptian hieroglyphs early in the second millennium BCE; among them, an ox head became A.",
@@ -3127,7 +3127,7 @@ const TRIVIA_ARTICLES = [
       "creole"
     ],
     "title": {
-      "en": "Papua New Guinea — 840 languages in one country",
+      "en": "Papua New Guinea: 840 languages in one country",
       "ja": "パプアニューギニア──一国に840の言語"
     },
     "summary": {
@@ -3168,8 +3168,8 @@ const TRIVIA_ARTICLES = [
       "canada"
     ],
     "title": {
-      "en": "Michif — French nouns, Cree verbs, two grammars at once",
-      "ja": "ミチフ語 — 名詞はフランス語、動詞はクリー語"
+      "en": "Michif: French nouns, Cree verbs, two grammars at once",
+      "ja": "ミチフ語：名詞はフランス語、動詞はクリー語"
     },
     "summary": {
       "en": "Michif, the language of the Canadian Métis, takes its nouns from French and its verbs from Plains Cree, and each half keeps its own grammar inside the same sentence.",
@@ -3209,8 +3209,8 @@ const TRIVIA_ARTICLES = [
       "negation"
     ],
     "title": {
-      "en": "Kusunda — the Nepali isolate being woken, not revived",
-      "ja": "クスンダ語 — 蘇生ではなく「目覚め」を待つネパールの孤立言語"
+      "en": "Kusunda: the Nepali isolate being woken, not revived",
+      "ja": "クスンダ語：蘇生ではなく「目覚め」を待つネパールの孤立言語"
     },
     "summary": {
       "en": "Kusunda, a language isolate in western Nepal with no proven relatives, is down to one fluent speaker — and is being taught from scratch to learners who never grew up hearing it.",
@@ -3249,16 +3249,16 @@ const TRIVIA_ARTICLES = [
       "language-isolate"
     ],
     "title": {
-      "en": "Yélî Dnye — 90 phonemes on one island off New Guinea",
-      "ja": "イェリ・ドニェ語——ニューギニア沖の島の90音素"
+      "en": "Yélî Dnye: 90 phonemes on one island off New Guinea",
+      "ja": "イェリ・ドニェ語：ニューギニア沖の島の90音素"
     },
     "summary": {
       "en": "About 5,000 people on Rossel Island, Papua New Guinea, speak Yélî Dnye, a language isolate with 56 consonants and 34 vowels. Among them are stops made with the lips and the front of the tongue at the same moment, which no other language is known to use systematically.",
       "ja": "パプアニューギニアのロッセル島で約5,000人が話すイェリ・ドニェ語は、どの語族にも属さない孤立言語で、子音56・母音34を持つ。その中には、唇と舌の前部で同時に口を閉じる閉鎖音があり、これを体系的に使う言語はほかに知られていない。"
     },
     "body": {
-      "en": "<p><strong>Rossel Island</strong> (Yela) is the easternmost island of the Louisiade Archipelago, about 450 km off the mainland of Papua New Guinea and roughly 35 km by 10 km in size. Its 5,000 or so inhabitants all speak <strong>Yélî Dnye</strong> (ISO <em>yle</em>; also spelled Yele or Yeletnye). The language has no demonstrated relative. Malcolm Ross has tentatively grouped it with Anêm of New Britain, while Stephen Levinson's 2022 grammar treats it as an isolate. The Austronesian languages around it have left traces through contact, but no shared ancestry has been shown.</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"focus\" data-code=\"yle\">🔍 Open Yélî Dnye</button>\n  <button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"rain\" data-code=\"yle\">💬 \"Rain\" in Yélî Dnye (tp)</button>\n  <button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"sleep\" data-code=\"yle\">💬 \"Sleep\" in Yélî Dnye (dp)</button>\n</div>\n\n<h3>56 consonants, 34 vowels</h3>\n\n<p>Levinson counts <strong>90 distinctive segments</strong>: 56 consonants and 34 vowels. It is not a world record: Taa (ǃXóõ) in Botswana and Namibia has more consonants. The inventory goes back to the missionary linguist <strong>James Henderson</strong>, whose <em>Phonology and Grammar of Yele</em> (Pacific Linguistics, 1995) was the fullest description before Levinson's. Levinson adopted it with minor changes and checked it phonetically with Ian Maddieson.</p>\n\n<p>The vowels come from a simple multiplication. There are ten oral vowel qualities (<em>i, ɯ, u, e, ə, o, ɛ, ɔ, æ, ɑ</em>), and seven of them also have a nasal counterpart. Each of those 17 vowels can be short or long, which gives 34. The practical orthography writes a long vowel double and marks a nasal vowel with a colon before it: <em>w:ââ</em> \"dog\" has a long nasal [ɑ̃ː].</p>\n\n<h3>Lips and front of the tongue together</h3>\n\n<p>A doubly articulated stop closes the mouth in two places at once. The usual kind is <strong>labial-velar</strong>, as in the <em>gb</em> and <em>kp</em> of Yoruba or Ewe in West Africa, and Yélî Dnye has these too (<em>kp</em>, <em>ngm</em>). It also has two more series in which the lips close together with the front of the tongue: <strong>labial-dental</strong> (written <em>tp</em>, <em>ńm</em>) and <strong>labial-postalveolar</strong> (written <em>dp</em>, <em>nm</em>). The spelling always puts the labial second. Ladefoged and Maddieson's <em>The Sounds of the World's Languages</em> (1996), which call the two coronal series labial-alveolar and labial-retroflex, set out three-way contrasts at these places: /t̪͡pənə/ \"lung\", /ʈ͡pənə/ \"horn\", /k͡pene/ \"coconut bag\", and among the nasals /n̪͡mo/ \"bird\", /ɳ͡mo/ \"we\", /ŋ͡mo/ \"breast\".</p>\n\n<p>Similar sounds have been reported elsewhere. In Chadic languages such as Margi in Nigeria, closer study found sequences like /tp/ and /db/ rather than single consonants. Some Setswana dialects have labial-postalveolar sounds, but whether they are truly doubly articulated is disputed. No other language is known to have systematic labial-coronal double articulations, let alone at two coronal places.</p>\n\n<h3>Nasals before, nasals after</h3>\n\n<p>The consonant count keeps rising because each place of articulation comes in several versions. There are plain stops, prenasalized stops, nasally released stops in which the nasal follows the closure (<em>dny</em>, as in the language's own name), and palatalized and labialized forms of many of these. The two kinds of nasal stop even combine with double articulation: Ladefoged and Maddieson list /ŋ͡mɡ͡bo/ \"fog\" and /ɳ͡mɖ͡boo/ \"many\".</p>\n\n<p>On the map, <em>tpii</em> \"rain\" begins with the labial-dental stop and <em>dpî</em> \"sleep\" with the labial-postalveolar one. The words for \"bird\" (<em>ńmê</em>), \"we\" (<em>nmo</em>) and \"milk\" (<em>ngmo</em>, the same word as \"breast\") give the three double nasals side by side.</p>",
-      "ja": "<p><strong>ロッセル島</strong>（現地名ヤラ）は、パプアニューギニア本土から約450 km沖にあるルイジアード諸島の最東端の島で、大きさはおよそ35 km×10 km。約5,000人の島民はみな<strong>イェリ・ドニェ語</strong>（Yélî Dnye、ISO <em>yle</em>。Yele、Yeletnye とも表記）を話す。系統関係が証明された言語は一つもない。マルコム・ロスはニューブリテン島のアネム語と結びつける仮説を出しているが、スティーヴン・レヴィンソンの2022年の文法書は孤立言語として扱っている。周囲のオーストロネシア系言語は接触による痕跡を残しているが、共通の祖先は示されていない。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"focus\" data-code=\"yle\">🔍 イェリ・ドニェ語を開く</button>\n  <button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"rain\" data-code=\"yle\">💬 イェリ・ドニェ語の「雨」（tp）</button>\n  <button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"sleep\" data-code=\"yle\">💬 イェリ・ドニェ語の「眠る」（dp）</button>\n</div>\n\n<h3>子音56、母音34</h3>\n\n<p>レヴィンソンの数えでは、弁別的な分節音は<strong>90</strong>。内訳は子音56、母音34だ。ただし世界一ではない。ボツワナとナミビアのター語（ǃXóõ）は子音だけでこれより多い。この音素目録の土台は、宣教師で言語学者の<strong>ジェイムズ・ヘンダーソン</strong>が『Phonology and Grammar of Yele』（Pacific Linguistics、1995年）で示したもので、レヴィンソン以前ではもっとも詳しい記述だった。レヴィンソンはこれを小さな修正を加えて引き継ぎ、イアン・マディソンと共同で音声学的に検証している。</p>\n\n<p>母音の数は単純な掛け算で出てくる。口母音が10種類（<em>i, ɯ, u, e, ə, o, ɛ, ɔ, æ, ɑ</em>）あり、そのうち7つには鼻母音の対がある。この17の母音それぞれに短と長の区別があるので、合わせて34になる。実用正書法では長母音を2文字重ねて書き、鼻母音は直前にコロンを置いて示す。たとえば <em>w:ââ</em>「犬」の母音は長い鼻母音 [ɑ̃ː] だ。</p>\n\n<h3>唇と舌の前部で同時に閉じる</h3>\n\n<p>二重調音の閉鎖音とは、口の中の二か所を同時に閉じて出す音である。よくあるのは<strong>両唇軟口蓋音</strong>で、西アフリカのヨルバ語やエウェ語の <em>gb</em>・<em>kp</em> がそれにあたる。イェリ・ドニェ語にもこれはある（<em>kp</em>、<em>ngm</em>）。そのうえ、唇と舌の前部を同時に閉じる系列がさらに二つある。<strong>両唇・歯音</strong>（綴りは <em>tp</em>、<em>ńm</em>）と<strong>両唇・後部歯茎音</strong>（綴りは <em>dp</em>、<em>nm</em>）だ。綴りでは常に唇の音を後ろに書く。ラディフォギッドとマディソンの『The Sounds of the World's Languages』（1996年）は、この二つの舌の系列を両唇・歯茎音、両唇・そり舌音と呼び、三つの位置での対立を並べている。/t̪͡pənə/「肺」、/ʈ͡pənə/「角」、/k͡pene/「ココナツの袋」。鼻音では /n̪͡mo/「鳥」、/ɳ͡mo/「私たち」、/ŋ͡mo/「乳房」となる。</p>\n\n<p>似た音の報告はほかにもある。ナイジェリアのマルギ語などチャド諸語では、詳しく調べると一つの子音ではなく /tp/ や /db/ のような連続だとわかった。セツワナ語の一部の方言には両唇・後部歯茎音があるが、本当に二重調音なのかは議論が分かれている。唇と舌の前部による二重調音を体系的に持つ言語は、しかも二つの位置で持つ言語は、ほかに知られていない。</p>\n\n<h3>前にも後ろにも鼻音</h3>\n\n<p>子音の数がここまで増えるのは、一つの調音位置に何通りもの変種があるからだ。普通の閉鎖音のほかに、鼻音が先に来る前鼻音化閉鎖音、閉鎖のあとに鼻音が続く鼻腔開放の閉鎖音（言語名にも入っている <em>dny</em>）があり、その多くにさらに口蓋化形と円唇化形がある。鼻音の要素は二重調音とも組み合わさる。ラディフォギッドとマディソンは /ŋ͡mɡ͡bo/「霧」、/ɳ͡mɖ͡boo/「たくさん」を挙げている。</p>\n\n<p>地図では、<em>tpii</em>「雨」が両唇・歯の閉鎖音で、<em>dpî</em>「眠る」が両唇・後部歯茎の閉鎖音で始まる。「鳥」の <em>ńmê</em>、「私たち」の <em>nmo</em>、「乳」の <em>ngmo</em>（「乳房」と同じ語）を見比べれば、三種類の二重鼻音が並ぶ。</p>"
+      "en": "<p><strong>Rossel Island</strong> (Yela) is the easternmost island of the Louisiade Archipelago, about 450 km off the mainland of Papua New Guinea and roughly 35 km by 10 km in size. Its 5,000 or so inhabitants all speak <strong>Yélî Dnye</strong> (ISO <em>yle</em>; also spelled Yele or Yeletnye). The language has no demonstrated relative. Malcolm Ross has tentatively grouped it with Anêm of New Britain, while Stephen Levinson's 2022 grammar treats it as an isolate. The Austronesian languages around it have left traces through contact, but no shared ancestry has been shown.</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"focus\" data-code=\"yle\">🔍 Open Yélî Dnye</button>\n  <button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"rain\" data-code=\"yle\">💬 \"Rain\" in Yélî Dnye (tp)</button>\n  <button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"sleep\" data-code=\"yle\">💬 \"Sleep\" in Yélî Dnye (dp)</button>\n</div>\n\n<h3>56 consonants, 34 vowels</h3>\n\n<p>Levinson counts <strong>90 distinctive segments</strong>: 56 consonants and 34 vowels. It is not a world record: Taa (ǃXóõ) in Botswana and Namibia has more consonants. The inventory goes back to the missionary linguist <strong>James Henderson</strong>, whose <em>Phonology and Grammar of Yele</em> (Pacific Linguistics, 1995) was the fullest description before Levinson's. Levinson adopted it with minor changes and checked it phonetically with Ian Maddieson.</p>\n\n<p>The vowels come from a simple multiplication. There are ten oral vowel qualities (<em>i, ɯ, u, e, ə, o, ɛ, ɔ, æ, ɑ</em>), and seven of them also have a nasal counterpart. Each of those 17 vowels can be short or long, which gives 34. The practical orthography writes a long vowel double and marks a nasal vowel with a colon before it: <em>w:ââ</em> \"dog\" has a long nasal [ɑ̃ː].</p>\n\n<h3>Lips and front of the tongue together</h3>\n\n<p>A doubly articulated stop closes the mouth in two places at once. The usual kind is <strong>labial-velar</strong>, as in the <em>gb</em> and <em>kp</em> of Yoruba or Ewe in West Africa, and Yélî Dnye has these too (<em>kp</em>, <em>ngm</em>). It also has two more series in which the lips close together with the front of the tongue: <strong>labial-dental</strong> (written <em>tp</em>, <em>ńm</em>) and <strong>labial-postalveolar</strong> (written <em>dp</em>, <em>nm</em>). The spelling always puts the labial second. Ladefoged and Maddieson's <em>The Sounds of the World's Languages</em> (1996), which call the labial-dental series labial-alveolar, set out three-way contrasts at these places: /t̪͡pənə/ \"lung\", /ʈ͡pənə/ \"horn\", /k͡pene/ \"coconut bag\", and among the nasals /n̪͡mo/ \"bird\", /ɳ͡mo/ \"we\", /ŋ͡mo/ \"breast\".</p>\n\n<p>Similar sounds have been reported elsewhere. In Chadic languages such as Margi in Nigeria, closer study found sequences like /tp/ and /db/ rather than single consonants. Some Setswana dialects have labial-postalveolar sounds, but whether they are truly doubly articulated is disputed. No other language is known to have systematic labial-coronal double articulations, let alone at two coronal places.</p>\n\n<h3>Nasals before, nasals after</h3>\n\n<p>The consonant count keeps rising because each place of articulation comes in several versions. There are plain stops, prenasalized stops, nasally released stops in which the nasal follows the closure (<em>dny</em>, as in the language's own name), and palatalized and labialized forms of many of these. The two kinds of nasal stop even combine with double articulation: Ladefoged and Maddieson list /ŋ͡mɡ͡bo/ \"fog\" and /ɳ͡mɖ͡boo/ \"many\".</p>\n\n<p>On the map, <em>tpii</em> \"rain\" begins with the labial-dental stop and <em>dpî</em> \"sleep\" with the labial-postalveolar one. The words for \"bird\" (<em>ńmê</em>, also <em>ńmo</em>), \"we\" (<em>nmo</em>) and \"milk\" (<em>ngmo</em>, the same word as \"breast\") give the three double nasals side by side.</p>",
+      "ja": "<p><strong>ロッセル島</strong>（現地名ヤラ）は、パプアニューギニア本土から約450 km沖にあるルイジアード諸島の最東端の島で、大きさはおよそ35 km×10 km。約5,000人の島民はみな<strong>イェリ・ドニェ語</strong>（Yélî Dnye、ISO <em>yle</em>。Yele、Yeletnye とも表記）を話す。系統関係が証明された言語は一つもない。マルコム・ロスはニューブリテン島のアネム語と結びつける仮説を出しているが、スティーヴン・レヴィンソンの2022年の文法書は孤立言語として扱っている。周囲のオーストロネシア系言語は接触による痕跡を残しているが、共通の祖先は示されていない。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"focus\" data-code=\"yle\">🔍 イェリ・ドニェ語を開く</button>\n  <button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"rain\" data-code=\"yle\">💬 イェリ・ドニェ語の「雨」（tp）</button>\n  <button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"sleep\" data-code=\"yle\">💬 イェリ・ドニェ語の「眠る」（dp）</button>\n</div>\n\n<h3>子音56、母音34</h3>\n\n<p>レヴィンソンの数えでは、弁別的な分節音は<strong>90</strong>。内訳は子音56、母音34だ。ただし世界一ではない。ボツワナとナミビアのター語（ǃXóõ）は子音だけでこれより多い。この音素目録の土台は、宣教師で言語学者の<strong>ジェイムズ・ヘンダーソン</strong>が『Phonology and Grammar of Yele』（Pacific Linguistics、1995年）で示したもので、レヴィンソン以前ではもっとも詳しい記述だった。レヴィンソンはこれを小さな修正を加えて引き継ぎ、イアン・マディソンと共同で音声学的に検証している。</p>\n\n<p>母音の数は単純な掛け算で出てくる。口母音が10種類（<em>i, ɯ, u, e, ə, o, ɛ, ɔ, æ, ɑ</em>）あり、そのうち7つには鼻母音の対がある。この17の母音それぞれに短と長の区別があるので、合わせて34になる。実用正書法では長母音を2文字重ねて書き、鼻母音は直前にコロンを置いて示す。たとえば <em>w:ââ</em>「犬」の母音は長い鼻母音 [ɑ̃ː] だ。</p>\n\n<h3>唇と舌の前部で同時に閉じる</h3>\n\n<p>二重調音の閉鎖音とは、口の中の二か所を同時に閉じて出す音である。よくあるのは<strong>両唇軟口蓋音</strong>で、西アフリカのヨルバ語やエウェ語の <em>gb</em>・<em>kp</em> がそれにあたる。イェリ・ドニェ語にもこれはある（<em>kp</em>、<em>ngm</em>）。そのうえ、唇と舌の前部を同時に閉じる系列がさらに二つある。<strong>両唇・歯音</strong>（綴りは <em>tp</em>、<em>ńm</em>）と<strong>両唇・後部歯茎音</strong>（綴りは <em>dp</em>、<em>nm</em>）だ。綴りでは常に唇の音を後ろに書く。ラディフォギッドとマディソンの『The Sounds of the World's Languages』（1996年）は、両唇・歯音の系列を両唇・歯茎音と呼び、三つの位置での対立を並べている。/t̪͡pənə/「肺」、/ʈ͡pənə/「角」、/k͡pene/「ココナツの袋」。鼻音では /n̪͡mo/「鳥」、/ɳ͡mo/「私たち」、/ŋ͡mo/「乳房」となる。</p>\n\n<p>似た音の報告はほかにもある。ナイジェリアのマルギ語などチャド諸語では、詳しく調べると一つの子音ではなく /tp/ や /db/ のような連続だとわかった。セツワナ語の一部の方言には両唇・後部歯茎音があるが、本当に二重調音なのかは議論が分かれている。唇と舌の前部による二重調音を体系的に持つ言語は、しかも二つの位置で持つ言語は、ほかに知られていない。</p>\n\n<h3>前にも後ろにも鼻音</h3>\n\n<p>子音の数がここまで増えるのは、一つの調音位置に何通りもの変種があるからだ。普通の閉鎖音のほかに、鼻音が先に来る前鼻音化閉鎖音、閉鎖のあとに鼻音が続く鼻腔開放の閉鎖音（言語名にも入っている <em>dny</em>）があり、その多くにさらに口蓋化形と円唇化形がある。鼻音の要素は二重調音とも組み合わさる。ラディフォギッドとマディソンは /ŋ͡mɡ͡bo/「霧」、/ɳ͡mɖ͡boo/「たくさん」を挙げている。</p>\n\n<p>地図では、<em>tpii</em>「雨」が両唇・歯の閉鎖音で、<em>dpî</em>「眠る」が両唇・後部歯茎の閉鎖音で始まる。「鳥」の <em>ńmê</em>（<em>ńmo</em> とも）、「私たち」の <em>nmo</em>、「乳」の <em>ngmo</em>（「乳房」と同じ語）を見比べれば、三種類の二重鼻音が並ぶ。</p>"
     },
     "sources": [
       {
@@ -3373,7 +3373,7 @@ const TRIVIA_ARTICLES = [
     ],
     "title": {
       "en": "Manx after Ned Maddrell: 26 acetate discs and a school in St John's",
-      "ja": "ネッド・マドレル以後のマン島語——26枚の録音盤とセント・ジョンズの小学校"
+      "ja": "ネッド・マドレル以後のマン島語：26枚の録音盤とセント・ジョンズの小学校"
     },
     "summary": {
       "en": "The last person to have spoken Manx from childhood died in 1974. Recordings made in 1948 and in the 1950s, adult learners, and a Manx-medium primary school opened in 2001 kept the language in use, and in 2009 UNESCO withdrew the label 'extinct'.",
@@ -3414,7 +3414,7 @@ const TRIVIA_ARTICLES = [
     ],
     "title": {
       "en": "Cornish: the 'last speaker' of 1777 and the language that came back",
-      "ja": "コーンウォール語——1777年の「最後の話者」と、戻ってきた言語"
+      "ja": "コーンウォール語：1777年の「最後の話者」と、戻ってきた言語"
     },
     "summary": {
       "en": "Dolly Pentreath of Mousehole, who died in 1777, is remembered as the last speaker of Cornish. She spoke English as well, and other speakers outlived her. The language was revived from Henry Jenner's 1904 Handbook, went through four rival spellings, and was moved off UNESCO's extinct list in 2010.",
@@ -3454,8 +3454,8 @@ const TRIVIA_ARTICLES = [
       "revitalization"
     ],
     "title": {
-      "en": "Ainu — a language isolate, Kayano Shigeru, and the 0.7%",
-      "ja": "アイヌ語 — 孤立言語と萱野茂、そして0.7%"
+      "en": "Ainu: a language isolate, Kayano Shigeru, and the 0.7%",
+      "ja": "アイヌ語：孤立言語と萱野茂、そして0.7%"
     },
     "summary": {
       "en": "Ainu, once spoken across Hokkaido, southern Sakhalin and the Kurils, has no proven relatives. Kayano Shigeru took it into the Diet in 1994. Japan recognised the Ainu as an indigenous people in a 2008 resolution and a 2019 law, and a 2017 survey found 0.7% of Ainu respondents could hold a conversation in it.",
@@ -3495,7 +3495,7 @@ const TRIVIA_ARTICLES = [
     ],
     "title": {
       "en": "Two Arabics in one mouth: Ferguson's diglossia",
-      "ja": "一人の話し手に二つのアラビア語――ファーガソンの「ダイグロシア」"
+      "ja": "一人の話し手に二つのアラビア語：ファーガソンの「ダイグロシア」"
     },
     "summary": {
       "en": "A news anchor in Cairo says 'tomorrow' as ghadan and goes home to say bukra. In 1959 Charles Ferguson used Arabic as a core case for a split he called diglossia: one variety for writing and formal speech that nobody learns at home, and another that everyone speaks.",
@@ -3576,7 +3576,7 @@ const TRIVIA_ARTICLES = [
     ],
     "title": {
       "en": "Haitian Creole: French words on a grammar French does not have",
-      "ja": "ハイチ・クレオール語——フランス語の単語、フランス語にない文法"
+      "ja": "ハイチ・クレオール語：フランス語の単語、フランス語にない文法"
     },
     "summary": {
       "en": "Most Haitian Creole words come from French, but its tenses are built from small particles like te, ap and pral, and its articles come after the noun. Since 1987 it has been an official language of Haiti alongside French.",
@@ -3617,7 +3617,7 @@ const TRIVIA_ARTICLES = [
     ],
     "title": {
       "en": "Afrikaans: how the Dutch of the Cape became a language of its own",
-      "ja": "アフリカーンス語――ケープのオランダ語が独立した言語になるまで"
+      "ja": "アフリカーンス語：ケープのオランダ語が独立した言語になるまで"
     },
     "summary": {
       "en": "Afrikaans grew out of the Dutch brought to the Cape in 1652, shaped by Malay, Portuguese and Khoekhoe speakers. It was first written in Arabic script by Cape Muslims, became an official language in 1925, and says \"not\" twice.",
@@ -3658,7 +3658,7 @@ const TRIVIA_ARTICLES = [
     ],
     "title": {
       "en": "Romani: An Indian Language That Counts to Seven in Greek",
-      "ja": "ロマニ語——「七」をギリシア語で数えるインドの言語"
+      "ja": "ロマニ語：「七」をギリシア語で数えるインドの言語"
     },
     "summary": {
       "en": "In 1782 Johann Rüdiger set Romani beside Hindustani and showed that the language of Europe's Roma came from India. The basic vocabulary still matches Hindi, and a layer of Byzantine Greek loanwords records where the language spent its early centuries.",
@@ -3698,8 +3698,8 @@ const TRIVIA_ARTICLES = [
       "language-contact"
     ],
     "title": {
-      "en": "Yiddish — a Germanic language in Hebrew letters",
-      "ja": "イディッシュ語 — ヘブライ文字で書くゲルマン語"
+      "en": "Yiddish: a Germanic language in Hebrew letters",
+      "ja": "イディッシュ語：ヘブライ文字で書くゲルマン語"
     },
     "summary": {
       "en": "Yiddish has German grammar, Hebrew-Aramaic and Slavic vocabulary, and the Hebrew alphabet. It had an estimated 11–13 million speakers on the eve of the Second World War, and today lives mainly in Haredi communities.",
@@ -3739,16 +3739,16 @@ const TRIVIA_ARTICLES = [
       "language-contact"
     ],
     "title": {
-      "en": "Maltese — Arabic grammar in Latin letters",
-      "ja": "マルタ語 — ラテン文字で書くアラビア語の文法"
+      "en": "Maltese: Arabic grammar in Latin letters",
+      "ja": "マルタ語：ラテン文字で書くアラビア語の文法"
     },
     "summary": {
       "en": "Maltese is the only Semitic language with official status in the European Union and the only one standardised in the Latin alphabet. Its grammar and core words come from medieval Sicilian-North African Arabic, and most of its dictionary from Sicily, Italy and England.",
       "ja": "マルタ語はEUの公用語で唯一のセム語であり、ラテン文字で標準化された唯一のセム語でもある。文法と基礎語彙は中世シチリア・北アフリカのアラビア語から来ているが、辞書の見出し語の多くはシチリア語・イタリア語・英語から入った。"
     },
     "body": {
-      "en": "<p>On 1 May 2004, when Malta joined the European Union, <strong>Maltese</strong> became an official EU language. It is the only Semitic language with that status, and the only Semitic language whose standard form is written in the Latin alphabet. The alphabet has 30 letters, among them <em>ċ</em>, <em>ġ</em>, <em>ħ</em>, <em>ż</em>, the digraph <em>għ</em> and <em>ie</em>. Its modern spelling was set out in 1924 by the Għaqda tal-Kittieba tal-Malti, the Maltese writers' association. In 1934 Maltese replaced Italian as an official language of the colony, alongside English, and the 1964 independence constitution named it the national language.</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"focus\" data-code=\"mt\">🔍 Open Maltese on the map</button>\n</div>\n\n<h3>Arabic underneath</h3>\n\n<p>The Aghlabid emirate of Ifriqiya took Malta in 870. The historian Joseph Brincat, reading the geographer al-Ḥimyarī, places a resettlement of the island from Sicily around 1048–49, so the Arabic that took root was the Arabic of Muslim Sicily and the Maghreb. The Norman count Roger I invaded in 1091, the island came under direct Norman rule in 1127, and Muslims had been expelled by 1249. After that the language survived only as a spoken vernacular among Christians, and it was written in Latin or Sicilian. The oldest known text in Maltese, Pietru Caxaro's poem <em>Il-Kantilena</em>, dates from before his death in 1485. Mikiel Fsadni found it in 1966 in the register of the notary Brandan Caxaro, and he and Godfrey Wettinger published it in 1968.</p>\n\n<p>The numbers on the map show the descent: <em>wieħed, tnejn, tlieta, erbgħa, ħamsa</em> against Modern Standard Arabic <em>wāḥid, ithnān, thalātha, arbaʿa, khamsa</em>, and <em>mija</em> \"hundred\" against <em>miʾa</em>. The spelling keeps the Arabic consonants that speech has worn down. <em>Q</em> is a glottal stop, so <em>qalb</em> \"heart\" is pronounced [ʔalp]. <em>Għ</em>, the old pharyngeal ʿayn, is now mostly silent and lengthens the vowel next to it: <em>għajn</em> \"eye\" is [ajn], Arabic <em>ʿayn</em>. Maltese <em>ħ</em> covers both Arabic <em>ḥ</em> and <em>kh</em>, which is why \"five\" is <em>ħamsa</em>.</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-word=\"five\" data-codes=\"mt,ar,ar_tn\">⚖️ Compare Maltese, Standard Arabic and Tunisian Arabic</button>\n</div>\n\n<p>Some everyday words match North Africa rather than the standard language. \"Fish\" is <em>ħuta</em> in Maltese and <em>ḥūta</em> in Tunisian Arabic, where Standard Arabic has <em>samaka</em>. \"Cat\" is <em>qattus</em>, Tunisian <em>qaṭṭūs</em>. \"House\" is <em>dar</em>, as in Tunis and Morocco, not Standard Arabic <em>bayt</em>. In 2016 Slavomír Čéplö and colleagues published a pilot study in <em>Folia Linguistica</em> that tested how well the languages are understood across the gap, with 24 respondents in Malta, Tunis and Benghazi. Tunisian and Libyan speakers understood about 40 percent of spoken Maltese. Maltese speakers understood about 30 percent of the two Arabic varieties.</p>\n\n<h3>A Romance and English dictionary</h3>\n\n<p>Brincat counted the etymologies in Joseph Aquilina's <em>Maltese-English Dictionary</em>, which has about 41,000 entries. About 32 percent were Semitic, about 52 percent Sicilian and Italian, and about 6 percent English. <em>Grazzi</em> \"thanks\" is the Sicilian word unchanged, <em>rota</em> \"wheel\" matches Sicilian <em>rota</em>, and <em>kompjuter</em> is English respelled. Even <em>missier</em> \"father\" goes back to older Sicilian <em>misseri</em> \"sir\", not to Arabic. Brincat adds a caveat: the dictionary count understates the Arabic share of running text, because pronouns, prepositions, numbers and basic verbs such as <em>kiel</em> \"ate\" and <em>xorob</em> \"drank\" are Semitic and they recur in every sentence.</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"thanks\" data-code=\"mt\">💬 See \"thanks\" across languages</button>\n</div>\n\n<h3>The Phoenician theory</h3>\n\n<p>In the 18th century, Giovanni Pietro Francesco Agius de Soldanis and later Mikiel Anton Vassalli argued that Maltese descended from Punic, the Phoenician language of ancient Carthage. The idea is still repeated in Malta. The evidence does not support it. Maltese sound changes, verb patterns and vocabulary line up with medieval Maghrebi Arabic, and no feature has been shown to come from Punic rather than from Arabic, which is a closely related Semitic language. The Punic inscriptions found on the islands, among them the two Melqart cippi of the 2nd century BC, are many centuries older than the Aghlabid conquest.</p>",
-      "ja": "<p>2004年5月1日、マルタのEU加盟とともに<strong>マルタ語</strong>はEUの公用語になった。EU公用語の中でセム語はマルタ語だけで、標準語をラテン文字で書くセム語もマルタ語だけである。アルファベットは30文字で、<em>ċ</em>・<em>ġ</em>・<em>ħ</em>・<em>ż</em>、二重字の<em>għ</em>と<em>ie</em>を含む。現行の正書法は1924年にマルタ語作家協会（Għaqda tal-Kittieba tal-Malti）が定めた。1934年にはイタリア語に代わって英語と並ぶ植民地の公用語となり、1964年の独立憲法で国語と定められた。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"focus\" data-code=\"mt\">🔍 地図でマルタ語を開く</button>\n</div>\n\n<h3>土台はアラビア語</h3>\n\n<p>870年、イフリーキヤのアグラブ朝がマルタを奪った。歴史家ジョゼフ・ブリンカットは地理学者ヒムヤリーの記述をもとに、1048〜49年ごろシチリアからの再入植があったと見ている。したがって根づいたのは、イスラーム期シチリアとマグリブのアラビア語だった。1091年にノルマンのルッジェーロ1世が島に侵攻し、1127年に島はノルマンの直接支配下に入り、1249年までにムスリムは追放された。以後この言語はキリスト教徒の話し言葉としてだけ残り、文書はラテン語かシチリア語で書かれた。現存最古のマルタ語テキストは、1485年に没したピエトル・カシャロが生前に書いた詩『イル・カンティレーナ』である。1966年、ミキエル・フサドニが公証人ブランダン・カシャロの記録簿の中から見つけ、1968年にゴドフリー・ウェッティンガーとともに公表した。</p>\n\n<p>地図の数詞を見れば系統はわかる。<em>wieħed, tnejn, tlieta, erbgħa, ħamsa</em>（1〜5）は、現代標準アラビア語の <em>wāḥid, ithnān, thalātha, arbaʿa, khamsa</em> に対応する。「100」も <em>mija</em> と <em>miʾa</em> だ。綴りには、発音では弱まったアラビア語の子音が残っている。<em>q</em> は声門閉鎖音で、<em>qalb</em>「心臓」は [ʔalp] と読む。<em>għ</em> はもとの咽頭音アインで、いまはほぼ無音になり、隣の母音を長くする。<em>għajn</em>「目」は [ajn] で、アラビア語の <em>ʿayn</em> にあたる。マルタ語の <em>ħ</em> はアラビア語の <em>ḥ</em> と <em>kh</em> の両方を引き継いでいるため、「5」は <em>ħamsa</em> になる。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-word=\"five\" data-codes=\"mt,ar,ar_tn\">⚖️ マルタ語・標準アラビア語・チュニジア語を比べる</button>\n</div>\n\n<p>日常語の中には、標準語ではなく北アフリカの方言と一致するものがある。「魚」はマルタ語で <em>ħuta</em>、チュニジア・アラビア語で <em>ḥūta</em> だが、標準アラビア語では <em>samaka</em> だ。「猫」は <em>qattus</em> で、チュニジアの <em>qaṭṭūs</em> と同じ。「家」の <em>dar</em> も、標準語の <em>bayt</em> ではなくチュニスやモロッコの語と一致する。2016年、スラヴォミール・チェープロらは『Folia Linguistica』に予備調査を発表し、マルタ・チュニス・ベンガジの回答者24人で相互理解度を実地に測った。チュニジアとリビアの話者は話されたマルタ語の約40%を理解し、マルタ語話者が理解できたのは両方言の約30%だった。</p>\n\n<h3>辞書はロマンス語と英語</h3>\n\n<p>ブリンカットは、約4万1千語を収めたジョゼフ・アクイリーナの『マルタ語英語辞典』の語源を数えた。セム系は約32%、シチリア語・イタリア語系は約52%、英語系は約6%だった。<em>grazzi</em>「ありがとう」はシチリア語そのままで、<em>rota</em>「車輪」もシチリア語の <em>rota</em> と同じ形、<em>kompjuter</em> は英語を綴り直したものだ。「父」の <em>missier</em> でさえ、アラビア語ではなく古いシチリア語の <em>misseri</em>「旦那」に由来する。ただしブリンカットは、辞書の数え方では実際の文章でのアラビア語の比重が過小に出ると断っている。代名詞、前置詞、数詞、<em>kiel</em>「食べた」や <em>xorob</em>「飲んだ」のような基本動詞はセム系で、どの文にも繰り返し現れるからだ。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"thanks\" data-code=\"mt\">💬 各言語の「ありがとう」を見る</button>\n</div>\n\n<h3>フェニキア語起源説</h3>\n\n<p>18世紀、ジョヴァンニ・ピエトロ・フランチェスコ・アジウス・デ・ソルダニス、続いてミキエル・アントン・ヴァッサッリが、マルタ語は古代カルタゴのフェニキア語、つまりポエニ語の子孫だと主張した。この説はいまもマルタで語られる。だが証拠はこれを支持しない。マルタ語の音変化・動詞の型・語彙は中世マグリブのアラビア語と対応している。同じセム語で近縁のアラビア語ではなくポエニ語から来たと示せた特徴は一つもない。島で見つかるポエニ語碑文は、前2世紀の2本のメルカルト石柱を含め、アグラブ朝の征服より何世紀も前のものだ。</p>"
+      "en": "<p>On 1 May 2004, when Malta joined the European Union, <strong>Maltese</strong> became an official EU language. It is the only Semitic language with that status, and the only Semitic language whose standard form is written in the Latin alphabet. The alphabet has 30 letters, among them <em>ċ</em>, <em>ġ</em>, <em>ħ</em>, <em>ż</em>, the digraph <em>għ</em> and <em>ie</em>. Its modern spelling was set out in 1924 by the Għaqda tal-Kittieba tal-Malti, the Maltese writers' association. In 1934 Maltese replaced Italian as an official language of the colony, alongside English, and the 1964 independence constitution named it the national language.</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"focus\" data-code=\"mt\">🔍 Open Maltese on the map</button>\n</div>\n\n<h3>Arabic underneath</h3>\n\n<p>The Aghlabid emirate of Ifriqiya took Malta in 870. The historian Joseph Brincat, reading the geographer al-Ḥimyarī, places a resettlement of the island from Sicily around 1048–49, so the Arabic that took root was the Arabic of Muslim Sicily and the Maghreb. The Norman count Roger I invaded in 1091, the island came under direct Norman rule in 1127, and Muslims had been expelled by 1249. After that the language survived only as a spoken vernacular among Christians, and it was written in Latin or Sicilian. The oldest known text in Maltese, Pietru Caxaro's poem <em>Il-Kantilena</em>, dates from before his death in 1485. Mikiel Fsadni found it in 1966 in the register of the notary Brandan Caxaro, and he and Godfrey Wettinger published it in 1968.</p>\n\n<p>The numbers on the map show the descent: <em>wieħed, tnejn, tlieta, erbgħa, ħamsa</em> against Modern Standard Arabic <em>wāḥid, ithnān, thalātha, arbaʿa, khamsa</em>, and <em>mija</em> \"hundred\" against <em>miʾa</em>. The spelling keeps the Arabic consonants that speech has worn down. <em>Q</em> is a glottal stop, so <em>qalb</em> \"heart\" is pronounced [ʔalp]. <em>Għ</em>, the old pharyngeal ʿayn, is now mostly silent and lengthens the vowel next to it: <em>għajn</em> \"eye\" is [ajn], Arabic <em>ʿayn</em>. Maltese <em>ħ</em> covers both Arabic <em>ḥ</em> and <em>kh</em>, which is why \"five\" is <em>ħamsa</em>.</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-word=\"five\" data-codes=\"mt,ar,ar_tn\">⚖️ Compare Maltese, Standard Arabic and Tunisian Arabic</button>\n</div>\n\n<p>Some everyday words match North Africa rather than the standard language. \"Fish\" is <em>ħuta</em> in Maltese and <em>ḥūta</em> in Tunisian Arabic, where Standard Arabic has <em>samaka</em>. \"Cat\" is <em>qattus</em>, Tunisian <em>qaṭṭūs</em>. \"House\" is <em>dar</em>, as in Tunis and Morocco, not Standard Arabic <em>bayt</em>. In 2016 Slavomír Čéplö and colleagues published a pilot study in <em>Folia Linguistica</em> that tested how well the languages are understood across the gap, with 24 respondents in Malta, Tunis and Benghazi. Tunisian and Libyan speakers understood about 40 percent of spoken Maltese. Maltese speakers understood about 30 percent of the two Arabic varieties.</p>\n\n<h3>A Romance and English dictionary</h3>\n\n<p>Brincat counted the etymologies in Joseph Aquilina's <em>Maltese-English Dictionary</em>, which has about 41,000 entries. About 32 percent were Semitic, about 52 percent Sicilian and Italian, and about 6 percent English. <em>Grazzi</em> \"thanks\" is the Sicilian word unchanged, <em>rota</em> \"wheel\" matches Sicilian <em>rota</em>, and <em>kompjuter</em> is English respelled. Even <em>missier</em> \"father\" goes back to older Sicilian <em>misseri</em> \"sir\", not to Arabic. A dictionary count understates the Arabic share of running text, though, because pronouns, prepositions, numbers and basic verbs such as <em>kiel</em> \"ate\" and <em>xorob</em> \"drank\" are Semitic and they recur in every sentence.</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"thanks\" data-code=\"mt\">💬 See \"thanks\" across languages</button>\n</div>\n\n<h3>The Phoenician theory</h3>\n\n<p>In the 18th century, Giovanni Pietro Francesco Agius de Soldanis and later Mikiel Anton Vassalli argued that Maltese descended from Punic, the Phoenician language of ancient Carthage. The idea is still repeated in Malta. The evidence does not support it. Maltese sound changes, verb patterns and vocabulary line up with medieval Maghrebi Arabic, and no feature has been shown to come from Punic rather than from Arabic, which is a closely related Semitic language. The Punic inscriptions found on the islands, among them the two Melqart cippi of the 2nd century BC, are many centuries older than the Aghlabid conquest.</p>",
+      "ja": "<p>2004年5月1日、マルタのEU加盟とともに<strong>マルタ語</strong>はEUの公用語になった。EU公用語の中でセム語はマルタ語だけで、標準語をラテン文字で書くセム語もマルタ語だけである。アルファベットは30文字で、<em>ċ</em>・<em>ġ</em>・<em>ħ</em>・<em>ż</em>、二重字の<em>għ</em>と<em>ie</em>を含む。現行の正書法は1924年にマルタ語作家協会（Għaqda tal-Kittieba tal-Malti）が定めた。1934年にはイタリア語に代わって英語と並ぶ植民地の公用語となり、1964年の独立憲法で国語と定められた。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"focus\" data-code=\"mt\">🔍 地図でマルタ語を開く</button>\n</div>\n\n<h3>土台はアラビア語</h3>\n\n<p>870年、イフリーキヤのアグラブ朝がマルタを奪った。歴史家ジョゼフ・ブリンカットは地理学者ヒムヤリーの記述をもとに、1048〜49年ごろシチリアからの再入植があったと見ている。したがって根づいたのは、イスラーム期シチリアとマグリブのアラビア語だった。1091年にノルマンのルッジェーロ1世が島に侵攻し、1127年に島はノルマンの直接支配下に入り、1249年までにムスリムは追放された。以後この言語はキリスト教徒の話し言葉としてだけ残り、文書はラテン語かシチリア語で書かれた。現存最古のマルタ語テキストは、1485年に没したピエトル・カシャロが生前に書いた詩『イル・カンティレーナ』である。1966年、ミキエル・フサドニが公証人ブランダン・カシャロの記録簿の中から見つけ、1968年にゴドフリー・ウェッティンガーとともに公表した。</p>\n\n<p>地図の数詞を見れば系統はわかる。<em>wieħed, tnejn, tlieta, erbgħa, ħamsa</em>（1〜5）は、現代標準アラビア語の <em>wāḥid, ithnān, thalātha, arbaʿa, khamsa</em> に対応する。「100」も <em>mija</em> と <em>miʾa</em> だ。綴りには、発音では弱まったアラビア語の子音が残っている。<em>q</em> は声門閉鎖音で、<em>qalb</em>「心臓」は [ʔalp] と読む。<em>għ</em> はもとの咽頭音アインで、いまはほぼ無音になり、隣の母音を長くする。<em>għajn</em>「目」は [ajn] で、アラビア語の <em>ʿayn</em> にあたる。マルタ語の <em>ħ</em> はアラビア語の <em>ḥ</em> と <em>kh</em> の両方を引き継いでいるため、「5」は <em>ħamsa</em> になる。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-word=\"five\" data-codes=\"mt,ar,ar_tn\">⚖️ マルタ語・標準アラビア語・チュニジア語を比べる</button>\n</div>\n\n<p>日常語の中には、標準語ではなく北アフリカの方言と一致するものがある。「魚」はマルタ語で <em>ħuta</em>、チュニジア・アラビア語で <em>ḥūta</em> だが、標準アラビア語では <em>samaka</em> だ。「猫」は <em>qattus</em> で、チュニジアの <em>qaṭṭūs</em> と同じ。「家」の <em>dar</em> も、標準語の <em>bayt</em> ではなくチュニスやモロッコの語と一致する。2016年、スラヴォミール・チェープロらは『Folia Linguistica』に予備調査を発表し、マルタ・チュニス・ベンガジの回答者24人で相互理解度を実地に測った。チュニジアとリビアの話者は話されたマルタ語の約40%を理解し、マルタ語話者が理解できたのは両方言の約30%だった。</p>\n\n<h3>辞書はロマンス語と英語</h3>\n\n<p>ブリンカットは、約4万1千語を収めたジョゼフ・アクイリーナの『マルタ語英語辞典』の語源を数えた。セム系は約32%、シチリア語・イタリア語系は約52%、英語系は約6%だった。<em>grazzi</em>「ありがとう」はシチリア語そのままで、<em>rota</em>「車輪」もシチリア語の <em>rota</em> と同じ形、<em>kompjuter</em> は英語を綴り直したものだ。「父」の <em>missier</em> でさえ、アラビア語ではなく古いシチリア語の <em>misseri</em>「旦那」に由来する。ただし辞書の数え方では、実際の文章でのアラビア語の比重は過小に出る。代名詞、前置詞、数詞、<em>kiel</em>「食べた」や <em>xorob</em>「飲んだ」のような基本動詞はセム系で、どの文にも繰り返し現れるからだ。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"thanks\" data-code=\"mt\">💬 各言語の「ありがとう」を見る</button>\n</div>\n\n<h3>フェニキア語起源説</h3>\n\n<p>18世紀、ジョヴァンニ・ピエトロ・フランチェスコ・アジウス・デ・ソルダニス、続いてミキエル・アントン・ヴァッサッリが、マルタ語は古代カルタゴのフェニキア語、つまりポエニ語の子孫だと主張した。この説はいまもマルタで語られる。だが証拠はこれを支持しない。マルタ語の音変化・動詞の型・語彙は中世マグリブのアラビア語と対応している。同じセム語で近縁のアラビア語ではなくポエニ語から来たと示せた特徴は一つもない。島で見つかるポエニ語碑文は、前2世紀の2本のメルカルト石柱を含め、アグラブ朝の征服より何世紀も前のものだ。</p>"
     },
     "sources": [
       {
@@ -3780,8 +3780,8 @@ const TRIVIA_ARTICLES = [
       "writing-systems"
     ],
     "title": {
-      "en": "Gvprtskvni — eight consonants before the first vowel in Georgian",
-      "ja": "グヴプルツクヴニ — 母音までに子音が八つ並ぶジョージア語"
+      "en": "Gvprtskvni, eight consonants before the first vowel in Georgian",
+      "ja": "グヴプルツクヴニ：母音までに子音が八つ並ぶジョージア語"
     },
     "summary": {
       "en": "Georgian verbs such as gvprtskvni 'you peel us' start with eight consonants. Many of its two-consonant clusters share voicing, aspiration or ejection. It is written in Mkhedruli, a script with no letter case, and its all-caps Mtavruli letters were encoded in Unicode only in 2018.",
@@ -3822,7 +3822,7 @@ const TRIVIA_ARTICLES = [
     ],
     "title": {
       "en": "The dùndún: how a Yoruba drum speaks in three tones",
-      "ja": "ドゥンドゥン——三つの声調で「話す」ヨルバの太鼓"
+      "ja": "ドゥンドゥン：三つの声調で「話す」ヨルバの太鼓"
     },
     "summary": {
       "en": "Yoruba distinguishes words by three level tones. The hourglass-shaped dùndún drum reproduces those tones and the syllable count of speech by squeezing its tension cords, so drummers can play praise poetry and proverbs that listeners hear as words.",
@@ -3862,7 +3862,7 @@ const TRIVIA_ARTICLES = [
       "extinct"
     ],
     "title": {
-      "en": "Martha's Vineyard Sign Language — the town where hearing people signed",
+      "en": "Martha's Vineyard Sign Language: the town where hearing people signed",
       "ja": "マーサズ・ヴィニヤード手話──聞こえる人も手話で話した町"
     },
     "summary": {
@@ -3903,8 +3903,8 @@ const TRIVIA_ARTICLES = [
       "language-revitalization"
     ],
     "title": {
-      "en": "Ayapaneco — the last two speakers who were neither the last nor two",
-      "ja": "アヤパネコ語 —「口をきかない最後の二人」は最後でも二人でもなかった"
+      "en": "Ayapaneco: the last two speakers who were neither the last nor two",
+      "ja": "アヤパネコ語：「口をきかない最後の二人」は最後でも二人でもなかった"
     },
     "summary": {
       "en": "In 2011 a story went round the world that Ayapaneco, a Zoquean language of Tabasco, Mexico, would die because its last two speakers refused to talk to each other. The linguists working in Ayapa found more speakers, no feud, and a town already teaching the language.",
@@ -3945,15 +3945,15 @@ const TRIVIA_ARTICLES = [
     ],
     "title": {
       "en": "How Many Words for Snow? Four Roots, a Hundred Claims, and a Hundred Words for Ice",
-      "ja": "「雪」を表す言葉はいくつあるのか――4つの語根、100語という主張、100の氷の語"
+      "ja": "「雪」を表す言葉はいくつあるのか：4つの語根、100語という主張、100の氷の語"
     },
     "summary": {
       "en": "Franz Boas listed four Inuit snow roots in 1911; by 1984 the New York Times had them at one hundred. Laura Martin and Geoffrey Pullum traced how the figure grew, and later fieldwork on Yupik and Inuit sea-ice vocabulary showed what the inflated version had hidden.",
       "ja": "1911年にフランツ・ボアズが挙げたイヌイット語の雪の語根は4つだった。それが1984年のニューヨーク・タイムズでは100語になっていた。数字が膨らんでいった経緯はローラ・マーティンとジェフリー・プラムが跡づけた。その後、ユピック語とイヌイット語の海氷語彙の現地調査によって、誇張の陰に埋もれていた本当の豊かさが明らかになった。"
     },
     "body": {
-      "en": "<p>The claim begins with four words. In the introduction to his <em>Handbook of American Indian Languages</em> (1911), <strong>Franz Boas</strong> gave an Inuit example: <em>aput</em> \"snow on the ground\", <em>qana</em> \"falling snow\", <em>piqsirpoq</em> \"drifting snow\" and <em>qimuqsuq</em> \"a snowdrift\". His point was about word roots, not perception. English uses unrelated words for forms of water (<em>lake</em>, <em>river</em>, <em>brook</em>, <em>rain</em>, <em>dew</em>, <em>foam</em>) where it could have derived them from one stem, and Inuit does the same with snow. Boas had wintered among the Inuit of Baffin Island in 1883–84 and knew the vocabulary first-hand.</p>\n\n<h3>From four to one hundred</h3>\n\n<p>In April 1940 <strong>Benjamin Lee Whorf</strong> published \"Science and Linguistics\" in MIT's <em>Technology Review</em> (vol. 42, no. 6). He listed falling snow, snow on the ground, snow packed hard like ice, slushy snow and wind-driven flying snow as things an Eskimo language names separately, and claimed that English uses one word for all of them. In Martin's reading, that turned Boas's four roots into at least seven, and it passed over English <em>slush</em>, <em>sleet</em>, <em>blizzard</em> and <em>drift</em>. Later popular books kept raising the number. On 9 February 1984 an unsigned <em>New York Times</em> editorial put it at one hundred.</p>\n\n<p>The anthropologist <strong>Laura Martin</strong> traced this history in \"'Eskimo Words for Snow': A Case Study in the Genesis and Decay of an Anthropological Example\" (<em>American Anthropologist</em> 88:2, 1986). She showed that each retelling cited the previous one instead of a dictionary. In 1989 <strong>Geoffrey K. Pullum</strong> brought her findings to a wider audience with \"The Great Eskimo Vocabulary Hoax\" (<em>Natural Language and Linguistic Theory</em> 7:2), later the title essay of a 1991 book. Pullum argued that Eskimo languages and English have roughly the same number of snow roots.</p>\n\n<h3>What the dictionaries hold</h3>\n\n<p>Part of the confusion is about what counts as a word. Inuit and Yupik languages are polysynthetic: suffixes stack on a root to make words that English renders as whole sentences. On that definition the number of snow \"words\" has no upper limit, and the same holds for any other noun. Counting roots gives a much smaller figure. In 1991 <strong>Anthony Woodbury</strong> went through Steven Jacobson's 1984 Central Alaskan Yup'ik dictionary and found 15 snow-related meanings expressed by about 33 forms. They include <em>qanuk</em> \"snowflake\", <em>qanikcaq</em> \"snow on the ground\", <em>muruaneq</em> \"soft, deep snow\", <em>nutaryuk</em> \"fresh snow\" and <em>qanisqineq</em> \"snow floating on water\". His English comparison list for the same purpose ran to 22 terms.</p>\n\n<p>The map shows three snow roots that the <em>Comparative Eskimo Dictionary</em> (2nd ed., 2010) reconstructs for Proto-Eskimo: <em>*apun</em> \"snow on the ground\" (Greenlandic and Inuktitut <em>aput</em>, Iñupiaq <em>apun</em>), <em>*qaniɣ</em> \"falling snow\" (behind Yup'ik <em>qanikcaq</em>) and <em>*aniɣu</em> \"fallen snow\" (Central Siberian Yupik <em>анигу</em>). The basic snow word differs between neighbouring languages because each picked a different root out of that shared set.</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"kl,iu,ik,esu,ess\" data-word=\"snow\">⚖️ Compare \"snow\" across five Inuit and Yupik languages</button>\n  <button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"snow\">💬 See \"snow\" around the world</button>\n</div>\n\n<h3>Where the real richness is</h3>\n\n<p>Debunking the snow figure did not mean these languages lacked specialised vocabulary. The anthropologist <strong>Igor Krupnik</strong> of the Smithsonian helped lead the SIKU (Sea Ice Knowledge and Use) project during the International Polar Year of 2007–2008, which recorded ice and snow terms with hunters in about ten Inuit and Yupik dialects. As David Robson reported in <em>New Scientist</em> in 2012, the Nunavik dialect of Inuktitut in Quebec has at least 53 snow terms. They include <em>matsaaruti</em>, wet snow used to ice sled runners, and <em>pukak</em>, crystalline powder snow that looks like salt. Central Siberian Yupik has about 40. The Iñupiaq of Wales, Alaska, has about 70 terms for ice, including <em>utuqaq</em> for ice that lasts year after year and <em>auniq</em> for ice full of holes.</p>\n\n<p>On St. Lawrence Island, the Yupik hunter Conrad Oozeva wrote down nearly 100 sea-ice terms in 1986 for school language classes. The Smithsonian published them in 2004 as an illustrated dictionary in <em>Watching Ice and Weather Our Way</em>. In the SIKU volume (2010), Krupnik and Ludger Müller-Wille went back to Boas's Baffin Island diaries and field notes. They argued that the hoax debate had misread Boas: he had used four terms to make a point about grammar, and never claimed to be listing the whole vocabulary. The large inventories are mostly about ice, and they sort it by age, thickness and whether it will hold a person or a boat.</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"focus\" data-code=\"ess\">🔍 Open Central Siberian Yupik</button>\n</div>",
-      "ja": "<p>話の出発点は4つの単語だ。<strong>フランツ・ボアズ</strong>は『アメリカ・インディアン諸語ハンドブック』（1911年）の序論で、イヌイット語から <em>aput</em>「積もった雪」、<em>qana</em>「降る雪」、<em>piqsirpoq</em>「吹き流される雪」、<em>qimuqsuq</em>「吹きだまり」を例に挙げた。ボアズが論じたのは語根の作り方で、知覚の違いではない。英語は水のさまざまな姿を一つの語幹から派生させずに、<em>lake</em>、<em>river</em>、<em>brook</em>、<em>rain</em>、<em>dew</em>、<em>foam</em> と別々の語で呼ぶ。イヌイット語は雪について同じことをしている、という指摘だった。ボアズは1883〜84年にバフィン島のイヌイットのもとで冬を越しており、これらの語を自分の耳で知っていた。</p>\n\n<h3>4語から100語へ</h3>\n\n<p>1940年4月、<strong>ベンジャミン・リー・ウォーフ</strong>がMITの『テクノロジー・レビュー』（42巻6号）に「科学と言語学」を発表した。ウォーフは、降る雪、積もった雪、氷のように固く締まった雪、ぬかるんだ雪、風に舞う雪をエスキモーの言語は別々の語で呼び分けると書き、英語はそのすべてを一語で済ませると主張した。マーティンの読みでは、これでボアズの4語は少なくとも7語に増えた。しかも英語の <em>slush</em>、<em>sleet</em>、<em>blizzard</em>、<em>drift</em> は勘定から外されていた。その後も一般向けの本が数を上げていき、1984年2月9日の『ニューヨーク・タイムズ』の無署名社説では100語になっていた。</p>\n\n<p>この経緯を跡づけたのは人類学者の<strong>ローラ・マーティン</strong>で、論文は「『エスキモーの雪の語』――人類学的事例の発生と劣化をめぐる事例研究」（『アメリカン・アンソロポロジスト』88巻2号、1986年）。マーティンは、紹介されるたびに辞書ではなく前の紹介が引かれていたことを示した。1989年には<strong>ジェフリー・K・プラム</strong>が「エスキモー語彙大捏造事件（The Great Eskimo Vocabulary Hoax）」（『ナチュラル・ランゲージ・アンド・リングイスティック・セオリー』7巻2号）でこの成果を広く知らせ、この文章は1991年に同名の論集の表題作となった。プラムは、雪を表す語根の数はエスキモー諸語と英語でほぼ変わらないと論じた。</p>\n\n<h3>辞書に載っているもの</h3>\n\n<p>混乱の一因は「単語」の数え方にある。イヌイット語やユピック語は抱合的な言語で、語根に接尾辞を次々に重ね、英語なら一文になる内容を一語で表す。この意味での単語なら雪の「語」の数に上限はないが、それはほかのどの名詞でも同じだ。語根で数えれば数字はずっと小さくなる。<strong>アンソニー・ウッドベリー</strong>は1991年、スティーヴン・ジェイコブソンの『中央アラスカ・ユピック語辞典』（1984年）を調べ、雪にかかわる意味が15、それを表す形が約33あることを示した。<em>qanuk</em>「雪片」、<em>qanikcaq</em>「積もった雪」、<em>muruaneq</em>「柔らかく深い雪」、<em>nutaryuk</em>「新雪」、<em>qanisqineq</em>「水面に浮かぶ雪」などである。同じ目的で彼が作った英語の比較リストは22語だった。</p>\n\n<p>地図では、『比較エスキモー語辞典』（第2版、2010年）が祖エスキモー語に再建する雪の語根のうち3つが見られる。<em>*apun</em>「積もった雪」はグリーンランド語とイヌクティトゥット語の <em>aput</em>、イヌピアック語の <em>apun</em> に、<em>*qaniɣ</em>「降る雪」はユピック語の <em>qanikcaq</em> に、<em>*aniɣu</em>「降り積もった雪」は中央シベリア・ユピック語の <em>анигу</em> に続いている。隣り合う言語で基本の「雪」が違うのは、共通の語根のうちどれを選んだかが言語ごとに異なるからだ。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"kl,iu,ik,esu,ess\" data-word=\"snow\">⚖️ イヌイット語・ユピック語5言語の「雪」を比べる</button>\n  <button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"snow\">💬 世界の「雪」を見る</button>\n</div>\n\n<h3>本当の豊かさはどこにあるか</h3>\n\n<p>雪の数字が誇張だったからといって、これらの言語に専門的な語彙がないわけではない。スミソニアン協会の人類学者<strong>イーゴリ・クルプニク</strong>は、2007〜2008年の国際極年にSIKU（海氷の知識と利用）プロジェクトの中心となり、約10のイヌイット・ユピック方言について猟師たちと氷や雪の語を記録した。2012年に『ニュー・サイエンティスト』のデイヴィッド・ロブソンが伝えたところでは、ケベック州ヌナヴィクのイヌクティトゥット語には雪の語が少なくとも53ある。橇の滑走面に氷を張るのに使う湿った雪 <em>matsaaruti</em> や、塩のような結晶状の粉雪 <em>pukak</em> がその例だ。中央シベリア・ユピック語は約40語。アラスカ州ウェールズのイヌピアック語には氷を表す語が約70あり、何年も解けずに残る氷を <em>utuqaq</em>、穴だらけになった氷を <em>auniq</em> と呼ぶ。</p>\n\n<p>セントローレンス島では、ユピックの猟師コンラッド・オゼヴァが1986年、学校の言語の授業のために100近い海氷の語を書き留めた。スミソニアン協会はこれを2004年、『われらのやり方で氷と天気を見る（Watching Ice and Weather Our Way）』の中で図解辞典として刊行している。クルプニクとルートヴィヒ・ミュラー＝ヴィレはSIKUの論集（2010年）で、ボアズのバフィン島での日記やフィールドノートを読み直した。そして「捏造」論争はボアズを読み違えていると論じた。ボアズは文法の話をするために4語を挙げただけで、語彙を網羅したと言ったことはない。大きな語彙目録の中身は大半が氷で、氷の古さ、厚さ、人や舟が乗れるかどうかで細かく分けられている。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"focus\" data-code=\"ess\">🔍 中央シベリア・ユピック語を開く</button>\n</div>"
+      "en": "<p>The claim begins with four words. In the introduction to his <em>Handbook of American Indian Languages</em> (1911), <strong>Franz Boas</strong> gave an Inuit example: <em>aput</em> \"snow on the ground\", <em>qana</em> \"falling snow\", <em>piqsirpoq</em> \"drifting snow\" and <em>qimuqsuq</em> \"a snowdrift\". His point was about word roots, not perception. English uses unrelated words for forms of water (<em>lake</em>, <em>river</em>, <em>brook</em>, <em>rain</em>, <em>dew</em>, <em>foam</em>) where it could have derived them from one stem, and Inuit does the same with snow. Boas had wintered among the Inuit of Baffin Island in 1883–84 and knew the vocabulary first-hand.</p>\n\n<h3>From four to one hundred</h3>\n\n<p>In April 1940 <strong>Benjamin Lee Whorf</strong> published \"Science and Linguistics\" in MIT's <em>Technology Review</em> (vol. 42, no. 6). He listed falling snow, snow on the ground, snow packed hard like ice, slushy snow and wind-driven flying snow as things an Eskimo language names separately, and claimed that English uses one word for all of them. As later critics counted it, that turned Boas's four roots into at least seven, and it passed over English <em>slush</em>, <em>sleet</em> and <em>blizzard</em>. Later popular books kept raising the number. On 9 February 1984 an unsigned <em>New York Times</em> editorial put it at one hundred.</p>\n\n<p>The anthropologist <strong>Laura Martin</strong> traced this history in \"'Eskimo Words for Snow': A Case Study in the Genesis and Decay of an Anthropological Example\" (<em>American Anthropologist</em> 88:2, 1986). She showed that each retelling cited the previous one instead of a dictionary. In 1989 <strong>Geoffrey K. Pullum</strong> brought her findings to a wider audience with \"The Great Eskimo Vocabulary Hoax\" (<em>Natural Language and Linguistic Theory</em> 7:2), later the title essay of a 1991 book. Pullum argued that Eskimo languages and English have roughly the same number of snow roots.</p>\n\n<h3>What the dictionaries hold</h3>\n\n<p>Part of the confusion is about what counts as a word. Inuit and Yupik languages are polysynthetic: suffixes stack on a root to make words that English renders as whole sentences. On that definition the number of snow \"words\" has no upper limit, and the same holds for any other noun. Counting roots gives a much smaller figure. In 1991 <strong>Anthony Woodbury</strong> went through Steven Jacobson's 1984 Central Alaskan Yup'ik dictionary and found 15 snow-related meanings expressed by about 33 forms. They include <em>qanuk</em> \"snowflake\", <em>qanikcaq</em> \"snow on the ground\", <em>muruaneq</em> \"soft, deep snow\", <em>nutaryuk</em> \"fresh snow\" and <em>qanisqineq</em> \"snow floating on water\". His English comparison list for the same purpose ran to 22 terms.</p>\n\n<p>The map shows three snow roots that the <em>Comparative Eskimo Dictionary</em> (2nd ed., 2010) reconstructs for Proto-Eskimo: <em>*apun</em> \"snow on the ground\" (Greenlandic and Inuktitut <em>aput</em>, Iñupiaq <em>apun</em>), <em>*qaniɣ</em> \"falling snow\" (behind Yup'ik <em>qanikcaq</em>) and <em>*aniɣu</em> \"fallen snow\" (Central Siberian Yupik <em>анигу</em>). The basic snow word differs between neighbouring languages because each picked a different root out of that shared set.</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"kl,iu,ik,esu,ess\" data-word=\"snow\">⚖️ Compare \"snow\" across five Inuit and Yupik languages</button>\n  <button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"snow\">💬 See \"snow\" around the world</button>\n</div>\n\n<h3>Where the real richness is</h3>\n\n<p>Debunking the snow figure did not mean these languages lacked specialised vocabulary. The anthropologist <strong>Igor Krupnik</strong> of the Smithsonian helped lead the SIKU (Sea Ice Knowledge and Use) project during the International Polar Year of 2007–2008, which recorded ice and snow terms with hunters in about ten Inuit and Yupik dialects. As David Robson reported in <em>New Scientist</em> in 2012, the Nunavik dialect of Inuktitut in Quebec has at least 53 snow terms. They include <em>matsaaruti</em>, wet snow used to ice sled runners, and <em>pukak</em>, crystalline powder snow that looks like salt. Central Siberian Yupik has about 40. The Iñupiaq of Wales, Alaska, has about 70 terms for ice, including <em>utuqaq</em> for ice that lasts year after year and <em>auniq</em> for ice full of holes.</p>\n\n<p>On St. Lawrence Island, the Yupik hunter Conrad Oozeva wrote down nearly 100 sea-ice terms in 1986 for school language classes. The Smithsonian published them in 2004 as an illustrated dictionary in <em>Watching Ice and Weather Our Way</em>. In the SIKU volume (2010), Krupnik and Ludger Müller-Wille went back to Boas's Baffin Island diaries and field notes. They argued that the hoax debate had misread Boas: he had used four terms to make a point about grammar, and never claimed to be listing the whole vocabulary. The large inventories are mostly about ice, and they sort it by age, thickness and whether it will hold a person or a boat.</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"focus\" data-code=\"ess\">🔍 Open Central Siberian Yupik</button>\n</div>",
+      "ja": "<p>話の出発点は4つの単語だ。<strong>フランツ・ボアズ</strong>は『アメリカ・インディアン諸語ハンドブック』（1911年）の序論で、イヌイット語から <em>aput</em>「積もった雪」、<em>qana</em>「降る雪」、<em>piqsirpoq</em>「吹き流される雪」、<em>qimuqsuq</em>「吹きだまり」を例に挙げた。ボアズが論じたのは語根の作り方で、知覚の違いではない。英語は水のさまざまな姿を一つの語幹から派生させずに、<em>lake</em>、<em>river</em>、<em>brook</em>、<em>rain</em>、<em>dew</em>、<em>foam</em> と別々の語で呼ぶ。イヌイット語は雪について同じことをしている、という指摘だった。ボアズは1883〜84年にバフィン島のイヌイットのもとで冬を越しており、これらの語を自分の耳で知っていた。</p>\n\n<h3>4語から100語へ</h3>\n\n<p>1940年4月、<strong>ベンジャミン・リー・ウォーフ</strong>がMITの『テクノロジー・レビュー』（42巻6号）に「科学と言語学」を発表した。ウォーフは、降る雪、積もった雪、氷のように固く締まった雪、ぬかるんだ雪、風に舞う雪をエスキモーの言語は別々の語で呼び分けると書き、英語はそのすべてを一語で済ませると主張した。のちの批判者の数え方では、これでボアズの4語は少なくとも7語に増えた。しかも英語の <em>slush</em>、<em>sleet</em>、<em>blizzard</em> は勘定から外されていた。その後も一般向けの本が数を上げていき、1984年2月9日の『ニューヨーク・タイムズ』の無署名社説では100語になっていた。</p>\n\n<p>この経緯を跡づけたのは人類学者の<strong>ローラ・マーティン</strong>で、論文は「『エスキモーの雪の語』――人類学的事例の発生と劣化をめぐる事例研究」（『アメリカン・アンソロポロジスト』88巻2号、1986年）。マーティンは、紹介されるたびに辞書ではなく前の紹介が引かれていたことを示した。1989年には<strong>ジェフリー・K・プラム</strong>が「エスキモー語彙大捏造事件（The Great Eskimo Vocabulary Hoax）」（『ナチュラル・ランゲージ・アンド・リングイスティック・セオリー』7巻2号）でこの成果を広く知らせ、この文章は1991年に同名の論集の表題作となった。プラムは、雪を表す語根の数はエスキモー諸語と英語でほぼ変わらないと論じた。</p>\n\n<h3>辞書に載っているもの</h3>\n\n<p>混乱の一因は「単語」の数え方にある。イヌイット語やユピック語は抱合的な言語で、語根に接尾辞を次々に重ね、英語なら一文になる内容を一語で表す。この意味での単語なら雪の「語」の数に上限はないが、それはほかのどの名詞でも同じだ。語根で数えれば数字はずっと小さくなる。<strong>アンソニー・ウッドベリー</strong>は1991年、スティーヴン・ジェイコブソンの『中央アラスカ・ユピック語辞典』（1984年）を調べ、雪にかかわる意味が15、それを表す形が約33あることを示した。<em>qanuk</em>「雪片」、<em>qanikcaq</em>「積もった雪」、<em>muruaneq</em>「柔らかく深い雪」、<em>nutaryuk</em>「新雪」、<em>qanisqineq</em>「水面に浮かぶ雪」などである。同じ目的で彼が作った英語の比較リストは22語だった。</p>\n\n<p>地図では、『比較エスキモー語辞典』（第2版、2010年）が祖エスキモー語に再建する雪の語根のうち3つが見られる。<em>*apun</em>「積もった雪」はグリーンランド語とイヌクティトゥット語の <em>aput</em>、イヌピアック語の <em>apun</em> に、<em>*qaniɣ</em>「降る雪」はユピック語の <em>qanikcaq</em> に、<em>*aniɣu</em>「降り積もった雪」は中央シベリア・ユピック語の <em>анигу</em> に続いている。隣り合う言語で基本の「雪」が違うのは、共通の語根のうちどれを選んだかが言語ごとに異なるからだ。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"kl,iu,ik,esu,ess\" data-word=\"snow\">⚖️ イヌイット語・ユピック語5言語の「雪」を比べる</button>\n  <button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"snow\">💬 世界の「雪」を見る</button>\n</div>\n\n<h3>本当の豊かさはどこにあるか</h3>\n\n<p>雪の数字が誇張だったからといって、これらの言語に専門的な語彙がないわけではない。スミソニアン協会の人類学者<strong>イーゴリ・クルプニク</strong>は、2007〜2008年の国際極年にSIKU（海氷の知識と利用）プロジェクトの中心となり、約10のイヌイット・ユピック方言について猟師たちと氷や雪の語を記録した。2012年に『ニュー・サイエンティスト』のデイヴィッド・ロブソンが伝えたところでは、ケベック州ヌナヴィクのイヌクティトゥット語には雪の語が少なくとも53ある。橇の滑走面に氷を張るのに使う湿った雪 <em>matsaaruti</em> や、塩のような結晶状の粉雪 <em>pukak</em> がその例だ。中央シベリア・ユピック語は約40語。アラスカ州ウェールズのイヌピアック語には氷を表す語が約70あり、何年も解けずに残る氷を <em>utuqaq</em>、穴だらけになった氷を <em>auniq</em> と呼ぶ。</p>\n\n<p>セントローレンス島では、ユピックの猟師コンラッド・オゼヴァが1986年、学校の言語の授業のために100近い海氷の語を書き留めた。スミソニアン協会はこれを2004年、『われらのやり方で氷と天気を見る（Watching Ice and Weather Our Way）』の中で図解辞典として刊行している。クルプニクとルートヴィヒ・ミュラー＝ヴィレはSIKUの論集（2010年）で、ボアズのバフィン島での日記やフィールドノートを読み直した。そして「捏造」論争はボアズを読み違えていると論じた。ボアズは文法の話をするために4語を挙げただけで、語彙を網羅したと言ったことはない。大きな語彙目録の中身は大半が氷で、氷の古さ、厚さ、人や舟が乗れるかどうかで細かく分けられている。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"focus\" data-code=\"ess\">🔍 中央シベリア・ユピック語を開く</button>\n</div>"
     },
     "sources": [
       {
@@ -3986,7 +3986,7 @@ const TRIVIA_ARTICLES = [
     ],
     "title": {
       "en": "Does Hopi have no time? Whorf's claim and Malotki's 677 pages",
-      "ja": "ホピ語に「時間」はないのか——ウォーフの主張とマロトキの677ページ"
+      "ja": "ホピ語に「時間」はないのか：ウォーフの主張とマロトキの677ページ"
     },
     "summary": {
       "en": "Benjamin Lee Whorf wrote that Hopi has no words or grammatical forms that refer to time. In 1983 Ekkehart Malotki answered with a 677-page book of Hopi time expressions. Linguists still disagree about what Whorf actually claimed.",
@@ -4027,7 +4027,7 @@ const TRIVIA_ARTICLES = [
     ],
     "title": {
       "en": "Linear B: how an architect showed the Mycenaeans wrote Greek",
-      "ja": "線文字B——建築家ヴェントリスが読み解いた「最古のギリシア語」"
+      "ja": "線文字B：建築家ヴェントリスが読み解いた「最古のギリシア語」"
     },
     "summary": {
       "en": "In 1952 Michael Ventris, an architect, showed that the clay tablets of Knossos and Pylos record an early form of Greek. He built on Alice Kober's analysis of word endings, worked with John Chadwick, and in 1953 a tablet listing tripods and jars from Pylos supplied the test.",
@@ -4068,7 +4068,7 @@ const TRIVIA_ARTICLES = [
     ],
     "title": {
       "en": "The Rosetta Stone and Champollion: how hieroglyphs were read again",
-      "ja": "ロゼッタ・ストーンとシャンポリオン——ヒエログリフはどう読み解かれたか"
+      "ja": "ロゼッタ・ストーンとシャンポリオン：ヒエログリフはどう読み解かれたか"
     },
     "summary": {
       "en": "One decree of 196 BCE in three scripts gave Young and Champollion a starting point. Champollion's 1822–1824 breakthrough was that hieroglyphs mix sound signs with word signs, and Coptic, the last stage of Egyptian, supplied the sounds.",
@@ -4109,7 +4109,7 @@ const TRIVIA_ARTICLES = [
     ],
     "title": {
       "en": "Behistun: one cliff, three cuneiform languages, and the sealed-envelope test of 1857",
-      "ja": "ベヒストゥン碑文 — 三つの楔形文字を刻んだ断崖と、1857年の「封印答案」"
+      "ja": "ベヒストゥン碑文：三つの楔形文字を刻んだ断崖と、1857年の「封印答案」"
     },
     "summary": {
       "en": "Darius I had his account of his rise carved on a cliff in western Iran in Old Persian, Elamite and Babylonian. Rawlinson copied it between 1835 and 1847, but the reading of Akkadian was proved somewhere else: in 1857 four scholars translated an Assyrian text independently and sent their versions in sealed envelopes.",
@@ -4117,7 +4117,7 @@ const TRIVIA_ARTICLES = [
     },
     "body": {
       "en": "<p>Darius I had his own account of how he took the Persian throne carved into a limestone cliff at <strong>Bisotun</strong> (Behistun), about 100 metres above the ground. The cliff stands on the old road from Babylon to Ecbatana, in what is now Kermanshah province in western Iran. The relief shows Darius with his foot on Gaumāta, the man he says seized power in 522 BCE, facing a line of rebel kings bound at the neck. Around the relief the same story is written three times, in three languages, all of them in wedge-shaped signs: <strong>Old Persian</strong>, an Indo-European language; <strong>Elamite</strong>, an isolate; and <strong>Babylonian</strong>, a dialect of Semitic Akkadian. The site was added to the UNESCO World Heritage List in 2006.</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"panto\" data-lat=\"34.39\" data-lng=\"47.44\" data-zoom=\"6\">🌍 Fly to Bisotun</button>\n  <button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"peo,elx,akk\" data-word=\"name\">⚖️ Compare \"name\" in the three languages of the inscription</button>\n  <button type=\"button\" class=\"trivia-action\" data-action=\"focus\" data-code=\"akk\">🔍 Open Akkadian</button>\n</div>\n\n<h3>Three versions, carved in stages</h3>\n<p>The Elamite text was carved first. Elamite was the main written language of the Achaemenid administration: the Persepolis Fortification tablets of 509–493 BCE are mostly in Elamite. The Babylonian and Old Persian versions were added later. After Darius's campaign of 520–519 BCE a figure of the Saka chief Skunkha was added to the end of the line of captives. It was cut straight into the first Elamite text, so the Elamite was copied out again to the left of the Old Persian. In a badly damaged passage of the fourth Old Persian column (§70), Darius says he made a form of writing in <em>ariyā</em>, \"Aryan\", that had not existed before. This is read as a claim that the Old Persian script was created on his orders. The surviving lines are hard to make out on the rock, published readings differ, and two new studies of the passage appeared in 2024, one by Marco Fattori and one by Saber Amiri Parian and Keyvan Mahmoudi.</p>\n\n<h3>Copying the rock</h3>\n<p><strong>Henry Creswicke Rawlinson</strong>, an East India Company officer posted to Kermanshah, worked on the monument from 1835 to 1847. He began copying the Old Persian text in the 1830s, and in 1844 he went back, recopied the Old Persian and copied the Elamite. Old Persian was the way in, because its script has only about 36 sound signs plus a word divider. Georg Friedrich Grotefend had already picked out the names Darius, Xerxes and Hystaspes in inscriptions from Persepolis in 1802. Rawlinson published the Old Persian text with a translation in the <em>Journal of the Royal Asiatic Society</em> in 1846–47, and Edwin Norris published the Elamite version in 1855. The three languages have almost nothing in common: the word for \"name\" is <em>nāma</em> in Old Persian, <em>hiš</em> in Elamite and <em>šumu</em> in Akkadian.</p>\n\n<p>The Babylonian text is on a separate block to the left of the relief, and it cannot be reached from the ledge. Rawlinson's own report, printed in <em>Archaeologia</em> in 1851, says the local climbers declared that block unapproachable, until in the autumn of 1847 \"a wild Kurdish boy, who had come from a distance, volunteered to make the attempt\". The boy squeezed his way up a cleft in the rock, fixed ropes, and took paper squeezes of the signs while hanging in front of the cliff face.</p>\n\n<h3>Not the key to Akkadian</h3>\n<p>Behistun is called the Rosetta Stone of cuneiform, but for Akkadian the label overstates its part. Rawlinson's copy of the main Babylonian text was not published until the end of 1851. By then <strong>Edward Hincks</strong>, rector of Killyleagh in County Down, Ireland, had already worked from other Assyrian and Babylonian inscriptions. In 1846 he showed that the Babylonian script spelled out syllables and that its language had much in common with the Semitic languages. In 1847 he published a list of 76 sign values, and in 1850 he explained logograms and the use of several signs for the same sound. Kevin Cathcart concluded in 2011 that the Behistun Babylonian played no part in the first stage of the decipherment of Akkadian.</p>\n\n<h3>Four sealed envelopes, 1857</h3>\n<p>The test that settled the question was made on a different text. In March 1857 <strong>William Henry Fox Talbot</strong>, one of the inventors of photography, sent the Royal Asiatic Society his translation of a newly lithographed inscription in a sealed packet. The inscription was the clay-prism text of the Assyrian king Tiglath-Pileser I (reigned about 1114–1076 BCE), from Ashur. Rawlinson was already at work on his own translation. At his suggestion the Society's secretary, Edwin Norris, asked Hincks to make one as well, and the Paris-based <strong>Julius Oppert</strong> offered to try too; each worked without seeing the others' versions. On 20 April 1857 Norris wrote to Hincks that the translations would stay sealed until they were opened at the May meeting. In late May a committee that included the historian George Grote, William Whewell of Trinity College, Cambridge, and the Egyptologist Sir Gardner Wilkinson compared the four. Hincks and Oppert had had less time and sent shorter versions, but where the translations covered the same passages they largely agreed. The Society took this as proof that Akkadian could be read, and the four translations were printed side by side that year.</p>\n\n<p>The Babylonian version on the rock is badly damaged, and the records of it have not lasted either. Rawlinson's squeezes from 1844 and 1847 were already decaying when Leonard King and Reginald Campbell Thompson climbed back up to the inscription in 1904, and they have since disintegrated. Elizabeth von Voigtlander's 1978 edition was based mainly on latex squeezes that George Cameron made in 1957, and those have deteriorated too. Johannes Hackl went back over the evidence in 2025. He concludes that her additional readings cannot be verified and that about two-thirds of the Babylonian text should be considered lost.</p>",
-      "ja": "<p>ダレイオス1世は、自分がペルシアの王位に就いた経緯を、<strong>ビーソトゥーン</strong>（ベヒストゥン）の石灰岩の断崖、地上およそ100メートルの高さに刻ませた。場所はバビロンからエクバタナへ向かう古い街道沿いで、現在のイラン西部ケルマーンシャー州にあたる。浮き彫りでは、ダレイオスが足でガウマータを踏みつけている。ガウマータは前522年に王位を奪ったとダレイオスが主張する人物で、その前には首を縄でつながれた反乱王たちが並ぶ。浮き彫りの周りには同じ物語が三つの言語で三回書かれており、文字はどれも楔形である。インド・ヨーロッパ語族の<strong>古代ペルシア語</strong>、系統不明の孤立言語<strong>エラム語</strong>、そしてセム語族アッカド語の一方言である<strong>バビロニア語</strong>だ。2006年にユネスコ世界遺産に登録された。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"panto\" data-lat=\"34.39\" data-lng=\"47.44\" data-zoom=\"6\">🌍 ビーソトゥーンへ移動</button>\n  <button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"peo,elx,akk\" data-word=\"name\">⚖️ 碑文の3言語で「名前」を比べる</button>\n  <button type=\"button\" class=\"trivia-action\" data-action=\"focus\" data-code=\"akk\">🔍 アッカド語を開く</button>\n</div>\n\n<h3>三つの版は段階的に刻まれた</h3>\n<p>最初に刻まれたのはエラム語版である。エラム語はアケメネス朝の行政で主に使われた書き言葉で、前509〜493年のペルセポリス城砦文書もほとんどがエラム語で書かれている。バビロニア語版と古代ペルシア語版はそのあとに加えられた。前520〜519年の遠征のあと、捕虜の列の最後にサカ族の首長スクンカの像が付け足された。像は最初のエラム語版の上にじかに彫り込まれたため、エラム語版は古代ペルシア語版の左側にあらためて写し直された。古代ペルシア語版第4欄の、ひどく傷んだ一節（§70）で、ダレイオスは<em>ariyā</em>（「アーリヤの」）書式をつくった、それは以前にはなかった、と述べている。これは古代ペルシア文字そのものが王の命で作られたという主張として読まれている。ただし岩の上の文字は判読が難しく、刊本ごとに読みが異なる。2024年にはこの箇所の新しい研究が二つ出た。マルコ・ファットーリによるものと、サーベル・アミーリー・パリヤーンとキーヴァン・マフムーディーによるものである。</p>\n\n<h3>断崖を写し取る</h3>\n<p>ケルマーンシャーに駐在していた東インド会社の軍人<strong>ヘンリー・クレズウィック・ローリンソン</strong>は、1835年から1847年までこの碑文に取り組んだ。古代ペルシア語版を写し始めたのは1830年代で、1844年に再び現地を訪れ、古代ペルシア語を写し直し、エラム語版も写し取った。突破口は古代ペルシア語だった。この文字には音を表す字が36ほどと語の区切り記号しかないからだ。さらに1802年には、ゲオルク・フリードリヒ・グローテフェントがペルセポリスの碑文からダレイオス、クセルクセス、ヒュスタスペスの名を読み当てていた。ローリンソンは1846〜47年に『王立アジア協会誌』で古代ペルシア語版の本文と翻訳を発表し、エラム語版は1855年にエドウィン・ノリスが公刊した。三つの言語にはほとんど共通点がない。「名前」は古代ペルシア語で<em>nāma</em>、エラム語で<em>hiš</em>、アッカド語で<em>šumu</em>である。</p>\n\n<p>バビロニア語版は浮き彫りの左にある別の岩塊に刻まれていて、岩棚からは手が届かない。1851年に『アルケオロギア』誌に載ったローリンソン本人の報告によれば、地元の登り手たちはこの岩塊には近づけないと言った。ところが1847年の秋、\"a wild Kurdish boy, who had come from a distance, volunteered to make the attempt\"（遠方から来た荒っぽいクルド人の少年が、やってみると名乗り出た）。少年は岩の割れ目を体を押し込むようにして登ってロープを張り、崖の前に宙づりになりながら文字の紙拓（湿らせた紙を押し当てて型を取るもの）を取った。</p>\n\n<h3>アッカド語解読の「鍵」ではなかった</h3>\n<p>ベヒストゥン碑文は楔形文字の「ロゼッタ・ストーン」と呼ばれるが、アッカド語についてはこの呼び名は役割を大きく見積もりすぎている。ローリンソンによるバビロニア語本文の写しが公刊されたのは1851年の末だった。その時点で、アイルランド・ダウン州キリリーの教区牧師<strong>エドワード・ヒンクス</strong>は、すでに別のアッシリア・バビロニア碑文から研究を進めていた。1846年には、バビロニアの文字が音節を書き表すこと、その言語がセム語と多くの共通点を持つことを示している。1847年には76の字音の一覧を出し、1850年には表語文字の働きや、同じ音を複数の字で書く現象を説明した。ケヴィン・キャスカートは2011年に、ベヒストゥンのバビロニア語版はアッカド語解読の最初の段階には何の役割も果たさなかったと結論づけている。</p>\n\n<h3>封印された4通の訳文——1857年</h3>\n<p>決着をつけた試験は、別の文書を使って行われた。1857年3月、写真術の発明者の一人である<strong>ウィリアム・ヘンリー・フォックス・タルボット</strong>が、石版刷りで出たばかりの碑文の翻訳を封をして王立アジア協会に送った。碑文はアッシュル出土のアッシリア王ティグラト・ピレセル1世（在位前1114〜1076年ごろ）の粘土角柱の銘文である。ローリンソンはすでに自分の訳に取りかかっていた。その提案で協会の書記エドウィン・ノリスはヒンクスにも訳を依頼し、パリの<strong>ジュリウス・オッペール</strong>も自ら訳してみると申し出た。4人はそれぞれ、他の訳を見ないまま作業した。1857年4月20日付のヒンクス宛ての手紙で、ノリスは訳文は5月の例会で開封するまで封をしておくと伝えている。5月下旬、歴史家ジョージ・グロート、ケンブリッジ大学トリニティ・カレッジのウィリアム・ヒューウェル、エジプト学者サー・ガードナー・ウィルキンソンらの委員会が4通を突き合わせた。ヒンクスとオッペールは時間が短く訳も短かったが、同じ箇所を訳した部分では4人の訳がおおむね一致した。協会はこれをアッカド語が読める証拠と認め、4通の訳はその年のうちに並べて印刷された。</p>\n\n<p>岩に残るバビロニア語版はひどく傷んでおり、それを写した記録も残らなかった。1904年にレナード・キングとレジナルド・キャンベル・トンプソンが再び碑文まで登ったとき、ローリンソンが1844年と1847年に取った紙拓はすでに傷み始めており、その後ばらばらに崩れてしまった。エリザベス・フォン・フォイクトランダーの1978年の校訂本は、主にジョージ・キャメロンが1957年に取ったラテックスの型をもとにしているが、その型も劣化した。2025年にヨハネス・ハックルが資料を洗い直し、彼女が新たに加えた読みは確かめようがなく、バビロニア語版のおよそ3分の2は失われたものとみなすべきだと結論づけている。</p>"
+      "ja": "<p>ダレイオス1世は、自分がペルシアの王位に就いた経緯を、<strong>ビーソトゥーン</strong>（ベヒストゥン）の石灰岩の断崖、地上およそ100メートルの高さに刻ませた。場所はバビロンからエクバタナへ向かう古い街道沿いで、現在のイラン西部ケルマーンシャー州にあたる。浮き彫りでは、ダレイオスが足でガウマータを踏みつけている。ガウマータは前522年に王位を奪ったとダレイオスが主張する人物で、その前には首を縄でつながれた反乱王たちが並ぶ。浮き彫りの周りには同じ物語が三つの言語で三回書かれており、文字はどれも楔形である。インド・ヨーロッパ語族の<strong>古代ペルシア語</strong>、系統不明の孤立言語<strong>エラム語</strong>、そしてセム語族アッカド語の一方言である<strong>バビロニア語</strong>だ。2006年にユネスコ世界遺産に登録された。</p>\n\n<div class=\"trivia-actions\">\n  <button type=\"button\" class=\"trivia-action\" data-action=\"panto\" data-lat=\"34.39\" data-lng=\"47.44\" data-zoom=\"6\">🌍 ビーソトゥーンへ移動</button>\n  <button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"peo,elx,akk\" data-word=\"name\">⚖️ 碑文の3言語で「名前」を比べる</button>\n  <button type=\"button\" class=\"trivia-action\" data-action=\"focus\" data-code=\"akk\">🔍 アッカド語を開く</button>\n</div>\n\n<h3>三つの版は段階的に刻まれた</h3>\n<p>最初に刻まれたのはエラム語版である。エラム語はアケメネス朝の行政で主に使われた書き言葉で、前509〜493年のペルセポリス城砦文書もほとんどがエラム語で書かれている。バビロニア語版と古代ペルシア語版はそのあとに加えられた。前520〜519年の遠征のあと、捕虜の列の最後にサカ族の首長スクンカの像が付け足された。像は最初のエラム語版の上にじかに彫り込まれたため、エラム語版は古代ペルシア語版の左側にあらためて写し直された。古代ペルシア語版第4欄の、ひどく傷んだ一節（§70）で、ダレイオスは<em>ariyā</em>（「アーリヤの」）書式をつくった、それは以前にはなかった、と述べている。これは古代ペルシア文字そのものが王の命で作られたという主張として読まれている。ただし岩の上の文字は判読が難しく、刊本ごとに読みが異なる。2024年にはこの箇所の新しい研究が二つ出た。マルコ・ファットーリによるものと、サーベル・アミーリー・パリヤーンとキーヴァン・マフムーディーによるものである。</p>\n\n<h3>断崖を写し取る</h3>\n<p>ケルマーンシャーに駐在していた東インド会社の軍人<strong>ヘンリー・クレズウィック・ローリンソン</strong>は、1835年から1847年までこの碑文に取り組んだ。古代ペルシア語版を写し始めたのは1830年代で、1844年に再び現地を訪れ、古代ペルシア語を写し直し、エラム語版も写し取った。突破口は古代ペルシア語だった。この文字には音を表す字が36ほどと語の区切り記号しかないからだ。さらに1802年には、ゲオルク・フリードリヒ・グローテフェントがペルセポリスの碑文からダレイオス、クセルクセス、ヒュスタスペスの名を読み当てていた。ローリンソンは1846〜47年に『王立アジア協会誌』で古代ペルシア語版の本文と翻訳を発表し、エラム語版は1855年にエドウィン・ノリスが公刊した。三つの言語にはほとんど共通点がない。「名前」は古代ペルシア語で<em>nāma</em>、エラム語で<em>hiš</em>、アッカド語で<em>šumu</em>である。</p>\n\n<p>バビロニア語版は浮き彫りの左にある別の岩塊に刻まれていて、岩棚からは手が届かない。1851年に『アルケオロギア』誌に載ったローリンソン本人の報告によれば、地元の登り手たちはこの岩塊には近づけないと言った。ところが1847年の秋、\"a wild Kurdish boy, who had come from a distance, volunteered to make the attempt\"（遠方から来た荒っぽいクルド人の少年が、やってみると名乗り出た）。少年は岩の割れ目を体を押し込むようにして登ってロープを張り、崖の前に宙づりになりながら文字の紙拓（湿らせた紙を押し当てて型を取るもの）を取った。</p>\n\n<h3>アッカド語解読の「鍵」ではなかった</h3>\n<p>ベヒストゥン碑文は楔形文字の「ロゼッタ・ストーン」と呼ばれるが、アッカド語についてはこの呼び名は役割を大きく見積もりすぎている。ローリンソンによるバビロニア語本文の写しが公刊されたのは1851年の末だった。その時点で、アイルランド・ダウン州キリリーの教区牧師<strong>エドワード・ヒンクス</strong>は、すでに別のアッシリア・バビロニア碑文から研究を進めていた。1846年には、バビロニアの文字が音節を書き表すこと、その言語がセム語と多くの共通点を持つことを示している。1847年には76の字音の一覧を出し、1850年には表語文字の働きや、同じ音を複数の字で書く現象を説明した。ケヴィン・キャスカートは2011年に、ベヒストゥンのバビロニア語版はアッカド語解読の最初の段階には何の役割も果たさなかったと結論づけている。</p>\n\n<h3>封印された4通の訳文：1857年</h3>\n<p>決着をつけた試験は、別の文書を使って行われた。1857年3月、写真術の発明者の一人である<strong>ウィリアム・ヘンリー・フォックス・タルボット</strong>が、石版刷りで出たばかりの碑文の翻訳を封をして王立アジア協会に送った。碑文はアッシュル出土のアッシリア王ティグラト・ピレセル1世（在位前1114〜1076年ごろ）の粘土角柱の銘文である。ローリンソンはすでに自分の訳に取りかかっていた。その提案で協会の書記エドウィン・ノリスはヒンクスにも訳を依頼し、パリの<strong>ジュリウス・オッペール</strong>も自ら訳してみると申し出た。4人はそれぞれ、他の訳を見ないまま作業した。1857年4月20日付のヒンクス宛ての手紙で、ノリスは訳文は5月の例会で開封するまで封をしておくと伝えている。5月下旬、歴史家ジョージ・グロート、ケンブリッジ大学トリニティ・カレッジのウィリアム・ヒューウェル、エジプト学者サー・ガードナー・ウィルキンソンらの委員会が4通を突き合わせた。ヒンクスとオッペールは時間が短く訳も短かったが、同じ箇所を訳した部分では4人の訳がおおむね一致した。協会はこれをアッカド語が読める証拠と認め、4通の訳はその年のうちに並べて印刷された。</p>\n\n<p>岩に残るバビロニア語版はひどく傷んでおり、それを写した記録も残らなかった。1904年にレナード・キングとレジナルド・キャンベル・トンプソンが再び碑文まで登ったとき、ローリンソンが1844年と1847年に取った紙拓はすでに傷み始めており、その後ばらばらに崩れてしまった。エリザベス・フォン・フォイクトランダーの1978年の校訂本は、主にジョージ・キャメロンが1957年に取ったラテックスの型をもとにしているが、その型も劣化した。2025年にヨハネス・ハックルが資料を洗い直し、彼女が新たに加えた読みは確かめようがなく、バビロニア語版のおよそ3分の2は失われたものとみなすべきだと結論づけている。</p>"
     },
     "sources": [
       {
@@ -4150,7 +4150,7 @@ const TRIVIA_ARTICLES = [
     ],
     "title": {
       "en": "Runes: 24 letters, then 16, for a language that needed more",
-      "ja": "ルーン文字——24字から16字へ、音が増えた言語で文字は減った"
+      "ja": "ルーン文字：24字から16字へ、音が増えた言語で文字は減った"
     },
     "summary": {
       "en": "The Germanic runic alphabet began with 24 letters. In Viking-age Scandinavia it was cut to 16 while Old Norse was gaining vowels, so King Gorm's name came out as kurmʀ. The English went the other way and added runes.",
@@ -4191,7 +4191,7 @@ const TRIVIA_ARTICLES = [
     ],
     "title": {
       "en": "Cree syllabics: one shape, four turns",
-      "ja": "クリー音節文字――形が子音、向きが母音"
+      "ja": "クリー音節文字：形が子音、向きが母音"
     },
     "summary": {
       "en": "In Canadian Aboriginal syllabics the shape of a sign gives the consonant and the direction it faces gives the vowel. Printed by James Evans at Norway House in 1841, the script went on to carry Inuktitut, Ojibwe, Blackfoot and Dene languages, and has official status in Nunavut today.",
@@ -4231,8 +4231,8 @@ const TRIVIA_ARTICLES = [
       "sound-change"
     ],
     "title": {
-      "en": "Cath, gath, chath, nghath — the Welsh word that changes its first letter",
-      "ja": "cath・gath・chath・nghath——語頭が変わるウェールズ語"
+      "en": "Cath, gath, chath, nghath: the Welsh word that changes its first letter",
+      "ja": "cath・gath・chath・nghath：語頭が変わるウェールズ語"
     },
     "summary": {
       "en": "In Welsh the first consonant of a word changes with the word in front of it: cath 'cat' becomes ei gath 'his cat', ei chath 'her cat' and fy nghath 'my cat'. The three mutations are what is left of sounds that Brittonic lost around the sixth century.",
@@ -4273,7 +4273,7 @@ const TRIVIA_ARTICLES = [
     ],
     "title": {
       "en": "Tölva and sími: how Icelandic builds new words from old ones",
-      "ja": "トルヴァとシーミ——古い言葉から新語をつくるアイスランド語"
+      "ja": "トルヴァとシーミ：古い言葉から新語をつくるアイスランド語"
     },
     "summary": {
       "en": "Icelandic calls a computer tölva, a 1965 blend of 'number' and 'prophetess', and a telephone sími, an Old Norse word for a cord. A state committee, a nineteenth-century magazine and saga editions in normalized spelling sit behind the habit.",
@@ -4312,8 +4312,8 @@ const TRIVIA_ARTICLES = [
       "historical-linguistics"
     ],
     "title": {
-      "en": "Grimm's Law — why Latin pater is English father",
-      "ja": "グリムの法則——ラテン語の pater が英語で father になるわけ"
+      "en": "Grimm's Law: why Latin pater is English father",
+      "ja": "グリムの法則：ラテン語の pater が英語で father になるわけ"
     },
     "summary": {
       "en": "Latin pater, trēs, centum against English father, three, hundred: the Germanic consonant shift worked out by Rask (1818) and Grimm (1822), and the accent rule Karl Verner found in 1875 to explain its exceptions.",
@@ -4354,7 +4354,7 @@ const TRIVIA_ARTICLES = [
     ],
     "title": {
       "en": "The Great Vowel Shift: why English \"i\" says /aɪ/",
-      "ja": "大母音推移——英語の i はなぜ「アイ」と読むのか"
+      "ja": "大母音推移：英語の i はなぜ「アイ」と読むのか"
     },
     "summary": {
       "en": "Between about 1400 and 1700 every long vowel of southern English moved: bite /biːt/ became /baɪt/, house /huːs/ became /haʊs/, name /naːm/ became /neɪm/. The spelling stayed where it was.",
@@ -4435,7 +4435,7 @@ const TRIVIA_ARTICLES = [
     ],
     "title": {
       "en": "N'Ko: an alphabet built for tone",
-      "ja": "ンコ文字――声調を書くためにつくられたアルファベット"
+      "ja": "ンコ文字：声調を書くためにつくられたアルファベット"
     },
     "summary": {
       "en": "In 1949 Solomana Kanté, a Guinean merchant schooled in Arabic, finished an alphabet for the Manding languages. It runs right to left and marks every vowel's tone, and it spread through teaching from one learner to the next, not through schools.",

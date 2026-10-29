@@ -738,7 +738,7 @@ NAMES.gabriel = {
     ru:  { form:'Гавриил', rom:'Gavriil', ipa:'ɡəvrʲɪˈil', freq:'moderate', note:{en:'colloquial Gavrila',ja:'口語形ガヴリラ'}, people:['Gavriil Derzhavin'] },
     uk:  { form:'Гавриїл', rom:'Havryil', ipa:'ɦɐʋrɪˈjil', freq:'rare' },
     el:  { form:'Γαβριήλ', rom:'Gavriíl', ipa:'ɣavriˈil', freq:'common', note:{en:'the archangel',ja:'大天使'} },
-    ka:  { form:'გაბრიელი', rom:'Gabrieli', ipa:'ɡabrieli', freq:'moderate' },
+    ka:  { form:'გაბრიელ', rom:'Gabriel', ipa:'ɡabriel', freq:'moderate' },
     hy:  { form:'Գաբրիել', rom:'Gabriel', ipa:'ɡɑpʰɾiˈjel', freq:'moderate' },
     he:  { form:'גַּבְרִיאֵל', rom:'Gavriʼel', ipa:'ɡavʁiˈʔel', freq:'common', note:{en:'the original',ja:'原形'} },
     ar:  { form:'جبريل', rom:'Jibrīl', ipa:'dʒibˈriːl', freq:'moderate', note:{en:'Islamic; the archangel who revealed the Qurʼan',ja:'イスラム形。コーランを伝えた大天使'} },

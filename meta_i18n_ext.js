@@ -3484,7 +3484,7 @@ const SPEAKER_ATOMS = {
     ja: {
         'Extinct':'死語', 'liturgical':'典礼用', 'Liturgical':'典礼用',
         'fluent':'流暢な話者', 'endangered':'危機言語',
-        'severely endangered':'重度の危機言語', 'critically endangered':'重大危機言語',
+        'Unknown':'不明', 'severely endangered':'重度の危機言語', 'critically endangered':'重大危機言語',
         'revived':'復興語', 'macrolanguage':'大言語', 'lingua franca':'共通語',
         'active':'活発', 'passive':'受動的', 'total':'合計', 'educational':'教育用',
         'L1':'L1（母語）', 'L2':'L2（第二言語）', 'aggregate':'合算', 'continuum':'連続体',
@@ -3499,7 +3499,7 @@ const SPEAKER_ATOMS = {
     ko: {
         'Extinct':'소멸', 'liturgical':'전례용', 'Liturgical':'전례용',
         'fluent':'유창한 화자', 'endangered':'위기 언어',
-        'severely endangered':'심각한 위기', 'critically endangered':'중대 위기',
+        'Unknown':'불명', 'severely endangered':'심각한 위기', 'critically endangered':'중대 위기',
         'revived':'부활', 'macrolanguage':'대언어', 'lingua franca':'공통어',
         'active':'활동적', 'passive':'수동적', 'total':'총합', 'educational':'교육용',
         'L1':'L1(모국어)', 'L2':'L2(제2언어)', 'aggregate':'합산', 'continuum':'연속체',
@@ -3514,7 +3514,7 @@ const SPEAKER_ATOMS = {
     zh: {
         'Extinct':'已消亡', 'liturgical':'礼仪用', 'Liturgical':'礼仪用',
         'fluent':'流利的使用者', 'endangered':'濒危',
-        'severely endangered':'严重濒危', 'critically endangered':'极度濒危',
+        'Unknown':'不详', 'severely endangered':'严重濒危', 'critically endangered':'极度濒危',
         'revived':'复兴', 'macrolanguage':'大语言', 'lingua franca':'通用语',
         'active':'活跃', 'passive':'被动', 'total':'总数', 'educational':'教育用',
         'L1':'L1（母语）', 'L2':'L2（第二语言）', 'aggregate':'合计', 'continuum':'连续体',
@@ -3529,7 +3529,7 @@ const SPEAKER_ATOMS = {
     yue: {
         'Extinct':'已消亡', 'liturgical':'禮儀用', 'Liturgical':'禮儀用',
         'fluent':'流利嘅使用者', 'endangered':'瀕危',
-        'severely endangered':'嚴重瀕危', 'critically endangered':'極度瀕危',
+        'Unknown':'不詳', 'severely endangered':'嚴重瀕危', 'critically endangered':'極度瀕危',
         'revived':'復興', 'macrolanguage':'大語言', 'lingua franca':'通用語',
         'active':'活躍', 'passive':'被動', 'total':'總數', 'educational':'教育用',
         'L1':'L1（母語）', 'L2':'L2（第二語言）', 'aggregate':'合計', 'continuum':'連續體',
@@ -3544,7 +3544,7 @@ const SPEAKER_ATOMS = {
     vi: {
         'Extinct':'đã tuyệt chủng', 'liturgical':'phụng vụ', 'Liturgical':'Phụng vụ',
         'fluent':'thông thạo', 'endangered':'có nguy cơ',
-        'severely endangered':'nguy cấp nặng', 'critically endangered':'cực kỳ nguy cấp',
+        'Unknown':'không rõ', 'severely endangered':'nguy cấp nặng', 'critically endangered':'cực kỳ nguy cấp',
         'revived':'phục hồi', 'macrolanguage':'đại ngôn ngữ', 'lingua franca':'lingua franca',
         'active':'tích cực', 'passive':'thụ động', 'total':'tổng', 'educational':'giáo dục',
         'L1':'L1 (tiếng mẹ đẻ)', 'L2':'L2 (ngôn ngữ thứ hai)', 'aggregate':'tổng hợp',
@@ -3560,7 +3560,7 @@ const SPEAKER_ATOMS = {
     th: {
         'Extinct':'สูญแล้ว', 'liturgical':'ใช้ทางพิธีกรรม', 'Liturgical':'ใช้ทางพิธีกรรม',
         'fluent':'พูดได้คล่อง', 'endangered':'ใกล้สูญ',
-        'severely endangered':'ใกล้สูญอย่างรุนแรง', 'critically endangered':'ใกล้สูญขั้นวิกฤต',
+        'Unknown':'ไม่ทราบ', 'severely endangered':'ใกล้สูญอย่างรุนแรง', 'critically endangered':'ใกล้สูญขั้นวิกฤต',
         'revived':'ฟื้นฟู', 'macrolanguage':'มหาภาษา', 'lingua franca':'ภาษากลาง',
         'active':'ใช้งานได้', 'passive':'รับรู้', 'total':'รวม', 'educational':'การศึกษา',
         'L1':'L1 (ภาษาแม่)', 'L2':'L2 (ภาษาที่สอง)', 'aggregate':'รวมยอด',
@@ -3576,7 +3576,7 @@ const SPEAKER_ATOMS = {
     id: {
         'Extinct':'punah', 'liturgical':'liturgi', 'Liturgical':'Liturgi',
         'fluent':'fasih', 'endangered':'terancam',
-        'severely endangered':'terancam serius', 'critically endangered':'sangat terancam',
+        'Unknown':'tidak diketahui', 'severely endangered':'terancam serius', 'critically endangered':'sangat terancam',
         'revived':'dihidupkan kembali', 'macrolanguage':'bahasa makro', 'lingua franca':'lingua franca',
         'active':'aktif', 'passive':'pasif', 'total':'total', 'educational':'pendidikan',
         'L1':'L1 (bahasa ibu)', 'L2':'L2 (bahasa kedua)', 'aggregate':'agregat',
@@ -3592,7 +3592,7 @@ const SPEAKER_ATOMS = {
     hi: {
         'Extinct':'विलुप्त', 'liturgical':'धार्मिक', 'Liturgical':'धार्मिक',
         'fluent':'धाराप्रवाह बोलने वाले', 'endangered':'संकटग्रस्त',
-        'severely endangered':'गंभीर संकटग्रस्त', 'critically endangered':'अत्यंत संकटग्रस्त',
+        'Unknown':'अज्ञात', 'severely endangered':'गंभीर संकटग्रस्त', 'critically endangered':'अत्यंत संकटग्रस्त',
         'revived':'पुनर्जीवित', 'macrolanguage':'महाभाषा', 'lingua franca':'संपर्क भाषा',
         'active':'सक्रिय', 'passive':'निष्क्रिय', 'total':'कुल', 'educational':'शैक्षिक',
         'L1':'L1 (मातृभाषा)', 'L2':'L2 (दूसरी भाषा)', 'aggregate':'समुच्चय',
@@ -3608,7 +3608,7 @@ const SPEAKER_ATOMS = {
     de: {
         'Extinct':'ausgestorben', 'liturgical':'liturgisch', 'Liturgical':'Liturgisch',
         'fluent':'fließende Sprecher', 'endangered':'gefährdet',
-        'severely endangered':'stark gefährdet', 'critically endangered':'kritisch gefährdet',
+        'Unknown':'unbekannt', 'severely endangered':'stark gefährdet', 'critically endangered':'kritisch gefährdet',
         'revived':'wiederbelebt', 'macrolanguage':'Makrosprache', 'lingua franca':'Lingua franca',
         'active':'aktiv', 'passive':'passiv', 'total':'gesamt', 'educational':'bildungssprachlich',
         'L1':'L1 (Muttersprache)', 'L2':'L2 (Zweitsprache)', 'aggregate':'aggregiert',
@@ -3624,7 +3624,7 @@ const SPEAKER_ATOMS = {
     fr: {
         'Extinct':'éteinte', 'liturgical':'liturgique', 'Liturgical':'Liturgique',
         'fluent':'locuteurs courants', 'endangered':'en danger',
-        'severely endangered':'sérieusement en danger', 'critically endangered':'en danger critique',
+        'Unknown':'inconnu', 'severely endangered':'sérieusement en danger', 'critically endangered':'en danger critique',
         'revived':'ressuscitée', 'macrolanguage':'macrolangue', 'lingua franca':'lingua franca',
         'active':'actif', 'passive':'passif', 'total':'total', 'educational':'éducatif',
         'L1':'L1 (langue maternelle)', 'L2':'L2 (langue seconde)', 'aggregate':'agrégé',
@@ -3640,7 +3640,7 @@ const SPEAKER_ATOMS = {
     it: {
         'Extinct':'estinta', 'liturgical':'liturgica', 'Liturgical':'Liturgica',
         'fluent':'parlanti fluenti', 'endangered':'in pericolo',
-        'severely endangered':'gravemente in pericolo', 'critically endangered':'in pericolo critico',
+        'Unknown':'sconosciuto', 'severely endangered':'gravemente in pericolo', 'critically endangered':'in pericolo critico',
         'revived':'rivitalizzata', 'macrolanguage':'macrolingua', 'lingua franca':'lingua franca',
         'active':'attivi', 'passive':'passivi', 'total':'totale', 'educational':'educativo',
         'L1':'L1 (madrelingua)', 'L2':'L2 (seconda lingua)', 'aggregate':'aggregato',
@@ -3656,7 +3656,7 @@ const SPEAKER_ATOMS = {
     es: {
         'Extinct':'extinta', 'liturgical':'litúrgica', 'Liturgical':'Litúrgica',
         'fluent':'hablantes fluidos', 'endangered':'en peligro',
-        'severely endangered':'gravemente en peligro', 'critically endangered':'en peligro crítico',
+        'Unknown':'desconocido', 'severely endangered':'gravemente en peligro', 'critically endangered':'en peligro crítico',
         'revived':'revivida', 'macrolanguage':'macrolengua', 'lingua franca':'lingua franca',
         'active':'activos', 'passive':'pasivos', 'total':'total', 'educational':'educativo',
         'L1':'L1 (lengua materna)', 'L2':'L2 (segunda lengua)', 'aggregate':'agregado',
@@ -3672,7 +3672,7 @@ const SPEAKER_ATOMS = {
     pt: {
         'Extinct':'extinta', 'liturgical':'litúrgica', 'Liturgical':'Litúrgica',
         'fluent':'falantes fluentes', 'endangered':'ameaçada',
-        'severely endangered':'gravemente ameaçada', 'critically endangered':'criticamente ameaçada',
+        'Unknown':'desconhecido', 'severely endangered':'gravemente ameaçada', 'critically endangered':'criticamente ameaçada',
         'revived':'revivida', 'macrolanguage':'macrolíngua', 'lingua franca':'língua franca',
         'active':'ativos', 'passive':'passivos', 'total':'total', 'educational':'educativo',
         'L1':'L1 (língua materna)', 'L2':'L2 (segunda língua)', 'aggregate':'agregado',
@@ -3688,7 +3688,7 @@ const SPEAKER_ATOMS = {
     ru: {
         'Extinct':'мёртвый', 'liturgical':'литургический', 'Liturgical':'Литургический',
         'fluent':'свободно владеющие', 'endangered':'под угрозой',
-        'severely endangered':'серьёзно под угрозой', 'critically endangered':'на грани исчезновения',
+        'Unknown':'неизвестно', 'severely endangered':'серьёзно под угрозой', 'critically endangered':'на грани исчезновения',
         'revived':'возрождённый', 'macrolanguage':'макроязык', 'lingua franca':'лингва-франка',
         'active':'активные', 'passive':'пассивные', 'total':'всего', 'educational':'учебный',
         'L1':'L1 (родной)', 'L2':'L2 (второй)', 'aggregate':'совокупно',
@@ -3704,7 +3704,7 @@ const SPEAKER_ATOMS = {
     uk: {
         'Extinct':'мертва', 'liturgical':'літургійна', 'Liturgical':'Літургійна',
         'fluent':'вільно володіють', 'endangered':'під загрозою',
-        'severely endangered':'серйозно під загрозою', 'critically endangered':'на межі зникнення',
+        'Unknown':'невідомо', 'severely endangered':'серйозно під загрозою', 'critically endangered':'на межі зникнення',
         'revived':'відроджена', 'macrolanguage':'макромова', 'lingua franca':'лінгва-франка',
         'active':'активні', 'passive':'пасивні', 'total':'усього', 'educational':'навчальна',
         'L1':'L1 (рідна)', 'L2':'L2 (друга)', 'aggregate':'сукупно',
@@ -3720,7 +3720,7 @@ const SPEAKER_ATOMS = {
     ar: {
         'Extinct':'منقرضة', 'liturgical':'طقسية', 'Liturgical':'طقسية',
         'fluent':'يجيدون اللغة', 'endangered':'مهددة',
-        'severely endangered':'مهددة بشدة', 'critically endangered':'مهددة بشدة قصوى',
+        'Unknown':'غير معروف', 'severely endangered':'مهددة بشدة', 'critically endangered':'مهددة بشدة قصوى',
         'revived':'تم إحياؤها', 'macrolanguage':'لغة كبرى', 'lingua franca':'لغة مشتركة',
         'active':'نشطون', 'passive':'سلبيون', 'total':'الإجمالي', 'educational':'تعليمية',
         'L1':'L1 (اللغة الأم)', 'L2':'L2 (لغة ثانية)', 'aggregate':'مجمل',
@@ -3736,7 +3736,7 @@ const SPEAKER_ATOMS = {
     he: {
         'Extinct':'גוועה', 'liturgical':'ליטורגית', 'Liturgical':'ליטורגית',
         'fluent':'דוברים שולטים', 'endangered':'בסכנה',
-        'severely endangered':'בסכנה חמורה', 'critically endangered':'בסכנה קריטית',
+        'Unknown':'לא ידוע', 'severely endangered':'בסכנה חמורה', 'critically endangered':'בסכנה קריטית',
         'revived':'הוחיתה', 'macrolanguage':'מקרושפה', 'lingua franca':'לינגווה פרנקה',
         'active':'פעילים', 'passive':'פסיביים', 'total':'סך הכל', 'educational':'חינוכית',
         'L1':'L1 (שפת אם)', 'L2':'L2 (שפה שנייה)', 'aggregate':'מצרפי',
@@ -3752,7 +3752,7 @@ const SPEAKER_ATOMS = {
     sw: {
         'Extinct':'iliyotoweka', 'liturgical':'ya kiliturujia', 'Liturgical':'Ya kiliturujia',
         'fluent':'wanaozungumza vizuri', 'endangered':'iliyo hatarini',
-        'severely endangered':'iliyo hatarini sana', 'critically endangered':'iliyo hatarini sana sana',
+        'Unknown':'haijulikani', 'severely endangered':'iliyo hatarini sana', 'critically endangered':'iliyo hatarini sana sana',
         'revived':'iliyofufuliwa', 'macrolanguage':'lugha-makro', 'lingua franca':'lugha ya mawasiliano',
         'active':'wanaotumika', 'passive':'wasioongea', 'total':'jumla', 'educational':'ya kielimu',
         'L1':'L1 (lugha mama)', 'L2':'L2 (lugha ya pili)', 'aggregate':'jumla',

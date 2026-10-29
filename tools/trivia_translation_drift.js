@@ -60,6 +60,10 @@ const ALLOW = {
     'oracle-bone-script.yue': { '50000': 'yue writes "about US$15,000" as 約合1.5萬美元; the guard reads the tail 5萬 as 50000' },
     'capital-numerals-daxie.ko': { '1000': 'ko glosses 千 as 千(1000) where the English writes 千 (thousand)' },
     'archi-million-verb-forms.ja': { '1500000': 'ja writes "1.5 million" as 150万' },
+    // Word Map articles, second 2026-10-29 batch.
+    'yiddish.ja': { '11000000': 'en "11 to 13 million" reads as one figure; ja writes 1,100万〜1,300万' },
+    'maltese-semitic-latin.ja': { '100': 'ja writes "hundred" as the numeral 100' },
+    'grimms-law.ja': { '100': 'ja button label writes "hundred" as 「100」' },
     // Time Map articles (2026-10-29).
     'gregorian-1582-ten-days.ko': { '100': 'ko says "years divisible by 100" (100의 배수) for "century years"' },
     'russia-october-in-november.ja': { '100': 'ja spells out "divisible by 100" for the century-year rule' },

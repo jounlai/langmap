@@ -393,6 +393,75 @@ WORDS.greece = {
     nym: "graecia",
     ada: "hellas",
     bqi: "ionia",
+    nyo: "graecia",
+    quy: "graecia",
+    tly: "ionia",
+    nij: "ionia",
+    lus: "graecia",
+    dty: "graecia",
+    kek: "graecia",
+    yua: "graecia",
+    gaa: "hellas",
+    tll: "graecia",
+    spp: "graecia",
+    akb: "ionia",
+    sda: "ionia",
+    cbk: "graecia",
+    aoz: "ionia",
+    ksb: "graecia",
+    izz: "graecia",
+    tzh: "graecia",
+    bfa: "graecia",
+    pnt: "hellas",
+    ng: "graecia",
+    lue: "hellas",
+    bra: "ionia",
+    rim: "ionia",
+    dtp: "ionia",
+    urh: "graecia",
+    asu: "graecia",
+    lij: "graecia",
+    tet: "graecia",
+    nhw: "graecia",
+    nhe: "graecia",
+    gej: "graecia",
+    sgw: "graecia",
+    zap: "graecia",
+    ebu: "graecia",
+    ses: "graecia",
+    tzo: "graecia",
+    mixtec: "graecia",
+    pdt: "graecia",
+    mev: "graecia",
+    arn: "graecia",
+    inh: "unknown",
+    pis: "graecia",
+    fj: "graecia",
+    lif: "graecia",
+    nzi: "graecia",
+    kj: "graecia",
+    kxc: "graecia",
+    naq: "graecia",
+    her: "graecia",
+    ctu: "graecia",
+    bi: "graecia",
+    ami: "graecia",
+    to: "graecia",
+    nv: "unknown",
+    bzj: "graecia",
+    gym: "graecia",
+    hns: "graecia",
+    gag: "graecia",
+    frp: "graecia",
+    hui: "graecia",
+    rwk: "graecia",
+    nmf: "graecia",
+    bpy: "graecia",
+    tab: "graecia",
+    cnh: "graecia",
+    vai: "hellas",
+    lbj: "graecia",
+    co: "graecia",
   },
   routes: {
     graecia: {"color":"#2563eb","emoji":"🏛️","en":"from Latin Graecia (Greece, Grèce, Греция)","ja":"ラテン語 Graecia から（Greece, Grèce, Греция）","ko":"라틴어 Graecia에서 (Greece, Grèce, Греция)","zh":"源自拉丁语 Graecia（Greece、Grèce、Греция）","yue":"源自拉丁文 Graecia（Greece、Grèce、Греция）","vi":"từ tiếng Latin Graecia (Greece, Grèce, Греция)","th":"จากละติน Graecia (Greece, Grèce, Греция)","id":"dari Latin Graecia (Greece, Grèce, Греция)","hi":"लैटिन Graecia से (Greece, Grèce, Греция)","de":"aus lateinisch Graecia (Greece, Grèce, Греция)","fr":"du latin Graecia (Greece, Grèce, Греция)","it":"dal latino Graecia (Greece, Grèce, Греция)","es":"del latín Graecia (Greece, Grèce, Греция)","pt":"do latim Graecia (Greece, Grèce, Греция)","ru":"от латинского Graecia (Greece, Grèce, Греция)","uk":"від латинського Graecia (Greece, Grèce, Греция)","ar":"من اللاتينية Graecia (Greece, Grèce, Греция)","he":"מהלטינית Graecia (Greece, Grèce, Греция)","sw":"kutoka Kilatini Graecia (Greece, Grèce, Греция)"},
@@ -726,5 +795,74 @@ WORDS.greece = {
     nym: ["Ugriki", "uɡriki"],  // Ugriki, with the country prefix u-, is Greece in the 1951 Nyamwezi Bible, like Swahili Ugiriki.
     ada: ["Hela", "hela"],  // Hela, which echoes the Greeks' own Hellas, is Greece in both Dangme Bibles; no source gives the path of the word.
     bqi: ["یونان", "junɒːn"],  // یونان, the same name as Persian Yunan, is used in the Bakhtiari Bible.
+    nyo: ["Bugiriiki", "buɡiriːki"],  // Bugiriiki is Greece in Acts 20:2 and Daniel 8:21 of the 2008 Runyoro-Rutooro Bible, which replaced the 1964 version's Buyonani; no source gives the path of the word.
+    quy: ["Grecia", "ˈɡɾesja"],  // Grecia, as in Spanish; the Ayacucho Quechua Bible (1987, 1992, 2012) names Greece Grecia in Acts 20:2 and Daniel 8:21. Route by resemblance to the neighbouring forms (es(Grecia) tl(Gresya)); no etymology of its own.
+    tly: ["Yunanıston", "junanɨston"],  // The Talysh Wikipedia names Greece Junanyston or Junan (Yunanıston in the Azerbaijani-style Latin spelling), and the Talysh Bible has یونان in Acts 20:2. Route by resemblance to the neighbouring forms (fa(یونان) az(Yunanıstan)); no etymology of its own.
+    nij: ["Yunani", "junani"],  // The Ngaju New Testament and Bible name Greece Yunani in Acts 20:2 and Daniel 8:21, the same as Indonesian. Route by resemblance to the neighbouring forms (id(Yunani) ms(Yunani)); no etymology of its own.
+    lus: ["Grik ram", "ɡrik ram"],  // Literally "Greek land": the Mizo Bible names Greece Grik ram in Acts 20:2 and Daniel 11:2, as it says Persia ram for Persia; no source gives the path of Grik.
+    dty: ["ग्रीस", "ɡriːs"],  // The Dotyali Wikipedia names Greece ग्रीस, and the Dotyali New Testament has ग्रीस प्रदेश in Acts 20:2; no source gives the path of the word.
+    kek: ["Grecia", "ɡɾesja"],  // Grecia, as in Spanish; both Qʼeqchiʼ Bibles name Greece Grecia in Acts 20:2 and Daniel 8:21. Route by resemblance to the neighbouring forms (es(Grecia) tl(Gresya)); no etymology of its own.
+    yua: ["Grecia", "ɡresja"],  // Grecia, as in Spanish; the Yucatec Maya Bible names Greece Grecia in Acts 20:2 and Daniel 8:21. Route by resemblance to the neighbouring forms (es(Grecia) tl(Gresya)); no etymology of its own.
+    gaa: ["Hela", "hela"],  // Hela is Greece in Acts 20:2 and Daniel 8:21 and 11:2 of the Ga Bible, whose Greeks are Helabii; no source gives the path of the word.
+    tll: ["Ngirika", "ŋɡirika"],  // Ngirika is Greece in Acts 20:2 and Daniel 8:21 of the 1991 Otetela Bible, whose Greeks are asi Ngirika "people of Ngirika"; no source gives the path of the word.
+    spp: ["Girɛsi", "ɡirɛsi"],  // Girɛsi is Greece in Acts 20:2 of the Supyire New Testament (Girɛsi kùluni "the Greece region"); no source gives the path of the word.
+    akb: ["Junani", "dʒunani"],  // The Angkola Bible names Greece Junani in Acts 20:2 and Daniel 8:21, the Batak spelling of Indonesian Yunani. Route by resemblance to the neighbouring forms (id(Yunani) ms(Yunani)); no etymology of its own.
+    sda: ["Yunani", "junani"],  // The Toraja Bible names Greece tana Yunani "the land Yunani" in Acts 20:2 and Yunani in Daniel 8:21, the same as Indonesian. Route by resemblance to the neighbouring forms (id(Yunani) ms(Yunani)); no etymology of its own.
+    cbk: ["Grecia", "ˈɡɾesja"],  // Grecia, as in Spanish; it is the title of the Chavacano Wikipedia article on Greece and the form in Acts 20:2 of the Chavacano New Testament. Route by resemblance to the neighbouring forms (es(Grecia) tl(Gresya)); no etymology of its own.
+    aoz: ["Yunani", "junani"],  // The Uab Meto Bible names Greece pah Yunani "the land Yunani" in Acts 20:2 and Yunani in Daniel 8:21, the same as Indonesian. Route by resemblance to the neighbouring forms (id(Yunani) ms(Yunani)); no etymology of its own.
+    ksb: ["Giliki", "ɡiliki"],  // Giliki is Greece in Acts 20:2 of the 2005 Shambala New Testament, whose Greeks are Wagiliki; no source gives the path of the word.
+    izz: ["Gurisu", "ɡuɾisu"],  // Gurisu is Greece in Acts 20:2 and Daniel 8:21 of the Izii Bible, whose Greeks are ndu Gurisu "people of Gurisu"; no source gives the path of the word.
+    tzh: ["Grecia", "ɡɾesja"],  // Grecia, as in Spanish; the Tzeltal Bibles of Bachajón and Oxchuc name Greece Grecia in Acts 20:2 and Daniel 8:21. Route by resemblance to the neighbouring forms (es(Grecia) tl(Gresya)); no etymology of its own.
+    bfa: ["Giriki", "ɡiriki"],  // Giriki is Greece in Acts 20:2 (jur lo Giriki "the land of Giriki") and Daniel 8:21 of the Bari Bible; no source gives the path of the word.
+    pnt: ["Ελλάδαν", "eˈlaðan"],  // Ελλάδαν is the Pontic form of Modern Greek Ελλάδα, from Ancient Greek Ἑλλάς Hellas.
+    ng: ["Greka", "ɡreka"],  // Greka is the name of Greece in the Ndonga Bible (kuGreka "to Greece").
+    lue: ["Helase", "helase"],  // Helase, from Hellas, is the name of Greece in both Luvale Bibles.
+    bra: ["यूनान", "juːnaːn"],  // यूनान is the name of Greece in the Braj Bible, the same word as Hindi यूनान from Persian یونان Yunan.
+    rim: ["Yunani", "junani"],  // Yunani is the name of Greece in the Kirimi Bible, written with the place-name prefix u- (uYunani) like uMakedonia.
+    dtp: ["Yunani", "junani"],  // Yunani is the name of Greece in the Kadazandusun Bible, as in Malay.
+    urh: ["Gris", "ɡris"],  // Gris is the name of Greece in the Urhobo Bible.
+    asu: ["Ugriki", "uɡriki"],  // Ugriki is the name of Greece in the Chasu New Testament.
+    lij: ["Grêcia", "ˈɡreːtʃia"],  // Grêcia is the title of the Ligurian Wikipedia article on Greece.
+    tet: ["Grésia", "ˈɡrɛsia"],  // Grésia is the title of the Tetum Wikipedia article on Greece.
+    nhw: ["Grecia", "ˈɡresja"],  // Huasteca Nahuatl uses the Spanish name, tlali Grecia "the land of Greece".
+    nhe: ["Grecia", "ˈɡresja"],  // Huasteca Nahuatl uses the Spanish name, tlali Grecia "the land of Greece".
+    gej: ["Grik-nyigbã", "ɡrik ɲiɡbã"],  // Grik-nyigbã, literally "Greek land", is the name of Greece in the Gen Bible.
+    sgw: ["ግሪክ", "ɡɨrik"],  // ግሪክ is the name of Greece in the Gurage Bible, as in Amharic.
+    zap: ["Grecia", "ɡɾesja"],  // Isthmus Zapotec uses the Spanish name Grecia, as in the Zapotec Bibles.
+    ebu: ["Ngiriki", "ŋɡiɾiki"],  // Ngiriki is the name of Greece in the Embu Bible.
+    ses: ["Gres", "ɡres"],  // Gres is the name of Greece in the Koyraboro Senni Bible (Gres gandaa "the land of Greece").
+    tzo: ["Grecia", "ɡresja"],  // Tzotzil uses the Spanish name Grecia, as in the Tzotzil Bibles.
+    mixtec: ["Grecia", "ɡresja"],  // Mixtec uses the Spanish name Grecia, as in the Mixtec Bibles.
+    pdt: ["Griechenlaunt", "ˈɡriçənlaunt"],  // Griechenlaunt, literally "land of the Greeks" (Launt "land, country"), is the name of Greece in the Plautdietsch Bibles, a cognate of German Griechenland.
+    mev: ["Gílíì", "ɡílíì"],  // Gílíì is Greece in Acts 20:2 of the Mano New Testament; no source gives the path of the word.
+    arn: ["Gresia", "ɡɾesja"],  // Gresia, close to Spanish Grecia, names Greece in Acts 20:2 of the Mapudungun New Testament (Gresia trokiñ mapu). Route by resemblance to the neighbouring forms (es(Grecia) tl(Gresya)); no etymology of its own.
+    inh: ["Янехье", "janeħe"],  // Янехье is the title of the Ingush Wikipedia article on Greece, which gives the official name as Яний Мохк; no source gives the path of the word.
+    pis: ["Gris", "ɡris"],  // Gris names Greece in Daniel 8:21 of the Solomon Islands Pijin Bible ("kantri blong Gris"), as in Tok Pisin and Bislama. Route by resemblance to the neighbouring forms (tpi(Gris) en(Greece)); no etymology of its own.
+    fj: ["Kirisi", "kirisi"],  // Kirisi is Greece in Acts 20:2 of the Fijian Bibles (1864, FOV, 2021 revision) and Daniel 8:21 of the Fijian New Version; Wiktionary lists it as a form of Karisi, borrowed from English Greece.
+    lif: ["ᤃᤪᤡᤛ", "ɡris"],  // ᤃᤪᤡᤛ Gris names Greece in Acts 20:2 and Daniel 8:21 of the Limbu Bible. Route by resemblance to the neighbouring forms (tpi(Gris) en(Greece)); no etymology of its own.
+    nzi: ["Gilisi", "ɡilisi"],  // Gilisi is Greece in Daniel 8:21 and 11:2 of the Nzema Bible (Gilisi maanle "the Greek state"), where the Greeks are Gilikima; no source gives the path of the word.
+    kj: ["Greka", "ɡreka"],  // Greka is Greece in Acts 20:2 (kuGreka), Daniel 8:21, 11:2 (oshilongo shaGreka "the country of Greece") and Zechariah 9:13 of the Oshikwanyama Bible; no source gives the path of the word.
+    kxc: ["Kirikki", "kirikːi"],  // Kirikki is Greece in Daniel 8:21, 11:2 and Zechariah 9:13 of the Konso Bible (Acts 20:2 spells it Kiriiki); no source gives the path of the word.
+    naq: ["Grikeǃhūb", "ɡrikeǃʰuːb"],  // Grikeǃhūb is Greece in Acts 20:2 and Daniel 8:21 of the Khoekhoegowab Bible (2020); no source gives the path of the word.
+    her: ["Grike", "ɡrike"],  // Grike is Greece in Daniel 8:21, 11:2 (ouhona wa Grike "the kingdom of Greece") and Zechariah 9:13 of the Revised Otjiherero Bible, with kOgrike in Acts 20:2; no source gives the path of the word.
+    ctu: ["Grecia", "ɡɾesja"],  // Chol uses the Spanish name Grecia, in Acts 20:2 and Daniel 8:21 of the Tumbalá Chol Bible and Acts 20:2 of the 2013 New Testament. Route by resemblance to the neighbouring forms (es(Grecia) tl(Gresya)); no etymology of its own.
+    bi: ["Gris", "ɡris"],  // Gris is the title of the Bislama Wikipedia article on Greece and the name in Daniel 8:21 of the Bislama Bible. Route by resemblance to the neighbouring forms (tpi(Gris) en(Greece)); no etymology of its own.
+    ami: ["Krisiya", "krisija"],  // Krisiya is Greece in the 2019 Amis Bible, which also calls the Greeks Krisiya a tamdaw "Krisiya people" (John 12:20).
+    to: ["Kalisi", "kalisi"],  // Kalisi is the title of the Tongan Wikipedia article on Greece and the name in the Tongan Moulton Bible (Acts 20:2, Daniel 8:21).
+    nv: ["Dahojiyáanii Bikéyah", "tɑ̀hòtʃìjɑ́ɑ̀nìː pìkʰéjɑ̀h"],  // Dahojiyáanii Bikéyah, "the land (bikéyah) of the Dahojiyáanii", is the title of the Navajo Wikipedia article on Greece; the Navajo Bible uses the loan Gríis instead.
+    bzj: ["Grees", "ɡriːs"],  // Grees, the English name Greece in Kriol spelling, as in the Belize Kriol New Testament; English Greece comes from Latin Graecia.
+    gym: ["Grecia", "ɡɾesia"],  // Ngäbere uses the Spanish name Grecia, from Latin Graecia, as in the Ngäbere New Testament.
+    hns: ["Griek des", "ɡrik des"],  // Griek des, "Greek country", is Greece in the Sarnami New Testament (Acts 20:2).
+    gag: ["Grețiya", "ɡretsiˈja"],  // Grețiya is the title of the Gagauz Wikipedia article on Greece; Wiktionary gives Yunanistan as a synonym, and the Gagauz New Testament uses Ellada.
+    frp: ["Grèça", "ˈɡrɛθa"],  // Grèça is the title of the Arpitan Wikipedia article on Greece.
+    hui: ["Girigi", "ɡiriɡi"],  // Girigi is Greece in the Huli Bible (Daniel 8:21, 11:2; Zechariah 9:13).
+    rwk: ["Ugiriki", "uɡiɾiki"],  // Ugiriki, the same form as Swahili Ugiriki (the country prefix u- plus a borrowing of English Greek), is Greece in the Rwa (Kimeru-Tanzania) New Testament.
+    nmf: ["Greece", "ɡris"],  // The English name Greece, from Latin Graecia; the Tangkhul Bible writes it in Daniel 8:21 ("Greecewui awungana", the king of Greece), 11:2 and Zechariah 9:13.
+    bpy: ["গ্রীস", "ɡris"],  // গ্রীস is the title of the Bishnupriya Manipuri Wikipedia article on Greece.
+    tab: ["Греция", "ɡretsija"],  // The Russian name Греция, as in the Tabasaran Bible (Acts 20:2 Грецияйиз "to Greece").
+    cnh: ["Grik ram", "ɡrik ram"],  // Grik ram, "the land (ram) of the Grik", is Greece in both Lai Bibles (Acts 20:2), with Grik pennak "Grik kingdom" in Daniel 8:21.
+    vai: ["ꗤꗷꘋ", "hɛlɛŋ"],  // ꗤꗷꘋ Hɛlɛŋ is Greece in the Vai New Testament, written "ꗤꗷꘋ ꕸꖃꔀ" "the Hɛlɛŋ country" in Acts 20:2.
+    lbj: ["གརིས", "ɡris"],  // གརིས Gris is Greece in the Tibetan-script Ladakhi Bible (Acts 20:2 "the country of Gris"; Daniel 8:21, 11:2); the Urdu-script edition uses Yunani.
+    co: ["Grecia", "ˈɡrɛtʃa"],  // Grecia is the title of the Corsican Wikipedia article on Greece; it is related to grecu "Greek", from Latin Graecus.
   },
 };

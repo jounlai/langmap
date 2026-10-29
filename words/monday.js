@@ -582,6 +582,25 @@ WORDS.monday = {
     kmh: "moon",
     ygr: "moon",
     rtm: "moon",
+    vot: "count",
+    wym: "moon",
+    tlh: "unknown",
+    ale: "after",
+    cay: "other",
+    kwk: "unknown",
+    tsi: "unknown",
+    thp: "unknown",
+    mic: "count",
+    moh: "unknown",
+    ruq: "moon",
+    atj: "unknown",
+    yap: "moon",
+    stq: "moon",
+    jbo: "count",
+    chy: "count",
+    aqc: "count",
+    crx: "after",
+    pqm: "after",
   },
   routes: {
     moon: {"color":"#7c3aed","emoji":"🌙","en":"the moon's day","ja":"月の日","ko":"달의 날","zh":"月亮之日","yue":"月亮嘅日","vi":"ngày mặt trăng","th":"วันของดวงจันทร์","id":"hari bulan","hi":"चंद्रमा का दिन","de":"Tag des Mondes","fr":"jour de la lune","it":"giorno della luna","es":"día de la luna","pt":"dia da lua","ru":"день луны","uk":"день місяця","ar":"يوم القمر","he":"יום הירח","sw":"siku ya mwezi"},
@@ -1106,5 +1125,24 @@ WORDS.monday = {
     kmh: ["madey", "madej"],  // Borrowed from English Monday, 'day of the Moon' (Pawley & Bulmer); Sunday is lotu, 'church service'.
     ygr: ["Mate", "mate"],  // A loanword, marked as such by Renck, most of which come from Tok Pisin; it matches Tok Pisin Mande, from English Monday. Route by resemblance to the neighbouring form (tpi(Mande)); no etymology of its own.
     rtm: ["Mạnre", "mɔnre"],  // Borrowed from English Monday (Churchward), 'day of the Moon'; also spelt Manre.
+    vot: ["esimespäive", "ˈesimespæivæ"],  // From esimein 'first' + päive 'day': Monday is the first day of the week, followed by tõinpäive 'second day' for Tuesday.
+    wym: ["möntaog", "ˈmøntaɔk"],  // The moon's day, inherited from Proto-West Germanic *mānini dag like German Montag.
+    tlh: ["DaSjaj", "ɖɑʂdʒɑdʒ"],  // DaSjaj, the Klingon name for Monday, ending in jaj 'day'; the source does not explain the first part.
+    ale: ["Pundiilnikax̂", "pundiːlnikaχ"],  // Borrowed from Russian ponedelnik, 'the day after Sunday', as Sunday Vaskrisiiniyax̂ is from Russian voskresenye.
+    cay: ["Awędędáʼǫh", "awɛ̃dɛ̃dáʔõh"],  // A verb, literally 'the day was finished' (day + end); Tuesday to Friday are then counted, dekní: hadǫˀt 'two day' and so on.
+    kwk: ["ʼna̱mp̓a̱nxwat̕sa̱nx̱", "ʔnəmpʼənxʷatsʼənχ"],  // Built on ʼna̱m 'one', a numbered day: Tuesday is ma'łp̓a̱nxwat̕sa̱nx̱ (maʼł 'two'), Wednesday yuda̱xwp̓a̱nxwat̕sa̱nx̱ and Thursday mup̓a̱nxwat̕sa̱nx̱.
+    tsi: ["Haʼlikʼüül Sah", "haʔlikʼɯːl sah"],  // Literally 'day one': kʼüül 'one' + sah 'day', followed by Haʼligupʼl Sah (gupʼl 'two') for Tuesday and Haʼlikʼwilii Sah for Wednesday.
+    thp: ["péyeʔsesq̓t", "pejeʔsesqʼt"],  // Built on péyeʔ 'one': a numbered day, like siyésq̓t (Tuesday) and smusékst, glossed 'Thursday - fourth day'.
+    mic: ["amgwes elugutimg", "amkʷes eluɡudimk"],  // "First work day": amgwes "first" with the word for a working day; the dictionary glosses it both Monday and first work day.
+    moh: ["Awententaʼónʼke", "awʌ̃tʌ̃taʔṹʔke"],  // The Mohawk name of Monday, after Awentatokenhtì꞉ke for Sunday; its literal meaning is not given in the source.
+    ruq: ["luni", "ˈluni"],  // The Megleno-Romanian Monday, the counterpart of Romanian luni from Latin lūnae diēs, "day of the Moon"; Papahagi also records Lunce, a name for an ox calved on a Monday. Route by resemblance to the neighbouring form (ro(luni)); no etymology of its own.
+    atj: ["ockorkananiwon", "oʃkoɾkananiwon"],  // The Atikamekw name of Monday; Tuesday to Saturday are Nicw kicikaw, Sosep, Octeni, Tcipaiatikw and Mari kicikaw, but the sources do not give this word's literal meaning.
+    yap: ["Moontaag", "moːntaːɡ"],  // Borrowed from German Montag, "moon day", from the German colonial period; the dictionary also lists the variant Moontaak and the descriptive synonym Taqareeb fean ea maruweel, "first of the working days".
+    stq: ["Moundai", "ˈmoːu̯ndaːi̯"],  // From Old Frisian mōnadei, 'day of the moon', like German Montag.
+    jbo: ["pavdei", "ˈpavdei"],  // A compound of pa 'one' and djedi 'day': the first day of the week.
+    chy: ["Noʼka éšeeva", "noʔka éʃeeva"],  // Literally 'one day', the first day; this is the Montana name, while in Oklahoma the same phrase means Tuesday.
+    aqc: ["итнаттут ихъ", "itnatːut iq"],  // Literally 'Monday-ish day': iq 'day' with an adjective from itni 'on Monday', the Avar итни from Arabic al-ithnayn, 'the two'. Route by resemblance to Avar итни.
+    crx: ["jimosdzen hukwʼelhʼaz", "dʒimosdzen hʌkʷʼeɬʔaz"],  // Literally 'after Sunday' (jimosdzen 'Sunday'), in the Lheidli dialect of Carrier.
+    pqm: ["kissonte", "kissonte"],  // Literally 'it has been Sunday', built on sonte 'Sunday'; amsqahs luhkan, literally 'first working', is also used.
   },
 };

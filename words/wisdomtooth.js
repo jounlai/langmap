@@ -217,6 +217,18 @@ WORDS.wisdomtooth = {
     af: "wisdom",
     ckb: "wisdom",
     kab: "wisdom",
+    bs: "wisdom",
+    war: "unknown",
+    lt: "wisdom",
+    ga: "unknown",
+    mni: "age",
+    rhg: "unknown",
+    ii: "unknown",
+    ba: "wisdom",
+    mrw: "other",
+    tsg: "unknown",
+    li: "wisdom",
+    cv: "wisdom",
   },
   routes: {
     wisdom: {"color":"#7c3aed","emoji":"🦉","en":"wisdom · sense","ja":"知恵・分別","ko":"지혜 · 분별","zh":"智慧・理智","yue":"智慧 · 理智","vi":"trí khôn · sự hiểu biết","th":"ปัญญา · ความรู้คิด","id":"kebijaksanaan · akal","hi":"बुद्धि · अक़्ल","de":"Weisheit · Verstand","fr":"sagesse · raison","it":"saggezza · giudizio","es":"sabiduría · juicio","pt":"sabedoria · siso","ru":"мудрость · разум","uk":"мудрість · розум","ar":"الحكمة · العقل","he":"חוכמה · בינה","sw":"busara · akili"},
@@ -377,5 +389,17 @@ WORDS.wisdomtooth = {
     af: ["verstandtand", "fərˈstanttant"],  // Literally 'tooth of understanding' (verstand 'intellect' + tand 'tooth'); the older wysheidskies is listed as an archaism.
     ckb: ["ددانی ژیری", "dɪdaːni ʒiːɾiː"],  // Literally 'tooth of intelligence' (ددان 'tooth' + ژیری 'intelligence').
     kab: ["tuɣmest n ugerru", "tuʁməst n uɡərːu"],  // Literally 'tooth of the mind' (tuɣmest 'tooth' + agerru 'mind, intellect'); it comes in between 18 and 25.
+    bs: ["umnjak", "ˈumɲaːk"],  // Built on um 'mind', so literally 'the mind one'; zub mudrosti 'tooth of wisdom' is also used.
+    war: ["sangko", "saŋˈkoʔ"],  // The Waray word for a wisdom tooth, sangkô.
+    lt: ["protinis dantis", "ˈproːtʲɪnʲɪs dɐnˈtʲɪs"],  // Literally 'mind tooth', from protas 'mind, reason'.
+    ga: ["fiacail forais", "ˈfʲiəkəlʲ ˈfˠɔɾˠəʃ"],  // Literally 'tooth of foras', a word Ó Dónaill glosses as 'foundation, established principle, settled state'.
+    mni: ["ꯌꯥꯈꯩ", "jákʰəi"],  // Literally 'the farthest tooth' (yā 'tooth' + khei 'farthest point'), per Sharma's Learners' Manipuri-English Dictionary.
+    rhg: ["akuali dat", "akkuwali dat"],  // akuali dat, with dat 'tooth'; the Rohingya dictionary on Webonary glosses the phrase 'wisdom tooth' and Burmese အံဆုံး.
+    ii: ["ꎐꁥ", "dʐɿ˧˧bo˥˥"],  // rry bbot, from ꎐ 'tooth' and ꁥ, which the Nuosu dictionary glosses 'add, attached'; it defines the compound as the hindmost molar (Chinese 尽头牙 'tooth at the very end').
+    ba: ["аҡыл теше", "ɑˈqɯl teˈʃe"],  // Literally 'tooth of reason' (аҡыл 'mind, reason' + теш 'tooth').
+    mrw: ["pangasek", "paŋasək"],  // From the root asek 'to press (down)', the same root as panasek 'bicuspid', so roughly 'the presser'.
+    tsg: ["tangu", "taŋu"],  // The Tausug dictionary glosses tangu as 'wisdom teeth (of a person)': Tiyubuan na tangu in bataꞌ ini, 'this child has wisdom teeth growing now'.
+    li: ["verstandjstandj", "vərˈstaɲcstaɲɟ"],  // Literally 'tooth of understanding' (verstandj 'understanding' + tandj 'tooth'), like Dutch verstandskies.
+    cv: ["ӑс шӑлӗ", "əs ˈʃəlɘ"],  // Literally 'tooth of the mind' (ӑс 'mind, wisdom' + шӑл 'tooth'); the Russian-Chuvash dictionary explains it as the back tooth that comes in after twenty, and the plainer кайри шӑл 'back tooth' is also used.
   },
 };

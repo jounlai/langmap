@@ -450,6 +450,8 @@ line('trivia button targets exist', num(s, /dead targets: (\d+)/));
 // without rebuilding would ship yesterday's article to readers.
 s = run('build_hanmap_trivia_rt.js --check');
 line('Han Map trivia split fresh', num(s, /stale: (\d+)/));
+s = run('build_trivia_rt.js --check');
+line('Name/Time Map trivia split fresh', num(s, /stale: (\d+)/));
 
 s = run('trivia_parse_check.js --check');
 line('trivia files parse', num(s, /fail to parse or miss articles: (\d+)/));

@@ -1,7 +1,8 @@
 # Writing the trivia articles
 
-For anyone — human or agent — editing `wordmap_trivia.js`, `hanmap_trivia.js` or the
-`wordmap_trivia_*.js` overlays. 70 articles × 19 languages.
+For anyone — human or agent — editing `wordmap_trivia.js`, `hanmap_trivia.js`,
+`namemap_trivia.js`, `timemap_trivia.js` or the `wordmap_trivia_*.js` overlays.
+Every article exists in 19 languages.
 
 This is written after the 2026-08-31 editorial pass
 (`docs/trivia-editorial-audit-2026-08-31.md`, commit `781af744`), which fixed a real problem and
@@ -288,3 +289,7 @@ are closed.
 7. If the English title changed, the other 18 changed too — or it is recorded as outstanding (§5).
 8. `node tools/export_trivia_seo.js` and `node tools/build_trivia_index_links.js`, then
    `node tools/bump_versions.js`.
+9. Han Map, Name Map and Time Map pages load a generated runtime copy: after editing
+   `hanmap_trivia.js` run `node tools/build_hanmap_trivia_rt.js`; after editing
+   `namemap_trivia.js` / `timemap_trivia.js` run `node tools/build_trivia_rt.js`
+   (both are checked by check_all).

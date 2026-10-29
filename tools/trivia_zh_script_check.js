@@ -86,6 +86,11 @@ const CITED = {
     'cjkv-false-friends': ['手紙', '汽車', '愛人', '新聞紙', '新聞'],
     // the code's own name and Viguier's 1872 codebook title.
     'chinese-telegraph-code': ['（電報碼）', '電報新書'],
+    // Time Map (2026-10-29): the Reiwa source line from the Man'yōshū and its
+    // Wenxuan model, quoted as written; the Japanese era name 慶応 and 皇紀 (Kōki).
+    'japanese-era-names': ['初春令月、氣淑風和', '仲春令月、時和氣清', '慶応', '皇紀'],
+    // the Hanshu's leap-month rule, quoted in the original.
+    'chinese-lunisolar-solar-terms': ['朔不得中，是謂閏月'],
     // the anti-fraud numeral set itself, in the forms used since the Ming.
     // The per-character glosses and the 壱弐参 comparison discuss those same forms.
     'capital-numerals-daxie': ['壹貳參肆伍陸柒捌玖拾', '壹 貳 參 肆 伍 陸 柒 捌 玖 拾 佰 仟 萬',
@@ -175,6 +180,12 @@ const han = articles('hanmap_trivia.js', c => vm.runInContext('window.TRIVIA_ART
 for (const a of han)
     for (const f of ['title', 'summary', 'body'])
         if (a[f] && a[f].zh) scan(a.id, f, a[f].zh);
+
+// Name Map and Time Map: all 19 languages inline, as Han Map.
+for (const f of ['namemap_trivia.js', 'timemap_trivia.js'])
+    for (const a of articles(f, c => vm.runInContext('window.TRIVIA_ARTICLES', c) || []))
+        for (const fld of ['title', 'summary', 'body'])
+            if (a[fld] && a[fld].zh) scan(a.id, fld, a[fld].zh);
 
 // The WordMap zh overlay is a flat {id: {title, summary, body}} map.
 const wm = articles('wordmap_trivia_zh.js', c => vm.runInContext('window.TRIVIA_I18N', c) || {});

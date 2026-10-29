@@ -34,14 +34,16 @@ PAGES = {
         'html': 'namemap.html',
         'sources': ['namemap.html', 'namemap_data.js', 'namemap_i18n.js', 'namemap_names_ext.js',
                     'namemap_content_i18n.js', 'namemap_i18n/*.js', 'nav-short.js',
-                    'share-button.js', 'pwa.js', 'lang-picker.js'],   # shared scripts these pages load (r23)
+                    'share-button.js', 'pwa.js', 'lang-picker.js',   # shared scripts these pages load (r23)
+                    'trivia_reader.js', 'namemap_trivia_rt/*.js'],   # the trivia window (2026-10-29)
         'faces': [('Noto Sans JP', (400, 700)), ('Noto Sans SC', (400, 700)), ('Noto Sans KR', (400, 700)),
                   ('Noto Serif JP', (700,)), ('Noto Serif SC', (700,)), ('Noto Serif KR', (700,))],
     },
     'timemap': {
         'html': 'timemap.html',
         'sources': ['timemap.html', 'timemap_calendars.js', 'timemap_i18n/*.js', 'nav-short.js',
-                    'share-button.js', 'pwa.js', 'lang-picker.js'],
+                    'share-button.js', 'pwa.js', 'lang-picker.js',
+                    'trivia_reader.js', 'timemap_trivia_rt/*.js'],   # the trivia window (2026-10-29)
         # Sans on the map labels (owner 2026-10-21: 「地図上のフォントはsans serifに統一」);
         # serif 700 only for the 字 nav icon, as on the Name Map.
         'faces': [('Noto Sans JP', (400, 700)), ('Noto Sans SC', (400, 700)), ('Noto Sans KR', (400, 700)),

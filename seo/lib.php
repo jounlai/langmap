@@ -347,6 +347,30 @@ function seo_ui_endonym(array $data, string $ui): string
 // their own table rather than spliced into the 19 blocks of SEO_T above: that
 // edit would have touched every one of them, and these belong together.
 // seo_t() merges the two once, on first call.
+/* Trivia for the two maps that gained articles on 2026-10-29 (Name Map,
+   Time Map): the hub group headings and the "open the map" link. */
+const SEO_T_TRIVIA_MAPS = [
+    'en' => ['tri_group_nm' => 'Personal names', 'tri_group_tm' => 'Calendars', 'open_app_nm' => 'Open the interactive Name Map →', 'open_app_tm' => 'Open the interactive Time Map →'],
+    'ja' => ['tri_group_nm' => '人名', 'tri_group_tm' => '暦', 'open_app_nm' => 'インタラクティブな Name Map を開く →', 'open_app_tm' => 'インタラクティブな Time Map を開く →'],
+    'ko' => ['tri_group_nm' => '인명', 'tri_group_tm' => '달력', 'open_app_nm' => '인터랙티브 Name Map 열기 →', 'open_app_tm' => '인터랙티브 Time Map 열기 →'],
+    'zh' => ['tri_group_nm' => '人名', 'tri_group_tm' => '历法', 'open_app_nm' => '打开交互式 Name Map →', 'open_app_tm' => '打开交互式 Time Map →'],
+    'yue' => ['tri_group_nm' => '人名', 'tri_group_tm' => '曆法', 'open_app_nm' => '打開互動 Name Map →', 'open_app_tm' => '打開互動 Time Map →'],
+    'vi' => ['tri_group_nm' => 'Tên người', 'tri_group_tm' => 'Lịch', 'open_app_nm' => 'Mở Name Map tương tác →', 'open_app_tm' => 'Mở Time Map tương tác →'],
+    'th' => ['tri_group_nm' => 'ชื่อบุคคล', 'tri_group_tm' => 'ปฏิทิน', 'open_app_nm' => 'เปิด Name Map แบบโต้ตอบ →', 'open_app_tm' => 'เปิด Time Map แบบโต้ตอบ →'],
+    'id' => ['tri_group_nm' => 'Nama orang', 'tri_group_tm' => 'Kalender', 'open_app_nm' => 'Buka Name Map interaktif →', 'open_app_tm' => 'Buka Time Map interaktif →'],
+    'hi' => ['tri_group_nm' => 'व्यक्तिगत नाम', 'tri_group_tm' => 'कैलेंडर', 'open_app_nm' => 'इंटरैक्टिव Name Map खोलें →', 'open_app_tm' => 'इंटरैक्टिव Time Map खोलें →'],
+    'de' => ['tri_group_nm' => 'Personennamen', 'tri_group_tm' => 'Kalender', 'open_app_nm' => 'Interaktive Name Map öffnen →', 'open_app_tm' => 'Interaktive Time Map öffnen →'],
+    'fr' => ['tri_group_nm' => 'Prénoms', 'tri_group_tm' => 'Calendriers', 'open_app_nm' => 'Ouvrir la Name Map interactive →', 'open_app_tm' => 'Ouvrir la Time Map interactive →'],
+    'it' => ['tri_group_nm' => 'Nomi di persona', 'tri_group_tm' => 'Calendari', 'open_app_nm' => 'Apri la Name Map interattiva →', 'open_app_tm' => 'Apri la Time Map interattiva →'],
+    'es' => ['tri_group_nm' => 'Nombres de persona', 'tri_group_tm' => 'Calendarios', 'open_app_nm' => 'Abrir el Name Map interactivo →', 'open_app_tm' => 'Abrir el Time Map interactivo →'],
+    'pt' => ['tri_group_nm' => 'Nomes de pessoas', 'tri_group_tm' => 'Calendários', 'open_app_nm' => 'Abrir o Name Map interativo →', 'open_app_tm' => 'Abrir o Time Map interativo →'],
+    'ru' => ['tri_group_nm' => 'Личные имена', 'tri_group_tm' => 'Календари', 'open_app_nm' => 'Открыть интерактивную Name Map →', 'open_app_tm' => 'Открыть интерактивную Time Map →'],
+    'uk' => ['tri_group_nm' => 'Особові імена', 'tri_group_tm' => 'Календарі', 'open_app_nm' => 'Відкрити інтерактивну Name Map →', 'open_app_tm' => 'Відкрити інтерактивну Time Map →'],
+    'ar' => ['tri_group_nm' => 'أسماء الأعلام', 'tri_group_tm' => 'التقاويم', 'open_app_nm' => 'افتح Name Map التفاعلية ←', 'open_app_tm' => 'افتح Time Map التفاعلية ←'],
+    'he' => ['tri_group_nm' => 'שמות פרטיים', 'tri_group_tm' => 'לוחות שנה', 'open_app_nm' => 'פתיחת Name Map האינטראקטיבית ←', 'open_app_tm' => 'פתיחת Time Map האינטראקטיבית ←'],
+    'sw' => ['tri_group_nm' => 'Majina ya watu', 'tri_group_tm' => 'Kalenda', 'open_app_nm' => 'Fungua Name Map shirikishi →', 'open_app_tm' => 'Fungua Time Map shirikishi →'],
+];
+
 const SEO_T_WORD = [
     'en' => [
         'wd_forms_n' => '{n} different spellings',
@@ -2365,6 +2389,7 @@ function seo_t(string $ui, string $key, array $vars = []): string
     if ($T === null) {
         $T = SEO_T;
         foreach (SEO_T_WORD as $l => $kv) { $T[$l] = ($T[$l] ?? []) + $kv; }
+        foreach (SEO_T_TRIVIA_MAPS as $l => $kv) { $T[$l] = ($T[$l] ?? []) + $kv; }
     }
     $s = $T[$ui][$key] ?? ($T['en'][$key] ?? $key);
     // Plural-form entries ['one' => …, 'few' => …, 'other' => …] pick by {n},

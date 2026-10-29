@@ -60,6 +60,14 @@ const ALLOW = {
     'oracle-bone-script.yue': { '50000': 'yue writes "about US$15,000" as 約合1.5萬美元; the guard reads the tail 5萬 as 50000' },
     'capital-numerals-daxie.ko': { '1000': 'ko glosses 千 as 千(1000) where the English writes 千 (thousand)' },
     'archi-million-verb-forms.ja': { '1500000': 'ja writes "1.5 million" as 150万' },
+    // Time Map articles (2026-10-29).
+    'gregorian-1582-ten-days.ko': { '100': 'ko says "years divisible by 100" (100의 배수) for "century years"' },
+    'russia-october-in-november.ja': { '100': 'ja spells out "divisible by 100" for the century-year rule' },
+    'russia-october-in-november.ko': { '100': 'ko spells out "divisible by 100" for the century-year rule' },
+    'islamic-lunar-year.ja': { '1000000': 'ja writes "one to 1.5 million" as 100万～150万', '1500000': 'same', '1405': 'ja reads out the Iranian date ۱۴۰۵ that the English quotes in Persian digits', '1448': 'ja reads out the Hijri year ١٤٤٨ quoted in Arabic digits' },
+    'islamic-lunar-year.ko': { '1000000': 'ko writes "one to 1.5 million" as 100만~150만', '1500000': 'same' },
+    'ethiopian-13-months.ko': { '1000': 'ko spells out "millennium" as 1000년' },
+    'maya-long-count-2012.hi': { '44000': 'hi groups 144,000 the Indian way (1,44,000)', '84283': 'Indian grouping of 584,283 (5,84,283)', '84285': 'Indian grouping of 584,285', '72000': 'Indian grouping of 1,872,000 (18,72,000)' },
 };
 
 function load(file, pick) {
@@ -73,6 +81,10 @@ function load(file, pick) {
 const arts = [];
 for (const a of load('hanmap_trivia.js', c => vm.runInContext('window.TRIVIA_ARTICLES', c) || []))
     arts.push({ src: 'hanmap', id: a.id, bodies: Object.assign({}, a.body) });
+// Name Map and Time Map keep all 19 languages inline, as Han Map does.
+for (const m of ['namemap', 'timemap'])
+    for (const a of load(m + '_trivia.js', c => vm.runInContext('window.TRIVIA_ARTICLES', c) || []))
+        arts.push({ src: m, id: a.id, bodies: Object.assign({}, a.body) });
 {
     const base = load('wordmap_trivia.js', c => vm.runInContext('window.TRIVIA_ARTICLES', c) || []);
     const map = {};

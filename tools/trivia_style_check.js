@@ -35,7 +35,7 @@ function load(file, key) {
    HanMap keeps all 19 in one file. */
 function corpus() {
     const out = [];
-    for (const f of ['wordmap_trivia.js', 'hanmap_trivia.js']) {
+    for (const f of ['wordmap_trivia.js', 'hanmap_trivia.js', 'namemap_trivia.js', 'timemap_trivia.js']) {
         for (const a of load(f, 'TRIVIA_ARTICLES') || []) {
             out.push({ id: a.id, file: f, bodies: { ...(a.body || {}) }, titles: { ...(a.title || {}) } });
         }

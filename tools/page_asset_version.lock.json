@@ -59,6 +59,10 @@
     "version": 9,
     "hash": "45e649c2244267b3"
   },
+  "namemap_trivia_rt/base.js": {
+    "version": 1,
+    "hash": "29971da4293a3b75"
+  },
   "nav-short.js": {
     "version": 55,
     "hash": "7a55820995bc44d7"
@@ -94,6 +98,14 @@
   "timemap_calendars.js": {
     "version": 19,
     "hash": "01c5f8e22cc6d04e"
+  },
+  "timemap_trivia_rt/base.js": {
+    "version": 1,
+    "hash": "4ba4ba2bef7249a7"
+  },
+  "trivia_reader.js": {
+    "version": 2,
+    "hash": "ff7fc2a7b48c958e"
   },
   "word_labels.js": {
     "version": 111,

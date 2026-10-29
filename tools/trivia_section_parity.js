@@ -42,6 +42,10 @@ function load(file, pick) {
 const arts = [];
 for (const a of load('hanmap_trivia.js', c => vm.runInContext('window.TRIVIA_ARTICLES', c) || []))
     arts.push({ src: 'hanmap', id: a.id, bodies: Object.assign({}, a.body) });
+// Name Map and Time Map keep all 19 languages inline, as Han Map does.
+for (const m of ['namemap', 'timemap'])
+    for (const a of load(m + '_trivia.js', c => vm.runInContext('window.TRIVIA_ARTICLES', c) || []))
+        arts.push({ src: m, id: a.id, bodies: Object.assign({}, a.body) });
 {
     const map = {};
     for (const a of load('wordmap_trivia.js', c => vm.runInContext('window.TRIVIA_ARTICLES', c) || []))

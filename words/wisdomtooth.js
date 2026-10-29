@@ -229,6 +229,11 @@ WORDS.wisdomtooth = {
     tsg: "unknown",
     li: "wisdom",
     cv: "wisdom",
+    nn: "wisdom",
+    eu: "age",
+    oc: "wisdom",
+    fur: "wisdom",
+    sah: "unknown",
   },
   routes: {
     wisdom: {"color":"#7c3aed","emoji":"🦉","en":"wisdom · sense","ja":"知恵・分別","ko":"지혜 · 분별","zh":"智慧・理智","yue":"智慧 · 理智","vi":"trí khôn · sự hiểu biết","th":"ปัญญา · ความรู้คิด","id":"kebijaksanaan · akal","hi":"बुद्धि · अक़्ल","de":"Weisheit · Verstand","fr":"sagesse · raison","it":"saggezza · giudizio","es":"sabiduría · juicio","pt":"sabedoria · siso","ru":"мудрость · разум","uk":"мудрість · розум","ar":"الحكمة · العقل","he":"חוכמה · בינה","sw":"busara · akili"},
@@ -401,5 +406,10 @@ WORDS.wisdomtooth = {
     tsg: ["tangu", "taŋu"],  // The Tausug dictionary glosses tangu as 'wisdom teeth (of a person)': Tiyubuan na tangu in bataꞌ ini, 'this child has wisdom teeth growing now'.
     li: ["verstandjstandj", "vərˈstaɲcstaɲɟ"],  // Literally 'tooth of understanding' (verstandj 'understanding' + tandj 'tooth'), like Dutch verstandskies.
     cv: ["ӑс шӑлӗ", "əs ˈʃəlɘ"],  // Literally 'tooth of the mind' (ӑс 'mind, wisdom' + шӑл 'tooth'); the Russian-Chuvash dictionary explains it as the back tooth that comes in after twenty, and the plainer кайри шӑл 'back tooth' is also used.
+    nn: ["visdomstann", "ˈviːsdɔmsˌtɑnː"],  // Literally 'wisdom tooth' (visdom + tann), the same compound as Bokmål.
+    eu: ["azkenagin", "as̻kenaɣin"],  // Literally 'last molar' (azken 'last' + hagin 'molar'); zuhur-hagin 'wise molar' is also listed.
+    oc: ["dent del sen", "den del sen"],  // Literally 'tooth of good sense' (sen 'sense, judgement'); Gascon says caishau deu sens 'molar of sense'.
+    fur: ["dint dal judizi", "dint dal juˈditsi"],  // Literally 'tooth of judgement', like Italian dente del giudizio.
+    sah: ["билир тиис", "biˈlir tiːs"],  // билир on its own also means 'wisdom tooth', which the Sakha explanatory dictionary defines as the back molar that grows last.
   },
 };

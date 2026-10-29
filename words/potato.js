@@ -511,6 +511,28 @@ WORDS.potato = {
     bzh: "truffle",
     rtm: "papa",
     ers: "unknown",
+    ia: "papa",
+    jbo: "unknown",
+    lkt: "other",
+    chy: "other",
+    arp: "unknown",
+    pqm: "unknown",
+    aqc: "other",
+    dak: "unknown",
+    tsi: "unknown",
+    kwk: "unknown",
+    thp: "unknown",
+    yur: "other",
+    cay: "unknown",
+    ain: "other",
+    tlh: "papa",
+    sjd: "truffle",
+    kgg: "other",
+    mus: "other",
+    mic: "papa",
+    moh: "unknown",
+    ium: "other",
+    ckt: "other",
   },
   routes: {
     papa: {"color":"#ca8a04","emoji":"🏔️","en":"Quechua papa · Taíno batata","ja":"ケチュア語 papa・タイノ語 batata","ko":"케추아어 papa · 타이노어 batata","zh":"克丘亚语 papa・泰诺语 batata","yue":"克丘亞語 papa · 泰諾語 batata","vi":"Quechua papa · Taíno batata","th":"เกชัว papa · ไตโน batata","id":"Quechua papa · Taíno batata","hi":"क्वेचुआ papa · ताइनो batata","de":"Quechua papa · Taíno batata","fr":"quechua papa · taïno batata","it":"quechua papa · taíno batata","es":"quechua papa · taíno batata","pt":"quíchua papa · taíno batata","ru":"кечуа papa · таино batata","uk":"кечуа papa · таїно batata","ar":"كيتشوا papa · تاينو batata","he":"קצ'ואה papa · טאינו batata","sw":"Kiquechua papa · Kitaino batata"},
@@ -963,5 +985,27 @@ WORDS.potato = {
     bzh: ["taperë", "tapəɾe"],  // Borrowed from German Kartoffel; Tok Pisin says patete.
     rtm: ["pitete", "pitete"],  // The Rotuman word for the potato; the sweet potato is kumara.
     ers: ["pu", "pu˥˥"],  // Unlike most of its Qiangic neighbours, whose words resemble Chinese 洋芋 (Pumi jã y, Guiqiong jɑ̃ y), Ersu has a short word of its own; the sweet potato is hũ˧˧ʂɑu˥˥.
+    ia: ["patata", "paˈtata"],  // Taken from Spanish patata, itself from Taíno batata.
+    jbo: ["patlu", "ˈpatlu"],  // A root word (gismu) of Lojban: 'x1 is a potato of variety x2'.
+    lkt: ["bló", "bló"],  // An inherited Siouan word that historically named the wild Indian potato (groundnut) before the potato.
+    chy: ["mésėhestȯtse", "mésehestotse"],  // Sounds the same as mésėhestȯtse 'food', literally 'eating thing'; some speakers say aéstomemésėhestȯtse instead.
+    arp: ["ceeʼééʼ", "tʃeːʔéːʔ"],  // Plural ceeʼeiʼi; an Arapaho text uses the same word for wild potatoes dug for food.
+    pqm: ["pocetes", "potʃetes"],  // The dictionary suggests it is perhaps from English potato; the Indian potato (groundnut) is skicinuwi-pocetes or ktahkitom.
+    aqc: ["хъӏвиб", "qˤʷib"],  // The word first names the tuber of the native chervil (Chaerophyllum); the full form оӏроӏс хъӏвиб means 'Russian chervil'.
+    dak: ["bdo", "bdo"],  // The Dakota word for the potato, as in bdo yupaŋpi 'mashed potatoes'; Riggs also records mdo, and Lakota says blo.
+    tsi: ["sgusiit", "sɡusiːt"],  // The Sm'algyax word for potatoes, as in 'Dm dzemu sgusiit dm ga̱bm' (I'm going to boil potatoes for us to eat); a second recorded sentence is 'Heelda 'wa'na̱m siguusiidm' (we planted lots of potatoes).
+    kwk: ["kwuʼsi", "kʷuʔsi"],  // The Kwak'wala word for potatoes; kwu'sila is 'cooking potatoes', and neighbouring Heiltsuk says gwu'si.
+    thp: ["pəték", "pətek"],  // The Thompson word for the potato, distinct from tetúwn̓ 'Indian potato', the wild tuber.
+    yur: ["herhhlkerh", "hɚhɬkɚh"],  // The Yurok word for a bulb (originally the brodiaea bulb) now used for the potato; the wild 'Indian potato' is 'oohl 'w-erhhlkerh, the 'Indian's bulb'.
+    cay: ["ohǫ́na̱ʼdaʼ", "ohṍnḁʔdaʔ"],  // The Cayuga basic noun for the potato; the o- prefix can be dropped (hǫ́na̱ʼdaʼ), and ga̱hǫnadáyętwęh is a potato field.
+    ain: ["イモ", "imo"],  // Taken from Japanese imo 'tuber' (芋); Saru Ainu says emo and Horobetsu kosoymi, and several dialects had no word at all.
+    tlh: ["patat 'oQqar", "pʰɑtʰɑtʰ ʔoqχqʰɑr"],  // A transliteration of the Terran name plus 'oQqar 'root, tuber', the way Klingon names Earth vegetables (qe'rot 'oQqar 'carrot'); it comes from the authorised EuroTalk course.
+    sjd: ["картошкэ", "kartoʃke"],  // Borrowed from Russian картошка during Soviet-era Russification, the colloquial form of картофель, ultimately Italian tartufolo 'truffle'.
+    kgg: ["alu", "alu"],  // Borrowed from Nepali ālu, the South Asian word that first named a native yam (Sanskrit āluka) and moved to the potato when it arrived.
+    mus: ["vhv-cerēhe", "ahatʃiɬíːhi"],  // Literally "round potato": vhv is the native tuber word (usually followed by a modifier) and cerēhē means round-shaped; vhv-hvtke "white potato" is also listed, and the sweet potato is vhv-cvmpv.
+    mic: ["tapʼtan", "dabədan"],  // Borrowed from French des patates; plural tapʼtang, and Nova Scotia also says tapatat.
+    moh: ["ohnennà:taʼ", "ohnʌ̃nàːtaʔ"],  // The Mohawk word for the potato in Maracle's One Thousand Useful Mohawk Words; the source gives no etymology.
+    ium: ["ndoih", "doi˧˩"],  // The inherited Hmong-Mien word for an edible tuber (Proto-Hmong-Mien *ndu̯əj), extended to the potato.
+    ckt: ["кымчек", "kəmtɕek"],  // The native word for an edible root, extended to the potato.
   },
 };

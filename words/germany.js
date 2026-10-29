@@ -463,6 +463,11 @@ WORDS.germany = {
     olo: "germania",
     tok: "deutsch",
     mwl: "alemanni",
+    niu: "germania",
+    jbo: "deutsch",
+    smn: "saxon",
+    chy: "other",
+    tlh: "deutsch",
   },
   routes: {
     deutsch: {"color":"#0891b2","emoji":"🗣️","en":"the Germans' own word","ja":"ドイツ人の自称","ko":"독일인의 자칭","zh":"德国人的自称","yue":"德國人嘅自稱","vi":"tên tự gọi của người Đức","th":"ชื่อที่ชาวเยอรมันเรียกตัวเอง","id":"sebutan orang Jerman sendiri","hi":"जर्मनों का अपना शब्द","de":"die Selbstbezeichnung","fr":"le nom que se donnent les Allemands","it":"il nome che si danno i tedeschi","es":"el nombre que se dan los alemanes","pt":"o nome que os alemães se dão","ru":"самоназвание немцев","uk":"самоназва німців","ar":"اسم الألمان لأنفسهم","he":"השם שהגרמנים קוראים לעצמם","sw":"jina la Wajerumani wenyewe"},
@@ -866,5 +871,10 @@ WORDS.germany = {
     olo: ["Germuanii", "ˈɡermuanii"],  // The Livvi Wikipedia article on Germany is titled Germuanii, and the VepKar dictionary glosses it 'Germany'; it is the Russian-type name from Latin Germania.
     tok: ["ma Tosi", "ma tosi"],  // Literally 'land Tosi'; the Toki Pona Wikipedia article ma Tosi gives Deutschland as the source name, and the language is toki Tosi from Deutsch.
     mwl: ["Almanha", "alˈmaɲɐ"],  // The Mirandese Wikipedia article on Germany is titled Almanha; like Portuguese Alemanha it names the Alamanni tribe.
+    niu: ["Sihamani", "sihamani"],  // Germany in Niuean, the name used throughout Jehovah's Witnesses' Niuean publications (i Sihamani 'in Germany'), close to Tongan Siamane; no source found that names the donor.
+    jbo: ["dotygu'e", "dotəˈɡuhe"],  // A compound of dotco 'German' and gugde 'country'; dotco is a cultural root made from German Deutsch.
+    smn: ["Saksa", "ˈsaksa"],  // The same name as Finnish Saksa, after the Saxons; the Inari Sámi Wikipedia titles its article Saksa.
+    chy: ["Maʼevéʼhoʼéno", "maʔevéʔhoʔéno"],  // Built on Maʼevéʼhoʼe 'German person', literally 'red whiteman' (vé'ho'e, the word for a non-Indian).
+    tlh: ["DoyIchlan", "ɖojɪtʃlɑn"],  // Klingon DoyIchlan is German Deutschland reshaped to fit Klingon syllables.
   },
 };

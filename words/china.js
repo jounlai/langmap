@@ -466,6 +466,17 @@ WORDS.china = {
     tok: "zhongguo",
     an: "cina",
     frr: "cina",
+    vep: "khitan",
+    smn: "unknown",
+    szy: "zhongguo",
+    kw: "cina",
+    jbo: "zhongguo",
+    chr: "other",
+    niu: "cina",
+    ssf: "unknown",
+    liv: "cina",
+    tlh: "zhongguo",
+    wym: "cina",
   },
   routes: {
     zhongguo: {"color":"#dc2626","emoji":"🏮","en":"reads 中國 \"Middle Kingdom\" itself","ja":"漢字 中國 を自分で読む","ko":"한자 中國을 직접 읽음","zh":"自己读汉字\"中國\"","yue":"自己讀漢字「中國」","vi":"tự đọc chữ 中國","th":"อ่านอักษร 中國 เอง","id":"membaca aksara 中國 sendiri","hi":"中國 को ख़ुद पढ़ना","de":"liest 中國 selbst","fr":"lit 中國 lui-même","it":"legge 中國 da sé","es":"lee 中國 por sí mismo","pt":"lê 中國 por si","ru":"своё чтение 中國","uk":"власне читання 中國","ar":"يقرأ 中國 بنفسه","he":"קורא את 中國 בעצמו","sw":"husoma 中國 yenyewe"},
@@ -874,5 +885,16 @@ WORDS.china = {
     tok: ["ma Sonko", "ma sonko"],  // Literally 'land Sonko'; Sonko is the Toki Pona adaptation of Mandarin 中国 Zhōngguó.
     an: ["China", "ˈtʃina"],  // The Aragonese Wikipedia titles the country Republica Popular de China and calls it China throughout, the same name as Spanish China; ch is read tʃ and the word is stressed on the next-to-last syllable by Aragonese spelling rules.
     frr: ["Sina", "ˈsina"],  // The Mooring North Frisian Wikipedia's article on the country is headed Sina ('Sina as en lönj önj Asien'); Fering says Schiina.
+    vep: ["Kitai", "ˈkitai"],  // Borrowed from Russian Китай, the name taken from the Khitan (Wiktionary); the Veps Wikipedia article on the country is titled Kitai.
+    smn: ["Kiina", "ˈkiːna"],  // The Inari Sámi Wikipedia article on the country is titled Kiina, the People's Republic being Kiina aalmugtäsiväldi; its origin is not given in a source.
+    szy: ["Cong-kow", "tsoŋkow"],  // A borrowing of Chinese 中國 'middle country'; the Sakizaya Wikipedia article on the country is titled Cong-kow and writes it with the characters 中國.
+    kw: ["China", "ˈtʃina"],  // Borrowed from English China, itself from Portuguese and ultimately Sanskrit Cīna (Wiktionary); the Cornish Wikipedia article is titled China and the People's Republic is Repoblek Werin China.
+    jbo: ["jugygu'e", "ʒuɡəˈɡuhe"],  // A compound of jungo 'Chinese' and gugde 'country'; jungo itself was built from Mandarin Zhōngguó (Lojban reference grammar).
+    chr: ["ᏓᎶᏂᎨᏍᏛ", "daloniɡesdə̃"],  // Related to the Cherokee word for 'yellow' (Wiktionary); the Cherokee Wikipedia titles the country ᏓᎶᏂᎨᏍᏛ, following Cherokee Nation Education Services, and also uses the borrowing ᏥᎾ.
+    niu: ["Saina", "saina"],  // Saina in Jehovah's Witnesses' Niuean publications and the Niuean test Wikipedia ('Beijing i Saina'). Route by resemblance to the neighbouring forms (sm(Saina)); no etymology of its own.
+    ssf: ["Tualuu", "tualuu"],  // Glossed 'mainland, China' in the ILRDF Thao dictionary; a Chinese person is Tualuu a thau.
+    liv: ["Kīnõmō", "ˈkiːnəmɒː"],  // A compound ending in mǭ 'land', like Saksāmō 'Germany' (Livonian-Estonian-Latvian Dictionary).
+    tlh: ["jungwoq", "dʒuŋwoqʰ"],  // Marc Okrand based it on the Cantonese reading of 中國 'middle country', avoiding the Mandarin ending because wo' means 'empire' in Klingon.
+    wym: ["Hīna", "ˈhiːna"],  // Recorded in Mojmir's 1930 dictionary of the Wilamowice dialect as the name of China.
   },
 };

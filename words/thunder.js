@@ -661,6 +661,28 @@ WORDS.thunder = {
     csb: "plain",
     mvf: "unknown",
     ngu: "unknown",
+    tay: "unknown",
+    bnn: "unknown",
+    ixl: "unknown",
+    dsh: "unknown",
+    dur: "unknown",
+    bbo: "unknown",
+    vro: "unknown",
+    poh: "unknown",
+    chk: "unknown",
+    toc: "unknown",
+    lad: "plain",
+    abq: "imitative",
+    dds: "unknown",
+    sbp: "unknown",
+    an: "plain",
+    lld: "unknown",
+    iu: "unknown",
+    dbq: "unknown",
+    bzh: "unknown",
+    nhx: "unknown",
+    pau: "unknown",
+    apw: "unknown",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1268,5 +1290,27 @@ WORDS.thunder = {
     csb: ["grzmòt", "ɡʒmwɛt"],  // The Kashubian counterpart of Polish grzmot, from the verb 'to thunder'; grzëmòt is also recorded, meaning both thunder and a thunderstorm.
     mvf: ["qugude", "ʨuɡude"],  // The same word names the lightning: the Huzhu Mongghul word list glosses qugude as both thunder and lightning.
     ngu: ["tlacomonajli", "tɬakomoˈnahli"],  // A noun from the verb tlacomoni 'it thunders'; the Guerrero Nahuatl New Testament says in John 12:29 that 'ocaquistic se tlacomonajli', a thunder was heard.
+    tay: ["sbisuw", "sbisuw"],  // The ILRDF Atayal (Squliq) dictionary glosses sbisuw as 雷 'thunder'; the verb 'to thunder' is sbisu / msbisu.
+    bnn: ["bilva", "bilva"],  // The ILRDF Isbukun (郡群) Bunun dictionary gives the noun bilva '雷' (thunder); to thunder is cinbilva.
+    ixl: ["qʼankoo", "qʼankoː"],  // The Nebaj Ixil New Testament calls James and John ik'aol q'ankoo 'sons of thunder' (Mark 3:17), and the crowd at John 12:29 says 'Q'ankooe' kat tiini' ('it was thunder'); the Chajul and Cotzal Ixil Bibles use other words (raaya, tininunchil).
+    dsh: ["ɠeɠet", "ɠeɠet"],  // The Daasanach dictionary gives ʼgeʼgete / ʼgeʼget 'thundering sound' (Swahili radi), and the Daasanach New Testament renders Boanerges as 'sons of ˈgeˈgete' (Mark 3:17).
+    dur: ["bó̧ó̧", "bõː"],  // The Dii dictionary glosses bó̧ó̧ as 'tonnerre, éclair, foudre' (thunder, lightning), as in Bó̧ó̧ sée hȩn 'the thunder rumbles'; the Dii New Testament calls James and John 'Bó̧ó̧ waa' (sons of thunder).
+    bbo: ["wurofafagɩlɩ", "wurofafaɡɪlɪ"],  // A compound of Wuro 'God; sky; rain' and fafagɩlɩ 'to produce thunder', so roughly 'the sky's (or God's) thundering'.
+    vro: ["pikne", "pikne"],  // The Võro–Estonian dictionary gives pikne (also pikjäne) for Estonian kõu, pikne and äike, as in pikne tümistäs 'the thunder rumbles'.
+    poh: ["kahoq", "kahoq"],  // Both Poqomchi' Bibles use this word for Boanerges, 'sons of thunder' (Mark 3:17), and for the thunder the crowd heard at John 12:29; it is a cognate of Q'eqchi' kaaq 'thunder, lightning bolt'.
+    chk: ["chopulap", "tʃopulap"],  // The Chuukese Bible translates Boanerges as Nöün Chopulap 'sons of thunder' (Mark 3:17), and at John 12:29 the crowd says it was och chopulap, 'a thunder'.
+    toc: ["jili", "hili"],  // The Coyutla Totonac New Testament renders Boanerges as Xcamán Jili 'children of thunder' (Mark 3:17) and the seven thunders of Revelation 10:3 as pu̠lactujún jili; the verb 'to thunder' is jililh / jiliy.
+    lad: ["trueno", "ˈtɾweno"],  // The same word as Spanish trueno, from Latin tonus 'thunderclap' with the r of tronar 'to thunder'.
+    abq: ["ддра", "dːra"],  // Also the verb 'to thunder'; the Abaza grammar sketch cites ддра 'thunder, to thunder' as an onomatopoeic word with the doubled consonant typical of sound words.
+    dds: ["ana-dɔdu", "anadɔdu"],  // Built on àná 'rain' and the verb dɔ̀d- '(rainstorm) to thunder', so roughly 'the rain's thundering'; lightning is àná gìrù-gɛ̀ndù.
+    sbp: ["lugulumo", "luɡulumo"],  // Related to the verb -guluma 'to roar' (used of a lion at Revelation 10:3); the Sangu Bible renders Boanerges as lusawo lwa lugulumo 'sons of thunder' (Mark 3:17), and at John 12:29 the crowd says 'Lugulumo lwa noonya', 'thunder of the rain'.
+    an: ["trueno", "ˈtɾweno"],  // The same word as Spanish trueno, from Latin tonus; Aragonese Wikipedia also gives the variants truen and tron.
+    lld: ["tëune", "ˈtəune"],  // The Gherdëina word; Val Badia, Mareo and Fodom Ladin and the written standard say tonn.
+    iu: ["ᑲᓪᓕᖅ", "kalːiq"],  // Romanised kalliq; the same Bible also uses kalluk (Mark 3:17 Kalluup irningik 'sons of thunder'), the form Inuinnaqtun uses.
+    dbq: ["van a ləv", "van a ləv"],  // Literally 'the rain makes noise': van is the rain and ləv 'to make a noise'; van a ndul, 'the rain rumbles', is a synonym.
+    bzh: ["vaḳuvek", "βaquβək"],  // Hooley's dictionary illustrates it with 'Hob rëḳ geto in vaḳuvek veröp', 'it will rain because it thundered'.
+    nhx: ["teyo̱ꞌ", "tejoːʔ"],  // Kept apart from the verb tatikuini 'it thunders'; the dictionary's example is Mitzijixitij teyô', 'the thunder woke you up many times'.
+    pau: ["derumk", "ðəˈɾumk"],  // Related to the verb merrumk 'to make a loud and continual noise'; the boom of thunder is deremkel a derumk.
+    apw: ["idiʼnii", "idiʔniː"],  // Low tone throughout, so no tone marks are written; the thunderbird is idiʼnii dlǫ́ʼ, 'thunder bird'.
   },
 };

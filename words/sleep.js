@@ -1189,7 +1189,7 @@ WORDS.sleep = {
     hsn_yz: ["睡觉", "zueɪ˨˦ kɔ˨˦"],
     enf: ["kodiɕ", "kɔdiɕʲ"],
     fvr: ["ʔʋ̀ŋ-", "ʔʊ̀ŋ"],
-    yle: ["dpî", "ʈpɨ"],
+    yle: ["dpî", "ʈ͡pɨ"],
     bom: ["nevwa", "nevwa"],
     doi: ["सौना", "sɔːnaː"],
     bum: ["ôyo", "ɔjo"],

@@ -359,7 +359,7 @@ WORDS.mouth = {
     en_brum: ["mouth", "mæʊθ"],
     en_ca: ["mouth", "mʌʊθ"],
     en_ck: ["mouth", "mæːf"],
-    en_em: ["mouth", "muːθ"],
+    en_em: ["mouth", "məuθ"],
     en_est: ["mouth", "mæʊθ"],
     en_geordie: ["mouth", "muːθ"],
     en_in: ["mouth", "maʊt̪ʰ"],

@@ -544,7 +544,7 @@ WORDS.one = {
     xpg: ['—', '—'],
     xum: ['unu', 'ˈunu'],
     xve: ['—', '—'],
-    yle: ["ngmidi", "ŋmiʈi"],
+    yle: ["ngmidi", "ŋ͡miʈi"],
     yue_dg: ["一", "jak˥"],
     yue_nn: ['一', 'jɐt˥'],
     zh_cq: ['一', 'i˨˩'],

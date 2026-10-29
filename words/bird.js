@@ -1127,7 +1127,7 @@ WORDS.bird = {
     ja_mvi: ["鳥", "tuɨ"],
     niv: ["пуйӈа", "pujŋa"],
     bsk: ["balás", "baˈlas"],
-    yle: ["ńmê", "n̪mə"],
+    yle: ["ńmê", "n̪͡mə"],
     mcf: ["uicchun", "wiktʃun"],
     nys: ["djert", "dʒeɻt"],
     nej: ["nuŋ", "nuŋ"],

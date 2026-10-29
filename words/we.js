@@ -2350,7 +2350,7 @@ WORDS.we = {
     xpg: ["—", "—"],
     xum: ["—", "—"],
     xve: ["—", "—"],
-    yle: ["nmo", "ɳmɔ"],
+    yle: ["nmo", "ɳ͡mɔ"],
     yue_dg: ["我哋", "ŋɔ˧˦ tei˨"], // was ["我哋", "ŋɔ˩˧ tei˨"] (vi dialect rules 2026-10-06)
     yue_nn: ["我哋", "ŋɔ˨˦ ti˨˨"], // was ["我哋", "ŋɔ˩˧ tei˨"] (r48 fix 2026-10-03)
     zh_cq: ["我们", "ŋo˦˨ mən"],

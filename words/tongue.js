@@ -291,7 +291,7 @@ WORDS.tongue = {
     km: ["អណ្ដាត", "ʔɑnˈɗaːt"],
     lo: ["ລີ້ນ", "liːn˥˨"],
     soa: ["ลิ้น", "lin˦˧"],
-    yo: ["ahọ́n", "ahɔ́n"],
+    yo: ["ahọ́n", "ahɔ̃́"],
     zu: ["ulimi", "ulimi"],
     am: ["ምላስ", "mɨlas"],
     aiw: ["adim", "adim"],

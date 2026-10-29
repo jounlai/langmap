@@ -845,7 +845,7 @@ WORDS.rainbow = {
     en_aave: ["rainbow", "ˈɹeɪnboʊ"],  // Rain + bow 'arch', inherited from Middle English reynbowe; English has no other everyday word for it.
     en_nz: ["rainbow", "ˈɹæenbɐʉ"],  // Rain + bow 'arch', the same word as in all English.
     en_au: ["rainbow", "ˈɹæɪnbəʉ"],  // Rain + bow 'arch', the same word as in all English.
-    af: ["reënboog", "ˈrɪənbʊəx"],  // Rain (reën) + bow (boog), inherited through Dutch regenboog from Proto-Germanic *regnabugô.
+    af: ["reënboog", "ˈrɪənbʊəχ"],  // Rain (reën) + bow (boog), inherited through Dutch regenboog from Proto-Germanic *regnabugô.
     de_at: ["Regenbogen", "ˈreːɡn̩boːɡn̩"],  // Regen 'rain' + Bogen 'bow, arch', from Old High German reginbogo.
     pdc: ["Reggeboge", "ˈrɛɡəboːɡə"],  // Regge 'rain' + Boge 'bow', like German Regenbogen.
     yi: ["רעגנבויגן", "ˈrɛɡn̩bɔɪ̯ɡn̩"],  // רעגן 'rain' + בויגן 'bow', from Middle High German regenboge.

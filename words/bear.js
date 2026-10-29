@@ -18,9 +18,9 @@
  * are 'old man'; Evenki амака is 'grandfather' beside the plain хомоты. Finnish has karhu 'the rough
  * one' and a whole wardrobe of circumlocutions (otso, mesikämmen 'honey-paw', kontio — the last of
  * which is what Karelian kondii and Veps kondi actually say). Khmer calls it ខ្លាឃ្មុំ 'honey tiger',
- * arriving at the Slavic idea independently. Ainu is the clearest case of all: the ordinary word is
- * イソ iso, but hunters would not use it and said kamuy 'god', or kimun kamuy 'mountain god', instead —
- * the same substitution Germanic made, caught in the act.
+ * arriving at the Slavic idea independently. Ainu names the bear kamuy 'god' or kimun kamuy
+ * 'mountain god' across Hokkaido; イソ iso is the Sakhalin word (Wiktionary, citing Chiri and Hattori
+ * 1964), so the Hokkaido-based row shows kimun kamuy.
  *
  * Deliberately sparse near the equator. Many languages have no inherited word for an animal their
  * speakers have never seen; where the only candidate is a recent loan the cell is left empty rather
@@ -1537,7 +1537,7 @@ WORDS.bear = {
     ude: ["мафа", "maɸa"], // was ["мафа", "mafa"] (vi dialect rules 2026-10-06)
 
     // --- Northeast Asia and the Arctic --------------------------------
-    // Ainu: iso is the everyday word, but hunters said kamuy 'god' instead.
+    // Ainu (Hokkaido): kamuy 'god' / kimun kamuy 'mountain god'; iso is the Sakhalin word (Wiktionary イソ).
     ain: ["キムンカムイ", "kimunkamuj"], // was ["イソ", "iso"] (vi dialect rules 2026-10-06)
     niv: ["чхыф", "tʃʰxɯf"], // was ["чхыф", "tʃʰxɤf"] (vi dialect rules 2026-10-06)
     ket: ["ӄой", "qɔj"], // was ["ӄой", "qoj"] (vi dialect rules 2026-10-06)

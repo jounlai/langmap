@@ -113,7 +113,7 @@ WORDS.daughter = {
 
     // --- Modern Europe --------------------------------------------------
     nl: ["dochter", "ˈdɔxtər"],
-    af: ["dogter", "ˈdɔxtər"],
+    af: ["dogter", "ˈdɔχtər"],
     sv: ["dotter", "ˈdɔtːɛr"],
     no: ["datter", "ˈdɑtːər"],
     nn: ["dotter", "ˈdɔtːər"],

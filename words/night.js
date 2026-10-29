@@ -430,7 +430,7 @@ WORDS.night = {
     en_nz: ["night", "nɑɪt"],
     en_au: ["night", "nɑɪt"],
     sco: ["nicht", "nɪçt"],
-    af: ["nag", "nax"],
+    af: ["nag", "naχ"],
     de_at: ["Nacht", "naxt"],
     gsw: ["Nacht", "naxt"],
     swg: ["Nacht", "naxt"],

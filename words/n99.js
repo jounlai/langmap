@@ -1425,7 +1425,7 @@ WORDS.n99 = {
     or: ["ଅନେଶତ", "ɔnesɔtɔ"], // was ["ଅନେଶୋତ", "ɔneʃotɔ"] (vi dialect rules 2026-10-06) // was ["ଅନେଶତ", "ɔneʃɔtɔ"] (vi dialect rules 2026-10-06)
     nci:   ["nāppōhualli oncaxtōlli onnāhui", "naːpːoːˈwalːi onkaʃˈtoːlːi onˈnaːwi"],
     mt:     ["disgħa u disgħin", "ˈdɪsa w dɪˈsɛjn"],
-    af:     ["nege-en-negentig", "ˈnɪəxə ən ˈnɪəxəntəx"],
+    af:     ["nege-en-negentig", "ˈnɪəχə ən ˈnɪəχəntəχ"],
     eo:     ["naŭdek naŭ", "ˈnaudek ˈnau"],
     sl:     ["devetindevetdeset", "dɛˈʋeːtindɛˈʋeːddɛsɛt"],  // r73: Slovene says unit-and-tens (SSKJ/en.wiktionary devetindevetdeset), route unit; was "devetdeset devet" (tens-first, the Croatian/Serbian order).
     sk: ["deväťdesiat deväť", "ˈɟɛvɛɟːɛsjat ˈɟɛvɛc"], // was ["deväťdesiat deväť", "ˈdɛvɛcdɛsɪat ˈdɛvɛc"] (vi dialect rules 2026-10-06)

@@ -566,6 +566,22 @@ WORDS.monday = {
     gag: "after",
     lbe: "count",
     saq: "count",
+    bnn: "count",
+    xal: "moon",
+    aae: "moon",
+    dur: "count",
+    iu: "after",
+    pon: "count",
+    rar: "moon",
+    tvl: "other",
+    pau: "count",
+    tcs: "moon",
+    tkr: "count",
+    an: "moon",
+    huv: "moon",
+    kmh: "moon",
+    ygr: "moon",
+    rtm: "moon",
   },
   routes: {
     moon: {"color":"#7c3aed","emoji":"🌙","en":"the moon's day","ja":"月の日","ko":"달의 날","zh":"月亮之日","yue":"月亮嘅日","vi":"ngày mặt trăng","th":"วันของดวงจันทร์","id":"hari bulan","hi":"चंद्रमा का दिन","de":"Tag des Mondes","fr":"jour de la lune","it":"giorno della luna","es":"día de la luna","pt":"dia da lua","ru":"день луны","uk":"день місяця","ar":"يوم القمر","he":"יום הירח","sw":"siku ya mwezi"},
@@ -1074,5 +1090,21 @@ WORDS.monday = {
     gag: ["pazertesi", "pazerteˈsi"],  // pazar 'Sunday' + ertesi 'the following day', 'the day after Sunday', like Turkish pazartesi. Route by resemblance to the neighbouring forms (tr(pazartesi) crh(bazarertesi)); no etymology of its own.
     lbe: ["итни", "itni"],  // The Lak name of Monday, the same word as Avar итни from Arabic al-ithnayn, 'the two'. Route by resemblance to the neighbouring forms (av(итни)); no etymology of its own.
     saq: ["Mderot ee kuni", "mderot ee kuni"],  // 'Day three': the Samburu week is numbered, with Sunday as day two (are) and Tuesday as day four (ong’wan).
+    bnn: ["asitasa", "asitasa"],  // asi- 'day of the week' + tasa 'one': the first numbered weekday, as asidusa 'Tuesday' is built on dusa 'two'.
+    xal: ["сарң өдр", "sarŋ ødr"],  // 'Day of the moon' (сарң, from сар 'moon', + өдр 'day'), the title of the Kalmyk Wikipedia article; NorthEuraLex records the Russian loan понедельник instead.
+    aae: ["e hënia", "e hənia"],  // Named after the moon (hënxa), as Albanian e hënë; the Arbëresh Wikipedia calls it the second day of the week and the first working day.
+    dur: ["àltìnì", "altini"],  // Borrowed from Fulfulde altine, the same loan as Wolof altine from Arabic al-ithnayn 'the two'; route by resemblance to that sourced neighbour.
+    iu: ["ᓇᒡᒐᔾᔭᐅ", "naɡːajːau"],  // Naggajjau, the word for the first day after the Sunday rest: in missionary times going back to work on Monday was felt as breaking the Sabbath taboo (Kenn Harper, Nunatsiaq News).
+    pon: ["Niehd", "nieːd"],  // Built on ehd 'one' of the counting series, like Niesil (Wednesday) on esil 'three' and Niepeng (Thursday) on epeng 'four'.
+    rar: ["Mōnitē", "moːniteː"],  // Borrowed from English Monday, "day of the Moon"; Aitutaki says Mōnirē and Mangaia Mana'a.
+    tvl: ["Aso Gafua", "aso ŋafua"],  // Aso 'day' + gafua, the same name as Samoan Aso Gafua. Route by resemblance to the neighbouring form (sm(Aso Gafua)); no etymology of its own.
+    pau: ["kot el ureor", "kot əl urːeoɾ"],  // Literally 'first work(day)': kot 'first' + el + ureor 'work'; Wednesday and Thursday are likewise Ongedei and Ongeuang el ureor, 'third' and 'fourth work'.
+    tcs: ["Mande", "mande"],  // Borrowed from English Monday, 'day of the Moon', as in Tok Pisin Mande.
+    tkr: ["итнайн", "itnajn"],  // The Arabic loan al-ithnayn, 'the two', as in Avar итни and Tabasaran итин. Route by resemblance to the neighbouring forms (av(итни) tab(итин)); no etymology of its own.
+    an: ["lunes", "ˈlunes"],  // From Latin Lūnae diēs, 'day of the Moon'; Tensino says luns and Benasque lluns.
+    huv: ["lunes", "lunes"],  // Borrowed from Spanish lunes, 'day of the Moon'; the next day is named the same way, martes.
+    kmh: ["madey", "madej"],  // Borrowed from English Monday, 'day of the Moon' (Pawley & Bulmer); Sunday is lotu, 'church service'.
+    ygr: ["Mate", "mate"],  // A loanword, marked as such by Renck, most of which come from Tok Pisin; it matches Tok Pisin Mande, from English Monday. Route by resemblance to the neighbouring form (tpi(Mande)); no etymology of its own.
+    rtm: ["Mạnre", "mɔnre"],  // Borrowed from English Monday (Churchward), 'day of the Moon'; also spelt Manre.
   },
 };

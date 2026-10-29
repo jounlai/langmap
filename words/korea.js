@@ -389,6 +389,24 @@ WORDS.korea = {
     to: "goryeo",
     bpy: "goryeo",
     gil: "goryeo",
+    gd: "goryeo",
+    kl: "goryeo",
+    lad: "goryeo",
+    crs: "goryeo",
+    bnn: "goryeo",
+    agr: "goryeo",
+    tar: "goryeo",
+    toj: "goryeo",
+    cuk: "goryeo",
+    se: "goryeo",
+    olo: "goryeo",
+    mwl: "goryeo",
+    tok: "hanguk",
+    tvl: "goryeo",
+    mi: "goryeo",
+    djk: "goryeo",
+    chk: "goryeo",
+    pon: "goryeo",
   },
   routes: {
     goryeo: {"color":"#16a34a","emoji":"🏺","en":"from Goryeo 高麗 (Korea, Corée, Корея)","ja":"高麗（コリョ）から（Korea, Corée, Корея）","ko":"고려(高麗)에서 (Korea, Corée, Корея)","zh":"源自高丽（Korea、Corée、Корея）","yue":"源自高麗（Korea、Corée、Корея）","vi":"từ Cao Ly 高麗 (Korea, Corée, Корея)","th":"จากโครยอ 高麗 (Korea, Corée, Корея)","id":"dari Goryeo 高麗 (Korea, Corée, Корея)","hi":"गोरयो 高麗 से (Korea, Corée, Корея)","de":"von Goryeo 高麗 (Korea, Corée, Корея)","fr":"de Goryeo 高麗 (Korea, Corée, Корея)","it":"da Goryeo 高麗 (Korea, Corée, Корея)","es":"de Goryeo 高麗 (Korea, Corée, Корея)","pt":"de Goryeo 高麗 (Korea, Corée, Корея)","ru":"от Корё 高麗 (Korea, Corée, Корея)","uk":"від Корьо 高麗 (Korea, Corée, Корея)","ar":"من كوريو 高麗 (Korea, Corée, Корея)","he":"מקוריו 高麗 (Korea, Corée, Корея)","sw":"kutoka Goryeo 高麗 (Korea, Corée, Корея)"},
@@ -717,5 +735,23 @@ WORDS.korea = {
     to: ["Kōlea", "koːlea"],  // Korea in Tongan; the Tongan Wikipedia titles its South Korea article Kōlea Tonga 'South Korea' and North Korea Kōlea Tokelau.
     bpy: ["কোরিয়া", "korija"],  // Korea in Bishnupriya Manipuri; the Bishnupriya Wikipedia titles its South Korea article খা কোরিয়া 'South Korea' and North Korea ঔয়াং কোরিয়া.
     gil: ["Korea", "koɾea"],  // Korea in Gilbertese, as in Jehovah's Witnesses' Kiribati 'i Seoul i Korea Maiaki' 'in Seoul, South Korea'.
+    gd: ["Coirèa", "kʰɔˈɾʲiə"],  // Scottish Gaelic Coirèa, stressed on the second syllable, is the international name from Goryeo 高麗; South Korea is Coirèa a Deas.
+    kl: ["Korea", "koʁea"],  // Greenlandic Korea is the international name from Goryeo 高麗; South Korea is Korea Kujalleq, 'southern Korea', and the Korean War is Koreami Sorsunneq.
+    lad: ["Korea", "koˈɾea"],  // Ladino Korea, written with k as in the Aki Yerushalayim spelling, is the international name from Goryeo 高麗; South Korea is Korea del Sud.
+    crs: ["Kore", "kɔre"],  // Seychellois Creole Kore comes from French Corée, the international name from Goryeo 高麗; South Korea is Sid Kore.
+    bnn: ["Kulia", "kulia"],  // Bunun Kulia is glossed 韓國 'South Korea' in the ILRDF Bunun dictionary.
+    agr: ["Corea", "koɾea"],  // Awajún uses Spanish Corea, the international name from Goryeo 高麗, with its own case endings: Corea Surnumia 'in South Korea'.
+    tar: ["Corea", "koɾea"],  // Rarámuri uses Spanish Corea, the international name from Goryeo 高麗; South Korea is Corea del Sur.
+    toj: ["Corea", "korea"],  // Tojolabal uses Spanish Corea, the international name from Goryeo 高麗, as in ja jmoj-aljeltik bʼa Corea 'our brothers of Korea'.
+    cuk: ["Corea", "koɾea"],  // Guna uses Spanish Corea, the international name from Goryeo 高麗, with the Guna locative -gi: Corea del Surgi 'in South Korea'.
+    se: ["Korea", "ˈkorea"],  // Korea in Northern Sámi; South Korea is Mátta-Korea or Lulli-Korea, North Korea Davvi-Korea.
+    olo: ["Korea", "ˈkorea"],  // Korea in Livvi; the Livvi Wikipedia names South Korea Korean tazavaldu 'Republic of Korea', or Korea, informally Suvi-Korea.
+    mwl: ["Coreia", "kuˈɾejɐ"],  // Korea in Mirandese; South Korea is Coreia de l Sul, the title of the Mirandese Wikipedia article.
+    tok: ["ma Anku", "ma anku"],  // Literally 'land Anku', Korean 한국 Hanguk fitted to Toki Pona sounds; North Korea is ma Soson, from 조선.
+    tvl: ["Kolea", "kolea"],  // Korea in Tuvaluan, with l for r, as in Jehovah's Witnesses' Tuvaluan publications; South Korea is Kolea ki Saute, North Korea Kolea ki Mātū.
+    mi: ["Kōrea", "koːɾea"],  // Kōrea, a loanword in Te Aka Māori Dictionary, which also lists Koria and Kōria; South Korea is Kōrea-ki-te-tonga 'Korea to the south' in the Māori Wikipedia.
+    djk: ["Korea", "korea"],  // Korea in Aukan, as in Jehovah's Witnesses' Aukan text 'aini Seoul, Korea'.
+    chk: ["Korea", "korea"],  // Korea in Chuukese, as in Jehovah's Witnesses' 'Chón Pwáraatá Jiowa lón Korea' 'Jehovah's Witnesses in Korea'; South Korea is South Korea.
+    pon: ["Korea", "korea"],  // Korea in Pohnpeian, also Wehin Korea 'the country of Korea', as in Jehovah's Witnesses' Pohnpeian texts.
   },
 };

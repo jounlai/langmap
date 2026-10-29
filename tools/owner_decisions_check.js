@@ -150,6 +150,7 @@ const DECISIONS = [
             // 2026-10-28: tomato 37 → 39 — new kpv and dtp cells expose koi and dtp_kzj (Coastal Kadazan); no source for either.
             // 2026-10-28: potato 32 → 33 — the new lij patàtta cell exposes lij_t (Tabarchino), with no source.
             // 2026-10-28: monday 21 → 22 — lij lunedì exposes lij_t likewise.
+            // 2026-10-29: korea 38 → 40 — new se Korea exposes smj and sms (Lule/Skolt Sámi); no sources.
             // 2026-10-29: greece 41 → 43 — new frr and nrf cells expose frr_amr (Öömrang) and nrf_gg (Guernésiais); no sources.
             // 2026-10-29: india 31 → 35 — 10k–100k round: new se, cr, nrf cells expose smj, sms (Lule/Skolt Sámi), crk (Plains Cree), nrf_gg (Guernésiais); no sources.
             // 2026-10-29: shootingstar 43 → 45 — new kpv and dtp cells expose koi (Komi-Permyak) and dtp_kzj (Coastal Kadazan); no sources.
@@ -168,7 +169,7 @@ const DECISIONS = [
             // 2026-10-29: germany 37 → 38 — new czh 德国 (Tunxi) exposes czh_wy (Wuyuan); no Wuyuan source for the name.
             // 2026-10-29: korea 36 → 37 — new lt Korėja exposes sgs (Samogitian); its Wikipedia has Kuoriejė but no stress source.
             // 2026-10-29: goosebumps 51 → 53 — new jv mrinding and hy cells expose jvn (Caribbean Javanese) and hyw (Western Armenian); no source for either.
-            const BUDGET = { lol: 0, turkey: 51, potato: 33, mobilephone: 49, hangover: 56, ladybird: 61, monday: 22, whale: 49, wisdomtooth: 55, cheers: 31, blessyou: 24, sunflower: 42, goosebumps: 53, octopus: 56, shootingstar: 45, jellyfish: 71, tomato: 39, pineapple: 49, adamsapple: 61, germany: 40, japan: 34, china: 29, korea: 38, india: 35, greece: 43, atsign: 30, blue: 5, cockcrow: 46, coffee: 25, computer: 8, cuckoo: 27, dopamine: 31, n99: 11, orange: 7, sugar: 11, sushi: 11, tea: 8, wifi: 26, woof: 29 };
+            const BUDGET = { lol: 0, turkey: 51, potato: 33, mobilephone: 49, hangover: 56, ladybird: 61, monday: 22, whale: 49, wisdomtooth: 55, cheers: 31, blessyou: 24, sunflower: 42, goosebumps: 53, octopus: 56, shootingstar: 45, jellyfish: 71, tomato: 39, pineapple: 49, adamsapple: 61, germany: 40, japan: 34, china: 29, korea: 40, india: 35, greece: 43, atsign: 30, blue: 5, cockcrow: 46, coffee: 25, computer: 8, cuckoo: 27, dopamine: 31, n99: 11, orange: 7, sugar: 11, sushi: 11, tea: 8, wifi: 26, woof: 29 };
             const bad = [];
             for (const f of fs.readdirSync(path.join(ROOT, 'words'))) {
                 if (!f.endsWith('.js') || !/partial:\s*true/.test(read('words/' + f))) continue;

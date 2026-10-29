@@ -424,6 +424,18 @@ WORDS.japan = {
     tok: "unknown",
     tvl: "europe",
     mwl: "europe",
+    tao: "unknown",
+    pyu: "unknown",
+    jbo: "unknown",
+    vep: "europe",
+    smn: "unknown",
+    dsb: "europe",
+    niu: "europe",
+    yap: "europe",
+    tsu: "unknown",
+    liv: "europe",
+    ssf: "hokkien",
+    tlh: "unknown",
   },
   routes: {
     nihon: {"color":"#dc2626","emoji":"☀️","en":"reads 日本 itself","ja":"漢字 日本 を自分で読む","ko":"한자 日本을 직접 읽음","zh":"自己读汉字\"日本\"","yue":"自己讀漢字「日本」","vi":"tự đọc chữ 日本","th":"อ่านอักษร 日本 เอง","id":"membaca aksara 日本 sendiri","hi":"日本 को ख़ुद पढ़ना","de":"liest 日本 selbst","fr":"lit 日本 lui-même","it":"legge 日本 da sé","es":"lee 日本 por sí mismo","pt":"lê 日本 por si","ru":"своё чтение 日本","uk":"власне читання 日本","ar":"يقرأ 日本 بنفسه","he":"קורא את 日本 בעצמו","sw":"husoma 日本 yenyewe"},
@@ -790,5 +802,17 @@ WORDS.japan = {
     tok: ["ma Nijon", "ma nijon"],  // Literally 'land Nijon', with Nijon fitted to Toki Pona sounds from Japanese Nihon; Toki Pona Wikipedia also mentions ma Nipon.
     tvl: ["Tiapani", "tiapani"],  // Japan in Tuvaluan, as used in Jehovah's Witnesses' Tuvaluan publications ('i Nagoya i Tiapani').
     mwl: ["Japon", "ʒaˈpõŋ"],  // Used with the article, l Japon, in the Mirandese Wikipedia; Mirandese -on matches Portuguese -ão (Japão).
+    tao: ["Ipong", "ipoŋ"],  // Japan in Tao (Yami), as in the ILRDF dictionary's example 'nimangay ko do Ipong' (I went to Japan).
+    pyu: ["Dripung", "ɖipuŋ"],  // Japan in Puyuma, glossed 'Dripung (日本)' in the ILRDF dictionary's examples.
+    jbo: ["pongu'e", "ponˈɡuhe"],  // A compound of ponjo 'Japanese' and gugde 'country'; ponjo is a cultural root made from Japanese Nippon.
+    vep: ["Japonii", "ˈjaponiː"],  // Borrowed from Russian Япония (Wiktionary); the title of the Veps Wikipedia article, officially Japonijan Valdkund.
+    smn: ["Jaapaan", "ˈjaːpaːn"],  // Jaapaan is the title of the Inari Sámi Wikipedia article on Japan.
+    dsb: ["Japańska", "ˈjapaɲska"],  // Japan in Lower Sorbian, with the country suffix -ska, as given by the German-Lower Sorbian Dictionary (DNW) and Lower Sorbian Wikipedia.
+    niu: ["Sapanī", "sapaniː"],  // Japan in Niuean, used in Niuean Jehovah's Witness publications (fonua Sapanī 'the country of Japan').
+    yap: ["Sapan", "sapan"],  // Japan in Yapese, as written in recent Yapese Jehovah's Witness publications (older ones keep the English spelling Japan).
+    tsu: ["maaya", "maaja"],  // Tsou maaya means both Japan and the Japanese; the ILRDF dictionary example 'mi'ocu i'nʉskʉ uhne maaya' means 'I have been to Japan once'.
+    liv: ["Japān", "ˈjɑpɑːn"],  // Livonian name for Japan, listed as a place name in the Livonian–Latvian–Estonian dictionary (livonian.tech).
+    ssf: ["Litpuun", "litpuun"],  // Borrowed from Taiwanese Hokkien 日本 Li̍t-pún (Wiktionary); the ILRDF Thao dictionary glosses Litpuun as 日本.
+    tlh: ["nIpon", "nɪpʰon"],  // Klingon nIpon 'Japan', made canon in the TalkNow Klingon course (2011).
   },
 };

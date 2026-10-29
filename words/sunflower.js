@@ -276,6 +276,25 @@ WORDS.sunflower = {
     nan_qz: "turn",
     nan_zz: "turn",
     nan_te: "plain",
+    cpx: "sun",
+    bs: "turn",
+    gl: "turn",
+    bjn: "sun",
+    lmo: "turn",
+    zza: "sun",
+    shn: "turn",
+    ace: "sun",
+    ga: "sun",
+    lv: "sun",
+    tcy: "sun",
+    kok: "sun",
+    kbd: "turn",
+    ngl: "turn",
+    mrw: "unknown",
+    li: "sun",
+    rgn: "turn",
+    cv: "turn",
+    av: "unknown",
   },
   routes: {
     turn: {"color":"#ea580c","emoji":"🔄","en":"turns to the sun","ja":"太陽に向く","ko":"해를 향함","zh":"朝向太阳","yue":"向住太陽","vi":"hướng về mặt trời","th":"หันตามดวงอาทิตย์","id":"menghadap matahari","hi":"सूरज की ओर मुड़ता","de":"dreht sich zur Sonne","fr":"se tourne vers le soleil","it":"si volta verso il sole","es":"se gira al sol","pt":"volta-se para o sol","ru":"поворачивается к солнцу","uk":"повертається до сонця","ar":"يتّجه نحو الشمس","he":"פונה אל השמש","sw":"hugeuka kuelekea jua"},
@@ -498,5 +517,24 @@ WORDS.sunflower = {
     nan_qz: ["向日葵", "hiɔŋ˦˩ lit˨˦ kui˨˦"],  // Quanzhou uses 向日葵 'facing the sun' rather than 日頭花.
     nan_zz: ["向日葵", "hiaŋ˨˩ dzit̚˩˨˩ kui˩˧"],  // Zhangzhou uses 向日葵 'facing the sun' rather than 日頭花.
     nan_te: ["葵花", "kʰui˥˥ hue˧˧"],  // 葵 'kui plant' (short for 向日葵) + 花 'flower'.
+    cpx: ["日头花", "tiʔ˦ tʰau˩˧ hua˥˧˧"],  // Literally sun flower: 日头 sun + 花 flower; Putian also says 向日葵, and Xianyou says 日头花.
+    bs: ["suncokret", "ˈsuntsokreːt"],  // Sunce sun + okretati to turn: the one that turns to the sun, the same word as in Croatian and Serbian.
+    gl: ["xirasol", "ʃiɾaˈsol"],  // Xira turns + sol sun; the Real Academia Galega dictionary describes its flower as turning toward the sun, and lists mirasol, catasol and tornasol as synonyms.
+    bjn: ["kambang matahari", "kambaŋ matahari"],  // Literally sun flower: kambang flower + matahari sun.
+    lmo: ["girasô", "dʒiraˈsu"],  // Gira turns + sô sun, Milanese for the sunflower, as in Italian girasole.
+    zza: ["vıla roci", "vɨla ɾodʒɪ"],  // Literally flower of the sun: vıl flower + -a (ezafe) + roc sun; also written vılaroci.
+    shn: ["မွၵ်ႇဝၢႆႇဝၼ်း", "mɔk˩ waːj˩ wan˥"],  // Literally flower that turns (toward) the sun: မွၵ်ႇ flower + ဝၢႆႇ to turn + ဝၼ်း sun; Shan Wiktionary defines it as the flower that turns whichever way the sun goes.
+    ace: ["bungong mata uroe", "buŋoŋ mata uroe"],  // Literally sun flower: bungong flower + mata uroe sun.
+    ga: ["lus na gréine", "l̪ˠusˠ n̪ˠə ˈɟɾʲeːnʲə"],  // Literally 'plant of the sun': lus 'plant, herb' + na gréine 'of the sun'.
+    lv: ["saulespuķe", "ˈsaulɛspucɛ"],  // Saules 'of the sun' + puķe 'flower'; saulgrieze 'sun-turner' is the botanical name.
+    tcy: ["ಸೂರ್ಯಕಾಂತಿ", "suːɾjakaːnti"],  // ಸೂರ್ಯ 'sun' + ಕಾಂತಿ 'radiance', the same word as in Kannada.
+    kok: ["सूर्यफूल", "suɾjəpʰul"],  // सूर्य 'sun' + फूल 'flower'; the Konkani Wikipedia says the name fits its sun-like round shape and its face kept towards the sun.
+    kbd: ["дыгъэгъазэ", "dəʁaʁaza"],  // Дыгъэ 'sun' + гъазэ 'turn', the same word as the winter solstice and December; сэхуран is also used.
+    ngl: ["shirasoole", "ʃiɾasoːle"],  // Resembles Portuguese girassol 'turn-sun'. Route by resemblance to the neighbouring forms (pt(girassol)); no etymology of its own.
+    mrw: ["maramanay", "maramanaj"],  // The Maranao word glossed 'sunflower' in the SIL Maranao dictionary; its make-up is not given.
+    li: ["zónnebloom", "ˈzɔnəbloːm"],  // Zón 'sun' + bloom 'flower', like Dutch zonnebloem.
+    rgn: ["ẓirasôl", "ziraˈsoːl"],  // Romagnol form of Italian girasole (girare 'turn' + sole 'sun'); route by resemblance to the Italian, as the Romagnol entry gives no etymology.
+    cv: ["хӗвелҫаврӑнӑш", "xɘvelˈʑavrənəʃ"],  // Хӗвел 'sun' + ҫаврӑн- 'turn round' (from ҫавӑр 'to twist, turn') + -ӑш: 'the sun-turner'.
+    av: ["бакъдебусс", "baqʼdebusː"],  // Built on бакъ 'sun'; the make-up of the rest of the word is not given by the source.
   },
 };

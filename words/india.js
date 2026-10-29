@@ -485,6 +485,17 @@ WORDS.india = {
     yan: "greek",
     tvl: "greek",
     meu: "greek",
+    gv: "greek",
+    tkl: "greek",
+    vep: "greek",
+    jbo: "unknown",
+    szy: "greek",
+    smn: "greek",
+    niu: "greek",
+    yap: "greek",
+    vo: "unknown",
+    liv: "greek",
+    tlh: "bharat",
   },
   routes: {
     greek: {"color":"#2563eb","emoji":"🏛️","en":"through Greek Ἰνδία, Latin India (India, Inde, Индия)","ja":"ギリシア語 Ἰνδία、ラテン語 India 経由（India, Inde, Индия）","ko":"그리스어 Ἰνδία, 라틴어 India를 거쳐 (India, Inde, Индия)","zh":"经希腊语 Ἰνδία、拉丁语 India（India、Inde、Индия）","yue":"經希臘文 Ἰνδία、拉丁文 India（India、Inde、Индия）","vi":"qua tiếng Hy Lạp Ἰνδία, Latin India (India, Inde, Индия)","th":"ผ่านกรีก Ἰνδία ละติน India (India, Inde, Индия)","id":"lewat Yunani Ἰνδία, Latin India (India, Inde, Индия)","hi":"यूनानी Ἰνδία, लैटिन India से होकर (India, Inde, Индия)","de":"über griechisch Ἰνδία, lateinisch India (India, Inde, Индия)","fr":"par le grec Ἰνδία, le latin India (India, Inde, Индия)","it":"attraverso il greco Ἰνδία, il latino India (India, Inde, Индия)","es":"por el griego Ἰνδία, el latín India (India, Inde, Индия)","pt":"pelo grego Ἰνδία, o latim India (India, Inde, Индия)","ru":"через греческое Ἰνδία, латинское India (India, Inde, Индия)","uk":"через грецьке Ἰνδία, латинське India (India, Inde, Индия)","ar":"عبر اليونانية Ἰνδία واللاتينية India (India, Inde, Индия)","he":"דרך היוונית Ἰνδία והלטינית India (India, Inde, Индия)","sw":"kupitia Kigiriki Ἰνδία, Kilatini India (India, Inde, Индия)"},
@@ -911,5 +922,16 @@ WORDS.india = {
     yan: ["India", "india"],  // India, as in the Sumo (Mayangna) Bible, Esther 1:1 and 8:9: India kaupak Etiopía kat 'from India to Ethiopia'.
     tvl: ["Initia", "initia"],  // Initia, India with Tuvaluan n and t, as in the revised Tuvaluan Bible, Esther 1:1 and 8:9.
     meu: ["India", "india"],  // India, as in the Motu Bible, Esther 1:1 and 8:9: India amo ela bona Etiopia 'from India to Ethiopia'.
+    gv: ["Injey", "ˈindʒə"],  // Injey, the Manx name of the country, used with the article as Yn Injey (Manx Wikipedia); the 1819 Manx Bible still writes India.
+    tkl: ["Initia", "initia"],  // Initia, India with Tokelauan n and t, as in the Tokelau Bible: mai Initia ki Efiopia 'from India to Ethiopia'.
+    vep: ["Indii", "ˈindiː"],  // Indii, borrowed from Russian Индия (Wiktionary), the title of the Veps Wikipedia article; officially Indijan Tazovaldkund.
+    jbo: ["xingu'e", "xinˈɡuhe"],  // xingu'e, a compound of xindo 'Indian' and gugde 'country', the Lojban Wikipedia title for India.
+    szy: ["India", "india"],  // India, the international name, the title of the Sakizaya Wikipedia article, which glosses it 印度.
+    smn: ["India", "ˈindia"],  // India, the Inari Sámi name of the country, officially India täsiväldi (Inari Sámi Wikipedia).
+    niu: ["Initia", "initia"],  // Initia, the Niuean name used in the Niue Standard Bible, which writes "mai i Initia ti hoko atu ki Aitiope" (from India to Ethiopia).
+    yap: ["India", "india"],  // India, the same as English, as in the Yapese Bible Ni Thothup, Esther 1:1 "nu India nge mada' nga Ethiopia" and 8:9 "u India me yan i mada' nga Sudan".
+    vo: ["Lindän", "linˈdɛn"],  // Lindän, formed with the Volapük country suffix -än; the Volapük Wikipedia titles its article on India Lindän.
+    liv: ["Indij", "ˈindij"],  // Indij, the Livonian name of the country, listed in the Livonian–Latvian–Estonian dictionary at livonian.tech alongside Indij okeān 'Indian Ocean'.
+    tlh: ["barat", "bɑrɑtʰ"],  // barat, borrowed from Hindi भारत Bhārat according to Wiktionary.
   },
 };

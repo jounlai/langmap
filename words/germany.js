@@ -449,6 +449,20 @@ WORDS.germany = {
     pap: "alemanni",
     arn: "alemanni",
     guc: "alemanni",
+    crs: "alemanni",
+    cuk: "alemanni",
+    toj: "alemanni",
+    tar: "alemanni",
+    cr: "other",
+    poh: "alemanni",
+    jiv: "alemanni",
+    pon: "germania",
+    djk: "deutsch",
+    rm: "germania",
+    tvl: "germania",
+    olo: "germania",
+    tok: "deutsch",
+    mwl: "alemanni",
   },
   routes: {
     deutsch: {"color":"#0891b2","emoji":"🗣️","en":"the Germans' own word","ja":"ドイツ人の自称","ko":"독일인의 자칭","zh":"德国人的自称","yue":"德國人嘅自稱","vi":"tên tự gọi của người Đức","th":"ชื่อที่ชาวเยอรมันเรียกตัวเอง","id":"sebutan orang Jerman sendiri","hi":"जर्मनों का अपना शब्द","de":"die Selbstbezeichnung","fr":"le nom que se donnent les Allemands","it":"il nome che si danno i tedeschi","es":"el nombre que se dan los alemanes","pt":"o nome que os alemães se dão","ru":"самоназвание немцев","uk":"самоназва німців","ar":"اسم الألمان لأنفسهم","he":"השם שהגרמנים קוראים לעצמם","sw":"jina la Wajerumani wenyewe"},
@@ -838,5 +852,19 @@ WORDS.germany = {
     pap: ["Alemania", "aleˈmanja"],  // Borrowed from Spanish Alemania, named after the Alamanni tribe.
     arn: ["Alemania", "alemanja"],  // The name Jehovah's Witnesses' Mapudungun publications use for Germany; no source found that names the donor.
     guc: ["Alemania", "alemania"],  // The name Jehovah's Witnesses' Wayuunaiki publications use for Germany; no source found that names the donor.
+    crs: ["Lalmanny", "lalmaɲ"],  // From French l'Allemagne with the article fused into the name, as in Lapolonny for Poland; the name used throughout Jehovah's Witnesses' Seychellois Creole publications.
+    cuk: ["Alemania", "alemania"],  // Germany in Guna, the Spanish name Alemania, which takes Guna suffixes (Alemaniagi 'in Germany'). Route by resemblance to Spanish Alemania.
+    toj: ["Alemania", "alemania"],  // Germany in Tojolabal, the Spanish name Alemania. Route by resemblance to Spanish Alemania.
+    tar: ["Alemania", "alemania"],  // Germany in Rarámuri, the Spanish name Alemania. Route by resemblance to Spanish Alemania.
+    cr: ["ᐲᐚᐱᐢᑿᐢᑐᑎᓂᓈᕽ", "piːwaːpiskwastotininaːhk"],  // Literally 'among the steel-helmets': the locative of pîwâpiskwastotin 'German person', built like mistikôsînâhk 'France'; mâyakwêsinâhk 'among the speakers of a foreign language' is also used.
+    poh: ["Alemania", "alemania"],  // Poqomchi' uses the Spanish name Alemania, as in its Jehovah's Witness publications ("ar Alemania", in Germany).
+    jiv: ["Alemania", "alemania"],  // Shuar uses the Spanish name Alemania, as in its Jehovah's Witness publications ("Alemania nunkanam", in the land of Germany).
+    pon: ["Sehmen", "seːmen"],  // Germany in Pohnpeian, as written in Jehovah's Witness publications ("nan Sehmen", in Germany); Pohnpei was a German colony from 1899 to 1914.
+    djk: ["Doisilikondee", "doisilikondeː"],  // Germany in Aukan, as written in Jehovah's Witness publications; kondee means 'country', as in Ingiisikondee 'England'.
+    rm: ["Germania", "dʒerˈmanja"],  // From Latin Germania; Germania is the normal name in Rumantsch Grischun, while Sursilvan, Sutsilvan and Surmiran also say Tiaratudestga, Tearatudestga and Tera tudestga, 'German land' (Names of Germany).
+    tvl: ["Siamani", "siamani"],  // Germany in Jehovah's Witnesses' Tuvaluan publications ("Au ne fanau i Berlin i Siamani", 'I was born in Berlin, Germany'); like Samoan Siamani, it is borrowed from English Germany.
+    olo: ["Germuanii", "ˈɡermuanii"],  // The Livvi Wikipedia article on Germany is titled Germuanii, and the VepKar dictionary glosses it 'Germany'; it is the Russian-type name from Latin Germania.
+    tok: ["ma Tosi", "ma tosi"],  // Literally 'land Tosi'; the Toki Pona Wikipedia article ma Tosi gives Deutschland as the source name, and the language is toki Tosi from Deutsch.
+    mwl: ["Almanha", "alˈmaɲɐ"],  // The Mirandese Wikipedia article on Germany is titled Almanha; like Portuguese Alemanha it names the Alamanni tribe.
   },
 };

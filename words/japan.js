@@ -372,6 +372,39 @@ WORDS.japan = {
     bug: "hokkien",
     sid: "europe",
     bci: "europe",
+    tly: "europe",
+    dty: "europe",
+    pcd: "europe",
+    kea: "europe",
+    quy: "europe",
+    tzh: "europe",
+    kek: "europe",
+    nia: "hokkien",
+    gaa: "europe",
+    lus: "europe",
+    loz: "europe",
+    iso: "europe",
+    fj: "europe",
+    pap: "europe",
+    nch: "europe",
+    pis: "europe",
+    fur: "europe",
+    wa: "europe",
+    pnt: "europe",
+    ng: "europe",
+    lue: "europe",
+    rcf: "europe",
+    urh: "europe",
+    mam: "europe",
+    cak: "europe",
+    br: "europe",
+    to: "europe",
+    lbe: "europe",
+    bi: "europe",
+    bpy: "europe",
+    cab: "europe",
+    gym: "europe",
+    bzj: "europe",
   },
   routes: {
     nihon: {"color":"#dc2626","emoji":"☀️","en":"reads 日本 itself","ja":"漢字 日本 を自分で読む","ko":"한자 日本을 직접 읽음","zh":"自己读汉字\"日本\"","yue":"自己讀漢字「日本」","vi":"tự đọc chữ 日本","th":"อ่านอักษร 日本 เอง","id":"membaca aksara 日本 sendiri","hi":"日本 को ख़ुद पढ़ना","de":"liest 日本 selbst","fr":"lit 日本 lui-même","it":"legge 日本 da sé","es":"lee 日本 por sí mismo","pt":"lê 日本 por si","ru":"своё чтение 日本","uk":"власне читання 日本","ar":"يقرأ 日本 بنفسه","he":"קורא את 日本 בעצמו","sw":"husoma 日本 yenyewe"},
@@ -686,5 +719,38 @@ WORDS.japan = {
     bug: ["Jepang", "dʒəpaŋ"],  // Buginese name for Japan, written ᨍᨛᨄ in Lontara; Said's dictionary illustrates it with 'three years Japan ruled in Indonesia'.
     sid: ["Jaappaane", "dʒaːpːaːne"],  // Japan in Sidama, as written in Jehovah's Witnesses' Sidama publications ('Hakkiinni 1987 Jaappaane haꞌrummo', 'in 1987 I went to Japan').
     bci: ["Japɔn", "dʒapɔ̃"],  // Japan in Baoulé, as written in Jehovah's Witnesses' Baoulé publications ('Japɔn lɔfuɛ', 'the Japanese').
+    tly: ["Japonijə", "japonijə"],  // Japonijə is the title of the Talysh Wikipedia article on Japan, close to Russian Япония.
+    dty: ["जापान", "dʒaːpaːn"],  // जापान is the title of the Doteli Wikipedia article on Japan, the same form as Nepali and Hindi जापान.
+    pcd: ["Japon", "ʒapɔ̃"],  // Japon is the title of the Picard Wikipedia article on Japan, the same spelling as French Japon.
+    kea: ["Japon", "ʒaˈpɔ̃"],  // Japon is Japan in Unicode CLDR's Kabuverdianu locale and in Kabuverdianu JW publications ('Skritóriu di Tistimunhas di Jeová na Japon').
+    quy: ["Japón", "haˈpon"],  // Japón is the name used in Ayacucho Quechua JW publications ('Japón nacionpi') and in Unicode CLDR's Quechua locale, written as in Spanish.
+    tzh: ["Japón", "hapon"],  // Japón is the name used in Tzeltal JW publications ('ta Betel yuʼun Japón'), written as in Spanish.
+    kek: ["Japon", "χapon"],  // Japon is the name used in Qʼeqchiʼ JW publications ('jun li winq re Japon').
+    nia: ["Jepang", "dʒepaŋ"],  // Jepang is the title of the Nias Wikipedia article on Japan and the name used in Nias JW publications, the same as Indonesian Jepang.
+    gaa: ["Japan", "dʒapan"],  // Japan is the name used in Ga JW publications ('Yehowa Odasefoi ni yɔɔ Japan'), spelt as in English.
+    lus: ["Japan", "dʒapan"],  // Japan is the name used in Mizo JW publications ('Japan Rama Bible', 'Japan ṭawng' for Japanese), spelt as in English.
+    loz: ["Japan", "dʒapan"],  // Japan is the name used in Silozi JW publications ('Bibele Mwa Japan', 'naha ya Japan'), spelt as in English.
+    iso: ["Japan", "dʒapan"],  // Japan is the name used in Isoko JW publications ('Isẹri Jihova nọ e rrọ Japan', 'ofẹ Japan'), spelt as in English.
+    fj: ["Japani", "tʃapani"],  // Borrowed from English Japan (Wiktionary); the Fijian Wikipedia article is titled Japani.
+    pap: ["Hapon", "haˈpon"],  // Papiamentu's name for Japan, as in the Papiamentu Wikipedia and CLDR; no source found that names the donor.
+    nch: ["Japón", "haˈpon"],  // Central Huasteca Nahuatl writes the name Japón (Wiktionary); no source found that names the donor.
+    pis: ["Japan", "dʒapan"],  // Pijin's name for Japan, as in the Solomon Islands Pijin dictionary; no source found that names the donor.
+    fur: ["Gjapon", "ɟaˈpɔŋ"],  // Friulian Wikipedia's name for Japan, also the CLDR Friulian name.
+    wa: ["Djapon", "dʒaˈpɔ̃"],  // Walloon Wikipedia's name for Japan ('Li Djapon, c' est on payis d' Azeye').
+    pnt: ["Ιαπωνία", "iapoˈnia"],  // Pontic Greek Wikipedia's name for Japan, the same as Standard Greek Ιαπωνία.
+    ng: ["Japani", "dʒapani"],  // Japan in Ndonga, as used in Jehovah's Witnesses' Ndonga publications ('Kenji, Japani').
+    lue: ["Japan", "dʒapan"],  // Japan in Luvale, as used in Jehovah's Witnesses' Luvale publications ('lifuchi lya Japan', 'muJapan').
+    rcf: ["Japon", "ʒapɔ̃"],  // Japan in Réunion Creole, as used in Jehovah's Witnesses' Réunion Creole publications ('Mon bann paran la kit Japon').
+    urh: ["Japan", "dʒapan"],  // Japan in Urhobo, as used in Jehovah's Witnesses' Urhobo publications ('vwẹ Tokyo, Japan').
+    mam: ["Japón", "χaˈpon"],  // Japan in Mam, the Spanish form Japón, as used in Jehovah's Witnesses' Mam publications ('Tokio toj tnam Japón').
+    cak: ["Japón", "xaˈpon"],  // Japan in Kaqchikel, the Spanish form Japón, as used in Jehovah's Witnesses' Kaqchikel publications ('Tokio (Japón)').
+    br: ["Japan", "ˈʒapɑ̃n"],  // Borrowed from English Japan (Wiktionary).
+    to: ["Siapani", "siapani"],  // Tongan Wikipedia's name for Japan.
+    lbe: ["Япония", "japonija"],  // Lak Wikipedia's name for Japan, the same spelling as Russian Япония.
+    bi: ["Japan", "dʒapan"],  // Bislama Wikipedia's name for Japan ('Japan i kaontri long Esia').
+    bpy: ["জাপান", "dʒapan"],  // Bishnupriya Manipuri Wikipedia's name for Japan, the same form as Bengali জাপান.
+    cab: ["Hapón", "haˈpon"],  // Japan in Garifuna, as written in Jehovah's Witnesses' Garifuna publications ('Tokio (Hapón)').
+    gym: ["Japón", "hapon"],  // Japan in Ngäbere, as written in Jehovah's Witnesses' Ngäbere publications ('juta Japón', 'Nagoya (Japón)').
+    bzj: ["Japan", "dʒapan"],  // Japan in Belize Kriol, as written in Jehovah's Witnesses' Kriol publications ('da Tokyo, Japan').
   },
 };

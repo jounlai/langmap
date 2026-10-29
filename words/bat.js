@@ -587,6 +587,22 @@ WORDS.bat = {
     agu: "plain",
     mix: "unknown",
     ers: "unknown",
+    liv: "mouse",
+    vot: "unknown",
+    ssf: "unknown",
+    smn: "other",
+    tsi: "unknown",
+    kwk: "unknown",
+    arp: "other",
+    mus: "unknown",
+    tsu: "unknown",
+    tao: "unknown",
+    pyu: "unknown",
+    vep: "unknown",
+    niu: "plain",
+    moh: "unknown",
+    ruq: "plain",
+    bzd: "unknown",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1119,5 +1135,21 @@ WORDS.bat = {
     agu: ["sotzʼ", "sotsʼ"],  // Inherited from Proto-Mayan *sootzʼ 'bat', like Kʼicheʼ and Mam sotzʼ.
     mix: ["tikuchi", "t̪ikùtʃí"],  // The Mixtepec Mixtec word for the bat; an older record by Pike and Ibach (1978) begins it with tsi-.
     ers: ["jisui", "ji˥˥sui˥˥"],  // The Ersu word for the bat, as recorded by Sun Hongkai.
+    liv: ["īeīr", "ˈiːeiːr"],  // Literally 'night mouse': īe 'night' plus īr 'mouse'.
+    vot: ["nahkatiiru", "ˈnahkatiːru"],  // The Votic word for the bat, with nahka 'leather' as its first part, like Estonian nahkhiir.
+    ssf: ["baprak", "baprak"],  // The Thao word for the bat, as in isa hulus a tanaraus ianan baprak latata 'there is a bat under the clothes'.
+    smn: ["nähkisuájá", "ˈnæhkisuaja"],  // Literally 'skin wing': nähki 'skin, leather' plus suájá 'wing'.
+    tsi: ["dza̱g̱a̱da̱xtxaaył", "dzʌɢʌdʌχtχaːjɬ"],  // The Sm'algyax word for the bat, from Dunn's Practical Dictionary of Coast Tsimshian; g̱a̱ba̱laas is also recorded.
+    kwk: ["baḵ̕wa̱lawi", "baqʼʷəlawi"],  // The Kwak'wala word for the bat, recorded by Lorraine Hunt.
+    arp: ["woséín3eʼenéíhii", "woséínθeʔenéíhiː"],  // Roughly 'the brown, ugly or worn-out winged one'; an Arapaho story tells how the bat sided with the animals against the birds.
+    mus: ["takfvlelēskv", "takfəlilíːskə"],  // The Muscogee word for the bat (the animal), as recorded in Martin and Mauldin's dictionary.
+    tsu: ["kupica", "kupitsa"],  // The Tsou word for the bat.
+    tao: ["panici", "panitɕi"],  // The Yami (Tao) word for the bat; the dictionary also lists peypeynget for a small bat species.
+    pyu: ["balakenitr", "baɭakəniʈ"],  // The Puyuma word for the bat, which the dictionary also gives for a black umbrella.
+    vep: ["öläpäkaine", "ˈølæpækaine"],  // The Veps word for the bat, glossed 'bat (flying mouse)' in the VepKar dictionary.
+    niu: ["peka", "peka"],  // Inherited from Proto-Oceanic *bʷeka 'fruit bat, flying fox'; the flying fox is Niue's bat, and the Niue Bible uses peka for the bat.
+    moh: ["tsikeraʼwíhstak", "dziɡeraʔwíhstak"],  // The Mohawk word for the bat; the Six Nations list also gives yakohónhtariks, and the Mohawk Bible ends the unclean birds of Leviticus 11:13-19 with the related form tsiʼkerawístiks.
+    ruq: ["lilic", "liˈlik"],  // Borrowed from Turkish, like Aromanian liliac; Capidan's example is a folk cure: if you cough, catch a bat and spit three times into its mouth.
+    bzd: ["dakúr", "dakúɾ"],  // The Bribri word for the bat (also dukúr); Bribri files bats under dù, a class wider than 'bird' that takes in other flying animals.
   },
 };

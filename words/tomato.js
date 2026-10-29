@@ -484,6 +484,32 @@ WORDS.tomato = {
     olo: "unknown",
     krl: "unknown",
     mix: "unknown",
+    chr: "nahuatl",
+    szy: "unknown",
+    pyu: "unknown",
+    tao: "unknown",
+    vep: "unknown",
+    smn: "unknown",
+    sma: "nahuatl",
+    pqm: "nahuatl",
+    arp: "other",
+    lkt: "other",
+    chy: "other",
+    jbo: "unknown",
+    vo: "nahuatl",
+    liv: "nahuatl",
+    vot: "apple",
+    tlh: "unknown",
+    dsb: "unknown",
+    moh: "unknown",
+    mus: "unknown",
+    atj: "unknown",
+    tsu: "unknown",
+    ium: "unknown",
+    mic: "unknown",
+    usp: "unknown",
+    yap: "nahuatl",
+    car: "nahuatl",
   },
   routes: {
     nahuatl: {"color":"#dc2626","emoji":"🌽","en":"from Nahuatl tomatl","ja":"ナワトル語 tomatl から","ko":"나우아틀어 tomatl에서","zh":"源自纳瓦特尔语 tomatl","yue":"源自納瓦特爾語 tomatl","vi":"từ tiếng Nahuatl tomatl","th":"จากภาษานาวัตล์ tomatl","id":"dari bahasa Nahuatl tomatl","hi":"नाहुआत्ल tomatl से","de":"aus Nahuatl tomatl","fr":"du nahuatl tomatl","it":"dal nahuatl tomatl","es":"del náhuatl tomatl","pt":"do náuatle tomatl","ru":"из науатль tomatl","uk":"з науатль tomatl","ar":"من الناواتلية tomatl","he":"מנאוואטל tomatl","sw":"kutoka Kinahuatl tomatl"},
@@ -912,5 +938,31 @@ WORDS.tomato = {
     olo: ["pomidor", "ˈpomidor"],  // Glossed Russian помидор, томат in the VepKar dictionary of Livvi; the source gives no etymology.
     krl: ["pomidora", "ˈpomidorɑ"],  // Glossed Russian помидор (plant and fruit) in the VepKar dictionary of Karelian Proper; the source gives no etymology.
     mix: ["tinana", "t̪ínānǎ"],  // A native Mixtec word glossed 'tomato' / 'tomate'; the source gives no etymology.
+    chr: ["ᏔᎹᏟ", "tamatli"],  // Borrowed from Nahuatl tomatl; the Overhill (Oklahoma) word, while Middle Cherokee says ᎤᏁᎫᎯᏍᏗ.
+    szy: ["kamulaw", "kamulaw"],  // The Sakizaya word for the tomato; mikamulaw is 'to pick tomatoes'.
+    pyu: ["kanabinabitan", "kanabinabitan"],  // The Puyuma word for the tomato, as in the dictionary example 'tomatoes now come in all colours'.
+    tao: ["tamato", "tamato"],  // The Tao (Yami) word for the tomato; the source gives no etymology.
+    vep: ["tomat", "ˈtomat"],  // The Veps Wikipedia's word for the tomato, plural tomatad.
+    smn: ["toomaat", "ˈtoːmaːt"],  // The Inari Sámi Wikipedia uses toomaat both for the plant and for its fruit.
+    sma: ["tomaate", "ˈtomaːtɛ"],  // A loan of Norwegian tomat, which goes back through Spanish tomate to Nahuatl tomatl.
+    pqm: ["tomehtus", "tomehtus"],  // Borrowed from English tomato, which goes back through Spanish tomate to Nahuatl tomatl.
+    arp: ["yéinoʼ", "jéinoʔ"],  // The Arapaho word for rose hips, also used for the tomato.
+    lkt: ["uŋžíŋžiŋtka", "ũʒĩ́ʒĩtka"],  // The Lakota word for rose hips, also used for the tomato; the Rosebud River is Uŋžíŋžiŋtka Wakpá.
+    chy: ["henēne", "henene"],  // An old Algonquian rose-hip word, which Cheyenne also uses for the tomato; ketchup is henenéenȧhéno 'tomato gravy'.
+    jbo: ["tamca", "ˈtamʃa"],  // A root word (gismu) of Lojban: 'x1 is a tomato [fruit/vegetable/plant] of species/strain x2'.
+    vo: ["tomat", "toˈmat"],  // Ultimately from Spanish tomate, from Nahuatl tomatl.
+    liv: ["tomāt", "ˈtomɑːt"],  // Borrowed from Latvian tomāts, which goes back through German Tomate and Spanish tomate to Nahuatl tomatl.
+    vot: ["pomidora", "pomiˈdora"],  // Borrowed from Russian помидор, from Italian pomi d'oro 'golden apples'.
+    tlh: ["tomat naH", "tʰomɑtʰ nɑx"],  // The Klingon word for tomato taught in the Okrand-approved EuroTalk Talk Now Klingon course; it has not been used in a canon sentence.
+    dsb: ["tomata", "ˈtɔmata"],  // Glossed German Tomate in the German–Lower Sorbian dictionary; the source gives no etymology.
+    moh: ["ohiakháhon", "ohjakháhon"],  // Listed as 'tomato' in the FirstVoices Kanien'kéha dictionary, which gives no etymology.
+    mus: ["tomatv", "tomáːtə"],  // Glossed 'tomato' in the Webonary Muscogee dictionary, pronounced tomá:ta; the source gives no etymology.
+    atj: ["ritamate", "ritamate"],  // The Atikamekw Wikipedia's article on the tomato is titled Ritamate, and its Manawan section writes ritamat; no etymology is given.
+    tsu: ["tapeinʼa", "tapeinʔa"],  // Glossed 蕃茄 'tomato' in the ILRDF Tsou dictionary, which gives no etymology.
+    ium: ["biouv-gomh", "piou˦kom˧˩"],  // Listed as 'tomato' in the LearnMien Iu Mien dictionary; biouv is the word for fruit, and the source gives no etymology for the whole.
+    mic: ["tmatoʼs", "dəmadoːs"],  // Glossed 'tomato' in the Mi'gmaq/Mi'kmaq Online Talking Dictionary (plural tmatoʼsg); the source gives no etymology.
+    usp: ["pix", "piʃ"],  // An inherited Mayan word: Kaufman traces Uspanteko pix to Proto-Mayan *pixp 'tomato', and joqʼ pix is the husk tomato.
+    yap: ["toomaatoo", "toːmaːtoː"],  // Borrowed from English tomato, which goes back through Spanish tomate to Nahuatl tomatl.
+    car: ["tomati", "tomati"],  // Borrowed from Sranan tomati and Dutch tomaat, which go back through Spanish tomate to Nahuatl tomatl.
   },
 };

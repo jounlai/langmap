@@ -405,6 +405,25 @@ WORDS.japan = {
     cab: "europe",
     gym: "europe",
     bzj: "europe",
+    tay: "hokkien",
+    bnn: "hokkien",
+    kl: "europe",
+    vro: "europe",
+    crs: "europe",
+    emp: "europe",
+    tar: "europe",
+    toj: "europe",
+    mzh: "europe",
+    pbb: "europe",
+    ch: "europe",
+    trv: "nihon",
+    lld: "europe",
+    djk: "europe",
+    pon: "europe",
+    olo: "europe",
+    tok: "unknown",
+    tvl: "europe",
+    mwl: "europe",
   },
   routes: {
     nihon: {"color":"#dc2626","emoji":"☀️","en":"reads 日本 itself","ja":"漢字 日本 を自分で読む","ko":"한자 日本을 직접 읽음","zh":"自己读汉字\"日本\"","yue":"自己讀漢字「日本」","vi":"tự đọc chữ 日本","th":"อ่านอักษร 日本 เอง","id":"membaca aksara 日本 sendiri","hi":"日本 को ख़ुद पढ़ना","de":"liest 日本 selbst","fr":"lit 日本 lui-même","it":"legge 日本 da sé","es":"lee 日本 por sí mismo","pt":"lê 日本 por si","ru":"своё чтение 日本","uk":"власне читання 日本","ar":"يقرأ 日本 بنفسه","he":"קורא את 日本 בעצמו","sw":"husoma 日本 yenyewe"},
@@ -752,5 +771,24 @@ WORDS.japan = {
     cab: ["Hapón", "haˈpon"],  // Japan in Garifuna, as written in Jehovah's Witnesses' Garifuna publications ('Tokio (Hapón)').
     gym: ["Japón", "hapon"],  // Japan in Ngäbere, as written in Jehovah's Witnesses' Ngäbere publications ('juta Japón', 'Nagoya (Japón)').
     bzj: ["Japan", "dʒapan"],  // Japan in Belize Kriol, as written in Jehovah's Witnesses' Kriol publications ('da Tokyo, Japan').
+    tay: ["Gipun", "ɡipun"],  // Borrowed from Taiwanese Hokkien 日本 Gi̍t-pún (Wiktionary).
+    bnn: ["Lipung", "lipuŋ"],  // Bunun name for Japan, also used for the Japanese; Lipuun is a variant form.
+    kl: ["Japani", "japani"],  // Greenlandic name for Japan; a Japanese person is Japanimiu.
+    vro: ["Jaapan", "ˈjɑːpɑn"],  // Võro name for Japan, spelled as in Estonian.
+    crs: ["Zapon", "zapɔ̃"],  // Seychellois Creole name for Japan; the Japanese are Zaponnen.
+    emp: ["Japón", "hapon"],  // Northern Emberá writes Japan with the Spanish spelling Japón, read with Emberá j = h.
+    tar: ["Japón", "hapon"],  // Rarámuri uses the Spanish name Japón, read with Rarámuri j = h.
+    toj: ["Japón", "hapon"],  // Tojolabal uses the Spanish name Japón, read with Tojolabal j = h.
+    mzh: ["Japón", "xapon"],  // Wichí uses the Spanish name Japón, read with Wichí j = [x].
+    pbb: ["Japon", "xapon"],  // Nasa Yuwe writes Japan as Japon, from Spanish Japón, with Nasa j = [x].
+    ch: ["Chapan", "ˈtʃapan"],  // Chamorro name for Japan, taken from English under American rule; earlier Chamorro used the Spanish japonés for 'Japanese'.
+    trv: ["Nihung", "nihuŋ"],  // Truku name for Japan; a Japanese person is mkNihung.
+    lld: ["Iapan", "jaˈpan"],  // Ladin name for Japan, also the CLDR Ladin name.
+    djk: ["Yapan", "japan"],  // Aukan name for Japan, as used in Jehovah's Witness publications; Japanese is Yapantongo.
+    pon: ["Sapahn", "sapaːn"],  // Pohnpeian name for Japan, borrowed from English Japan (Rehg's Pohnpeian dictionary).
+    olo: ["Japounii", "ˈjapouniː"],  // Borrowed from Russian Япония; it is the title of the Livvi Wikipedia article on Japan.
+    tok: ["ma Nijon", "ma nijon"],  // Literally 'land Nijon', with Nijon fitted to Toki Pona sounds from Japanese Nihon; Toki Pona Wikipedia also mentions ma Nipon.
+    tvl: ["Tiapani", "tiapani"],  // Japan in Tuvaluan, as used in Jehovah's Witnesses' Tuvaluan publications ('i Nagoya i Tiapani').
+    mwl: ["Japon", "ʒaˈpõŋ"],  // Used with the article, l Japon, in the Mirandese Wikipedia; Mirandese -on matches Portuguese -ão (Japão).
   },
 };

@@ -398,6 +398,31 @@ WORDS.littlefinger = {
     cni: "unknown",
     nhx: "child",
     pon: "small",
+    niu: "child",
+    rap: "unknown",
+    dsb: "small",
+    mus: "child",
+    yap: "unknown",
+    atj: "unknown",
+    gv: "small",
+    kw: "small",
+    tkl: "unknown",
+    pyu: "unknown",
+    smn: "unknown",
+    chr: "small",
+    chy: "small",
+    ia: "other",
+    stq: "plain",
+    aqc: "small",
+    ykg: "unknown",
+    mns: "unknown",
+    vot: "small",
+    tlh: "plain",
+    sjd: "unknown",
+    yur: "small",
+    kwk: "unknown",
+    tsi: "small",
+    koy: "unknown",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -741,5 +766,30 @@ WORDS.littlefinger = {
     cni: ["tsonoitintsi", "tsonoitintsi"],  // The Asháninka word for the little finger, in its unpossessed form with the body-part ending -ntsi.
     nhx: ["iseliꞌmájpil", "iseliʔˈmahpil"],  // 'His/her little finger', the possessed form the dictionary lists: seliꞌ 'tender, young' + májpil 'finger'; the thumb is huêmájpil, the 'big finger'.
     pon: ["senditik", "senditik"],  // Built on send 'finger' with tik 'small' (as in tikitik 'small, little'); the Pohnpeian Bible uses it in 1 Kings 12:10, 'Senditikiet ahlapasang lukopen ei pahpao'.
+    niu: ["matalima tama", "matalima tama"],  // Literally 'child finger' (matalima 'finger' + tama 'child'), the partner of matalima motua 'parent finger' for the thumb; the Niuean Bible has 'Kua mua he lahi e matalima tama haku ke he tokupu he haku matua' (1 Kings 12:10).
+    rap: ["ko manara", "ko manaɾa"],  // The Rapa Nui name of the little finger, listed with ko maniri for the ring finger; ko is the particle that goes before names.
+    dsb: ["mały palc", "mawɨ palts"],  // Literally 'small finger' (mały 'small' + palc 'finger'); Muka's dictionary also gives małki palc.
+    mus: ["enk-eccuswuce", "iŋkitʃːoswotʃí"],  // Literally 'hand's little child' (enke 'hand' + eccuswv 'her child' + the diminutive -uce); the little toe is likewise ele-eccuswuce, 'foot's little child'.
+    yap: ["yuurchul", "juːrtʃul"],  // A word of its own for the little finger; the Yapese dictionary defines it as 'the finger of the hand that is small'.
+    atj: ["otcitcicic", "otʃitʃiʃiʃʷ"],  // The Atikamekw name of the little finger, recorded from a speaker in Manawan.
+    gv: ["mair veg", "meːr veɡ"],  // Literally 'small finger' (mair 'finger' + veg, the lenited form of beg 'small'); the 1819 Manx Bible has 'Bee my vair-veg ny s'chee na slheeasid my ayrey' (1 Kings 12:10).
+    kw: ["bys byghan", "bɪz ˈbɪxən"],  // Literally 'small finger' (bys 'finger' + byghan 'small'); the Kernewek Bible has 'Ow bys byghan yw tewa ages diwglun ow thas' (1 Kings 12:10).
+    tkl: ["muamuālima tama", "muamuaːlima tama"],  // muamuālima 'finger' + tama, which Simona's dictionary gives both as 'child' and, before a noun, as 'small'; the Tokelau Bible has 'Ko toku muamuālima tama e fuaefa atu i lo te puimanava o toku tamana!' (1 Kings 12:10).
+    pyu: ["kalringisan", "kaliŋisan"],  // The Puyuma (Nanwang) word for the little finger, glossed 小指 in the ILRDF online dictionary, beside atrengalran for the thumb.
+    smn: ["čeelhišm", "ˈtʃeːlhiʃm"],  // The Inari Sámi word for the little finger, related to Northern Sámi čelččen; the Giellatekno dictionary also lists the variant čeelhišn.
+    chr: ["ᎤᏍᏗ ᎦᏰᏌᏛ", "usdi ɡajesatə̃"],  // Literally 'small finger' (ᎤᏍᏗ usdi 'small' + ᎦᏰᏌᏛ 'finger'), the partner of ᎤᏔᏂ ᎦᏰᏌᏛ utani gayesatv 'big finger' for the thumb.
+    chy: ["tšėškeʼemoʼēško", "tʃeʃkeʔemoʔeʃko"],  // Literally 'small finger' (tšėške'- 'small' + mo'ēško 'finger'); the Cheyenne Dictionary calls it probably a loan translation by the missionary Petter.
+    ia: ["digito auricular", "ˈdiɡito auriˈkular"],  // The 'ear finger', from auricula 'ear'; the Interlingua-English Dictionary allows plain auricular for short.
+    stq: ["Pink", "pɪŋk"],  // A word of its own, related to Dutch pink 'little finger'.
+    aqc: ["тӏиттуб гон", "tʼitːub ɡon"],  // Literally 'small finger' (тӏиттут 'small, little', here in the gender-III form тӏиттуб agreeing with гон 'finger'); children say хӏокӏоттут гон.
+    ykg: ["лайарисха", "lajarisxa"],  // The Tundra Yukaghir word for the little finger, from a Proto-Yukaghir stem *laja- (Nikolaeva 2006).
+    mns: ["сырах тулё̄выл", "sirax tuʎoːwəl"],  // сырах + тулё̄выл 'finger', beside па̄я тулё̄выл for the thumb; the sources do not explain сырах.
+    vot: ["peen-sõrmi", "ˈpeːnsɤrmi"],  // Literally 'small finger' (peen 'small' + sõrmi 'finger'); other villages say pieni sõrmi or pikkarain sõrmi.
+    tlh: ["qanwI'", "qʰɑnwɪʔ"],  // Literally 'thing that uses the pinkie', from the verb qan 'use the little finger' plus -wI'; each Klingon finger has such a name (SenwI' 'thumb', SIqwI' 'index finger').
+    sjd: ["черькешне", "tʃerʲkʲeʃnʲe"],  // Kildin Sámi's own word for the little finger; Kert and Antonova also list the variant черкешна (черькешнаа).
+    yur: ["cheyketew", "tʃejketew"],  // Made of cheyk- 'small' and -etew 'finger'; the dictionary also records kerrmerterw and, from Georgiana Trull, sketew.
+    kwk: ["sa̱lt̓a", "səltʼa"],  // Kwak'wala's own word for the little finger; with the finger suffix it becomes sa̱lt̓axt̕sane' 'baby finger, pinky'.
+    tsi: ["łgusgay", "ɬɡusɡaːj"],  // Made of łgu- 'small, little' and sgay 'little finger', which can also be said alone.
+    koy: ["-nlotsʼeelaʼ", "nlotsʼiːlaʔ"],  // Always said with an owner, as in binlotsʼeelaʼ 'his little finger', the same nlo- as in binlokuh 'his index finger'; Lower Koyukon says mineelotsʼeemaay.
   },
 };

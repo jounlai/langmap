@@ -842,6 +842,23 @@ WORDS.tomorrow = {
     mxv: "unknown",
     crn: "unknown",
     bzh: "unknown",
+    kmu: "same",
+    emi: "unknown",
+    pqm: "unknown",
+    chy: "morning",
+    mus: "unknown",
+    moh: "unknown",
+    ko_jeju: "other",
+    evn: "unknown",
+    tiw: "unknown",
+    yur: "unknown",
+    kwk: "unknown",
+    tsi: "unknown",
+    cay: "unknown",
+    ssf: "unknown",
+    liv: "other",
+    tlh: "other",
+    kgg: "unknown",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -1628,5 +1645,22 @@ WORDS.tomorrow = {
     mxv: ["tiaan", "caːn"],  // Tiaan is the Metlatónoc Mixtec word for tomorrow, as in James 4:13 vichin a tiaan 'today or tomorrow'.
     crn: ["ruijmuaʼa", "ɽuihmwaʔa"],  // Ruijmuaʼa is the Cora word for tomorrow in the El Nayar New Testament; yesterday there is tajcaí.
     bzh: ["neheng", "nəʁəŋ"],  // Neheng is the Mapos Buang word for tomorrow, as in Luke 13:32 pehi geneheng 'today and tomorrow'; yesterday is veseveng.
+    kmu: ["ega", "eɡa"],  // In the Kanite New Testament ega is both tomorrow (Matthew 6:34 'Ega hanaꞌa hugahune?', 'what will happen tomorrow?') and yesterday (John 4:52 'Ega yagemoꞌa…', 'yesterday at the seventh hour'; Acts 7:28 'egama Isipi…', the Egyptian killed yesterday).
+    emi: ["nimanaa", "nimanaː"],  // Nimanaa is 'tomorrow' in the Mussau-Emira Bible (James 4:13 'Ghaine o nimanaa', today or tomorrow); yesterday is a different word, ghalailloo (John 4:52, Acts 7:28).
+    pqm: ["sepawonu", "sepawonu"],  // The Passamaquoddy-Maliseet Dictionary glosses sepawonu (also sepawonuk) as 'tomorrow'; yesterday is a different word, wolaku.
+    chy: ["mȧhvóonāʼo", "mahvóːnaʔo"],  // The Cheyenne Dictionary glosses mȧhvóonā'o 'tomorrow', literally 'when it is morning' (from -vóona'ó 'be morning'); yesterday is a different word, éšeēva.
+    mus: ["pakse", "páksi"],  // Martin and Mauldin's Creek dictionary glosses pakse (also vpakse) 'tomorrow, the next day'; yesterday is paksvnkē, a different word built on the same stem.
+    moh: ["enhiórenʼne", "ʌ̃hjórʌ̃ʔne"],  // The modern Mohawk Bible writes enhióren'ne for tomorrow (James 4:13 'Nónwa wenniseráte tóh꞉ka ó꞉ni enhióren'ne', today or tomorrow); yesterday is thetén:re (Wiktionary; theténre in Hebrews 13:8).
+    ko_jeju: ["닐", "nil"],  // Like Korean 내일, Jeju 닐 (also 늴, 넬) descends from Middle Korean ᄂᆡᅀᅵᆯ, the reading of Sino-Korean 來日 'coming day'; yesterday is 어저끼.
+    evn: ["тэгэмӣ", "təɡəmiː"],  // Vasilevich's Evenki-Russian dictionary (via Wiktionary) and NorthEuraLex both give тэгэмӣ for 'tomorrow'; yesterday is a different word, тынэвэ.
+    tiw: ["pangarri", "paŋaɾi"],  // The Tiwi Lexicon glosses pangarri 'tomorrow, next day' (as in 'Pangarri wiyi ngi-p-akakupawurli kangilawa', tomorrow I'll go back home); yesterday is a different word, awurlaga.
+    yur: ["ʼowook", "ʔɔwɔːk"],  // ʼOwook means 'tomorrow, the next day'; yesterday is a different word, chmeyaan, and ʼowookpaa is the day after tomorrow.
+    kwk: ["ła̱nstła", "ɬənstɬa"],  // Ła̱nstła is the Kwakʼwala word for tomorrow; yesterday is ła̱nsʼwa̱ł, which shares its first syllable, and hiʼlux̱wsa is the day after tomorrow.
+    tsi: ["dzigyitsʼiip", "dziɡʲitsʼiːp"],  // Dzigyitsʼiip is tomorrow, as in Dzigyitsʼiip dm yeltgu 'I am returning tomorrow'; yesterday is gyitsʼiipda, on the same root gyitsʼiip 'day since'.
+    cay: ["ęyó:hęʼ", "ɛ̃jóːhɛ̃ʔ"],  // Ęyó:hęʼ is literally 'it will be day' (future of the root hę 'be day') and is the everyday word for tomorrow; yesterday is té:dę:ʼ.
+    ssf: ["simaq", "simaq"],  // Simaq is the Thao word for tomorrow, as in amara iaku sa apiq simaq 'tomorrow I will take a wife'; yesterday is tilha.
+    liv: ["mūpõ", "ˈmuːpə"],  // Mūpõ is contracted from mū '(an)other' and pǟva 'day', so 'the other day'; yesterday is a different word, e’ggiļ.
+    tlh: ["wa'leS", "wɑʔlɛʂ"],  // Wa'leS is wa' 'one' + -leS 'days from now', so literally 'one day from now'; yesterday is wa'Hu' 'one day ago'.
+    kgg: ["goraq", "ɡoraq"],  // Goraq (also heard gorəχ) is the Kusunda word for tomorrow; yesterday is a different word, pyana, and goradze is 'morning, early today'.
   },
 };

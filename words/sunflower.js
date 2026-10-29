@@ -295,6 +295,32 @@ WORDS.sunflower = {
     rgn: "turn",
     cv: "turn",
     av: "unknown",
+    fur: "turn",
+    fy: "sun",
+    oc: "turn",
+    wa: "sun",
+    dtp: "unknown",
+    lij: "turn",
+    nn: "turn",
+    cy: "sun",
+    os: "unknown",
+    ady: "turn",
+    dty: "sun",
+    khb: "turn",
+    cbk: "turn",
+    pdt: "sun",
+    pdc: "sun",
+    br: "turn",
+    nxq: "unknown",
+    bxr: "sun",
+    krc: "unknown",
+    to: "turn",
+    nv: "turn",
+    co: "turn",
+    ja_oki: "unknown",
+    cnh: "sun",
+    gag: "turn",
+    ty: "sun",
   },
   routes: {
     turn: {"color":"#ea580c","emoji":"🔄","en":"turns to the sun","ja":"太陽に向く","ko":"해를 향함","zh":"朝向太阳","yue":"向住太陽","vi":"hướng về mặt trời","th":"หันตามดวงอาทิตย์","id":"menghadap matahari","hi":"सूरज की ओर मुड़ता","de":"dreht sich zur Sonne","fr":"se tourne vers le soleil","it":"si volta verso il sole","es":"se gira al sol","pt":"volta-se para o sol","ru":"поворачивается к солнцу","uk":"повертається до сонця","ar":"يتّجه نحو الشمس","he":"פונה אל השמש","sw":"hugeuka kuelekea jua"},
@@ -536,5 +562,31 @@ WORDS.sunflower = {
     rgn: ["ẓirasôl", "ziraˈsoːl"],  // Romagnol form of Italian girasole (girare 'turn' + sole 'sun'); route by resemblance to the Italian, as the Romagnol entry gives no etymology.
     cv: ["хӗвелҫаврӑнӑш", "xɘvelˈʑavrənəʃ"],  // Хӗвел 'sun' + ҫаврӑн- 'turn round' (from ҫавӑр 'to twist, turn') + -ӑш: 'the sun-turner'.
     av: ["бакъдебусс", "baqʼdebusː"],  // Built on бакъ 'sun'; the make-up of the rest of the word is not given by the source.
+    fur: ["gjirasol", "ɟiraˈsol"],  // Gjira- 'turn' + sol 'sun', like Italian girasole; the ARLeF dictionary describes it as the flower that turns after the sun.
+    fy: ["sinneblom", "ˈsɪnəblom"],  // Sinne 'sun' + blom 'flower'.
+    oc: ["virasolelh", "biɾɔsuˈlɛʎ"],  // Virar 'to turn' + solelh 'sun'; the Occitan Wikipedia also gives the variant virasoleu.
+    wa: ["solea", "sɔˈlja"],  // The same word as solea 'sun', as French soleil also names the plant.
+    dtp: ["bungadau", "buŋadau"],  // The Central Dusun word for the sunflower, recorded with audio on Wiktionary; its make-up is not given by the sources.
+    lij: ["giäsô", "dʒiːaˈsuː"],  // Giâ 'to turn' + sô 'sun', like Italian girasole.
+    nn: ["solsikke", "ˈsuːlsɪkːə"],  // From Latin solsequia, the 'sun-follower' plant; solvendel is a synonym.
+    cy: ["blodyn yr haul", "blɔdɨn ər haɨl"],  // Literally 'flower of the sun'; GPC records blodyn haul for a different plant, Mesembryanthemum.
+    os: ["ӕхсынӕн", "æxsɨnæn"],  // The Ossetian Wikipedia's title for the plant; хурмӕзилӕг 'sun-turner' and галы цӕст 'ox's eye' are synonyms.
+    ady: ["тыгъэгъазэ", "təʁaʁaːza"],  // Тыгъэ 'sun' + гъазэ 'turn' (from гъэзэн 'to turn'), the same make-up as Kabardian дыгъэгъазэ.
+    dty: ["सूर्ज्या फूल", "suːɾdʒjaː pʰuːl"],  // Built on सूर्ज 'sun' + फूल 'flower'; the Dotyali Wikipedia's title for the plant.
+    khb: ["ᦡᦸᧅᧈᦞᧃᦛᦻᧈ", "dɔːk˧˥ van˥˩ vaːj˧˥"],  // Literally 'flower that turns to the sun': ᦡᦸᧅᧈ 'flower' + ᦞᧃ 'sun' + ᦛᦻᧈ 'to turn'.
+    cbk: ["mirasol", "miɾaˈsol"],  // Inherited from Spanish mirasol, mira 'looks at' + sol 'sun'.
+    pdt: ["Sonnenbloom", "ˈzɔnənblom"],  // Sonn 'sun' + Bloom 'flower', like German Sonnenblume.
+    pdc: ["Sunneblumm", "ˈsʊnəblʊm"],  // Sunne- 'sun' + Blumm 'flower', like German Sonnenblume.
+    br: ["tro-heol", "troˈheːɔl"],  // Tro 'turn' + heol 'sun', modelled on French tournesol.
+    nxq: ["nimeiddaq baq", "ɲi˧me˧dɑ˨˩ pɑ˨˩"],  // Begins with nimei 'sun' and ends in baq, a form of bbaq 'flower'; the middle element is not explained by the source.
+    bxr: ["наран сэсэг", "naraŋ seseɡ"],  // Literally 'sun flower': наран 'sun' + сэсэг 'flower'.
+    krc: ["чёблеу", "tʃøbˈlew"],  // The Karachay-Balkar name; Kansas, 'the Sunflower State', is called «Чёблеулю штат» on Karachay-Balkar Wikipedia; the sources give no etymology.
+    to: ["siolaʻā", "siolaʔaː"],  // Sio 'to look at' + laʻā 'sun': the plant that looks at the sun.
+    nv: ["ndíyíliitsoh", "ǹtíjílìːtsʰòh"],  // Nidíyílii 'sunflower', built on the verb stem -YIL 'to turn', plus -tsoh 'big'; nidíyílii alone is also used.
+    co: ["girasole", "dʒiraˈzɔle"],  // From girà 'to turn' + sole 'sun'; INFCOR defines it as the plant whose flowers turn towards the sun.
+    ja_oki: ["ひーぐるま", "çiːɡuɾuma"],  // Hiiguruma, the Okinawan counterpart of the old Japanese name 日車 higuruma 'sun-wheel'; Nakamoto's 1896 Okinawa goten records ひぐるま with the variant ひまはい.
+    cnh: ["ni pangpar", "ni paŋpar"],  // Literally 'sun flower': ni 'sun' + pangpar 'flower'.
+    gag: ["gündöndü", "ˈɟyndøndy"],  // Gün 'sun' + döndü 'turned', the same name as Turkish dialect gündöndü 'the one that turns to the sun'; semiçka, from Russian, covers both the plant and its seeds.
+    ty: ["puamahana", "puamahana"],  // Pua 'to bloom (of a flower)' + mahana 'sun'; Lemaître also glosses it simply 'soleil'.
   },
 };

@@ -218,6 +218,28 @@ WORDS.adamsapple = {
     es_ec: "adam",
     de_at: "adam",
     hak_tw: "other",
+    tsg: "adam",
+    mrw: "unknown",
+    li: "other",
+    cv: "other",
+    mnw: "other",
+    bs: "adam",
+    sl: "adam",
+    lt: "adam",
+    din: "other",
+    ban: "unknown",
+    kmb: "adam",
+    cpx: "other",
+    ace: "unknown",
+    sas: "unknown",
+    bej: "plain",
+    lv: "adam",
+    rhg: "unknown",
+    snk: "unknown",
+    ce: "other",
+    kde: "unknown",
+    kbd: "unknown",
+    sco: "other",
   },
   routes: {
     adam: {"color":"#dc2626","emoji":"🍏","en":"Adam's apple","ja":"アダムのりんご","ko":"아담의 사과","zh":"亚当的苹果","yue":"亞當嘅蘋果","vi":"táo của Adam","th":"แอปเปิลของอาดัม","id":"apel Adam","hi":"आदम का सेब","de":"Adams Apfel","fr":"pomme d'Adam","it":"pomo d'Adamo","es":"fruto de Adán","pt":"maçã de Adão","ru":"яблоко Адама","uk":"яблуко Адама","ar":"تفاحة آدم","he":"תפוח אדם","sw":"tufaha la Adamu"},
@@ -380,5 +402,27 @@ WORDS.adamsapple = {
     es_ec: ["manzana de Adán", "mansana ðe aðan"],  // Literally 'Adam's apple'; the Diccionario de americanismos records manzana de Adán for this country, beside Spain's nuez de Adán.
     de_at: ["Adamsapfel", "ˈaːdamsʔapfl̩"],  // Literally 'Adam's apple', after the forbidden fruit said to have stuck in Adam's throat.
     hak_tw: ["搶食胲", "tsʰioŋ˧˩ sɨt˥ koi˨˦"],  // Begins with 搶食 'snatch food', the same word as in Meixian Hakka.
+    tsg: ["bunga jakkum", "buŋa dʒakkum"],  // Literally 'fruit of the jakkum', jakkum being the Tausug name of the forbidden fruit eaten by Eve.
+    mrw: ["korokom", "korokom"],  // The Maranao word for the larynx or voice box, also glossed Adam's apple; no etymology is given.
+    li: ["kietsj", "kitʃ"],  // The same word as kietsj 'apple core', like Czech ohryzek; Dutch-style adamsappel is also used.
+    cv: ["карланкӑ мӑкӑлӗ", "karlaŋkə məkəlɘ"],  // Literally 'lump of the throat', from карланкӑ 'throat, larynx' + мӑкӑль 'lump, swelling'; лакартак is a synonym.
+    mnw: ["ကွေန် ကံ", "kon kɔʔ"],  // Literally 'child of the throat', from ကွေန် 'child, young one' + ကံ 'neck, throat'.
+    bs: ["Adamova jabučica", "adamoʋa jabutʃitsa"],  // Literally 'Adam's little apple', with jabučica, a diminutive of jabuka 'apple'.
+    sl: ["adamovo jabolko", "ˈaːdamɔʋɔ ˈjaːbɔu̯kɔ"],  // Literally 'Adam's apple'; in speech jabolko 'apple' alone is also used for it.
+    lt: ["Adomo obuolys", "ɐˈdoːmoː oːbuɔˈlʲiːs"],  // Literally 'Adam's apple', from Adomas 'Adam' + obuolys 'apple'.
+    din: ["guak rol", "ɡuak rol"],  // Built on guak 'goitre' and röl 'throat', so a throat swelling (Brisco & Blench 2006).
+    ban: ["batun salak", "batun salak"],  // The word the Balai Bahasa Bali dictionary gives for Indonesian jakun, the bump on a man's neck; salak is the snakefruit.
+    kmb: ["masã ia Adãu", "masã ja adãu"],  // Literally 'Adam's apple', modelled on Portuguese maçã de Adão; Maia also lists dikelengu, a word for the throat and gullet.
+    cpx: ["咙喉蝉", "le˩˧ au˩˧ ɬɛŋ˩˧"],  // Literally 'throat cicada': 咙喉 'throat' + 蝉 'cicada'; Xianyou says 颔下蝉 'cicada under the chin'.
+    ace: ["aneuk tôk", "anɯʔ toʔ"],  // The Acehnese name, defined as the bump at the top of the windpipe on a grown man's neck.
+    sas: ["bacot", "batʃot"],  // The Sasak headword for the Adam's apple, with kecekok and kenyekot as synonyms.
+    bej: ["kirtʼuuwiit miitaat", "kirtʔuːwiːt miːtaːt"],  // Glossed literally as 'Adam's apple bone': kirtʼuuwiit, from Arabic tirquwa, plus miitaat 'bone'.
+    lv: ["ādamābols", "ˈaːdamaːbuɔls"],  // Literally 'Adam's apple', from Ādams + ābols 'apple'; gāmurs is a synonym.
+    rhg: ["thuñçala", "ʈũɽala"],  // The Rohingya Dictionary gives it first as 'Adam's apple' and also for the throat and windpipe.
+    snk: ["yugosirinfuxo", "juɡosirinfuxo"],  // Begins with yugo 'man'; the SIL Soninke lexicon gives selinsondonme as a synonym.
+    ce: ["логан шад", "loɡan ʃad"],  // Literally 'throat knot', from лагӀ 'front of the neck, throat' + шад 'knot' (Matsiev 1961).
+    kde: ["lukolongo", "lukoloŋɡo"],  // Rugemalira's dictionary glosses it as both the Adam's apple and the oesophagus, like Swahili koromeo.
+    kbd: ["къыртӏ", "qərtʼ"],  // The Kabardian word given for Russian кадык in the school Russian-Kabardian dictionary.
+    sco: ["knot o' the thrapple", "not ə ðə ˈθrɑpəl"],  // Literally 'knot of the windpipe'; thrapple-bow is a northern synonym (Scottish National Dictionary).
   },
 };

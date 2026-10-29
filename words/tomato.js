@@ -459,6 +459,31 @@ WORDS.tomato = {
     cab: "unknown",
     ngu: "nahuatl",
     cnh: "unknown",
+    kl: "unknown",
+    gd: "unknown",
+    tay: "unknown",
+    bnn: "unknown",
+    lad: "nahuatl",
+    cr: "other",
+    vro: "unknown",
+    mh: "nahuatl",
+    toj: "unknown",
+    dur: "nahuatl",
+    ch: "unknown",
+    poh: "unknown",
+    srm: "unknown",
+    djk: "nahuatl",
+    pon: "nahuatl",
+    trv: "unknown",
+    lld: "apple",
+    nhx: "nahuatl",
+    fax: "unknown",
+    an: "nahuatl",
+    haw: "other",
+    hsb: "unknown",
+    olo: "unknown",
+    krl: "unknown",
+    mix: "unknown",
   },
   routes: {
     nahuatl: {"color":"#dc2626","emoji":"🌽","en":"from Nahuatl tomatl","ja":"ナワトル語 tomatl から","ko":"나우아틀어 tomatl에서","zh":"源自纳瓦特尔语 tomatl","yue":"源自納瓦特爾語 tomatl","vi":"từ tiếng Nahuatl tomatl","th":"จากภาษานาวัตล์ tomatl","id":"dari bahasa Nahuatl tomatl","hi":"नाहुआत्ल tomatl से","de":"aus Nahuatl tomatl","fr":"du nahuatl tomatl","it":"dal nahuatl tomatl","es":"del náhuatl tomatl","pt":"do náuatle tomatl","ru":"из науатль tomatl","uk":"з науатль tomatl","ar":"من الناواتلية tomatl","he":"מנאוואטל tomatl","sw":"kutoka Kinahuatl tomatl"},
@@ -862,5 +887,30 @@ WORDS.tomato = {
     cab: ["dumádi", "duˈmadi"],  // Dumádi is the Garifuna word for the tomato, glossed Spanish tomate.
     ngu: ["xitomatl", "ʃiˈtomatɬ"],  // From xictli 'navel' + tomatl, the Nahuatl tomato word that went round the world; Mexican Spanish jitomate comes from it.
     cnh: ["khazianchinti", "kʰaziantsʰinti"],  // The English–Hakha dictionary gives khazianchinti for tomato, with kawlhang as a second word.
+    kl: ["tomati", "tomati"],  // Glossed 'tomato' (Danish tomat) in the Greenlandic–Danish dictionaries and as 'paarnat ilaat', a kind of berry, in the 2008 Greenlandic dictionary.
+    gd: ["tomàto", "t̪ʰɔˈmaːt̪ʰɔ"],  // Am Faclair Beag gives tomàto, masculine, for the tomato fruit and plant.
+    tay: ["warang", "waraŋ"],  // The Atayal Wikipedia article on the tomato is titled warang, and ILRDF dictionary sentences use it for 蕃茄.
+    bnn: ["tumatu", "tumatu"],  // ILRDF dictionary sentences in the Junqun (Isbukun) dialect use tumatu for 番茄 'tomato'.
+    lad: ["tomat", "toˈmat"],  // The Ladino Wikipedia article calls the plant and its fruit tomat and traces the name to Nahuatl; the dish arroz kon tomat is 'tomato rice'.
+    cr: ["ᑭᐦᒋ ᐅᑭᓂᕀ", "kihtʃi okinij"],  // Kihci-okiniy is the 'great rosehip': okiniy alone means a rosehip, and is also given for the tomato.
+    vro: ["tomať", "ˈtomɑtʲ"],  // The Võro Institute dictionary gives tomať, with the variant tumať, for Estonian tomat.
+    mh: ["tōṃato", "tˠɛmˠæɰtˠɛw"],  // Borrowed from English tomato, which comes through Spanish tomate from Nahuatl tomatl.
+    toj: ["chakal pix", "tʃakal piʃ"],  // Chakal pix, the 'red pix', is the red tomato (jitomate); yaxal pix, the 'green pix', is the green husk tomato.
+    dur: ["tòmáàd", "tomaːd"],  // Borrowed from French tomate, which goes back to Nahuatl tomatl.
+    ch: ["tumåtis", "tuˈmɑtis"],  // Tumåtis ubas, 'grape tomato', is the cherry tomato.
+    poh: ["pixp", "piʃp"],  // A native Poqomchiʼ word; the source gives no etymology.
+    srm: ["tomáti", "tomáti"],  // The SIL Saramaccan–English dictionary glosses tomáti simply as tomato and gives no etymology.
+    djk: ["tomati", "tomati"],  // The SIL Aukan dictionary traces tomati to tomate, the word that goes back to Nahuatl tomatl; tomati saadin is sardines in tomato sauce.
+    pon: ["domahdo", "doˈmaːdo"],  // Borrowed from English tomato, which goes back to Nahuatl tomatl; it also means ketchup.
+    trv: ["tmatu", "tmatu"],  // The ILRDF Truku dictionary glosses tmatu as 蕃茄 ‘tomato’ and gives no etymology.
+    lld: ["paradais", "paraˈdais"],  // The Gherdëina dictionary gives paradais first, comparing German Paradeis(er), short for Paradeisapfel ‘paradise apple’; pomodor is the second word.
+    nhx: ["tomaꞌ", "tomaʔ"],  // The Isthmus Nahuatl form of tomatl, glossed both tomate and jitomate; ta̱ltomaꞌ is the green husk tomato.
+    fax: ["tomati", "toˈmati"],  // Listed for all three Fala villages (Lagarteiru, Mañegu, Valverdeiru), glossed Spanish tomate; the dictionary gives no etymology.
+    an: ["tomate", "toˈmate"],  // The fruit is tomate and the plant tomatera or tomatero; the name goes back to Nahuatl tomatl.
+    haw: ["ʻōhiʻa lomi", "ʔoːhiʔa lomi"],  // ʻŌhiʻa is the mountain apple (Syzygium malaccense) and lomi means 'to squeeze, mash'; ʻōhiʻa haole 'foreign mountain apple' is a synonym.
+    hsb: ["tomata", "ˈtɔmata"],  // Glossed German Tomate in the standard German–Upper Sorbish dictionary; the source gives no etymology.
+    olo: ["pomidor", "ˈpomidor"],  // Glossed Russian помидор, томат in the VepKar dictionary of Livvi; the source gives no etymology.
+    krl: ["pomidora", "ˈpomidorɑ"],  // Glossed Russian помидор (plant and fruit) in the VepKar dictionary of Karelian Proper; the source gives no etymology.
+    mix: ["tinana", "t̪ínānǎ"],  // A native Mixtec word glossed 'tomato' / 'tomate'; the source gives no etymology.
   },
 };

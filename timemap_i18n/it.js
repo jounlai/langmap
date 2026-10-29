@@ -472,7 +472,7 @@ window.TM_I18N["it"] = {
    "region": "Thailandia",
    "type": "Solare, anni dell’era buddhista",
    "epoch": "Era buddhista: il parinirvana del Buddha, 543 a.C. secondo il computo thailandese",
-   "used": "Ufficiale dal 1912 (anno EB), con il 1º gennaio come Capodanno dal 1941",
+   "used": "Ufficiale dal 1º aprile 1913 (anno EB), con il 1º gennaio come Capodanno dal 1941",
    "note": "Anno = anno occidentale + 543. Sri Lanka, Myanmar e Cambogia contano l’era buddhista con un anno di scarto rispetto alla Thailandia.",
    "year": "{n} EB"
   },
@@ -666,7 +666,7 @@ window.TM_I18N["it"] = {
    "type": "Computo di 260 giorni: 13 numeri × 20 nomi di giorni",
    "epoch": "Nessun anno 1: il computo prosegue ininterrotto dai Maya del periodo classico",
    "used": "I custodi dei giorni maya (ajq’ijab’), per cerimonie, divinazione e imposizione del nome; Wajxaqib’ B’atz’ (8 B’atz’) apre il loro nuovo ciclo",
-   "note": "Il computo vivente è quello antico, senza interruzioni: cade nello stesso giorno dello tzolk’in classico secondo la correlazione del Lungo computo usata qui. Wajxaqib’ B’atz’ è caduto il 18 gennaio 2025 e il 22 giugno 2026."
+   "note": "Il computo vivente è quello antico, senza interruzioni: cade nello stesso giorno dello tzolk’in classico secondo la correlazione del Lungo computo usata qui. Wajxaqib’ B’atz’ cade ogni 260 giorni: 18 gennaio 2025, 5 ottobre 2025, 22 giugno 2026, 9 marzo 2027."
   },
   "tibetan": {
    "name": "Calendario tibetano (Phugpa)",

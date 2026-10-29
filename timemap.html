@@ -528,7 +528,7 @@
 
 
     <script src="/vendor/leaflet-1.9.4/leaflet.js"></script>
-    <script src="timemap_calendars.js?v=19"></script>
+    <script src="timemap_calendars.js?v=20"></script>
     <script type="text/plain" id="trivia-src" src="timemap_trivia_rt/base.js?v=1"></script>
     <script type="text/plain" id="trivia-reader-src" src="trivia_reader.js?v=2"></script>
     <script>
@@ -543,7 +543,7 @@
         // The shared UI-language list (nav-short.js): same order and names on every map (r32).
         const LANGS = window.LM_UI_LANGS || [['en','English']];
         const HAS = Object.fromEntries(LANGS.map(([c]) => [c, true]));
-        const I18N_VERSION = 7;
+        const I18N_VERSION = 8;
         window.TM_I18N = window.TM_I18N || {};
         const loading = {};
         function ensureLang(lang){

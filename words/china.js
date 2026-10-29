@@ -449,6 +449,23 @@ WORDS.china = {
     co: "cina",
     frp: "cina",
     bpy: "cina",
+    pwn: "unknown",
+    bnn: "unknown",
+    kl: "cina",
+    mh: "cina",
+    crs: "cina",
+    tar: "cina",
+    toj: "cina",
+    lad: "cina",
+    iu: "cina",
+    poh: "cina",
+    jiv: "cina",
+    trv: "unknown",
+    krl: "cina",
+    tvl: "cina",
+    tok: "zhongguo",
+    an: "cina",
+    frr: "cina",
   },
   routes: {
     zhongguo: {"color":"#dc2626","emoji":"🏮","en":"reads 中國 \"Middle Kingdom\" itself","ja":"漢字 中國 を自分で読む","ko":"한자 中國을 직접 읽음","zh":"自己读汉字\"中國\"","yue":"自己讀漢字「中國」","vi":"tự đọc chữ 中國","th":"อ่านอักษร 中國 เอง","id":"membaca aksara 中國 sendiri","hi":"中國 को ख़ुद पढ़ना","de":"liest 中國 selbst","fr":"lit 中國 lui-même","it":"legge 中國 da sé","es":"lee 中國 por sí mismo","pt":"lê 中國 por si","ru":"своё чтение 中國","uk":"власне читання 中國","ar":"يقرأ 中國 بنفسه","he":"קורא את 中國 בעצמו","sw":"husoma 中國 yenyewe"},
@@ -840,5 +857,22 @@ WORDS.china = {
     co: ["China", "ˈkina"],  // The Corsican Wikipedia's article on the country is titled China (a China), with ch read /k/ as in Corsican turchinu.
     frp: ["Ch·ina", "ˈtʃina"],  // The Arpitan Wikipedia's article on the country and region is titled Ch·ina in the ORB supradialectal spelling, where ch· stands for the sound written tʃ in this row's ch·ocolât.
     bpy: ["চীন", "tʃin"],  // The Bishnupriya Manipuri Wikipedia calls the People's Republic গণচীন 'People's China' and uses plain চীন for the country in running text and in its list of country names.
+    pwn: ["Tailiku", "tailiku"],  // The Paiwan Wikipedia titles its article on the People's Republic of China Tailiku.
+    bnn: ["Tailuku", "taiɬuku"],  // Glossed 'mainland China' in the ILRDF Bunun dictionary, the usual way China is named in Taiwan.
+    kl: ["Kina", "kina"],  // Kina, as in Danish Kina; Greenlandic says Kinami 'in China' and Kinamiut 'Chinese people'. Route by resemblance to the neighbouring forms (da(Kina)); no etymology of its own.
+    mh: ["Jaina", "tʲæɰjinʲæɰ"],  // Borrowed from English China (Wiktionary); Jehovah's Witnesses' Marshallese publications spell it Jaina, with Ri Jaina 'Chinese people'.
+    crs: ["Lasin", "lasin"],  // From French la Chine with the article fused into the name, like Mauritian Lasinn; JW Seychellois publications say 'sorti Lasin', from China. Route by resemblance to the neighbouring forms (mfe(Lasinn) fr(Chine)); no etymology of its own.
+    tar: ["China", "tʃina"],  // China in Rarámuri, as in Jehovah's Witnesses' 'echoná capital de China' 'there in the capital of China'. Route by resemblance to the neighbouring forms (es(China)); no etymology of its own.
+    toj: ["China", "tʃina"],  // China in Tojolabal, as in Jehovah's Witnesses' 'ja Rusia sok ja China' 'Russia and China'. Route by resemblance to the neighbouring forms (es(China)); no etymology of its own.
+    lad: ["Kina", "kina"],  // The Ladino Wikipedia calls the People's Republic Repuvlika Popular Kina, 'generally called Kina'; unaccented, it is stressed on the next-to-last syllable. Route by resemblance to the neighbouring forms (el(Κίνα) sq(Kina)); no etymology of its own.
+    iu: ["ᓴᐃᓇ", "saina"],  // The Inuktitut Wikipedia titles its article on the country ᓴᐃᓇ Saina.
+    poh: ["China", "tʃina"],  // Poqomchi' uses the Spanish name China, as in Jehovah's Witnesses' Poqomchi' publications ('ar pan tinamit Pekín, ar China' 'in the city of Beijing, in China').
+    jiv: ["China", "tʃina"],  // Shuar uses the Spanish name China, as in Jehovah's Witnesses' Shuar publications ('China nunkanmanka' 'in the land of China').
+    trv: ["Cikuku", "tsikuku"],  // The Truku/Seediq Wikipedia titles its article on the country Cikuku and calls the Chinese language Kari Cikuku.
+    krl: ["Kiina", "ˈkiːnɑ"],  // The same name as Finnish Kiina, which was borrowed from Swedish Kina and goes back to Sanskrit Cīna; Livvi Karelian says Kitai instead, from Russian.
+    tvl: ["Saina", "saina"],  // Jehovah's Witnesses' Tuvaluan publications write ko latou mai i Saina 'those from China' and te ‵gana Saina 'the Chinese language'; the same form as Samoan Saina, borrowed from English China.
+    tok: ["ma Sonko", "ma sonko"],  // Literally 'land Sonko'; Sonko is the Toki Pona adaptation of Mandarin 中国 Zhōngguó.
+    an: ["China", "ˈtʃina"],  // The Aragonese Wikipedia titles the country Republica Popular de China and calls it China throughout, the same name as Spanish China; ch is read tʃ and the word is stressed on the next-to-last syllable by Aragonese spelling rules.
+    frr: ["Sina", "ˈsina"],  // The Mooring North Frisian Wikipedia's article on the country is headed Sina ('Sina as en lönj önj Asien'); Fering says Schiina.
   },
 };

@@ -335,6 +335,60 @@ WORDS.korea = {
     gor: "goryeo",
     kbp: "goryeo",
     cv: "goryeo",
+    quy: "goryeo",
+    tly: "goryeo",
+    nij: "goryeo",
+    kea: "goryeo",
+    new: "goryeo",
+    lus: "goryeo",
+    dty: "goryeo",
+    kek: "goryeo",
+    yua: "goryeo",
+    nia: "goryeo",
+    gaa: "goryeo",
+    loz: "goryeo",
+    cbk: "goryeo",
+    iso: "goryeo",
+    tzh: "goryeo",
+    dz: "goryeo",
+    wa: "goryeo",
+    ng: "goryeo",
+    lue: "goryeo",
+    rcf: "goryeo",
+    gcf: "goryeo",
+    urh: "goryeo",
+    tzo: "goryeo",
+    zap: "goryeo",
+    mixtec: "goryeo",
+    sm: "goryeo",
+    dtp: "goryeo",
+    xmf: "goryeo",
+    kqn: "goryeo",
+    bi: "goryeo",
+    fj: "goryeo",
+    ctu: "goryeo",
+    her: "goryeo",
+    kj: "goryeo",
+    arn: "goryeo",
+    nzi: "goryeo",
+    ote: "goryeo",
+    guc: "goryeo",
+    pap: "goryeo",
+    br: "goryeo",
+    bxr: "other",
+    nch: "goryeo",
+    pis: "goryeo",
+    naq: "goryeo",
+    cab: "goryeo",
+    gym: "goryeo",
+    ngu: "goryeo",
+    maz: "goryeo",
+    ho: "goryeo",
+    ty: "goryeo",
+    cnh: "goryeo",
+    to: "goryeo",
+    bpy: "goryeo",
+    gil: "goryeo",
   },
   routes: {
     goryeo: {"color":"#16a34a","emoji":"🏺","en":"from Goryeo 高麗 (Korea, Corée, Корея)","ja":"高麗（コリョ）から（Korea, Corée, Корея）","ko":"고려(高麗)에서 (Korea, Corée, Корея)","zh":"源自高丽（Korea、Corée、Корея）","yue":"源自高麗（Korea、Corée、Корея）","vi":"từ Cao Ly 高麗 (Korea, Corée, Корея)","th":"จากโครยอ 高麗 (Korea, Corée, Корея)","id":"dari Goryeo 高麗 (Korea, Corée, Корея)","hi":"गोरयो 高麗 से (Korea, Corée, Корея)","de":"von Goryeo 高麗 (Korea, Corée, Корея)","fr":"de Goryeo 高麗 (Korea, Corée, Корея)","it":"da Goryeo 高麗 (Korea, Corée, Корея)","es":"de Goryeo 高麗 (Korea, Corée, Корея)","pt":"de Goryeo 高麗 (Korea, Corée, Корея)","ru":"от Корё 高麗 (Korea, Corée, Корея)","uk":"від Корьо 高麗 (Korea, Corée, Корея)","ar":"من كوريو 高麗 (Korea, Corée, Корея)","he":"מקוריו 高麗 (Korea, Corée, Корея)","sw":"kutoka Goryeo 高麗 (Korea, Corée, Корея)"},
@@ -609,5 +663,59 @@ WORDS.korea = {
     gor: ["Korea", "koˈrea"],  // Korea in Gorontalo, as in Korea Selatan 'South Korea' and Korea Utara 'North Korea' (Gorontalo Wikipedia).
     kbp: ["Kooree", "koːreː"],  // The Kabiye Wikipedia's name for Korea; South Korea is Kooree Hadɛ Kiŋ.
     cv: ["Корей", "koˈrej"],  // Korea in Chuvash, which drops the Russian ending as in Япони 'Japan'; South Korea is Кӑнтӑр Корей (Chuvash Wikipedia).
+    quy: ["Corea", "koˈɾea"],  // Korea in Ayacucho Quechua, as in Jehovah's Witnesses' Ayacucho Quechua 'Corea nacionpi' 'in the country of Korea'; South Korea is Corea del Sur. Penultimate stress, the regular Quechua place.
+    tly: ["Korejə", "koɾejə"],  // The Talysh Wikipedia's title for its Korea article; South Korea is Nyso Korejə.
+    nij: ["Korea", "koˈrea"],  // Korea in Ngaju, as in Jehovah's Witnesses' Ngaju 'hong Korea Selatan' 'in South Korea'; stress on the penultimate as in the row's due and komputer.
+    kea: ["Koreia", "koˈɾejɐ"],  // Korea in Cape Verdean Creole, the title of Jehovah's Witnesses' Kabuverdianu page on their Korea branch; penultimate stress by the regular ALUPEC rule for an unaccented vowel-final word.
+    new: ["कोरिया", "koɾija"],  // Korea in Newar; the Newar Wikipedia titles its South Korea article दक्षिण कोरिया 'South Korea'.
+    lus: ["Korea", "korea"],  // Korea in Mizo, as in Jehovah's Witnesses' Mizo 'Korea mite' 'Korean people'; South Korea is South Korea.
+    dty: ["कोरिया", "koɾijaː"],  // Korea in Dotyali; the Dotyali Wikipedia titles its South Korea article दक्षिण कोरिया 'South Korea'.
+    kek: ["Corea", "koɾea"],  // Korea in Qʼeqchiʼ, as in Jehovah's Witnesses' 'Ebʼ li hermaan re Corea' 'the brothers of Korea'; South Korea is Corea del Sur.
+    yua: ["Corea", "korea"],  // Korea in Yucatec Maya, as in Jehovah's Witnesses' 'tu luʼumil Corea' 'in the land of Korea'; South Korea is Corea del Sur.
+    nia: ["Korea", "korea"],  // Korea in Nias; the Nias Wikipedia titles South Korea Korea Selatan, and Jehovah's Witnesses' Nias page on their Korea branch is titled Korea.
+    gaa: ["Korea", "korea"],  // Korea in Ga, as in Jehovah's Witnesses' Ga 'yɛ Korea' 'in Korea'; South Korea is South Korea.
+    loz: ["Korea", "korea"],  // Korea in Lozi, as in Jehovah's Witnesses' 'mwa naha ya Korea' 'in the country of Korea'; Korean is Sikorea.
+    cbk: ["Corea", "koˈɾea"],  // The Chavacano Wikipedia's title for its Korea article; South Korea is Corea del Sur. Penultimate stress by the regular rule for an unaccented vowel-final word, as in the row's agua and uno.
+    iso: ["Korea", "koɾea"],  // Korea in Isoko, as in Jehovah's Witnesses' 'ẹvẹrẹ Korea' 'the Korean language' and 'uwou ogha Korea' 'the Korea branch'.
+    tzh: ["Corea", "korea"],  // Korea in Tzeltal, as in Jehovah's Witnesses' 'Te ermanoetik ta Corea' 'the brothers in Korea'; South Korea is Corea del Sur.
+    dz: ["ལྷོ་ཀོ་རི་ཡ", "ɬo korija"],  // South Korea in Dzongkha, literally 'south Korea' with ལྷོ 'south'; the Dzongkha Wikipedia titles North Korea བྱང་ཀོ་རི་ཡ 'north Korea'.
+    wa: ["Corêye", "kɔˈʁɛj"],  // Korea in Walloon; the Walloon Wikipedia titles South Korea Corêye nonnrece 'southern Korea'.
+    ng: ["Korea", "korea"],  // Korea in Oshindonga, as in JW publications that list Japani, Korea, Meksiko; South Korea is written South Korea.
+    lue: ["Korea", "korea"],  // Korea in Luvale, as in the JW article title Vyuma Vinalumuka muKorea; South Korea is written South Korea.
+    rcf: ["Koré", "kore"],  // Koré, the Réunion Creole name for Korea, as in JW publications (in frèr péi la Koré "a brother from Korea").
+    gcf: ["Koré", "kore"],  // Koré in Guadeloupean Creole; South Korea is Koré di Sid, as in JW publications.
+    urh: ["Korea", "korea"],  // Korea in Urhobo, as in JW publications (iniọvo ri Korea "the brothers of Korea"); South Korea is written South Korea.
+    tzo: ["Corea", "korea"],  // Tzotzil uses the Spanish name Corea, as in JW publications; South Korea is Corea del Sur.
+    zap: ["Corea", "koɾea"],  // Isthmus Zapotec uses the Spanish name Corea, as in JW publications (guidxi Corea "the country of Korea").
+    mixtec: ["Corea", "korea"],  // Mixtec uses the Spanish name Corea, as in Guerrero Mixtec JW publications (ñuu Corea del Sur "the land of South Korea").
+    sm: ["Kolea", "kolea"],  // Kolea, with Samoan l for r, the title of the Samoan Wikipedia article on Korea; South Korea is Kolea i Saute.
+    dtp: ["Korea", "korea"],  // Korea in Kadazandusun; South Korea is Korea Kabaatan, the title of the Kadazandusun Wikipedia article.
+    xmf: ["კორეა", "kʼorea"],  // კორეა, the same name as Georgian, the title of the Mingrelian Wikipedia article; South Korea is ობჟათე კორეა.
+    kqn: ["Korea", "korea"],  // Korea in Kaonde, as in Jehovah's Witnesses' 'Kyalo kya Korea' 'the country of Korea'; South Korea is South Korea.
+    bi: ["Koria", "koria"],  // Korea in Bislama; South Korea is Saot Koria, North Korea Not Koria (Bislama Wikipedia).
+    fj: ["Korea", "korea"],  // Korea in Fijian; South Korea is Sauca Korea, North Korea Noca Korea.
+    ctu: ["Corea", "koɾea"],  // Korea in Chol, written as in Spanish; South Korea is Corea del Sur.
+    her: ["Korea", "korea"],  // Korea in Herero, as in Jehovah's Witnesses' 'moSeoul, tja Korea'; South Korea is South Korea.
+    kj: ["Korea", "korea"],  // Korea in Kwanyama, used in the English names North Korea and South Korea as in Jehovah's Witnesses' 'pokati kaNorth Korea naSouth Korea'.
+    arn: ["Corea", "koɾea"],  // Korea in Mapudungun, as in Jehovah's Witnesses' 'Corea mapu' 'the land of Korea'; South Korea is Corea del Sur.
+    nzi: ["Korea", "korea"],  // Korea in Nzema, as in Jehovah's Witnesses' 'Korea adwelie kɛlata' 'a Korean newspaper'; South Korea is South Korea.
+    ote: ["Corea", "koɾea"],  // Korea in Mezquital Otomi, written as in Spanish; South Korea is Corea del Sur.
+    guc: ["Corea", "korea"],  // Korea in Wayuu, written as in Spanish; South Korea is Corea del Sur.
+    pap: ["Korea", "koˈrea"],  // Korea in Papiamentu; South Korea is Surkorea (Papiamentu Wikipedia) or Repúblika di Korea. Stressed on the penult like the row's orea 'ear'.
+    br: ["Korea", "koˈreːa"],  // Korea in Breton, stressed on the penult as Breton words regularly are; South Korea is Korea ar Su, North Korea Korea an Norzh.
+    bxr: ["Солонгос", "sɔlɔŋɡɔs"],  // The Buryat counterpart of Mongolian Солонгос, from Middle Mongol sōlongos 'Goryeo'; South Korea is Урда Солонгос.
+    nch: ["Corea", "koˈrea"],  // Korea in Central Huasteca Nahuatl, written as in Spanish; South Korea is Corea del Sur. Stressed on the penult, Nahuatl's regular place.
+    pis: ["Korea", "korea"],  // Korea in Pijin, as in Jehovah's Witnesses' 'convention long Korea'; South Korea is South Korea or Republic of Korea.
+    naq: ["Koreab", "koreab"],  // Korea in Khoekhoegowab with the masculine ending -b, as in Jehovah's Witnesses' 'Seoul, Koreab ǃnâ'; South Korea is Suid Koreab.
+    cab: ["Koréa", "koˈɾea"],  // Korea in Garifuna, as in Jehovah's Witnesses' Garifuna 'ageiraü Koréa le Súrubei' 'the country of South Korea'.
+    gym: ["Corea", "koɾea"],  // Korea in Ngäbere, as in Jehovah's Witnesses' Ngäbere 'Nitre testiko Jehovakwe tä Corea ben blitadre'; South Korea is República de Corea.
+    ngu: ["Corea", "koˈrea"],  // Korea in Guerrero Nahuatl, as in Jehovah's Witnesses' 'akin nemij Corea del Sur' 'who live in South Korea'; stress on the penultimate, the regular Nahuatl place, as in the row's ome and computadora.
+    maz: ["Corea", "koɾea"],  // Korea in Mazahua, as in Jehovah's Witnesses' Mazahua 'ja nzi kju̱ʼu̱ a Corea del Sur' 'our brothers in South Korea'.
+    ho: ["Korea", "korea"],  // Korea in Hiri Motu, as in Jehovah's Witnesses' 'Korea tanona dekenai' 'in the land of Korea'; North and South Korea are Not Korea and Saut Korea.
+    ty: ["Korea", "koɾea"],  // Korea in Tahitian, as in Jehovah's Witnesses' Tahitian 'te mau taeae Korea'; South Korea is Korea apatoa.
+    cnh: ["Korea", "korea"],  // Korea in Hakha Chin, as in Jehovah's Witnesses' Hakha Chin 'Korea Ah Ṭhancho' 'Thriving in Korea'.
+    to: ["Kōlea", "koːlea"],  // Korea in Tongan; the Tongan Wikipedia titles its South Korea article Kōlea Tonga 'South Korea' and North Korea Kōlea Tokelau.
+    bpy: ["কোরিয়া", "korija"],  // Korea in Bishnupriya Manipuri; the Bishnupriya Wikipedia titles its South Korea article খা কোরিয়া 'South Korea' and North Korea ঔয়াং কোরিয়া.
+    gil: ["Korea", "koɾea"],  // Korea in Gilbertese, as in Jehovah's Witnesses' Kiribati 'i Seoul i Korea Maiaki' 'in Seoul, South Korea'.
   },
 };

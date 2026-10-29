@@ -395,6 +395,32 @@ WORDS.pineapple = {
     ami: "unknown",
     to: "unknown",
     ty: "pine",
+    pwn: "other",
+    tay: "other",
+    bnn: "other",
+    crs: "nanas",
+    mh: "pine",
+    gd: "nanas",
+    emp: "unknown",
+    mi: "pine",
+    se: "nanas",
+    dur: "nanas",
+    trv: "unknown",
+    ch: "pine",
+    pon: "pine",
+    jiv: "unknown",
+    cni: "unknown",
+    hsb: "nanas",
+    an: "nanas",
+    tkr: "nanas",
+    rar: "other",
+    tvl: "pine",
+    nhx: "unknown",
+    agu: "unknown",
+    pau: "other",
+    frr: "nanas",
+    kmh: "pine",
+    ygr: "nanas",
   },
   routes: {
     nanas: {"color":"#ea580c","emoji":"🌎","en":"from Tupi naná","ja":"トゥピ語 naná から","ko":"투피어 naná에서","zh":"源自图皮语 naná","yue":"源自圖皮語 naná","vi":"từ tiếng Tupi naná","th":"จากภาษาตูปี naná","id":"dari bahasa Tupi naná","hi":"तूपी naná से","de":"aus Tupi naná","fr":"du tupi naná","it":"dal tupi naná","es":"del tupí naná","pt":"do tupi naná","ru":"из тупи naná","uk":"з тупі naná","ar":"من التوبية naná","he":"מטופי naná","sw":"kutoka Kitupi naná"},
@@ -734,5 +760,31 @@ WORDS.pineapple = {
     ami: ["talacay", "talatsaj"],  // The everyday Amis name; Amis Wikipedia also gives onglay, from Taiwanese ông-lâi 'phoenix pear'.
     to: ["fainā", "fainaː"],  // The Tongan name of the pineapple; Tongan Wikipedia lists varieties such as fainā kula.
     ty: ["painapo", "painapo"],  // Borrowed from English pineapple, like Māori paināporo; an older name is fara popaʻā, 'foreigners' pandanus'.
+    pwn: ["pangudralj", "paŋuɖaʎ"],  // The pandanus (screw pine) word, from Proto-Austronesian *paŋudaN, extended to the pineapple.
+    tay: ["pngran", "pŋran"],  // From Proto-Austronesian *paŋudaN, the pandanus (screw pine), whose leaves the pineapple resembles.
+    bnn: ["bunglai", "buŋlai"],  // Borrowed from Taiwanese Hokkien ông-lâi, the 'phoenix pear' name of the pineapple.
+    crs: ["zanana", "zanana"],  // From French les ananas: the liaison z of the plural stuck to the noun.
+    mh: ["peinabōļ", "pʲejinʲæɰpˠɛlˠ"],  // Borrowed from English pineapple.
+    gd: ["anann", "ˈanən̪ˠ"],  // Am Faclair Beag lists anann first for the pineapple, with the older calque ubhal-ghiuthais 'pine apple' second; the same word as Irish anann.
+    emp: ["dyijõ", "dʒiˈhõ"],  // Webonary's Northern Emberá dictionary glosses dyijõ as Spanish piña; no source gives its make-up.
+    mi: ["paināporo", "painaːpoɾo"],  // A loan of English pineapple; Te Aka Māori Dictionary marks paināporo as a loanword, glossed 'pineapple'.
+    se: ["anánas", "ˈanaːnas"],  // Northern Sámi anánas, glossed 'pineapple'; the source gives no etymology.
+    dur: ["kò̧ǹ nàsáá", "kõn nasaː"],  // A compound with kò̧ǹ 'banana, plantain'; the Dii dictionary marks the word as coming from Fulfulde.
+    trv: ["kalat", "kalat"],  // Truku kalat, glossed 'pineapple (fruit tree; crop)' in the ILRDF dictionary.
+    ch: ["piña", "ˈpiɲa"],  // Chamorro piña, the same word as Spanish piña.
+    pon: ["pweinaper", "pʷeinaper"],  // Borrowed from English pineapple, as the Rehg Pohnpeian dictionary marks it.
+    jiv: ["chiú", "tʃiˈu"],  // Shuar chiú (also chuí), glossed 'piña, ananás'; wasake-chiú is a large variety.
+    cni: ["tibana", "tiβana"],  // Asháninka tibana 'piña', as in 'La piña es dulce cuando está madura'; the source gives no etymology.
+    hsb: ["ananas", "ˈananas"],  // Upper Sorbian ananas, the international word from Tupi naná, as in German Ananas. Route by resemblance to the neighbouring forms (de(Ananas) cs(ananas)); no etymology of its own.
+    an: ["ananás", "anaˈnas"],  // Aragonese ananás, the plant and its fruit, the Tupi word that came through Portuguese ananás. Route by resemblance to the neighbouring forms (pt(ananás)); no etymology of its own.
+    tkr: ["ананас", "ananas"],  // Tsakhur ananas, a class IV noun, the same word as Azerbaijani ananas and Russian ананас. Route by resemblance to the neighbouring forms (az(ananas) ru(ананас)); no etymology of its own.
+    rar: ["ʻara", "ʔaɾa"],  // ʻAra is the pandanus, and the pineapple took its name for its prickly leaves and its fruit; ʻara painapa, adding the English loan, makes it unmistakable (Savage).
+    tvl: ["painapolo", "painapolo"],  // Painapolo is a loan from English pineapple; the fruit is also called fala, the Tuvaluan name of the pandanus. Route by resemblance to the neighbouring forms (sm(pineapu) ty(painapo)); no etymology of its own.
+    nhx: ["ma̱tzaj", "maːtsah"],  // Isthmus Nahuatl ma̱tzaj, the same word as Classical Nahuatl matzahtli, which Molina glossed as the pineapple.
+    agu: ["matzatiʼ", "matsatiʔ"],  // Awakateko matzatiʼ, close to Mam matztiʼj; the vocabulary's examples include 'the pineapple is sour' and 'pineapple juice'.
+    pau: ["ongor", "oŋoɾ"],  // Ongor is the pandanus, and the same word names the pineapple; ongor er a Marialas is the 'Marianas pandanus'.
+    frr: ["ananas", "ˈananas"],  // Mooring jü ananas, a feminine noun, the same word as German Ananas. Route by resemblance to the neighbouring forms (de(Ananas)); no etymology of its own.
+    kmh: ["baynap", "bajnap"],  // Kalam baynap is a loan from English pineapple; the same word names the helicopter, whose rotor blades look like pineapple leaves (Pawley & Bulmer).
+    ygr: ["ananasi", "ananasi"],  // Yagaria ananasi, marked as a loanword by Renck, like Tok Pisin ananas; he also lists paenapuli, from English pineapple.
   },
 };

@@ -577,6 +577,37 @@ WORDS.grandmother = {
     apw: "split",
     ers: "one",
     frr: "unknown",
+    aer: "split",
+    mch: "unknown",
+    tsu: "unknown",
+    acu: "one",
+    car: "one",
+    mus: "unknown",
+    vo: "one",
+    vot: "unknown",
+    yur: "one",
+    tsi: "one",
+    tlh: "unknown",
+    yux: "unknown",
+    ssf: "one",
+    enf: "one",
+    cay: "one",
+    wym: "unknown",
+    abe: "unknown",
+    koy: "unknown",
+    kwk: "unknown",
+    wbp: "split",
+    pjt: "one",
+    tao: "one",
+    pyu: "one",
+    szy: "one",
+    kw: "unknown",
+    vep: "unknown",
+    kpy: "unknown",
+    jbo: "one",
+    chy: "unknown",
+    pqm: "unknown",
+    nys: "unknown",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -1098,5 +1129,36 @@ WORDS.grandmother = {
     apw: ["shichʼiné", "ʃitʃʼiné"],  // 'My grandmother' on the father's side (reciprocally also a woman's word for her son's child); the mother's mother is shiwóyé, recorded by Opler as cìtcóˑ.
     ers: ["ɑwɑ", "ɑ˧˧wɑ˥˥"],  // Kinship prefix ɑ- plus wɑ; traditionally the same word covers the father's and the mother's mother (and any old woman), though younger speakers now call the mother's mother pópó, borrowed from Mandarin.
     frr: ["åål", "ɔːl"],  // The Mooring word for grandmother (also 'Oma'), paired with åte 'grandfather' (åål än åte 'grandparents'); åålensmam is a longer synonym.
+    aer: ["aperle", "apəɭə"],  // Father's mother (also a woman's son's child); mother's mother: ipmenhe.
+    mch: ["nootü", "noːtɨ"],  // Grandmother; the first-person form is the suppletive aicha 'my grandmother'.
+    tsu: ["baʼi", "baʔi"],  // Grandmother.
+    acu: ["nukuch", "nukutʃ"],  // Grandmother on either side (Godelier et al. 1998 give nukuchi for both the father's and the mother's mother, and apachi for both grandfathers); nukuchiam is 'great-grandmother'.
+    car: ["no", "no"],  // Grandmother, also 'old woman'; possessed form noty 'grandmother of ...'. Arnaud 1968 gives the same word for the father's and the mother's mother (grandfather tamuru for both).
+    mus: ["epose", "iposi"],  // 'His/her grandmother' (base -pose, also 'paternal aunt'); Morgan's 1871 schedule gives the same word for the father's and the mother's mother.
+    vo: ["lemot", "leˈmot"],  // Built from le- 'grand' and mot 'mother'; it covers either grandmother, and the side can be spelled out with fatamot 'father's mother' or motamot 'mother's mother'.
+    vot: ["ämmä", "ˈæmːæ"],  // The inherited Finnic word, which also means 'mother-in-law' and 'old woman'; the Votic dictionary says it is usually the father's mother, and the Russian loan baabuška is used for a grandmother too.
+    yur: ["kuechos", "kutʃɔʂ"],  // Shortened to kuech, as kokos 'mother' is to kok; KinBank records one word for both the father's and the mother's mother.
+    tsi: ["ntsʼiʼits", "ntsʼiʔits"],  // The term of reference, with the variants tsʼiʼis and (Lax Kwʼalaams) dziʼis; KinBank gives the same word for the father's and the mother's mother.
+    tlh: ["SoSnI'", "ʂoʂnɪʔ"],  // Built on SoS 'mother' with -nI' 'blood relative', like vavnI' 'grandfather'; Klingon splits aunts and uncles by the parent's side but not grandparents.
+    yux: ["эпиэ", "epeː"],  // Inherited from Proto-Yukaghir *epeː; in Tundra Yukaghir the cognate эпиэ means a father's eldest female cousin.
+    ssf: ["apuki'ay", "apukiʔaj"],  // Built on apu 'grandparent, elder' (apura'in is the grandfather); the dictionary glosses it as both 祖母 'father's mother' and 外婆 'mother's mother'.
+    enf: ["kaza", "kaza"],  // One word for either grandmother; the grandfather is disi.
+    cay: ["kso:t", "ksoːt"],  // 'My grandmother, Grandma', built on the grandparent stem -hso:t- like this row's knó:haʼ 'my mother'; ǫgéhso:t is also 'my grandmother', and Morgan's Cayuga schedule gives one word for the father's and the mother's mother.
+    wym: ["baoba", "ˈbaɔba"],  // Also spelled baba, a loan from Polish baba; Wymysorys has the diminutive babela.
+    abe: ["nokemes", "nokemes"],  // 'My grandmother', on the dependent stem -okemes, as this row's nigawes 'my mother' is on -igawes; the same word names Nokemes, Grandmother Woodchuck, in Wabanaki stories.
+    koy: ["sitsoo", "sitsʰoː"],  // 'My grandmother', used to call her (Sitsoo, nokʼeedonh 'It is time to eat, Grandma'); 'his grandmother' is bitsoo, and Lower Koyukon says -tsookʼaa.
+    kwk: ["g̱ag̱as", "ɢaɢas"],  // The word for a grandmother, beside g̱ag̱a̱mp for a grandparent of either sex; ada is also listed as a kinship term for her.
+    wbp: ["yaparla", "japaɭa"],  // The father's mother; the mother's mother is jaja.
+    pjt: ["kami", "kami"],  // One word for either grandmother; the grandfather is tjamu.
+    tao: ["akes", "akəs"],  // One word for either grandmother; the grandfather is akay.
+    pyu: ["emu", "əmu"],  // A grandparent of either sex, used for the father's and the mother's mother alike; mulri na babayan is 'my grandmother', literally 'my female grandparent'.
+    szy: ["bai", "bai"],  // A woman of the grandparents' generation, used for either grandmother (祖母 and 外婆 alike).
+    kw: ["mamm wynn", "mam wɪn"],  // Literally 'blessed (white) mother', from mamm 'mother'; dama wynn is a synonym.
+    vep: ["baboi", "ˈbaboi"],  // Borrowed from Russian баба; bab is a shorter form.
+    kpy: ["аня", "aɲa"],  // The Koryak word for a grandmother, recorded in Moll's and Zhukova's Koryak–Russian dictionaries.
+    jbo: ["rirmamta", "rirˈmamta"],  // Built from rirni 'parent' and mamta 'mother', a grandmother on either side; mamymamta ('mother-mother') is available when the mother's mother must be specified.
+    chy: ["néškeʼéehe", "néʃkeʔéːhe"],  // 'My grandmother', which also means 'my mother-in-law'; the address form is Néškeʼe, and Morgan's 1871 schedule records one term for both the father's and the mother's mother.
+    pqm: ["nuhkomoss", "nuhkomoss"],  // 'My grandmother', a dependent noun (uhkomossol 'his/her grandmother'); grandma is addressed as nuhkomi or uhkomi.
+    nys: ["kabarli", "kabaɻli"],  // The Noongar word for a grandmother (moyron is the grandfather); Bowern's wordlist gives dhem for the mother's mother, so whether the two sides differ is not settled.
   },
 };

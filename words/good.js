@@ -432,7 +432,7 @@ WORDS.good = {
     en_nz: ["good", "ɡʊd"],
     en_au: ["good", "ɡʊd"],
     sco: ["guid", "ɡɪd"],
-    af: ["goed", "xut"],
+    af: ["goed", "χut"],
     de_at: ["gut", "ɡuːt"],
     gsw: ["guet", "ɡuə̯t"],
     swg: ["guad", "ɡuɐd"],

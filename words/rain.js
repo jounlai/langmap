@@ -1146,7 +1146,7 @@ WORDS.rain = {
     trn: ["tgiwo", "tçiwo"],
     kgg: ["taŋ", "taŋ"],
     adt: ["warrana", "warana"],
-    yle: ["tpii", "t̪piː"],
+    yle: ["tpii", "t̪͡piː"],
     gon: ["पिर्रु", "pirru"],
     tca: ["pucü", "pukɨ"],
     pao: ["paumaba", "paumapa"],

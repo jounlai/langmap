@@ -389,7 +389,7 @@ WORDS.milkyway = {
     yue_dg: ["银河", "ŋɐn˧˩ hɔ˧˩"],  // Literally 'silver river', the Dongguan name for the Milky Way.
     yue_nn: ["天河", "tʰin˥˥ hɔ˨˩"],  // Literally 'sky river', the Nanning Cantonese name for the Milky Way.
     yue_zs: ["銀河", "ŋɐn˥˩ hɔ˥˩"],  // Literally 'silver river', the Zhongshan (Shiqi) name for the Milky Way.
-    af: ["Melkweg", "ˈmɛlkvɛx"],  // Literally 'milk road', a translation of Latin Via Lactea.
+    af: ["Melkweg", "ˈmɛlkvɛχ"],  // Literally 'milk road', a translation of Latin Via Lactea.
     is: ["Vetrarbraut", "ˈvɛːtrarprœiːt"],  // Literally 'winter road', usually said in the definite form Vetrarbrautin, like Swedish Vintergatan.
     ca: ["Via Làctia", "ˈbiə ˈlaktiə"],  // Literally 'milky way', from Latin Via Lactea.
     gl: ["Vía Láctea", "ˈbia ˈlaktea"],  // Literally 'milky way'; Galician folk names also include Camiño de Santiago, 'the Way of St James'.

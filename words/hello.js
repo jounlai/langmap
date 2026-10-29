@@ -289,7 +289,7 @@ WORDS.hello = {
     am: ["ሰላም", "səlam"],
     sgw: ["እንደምን", "ɨndɛmɨn"],
     mg: ["manao ahoana", "manau ahuana"],
-    ain: ["イランカラプテ", "iɾankaɾapte"],
+    ain: ["イランカラㇷ゚テ", "iɾankaɾapte"],
     fi: ["hei", "hei"],
     hu: ["szia", "ˈsijɒ"],
     ohu: ["ìstèn hozott", "iʃtɛn hozotː"],

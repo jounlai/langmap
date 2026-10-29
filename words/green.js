@@ -100,7 +100,7 @@ WORDS.green = {
     eu: ["berde", "ˈberde"],
     ga: ["glas", "ɡlˠasˠ"],
     cy: ["gwyrdd", "ɡwɨrð"],
-    af: ["groen", "xrun"],
+    af: ["groen", "χrun"],
     fy: ["grien", "ɡriən"],
     lb: ["gréng", "ɡʁɛːŋ"],
     yi: ["גרין", "ɡrɪn"],

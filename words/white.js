@@ -1080,7 +1080,7 @@ WORDS.white = {
     wuu_hz: ["白", "baʔ˨"],
     xag: ["biki", "biki"],
     xum: ["alfu", "ˈalfu"],
-    yle: ["kpaapîkpaapî", "kpaːpɨkpaːpɨ"],
+    yle: ["kpaapîkpaapî", "k͡paːpɨk͡paːpɨ"],
     yue_dg: ["白", "pɛk˧"],
     yue_nn: ["白", "pak˨"],
     zh_cq: ["白", "pe˨˩"],

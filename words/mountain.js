@@ -110,7 +110,7 @@ WORDS.mountain = {
     cy: ["mynydd", "ˈmənɨð"],
     hy: ["սար", "sɑɾ"],
     ka: ["მთა", "mtʰa"],
-    af: ["berg", "bɛrx"],
+    af: ["berg", "bɛrχ"],
     lb: ["Bierg", "biə̯ɕ"],
     yi: ["באַרג", "barɡ"],
     oc: ["montanha", "munˈtaɲɔ"],

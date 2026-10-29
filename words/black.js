@@ -1223,7 +1223,7 @@ WORDS.black = {
     szy: ["lumeniʼ", "luməniʔ"],
     win: ["seep", "seːp"],
     qxs: ["ȵiȵi", "ɲi˥˥ɲi˧˩"],
-    yle: ["kpêdêkpêdê", "kpəʈəkpəʈə"],
+    yle: ["kpêdêkpêdê", "k͡pəʈək͡pəʈə"],
     guu: ["iʃi", "iʃi"],
     blk: ["ဖြေင်း", "pʰleŋ˥˧"],
     yuy: ["xara", "χara"],

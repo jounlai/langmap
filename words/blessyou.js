@@ -253,7 +253,7 @@ WORDS.blessyou = {
     uz: ["sogʻ boʻling", "sɒʁ boliŋ"],  // Literally 'be healthy'.
     mt: ["evviva", "ɛvˈviːva"],  // From Italian evviva 'long live!', literally 'and may it live'.
     rw: ["urakire", "uɾakiɾe"],  // Literally 'may you be healed / healthy', from gukira 'to recover'; Kirundi says kira.
-    yi: ["זײַ געזונט", "zaɪ̯ ɡəzunt"],  // Literally 'be healthy'; צו געזונט 'to health' and Aramaic אסותא are also said.
+    yi: ["זײַ געזונט", "zaɪ̯ ɡəˈzʊnt"],  // Literally 'be healthy'; צו געזונט 'to health' and Aramaic אסותא are also said.
     is: ["guð hjálpi þér", "kvʏːð çaulpɪ θjɛːr"],  // Literally 'God help you'; by custom three sneezes get 'God help you', 'strengthen you', 'and support you'.
     gd: ["Dia leat", "tʲiə lɛt"],  // Literally 'God with you'; Dia leibh to several people or formally.
     ca: ["Jesús", "ʒəˈzus"],  // Literally 'Jesus'; salut 'health' is also said.

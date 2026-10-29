@@ -1151,7 +1151,7 @@ WORDS.milk = {
     wrh: ["ngamun", "ˈŋamun"],
     wbt: ["ngama", "ŋama"],
     srb: ["ədub", "ədub"],
-    yle: ["ngmo", "ŋmɔ"],
+    yle: ["ngmo", "ŋ͡mɔ"],  // Ladefoged & Maddieson (1996: 344) gloss ŋ͡mo as 'breast'; the same word is used here for 'milk'.
     mvf: ["sun", "sun"],
     fia: ["su", "su"],
     mrq: ["vaiū", "vaiuː"],

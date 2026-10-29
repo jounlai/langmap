@@ -307,7 +307,7 @@ WORDS.cheers = {
     cy: ["iechyd da", "jɛxɨd daː"],  // Literally 'good health'.
     ka: ["გაუმარჯოს", "ɡaumardʒos"],  // An optative verb, roughly 'may (it) be victorious', related to gamarjveba 'victory'.
     sq: ["gëzuar", "ɡəˈzuaɾ"],  // Gëzuar means 'rejoiced, glad', the same word as in gëzuar Krishtlindja 'Merry Christmas'.
-    af: ["gesondheid", "χəˈsɔntɦəit"],  // Gesondheid means 'health'.
+    af: ["gesondheid", "χəˈsɔntɦəi̯t"],  // Gesondheid means 'health'.
     bg: ["наздраве", "nɐˈzdravɛ"],  // Na zdrave, 'to health'; Bulgarians also say it after a sneeze.
     br: ["yec'hed mat", "jeːɣɛt mat"],  // Literally 'good health', like Welsh iechyd da.
     ca: ["salut", "səˈlut"],  // Salut means 'health'.

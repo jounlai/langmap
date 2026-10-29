@@ -308,7 +308,7 @@ WORDS.water = {
     eu: ["ur", "ur"],
     cy: ["dŵr", "duːr"],
     ka: ["წყალი", "tsʼqʼali"],
-    lzz: ["წკარი", "tsʼkari"],
+    lzz: ["წკარი", "tsʼkʼari"],
     sva: ["ლიც", "litsʰ"],
     hy: ["ջուր", "dʒuɾ"],
     hyw: ["ջուր", "tʃʰuɾ"],

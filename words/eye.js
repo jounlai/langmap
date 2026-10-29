@@ -431,7 +431,7 @@ WORDS.eye = {
     en_nz: ["eye", "ɑɪ"],
     en_au: ["eye", "ɑɪ"],
     sco: ["ee", "iː"],
-    af: ["oog", "oːx"],
+    af: ["oog", "oːχ"],
     de_at: ["Auge", "ˈaʊ̯ɡə"],
     gsw: ["Aug", "aʊ̯ɡ"],
     swg: ["Aug", "aoɡ"],

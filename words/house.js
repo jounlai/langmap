@@ -608,7 +608,7 @@ WORDS.house = {
     el_kath: ["οἶκος", "ˈikos"],
     egy: ["𓉐", "per"],
     enm: ["hous", "huːs"],
-    en_em: ["house", "huːs"],
+    en_em: ["house", "həus"],
     ang: ["hūs", "huːs"],
     ofs: ["hūs", "huːs"],
     non: ["hús", "huːs"],

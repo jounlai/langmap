@@ -90,7 +90,7 @@ const LANG_DATA = {
   "es_ni": { "name": "Nicaraguan Spanish", "native": "Español nicaragüense", "lat": 12.11, "lng": -86.24 },
   "es_sv": { "name": "Salvadoran Spanish", "native": "Español salvadoreño", "lat": 13.69, "lng": -89.19 },
   "ar_jo": { "name": "Jordanian Arabic", "native": "اللهجة الأردنية", "lat": 31.95, "lng": 35.93 },
-  "ar_ps": { "name": "Palestinian Arabic", "native": "Palestinian Arabic", "lat": 31.9, "lng": 35.2 },
+  "ar_ps": { "name": "Palestinian Arabic", "native": "اللهجة الفلسطينية", "lat": 31.9, "lng": 35.2 },
   "fr_lu": { "name": "Luxembourg French", "native": "Français", "lat": 49.61, "lng": 6.13 },
   "fr_cm": { "name": "Cameroonian French", "native": "Français camerounais", "lat": 3.85, "lng": 11.5 },
   "de_lu": { "name": "Luxembourg Standard German", "native": "Luxembourg Standard German", "lat": 49.61, "lng": 6.13 },
@@ -3334,7 +3334,7 @@ const LANG_DATA = {
   lbz: { name: 'Lardil', native: 'Leerdil', lat: -16.65, lng: 139.45, // Mornington Island, Queensland
 
     wordEvidence: {
-      water: { evidence: 'direct', source: 'Ngakulmungan Kangka Leman (1996) Lardil Dictionary — kantha (salt water / sea); freshwater is a separate term (wungal)' },
+      water: { evidence: 'direct', source: 'ASJP wordlist for Lardil (Hale et al. 1996, A Preliminary Dictionary of Lardil) — water Nuku (ŋuku) "fresh water", mela "sea water"; Wiktionary Lardil nguka "water; year" (< Proto-Pama-Nyungan *nguku, Alpher 2004)' },
       fire:  { evidence: 'direct', source: 'Richards (2012) "Leerdil Yuujmen bana Yanangarr (Old and New Lardil)" — surface jalul, underlying /jalulu/ (trimoraic apocope); cited in Wikipedia Lardil phonology and MIT/Norvin Richards Leerdil materials. ASJP wordlist (Hale et al. 1996) gives the variant nyud/nyid' },
       sun:   { evidence: 'direct', source: 'Ngakulmungan Kangka Leman (1996) Lardil Dictionary — thurara; also ASJP wordlist (Hale et al. 1996) variant warku' },
       moon:  { evidence: 'direct', source: 'Richards (Old/New Lardil) — kirdikir / kirdikirdi; also Capell (1942) Tangkic comparative table giɖigiɽ' },

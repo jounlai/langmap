@@ -483,6 +483,17 @@ WORDS.greece = {
     frr: "graecia",
     nlc: "ionia",
     tvl: "hellas",
+    tsu: "graecia",
+    hot: "graecia",
+    rap: "graecia",
+    mic: "graecia",
+    tkl: "hellas",
+    kw: "graecia",
+    wbp: "graecia",
+    pyu: "graecia",
+    smn: "graecia",
+    ia: "graecia",
+    jbo: "unknown",
   },
   routes: {
     graecia: {"color":"#2563eb","emoji":"🏛️","en":"from Latin Graecia (Greece, Grèce, Греция)","ja":"ラテン語 Graecia から（Greece, Grèce, Греция）","ko":"라틴어 Graecia에서 (Greece, Grèce, Греция)","zh":"源自拉丁语 Graecia（Greece、Grèce、Греция）","yue":"源自拉丁文 Graecia（Greece、Grèce、Греция）","vi":"từ tiếng Latin Graecia (Greece, Grèce, Греция)","th":"จากละติน Graecia (Greece, Grèce, Греция)","id":"dari Latin Graecia (Greece, Grèce, Греция)","hi":"लैटिन Graecia से (Greece, Grèce, Греция)","de":"aus lateinisch Graecia (Greece, Grèce, Греция)","fr":"du latin Graecia (Greece, Grèce, Греция)","it":"dal latino Graecia (Greece, Grèce, Греция)","es":"del latín Graecia (Greece, Grèce, Греция)","pt":"do latim Graecia (Greece, Grèce, Греция)","ru":"от латинского Graecia (Greece, Grèce, Греция)","uk":"від латинського Graecia (Greece, Grèce, Греция)","ar":"من اللاتينية Graecia (Greece, Grèce, Греция)","he":"מהלטינית Graecia (Greece, Grèce, Греция)","sw":"kutoka Kilatini Graecia (Greece, Grèce, Греция)"},
@@ -906,5 +917,16 @@ WORDS.greece = {
     frr: ["Griikenlönj", "ˈɡriːkənlœnʲ"],  // Griikenlönj is the title of the Mooring North Frisian Wikipedia article on Greece, with lönj 'land, country'; Föhr Frisian says Grekenlun.
     nlc: ["Yunani", "junani"],  // Yunani is Greece in Acts 20:2 of the Nalca New Testament, the same name as Indonesian Yunani.
     tvl: ["Eleni", "eleni"],  // Eleni is Greece in Acts 20:2, Daniel 8:21 and 11:2 and Zechariah 9:13 of the Tuvaluan Bible, the same name as Samoan Eleni.
+    tsu: ["ngilisia", "ŋilisia"],  // ngilisia is Greece in Acts 20:2 of the Tsou New Testament, which calls the Greeks coungilisia, "people of ngilisia".
+    hot: ["Glis", "ɡlis"],  // Glis is Greece in Acts 20:2 of the Hote New Testament, which writes l for r in borrowed names (Silia "Syria").
+    rap: ["Keretia", "keɾetia"],  // Keretia is Greece in Acts 20:2 of the Rapa Nui New Testament; no source gives the path of the word.
+    mic: ["Gliʼgewaʼgig", "ɡliːɡewaːɡiɡ"],  // Gli'gewa'gig is Greece in Acts 20:2-3 of the Mi'kmaq New Testament, built on Gli'gewaq "Greeks" (Acts 18:4) like Masetoniaewa'gig "Macedonia".
+    tkl: ["Eleni", "eleni"],  // Borrowed from Samoan Eleni, from Ancient Greek Ἕλλην 'a Greek' (Wiktionary); it is Greece in the Tokelau Bible (Acts 20:2, Daniel 8:21).
+    kw: ["Pow Grek", "pɔʊ ɡrɛk"],  // Literally 'land of the Greek': pow 'country' plus Grek 'a Greek', from Latin Graecus (Wiktionary); it is Greece in the 2026 Cornish Bible (Acts 20:2, Daniel 8:21).
+    wbp: ["Kiiriji", "kiːɻiɟi"],  // Kiiriji is Greece in the Warlpiri Bible (Acts 18:12, 19:21, 20:2), where it takes case endings like -kirra 'to'; no source gives the path of the word.
+    pyu: ["Gilisiya", "ɡilisija"],  // Gilisiya is Greece in Acts 20:2 of the Pinuyumayan New Testament, which also calls a Greek trau i Gilisiya 'person of Gilisiya' (Acts 16:1); no source gives the path of the word.
+    smn: ["Kreikka", "ˈkreikːa"],  // Kreikka is the title of the Inari Sámi Wikipedia article on Greece, the same form as Finnish Kreikka.
+    ia: ["Grecia", "ˈɡretsja"],  // Grecia is the title of the Interlingua Wikipedia article on Greece, also called Hellade.
+    jbo: ["xesygu'e", "xesəˈɡuhe"],  // xesygu'e is the title of the Lojban Wikipedia article on Greece, a compound of xelso 'Greek' and gugde 'country'.
   },
 };

@@ -508,7 +508,7 @@ window.TM_I18N["vi"] = {
    "type": "Âm lịch (không có tháng nhuận)",
    "epoch": "Hijra, cuộc di cư của Muhammad đến Medina, năm 622",
    "used": "Dùng cho tôn giáo trên toàn thế giới; dân sự tại Ả Rập Xê Út (bảng Umm al-Qura)",
-   "note": "Một năm khoảng 354 ngày, nên tháng Ramadan sớm hơn khoảng 11 ngày mỗi năm dương lịch và đi hết một vòng các mùa trong 33 năm. Các ngày từ năm 1937 đến 2077 theo lịch Umm al-Qura, do Ả Rập Xê Út tính trước thay vì chờ nhìn thấy trăng non, dù nhà chức trách vẫn có thể dời ngày bắt đầu tháng Ramadan, Shawwal hoặc Dhu al-Hijjah một ngày sau khi quan sát trăng. Các ngày trước năm 1937 chỉ là gần đúng.",
+   "note": "Một năm khoảng 354 ngày, nên tháng Ramadan sớm hơn khoảng 11 ngày mỗi năm dương lịch và đi hết một vòng các mùa trong 33 năm. Các ngày từ năm 1937 đến 2077 theo lịch Umm al-Qura, do Ả Rập Xê Út tính trước thay vì chờ nhìn thấy trăng non, dù nhà chức trách vẫn có thể dời ngày bắt đầu tháng Muharram, Ramadan, Shawwal hoặc Dhu al-Hijjah một ngày sau khi quan sát trăng. Các ngày trước năm 1937 chỉ là gần đúng.",
    "year": "{n} Hijri"
   },
   "persian": {
@@ -656,7 +656,7 @@ window.TM_I18N["vi"] = {
    "region": "Người Dawoodi Bohra, Surat",
    "type": "Âm lịch, theo bảng: tháng 30 và 29 ngày, 11 năm nhuận trong 30 năm",
    "epoch": "Hijra, năm 622",
-   "used": "Cộng đồng Dawoodi Bohra trên toàn thế giới (khoảng một triệu người), cho Ramadan, Eid và mọi ngày tôn giáo",
+   "used": "Cộng đồng Dawoodi Bohra trên toàn thế giới (khoảng từ một triệu đến một triệu rưỡi người), cho Ramadan, Eid và mọi ngày tôn giáo",
    "note": "Một bộ lịch số học cố định thừa hưởng từ nhà Fatimid, nên Eid của người Bohra có thể sớm hơn một ngày so với Eid định theo trăng — Eid al-Fitr năm 1445 rơi vào 9 tháng 4 năm 2024.",
    "year": "{n} Hijri"
   },

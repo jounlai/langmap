@@ -35,8 +35,8 @@
     "files": 19
   },
   "meta": {
-    "version": 442,
-    "hash": "7ca8e3d834ac45bb",
+    "version": 443,
+    "hash": "2b59c0f5d0e0f49c",
     "files": 1199
   },
   "trivia": {
@@ -45,8 +45,8 @@
     "files": 1
   },
   "metaI18n": {
-    "version": 18,
-    "hash": "481fd9e436c84e8f",
+    "version": 19,
+    "hash": "8ab4fc93907aff4c",
     "files": 1
   },
   "metaI18nCoverage": {
@@ -70,8 +70,8 @@
     "files": 1
   },
   "metaI18nUi": {
-    "version": 16,
-    "hash": "d0e7068a94ffd3d8",
+    "version": 17,
+    "hash": "c4b5e25ab942c417",
     "files": 18
   },
   "triviaI18n": {

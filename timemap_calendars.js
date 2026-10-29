@@ -762,7 +762,7 @@
           name: 'Islamic (Hijri) calendar', region: 'Saudi Arabia', type: 'Lunar (no leap month)',
           epoch: 'The Hijra, Muhammad’s move to Medina, AD 622',
           used: 'Religious use worldwide; official in Saudi Arabia (Umm al-Qura tables), though state salaries have been paid by the Gregorian calendar since 2016',
-          note: 'A year is about 354 days, so Ramadan moves about 11 days earlier each Western year and goes round the seasons in 33 years. Dates from 1937 to 2077 follow the Umm al-Qura calendar, which Saudi Arabia works out in advance instead of waiting to sight the moon, though the authorities can still move Ramadan, Shawwal or Dhu al-Hijja by a day after a sighting. Dates before 1937 are approximate.',
+          note: 'A year is about 354 days, so Ramadan moves about 11 days earlier each Western year and goes round the seasons in 33 years. Dates from 1937 to 2077 follow the Umm al-Qura calendar, which Saudi Arabia works out in advance instead of waiting to sight the moon, though the authorities can still move Muharram, Ramadan, Shawwal or Dhu al-Hijja by a day after a sighting. Dates before 1937 are approximate.',
           year: '{n} AH',
           from: { y: 622, m: 7, d: 19 },
           fmt: (g, D) => { const u = umalqura(gregToJdn(g.y, g.m, g.d)), n = u ? { y: u.y, m: u.m + 1, d: u.d } : calNum('islamic-umalqura', D);
@@ -922,7 +922,7 @@
         { id: 'bohra', status: 'current', use: 'religious', lat: 21.19, lng: 72.83,
           name: 'Dawoodi Bohra Hijri (Fatimid)', region: 'Dawoodi Bohras, Surat', type: 'Lunar, tabular: months of 30 and 29 days, 11 leap years in 30',
           epoch: 'The Hijra, AD 622',
-          used: 'The Dawoodi Bohra community worldwide (about one million), for Ramadan, Eid and all religious dates',
+          used: 'The Dawoodi Bohra community worldwide (about one to one and a half million), for Ramadan, Eid and all religious dates',
           note: 'A fixed arithmetic calendar inherited from the Fatimids, so the Bohras’ Eid can come a day or two before the moon-sighted one — Eid al-Fitr 1445 was on 9 April 2024, against 10 April in Saudi Arabia and Pakistan and 11 April in most of India.',
           year: '{n} AH',
           from: { y: 622, m: 7, d: 18 },   // Gregorian; the Thursday epoch is 15 July 622 Julian

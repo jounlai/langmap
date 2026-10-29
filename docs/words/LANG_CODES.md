@@ -34,7 +34,7 @@ Total: 1197 codes.
 | `agx` | Aghul | アグル語 | NE Caucasian | ~30K (severely endangered) |
 | `ahk` | Akha | アカ語 | Sino-Tibetan (Loloish, Hani) | ~600K |
 | `aii` | Assyrian Neo-Aramaic | アッシリア新アラム語 | Afro-Asiatic | ~600K worldwide |
-| `ain` | Ainu | アイヌ語 | Language isolate | ~10 (critically endangered) |
+| `ain` | Ainu | アイヌ語 | Language isolate | Unknown (critically endangered) |
 | `aiw` | Aari | アアリ語 | Afro-Asiatic | ~150K |
 | `aja` | Aja | アジャ語 | Niger-Congo | ~600K |
 | `ak` | Akan | アカン語 | Niger-Congo (Kwa) | ~9M (Akan ~22M) |

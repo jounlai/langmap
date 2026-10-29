@@ -44,8 +44,8 @@
     "hash": "10482d1de1927600"
   },
   "namemap_data.js": {
-    "version": 10,
-    "hash": "6b74b046e40e07cd"
+    "version": 11,
+    "hash": "49aea3f330c3484c"
   },
   "namemap_i18n.js": {
     "version": 3,
@@ -56,12 +56,12 @@
     "hash": "1725c7a21734a986"
   },
   "namemap_names_ext.js": {
-    "version": 10,
-    "hash": "db269f31e8cfe6da"
+    "version": 11,
+    "hash": "8dd69843081a22d8"
   },
   "namemap_trivia_rt/base.js": {
-    "version": 1,
-    "hash": "29971da4293a3b75"
+    "version": 2,
+    "hash": "c01524ed9c58a20a"
   },
   "nav-short.js": {
     "version": 55,
@@ -96,8 +96,8 @@
     "hash": "5870dc62724ebbaf"
   },
   "timemap_calendars.js": {
-    "version": 20,
-    "hash": "b00f4d54807c533b"
+    "version": 21,
+    "hash": "1a9148ebf2d40186"
   },
   "timemap_trivia_rt/base.js": {
     "version": 1,

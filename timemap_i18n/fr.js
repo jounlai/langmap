@@ -508,7 +508,7 @@ window.TM_I18N["fr"] = {
    "type": "Lunaire (sans mois intercalaire)",
    "epoch": "L’Hégire, départ de Mahomet pour Médine, 622 apr. J.-C.",
    "used": "Usage religieux dans le monde entier ; officiel en Arabie saoudite (tables d’Umm al-Qura), même si les salaires publics y sont versés selon le calendrier grégorien depuis 2016",
-   "note": "Une année compte environ 354 jours : le ramadan avance donc d’environ 11 jours chaque année occidentale et fait le tour des saisons en 33 ans. Les dates de 1937 à 2077 suivent le calendrier d’Umm al-Qura, que l’Arabie saoudite calcule à l’avance au lieu d’attendre l’observation du croissant, même si les autorités peuvent encore décaler d’un jour le début du ramadan, de chawwal ou de dhou al-hijja après une observation. Les dates antérieures à 1937 sont approximatives.",
+   "note": "Une année compte environ 354 jours : le ramadan avance donc d’environ 11 jours chaque année occidentale et fait le tour des saisons en 33 ans. Les dates de 1937 à 2077 suivent le calendrier d’Umm al-Qura, que l’Arabie saoudite calcule à l’avance au lieu d’attendre l’observation du croissant, même si les autorités peuvent encore décaler d’un jour le début de mouharram, du ramadan, de chawwal ou de dhou al-hijja après une observation. Les dates antérieures à 1937 sont approximatives.",
    "year": "{n} de l’hégire"
   },
   "persian": {
@@ -656,7 +656,7 @@ window.TM_I18N["fr"] = {
    "region": "Dawoodi Bohras, Surat",
    "type": "Lunaire, tabulaire : mois de 30 et 29 jours, 11 années bissextiles sur 30",
    "epoch": "L’Hégire, 622 apr. J.-C.",
-   "used": "La communauté dawoodi bohra dans le monde (environ un million de fidèles), pour le ramadan, l’Aïd et toutes les dates religieuses",
+   "used": "La communauté dawoodi bohra dans le monde (environ un million à un million et demi de fidèles), pour le ramadan, l’Aïd et toutes les dates religieuses",
    "note": "Un calendrier arithmétique fixe hérité des Fatimides : l’Aïd des Bohras peut donc tomber un jour avant celui fixé par l’observation de la lune — l’Aïd el-Fitr 1445 a eu lieu le 9 avril 2024.",
    "year": "{n} de l’hégire"
   },

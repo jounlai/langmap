@@ -508,7 +508,7 @@ window.TM_I18N["pt"] = {
    "type": "Lunar (sem mês intercalar)",
    "epoch": "A Hégira, a mudança de Maomé para Medina, 622 d.C.",
    "used": "Uso religioso no mundo todo; oficial na Arábia Saudita (tabelas de Umm al-Qura), embora desde 2016 os salários públicos sejam pagos pelo calendário gregoriano",
-   "note": "Um ano tem cerca de 354 dias, então o Ramadã chega cerca de 11 dias mais cedo a cada ano ocidental e percorre todas as estações em 33 anos. As datas de 1937 a 2077 seguem o calendário de Umm al-Qura, que a Arábia Saudita calcula com antecedência em vez de esperar o avistamento da lua nova, embora as autoridades ainda possam deslocar em um dia o início do Ramadã, do Shawwal ou do Dhu al-Hijjah após um avistamento. As datas anteriores a 1937 são aproximadas.",
+   "note": "Um ano tem cerca de 354 dias, então o Ramadã chega cerca de 11 dias mais cedo a cada ano ocidental e percorre todas as estações em 33 anos. As datas de 1937 a 2077 seguem o calendário de Umm al-Qura, que a Arábia Saudita calcula com antecedência em vez de esperar o avistamento da lua nova, embora as autoridades ainda possam deslocar em um dia o início do Muharram, do Ramadã, do Shawwal ou do Dhu al-Hijjah após um avistamento. As datas anteriores a 1937 são aproximadas.",
    "year": "do ano {n} da Hégira"
   },
   "persian": {
@@ -656,7 +656,7 @@ window.TM_I18N["pt"] = {
    "region": "Bohras dawoodi, Surat",
    "type": "Lunar, tabular: meses de 30 e 29 dias, 11 anos bissextos a cada 30",
    "epoch": "A Hégira, 622 d.C.",
-   "used": "A comunidade bohra dawoodi no mundo todo (cerca de um milhão de pessoas), para o Ramadã, o Eid e todas as datas religiosas",
+   "used": "A comunidade bohra dawoodi no mundo todo (cerca de um milhão a um milhão e meio de pessoas), para o Ramadã, o Eid e todas as datas religiosas",
    "note": "Um calendário aritmético fixo herdado dos fatímidas, então o Eid dos bohras pode cair um ou dois dias antes do definido pela observação da lua — o Eid al-Fitr de 1445 foi em 9 de abril de 2024, contra 10 de abril na Arábia Saudita e no Paquistão e 11 de abril na maior parte da Índia.",
    "year": "do ano {n} da Hégira"
   },

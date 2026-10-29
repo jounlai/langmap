@@ -508,7 +508,7 @@ window.TM_I18N["sw"] = {
    "type": "Ya mwezi (bila mwezi wa ziada)",
    "epoch": "Hijra, kuhamia kwa Muhammad Madina, 622 BK",
    "used": "Matumizi ya kidini duniani kote; rasmi Saudi Arabia (majedwali ya Umm al-Qura), ingawa mishahara ya serikali imelipwa kwa kalenda ya Gregori tangu 2016",
-   "note": "Mwaka una takriban siku 354, hivyo Ramadhani husogea mapema kwa takriban siku 11 kila mwaka wa Kimagharibi na huzunguka majira yote katika miaka 33. Tarehe za kuanzia 1937 hadi 2077 zinafuata kalenda ya Umm al-Qura, ambayo Saudi Arabia huikokotoa mapema badala ya kusubiri mwezi uandame, ingawa mamlaka bado zinaweza kusogeza mwanzo wa Ramadhani, Shawwal au Dhul Hijja kwa siku moja baada ya mwezi kuonekana. Tarehe za kabla ya 1937 ni za kukadiria.",
+   "note": "Mwaka una takriban siku 354, hivyo Ramadhani husogea mapema kwa takriban siku 11 kila mwaka wa Kimagharibi na huzunguka majira yote katika miaka 33. Tarehe za kuanzia 1937 hadi 2077 zinafuata kalenda ya Umm al-Qura, ambayo Saudi Arabia huikokotoa mapema badala ya kusubiri mwezi uandame, ingawa mamlaka bado zinaweza kusogeza mwanzo wa Muharram, Ramadhani, Shawwal au Dhul Hijja kwa siku moja baada ya mwezi kuonekana. Tarehe za kabla ya 1937 ni za kukadiria.",
    "year": "{n} AH"
   },
   "persian": {
@@ -656,7 +656,7 @@ window.TM_I18N["sw"] = {
    "region": "Dawoodi Bohra, Surat",
    "type": "Ya mwezi, ya kijedwali: miezi ya siku 30 na 29, miaka mirefu 11 katika 30",
    "epoch": "Hijra, 622 BK",
-   "used": "Jumuiya ya Dawoodi Bohra duniani kote (takriban milioni moja), kwa Ramadhani, Idi na tarehe zote za kidini",
+   "used": "Jumuiya ya Dawoodi Bohra duniani kote (takriban milioni moja hadi milioni moja na nusu), kwa Ramadhani, Idi na tarehe zote za kidini",
    "note": "Kalenda thabiti ya kihesabu iliyorithiwa kutoka kwa Wafatimi, hivyo Idi ya Wabohra inaweza kuja siku moja au mbili kabla ya ile ya kuandama kwa mwezi — Idi el-Fitri 1445 ilikuwa 9 Aprili 2024, dhidi ya 10 Aprili Saudi Arabia na Pakistan na 11 Aprili katika sehemu kubwa ya India.",
    "year": "{n} AH"
   },

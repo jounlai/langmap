@@ -508,7 +508,7 @@ window.TM_I18N["it"] = {
    "type": "Lunare (senza mese intercalare)",
    "epoch": "L’Egira, il trasferimento di Maometto a Medina, 622 d.C.",
    "used": "Uso religioso in tutto il mondo; ufficiale in Arabia Saudita (tavole Umm al-Qura), anche se dal 2016 gli stipendi pubblici vi sono pagati secondo il calendario gregoriano",
-   "note": "Un anno dura circa 354 giorni, quindi il Ramadan anticipa di circa 11 giorni ogni anno occidentale e percorre tutte le stagioni in 33 anni. Le date dal 1937 al 2077 seguono il calendario Umm al-Qura, che l’Arabia Saudita calcola in anticipo invece di attendere l’avvistamento della luna nuova, anche se le autorità possono ancora spostare di un giorno l’inizio di Ramadan, Shawwal o Dhu l-Hijja dopo un avvistamento. Le date anteriori al 1937 sono approssimative.",
+   "note": "Un anno dura circa 354 giorni, quindi il Ramadan anticipa di circa 11 giorni ogni anno occidentale e percorre tutte le stagioni in 33 anni. Le date dal 1937 al 2077 seguono il calendario Umm al-Qura, che l’Arabia Saudita calcola in anticipo invece di attendere l’avvistamento della luna nuova, anche se le autorità possono ancora spostare di un giorno l’inizio di Muharram, Ramadan, Shawwal o Dhu l-Hijja dopo un avvistamento. Le date anteriori al 1937 sono approssimative.",
    "year": "{n} dell’Egira"
   },
   "persian": {
@@ -656,7 +656,7 @@ window.TM_I18N["it"] = {
    "region": "Dawoodi Bohra, Surat",
    "type": "Lunare, tabulare: mesi di 30 e 29 giorni, 11 anni bisestili su 30",
    "epoch": "L’Egira, 622 d.C.",
-   "used": "La comunità dawoodi bohra nel mondo (circa un milione di fedeli), per il Ramadan, l’Eid e tutte le date religiose",
+   "used": "La comunità dawoodi bohra nel mondo (circa da un milione a un milione e mezzo di fedeli), per il Ramadan, l’Eid e tutte le date religiose",
    "note": "Un calendario aritmetico fisso ereditato dai Fatimidi, perciò l’Eid dei Bohra può cadere un giorno prima di quello stabilito con l’avvistamento della luna — l’Eid al-Fitr 1445 fu il 9 aprile 2024.",
    "year": "{n} dell’Egira"
   },

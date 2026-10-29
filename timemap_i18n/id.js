@@ -508,7 +508,7 @@ window.TM_I18N["id"] = {
    "type": "Bulan (tanpa bulan kabisat)",
    "epoch": "Hijrah, kepindahan Nabi Muhammad ke Madinah, 622 M",
    "used": "Keperluan agama di seluruh dunia; sipil di Arab Saudi (tabel Umm al-Qura)",
-   "note": "Setahun sekitar 354 hari, sehingga Ramadan maju sekitar 11 hari setiap tahun Masehi dan melewati semua musim dalam 33 tahun. Tanggal dari tahun 1937 hingga 2077 mengikuti kalender Umm al-Qura, yang dihitung Arab Saudi jauh-jauh hari alih-alih menunggu rukyat hilal, meskipun pihak berwenang masih dapat menggeser awal Ramadan, Syawal, atau Zulhijah satu hari setelah rukyat. Tanggal sebelum 1937 bersifat perkiraan.",
+   "note": "Setahun sekitar 354 hari, sehingga Ramadan maju sekitar 11 hari setiap tahun Masehi dan melewati semua musim dalam 33 tahun. Tanggal dari tahun 1937 hingga 2077 mengikuti kalender Umm al-Qura, yang dihitung Arab Saudi jauh-jauh hari alih-alih menunggu rukyat hilal, meskipun pihak berwenang masih dapat menggeser awal Muharam, Ramadan, Syawal, atau Zulhijah satu hari setelah rukyat. Tanggal sebelum 1937 bersifat perkiraan.",
    "year": "{n} H"
   },
   "persian": {
@@ -656,7 +656,7 @@ window.TM_I18N["id"] = {
    "region": "Dawoodi Bohra, Surat",
    "type": "Bulan, tabular: bulan 30 dan 29 hari, 11 tahun kabisat dalam 30 tahun",
    "epoch": "Hijrah, 622 M",
-   "used": "Komunitas Dawoodi Bohra di seluruh dunia (sekitar satu juta orang), untuk Ramadan, Idulfitri dan Iduladha, dan semua tanggal keagamaan",
+   "used": "Komunitas Dawoodi Bohra di seluruh dunia (sekitar satu hingga satu setengah juta orang), untuk Ramadan, Idulfitri dan Iduladha, dan semua tanggal keagamaan",
    "note": "Kalender aritmetis tetap warisan Dinasti Fatimiyah, sehingga Lebaran kaum Bohra bisa jatuh sehari sebelum yang ditetapkan dengan rukyat — Idulfitri 1445 jatuh pada 9 April 2024.",
    "year": "{n} H"
   },

@@ -508,7 +508,7 @@ window.TM_I18N["de"] = {
    "type": "Lunar (ohne Schaltmonat)",
    "epoch": "Die Hidschra, Mohammeds Auswanderung nach Medina, 622 n. Chr.",
    "used": "Weltweit religiös genutzt; in Saudi-Arabien amtlich (Umm-al-Qura-Tabellen), doch staatliche Gehälter werden dort seit 2016 nach dem gregorianischen Kalender gezahlt",
-   "note": "Ein Jahr hat etwa 354 Tage, daher rückt der Ramadan jedes westliche Jahr etwa 11 Tage nach vorn und durchläuft in 33 Jahren alle Jahreszeiten. Die Datumsangaben von 1937 bis 2077 folgen dem Umm-al-Qura-Kalender, den Saudi-Arabien im Voraus berechnet, statt auf die Sichtung der Mondsichel zu warten; dennoch können die Behörden den Beginn von Ramadan, Schawwal oder Dhu l-hiddscha nach einer Sichtung um einen Tag verschieben. Datumsangaben vor 1937 sind Näherungswerte.",
+   "note": "Ein Jahr hat etwa 354 Tage, daher rückt der Ramadan jedes westliche Jahr etwa 11 Tage nach vorn und durchläuft in 33 Jahren alle Jahreszeiten. Die Datumsangaben von 1937 bis 2077 folgen dem Umm-al-Qura-Kalender, den Saudi-Arabien im Voraus berechnet, statt auf die Sichtung der Mondsichel zu warten; dennoch können die Behörden den Beginn von Muharram, Ramadan, Schawwal oder Dhu l-hiddscha nach einer Sichtung um einen Tag verschieben. Datumsangaben vor 1937 sind Näherungswerte.",
    "year": "{n} n. H."
   },
   "persian": {
@@ -656,7 +656,7 @@ window.TM_I18N["de"] = {
    "region": "Dawoodi Bohra, Surat",
    "type": "Lunar, tabellarisch: Monate zu 30 und 29 Tagen, 11 Schaltjahre in 30",
    "epoch": "Die Hidschra, 622 n. Chr.",
-   "used": "Die Gemeinschaft der Dawoodi Bohra weltweit (etwa eine Million), für Ramadan, Eid und alle religiösen Daten",
+   "used": "Die Gemeinschaft der Dawoodi Bohra weltweit (etwa ein bis eineinhalb Millionen), für Ramadan, Eid und alle religiösen Daten",
    "note": "Ein fester arithmetischer Kalender, von den Fatimiden übernommen; daher kann das Eid der Bohra einen Tag vor dem nach Mondsichtung bestimmten liegen – Eid al-Fitr 1445 war am 9. April 2024.",
    "year": "{n} n. H."
   },

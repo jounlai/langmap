@@ -508,7 +508,7 @@ window.TM_I18N["es"] = {
    "type": "Lunar (sin mes intercalar)",
    "epoch": "La Hégira, el traslado de Mahoma a Medina, 622 d. C.",
    "used": "Uso religioso en todo el mundo; oficial en Arabia Saudí (tablas de Umm al-Qura), aunque desde 2016 los sueldos públicos se pagan allí según el calendario gregoriano",
-   "note": "Un año dura unos 354 días, así que el ramadán se adelanta unos 11 días cada año occidental y recorre todas las estaciones en 33 años. Las fechas de 1937 a 2077 siguen el calendario de Umm al-Qura, que Arabia Saudí calcula de antemano en lugar de esperar al avistamiento de la luna nueva, aunque las autoridades aún pueden desplazar un día el inicio del ramadán, el shawwal o el dulhiyya tras un avistamiento. Las fechas anteriores a 1937 son aproximadas.",
+   "note": "Un año dura unos 354 días, así que el ramadán se adelanta unos 11 días cada año occidental y recorre todas las estaciones en 33 años. Las fechas de 1937 a 2077 siguen el calendario de Umm al-Qura, que Arabia Saudí calcula de antemano en lugar de esperar al avistamiento de la luna nueva, aunque las autoridades aún pueden desplazar un día el inicio del muharram, el ramadán, el shawwal o el dulhiyya tras un avistamiento. Las fechas anteriores a 1937 son aproximadas.",
    "year": "del año {n} de la Hégira"
   },
   "persian": {
@@ -656,7 +656,7 @@ window.TM_I18N["es"] = {
    "region": "Bohras dawoodi, Surat",
    "type": "Lunar, tabular: meses de 30 y 29 días, 11 años bisiestos de cada 30",
    "epoch": "La Hégira, 622 d. C.",
-   "used": "La comunidad bohra dawoodi de todo el mundo (cerca de un millón de personas), para el ramadán, el Eid y todas las fechas religiosas",
+   "used": "La comunidad bohra dawoodi de todo el mundo (entre un millón y un millón y medio de personas, aproximadamente), para el ramadán, el Eid y todas las fechas religiosas",
    "note": "Es un calendario aritmético fijo heredado de los fatimíes, así que el Eid de los bohras puede caer un día antes que el fijado por la observación de la luna: el Eid al-Fitr de 1445 fue el 9 de abril de 2024.",
    "year": "del año {n} de la Hégira"
   },

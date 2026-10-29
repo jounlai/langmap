@@ -374,6 +374,27 @@ WORDS.whale = {
     tab: "other",
     cab: "unknown",
     mdf: "plain",
+    cr: "fish",
+    xal: "unknown",
+    vro: "fish",
+    abq: "unknown",
+    crs: "plain",
+    mh: "plain",
+    pon: "plain",
+    ch: "plain",
+    mrj: "plain",
+    rm: "plain",
+    srm: "unknown",
+    an: "plain",
+    cho: "fish",
+    hsb: "fish",
+    tvl: "plain",
+    rar: "plain",
+    pau: "unknown",
+    frr: "fish",
+    mwl: "plain",
+    tok: "fish",
+    yrk: "unknown",
   },
   routes: {
     fish: {"color":"#2563eb","emoji":"🐟","en":"called a fish","ja":"「魚」と呼ぶ","ko":"\"물고기\"라 부름","zh":"称作\"鱼\"","yue":"叫做「魚」","vi":"gọi là cá","th":"เรียกว่าปลา","id":"disebut ikan","hi":"मछली कहा जाता है","de":"als Fisch bezeichnet","fr":"appelée poisson","it":"chiamata pesce","es":"llamada pez","pt":"chamada peixe","ru":"называют рыбой","uk":"називають рибою","ar":"تُسمّى سمكة","he":"נקרא דג","sw":"huitwa samaki"},
@@ -693,5 +714,26 @@ WORDS.whale = {
     tab: ["гьюлин аждагьа", "hylin aʒdaha"],  // Literally 'the sea's аждагьа': гьюл 'sea' plus аждагьа, the Dagestani word for a dragon or crocodile; the Northern (Khanag) dialect says кит instead.
     cab: ["údu", "udu"],  // Glossed 'whale, ballena' by the Garifuna Living Dictionary, with the example Hulú lumuti údu Jonah 'the whale swallowed Jonah'.
     mdf: ["кит", "kit"],  // Borrowed from Russian кит, as in Erzya.
+    cr: ["ᒥᓯ ᐚᐸᒣᐠ", "misiwaːpameːk"],  // Literally 'big white-fish': misi- 'big' plus wâpamêk, which Wolvengrey glosses 'beluga, porpoise, whale, fish'; Northern Cree says mistamêk 'big fish'.
+    xal: ["тул", "tul"],  // The Kalmyk word for the whale, also the name of the taimen, a large Siberian fish; Wiktionary also lists тул заһсн 'whale fish'.
+    vro: ["valaskala", "vɑlɑskɑlɑ"],  // Literally 'whale-fish', with kala 'fish', like Finnish valaskala; the Võro dictionary also gives plain valas, as in sinivalas 'blue whale'.
+    abq: ["гьей", "ɡʲej"],  // The Abaza word for the whale; Abaza linguist T. Murtazov calls its etymology unknown, perhaps a cry of amazement at the animal's size.
+    crs: ["labalenn", "labalɛn"],  // From French la baleine, with the French article fused onto the word, as in Mauritian labalenn.
+    mh: ["raj", "rˠætʲ"],  // Inherited from Proto-Micronesian *rato 'whale', cognate with Gilbertese ato.
+    pon: ["roahs", "rɔːs"],  // Inherited from Proto-Micronesian *rato 'whale', cognate with Marshallese raj and Kosraean loat.
+    ch: ["bayena", "baˈdzena"],  // Borrowed from Spanish ballena; von Preissig's 1918 dictionary also gives the older word saltingai.
+    mrj: ["кит", "kit"],  // Borrowed from Russian кит, used in the Hill Mari New Testament and Wikipedia for the whale.
+    rm: ["balena", "baˈlena"],  // From Latin balaena, as in Italian balena; feminine, plural balenas.
+    srm: ["laláo", "laláo"],  // The Saramaccan word for the whale in SIL's Saramaccan–English dictionary; its origin is not given there.
+    an: ["ballena", "baˈʎena"],  // Inherited from Latin ballaena, itself from Greek phállaina.
+    cho: ["nani chito", "nani tʃito"],  // Literally 'big fish': nʋni 'fish' plus chito 'big'; the Choctaw Bible uses nʋni chito for Jonah's whale in Matthew 12:40.
+    hsb: ["wjelryba", "ˈɥɛlrɨba"],  // Literally 'great fish', the same Slavic compound as Polish wieloryb; the Upper Sorbian Wikipedia notes that whales are not fish despite the Sorbian name.
+    tvl: ["tafolā", "tafolaː"],  // Inherited from Proto-Nuclear-Polynesian *tafolaqa 'whale', like Samoan tafolā; the Tuvaluan dictionary glosses it 'dolphin, whale'.
+    rar: ["toʻorā", "toʔoɾaː"],  // Inherited from Polynesian *toforaa, cognate with New Zealand Māori tohorā; the Cook Islands government named its whale sanctuary Ra'ui To'ora.
+    pau: ["medob", "məˈðob"],  // The Palauan word for the whale; the Palauan Language Commission dictionary defines its synonym chelechil as 'a medob', and Kuzira, from Japanese kujira, is also used.
+    frr: ["wålfasch", "ˈvɔlfaʃ"],  // Literally 'whale-fish', with fasch 'fish', like German Walfisch.
+    mwl: ["baleia", "bɐˈlejɐ"],  // From Latin ballaena, the same word as Portuguese baleia; the Mirandese Wikipedia uses baleia and baleias throughout.
+    tok: ["kala suli", "kala suli"],  // Literally 'big sea creature': kala, the word for fish that also covers whales and dolphins, plus suli 'big'.
+    yrk: ["халэʼ", "xaleʔ"],  // The Tundra Nenets word for the whale, recorded by Pyrerka (1948), Homich (1954) and Tereshchenko (1965); it is distinct from халя 'fish'.
   },
 };

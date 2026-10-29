@@ -547,6 +547,36 @@ WORDS.grandmother = {
     gil: "one",
     cnh: "unknown",
     dng: "split",
+    pwn: "unknown",
+    tay: "unknown",
+    bnn: "unknown",
+    vro: "unknown",
+    dsh: "unknown",
+    emp: "unknown",
+    toj: "unknown",
+    kjb: "unknown",
+    gay: "split",
+    mzh: "unknown",
+    cuk: "unknown",
+    crs: "unknown",
+    ch: "one",
+    dur: "one",
+    trv: "unknown",
+    rm: "unknown",
+    djk: "unknown",
+    shp: "unknown",
+    cni: "unknown",
+    dds: "one",
+    otq: "unknown",
+    kjh: "unknown",
+    an: "unknown",
+    kmh: "one",
+    tkr: "unknown",
+    cho: "one",
+    rar: "one",
+    apw: "split",
+    ers: "one",
+    frr: "unknown",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -1038,5 +1068,35 @@ WORDS.grandmother = {
     gil: ["tibu", "ˈsibu"],  // One word for any grandparent on either side, and also for a grandchild; from Proto-Oceanic *tibu 'ancestor, grandparent'.
     cnh: ["pi", "pi"],  // Hakha Lai pîi 'grandmother', from Tibeto-Burman *pəy 'grandmother'.
     dng: ["нэнэ", "nɛ˥˩nɛ˨˦"],  // 奶奶 'father's mother'; the mother's mother is ви3нэ2нэ1 (外奶奶, 'outside grandmother').
+    pwn: ["vuvu", "vuvu"],  // Means any grandparent (and, reciprocally, a grandchild); the ILRDF dictionary glosses it both 爺爺 'grandfather' and 奶奶 'grandmother', and KinBank gives vuvu for both the father's and the mother's mother.
+    tay: ["yakiʼ", "jakiʔ"],  // One word for either grandmother: the ILRDF dictionary glosses yaki' as 奶奶、外婆 (father's and mother's mother) and also 'mother-in-law'.
+    bnn: ["cinahudas", "tsinahudas"],  // Built on cina 'mother' and hudas 'grandparent'; the ILRDF dictionary glosses it 'female elder (grandmother; maternal grandmother; mother-in-law)', one word for either side.
+    vro: ["vanaimä", "ˈvɑnɑimæ"],  // Literally 'old mother' (vana + imä), like Estonian vanaema; the dictionary also lists dialect (vana)memm and mamma.
+    dsh: ["dhuunna", "ðuːna"],  // The Daasanach word for grandmother, plural đunaam; the call 'Grandma!' is đúúná. Spelled here with dh as in this row's other words (the newer alphabet writes đ).
+    emp: ["papadyora", "ˈpapaˌdʒoɾa"],  // Literally 'old-woman mother' (papa 'mother' + dyora 'old woman'); one word for either grandmother, the grandfather being zezadrõã.
+    toj: ["meʼxep", "meʔʃep"],  // One word for either grandmother: the Tojolabal Bible calls both King Asa's father's mother Maacah and Timothy's mother's mother Lois meʼxep; the grandfather is tatawelo.
+    kjb: ["chikay", "tʃikaj"],  // The Qʼanjobʼal word for grandmother; one dictionary glosses it 'mother's mother' and another 'father's mother', and the grandfather mamin is recorded for both sides; the 1989 Bible instead says txutx ixnam 'old mother'.
+    gay: ["anan pedih", "anan pədih"],  // Father's mother; mother's mother: anan alik, matching awan pedih and awan alik for the two grandfathers.
+    mzh: ["lakatela", "lakatela"],  // 'His/her grandmother', written with the third-person possessive like this row's lako 'mother'; one word for either grandmother (KinBank), and the Wichí Bible uses it of King Asa's father's mother Maacah.
+    cuk: ["muu", "muː"],  // One word for either grandmother: the Kuna Bible calls both King Asa's father's mother Maacah and Timothy's mother's mother Lois muu.
+    crs: ["granmanman", "ɡrãmãmã"],  // From French grand-maman; one word for either grandmother, used in the Seychelles Kreol Bible both of King Asa's father's mother and of Timothy's mother's mother Lois (granmer and grani also occur).
+    ch: ["guella", "ˈɡwella"],  // Borrowed from Spanish abuela; Rota spells it guela'. Preissig (1918) gives guela for both the father's and the mother's mother.
+    dur: ["àʼá", "aʔa"],  // Glossed as the mother of either the father or the mother, for a man or a woman; it also means 'ancestor' and is a title of respect for a woman.
+    trv: ["payi", "paji"],  // Glossed both 祖母 'father's mother' and 外婆 'mother's mother'; it also covers the mother-in-law and any woman of the grandmother's generation.
+    rm: ["tatta", "ˈtata"],  // The standard Rumantsch Grischun word; nona is the affectionate form.
+    djk: ["gaanmama", "ɡaːnmama"],  // Literally 'great mother' (gaan 'great' + mama 'mother'), beside gaandada 'grandfather'; addressed as Gaanmma.
+    shp: ["titayoshan", "titajoʃan"],  // Built on tita 'mother' and yoshan 'old woman'; used for a grandmother on either side, though the mother's mother can also be called chichi.
+    cni: ["isha", "iʃa"],  // Kindberg cross-refers it to nosaro 'my grandmother', which also means 'my granddaughter'; the vocative is nato.
+    dds: ["yannaana", "jannaːna"],  // Heath glosses it 'old woman' or 'grandmother (either side)'; ndaa-pay, with pay 'old', is another word for grandmother.
+    otq: ["txu", "tʃu"],  // Santiago Mexquititlán Otomi, beside xita 'grandfather' and botxu 'great-grandmother'; families there also use the Spanish loans gwela and bwela.
+    kjh: ["ууӌа", "uːˈdʒa"],  // The literary Khakas word, nearly always used with a possessive suffix (vocative ууӌаң); dialects use other forms such as ааӌа (Kyzyl) and тай- compounds for the mother's side.
+    an: ["agüela", "aˈɣwela"],  // Feminine of agüelo 'grandparent', from Latin aviolus, used for the mother of either parent; the affectionate form is yaya.
+    kmh: ["aps", "apəs"],  // From Proto-Trans-New Guinea *apus[i] 'grandparent'; the same word is used for the father's and the mother's mother, and aps-basd 'grandmother-grandfather' means 'grandparents'.
+    tkr: ["адей", "adej"],  // Also кьаӏсда едʼ, literally 'old mother'; the Gelmets dialect says адяй.
+    cho: ["ippokni", "ippokni"],  // 'Grandmother, or his/her grandmother' (ʋppokni 'my grandmother'); Byington notes that the same word also covers the grandmother's sisters, and Morgan's 1871 schedules give it for both the father's and the mother's mother.
+    rar: ["māmā rūʻau", "maːmaː ɾuːʔau"],  // Literally 'old mother', also used for a great-grandmother; the grandparent word tupuna does not distinguish the father's from the mother's side.
+    apw: ["shichʼiné", "ʃitʃʼiné"],  // 'My grandmother' on the father's side (reciprocally also a woman's word for her son's child); the mother's mother is shiwóyé, recorded by Opler as cìtcóˑ.
+    ers: ["ɑwɑ", "ɑ˧˧wɑ˥˥"],  // Kinship prefix ɑ- plus wɑ; traditionally the same word covers the father's and the mother's mother (and any old woman), though younger speakers now call the mother's mother pópó, borrowed from Mandarin.
+    frr: ["åål", "ɔːl"],  // The Mooring word for grandmother (also 'Oma'), paired with åte 'grandfather' (åål än åte 'grandparents'); åålensmam is a longer synonym.
   },
 };

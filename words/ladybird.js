@@ -228,6 +228,12 @@ WORDS.ladybird = {
     ky: "unknown",
     mn: "other",
     kab: "unknown",
+    bs: "holy",
+    zza: "other",
+    cv: "other",
+    ba: "unknown",
+    egl: "other",
+    sco: "unknown",
   },
   routes: {
     holy: {"color":"#7c3aed","emoji":"😇","en":"Mary · God · a saint","ja":"聖母・神・聖人","ko":"성모 · 하느님 · 성인","zh":"圣母・上帝・圣人","yue":"聖母 · 上帝 · 聖人","vi":"Đức Mẹ · Chúa · thánh","th":"พระแม่ · พระเจ้า · นักบุญ","id":"Bunda Maria · Tuhan · santo","hi":"मरियम · ईश्वर · संत","de":"Maria · Gott · Heilige","fr":"Marie · Dieu · un saint","it":"Maria · Dio · un santo","es":"María · Dios · un santo","pt":"Maria · Deus · um santo","ru":"Богородица · Бог · святой","uk":"Богородиця · Бог · святий","ar":"مريم · الله · قديس","he":"מרים · האל · קדוש","sw":"Maria · Mungu · mtakatifu"},
@@ -399,5 +405,11 @@ WORDS.ladybird = {
     ky: ["өөдөкөч", "øːdøˈkøtʃ"],  // The Kyrgyz name of the spotted ladybirds; the seven-spot ladybird is жети чекиттүү өөдөкөч.
     mn: ["шүрэн цох", "ʃuren tsʰɔx"],  // Literally "coral beetle", from шүр "coral" and цох "beetle".
     kab: ["tamyigrant", "tamjiɡrant"],  // The Kabyle Wikipedia's headword for the ladybird; it also lists takunda and mrim n igran.
+    bs: ["bubamara", "bubaˈmaːra"],  // Literally 'bug-Mary', buba 'bug' + Mara, a form of Mary, as in Croatian and Serbian.
+    zza: ["xalxalok", "xalxaˈlok"],  // The Zaza name of the ladybird family, the same word as Kurmanji xalxalok 'little spotty-spotty'; route by resemblance to the Kurmanji form, as no Zaza etymology was found.
+    cv: ["вирвитса", "virvitˈsa"],  // Built from вир with the diminutive suffix -итса; the Chuvash Wikipedia uses it as its headword and lists many folk synonyms such as уяр кайӑк and хир кукамайӗ.
+    ba: ["ҡамҡа", "qɑmˈqɑ"],  // The Bashkir name of the ladybird, the same word as Tatar камка; the Bashkir Wikipedia names the species with it, e.g. ете нөктәле ҡамҡа 'seven-spot ladybird'.
+    egl: ["viôla", "ˈvjoːla"],  // In Bolognese the ladybird shares its name with viôla 'violet', from Latin viola.
+    sco: ["clockleddy", "ˈklɔkledi"],  // Literally 'beetle-lady', from Scots clock 'beetle' (recorded since c.1550) and leddy 'lady'; it is the word in the Scots edition of Julia Donaldson's ladybird book, Whit the Clockleddy Heard.
   },
 };

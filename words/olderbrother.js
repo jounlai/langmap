@@ -689,6 +689,23 @@ WORDS.olderbrother = {
     maz: "unknown",
     saq: "unknown",
     nch: "unknown",
+    sip: "age",
+    toj: "age",
+    poh: "age",
+    ixl: "age",
+    dsh: "age",
+    dur: "age",
+    bbo: "age",
+    dbq: "plain",
+    ekp: "age",
+    dds: "age",
+    cho: "age",
+    rtm: "age",
+    yrk: "age",
+    ddo: "plain",
+    huv: "age",
+    ygr: "age",
+    tcs: "plain",
   },
   routes: {
     age: {"color":"#db2777","emoji":"👆","en":"a word just for an older brother","ja":"兄だけを指す語","ko":"형만 가리키는 낱말","zh":"专指哥哥的词","yue":"專指哥哥嘅詞","vi":"từ riêng cho anh","th":"คำเฉพาะสำหรับพี่ชาย","id":"kata khusus untuk kakak","hi":"बड़े भाई का अलग शब्द","de":"eigenes Wort für den älteren Bruder","fr":"un mot propre au frère aîné","it":"una parola solo per il fratello maggiore","es":"una palabra solo para el hermano mayor","pt":"uma palavra só para o irmão mais velho","ru":"отдельное слово для старшего брата","uk":"окреме слово для старшого брата","ar":"كلمة خاصة بالأخ الأكبر","he":"מילה מיוחדת לאח הגדול","sw":"neno maalum kwa kaka mkubwa"},
@@ -1319,5 +1336,22 @@ WORDS.olderbrother = {
     maz: ["cjuarma", "kʰwaɾma"],  // Mazahua cjuarma is 'brother' in the Mazahua New Testament; no source seen says whether there is a separate older-brother word.
     saq: ["lalache", "lalatʃe"],  // Samburu lalache is 'brother' in the Samburu Bible, the counterpart of Maasai ɔlalashɛ; no source seen says whether an older brother has his own word.
     nch: ["noicni", "noˈikni"],  // Huasteca Nahuatl -icni 'brother' (here with no- 'my', like the row's other kin words) is used in the Bible for both the younger Abel and the older Esau.
+    sip: ["ཨ་ཅུ", "atɕu"],  // Sikkimese splits brothers by age: átɕu (or ágja) is an elder brother, pynlo a younger one; tone not marked, as elsewhere in this row.
+    toj: ["bʼankil", "ɓankil"],  // Bʼankil is a man's older brother, and also any man somewhat older than oneself; a woman calls her older brother nuʼ, and a younger brother is ʼijtsʼinal (Lenkersdorf).
+    poh: ["asbʼees", "asɓeːs"],  // Asbʼees is an older sibling, brother or sister (was 'my older sibling'); a younger one is chaqʼbʼees (Dobbels 2003).
+    ixl: ["atzik", "atsik"],  // Ixil atzik is an older sibling (t-atzik 'his/her older sibling', citation form atzika); a younger one is itzʼin (ALMG vocabulary).
+    dsh: ["angʼa", "aŋa"],  // Daasanach angʼa is an older brother (angʼachú 'my older brother', angʼa guđúá 'eldest brother'); the general word for a brother or sibling is nyaar.
+    dur: ["dag nìì", "daɡ nii"],  // Dii has no plain word for a man's brother: dag nìì is the older one ('elder' nii) and dag sá̧ŋ́ the younger; a woman says dag yée for a brother of either age, and addresses an older brother as bàa nii.
+    bbo: ["pɩrayi", "pɪraji"],  // Konabéré pɩrayi, 'the big one', is an older brother, and yagɩlayi a younger one; liree is any sibling. The dictionary marks pɩrayi with its Ts dialect label.
+    dbq: ["gàlà", "ɡàlà"],  // Daba gala is a sibling of the same mother; an older brother is galamay maday, 'my big sibling', and a younger one galamay ma kedirek.
+    ekp: ["nwanịkanì", "nwanɪkani"],  // Ekpeye nwanịkanì is an elder sibling or cousin and nwanekè a younger one, beside plain nwanā 'sibling'; Blench's dictionary also lists ŋanịƙanị̀ 'senior brother'.
+    dds: ["dele", "dele"],  // Donno So délè is a man's older brother (an older same-sex sibling) and súŋɔ̀ a younger one; a woman calls her brother of any age sánà (Heath's Dogon lexicon).
+    cho: ["akni", "akni"],  // Akni is an older brother of a man (or older sister of a woman); a younger one is nakfish, and a woman's brother is nakfi.
+    rtm: ["sạsigi", "sɔˈsiŋi"],  // Sạsigi is a man's older brother (or a woman's older sister); a younger one is sạsiga, and a woman's brother is sạgvavane.
+    yrk: ["нинека", "ˈnʲinʲeka"],  // Нинека is an older brother (also a father's younger brother); a younger brother is папа, and ня is a sibling or friend.
+    ddo: ["эсйу", "esju"],  // Tsez has no separate word: an older brother is an эжени эссу, 'big brother', and a younger one an эгъве эссу, 'small brother'.
+    huv: ["micojaran", "mikoharan"],  // Micojaran is an older sibling, brother or sister (micoj naxey 'his married older brother'); a younger one is michiigueran, and coj is the word of address.
+    ygr: ["eʼagoʼa", "eʔaɡoʔa"],  // Eʼagoʼa is a man's older brother (apaʼa is the term of address); a younger same-sex sibling is aganaʼa, and saʼa is a sibling of the opposite sex of any age.
+    tcs: ["bala", "bala"],  // Torres Strait Creole has no separate word: an older brother is a big brada, 'big brother', and a younger one a smol brada; bala and brada (both from English 'brother') are synonyms.
   },
 };

@@ -328,6 +328,43 @@ WORDS.littlefinger = {
     mas: "unknown",
     rgn: "small",
     quz: "child",
+    nyo: "small",
+    aii: "unknown",
+    os: "child",
+    lus: "small",
+    tzh: "child",
+    yua: "child",
+    gaa: "unknown",
+    new: "unknown",
+    dtp: "unknown",
+    mt: "small",
+    kaa: "unknown",
+    ng: "unknown",
+    lij: "small",
+    oc: "small",
+    wa: "small",
+    fur: "small",
+    xmf: "small",
+    tyv: "small",
+    inh: "unknown",
+    bxr: "unknown",
+    fj: "small",
+    pap: "small",
+    nxq: "unknown",
+    pis: "small",
+    br: "small",
+    bi: "small",
+    dng: "small",
+    co: "small",
+    tab: "small",
+    ja_oki: "small",
+    to: "small",
+    ty: "small",
+    gag: "small",
+    ast: "unknown",
+    lbe: "unknown",
+    ami: "unknown",
+    cnh: "unknown",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -601,5 +638,42 @@ WORDS.littlefinger = {
     mas: ["enkilinta", "eŋkilinta"],  // The everyday Maasai word covers both the little finger and the little toe; northern Maa dialects say lenkitórdia instead.
     rgn: ["did znìn", "did znin"],  // Literally 'small finger' (did 'finger' + znìn 'small'), the partner of did gròṣ 'big finger' for the thumb; Ercolani also lists mégnul, like Italian mignolo.
     quz: ["sullkʼa rukʼana", "suʎkʼa ɾukʼana"],  // Literally 'the younger finger' (sullkʼa 'younger, minor' + rukʼana 'finger'); the Cusco Academy also gives chana rukʼana, with chana 'the last-born child'.
+    nyo: ["akaara", "akaːra"],  // A diminutive of ekyara 'finger' (class-12 prefix aka-), so literally the 'small finger'; the Runyoro-Rutooro Bible 2008 has 'Akaara kange akaheereera, nikakira ebibero bya isenyowe' ('my little finger is thicker than my father's loins', 1 Kings 12:10).
+    aii: ["ܚܨܪܐ", "xisˤra"],  // Built on the root ḥ-ṣ-r and related to Arabic خنصر; it also names the little toe, and the Assyrian Bible paraphrases with ܨܸܒܥܵܐ ܙܥܘܿܪܬܵܐ 'small finger' in 1 Kings 12:10.
+    os: ["кӕстӕр ӕнгуылдз", "kæstær ænɡʷɨldz"],  // Literally the 'youngest finger': кӕстӕр means 'younger, youngest', as in кӕстӕр лӕппу 'youngest son'; the Ossetian Bible has „Мӕ кӕстӕр ӕнгуылдз мӕ фыды агъдӕй ставддӕр у' (1 Kings 12:10).
+    lus: ["kutzungtê", "kutzuŋte"],  // Literally 'hand-finger-small' (kut 'hand' + zung 'finger' + tê 'small'), and the ring finger is kutzungtê-u, the little finger's 'elder sibling'; the Mizo Bible has 'ka kutzungtê pawh hi ka pa kâwng ai chuan a khauh vang' (1 Kings 12:10).
+    tzh: ["xutil kʼab", "ʃutil kʼaɓ"],  // Literally the 'youngest-child of the hand' (xut 'youngest son or daughter' + kʼab 'hand'); Cancuc and Oxchuc say chʼut instead, and the Bachajón Bible writes xutul yal jcʼab 'my hand's little youngest finger' (1 Kings 12:10).
+    yua: ["tʼuup", "tʼuːp"],  // The same word means the youngest child of a family, so the little finger is the 'youngest one'.
+    gaa: ["wao sɛɛkpelɔ", "wao sɛːkpelɔ"],  // Wao is 'finger'; both Ga Bibles use the phrase in 1 Kings 12:10, 'Miwao sɛɛkpelɔ ti fe mitsɛ hɛ' ('my little finger is thicker than my father's waist'), but the second element is not explained in the sources seen.
+    new: ["कान्छी पति", "kaːntɕʰi pəti"],  // Ends in पति 'finger'; the Newar Bible has 'जिमि बौया जँ स्‍वयाः जिगु कान्छी पतिं हे तःत्‍याः' ('my little finger is thicker than my father's waist', 1 Kings 12:10).
+    dtp: ["gontikis", "ɡontikis"],  // A word of its own for the little finger; its make-up is not explained in the source.
+    mt: ["suba' ż-żgħir", "suba zzɛjr"],  // Literally 'the small finger' (suba' 'finger' + żgħir 'small'); the Maltese Bible has 'Sebgħi ż-żgħir eħxen minn ġenbejn missieri' ('my little finger is thicker than my father's loins', 1 Kings 12:10).
+    kaa: ["shunatay barmaq", "ʃunataj barmaq"],  // shunatay + barmaq 'finger'; the 2022 Karakalpak Bible has 'Meniń shunatay barmaǵım ákemniń belinen de juwanıraq' ('my little finger is thicker than my father's waist', 1 Kings 12:10); no dictionary entry was found.
+    ng: ["okanwegona", "okanweɡona"],  // Its make-up is not explained in a dictionary; the Ndonga Bible has 'Okanwegona kandje okanene ke vule oombwetelo dhatate' ('my little finger is bigger than my father's loins', 1 Kings 12:10, worded the same in 2 Chronicles 10:10).
+    lij: ["marmelin", "marmeˈliŋ"],  // From Latin minimellinus, a diminutive built on minimus 'smallest' (Flechia 1876); also called dio marmello.
+    oc: ["det pichon", "det piˈtʃu"],  // Simply the 'small finger' (det 'finger' + pichon 'small'); Occitan also says det menèl or det coïc.
+    wa: ["pitit doet", "piˈti dwɛ"],  // Simply the 'small finger' (pitit 'small' + doet 'finger'), often written ptit doet; nursery rhymes also call it pitit kerton or pitit courtåd.
+    fur: ["dêt piçul", "deːt ˈpitʃul"],  // Simply the 'small finger' (dêt 'finger' + piçul 'small'), used for the little toe too.
+    xmf: ["ჭიჭე კითი", "tʃʼitʃʼe kʼitʰi"],  // Literally 'small finger' (ჭიჭე 'small' + კითი 'finger'), named alongside ჩანკითი for the thumb and შქა კითი 'middle finger'.
+    tyv: ["биче-салаа", "bitɕe salaː"],  // Literally 'small finger' (биче 'small' + салаа 'finger'), the partner of улуг салаа 'big finger'; the Tuvan Bible has Мээң биче салаам ачамның белинден чоон at 1 Kings 12:10.
+    inh: ["цӏаза пӏелг", "tsʼaza pʼelɡ"],  // Ends in пӏелг 'finger', as боккха пӏелг 'big finger' does for the thumb; the dictionaries seen do not explain цӏаза.
+    bxr: ["шэгшы хурган", "ʃeɡʃi xurɡaŋ"],  // шэгшы, the Buryat counterpart of Mongolian чигчий, followed by хурган 'finger'; the Buryat Bible has Минии шэгшы хурган эсэгымни бэлхүүһэнһээ бүдүүн юм at 1 Kings 12:10.
+    fj: ["qaqalo lailai", "ŋɡaŋɡalo lailai"],  // Literally 'small finger' (qaqalo 'finger' + lailai 'small'), the partner of qaqalo levu 'big finger'; Fijian Bibles from 1864 on have A noqu i qaqalo lailai at 1 Kings 12:10.
+    pap: ["dede chikí", "dede tʃiki"],  // Literally 'small finger' (dede 'finger' + chikí 'small', from Spanish chico); the 2013 Papiamentu Bible has Mi dede chikí ta mas diki ku mi tata su sintura at 1 Kings 12:10.
+    nxq: ["alqersso", "ɑ˥tɕʰɚ˧zø˧"],  // A word of its own for the little finger in the Naxi Webonary dictionary, which also lists the variants ailqersseel and ailqerssif.
+    pis: ["smolfala fingga", "smolfala fiŋɡa"],  // Literally 'small finger' (smolfala 'small' + fingga 'finger'), the partner of bikfala fingga 'big finger' for the thumb; the Pijin Bible has smolfala fingga blong mi at 1 Kings 12:10.
+    br: ["biz-bihan", "bizˈbiːɑ̃n"],  // Simply the 'small finger' (biz 'finger' + bihan 'small'); the 2021 Koad21 Bible writes 1 Kings 12:10 'Va biz bihan a zo tevoc'h eget divgroazell va zad'.
+    bi: ["smol fingga", "smol fiŋɡa"],  // Literally 'small finger', the partner of bigfala fingga for the thumb; the Bislama Bible has 1 Kings 12:10 'smol fingga ya blong mi i strong moa'.
+    dng: ["гамузы", "ka˨˦mu˥˩tsɹ̩˨˦"],  // Literally 'small thumb-finger': 尕 is the northwestern Chinese word for 'small', the same word as Lanzhou 尕拇指.
+    co: ["ditucciu", "diˈtuttʃu"],  // Built on ditu 'finger' with the diminutive -ucciu, so 'the little finger'; other villages say ditu mignulellu or ditu chjucu.
+    tab: ["бицӏи тӏуб", "bitsʼi tʼub"],  // Literally 'small finger' (бицӀи 'small' + тӀуб 'finger'); the Tabasaran Bible has 1 Kings 12:10 'Йиз хлин бицӀи тӀуб'.
+    ja_oki: ["指んぐゎー", "ʔiːbiŋɡwaː"],  // いーび 'finger' with the diminutive んぐゎー, written 小 or 子 ('small; child'), so 'the little finger'.
+    to: ["tuhu siʻi", "tuhu siʔi"],  // Literally 'small finger' (tuhu 'finger' + siʻi 'small'); the Moulton Bible has 1 Kings 12:10 ''Oku fuolahi ange hoku tuhu siʻi 'i he kongaloto 'o ...'.
+    ty: ["rima iti", "ɾima iti"],  // Literally 'small finger' (rima 'hand, finger' + iti 'small'), the partner of rima rahi for the thumb; the Tahitian Bible has 1 Kings 12:10 'E rahi tau rima iti nei i te tauupu o tau metua'.
+    gag: ["küçük parmak", "kytʃyk parmak"],  // Literally 'small finger' (küçük 'small' + parmak 'finger'), like Turkish küçük parmak, the partner of baş parmak for the thumb.
+    ast: ["moñín", "moˈɲin"],  // DALLA's main headword for the little finger (also deu moñín); meñín and pequeñín 'the tiny one' are synonyms.
+    lbe: ["битӏя кӏисса", "bitʼja kʼisːa"],  // Ends in кӏисса 'finger'; the meaning of битӏя is not given in the source.
+    ami: ["salikikiʼ", "salikikiʔ"],  // Built with sali-, like salitataʼang 'thumb' from tataʼang 'big'; the dictionary does not gloss kikiʼ.
+    cnh: ["hngete", "hŋete"],  // The word the 2019 Lai Bible uses in 1 Kings 12:10: 'Ka hngete cu ka pa tai nakin a chah deuh' (my little finger is thicker than my father's waist).
   },
 };

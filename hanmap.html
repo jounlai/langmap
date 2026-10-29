@@ -268,6 +268,19 @@
             src: url('fonts/NotoSerifKR-OldHangul.woff2') format('woff2');
             unicode-range: U+1100-11FF, U+302E-302F, U+3130-318F, U+A960-A97F, U+D7B0-D7FF;
         }
+        /* Rare characters that appear only in the Han Map trivia articles
+           (prose and table.trivia-ex): Chữ Nôm 𥪞 𡎝 (Truyện Kiều line 1),
+           hentaigana 𛂞 𛂡 𛂥, Cantonese 㗎 㩒 𨋢, 𢎘, 𰀀 (Ext G), radicals ⺝ ⺼.
+           None was claimed by any face above. Source: BabelStone Han
+           (BabelStone, free licence), cut to exactly these codepoints. */
+        @font-face {
+            font-family: 'Han Map Trivia Subset';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url('fonts/BabelStoneHan-hanmap-trivia.woff2') format('woff2');
+            unicode-range: U+2E9D, U+2EBC, U+35CE, U+3A52, U+1B09E, U+1B0A1, U+1B0A5, U+2139D, U+22398, U+25A9E, U+282E2, U+30000;
+        }
         /* Hanmap-only Chữ Nôm (字喃) extension. The existing 'Nom Serif
            Subset' family (top of file) was sized for wordmap's 24 Nôm
            codepoints and is MISSING 44 of the 48 Nôm codepoints hanmap
@@ -847,7 +860,7 @@
             outline: 2px solid #1a73e8;
             outline-offset: 2px;
         }
-        .lang-label, .globe-label {
+        .lang-label, .globe-label, .trivia-modal .trivia-body .trivia-ex td.g {
             font-family:
                 /* Self-hosted serif subsets, scoped via unicode-range.
                    Hanmap-specific subsets are listed FIRST so per-codepoint
@@ -865,6 +878,7 @@
                    - Nom Serif Subset: original 24 Chữ Nôm codepoints.
                    All four fall through to the broader Noto Serif chain
                    for any chars outside their scope. */
+                "Han Map Trivia Subset",
                 "Nom Serif Hanmap Subset",
                 "Noto Serif KR Old Jamo",
                 "Nom Serif Subset",
@@ -2146,6 +2160,25 @@
         .trivia-modal .trivia-body li { margin-bottom: 6px; }
         .trivia-modal .trivia-body strong { color: #4a3416; }
         .trivia-modal .trivia-body em { color: #6a4c1c; }
+        /* Trivia prose: the page body chain (styles.css) with the trivia-only
+           rare-character subset in front. Its unicode-range is exact, so it
+           never claims a common glyph. */
+        .trivia-modal .trivia-body { font-family: 'Han Map Trivia Subset', 'Segoe UI', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', sans-serif; }
+        /* Example tables in trivia bodies (table.trivia-ex, wrapped in
+           .trivia-ex-wrap so a wide table scrolls instead of the page).
+           td.g holds the sample in its own script, set large; its font
+           chain is the map-label chain above, which covers the historic
+           scripts. */
+        .trivia-modal .trivia-body .trivia-ex-wrap { overflow-x: auto; margin: 2px 0 16px; }
+        .trivia-modal .trivia-body table.trivia-ex { border-collapse: collapse; font-size: 13.5px; line-height: 1.45; min-width: min(100%, 360px); }
+        .trivia-modal .trivia-body .trivia-ex caption { caption-side: top; text-align: start; font-size: 12px; font-weight: 700; color: #7a5a1e; padding: 0 0 6px; }
+        .trivia-modal .trivia-body .trivia-ex th { font-size: 11px; font-weight: 700; color: #7a5a1e; text-align: start; padding: 3px 0; padding-inline-end: 14px; border-bottom: 1.5px solid rgba(180,130,30,0.45); }
+        .trivia-modal .trivia-body .trivia-ex td { padding: 5px 0; padding-inline-end: 14px; border-bottom: 1px solid rgba(180,130,30,0.2); vertical-align: middle; text-align: start; }
+        .trivia-modal .trivia-body .trivia-ex td.g { font-size: 22px; line-height: 1.3; color: #3a2e1a; white-space: nowrap; }
+        .trivia-modal .trivia-body .trivia-ex sub { font-size: 0.55em; }
+        /* An RTL sample (N'Ko, Hebrew, Phoenician…) keeps its letter order through the
+           bidi algorithm; aligning it by the page direction keeps it off the next column. */
+        .trivia-modal .trivia-body .trivia-ex [dir] { direction: inherit; unicode-bidi: isolate; }
         .trivia-modal .trivia-body blockquote {
             margin: 14px 0;
             padding: 10px 14px;
@@ -3645,7 +3678,7 @@
     <!-- 2026-10-16: the runtime copy is split by tools/build_hanmap_trivia_rt.js —
          base.js has every article with English bodies; the reader's own
          language arrives as hanmap_trivia_rt/<ui>.js (loadHanTriviaBodies). -->
-    <script type="text/plain" id="trivia-src" src="hanmap_trivia_rt/base.js?v=7"></script>
+    <script type="text/plain" id="trivia-src" src="hanmap_trivia_rt/base.js?v=8"></script>
     <!-- The meta-i18n layer is loaded dynamically (engine + the current UI's
          slice only) via loadMetaI18n() in the IIFE below. The old eager
          meta_i18n_ext + coverage{,2} tags pulled ~4.6 MB of ALL 22 UIs. -->

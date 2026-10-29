@@ -227,6 +227,24 @@ WORDS.jellyfish = {
     et: "medusa",
     li: "unknown",
     mrw: "other",
+    nn: "other",
+    cy: "jelly",
+    eu: "unknown",
+    cbk: "unknown",
+    os: "medusa",
+    mt: "other",
+    oc: "medusa",
+    kaa: "medusa",
+    xmf: "medusa",
+    sah: "medusa",
+    fur: "medusa",
+    dtp: "unknown",
+    br: "jelly",
+    nv: "jelly",
+    ami: "unknown",
+    to: "plain",
+    ast: "other",
+    ty: "unknown",
   },
   routes: {
     medusa: {"color":"#7c3aed","emoji":"🐍","en":"named after Medusa","ja":"メドゥーサにちなむ","ko":"메두사에서","zh":"源自美杜莎","yue":"源自美杜莎","vi":"theo tên Medusa","th":"ตั้งตามเมดูซา","id":"dari nama Medusa","hi":"मेडूसा के नाम पर","de":"nach Medusa","fr":"d'après Méduse","it":"da Medusa","es":"por Medusa","pt":"por Medusa","ru":"по имени Медузы","uk":"за ім'ям Медузи","ar":"على اسم ميدوسا","he":"על שם מדוזה","sw":"kwa jina la Medusa"},
@@ -398,5 +416,23 @@ WORDS.jellyfish = {
     et: ["meduus", "meˈduːs"],  // Borrowed from German Meduse, named after the Gorgon Medusa; millimallikas is the other common name.
     li: ["kwal", "kʋal"],  // The same word as Dutch kwal and German Qualle; also used of an unpleasant person.
     mrw: ["kapayompayong sa ragat", "kapajompajoŋ sa raɡat"],  // Built on payong 'umbrella' plus sa ragat 'of the sea'.
+    nn: ["manet", "mɑˈneːt"],  // Inherited from Old Norse *marnæta, 'sea nettle'.
+    cy: ["slefren fôr", "ˈslɛvrɛn voːr"],  // Literally 'slobbery thing of the sea': slefren, from slafr 'slaver, spit', plus môr 'sea'.
+    eu: ["marmoka", "marˈmoka"],  // The usual Basque name, given by Elhuyar as the equivalent of Spanish medusa; its origin is not given.
+    cbk: ["salabay", "saˈlabaj"],  // Borrowed from Cebuano salabay, there 'Portuguese man-of-war', extended to any jellyfish.
+    os: ["медузӕ", "meduzæ"],  // Borrowed from Russian медуза, named after the Gorgon Medusa.
+    mt: ["bram", "braːm"],  // A collective noun (one jellyfish is a brama), borrowed from Sicilian bromu, which goes back to Ancient Greek brôma 'shipworm'.
+    oc: ["medusa", "meˈdyzɔ"],  // From Latin Medusa, the Gorgon; carnmarina 'sea flesh' and pòta are regional synonyms.
+    kaa: ["meduza", "meˈduza"],  // The same word as Russian медуза. Route by resemblance to the neighbouring forms (uz(meduza) kk(медуза)); no etymology of its own.
+    xmf: ["მედუზა", "meduza"],  // The same word as Georgian მედუზა. Route by resemblance to the neighbouring forms (ka(მედუზა)); no etymology of its own.
+    sah: ["медуза", "meˈduza"],  // Glossed as a sea animal ('муора харамайа'); the same word as Russian медуза. Route by resemblance to the neighbouring forms (ky(медуза) kk(медуза)); no etymology of its own.
+    fur: ["meduse", "meˈduze"],  // The common-use word in the official Italian-Friulian dictionary, the counterpart of Italian medusa. Route by resemblance to the neighbouring forms (it(medusa) sl(meduza)); no etymology of its own.
+    dtp: ["bohung", "bohuŋ"],  // Glossed 'jellyfish' (Malay obor-obor) in the Kadazan dictionaries, which also list tampai; the Central Dusun form is balung. Its origin is not given.
+    br: ["morgaoulenn", "morˈɡɔwlɛn"],  // Singulative of morgaoul, from mor 'sea' + kaoul, formerly 'jelly'; bloneg-mor 'sea lard' is a synonym.
+    nv: ["jélii łóóʼ", "tʃélìː ɬóːʔ"],  // A calque of English jellyfish: jélii 'jelly' + łóóʼ 'fish'; it is also the title of the Navajo Wikipedia article on jellyfish (Medusozoa).
+    ami: ["fofor", "fofor"],  // The Amis word for jellyfish, glossed 水母 in both the Safolu (蔡中涵) and Poinsot (潘世光) dictionaries; its origin is not given.
+    to: ["kolukalu", "kolukalu"],  // The Tongan word for jellyfish, inherited from Proto-Polynesian *kalukalu 'jellyfish' (cf. Samoan ʔaluʔalu, Pukapuka kalukalu).
+    ast: ["aguamala", "aɣwaˈmala"],  // Literally 'bad water', for the wounds its tentacles cause; it is also the title of the Asturian Wikipedia article on jellyfish, which lists marmoca as a synonym.
+    ty: ["paʻipaʻi", "paʔipaʔi"],  // The Tahitian word for jellyfish, as listed in Lemaître's Lexique du tahitien contemporain; its origin is not given there.
   },
 };

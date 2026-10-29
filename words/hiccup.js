@@ -210,6 +210,40 @@ WORDS.hiccup = {
     ach: "unknown",
     srr: "unknown",
     li: "unknown",
+    cy: "imitative",
+    yi: "unknown",
+    nn: "unknown",
+    os: "unknown",
+    kek: "other",
+    new: "unknown",
+    tll: "unknown",
+    tzh: "unknown",
+    cbk: "unknown",
+    kea: "unknown",
+    tet: "unknown",
+    dtp: "unknown",
+    oc: "plain",
+    sm: "unknown",
+    fy: "unknown",
+    wa: "unknown",
+    xmf: "unknown",
+    mt: "unknown",
+    szl: "unknown",
+    nxq: "unknown",
+    pdt: "unknown",
+    enq: "unknown",
+    maw: "unknown",
+    tzo: "imitative",
+    arn: "unknown",
+    pap: "imitative",
+    gcf: "imitative",
+    fj: "unknown",
+    nhe: "unknown",
+    mev: "unknown",
+    ami: "unknown",
+    ast: "unknown",
+    to: "unknown",
+    cnh: "unknown",
   },
   routes: {
     imitative: {"color":"#ea580c","emoji":"🔊","en":"imitating the sound","ja":"音のまね","ko":"소리 흉내","zh":"模仿声音","yue":"模仿聲音","vi":"mô phỏng âm thanh","th":"เลียนเสียง","id":"tiruan bunyi","hi":"ध्वनि की नक़ल","de":"lautmalend","fr":"imitant le bruit","it":"onomatopeico","es":"imita el sonido","pt":"imita o som","ru":"звукоподражание","uk":"звуконаслідування","ar":"محاكاة الصوت","he":"חיקוי הקול","sw":"kuiga sauti"},
@@ -366,5 +400,39 @@ WORDS.hiccup = {
     ach: ["gik", "ɡik"],  // The Acholi noun for a hiccup; the dictionary also lists ogik and gek as variants.
     srr: ["lukiy", "lukij"],  // Merrill derives it from a Proto-Fula–Sereer *lakiy 'hiccough', with Fula likkiya 'to hiccup' as its cognate; lukuy is a variant.
     li: ["hik", "hɪk"],  // The same word as Dutch hik; the verb is hikke.
+    cy: ["ig", "iːɡ"],  // An onomatopoeic word; Welsh says Mae'r ig arna i, 'the hiccup is on me', and rhic is a synonym.
+    yi: ["שלוקערץ", "ˈʃlʊkərts"],  // Related to the verb שלוקערצן 'to hiccup'; Wiktionary compares German Schluckauf but leaves the ending unexplained.
+    nn: ["hikke", "ˈhɪkːə"],  // A masculine noun in Nynorsk (ha hikke 'to have the hiccups'), the same word as the verb hikke 'to hiccup'.
+    os: ["хӕкъуырцц", "xækʷʼɨrtsː"],  // Хӕкъуырцц кӕнын 'to do a hiccup' is the verb; the noun also means a broken, jerky sound.
+    kek: ["chuqʼubʼ", "tʃuqʼuɓ"],  // Built on a root meaning 'shake'; kʼehok chuqʼubʼ is 'to have the hiccups', and the verb chuqʼubʼak covers both hiccupping and belching.
+    new: ["हिकु", "hiku"],  // हिकु वये is 'to have the hiccups'.
+    tll: ["shikusiku", "ʃikusiku"],  // Plural tusikusiku; the verb sikuma means 'to have hiccoughs'.
+    tzh: ["jukʼubajel", "hukʼuɓahel"],  // The verbal noun of jukʼubaj 'to have the hiccups' (Cancuc, Petalcingo, Tenejapa); Bachajón says xuhkʼubajel.
+    cbk: ["siru", "siˈɾuʔ"],  // Both the noun and the verb 'to hiccup' in Zamboanga Chavacano, a word of local Philippine origin; Caviteño and Ternateño say sinuk.
+    kea: ["solusu", "soˈlusu"],  // Compare Portuguese soluço; salusu and siki-siki are also given for the hiccup.
+    tet: ["motok", "ˈmotok"],  // The Dili Tetun dictionary also lists arota, from Portuguese arrotar, but its main sense is "to burp".
+    dtp: ["soduʼ", "soduʔ"],  // Listed as the root *sodu', glossed "hiccup" (Malay sedu); the verb soduon is "to have hiccups", as in Soduon isido "He has hiccups".
+    oc: ["sanglòt", "saŋˈɡlɔt"],  // From Vulgar Latin *singluttus, from Latin singultus, the source of Italian singhiozzo; it also means "sob".
+    sm: ["lona", "lona"],  // Milner's Samoan dictionary glosses lona (loga in colloquial speech) as "hiccup"; the older Pratt dictionary gives toʻomaunu.
+    fy: ["hik", "hɪk"],  // The same word as Dutch hik; the Wurdboek fan de Fryske taal also lists the rhyming hikkebik, and hikje "to hiccup".
+    wa: ["licote", "liˈkɔt"],  // The Walloon Wiktionary defines licote as the hikete, the jolt of the diaphragm, and also the noise it makes; hikete is the other common word, as in hicter "to have the hikete".
+    xmf: ["შიკინი", "ʃikʼini"],  // Kajaia's Megrelian–Georgian dictionary glosses it as Georgian სლოკინი "hiccup", with the example "drink water and the hiccup will leave you".
+    mt: ["sulluzzu", "sulˈluttsu"],  // Compare Sicilian sugghiuzzu; a Maltese folk charm against the hiccup begins "Solluzzu buzzu", "O nasty hiccup".
+    szl: ["szczukŏwka", "ʂtʂuˈkɔfka"],  // Recorded at Góra Świętej Anny, Dzierżysławice and Pszczyna; the Mały słownik gwary Górnego Śląska also gives zgutka.
+    nxq: ["eldv", "ə˥tv̩˧"],  // The verb 'to hiccup' in the Naxi Webonary dictionary, which also lists the variant elde.
+    pdt: ["Jeschnuck", "jəʃˈnʊk"],  // The noun of schnucken 'to hiccup', glossed with German Schluckauf in the Plautdietsch Webonary dictionary.
+    enq: ["nangatu", "naŋɡatu"],  // Nangatu pingi is the verb 'to hiccup'.
+    maw: ["gusingoaa", "ɡusinɡoaː"],  // The same dictionary lists a homonym gusingoaa, a bird similar to the pied crow.
+    tzo: ["xukʼxukʼ", "ʃukʼʃukʼ"],  // An onomatopoeic word, per WOLD's Zinacantán Tzotzil list (spelled shuk’shuk’ there); the colonial dictionary already has xuk’ayvan.
+    arn: ["ütrorün", "ɨʈʂoɾɨn"],  // The verb 'to hiccup', cited in the -n form like this row's other verbs; the Ranquel dialect has the stem itror-.
+    pap: ["hik", "hik"],  // Borrowed from Dutch hik, an imitative word; Jansen's dictionary gives it for Dutch hikken 'to hiccup'.
+    gcf: ["hokèt", "hokɛt"],  // From French hoquet, itself from an onomatopoeia; Tourneux and Barbotin's dictionary also gives vokèt.
+    fj: ["macedru", "maðendru"],  // Capell's New Fijian Dictionary glosses it 'hiccough'.
+    nhe: ["tzihcuinoa", "tsihkʷiˈnoa"],  // The verb 'to have hiccups' in the IDIEZ dictionary of Chicontepec Nahuatl, which explains it as breathing hard every little while.
+    mev: ["síkòsíkò", "si˥ko˩si˥ko˩"],  // A reduplicated word; síkòsíkò kɛ̄ is 'to have the hiccups'.
+    ami: ["telook", "təlook"],  // Glossed "to hiccup" in Fey's Amis dictionary; the Safolu dictionary gives it as 打嗝 with the variant tero'ok.
+    ast: ["sollutu", "soˈʎutu"],  // The noun of sollutar "to hiccup", which the Academy dictionary also gives the sense "to sob"; relluezu and hipu are also used.
+    to: ["tokomohū", "tokomohuː"],  // A reflex of Proto-Polynesian *toko-mahuru, like Maori tokomauri and Samoan toʔomaunu; lonā means "to have hiccups".
+    cnh: ["chik ik", "tsʰik ʔik"],  // Given as the noun for hiccup in both directions of the online Hakha Chin dictionary.
   },
 };

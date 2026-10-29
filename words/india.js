@@ -403,6 +403,63 @@ WORDS.india = {
     gor: "greek",
     nbl: "greek",
     quz: "greek",
+    quy: "greek",
+    lus: "greek",
+    kek: "greek",
+    yua: "greek",
+    tzh: "greek",
+    gaa: "greek",
+    tll: "greek",
+    loz: "greek",
+    akb: "greek",
+    sda: "greek",
+    aoz: "greek",
+    nij: "greek",
+    izz: "greek",
+    nn: "greek",
+    pcd: "greek",
+    cbk: "greek",
+    lez: "persian",
+    dty: "bharat",
+    ses: "unknown",
+    tzo: "greek",
+    fj: "greek",
+    pis: "greek",
+    kj: "greek",
+    bxr: "other",
+    nzi: "unknown",
+    adi: "greek",
+    anu: "greek",
+    ctu: "greek",
+    inh: "unknown",
+    fur: "greek",
+    wa: "greek",
+    bsq: "greek",
+    ng: "greek",
+    kaa: "persian",
+    dtp: "greek",
+    urh: "greek",
+    lij: "greek",
+    fy: "greek",
+    xmf: "greek",
+    tet: "greek",
+    jmc: "greek",
+    lol: "greek",
+    sgw: "persian",
+    ebu: "greek",
+    cab: "greek",
+    nmf: "greek",
+    bru: "greek",
+    ho: "greek",
+    tab: "greek",
+    cnh: "greek",
+    gil: "greek",
+    hui: "greek",
+    gag: "greek",
+    co: "greek",
+    bpy: "bharat",
+    ty: "greek",
+    hns: "bharat",
   },
   routes: {
     greek: {"color":"#2563eb","emoji":"🏛️","en":"through Greek Ἰνδία, Latin India (India, Inde, Индия)","ja":"ギリシア語 Ἰνδία、ラテン語 India 経由（India, Inde, Индия）","ko":"그리스어 Ἰνδία, 라틴어 India를 거쳐 (India, Inde, Индия)","zh":"经希腊语 Ἰνδία、拉丁语 India（India、Inde、Индия）","yue":"經希臘文 Ἰνδία、拉丁文 India（India、Inde、Индия）","vi":"qua tiếng Hy Lạp Ἰνδία, Latin India (India, Inde, Индия)","th":"ผ่านกรีก Ἰνδία ละติน India (India, Inde, Индия)","id":"lewat Yunani Ἰνδία, Latin India (India, Inde, Индия)","hi":"यूनानी Ἰνδία, लैटिन India से होकर (India, Inde, Индия)","de":"über griechisch Ἰνδία, lateinisch India (India, Inde, Индия)","fr":"par le grec Ἰνδία, le latin India (India, Inde, Индия)","it":"attraverso il greco Ἰνδία, il latino India (India, Inde, Индия)","es":"por el griego Ἰνδία, el latín India (India, Inde, Индия)","pt":"pelo grego Ἰνδία, o latim India (India, Inde, Индия)","ru":"через греческое Ἰνδία, латинское India (India, Inde, Индия)","uk":"через грецьке Ἰνδία, латинське India (India, Inde, Индия)","ar":"عبر اليونانية Ἰνδία واللاتينية India (India, Inde, Индия)","he":"דרך היוונית Ἰνδία והלטינית India (India, Inde, Индия)","sw":"kupitia Kigiriki Ἰνδία, Kilatini India (India, Inde, Индия)"},
@@ -747,5 +804,62 @@ WORDS.india = {
     gor: ["India", "inˈdia"],  // The same as Indonesian India; used in the Gorontalo Wikipedia and Bible.
     nbl: ["i-Indiya", "iinˈdija"],  // English India with the noun prefix i-; the isiNdebele Bible writes e-Indiya 'in/from India'.
     quz: ["India", "ˈindja"],  // From Spanish India; the Cusco Quechua Bible writes India suyu 'the land of India'.
+    quy: ["India", "ˈindja"],  // India, as in Spanish; the 1992 Ayacucho Quechua Bible writes "India nacionmanta Etiopía nacionkama" (from the nation of India to Ethiopia).
+    lus: ["India", "india"],  // India, the same as English; the 1995 Mizo Bible writes "India aṭanga Sudan thlenga" (from India to Sudan), and also India ram "the land of India".
+    kek: ["India", "india"],  // India, as in Spanish; the Q'eqchi' Bible writes "sa' xteepal India toj Etiopía" (in the region of India to Ethiopia).
+    yua: ["India", "india"],  // India, as in Spanish; the 1992 Yucatec Maya Bible writes "líikbal India tac Etiopía" (from India to Ethiopia).
+    tzh: ["India", "india"],  // India, as in Spanish; the Tzeltal Bibles of Oxchuc and Bachajón both write India in Esther 1:1 and 8:9.
+    gaa: ["India", "india"],  // India, the same as English; the Ga Bible writes "kɛjɛ India aahu kɛyashi Etiopia" (from India as far as Ethiopia).
+    tll: ["Indiya", "indija"],  // Indiya, the international name in Tetela spelling; the 1991 Otetela Bible writes "uma la Indiya edja ndu lʼEtiyopiya" (from India to Ethiopia).
+    loz: ["India", "india"],  // India, the same as English; the Lozi Bible writes "ku kalela kwa India mane ku y'o fita kwa Etiopia" (from India as far as Ethiopia).
+    akb: ["India", "india"],  // India, the same as Indonesian; the Angkola Bible writes "mamungka sian India lopus tu Etiopia" (from India to Ethiopia).
+    sda: ["India", "india"],  // India, the same as Indonesian; the Toraja Bible writes "randuk dio India sae lako Etiopia" (from India to Ethiopia).
+    aoz: ["India", "india"],  // India, the same as Indonesian; the Uab Meto Bible writes "na'ko India talantia Sudan" (from India to Sudan).
+    nij: ["India", "india"],  // India, the same as Indonesian; the Ngaju Bible writes "bara India sampai Sudan" (from India to Sudan).
+    izz: ["Indiya", "indija"],  // Indiya, the international name in Izi spelling; the Izii Bible writes "l'alị Indiya" (the land of India) in both verses.
+    nn: ["India", "ˈɪndiɑ"],  // From Latin India (Wiktionary), the same name as in Bokmål.
+    pcd: ["Inde", "ɛ̃d"],  // Inde, the same name as French; the Picard Wikipedia writes "L'Inde, ch'est un poéis du sud éd l'Azi" (India is a country of South Asia).
+    cbk: ["India", "ˈindja"],  // India, the same name as Spanish, as the Chavacano Wikipedia titles its article.
+    lez: ["Гьиндистан", "hindistan"],  // Hindistan, the Persian-style name like Turkish Hindistan, used by both the Lezgian Wikipedia and the Lezgian Bible.
+    dty: ["भारत", "bʱaːɾət"],  // Bhārat, the same Sanskrit name as Hindi and Nepali, as the Dotyali Wikipedia titles its article.
+    ses: ["Endu", "endu"],  // Endu, the name the Koyraboro Senni Bible uses for India in Esther 1:1 and 8:9 ("from India to Ethiopia").
+    tzo: ["India", "india"],  // Tzotzil uses the Spanish name India, as in its Bibles (Esther 1:1, 8:9). Route by resemblance to Spanish India; no etymology of its own.
+    fj: ["Idia", "india"],  // Borrowed from English India (Wiktionary); Fijian d is prenasalised nd, so Idia is said almost like India.
+    pis: ["India", "india"],  // Pijin uses the English name India ("kantri blong India", Esther 1:1-2, 8:9). Route by resemblance to Tok Pisin India; no etymology of its own.
+    kj: ["India", "india"],  // Kuanyama uses the name India ("okudja kuIndia fiyo okuEtiopia", Esther 1:1, 8:9). Route by resemblance to the international India; no etymology of its own.
+    bxr: ["Энэдхэг", "enetxek"],  // The Buryat counterpart of Mongolian Энэтхэг, from Old Uyghur enetkek; Инди is also used (Wiktionary). Route by resemblance to Mongolian.
+    nzi: ["Yendea", "jendea"],  // Yendea, the name the Nzema Bible uses for India in Esther 1:1 and 8:9.
+    adi: ["India", "india"],  // Adi uses the name India ("India lokke ilangala Ethiopia", Esther 1:1, 8:9). Route by resemblance to the international India; no etymology of its own.
+    anu: ["India", "india"],  // Anuak uses the name India ("mana täge India këël Ithiöpia", Esther 1:1, 8:9). Route by resemblance to the international India; no etymology of its own.
+    ctu: ["India", "india"],  // Chol uses the Spanish name India ("cʼäläl ti India cʼäläl ti Etiopía", Esther 1:1, 8:9). Route by resemblance to Spanish India; no etymology of its own.
+    inh: ["ХӀиндиче", "hinditʃe"],  // ХӀиндиче, the title of the Ingush Wikipedia article on India.
+    fur: ["Indie", "ˈindie"],  // Indie, the title of the Friulian Wikipedia article on India ("La Indie e je un stât de Asie").
+    wa: ["Inde", "ɛ̃t"],  // Inde, as in French, with the final d said as t (Walloon Wiktionary); the title of the Walloon Wikipedia article.
+    bsq: ["Índìà", "índìà"],  // Índìà, as in the Bassa Bible, which says Índìà-ɓòɖòɔ̀ "the land of India".
+    ng: ["India", "india"],  // India, as in the Ndonga Bible: okuza kuIndia sigo kuEtiopia "from India to Ethiopia".
+    kaa: ["Hindistan", "hindisˈtan"],  // Hind plus the Persian suffix -istan "land", as in the 2022 Karakalpak Bible; the Karakalpak Wikipedia spells it Hindstan.
+    dtp: ["India", "india"],  // India, the title of the Kadazandusun Wikipedia article; the Bible says mantad hilo'd India "from India".
+    urh: ["India", "india"],  // India, as in the Urhobo Bible: nẹ India re te Etiopia "from India to Ethiopia".
+    lij: ["India", "ˈindja"],  // India, the title of the Ligurian Wikipedia article ("India ... stato de l'Asia meridionâ").
+    fy: ["Yndia", "ˈindia"],  // Yndia, with Frisian y for i, the title of the West Frisian Wikipedia article and the Frisian Wiktionary entry.
+    xmf: ["ინდოეთი", "indoetʰi"],  // ინდოეთი, the same name as Georgian, the title of the Mingrelian Wikipedia article.
+    tet: ["Índia", "ˈindia"],  // Índia, as in Portuguese, the title of the Tetum Wikipedia article ("Índia maka rai Ázia nian").
+    jmc: ["India", "india"],  // India, as in the Machame Bible: uka India fika Esopia "from India to Ethiopia".
+    lol: ["Inde", "inde"],  // Inde, the French name, as in the Lomongo Bible: ea Inde elaka nko Etiopia "from India to Ethiopia".
+    sgw: ["ኽንድ", "xɨnd"],  // ኽንድ, the Hind name with Gurage x for h; the Gurage Bible writes ተኽንድ "from India" in both verses.
+    ebu: ["India", "india"],  // India, as in the Embu Bible: kuuma India kûthiî Ethiopia "from India to Ethiopia".
+    cab: ["Índia", "ˈindia"],  // From Spanish India; the Garifuna Bible writes "lúmagiñe Índiagiñe dagá Etiopía" (from India to Ethiopia) in Esther 1:1 and India in 8:9.
+    nmf: ["India", "india"],  // The English name India; the Tangkhul Bible writes "India eina thuilaga Ethiopia" (from India to Ethiopia) in Esther 1:1 and 8:9.
+    bru: ["In-dia", "ʔindia"],  // The international name India, written in syllables; the Bru Bible writes "tễ cruang In-dia" (from the country of India) in Esther 1:1 and 8:9.
+    ho: ["India", "india"],  // The English name India; the 1993 Hiri Motu Bible writes "India ela bona Etiopia" (from India to Ethiopia) in Esther 1:1 and India again in 8:9.
+    tab: ["Индия", "indija"],  // The Russian name Индия; the Tabasaran Bible writes Индияйиан Эфиопияйизкьан "from India to Ethiopia" in Esther 1:1 and 8:9.
+    cnh: ["India", "india"],  // The English name India; the 2019 Lai Bible writes "India ram in Ethiopia ram tiang" (from the land of India to the land of Ethiopia) in Esther 1:1 and 8:9.
+    gil: ["Inria", "inɾia"],  // Inria, the English name India in Gilbertese spelling; the Kiribati Bible writes "mai Inria ni karokoa Itiobia" (from India to Ethiopia).
+    hui: ["India", "india"],  // The English name India; the Huli Bible writes "India howa piaho wialu Idiobia" (from India to Ethiopia) in Esther 1:1 and 8:9.
+    gag: ["İndiya", "indiˈja"],  // Borrowed from Russian Индия; the Gagauz Wikipedia titles its article İndiya.
+    co: ["India", "ˈindja"],  // The same as Italian India, from Latin India; the Corsican Wikipedia opens "L'India ... hè unu statu è paese in Asia meridiunale".
+    bpy: ["ভারত", "bʱaɾot"],  // Bhārat, the Sanskrit name, as in Bengali ভারত; the Bishnupriya Manipuri Wikipedia titles its article ভারত, "full name প্রজাতন্ত্রি ভারত".
+    ty: ["ʻInītia", "ʔiniːtia"],  // ʻInītia, the English name India fitted to Tahitian sounds, like Rarotongan Īnītia; the Tahitian Wikipedia titles its article ’Inītia.
+    hns: ["Bhaarat", "bʱaːrət"],  // Borrowed from Sanskrit भारत Bhārata; Hiendoestaan, from Persian Hindustan, is a synonym (Wiktionary, after the Nederlands–Sarnámi Hindustani dictionary).
   },
 };

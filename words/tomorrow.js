@@ -810,6 +810,38 @@ WORDS.tomorrow = {
     gcf: "unknown",
     frp: "morning",
     lhu: "unknown",
+    pwn: "unknown",
+    tay: "unknown",
+    bnn: "unknown",
+    dsh: "unknown",
+    dur: "unknown",
+    ixl: "unknown",
+    mh: "unknown",
+    mgo: "unknown",
+    vro: "morning",
+    abq: "unknown",
+    sip: "unknown",
+    cng: "unknown",
+    ekp: "unknown",
+    aae: "other",
+    ch: "unknown",
+    toj: "unknown",
+    ja_rys: "morning",
+    chk: "morning",
+    ers: "unknown",
+    dbq: "unknown",
+    bbo: "unknown",
+    tkr: "unknown",
+    xed: "morning",
+    an: "morning",
+    tok: "other",
+    rtm: "unknown",
+    pau: "unknown",
+    huv: "unknown",
+    gum: "unknown",
+    mxv: "unknown",
+    crn: "unknown",
+    bzh: "unknown",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -1564,5 +1596,37 @@ WORDS.tomorrow = {
     gcf: ["dèmen", "dɛmɛ̃"],  // Dèmen is 'tomorrow' in Guadeloupean Creole ('I ka vini dèmen', he is coming tomorrow, APiCS).
     frp: ["deman", "dəˈmã"],  // Deman comes from Latin dē māne 'from the morning', like French demain (Wiktionary).
     lhu: ["šɔ́-pɔ̄", "ʃɔ́pɔ̏"],  // Lahu šɔ́-pɔ̄ is 'tomorrow' (Matisoff); yesterday is a different word, a-nyi (Hebrews 13:8 'aˉ nyi, ya‸ nyi' — yesterday, today).
+    pwn: ["nutiaw", "nutiaw"],  // Nutiaw is 'tomorrow' and katiaw 'yesterday': the ILRDF dictionary glosses the shared root tiaw- as 'yesterday', and many villages say nutiav / katiav.
+    tay: ["suxan", "suxan"],  // Suxan is the Squliq Atayal word for tomorrow; yesterday is a different word, sheraʼ (also hira).
+    bnn: ["kutun", "kutun"],  // Kutun (also kutunin) is the Bunun word for tomorrow; yesterday is a different word, takna.
+    dsh: ["beríka", "bɛɾika"],  // Beríka is the Daasanach word for tomorrow (James 4:13 'beríka yíekaʼ'); yesterday is gefere and the day after tomorrow burgalia.
+    dur: ["yɔ́gɔ́", "jɔɡɔ"],  // Yɔ́gɔ́ is the Dii word for tomorrow (Matthew 6:34 'moo hȩn yɔ́gɔ́ máa'); yesterday is a different word, ká bán.
+    ixl: ["qʼejal", "qʼexal"],  // Qʼejal is the Ixil word for tomorrow (Matthew 6:34 'uve' q'ejal'); yesterday is a different word, eʼte.
+    mh: ["ilju", "jilʲtʲiw"],  // Ilju is the Marshallese word for tomorrow; yesterday is a different word, inne, and ilju im men is 'within the next few days'.
+    mgo: ["ɨsɔ", "ɨsɔ"],  // Ɨsɔ is 'tomorrow' in the Metaʼ New Testament (Matthew 6:34, James 4:13-14); yesterday is a different word, rɨwɔ̀ (John 4:52, Acts 7:28, Hebrews 13:8).
+    vro: ["hummõń", "ˈhumːɤnʲ"],  // Hummõń comes from Proto-Finnic *hoomën 'morning', like Estonian homme and Finnish huomenna; Võro hummong 'morning' is built on the same root.
+    abq: ["уачӏвы", "watʃʷʼə"],  // Уачӏвы is the Abaza word for tomorrow; yesterday is a different word, йацы, and today is уахьчӏва.
+    sip: ["ཐོ་རངས", "tʰorãː"],  // Tʰorãː is the Sikkimese word for tomorrow; yesterday is a different word, dãː མདང, and the day after tomorrow is náŋtsi.
+    cng: ["təpȵi", "təpȵi"],  // Təp-ȵi is the Ronghong Qiang word for tomorrow; yesterday is a different word, nə-s ('last day').
+    ekp: ["sele", "sele"],  // Se!le (with a downstep) is the Ẹkpẹyẹ word for tomorrow; ụ̀bò lị̀ covers both the day after tomorrow and the day before yesterday.
+    aae: ["nestrë", "nɛstrə"],  // Nestrë is the Arbëresh form of Albanian nesër, usually derived from nes 'after'; another theory links it to the word for 'night' (Wiktionary, after Orel); yesterday is dje.
+    ch: ["agupaʼ", "aˈɡupaʔ"],  // Agupaʼ is the Chamorro word for tomorrow (Matthew 6:34 'y para agupa'), and esta agupaʼ means 'see you tomorrow'; yesterday is nigap.
+    toj: ["jechel", "hetʃel"],  // Jechel is 'tomorrow' in both Tojolabal Bibles, written with the article as ja jecheli ('ja ya'n sok ja jecheli', 'today and tomorrow', Luke 13:32); yesterday is a different word, eke.
+    ja_rys: ["あっつぁ", "attsa"],  // Miyara (Ishigaki) attsa, Hatoma atsa, comes from the word written 安志多 ashita in the Man'yōshū, which first meant 'the next morning', like Japanese 明日 ashita; yesterday is a different word, kɨnu.
+    chk: ["neesor", "neːsor"],  // Neesor is built on soor 'morning', and néwú is a second word for tomorrow; yesterday is nánew (Goodenough & Sugita); the Chuukese Bible writes it lesor (Matthew 6:34 'ewe rän lesor').
+    ers: ["soȵo", "so˥˥ȵo˥˥"],  // Soȵo ends in ȵo 'day', like taȵo 'today' and jɛȵo 'yesterday' (Sun 1991).
+    dbq: ["gbəm", "ɡbəm"],  // Gbəm is the Daba word for tomorrow, and Sey a gbəm! is 'see you tomorrow'; yesterday is musukuh.
+    bbo: ["sɩɩn", "sɪːn"],  // Sɩɩn is the Konabéré word for tomorrow, and sɩnsɩntoni is 'the day after tomorrow'; yesterday is guun.
+    tkr: ["гъийхъа", "ʁijqa"],  // Гъийхъа is the Tsakhur word for tomorrow (Latin g`iyqa in Azerbaijan); yesterday is санихьа, and some villages say къийхъа.
+    xed: ["màxtsím", "màxtsím"],  // Màxtsím means both 'morning' and 'tomorrow'; yesterday is ɗáxàwú (Frajzyngier et al., Hdi Dictionary).
+    an: ["maitín", "majˈtin"],  // Maitín means both 'tomorrow' and 'morning', like French matin, from Latin matutinus; yesterday is ayer or ixotrodía (Aragonario).
+    tok: ["tenpo suno kama", "tenpo suno kama"],  // Tenpo suno kama is literally 'coming sun time', and yesterday is tenpo suno pini 'past sun time'.
+    rtm: ["kā", "kaː"],  // Kā is the Rotuman word for tomorrow, an underlying /ka/ lengthened because a word must have two morae; yesterday is asa.
+    pau: ["klukuk", "klukuk"],  // Klukuk is 'tomorrow, the next day', usually said er a klukuk; yesterday is elii, and er a klukuk er a tutau is 'tomorrow morning'.
+    huv: ["oxep", "oʃep"],  // Oxep is the San Mateo Huave word for tomorrow, as in Matthew 6:34 apmajlüy oxep 'what will happen tomorrow'.
+    gum: ["srøna", "ʂəna"],  // Srøna is the Misak word for tomorrow, as in James 4:13 møin kui, srøna kui 'today or tomorrow'.
+    mxv: ["tiaan", "caːn"],  // Tiaan is the Metlatónoc Mixtec word for tomorrow, as in James 4:13 vichin a tiaan 'today or tomorrow'.
+    crn: ["ruijmuaʼa", "ɽuihmwaʔa"],  // Ruijmuaʼa is the Cora word for tomorrow in the El Nayar New Testament; yesterday there is tajcaí.
+    bzh: ["neheng", "nəʁəŋ"],  // Neheng is the Mapos Buang word for tomorrow, as in Luke 13:32 pehi geneheng 'today and tomorrow'; yesterday is veseveng.
   },
 };

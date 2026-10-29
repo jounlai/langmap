@@ -706,6 +706,28 @@ WORDS.olderbrother = {
     huv: "age",
     ygr: "age",
     tcs: "plain",
+    vep: "age",
+    mus: "age",
+    yap: "age",
+    usp: "age",
+    ium: "age",
+    myp: "plain",
+    smn: "plain",
+    kwk: "age",
+    thp: "age",
+    yur: "age",
+    cay: "age",
+    pqm: "age",
+    tlh: "plain",
+    mra: "age",
+    enf: "age",
+    nio: "age",
+    adt: "age",
+    wbt: "age",
+    nys: "age",
+    kgg: "age",
+    ale: "age",
+    koy: "age",
   },
   routes: {
     age: {"color":"#db2777","emoji":"👆","en":"a word just for an older brother","ja":"兄だけを指す語","ko":"형만 가리키는 낱말","zh":"专指哥哥的词","yue":"專指哥哥嘅詞","vi":"từ riêng cho anh","th":"คำเฉพาะสำหรับพี่ชาย","id":"kata khusus untuk kakak","hi":"बड़े भाई का अलग शब्द","de":"eigenes Wort für den älteren Bruder","fr":"un mot propre au frère aîné","it":"una parola solo per il fratello maggiore","es":"una palabra solo para el hermano mayor","pt":"uma palavra só para o irmão mais velho","ru":"отдельное слово для старшего брата","uk":"окреме слово для старшого брата","ar":"كلمة خاصة بالأخ الأكبر","he":"מילה מיוחדת לאח הגדול","sw":"neno maalum kwa kaka mkubwa"},
@@ -1353,5 +1375,27 @@ WORDS.olderbrother = {
     huv: ["micojaran", "mikoharan"],  // Micojaran is an older sibling, brother or sister (micoj naxey 'his married older brother'); a younger one is michiigueran, and coj is the word of address.
     ygr: ["eʼagoʼa", "eʔaɡoʔa"],  // Eʼagoʼa is a man's older brother (apaʼa is the term of address); a younger same-sex sibling is aganaʼa, and saʼa is a sibling of the opposite sex of any age.
     tcs: ["bala", "bala"],  // Torres Strait Creole has no separate word: an older brother is a big brada, 'big brother', and a younger one a smol brada; bala and brada (both from English 'brother') are synonyms.
+    vep: ["veik", "veik"],  // Veps veik is an older brother, while vel'l' is 'brother' in general.
+    mus: ["ervhv", "iɬáhə"],  // Ervhv (also rvhv) is a man's older brother or a woman's older sister, an older sibling of the same sex; a younger one is -cuse, as in cvcuse 'my younger brother' (Martin & Mauldin).
+    yap: ["nganniiq", "ŋanniːʔ"],  // Nganniiq is an older sibling, brother or sister; a younger sibling is wayin, and walaag is any brother, sister or sibling (Jensen 1977).
+    usp: ["aatz", "ʔaːts"],  // Uspanteko aatz is an elder brother, an inalienably possessed noun; a younger brother is q'uun.
+    ium: ["gorx", "kɔ˨˧"],  // Iu Mien gorx is an older brother and youz a man's younger brother; together gorx-youz means 'older and younger brothers'.
+    myp: ["xahaigí", "ʔahaiɡí"],  // Pirahã has one word, xahaigí, for a sibling of either sex and any age; Everett describes its kinship system as the simplest known.
+    smn: ["viljâ", "viʎɐ"],  // Inari Sámi has no separate word: an older brother is a stuorrâviljâ, 'big brother', and a younger one an uccâviljâ.
+    kwk: ["ʼnula", "ʔnula"],  // A man's older brother (an older sibling of the same sex) is his ʼnula; a younger one is tʼsaʼya, and a woman calls her brother of any age waḵ̕wa.
+    thp: ["qéck", "qetsk"],  // Thompson has separate words by age: qéck is an older brother, sínciʔ a younger brother.
+    yur: ["meechos", "mitʃɔs"],  // Yurok meechos covers an elder brother and a male cousin; a younger sibling is cheechos and an older sister peenos.
+    cay: ["hehjíʼah", "hehdʒíʔah"],  // Literally 'my older brother', on an older-sibling stem; a younger brother is heʼgę́:ʼęh.
+    pqm: ["nhesis", "nhesis"],  // Literally 'my older brother' (stem hesis-); a younger sibling is uhsimis-, and the general 'brothers' word 'siwehs- covers both.
+    tlh: ["loDnI'", "loɖnɪʔ"],  // Klingon makes no distinction between elder and younger siblings: loDnI' is any brother and be'nI' any sister.
+    mra: ["diŋ joŋ", "diŋ joŋ"],  // Mlabri has separate terms by age: diŋ joŋ is an older brother and roj baw a younger one, while diŋ roj means siblings.
+    enf: ["ina", "ina"],  // Forest Enets has a separate word ina for an older brother (also said aga kasa, 'big brother'); kasa is a brother in general, and a younger brother is ńab́i.
+    nio: ["әˮә", "əʔə"],  // Nganasan has two words for an older brother, әˮә and нины, both distinct from the younger-brother words ŋaaŋku and ŋadʹa.
+    adt: ["nhunga", "n̪uŋa"],  // Adnyamathanha has separate terms by age: nhunga is an older brother and yaka an older sister, while a younger brother or sister is pilhali.
+    wbt: ["kupu", "kupu"],  // Warnman has separate words by age: kupu is an older brother and malaju (maɭaŋu) a younger one.
+    nys: ["ngoont", "ŋunt"],  // Noongar ngoont is an elder brother, beside ngoon for a brother in general; a younger brother is kardang.
+    kgg: ["mom", "mom"],  // Kusunda has separate words by age: mom is an elder brother and bʰəya a younger brother (elder sister bai, younger sister binəi).
+    ale: ["ludax̂", "luðaχ"],  // Eastern Aleut ludax̂ (Atkan luyax̂) is a man's older brother or a woman's older sister; the younger counterpart is kingix̂, and agiitudax̂ is a brother in general.
+    koy: ["boogha", "boːɣa"],  // Literally 'his older brother' (addressed as sooghaa); a younger brother is bikitt'a, addressed kitt'aa.
   },
 };

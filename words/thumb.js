@@ -533,6 +533,36 @@ WORDS.thumb = {
     ctu: "mother",
     bru: "unknown",
     bdq: "unknown",
+    cr: "big",
+    bnn: "unknown",
+    pwn: "unknown",
+    tay: "unknown",
+    emp: "mother",
+    vro: "unknown",
+    abq: "unknown",
+    rar: "big",
+    olo: "plain",
+    krl: "plain",
+    hsb: "plain",
+    frr: "plain",
+    rtm: "other",
+    yrk: "plain",
+    pau: "plain",
+    ygr: "plain",
+    kmh: "plain",
+    huv: "mother",
+    bzh: "plain",
+    rm: "plain",
+    dur: "unknown",
+    bbo: "mother",
+    nhx: "big",
+    trv: "mother",
+    iu: "plain",
+    lld: "plain",
+    agx: "big",
+    ch: "unknown",
+    jiv: "big",
+    hch: "unknown",
   },
   routes: {
     mother: {"color":"#db2777","emoji":"👪","en":"mother · parent · elder kin","ja":"母・親・年長の身内","ko":"어머니 · 어버이 · 웃어른","zh":"母亲・父母・长辈","yue":"阿媽 · 父母 · 長輩","vi":"mẹ · cha mẹ · bậc trên","th":"แม่ · พ่อแม่ · ญาติผู้ใหญ่","id":"ibu · orang tua · kerabat tua","hi":"माँ · माता-पिता · बड़े","de":"Mutter · Eltern · ältere Verwandte","fr":"mère · parent · aîné","it":"madre · genitore · parente anziano","es":"madre · padre · pariente mayor","pt":"mãe · pai · parente mais velho","ru":"мать · родитель · старший родич","uk":"мати · батько · старший родич","ar":"أم · والد · قريب أكبر","he":"אם · הורה · קרוב מבוגר","sw":"mama · mzazi · ndugu mkubwa"},
@@ -1010,5 +1040,35 @@ WORDS.thumb = {
     ctu: ["ñaʼkʼäb", "ɲaʔkʼɨɓ"],  // Literally 'mother of the hand' (ñaʼ 'mother' + kʼäb 'hand'); the big toe is likewise ñaʼok 'mother of the foot'.
     bru: ["ngcứm atĩ", "ŋkɨm ʔati"],  // atĩ is 'hand'; the big toe is ngcứm ayững, with ayững 'foot'.
     bdq: ["hơnglâu yŏng ti", "həŋləw jɔŋ tiː"],  // ti is 'hand'; the big toe is hơnglâu yŏng jơ̆ng, with jơ̆ng 'leg, foot'.
+    cr: ["ᒥᓯᒋᐦᒑᐣ", "misitʃihtʃaːn"],  // Built on misi- 'big, large'; the big toe is the parallel misisitân, built on the word for foot.
+    bnn: ["tanastama", "tanastama"],  // Contains tama 'father', just as the little finger tanascina contains cina 'mother'.
+    pwn: ["vulungan", "vuɭuŋan"],  // Derived from vulung 'old; long' (also the name of the hundred-pacer viper), so roughly 'the old one'.
+    tay: ["kʼaba", "kʔaba"],  // The fuller kʼabaʼ tluling adds tluling 'finger'.
+    emp: ["jʉwapapa", "hɨuapapa"],  // Literally 'hand-mother' (jʉwa 'hand' + papa 'mother'); the big toe is jĩrũpapa, 'foot-mother'.
+    vro: ["päkk", "pækː"],  // Also päss and the playful täitapja 'louse-killer'; Võro 'keeps the thumb' for someone with ma piä sullõ pässä.
+    abq: ["мачвхъаба", "matʃʷqaba"],  // Built on мачв 'finger'; the fuller мачвхъаба ду adds ду 'big', and the big toe is щачвхъаба ду, on щачв 'toe'.
+    rar: ["maikao maʻata", "maikao maʔata"],  // Literally 'big finger' (maikao 'finger, toe' + maʻata 'big'); it also names the big toe, so Leviticus 8:23 says 'te maikao maata o tona rima katau', the big digit of his right hand.
+    olo: ["peigalo", "ˈpeiɡalo"],  // An old Finnic word for the thumb, the counterpart of Finnish peukalo; VepKar also records peigoi.
+    krl: ["peikalo", "ˈpeikɑlo"],  // An old Finnic word for the thumb, from Proto-Finnic *peikälo like Finnish peukalo; VepKar also gives it for the thumb of a mitten.
+    hsb: ["palc", "palts"],  // From Proto-Slavic *pàlьcь, which gives Lower Sorbian palc 'finger'; in Upper Sorbian palc is the thumb, and an ordinary finger is porst.
+    frr: ["tööme", "ˈtøːmə"],  // The Mooring form of the Germanic thumb word, from Old Frisian thūma; 'to keep one's fingers crossed' is huum e tööme hüülje, 'to hold the thumb'.
+    rtm: ["käkäʻ mafua he ta", "kækæʔ mafua he ta"],  // Literally 'the one grown-up finger' (käkäʻ 'finger' + mafua 'adult, old' + he ta 'the one'), the counterpart of käkäʻ meaʻmeaʻ he ta for the little finger.
+    yrk: ["пикця", "ˈpʲiktsʲa"],  // An inherited word, from Proto-Uralic *pälkä, the root behind Northern Sámi bealgi and Erzya пелька 'thumb'.
+    pau: ["bechos", "bəˈʔos"],  // A word of its own for the thumb and the big toe; the thumb can be specified as bechesengel a chim, 'the bechos of the hand'.
+    ygr: ["anitaboto", "anitaboto"],  // Built on anita 'hand' + boto, Renck's word for the thumb (a homonym boto names the big toe, eiyaboto with eiya 'leg'); bahalota, 'the sweet-potato peeler', is another name for the thumb.
+    kmh: ["mamd", "maməd"],  // A word of its own for the large digit: ñn mamd is the thumb and tob mamd the big toe, and in the old body-part counting system mamd also means 'five'.
+    huv: ["mimüm owixeran", "mimɨm owiʃeɾan"],  // Literally 'the mother of the hand', from müm 'mother'; the big toe is likewise mimüm oleajaran, the mother of the foot.
+    bzh: ["buatov", "ᵐbuatoβ"],  // A word of its own for the thumb; since finger-counting reaches the thumb at five, buatov also means 'five' and, as the fifth day, 'Friday'.
+    rm: ["polesch", "ˈpɔlɛʃ"],  // A word of its own, from Latin pollex thumb; Sursilvan says det polisch and Vallader polsch.
+    dur: ["nag nìŋ̀", "naɡ niŋ"],  // Built on nag hand; the dictionary says the second element nìŋ̀ has no known meaning of its own.
+    bbo: ["sʋlabayuo", "sʊlabajuo"],  // Literally mother of the fingers (sʋlaba fingers + yuo mother); kalabayuo is the big toe.
+    nhx: ["hue̱májpil", "weːˈmahpil"],  // Literally 'big finger': hueyi 'big' + májpil 'finger'.
+    trv: ["sntama", "sntama"],  // Built on tama 'father', with the sn- seen in snsnaw from snaw 'man'; the Seediq dictionary has tama baga 'father of the hand' for the thumb.
+    iu: ["ᑯᓪᓗ", "kulːu"],  // A word of its own, the same word as Greenlandic kulloq; a Nunavut Assembly speaker calls it the main part of the hand for grasping.
+    lld: ["polesc", "ˈpɔleʃ"],  // A word of its own, inherited from Latin pollicem 'thumb'; the big toe is polesc dl pe, 'thumb of the foot'.
+    agx: ["хӏа тӏуб", "ħa tʼub"],  // Literally 'big finger': хӏа 'big' (as in хӏа чу 'older sibling') + тӏуб 'finger'; the Koshan dialect says ахӏа тӏу.
+    ch: ["dåmaʼgas", "ˈdɑmaʔɡas"],  // The dictionary glosses it 'thumb; pincers; toe; claw of the crab', so the same word names a crab's pincer.
+    jiv: ["uunt uwej", "uːnt uweh"],  // Literally 'big hand' (uunt 'big', as in Uunt Yus 'the great God', + uwej 'hand'); the big toe is uunt nawe, 'big foot'.
+    hch: ["ʼitɨwame ʼemupá", "ʔitɨwame ʔemuˈpa"],  // Built on ʼitɨwame 'finger', like ʼitɨwame chimupé for the little finger; the Wixarika Bible writes the second word ʼamɨpa.
   },
 };

@@ -219,6 +219,37 @@ WORDS.dragonfly = {
     ngl: "unknown",
     mni: "unknown",
     egl: "other",
+    yi: "unknown",
+    eu: "other",
+    cbk: "plain",
+    khb: "unknown",
+    ets: "unknown",
+    yua: "unknown",
+    aii: "unknown",
+    tzh: "unknown",
+    kek: "unknown",
+    rue: "unknown",
+    tet: "unknown",
+    dtp: "unknown",
+    wa: "other",
+    oc: "other",
+    fur: "other",
+    zap: "unknown",
+    nhw: "unknown",
+    maw: "unknown",
+    pdt: "other",
+    nxq: "unknown",
+    br: "other",
+    nhe: "unknown",
+    nch: "unknown",
+    gcf: "plain",
+    to: "plain",
+    co: "unknown",
+    lbe: "unknown",
+    ami: "unknown",
+    ja_oki: "other",
+    ast: "creature",
+    lzz: "unknown",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -383,5 +414,36 @@ WORDS.dragonfly = {
     ngl: ["mwanteri", "mwanteɾi"],  // The dictionary gives mwitanti as an equal synonym; no source traces either word.
     mni: ["ꯆꯔꯥꯡ", "tʃəraŋ"],  // Romanised carāng; Sharma's dictionary glosses it 'dragonfly', and no source traces the word.
     egl: ["frè", "frɛː"],  // The Bolognese word for a friar or monk, from Latin frater 'brother', also names the dragonfly.
+    yi: ["ליבעלע", "ˈlibələ"],  // Wiktionary glosses it 'dragonfly'; Yiddish Wikipedia calls the order ליבעלעס, and באַבעלע (from Ukrainian бабка) is also recorded.
+    eu: ["burruntzi", "buruntsi"],  // Also the word for a roasting spit or skewer; sorgin-orratz 'witch's needle' and mariorratz are other names.
+    cbk: ["apan", "aˈpan"],  // Borrowed from Hiligaynon apán 'adult locust'; Wiktionary marks it Cotabateño and Zamboangueño, with tutubi in Caviteño and Ternateño.
+    khb: ["ᦀᦲᦰᦢᦲᧉ", "ʔi biː˩˧"],  // The animal prefix ʔi- plus bii, tone 3; a variant ᦀᦲᦰ ᦥᦲ is also listed.
+    ets: ["anene", "anene"],  // Glossed 'dragonfly' in the University of Benin Etsako (Yekhee) dictionary.
+    yua: ["turix", "tuɾiʃ"],  // Also borrowed into the Spanish of Yucatán as turix 'dragonfly'.
+    aii: ["ܥܵܙܠܵܐ ܟܘܼܫܵܐ", "azla kuʃa"],  // The Sureth dictionary's Eastern Syriac entry; it lists ܫܵܕܵܝܵܐ as the Aradhin-dialect word.
+    tzh: ["tultux", "tultuʃ"],  // Glossed 'libélula (insecto)' in the SIL Tzeltal dictionary of Bachajón.
+    kek: ["tuulux", "tuːluʃ"],  // The Academy's Q'eqchi' vocabulary gives it with the example Xiikileb' tuulux chi re nima', 'there are many dragonflies on the riverbank'.
+    rue: ["водянка", "voˈdʲanka"],  // Kercha's dictionary gives водя́нка first, with лібе́ла as an alternative, and водянкы for the dragonflies as an order.
+    tet: ["tekilili", "tekilili"],  // The Tetun Dili dictionary glosses tekilili as the dragonfly, an odonate insect.
+    dtp: ["tompokiukiu", "tompokiukiu"],  // The Kadazandusun Wikipedia's name for the dragonfly; the Kadazandusun dictionary gives it as the Central Dusun form beside Kadazan tongkokizu'.
+    wa: ["damjhele", "damˈʒɛl"],  // The word for a 'young lady', as in French demoiselle; Walloon Wikipedia notes that the big dragonflies are also called monsieus, 'gentlemen'.
+    oc: ["domaisèla", "dumajˈzɛlɔ"],  // The 'young lady' word, cognate with French demoiselle; Papazian (1994), working from Mistral, calls it the generic name across the Occitan-speaking lands.
+    fur: ["svuarbecjavai", "zvwarbecaˈvaj"],  // Literally 'blind-the-horses', from svuarbâ 'to blind' and cjavai 'horses'; the ARLeF bilingual dictionary also gives svuarbevoi, 'blind-the-eyes'.
+    zap: ["xhumpirinisa", "ʃumpiɾinisa"],  // Pickett's Isthmus Zapotec vocabulary uses it for both dragonflies and damselflies; sumpirinisa is a variant spelling.
+    nhw: ["apipiyalotl", "apipiˈjalotɬ"],  // Inherited from Classical Nahuatl apipiyollotl; the same word is recorded for Central and Eastern Huasteca Nahuatl.
+    maw: ["kɔliliiya", "kɔliliːja"],  // The Mampruli dictionary's word for the dragonfly; the related Dagbani name is kulilia.
+    pdt: ["Migjenfräta", "ˈmɪɡʲənfɾeta"],  // Literally the 'mosquito-eater', from Migj 'mosquito' and Fräta 'eater', like German dialect Mückenfresser.
+    nxq: ["nilbberq", "ɲi˥bɚ˨˩"],  // The common Naxi word in the Naxi dictionary, which lists jjimulrhuq as a dialect synonym.
+    br: ["nadoz-aer", "nadoˈzɛːr"],  // The 'air needle', from nadoz 'needle' and aer 'air'; marc'h-aer 'air horse' is a synonym.
+    nhe: ["apipiyalotl", "apipiˈjalotɬ"],  // Inherited from Classical Nahuatl apipiyollotl; recorded in the IDIEZ Chicontepec dictionary.
+    nch: ["apipiyalotl", "apipiˈjalotɬ"],  // The same word as in the other Huasteca Nahuatl varieties, from Classical Nahuatl apipiyollotl.
+    gcf: ["zingzing", "ziŋziŋ"],  // A sound word imitating the buzz of its flight, also used in Guadeloupean French; marisosé is a synonym.
+    to: ["kisikisi", "kisikisi"],  // Inherited from Proto-Polynesian *kisikisi; Tongan Wikipedia also gives kisikisivai, citing Churchward's Tongan Dictionary.
+    co: ["filangrocca", "filanˈɡrokka"],  // The INFCOR Corsican dictionary defines filangrocca as the four-winged insect whose larva lives in water, with libellula as a synonym.
+    lbe: ["барзукка", "barzukːa"],  // The Lak name for the dragonfly, also the title of the Lak Wikipedia article on the order.
+    ami: ["cacidoʼ", "tsatsiðoʔ"],  // Fey's Amis dictionary glosses cacido' 'dragonfly'; Safulo's dictionary also lists facacido', fadadico' and fodadayaw.
+    ja_oki: ["あーけーじゅー", "ʔaːkeːdʑuː"],  // The Okinawan reflex of old Japanese akitsu 'dragonfly', usually traced to aki 'autumn'; Chamberlain (1895) recorded it as akēdzū.
+    ast: ["caballín del diañu", "kaβaˈʎin del ˈdjaɲu"],  // Literally 'the devil's little horse'; Asturian also has many other names such as aceitera and cortanarices.
+    lzz: ["კარკალამტახუ", "kʼarkʼalamtʼaxu"],  // Recorded in Kojima and Bucaklişi's Laz dictionary (Latin spelling ǩarǩalamťaxu).
   },
 };

@@ -488,6 +488,29 @@ WORDS.potato = {
     gil: "papa",
     saq: "other",
     co: "unknown",
+    bnn: "other",
+    mh: "papa",
+    cr: "unknown",
+    abq: "truffle",
+    kjb: "unknown",
+    toj: "unknown",
+    ixl: "unknown",
+    crs: "earth",
+    mzh: "papa",
+    sip: "other",
+    dur: "unknown",
+    ch: "papa",
+    pon: "papa",
+    poh: "unknown",
+    dds: "earth",
+    hsb: "unknown",
+    pau: "papa",
+    xkz: "unknown",
+    mwl: "papa",
+    kmh: "other",
+    bzh: "truffle",
+    rtm: "papa",
+    ers: "unknown",
   },
   routes: {
     papa: {"color":"#ca8a04","emoji":"🏔️","en":"Quechua papa · Taíno batata","ja":"ケチュア語 papa・タイノ語 batata","ko":"케추아어 papa · 타이노어 batata","zh":"克丘亚语 papa・泰诺语 batata","yue":"克丘亞語 papa · 泰諾語 batata","vi":"Quechua papa · Taíno batata","th":"เกชัว papa · ไตโน batata","id":"Quechua papa · Taíno batata","hi":"क्वेचुआ papa · ताइनो batata","de":"Quechua papa · Taíno batata","fr":"quechua papa · taïno batata","it":"quechua papa · taíno batata","es":"quechua papa · taíno batata","pt":"quíchua papa · taíno batata","ru":"кечуа papa · таино batata","uk":"кечуа papa · таїно batata","ar":"كيتشوا papa · تاينو batata","he":"קצ'ואה papa · טאינו batata","sw":"Kiquechua papa · Kitaino batata"},
@@ -917,5 +940,28 @@ WORDS.potato = {
     gil: ["boteto", "boteto"],  // Borrowed from English potato.
     saq: ["lbiasi", "lbiasi"],  // Borrowed from Swahili viazi "potatoes" (plural of kiazi "tuber"); southern Maa also says enkuashe, from Kikuyu.
     co: ["pomu", "ˈpomu"],  // The Corsican Wikipedia article on the plant is titled U pomu; the plural is poma.
+    bnn: ["utan", "utan"],  // The Bunun tuber word: the ILRDF dictionary glosses utan as sweet potato and potato alike (甘薯；地瓜；馬鈴薯).
+    mh: ["piteto", "pʲitˠɛjtˠɛw"],  // Borrowed from English potato; the same word also covers the sweet potato.
+    cr: ["ᐊᐢᑭᑇᐏ", "askipwaːwi"],  // Plains Cree askipwâwi, glossed 'potato, wild potato' by Wolvengrey's Cree: Words and 'potato' by the Alberta Elders' Cree Dictionary; napatâk is also listed for potato.
+    abq: ["кӏартӏоф", "kʼartʼof"],  // A loan of Russian картофель, ultimately from Italian tartufolo 'truffle' (the dictionary prints the palochka as I).
+    kjb: ["is", "is"],  // The Q'anjob'al word for the potato, glossed 'papa' by the Mayan Languages Academy vocabulary.
+    toj: ["kamutiyo", "kamutijo"],  // Glossed 'papa' (potato) by the Tojol-ab'al vocabulary, also spelt kamotiyo; the sweet potato is isak'.
+    ixl: ["is", "is"],  // The Ixil word for the potato; the sweet potato is kaq is 'red is' (Chajul dictionary).
+    crs: ["ponmdeter", "pɔ̃mdetɛr"],  // From French pomme de terre, literally 'apple of the earth'; patat is the sweet potato.
+    mzh: ["papa", "papa"],  // Borrowed from Spanish papa.
+    sip: ["ཨ་ལུ་ཀེའུ", "alukiu"],  // Literally 'alu-root': Nepali alu 'potato' plus the Denjongke word for root (Yliniemi 2021).
+    dur: ["tʉʼ síi", "tʉʔ siː"],  // tʉʼ is the Dii general name for vegetables that resemble apples; the dictionary glosses tʉʼ síi as the pomme de terre that bears tubers in the ground.
+    ch: ["batåtas", "baˈtɑtas"],  // The same word as Spanish batatas; the sweet potato is kamuti. Route by resemblance to Spanish/Portuguese batata.
+    pon: ["pedehde", "pedeːde"],  // Borrowed from English potato; it covers both the sweet potato and the Irish potato, and pedehdehn waii 'foreign pedehde' is the Irish potato specifically.
+    poh: ["saqaaʼ", "saqaːʔ"],  // Poqomchiʼ also says kaxlan iis, literally 'foreign (Castilian) sweet potato', and the Spanish loan papas.
+    dds: ["pɔmtɛɛr", "pɔmtɛːr"],  // Borrowed from French pomme de terre 'apple of the earth', like the potato word across the Dogon languages.
+    hsb: ["běrna", "ˈbɪrna"],  // The Bautzen-dialect word that dictionaries take as standard; nepl (Catholic dialect) and kulka (Hoyerswerda and Schleife areas) are also used.
+    pau: ["boteto", "boˈteto"],  // Borrowed from English potato.
+    xkz: ["ki", "ki"],  // A common crop in Kurtöp country, grown above all in Shawa, where it is also a cash crop.
+    mwl: ["patata", "paˈtatɐ"],  // Taken from Spanish patata, where Portuguese says batata; batata is also listed as a Mirandese variant.
+    kmh: ["kawkaw", "kawkaw"],  // From Tok Pisin kaukau 'sweet potato'; the potato reached the Simbai area about 1960, after direct contact with Europeans.
+    bzh: ["taperë", "tapəɾe"],  // Borrowed from German Kartoffel; Tok Pisin says patete.
+    rtm: ["pitete", "pitete"],  // The Rotuman word for the potato; the sweet potato is kumara.
+    ers: ["pu", "pu˥˥"],  // Unlike most of its Qiangic neighbours, whose words resemble Chinese 洋芋 (Pumi jã y, Guiqiong jɑ̃ y), Ersu has a short word of its own; the sweet potato is hũ˧˧ʂɑu˥˥.
   },
 };

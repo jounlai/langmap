@@ -771,6 +771,29 @@ WORDS.yesterday = {
     cak: "distinct",
     zap: "distinct",
     dar: "distinct",
+    pwn: "distinct",
+    bnn: "distinct",
+    dsh: "distinct",
+    dur: "distinct",
+    ixl: "distinct",
+    mh: "distinct",
+    tru: "distinct",
+    aae: "distinct",
+    mgo: "distinct",
+    vro: "distinct",
+    abq: "distinct",
+    sip: "distinct",
+    cng: "distinct",
+    agx: "distinct",
+    dbq: "distinct",
+    huv: "distinct",
+    mxv: "distinct",
+    kmh: "distinct",
+    srm: "distinct",
+    xed: "distinct",
+    tok: "distinct",
+    crn: "distinct",
+    xkz: "distinct",
   },
   routes: {
     same: {"color":"#db2777","emoji":"🔁","en":"one word for yesterday and tomorrow","ja":"昨日と明日が同じ語","ko":"어제와 내일이 한 낱말","zh":"昨天和明天同一个词","yue":"尋日同聽日同一個詞","vi":"một từ cho hôm qua và ngày mai","th":"คำเดียวทั้งเมื่อวานและพรุ่งนี้","id":"satu kata untuk kemarin dan besok","hi":"बीते और आने वाले कल का एक शब्द","de":"ein Wort für gestern und morgen","fr":"un mot pour hier et demain","it":"una parola per ieri e domani","es":"una palabra para ayer y mañana","pt":"uma palavra para ontem e amanhã","ru":"одно слово для вчера и завтра","uk":"одне слово для учора й завтра","ar":"كلمة واحدة لأمس وغد","he":"מילה אחת לאתמול ולמחר","sw":"neno moja kwa jana na kesho"},
@@ -1487,5 +1510,28 @@ WORDS.yesterday = {
     cak: ["iwir", "iwir"],  // Tomorrow is chuwaʼq; the Kaqchikel Bible reads 'achiʼel ri iwir, keriʼ wakami' (as yesterday, so today) at Hebrews 13:8.
     zap: ["neegue", "neːɡe"],  // Tomorrow is ixí; the Isthmus Zapotec Bible reads 'neegue', zaqueca yanadxí' (yesterday, so too today) at Hebrews 13:8.
     dar: ["даг", "daɡ"],  // Tomorrow is жагӏял; IDS and NorthEuraLex both give даг for 'yesterday' in standard Dargwa.
+    pwn: ["katiaw", "katiaw"],  // tomorrow: nutiaw; both are built on the same root tiaw (ka- for the past day, nu- for the coming one), and many villages say katiav / nutiav.
+    bnn: ["takna", "takna"],  // tomorrow: kutun (also kutunin); takna also builds taknasanavan 'last night'.
+    dsh: ["gefere", "ɡefere"],  // tomorrow: beríka; the Daasanach dictionary gives gefere (gɛ̀fɛ̀ɾɛ̀) as yesterday and beríka as tomorrow, and the New Testament has gefere at John 4:52 ("Inykú gefere aadh ˈgas tikiˈde…").
+    dur: ["ká bán", "ka ban"],  // tomorrow: yɔ́gɔ́; the Dii New Testament uses ká bán at John 4:52 ("Ká bán zamndi dágá…"), Acts 7:28 and Hebrews 13:8, and the dictionary also lists bare bán.
+    ixl: ["eʼte", "eʔte"],  // tomorrow: qʼejal; the Nebaj New Testament says "kat ab'an e'te" ('you did yesterday') at Acts 7:28, and the Ixil Living Dictionary lists the word as Eet with variants eʼte / evete.
+    mh: ["inne", "jinʲnʲɛj"],  // tomorrow: ilju; the Marshallese-English Dictionary also gives raan eo turun inne for the day before yesterday.
+    tru: ["ܐܬܡܠ", "aθməl"],  // tomorrow: ܪܡܚܠ ramħəl; ܐܬܡܠ goes back to Aramaic ʾeṯmāly, and the Turoyo Bible has it at John 4:52, Acts 7:28 and Hebrews 13:8.
+    aae: ["dje", "djɛ"],  // tomorrow: nestrë; dje is the same word as Standard Albanian dje.
+    mgo: ["rɨwɔ̀", "rɨwɔ"],  // tomorrow: ɨsɔ; the Metaʼ New Testament has rɨwɔ̀ at John 4:52, Acts 7:28 ("à kəʼ zwiirɨ wə̀d Ijìpt we rɨwɔ̀") and Hebrews 13:8, and ɨsɔ for tomorrow at Matthew 6:34 and James 4:13-14.
+    vro: ["eeläq", "ˈeːlæʔ"],  // tomorrow: hummõń; eeläq continues Proto-Finnic *eklen, like Estonian eile and Finnish eilen.
+    abq: ["йацы", "jatsə"],  // tomorrow: уачӏвы; йацуахъ is 'last night'.
+    sip: ["མདང", "dãː"],  // tomorrow: tʰorãː; the day before yesterday is kʰanup.
+    cng: ["nəs", "nəs"],  // Literally 'last day': nə- (as in the word for last year) + s 'day'; tomorrow is a different word built on təp-.
+    agx: ["накь", "naqʼ"],  // Tomorrow is багагь; the Koshan dialect also says накь for yesterday and саквана for tomorrow (IDS).
+    dbq: ["àmusku", "àmusku"],  // Tomorrow is àgbum.
+    huv: ["tim", "tim"],  // Tomorrow is oxep; the Huave New Testament has tim for yesterday in John 4:52 ('Tim lanchejliow nüt tacueat…') and Hebrews 13:8, and oxep for tomorrow in Matthew 6:34.
+    mxv: ["kuni", "kuni"],  // Tomorrow is tiaan or kii ña vaxi 'the coming day'; John 4:52 in the Metlatónoc New Testament reads 'Kuꞌva ka iin xikuaa kuni' ('at one in the afternoon yesterday').
+    kmh: ["toytk", "tojrək"],  // Tomorrow is toy; the Minimib dialect says tolit and tol, and the Kalam New Testament spells the word toyrik (John 4:52, Acts 7:28).
+    srm: ["jéside", "jéside"],  // Tomorrow is amanján, from Portuguese amanhã; the Saramaccan New Testament has jeside in John 4:52 and Hebrews 13:8 and amanjan in Matthew 6:34 and James 4:13.
+    xed: ["ɗáxàwú", "ɗáxàwú"],  // Tomorrow is màxtsím, which also means 'morning'; the Hdi New Testament writes ɗahawu (John 4:52, Acts 7:28, Hebrews 13:8) and mahtsim (Matthew 6:34).
+    tok: ["tenpo suno pini", "tenpo suno pini"],  // Literally 'past sun time'; tomorrow is tenpo suno kama 'coming sun time'.
+    crn: ["tajcaí", "tahkaˈi"],  // Tomorrow is ruijmuaʼa; John 4:52 in the Cora New Testament reads 'Aꞌatzaj pu hui huatéepuaꞌaj ɨ́ tajcaí' ('at that hour yesterday it left him').
+    xkz: ["dangnin", "daŋnin"],  // Tomorrow is yangpa; dangma is a synonym.
   },
 };

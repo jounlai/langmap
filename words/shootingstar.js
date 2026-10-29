@@ -257,6 +257,21 @@ WORDS.shootingstar = {
     zh_km: "moving",
     zh_jh: "moving",
     cjy_xz: "moving",
+    pam: "plain",
+    sl: "other",
+    bs: "falling",
+    bjn: "other",
+    din: "unknown",
+    cpx: "other",
+    ace: "unknown",
+    lv: "falling",
+    mak: "other",
+    quc: "other",
+    mni: "other",
+    et: "falling",
+    tsg: "plain",
+    kjp: "moving",
+    mnw: "other",
   },
   routes: {
     falling: {"color":"#2563eb","emoji":"⬇️","en":"a falling star","ja":"落ちる星","ko":"떨어지는 별","zh":"落下的星","yue":"跌落嘅星","vi":"sao rơi","th":"ดาวที่ตก","id":"bintang jatuh","hi":"गिरता तारा","de":"fallender Stern","fr":"étoile qui tombe","it":"stella che cade","es":"estrella que cae","pt":"estrela que cai","ru":"падающая звезда","uk":"зірка, що падає","ar":"نجم يسقط","he":"כוכב שנופל","sw":"nyota inayoanguka"},
@@ -459,5 +474,20 @@ WORDS.shootingstar = {
     zh_km: ["流星", "liəu˧˩ ɕĩ˦˦"],  // 流 'flow' + 星 'star': the flowing star; Kunming also says 星宿屙屎 'the stars are pooping'.
     zh_jh: ["流星", "liəu˩˧ ɕiŋ˧˩"],  // 流 'flow' + 星 'star': the flowing star; Nanjing also says 跐星 and Yangzhou 过天星.
     cjy_xz: ["走星", "tsəu˧˩˧ ɕiəŋ˧˩˧"],  // Literally 'running star', the Jin word.
+    pam: ["bulalako", "bulaˈlako"],  // Inherited from a Proto-Philippine word for a shooting star or a kind of spirit, like Tagalog bulalakaw.
+    sl: ["utrinek", "uˈtriːnək"],  // First the charred bit of a burning candle wick, like German Sternschnuppe; SSKJ gives the full term zvezdni utrinek.
+    bs: ["zvijezda padalica", "zʋijeːzda padalitsa"],  // Literally 'falling star', padalica being 'something that falls'; the same term as Croatian.
+    bjn: ["tahi bintang", "tahi bintaŋ"],  // Literally 'star droppings', the same name as in Malay.
+    din: ["cier lony nhial", "tʃiɛr loɲ n̪ial"],  // A phrase built on cier 'Venus, big star' and nhial 'sky'; lony is glossed 'release, set out' in the same dictionary.
+    cpx: ["天火", "tiŋ˥˧˧ huei˦˥˧"],  // Literally 'heavenly fire', otherwise a fire set by lightning; Xianyou also says 掃帚星 'broom star'.
+    ace: ["seuleudan", "sɯlɯdan"],  // A word of uncertain origin that the dictionaries gloss as a large meteor, fireball or shooting star.
+    lv: ["krītošā zvaigzne", "kriːtuɔʃaː zvaiɡznɛ"],  // Literally 'the falling star'; Tēzaurs defines meteors as krītošā zvaigzne.
+    mak: ["tai bintoeng", "tai bintoeŋ"],  // Literally 'star droppings', tai 'faeces' + bintoeng 'star', the same image as Malay tahi bintang (Cense 1979).
+    quc: ["achaq chʼimil", "atʃaq tʃʼimil"],  // Literally 'star excrement', achaq 'excrement' + chʼimil, the Totonicapán word for 'star' (Christenson's dictionary).
+    mni: ["ꯊꯋꯥꯟꯃꯤꯆꯥꯛ ꯃꯊꯤ", "tʰəwanmitʃak mətʰí"],  // Literally 'star droppings', ꯊꯋꯥꯟꯃꯤꯆꯥꯛ 'star' + ꯃꯊꯤ 'faeces', the same image as Korean 별똥별 (Sharma's dictionary).
+    et: ["langev täht", "lɑŋɡeʋ tæht"],  // Literally 'falling star', the everyday name for a meteor.
+    tsg: ["bulākaw", "bulaːkaw"],  // A word of its own, glossed 'meteor, comet, shooting star'; as bulākawan it also means 'hysterical'.
+    kjp: ["ယှးယူ", "ʃá jɯ̀"],  // Literally 'star flies': ယှး 'star' + ယူ 'to fly'; it also covers a comet.
+    mnw: ["သၞံၚ်ဂြဲု", "hnɔŋ krùi"],  // Shorto's Mon dictionary glosses it 'meteor': သၞံၚ် 'star' + ဂြဲု, which on its own means 'to be emaciated, wasted'.
   },
 };

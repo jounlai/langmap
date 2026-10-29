@@ -215,6 +215,18 @@ WORDS.jellyfish = {
     en_in: "jelly",
     en_yk: "jelly",
     en_south: "jelly",
+    ga: "jelly",
+    lv: "medusa",
+    rhg: "unknown",
+    cpx: "plain",
+    sl: "medusa",
+    bs: "medusa",
+    war: "unknown",
+    bjn: "unknown",
+    ace: "unknown",
+    et: "medusa",
+    li: "unknown",
+    mrw: "other",
   },
   routes: {
     medusa: {"color":"#7c3aed","emoji":"🐍","en":"named after Medusa","ja":"メドゥーサにちなむ","ko":"메두사에서","zh":"源自美杜莎","yue":"源自美杜莎","vi":"theo tên Medusa","th":"ตั้งตามเมดูซา","id":"dari nama Medusa","hi":"मेडूसा के नाम पर","de":"nach Medusa","fr":"d'après Méduse","it":"da Medusa","es":"por Medusa","pt":"por Medusa","ru":"по имени Медузы","uk":"за ім'ям Медузи","ar":"على اسم ميدوسا","he":"על שם מדוזה","sw":"kwa jina la Medusa"},
@@ -374,5 +386,17 @@ WORDS.jellyfish = {
     en_in: ["jellyfish", "ˈdʒɛlifɪʃ"],  // Jelly + fish, for its gelatinous body; it is not a fish.
     en_yk: ["jellyfish", "ˈdʒɛlifɪʃ"],  // Jelly + fish, for its gelatinous body; it is not a fish.
     en_south: ["jellyfish", "ˈdʒɛlifɪʃ"],  // Jelly + fish, for its gelatinous body; it is not a fish.
+    ga: ["smugairle róin", "ˈsˠmˠʊɡəɾˠlʲə ɾˠoːnʲ"],  // Literally 'seal's spittle': smugairle 'thick spittle' + róin, genitive of rón 'seal'.
+    lv: ["medūza", "ˈmɛduːza"],  // Ultimately named after Medusa, the Gorgon of Greek myth.
+    rhg: ["nuinna", "nuɲɲa"],  // The Rohingya Dictionary glosses nuinna as 'jellyfish'; its origin is not given.
+    cpx: ["䖳", "tʰɒ˦˨"],  // An old Southern Chinese word for jellyfish, used in Putian and Xianyou.
+    sl: ["meduza", "mɛˈduːza"],  // Borrowed from Italian medusa or French méduse, after the Gorgon Medusa.
+    bs: ["meduza", "meˈduːza"],  // From New Latin medusa, after the Gorgon Medusa.
+    war: ["bantol", "banˈtol"],  // Waray Wikipedia lists salabay, bokya, budol and bantól as names for the jellyfish; the origin is not given.
+    bjn: ["ubur-ubur", "ubur ubur"],  // A reduplication of ubur, the same word as Indonesian ubur-ubur; its origin is not given.
+    ace: ["bôbô", "bobo"],  // The Balai Bahasa Aceh dictionary also lists abô-abô; the origin is not given.
+    et: ["meduus", "meˈduːs"],  // Borrowed from German Meduse, named after the Gorgon Medusa; millimallikas is the other common name.
+    li: ["kwal", "kʋal"],  // The same word as Dutch kwal and German Qualle; also used of an unpleasant person.
+    mrw: ["kapayompayong sa ragat", "kapajompajoŋ sa raɡat"],  // Built on payong 'umbrella' plus sa ragat 'of the sea'.
   },
 };

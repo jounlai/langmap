@@ -272,6 +272,27 @@ WORDS.shootingstar = {
     tsg: "plain",
     kjp: "moving",
     mnw: "other",
+    eu: "moving",
+    nn: "moving",
+    tzh: "other",
+    khb: "falling",
+    nxq: "plain",
+    nhe: "other",
+    ctu: "other",
+    arn: "moving",
+    dv: "other",
+    wa: "unknown",
+    mt: "other",
+    fur: "falling",
+    sah: "plain",
+    fy: "falling",
+    sm: "moving",
+    dtp: "unknown",
+    co: "other",
+    ja_oki: "other",
+    ty: "unknown",
+    ami: "moving",
+    kpv: "falling",
   },
   routes: {
     falling: {"color":"#2563eb","emoji":"⬇️","en":"a falling star","ja":"落ちる星","ko":"떨어지는 별","zh":"落下的星","yue":"跌落嘅星","vi":"sao rơi","th":"ดาวที่ตก","id":"bintang jatuh","hi":"गिरता तारा","de":"fallender Stern","fr":"étoile qui tombe","it":"stella che cade","es":"estrella que cae","pt":"estrela que cai","ru":"падающая звезда","uk":"зірка, що падає","ar":"نجم يسقط","he":"כוכב שנופל","sw":"nyota inayoanguka"},
@@ -489,5 +510,26 @@ WORDS.shootingstar = {
     tsg: ["bulākaw", "bulaːkaw"],  // A word of its own, glossed 'meteor, comet, shooting star'; as bulākawan it also means 'hysterical'.
     kjp: ["ယှးယူ", "ʃá jɯ̀"],  // Literally 'star flies': ယှး 'star' + ယူ 'to fly'; it also covers a comet.
     mnw: ["သၞံၚ်ဂြဲု", "hnɔŋ krùi"],  // Shorto's Mon dictionary glosses it 'meteor': သၞံၚ် 'star' + ဂြဲု, which on its own means 'to be emaciated, wasted'.
+    eu: ["izar iheskor", "is̻ar ieskor"],  // Literally "fleeing star" (iheskor "fugitive, fleeting"); Basque Wikipedia gives it, with izarloka and izar uxo, as the everyday name for a meteor.
+    nn: ["stjerneskot", "ˈstjæːɳəskuːt"],  // Literally "star-shot"; Nynorskordboka defines it as the bright streak a meteor makes on the night sky.
+    tzh: ["tsaʼekʼ", "tsaʔekʼ"],  // Literally "star droppings" (tsaʼ "excrement" + ekʼ "star"), the Central and Northern Tseltal word for a shooting star.
+    khb: ["ᦡᦱᧁᦟᦳᧂ", "daːw˥ luŋ˥˩"],  // Literally "falling star": ᦡᦱᧁ "star" + ᦟᦳᧂ "go down".
+    nxq: ["ssaq", "zɑ˨˩"],  // A word of its own, listed as common to all dialects; another dialect says geeqqer, literally 'star dung'.
+    nhe: ["tlixihuitl", "tɬiˈʃiwitɬ"],  // Built from tlitl 'fire' and xihuitl; the IDIEZ dictionary of Huasteca Nahuatl glosses it 'comet, shooting star'.
+    ctu: ["taʼ ekʼ", "taʔ ʔekʼ"],  // Literally 'star excrement', like Korean 별똥별.
+    arn: ["lefkechi wangüḻen", "lefketʃi waŋɨl̪en"],  // Literally 'running star' (lef 'fast, running' + adverbial -kechi); on seeing one people say Lefi wangüḻen 'a star ran'.
+    dv: ["ގިނިހިލަ", "ɡinihila"],  // Literally 'spark rock': ގިނި 'spark' + ހިލަ 'rock'.
+    wa: ["schitante sitoele", "ʃitãt sitwɛl"],  // Built on schiter, which the Walloon Wiktionary glosses both 'to have the runs' and 'to spill, slip, run off'; Walloon also says sitoele ki schite and the learned meteyorite.
+    mt: ["kewkba feġġa", "kɛwba fɛddʒa"],  // Literally 'a star of sudden appearance': kewkba 'star' + feġġa, the brief or sudden appearing of something.
+    fur: ["stele che e cole", "stɛle ke e kɔle"],  // Literally 'star that falls'; the ARLeF dictionary also gives stele che si smocje 'star that snuffs itself out'.
+    sah: ["сындыыс", "sɯnˈdɯːs"],  // Sakha's own word for a shooting star, defined as a star sliding across the sky as it falls; it also names a large dragonfly.
+    fy: ["fallende stjer", "fɔləndə stjɛr"],  // Literally 'falling star', like Dutch vallende ster; the Frisian academy dictionary records it as the set phrase.
+    sm: ["fetūlele", "fetuːlele"],  // Literally 'flying star' (fetū 'star' + lele 'to fly'), a compound shared with Tokelauan and reconstructed for Proto-Nuclear Polynesian.
+    dtp: ["buahakan", "buahakan"],  // The Dusun dictionary's word for a meteor, glossed with Malay tahi bintang; it also lists tapui rombituon 'star fire', and Coastal Kadazan says tai' do buhavan 'star droppings'.
+    co: ["stella di e grazie", "ˈstella di e ˈɡratsje"],  // Literally 'star of the graces'; the INFCOR Corsican database lists it, with the variants stella di i grazii and grazia, as the word for a shooting star, and gives lacrima di San Lurenzu 'Saint Lawrence's tear' as a synonym.
+    ja_oki: ["ふしぬやーうーちー", "ɸuɕinujaːʔuːtɕiː"],  // Literally 'the star's house-moving': ふし 'star' + ぬ 'of' + うーちー 'moving house'.
+    ty: ["fetiʻa pao", "fetiʔa pao"],  // Fetiʻa is 'star'; Lemaître's lexicon of contemporary Tahitian glosses fetiʻa pao 'shooting star, meteor'.
+    ami: ["paʼoliday a foʼis", "paʔoliðaj a foʔis"],  // Literally 'visiting star', from ʼolid 'to visit around' + foʼis 'star'; the Safolu dictionary also has miʼoliday a foʼis and maʼalolay a foʼis 'swept-away star'.
+    kpv: ["усян кодзув", "ˈuɕan ˈkodʑuv"],  // Literally 'falling star', from усьны 'to fall' + кодзув 'star'; the Large Komi-Russian Dictionary glosses it 'падающая звезда; метеор' (also усяна кодзув).
   },
 };

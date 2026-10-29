@@ -395,6 +395,27 @@ WORDS.whale = {
     mwl: "plain",
     tok: "fish",
     yrk: "unknown",
+    dsb: "fish",
+    mic: "unknown",
+    kos: "plain",
+    mus: "other",
+    rap: "plain",
+    niu: "plain",
+    mrq: "plain",
+    szy: "unknown",
+    kw: "other",
+    tkl: "plain",
+    sma: "plain",
+    smn: "plain",
+    stq: "fish",
+    ia: "plain",
+    nys: "unknown",
+    ale: "unknown",
+    kwk: "unknown",
+    tsi: "unknown",
+    vo: "unknown",
+    itl: "plain",
+    vot: "fish",
   },
   routes: {
     fish: {"color":"#2563eb","emoji":"🐟","en":"called a fish","ja":"「魚」と呼ぶ","ko":"\"물고기\"라 부름","zh":"称作\"鱼\"","yue":"叫做「魚」","vi":"gọi là cá","th":"เรียกว่าปลา","id":"disebut ikan","hi":"मछली कहा जाता है","de":"als Fisch bezeichnet","fr":"appelée poisson","it":"chiamata pesce","es":"llamada pez","pt":"chamada peixe","ru":"называют рыбой","uk":"називають рибою","ar":"تُسمّى سمكة","he":"נקרא דג","sw":"huitwa samaki"},
@@ -735,5 +756,26 @@ WORDS.whale = {
     mwl: ["baleia", "bɐˈlejɐ"],  // From Latin ballaena, the same word as Portuguese baleia; the Mirandese Wikipedia uses baleia and baleias throughout.
     tok: ["kala suli", "kala suli"],  // Literally 'big sea creature': kala, the word for fish that also covers whales and dolphins, plus suli 'big'.
     yrk: ["халэʼ", "xaleʔ"],  // The Tundra Nenets word for the whale, recorded by Pyrerka (1948), Homich (1954) and Tereshchenko (1965); it is distinct from халя 'fish'.
+    dsb: ["wjelryba", "ˈvʲɛlrɨba"],  // Literally 'great fish', containing ryba 'fish', the same Sorbian compound as Upper Sorbian wjelryba.
+    mic: ["putʼp", "budəp"],  // The Mi'kmaq word for the whale, an animate noun with plural putʼpaq; putʼpeʼj is a whale calf.
+    kos: ["loat", "loat"],  // Inherited from Proto-Oceanic *rato 'small whale', like Pohnpeian roahs and Marshallese raj (Blust's Austronesian Comparative Dictionary).
+    mus: ["ue-pofkv", "ojpóːfka"],  // Literally 'animal that blows water' (ue- 'water'); the Muskogee dictionary glosses it porpoise, whale and hippopotamus.
+    rap: ["taʻoraha", "taʔoɾaha"],  // Inherited, irregularly, from Proto-Nuclear-Polynesian *tafolaqa 'whale', cognate with Samoan tafolā and Māori tohorā (POLLEX).
+    niu: ["tafuā", "tafuaː"],  // Inherited from Proto-Polynesian *taf(o,u)raqa 'whale', like Tongan tofuaʻa and Samoan tafolā.
+    mrq: ["paʻaoa", "paʔaoa"],  // From East Polynesian *paraaoa 'whale', cognate with Hawaiian palaoa; Le Cléac'h glosses it whale, sperm whale and cetaceans in general, and it can also mean dolphin.
+    szy: ["isuʼ", "isuʔ"],  // The ILRDF Sakizaya dictionary glosses isu' as 鯨魚 'whale'.
+    kw: ["morvil", "ˈmɔrvɪl"],  // Literally 'sea beast': mor 'sea' plus mil 'animal', like Welsh morfil and Breton morvil.
+    tkl: ["tafolā", "tafolaː"],  // Inherited from Proto-Polynesian *tafolaqa 'whale', like Samoan tafolā and Hawaiian koholā.
+    sma: ["faala", "ˈfɑːla"],  // An early loan from Germanic hwalaz 'whale', through Proto-Sami *fālēs, like Northern Sami fális.
+    smn: ["fäälis", "ˈfæːlis"],  // An early loan from Germanic hwalaz 'whale', through Proto-Sami *fālēs; the Giella Finnish–Inari dictionary also spells it väälis.
+    stq: ["Waalfisk", "ˈvaːlfɪsk"],  // Literally 'whale-fish', with Fisk 'fish', like German Walfisch and Dutch walvis.
+    ia: ["balena", "baˈlena"],  // A root word of the Interlingua-English Dictionary, shared with Italian balena.
+    nys: ["mamang", "mamaŋ"],  // The Noongar word for the whale, also spelt mamung, mammang or mamong; the whale is a totem of the Wagyl Kaip Southern Noongar.
+    ale: ["alax̂", "alaχ"],  // The Aleut word for the whale, recorded in the UCLA Phonetics Lab Archive Eastern Aleut wordlist.
+    kwk: ["g̱wa̱ʼya̱m", "ɢʷəʔjəm"],  // The Kwak'wala word for the whale, as in niła̱tłe'yida g̱wa̱'ya̱m 'the whale appeared on the surface of the water'; the killer whale is a separate word, max̱'inux̱.
+    tsi: ["łbuun", "ɬbuːn"],  // The Sm'algyax word for the whale, as in Wüwaal łbuun da hał awaan 'there is a whale along there'; the killer whale is 'neexł.
+    vo: ["valüt", "vaˈlyt"],  // The Volapük word for the whale, glossed Walfisch in the Volapük Wiktionary; the Volapük Wikipedia calls the dinosaur Cetiosaurus 'valüt-sümik', whale-like.
+    itl: ["йуӈәйу", "juŋəju"],  // Borrowed from a Chukotko-Kamchatkan neighbour, compare Alutor юӈюӈ; the diminutive йуӈйучӽ means a whale calf.
+    vot: ["kittrõõba", "ˈkitːrɤːba"],  // Literally 'whale-fish', from Russian кит-рыба; the Votic dictionary glosses it Estonian valaskala, vaal, with the example meress nõizõp kit-ryyba meilie vassaa 'a whale rises from the sea towards us'.
   },
 };

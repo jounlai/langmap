@@ -713,6 +713,28 @@ WORDS.rainbow = {
     apw: "unknown",
     meu: "unknown",
     kmh: "unknown",
+    kwk: "unknown",
+    tsi: "unknown",
+    szy: "other",
+    smn: "bow",
+    nys: "unknown",
+    tlh: "plain",
+    yur: "unknown",
+    dak: "unknown",
+    tao: "unknown",
+    niu: "other",
+    mrq: "plain",
+    kca: "unknown",
+    jbo: "bow",
+    chr: "unknown",
+    ame: "unknown",
+    aqc: "bow",
+    tiw: "serpent",
+    acu: "unknown",
+    ruq: "unknown",
+    zts: "unknown",
+    mpt: "unknown",
+    mic: "unknown",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1369,5 +1391,27 @@ WORDS.rainbow = {
     apw: ["iłtsą́ą́tłʼól", "iɬtsã́ã́tɬʼól"],  // The Western Apache word for the rainbow in the Apache New Testament: 'iłtsą́ą́tł'ól bitsits'in binazt'i'go' 'a rainbow encircling his head' (Revelation 10:1).
     meu: ["kevau", "kevau"],  // The Motu word for the rainbow, used throughout the Motu Bible: 'egu kevau dagadaga ai na atoamu' 'I have set my rainbow in the cloud' (Genesis 9:13).
     kmh: ["tibeñ", "tibeɲ"],  // The Kalam word for the rainbow (Pawley & Bulmer's Kalam dictionary); a rainbow 'forms' with the phrase tibeñ wati-tek g-.
+    kwk: ["wag̱alus", "waɢalus"],  // The Kwak'wala word for the rainbow, as recorded from speaker Lorraine Hunt in the FirstVoices Kwak'wala dictionary (syllabified wa-ǥa-lus).
+    tsi: ["maaxii", "maːχiː"],  // The Sm'algyax word for the rainbow, from Dunn's Practical Dictionary of Coast Tsimshian; a striped 'rainbow blanket' is gwistgima̱xmaaxi.
+    szy: ["bihkac ni Edek", "bihkats ni ədək"],  // Literally 'Edek's bird snare': the same ILRDF Sakizaya dictionary glosses bihkac as a noose trap for catching birds.
+    smn: ["äijihtävgi", "ˈæijihtævɡi"],  // Literally 'thunder bow': äijih 'thunder' + tävgi 'bow', both so glossed in the same Inari Sámi dictionary.
+    nys: ["walken", "walken"],  // The Noongar word for the rainbow, as taught in the Noongar first-words book Noongar Boodja Waangkan.
+    tlh: ["Har'ey", "xɑrʔɛj"],  // A Klingon root word for the rainbow, revealed at the 2020 qep'a' (Klingon language convention); it has no component parts.
+    yur: ["negahseʼwey", "neɣahʂeʔwej"],  // The word taught in Georgiana Trull's Yurok Language Conversation Book ('Neee'nes kue noorew negahse'wey' — Look at the pretty rainbow); Jessie Van Pelt's nekse'wey is a variant of the same word, and older records add segep 'ue-pery 'coyote's penis' and others.
+    dak: ["wíhmuŋke", "wíhmũke"],  // The Dakota word for the rainbow (Lakota wígmuŋke), used in the Dakota New Testament: 'ihdukśan wihmunke wan hmihbeya yanka' (Rev 4:3) and 'wihmunke wan wapaha kiye' (Rev 10:1).
+    tao: ["rangirang", "raŋiraŋ"],  // The Tao (Yami) word for the rainbow, listed as a noun '彩虹' in the ILRDF Yami dictionary, which also lists the variant nangirang and the verb mirarangirang 'there is a rainbow'.
+    niu: ["tagaloa", "taŋaloa"],  // The Niuean rainbow bears the name of Tagaloa, the principal god of pre-missionary Niue (Pollex, after Sperlich 1997); the Niue Bible uses it in Genesis 9:13 'haku a tagaloa ke he aolagi' and Revelation 4:3 and 10:1.
+    mrq: ["anuanua", "anuanua"],  // The inherited East Polynesian rainbow word (*aanuanua), cognate with Tahitian ānuanua and Hawaiian ānuenue; the Marquesan dictionary glosses it 'arc-en-ciel'.
+    kca: ["нўԓ йўх", "nuɬ jux"],  // The Khanty word for the rainbow, used in Genesis 9:13, 9:14 and 9:16 of the Khanty Bible ('Ма нўԓ йўхем ԓощԓэм', 'I set my rainbow'); the second word looks like йўх 'tree, wood', but no source analyses the compound.
+    jbo: ["tanbargu", "tanˈbarɡu"],  // A Lojban compound of tsani 'sky' (rafsi tan) and bargu 'arch', defined in jbovlaste as 'b1 is a rainbow at location b2'.
+    chr: ["ᎤᏅᏉᎳᏛ", "uhnə̃kʷolatʰə̃"],  // The Cherokee word for the rainbow, from Feeling's Cherokee-English Dictionary (headword ᎤᏅᏉᎳᏛᎢ, example 'ᎤᏅᏉᎳᏛ ᎤᏍᎪᎸᏨ ᎤᎶᎩᎸ ᎤᎵᎦᎵᏴᎭ' 'the rainbow faded when the cloud cleared up'); the Bible spells it ᎤᏅᎪᎳᏛ.
+    ame: ["ayon", "ajon"],  // The Yanesha' word for the rainbow, the one word the Yanesha' New Testament shares between the rainbow around the throne (Revelation 4:3) and the rainbow over the angel's head (10:1 'Poñothñapaꞌ añ arkaꞌtampesneneꞌ ayon').
+    aqc: ["хьхьӏолош гертти", "χːˤoloʃ ɡertːi"],  // Literally 'arch from the sky': the Archi dictionary glosses it 'радуга (букв. "с неба дуга")', and WOLD analyses it as above-ELATIVE-bow.
+    tiw: ["puntaninga", "puntaniŋa"],  // The Tiwi Lexicon glosses puntaninga 'rainbow, Rainbow serpent', the same mythical being as its masculine synonyms ampiji and marriji, and uses it in 'Puntaninga ampi-ji-rr-ikirapulimpa' ('the rainbow is across the sky').
+    acu: ["tungkiang", "tuŋkiaŋ"],  // The Achuar word for the rainbow, as the Achuar Bible uses it in Genesis 9:13 'tungkiang jiisrum' and 9:16 'Tungkiang yurangminam pujamtaikia' ('when the rainbow is in the sky'), and in Revelation 4:3 and 10:1 (tungkiangkua tumau 'like a rainbow').
+    ruq: ["curcubeai", "kurkuˈbe̯aj"],  // The Megleno-Romanian word for the rainbow, the counterpart of Romanian curcubeu, whose origin is disputed; Capidan also records a shortened form bei.
+    zts: ["liadzɨ́ny", "liadzɨɲ"],  // The Valley Zapotec word for the rainbow as the San Juan Guelavía New Testament uses it for the rainbow around the throne (Revelation 4:3 'cá tuby liadzɨ́ny') and over the angel's head (10:1 'nez quiany nuu tuby liadzɨ́ny').
+    mpt: ["kwese", "kwese"],  // The Mian word for the rainbow as the Mian New Testament uses it for the rainbow around the throne (Revelation 4:3 'Kwese ele itanasitobe') and on the angel's head (10:1 'kwese e gabam oub').
+    mic: ["walqwan", "walɣʷan"],  // The Mi'kmaq word for the rainbow, an animate noun ('Gi's gi'l nemi't walqwan?' 'Have you seen a rainbow?'), also used in Revelation 4:3 and 10:1 of the Mi'kmaq New Testament.
   },
 };

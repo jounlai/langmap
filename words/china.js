@@ -404,6 +404,51 @@ WORDS.china = {
     tsg: "unknown",
     li: "cina",
     mnw: "unknown",
+    quy: "cina",
+    tly: "cina",
+    nij: "cina",
+    kea: "cina",
+    new: "cina",
+    dty: "cina",
+    kek: "cina",
+    yua: "cina",
+    nia: "cina",
+    loz: "cina",
+    pcd: "cina",
+    cbk: "cina",
+    tzh: "cina",
+    fur: "cina",
+    wa: "cina",
+    pnt: "cina",
+    sm: "cina",
+    lij: "cina",
+    fy: "cina",
+    tet: "cina",
+    rcf: "cina",
+    zap: "cina",
+    dtp: "cina",
+    mixtec: "cina",
+    tzo: "cina",
+    gcf: "cina",
+    kqn: "cina",
+    arn: "cina",
+    guc: "cina",
+    fj: "cina",
+    pap: "cina",
+    pdc: "cina",
+    nxq: "zhongguo",
+    ctu: "cina",
+    nch: "cina",
+    bi: "cina",
+    to: "cina",
+    ty: "cina",
+    gil: "cina",
+    gym: "cina",
+    ngu: "cina",
+    csb: "cina",
+    co: "cina",
+    frp: "cina",
+    bpy: "cina",
   },
   routes: {
     zhongguo: {"color":"#dc2626","emoji":"🏮","en":"reads 中國 \"Middle Kingdom\" itself","ja":"漢字 中國 を自分で読む","ko":"한자 中國을 직접 읽음","zh":"自己读汉字\"中國\"","yue":"自己讀漢字「中國」","vi":"tự đọc chữ 中國","th":"อ่านอักษร 中國 เอง","id":"membaca aksara 中國 sendiri","hi":"中國 को ख़ुद पढ़ना","de":"liest 中國 selbst","fr":"lit 中國 lui-même","it":"legge 中國 da sé","es":"lee 中國 por sí mismo","pt":"lê 中國 por si","ru":"своё чтение 中國","uk":"власне читання 中國","ar":"يقرأ 中國 بنفسه","he":"קורא את 中國 בעצמו","sw":"husoma 中國 yenyewe"},
@@ -750,5 +795,50 @@ WORDS.china = {
     tsg: ["Sungsung", "suŋsuŋ"],  // The Tausug dictionary glosses Sungsung as China; its Tagalog cognate Sungsong is traced either to the Song 宋 dynasty or to Proto-Malayo-Polynesian *suŋsuŋ 'against the current'.
     li: ["China", "ˈʃinaː"],  // The Limburgish Wikipedia title; the Limburgish Wiktionary gives the pronunciation /ʃìna:/ and the alternative spelling Sjina.
     mnw: ["ကြုက်", "krɜk"],  // Kruk is the Mon name of the Chinese; the country is also written ဍုင်ကြုက် 'land of the Chinese'.
+    quy: ["China", "ˈtʃina"],  // China, as in Spanish; Jehovah's Witnesses' Ayacucho Quechua news digest speaks of chinamanta kaq turistakuna 'tourists from China', and Unicode CLDR's Quechua locale names China China; penultimate stress by the regular Quechua rule. Route by resemblance to the neighbouring forms (es(China) qu(China)); no etymology of its own.
+    tly: ["Cin", "tʃin"],  // The Talysh Wikipedia calls the People's Republic Cin Xəlǧi Respublikə and the Chinese language cini zyvon (Jehovah's Witnesses' Talysh spells it Çin); the same word as Persian چین. Route by resemblance to the neighbouring forms (fa(چین) az(Çin)); no etymology of its own.
+    nij: ["Cina", "ˈtʃina"],  // China in Ngaju, as in Jehovah's Witnesses' Ngaju 'Uluh Cina' 'a Chinese person' and 'penjara Cina' 'a prison in China'; stress on the penultimate as in the row's due. Route by resemblance to the neighbouring forms (ms(China) id(Cina)); no etymology of its own.
+    kea: ["Xina", "ˈʃina"],  // Xina is China in Unicode CLDR's Kabuverdianu locale and in Kabuverdianu JW publications ('kapital di Xina', 'Di Xina pa Purtugal'); penultimate stress by the regular ALUPEC rule. Route by resemblance to the neighbouring forms (pt(China) es(China)); no etymology of its own.
+    new: ["चीन", "tɕiːn"],  // चीन is the title of the Newar Wikipedia article on China (common name चीन, long name जनवादी गणतन्त्र चीन), the same form as Hindi and Nepali चीन. Route by resemblance to the neighbouring forms (hi(चीन) ne(चीन)); no etymology of its own.
+    dty: ["चीन", "tʃiːn"],  // The Dotyali Wikipedia article on China (titled चीन देश 'the country China') opens with चीन, officially जनवादी गणतन्त्र चीन, the same form as Nepali and Hindi चीन. Route by resemblance to the neighbouring forms (hi(चीन) ne(चीन)); no etymology of its own.
+    kek: ["China", "tʃina"],  // China in Qʼeqchiʼ, as in Jehovah's Witnesses' 'saʼ li tenamit China' 'in the country of China' and 'li akʼ chihabʼ re China' 'the Chinese New Year'. Route by resemblance to the neighbouring forms (es(China)); no etymology of its own.
+    yua: ["China", "tʃina"],  // China in Yucatec Maya, as in Jehovah's Witnesses' 'u noj kaajil China' 'the capital of China' and 'teen China in taal' 'I come from China'. Route by resemblance to the neighbouring forms (es(China)); no etymology of its own.
+    nia: ["Cina", "tʃina"],  // China in Nias, as in Jehovah's Witnesses' 'niha Cina' 'Chinese people' and 'ba Cina' 'in China'; the Nias Wikipedia titles the country Tiongkok, explaining that Indonesia replaced Cina by Tiongkok officially in 2014. Route by resemblance to the neighbouring forms (ms(China) id(Cina)); no etymology of its own.
+    loz: ["Chaina", "tʃaina"],  // Chaina is China in Silozi JW publications ('mutu wa kwa Chaina' 'a person from China', 'Mubusi wa kwa Chaina ya bizwa Qin Shi Huang'), with Machaina for Chinese people and Sichaina for the language; quoted news also writes China. Route by resemblance to the neighbouring forms (en(China)); no etymology of its own.
+    pcd: ["Kine", "kin"],  // Kine is the title of the Picard Wikipedia article on China ('Chele Kine ch'est un païs d'Asie ed l'Est'), with Républike populére Kine for the People's Republic. Route by resemblance to the neighbouring forms (fr(Chine)); no etymology of its own.
+    cbk: ["China", "ˈtʃina"],  // China is the title of the Chavacano Wikipedia article on the People's Republic, and Chavacano JW publications write 'el maga oficial na China'; penultimate stress by the regular rule for an unaccented vowel-final word. Route by resemblance to the neighbouring forms (es(China) tl(Tsina)); no etymology of its own.
+    tzh: ["China", "tʃina"],  // China in Tzeltal, as in Jehovah's Witnesses' 'ta China' 'in China' and 'Te China yak ta kʼaxel' 'China is going through'. Route by resemblance to the neighbouring forms (es(China)); no etymology of its own.
+    fur: ["Cine", "ˈtʃine"],  // Cine is the Friulian name of China: the Friulian Wikipedia article Cine (stât) ('La Cine al è un stât in te Asie orientâl'), Unicode CLDR's Friulian locale and Wiktionary; cinês is Chinese. Route by resemblance to the neighbouring forms (it(Cina) fr(Chine)); no etymology of its own.
+    wa: ["Chine", "ʃin"],  // Chine is the title of the Walloon Wikipedia article on China, said like French Chine.
+    pnt: ["Κίνα", "ˈcina"],  // Κίνα is the title of the Pontic Greek Wikipedia article on China, whose text uses the Pontic nominative Κίναν (Η Κίναν συνορεύ' με 14 κράτη).
+    sm: ["Saina", "saina"],  // Borrowed from English China; also the title of the Samoan Wikipedia article.
+    lij: ["Cìnn-a", "ˈtʃiŋa"],  // Cìnn-a is the Ligurian Wikipedia's name for China, officially a Repùbrica Popolâre Cinéize.
+    fy: ["Sina", "ˈsina"],  // Sina, with Frisian S for Ch, is the West Frisian name of China (folút Folksrepublyk Sina).
+    tet: ["Xina", "ˈʃina"],  // Xina, spelt as in Portuguese-based Tetum orthography, is the title of the Tetum Wikipedia article on China; rai-Xina is 'the land of China'.
+    rcf: ["Chine", "ʃin"],  // Chine in Réunion Creole, as used in Jehovah's Witnesses' Réunion Creole publications ('la kapital la Chine', 'abit an Chine').
+    zap: ["China", "tʃina"],  // Isthmus Zapotec uses the Spanish name China, guidxi China 'the country of China'.
+    dtp: ["China", "tʃina"],  // China, spelt as in Malay, is the title of the Kadazandusun Wikipedia article (officially Republik Rakyat China).
+    mixtec: ["China", "tʃina"],  // Mixtec uses the Spanish name China, as in Jehovah's Witnesses' Guerrero Mixtec (Tu'un Sávi) publications ('na̱ ndóo chí China').
+    tzo: ["China", "tʃina"],  // Spelled as in Spanish; Jehovah's Witnesses' Tzotzil publications use it ("likemun ta China", I come from China).
+    gcf: ["Chin", "ʃin"],  // Like French Chine; used without an article in Guadeloupean Creole lists of countries ("an Chin", in China).
+    kqn: ["China", "tʃina"],  // Used in Kaonde publications of Jehovah's Witnesses ("wikala ku China", who lives in China; bena China, Chinese people).
+    arn: ["China", "tʃina"],  // Used with mapu "land" in Mapudungun publications of Jehovah's Witnesses ("China mapu meu", in China).
+    guc: ["China", "tʃina"],  // Used in Wayuunaiki publications of Jehovah's Witnesses ("chejeʼewalin taya China", I am from China).
+    fj: ["Jaina", "tʃaina"],  // Fijian Wikipedia titles its article on the country Jaina (matanitu) "Jaina (state)"; Wiktionary also lists the spelling Jiaina.
+    pap: ["China", "ˈtʃina"],  // The Papiamentu name is spelled as in Spanish; ch is read tʃ and, with no accent written, the stress falls on the next-to-last syllable.
+    pdc: ["Tscheine", "ˈtʃaɪnə"],  // Pennsylvania German Wikipedia titles its article on the country Tscheine, a spelling of English China /ˈtʃaɪnə/ rather than German China.
+    nxq: ["Zhuguef", "ʈʂu˧kwɤ˩˧"],  // Glossed 中国 "China" in the SIL Naxi dictionary, which gives the Lijiang (common) pronunciation ʈʂu³³kwɤ¹³; it matches Chinese 中国 Zhōngguó.
+    ctu: ["China", "tʃina"],  // Spelled as in Spanish; Chol publications of Jehovah's Witnesses use it ("yaʼ ti China", there in China).
+    nch: ["China", "ˈtʃina"],  // Spelled as in Spanish; Wiktionary lists it as the Central Huasteca Nahuatl name of the country, and Huasteca Nahuatl publications use it ("Ipan China", in China).
+    bi: ["Jaena", "dʒaena"],  // The Bislama Wikipedia's article on the country is titled Jaena, and Jehovah's Witnesses' Bislama publications use the same name (Gavman blong Jaena 'the government of China').
+    to: ["Siaina", "siaina"],  // The Tongan Wikipedia's article on the country is titled Siaina, and Jehovah's Witnesses' Tongan publications speak of the Kakai Siaina 'Chinese people' and lea faka-Siaina 'the Chinese language'.
+    ty: ["Tinitō", "tinitoː"],  // The Tahitian Wikipedia's article on the country is titled Tinitō; the same word is used for 'Chinese', as in Jehovah's Witnesses' Tahitian vahine Tinito 'Chinese woman'.
+    gil: ["Tiaina", "siaina"],  // Jehovah's Witnesses' Kiribati publications call China Tiaina (atuni kaawan Tiaina 'the capital of China', I-Tiaina 'the Chinese'); ti is pronounced /si/ in Gilbertese.
+    gym: ["China", "tʃina"],  // Jehovah's Witnesses' Ngäbere publications call the country China (China yete 'in China', nitre nünanka China 'people who live in China'), the Spanish name.
+    ngu: ["China", "ˈtʃina"],  // Jehovah's Witnesses' Guerrero Nahuatl publications call the country China (70 kalpamej itech China '70 towns in China'), the Spanish name; Nahuatl stress falls on the penultimate syllable.
+    csb: ["Chinë", "ˈxinɜ"],  // A plural name, borrowed from Polish Chiny, which comes from German China; the Kashubian Wikipedia's article gives Chinë as the short name of the People's Republic.
+    co: ["China", "ˈkina"],  // The Corsican Wikipedia's article on the country is titled China (a China), with ch read /k/ as in Corsican turchinu.
+    frp: ["Ch·ina", "ˈtʃina"],  // The Arpitan Wikipedia's article on the country and region is titled Ch·ina in the ORB supradialectal spelling, where ch· stands for the sound written tʃ in this row's ch·ocolât.
+    bpy: ["চীন", "tʃin"],  // The Bishnupriya Manipuri Wikipedia calls the People's Republic গণচীন 'People's China' and uses plain চীন for the country in running text and in its list of country names.
   },
 };

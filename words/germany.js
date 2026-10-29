@@ -421,6 +421,34 @@ WORDS.germany = {
     mrw: "alemanni",
     seh: "alemanni",
     mfe: "alemanni",
+    ng: "deutsch",
+    tet: "alemanni",
+    lij: "germania",
+    dtp: "germania",
+    ewo: "germania",
+    mhr: "nemets",
+    xmf: "germania",
+    gcf: "alemanni",
+    rcf: "alemanni",
+    tzo: "alemanni",
+    zap: "alemanni",
+    mixtec: "alemanni",
+    tly: "alemanni",
+    dty: "germania",
+    kea: "alemanni",
+    kek: "alemanni",
+    yua: "alemanni",
+    tzh: "alemanni",
+    to: "germania",
+    ty: "germania",
+    gil: "germania",
+    lbe: "germania",
+    bpy: "germania",
+    gym: "alemanni",
+    fj: "germania",
+    pap: "alemanni",
+    arn: "alemanni",
+    guc: "alemanni",
   },
   routes: {
     deutsch: {"color":"#0891b2","emoji":"🗣️","en":"the Germans' own word","ja":"ドイツ人の自称","ko":"독일인의 자칭","zh":"德国人的自称","yue":"德國人嘅自稱","vi":"tên tự gọi của người Đức","th":"ชื่อที่ชาวเยอรมันเรียกตัวเอง","id":"sebutan orang Jerman sendiri","hi":"जर्मनों का अपना शब्द","de":"die Selbstbezeichnung","fr":"le nom que se donnent les Allemands","it":"il nome che si danno i tedeschi","es":"el nombre que se dan los alemanes","pt":"o nome que os alemães se dão","ru":"самоназвание немцев","uk":"самоназва німців","ar":"اسم الألمان لأنفسهم","he":"השם שהגרמנים קוראים לעצמם","sw":"jina la Wajerumani wenyewe"},
@@ -782,5 +810,33 @@ WORDS.germany = {
     mrw: ["Alimaniya", "alimanija"],  // The Maranao name for Germany as given in the Webonary Maranao dictionary; no source names the donor language.
     seh: ["Alemanya", "alemaɲa"],  // Borrowed from Portuguese Alemanha, named after the Alamanni tribe; CLDR writes it in the Portuguese spelling Alemanha.
     mfe: ["Lalmagn", "lalmaɲ"],  // From French l'Allemagne with the article fused into the name, like Lasinn for China; CLDR gives the form without the article, Almagn.
+    ng: ["Ndowishi", "ndowiʃi"],  // Germany in Oshindonga, also Ondowishi; a German is Omundowishi and the German language Oshindowishi.
+    tet: ["Alemaña", "aleˈmaɲa"],  // Named after the Alamanni tribe, through Portuguese Alemanha; often said rai-Alemaña, "the land of Germany".
+    lij: ["Germània", "dʒerˈmanja"],  // Ligurian Wikipedia writes Germània, usually with the article (a Germània); the grave accent marks a short stressed vowel.
+    dtp: ["Jerman", "dʒerman"],  // The same form as Malay Jerman; Kadazandusun Wikipedia and Dusun Jehovah's Witness publications both use it.
+    ewo: ["Ndzáman", "ndzáman"],  // Germany in Ewondo; the German language is called nkòbò dzaman in Jehovah's Witness Ewondo publications.
+    mhr: ["Немыч Эл", "nemətʃ el"],  // Literally "German land" (немыч "German" + эл "country"); Jehovah's Witness Mari publications use the Russian-type name Германий instead.
+    xmf: ["გერმანია", "ɡermania"],  // The same form as Georgian გერმანია; stress left unmarked as in the row's other native words (წყარი).
+    gcf: ["Almagn", "almaɲ"],  // Germany in Guadeloupean Creole as written in Jehovah's Witness publications, a form that matches French Allemagne.
+    rcf: ["Lalmagn", "lalmaɲ"],  // From French l'Allemagne with the article fused into the name, as in Mauritian Lalmagn; the same publications occasionally write Almagn.
+    tzo: ["Alemania", "alemania"],  // The Spanish name, used in Tzotzil with the enclitic -e (ta Alemaniae "in Germany").
+    zap: ["Alemania", "alemania"],  // The Spanish name, often with guidxi "town, country" before it (guidxi Alemania).
+    mixtec: ["Alemania", "alemania"],  // The Spanish name, often with ñuu "town, country" before it (ñuu Alemania); attested from Guerrero Mixtec.
+    tly: ["Almanijə", "almanijə"],  // The Talysh Wikipedia article is titled Almanijə and says this is the country's name in Talysh.
+    dty: ["जर्मनी", "dʒəɾməniː"],  // The Dotyali Wikipedia article on Germany is titled जर्मनी, the same name as in Nepali and Hindi.
+    kea: ["Alimanha", "aliˈmaɲa"],  // Germany in Cape Verdean Creole, used in Kabuverdianu Jehovah's Witness publications; the counterpart of Portuguese Alemanha.
+    kek: ["Alemania", "alemania"],  // Qʼeqchiʼ uses the Spanish name Alemania, as in its Jehovah's Witness publications ("li tenamit Alemania", the country of Germany).
+    yua: ["Alemania", "alemania"],  // Yucatec Maya uses the Spanish name Alemania, as in its Jehovah's Witness publications ("u luʼumil Alemania", the land of Germany).
+    tzh: ["Alemania", "alemania"],  // Tzeltal uses the Spanish name Alemania, as in its Jehovah's Witness publications.
+    to: ["Siamane", "siamane"],  // The Tongan Wikipedia article on Germany is titled Siamane, the name also used in Jehovah's Witnesses' Tongan publications.
+    ty: ["Heremani", "heɾemani"],  // The Tahitian Wikipedia article on Germany is titled Heremani, most likely from English Germany (Wiktionary); Jehovah's Witnesses' Tahitian publications use it too ('te fenua Heremani').
+    gil: ["Tiaman", "siaman"],  // Germany in Gilbertese, as in Jehovah's Witnesses' Kiribati publications ('i Berlin i Tiaman', in Berlin, Germany); ti is pronounced /s/ before a vowel, as in the row's Tiaina for China.
+    lbe: ["Германия", "ɡermanija"],  // The Lak Wikipedia article on Germany is titled Германия, the same form as Russian.
+    bpy: ["জার্মানি", "dʒarmani"],  // The Bishnupriya Manipuri Wikipedia article on Germany is titled জার্মানি, the same name as in Bengali.
+    gym: ["Alemania", "alemania"],  // Ngäbere uses the Spanish name Alemania, as in Jehovah's Witnesses' Ngäbere publications ('juta Alemania', the land of Germany).
+    fj: ["Jamani", "tʃamani"],  // Borrowed from English Germany, itself from Latin Germania; Fijian Wikipedia's article on Germany is titled Jamani.
+    pap: ["Alemania", "aleˈmanja"],  // Borrowed from Spanish Alemania, named after the Alamanni tribe.
+    arn: ["Alemania", "alemanja"],  // The name Jehovah's Witnesses' Mapudungun publications use for Germany; no source found that names the donor.
+    guc: ["Alemania", "alemania"],  // The name Jehovah's Witnesses' Wayuunaiki publications use for Germany; no source found that names the donor.
   },
 };

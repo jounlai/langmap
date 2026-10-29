@@ -566,6 +566,27 @@ WORDS.bat = {
     ab: "unknown",
     enq: "unknown",
     tab: "unknown",
+    pwn: "unknown",
+    tay: "unknown",
+    bnn: "unknown",
+    dsh: "unknown",
+    vro: "mouse",
+    toj: "plain",
+    ixl: "unknown",
+    cng: "unknown",
+    dds: "unknown",
+    trv: "unknown",
+    ch: "plain",
+    xed: "unknown",
+    hsb: "other",
+    an: "mouse",
+    olo: "unknown",
+    xkz: "unknown",
+    pau: "plain",
+    tok: "unknown",
+    agu: "plain",
+    mix: "unknown",
+    ers: "unknown",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1077,5 +1098,26 @@ WORDS.bat = {
     ab: ["ахәлԥҵыс", "aχʷlpʰtsʼəs"],  // The Abkhaz word for the bat, with the a- prefix Abkhaz nouns carry in their dictionary form.
     enq: ["saima", "saima"],  // The Enga word for the bat, as given by the SIL Enga dictionary.
     tab: ["чаппархил", "tʃapːarχil"],  // The Tabasaran word for the bat, glossed 'bat, летучая мышь' by the Webonary Tabasaran dictionary, which gives the mouse a different word, кьюл.
+    pwn: ["qaqaljic", "qaqaʎits"],  // The Paiwan word for the bat in the indigenous-language dictionary of Taiwan, which also lists the variant 'a'aljic.
+    tay: ["kyabil", "kjabil"],  // The Squliq Atayal word for the bat in the indigenous-language dictionary of Taiwan.
+    bnn: ["laininataz", "laininatað"],  // The Isbukun Bunun word for the bat; the dictionary also lists the variants laninataz and salinataz.
+    dsh: ["aayericho", "aːjeritʃo"],  // The Daasanach word for a bat, written ááyérícho with tone marks in the SIL dictionary; tone is left unmarked here as in this row's other words.
+    vro: ["nahkhiiŕ", "ˈnɑhkhiːrʲ"],  // The 'leather mouse', nahk 'leather' plus hiiŕ 'mouse', like Estonian nahkhiir; the dictionary also lists üüsisas.
+    toj: ["sotsʼ", "sotsʼ"],  // Inherited from the Proto-Mayan word for the bat, *sootzʼ; Lenkersdorf also lists sotsʼaltik 'a flock of bats'.
+    ixl: ["ripich", "ripitʃ"],  // The Ixil word for the bat in the Ixil Talking Dictionary, which also records the Mayan word sotzʼ.
+    cng: ["piʂ pɑlɑ", "piʂ pɑlɑ"],  // The Mawo Northern Qiang word for the bat in Sun Hongkai's 1991 Tibeto-Burman lexicon, the source of this row's other words.
+    dds: ["kidu-kidu", "kidukidu"],  // The general Donno So word for any bat, a reduplicated form (tone marks kìdù-kídù are left unwritten as in this row's other words).
+    trv: ["kangi", "kaŋi"],  // The Truku word for the bat; the ILRDF dictionary explains it as 'a flying creature with a pouch', while the Truku Bible names the bat pplawe in Leviticus 11:19 ('ttpaqa, ma pplawe').
+    ch: ["fanihi", "faˈnihi"],  // Inherited from Proto-Malayo-Polynesian *paniki 'fruit bat, flying fox'; the Mariana fruit bat is the island's familiar bat.
+    xed: ["zváxw", "zváxʷ"],  // The Hdi word for the bat; the Hdi Bible writes it zvahw in Leviticus 11:19 ('nda watah, nda zvahw').
+    hsb: ["njetopyr", "ˈnʲɛtɔpɨr"],  // The Slavic 'night-flier' word, shared with Lower Sorbian njetopyŕ and Czech netopýr.
+    an: ["murziacalo", "muɾθjaˈkalo"],  // The Aragonese standard word for the bat, a cousin of Spanish murciélago, the 'blind mouse'; valley forms include cheso murziegalo and ansotano morziégalo.
+    olo: ["yöliivoi", "ˈyøliːvoi"],  // The Livvi word for the bat, beginning with yö 'night'; dialect variants include yölievoi and yöläpoi, and the Livvi Bible uses it in Isaiah 2:20.
+    xkz: ["gomcinphawang", "ɡomtɕinpʰawaŋ"],  // The Kurtöp word for the bat; its last part matches Tibetan pha wang 'bat'.
+    pau: ["olik", "oˈlik"],  // Inherited from Proto-Austronesian *paniki 'fruit bat, flying fox', like Tagalog paniki; it names the Palau fruit bat.
+    tok: ["soweli waso", "soweli waso"],  // Literally 'bird mammal': soweli 'land mammal' plus waso 'bird'; Toki Pona has no word of its own for the bat.
+    agu: ["sotzʼ", "sotsʼ"],  // Inherited from Proto-Mayan *sootzʼ 'bat', like Kʼicheʼ and Mam sotzʼ.
+    mix: ["tikuchi", "t̪ikùtʃí"],  // The Mixtepec Mixtec word for the bat; an older record by Pike and Ibach (1978) begins it with tsi-.
+    ers: ["jisui", "ji˥˥sui˥˥"],  // The Ersu word for the bat, as recorded by Sun Hongkai.
   },
 };

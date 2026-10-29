@@ -462,6 +462,27 @@ WORDS.greece = {
     vai: "hellas",
     lbj: "graecia",
     co: "graecia",
+    tay: "graecia",
+    bnn: "graecia",
+    nzm: "graecia",
+    crs: "graecia",
+    tru: "hellas",
+    nrf: "graecia",
+    chk: "graecia",
+    cni: "graecia",
+    iu: "graecia",
+    jiv: "graecia",
+    tdh: "graecia",
+    djk: "graecia",
+    agq: "graecia",
+    tcs: "graecia",
+    olo: "graecia",
+    tok: "hellas",
+    mwl: "graecia",
+    an: "graecia",
+    frr: "graecia",
+    nlc: "ionia",
+    tvl: "hellas",
   },
   routes: {
     graecia: {"color":"#2563eb","emoji":"🏛️","en":"from Latin Graecia (Greece, Grèce, Греция)","ja":"ラテン語 Graecia から（Greece, Grèce, Греция）","ko":"라틴어 Graecia에서 (Greece, Grèce, Греция)","zh":"源自拉丁语 Graecia（Greece、Grèce、Греция）","yue":"源自拉丁文 Graecia（Greece、Grèce、Греция）","vi":"từ tiếng Latin Graecia (Greece, Grèce, Греция)","th":"จากละติน Graecia (Greece, Grèce, Греция)","id":"dari Latin Graecia (Greece, Grèce, Греция)","hi":"लैटिन Graecia से (Greece, Grèce, Греция)","de":"aus lateinisch Graecia (Greece, Grèce, Греция)","fr":"du latin Graecia (Greece, Grèce, Греция)","it":"dal latino Graecia (Greece, Grèce, Греция)","es":"del latín Graecia (Greece, Grèce, Греция)","pt":"do latim Graecia (Greece, Grèce, Греция)","ru":"от латинского Graecia (Greece, Grèce, Греция)","uk":"від латинського Graecia (Greece, Grèce, Греция)","ar":"من اللاتينية Graecia (Greece, Grèce, Греция)","he":"מהלטינית Graecia (Greece, Grèce, Греция)","sw":"kutoka Kilatini Graecia (Greece, Grèce, Греция)"},
@@ -864,5 +885,26 @@ WORDS.greece = {
     vai: ["ꗤꗷꘋ", "hɛlɛŋ"],  // ꗤꗷꘋ Hɛlɛŋ is Greece in the Vai New Testament, written "ꗤꗷꘋ ꕸꖃꔀ" "the Hɛlɛŋ country" in Acts 20:2.
     lbj: ["གརིས", "ɡris"],  // གརིས Gris is Greece in the Tibetan-script Ladakhi Bible (Acts 20:2 "the country of Gris"; Daniel 8:21, 11:2); the Urdu-script edition uses Yunani.
     co: ["Grecia", "ˈɡrɛtʃa"],  // Grecia is the title of the Corsican Wikipedia article on Greece; it is related to grecu "Greek", from Latin Graecus.
+    tay: ["Gris", "ɡris"],  // Gris is Greece in Acts 20:2 and Daniel 8:21 and 11:2 of the Atayal Bible; no source gives the path of the word.
+    bnn: ["Kulik", "kulik"],  // Kulik is Greece in Acts 20:2 of the Bunun Bible, and Daniel 8:21 and 11:2 call its king that of taki-Kulik; no source gives the path of the word.
+    nzm: ["Gresia", "ɡresia"],  // Gresia is Greece in Acts 20:2 and Daniel 8:21 and 11:2 of the Zeme Kemci Bible (2013); no source gives the path of the word.
+    crs: ["Lagres", "laɡrɛs"],  // Lagres is Greece in Acts 20:2 and Daniel 8:21 and 11:2 of the Seychellois Creole Bible (2013); no source gives the path of the word.
+    tru: ["ܗܠܣ", "helas"],  // Helas, the land Paul reaches in Acts 20:2 of the 2024 Turoyo (Suryoyo) Bible, renders the Greek original's Ἑλλάς Hellas.
+    nrf: ["Grêce", "ɡrɛs"],  // The Jèrriais (Jersey Norman) name for Greece, from Old French Grece and Latin Graecia (Wiktionary).
+    chk: ["Kriis", "kriːs"],  // Kriis is Greece in Daniel 8:21 and Zechariah 9:13 of the Chuukese Bible (spelled Kris in Daniel 10:20 and 11:2); no source gives the path of the word.
+    cni: ["Quireshia", "kiɾeʃia"],  // Quireshia is Greece in Acts 20:2 of the Asháninka New Testament, there with the locative ending -qui; no source gives the path of the word.
+    iu: ["ᒍᕇᓯ", "ɡuʁiːsi"],  // ᒍᕇᓯ Guriisi is Greece in Acts 20:2, Daniel 8:21 and 11:2 and Zechariah 9:13 of the Inuktitut Bible; no source gives the path of the word.
+    jiv: ["Krésia", "ˈkɾesia"],  // Krésia is Greece in Acts 20:2, Daniel 8:21 and Zechariah 9:13 of the Shuar Bible; no source gives the path of the word.
+    tdh: ["ग्रीस", "ɡris"],  // ग्रीस Grīs is Greece in Acts 20:2 of the Thulung New Testament, the same form as Nepali ग्रीस; no source gives the path of the word.
+    djk: ["Giiki Kondee", "ɡiːki kondeː"],  // Giiki Kondee, literally "Greek country", is Greece in Acts 20:2 of the Aukan New Testament; no source gives the path of the word.
+    agq: ["Gə̀lês", "ɡə̀lês"],  // Gə̀lês is Greece in Acts 20:2 of the Aghem New Testament, written ndùw aŋ Gə̀lês "the country of Gə̀lês"; no source gives the path of the word.
+    tcs: ["Gris", "ɡris"],  // Gris is Greece in Acts 20:2 of the Torres Strait Creole Bible; no source gives the path of the word.
+    olo: ["Gretsii", "ˈɡretsiː"],  // Gretsii is the title of the Livvi Wikipedia article on Greece and the name in Acts 20:2 of the Livvi New Testament ("tuli Gretsieh", came to Greece).
+    tok: ["ma Elena", "ma elena"],  // ma Elena, 'land Elena', is the title of the Toki Pona Wikipedia article on Greece, which derives Elena from Greek Ελλάδα; ma Elina is also used.
+    mwl: ["Grécia", "ˈɡɾɛsjɐ"],  // Grécia is the title of the Mirandese Wikipedia article on Greece.
+    an: ["Grecia", "ˈɡɾeθja"],  // Grecia is the title of the Aragonese Wikipedia article on Greece.
+    frr: ["Griikenlönj", "ˈɡriːkənlœnʲ"],  // Griikenlönj is the title of the Mooring North Frisian Wikipedia article on Greece, with lönj 'land, country'; Föhr Frisian says Grekenlun.
+    nlc: ["Yunani", "junani"],  // Yunani is Greece in Acts 20:2 of the Nalca New Testament, the same name as Indonesian Yunani.
+    tvl: ["Eleni", "eleni"],  // Eleni is Greece in Acts 20:2, Daniel 8:21 and 11:2 and Zechariah 9:13 of the Tuvaluan Bible, the same name as Samoan Eleni.
   },
 };

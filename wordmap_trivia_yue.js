@@ -640,7 +640,7 @@ window.TRIVIA_I18N['yue'] = {
     title: '韓文：一個王喺實驗室設計嘅字母',
     summary: '1443年世宗大王公佈一套新嘅韓語字母,其字母形狀字面上圖示咗聲道。語言學家叫佢做地球上最科學設計嘅書寫系統——而且差啲被禁兩次。',
     body: `
-  <p>大多數字母都係演化嚟嘅。佢哋喺幾個世紀入面由象形文字漂移到抽象符號,冇人完全記得「B」點解係咁嘅樣。<strong>韓文</strong>唔係咁。韓文有生日——大概啦:南韓喺<strong>10月9日</strong>慶祝,呢個係推算出嚟嘅最佳估計,對應佢嘅說明手冊《<em>訓民正音解例</em>》喺1446年農曆九月面世嘅時間(書上只寫咗係嗰個月上旬)。而且佢有一個有名有姓嘅發明者:朝鮮王朝(在位1418–1450)嘅<strong>世宗大王</strong>(世宗大王),同佢嘅集賢殿(<em>Jiphyeonjeon</em>)學者一齊工作。</p>
+  <p>大多數字母都係演化嚟嘅。佢哋喺幾個世紀入面由象形文字漂移到抽象符號,冇人完全記得「B」點解係咁嘅樣。<strong>韓文</strong>唔係咁。韓文有生日——大概啦:南韓喺<strong>10月9日</strong>慶祝,呢個係推算出嚟嘅最佳估計,對應佢嘅說明手冊《<em>訓民正音解例</em>》喺1446年農曆九月面世嘅時間(書上只寫咗係嗰個月上旬)。而且佢有一個有名有姓嘅發明者:朝鮮王朝(在位1418–1450)嘅<strong>世宗大王</strong>,同佢嘅集賢殿學者一齊工作。</p>
 
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="ko" data-zoom="6">🌍 喺地圖上顯示韓語</button>
@@ -768,7 +768,7 @@ window.TRIVIA_I18N['yue'] = {
     title: '西夏文：一個被遺忘王朝嘅失落文字',
     summary: '一隻用大約6,000個手工建構嘅表意文字書寫嘅漢藏語言,1036年由皇帝詔令發明,被遺忘400年——直到一位俄羅斯語言學家將佢由死亡邊緣拉返嚟。',
     body: `
-  <p>公元1036年,<strong>西夏</strong>(Xixia / 西夏)王朝皇帝<strong>李元昊</strong>下詔,佢嘅人民黨項族必須擁有與自身相稱嘅書寫系統。據說佢嘅學者野利仁榮喺幾年內就發明咗整套文字——大約<strong>6,000個表意字</strong>,每一個都係新設計,故意似漢字但唔借自漢字。結果就係<strong>西夏文</strong>:有史以嚟最視覺密集嘅書寫系統之一。</p>
+  <p>公元1036年,<strong>西夏</strong>王朝皇帝<strong>李元昊</strong>下詔,佢嘅人民黨項族必須擁有與自身相稱嘅書寫系統。據說佢嘅學者野利仁榮喺幾年內就發明咗整套文字——大約<strong>6,000個表意字</strong>,每一個都係新設計,故意似漢字但唔借自漢字。結果就係<strong>西夏文</strong>:有史以嚟最視覺密集嘅書寫系統之一。</p>
 
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="txg" data-zoom="5">🌍 喺地圖上顯示西夏語</button>

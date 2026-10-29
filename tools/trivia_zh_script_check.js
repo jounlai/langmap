@@ -94,6 +94,10 @@ const CITED = {
     // the anti-fraud numeral set itself, in the forms used since the Ming.
     // The per-character glosses and the 壱弐参 comparison discuss those same forms.
     // 2026-10-30 example tables: the Haerye line for ㆆ, quoted as printed.
+    // 2026-10-30 notation pass: Japanese words quoted in Japanese spelling
+    // (the article is about Japanese vocabulary layers / the term 訓読み itself).
+    'kokugo-versus-kango': ['私はコーヒーを飲む', '飲む（和语）', '頭痛持ち', '工場'],
+    'korean-eumhun-tradition': ['（訓読み）'],
     'ko-mid-eastguk-jeongun': ['如挹字初發聲'],
     'capital-numerals-daxie': ['壹貳參肆伍陸柒捌玖拾', '壹 貳 參 肆 伍 陸 柒 捌 玖 拾 佰 仟 萬',
         '參（三）', '陸（六）', '萬（一万）', '壹貳參'],

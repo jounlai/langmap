@@ -71,6 +71,30 @@ const CITED = {
     'min-nan-wenbai': ['<strong>兩</strong>', '写作兩'],
     // 業 is the kanji whose go-on ごう and kan-on ぎょう are being compared.
     'japanese-go-on-bias': ['業吴音读', '業吳音讀', '業吳音读'],
+    // 2026-10-29 new articles. Each is a form the sentence is about:
+    // お and オ derive from the kanji 於 itself (simplified 于 is a different character).
+    'kana-genesis': ['於化成お', 'オ取自於'],
+    // the 1913 commission and the scripts it named, given in their original forms.
+    'bopomofo-zhuyin': ['（讀音統一會）', '（記音字母）', '（注音符號）'],
+    // the four dots 灬 under 魚 and 馬 exist only in the traditional forms; the
+    // simplified forms are glossed right beside them.
+    'clerical-change-lishu': ['魚（鱼）', '馬（马）'],
+    // the Guangyun fanqie entry cited as written, and the character its
+    // data-char button opens.
+    'rhyme-dictionaries-qieyun': ['東 <em>dōng</em>', '显示 東', 'data-char="東"', '東 <em>tuwng</em>'],
+    // the Japanese words compared with their Chinese homographs (新聞紙 before 新聞).
+    'cjkv-false-friends': ['手紙', '汽車', '愛人', '新聞紙', '新聞'],
+    // the code's own name and Viguier's 1872 codebook title.
+    'chinese-telegraph-code': ['（電報碼）', '電報新書'],
+    // Time Map (2026-10-29): the Reiwa source line from the Man'yōshū and its
+    // Wenxuan model, quoted as written; the Japanese era name 慶応 and 皇紀 (Kōki).
+    'japanese-era-names': ['初春令月、氣淑風和', '仲春令月、時和氣清', '慶応', '皇紀'],
+    // the Hanshu's leap-month rule, quoted in the original.
+    'chinese-lunisolar-solar-terms': ['朔不得中，是謂閏月'],
+    // the anti-fraud numeral set itself, in the forms used since the Ming.
+    // The per-character glosses and the 壱弐参 comparison discuss those same forms.
+    'capital-numerals-daxie': ['壹貳參肆伍陸柒捌玖拾', '壹 貳 參 肆 伍 陸 柒 捌 玖 拾 佰 仟 萬',
+        '參（三）', '陸（六）', '萬（一万）', '壹貳參'],
 };
 // 2026-10-15 trivia pass (zh translations of the English corrections): cited
 // written forms — Japanese kanji and words, Korean hanja, Min and Cantonese
@@ -156,6 +180,12 @@ const han = articles('hanmap_trivia.js', c => vm.runInContext('window.TRIVIA_ART
 for (const a of han)
     for (const f of ['title', 'summary', 'body'])
         if (a[f] && a[f].zh) scan(a.id, f, a[f].zh);
+
+// Name Map and Time Map: all 19 languages inline, as Han Map.
+for (const f of ['namemap_trivia.js', 'timemap_trivia.js'])
+    for (const a of articles(f, c => vm.runInContext('window.TRIVIA_ARTICLES', c) || []))
+        for (const fld of ['title', 'summary', 'body'])
+            if (a[fld] && a[fld].zh) scan(a.id, fld, a[fld].zh);
 
 // The WordMap zh overlay is a flat {id: {title, summary, body}} map.
 const wm = articles('wordmap_trivia_zh.js', c => vm.runInContext('window.TRIVIA_I18N', c) || {});

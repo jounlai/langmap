@@ -55,6 +55,23 @@ const ALLOW = {
     'esperanto-zamenhof': { '140': 'ja says "140 years on"; arithmetic on the 1887 the English does give' },
     'guugu-yimithirr-cardinal': { '1998': 'ja dates the Haviland report the English cites without a year; Haviland, Ethos 26(1), 1998' },
     'pie-reconstruction': { '3000': 'ja says Hittite lay buried three thousand years; the English gives the decipherment date only' },
+    // 2026-10-29 new articles: number formats, same facts.
+    'oracle-bone-script.zh': { '50000': 'zh writes "about US$15,000" as 约合1.5万美元; the guard reads the tail 5万 as 50000' },
+    'oracle-bone-script.yue': { '50000': 'yue writes "about US$15,000" as 約合1.5萬美元; the guard reads the tail 5萬 as 50000' },
+    'capital-numerals-daxie.ko': { '1000': 'ko glosses 千 as 千(1000) where the English writes 千 (thousand)' },
+    'archi-million-verb-forms.ja': { '1500000': 'ja writes "1.5 million" as 150万' },
+    // Word Map articles, second 2026-10-29 batch.
+    'yiddish.ja': { '11000000': 'en "11 to 13 million" reads as one figure; ja writes 1,100万〜1,300万' },
+    'maltese-semitic-latin.ja': { '100': 'ja writes "hundred" as the numeral 100' },
+    'grimms-law.ja': { '100': 'ja button label writes "hundred" as 「100」' },
+    // Time Map articles (2026-10-29).
+    'gregorian-1582-ten-days.ko': { '100': 'ko says "years divisible by 100" (100의 배수) for "century years"' },
+    'russia-october-in-november.ja': { '100': 'ja spells out "divisible by 100" for the century-year rule' },
+    'russia-october-in-november.ko': { '100': 'ko spells out "divisible by 100" for the century-year rule' },
+    'islamic-lunar-year.ja': { '1000000': 'ja writes "one to 1.5 million" as 100万～150万', '1500000': 'same', '1405': 'ja reads out the Iranian date ۱۴۰۵ that the English quotes in Persian digits', '1448': 'ja reads out the Hijri year ١٤٤٨ quoted in Arabic digits' },
+    'islamic-lunar-year.ko': { '1000000': 'ko writes "one to 1.5 million" as 100만~150만', '1500000': 'same' },
+    'ethiopian-13-months.ko': { '1000': 'ko spells out "millennium" as 1000년' },
+    'maya-long-count-2012.hi': { '44000': 'hi groups 144,000 the Indian way (1,44,000)', '84283': 'Indian grouping of 584,283 (5,84,283)', '84285': 'Indian grouping of 584,285', '72000': 'Indian grouping of 1,872,000 (18,72,000)' },
 };
 
 function load(file, pick) {
@@ -68,6 +85,10 @@ function load(file, pick) {
 const arts = [];
 for (const a of load('hanmap_trivia.js', c => vm.runInContext('window.TRIVIA_ARTICLES', c) || []))
     arts.push({ src: 'hanmap', id: a.id, bodies: Object.assign({}, a.body) });
+// Name Map and Time Map keep all 19 languages inline, as Han Map does.
+for (const m of ['namemap', 'timemap'])
+    for (const a of load(m + '_trivia.js', c => vm.runInContext('window.TRIVIA_ARTICLES', c) || []))
+        arts.push({ src: m, id: a.id, bodies: Object.assign({}, a.body) });
 {
     const base = load('wordmap_trivia.js', c => vm.runInContext('window.TRIVIA_ARTICLES', c) || []);
     const map = {};

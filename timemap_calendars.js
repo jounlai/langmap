@@ -274,6 +274,10 @@
         const days = j - 584283;            // GMT correlation: 0.0.0.0.0 = JDN 584283
         if (days < 0) return null;
         const lc = [144000, 7200, 360, 20, 1].map((u, i, a) => i === 0 ? Math.floor(days / u) : Math.floor(mod(days, a[i - 1]) / u));
+        // From 13.0.0.0.0 + 7 b'ak'tun (AD 4772) the count reaches 20 b'ak'tun:
+        // inscriptions then write a sixth place, the piktun (Palenque 1.0.0.0.0.8),
+        // and a b'ak'tun of 20 has no Mayan numeral glyph.
+        if (lc[0] >= 20) lc.splice(0, 1, Math.floor(lc[0] / 20), lc[0] % 20);
         const hp = mod(days + 348, 365);
         // Inscriptions write each place as a bar-and-dot numeral (Unicode Mayan
         // Numerals, U+1D2E0 = 0 … U+1D2F3 = 19); the dotted form is modern notation.
@@ -714,11 +718,14 @@
         { id: 'buddhist', status: 'current', use: 'official', lat: 15.6, lng: 100.9,
           name: 'Thai solar calendar', region: 'Thailand', type: 'Solar, Buddhist Era years',
           epoch: 'Buddhist Era: the Buddha’s parinirvana, 543 BC by Thai reckoning',
-          used: 'Buddhist Era years official since 1912; New Year moved from 1 April to 1 January in 1941',
+          used: 'Buddhist Era years official from 1 April 1913; New Year moved from 1 April to 1 January in 1941',
           note: 'Year = Western year + 543. Sri Lanka, Myanmar and Cambodia count the Buddhist Era one year apart from Thailand.',
           year: '{n} BE',
-          from: { y: 1941, m: 1, d: 1 },
-          fmt: (g, D) => ({ native: thaiDigits(g.d) + ' ' + thaiMonth(D) + ' พ.ศ. ' + thaiDigits(g.y + 543), latin: g.d + '/' + g.m + '/' + (g.y + 543) + ' BE', tr: trGreg(g.y + 543, g.m, g.d) }) },
+          // Until 1940 the year began on 1 April, so January–March still carried
+          // the previous year's number (BE 2483 ran April–December 1940 only).
+          from: { y: 1913, m: 4, d: 1 },
+          fmt: (g, D) => { const be = g.y + (g.y < 1941 && g.m < 4 ? 542 : 543);
+              return { native: thaiDigits(g.d) + ' ' + thaiMonth(D) + ' พ.ศ. ' + thaiDigits(be), latin: g.d + '/' + g.m + '/' + be + ' BE', tr: trGreg(be, g.m, g.d) }; } },
         { id: 'chinese', status: 'current', use: 'popular', lat: 33.5, lng: 104.0,
           name: 'Chinese lunisolar calendar', region: 'China', type: 'Lunisolar',
           epoch: 'No running year count; years cycle through 60 stem–branch names',
@@ -918,14 +925,14 @@
           used: 'The Dawoodi Bohra community worldwide (about one million), for Ramadan, Eid and all religious dates',
           note: 'A fixed arithmetic calendar inherited from the Fatimids, so the Bohras’ Eid can come a day or two before the moon-sighted one — Eid al-Fitr 1445 was on 9 April 2024, against 10 April in Saudi Arabia and Pakistan and 11 April in most of India.',
           year: '{n} AH',
-          from: { y: 622, m: 7, d: 15 },
+          from: { y: 622, m: 7, d: 18 },   // Gregorian; the Thursday epoch is 15 July 622 Julian
           fmt: g => { const b = bohra(gregToJdn(g.y, g.m, g.d)); if (!b) return null;
               return { native: arabDigits(b.d) + ' ' + AR_MONTHS[b.m] + ' ' + arabDigits(b.y) + ' هـ', latin: b.d + '/' + (b.m + 1) + '/' + b.y + ' AH', tr: trList('islamic', b.y, b.m, b.d) }; } },
         { id: 'kiche', status: 'current', use: 'religious', lat: 14.94, lng: -91.11,
           name: 'K’iche’ Maya day count (Cholq’ij)', region: 'Guatemalan highlands', type: '260-day count: 13 numbers × 20 day names',
           epoch: 'No year 1: the count has run unbroken since the Classic Maya',
           used: 'Maya daykeepers (ajq’ijab’) for ceremonies, divination and naming; Wajxaqib’ B’atz’ (8 B’atz’) opens their new cycle',
-          note: 'The living count is the ancient one without a break: it falls on the same day as the classic Tzolk’in in the Long Count correlation used here. Wajxaqib’ B’atz’ fell on 18 January 2025 and 22 June 2026.',
+          note: 'The living count is the ancient one without a break: it falls on the same day as the classic Tzolk’in in the Long Count correlation used here. Wajxaqib’ B’atz’ falls every 260 days: 18 January 2025, 5 October 2025, 22 June 2026, 9 March 2027.',
           from: { y: 1, m: 1, d: 1 },
           fmt: g => { const days = gregToJdn(g.y, g.m, g.d) - 584283, n = mod(days + 3, 13), s = mod(days + 19, 20);
               return { native: KICHE_NUM[n] + ' ' + KICHE_DAYS[s], latin: (n + 1) + ' ' + KICHE_DAYS[s], tr: { kind: 'fixed', text: (n + 1) + ' ' + KICHE_DAYS[s] } }; } },

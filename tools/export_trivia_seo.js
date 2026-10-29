@@ -12,7 +12,8 @@
  *   wordmap_trivia.js   — 30 articles, base carries en + ja only; the other
  *                         seventeen UI languages arrive as lazy-loaded overlays
  *                         wordmap_trivia_<ui>.js setting TRIVIA_I18N[ui][id].
- *   hanmap_trivia.js    — 40 articles, all 19 UI languages inline.
+ *   hanmap_trivia.js    — all 19 UI languages inline; namemap_trivia.js and
+ *                         timemap_trivia.js have the same shape.
  *
  * The article bodies keep their raw HTML, including the <button
  * data-action="focus" …> map controls. Those are rewritten into real <a> links
@@ -102,10 +103,13 @@ function main() {
 
   const wm = articlesOf('wordmap_trivia.js', overlays).map((a) => ({ ...a, map: 'wordmap' }));
   const hm = articlesOf('hanmap_trivia.js', []).map((a) => ({ ...a, map: 'hanmap' }));
+  // Name Map and Time Map (2026-10-29): all 19 languages inline, as Han Map.
+  const nm = articlesOf('namemap_trivia.js', []).map((a) => ({ ...a, map: 'namemap' }));
+  const tm = articlesOf('timemap_trivia.js', []).map((a) => ({ ...a, map: 'timemap' }));
 
   const seen = new Set();
   const all = [];
-  for (const a of [...wm, ...hm]) {
+  for (const a of [...wm, ...hm, ...nm, ...tm]) {
     if (seen.has(a.id)) {
       console.error(`  ! duplicate article id across maps: ${a.id} — skipped`);
       continue;
@@ -167,7 +171,7 @@ function main() {
   const coverage = {};
   for (const ui of UI_LANGS) coverage[ui] = all.filter((a) => a.i18n[ui] && a.i18n[ui].body).length;
   console.log(`data/trivia_seo.json — ${all.length} articles ` +
-    `(wordmap ${wm.length}, hanmap ${hm.length}), ${Object.keys(tags).length} tags`);
+    `(wordmap ${wm.length}, hanmap ${hm.length}, namemap ${nm.length}, timemap ${tm.length}), ${Object.keys(tags).length} tags`);
   console.log('  per-UI body coverage: ' +
     UI_LANGS.map((u) => `${u}:${coverage[u]}`).join(' '));
   console.log(`  button link targets: ${referenced.size} codes, ` +

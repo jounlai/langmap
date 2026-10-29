@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" role="img" class="trivia-minimap-svg">
+<rect width="720" height="380" class="mm-sea"/>
+<path class="mm-land" d="M0 380L0 0L720 0L720 380Z"/>
+<g class="mm-pin"><circle cx="360" cy="190" r="17" class="mm-halo"/><circle cx="360" cy="190" r="5.5" class="mm-dot"/></g>
+</svg>

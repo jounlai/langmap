@@ -82,7 +82,7 @@ const UNRESOLVED = {};
 
 
 const files = ['wordmap_meta.js', 'wordmap_data.js', 'lang_names.js',
-    'hanmap_trivia.js', 'wordmap_trivia.js']
+    'hanmap_trivia.js', 'wordmap_trivia.js', 'namemap_trivia.js', 'timemap_trivia.js']
     .concat(fs.readdirSync(ROOT).filter((f) => /^wordmap_trivia_[a-z]+\.js$/.test(f)).sort())
     .concat(fs.readdirSync(path.join(ROOT, 'words')).sort().map((f) => 'words/' + f));
 

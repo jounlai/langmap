@@ -66,9 +66,21 @@ function seo_tri_text(array $a, string $ui): array
  * or — where no such page exists, e.g. a single Han character — plain text.
  * The author's label is always preserved.
  */
+/** The map an article belongs to; anything unknown reads as Word Map. */
+function seo_tri_map(array $a): string
+{
+    $m = $a['map'] ?? 'wordmap';
+    return in_array($m, ['wordmap', 'hanmap', 'namemap', 'timemap'], true) ? $m : 'wordmap';
+}
+
+function seo_tri_app(string $map): string
+{
+    return '/' . (in_array($map, ['wordmap', 'hanmap', 'namemap', 'timemap'], true) ? $map : 'wordmap') . '.html';
+}
+
 function seo_tri_links(string $html, string $map, string $ui, array $names = [], string $articleId = '', array $langs = [], array $wordLabels = []): string
 {
-    $app = $map === 'hanmap' ? '/hanmap.html' : '/wordmap.html';
+    $app = seo_tri_app($map);
     // Every language this article points at, collected before the rewrite so a
     // locator map can mark the ones that fall inside its frame. A "pan here"
     // button carries coordinates, not codes, and would otherwise have no way
@@ -106,6 +118,22 @@ function seo_tri_links(string $html, string $map, string $ui, array $names = [],
                 return '';
             };
             $action = $get('data-action');
+            // Name Map / Time Map: no SSR page per name or calendar; each
+            // control opens the map in the state it describes (the hash keys
+            // namemap.html and timemap.html read on load), else the article.
+            if ($map === 'namemap' || $map === 'timemap') {
+                $uiq = 'l=' . rawurlencode($ui);
+                $href = $app . '#trivia=' . rawurlencode($articleId) . '&' . $uiq;
+                if ($action === 'setname' && preg_match('#^[a-z_]+$#', $get('data-name'))) {
+                    $href = $app . '#n=' . $get('data-name') . '&' . $uiq;
+                } elseif ($action === 'setdate' && preg_match('#^\d{4}-\d{2}-\d{2}$#', $get('data-date'))) {
+                    $href = $app . '#d=' . $get('data-date') . '&' . $uiq;
+                } elseif ($action === 'panto' && is_numeric($get('data-lat')) && is_numeric($get('data-lng'))) {
+                    $z = is_numeric($get('data-zoom')) ? $get('data-zoom') : '4';
+                    $href = $app . '#c=' . $get('data-lat') . ',' . $get('data-lng') . '&z=' . $z . '&' . $uiq;
+                }
+                return '<span class="trivia-note"><a href="' . e($href) . '">' . $label . '</a></span>';
+            }
             $codes = $get('data-codes');
             $code = $get('data-code');
             $targets = [];
@@ -309,13 +337,13 @@ function seo_render_trivia_article(array $data, array $byId, string $id, string 
 {
     $a = $byId[$id];
     $t = seo_tri_text($a, $ui);
-    $map = ($a['map'] ?? 'wordmap') === 'hanmap' ? 'hanmap' : 'wordmap';
+    $map = seo_tri_map($a);
 
     // The article's own map data: coordinates and family/speaker facts for the
     // locator maps and comparison tables built into the body. Word labels come
     // from the Word Map either way — a Han Map article that compares languages
     // still wants "Water" spelled in the reader's language.
-    $mapData    = seo_data($map);
+    $mapData    = in_array($map, ['wordmap', 'hanmap'], true) ? seo_data($map) : [];
     $mapLangs   = $mapData['langs'] ?? [];
     $wordLabels = [];
     foreach ((seo_data('wordmap')['words'] ?? []) as $w) {
@@ -330,7 +358,7 @@ function seo_render_trivia_article(array $data, array $byId, string $id, string 
         'title' => $t['title'] . ' | ' . seo_t($ui, 'tri_brand'),
         'description' => $desc,
         'canonical' => $canonical,
-        'image' => SEO_SITE . ($map === 'hanmap' ? '/ogp-hanmap.png' : '/ogp-wordmap.png'),
+        'image' => SEO_SITE . '/ogp-' . $map . '.png',
         'ui' => $ui,
         'altpath' => '/trivia/' . rawurlencode($id),
     ]);
@@ -387,8 +415,8 @@ function seo_render_trivia_article(array $data, array $byId, string $id, string 
 <?php endif; ?>
 
 <div class="seo-applink">
-  <a href="<?= ($map === 'hanmap' ? '/hanmap.html' : '/wordmap.html') . '#trivia=' . rawurlencode($id) . '&amp;ui=' . e($ui) ?>">
-    <?= e(seo_t($ui, $map === 'hanmap' ? 'open_app_hm' : 'open_app_wm')) ?>
+  <a href="<?= seo_tri_app($map) . '#trivia=' . rawurlencode($id) . '&amp;ui=' . e($ui) ?>">
+    <?= e(seo_t($ui, ['wordmap' => 'open_app_wm', 'hanmap' => 'open_app_hm', 'namemap' => 'open_app_nm', 'timemap' => 'open_app_tm'][$map])) ?>
   </a>
 </div>
 
@@ -416,10 +444,9 @@ function seo_render_trivia_article(array $data, array $byId, string $id, string 
 
 function seo_render_trivia_hub(array $data, array $byId, string $ui): void
 {
-    $groups = ['wordmap' => [], 'hanmap' => []];
+    $groups = ['wordmap' => [], 'hanmap' => [], 'namemap' => [], 'timemap' => []];
     foreach ($byId as $a) {
-        $g = ($a['map'] ?? 'wordmap') === 'hanmap' ? 'hanmap' : 'wordmap';
-        $groups[$g][] = $a;
+        $groups[seo_tri_map($a)][] = $a;
     }
     $n = (string) count($byId);
 
@@ -442,7 +469,7 @@ function seo_render_trivia_hub(array $data, array $byId, string $ui): void
   <a href="<?= e(seo_path($ui, 'hanmap')) ?>"><?= e(seo_t($ui, 'hm_link')) ?></a> ·
   <a href="<?= e(seo_path($ui, '')) ?>"><?= e(seo_t($ui, 'home')) ?></a></p>
 
-<?php foreach (['wordmap' => 'tri_group_wm', 'hanmap' => 'tri_group_hm'] as $g => $key): ?>
+<?php foreach (['wordmap' => 'tri_group_wm', 'hanmap' => 'tri_group_hm', 'namemap' => 'tri_group_nm', 'timemap' => 'tri_group_tm'] as $g => $key): if (!$groups[$g]) continue; ?>
 <section class="seo-section">
   <h2><?= e(seo_t($ui, $key)) ?> (<?= count($groups[$g]) ?>)</h2>
   <ul class="seo-index-list seo-tri-list">

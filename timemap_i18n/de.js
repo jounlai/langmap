@@ -472,7 +472,7 @@ window.TM_I18N["de"] = {
    "region": "Thailand",
    "type": "Solar, Jahre der buddhistischen Ära",
    "epoch": "Buddhistische Ära: Parinirvana des Buddha, 543 v. Chr. nach thailändischer Rechnung",
-   "used": "Amtlich seit 1912 (BE-Jahr), mit dem 1. Januar als Neujahr seit 1941",
+   "used": "Amtlich seit dem 1. April 1913 (BE-Jahr), mit dem 1. Januar als Neujahr seit 1941",
    "note": "Jahr = westliches Jahr + 543. Sri Lanka, Myanmar und Kambodscha zählen die buddhistische Ära um ein Jahr verschoben gegenüber Thailand.",
    "year": "{n} BE"
   },
@@ -666,7 +666,7 @@ window.TM_I18N["de"] = {
    "type": "260-Tage-Zählung: 13 Zahlen × 20 Tagesnamen",
    "epoch": "Kein Jahr 1: Die Zählung läuft seit den klassischen Maya ununterbrochen",
    "used": "Maya-Tageshüter (ajq’ijab’) für Zeremonien, Wahrsagung und Namensgebung; Wajxaqib’ B’atz’ (8 B’atz’) eröffnet ihren neuen Zyklus",
-   "note": "Die lebendige Zählung ist die alte, ohne Unterbrechung: Sie fällt auf denselben Tag wie das klassische Tzolk’in in der hier verwendeten Korrelation der Langen Zählung. Wajxaqib’ B’atz’ fiel auf den 18. Januar 2025 und den 22. Juni 2026."
+   "note": "Die lebendige Zählung ist die alte, ohne Unterbrechung: Sie fällt auf denselben Tag wie das klassische Tzolk’in in der hier verwendeten Korrelation der Langen Zählung. Wajxaqib’ B’atz’ fällt alle 260 Tage: 18. Januar 2025, 5. Oktober 2025, 22. Juni 2026, 9. März 2027."
   },
   "tibetan": {
    "name": "Tibetischer Kalender (Phugpa)",

@@ -472,7 +472,7 @@ window.TM_I18N["id"] = {
    "region": "Thailand",
    "type": "Matahari, tahun Era Buddhis",
    "epoch": "Era Buddhis: parinirwana Buddha, 543 SM menurut hitungan Thailand",
-   "used": "Resmi sejak 1912 (tahun BE), dengan 1 Januari sebagai Tahun Baru sejak 1941",
+   "used": "Resmi sejak 1 April 1913 (tahun BE), dengan 1 Januari sebagai Tahun Baru sejak 1941",
    "note": "Tahun = tahun Masehi + 543. Sri Lanka, Myanmar, dan Kamboja menghitung Era Buddhis berselisih satu tahun dari Thailand.",
    "year": "{n} BE"
   },
@@ -666,7 +666,7 @@ window.TM_I18N["id"] = {
    "type": "Hitungan 260 hari: 13 angka × 20 nama hari",
    "epoch": "Tanpa tahun 1: hitungan ini berjalan tanpa putus sejak Maya Klasik",
    "used": "Para penjaga hari Maya (ajq’ijab’) untuk upacara, ramalan, dan pemberian nama; Wajxaqib’ B’atz’ (8 B’atz’) membuka siklus baru mereka",
-   "note": "Hitungan yang hidup hingga kini adalah hitungan kuno itu tanpa putus: jatuh pada hari yang sama dengan Tzolk’in klasik dalam korelasi Hitungan Panjang yang dipakai di sini. Wajxaqib’ B’atz’ jatuh pada 18 Januari 2025 dan 22 Juni 2026."
+   "note": "Hitungan yang hidup hingga kini adalah hitungan kuno itu tanpa putus: jatuh pada hari yang sama dengan Tzolk’in klasik dalam korelasi Hitungan Panjang yang dipakai di sini. Wajxaqib’ B’atz’ jatuh setiap 260 hari: 18 Januari 2025, 5 Oktober 2025, 22 Juni 2026, 9 Maret 2027."
   },
   "tibetan": {
    "name": "Kalender Tibet (Phugpa)",

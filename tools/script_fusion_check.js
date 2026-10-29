@@ -55,7 +55,7 @@ const ALLOWED = new Set(['ARABIC+HANGUL', 'HANGUL+THAI']);
 // Hindi article is a false positive.
 const TOKEN = /[^\s<>"'/,.;:!?()[\]{}=\-—–|·、。，：；！？「」『』《》&#0-9।॥،؛؟۔٫٬٪۝־׃׆]{2,}/g;
 
-const files = ['hanmap_trivia.js', 'wordmap_trivia.js']
+const files = ['hanmap_trivia.js', 'wordmap_trivia.js', 'namemap_trivia.js', 'timemap_trivia.js']
   .concat(fs.readdirSync(ROOT).filter((f) => /^wordmap_trivia_[a-z]+\.js$/.test(f)).sort());
 
 const hits = [];

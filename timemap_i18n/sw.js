@@ -472,7 +472,7 @@ window.TM_I18N["sw"] = {
    "region": "Thailand",
    "type": "Ya jua, miaka ya Enzi ya Kibudha",
    "epoch": "Enzi ya Kibudha: parinirvana ya Buddha, 543 KK kwa hesabu ya Kithai",
-   "used": "Miaka ya Enzi ya Kibudha ni rasmi tangu 1912; mwaka 1941 Mwaka Mpya ulihamishwa kutoka 1 Aprili hadi 1 Januari",
+   "used": "Miaka ya Enzi ya Kibudha ni rasmi tangu 1 Aprili 1913; mwaka 1941 Mwaka Mpya ulihamishwa kutoka 1 Aprili hadi 1 Januari",
    "note": "Mwaka = mwaka wa Kimagharibi + 543. Sri Lanka, Myanmar na Kambodia huhesabu Enzi ya Kibudha kwa tofauti ya mwaka mmoja na Thailand.",
    "year": "{n} BE"
   },
@@ -666,7 +666,7 @@ window.TM_I18N["sw"] = {
    "type": "Hesabu ya siku 260: namba 13 × majina 20 ya siku",
    "epoch": "Hakuna mwaka 1: hesabu imeendelea bila kukatika tangu Wamaya wa kipindi cha Klasiki",
    "used": "Watunza siku wa Kimaya (ajq’ijab’) kwa sherehe, utabiri na kutoa majina; Wajxaqib’ B’atz’ (8 B’atz’) hufungua mzunguko wao mpya",
-   "note": "Hesabu hai ya leo ni ile ya kale bila kukatika: inaangukia siku ileile na Tzolk’in ya kiklasiki katika uwiano wa Hesabu Ndefu unaotumika hapa. Wajxaqib’ B’atz’ iliangukia 18 Januari 2025 na 22 Juni 2026."
+   "note": "Hesabu hai ya leo ni ile ya kale bila kukatika: inaangukia siku ileile na Tzolk’in ya kiklasiki katika uwiano wa Hesabu Ndefu unaotumika hapa. Wajxaqib’ B’atz’ huangukia kila baada ya siku 260: 18 Januari 2025, 5 Oktoba 2025, 22 Juni 2026, 9 Machi 2027."
   },
   "tibetan": {
    "name": "Kalenda ya Kitibeti (Phugpa)",

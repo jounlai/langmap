@@ -11,6 +11,15 @@
  *   hanmap_trivia.js
  *     data-action="setchar"                      -> data-char must be in HAN_LIST / HAN_DATA
  *     data-action="focus" / "panto"              -> data-code must be a HanMap language code
+ *   namemap_trivia.js
+ *     data-action="setname"                      -> data-name must be a NAMES id
+ *   timemap_trivia.js
+ *     data-action="setdate"                      -> data-date a real YYYY-MM-DD in 0001-9999,
+ *                                                   data-cal (optional) a CALENDARS id
+ *     data-action="focus"                        -> data-cal must be a CALENDARS id
+ *     data-action="setera"                       -> data-era modern | historical
+ *   every map: an action the page does not implement is a dead button, and
+ *     data-action="article" must name an article of the same map.
  *
  * Every article body is duplicated per UI language, and so is every button, so
  * a dead target is a dead target nineteen times over. Both the base files and
@@ -162,6 +171,42 @@ for (const a of loadArticles('hanmap_trivia.js')) {
   }
 }
 
+// ---------- namemap / timemap (trivia_reader.js pages; all 19 languages inline) ----------
+const nmCtx = { window: {} };
+vm.createContext(nmCtx);
+for (const f of ['namemap_data.js', 'namemap_names_ext.js']) vm.runInContext(R(f), nmCtx, { filename: f });
+const NM_NAMES = new Set(Object.keys(nmCtx.window.NAMES || {}));
+const tmCtx = { console, Intl, Date };
+vm.createContext(tmCtx);
+vm.runInContext('var window = this;' + R('timemap_calendars.js'), tmCtx, { filename: 'timemap_calendars.js' });
+const TM_CALS = new Set(tmCtx.TIMEMAP.CALENDARS.map(c => c.id));
+const realDate = d => {
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(d || '');
+  if (!m || +m[1] < 1) return false;
+  const t = new Date(0); t.setUTCFullYear(+m[1], +m[2] - 1, +m[3]);
+  return t.getUTCFullYear() === +m[1] && t.getUTCMonth() === +m[2] - 1 && t.getUTCDate() === +m[3];
+};
+const PAGE_ACTIONS = { namemap: ['setname', 'panto', 'article'], timemap: ['setdate', 'focus', 'setera', 'panto', 'article'] };
+for (const map of ['namemap', 'timemap']) {
+  const file = map + '_trivia.js';
+  if (!fs.existsSync(path.join(ROOT, file))) continue;
+  const arts = loadArticles(file), ids = new Set(arts.map(a => a.id));
+  for (const a of arts) {
+    for (const { lang, html } of buttons(a)) {
+      const action = attr(html, 'data-action');
+      bump(map + ':' + action);
+      if (!PAGE_ACTIONS[map].includes(action)) { add(file, a.id, lang, html, `action "${action}" is not one ${map}.html implements`); continue; }
+      if (action === 'article' && !ids.has(attr(html, 'data-id'))) add(file, a.id, lang, html, `article "${attr(html, 'data-id')}" is not a ${map} article`);
+      if (action === 'panto' && !(isFinite(+attr(html, 'data-lat')) && isFinite(+attr(html, 'data-lng')) && attr(html, 'data-lat') && attr(html, 'data-lng'))) add(file, a.id, lang, html, 'panto needs numeric data-lat / data-lng');
+      if (action === 'setname' && !NM_NAMES.has(attr(html, 'data-name'))) add(file, a.id, lang, html, `name "${attr(html, 'data-name')}" is not a NAMES id`);
+      if (action === 'setdate' && !realDate(attr(html, 'data-date'))) add(file, a.id, lang, html, `date "${attr(html, 'data-date')}" is not a real YYYY-MM-DD in 0001-9999`);
+      const cal = attr(html, 'data-cal');
+      if ((action === 'focus' || (action === 'setdate' && cal !== undefined)) && !TM_CALS.has(cal)) add(file, a.id, lang, html, `calendar "${cal}" is not a CALENDARS id`);
+      if (action === 'setera' && !['modern', 'historical'].includes(attr(html, 'data-era'))) add(file, a.id, lang, html, 'setera needs data-era modern | historical');
+    }
+  }
+}
+
 const CHECK = process.argv.includes('--check');
 if (CHECK) {
   console.log('dead targets: ' + findings.length);
@@ -170,6 +215,6 @@ if (CHECK) {
 }
 console.log('button counts:', JSON.stringify(stats, null, 1));
 console.log('LANG_DATA codes:', LANG_CODES.size, '| word ids:', WORD_IDS.size, '| han chars:', HAN_CHARS.size, '| han codes:', HAN_CODES.size);
-console.log('scanned: wordmap_trivia.js + ' + overlays.files.length + ' language overlays + hanmap_trivia.js');
+console.log('scanned: wordmap_trivia.js + ' + overlays.files.length + ' language overlays + hanmap_trivia.js + namemap_trivia.js + timemap_trivia.js');
 console.log('\n' + findings.length + ' dead target(s)\n');
 for (const f of findings) console.log(`[${f.file}] ${f.id} (${f.lang})\n  ${f.problem}\n  ${f.html}\n`);

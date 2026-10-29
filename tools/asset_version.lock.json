@@ -40,8 +40,8 @@
     "files": 1199
   },
   "trivia": {
-    "version": 45,
-    "hash": "e16478aa2f3eeb51",
+    "version": 48,
+    "hash": "be21101b1ed2e81d",
     "files": 1
   },
   "metaI18n": {
@@ -75,8 +75,8 @@
     "files": 18
   },
   "triviaI18n": {
-    "version": 29,
-    "hash": "b121c1b27fee1168",
+    "version": 32,
+    "hash": "b10053d6fa2f6900",
     "files": 17
   }
 }

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" role="img" class="trivia-minimap-svg">
+<rect width="720" height="380" class="mm-sea"/>
+<path class="mm-land" d="M462.2 0L426.3 14.2L406.6 4.5L407.7 0L214.9 0L148.8 27.8L127 18.1L144.6 0L105.8 0L42.5 64.8L36.8 0ZM720 230.5L703.7 221L720 223.1ZM486.7 104.6L529.7 118.2L536.9 167.7L399.3 178.4L341.1 224.9L290.1 183.2L336.7 176.4L465.6 59.9L466.3 85.2L501.3 64.8L500.5 95.9L486.7 104.6ZM0 0L10.1 0L7.6 45.3L0 47.9Z"/>
+<g class="mm-pin"><circle cx="360" cy="190" r="17" class="mm-halo"/><circle cx="360" cy="190" r="5.5" class="mm-dot"/></g>
+</svg>

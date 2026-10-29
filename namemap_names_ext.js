@@ -386,7 +386,7 @@ NAMES.jacob = {
     ja:'のちにイスラエルと改名される第三の族長。ヘブライ語名ヤアコブは、固有名研究で最も入り組んだ系統樹の一つを生んだ。ラテン語イアコブスはJacob・Jakob・フランス語ジャックを生み（スラヴ語ヤコフはギリシャ語から直接）、俗ラテン語の変種イアコムスが分岐してイタリア語ジャコモ、英語ジェームズ、イベリアのハイメとなった。さらに「聖ヤコブ」を意味するSant Iagoからサンティアゴとティアゴが生まれた——すべて同一の名の二重語である。スペイン語のディエゴも長くこの仲間とされてきたが、別のラテン語名ディダクスに由来する可能性が高い。コーランは預言者をヤアクーブとして伝える。',
   },
   forms:{
-    en:  { form:'Jacob', rom:'Jacob', ipa:'ˈdʒeɪkəb', freq:'very-common', note:{en:'doublet → James',ja:'二重語→ジェームズ'}, people:['Jacob Zuma'] },
+    en:  { form:'Jacob', rom:'Jacob', ipa:'ˈdʒeɪkəb', freq:'very-common', note:{en:'doublet → James',ja:'二重語→ジェームズ'}, people:['Jacob Javits'] },
     gb:  { form:'James', rom:'James', ipa:'dʒeɪmz', freq:'very-common', note:{en:'the Iacomus doublet of Jacob',ja:'ヤコブのイアコムス系二重語'}, people:['James Joyce','James I of England'] },
     fr:  { form:'Jacques', rom:'Jacques', ipa:'ʒak', freq:'common', people:['Jacques Chirac','Jacques Cousteau'] },
     es:  { form:'Santiago', rom:'Santiago', ipa:'sanˈtjaɣo', freq:'common', note:{en:'doublet; also Jaime, Jacobo. Diego, long equated with it, probably comes from Latin Didacus',ja:'二重語。ハイメ・ハコボとも。ディエゴは長く同一視されてきたが、ラテン語ディダクス由来とする説が有力'}, people:['Santiago Ramón y Cajal','Santiago Calatrava'] },
@@ -933,14 +933,14 @@ NAMES.elizabeth = {
   display:{ en:'Elizabeth', ja:'エリザベス' },
   origin:{ lang:{ en:'Hebrew', ja:'ヘブライ語' }, native:'אֱלִישֶׁבַע', rom:'Elišévaʿ', meaning:{ en:'“My God is an oath”', ja:'「わが神は誓い」' } },
   background:{
-    en:'From Hebrew Elišévaʿ, the wife of Aaron and, in the Gospel of Luke, the mother of John the Baptist. Greek Elisábet and Latin Elisabeth spread it through Christendom, where it was carried by saints and by a long line of queens, above all Elizabeth I of England and Elizabeth II of the United Kingdom. In the Iberian peninsula the same name was reshaped into a famous offshoot, Isabel (Italian Isabella), while East Slavic made it Yelizaveta and Hungarian Erzsébet.',
-    ja:'ヘブライ語のエリシェバ（アロンの妻、ルカ福音書では洗礼者ヨハネの母）に由来する。ギリシャ語 Elisábet、ラテン語 Elisabeth を経てキリスト教世界に広がり、聖人たち、そしてイングランドのエリザベス1世と連合王国のエリザベス2世をはじめ数多くの女王が担った。イベリア半島ではこの名が有名な派生形イサベル（イタリア語イザベラ）へと姿を変え、東スラヴ語ではエリザヴェータ、ハンガリー語ではエルジェーベトとなった。',
+    en:'From Hebrew Elišévaʿ, the wife of Aaron and, in the Gospel of Luke, the mother of John the Baptist. Greek Elisábet and Latin Elisabeth spread it through Christendom, where it was carried by saints and by a long line of queens, above all Elizabeth I of England and Elizabeth II of the United Kingdom. In Occitan and then Iberian usage the same name was reshaped into a famous offshoot, Isabel (Italian Isabella), while East Slavic made it Yelizaveta and Hungarian Erzsébet.',
+    ja:'ヘブライ語のエリシェバ（アロンの妻、ルカ福音書では洗礼者ヨハネの母）に由来する。ギリシャ語 Elisábet、ラテン語 Elisabeth を経てキリスト教世界に広がり、聖人たち、そしてイングランドのエリザベス1世と連合王国のエリザベス2世をはじめ数多くの女王が担った。オック語圏、ついでイベリア半島ではこの名が有名な派生形イサベル（イタリア語イザベラ）へと姿を変え、東スラヴ語ではエリザヴェータ、ハンガリー語ではエルジェーベトとなった。',
   },
   forms:{
     en:  { form:'Elizabeth',  rom:'Elizabeth',  ipa:'ɪˈlɪzəbəθ',      freq:'very-common', note:{en:'dim. Liz, Beth, Betty, Eliza',ja:'愛称リズ・ベス・ベティ・イライザ'}, people:['Elizabeth Taylor','Elizabeth Cady Stanton'] },
     gb:  { form:'Elizabeth',  rom:'Elizabeth',  ipa:'ɪˈlɪzəbəθ',      freq:'very-common', people:['Elizabeth I','Elizabeth II','Elizabeth Barrett Browning'] },
     fr:  { form:'Élisabeth',  rom:'Élisabeth',  ipa:'elizabɛt',       freq:'common',      note:{en:'Isabelle is a sister form',ja:'イザベルは姉妹形'}, people:['Élisabeth Vigée Le Brun'] },
-    es:  { form:'Isabel',     rom:'Isabel',     ipa:'isaˈβel',        freq:'very-common', note:{en:'the Iberian offshoot',ja:'イベリアの派生形'}, people:['Isabel I of Castile','Isabel Allende'] },
+    es:  { form:'Isabel',     rom:'Isabel',     ipa:'isaˈβel',        freq:'very-common', note:{en:'the Occitan–Iberian offshoot',ja:'オック語・イベリアの派生形'}, people:['Isabel I of Castile','Isabel Allende'] },
     mx:  { form:'Isabel',     rom:'Isabel',     ipa:'isaˈβel',        freq:'very-common' },
     pt:  { form:'Isabel',     rom:'Isabel',     ipa:'izɐˈβɛl',        freq:'very-common', people:['Isabel of Portugal'] },
     pt_br: { form:'Isabela',    rom:'Isabela',    ipa:'izaˈbɛlɐ',       freq:'common' },
@@ -973,7 +973,7 @@ NAMES.elizabeth = {
     elisabeth_de: { label:'Elisabeth', lang:{en:'German / Nordic',ja:'ドイツ・北欧語'}, parent:'elisabeth_la' },
     erzsebet:     { label:'Erzsébet', lang:{en:'Hungarian',ja:'ハンガリー語'}, parent:'elisabeth_la' },
     yelizaveta:   { label:'Yelizaveta', script:'Елизавета', lang:{en:'East Slavic',ja:'東スラヴ語'}, parent:'elisabet_gr' },
-    isabel:       { label:'Isabel', lang:{en:'Iberian',ja:'イベリア語'}, parent:'elisabeth_la', note:{en:'famous Iberian offshoot',ja:'有名なイベリアの派生'} },
+    isabel:       { label:'Isabel', lang:{en:'Occitan / Iberian',ja:'オック語・イベリア諸語'}, parent:'elisabeth_la', note:{en:'famous offshoot, first in Occitan (Elisabel → Isabel)',ja:'有名な派生形。まずオック語で（Elisabel → Isabel）'} },
     isabella:     { label:'Isabella', lang:{en:'Italian',ja:'イタリア語'}, parent:'isabel' },
   },
 };

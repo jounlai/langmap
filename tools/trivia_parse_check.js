@@ -14,7 +14,7 @@ const fs = require('fs'), path = require('path'), vm = require('vm');
 const ROOT = path.join(__dirname, '..');
 const bad = [];
 const base = vm.createContext({ window: {} });
-for (const f of ['wordmap_trivia.js', 'hanmap_trivia.js']) {
+for (const f of ['wordmap_trivia.js', 'hanmap_trivia.js', 'namemap_trivia.js', 'timemap_trivia.js']) {
   try {
     const c = vm.createContext({ window: {} });
     vm.runInContext(fs.readFileSync(path.join(ROOT, f), 'utf8').replace(/^const TRIVIA_ARTICLES/m, 'var TRIVIA_ARTICLES'), c);

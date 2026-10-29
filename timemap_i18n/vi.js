@@ -472,7 +472,7 @@ window.TM_I18N["vi"] = {
    "region": "Thái Lan",
    "type": "Dương lịch, năm Phật lịch",
    "epoch": "Phật lịch: năm Đức Phật nhập Niết-bàn, 543 TCN theo cách tính của Thái Lan",
-   "used": "Chính thức từ năm 1912 (năm Phật lịch), lấy 1 tháng 1 làm ngày đầu năm từ năm 1941",
+   "used": "Chính thức từ ngày 1 tháng 4 năm 1913 (năm Phật lịch), lấy 1 tháng 1 làm ngày đầu năm từ năm 1941",
    "note": "Năm = năm dương lịch + 543. Sri Lanka, Myanmar và Campuchia tính Phật lịch lệch một năm so với Thái Lan.",
    "year": "Phật lịch {n}"
   },
@@ -666,7 +666,7 @@ window.TM_I18N["vi"] = {
    "type": "Đếm 260 ngày: 13 con số × 20 tên ngày",
    "epoch": "Không có năm 1: phép đếm chạy liên tục từ thời Maya cổ điển",
    "used": "Các thầy giữ ngày Maya (ajq’ijab’) dùng cho nghi lễ, bói toán và đặt tên; Wajxaqib’ B’atz’ (8 B’atz’) mở đầu chu kỳ mới của họ",
-   "note": "Phép đếm còn sống chính là phép đếm cổ, không hề gián đoạn: nó trùng ngày với Tzolk’in cổ điển theo cách quy đổi Long Count dùng ở đây. Wajxaqib’ B’atz’ rơi vào 18 tháng 1 năm 2025 và 22 tháng 6 năm 2026."
+   "note": "Phép đếm còn sống chính là phép đếm cổ, không hề gián đoạn: nó trùng ngày với Tzolk’in cổ điển theo cách quy đổi Long Count dùng ở đây. Wajxaqib’ B’atz’ cứ 260 ngày lại rơi vào một lần: 18 tháng 1 năm 2025, 5 tháng 10 năm 2025, 22 tháng 6 năm 2026, 9 tháng 3 năm 2027."
   },
   "tibetan": {
    "name": "Lịch Tạng (phái Phugpa)",

@@ -472,7 +472,7 @@ window.TM_I18N["es"] = {
    "region": "Tailandia",
    "type": "Solar, años de la era budista",
    "epoch": "Era budista: el parinirvana de Buda, 543 a. C. según el cómputo tailandés",
-   "used": "Oficial desde 1912 (año de la era budista), con el 1 de enero como Año Nuevo desde 1941",
+   "used": "Oficial desde el 1 de abril de 1913 (año de la era budista), con el 1 de enero como Año Nuevo desde 1941",
    "note": "Año = año occidental + 543. Sri Lanka, Birmania y Camboya cuentan la era budista con un año de diferencia respecto a Tailandia.",
    "year": "del año {n} de la era budista"
   },
@@ -666,7 +666,7 @@ window.TM_I18N["es"] = {
    "type": "Cuenta de 260 días: 13 números × 20 nombres de día",
    "epoch": "Sin año 1: la cuenta corre sin interrupción desde los mayas clásicos",
    "used": "Los guías espirituales mayas (ajq’ijab’), para ceremonias, adivinación y la elección de nombres; Wajxaqib’ B’atz’ (8 B’atz’) abre su nuevo ciclo",
-   "note": "La cuenta viva es la antigua sin interrupción: cae en el mismo día que el tzolkin clásico según la correlación de la cuenta larga usada aquí. Wajxaqib’ B’atz’ cayó el 18 de enero de 2025 y el 22 de junio de 2026."
+   "note": "La cuenta viva es la antigua sin interrupción: cae en el mismo día que el tzolkin clásico según la correlación de la cuenta larga usada aquí. Wajxaqib’ B’atz’ cae cada 260 días: 18 de enero de 2025, 5 de octubre de 2025, 22 de junio de 2026, 9 de marzo de 2027."
   },
   "tibetan": {
    "name": "Calendario tibetano (Phugpa)",

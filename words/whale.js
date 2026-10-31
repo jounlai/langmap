@@ -175,7 +175,7 @@ WORDS.whale = {
     yi: "fish",
     is: "plain",
     gd: "other",
-    br: "unknown",
+    br: "plain",
     co: "plain",
     lij: "plain",
     rgn: "plain",
@@ -279,10 +279,10 @@ WORDS.whale = {
     no: "plain",
     ky: "plain",
     tt: "plain",
-    zu: "unknown",
+    zu: "plain",
     nso: "unknown",
     ln: "unknown",
-    so: "unknown",
+    so: "plain",
     prs: "plain",
     zh_jiao: "fish",
     ttq: "unknown",
@@ -299,7 +299,7 @@ WORDS.whale = {
     si: "fish",
     km: "fish",
     za: "fish",
-    xh: "unknown",
+    xh: "plain",
     azb: "plain",
     ilo: "plain",
     skr: "plain",
@@ -413,7 +413,7 @@ WORDS.whale = {
     ale: "unknown",
     kwk: "unknown",
     tsi: "unknown",
-    vo: "unknown",
+    vo: "plain",
     itl: "plain",
     vot: "fish",
   },
@@ -536,7 +536,7 @@ WORDS.whale = {
     yi: ["וואַלפֿיש", "ˈvalfɪʃ"],  // Literally 'whale-fish', like German Walfisch.
     is: ["hvalur", "ˈkʰvaːlʏr"],  // From Old Norse hvalr, the old Germanic whale word.
     gd: ["muc-mhara", "muxk ˈvãɾə"],  // Literally 'sea pig': muc 'pig' plus mhara 'of the sea'.
-    br: ["balum", "ˈbalym"],  // The Breton word for the whale; older dictionaries also give balen and balem.
+    br: ["balum", "ˈbalym"],  // The Breton word for the whale; older dictionaries also give balen and balem. From Latin ballaena, like French baleine.
     co: ["balena", "baˈlena"],  // From Latin balaena, from Greek phálaina.
     lij: ["balénn-a", "baˈleŋa"],  // From Latin balaena, from Greek phálaina.
     rgn: ["baléna", "baˈleːna"],  // From Latin bālēna, a form of balaena 'whale'.

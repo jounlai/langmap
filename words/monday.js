@@ -253,7 +253,7 @@ WORDS.monday = {
     nn: "moon",
     fo: "moon",
     eo: "moon",
-    vo: "unknown",
+    vo: "moon",
     ia: "moon",
     hil: "moon",
     mk: "after",
@@ -796,7 +796,7 @@ WORDS.monday = {
     nn: ["måndag", "ˈmondɑɡ"],  // From Old Norse mánadagr, "moon's day".
     fo: ["mánadagur", "ˈmɔaːnatɛaːvʊɹ"],  // From Old Norse mánadagr, "moon's day".
     eo: ["lundo", "ˈlundo"],  // From French lundi, Latin "day of the Moon".
-    vo: ["mudel", "muˈdel"],  // Volapük name of Monday; the older telüdel was the "second day".
+    vo: ["mudel", "muˈdel"],  // Volapük name of Monday; the older telüdel was the "second day". Mu- from mun 'moon' plus del 'day', like the other Volapük day names built on English and German.
     ia: ["lunedi", "luneˈdi"],  // Interlingua name of Monday; etymology not given in the source. Route by resemblance to the neighbouring forms (it(lunedì) lmo(lunedí)); no etymology of its own.
     hil: ["Lunes", "ˈlunes"],  // Borrowed from Spanish lunes, Latin "day of the Moon".
     mk: ["понеделник", "pɔˈnɛdɛlnik"],  // "After Sunday", from Slavic po "after" + nedelja "Sunday".

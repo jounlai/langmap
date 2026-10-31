@@ -122,7 +122,7 @@ WORDS.potato = {
     my: "other",
     km: "other",
     lo: "other",
-    zu: "unknown",
+    zu: "other",
     am: "other",
     mg: "unknown",
     fi: "earth",
@@ -277,7 +277,7 @@ WORDS.potato = {
     ab: "truffle",
     ban: "other",
     ast: "papa",
-    an: "unknown",
+    an: "truffle",
     tet: "other",
     nog: "earth",
     arn: "other",
@@ -388,7 +388,7 @@ WORDS.potato = {
     gn: "earth",
     ku: "truffle",
     azb: "earth",
-    so: "unknown",
+    so: "papa",
     rn: "unknown",
     nap: "papa",
     scn: "papa",
@@ -487,7 +487,7 @@ WORDS.potato = {
     tab: "truffle",
     gil: "papa",
     saq: "other",
-    co: "unknown",
+    co: "earth",
     bnn: "other",
     mh: "papa",
     cr: "unknown",
@@ -862,7 +862,7 @@ WORDS.potato = {
     gn: ["yvyʼa", "ɨʋɨˈʔa"],  // Literally "earth fruit" (yvy 'earth' + 'a 'fruit').
     ku: ["kartol", "kɑːɾˈtol"],  // Borrowed through Russian kartofel' from German Kartoffel, ultimately Italian tartufolo 'truffle'; regional synonyms include petat, qompîr and sêvik.
     azb: ["یئرآلما", "jeɾɑlˈmɑ"],  // Literally "earth apple" (yer 'earth' + alma 'apple'); North Azerbaijani mostly says kartof.
-    so: ["baradho", "baraɖo"],  // Somali Wikipedia also gives the variants baradhe and bataati.
+    so: ["baradho", "baraɖo"],  // Somali Wikipedia also gives the variants baradhe and bataati. Through Arabic baṭāṭis, from Taíno batata.
     rn: ["ikiraya", "ikiɾaja"],  // Plural ibiraya; the Kinyarwanda cognate ikirayi is said to come from the word for Europe.
     nap: ["patana", "paˈtanə"],  // From Spanish batata, according to D'Ambra's 19th-century dictionary; the metathesised tapana is also heard.
     scn: ["patata", "paˈtata"],  // The same word as Italian patata, which came from Spanish patata.
@@ -961,7 +961,7 @@ WORDS.potato = {
     tab: ["картуф", "kartuf"],  // Recorded in the Southern dialect, the basis of literary Tabasaran; Northern varieties have катушка or картушар. Route by resemblance to the neighbouring forms (lez(картуф) az(kartof) bg(картоф)); no etymology of its own.
     gil: ["boteto", "boteto"],  // Borrowed from English potato.
     saq: ["lbiasi", "lbiasi"],  // Borrowed from Swahili viazi "potatoes" (plural of kiazi "tuber"); southern Maa also says enkuashe, from Kikuyu.
-    co: ["pomu", "ˈpomu"],  // The Corsican Wikipedia article on the plant is titled U pomu; the plural is poma.
+    co: ["pomu", "ˈpomu"],  // The Corsican Wikipedia article on the plant is titled U pomu; the plural is poma. Pomu 'apple', short for an 'apple of the earth' as in French pomme de terre.
     bnn: ["utan", "utan"],  // The Bunun tuber word: the ILRDF dictionary glosses utan as sweet potato and potato alike (甘薯；地瓜；馬鈴薯).
     mh: ["piteto", "pʲitˠɛjtˠɛw"],  // Borrowed from English potato; the same word also covers the sweet potato.
     cr: ["ᐊᐢᑭᑇᐏ", "askipwaːwi"],  // Plains Cree askipwâwi, glossed 'potato, wild potato' by Wolvengrey's Cree: Words and 'potato' by the Alberta Elders' Cree Dictionary; napatâk is also listed for potato.

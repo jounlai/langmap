@@ -163,7 +163,7 @@ WORDS.india = {
     ki: "greek",
     kg: "greek",
     ks: "persian",
-    hy: "unknown",
+    hy: "persian",
     bo: "other",
     kab: "persian",
     fi: "greek",
@@ -199,7 +199,7 @@ WORDS.india = {
     gl: "greek",
     kok: "bharat",
     ay: "greek",
-    ce: "unknown",
+    ce: "persian",
     mer: "greek",
     rhg: "greek",
     ga: "greek",
@@ -466,7 +466,7 @@ WORDS.india = {
     nzm: "greek",
     toj: "greek",
     mzh: "greek",
-    gd: "unknown",
+    gd: "greek",
     tay: "greek",
     vro: "greek",
     chk: "greek",
@@ -636,7 +636,7 @@ WORDS.india = {
     gl: ["India", "ˈindja"],  // From Latin India, from Greek Ἰνδία, named after the Indus river; the reintegrationist spelling is Índia (Wiktionary).
     kok: ["भारत", "bʱaːɽət"],  // A learned borrowing of Sanskrit Bhārata, the name of the land in the epics; Romi Konkani writes it Bharot (Wiktionary).
     ay: ["Indya", "indja"],  // Aymara name for the country; no source found naming the donor. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
-    ce: ["ХӀиндойчоь", "ˈhindojtʃø"],  // Built with -чоь "land", like other Chechen country names; Инди, from Russian, is also listed (Wiktionary).
+    ce: ["ХӀиндойчоь", "ˈhindojtʃø"],  // Built with -чоь "land", like other Chechen country names; Инди, from Russian, is also listed (Wiktionary). Built on the Persian Hind.
     mer: ["India", "india"],  // Meru name for the country, spelled as in English; no source found naming the donor. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     rhg: ["Indía", "india"],  // Rohingya name for the country in the Latin (Rohingyalish) spelling; no source found naming the donor. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     ga: ["an India", "ən̪ˠ ɪnʲdʲiə"],  // From Latin India, after the Indus river; always used with the article an (Wiktionary).

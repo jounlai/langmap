@@ -237,14 +237,14 @@ WORDS.sunflower = {
     or: "turn",
     azb: "turn",
     ht: "sun",
-    mg: "unknown",
+    mg: "sun",
     ps: "sun",
     km: "other",
     as: "sun",
     jv: "sun",
     st: "other",
     sn: "unknown",
-    si: "unknown",
+    si: "sun",
     sq: "sun",
     da: "turn",
     hr: "turn",
@@ -511,7 +511,7 @@ WORDS.sunflower = {
     jv: ["kembang srengéngé", "kəmbaŋ srəŋeŋe"],  // Literally 'sun flower': kembang 'flower' + srengéngé 'sun'; kembang kanigara is also used.
     st: ["mooratsatsi", "moːratsatsi"],  // From morati wa letsatsi 'lover of the sun', because it follows the sun from morning to evening.
     sn: ["ringazuva", "riŋɡazuʋa"],  // Contains zuva 'sun'; the sources do not explain the rest of the name.
-    si: ["සූරියකාන්ත", "suːrijəkaːntə"],  // Contains සූරිය 'sun', like Tamil சூரியகாந்தி; the sources do not explain the second part.
+    si: ["සූරියකාන්ත", "suːrijəkaːntə"],  // Contains සූරිය 'sun', like Tamil சூரியகாந்தி; the sources do not explain the second part. Sūrya 'sun', like Tamil சூரியகாந்தி.
     sq: ["lulediell", "luləˈdiɛɫ"],  // A compound of lule 'flower' + diell 'sun': the sun flower.
     da: ["solsikke", "ˈsoːlˌseɡ̊ə"],  // From Latin solsequium, sol 'sun' + sequi 'follow': originally 'the one that follows the sun' (Den Danske Ordbog).
     hr: ["suncokret", "sǔntsokreːt"],  // Sunce 'sun' + okretati 'to turn': the one that turns to the sun (Hrvatski jezični portal).

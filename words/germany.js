@@ -283,7 +283,7 @@ WORDS.germany = {
     vep: "saxon",
     ia: "germania",
     kw: "alemanni",
-    vo: "unknown",
+    vo: "deutsch",
     liv: "saxon",
     mnc: "deutsch",
     lb: "deutsch",
@@ -691,7 +691,7 @@ WORDS.germany = {
     vep: ["Saksanma", "ˈsaksanma"],  // Literally 'Saxon land', from Finnish Saksa plus ma 'land' (Wiktionary).
     ia: ["Germania", "ɡerˈmanja"],  // From Latin Germania, the Roman name for the lands of the Germanic peoples.
     kw: ["Almayn", "ˈalmaɪn"],  // From Old French Alemaigne, from Latin Alemannia, the land of the Alamanni (Wiktionary).
-    vo: ["Deutän", "deuˈtɛn"],  // From Deut plus the country suffix -än (Wiktionary); no source names the donor of Deut.
+    vo: ["Deutän", "deuˈtɛn"],  // From Deut plus the country suffix -än (Wiktionary); Deut is the German Deutsch.
     liv: ["Saksāmō", "ˈsɑksɑːmɒː"],  // Literally 'Saxon land', from saksā 'German' plus mō 'land' (Wiktionary).
     mnc: ["ᡩ᠋ᡝ᠋ ᡤᡠᡵᡠᠨ", "də ɡurun"],  // A calque of Chinese 德國: de plus gurun 'country' (Wiktionary).
     lb: ["Däitschland", "ˈdæi̯tʃlant"],  // A cognate of German Deutschland, 'German land'.

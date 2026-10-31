@@ -281,7 +281,7 @@ WORDS.shootingstar = {
     ctu: "other",
     arn: "moving",
     dv: "other",
-    wa: "unknown",
+    wa: "other",
     mt: "other",
     fur: "falling",
     sah: "plain",

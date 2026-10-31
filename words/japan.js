@@ -201,12 +201,12 @@ WORDS.japan = {
     nn: "europe",
     os: "europe",
     yi: "europe",
-    mt: "unknown",
+    mt: "europe",
     sm: "europe",
     lij: "europe",
     oc: "europe",
     crh: "europe",
-    sah: "unknown",
+    sah: "europe",
     is: "europe",
     dv: "europe",
     udm: "europe",
@@ -584,7 +584,7 @@ WORDS.japan = {
     lij: ["Giappon", "dʒaˈpuŋ"],  // Ligurian name for Japan. Route by resemblance to the neighbouring forms (lmo(Gjapon) pms(Giapon)); no etymology of its own.
     oc: ["Japon", "dʒaˈpu"],  // Occitan name for Japan; the final n is silent. Route by resemblance to the neighbouring forms (lmo(Gjapon) pms(Giapon)); no etymology of its own.
     crh: ["Japon", "ʒaˈpon"],  // From Persian ژاپن, itself from French Japon; Yaponiya, from Russian, is also used.
-    sah: ["Дьоппуон", "ɟopˈpuon"],  // The Sakha adaptation of the name; the Russian form Япония is also used.
+    sah: ["Дьоппуон", "ɟopˈpuon"],  // The Sakha adaptation of the name; the Russian form Япония is also used. Through Russian Япония.
     is: ["Japan", "ˈjaːpan"],  // From Danish Japan.
     dv: ["ޖަޕާނު", "dʒapaːnu"],  // Borrowed from English Japan; ޖާފާނު, via Hindi, is also used.
     udm: ["Япония", "jaˈponija"],  // Udmurt name for Japan, the same as Russian. Route by resemblance to the neighbouring forms (uk(Японія) tk(Ýaponiýa)); no etymology of its own.

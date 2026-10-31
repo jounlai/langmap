@@ -304,7 +304,7 @@ WORDS.grandmother = {
     so: "unknown",
     rw: "unknown",
     sn: "unknown",
-    am: "unknown",
+    am: "one",
     ti: "unknown",
     ak: "unknown",
     ff: "one",
@@ -351,7 +351,7 @@ WORDS.grandmother = {
     new: "unknown",
     dv: "unknown",
     aii: "unknown",
-    szl: "unknown",
+    szl: "one",
     guc: "one",
     cab: "unknown",
     cak: "unknown",
@@ -369,7 +369,7 @@ WORDS.grandmother = {
     cr: "one",
     mic: "one",
     iu: "unknown",
-    csb: "unknown",
+    csb: "one",
     hsb: "unknown",
     krl: "unknown",
     olo: "unknown",
@@ -562,14 +562,14 @@ WORDS.grandmother = {
     ch: "one",
     dur: "one",
     trv: "unknown",
-    rm: "unknown",
+    rm: "one",
     djk: "unknown",
     shp: "unknown",
     cni: "unknown",
     dds: "one",
     otq: "unknown",
     kjh: "unknown",
-    an: "unknown",
+    an: "one",
     kmh: "one",
     tkr: "unknown",
     cho: "one",
@@ -601,7 +601,7 @@ WORDS.grandmother = {
     tao: "one",
     pyu: "one",
     szy: "one",
-    kw: "unknown",
+    kw: "one",
     vep: "unknown",
     kpy: "unknown",
     jbo: "one",
@@ -903,7 +903,7 @@ WORDS.grandmother = {
     new: ["अजि", "ədʑi"],  // Wiktionary glosses it 'paternal grandmother'; the mother's-side term was not found; the goddess name Ajima is built on it.
     dv: ["މާމަ", "maːma"],  // The everyday word for grandmother.
     aii: ["ܣܒܬܐ", "sawta"],  // Also 'old woman, elder'; the colloquial, endearing word is ܢܢܐ nana.
-    szl: ["ōma", "ˈoma"],  // From German Oma; synonyms babka and starka.
+    szl: ["ōma", "ˈoma"],  // From German Oma; synonyms babka and starka. One word for either grandmother, like German Oma.
     guc: ["oushu", "ouʃu"],  // One word for either grandmother; 'my grandmother' is toushu.
     cab: ["agütü", "aɡɨtɨ"],  // The possessed stem is -gütü.
     cak: ["atitaj", "atitax"],  // Glossed 'father's mother' (abuela paterna); the source has no separate mother's-mother entry, so whether the two are distinguished is not established.
@@ -921,7 +921,7 @@ WORDS.grandmother = {
     cr: ["ᓅᐦᑯᒼ", "noːhkom"],  // 'My grandmother', used for either grandmother; the address form is nôhkô!.
     mic: ["nugumij", "nuɡumidʒ"],  // 'My grandmother', used for either grandmother; nugumi is the address form 'granny!'.
     iu: ["ᐊᓈᓇᑦᓯᐊᖅ", "anaːnatsiaq"],  // Built on anaana 'mother'; the grandfather is ataatatsiaq.
-    csb: ["starka", "ˈstarka"],  // Feminine of stark 'grandfather'; babcza and óma are synonyms.
+    csb: ["starka", "ˈstarka"],  // Feminine of stark 'grandfather'; babcza and óma are synonyms. One word for either grandmother.
     hsb: ["wowka", "ˈwɔwka"],  // From wowa with the suffix -ka, from Proto-Slavic *ova.
     krl: ["ämmö", "ˈæmːø"],  // From Proto-Finnic *ämmoi; dialectal ämmä is a synonym.
     olo: ["buabo", "ˈbuabo"],  // Borrowed from East Slavic, ultimately Proto-Slavic *baba.
@@ -1114,7 +1114,7 @@ WORDS.grandmother = {
     ch: ["guella", "ˈɡwella"],  // Borrowed from Spanish abuela; Rota spells it guela'. Preissig (1918) gives guela for both the father's and the mother's mother.
     dur: ["àʼá", "aʔa"],  // Glossed as the mother of either the father or the mother, for a man or a woman; it also means 'ancestor' and is a title of respect for a woman.
     trv: ["payi", "paji"],  // Glossed both 祖母 'father's mother' and 外婆 'mother's mother'; it also covers the mother-in-law and any woman of the grandmother's generation.
-    rm: ["tatta", "ˈtata"],  // The standard Rumantsch Grischun word; nona is the affectionate form.
+    rm: ["tatta", "ˈtata"],  // The standard Rumantsch Grischun word; nona is the affectionate form. One word for either grandmother.
     djk: ["gaanmama", "ɡaːnmama"],  // Literally 'great mother' (gaan 'great' + mama 'mother'), beside gaandada 'grandfather'; addressed as Gaanmma.
     shp: ["titayoshan", "titajoʃan"],  // Built on tita 'mother' and yoshan 'old woman'; used for a grandmother on either side, though the mother's mother can also be called chichi.
     cni: ["isha", "iʃa"],  // Kindberg cross-refers it to nosaro 'my grandmother', which also means 'my granddaughter'; the vocative is nato.
@@ -1153,7 +1153,7 @@ WORDS.grandmother = {
     tao: ["akes", "akəs"],  // One word for either grandmother; the grandfather is akay.
     pyu: ["emu", "əmu"],  // A grandparent of either sex, used for the father's and the mother's mother alike; mulri na babayan is 'my grandmother', literally 'my female grandparent'.
     szy: ["bai", "bai"],  // A woman of the grandparents' generation, used for either grandmother (祖母 and 外婆 alike).
-    kw: ["mamm wynn", "mam wɪn"],  // Literally 'blessed (white) mother', from mamm 'mother'; dama wynn is a synonym.
+    kw: ["mamm wynn", "mam wɪn"],  // Literally 'blessed (white) mother', from mamm 'mother'; dama wynn is a synonym. One word for either grandmother.
     vep: ["baboi", "ˈbaboi"],  // Borrowed from Russian баба; bab is a shorter form.
     kpy: ["аня", "aɲa"],  // The Koryak word for a grandmother, recorded in Moll's and Zhukova's Koryak–Russian dictionaries.
     jbo: ["rirmamta", "rirˈmamta"],  // Built from rirni 'parent' and mamta 'mother', a grandmother on either side; mamymamta ('mother-mother') is available when the mother's mother must be specified.

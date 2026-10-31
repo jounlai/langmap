@@ -81,8 +81,8 @@ WORDS.thumb = {
     th: "mother",
     id: "mother",
     ms: "mother",
-    jv: "unknown",
-    su: "unknown",
+    jv: "plain",
+    su: "plain",
     ceb: "unknown",
     tl: "big",
     hi: "plain",
@@ -123,7 +123,7 @@ WORDS.thumb = {
     yo: "unknown",
     nv: "big",
     haw: "big",
-    mi: "unknown",
+    mi: "big",
     ket: "plain",
     orh: "unknown",
     ca_va: "plain",
@@ -252,7 +252,7 @@ WORDS.thumb = {
     ta: "big",
     ml: "mother",
     so: "plain",
-    kn: "unknown",
+    kn: "big",
     pnb: "plain",
     skr: "plain",
     zu: "plain",
@@ -260,7 +260,7 @@ WORDS.thumb = {
     ky: "other",
     tt: "other",
     uz: "other",
-    tk: "unknown",
+    tk: "other",
     sd: "plain",
     ne: "other",
     ps: "big",
@@ -654,7 +654,7 @@ WORDS.thumb = {
     yo: ["àtàǹpàkò", "àtàŋ̀kpàkò"],  // The same word also names the big toe.
     nv: ["álátsoh", "ʔɑ́lɑ́tsʰòh"],  // Literally 'big finger'; compare akétsoh 'big toe'.
     haw: ["manamana lima nui", "manamana lima nui"],  // Literally 'big finger of the hand' (manamana 'finger', lima 'hand', nui 'big').
-    mi: ["kōnui", "koːnui"],  // It also means the big toe; older synonyms include koromatua, which also means 'chief'.
+    mi: ["kōnui", "koːnui"],  // It also means the big toe; older synonyms include koromatua, which also means 'chief'. Kō plus nui 'big'.
     ket: ["ӄъъль", "qʌːlʲ"],  // Inherited from Proto-Yeniseian *qaɬ 'thumb', perhaps related to Ket ӄак 'five' (Vajda & Werner 2022).
     orh: ["uruun", "uruun"],  // Recorded by Li & Whaley for the World Loanword Database; spelled uru:n there.
     ca_va: ["polze", "ˈpolze"],  // From Latin pollex 'thumb'.
@@ -783,7 +783,7 @@ WORDS.thumb = {
     ta: ["பெருவிரல்", "peɾuʋiɾal"],  // Literally 'big finger' (peru 'big' + viral 'finger'); it also names the big toe, and kaṭṭaiviral is a common synonym.
     ml: ["തള്ളവിരൽ", "t̪aɭːaʋiɾal"],  // Literally 'mother finger' (taḷḷa 'mother' + viral 'finger'), listed under the Dravidian word for mother in the Dravidian Etymological Dictionary; it also names the big toe.
     so: ["suul", "suːl"],  // Also names the big toe; inherited from a Proto-Cushitic word for 'claw', whose cognates mean 'toe' or 'fingernail' in neighbouring languages.
-    kn: ["ಹೆಬ್ಬೆರಳು", "hebːeɾaɭu"],  // Ends in beraḷu 'finger'; the same word also names the big toe.
+    kn: ["ಹೆಬ್ಬೆರಳು", "hebːeɾaɭu"],  // Ends in beraḷu 'finger'; the same word also names the big toe. Heb- is the 'big' form that Kannada puts on beraḷu 'finger', as in hebbāgilu 'main door'.
     pnb: ["انگوٹھا", "əŋɡuːʈʰaː"],  // Inherited from Sanskrit aṅguṣṭha; it also names the big toe.
     skr: ["انگوٹھا", "əŋɡuːʈʰaː"],  // Inherited from Sanskrit aṅguṣṭha 'thumb'.
     zu: ["isithupha", "isitʰupʰa"],  // The same word also means 'six'.
@@ -791,7 +791,7 @@ WORDS.thumb = {
     ky: ["баш бармак", "bɑʃ bɑrmɑq"],  // Literally 'head finger' (баш 'head' + бармак 'finger'), as in the other Turkic languages.
     tt: ["баш бармак", "bɑʃ bɑrmɑq"],  // Literally 'head finger' (баш 'head' + бармак 'finger'); the 👍 emoji is called баш бармак өстә 'thumb up'.
     uz: ["bosh barmoq", "bɒʃ barmɒq"],  // Literally 'head finger' (bosh 'head' + barmoq 'finger'), as in the other Turkic languages.
-    tk: ["başam barmak", "baʃam baɾmak"],  // barmak is 'finger'; the first element başam is not explained in the sources, and the shorter baş barmak is also seen.
+    tk: ["başam barmak", "baʃam baɾmak"],  // barmak is 'finger'; the first element başam is not explained in the sources, and the shorter baş barmak is also seen. Baş 'head', like Turkish başparmak.
     sd: ["آڱوٺو", "aːŋuːʈʰoː"],  // Inherited from Sanskrit aṅguṣṭha 'thumb'; it also names the big toe.
     ne: ["बूढी औंला", "buɽi ʌũlaː"],  // Literally 'old-woman finger' (बूढी 'old woman' + औंला 'finger'); the big toe is 'the old-woman finger of the foot'.
     ps: ["غټه ګوته", "ɣaʈa ɡuta"],  // Literally 'big finger' (ǧaṭa 'big' + gúta 'finger'); it also names the big toe.

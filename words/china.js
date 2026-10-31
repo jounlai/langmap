@@ -126,10 +126,10 @@ WORDS.china = {
     mg: "cina",
     nl: "cina",
     az: "cina",
-    so: "unknown",
+    so: "cina",
     gan: "zhongguo",
     mag: "cina",
-    si: "unknown",
+    si: "cina",
     km: "cina",
     za: "zhongguo",
     kk: "khitan",
@@ -162,7 +162,7 @@ WORDS.china = {
     kg: "cina",
     ks: "cina",
     da: "cina",
-    hy: "unknown",
+    hy: "cina",
     gn: "cina",
     kab: "cina",
     fi: "cina",
@@ -187,7 +187,7 @@ WORDS.china = {
     din: "cina",
     mzn: "cina",
     vec: "cina",
-    ka: "unknown",
+    ka: "cina",
     ace: "cina",
     czh: "zhongguo",
     glk: "cina",
@@ -195,7 +195,7 @@ WORDS.china = {
     ban: "cina",
     shn: "unknown",
     jam: "cina",
-    lt: "unknown",
+    lt: "cina",
     zza: "cina",
     srn: "cina",
     sl: "khitan",
@@ -219,7 +219,7 @@ WORDS.china = {
     nn: "cina",
     os: "khitan",
     yi: "cina",
-    mt: "unknown",
+    mt: "cina",
     xmf: "unknown",
     oc: "cina",
     crh: "cina",
@@ -230,7 +230,7 @@ WORDS.china = {
     krc: "khitan",
     tyv: "khitan",
     br: "cina",
-    ab: "unknown",
+    ab: "khitan",
     nv: "other",
     dng: "zhongguo",
     gag: "khitan",
@@ -255,7 +255,7 @@ WORDS.china = {
     mwl: "cina",
     dsb: "unknown",
     tkl: "cina",
-    vo: "unknown",
+    vo: "cina",
     mnc: "zhongguo",
     yue_zs: "zhongguo",
     dta: "other",
@@ -606,7 +606,7 @@ WORDS.china = {
     din: ["Caina", "tʃaina"],  // Looks like a loan of English China, but no source names the donor. Route by resemblance to the neighbouring forms (te(చైనా) ml(ചൈന)); no etymology of its own.
     mzn: ["چین", "tʃiːn"],  // Same name as Persian چین Čīn. Route by resemblance to the neighbouring forms (hi(चीन) bn(চীন)); no etymology of its own.
     vec: ["Cina", "ˈtʃina"],  // From Classical Persian Čīn, ultimately Sanskrit Cīna; Venetian Cina is thought to be the source of Portuguese and Spanish China.
-    ka: ["ჩინეთი", "tʃʰinetʰi"],  // Čineti; Wiktionary gives no etymology for it.
+    ka: ["ჩინეთი", "tʃʰinetʰi"],  // Čineti; Wiktionary gives no etymology for it. The same Cīna name as Persian چین, with the Georgian place suffix -eti.
     ace: ["Cina", "tʃina"],  // Same form as Malay and Indonesian Cina. Route by resemblance to the neighbouring forms (tl(Tsina) ms(China)); no etymology of its own.
     czh: ["中国", "tsan˩˩ kuə˥"],  // The characters 中国 "Middle Kingdom" read in Tunxi Hui.
     glk: ["چين", "tʃin"],  // Same name as Persian چین Čīn. Route by resemblance to the neighbouring forms (hi(चीन) bn(চীন)); no etymology of its own.
@@ -649,7 +649,7 @@ WORDS.china = {
     krc: ["Къытай", "qɯˈtaj"],  // From the name of the Khitan people, cognate with Russian Китай and English Cathay (Wiktionary).
     tyv: ["Кыдат", "qɯˈdat"],  // Borrowed from Oirat Kitad, ultimately from the Khitan name (Wiktionary).
     br: ["Sina", "ˈsiːna"],  // The People's Republic is Republik Pobl Sina (Breton Wikipedia). Route by resemblance to the neighbouring forms (ln(Sína) tpi(Saina)); no etymology of its own.
-    ab: ["Китаи", "kʼitʼai"],  // The Abkhaz Wikipedia also gives Ҷынҭ (Wiktionary Чынҭ); officially Китаитәи Жәлартә Республика.
+    ab: ["Китаи", "kʼitʼai"],  // The Abkhaz Wikipedia also gives Ҷынҭ (Wiktionary Чынҭ); officially Китаитәи Жәлартә Республика. The Russian name Китай, after the Khitan.
     nv: ["Tsiiʼyishbizhí Dineʼé Bikéyah", "tsʰìːʔjìʃpìʒí tìnèʔé pìkʰéjɑ̀h"],  // Literally "land of the braided-hair people", after the queue hairstyle of the Qing dynasty (Wiktionary).
     dng: ["Җунгуә", "tʂuŋ˨˦ kuə˥˩"],  // The Dungan reading of 中國 "Middle Kingdom"; the Shaanxi-based form is Җунгуй (Wiktionary).
     gag: ["Kitay", "kiˈtaj"],  // Officially Kitay Halk Respublikası (Gagauz Wikipedia). Route by resemblance to the neighbouring forms (ru(Китай) uk(Китай)); no etymology of its own.

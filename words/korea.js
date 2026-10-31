@@ -191,7 +191,7 @@ WORDS.korea = {
     dsb: "goryeo",
     szl: "goryeo",
     crh: "goryeo",
-    mt: "unknown",
+    mt: "goryeo",
     pcd: "goryeo",
     sah: "goryeo",
     ace: "goryeo",

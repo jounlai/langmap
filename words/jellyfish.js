@@ -71,24 +71,24 @@ WORDS.jellyfish = {
     ar: "other",
     fr: "medusa",
     ru: "medusa",
-    id: "unknown",
+    id: "plain",
     ja: "plain",
     fa: "other",
     yue: "plain",
-    vi: "unknown",
+    vi: "plain",
     tr: "mother",
-    tl: "unknown",
+    tl: "plain",
     ko: "unknown",
     wuu: "plain",
     it: "medusa",
-    th: "unknown",
+    th: "plain",
     nan: "plain",
     es: "medusa",
     pl: "medusa",
     uk: "medusa",
     ml: "other",
     hsn: "plain",
-    my: "unknown",
+    my: "other",
     ro: "medusa",
     gan: "plain",
     el: "medusa",
@@ -182,10 +182,10 @@ WORDS.jellyfish = {
     mai: "jelly",
     ne: "jelly",
     ta: "other",
-    ms: "unknown",
-    jv: "unknown",
-    de: "unknown",
-    nl: "unknown",
+    ms: "plain",
+    jv: "plain",
+    de: "other",
+    nl: "other",
     zu: "jelly",
     azb: "mother",
     kk: "medusa",
@@ -193,7 +193,7 @@ WORDS.jellyfish = {
     az: "medusa",
     si: "unknown",
     pt: "other",
-    af: "unknown",
+    af: "other",
     nds: "unknown",
     be: "medusa",
     ky: "medusa",
@@ -229,7 +229,7 @@ WORDS.jellyfish = {
     mrw: "other",
     nn: "other",
     cy: "jelly",
-    eu: "unknown",
+    eu: "plain",
     cbk: "unknown",
     os: "medusa",
     mt: "other",
@@ -277,7 +277,7 @@ WORDS.jellyfish = {
     uk: ["медуза", "meˈduzɐ"],  // Named after Medusa, one of the Gorgon sisters.
     ml: ["കടൽച്ചൊറി", "kaɖaltʃːori"],  // Literally "sea itch", for its sting.
     hsn: ["海蜇", "xai˦˩ tsɤ˨˦"],  // "Sea" plus 蜇, itself a word for jellyfish.
-    my: ["ငါးဖန်ခွက်", "ŋəpʰàɴɡwɛʔ"],  // Begins with ငါး "fish"; ဖန် means "glass".
+    my: ["ငါးဖန်ခွက်", "ŋəpʰàɴɡwɛʔ"],  // Begins with ငါး "fish"; ဖန် means "glass". Literally 'glass-cup fish'.
     ro: ["meduză", "meˈduzə"],  // Borrowed from French méduse, named after Medusa.
     gan: ["海蜇", "hai˨˩˧ tsɛt˥"],  // "Sea" plus 蜇, itself a word for jellyfish.
     el: ["μέδουσα", "ˈmeðusa"],  // From French méduse, after Medusa; the colloquial τσούχτρα "stinger" is also common.
@@ -382,7 +382,7 @@ WORDS.jellyfish = {
     az: ["meduza", "meˈduzɑ"],  // Via Russian медуза, after Medusa; dəniz anası "sea mother" is also listed.
     si: ["ලොඩි", "loɖi"],  // Carter's dictionary has the animate form ලොඩියා "a sort of jelly-fish".
     pt: ["alforreca", "alfuˈʁɛkɐ"],  // From Arabic for 'the nettle', via Andalusian Arabic; medusa is also used, and Brazil says água-viva.
-    af: ["kwal", "kʋal"],  // Cognate with Dutch kwal; the English loan jellievis is also common.
+    af: ["kwal", "kʋal"],  // Cognate with Dutch kwal; the English loan jellievis is also common. Like Dutch kwal, probably from a verb 'to swell'.
     nds: ["Quall", "kval"],  // Cognate with German Qualle and Dutch kwal.
     be: ["медуза", "mʲeˈduza"],  // Like Russian медуза, after the Gorgon Medusa.
     ky: ["медуза", "meˈduza"],  // Borrowed from Russian медуза, named after the Gorgon Medusa.

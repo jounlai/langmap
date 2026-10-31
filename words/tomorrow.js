@@ -209,7 +209,7 @@ WORDS.tomorrow = {
     khg: "plain",
     my: "unknown",
     km: "unknown",
-    lo: "unknown",
+    lo: "other",
     yo: "unknown",
     zu: "morning",
     am: "unknown",
@@ -461,7 +461,7 @@ WORDS.tomorrow = {
     kok: "unknown",
     ks: "unknown",
     ace: "unknown",
-    dz: "unknown",
+    dz: "morning",
     myx: "unknown",
     bxk: "unknown",
     kam: "unknown",
@@ -567,7 +567,7 @@ WORDS.tomorrow = {
     djk: "unknown",
     hui: "unknown",
     rue: "morning",
-    wa: "unknown",
+    wa: "morning",
     koi: "unknown",
     mhr: "unknown",
     mrj: "unknown",
@@ -730,7 +730,7 @@ WORDS.tomorrow = {
     maw: "unknown",
     rwk: "unknown",
     jiv: "unknown",
-    co: "unknown",
+    co: "morning",
     yua: "unknown",
     lbj: "unknown",
     tru: "other",
@@ -1012,7 +1012,7 @@ WORDS.tomorrow = {
     khg: ["སང་ཉིན", "saŋ˥˥ɲin˥˥"],  // Dege Khams says sang-nyin, the same word as written Tibetan སང་ཉིན (Sun 1991; Sagart et al. 2019). Sang 'tomorrow' plus nyin 'day'.
     my: ["မနက်ဖြန်", "mənɛʔpʰjàɴ"],  // Colloquial မနက်ဖြန် adds a prefix of unclear origin to formal နက်ဖြန် (Wiktionary).
     km: ["ស្អែក", "sʔaek"],  // ស្អែក is the everyday Khmer word for 'tomorrow' (Wiktionary).
-    lo: ["ມື້ອື່ນ", "mɯː˥˨ ʔɯːn˧"],  // ມື້ອື່ນ begins with ມື້ 'day' (Wiktionary; Wikivoyage).
+    lo: ["ມື້ອື່ນ", "mɯː˥˨ ʔɯːn˧"],  // ມື້ອື່ນ begins with ມື້ 'day' (Wiktionary; Wikivoyage). Literally 'the other day': ມື້ 'day' plus ອື່ນ 'other'.
     yo: ["ọ̀la", "ɔ̀la"],  // Ọ̀la is the noun 'tomorrow'; the adverb is lọ́la 'on tomorrow' (Wiktionary).
     zu: ["kusasa", "kuˈsasa"],  // Kusasa is a reduplication of -sa 'to dawn' (Wiktionary).
     am: ["ነገ", "nəɡə"],  // ነገ is the everyday Amharic word for 'tomorrow' (Wiktionary).
@@ -1264,7 +1264,7 @@ WORDS.tomorrow = {
     kok: ["फाल्यां", "faːljãː"],  // फाल्यां is the Konkani word; unlike Hindi कल it does not also mean yesterday.
     ks: ["پَگاہ", "paɡaːh"],  // Either from Persian pagāh 'dawn' or from Sanskrit 'the day in front'; the origin is disputed (Wiktionary).
     ace: ["singoh", "siŋɔh"],  // Singoh is the Acehnese word; singoh beungöh is 'tomorrow morning'.
-    dz: ["ནངས་པ", "naːpa"],  // ནངས་པ is the Dzongkha word for tomorrow.
+    dz: ["ནངས་པ", "naːpa"],  // ནངས་པ is the Dzongkha word for tomorrow. Built on Tibetan nangs 'daybreak, morning', as in nangs par 'the next morning'.
     myx: ["kumukaamba", "kumukaːmba"],  // Kumukaamba is the Lumasaaba word for tomorrow.
     bxk: ["muchuli", "mutʃuli"],  // Muchuli is the Bukusu word; the Bible also uses busia in Matthew 6:34.
     kam: ["ũnĩ", "one"],  // Ũnĩ is the Kamba word for tomorrow.
@@ -1370,7 +1370,7 @@ WORDS.tomorrow = {
     djk: ["tamaa", "tamaː"],  // Tamaa is 'tomorrow' in the Ndyuka New Testament, set against tide 'today'.
     hui: ["yawi", "jawi"],  // Yawi is 'tomorrow' in the Huli Bible and TransNewGuinea.org.
     rue: ["завтра", "ˈzau̯tra"],  // From Proto-Slavic *za utra 'after the morning', like Ukrainian and Russian завтра.
-    wa: ["dimwin", "diˈmwɛ̃"],  // Dimwin is the Walloon word for 'tomorrow', the counterpart of French demain.
+    wa: ["dimwin", "diˈmwɛ̃"],  // Dimwin is the Walloon word for 'tomorrow', the counterpart of French demain. From Latin de mane 'from the morning', like French demain.
     koi: ["ашын", "ˈaʃɨn"],  // Komi-Permyak uses ашын where Komi-Zyrian has аски.
     mhr: ["эрла", "erla"],  // Эрла is 'tomorrow' in the Meadow Mari Bible; NorthEuraLex lists эр for 'morning'.
     mrj: ["иргодым", "irɣoðəm"],  // Иргодым is 'tomorrow' in the Hill Mari Bible; NorthEuraLex lists ир for 'morning'.
@@ -1533,7 +1533,7 @@ WORDS.tomorrow = {
     maw: ["beoo", "beoː"],  // Beoo is the Mampruli word for tomorrow.
     rwk: ["ndesi", "ndesi"],  // Ndesi is the Rwa word for tomorrow; neighbouring Machame has the same word.
     jiv: ["kashin", "kaʃin"],  // Kashin is the Shuar word for tomorrow, close to kashi 'night'.
-    co: ["dumane", "duˈmane"],  // Dumane is the Corsican word for tomorrow; the Luke text also writes dumani.
+    co: ["dumane", "duˈmane"],  // Dumane is the Corsican word for tomorrow; the Luke text also writes dumani. From Latin de mane 'from the morning', like French demain.
     yua: ["sáamal", "saːmal"],  // Sáamal is the Yucatec Maya word for tomorrow; u kʼiinil sáamal is 'the day of tomorrow'.
     lbj: ["ཐོ་རེ", "tʰore"],  // Thore is the Ladakhi word for tomorrow, set against diring 'today'.
     tru: ["ܪܡܚܠ", "ramħəl"],  // Ramḥël comes from an older lamḥor, like Classical Syriac lamḥār (Wiktionary). Like Hebrew māḥār, probably built on the root of 'after'.

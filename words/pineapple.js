@@ -82,7 +82,7 @@ WORDS.pineapple = {
     yue: "other",
     vi: "other",
     tr: "nanas",
-    te: "unknown",
+    te: "nanas",
     tl: "pine",
     ko: "pine",
     wuu: "other",
@@ -456,7 +456,7 @@ WORDS.pineapple = {
     yue: ["菠蘿", "pɔː˥ lɔː˨˩"],  // Clipped from 菠蘿蜜, the jackfruit (originally a Buddhist word, paramita).
     vi: ["dứa", "zɨə˧˥"],  // Originally the pandan plant (now dứa dại "wild dứa"); the South says thơm "fragrant".
     tr: ["ananas", "anaˈnas"],  // Via French from Portuguese ananás, ultimately Old Tupi naná.
-    te: ["అనాసపండు", "anaːsapaɳɖu"],  // అనాస "pineapple plant" + పండు "fruit"; no source traces అనాస itself.
+    te: ["అనాసపండు", "anaːsapaɳɖu"],  // అనాస "pineapple plant" + పండు "fruit"; no source traces అనాస itself. అనాస is the Tupi naná, through Portuguese ananás.
     tl: ["pinya", "pinˈja"],  // From Spanish piña "pine cone", which was applied to the pineapple for its shape.
     ko: ["파인애플", "pʰainɛpʰɯl"],  // Borrowed from English pineapple.
     wuu: ["菠萝蜜", "pu˥˧ lu˨˧ miɪʔ˩˨"],  // In Shanghai 菠萝蜜, the Mandarin word for the jackfruit, names the pineapple.

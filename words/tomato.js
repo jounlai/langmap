@@ -156,10 +156,10 @@ WORDS.tomato = {
     ny: "unknown",
     ug: "apple",
     wo: "nahuatl",
-    cs: "unknown",
+    cs: "apple",
     hr: "apple",
     sr: "apple",
-    sl: "unknown",
+    sl: "apple",
     sk: "apple",
     he: "apple",
     kbd: "unknown",
@@ -310,7 +310,7 @@ WORDS.tomato = {
     hmn: "foreign",
     bjn: "unknown",
     glk: "apple",
-    ce: "unknown",
+    ce: "other",
     ban: "nahuatl",
     tcy: "nahuatl",
     fon: "nahuatl",
@@ -450,7 +450,7 @@ WORDS.tomato = {
     nv: "other",
     ab: "nahuatl",
     lbe: "apple",
-    co: "unknown",
+    co: "apple",
     to: "nahuatl",
     ty: "nahuatl",
     kpv: "apple",
@@ -610,10 +610,10 @@ WORDS.tomato = {
     ny: ["phwetekere", "pʷʰetekeɽe"],  // Etymology not given by the source; matimati and tomato come from English.
     ug: ["پەمىدۇر", "pɛmidur"],  // From Russian помидор 'golden apples'; شوخلا is a synonym.
     wo: ["tamaate", "tamaːte"],  // From French tomate.
-    cs: ["rajče", "ˈrajtʃɛ"],  // Ráj 'paradise' + a diminutive; rajské jablko is a synonym.
+    cs: ["rajče", "ˈrajtʃɛ"],  // Ráj 'paradise' + a diminutive; rajské jablko is a synonym. The 'paradise apple', like German Paradiesapfel.
     hr: ["rajčica", "rǎjtʃitsa"],  // A 'little paradise' word calqued on German Paradiesapfel 'paradise apple'.
     sr: ["парадајз", "parǎdajz"],  // From Austrian German Paradeis 'tomato', a sister of Paradeiser, which comes from Paradiesapfel 'paradise apple'.
-    sl: ["paradižnik", "paraˈdiːʒnik"],  // Paradíž 'paradise' + -nik.
+    sl: ["paradižnik", "paraˈdiːʒnik"],  // Paradíž 'paradise' + -nik. The 'paradise apple', like Hungarian paradicsom.
     sk: ["paradajka", "ˈparadaɪ̯ka"],  // Etymology not given by the sources; the codified rajčina is a synonym. Route by resemblance to the neighbouring forms (de_at(Paradeiser) sr(парадајз)); no etymology of its own.
     he: ["עגבנייה", "aɡvaniˈja"],  // Coined in 1886 from a root for lust, after German Liebesapfel 'love apple'; it won out over rival coinages by the 1940s.
     kbd: ["бэдрэжан", "badraʒaːn"],  // Etymology not given by the sources.
@@ -904,7 +904,7 @@ WORDS.tomato = {
     nv: ["chʼil łichxíʼí", "tʃʼìl ɬìtʃxíʔí"],  // Literally 'red plant', from chʼil 'plant, vegetable' and łichxíʼí 'the red/orange one'; it can also name the red radish and the beet.
     ab: ["атомат", "atomat"],  // The Abkhaz Wikipedia names the tomato атомат, citing the 2005 Abkhaz-Russian dictionary; апаҭырџьан, a word that once meant 'eggplant', is also recorded. Route by resemblance to the neighbouring forms (fr(tomate) nl(tomaat)); no etymology of its own.
     lbe: ["помидор", "pomidor"],  // The same word as Russian помидор, which comes from Italian pomi d'oro 'golden apples'.
-    co: ["pumata", "puˈmata"],  // Pumata is the name of the tomato in the Corsican Wikipedia.
+    co: ["pumata", "puˈmata"],  // Pumata is the name of the tomato in the Corsican Wikipedia. Pumata is built on pumu 'apple', like Italian pomodoro.
     to: ["temata", "temata"],  // Temata is the name of the tomato in the Tongan Wikipedia, which cites Churchward's Tongan dictionary. Route by resemblance to the neighbouring forms (en_nz(tomato) ckb(تەماتە)); no etymology of its own.
     ty: ["tōmāti", "toːmaːti"],  // Tōmāti is the Tahitian word for the tomato. Route by resemblance to the neighbouring forms (fi(tomaatti) yo(tòmátì) ln(tomáti)); no etymology of its own.
     kpv: ["помидор", "pomidor"],  // The same word as Russian помидор, which comes from Italian pomi d'oro 'golden apples'.

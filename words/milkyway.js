@@ -186,7 +186,7 @@ WORDS.milkyway = {
     tt: "birds",
     ba: "birds",
     crh: "road",
-    os: "unknown",
+    os: "road",
     sw: "road",
     en_us: "milk",
     fa: "milk",

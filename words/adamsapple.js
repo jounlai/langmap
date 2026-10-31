@@ -110,7 +110,7 @@ WORDS.adamsapple = {
     ka: "unknown",
     gl: "other",
     bjn: "plain",
-    shn: "unknown",
+    shn: "other",
     sr: "adam",
     hr: "adam",
     en_ng2: "adam",
@@ -322,7 +322,7 @@ WORDS.adamsapple = {
     ka: ["ხვანჩი", "xvantʃʰi"],  // The Georgian name; Wiktionary gives no etymology, and ადამის ვაშლი 'Adam's apple' is also listed.
     gl: ["noz", "nɔθ"],  // The same word as noz 'walnut'; nó da gorxa 'knot of the throat' and noz de Adán are also used.
     bjn: ["halukum", "halukum"],  // From Arabic ḥulqūm 'throat', perhaps through Malay halkum; jakum is a synonym.
-    shn: ["ၶေႃးႁွႆ", "kʰɔː˥hɔj˨˦"],  // Begins with ၶေႃး 'neck, throat'; Wiktionary does not explain the second part.
+    shn: ["ၶေႃးႁွႆ", "kʰɔː˥hɔj˨˦"],  // Begins with ၶေႃး 'neck, throat'; Wiktionary does not explain the second part. Route by resemblance to the neighbouring forms (khb(ᦆᦸᦠᦾ)); no etymology of its own.
     sr: ["Адамова јабучица", "ǎdamoʋa jâbutʃitsa"],  // Literally 'Adam's little apple', with jabučica, a diminutive of jabuka 'apple'.
     hr: ["Adamova jabučica", "ǎdamoʋa jâbutʃitsa"],  // Literally 'Adam's little apple', with jabučica, a diminutive of jabuka 'apple'.
     en_ng2: ["Adam's apple", "ædəmz æpəl"],  // A calque of Latin pomum Adami, from the old belief that a piece of the forbidden fruit stuck in Adam's throat.

@@ -262,7 +262,7 @@ WORDS.monday = {
     vec: "moon",
     si: "moon",
     sm: "other",
-    to: "unknown",
+    to: "moon",
     ar_eg: "count",
     sgs: "after",
     jam: "moon",
@@ -321,8 +321,8 @@ WORDS.monday = {
     kpv: "other",
     kl: "count",
     mns: "count",
-    ty: "unknown",
-    rap: "unknown",
+    ty: "moon",
+    rap: "moon",
     niu: "other",
     tkl: "other",
     dz: "moon",
@@ -435,7 +435,7 @@ WORDS.monday = {
     pms: "moon",
     bem: "count",
     pwo: "moon",
-    dje: "unknown",
+    dje: "count",
     nyn: "unknown",
     cgg: "unknown",
     ssw: "other",
@@ -458,9 +458,9 @@ WORDS.monday = {
     ksb: "count",
     asu: "count",
     ebu: "count",
-    ses: "unknown",
-    khq: "unknown",
-    dyo: "unknown",
+    ses: "count",
+    khq: "count",
+    dyo: "count",
     ewo: "moon",
     pis: "moon",
     szl: "after",
@@ -473,7 +473,7 @@ WORDS.monday = {
     her: "moon",
     guc: "moon",
     new: "moon",
-    vai: "unknown",
+    vai: "count",
     khb: "unknown",
     yrl: "count",
     cho: "moon",
@@ -805,7 +805,7 @@ WORDS.monday = {
     vec: ["łuni", "ˈuni"],  // From Latin Lūnae diēs, "day of the Moon".
     si: ["සඳුදා", "saⁿdudaː"],  // "Moon day": sanda "moon" + dā "day".
     sm: ["Aso Gafua", "aso ŋafua"],  // Aso "day" + gafua, which Pratt (1911) glosses "be made common, have a prohibition removed".
-    to: ["Monite", "monite"],  // Tongan name of Monday.
+    to: ["Monite", "monite"],  // Tongan name of Monday. Route by resemblance to the neighbouring forms (rar(Mōnitē)); no etymology of its own.
     ar_eg: ["الاتنين", "letˈneːn"],  // "The second (day)", from Arabic al-ithnayn "the two", counting from Sunday.
     sgs: ["panedielis", "panʲɛdʲieːlʲɪs"],  // A Slavic loan meaning "after Sunday" (po + nedělja), kept where standard Lithuanian adopted pirmadienis "first day".
     jam: ["Monde", "mɔnde"],  // From English Monday, "day of the Moon".
@@ -864,8 +864,8 @@ WORDS.monday = {
     kpv: ["выльлун", "vɨʎlun"],  // Literally "new day" (vyľ "new" + lun "day").
     kl: ["ataasinngorneq", "ataːsiŋːoɴːeq"],  // Built on ataaseq "one" (+ -nngor- "become"): day one of the week.
     mns: ["са̄т о̄выл хо̄талэ", "saːt oːwɪl χoːtalə"],  // "The week's first day": sāt "week" + ōwyl "first" + xōtal "day".
-    ty: ["Monirē", "moniɾeː"],  // Monday has its own name, while Tuesday to Saturday are numbered: mahana piti "day two" up to mahana mā'a "day six".
-    rap: ["monirē", "moniɾeː"],  // The same name as Tahitian Monirē.
+    ty: ["Monirē", "moniɾeː"],  // Monday has its own name, while Tuesday to Saturday are numbered: mahana piti "day two" up to mahana mā'a "day six". Route by resemblance to the neighbouring forms (rar(Mōnitē) rtm(Mạnre)); no etymology of its own.
+    rap: ["monirē", "moniɾeː"],  // The same name as Tahitian Monirē. Route by resemblance to the neighbouring forms (rar(Mōnitē) rtm(Mạnre)); no etymology of its own.
     niu: ["Aho Gofua", "aho ŋofua"],  // aho "day" + gofua; Tuesday is Aho Ua "day two". Route by resemblance to the neighbouring forms (sm(Aso Gafua)); no etymology of its own.
     tkl: ["Aho Gafua", "aho ŋafua"],  // aho "day" + gafua; Tuesday is Aho Lua "day two". Route by resemblance to the neighbouring forms (sm(Aso Gafua)); no etymology of its own.
     dz: ["གཟའ་ཟླ་བ", "za dau"],  // "Planet Moon": gza' "planet, weekday" + zla ba "moon", the Tibetan planetary weekday name. The lead མིག་དམར (Mars) is Tuesday.
@@ -978,7 +978,7 @@ WORDS.monday = {
     pms: ["lùn-es", "ˈlyŋes"],  // From Latin lūnae diēs, "the day of the Moon" (lun-a).
     bem: ["pali cimo", "pali tʃimo"],  // "On (day) one": pali "on" + cimo "one"; Tuesday is pali cibili, "(day) two".
     pwo: ["အစီၩ့", "ʔə sauɴ"],  // Borrowed from Mon can, the astrological Moon: "moon (day)".
-    dje: ["Atinni", "atinːi"],  // Atinni, the Zarma name for Monday; the lesson notes villagers often name days by the local market instead.
+    dje: ["Atinni", "atinːi"],  // Atinni, the Zarma name for Monday; the lesson notes villagers often name days by the local market instead. Route by resemblance to the neighbouring forms (dur(àltìnì)); no etymology of its own.
     nyn: ["Orwokubanza", "orwokubanza"],  // Orwokubanza, the Runyankore name for Monday; its literal meaning is not given in the source.
     cgg: ["Orwokubanza", "orwokubanza"],  // Orwokubanza, the Rukiga name for Monday; its literal meaning is not given in the source.
     ssw: ["uMsombuluko", "umsombuluko"],  // uMsombuluko, a noun formed from the verb sombuluka; the Swazi gloss of that verb is not given in the source. Route by resemblance to the neighbouring forms (zu(uMsombuluko)); no etymology of its own.
@@ -1001,9 +1001,9 @@ WORDS.monday = {
     ksb: ["Jumaatatu", "ɟumaːtatu"],  // The Swahili name Jumatatu, juma "week" + tatu "three": day three of the week.
     asu: ["Jumatatu", "dʒumatatu"],  // The Swahili name Jumatatu, juma "week" + tatu "three": day three of the week.
     ebu: ["Njumatatu", "ɲdʒumatatu"],  // From Swahili Jumatatu, juma "week" + tatu "three": day three of the week.
-    ses: ["Atinni", "atinːi"],  // Atinni, the Koyraboro Senni name for Monday (CLDR), the same name as Zarma Atinni.
-    khq: ["Atini", "atini"],  // Atini, the Koyra Chiini name for Monday (CLDR).
-    dyo: ["Teneŋ", "teneŋ"],  // Teneŋ, the Jola-Fonyi name for Monday (CLDR); its origin was not checked.
+    ses: ["Atinni", "atinːi"],  // Atinni, the Koyraboro Senni name for Monday (CLDR), the same name as Zarma Atinni. Route by resemblance to the neighbouring forms (dur(àltìnì)); no etymology of its own.
+    khq: ["Atini", "atini"],  // Atini, the Koyra Chiini name for Monday (CLDR). Route by resemblance to the neighbouring forms (dur(àltìnì)); no etymology of its own.
+    dyo: ["Teneŋ", "teneŋ"],  // Teneŋ, the Jola-Fonyi name for Monday (CLDR); its origin was not checked. Route by resemblance to the neighbouring forms (sus(tɛnɛn)); no etymology of its own.
     ewo: ["mɔ́ndi", "mɔ́ndi"],  // mɔ́ndi, the Ewondo name for Monday (CLDR); its origin was not checked in a dictionary. Route by resemblance to the neighbouring forms (en_ng(Monday) fy(moandei)); no etymology of its own.
     pis: ["Mande", "mande"],  // Resembles English Monday, but no source states the borrowing. Route by resemblance to the neighbouring forms (en_sg(Monday) tpi(Mande)); no etymology of its own.
     szl: ["pyndziałek", "pɪnˈdʑawɛk"],  // Clipped from pōniedziałek: po- "after" + niydziela "Sunday".
@@ -1016,7 +1016,7 @@ WORDS.monday = {
     her: ["Omandaha", "omandaha"],  // Borrowed from Afrikaans Maandag, "moon day".
     guc: ["luune", "luːne"],  // Resembles Spanish lunes, but no source states the borrowing. Route by resemblance to the neighbouring forms (es_do(lunes) es(lunes)); no etymology of its own.
     new: ["सोमबाः", "soməbaː"],  // Ultimately from Sanskrit somavāra, "Moon's day".
-    vai: ["ꗳꗡꘉ", "tɛːnɛ"],  // Tɛɛnɛ, the Vai name for Monday (CLDR, Omniglot); its origin was not checked.
+    vai: ["ꗳꗡꘉ", "tɛːnɛ"],  // Tɛɛnɛ, the Vai name for Monday (CLDR, Omniglot); its origin was not checked. Route by resemblance to the neighbouring forms (sus(tɛnɛn)); no etymology of its own.
     khb: ["ᦞᧃᦶᦈᧃ", "van˥˩ tsɛn˥"],  // Two sources agree on van cɛn; the meaning of the second part was not checked in a Tai Lü dictionary.
     yrl: ["murakipí", "muɾakiˈpi"],  // From murakí "work" + yepé "first": the first work day (Wiktionary, after Avila).
     cho: ["Mʋnti", "mənti"],  // Borrowed from English Monday (Wiktionary); Choctaw also has Nittak Hullo tuk Onna, "the day after the holy day".

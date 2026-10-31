@@ -428,7 +428,7 @@ WORDS.japan = {
     pyu: "unknown",
     jbo: "unknown",
     vep: "europe",
-    smn: "unknown",
+    smn: "europe",
     dsb: "europe",
     niu: "europe",
     yap: "europe",
@@ -806,7 +806,7 @@ WORDS.japan = {
     pyu: ["Dripung", "ɖipuŋ"],  // Japan in Puyuma, glossed 'Dripung (日本)' in the ILRDF dictionary's examples.
     jbo: ["pongu'e", "ponˈɡuhe"],  // A compound of ponjo 'Japanese' and gugde 'country'; ponjo is a cultural root made from Japanese Nippon.
     vep: ["Japonii", "ˈjaponiː"],  // Borrowed from Russian Япония (Wiktionary); the title of the Veps Wikipedia article, officially Japonijan Valdkund.
-    smn: ["Jaapaan", "ˈjaːpaːn"],  // Jaapaan is the title of the Inari Sámi Wikipedia article on Japan.
+    smn: ["Jaapaan", "ˈjaːpaːn"],  // Jaapaan is the title of the Inari Sámi Wikipedia article on Japan. Route by resemblance to the neighbouring forms (de(Japan) nl(Japan) sv(Japan) sr(Јапан)); no etymology of its own.
     dsb: ["Japańska", "ˈjapaɲska"],  // Japan in Lower Sorbian, with the country suffix -ska, as given by the German-Lower Sorbian Dictionary (DNW) and Lower Sorbian Wikipedia.
     niu: ["Sapanī", "sapaniː"],  // Japan in Niuean, used in Niuean Jehovah's Witness publications (fonua Sapanī 'the country of Japan').
     yap: ["Sapan", "sapan"],  // Japan in Yapese, as written in recent Yapese Jehovah's Witness publications (older ones keep the English spelling Japan).

@@ -385,12 +385,12 @@ WORDS.turkey = {
     bnn: "unknown",
     cr: "unknown",
     toj: "unknown",
-    ixl: "unknown",
+    ixl: "local",
     gd: "elsewhere",
     vro: "unknown",
     abq: "unknown",
     xal: "elsewhere",
-    kjb: "unknown",
+    kjb: "local",
     mzh: "unknown",
     cni: "local",
     hch: "unknown",
@@ -733,12 +733,12 @@ WORDS.turkey = {
     bnn: ["kulukuluk", "kulukuluk"],  // The Isbukun Bunun word for the turkey in the ILRDF dictionary, which also lists huluhuluh with the same meaning.
     cr: ["ᒥᓯᐦᐁᐤ", "misiheːw"],  // Wolvengrey's Cree: Words glosses misihêw first as the turkey and also as the domestic chicken; the Maskwacîs Dictionary has ocicâhkomis for the turkey.
     toj: ["kolko", "kolko"],  // Lenkersdorf's dictionary glosses kolko as the turkey in general, with 'ajtso for the male and snan kolko ('mother turkey') for the hen.
-    ixl: ["akʼatx", "akʼaʈʂ"],  // The Chajul Ixil dictionary glosses ak'atx as the chompipe, the domestic turkey; tchux is the wild 'gallina de monte'.
+    ixl: ["akʼatx", "akʼaʈʂ"],  // The Chajul Ixil dictionary glosses ak'atx as the chompipe, the domestic turkey; tchux is the wild 'gallina de monte'. Route by resemblance to the neighbouring forms (kek(akʼach) poh(akʼach)); no etymology of its own.
     gd: ["eun-Frangach", "ian ˈfɾaŋɡəx"],  // Literally 'French bird' (eun 'bird' + Frangach 'French', historically also 'foreign'); the hen is cearc-Fhrangach and the cock coileach-Frangach.
     vro: ["kuľu", "ˈkulʲu"],  // The Võro dictionary gives kuľu for the turkey, with kalkuń, the cognate of Estonian kalkun, as a second word.
     abq: ["гвагвыщ", "ɡʷaɡʷəɕ"],  // The Russian-Abaza dictionary gives гвагвыщ for the turkey and гвагвыщыжь for its meat.
     xal: ["немш така", "nemʃ taka"],  // Literally 'German chicken' (немш 'German' + така 'chicken'), as given in Basangov's 1940 Russian-Kalmyk dictionary; the male is эр немш така.
-    kjb: ["akʼatx", "akʼaʈʂ"],  // The ALMG Q'anjob'al vocabulary glosses ak'atx as the chompipe, the domestic turkey; txutx ak'atx is the hen and mam ak'atx the male.
+    kjb: ["akʼatx", "akʼaʈʂ"],  // The ALMG Q'anjob'al vocabulary glosses ak'atx as the chompipe, the domestic turkey; txutx ak'atx is the hen and mam ak'atx the male. Route by resemblance to the neighbouring forms (kek(akʼach) poh(akʼach)); no etymology of its own.
     mzh: ["nikhlitaj", "nikʰlitax"],  // The online Wichí-Spanish dictionary DIWICA glosses nikhlitaj as the turkey, Meleagris gallopavo.
     cni: ["pavo", "paβo"],  // Kindberg's dictionary gives pavo, the same form as Spanish pavo, with the possessed form novavone 'my turkey'; the forest guans have native names such as canari.
     hch: ["ʼaru", "ʔaɾu"],  // The Wixárika word for the turkey, plural ʼaruxi; neither source gives an etymology.

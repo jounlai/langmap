@@ -114,7 +114,7 @@ WORDS.greece = {
     awa: "ionia",
     om: "graecia",
     uz: "graecia",
-    my: "unknown",
+    my: "graecia",
     am: "graecia",
     sd: "ionia",
     ne: "graecia",
@@ -135,7 +135,7 @@ WORDS.greece = {
     as: "graecia",
     azb: "ionia",
     bar: "unknown",
-    bm: "unknown",
+    bm: "graecia",
     el: "hellas",
     hu: "graecia",
     sv: "graecia",
@@ -165,16 +165,16 @@ WORDS.greece = {
     sat: "graecia",
     mad: "ionia",
     ki: "graecia",
-    kg: "unknown",
+    kg: "graecia",
     ks: "ionia",
     da: "graecia",
     hy: "ionia",
-    bo: "unknown",
+    bo: "graecia",
     gn: "graecia",
     kab: "unknown",
     cnp: "hellas",
     fi: "graecia",
-    lg: "unknown",
+    lg: "ionia",
     min: "ionia",
     hr: "graecia",
     sk: "graecia",
@@ -208,7 +208,7 @@ WORDS.greece = {
     aii: "ionia",
     rue: "graecia",
     nn: "hellas",
-    os: "unknown",
+    os: "graecia",
     wa: "graecia",
     yi: "unknown",
     mt: "graecia",
@@ -227,7 +227,7 @@ WORDS.greece = {
     eo: "graecia",
     fo: "graecia",
     lad: "graecia",
-    mi: "unknown",
+    mi: "graecia",
     pon: "graecia",
     se: "graecia",
     haw: "hellas",
@@ -548,7 +548,7 @@ WORDS.greece = {
     awa: ["यूनान", "juːnaːn"],  // The Awadhi Wikipedia's name for Greece, the same form as Hindi यूनान; no source gives the path for Awadhi. Route by resemblance to the neighbouring forms (hi(यूनान) ur(یونان)); no etymology of its own.
     om: ["Giriik", "ɡiriːk"],  // The Oromo Wikipedia's name for Greece; no source gives the path of the word. Route by resemblance to the neighbouring forms (am(ግሪክ)); no etymology of its own.
     uz: ["Gretsiya", "ɡɾetsija"],  // Borrowed from Russian Греция, from Latin Graecia (Wiktionary).
-    my: ["ဂရိ", "ɡəɹḭ"],  // Greece or Greek; the Burmese Wikipedia calls the country ဂရိနိုင်ငံ 'Greece country' (Wiktionary).
+    my: ["ဂရိ", "ɡəɹḭ"],  // Greece or Greek; the Burmese Wikipedia calls the country ဂရိနိုင်ငံ 'Greece country' (Wiktionary). Route by resemblance to the neighbouring forms (nus(Gɛ-rith)); no etymology of its own.
     am: ["ግሪክ", "ɡɨrik"],  // A learned borrowing from English Greek; the same word means a Greek person (Wiktionary).
     sd: ["يونان", "juːnaːn"],  // The Sindhi Wikipedia's name for Greece, the same as Persian and Urdu Yūnān; no source gives the path for Sindhi. Route by resemblance to the neighbouring forms (hi(यूनान) ur(یونان)); no etymology of its own.
     ne: ["ग्रीस", "ɡɾis"],  // The Nepali Wikipedia gives ग्रीस वा युनान 'Greece or Yunan'; its title spells it ग्रिस. Route by resemblance to the neighbouring forms (en(Greece) bn(গ্রিস)); no etymology of its own.
@@ -569,7 +569,7 @@ WORDS.greece = {
     as: ["গ্ৰীচ", "ɡɹis"],  // A learned borrowing from English Greece (Wiktionary).
     azb: ["یونان", "juˈnɑn"],  // The South Azerbaijani Wikipedia's name for Greece, the same form as Persian یونان; no source gives the path for South Azerbaijani. Route by resemblance to the neighbouring forms (hi(यूनान) ur(یونان)); no etymology of its own.
     bar: ["Griachaland", "ˈɡriɐxɐlɒnd"],  // The Bavarian Wikipedia's name for Greece; no source gives the path of the word.
-    bm: ["Gɛrɛsi", "ɡɛrɛsi"],  // The Bambara Wikipedia's name for Greece; no source gives the path of the word.
+    bm: ["Gɛrɛsi", "ɡɛrɛsi"],  // The Bambara Wikipedia's name for Greece; no source gives the path of the word. Route by resemblance to the neighbouring forms (seh(Geresya) srr(Geres) spp(Girɛsi)); no etymology of its own.
     el: ["Ελλάδα", "eˈlaða"],  // Inherited from Ancient Greek Ἑλλάδα, the accusative of Ἑλλάς Hellas; Ελλάς is the older Katharevousa form (Wiktionary).
     hu: ["Görögország", "ˈɡørøɡorsaːɡ"],  // Literally 'Greek country', görög plus ország; listed among the names from Latin Graecia (Wiktionary, Wikipedia).
     sv: ["Grekland", "ˈɡreːkland"],  // Grek 'Greek' plus land; listed among the names from Latin Graecia (Wikipedia).
@@ -599,16 +599,16 @@ WORDS.greece = {
     sat: ["ᱜᱨᱤᱠ", "ɡrik"],  // Grik is the title of the Santali Wikipedia article on Greece; Wikidata labels it ᱜᱨᱤᱥ (Gris). Route by resemblance to the neighbouring forms (am(ግሪክ) en(Greece)); no etymology of its own.
     mad: ["Yunani", "junani"],  // Yunani is the title of the Madurese Wikipedia article on Greece. Route by resemblance to the neighbouring forms (id(Yunani) ms(Yunani)); no etymology of its own.
     ki: ["Ngiriki", "ŋɡiɾiki"],  // Ngiriki is the title of the Kikuyu Wikipedia article on Greece. Route by resemblance to the neighbouring forms (sw(Ugiriki)); no etymology of its own.
-    kg: ["Gelesi", "ɡelesi"],  // Gelesi is the title of the Kikongo Wikipedia article on Greece.
+    kg: ["Gelesi", "ɡelesi"],  // Gelesi is the title of the Kikongo Wikipedia article on Greece. Route by resemblance to the neighbouring forms (agq(Gə̀lês)); no etymology of its own.
     ks: ["یوٗنان", "juːnaːn"],  // Yunan is the title of the Kashmiri Wikipedia article on Greece. Route by resemblance to the neighbouring forms (hi(यूनान) ur(یونان)); no etymology of its own.
     da: ["Grækenland", "ˈɡrɛːˀkənlanˀ"],  // A compound of græker "Greek" and land, its -en- shaped by German Griechenland.
     hy: ["Հունաստան", "hunɑsˈtɑn"],  // Hunastan, "land of the Hoyn", from the name of the Ionian Greeks.
-    bo: ["ཀེ་རི་སི", "ke˥ ri˩˧ si˥"],  // Kerisi is the title of the Tibetan Wikipedia article on Greece; ཧི་ལ and ཞིག་ལ are also listed.
+    bo: ["ཀེ་རི་སི", "ke˥ ri˩˧ si˥"],  // Kerisi is the title of the Tibetan Wikipedia article on Greece; ཧི་ལ and ཞིག་ལ are also listed. Route by resemblance to the neighbouring forms (fj(Kirisi)); no etymology of its own.
     gn: ["Gyrésia", "ɡɨˈɾesia"],  // Gyrésia is the title of the Guarani Wikipedia article on Greece. Route by resemblance to the neighbouring forms (tl(Gresya) pt(Grécia)); no etymology of its own.
     kab: ["Legrig", "ləɡriɡ"],  // Legrig is the title of the Kabyle Wikipedia article on Greece.
     cnp: ["希腊", "hi˥˧ lap˨˦"],  // The characters 希臘, a name ultimately from Greek Hellas, read in Nanning Tingzi Pinghua.
     fi: ["Kreikka", "ˈkreikːɑ"],  // From Swedish Grekland and ultimately Latin Graecia.
-    lg: ["Buyonaani", "bujonaːni"],  // Buyonaani is the title of the Luganda Wikipedia article on Greece.
+    lg: ["Buyonaani", "bujonaːni"],  // Buyonaani is the title of the Luganda Wikipedia article on Greece. Route by resemblance to the neighbouring forms (myx(Buyonaani)); no etymology of its own.
     min: ["Yunani", "junani"],  // Yunani is the title of the Minangkabau Wikipedia article on Greece. Route by resemblance to the neighbouring forms (id(Yunani) ms(Yunani)); no etymology of its own.
     hr: ["Grčka", "ɡr̩̂tʃkaː"],  // Grčka, from Grk "Greek", from Proto-Slavic *grьkъ, ultimately from Latin Graecus.
     sk: ["Grécko", "ˈɡrɛːtsko"],  // Grécko is Grék "Greek" plus -sko; Old Slovak Grék came from Latin Graecus.
@@ -642,7 +642,7 @@ WORDS.greece = {
     aii: ["ܝܵܘܲܢ", "ˈjaːwan"],  // From Classical Syriac, ultimately from Greek Ἴων "Ionian" and Ἰωνία "Ionia", like Hebrew יוון and Arabic اليونان.
     rue: ["Ґреція", "ˈɡretsija"],  // Ґреція is the Rusyn name, stressed on the first syllable. Route by resemblance to the neighbouring forms (uz(Gretsiya) ru(Греция)); no etymology of its own.
     nn: ["Hellas", "ˈhɛlːɑs"],  // Borrowed in 1932 from Greek Ἑλλάς to replace the older Grekarland and Grekland.
-    os: ["Грекъ", "ɡrekʼ"],  // Officially Гречъы Республикæ (Wiktionary, Ossetian Wikipedia).
+    os: ["Грекъ", "ɡrekʼ"],  // Officially Гречъы Республикæ (Wiktionary, Ossetian Wikipedia). Route by resemblance to the neighbouring forms (ng(Greka) kj(Greka)); no etymology of its own.
     wa: ["Grece", "ɡʁɛs"],  // Grece is the Walloon name of the country; no source found giving its etymology. Route by resemblance to the neighbouring forms (fr(Grèce) fr_lu(Grèce)); no etymology of its own.
     yi: ["גריכנלאַנד", "ˈɡrɪχnland"],  // A compound of גריך "a Greek" and לאַנד "land".
     mt: ["il-Greċja", "ɪl ˈɡrɛːtʃja"],  // Borrowed from Italian Grecia and cited with the article, il-Greċja.
@@ -661,7 +661,7 @@ WORDS.greece = {
     eo: ["Grekio", "ɡreˈkio"],  // Formed from greko "a Greek"; Grekujo is a synonym and Helenujo is also listed. Route by resemblance to the neighbouring forms (oc(Grècia)); no etymology of its own.
     fo: ["Grikkaland", "ˈkɹɪhkalant"],  // Literally "Greek land", from grikki "a Greek", from Latin Graecus.
     lad: ["Gresia", "ˈɡresja"],  // Gresia is the title of the Ladino Wikipedia article on Greece. Route by resemblance to the neighbouring forms (tl(Gresya) pt(Grécia)); no etymology of its own.
-    mi: ["Kirihi", "kiɾihi"],  // Marked as a loanword by Te Aka Māori Dictionary, which quotes it from a 1906 newspaper.
+    mi: ["Kirihi", "kiɾihi"],  // Marked as a loanword by Te Aka Māori Dictionary, which quotes it from a 1906 newspaper. Route by resemblance to the neighbouring forms (fj(Kirisi) kxc(Kirikki)); no etymology of its own.
     pon: ["Krihs", "kriːs"],  // Borrowed from English Greece.
     se: ["Greika", "ˈkrejːka"],  // Greika is the Northern Sámi name of the country; no source found giving its etymology. Route by resemblance to the neighbouring forms (fi(Kreikka)); no etymology of its own.
     haw: ["Helene", "helene"],  // Borrowed from Greek Ἕλλην "a Greek"; it also means a Greek person.

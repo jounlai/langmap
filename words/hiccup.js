@@ -186,7 +186,7 @@ WORDS.hiccup = {
     sid: "imitative",
     brh: "unknown",
     lt: "unknown",
-    ban: "unknown",
+    ban: "imitative",
     bjn: "unknown",
     bs: "unknown",
     zza: "unknown",
@@ -209,22 +209,22 @@ WORDS.hiccup = {
     mas: "unknown",
     ach: "unknown",
     srr: "unknown",
-    li: "unknown",
+    li: "imitative",
     cy: "imitative",
     yi: "unknown",
-    nn: "unknown",
+    nn: "imitative",
     os: "unknown",
     kek: "other",
     new: "unknown",
     tll: "unknown",
     tzh: "unknown",
     cbk: "unknown",
-    kea: "unknown",
+    kea: "plain",
     tet: "unknown",
-    dtp: "unknown",
+    dtp: "plain",
     oc: "plain",
     sm: "unknown",
-    fy: "unknown",
+    fy: "imitative",
     wa: "unknown",
     xmf: "unknown",
     mt: "unknown",
@@ -376,7 +376,7 @@ WORDS.hiccup = {
     sid: ["heqqo", "hekʼːo"],  // Of onomatopoeic origin; cognate with Kambaata hiqqe and Oromo hirqinfuu.
     brh: ["ہکنگ", "hikːinɡ"],  // The verb 'to hiccup' (Bray: hikking); Wiktionary gives it either as inherited Dravidian or as a loan from Indo-Aryan, compare Sanskrit hikkā.
     lt: ["žagsulys", "ʒɐksʊˈlʲiːs"],  // Žagsėjimas, the verbal noun of žagsėti 'to hiccup', is a synonym.
-    ban: ["cekutan", "tʃekutan"],  // Balinese cekutan corresponds to Indonesian cegukan.
+    ban: ["cekutan", "tʃekutan"],  // Balinese cekutan corresponds to Indonesian cegukan. Route by resemblance to the neighbouring forms (id(cegukan)); no etymology of its own.
     bjn: ["mancigu", "mantʃiɡu"],  // The verb 'to hiccup', formed with the verb prefix man- on cigu, which the dictionary glosses with Indonesian ceguk.
     bs: ["štucanje", "ˈʃtutsaːɲɛ"],  // The verbal noun of štucati 'to hiccup'.
     zza: ["zıqık", "zɨˈqɨk"],  // Regional synonyms are zıhrık, zınıkı and hiskık, and to hiccup is zıqık vero amayayış.
@@ -399,22 +399,22 @@ WORDS.hiccup = {
     mas: ["ayiog", "ajioɡ"],  // Strictly the verb 'to hiccup' (eyiogíto ɛnkɛráí 'the child is hiccupping'); the noun nkɨnyɨgata is recorded only for northern Maa.
     ach: ["gik", "ɡik"],  // The Acholi noun for a hiccup; the dictionary also lists ogik and gek as variants.
     srr: ["lukiy", "lukij"],  // Merrill derives it from a Proto-Fula–Sereer *lakiy 'hiccough', with Fula likkiya 'to hiccup' as its cognate; lukuy is a variant.
-    li: ["hik", "hɪk"],  // The same word as Dutch hik; the verb is hikke.
+    li: ["hik", "hɪk"],  // The same word as Dutch hik; the verb is hikke. Route by resemblance to the neighbouring forms (nl(hik) br(hik) af(hik) pap(hik)); no etymology of its own.
     cy: ["ig", "iːɡ"],  // An onomatopoeic word; Welsh says Mae'r ig arna i, 'the hiccup is on me', and rhic is a synonym.
     yi: ["שלוקערץ", "ˈʃlʊkərts"],  // Related to the verb שלוקערצן 'to hiccup'; Wiktionary compares German Schluckauf but leaves the ending unexplained.
-    nn: ["hikke", "ˈhɪkːə"],  // A masculine noun in Nynorsk (ha hikke 'to have the hiccups'), the same word as the verb hikke 'to hiccup'.
+    nn: ["hikke", "ˈhɪkːə"],  // A masculine noun in Nynorsk (ha hikke 'to have the hiccups'), the same word as the verb hikke 'to hiccup'. Route by resemblance to the neighbouring forms (no(hikke) nl(hik) sv(hicka) fi(hikka)); no etymology of its own.
     os: ["хӕкъуырцц", "xækʷʼɨrtsː"],  // Хӕкъуырцц кӕнын 'to do a hiccup' is the verb; the noun also means a broken, jerky sound.
     kek: ["chuqʼubʼ", "tʃuqʼuɓ"],  // Built on a root meaning 'shake'; kʼehok chuqʼubʼ is 'to have the hiccups', and the verb chuqʼubʼak covers both hiccupping and belching.
     new: ["हिकु", "hiku"],  // हिकु वये is 'to have the hiccups'.
     tll: ["shikusiku", "ʃikusiku"],  // Plural tusikusiku; the verb sikuma means 'to have hiccoughs'.
     tzh: ["jukʼubajel", "hukʼuɓahel"],  // The verbal noun of jukʼubaj 'to have the hiccups' (Cancuc, Petalcingo, Tenejapa); Bachajón says xuhkʼubajel.
     cbk: ["siru", "siˈɾuʔ"],  // Both the noun and the verb 'to hiccup' in Zamboanga Chavacano, a word of local Philippine origin; Caviteño and Ternateño say sinuk.
-    kea: ["solusu", "soˈlusu"],  // Compare Portuguese soluço; salusu and siki-siki are also given for the hiccup.
+    kea: ["solusu", "soˈlusu"],  // Compare Portuguese soluço; salusu and siki-siki are also given for the hiccup. Route by resemblance to the neighbouring forms (pt(soluço)); no etymology of its own.
     tet: ["motok", "ˈmotok"],  // The Dili Tetun dictionary also lists arota, from Portuguese arrotar, but its main sense is "to burp".
-    dtp: ["soduʼ", "soduʔ"],  // Listed as the root *sodu', glossed "hiccup" (Malay sedu); the verb soduon is "to have hiccups", as in Soduon isido "He has hiccups".
+    dtp: ["soduʼ", "soduʔ"],  // Listed as the root *sodu', glossed "hiccup" (Malay sedu); the verb soduon is "to have hiccups", as in Soduon isido "He has hiccups". Route by resemblance to the neighbouring forms (ms(sedu)); no etymology of its own.
     oc: ["sanglòt", "saŋˈɡlɔt"],  // From Vulgar Latin *singluttus, from Latin singultus, the source of Italian singhiozzo; it also means "sob".
     sm: ["lona", "lona"],  // Milner's Samoan dictionary glosses lona (loga in colloquial speech) as "hiccup"; the older Pratt dictionary gives toʻomaunu.
-    fy: ["hik", "hɪk"],  // The same word as Dutch hik; the Wurdboek fan de Fryske taal also lists the rhyming hikkebik, and hikje "to hiccup".
+    fy: ["hik", "hɪk"],  // The same word as Dutch hik; the Wurdboek fan de Fryske taal also lists the rhyming hikkebik, and hikje "to hiccup". Route by resemblance to the neighbouring forms (nl(hik) br(hik) af(hik) pap(hik)); no etymology of its own.
     wa: ["licote", "liˈkɔt"],  // The Walloon Wiktionary defines licote as the hikete, the jolt of the diaphragm, and also the noise it makes; hikete is the other common word, as in hicter "to have the hikete".
     xmf: ["შიკინი", "ʃikʼini"],  // Kajaia's Megrelian–Georgian dictionary glosses it as Georgian სლოკინი "hiccup", with the example "drink water and the hiccup will leave you".
     mt: ["sulluzzu", "sulˈluttsu"],  // Compare Sicilian sugghiuzzu; a Maltese folk charm against the hiccup begins "Solluzzu buzzu", "O nasty hiccup".

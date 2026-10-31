@@ -459,8 +459,8 @@ WORDS.bear = {
     hr: "taboo",
     bs: "taboo",
     sr: "taboo",
-    bg: "unknown",
-    mk: "unknown",
+    bg: "taboo",
+    mk: "taboo",
     prg: "taboo",
     lt: "taboo",
     lv: "taboo",
@@ -1389,9 +1389,8 @@ WORDS.bear = {
     hr: ["medvjed", "mědʋjed"], // was ["medvjed", "ˈmɛdʋjɛd"] (vi dialect rules 2026-10-06)
     bs: ["medvjed", "ˈmɛdʋjɛd"],
     sr: ["медвед", "mědʋed"], // was ["медвед", "ˈmɛdʋɛd"] (vi dialect rules 2026-10-06)
-    bg: ["мечка", "ˈmɛtʃkɐ"], // was ["мечка", "ˈmɛtʃka"] (vi dialect rules 2026-10-06)
-    mk: ["мечка", "ˈmɛtʃka"],
-    // Baltic: "the shaggy one".
+    bg: ["мечка", "ˈmɛtʃkɐ"],  // was ["мечка", "ˈmɛtʃka"] (vi dialect rules 2026-10-06) Route by resemblance to the neighbouring forms (sgs(meška)); no etymology of its own.
+    mk: ["мечка", "ˈmɛtʃka"],  // Baltic: "the shaggy one". Route by resemblance to the neighbouring forms (sgs(meška)); no etymology of its own.
     prg: ["clokis", "ˈklokis"],
     lt: ["lokys", "loːˈkʲiːs"],
     lv: ["lācis", "ˈlaːtsis"],

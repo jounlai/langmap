@@ -209,7 +209,7 @@ WORDS.dragonfly = {
     shn: "unknown",
     luo: "unknown",
     war: "unknown",
-    mui: "unknown",
+    mui: "plain",
     zza: "unknown",
     dag: "unknown",
     tsg: "unknown",
@@ -219,7 +219,7 @@ WORDS.dragonfly = {
     ngl: "unknown",
     mni: "unknown",
     egl: "other",
-    yi: "unknown",
+    yi: "plain",
     eu: "other",
     cbk: "plain",
     khb: "unknown",
@@ -404,7 +404,7 @@ WORDS.dragonfly = {
     shn: ["မႅင်းမီႈ", "mɛŋ˥ miː˧˨"],  // Built on မႅင်း 'insect'; Cushing's 1914 dictionary glosses it 'a devil's needle, dragon fly' and notes that in some areas it also means 'butterfly'.
     luo: ["kataporo", "kataporo"],  // Kokwaro and Johns' Luo-English Biological Dictionary uses kataporo for both dragonflies and damselflies.
     war: ["tambuburay", "tambuˈbuɾaj"],  // Rajki's Concise Waray Dictionary glosses tambuburay as 'dragonfly' and marks the stress tambubúray; the Waray Wikipedia also gives tarimbuburay, talimbuburay and alidongdong.
-    mui: ["kinjeng", "kindʒəŋ"],  // Glossed as Indonesian capung 'dragonfly' in the Kamus Sederhana Bahasa Palembang; the same word as Javanese kinjeng.
+    mui: ["kinjeng", "kindʒəŋ"],  // Glossed as Indonesian capung 'dragonfly' in the Kamus Sederhana Bahasa Palembang; the same word as Javanese kinjeng. Route by resemblance to the neighbouring forms (jv(kinjeng)); no etymology of its own.
     zza: ["teyarek", "tɛjaˈɾɛk"],  // Hayıg and Werner's Zazaki-Turkish dictionary, covering the southern Çermik–Siverek dialects, glosses teyarek as Turkish yusufçuk 'dragonfly'; it stands next to teyare 'airplane' in the same dictionary.
     dag: ["kulilia", "kulilia"],  // Tony Naden's Dagbani dictionary glosses it 'a dragonfly' (plural kulilii or kulilihi) and also lists saapaɣa; the Dagbani Wikipedia uses kulilia as its article title.
     tsg: ["bānag", "baːnaɡ"],  // The SIL Tausug dictionary glosses bānag simply as 'a dragonfly'.
@@ -414,7 +414,7 @@ WORDS.dragonfly = {
     ngl: ["mwanteri", "mwanteɾi"],  // The dictionary gives mwitanti as an equal synonym; no source traces either word.
     mni: ["ꯆꯔꯥꯡ", "tʃəraŋ"],  // Romanised carāng; Sharma's dictionary glosses it 'dragonfly', and no source traces the word.
     egl: ["frè", "frɛː"],  // The Bolognese word for a friar or monk, from Latin frater 'brother', also names the dragonfly.
-    yi: ["ליבעלע", "ˈlibələ"],  // Wiktionary glosses it 'dragonfly'; Yiddish Wikipedia calls the order ליבעלעס, and באַבעלע (from Ukrainian бабка) is also recorded.
+    yi: ["ליבעלע", "ˈlibələ"],  // Wiktionary glosses it 'dragonfly'; Yiddish Wikipedia calls the order ליבעלעס, and באַבעלע (from Ukrainian бабка) is also recorded. Route by resemblance to the neighbouring forms (de(Libelle) nl(libel) eo(libelo) ro(libelulă)); no etymology of its own.
     eu: ["burruntzi", "buruntsi"],  // Also the word for a roasting spit or skewer; sorgin-orratz 'witch's needle' and mariorratz are other names.
     cbk: ["apan", "aˈpan"],  // Borrowed from Hiligaynon apán 'adult locust'; Wiktionary marks it Cotabateño and Zamboangueño, with tutubi in Caviteño and Ternateño.
     khb: ["ᦀᦲᦰᦢᦲᧉ", "ʔi biː˩˧"],  // The animal prefix ʔi- plus bii, tone 3; a variant ᦀᦲᦰ ᦥᦲ is also listed.

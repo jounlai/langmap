@@ -97,10 +97,10 @@ WORDS.bat = {
     ko_jeju: "unknown",
     zh: "plain",
     yue: "plain",
-    nan: "unknown",
+    nan: "plain",
     zh_tw: "plain",
     wuu: "plain",
-    hak_cn: "unknown",
+    hak_cn: "plain",
     vi: "unknown",
     vi_c: "unknown",
     vi_s: "unknown",
@@ -247,8 +247,8 @@ WORDS.bat = {
     gan: "mouse",
     mnp: "plain",
     nan_te: "unknown",
-    nan_pn: "unknown",
-    nan_qz: "unknown",
+    nan_pn: "plain",
+    nan_qz: "plain",
     nan_hai: "mouse",
     yue_ts: "mouse",
     yue_dg: "mouse",
@@ -483,8 +483,8 @@ WORDS.bat = {
     orh: "plain",
     jup: "plain",
     slr: "plain",
-    nan_zz: "unknown",
-    nan_xm: "unknown",
+    nan_zz: "plain",
+    nan_xm: "plain",
     tob: "unknown",
     moc: "unknown",
     cag: "unknown",
@@ -645,10 +645,10 @@ WORDS.bat = {
     ko_jeju: ["ᄃᆞ람지", "tɒɾamdʑi"],  // Possibly 'rising rat' (돋다 + 쥐), and similar to Korean 다람쥐 'chipmunk'; the etymology is only tentative.
     zh: ["蝙蝠", "pjɛn˥ fu˧˥"],  // An expanded form of Old Chinese 蝠 'bat', a Sino-Tibetan root.
     yue: ["蝙蝠", "pʰiːn˥ fʊk̚˥"],  // An expanded form of Old Chinese 蝠 'bat', a Sino-Tibetan root.
-    nan: ["密婆", "bit˦ po˨˦"],  // The colloquial Taiwanese word, related to Hakka 蝠婆; the more formal 蝙蝠 pian-hok also exists.
+    nan: ["密婆", "bit˦ po˨˦"],  // The colloquial Taiwanese word, related to Hakka 蝠婆; the more formal 蝙蝠 pian-hok also exists. Route by resemblance to the neighbouring forms (hak_hl(蝠婆)); no etymology of its own.
     zh_tw: ["蝙蝠", "pjɛn˥ fu˧˥"],  // An expanded form of Old Chinese 蝠 'bat', a Sino-Tibetan root.
     wuu: ["蝙蝠", "pi˥ foʔ˨˩"],  // The same word as Mandarin 蝙蝠, an expanded form of Old Chinese 蝠 'bat'.
-    hak_cn: ["蝠婆仔", "pʰɛt˥ pʰo˩˩ e˧˩"],  // Built on 蝠 'bat' with 婆 'old woman' and the diminutive 仔; the same word appears in the Hakka Bible.
+    hak_cn: ["蝠婆仔", "pʰɛt˥ pʰo˩˩ e˧˩"],  // Built on 蝠 'bat' with 婆 'old woman' and the diminutive 仔; the same word appears in the Hakka Bible. Route by resemblance to the neighbouring forms (hak_tw(蝠婆仔)); no etymology of its own.
     vi: ["dơi", "zəːj˧"],  // The everyday word, usually said as con dơi with the animal classifier.
     vi_c: ["dơi", "jəːj˥"],  // The same word as in the rest of Vietnam, with Central j- for d-.
     vi_s: ["dơi", "jəːj˧"],  // The same word as in the rest of Vietnam, with Southern j- for d-.
@@ -795,8 +795,8 @@ WORDS.bat = {
     gan: ["檐老鼠", "iɛn˦˥ lau ɕy"],  // Literally 'eaves mouse': 檐 'eaves' plus 老鼠 'mouse, rat'; Nanchang also uses 蝙蝠.
     mnp: ["比婆", "pi˨˩ pɔ˨˩"],  // The Jian'ou word, related to Hokkien 密婆 and Hakka 蝠婆; the characters may only spell the sound. Route by resemblance to the neighbouring forms (wuu(蝙蝠)); no etymology of its own.
     nan_te: ["密婆", "bek˦ po˥˥"],  // The Teochew colloquial word, related to Hakka 蝠婆 'bat'; the characters may only spell the sound.
-    nan_pn: ["密婆", "bit˦ po˨˧"],  // The Hokkien colloquial word, related to Hakka 蝠婆 'bat'; the characters may only spell the sound.
-    nan_qz: ["日婆", "lit˨˦ po˨˦"],  // The Quanzhou word, a variant of Hokkien 密婆 'bat'; Wiktionary gives no etymology, so 日 'sun' is not claimed as its meaning.
+    nan_pn: ["密婆", "bit˦ po˨˧"],  // The Hokkien colloquial word, related to Hakka 蝠婆 'bat'; the characters may only spell the sound. Route by resemblance to the neighbouring forms (hak_hl(蝠婆)); no etymology of its own.
+    nan_qz: ["日婆", "lit˨˦ po˨˦"],  // The Quanzhou word, a variant of Hokkien 密婆 'bat'; Wiktionary gives no etymology, so 日 'sun' is not claimed as its meaning. Route by resemblance to the neighbouring forms (hak_hl(蝠婆)); no etymology of its own.
     nan_hai: ["飞鼠", "ɓue˨˧ siu˨˩˧"],  // Literally 'flying rat': 飞 'fly' plus 鼠 'rat, mouse'.
     yue_ts: ["飞鼠", "fei˧˧ si˥˥"],  // Literally 'flying rat': 飞 'fly' plus 鼠 'rat, mouse'.
     yue_dg: ["蝠鼠", "fok˥ ʃy˧˥"],  // Literally 'bat-rat': the old word 蝠 'bat' plus 鼠 'rat, mouse'.
@@ -1031,8 +1031,8 @@ WORDS.bat = {
     orh: ["nəməkəldun", "nəməkəldun"],  // An Oroqen word of its own for the bat, which WOLD classes as unanalyzable and not borrowed.
     jup: ["cɨʔbʼɨ́h", "cɨʔbʼɨ́h"],  // A Hup word of its own for the bat, which WOLD traces back to the ancestor of Hup, Yuhup and Dâw.
     slr: ["yarasan", "jiɑrɑsɑn"],  // Inherited from the same Oghuz word as Turkish yarasa.
-    nan_zz: ["密婆", "bit̚˩˨˩ po˩˧"],  // The Zhangzhou Hokkien word for the bat, the same word as Taiwanese bi̍t-pô.
-    nan_xm: ["密婆", "bit̚˦ po˨˦"],  // The Xiamen Hokkien word for the bat, the first of three that Wiktionary lists for Xiamen (with 日婆 li̍t-pô and 夜婆 iā-pô).
+    nan_zz: ["密婆", "bit̚˩˨˩ po˩˧"],  // The Zhangzhou Hokkien word for the bat, the same word as Taiwanese bi̍t-pô. Route by resemblance to the neighbouring forms (hak_hl(蝠婆)); no etymology of its own.
+    nan_xm: ["密婆", "bit̚˦ po˨˦"],  // The Xiamen Hokkien word for the bat, the first of three that Wiktionary lists for Xiamen (with 日婆 li̍t-pô and 夜婆 iā-pô). Route by resemblance to the neighbouring forms (hak_hl(蝠婆)); no etymology of its own.
     tob: ["mikai", "mikai"],  // The Toba (Qom) word for the bat.
     moc: ["naʔgaʁanaʁa", "naʔɡaʁanaʁa"],  // The Mocoví word for the bat, which IDS segments into several morphemes.
     cag: ["ʃejɔ", "ʃejɔ"],  // The Nivaclé word for the bat, the one the Nivaclé Bible uses (IDS also lists fakliʔs).

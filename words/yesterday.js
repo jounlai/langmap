@@ -204,7 +204,7 @@ WORDS.yesterday = {
     mt: "distinct",
     ig: "distinct",
     ha: "distinct",
-    wo: "unknown",
+    wo: "distinct",
     so: "distinct",
     om: "distinct",
     rw: "same",
@@ -278,7 +278,7 @@ WORDS.yesterday = {
     es_an: "distinct",
     lad: "distinct",
     rm: "distinct",
-    iu: "unknown",
+    iu: "distinct",
     la: "distinct",
     el_grc: "distinct",
     el_kath: "distinct",
@@ -306,7 +306,7 @@ WORDS.yesterday = {
     ak: "distinct",
     bm: "distinct",
     hil: "distinct",
-    bal: "unknown",
+    bal: "distinct",
     car: "unknown",
     chr: "distinct",
     oj: "distinct",
@@ -319,8 +319,8 @@ WORDS.yesterday = {
     csb: "distinct",
     fur: "distinct",
     ast: "distinct",
-    an: "unknown",
-    ext: "unknown",
+    an: "distinct",
+    ext: "distinct",
     lmo: "distinct",
     crh: "distinct",
     tt: "distinct",
@@ -350,7 +350,7 @@ WORDS.yesterday = {
     ee: "same",
     vep: "distinct",
     liv: "distinct",
-    vot: "unknown",
+    vot: "distinct",
     av: "distinct",
     lez: "distinct",
     ddo: "distinct",
@@ -358,11 +358,11 @@ WORDS.yesterday = {
     ady: "distinct",
     war: "distinct",
     syl: "same",
-    bi: "unknown",
-    esu: "unknown",
+    bi: "distinct",
+    esu: "distinct",
     hr: "distinct",
     mfe: "distinct",
-    rcf: "unknown",
+    rcf: "distinct",
     io: "distinct",
     hy_grab: "distinct",
     fro: "distinct",
@@ -377,7 +377,7 @@ WORDS.yesterday = {
     och: "distinct",
     tue: "distinct",
     emp: "distinct",
-    mnk: "unknown",
+    mnk: "distinct",
     kek: "distinct",
     tpn: "distinct",
     ani: "distinct",
@@ -407,7 +407,7 @@ WORDS.yesterday = {
     de_lut: "distinct",
     gmh: "distinct",
     osp: "distinct",
-    it_dan: "unknown",
+    it_dan: "distinct",
     aln: "unknown",
     gu: "same",
     shi: "distinct",
@@ -543,7 +543,7 @@ WORDS.yesterday = {
     nhe: "distinct",
     pdt: "distinct",
     kqn: "same",
-    mev: "unknown",
+    mev: "distinct",
     pis: "distinct",
     dv: "distinct",
     nzi: "distinct",
@@ -568,7 +568,7 @@ WORDS.yesterday = {
     ngu: "distinct",
     hui: "distinct",
     ho: "distinct",
-    kea: "unknown",
+    kea: "distinct",
     es_cr: "distinct",
     es_hn: "distinct",
     es_ni: "distinct",
@@ -669,7 +669,7 @@ WORDS.yesterday = {
     agu: "distinct",
     apw: "distinct",
     mic: "distinct",
-    bzh: "unknown",
+    bzh: "distinct",
     crs: "distinct",
     cr: "distinct",
     meu: "distinct",
@@ -965,7 +965,7 @@ WORDS.yesterday = {
     mt: ["lbieraħ", "lˈbɪːraħ"],  // tomorrow: għada.
     ig: ["ụnyaahụ", "ʊɲaːhʊ"],  // tomorrow: echi.
     ha: ["jiya", "dʒija"],  // tomorrow: gobe.
-    wo: ["démb", "demb"],  // Tomorrow word not sourced.
+    wo: ["démb", "demb"],  // Tomorrow is ëllëg.
     so: ["shalay", "ʃalaj"],  // tomorrow: berri; shalay is distinct from xalay 'last night'.
     om: ["kaleessa", "kaleːsːa"],  // tomorrow: boor (boru).
     rw: ["ejo", "eʒo"],  // tomorrow: ejo; one word for both days, the tense of the verb tells which is meant.
@@ -1039,7 +1039,7 @@ WORDS.yesterday = {
     es_an: ["ayer", "aˈʝeɾ"],  // tomorrow: mañana
     lad: ["ayer", "aˈjer"],  // tomorrow: amanyana.
     rm: ["ier", "jer"],  // tomorrow: damaun; the Engadine idioms Puter and Vallader say her.
-    iu: ["ᐃᑉᐸᒃᓴᖅ", "ipːaksaq"],  // Romanized ippaksaq; cognate with Greenlandic ippassaq.
+    iu: ["ᐃᑉᐸᒃᓴᖅ", "ipːaksaq"],  // Romanized ippaksaq; cognate with Greenlandic ippassaq. Tomorrow is ᖃᐅᒃᐸᑦ qaukpat.
     la: ["heri", "ˈheriː"],  // tomorrow: crās; the final vowel of herī is long or short in verse.
     el_grc: ["χθές", "kʰtʰés"],  // tomorrow: αὔριον; χθές goes back to Proto-Indo-European *dʰǵʰyés.
     el_kath: ["χθές", "xθes"],  // tomorrow: αὔριον; χθές is the learned form, demotic speech says χτες.
@@ -1067,7 +1067,7 @@ WORDS.yesterday = {
     ak: ["ɛnnora", "ɛnːora"],  // tomorrow: ɔkyena.
     bm: ["kunun", "kunũ"],  // tomorrow: sini; kunun 'yesterday' differs only in tone from kunun 'to wake up'.
     hil: ["kahapon", "kaˈhapon"],  // tomorrow: buas; Motus (1971) writes the word kahápun.
-    bal: ["زی", "ziː"],  // Romanized zí.
+    bal: ["زی", "ziː"],  // Romanized zí. Tomorrow is باندا bāndā.
     car: ["koinaro", "kojɲaɾo"],  // Synchronically it looks derived from koine 'in the afternoon'.
     chr: ["ᏒᎯ", "səhi"],  // tomorrow: ᏑᎾᎴᎢ; the phrase ᏒᎯ ᏑᎾᎴᎢ means 'yesterday morning'.
     oj: ["bijiinaago", "bidʒiːnaːɡo"],  // tomorrow: waabang; waabang is literally a form of the verb waaban 'it is dawn'.
@@ -1080,8 +1080,8 @@ WORDS.yesterday = {
     csb: ["wczora", "ˈftʃɔra"],  // tomorrow: jutro (also witro).
     fur: ["îr", "iːr"],  // tomorrow: doman; îr is from Latin herī.
     ast: ["ayeri", "aˈʝeɾi"],  // tomorrow: mañana, which also means 'morning'; ayeri is from Latin herī.
-    an: ["ayer", "aˈʝeɾ"],  // Also spelled ahier; from Latin herī.
-    ext: ["ayel", "aˈʝel"],  // IPA read from the Spanish-style spelling.
+    an: ["ayer", "aˈʝeɾ"],  // Also spelled ahier; from Latin herī. Tomorrow is maitín.
+    ext: ["ayel", "aˈʝel"],  // IPA read from the Spanish-style spelling. Tomorrow is mañana.
     lmo: ["jer", "jeːɾ"],  // tomorrow: doman; jer is from Latin herī.
     crh: ["dün", "dyn"],  // tomorrow: yarın; the synonym tünevin is also used.
     tt: ["кичә", "kiˈtɕæ"],  // tomorrow: иртәгә; кичә comes from Proto-Turkic *kēče 'evening', and иртәгә from a word for 'morning'.
@@ -1111,7 +1111,7 @@ WORDS.yesterday = {
     ee: ["etsɔ", "etsɔ"],  // tomorrow: etsɔ — the same word, with tense or context telling the two apart.
     vep: ["eglai", "ˈeɡlai"],  // tomorrow: homen; eglai is cognate with Finnish eilen.
     liv: ["e’ggiļ", "ˈɛˀɡːiʎ"],  // tomorrow: mūpō (NorthEuraLex); e’ggiļ goes back to Proto-Finnic *eklen, like Finnish eilen.
-    vot: ["egle", "ˈeɡle"],  // From Proto-Finnic *eklen, like Finnish eilen.
+    vot: ["egle", "ˈeɡle"],  // From Proto-Finnic *eklen, like Finnish eilen. Tomorrow is oomõn.
     av: ["сон", "son"],  // tomorrow: метер; сон 'yesterday' is a homonym of сон 'year'.
     lez: ["накь", "naqʼ"],  // tomorrow: пака.
     ddo: ["хӏулъ", "ħuɬ"],  // tomorrow: гъуде.
@@ -1119,11 +1119,11 @@ WORDS.yesterday = {
     ady: ["тыгъуас", "təˈʁʷaːs"],  // tomorrow: неущы.
     war: ["kakulop", "kakuˈlop"],  // tomorrow: buwas; kakulop is ka- + kulop.
     syl: ["কাইল", "xail"],  // tomorrow: কাইল — the same word, told apart by tense and context, as with Hindi कल.
-    bi: ["yestedei", "jestedei"],  // From English yesterday; tomorrow is probably tumora, which the spelling list has but without a gloss.
-    esu: ["akwaugaq", "akxʷauɣaq"],  // The tomorrow word was not confirmed.
+    bi: ["yestedei", "jestedei"],  // From English yesterday. Tomorrow is tumora.
+    esu: ["akwaugaq", "akxʷauɣaq"],  // Tomorrow is unuaqu.
     hr: ["jučer", "jǔtʃeːr"],  // tomorrow: sutra; juče is the Serbian-leaning variant.
     mfe: ["yer", "jɛʁ"],  // tomorrow: demin; yer is from French hier.
-    rcf: ["yèr", "jɛr"],  // from French hier.
+    rcf: ["yèr", "jɛr"],  // from French hier. Tomorrow is demin.
     io: ["hiere", "hiˈere"],  // tomorrow: morge, taken from German morgen.
     hy_grab: ["երէկ", "eɾek"],  // tomorrow: վաղիւ.
     fro: ["ier", "jɛr"],  // tomorrow: demain; ier is from Latin herī.
@@ -1138,7 +1138,7 @@ WORDS.yesterday = {
     och: ["昨", "*[dz]ˤak"],  // tomorrow: 明 *mraŋ, literally 'bright'; 昨 is related to 昔 'the past'.
     tue: ["yãbĩka", "jãˈbĩka"],  // tomorrow: yãbĩgã; both are built on yãbĩ 'night' with different suffixes.
     emp: ["nuena", "nuena"],  // tomorrow: nu; the yesterday word adds -ena to it.
-    mnk: ["kunuŋ", "kunuŋ"],
+    mnk: ["kunuŋ", "kunuŋ"],  // Tomorrow is saama.
     kek: ["ewer", "ewer"],  // tomorrow: hulaj.
     tpn: ["kuesé", "kʷeˈse"],  // tomorrow: oîrã; kuesé also appears as kueîsé.
     ani: ["суни", "suni"],  // tomorrow: шела.
@@ -1168,7 +1168,7 @@ WORDS.yesterday = {
     de_lut: ["gestern", "ˈɡɛstərn"],  // tomorrow: morgen; Luther also printed the northern variant gistern.
     gmh: ["gester", "ˈɡɛstər"],  // tomorrow: morgene; gestern is also found.
     osp: ["ayer", "aˈjer"],  // tomorrow: cras, from Latin crās; the older form was yer, from Latin herī.
-    it_dan: ["ieri", "ˈjɛri"],  // Dante uses the elided form ier in Inferno XXI.
+    it_dan: ["ieri", "ˈjɛri"],  // Dante uses the elided form ier in Inferno XXI. Tomorrow is domane.
     aln: ["dje", "dje"],
     gu: ["કાલ", "kaːl"],  // tomorrow: કાલ; one word for both days, made explicit as ગઈ કાલ 'gone kaal' and આવતી કાલ 'coming kaal'.
     shi: ["ⵉⴹⴳⴰⵎ", "idˤɡam"],  // tomorrow: azkka.
@@ -1304,7 +1304,7 @@ WORDS.yesterday = {
     nhe: ["yalhuaya", "jalwaja"],  // tomorrow: mostla
     pdt: ["jistren", "ˈjistrən"],  // tomorrow: morjen
     kqn: ["kesha", "keʃa"],  // Kesha means both 'yesterday' (Hebrews 13:8, John 4:52) and 'tomorrow' (Matthew 6:34, Luke 13:32) in the Kaonde New Testament.
-    mev: ["yalá", "jalá"],  // Tomorrow word not established from the same Bible.
+    mev: ["yalá", "jalá"],  // Tomorrow word not established from the same Bible. Tomorrow is tòò.
     pis: ["yestade", "jestade"],  // tomorrow: tumoro; from English yesterday.
     dv: ["އިއްޔެ", "ijje"],  // tomorrow: މާދަމާ; from Sanskrit hyas, cognate with Sinhala ඊයේ.
     nzi: ["anoma", "anoma"],  // tomorrow: ɛhyema
@@ -1329,7 +1329,7 @@ WORDS.yesterday = {
     ngu: ["yalohua", "jalowa"],  // tomorrow: mostla
     hui: ["abe", "abe"],  // tomorrow: yawi
     ho: ["varani", "varani"],  // tomorrow: kerukeru
-    kea: ["ónti", "ˈɔnti"],  // From Portuguese ontem.
+    kea: ["ónti", "ˈɔnti"],  // From Portuguese ontem. Tomorrow is manhan.
     es_cr: ["ayer", "aˈʝeɾ"],  // tomorrow: mañana; ayer is from Latin (ab) herī, the general Spanish word.
     es_hn: ["ayer", "aˈʝeɾ"],  // tomorrow: mañana; ayer is from Latin (ab) herī, the general Spanish word.
     es_ni: ["ayer", "aˈʝeɾ"],  // tomorrow: mañana; ayer is from Latin (ab) herī, the general Spanish word.
@@ -1430,7 +1430,7 @@ WORDS.yesterday = {
     agu: ["ewt", "ewt"],  // tomorrow: ca'p; ewt is yesterday in John 4:52 and Acts 7:28 of the Awakateko Bible.
     apw: ["adąądáʼ", "adãːdáʔ"],  // tomorrow: iskąą; adąądáʼ is yesterday in Hebrews 13:8 and John 4:52 of the Western Apache New Testament, and Acts 7:28 has adąąnáʼ.
     mic: ["ulagu", "ulaɡu"],  // tomorrow: sapo'nug; ulagu (Listuguj spelling) is yesterday in Hebrews 13:8, John 4:52 and Acts 7:28 of the Mi'kmaq New Testament.
-    bzh: ["veseveng", "βətʃəβəŋ"],  // veseveng is yesterday in Hebrews 13:8, John 4:52 and Acts 7:28 of the Mapos Buang New Testament.
+    bzh: ["veseveng", "βətʃəβəŋ"],  // veseveng is yesterday in Hebrews 13:8, John 4:52 and Acts 7:28 of the Mapos Buang New Testament. Tomorrow is neheng.
     crs: ["yer", "jer"],  // tomorrow: demen; from French hier, used for yesterday in Hebrews 13:8, John 4:52 and Acts 7:28 of the Seychellois Creole Bible.
     cr: ["ᐅᑖᑯᓰᕽ", "otaːkosiːhk"],  // tomorrow: ᐚᐸᐦᑭ; Wolvengrey's Cree: Words also glosses otâkosîhk "the previous evening", and the Plains Cree Bible uses it for yesterday in Hebrews 13:8, John 4:52 and Acts 7:28.
     meu: ["varani", "varani"],  // tomorrow: kerukeru; varani is yesterday in Hebrews 13:8, John 4:52 and Acts 7:28 of the Motu Bible.

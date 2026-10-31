@@ -364,7 +364,7 @@ WORDS.olderbrother = {
     ay: "plain",
     tyz: "age",
     pcc: "age",
-    mnw: "unknown",
+    mnw: "age",
     ksw: "age",
     cv: "age",
     grt: "age",
@@ -560,23 +560,23 @@ WORDS.olderbrother = {
     hi: "age",
     ur: "unknown",
     pa: "unknown",
-    sw: "unknown",
-    pcm: "unknown",
+    sw: "plain",
+    pcm: "plain",
     bho: "age",
     ps: "age",
     mai: "age",
     awa: "unknown",
     or: "unknown",
-    om: "unknown",
+    om: "plain",
     sd: "age",
     ku: "age",
-    so: "unknown",
+    so: "plain",
     az: "unknown",
     azb: "unknown",
-    bar: "unknown",
+    bar: "plain",
     tn: "age",
     sr: "plain",
-    ht: "unknown",
+    ht: "plain",
     bal: "plain",
     dyu: "age",
     kr: "age",
@@ -608,8 +608,8 @@ WORDS.olderbrother = {
     max: "age",
     abs: "age",
     aa: "age",
-    mfa: "unknown",
-    tum: "unknown",
+    mfa: "age",
+    tum: "age",
     shn: "age",
     xog: "plain",
     dje: "unknown",
@@ -622,18 +622,18 @@ WORDS.olderbrother = {
     mzn: "unknown",
     sdh: "unknown",
     bej: "unknown",
-    sid: "unknown",
+    sid: "plain",
     luo: "unknown",
     brh: "unknown",
     iba: "age",
     mfe: "age",
-    sco: "unknown",
-    li: "unknown",
+    sco: "plain",
+    li: "plain",
     bqi: "unknown",
     nus: "unknown",
     mas: "plain",
     nym: "age",
-    tig: "unknown",
+    tig: "plain",
     en_my: "plain",
     es_ec: "plain",
     ar_lev: "plain",
@@ -651,7 +651,7 @@ WORDS.olderbrother = {
     yue_dg: "age",
     nia: "age",
     tly: "age",
-    fur: "unknown",
+    fur: "plain",
     rue: "unknown",
     mev: "age",
     kxc: "age",
@@ -660,29 +660,29 @@ WORDS.olderbrother = {
     bft: "age",
     rup: "plain",
     bto: "age",
-    xmf: "unknown",
+    xmf: "plain",
     zap: "unknown",
     asu: "unknown",
     adi: "age",
-    fy: "unknown",
-    oc: "unknown",
-    lij: "unknown",
-    szl: "unknown",
-    pdt: "unknown",
+    fy: "plain",
+    oc: "plain",
+    lij: "plain",
+    szl: "plain",
+    pdt: "plain",
     krc: "unknown",
     jmc: "unknown",
     ast: "plain",
     co: "plain",
     csb: "plain",
-    ab: "unknown",
+    ab: "plain",
     lzz: "unknown",
     frp: "unknown",
     byn: "unknown",
     cab: "age",
     mdr: "age",
     bzj: "unknown",
-    bi: "unknown",
-    hns: "unknown",
+    bi: "plain",
+    hns: "plain",
     kfx: "unknown",
     ssy: "unknown",
     enq: "unknown",
@@ -1229,7 +1229,7 @@ WORDS.olderbrother = {
     hi: ["भैया", "bʱəijaː"],  // Hindi भैया, in origin a diminutive of भाई 'brother', is an older brother and a term of address for any older man; a younger brother is छोटा भाई 'little brother'.
     ur: ["بھائی", "bʱaːiː"],  // Urdu بھائی is a brother of any age; an older brother is usually baṛā bhāī 'big brother', and the diminutive بھیا can also mean an elder brother.
     pa: ["ਭਰਾ", "pɾaː˩"],  // Punjabi ਭਰਾ is 'brother'; an older brother is vaḍḍā prā 'big brother' and a younger one choṭā prā, though ਵੀਰ is also used for an older brother.
-    sw: ["kaka", "ˈkaka"],  // Swahili kaka is 'brother'; an older brother is kaka mkubwa 'big brother'.
+    sw: ["kaka", "ˈkaka"],  // Swahili kaka is 'brother'; an older brother is kaka mkubwa 'big brother'. Wiktionary glosses it 'brother', with no age in the word.
     pcm: ["broda", "brɔda"],  // Nigerian Pidgin broda, from English brother, is a brother of any age.
     bho: ["भैया", "bʱəijaː"],  // In Bhojpuri the younger of two brothers calls the elder भैया or बड़का भाई 'big brother', while the elder calls the younger भाई.
     ps: ["لالا", "lɑlɑ"],  // Pashto لالا is an elder brother (also a title for a Hindu); a younger brother is kashar wror 'little brother', and wror is 'brother' in general.
@@ -1245,7 +1245,7 @@ WORDS.olderbrother = {
     bar: ["Bruada", "ˈbruɐdɐ"],  // Bavarian Bruada is 'brother', of any age.
     tn: ["mogolole", "moχolole"],  // Tswana kin terms split siblings of the same sex by age: mogolole is the older brother and nnake the younger one.
     sr: ["брат", "brât"],  // Serbian has no separate older-brother word: kinship studies give брат for both older and younger brothers, with stariji brat 'older brother' when it matters.
-    ht: ["frè", "frɛ"],  // Haitian Creole frè, from French frère, is 'brother'; a sister is sè.
+    ht: ["frè", "frɛ"],  // Haitian Creole frè, from French frère, is 'brother'; a sister is sè. Wiktionary glosses it 'brother', with no age in the word.
     bal: ["برات", "braːt"],  // Balochi has one word for brother whatever his age: ethnographies record برات (also brās) for both older and younger brothers.
     dyu: ["kɔrɔkɛ", "kɔrɔkɛ"],  // Manding kɔrɔkɛ is 'older male sibling', from kɔrɔ 'older family member' plus kɛ 'male'; a younger brother is dɔgɔkɛ.
     kr: ["yaa", "jaː"],  // Kanuri yàá is an older sibling, used for an older brother; a younger sibling is kə̀rámì and a brother in general yâànà.
@@ -1296,13 +1296,13 @@ WORDS.olderbrother = {
     brh: ["ایلم", "iːlum"],  // Brahui īlum, from Proto-Dravidian *eḷ- 'young, tender', is 'brother'; its diminutive īlumko means 'little brother'.
     iba: ["aka", "akaʔ"],  // Iban aka is an older brother; a younger sibling is adi.
     mfe: ["dada", "dada"],  // Mauritian Creole dada, borrowed from Marathi dādā, is an older brother; the general word for brother is frer.
-    sco: ["brither", "ˈbrɪðər"],  // Scots brither, from Old English brōþor, is 'brother'.
-    li: ["broor", "broːr"],  // Limburgish broor, from Middle Dutch broeder, is 'brother'.
+    sco: ["brither", "ˈbrɪðər"],  // Scots brither, from Old English brōþor, is 'brother'. Wiktionary glosses it 'brother', with no age in the word.
+    li: ["broor", "broːr"],  // Limburgish broor, from Middle Dutch broeder, is 'brother'. Wiktionary glosses it 'brother', with no age in the word.
     bqi: ["برار", "bærɒr"],  // Bakhtiari barâr, from Middle Persian brād, is 'brother'; kakâ is listed as a synonym.
     nus: ["däman", "dəman"],  // Nuer däman is 'brother'.
     mas: ["ɔlalashɛ", "ɔlalaʃɛ"],  // Maasai ɔl-aláshɛ is 'brother' whether older or younger; Payne's kin list gives the same word for both.
     nym: ["mkulu", "mkʊlʊ"],  // Nyamwezi mkulu, 'the elder one', is an older brother; mdugu is a brother or relative in general.
-    tig: ["ሑ", "ħu"],  // Tigre ḥu is 'brother'; a father's brother is ḥu ab.
+    tig: ["ሑ", "ħu"],  // Tigre ḥu is 'brother'; a father's brother is ḥu ab. Wiktionary glosses it 'brother', with no age in the word.
     en_my: ["brother", "ˈbɹadə"],  // As elsewhere in English, an older brother is an older or elder brother; there is no separate word.
     es_ec: ["hermano", "eɾˈmano"],  // An older brother is a hermano mayor; colloquially Ecuadorians also say ñaño, from Quechua, for a brother or sister.
     ar_lev: ["أخ", "ʔaxx"],  // No separate older-brother word: a younger brother is أخوي الزغير 'my little brother', and Lebanese also says خيّ.
@@ -1320,7 +1320,7 @@ WORDS.olderbrother = {
     yue_dg: ["阿哥", "ʔa˨˧ kɔ˨˧"],  // Dongguan addresses an older brother as 阿哥 and refers to him as 大佬.
     nia: ["kaʼa", "ˈkaʔa"],  // Ka'a is an older sibling of either sex; a younger sibling is akhi.
     tly: ["bilə", "bilə"],  // Talysh bilə is an older brother; a younger brother is boyli, from boə 'brother'.
-    fur: ["fradi", "ˈfradi"],  // Friulian fradi, from Latin frāter, is 'brother'.
+    fur: ["fradi", "ˈfradi"],  // Friulian fradi, from Latin frāter, is 'brother'. Wiktionary glosses it 'brother', with no age in the word.
     rue: ["брат", "brat"],  // Rusyn брат is 'brother'.
     mev: ["lìī", "lìī"],  // Mano lìī is an older sibling of either sex (lìī gɔ̰̄zɛ̀ specifies a brother); a younger sibling is lēkè, and 'brother' in general is mɔ́nɔ̀gɔ̰̀.
     kxc: ["aattaa", "aːtːaː"],  // Konso aattaa is an elder sibling (vocative aatti); a brother in general is alawa, 'male sibling'.
@@ -1329,15 +1329,15 @@ WORDS.olderbrother = {
     bft: ["ཀ་ཀ", "kaka"],  // Balti kaka is an elder brother, also an elder man in general; a younger brother is phono, and ཨ་ཆོ is the honorific.
     rup: ["frate", "ˈfrate"],  // Aromanian frate is a brother of any age; an older brother is said with a phrase using cama mare, 'bigger'.
     bto: ["mānoy", "maːnɔj"],  // Rinconada Bikol mānoy is an older brother and mānay an older sister, while a brother in general is ŋod, as in Ŋod ko si Uwan, 'John is my brother'.
-    xmf: ["ჯიმა", "dʒima"],  // Mingrelian ჯიმა is 'brother'.
+    xmf: ["ჯიმა", "dʒima"],  // Mingrelian ჯიმა is 'brother'. Wiktionary glosses it 'brother', with no age in the word.
     zap: ["biʼchiʼ", "biʔtʃiʔ"],  // Isthmus Zapotec bi'chi' is a man's brother; a woman's brother (or a man's sister) is biza'na'.
     asu: ["ifolong'o", "ifoloŋo"],  // Pare ifolong'o is given for an (older) brother in both North and South Pare.
     adi: ["aabing", "aːbɨŋ"],  // Adi aabing is used by younger siblings for an elder brother (biibing in address); biro is a brother in general, and a younger brother is biro aniyang.
-    fy: ["broer", "bruər"],  // West Frisian broer is 'brother'.
-    oc: ["fraire", "ˈfrajre"],  // Occitan fraire is 'brother', from Latin frater.
-    lij: ["fræ", "frɛː"],  // Ligurian fræ is 'brother', from Latin frater.
-    szl: ["brat", "brat"],  // Silesian brat is 'brother'.
-    pdt: ["Brooda", "ˈbroːda"],  // Plautdietsch Brooda is 'brother', plural Breeda.
+    fy: ["broer", "bruər"],  // West Frisian broer is 'brother'. Wiktionary glosses it 'brother', with no age in the word.
+    oc: ["fraire", "ˈfrajre"],  // Occitan fraire is 'brother', from Latin frater. Wiktionary glosses it 'brother', with no age in the word.
+    lij: ["fræ", "frɛː"],  // Ligurian fræ is 'brother', from Latin frater. Wiktionary glosses it 'brother', with no age in the word.
+    szl: ["brat", "brat"],  // Silesian brat is 'brother'. Wiktionary glosses it 'brother', with no age in the word.
+    pdt: ["Brooda", "ˈbroːda"],  // Plautdietsch Brooda is 'brother', plural Breeda. Wiktionary glosses it 'brother', with no age in the word.
     krc: ["къарнаш", "qarˈnaʃ"],  // Karachay къарнаш is 'brother'; Balkar says къарындаш.
     jmc: ["mwanama", "mwanama"],  // Machame mwanama is given for an (older) brother.
     ast: ["hermanu", "eɾˈmanu"],  // Asturian hermanu is a brother of any age; an older brother is a hermanu mayor and a younger one a hermanu pequeñu.

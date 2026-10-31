@@ -467,7 +467,7 @@ WORDS.china = {
     an: "cina",
     frr: "cina",
     vep: "khitan",
-    smn: "unknown",
+    smn: "cina",
     szy: "zhongguo",
     kw: "cina",
     jbo: "zhongguo",
@@ -886,7 +886,7 @@ WORDS.china = {
     an: ["China", "ˈtʃina"],  // The Aragonese Wikipedia titles the country Republica Popular de China and calls it China throughout, the same name as Spanish China; ch is read tʃ and the word is stressed on the next-to-last syllable by Aragonese spelling rules.
     frr: ["Sina", "ˈsina"],  // The Mooring North Frisian Wikipedia's article on the country is headed Sina ('Sina as en lönj önj Asien'); Fering says Schiina.
     vep: ["Kitai", "ˈkitai"],  // Borrowed from Russian Китай, the name taken from the Khitan (Wiktionary); the Veps Wikipedia article on the country is titled Kitai.
-    smn: ["Kiina", "ˈkiːna"],  // The Inari Sámi Wikipedia article on the country is titled Kiina, the People's Republic being Kiina aalmugtäsiväldi; its origin is not given in a source.
+    smn: ["Kiina", "ˈkiːna"],  // The Inari Sámi Wikipedia article on the country is titled Kiina, the People's Republic being Kiina aalmugtäsiväldi; its origin is not given in a source. Route by resemblance to the neighbouring forms (ro(China) sr(Кина) sq(Kina) da(Kina)); no etymology of its own.
     szy: ["Cong-kow", "tsoŋkow"],  // A borrowing of Chinese 中國 'middle country'; the Sakizaya Wikipedia article on the country is titled Cong-kow and writes it with the characters 中國.
     kw: ["China", "ˈtʃina"],  // Borrowed from English China, itself from Portuguese and ultimately Sanskrit Cīna (Wiktionary); the Cornish Wikipedia article is titled China and the People's Republic is Repoblek Werin China.
     jbo: ["jugygu'e", "ʒuɡəˈɡuhe"],  // A compound of jungo 'Chinese' and gugde 'country'; jungo itself was built from Mandarin Zhōngguó (Lojban reference grammar).

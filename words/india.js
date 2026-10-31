@@ -185,7 +185,7 @@ WORDS.india = {
     din: "greek",
     luo: "greek",
     vec: "greek",
-    ka: "unknown",
+    ka: "greek",
     ace: "greek",
     czh: "yindu",
     lmo: "greek",
@@ -224,7 +224,7 @@ WORDS.india = {
     kum: "persian",
     is: "greek",
     dv: "greek",
-    tyv: "unknown",
+    tyv: "other",
     bi: "greek",
     br: "greek",
     to: "greek",
@@ -622,7 +622,7 @@ WORDS.india = {
     din: ["Indiɛn", "indiɛn"],  // Indiɛn; Wiktionary suggests, without certainty, a borrowing from German Indien. Route by resemblance to the neighbouring forms (de(Indien) lb(Indien)); no etymology of its own.
     luo: ["India", "india"],  // Dholuo uses the international name India. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     vec: ["Ìndia", "ˈindja"],  // Ìndia, written with a grave accent to show the stress. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
-    ka: ["ინდოეთი", "indoetʰi"],  // Indoeti is the Georgian name of India.
+    ka: ["ინდოეთი", "indoetʰi"],  // Indoeti is the Georgian name of India. Route by resemblance to the neighbouring forms (xmf(ინდოეთი)); no etymology of its own.
     ace: ["India", "india"],  // Acehnese Wikipedia name for the country, spelled as in Indonesian; no source found naming the donor. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     czh: ["印度", "in˦˨ təu˩˩"],  // The characters 印度 read in Tunxi Hui; 印度 was the name Xuanzang proposed in the 7th century (Wiktionary).
     lmo: ["India", "ˈindja"],  // Lombard Wikipedia name for the country, used with the article, l'India; no source found naming the donor. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
@@ -661,7 +661,7 @@ WORDS.india = {
     kum: ["Гьиндистан", "hindistan"],  // Kumyk name for India, with the -stan ending; no source found that names the donor. Route by resemblance to the neighbouring forms (tr(Hindistan) ug(ھىندىستان)); no etymology of its own.
     is: ["Indland", "ˈɪntlant"],  // Latin India plus land; it was once called Indíaland in Icelandic (Icelandic Wikipedia).
     dv: ["އިންޑިޔާ", "inɖijaː"],  // Borrowed from English India; ހިންދުސްތާނު, from Persian Hindustan, is a synonym (Wiktionary).
-    tyv: ["Энеткек", "enetˈkek"],  // Tuvan name for India, the same kind of name as Mongolian Энэтхэг; no source found giving its path.
+    tyv: ["Энеткек", "enetˈkek"],  // Tuvan name for India, the same kind of name as Mongolian Энэтхэг; no source found giving its path. Route by resemblance to the neighbouring forms (bxr(Энэдхэг)); no etymology of its own.
     bi: ["India", "india"],  // Bislama name for the country, spelled as in English; no source found naming the donor. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     br: ["India", "ˈindja"],  // Breton name for the country, officially Republik India; no source found naming the donor. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     to: ["ʻInitia", "ʔinitia"],  // Tongan name for the country; no source found naming the donor. Route by resemblance to the neighbouring forms (rar(Īnītia) fi(Intia)); no etymology of its own.

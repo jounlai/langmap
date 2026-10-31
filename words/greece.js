@@ -494,6 +494,15 @@ WORDS.greece = {
     smn: "graecia",
     ia: "graecia",
     jbo: "unknown",
+    la: "graecia",
+    el_grc: "hellas",
+    fro: "graecia",
+    non: "graecia",
+    hbo: "ionia",
+    syc: "ionia",
+    fa_clas: "ionia",
+    ota: "ionia",
+    hy_grab: "ionia",
   },
   routes: {
     graecia: {"color":"#2563eb","emoji":"🏛️","en":"from Latin Graecia (Greece, Grèce, Греция)","ja":"ラテン語 Graecia から（Greece, Grèce, Греция）","ko":"라틴어 Graecia에서 (Greece, Grèce, Греция)","zh":"源自拉丁语 Graecia（Greece、Grèce、Греция）","yue":"源自拉丁文 Graecia（Greece、Grèce、Греция）","vi":"từ tiếng Latin Graecia (Greece, Grèce, Греция)","th":"จากละติน Graecia (Greece, Grèce, Греция)","id":"dari Latin Graecia (Greece, Grèce, Греция)","hi":"लैटिन Graecia से (Greece, Grèce, Греция)","de":"aus lateinisch Graecia (Greece, Grèce, Греция)","fr":"du latin Graecia (Greece, Grèce, Греция)","it":"dal latino Graecia (Greece, Grèce, Греция)","es":"del latín Graecia (Greece, Grèce, Греция)","pt":"do latim Graecia (Greece, Grèce, Греция)","ru":"от латинского Graecia (Greece, Grèce, Греция)","uk":"від латинського Graecia (Greece, Grèce, Греция)","ar":"من اللاتينية Graecia (Greece, Grèce, Греция)","he":"מהלטינית Graecia (Greece, Grèce, Греция)","sw":"kutoka Kilatini Graecia (Greece, Grèce, Греция)"},
@@ -928,5 +937,14 @@ WORDS.greece = {
     smn: ["Kreikka", "ˈkreikːa"],  // Kreikka is the title of the Inari Sámi Wikipedia article on Greece, the same form as Finnish Kreikka.
     ia: ["Grecia", "ˈɡretsja"],  // Grecia is the title of the Interlingua Wikipedia article on Greece, also called Hellade.
     jbo: ["xesygu'e", "xesəˈɡuhe"],  // xesygu'e is the title of the Lojban Wikipedia article on Greece, a compound of xelso 'Greek' and gugde 'country'.
+    la: ["Graecia", "ˈɡraekia"],  // The land of the Graeci, the source of most Western names for Greece; the Vulgate has it at Acts 20:2.
+    el_grc: ["Ἑλλάς", "hellás"],  // The Greeks' own name; it could mean every land where Greeks lived, Ionia included.
+    fro: ["Grece", "ˈɡrɛtsə"],  // From Latin Graecia.
+    non: ["Grikkland", "ˈɡrikːlɑnd"],  // Grikkr 'Greek' + land; the Norse name for the Greek-speaking Byzantine Empire.
+    hbo: ["יון", "jɔːˈvɔːn"],  // Javan, son of Japheth (Genesis 10:2), whose name stands for Greece in Daniel 8:21.
+    syc: ["ܝܘܢ", "jawwaːn"],  // Ultimately from Greek Ἰωνία; also the biblical Javan.
+    fa_clas: ["یونان", "juːnaːn"],  // From Old Persian Yauna, the Ionians, from Greek Ἰωνία.
+    ota: ["یونانستان", "junanisˈtan"],  // Yunan 'Greek' + -istan 'land'.
+    hy_grab: ["Յունաստան", "junastan"],  // Land of the Yoyn, the Ionian Greeks, with the place suffix -աստան.
   },
 };

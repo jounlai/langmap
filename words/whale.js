@@ -148,11 +148,11 @@ WORDS.whale = {
     haw: "plain",
     mi: "plain",
     cdo: "fish",
-    jv: "unknown",
+    jv: "plain",
     ceb: "plain",
-    fj: "unknown",
+    fj: "plain",
     sm: "plain",
-    to: "unknown",
+    to: "plain",
     mr: "fish",
     te: "other",
     kn: "other",
@@ -230,8 +230,8 @@ WORDS.whale = {
     mk: "plain",
     tn: "unknown",
     st: "unknown",
-    arn: "unknown",
-    yur: "unknown",
+    arn: "plain",
+    yur: "plain",
     kl: "plain",
     av: "plain",
     kbd: "unknown",
@@ -281,11 +281,11 @@ WORDS.whale = {
     tt: "plain",
     zu: "plain",
     nso: "unknown",
-    ln: "unknown",
+    ln: "plain",
     so: "plain",
     prs: "plain",
     zh_jiao: "fish",
-    ttq: "unknown",
+    ttq: "plain",
     pa: "fish",
     pnb: "plain",
     gu: "fish",
@@ -312,8 +312,8 @@ WORDS.whale = {
     gn: "fish",
     tg: "plain",
     ti: "fish",
-    ee: "unknown",
-    shi: "unknown",
+    ee: "plain",
+    shi: "plain",
     ks: "plain",
     mad: "plain",
     qu: "plain",
@@ -344,7 +344,7 @@ WORDS.whale = {
     nbl: "unknown",
     ksh: "plain",
     ext: "plain",
-    os: "unknown",
+    os: "plain",
     new: "plain",
     pcd: "plain",
     lez: "plain",
@@ -372,10 +372,10 @@ WORDS.whale = {
     gil: "plain",
     lbe: "plain",
     tab: "other",
-    cab: "unknown",
+    cab: "plain",
     mdf: "plain",
     cr: "fish",
-    xal: "unknown",
+    xal: "plain",
     vro: "fish",
     abq: "unknown",
     crs: "plain",
@@ -394,15 +394,15 @@ WORDS.whale = {
     frr: "fish",
     mwl: "plain",
     tok: "fish",
-    yrk: "unknown",
+    yrk: "plain",
     dsb: "fish",
-    mic: "unknown",
+    mic: "plain",
     kos: "plain",
     mus: "other",
     rap: "plain",
     niu: "plain",
     mrq: "plain",
-    szy: "unknown",
+    szy: "plain",
     kw: "other",
     tkl: "plain",
     sma: "plain",
@@ -410,12 +410,28 @@ WORDS.whale = {
     stq: "fish",
     ia: "plain",
     nys: "unknown",
-    ale: "unknown",
+    ale: "plain",
     kwk: "unknown",
     tsi: "unknown",
     vo: "plain",
     itl: "plain",
     vot: "fish",
+    la: "plain",
+    el_grc: "plain",
+    ang: "plain",
+    enm: "plain",
+    goh: "plain",
+    fro: "plain",
+    cu: "plain",
+    orv: "plain",
+    syc: "plain",
+    ar_qur: "fish",
+    sa: "fish",
+    non: "plain",
+    osx: "plain",
+    gmh: "plain",
+    sga: "plain",
+    cop: "plain",
   },
   routes: {
     fish: {"color":"#2563eb","emoji":"🐟","en":"called a fish","ja":"「魚」と呼ぶ","ko":"\"물고기\"라 부름","zh":"称作\"鱼\"","yue":"叫做「魚」","vi":"gọi là cá","th":"เรียกว่าปลา","id":"disebut ikan","hi":"मछली कहा जाता है","de":"als Fisch bezeichnet","fr":"appelée poisson","it":"chiamata pesce","es":"llamada pez","pt":"chamada peixe","ru":"называют рыбой","uk":"називають рибою","ar":"تُسمّى سمكة","he":"נקרא דג","sw":"huitwa samaki"},
@@ -509,11 +525,11 @@ WORDS.whale = {
     haw: ["koholā", "koholaː"],  // Inherited from Proto-Polynesian *tafolaqa 'whale'; Wiktionary glosses it as the humpback whale.
     mi: ["tohorā", "tohoraː"],  // Inherited from Proto-Polynesian *tafolaqa 'whale'; ika moana 'sea fish' is another general term.
     cdo: ["鲸鱼", "kiŋ˥˥ ŋy˥˧"],  // Literally 'whale fish': 鲸 'whale' plus 鱼 'fish'.
-    jv: ["lodan", "lodan"],  // The Javanese word for the whale.
+    jv: ["lodan", "lodan"],  // The Javanese word for the whale. No image is recorded for it, so it counts as a word of its own.
     ceb: ["balyena", "balˈjena"],  // Borrowed from Spanish ballena.
-    fj: ["tavuto", "taβuto"],  // The Fijian word for the whale.
+    fj: ["tavuto", "taβuto"],  // The Fijian word for the whale. No image is recorded for it, so it counts as a word of its own.
     sm: ["tafolā", "tafolaː"],  // Inherited from Proto-Polynesian *tafolaqa 'whale', like Hawaiian koholā and Māori tohorā.
-    to: ["tofuāʻa", "tofuaːʔa"],  // The Tongan word for the whale.
+    to: ["tofuāʻa", "tofuaːʔa"],  // The Tongan word for the whale. No image is recorded for it, so it counts as a word of its own.
     mr: ["देवमासा", "deʋmaːsaː"],  // Literally 'god fish': देव 'god' plus मासा 'fish'.
     te: ["తిమింగలం", "timiŋɡalam"],  // From Sanskrit timiṅgila, 'swallower of the timi', a mythical giant fish.
     kn: ["ತಿಮಿಂಗಿಲ", "timiŋɡila"],  // From Sanskrit timiṅgila, 'swallower of the timi', a mythical giant fish.
@@ -591,8 +607,8 @@ WORDS.whale = {
     mk: ["кит", "kit"],  // From Greek kêtos 'sea monster'.
     tn: ["leruarua", "leruarua"],  // The Tswana word for the whale, shared with Sotho.
     st: ["leruarua", "leruarua"],  // The Sesotho word for the whale, shared with Tswana.
-    arn: ["yenü", "jenɨ"],  // The Mapudungun word for the whale.
-    yur: ["hekwsaʼ", "hekʷʂaʔ"],  // The Yurok word for the whale.
+    arn: ["yenü", "jenɨ"],  // The Mapudungun word for the whale. No image is recorded for it, so it counts as a word of its own.
+    yur: ["hekwsaʼ", "hekʷʂaʔ"],  // The Yurok word for the whale. No image is recorded for it, so it counts as a word of its own.
     kl: ["arfeq", "arfeq"],  // Inherited from Proto-Inuit *aʁvǝʁ, shared with Inuktitut arvik and Iñupiaq aġviq.
     av: ["кит", "kit"],  // Borrowed from Russian kit, ultimately Greek kêtos.
     kbd: ["джей", "dʒej"],  // Its Adyghe cognate джае names the catfish instead.
@@ -642,11 +658,11 @@ WORDS.whale = {
     tt: ["кит", "kit"],  // Borrowed from Russian кит, from Ancient Greek kêtos.
     zu: ["umkhomo", "umkʰomo"],  // The Zulu word for the whale; it does not contain inhlanzi 'fish'.
     nso: ["leruarua", "leruarua"],  // The Northern Sotho word for the whale, shared with Sotho and Tswana.
-    ln: ["mondɛ́lɛ́", "mondɛ́lɛ́"],  // The Lingala word for the whale; it does not contain mbisi 'fish'.
+    ln: ["mondɛ́lɛ́", "mondɛ́lɛ́"],  // The Lingala word for the whale; it does not contain mbisi 'fish'. No image is recorded for it, so it counts as a word of its own.
     so: ["nibiri", "nibiri"],  // The Somali word for the whale; it does not contain kalluun 'fish'.
     prs: ["نهنگ", "naˈhaŋɡ"],  // The same word as Persian نهنگ; in Middle Persian it meant 'crocodile'.
     zh_jiao: ["鲸鱼", "tɕiəŋ˨˩˧ y˦˨"],  // Literally 'whale fish'; same word as Standard Mandarin.
-    ttq: ["elăkămmăn", "elækæmːæn"],  // Also the name of the constellation Pisces (Prasse).
+    ttq: ["elăkămmăn", "elækæmːæn"],  // Also the name of the constellation Pisces (Prasse). No image is recorded for it, so it counts as a word of its own.
     pa: ["ਵ੍ਹੇਲ ਮੱਛੀ", "ʋeːl˥ mətʃʰːiː"],  // English 'whale' plus ਮੱਛੀ 'fish': a 'whale fish'; ਵ੍ਹੇਲ alone is also used.
     pnb: ["وہیل", "ʋéːl"],  // Borrowed from English whale.
     gu: ["વ્હેલ માછલી", "ʋɦeːl maːtʃʰliː"],  // English 'whale' plus માછલી 'fish': a 'whale fish'; the Sanskrit-derived તિમિ is formal and uncommon.
@@ -673,8 +689,8 @@ WORDS.whale = {
     gn: ["piraru", "piɾaˈɾu"],  // Built on pira 'fish'; the wider term pirapuã covers all cetaceans, and the blue whale is piraru hovy.
     tg: ["наҳанг", "naˈhaŋɡ"],  // The same word as Persian nahang 'whale'; the Russian loan кит is also used.
     ti: ["ዓሳ ነባሪ", "ʕasa nɐbari"],  // Built on ዓሳ 'fish', like Amharic ዓሣ ነባሪ.
-    ee: ["bòsò", "bòsò"],  // The Ewe word for the whale, recorded in Rongier's Ewe-French dictionary.
-    shi: ["ⵜⵉⵣⵎⴽⵜ", "tizmkt"],  // The word given by the IRCAM Amazigh dictionary and used by the Tashelhit Wikipedia; plural tizmkin.
+    ee: ["bòsò", "bòsò"],  // The Ewe word for the whale, recorded in Rongier's Ewe-French dictionary. No image is recorded for it, so it counts as a word of its own.
+    shi: ["ⵜⵉⵣⵎⴽⵜ", "tizmkt"],  // The word given by the IRCAM Amazigh dictionary and used by the Tashelhit Wikipedia; plural tizmkin. No image is recorded for it, so it counts as a word of its own.
     ks: ["وہیل", "ʋeːl"],  // Borrowed from English whale, as in Urdu.
     mad: ["paus", "paus"],  // The same word as Malay and Indonesian paus.
     qu: ["wallina", "waˈʎina"],  // Adapted from Spanish ballena; the Quechua Wikipedia also gives hatun yakuwayt'a.
@@ -705,7 +721,7 @@ WORDS.whale = {
     nbl: ["umkhomo", "umkʰomo"],  // The isiNdebele term for the whale, akin to Zulu and Swati umkhoma.
     ksh: ["Wal", "vaːl"],  // The same Germanic whale word as German Wal; the Kölsch Wikipedia also uses Walfisch.
     ext: ["ballena", "baˈʎena"],  // The same word as Spanish ballena, from Latin ballaena.
-    os: ["гай", "ɡaj"],  // The Ossetian Wikipedia's name for the whale, also гайа; Digor says гайа.
+    os: ["гай", "ɡaj"],  // The Ossetian Wikipedia's name for the whale, also гайа; Digor says гайа. No image is recorded for it, so it counts as a word of its own.
     new: ["व्हेल", "wʱel"],  // Borrowed from English whale.
     pcd: ["balin·ne", "balɛ̃n"],  // The Picard form of French baleine, from Latin balaena.
     lez: ["кит", "kit"],  // Borrowed from Russian кит; the Quba dialect says балина instead.
@@ -733,10 +749,10 @@ WORDS.whale = {
     gil: ["ato", "ato"],  // An inherited Micronesian whale word, cognate with Marshallese raj and Pohnpeian roahs (ACD cognate set *rato).
     lbe: ["кит", "kit"],  // Borrowed from Russian кит; the Shali dialect also has къуртма.
     tab: ["гьюлин аждагьа", "hylin aʒdaha"],  // Literally 'the sea's аждагьа': гьюл 'sea' plus аждагьа, the Dagestani word for a dragon or crocodile; the Northern (Khanag) dialect says кит instead.
-    cab: ["údu", "udu"],  // Glossed 'whale, ballena' by the Garifuna Living Dictionary, with the example Hulú lumuti údu Jonah 'the whale swallowed Jonah'.
+    cab: ["údu", "udu"],  // Glossed 'whale, ballena' by the Garifuna Living Dictionary, with the example Hulú lumuti údu Jonah 'the whale swallowed Jonah'. No image is recorded for it, so it counts as a word of its own.
     mdf: ["кит", "kit"],  // Borrowed from Russian кит, as in Erzya.
     cr: ["ᒥᓯ ᐚᐸᒣᐠ", "misiwaːpameːk"],  // Literally 'big white-fish': misi- 'big' plus wâpamêk, which Wolvengrey glosses 'beluga, porpoise, whale, fish'; Northern Cree says mistamêk 'big fish'.
-    xal: ["тул", "tul"],  // The Kalmyk word for the whale, also the name of the taimen, a large Siberian fish; Wiktionary also lists тул заһсн 'whale fish'.
+    xal: ["тул", "tul"],  // The Kalmyk word for the whale, also the name of the taimen, a large Siberian fish; Wiktionary also lists тул заһсн 'whale fish'. No image is recorded for it, so it counts as a word of its own.
     vro: ["valaskala", "vɑlɑskɑlɑ"],  // Literally 'whale-fish', with kala 'fish', like Finnish valaskala; the Võro dictionary also gives plain valas, as in sinivalas 'blue whale'.
     abq: ["гьей", "ɡʲej"],  // The Abaza word for the whale; Abaza linguist T. Murtazov calls its etymology unknown, perhaps a cry of amazement at the animal's size.
     crs: ["labalenn", "labalɛn"],  // From French la baleine, with the French article fused onto the word, as in Mauritian labalenn.
@@ -755,15 +771,15 @@ WORDS.whale = {
     frr: ["wålfasch", "ˈvɔlfaʃ"],  // Literally 'whale-fish', with fasch 'fish', like German Walfisch.
     mwl: ["baleia", "bɐˈlejɐ"],  // From Latin ballaena, the same word as Portuguese baleia; the Mirandese Wikipedia uses baleia and baleias throughout.
     tok: ["kala suli", "kala suli"],  // Literally 'big sea creature': kala, the word for fish that also covers whales and dolphins, plus suli 'big'.
-    yrk: ["халэʼ", "xaleʔ"],  // The Tundra Nenets word for the whale, recorded by Pyrerka (1948), Homich (1954) and Tereshchenko (1965); it is distinct from халя 'fish'.
+    yrk: ["халэʼ", "xaleʔ"],  // The Tundra Nenets word for the whale, recorded by Pyrerka (1948), Homich (1954) and Tereshchenko (1965); it is distinct from халя 'fish'. No image is recorded for it, so it counts as a word of its own.
     dsb: ["wjelryba", "ˈvʲɛlrɨba"],  // Literally 'great fish', containing ryba 'fish', the same Sorbian compound as Upper Sorbian wjelryba.
-    mic: ["putʼp", "budəp"],  // The Mi'kmaq word for the whale, an animate noun with plural putʼpaq; putʼpeʼj is a whale calf.
+    mic: ["putʼp", "budəp"],  // The Mi'kmaq word for the whale, an animate noun with plural putʼpaq; putʼpeʼj is a whale calf. No image is recorded for it, so it counts as a word of its own.
     kos: ["loat", "loat"],  // Inherited from Proto-Oceanic *rato 'small whale', like Pohnpeian roahs and Marshallese raj (Blust's Austronesian Comparative Dictionary).
     mus: ["ue-pofkv", "ojpóːfka"],  // Literally 'animal that blows water' (ue- 'water'); the Muskogee dictionary glosses it porpoise, whale and hippopotamus.
     rap: ["taʻoraha", "taʔoɾaha"],  // Inherited, irregularly, from Proto-Nuclear-Polynesian *tafolaqa 'whale', cognate with Samoan tafolā and Māori tohorā (POLLEX).
     niu: ["tafuā", "tafuaː"],  // Inherited from Proto-Polynesian *taf(o,u)raqa 'whale', like Tongan tofuaʻa and Samoan tafolā.
     mrq: ["paʻaoa", "paʔaoa"],  // From East Polynesian *paraaoa 'whale', cognate with Hawaiian palaoa; Le Cléac'h glosses it whale, sperm whale and cetaceans in general, and it can also mean dolphin.
-    szy: ["isuʼ", "isuʔ"],  // The ILRDF Sakizaya dictionary glosses isu' as 鯨魚 'whale'.
+    szy: ["isuʼ", "isuʔ"],  // The ILRDF Sakizaya dictionary glosses isu' as 鯨魚 'whale'. No image is recorded for it, so it counts as a word of its own.
     kw: ["morvil", "ˈmɔrvɪl"],  // Literally 'sea beast': mor 'sea' plus mil 'animal', like Welsh morfil and Breton morvil.
     tkl: ["tafolā", "tafolaː"],  // Inherited from Proto-Polynesian *tafolaqa 'whale', like Samoan tafolā and Hawaiian koholā.
     sma: ["faala", "ˈfɑːla"],  // An early loan from Germanic hwalaz 'whale', through Proto-Sami *fālēs, like Northern Sami fális.
@@ -771,11 +787,27 @@ WORDS.whale = {
     stq: ["Waalfisk", "ˈvaːlfɪsk"],  // Literally 'whale-fish', with Fisk 'fish', like German Walfisch and Dutch walvis.
     ia: ["balena", "baˈlena"],  // A root word of the Interlingua-English Dictionary, shared with Italian balena.
     nys: ["mamang", "mamaŋ"],  // The Noongar word for the whale, also spelt mamung, mammang or mamong; the whale is a totem of the Wagyl Kaip Southern Noongar.
-    ale: ["alax̂", "alaχ"],  // The Aleut word for the whale, recorded in the UCLA Phonetics Lab Archive Eastern Aleut wordlist.
+    ale: ["alax̂", "alaχ"],  // The Aleut word for the whale, recorded in the UCLA Phonetics Lab Archive Eastern Aleut wordlist. No image is recorded for it, so it counts as a word of its own.
     kwk: ["g̱wa̱ʼya̱m", "ɢʷəʔjəm"],  // The Kwak'wala word for the whale, as in niła̱tłe'yida g̱wa̱'ya̱m 'the whale appeared on the surface of the water'; the killer whale is a separate word, max̱'inux̱.
     tsi: ["łbuun", "ɬbuːn"],  // The Sm'algyax word for the whale, as in Wüwaal łbuun da hał awaan 'there is a whale along there'; the killer whale is 'neexł.
     vo: ["valüt", "vaˈlyt"],  // The Volapük word for the whale, glossed Walfisch in the Volapük Wiktionary; the Volapük Wikipedia calls the dinosaur Cetiosaurus 'valüt-sümik', whale-like.
     itl: ["йуӈәйу", "juŋəju"],  // Borrowed from a Chukotko-Kamchatkan neighbour, compare Alutor юӈюӈ; the diminutive йуӈйучӽ means a whale calf.
     vot: ["kittrõõba", "ˈkitːrɤːba"],  // Literally 'whale-fish', from Russian кит-рыба; the Votic dictionary glosses it Estonian valaskala, vaal, with the example meress nõizõp kit-ryyba meilie vassaa 'a whale rises from the sea towards us'.
+    la: ["ballaena", "balˈlaena"],  // From Greek φάλλαινα; also spelled balaena, the source of most western European whale words.
+    el_grc: ["φάλλαινα", "pʰállai̯na"],  // The source of Latin ballaena; κῆτος 'sea monster' is also used.
+    ang: ["hwæl", "ʍæl"],  // The old Germanic whale word, cognate with Old Norse hvalr and Old High German wal.
+    enm: ["whal", "hwal"],  // From Old English hwæl.
+    goh: ["wal", "wal"],  // From Proto-West-Germanic *hwal, cognate with Old English hwæl.
+    fro: ["baleine", "baˈleinə"],  // From Latin balaena.
+    cu: ["китъ", "kitŭ"],  // From Greek κῆτος 'sea monster'.
+    orv: ["китъ", "kitŭ"],  // From Greek κῆτος 'sea monster', through Church Slavonic.
+    syc: ["ܩܐܛܐ", "qeːtˤaː"],  // From Greek κῆτος; it also means the huge fish or sea monster of myth.
+    ar_qur: ["حوت", "ħuːt"],  // The word for Jonah's great fish (37:142), the same word as 'fish'.
+    sa: ["तिमिः", "timih"],  // A fabulous fish of enormous size; in later texts it can mean any fish.
+    non: ["hvalr", "hwalr"],  // The old Germanic whale word, cognate with Old English hwæl.
+    osx: ["hwal", "xwɑl"],  // The old Germanic whale word, cognate with Old English hwæl.
+    gmh: ["wal", "wal"],  // From Old High German wal; Modern German Wal continues it.
+    sga: ["bled", "bʲlʲeð"],  // Means both 'whale' and 'sea monster'.
+    cop: ["ⲕⲏⲧⲟⲥ", "keːtos"],  // Bohairic, borrowed from Greek κῆτος 'sea monster, whale'.
   },
 };

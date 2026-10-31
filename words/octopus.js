@@ -291,6 +291,8 @@ WORDS.octopus = {
     bi: "plain",
     ami: "plain",
     ja_oki: "plain",
+    la: "many",
+    el_grc: "many",
   },
   routes: {
     eight: {"color":"#2563eb","emoji":"8️⃣","en":"eight feet","ja":"8本の足","ko":"여덟 발","zh":"八条腿","yue":"八隻腳","vi":"tám chân","th":"แปดเท้า","id":"delapan kaki","hi":"आठ पैर","de":"acht Füße","fr":"huit pieds","it":"otto piedi","es":"ocho pies","pt":"oito pés","ru":"восемь ног","uk":"вісім ніг","ar":"ثماني أقدام","he":"שמונה רגליים","sw":"miguu minane"},
@@ -526,5 +528,7 @@ WORDS.octopus = {
     bi: ["nawita", "nawita"],  // The Bislama name, also spelled nakwita; the Bislama Spelling Dictionary glosses it 'octopus, squid'. No image is recorded for it, so it counts as a word of its own.
     ami: ["solita", "solita"],  // The Amis name; the phrase takora'ay no riyal is a synonym, and Amis Wikipedia titles its octopus article Solita. No image is recorded for it, so it counts as a word of its own.
     ja_oki: ["蛸", "taku"],  // The Okinawan form of Japanese tako; the saying taku nu ʔeeku 'an octopus's oar' mocks a spineless person. Route by resemblance to ja(タコ).
+    la: ["polypus", "ˈpolypus"],  // Borrowed from Greek πολύπους 'many-footed'.
+    el_grc: ["πολύπους", "polýpuːs"],  // Πολυ- 'many' + πούς 'foot'.
   },
 };

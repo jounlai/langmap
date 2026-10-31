@@ -477,6 +477,14 @@ WORDS.china = {
     liv: "cina",
     tlh: "zhongguo",
     wym: "cina",
+    la: "cina",
+    el_grc: "cina",
+    sa: "cina",
+    fa_clas: "cina",
+    ar_qur: "cina",
+    ja_heian: "other",
+    ko_mid: "zhongguo",
+    zh_tang: "zhongguo",
   },
   routes: {
     zhongguo: {"color":"#dc2626","emoji":"🏮","en":"reads 中國 \"Middle Kingdom\" itself","ja":"漢字 中國 を自分で読む","ko":"한자 中國을 직접 읽음","zh":"自己读汉字\"中國\"","yue":"自己讀漢字「中國」","vi":"tự đọc chữ 中國","th":"อ่านอักษร 中國 เอง","id":"membaca aksara 中國 sendiri","hi":"中國 को ख़ुद पढ़ना","de":"liest 中國 selbst","fr":"lit 中國 lui-même","it":"legge 中國 da sé","es":"lee 中國 por sí mismo","pt":"lê 中國 por si","ru":"своё чтение 中國","uk":"власне читання 中國","ar":"يقرأ 中國 بنفسه","he":"קורא את 中國 בעצמו","sw":"husoma 中國 yenyewe"},
@@ -896,5 +904,13 @@ WORDS.china = {
     liv: ["Kīnõmō", "ˈkiːnəmɒː"],  // A compound ending in mǭ 'land', like Saksāmō 'Germany' (Livonian-Estonian-Latvian Dictionary).
     tlh: ["jungwoq", "dʒuŋwoqʰ"],  // Marc Okrand based it on the Cantonese reading of 中國 'middle country', avoiding the Mandarin ending because wo' means 'empire' in Klingon.
     wym: ["Hīna", "ˈhiːna"],  // Recorded in Mojmir's 1930 dictionary of the Wilamowice dialect as the name of China.
+    la: ["Sīnae", "ˈsiːnae"],  // From Greek Σῖναι, probably from Sanskrit Cīna; the people reached by sea, while the Sērēs were reached overland.
+    el_grc: ["Σῖναι", "sîːnai̯"],  // Possibly through Arabic and Middle Persian from Sanskrit Cīna; Ptolemy's people of southern China, reached by sea.
+    sa: ["चीनाः", "tʃiːnaːh"],  // The Cīnas, a people of classical literature usually identified as the Chinese, perhaps after the state of Qin.
+    fa_clas: ["چین", "tʃiːn"],  // Inherited from Middle Persian čīn, from Sanskrit Cīna.
+    ar_qur: ["الصين", "asˤsˤiːn"],  // From Middle Persian čīn; the country name always takes the article.
+    ja_heian: ["もろこし", "morokosi"],  // First attested in the Man'yōshū: moro- 'many' + koshi, a reading of 越, after the Hundred Yue peoples of southern China.
+    ko_mid: ["듀ᇰ·국", "tjuŋkuk"],  // The Middle Korean reading of 中國 'middle country'.
+    zh_tang: ["中國", "ʈuwŋ kwək"],  // 'The middle country', the name used since the Western Zhou.
   },
 };

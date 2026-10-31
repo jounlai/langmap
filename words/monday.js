@@ -601,6 +601,16 @@ WORDS.monday = {
     aqc: "count",
     crx: "after",
     pqm: "after",
+    la: "moon",
+    el_grc: "moon",
+    ang: "moon",
+    enm: "moon",
+    non: "moon",
+    fro: "moon",
+    syc: "count",
+    ar_qur: "count",
+    fa_clas: "count",
+    sa: "moon",
   },
   routes: {
     moon: {"color":"#7c3aed","emoji":"🌙","en":"the moon's day","ja":"月の日","ko":"달의 날","zh":"月亮之日","yue":"月亮嘅日","vi":"ngày mặt trăng","th":"วันของดวงจันทร์","id":"hari bulan","hi":"चंद्रमा का दिन","de":"Tag des Mondes","fr":"jour de la lune","it":"giorno della luna","es":"día de la luna","pt":"dia da lua","ru":"день луны","uk":"день місяця","ar":"يوم القمر","he":"יום הירח","sw":"siku ya mwezi"},
@@ -1144,5 +1154,15 @@ WORDS.monday = {
     aqc: ["итнаттут ихъ", "itnatːut iq"],  // Literally 'Monday-ish day': iq 'day' with an adjective from itni 'on Monday', the Avar итни from Arabic al-ithnayn, 'the two'. Route by resemblance to Avar итни.
     crx: ["jimosdzen hukwʼelhʼaz", "dʒimosdzen hʌkʷʼeɬʔaz"],  // Literally 'after Sunday' (jimosdzen 'Sunday'), in the Lheidli dialect of Carrier.
     pqm: ["kissonte", "kissonte"],  // Literally 'it has been Sunday', built on sonte 'Sunday'; amsqahs luhkan, literally 'first working', is also used.
+    la: ["diēs Lūnae", "ˈdiːeːs ˈluːnae"],  // 'The Moon's day', the planetary week the Romans took over; Church Latin instead counted feria secunda.
+    el_grc: ["ἡμέρα Σελήνης", "hɛːméraː selɛ̌ːnɛːs"],  // 'Day of the Moon' in the astrological week; Christian Greek counted Δευτέρα 'second' instead.
+    ang: ["mōnandæġ", "ˈmoːnɑndæj"],  // Mōna 'moon' + dæġ 'day', from West Germanic *mānini dag.
+    enm: ["Monday", "ˈmoːndæi"],  // From Old English mōnandæġ, 'moon's day'.
+    non: ["mánadagr", "ˈmɑːnɑdɑɣr"],  // A calque of Latin dies lunae, 'the moon's day'.
+    fro: ["lunsdi", "lynsˈdi"],  // From Latin Lunae dies, 'the Moon's day'.
+    syc: ["ܬܪܝܢܒܫܒܐ", "treːnbəʃabbaː"],  // 'Two in the week': trēn 'two' + b- 'in' + šabbā 'week'.
+    ar_qur: ["الاثنين", "aliθnajn"],  // 'The two', the second day counted from Sunday.
+    fa_clas: ["دوشنبه", "doːʃamba"],  // 'Two after the Sabbath', inherited from Middle Persian dōšambat.
+    sa: ["सोमवारः", "soːmɐʋaːɾɐh"],  // Soma 'the Moon' + vāra 'day', the Indian planetary week.
   },
 };

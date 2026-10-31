@@ -496,6 +496,18 @@ WORDS.india = {
     vo: "unknown",
     liv: "greek",
     tlh: "bharat",
+    la: "greek",
+    el_grc: "greek",
+    sa: "bharat",
+    ang: "greek",
+    hbo: "persian",
+    syc: "persian",
+    peo: "persian",
+    ar_qur: "persian",
+    fa_clas: "persian",
+    ota: "persian",
+    zh_tang: "other",
+    ja_heian: "other",
   },
   routes: {
     greek: {"color":"#2563eb","emoji":"🏛️","en":"through Greek Ἰνδία, Latin India (India, Inde, Индия)","ja":"ギリシア語 Ἰνδία、ラテン語 India 経由（India, Inde, Индия）","ko":"그리스어 Ἰνδία, 라틴어 India를 거쳐 (India, Inde, Индия)","zh":"经希腊语 Ἰνδία、拉丁语 India（India、Inde、Индия）","yue":"經希臘文 Ἰνδία、拉丁文 India（India、Inde、Индия）","vi":"qua tiếng Hy Lạp Ἰνδία, Latin India (India, Inde, Индия)","th":"ผ่านกรีก Ἰνδία ละติน India (India, Inde, Индия)","id":"lewat Yunani Ἰνδία, Latin India (India, Inde, Индия)","hi":"यूनानी Ἰνδία, लैटिन India से होकर (India, Inde, Индия)","de":"über griechisch Ἰνδία, lateinisch India (India, Inde, Индия)","fr":"par le grec Ἰνδία, le latin India (India, Inde, Индия)","it":"attraverso il greco Ἰνδία, il latino India (India, Inde, Индия)","es":"por el griego Ἰνδία, el latín India (India, Inde, Индия)","pt":"pelo grego Ἰνδία, o latim India (India, Inde, Индия)","ru":"через греческое Ἰνδία, латинское India (India, Inde, Индия)","uk":"через грецьке Ἰνδία, латинське India (India, Inde, Индия)","ar":"عبر اليونانية Ἰνδία واللاتينية India (India, Inde, Индия)","he":"דרך היוונית Ἰνδία והלטינית India (India, Inde, Индия)","sw":"kupitia Kigiriki Ἰνδία, Kilatini India (India, Inde, Индия)"},
@@ -933,5 +945,17 @@ WORDS.india = {
     vo: ["Lindän", "linˈdɛn"],  // Lindän, formed with the Volapük country suffix -än; the Volapük Wikipedia titles its article on India Lindän.
     liv: ["Indij", "ˈindij"],  // Indij, the Livonian name of the country, listed in the Livonian–Latvian–Estonian dictionary at livonian.tech alongside Indij okeān 'Indian Ocean'.
     tlh: ["barat", "bɑrɑtʰ"],  // barat, borrowed from Hindi भारत Bhārat according to Wiktionary.
+    la: ["India", "ˈindia"],  // Borrowed from Greek Ἰνδία, the land of the Indus.
+    el_grc: ["Ἰνδία", "indíaː"],  // Named after the Indus, Ἰνδός, from Old Persian Hiⁿdūš.
+    sa: ["भारतवर्षम्", "bʱaːɾɐtɐʋɐɾʂɐm"],  // 'The realm of King Bharata's descendants', the Indian subcontinent.
+    ang: ["Indea", "ˈindeɑ"],  // From Latin India.
+    hbo: ["הדו", "hodˈduː"],  // Hoddu, the eastern end of Xerxes' empire 'from India to Ethiopia' (Esther 1:1), from Old Persian Hiⁿdūš.
+    syc: ["ܗܢܕܘ", "hendu"],  // From Old Persian Hiⁿdūš; it also named the Indus and Farther India.
+    peo: ["𐏃𐎡𐎯𐎢𐏁", "hinduʃ"],  // The Indus valley province of the Achaemenid empire, the Iranian form of Sanskrit sindhu 'river'.
+    ar_qur: ["الهند", "alhind"],  // Borrowed from Persian Hind; the country name always takes the article.
+    fa_clas: ["هند", "hind"],  // Inherited from Old Persian Hiⁿdūš.
+    ota: ["هند", "hind"],  // Borrowed from Persian Hind.
+    zh_tang: ["天竺", "tʰɛn ʈuwk"],  // A transcription of an Iranian name for India (Middle Persian Hindūg), first recorded in the Book of Later Han; Xuanzang later proposed 印度.
+    ja_heian: ["天竺", "tendiku"],  // From Middle Chinese 天竺; it could also mean anything foreign or exotic.
   },
 };

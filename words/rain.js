@@ -1121,7 +1121,7 @@ WORDS.rain = {
     aoc: ["konok", "konok"],
     kfr: ["મીં", "mĩː"],
     blk: ["ခမ်း", "kʰam˥˧"],
-    zh_song: ["雨", "iu"],
+    zh_yuan: ["雨", "iu"],
     juc: ["agu", "aɡu"],
     ohu: ["eső", "ɛʃøː"],
     xsa: ["𐩹𐩬𐩣", "ðanam"],

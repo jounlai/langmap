@@ -1189,13 +1189,13 @@ Total: 1197 codes.
 | `zh_lz` | Lanyin Mandarin | 蘭銀官話 | Sinitic (Mandarin, Lan-Yin) | ~17M |
 | `zh_nj` | Nanjing Mandarin | 南京官話 | Sinitic (Mandarin, Jianghuai — Hong-Chao) | ~6M (Nanjing city + Jiangning, Liuhe) |
 | `zh_sc` | Sichuan Mandarin | 四川官話 | Sinitic (Mandarin, Southwestern) | ~120M |
-| `zh_song` | Early Mandarin | 早期官話 | Sinitic (Early Mandarin) | Extinct |
 | `zh_tang` | Middle Chinese | 中古漢語 | Sinitic (Early Middle Chinese) | Extinct |
 | `zh_tj` | Tianjin Mandarin | 天津官話 | Sinitic (Mandarin, Ji-Lu / Tianjin) | ~10M |
 | `zh_tw` | Taiwan Mandarin | 台湾華語 | Sinitic (Mandarin) | ~23M |
 | `zh_wenyan_edu` | Cantonese Classical Chinese | 粤音文言文 | Sinitic (Yue, Cantonese pedagogical reading of Literary Chinese) | Active pedagogical use (~7M HK 文言文 curriculum) |
 | `zh_wh` | Wuhan Mandarin | 武漢官話 | Sinitic (Mandarin, Southwestern) | ~10M |
 | `zh_xa` | Xi'an Mandarin | 西安官話 | Sinitic (Mandarin, Zhongyuan) | ~10M |
+| `zh_yuan` | Early Mandarin | 早期官話 | Sinitic (Early Mandarin) | Extinct |
 | `zh_zz` | Zhongyuan Mandarin | 中原官話 | Sinitic (Mandarin, Zhongyuan) | ~10M (Zhengzhou) + ~190M total Zhongyuan Mandarin |
 | `zkt` | Khitan | 契丹語 | Mongolic (Para-Mongolic) | Extinct (~10-13c. CE) |
 | `zne` | Zande | ザンデ語 | Niger-Congo | ~1.1M |

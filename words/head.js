@@ -1141,7 +1141,7 @@ WORDS.head = {
     jqr: ["nampʼa", "nampʼa"],
     yuy: ["toloʁui", "toloʁui"],
     mjg: ["tulighui", "tuliʁui"],
-    zh_song: ["頭", "tʰəu"],
+    zh_yuan: ["頭", "tʰəu"],
     pmh: ["सीस", "siːsa"],
     txg: ["𗥦", "ɣu˧"],
     juc: ["uju", "udʒu"],

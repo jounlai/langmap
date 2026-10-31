@@ -477,8 +477,8 @@ function loadHanMap() {
 
 const HAN_EMPTY = (v) => !v || v === '—' || v === '-' || v === '';
 
-// The Han Map renames a few codes on its own page only (zh_han is Old Chinese
-// there, ko_mid the short 中世韓国語, zh_jh 揚州話) through the OV table in
+// The Han Map renames a few codes on its own page only (ko_mid is
+// the short 中世韓国語 there, zh_jh 揚州話) through the OV table in
 // hanmap.html's applyHanmapNameOverrides(). The SEO Han Map pages must show the
 // same names, so the table is parsed out of hanmap.html here rather than copied
 // (rally r30 a4#2: /en/hanmap/zh_han said "Han-period Chinese"). Returns
@@ -495,7 +495,7 @@ function loadHanmapNameOverrides() {
     if (!UI_LANGS.includes(ui)) continue;
     for (const [code, name] of Object.entries(map)) (byCode[code] || (byCode[code] = {}))[ui] = name;
   }
-  if (!byCode.zh_han || !byCode.zh_han.en) throw new Error('Han Map OV table parsed without zh_han.en');
+  if (!byCode.zh_jh || !byCode.zh_jh.en) throw new Error('Han Map OV table parsed without zh_jh.en');
   return byCode;
 }
 
@@ -590,8 +590,8 @@ function buildHanMapJSON(nameIndex) {
       romanization: (m.romanization && m.romanization.name) ? m.romanization.name : '',
       lat, lng,
       names: Object.assign({}, nameIndex[code] || {}, hanOv[code] || {}),
-      // The Han Map means something else by this code (zh_han = Old Chinese
-      // here, the Han-period stage on the Word Map): the two maps' names are
+      // The Han Map means something else by this code (zh_jh = Yangzhou
+      // here, Nanjing on the Word Map): the two maps' names are
       // not aliases of each other (seo_lang_aliases).
       ...(hanOv[code] ? { ownNames: true } : {}),
       nicknames: buildNicknameIndex()[code] || {},

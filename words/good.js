@@ -664,7 +664,7 @@ WORDS.good = {
     pura: ["*para", "para"],
     p_dra: ["*nal", "nal"],
     paus: ["—", "—"],
-    zh_song: ["善", "ʂiɛn"],
+    zh_yuan: ["善", "ʂiɛn"],
     zh_wenyan_edu: ["善", "siːn˨"],
     zh_han: ["善", "ʒ́(h)án"],
     zh_tang: ["善", "dʑian"],

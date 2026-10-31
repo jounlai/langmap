@@ -16,7 +16,7 @@
 // liturgical Sanskrit). The shared property is "hidden from the modern view by default".
 const EXCLUDED_CODES = new Set([
   'ja_edo','ja_heian','ja_kanbun','ko_mid','ko_em','la','egy','sux','akk','hit','nci','emy','p_ine','p_toc','p_jpn','p_kor','ptrk','pmng','p_tun','p_aav','p_viet','ptai','p_hmx','pafa','pkar','pmay','puaz','pban','p_sit','psem','pura','p_dra','paus',
-  'non','enm','en_em','got','cu','pi','pi_edu','cop','arc','el_grc','el_kath','zh_song','zh_han','zh_tang','zh_wenyan_edu',
+  'non','enm','en_em','got','cu','pi','pi_edu','cop','arc','el_grc','el_kath','zh_yuan','zh_han','zh_tang','zh_wenyan_edu',
   'vi_nom','vi_han','sa','sa_edu','ar_qur',
   'de_lut','es_sgl','fr_class',
   // Phase 4: historical / ancient
@@ -1993,17 +1993,17 @@ const LANG_DATA = {
 },
   paus: { name: 'Proto-Austronesian', native: 'Proto-Austronesian', lat: 23.70, lng: 121.00,
 },
-  // zh_song relabelled 2026-10-04: was "Song-Ming Literary Chinese" / 宋明文言 at Kaifeng with cells mixing
+  // zh_yuan relabelled 2026-10-04: was "Song-Ming Literary Chinese" / 宋明文言 at Kaifeng with cells mixing
   // unsourced LMC-style and Mandarin-like readings; now 中原音韻 (1324) readings per 寧繼福 1985, at Dadu.
-  zh_song: { name: "Early Mandarin (Zhongyuan Yinyun)", native: "中原音韻", lat: 39.90, lng: 116.40,
+  zh_yuan: { name: "Early Mandarin", native: "中原音韻", lat: 39.90, lng: 116.40,
 },
   // Classroom Classical Chinese (Cantonese pedagogical reading) — the
   // standard Cantonese reading of 文言文 (Literary Chinese) as taught in
   // Hong Kong and overseas Cantonese-medium Chinese schools. Distinct from:
   // (1) zh_han / zh_tang (reconstructed Old/Middle Chinese pronunciations
-  // for historical-linguistic study); (2) zh_song (de-facto Mandarin
+  // for historical-linguistic study); (2) zh_yuan (de-facto Mandarin
   // pedagogical reading of Classical Chinese, despite the "Song" label);
-  // [2026-10-04: zh_song is now Early Mandarin, 中原音韻 1324 readings per Ning 1985.]
+  // [2026-10-04: zh_yuan is now Early Mandarin, 中原音韻 1324 readings per Ning 1985.]
   // and (3) ja_kanbun (Japanese kun-yomi rendering). The Cantonese 文言
   // reading is the canonical Sinitic pedagogical reading tradition outside
   // Mandarin and preserves more Middle Chinese-derived phonological
@@ -2013,7 +2013,7 @@ const LANG_DATA = {
   // zh_han 2026-10-04: cells now Starostin's Eastern Han readings (StarLing); pin moved from Chang'an to Luoyang, the Eastern Han capital.
   zh_han: { name: 'Han-period Chinese', native: "漢代漢語", lat: 34.62, lng: 112.45,
 },
-  zh_tang: { name: 'Tang Chinese', native: "唐代漢語", lat: 34.26, lng: 108.94,
+  zh_tang: { name: 'Middle Chinese', native: "中古漢語", lat: 34.26, lng: 108.94,
 },
   ja_edo: { name: "Edo-period Japanese", native: '江戸言葉', lat: 35.68, lng: 139.69,
 },
@@ -5644,7 +5644,7 @@ const DATA_STATUS_OVERRIDES = {
     p_ryu:       'reconstructed',    // Proto-Ryukyuan — comparative reconstruction
     vi_nom:    'pedagogical',
     // Well-attested historical Sinitic:
-    zh_song:   'attested',
+    zh_yuan:   'attested',
     zh_han:    'attested',
     zh_tang:   'attested',
     // Pass 35: 5 historical additions
@@ -5679,7 +5679,7 @@ const HIST_DESCENDANT = {
     la:'it', el_grc:'el', el_kath:'el', egy:'ar_eg', enm:'en', en_em:'en', non:'is',
     got:'de', cu:'bg', pi:'si', cop:null, arc:'aii',
     sa:'hi', sux:null, akk:null, hit:'tr', nci:'es_mx', emy:'es_mx',
-    p_ine:null, p_toc:null, p_jpk:null, p_jpn:null, p_kor:null, ptrk:null, pmng:null, p_tun:null, p_aav:null, p_viet:null, ptai:null, p_hmx:null, pafa:null, pkar:null, pmay:null, puaz:null, pban:null, p_sit:null, psem:null, pura:null, p_dra:null, paus:null, zh_song:'zh', zh_han:'zh', zh_tang:'zh',
+    p_ine:null, p_toc:null, p_jpk:null, p_jpn:null, p_kor:null, ptrk:null, pmng:null, p_tun:null, p_aav:null, p_viet:null, ptai:null, p_hmx:null, pafa:null, pkar:null, pmay:null, puaz:null, pban:null, p_sit:null, psem:null, pura:null, p_dra:null, paus:null, zh_yuan:'zh', zh_han:'zh', zh_tang:'zh',
     ja_edo:'ja', ja_heian:'ja', ja_kanbun:'ja', ko_mid:'ko', ko_em:'ko', vi_nom:'vi',
     ar_qur:'ar', sa_edu:'hi', pi_edu:'si', xct_litpr:'bo', zh_wenyan_edu:'yue',
     vi_han:'vi', de_lut:'de', es_sgl:'es', fr_class:'fr',

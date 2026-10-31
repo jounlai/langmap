@@ -655,7 +655,7 @@ WORDS.sun = {
     pura: ["*kaja", "kaja"],
     p_dra: ["*poẓutu", "poɻutu"],
     paus: ["*waRi", "waRi"],
-    zh_song: ["日", "ɽi"],
+    zh_yuan: ["日", "ɽi"],
     zh_wenyan_edu: ["日", "jɐt˨"],
     zh_han: ["日", "ńǝt"],
     zh_tang: ["日", "ȵit"],

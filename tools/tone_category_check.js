@@ -56,7 +56,7 @@ const clsName = {q:'清', z:'全濁', c:'次濁'};
 // --- 2. Sinitic spoken varieties with regular MC tone correspondence.
 //        Excludes reconstructions, Sino-Xenic, and non-Sinitic languages.
 const EXCLUDE = new Set([
-  'zh_han','zh_tang','zh_yuan','zh_phagspa','zh_kanbun', // reconstructions / non-spoken
+  'och','zh_han','zh_tang','zh_yuan','zh_phagspa','zh_kanbun', // reconstructions / non-spoken
   'ko','ko_mid','ko_kp','ko_hun',
   'vi','vi_c','vi_s','vi_nom','vi_ohan',
   'ja','ja_kun','ja_ojp',

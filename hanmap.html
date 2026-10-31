@@ -3615,9 +3615,9 @@
         }
     })();
     </script>
-    <script src="wordmap_data.js?v=360"></script>
-    <script src="lang_attention.js?v=4"></script>
-    <script src="hanmap_data.js?v=211"></script>
+    <script src="wordmap_data.js?v=361"></script>
+    <script src="lang_attention.js?v=5"></script>
+    <script src="hanmap_data.js?v=212"></script>
     <script>
         // Hanmap stubs: replace the per-word loader. wordmap.html loads
         // ~20 individual JS files under words/<id>.js (one per concept) and
@@ -3655,8 +3655,8 @@
     will actually see (~12 KB gzipped). tools/build_lang_names.js
     generates lang_names/<ui>.js from lang_names.js. -->
     <script src="lang_names_shim.js?v=5"></script>
-    <script src="lang_names/en.js?v=220"></script>
-    <script>window.__langNamesVersion(220); window.__langNamesBoot();</script>
+    <script src="lang_names/en.js?v=221"></script>
+    <script>window.__langNamesVersion(221); window.__langNamesBoot();</script>
     <script>
     // HanMap-specific display-name overrides.
     // THIS IS THE MECHANISM for "one code, two maps, two meanings". lang_names.js
@@ -3665,7 +3665,9 @@
     // a Sino-Korean reading layer. This table overrides the name on this page
     // only. Handoff 103 lists three more codes with the same problem (vi_han,
     // zh_han, zh_jiao/zh_gl) and said they would need new codes; they do not,
-    // they need entries here.
+    // they need entries here. zh_han was the exception: the Han Map row was
+    // Baxter-Sagart Old Chinese, so it moved to och, the Word Map's Old Chinese
+    // code (2026-10-31), and needs no override.
     //
     // Rewritten 2026-09-13 (owner: 「中世韓国語漢字音 (東国正韻) は、略称として本当に
     // 頑張りましたか？」). It read 中世韓国語漢字音 (東国正韻) — brackets, 14 characters,
@@ -3692,27 +3694,27 @@
       // 化州粵語. ko_mid keeps the short 中世韓国語 the owner settled on
       // (035d8a6f) — the Word Map's 後期中世韓国語 rename is not this page's.
       const OV = {
-        ja:        { zh_han: '上古漢語', zh_jh: '揚州話', ko_mid: '中世韓国語' },
-        ko:        { zh_han: '상고한어', zh_jh: '양저우 관화', ko_mid: '중세 한국어' },
-        zh:        { zh_han: '上古汉语', zh_jh: '扬州话', ko_mid: '中世韩国语' },
-        'zh-hant': { zh_han: '上古漢語', zh_jh: '揚州話', ko_mid: '中世韓國語' },
-        yue:       { zh_han: '上古漢語', zh_jh: '揚州話', ko_mid: '中世韓國語' },
-        en:        { zh_han: 'Old Chinese', zh_jh: 'Yangzhou Mandarin', ko_mid: 'Middle Korean' },
-        fr:        { zh_han: 'Chinois archaïque', zh_jh: 'Mandarin de Yangzhou', ko_mid: 'Moyen coréen' },
-        de:        { zh_han: 'Altchinesisch', zh_jh: 'Yangzhou-Mandarin', ko_mid: 'Mittelkoreanisch' },
-        es:        { zh_han: 'Chino arcaico', zh_jh: 'Mandarín de Yangzhou', ko_mid: 'Coreano medio' },
-        pt:        { zh_han: 'Chinês arcaico', zh_jh: 'Mandarim de Yangzhou', ko_mid: 'Coreano médio' },
-        it:        { zh_han: 'Cinese arcaico', zh_jh: 'Mandarino di Yangzhou', ko_mid: 'Coreano medio' },
-        id:        { zh_han: 'Tionghoa Kuno', zh_jh: 'Mandarin Yangzhou', ko_mid: 'Korea Pertengahan' },
-        ms:        { zh_han: 'Tionghoa Kuno', zh_jh: 'Mandarin Yangzhou', ko_mid: 'Korea Pertengahan' },
-        sw:        { zh_han: 'Kichina cha Kale', zh_jh: 'Kimandarini cha Yangzhou', ko_mid: 'Kikorea cha Kati' },
-        vi:        { zh_han: 'Thượng cổ Hán ngữ', zh_jh: 'Quan thoại Dương Châu', ko_mid: 'Tiếng Triều Tiên trung đại' },
-        ru:        { zh_han: 'Древнекитайский', zh_jh: 'Янчжоуский мандарин', ko_mid: 'Среднекорейский' },
-        uk:        { zh_han: 'Давньокитайська', zh_jh: 'Янчжоуський мандарин', ko_mid: 'Середньокорейський' },
-        ar:        { zh_han: 'الصينية القديمة', zh_jh: 'ماندرين يانغتشو', ko_mid: 'الكورية الوسطى' },
-        he:        { zh_han: 'סינית עתיקה', zh_jh: "מנדרינית יאנגג'ואו", ko_mid: 'קוריאנית ביניימית' },
-        th:        { zh_han: 'ภาษาจีนโบราณ', zh_jh: 'ภาษาจีนกลางหยางโจว', ko_mid: 'ภาษาเกาหลีกลาง' },
-        hi:        { zh_han: 'प्राचीन चीनी', zh_jh: 'यांगझोउ मंदारिन', ko_mid: 'मध्य-कोरियाई' },
+        ja:        { zh_jh: '揚州話', ko_mid: '中世韓国語' },
+        ko:        { zh_jh: '양저우 관화', ko_mid: '중세 한국어' },
+        zh:        { zh_jh: '扬州话', ko_mid: '中世韩国语' },
+        'zh-hant': { zh_jh: '揚州話', ko_mid: '中世韓國語' },
+        yue:       { zh_jh: '揚州話', ko_mid: '中世韓國語' },
+        en:        { zh_jh: 'Yangzhou Mandarin', ko_mid: 'Middle Korean' },
+        fr:        { zh_jh: 'Mandarin de Yangzhou', ko_mid: 'Moyen coréen' },
+        de:        { zh_jh: 'Yangzhou-Mandarin', ko_mid: 'Mittelkoreanisch' },
+        es:        { zh_jh: 'Mandarín de Yangzhou', ko_mid: 'Coreano medio' },
+        pt:        { zh_jh: 'Mandarim de Yangzhou', ko_mid: 'Coreano médio' },
+        it:        { zh_jh: 'Mandarino di Yangzhou', ko_mid: 'Coreano medio' },
+        id:        { zh_jh: 'Mandarin Yangzhou', ko_mid: 'Korea Pertengahan' },
+        ms:        { zh_jh: 'Mandarin Yangzhou', ko_mid: 'Korea Pertengahan' },
+        sw:        { zh_jh: 'Kimandarini cha Yangzhou', ko_mid: 'Kikorea cha Kati' },
+        vi:        { zh_jh: 'Quan thoại Dương Châu', ko_mid: 'Tiếng Triều Tiên trung đại' },
+        ru:        { zh_jh: 'Янчжоуский мандарин', ko_mid: 'Среднекорейский' },
+        uk:        { zh_jh: 'Янчжоуський мандарин', ko_mid: 'Середньокорейський' },
+        ar:        { zh_jh: 'ماندرين يانغتشو', ko_mid: 'الكورية الوسطى' },
+        he:        { zh_jh: "מנדרינית יאנגג'ואו", ko_mid: 'קוריאנית ביניימית' },
+        th:        { zh_jh: 'ภาษาจีนกลางหยางโจว', ko_mid: 'ภาษาเกาหลีกลาง' },
+        hi:        { zh_jh: 'यांगझोउ मंदारिन', ko_mid: 'मध्य-कोरियाई' },
       };
       for (const [ui, m] of Object.entries(OV)) {
         if (!LANG_NAMES[ui]) LANG_NAMES[ui] = {};
@@ -3910,7 +3912,7 @@
         // Sinitic family ancestors (Old/Middle/Late Chinese reconstructions
         // plus Proto-Sino-Tibetan, Proto-Tibeto-Burman).
         const ANCIENT_SINO_CODES = [
-            'zh_han', 'zh_tang', 'zh_yuan', 'zh_phagspa',
+            'och', 'zh_tang', 'zh_yuan', 'zh_phagspa',
             'pst', 'ptb',
             'ko_mid', 'ja_ojp', 'vi_han', 'vi_ohan',
         ];
@@ -3951,7 +3953,7 @@
               historical: [] },
             { id: 'sinitic_other', family: 'sinitic',
               modern: ['cjy','cjy_dt','czh','czh_jx','hsn','hsn_sf','gan','cnp','gan_yc','gan_ja','gan_fz','gan_yt','cjy_cz','cjy_lv','cjy_xz','hsn_hy','hsn_ld','czh_wy','cnp_gl'],
-              historical: ['zh_han','zh_tang','pst'] },
+              historical: ['och','zh_tang','pst'] },
             { id: 'koreanic',
               modern: ['ko','ko_kp','ko_hun'],
               historical: ['ko_mid','pko'] },
@@ -4536,8 +4538,9 @@
                 if (raw) {
                     const arr = JSON.parse(raw);
                     if (Array.isArray(arr)) {
-                        // bca moved to bfs (Southern Bai, r36): keep a saved pick.
-                        selected = new Set(arr.map(c => (c === 'bca' ? 'bfs' : c)).filter(c => offered.has(c)));
+                        // bca moved to bfs (Southern Bai, r36) and zh_han to och (2026-10-31, the
+                        // row is Baxter-Sagart Old Chinese, the Word Map's och): keep a saved pick.
+                        selected = new Set(arr.map(c => (c === 'bca' ? 'bfs' : c === 'zh_han' ? 'och' : c)).filter(c => offered.has(c)));
                         // Seed switch state from the restored selection.
                         ancientOn = ANCIENT_SINO_CODES.some(c => selected.has(c));
                         kunOn     = KUN_CODES.some(c => selected.has(c));
@@ -7435,7 +7438,7 @@
                 || code.startsWith('wuu') || code === 'cdo' || code === 'cpx'
                 || code === 'mnp' || code === 'cjy' || code === 'czh'
                 || code === 'hsn' || code === 'gan' || code === 'cnp'
-                || code === 'zh_han' || code === 'zh_tang' || code === 'zh_song';
+                || code === 'och';
 
             if (isSinitic) {
                 // Sinitic: surface = romanisation, ipa = IPA. HAN_VARIANTS
@@ -7615,7 +7618,7 @@
                 if (showWord && wordHtml) html += `<div class="word" dir="auto" ${c ? `style="color:${c}"` : ''}>${wordHtml}</div>`;
                 if (showScript && r.native) html += `<div class="word hanmap-native-line" dir="auto" ${c ? `style="color:${c}"` : ''}>${escapeHtml(r.native)}</div>`;
                 // Suppress the /ipa/ line ONLY when the IPA is a starred
-                // reconstruction (e.g. zh_han Baxter-Sagart "*ʔi[t]") AND
+                // reconstruction (e.g. och Baxter-Sagart "*ʔi[t]") AND
                 // it duplicates the surface — there's no point repeating
                 // the same reconstruction twice. For modern languages
                 // where the surface happens to equal the IPA (Korean
@@ -7649,7 +7652,7 @@
         // non-Sinitic Sinosphere (light red-brown). See hanmapLabelColor().
         const HAN_ANCIENT_CODES = new Set([
             // Sinitic historical / reconstructed
-            'zh_han', 'zh_tang', 'zh_yuan', 'zh_phagspa',
+            'och', 'zh_tang', 'zh_yuan', 'zh_phagspa',
             // Sino-xenic historical
             'ko_mid', 'ja_ojp', 'vi_ohan',
             // Extinct non-Sinitic in the Sinosphere

@@ -526,7 +526,7 @@ WORDS.olderbrother = {
     och: "age",
     zh_han: "age",
     zh_tang: "age",
-    zh_song: "age",
+    zh_yuan: "age",
     zh_wenyan_edu: "age",
     vi_han: "age",
     ojp: "age",
@@ -1195,7 +1195,7 @@ WORDS.olderbrother = {
     och: ["兄", "*m̥raŋ"],  // younger brother: 弟 *lˤəjʔ; already paired in the Shijing, and Mencius says a child grown up 'knows to respect his elder brother' (敬其兄).
     zh_han: ["兄", "m̥reŋ"],  // younger brother: 弟 (Eastern Han l(h)ǝ̄́j).
     zh_tang: ["兄", "hwiajŋ"],  // younger brother: 弟; colloquial 哥, a Xianbei loan akin to Mongolian aqa, was spreading in the Tang and later replaced 兄 in speech.
-    zh_song: ["哥哥", "kɔ kɔ"],  // Literary 兄 (xiuŋ in the Zhongyuan Yinyun) survived in writing, but 哥哥, from a Xianbei word akin to Mongolian aqa, was the spoken term.
+    zh_yuan: ["哥哥", "kɔ kɔ"],  // Literary 兄 (xiuŋ in the Zhongyuan Yinyun) survived in writing, but 哥哥, from a Xianbei word akin to Mongolian aqa, was the spoken term.
     zh_wenyan_edu: ["兄", "hɪŋ˥"],  // younger brother: 弟 (dai6); Mencius: a child grown up 'knows to respect his elder brother' (敬其兄).
     vi_han: ["兄", "hwiŋ˧˧"],  // younger brother: 弟 (đệ); read huynh, as in huynh đệ 兄弟 'brothers'.
     ojp: ["兄", "je"],  // younger: 弟 oto; ye named the older sibling of either sex, and was replaced by ani in the Heian period.

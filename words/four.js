@@ -1213,7 +1213,7 @@ WORDS.four = {
     blk: ["လစ်ꩻ", "lit˦˥"],
     yuy: ["dørwen", "dørwen"],
     xav: ["maparane siʼuiwa", "mapaɾane siʔuiwa"],
-    zh_song: ["四", "sɿ"],
+    zh_yuan: ["四", "sɿ"],
     xlu: ["māuwa-", "ˈmaːuwa"],
     onw: ["ⲕⲉⲙⲥⲟ", "kemso"],
     pal: ["𐭰𐭧𐭠𐭫", "tʃahaːr"],

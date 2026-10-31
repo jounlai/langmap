@@ -57,7 +57,7 @@ for (const p of PAIRS) { TRAD.add(p[0]); SIMP.add(p[1]); }
 
 // Which codes are "Chinese varieties" we care about (Sinitic). Heuristic:
 // zh*, yue*, nan*, wuu*, hak*, hsn*, gan*, cjy*, cdo*, cpx*, mnp*, czh*, lzh,
-// och, ltc, and the historical zh_song/han/tang. We simply test the prefix.
+// och, ltc, and the historical zh_yuan/han/tang. We simply test the prefix.
 const SINITIC_RE = /^(zh|yue|nan|wuu|hak|hsn|gan|cjy|cdo|cpx|mnp|czh|lzh|och|ltc|min|hsn|zhx)(_|$)/;
 
 function loadWords() {

@@ -853,7 +853,7 @@ WORDS.butterfly = {
     mjg: ["xanbalaxji", "ɕanbalaɕtɕi"],
     gym: ["malan", "malan"],
     kri: ["bɔtaflay", "ˈbɔtaflaj"],
-    zh_song: ["胡蝶", "xu tiɛ"],
+    zh_yuan: ["胡蝶", "xu tiɛ"],
     xct_litpr: ["ཕྱེ་མ་ལེབ", "tɕʰe ma lep"],
     xqa: ["käpäli", "kæpæli"],
     qwc: ["pillpintu", "piʎpintu"],

@@ -667,7 +667,7 @@ WORDS.father = {
     pura: ["*ićä", "itɕæ"],
     p_dra: ["*appa", "appa"],
     paus: ["*amax", "amax"],
-    zh_song: ["父", "fu"],
+    zh_yuan: ["父", "fu"],
     zh_wenyan_edu: ["父", "fuː˨"],
     zh_han: ["父", "bwá"],
     zh_tang: ["父", "buə̆"],

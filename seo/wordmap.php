@@ -113,7 +113,7 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
     $hmName = (string) ($hmLang['name'] ?? '');
     // Only borrow it when both maps show the same variety: the same point and
     // no period on the Word Map row. zh_jh is Nanjing here but Yangzhou on the
-    // Han Map; zh_han is a Han-period row here, "Old Chinese" there (r33 a2#1).
+    // Han Map; zh_han was a Han-period row here, "Old Chinese" there (r33 a2#1; the Han Map row is och since 2026-10-31).
     if (!isset($hmLang['lat'], $hmLang['lng'], $lang['lat'], $lang['lng'])
         || abs((float) $hmLang['lat'] - (float) $lang['lat']) > 0.05
         || abs((float) $hmLang['lng'] - (float) $lang['lng']) > 0.05

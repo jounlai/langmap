@@ -1126,7 +1126,7 @@ WORDS.daughter = {
     kfr: ["ધી", "dʱiː"],
     mjg: ["xjun", "ɕtɕun"],
     gcr: ["tifi", "tifi"],
-    zh_song: ["女兒", "niu ɽʅ"],
+    zh_yuan: ["女兒", "niu ɽʅ"],
     txg: ["𘇾", "dʑji˧˥"],
     juc: ["saran jui", "saran dʒui"],
     zkt: ["—", "—"],

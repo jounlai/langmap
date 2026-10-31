@@ -569,7 +569,7 @@ WORDS.rainbow = {
     tsz: "unknown",
     zh_tang: "plain",
     zh_han: "plain",
-    zh_song: "plain",
+    zh_yuan: "plain",
     zh_wenyan_edu: "plain",
     vi_han: "plain",
     ojp: "plain",
@@ -1247,7 +1247,7 @@ WORDS.rainbow = {
     tsz: ["xupakata", "ʃuˈpakata"],  // The Purépecha word for the rainbow in both Purépecha Bible translations; IPA read from the spelling, with x = ʃ and stress on the second syllable as unmarked words take.
     zh_tang: ["虹", "ɦəwŋ"],  // 虹 is the old single-character word for the rainbow, glossed 螮蝀 in the Guangyun rhyme dictionary.
     zh_han: ["虹", "ɡōŋ"],  // 虹 is the old single-character Chinese word for the rainbow.
-    zh_song: ["虹", "xuŋ"],  // 虹 is listed in the 1324 Zhongyuan Yinyun rhyme book in the same homophone group as 紅 'red'.
+    zh_yuan: ["虹", "xuŋ"],  // 虹 is listed in the 1324 Zhongyuan Yinyun rhyme book in the same homophone group as 紅 'red'.
     zh_wenyan_edu: ["虹", "hʊŋ˨˩"],  // 虹 is the Classical Chinese word for the rainbow, read hung4 in Cantonese.
     vi_han: ["虹", "hoŋ͡m˨˩"],  // 虹 'rainbow' is read hồng in Sino-Vietnamese.
     ojp: ["虹", "nizi"],  // First attested in the Kojiki of 712; eastern dialect poems also have nuzi.

@@ -385,7 +385,7 @@ WORDS.sushi = {
     "zh_lz": ["寿司", "ʂəu˩˧ sz̩˧˩"],
     "zh_nj": ["寿司", "ʂəu˦ sɿ˧˩"],
     "zh_sc": ["寿司", "səu˨˩˧ sɹ̩˥"],
-    "zh_song": ["鮓", "tʂa"],
+    "zh_yuan": ["鮓", "tʂa"],
     "zh_tang": ["鮓", "tʂaɨ"],
     "zh_tj": ["寿司", "ʂou˥˧ sɿ˨˩"],
     "zh_wenyan_edu": ["鮓", "tsaː˧˥"],

@@ -1230,7 +1230,7 @@ WORDS.salt = {
     blk: ["တသာႏ", "tə sa˥˥"],
     jqr: ["katyi", "kaci"],
     yuy: ["daabsən", "daːbsən"],
-    zh_song: ["鹽", "iɛm"],
+    zh_yuan: ["鹽", "iɛm"],
     pura: ["—", "—"],
     juc: ["datsu", "datsu"],
     ohu: ["só", "ʃoː"],

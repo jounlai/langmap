@@ -664,7 +664,7 @@ WORDS.heart = {
     pura: ["*śüdäme", "ɕydæme"],
     p_dra: ["*neñcu", "neɲtʃu"],
     paus: ["*ajem", "ajem"],
-    zh_song: ["心", "siəm"],
+    zh_yuan: ["心", "siəm"],
     zh_wenyan_edu: ["心", "sɐm˥"],
     zh_han: ["心", "sjǝm"],
     zh_tang: ["心", "sim"],

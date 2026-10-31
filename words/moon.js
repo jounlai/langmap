@@ -656,7 +656,7 @@ WORDS.moon = {
     pura: ["*kuŋe", "kuŋe"],
     p_dra: ["*nilā", "nilaː"],
     paus: ["*bulaN", "bulaN"],
-    zh_song: ["月", "iuɛ"],
+    zh_yuan: ["月", "iuɛ"],
     zh_wenyan_edu: ["月", "jyːt˨"],
     zh_han: ["月", "ŋwat"],
     zh_tang: ["月", "ŋuat"],

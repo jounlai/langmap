@@ -600,7 +600,7 @@ WORDS.blood = {
     pura: ["*were", "were"],
     p_dra: ["*nettur", "nettur"],
     paus: ["*daRaq", "daRaq"],
-    zh_song: ["血", "xiɛ"],
+    zh_yuan: ["血", "xiɛ"],
     zh_wenyan_edu: ["血", "hyːt˧"],
     zh_han: ["血", "w̥iǝ̄t"],
     zh_tang: ["血", "hwɛt"],

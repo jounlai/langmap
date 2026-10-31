@@ -344,7 +344,7 @@
         { wo: 'SVO', tone: false, morph: 'fusional' });
     set(['ru','uk','be','pl','cs','sk','sl','bg','mk','sr','hr','bs','cu'],
         { wo: 'SVO', tone: false, morph: 'fusional' });
-    set(['zh','zh_sc','zh_db','wuu','nan','yue','cdo','hak_cn','zh_song','zh_han','zh_tang',
+    set(['zh','zh_sc','zh_db','wuu','nan','yue','cdo','hak_cn','zh_yuan','zh_han','zh_tang',
          // Other Mandarin / Sinitic varieties + pedagogical Sino-readings.
          // Without these the rows whose family is "Sino-Tibetan (Sinitic, …)"
          // fall through to the Sino-Tibetan family default (morph: agglutinative),

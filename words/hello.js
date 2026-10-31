@@ -659,7 +659,7 @@ WORDS.hello = {
     pura: ["—", "—"],
     p_dra: ["—", "—"],
     paus: ["—", "—"],
-    zh_song: ["萬福", "ʋan fu"],
+    zh_yuan: ["萬福", "ʋan fu"],
     zh_wenyan_edu: ["萬福", "maːn˨ fʊk˥"],
     zh_han: ["萬福", "mwanh pwǝk"],
     zh_tang: ["萬福", "muan puwk"],

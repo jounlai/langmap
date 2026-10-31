@@ -15,7 +15,7 @@
  * remaining 66 are frozen in the lock below.
  *
  * NOT flagged, deliberately:
- *   - och, zh_tang, zh_han, zh_song and zh_wenyan_edu. Old and Middle Chinese
+ *   - och, zh_tang, zh_han, zh_yuan and zh_wenyan_edu. Old and Middle Chinese
  *     reconstructions use category labels and asterisked notation, not Chao
  *     letters, and are right not to have them.
  *   - anything that is not a single Han character. Compounds undergo sandhi and
@@ -44,7 +44,7 @@ for (const f of ['wordmap_data.js', 'wordmap_meta.js'])
 const LANG_DATA = vm.runInContext('LANG_DATA', c);
 
 // Reconstructions, which legitimately carry no Chao letters.
-const RECONSTRUCTED = new Set(['och', 'zh_tang', 'zh_han', 'zh_song', 'zh_wenyan_edu']);
+const RECONSTRUCTED = new Set(['och', 'zh_tang', 'zh_han', 'zh_yuan', 'zh_wenyan_edu']);
 const HAN = /^[一-鿿]+$/u;
 const TONE = /[˥-˩]/u;
 

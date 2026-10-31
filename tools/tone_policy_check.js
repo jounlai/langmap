@@ -88,7 +88,7 @@
  * ALLOW: rows whose family says reconstruction (Proto-*, Old/Middle Chinese).
  * Their accent is reconstruction accent and their "IPA" is normalised
  * reconstruction, not transcription — p_ine *h₁óh₃s /h₁oh₃s/ is not a dropped
- * tone. That exempts 9 p_ine + 7 pban cells from B and zh_song/zh_tang from A.
+ * tone. That exempts 9 p_ine + 7 pban cells from B and zh_yuan/zh_tang from A.
  *
  * NOT WIRED INTO check_all.js. The 442 cells it reports are real and none of
  * them is fixable by this tool: 176 need a source, 266 need a five-second look

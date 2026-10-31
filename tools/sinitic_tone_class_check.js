@@ -282,7 +282,7 @@ for (const id of Object.keys(W)) {
     // The coda test has to allow the TONE LETTERS that follow it. Written
     // without them this required the IPA to end in the stop itself, which
     // only the rows that write no tone at all ever do — och, zh_tang,
-    // zh_song, zh_han, oko. Measured before the fix: of 1048 入-class cells
+    // zh_yuan, zh_han, oko. Measured before the fix: of 1048 入-class cells
     // just 61 matched, so `checked` never filled for any of the 58 modern
     // Sinitic rows and the 入聲 guard below skipped every one of them,
     // silently, while this file's header advertised that it checks 平 and 入.

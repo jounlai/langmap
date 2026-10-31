@@ -657,7 +657,7 @@ WORDS.love = {
     pura: ["—", "—"],
     p_dra: ["—", "—"],
     paus: ["—", "—"],
-    zh_song: ["愛", "ai"],
+    zh_yuan: ["愛", "ai"],
     zh_wenyan_edu: ["愛", "ɔːi˧"],
     zh_han: ["愛", "ʔǝ̄ś"],
     zh_tang: ["愛", "ʔəj"],

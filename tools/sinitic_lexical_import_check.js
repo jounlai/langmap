@@ -177,7 +177,7 @@ const ALLOW = {
     'we|cjy_xz': true,
 };
 
-// Varieties of one language. Historical stages (zh_song, zh_han …) are left out
+// Varieties of one language. Historical stages (zh_yuan, zh_han …) are left out
 // on purpose: they are not varieties of modern Mandarin and would flood this.
 const GROUPS = {
     nan: /^nan(_|$)/, hak: /^hak(_|$)/, yue: /^yue(_|$)/, wuu: /^wuu(_|$)/,

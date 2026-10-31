@@ -544,7 +544,7 @@ WORDS.white = {
     p_dra: ["*weḷ-", "weɭ"],
     paus: ["*ma-puNi", "ma-puNi"],
     p_viet: ["*k-laŋʔ", "k-laŋʔ"],
-    zh_song: ["白", "pai"],
+    zh_yuan: ["白", "pai"],
     zh_wenyan_edu: ["白", "paːk˨"],
     zh_han: ["白", "brāk"],
     zh_tang: ["白", "baɨjk"],

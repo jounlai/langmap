@@ -443,7 +443,7 @@ WORDS.bird = {
     pura: ["*linta", "linta"],
     p_dra: ["*puḷ", "puɭ"],
     paus: ["*manuk", "manuk"],
-    zh_song: ["鳥", "niɛu"],
+    zh_yuan: ["鳥", "niɛu"],
     zh_wenyan_edu: ["鳥", "niːu˩˧"],
     zh_han: ["鳥", "tiǝ̄́w"],
     zh_tang: ["鳥", "tɛw"],

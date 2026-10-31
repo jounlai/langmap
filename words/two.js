@@ -664,7 +664,7 @@ WORDS.two = {
       pura: ["*kakta", "kakta"],
       p_dra: ["*iraṇṭu", "iraṇṭu"],
       paus: ["*duSa", "duSa"],
-      zh_song: ["二", "ɽʅ"],
+      zh_yuan: ["二", "ɽʅ"],
       zh_wenyan_edu: ["二", "jiː˨"],
       zh_han: ["二", "ńǝś"],
       zh_tang: ["二", "ȵi"],

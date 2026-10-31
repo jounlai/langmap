@@ -166,7 +166,7 @@ WORDS.sugar = {
     fro: "sharkara",
     enm: "sharkara",
     en_em: "sharkara",
-    zh_song: "tang",
+    zh_yuan: "tang",
     fa_clas: "sharkara",
     fr_class: "sharkara",
     cnp: "tang",
@@ -963,7 +963,7 @@ WORDS.sugar = {
     fro: ["çucre", "ˈtsykrə"],
     enm: ["sugre", "ˈsiu̯ɡər"],
     en_em: ["sugar", ""],
-    zh_song: ["糖", "tʰaŋ"],
+    zh_yuan: ["糖", "tʰaŋ"],
     fa_clas: ["شکر", "ʃakar"],
     fr_class: ["sucre", "sykr"], // was ["sucre", "sykʁ"] (vi dialect rules 2026-10-06)
     cnp: ["白糖", "piɐk˨ taŋ˨˩"],

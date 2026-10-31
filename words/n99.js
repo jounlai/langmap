@@ -217,7 +217,7 @@ WORDS.n99 = {
     njo: "dec",
     sip: "mult",
     zh_han: "mult",
-    zh_song: "mult",
+    zh_yuan: "mult",
     got: "dec",
     ar_qur: "plural",
     vro: "mult",
@@ -966,7 +966,7 @@ WORDS.n99 = {
     njo: ["tukur-tuku", "tukuɹ tuku"],
     sip: ["དགུ་བཅུ་གོ་དགུ", "ɡuptɕu ɡoɡu"],
     zh_han: ["九十九", "kǝ́w ɡjǝp kǝ́w"],
-    zh_song: ["九十九", "kiəu ʂi kiəu"],
+    zh_yuan: ["九十九", "kiəu ʂi kiəu"],
     got: ["𐌽𐌹𐌿𐌽𐍄𐌴𐌷𐌿𐌽𐌳 𐌾𐌰𐌷 𐌽𐌹𐌿𐌽", "ˈniunteːhund jah niun"], // was ["𐌽𐌹𐌿𐌽𐍄𐌴𐌷𐌿𐌽𐌳 𐌾𐌰𐌷 𐌽𐌹𐌿𐌽", "ˈniunteːhund jah ˈniun"] (vi dialect rules 2026-10-06)
     ar_qur: ["تسع وتسعون", "tisʕun wa tisʕuːn"],
     vro: ["ütessäkümmend ütessä", "ytesːækymːend ytesːæ"],

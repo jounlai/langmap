@@ -248,7 +248,7 @@ WORDS.milkyway = {
     och: "river",
     zh_han: "river",
     zh_tang: "river",
-    zh_song: "river",
+    zh_yuan: "river",
     zh_wenyan_edu: "river",
     vi_han: "river",
     ja_kanbun: "river",
@@ -482,7 +482,7 @@ WORDS.milkyway = {
     och: ["雲漢", "*[ɢ]ʷə[n] n̥ˤar-s"],  // 雲漢 'the cloud Han' names the Milky Way after the Han River in the Shijing ode 'Bright is that Yunhan, turning across the sky'.
     zh_han: ["河漢", "ɣǟ ŋ̥ānh"],  // 河漢 joins the names of the Yellow River and the Han River; one of the Eastern Han Nineteen Old Poems says '河漢清且淺' 'the Milky Way is clear and shallow'.
     zh_tang: ["銀河", "ŋjin ɦa"],  // 銀河 'silver river' is the Tang name Li Bai uses when he likens a waterfall to the Milky Way falling from the ninth heaven.
-    zh_song: ["銀河", "iən xɔ"],  // 銀河 'silver river' is the Milky Way of Bai Pu's Yuan drama Rain on the Paulownia Tree, beside 銀漢 and 天河 in the same act.
+    zh_yuan: ["銀河", "iən xɔ"],  // 銀河 'silver river' is the Milky Way of Bai Pu's Yuan drama Rain on the Paulownia Tree, beside 銀漢 and 天河 in the same act.
     zh_wenyan_edu: ["銀河", "ŋɐn˨˩ hɔː˨˩"],  // 銀河 'silver river' is the Classical Chinese name of Li Bai's famous waterfall line, read ngan4 ho4 in Cantonese.
     vi_han: ["銀河", "ŋən˧˧ haː˨˩"],  // 銀河 'silver river' is read Ngân Hà in Sino-Vietnamese.
     ja_kanbun: ["銀河", "ɡiŋɡa"],  // 銀河 'silver river' came into Japanese with Chinese verse and is first cited in the Kaifūsō of 751.

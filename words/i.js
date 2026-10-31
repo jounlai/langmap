@@ -664,7 +664,7 @@ WORDS.i = {
       pura: ["*mun", "mun"],
       p_dra: ["*yān", "jaːn"],
       paus: ["*aku", "aku"],
-      zh_song: ["我", "ŋɔ"],
+      zh_yuan: ["我", "ŋɔ"],
       zh_wenyan_edu: ["我", "ŋɔː˩˧"],
       zh_han: ["我", "ŋhǟ́"],
       zh_tang: ["我", "ŋa"],

@@ -1040,7 +1040,7 @@ WORDS.book = {
     guu: ["ɾipɾo", "ɾipɾo"],
     pt_gw: ["libru", "ˈlibru"],
     tar: ["libro", "libɾo"],
-    zh_song: ["書", "ʂiu"],
+    zh_yuan: ["書", "ʂiu"],
     xqa: ["bitig", "bitiɡ"],
     otk: ["𐰋𐰃𐱅𐰃𐰏", "bitiɡ"],
     ohu: ["könyv", "køɲv"],

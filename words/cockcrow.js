@@ -242,8 +242,8 @@
  *                  entry for 喈. Its phonetic series neighbours 皆 and 階 do.
  *                  Zhengzhang gives *kriːl, but putting Zhengzhang in a B–S
  *                  row is the notation mismatch this atlas keeps catching.
- *   zh_han, zh_song, vi_han, vi_nom are open. The first two write their
- *                  readings inconsistently (zh_song has Baxter MC for cuckoo
+ *   zh_han, zh_yuan, vi_han, vi_nom are open. The first two write their
+ *                  readings inconsistently (zh_yuan has Baxter MC for cuckoo
  *                  and tone letters for woof), and the Vietnamese pair needs
  *                  the Sino-Vietnamese reading of 喈. Decide, then fill.
  *
@@ -587,6 +587,6 @@ WORDS.cockcrow = {
     zh_db: ["喔喔", "wo˥ wo˥"],
     dnj: ["kɔ̏kɔ̏ŋkɔ́ɔ̏", "kɔ̏kɔ̏ŋkɔ́ɔ̏"],
     ar: ["كُوكُوكُوكُو", "kuːkuːkuːkuː"],
-    zh_song: ["喈喈", "kiai kiai"]
+    zh_yuan: ["喈喈", "kiai kiai"]
   },
 };

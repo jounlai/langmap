@@ -8,28 +8,28 @@
     "hash": "af605212ac66624c"
   },
   "hanmap_data.js": {
-    "version": 211,
-    "hash": "be20780169f5a3f4"
+    "version": 212,
+    "hash": "aea1f9db5afd6737"
   },
   "hanmap_trivia_rt/base.js": {
     "version": 7,
     "hash": "fff5ad72df1a6d10"
   },
   "lang-filter.js": {
-    "version": 64,
-    "hash": "43903101a99695e4"
+    "version": 65,
+    "hash": "4207778dc948809f"
   },
   "lang-picker.js": {
     "version": 9,
     "hash": "9138a4edce5210d7"
   },
   "lang_attention.js": {
-    "version": 4,
-    "hash": "a2f752ffa336d86b"
+    "version": 5,
+    "hash": "79303aacc79cf6a6"
   },
   "lang_names/en.js": {
-    "version": 220,
-    "hash": "083cc69b669f054a"
+    "version": 221,
+    "hash": "6e8310deb953310b"
   },
   "lang_names_shim.js": {
     "version": 5,
@@ -80,8 +80,8 @@
     "hash": "86181f3bf041494a"
   },
   "progress_data.js": {
-    "version": 502,
-    "hash": "c4d73314bd5758c6"
+    "version": 503,
+    "hash": "0e65c70bd3897275"
   },
   "pwa.js": {
     "version": 2,
@@ -112,11 +112,11 @@
     "hash": "d8b1aec70df8e19b"
   },
   "word_manifest.js": {
-    "version": 1268,
+    "version": 1269,
     "hash": "8f8842e13239e2b3"
   },
   "wordmap_data.js": {
-    "version": 360,
-    "hash": "ea5512a32b707382"
+    "version": 361,
+    "hash": "0ff13a400be86b3f"
   }
 }

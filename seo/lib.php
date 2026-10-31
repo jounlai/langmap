@@ -254,6 +254,12 @@ const SEO_RENAMED_CODES = [
     // Bai [bca] (Glottolog; r36 a2). The Word Map's bca row is Jianchuan, which
     // really is Central Bai, so /wordmap/bca resolves and never reaches this.
     'bca' => 'bfs',
+    // Sinitic rows aligned across the two maps (2026-10-31). The Word Map's
+    // Zhongyuan Yinyun row took the Han Map's code for the same row, and the Han
+    // Map's Baxter-Sagart row took the Word Map's och. /wordmap/zh_han is still a
+    // live Han-period row, so only /hanmap/zh_han reaches this.
+    'zh_song' => 'zh_yuan',
+    'zh_han' => 'och',
 ];
 
 /**
@@ -4520,7 +4526,7 @@ function seo_native_redundant(string $name, string $native): bool
 function seo_lang_aliases(string $ui, string $code, string $primary, string $native, int $max = 3, array $extra = []): array
 {
     $cand = [];
-    // Codes the Han Map renames (zh_han, ko_mid, zh_jh) mean different things on
+    // Codes the Han Map renames (ko_mid, zh_jh) mean different things on
     // the two maps, so the other map's names are not aliases: keep only the map
     // whose name is the page's primary one (rally r30: "Old Chinese
     // (Han-period Chinese)", "中世韓国語 (後期中世韓国語)").

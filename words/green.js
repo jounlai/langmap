@@ -1004,7 +1004,7 @@ WORDS.green = {
     qxs: ["χueχue", "χue˧˧χue˧˩"],
     piu: ["kuriinwana", "kuɻiːnwana"],
     kgg: ["hərgun", "hərɡun"],
-    zh_song: ["綠", "liu"],
+    zh_yuan: ["綠", "liu"],
     pmh: ["हरिय", "harija"],
     xag: ["dai", "dai"],
     xng: ["ᠨ᠋ᠣᠬᠤᠬᠠᠨ", "noqoan"],

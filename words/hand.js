@@ -663,7 +663,7 @@ WORDS.hand = {
     pura: ["*käti", "kæti"],
     p_dra: ["*kay", "kaj"],
     paus: ["*lima", "lima"],
-    zh_song: ["手", "ʂiəu"],
+    zh_yuan: ["手", "ʂiəu"],
     zh_wenyan_edu: ["手", "sɐu˧˥"],
     zh_han: ["手", "shǝ́w"],
     zh_tang: ["手", "ɕuw"],

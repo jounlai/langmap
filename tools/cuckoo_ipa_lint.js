@@ -27,7 +27,7 @@ const TONAL_PREFIXES = [
 ];
 // Historical/reconstructed Sinitic stages that use reconstruction notation,
 // not Chao letters — exempt from the tone check even though they start "zh_".
-const HISTORICAL_EXEMPT = new Set(['och', 'ltc', 'zh_song', 'zh_tang', 'zh_han', 'zh_wenyan_edu', 'vi_han', 'vi_nom']);
+const HISTORICAL_EXEMPT = new Set(['och', 'ltc', 'zh_yuan', 'zh_tang', 'zh_han', 'zh_wenyan_edu', 'vi_han', 'vi_nom']);
 const RECON_MARK = /[*ˤ]|[HXꟲ]|·/;   // Baxter H/X, proto asterisk, etc.
 const isTonal = (code, ipa) => {
   if (HISTORICAL_EXEMPT.has(code)) return false;

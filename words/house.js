@@ -656,7 +656,7 @@ WORDS.house = {
     pura: ["*kota", "kota"],
     p_dra: ["*il", "il"],
     paus: ["*Rumaq", "Rumaq"],
-    zh_song: ["屋", "u"],
+    zh_yuan: ["屋", "u"],
     zh_wenyan_edu: ["屋", "ʊk˥"],
     zh_han: ["屋", "ʔōk"],
     zh_tang: ["屋", "ʔəwk"],

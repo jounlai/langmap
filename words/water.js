@@ -657,7 +657,7 @@ WORDS.water = {
     pura: ["*wete", "wete"],
     p_dra: ["*nīr", "niːr"],
     paus: ["*daNum", "daNum"],
-    zh_song: ["水", "ʂui"],
+    zh_yuan: ["水", "ʂui"],
     zh_wenyan_edu: ["水", "sɵy˧˥"],
     zh_han: ["水", "ćwǝ́j"],
     zh_tang: ["水", "ɕwi"],

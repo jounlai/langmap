@@ -395,7 +395,7 @@ WORDS.sleep = {
     p_sit: ["*yip", "jip"],
     p_dra: ["*tuñc-", "tuɲtʃ"],
     paus: ["*tuduR", "tuduR"],
-    zh_song: ["睡", "ʂui"],
+    zh_yuan: ["睡", "ʂui"],
     zh_wenyan_edu: ["寐", "mei˨"],
     zh_han: ["寐", "m(h)jǝś"],
     zh_tang: ["眠", "mɛn"],

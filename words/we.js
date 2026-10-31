@@ -547,7 +547,7 @@ WORDS.we = {
     pura: "single",
     p_dra: "clusive",
     paus: "clusive",
-    zh_song: "single",
+    zh_yuan: "single",
     zh_wenyan_edu: "single",
     zh_han: "single",
     zh_tang: "single",
@@ -1738,7 +1738,7 @@ WORDS.we = {
     pura: ["*me", "me"],
     p_dra: ["*ñām / *yām", "ɲaːm / jaːm"],
     paus: ["*kita / *kami", "kita / kami"],
-    zh_song: ["我等", "ŋɔ təŋ"], // was ["我等", "ŋɔ˧˩ təŋ˧˩"] (zh_song rebuild 2026-10-04)
+    zh_yuan: ["我等", "ŋɔ təŋ"], // was ["我等", "ŋɔ˧˩ təŋ˧˩"] (zh_yuan rebuild 2026-10-04)
     zh_wenyan_edu: ["我等", "ŋɔː˩˧ tɐŋ˧˥"], // was ["我等", "ŋɔ˩˧ tɐŋ˧˥"] (vi dialect rules 2026-10-06)
     zh_han: ["我等", "ŋhǟ́ tǝ̄́ŋ"], // was ["我等", "ŋɑiˀ təŋˀ"] (zh_han rebuild 2026-10-04)
     zh_tang: ["我等", "ŋa təŋ"], // was ["我等", "ŋɑ˧˩ təŋ˧˩"] (zh_tang rebuild 2026-10-04)

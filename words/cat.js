@@ -659,7 +659,7 @@ WORDS.cat = {
     pura: ["—", "—"],
     p_dra: ["*pillV", "pillV"],
     paus: ["—", "—"],
-    zh_song: ["貓", "mau"],
+    zh_yuan: ["貓", "mau"],
     zh_wenyan_edu: ["貓", "maːu˥"],
     zh_han: ["貓", "mhrāw"],
     zh_tang: ["貓", "maɨw"],

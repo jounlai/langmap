@@ -1117,7 +1117,7 @@ WORDS.new = {
     jqr: ["machaqa", "matʃaqa"],
     yuy: ["ʃənə", "ʃənə"],
     mjg: ["xni", "ɕni"],
-    zh_song: ["新", "siən"],
+    zh_yuan: ["新", "siən"],
     pmh: ["णव", "ɳaʋa"],
     xqa: ["yaŋı", "jaŋɯ"],
     juc: ["ice", "itʃə"],

@@ -657,7 +657,7 @@ WORDS.star = {
       pura: ["*täštä", "tæʃtæ"],
       p_dra: ["*cukkV", "tʃukkV"],
       paus: ["*bituqen", "bituqen"],
-      zh_song: ["星", "siəŋ"],
+      zh_yuan: ["星", "siəŋ"],
       zh_wenyan_edu: ["星", "sɪŋ˥"],
       zh_han: ["星", "shiēŋ"],
       zh_tang: ["星", "sɛjŋ"],

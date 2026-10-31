@@ -950,7 +950,7 @@ WORDS.blue = {
     zh: "distinct",
     zh_tw: "distinct",
     zu: "grue",
-    zh_song: "distinct", // r88: route for the new blue cell,
+    zh_yuan: "distinct", // r88: route for the new blue cell,
     qwc: "distinct", // r88: route for the new blue cell
     dzg: "grue",
     gha: "borrowed",
@@ -1863,7 +1863,7 @@ WORDS.blue = {
     zh: ["蓝", "lan˧˥"],  // Modern Mandarin 蓝 lán against 绿 lǜ. The older grue term is 青 qīng, which ran from yellow-green through deep blue to black and survives in 青草, 青天, 青丝 — Chinese split the range historically rather than lexically.
     zh_tw: ["藍", "lan˧˥"],  // Taiwan Mandarin, traditional 藍 for the same term as zh.
     zu: ["luhlaza", "luˈɬaːza"],  // One basic term for blue and green. Blue is specified as luhlaza okwesibhakabhaka 'like the sky', green as luhlaza okotshani 'like grass'. Also 'raw, unripe, clear (of water)'. Cited as a relative stem to match -bomvu/-mhlophe/-mnyama in this row.
-    zh_song: ["藍", "lam"],
+    zh_yuan: ["藍", "lam"],
     qwc: ["anqas", "aŋqas"], // was ["anqas", "anqas"] (vi dialect rules 2026-10-06)
     dzg: ["ziri", "zɪ̀rɪ́"],  // One word for blue and green ('bleu, vert, verdâtre').
     gha: ["ləzrəg", "ləzrəɡ"],  // A verb borrowed from Arabic azraq "blue" (Lanfry marks it ar.).

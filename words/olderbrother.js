@@ -728,6 +728,15 @@ WORDS.olderbrother = {
     kgg: "age",
     ale: "age",
     koy: "age",
+    non: "plain",
+    goh: "plain",
+    fro: "plain",
+    sga: "plain",
+    cu: "plain",
+    orv: "plain",
+    got: "plain",
+    ave: "plain",
+    it_dan: "plain",
   },
   routes: {
     age: {"color":"#db2777","emoji":"👆","en":"a word just for an older brother","ja":"兄だけを指す語","ko":"형만 가리키는 낱말","zh":"专指哥哥的词","yue":"專指哥哥嘅詞","vi":"từ riêng cho anh","th":"คำเฉพาะสำหรับพี่ชาย","id":"kata khusus untuk kakak","hi":"बड़े भाई का अलग शब्द","de":"eigenes Wort für den älteren Bruder","fr":"un mot propre au frère aîné","it":"una parola solo per il fratello maggiore","es":"una palabra solo para el hermano mayor","pt":"uma palavra só para o irmão mais velho","ru":"отдельное слово для старшего брата","uk":"окреме слово для старшого брата","ar":"كلمة خاصة بالأخ الأكبر","he":"מילה מיוחדת לאח הגדול","sw":"neno maalum kwa kaka mkubwa"},
@@ -1397,5 +1406,14 @@ WORDS.olderbrother = {
     kgg: ["mom", "mom"],  // Kusunda has separate words by age: mom is an elder brother and bʰəya a younger brother (elder sister bai, younger sister binəi).
     ale: ["ludax̂", "luðaχ"],  // Eastern Aleut ludax̂ (Atkan luyax̂) is a man's older brother or a woman's older sister; the younger counterpart is kingix̂, and agiitudax̂ is a brother in general.
     koy: ["boogha", "boːɣa"],  // Literally 'his older brother' (addressed as sooghaa); a younger brother is bikitt'a, addressed kitt'aa.
+    non: ["bróðir", "ˈbroːðir"],  // The general word for 'brother', with no separate word for an older one.
+    goh: ["bruoder", "ˈbruoðer"],  // The general word for 'brother', with no separate word for an older one.
+    fro: ["frere", "ˈfreːrə"],  // From Latin frāter. The general word for 'brother', with no separate word for an older one.
+    sga: ["bráthair", "ˈbraːθirʲ"],  // Also 'cousin, kinsman'; there is no separate word for an older brother.
+    cu: ["братръ", "bratrŭ"],  // The general word for 'brother', with no separate word for an older one.
+    orv: ["братъ", "bratŭ"],  // The general word for 'brother', with no separate word for an older one.
+    got: ["𐌱𐍂𐍉𐌸𐌰𐍂", "ˈbroːθar"],  // Brōþar: the general word for 'brother', with no separate word for an older one.
+    ave: ["𐬠𐬭𐬁𐬙𐬀𐬭", "braːtar"],  // The general word for 'brother', with no separate word for an older one.
+    it_dan: ["fratello", "fraˈtɛllo"],  // From Latin frātellus, a diminutive of frāter. The general word for 'brother', with no separate word for an older one.
   },
 };

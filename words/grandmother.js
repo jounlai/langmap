@@ -305,7 +305,7 @@ WORDS.grandmother = {
     rw: "unknown",
     sn: "unknown",
     am: "one",
-    ti: "unknown",
+    ti: "one",
     ak: "unknown",
     ff: "one",
     min: "unknown",
@@ -371,7 +371,7 @@ WORDS.grandmother = {
     iu: "unknown",
     csb: "one",
     hsb: "unknown",
-    krl: "unknown",
+    krl: "one",
     olo: "unknown",
     dsb: "unknown",
     pon: "one",
@@ -857,7 +857,7 @@ WORDS.grandmother = {
     rw: ["nyogokuru", "ɲoɡokuɾu"],  // The everyday word for grandmother; nyirakuru is the formal synonym.
     sn: ["ambuya", "ambuja"],  // The everyday word for grandmother (short form mbuya); its counterpart is sekuru 'grandfather'.
     am: ["ሴት አያት", "set ajat"],  // Literally 'female grandparent' (ሴት 'woman' + አያት 'grandparent').
-    ti: ["ዓባይ", "ʕabaj"],  // The everyday word for grandmother, also said ኣደይ ዓባይ.
+    ti: ["ዓባይ", "ʕabaj"],  // The everyday word for grandmother, also said ኣደይ ዓባይ. One word for either grandmother, as in Amharic.
     ak: ["nanabaa", "nanabaː"],  // Built on nana 'grandparent', which is also used on its own.
     ff: ["maama", "maːma"],  // A word for a grandparent of either sex, inherited from Proto-Fula-Sereer *maam.
     min: ["anduang", "anduaŋ"],  // The Minangkabau word for grandmother, borrowed into Indonesian as andung.
@@ -923,7 +923,7 @@ WORDS.grandmother = {
     iu: ["ᐊᓈᓇᑦᓯᐊᖅ", "anaːnatsiaq"],  // Built on anaana 'mother'; the grandfather is ataatatsiaq.
     csb: ["starka", "ˈstarka"],  // Feminine of stark 'grandfather'; babcza and óma are synonyms. One word for either grandmother.
     hsb: ["wowka", "ˈwɔwka"],  // From wowa with the suffix -ka, from Proto-Slavic *ova.
-    krl: ["ämmö", "ˈæmːø"],  // From Proto-Finnic *ämmoi; dialectal ämmä is a synonym.
+    krl: ["ämmö", "ˈæmːø"],  // From Proto-Finnic *ämmoi; dialectal ämmä is a synonym. One word for either grandmother, as in Finnish.
     olo: ["buabo", "ˈbuabo"],  // Borrowed from East Slavic, ultimately Proto-Slavic *baba.
     dsb: ["stara mama", "stara mama"],  // Literally 'old mother'; the German loans grosa and grosmuter(ka) are also used.
     pon: ["nohno kahlap", "noːno kaːlap"],  // Literally 'grand mother' (nohno 'mother' + kahlap 'grand'), used for either grandmother; the grandfather is pahpa kahlap.

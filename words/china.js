@@ -225,7 +225,7 @@ WORDS.china = {
     crh: "cina",
     sah: "khitan",
     is: "cina",
-    dv: "unknown",
+    dv: "cina",
     udm: "khitan",
     krc: "khitan",
     tyv: "khitan",

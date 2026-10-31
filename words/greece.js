@@ -103,7 +103,7 @@ WORDS.greece = {
     nan: "hellas",
     hak_cn: "hellas",
     es: "graecia",
-    yo: "unknown",
+    yo: "graecia",
     pl: "graecia",
     kn: "graecia",
     su: "ionia",
@@ -537,7 +537,7 @@ WORDS.greece = {
     nan: ["希臘", "hi˦˦ liap˦"],  // Hi-lia̍p, the Taiwanese reading of 希臘, ultimately from Ancient Greek Ἑλλάς Hellas (Wiktionary).
     hak_cn: ["希腊", "hi˦ lap˥"],  // The Meixian Hakka reading of 希臘, ultimately from Ancient Greek Ἑλλάς Hellas (Wiktionary).
     es: ["Grecia", "ˈɡɾeθja"],  // A learned borrowing from Latin Graecia, from Ancient Greek Γραικός (Wiktionary).
-    yo: ["Gíríìsì", "ɡíɾíìsì"],  // The Yoruba Wikipedia's name for Greece; no source gives the path of the word.
+    yo: ["Gíríìsì", "ɡíɾíìsì"],  // The Yoruba Wikipedia's name for Greece; no source gives the path of the word. From English Greece.
     pl: ["Grecja", "ˈɡrɛtsja"],  // A learned borrowing from Latin Graecia (Wiktionary).
     kn: ["ಗ್ರೀಸ್", "ɡɾiːs"],  // The Kannada Wikipedia's name for Greece; no source gives the path of the word. Route by resemblance to the neighbouring forms (en(Greece) bn(গ্রিস)); no etymology of its own.
     su: ["Yunani", "junani"],  // The Sundanese Wikipedia's name for Greece, the same as Indonesian Yunani; no source gives the path for Sundanese. Route by resemblance to the neighbouring forms (id(Yunani) ms(Yunani)); no etymology of its own.

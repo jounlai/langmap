@@ -652,7 +652,7 @@ WORDS.olderbrother = {
     nia: "age",
     tly: "age",
     fur: "plain",
-    rue: "unknown",
+    rue: "plain",
     mev: "age",
     kxc: "age",
     maw: "age",

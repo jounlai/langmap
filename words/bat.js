@@ -177,11 +177,11 @@ WORDS.bat = {
     mnc: "mouse",
     ar_eg: "other",
     ar_ma: "other",
-    ti: "unknown",
+    ti: "plain",
     mt: "other",
     ibb: "unknown",
     ha: "plain",
-    wo: "unknown",
+    wo: "plain",
     ln: "plain",
     ny: "plain",
     en_aave: "plain",
@@ -553,7 +553,7 @@ WORDS.bat = {
     kac: "unknown",
     tji: "unknown",
     pcd: "mouse",
-    fur: "unknown",
+    fur: "other",
     rue: "unknown",
     nij: "unknown",
     ksb: "unknown",
@@ -725,7 +725,7 @@ WORDS.bat = {
     mnc: ["ᡶᡝᡵᡝᡥᡝ ᠰᡳᠩᡤᡝᡵᡳ", "fərəxə siŋɡəri"],  // The second word is singgeri 'mouse, rat'; the synonym ashangga singgeri also ends in 'mouse'.
     ar_eg: ["خفاش", "xufˈfaːʃ"],  // Inherited from Arabic خُفَّاش, from a verb meaning 'to be day-blind'.
     ar_ma: ["خفاش", "xuffaːʃ"],  // Inherited from Arabic خُفَّاش; Moroccan also says طير الليل, the 'night bird'.
-    ti: ["መንካዕ", "mɐnkaʕ"],  // The everyday Tigrinya word for bat.
+    ti: ["መንካዕ", "mɐnkaʕ"],  // The everyday Tigrinya word for bat. Unrelated to ኣንጭዋ 'mouse' and ዑፍ 'bird'.
     mt: ["farfett il-lejl", "farfɛt ɪllɛjl"],  // Literally 'butterfly of the night'; the same phrase also means 'moth'.
     ibb: ["mkpekpem", "m̩kpekpem"],  // The Ibibio word for bat; tones are not marked in the source.
     ha: ["jemage", "dʒéːmáːɡèː"],  // The everyday Hausa word for bat. Unrelated to bera 'mouse' and tsuntsu 'bird'.
@@ -1101,7 +1101,7 @@ WORDS.bat = {
     kac: ["patsip", "pʰətsip˥˥"],  // The Jinghpaw word for the bat; the Jinghpaw Bible's Isaiah 2:20 throws idols 'sharu ni hte patsip ni', to the moles and the bats.
     tji: ["retasei", "zie˨˩tʰa˨˩sɯi˥˥"],  // Built from re 'mouse' and tasei 'butterfly', a mouse-butterfly, as Brassett's Tujia lexicon glosses the parts; tones follow Brassett (re3 ta3 sei1).
     pcd: ["cate seuris", "kat søʁi"],  // The same image as French chauve-souris, with seuris 'mouse'; an old Picard rhyme begins 'Cate seuris rapache par chi'.
-    fur: ["gnotul", "ˈɲɔtul"],  // The Friulian word for the bat, with variants notul, gnutul and nuatol; figuratively it also means a dimwit.
+    fur: ["gnotul", "ˈɲɔtul"],  // The Friulian word for the bat, with variants notul, gnutul and nuatol; figuratively it also means a dimwit. Built on gnot 'night'.
     rue: ["пергач", "perˈhatʃ"],  // The Carpathian Rusyn word for the bat, cognate with Ukrainian dialect пергач; the Rusyn Wikipedia also uses the compound мышперхач.
     nij: ["pandan", "pandan"],  // The Ngaju word for the bat in Hardeland's dictionary; pandan doho is a large reddish-brown species.
     ksb: ["ndema", "ndema"],  // The Shambala word for the bat in Seidel's 1895 handbook, a noun of the N- class.

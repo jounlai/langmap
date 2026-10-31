@@ -190,7 +190,7 @@ WORDS.hiccup = {
     bjn: "unknown",
     bs: "imitative",
     zza: "imitative",
-    lmo: "unknown",
+    lmo: "plain",
     ga: "unknown",
     pms: "plain",
     ngl: "unknown",
@@ -380,7 +380,7 @@ WORDS.hiccup = {
     bjn: ["mancigu", "mantʃiɡu"],  // The verb 'to hiccup', formed with the verb prefix man- on cigu, which the dictionary glosses with Indonesian ceguk.
     bs: ["štucanje", "ˈʃtutsaːɲɛ"],  // The verbal noun of štucati 'to hiccup'. Štucati imitates the sound.
     zza: ["zıqık", "zɨˈqɨk"],  // Regional synonyms are zıhrık, zınıkı and hiskık, and to hiccup is zıqık vero amayayış.
-    lmo: ["sajuter", "saˈjyter"],  // Milanese; the Lombard Wiktionary also lists sangot (sangut, sangiut) as a synonym, and to have hiccups is havégh i sajuter.
+    lmo: ["sajuter", "saˈjyter"],  // Milanese; the Lombard Wiktionary also lists sangot (sangut, sangiut) as a synonym, and to have hiccups is havégh i sajuter. From Latin singultus, like Venetian sangiuto.
     ga: ["snag", "sˠn̪ˠaɡ"],  // Tá snag orm 'I have the hiccups'; fail is a synonym, and snag on its own also means a gasp or sob.
     pms: ["sangiut", "saŋˈdʒyt"],  // From Latin singultus, like Italian singhiozzo; the verb is sangiuté or sangiutì.
     ngl: ["naatekhume", "naːtekʰume"],  // The SIL Lomwe dictionary glosses it 'hiccup' and gives neetekhume as a synonym.

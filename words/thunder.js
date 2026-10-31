@@ -260,7 +260,7 @@ WORDS.thunder = {
     agr: "unknown",
     arn: "unknown",
     lkt: "god",
-    kl: "unknown",
+    kl: "plain",
     av: "imitative",
     lez: "sky",
     dar: "unknown",
@@ -429,7 +429,7 @@ WORDS.thunder = {
     kaa: "unknown",
     tyv: "unknown",
     yi: "plain",
-    dv: "unknown",
+    dv: "imitative",
     wa: "plain",
     cbk: "plain",
     blt: "sky",
@@ -676,7 +676,7 @@ WORDS.thunder = {
     dds: "unknown",
     sbp: "unknown",
     an: "plain",
-    lld: "unknown",
+    lld: "plain",
     iu: "unknown",
     dbq: "unknown",
     bzh: "unknown",
@@ -1317,7 +1317,7 @@ WORDS.thunder = {
     dds: ["ana-dɔdu", "anadɔdu"],  // Built on àná 'rain' and the verb dɔ̀d- '(rainstorm) to thunder', so roughly 'the rain's thundering'; lightning is àná gìrù-gɛ̀ndù.
     sbp: ["lugulumo", "luɡulumo"],  // Related to the verb -guluma 'to roar' (used of a lion at Revelation 10:3); the Sangu Bible renders Boanerges as lusawo lwa lugulumo 'sons of thunder' (Mark 3:17), and at John 12:29 the crowd says 'Lugulumo lwa noonya', 'thunder of the rain'.
     an: ["trueno", "ˈtɾweno"],  // The same word as Spanish trueno, from Latin tonus; Aragonese Wikipedia also gives the variants truen and tron.
-    lld: ["tëune", "ˈtəune"],  // The Gherdëina word; Val Badia, Mareo and Fodom Ladin and the written standard say tonn.
+    lld: ["tëune", "ˈtəune"],  // The Gherdëina word; Val Badia, Mareo and Fodom Ladin and the written standard say tonn. From Latin tonitrus, like Italian tuono.
     iu: ["ᑲᓪᓕᖅ", "kalːiq"],  // Romanised kalliq; the same Bible also uses kalluk (Mark 3:17 Kalluup irningik 'sons of thunder'), the form Inuinnaqtun uses.
     dbq: ["van a ləv", "van a ləv"],  // Literally 'the rain makes noise': van is the rain and ləv 'to make a noise'; van a ndul, 'the rain rumbles', is a synonym.
     bzh: ["vaḳuvek", "βaquβək"],  // Hooley's dictionary illustrates it with 'Hob rëḳ geto in vaḳuvek veröp', 'it will rain because it thundered'.

@@ -286,7 +286,7 @@ WORDS.octopus = {
     tet: "plain",
     sah: "eight",
     crh: "other",
-    fur: "unknown",
+    fur: "many",
     br: "other",
     bi: "unknown",
     ami: "unknown",
@@ -521,7 +521,7 @@ WORDS.octopus = {
     tet: ["kurita", "kurita"],  // Inherited from Proto-Austronesian *guʀiCa 'octopus', a cousin of Malay gurita.
     sah: ["аҕыс атах", "aʁɯs atax"],  // Literally 'eight legs': аҕыс 'eight' + атах 'leg', a calque like Russian осьминог.
     crh: ["sprut", "sprut"],  // Borrowed from Russian спрут, which comes from Norwegian blekksprut 'ink squirter'.
-    fur: ["folp", "fɔlp"],  // The Friulian name, given for Italian polpo in ARLeF's bilingual dictionary; compare Venetian folpo.
+    fur: ["folp", "fɔlp"],  // The Friulian name, given for Italian polpo in ARLeF's bilingual dictionary; compare Venetian folpo. From Latin polypus 'many-footed', like Italian polpo.
     br: ["morgazh", "ˈmorɡas"],  // Literally 'sea cat': mor 'sea' + kazh 'cat' (softened to gazh).
     bi: ["nawita", "nawita"],  // The Bislama name, also spelled nakwita; the Bislama Spelling Dictionary glosses it 'octopus, squid'.
     ami: ["solita", "solita"],  // The Amis name; the phrase takora'ay no riyal is a synonym, and Amis Wikipedia titles its octopus article Solita.

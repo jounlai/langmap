@@ -194,7 +194,7 @@ WORDS.jellyfish = {
     si: "unknown",
     pt: "other",
     af: "other",
-    nds: "unknown",
+    nds: "other",
     be: "medusa",
     ky: "medusa",
     tg: "medusa",
@@ -383,7 +383,7 @@ WORDS.jellyfish = {
     si: ["ලොඩි", "loɖi"],  // Carter's dictionary has the animate form ලොඩියා "a sort of jelly-fish".
     pt: ["alforreca", "alfuˈʁɛkɐ"],  // From Arabic for 'the nettle', via Andalusian Arabic; medusa is also used, and Brazil says água-viva.
     af: ["kwal", "kʋal"],  // Cognate with Dutch kwal; the English loan jellievis is also common. Like Dutch kwal, probably from a verb 'to swell'.
-    nds: ["Quall", "kval"],  // Cognate with German Qualle and Dutch kwal.
+    nds: ["Quall", "kval"],  // Cognate with German Qualle and Dutch kwal. Like German Qualle, probably from a verb 'to swell'.
     be: ["медуза", "mʲeˈduza"],  // Like Russian медуза, after the Gorgon Medusa.
     ky: ["медуза", "meˈduza"],  // Borrowed from Russian медуза, named after the Gorgon Medusa.
     tg: ["медуза", "meˈduza"],  // Borrowed from Russian медуза, named after the Gorgon Medusa.

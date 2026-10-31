@@ -193,7 +193,7 @@ WORDS.turkey = {
     tt: "local",
     sc: "india",
     li: "unknown",
-    lmo: "unknown",
+    lmo: "local",
     io: "india",
     fur: "india",
     dsb: "local",
@@ -212,7 +212,7 @@ WORDS.turkey = {
     kl: "unknown",
     arn: "local",
     maz: "unknown",
-    ady: "unknown",
+    ady: "local",
     rm: "unknown",
     en_ng2: "turkey",
     en_my: "turkey",
@@ -339,7 +339,7 @@ WORDS.turkey = {
     kbd: "unknown",
     kha: "peru",
     shy: "unknown",
-    av: "unknown",
+    av: "local",
     iba: "india",
     dag: "local",
     rgn: "local",
@@ -397,7 +397,7 @@ WORDS.turkey = {
     chf: "unknown",
     poh: "local",
     ch: "local",
-    lld: "unknown",
+    lld: "local",
     djk: "india",
     pon: "turkey",
     trv: "local",
@@ -560,7 +560,7 @@ WORDS.turkey = {
     kl: ["qingalissuaq", "qiŋalisːuaq"],  // Greenlandic qingalissuaq (older spelling ĸingaligssuaĸ).
     arn: ["pafu", "pafu"],  // Mapudungun pafu is the turkey. Route by resemblance to the neighbouring forms (Asturian pavu, Quechua pawu); no etymology of its own.
     maz: ["ⱥjnⱥ", "əhnə"],  // Mazahua ⱥjnⱥ is the turkey.
-    ady: ["тхьачэт", "tħaːtʃat"],  // Adyghe тхьачэт (also written тхьэкӏэт).
+    ady: ["тхьачэт", "tħaːtʃat"],  // Adyghe тхьачэт (also written тхьэкӏэт). Тхьэ 'God' plus чэт 'hen'.
     rm: ["galdin", "ɡalˈdin"],  // Romansh galdin is the turkey.
     en_ng2: ["turkey", "ˈtɜːki"],  // First the name of the guinea fowl, brought to Europe via Turkey, then transferred to the American bird.
     en_my: ["turkey", "ˈtɜːki"],  // First the name of the guinea fowl, brought to Europe via Turkey, then transferred to the American bird.
@@ -745,7 +745,7 @@ WORDS.turkey = {
     chf: ["muluʼ", "muluʔ"],  // Keller and Luciano give muluʼ as the general word for the turkey of either sex; the male is ajtzoʼ and the hen nacʼach.
     poh: ["akʼach", "akʼatʃ"],  // The same word as Qʼeqchiʼ, Chʼortiʼ and Chuj akʼach, from Proto-Mayan *ʔakʼ.aach (Kaufman 2003); the wild bird is akʼach yuuqʼ 'turkey of the hills'.
     ch: ["pabo", "ˈpabo"],  // Safford's 1918 dictionary gives pabo for the turkey in both directions, a form like Spanish pavo.
-    lld: ["tachin", "taˈkin"],  // The Gardenese word for the turkey, plural tachins, close to Italian tacchino; the Ladin Wikipedia article uses huder.
+    lld: ["tachin", "taˈkin"],  // The Gardenese word for the turkey, plural tachins, close to Italian tacchino; the Ladin Wikipedia article uses huder. Like Italian tacchino.
     djk: ["kaakun", "kaːkun"],  // Borrowed from Dutch kalkoen, itself named after the Indian port of Calicut, as is Sranan krakun.
     pon: ["teki", "teki"],  // Borrowed from English turkey, like Marshallese take; Rehg's dictionary notes that Pohnpeians like turkey tails (kahwen teki).
     trv: ["rudux kawa", "ɾudux kawa"],  // Literally a kind of chicken: rudux 'chicken' plus kawa, which the ILRDF dictionary glosses 'swollen'; the native hen is rudux balay 'real chicken'.

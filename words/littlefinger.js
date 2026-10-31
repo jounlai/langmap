@@ -233,7 +233,7 @@ WORDS.littlefinger = {
     uz: "plain",
     tg: "small",
     tk: "plain",
-    nap: "unknown",
+    nap: "other",
     azb: "unknown",
     lv: "small",
     bs: "small",
@@ -287,7 +287,7 @@ WORDS.littlefinger = {
     hil: "unknown",
     sat: "unknown",
     ak: "other",
-    ti: "unknown",
+    ti: "plain",
     kab: "small",
     min: "unknown",
     nso: "small",
@@ -373,14 +373,14 @@ WORDS.littlefinger = {
     bnn: "unknown",
     vro: "small",
     abq: "unknown",
-    kl: "unknown",
+    kl: "plain",
     emp: "small",
     haw: "small",
     rar: "small",
     cho: "other",
     hsb: "small",
     frr: "small",
-    krl: "unknown",
+    krl: "plain",
     olo: "unknown",
     kmh: "unknown",
     pau: "child",
@@ -601,7 +601,7 @@ WORDS.littlefinger = {
     uz: ["jimjiloq", "dʒimdʒiˈlɒq"],  // A word of its own; Filippone groups it with other expressive reduplicated little-finger names across the region.
     tg: ["лелача", "lelatʃa"],  // Literally 'little finger': лела 'finger' with a diminutive suffix.
     tk: ["külembike", "kylembiˈke"],  // A word of its own for the little finger; külbike is a shorter variant.
-    nap: ["mignulìllo", "miɲɲuˈlillə"],  // Akin to Italian mignolo; the descriptive dito piccerillo 'little finger' is also used.
+    nap: ["mignulìllo", "miɲɲuˈlillə"],  // Akin to Italian mignolo; the descriptive dito piccerillo 'little finger' is also used. Like Italian mignolo.
     azb: ["چئچله بارماق", "tʃetʃælæ bɑɾmɑɣ"],  // چئچله + بارماق 'finger'; the North Azerbaijani spelling is çeçələ barmaq.
     lv: ["mazais pirkstiņš", "mazais pirkstiɲʃ"],  // Literally 'the small little-finger': the definite form of mazs 'small' with pirkstiņš, a diminutive of pirksts 'finger'.
     bs: ["mali prst", "maːliː prst"],  // Literally 'small finger' (mali 'small' + prst 'finger'); peti prst 'fifth finger' is also used.

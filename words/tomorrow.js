@@ -264,7 +264,7 @@ WORDS.tomorrow = {
     ar_tn: "morning",
     arq: "morning",
     mt: "morning",
-    ti: "unknown",
+    ti: "morning",
     ig: "unknown",
     bom: "unknown",
     tiv: "unknown",
@@ -1067,7 +1067,7 @@ WORDS.tomorrow = {
     ar_tn: ["غدوة", "ˈɣudwa"],  // Ḡodwa comes from Arabic ḡudwa 'early morning' (Wiktionary).
     arq: ["غدوة", "ɣudwa"],  // Ḡudwa comes from Arabic ḡudwa 'early morning' (Wiktionary).
     mt: ["għada", "ˈaːda"],  // Għada keeps Arabic ḡadan 'tomorrow', as the Maghrebi dialects do (Wiktionary). The root għ-d-w also gives Arabic ghudwa 'early morning'.
-    ti: ["ጽባሕ", "tsʼɨbaħ"],  // Ṣəbaḥ is the Tigrinya word for 'tomorrow' (Tigrinya Bible; Wikivoyage).
+    ti: ["ጽባሕ", "tsʼɨbaħ"],  // Ṣəbaḥ is the Tigrinya word for 'tomorrow' (Tigrinya Bible; Wikivoyage). Ṣəbaḥ also means 'morning', the same root as Arabic ṣabāḥ.
     ig: ["echi", "etʃi"],  // Echi is the Igbo word for 'tomorrow' (Igbo Bible; Wikivoyage).
     bom: ["nahwol", "nahwol"],  // Nahwol is the Berom word for 'tomorrow' (Berom Bible).
     tiv: ["kper", "kper"],  // Kper is the Tiv word for 'tomorrow' (Tiv Bible).

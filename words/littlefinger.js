@@ -84,8 +84,8 @@ WORDS.littlefinger = {
     pt_ao: "unknown",
     pt_cv: "unknown",
     pt_br: "unknown",
-    es: "unknown",
-    es_mx: "unknown",
+    es: "other",
+    es_mx: "other",
     it: "other",
     de: "small",
     de_at: "small",
@@ -180,12 +180,12 @@ WORDS.littlefinger = {
     fr_ch: "small",
     fr_class: "small",
     fra_jer: "small",
-    es_co: "unknown",
-    es_cl: "unknown",
-    es_ar: "unknown",
-    es_cu: "unknown",
-    es_pe: "unknown",
-    es_an: "unknown",
+    es_co: "other",
+    es_cl: "other",
+    es_ar: "other",
+    es_cu: "other",
+    es_pe: "other",
+    es_an: "other",
     an: "small",
     eo: "small",
     vo: "plain",
@@ -452,8 +452,8 @@ WORDS.littlefinger = {
     pt_ao: ["mindinho", "mĩˈdiɲu"],  // The everyday word; the more formal dedo mínimo means 'smallest finger'.
     pt_cv: ["mindinho", "mĩˈdiɲu"],  // The everyday word; the more formal dedo mínimo means 'smallest finger'.
     pt_br: ["mindinho", "mĩˈdʒĩɲu"],  // The everyday word; the more formal dedo mínimo means 'smallest finger'.
-    es: ["meñique", "meˈɲike"],  // As an adjective meñique also means 'tiny' colloquially; the formal synonym dedo auricular means 'ear finger'.
-    es_mx: ["meñique", "meˈɲike"],  // As an adjective meñique also means 'tiny' colloquially; the formal synonym dedo auricular means 'ear finger'.
+    es: ["meñique", "meˈɲike"],  // As an adjective meñique also means 'tiny' colloquially; the formal synonym dedo auricular means 'ear finger'. Treccani groups it with Italian mignolo and French mignon 'darling' as pet words.
+    es_mx: ["meñique", "meˈɲike"],  // As an adjective meñique also means 'tiny' colloquially; the formal synonym dedo auricular means 'ear finger'. Treccani groups it with Italian mignolo and French mignon 'darling' as pet words.
     it: ["mignolo", "ˈmiɲɲolo"],  // Treccani groups it with Spanish meñique and French mignon 'darling' as pet words; the anatomical dito auricolare is the 'ear finger'.
     de: ["kleiner Finger", "ˈklaɪ̯nɐ ˈfɪŋɐ"],  // Simply the 'small finger'.
     de_at: ["kleiner Finger", "ˈklaɪ̯nɐ ˈfɪŋɐ"],  // Simply the 'small finger'.
@@ -548,12 +548,12 @@ WORDS.littlefinger = {
     fr_ch: ["petit doigt", "pəti dwa"],  // Literally 'little finger'; the formal auriculaire comes from Latin auriculāris 'of the ear'.
     fr_class: ["petit doigt", "pəti dwa"],  // Literally 'little finger', listed under DOIGT in the Académie's first dictionary of 1694.
     fra_jer: ["p'tit dé", "pti de"],  // Literally 'little finger', dé being the Norman form of doigt.
-    es_co: ["meñique", "meˈɲike"],  // As an adjective meñique also means 'tiny' colloquially; the formal synonym dedo auricular means 'ear finger'.
-    es_cl: ["meñique", "meˈɲike"],  // As an adjective meñique also means 'tiny' colloquially; the formal synonym dedo auricular means 'ear finger'.
-    es_ar: ["meñique", "meˈɲike"],  // As an adjective meñique also means 'tiny' colloquially; the formal synonym dedo auricular means 'ear finger'.
-    es_cu: ["meñique", "meˈɲike"],  // As an adjective meñique also means 'tiny' colloquially; the formal synonym dedo auricular means 'ear finger'.
-    es_pe: ["meñique", "meˈɲike"],  // As an adjective meñique also means 'tiny' colloquially; the formal synonym dedo auricular means 'ear finger'.
-    es_an: ["meñique", "meˈɲike"],  // As an adjective meñique also means 'tiny' colloquially; the formal synonym dedo auricular means 'ear finger'.
+    es_co: ["meñique", "meˈɲike"],  // As an adjective meñique also means 'tiny' colloquially; the formal synonym dedo auricular means 'ear finger'. Treccani groups it with Italian mignolo and French mignon 'darling' as pet words.
+    es_cl: ["meñique", "meˈɲike"],  // As an adjective meñique also means 'tiny' colloquially; the formal synonym dedo auricular means 'ear finger'. Treccani groups it with Italian mignolo and French mignon 'darling' as pet words.
+    es_ar: ["meñique", "meˈɲike"],  // As an adjective meñique also means 'tiny' colloquially; the formal synonym dedo auricular means 'ear finger'. Treccani groups it with Italian mignolo and French mignon 'darling' as pet words.
+    es_cu: ["meñique", "meˈɲike"],  // As an adjective meñique also means 'tiny' colloquially; the formal synonym dedo auricular means 'ear finger'. Treccani groups it with Italian mignolo and French mignon 'darling' as pet words.
+    es_pe: ["meñique", "meˈɲike"],  // As an adjective meñique also means 'tiny' colloquially; the formal synonym dedo auricular means 'ear finger'. Treccani groups it with Italian mignolo and French mignon 'darling' as pet words.
+    es_an: ["meñique", "meˈɲike"],  // As an adjective meñique also means 'tiny' colloquially; the formal synonym dedo auricular means 'ear finger'. Treccani groups it with Italian mignolo and French mignon 'darling' as pet words.
     an: ["chicot", "tʃiˈkot"],  // The 'tiny one', from chicot 'very small'; also dido chicot 'tiny finger'.
     eo: ["etfingro", "etˈfinɡro"],  // Literally 'little finger', with the diminutive -et-, built like dikfingro for the thumb.
     vo: ["rikül", "riˈkyl"],  // A root word of Schleyer's Volapük; the source gives no origin.

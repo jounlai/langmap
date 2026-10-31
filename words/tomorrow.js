@@ -166,9 +166,9 @@ WORDS.tomorrow = {
     xav: "unknown",
     ter: "unknown",
     ake: "unknown",
-    gun: "unknown",
+    gun: "morning",
     sce: "unknown",
-    njo: "unknown",
+    njo: "plain",
     gon: "unknown",
     suk: "unknown",
     rim: "unknown",
@@ -221,8 +221,8 @@ WORDS.tomorrow = {
     rn: "same",
     ln: "same",
     ket: "morning",
-    niv: "unknown",
-    ykg: "unknown",
+    niv: "plain",
+    ykg: "plain",
     nio: "unknown",
     sel: "unknown",
     kca: "unknown",
@@ -270,7 +270,7 @@ WORDS.tomorrow = {
     tiv: "unknown",
     efi: "same",
     ibb: "same",
-    ha: "unknown",
+    ha: "plain",
     wo: "unknown",
     srr: "unknown",
     so: "unknown",
@@ -307,7 +307,7 @@ WORDS.tomorrow = {
     yi: "morning",
     is: "morning",
     gd: "morning",
-    br: "unknown",
+    br: "plain",
     nap: "plain",
     scn: "morning",
     vec: "morning",
@@ -332,7 +332,7 @@ WORDS.tomorrow = {
     rmy: "unknown",
     pcm: "morning",
     tpi: "morning",
-    ho: "unknown",
+    ho: "plain",
     kmh: "unknown",
     hot: "unknown",
     fai: "same",
@@ -435,10 +435,10 @@ WORDS.tomorrow = {
     nog: "morning",
     os: "morning",
     kbd: "unknown",
-    ady: "unknown",
+    ady: "plain",
     ty: "other",
     niu: "morning",
-    rap: "unknown",
+    rap: "morning",
     rar: "morning",
     gil: "unknown",
     tet: "unknown",
@@ -446,7 +446,7 @@ WORDS.tomorrow = {
     pjt: "other",
     wbp: "unknown",
     aer: "unknown",
-    new: "unknown",
+    new: "plain",
     tdh: "unknown",
     adi: "unknown",
     ban: "unknown",
@@ -475,13 +475,13 @@ WORDS.tomorrow = {
     ay: "unknown",
     agr: "other",
     pbb: "other",
-    tab: "unknown",
+    tab: "plain",
     udi: "unknown",
-    aqc: "unknown",
+    aqc: "plain",
     ddo: "unknown",
     lez: "morning",
     kl: "plain",
-    arn: "unknown",
+    arn: "plain",
     sat: "unknown",
     bm: "unknown",
     st: "unknown",
@@ -490,10 +490,10 @@ WORDS.tomorrow = {
     kab: "unknown",
     shi: "morning",
     rif: "unknown",
-    av: "unknown",
+    av: "plain",
     agx: "morning",
-    ab: "unknown",
-    lus: "unknown",
+    ab: "plain",
+    lus: "plain",
     mas: "unknown",
     lif: "unknown",
     nmf: "unknown",
@@ -565,12 +565,12 @@ WORDS.tomorrow = {
     enq: "unknown",
     srn: "unknown",
     djk: "unknown",
-    hui: "unknown",
+    hui: "plain",
     rue: "morning",
     wa: "morning",
     koi: "unknown",
-    mhr: "unknown",
-    mrj: "unknown",
+    mhr: "morning",
+    mrj: "morning",
     myv: "other",
     mdf: "other",
     mzn: "morning",
@@ -578,9 +578,9 @@ WORDS.tomorrow = {
     nso: "unknown",
     pms: "morning",
     mwl: "morning",
-    meu: "unknown",
+    meu: "plain",
     kos: "morning",
-    kgp: "unknown",
+    kgp: "morning",
     emp: "unknown",
     mch: "unknown",
     umb: "same",
@@ -969,9 +969,9 @@ WORDS.tomorrow = {
     xav: ["awẽmhã", "awɛ̃mˈhã"],  // Used for 'tomorrow' in the Xavante New Testament (Luke 13:32, James 4:13).
     ter: ["ihârotike", "iˈhaːɾotike"],  // Used for 'tomorrow' in the Terena New Testament (Matthew 6:34, Luke 13:32).
     ake: ["awanapai", "awanapai"],  // Used for 'tomorrow' in the Akawaio New Testament.
-    gun: ["koʼẽ", "koˈʔẽ"],  // The Mbyá Bible writes ko'ẽ rã, with the future marker rã.
+    gun: ["koʼẽ", "koˈʔẽ"],  // The Mbyá Bible writes ko'ẽ rã, with the future marker rã. Koʼẽ is also 'dawn, morning', as in Paraguayan Guarani koʼẽrõ.
     sce: ["maghashijie", "mɑqɑʂiˈtɕjə"],  // Paired with enedu 'today' in the Dongxiang New Testament (Luke 13:32).
-    njo: ["asüng", "asəŋ"],  // Paired with tanü 'today' in the Ao Bible (Luke 13:32).
+    njo: ["asüng", "asəŋ"],  // Paired with tanü 'today' in the Ao Bible (Luke 13:32). Unrelated to tanüp 'morning' and aonung 'night'.
     gon: ["नाडि", "naːɖi"],  // Paired with इय्याला 'today' in the Gondi Bible (Luke 13:32).
     suk: ["ntondo", "ntondo"],  // Sukuma keeps 'tomorrow' (ntondo) apart from 'yesterday' (igolo), unlike neighbouring Nyamwezi.
     rim: ["fadiu", "fadiu"],  // Used for 'tomorrow' in the Nyaturu New Testament (Matthew 6:34).
@@ -1024,7 +1024,7 @@ WORDS.tomorrow = {
     rn: ["ejo", "eʒo"],  // Ejo means both 'yesterday' and 'tomorrow'; context tells which (Wiktionary; Dictionary of Semantic Shifts).
     ln: ["lobi", "lobi"],  // Lobi means both 'yesterday' and 'tomorrow'; context tells which (Wiktionary).
     ket: ["аноксь", "anɔkɕ"],  // Аноксь contains the old element *hək 'early in the morning', also found in ӄоноксь 'morning' (Wiktionary).
-    niv: ["пат", "pat"],  // Amur Nivkh says пат and East Sakhalin Nivkh пыт (Wiktionary).
+    niv: ["пат", "pat"],  // Amur Nivkh says пат and East Sakhalin Nivkh пыт (Wiktionary). Unrelated to т’ыт 'morning' and the words for 'night'.
     ykg: ["эгуойиэ", "eɡuojie"],  // Эгуойиэ goes back to Proto-Yukaghir *öŋkǝ- (Wiktionary, after Nikolaeva 2006).
     nio: ["талу", "talu"],  // Талу is one of two Nganasan words for 'tomorrow'; the other, күз̌иахүˮ, resembles күз̌иату 'morning' (NorthEuraLex).
     sel: ["тялы", "tʲalɨ"],  // Тялы is the Northern Selkup word for 'tomorrow' (NorthEuraLex; IDS).
@@ -1073,7 +1073,7 @@ WORDS.tomorrow = {
     tiv: ["kper", "kper"],  // Kper is the Tiv word for 'tomorrow' (Tiv Bible).
     efi: ["mkpọñ", "m̩kpɔŋ"],  // Mkpọñ is used for both 'yesterday' and 'tomorrow' (Efik Bible).
     ibb: ["ñkpọñ", "ŋ̩kpɔŋ"],  // Ñkpọñ is used for both 'yesterday' and 'tomorrow' (Ibibio Bible).
-    ha: ["gobe", "ɡoːbe"],  // Gobe is the Hausa word for 'tomorrow' (WOLD; Kraft 1981).
+    ha: ["gobe", "ɡoːbe"],  // Gobe is the Hausa word for 'tomorrow' (WOLD; Kraft 1981). Unrelated to safiya 'morning', dare 'night' and jiya 'yesterday'.
     wo: ["ëllëg", "əlːəɡ"],  // Ëllëg is 'tomorrow'; Wolof also says suba, which means 'morning' as well (Wolof Bible; Wiktionary).
     srr: ["feet", "feːt"],  // Feet (o feet) is the Serer word for 'tomorrow' (Serer Bible).
     so: ["berri", "berːi"],  // Berri is the Somali word for 'tomorrow' (Somali Bible).
@@ -1110,7 +1110,7 @@ WORDS.tomorrow = {
     yi: ["מאָרגן", "ˈmɔrɡn̩"],  // The same word means 'morning' (Wiktionary).
     is: ["á morgun", "au mɔrkʏn"],  // Á morgun is literally 'onto (the) morning' (Wiktionary).
     gd: ["a-màireach", "əˈmaːɾʲəx"],  // A-màireach comes from Old Irish i mbárach, built on a Celtic word for 'morning' (cf. Welsh bore) (Wiktionary).
-    br: ["warc'hoazh", "warˈxwɑːs"],  // Warc'hoazh (also arc'hoazh) goes back to Middle Breton arhoaz (Wiktionary).
+    br: ["warc'hoazh", "warˈxwɑːs"],  // Warc'hoazh (also arc'hoazh) goes back to Middle Breton arhoaz (Wiktionary). Unrelated to beure 'morning' and noz 'night'.
     nap: ["craje", "ˈkrajə"],  // Craje keeps Latin crās 'tomorrow'; Neapolitan also says dimane, from dē māne 'early in the morning' (Wiktionary).
     scn: ["dumani", "duˈmani"],  // From Late Latin dē māne 'early in the morning' (Wiktionary).
     vec: ["doman", "doˈman"],  // From Late Latin dē māne 'early in the morning' (Wiktionary).
@@ -1135,7 +1135,7 @@ WORDS.tomorrow = {
     rmy: ["tehara", "tehara"],  // Tehara is used for 'tomorrow' in the Usari Romani Gospel of Matthew (6:34); IDS also lists tʰaisa.
     pcm: ["tumoro", "tumɔro"],  // From English tomorrow, itself from Old English tō morgne 'on the morning' (Wiktionary).
     tpi: ["tumora", "tumora"],  // From English tomorrow, itself from Old English tō morgne 'on the morning' (Wiktionary).
-    ho: ["kerukeru", "kerukeru"],  // Kerukeru is used for 'tomorrow' throughout the Hiri Motu New Testament (Matthew 6:34, Luke 13:32).
+    ho: ["kerukeru", "kerukeru"],  // Kerukeru is used for 'tomorrow' throughout the Hiri Motu New Testament (Matthew 6:34, Luke 13:32). Unrelated to dada 'morning' and hanuaboi 'night'.
     kmh: ["toy", "toj"],  // Toy is paired with miñiy 'today' in the Kalam New Testament (Luke 13:32); TransNewGuinea also lists tol.
     hot: ["yamuŋ", "jamuŋ"],  // Yamuŋ is paired with yaô 'today' in the Hote New Testament (Luke 13:32, James 4:13).
     fai: ["amsino", "amsino"],  // Amsino is the Faiwol word for 'tomorrow' (Faiwol New Testament; TransNewGuinea.org), with dialect forms amsɛno and amsok. The same word as yesterday.
@@ -1238,10 +1238,10 @@ WORDS.tomorrow = {
     nog: ["эртен", "erten"],  // The same word as 'morning'; Nogai also has танъла.
     os: ["райсом", "rajsom"],  // The same word as 'morning'.
     kbd: ["пщэдей", "pɕadaj"],  // Пщэдей is the Kabardian word; Adyghe says неущы.
-    ady: ["неущы", "najˈwəɕə"],  // Неущы is the Adyghe word; Kabardian says пщэдей.
+    ady: ["неущы", "najˈwəɕə"],  // Неущы is the Adyghe word; Kabardian says пщэдей. Unrelated to пчэдыжь 'morning' and чэщы 'night'.
     ty: ["ānānahi", "aːnaːnahi"],  // The future prefix ā- on the same root as inānahi 'yesterday' (Pollex).
     niu: ["pogipogi", "poŋipoŋi"],  // The word for 'morning', also used for 'tomorrow' (Pollex).
-    rap: ["āpō", "aːpoː"],  // From Proto-Eastern-Polynesian *a-popo, cognate of Māori āpōpō.
+    rap: ["āpō", "aːpoː"],  // From Proto-Eastern-Polynesian *a-popo, cognate of Māori āpōpō. The same etymon as Māori āpōpō, Proto-Oceanic *qa-boŋi-boŋi built on 'early morning'.
     rar: ["āpōpō", "aːpoːpoː"],  // Cognate of Māori āpōpō and Tahitian apopo (Pollex). Built on Proto-Oceanic *boŋi-boŋi 'early morning', like Māori āpōpō.
     gil: ["ningabong", "niŋaboŋ"],  // Ningabong is the Kiribati word for tomorrow.
     tet: ["awan", "awan"],  // Awan is the Tetum word for tomorrow.
@@ -1249,7 +1249,7 @@ WORDS.tomorrow = {
     pjt: ["mungawinki", "muŋawiŋki"],  // Mungawinki is the Pitjantjatjara word for tomorrow. Built on munga 'night' (Bowern's Pama-Nyungan lists), as is mungartji 'yesterday'.
     wbp: ["jukurra", "ɟukura"],  // Jukurra is the Warlpiri word for tomorrow.
     aer: ["ingwenthe", "iŋʷən̪t̪ə"],  // Ingwenthe is the Arrernte word for tomorrow.
-    new: ["कन्हय्", "kənʱəj"],  // कन्हय् is the Newar word for tomorrow.
+    new: ["कन्हय्", "kənʱəj"],  // कन्हय् is the Newar word for tomorrow. Unrelated to bānhi 'morning' and the word for 'night'.
     tdh: ["दिका", "diːka"],  // दिका is the Thulung word for tomorrow.
     adi: ["nyampo", "ɲampo"],  // Nyampo is the Adi word for tomorrow.
     ban: ["mani", "mani"],  // Mani is the Balinese word for tomorrow.
@@ -1278,13 +1278,13 @@ WORDS.tomorrow = {
     ay: ["qharüru", "qʰaɾuːɾu"],  // Qharüru is the Aymara word; like wasüru 'yesterday' it ends in -üru.
     agr: ["kashin", "kaʃin"],  // Kashin is the Awajún word for tomorrow. Built on kashi 'night', like kashik 'morning' (Key's Pano-Tacanan and Huber's lists).
     pbb: ["kuskus", "kuskus"],  // Kuskus is the Nasa Yuwe word for tomorrow. A doubling of kus 'night'; 'morning' is kus-ʼii (IDS).
-    tab: ["закур", "zakur"],  // Закур is the Tabasaran word for tomorrow.
+    tab: ["закур", "zakur"],  // Закур is the Tabasaran word for tomorrow. Unrelated to гачӏ кин 'morning' and йишв 'night' (IDS).
     udi: ["аьйчӏи", "æjtʃʼi"],  // Аьйчӏи is the Udi word for tomorrow.
-    aqc: ["шутта", "ʃutːa"],  // Шутта is the Archi word for tomorrow.
+    aqc: ["шутта", "ʃutːa"],  // Шутта is the Archi word for tomorrow. Unrelated to аккомис 'morning' and иш 'night' (IDS).
     ddo: ["гъуде", "ʁude"],  // Гъуде is the Tsez word; the Mokok dialect says сасахъ.
     lez: ["пака", "paka"],  // Пака is the Lezgian word for tomorrow. Пакама 'morning' is the same word with -ма (IDS; NorthEuraLex).
     kl: ["aqagu", "aqaɣu"],  // From Proto-Inuit *aqaɣu 'tomorrow, or in a while'.
-    arn: ["wüle", "wɨle"],  // Wüle is the Mapudungun word for tomorrow.
+    arn: ["wüle", "wɨle"],  // Wüle is the Mapudungun word for tomorrow. Unrelated to liwen 'morning' and pun 'night'.
     sat: ["ᱜᱟᱯᱟ", "ɡapa"],  // ᱜᱟᱯᱟ (gapa) is the Santali word for tomorrow.
     bm: ["sini", "sini"],  // Sini is the Bambara word; it also means 'the future'.
     st: ["hosane", "hosane"],  // Hosane is the Sesotho word for tomorrow.
@@ -1293,10 +1293,10 @@ WORDS.tomorrow = {
     kab: ["azekka", "azəkka"],  // Azekka is the Kabyle word, cognate with Tashelhit azkka.
     shi: ["ⴰⵣⴽⴽⴰ", "azkka"],  // Built on zikk 'early', so roughly 'the early (day)' (Wiktionary, after Stroomer).
     rif: ["ⵜⵉⵡⴻⵛⵛⴰ", "θiwəʃːa"],  // Tiwecca is the Tarifit word for tomorrow.
-    av: ["метер", "meter"],  // Метер is the Avar word for tomorrow.
+    av: ["метер", "meter"],  // Метер is the Avar word for tomorrow. Unrelated to радал 'morning' and сордо 'night'.
     agx: ["багагь", "baɡah"],  // Багагь is the Aghul word for tomorrow. Багагьми 'morning' is built on the same word (IDS).
-    ab: ["уаҵәы", "watsʼʷə"],  // Уаҵәы is the Abkhaz word for tomorrow.
-    lus: ["naktuk", "naktuk"],  // Naktuk is the Mizo word for tomorrow.
+    ab: ["уаҵәы", "watsʼʷə"],  // Уаҵәы is the Abkhaz word for tomorrow. Unrelated to ашара 'morning' and аҵх 'night'.
+    lus: ["naktuk", "naktuk"],  // Naktuk is the Mizo word for tomorrow. Unrelated to chawhma 'morning' and zân 'night'.
     mas: ["taisere", "taisere"],  // Taisere is the Maa word for tomorrow; one Bible spells it taaisere.
     lif: ["ᤋᤠ᤺ᤴᤍᤡᤰ", "taːndik"],  // ᤋᤠ᤺ᤴᤍᤡᤰ (tāndik) is the Limbu word; Sagart et al. record taːn for 'morning'.
     nmf: ["akhama", "akʰama"],  // Akhama is the Tangkhul word for tomorrow.
@@ -1368,12 +1368,12 @@ WORDS.tomorrow = {
     enq: ["taita", "taita"],  // Taita is 'tomorrow' in the Enga Bible, set against indupa 'today'.
     srn: ["tamara", "tamara"],  // Tamara is 'tomorrow' in the Sranan Bible, set against tide 'today'.
     djk: ["tamaa", "tamaː"],  // Tamaa is 'tomorrow' in the Ndyuka New Testament, set against tide 'today'.
-    hui: ["yawi", "jawi"],  // Yawi is 'tomorrow' in the Huli Bible and TransNewGuinea.org.
+    hui: ["yawi", "jawi"],  // Yawi is 'tomorrow' in the Huli Bible and TransNewGuinea.org. Unrelated to the words for 'morning' and 'night' (TransNewGuinea).
     rue: ["завтра", "ˈzau̯tra"],  // From Proto-Slavic *za utra 'after the morning', like Ukrainian and Russian завтра.
     wa: ["dimwin", "diˈmwɛ̃"],  // Dimwin is the Walloon word for 'tomorrow', the counterpart of French demain. From Latin de mane 'from the morning', like French demain.
     koi: ["ашын", "ˈaʃɨn"],  // Komi-Permyak uses ашын where Komi-Zyrian has аски.
     mhr: ["эрла", "erla"],  // Эрла is 'tomorrow' in the Meadow Mari Bible; NorthEuraLex lists эр for 'morning'.
-    mrj: ["иргодым", "irɣoðəm"],  // Иргодым is 'tomorrow' in the Hill Mari Bible; NorthEuraLex lists ир for 'morning'.
+    mrj: ["иргодым", "irɣoðəm"],  // Иргодым is 'tomorrow' in the Hill Mari Bible; NorthEuraLex lists ир for 'morning'. Built on ир 'morning'.
     myv: ["ванды", "ˈvandɨ"],  // Probably built on a Proto-Mordvinic word for 'light' with a time suffix; another proposal links it to 'watch, take care'.
     mdf: ["ванды", "ˈvandɨ"],  // The same word as Erzya ванды, probably built on a Proto-Mordvinic word for 'light'.
     mzn: ["فردا", "ferdɒː"],  // The same word as Persian fardā, from Proto-Iranian *frata- 'early'.
@@ -1381,9 +1381,9 @@ WORDS.tomorrow = {
     nso: ["gosasa", "ɣosasa"],  // Gosasa is 'tomorrow' in the Sepedi Bible, set against lehono 'today'.
     pms: ["doman", "duˈmaŋ"],  // From Late Latin dē māne 'early in the morning'; the 1835 New Testament spells it douman.
     mwl: ["manhana", "mɐˈɲanɐ"],  // Manhana means both 'morning' and 'tomorrow', from Latin māne 'in the morning'.
-    meu: ["kerukeru", "keɾukeɾu"],  // Kerukeru is 'tomorrow' in the Motu Bible, set against hari dina 'today'.
+    meu: ["kerukeru", "keɾukeɾu"],  // Kerukeru is 'tomorrow' in the Motu Bible, set against hari dina 'today'. Unrelated to daba 'morning' and boi 'night'.
     kos: ["lutu", "lutu"],  // Inherited from Proto-Micronesian *lutuu; DatSemShift also lists lutu for 'morning'.
-    kgp: ["vaj kỹ", "waj kɨ̃"],  // Vaj kỹ is 'tomorrow' in the Kaingang New Testament.
+    kgp: ["vaj kỹ", "waj kɨ̃"],  // Vaj kỹ is 'tomorrow' in the Kaingang New Testament. 'Dawn' is way eɛ kɨ̃ (IDS), on the same vaj.
     emp: ["nu", "nu"],  // Nu is 'tomorrow'; the word for 'yesterday', nuena, adds -ena to it.
     mch: ["jenamma", "henamma"],  // Jenamma is 'tomorrow' in the Ye'kwana New Testament; IDS writes it henamma.
     umb: ["hẽla", "hẽla"],  // Hẽla is 'tomorrow' in the Umbundu Bible, set against etaili 'today'. The same word as yesterday.

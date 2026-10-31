@@ -243,7 +243,7 @@ WORDS.thumb = {
     oj: "unknown",
     dsb: "big",
     pjt: "mother",
-    nia: "unknown",
+    nia: "big",
     nog: "other",
     av: "unknown",
     os: "unknown",
@@ -774,7 +774,7 @@ WORDS.thumb = {
     oj: ["midechininj", "midetʃinindʒ"],  // An independent noun (no personal prefix needed); its partner midechizid is the big toe, and Border Lakes speakers say michichin.
     dsb: ["wjeliki palc", "ˈvʲɛlikʲi palts"],  // Literally 'big finger', wjeliki 'big' + palc 'finger'.
     pjt: ["maṟa mama", "maɻa mama"],  // Literally 'hand father', maṟa 'hand' + mama 'father'.
-    nia: ["turu sebua", "turu sebua"],  // turu means 'finger'; the meaning of sebua in this compound was not checked in a dictionary.
+    nia: ["turu sebua", "turu sebua"],  // turu means 'finger'. Sebua is the Nias word for 'big', so the phrase is 'big finger'.
     nog: ["бас бармак", "bas barmaq"],  // Literally 'head finger', бас 'head' + бармак 'finger', the Nogai form of Turkish başparmak.
     av: ["буртӏинкилищ", "burtʼinkiliʃː"],  // Ends in килищ 'finger'; the first element is not explained in the sources, and dialects say кӏудаб гилищ 'big finger'.
     os: ["хистӕр ӕнгуылдз", "xistær ænɡʷɨldz"],  // The second word is ӕнгуылдз 'finger'; the sense of хистӕр here was not checked in a dictionary.

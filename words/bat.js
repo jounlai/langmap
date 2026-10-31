@@ -604,6 +604,8 @@ WORDS.bat = {
     ruq: "plain",
     bzd: "plain",
     hbo: "plain",
+    zh_tang: "plain",
+    ja_heian: "plain",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1153,5 +1155,7 @@ WORDS.bat = {
     ruq: ["lilic", "liˈlik"],  // Borrowed from Turkish, like Aromanian liliac; Capidan's example is a folk cure: if you cough, catch a bat and spit three times into its mouth.
     bzd: ["dakúr", "dakúɾ"],  // The Bribri word for the bat (also dukúr); Bribri files bats under dù, a class wider than 'bird' that takes in other flying animals. No image is recorded for it, so it counts as a word of its own.
     hbo: ["עטלף", "ʕatˤalˈleːf"],  // Listed last among the unclean flying creatures in Leviticus 11:19 and Deuteronomy 14:18; unrelated to עכבר 'mouse'.
+    zh_tang: ["蝙蝠", "pɛn puwk"],  // An alliterative expansion of 蝠 'bat', a Sino-Tibetan root.
+    ja_heian: ["蝙蝠", "kaɸabori"],  // かはほり, between Old Japanese kapapori and later kaumori, kōmori.
   },
 };

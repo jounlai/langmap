@@ -293,6 +293,12 @@ WORDS.shootingstar = {
     ty: "unknown",
     ami: "moving",
     kpv: "falling",
+    zh_tang: "moving",
+    zh_wenyan_edu: "moving",
+    vi_han: "moving",
+    ja_heian: "moving",
+    ja_edo: "moving",
+    sa: "other",
   },
   routes: {
     falling: {"color":"#2563eb","emoji":"⬇️","en":"a falling star","ja":"落ちる星","ko":"떨어지는 별","zh":"落下的星","yue":"跌落嘅星","vi":"sao rơi","th":"ดาวที่ตก","id":"bintang jatuh","hi":"गिरता तारा","de":"fallender Stern","fr":"étoile qui tombe","it":"stella che cade","es":"estrella que cae","pt":"estrela que cai","ru":"падающая звезда","uk":"зірка, що падає","ar":"نجم يسقط","he":"כוכב שנופל","sw":"nyota inayoanguka"},
@@ -531,5 +537,11 @@ WORDS.shootingstar = {
     ty: ["fetiʻa pao", "fetiʔa pao"],  // Fetiʻa is 'star'; Lemaître's lexicon of contemporary Tahitian glosses fetiʻa pao 'shooting star, meteor'.
     ami: ["paʼoliday a foʼis", "paʔoliðaj a foʔis"],  // Literally 'visiting star', from ʼolid 'to visit around' + foʼis 'star'; the Safolu dictionary also has miʼoliday a foʼis and maʼalolay a foʼis 'swept-away star'.
     kpv: ["усян кодзув", "ˈuɕan ˈkodʑuv"],  // Literally 'falling star', from усьны 'to fall' + кодзув 'star'; the Large Komi-Russian Dictionary glosses it 'падающая звезда; метеор' (also усяна кодзув).
+    zh_tang: ["流星", "luw seŋ"],  // 'Flowing star'.
+    zh_wenyan_edu: ["流星", "lɐu˨˩ sɪŋ˥"],  // 'Flowing star', in the Cantonese literary reading.
+    vi_han: ["流星", "lɨw˧ tiŋ˧"],  // Lưu tinh, 'flowing star'.
+    ja_heian: ["流れ星", "naɡarebosi"],  // 'Flowing star', attested since 1137.
+    ja_edo: ["流れ星", "naɡareboɕi"],  // 'Flowing star'.
+    sa: ["उल्का", "ulkaː"],  // Also 'firebrand, torch': the meteor is a fiery brand in the sky.
   },
 };

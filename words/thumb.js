@@ -587,6 +587,7 @@ WORDS.thumb = {
     ia: "plain",
     stq: "plain",
     chy: "big",
+    zh_tang: "plain",
   },
   routes: {
     mother: {"color":"#db2777","emoji":"👪","en":"mother · parent · elder kin","ja":"母・親・年長の身内","ko":"어머니 · 어버이 · 웃어른","zh":"母亲・父母・长辈","yue":"阿媽 · 父母 · 長輩","vi":"mẹ · cha mẹ · bậc trên","th":"แม่ · พ่อแม่ · ญาติผู้ใหญ่","id":"ibu · orang tua · kerabat tua","hi":"माँ · माता-पिता · बड़े","de":"Mutter · Eltern · ältere Verwandte","fr":"mère · parent · aîné","it":"madre · genitore · parente anziano","es":"madre · padre · pariente mayor","pt":"mãe · pai · parente mais velho","ru":"мать · родитель · старший родич","uk":"мати · батько · старший родич","ar":"أم · والد · قريب أكبر","he":"אם · הורה · קרוב מבוגר","sw":"mama · mzazi · ndugu mkubwa"},
@@ -1118,5 +1119,6 @@ WORDS.thumb = {
     ia: ["pollice", "ˈpolitse"],  // From Latin pollex, pollicis 'thumb', like Italian pollice; the Interlingua-English Dictionary marks the stress on the first syllable (pól-) and also gives the sense 'inch'.
     stq: ["Tume", "ˈtumə"],  // Inherited from Old Frisian thūma, the same Germanic word as German Daumen and West Frisian tomme.
     chy: ["maʼxemoʼēško", "maʔxemoʔeʃko"],  // Literally 'big finger', per the Cheyenne Dictionary of Chief Dull Knife College; ma'haa'émo'ēško is a synonym.
+    zh_tang: ["拇指", "məw tɕi"],  // 拇 is itself 'thumb, big toe'; modern Mandarin adds 大 'big'.
   },
 };

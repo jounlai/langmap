@@ -250,6 +250,9 @@ WORDS.dragonfly = {
     ja_oki: "other",
     ast: "creature",
     lzz: "plain",
+    zh_tang: "plain",
+    ja_chu: "plain",
+    ja_edo: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -445,5 +448,8 @@ WORDS.dragonfly = {
     ja_oki: ["あーけーじゅー", "ʔaːkeːdʑuː"],  // The Okinawan reflex of old Japanese akitsu 'dragonfly', usually traced to aki 'autumn'; Chamberlain (1895) recorded it as akēdzū.
     ast: ["caballín del diañu", "kaβaˈʎin del ˈdjaɲu"],  // Literally 'the devil's little horse'; Asturian also has many other names such as aceitera and cortanarices.
     lzz: ["კარკალამტახუ", "kʼarkʼalamtʼaxu"],  // Recorded in Kojima and Bucaklişi's Laz dictionary (Latin spelling ǩarǩalamťaxu). No image is recorded for it, so it counts as a word of its own.
+    zh_tang: ["蜻蛉", "tsʰeŋ leŋ"],  // The classical two-syllable insect name, the source of the characters Japanese writes for tonbo.
+    ja_chu: ["蜻蛉", "tombɔː"],  // とんばう, between earlier tōbau and Edo-period tonbo.
+    ja_edo: ["蜻蛉", "tombo"],  // とんぼ, written with the Chinese characters 蜻蛉.
   },
 };

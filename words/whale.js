@@ -432,6 +432,9 @@ WORDS.whale = {
     gmh: "plain",
     sga: "plain",
     cop: "plain",
+    zh_tang: "plain",
+    ja_heian: "plain",
+    ojp: "plain",
   },
   routes: {
     fish: {"color":"#2563eb","emoji":"🐟","en":"called a fish","ja":"「魚」と呼ぶ","ko":"\"물고기\"라 부름","zh":"称作\"鱼\"","yue":"叫做「魚」","vi":"gọi là cá","th":"เรียกว่าปลา","id":"disebut ikan","hi":"मछली कहा जाता है","de":"als Fisch bezeichnet","fr":"appelée poisson","it":"chiamata pesce","es":"llamada pez","pt":"chamada peixe","ru":"называют рыбой","uk":"називають рибою","ar":"تُسمّى سمكة","he":"נקרא דג","sw":"huitwa samaki"},
@@ -809,5 +812,8 @@ WORDS.whale = {
     gmh: ["wal", "wal"],  // From Old High German wal; Modern German Wal continues it.
     sga: ["bled", "bʲlʲeð"],  // Means both 'whale' and 'sea monster'.
     cop: ["ⲕⲏⲧⲟⲥ", "keːtos"],  // Bohairic, borrowed from Greek κῆτος 'sea monster, whale'.
+    zh_tang: ["鯨", "ɡiajŋ"],  // A word of its own; it also meant 'great, huge'.
+    ja_heian: ["鯨", "kudira"],  // くぢら, inherited from Old Japanese kudira.
+    ojp: ["久治良", "kudira"],  // Spelled 久治良 in a song of the Kojiki (712); perhaps from Proto-Japonic *kuntira.
   },
 };

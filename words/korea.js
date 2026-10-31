@@ -413,6 +413,8 @@ WORDS.korea = {
     vo: "goryeo",
     liv: "goryeo",
     ain: "goryeo",
+    ja_edo: "joseon",
+    vi_han: "joseon",
   },
   routes: {
     goryeo: {"color":"#16a34a","emoji":"🏺","en":"from Goryeo 高麗 (Korea, Corée, Корея)","ja":"高麗（コリョ）から（Korea, Corée, Корея）","ko":"고려(高麗)에서 (Korea, Corée, Корея)","zh":"源自高丽（Korea、Corée、Корея）","yue":"源自高麗（Korea、Corée、Корея）","vi":"từ Cao Ly 高麗 (Korea, Corée, Корея)","th":"จากโครยอ 高麗 (Korea, Corée, Корея)","id":"dari Goryeo 高麗 (Korea, Corée, Корея)","hi":"गोरयो 高麗 से (Korea, Corée, Корея)","de":"von Goryeo 高麗 (Korea, Corée, Корея)","fr":"de Goryeo 高麗 (Korea, Corée, Корея)","it":"da Goryeo 高麗 (Korea, Corée, Корея)","es":"de Goryeo 高麗 (Korea, Corée, Корея)","pt":"de Goryeo 高麗 (Korea, Corée, Корея)","ru":"от Корё 高麗 (Korea, Corée, Корея)","uk":"від Корьо 高麗 (Korea, Corée, Корея)","ar":"من كوريو 高麗 (Korea, Corée, Корея)","he":"מקוריו 高麗 (Korea, Corée, Корея)","sw":"kutoka Goryeo 高麗 (Korea, Corée, Корея)"},
@@ -765,5 +767,7 @@ WORDS.korea = {
     vo: ["Koreyän", "koreˈjɛn"],  // Korea plus the Volapük country suffix -än; South Korea is Sulüda-Koreyän, North Korea Nolüda-Koreyän (Volapük Wikipedia).
     liv: ["Korea", "ˈkorɛɑ"],  // Korea, the Livonian name of the country, listed as a place name in the Livonian–Latvian–Estonian dictionary at livonian.tech.
     ain: ["コレヤ", "koɾeja"],  // Koreya, borrowed from Russian Корея and so ultimately from Goryeo 高麗; Sakhalin Ainu also has カウレン kawren (Wiktionary).
+    ja_edo: ["朝鮮", "tɕoːsen"],  // てうせん, the Joseon kingdom of the Edo period's diplomatic missions.
+    vi_han: ["朝鮮", "tɕiəw˨˩ tiən˧"],  // Triều Tiên, the Sino-Vietnamese reading of 朝鮮.
   },
 };

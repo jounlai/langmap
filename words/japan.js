@@ -436,6 +436,15 @@ WORDS.japan = {
     liv: "europe",
     ssf: "hokkien",
     tlh: "unknown",
+    zh_tang: "nihon",
+    zh_yuan: "nihon",
+    zh_wenyan_edu: "nihon",
+    vi_han: "nihon",
+    vi_nom: "nihon",
+    ja_heian: "nihon",
+    ja_chu: "nihon",
+    ja_edo: "nihon",
+    ja_kanbun: "nihon",
   },
   routes: {
     nihon: {"color":"#dc2626","emoji":"☀️","en":"reads 日本 itself","ja":"漢字 日本 を自分で読む","ko":"한자 日本을 직접 읽음","zh":"自己读汉字\"日本\"","yue":"自己讀漢字「日本」","vi":"tự đọc chữ 日本","th":"อ่านอักษร 日本 เอง","id":"membaca aksara 日本 sendiri","hi":"日本 को ख़ुद पढ़ना","de":"liest 日本 selbst","fr":"lit 日本 lui-même","it":"legge 日本 da sé","es":"lee 日本 por sí mismo","pt":"lê 日本 por si","ru":"своё чтение 日本","uk":"власне читання 日本","ar":"يقرأ 日本 بنفسه","he":"קורא את 日本 בעצמו","sw":"husoma 日本 yenyewe"},
@@ -814,5 +823,14 @@ WORDS.japan = {
     liv: ["Japān", "ˈjɑpɑːn"],  // Livonian name for Japan, listed as a place name in the Livonian–Latvian–Estonian dictionary (livonian.tech).
     ssf: ["Litpuun", "litpuun"],  // Borrowed from Taiwanese Hokkien 日本 Li̍t-pún (Wiktionary); the ILRDF Thao dictionary glosses Litpuun as 日本.
     tlh: ["nIpon", "nɪpʰon"],  // Klingon nIpon 'Japan', made canon in the TalkNow Klingon course (2011).
+    zh_tang: ["日本", "ȵit pən"],  // 'Origin of the sun', the name Japan asked the Tang court to use in place of 倭 in 702–703 (Shoku Nihongi, Old Book of Tang).
+    zh_yuan: ["日本", "ɽi pən"],  // The characters 日本 'origin of the sun' in the 中原音韻 readings.
+    zh_wenyan_edu: ["日本", "jɐt˨ puːn˧˥"],  // 日本 'origin of the sun' in the Cantonese literary reading.
+    vi_han: ["日本", "ɲət˨˩ ɓaːn˧˩˧"],  // Nhật Bản, the Sino-Vietnamese reading of 日本.
+    vi_nom: ["日本", "ɲət˨˩ ɓaːn˧˩˧"],  // Nhật Bản, written with the Chinese characters as Sino-Vietnamese words are in Nôm texts.
+    ja_heian: ["日本", "niɸon"],  // Older texts read it ひのもと 'the sun's origin'; the reading にほん became common in the Heian period.
+    ja_chu: ["日本", "niɸon"],  // にほん, with にっぽん, which keeps the old p, alongside it.
+    ja_edo: ["日本", "nihon"],  // にほん, with にっぽん alongside it.
+    ja_kanbun: ["日本", "nihon"],  // Read にほん in kanbun.
   },
 };

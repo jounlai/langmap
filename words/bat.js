@@ -603,6 +603,7 @@ WORDS.bat = {
     moh: "unknown",
     ruq: "plain",
     bzd: "plain",
+    hbo: "plain",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1151,5 +1152,6 @@ WORDS.bat = {
     moh: ["tsikeraʼwíhstak", "dziɡeraʔwíhstak"],  // The Mohawk word for the bat; the Six Nations list also gives yakohónhtariks, and the Mohawk Bible ends the unclean birds of Leviticus 11:13-19 with the related form tsiʼkerawístiks.
     ruq: ["lilic", "liˈlik"],  // Borrowed from Turkish, like Aromanian liliac; Capidan's example is a folk cure: if you cough, catch a bat and spit three times into its mouth.
     bzd: ["dakúr", "dakúɾ"],  // The Bribri word for the bat (also dukúr); Bribri files bats under dù, a class wider than 'bird' that takes in other flying animals. No image is recorded for it, so it counts as a word of its own.
+    hbo: ["עטלף", "ʕatˤalˈleːf"],  // Listed last among the unclean flying creatures in Leviticus 11:19 and Deuteronomy 14:18; unrelated to עכבר 'mouse'.
   },
 };

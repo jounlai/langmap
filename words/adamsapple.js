@@ -97,17 +97,17 @@ WORDS.adamsapple = {
     mk: "adam",
     ga: "other",
     kw: "other",
-    bik: "unknown",
+    bik: "plain",
     nv: "other",
-    ckv: "unknown",
+    ckv: "plain",
     mnp: "other",
     hsn: "other",
     nan: "other",
     mr: "other",
     et: "other",
-    ba: "unknown",
+    ba: "plain",
     hy: "adam",
-    ka: "unknown",
+    ka: "plain",
     gl: "other",
     bjn: "plain",
     shn: "other",
@@ -184,7 +184,7 @@ WORDS.adamsapple = {
     zh_jiao: "other",
     ko: "other",
     vi: "plain",
-    jv: "unknown",
+    jv: "plain",
     tl: "other",
     kn: "other",
     te: "other",
@@ -192,7 +192,7 @@ WORDS.adamsapple = {
     si: "other",
     pa: "plain",
     pnb: "plain",
-    as: "unknown",
+    as: "plain",
     fa: "adam",
     hak_cn: "other",
     ne: "other",
@@ -203,7 +203,7 @@ WORDS.adamsapple = {
     he: "plain",
     sq: "adam",
     sk: "other",
-    mn: "unknown",
+    mn: "plain",
     no: "adam",
     scn: "adam",
     be: "adam",
@@ -219,7 +219,7 @@ WORDS.adamsapple = {
     de_at: "adam",
     hak_tw: "other",
     tsg: "adam",
-    mrw: "unknown",
+    mrw: "plain",
     li: "other",
     cv: "other",
     mnw: "other",
@@ -231,23 +231,23 @@ WORDS.adamsapple = {
     kmb: "adam",
     cpx: "other",
     ace: "unknown",
-    sas: "unknown",
+    sas: "plain",
     bej: "plain",
     lv: "adam",
-    rhg: "unknown",
+    rhg: "plain",
     snk: "unknown",
     ce: "other",
     kde: "unknown",
-    kbd: "unknown",
+    kbd: "plain",
     sco: "other",
     cy: "other",
     nn: "adam",
-    nyo: "unknown",
-    os: "unknown",
+    nyo: "plain",
+    os: "plain",
     khb: "other",
     lus: "unknown",
     lhu: "unknown",
-    tll: "unknown",
+    tll: "plain",
     new: "unknown",
     wa: "plain",
     xmf: "adam",
@@ -255,7 +255,7 @@ WORDS.adamsapple = {
     mt: "other",
     oc: "adam",
     fur: "other",
-    urh: "unknown",
+    urh: "plain",
     sah: "unknown",
     eo: "other",
     ast: "other",
@@ -264,7 +264,7 @@ WORDS.adamsapple = {
     br: "other",
     pdt: "other",
     nxq: "unknown",
-    maw: "unknown",
+    maw: "plain",
     enq: "unknown",
     inh: "other",
     is: "other",
@@ -309,17 +309,17 @@ WORDS.adamsapple = {
     mk: ["Адамово јаболко", "adamɔvɔ jabɔɫkɔ"],  // Literally 'Adam's apple'; the diminutive јаболкце 'little apple' is also used.
     ga: ["úll na brád", "uːl̪ˠ n̪ˠə bˠɾˠɑːd̪ˠ"],  // Literally 'apple of the throat'; úll na scornaí, with another word for throat, is also given by Ó Dónaill.
     kw: ["aval briansen", "aval brianzɛn"],  // Literally 'throat apple', like Welsh afal breuant 'windpipe apple'.
-    bik: ["kagulkol", "kaɡulˈkol"],  // The Central Bikol name, with no etymology given by Wiktionary.
+    bik: ["kagulkol", "kaɡulˈkol"],  // The Central Bikol name, with no etymology given by Wiktionary. No image is recorded for it, so it counts as a word of its own.
     nv: ["azooł dah dijoolígíí", "ʔɑ̀zòːɬ tɑ̀h tìtʃòːlíkíː"],  // Literally 'the round thing up on the windpipe'; it also names the larynx.
-    ckv: ["tiquq", "tiquq"],  // The Kavalan name; no etymology is given.
+    ckv: ["tiquq", "tiquq"],  // The Kavalan name; no etymology is given. No image is recorded for it, so it counts as a word of its own.
     mnp: ["硬喉", "ŋaiŋ˥˥ e˨˩"],  // Literally 'hard throat'.
     hsn: ["喉结", "xəu˩˧ tɕie˨˦"],  // Literally 'throat knot', the same word as Standard Chinese 喉结.
     nan: ["頷珠", "am˧˧ tsu˦˦"],  // Literally 'neck bead', with 頷 as in 頷頸 'neck'; 頷頸珠 and 嚨喉鐘仔 'throat bell' are also said.
     mr: ["कंठमणी", "kəɳʈʰəməɳiː"],  // Literally 'throat jewel', from Sanskrit; Molesworth also gives घांटी, a word for the throat, in this sense.
     et: ["kõrisõlm", "ˈkɤrisɤlm"],  // Literally 'throat knot', from kõri 'throat' + sõlm 'knot'.
-    ba: ["күмәгәй", "kʏmæˈɡæj"],  // The Bashkir name; Wiktionary gives no etymology.
+    ba: ["күмәгәй", "kʏmæˈɡæj"],  // The Bashkir name; Wiktionary gives no etymology. No image is recorded for it, so it counts as a word of its own.
     hy: ["ադամախնձոր", "ɑdɑmɑχənˈdzoɾ"],  // Literally 'Adam-apple', a translation of Latin pomum Adami; the same word also names a kind of banana.
-    ka: ["ხვანჩი", "xvantʃʰi"],  // The Georgian name; Wiktionary gives no etymology, and ადამის ვაშლი 'Adam's apple' is also listed.
+    ka: ["ხვანჩი", "xvantʃʰi"],  // The Georgian name; Wiktionary gives no etymology, and ადამის ვაშლი 'Adam's apple' is also listed. No image is recorded for it, so it counts as a word of its own.
     gl: ["noz", "nɔθ"],  // The same word as noz 'walnut'; nó da gorxa 'knot of the throat' and noz de Adán are also used.
     bjn: ["halukum", "halukum"],  // From Arabic ḥulqūm 'throat', perhaps through Malay halkum; jakum is a synonym.
     shn: ["ၶေႃးႁွႆ", "kʰɔː˥hɔj˨˦"],  // Begins with ၶေႃး 'neck, throat'; Wiktionary does not explain the second part. Route by resemblance to the neighbouring forms (khb(ᦆᦸᦠᦾ)); no etymology of its own.
@@ -396,7 +396,7 @@ WORDS.adamsapple = {
     zh_jiao: ["喉结", "xou˦˨ tɕiə˥˥"],  // Literally 'throat knot'; same word as Standard Mandarin.
     ko: ["울대뼈", "uldɛp͈jʌ"],  // Literally 'voice-organ bone', from 울대, the voice organ of birds and insects, + 뼈 'bone'; the medical term is 후두융기.
     vi: ["yết hầu", "iət˧˥ həw˨˩"],  // Sino-Vietnamese 咽喉 'throat, pharynx', used for the lump itself; trái cổ 'neck fruit' and táo Adam are also said.
-    jv: ["kalamenjing", "kalaməndʒiŋ"],  // The Javanese name in both ngoko and krama; no etymology is given in the sources.
+    jv: ["kalamenjing", "kalaməndʒiŋ"],  // The Javanese name in both ngoko and krama; no etymology is given in the sources. No image is recorded for it, so it counts as a word of its own.
     tl: ["lalagukan", "lalaɡuˈkan"],  // Built on lagok 'gulp', the place that moves when one swallows; gulunggulungan and tatagukan are synonyms.
     kn: ["ಗಂಟಲುಮಣಿ", "ɡaɳʈalumaɳi"],  // Literally 'throat gem', from ಗಂಟಲು 'throat' + ಮಣಿ 'gem, bead'.
     te: ["కంఠమణి", "kaɳʈʰamaɳi"],  // Literally 'throat jewel', a Sanskrit compound of kaṇṭha 'throat' + maṇi 'jewel'.
@@ -404,7 +404,7 @@ WORDS.adamsapple = {
     si: ["උගුරු ඇටය", "uɡuru æʈəjə"],  // Literally 'throat bone' or 'throat nut'; Sinhala Wikipedia calls it the everyday name beside the technical ස්වරාල නෙරුම.
     pa: ["ਘੰਡੀ", "kəɳ˩ɖiː"],  // From an old word for the throat, *ghaṇṭa, which Turner keeps apart from ghaṇṭā 'bell'; ghaṇḍī nikalṇī, the Adam's apple coming out, means reaching puberty (Singh 1895).
     pnb: ["گھنڈی", "kə̀ɳɖiː"],  // From an old word for the throat, *ghaṇṭa, which Turner keeps apart from ghaṇṭā 'bell'; the Western Punjabi Wikipedia also gives کنٹھ.
-    as: ["ঘঁটিকা", "ɡʱɔ̃tika"],  // Chandrakanta's dictionary defines it as the bump that sticks out at the front of the neck.
+    as: ["ঘঁটিকা", "ɡʱɔ̃tika"],  // Chandrakanta's dictionary defines it as the bump that sticks out at the front of the neck. No image is recorded for it, so it counts as a word of its own.
     fa: ["سیب آدم", "siːbe ʔɒːdæm"],  // Literally 'Adam's apple' (sib-e Âdam); سیب گلو 'throat apple' and the older جوزک are also used.
     hak_cn: ["抢食胲", "tɕʰiɔŋ˧˩ sɨt˥ koi˦"],  // Begins with 搶食 'snatch food'; the variant 偷食胲 begins with 偷食 'steal food' (Hakka Wikipedia).
     ne: ["रुद्रघन्टी", "ɾudɾʌɡʱʌnʈi"],  // Literally 'Rudra's bell', a compound of rudra, a name of Shiva, and ghaṇṭi 'bell' (Turner).
@@ -415,7 +415,7 @@ WORDS.adamsapple = {
     he: ["גרגרת", "ɡaʁˈɡeʁet"],  // A biblical word for the throat or neck, now the everyday name of the Adam's apple; it is commonly pronounced grogeret.
     sq: ["molla e Adamit", "mɔɫa ɛ adamit"],  // Literally 'the apple of Adam'; arrëza e fytit and fikth are synonyms.
     sk: ["ohryzok", "ˈoɦrizok"],  // The same word as ohryzok 'apple core', like Czech ohryzek.
-    mn: ["төвөнх", "tɵwɵŋx"],  // The Mongolian name, given as the title of the Mongolian Wikipedia article; no etymology is given.
+    mn: ["төвөнх", "tɵwɵŋx"],  // The Mongolian name, given as the title of the Mongolian Wikipedia article; no etymology is given. No image is recorded for it, so it counts as a word of its own.
     no: ["adamseple", "ˈɑːdɑmsˌeːplə"],  // Literally 'Adam's apple', from Adam + eple 'apple', a calque of medieval Latin pomum Adami.
     scn: ["pumu d'Adamu", "pumu dadamu"],  // Literally 'Adam's apple'; pumu 'apple' alone is also used for it.
     be: ["адамаў яблык", "adamaw jablɨk"],  // Literally 'Adam's apple', after the biblical legend; кадык is a synonym.
@@ -431,7 +431,7 @@ WORDS.adamsapple = {
     de_at: ["Adamsapfel", "ˈaːdamsʔapfl̩"],  // Literally 'Adam's apple', after the forbidden fruit said to have stuck in Adam's throat.
     hak_tw: ["搶食胲", "tsʰioŋ˧˩ sɨt˥ koi˨˦"],  // Begins with 搶食 'snatch food', the same word as in Meixian Hakka.
     tsg: ["bunga jakkum", "buŋa dʒakkum"],  // Literally 'fruit of the jakkum', jakkum being the Tausug name of the forbidden fruit eaten by Eve.
-    mrw: ["korokom", "korokom"],  // The Maranao word for the larynx or voice box, also glossed Adam's apple; no etymology is given.
+    mrw: ["korokom", "korokom"],  // The Maranao word for the larynx or voice box, also glossed Adam's apple; no etymology is given. No image is recorded for it, so it counts as a word of its own.
     li: ["kietsj", "kitʃ"],  // The same word as kietsj 'apple core', like Czech ohryzek; Dutch-style adamsappel is also used.
     cv: ["карланкӑ мӑкӑлӗ", "karlaŋkə məkəlɘ"],  // Literally 'lump of the throat', from карланкӑ 'throat, larynx' + мӑкӑль 'lump, swelling'; лакартак is a synonym.
     mnw: ["ကွေန် ကံ", "kon kɔʔ"],  // Literally 'child of the throat', from ကွေန် 'child, young one' + ကံ 'neck, throat'.
@@ -443,23 +443,23 @@ WORDS.adamsapple = {
     kmb: ["masã ia Adãu", "masã ja adãu"],  // Literally 'Adam's apple', modelled on Portuguese maçã de Adão; Maia also lists dikelengu, a word for the throat and gullet.
     cpx: ["咙喉蝉", "le˩˧ au˩˧ ɬɛŋ˩˧"],  // Literally 'throat cicada': 咙喉 'throat' + 蝉 'cicada'; Xianyou says 颔下蝉 'cicada under the chin'.
     ace: ["aneuk tôk", "anɯʔ toʔ"],  // The Acehnese name, defined as the bump at the top of the windpipe on a grown man's neck.
-    sas: ["bacot", "batʃot"],  // The Sasak headword for the Adam's apple, with kecekok and kenyekot as synonyms.
+    sas: ["bacot", "batʃot"],  // The Sasak headword for the Adam's apple, with kecekok and kenyekot as synonyms. No image is recorded for it, so it counts as a word of its own.
     bej: ["kirtʼuuwiit miitaat", "kirtʔuːwiːt miːtaːt"],  // Glossed literally as 'Adam's apple bone': kirtʼuuwiit, from Arabic tirquwa, plus miitaat 'bone'.
     lv: ["ādamābols", "ˈaːdamaːbuɔls"],  // Literally 'Adam's apple', from Ādams + ābols 'apple'; gāmurs is a synonym.
-    rhg: ["thuñçala", "ʈũɽala"],  // The Rohingya Dictionary gives it first as 'Adam's apple' and also for the throat and windpipe.
+    rhg: ["thuñçala", "ʈũɽala"],  // The Rohingya Dictionary gives it first as 'Adam's apple' and also for the throat and windpipe. No image is recorded for it, so it counts as a word of its own.
     snk: ["yugosirinfuxo", "juɡosirinfuxo"],  // Begins with yugo 'man'; the SIL Soninke lexicon gives selinsondonme as a synonym.
     ce: ["логан шад", "loɡan ʃad"],  // Literally 'throat knot', from лагӀ 'front of the neck, throat' + шад 'knot' (Matsiev 1961).
     kde: ["lukolongo", "lukoloŋɡo"],  // Rugemalira's dictionary glosses it as both the Adam's apple and the oesophagus, like Swahili koromeo.
-    kbd: ["къыртӏ", "qərtʼ"],  // The Kabardian word given for Russian кадык in the school Russian-Kabardian dictionary.
+    kbd: ["къыртӏ", "qərtʼ"],  // The Kabardian word given for Russian кадык in the school Russian-Kabardian dictionary. No image is recorded for it, so it counts as a word of its own.
     sco: ["knot o' the thrapple", "not ə ðə ˈθrɑpəl"],  // Literally 'knot of the windpipe'; thrapple-bow is a northern synonym (Scottish National Dictionary).
     cy: ["afal breuant", "aval breɨant"],  // Literally 'windpipe apple', from afal 'apple' + breuant 'windpipe'.
     nn: ["adamseple", "ˈɑːdɑmsˌɛplə"],  // Literally 'Adam's apple', after medieval Latin pomum Adami; barkeknut 'windpipe knot' is also used.
-    nyo: ["ekiimironko", "ekiːmiroŋko"],  // The Runyoro-Rutooro word, which the same dictionary also gives for the larynx.
-    os: ["хъихъыр", "qiqɨr"],  // The Iron Ossetian anatomical word for the Adam's apple.
+    nyo: ["ekiimironko", "ekiːmiroŋko"],  // The Runyoro-Rutooro word, which the same dictionary also gives for the larynx. No image is recorded for it, so it counts as a word of its own.
+    os: ["хъихъыр", "qiqɨr"],  // The Iron Ossetian anatomical word for the Adam's apple. No image is recorded for it, so it counts as a word of its own.
     khb: ["ᦆᦸᦠᦾ", "xɔː˥˩ hɔj˥"],  // Literally 'neck snail', from ᦆᦸ 'neck, throat' + ᦠᦾ 'snail, spiral shell'.
     lus: ["hrawk bawk", "hrɔk bɔk"],  // Built on hrawk 'throat'; Lorrain and Savidge's 1898 dictionary already lists it as hrok bawk.
     lhu: ["qá-qə̂ʼ-lə̂ʼ", "qáqə̂ʔlə̂ʔ"],  // The Black Lahu name, which Matisoff also glosses as the larynx.
-    tll: ["dikele", "dikele"],  // The Otetela name; the same dictionary also gives 'continual anger, quick temper' for it.
+    tll: ["dikele", "dikele"],  // The Otetela name; the same dictionary also gives 'continual anger, quick temper' for it. No image is recorded for it, so it counts as a word of its own.
     new: ["रुद्रघण्टी", "rudrəɡʱəɳʈi"],  // A Sanskrit-derived word that Nepali shares; the same dictionary also lists रुद्रकण्ठी for it.
     wa: ["gaviote", "ɡaˈvjɔt"],  // Formed from gavêye "throat" with the diminutive -ote; moirsea and peme d'Adan "Adam's apple" are synonyms.
     xmf: ["ადამიშ უშქური", "adamiʃ uʃkʰuri"],  // Literally "Adam's apple", with უშქური "apple".
@@ -467,7 +467,7 @@ WORDS.adamsapple = {
     mt: ["ġewża tal-għonq", "dʒɛwza talɔnʔ"],  // Literally "walnut of the neck", from ġewża "a walnut" and għonq "neck".
     oc: ["talhon d'Adam", "taʎu dadan"],  // Literally "Adam's morsel", from talhon "piece, morsel"; regional names include nos de la garganta "nut of the throat".
     fur: ["grop dal cuel", "ɡrop dal kwel"],  // Literally "knot of the neck", from grop "knot" and cuel "neck"; the ARLeF dictionary gives it for Italian pomo d'Adamo.
-    urh: ["ubiupho", "ubiuɸo"],  // Glossed "Adam's apple" in the SIL Urhobo dictionary, which also lists úbi "seed" and uphó "throat".
+    urh: ["ubiupho", "ubiuɸo"],  // Glossed "Adam's apple" in the SIL Urhobo dictionary, which also lists úbi "seed" and uphó "throat". No image is recorded for it, so it counts as a word of its own.
     sah: ["хабарҕа болчуоҕа", "xabarɣa boltʃuoɣa"],  // Begins with хабарҕа "throat"; хабарҕа хобото is given as a synonym.
     eo: ["gorĝopomo", "ɡordʒoˈpomo"],  // Literally 'throat apple', from gorĝo 'throat' + pomo 'apple'; ReVo also lists gorĝa pomo and adampomo.
     ast: ["nuez", "nweθ"],  // The same word as nuez 'walnut'; the Academy dictionary gives this as its second sense, the lump the thyroid cartilage makes in the neck.
@@ -476,7 +476,7 @@ WORDS.adamsapple = {
     br: ["aval-gouzoug", "avalˈɡuːzuk"],  // Literally 'throat apple', from aval 'apple' + gouzoug 'neck, throat'; aval-breant is a synonym.
     pdt: ["Haulsaupel", "ˈhaʊlzaʊpəl"],  // Literally 'neck apple', from Hauls 'neck, throat' + Aupel 'apple', like German Halsapfel; Schluckat is also given.
     nxq: ["cherlkodo'loq", "ʈʂʰɚ˥kʰø˧tø˧lø˨˩"],  // Begins with cherlko 'throat'; the same dictionary gives querlkaqda'laq as another dialect's form.
-    maw: ["lungɔ'a", "luŋɡɔʔa"],  // The Mampruli dictionary glosses it as both the vocal cords and the Adam's apple.
+    maw: ["lungɔ'a", "luŋɡɔʔa"],  // The Mampruli dictionary glosses it as both the vocal cords and the Adam's apple. No image is recorded for it, so it counts as a word of its own.
     enq: ["pendoko pingi", "pendoko piŋɡi"],  // Begins with pendoko 'throat'.
     inh: ["къамарга шод", "qʼamarɡa ʃod"],  // Literally 'throat knot', from къамарг 'throat, larynx' + шод 'knot', the same image as Chinese 喉结; лака шод is also listed.
     is: ["barkakýli", "ˈpar̥kacʰiːlɪ"],  // Literally 'windpipe boil', from barki 'windpipe' + kýli 'boil'; the word covers both the Adam's apple and the larynx, and adamsepli is the less common synonym.

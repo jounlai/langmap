@@ -158,8 +158,8 @@ WORDS.jellyfish = {
     ar_eg: "other",
     ar_lev: "other",
     ar_ps: "other",
-    vi_c: "unknown",
-    vi_s: "unknown",
+    vi_c: "plain",
+    vi_s: "plain",
     zh_tw: "mother",
     zh_db: "plain",
     zh_cd: "plain",
@@ -191,7 +191,7 @@ WORDS.jellyfish = {
     kk: "medusa",
     uz: "medusa",
     az: "medusa",
-    si: "unknown",
+    si: "plain",
     pt: "other",
     af: "other",
     nds: "other",
@@ -217,11 +217,11 @@ WORDS.jellyfish = {
     en_south: "jelly",
     ga: "jelly",
     lv: "medusa",
-    rhg: "unknown",
+    rhg: "plain",
     cpx: "plain",
     sl: "medusa",
     bs: "medusa",
-    war: "unknown",
+    war: "plain",
     bjn: "unknown",
     ace: "unknown",
     et: "medusa",
@@ -238,7 +238,7 @@ WORDS.jellyfish = {
     xmf: "medusa",
     sah: "medusa",
     fur: "medusa",
-    dtp: "unknown",
+    dtp: "plain",
     br: "jelly",
     nv: "jelly",
     ami: "unknown",
@@ -347,8 +347,8 @@ WORDS.jellyfish = {
     ar_eg: ["قنديل البحر", "ʔandiːl elbaħɾ"],  // Literally 'lamp of the sea'; قنديل alone is also used.
     ar_lev: ["قنديل البحر", "ʔandiːl ilbaħɾ"],  // Literally 'lamp of the sea'.
     ar_ps: ["قنديل البحر", "ʔandiːl ilbaħar"],  // Literally 'lamp of the sea'.
-    vi_c: ["sứa", "ʂɨə˨˦"],  // A native monosyllable of unknown origin.
-    vi_s: ["sứa", "ʂɨə˧˥"],  // A native monosyllable of unknown origin.
+    vi_c: ["sứa", "ʂɨə˨˦"],  // A native monosyllable of unknown origin. No image is recorded for it, so it counts as a word of its own.
+    vi_s: ["sứa", "ʂɨə˧˥"],  // A native monosyllable of unknown origin. No image is recorded for it, so it counts as a word of its own.
     zh_tw: ["水母", "ʂweɪ̯˧˩˧ mu˧˩˧"],  // Literally 'water mother'; 海蜇 is also used in Taiwan.
     zh_db: ["海蜇", "xai˧˩˧ tʂɤ˧˥"],  // 'Sea' plus 蜇, itself a word for jellyfish.
     zh_cd: ["海蜇", "xai˥˧ tsɛ˨˩"],  // 'Sea' plus 蜇, itself a word for jellyfish.
@@ -380,7 +380,7 @@ WORDS.jellyfish = {
     kk: ["медуза", "mʲɪˈduzə"],  // Borrowed from Russian медуза, named after the Gorgon Medusa.
     uz: ["meduza", "meˈduza"],  // Borrowed from Russian медуза; Uzbek Wikipedia notes the shared name with the Gorgon Medusa.
     az: ["meduza", "meˈduzɑ"],  // Via Russian медуза, after Medusa; dəniz anası "sea mother" is also listed.
-    si: ["ලොඩි", "loɖi"],  // Carter's dictionary has the animate form ලොඩියා "a sort of jelly-fish".
+    si: ["ලොඩි", "loɖi"],  // Carter's dictionary has the animate form ලොඩියා "a sort of jelly-fish". No image is recorded for it, so it counts as a word of its own.
     pt: ["alforreca", "alfuˈʁɛkɐ"],  // From Arabic for 'the nettle', via Andalusian Arabic; medusa is also used, and Brazil says água-viva.
     af: ["kwal", "kʋal"],  // Cognate with Dutch kwal; the English loan jellievis is also common. Like Dutch kwal, probably from a verb 'to swell'.
     nds: ["Quall", "kval"],  // Cognate with German Qualle and Dutch kwal. Like German Qualle, probably from a verb 'to swell'.
@@ -406,11 +406,11 @@ WORDS.jellyfish = {
     en_south: ["jellyfish", "ˈdʒɛlifɪʃ"],  // Jelly + fish, for its gelatinous body; it is not a fish.
     ga: ["smugairle róin", "ˈsˠmˠʊɡəɾˠlʲə ɾˠoːnʲ"],  // Literally 'seal's spittle': smugairle 'thick spittle' + róin, genitive of rón 'seal'.
     lv: ["medūza", "ˈmɛduːza"],  // Ultimately named after Medusa, the Gorgon of Greek myth.
-    rhg: ["nuinna", "nuɲɲa"],  // The Rohingya Dictionary glosses nuinna as 'jellyfish'; its origin is not given.
+    rhg: ["nuinna", "nuɲɲa"],  // The Rohingya Dictionary glosses nuinna as 'jellyfish'; its origin is not given. No image is recorded for it, so it counts as a word of its own.
     cpx: ["䖳", "tʰɒ˦˨"],  // An old Southern Chinese word for jellyfish, used in Putian and Xianyou.
     sl: ["meduza", "mɛˈduːza"],  // Borrowed from Italian medusa or French méduse, after the Gorgon Medusa.
     bs: ["meduza", "meˈduːza"],  // From New Latin medusa, after the Gorgon Medusa.
-    war: ["bantol", "banˈtol"],  // Waray Wikipedia lists salabay, bokya, budol and bantól as names for the jellyfish; the origin is not given.
+    war: ["bantol", "banˈtol"],  // Waray Wikipedia lists salabay, bokya, budol and bantól as names for the jellyfish; the origin is not given. No image is recorded for it, so it counts as a word of its own.
     bjn: ["ubur-ubur", "ubur ubur"],  // A reduplication of ubur, the same word as Indonesian ubur-ubur; its origin is not given.
     ace: ["bôbô", "bobo"],  // The Balai Bahasa Aceh dictionary also lists abô-abô; the origin is not given.
     et: ["meduus", "meˈduːs"],  // Borrowed from German Meduse, named after the Gorgon Medusa; millimallikas is the other common name.
@@ -427,7 +427,7 @@ WORDS.jellyfish = {
     xmf: ["მედუზა", "meduza"],  // The same word as Georgian მედუზა. Route by resemblance to the neighbouring forms (ka(მედუზა)); no etymology of its own.
     sah: ["медуза", "meˈduza"],  // Glossed as a sea animal ('муора харамайа'); the same word as Russian медуза. Route by resemblance to the neighbouring forms (ky(медуза) kk(медуза)); no etymology of its own.
     fur: ["meduse", "meˈduze"],  // The common-use word in the official Italian-Friulian dictionary, the counterpart of Italian medusa. Route by resemblance to the neighbouring forms (it(medusa) sl(meduza)); no etymology of its own.
-    dtp: ["bohung", "bohuŋ"],  // Glossed 'jellyfish' (Malay obor-obor) in the Kadazan dictionaries, which also list tampai; the Central Dusun form is balung. Its origin is not given.
+    dtp: ["bohung", "bohuŋ"],  // Glossed 'jellyfish' (Malay obor-obor) in the Kadazan dictionaries, which also list tampai; the Central Dusun form is balung. Its origin is not given. No image is recorded for it, so it counts as a word of its own.
     br: ["morgaoulenn", "morˈɡɔwlɛn"],  // Singulative of morgaoul, from mor 'sea' + kaoul, formerly 'jelly'; bloneg-mor 'sea lard' is a synonym.
     nv: ["jélii łóóʼ", "tʃélìː ɬóːʔ"],  // A calque of English jellyfish: jélii 'jelly' + łóóʼ 'fish'; it is also the title of the Navajo Wikipedia article on jellyfish (Medusozoa).
     ami: ["fofor", "fofor"],  // The Amis word for jellyfish, glossed 水母 in both the Safolu (蔡中涵) and Poinsot (潘世光) dictionaries; its origin is not given.

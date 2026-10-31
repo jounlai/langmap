@@ -88,7 +88,7 @@ WORDS.octopus = {
     su: "plain",
     uk: "eight",
     ml: "unknown",
-    my: "unknown",
+    my: "plain",
     ku: "eight",
     ceb: "plain",
     ro: "other",
@@ -120,7 +120,7 @@ WORDS.octopus = {
     gl: "many",
     mk: "eight",
     mrw: "plain",
-    eu: "unknown",
+    eu: "plain",
     ady: "unknown",
     mt: "other",
     sm: "plain",
@@ -139,7 +139,7 @@ WORDS.octopus = {
     rap: "plain",
     kw: "other",
     io: "many",
-    blc: "unknown",
+    blc: "plain",
     es_cr: "many",
     es_hn: "many",
     es_ni: "many",
@@ -222,9 +222,9 @@ WORDS.octopus = {
     uz: "eight",
     sd: "eight",
     mg: "plain",
-    so: "unknown",
-    xh: "unknown",
-    si: "unknown",
+    so: "plain",
+    xh: "plain",
+    si: "plain",
     kk: "eight",
     as: "eight",
     azb: "eight",
@@ -240,7 +240,7 @@ WORDS.octopus = {
     qu: "many",
     sq: "eight",
     sat: "eight",
-    ak: "unknown",
+    ak: "plain",
     da: "other",
     no: "other",
     es_pr: "many",
@@ -263,7 +263,7 @@ WORDS.octopus = {
     yue_nn: "eight",
     lt: "eight",
     bs: "other",
-    ban: "unknown",
+    ban: "plain",
     lv: "eight",
     ga: "eight",
     mak: "plain",
@@ -288,8 +288,8 @@ WORDS.octopus = {
     crh: "other",
     fur: "many",
     br: "other",
-    bi: "unknown",
-    ami: "unknown",
+    bi: "plain",
+    ami: "plain",
     ja_oki: "plain",
   },
   routes: {
@@ -323,7 +323,7 @@ WORDS.octopus = {
     su: ["gurita", "ɡurita"],  // The same word as Malay and Indonesian gurita.
     uk: ["восьминіг", "wɔsʲmeˈnʲiɦ"],  // Literally 'eight-legs': восьми- 'eight' + -ніг '-legged'.
     ml: ["നീരാളി", "n̪iːɾaːɭi"],  // A compound of നീർ 'water, juice' and ആളി, whose sense here is not explained.
-    my: ["ဘဝဲ", "bəwɛ́"],  // The Burmese name; my.wikipedia titles its article ရေဘဝဲ, with ရေ 'water'.
+    my: ["ဘဝဲ", "bəwɛ́"],  // The Burmese name; my.wikipedia titles its article ရေဘဝဲ, with ရေ 'water'. No image is recorded for it, so it counts as a word of its own.
     ku: ["heştpê", "hɛʃtˈpeː"],  // Literally 'eight-foot': heşt 'eight' + pê 'foot'.
     ceb: ["kugita", "kuˈɡita"],  // Inherited from Proto-Austronesian *guʀiCa 'octopus' (Blust & Trussel, ACD).
     ro: ["caracatiță", "karaˈkatitsə"],  // Of Slavic origin, built on a word for 'long-legged' (крак 'leg'), perhaps influenced by Turkish kara 'black'.
@@ -355,7 +355,7 @@ WORDS.octopus = {
     gl: ["polbo", "ˈpɔlβo"],  // From Latin polypus < Greek polýpous 'many-footed'.
     mk: ["октопод", "ˈɔktɔpɔt"],  // From Greek oktṓpous 'eight-foot'.
     mrw: ["kogita", "koɡita"],  // Inherited from Proto-Austronesian *guʀiCa 'octopus' (ACD).
-    eu: ["olagarro", "olaɡaro"],  // The Basque name; its origin is not given in the sources.
+    eu: ["olagarro", "olaɡaro"],  // The Basque name; its origin is not given in the sources. No image is recorded for it, so it counts as a word of its own.
     ady: ["псылъэхъу", "psəɬaχʷ"],  // The Adyghe name; its parts are not explained in the source.
     mt: ["qarnit", "ʔarˈniːt"],  // Inherited from Arabic qarnīṭ, which Tunisian Arabic shares. Route by resemblance to the neighbouring forms (ar_tn(قرنيط)); no etymology of its own.
     sm: ["feʻe", "feʔe"],  // Inherited from Proto-Polynesian *feke 'octopus' (POLLEX).
@@ -374,7 +374,7 @@ WORDS.octopus = {
     rap: ["heke", "heke"],  // Inherited from Proto-Polynesian *feke 'octopus' (POLLEX).
     kw: ["kollell lesa", "kɔlɛl lɛːza"],  // Literally 'expanding knife'.
     io: ["polpo", "ˈpolpo"],  // From Esperanto or Italian polpo, ultimately Greek polýpous 'many-footed'.
-    blc: ["stsʼmas", "stsʼmas"],  // The Nuxalk word, which also covers squid.
+    blc: ["stsʼmas", "stsʼmas"],  // The Nuxalk word, which also covers squid. No image is recorded for it, so it counts as a word of its own.
     es_cr: ["pulpo", "ˈpulpo"],  // Inherited from Latin polypus < Greek polýpous 'many-footed'.
     es_hn: ["pulpo", "ˈpulpo"],  // Inherited from Latin polypus < Greek polýpous 'many-footed'.
     es_ni: ["pulpo", "ˈpulpo"],  // Inherited from Latin polypus < Greek polýpous 'many-footed'.
@@ -457,9 +457,9 @@ WORDS.octopus = {
     uz: ["sakkizoyoq", "sakkizɒˈjɒq"],  // Literally 'eight-foot': sakkiz 'eight' + oyoq 'foot'; Russian osminog is also heard.
     sd: ["آڪٽوپس", "aːkʈoːpəs"],  // Borrowed from English octopus, Greek 'eight-foot'.
     mg: ["horita", "uˈrita"],  // Inherited from Proto-Austronesian *guʀiCa 'octopus', the same word as Malay gurita; it also covers cuttlefish.
-    so: ["farammugo", "faramːuɡo"],  // The Somali name; its make-up is not explained in the sources.
-    xh: ["ingwane", "iŋɡʷaːne"],  // The Xhosa name, shared with Zulu ingwane; its origin is not given in the sources.
-    si: ["බූවල්ලා", "buːʋalːaː"],  // The Sinhala name; Carter's 1924 dictionary glosses it only as 'a kind of small sea fish', and its origin is not given.
+    so: ["farammugo", "faramːuɡo"],  // The Somali name; its make-up is not explained in the sources. No image is recorded for it, so it counts as a word of its own.
+    xh: ["ingwane", "iŋɡʷaːne"],  // The Xhosa name, shared with Zulu ingwane; its origin is not given in the sources. No image is recorded for it, so it counts as a word of its own.
+    si: ["බූවල්ලා", "buːʋalːaː"],  // The Sinhala name; Carter's 1924 dictionary glosses it only as 'a kind of small sea fish', and its origin is not given. No image is recorded for it, so it counts as a word of its own.
     kk: ["сегізаяқ", "seɡizɑˈjɑq"],  // Literally 'eight-leg': сегіз 'eight' + аяқ 'leg'.
     as: ["অক্টোপাছ", "ɔktopas"],  // Borrowed from English octopus, Greek 'eight-foot'.
     azb: ["اوْسمینوق", "osmiˈnoɡ"],  // Borrowed from Russian осьминог 'eight-legs'; the native calque سککیزآیاق 'eight-foot' also exists.
@@ -475,7 +475,7 @@ WORDS.octopus = {
     qu: ["pulpu", "ˈpulpu"],  // The Quechua name; Quechua Wikipedia also gives pusaqchaki 'eight-foot'. Route by resemblance to the neighbouring forms (ast(pulpu) es(pulpo)); no etymology of its own.
     sq: ["oktapod", "ɔktaˈpɔd"],  // The common Albanian name; tetëkëmbësh 'eight-footed' is a calque also listed by Wiktionary.
     sat: ["ᱚᱠᱴᱚᱯᱚᱥ", "ɔkʈɔpɔs"],  // The Santali name, as used by Santali Wikipedia. Route by resemblance to the neighbouring forms (or(ଅକ୍ଟୋପସ) hi(ऑक्टोपस)); no etymology of its own.
-    ak: ["posena", "posena"],  // The Akan (Twi) name; its origin is not given in the sources.
+    ak: ["posena", "posena"],  // The Akan (Twi) name; its origin is not given in the sources. No image is recorded for it, so it counts as a word of its own.
     da: ["blæksprutte", "ˈb̥lɛɡ̊ˌsb̥ʁud̥ə"],  // Literally 'ink squirter'; in everyday speech it covers octopus as well as squid, and ottearmet blæksprutte 'eight-armed' is the precise term.
     no: ["blekksprut", "ˈblekːsprʉːt"],  // Literally 'ink squirter': blekk 'ink' + sprute 'squirt'; it also covers squid.
     es_pr: ["pulpo", "ˈpulpo"],  // Inherited from Latin polypus < Greek polýpous 'many-footed'.
@@ -498,7 +498,7 @@ WORDS.octopus = {
     yue_nn: ["八爪鱼", "pɛt˧ tʃɛu˧˥ jy˨˩"],  // Literally 'eight-claw fish'; the Nanning Cantonese word for octopus.
     lt: ["aštuonkojis", "ɐʃtuɔŋˈkoːjɪs"],  // Literally 'eight-leg': aštuoni 'eight' + koja 'leg'.
     bs: ["hobotnica", "ˈxobotnitsa"],  // Built on the Slavic word for 'trunk' (*xobotъ), as in Croatian and Serbian.
-    ban: ["gerita", "ɡəritə"],  // The Balinese name of the octopus; Balinese Wikipedia spells it grita or bé grita, bé 'fish'.
+    ban: ["gerita", "ɡəritə"],  // The Balinese name of the octopus; Balinese Wikipedia spells it grita or bé grita, bé 'fish'. No image is recorded for it, so it counts as a word of its own.
     lv: ["astoņkājis", "ˈastuɔɲkaːjis"],  // Literally 'eight-legged one': astoņi 'eight' + kāja 'leg'.
     ga: ["ochtapas", "ˈɔxt̪ˠəpˠəsˠ"],  // Borrowed from English octopus (Greek 'eight-foot'), shaped by the native word ocht 'eight'.
     mak: ["kurita", "kuˈrita"],  // Inherited from Proto-Austronesian *guʀiCa 'octopus', the same word as Malay gurita; people say it can sink large ships (Cense, via ACD).
@@ -523,8 +523,8 @@ WORDS.octopus = {
     crh: ["sprut", "sprut"],  // Borrowed from Russian спрут, which comes from Norwegian blekksprut 'ink squirter'.
     fur: ["folp", "fɔlp"],  // The Friulian name, given for Italian polpo in ARLeF's bilingual dictionary; compare Venetian folpo. From Latin polypus 'many-footed', like Italian polpo.
     br: ["morgazh", "ˈmorɡas"],  // Literally 'sea cat': mor 'sea' + kazh 'cat' (softened to gazh).
-    bi: ["nawita", "nawita"],  // The Bislama name, also spelled nakwita; the Bislama Spelling Dictionary glosses it 'octopus, squid'.
-    ami: ["solita", "solita"],  // The Amis name; the phrase takora'ay no riyal is a synonym, and Amis Wikipedia titles its octopus article Solita.
+    bi: ["nawita", "nawita"],  // The Bislama name, also spelled nakwita; the Bislama Spelling Dictionary glosses it 'octopus, squid'. No image is recorded for it, so it counts as a word of its own.
+    ami: ["solita", "solita"],  // The Amis name; the phrase takora'ay no riyal is a synonym, and Amis Wikipedia titles its octopus article Solita. No image is recorded for it, so it counts as a word of its own.
     ja_oki: ["蛸", "taku"],  // The Okinawan form of Japanese tako; the saying taku nu ʔeeku 'an octopus's oar' mocks a spineless person. Route by resemblance to ja(タコ).
   },
 };

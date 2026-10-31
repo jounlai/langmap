@@ -248,7 +248,7 @@ WORDS.shootingstar = {
     ar_lb: "other",
     ar_jo: "other",
     ar_ps: "other",
-    hyw: "unknown",
+    hyw: "plain",
     nan_xm: "other",
     nan_pn: "other",
     nan_qz: "other",
@@ -287,7 +287,7 @@ WORDS.shootingstar = {
     sah: "plain",
     fy: "falling",
     sm: "moving",
-    dtp: "unknown",
+    dtp: "plain",
     co: "other",
     ja_oki: "other",
     ty: "unknown",
@@ -486,7 +486,7 @@ WORDS.shootingstar = {
     ar_lb: ["شهاب", "ʃhaːb"],  // The same word as Standard Arabic شهاب, first a blazing firebrand.
     ar_jo: ["شهاب", "ʃhaːb"],  // The same word as Standard Arabic شهاب, first a blazing firebrand.
     ar_ps: ["شهاب", "ʃhaːb"],  // The same word as Standard Arabic شهاب, first a blazing firebrand.
-    hyw: ["ասուպ", "ɑˈsub"],  // The Armenian word for a meteor; Western Armenian Wikipedia uses it for the Leonid meteors.
+    hyw: ["ասուպ", "ɑˈsub"],  // The Armenian word for a meteor; Western Armenian Wikipedia uses it for the Leonid meteors. No image is recorded for it, so it counts as a word of its own.
     nan_xm: ["落屎星", "lau˨˩ sai˥˧ tsʰĩ˦˦"],  // Literally 'diarrhoea star'; Xiamen also says 疶屎星 and 飞星.
     nan_pn: ["落屎星", "lau˨˩ sai˦˦˥ tsʰẽ˧˧"],  // Literally 'diarrhoea star'.
     nan_qz: ["疶屎星", "tsʰuaʔ˥ sai˥˥˦ tsʰĩ˧˧"],  // Literally 'loose-stool star': 疶 'to have diarrhoea' + 屎 'excrement' + 星 'star'.
@@ -525,7 +525,7 @@ WORDS.shootingstar = {
     sah: ["сындыыс", "sɯnˈdɯːs"],  // Sakha's own word for a shooting star, defined as a star sliding across the sky as it falls; it also names a large dragonfly.
     fy: ["fallende stjer", "fɔləndə stjɛr"],  // Literally 'falling star', like Dutch vallende ster; the Frisian academy dictionary records it as the set phrase.
     sm: ["fetūlele", "fetuːlele"],  // Literally 'flying star' (fetū 'star' + lele 'to fly'), a compound shared with Tokelauan and reconstructed for Proto-Nuclear Polynesian.
-    dtp: ["buahakan", "buahakan"],  // The Dusun dictionary's word for a meteor, glossed with Malay tahi bintang; it also lists tapui rombituon 'star fire', and Coastal Kadazan says tai' do buhavan 'star droppings'.
+    dtp: ["buahakan", "buahakan"],  // The Dusun dictionary's word for a meteor, glossed with Malay tahi bintang; it also lists tapui rombituon 'star fire', and Coastal Kadazan says tai' do buhavan 'star droppings'. No image is recorded for it, so it counts as a word of its own.
     co: ["stella di e grazie", "ˈstella di e ˈɡratsje"],  // Literally 'star of the graces'; the INFCOR Corsican database lists it, with the variants stella di i grazii and grazia, as the word for a shooting star, and gives lacrima di San Lurenzu 'Saint Lawrence's tear' as a synonym.
     ja_oki: ["ふしぬやーうーちー", "ɸuɕinujaːʔuːtɕiː"],  // Literally 'the star's house-moving': ふし 'star' + ぬ 'of' + うーちー 'moving house'.
     ty: ["fetiʻa pao", "fetiʔa pao"],  // Fetiʻa is 'star'; Lemaître's lexicon of contemporary Tahitian glosses fetiʻa pao 'shooting star, meteor'.

@@ -83,7 +83,7 @@ WORDS.thumb = {
     ms: "mother",
     jv: "plain",
     su: "plain",
-    ceb: "unknown",
+    ceb: "plain",
     tl: "big",
     hi: "plain",
     sa: "plain",
@@ -210,7 +210,7 @@ WORDS.thumb = {
     oc: "plain",
     scn: "plain",
     be: "big",
-    om: "unknown",
+    om: "plain",
     ny: "unknown",
     fur: "plain",
     ast: "plain",
@@ -302,7 +302,7 @@ WORDS.thumb = {
     war: "plain",
     cpx: "big",
     sc: "big",
-    adi: "unknown",
+    adi: "plain",
     ady: "big",
     bi: "big",
     crh: "other",
@@ -319,12 +319,12 @@ WORDS.thumb = {
     lus: "unknown",
     mhr: "big",
     mt: "big",
-    ng: "unknown",
+    ng: "plain",
     nij: "mother",
     nyo: "unknown",
     pap: "plain",
     pis: "big",
-    ses: "unknown",
+    ses: "plain",
     sm: "unknown",
     urh: "unknown",
     fo: "plain",
@@ -341,7 +341,7 @@ WORDS.thumb = {
     yur: "big",
     pqm: "plain",
     kw: "plain",
-    szy: "unknown",
+    szy: "plain",
     tkl: "big",
     tvl: "big",
     esu: "unknown",
@@ -369,7 +369,7 @@ WORDS.thumb = {
     dru: "unknown",
     gun: "big",
     lun: "unknown",
-    roo: "unknown",
+    roo: "plain",
     sa_edu: "plain",
     h_vedic: "plain",
     pi: "plain",
@@ -395,8 +395,8 @@ WORDS.thumb = {
     prg: "plain",
     xct_litpr: "plain",
     zag: "unknown",
-    ttq: "unknown",
-    gha: "unknown",
+    ttq: "plain",
+    gha: "plain",
     siz: "big",
     zh_jiao: "big",
     ha: "big",
@@ -449,20 +449,20 @@ WORDS.thumb = {
     kha: "mother",
     ndc: "unknown",
     ve: "unknown",
-    mas: "unknown",
+    mas: "plain",
     tum: "unknown",
     hmn: "plain",
     ban: "mother",
     lmo: "other",
     rki: "big",
     bug: "mother",
-    bjn: "unknown",
+    bjn: "plain",
     sas: "unknown",
     ace: "mother",
     yao: "unknown",
     kok: "plain",
     zza: "big",
-    din: "unknown",
+    din: "plain",
     haz: "plain",
     cv: "other",
     li: "plain",
@@ -538,7 +538,7 @@ WORDS.thumb = {
     pwn: "unknown",
     tay: "unknown",
     emp: "mother",
-    vro: "unknown",
+    vro: "plain",
     abq: "unknown",
     rar: "big",
     olo: "plain",
@@ -581,7 +581,7 @@ WORDS.thumb = {
     mus: "mother",
     aer: "unknown",
     tao: "unknown",
-    pyu: "unknown",
+    pyu: "plain",
     vep: "plain",
     aqc: "unknown",
     ia: "plain",
@@ -614,7 +614,7 @@ WORDS.thumb = {
     ms: ["ibu jari", "ibu dʒari"],  // Literally 'mother of the fingers'.
     jv: ["jempol", "dʒəmpɔl"],  // The same word is borrowed into colloquial Indonesian.
     su: ["jempol", "dʒəmpol"],  // The same word as Javanese and colloquial Indonesian jempol.
-    ceb: ["kumalagko", "kumalaɡˈkoʔ"],  // In Metro Cebu it is shortened to kumagko.
+    ceb: ["kumalagko", "kumalaɡˈkoʔ"],  // In Metro Cebu it is shortened to kumagko. No image is recorded for it, so it counts as a word of its own.
     tl: ["hinlalaki", "hinlalaˈki"],  // Built on laki 'bigness', so roughly 'the big one'; it also names the big toe.
     hi: ["अंगूठा", "əŋɡuːʈʰaː"],  // Inherited from Sanskrit aṅguṣṭha 'thumb'; the same word also means the big toe.
     sa: ["अङ्गुष्ठः", "ɐŋɡuʂʈʰɐh"],  // An old Indo-Iranian word for thumb, related to aṅguli 'finger' and to Persian angošt 'finger'.
@@ -741,7 +741,7 @@ WORDS.thumb = {
     oc: ["poce", "ˈpuse"],  // From Latin pollex; familiarly also det gròs 'big finger'.
     scn: ["puseri", "ˈpuseri"],  // Sicilian word for the thumb, 'the thickest finger of the hand'.
     be: ["вялікі палец", "vʲalʲikʲi palʲets"],  // Literally 'big finger'; палец alone means any finger.
-    om: ["abbuudduu", "abːuːdːuː"],
+    om: ["abbuudduu", "abːuːdːuː"],  // No image is recorded for it, so it counts as a word of its own.
     ny: ["mphatakala", "mpʰatakala"],  // The same word also names the big toe.
     fur: ["poleâr", "poleˈaːr"],  // From Latin pollicaris, an adjective built on pollex 'thumb'.
     ast: ["pulgar", "pulˈɣaɾ"],  // From Latin pollicaris, built on pollex 'thumb'; dedón 'big finger' is also used.
@@ -833,7 +833,7 @@ WORDS.thumb = {
     war: ["tamuragko", "tamuraɡko"],  // A word of its own, used for both the thumb and, with 'foot', the big toe; compare Cebuano kumagko.
     cpx: ["大掌头", "tua˩˩ tsiau˦˥˧ tʰau˩˧"],  // Literally 'big finger-head': 掌 writes the Min colloquial word for 'finger' and 大 is 'big'; Xianyou says 大拇.
     sc: ["poddighe mannu", "poɖɖiɡe mannu"],  // Literally 'big finger' (poddighe 'finger', from Latin pollex 'thumb', + mannu 'big'); it also names the big toe, and didu mannu is a synonym.
-    adi: ["lakne", "lakne"],  // The Adi Bible uses lakne for the thumb ('lakbík lakne' = right thumb) and lene for the big toe.
+    adi: ["lakne", "lakne"],  // The Adi Bible uses lakne for the thumb ('lakbík lakne' = right thumb) and lene for the big toe. No image is recorded for it, so it counts as a word of its own.
     ady: ["ӏэхъомбэшхо", "ʔaχʷambaʃxʷa"],  // Literally 'big finger' (ӏэхъомбэ 'finger' + шхо 'big'); the big toe is likewise лъэхъомбэшхо.
     bi: ["bigfala fingga", "biɡfala fiŋɡa"],  // Literally 'big finger'; with blong leg 'of the foot' it names the big toe.
     crh: ["baş parmaq", "baʃ parmaq"],  // Literally 'head finger' (baş 'head' + parmaq 'finger'); with ayaq 'foot' it names the big toe.
@@ -850,12 +850,12 @@ WORDS.thumb = {
     lus: ["kutzungpui", "kutzuŋpui"],  // kut 'hand' + zungpui 'thumb; big toe'; Lorrain's dictionary gives pui as both 'mother' and 'big', so the image is open.
     mhr: ["кугыварня", "kuɡəvarɲa"],  // Literally 'big finger' (кугу 'big' + парня 'finger'); with йол 'foot' it names the big toe.
     mt: ["saba' l-kbir", "saba lkbiːr"],  // Literally 'the big finger'; with sieq 'foot' it names the big toe.
-    ng: ["omulumenwe", "omulumenwe"],  // A word for the thumb only: the Ndonga Bible calls the big toe omunwe omunene 'big finger' instead.
+    ng: ["omulumenwe", "omulumenwe"],  // A word for the thumb only: the Ndonga Bible calls the big toe omunwe omunene 'big finger' instead. No image is recorded for it, so it counts as a word of its own.
     nij: ["tunjok indu", "tundʒok indu"],  // Literally 'mother finger' (tunjok 'finger' + indu 'mother'), as in Malay ibu jari; with pai 'foot' it names the big toe.
     nyo: ["ekyara ekisaija", "ekjara ekisaidʒa"],  // Contains ekisaija, the class-7 form of -saija 'male'; with ekigere 'foot' it names the big toe.
     pap: ["dùim", "dʏim"],  // From Dutch duim 'thumb'.
     pis: ["bikfala fingga", "bikfala fiŋɡa"],  // Literally 'big finger'; with long lek 'of the foot' it names the big toe.
-    ses: ["kobaaru", "kobaːru"],  // A word for the thumb only: the big toe is cew-ize beeri 'big foot-child'.
+    ses: ["kobaaru", "kobaːru"],  // A word for the thumb only: the big toe is cew-ize beeri 'big foot-child'. No image is recorded for it, so it counts as a word of its own.
     sm: ["lima matua", "lima matua"],  // lima 'hand' + matua, which Pollex (MATUQA.B 'main, principal; also in expressions for thumb and big toe') traces across Polynesian; vae matua is the big toe.
     urh: ["urhiabọ rode", "uɾiabɔ rode"],  // Built on urhiabọ 'finger' (obọ 'hand'); the big toe is likewise urhiawọ rode (owọ 'foot').
     fo: ["tummil", "ˈtʰʊmːɪl"],  // A word of its own, related to English thumb and Danish tommel; the big toe is a separate word, stórutá.
@@ -872,7 +872,7 @@ WORDS.thumb = {
     yur: ["pletew", "pletew"],  // Built from the root pl- 'big' and -etew 'hand, finger'; it also names the big toe.
     pqm: ["ʼcihcin", "tʃihtʃin"],  // A dependent noun ('his or her thumb'), inherited from Proto-Algonquian *nečihčini 'my thumb', cognate with Mi'kmaq mtijin.
     kw: ["meus", "mœːz"],  // Inherited from Old Cornish, cognate with Breton meud and Welsh bawd; Late Cornish also says bys bras, 'big finger'.
-    szy: ["tatuzuʼ", "tatuzuʔ"],  // A word of its own for the thumb in Sakizaya; its origin is not given in the source.
+    szy: ["tatuzuʼ", "tatuzuʔ"],  // A word of its own for the thumb in Sakizaya; its origin is not given in the source. No image is recorded for it, so it counts as a word of its own.
     tkl: ["muamuālima matua", "muamuaːlima matua"],  // Literally 'main finger' (muamuālima 'finger' + matua 'main, principal', not mātua 'parent'); the big toe is muamuāvae matua.
     tvl: ["matikao matua", "matikao matua"],  // Literally 'main finger' (matikao 'finger' + matua 'main, principal'); with vae 'foot' the same phrase names the big toe.
     esu: ["ayaun", "ajaun"],  // A word of its own (stem ayaute-); the big toe has a different word, putukuq.
@@ -900,7 +900,7 @@ WORDS.thumb = {
     dru: ["dradrangalrane", "ɖaɖaŋaɭanə"],  // The same word names the thumb and the big toe, told apart by ki alrima 'of the hand' or ki drapale 'of the foot'.
     gun: ["kuã guaxu", "kuã ɡwaʃu"],  // Literally 'big finger' (kuã 'finger' + guaxu 'big'); the big toe is pyxã guaxu 'big toe'.
     lun: ["munu wedimbanu", "munu wedimbanu"],  // munu 'finger' + wa dimbanu; with wa ku mwendu 'of the foot' the same phrase names the big toe.
-    roo: ["aakopeva", "aːkopeβa"],  // The Rotokas word for the thumb, as recorded in Firchow et al.'s 1973 dictionary.
+    roo: ["aakopeva", "aːkopeβa"],  // The Rotokas word for the thumb, as recorded in Firchow et al.'s 1973 dictionary. No image is recorded for it, so it counts as a word of its own.
     sa_edu: ["अङ्गुष्ठः", "ɐŋɡuʂʈʰɐh"],  // An old Indo-Iranian word for the thumb, related to aṅguli 'finger'; it also names the big toe.
     h_vedic: ["अङ्गुष्ठः", "ɐŋɡúʂʈʰɐɦ"],  // Inherited from Proto-Indo-Iranian *Hangúštʰas 'thumb'; in Vedic texts it appears as a measure, the 'thumb-sized' self of the Kaṭha Upaniṣad.
     pi: ["अङ्गुट्ठ", "aŋɡuʈːʰa"],  // The Pali form of Sanskrit aṅguṣṭha 'thumb'; it also means the big toe.
@@ -926,8 +926,8 @@ WORDS.thumb = {
     prg: ["instixs", "instiks"],  // Recorded in the Elbing Vocabulary (c. 1300); a cognate of Lithuanian nykštys and Latvian īkšķis 'thumb'.
     xct_litpr: ["མཐེ་བོ", "tʰepo"],  // The first syllable may be the root for 'big' (Hill) or mtha' 'extreme, end' (Tournadre & Suzuki); rkang pa'i mthe bo 'the foot's thumb' is the big toe. Route by resemblance to the neighbouring forms (lbj(ཐེ་བོ)); no etymology of its own.
     zag: ["ba bo", "ba bo"],  // Synonym ba lûka; ba is 'arm, hand'.
-    ttq: ["egmăz", "eɡmæz"],
-    gha: ["ag̣əmmịz", "aɟəmːez"],
+    ttq: ["egmăz", "eɡmæz"],  // No image is recorded for it, so it counts as a word of its own.
+    gha: ["ag̣əmmịz", "aɟəmːez"],  // No image is recorded for it, so it counts as a word of its own.
     siz: ["ṭaḍ azwar", "tˤadˤ azwar"],  // Literally 'big finger' (Laoust); Nafusi says the same.
     zh_jiao: ["大拇指头", "tɛ˦˨ mu˥˥ tʂʅ˥˥ tʰou˦˨"],  // Literally 'big thumb-finger-head', the partner of 小拇指头, the little finger.
     ha: ["babban ɗan yatsa", "babːan ɗan jaːtsaː"],  // Literally 'the big finger' (babba 'big' + ɗan yatsa 'finger'); the Hausa Bible shortens it to babban yatsa.
@@ -980,20 +980,20 @@ WORDS.thumb = {
     kha: ["'tikmie", "tikmie"],  // Literally 'mother of the hand' ('ti, short for kti 'hand', + kmie 'mother'); the big toe is likewise 'jatkmie 'mother of the foot'.
     ndc: ["gunwe", "ɡunwe"],  // A class-5 noun on the stem of munwe 'finger', as in neighbouring Shona; with tsoka 'foot' it also names the big toe.
     ve: ["gunwe", "ɡunwe"],  // Shares its stem with munwe 'finger' in another noun class; with mulenzhe 'leg' it also names the big toe.
-    mas: ["olmogirra", "olmoɡirːa"],  // One word for the thumb and the big toe (Payne and Ole-Kotikash); le nkaina 'of the hand' makes it the thumb.
+    mas: ["olmogirra", "olmoɡirːa"],  // One word for the thumb and the big toe (Payne and Ole-Kotikash); le nkaina 'of the hand' makes it the thumb. No image is recorded for it, so it counts as a word of its own.
     tum: ["chigunwe", "tʃiɡunwe"],  // The same word, in the plural vigunwe, names both the thumbs and the big toes in the Tumbuka Bible.
     hmn: ["ntiv tes xoo", "nti˨˦ te˨˩ sɔ̃˧"],  // ntiv tes 'finger' + xoo, a word used only for the thumb and the big toe (ntiv taw xoo 'big toe'), per Heimbach's White Hmong dictionary.
     ban: ["inan lima", "inan limə"],  // Literally 'mother of the hand' (inan 'mother, chief' + lima 'hand'); the low-register gopong and the loan jempol are also used, and inan batis is the big toe.
     lmo: ["mazza-pioeugg", "masaˈpjøtʃ"],  // Literally 'louse-killer', the Milanese name (like Kurdish ئەسپێکوژە); didon 'big finger' is the other name.
     rki: ["လက်မ", "lɔʔma̰"],  // The same word as Burmese လက်မ, 'the main one of the hand'; it also means 'inch'.
     bug: ["indoʼ jari", "indoʔ dʒari"],  // Literally 'mother of the fingers' (indoʼ 'mother' + jari 'finger'), like Malay ibu jari; the big toe is indoʼ ajé.
-    bjn: ["hibu", "hibu"],  // Also hibu tangan 'hibu of the hand' when set against hibu batis, the big toe; jempol and jumpul are also used.
+    bjn: ["hibu", "hibu"],  // Also hibu tangan 'hibu of the hand' when set against hibu batis, the big toe; jempol and jumpul are also used. No image is recorded for it, so it counts as a word of its own.
     sas: ["gempol", "ɡəmpol"],  // The Sasak word for the thumb, close to Javanese jempol.
     ace: ["nang jaroe", "naŋ ɟaroe"],  // Literally 'mother of the hand' (nang 'mother (of animals)' + jaroe 'hand'); the big toe is nang gaki, and the dictionary also uses inong 'woman, mother' (inong gaki 'big toe').
     yao: ["chikongo", "tʃikoŋɡo"],  // The same word also names the big toe (chikongo cha lukongolo 'thumb of the foot').
     kok: ["आंगठो", "aːŋɡʈʰo"],  // The Konkani form of the old Indo-Aryan word for the thumb (Marathi अंगठा, Hindi अंगूठा); पांयाचो आंगठो is the big toe.
     zza: ["gışta pil", "ɡɨʃta pil"],  // Literally 'big finger' (gışte 'finger' + pil 'big').
-    din: ["bundït", "bundit"],  // The Rek Dinka word, also in the phrase ciin bundït; Ruweng Dinka says ciin buthbuth instead.
+    din: ["bundït", "bundit"],  // The Rek Dinka word, also in the phrase ciin bundït; Ruweng Dinka says ciin buthbuth instead. No image is recorded for it, so it counts as a word of its own.
     haz: ["شست", "ʃast"],  // The same word as Persian شست; it names both the big toe and the thumb.
     cv: ["пуҫ пӳрне", "puɕ pyrne"],  // Literally 'head finger' (пуҫ 'head; chief' + пӳрне 'finger'), like Turkish başparmak; паш-пӳрне is the nursery word.
     li: ["doem", "duːm"],  // A word of its own, the Limburgish cognate of Dutch duim and German Daumen.
@@ -1069,7 +1069,7 @@ WORDS.thumb = {
     pwn: ["vulungan", "vuɭuŋan"],  // Derived from vulung 'old; long' (also the name of the hundred-pacer viper), so roughly 'the old one'.
     tay: ["kʼaba", "kʔaba"],  // The fuller kʼabaʼ tluling adds tluling 'finger'.
     emp: ["jʉwapapa", "hɨuapapa"],  // Literally 'hand-mother' (jʉwa 'hand' + papa 'mother'); the big toe is jĩrũpapa, 'foot-mother'.
-    vro: ["päkk", "pækː"],  // Also päss and the playful täitapja 'louse-killer'; Võro 'keeps the thumb' for someone with ma piä sullõ pässä.
+    vro: ["päkk", "pækː"],  // Also päss and the playful täitapja 'louse-killer'; Võro 'keeps the thumb' for someone with ma piä sullõ pässä. No image is recorded for it, so it counts as a word of its own.
     abq: ["мачвхъаба", "matʃʷqaba"],  // Built on мачв 'finger'; the fuller мачвхъаба ду adds ду 'big', and the big toe is щачвхъаба ду, on щачв 'toe'.
     rar: ["maikao maʻata", "maikao maʔata"],  // Literally 'big finger' (maikao 'finger, toe' + maʻata 'big'); it also names the big toe, so Leviticus 8:23 says 'te maikao maata o tona rima katau', the big digit of his right hand.
     olo: ["peigalo", "ˈpeiɡalo"],  // An old Finnic word for the thumb, the counterpart of Finnish peukalo; VepKar also records peigoi.
@@ -1112,7 +1112,7 @@ WORDS.thumb = {
     mus: ["enk-ecke", "iŋkítʃki"],  // Literally 'mother of the hand' (enke 'his/her hand' + ecke 'his/her mother'); the big toe is ele-ecke, 'mother of the foot'.
     aer: ["pwelpwele", "pʷəlpʷələ"],  // The Eastern Arrernte word for the thumb, a reduplicated form.
     tao: ["tararakeh", "tararakəh"],  // Glossed 'thumb' (大拇指) in the ILRDF Yami dictionary.
-    pyu: ["atrengalran", "aʈəŋalan"],  // The Nanwang Puyuma word for the thumb in the ILRDF dictionary, which uses it in 'the thumb is shorter than the index finger'.
+    pyu: ["atrengalran", "aʈəŋalan"],  // The Nanwang Puyuma word for the thumb in the ILRDF dictionary, which uses it in 'the thumb is shorter than the index finger'. No image is recorded for it, so it counts as a word of its own.
     vep: ["peigol", "ˈpeiɡol"],  // The same old Finnic word as Finnish peukalo and Estonian pöial, from Proto-Finnic *peikälo.
     aqc: ["беӏкӏырттен гон", "beˤkʼərtːen ɡon"],  // Built on гон 'finger'; the Surrey Archi dictionary gives it as the word for the thumb.
     ia: ["pollice", "ˈpolitse"],  // From Latin pollex, pollicis 'thumb', like Italian pollice; the Interlingua-English Dictionary marks the stress on the first syllable (pól-) and also gives the sense 'inch'.

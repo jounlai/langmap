@@ -104,7 +104,7 @@ WORDS.goosebumps = {
     cy: "bird",
     is: "bird",
     eo: "bird",
-    mwl: "unknown",
+    mwl: "plain",
     lb: "bird",
     en_ng2: "bird",
     en_my: "bird",
@@ -281,7 +281,7 @@ WORDS.goosebumps = {
     cy: ["croen gŵydd", "kroːɨn ɡuːɨð"],  // Literally "goose skin".
     is: ["gæsahúð", "ˈcaiːsahuːð"],  // Literally "goose skin".
     eo: ["anserhaŭto", "anserˈhawto"],  // Literally "goose skin", probably modelled on German Gänsehaut.
-    mwl: ["quelobrinas", "kɨluˈβɾinɐs"],  // A word of its own whose origin the source does not give.
+    mwl: ["quelobrinas", "kɨluˈβɾinɐs"],  // A word of its own whose origin the source does not give. No image is recorded for it, so it counts as a word of its own.
     lb: ["Héngerhaut", "ˈheŋɐhæʊ̯t"],  // Literally "chickens' skin".
     en_ng2: ["goosebumps", "ˈɡuːsbʌmps"],  // Named after the bumpy skin of a plucked goose.
     en_my: ["goosebumps", "ˈɡuːsbamps"],  // Named after the bumpy skin of a plucked goose.

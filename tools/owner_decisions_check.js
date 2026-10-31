@@ -228,6 +228,24 @@ const DECISIONS = [
             return bad;
         },
     },
+    {
+        id: 'unanalysed-word-is-plain',
+        what: 'A single Word Map word with no recorded image counts as "plain", a word of its own, not "not yet determined" (owner 2026-10-31); a cell keeps that note only while it is plain',
+        check: () => {
+            const NOTE = 'No image is recorded for it, so it counts as a word of its own.';
+            const bad = [];
+            for (const f of fs.readdirSync(path.join(ROOT, 'words')).filter((x) => x.endsWith('.js'))) {
+                const t = read('words/' + f);
+                if (!t.includes(NOTE)) continue;
+                for (const m of t.matchAll(/^\s+([a-z_0-9]+): \[.*\/\/.*$/gm)) {
+                    if (!m[0].includes(NOTE)) continue;
+                    const r = t.slice(t.indexOf('family:')).match(new RegExp('^\\s+' + m[1] + ': "([a-z]+)",', 'm'));
+                    if (!r || r[1] !== 'plain') bad.push(`words/${f}: ${m[1]} carries the plain note but is ${r ? r[1] : 'unrouted'}`);
+                }
+            }
+            return bad;
+        },
+    },
 ];
 
 let problems = 0;

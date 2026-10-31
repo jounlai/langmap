@@ -269,7 +269,7 @@ WORDS.grandmother = {
     ab: "unknown",
     lez: "unknown",
     ddo: "unknown",
-    rap: "unknown",
+    rap: "one",
     tt: "unknown",
     mdr: "one",
     wuu: "split",
@@ -294,7 +294,7 @@ WORDS.grandmother = {
     ilo: "one",
     ceb: "one",
     hil: "one",
-    tn: "unknown",
+    tn: "one",
     ig: "split",
     tiv: "one",
     sr: "one",
@@ -308,7 +308,7 @@ WORDS.grandmother = {
     ti: "one",
     ak: "unknown",
     ff: "one",
-    min: "unknown",
+    min: "one",
     ts: "one",
     hmn: "split",
     ce: "split",
@@ -330,7 +330,7 @@ WORDS.grandmother = {
     ach: "one",
     ve: "one",
     kfy: "one",
-    av: "unknown",
+    av: "one",
     rom: "unknown",
     ba: "unknown",
     pag: "one",
@@ -357,10 +357,10 @@ WORDS.grandmother = {
     cak: "unknown",
     yua: "one",
     oc: "unknown",
-    kum: "unknown",
+    kum: "one",
     sm: "one",
     lzz: "unknown",
-    cbk: "unknown",
+    cbk: "one",
     dar: "unknown",
     dtp: "unknown",
     enq: "one",
@@ -413,11 +413,11 @@ WORDS.grandmother = {
     czh: "split",
     bs: "one",
     zza: "one",
-    bem: "unknown",
+    bem: "one",
     jam: "one",
     war: "one",
     lmo: "one",
-    kam: "unknown",
+    kam: "one",
     nyn: "unknown",
     brx: "one",
     hni: "unknown",
@@ -430,9 +430,9 @@ WORDS.grandmother = {
     abs: "unknown",
     ndc: "unknown",
     wbm: "unknown",
-    ksw: "unknown",
-    mrw: "unknown",
-    tsg: "unknown",
+    ksw: "one",
+    mrw: "one",
+    tsg: "one",
     dag: "unknown",
     quz: "unknown",
     sus: "unknown",
@@ -532,7 +532,7 @@ WORDS.grandmother = {
     ahk: "unknown",
     inh: "split",
     rup: "unknown",
-    tet: "unknown",
+    tet: "one",
     nhe: "unknown",
     pis: "one",
     ote: "unknown",
@@ -547,16 +547,16 @@ WORDS.grandmother = {
     gil: "one",
     cnh: "unknown",
     dng: "split",
-    pwn: "unknown",
-    tay: "unknown",
-    bnn: "unknown",
+    pwn: "one",
+    tay: "one",
+    bnn: "one",
     vro: "unknown",
     dsh: "unknown",
-    emp: "unknown",
+    emp: "one",
     toj: "unknown",
     kjb: "unknown",
     gay: "split",
-    mzh: "unknown",
+    mzh: "one",
     cuk: "unknown",
     crs: "unknown",
     ch: "one",
@@ -564,7 +564,7 @@ WORDS.grandmother = {
     trv: "unknown",
     rm: "one",
     djk: "unknown",
-    shp: "unknown",
+    shp: "one",
     cni: "unknown",
     dds: "one",
     otq: "unknown",
@@ -578,11 +578,11 @@ WORDS.grandmother = {
     ers: "one",
     frr: "unknown",
     aer: "split",
-    mch: "unknown",
+    mch: "one",
     tsu: "unknown",
     acu: "one",
     car: "one",
-    mus: "unknown",
+    mus: "one",
     vo: "one",
     vot: "unknown",
     yur: "one",
@@ -602,10 +602,10 @@ WORDS.grandmother = {
     pyu: "one",
     szy: "one",
     kw: "one",
-    vep: "unknown",
+    vep: "one",
     kpy: "unknown",
     jbo: "one",
-    chy: "unknown",
+    chy: "one",
     pqm: "unknown",
     nys: "unknown",
   },
@@ -821,7 +821,7 @@ WORDS.grandmother = {
     ab: ["анду", "andu"],  // The Abkhaz word for grandmother; no source checked says whether it covers both sides.
     lez: ["чӏехи диде", "tʃʼeχi dide"],  // Literally 'big mother' (диде 'mother'); dialects say баде or де.
     ddo: ["эчу", "etʃu"],  // No source checked says whether it covers both sides.
-    rap: ["mamaruʻau", "mamaɾuʔau"],  // Literally 'old mama' (ruʻau 'old'); tupuna is the general word for any grandparent.
+    rap: ["mamaruʻau", "mamaɾuʔau"],  // Literally 'old mama' (ruʻau 'old'); tupuna is the general word for any grandparent. KinBank gives tupuna for both the father's and the mother's mother.
     tt: ["әби", "æbi"],  // Also means 'old woman'; дәү әни and зур әни, both 'big mother', are other words.
     mdr: ["kanneq", "kanːeʔ"],  // A word for any grandparent, not only the grandmother.
     wuu: ["阿奶", "aʔ˧˧ na˦˦"],  // Father's mother (younger Shanghainese also say 奶奶); mother's mother: 外婆 nga-bu, 'outside grandmother'.
@@ -846,7 +846,7 @@ WORDS.grandmother = {
     ilo: ["lola", "ˈlola"],  // From Spanish abuela; one word for either grandmother, beside native apong (grandparent).
     ceb: ["lola", "ˈlola"],  // From Spanish abuela; one word for either grandmother (older native úyang).
     hil: ["lola", "ˈlola"],  // From Spanish abuela; one word for either grandmother.
-    tn: ["nkoko", "ŋkʊkʊ"],  // The word for grandmother in the Bantu Basic Vocabulary list; whether the two grandmothers are told apart is not recorded.
+    tn: ["nkoko", "ŋkʊkʊ"],  // The word for grandmother in the Bantu Basic Vocabulary list. KinBank gives mme-mogolo for both the father's and the mother's mother.
     ig: ["nne nna", "nːe nːa"],  // Literally 'mother of father'; mother's mother: nne nne 'mother of mother' or nne ochie 'old mother'.
     tiv: ["ngo u tamen", "ŋɡo u tamen"],  // Built on ngo 'mother'; one term for either grandmother.
     sr: ["баба", "bâba"],  // One word for either grandmother (also 'old woman'); the affectionate бака baka is very common.
@@ -860,7 +860,7 @@ WORDS.grandmother = {
     ti: ["ዓባይ", "ʕabaj"],  // The everyday word for grandmother, also said ኣደይ ዓባይ. One word for either grandmother, as in Amharic.
     ak: ["nanabaa", "nanabaː"],  // Built on nana 'grandparent', which is also used on its own.
     ff: ["maama", "maːma"],  // A word for a grandparent of either sex, inherited from Proto-Fula-Sereer *maam.
-    min: ["anduang", "anduaŋ"],  // The Minangkabau word for grandmother, borrowed into Indonesian as andung.
+    min: ["anduang", "anduaŋ"],  // The Minangkabau word for grandmother, borrowed into Indonesian as andung. KinBank gives tuo for both the father's and the mother's mother.
     ts: ["kokwana", "kokwana"],  // A word for a grandparent of either sex, used for both grandmothers (also for maternal uncles).
     hmn: ["pog", "pɔ˧˩"],  // Father's mother; mother's mother: niam tais.
     ce: ["денана", "denana"],  // Literally 'father-mother'; mother's mother: ненан нана, 'mother's mother'.
@@ -882,7 +882,7 @@ WORDS.grandmother = {
     ach: ["daa", "daː"],  // One word for either grandmother.
     ve: ["makhulu", "makʰulu"],  // One word for either grandmother.
     kfy: ["आमा", "aːmaː"],  // From Sanskrit ambā 'mother'; one word for either grandmother, while Kumaoni says ईजा for mother.
-    av: ["кӏодо", "kʼodo"],  // кӏодоэбел, with эбел 'mother', is a fuller form.
+    av: ["кӏодо", "kʼodo"],  // кӏодоэбел, with эбел 'mother', is a fuller form. KinBank gives кӏубуба for both the father's and the mother's mother.
     rom: ["mami", "mami"],  // Turner records māmi 'grandmother' in the Romani of Romania.
     ba: ["әбәй", "æbæj"],  // The NorthEuraLex form; the side is not marked.
     pag: ["bai", "ˈbai"],  // Inherited from Proto-Austronesian *bahi 'woman'; laki is the grandfather. One word for either grandmother.
@@ -909,10 +909,10 @@ WORDS.grandmother = {
     cak: ["atitaj", "atitax"],  // Glossed 'father's mother' (abuela paterna); the source has no separate mother's-mother entry, so whether the two are distinguished is not established.
     yua: ["chiich", "tʃiːtʃ"],  // One word for either grandmother; mamich is a synonym.
     oc: ["menina", "meˈninɔ"],  // Also 'old woman'; synonyms include grand, mairegrand and mameta.
-    kum: ["уллу ана", "ullu ana"],  // Literally 'big mother' (contracted уллана); къарт ана 'old mother' is also used.
+    kum: ["уллу ана", "ullu ana"],  // Literally 'big mother' (contracted уллана); къарт ана 'old mother' is also used. KinBank gives къарт ана for both the father's and the mother's mother.
     sm: ["tinā matua", "tinaː matua"],  // Literally 'elder mother'; grandparents of either side are called by the parent words, tinā and tamā.
     lzz: ["დიდინანა", "didinana"],  // Literally 'big mother' (didi 'big' + nana 'mother'); Vizha says ბედი or ბენა.
-    cbk: ["abuela", "aˈbwela"],  // From Spanish abuela; lola, borrowed from Tagalog, and the short form 'la are also common.
+    cbk: ["abuela", "aˈbwela"],  // From Spanish abuela; lola, borrowed from Tagalog, and the short form 'la are also common. KinBank gives lola for both the father's and the mother's mother.
     dar: ["хала неш", "χala neʃ"],  // Literally 'big mother'; the grandfather is хала дудеш, 'big father'.
     dtp: ["todu", "todu"],  // The term of reference; odu is the address form, and the grandfather is taki.
     enq: ["aputingi", "aputiŋɡi"],  // Covers any female relative two or more generations up, on either side.
@@ -965,11 +965,11 @@ WORDS.grandmother = {
     czh: ["老婄", "lə˨˦ pə˨˦"],  // Tunxi Hui for the father's mother (婄 is also written 輩); the mother's mother is 外婆 ŋa˩˩ pʰo˦˦.
     bs: ["nana", "ˈnaːna"],  // Covers both the mother's mother and the father's mother; nena and baka are also used.
     zza: ["dapir", "daˈpiɾ"],  // The same word for both grandmothers in Werner's kinship chart (Çermik/Gerger/Siverek); colloquially dade can mean the mother's mother.
-    bem: ["mama", "mama"],  // Distinct from mayo 'mother'; 'your grandmother' is nokokulu.
+    bem: ["mama", "mama"],  // Distinct from mayo 'mother'; 'your grandmother' is nokokulu. KinBank gives shikulu for both the father's and the mother's mother.
     jam: ["granni", "ɡɹani"],  // Used for either grandmother; granmada (as in the Jamaican New Testament) is also said.
     war: ["lola", "ˈlola"],  // Used for either side, specified as lola ha amay 'on the father's side' or ha nanay 'on the mother's side'; the older apoy means any grandparent.
     lmo: ["nòna", "ˈnɔna"],  // Defined as 'the father's mother or the mother's mother' (Milanese); mama granda is a synonym.
-    kam: ["sũsũ", "soso"],  // Kin terms change with the possessor: ũsũe waku 'your grandmother' in the Kamba Bible.
+    kam: ["sũsũ", "soso"],  // Kin terms change with the possessor: ũsũe waku 'your grandmother' in the Kamba Bible. KinBank gives usua for both the father's and the mother's mother.
     nyn: ["nyinenkuru", "ɲinenkuru"],  // The form for 'his/her grandmother'; 'your grandmother' is nyokwenkuru.
     brx: ["आबै", "abɯi"],  // One word for either grandmother: the dictionary defines it as the mother of one's mother or father; grandfather is आबौ.
     hni: ["aqpiq", "a˧˩pʰi˧˩"],  // The Hani word for grandmother, paired with aqbol 'grandfather'.
@@ -982,9 +982,9 @@ WORDS.grandmother = {
     abs: ["nene", "nene"],  // Ambon Malay word for grandmother; the Dutch loan oma is also used.
     ndc: ["mbuya", "mbuja"],  // As in Shona (ambuya); the Ndau Bible uses it both for Timothy's grandmother Lois and for King Asa's grandmother Maacah, his father's mother.
     wbm: ["yiex", "jɛʔ"],  // The Wa word for grandmother, beside miex 'mother'.
-    ksw: ["ဖံ", "pʰi"],  // The S'gaw Karen word for grandmother, paired with ဖု 'grandfather' in ဖံဖု 'grandparents'.
-    mrw: ["inaʼ a baʼi", "inaʔ a baʔi"],  // Literally 'lady mother' (inaʼ 'mother' + baʼi 'lady'); the same dictionary also gives inaʼ a lokes 'old mother' for grandmother.
-    tsg: ["apuꞌ babai", "apuʔ babai"],  // Literally 'female grandparent': apuꞌ is any grandparent and babai 'woman, female'.
+    ksw: ["ဖံ", "pʰi"],  // The S'gaw Karen word for grandmother, paired with ဖု 'grandfather' in ဖံဖု 'grandparents'. Morgan's 1871 schedule gives one term for both the father's and the mother's mother.
+    mrw: ["inaʼ a baʼi", "inaʔ a baʔi"],  // Literally 'lady mother' (inaʼ 'mother' + baʼi 'lady'); the same dictionary also gives inaʼ a lokes 'old mother' for grandmother. KinBank gives apo for both the father's and the mother's mother.
+    tsg: ["apuꞌ babai", "apuʔ babai"],  // Literally 'female grandparent': apuꞌ is any grandparent and babai 'woman, female'. KinBank gives apuꞌ for both the father's and the mother's mother.
     dag: ["yabipaɣa", "jabipaɣa"],  // Built on yaba 'grandparent, grandfather' + paɣa 'woman'.
     quz: ["hatun mama", "ˈhatun ˈmama"],  // Literally 'big mother' (hatun 'big' + mama 'mother').
     sus: ["mama", "mama"],  // Grandfather is a different word, tanun; mother is nga.
@@ -1130,7 +1130,7 @@ WORDS.grandmother = {
     ers: ["ɑwɑ", "ɑ˧˧wɑ˥˥"],  // Kinship prefix ɑ- plus wɑ; traditionally the same word covers the father's and the mother's mother (and any old woman), though younger speakers now call the mother's mother pópó, borrowed from Mandarin.
     frr: ["åål", "ɔːl"],  // The Mooring word for grandmother (also 'Oma'), paired with åte 'grandfather' (åål än åte 'grandparents'); åålensmam is a longer synonym.
     aer: ["aperle", "apəɭə"],  // Father's mother (also a woman's son's child); mother's mother: ipmenhe.
-    mch: ["nootü", "noːtɨ"],  // Grandmother; the first-person form is the suppletive aicha 'my grandmother'.
+    mch: ["nootü", "noːtɨ"],  // Grandmother; the first-person form is the suppletive aicha 'my grandmother'. KinBank gives -tamū-du for both the father's and the mother's mother.
     tsu: ["baʼi", "baʔi"],  // Grandmother.
     acu: ["nukuch", "nukutʃ"],  // Grandmother on either side (Godelier et al. 1998 give nukuchi for both the father's and the mother's mother, and apachi for both grandfathers); nukuchiam is 'great-grandmother'.
     car: ["no", "no"],  // Grandmother, also 'old woman'; possessed form noty 'grandmother of ...'. Arnaud 1968 gives the same word for the father's and the mother's mother (grandfather tamuru for both).
@@ -1154,7 +1154,7 @@ WORDS.grandmother = {
     pyu: ["emu", "əmu"],  // A grandparent of either sex, used for the father's and the mother's mother alike; mulri na babayan is 'my grandmother', literally 'my female grandparent'.
     szy: ["bai", "bai"],  // A woman of the grandparents' generation, used for either grandmother (祖母 and 外婆 alike).
     kw: ["mamm wynn", "mam wɪn"],  // Literally 'blessed (white) mother', from mamm 'mother'; dama wynn is a synonym. One word for either grandmother.
-    vep: ["baboi", "ˈbaboi"],  // Borrowed from Russian баба; bab is a shorter form.
+    vep: ["baboi", "ˈbaboi"],  // Borrowed from Russian баба; bab is a shorter form. KinBank gives baboi for both the father's and the mother's mother.
     kpy: ["аня", "aɲa"],  // The Koryak word for a grandmother, recorded in Moll's and Zhukova's Koryak–Russian dictionaries.
     jbo: ["rirmamta", "rirˈmamta"],  // Built from rirni 'parent' and mamta 'mother', a grandmother on either side; mamymamta ('mother-mother') is available when the mother's mother must be specified.
     chy: ["néškeʼéehe", "néʃkeʔéːhe"],  // 'My grandmother', which also means 'my mother-in-law'; the address form is Néškeʼe, and Morgan's 1871 schedule records one term for both the father's and the mother's mother.

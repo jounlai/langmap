@@ -150,10 +150,10 @@ WORDS.rainbow = {
     yo: "serpent",
     am: "bow",
     mg: "other",
-    ain: "unknown",
+    ain: "plain",
     ket: "other",
     ar_qur: "bow",
-    com: "unknown",
+    com: "plain",
     cy: "unknown",
     ka: "other",
     sva: "other",
@@ -169,7 +169,7 @@ WORDS.rainbow = {
     bo: "plain",
     khg: "plain",
     lic: "plain",
-    orh: "unknown",
+    orh: "plain",
     za: "unknown",
     jv: "unknown",
     su: "unknown",
@@ -191,7 +191,7 @@ WORDS.rainbow = {
     az: "other",
     gag: "other",
     uz: "unknown",
-    mnc: "unknown",
+    mnc: "plain",
     ar_gulf: "bow",
     ar_ma: "bow",
     mt: "bow",
@@ -200,7 +200,7 @@ WORDS.rainbow = {
     om: "unknown",
     xh: "unknown",
     sn: "unknown",
-    ny: "unknown",
+    ny: "bow",
     en_aave: "bow",
     en_nz: "bow",
     en_au: "bow",
@@ -210,7 +210,7 @@ WORDS.rainbow = {
     yi: "bow",
     is: "bow",
     gd: "bow",
-    br: "unknown",
+    br: "plain",
     scn: "bow",
     vec: "bow",
     ca: "bow",
@@ -270,7 +270,7 @@ WORDS.rainbow = {
     zza: "unknown",
     guc: "unknown",
     mch: "unknown",
-    emp: "unknown",
+    emp: "plain",
     tsg: "plain",
     hr: "bow",
     iba: "unknown",
@@ -284,7 +284,7 @@ WORDS.rainbow = {
     crs: "bow",
     srn: "bow",
     srm: "unknown",
-    shp: "unknown",
+    shp: "plain",
     pam: "other",
     mak: "unknown",
     orv: "bow",
@@ -344,7 +344,7 @@ WORDS.rainbow = {
     ki: "other",
     kg: "unknown",
     yua: "unknown",
-    arn: "unknown",
+    arn: "plain",
     cr: "unknown",
     oj: "other",
     pqm: "unknown",
@@ -433,7 +433,7 @@ WORDS.rainbow = {
     lmo: "bow",
     sid: "other",
     bs: "bow",
-    yao: "unknown",
+    yao: "bow",
     myx: "unknown",
     tum: "unknown",
     nyn: "unknown",
@@ -511,7 +511,7 @@ WORDS.rainbow = {
     cho: "unknown",
     esu: "unknown",
     kos: "unknown",
-    yrl: "unknown",
+    yrl: "bow",
     car: "unknown",
     yap: "unknown",
     atj: "unknown",
@@ -828,10 +828,10 @@ WORDS.rainbow = {
     yo: ["òṣùmàrè", "òʃùmàɾè"],  // The same word means "python": the python is the serpent symbol of Òṣùmàrè, the spirit of the rainbow.
     am: ["ቀስተ ደመና", "qʼəstə dəmːəna"],  // Literally "bow of the cloud": ቀስት "bow" + ደመና "cloud".
     mg: ["avana", "ˈavana"],  // From an old Malayo-Polynesian word for the space between earth and sky, the same word as Malay awan "cloud".
-    ain: ["ラヨチ", "ɾajotɕi"],  // Hokkaido Ainu rayoci.
+    ain: ["ラヨチ", "ɾajotɕi"],  // Hokkaido Ainu rayoci. Unrelated to ku 'bow' and tokkoni 'snake'.
     ket: ["аӄӄут", "aqɢut"],  // Literally "thunder road", like Khakas кӱгӱрт чолы.
     ar_qur: ["قوس قزح", "qaws quzaħ"],  // Literally "bow of Quzah"; the classical lexicons record a tradition that one should say "God's bow" instead, because Quzah was held to be a devil.
-    com: ["parakoa", "paɾakoa"],  // Comanche parakoa.
+    com: ["parakoa", "paɾakoa"],  // Comanche parakoa. Unrelated to eetY 'bow' and kwasinaboo 'snake'.
     cy: ["enfys", "ˈɛnvɨs"],  // The everyday Welsh word; its origin is uncertain (perhaps en- + bys 'finger'), while descriptive synonyms such as bwa'r arch 'the arch's bow' also exist.
     ka: ["ცისარტყელა", "tsʰisartʼqʼela"],  // Literally 'belt of the sky' (ცა 'sky' + სარტყელი 'belt').
     sva: ["დეცა̈ლა̈̄რტყ", "detsʰælæːrtʼqʼ"],  // Literally 'sky belt', a calque of Georgian ცისარტყელა.
@@ -869,7 +869,7 @@ WORDS.rainbow = {
     az: ["göy qurşağı", "ɟœj ɡuɾʃɑˈɣɯ"],  // Literally 'the sky's sash' (göy 'sky' + qurşaq 'sash, belt'), like Turkish gökkuşağı.
     gag: ["gök kuşaa", "ˈɟøc kuʃaː"],  // Literally 'the sky's belt' (gök 'sky' + kuşak 'belt'), cognate with Turkish gökkuşağı.
     uz: ["kamalak", "kamaˈlak"],  // The usual Uzbek word for the rainbow; Uzbek Wikipedia describes it as a yoy 'bow' in the sky.
-    mnc: ["ᠨᡳᠣᡵᠣᠨ", "nioron"],  // The Manchu word for the rainbow, in Norman's Comprehensive Manchu-English Dictionary.
+    mnc: ["ᠨᡳᠣᡵᠣᠨ", "nioron"],  // The Manchu word for the rainbow, in Norman's Comprehensive Manchu-English Dictionary. Unrelated to beri 'bow' and meihe 'snake'.
     ar_gulf: ["قز قزح", "qʊz ˈqʊzəħ"],  // A worn-down form of Arabic qaws quzaḥ 'the bow of Quzah', named after a pre-Islamic Arab weather god.
     ar_ma: ["قوس قزح", "qaws quzaħ"],  // 'The bow of Quzah', inherited from Arabic; Darija also calls the rainbow عروسة السما 'bride of the sky' and قوس النبي 'the Prophet's bow'.
     mt: ["qawsalla", "ʔawˈsalla"],  // Literally 'God's bow' (qaws Alla), a pious replacement for Arabic qaws quzaḥ, which was named after a pre-Islamic god.
@@ -878,7 +878,7 @@ WORDS.rainbow = {
     om: ["sabbata waaqaa", "sabːata waːqaː"],  // Waaqaa means 'of God' or 'of the sky'; the gloss of sabbata was not confirmed.
     xh: ["umnyama", "umɲaːma"],  // The Xhosa word for the rainbow (noun class 3, plural iminyama).
     sn: ["murarabungu", "murarabuŋɡu"],  // The usual Shona word; Shona Wikipedia notes regional alternatives chongwe, muchekawaramba and mutsiwemvura.
-    ny: ["utawaleza", "utawaˈleza"],  // The Chichewa word for the rainbow.
+    ny: ["utawaleza", "utawaˈleza"],  // The Chichewa word for the rainbow. Begins with uta 'bow' + wa 'of'.
     en_aave: ["rainbow", "ˈɹeɪnboʊ"],  // Rain + bow 'arch', inherited from Middle English reynbowe; English has no other everyday word for it.
     en_nz: ["rainbow", "ˈɹæenbɐʉ"],  // Rain + bow 'arch', the same word as in all English.
     en_au: ["rainbow", "ˈɹæɪnbəʉ"],  // Rain + bow 'arch', the same word as in all English.
@@ -888,7 +888,7 @@ WORDS.rainbow = {
     yi: ["רעגנבויגן", "ˈrɛɡn̩bɔɪ̯ɡn̩"],  // רעגן 'rain' + בויגן 'bow', from Middle High German regenboge.
     is: ["regnbogi", "ˈrɛkn̥pɔijɪ"],  // Regn 'rain' + bogi 'bow', unchanged since Old Norse regnbogi.
     gd: ["bogha-frois", "poə ˈfɾaʃ"],  // Literally 'bow of the shower' (bogha 'bow, arch' + frois, genitive of fras 'shower').
-    br: ["kanevedenn", "kaneˈveːdɛn"],  // The usual Breton word; the descriptive synonym gwareg-ar-glav means 'the bow of the rain'.
+    br: ["kanevedenn", "kaneˈveːdɛn"],  // The usual Breton word; the descriptive synonym gwareg-ar-glav means 'the bow of the rain'. Unrelated to gwareg 'bow', the word in the synonym, and naer 'snake'.
     scn: ["arcu di Nuvè", "ˈarku di nuˈvɛ"],  // Literally 'the bow of Nuvè'; Sicilian also says arcubalenu, like Italian arcobaleno.
     vec: ["arconbè", "arkomˈbɛ"],  // Probably from Latin arcus bibit 'the arch drinks'; Venetian also says arcoverzene.
     ca: ["arc de Sant Martí", "ˈarɡ də ˈsam mərˈti"],  // Literally 'Saint Martin's arch', named after Martin of Tours through a folk legend of a bridge-building bet with the Devil; arc iris is also used.
@@ -948,7 +948,7 @@ WORDS.rainbow = {
     zza: ["eysafatma", "ɛjsafatˈma"],  // The Zazaki word for the rainbow; it contains the name Fatma, but its literal sense is not explained in the sources consulted.
     guc: ["kasipoluin", "kasipoluin"],  // The Wayuu word for the rainbow; Kasipoluin is also a figure in Wayuu tradition, but the sources consulted do not explain the word.
     mch: ["jasudi", "hʷasuːɾi"],  // In Ye'kwana tradition the rainbow is the feathered crown of Wiyu, the water spirit, and is a bad omen for women and children.
-    emp: ["euma", "euma"],  // The Northern Emberá word for the rainbow.
+    emp: ["euma", "euma"],  // The Northern Emberá word for the rainbow. Unrelated to enẽdrɨma 'bow' and dama 'snake' (IDS).
     tsg: ["bāngaw", "baːŋaw"],  // Inherited from Proto-Central Philippine *balaŋaw 'rainbow', the same word as Cebuano bangaw and Tagalog balangaw.
     hr: ["duga", "dǔːɡa"],  // From Proto-Slavic *dǫga 'arc', the same root as Russian дуга 'arc' and Czech duha.
     iba: ["endaraja", "əndaradʒa"],  // The Iban word for the rainbow; its origin is not given in the sources consulted.
@@ -962,7 +962,7 @@ WORDS.rainbow = {
     crs: ["larkansyel", "larkɑ̃sjɛl"],  // From French l'arc-en-ciel 'the arc in the sky', with the article fused on.
     srn: ["alenbo", "alenbo"],  // From English rainbow, remade as alen 'rain' + bo 'bow'; Sranan also says mutyama, from Kikongo.
     srm: ["mutjáma", "mutʃáma"],  // Probably from Kikongo mukiama 'rainbow', like Sranan mutyama.
-    shp: ["chirápa", "tʃiɻapa"],  // The Shipibo-Conibo word for the rainbow; IDS also records the phrase nawã βai.
+    shp: ["chirápa", "tʃiɻapa"],  // The Shipibo-Conibo word for the rainbow; IDS also records the phrase nawã βai. Unrelated to kanoti 'bow' and rono 'snake'.
     pam: ["pinanari", "pinaˈnaɾiʔ"],  // Explained as 'the king's loincloth' (pinan 'loincloth' + ari 'king'), like Tagalog bahaghari; the second part may instead be 'day'.
     mak: ["tarawe", "taˈrawe"],  // Shared with Bugis tarau and Toraja taraue; the same spelling also names the Ramadan night prayer tarawih.
     orv: ["дуга", "duɡa"],  // From Proto-Slavic *dǫga 'arc'; Russian later built радуга on the same word.
@@ -1022,7 +1022,7 @@ WORDS.rainbow = {
     ki: ["mũkũnga-mbura", "mokoŋɡa mbuɾa"],  // Literally "eel of the rain": mũkũnga "eel" + mbura "rain".
     kg: ["mukiama", "mukiama"],  // The Kikongo word for the rainbow.
     yua: ["chéel", "tʃeːl"],  // The Yucatec Maya word for the rainbow, written cheel in older spelling.
-    arn: ["relmu", "ʐelmu"],  // The Mapudungun word for the rainbow.
+    arn: ["relmu", "ʐelmu"],  // The Mapudungun word for the rainbow. Unrelated to the words for 'bow' and filu 'snake' (IDS).
     cr: ["ᐲᓯᒧᔮᐱᕀ", "piːsimojaːpij"],  // Begins with pîsim "sun"; kimiwanêyâpiy, built on kimiwan "it rains", is a synonym.
     oj: ["gimiwaneyaab", "ɡimiwanejaːb"],  // Literally "rain cord": gimiwan "it rains" + -eyaab "cord, band-like thing"; nagweyaab is another word.
     pqm: ["monoqan", "monokʷan"],  // Cognate with Abenaki mánakʷan.
@@ -1111,7 +1111,7 @@ WORDS.rainbow = {
     lmo: ["arcobalén", "arkubaˈleŋ"],  // Built on arch, like Italian arcobaleno; Lombard also says arch in del ciel 'arch in the sky'. IPA read from the Milanese spelling (unstressed o as u, final n as ŋ, as in this row), not from a pronunciation source.
     sid: ["magani-seemo", "maɡani seːmo"],  // Literally 'God's maiden' (magano 'God' + seemo 'girl, virgin'), the word used throughout the Sidamo Bible.
     bs: ["duga", "dǔːɡa"],  // From Proto-Slavic *dǫga 'arc, arch', the same root as Russian радуга.
-    yao: ["ukunje wa ula", "ukundʒe wa ula"],  // Literally 'ukunje of rain' (ula 'rain'), the phrase both Yao Bibles use; the meaning of ukunje on its own was not checked.
+    yao: ["ukunje wa ula", "ukundʒe wa ula"],  // Literally 'ukunje of rain' (ula 'rain'), the phrase both Yao Bibles use. Ukunje is 'bow' (Bantu lexical databases), so the phrase is 'bow of rain'.
     myx: ["lufutu", "lufutu"],  // The Lumasaaba word for the rainbow as used in the Lumasaaba Bible; IPA read from the spelling.
     tum: ["chiŵingavura", "tʃiβiŋɡavuɾa"],  // The Tumbuka word for the rainbow, used in all three Tumbuka Bibles; it ends in vura 'rain', but the first part is not analysed here.
     nyn: ["omuhanganzima", "omuhaŋɡanzima"],  // The Runyankore word for the rainbow, used in both Runyankore Bibles; IPA read from the spelling.
@@ -1189,7 +1189,7 @@ WORDS.rainbow = {
     cho: ["hinak bitepuli", "hinak bitepoli"],  // The Choctaw word for the rainbow.
     esu: ["agluryaq", "aɣluʁjaq"],  // The Yup'ik word for the rainbow.
     kos: ["lelakem", "lelakem"],  // The Kosraean word for the rainbow.
-    yrl: ["waimi mirapara", "wajmi miɾapaɾa"],  // The Nheengatu phrase for the rainbow used in the Bible.
+    yrl: ["waimi mirapara", "wajmi miɾapaɾa"],  // The Nheengatu phrase for the rainbow used in the Bible. Mirapara is the Nheengatu word for 'bow'.
     car: ["paramu", "paɾamu"],  // The Kari'na word for the rainbow.
     yap: ["ragim", "raɡim"],  // The Yapese word for the rainbow.
     atj: ["pisimwapi", "pisimʷapi"],  // The Atikamekw word for the rainbow; its first part is pisimw 'sun'.

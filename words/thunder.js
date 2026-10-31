@@ -174,8 +174,8 @@ WORDS.thunder = {
     kn: "unknown",
     ml: "plain",
     az: "sky",
-    kk: "unknown",
-    ky: "unknown",
+    kk: "imitative",
+    ky: "imitative",
     uz: "unknown",
     tk: "sky",
     mnc: "unknown",
@@ -263,7 +263,7 @@ WORDS.thunder = {
     kl: "plain",
     av: "imitative",
     lez: "sky",
-    dar: "unknown",
+    dar: "imitative",
     lbe: "unknown",
     aqc: "unknown",
     ady: "god",
@@ -308,12 +308,12 @@ WORDS.thunder = {
     myv: "god",
     mdf: "unknown",
     vot: "god",
-    shn: "unknown",
+    shn: "sky",
     tue: "unknown",
     emp: "unknown",
     akb: "unknown",
     kos: "unknown",
-    meu: "unknown",
+    meu: "sky",
     tkl: "plain",
     mfe: "other",
     crs: "other",
@@ -815,8 +815,8 @@ WORDS.thunder = {
     kn: ["ಗುಡುಗು", "ɡuɖuɡu"],  // Alar keeps it apart from lightning; it is also the verb used of clouds thundering.
     ml: ["ഇടി", "iɖi"],  // The same word means a punch or blow; Olam and NorthEuraLex both give it first for thunder. Route by resemblance to the neighbouring forms (ta(இடி)); no etymology of its own.
     az: ["göy gurultusu", "ɟœj ɡuɾultusu"],  // Literally 'sky rumble', like Turkish gök gürültüsü; ildırım is the flash, though it can also mean thunder.
-    kk: ["күркіреу", "kʏrkɘˈrew"],  // A verbal noun 'rumbling'; NorthEuraLex records the fuller күн күркіреу, with күн 'sky, sun'.
-    ky: ["күркүрөө", "kyrkyˈrøː"],  // The same word as the Kazakh күркіреу, a verbal noun of rumbling.
+    kk: ["күркіреу", "kʏrkɘˈrew"],  // A verbal noun 'rumbling'; NorthEuraLex records the fuller күн күркіреу, with күн 'sky, sun'. Күркіре- 'to rumble' is a doubled imitative kür-kür, like Uyghur güldür-.
+    ky: ["күркүрөө", "kyrkyˈrøː"],  // The same word as the Kazakh күркіреу, a verbal noun of rumbling. Күркүрө- 'to rumble' is a doubled imitative kür-kür, like Uyghur güldür-.
     uz: ["momaqaldiroq", "mɒmɒqaldiˈɾɒq"],  // The everyday Uzbek word for thunder; no source traces where it comes from.
     tk: ["gök gürrüldisi", "ɡøːk ɡyrryldisi"],  // Literally 'sky noise', like Turkish gök gürültüsü; ýyldyrym is mainly the lightning.
     mnc: ["ᠠᡴᠵᠠᠨ", "akdʒan"],  // Romanised akjan; j written dʒ as in this row's juwe 'two'.
@@ -904,7 +904,7 @@ WORDS.thunder = {
     kl: ["kalleq", "kaɬːeq"],  // The same word serves as the verb 'to thunder' in NorthEuraLex.
     av: ["гъугъай", "ʁuʁaj"],  // IDS gives the fuller зоб гъугъай, with зоб 'sky'; lightning is пири.
     lez: ["цавун ван", "tsawun wan"],  // Literally 'the sky's voice', цав 'sky' + ван 'sound, voice'.
-    dar: ["къукъу", "qːuqːu"],  // The same word in nearly every Dargwa dialect IDS records; Khajdak says гъугъу.
+    dar: ["къукъу", "qːuqːu"],  // The same word in nearly every Dargwa dialect IDS records; Khajdak says гъугъу. A doubled къу, like Avar гъугъай.
     lbe: ["къув", "qʰːuw"],  // Lightning is a separate word, цӏупар.
     aqc: ["хъутӏи", "qutʼi"],  // Lightning is a separate word, парала.
     ady: ["шыблэ", "ʃəbla"],  // The same word as Shible, the Circassian god of thunder and lightning.

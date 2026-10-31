@@ -226,7 +226,7 @@ WORDS.tomorrow = {
     nio: "unknown",
     sel: "unknown",
     kca: "unknown",
-    acn: "unknown",
+    acn: "morning",
     clk: "unknown",
     jv: "morning",
     ceb: "unknown",
@@ -443,7 +443,7 @@ WORDS.tomorrow = {
     gil: "unknown",
     tet: "unknown",
     aoz: "unknown",
-    pjt: "unknown",
+    pjt: "other",
     wbp: "unknown",
     aer: "unknown",
     new: "unknown",
@@ -473,13 +473,13 @@ WORDS.tomorrow = {
     tzh: "unknown",
     toc: "unknown",
     ay: "unknown",
-    agr: "unknown",
-    pbb: "unknown",
+    agr: "other",
+    pbb: "other",
     tab: "unknown",
     udi: "unknown",
     aqc: "unknown",
     ddo: "unknown",
-    lez: "unknown",
+    lez: "morning",
     kl: "plain",
     arn: "unknown",
     sat: "unknown",
@@ -491,7 +491,7 @@ WORDS.tomorrow = {
     shi: "morning",
     rif: "unknown",
     av: "unknown",
-    agx: "unknown",
+    agx: "morning",
     ab: "unknown",
     lus: "unknown",
     mas: "unknown",
@@ -528,7 +528,7 @@ WORDS.tomorrow = {
     syl: "same",
     doi: "same",
     cho: "unknown",
-    ess: "unknown",
+    ess: "morning",
     apw: "unknown",
     lmo: "morning",
     pon: "unknown",
@@ -697,7 +697,7 @@ WORDS.tomorrow = {
     tl: "unknown",
     ilo: "morning",
     ff: "unknown",
-    th_isan: "unknown",
+    th_isan: "other",
     kfy: "morning",
     mwr: "morning",
     kru: "unknown",
@@ -729,7 +729,7 @@ WORDS.tomorrow = {
     kxc: "unknown",
     maw: "unknown",
     rwk: "unknown",
-    jiv: "unknown",
+    jiv: "other",
     co: "morning",
     yua: "unknown",
     lbj: "unknown",
@@ -745,7 +745,7 @@ WORDS.tomorrow = {
     slr: "morning",
     szy: "unknown",
     esu: "unknown",
-    acu: "unknown",
+    acu: "other",
     yan: "unknown",
     jbo: "other",
     xkz: "unknown",
@@ -1029,7 +1029,7 @@ WORDS.tomorrow = {
     nio: ["талу", "talu"],  // Талу is one of two Nganasan words for 'tomorrow'; the other, күз̌иахүˮ, resembles күз̌иату 'morning' (NorthEuraLex).
     sel: ["тялы", "tʲalɨ"],  // Тялы is the Northern Selkup word for 'tomorrow' (NorthEuraLex; IDS).
     kca: ["хаӆэват", "xaɬəwat"],  // Хаӆэват is the Northern Khanty word for 'tomorrow' (NorthEuraLex; IDS).
-    acn: ["pʰă55nap55", "pʰă˥˥nap˥˥"],  // Longchuan Achang says pʰă⁵⁵nap⁵⁵ (Sun 1991; Sagart et al. 2019).
+    acn: ["pʰă55nap55", "pʰă˥˥nap˥˥"],  // Longchuan Achang says pʰă⁵⁵nap⁵⁵ (Sun 1991; Sagart et al. 2019). The second syllable nap is also the Achang word for 'morning' (Mann's Burmish lexicon).
     clk: ["ɑ31nɑ55jɑ55", "ɑ˧˩nɑ˥˥jɑ˥˥"],  // Idu says ɑ³¹nɑ⁵⁵jɑ⁵⁵ (Sun 1991; Sagart et al. 2019).
     jv: ["sésuk", "sesuk"],  // Sésuk is the ngoko word for 'tomorrow'; the polite krama form is bénjing (Wikivoyage; Javanese Wiktionary). Built on ésuk 'morning', as Sundanese isuk means both.
     ceb: ["ugma", "ˈʔuɡmaʔ"],  // Ugma is the everyday Cebuano word for 'tomorrow' (Wiktionary; Wikivoyage).
@@ -1246,7 +1246,7 @@ WORDS.tomorrow = {
     gil: ["ningabong", "niŋaboŋ"],  // Ningabong is the Kiribati word for tomorrow.
     tet: ["awan", "awan"],  // Awan is the Tetum word for tomorrow.
     aoz: ["noka", "noka"],  // Noka is the Uab Meto word; neno noka is 'the next day'.
-    pjt: ["mungawinki", "muŋawiŋki"],  // Mungawinki is the Pitjantjatjara word for tomorrow.
+    pjt: ["mungawinki", "muŋawiŋki"],  // Mungawinki is the Pitjantjatjara word for tomorrow. Built on munga 'night' (Bowern's Pama-Nyungan lists), as is mungartji 'yesterday'.
     wbp: ["jukurra", "ɟukura"],  // Jukurra is the Warlpiri word for tomorrow.
     aer: ["ingwenthe", "iŋʷən̪t̪ə"],  // Ingwenthe is the Arrernte word for tomorrow.
     new: ["कन्हय्", "kənʱəj"],  // कन्हय् is the Newar word for tomorrow.
@@ -1276,13 +1276,13 @@ WORDS.tomorrow = {
     tzh: ["pajel", "pahel"],  // Pajel is the Tzeltal word for tomorrow.
     toc: ["chalí", "tʃalí"],  // Chalí is the Totonac word for tomorrow.
     ay: ["qharüru", "qʰaɾuːɾu"],  // Qharüru is the Aymara word; like wasüru 'yesterday' it ends in -üru.
-    agr: ["kashin", "kaʃin"],  // Kashin is the Awajún word for tomorrow.
-    pbb: ["kuskus", "kuskus"],  // Kuskus is the Nasa Yuwe word for tomorrow.
+    agr: ["kashin", "kaʃin"],  // Kashin is the Awajún word for tomorrow. Built on kashi 'night', like kashik 'morning' (Key's Pano-Tacanan and Huber's lists).
+    pbb: ["kuskus", "kuskus"],  // Kuskus is the Nasa Yuwe word for tomorrow. A doubling of kus 'night'; 'morning' is kus-ʼii (IDS).
     tab: ["закур", "zakur"],  // Закур is the Tabasaran word for tomorrow.
     udi: ["аьйчӏи", "æjtʃʼi"],  // Аьйчӏи is the Udi word for tomorrow.
     aqc: ["шутта", "ʃutːa"],  // Шутта is the Archi word for tomorrow.
     ddo: ["гъуде", "ʁude"],  // Гъуде is the Tsez word; the Mokok dialect says сасахъ.
-    lez: ["пака", "paka"],  // Пака is the Lezgian word for tomorrow.
+    lez: ["пака", "paka"],  // Пака is the Lezgian word for tomorrow. Пакама 'morning' is the same word with -ма (IDS; NorthEuraLex).
     kl: ["aqagu", "aqaɣu"],  // From Proto-Inuit *aqaɣu 'tomorrow, or in a while'.
     arn: ["wüle", "wɨle"],  // Wüle is the Mapudungun word for tomorrow.
     sat: ["ᱜᱟᱯᱟ", "ɡapa"],  // ᱜᱟᱯᱟ (gapa) is the Santali word for tomorrow.
@@ -1294,7 +1294,7 @@ WORDS.tomorrow = {
     shi: ["ⴰⵣⴽⴽⴰ", "azkka"],  // Built on zikk 'early', so roughly 'the early (day)' (Wiktionary, after Stroomer).
     rif: ["ⵜⵉⵡⴻⵛⵛⴰ", "θiwəʃːa"],  // Tiwecca is the Tarifit word for tomorrow.
     av: ["метер", "meter"],  // Метер is the Avar word for tomorrow.
-    agx: ["багагь", "baɡah"],  // Багагь is the Aghul word for tomorrow.
+    agx: ["багагь", "baɡah"],  // Багагь is the Aghul word for tomorrow. Багагьми 'morning' is built on the same word (IDS).
     ab: ["уаҵәы", "watsʼʷə"],  // Уаҵәы is the Abkhaz word for tomorrow.
     lus: ["naktuk", "naktuk"],  // Naktuk is the Mizo word for tomorrow.
     mas: ["taisere", "taisere"],  // Taisere is the Maa word for tomorrow; one Bible spells it taaisere.
@@ -1331,7 +1331,7 @@ WORDS.tomorrow = {
     syl: ["কাইল", "xail"],  // Kail means both 'yesterday' and 'tomorrow', as Hindi कल does; tense tells them apart.
     doi: ["कल", "kəl"],  // Kal means both 'tomorrow' and 'yesterday', as in Hindi; tense tells them apart.
     cho: ["onna", "onna"],  // Onna is 'tomorrow' in the 1886 Choctaw Bible, set against himak nitak 'today'.
-    ess: ["уна̄ми", "unaːmi"],  // Уна̄ми is 'tomorrow' in the Yupik New Testament; NorthEuraLex lists унаӄ for 'morning'.
+    ess: ["уна̄ми", "unaːmi"],  // Уна̄ми is 'tomorrow' in the Yupik New Testament; NorthEuraLex lists унаӄ for 'morning'. Built on the same stem as унаӄ 'morning'.
     apw: ["iskąą", "iskãː"],  // Iskąą is 'tomorrow' in the Western Apache New Testament, set against díí jįį 'today'.
     lmo: ["doman", "duˈmaŋ"],  // From Late Latin dē māne 'early in the morning'.
     pon: ["lakapw", "lakapʷ"],  // Lakapw is 'tomorrow' in the Pohnpeian Bible, set against rahnwet 'today'.
@@ -1500,7 +1500,7 @@ WORDS.tomorrow = {
     tl: ["bukas", "ˈbukas"],  // Bukas is the Tagalog word for tomorrow; Wiktionary compares it with Ivatan and Sambal words for 'morning' but gives no etymology.
     ilo: ["inton bigat", "ʔinton biɡat"],  // Bigat means both 'morning' and 'tomorrow'; inton marks the future, so the phrase is 'when it is morning'.
     ff: ["janngo", "dʒaŋːɡo"],  // Janngo is the Pulaar word; other Fula Bibles write jaango (Burkina Faso) or jaŋngo (Adamawa Fulfulde).
-    th_isan: ["มื้ออื่น", "mɯː˧˩ʔɯːn˦"],  // Mue uen is the Isan word for tomorrow.
+    th_isan: ["มื้ออื่น", "mɯː˧˩ʔɯːn˦"],  // Mue uen is the Isan word for tomorrow. มื้อ 'day' + อื่น 'other', as in Lao ມື້ອື່ນ.
     kfy: ["भोल", "bʱoːl"],  // Bhol comes from *bhōrā 'daybreak', like Nepali भोलि (Turner's CDIAL).
     mwr: ["काल", "kaːl"],  // Kāl comes from Sanskrit kalya 'dawn, at dawn' (Lalas; Turner's CDIAL); Lalas glosses it only as 'the coming day'.
     kru: ["नॆला", "nelaː"],  // Nelā is the Kurukh word for tomorrow in all three Kurukh New Testaments.
@@ -1548,7 +1548,7 @@ WORDS.tomorrow = {
     slr: ["ette", "eʰtæ"],  // Ette goes back to Proto-Turkic *ẹ̄rte 'early', the source of Kazakh ерте 'early'.
     szy: ["anucila", "anutsila"],  // Anucila is 'tomorrow' in Sakizaya.
     esu: ["unuaqu", "unuaqu"],  // Unuaqu is 'tomorrow' in the Yup'ik Bible (Luke 13:32, 'today and tomorrow').
-    acu: ["kashin", "kaʃin"],  // Kashin is 'tomorrow' in the Achuar Bible (Luke 13:32, 'today and tomorrow').
+    acu: ["kashin", "kaʃin"],  // Kashin is 'tomorrow' in the Achuar Bible (Luke 13:32, 'today and tomorrow'). Built on káshi 'night', as in Awajún and Shuar.
     yan: ["yahan mani", "jahan mani"],  // Yahan mani is 'tomorrow' in the Mayangna Bible (Matthew 6:34, Luke 13:32).
     jbo: ["bavlamdei", "bavˈlamdej"],  // Bavlamdei is a compound of balvi 'future', lamli 'adjacent' and djedi 'day': 'the adjacent future day'.
     xkz: ["yangpa", "jaŋpa"],  // Yangpa is 'tomorrow' in Hyslop et al.'s Kurtöp dictionary.

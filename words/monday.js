@@ -611,6 +611,10 @@ WORDS.monday = {
     ar_qur: "count",
     fa_clas: "count",
     sa: "moon",
+    goh: "moon",
+    gmh: "moon",
+    sga: "moon",
+    ota: "after",
   },
   routes: {
     moon: {"color":"#7c3aed","emoji":"🌙","en":"the moon's day","ja":"月の日","ko":"달의 날","zh":"月亮之日","yue":"月亮嘅日","vi":"ngày mặt trăng","th":"วันของดวงจันทร์","id":"hari bulan","hi":"चंद्रमा का दिन","de":"Tag des Mondes","fr":"jour de la lune","it":"giorno della luna","es":"día de la luna","pt":"dia da lua","ru":"день луны","uk":"день місяця","ar":"يوم القمر","he":"יום הירח","sw":"siku ya mwezi"},
@@ -1164,5 +1168,9 @@ WORDS.monday = {
     ar_qur: ["الاثنين", "aliθnajn"],  // 'The two', the second day counted from Sunday.
     fa_clas: ["دوشنبه", "doːʃamba"],  // 'Two after the Sabbath', inherited from Middle Persian dōšambat.
     sa: ["सोमवारः", "soːmɐʋaːɾɐh"],  // Soma 'the Moon' + vāra 'day', the Indian planetary week.
+    goh: ["mānotag", "ˈmaːnotaɡ"],  // Māno 'moon' + tag 'day', from West Germanic *mānini dag, a calque of Latin diēs Lūnae.
+    gmh: ["māntac", "ˈmaːntak"],  // From Old High German mānotag, 'the moon's day'; modern Montag.
+    sga: ["lúan", "ˈluːan"],  // Lúan is 'moon'; as 'Monday' it is a calque of Latin diēs Lūnae.
+    ota: ["بازار ایرتسی", "paˈzaɾ eɾteˈsi"],  // 'The day after pazar', pazar being Sunday, originally 'market'; modern pazartesi.
   },
 };

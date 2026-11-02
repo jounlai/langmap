@@ -909,5 +909,6 @@ WORDS.rice = {
     gha: ["ərruzz", "ərːuzː"],  // From Arabic ar-ruzz.
     auj: ["əṛṛùz", "əˈrˤːuz"],  // From Arabic ruzz.
     siz: ["aṛṛə́ẓ", "aˈrˤːəzˤ"],  // Borrowed from Arabic; Laoust notes the rice came from the Nile Delta.
+    ar_qur: ["أرز", "ʔaruzz"],  // Also written رز ruzz; Wiktionary gives أرز as a variant of it.
   }
 };

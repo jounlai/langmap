@@ -698,6 +698,8 @@ WORDS.thunder = {
     hbo: "plain",
     zh_tang: "plain",
     ja_heian: "god",
+    ko_mid: "other",
+    ojp: "god",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1342,5 +1344,7 @@ WORDS.thunder = {
     hbo: ["רעם", "ˈraʕam"],  // From the root r-ʕ-m 'to thunder, roar': 'the voice of thy thunder' (Psalm 77:19).
     zh_tang: ["雷", "luj"],  // An old Chinese root.
     ja_heian: ["神鳴り", "kaminari"],  // Kami 'god' + nari 'sounding'; the older いかづち is also used.
+    ko_mid: ["·울에", "ulɦəj"],  // From the verb 우르다 'to roar'; continued as modern 우레.
+    ojp: ["雷", "ikaduti"],  // Ika 'awesome' + tu (possessive) + ti 'spirit': the awesome spirit. Modern いかずち.
   },
 };

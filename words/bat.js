@@ -606,6 +606,8 @@ WORDS.bat = {
     hbo: "plain",
     zh_tang: "plain",
     ja_heian: "plain",
+    ko_mid: "mouse",
+    ar_qur: "other",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1157,5 +1159,7 @@ WORDS.bat = {
     hbo: ["עטלף", "ʕatˤalˈleːf"],  // Listed last among the unclean flying creatures in Leviticus 11:19 and Deuteronomy 14:18; unrelated to עכבר 'mouse'.
     zh_tang: ["蝙蝠", "pɛn puwk"],  // An alliterative expansion of 蝠 'bat', a Sino-Tibetan root.
     ja_heian: ["蝙蝠", "kaɸabori"],  // かはほり, between Old Japanese kapapori and later kaumori, kōmori.
+    ko_mid: [":ᄇᆞᆰ·쥐", "pʌlktsuj"],  // First attested in the 1489 Gugeup ganibang; the second part is 쥐 'rat', the first is unexplained. Modern 박쥐.
+    ar_qur: ["خفاش", "xuffaːʃ"],  // From the verb خَفِشَ 'to be day-blind', after the bat's supposed poor sight by day.
   },
 };

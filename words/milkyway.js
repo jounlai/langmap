@@ -291,6 +291,7 @@ WORDS.milkyway = {
     mrw: "other",
     sc: "straw",
     rgn: "road",
+    syc: "straw",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -525,5 +526,6 @@ WORDS.milkyway = {
     mrw: ["Mala a Naga", "mala a naɡa"],  // Named after the naga, the dragon; the Maranao dictionary glosses naga as 'dragon' and mala' as 'great'.
     sc: ["Camminu de paza", "kamˈminu de ˈpadza"],  // Literally 'the road of straw', the same image as Turkish Samanyolu and Arabic درب التبانة.
     rgn: ["strê 'd Roma", "streː d roma"],  // Literally 'the road to Rome'; Ercolani's Romagnol dictionary gives it as the name of the Milky Way.
+    syc: ["ܫܒܝܠ ܬܒܢܐ", "ʃβiːl teβnaː"],  // Literally 'path of chaff', the same image as Arabic and Turkish.
   },
 };

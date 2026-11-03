@@ -308,6 +308,7 @@ WORDS.octopus = {
     ckv: "plain",
     tao: "plain",
     ain: "other",
+    wuu_nb: "other",
   },
   routes: {
     eight: {"color":"#2563eb","emoji":"8️⃣","en":"eight feet","ja":"8本の足","ko":"여덟 발","zh":"八条腿","yue":"八隻腳","vi":"tám chân","th":"แปดเท้า","id":"delapan kaki","hi":"आठ पैर","de":"acht Füße","fr":"huit pieds","it":"otto piedi","es":"ocho pies","pt":"oito pés","ru":"восемь ног","uk":"вісім ніг","ar":"ثماني أقدام","he":"שמונה רגליים","sw":"miguu minane"},
@@ -560,5 +561,6 @@ WORDS.octopus = {
     ckv: ["qlita", "qlita"],  // Inherited from Proto-Austronesian *guʀiCa 'octopus'; cognate with Malay kurita and Cebuano kugita.
     tao: ["koyta", "kojta"],  // Yami (Tao) word for the octopus.
     ain: ["アトゥインネ", "atuinne"],  // Ainu word for the octopus (atuinne), derived from atuy 'the sea'; also アッコッカムイ.
+    wuu_nb: ["望潮", "mɔ̃˨˨ dʑiɔ˦˦"],  // Literally 'watching the tide'; strictly the webfoot octopus, by extension any octopus.
   },
 };

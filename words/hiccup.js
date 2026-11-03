@@ -254,6 +254,7 @@ WORDS.hiccup = {
     nci: "plain",
     ar_qur: "unknown",
     syc: "unknown",
+    ja_heian: "unknown",
   },
   routes: {
     imitative: {"color":"#ea580c","emoji":"🔊","en":"imitating the sound","ja":"音のまね","ko":"소리 흉내","zh":"模仿声音","yue":"模仿聲音","vi":"mô phỏng âm thanh","th":"เลียนเสียง","id":"tiruan bunyi","hi":"ध्वनि की नक़ल","de":"lautmalend","fr":"imitant le bruit","it":"onomatopeico","es":"imita el sonido","pt":"imita o som","ru":"звукоподражание","uk":"звуконаслідування","ar":"محاكاة الصوت","he":"חיקוי הקול","sw":"kuiga sauti"},
@@ -454,5 +455,6 @@ WORDS.hiccup = {
     nci: ["tziucnoliztli", "tsiuknolistɬi"],  // The noun of tziucnoa 'to hiccup'. No image is recorded for it, so it counts as a word of its own.
     ar_qur: ["فواق", "fuwaːq"],  // From the verb فاق 'to have a hiccup'; the sources do not say whether the root imitates the sound.
     syc: ["ܦܘܩܬܐ", "pwaːqtaː"],  // Pwāqtā, the same root as Arabic فواق fuwāq (Comprehensive Aramaic Lexicon); no source says whether it imitates the sound.
+    ja_heian: ["噦り", "sakuri"],  // さくり, cited from the Wamyō Ruijushō in Daijisen; the older form of しゃくり, from the verb sakuru 'to hiccup'.
   },
 };

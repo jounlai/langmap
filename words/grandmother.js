@@ -613,6 +613,8 @@ WORDS.grandmother = {
     got: "unknown",
     ofs: "one",
     pi: "unknown",
+    ojp: "one",
+    ja_heian: "one",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -1170,5 +1172,7 @@ WORDS.grandmother = {
     got: ["𐌰𐍅𐍉", "ˈawoː"],  // Found once, for Timothy's grandmother Lois (2 Timothy 1:5); with one attestation it cannot show whether Gothic had a second word for the other side. Cognate with Latin avia.
     ofs: ["aldemōder", "ˈaldemoːder"],  // Literally 'old mother', like Old English ealdmōdor; one word for either grandmother.
     pi: ["अय्यिका", "ajːikaː"],  // The feminine of ayyaka 'grandfather', also used for 'lady'; the PTS dictionary does not say whether it covered both sides.
+    ojp: ["祖母", "opoba"],  // Opoba, from opo-papa 'great mother', the mother of either parent; the Ryō no shūge (738) quotes 'commonly called 於保知於保波', opodi and opoba (Nihon Kokugo Daijiten).
+    ja_heian: ["祖母", "oba"],  // Shortened from opoba in the early Heian period, after which oba was the usual word for either grandmother (Nihon Kokugo Daijiten).
   },
 };

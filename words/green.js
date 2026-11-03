@@ -1070,5 +1070,6 @@ WORDS.green = {
     zag: ["jir", "ɟɪɾ"],  // One word for green and blue.
     ttq: ["dalăt", "dalæt"],  // A verb 'to be green'; the New Testament uses its noun for the green of grass and for the blue of the sky.
     siz: ["awraɣ", "awraʁ"],  // Elsewhere in Berber the same word means 'yellow' (Laoust).
+    hbo: ["ירוק", "jɔːˈroːq"],  // From the root y-r-q of יֶרֶק 'green plants'; the wild ass 'searches for any green thing' (כׇּל־יָרוֹק, Job 39:8).
   }
 };

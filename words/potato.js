@@ -535,6 +535,7 @@ WORDS.potato = {
     ckt: "other",
     czh_wy: "other",
     orh: "earth",
+    ja_edo: "place",
   },
   routes: {
     papa: {"color":"#ca8a04","emoji":"🏔️","en":"Quechua papa · Taíno batata","ja":"ケチュア語 papa・タイノ語 batata","ko":"케추아어 papa · 타이노어 batata","zh":"克丘亚语 papa・泰诺语 batata","yue":"克丘亞語 papa · 泰諾語 batata","vi":"Quechua papa · Taíno batata","th":"เกชัว papa · ไตโน batata","id":"Quechua papa · Taíno batata","hi":"क्वेचुआ papa · ताइनो batata","de":"Quechua papa · Taíno batata","fr":"quechua papa · taïno batata","it":"quechua papa · taíno batata","es":"quechua papa · taíno batata","pt":"quíchua papa · taíno batata","ru":"кечуа papa · таино batata","uk":"кечуа papa · таїно batata","ar":"كيتشوا papa · تاينو batata","he":"קצ'ואה papa · טאינו batata","sw":"Kiquechua papa · Kitaino batata"},
@@ -1011,5 +1012,6 @@ WORDS.potato = {
     ckt: ["кымчек", "kəmtɕek"],  // The native word for an edible root, extended to the potato.
     czh_wy: ["芋头", "y˩˩ tʰɑ˩˩"],  // 'Taro', the local tuber word, which Wiktionary's dialect table gives for the potato in Wuyuan (alongside 馬鈴薯). Reading from MCPDict 婺源.
     orh: ["tuudəw", "tuudəw"],  // Borrowed from Chinese 土豆 tǔdòu 'earth bean'; the older word kɔtɔpkɔ survives in the northeastern dialects.
+    ja_edo: ["ジャガタライモ", "dʑaɡataɾaimo"],  // 'Jagatara (Jakarta) tuber': the potato reached Nagasaki from Jakarta in the late 16th century; Butsuhin shikimei (1809) has ジャガタライモ 馬鈴薯.
   },
 };

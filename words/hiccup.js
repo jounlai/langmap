@@ -258,6 +258,8 @@ WORDS.hiccup = {
     ko_kp: "imitative",
     vi_c: "unknown",
     vi_s: "unknown",
+    ja_chu: "plain",
+    ja_edo: "plain",
   },
   routes: {
     imitative: {"color":"#ea580c","emoji":"🔊","en":"imitating the sound","ja":"音のまね","ko":"소리 흉내","zh":"模仿声音","yue":"模仿聲音","vi":"mô phỏng âm thanh","th":"เลียนเสียง","id":"tiruan bunyi","hi":"ध्वनि की नक़ल","de":"lautmalend","fr":"imitant le bruit","it":"onomatopeico","es":"imita el sonido","pt":"imita o som","ru":"звукоподражание","uk":"звуконаслідування","ar":"محاكاة الصوت","he":"חיקוי הקול","sw":"kuiga sauti"},
@@ -462,5 +464,7 @@ WORDS.hiccup = {
     ko_kp: ["딸꾹질", "t͈alk͈ukt͈ɕil"],  // 딸꾹, the sound of a hiccup, + -질 'act of doing', as in the South.
     vi_c: ["nấc cụt", "nək˧˦ kuk˧˩"],  // The same word as standard Vietnamese; Huế has -k for final -t after u, as in its út.
     vi_s: ["nấc cụt", "nək˧˥ kʊk͡p˨˩"],  // The same word as standard Vietnamese, with the Saigon -ʊk͡p of út in this row's 'little finger'.
+    ja_chu: ["噦", "ɕakuɾi"],  // From older sakuri. Example: Shōbōgenzō zuimonki (1235-38) 世間にしゃくりする人 'people who have the hiccups'.
+    ja_edo: ["噦", "ɕakɯɾi"],  // Edo example: the zappai collection Nara miyage (1694) 'びっくりとさせて呃逆 (シャクリ) を留てやる' ('give him a fright to stop his hiccups').
   },
 };

@@ -286,6 +286,7 @@ WORDS.dragonfly = {
     bew: "plain",
     ssf: "plain",
     ojp: "plain",
+    ja_heian: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -517,5 +518,6 @@ WORDS.dragonfly = {
     bew: ["capung", "tʃapuŋ"],  // Borrowed from Balinese capung 'dragonfly'.
     ssf: ["tambalawan", "tambalawan"],  // Thao word for the dragonfly.
     ojp: ["蜻蛉", "akidu"],  // Old Japanese akidu (later akitu): the Kojiki (712) glosses its 蜻蛉 'to be read 阿岐豆 a-ki-du'; the Man'yōshū also has the place name 秋津.
+    ja_heian: ["蜻蛉", "toubau"],  // Heian example: Ryōjin hishō (c. 1179) 居よ居よとうばうよ 'stay, stay, dragonfly'; NKD also lists kagerofu and enba as Heian words for the dragonfly, before tonbō.
   },
 };

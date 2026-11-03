@@ -502,6 +502,8 @@ WORDS.china = {
     vi_nom: "zhongguo",
     ain: "other",
     cnp: "zhongguo",
+    ja_chu: "other",
+    ja_edo: "other",
   },
   routes: {
     zhongguo: {"color":"#dc2626","emoji":"🏮","en":"reads 中國 \"Middle Kingdom\" itself","ja":"漢字 中國 を自分で読む","ko":"한자 中國을 직접 읽음","zh":"自己读汉字\"中國\"","yue":"自己讀漢字「中國」","vi":"tự đọc chữ 中國","th":"อ่านอักษร 中國 เอง","id":"membaca aksara 中國 sendiri","hi":"中國 को ख़ुद पढ़ना","de":"liest 中國 selbst","fr":"lit 中國 lui-même","it":"legge 中國 da sé","es":"lee 中國 por sí mismo","pt":"lê 中國 por si","ru":"своё чтение 中國","uk":"власне читання 中國","ar":"يقرأ 中國 بنفسه","he":"קורא את 中國 בעצמו","sw":"husoma 中國 yenyewe"},
@@ -946,5 +948,7 @@ WORDS.china = {
     vi_nom: ["中國", "tɕuŋ͡m˧ kuək˧˥"],  // Trung Quốc is the Sino-Vietnamese reading of 中國 'central country', written with the Chinese characters.
     ain: ["サンタン", "santan"],  // Borrowed from Japanese 山丹 Santan, first a name for the Ulch, Nivkh and other northern peoples who traded with the Sakhalin Ainu, later for Qing China.
     cnp: ["中国", "tʃœŋ˥˧ kok˧"],  // The standard Chinese name, read in Nanning Pinghua.
+    ja_chu: ["唐土", "tɔːdo"],  // 'Land of Tang', an old name for China; Kojidan (1212-15) has an example.
+    ja_edo: ["唐", "kaɾa"],  // Kara, first a name for a Korean state, then for Korea and China generally; Edo example: Ukiyo monogatari (c. 1665) からの日本の古き物 'old things, Chinese and Japanese'.
   },
 };

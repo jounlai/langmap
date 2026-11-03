@@ -332,6 +332,7 @@ WORDS.sunflower = {
     cnp: "turn",
     vi_nom: "turn",
     su: "sun",
+    ja_edo: "turn",
   },
   routes: {
     turn: {"color":"#ea580c","emoji":"🔄","en":"turns to the sun","ja":"太陽に向く","ko":"해를 향함","zh":"朝向太阳","yue":"向住太陽","vi":"hướng về mặt trời","th":"หันตามดวงอาทิตย์","id":"menghadap matahari","hi":"सूरज की ओर मुड़ता","de":"dreht sich zur Sonne","fr":"se tourne vers le soleil","it":"si volta verso il sole","es":"se gira al sol","pt":"volta-se para o sol","ru":"поворачивается к солнцу","uk":"повертається до сонця","ar":"يتّجه نحو الشمس","he":"פונה אל השמש","sw":"hugeuka kuelekea jua"},
@@ -610,5 +611,6 @@ WORDS.sunflower = {
     cnp: ["向日葵", "hiɐŋ˥˥ ȵɐt˨˦ kʷɐi˨˩"],  // Literally 'sun-facing mallow', as in Standard Chinese.
     vi_nom: ["向陽", "hɨəŋ˧˥ zɨəŋ˧"],  // hướng dương is the Sino-Vietnamese reading of 向陽 'facing the sun', written with the Chinese characters.
     su: ["kembang srangéngé", "kəmbaŋ sraŋeŋe"],  // Literally 'sun flower': kembang 'flower' + srangéngé 'sun', like Indonesian bunga matahari.
+    ja_edo: ["向日葵", "himawaɾi"],  // Himawari, read ヒマハリ; NKD cites it from the gardening book Kadan jikinshō (1695) and explains the name: the flower is said to turn with the sun.
   },
 };

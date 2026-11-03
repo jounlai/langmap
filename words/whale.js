@@ -438,6 +438,9 @@ WORDS.whale = {
     ko_mid: "plain",
     hy_grab: "plain",
     ota: "plain",
+    arc: "plain",
+    hbo: "plain",
+    fa_clas: "plain",
   },
   routes: {
     fish: {"color":"#2563eb","emoji":"🐟","en":"called a fish","ja":"「魚」と呼ぶ","ko":"\"물고기\"라 부름","zh":"称作\"鱼\"","yue":"叫做「魚」","vi":"gọi là cá","th":"เรียกว่าปลา","id":"disebut ikan","hi":"मछली कहा जाता है","de":"als Fisch bezeichnet","fr":"appelée poisson","it":"chiamata pesce","es":"llamada pez","pt":"chamada peixe","ru":"называют рыбой","uk":"називають рибою","ar":"تُسمّى سمكة","he":"נקרא דג","sw":"huitwa samaki"},
@@ -821,5 +824,8 @@ WORDS.whale = {
     ko_mid: ["고래", "koraj"],  // A native word, continued unchanged as modern 고래; its further origin is unknown.
     hy_grab: ["կէտ", "ket"],  // Borrowed from Greek κῆτος 'sea monster', like Old Church Slavonic китъ.
     ota: ["قیطس", "kiːˈtus"],  // From Greek κῆτος 'sea monster'; it is also the constellation Cetus.
+    arc: ["ܬܢܝܢܐ", "tanniːnaː"],  // Also 'dragon, sea monster'; Targum Onkelos uses it for the great whales of Genesis 1:21.
+    hbo: ["תנין", "tanˈniːn"],  // A sea monster or dragon; the King James Bible renders the תנינם of Genesis 1:21 as 'great whales'.
+    fa_clas: ["نهنگ", "nihang"],  // From Middle Persian nihang, which meant the crocodile; the word also covered the crocodile and other great water beasts.
   },
 };

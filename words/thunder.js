@@ -704,6 +704,9 @@ WORDS.thunder = {
     ofs: "plain",
     hy_grab: "plain",
     osp: "plain",
+    arc: "plain",
+    uga: "god",
+    fa_clas: "plain",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1354,5 +1357,8 @@ WORDS.thunder = {
     ofs: ["thuner", "ˈθuner"],  // Inherited from West Germanic *þunr, like Old English þunor.
     hy_grab: ["որոտ", "oɾot"],  // Of uncertain origin, perhaps from a root 'to hit' like Slavic Perun.
     osp: ["tronido", "tɾoˈnido"],  // Metathesised from earlier tonidro, from Latin tonitrus.
+    arc: ["ܪܥܡܐ", "raʕmaː"],  // From the Semitic root r-ʕ-m 'to thunder', like Hebrew רעם.
+    uga: ["𐎅𐎄", "haddu"],  // Haddu is also the storm god Hadad, the Baal of the Ugaritic myths; from Proto-Semitic *hadad- 'thunder'.
+    fa_clas: ["تندر", "tundar"],  // Inherited from Proto-Iranian *tánHtā; the Arabic loan رعد later became the everyday word.
   },
 };

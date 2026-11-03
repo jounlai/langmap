@@ -247,6 +247,7 @@ WORDS.jellyfish = {
     ty: "unknown",
     la: "other",
     el_grc: "other",
+    yue_dg: "plain",
   },
   routes: {
     medusa: {"color":"#7c3aed","emoji":"🐍","en":"named after Medusa","ja":"メドゥーサにちなむ","ko":"메두사에서","zh":"源自美杜莎","yue":"源自美杜莎","vi":"theo tên Medusa","th":"ตั้งตามเมดูซา","id":"dari nama Medusa","hi":"मेडूसा के नाम पर","de":"nach Medusa","fr":"d'après Méduse","it":"da Medusa","es":"por Medusa","pt":"por Medusa","ru":"по имени Медузы","uk":"за ім'ям Медузи","ar":"على اسم ميدوسا","he":"על שם מדוזה","sw":"kwa jina la Medusa"},
@@ -438,5 +439,6 @@ WORDS.jellyfish = {
     ty: ["paʻipaʻi", "paʔipaʔi"],  // The Tahitian word for jellyfish, as listed in Lemaître's Lexique du tahitien contemporain; its origin is not given there.
     la: ["pulmō marīnus", "ˈpulmoː maˈriːnus"],  // Literally 'sea lung', from pulmō 'lung'.
     el_grc: ["πλεύμων", "pleúmɔːn"],  // The 'lung': the same word as πλεύμων 'lung', used for the 'sea-lung'.
+    yue_dg: ["海蜇", "fi˧˥ tʃit˧"],  // Written 海蟄 in the Dongguan source; the same word as Standard Chinese 海蜇.
   },
 };

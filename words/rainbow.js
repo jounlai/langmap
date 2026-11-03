@@ -744,6 +744,9 @@ WORDS.rainbow = {
     ja_hak: "plain",
     ja_hir: "plain",
     yue_dg: "plain",
+    cnp: "plain",
+    zh_tj: "plain",
+    gld: "other",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1431,5 +1434,8 @@ WORDS.rainbow = {
     ja_hak: ["虹", "niʑi"],  // An inherited Japonic word, first recorded in the Kojiki (712); older readings nuji and noji are also attested. The national word, which Hakata speech uses as well.
     ja_hir: ["虹", "niʑi"],  // An inherited Japonic word, first recorded in the Kojiki (712); older readings nuji and noji are also attested. The national word, which Hiroshima speech uses as well.
     yue_dg: ["虹", "hoŋ˧˩"],  // Dongguan also says 拱 (Wiktionary's dialect table). Reading from MCPDict 東莞.
+    cnp: ["虹", "kaŋ˥˥"],  // The colloquial reading of 虹.
+    zh_tj: ["虹", "tɕiɑŋ˥˧"],  // The colloquial reading jiàng of 虹.
+    gld: ["агди пойкани", "aɡdi pojkani"],  // The first word is агди 'thunder'.
   },
 };

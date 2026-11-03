@@ -274,6 +274,14 @@ WORDS.dragonfly = {
     zh_xa: "plain",
     vi_c: "plain",
     vi_s: "plain",
+    cpx: "plain",
+    zh_jn: "plain",
+    yue_nn: "plain",
+    zh_db: "plain",
+    zh_tw: "plain",
+    zh_cd: "plain",
+    ko_jeju: "plain",
+    nan_ph: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -493,5 +501,13 @@ WORDS.dragonfly = {
     zh_xa: ["蚂螂", "ma˨˦ laŋ"],  // Also written 麻螂, as in Beijing 螞螂; Wiktionary's dialect table and Xi'an pronunciation. No image is recorded for it, so it counts as a word of its own.
     vi_c: ["chuồn chuồn", "cuəŋ˦˨ cuəŋ˦˨"],  // The same word as standard Vietnamese, in the Huế pronunciation (Wiktionary), written with this row's own tone values.
     vi_s: ["chuồn chuồn", "cuəŋ˨˩ cuəŋ˨˩"],  // The same word as standard Vietnamese, in the Saigon pronunciation (Wiktionary).
+    cpx: ["千咪叉", "tsʰe˥˧˧ mi˥˧˧ tsʰɒ˥˧˧"],  // Also written 浅咪叉 or 千尾叉; 千咪 alone is also used.
+    zh_jn: ["蜻蜓", "tɕʰiŋ˨˩˧ tʰiŋ"],  // The same word as Standard Chinese; Jinan also writes it 蜻蜻 or 蜓蜓.
+    yue_nn: ["塘咩", "tʰɔŋ˨˩ mɛ˥˥"],  // 塘 is 'pond'; compare Cantonese 塘尾.
+    zh_db: ["蜻蜓", "tɕʰiŋ˥ tʰiŋ˧˥"],  // The standard word; Harbin also says 蚂螂.
+    zh_tw: ["蜻蜓", "tɕʰiŋ˥ tʰiŋ˧˥"],  // The standard word, as in Mainland Mandarin.
+    zh_cd: ["虰虰猫儿", "tin˥˥ tin˥˥ mɚ˥˥"],  // Also written 丁丁猫儿; Sichuanese also uses it for a tram.
+    ko_jeju: ["밥주리", "pap̚t͈ɕuɾi"],  // The Jeju word; Standard Korean says 잠자리.
+    nan_ph: ["田嬰", "tsʰan˨˦ ĩ˧˧"],  // The Hokkien word for the dragonfly, as in Quanzhou.
   },
 };

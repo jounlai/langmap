@@ -631,6 +631,10 @@ WORDS.bat = {
     ja_hak: "plain",
     ja_hir: "plain",
     zh_xa: "plain",
+    wuu_jh: "mouse",
+    zh_tj: "mouse",
+    cpx: "mouse",
+    nan_ph: "plain",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1207,5 +1211,9 @@ WORDS.bat = {
     ja_hak: ["蝙蝠", "koːmoɾi"],  // Kōmori goes back to Old Japanese kawahori, perhaps 'leather' plus an element of unknown meaning. Unrelated to 鼠 nezumi 'mouse' and 鳥 tori 'bird'. The national word, which Hakata speech uses as well.
     ja_hir: ["蝙蝠", "koːmoɾi"],  // Kōmori goes back to Old Japanese kawahori, perhaps 'leather' plus an element of unknown meaning. Unrelated to 鼠 nezumi 'mouse' and 鳥 tori 'bird'. The national word, which Hiroshima speech uses as well.
     zh_xa: ["夜蝙蝠", "iɛ˥˥ pʰiã˥˧ fu˨˩"],  // 'Night bat': 蝙蝠 with 夜 'night', like Xinzhou Jin 夜蝙蝠; word from Wiktionary's dialect table, Wiktionary's Xi'an pronunciation.
+    wuu_jh: ["老鼠皮翼", "lɑu˥˧˥ tsʰɿ˥˧˥ bi˧˩˧ iəʔ˨˩˨"],  // Literally 'rat with skin wings'; also written 老鼠斃葉.
+    zh_tj: ["檐老鼠", "ian˦˥ lɑu˩˧ ʂu˩˧"],  // Literally 'eaves rat'; Tianjin also says 燕巴虎儿.
+    cpx: ["蠓鼠", "maŋ˦˥˧ tsʰy˦˥˧"],  // Literally 'midge rat'; Putian also says 老歙.
+    nan_ph: ["日婆", "lit˨˦ po˨˦"],  // Philippine Hokkien also uses 蝙蝠.
   },
 };

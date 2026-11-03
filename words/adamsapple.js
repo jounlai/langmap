@@ -268,6 +268,9 @@ WORDS.adamsapple = {
     enq: "unknown",
     inh: "other",
     is: "other",
+    wuu_jh: "other",
+    wuu_hz: "other",
+    zh_db: "other",
   },
   routes: {
     adam: {"color":"#dc2626","emoji":"🍏","en":"Adam's apple","ja":"アダムのりんご","ko":"아담의 사과","zh":"亚当的苹果","yue":"亞當嘅蘋果","vi":"táo của Adam","th":"แอปเปิลของอาดัม","id":"apel Adam","hi":"आदम का सेब","de":"Adams Apfel","fr":"pomme d'Adam","it":"pomo d'Adamo","es":"fruto de Adán","pt":"maçã de Adão","ru":"яблоко Адама","uk":"яблуко Адама","ar":"تفاحة آدم","he":"תפוח אדם","sw":"tufaha la Adamu"},
@@ -480,5 +483,8 @@ WORDS.adamsapple = {
     enq: ["pendoko pingi", "pendoko piŋɡi"],  // Begins with pendoko 'throat'.
     inh: ["къамарга шод", "qʼamarɡa ʃod"],  // Literally 'throat knot', from къамарг 'throat, larynx' + шод 'knot', the same image as Chinese 喉结; лака шод is also listed.
     is: ["barkakýli", "ˈpar̥kacʰiːlɪ"],  // Literally 'windpipe boil', from barki 'windpipe' + kýli 'boil'; the word covers both the Adam's apple and the larynx, and adamsepli is the less common synonym.
+    wuu_jh: ["喉咙珠", "eu˧˩˧ loŋ˧˩˧ tɕy˧˧˦"],  // Literally 'throat bead'.
+    wuu_hz: ["喉结", "ɦei˨˩˧ tɕieʔ˥"],  // Literally 'throat knot', as in Standard Chinese.
+    zh_db: ["喉结", "xoʊ̯˧˥ tɕjɛ˧˥"],  // Literally 'throat knot', the standard word; Harbin also says 喉结儿 and 嗓胡芦.
   },
 };

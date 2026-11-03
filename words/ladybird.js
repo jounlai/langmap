@@ -234,6 +234,11 @@ WORDS.ladybird = {
     ba: "unknown",
     egl: "other",
     sco: "holy",
+    wuu_jh: "other",
+    wuu_hz: "other",
+    nan_xm: "other",
+    nan_zz: "other",
+    nan_te: "other",
   },
   routes: {
     holy: {"color":"#7c3aed","emoji":"😇","en":"Mary · God · a saint","ja":"聖母・神・聖人","ko":"성모 · 하느님 · 성인","zh":"圣母・上帝・圣人","yue":"聖母 · 上帝 · 聖人","vi":"Đức Mẹ · Chúa · thánh","th":"พระแม่ · พระเจ้า · นักบุญ","id":"Bunda Maria · Tuhan · santo","hi":"मरियम · ईश्वर · संत","de":"Maria · Gott · Heilige","fr":"Marie · Dieu · un saint","it":"Maria · Dio · un santo","es":"María · Dios · un santo","pt":"Maria · Deus · um santo","ru":"Богородица · Бог · святой","uk":"Богородиця · Бог · святий","ar":"مريم · الله · قديس","he":"מרים · האל · קדוש","sw":"Maria · Mungu · mtakatifu"},
@@ -411,5 +416,10 @@ WORDS.ladybird = {
     ba: ["ҡамҡа", "qɑmˈqɑ"],  // The Bashkir name of the ladybird, the same word as Tatar камка; the Bashkir Wikipedia names the species with it, e.g. ете нөктәле ҡамҡа 'seven-spot ladybird'.
     egl: ["viôla", "ˈvjoːla"],  // In Bolognese the ladybird shares its name with viôla 'violet', from Latin viola.
     sco: ["clockleddy", "ˈklɔkledi"],  // Literally 'beetle-lady', from Scots clock 'beetle' (recorded since c.1550) and leddy 'lady'; it is the word in the Scots edition of Julia Donaldson's ladybird book, Whit the Clockleddy Heard. Like English ladybird, the 'lady' of the beetle.
+    wuu_jh: ["花乌龟儿", "xuɑ˧˧˦ u˧˧˦ tɕy˧˧˦ ŋ̍˧˩˧"],  // Literally 'little flowery tortoise'; 硬壳虫 'hard-shell bug' is also used.
+    wuu_hz: ["瓢瓢虫儿", "biɔ˨˩˧ biɔ˨˩˧ dzoŋ˨˩˧ əl˨˩˧"],  // Literally 'little ladle bug', the Hangzhou diminutive of 瓢虫.
+    nan_xm: ["乌龟仔", "ɔ˦˦ ku˦˦ a˥˧"],  // Literally 'little tortoise'.
+    nan_zz: ["乌龟仔", "ɔ˦˦ ku˦˦ a˥˧"],  // Literally 'little tortoise'; in Zhangzhou it can also mean a black beetle.
+    nan_te: ["红先生", "aŋ˥˥ siŋ˧˧ sẽ˧˧"],  // Literally 'Mr Red'.
   },
 };

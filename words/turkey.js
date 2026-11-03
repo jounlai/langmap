@@ -413,6 +413,8 @@ WORDS.turkey = {
     ja_hir: "local",
     ko_jl: "local",
     ko_bus: "local",
+    cnp: "local",
+    ja_kg: "local",
   },
   routes: {
     india: {"color":"#ea580c","emoji":"🐘","en":"named for India · the Indies","ja":"インドの名で","ko":"인도의 이름으로","zh":"以印度为名","yue":"以印度為名","vi":"theo tên Ấn Độ","th":"ตั้งตามอินเดีย","id":"dinamai India","hi":"भारत के नाम पर","de":"nach Indien benannt","fr":"nommé d'après l'Inde","it":"dal nome dell'India","es":"por la India","pt":"pelo nome da Índia","ru":"по Индии","uk":"за Індією","ar":"باسم الهند","he":"על שם הודו","sw":"kwa jina la India"},
@@ -767,5 +769,7 @@ WORDS.turkey = {
     ja_hir: ["七面鳥", "ɕitɕimeɲtɕoː"],  // Literally "seven-faced bird", after the bare neck skin that changes colour. The national word, which Hiroshima speech uses as well.
     ko_jl: ["칠면조", "tɕʰilmjʌndʑo"],  // Sino-Korean 七面鳥 "seven-faced bird", the same name as Japanese. The national word, which Jeolla speech uses as well.
     ko_bus: ["칠면조", "tɕʰilmjʌndʑo"],  // Sino-Korean 七面鳥 "seven-faced bird", the same name as Japanese. The national word, which Busan speech uses as well.
+    cnp: ["火鸡", "hu˧˧ kɐi˥˧"],  // Literally 'fire chicken', as in Standard Chinese.
+    ja_kg: ["七面鳥", "ɕitɕimeɲtɕoː"],  // The standard Japanese word, used in Kagoshima as everywhere in Japan.
   },
 };

@@ -967,5 +967,6 @@ WORDS.wheel = {
     ahk: ["a beuq", "a˥bɤ̰˧"],
     zgh: ["ⵜⴰⵙⵖⴰⵍⵜ", "tasʁalt"],
     mev: ["gà̰", "ɡã˩"],
+    dta: ["kurde", "kurde"],  // Related to Mongolian хүрд.
   }
 };

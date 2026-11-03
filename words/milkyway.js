@@ -307,6 +307,8 @@ WORDS.milkyway = {
     nan_te: "river",
     hak_tw: "river",
     hak_hl: "river",
+    cnp: "river",
+    wuu_jh: "river",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -557,5 +559,7 @@ WORDS.milkyway = {
     nan_te: ["天河", "tʰĩ˧˧ ho˥˥"],  // 'The heavenly river'; Chaozhou also says 銀河. Wiktionary's dialect table and Teochew pronunciation.
     hak_tw: ["河溪", "ho˩˩ hai˨˦"],  // 'River-stream', as in Taiwanese Hokkien 河溪; Miaoli also says 銀河. Word from Wiktionary's dialect table; Wiktionary's Sixian pronunciation.
     hak_hl: ["天河", "tʰien˥˧ ho˥˥"],  // 'The heavenly river'; Hsinchu also says 河溪, 河漢 and 銀河. Wiktionary's Hailu pronunciation.
+    cnp: ["银河", "ŋɐn˨˩ ho˨˩"],  // Literally 'silver river', as in Standard Chinese.
+    wuu_jh: ["天河", "tʰia˧˧˦ uɤ˧˩˧"],  // Literally 'sky river'; 河路 is also used.
   },
 };

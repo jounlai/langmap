@@ -329,6 +329,7 @@ WORDS.sunflower = {
     ko_bus: "turn",
     mnp: "sun",
     nan_hai: "turn",
+    cnp: "turn",
   },
   routes: {
     turn: {"color":"#ea580c","emoji":"🔄","en":"turns to the sun","ja":"太陽に向く","ko":"해를 향함","zh":"朝向太阳","yue":"向住太陽","vi":"hướng về mặt trời","th":"หันตามดวงอาทิตย์","id":"menghadap matahari","hi":"सूरज की ओर मुड़ता","de":"dreht sich zur Sonne","fr":"se tourne vers le soleil","it":"si volta verso il sole","es":"se gira al sol","pt":"volta-se para o sol","ru":"поворачивается к солнцу","uk":"повертається до сонця","ar":"يتّجه نحو الشمس","he":"פונה אל השמש","sw":"hugeuka kuelekea jua"},
@@ -604,5 +605,6 @@ WORDS.sunflower = {
     ko_bus: ["해바라기", "hɛbaɾaɡi"],  // 해 'sun' + 바라- 'look toward' + -기: 'sun-gazer'. The national word, which Busan speech uses as well.
     mnp: ["日头阳", "mi˦˨ tʰe˧˧ iɔŋ˧˧"],  // Built on 日頭 'sun', with 日 in its 日頭 reading mi; from Wiktionary's dialect table, reading from MCPDict 建甌.
     nan_hai: ["向日葵", "hiaŋ˧˥ zit˥ xui˧˩"],  // 'Turning to the sun', in the literary readings usual for this learned plant name; reading from MCPDict 海口.
+    cnp: ["向日葵", "hiɐŋ˥˥ ȵɐt˨˦ kʷɐi˨˩"],  // Literally 'sun-facing mallow', as in Standard Chinese.
   },
 };

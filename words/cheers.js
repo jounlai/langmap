@@ -244,6 +244,8 @@ WORDS.cheers = {
     wuu_hz: "drain",
     wuu_nb: "other",
     ar_eg: "health",
+    cnp: "drain",
+    wuu_jh: "drain",
   },
   routes: {
     health: {"color":"#16a34a","emoji":"💪","en":"to health · to life","ja":"健康に・命に","ko":"건강을 위해 · 생명을 위해","zh":"为健康・为生命","yue":"為健康 · 為生命","vi":"vì sức khỏe · vì sự sống","th":"แด่สุขภาพ · แด่ชีวิต","id":"untuk kesehatan · kehidupan","hi":"सेहत के नाम · जीवन के नाम","de":"auf die Gesundheit · aufs Leben","fr":"à la santé · à la vie","it":"alla salute · alla vita","es":"por la salud · por la vida","pt":"à saúde · à vida","ru":"за здоровье · за жизнь","uk":"за здоров'я · за життя","ar":"للصحة · للحياة","he":"לבריאות · לחיים","sw":"kwa afya · kwa uhai"},
@@ -433,5 +435,7 @@ WORDS.cheers = {
     wuu_hz: ["干杯", "kᴇ̃˧˧ pei˧˧"],  // Literally 'dry the cup', the same toast as Standard Chinese.
     wuu_nb: ["碰杯", "pʰã˥˥ pɐɪ˥˨"],  // Ningbo says 碰杯 'clink the cups' rather than 'dry the cup'.
     ar_eg: ["في صحتك", "fi sˤeħˈħetak"],  // Literally 'to your health'; to a group, في صحتكم.
+    cnp: ["饮齐去", "ȵɐm˧˧ tʃɐi˨˩ hy˥˥"],  // Literally 'drink it all up' (齐 'finished').
+    wuu_jh: ["干杯", "kɤ˧˧˦ pɛ˧˧˦"],  // Literally 'dry the cup', as in Standard Chinese.
   },
 };

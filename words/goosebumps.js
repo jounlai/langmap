@@ -229,6 +229,8 @@ WORDS.goosebumps = {
     as: "unknown",
     sk: "bird",
     hy: "unknown",
+    cpx: "bird",
+    zh_jn: "bird",
   },
   family2: {
     ko: "bird",
@@ -406,5 +408,7 @@ WORDS.goosebumps = {
     as: ["শিয়ৰণ", "xijɔɹɔn"],  // The verbal noun of শিয়ৰ্ 'to have one's hair stand on end and get goosebumps', defined as the bristling of the body hair from cold or fear.
     sk: ["husia koža", "ɦusɪ̯a koʒa"],  // Literally "goose skin" (husí 'goose's' + koža 'skin').
     hy: ["փշաքաղվել", "pʰəʃɑkʰɑʁˈvel"],  // A verb: hy.wiktionary glosses it 'a shiver passes through the body' and 'the hair stands on end'; Armenian says it as a verb, and the noun սագամաշկ 'goose skin' is labelled medical.
+    cpx: ["鸡母皮", "ke˥˧˧ po˦˥˧ pʰue˩˧"],  // Literally 'hen skin', as in Hokkien 鸡母皮.
+    zh_jn: ["鸡皮疙瘩", "tɕi˨˩˧ pʰi˦˨ kə˨˩˧ ta˦˨"],  // Literally 'chicken-skin bumps', as in Standard Chinese.
   },
 };

@@ -598,6 +598,9 @@ WORDS.thumb = {
     ja_hak: "mother",
     ja_hir: "mother",
     yue_nn: "plain",
+    cnp: "plain",
+    wuu_jh: "big",
+    dta: "plain",
   },
   routes: {
     mother: {"color":"#db2777","emoji":"👪","en":"mother · parent · elder kin","ja":"母・親・年長の身内","ko":"어머니 · 어버이 · 웃어른","zh":"母亲・父母・长辈","yue":"阿媽 · 父母 · 長輩","vi":"mẹ · cha mẹ · bậc trên","th":"แม่ · พ่อแม่ · ญาติผู้ใหญ่","id":"ibu · orang tua · kerabat tua","hi":"माँ · माता-पिता · बड़े","de":"Mutter · Eltern · ältere Verwandte","fr":"mère · parent · aîné","it":"madre · genitore · parente anziano","es":"madre · padre · pariente mayor","pt":"mãe · pai · parente mais velho","ru":"мать · родитель · старший родич","uk":"мати · батько · старший родич","ar":"أم · والد · قريب أكبر","he":"אם · הורה · קרוב מבוגר","sw":"mama · mzazi · ndugu mkubwa"},
@@ -1140,5 +1143,8 @@ WORDS.thumb = {
     ja_hak: ["親指", "ojajɯbi"],  // Literally 'parent finger'; the big toe is 足の親指, 'the foot's parent finger'. The national word, which Hakata speech uses as well.
     ja_hir: ["親指", "ojajɯbi"],  // Literally 'parent finger'; the big toe is 足の親指, 'the foot's parent finger'. The national word, which Hiroshima speech uses as well.
     yue_nn: ["拇指", "mu˨˦ tʃi˧˥"],  // Nanning also says 手乸頭 and 大拇指 (Wiktionary's dialect table). Reading from MCPDict 南寧. No image is recorded for it, so it counts as a word of its own.
+    cnp: ["手拇头", "ʃɐu˧˧ mu˨˦ tɐu˨˩"],  // Built on 拇 'thumb'; Nanning Pinghua also says 大拇指 and 大手指.
+    wuu_jh: ["大手拇执头", "duɤ˩˦ ɕiu˥˧˥ mɛ˧˩˧ tɕiəʔ˦ diu˧˩˧"],  // Literally 'big hand-finger'; the little finger is 小手拇执头.
+    dta: ["xereg", "xereɡ"],  // Inherited from Proto-Mongolic *herekei; compare Mongolian эрхий.
   },
 };

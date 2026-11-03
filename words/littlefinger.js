@@ -460,6 +460,8 @@ WORDS.littlefinger = {
     nan_xm: "other",
     zh_xa: "small",
     vi_c: "child",
+    cnp: "small",
+    wuu_jh: "small",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -865,5 +867,7 @@ WORDS.littlefinger = {
     nan_xm: ["尾指仔", "be˥˧ tsai˥˧ a˥˧"],  // 'Tail finger' with the diminutive 仔, as in Taiwanese 尾指. Word from Wiktionary's dialect table; reading from its Xiamen pronunciation, citation tones.
     zh_xa: ["小门指头", "ɕiau˥˧ mẽ˥˥ tsɿ˨˩ tʰɤu"],  // 'Small … finger'; Xi'an also says 碎門指頭 with 碎 'small'. Wiktionary's dialect table and Xi'an pronunciation.
     vi_c: ["ngón tay út", "ŋɔŋ˨˦ taj˥ ʊk˧˦"],  // Literally the 'youngest finger of the hand', as in standard Vietnamese; Huế pronunciation (Wiktionary).
+    cnp: ["细手指", "ɬɐi˥˥ ʃɐu˧˧ tʃi˧˧"],  // Literally 'small finger'.
+    wuu_jh: ["小手拇执头", "siɑu˥˧˥ ɕiu˥˧˥ mɛ˧˩˧ tɕiəʔ˦ diu˧˩˧"],  // Literally 'small hand-finger'; the thumb is 大手拇执头.
   },
 };

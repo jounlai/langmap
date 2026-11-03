@@ -866,6 +866,9 @@ WORDS.tomorrow = {
     yue_zs: "unknown",
     nan_hai: "morning",
     cjy_lv: "other",
+    cnp: "other",
+    orh: "plain",
+    peh: "plain",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -1676,5 +1679,8 @@ WORDS.tomorrow = {
     yue_zs: ["聽日", "tʰɪŋ˥˥ jɐt˧"],  // The same word as Cantonese 聽日, whose first syllable has no agreed etymology; reading from MCPDict 中山.
     nan_hai: ["现旦", "hin˧˩ na˨˧"],  // Built on 旦 'dawn'; MCPDict 海口 gives this reading of 現 for 現旦 'tomorrow', and Wiktionary's dialect table the word.
     cjy_lv: ["明天", "mɿ˦˦ tʰiɪ˨˦"],  // With the colloquial reading of 明; Lishi also says 明儿. Reading from MCPDict 離石.
+    cnp: ["明日", "meŋ˨˩ ȵɐt˨˦"],  // Literally 'the bright (next) day'.
+    orh: ["tɪmaana", "tɪmaana"],  // No analysis is recorded for it.
+    peh: ["maxɕi", "maxɕi"],  // No analysis is recorded for it.
   },
 };

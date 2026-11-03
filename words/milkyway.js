@@ -304,6 +304,7 @@ WORDS.milkyway = {
     ja_hir: "river",
     nan_xm: "river",
     nan_qz: "river",
+    nan_te: "river",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -551,5 +552,6 @@ WORDS.milkyway = {
     ja_hir: ["天の川", "amanoɡawa"],  // Literally 'river of heaven'; in the Tanabata legend Orihime and Hikoboshi meet across it on the 7th day of the 7th month. The national word, which Hiroshima speech uses as well.
     nan_xm: ["河溪", "ho˨˦ kʰue˦˦"],  // 'River-stream', as in Taiwanese 河溪. Word from Wiktionary's dialect table; reading from its Xiamen pronunciation, citation tones.
     nan_qz: ["河溪", "o˨˦ kʰue˧˧"],  // 'River-stream', as in Taiwanese 河溪. Word from Wiktionary's dialect table; reading from its Quanzhou pronunciation, citation tones.
+    nan_te: ["天河", "tʰĩ˧˧ ho˥˥"],  // 'The heavenly river'; Chaozhou also says 銀河. Wiktionary's dialect table and Teochew pronunciation.
   },
 };

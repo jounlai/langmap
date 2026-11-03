@@ -314,6 +314,7 @@ WORDS.shootingstar = {
     ja_hir: "moving",
     ko_jl: "other",
     ko_bus: "other",
+    nan_te: "moving",
   },
   routes: {
     falling: {"color":"#2563eb","emoji":"⬇️","en":"a falling star","ja":"落ちる星","ko":"떨어지는 별","zh":"落下的星","yue":"跌落嘅星","vi":"sao rơi","th":"ดาวที่ตก","id":"bintang jatuh","hi":"गिरता तारा","de":"fallender Stern","fr":"étoile qui tombe","it":"stella che cade","es":"estrella que cae","pt":"estrela que cai","ru":"падающая звезда","uk":"зірка, що падає","ar":"نجم يسقط","he":"כוכב שנופל","sw":"nyota inayoanguka"},
@@ -573,5 +574,6 @@ WORDS.shootingstar = {
     ja_hir: ["流れ星", "naɡaɾeboɕi"],  // Literally 'flowing star', attested since 1137. The national word, which Hiroshima speech uses as well.
     ko_jl: ["별똥별", "pjʌlt͈oŋbjʌl"],  // Literally 'star-dung star'; the Sino-Korean 유성 is the formal term. The national word, which Jeolla speech uses as well.
     ko_bus: ["별똥별", "pjʌlt͈oŋbjʌl"],  // Literally 'star-dung star'; the Sino-Korean 유성 is the formal term. The national word, which Busan speech uses as well.
+    nan_te: ["流星", "liu˥˥ tsʰẽ˧˧"],  // 'Flowing star', with the colloquial reading of 星; Wiktionary's Teochew pronunciation.
   },
 };

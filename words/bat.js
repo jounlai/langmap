@@ -624,6 +624,8 @@ WORDS.bat = {
     non: "other",
     arc: "plain",
     czh_wy: "mouse",
+    hsn_hy: "mouse",
+    cjy_lv: "other",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1193,5 +1195,7 @@ WORDS.bat = {
     non: ["leðrblaka", "ˈleðrblɑkɑ"],  // 'The leather-flapper', leðr 'leather' + a derivative of blaka 'to flap'; in Alexanders saga and the Edda's name lists (Cleasby–Vigfusson).
     arc: ["ܥܛܠܦܐ", "ʕatˤalleːpaː"],  // Targum Onkelos renders the bat of Leviticus 11:19 as עֲטַלֵּפָא, the same word as Hebrew עטלף; unrelated to ܥܟܒܪܐ 'mouse' and ܨܦܪܐ 'bird'.
     czh_wy: ["老鼠蒲翼", "lɔ˧˩ tɕʰy˨ pʰu˩˩ iɔ˥˩"],  // 'Mouse butterfly': 蒲翼 is the local word for butterfly, with 翼 read iɔ as in that word; from Wiktionary's dialect table, reading from MCPDict 婺源.
+    hsn_hy: ["檐老鼠", "ien˩˩˨ lau˧˧ sui˧˧"],  // 'Eaves mouse', as in Changsha Xiang, with the colloquial reading of 鼠; reading from MCPDict 衡陽.
+    cjy_lv: ["夜壁虎", "iɛ˥˨ piəʔ˦ xu˧˩˨"],  // 'Night gecko': 夜 'night' + 壁虎 'gecko', the 'wall tiger'; Wiktionary's dialect table also gives 蝙蝠 for Lishi. Reading from MCPDict 離石.
   },
 };

@@ -432,6 +432,8 @@ WORDS.littlefinger = {
     sga: "plain",
     orv: "child",
     ofs: "other",
+    goh: "other",
+    gmh: "other",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -809,5 +811,7 @@ WORDS.littlefinger = {
     sga: ["lútu", "ˈluːdu"],  // The ancestor of Irish lúidín (eDIL). No image is recorded for it, so it counts as a word of its own.
     orv: ["мѣзиньць", "mæzinʲtsʲ"],  // Originally 'youngest son': the little finger is the youngest of the five. Modern Russian мизинец.
     ofs: ["slūtere", "ˈsluːtere"],  // The 'locker', from slūta 'to close': the little finger closes the fist (Köbler).
+    goh: ["ōrfingar", "ˈoːrfiŋɡar"],  // Ōra 'ear' + fingar: the 'ear finger', probably a loan translation of Latin auriculāris; four glosses from the 11th century (Köbler).
+    gmh: ["ōrvinger", "ˈoːrviŋər"],  // The 'ear finger', continuing Old High German ōrfingar; still listed as Ohrfinger in Grimm's dictionary (Köbler).
   },
 };

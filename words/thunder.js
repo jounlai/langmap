@@ -701,6 +701,8 @@ WORDS.thunder = {
     ko_mid: "other",
     ojp: "god",
     fro: "plain",
+    ofs: "plain",
+    hy_grab: "plain",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1348,5 +1350,7 @@ WORDS.thunder = {
     ko_mid: ["·울에", "ulɦəj"],  // From the verb 우르다 'to roar'; continued as modern 우레.
     ojp: ["雷", "ikaduti"],  // Ika 'awesome' + tu (possessive) + ti 'spirit': the awesome spirit. Modern いかずち.
     fro: ["tuneire", "tyˈnejrə"],  // From Latin tonitrus, built on tonāre 'to thunder'; modern French tonnerre.
+    ofs: ["thuner", "ˈθuner"],  // Inherited from West Germanic *þunr, like Old English þunor.
+    hy_grab: ["որոտ", "oɾot"],  // Of uncertain origin, perhaps from a root 'to hit' like Slavic Perun.
   },
 };

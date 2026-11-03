@@ -505,6 +505,7 @@ WORDS.greece = {
     hy_grab: "ionia",
     ang: "graecia",
     enm: "graecia",
+    sa: "ionia",
   },
   routes: {
     graecia: {"color":"#2563eb","emoji":"🏛️","en":"from Latin Graecia (Greece, Grèce, Греция)","ja":"ラテン語 Graecia から（Greece, Grèce, Греция）","ko":"라틴어 Graecia에서 (Greece, Grèce, Греция)","zh":"源自拉丁语 Graecia（Greece、Grèce、Греция）","yue":"源自拉丁文 Graecia（Greece、Grèce、Греция）","vi":"từ tiếng Latin Graecia (Greece, Grèce, Греция)","th":"จากละติน Graecia (Greece, Grèce, Греция)","id":"dari Latin Graecia (Greece, Grèce, Греция)","hi":"लैटिन Graecia से (Greece, Grèce, Греция)","de":"aus lateinisch Graecia (Greece, Grèce, Греция)","fr":"du latin Graecia (Greece, Grèce, Греция)","it":"dal latino Graecia (Greece, Grèce, Греция)","es":"del latín Graecia (Greece, Grèce, Греция)","pt":"do latim Graecia (Greece, Grèce, Греция)","ru":"от латинского Graecia (Greece, Grèce, Греция)","uk":"від латинського Graecia (Greece, Grèce, Греция)","ar":"من اللاتينية Graecia (Greece, Grèce, Греция)","he":"מהלטינית Graecia (Greece, Grèce, Греция)","sw":"kutoka Kilatini Graecia (Greece, Grèce, Греция)"},
@@ -950,5 +951,6 @@ WORDS.greece = {
     hy_grab: ["Յունաստան", "junastan"],  // Land of the Yoyn, the Ionian Greeks, with the place suffix -աստան.
     ang: ["Grēcland", "ˈɡreːklɑnd"],  // Grēc 'Greek' + land; the Chronicle for 982 has Otto going 'tō Grēclande'.
     enm: ["Grece", "ɡreːs"],  // From Old French Grece, from Latin Graecia; it displaced Old English Grēcland.
+    sa: ["यवनाः", "jɐʋɐnaːh"],  // The Yavanas, the Greeks: from Old Persian Yauna, from Greek Ἴων 'Ionian'. The Mahābhārata has यवनेश्वर 'king of the Greeks'.
   },
 };

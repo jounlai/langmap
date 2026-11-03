@@ -609,6 +609,7 @@ WORDS.bat = {
     ko_mid: "mouse",
     ar_qur: "other",
     ota: "plain",
+    osp: "mouse",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1163,5 +1164,6 @@ WORDS.bat = {
     ko_mid: [":ᄇᆞᆰ·쥐", "pʌlktsuj"],  // First attested in the 1489 Gugeup ganibang; the second part is 쥐 'rat', the first is unexplained. Modern 박쥐.
     ar_qur: ["خفاش", "xuffaːʃ"],  // From the verb خَفِشَ 'to be day-blind', after the bat's supposed poor sight by day.
     ota: ["یراسه", "jaɾaˈsa"],  // Inherited from Proto-Turkic *yarïsgu 'bat', the same word as Turkish yarasa.
+    osp: ["murciego", "muɾˈθjeɣo"],  // From Vulgar Latin mūrem caecum 'blind mouse'; attested about 1250, later murciélago.
   },
 };

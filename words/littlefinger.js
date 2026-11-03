@@ -443,6 +443,7 @@ WORDS.littlefinger = {
     ja_edo: "small",
     zh_wenyan_edu: "small",
     vi_han: "small",
+    non: "small",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -831,5 +832,6 @@ WORDS.littlefinger = {
     ja_edo: ["小指", "kojɯbi"],  // こゆび 'small finger', as in modern Japanese (Nihon Kokugo Daijiten).
     zh_wenyan_edu: ["小指", "siːu˧˥ tsiː˧˥"],  // 'Small finger', in the Cantonese literary reading.
     vi_han: ["小指", "tiəw˧˩˧ tɕi˧˩˧"],  // 'Small finger', read tiểu chỉ in Sino-Vietnamese.
+    non: ["litlifingr", "ˈlitliˌfiŋɡr"],  // 'The little finger', litli 'little' + fingr; the others were þumalfingr, vísifingr, langatöng and græðifingr, the 'healing finger' (Cleasby–Vigfusson, s.v. fingr).
   },
 };

@@ -441,6 +441,7 @@ WORDS.whale = {
     arc: "plain",
     hbo: "plain",
     fa_clas: "plain",
+    osp: "plain",
   },
   routes: {
     fish: {"color":"#2563eb","emoji":"🐟","en":"called a fish","ja":"「魚」と呼ぶ","ko":"\"물고기\"라 부름","zh":"称作\"鱼\"","yue":"叫做「魚」","vi":"gọi là cá","th":"เรียกว่าปลา","id":"disebut ikan","hi":"मछली कहा जाता है","de":"als Fisch bezeichnet","fr":"appelée poisson","it":"chiamata pesce","es":"llamada pez","pt":"chamada peixe","ru":"называют рыбой","uk":"називають рибою","ar":"تُسمّى سمكة","he":"נקרא דג","sw":"huitwa samaki"},
@@ -827,5 +828,6 @@ WORDS.whale = {
     arc: ["ܬܢܝܢܐ", "tanniːnaː"],  // Also 'dragon, sea monster'; Targum Onkelos uses it for the great whales of Genesis 1:21.
     hbo: ["תנין", "tanˈniːn"],  // A sea monster or dragon; the King James Bible renders the תנינם of Genesis 1:21 as 'great whales'.
     fa_clas: ["نهنگ", "nihang"],  // From Middle Persian nihang, which meant the crocodile; the word also covered the crocodile and other great water beasts.
+    osp: ["ballena", "baˈʎena"],  // From Latin ballaena, from Greek φάλλαινα.
   },
 };

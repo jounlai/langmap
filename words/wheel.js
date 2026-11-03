@@ -966,6 +966,6 @@ WORDS.wheel = {
     bzd: ["wö̀shki", "wʊʃki"],
     ahk: ["a beuq", "a˥bɤ̰˧"],
     zgh: ["ⵜⴰⵙⵖⴰⵍⵜ", "tasʁalt"],
-    mev: ["gà̰", "ɡã˩"]
+    mev: ["gà̰", "ɡã˩"],
   }
 };

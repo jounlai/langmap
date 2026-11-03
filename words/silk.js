@@ -832,5 +832,6 @@ WORDS.silk = {
     ttq: ["ǝlxǝrir", "əlxərir"],  // From Arabic ḥarīr (Prasse).
     gha: ["elḫarir", "ɐlħarir"],  // From Arabic al-ḥarīr (Lanfry marks it ar.).
     siz: ["əlaħrir", "əlaʜrir"],  // Borrowed from Arabic ḥarīr.
+    ofs: ["sīde", "ˈsiːde"],  // The ancestor of West Frisian side, from Proto-Germanic *sīdǭ.
   }
 };

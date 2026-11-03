@@ -429,6 +429,8 @@ WORDS.littlefinger = {
     hy_grab: "small",
     syc: "small",
     nci: "child",
+    sga: "plain",
+    orv: "child",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -803,5 +805,7 @@ WORDS.littlefinger = {
     hy_grab: ["ճկոյթ", "tʃkojtʰ"],  // Borrowed from a Zan (Kartvelian) word; compare Laz ts'ulu k'iti, literally 'small finger'.
     syc: ["ܚܨܪܐ", "ħesˤraː"],  // From a root meaning 'to narrow'; it also means the little toe, and figuratively 'a small part'.
     nci: ["mahpilxōcoyōtl", "maʔpilʃoːkojoːtɬ"],  // Mahpilli 'finger' + xōcoyōtl 'youngest child': the youngest finger.
+    sga: ["lútu", "ˈluːdu"],  // The ancestor of Irish lúidín (eDIL). No image is recorded for it, so it counts as a word of its own.
+    orv: ["мѣзиньць", "mæzinʲtsʲ"],  // Originally 'youngest son': the little finger is the youngest of the five. Modern Russian мизинец.
   },
 };

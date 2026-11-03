@@ -861,6 +861,7 @@ WORDS.tomorrow = {
     kgg: "plain",
     zh_tang: "other",
     got: "unknown",
+    ofs: "morning",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -1666,5 +1667,6 @@ WORDS.tomorrow = {
     kgg: ["goraq", "ɡoraq"],  // Goraq (also heard gorəχ) is the Kusunda word for tomorrow; yesterday is a different word, pyana, and goradze is 'morning, early today'. No image is recorded for it, so it counts as a word of its own.
     zh_tang: ["明日", "miajŋ ȵit"],  // 'The bright day', 明 'bright' + 日 'day'.
     got: ["𐌲𐌹𐍃𐍄𐍂𐌰𐌳𐌰𐌲𐌹𐍃", "ˈɡistraˌdaɣis"],  // Found once, in Matthew 6:30. Its first part is related to English yester-, but Gothic's own word for yesterday is not recorded, so 'the same word' cannot be checked.
+    ofs: ["morgen", "ˈmorɣen"],  // The same word as 'morning', like German morgen; modern West Frisian moarn.
   },
 };

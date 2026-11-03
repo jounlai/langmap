@@ -616,6 +616,10 @@ WORDS.monday = {
     sga: "moon",
     ota: "after",
     mga: "moon",
+    hy_grab: "count",
+    ofs: "moon",
+    osp: "moon",
+    orv: "after",
   },
   routes: {
     moon: {"color":"#7c3aed","emoji":"🌙","en":"the moon's day","ja":"月の日","ko":"달의 날","zh":"月亮之日","yue":"月亮嘅日","vi":"ngày mặt trăng","th":"วันของดวงจันทร์","id":"hari bulan","hi":"चंद्रमा का दिन","de":"Tag des Mondes","fr":"jour de la lune","it":"giorno della luna","es":"día de la luna","pt":"dia da lua","ru":"день луны","uk":"день місяця","ar":"يوم القمر","he":"יום הירח","sw":"siku ya mwezi"},
@@ -1174,5 +1178,9 @@ WORDS.monday = {
     sga: ["lúan", "ˈluːan"],  // Lúan is 'moon'; as 'Monday' it is a calque of Latin diēs Lūnae.
     ota: ["بازار ایرتسی", "paˈzaɾ eɾteˈsi"],  // 'The day after pazar', pazar being Sunday, originally 'market'; modern pazartesi.
     mga: ["lúan", "ˈluːan"],  // From Old Irish lúan 'moon', a calque of Latin diēs Lūnae.
+    hy_grab: ["երկշաբաթի", "eɾkʃabatʰi"],  // Erku 'two' + šabatʰ 'Sabbath, week': the second day of the week; 'great Monday' is the Monday before Easter.
+    ofs: ["mōnadei", "ˈmoːnadei"],  // 'The moon's day', from West Germanic *mānini dag, a calque of Latin diēs Lūnae; modern West Frisian moandei.
+    osp: ["lunes", "ˈlunes"],  // From Latin Lūnae diēs, the Moon's day.
+    orv: ["понедѣльникъ", "ponedælʲnikŭ"],  // Po- 'after' + nedělja, the old word for Sunday: 'the day after Sunday'.
   },
 };

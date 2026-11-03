@@ -613,6 +613,7 @@ WORDS.bat = {
     nci: "plain",
     syc: "unknown",
     fa_clas: "other",
+    sga: "plain",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1171,5 +1172,6 @@ WORDS.bat = {
     nci: ["tzinacan", "tsinaːkan"],  // Inherited from Proto-Nahuan *ȼinaakan 'bat'. No image is recorded for it, so it counts as a word of its own.
     syc: ["ܦܪܚܕܘܕܐ", "praħduːðaː"],  // Either from the root p-r-ḥ 'to fly' or from Arabic خُفْدُود; the sources do not settle which.
     fa_clas: ["شب‌پره", "ʃabpara"],  // Literally 'night-wing': شب 'night' + پره 'wing'. In modern Iran it is dated, and the Arabic loan خفاش replaced it.
+    sga: ["íatlu", "ˈiːadlu"],  // The ancestor of Irish ialtóg (eDIL). No image is recorded for it, so it counts as a word of its own.
   },
 };

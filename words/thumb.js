@@ -592,6 +592,7 @@ WORDS.thumb = {
     syc: "plain",
     arc: "plain",
     cop: "plain",
+    ko_kp: "unknown",
   },
   routes: {
     mother: {"color":"#db2777","emoji":"👪","en":"mother · parent · elder kin","ja":"母・親・年長の身内","ko":"어머니 · 어버이 · 웃어른","zh":"母亲・父母・长辈","yue":"阿媽 · 父母 · 長輩","vi":"mẹ · cha mẹ · bậc trên","th":"แม่ · พ่อแม่ · ญาติผู้ใหญ่","id":"ibu · orang tua · kerabat tua","hi":"माँ · माता-पिता · बड़े","de":"Mutter · Eltern · ältere Verwandte","fr":"mère · parent · aîné","it":"madre · genitore · parente anziano","es":"madre · padre · pariente mayor","pt":"mãe · pai · parente mais velho","ru":"мать · родитель · старший родич","uk":"мати · батько · старший родич","ar":"أم · والد · قريب أكبر","he":"אם · הורה · קרוב מבוגר","sw":"mama · mzazi · ndugu mkubwa"},
@@ -1128,5 +1129,6 @@ WORDS.thumb = {
     syc: ["ܟܪܬܐ", "kraːtaː"],  // Krātā, a Syriac word for the thumb (Comprehensive Aramaic Lexicon). No image is recorded for it, so it counts as a word of its own.
     arc: ["ܐܠܝܘܢܐ", "ʔiljoːnaː"],  // ʾIlyōnā, also the big toe; Targum Onkelos uses it for the thumb of the right hand in Exodus 29:20 (Comprehensive Aramaic Lexicon). No image is recorded for it, so it counts as a word of its own.
     cop: ["ⲉⲓⲛⲉ", "iːne"],  // Also the big toe; Bohairic ⲓⲛⲓ (Coptic Dictionary Online, after Crum). No image is recorded for it, so it counts as a word of its own.
+    ko_kp: ["엄지손가락", "ʌmdʑisonk͈arak"],  // 엄지 'thumb' + 손가락 'finger', as in the South; no source explains 엄지.
   },
 };

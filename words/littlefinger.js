@@ -459,6 +459,7 @@ WORDS.littlefinger = {
     ja_hir: "small",
     nan_xm: "other",
     zh_xa: "small",
+    vi_c: "child",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -863,5 +864,6 @@ WORDS.littlefinger = {
     ja_hir: ["小指", "kojɯbi"],  // Literally 'small finger'. The national word, which Hiroshima speech uses as well.
     nan_xm: ["尾指仔", "be˥˧ tsai˥˧ a˥˧"],  // 'Tail finger' with the diminutive 仔, as in Taiwanese 尾指. Word from Wiktionary's dialect table; reading from its Xiamen pronunciation, citation tones.
     zh_xa: ["小门指头", "ɕiau˥˧ mẽ˥˥ tsɿ˨˩ tʰɤu"],  // 'Small … finger'; Xi'an also says 碎門指頭 with 碎 'small'. Wiktionary's dialect table and Xi'an pronunciation.
+    vi_c: ["ngón tay út", "ŋɔŋ˨˦ taj˥ ʊk˧˦"],  // Literally the 'youngest finger of the hand', as in standard Vietnamese; Huế pronunciation (Wiktionary).
   },
 };

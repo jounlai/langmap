@@ -439,6 +439,8 @@ WORDS.littlefinger = {
     el_grc: "other",
     cop: "plain",
     ja_heian: "small",
+    ja_chu: "small",
+    ja_edo: "small",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -823,5 +825,7 @@ WORDS.littlefinger = {
     el_grc: ["ἔσχατος δάκτυλος", "éskʰatos dáktylos"],  // 'The last finger': Aristotle (Parts of Animals 687b17) counts the fingers from the thumb, ὁ μέγας δάκτυλος 'the big finger', to ὁ ἔσχατος (LSJ).
     cop: ["ⲥⲉⲗⲉⲡⲓⲛ", "selepin"],  // Also the little toe; Bohairic ⲥⲉⲗⲟⲩⲡⲓⲛ (Coptic Dictionary Online, after Crum). No image is recorded for it, so it counts as a word of its own.
     ja_heian: ["小指", "kojubi"],  // 'Small finger': the Wamyō Ruijushō (c. 934) reads 季指 as 古於与比 ko-oyobi, and the Ochikubo Monogatari (late 10th century) already has こゆび (Nihon Kokugo Daijiten).
+    ja_chu: ["小指", "kojubi"],  // こゆび 'small finger', the usual name from the Iroha Jiruishō (12th century) on (Nihon Kokugo Daijiten).
+    ja_edo: ["小指", "kojɯbi"],  // こゆび 'small finger', as in modern Japanese (Nihon Kokugo Daijiten).
   },
 };

@@ -710,6 +710,8 @@ WORDS.thunder = {
     mga: "plain",
     sa: "plain",
     cop: "sky",
+    ja_chu: "god",
+    ja_edo: "god",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1366,5 +1368,7 @@ WORDS.thunder = {
     mga: ["toirnech", "ˈtorʲnʲex"],  // A derivative of Old Irish torann 'thunder', from Proto-Celtic *toranos; the ancestor of Irish toirneach (eDIL).
     sa: ["स्तनयित्नुः", "stɐnɐjitnuh"],  // From stan 'to roar, thunder', cognate with Latin tonāre; attested from the Rigveda, and in the plural personified as the children of Vidyota, 'Lightning' (Monier-Williams).
     cop: ["ϩⲣⲟⲩⲃⲃⲁⲓ", "hrubbai"],  // Built on ϩⲣⲟⲩ 'voice' and glossed 'voice of heaven'; the rarer ϩⲣⲟⲩⲙⲡⲉ is literally 'voice of the sky' (Coptic Dictionary Online, after Crum).
+    ja_chu: ["雷", "kaminaɾi"],  // かみなり, 'the god's sounding'; a Kyōgen play of the late Muromachi period is titled 神鳴 (Nihon Kokugo Daijiten).
+    ja_edo: ["雷", "kaminaɾi"],  // かみなり, 'the god's sounding'; かんなり is a variant (Nihon Kokugo Daijiten).
   },
 };

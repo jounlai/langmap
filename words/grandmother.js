@@ -615,6 +615,8 @@ WORDS.grandmother = {
     pi: "unknown",
     ojp: "one",
     ja_heian: "one",
+    ja_chu: "one",
+    ja_edo: "one",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -1174,5 +1176,7 @@ WORDS.grandmother = {
     pi: ["अय्यिका", "ajːikaː"],  // The feminine of ayyaka 'grandfather', also used for 'lady'; the PTS dictionary does not say whether it covered both sides.
     ojp: ["祖母", "opoba"],  // Opoba, from opo-papa 'great mother', the mother of either parent; the Ryō no shūge (738) quotes 'commonly called 於保知於保波', opodi and opoba (Nihon Kokugo Daijiten).
     ja_heian: ["祖母", "oba"],  // Shortened from opoba in the early Heian period, after which oba was the usual word for either grandmother (Nihon Kokugo Daijiten).
+    ja_chu: ["祖母", "uba"],  // うば, from oba; from the Insei period until the Edo period it was the central word for either grandmother (Nihon Kokugo Daijiten).
+    ja_edo: ["祖母", "baba"],  // ばば, which overtook うば in the Edo period: 'today is grandmother's (祖母) death day', Karukuchi gozen otoko (1703) (Nihon Kokugo Daijiten).
   },
 };

@@ -622,6 +622,7 @@ WORDS.bat = {
     zh_wenyan_edu: "plain",
     vi_han: "plain",
     non: "other",
+    arc: "plain",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1189,5 +1190,6 @@ WORDS.bat = {
     zh_wenyan_edu: ["蝙蝠", "pʰiːn˥ fʊk˥"],  // The classical two-syllable name, in the Cantonese literary reading.
     vi_han: ["蝙蝠", "ɓiən˧˧ ɓɨk˧˥"],  // Read biên bức in Sino-Vietnamese; the everyday Vietnamese word is dơi.
     non: ["leðrblaka", "ˈleðrblɑkɑ"],  // 'The leather-flapper', leðr 'leather' + a derivative of blaka 'to flap'; in Alexanders saga and the Edda's name lists (Cleasby–Vigfusson).
+    arc: ["ܥܛܠܦܐ", "ʕatˤalleːpaː"],  // Targum Onkelos renders the bat of Leviticus 11:19 as עֲטַלֵּפָא, the same word as Hebrew עטלף; unrelated to ܥܟܒܪܐ 'mouse' and ܨܦܪܐ 'bird'.
   },
 };

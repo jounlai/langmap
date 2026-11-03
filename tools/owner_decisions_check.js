@@ -176,8 +176,8 @@ const DECISIONS = [
             // 2026-10-29: germany 37 → 38 — new czh 德国 (Tunxi) exposes czh_wy (Wuyuan); no Wuyuan source for the name.
             // 2026-10-29: korea 36 → 37 — new lt Korėja exposes sgs (Samogitian); its Wikipedia has Kuoriejė but no stress source.
             // 2026-10-29: goosebumps 51 → 53 — new jv mrinding and hy cells expose jvn (Caribbean Javanese) and hyw (Western Armenian); no source for either.
-            // 2026-11-03: ratcheted after 65 Kansai/Hakata/Hiroshima cells copied from the national word.
-            const BUDGET = {lol: 0, turkey: 48, potato: 34, mobilephone: 43, hangover: 56, ladybird: 61, monday: 22, whale: 47, wisdomtooth: 55, cheers: 31, blessyou: 24, sunflower: 38, goosebumps: 53, octopus: 51, shootingstar: 38, jellyfish: 71, tomato: 36, pineapple: 48, adamsapple: 61, germany: 34, japan: 30, china: 28, korea: 38, india: 30, greece: 38, atsign: 30, blue: 5, cockcrow: 46, coffee: 25, computer: 8, cuckoo: 27, dopamine: 31, n99: 11, orange: 7, sugar: 11, sushi: 11, tea: 8, wifi: 26, woof: 29};
+            // 2026-11-03: ratcheted after Kansai/Hakata/Hiroshima and Jeolla/Busan cells copied from the national word.
+            const BUDGET = {lol: 0, turkey: 46, potato: 34, mobilephone: 43, hangover: 56, ladybird: 61, monday: 22, whale: 45, wisdomtooth: 55, cheers: 31, blessyou: 24, sunflower: 36, goosebumps: 53, octopus: 49, shootingstar: 36, jellyfish: 71, tomato: 34, pineapple: 46, adamsapple: 61, germany: 33, japan: 29, china: 27, korea: 37, india: 29, greece: 36, atsign: 30, blue: 5, cockcrow: 46, coffee: 25, computer: 8, cuckoo: 27, dopamine: 31, n99: 11, orange: 7, sugar: 11, sushi: 11, tea: 8, wifi: 26, woof: 29};
             const bad = [];
             for (const f of fs.readdirSync(path.join(ROOT, 'words'))) {
                 if (!f.endsWith('.js') || !/partial:\s*true/.test(read('words/' + f))) continue;

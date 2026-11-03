@@ -434,6 +434,8 @@ WORDS.pineapple = {
     ja_kyo: "pine",
     ja_hak: "pine",
     ja_hir: "pine",
+    ko_jl: "pine",
+    ko_bus: "pine",
   },
   routes: {
     nanas: {"color":"#ea580c","emoji":"🌎","en":"from Tupi naná","ja":"トゥピ語 naná から","ko":"투피어 naná에서","zh":"源自图皮语 naná","yue":"源自圖皮語 naná","vi":"từ tiếng Tupi naná","th":"จากภาษาตูปี naná","id":"dari bahasa Tupi naná","hi":"तूपी naná से","de":"aus Tupi naná","fr":"du tupi naná","it":"dal tupi naná","es":"del tupí naná","pt":"do tupi naná","ru":"из тупи naná","uk":"з тупі naná","ar":"من التوبية naná","he":"מטופי naná","sw":"kutoka Kitupi naná"},
@@ -812,5 +814,7 @@ WORDS.pineapple = {
     ja_kyo: ["パイナップル", "painapːɯɾɯ"],  // Borrowed from English pineapple; 鳳梨 hōri, from Chinese, is archaic. The national word, which Kyoto speech uses as well.
     ja_hak: ["パイナップル", "painapːɯɾɯ"],  // Borrowed from English pineapple; 鳳梨 hōri, from Chinese, is archaic. The national word, which Hakata speech uses as well.
     ja_hir: ["パイナップル", "painapːɯɾɯ"],  // Borrowed from English pineapple; 鳳梨 hōri, from Chinese, is archaic. The national word, which Hiroshima speech uses as well.
+    ko_jl: ["파인애플", "pʰainɛpʰɯl"],  // Borrowed from English pineapple. The national word, which Jeolla speech uses as well.
+    ko_bus: ["파인애플", "pʰainɛpʰɯl"],  // Borrowed from English pineapple. The national word, which Busan speech uses as well.
   },
 };

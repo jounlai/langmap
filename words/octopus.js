@@ -302,6 +302,8 @@ WORDS.octopus = {
     ja_kyo: "plain",
     ja_hak: "plain",
     ja_hir: "plain",
+    ko_jl: "unknown",
+    ko_bus: "unknown",
   },
   routes: {
     eight: {"color":"#2563eb","emoji":"8️⃣","en":"eight feet","ja":"8本の足","ko":"여덟 발","zh":"八条腿","yue":"八隻腳","vi":"tám chân","th":"แปดเท้า","id":"delapan kaki","hi":"आठ पैर","de":"acht Füße","fr":"huit pieds","it":"otto piedi","es":"ocho pies","pt":"oito pés","ru":"восемь ног","uk":"вісім ніг","ar":"ثماني أقدام","he":"שמונה רגליים","sw":"miguu minane"},
@@ -548,5 +550,7 @@ WORDS.octopus = {
     ja_kyo: ["タコ", "tako"],  // A native word of debated origin; one common theory reads ta- as 'hand, arm'. The national word, which Kyoto speech uses as well.
     ja_hak: ["タコ", "tako"],  // A native word of debated origin; one common theory reads ta- as 'hand, arm'. The national word, which Hakata speech uses as well.
     ja_hir: ["タコ", "tako"],  // A native word of debated origin; one common theory reads ta- as 'hand, arm'. The national word, which Hiroshima speech uses as well.
+    ko_jl: ["문어", "munʌ"],  // Written 文魚 'literary fish', but Wiktionary calls the origin unclear and the spelling a later transliteration, perhaps of 민- 'bare' + 魚 'fish'. The national word, which Jeolla speech uses as well.
+    ko_bus: ["문어", "munʌ"],  // Written 文魚 'literary fish', but Wiktionary calls the origin unclear and the spelling a later transliteration, perhaps of 민- 'bare' + 魚 'fish'. The national word, which Busan speech uses as well.
   },
 };

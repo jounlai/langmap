@@ -325,6 +325,8 @@ WORDS.sunflower = {
     ja_kyo: "turn",
     ja_hak: "turn",
     ja_hir: "turn",
+    ko_jl: "turn",
+    ko_bus: "turn",
   },
   routes: {
     turn: {"color":"#ea580c","emoji":"🔄","en":"turns to the sun","ja":"太陽に向く","ko":"해를 향함","zh":"朝向太阳","yue":"向住太陽","vi":"hướng về mặt trời","th":"หันตามดวงอาทิตย์","id":"menghadap matahari","hi":"सूरज की ओर मुड़ता","de":"dreht sich zur Sonne","fr":"se tourne vers le soleil","it":"si volta verso il sole","es":"se gira al sol","pt":"volta-se para o sol","ru":"поворачивается к солнцу","uk":"повертається до сонця","ar":"يتّجه نحو الشمس","he":"פונה אל השמש","sw":"hugeuka kuelekea jua"},
@@ -596,5 +598,7 @@ WORDS.sunflower = {
     ja_kyo: ["向日葵", "çimawaɾi"],  // Himawari is 日 'sun' + 回り 'turning'; the kanji are borrowed from Chinese 向日葵 'facing the sun'. The national word, which Kyoto speech uses as well.
     ja_hak: ["向日葵", "çimawaɾi"],  // Himawari is 日 'sun' + 回り 'turning'; the kanji are borrowed from Chinese 向日葵 'facing the sun'. The national word, which Hakata speech uses as well.
     ja_hir: ["向日葵", "çimawaɾi"],  // Himawari is 日 'sun' + 回り 'turning'; the kanji are borrowed from Chinese 向日葵 'facing the sun'. The national word, which Hiroshima speech uses as well.
+    ko_jl: ["해바라기", "hɛbaɾaɡi"],  // 해 'sun' + 바라- 'look toward' + -기: 'sun-gazer'. The national word, which Jeolla speech uses as well.
+    ko_bus: ["해바라기", "hɛbaɾaɡi"],  // 해 'sun' + 바라- 'look toward' + -기: 'sun-gazer'. The national word, which Busan speech uses as well.
   },
 };

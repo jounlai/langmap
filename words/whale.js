@@ -448,6 +448,8 @@ WORDS.whale = {
     ja_kyo: "plain",
     ja_hak: "plain",
     ja_hir: "plain",
+    ko_jl: "plain",
+    ko_bus: "plain",
   },
   routes: {
     fish: {"color":"#2563eb","emoji":"🐟","en":"called a fish","ja":"「魚」と呼ぶ","ko":"\"물고기\"라 부름","zh":"称作\"鱼\"","yue":"叫做「魚」","vi":"gọi là cá","th":"เรียกว่าปลา","id":"disebut ikan","hi":"मछली कहा जाता है","de":"als Fisch bezeichnet","fr":"appelée poisson","it":"chiamata pesce","es":"llamada pez","pt":"chamada peixe","ru":"называют рыбой","uk":"називають рибою","ar":"تُسمّى سمكة","he":"נקרא דג","sw":"huitwa samaki"},
@@ -841,5 +843,7 @@ WORDS.whale = {
     ja_kyo: ["鯨", "kɯʑiɾa"],  // A native word, already in the Kojiki of 712 as kudira; the kanji is written with the fish radical but the word does not contain 'fish'. The national word, which Kyoto speech uses as well.
     ja_hak: ["鯨", "kɯʑiɾa"],  // A native word, already in the Kojiki of 712 as kudira; the kanji is written with the fish radical but the word does not contain 'fish'. The national word, which Hakata speech uses as well.
     ja_hir: ["鯨", "kɯʑiɾa"],  // A native word, already in the Kojiki of 712 as kudira; the kanji is written with the fish radical but the word does not contain 'fish'. The national word, which Hiroshima speech uses as well.
+    ko_jl: ["고래", "koɾɛ"],  // A native Korean word. The national word, which Jeolla speech uses as well.
+    ko_bus: ["고래", "koɾɛ"],  // A native Korean word. The national word, which Busan speech uses as well.
   },
 };

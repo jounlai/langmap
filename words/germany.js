@@ -480,6 +480,7 @@ WORDS.germany = {
     ja_kyo: "deutsch",
     ja_hak: "deutsch",
     ja_hir: "deutsch",
+    ko_jl: "deutsch",
   },
   routes: {
     deutsch: {"color":"#0891b2","emoji":"🗣️","en":"the Germans' own word","ja":"ドイツ人の自称","ko":"독일인의 자칭","zh":"德国人的自称","yue":"德國人嘅自稱","vi":"tên tự gọi của người Đức","th":"ชื่อที่ชาวเยอรมันเรียกตัวเอง","id":"sebutan orang Jerman sendiri","hi":"जर्मनों का अपना शब्द","de":"die Selbstbezeichnung","fr":"le nom que se donnent les Allemands","it":"il nome che si danno i tedeschi","es":"el nombre que se dan los alemanes","pt":"o nome que os alemães se dão","ru":"самоназвание немцев","uk":"самоназва німців","ar":"اسم الألمان لأنفسهم","he":"השם שהגרמנים קוראים לעצמם","sw":"jina la Wajerumani wenyewe"},
@@ -900,5 +901,6 @@ WORDS.germany = {
     ja_kyo: ["ドイツ", "doitsɯ"],  // Most likely from Dutch Duits 'German', though some dictionaries derive it from German deutsch; the old kanji spelling is 独逸 (Wiktionary). The national word, which Kyoto speech uses as well.
     ja_hak: ["ドイツ", "doitsɯ"],  // Most likely from Dutch Duits 'German', though some dictionaries derive it from German deutsch; the old kanji spelling is 独逸 (Wiktionary). The national word, which Hakata speech uses as well.
     ja_hir: ["ドイツ", "doitsɯ"],  // Most likely from Dutch Duits 'German', though some dictionaries derive it from German deutsch; the old kanji spelling is 独逸 (Wiktionary). The national word, which Hiroshima speech uses as well.
+    ko_jl: ["독일", "toɡil"],  // The Korean reading of 獨逸, the Japanese kanji spelling of Doitsu, from Dutch Duits 'German' (Wiktionary). The national word, which Jeolla speech uses as well.
   },
 };

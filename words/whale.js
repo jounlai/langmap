@@ -444,6 +444,10 @@ WORDS.whale = {
     osp: "plain",
     zh_wenyan_edu: "plain",
     vi_han: "plain",
+    ja_osa: "plain",
+    ja_kyo: "plain",
+    ja_hak: "plain",
+    ja_hir: "plain",
   },
   routes: {
     fish: {"color":"#2563eb","emoji":"🐟","en":"called a fish","ja":"「魚」と呼ぶ","ko":"\"물고기\"라 부름","zh":"称作\"鱼\"","yue":"叫做「魚」","vi":"gọi là cá","th":"เรียกว่าปลา","id":"disebut ikan","hi":"मछली कहा जाता है","de":"als Fisch bezeichnet","fr":"appelée poisson","it":"chiamata pesce","es":"llamada pez","pt":"chamada peixe","ru":"называют рыбой","uk":"називають рибою","ar":"تُسمّى سمكة","he":"נקרא דג","sw":"huitwa samaki"},
@@ -833,5 +837,9 @@ WORDS.whale = {
     osp: ["ballena", "baˈʎena"],  // From Latin ballaena, from Greek φάλλαινα.
     zh_wenyan_edu: ["鯨", "kʰɪŋ˨˩"],  // A word of its own that also meant 'great, huge', in the Cantonese literary reading.
     vi_han: ["鯨", "kiɲ˨˩"],  // Read kình in Sino-Vietnamese, as in cá kình.
+    ja_osa: ["鯨", "kɯʑiɾa"],  // A native word, already in the Kojiki of 712 as kudira; the kanji is written with the fish radical but the word does not contain 'fish'. The national word, which Osaka speech uses as well.
+    ja_kyo: ["鯨", "kɯʑiɾa"],  // A native word, already in the Kojiki of 712 as kudira; the kanji is written with the fish radical but the word does not contain 'fish'. The national word, which Kyoto speech uses as well.
+    ja_hak: ["鯨", "kɯʑiɾa"],  // A native word, already in the Kojiki of 712 as kudira; the kanji is written with the fish radical but the word does not contain 'fish'. The national word, which Hakata speech uses as well.
+    ja_hir: ["鯨", "kɯʑiɾa"],  // A native word, already in the Kojiki of 712 as kudira; the kanji is written with the fish radical but the word does not contain 'fish'. The national word, which Hiroshima speech uses as well.
   },
 };

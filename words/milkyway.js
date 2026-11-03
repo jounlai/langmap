@@ -298,6 +298,10 @@ WORDS.milkyway = {
     cjy_xz: "river",
     cjy_lv: "river",
     nan_zz: "river",
+    ja_osa: "river",
+    ja_kyo: "river",
+    ja_hak: "river",
+    ja_hir: "river",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -539,5 +543,9 @@ WORDS.milkyway = {
     cjy_xz: ["天河", "tʰiɛ̃˧˩˧ xɛ˧˩"],  // 'The heavenly river'; reading from MCPDict 忻州.
     cjy_lv: ["天河", "tʰiɪ˨˦ xɔ˦˦"],  // 'The heavenly river'; reading from MCPDict 離石.
     nan_zz: ["河溪", "ho˩˧ kʰe˦˦"],  // 'River-stream', as in Taiwanese 河溪; Zhangzhou also says 銀溪 and 天河. Reading from MCPDict 漳州.
+    ja_osa: ["天の川", "amanoɡawa"],  // Literally 'river of heaven'; in the Tanabata legend Orihime and Hikoboshi meet across it on the 7th day of the 7th month. The national word, which Osaka speech uses as well.
+    ja_kyo: ["天の川", "amanoɡawa"],  // Literally 'river of heaven'; in the Tanabata legend Orihime and Hikoboshi meet across it on the 7th day of the 7th month. The national word, which Kyoto speech uses as well.
+    ja_hak: ["天の川", "amanoɡawa"],  // Literally 'river of heaven'; in the Tanabata legend Orihime and Hikoboshi meet across it on the 7th day of the 7th month. The national word, which Hakata speech uses as well.
+    ja_hir: ["天の川", "amanoɡawa"],  // Literally 'river of heaven'; in the Tanabata legend Orihime and Hikoboshi meet across it on the 7th day of the 7th month. The national word, which Hiroshima speech uses as well.
   },
 };

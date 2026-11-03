@@ -449,6 +449,9 @@ WORDS.japan = {
     gan_yc: "nihon",
     hsn_hy: "nihon",
     gan_ja: "nihon",
+    ja_osa: "nihon",
+    ja_hak: "nihon",
+    ja_hir: "nihon",
   },
   routes: {
     nihon: {"color":"#dc2626","emoji":"☀️","en":"reads 日本 itself","ja":"漢字 日本 を自分で読む","ko":"한자 日本을 직접 읽음","zh":"自己读汉字\"日本\"","yue":"自己讀漢字「日本」","vi":"tự đọc chữ 日本","th":"อ่านอักษร 日本 เอง","id":"membaca aksara 日本 sendiri","hi":"日本 को ख़ुद पढ़ना","de":"liest 日本 selbst","fr":"lit 日本 lui-même","it":"legge 日本 da sé","es":"lee 日本 por sí mismo","pt":"lê 日本 por si","ru":"своё чтение 日本","uk":"власне читання 日本","ar":"يقرأ 日本 بنفسه","he":"קורא את 日本 בעצמו","sw":"husoma 日本 yenyewe"},
@@ -840,5 +843,8 @@ WORDS.japan = {
     gan_yc: ["日本", "ȵiʔ˦ pin˨˩"],  // Reading from MCPDict 宜春.
     hsn_hy: ["日本", "ɕi˩˩˨ pin˧˧"],  // Reading from MCPDict 衡陽.
     gan_ja: ["日本", "lɛ˧˧˦ pən˥˧"],  // Reading from MCPDict 吉安.
+    ja_osa: ["日本", "nihoɴ"],  // Literally 'sun origin'; Nihon is the everyday reading and Nippon the more formal one (Wiktionary). The national word, which Osaka speech uses as well.
+    ja_hak: ["日本", "nihoɴ"],  // Literally 'sun origin'; Nihon is the everyday reading and Nippon the more formal one (Wiktionary). The national word, which Hakata speech uses as well.
+    ja_hir: ["日本", "nihoɴ"],  // Literally 'sun origin'; Nihon is the everyday reading and Nippon the more formal one (Wiktionary). The national word, which Hiroshima speech uses as well.
   },
 };

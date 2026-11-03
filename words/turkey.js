@@ -407,6 +407,10 @@ WORDS.turkey = {
     krl: "unknown",
     rar: "local",
     an: "local",
+    ja_osa: "local",
+    ja_kyo: "local",
+    ja_hak: "local",
+    ja_hir: "local",
   },
   routes: {
     india: {"color":"#ea580c","emoji":"🐘","en":"named for India · the Indies","ja":"インドの名で","ko":"인도의 이름으로","zh":"以印度为名","yue":"以印度為名","vi":"theo tên Ấn Độ","th":"ตั้งตามอินเดีย","id":"dinamai India","hi":"भारत के नाम पर","de":"nach Indien benannt","fr":"nommé d'après l'Inde","it":"dal nome dell'India","es":"por la India","pt":"pelo nome da Índia","ru":"по Индии","uk":"за Індією","ar":"باسم الهند","he":"על שם הודו","sw":"kwa jina la India"},
@@ -755,5 +759,9 @@ WORDS.turkey = {
     krl: ["guru", "ˈɡuru"],  // The VepKar dictionary of the Karelian Research Centre glosses Karelian Proper guru as Russian индейка, the turkey.
     rar: ["pīpī kororō", "piːpiː koɾoɾoː"],  // Literally a 'croaking goose': pīpī 'goose' plus kororō 'to make a rumbling, throaty noise' (Buse & Taringa's Rarotongan dictionary).
     an: ["pavo", "ˈpaβo"],  // From Latin pāvō 'peacock', as in Spanish pavo; the Aragonese Wikipedia also lists pavostre and tito. Route by resemblance to the neighbouring forms (es(pavo), gl(pavo)).
+    ja_osa: ["七面鳥", "ɕitɕimeɲtɕoː"],  // Literally "seven-faced bird", after the bare neck skin that changes colour. The national word, which Osaka speech uses as well.
+    ja_kyo: ["七面鳥", "ɕitɕimeɲtɕoː"],  // Literally "seven-faced bird", after the bare neck skin that changes colour. The national word, which Kyoto speech uses as well.
+    ja_hak: ["七面鳥", "ɕitɕimeɲtɕoː"],  // Literally "seven-faced bird", after the bare neck skin that changes colour. The national word, which Hakata speech uses as well.
+    ja_hir: ["七面鳥", "ɕitɕimeɲtɕoː"],  // Literally "seven-faced bird", after the bare neck skin that changes colour. The national word, which Hiroshima speech uses as well.
   },
 };

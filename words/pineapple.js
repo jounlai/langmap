@@ -430,6 +430,10 @@ WORDS.pineapple = {
     yap: "unknown",
     mch: "unknown",
     mrq: "unknown",
+    ja_osa: "pine",
+    ja_kyo: "pine",
+    ja_hak: "pine",
+    ja_hir: "pine",
   },
   routes: {
     nanas: {"color":"#ea580c","emoji":"🌎","en":"from Tupi naná","ja":"トゥピ語 naná から","ko":"투피어 naná에서","zh":"源自图皮语 naná","yue":"源自圖皮語 naná","vi":"từ tiếng Tupi naná","th":"จากภาษาตูปี naná","id":"dari bahasa Tupi naná","hi":"तूपी naná से","de":"aus Tupi naná","fr":"du tupi naná","it":"dal tupi naná","es":"del tupí naná","pt":"do tupi naná","ru":"из тупи naná","uk":"з тупі naná","ar":"من التوبية naná","he":"מטופי naná","sw":"kutoka Kitupi naná"},
@@ -804,5 +808,9 @@ WORDS.pineapple = {
     yap: ["giyoor", "ɡijoːr"],  // Jensen's Yapese dictionary glosses giyoor as pineapple and lists ngoongoor and giigiyoor as dialect forms.
     mch: ["anadeke", "anaːɾ̠eke"],  // Ye'kwana anadeke, possessed form anadekei; Wiktionary compares Carib anareko 'pineapple'.
     mrq: ["haahoʻa", "haahoʔa"],  // The Académie marquisienne lexicon gives haahoà (haahoʻa) for the north and faahoka for the south.
+    ja_osa: ["パイナップル", "painapːɯɾɯ"],  // Borrowed from English pineapple; 鳳梨 hōri, from Chinese, is archaic. The national word, which Osaka speech uses as well.
+    ja_kyo: ["パイナップル", "painapːɯɾɯ"],  // Borrowed from English pineapple; 鳳梨 hōri, from Chinese, is archaic. The national word, which Kyoto speech uses as well.
+    ja_hak: ["パイナップル", "painapːɯɾɯ"],  // Borrowed from English pineapple; 鳳梨 hōri, from Chinese, is archaic. The national word, which Hakata speech uses as well.
+    ja_hir: ["パイナップル", "painapːɯɾɯ"],  // Borrowed from English pineapple; 鳳梨 hōri, from Chinese, is archaic. The national word, which Hiroshima speech uses as well.
   },
 };

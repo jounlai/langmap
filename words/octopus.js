@@ -298,6 +298,10 @@ WORDS.octopus = {
     ja_edo: "plain",
     zh_tang: "unknown",
     yue_dg: "eight",
+    ja_osa: "plain",
+    ja_kyo: "plain",
+    ja_hak: "plain",
+    ja_hir: "plain",
   },
   routes: {
     eight: {"color":"#2563eb","emoji":"8️⃣","en":"eight feet","ja":"8本の足","ko":"여덟 발","zh":"八条腿","yue":"八隻腳","vi":"tám chân","th":"แปดเท้า","id":"delapan kaki","hi":"आठ पैर","de":"acht Füße","fr":"huit pieds","it":"otto piedi","es":"ocho pies","pt":"oito pés","ru":"восемь ног","uk":"вісім ніг","ar":"ثماني أقدام","he":"שמונה רגליים","sw":"miguu minane"},
@@ -540,5 +544,9 @@ WORDS.octopus = {
     ja_edo: ["蛸", "tako"],  // たこ, a native word of debated origin.
     zh_tang: ["章舉", "tɕɨaŋ kɨə"],  // Han Yu lists 章舉 among the strange sea foods of Chaozhou (819); an old commentary explains 'the 章舉 has eight legs … also called 章魚'. No source explains the name itself.
     yue_dg: ["八爪鱼", "pɛ˧˦ tʃau˧˥ jy˧˩"],  // 'Eight-claw fish', as in Cantonese; Wiktionary's dialect table also gives 章魚 for Dongguan. Reading from MCPDict 東莞.
+    ja_osa: ["タコ", "tako"],  // A native word of debated origin; one common theory reads ta- as 'hand, arm'. The national word, which Osaka speech uses as well.
+    ja_kyo: ["タコ", "tako"],  // A native word of debated origin; one common theory reads ta- as 'hand, arm'. The national word, which Kyoto speech uses as well.
+    ja_hak: ["タコ", "tako"],  // A native word of debated origin; one common theory reads ta- as 'hand, arm'. The national word, which Hakata speech uses as well.
+    ja_hir: ["タコ", "tako"],  // A native word of debated origin; one common theory reads ta- as 'hand, arm'. The national word, which Hiroshima speech uses as well.
   },
 };

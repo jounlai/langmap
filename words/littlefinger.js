@@ -453,6 +453,10 @@ WORDS.littlefinger = {
     nan_hai: "small",
     hsn_hy: "child",
     nan_zz: "other",
+    ja_osa: "small",
+    ja_kyo: "small",
+    ja_hak: "small",
+    ja_hir: "small",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -851,5 +855,9 @@ WORDS.littlefinger = {
     nan_hai: ["细手囝", "tɔi˧˥ siu˨˩˧ kia˨˩˧"],  // 'Small hand-child', with the colloquial 細 'small'; from Wiktionary's dialect table, reading from MCPDict 海口.
     hsn_hy: ["满手脑", "man˧˧ ɕiu˧˧ nau˧˧"],  // 满 here stands for the local word for 'youngest' (as in 满崽 'youngest son'): the youngest finger. From Wiktionary's dialect table, reading from MCPDict 衡陽.
     nan_zz: ["尾指仔", "bue˥˧ ki˥˧ a˥˧"],  // 'Tail finger' with the diminutive 仔, as in Hokkien 尾指; colloquial 指 ki. Reading from MCPDict 漳州.
+    ja_osa: ["小指", "kojɯbi"],  // Literally 'small finger'. The national word, which Osaka speech uses as well.
+    ja_kyo: ["小指", "kojɯbi"],  // Literally 'small finger'. The national word, which Kyoto speech uses as well.
+    ja_hak: ["小指", "kojɯbi"],  // Literally 'small finger'. The national word, which Hakata speech uses as well.
+    ja_hir: ["小指", "kojɯbi"],  // Literally 'small finger'. The national word, which Hiroshima speech uses as well.
   },
 };

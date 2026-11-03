@@ -509,6 +509,10 @@ WORDS.greece = {
     gez: "ionia",
     ar_qur: "ionia",
     zh_hf: "hellas",
+    ja_osa: "graecia",
+    ja_kyo: "graecia",
+    ja_hak: "graecia",
+    ja_hir: "graecia",
   },
   routes: {
     graecia: {"color":"#2563eb","emoji":"🏛️","en":"from Latin Graecia (Greece, Grèce, Греция)","ja":"ラテン語 Graecia から（Greece, Grèce, Греция）","ko":"라틴어 Graecia에서 (Greece, Grèce, Греция)","zh":"源自拉丁语 Graecia（Greece、Grèce、Греция）","yue":"源自拉丁文 Graecia（Greece、Grèce、Греция）","vi":"từ tiếng Latin Graecia (Greece, Grèce, Греция)","th":"จากละติน Graecia (Greece, Grèce, Греция)","id":"dari Latin Graecia (Greece, Grèce, Греция)","hi":"लैटिन Graecia से (Greece, Grèce, Греция)","de":"aus lateinisch Graecia (Greece, Grèce, Греция)","fr":"du latin Graecia (Greece, Grèce, Греция)","it":"dal latino Graecia (Greece, Grèce, Греция)","es":"del latín Graecia (Greece, Grèce, Греция)","pt":"do latim Graecia (Greece, Grèce, Греция)","ru":"от латинского Graecia (Greece, Grèce, Греция)","uk":"від латинського Graecia (Greece, Grèce, Греция)","ar":"من اللاتينية Graecia (Greece, Grèce, Греция)","he":"מהלטינית Graecia (Greece, Grèce, Греция)","sw":"kutoka Kilatini Graecia (Greece, Grèce, Греция)"},
@@ -958,5 +962,9 @@ WORDS.greece = {
     gez: ["ዮናን", "joːnaːn"],  // Borrowed from Greek Ἰωνία, Ionia.
     ar_qur: ["اليونان", "aljuːnaːn"],  // Through Classical Persian یونان Yūnān, ultimately Greek Ἰωνία Ionia.
     zh_hf: ["希腊", "sɿ˨˩˨ lɐʔ˦"],  // Reading from MCPDict 合肥.
+    ja_osa: ["ギリシャ", "ɡiɾiɕa"],  // From Portuguese Grécia (Wiktionary, citing Kokugo Dai Jiten, Kōjien, Daijirin); also written ギリシア and 希臘. The national word, which Osaka speech uses as well.
+    ja_kyo: ["ギリシャ", "ɡiɾiɕa"],  // From Portuguese Grécia (Wiktionary, citing Kokugo Dai Jiten, Kōjien, Daijirin); also written ギリシア and 希臘. The national word, which Kyoto speech uses as well.
+    ja_hak: ["ギリシャ", "ɡiɾiɕa"],  // From Portuguese Grécia (Wiktionary, citing Kokugo Dai Jiten, Kōjien, Daijirin); also written ギリシア and 希臘. The national word, which Hakata speech uses as well.
+    ja_hir: ["ギリシャ", "ɡiɾiɕa"],  // From Portuguese Grécia (Wiktionary, citing Kokugo Dai Jiten, Kōjien, Daijirin); also written ギリシア and 希臘. The national word, which Hiroshima speech uses as well.
   },
 };

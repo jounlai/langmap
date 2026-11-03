@@ -308,6 +308,10 @@ WORDS.shootingstar = {
     yue_dg: "moving",
     cjy_lv: "moving",
     zh_hf: "moving",
+    ja_osa: "moving",
+    ja_kyo: "moving",
+    ja_hak: "moving",
+    ja_hir: "moving",
   },
   routes: {
     falling: {"color":"#2563eb","emoji":"⬇️","en":"a falling star","ja":"落ちる星","ko":"떨어지는 별","zh":"落下的星","yue":"跌落嘅星","vi":"sao rơi","th":"ดาวที่ตก","id":"bintang jatuh","hi":"गिरता तारा","de":"fallender Stern","fr":"étoile qui tombe","it":"stella che cade","es":"estrella que cae","pt":"estrela que cai","ru":"падающая звезда","uk":"зірка, що падає","ar":"نجم يسقط","he":"כוכב שנופל","sw":"nyota inayoanguka"},
@@ -561,5 +565,9 @@ WORDS.shootingstar = {
     yue_dg: ["流星", "lau˧˩ ʃəŋ˨˧"],  // 'Flowing star'; reading from MCPDict 東莞.
     cjy_lv: ["走星", "tsʌu˧˩˨ sɿ˨˦"],  // 'Running star', with the colloquial reading of 星; from Wiktionary's dialect table, reading from MCPDict 離石.
     zh_hf: ["流星", "ȵiɤɯ˦˥ ɕiən˨˩˨"],  // 'Flowing star'; Hefei also says 贼星 'thief star'. Reading from MCPDict 合肥.
+    ja_osa: ["流れ星", "naɡaɾeboɕi"],  // Literally 'flowing star', attested since 1137. The national word, which Osaka speech uses as well.
+    ja_kyo: ["流れ星", "naɡaɾeboɕi"],  // Literally 'flowing star', attested since 1137. The national word, which Kyoto speech uses as well.
+    ja_hak: ["流れ星", "naɡaɾeboɕi"],  // Literally 'flowing star', attested since 1137. The national word, which Hakata speech uses as well.
+    ja_hir: ["流れ星", "naɡaɾeboɕi"],  // Literally 'flowing star', attested since 1137. The national word, which Hiroshima speech uses as well.
   },
 };

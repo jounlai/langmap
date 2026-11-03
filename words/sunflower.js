@@ -321,6 +321,10 @@ WORDS.sunflower = {
     cnh: "sun",
     gag: "turn",
     ty: "sun",
+    ja_osa: "turn",
+    ja_kyo: "turn",
+    ja_hak: "turn",
+    ja_hir: "turn",
   },
   routes: {
     turn: {"color":"#ea580c","emoji":"🔄","en":"turns to the sun","ja":"太陽に向く","ko":"해를 향함","zh":"朝向太阳","yue":"向住太陽","vi":"hướng về mặt trời","th":"หันตามดวงอาทิตย์","id":"menghadap matahari","hi":"सूरज की ओर मुड़ता","de":"dreht sich zur Sonne","fr":"se tourne vers le soleil","it":"si volta verso il sole","es":"se gira al sol","pt":"volta-se para o sol","ru":"поворачивается к солнцу","uk":"повертається до сонця","ar":"يتّجه نحو الشمس","he":"פונה אל השמש","sw":"hugeuka kuelekea jua"},
@@ -588,5 +592,9 @@ WORDS.sunflower = {
     cnh: ["ni pangpar", "ni paŋpar"],  // Literally 'sun flower': ni 'sun' + pangpar 'flower'.
     gag: ["gündöndü", "ˈɟyndøndy"],  // Gün 'sun' + döndü 'turned', the same name as Turkish dialect gündöndü 'the one that turns to the sun'; semiçka, from Russian, covers both the plant and its seeds.
     ty: ["puamahana", "puamahana"],  // Pua 'to bloom (of a flower)' + mahana 'sun'; Lemaître also glosses it simply 'soleil'.
+    ja_osa: ["向日葵", "çimawaɾi"],  // Himawari is 日 'sun' + 回り 'turning'; the kanji are borrowed from Chinese 向日葵 'facing the sun'. The national word, which Osaka speech uses as well.
+    ja_kyo: ["向日葵", "çimawaɾi"],  // Himawari is 日 'sun' + 回り 'turning'; the kanji are borrowed from Chinese 向日葵 'facing the sun'. The national word, which Kyoto speech uses as well.
+    ja_hak: ["向日葵", "çimawaɾi"],  // Himawari is 日 'sun' + 回り 'turning'; the kanji are borrowed from Chinese 向日葵 'facing the sun'. The national word, which Hakata speech uses as well.
+    ja_hir: ["向日葵", "çimawaɾi"],  // Himawari is 日 'sun' + 回り 'turning'; the kanji are borrowed from Chinese 向日葵 'facing the sun'. The national word, which Hiroshima speech uses as well.
   },
 };

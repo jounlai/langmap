@@ -610,6 +610,8 @@ WORDS.bat = {
     ar_qur: "other",
     ota: "plain",
     osp: "mouse",
+    nci: "plain",
+    syc: "unknown",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1165,5 +1167,7 @@ WORDS.bat = {
     ar_qur: ["خفاش", "xuffaːʃ"],  // From the verb خَفِشَ 'to be day-blind', after the bat's supposed poor sight by day.
     ota: ["یراسه", "jaɾaˈsa"],  // Inherited from Proto-Turkic *yarïsgu 'bat', the same word as Turkish yarasa.
     osp: ["murciego", "muɾˈθjeɣo"],  // From Vulgar Latin mūrem caecum 'blind mouse'; attested about 1250, later murciélago.
+    nci: ["tzinacan", "tsinaːkan"],  // Inherited from Proto-Nahuan *ȼinaakan 'bat'. No image is recorded for it, so it counts as a word of its own.
+    syc: ["ܦܪܚܕܘܕܐ", "praħduːðaː"],  // Either from the root p-r-ḥ 'to fly' or from Arabic خُفْدُود; the sources do not settle which.
   },
 };

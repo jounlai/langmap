@@ -300,6 +300,7 @@ WORDS.shootingstar = {
     ja_edo: "moving",
     sa: "other",
     ar_qur: "other",
+    pi: "other",
   },
   routes: {
     falling: {"color":"#2563eb","emoji":"⬇️","en":"a falling star","ja":"落ちる星","ko":"떨어지는 별","zh":"落下的星","yue":"跌落嘅星","vi":"sao rơi","th":"ดาวที่ตก","id":"bintang jatuh","hi":"गिरता तारा","de":"fallender Stern","fr":"étoile qui tombe","it":"stella che cade","es":"estrella que cae","pt":"estrela que cai","ru":"падающая звезда","uk":"зірка, що падає","ar":"نجم يسقط","he":"כוכב שנופל","sw":"nyota inayoanguka"},
@@ -545,5 +546,6 @@ WORDS.shootingstar = {
     ja_edo: ["流れ星", "naɡareboɕi"],  // 'Flowing star'.
     sa: ["उल्का", "ulkaː"],  // Also 'firebrand, torch': the meteor is a fiery brand in the sky.
     ar_qur: ["شهاب", "ʃihaːb"],  // A blazing firebrand: in the Quran (37:10, 72:9) it is the flame that chases away eavesdropping devils.
+    pi: ["उक्का", "ukkaː"],  // Also 'torch': the same word as Sanskrit उल्का, a fiery brand in the sky.
   },
 };

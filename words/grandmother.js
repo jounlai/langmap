@@ -610,6 +610,8 @@ WORDS.grandmother = {
     nys: "unknown",
     zh_tang: "split",
     ar_qur: "one",
+    got: "unknown",
+    ofs: "one",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -1164,5 +1166,7 @@ WORDS.grandmother = {
     nys: ["kabarli", "kabaɻli"],  // The Noongar word for a grandmother (moyron is the grandfather); Bowern's wordlist gives dhem for the mother's mother, so whether the two sides differ is not settled.
     zh_tang: ["祖母", "tsɔ məw"],  // The father's mother; the mother's mother is 外祖母, with 外 'outside'.
     ar_qur: ["جدة", "dʒadda"],  // The feminine of jadd 'grandfather'; one word for either grandmother.
+    got: ["𐌰𐍅𐍉", "ˈawoː"],  // Found once, for Timothy's grandmother Lois (2 Timothy 1:5); with one attestation it cannot show whether Gothic had a second word for the other side. Cognate with Latin avia.
+    ofs: ["aldemōder", "ˈaldemoːder"],  // Literally 'old mother', like Old English ealdmōdor; one word for either grandmother.
   },
 };

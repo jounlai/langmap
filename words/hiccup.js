@@ -250,6 +250,8 @@ WORDS.hiccup = {
     ang: "plain",
     non: "plain",
     zh_tang: "plain",
+    pi: "imitative",
+    nci: "plain",
   },
   routes: {
     imitative: {"color":"#ea580c","emoji":"🔊","en":"imitating the sound","ja":"音のまね","ko":"소리 흉내","zh":"模仿声音","yue":"模仿聲音","vi":"mô phỏng âm thanh","th":"เลียนเสียง","id":"tiruan bunyi","hi":"ध्वनि की नक़ल","de":"lautmalend","fr":"imitant le bruit","it":"onomatopeico","es":"imita el sonido","pt":"imita o som","ru":"звукоподражание","uk":"звуконаслідування","ar":"محاكاة الصوت","he":"חיקוי הקול","sw":"kuiga sauti"},
@@ -446,5 +448,7 @@ WORDS.hiccup = {
     ang: ["ġeocsa", "ˈjeoksɑ"],  // Both 'sobbing' and 'hiccup'; Middle English yexen 'to hiccup' continues the verb.
     non: ["hixti", "ˈhixti"],  // Both 'hiccough' and 'sobbing', with the verb hixta.
     zh_tang: ["噦", "ʔuat"],  // The Book of Rites already forbids it in front of one's parents (不敢噦噫); the same character also means 'to retch'. No image is recorded for it, so it counts as a word of its own.
+    pi: ["हिक्का", "hikkaː"],  // The same word as Sanskrit हिक्का, whose root is called onomatopoeic.
+    nci: ["tziucnoliztli", "tsiuknolistɬi"],  // The noun of tziucnoa 'to hiccup'. No image is recorded for it, so it counts as a word of its own.
   },
 };

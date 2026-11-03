@@ -426,6 +426,9 @@ WORDS.littlefinger = {
     zh_tang: "small",
     la: "other",
     ar_qur: "plain",
+    hy_grab: "small",
+    syc: "small",
+    nci: "child",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -797,5 +800,8 @@ WORDS.littlefinger = {
     zh_tang: ["小指", "siaw tɕi"],  // 'Small finger'; it also means the little toe.
     la: ["auriculāris", "aurikuˈlaːris"],  // Short for digitus auriculāris, the 'ear finger', the one small enough to clean the ear.
     ar_qur: ["خنصر", "xinsˤir"],  // A word of its own, unchanged in modern Arabic.
+    hy_grab: ["ճկոյթ", "tʃkojtʰ"],  // Borrowed from a Zan (Kartvelian) word; compare Laz ts'ulu k'iti, literally 'small finger'.
+    syc: ["ܚܨܪܐ", "ħesˤraː"],  // From a root meaning 'to narrow'; it also means the little toe, and figuratively 'a small part'.
+    nci: ["mahpilxōcoyōtl", "maʔpilʃoːkojoːtɬ"],  // Mahpilli 'finger' + xōcoyōtl 'youngest child': the youngest finger.
   },
 };

@@ -254,6 +254,8 @@ WORDS.dragonfly = {
     ja_chu: "plain",
     ja_edo: "plain",
     hy_grab: "plain",
+    ar_qur: "plain",
+    ota: "other",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -453,5 +455,7 @@ WORDS.dragonfly = {
     ja_chu: ["蜻蛉", "tombɔː"],  // とんばう, between earlier tōbau and Edo-period tonbo.
     ja_edo: ["蜻蛉", "tombo"],  // とんぼ, written with the Chinese characters 蜻蛉.
     hy_grab: ["ճպուռն", "tʃpuɾn"],  // No image is recorded for it, so it counts as a word of its own.
+    ar_qur: ["يعسوب", "jaʕsuːb"],  // The same word also meant 'queen bee' and 'chief, leader'.
+    ota: ["یوسفجك", "jusufˈdʒuk"],  // Yusuf 'Joseph' + the diminutive -cuk, 'little Joseph'; modern yusufçuk.
   },
 };

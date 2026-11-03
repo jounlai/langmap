@@ -551,6 +551,7 @@ WORDS.cuckoo = {
     sel: ["щяӄая", "ɕaqaja"],
     kio: ["dɔ̀álkù:", "dɔ̀álkùː"],
     mvf: ["gugu xuu", "ɡuɡu ɕuu"],
-    yrk: ["хутий", "xutʲij"]
+    yrk: ["хутий", "xutʲij"],
+    ar_qur: ["وقواق", "waqwaːq"],  // The same word as modern Arabic وَقْوَاق.
   },
 };

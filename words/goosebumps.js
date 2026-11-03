@@ -264,7 +264,7 @@ WORDS.goosebumps = {
     pl: ["gęsia skórka", "ɡɛw̃ɕa skurka"],  // Literally "little goose skin".
     my: ["ကြက်သီးထ", "tɕɛʔθéɪɴtʰa̰"],  // Literally "chicken-fruits rise"; Burmese says it with a verb.
     ro: ["piele de găină", "pjele de ɡəinə"],  // Literally "hen skin".
-    km: ["ព្រឺ", "prɨː"],  // A word of its own, a verb meaning "to get goosebumps".
+    km: ["ព្រឺ", "prɨː"],  // A word of its own, a verb meaning "to get goosebumps". Speakers often add what bristles: ព្រឺរោម (body hair), ព្រឺស្បែក (skin), ព្រឺក្បាល (head) or ព្រឺសក់ (head hair).
     el: ["ανατριχίλα", "anatɾiˈçila"],  // From Hellenistic ἀνάτριχος "with the hair standing up" (τρίχα "hair"); it also means a shiver.
     hu: ["libabőr", "ˈlibɒbøːr"],  // Literally "goose skin", a calque of German Gänsehaut.
     sv: ["gåshud", "ˈɡoːshʉːd"],  // Literally "goose skin", attested since 1828; colloquially also ståpäls "standing fur".

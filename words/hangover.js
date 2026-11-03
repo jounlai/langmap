@@ -187,5 +187,6 @@ WORDS.hangover = {
     tt: ["махмыр", "mɑχˈmɯr"],  // From Arabic-Persian maḫmūr 'intoxicated', the same source as Turkish mahmurluk; scholars cite it as a possible source of Russian dialect бахмур.
     mn: ["шартах", "ʃartʰax"],  // The verb 'to be hungover', given in the -х form like this row's other verbs: the dictionary explains it as the stomach's bile (шар) being stirred up by drinking too much; шарталт is the noun, the Mongolian title of the film The Hangover.
     bs: ["mahmurluk", "maxˈmurluk"],  // Borrowed from Ottoman Turkish mahmurluk 'hangover'; Croatian and Serbian have the h-less mamurluk.
+    km: ["ធីងធោងឈឺក្បាល", "tʰiːŋ tʰoːŋ cʰɨː kɓaːl"],  // Literally 'dizzy + headache' (ធីងធោង + ឈឺក្បាល).
   },
 };

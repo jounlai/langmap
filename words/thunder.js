@@ -716,6 +716,10 @@ WORDS.thunder = {
     vi_han: "plain",
     ko_kp: "other",
     nan_hai: "god",
+    blr: "plain",
+    mlm: "unknown",
+    mra: "plain",
+    yiz: "sky",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1378,5 +1382,9 @@ WORDS.thunder = {
     vi_han: ["雷", "loj˧˧"],  // Read lôi in Sino-Vietnamese; the everyday Vietnamese word is sấm.
     ko_kp: ["우뢰", "urwe"],  // North Korea's standard form of 우레, respelled after the folk etymology 雨雷 'rain-thunder'; the word goes back to Middle Korean ·울에, from a verb 'to roar'.
     nan_hai: ["雷公", "lui˧˩ kaŋ˨˧"],  // 'Lord Thunder', as in Hokkien 雷公, with the colloquial reading of 公; reading from MCPDict 海口.
+    blr: ["nɨm51", "nɨm˥˩"],  // No image is recorded for it, so it counts as a word of its own. From the IDS Bulang list.
+    mlm: ["la:k8 pɣa3", "laːk˩˩ pɣa˥˧"],  // From the IDS Mulam list; la:k8 also begins this row's star and daughter.
+    mra: ["kɨr", "kɨr"],  // No image is recorded for it, so it counts as a word of its own. From the IDS Mlabri list.
+    yiz: ["muʂa", "mu˨˩ʂa˨˨"],  // mu21 'sky' + ʂa22 (tense vowel in the source); the sky word is mu21 in the same survey.
   },
 };

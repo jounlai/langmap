@@ -483,6 +483,7 @@ WORDS.germany = {
     ko_jl: "deutsch",
     ja_kg: "deutsch",
     ko_hg: "deutsch",
+    vi_nom: "deutsch",
   },
   routes: {
     deutsch: {"color":"#0891b2","emoji":"🗣️","en":"the Germans' own word","ja":"ドイツ人の自称","ko":"독일인의 자칭","zh":"德国人的自称","yue":"德國人嘅自稱","vi":"tên tự gọi của người Đức","th":"ชื่อที่ชาวเยอรมันเรียกตัวเอง","id":"sebutan orang Jerman sendiri","hi":"जर्मनों का अपना शब्द","de":"die Selbstbezeichnung","fr":"le nom que se donnent les Allemands","it":"il nome che si danno i tedeschi","es":"el nombre que se dan los alemanes","pt":"o nome que os alemães se dão","ru":"самоназвание немцев","uk":"самоназва німців","ar":"اسم الألمان لأنفسهم","he":"השם שהגרמנים קוראים לעצמם","sw":"jina la Wajerumani wenyewe"},
@@ -906,5 +907,6 @@ WORDS.germany = {
     ko_jl: ["독일", "toɡil"],  // The Korean reading of 獨逸, the Japanese kanji spelling of Doitsu, from Dutch Duits 'German' (Wiktionary). The national word, which Jeolla speech uses as well.
     ja_kg: ["ドイツ", "doitsɯ"],  // The standard Japanese word, used in Kagoshima as everywhere in Japan.
     ko_hg: ["도이췰란드", "toitɕʰwillandɯ"],  // The North Korean name, from German Deutschland (South Korea says 독일).
+    vi_nom: ["德", "ɗɨk˧˥"],  // Đức is the Sino-Vietnamese reading of 德, written with the Chinese character.
   },
 };

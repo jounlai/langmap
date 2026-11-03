@@ -948,5 +948,6 @@ WORDS.poop = {
     bin: ["isan", "isã"],
     kqn: ["tuvwi", "tuvwi"],
     zag: ["hire", "hɪɾɛ"],  // The neutral word for excrement is tîye.
+    yiz: ["ɬi", "ɬi˨˩"],  // From Yang's Yi survey (excrement); Lama's Nisoic list also has ɬi21.
   },
 };

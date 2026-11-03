@@ -601,6 +601,13 @@ WORDS.thumb = {
     cnp: "plain",
     wuu_jh: "big",
     dta: "plain",
+    blr: "unknown",
+    kmc: "unknown",
+    mlm: "unknown",
+    mmd: "mother",
+    swi: "mother",
+    mra: "plain",
+    lic: "mother",
   },
   routes: {
     mother: {"color":"#db2777","emoji":"👪","en":"mother · parent · elder kin","ja":"母・親・年長の身内","ko":"어머니 · 어버이 · 웃어른","zh":"母亲・父母・长辈","yue":"阿媽 · 父母 · 長輩","vi":"mẹ · cha mẹ · bậc trên","th":"แม่ · พ่อแม่ · ญาติผู้ใหญ่","id":"ibu · orang tua · kerabat tua","hi":"माँ · माता-पिता · बड़े","de":"Mutter · Eltern · ältere Verwandte","fr":"mère · parent · aîné","it":"madre · genitore · parente anziano","es":"madre · padre · pariente mayor","pt":"mãe · pai · parente mais velho","ru":"мать · родитель · старший родич","uk":"мати · батько · старший родич","ar":"أم · والد · قريب أكبر","he":"אם · הורה · קרוב מבוגר","sw":"mama · mzazi · ndugu mkubwa"},
@@ -1146,5 +1153,12 @@ WORDS.thumb = {
     cnp: ["手拇头", "ʃɐu˧˧ mu˨˦ tɐu˨˩"],  // Built on 拇 'thumb'; Nanning Pinghua also says 大拇指 and 大手指.
     wuu_jh: ["大手拇执头", "duɤ˩˦ ɕiu˥˧˥ mɛ˧˩˧ tɕiəʔ˦ diu˧˩˧"],  // Literally 'big hand-finger'; the little finger is 小手拇执头.
     dta: ["xereg", "xereɡ"],  // Inherited from Proto-Mongolic *herekei; compare Mongolian эрхий.
+    blr: ["ti51 ma31", "ti˥˩ ma˧˩"],  // ti51 is 'hand' (this row's hand); the second part ma31 also begins the IDS words for 'parents', 'aunt' and 'stepmother', but the source does not gloss it alone.
+    kmc: ["məi31 mja212", "məi˧˩ mja˨˩˨"],  // mja212 is 'hand' (this row's hand); the first part is not glossed in the source.
+    mlm: ["nja2 mai4", "nja˩˨˩ mai˨˦"],  // nja2 is 'hand' (this row's hand); mai4 is not glossed in the source.
+    mmd: ["ni4 si:m3", "ni˨˦ siːm˥˩"],  // Literally 'mother of the hand': ni4 'mother' + si:m3 'hand', both glossed so in IDS Maonan and in this row.
+    swi: ["ni4 toŋ1", "ni˥˩ toŋ˩˩"],  // Literally 'mother finger': ni4 'mother' + toŋ1 'finger', both glossed so in IDS Sui.
+    mra: ["kul", "kul"],  // No image is recorded for it, so it counts as a word of its own. From the IDS Mlabri list.
+    lic: ["pai3 zi:ŋ2", "pai˩˩ ziːŋ˥˥"],  // Literally 'mother finger': pai3 'mother' (this row's mother) + zi:ŋ2 'finger', both glossed so in IDS Hlai.
   },
 };

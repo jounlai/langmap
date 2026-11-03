@@ -635,6 +635,16 @@ WORDS.bat = {
     zh_tj: "mouse",
     cpx: "mouse",
     nan_ph: "plain",
+    blr: "unknown",
+    kmc: "plain",
+    mlm: "plain",
+    mmd: "plain",
+    swi: "plain",
+    acn: "plain",
+    bca: "unknown",
+    mra: "unknown",
+    lic: "unknown",
+    vi_nom: "plain",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1215,5 +1225,15 @@ WORDS.bat = {
     zh_tj: ["檐老鼠", "ian˦˥ lɑu˩˧ ʂu˩˧"],  // Literally 'eaves rat'; Tianjin also says 燕巴虎儿.
     cpx: ["蠓鼠", "maŋ˦˥˧ tsʰy˦˥˧"],  // Literally 'midge rat'; Putian also says 老歙.
     nan_ph: ["日婆", "lit˨˦ po˨˦"],  // Philippine Hokkien also uses 蝙蝠.
+    blr: ["pei31 la31", "pei˧˩ la˧˩"],  // From the IDS Bulang list, the same source as the rest of this row.
+    kmc: ["ʔo212", "ʔo˨˩˨"],  // No image is recorded for it, so it counts as a word of its own. From the IDS Southern Kam list, the same source as the rest of this row.
+    mlm: ["kɔ1", "kɔ˦˨"],  // No image is recorded for it, so it counts as a word of its own. From the IDS Mulam list, the same source as the rest of this row.
+    mmd: ["kwo2", "kwo˨˧˩"],  // No image is recorded for it, so it counts as a word of its own. From the IDS Maonan list, the same source as the rest of this row.
+    swi: ["qo2", "qo˧˩"],  // No image is recorded for it, so it counts as a word of its own. From the IDS Sui list.
+    acn: ["uaŋ55liaŋ31", "uaŋ˥˥liaŋ˧˩"],  // No image is recorded for it, so it counts as a word of its own. From Sun Hongkai's Tibeto-Burman list.
+    bca: ["popotsɿ", "po˥˥po˦˦tsɿ˧˧"],  // From Allen's Bai survey (Jianchuan), the source this row follows.
+    mra: ["tɨ krek", "tɨ krek"],  // From the IDS Mlabri list, the same source as most of this row.
+    lic: ["pɯ1 gu:k7", "pɯ˥˧ ɡuːk˥˥"],  // From the IDS Hlai (Baoting) list, the same source as the rest of this row; pɯ1 also begins this row's butterfly.
+    vi_nom: ["猚", "zəːj˧"],  // The Nôm spelling of dơi that Wiktionary lists first; it is the standard Vietnamese word.
   },
 };

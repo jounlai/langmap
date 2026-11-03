@@ -622,6 +622,9 @@ WORDS.monday = {
     orv: "after",
     arc: "count",
     cop: "count",
+    kmc: "count",
+    mlm: "count",
+    mmd: "count",
   },
   routes: {
     moon: {"color":"#7c3aed","emoji":"🌙","en":"the moon's day","ja":"月の日","ko":"달의 날","zh":"月亮之日","yue":"月亮嘅日","vi":"ngày mặt trăng","th":"วันของดวงจันทร์","id":"hari bulan","hi":"चंद्रमा का दिन","de":"Tag des Mondes","fr":"jour de la lune","it":"giorno della luna","es":"día de la luna","pt":"dia da lua","ru":"день луны","uk":"день місяця","ar":"يوم القمر","he":"יום הירח","sw":"siku ya mwezi"},
@@ -1186,5 +1189,8 @@ WORDS.monday = {
     orv: ["понедѣльникъ", "ponedælʲnikŭ"],  // Po- 'after' + nedělja, the old word for Sunday: 'the day after Sunday'.
     arc: ["ܬܪܝܢ ܒܫܒܐ", "treːn bʃabbaː"],  // 'Two in the week': the days are counted from the Sabbath (Comprehensive Aramaic Lexicon).
     cop: ["ⲡⲉⲥⲛⲁⲩ", "pesnau"],  // 'The two', ⲥⲛⲁⲩ 'two' with the article: the second day of the week (Coptic Dictionary Online).
+    kmc: ["ɕən33 tɕhi212 ji212", "ɕən˧˧ tɕʰi˨˩˨ ji˨˩˨"],  // Matches Chinese 星期一 xīngqīyī 'week-one'.
+    mlm: ["li3 pa:i4 ji2", "li˥˧ paːi˨˦ ji˩˨˩"],  // Matches Chinese 禮拜一 lǐbàiyī 'week-one'.
+    mmd: ["siŋ5 khi2 ji2", "siŋ˦˦ kʰi˨˧˩ ji˨˧˩"],  // Matches Chinese 星期一 xīngqīyī 'week-one'.
   },
 };

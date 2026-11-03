@@ -1146,5 +1146,6 @@ WORDS.horse = {
     auj: ["agmàr", "aɡˈmar"],
     siz: ["agmár", "aɡˈmar"],
     zh_jiao: ["马", "ma˥˥"],
+    yiz: ["mo", "mo˨˩"],  // From Yang's Yi survey; Lama's Nisoic list also has mo21.
   }
 };

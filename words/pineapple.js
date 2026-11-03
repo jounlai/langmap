@@ -438,6 +438,7 @@ WORDS.pineapple = {
     ko_bus: "pine",
     ja_kg: "pine",
     ko_hg: "pine",
+    vi_nom: "other",
   },
   routes: {
     nanas: {"color":"#ea580c","emoji":"🌎","en":"from Tupi naná","ja":"トゥピ語 naná から","ko":"투피어 naná에서","zh":"源自图皮语 naná","yue":"源自圖皮語 naná","vi":"từ tiếng Tupi naná","th":"จากภาษาตูปี naná","id":"dari bahasa Tupi naná","hi":"तूपी naná से","de":"aus Tupi naná","fr":"du tupi naná","it":"dal tupi naná","es":"del tupí naná","pt":"do tupi naná","ru":"из тупи naná","uk":"з тупі naná","ar":"من التوبية naná","he":"מטופי naná","sw":"kutoka Kitupi naná"},
@@ -820,5 +821,6 @@ WORDS.pineapple = {
     ko_bus: ["파인애플", "pʰainɛpʰɯl"],  // Borrowed from English pineapple. The national word, which Busan speech uses as well.
     ja_kg: ["パイナップル", "painapːɯɾɯ"],  // The standard Japanese word, used in Kagoshima as everywhere in Japan.
     ko_hg: ["파이내플", "pʰainɛpʰɯl"],  // The North Korean spelling of the English loan.
+    vi_nom: ["𦼥", "zɨə˧˥"],  // The Nôm spelling of dứa that Wiktionary lists first; dứa is the northern word for the pineapple.
   },
 };

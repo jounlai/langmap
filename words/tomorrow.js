@@ -869,6 +869,16 @@ WORDS.tomorrow = {
     cnp: "other",
     orh: "plain",
     peh: "plain",
+    blr: "unknown",
+    kmc: "unknown",
+    mlm: "unknown",
+    mmd: "unknown",
+    swi: "unknown",
+    duu: "unknown",
+    bca: "unknown",
+    mra: "unknown",
+    lic: "unknown",
+    nzm: "unknown",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -1682,5 +1692,15 @@ WORDS.tomorrow = {
     cnp: ["明日", "meŋ˨˩ ȵɐt˨˦"],  // Literally 'the bright (next) day'.
     orh: ["tɪmaana", "tɪmaana"],  // No analysis is recorded for it.
     peh: ["maxɕi", "maxɕi"],  // No analysis is recorded for it.
+    blr: ["ka31 sa51", "ka˧˩ sa˥˩"],  // From the IDS Bulang list; yesterday is ləŋ31 ku51.
+    kmc: ["mɐn55 mu323", "mɐn˥˥ mu˧˨˧"],  // mɐn55 'day' + mu323; today is mɐn55 nai33 and yesterday mɐn55 ɲuŋ55 (IDS Southern Kam).
+    mlm: ["fan1 mɔ3", "fan˦˨ mɔ˥˧"],  // fan1 'day' (as in today fan1 na:i6) + mɔ3; yesterday is fan1 ȵu1 (IDS Mulam).
+    mmd: ["van1 ʔmu3", "van˦˨ ʔmu˥˩"],  // van1 'day' (as in today van1 na:i6) + ʔmu3; yesterday is van1 ʔȵuŋ1 (IDS Maonan).
+    swi: ["van1 ʔmu3", "van˩˩ ʔmu˧˧"],  // van1 'day' (as in this row's sun ⁿda1 van1) + ʔmu3; yesterday is van1 ʔȵu1.
+    duu: ["ɑsɑŋni", "ɑsɑŋni"],  // From Sagart et al.'s Sino-Tibetan list (ɑ31sɑŋ55ni55), written without tones like the rest of this row; yesterday is tɯdʑɑni.
+    bca: ["mejĩ", "me˥˥jĩ˦˦"],  // Ends in jĩ44 like today ke55jĩ44 and yesterday tɕi21jĩ44 (Allen, Jianchuan).
+    mra: ["ma ʔɨn", "ma ʔɨn"],  // From the IDS Mlabri list; yesterday is ti waa.
+    lic: ["ɯ3 hau2", "ɯ˩˩ hau˥˥"],  // From the IDS Hlai (Baoting) list (ʔɨ3 hau2; the row writes no initial glottal stop); yesterday is ɯ3 phan3.
+    nzm: ["nchuanai", "ntʃuanai"],  // From Marrison's Naga survey, the source of most of this row; yesterday is nzinai.
   },
 };

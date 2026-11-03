@@ -623,6 +623,14 @@ WORDS.grandmother = {
     yue_nn: "one",
     orh: "unknown",
     gld: "unknown",
+    blr: "unknown",
+    kmc: "unknown",
+    mlm: "unknown",
+    mmd: "unknown",
+    swi: "unknown",
+    bca: "unknown",
+    mra: "unknown",
+    nzm: "unknown",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -1190,5 +1198,13 @@ WORDS.grandmother = {
     yue_nn: ["阿婆", "a˧˧ pʰɔ˨˩"],  // Nanning says 阿婆 for both grandmothers, like Zhongshan (Wiktionary's dialect tables for 祖母 and 外祖母). Reading from MCPDict 南寧.
     orh: ["ada", "ada"],  // The vocative form is aday.
     gld: ["да̄ня̄", "daːnʲaː"],  // The word for 'grandmother' in the Northeuralex Nanai list.
+    blr: ["jaʔ31", "jaʔ˧˩"],  // The source gives one word for grandmother and does not say whether the father's and the mother's mother are told apart. From the IDS Bulang list.
+    kmc: ["sa31", "sa˧˩"],  // The source gives one word for grandmother and does not say whether the father's and the mother's mother are told apart. The grandfather is qoŋ323 (IDS Southern Kam).
+    mlm: ["pwa2", "pwa˩˨˩"],  // The source gives one word for grandmother and does not say whether the father's and the mother's mother are told apart. From the IDS Mulam list.
+    mmd: ["pa2", "pa˨˧˩"],  // The source gives one word for grandmother and does not say whether the father's and the mother's mother are told apart. From the IDS Maonan list.
+    swi: ["ja4", "ja˥˩"],  // The source gives one word for grandmother and does not say whether the father's and the mother's mother are told apart. The same form in IDS Sui and in Castro's Sui survey.
+    bca: ["ane", "a˧˩ne˦˦"],  // The source gives one word for grandmother and does not say whether the father's and the mother's mother are told apart. From Allen's Bai survey (Jianchuan); the grandfather is a31ji42.
+    mra: ["ʔi jaa", "ʔi jaː"],  // The source gives one word for grandmother and does not say whether the father's and the mother's mother are told apart. From the IDS Mlabri list (ʔi ja:).
+    nzm: ["mipai", "mipai"],  // The source gives one word for grandmother and does not say whether the father's and the mother's mother are told apart. From Marrison's Naga survey (mi-pai, with the mi- prefix this row keeps on kin and body words).
   },
 };

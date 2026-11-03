@@ -821,6 +821,16 @@ WORDS.yesterday = {
     vi_c: "distinct",
     wuu_jh: "distinct",
     peh: "distinct",
+    blr: "distinct",
+    kmc: "distinct",
+    mlm: "distinct",
+    mmd: "distinct",
+    swi: "distinct",
+    duu: "distinct",
+    bca: "distinct",
+    mra: "distinct",
+    lic: "distinct",
+    nzm: "distinct",
   },
   routes: {
     same: {"color":"#db2777","emoji":"🔁","en":"one word for yesterday and tomorrow","ja":"昨日と明日が同じ語","ko":"어제와 내일이 한 낱말","zh":"昨天和明天同一个词","yue":"尋日同聽日同一個詞","vi":"một từ cho hôm qua và ngày mai","th":"คำเดียวทั้งเมื่อวานและพรุ่งนี้","id":"satu kata untuk kemarin dan besok","hi":"बीते और आने वाले कल का एक शब्द","de":"ein Wort für gestern und morgen","fr":"un mot pour hier et demain","it":"una parola per ieri e domani","es":"una palabra para ayer y mañana","pt":"uma palavra para ontem e amanhã","ru":"одно слово для вчера и завтра","uk":"одне слово для учора й завтра","ar":"كلمة واحدة لأمس وغد","he":"מילה אחת לאתמול ולמחר","sw":"neno moja kwa jana na kesho"},
@@ -1587,5 +1597,15 @@ WORDS.yesterday = {
     vi_c: ["hôm qua", "hom˥ kwaː˥"],  // tomorrow: ngày mai; the same word as standard Vietnamese, in the Huế pronunciation (Wiktionary).
     wuu_jh: ["昨日儿", "sɑ˥˧˥ ȵiəʔ˨˩˨ ŋ̍˧˩˧"],  // 昨日 'yesterday' with the diminutive suffix 儿.
     peh: ["ʂgudə", "ʂɡudə"],  // Not related to the word for 'tomorrow' (maxɕi).
+    blr: ["ləŋ31 ku51", "ləŋ˧˩ ku˥˩"],  // Different from tomorrow, ka31 sa51 (IDS Bulang).
+    kmc: ["mɐn55 ɲuŋ55", "mɐn˥˥ ɲuŋ˥˥"],  // Different from tomorrow, mɐn55 mu323 (IDS Southern Kam).
+    mlm: ["fan1 ȵu1", "fan˦˨ ȵu˦˨"],  // Different from tomorrow, fan1 mɔ3 (IDS Mulam).
+    mmd: ["van1 ʔȵuŋ1", "van˦˨ ʔȵuŋ˦˨"],  // Different from tomorrow, van1 ʔmu3 (IDS Maonan).
+    swi: ["van1 ʔȵu1", "van˩˩ ʔȵu˩˩"],  // Different from tomorrow, van1 ʔmu3.
+    duu: ["tɯdʑɑni", "tɯdʑɑni"],  // Different from tomorrow, ɑsɑŋni (Sagart et al.: tɯ31dʑɑ55ni55).
+    bca: ["tɕijĩ", "tɕi˨˩jĩ˦˦"],  // Different from tomorrow, me55jĩ44 (Allen, Jianchuan).
+    mra: ["ti waa", "ti waː"],  // Different from tomorrow, ma ʔɨn (IDS Mlabri: ti wa:).
+    lic: ["ɯ3 phan3", "ɯ˩˩ pʰan˩˩"],  // Different from tomorrow, ɯ3 hau2 (IDS Hlai, Baoting).
+    nzm: ["nzinai", "nzinai"],  // Different from tomorrow, nchuanai (Marrison).
   },
 };

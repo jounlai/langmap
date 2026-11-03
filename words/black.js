@@ -1307,5 +1307,6 @@ WORDS.black = {
     auj: ["šṭàf", "ʃtˤaf"],
     siz: ["azəṭṭáf", "azəˈtˤːaf"],  // Schiattarella records the feminine tazəṭṭáft.
     zh_jiao: ["黑", "xe˥˥"],
+    yiz: ["ȵɪ", "ȵɪ˨˨"],  // From Yang's Yi survey (ȵɪ̠22, with a tense vowel); the row writes no tense marks. Red is the lax ȵɪ33. Lama's Nisoic list also has ȵɪ22.
   },
 };

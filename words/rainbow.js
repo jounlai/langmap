@@ -747,6 +747,12 @@ WORDS.rainbow = {
     cnp: "plain",
     zh_tj: "plain",
     gld: "other",
+    blr: "unknown",
+    kmc: "unknown",
+    mlm: "unknown",
+    acn: "unknown",
+    clk: "plain",
+    mra: "unknown",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1437,5 +1443,11 @@ WORDS.rainbow = {
     cnp: ["虹", "kaŋ˥˥"],  // The colloquial reading of 虹.
     zh_tj: ["虹", "tɕiɑŋ˥˧"],  // The colloquial reading jiàng of 虹.
     gld: ["агди пойкани", "aɡdi pojkani"],  // The first word is агди 'thunder'.
+    blr: ["tuəŋ31 vok31", "tuəŋ˧˩ vok˧˩"],  // From the IDS Bulang list; the source gives no analysis of the two parts.
+    kmc: ["ljoŋ212", "ljoŋ˨˩˨"],  // From the IDS Southern Kam list; the source gives no analysis.
+    mlm: ["lɔŋ2", "lɔŋ˩˨˩"],  // From the IDS Mulam list; the source gives no analysis.
+    acn: ["xɔŋ51 nʲin31 nam31", "xɔŋ˥˩ nʲin˧˩ nam˧˩"],  // From Sagart et al.'s Sino-Tibetan list, the source this row follows; Sun 1991 has xɔŋ51tɕin31nam31.
+    clk: ["ɑ31hɯ55", "ɑ˧˩hɯ˥˥"],  // No image is recorded for it, so it counts as a word of its own. From Sagart et al.'s Sino-Tibetan list, the source this row follows.
+    mra: ["tot paŋ", "tot paŋ"],  // From the IDS Mlabri list; the source gives no analysis.
   },
 };

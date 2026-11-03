@@ -1196,5 +1196,6 @@ WORDS.new = {
     ttq: ["aynayan", "æjnajæn"],  // The participle of inay 'to be new'.
     auj: ["atràr", "atˈrar"],  // Also 'fresh', as in aɣv d-atràr 'fresh milk'.
     siz: ["atrár", "atˈrar"],
+    phn: ["𐤇𐤃𐤔", "ħadaʃ"],  // The Semitic ḥ-d-š, as in Hebrew חדש; its feminine is in 𐤒𐤓𐤕𐤇𐤃𐤔𐤕 Qart-ḥadašt, 'new city', the Punic name of Carthage, founded from Tyre.
   }
 };

@@ -442,6 +442,8 @@ WORDS.whale = {
     hbo: "plain",
     fa_clas: "plain",
     osp: "plain",
+    zh_wenyan_edu: "plain",
+    vi_han: "plain",
   },
   routes: {
     fish: {"color":"#2563eb","emoji":"🐟","en":"called a fish","ja":"「魚」と呼ぶ","ko":"\"물고기\"라 부름","zh":"称作\"鱼\"","yue":"叫做「魚」","vi":"gọi là cá","th":"เรียกว่าปลา","id":"disebut ikan","hi":"मछली कहा जाता है","de":"als Fisch bezeichnet","fr":"appelée poisson","it":"chiamata pesce","es":"llamada pez","pt":"chamada peixe","ru":"называют рыбой","uk":"називають рибою","ar":"تُسمّى سمكة","he":"נקרא דג","sw":"huitwa samaki"},
@@ -829,5 +831,7 @@ WORDS.whale = {
     hbo: ["תנין", "tanˈniːn"],  // A sea monster or dragon; the King James Bible renders the תנינם of Genesis 1:21 as 'great whales'.
     fa_clas: ["نهنگ", "nihang"],  // From Middle Persian nihang, which meant the crocodile; the word also covered the crocodile and other great water beasts.
     osp: ["ballena", "baˈʎena"],  // From Latin ballaena, from Greek φάλλαινα.
+    zh_wenyan_edu: ["鯨", "kʰɪŋ˨˩"],  // A word of its own that also meant 'great, huge', in the Cantonese literary reading.
+    vi_han: ["鯨", "kiɲ˨˩"],  // Read kình in Sino-Vietnamese, as in cá kình.
   },
 };

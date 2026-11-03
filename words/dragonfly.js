@@ -256,6 +256,8 @@ WORDS.dragonfly = {
     hy_grab: "plain",
     ar_qur: "plain",
     ota: "other",
+    zh_wenyan_edu: "plain",
+    vi_han: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -457,5 +459,7 @@ WORDS.dragonfly = {
     hy_grab: ["ճպուռն", "tʃpuɾn"],  // No image is recorded for it, so it counts as a word of its own.
     ar_qur: ["يعسوب", "jaʕsuːb"],  // The same word also meant 'queen bee' and 'chief, leader'.
     ota: ["یوسفجك", "jusufˈdʒuk"],  // Yusuf 'Joseph' + the diminutive -cuk, 'little Joseph'; modern yusufçuk.
+    zh_wenyan_edu: ["蜻蛉", "tsʰɪŋ˥ lɪŋ˨˩"],  // The classical two-syllable insect name, in the Cantonese literary reading.
+    vi_han: ["蜻蛉", "tʰaɲ˧˧ liɲ˧˧"],  // Read thanh linh in Sino-Vietnamese; the everyday word is chuồn chuồn.
   },
 };

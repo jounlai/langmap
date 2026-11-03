@@ -260,6 +260,12 @@ WORDS.dragonfly = {
     vi_han: "plain",
     ko_mid: "plain",
     ko_kp: "plain",
+    yue_zs: "other",
+    wuu_jh: "plain",
+    wuu_hz: "plain",
+    cjy_xz: "other",
+    zh_hf: "plain",
+    yue_ts: "other",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -465,5 +471,11 @@ WORDS.dragonfly = {
     vi_han: ["蜻蛉", "tʰaɲ˧˧ liɲ˧˧"],  // Read thanh linh in Sino-Vietnamese; the everyday word is chuồn chuồn.
     ko_mid: ["ᄌᆞᆫ·자리", "tsʌntsari"],  // Attested from 1481 and continued as modern 잠자리. No image is recorded for it, so it counts as a word of its own.
     ko_kp: ["잠자리", "tɕamdʑari"],  // The same word as in the South, attested since 1481 as Middle Korean ᄌᆞᆫ·자리.
+    yue_zs: ["塘尾", "tʰɔŋ˥˩ mi˨˩˧"],  // 'Pond tail', as in Cantonese 塘尾; word from Wiktionary's dialect table, reading from MCPDict 中山.
+    wuu_jh: ["蜻蜓", "tsʰiŋ˧˧˦ diŋ˧˩˧"],  // Reading from MCPDict 金華.
+    wuu_hz: ["蜻蜓", "tɕʰiŋ˧˧ diŋ˨˩˧"],  // Reading from MCPDict 杭州.
+    cjy_xz: ["河蟢蟢", "xɛ˧˩ ɕi˧˩˧ ɕi˧˩˧"],  // 'River spider': 蟢 is a small long-legged spider; from Wiktionary's dialect table, reading from MCPDict 忻州.
+    zh_hf: ["蜻蜻", "tɕʰiən˨˩˨ tɕʰiən˨˩˨"],  // Reduplicated 蜻; Hefei also says 蜻蜻子. Reading from MCPDict 合肥.
+    yue_ts: ["黄尾", "ʋɔŋ˨˨ mei˥˥"],  // 'Yellow tail'; from Wiktionary's dialect table, reading from MCPDict 台山.
   },
 };

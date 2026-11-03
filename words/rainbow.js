@@ -738,6 +738,7 @@ WORDS.rainbow = {
     ko_mid: "other",
     ofs: "bow",
     ko_kp: "other",
+    cjy_xz: "plain",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1419,5 +1420,6 @@ WORDS.rainbow = {
     ko_mid: ["·므지·게", "mɨtsikəj"],  // Literally 'water door': 믈 'water' + 지게, after the arched top of a door; modern 무지개.
     ofs: ["reinboga", "ˈreinboɣa"],  // Rein 'rain' + boga 'bow', the same compound as English rainbow (Köbler).
     ko_kp: ["무지개", "mudʑiɡɛ"],  // From Middle Korean 믈 'water' + 지게 'door', as in the South; North Korean texts also use 색동다리 'rainbow-striped bridge' figuratively for one over a river.
+    cjy_xz: ["虹", "xuəŋ˧˩"],  // Reading from MCPDict 忻州.
   },
 };

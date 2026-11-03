@@ -715,6 +715,7 @@ WORDS.thunder = {
     zh_wenyan_edu: "plain",
     vi_han: "plain",
     ko_kp: "other",
+    nan_hai: "god",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1376,5 +1377,6 @@ WORDS.thunder = {
     zh_wenyan_edu: ["雷", "lɵy˨˩"],  // An old Chinese root, in the Cantonese literary reading.
     vi_han: ["雷", "loj˧˧"],  // Read lôi in Sino-Vietnamese; the everyday Vietnamese word is sấm.
     ko_kp: ["우뢰", "urwe"],  // North Korea's standard form of 우레, respelled after the folk etymology 雨雷 'rain-thunder'; the word goes back to Middle Korean ·울에, from a verb 'to roar'.
+    nan_hai: ["雷公", "lui˧˩ kaŋ˨˧"],  // 'Lord Thunder', as in Hokkien 雷公, with the colloquial reading of 公; reading from MCPDict 海口.
   },
 };

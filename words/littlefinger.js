@@ -445,6 +445,11 @@ WORDS.littlefinger = {
     vi_han: "small",
     non: "small",
     hbo: "small",
+    ko_kp: "child",
+    yue_zs: "other",
+    wuu_hz: "small",
+    yue_dg: "child",
+    cjy_xz: "small",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -835,5 +840,10 @@ WORDS.littlefinger = {
     vi_han: ["小指", "tiəw˧˩˧ tɕi˧˩˧"],  // 'Small finger', read tiểu chỉ in Sino-Vietnamese.
     non: ["litlifingr", "ˈlitliˌfiŋɡr"],  // 'The little finger', litli 'little' + fingr; the others were þumalfingr, vísifingr, langatöng and græðifingr, the 'healing finger' (Cleasby–Vigfusson, s.v. fingr).
     hbo: ["קֹטֶן", "ˈqoːtˤɛn"],  // 'The little one', from the root of קָטֹן 'small'; only in Rehoboam's reply 'my little finger (קׇטׇנִּי) is thicker than my father's loins' (1 Kings 12:10, 2 Chronicles 10:10).
+    ko_kp: ["새끼손가락", "sɛk͈isonk͈arak"],  // The 'young-one finger', as in the South: 새끼 is a young animal or a little one.
+    yue_zs: ["手指尾", "sɐu˨˩˧ tsi˨˩˧ mi˨˩˧"],  // 'The finger's tail', as in Cantonese; reading from MCPDict 中山.
+    wuu_hz: ["小拇手指头", "ɕiɔ˥˧ moᵘ˥˧ sei˥˧ tsɿ˥˧ dei˨˩˧"],  // 'Small thumb-finger', as Wiktionary's dialect table gives for Hangzhou; reading from MCPDict 杭州.
+    yue_dg: ["手指仔", "ʃau˧˥ tʃi˧˥ tʃɔi˧˥"],  // 'The finger's child': 仔 'son, little one'; Dongguan also says 手指尾. Reading from MCPDict 東莞.
+    cjy_xz: ["小拇指头", "ɕiɔ˧˩˧ mu˧˩˧ tsɿ˧˩˧ tʰəu˧˩"],  // 'Small thumb-finger'; reading from MCPDict 忻州.
   },
 };

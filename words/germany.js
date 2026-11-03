@@ -470,6 +470,11 @@ WORDS.germany = {
     tlh: "deutsch",
     enm: "germania",
     ang: "germania",
+    yue_gz: "deutsch",
+    nan_hai: "deutsch",
+    hsn_hy: "deutsch",
+    cjy_xz: "deutsch",
+    cjy_lv: "deutsch",
   },
   routes: {
     deutsch: {"color":"#0891b2","emoji":"🗣️","en":"the Germans' own word","ja":"ドイツ人の自称","ko":"독일인의 자칭","zh":"德国人的自称","yue":"德國人嘅自稱","vi":"tên tự gọi của người Đức","th":"ชื่อที่ชาวเยอรมันเรียกตัวเอง","id":"sebutan orang Jerman sendiri","hi":"जर्मनों का अपना शब्द","de":"die Selbstbezeichnung","fr":"le nom que se donnent les Allemands","it":"il nome che si danno i tedeschi","es":"el nombre que se dan los alemanes","pt":"o nome que os alemães se dão","ru":"самоназвание немцев","uk":"самоназва німців","ar":"اسم الألمان لأنفسهم","he":"השם שהגרמנים קוראים לעצמם","sw":"jina la Wajerumani wenyewe"},
@@ -880,5 +885,10 @@ WORDS.germany = {
     tlh: ["DoyIchlan", "ɖojɪtʃlɑn"],  // Klingon DoyIchlan is German Deutschland reshaped to fit Klingon syllables.
     enm: ["Germanie", "ˈdʒɛrmaniː"],  // From Old French Germanie and Old English Germania, both from Latin Germānia; it meant the lands where Germanic languages were spoken.
     ang: ["Germania", "ɡerˈmɑːniɑ"],  // Borrowed from Latin Germānia, for all the lands of the Germanic-speaking peoples.
+    yue_gz: ["德国", "ɗɐk̚˥ ku̯ɔk̚˧˧"],  // 德國, from the German self-name; reading from MCPDict 化州.
+    nan_hai: ["德国", "ɗek˥ kok˥"],  // The literary readings of 德國; reading from MCPDict 海口.
+    hsn_hy: ["德国", "te˨˨ kue˨˨"],  // Reading from MCPDict 衡陽.
+    cjy_xz: ["德国", "tiəʔ˦˧ kuɔʔ˦˧"],  // Reading from MCPDict 忻州.
+    cjy_lv: ["德国", "təʔ˦ kuəʔ˦"],  // Reading from MCPDict 離石.
   },
 };

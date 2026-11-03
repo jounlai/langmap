@@ -297,6 +297,7 @@ WORDS.milkyway = {
     wuu_hz: "river",
     cjy_xz: "river",
     cjy_lv: "river",
+    nan_zz: "river",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -537,5 +538,6 @@ WORDS.milkyway = {
     wuu_hz: ["天河", "tʰiᴇ̃˧˧ ɦoᵘ˨˩˧"],  // 'The heavenly river'; Hangzhou also says 银河. Reading from MCPDict 杭州.
     cjy_xz: ["天河", "tʰiɛ̃˧˩˧ xɛ˧˩"],  // 'The heavenly river'; reading from MCPDict 忻州.
     cjy_lv: ["天河", "tʰiɪ˨˦ xɔ˦˦"],  // 'The heavenly river'; reading from MCPDict 離石.
+    nan_zz: ["河溪", "ho˩˧ kʰe˦˦"],  // 'River-stream', as in Taiwanese 河溪; Zhangzhou also says 銀溪 and 天河. Reading from MCPDict 漳州.
   },
 };

@@ -619,6 +619,8 @@ WORDS.grandmother = {
     ja_edo: "one",
     zh_wenyan_edu: "split",
     vi_han: "split",
+    wuu_jh: "split",
+    yue_nn: "one",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -1182,5 +1184,7 @@ WORDS.grandmother = {
     ja_edo: ["祖母", "baba"],  // ばば, which overtook うば in the Edo period: 'today is grandmother's (祖母) death day', Karukuchi gozen otoko (1703) (Nihon Kokugo Daijiten).
     zh_wenyan_edu: ["祖母", "tsou˧˥ mou˩˧"],  // The father's mother; the mother's mother is 外祖母, with 外 'outside'.
     vi_han: ["祖母", "to˧˩˧ məw˧˧ˀ˥"],  // Read tổ mẫu: the father's mother; the mother's mother is 外祖母 ngoại tổ mẫu.
+    wuu_jh: ["妈妈", "mɑ˧˧˦ mɑ˧˧˦"],  // Father's mother; the mother's mother is 外婆 or 婆婆 (Wiktionary's dialect tables for 祖母 and 外祖母). Reading from MCPDict 金華.
+    yue_nn: ["阿婆", "a˧˧ pʰɔ˨˩"],  // Nanning says 阿婆 for both grandmothers, like Zhongshan (Wiktionary's dialect tables for 祖母 and 外祖母). Reading from MCPDict 南寧.
   },
 };

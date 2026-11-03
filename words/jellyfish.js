@@ -253,6 +253,7 @@ WORDS.jellyfish = {
     bik: "plain",
     ceb: "plain",
     mak: "plain",
+    ain: "plain",
   },
   routes: {
     medusa: {"color":"#7c3aed","emoji":"🐍","en":"named after Medusa","ja":"メドゥーサにちなむ","ko":"메두사에서","zh":"源自美杜莎","yue":"源自美杜莎","vi":"theo tên Medusa","th":"ตั้งตามเมดูซา","id":"dari nama Medusa","hi":"मेडूसा के नाम पर","de":"nach Medusa","fr":"d'après Méduse","it":"da Medusa","es":"por Medusa","pt":"por Medusa","ru":"по имени Медузы","uk":"за ім'ям Медузи","ar":"على اسم ميدوسا","he":"על שם מדוזה","sw":"kwa jina la Medusa"},
@@ -450,5 +451,6 @@ WORDS.jellyfish = {
     bik: ["palit", "paʔˈlit"],  // Bikol word for the jellyfish (written pàlit); salabay, properly the Portuguese man-of-war, is also used.
     ceb: ["salabay", "saˈlabaj"],  // Cebuano word for the Portuguese man-of-war, used for jellyfish in general; bukya is also a jellyfish.
     mak: ["bullung", "ˈbulːuŋ"],  // Makassarese word for the jellyfish; a'jappa bullung 'to walk like a jellyfish' means to walk very slowly.
+    ain: ["フンペエトㇿ", "hunpeetoɾ"],  // Ainu word for the jellyfish (hunpeetor); dialect forms フㇺペエトㇿ, フㇺペートㇿ.
   },
 };

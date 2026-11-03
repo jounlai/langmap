@@ -310,6 +310,7 @@ WORDS.milkyway = {
     cnp: "river",
     wuu_jh: "river",
     vi_nom: "river",
+    ain: "river",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -563,5 +564,6 @@ WORDS.milkyway = {
     cnp: ["银河", "ŋɐn˨˩ ho˨˩"],  // Literally 'silver river', as in Standard Chinese.
     wuu_jh: ["天河", "tʰia˧˧˦ uɤ˧˩˧"],  // Literally 'sky river'; 河路 is also used.
     vi_nom: ["銀河", "ŋən˧ haː˨˩"],  // Ngân Hà is the Sino-Vietnamese reading of 銀河 'silver river', written with the Chinese characters.
+    ain: ["ペッノカ", "petnoka"],  // Hokkaido Ainu petnoka, from pet 'river' + noka; Hattori 1964 records it in Horobetsu, Saru, Obihiro and Nayoro.
   },
 };

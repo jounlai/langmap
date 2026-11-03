@@ -231,6 +231,7 @@ WORDS.goosebumps = {
     hy: "unknown",
     cpx: "bird",
     zh_jn: "bird",
+    ja_oki: "plain",
   },
   family2: {
     ko: "bird",
@@ -410,5 +411,6 @@ WORDS.goosebumps = {
     hy: ["փշաքաղվել", "pʰəʃɑkʰɑʁˈvel"],  // A verb: hy.wiktionary glosses it 'a shiver passes through the body' and 'the hair stands on end'; Armenian says it as a verb, and the noun սագամաշկ 'goose skin' is labelled medical.
     cpx: ["鸡母皮", "ke˥˧˧ po˦˥˧ pʰue˩˧"],  // Literally 'hen skin', as in Hokkien 鸡母皮.
     zh_jn: ["鸡皮疙瘩", "tɕi˨˩˧ pʰi˦˨ kə˨˩˧ ta˦˨"],  // Literally 'chicken-skin bumps', as in Standard Chinese.
+    ja_oki: ["きーぶりだーちゃー", "kiːbuɾidaːtɕaː"],  // Okinawan word for goose bumps; variant きーぶるだーちゃー.
   },
 };

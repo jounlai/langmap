@@ -202,6 +202,7 @@ WORDS.blessyou = {
     da: "other",
     af: "health",
     rn: "health",
+    ja_oki: "other",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"🙏","en":"God · blessing · mercy","ja":"神・祝福・慈悲","ko":"신 · 축복 · 자비","zh":"神・祝福・怜悯","yue":"神 · 祝福 · 憐憫","vi":"Chúa · phúc lành · lòng thương xót","th":"พระเจ้า · พร · ความเมตตา","id":"Tuhan · berkat · rahmat","hi":"ईश्वर · आशीर्वाद · रहम","de":"Gott · Segen · Erbarmen","fr":"Dieu · bénédiction · miséricorde","it":"Dio · benedizione · misericordia","es":"Dios · bendición · misericordia","pt":"Deus · bênção · misericórdia","ru":"Бог · благословение · милость","uk":"Бог · благословення · милість","ar":"الله · البركة · الرحمة","he":"האל · ברכה · רחמים","sw":"Mungu · baraka · rehema"},
@@ -348,5 +349,6 @@ WORDS.blessyou = {
     da: ["prosit", "ˈpʰʁosid̥"],  // From Latin prōsit 'may it be of benefit'.
     af: ["gesondheid", "χəˈsɔntɦəi̯t"],  // Literally 'health', from Dutch gezondheid; also the drinking toast.
     rn: ["kira", "kiɾa"],  // Imperative of gukira 'get well, recover'; the sneezer answers twese 'all of us'.
+    ja_oki: ["糞くぇー", "kusukʷeː"],  // Said when someone sneezes: literally 'eat shit' (kusu 'feces' + kwee, imperative of 'to eat'), to curse away evil spirits.
   },
 };

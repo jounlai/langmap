@@ -442,6 +442,7 @@ WORDS.pineapple = {
     ckv: "other",
     szy: "other",
     ssf: "other",
+    ja_edo: "nanas",
   },
   routes: {
     nanas: {"color":"#ea580c","emoji":"🌎","en":"from Tupi naná","ja":"トゥピ語 naná から","ko":"투피어 naná에서","zh":"源自图皮语 naná","yue":"源自圖皮語 naná","vi":"từ tiếng Tupi naná","th":"จากภาษาตูปี naná","id":"dari bahasa Tupi naná","hi":"तूपी naná से","de":"aus Tupi naná","fr":"du tupi naná","it":"dal tupi naná","es":"del tupí naná","pt":"do tupi naná","ru":"из тупи naná","uk":"з тупі naná","ar":"من التوبية naná","he":"מטופי naná","sw":"kutoka Kitupi naná"},
@@ -828,5 +829,6 @@ WORDS.pineapple = {
     ckv: ["unglay", "uŋlaj"],  // Borrowed from Taiwanese Hokkien 王梨 ông-lâi 'pineapple'; alternative spelling ungray.
     szy: ["padingad", "padiŋad"],  // Sakizaya word for the pineapple.
     ssf: ["unglai", "uŋlai"],  // Borrowed from Taiwanese Hokkien 王梨 ông-lâi 'pineapple'; also written ung-lai.
+    ja_edo: ["アナナス", "ananasɯ"],  // From Latin ananas, ultimately a South American word; Nihon Kokugo Daijiten cites it from Bankoku seihyō (1860), late Edo.
   },
 };

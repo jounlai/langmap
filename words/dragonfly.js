@@ -266,6 +266,9 @@ WORDS.dragonfly = {
     cjy_xz: "other",
     zh_hf: "plain",
     yue_ts: "other",
+    nan_xm: "plain",
+    nan_zz: "plain",
+    nan_qz: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -477,5 +480,8 @@ WORDS.dragonfly = {
     cjy_xz: ["河蟢蟢", "xɛ˧˩ ɕi˧˩˧ ɕi˧˩˧"],  // 'River spider': 蟢 is a small long-legged spider; from Wiktionary's dialect table, reading from MCPDict 忻州.
     zh_hf: ["蜻蜻", "tɕʰiən˨˩˨ tɕʰiən˨˩˨"],  // Reduplicated 蜻; Hefei also says 蜻蜻子. Reading from MCPDict 合肥.
     yue_ts: ["黄尾", "ʋɔŋ˨˨ mei˥˥"],  // 'Yellow tail'; from Wiktionary's dialect table, reading from MCPDict 台山.
+    nan_xm: ["田婴", "tsʰan˨˦ nĩ˦˦"],  // The 'field dragonfly' 田嬰, whose 田 may be a folk etymology (Wiktionary). Word from Wiktionary's dialect table; reading from its Xiamen pronunciation, citation tones.
+    nan_zz: ["田婴", "tsʰan˩˧ ɛ̃˦˦"],  // The 'field dragonfly' 田嬰, whose 田 may be a folk etymology (Wiktionary). Word from Wiktionary's dialect table; reading from its Zhangzhou pronunciation, citation tones.
+    nan_qz: ["田婴", "tsʰan˨˦ ĩ˧˧"],  // The 'field dragonfly' 田嬰, whose 田 may be a folk etymology (Wiktionary). Word from Wiktionary's dialect table; reading from its Quanzhou pronunciation, citation tones.
   },
 };

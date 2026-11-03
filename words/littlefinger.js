@@ -457,6 +457,7 @@ WORDS.littlefinger = {
     ja_kyo: "small",
     ja_hak: "small",
     ja_hir: "small",
+    nan_xm: "other",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -859,5 +860,6 @@ WORDS.littlefinger = {
     ja_kyo: ["小指", "kojɯbi"],  // Literally 'small finger'. The national word, which Kyoto speech uses as well.
     ja_hak: ["小指", "kojɯbi"],  // Literally 'small finger'. The national word, which Hakata speech uses as well.
     ja_hir: ["小指", "kojɯbi"],  // Literally 'small finger'. The national word, which Hiroshima speech uses as well.
+    nan_xm: ["尾指仔", "be˥˧ tsai˥˧ a˥˧"],  // 'Tail finger' with the diminutive 仔, as in Taiwanese 尾指. Word from Wiktionary's dialect table; reading from its Xiamen pronunciation, citation tones.
   },
 };

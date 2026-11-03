@@ -271,6 +271,7 @@ WORDS.dragonfly = {
     nan_qz: "plain",
     hak_tw: "other",
     hak_hl: "plain",
+    zh_xa: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -487,5 +488,6 @@ WORDS.dragonfly = {
     nan_qz: ["田婴", "tsʰan˨˦ ĩ˧˧"],  // The 'field dragonfly' 田嬰, whose 田 may be a folk etymology (Wiktionary). Word from Wiktionary's dialect table; reading from its Quanzhou pronunciation, citation tones.
     hak_tw: ["揚尾仔", "ioŋ˩˩ mi˨˦ e˧˩"],  // 'Flapping tail': 揚 as in 揚蝶仔 'butterfly', 尾 'tail' and the diminutive 仔. Word from Wiktionary's dialect table for Miaoli; Wiktionary's Sixian pronunciation.
     hak_hl: ["囊蜺仔", "noŋ˥˥ ni˥˧ ɤ˥˥"],  // Word from Wiktionary's dialect table for Hsinchu; Wiktionary's Hailu pronunciation, with this row's ɤ for 仔. No image is recorded for it, so it counts as a word of its own.
+    zh_xa: ["蚂螂", "ma˨˦ laŋ"],  // Also written 麻螂, as in Beijing 螞螂; Wiktionary's dialect table and Xi'an pronunciation. No image is recorded for it, so it counts as a word of its own.
   },
 };

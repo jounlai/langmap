@@ -435,6 +435,7 @@ WORDS.littlefinger = {
     goh: "other",
     gmh: "other",
     sa: "small",
+    arc: "small",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -815,5 +816,6 @@ WORDS.littlefinger = {
     goh: ["ōrfingar", "ˈoːrfiŋɡar"],  // Ōra 'ear' + fingar: the 'ear finger', probably a loan translation of Latin auriculāris; four glosses from the 11th century (Köbler).
     gmh: ["ōrvinger", "ˈoːrviŋər"],  // The 'ear finger', continuing Old High German ōrfingar; still listed as Ohrfinger in Grimm's dictionary (Köbler).
     sa: ["कनिष्ठिका", "kɐniʂʈʰikaː"],  // 'The smallest', the feminine of kaniṣṭhaka; used for the little finger from the Śatapatha Brāhmaṇa on (Monier-Williams).
+    arc: ["ܚܨܪܐ", "ħesˤraː"],  // Ḥeṣrā, from a root meaning 'to narrow', in the Targums and in Syriac (Comprehensive Aramaic Lexicon).
   },
 };

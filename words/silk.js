@@ -833,5 +833,6 @@ WORDS.silk = {
     gha: ["elḫarir", "ɐlħarir"],  // From Arabic al-ḥarīr (Lanfry marks it ar.).
     siz: ["əlaħrir", "əlaʜrir"],  // Borrowed from Arabic ḥarīr.
     ofs: ["sīde", "ˈsiːde"],  // The ancestor of West Frisian side, from Proto-Germanic *sīdǭ.
+    arc: ["ܫܐܪܝܐ", "ʃeːʔraːjaː"],  // Šēʾrāyā, found in Babylonian and Samaritan Aramaic and in Syriac (Comprehensive Aramaic Lexicon).
   }
 };

@@ -631,6 +631,16 @@ WORDS.grandmother = {
     bca: "unknown",
     mra: "unknown",
     nzm: "unknown",
+    bew: "one",
+    pmy: "one",
+    max: "one",
+    bug: "one",
+    ace: "one",
+    sas: "one",
+    nij: "unknown",
+    mhy: "unknown",
+    akb: "unknown",
+    ami: "unknown",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -1206,5 +1216,15 @@ WORDS.grandmother = {
     bca: ["ane", "a˧˩ne˦˦"],  // The source gives one word for grandmother and does not say whether the father's and the mother's mother are told apart. From Allen's Bai survey (Jianchuan); the grandfather is a31ji42.
     mra: ["ʔi jaa", "ʔi jaː"],  // The source gives one word for grandmother and does not say whether the father's and the mother's mother are told apart. From the IDS Mlabri list (ʔi ja:).
     nzm: ["mipai", "mipai"],  // The source gives one word for grandmother and does not say whether the father's and the mother's mother are told apart. From Marrison's Naga survey (mi-pai, with the mi- prefix this row keeps on kin and body words).
+    bew: ["nènèʼ", "nɛnɛʔ"],  // From Malay nenek; one word for both grandmothers. Also enya' and ema'.
+    pmy: ["nene", "nene"],  // Used for Timothy's grandmother Lois in 2 Timothy 1:5 (ko pu nene Lois); cf. Malay nenek.
+    max: ["nene", "nene"],  // Used for Timothy's grandmother Lois in 2 Timothy 1:5 (ngana pe nene Lois); cf. Malay nenek.
+    bug: ["néné", "nene"],  // Used for Timothy's grandmother Lois in 2 Timothy 1:5 (nénému Lois 'your grandmother Lois'); cf. Malay nenek.
+    ace: ["nék", "nek"],  // Used for Timothy's grandmother Lois in 2 Timothy 1:5 (nék gata Lois 'your grandmother Lois'); cf. Malay nenek.
+    sas: ["niniq", "niniʔ"],  // Used for Timothy's grandmother Lois in 2 Timothy 1:5 (niniqde 'your grandmother'); cf. Sundanese nini.
+    nij: ["tambi", "tambi"],  // Used for Timothy's grandmother Lois in 2 Timothy 1:5 (tambim Lois 'your grandmother Lois').
+    mhy: ["itak", "itak"],  // Used for Timothy's grandmother Lois in 2 Timothy 1:5 (itaknu hi Lois 'your grandmother Lois').
+    akb: ["ompung", "ompuŋ"],  // Used for Timothy's grandmother Lois in 2 Timothy 1:5 (ompungmu si Lois 'your grandmother Lois').
+    ami: ["mamo", "mamo"],  // Used for Timothy's grandmother Lois in 2 Timothy 1:5 (mamo iso ci Lois 'your grandmother Lois').
   },
 };

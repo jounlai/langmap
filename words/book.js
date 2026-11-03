@@ -1116,5 +1116,6 @@ WORDS.book = {
     auj: ["əlmə́ṣḥaf", "əlˈməsˤħaf"],  // From Arabic muṣḥaf, which also means a copy of the Qur'an.
     siz: ["təxtəmət", "təχtəmət"],  // From Arabic ḫatma, 'a copy of the Quran'.
     zh_jiao: ["书", "ʃu˨˩˧"],
+    agt: ["lebru", "lebru"],  // From Spanish libro; the book of Isaiah in Luke 4:17 and the books in Revelation 20:12.
   }
 };

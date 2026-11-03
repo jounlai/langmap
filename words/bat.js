@@ -645,6 +645,12 @@ WORDS.bat = {
     mra: "unknown",
     lic: "unknown",
     vi_nom: "plain",
+    ami: "plain",
+    ilo: "plain",
+    tpi: "plain",
+    akb: "plain",
+    iba: "plain",
+    aoz: "plain",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1235,5 +1241,11 @@ WORDS.bat = {
     mra: ["tɨ krek", "tɨ krek"],  // From the IDS Mlabri list, the same source as most of this row.
     lic: ["pɯ1 gu:k7", "pɯ˥˧ ɡuːk˥˥"],  // From the IDS Hlai (Baoting) list, the same source as the rest of this row; pɯ1 also begins this row's butterfly.
     vi_nom: ["猚", "zəːj˧"],  // The Nôm spelling of dơi that Wiktionary lists first; it is the standard Vietnamese word.
+    ami: ["fidadoki", "fiðaðoki"],  // Amis word for the bat.
+    ilo: ["panniki", "panˈniki"],  // Inherited from Proto-Philippine *panikiq; Wiktionary glosses it 'fruit bat', and the Ilocano Bible uses it for the bat in Leviticus 11:19 and Deuteronomy 14:18.
+    tpi: ["blakbokis", "blakbokis"],  // Tok Pisin word for the fruit bat or flying fox; the Bible uses it for 'bats' in Isaiah 2:20.
+    akb: ["arip-arip", "ariparip"],  // Angkola word for the bat; it closes the list of unclean birds in Leviticus 11:19 and Deuteronomy 14:18, where the Hebrew has the bat.
+    iba: ["kusing", "kusiŋ"],  // Iban word for the bat in Leviticus 11:19, Deuteronomy 14:18 and Isaiah 2:20 ('to the moles and to the bats': jelu chuik enggau kusing).
+    aoz: ["baʼu", "baʔu"],  // Atoni (Uab Meto) word for the bat; it closes the list of unclean birds in Leviticus 11:19 and Deuteronomy 14:18, where the Hebrew has the bat.
   },
 };

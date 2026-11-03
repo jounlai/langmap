@@ -879,6 +879,10 @@ WORDS.tomorrow = {
     mra: "unknown",
     lic: "unknown",
     nzm: "unknown",
+    ckv: "plain",
+    pag: "plain",
+    pam: "plain",
+    agt: "plain",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -1702,5 +1706,9 @@ WORDS.tomorrow = {
     mra: ["ma ʔɨn", "ma ʔɨn"],  // From the IDS Mlabri list; yesterday is ti waa.
     lic: ["ɯ3 hau2", "ɯ˩˩ hau˥˥"],  // From the IDS Hlai (Baoting) list (ʔɨ3 hau2; the row writes no initial glottal stop); yesterday is ɯ3 phan3.
     nzm: ["nchuanai", "ntʃuanai"],  // From Marrison's Naga survey, the source of most of this row; yesterday is nzinai.
+    ckv: ["temawaR", "təmawaʁ"],  // Kavalan word for 'tomorrow'; 'yesterday' is siRab.
+    pag: ["nabwas", "nabwas"],  // Pangasinan word for tomorrow (Matthew 6:34; James 4:13 natan o nabwas 'today or tomorrow'); yesterday is karuman.
+    pam: ["bukas", "bukas"],  // Kapampangan word for tomorrow (Matthew 6:34 aldo bukas; James 4:13); yesterday is napun.
+    agt: ["lakwat", "lakwat"],  // Central Cagayan Agta word for tomorrow (Matthew 6:34; James 4:13 arawin ono lakwat 'today or tomorrow').
   },
 };

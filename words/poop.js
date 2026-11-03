@@ -949,5 +949,6 @@ WORDS.poop = {
     kqn: ["tuvwi", "tuvwi"],
     zag: ["hire", "hɪɾɛ"],  // The neutral word for excrement is tîye.
     yiz: ["ɬi", "ɬi˨˩"],  // From Yang's Yi survey (excrement); Lama's Nisoic list also has ɬi21.
+    ivv: ["tachi", "tatʃi"],  // Ivatan word for feces, inherited from Proto-Austronesian *taki (compare Ilocano takki, Cebuano tai).
   },
 };

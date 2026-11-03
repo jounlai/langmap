@@ -753,6 +753,7 @@ WORDS.rainbow = {
     acn: "unknown",
     clk: "plain",
     mra: "unknown",
+    osn: "plain",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1449,5 +1450,6 @@ WORDS.rainbow = {
     acn: ["xɔŋ51 nʲin31 nam31", "xɔŋ˥˩ nʲin˧˩ nam˧˩"],  // From Sagart et al.'s Sino-Tibetan list, the source this row follows; Sun 1991 has xɔŋ51tɕin31nam31.
     clk: ["ɑ31hɯ55", "ɑ˧˩hɯ˥˥"],  // No image is recorded for it, so it counts as a word of its own. From Sagart et al.'s Sino-Tibetan list, the source this row follows.
     mra: ["tot paŋ", "tot paŋ"],  // From the IDS Mlabri list; the source gives no analysis.
+    osn: ["kuwung-kuwung", "kuwuŋkuwuŋ"],  // Attested in the late-15th-century Bujangga Manik (folio 33v: diliuṅ ku kuwuṅ-kuwuṅ 'surrounded by rainbows'); cognate with Old Javanese kuwuṅ-kuwuṅ, continued as Sundanese kuwung-kuwung.
   },
 };

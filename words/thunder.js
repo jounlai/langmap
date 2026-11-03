@@ -720,6 +720,16 @@ WORDS.thunder = {
     mlm: "unknown",
     mra: "plain",
     yiz: "sky",
+    ilo: "plain",
+    itb: "plain",
+    pzh: "plain",
+    gay: "plain",
+    bto: "plain",
+    pwn: "plain",
+    dru: "plain",
+    pag: "plain",
+    agt: "plain",
+    pmy: "plain",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1386,5 +1396,15 @@ WORDS.thunder = {
     mlm: ["la:k8 pɣa3", "laːk˩˩ pɣa˥˧"],  // From the IDS Mulam list; la:k8 also begins this row's star and daughter.
     mra: ["kɨr", "kɨr"],  // No image is recorded for it, so it counts as a word of its own. From the IDS Mlabri list.
     yiz: ["muʂa", "mu˨˩ʂa˨˨"],  // mu21 'sky' + ʂa22 (tense vowel in the source); the sky word is mu21 in the same survey.
+    ilo: ["gurruod", "ɡurruod"],  // Ilocano word for thunder; Mark 3:17 renders Boanerges 'sons of thunder' as annak a lalaki ti gurruod.
+    itb: ["raagorog", "raaɡoroɡ"],  // Itbayaten word for thunder.
+    pzh: ["kuras", "kuɾas"],  // Pazeh word for thunder; Ferrell 1969 records it as ku'ás / kurass.
+    gay: ["gegur", "ɡəɡur"],  // Gayo word for thunder.
+    bto: ["dagul-dul", "daɡulʔdul"],  // Rinconada Bikol word for thunder.
+    pwn: ["celalaq", "tsəɭaɭaq"],  // Paiwan word for thunder; recorded as tselalaq by Egli and Ferrell, cəLaLaq by Li 2004.
+    dru: ["dreredrere", "ɖəɾəɖəɾə"],  // Rukai word for thunder, from Proto-Rukai *DərəDərə (Proto-Austronesian *dəʀdəʀ); the Rukai Bible renders Boanerges in Mark 3:17 as 'like thunder' (mia ki dreredrere).
+    pag: ["karul", "kaɾul"],  // Pangasinan word for thunder; Mark 3:17 calls James and John Anak na Karul 'sons of thunder', and John 12:29 has kinmarul 'it thundered'.
+    agt: ["dalak", "dalak"],  // Central Cagayan Agta word for thunder (Mark 3:17, John 12:29, Revelation 6:1).
+    pmy: ["guntur", "ɡuntur"],  // Same word as Indonesian guntur; Mark 3:17 explains Boanerges as anana guntur 'children of thunder'.
   },
 };

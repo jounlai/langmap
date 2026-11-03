@@ -316,6 +316,7 @@ WORDS.shootingstar = {
     ko_bus: "other",
     nan_te: "moving",
     cnp: "moving",
+    bnn: "plain",
   },
   routes: {
     falling: {"color":"#2563eb","emoji":"⬇️","en":"a falling star","ja":"落ちる星","ko":"떨어지는 별","zh":"落下的星","yue":"跌落嘅星","vi":"sao rơi","th":"ดาวที่ตก","id":"bintang jatuh","hi":"गिरता तारा","de":"fallender Stern","fr":"étoile qui tombe","it":"stella che cade","es":"estrella que cae","pt":"estrela que cai","ru":"падающая звезда","uk":"зірка, що падає","ar":"نجم يسقط","he":"כוכב שנופל","sw":"nyota inayoanguka"},
@@ -577,5 +578,6 @@ WORDS.shootingstar = {
     ko_bus: ["별똥별", "pjʌlt͈oŋbjʌl"],  // Literally 'star-dung star'; the Sino-Korean 유성 is the formal term. The national word, which Busan speech uses as well.
     nan_te: ["流星", "liu˥˥ tsʰẽ˧˧"],  // 'Flowing star', with the colloquial reading of 星; Wiktionary's Teochew pronunciation.
     cnp: ["流星", "lɐu˨˩ ɬeŋ˥˧"],  // Literally 'flowing star', as in Standard Chinese.
+    bnn: ["budias", "budias"],  // Bunun word for a meteor or shooting star.
   },
 };

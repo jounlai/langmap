@@ -272,6 +272,7 @@ WORDS.adamsapple = {
     wuu_hz: "other",
     zh_db: "other",
     vi_nom: "plain",
+    mak: "other",
   },
   routes: {
     adam: {"color":"#dc2626","emoji":"🍏","en":"Adam's apple","ja":"アダムのりんご","ko":"아담의 사과","zh":"亚当的苹果","yue":"亞當嘅蘋果","vi":"táo của Adam","th":"แอปเปิลของอาดัม","id":"apel Adam","hi":"आदम का सेब","de":"Adams Apfel","fr":"pomme d'Adam","it":"pomo d'Adamo","es":"fruto de Adán","pt":"maçã de Adão","ru":"яблоко Адама","uk":"яблуко Адама","ar":"تفاحة آدم","he":"תפוח אדם","sw":"tufaha la Adamu"},
@@ -488,5 +489,6 @@ WORDS.adamsapple = {
     wuu_hz: ["喉结", "ɦei˨˩˧ tɕieʔ˥"],  // Literally 'throat knot', as in Standard Chinese.
     zh_db: ["喉结", "xoʊ̯˧˥ tɕjɛ˧˥"],  // Literally 'throat knot', the standard word; Harbin also says 喉结儿 and 嗓胡芦.
     vi_nom: ["咽喉", "iət˧˥ həw˨˩"],  // yết hầu is the Sino-Vietnamese reading of 咽喉 'throat', written with the Chinese characters.
+    mak: ["buttu kallong", "butːu kalːoŋ"],  // Literally 'bump of the neck': buttu 'bump, knob' + kallong 'neck'.
   },
 };

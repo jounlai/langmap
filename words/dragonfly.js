@@ -283,6 +283,8 @@ WORDS.dragonfly = {
     ko_jeju: "plain",
     nan_ph: "plain",
     vi_nom: "plain",
+    bew: "plain",
+    ssf: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -511,5 +513,7 @@ WORDS.dragonfly = {
     ko_jeju: ["밥주리", "pap̚t͈ɕuɾi"],  // The Jeju word; Standard Korean says 잠자리.
     nan_ph: ["田嬰", "tsʰan˨˦ ĩ˧˧"],  // The Hokkien word for the dragonfly, as in Quanzhou.
     vi_nom: ["存存", "tɕuən˨˩ tɕuən˨˩"],  // The Nôm spelling of chuồn chuồn that Wiktionary lists first; the word is the reduplicated chuồn.
+    bew: ["capung", "tʃapuŋ"],  // Borrowed from Balinese capung 'dragonfly'.
+    ssf: ["tambalawan", "tambalawan"],  // Thao word for the dragonfly.
   },
 };

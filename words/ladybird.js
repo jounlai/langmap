@@ -239,6 +239,7 @@ WORDS.ladybird = {
     nan_xm: "other",
     nan_zz: "other",
     nan_te: "other",
+    tao: "unknown",
   },
   routes: {
     holy: {"color":"#7c3aed","emoji":"😇","en":"Mary · God · a saint","ja":"聖母・神・聖人","ko":"성모 · 하느님 · 성인","zh":"圣母・上帝・圣人","yue":"聖母 · 上帝 · 聖人","vi":"Đức Mẹ · Chúa · thánh","th":"พระแม่ · พระเจ้า · นักบุญ","id":"Bunda Maria · Tuhan · santo","hi":"मरियम · ईश्वर · संत","de":"Maria · Gott · Heilige","fr":"Marie · Dieu · un saint","it":"Maria · Dio · un santo","es":"María · Dios · un santo","pt":"Maria · Deus · um santo","ru":"Богородица · Бог · святой","uk":"Богородиця · Бог · святий","ar":"مريم · الله · قديس","he":"מרים · האל · קדוש","sw":"Maria · Mungu · mtakatifu"},
@@ -421,5 +422,6 @@ WORDS.ladybird = {
     nan_xm: ["乌龟仔", "ɔ˦˦ ku˦˦ a˥˧"],  // Literally 'little tortoise'.
     nan_zz: ["乌龟仔", "ɔ˦˦ ku˦˦ a˥˧"],  // Literally 'little tortoise'; in Zhangzhou it can also mean a black beetle.
     nan_te: ["红先生", "aŋ˥˥ siŋ˧˧ sẽ˧˧"],  // Literally 'Mr Red'.
+    tao: ["koto no karam", "koto no karam"],  // Yami (Tao) name for the ladybird.
   },
 };

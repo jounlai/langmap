@@ -893,7 +893,6 @@ WORDS.rice = {
     kio: ["ì:ógûè:", "ìːóɡûèː"],
     hup: ["qo:-nehwa:n", "qoːnehwaːn"],
     haj: ["চৗল", "tʃɯl"],
-    yiz: ["dzotɕɪ", "dzo˨˨tɕɪ˥˥"],
     mrq: ["karaihi", "kaɾaihi"],
     gay: ["oros", "ɔrɔs"],
     gsw_als: ["Riss", "ris"],

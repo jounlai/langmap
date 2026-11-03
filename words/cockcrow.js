@@ -587,6 +587,7 @@ WORDS.cockcrow = {
     zh_db: ["喔喔", "wo˥ wo˥"],
     dnj: ["kɔ̏kɔ̏ŋkɔ́ɔ̏", "kɔ̏kɔ̏ŋkɔ́ɔ̏"],
     ar: ["كُوكُوكُوكُو", "kuːkuːkuːkuː"],
-    zh_yuan: ["喈喈", "kiai kiai"]
+    zh_yuan: ["喈喈", "kiai kiai"],
+    shn: ["ဢုၵ်ႉၵလုၼ်းဢုၵ်ႈ", "ʔuk˦˨ˀ ka˨˦ lun˥ ʔuk˧˨"],  // Glossed 'crowing of a rooster, cockadoodledoo!' in the SEAlang Shan dictionary; a young rooster's crow is ဢႅၵ်ႉၵလႅၼ်းဢႅၵ်ႉ.
   },
 };

@@ -883,6 +883,8 @@ WORDS.tomorrow = {
     pag: "plain",
     pam: "plain",
     agt: "plain",
+    grt: "plain",
+    th_n: "plain",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -1710,5 +1712,7 @@ WORDS.tomorrow = {
     pag: ["nabwas", "nabwas"],  // Pangasinan word for tomorrow (Matthew 6:34; James 4:13 natan o nabwas 'today or tomorrow'); yesterday is karuman.
     pam: ["bukas", "bukas"],  // Kapampangan word for tomorrow (Matthew 6:34 aldo bukas; James 4:13); yesterday is napun.
     agt: ["lakwat", "lakwat"],  // Central Cagayan Agta word for tomorrow (Matthew 6:34; James 4:13 arawin ono lakwat 'today or tomorrow').
+    grt: ["knal", "knal"],  // No image is recorded for it, so it counts as a word of its own. Yesterday is mejao.
+    th_n: ["พูก", "pʰuːk˦˩"],  // Inherited from Proto-Tai *ɟm̩.rukᴰ 'tomorrow', cognate with Thai พรุ่ง (Wiktionary); it is often prefixed with วัน 'day' without change in meaning (วันพูก). Tai Tham spelling ᨻᩕᩪᨠ.
   },
 };

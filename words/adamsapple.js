@@ -274,6 +274,7 @@ WORDS.adamsapple = {
     vi_nom: "plain",
     mak: "other",
     ja_oki: "other",
+    lo: "other",
   },
   routes: {
     adam: {"color":"#dc2626","emoji":"🍏","en":"Adam's apple","ja":"アダムのりんご","ko":"아담의 사과","zh":"亚当的苹果","yue":"亞當嘅蘋果","vi":"táo của Adam","th":"แอปเปิลของอาดัม","id":"apel Adam","hi":"आदम का सेब","de":"Adams Apfel","fr":"pomme d'Adam","it":"pomo d'Adamo","es":"fruto de Adán","pt":"maçã de Adão","ru":"яблоко Адама","uk":"яблуко Адама","ar":"تفاحة آدم","he":"תפוח אדם","sw":"tufaha la Adamu"},
@@ -492,5 +493,6 @@ WORDS.adamsapple = {
     vi_nom: ["咽喉", "iət˧˥ həw˨˩"],  // yết hầu is the Sino-Vietnamese reading of 咽喉 'throat', written with the Chinese characters.
     mak: ["buttu kallong", "butːu kalːoŋ"],  // Literally 'bump of the neck': buttu 'bump, knob' + kallong 'neck'.
     ja_oki: ["喉ぐーふ", "nuːdiːɡuːɸu"],  // Okinawan nuudiiguufu, literally 'throat lump' (ぐーふ 'bump, lump'); standard Japanese 喉仏.
+    lo: ["ຄໍຫອຍ", "kʰɔː˧˥ hɔːj˩˧"],  // Literally 'neck shell': ຄໍ 'neck' + ຫອຍ 'mollusc, shell' (SEAlang Lao dictionary, which glosses it 'throat; Adam's apple').
   },
 };

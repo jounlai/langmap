@@ -418,6 +418,7 @@ WORDS.turkey = {
     szy: "local",
     tsg: "elsewhere",
     ja_oki: "local",
+    mnw: "unknown",
   },
   routes: {
     india: {"color":"#ea580c","emoji":"🐘","en":"named for India · the Indies","ja":"インドの名で","ko":"인도의 이름으로","zh":"以印度为名","yue":"以印度為名","vi":"theo tên Ấn Độ","th":"ตั้งตามอินเดีย","id":"dinamai India","hi":"भारत के नाम पर","de":"nach Indien benannt","fr":"nommé d'après l'Inde","it":"dal nome dell'India","es":"por la India","pt":"pelo nome da Índia","ru":"по Индии","uk":"за Індією","ar":"باسم الهند","he":"על שם הודו","sw":"kwa jina la India"},
@@ -777,5 +778,6 @@ WORDS.turkey = {
     szy: ["siminciw", "simintsiw"],  // Borrowed from Japanese 七面鳥 shichimenchō 'seven-faced bird', the turkey.
     tsg: ["aymbalandaꞌ", "ʔaimbalandaʔ"],  // Borrowed from Malay ayam belanda 'Dutch chicken'.
     ja_oki: ["七面鳥", "ɕitɕimintɕoː"],  // Borrowed from Japanese 七面鳥 shichimenchō 'seven-faced bird'.
+    mnw: ["စာၚ် စိၚ်", "caiŋ coiŋ"],  // Glossed 'turkey' in the SEAlang Mon dictionary; the source gives no analysis.
   },
 };

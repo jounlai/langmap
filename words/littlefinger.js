@@ -463,6 +463,7 @@ WORDS.littlefinger = {
     cnp: "small",
     wuu_jh: "small",
     ckv: "plain",
+    mnw: "plain",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -871,5 +872,6 @@ WORDS.littlefinger = {
     cnp: ["细手指", "ɬɐi˥˥ ʃɐu˧˧ tʃi˧˧"],  // Literally 'small finger'.
     wuu_jh: ["小手拇执头", "siɑu˥˧˥ ɕiu˥˧˥ mɛ˧˩˧ tɕiəʔ˦ diu˧˩˧"],  // Literally 'small hand-finger'; the thumb is 大手拇执头.
     ckv: ["smutki", "smutki"],  // Kavalan word for the little finger; the same word names the little toe.
+    mnw: ["ဣကေန်", "ʔiʔken"],  // Glossed 'little finger' in the SEAlang Mon dictionary (Shorto), which analyses it as the prefix iˀ- + ken; No image is recorded for it, so it counts as a word of its own.
   },
 };

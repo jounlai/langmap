@@ -238,6 +238,8 @@ WORDS.wisdomtooth = {
     mak: "other",
     tet: "other",
     ja_chu: "other",
+    shn: "other",
+    lo: "age",
   },
   routes: {
     wisdom: {"color":"#7c3aed","emoji":"🦉","en":"wisdom · sense","ja":"知恵・分別","ko":"지혜 · 분별","zh":"智慧・理智","yue":"智慧 · 理智","vi":"trí khôn · sự hiểu biết","th":"ปัญญา · ความรู้คิด","id":"kebijaksanaan · akal","hi":"बुद्धि · अक़्ल","de":"Weisheit · Verstand","fr":"sagesse · raison","it":"saggezza · giudizio","es":"sabiduría · juicio","pt":"sabedoria · siso","ru":"мудрость · разум","uk":"мудрість · розум","ar":"الحكمة · العقل","he":"חוכמה · בינה","sw":"busara · akili"},
@@ -419,5 +421,7 @@ WORDS.wisdomtooth = {
     mak: ["ngaʼngalaʼ tedong", "ŋaʔŋalaʔ tedoŋ"],  // Literally 'buffalo molar'.
     tet: ["nehan-kraik", "nehankraik"],  // Literally 'low tooth': nehan 'tooth' + kraik 'low'.
     ja_chu: ["親不知", "ojaɕiɾazu"],  // 'Unknown to the parents', short for oyashirazu-ba; NKD cites it from the Jesuit Latin-Portuguese-Japanese dictionary (1595).
+    shn: ["ၶဵဝ်ႈၸိမ်", "kʰew˧˨ tsim˨˦"],  // Literally 'wedge tooth': ၶဵဝ်ႈ 'teeth' + ၸိမ် 'wedge' (SEAlang Shan dictionary, which glosses it 'wisdom tooth').
+    lo: ["ແຂ້ວຊາວ", "kʰɛːw˧˩ saːw˧˥"],  // Literally 'twenty tooth': ແຂ້ວ 'tooth' + ຊາວ 'twenty' (SEAlang Lao dictionary).
   },
 };

@@ -233,6 +233,7 @@ WORDS.goosebumps = {
     zh_jn: "bird",
     ja_oki: "plain",
     ja_chu: "bird",
+    shn: "hair",
   },
   family2: {
     ko: "bird",
@@ -414,5 +415,6 @@ WORDS.goosebumps = {
     zh_jn: ["鸡皮疙瘩", "tɕi˨˩˧ pʰi˦˨ kə˨˩˧ ta˦˨"],  // Literally 'chicken-skin bumps', as in Standard Chinese.
     ja_oki: ["きーぶりだーちゃー", "kiːbuɾidaːtɕaː"],  // Okinawan word for goose bumps; variant きーぶるだーちゃー.
     ja_chu: ["鳥肌", "toɾihada"],  // 'Bird skin', like the skin of a plucked chicken; NKD cites it from the Vocabvlario (1603-04).
+    shn: ["တုမ်ႇၶူၼ်ၼိူဝ်ႉ", "tum˩ kʰon˨˦ nɤː˦˨ˀ"],  // Glossed 'gooseflesh' in the SEAlang Shan dictionary: တုမ်ႇ 'bud, pimple' + ၶူၼ် 'body hair' + ၼိူဝ်ႉ 'flesh, skin'.
   },
 };

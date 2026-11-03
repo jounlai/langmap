@@ -616,6 +616,7 @@ WORDS.bat = {
     sga: "plain",
     osx: "mouse",
     pi: "other",
+    cop: "plain",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1177,5 +1178,6 @@ WORDS.bat = {
     sga: ["íatlu", "ˈiːadlu"],  // The ancestor of Irish ialtóg (eDIL). No image is recorded for it, so it counts as a word of its own.
     osx: ["fletharmūs", "ˈfleθarmuːs"],  // The 'flutter-mouse', like German Fledermaus; found once, glossing Latin blattis in an early 11th-century glossary (Köbler).
     pi: ["वग्गुलि", "vaɡːuli"],  // Compare Sanskrit valgulī, from valg 'to flutter': the flutterer; the Vinaya already has it (PTS Pali-English Dictionary p. 591).
+    cop: ["ϭⲓⲛϭⲗⲱ", "kʲinkʲloː"],  // Sahidic, with many spellings; Bohairic ϫⲉⲗϫⲟⲩ (Coptic Dictionary Online, after Crum). No image is recorded for it, so it counts as a word of its own.
   },
 };

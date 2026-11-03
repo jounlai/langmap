@@ -709,6 +709,7 @@ WORDS.thunder = {
     fa_clas: "plain",
     mga: "plain",
     sa: "plain",
+    cop: "sky",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1364,5 +1365,6 @@ WORDS.thunder = {
     fa_clas: ["تندر", "tundar"],  // Inherited from Proto-Iranian *tánHtā; the Arabic loan رعد later became the everyday word.
     mga: ["toirnech", "ˈtorʲnʲex"],  // A derivative of Old Irish torann 'thunder', from Proto-Celtic *toranos; the ancestor of Irish toirneach (eDIL).
     sa: ["स्तनयित्नुः", "stɐnɐjitnuh"],  // From stan 'to roar, thunder', cognate with Latin tonāre; attested from the Rigveda, and in the plural personified as the children of Vidyota, 'Lightning' (Monier-Williams).
+    cop: ["ϩⲣⲟⲩⲃⲃⲁⲓ", "hrubbai"],  // Built on ϩⲣⲟⲩ 'voice' and glossed 'voice of heaven'; the rarer ϩⲣⲟⲩⲙⲡⲉ is literally 'voice of the sky' (Coptic Dictionary Online, after Crum).
   },
 };

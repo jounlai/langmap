@@ -437,6 +437,7 @@ WORDS.littlefinger = {
     sa: "small",
     arc: "small",
     el_grc: "other",
+    cop: "plain",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -819,5 +820,6 @@ WORDS.littlefinger = {
     sa: ["कनिष्ठिका", "kɐniʂʈʰikaː"],  // 'The smallest', the feminine of kaniṣṭhaka; used for the little finger from the Śatapatha Brāhmaṇa on (Monier-Williams).
     arc: ["ܚܨܪܐ", "ħesˤraː"],  // Ḥeṣrā, from a root meaning 'to narrow', in the Targums and in Syriac (Comprehensive Aramaic Lexicon).
     el_grc: ["ἔσχατος δάκτυλος", "éskʰatos dáktylos"],  // 'The last finger': Aristotle (Parts of Animals 687b17) counts the fingers from the thumb, ὁ μέγας δάκτυλος 'the big finger', to ὁ ἔσχατος (LSJ).
+    cop: ["ⲥⲉⲗⲉⲡⲓⲛ", "selepin"],  // Also the little toe; Bohairic ⲥⲉⲗⲟⲩⲡⲓⲛ (Coptic Dictionary Online, after Crum). No image is recorded for it, so it counts as a word of its own.
   },
 };

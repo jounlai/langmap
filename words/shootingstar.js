@@ -304,6 +304,7 @@ WORDS.shootingstar = {
     ota: "other",
     syc: "other",
     non: "unknown",
+    el_grc: "moving",
   },
   routes: {
     falling: {"color":"#2563eb","emoji":"⬇️","en":"a falling star","ja":"落ちる星","ko":"떨어지는 별","zh":"落下的星","yue":"跌落嘅星","vi":"sao rơi","th":"ดาวที่ตก","id":"bintang jatuh","hi":"गिरता तारा","de":"fallender Stern","fr":"étoile qui tombe","it":"stella che cade","es":"estrella que cae","pt":"estrela que cai","ru":"падающая звезда","uk":"зірка, що падає","ar":"نجم يسقط","he":"כוכב שנופל","sw":"nyota inayoanguka"},
@@ -553,5 +554,6 @@ WORDS.shootingstar = {
     ota: ["شهاب", "ʃiˈhab"],  // From Arabic شهاب 'blazing firebrand'.
     syc: ["ܢܝܙܟܐ", "najzəxaː"],  // The 'spear': nayzəkā also means spear or javelin, a loan from Old Persian.
     non: ["skarsl", "skarsl"],  // De Vries links it to skera 'to cut', but no source gives the image (Köbler).
+    el_grc: ["διᾴττων ἀστήρ", "diǎːittɔːn astɛ̌ːr"],  // The 'darting star', from διαΐσσω 'to dart through'; the plural διᾴττοντες ἀστέρες is Anaxagoras's and Aristotle's term (LSJ).
   },
 };

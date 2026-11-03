@@ -1327,7 +1327,7 @@ WORDS.n99 = {
     gan: ["九十九", "tɕiu˨˩˧ sɨt˨ tɕiu˨˩˧"], // was ["九十九", "tɕiu˨˩˧ sɨʔ˨ tɕiu˨˩˧"] (vi dialect rules 2026-10-06)
     cnp: ["九十九", "kɐu˧˧ ʃɐp˨ kɐu˧˧"], // was ["九十九", "kɐu˧˧ sɐp˨ kɐu˧˧"] (vi dialect rules 2026-10-06)
     hak_tw: ["九十九", "kiu˧˩ sɨp˥ kiu˧˩"],
-    nan: ["九十九", "kau˥˧ tsap˦ kau˥˧"],
+    nan: ["九十九", "kau˥˧ tsap˦ kau˥˧"],  // The colloquial reading káu-tsa̍p-káu, used in speech; the literary reading kiú-si̍p-kiú belongs to formal, read-aloud contexts.
     wuu_nb: ["九十九", "tɕiʏ˧˨˥ zɹ̩ʷœʔ˩˨ tɕiʏ˧˨˥"], // was ["九十九", "tɕiʏ˧˨˥ zəʔ˩˨ tɕiʏ˧˨˥"] (vi dialect rules 2026-10-06)
     wuu_sz: ["九十九", "tɕiʏ˥˩ zəʔ˧ tɕiʏ˥˩"],
     hsn: ["九十九", "tɕiəu˦˩ ʂʅ˨˦ tɕiəu˦˩"], // was ["九十九", "tɕiəu˦˩ sɹ̩˨˦ tɕiəu˦˩"] (vi dialect rules 2026-10-06)

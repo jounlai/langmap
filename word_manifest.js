@@ -79,7 +79,7 @@ const WORD_CATEGORIES = [
         label: {
             en: "Numbers", ja: "数", ko: "수", zh: "数字", yue: "數字", vi: "Số", th: "ตัวเลข", id: "Angka", hi: "संख्याएँ", de: "Zahlen", fr: "Nombres", it: "Numeri", es: "Números", pt: "Números", ru: "Числа", uk: "Числа", ar: "الأعداد", he: "מספרים", sw: "Namba"
         },
-        words: ["one", "two", "three", "four", "five", "hundred", "n99"],
+        words: ["one", "two", "three", "four", "five", "twenty", "hundred", "n99"],
     },
     {
         key: "greetings",

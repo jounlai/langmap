@@ -805,7 +805,7 @@ WORDS.bird = {
     // --- Caucasus — Turkic quš spread through Lezgic and Khinalug; the rest are native
     agx: ["къуш", "quʃ"],
     lez: ["къуш", "quʃ"],
-    udi: ["къуш", "quʃ"],
+    udi: ["къуш", "qʼuʃ"],
     kjj: ["къуш", "quʃ"],
     kry: ["quş", "quʃ"],
     ddo: ["агъи", "aʁi"],

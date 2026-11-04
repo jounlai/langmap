@@ -1155,7 +1155,7 @@ WORDS.blood = {
     sda: ["rara", "rara"],
     lld: ["sanch", "saŋk"],
     stq: ["Bloud", "bloːu̯d"],
-    wym: ["błut", "bwut"],
+    wym: ["błüt", "bwyt"],
     yuc: ["wi", "wi"],
     kgg: ["ləpa", "ləpa"],
     ota: ["قان", "kan"],

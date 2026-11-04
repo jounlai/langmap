@@ -226,7 +226,7 @@ WORDS.ear = {
     ext: ["oreha", "oˈɾeha"],
     lad: ["oreja", "oˈɾeʒa"],
     rup: ["ureaclji", "uˈrjakʎi"],
-    ruq: ["ureacľă", "uˈrjakʎə"],
+    ruq: ["ureacľă", "uˈre̯akʎə"],
     nap: ["'recchia", "ˈrɛkkjə"],
     rm: ["ureglia", "uˈreʎa"],
     sc: ["origa", "oˈriɡa"],

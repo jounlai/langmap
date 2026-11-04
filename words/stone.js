@@ -1063,7 +1063,7 @@ WORDS.stone = {
     shp: ["makan", "makan"],
     chf: ["jiʼtun", "hiʔtun"],
     emp: ["mõgara", "mõɡaɾa"],
-    udi: ["жӏеъ", "dʒeˤ"],
+    udi: ["жӏеъ", "ʒˤeˤ"],
     crn: ["tetej", "teˈteh"],
     crx: ["t̲s̲e", "tse"],
     ame: ["mapueʼ", "mapweʔ"],

@@ -1219,7 +1219,7 @@ WORDS.good = {
     sda: ["melo", "melo"],
     lld: ["bon", "boŋ"],
     stq: ["goud", "ɣoːu̯d"],
-    wym: ["gut", "ɡut"],
+    wym: ["güt", "ɡyːt"],
     yuc: ["sæle", "sæle"],
     kgg: ["wen", "wen"],
     ota: ["ایی", "iˈji"],

@@ -1175,7 +1175,7 @@ WORDS.tooth = {
     sda: ["isi", "isi"],
     lld: ["dënt", "dənt"],
     stq: ["Tusk", "tʊsk"],
-    wym: ["coon", "tsoːn"],
+    wym: ["cōn", "tsoːn"],
     yuc: ["kẽ", "kẽ"],
     kgg: ["uhu", "uhu"],
     ota: ["دیش", "diʃ"],

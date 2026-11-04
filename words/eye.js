@@ -521,7 +521,7 @@ WORDS.eye = {
     bdk: ["гӏуьл", "ʕyl"],
     sdo: ["batŭh", "baˈtəh"],
     dbl: ["gayga", "ˈɡajɡa"],
-    nrf_gg: ['yeu', 'jø'],
+    nrf_gg: ["ieile", "jɛl"],
     fra_jer: ['yi', 'ji'],
     gsw_w: ['Oig', 'ɔɪ̯ɡ'],
     huz: ['гьаре', 'hare'],

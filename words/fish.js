@@ -481,7 +481,7 @@ WORDS.fish = {
     pap: ["piská", "pisˈka"],
     kea: ["pexi", "ˈpeʃi"],
     rom: ["mačho", "maˈtʃʰo"],
-    rmy: ["mačho", "ˈmatʃo"],
+    rmy: ["mačho", "ˈmatʃʰo"],
     rmf: ["mačho", "ˈmatʃo"],
     pcm: ["fish", "fiʃ"],
     tpi: ["pis", "pis"],

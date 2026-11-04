@@ -790,7 +790,7 @@ WORDS.father = {
     lbe: ["ппу", "pːu"],
     tab: ["адаш", "adaʃ"],
     aqc: ["абтту", "abtːu"],
-    udi: ["бабо", "babo"],
+    udi: ["бава", "bava"],
     tkr: ["дек", "dek"],
     kum: ["ата", "ata"],
     nog: ["атай", "ataj"],

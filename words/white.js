@@ -1057,7 +1057,7 @@ WORDS.white = {
     bdk: ["лузу", "luzu"],
     nrf_gg: ["bllànc", "bʎɑ̃"],
     fra_jer: ["blianc", "bʎɑ̃"],
-    gsw_w: ["Wiis", "ʋiːs"],
+    gsw_w: ["wiis", "ʋiːs"],
     huz: ["гьалду", "haldu"],
     khv: ["алукӏа", "alukʼa"],
     kjj: ["хьырыцӏ", "xɨrɨtsʼ"],

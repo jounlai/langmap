@@ -904,7 +904,7 @@ WORDS.mouth = {
     lkt: ["í", "í"],
     huv: ["ombeay", "ombeaj"],
     emp: ["ite", "ite"],
-    udi: ["жӏомо", "dʒomo"],
+    udi: ["жӏомо", "ʒˤomo"],
     crn: ["teni", "teni"],
     crx: ["ʼuẕe", "ʔuze"],
     rm: ["bucca", "ˈbuka"],

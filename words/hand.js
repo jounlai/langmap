@@ -521,7 +521,7 @@ WORDS.hand = {
     bdk: ["кӏуркӏучӏ", "kʼurkʼutʃʼ"],
     sdo: ["tangan", "taŋan"],
     dbl: ['mala', 'ˈmala'],
-    nrf_gg: ['main', 'mɛ̃'],
+    nrf_gg: ["môin", "mɔi"],
     fra_jer: ['main', 'mɛ̃'],
     gsw_w: ['Hand', 'hand'],
     huz: ['коро', 'koro'],

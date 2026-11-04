@@ -493,7 +493,7 @@ WORDS.tongue = {
     nej: ["mɛlepi", "mɛlepi"],
     kmu: ["avefuʼna", "avefuʔna"],
     emi: ["ramuramuti paa", "ɾamuɾamuti paa"],
-    hot: ["dahalaŋ", "dahalaŋ"],
+    hot: ["diŋeŋ", "diŋeŋ"],
     fai: ["falang", "falaŋ"],
     nlc: ["silyum", "siljum"],
     bzh: ["daggen", "ⁿdaɣɛn"],

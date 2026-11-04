@@ -835,7 +835,7 @@ WORDS.milk = {
     ja_kanbun: ["乳", "tɕitɕi"],
     ja_heian: ["乳", "titi"],
     ja_chu: ["乳", "tɕitɕi"],
-    ko_mid: ["·졎", "tsjət̚"],
+    ko_mid: ["·졎", "tsjəts"],
     lif: ["ᤏᤢ", "nu"],
     xkz: ["ju", "ɟu"],
     pban: ["*-bɪ́cɪ̀", "-bɪ́cɪ̀"],

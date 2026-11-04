@@ -671,6 +671,18 @@ line('stress mark on monosyllables', num(s, /violations: (\d+)/));
 s = run('isan_tone_check.js');
 line('Isan tones in the cited six', num(s, /violations: (\d+)/));
 
+// Added 2026-11-04 from three review passes over the East/Southeast Asian rows
+// (wordmap_reviews/review_608): each row's own convention, measured from its
+// cells, catches slips no single-cell guard sees — vi_c sắc written with the
+// checked-syllable value, Korean intervocalic ㄹ as r or a stray ̚, and a
+// Sinitic character read two ways inside one row (ratchet: lock file).
+s = run('vi_tone_check.js');
+line('Vietnamese tone per row', num(s, /violations: (\d+)/));
+s = run('ko_notation_check.js');
+line('Korean notation per row', num(s, /violations: (\d+)/));
+s = run('sinitic_char_reading_check.js --check');
+line('Sinitic character read one way', num(s, /violations: (\d+)/), num(s, /stale: (\d+)/) ? `${num(s, /stale: (\d+)/)} lock entries stale` : '');
+
 // One sound written two ways inside a single row. The IPA field has no
 // declared depth and the rows were filled by different passes from different
 // sources, so both directions happen: Truku wrote the rhotic as a trill in

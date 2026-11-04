@@ -918,6 +918,6 @@ WORDS.mobilephone = {
     cr: ["ᐊᔭᒫᑲᓂᐢ", "ajamaːkanis"],  // Literally 'little telephone': ayamâkan 'telephone' with the diminutive -is; Wolvengrey's Cree: Words also gives sêwêpicikanis 'little ringer'.
     bnn: ["takuta", "takuta"],  // The ILRDF Bunun dictionary glosses takuta as 大哥大；手機 'mobile phone'; its make-up is not given.
     ja_kg: ["携帯", "keːtai"],  // The standard Japanese word, used in Kagoshima as everywhere in Japan.
-    vi_nom: ["電話移動", "ɗiən˧˨ʔ tʰwaːj˧˨ʔ zi˧ ɗəwŋ˧˨ʔ"],  // The Hán spelling of điện thoại di động that Wiktionary gives: điện thoại 電話 'telephone' + di động 移動 'mobile'.
+    vi_nom: ["電話移動", "ɗiən˧˨ʔ tʰwaːj˧˨ʔ zi˧ ɗəwŋ͡m˧˨ʔ"],  // The Hán spelling of điện thoại di động that Wiktionary gives: điện thoại 電話 'telephone' + di động 移動 'mobile'.
   },
 };

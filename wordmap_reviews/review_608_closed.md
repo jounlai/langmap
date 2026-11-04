@@ -47,3 +47,8 @@ cells, ko_em ̚ on 2 of 10 stops, ja_kanbun 日本 ɴ. Format: ko goosebumps hol
 - Vietnamese/Thai tone and segment check (968 cells): vi_c thứ, sấm open sắc ˧˦ → ˨˦ (row: 33/35);
   vi_nom 日本 Nhật ˨˩ → ˧˨ʔ; vi_nom 𩈘 mặt mət → mat; vi_nom 英 aɲ → ajŋ; vi vang vaŋ → vaːŋ;
   vi động ɗəwŋ → ɗəwŋ͡m; th อึ ʔɯː˥˩ → ʔɯʔ˨˩ (mid class, short, unmarked = low; Wiktionary).
+
+## Guards installed (check_all)
+- tools/vi_tone_check.js — per-row quốc ngữ tone → Chao table for vi / vi_c / vi_s; vi_nom must equal the vi cell (4 reasoned ALLOW). Found vi_nom 電話移動 still lacking ͡m.
+- tools/ko_notation_check.js — intervocalic ㄹ ɾ, word-final ̚ by row majority, ㅓ letter by row majority (ko_gor/oko off; ko_mid/ko_hg (c) off). Found ko_mid 졎 tsjət̚ → tsjəts (Wiktionary /t͡sjə́t͡s/).
+- tools/sinitic_char_reading_check.js + sinitic_char_reading.lock.json — ratchet; lock holds the 4 unlabelled 文白 items (cpx/mnp 日本, nan_hai 日头, wuu_sz 昨日).

@@ -749,7 +749,7 @@ WORDS.monday = {
     tg: ["душанбе", "duʃanbe"],  // "Two (days after) Saturday": du "two" + shanbe, counting from Saturday as day zero.
     ckb: ["دووشەممە", "duːʃamma"],  // Like Persian dushanbe: "two" + shamme "Saturday", the second day counted from Saturday.
     az: ["bazar ertəsi", "bɑzɑɾ æɾtæsi"],  // "The day after bazar (Sunday)".
-    ug: ["دۈشەنبە", "dyʃænˈbæ"],  // From Persian dushanbe, "two (days after) Saturday".
+    ug: ["دۈشەنبە", "dyʃɛnˈbɛ"],  // From Persian dushanbe, "two (days after) Saturday".
     kk: ["дүйсенбі", "dyjsenˈbɘ"],  // From Persian dushanbe, "two (days after) Saturday".
     ky: ["дүйшөмбү", "dyjʃømˈby"],  // From Persian dushanbe, "two (days after) Saturday".
     uz: ["dushanba", "duʃanˈba"],  // From Persian dushanbe, "two (days after) Saturday".

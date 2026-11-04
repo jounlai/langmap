@@ -6129,7 +6129,7 @@ const HAN_DATA = {
       "mnc": "ihan",
       "txg": "gur1",
       "za": "ȵou³³²",
-      "za_sd": "vaiz",
+      "za_sd": "cwz",
       "zkt": "uni",
       "zh_sc": "niu²¹",
       "zh_cd": "niu²¹",
@@ -6249,7 +6249,7 @@ const HAN_DATA = {
       "mnc": "ixan",
       "txg": "ɡur˩",
       "za": "ȵou˧˧˨",
-      "za_sd": "waːi˧˩",
+      "za_sd": "ɕɯ˧˩",
       "zkt": "uni",
       "zh_yuan": "iəu˧˥",
       "zh_phagspa": "ŋiw",
@@ -6278,7 +6278,7 @@ const HAN_DATA = {
       "pinyin_simple": "niú"
     },
     "native": {
-      "za_sd": "𤘢",
+      "za_sd": "𤙛",
       "vi": "ngưu",
       "vi_c": "ngưu",
       "vi_s": "ngưu",
@@ -37713,7 +37713,7 @@ const HAN_VARIANTS = {
         "native": "リツ",
         "surface": "ritsu",
         "ipa": "ɾitsɯ",
-        "label": ""
+        "label": "慣用音 / Kan'yō-on"
       }
     ]
   },
@@ -43193,7 +43193,7 @@ const HAN_VARIANTS = {
         "native": "ナ",
         "surface": "na",
         "ipa": "na",
-        "label": "唐音 / Tō-on"
+        "label": "呉音 / Go-on（南無）"
       }
     ]
   },

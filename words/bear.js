@@ -1439,7 +1439,7 @@ WORDS.bear = {
     prs: ["خرس", "xirs"],
     tg: ["хирс", "xirs"],
     ku: ["hirç", "hɪɾtʃ"],
-    ckb: ["ورچ", "wɪrtʃ"],
+    ckb: ["ورچ", "wɪɾtʃ"],
     ps: ["خرس", "xers"],
     bqi: ["خرس", "xers"],
 

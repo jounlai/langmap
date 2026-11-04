@@ -983,7 +983,7 @@ WORDS.sugar = {
     frp: ["sucro", ""],
     tsj: ["buram", "buɾam"],
     tsz: ["asukar", ""],
-    ps: ["بوره", ""],
+    ps: ["بوره", "bura"],
     rmy: ["zaharo", ""],
     tly: ["ğənd", ""],
     tao: ["satto", ""],

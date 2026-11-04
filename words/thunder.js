@@ -1309,7 +1309,7 @@ WORDS.thunder = {
     bgq: ["गरजन", "ɡərdʒən"],  // The same word as Hindi garjan 'roaring'; the Bagri Bible keeps it apart from बिजळी, the lightning, in Revelation 4:5. Route by resemblance to the neighbouring forms (Gujarati ગર્જના); no etymology of its own.
     cpx: ["雷公", "lui˩˧ kɒŋ˥˧˧"],  // Literally 'Thunder Duke', the Chinese thunder god's name, used for thunder itself; Putian also says plain 雷.
     lmo: ["tron", "truŋ"],  // From Latin tonus 'thunderclap' with an added r, like Piedmontese and Ligurian tron; eastern Lombard says ton. IPA read from the Milanese spelling (o as u, final n as ŋ, as in this row).
-    hmn: ["xob quaj", "sɔ˥ quə˥˨"],  // Literally 'Xob cries out': Xob is the creature in the heavens held responsible for thunder and lightning (Heimbach's White Hmong dictionary).
+    hmn: ["xob quaj", "sɔ˥ qua˥˨"],  // Literally 'Xob cries out': Xob is the creature in the heavens held responsible for thunder and lightning (Heimbach's White Hmong dictionary).
     zza: ["gumlerz", "ɡumˈleɾz"],  // Zazaki Wikipedia defines it as the loud sound that comes with a lightning strike (vırsık).
     ssw: ["kudvuma", "kudvuma"],  // The infinitive of dvuma 'to roar, to thunder', from Proto-Bantu *-dùma; siSwati Wikipedia says the sound that follows lightning is commonly called kudvuma.
     kam: ["kĩtandalĩki", "ketandaleki"],  // Kept apart from ũtisi, the lightning, in Exodus 9:23 and Revelation 4:5 of the Kamba Bible; the older Bible says ĩtundumo. No image is recorded for it, so it counts as a word of its own.

@@ -377,7 +377,7 @@ WORDS.blood = {
     ml: ["രക്തം", "ɾakt̪am"],
     tg: ["хун", "xun"],
     ku: ["xwîn", "xwiːn"],
-    ckb: ["خوێن", "xwiːn"],
+    ckb: ["خوێن", "xweːn"],
     sdh: ["خوێن", "xwiːn"],
     ps: ["وينه", "wina"],
     az: ["qan", "ɡɑn"],

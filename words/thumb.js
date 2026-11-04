@@ -1034,7 +1034,7 @@ WORDS.thumb = {
     ve: ["gunwe", "ɡunwe"],  // Shares its stem with munwe 'finger' in another noun class; with mulenzhe 'leg' it also names the big toe.
     mas: ["olmogirra", "olmoɡirːa"],  // One word for the thumb and the big toe (Payne and Ole-Kotikash); le nkaina 'of the hand' makes it the thumb. No image is recorded for it, so it counts as a word of its own.
     tum: ["chigunwe", "tʃiɡunwe"],  // The same word, in the plural vigunwe, names both the thumbs and the big toes in the Tumbuka Bible.
-    hmn: ["ntiv tes xoo", "nti˨˦ te˨˩ sɔ̃˧"],  // ntiv tes 'finger' + xoo, a word used only for the thumb and the big toe (ntiv taw xoo 'big toe'), per Heimbach's White Hmong dictionary.
+    hmn: ["ntiv tes xoo", "ⁿdi˨˦ te˨˩ sɔ̃˧"],  // ntiv tes 'finger' + xoo, a word used only for the thumb and the big toe (ntiv taw xoo 'big toe'), per Heimbach's White Hmong dictionary.
     ban: ["inan lima", "inan limə"],  // Literally 'mother of the hand' (inan 'mother, chief' + lima 'hand'); the low-register gopong and the loan jempol are also used, and inan batis is the big toe.
     lmo: ["mazza-pioeugg", "masaˈpjøtʃ"],  // Literally 'louse-killer', the Milanese name (like Kurdish ئەسپێکوژە); didon 'big finger' is the other name.
     rki: ["လက်မ", "lɔʔma̰"],  // The same word as Burmese လက်မ, 'the main one of the hand'; it also means 'inch'.

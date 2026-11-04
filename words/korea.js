@@ -427,6 +427,7 @@ WORDS.korea = {
     ko_em: "joseon",
     zh_wenyan_edu: "joseon",
     es_uy: "goryeo",
+    cmg: "other",
   },
   routes: {
     goryeo: {"color":"#16a34a","emoji":"🏺","en":"from Goryeo 高麗 (Korea, Corée, Корея)","ja":"高麗（コリョ）から（Korea, Corée, Корея）","ko":"고려(高麗)에서 (Korea, Corée, Корея)","zh":"源自高丽（Korea、Corée、Корея）","yue":"源自高麗（Korea、Corée、Корея）","vi":"từ Cao Ly 高麗 (Korea, Corée, Корея)","th":"จากโครยอ 高麗 (Korea, Corée, Корея)","id":"dari Goryeo 高麗 (Korea, Corée, Корея)","hi":"गोरयो 高麗 से (Korea, Corée, Корея)","de":"von Goryeo 高麗 (Korea, Corée, Корея)","fr":"de Goryeo 高麗 (Korea, Corée, Корея)","it":"da Goryeo 高麗 (Korea, Corée, Корея)","es":"de Goryeo 高麗 (Korea, Corée, Корея)","pt":"de Goryeo 高麗 (Korea, Corée, Корея)","ru":"от Корё 高麗 (Korea, Corée, Корея)","uk":"від Корьо 高麗 (Korea, Corée, Корея)","ar":"من كوريو 高麗 (Korea, Corée, Корея)","he":"מקוריו 高麗 (Korea, Corée, Корея)","sw":"kutoka Goryeo 高麗 (Korea, Corée, Корея)"},
@@ -793,5 +794,6 @@ WORDS.korea = {
     ko_em: ["됴션", "tjoɕən"],  // Sino-Korean 朝鮮 'Joseon, Korea'; Wiktionary gives the c. 1750 pronunciation [tjo.ɕən].
     zh_wenyan_edu: ["朝鮮", "tsʰiːu˨˩ siːn˥"],  // The classical name, already in the Zhanguo ce ('Yan has Chaoxian and Liaodong to the east'); Cantonese ciu4 sin1.
     es_uy: ["Corea", "koˈɾea"],  // The Spanish name, from Goryeo 高麗 via European Corea, as in standard Spanish.
+    cmg: ["ᠰᠣᠯᠤᠩᠭ᠋ᠤᠰ", "soloŋɣus"],  // Traditional spelling from Wiktionary's Mongolian entry; no dated Classical citation opened, so this is the written-standard form, not proof of period. IPA in the row's style, mine.
   },
 };

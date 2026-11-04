@@ -911,5 +911,7 @@ WORDS.rice = {
     ar_qur: ["أرز", "ʔaruzz"],  // Also written رز ruzz; Wiktionary gives أرز as a variant of it.
     non: ["rís", "riːs"],  // Rice, and rice porridge (Köbler, after de Vries).
     osa: ["pósu", "pósu"],
+    cmg: ["ᠪᠤᠳᠠᠭ᠎ᠠ", "budaɣa"],  // Traditional spelling from Wiktionary's Mongolian entry; no dated Classical citation opened, so this is the written-standard form, not proof of period. IPA in the row's style, mine.
+    omx: ["သ္ၚု", "sŋɯʔ"],  // Shorto 1971 (Dictionary of the Mon Inscriptions) sṅo', 'husked rice', phonemic form as SEAlang prints it, respelled in the row's symbols. Surface copied from the mnw cell, as the row uses modern spelling.
   }
 };

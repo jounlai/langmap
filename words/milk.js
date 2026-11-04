@@ -1174,5 +1174,6 @@ WORDS.milk = {
     pwn: ["tutu", "tutu"],  // North Paiwan tutu, glossed 女性胸部；奶 'breasts; milk'.
     ckv: ["guling", "ɡuliŋ"],  // Kavalan word for (cow's) milk.
     ude: ["косʼо", "kosʔo"],  // Udege, glossed «молоко».
+    omx: ["တှ်", "tɔh"],  // Surface is the second part of mnw ဍာ်တှ်. Shorto 1971 (Dictionary of the Mon Inscriptions) toḥh, 'milk', phonemic form as SEAlang prints it, respelled in the row's symbols. Surface copied from the mnw cell, as the row uses modern spelling.
   },
 };

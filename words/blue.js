@@ -960,6 +960,8 @@ WORDS.blue = {
     zh_tang: "grue",
     kim: "grue",
     kaw: "distinct",
+    zkt: "distinct",
+    xng: "distinct",
   },
   routes: {
     "distinct": {"color": "#2563eb", "emoji": "🔵", "en": "blue has its own word", "ja": "青に専用の語", "ko": "파랑에 고유한 낱말", "zh": "蓝有专词", "yue": "藍有專詞", "vi": "lam có từ riêng", "th": "น้ำเงินมีคำเฉพาะ", "id": "biru punya katanya sendiri", "hi": "नीले का अपना शब्द", "de": "eigenes Wort für Blau", "fr": "le bleu a son mot", "it": "il blu ha una parola propria", "es": "el azul tiene palabra propia", "pt": "o azul tem palavra própria", "ru": "у синего своё слово", "uk": "синій має власне слово", "ar": "للأزرق كلمته الخاصة", "he": "לכחול מילה משלו", "sw": "buluu lina neno lake"},
@@ -1877,5 +1879,7 @@ WORDS.blue = {
     zh_tang: ["青", "tsʰɛjŋ"],  // 青 covers blue and green; Li Bai's 'Bǎ jiǔ wèn yuè' opens 青天有月來幾時 'how long has the moon been in the blue sky?'
     kim: ["көк", "køk"],  // Tofa, glossed «синий, зелёный» in Rassadin's dictionary.
     kaw: ["ꦧꦶꦫꦸ", "biru"],  // Old Javanese birū 'blue' (Wiktionary, /bi.ru/), against hijo green in this row. The source prints it in Latin letters; the Javanese-script spelling is a transliteration.
+    zkt: ["𘰷𘱹𘰹", "siauqu"],  // Wiktionary 'blue', tr. s-iau-qu. IPA read like the row's red /ljauqu/.
+    xng: ["ᠬᠥᠬᠡ", "køke"],  // Wiktionary Middle Mongol: Muqaddimat p.220 کوکه, Hua-yi yiyu 可可, Secret History 闊闊, all 'blue'; ts köke. The entry also lists 'green', but the row has noqoan for that, as cmg has.
   },
 };

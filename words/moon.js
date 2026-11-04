@@ -1144,7 +1144,7 @@ WORDS.moon = {
     qwc: ["killa", "kiʎa"],
     omc: ["çi", "si"],
     chb: ["chía", "tʃia"],
-    omy: ["bulan", "bulan"],
+    omy: ["vulan", "wulan"],
     osn: ["bulan", "bulan"],
     h_tagalog: ["ᜊᜓᜏᜈ᜔", "buwan"],
     zkt: {
@@ -1158,7 +1158,7 @@ WORDS.moon = {
     omx: ["ဂိတု", "kəntuʔ"],
     pyx: ["—", "—"],
     obr: ["လ", "laʔ"],
-    ocm: ["bulan", "bulan"],
+    ocm: ["vulān", "bulan"],
     och: ["月", "*[ŋ]ʷat"],
     ojp: ["月", "tukï"],
     p_jpk: ["*tukoj", "tukoj"],

@@ -1249,7 +1249,7 @@ WORDS.black = {
     hsn_yz: ["黑", "xe˧˧"],
     tca: ["waxüxü̃", "waʔɨʔɨ̃"],
     fvr: ["dìkkó", "dìkːó"],
-    ocm: ["hitam", "hitam"],
+    ocm: ["hitaṁ", "hitam"],
     prk: ["lūng", "lṳŋ"],
     one: ["oʼswʌ́:taʼ", "oʔswʌ̃́ːtaʔ"],
     kqz: ["ǂnū", "ǂnuː"],

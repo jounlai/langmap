@@ -1121,5 +1121,6 @@ WORDS.book = {
     kim: ["һінеэк", "hineːk"],  // Tofa, glossed «книга» in Rassadin's dictionary.
     osa: ["waléze", "waléze"],  // Paper or any document with text, and book.
     umu: ["pámbiil", "pambiːl"],  // Animate noun, plural pambíilak.
+    juc: ["bitehe", "bitəxə"],  // no. 216 Buch, pi-ti-he, m. bithe. Grube 1896 glossary (Sino-Jurchen vocabulary, Chinese transcription); OCR is rough. Latin surface normalised by me after the row; low to medium.
   }
 };

@@ -856,7 +856,7 @@ WORDS.five = {
     omx: ["မသုန်", "msun"],
     pyx: ["pəŋa", "pəŋa"],
     obr: ["ငါး", "ŋaːh"],
-    ocm: ["lima", "lima"],
+    ocm: ["limā", "lima"],
     och: ["五", "*C.ŋˤaʔ"],
     ojp: ["五", "itu"],
     h_vedic: ["पञ्च", "pɐ́ɲtɕɐ"],

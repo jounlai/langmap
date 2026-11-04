@@ -744,7 +744,7 @@ WORDS.stone = {
     qwc: ["rumi", "ɾumi"],
     omc: ["pong", "poŋ"],
     chb: ["hyca", "hɨka"],
-    omy: ["batu", "batu"],
+    omy: ["vātu", "watu"],
     osn: ["batu", "batu"],
     h_tagalog: ["ᜊᜆᜓ", "baˈto"],
     juc: ["uhe", "uxə"],

@@ -1086,7 +1086,7 @@ WORDS.three = {
     omx: ["ပိ", "piʔ"],
     pyx: ["nhoḥ", "nho(m)H"],
     obr: ["သုံ", "sumh"],
-    ocm: ["klau", "klau"],
+    ocm: ["tluv", "tluw"],
     och: ["三", "*s.rum"],
     ojp: ["三", "mitu"],
     p_jpk: ["*mi", "mi"],

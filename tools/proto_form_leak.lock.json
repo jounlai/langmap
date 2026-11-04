@@ -946,5 +946,11 @@
     "proto": "ptai",
     "ruling": "inherited",
     "note": "พี่ 'elder sibling' is attested in the Sukhothai inscriptions; it continues Proto-Tai *biː unchanged."
+  },
+  "xng|wine": {
+    "form": "darasun",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Attested hapax in Phags-pa script (d-r-sun) per Wiktionary; Middle Mongol is a basis of the Proto-Mongolic reconstruction."
   }
 }

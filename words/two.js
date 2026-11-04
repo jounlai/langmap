@@ -1153,7 +1153,7 @@ WORDS.two = {
       omx: ["ၜါ", "ɓar"],
       pyx: ["kni", "kni"],
       obr: ["နှစ်", "n̥ac"],
-      ocm: ["dua", "dua"],
+      ocm: ["dvā", "dua"],
       och: ["二", "*ni[j]-s"],
       ojp: ["二", "puta"],
       p_jpk: ["*puta", "puta"],

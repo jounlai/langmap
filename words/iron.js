@@ -1164,5 +1164,7 @@ WORDS.iron = {
     siz: ["lə́ħdid", "ˈləʜdid"],  // Borrowed from Arabic ḥadīd.
     zh_jiao: ["铁", "tʰiə˥˥"],
     dbl: ["ngayan", "ˈŋajan"],  // Dyirbal ŋayan 'iron' (Dixon).
+    osn: ["vəsi", "bəsi"],  // Old Sundanese, Kebantenan 1 pande vəsi, translated 'blacksmith' (beside pande mas 'goldsmith'). IPA with b as su bɯsi, mine.
+    omx: ["ဗသဲ", "bərsɔj"],  // Shorto 1971 (Dictionary of the Mon Inscriptions) birsey, bras(s)ey, 'iron', phonemic form as SEAlang prints it, respelled in the row's symbols. Surface copied from the mnw cell, as the row uses modern spelling.
   },
 };

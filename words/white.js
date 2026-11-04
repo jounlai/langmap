@@ -983,7 +983,7 @@ WORDS.white = {
     juc: ["šanggia", "ʃaŋɡia"],
     omx: ["ဗ္တာၚ်", "bətaiŋ"],
     obr: ["ဖ္လူ", "pʰluː"],
-    ocm: ["patih", "patih"],
+    ocm: ["putiḥ", "putih"],
     och: ["白", "*bˤrak"],
     ojp: ["白し", "sirosi"],
     h_vedic: ["श्वेत", "ɕʋetɐ́"],
@@ -1220,5 +1220,6 @@ WORDS.white = {
     gha: ["əmləl", "əmləl"],  // A verb, "to be white", as Berber colour words are.
     auj: ["mlìl", "mlil"],
     siz: ["aməllál", "aməˈlːal"],
+    zkt: ["𘬈", "siu"],  // Wiktionary, Khitan small script 'white', reading [siu] or [su] proposed by Wu 2022. 
   },
 };

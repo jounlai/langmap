@@ -1147,7 +1147,7 @@ WORDS.mother = {
     qwc: ["mama", "mama"],
     omc: ["eng", "eŋ"],
     chb: ["guaia", "ɡuaia"],
-    omy: ["ibu", "ibu"],
+    omy: ["aya", "aja"],
     osn: ["indung", "induŋ"],
     h_tagalog: ["ᜁᜈ", "ina"],
     zkt: ["𘬝", "mo"],

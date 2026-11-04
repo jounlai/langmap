@@ -1151,7 +1151,7 @@ WORDS.name = {
       h_tagalog: ["ᜅᜎᜈ᜔", "ŋalan"],
       zkt: ["𘱤𘰣", "iri"],
       juc: ["gebu", "ɡəbu"],
-      omx: ["ယၟု", "jəmu"],
+      omx: ["ယၟု", "həmɯʔ"],
       pyx: ["rmiṅ·", "rmiŋ"],
       obr: ["အမည်", "ʔamaɲ"],
       ocm: ["angan", "aŋan"],

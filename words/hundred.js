@@ -1200,5 +1200,6 @@ WORDS.hundred = {
     zh_jiao: ["百", "pe˥˥"],
     niv: ["ньр̌аӈӄ", "ɲr̥aŋq"],  // The Northeuralex Amur Nivkh word for 'hundred'.
     osa: ["lébrą hužį́", "lébrã huʒĩ́"],
+    ocm: ["rutuḥ", "rutuh"],  // Old Cham, C.82 sā rutuḥ translated 'one hundred'; also C.140; C.86 once ratuḥ. DHARMA edition.
   },
 };

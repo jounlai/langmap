@@ -913,6 +913,9 @@ WORDS.tomorrow = {
     osa: "plain",
     yuy: "plain",
     mdh: "plain",
+    h_tagalog: "plain",
+    zh_han: "other",
+    ja_chu: "other",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -1770,5 +1773,8 @@ WORDS.tomorrow = {
     osa: ["kasą́", "kasã́"],
     yuy: ["marʁaʃda", "marʁaʃda"],
     mdh: ["namag", "namaɡ"],
+    h_tagalog: ["ᜊᜓᜃᜐ᜔", "buˈkas"],  // Noceda & Sanlucar 1754: Bucas, 'mañana'. The source is Latin; the Baybayin spelling is a transliteration. Stress follows the modern Wiktionary entry.
+    zh_han: ["明日", "mraŋ ńǝt"],  // StarLing Western Han for each character; 日 spelled as the row's sun cell. Same word as zh_tang. Guliangzhuan example on Wiktionary, not re-dated by me.
+    ja_chu: ["明日", "mjɔːnitɕi"],  // ミャウニチ, 高野本平家 (13C) as quoted in 日本国語大辞典. IPA in the row's style, mine.
   },
 };

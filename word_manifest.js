@@ -65,7 +65,7 @@ const WORD_CATEGORIES = [
         label: {
             en: "Things people made", ja: "人のつくったもの", ko: "사람이 만든 것", zh: "人造之物", yue: "人整嘅嘢", vi: "Đồ người làm ra", th: "สิ่งที่มนุษย์สร้าง", id: "Buatan manusia", hi: "मानव-निर्मित वस्तुएँ", de: "Von Menschen Gemachtes", fr: "Objets fabriqués", it: "Cose fatte dall'uomo", es: "Cosas hechas por el hombre", pt: "Coisas feitas pelo homem", ru: "Сделанное людьми", uk: "Зроблене людьми", ar: "مصنوعات البشر", he: "דברים מעשה ידי אדם", sw: "Vitu vilivyotengenezwa"
         },
-        words: ["iron", "wheel", "silk", "book", "paper", "computer", "wifi", "mobilephone", "atsign"],
+        words: ["iron", "wheel", "silk", "money", "book", "paper", "computer", "wifi", "mobilephone", "atsign"],
     },
     {
         key: "actions",

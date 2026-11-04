@@ -364,6 +364,7 @@ WORDS.hiccup = {
     agx: "plain",
     udi: "plain",
     kjj: "plain",
+    abe: "plain",
   },
   routes: {
     imitative: {"color":"#ea580c","emoji":"🔊","en":"imitating the sound","ja":"音のまね","ko":"소리 흉내","zh":"模仿声音","yue":"模仿聲音","vi":"mô phỏng âm thanh","th":"เลียนเสียง","id":"tiruan bunyi","hi":"ध्वनि की नक़ल","de":"lautmalend","fr":"imitant le bruit","it":"onomatopeico","es":"imita el sonido","pt":"imita o som","ru":"звукоподражание","uk":"звуконаслідування","ar":"محاكاة الصوت","he":"חיקוי הקול","sw":"kuiga sauti"},
@@ -674,5 +675,6 @@ WORDS.hiccup = {
     agx: ["гьинкӏ йирхӏас", "hinkʼ jirħas"],  // IDS Aghul, the row's list. Palochka and IPA from the row's pairs.
     udi: ["бекӏтӏосун", "bekʼtʼosun"],  // IDS Udi, the row's list. Palochka and IPA from the row's pairs.
     kjj: ["гаьгирмишкувал", "ɡæɡirmiʃkʰuval"],  // IDS Khinalug, the row's list. Palochka and IPA from the row's pairs.
+    abe: ["chachapsolowôgan", "tʃatʃapsolowɔ̃ɡan"],  // Laurent p.23: "Chachapsolowôgan. The hiccough, hiccup."
   },
 };

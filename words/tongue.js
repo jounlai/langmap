@@ -867,7 +867,7 @@ WORDS.tongue = {
     nmn: ["ǀnà̰n", "ǀna̰n"],
     kr: ["təlam", "təlam"],
     men: ["nɛi", "nɛi"],
-    vai: ["nɛ", "nɛ"],
+    vai: ["ꘉꗢ", "nɛ"],
     tem: ["a-mer", "amɛr"],
     dyu: ["nɛn", "nɛn"],
     bbo: ["nyenu", "ɲenu"],

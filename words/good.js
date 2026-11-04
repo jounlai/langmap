@@ -243,7 +243,7 @@ WORDS.good = {
     ksb: ["mtana", "mtana"],
     jmc: ["ìchá", "itʃa"],
     sbp: ["inofu", "inofu"],
-    rwk: ["kya", "kja"],
+    rwk: ["isha", "iʃa"],
     asu: ["edi", "edi"],
     tl: ["mabuti", "maˈbuti"],
     agt: ["mappya", "mapːja"],

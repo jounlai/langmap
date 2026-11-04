@@ -924,7 +924,7 @@ WORDS.sun = {
     tem: ["aret", "aret"],
     dyu: ["tile", "tile"],
     bbo: ["hun", "hun"],
-    spp: ["kanha", "kaɲa"],
+    spp: ["canŋa ɲyiini", "tʃãŋa ɲiːni"],
     sus: ["soge", "soɡe"],
     syl: ["সুরুজ", "ʃuruz"],
     rhg: ["beil", "beil"],

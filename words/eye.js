@@ -932,7 +932,7 @@ WORDS.eye = {
     tem: ["ra-fɔr", "rafɔr"],
     dyu: ["ɲɛ", "ɲɛ"],
     bbo: ["ɲono", "ɲono"],
-    spp: ["fyaha", "fjaha"],
+    spp: ["ɲyiini", "ɲiːni"],
     sus: ["ya", "ja"],
     syl: ["চউখ", "sɔuk"],
     rhg: ["suk", "suk"],

@@ -110,7 +110,7 @@ WORDS.bone = {
     abv: ["عظمة", "ˈʕaðˤma"],
     afb: ["عظمة", "ˈʕaðˤma"],
     acw: ["عضمة", "ˈʕadˤma"],
-    swb: ["shiɓa", "ʃiɓa"],
+    swb: ["muɓa", "muɓa"],
     adx: ["རུས་པ", "rəpa"],
     qxs: ["rɑkɑ", "rɑkɑ"],
     duu: ["ɑŋɹɯ", "ɑŋɹɯ"],

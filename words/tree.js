@@ -242,7 +242,7 @@ WORDS.tree = {
     rim: ["muti", "muti"],
     ksb: ["mti", "mti"],
     jmc: ["nri", "nɾi"],
-    sbp: ["umupishi", "umupiʃi"],
+    sbp: ["ilipishi", "ilipiʃi"],
     rwk: ["nri", "nɾi"],
     asu: ["mti", "mti"],
     tl: ["puno", "ˈpunoʔ"],

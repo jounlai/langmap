@@ -243,7 +243,7 @@ WORDS.father = {
     ksb: ["tate", "tate"],
     jmc: ["baba", "baba"],
     sbp: ["udaada", "udaːda"],
-    rwk: ["baba", "baba"],
+    rwk: ["nde", "nde"],
     asu: ["vava", "vava"],
     tl: ["ama", "ʔaˈma"],
     agt: ["ama", "ʔaˈma"],

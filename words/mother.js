@@ -243,7 +243,7 @@ WORDS.mother = {
     ksb: ["mama", "mama"],
     jmc: ["mama", "mama"],
     sbp: ["umaayi", "umaːji"],
-    rwk: ["mama", "mama"],
+    rwk: ["maa", "maː"],
     asu: ["mlala", "mlala"],
     tl: ["ina", "ʔiˈna"],
     agt: ["ina", "ʔiˈna"],

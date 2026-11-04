@@ -1137,7 +1137,7 @@ WORDS.honey = {
     gqu: ["mo42 ji31", "mo˦˨ ji˧˩"],
     yur: ["repchem", "ɹeptʃem"],
     cay: ["otséhsdaʼ", "otséhsdaʔ"],
-    rim: ["ruke", "ɾuke"],
+    rim: ["wuke", "wuke"],
     mjg: ["zangna bali", "tsaŋna pali"],
     agt: ["tahu", "tahu"],
     ake: ["teusan", "teusan"],

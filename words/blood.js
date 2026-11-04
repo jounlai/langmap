@@ -834,7 +834,7 @@ WORDS.blood = {
     liv: ["ver", "vɛr"],
     mzn: ["خون", "xun"],
     glk: ["خون", "xun"],
-    lrc: ["خون", "xun"],
+    lrc: ["خین", "xin"],
     crh: ["qan", "qan"],
     tt: ["кан", "qan"],
     ba: ["ҡан", "qan"],

@@ -1123,7 +1123,7 @@ WORDS.salt = {
     rim: ["munyu", "muɲu"],
     tar: ["koná", "kona"],
     ebu: ["cumbĩ", "tʃumbe"],
-    nym: ["munu", "munu"],
+    nym: ["munyu", "muɲu"],
     nmf: ["machi", "matʃi"],
     nzm: ["nehai", "nehai"],
     yai: ["namak", "naˈmak"],

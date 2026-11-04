@@ -918,7 +918,7 @@ WORDS.rain = {
     tyz: ["phân", "pʰən˧˥"],
     unr: ["gama", "ɡama"],
     usp: ["jabʼ", "χaɓ"],
-    vai: ["suna", "suna"],
+    vai: ["ꖇꕯ", "suna"],
     wal: ["iraa", "iraː"],
     wba: ["naha", "naha"],
     wbm: ["lhiex", "l̥ɛʔ"],

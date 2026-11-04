@@ -239,7 +239,7 @@ WORDS.hand = {
     sw: ["mkono", "mˈkono"],
     suk: ["nkono", "nkono"],
     nym: ["kukono", "kukono"],
-    rim: ["ukuboko", "ukuboko"],
+    rim: ["mukhono", "mukʰono"],
     ksb: ["mkono", "mkono"],
     jmc: ["woko", "woko"],
     sbp: ["iliwokho", "iliwoxo"],

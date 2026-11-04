@@ -239,7 +239,7 @@ WORDS.eat = {
     sw: ["kula", "ˈkula"],
     suk: ["kulya", "kuʎa"],
     nym: ["kulya", "kuʎa"],
-    rim: ["ulya", "ulja"],
+    rim: ["ula", "ula"],
     ksb: ["kuja", "kuɟa"],
     jmc: ["ìlya", "iʎa"],
     sbp: ["kiilya", "kiːlja"],

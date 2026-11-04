@@ -306,7 +306,7 @@
             font-weight: 400;
             font-display: swap;
             src: url('fonts/HanaMinB-hanmap.woff2') format('woff2');
-            unicode-range: U+22796, U+2463D, U+2465B;
+            unicode-range: U+2003A, U+2215B, U+22611, U+22796, U+2463D, U+2465B, U+2A6A5;
         }
         /* 2026-10-02: Sawndip (za_sd) and Nôm (vi_nom) forms of the 18 characters
            added that day — all outside U+4E00–U+9FFF, cut from HanaMinB. */
@@ -326,7 +326,7 @@
             font-weight: 400;
             font-display: swap;
             src: url('fonts/PlangothicP2-hanmap.woff2') format('woff2');
-            unicode-range: U+30FCF, U+31AB5;
+            unicode-range: U+30EDD, U+30EDE, U+30FCF, U+31AB5;
         }
         /* 2026-10-02 tier 5: Nôm and Sawndip forms of 綠 灰 雞 豬 蛇 門. HanaMinB
            where it has them; Jigmo (CC0) for the Ext-A and Ext-F ones it lacks. */
@@ -3645,7 +3645,7 @@
     <!-- 2026-10-16: the runtime copy is split by tools/build_hanmap_trivia_rt.js —
          base.js has every article with English bodies; the reader's own
          language arrives as hanmap_trivia_rt/<ui>.js (loadHanTriviaBodies). -->
-    <script type="text/plain" id="trivia-src" src="hanmap_trivia_rt/base.js?v=7"></script>
+    <script type="text/plain" id="trivia-src" src="hanmap_trivia_rt/base.js?v=9"></script>
     <!-- The meta-i18n layer is loaded dynamically (engine + the current UI's
          slice only) via loadMetaI18n() in the IIFE below. The old eager
          meta_i18n_ext + coverage{,2} tags pulled ~4.6 MB of ALL 22 UIs. -->

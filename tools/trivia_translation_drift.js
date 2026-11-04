@@ -42,6 +42,8 @@ const CHECK = process.argv.includes('--check');
 // Additions reviewed and accepted, as {articleId: {number: why}}. Applies to
 // every UI language of that article.
 const ALLOW = {
+  // Indian digit grouping: 1,33,441 is the 133,441 of the English body.
+  'shuowen-540.hi': { 33441: 'Indian grouping of 133,441' },
     // 2026-10-15 trivia pass: number formats, not new facts.
     'naxi-dongba-living-pictograms.hi': { '20000': 'hi writes 320,000 in Indian grouping, 3,20,000; the guard reads the tail as 20000' },
     'sino-tibetan-cognates.th': { '1400': 'th writes 1.4 billion as 1,400 ล้าน (1,400 million)' },

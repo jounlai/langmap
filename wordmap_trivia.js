@@ -4464,6 +4464,568 @@ const TRIVIA_ARTICLES = [
       }
     ]
   },
+  {
+    "id": "germany-names",
+    "icon": "🇩🇪",
+    "tags": [
+      "names",
+      "countries",
+      "etymology"
+    ],
+    "title": {
+      "en": "Germany: One Country, Six Different Names",
+      "ja": "ドイツ：一つの国に六つの名前"
+    },
+    "summary": {
+      "en": "Germans say Deutschland, the French Allemagne, Poles Niemcy and Finns Saksa, because each neighbour named the Germans it happened to meet.",
+      "ja": "ドイツ人はドイチュラント、フランス人はアルマーニュ、ポーランド人はニェムツィ、フィンランド人はサクサと呼ぶ。隣人それぞれが出会ったドイツ人を名前にしたからだ。"
+    },
+    "body": {
+      "en": "<p>Wikipedia’s survey of the subject opens with a plain claim: Germany has more widely varying names in other languages than any other European nation. Germans call it <strong>Deutschland</strong>, the French <strong>Allemagne</strong>, Poles <strong>Niemcy</strong>, Finns <strong>Saksa</strong>, Lithuanians <strong>Vokietija</strong>, and English speakers use a Roman word that Germans themselves do not. The map sorts these into six families, and each one records a different first meeting.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"germany\" data-code=\"en\">🗺️ Show Germany on the map</button></div><h3>The people’s word</h3><p>The Germans’ own word is the odd one out, because it does not refer to a place or a tribe. <strong>Deutschland</strong> comes from Old High German <em>diutisc</em>, “of the people”. The word began as a label for a language: among the Franks, some spoke Latin and some did not, and <em>theodisc</em>, from <em>theoda</em>, “the people”, with a Latin suffix, marked the people’s speech. People in the area of present-day Germany took it up only slowly, using it of themselves from about the 10th century. Germany’s northern neighbours took it too: Dutch <strong>Duitsland</strong>, Swedish and Danish <strong>Tyskland</strong>, Icelandic <strong>Þýskaland</strong>. It went much further east: Mandarin <strong>德国</strong> approximates the German word, Japanese <strong>ドイツ</strong> the Dutch one, and Korean <strong>독일</strong> is the Korean reading of the characters Japanese once used for the name, 獨逸. On the map 108 cells belong to this family.</p><p>The largest group, at 160 cells, keeps Latin <strong>Germania</strong>. Tacitus wrote a book under that title, and the word simply described the land beyond the Roman frontier. Italian <strong>Germania</strong>, Russian <strong>Германия</strong>, Georgian <strong>გერმანია</strong>, Armenian <strong>Գերմանիա</strong> and Irish <strong>an Ghearmáin</strong> all go back to it, and so does English <strong>Germany</strong>. The Italians are a good test of how loosely these names fit: they use Germania for the country and <em>tedeschi</em>, a cousin of <em>Deutsch</em>, for the people.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"de,en,fr,pl,fi,lt\" data-word=\"germany\">🗣 Compare six names</button></div><h3>Rome and a border tribe</h3><p>France looked at the tribe across the Rhine. The Alamanni lived on that border, and Allemagne is simply their name turned into a country. The name spread to Spanish <strong>Alemania</strong>, Portuguese <strong>Alemanha</strong>, Welsh <strong>Yr Almaen</strong>, and then, far from any Rhine frontier, Arabic <strong>ألمانيا</strong> and Turkish <strong>Almanya</strong>. That makes 122 cells for a single tribe.</p><p>The Slavs named a condition. Proto-Slavic <em>*němьcь</em> meant roughly a mute, somebody who could not speak properly, in other words a foreigner who did not speak Slavic. Polish <strong>Niemcy</strong>, Czech <strong>Německo</strong> and Slovak <strong>Nemecko</strong> continue it, and Hungarian has <strong>Németország</strong>. Ottoman Turkish once used a form of it too, <em>nemçe</em>, for the Austrian lands of the Holy Roman Empire. This is the small but striking family of 15 cells: the German is the one who cannot talk.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hu,cs,sk,pl\" data-word=\"germany\">🗣 Compare the “mute” family</button></div><h3>The mute ones</h3><p>Two smaller groups are geographical accidents. Finnish <strong>Saksa</strong> and Estonian <strong>Saksamaa</strong> name the Saxons, the Germans whom the Finns first and foremost met. Lithuanian <strong>Vokietija</strong> and Latvian <strong>Vācija</strong> stand apart. Their origin is unclear, though one proposal links them to a root meaning people who speak loud or shout unintelligibly, which would put them in the same spirit as the Slavs.</p><p>The result is a map with no centre. Wikipedia’s summary is that names tend to keep the memory of first encounters: the Finns met the Saxons and the French faced the Alamanni. Each neighbour dealt with a different group of Germans long before there was a German state to name, and every name on the list is older than the country.</p>",
+      "ja": "<p>英語版ウィキペディアのこの話題の項目は、ドイツほど他言語での名前が多様なヨーロッパの国はない、と書き出している。ドイツ人は<strong>Deutschland</strong>、フランス人は<strong>Allemagne</strong>、ポーランド人は<strong>Niemcy</strong>、フィンランド人は<strong>Saksa</strong>、リトアニア人は<strong>Vokietija</strong>と呼び、英語話者はドイツ人自身が使わないローマの語を使う。地図はこれらを六つの系統に分けている。どの系統にも、それぞれ別の出会いの記憶が残っている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"germany\" data-code=\"en\">🗺️ 地図でドイツを表示</button></div><h3>民の言葉</h3><p>ドイツ人自身の語は、場所でも部族でもない点で変わり種だ。<strong>Deutschland</strong>は古高ドイツ語<em>diutisc</em>「民の」から来ている。もとは言語の呼び名だった。フランク人の中にはラテン語を話す者もそうでない者もいて、「民」を意味する<em>theoda</em>にラテン語の接尾辞を付けた<em>theodisc</em>が民の言葉を表した。今のドイツの地域の人々はこの語をゆっくりと受け入れ、自分たちを指すようになったのは10世紀ごろからである。北の隣人もこれを取り入れた。オランダ語<strong>Duitsland</strong>、スウェーデン語とデンマーク語の<strong>Tyskland</strong>、アイスランド語<strong>Þýskaland</strong>。この語はさらに東へ行った。中国語の<strong>德国</strong>はドイツ語の音を写し、日本語の<strong>ドイツ</strong>はオランダ語の音を写し、朝鮮語の<strong>독일</strong>は日本語でかつて使った当て字「獨逸」の朝鮮語読みである。地図でこの系統は108セルある。</p><p>最大の系統は160セルで、ラテン語<strong>Germania</strong>を保つ。タキトゥスはこの題で本を書き、語は単にローマの国境の向こうの土地を指した。イタリア語<strong>Germania</strong>、ロシア語<strong>Германия</strong>、ジョージア語<strong>გერმანია</strong>、アルメニア語<strong>Գերմանիա</strong>、アイルランド語<strong>an Ghearmáin</strong>、そして英語<strong>Germany</strong>がこれにあたる。イタリア語はこうした名の緩さのよい例で、国にはGermaniaを使い、人々には<em>Deutsch</em>と同根の<em>tedeschi</em>を使う。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"de,en,fr,pl,fi,lt\" data-word=\"germany\">🗣 六つの名を比べる</button></div><h3>ローマと国境の部族</h3><p>フランスはライン川の向こうの部族に目を向けた。国境にいたのはアラマンニ族で、Allemagneはその名をそのまま国の名にしたものだ。語はスペイン語<strong>Alemania</strong>、ポルトガル語<strong>Alemanha</strong>、ウェールズ語<strong>Yr Almaen</strong>へ広がり、ライン川からはるか遠いアラビア語<strong>ألمانيا</strong>、トルコ語<strong>Almanya</strong>にまで達した。一つの部族の名が122セルを占めている。</p><p>スラヴ人は状態に名をつけた。スラヴ祖語<em>*němьcь</em>はおよそ「口のきけない者」、つまりスラヴ語を話せない外国人を意味した。ポーランド語<strong>Niemcy</strong>、チェコ語<strong>Německo</strong>、スロバキア語<strong>Nemecko</strong>がこれを受け継ぎ、ハンガリー語には<strong>Németország</strong>がある。オスマン語にも<em>nemçe</em>という形があり、神聖ローマ帝国のオーストリア領を指した。セルは15と少ないが印象的な系統で、ドイツ人は話せない人なのである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hu,cs,sk,pl\" data-word=\"germany\">🗣 「口のきけない者」の系統を比べる</button></div><h3>口のきけない人々</h3><p>残る二つの小さな系統は地理の偶然だ。フィンランド語<strong>Saksa</strong>とエストニア語<strong>Saksamaa</strong>はザクセン人の名である。リトアニア語<strong>Vokietija</strong>とラトビア語<strong>Vācija</strong>は別の系統で、語源ははっきりしないが、「大声で意味不明に話す人々」を表す語根と結びつける説があり、そうならスラヴ語と同じ発想になる。</p><p>こうして中心のない地図ができた。名前は最初の出会いの記憶を保つ、というのがウィキペディアのまとめである。フィンランド人はザクセン人に出会い、フランス人はアラマンニ族と向き合った。隣人たちは、名づけるべきドイツ国家ができるずっと前から別々のドイツ人の集団と付き合っていて、この一覧のどの名も国より古い。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"Names of Germany\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Names_of_Germany"
+      }
+    ]
+  },
+  {
+    "id": "atsign-animals",
+    "icon": "🐌",
+    "tags": [
+      "symbols",
+      "metaphor",
+      "computing"
+    ],
+    "title": {
+      "en": "@: Snail, Monkey, Strudel, Puppy",
+      "ja": "@：カタツムリ、サル、シュトルーデル、子犬"
+    },
+    "summary": {
+      "en": "English just says “at”. Most languages had to look at the shape of @ and say what it reminded them of, and they did not agree.",
+      "ja": "英語は「アット」と言うだけだ。ほかの多くの言語は@の形を見て何に似ているかを言うしかなく、答えはそろわなかった。"
+    },
+    "body": {
+      "en": "<p>English has it easy. The sign @ had a meaning, “at the rate of”, so English reads it as <strong>at</strong>. Elsewhere it arrived with computers and no name. Ray Tomlinson of BBN Technologies is credited with putting it between a user and a machine in 1971, in the form <code>user@host</code>, and as email spread, millions of people needed to say it out loud. Having no word for it, they looked at the shape.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"atsign\" data-code=\"en\">🗺️ Show @ on the map</button></div><h3>The zoo</h3><p>What they saw was an animal. Italians saw a snail, <strong>chiocciola</strong>; Koreans a sea snail, <strong>골뱅이</strong>, a dialect word for whelk. The curl also became a tail. Dutch <strong>apenstaartje</strong> is a little monkey’s tail, and the same picture gives German <strong>Klammeraffe</strong>, literally a clinging monkey, a spider monkey. Polish simply says <strong>małpa</strong>, “monkey”. Russian says <strong>собака</strong>, “dog”, and Armenian <em>shnik</em> is a puppy.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"it,ko,nl,de,pl,ru\" data-word=\"atsign\">🗣 Compare snails, monkeys and dogs</button></div><p>A map of these names is close to a zoo. Greek has <strong>παπάκι</strong>, a duckling. Hungarian has <strong>kukac</strong>, a playful word for a worm or a maggot. Finnish has <strong>kissanhäntä</strong>, a cat’s tail. Danish and Swedish look at the elephant: <strong>snabel-a</strong>, “trunk A”, the letter a with an elephant’s trunk. None of this is coordinated, and nobody voted. Each language made its own joke at roughly the same moment.</p><h3>The breakfast table</h3><p>Then there is food. Hebrew speakers saw a pastry and called it <strong>שטרודל</strong>, strudel, from the spiral of the roll. Czech and Slovak went for a rolled pickled herring: <strong>zavináč</strong> is a rollmops. Swedish speakers less formally say <em>kanelbulle</em>, cinnamon bun. A sign from the world of commerce turned into a breakfast.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"cs,he,hu,el,da\" data-word=\"atsign\">🗣 Compare food and small animals</button></div><p>Other languages used what was already on the shelf. Spanish <strong>arroba</strong>, from Arabic <em>ar-roub</em>, is an old unit of weight, and French <strong>arobase</strong> was borrowed from it. This is the serious end of the story. A symbol like @ appears in a Spanish register of 1448, the Taula de Ariza, recording a wheat shipment from Castile to Aragon, and arroba is still the Spanish word for it. On a health pass from northern Italy in 1667 the same shape may stand for <em>addì</em>, “on the day of”, and around 1345 a Bulgarian translation of the Manasses Chronicle used a form of it as the first letter of <em>amin</em>. Before email, the sign had plenty of jobs, none of them zoological.</p><h3>Weight and amen</h3><p>And some languages simply took the English. Turkish says <strong>et</strong>, Mandarin <strong>艾特</strong>, and Japanese <strong>アットマーク</strong>, “at mark”. Kazakh made an official coinage, <em>aıqulaq</em>, “earlobe”, which is at least as vivid as anything from the animal group. In 2010 the Museum of Modern Art added @ to its design collection, a late honour for a character that much of the world had already named after something on its plate or in its garden.</p>",
+      "ja": "<p>英語は楽である。@には「～の単価で」という意味があったので、<strong>at</strong>と読めばよい。ほかの土地では、この記号はコンピューターとともに名前なしでやって来た。1971年、BBNのレイ・トムリンソンが<code>user@host</code>の形で利用者とマシンのあいだにこれを置いたとされ、電子メールが広まると、何百万もの人がこれを声に出す必要に迫られた。言葉がないので、人々は形を見た。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"atsign\" data-code=\"en\">🗺️ 地図で@を表示</button></div><h3>動物園</h3><p>見えたのは動物だった。イタリア人はカタツムリ<strong>chiocciola</strong>を見た。韓国人は巻貝<strong>골뱅이</strong>を見た。バイ貝の方言形である。渦は尻尾にもなった。オランダ語<strong>apenstaartje</strong>は小さなサルの尻尾で、同じ見立てからドイツ語<strong>Klammeraffe</strong>、つまりしがみつくサル、クモザルが生まれた。ポーランド語はただ<strong>małpa</strong>「サル」である。ロシア語は<strong>собака</strong>「犬」で、アルメニア語<em>shnik</em>も子犬だ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"it,ko,nl,de,pl,ru\" data-word=\"atsign\">🗣 カタツムリ、サル、犬を比べる</button></div><p>これらの名を地図にすると動物園に近い。ギリシャ語は<strong>παπάκι</strong>、アヒルの子。ハンガリー語は<strong>kukac</strong>、虫やウジをふざけて呼ぶ言葉。フィンランド語は<strong>kissanhäntä</strong>、猫の尻尾。デンマーク語とスウェーデン語は象を見て<strong>snabel-a</strong>「鼻のa」と言う。誰かが調整したわけでも投票したわけでもない。各言語がほぼ同じころ、めいめいの冗談を言ったのである。</p><h3>朝食のテーブル</h3><p>次は食べ物だ。ヘブライ語話者は渦巻きの菓子を見て<strong>שטרודל</strong>、シュトルーデルと呼んだ。チェコ語とスロバキア語はニシンの巻き酢漬けで、<strong>zavináč</strong>はロールモップスを指す。スウェーデン語はくだけた場面で<em>kanelbulle</em>、シナモンロールとも言う。商業のための記号が朝食になった。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"cs,he,hu,el,da\" data-word=\"atsign\">🗣 食べ物と小動物を比べる</button></div><p>手持ちの語を使った言語もある。スペイン語<strong>arroba</strong>はアラビア語<em>ar-roub</em>に由来する昔の重さの単位で、フランス語<strong>arobase</strong>はそれを借りたものだ。ここが話のまじめな側である。@に似た記号は1448年のスペインの記録タウラ・デ・アリサに現れ、カスティーリャからアラゴンへの小麦の輸送を記している。1667年の北イタリアの健康証明では同じ形が<em>addì</em>「～の日に」を表すらしく、1345年ごろのブルガリア語訳マナセス年代記では<em>amin</em>の語頭のaに使われている。電子メール以前、この記号には仕事がいくつもあったが、動物とは関係なかった。</p><h3>重さとアーメン</h3><p>英語をそのまま取った言語もある。トルコ語は<strong>et</strong>、中国語は<strong>艾特</strong>、日本語は<strong>アットマーク</strong>。カザフ語は<em>aıqulaq</em>「耳たぶ」という公式の造語を作り、動物たちに負けず鮮やかである。2010年にニューヨーク近代美術館は@をデザインコレクションに加えた。世界の多くがすでに皿の上や庭のものの名で呼んでいた文字への、遅れてきた栄誉である。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"At sign\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/At_sign"
+      },
+      {
+        "text": "\"arobase\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/arobase"
+      }
+    ]
+  },
+  {
+    "id": "potato-earth-apple",
+    "icon": "🥔",
+    "tags": [
+      "food",
+      "columbian-exchange",
+      "etymology"
+    ],
+    "title": {
+      "en": "The Potato: An Apple, a Truffle and a Jakarta Tuber",
+      "ja": "ジャガイモ：リンゴ、トリュフ、ジャカルタの芋"
+    },
+    "summary": {
+      "en": "When the potato left the Andes, every language had to decide what it was. Some called it an apple, some a truffle, and Japan named it after a port.",
+      "ja": "ジャガイモがアンデスを出たとき、どの言語もこれが何なのかを決めなければならなかった。リンゴと呼ぶ言語、トリュフと呼ぶ言語があり、日本語の名は港に由来する。"
+    },
+    "body": {
+      "en": "<p>The Spanish brought the potato to Europe in the second half of the 16th century, and no language there had a word for it. Something new gets compared with something known, so each language made its own comparison, and the map still shows them. Of the cells on it, 148 go back to the Spanish words, 71 say something about the earth, 50 say truffle and 7 name a place. Another 151 use some other image or an older word for a different root.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"potato\" data-code=\"en\">🗺️ Show potato on the map</button></div><h3>Papa and batata</h3><p>The Andean name is <strong>papa</strong>, from Quechua, and much of the Spanish-speaking world still uses it. Spain and the Philippines say <strong>patata</strong>, and that word has a tangle in it. It comes from Taíno <em>batata</em>, which meant the sweet potato, although the Spanish Royal Academy’s dictionary treats it as a blend of <em>papa</em> and <em>batata</em>. Either way, English <strong>potato</strong> comes from <em>patata</em>, so the English word began as the name of a different plant.</p><p>Turkish adds a further twist. <strong>patates</strong> came through Ottoman Turkish from Greek <em>πατάτες</em>, which is a plural, so one Turkish potato carries a Greek word for several. Swedish <strong>potatis</strong> sits on the same route. English also has a nickname with a stranger past: <em>spud</em> comes from <em>spudde</em>, a short, stout knife of the 15th century, and from around 1840 the sense “short and thick” moved over to the tuber.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"es,en,sv,tr,el,qu\" data-word=\"potato\">🗣 Compare the papa family</button></div><h3>An apple from the ground</h3><p>Other languages asked what the thing resembled. French <strong>pomme de terre</strong> and Dutch <strong>aardappel</strong> say “earth apple”. Hebrew <strong>תפוח אדמה</strong> and Persian <strong>سیب‌زمینی</strong> make the same comparison in their own words, so this idea spread by translation and not by sound. Polish <strong>ziemniak</strong> is built on the adjective for soil, and Mainland Chinese <strong>土豆</strong> is an “earth bean”. In Taiwan the same characters mean a peanut.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,nl,he,fa,pl,zh\" data-word=\"potato\">🗣 Compare the earth family</button></div><p>German chose a grander comparison. <strong>Kartoffel</strong> comes from older <em>Tartuffel</em>, from Italian <em>tartufolo</em>, a little truffle. Russian borrowed the German word as <em>картофель</em>, and the everyday <strong>картошка</strong>, recorded since the middle of the 19th century, is a diminutive built on a dialect variant of it. From Russian the word went on to Armenian <strong>կարտոֆիլ</strong>. Georgian <strong>კარტოფილი</strong> and Romanian <strong>cartof</strong> sit on the same route.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"de,ru,hy,ka,ro\" data-word=\"potato\">🗣 Compare the truffle family</button></div><h3>Truffles, ships and old words</h3><p>Japanese went by the shipping label. Dutch ships brought the potato to Japan early in the 17th century from Jagatara, the old name of Jakarta, and it was called ジャガタライモ, the Jagatara tuber. That wore down to <strong>ジャガイモ</strong>.</p><p>Some languages simply reassigned a word they already had. Hindi <strong>आलू</strong> goes back to Sanskrit <em>आलुक</em>, the elephant foot yam, and took the potato sense only after Europeans brought the plant to South Asia. Swahili <strong>kiazi</strong> may come from Malay <em>keladi</em>, “yam”, though that link is uncertain. Korean <strong>감자</strong> is first attested in 1766 for the sweet potato, covered both plants in the 19th century, and later lost the original meaning. So Korean and English made the same move on opposite sides of the world: each now calls the potato by a word that started out as the sweet potato.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja,ko,hi,sw\" data-word=\"potato\">🗣 Compare a port and three old words</button></div>",
+      "ja": "<p>スペイン人がジャガイモをヨーロッパへ持ち込んだのは16世紀後半で、そこにこれを指す語を持つ言語はなかった。新しいものは知っているものに例えられる。言語ごとに例えが違い、地図には今もそれが残っている。148セルはスペイン語の単語にさかのぼり、71セルは大地の語を含み、50セルはトリュフ、7セルは地名である。ほかの151セルは別の見立てか、別の根菜を指していた古い語を使う。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"potato\" data-code=\"en\">🗺️ 地図でジャガイモを表示</button></div><h3>パパとバタタ</h3><p>アンデスの名は<strong>papa</strong>で、ケチュア語に由来し、スペイン語圏の多くで今も使われている。スペインとフィリピンは<strong>patata</strong>と言い、この語には事情が絡んでいる。もとはサツマイモを指すタイノ語の<em>batata</em>だが、スペイン王立アカデミーの辞書は<em>papa</em>と<em>batata</em>の混成語としている。どちらにせよ英語の<strong>potato</strong>は<em>patata</em>から来ているので、この英単語はもともと別の植物の名だったことになる。</p><p>トルコ語にはもう一ひねりある。<strong>patates</strong>はオスマン語を経てギリシャ語の<em>πατάτες</em>から入った語で、これは複数形である。つまりトルコ語では芋一つが、ギリシャ語の「芋たち」を背負っている。スウェーデン語の<strong>potatis</strong>も同じ系統に属する。英語にはさらに奇妙な過去を持つ愛称もある。<em>spud</em>は15世紀の短く太い刃物<em>spudde</em>に由来し、1840年ごろから「短くて太い」という感じが芋に移った。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"es,en,sv,tr,el,qu\" data-word=\"potato\">🗣 パパの系統を比べる</button></div><h3>土の中のリンゴ</h3><p>何に似ているかを考えた言語もある。フランス語<strong>pomme de terre</strong>とオランダ語<strong>aardappel</strong>は「大地のリンゴ」である。ヘブライ語<strong>תפוח אדמה</strong>とペルシア語<strong>سیب‌زمینی</strong>は同じ見立てを自分の語で言っていて、この発想は音ではなく翻訳で広がった。ポーランド語<strong>ziemniak</strong>は「土の」という形容詞からでき、中国大陸の<strong>土豆</strong>は「土の豆」である。台湾では同じ字が落花生を指す。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,nl,he,fa,pl,zh\" data-word=\"potato\">🗣 大地の系統を比べる</button></div><p>ドイツ語はもっと立派な例えを選んだ。<strong>Kartoffel</strong>は古い<em>Tartuffel</em>、さらにイタリア語の<em>tartufolo</em>「小さなトリュフ」から来ている。ロシア語はこのドイツ語を<em>картофель</em>として借り、日常語の<strong>картошка</strong>はその方言形にもとづく指小形で、19世紀半ばから記録がある。ロシア語からはアルメニア語<strong>կարտոֆիլ</strong>へ伝わった。ジョージア語<strong>კარტოფილი</strong>とルーマニア語<strong>cartof</strong>も同じ系統にある。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"de,ru,hy,ka,ro\" data-word=\"potato\">🗣 トリュフの系統を比べる</button></div><h3>トリュフ、船、古い語</h3><p>日本語は積み出し地の名をつけた。17世紀初め、オランダ船がジャガタラ（ジャカルタの旧名）からジャガイモを日本へ運び、ジャガタライモと呼ばれた。それが縮まって<strong>ジャガイモ</strong>になった。</p><p>手持ちの語を割り当て直しただけの言語もある。ヒンディー語<strong>आलू</strong>はゾウコンニャクを指すサンスクリットの<em>आलुक</em>にさかのぼり、ヨーロッパ人が南アジアへ植物を持ち込んでからジャガイモの意味を得た。スワヒリ語<strong>kiazi</strong>はマレー語<em>keladi</em>「ヤムイモ」から来たのかもしれないが、確かではない。朝鮮語<strong>감자</strong>は1766年にサツマイモの意味で初めて記録され、19世紀には両方を指し、やがてもとの意味を失った。朝鮮語と英語は地球の反対側で同じことをしたわけだ。どちらも今、サツマイモの名だった語でジャガイモを呼んでいる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja,ko,hi,sw\" data-word=\"potato\">🗣 港の名と三つの古い語を比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"Potato\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Potato"
+      },
+      {
+        "text": "\"ジャガイモ\". Japanese Wikipedia, accessed 2026.",
+        "url": "https://ja.wikipedia.org/wiki/ジャガイモ"
+      },
+      {
+        "text": "\"Kartoffel\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Kartoffel"
+      },
+      {
+        "text": "\"patata\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/patata"
+      },
+      {
+        "text": "\"patates\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/patates"
+      },
+      {
+        "text": "\"картошка\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/картошка"
+      },
+      {
+        "text": "\"감자\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/감자"
+      },
+      {
+        "text": "\"आलू\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/आलू"
+      },
+      {
+        "text": "\"kiazi\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/kiazi"
+      },
+      {
+        "text": "\"土豆\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/土豆"
+      }
+    ]
+  },
+  {
+    "id": "pineapple-ananas",
+    "icon": "🍍",
+    "tags": [
+      "food",
+      "columbian-exchange",
+      "etymology"
+    ],
+    "title": {
+      "en": "Pineapple or Ananas: The World Split in Two",
+      "ja": "パイナップルかアナナスか：二つに割れた世界"
+    },
+    "summary": {
+      "en": "Most of the world says ananas, from a Tupi word, while English and Spanish looked at the fruit and saw a pine cone.",
+      "ja": "世界の多くはトゥピ語由来のアナナスと言い、英語とスペイン語はこの果物に松かさを見た。"
+    },
+    "body": {
+      "en": "<p>In English a <em>pine apple</em> was first the cone of a pine tree. The word goes back to the 14th century, long before anyone in England could have seen the tropical fruit. Middle English <em>pinappel</em> had relatives in Dutch and German, all meaning the cone. Only later did the name pass to the fruit, because the fruit looks like one. The map counts 94 cells in this pine family and 179 in the rival one.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"pineapple\" data-code=\"en\">🗺️ Show pineapple on the map</button></div><h3>A word from Brazil</h3><p>The rival name comes from where the plant came from. Columbus met the fruit on Guadeloupe on 4 November 1493, the first European known to have done so. In Old Tupi, a language of Brazil, it was <em>naná</em> or <em>ananá</em>, and Portuguese took that over, with a record from 1557 as <em>Ananes</em>. The form that spread, <strong>ananás</strong>, has an extra letter. No word in Old Tupi could end in <em>s</em>, so the final letter may be a Portuguese plural that came to be read as a singular.</p><p>The Portuguese carried the fruit from Brazil to India by 1550, and the name went round the world with it. French <strong>ananas</strong>, German <strong>Ananas</strong>, Russian <strong>ананас</strong>, Arabic <strong>أناناس</strong> and Hindi <strong>अनानास</strong> all belong here, and Malay <strong>nanas</strong> and Swahili <strong>nanasi</strong> begin without the first vowel, like Tupi <em>naná</em>.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"pt,fr,de,ru,ar,hi,ms,sw\" data-word=\"pineapple\">🗣 Compare the ananas family</button></div><h3>The pine cone family</h3><p>Spanish saw the pine cone on its own. Gonzalo Hernández Oviedo described the <em>piñas</em> of Hispaniola around 1540, and <strong>piña</strong> is the word today. Spanish then took it to the Philippines along with the fruit, giving Tagalog <strong>pinya</strong>. One early English translation managed both names in a single phrase, “Nana made in the manner of a Pine apple”. English gave the family a late success in East Asia, where Japanese <strong>パイナップル</strong> and Korean <strong>파인애플</strong> use the English word.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,es,tl,ja,ko\" data-word=\"pineapple\">🗣 Compare the pine family</button></div><p>Some languages stayed out of the contest, Brazil included. Portugal says ananás, but Brazilian Portuguese says <strong>abacaxi</strong>, a word of unclear origin that was used for a people and a river before the fruit, first mentioned in 1776. Mandarin <strong>菠萝</strong> is clipped from 菠蘿蜜, the jackfruit, and Taiwan’s <strong>鳳梨</strong> is a “phoenix pear”. Yoruba <strong>ọ̀pẹ̀-òyìnbó</strong> is the “palm of the Europeans”, which says plainly who brought it.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"pt,pt_br,zh,zh_tw,yo\" data-word=\"pineapple\">🗣 Compare the names that went another way</button></div><h3>Fruit for an earl</h3><p>In Britain the name acquired some status. In the second half of the 18th century, growing pineapples on an estate became a matter of great rivalry between wealthy aristocrats. John Murray, the 4th Earl of Dunmore, built a hothouse in Scotland topped with a stone cupola 14 metres tall in the shape of the fruit, and it is still known as the Dunmore Pineapple. Pineapple figures went on to become decorative elements in architecture, a symbol of hospitality.</p><p>Dutch shows the road English did not take. <em>Pijnappel</em> was the same word as English <em>pineapple</em>, and for a time it covered the fruit too. Dutch then gave the fruit to <strong>ananas</strong> and kept <em>pijnappel</em> for the cone. That is what it means today.</p>",
+      "ja": "<p>英語の<em>pine apple</em>は、もとは松かさのことだった。この語は14世紀にさかのぼり、イングランドの誰かが熱帯の果物を見られるようになるずっと前からある。中英語<em>pinappel</em>にはオランダ語やドイツ語に親戚があり、どれも松かさを指した。果物に名が移ったのは後のことで、見た目が似ていたからである。地図ではこの松の系統が94セル、対抗する系統が179セルある。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"pineapple\" data-code=\"en\">🗺️ 地図でパイナップルを表示</button></div><h3>ブラジルから来た語</h3><p>対抗する名は、植物の故郷から来た。コロンブスは1493年11月4日にグアドループ島でこの果物に出会った。知られている限り、これがヨーロッパ人との最初の出会いである。ブラジルの言語である古トゥピ語では<em>naná</em>または<em>ananá</em>といい、ポルトガル語がこれを受け継ぎ、1557年に<em>Ananes</em>として記録がある。広まった形<strong>ananás</strong>には余分な文字がある。古トゥピ語の語は<em>s</em>で終われないので、語末の文字はポルトガル語の複数形が単数と読まれたものかもしれない。</p><p>ポルトガル人は1550年までにブラジルからインドへこの果物を運び、名も一緒に世界を回った。フランス語<strong>ananas</strong>、ドイツ語<strong>Ananas</strong>、ロシア語<strong>ананас</strong>、アラビア語<strong>أناناس</strong>、ヒンディー語<strong>अनानास</strong>がここに属する。マレー語<strong>nanas</strong>とスワヒリ語<strong>nanasi</strong>は、トゥピ語の<em>naná</em>と同じく最初の母音がない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"pt,fr,de,ru,ar,hi,ms,sw\" data-word=\"pineapple\">🗣 アナナスの系統を比べる</button></div><h3>松かさの系統</h3><p>スペイン語は自分で松かさを見つけた。ゴンサロ・エルナンデス・オビエドは1540年ごろイスパニョーラ島の<em>piñas</em>を記述し、今も<strong>piña</strong>が使われている。スペイン人はこの果物をフィリピンへも持ち込み、タガログ語の<strong>pinya</strong>になった。ある初期の英訳は一つの句に両方の名を入れて、Nanaの形はPine appleのようだと書いている。東アジアでは英語が後から勝ちを収めた。日本語の<strong>パイナップル</strong>と朝鮮語の<strong>파인애플</strong>は英語の単語をそのまま使っている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,es,tl,ja,ko\" data-word=\"pineapple\">🗣 松の系統を比べる</button></div><p>この争いに加わらなかった言語もあり、ブラジルもその一つだ。ポルトガルはananásと言うが、ブラジルのポルトガル語は<strong>abacaxi</strong>と言う。語源ははっきりせず、果物より先にある民族と川の名として使われ、果物としての初出は1776年である。中国語の<strong>菠萝</strong>はジャックフルーツを指す菠蘿蜜を縮めた語で、台湾の<strong>鳳梨</strong>は「鳳凰の梨」である。ヨルバ語の<strong>ọ̀pẹ̀-òyìnbó</strong>は「ヨーロッパ人のヤシ」で、誰が持ってきたかをそのまま語っている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"pt,pt_br,zh,zh_tw,yo\" data-word=\"pineapple\">🗣 別の道を行った名を比べる</button></div><h3>伯爵の果物</h3><p>イギリスではこの名に箔がついた。18世紀後半、領地でパイナップルを育てることは裕福な貴族たちの激しい競争の的になった。第4代ダンモア伯ジョン・マレーはスコットランドに温室を建て、その上に果物の形をした高さ14メートルの石のキューポラを載せた。今もダンモア・パイナップルと呼ばれている。パイナップルの意匠はやがて建築の装飾になり、歓待の象徴になった。</p><p>英語が選ばなかった道をオランダ語が見せている。<em>pijnappel</em>は英語の<em>pineapple</em>と同じ語で、一時は果物も指した。その後オランダ語は果物を<strong>ananas</strong>に任せ、<em>pijnappel</em>を松かさに残した。今もこの語は松かさのことである。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"Pineapple\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Pineapple"
+      },
+      {
+        "text": "\"pineapple\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/pineapple"
+      },
+      {
+        "text": "\"ananás\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ananás"
+      },
+      {
+        "text": "\"abacaxi\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/abacaxi"
+      },
+      {
+        "text": "\"菠蘿\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/菠蘿"
+      }
+    ]
+  },
+  {
+    "id": "turkey-wrong-country",
+    "icon": "🦃",
+    "tags": [
+      "food",
+      "columbian-exchange",
+      "names"
+    ],
+    "title": {
+      "en": "The Turkey: A Bird from Nowhere It Is Named After",
+      "ja": "シチメンチョウ：名前の国から来ていない鳥"
+    },
+    "summary": {
+      "en": "English says Turkey, Turkish says India, Portuguese says Peru. An American bird got its names from people who had no idea where it came from.",
+      "ja": "英語はトルコ、トルコ語はインド、ポルトガル語はペルーと呼ぶ。アメリカの鳥は、どこから来たか知らない人々に名づけられた。"
+    },
+    "body": {
+      "en": "<p>Domestic turkeys descend from birds raised in central Mexico, and the Spanish brought them to Europe in the 16th century. Few people along the way seem to have kept track of that. English names the bird after Turkey. Turkish calls it <strong>hindi</strong>, “Indian”. The Turks point at India, the English point at the Turks, and the bird is from neither place.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"turkey\" data-code=\"en\">🗺️ Show turkey on the map</button></div><h3>A guineafowl’s name</h3><p>The English name began as a case of mistaken identity. <em>Turkey</em> is short for <em>turkey cock</em> and <em>turkey hen</em>, and those words first meant the guineafowl, an African bird that reached Europe through the Ottoman Empire. When the American bird arrived it looked similar enough, and the name moved over. It settled in fast. In 1550 the navigator William Strickland, who had introduced the bird to England, was granted a coat of arms with a “turkey-cock in his pride proper”, and Shakespeare used the word in <em>Twelfth Night</em> around 1601.</p><p>India is the favourite answer, with 80 cells. French is the clearest case: <em>coq d’Inde</em> and <em>poule d’Inde</em>, the hen from India, ran together into <strong>dinde</strong>. Here “India” meant the Indies, the name then used for the newly reached Americas, so this family is less wrong than it looks. Russian <strong>индейка</strong> belongs to it, its masculine <em>индюк</em> borrowed from Latin <em>indicus</em>, and so do Polish <strong>indyk</strong> and Georgian <strong>ინდაური</strong>. Hebrew <strong>תרנגול הודו</strong> is the “India fowl”, and in speech it shortens to <em>hodu</em>, the same word as the name of India.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,fr,ru,pl,he,ka\" data-word=\"turkey\">🗣 Compare the India family</button></div><h3>Calicut, and other wrong places</h3><p>Further north the guess became oddly exact. Dutch <strong>kalkoen</strong> comes from <em>Calcoensche haan</em>, the fowl of Calcoen, which was the then-current name for Calicut, today Kozhikode, on the coast of India. Swedish <strong>kalkon</strong> came from Dutch or Low German, Finnish <strong>kalkkuna</strong> from Swedish, and Estonian has <strong>kalkun</strong>. Indonesian <strong>kalkun</strong> took the word from Dutch, so a Mexican bird sits in Southeast Asia under the name of an Indian port.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"nl,sv,fi,et,id\" data-word=\"turkey\">🗣 Compare the Calicut family</button></div><p>A smaller group picked other foreign places. Portuguese <strong>peru</strong> looks like another miss, but Peru was often used to mean all the Spanish settlements in America, so this one is close to correct. Arabic <strong>ديك رومي</strong> is the Byzantine rooster, and Malay <strong>ayam belanda</strong> is the “Dutch chicken”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"pt,ar,ms\" data-word=\"turkey\">🗣 Compare Peru, Byzantium and Holland</button></div><h3>The ones who did not guess</h3><p>The largest group, 140 cells, did not name a place at all. Japanese <strong>七面鳥</strong> is the “seven-faced bird”, because the bare skin on the neck changes colour when the bird is stimulated and seems to give it several faces. German <strong>Pute</strong> imitates the bird’s call, and Hungarian <strong>pulyka</strong> comes from <em>puly</em>, a call used for the male. Bulgarian <strong>пуйка</strong> is the bird that perks and swanks. Mexican Spanish has <strong>guajolote</strong>, borrowed from Nahuatl <em>huehxōlōtl</em>. The word used where the domestic bird comes from is the one that mentions no country.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja,de,hu,bg,es_mx\" data-word=\"turkey\">🗣 Compare names with no place in them</button></div>",
+      "ja": "<p>家畜のシチメンチョウはメキシコ中部で飼われていた鳥の子孫で、16世紀にスペイン人がヨーロッパへ運んだ。途中でそれを覚えていた人は少なかったらしい。英語はこの鳥にトルコの名をつけた。トルコ語は<strong>hindi</strong>「インドの」と呼ぶ。トルコ人はインドを指し、イギリス人はトルコを指し、鳥はどちらの出身でもない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"turkey\" data-code=\"en\">🗺️ 地図でシチメンチョウを表示</button></div><h3>ホロホロチョウの名</h3><p>英語の名は鳥違いから始まった。<em>turkey</em>は<em>turkey cock</em>、<em>turkey hen</em>の短縮で、もとはオスマン帝国経由でヨーロッパに入ったアフリカの鳥、ホロホロチョウを指していた。アメリカの鳥が来ると、似ていたので名が移った。定着は早かった。1550年には、この鳥をイングランドに持ち込んだ航海者ウィリアム・ストリックランドがシチメンチョウの図柄を含む紋章を授かり、シェイクスピアも1601年ごろの『十二夜』でこの語を使っている。</p><p>いちばん人気の答えはインドで、80セルある。わかりやすいのはフランス語で、<em>coq d’Inde</em>、<em>poule d’Inde</em>「インドの雌鶏」が一語になって<strong>dinde</strong>となった。ここのインドは、当時そう呼ばれた新大陸のインディアスのことなので、この系統は見かけほど間違っていない。ロシア語<strong>индейка</strong>もここに入り、雄を指す<em>индюк</em>はラテン語<em>indicus</em>からの借用である。ポーランド語<strong>indyk</strong>、ジョージア語<strong>ინდაური</strong>も同じだ。ヘブライ語<strong>תרנגול הודו</strong>は「インドの鳥」で、話し言葉では縮まって<em>hodu</em>、インドの国名と同じ語になる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,fr,ru,pl,he,ka\" data-word=\"turkey\">🗣 インドの系統を比べる</button></div><h3>カリカット、そのほかの間違った場所</h3><p>北へ行くと、推測は奇妙なほど具体的になった。オランダ語<strong>kalkoen</strong>は<em>Calcoensche haan</em>「カルクーンの鶏」から来ていて、カルクーンはインド沿岸の都市カリカット、今のコーリコードの当時の呼び名である。スウェーデン語<strong>kalkon</strong>はオランダ語か低地ドイツ語から、フィンランド語<strong>kalkkuna</strong>はスウェーデン語から来て、エストニア語には<strong>kalkun</strong>がある。インドネシア語<strong>kalkun</strong>はオランダ語から取った。こうしてメキシコの鳥が、インドの港の名で東南アジアにいる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"nl,sv,fi,et,id\" data-word=\"turkey\">🗣 カリカットの系統を比べる</button></div><p>別の外国を選んだ小さな集団もある。ポルトガル語<strong>peru</strong>はまた外れに見えるが、ペルーはアメリカのスペイン領全体を指すのによく使われたので、これはほぼ当たりである。アラビア語<strong>ديك رومي</strong>はビザンツの雄鶏、マレー語<strong>ayam belanda</strong>は「オランダの鶏」である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"pt,ar,ms\" data-word=\"turkey\">🗣 ペルー、ビザンツ、オランダを比べる</button></div><h3>当て推量をしなかった人々</h3><p>最大の集団140セルは、場所の名を挙げなかった。日本語の<strong>七面鳥</strong>は、首の裸の皮膚が刺激を受けると色を変え、いくつもの顔があるように見えることによる。ドイツ語<strong>Pute</strong>は鳴き声をまねた語で、ハンガリー語<strong>pulyka</strong>は雄を呼ぶ声<em>puly</em>から来ている。ブルガリア語<strong>пуйка</strong>は気取って胸を張る鳥である。メキシコのスペイン語には<strong>guajolote</strong>があり、ナワトル語<em>huehxōlōtl</em>からの借用だ。家畜のシチメンチョウのふるさとで使われるこの語に、国の名は出てこない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja,de,hu,bg,es_mx\" data-word=\"turkey\">🗣 場所を含まない名を比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"Turkey (bird)\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Turkey_(bird)"
+      },
+      {
+        "text": "\"Domestic turkey\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Domestic_turkey"
+      },
+      {
+        "text": "\"dinde\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/dinde"
+      },
+      {
+        "text": "\"peru\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/peru"
+      },
+      {
+        "text": "\"kalkon\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/kalkon"
+      },
+      {
+        "text": "\"kalkun\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/kalkun"
+      },
+      {
+        "text": "\"הודו\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/הודו"
+      },
+      {
+        "text": "\"七面鳥\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/七面鳥"
+      },
+      {
+        "text": "\"pulyka\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/pulyka"
+      },
+      {
+        "text": "\"Pute\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Pute"
+      },
+      {
+        "text": "\"guajolote\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/guajolote"
+      }
+    ]
+  },
+  {
+    "id": "orange-portugal",
+    "icon": "🍊",
+    "tags": [
+      "food",
+      "etymology",
+      "trade"
+    ],
+    "title": {
+      "en": "Orange: The Fruit That Arrived Twice",
+      "ja": "オレンジ：二度やって来た果物"
+    },
+    "summary": {
+      "en": "A bitter orange reached Europe first and a sweet one came later. Around the eastern Mediterranean the fruit is still called Portugal.",
+      "ja": "苦いオレンジが先にヨーロッパへ届き、甘いオレンジが後から来た。地中海東部では、この果物は今もポルトガルの名で呼ばれる。"
+    },
+    "body": {
+      "en": "<p>There were two oranges, and that is why there are so many words. The bitter orange reached Italy by the 11th century at the latest. The sweet orange came to Europe only in the 15th, and at first it was grown almost entirely in Portugal. Each arrival brought a name. The map shows 260 cells descended from the old name, 77 from Portugal, 75 from China, and 241 with a local word.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"orange\" data-code=\"en\">🗺️ Show orange on the map</button></div><h3>The old name</h3><p>The old name has come a long way. The word for the fruit goes back to the Dravidian languages of South India, then to Sanskrit <em>nāraṅga</em>, Persian <em>nārang</em> and Arabic <em>nāranj</em>. Spanish keeps that shape in <strong>naranja</strong>. Other languages lost the first <em>n</em> or changed it. Portuguese has <strong>laranja</strong>, Italian <strong>arancia</strong> was formerly <em>narancia</em>, and French reached <strong>orange</strong>. English took that in the 14th century, and the place name Orange, which is unrelated, helped shape the spelling. The colour came afterwards. English first recorded it as a colour name in 1512. Before that, speakers made do with “yellow-red”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"es,it,fr,en,pt\" data-word=\"orange\">🗣 Compare the naranj family</button></div><h3>Named for Portugal</h3><p>The sweet fruit needed a way to tell it from the bitter one, and southern Europe gave it a nationality. Catalan <em>taronja de Portugal</em>, “orange of Portugal”, became plain <em>portogallo</em>, “sweet orange”, in Italian dialects, and a Neapolitan cookbook of 1773 was still using the word. From there it spread east.</p><p>Greek <strong>πορτοκάλι</strong> and Ottoman <em>portokal</em> were taken from Italian or a close neighbour, giving Turkish <strong>portakal</strong>. Arabic <strong>برتقال</strong> came through one of those two, and it is a doublet of the Arabic name for Portugal itself. Egyptian <strong>برتقان</strong> has been reshaped with an Arabic ending. The route continues to Romanian <strong>portocală</strong>, Georgian <strong>ფორთოხალი</strong> and Amharic <strong>ብርቱካን</strong>. In Arabic and Greek the old distinction still works: <em>nāranj</em> and <em>νεράντζι</em> are the bitter fruit, the Portugal words the sweet. Hindi <strong>संतरा</strong> may be a further case, possibly named after Sintra in Portugal. Portuguese itself, of course, says laranja.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"el,tr,ar,ar_eg,ro,ka,am\" data-word=\"orange\">🗣 Compare the Portugal family</button></div><h3>Named for China, or nothing</h3><p>Northern Europe credited a different country. Dutch <strong>sinaasappel</strong> is built from <em>Sina</em>, an old by-form of China, and <em>appel</em>. It is first attested in 1693, and <em>Chinas-appel</em> in 1683. Through Low German the idea reached German <em>Apfelsine</em>, and the same family gives Swedish <strong>apelsin</strong>, Russian <strong>апельсин</strong> and Finnish <strong>appelsiini</strong>. Moroccan Arabic <strong>لتشين</strong> reached China by a separate road, from French <em>la Chine</em>. This group happens to be closest to the botany. The sweet orange arose in domestication in East Asia, in a region that includes southern China.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"nl,sv,ru,fi,ar_ma\" data-word=\"orange\">🗣 Compare the China family</button></div><p>Other languages kept a word of their own: Mandarin says <strong>橙</strong>, Vietnamese <strong>cam</strong>, Thai <strong>ส้ม</strong>. Hebrew took neither road. Its word <strong>תפוז</strong> was coined as a blend of <em>tapuach</em>, “apple”, and <em>zahav</em>, “gold”, and it points to no country at all.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,vi,th,he\" data-word=\"orange\">🗣 Compare the local words</button></div>",
+      "ja": "<p>オレンジは二種類あった。呼び名がこれほど多いのはそのためだ。ビターオレンジは遅くとも11世紀にはイタリアに届いた。スイートオレンジがヨーロッパへ来たのは15世紀になってからで、はじめはほとんどポルトガルだけで栽培された。どちらの到来にも名がついてきた。地図では古い名の子孫が260セル、ポルトガル系が77セル、中国系が75セル、土地の語が241セルある。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"orange\" data-code=\"en\">🗺️ 地図でオレンジを表示</button></div><h3>古い名</h3><p>古い名は長い道のりを歩いた。南インドのドラヴィダ系の語にさかのぼり、サンスクリット<em>nāraṅga</em>、ペルシア語<em>nārang</em>、アラビア語<em>nāranj</em>と続く。スペイン語の<strong>naranja</strong>はその形を保っている。ほかの言語は語頭の<em>n</em>を失うか変えた。ポルトガル語は<strong>laranja</strong>、イタリア語<strong>arancia</strong>は以前<em>narancia</em>で、フランス語は<strong>orange</strong>に至った。英語はこれを14世紀に取り入れ、無関係の地名オランジュが綴りに影響した。色の名は後からできた。英語で色の名としての初出は1512年で、それ以前の人々は「黄赤」で済ませていた。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"es,it,fr,en,pt\" data-word=\"orange\">🗣 ナーランジの系統を比べる</button></div><h3>ポルトガルの名</h3><p>甘い果物には苦いものと区別する呼び方が必要で、南ヨーロッパはこれに国籍を与えた。カタルーニャ語の<em>taronja de Portugal</em>「ポルトガルのオレンジ」は、イタリアの方言でただの<em>portogallo</em>「スイートオレンジ」になり、1773年のナポリの料理書にもこの語が見える。ここから東へ広がった。</p><p>ギリシャ語<strong>πορτοκάλι</strong>とオスマン語<em>portokal</em>はイタリア語かその近縁の語から取った語で、トルコ語<strong>portakal</strong>はその子孫である。アラビア語<strong>برتقال</strong>はそのどちらかを経た語で、ポルトガルの国名を指すアラビア語と語源を同じくする。エジプトの<strong>برتقان</strong>はアラビア語の語尾で作り直された形だ。この道はルーマニア語<strong>portocală</strong>、ジョージア語<strong>ფორთოხალი</strong>、アムハラ語<strong>ብርቱካን</strong>へ続く。アラビア語とギリシャ語では昔の区別が今も生きていて、<em>nāranj</em>と<em>νεράντζι</em>が苦い果物、ポルトガル系の語が甘い果物である。ヒンディー語<strong>संतरा</strong>もその例かもしれず、ポルトガルの町シントラの名だという説がある。当のポルトガル語はlaranjaと言う。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"el,tr,ar,ar_eg,ro,ka,am\" data-word=\"orange\">🗣 ポルトガルの系統を比べる</button></div><h3>中国の名、どこでもない名</h3><p>北ヨーロッパは別の国の手柄にした。オランダ語<strong>sinaasappel</strong>は、中国を指す古い形<em>Sina</em>と<em>appel</em>からできている。初出は1693年で、1683年には<em>Chinas-appel</em>の形もある。この発想は低地ドイツ語を通じてドイツ語<em>Apfelsine</em>に届き、同じ系統にスウェーデン語<strong>apelsin</strong>、ロシア語<strong>апельсин</strong>、フィンランド語<strong>appelsiini</strong>がある。モロッコのアラビア語<strong>لتشين</strong>はフランス語<em>la Chine</em>という別の道で中国に行き着いた。植物学に最も近いのは、実はこの系統である。スイートオレンジは東アジアの、中国南部を含む地域で栽培の中から生まれた。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"nl,sv,ru,fi,ar_ma\" data-word=\"orange\">🗣 中国の系統を比べる</button></div><p>自分の語を保った言語もある。中国語は<strong>橙</strong>、ベトナム語は<strong>cam</strong>、タイ語は<strong>ส้ม</strong>である。ヘブライ語はどちらの道も取らなかった。<strong>תפוז</strong>は<em>tapuach</em>「リンゴ」と<em>zahav</em>「金」を混ぜて作った語で、どの国も指していない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,vi,th,he\" data-word=\"orange\">🗣 土地の語を比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"Orange (fruit)\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Orange_(fruit)"
+      },
+      {
+        "text": "\"Orange (word)\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Orange_(word)"
+      },
+      {
+        "text": "\"Orange (Frucht)\". German Wikipedia, accessed 2026.",
+        "url": "https://de.wikipedia.org/wiki/Orange_(Frucht)"
+      },
+      {
+        "text": "\"portogallo\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/portogallo"
+      },
+      {
+        "text": "\"برتقال\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/برتقال"
+      },
+      {
+        "text": "\"πορτοκάλι\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/πορτοκάλι"
+      },
+      {
+        "text": "\"sinaasappel\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/sinaasappel"
+      },
+      {
+        "text": "\"Apfelsine\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Apfelsine"
+      },
+      {
+        "text": "\"संतरा\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/संतरा"
+      },
+      {
+        "text": "\"תפוז\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/תפוז"
+      }
+    ]
+  },
+  {
+    "id": "milkyway-roads",
+    "icon": "🌌",
+    "tags": [
+      "astronomy",
+      "folklore",
+      "etymology"
+    ],
+    "title": {
+      "en": "The Milky Way: Milk, Straw, Birds or a River",
+      "ja": "天の川：乳か、藁か、鳥か、川か"
+    },
+    "summary": {
+      "en": "Everyone under a dark sky sees the same pale band. The names say what each culture decided it was, from spilled milk to stolen straw.",
+      "ja": "暗い空の下では誰もが同じ淡い帯を見る。その名は、こぼれた乳から盗まれた藁まで、それぞれの文化がこの帯を何と考えたかを語る。"
+    },
+    "body": {
+      "en": "<p>The word <em>galaxy</em> means milky. It comes from Greek <strong>Γαλαξίας</strong>, short for <em>galaxías kýklos</em>, the “milky circle”, from <em>gala</em>, “milk”. Latin translated it as <em>via lactea</em>, and English translated that as the <strong>Milky Way</strong>, so an astronomer who speaks of our galaxy, the Milky Way, is saying the same thing twice. The map gives 107 cells to milk, but 82 see a river, 43 a road, 18 straw and 10 the track of birds.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"milkyway\" data-code=\"en\">🗺️ Show Milky Way on the map</button></div><h3>A milky circle</h3><p>The Greek name came with a story. In the usual telling the infant Heracles fed from Hera, who did not know, and when she threw him away a little of her milk splashed across the sky. Tintoretto painted it around 1575. Europe adopted the image along with the Latin: French <strong>Voie lactée</strong>, German <strong>Milchstraße</strong>, Russian <strong>Млечный Путь</strong>, Welsh <strong>Llwybr Llaethog</strong>.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"el,fr,de,ru,cy\" data-word=\"milkyway\">🗣 Compare the milk names</button></div><p>East Asia looked at the same band and saw water. Mandarin <strong>银河</strong> and Vietnamese <strong>Ngân Hà</strong> are the “Silvery River”, Korean <strong>은하수</strong> adds the word for water, and Japanese <strong>天の川</strong> is the “river of heaven”. The river matters to a love story. In the Chinese tale of the Cowherd and the Weaver Girl, the two lovers, who are the stars Altair and Vega, are banished to opposite banks. Once a year, on the seventh day of the seventh lunar month, crows and magpies form a bridge so they can meet. That is the festival of Qixi, known in Japan as Tanabata.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja,zh,ko,vi\" data-word=\"milkyway\">🗣 Compare the river names</button></div><h3>Stolen straw</h3><p>Across the Turkic and Arabic worlds and parts of the Balkans, the band is a trail of something dropped. Turkish <strong>Samanyolu</strong> is the “straw road”. Arabic <strong>درب التبانة</strong> is the haymakers’ path, a road covered in scattered hay. Macedonian <strong>Кумова Слама</strong> is the godparent’s straw, and a Serbian legend behind the same name has a thief: a godparent stole straw from another, lost it along the way, and God put it in the sky as a permanent warning. The Armenian version makes the thief a god, Vahagn, who took straw from an Assyrian king in a cold winter. Cherokee tells it with a dog and stolen cornmeal, and the name means “where the dog ran”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,ar,mk\" data-word=\"milkyway\">🗣 Compare the straw names</button></div><p>Among the Finns and Estonians the band has a practical use. Finnish <strong>linnunrata</strong> and Estonian <strong>Linnutee</strong> are the “pathway of the birds”, because migrating birds were seen to follow it south towards <em>Lintukoto</em>, the bird home. Lithuanian <strong>Paukščių Takas</strong> has the same meaning.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,et,lt\" data-word=\"milkyway\">🗣 Compare the bird names</button></div><h3>Birds and wagons</h3><p>Other languages found a working road. Ukrainian <strong>Чумацький Шлях</strong> is the Chumaks’ Way, named after wagon traders who carried salt, fish and grain, and the same phrase was the name of an actual trade route from Crimea, in use from the 16th to the late 19th century. Slovenian <strong>Rimska cesta</strong> is a Roman road. Hungarian has a military road alongside its plain <em>Tejút</em>: in <em>Hadak Útja</em>, the Road of the Warriors, Prince Csaba rides down the sky when the Székelys are threatened, and the stars are sparks from the horseshoes. Swedish <strong>Vintergatan</strong> is the “winter street”, attested since 1579. Perhaps weather forecasters read the coming winter in its shape, but the origin of that name is unknown.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"uk,sv,sl\" data-word=\"milkyway\">🗣 Compare the road names</button></div>",
+      "ja": "<p>galaxyという語の意味は「乳の」である。ギリシャ語の<strong>Γαλαξίας</strong>から来ていて、これは「乳の環」を意味する<em>galaxías kýklos</em>の略で、<em>gala</em>は「乳」である。ラテン語はこれを<em>via lactea</em>と訳し、英語はそれを<strong>Milky Way</strong>と訳した。だから英語でour galaxy, the Milky Wayと言えば、同じことを二度言っていることになる。地図では107セルが乳だが、82セルは川、43セルは道、18セルは藁、10セルは鳥の道を見ている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"milkyway\" data-code=\"en\">🗺️ 地図で天の川を表示</button></div><h3>乳の環</h3><p>ギリシャ語の名には物語がついていた。よく語られる形では、赤ん坊のヘラクレスが知らぬ間にヘラの乳を飲み、ヘラが彼を放り出したときに乳が空へ飛び散った。ティントレットは1575年ごろこれを描いている。ヨーロッパはラテン語と一緒にこの見立ても受け入れた。フランス語<strong>Voie lactée</strong>、ドイツ語<strong>Milchstraße</strong>、ロシア語<strong>Млечный Путь</strong>、ウェールズ語<strong>Llwybr Llaethog</strong>である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"el,fr,de,ru,cy\" data-word=\"milkyway\">🗣 乳の名を比べる</button></div><p>東アジアは同じ帯に水を見た。中国語<strong>银河</strong>とベトナム語<strong>Ngân Hà</strong>は「銀の川」で、朝鮮語<strong>은하수</strong>はそれに「水」を加え、日本語の<strong>天の川</strong>は天にある川そのものだ。この川は恋の物語に欠かせない。中国の牽牛と織女の話では、アルタイルとベガである二人が両岸に引き離される。年に一度、旧暦七月七日にカラスとカササギが橋を作り、二人は会える。これが七夕である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja,zh,ko,vi\" data-word=\"milkyway\">🗣 川の名を比べる</button></div><h3>盗まれた藁</h3><p>テュルク語圏、アラビア語圏、バルカンの一部では、この帯は何かを落とした跡である。トルコ語<strong>Samanyolu</strong>は「藁の道」。アラビア語<strong>درب التبانة</strong>は干し草を運ぶ人の道で、干し草の散らばった道に見立てている。マケドニア語<strong>Кумова Слама</strong>は「代父の藁」で、セルビアの同じ名の伝説には盗人が出てくる。代父が別の人から藁を盗み、運ぶ途中で落としていったので、神が戒めとして空に置いたという。アルメニアの話では盗人は神ヴァハグンで、寒い冬にアッシリアの王から藁を奪う。チェロキーの話では犬が盗んだトウモロコシの粉をこぼしていき、その名は「犬の走った所」を意味する。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,ar,mk\" data-word=\"milkyway\">🗣 藁の名を比べる</button></div><p>フィン人とエストニア人にとって、この帯には実用があった。フィンランド語<strong>linnunrata</strong>とエストニア語<strong>Linnutee</strong>は「鳥の道」で、渡り鳥がこれをたどって南の<em>Lintukoto</em>、鳥の故郷へ向かうと見たからだ。リトアニア語の<strong>Paukščių Takas</strong>も同じ意味である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,et,lt\" data-word=\"milkyway\">🗣 鳥の名を比べる</button></div><h3>鳥と荷馬車</h3><p>働く道を見つけた言語もある。ウクライナ語<strong>Чумацький Шлях</strong>は「チュマークの道」で、塩や魚や穀物を運んだ荷馬車の商人の名がついている。同じ語は、16世紀から19世紀末まで使われたクリミアからの実際の交易路の名でもあった。スロベニア語<strong>Rimska cesta</strong>は「ローマの道」である。ハンガリー語には<em>Tejút</em>のほかに<em>Hadak Útja</em>「戦士の道」があり、セーケイ人が危機に陥るとチャバ王子が空を駆け下り、星はその蹄鉄の火花だという。スウェーデン語<strong>Vintergatan</strong>は「冬の街路」で、1579年から記録がある。天気を占う人がその形から冬を読んだのかもしれないが、この名の由来はわかっていない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"uk,sv,sl\" data-word=\"milkyway\">🗣 道の名を比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"Milky Way\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Milky_Way"
+      },
+      {
+        "text": "\"Milky Way (mythology)\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Milky_Way_(mythology)"
+      },
+      {
+        "text": "\"Milk of Hera\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Milk_of_Hera"
+      },
+      {
+        "text": "\"Chumak\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Chumak"
+      },
+      {
+        "text": "\"galaxy\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/galaxy"
+      },
+      {
+        "text": "\"天の川\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/天の川"
+      },
+      {
+        "text": "\"Samanyolu\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Samanyolu"
+      },
+      {
+        "text": "\"درب التبانة\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/درب التبانة"
+      },
+      {
+        "text": "\"linnunrata\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/linnunrata"
+      },
+      {
+        "text": "\"Vintergatan\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Vintergatan"
+      },
+      {
+        "text": "\"Rimska cesta\". Slovene Wikipedia, accessed 2026.",
+        "url": "https://sl.wikipedia.org/wiki/Rimska_cesta"
+      }
+    ]
+  },
+  {
+    "id": "ladybird-holy",
+    "icon": "🐞",
+    "tags": [
+      "insects",
+      "folklore",
+      "etymology"
+    ],
+    "title": {
+      "en": "The Ladybird: A Beetle with Friends in Heaven",
+      "ja": "テントウムシ：天に友のいる甲虫"
+    },
+    "summary": {
+      "en": "A small spotted beetle is named after the Virgin Mary, God or Moses across much of Europe and beyond. Elsewhere it belongs to the sun, a shaman or a girl called Cathy.",
+      "ja": "斑点のある小さな甲虫は、ヨーロッパを中心に聖母マリア、神、モーセの名で呼ばれる。別の土地では太陽、巫堂、カティという少女のものである。"
+    },
+    "body": {
+      "en": "<p>The ladybird is not a bird, and the lady is the Virgin Mary. The insects became known in Britain as “Our Lady’s birds”, which gave <strong>ladybird</strong>. In the United States it became <em>ladybug</em>, and entomologists prefer <em>lady beetle</em>, to avoid confusion with true bugs. What stands out is how many other languages gave this one beetle a religious name: 76 cells on the map do so.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"ladybird\" data-code=\"en\">🗺️ Show ladybird on the map</button></div><h3>Mary’s beetle</h3><p>Mary alone accounts for a long list. German <strong>Marienkäfer</strong> is “Mary’s beetle”. Norwegian <strong>marihøne</strong> is “Mary’s hen”. Spanish <strong>mariquita</strong> means roughly “Little Mary”, from a pet form of <em>María</em>, and Latvian <strong>mārīte</strong> is another diminutive, from <em>Māra</em>, a form of <em>Marija</em>. Macedonian <strong>бубамара</strong> belongs to the same group.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,no,es,lv,mk\" data-word=\"ladybird\">🗣 Compare the Mary names</button></div><p>Others went higher. Dutch <strong>lieveheersbeestje</strong> is the little animal of Our Dear Lord. Russian <strong>божья коровка</strong> is the “godly little cow”, and Irish <strong>bóín Dé</strong> has the same image, as Polish did in an older word. Hebrew has its own version: <strong>פרת משה רבינו</strong> is the “cow of Moses our teacher”. Greek <strong>πασχαλίτσα</strong> is built on <em>πασχαλιά</em>, which means both lilac and Eastertide. Swedish <strong>nyckelpiga</strong> is the “key maid”, and one Swedish name, <em>Himmelska nycla</em>, means “keys of heaven”, in keeping with an idea of these beetles as the gatekeepers of Heaven.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"nl,ru,ga,he,el,sv\" data-word=\"ladybird\">🗣 Compare God, Moses and Easter</button></div><h3>The sun’s insect</h3><p>A small group of four cells looks up at the sun instead. Japanese <strong>天道虫</strong> joins <em>tentō</em>, the sun or the path of the heavens, to the word for bug. One theory says the insects fly up towards the sun, and another that they settle on branches facing the sky. Ukrainian <strong>сонечко</strong> is also an affectionate word for the sun, and Czech <strong>slunéčko</strong> sits on the same route.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja,uk,cs\" data-word=\"ladybird\">🗣 Compare the sun names</button></div><p>Another 80 cells have their own ideas. French <strong>coccinelle</strong> comes from scientific Latin, based on the word for scarlet, so it describes the colour, and Pierre André Latreille built the family name Coccinellidae on the same idea in 1807. That colour is doing a job: red with black spots warns predators that the insect tastes bad. Finnish <strong>leppäkerttu</strong> combines an archaic word for blood with the woman’s name Kerttu. Hungarian <strong>katicabogár</strong> is “Cathy bug”, from a pet form of <em>Katalin</em>. Korean <strong>무당벌레</strong> is the “shaman bug”, usually explained by the red of a shaman’s ritual robes. Turkish <strong>uğur böceği</strong> is the “luck bug”, because the beetle is believed to bring good fortune.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,fi,hu,ko,tr\" data-word=\"ladybird\">🗣 Compare colour, name, shaman and luck</button></div><h3>Fly away</h3><p>Luck, love and weather prophecy all follow this insect in European folklore, and so does a habit of talking to it. English children say “Ladybird, ladybird fly away home, Your house is on fire”. The Hungarian name is kept alive by a nursery rhyme that means “Cathy, fly away”. Wiktionary’s example for the Russian word is “Божья коровка, улети на небо”, “ladybird, fly away to the sky”. Three languages give one small beetle the same order.</p>",
+      "ja": "<p>英語のladybirdは鳥ではなく、ladyは聖母マリアのことである。この虫はイギリスで「聖母の鳥」と呼ばれ、そこから<strong>ladybird</strong>になった。アメリカでは<em>ladybug</em>となり、昆虫学者はカメムシの仲間との混同を避けて<em>lady beetle</em>を好む。目を引くのは、ほかの多くの言語もこの甲虫に宗教的な名を与えたことで、地図では76セルがそうなっている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"ladybird\" data-code=\"en\">🗺️ 地図でテントウムシを表示</button></div><h3>マリアの甲虫</h3><p>マリアだけでも長い一覧になる。ドイツ語<strong>Marienkäfer</strong>は「マリアの甲虫」。ノルウェー語<strong>marihøne</strong>は「マリアの雌鶏」。スペイン語<strong>mariquita</strong>は<em>María</em>の愛称形からで「小さなマリア」ほどの意味であり、ラトビア語<strong>mārīte</strong>も<em>Marija</em>の一形<em>Māra</em>の指小形である。マケドニア語<strong>бубамара</strong>も同じ仲間に入る。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,no,es,lv,mk\" data-word=\"ladybird\">🗣 マリアの名を比べる</button></div><p>もっと高い所へ行った言語もある。オランダ語<strong>lieveheersbeestje</strong>は「愛する主の小さな動物」である。ロシア語<strong>божья коровка</strong>は「神の小さな牛」で、アイルランド語<strong>bóín Dé</strong>も同じ見立てであり、ポーランド語の古い語もそうだった。ヘブライ語には独自の形があり、<strong>פרת משה רבינו</strong>は「我らの師モーセの牛」である。ギリシャ語<strong>πασχαλίτσα</strong>は、ライラックと復活祭の両方を意味する<em>πασχαλιά</em>からできている。スウェーデン語<strong>nyckelpiga</strong>は「鍵の娘」で、別の名<em>Himmelska nycla</em>は「天国の鍵」を意味する。この虫を天国の門番とする考えと結びついた呼び名である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"nl,ru,ga,he,el,sv\" data-word=\"ladybird\">🗣 神、モーセ、復活祭を比べる</button></div><h3>太陽の虫</h3><p>4セルの小さな集団は太陽を見上げている。日本語の<strong>天道虫</strong>は太陽や天の道を指す「天道」に「虫」をつけた語で、太陽に向かって飛ぶからとも、枝にとまって空を向くからともいわれる。ウクライナ語<strong>сонечко</strong>は太陽を親しんで呼ぶ語でもあり、チェコ語<strong>slunéčko</strong>も同じ系統にある。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja,uk,cs\" data-word=\"ladybird\">🗣 太陽の名を比べる</button></div><p>別の80セルにも、それぞれの考えがある。フランス語<strong>coccinelle</strong>は緋色を表す語にもとづく学術ラテン語からで、色を語っている。ラトレイユが1807年に作った科の名Coccinellidaeも同じ発想である。この色には役目があり、黒い斑点のある赤は、まずいぞと捕食者に警告している。フィンランド語<strong>leppäkerttu</strong>は「血」の古語と女性の名ケルットゥを合わせた語だ。ハンガリー語<strong>katicabogár</strong>は<em>Katalin</em>の愛称形からで「カティの虫」である。朝鮮語<strong>무당벌레</strong>は「巫堂の虫」で、ふつう巫堂の儀式の赤い衣から説明される。トルコ語<strong>uğur böceği</strong>は「幸運の虫」で、幸運を運ぶと信じられているためだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,fi,hu,ko,tr\" data-word=\"ladybird\">🗣 色、名前、巫堂、幸運を比べる</button></div><h3>飛んでいけ</h3><p>ヨーロッパの民間伝承では、幸運、恋、天気の占いがこの虫についてまわり、話しかける習慣もついてまわる。英語の子どもは、テントウムシよ、おうちへ飛んでお帰り、おうちが火事だよ、と唱える。ハンガリー語の名は「カティ、飛んでいけ」という意味のわらべ歌に今も残る。ロシア語の辞書の例文にも、テントウムシよ、空へ飛んでいけ、という文句がある。三つの言語が、一匹の小さな甲虫に同じ命令を出している。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"Coccinellidae\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Coccinellidae"
+      },
+      {
+        "text": "\"Ladybird Ladybird\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Ladybird_Ladybird"
+      },
+      {
+        "text": "\"ladybird\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ladybird"
+      },
+      {
+        "text": "\"mariquita\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/mariquita"
+      },
+      {
+        "text": "\"lieveheersbeestje\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/lieveheersbeestje"
+      },
+      {
+        "text": "\"божья коровка\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/божья коровка"
+      },
+      {
+        "text": "\"פרת משה רבינו\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/פרת משה רבינו"
+      },
+      {
+        "text": "\"天道虫\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/天道虫"
+      },
+      {
+        "text": "\"katicabogár\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/katicabogár"
+      },
+      {
+        "text": "\"무당벌레\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/무당벌레"
+      },
+      {
+        "text": "\"leppäkerttu\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/leppäkerttu"
+      },
+      {
+        "text": "\"uğur böceği\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/uğur böceği"
+      }
+    ]
+  },
+  {
+    "id": "greece-yunan",
+    "icon": "🏛️",
+    "tags": [
+      "countries",
+      "names",
+      "etymology"
+    ],
+    "title": {
+      "en": "Greece, Yunan, Hellas: Three Doors into One Country",
+      "ja": "ギリシャ、ユナン、ヘラス：一つの国への三つの入口"
+    },
+    "summary": {
+      "en": "The Greeks call their country Hellas, the West says Greece, and the East says Yunan. The two outside names come from whichever Greeks a neighbour met first.",
+      "ja": "ギリシャ人は自国をヘラスと呼び、西はギリシャ、東はユナンと呼ぶ。外からの二つの名は、隣人が最初に出会ったギリシャ人に由来する。"
+    },
+    "body": {
+      "en": "<p>Greeks do not live in Greece. They live in <strong>Ελλάδα</strong>, officially the Hellenic Republic, and <em>Elláda</em> comes from an ancient accusative form of <em>Hellas</em>. Few others use it. The map has 297 cells from a Latin name and 72 from Ionia, and most of the 70 for the Greeks’ own word are varieties of Chinese. The two big outside names each come from one group of Greeks that a neighbour happened to meet first.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"greece\" data-code=\"el\">🗺️ Show Greece on the map</button></div><h3>The Latin door</h3><p>The Romans met Greek colonists in southern Italy, called them <em>Graeci</em>, and went on to use that name for all Greeks. It was not a grand name. Aristotle, one of the first to use it, said the area around Dodona was home to a people formerly called <em>Graikoi</em> and now Hellenes. Through Latin it became the root of the European words: English <strong>Greece</strong>, French <strong>Grèce</strong>, Russian <strong>Греция</strong>. German <strong>Griechenland</strong> has kept a form that English lost. English once had a matching <em>Greekland</em>, from Old English <em>Grēcland</em>, until <em>Greece</em> mostly displaced it. The name went further still. Japanese <strong>ギリシャ</strong> came from Portuguese <em>Grécia</em>, and Korean <strong>그리스</strong> follows the same route.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,fr,de,ru,ja,ko\" data-word=\"greece\">🗣 Compare the Latin family</button></div><h3>The Ionian door</h3><p>To the east, a different tribe got the credit. The Persians named the Greeks after the Ionians, who had settled the coasts of western Asia Minor, and the name passed on to Hebrew, Arabic and the Turks. It reached India too, as <em>Yona</em>. So Persian <strong>یونان</strong>, Arabic <strong>اليونان</strong>, Turkish <strong>Yunanistan</strong> and Hindi <strong>यूनान</strong> all point at one stretch of coast, and Indonesian <strong>Yunani</strong> carries it into Southeast Asia. Hebrew <strong>יוון</strong> belongs here too. As <em>Javan</em>, it appears in Genesis among the sons of Japheth, and it is likely related to Greek <em>Ion</em>, the ancestor of the Ionians.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fa,ar,tr,hi,id,he\" data-word=\"greece\">🗣 Compare the Ionia family</button></div><p>Chinese took the third door, the Greeks’ own. <strong>希腊</strong> ultimately comes from <em>Hellas</em>, and the name is attested as early as 1837 in the <em>Eastern Western Monthly Magazine</em>. Vietnamese <strong>Hy Lạp</strong> is the Sino-Vietnamese reading of those same two characters. Japanese has a neat mismatch here. It once wrote the country with the characters 希臘, from <em>Hellas</em>, and read them <em>Girisha</em>, from <em>Graecia</em>, so one written word had two ancestors.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"el,zh,vi\" data-word=\"greece\">🗣 Compare the Hellas family</button></div><h3>One name, many owners</h3><p>Georgian stands alone. <strong>საბერძნეთი</strong> is built on <em>ბერძენი</em>, “Greek”, with no link to any of the three, and it is the only cell on its route.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ka,el\" data-word=\"greece\">🗣 Compare Georgian and Greek</button></div><p>The Greeks’ own name had a difficult history as well. Homer used <em>Hellenes</em> for a relatively small tribe in Thessaly. By late antiquity Greeks were calling themselves <em>Graikoi</em> and <em>Rhomaioi</em>, “Romans”, since virtually all of them had been Roman citizens after 212. After Christianity was established under Theodosius I, <em>Hellene</em> began to be applied to followers of the old polytheistic religion. So the name that looks the most obvious on the map spent a long stretch meaning a pagan.</p>",
+      "ja": "<p>ギリシャ人の国はギリシャではない。<strong>Ελλάδα</strong>、正式にはHellenic Republicで、<em>Elláda</em>は古代語<em>Hellas</em>の対格の形から来ている。この名を使う言語は少ない。地図ではラテン語の名に由来するものが297セル、イオニアからが72セルで、ギリシャ人自身の語の70セルも大半は中国語の諸方言である。外からの二大名称は、隣人がたまたま最初に出会った集団から来ている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"greece\" data-code=\"el\">🗺️ 地図でギリシャを表示</button></div><h3>ラテンの入口</h3><p>ローマ人は南イタリアでギリシャ人の植民者に出会い、<em>Graeci</em>と呼び、やがてギリシャ人全体をそう呼んだ。立派な名ではなかった。この語を最初に使った一人のアリストテレスは、ドドナ周辺には以前<em>Graikoi</em>と呼ばれ今はヘレネスと呼ばれる人々が住むと書いている。ラテン語を通じて、これがヨーロッパの語の根になった。英語<strong>Greece</strong>、フランス語<strong>Grèce</strong>、ロシア語<strong>Греция</strong>である。ドイツ語<strong>Griechenland</strong>は英語が失った形を残している。英語にもかつて古英語<em>Grēcland</em>に由来する<em>Greekland</em>があったが、<em>Greece</em>がほぼ追い出した。名はさらに遠くへ行った。日本語の<strong>ギリシャ</strong>はポルトガル語<em>Grécia</em>から来ていて、朝鮮語の<strong>그리스</strong>も同じ系統にある。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,fr,de,ru,ja,ko\" data-word=\"greece\">🗣 ラテンの系統を比べる</button></div><h3>イオニアの入口</h3><p>東では別の部族が手柄を得た。ペルシア人はギリシャ人を、小アジア西岸に植民したイオニア人の名で呼び、この名はヘブライ語、アラビア語、テュルク系の人々へ伝わった。インドにも<em>Yona</em>として届いた。ペルシア語<strong>یونان</strong>、アラビア語<strong>اليونان</strong>、トルコ語<strong>Yunanistan</strong>、ヒンディー語<strong>यूनान</strong>はどれも一つの海岸線を指していて、インドネシア語<strong>Yunani</strong>はこれを東南アジアへ運んだ。ヘブライ語<strong>יוון</strong>もここに入る。<em>Javan</em>として創世記にヤペテの子の一人として現れ、イオニア人の祖<em>Ion</em>と関係があるらしい。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fa,ar,tr,hi,id,he\" data-word=\"greece\">🗣 イオニアの系統を比べる</button></div><p>中国語は第三の入口、ギリシャ人自身の入口を選んだ。<strong>希腊</strong>はもとをたどれば<em>Hellas</em>で、1837年の雑誌にすでに見える。ベトナム語<strong>Hy Lạp</strong>はこの二字の漢越音である。日本語にはおもしろいずれがある。かつてこの国を<em>Hellas</em>に由来する「希臘」と書き、<em>Graecia</em>に由来する「ギリシャ」と読んだのだ。一つの書き言葉に先祖が二つあったことになる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"el,zh,vi\" data-word=\"greece\">🗣 ヘラスの系統を比べる</button></div><h3>一つの名、多くの持ち主</h3><p>ジョージア語はひとり立っている。<strong>საბერძნეთი</strong>は「ギリシャ人」を意味する<em>ბერძენი</em>からできた語で、三つのどれともつながらず、その経路のセルはこれだけである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ka,el\" data-word=\"greece\">🗣 ジョージア語とギリシャ語を比べる</button></div><p>ギリシャ人自身の名にも苦しい歴史があった。ホメロスは<em>Hellenes</em>をテッサリアの比較的小さな部族に使った。古代末期のギリシャ人は自分たちを<em>Graikoi</em>や「ローマ人」<em>Rhomaioi</em>と呼んだ。212年以後、ほぼ全員がローマ市民だったからだ。テオドシウス1世のもとでキリスト教が確立すると、<em>Hellene</em>は古い多神教の信者を指すようになった。地図でいちばん当然に見える名は、長いあいだ異教徒を意味していたのである。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"Names of the Greeks\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Names_of_the_Greeks"
+      },
+      {
+        "text": "\"Name of Greece\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Name_of_Greece"
+      },
+      {
+        "text": "\"Greece\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Greece"
+      },
+      {
+        "text": "\"Γραικός\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Γραικός"
+      },
+      {
+        "text": "\"ギリシャ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ギリシャ"
+      },
+      {
+        "text": "\"希臘\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/希臘"
+      },
+      {
+        "text": "\"יוון\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/יוון"
+      },
+      {
+        "text": "\"Yunan\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Yunan"
+      },
+      {
+        "text": "\"Hi Lạp\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Hi Lạp"
+      },
+      {
+        "text": "\"Ελλάδα\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Ελλάδα"
+      }
+    ]
+  },
+  {
+    "id": "tomato-xitomatl",
+    "icon": "🍅",
+    "tags": [
+      "food",
+      "columbian-exchange",
+      "etymology"
+    ],
+    "title": {
+      "en": "The Tomato: Golden Apple, Paradise and Foreign Eggplant",
+      "ja": "トマト：黄金のリンゴ、楽園、異国のナス"
+    },
+    "summary": {
+      "en": "Nahuatl tomatl went round the world, but Italy saw a golden apple, Hungary saw paradise and Asia saw a foreign eggplant.",
+      "ja": "ナワトル語tomatlは世界を回ったが、イタリアは黄金のリンゴを、ハンガリーは楽園を、アジアは異国のナスを見た。"
+    },
+    "body": {
+      "en": "<p>The tomato the world names is, strictly, the wrong plant. In Nahuatl, <em>tomatl</em> was the word for the tomatillo, while the tomato proper was <strong>xītomatl</strong>. Spanish took the shorter word as <strong>tomate</strong>, and English took that and reshaped it as <strong>tomato</strong>. The map counts 267 cells on this route, 58 that saw an apple, 49 that saw something foreign, and 28 with some other image.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"tomato\" data-code=\"en\">🗺️ Show tomato on the map</button></div><h3>The Nahuatl word</h3><p>Mexico kept the distinction. Mexican Spanish still says <strong>jitomate</strong>, usually for the red kind, from <em>xīctli</em>, “navel”, and <em>tomātl</em>. The Aztecs raised several varieties. Bernardino de Sahagún reported seeing a great range in the market at Tenochtitlán: “large tomatoes, small tomatoes, leaf tomatoes, sweet tomatoes, large serpent tomatoes, nipple-shaped tomatoes”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"nci,es,es_mx,en\" data-word=\"tomato\">🗣 Compare Nahuatl and Spanish</button></div><p>After the conquest the Spanish spread the plant through their colonies and took it to the Philippines, and from there it travelled across Asia. The word covered a lot of ground. French <strong>tomate</strong>, German <strong>Tomate</strong>, Turkish <strong>domates</strong>, Greek <strong>ντομάτα</strong>, Arabic <strong>طماطم</strong> and Hindi <strong>टमाटर</strong> are all on it, and Japanese <strong>トマト</strong> came through English.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,de,tr,el,ar,hi,ja\" data-word=\"tomato\">🗣 Compare the tomatl family</button></div><h3>Golden apples and paradise</h3><p>Italy took another view. <strong>pomodoro</strong> is <em>pomo d’oro</em>, the “golden apple”, recorded by Matthiolus in 1544 in the plural <em>pomi d’oro</em>. The name may be owed to the first varieties that reached Europe, which were yellow. Russian <strong>помидор</strong> was borrowed from that plural, and Polish <strong>pomidor</strong> sits on the same route, and neither language hears anything golden in it.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"it,ru,pl\" data-word=\"tomato\">🗣 Compare the golden apple</button></div><p>Others promoted the apple further. Hungarian <strong>paradicsom</strong>, recorded from 1845, is shortened from a compound meaning “paradise apple”, a calque of German <em>Paradiesapfel</em>, and it is the same word as paradise. Austrian German still says <strong>Paradeiser</strong>, and Serbian <strong>парадајз</strong> follows. French once had <em>pomme d’amour</em>, love apple, now obsolete. In 1963 the <em>New York Times</em> explained that as a French misreading of Italian <em>pomo dei Mori</em>, the Moors’ apple. Elizabeth Blackwell’s <em>A Curious Herbal</em> describes the love apple being eaten in Italy with oil and vinegar, as cucumbers were in Britain.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hu,de_at,sr\" data-word=\"tomato\">🗣 Compare the paradise apple</button></div><h3>The foreign eggplant</h3><p>Asia mostly compared it to a vegetable it already knew. Thai <strong>มะเขือเทศ</strong> is the “foreign eggplant”, and Mandarin <strong>番茄</strong> is built on the same pattern. The plant probably reached China through the Philippines or Macau in the 16th century. Persian <strong>گوجه‌فرنگی</strong> is the “European plum”, Dari has a “Roman aubergine” and Bengali a “British eggplant”. Vietnamese <strong>cà chua</strong> ignores origins and says the sour one.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,th,fa,vi\" data-word=\"tomato\">🗣 Compare the foreign names</button></div><p>The Spanish put it into their food, but elsewhere in Europe its first use was ornamental, since it was understood to be related to the nightshades and assumed to be poisonous. Science added one more strange name. <em>Lycopersicum</em>, “wolf peach”, was used by Galen for a plant that has never been identified. Luigi Anguillara speculated in the 16th century that this might be the tomato, and despite the impossibility, the name entered scientific use.</p>",
+      "ja": "<p>世界中で使われるトマトという名は、厳密には別の植物の名である。ナワトル語の<em>tomatl</em>はトマティーヨのことで、トマトそのものは<strong>xītomatl</strong>だった。スペイン語は短いほうの語を<strong>tomate</strong>として取り、英語はそれを<strong>tomato</strong>に変えた。地図ではこの経路が267セル、リンゴを見たのが58セル、外国のものを見たのが49セル、別の見立てが28セルある。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"tomato\" data-code=\"en\">🗺️ 地図でトマトを表示</button></div><h3>ナワトル語の名</h3><p>メキシコは区別を保った。メキシコのスペイン語は今も主に赤いものを<strong>jitomate</strong>と言い、これは<em>xīctli</em>「へそ」と<em>tomātl</em>からできている。アステカ人は数種類を育てていた。ベルナルディーノ・デ・サアグンはテノチティトランの市場で、大きいもの、小さいもの、葉のトマト、甘いもの、大きな蛇のトマト、乳首の形のものなど、多くの種類を見たと記している。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"nci,es,es_mx,en\" data-word=\"tomato\">🗣 ナワトル語とスペイン語を比べる</button></div><p>征服の後、スペイン人はこの植物を植民地に広げ、フィリピンへ持ち込み、そこからアジア各地へ伝わった。語も広い範囲に届いた。フランス語<strong>tomate</strong>、ドイツ語<strong>Tomate</strong>、トルコ語<strong>domates</strong>、ギリシャ語<strong>ντομάτα</strong>、アラビア語<strong>طماطم</strong>、ヒンディー語<strong>टमाटर</strong>がこの経路にあり、日本語の<strong>トマト</strong>は英語から入った。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,de,tr,el,ar,hi,ja\" data-word=\"tomato\">🗣 tomatlの系統を比べる</button></div><h3>黄金のリンゴと楽園</h3><p>イタリアは別の見方をした。<strong>pomodoro</strong>は<em>pomo d’oro</em>「黄金のリンゴ」で、1544年にマッティオリが複数形<em>pomi d’oro</em>で記録している。ヨーロッパに届いた最初の品種が黄色かったせいかもしれない。ロシア語<strong>помидор</strong>はその複数形から借りた語で、ポーランド語<strong>pomidor</strong>も同じ経路にある。どちらの言語でも、もう金色は聞き取れない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"it,ru,pl\" data-word=\"tomato\">🗣 黄金のリンゴを比べる</button></div><p>リンゴをさらに格上げした人々もいる。1845年から記録のあるハンガリー語<strong>paradicsom</strong>は「楽園のリンゴ」という複合語を縮めたもので、ドイツ語<em>Paradiesapfel</em>のなぞりであり、楽園を指す語と同じ形である。オーストリアのドイツ語は今も<strong>Paradeiser</strong>と言い、セルビア語<strong>парадајз</strong>もこれに続く。フランス語にはかつて<em>pomme d’amour</em>「恋のリンゴ」があり、今は使われない。1963年の『ニューヨーク・タイムズ』は、これをイタリア語<em>pomo dei Mori</em>「ムーア人のリンゴ」のフランス語での読み違いだと説明した。エリザベス・ブラックウェルの『A Curious Herbal』には、イタリアでは恋のリンゴを油と酢で食べるとある。イギリスのキュウリと同じ食べ方である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hu,de_at,sr\" data-word=\"tomato\">🗣 楽園のリンゴを比べる</button></div><h3>異国のナス</h3><p>アジアではたいてい、知っている野菜に例えた。タイ語<strong>มะเขือเทศ</strong>は「異国のナス」で、中国語<strong>番茄</strong>も同じ作りである。中国へは16世紀に、フィリピンかマカオを経て伝わったらしい。ペルシア語<strong>گوجه‌فرنگی</strong>は「ヨーロッパのスモモ」、ダリー語は「ローマのナス」、ベンガル語は「イギリスのナス」である。ベトナム語<strong>cà chua</strong>は出所を気にせず、酸っぱいものと言う。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,th,fa,vi\" data-word=\"tomato\">🗣 外国の名を比べる</button></div><p>スペイン人はこれを料理に使ったが、ほかのヨーロッパでは、ナス科の仲間で毒があると思われ、はじめは観賞用だった。学問はさらに奇妙な名を一つ加えた。<em>lycopersicum</em>「狼の桃」は、ガレノスが正体不明の植物に使った語である。16世紀にルイジ・アングイッラーラがこれはトマトかもしれないと推測し、ありえないことなのに、この名は学術用語になった。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"Tomato\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Tomato"
+      },
+      {
+        "text": "\"tomato\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/tomato"
+      },
+      {
+        "text": "\"jitomate\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/jitomate"
+      },
+      {
+        "text": "\"tomate\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/tomate"
+      },
+      {
+        "text": "\"pomodoro\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/pomodoro"
+      },
+      {
+        "text": "\"помидор\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/помидор"
+      },
+      {
+        "text": "\"paradicsom\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/paradicsom"
+      },
+      {
+        "text": "\"番茄\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/番茄"
+      },
+      {
+        "text": "\"گوجه‌فرنگی\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/گوجه‌فرنگی"
+      },
+      {
+        "text": "\"cà chua\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/cà chua"
+      },
+      {
+        "text": "\"トマト\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/トマト"
+      }
+    ]
+  }
 ];
 
 // Expose to global so wordmap.html can read it whether this file

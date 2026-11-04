@@ -156,6 +156,23 @@ const CITED_20261015 = {
     ]
 };
 for (const [k, v] of Object.entries(CITED_20261015)) CITED[k] = (CITED[k] || []).concat(v);
+// 2026-11-05: Han Map articles whose subject is the written form. Japanese spellings
+// (ateji-sound-kanji), Korean hanja (hanja-korea-today), period spellings of country
+// names, the traditional forms a character story turns on, and 乾 in 乾隆, which stays 乾.
+const CITED_20261105 = {
+  'ateji-sound-kanji': ['東', '無', '馬', '細', '羅', '護'],
+  'bi-sheng-movable-type': ['鐵'],
+  'biang-noodles': ['長', '馬'],
+  'country-names-mei-bei': ['堅', '亞', '國', '獨', '眾', '蘭', '韓'],
+  'dragon-simplified': ['龍'],
+  'fanqie-spelling': ['東'],
+  'hanja-korea-today': ['長', '綠'],
+  'naming-taboo-bihui': ['馬', '師', '風', '乾', '國'],
+  'shuowen-540': ['讀'],
+  'wu-zetian-characters': ['國'],
+};
+for (const [k, v] of Object.entries(CITED_20261105)) CITED[k] = (CITED[k] || []).concat(v);
+
 
 
 function articles(file, pick) {

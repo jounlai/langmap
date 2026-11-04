@@ -96,7 +96,7 @@ WORDS.bat = {
     ko_kp: "mouse",
     ko_jeju: "unknown",
     zh: "plain",
-    yue: "plain",
+    yue: "mouse",
     nan: "plain",
     zh_tw: "plain",
     wuu: "plain",
@@ -693,7 +693,7 @@ WORDS.bat = {
     ko_kp: ["박쥐", "pakt͈ɕɥi"],  // Middle Korean ᄇᆞᆰ쥐, whose second part is 쥐 'rat'; the first part's meaning is unclear.
     ko_jeju: ["ᄃᆞ람지", "tɒɾamdʑi"],  // Possibly 'rising rat' (돋다 + 쥐), and similar to Korean 다람쥐 'chipmunk'; the etymology is only tentative.
     zh: ["蝙蝠", "pjɛn˥ fu˧˥"],  // An expanded form of Old Chinese 蝠 'bat', a Sino-Tibetan root.
-    yue: ["蝙蝠", "pʰiːn˥ fʊk̚˥"],  // An expanded form of Old Chinese 蝠 'bat', a Sino-Tibetan root.
+    yue: ["蝠鼠", "fʊk̚˥ syː˧˥"],  // Literally "bat-rat"; Guangzhou also says 飛鼠 "flying rat" (Wiktionary dialect table and pronunciation).
     nan: ["密婆", "bit˦ po˨˦"],  // The colloquial Taiwanese word, related to Hakka 蝠婆; the more formal 蝙蝠 pian-hok also exists. Route by resemblance to the neighbouring forms (hak_hl(蝠婆)); no etymology of its own.
     zh_tw: ["蝙蝠", "pjɛn˥ fu˧˥"],  // An expanded form of Old Chinese 蝠 'bat', a Sino-Tibetan root.
     wuu: ["蝙蝠", "pi˥ foʔ˨˩"],  // The same word as Mandarin 蝙蝠, an expanded form of Old Chinese 蝠 'bat'.

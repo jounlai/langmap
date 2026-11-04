@@ -111,7 +111,7 @@ WORDS.earth = {
     nan_qz: ["涂", "tʰɔ˨˦"],
     wuu: ["土", "tʰu˧˥"],
     gan: ["土", "tʰu˨˩˧"],
-    hsn: ["土", "tʰəu˦˩"],
+    hsn: ["泥巴", "ȵi˩˧ pa˧˧"],  // Changsha says 泥巴 for soil (Wiktionary dialect table and pronunciation).
     cjy: ["土", "tʰu˥˧"],
     hak_cn: ["土", "tʰu˧˩"],
     hak_tw: ["土", "tʰu˧˩"],
@@ -437,7 +437,7 @@ WORDS.earth = {
     p_ine: ["*dʰéǵʰōm", "dʰéǵʰoːm"],
     p_toc: ["*tken", "tken"],   // Wiktionary PT; A tkaṃ, B keṃ
     hit: ["𒋼𒂊𒅗𒀭", "teːkan"],
-    zh_cd: ["土", "tʰu˥˧"],
+    zh_cd: ["泥巴", "ȵi˨˩ pa˥˥"],  // Chengdu says 泥巴 for soil (Wiktionary dialect table and pronunciation).
     zh_cq: ["土", "tʰu˦˨"],
     zh_hf: ["土", "tʰʉ˨˦"],
     zh_jh: ["土", "tʰu˨˩˨"],
@@ -448,7 +448,7 @@ WORDS.earth = {
     zh_nj: ["土", "tʰu˨˩˨"],
     zh_sc: ["土", "tʰu˥˧"],
     zh_tj: ["土", "tʰu˩˧"],
-    zh_wh: ["土", "tʰou˦˨"],
+    zh_wh: ["泥巴", "ni˨˩˧ pa˥˥"],  // Wuhan says 泥巴 for soil (Wiktionary dialect table; MCPDict Wuhan readings).
     zh_xa: ["土", "tʰu˥˧"],
     zh_zz: ["土", "tʰu˥˧"],
     en_ng2: ["earth", "ɜːt"],

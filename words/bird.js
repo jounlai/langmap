@@ -69,7 +69,7 @@ WORDS.bird = {
     gcr: ["zozo", "zozo"],
     acf: ["jibyé", "ʒibje"],
     gan_fz: ["鸟", "ȵiɛu˧˥"],
-    cjy_lv: ["鸟", "niou˧˩˨"],
+    cjy_lv: ["雀雀", "tɕʰiəʔ˦ tɕʰiəʔ˦"],  // Lishi says 雀雀 (Wiktionary dialect table; MCPDict Lishi readings).
     cjy_xz: ["鸟", "niɔ˧˩˧"],
     czh_wy: ["鸟", "liɔ˧˩"],
     hop: ["tsiro", "tsiro"],
@@ -130,7 +130,7 @@ WORDS.bird = {
     ko_jeju: ["생이", "sɛŋi"],
     ko_yb: ["새", "sɛ"],
     zh: ["鸟", "niau˨˩˦"],
-    yue: ["鳥", "niːu˩˧"],
+    yue: ["雀仔", "tsœːk̚˧ tsɐi˧˥"],  // The Guangzhou word for a bird; 雀 alone is also used (Wiktionary dialect table and pronunciation).
     nan: ["鳥仔", "tsiau˥˧ a˥˧"],
     zh_tw: ["鳥", "niau˨˩˦"],
     wuu: ["鸟", "ɲiɔ˧˥"],
@@ -464,7 +464,7 @@ WORDS.bird = {
     jbo: ["cipni", "ˈʃipni"],
     cjy: ["鸟", "niau˥˧"],
     hsn: ["鸟", "ȵiau˦˩"],
-    gan: ["鸟", "ȵiɛu˨˩˧"],
+    gan: ["雀子", "tɕʰiɔʔ˥ tsɿ˨˩˧"],  // Nanchang says 雀子 (Wiktionary dialect table; MCPDict readings).
     mai: ["चिड़ै", "tʃiɽɛː"],
     anp: ["चिरई", "tʃirəi"],
     awa: ["चिरई", "tʃirai"],
@@ -753,7 +753,7 @@ WORDS.bird = {
     uln: ["Vogel", "ˈfoɡɛl"],
     wuu_hz: ["鸟", "ȵiɔ˥˧"],
     xum: ["auif", "ˈawif"],
-    yue_dg: ["鸟", "niu˧˦"],
+    yue_dg: ["雀仔", "tʃʰœ˦˦˧ tʃɔi˧˥"],  // Dongguan says 雀仔 (Wiktionary dialect table; MCPDict Dongguan readings).
     yue_nn: ["鸟", "niu˨˦"],
     zh_cq: ["鸟", "liau˦˨"],
     zh_jn: ["鸟", "niɔ˥˥"],
@@ -768,7 +768,7 @@ WORDS.bird = {
     pmy: ["burung", "buruŋ"],
     wuu_jh: ["鸟", "ȵiɑu˥˥"],
     wuu_jx: ["鸟", "ȵiɔ˨˩˨"],
-    yue_zs: ["鳥", "niu˨˩˧"],
+    yue_zs: ["雀", "tsœk˧"],  // Zhongshan says 雀 (Wiktionary dialect table; MCPDict Zhongshan readings).
     zh_cd: ["鸟", "niau˥˧"],
     zh_hf: ["鸟", "ȵiɔ˨˦"],
     zh_kf: ["鸟", "ȵiaɔ˦˦"],

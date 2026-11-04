@@ -520,7 +520,7 @@ WORDS.rainbow = {
     kjh: "unknown",
     olo: "bow",
     tsu: "plain",
-    ium: "plain",
+    ium: "serpent",
     aer: "plain",
     hot: "plain",
     pjt: "plain",
@@ -756,6 +756,7 @@ WORDS.rainbow = {
     osn: "plain",
     ja_mvi: "serpent",
     mnw: "unknown",
+    adx: "plain",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1219,7 +1220,7 @@ WORDS.rainbow = {
     kjh: ["тигір хуры", "tiɡɘr xurɯ"],  // Its first word is тигір 'sky'; Wiktionary also lists кӱгӱрт чолы 'thunder's road'.
     olo: ["ukonkuari", "ˈukoŋkuari"],  // Literally 'Ukko's bow', after the thunder god Ukko.
     tsu: ["hioyu", "hioju"],  // The Tsou word for the rainbow. No image is recorded for it, so it counts as a word of its own.
-    ium: ["jung", "tɕuŋ˧"],  // The Iu Mien word for the rainbow. No image is recorded for it, so it counts as a word of its own.
+    ium: ["jung", "tɕuŋ˧"],  // The same word as jung 'dragon', from Proto-Hmong-Mien *-roŋ, borrowed from Old Chinese 龍 (Wiktionary).
     aer: ["mpwelarre", "mpʷəlaɾə"],  // The Eastern Arrernte word for the rainbow. No image is recorded for it, so it counts as a word of its own.
     hot: ["oktheŋuliŋ", "ɔktʰɛŋuliŋ"],  // The Hote word for the rainbow. No image is recorded for it, so it counts as a word of its own.
     pjt: ["tjuṯiṟangu", "cuʈiɻaŋu"],  // The Pitjantjatjara word for the rainbow. No image is recorded for it, so it counts as a word of its own.
@@ -1455,5 +1456,6 @@ WORDS.rainbow = {
     osn: ["kuwung-kuwung", "kuwuŋkuwuŋ"],  // Attested in the late-15th-century Bujangga Manik (folio 33v: diliuṅ ku kuwuṅ-kuwuṅ 'surrounded by rainbows'); cognate with Old Javanese kuwuṅ-kuwuṅ, continued as Sundanese kuwung-kuwung.
     ja_mvi: ["天蛇", "tim̩paʋ"],  // Miyako tinpav, written 天蛇 'sky snake'.
     mnw: ["ဓမၚ်", "həmɛ̀aŋ"],  // Glossed 'rainbow' in the SEAlang Mon dictionary (Shorto); the same word also means the tie-beam joining the tops of opposite house-posts. Also ဓမၚ် ဍာ် həmɛ̀aŋ daik.
+    adx: ["འཇའ", "ndʑa"],  // The inherited Tibetan word for the rainbow (Written Tibetan 'ja'), as in Lhasa and Khams.
   },
 };

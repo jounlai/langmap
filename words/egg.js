@@ -793,9 +793,9 @@ WORDS.egg = {
     wuu_nb: ["蛋", "dɛ˩˩˧"],
     wuu_hz: ["蛋", "dᴇ̃˩˧"],
     wuu_jx: ["蛋", "dɛ˩˩˦"],
-    yue_dg: ["蛋", "tɛŋ˥˥"],
+    yue_dg: ["鸡春", "kɔi˨˧ tʃʰɐn˨˧"],  // Literally "chicken spring"; Dongguan also says plain 春 (Wiktionary dialect table; MCPDict readings).
     yue_nn: ["蛋", "tan˨˨"],
-    yue_zs: ["蛋", "tan˧˧"],
+    yue_zs: ["雞春", "kɐi˥˥ tsʰɵn˥˥"],  // Literally "chicken spring"; plain 春 is also used (Wiktionary dialect table; MCPDict Zhongshan readings).
     yue_ts: ["蛋", "ʔan˧˨"],
     cdo: ["卵", "lɑuŋ˨˦˨"],
     hak_hl: ["卵", "lon˨˦"],

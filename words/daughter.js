@@ -489,7 +489,7 @@ WORDS.daughter = {
     // Most say "child" + "female"; Batak boru, Chamorro haga' and the
     // Polynesian tamahine/ʻofefine group are the exceptions.
     bbc: ["boru", "boru"],
-    ch: ["hagaʼ", "haɡaʔ"],
+    ch: ["håga", "ˈhɑɡa"],  // Without the final glottal stop: hågaʼ is "blood" (Topping 1973, via Wiktionary).
     to: ["ʻofefine", "ʔofefine"],
     ty: ["tamāhine", "tamaːhine"],
     rar: ["tamaine", "tamaine"],

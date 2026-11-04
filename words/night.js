@@ -338,7 +338,7 @@ WORDS.night = {
     th_s: ["คืน", "kʰɯːn˥"],
     za: ["haemh", "ham˧"],
     mmd: ["ʔȵam5", "ʔȵam˦˦"],
-    mlm: ["mu2", "mu˩˨˩"],
+    mlm: ["thau5 mu2", "tʰau˦˦ mu˩˨˩"],  // IDS Mulam; mu2 alone is "pig".
     swi: ["saan2", "saːn˧˩"],
     lic: ["tshop7", "tsʰop˥˥"],
     kmc: ["ɲɐm53", "ɲɐm˥˧"],

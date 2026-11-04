@@ -797,7 +797,7 @@ WORDS.sun = {
     mh: ["aļ", "ɰælˠ"],
     gil: ["taai", "taːi"],
     ch: ["atdao", "atdao"],
-    tet: ["loron", "loron"],
+    tet: ["loro", "loro"],  // loron is "day" (Wiktionary); the sun is loro, as in lorosa'e "sunrise, east".
     aoz: ["manas", "manas"],
     bi: ["san", "san"],
     pjt: ["tjiṉṯu", "ciɳʈu"],
@@ -1063,7 +1063,7 @@ WORDS.sun = {
     sad: ["ǁʼakasu", "ǁʼakasu"],
     pcc: ["danglngonz", "tɐŋ˨˦ŋɔn˩˩"],
     mmd: ["la:k8 van1", "laːk˨˦ van˦˨"],
-    mlm: ["thəu5 fan1", "tʰəu˦˦ fan˦˨"],
+    mlm: ["tat7", "tat˥˥"],  // IDS Mulam; thəu5 fan1 is "day (as opposed to night)".
     swi: ["ⁿda1 van1", "ⁿda˩˩ van˩˩"],
     lic: ["tsha1 hwan1", "tsʰa˥˧ hwan˥˧"],
     kmc: ["ta53 mən55", "ta˥˧ mən˥˥"],

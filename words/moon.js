@@ -1102,7 +1102,7 @@ WORDS.moon = {
     ko_hg: ["달", "tal"],
     ko_jl: ["달", "tal"],
     nan_pn: ["月娘", "ɡueʔ˦ niau˨˧"],
-    mra: ["kiʔ", "kiʔ"],
+    mra: ["ʔuj kiʔ", "ʔuj kiʔ"],  // kiʔ alone is "day" and "month" (IDS Mlabri).
     wuu_nb: ["月亮", "ɦyəʔ˨˨ liã˧˥"],
     yue_gz: ["月亮", "ŋɪt̚˨˨ le̯ɛŋ˨˩"],
     khb: ["ᦵᦡᦲᧃ", "dɤn˥"],

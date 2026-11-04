@@ -305,7 +305,7 @@ WORDS.white = {
         { form: "𰤘 / 䒵 / 皓", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𭽑 — Sawndip was never standardised" },
       ],
     },
-    mmd: ["kwa3", "kwa˥˩"],
+    mmd: ["poʔ8", "poʔ˨˧"],  // IDS Maonan; kwa3 is "scrape, rake".
     mlm: ["pa:k8", "paːk˩˩"],
     swi: ["paak8", "paːk˦˨"],
     lic: ["kha:u1", "kʰaːu˥˧"],

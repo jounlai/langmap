@@ -406,7 +406,7 @@ WORDS.mouth = {
     hy_grab: ["բերան", "beˈɾan"],
     hyw: ["բերան", "pʰɛˈɾɑn"],
     ia: ["bucca", "ˈbuka"],
-    iba: ["mulut", "mulut"],
+    iba: ["nyawa", "ɲawa"],  // mulut is "lips" in Iban; nyawa is the mouth, and also "life" and "voice" (Wiktionary).
     ibb: ["inua", "inua"],
     ig: ["ọnụ", "ɔnʊ"],
     ilo: ["ngiwat", "ŋiˈwat"],

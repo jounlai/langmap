@@ -204,7 +204,7 @@ WORDS.sleep = {
       ],
     },
     mmd: ["nu:n2", "nuːn˨˧˩"],
-    mlm: ["nun2", "nun˩˨˩"],
+    mlm: ["nan2", "nan˩˨˩"],  // IDS Mulam; nun2 is "lie down".
     swi: ["n̥ak7", "n̥ak˥˥"],
     lic: ["kau2", "kau˥˥"],
     kmc: ["nun212", "nun˨˩˨"],

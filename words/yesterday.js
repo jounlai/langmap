@@ -854,6 +854,7 @@ WORDS.yesterday = {
     cni: "distinct",
     acu: "distinct",
     jiv: "distinct",
+    zdj: "distinct",
   },
   routes: {
     same: {"color":"#db2777","emoji":"🔁","en":"one word for yesterday and tomorrow","ja":"昨日と明日が同じ語","ko":"어제와 내일이 한 낱말","zh":"昨天和明天同一个词","yue":"尋日同聽日同一個詞","vi":"một từ cho hôm qua và ngày mai","th":"คำเดียวทั้งเมื่อวานและพรุ่งนี้","id":"satu kata untuk kemarin dan besok","hi":"बीते और आने वाले कल का एक शब्द","de":"ein Wort für gestern und morgen","fr":"un mot pour hier et demain","it":"una parola per ieri e domani","es":"una palabra para ayer y mañana","pt":"uma palavra para ontem e amanhã","ru":"одно слово для вчера и завтра","uk":"одне слово для учора й завтра","ar":"كلمة واحدة لأمس وغد","he":"מילה אחת לאתמול ולמחר","sw":"neno moja kwa jana na kesho"},
@@ -1653,5 +1654,6 @@ WORDS.yesterday = {
     cni: ["oshaiteji", "oʃaitehi"],  // The word in John 4:52 ('yesterday at the seventh hour') of the Asháninka New Testament; only that verse has it (Hebrews 13:8 uses peerani 'formerly'). Tomorrow is osaitekera.
     acu: ["yau", "jau"],  // The word in John 4:52 ('Yau tsaa yantanti...', yesterday at the seventh hour) of the Achuar New Testament, the same word as Shuar yau; tomorrow is this row's kashin.
     jiv: ["yau", "jau"],  // The word in John 4:52 ('Yau, nantu pukuntamtai...', yesterday at the seventh hour) of the Shuar New Testament, the same word as Achuar yau; tomorrow is this row's kashin.
+    zdj: ["djana", "dʒana"],  // Compare Swahili jana.
   },
 };

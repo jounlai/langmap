@@ -932,5 +932,6 @@ WORDS.butterfly = {
     gha: ["meḫbesụfa", "mɐħbɐsofa"],  // Literally "prisoner of the fire" (Lanfry), from Arabic ḥabs "prison" and ụfa "fire".
     siz: ["zrizmá", "zrizˈma"],
     sga: ["etelachán", "ˈedʲelaxaːn"],  // 'The little flying creature', from etelach 'flying'; the ancestor of Irish féileacán (eDIL).
+    afb: ["طرفشانة", "tˤerfeʃaːna"],  // The Gulf Arabic word for the butterfly.
   },
 };

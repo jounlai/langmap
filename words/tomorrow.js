@@ -903,6 +903,8 @@ WORDS.tomorrow = {
     usp: "plain",
     guc: "plain",
     bor: "plain",
+    zdj: "plain",
+    luy: "plain",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -1750,5 +1752,7 @@ WORDS.tomorrow = {
     usp: ["chwekʼ", "tʃwekʼ"],  // The word in Matthew 6:34, James 4:13 and Luke 13:32 (lajori, chwek' 'today, tomorrow') of the Uspanteko New Testament. No image is recorded for it, so it counts as a word of its own.
     guc: ["mapeena", "mapeːna"],  // The word in Matthew 6:34 (twice) and James 4:13-14 of the Wayuu New Testament. No image is recorded for it, so it counts as a word of its own.
     bor: ["barogwato", "baɾoɡwato"],  // The word in James 4:13-14 and Luke 13:32 of the Bororo New Testament. No image is recorded for it, so it counts as a word of its own.
+    zdj: ["mauɗu", "mauɗu"],  // The Ngazidja word for tomorrow.
+    luy: ["muchuli", "mutʃuli"],  // The Luhya word for tomorrow.
   },
 };

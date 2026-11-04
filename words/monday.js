@@ -629,6 +629,9 @@ WORDS.monday = {
     gld: "after",
     jup: "count",
     tob: "moon",
+    afb: "count",
+    zdj: "unknown",
+    tzm: "unknown",
   },
   routes: {
     moon: {"color":"#7c3aed","emoji":"🌙","en":"the moon's day","ja":"月の日","ko":"달의 날","zh":"月亮之日","yue":"月亮嘅日","vi":"ngày mặt trăng","th":"วันของดวงจันทร์","id":"hari bulan","hi":"चंद्रमा का दिन","de":"Tag des Mondes","fr":"jour de la lune","it":"giorno della luna","es":"día de la luna","pt":"dia da lua","ru":"день луны","uk":"день місяця","ar":"يوم القمر","he":"יום הירח","sw":"siku ya mwezi"},
@@ -1200,5 +1203,8 @@ WORDS.monday = {
     gld: ["понедельник", "pɔnʲədʲəlʲnik"],  // Borrowed from Russian понедельник, 'the day after Sunday (неделя)'.
     jup: ["cegúndawag", "ceɡúndawaɡ"],  // Borrowed from Portuguese segunda(-feira) 'second (day)'; Hup cegúndawag (World Loanword Database).
     tob: ["loones", "loones"],  // Borrowed from Spanish lunes 'Monday', the moon's day (IDS Toba marks it as a loan: [loones]).
+    afb: ["الاثنين", "ilaθˈneːn"],  // 'The second (day)', counting from Sunday, as in Standard Arabic al-ithnayn.
+    zdj: ["mfumdraru", "mfumdʳaru"],  // The Ngazidja name of Monday.
+    tzm: ["ⴰⵔⵉⵎ", "arim"],  // The Central Atlas Tamazight name of Monday.
   },
 };

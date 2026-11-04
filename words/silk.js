@@ -834,5 +834,7 @@ WORDS.silk = {
     siz: ["əlaħrir", "əlaʜrir"],  // Borrowed from Arabic ḥarīr.
     ofs: ["sīde", "ˈsiːde"],  // The ancestor of West Frisian side, from Proto-Germanic *sīdǭ.
     arc: ["ܫܐܪܝܐ", "ʃeːʔraːjaː"],  // Šēʾrāyā, found in Babylonian and Samaritan Aramaic and in Syriac (Comprehensive Aramaic Lexicon).
+    zdj: ["hariri", "hariri"],  // From Arabic ḥarīr 'silk', as in Swahili hariri.
+    cop: ["ϣⲉⲛⲥ", "ʃens"],  // Coptic for silk.
   }
 };

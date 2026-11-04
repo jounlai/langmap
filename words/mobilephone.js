@@ -488,6 +488,7 @@ WORDS.mobilephone = {
     bnn: "unknown",
     ja_kg: "carry",
     vi_nom: "carry",
+    afb: "carry",
   },
   routes: {
     hand: {"color":"#ea580c","emoji":"✋","en":"the hand","ja":"手","ko":"손","zh":"手","yue":"手","vi":"bàn tay","th":"มือ","id":"tangan","hi":"हाथ","de":"die Hand","fr":"la main","it":"la mano","es":"la mano","pt":"a mão","ru":"рука","uk":"рука","ar":"اليد","he":"היד","sw":"mkono"},
@@ -919,5 +920,6 @@ WORDS.mobilephone = {
     bnn: ["takuta", "takuta"],  // The ILRDF Bunun dictionary glosses takuta as 大哥大；手機 'mobile phone'; its make-up is not given.
     ja_kg: ["携帯", "keːtai"],  // The standard Japanese word, used in Kagoshima as everywhere in Japan.
     vi_nom: ["電話移動", "ɗiən˧˨ʔ tʰwaːj˧˨ʔ zi˧ ɗəwŋ͡m˧˨ʔ"],  // The Hán spelling of điện thoại di động that Wiktionary gives: điện thoại 電話 'telephone' + di động 移動 'mobile'.
+    afb: ["موبايل", "moːbaːjl"],  // From English mobile.
   },
 };

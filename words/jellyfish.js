@@ -263,6 +263,7 @@ WORDS.jellyfish = {
     en_ck: "jelly",
     de_lu: "other",
     es_an: "other",
+    acw: "other",
   },
   routes: {
     medusa: {"color":"#7c3aed","emoji":"🐍","en":"named after Medusa","ja":"メドゥーサにちなむ","ko":"메두사에서","zh":"源自美杜莎","yue":"源自美杜莎","vi":"theo tên Medusa","th":"ตั้งตามเมดูซา","id":"dari nama Medusa","hi":"मेडूसा के नाम पर","de":"nach Medusa","fr":"d'après Méduse","it":"da Medusa","es":"por Medusa","pt":"por Medusa","ru":"по имени Медузы","uk":"за ім'ям Медузи","ar":"على اسم ميدوسا","he":"על שם מדוזה","sw":"kwa jina la Medusa"},
@@ -470,5 +471,6 @@ WORDS.jellyfish = {
     en_ck: ["jellyfish", "ˈdʒɛlifɪʃ"],  // Same word as standard English.
     de_lu: ["Qualle", "ˈkvalə"],  // Same word as standard German; the row follows standard German pronunciation (ʁ, ɐ).
     es_an: ["aguamala", "aɣwaˈmala"],  // Wiktionary lists aguamala (and aguaviva) as the Southern Spain synonyms of medusa; literally 'bad water'.
+    acw: ["قنديل", "ɡandiːl"],  // Literally 'lamp', short for Standard Arabic قنديل البحر 'lamp of the sea'.
   },
 };

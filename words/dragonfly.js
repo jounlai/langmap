@@ -343,6 +343,7 @@ WORDS.dragonfly = {
     ca_va: "plain",
     csb: "other",
     li: "plain",
+    acw: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -631,5 +632,6 @@ WORDS.dragonfly = {
     ca_va: ["libèl·lula", "liˈβɛlula"],  // Same word as standard Catalan; Valencian final -a as in the row's medusa /meˈðuza/.
     csb: ["żôłniérz", "ˈʒɞwɲeʃ"],  // Kashubian żôłniérz, the same word as 'soldier'; Wiktionary IPA /ˈʒɞw.ɲer̝/, final rz written as in the row (mòrze /ˈmwɛʒɛ/, devoiced finally).
     li: ["Libäll", "liˈbɛl"],  // Limburgish word for the dragonfly, from New Latin libellula.
+    acw: ["يعسوب", "jaʕˈsuːb"],  // The Hijazi word for the dragonfly.
   },
 };

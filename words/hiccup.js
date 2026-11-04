@@ -317,6 +317,11 @@ WORDS.hiccup = {
     es_an: "imitative",
     ca_va: "plain",
     fur: "plain",
+    afb: "plain",
+    acw: "plain",
+    ar_eg: "plain",
+    ln: "plain",
+    ar_ma: "plain",
   },
   routes: {
     imitative: {"color":"#ea580c","emoji":"🔊","en":"imitating the sound","ja":"音のまね","ko":"소리 흉내","zh":"模仿声音","yue":"模仿聲音","vi":"mô phỏng âm thanh","th":"เลียนเสียง","id":"tiruan bunyi","hi":"ध्वनि की नक़ल","de":"lautmalend","fr":"imitant le bruit","it":"onomatopeico","es":"imita el sonido","pt":"imita o som","ru":"звукоподражание","uk":"звуконаслідування","ar":"محاكاة الصوت","he":"חיקוי הקול","sw":"kuiga sauti"},
@@ -580,5 +585,10 @@ WORDS.hiccup = {
     es_an: ["hipo", "ˈipo"],  // Same word as standard Spanish.
     ca_va: ["singlot", "siŋˈɡlot"],  // Same word as standard Catalan.
     fur: ["sangloç", "saŋˈɡlotʃ"],  // Friulian sangloç 'sob; hiccup', from Vulgar Latin *singlutius (Latin singultus); IPA from the row's spelling rules (final stress, ç = tʃ).
+    afb: ["بفاق", "bufaːɡ"],  // Gulf Arabic; Wiktionary also gives the spelling بو فاق.
+    acw: ["فهيقة", "fuheːɡa"],  // The Hijazi word for the hiccup.
+    ar_eg: ["زغطة", "zuˈɣutˤtˤa"],  // The Egyptian Arabic word for the hiccup.
+    ln: ["eseséku", "eseséku"],  // Borrowed from Bangi liseséku; Lingala also says liséséku.
+    ar_ma: ["فواقة", "fuwwaːqa"],  // The Moroccan Arabic word for the hiccup.
   },
 };

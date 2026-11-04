@@ -353,6 +353,8 @@ WORDS.milkyway = {
     fr_be: "milk",
     fr_ch: "milk",
     fr_lu: "milk",
+    ayl: "straw",
+    tum: "unknown",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -649,5 +651,7 @@ WORDS.milkyway = {
     fr_be: ["Voie lactée", "vwa lakte"],  // Same word as standard French.
     fr_ch: ["Voie lactée", "vwa lakte"],  // Same word as standard French.
     fr_lu: ["Voie lactée", "vwa lakte"],  // Same word as standard French.
+    ayl: ["طريق خانب التبن", "tˤriːɡ χɑːnəb ətːəbən"],  // Literally 'the road of the hay thief'.
+    tum: ["Nthowa ya Lukama", "ntʰowa ja lukama"],  // The Tumbuka name of the Milky Way.
   },
 };

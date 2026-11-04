@@ -657,6 +657,7 @@ WORDS.bat = {
     tpy: "plain",
     crt: "plain",
     hch: "plain",
+    crs: "mouse",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1259,5 +1260,6 @@ WORDS.bat = {
     tpy: ["koioʃ", "koioʃ"],  // No image is recorded for it, so it counts as a word of its own. From the IDS Trumai list, the source of most of this row.
     crt: ["exejeʔ", "exejeʔ"],  // No image is recorded for it, so it counts as a word of its own. From the IDS Chorote list (exeyeʔ, feminine), the source of this row.
     hch: ["ʼatsixi", "ʔatsiri"],  // The last of the unclean birds in Leviticus 11:19 and Deuteronomy 14:18, where the Hebrew has the bat, and in Isaiah 2:20 ('to the moles and the bats') of the Wixárika Bible ('atsixi; this row writes x as /r/). No image is recorded for it, so it counts as a word of its own.
+    crs: ["sovsouri", "sovsuri"],  // From French chauve-souris, literally 'bald mouse'.
   },
 };

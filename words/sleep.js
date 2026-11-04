@@ -1215,5 +1215,6 @@ WORDS.sleep = {
     auj: ["iš", "iʃ"],  // Cited as the imperative.
     siz: ["əṭṭəs", "ətˤːəs"],  // Schiattarella's speakers also use nəddum, 'lie down, sleep'.
     zh_jiao: ["困觉", "kʰuə̃˦˨ tɕiɔ˦˨"],  // 睏 'drowsy' + 觉 'sleep', not Standard 睡觉; Wiktionary records the same word in dialectal Mandarin, Wu, Gan, Xiang, Hakka and Cantonese.
+    zag: ["ge", "ɡɛ"],  // The Zaghawa verb 'to sleep'.
   },
 };

@@ -288,6 +288,8 @@ WORDS.adamsapple = {
     mi: "plain",
     el_grc: "other",
     de_ch: "adam",
+    afb: "adam",
+    ssw: "plain",
   },
   routes: {
     adam: {"color":"#dc2626","emoji":"🍏","en":"Adam's apple","ja":"アダムのりんご","ko":"아담의 사과","zh":"亚当的苹果","yue":"亞當嘅蘋果","vi":"táo của Adam","th":"แอปเปิลของอาดัม","id":"apel Adam","hi":"आदम का सेब","de":"Adams Apfel","fr":"pomme d'Adam","it":"pomo d'Adamo","es":"fruto de Adán","pt":"maçã de Adão","ru":"яблоко Адама","uk":"яблуко Адама","ar":"تفاحة آدم","he":"תפוח אדם","sw":"tufaha la Adamu"},
@@ -520,5 +522,7 @@ WORDS.adamsapple = {
     mi: ["tenga", "teŋa"],  // Māori tenga: crop of a bird; Adam's apple; goitre (from Proto-Polynesian *tega 'compact rounded object').
     el_grc: ["πρόλοβος", "prólobos"],  // Ancient Greek prólobos, 'before-lobe': the crop of a bird, and in anatomy the Adam's apple (LSJ).
     de_ch: ["Adamsapfel", "ˈaːdamsʔapfl̩"],  // Same word as standard German.
+    afb: ["تفاحة آدم", "tuffaːħat ʔaːdam"],  // Literally 'Adam's apple', as in Standard Arabic.
+    ssw: ["ligilo", "liɡilo"],  // The Swazi word for the Adam's apple (tones lígîlo).
   },
 };

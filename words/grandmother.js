@@ -673,6 +673,8 @@ WORDS.grandmother = {
     nhw: "unknown",
     ngu: "unknown",
     usp: "unknown",
+    zdj: "unknown",
+    tig: "unknown",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -1290,5 +1292,7 @@ WORDS.grandmother = {
     nhw: ["hueyi nana", "ˈweji ˈnana"],  // Literally 'big mother': 2 Timothy 1:5 has mohueyi nana, Loida 'your grandmother Lois' beside monana, Eunice 'your mother' (this row's nana). The Bible verse gives one word for grandmother and does not say whether the father's and the mother's mother are told apart.
     ngu: ["abuelita", "abweˈlita"],  // From 2 Timothy 1:5 (moabuelita Loida 'your grandmother Lois', beside monanaj Eunice 'your mother'), the Spanish abuelita borrowed into Guerrero Nahuatl. The Bible verse gives one word for grandmother and does not say whether the father's and the mother's mother are told apart.
     usp: ["titʼ", "titʼ"],  // From 2 Timothy 1:5 (atit' Loida 'your grandmother Lois', beside anan Eunice 'your mother', this row's nan), without the possessive a-. The Bible verse gives one word for grandmother and does not say whether the father's and the mother's mother are told apart.
+    zdj: ["koko", "koko"],  // The Ngazidja word for a grandmother.
+    tig: ["አቦት", "ʔabot"],  // The Tigre word for a grandmother.
   },
 };

@@ -297,6 +297,26 @@ WORDS.hiccup = {
     mi: "plain",
     adt: "plain",
     mpj: "plain",
+    en_ck: "imitative",
+    en_manc: "imitative",
+    en_wls: "imitative",
+    en_ie: "imitative",
+    en_sco: "imitative",
+    en_yk: "imitative",
+    en_geordie: "imitative",
+    en_brum: "imitative",
+    en_wc: "imitative",
+    en_est: "imitative",
+    de_at: "plain",
+    de_ch: "other",
+    de_lu: "other",
+    fr_be: "imitative",
+    fr_ch: "imitative",
+    fr_lu: "imitative",
+    nl_be: "imitative",
+    es_an: "imitative",
+    ca_va: "plain",
+    fur: "plain",
   },
   routes: {
     imitative: {"color":"#ea580c","emoji":"🔊","en":"imitating the sound","ja":"音のまね","ko":"소리 흉내","zh":"模仿声音","yue":"模仿聲音","vi":"mô phỏng âm thanh","th":"เลียนเสียง","id":"tiruan bunyi","hi":"ध्वनि की नक़ल","de":"lautmalend","fr":"imitant le bruit","it":"onomatopeico","es":"imita el sonido","pt":"imita o som","ru":"звукоподражание","uk":"звуконаслідування","ar":"محاكاة الصوت","he":"חיקוי הקול","sw":"kuiga sauti"},
@@ -540,5 +560,25 @@ WORDS.hiccup = {
     mi: ["tokopuhake", "tokopuhake"],  // Māori tokopuhake 'to hiccough' (Te Aka); also tokomauri.
     adt: ["nganyangguRu", "ŋaɲaŋkuɹu"],  // Adnyamathanha nganyangguRu 'hiccup'.
     mpj: ["ngitarnmanu", "ŋitaɳmanu"],  // Martu Wangka ngitarnmanu 'hiccough'.
+    en_ck: ["hiccup", "ˈɪkɐp"],  // Same word as standard English; the IPA is built from the row's own cells (STRUT vowel as in blood, h-dropping as in horse).
+    en_manc: ["hiccup", "ˈhɪkʊp"],  // Same word as standard English; the IPA is built from the row's own cells (STRUT vowel as in blood).
+    en_wls: ["hiccup", "ˈhɪkʌp"],  // Same word as standard English; the IPA is built from the row's own cells (STRUT vowel as in blood).
+    en_ie: ["hiccup", "ˈhɪkʌp"],  // Same word as standard English; the IPA is built from the row's own cells (STRUT vowel as in blood).
+    en_sco: ["hiccup", "ˈhɪkʌp"],  // Same word as standard English; the IPA is built from the row's own cells (STRUT vowel as in blood).
+    en_yk: ["hiccup", "ˈɪkʊp"],  // Same word as standard English; the IPA is built from the row's own cells (STRUT vowel as in blood, h-dropping as in horse).
+    en_geordie: ["hiccup", "ˈhɪkʊp"],  // Same word as standard English; the IPA is built from the row's own cells (STRUT vowel as in blood).
+    en_brum: ["hiccup", "ˈhɪkʊp"],  // Same word as standard English; the IPA is built from the row's own cells (STRUT vowel as in blood).
+    en_wc: ["hiccup", "ˈhɪkʌp"],  // Same word as standard English; the IPA is built from the row's own cells (STRUT vowel as in blood).
+    en_est: ["hiccup", "ˈhɪkʌp"],  // Same word as standard English; the IPA is built from the row's own cells (STRUT vowel as in blood).
+    de_at: ["Schnackerl", "ˈʃnakɐl"],  // Austrian (Viennese) word for hiccup; standard German Schluckauf.
+    de_ch: ["Schluckauf", "ˈʃlʊkʔaʊ̯f"],  // Same word as standard German.
+    de_lu: ["Schluckauf", "ˈʃlʊkʔaʊ̯f"],  // Same word as standard German; the row follows standard German pronunciation (ʁ, ɐ).
+    fr_be: ["hoquet", "ɔkɛ"],  // Same word as standard French.
+    fr_ch: ["hoquet", "ɔkɛ"],  // Same word as standard French.
+    fr_lu: ["hoquet", "ɔkɛ"],  // Same word as standard French.
+    nl_be: ["hik", "ɦɪk"],  // Same word as standard Dutch; h written ɦ as in the row's hond /ɦɔnt/.
+    es_an: ["hipo", "ˈipo"],  // Same word as standard Spanish.
+    ca_va: ["singlot", "siŋˈɡlot"],  // Same word as standard Catalan.
+    fur: ["sangloç", "saŋˈɡlotʃ"],  // Friulian sangloç 'sob; hiccup', from Vulgar Latin *singlutius (Latin singultus); IPA from the row's spelling rules (final stress, ç = tʃ).
   },
 };

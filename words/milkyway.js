@@ -337,6 +337,22 @@ WORDS.milkyway = {
     en_aave: "milk",
     en_jam: "milk",
     fr_qc: "milk",
+    en_ck: "milk",
+    en_scouse: "milk",
+    en_manc: "milk",
+    en_wls: "milk",
+    en_ie: "milk",
+    en_sco: "milk",
+    en_yk: "milk",
+    en_geordie: "milk",
+    en_brum: "milk",
+    en_wc: "milk",
+    en_est: "milk",
+    de_at: "milk",
+    de_lu: "milk",
+    fr_be: "milk",
+    fr_ch: "milk",
+    fr_lu: "milk",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -617,5 +633,21 @@ WORDS.milkyway = {
     en_aave: ["Milky Way", "ˈmɪlki weɪ"],  // The same name as general English, a calque of Latin Via Lactea 'milky road' (Wiktionary).
     en_jam: ["Milky Way", "ˈmɪlki weɪ"],  // The same name as general English, a calque of Latin Via Lactea 'milky road' (Wiktionary).
     fr_qc: ["Voie lactée", "vwa lakte"],  // The same name as in France, literally 'milky way' from Latin Via Lactea.
+    en_ck: ["Milky Way", "ˈmɪwki wæɪ"],  // Same word as standard English; the IPA is built from the row's own cells (milk, final -y as in coffee, FACE vowel as in rain).
+    en_scouse: ["Milky Way", "ˈmɪlki weɪ"],  // Same word as standard English; the IPA is built from the row's own cells (milk, final -y as in coffee, FACE vowel as in rain).
+    en_manc: ["Milky Way", "ˈmɪlkɛ weɪ"],  // Same word as standard English; the IPA is built from the row's own cells (milk, final -y as in coffee, FACE vowel as in rain).
+    en_wls: ["Milky Way", "ˈmɪlki weɪ"],  // Same word as standard English; the IPA is built from the row's own cells (milk, final -y as in coffee, FACE vowel as in rain).
+    en_ie: ["Milky Way", "ˈmɪlki weː"],  // Same word as standard English; the IPA is built from the row's own cells (milk, final -y as in coffee, FACE vowel as in rain).
+    en_sco: ["Milky Way", "ˈmɪlki we"],  // Same word as standard English; the IPA is built from the row's own cells (milk, final -y as in coffee, FACE vowel as in rain).
+    en_yk: ["Milky Way", "ˈmɪlki weɪ"],  // Same word as standard English; the IPA is built from the row's own cells (milk, final -y as in coffee, FACE vowel as in rain).
+    en_geordie: ["Milky Way", "ˈmɪlki weː"],  // Same word as standard English; the IPA is built from the row's own cells (milk, final -y as in coffee, FACE vowel as in rain).
+    en_brum: ["Milky Way", "ˈmɪlki wʌɪ"],  // Same word as standard English; the IPA is built from the row's own cells (milk, final -y as in coffee, FACE vowel as in rain).
+    en_wc: ["Milky Way", "ˈmɪlki weɪ"],  // Same word as standard English; the IPA is built from the row's own cells (milk, final -y as in coffee, FACE vowel as in rain).
+    en_est: ["Milky Way", "ˈmɪwki wɛɪ"],  // Same word as standard English; the IPA is built from the row's own cells (milk, final -y as in coffee, FACE vowel as in rain).
+    de_at: ["Milchstraße", "ˈmɪlçʃtraːsə"],  // Same word as standard German; r as in the row's trinken /ˈtrɪŋkn̩/.
+    de_lu: ["Milchstraße", "ˈmɪlçʃtʁaːsə"],  // Same word as standard German; the row follows standard German pronunciation (ʁ, ɐ).
+    fr_be: ["Voie lactée", "vwa lakte"],  // Same word as standard French.
+    fr_ch: ["Voie lactée", "vwa lakte"],  // Same word as standard French.
+    fr_lu: ["Voie lactée", "vwa lakte"],  // Same word as standard French.
   },
 };

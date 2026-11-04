@@ -260,6 +260,9 @@ WORDS.jellyfish = {
     zh_wenyan_edu: "mother",
     vi_han: "mother",
     mi: "plain",
+    en_ck: "jelly",
+    de_lu: "other",
+    es_an: "other",
   },
   routes: {
     medusa: {"color":"#7c3aed","emoji":"🐍","en":"named after Medusa","ja":"メドゥーサにちなむ","ko":"메두사에서","zh":"源自美杜莎","yue":"源自美杜莎","vi":"theo tên Medusa","th":"ตั้งตามเมดูซา","id":"dari nama Medusa","hi":"मेडूसा के नाम पर","de":"nach Medusa","fr":"d'après Méduse","it":"da Medusa","es":"por Medusa","pt":"por Medusa","ru":"по имени Медузы","uk":"за ім'ям Медузи","ar":"على اسم ميدوسا","he":"על שם מדוזה","sw":"kwa jina la Medusa"},
@@ -464,5 +467,8 @@ WORDS.jellyfish = {
     zh_wenyan_edu: ["水母", "sɵy˧˥ mou˩˧"],  // Literally 'water mother'; Guo Pu's Jiang fu (4th c.) has 水母目蝦.
     vi_han: ["水母", "tʰwi˧˩˧ məw˧˧ˀ˥"],  // Literally 'water mother'; Guo Pu's Jiang fu (4th c.) has 水母目蝦. Hán Việt thủy mẫu.
     mi: ["tepetepe", "tepetepe"],  // Māori tepetepe, 'jellyfish - a general name' (Te Aka); synonyms petipeti, maremare tai, kākaru moana.
+    en_ck: ["jellyfish", "ˈdʒɛlifɪʃ"],  // Same word as standard English.
+    de_lu: ["Qualle", "ˈkvalə"],  // Same word as standard German; the row follows standard German pronunciation (ʁ, ɐ).
+    es_an: ["aguamala", "aɣwaˈmala"],  // Wiktionary lists aguamala (and aguaviva) as the Southern Spain synonyms of medusa; literally 'bad water'.
   },
 };

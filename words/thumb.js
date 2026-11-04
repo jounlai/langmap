@@ -626,6 +626,11 @@ WORDS.thumb = {
     pon: "big",
     adt: "plain",
     wbt: "plain",
+    nch: "big",
+    nhw: "big",
+    nhe: "big",
+    agu: "unknown",
+    cuk: "unknown",
   },
   routes: {
     mother: {"color":"#db2777","emoji":"👪","en":"mother · parent · elder kin","ja":"母・親・年長の身内","ko":"어머니 · 어버이 · 웃어른","zh":"母亲・父母・长辈","yue":"阿媽 · 父母 · 長輩","vi":"mẹ · cha mẹ · bậc trên","th":"แม่ · พ่อแม่ · ญาติผู้ใหญ่","id":"ibu · orang tua · kerabat tua","hi":"माँ · माता-पिता · बड़े","de":"Mutter · Eltern · ältere Verwandte","fr":"mère · parent · aîné","it":"madre · genitore · parente anziano","es":"madre · padre · pariente mayor","pt":"mãe · pai · parente mais velho","ru":"мать · родитель · старший родич","uk":"мати · батько · старший родич","ar":"أم · والد · قريب أكبر","he":"אם · הורה · קרוב מבוגר","sw":"mama · mzazi · ndugu mkubwa"},
@@ -1196,5 +1201,10 @@ WORDS.thumb = {
     pon: ["sendinpehlap", "sendinpeːlap"],  // Pohnpeian Bible, Judges 1:6: sendinpehlap ko oh sendinnehlap ko 'thumbs and big toes' (peh 'hand', neh 'foot').
     adt: ["ngarlki", "ŋaɭki"],  // Adnyamathanha ngarlki 'thumb' (also arlirlpa ngarlki).
     wbt: ["murrkangunya", "murkaŋuɲa"],  // Warnman murrkangunya 'thumb'.
+    nch: ["hueyi majpil", "ˈweji ˈmahpil"],  // Literally 'big finger': Leviticus 8:23 and Exodus 29:20 of the Huasteca Nahuatl Bible put the blood on ihueyi majpil 'his big finger', and Judges 1:6-7 has ihueyi macpilhua (plural) for the cut-off thumbs; Classical Nahuatl huēyi mahpilli is the same make-up (Wiktionary).
+    nhw: ["hueyi macpil", "ˈweji ˈmakpil"],  // Literally 'big finger': Leviticus 8:23 and Exodus 29:20 of the Western Huasteca Nahuatl Bible have ihueyi macpil 'his big finger', and Judges 1:6-7 ihueyi macpilhua (plural); Classical Nahuatl huēyi mahpilli is the same make-up (Wiktionary).
+    nhe: ["hueyi macpil", "ˈweji ˈmakpil"],  // Literally 'big finger': Leviticus 8:23 and Exodus 29:20 of the Eastern Huasteca Nahuatl Bible have ihueyi macpil 'his big finger', and Judges 1:6-7 ihueyi macpilhua (plural); Classical Nahuatl huēyi mahpilli is the same make-up (Wiktionary).
+    agu: ["mamil wiʼ qʼabʼ", "mamil wiʔ qʼaɓ"],  // The phrase for the thumb in Judges 1:6-7, Exodus 29:20 and Leviticus 8:23 of the Aguacateco Bible (mamil wi' k'ab; k'ab is this row's qʼabʼ 'hand'); the first word is not glossed in the source.
+    cuk: ["goo dummad", "ɡoː dumːad"],  // The word for the thumb in Exodus 29:20, Leviticus 8:23 and 14:14 (e-goo-dummad-argan-nuedsikidgi 'on his right thumb') and Judges 1:6-7 (plural goo-dummagan) of the Kuna Bible; the parts are not glossed in the source.
   },
 };

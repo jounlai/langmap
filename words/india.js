@@ -530,6 +530,7 @@ WORDS.india = {
     txg: "other",
     xct: "other",
     kos: "greek",
+    en_manc: "greek",
   },
   routes: {
     greek: {"color":"#2563eb","emoji":"🏛️","en":"through Greek Ἰνδία, Latin India (India, Inde, Индия)","ja":"ギリシア語 Ἰνδία、ラテン語 India 経由（India, Inde, Индия）","ko":"그리스어 Ἰνδία, 라틴어 India를 거쳐 (India, Inde, Индия)","zh":"经希腊语 Ἰνδία、拉丁语 India（India、Inde、Индия）","yue":"經希臘文 Ἰνδία、拉丁文 India（India、Inde、Индия）","vi":"qua tiếng Hy Lạp Ἰνδία, Latin India (India, Inde, Индия)","th":"ผ่านกรีก Ἰνδία ละติน India (India, Inde, Индия)","id":"lewat Yunani Ἰνδία, Latin India (India, Inde, Индия)","hi":"यूनानी Ἰνδία, लैटिन India से होकर (India, Inde, Индия)","de":"über griechisch Ἰνδία, lateinisch India (India, Inde, Индия)","fr":"par le grec Ἰνδία, le latin India (India, Inde, Индия)","it":"attraverso il greco Ἰνδία, il latino India (India, Inde, Индия)","es":"por el griego Ἰνδία, el latín India (India, Inde, Индия)","pt":"pelo grego Ἰνδία, o latim India (India, Inde, Индия)","ru":"через греческое Ἰνδία, латинское India (India, Inde, Индия)","uk":"через грецьке Ἰνδία, латинське India (India, Inde, Индия)","ar":"عبر اليونانية Ἰνδία واللاتينية India (India, Inde, Индия)","he":"דרך היוונית Ἰνδία והלטינית India (India, Inde, Индия)","sw":"kupitia Kigiriki Ἰνδία, Kilatini India (India, Inde, Индия)"},
@@ -1001,5 +1002,6 @@ WORDS.india = {
     txg: ["𗂰𗹦", "lji˧˥ mə˧"],  // A calque of Chinese 西天 'the western heaven' (Wiktionary, citing a Tangut biography of Atiśa); reading after Li Fanwen 2008 (*lji² mə¹), the reconstruction this row follows.
     xct: ["རྒྱ་གར", "rɡjaɡar"],  // rgya gar 'India'; listed in Sarat Chandra Das's Tibetan-English Dictionary (p. 304).
     kos: ["India", "india"],  // Kosraean Bible, Esther 1:1: India me na nwe Ethiopia 'from India to Ethiopia'.
+    en_manc: ["India", "ˈɪndiə"],  // Same name as standard English.
   },
 };

@@ -482,6 +482,10 @@ WORDS.littlefinger = {
     en_south: "plain",
     en_app: "plain",
     en_aave: "plain",
+    en_ck: "small",
+    de_lu: "small",
+    fr_lu: "small",
+    ca_va: "small",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -909,5 +913,9 @@ WORDS.littlefinger = {
     en_south: ["pinky", "ˈpɪŋki"],  // The usual American word, as in General American (en_us has pinky); borrowed from Dutch pinkje.
     en_app: ["pinky", "ˈpɪŋki"],  // The usual American word, as in General American (en_us has pinky); borrowed from Dutch pinkje.
     en_aave: ["pinky", "ˈpɪŋki"],  // The usual American word, as in General American (en_us has pinky); borrowed from Dutch pinkje.
+    en_ck: ["little finger", "ˈlɪʔʊ ˈfɪŋɡə"],  // Same words as standard English; IPA with the row's t-glottalling (butterfly ˈbɐʔəflɑɪ) and l-vocalisation (milk mɪwk).
+    de_lu: ["kleiner Finger", "ˈklaɪ̯nɐ ˈfɪŋɐ"],  // Same word as standard German; the row follows standard German pronunciation (ʁ, ɐ).
+    fr_lu: ["petit doigt", "pəti dwa"],  // Same word as standard French.
+    ca_va: ["dit petit", "dit peˈtit"],  // Same words as standard Catalan; Valencian unstressed e.
   },
 };

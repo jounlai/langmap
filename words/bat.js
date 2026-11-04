@@ -656,6 +656,7 @@ WORDS.bat = {
     ja_kanbun: "plain",
     tpy: "plain",
     crt: "plain",
+    hch: "plain",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1257,5 +1258,6 @@ WORDS.bat = {
     ja_kanbun: ["蝙蝠", "hempɯkɯ"],  // Classical Chinese 蝙蝠 read on'yomi hempuku; デジタル大辞泉 へんぷく【蝙蝠】 'コウモリのこと'. The row reads single characters with their kun (熊 kɯma, 骨 hone) and two-character words with their on reading (胡蝶 kotɕoː, 銀河 ɡiŋɡa, 車輪 ɕaɾiɴ).
     tpy: ["koioʃ", "koioʃ"],  // No image is recorded for it, so it counts as a word of its own. From the IDS Trumai list, the source of most of this row.
     crt: ["exejeʔ", "exejeʔ"],  // No image is recorded for it, so it counts as a word of its own. From the IDS Chorote list (exeyeʔ, feminine), the source of this row.
+    hch: ["ʼatsixi", "ʔatsiri"],  // The last of the unclean birds in Leviticus 11:19 and Deuteronomy 14:18, where the Hebrew has the bat, and in Isaiah 2:20 ('to the moles and the bats') of the Wixárika Bible ('atsixi; this row writes x as /r/). No image is recorded for it, so it counts as a word of its own.
   },
 };

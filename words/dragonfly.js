@@ -321,6 +321,28 @@ WORDS.dragonfly = {
     adt: "plain",
     wbp: "plain",
     dbl: "plain",
+    en_ck: "dragon",
+    en_scouse: "dragon",
+    en_manc: "dragon",
+    en_wls: "dragon",
+    en_ie: "dragon",
+    en_sco: "dragon",
+    en_yk: "dragon",
+    en_geordie: "dragon",
+    en_brum: "dragon",
+    en_wc: "dragon",
+    en_est: "dragon",
+    de_at: "plain",
+    de_ch: "plain",
+    de_lu: "plain",
+    fr_be: "plain",
+    fr_ch: "plain",
+    fr_lu: "plain",
+    nl_be: "plain",
+    es_an: "plain",
+    ca_va: "plain",
+    csb: "other",
+    li: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -587,5 +609,27 @@ WORDS.dragonfly = {
     adt: ["wirtu-wirtu", "wiʈu-wiʈu"],  // Adnyamathanha wirtu-wirtu 'dragonfly'.
     wbp: ["ngirntiwurarri", "ŋiɳʈiwuɻari"],  // Warlpiri ngirntiwurarri 'dragonfly'.
     dbl: ["yirinyjila", "ˈjiriɲɟila"],  // Dyirbal yiriɲdyila 'dragon-fly' (Dixon), in the row's practical spelling.
+    en_ck: ["dragonfly", "ˈdɹæɡənflɑɪ"],  // Same word as standard English; the IPA is built from the row's own cells (dr as in drink, TRAP as in black, -fly as in butterfly).
+    en_scouse: ["dragonfly", "ˈdɹaɡənflaɪ"],  // Same word as standard English; the IPA is built from the row's own cells (dr as in drink, TRAP as in black, -fly as in butterfly).
+    en_manc: ["dragonfly", "ˈdɹaɡənflaɪ"],  // Same word as standard English; the IPA is built from the row's own cells (dr as in drink, TRAP as in black, -fly as in butterfly).
+    en_wls: ["dragonfly", "ˈdɾaɡənflaɪ"],  // Same word as standard English; the IPA is built from the row's own cells (dr as in drink, TRAP as in black, -fly as in butterfly).
+    en_ie: ["dragonfly", "ˈdɹaɡənflaɪ"],  // Same word as standard English; the IPA is built from the row's own cells (dr as in drink, TRAP as in black, -fly as in butterfly).
+    en_sco: ["dragonfly", "ˈdɹaɡənflaɪ"],  // Same word as standard English; the IPA is built from the row's own cells (dr as in drink, TRAP as in black, -fly as in butterfly).
+    en_yk: ["dragonfly", "ˈdɹaɡənflaɪ"],  // Same word as standard English; the IPA is built from the row's own cells (dr as in drink, TRAP as in black, -fly as in butterfly).
+    en_geordie: ["dragonfly", "ˈdɹaɡənflaɪ"],  // Same word as standard English; the IPA is built from the row's own cells (dr as in drink, TRAP as in black, -fly as in butterfly).
+    en_brum: ["dragonfly", "ˈdɹaɡənflɔɪ"],  // Same word as standard English; the IPA is built from the row's own cells (dr as in drink, TRAP as in black, -fly as in butterfly).
+    en_wc: ["dragonfly", "ˈdɹaɡənflaɪ"],  // Same word as standard English; the IPA is built from the row's own cells (dr as in drink, TRAP as in black, -fly as in butterfly).
+    en_est: ["dragonfly", "ˈdɹæɡənflɑɪ"],  // Same word as standard English; the IPA is built from the row's own cells (dr as in drink, TRAP as in black, -fly as in butterfly).
+    de_at: ["Libelle", "liˈbɛlə"],  // Same word as standard German (Wiktionary has an Austrian recording).
+    de_ch: ["Libelle", "liˈbɛlə"],  // Same word as standard German.
+    de_lu: ["Libelle", "liˈbɛlə"],  // Same word as standard German; the row follows standard German pronunciation (ʁ, ɐ).
+    fr_be: ["libellule", "libɛlyl"],  // Same word as standard French.
+    fr_ch: ["libellule", "libɛlyl"],  // Same word as standard French.
+    fr_lu: ["libellule", "libɛlyl"],  // Same word as standard French.
+    nl_be: ["libel", "liˈbɛl"],  // Same word as standard Dutch.
+    es_an: ["libélula", "liˈβelula"],  // Same word as standard Spanish; intervocalic b written β as in the row's libro /ˈliβɾo/.
+    ca_va: ["libèl·lula", "liˈβɛlula"],  // Same word as standard Catalan; Valencian final -a as in the row's medusa /meˈðuza/.
+    csb: ["żôłniérz", "ˈʒɞwɲeʃ"],  // Kashubian żôłniérz, the same word as 'soldier'; Wiktionary IPA /ˈʒɞw.ɲer̝/, final rz written as in the row (mòrze /ˈmwɛʒɛ/, devoiced finally).
+    li: ["Libäll", "liˈbɛl"],  // Limburgish word for the dragonfly, from New Latin libellula.
   },
 };

@@ -291,7 +291,7 @@ WORDS.wifi = {
     kg: ["wifi", ""],
     ng: ["o-wifi", ""],
     quc: ["wifi", ""],
-    lun: ["wayifayi", ""],
+    lun: ["wayifayi", "wajifaji"],
     rn: ["wi-fi", ""],
     dyu: ["wifi", ""],
     kk: ["вай-фай", ""],

@@ -341,7 +341,7 @@ WORDS.dopamine = {
     sn: ["dopamine", ""],
     tpi: ["dopamine", ""],
     quz: ["dopamina", ""],
-    vep: ["dofamin", ""],
+    vep: ["dofamin", "ˈdofamin"],
     mad: ["dopamin", ""],
     quy: ["dopamina", ""],
     cnp: ["多巴胺", "to˥˧ pa˥˧ an˥˥"],

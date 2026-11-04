@@ -697,7 +697,7 @@ WORDS.computer = {
     srm: ["computer", ""],
     kbd: ["компьютер", ""],
     car: ["computa", ""],
-    men: ["kɔmpitei", ""],
+    men: ["kɔmpitei", "kɔmpitei"],
     sus: ["ordinatɛri", ""],
     ndc: ["komputadhori", ""],
     tca: ["computador", ""],

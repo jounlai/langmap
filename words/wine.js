@@ -1679,7 +1679,7 @@ WORDS.wine = {
 
     // --- Sinitic — 葡萄酒 'grape liquor' in every lect ---
     gan_yc: ["—", "—"],
-    gan_ja: ["葡萄酒", "pʰu˦˥ tʰau˦˥ tɕiu˨˩˧"],
+    gan_ja: ["葡萄酒", "pʰu˦˥ tʰau˦˥ tɕiu˥˧"],
     cjy_lv: ["葡萄酒", "pʰu˦˦ tʰou˦˦ tɕiʌu˧˩˨"],
     cjy_xz: ["葡萄酒", "pʰu˧˩ tʰɔ˧˩ tɕiəu˧˩˧"], // was ["葡萄酒", "pʰu˩˩ tʰɔ˩˩ tɕiəu˥˧"] (vi dialect rules 2026-10-06)
     hsn_hy: ["葡萄酒", "pu˩˩˨ tau˩˩˨ tɕiu˧˧"],

@@ -52,3 +52,10 @@ cells, ko_em ̚ on 2 of 10 stops, ja_kanbun 日本 ɴ. Format: ko goosebumps hol
 - tools/vi_tone_check.js — per-row quốc ngữ tone → Chao table for vi / vi_c / vi_s; vi_nom must equal the vi cell (4 reasoned ALLOW). Found vi_nom 電話移動 still lacking ͡m.
 - tools/ko_notation_check.js — intervocalic ㄹ ɾ, word-final ̚ by row majority, ㅓ letter by row majority (ko_gor/oko off; ko_mid/ko_hg (c) off). Found ko_mid 졎 tsjət̚ → tsjəts (Wiktionary /t͡sjə́t͡s/).
 - tools/sinitic_char_reading_check.js + sinitic_char_reading.lock.json — ratchet; lock holds the 4 unlabelled 文白 items (cpx/mnp 日本, nan_hai 日头, wuu_sz 昨日).
+
+## gan_ja entering tone (one row-wide decision)
+History: row created 2026-06-21 with 陰入 ˥ + stop; 脚 tɕio˥ hand-written 2026-09-20; whole row re-read
+from MCPDict 吉安 on 2026-10-03 (r46), where 陰入 → ˧˧˦ (no stop), 陽入 → ˨˩˦. Decision: the row follows
+the 吉安 city table. Applied: 酒 tɕiu˨˩˧ → tɕiu˥˧ (table reading; ˨˩˧ is not one of its tones).
+Kept, flagged as conflict with the hand fix: 脚 tɕio˥ (segments sourced; tone pre-dates r46, note rewritten
+to say so). 喝 hot˥ / 吃 tɕʰiat˥ remain DEBT (not in the table). Not converted by inference anywhere.

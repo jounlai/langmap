@@ -206,5 +206,6 @@ WORDS.hangover = {
     pot: ["mankago", "mankaɡo"],  // 'He or she has a hangover.'
     kl: ["aqagutaarpoq", "aqaɣutaːʁpoq"],  // 'Is hung over.'
     ja_chu: ["二日酔", "ɸutsukajoi"],  // 両足院本山谷抄 (1500頃) 二日(フツカ)酔, as quoted in 日本国語大辞典.
+    bik: ["kahingawan", "kahiŋaˈwan"],  // Central Bikol kahingawán 'sobriety; hangover' (Wiktionary).
   },
 };

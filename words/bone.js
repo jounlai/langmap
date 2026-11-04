@@ -611,7 +611,7 @@ WORDS.bone = {
     sat: ["ᱡᱟᱝ", "dʒaŋ"],
     kru: ["ख़ॊचोल", "xotʃol"],
     mad: ["tolang", "tɔlaŋ"],
-    hil: ["tul-an", "tulˈʔan"],
+    hil: ["tul-an", "ˈtulʔan"],
     cbk: ["hueso", "ˈweso"],
     bal: ["ہڈ", "haɖ"],
     ak: ["dompe", "dompe"],

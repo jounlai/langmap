@@ -360,7 +360,7 @@ WORDS.ear = {
     tl: ["tainga", "taˈʔiŋa"],
     ceb: ["dalunggan", "daˈluŋɡan"],
     ilo: ["lapayag", "laˈpajaɡ"],
-    hil: ["dulunggan", "duluŋˈɡan"],
+    hil: ["dulunggan", "duˈluŋɡan"],
     war: ["talinga", "taˈliŋa"],
     bik: ["talinga", "taˈliŋa"],
     jv: ["kuping", "kupiŋ"],

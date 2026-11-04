@@ -342,7 +342,7 @@ WORDS.fire = {
     jv: ["geni", "ɡəni"],
     jvn: ["geni", "ɡəni"],
     su: ["seuneu", "sɯnɯ"],
-    ceb: ["kalayo", "kalaˈjoʔ"],
+    ceb: ["kalayo", "kaˈlajo"],
     ilo: ["apoy", "ʔaˈpoj"],
     fj: ["buka", "mbuka"],
     rtm: ["rạhi", "ˈrɔhi"],

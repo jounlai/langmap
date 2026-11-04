@@ -691,7 +691,7 @@ WORDS.star = {
       sat: ["ᱤᱯᱤᱞ", "ipil"],
       kru: ["बिंको", "biŋkoː"],
       mad: ["bintang", "bintaŋ"],
-      hil: ["bituon", "bituˈʔon"],
+      hil: ["bituon", "biˈtuʔon"],
       cbk: ["estrellas", "esˈtɾejas"],
       bal: ["استار", "istaːr"],
       ak: ["nsoromma", "n̩sòròmmá"],

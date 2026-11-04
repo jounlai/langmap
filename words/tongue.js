@@ -636,7 +636,7 @@ WORDS.tongue = {
     sat: ["ᱟᱞᱟᱝ", "alaŋ"],
     kru: ["ततख़ा", "tatxaː"],
     mad: ["jhila", "dʒʱila"],
-    hil: ["dila", "ˈdila"],
+    hil: ["dila", "ˈdilaʔ"],
     cbk: ["lengua", "ˈleŋɡwa"],
     bal: ["زوان", "zawaːn"],
     ak: ["tɛkrɛma", "tɛkrɛma"],

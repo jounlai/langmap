@@ -698,7 +698,7 @@ WORDS.heart = {
     sat: ["ᱢᱳᱱ", "mon"],
     kru: ["बुक्का", "bukːaː"],
     mad: ["ate", "atɛ"],
-    hil: ["tagipusuon", "taɡipusuˈʔon"],
+    hil: ["tagipusuon", "taɡipuˈsuʔon"],
     cbk: ["corazon", "koɾaˈson"],
     bal: ["دل", "dil"],
     ak: ["akoma", "akoma"],

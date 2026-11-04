@@ -1696,7 +1696,7 @@ WORDS.wine = {
     lus: ["uain", "uain"],
     kha: ["wain", "wain"],
     cnh: ["mitsur hang", "mitsur haŋ"], // was ["misur hang", "misur haŋ"] (vi dialect rules 2026-10-06)
-    mnw: ["ဍာ်ဇဗျေတ်", "ɗaʔ cəpjat"],
+    mnw: ["ဍာ်ဇဗျေတ်", "ɗaik cəpjat"],
     bru: ["blŏ́ng nho", "blɔŋ ɲɔ"],
 
     // --- Yanesha ---

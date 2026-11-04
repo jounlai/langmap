@@ -407,7 +407,7 @@ WORDS.egg = {
     bra: ["अंडा", "əɳɖaː"],
     skr: ["آنڈا", "aːɳɖaː"],
     mad: ["tellor", "təllɔr"],
-    hil: ["itlog", "ʔitˈloɡ"],
+    hil: ["itlog", "ˈʔitloɡ"],
     cbk: ["huevo", "ˈwebo"],
     ak: ["kosua", "kosua"],
     mk: ["јајце", "ˈjajtsɛ"],

@@ -1028,7 +1028,7 @@ WORDS.monday = {
     mer: ["Muramuko", "muɾamuko"],  // Muramuko, the Meru name for Monday; its literal meaning is not given in the source.
     xog: ["Balaza", "balaza"],  // Balaza, the Soga name for Monday; its literal meaning is not given in the source.
     teo: ["Nakaebarasa", "nakaebarasa"],  // Nakaebarasa, the Ateso name for Monday; its literal meaning is not given in the source.
-    shn: ["ဝၼ်းၸၼ်", "wan˥ tɕan˨˦"],  // wan "day" + tsan, the Shan Monday name; the source does not gloss tsan, and the Burmese-derived tanang-laa is a synonym. Route by resemblance to the neighbouring forms (th(วันจันทร์) th_n(วันจันทร์)); no etymology of its own.
+    shn: ["ဝၼ်းၸၼ်", "wan˥ tsan˨˦"],  // wan "day" + tsan, the Shan Monday name; the source does not gloss tsan, and the Burmese-derived tanang-laa is a synonym. Route by resemblance to the neighbouring forms (th(วันจันทร์) th_n(วันจันทร์)); no etymology of its own.
     doi: ["सोमबार", "soːmbaːr"],  // Sombaar, the Dogri name for Monday; no Dogri source for its etymology was found. Route by resemblance to the neighbouring forms (ne(सोमबार) hi(सोमवार)); no etymology of its own.
     brx: ["समबार", "sɔmbar"],  // Sombar, the Bodo name for Monday; no Bodo source for its etymology was found. Route by resemblance to the neighbouring forms (ne(सोमबार) hi(सोमवार)); no etymology of its own.
     mas: ["Jumatátu", "dʒumatatu"],  // Jumatatu, the same name as Swahili Jumatatu; no Maasai source states its origin. Route by resemblance to the neighbouring forms (sw(Jumatatu) luy(Jumatatu)); no etymology of its own.

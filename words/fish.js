@@ -639,7 +639,7 @@ WORDS.fish = {
     sat: ["ᱦᱟᱠᱳ", "hako"],
     kru: ["इंजो", "iɲdʒoː"],
     mad: ["jukoʼ", "dʒukɔʔ"],
-    hil: ["isda", "ʔisˈdaʔ"],
+    hil: ["isda", "ˈʔisdaʔ"],
     cbk: ["pescao", "pesˈkaw"],
     bal: ["ماهیگ", "maːhiɡ"],
     ak: ["apataa", "apataː"],

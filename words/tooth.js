@@ -654,7 +654,7 @@ WORDS.tooth = {
     sat: ["ᱫᱟᱴᱟ", "daʈa"],
     kru: ["पल्ल", "palː"],
     mad: ["gigi", "ɡiɡi"],
-    hil: ["ngipon", "ŋiˈpon"],
+    hil: ["ngipon", "ˈŋipon"],
     cbk: ["diente", "ˈdjente"],
     bal: ["دنتان", "dantaːn"],
     ak: ["ɛse", "ɛse"],

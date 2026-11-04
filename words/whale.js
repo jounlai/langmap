@@ -482,6 +482,7 @@ WORDS.whale = {
     udi: "plain",
     kum: "plain",
     nog: "plain",
+    ksw: "fish",
   },
   routes: {
     fish: {"color":"#2563eb","emoji":"🐟","en":"called a fish","ja":"「魚」と呼ぶ","ko":"\"물고기\"라 부름","zh":"称作\"鱼\"","yue":"叫做「魚」","vi":"gọi là cá","th":"เรียกว่าปลา","id":"disebut ikan","hi":"मछली कहा जाता है","de":"als Fisch bezeichnet","fr":"appelée poisson","it":"chiamata pesce","es":"llamada pez","pt":"chamada peixe","ru":"называют рыбой","uk":"називають рибою","ar":"تُسمّى سمكة","he":"נקרא דג","sw":"huitwa samaki"},
@@ -909,5 +910,6 @@ WORDS.whale = {
     udi: ["кит", "kit"],  // IDS Udi, the row's list. Palochka and IPA from the row's pairs.
     kum: ["хортма", "xortma"],  // IDS Kumyk, the list this row matches. IPA from the row's pairs.
     nog: ["кит", "kit"],  // IDS Nogai, the list this row matches. IPA from the row's pairs.
+    ksw: ["ညၣ်လူၤခိၣ်", "ɲalukʰo"],  // S'gaw Karen 'whale' (SEAlang), beginning with ညၣ် 'fish'. IPA read from the script; the dictionary prints none.
   },
 };

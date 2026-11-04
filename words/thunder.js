@@ -811,6 +811,7 @@ WORDS.thunder = {
     sms: "plain",
     smn: "plain",
     mns: "plain",
+    ksw: "plain",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1568,5 +1569,6 @@ WORDS.thunder = {
     sms: ["tie´rmes", "tiɛrʲmʲɛs"],  // NorthEuraLex Skolt Sami, the list this row matches. Tie bars removed and spaces restored, as the row.
     smn: ["juuṛâ", "ˈjuːrɐ"],  // NorthEuraLex Inari Sami, the list this row matches. Tie bars removed and spaces restored, as the row.
     mns: ["сяхыл кургил", "sʲaχɪl kurɣil"],  // NorthEuraLex Northern Mansi, the list this row matches. Tie bars removed and spaces restored, as the row.
+    ksw: ["လီသီၣ်", "lɔθɔ"],  // S'gaw Karen 'thunder' (SEAlang). No image is recorded for it, so it counts as a word of its own. IPA read from the script; the dictionary prints none.
   },
 };

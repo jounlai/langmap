@@ -323,6 +323,7 @@ WORDS.octopus = {
     sas: "plain",
     ho: "plain",
     meu: "plain",
+    ksw: "plain",
   },
   routes: {
     eight: {"color":"#2563eb","emoji":"8️⃣","en":"eight feet","ja":"8本の足","ko":"여덟 발","zh":"八条腿","yue":"八隻腳","vi":"tám chân","th":"แปดเท้า","id":"delapan kaki","hi":"आठ पैर","de":"acht Füße","fr":"huit pieds","it":"otto piedi","es":"ocho pies","pt":"oito pés","ru":"восемь ног","uk":"вісім ніг","ar":"ثماني أقدام","he":"שמונה רגליים","sw":"miguu minane"},
@@ -590,5 +591,6 @@ WORDS.octopus = {
     sas: ["keritaq", "kəritaʔ"],  // "ke.ri.taq n ikan gurita"; page image read
     ho: ["urita", "urita"],  // "octopus: urita"
     meu: ["urita", "uɾita"],  // Lawes "Urita, s. cuttlefish, octopus"
+    ksw: ["ပဝဲၢ်", "pawɛ"],  // S'gaw Karen 'octopus' (SEAlang). No image is recorded for it, so it counts as a word of its own. IPA read from the script; the dictionary prints none.
   },
 };

@@ -628,7 +628,7 @@ WORDS.night = {
     sat: ["ᱱᱤᱫᱟ", "nida"],
     kru: ["माख़ा", "maːxaː"],
     mad: ["malem", "maləm"],
-    hil: ["gab-i", "ɡabˈʔi"],
+    hil: ["gab-i", "ˈɡabʔi"],
     cbk: ["noche", "ˈnotʃe"],
     bal: ["شپ", "ʃap"],
     ak: ["anadwo", "anadʑᶣo"],

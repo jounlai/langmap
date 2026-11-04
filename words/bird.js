@@ -470,7 +470,7 @@ WORDS.bird = {
     awa: ["चिरई", "tʃirai"],
     bra: ["पंछी", "pəntʃʰiː"],
     mad: ["manoʼ", "manɔʔ"],
-    hil: ["pispis", "pisˈpis"],
+    hil: ["pispis", "ˈpispis"],
     cbk: ["pajaro", "ˈpahaɾo"],
     bal: ["مرغ", "murɡ"],
     ak: ["anoma", "anoma"],

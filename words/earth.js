@@ -136,7 +136,7 @@ WORDS.earth = {
     jv: ["lemah", "ləmah"],
     su: ["taneuh", "tanɯh"],
     tl: ["lupa", "ˈlupaʔ"],
-    ceb: ["yuta", "ˈjuta"],
+    ceb: ["yuta", "ˈjutaʔ"],
     hil: ["duta", "ˈdutaʔ"],
     war: ["tuna", "ˈtunaʔ"],
     bik: ["daga", "daˈɡaʔ"],

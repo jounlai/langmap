@@ -298,6 +298,7 @@ WORDS.adamsapple = {
     fj: "other",
     ch: "plain",
     nij: "other",
+    ceb: "plain",
   },
   routes: {
     adam: {"color":"#dc2626","emoji":"🍏","en":"Adam's apple","ja":"アダムのりんご","ko":"아담의 사과","zh":"亚当的苹果","yue":"亞當嘅蘋果","vi":"táo của Adam","th":"แอปเปิลของอาดัม","id":"apel Adam","hi":"आदम का सेब","de":"Adams Apfel","fr":"pomme d'Adam","it":"pomo d'Adamo","es":"fruto de Adán","pt":"maçã de Adão","ru":"яблоко Адама","uk":"яблуко Адама","ar":"تفاحة آدم","he":"תפוח אדם","sw":"tufaha la Adamu"},
@@ -540,5 +541,6 @@ WORDS.adamsapple = {
     fj: ["itagitagi", "itaŋitaŋi"],  // Hazlewood "Adam's Apple, ai tagitagi"; ai > i as in row ivola; tagi = cry
     ch: ["guegmon", "ɡweɡmon"],  // 1918 "guegmon, n.: larynx; Adam's apple"
     nij: ["bungkok tingang", "buŋkok tiŋaŋ"],  // Hardeland under BUNGKOK: "Bungkok tingang, Kehlkopf, der sogenannte Adamsapfel"; both scans; tingang = hornbill
+    ceb: ["ubol-ubol", "ˌʔubolˈʔubol"],  // Cebuano ubul-úbul 'Adam's apple; windpipe' (Wolff). No image is recorded for it, so it counts as a word of its own.
   },
 };

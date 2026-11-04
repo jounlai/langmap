@@ -261,7 +261,7 @@ WORDS.mouth = {
     km: ["មាត់", "mŏət"],
     ms: ["mulut", "ˈmulut"],
     tl: ["bibig", "biˈbiɡ"],
-    ceb: ["baba", "ˈbaʔba"],
+    ceb: ["baba", "ˈbaʔbaʔ"],
     jv: ["cangkem", "ˈtʃaŋkəm"],
     haw: ["waha", "waha"],
     mi: ["waha", "waha"],

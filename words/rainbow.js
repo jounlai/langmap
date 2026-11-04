@@ -810,6 +810,7 @@ WORDS.rainbow = {
     liv: "plain",
     evn: "plain",
     tue: "plain",
+    ksw: "plain",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -984,7 +985,7 @@ WORDS.rainbow = {
     lus: ["chhimbâl", "tʃʰimbaːl"],  // The Mizo word for the rainbow; its origin is not documented in the sources consulted. No image is recorded for it, so it counts as a word of its own.
     nia: ["dumi", "dumi"],  // The Nias word for the rainbow, recorded in Sundermann's 1905 dictionary. No image is recorded for it, so it counts as a word of its own.
     war: ["balangaw", "balaˈŋaw"],  // Inherited from Proto-Central Philippine *balaŋaw 'rainbow', shared with Tagalog and Hiligaynon balangaw.
-    bik: ["balangaw", "balaˈŋaw"],  // Inherited from Proto-Central Philippine *balaŋaw 'rainbow'; Bikol also says hablondawani, built on dawani, the name of a rainbow goddess.
+    bik: ["balangaw", "baˈlaŋaw"],  // Inherited from Proto-Central Philippine *balaŋaw 'rainbow'; Bikol also says hablondawani, built on dawani, the name of a rainbow goddess.
     mnp: ["虹", "kɔŋ˧˧"],  // Jian'ou uses the vernacular reading gô̤ng of 虹; the character's origin is debated, and its oracle-bone form drew the rainbow as a two-headed dragon.
     nan_te: ["虹", "kʰeŋ˧˥"],  // Teochew says the single character 虹 with its vernacular reading kêng6.
     yue_ts: ["水虹", "sui˥˥ kʰɵŋ˨˨"],  // Literally 'water rainbow'; Taishan speakers also say 鑊耳 'wok handles' and 水拱.
@@ -1563,5 +1564,6 @@ WORDS.rainbow = {
     liv: ["õvātõks", "ˈɨvɑːtɨks"],  // NorthEuraLex Livonian, the list this row matches. Tie bars removed and spaces restored, as the row.
     evn: ["серун", "sjerun"],  // NorthEuraLex Evenki, the list this row matches. Tie bars removed and spaces restored, as the row.
     tue: ["buʼe-da", "buʔeda"],  // IDS Tuyuca, the list this row matches. IPA from the row's pairs.
+    ksw: ["တၢၢ်ကွဲၤ", "tɛkwɛ"],  // S'gaw Karen 'rainbow' (SEAlang). No image is recorded for it, so it counts as a word of its own. IPA read from the script; the dictionary prints none.
   },
 };

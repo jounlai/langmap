@@ -698,7 +698,7 @@ WORDS.dog = {
     sat: ["ᱥᱮᱛᱟ", "seta"],
     kru: ["अल्ला", "alːaː"],
     mad: ["pateʼ", "patɛʔ"],
-    hil: ["ido", "ʔiˈdo"],
+    hil: ["ido", "ʔiˈdoʔ"],
     cbk: ["perro", "ˈpero"],
     bal: ["کچک", "kutʃak"],
     ak: ["kraman", "kraman"],

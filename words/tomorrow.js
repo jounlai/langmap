@@ -944,6 +944,7 @@ WORDS.tomorrow = {
     dta: "plain",
     tue: "plain",
     tpy: "plain",
+    ksw: "plain",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -1593,7 +1594,7 @@ WORDS.tomorrow = {
     ce: ["кхана", "qaːnə"],  // Кхана is the Chechen word; Wiktionary relates it to хан 'time', as with тахана 'today' and селхана 'yesterday'.
     sdh: ["سوو", "suː"],  // Suu is the Southern Kurdish word; Kurmanji says sibê and Sorani سبەی. No image is recorded for it, so it counts as a word of its own.
     nym: ["igolo", "iɡolo"],  // Igolo means both 'yesterday' and 'tomorrow': the Nyamwezi Bible uses it for both days.
-    shn: ["မိူဝ်ႈၽုၵ်ႈ", "məː˧˨ pʰuːk˧˨"],  // Mue phuk is the Shan word for tomorrow.
+    shn: ["မိူဝ်ႈၽုၵ်ႈ", "mɤː˧˨ pʰuk˧˨"],  // Mue phuk is the Shan word for tomorrow.
     egl: ["dman", "dmaŋ"],  // Dman comes from Latin dē māne 'from the morning', like Italian domani.
     li: ["mörge", "ˈmœrəɣə"],  // Mörge 'tomorrow' is the same word as Mörge 'morning', from Proto-West-Germanic *morgin.
     sco: ["the morn", "ðə mɔrn"],  // Scots says the morn, literally 'the morning', just as it says the day for 'today'.
@@ -1832,5 +1833,6 @@ WORDS.tomorrow = {
     dta: ["buni", "buni"],  // Robbeets Altaic list Dagur, the list this row matches. IPA from the row's pairs.
     tue: ["yãʼbĩ-gã", "jãʔbĩɡã"],  // IDS Tuyuca, the list this row matches. IPA from the row's pairs.
     tpy: ["kodaka-ki", "kodakaki"],  // IDS Trumai, the list this row matches. IPA from the row's pairs.
+    ksw: ["ခဲမုၢ်ဆ့ၣ်", "kʰɛmɨsʰe"],  // S'gaw Karen 'tomorrow' (SEAlang). No image is recorded for it, so it counts as a word of its own. IPA read from the script; the dictionary prints none.
   },
 };

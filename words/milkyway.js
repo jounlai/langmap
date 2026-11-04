@@ -366,6 +366,7 @@ WORDS.milkyway = {
     ch: "road",
     gil: "other",
     kha: "road",
+    ksw: "other",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -675,5 +676,6 @@ WORDS.milkyway = {
     ch: ["karera de Santiago", "kaɾeɾa de santiaɡo"],  // 1918 "Milky Way, n.: carera de Santiago"; Spanish road of St James; c > k
     gil: ["Naiabu", "naiabu"],  // Bingham "Naiabu, n. The Milky Way; the Galaxy"
     kha: ["ka lynti bneng", "ka lənti bneŋ"],  // 1920: "Galaxy, n. Ka lynti bneng"; road of the sky
+    ksw: ["ဆၣ်ဘုမုၢ်", "sʰabumɨ"],  // S'gaw Karen 'Milky Way' (SEAlang), beginning with ဆၣ် 'star'. IPA read from the script; the dictionary prints none.
   },
 };

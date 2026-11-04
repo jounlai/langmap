@@ -151,7 +151,7 @@ WORDS.horse = {
     si: ["අශ්වයා", "aʃʋəjaː"],
     jv: ["jaran", "dʒaran"],
     su: ["kuda", "kuda"],
-    ceb: ["kabayo", "kaˈbajo"],
+    ceb: ["kabayo", "kaˈbajoʔ"],
     mi: ["hōiho", "hoːiho"],
     haw: ["lio", "lio"],
     mt: ["żiemel", "ˈzɪːmɛl"],

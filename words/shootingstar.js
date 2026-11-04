@@ -332,6 +332,7 @@ WORDS.shootingstar = {
     ch: "moving",
     gil: "plain",
     roo: "plain",
+    ksw: "moving",
   },
   routes: {
     falling: {"color":"#2563eb","emoji":"⬇️","en":"a falling star","ja":"落ちる星","ko":"떨어지는 별","zh":"落下的星","yue":"跌落嘅星","vi":"sao rơi","th":"ดาวที่ตก","id":"bintang jatuh","hi":"गिरता तारा","de":"fallender Stern","fr":"étoile qui tombe","it":"stella che cade","es":"estrella que cae","pt":"estrela que cai","ru":"падающая звезда","uk":"зірка, що падає","ar":"نجم يسقط","he":"כוכב שנופל","sw":"nyota inayoanguka"},
@@ -609,5 +610,6 @@ WORDS.shootingstar = {
     ch: ["guinipon putiʼon", "ɡwiniˈpon putiˈʔon"],  // 1918 "meteor, n.: guinipon pution"; star spelled as the row
     gil: ["wenei", "wenei"],  // Bingham "Wenei, n. a shooting star or meteor"
     roo: ["purapurapato", "puɾapuɾapato"],  // "meteoroid, asteroid, shooting star, angel"
+    ksw: ["ဆၣ်ယူၤ", "sʰaju"],  // S'gaw Karen 'meteor, shooting star' (SEAlang): ဆၣ် 'star' with ယူၤ 'to fly'. IPA read from the script; the dictionary prints none.
   },
 };

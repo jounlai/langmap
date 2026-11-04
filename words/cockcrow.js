@@ -597,5 +597,6 @@ WORDS.cockcrow = {
     ar_lb: ["كوكو", "kuːkuː"],  // Imitates the sound of a rooster or hen.
     ar_sy: ["كوكو", "kuːkuː"],  // Imitates the sound of a rooster or hen.
     ckv: ["temuku", "təmuku"],
+    hil: ["toktorook", "toktoˈɾoʔok"],  // Hiligaynon toktoróok 'the crow of a cock; to crow' (Kaufmann).
   },
 };

@@ -846,7 +846,7 @@ WORDS.japan = {
     zh_yuan: ["日本", "ɽi pən"],  // The characters 日本 'origin of the sun' in the 中原音韻 readings.
     zh_wenyan_edu: ["日本", "jɐt˨ puːn˧˥"],  // 日本 'origin of the sun' in the Cantonese literary reading.
     vi_han: ["日本", "ɲət˨˩ ɓaːn˧˩˧"],  // Nhật Bản, the Sino-Vietnamese reading of 日本.
-    vi_nom: ["日本", "ɲət˨˩ ɓaːn˧˩˧"],  // Nhật Bản, written with the Chinese characters as Sino-Vietnamese words are in Nôm texts.
+    vi_nom: ["日本", "ɲət˧˨ʔ ɓaːn˧˩˧"],  // Nhật Bản, written with the Chinese characters as Sino-Vietnamese words are in Nôm texts.
     ja_heian: ["日本", "niɸon"],  // Older texts read it ひのもと 'the sun's origin'; the reading にほん became common in the Heian period.
     ja_chu: ["日本", "niɸon"],  // にほん, with にっぽん, which keeps the old p, alongside it.
     ja_edo: ["日本", "nihoɴ"],  // にほん, with にっぽん alongside it.

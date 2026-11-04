@@ -707,7 +707,7 @@ WORDS.monday = {
     nan: ["拜一", "pai˩˩ it˧˨"],  // Short for 禮拜一, "week (lit. worship) one".
     vi: ["thứ hai", "tʰɨ˧˥ haːj˧"],  // "Second", a calque of Portuguese segunda-feira, "second weekday".
     vi_s: ["thứ hai", "tʰɨ˧˥ haːj˧"],  // "Second", calqued on Portuguese segunda-feira.
-    vi_c: ["thứ hai", "tʰɨ˧˦ haːj˥"],  // "Second", calqued on Portuguese segunda-feira.
+    vi_c: ["thứ hai", "tʰɨ˨˦ haːj˥"],  // "Second", calqued on Portuguese segunda-feira.
     th: ["วันจันทร์", "wan˧tɕan˧"],  // "Moon day": jan is the Moon (Sanskrit candra).
     lo: ["ວັນຈັນ", "ʋan˧˥ tɕan˩˧"],  // "Moon day", like Thai wan jan.
     km: ["ថ្ងៃច័ន្ទ", "tʰŋaj can"],  // thngai "day" + chan "moon".

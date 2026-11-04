@@ -1200,7 +1200,7 @@ WORDS.wine = {
     ko: ["포도주", "pododʑu"],
     zh: ["葡萄酒", "pʰu˧˥ tʰɑʊ̯˧˥ tɕjoʊ̯˨˩˦"],
     yue: ["葡萄酒", "pʰou˨˩ tʰou˨˩ tsɐu˧˥"],
-    vi: ["rượu vang", "zɨəw˧˨ʔ vaŋ˧"],
+    vi: ["rượu vang", "zɨəw˧˨ʔ vaːŋ˧"],
     th: ["ไวน์", "waj˧"],
     id: ["anggur", "aŋɡur"],
     hi: ["वाइन", "ʋaːɪn"], // was ["शराब", "ʃəraːb"] (r31 fix 2026-10-02)

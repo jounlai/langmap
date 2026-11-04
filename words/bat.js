@@ -1202,7 +1202,7 @@ WORDS.bat = {
     bzd: ["dakúr", "dakúɾ"],  // The Bribri word for the bat (also dukúr); Bribri files bats under dù, a class wider than 'bird' that takes in other flying animals. No image is recorded for it, so it counts as a word of its own.
     hbo: ["עטלף", "ʕatˤalˈleːf"],  // Listed last among the unclean flying creatures in Leviticus 11:19 and Deuteronomy 14:18; unrelated to עכבר 'mouse'.
     zh_tang: ["蝙蝠", "pɛn puwk"],  // An alliterative expansion of 蝠 'bat', a Sino-Tibetan root.
-    ja_heian: ["蝙蝠", "kaɸabori"],  // かはほり, between Old Japanese kapapori and later kaumori, kōmori.
+    ja_heian: ["蝙蝠", "kaɸaboɾi"],  // かはほり, between Old Japanese kapapori and later kaumori, kōmori.
     ko_mid: [":ᄇᆞᆰ·쥐", "pʌlktsuj"],  // First attested in the 1489 Gugeup ganibang; the second part is 쥐 'rat', the first is unexplained. Modern 박쥐.
     ar_qur: ["خفاش", "xuffaːʃ"],  // From the verb خَفِشَ 'to be day-blind', after the bat's supposed poor sight by day.
     ota: ["یراسه", "jaɾaˈsa"],  // Inherited from Proto-Turkic *yarïsgu 'bat', the same word as Turkish yarasa.

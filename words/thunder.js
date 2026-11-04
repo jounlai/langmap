@@ -811,7 +811,7 @@ WORDS.thunder = {
     tr: ["gök gürültüsü", "ɟøc ɟyɾyltyˈsy"],  // Literally 'the sky's noise', gök 'sky' + gürültü 'noise'.
     tl: ["kulog", "kuˈloɡ"],  // Inherited from Proto-Malayo-Polynesian *kudug 'thunder'.
     vi: ["sấm", "səm˧˥"],  // From a Mon-Khmer root *grəm 'to thunder, to rumble', cognate with Khmer គ្រុម 'sound of thunder'.
-    vi_c: ["sấm", "ʂəm˧˦"],  // From a Mon-Khmer root *grəm 'to thunder, to rumble', cognate with Khmer គ្រុម 'sound of thunder'.
+    vi_c: ["sấm", "ʂəm˨˦"],  // From a Mon-Khmer root *grəm 'to thunder, to rumble', cognate with Khmer គ្រុម 'sound of thunder'.
     vi_s: ["sấm", "ʂəm˧˥"],  // From a Mon-Khmer root *grəm 'to thunder, to rumble', cognate with Khmer គ្រុម 'sound of thunder'.
     th: ["ฟ้าร้อง", "faː˦˥rɔːŋ˦˥"],  // Literally 'the sky cries out', ฟ้า 'sky' + ร้อง 'to shout'.
     lo: ["ຟ້າຮ້ອງ", "faː˥˨hɔːŋ˥˨"],  // Literally 'the sky cries out'; its first part ຟ້າ is the same as this row's word for blue.
@@ -1378,7 +1378,7 @@ WORDS.thunder = {
     pyu: ["drerung", "ɖəruŋ"],  // The verb is built on it: dremerung 'to thunder', dremerudrerung 'to keep thundering'.
     hbo: ["רעם", "ˈraʕam"],  // From the root r-ʕ-m 'to thunder, roar': 'the voice of thy thunder' (Psalm 77:19).
     zh_tang: ["雷", "luj"],  // An old Chinese root.
-    ja_heian: ["神鳴り", "kaminari"],  // Kami 'god' + nari 'sounding'; the older いかづち is also used.
+    ja_heian: ["神鳴り", "kaminaɾi"],  // Kami 'god' + nari 'sounding'; the older いかづち is also used.
     ko_mid: ["·울에", "ulɦəj"],  // From the verb 우르다 'to roar'; continued as modern 우레.
     ojp: ["雷", "ikaduti"],  // Ika 'awesome' + tu (possessive) + ti 'spirit': the awesome spirit. Modern いかずち.
     fro: ["tuneire", "tyˈnejrə"],  // From Latin tonitrus, built on tonāre 'to thunder'; modern French tonnerre.

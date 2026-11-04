@@ -458,7 +458,7 @@ WORDS.jellyfish = {
     mak: ["bullung", "ˈbulːuŋ"],  // Makassarese word for the jellyfish; a'jappa bullung 'to walk like a jellyfish' means to walk very slowly.
     ain: ["フンペエトㇿ", "hunpeetoɾ"],  // Ainu word for the jellyfish (hunpeetor); dialect forms フㇺペエトㇿ, フㇺペートㇿ.
     ojp: ["水母", "kuraɡe"],  // Old Japanese kurage; NKD's first example is the Kojiki (712) account of the young land floating 'like oil' and drifting like a jellyfish.
-    ja_heian: ["水母", "kuraɡe"],  // Heian example: Makura no sōshi (late 10th c.) 'くらげのななり' ('it must be a jellyfish's [bone]').
+    ja_heian: ["水母", "kuɾaɡe"],  // Heian example: Makura no sōshi (late 10th c.) 'くらげのななり' ('it must be a jellyfish's [bone]').
     zh_tang: ["水母", "ɕwi məw"],  // Literally 'water mother'; Guo Pu's Jiang fu (4th c.) has 水母目蝦, and the Tang Lingbiao luyi has an entry 水母.
     zh_wenyan_edu: ["水母", "sɵy˧˥ mou˩˧"],  // Literally 'water mother'; Guo Pu's Jiang fu (4th c.) has 水母目蝦.
     vi_han: ["水母", "tʰwi˧˩˧ məw˧˧ˀ˥"],  // Literally 'water mother'; Guo Pu's Jiang fu (4th c.) has 水母目蝦. Hán Việt thủy mẫu.

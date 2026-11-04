@@ -510,7 +510,7 @@ WORDS.mobilephone = {
     wuu: ["手机", "sɤ˧˥ tɕi˥˧"],  // Literally 'hand machine', the same word as Mandarin.
     hak_cn: ["手机", "su˧˩ ki˦˦"],  // Literally 'hand machine'; Taiwanese Hakka also says 手機仔.
     cdo: ["手机", "tsʰieu˧˧ ki˥˥"],  // Literally 'hand machine'.
-    vi: ["điện thoại di động", "ɗiən˧˨ʔ tʰwaːj˧˨ʔ zi˧ ɗəwŋ˧˨ʔ"],  // Literally 'mobile telephone', a calque of Chinese 移動電話; often shortened to di động or just điện thoại.
+    vi: ["điện thoại di động", "ɗiən˧˨ʔ tʰwaːj˧˨ʔ zi˧ ɗəwŋ͡m˧˨ʔ"],  // Literally 'mobile telephone', a calque of Chinese 移動電話; often shortened to di động or just điện thoại.
     th: ["มือถือ", "mɯː˧tʰɯː˩˩˦"],  // Literally 'hand-held', clipped from โทรศัพท์มือถือ 'hand-held telephone'.
     id: ["ponsel", "ponsɛl"],  // Contraction of telepon seluler 'cellular telephone'; in casual speech people very often say HP (hapé, from English 'hand phone').
     ms: ["telefon bimbit", "telefon bimbit"],  // Literally 'dangling-carried telephone': bimbit is to carry something hanging from the fingers.

@@ -461,7 +461,7 @@ WORDS.hiccup = {
     nci: ["tziucnoliztli", "tsiuknolistɬi"],  // The noun of tziucnoa 'to hiccup'. No image is recorded for it, so it counts as a word of its own.
     ar_qur: ["فواق", "fuwaːq"],  // From the verb فاق 'to have a hiccup'; the sources do not say whether the root imitates the sound.
     syc: ["ܦܘܩܬܐ", "pwaːqtaː"],  // Pwāqtā, the same root as Arabic فواق fuwāq (Comprehensive Aramaic Lexicon); no source says whether it imitates the sound.
-    ja_heian: ["噦り", "sakuri"],  // さくり, cited from the Wamyō Ruijushō in Daijisen; the older form of しゃくり, from the verb sakuru 'to hiccup'.
+    ja_heian: ["噦り", "sakuɾi"],  // さくり, cited from the Wamyō Ruijushō in Daijisen; the older form of しゃくり, from the verb sakuru 'to hiccup'.
     ko_kp: ["딸꾹질", "t͈alk͈ukt͈ɕil"],  // 딸꾹, the sound of a hiccup, + -질 'act of doing', as in the South.
     vi_c: ["nấc cụt", "nək˧˦ kuk˧˩"],  // The same word as standard Vietnamese; Huế has -k for final -t after u, as in its út.
     vi_s: ["nấc cụt", "nək˧˥ kʊk͡p˨˩"],  // The same word as standard Vietnamese, with the Saigon -ʊk͡p of út in this row's 'little finger'.

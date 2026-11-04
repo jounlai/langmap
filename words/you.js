@@ -670,7 +670,7 @@ WORDS.you = {
       zh_tang: ["汝", "ȵɨə̆"],
       ja_edo: ["お前", "omae"],
       ja_kanbun: ["汝", "nandʑi"],
-      ja_heian: ["汝", "nare"],
+      ja_heian: ["汝", "naɾe"],
       ja_chu: ["汝", "nandʑi"],
       p_ryu: ["*ura", "ura"],
       ko_mid: ["너", "nə"],

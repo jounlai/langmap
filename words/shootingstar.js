@@ -558,7 +558,7 @@ WORDS.shootingstar = {
     zh_tang: ["流星", "luw seŋ"],  // 'Flowing star'.
     zh_wenyan_edu: ["流星", "lɐu˨˩ sɪŋ˥"],  // 'Flowing star', in the Cantonese literary reading.
     vi_han: ["流星", "lɨw˧ tiŋ˧"],  // Lưu tinh, 'flowing star'.
-    ja_heian: ["流れ星", "naɡarebosi"],  // 'Flowing star', attested since 1137.
+    ja_heian: ["流れ星", "naɡaɾebosi"],  // 'Flowing star', attested since 1137.
     ja_edo: ["流れ星", "naɡaɾeboɕi"],  // 'Flowing star'.
     sa: ["उल्का", "ulkaː"],  // Also 'firebrand, torch': the meteor is a fiery brand in the sky.
     ar_qur: ["شهاب", "ʃihaːb"],  // A blazing firebrand: in the Quran (37:10, 72:9) it is the flame that chases away eavesdropping devils.

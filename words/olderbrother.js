@@ -939,7 +939,7 @@ WORDS.olderbrother = {
     en_em: ["brother", "ˈbrʊðər"],  // Brother covered older and younger brothers alike; age was added with an adjective.
     arc: ["ܐܚܐ", "ʔaħaː"],  // Aramaic said ʾaḥā rabbā, 'big brother', and ʾaḥā zʿērā, 'small brother'; there was no separate word.
     ja_kanbun: ["兄", "ani"],  // In kanbun reading 兄 is read あに, the elder brother, as against 弟 おとうと, the younger.
-    vi_nom: ["英", "aɲ˧"],  // Vietnamese anh, written 英 in Nôm, is an elder brother; a younger one is em trai, 'male younger sibling'.
+    vi_nom: ["英", "ajŋ˧"],  // Vietnamese anh, written 英 in Nôm, is an elder brother; a younger one is em trai, 'male younger sibling'.
     ce: ["ваша", "u̯aʃa"],  // Chechen has no separate word: an older brother is воккхаха волу ваша, 'the brother who is bigger'.
     inh: ["воша", "voʃa"],  // Ingush has no separate word: an older brother is воакхагIавола воша, 'the brother who is bigger' (IDS).
     av: ["вац", "wats"],  // Avar has no separate word: кІудияв вац is the big brother, гьитІинав вац the little one (IDS).

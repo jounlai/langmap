@@ -41,3 +41,9 @@ ko_kp, ko_bus, ko_jl, ko_yb, ko_hg, ko_jeju where the row marks it elsewhere; ja
 ja_kanbun u → ɯ, n → ɴ, r → ɾ; ja_chu r → ɾ.
 Held (low): ja_heian r/ɾ split 9/11 (needs one direction), ja_sd/ja_aom geminate ː in copied
 cells, ko_em ̚ on 2 of 10 stops, ja_kanbun 日本 ɴ. Format: ko goosebumps holds "소름 / 닭살".
+
+## Follow-ups
+- ja_heian: the 9 r cells unified on ɾ (all other Japanese rows write ɾ).
+- Vietnamese/Thai tone and segment check (968 cells): vi_c thứ, sấm open sắc ˧˦ → ˨˦ (row: 33/35);
+  vi_nom 日本 Nhật ˨˩ → ˧˨ʔ; vi_nom 𩈘 mặt mət → mat; vi_nom 英 aɲ → ajŋ; vi vang vaŋ → vaːŋ;
+  vi động ɗəwŋ → ɗəwŋ͡m; th อึ ʔɯː˥˩ → ʔɯʔ˨˩ (mid class, short, unmarked = low; Wiktionary).

@@ -930,7 +930,7 @@ WORDS.china = {
     sa: ["चीनाः", "tʃiːnaːh"],  // The Cīnas, a people of classical literature usually identified as the Chinese, perhaps after the state of Qin.
     fa_clas: ["چین", "tʃiːn"],  // Inherited from Middle Persian čīn, from Sanskrit Cīna.
     ar_qur: ["الصين", "asˤsˤiːn"],  // From Middle Persian čīn; the country name always takes the article.
-    ja_heian: ["もろこし", "morokosi"],  // First attested in the Man'yōshū: moro- 'many' + koshi, a reading of 越, after the Hundred Yue peoples of southern China.
+    ja_heian: ["もろこし", "moɾokosi"],  // First attested in the Man'yōshū: moro- 'many' + koshi, a reading of 越, after the Hundred Yue peoples of southern China.
     ko_mid: ["듀ᇰ·국", "tjuŋkuk"],  // The Middle Korean reading of 中國 'middle country'.
     zh_tang: ["中國", "ʈuwŋ kwək"],  // 'The middle country', the name used since the Western Zhou.
     orv: ["Китаи", "kitai"],  // Cathay, named after the Khitan, via a Turkic source; the ancestor of Russian Китай.

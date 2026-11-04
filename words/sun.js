@@ -670,7 +670,7 @@ WORDS.sun = {
     ko_gor: ["契", "*hʌi"],
     ko_em: ["ᄒᆡ", "hɛ"],
     vi_han: ["日", "ɲət˨˩"],
-    vi_nom: ["𩈘𡗶", "mət˧˨ʔ tɕɤːj˨˩"],
+    vi_nom: ["𩈘𡗶", "mat˧˨ʔ tɕɤːj˨˩"],
     eo: ["suno", "ˈsuno"],
     vo: ["sol", "sol"],
     ia: ["sol", "sol"],

@@ -135,7 +135,15 @@ def main():
         for fam, weights in cfg['faces']:
             for w in weights:
                 for i, ch in enumerate(chunks(text)):
-                    data = fetch_face(fam, w, ch)
+                    try:
+                        data = fetch_face(fam, w, ch)
+                    except urllib.error.HTTPError as e:
+                        if e.code != 400:
+                            raise
+                        # Google answers 400 when the face has no glyph at all
+                        # in the chunk (a chunk of only Hangul for a JP face).
+                        print(f'  {fam} {w} chunk {i}: no glyphs, skipped')
+                        continue
                     fn = os.path.join(ROOT, fname(page, fam, w, i))
                     open(fn, 'wb').write(data)
                     print(f'  {os.path.basename(fn)}: {len(data) // 1024} KB')

@@ -688,6 +688,7 @@ WORDS.grandmother = {
     duu: "one",
     mnw: "one",
     cmg: "one",
+    kaw: "one",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -1320,5 +1321,6 @@ WORDS.grandmother = {
     duu: ["ɑpi", "ɑpi"],  // Tones dropped, as in the rest of the row.
     mnw: ["ဗဴ", "pɛ̀a"],  // Shorto: 'grandmother, old woman'.
     cmg: ["ᠡᠮᠡᠭᠡ", "emeɡe"],  // Traditional spelling from Wiktionary's Mongolian entry; no dated Classical citation opened, so this is the written-standard form, not proof of period. IPA in the row's style, mine.
+    kaw: ["ꦏꦼꦧꦶ", "kəbi"],  // Wukiran note: Old Javanese kəbi proved to mean 'grandmother'. Wurudu Kidul kakinya kvinya, translated 'her grandfathers, her grandmothers' (kvi is the inscription's spelling, once editor-marked). No side split seen. The source prints it in Latin letters; the Javanese-script spelling is a transliteration.
   },
 };

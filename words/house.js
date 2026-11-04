@@ -1152,7 +1152,7 @@ WORDS.house = {
     omx: ["သ္ၚိ", "sŋiʔ"],
     pyx: ["—", "—"],
     obr: ["အိမ်", "ʔim"],
-    ocm: ["sɔŋ", "sɔŋ"],
+    ocm: ["sāṅ", "saːŋ"],
     och: ["室", "*s.ti[t]"],
     ojp: ["家", "ipe"],
     p_jpk: ["*ya", "ja"],

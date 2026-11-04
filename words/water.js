@@ -1159,7 +1159,7 @@ WORDS.water = {
     omx: ["ဍာက်", "ɗaik"],  // Shorto 1971 entry 134.2.1: Old Mon ⟨ḍāk, ḍek⟩ reads /ɗaik/, the ⟨ḍek⟩ spelling being the tell. The implosive was right; the rime was Proto-Austroasiatic *ɗaːk. This row already reads ⟨ā⟩+C as -ai- in white bətaiŋ and tongue kətaik — water was the one cell that dropped its own rule.
     pyx: ["tduṃ", "tdu(j)"],
     obr: ["ရိယ်", "rij"],
-    ocm: ["ie", "ʔiə"],
+    ocm: ["qyā", "ʔia"],
     och: ["水", "*s.turʔ"],
     ojp: ["水", "midu"],
     p_jpk: ["*mentu", "mentu"],

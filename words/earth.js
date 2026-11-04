@@ -940,7 +940,7 @@ WORDS.earth = {
     p_hmx: ["*N-təu", "ntəu"],
     pcc: ["naamh", "naːm˧"],
     h_tagalog: ["ᜎᜓᜉ", "lupaʔ"],
-    osn: ["lemah", "ləmah"],
+    osn: ["l̥maḥ", "ləmah"],
     xed: ["xàɗík", "xàɗík"],
     kqz: ["ǃhūb", "ǃʰuːb"],
     pwn: ["qipu", "qipu"],
@@ -1216,5 +1216,6 @@ WORDS.earth = {
     auj: ["tmùrt", "tmurt"],  // Also recorded as təmùrt.
     siz: ["iʒdi", "iʒdi"],  // Laoust glosses it 'earth' and cross-refers it to 'sand'; tamart is 'land, country'.
     kim: ["чер", "tʃer"],  // Tofa, glossed «земля, суша, местность» in Rassadin's dictionary.
+    ocm: ["tana", "tana"],  // Old Cham pu pom̃ tana rayā, translated 'the lord of the great earth' (C.20, C.89). tanaḥ also occurs (C.140, a place name).
   }
 };

@@ -1165,7 +1165,7 @@ WORDS.dog = {
     omx: ["ကၠဵု", "kløw"],
     pyx: ["—", "—"],
     obr: ["ခုယ်း", "kʰujh"],
-    ocm: ["asuv", "asuw"],
+    ocm: ["asov", "asow"],
     och: ["犬", "*[k]ʷʰˤ[e][n]ʔ"],
     ojp: ["犬", "inu"],
     p_jpk: ["—", "—"],

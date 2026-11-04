@@ -9,3 +9,8 @@ Rejected: omy tree, water (length mark only); ocm foot (mountain's foot only); o
 (no Mon-script surface); new cells resting on a name or a guess (ocm new, osn mountain, omx mountain, egg, book, sea, red, pyx four,
 och bat, oko tomorrow and stone, vi_nom hiccup, grandmother).
 Open: ocm and osn look modern beyond these cells; no open Old Burmese glossary found. cmg forms are the written standard, not dated citations.
+
+## Second pass against DHARMA (2026-11-05)
+5 fixes, 5 new cells. ocm dog asov, stone vatuv, house sāṅ, water qyā (one attestation); osn earth l̥maḥ. New: kaw thunder, grandmother, monday; ocm earth, older brother.
+Rejected: kaw water wway (literary use of warih not checked), kaw india kliṅ (South Indians only), wine tuak (a local liquor).
+ocm blood bone cat drink eat fire fish foot good hand heart love name night nose red star tongue tooth tree you have no translated attestation and stay.

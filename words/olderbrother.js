@@ -761,6 +761,7 @@ WORDS.olderbrother = {
     chr: "age",
     duu: "age",
     juc: "age",
+    ocm: "age",
   },
   routes: {
     age: {"color":"#db2777","emoji":"👆","en":"a word just for an older brother","ja":"兄だけを指す語","ko":"형만 가리키는 낱말","zh":"专指哥哥的词","yue":"專指哥哥嘅詞","vi":"từ riêng cho anh","th":"คำเฉพาะสำหรับพี่ชาย","id":"kata khusus untuk kakak","hi":"बड़े भाई का अलग शब्द","de":"eigenes Wort für den älteren Bruder","fr":"un mot propre au frère aîné","it":"una parola solo per il fratello maggiore","es":"una palabra solo para el hermano mayor","pt":"uma palavra só para o irmão mais velho","ru":"отдельное слово для старшего брата","uk":"окреме слово для старшого брата","ar":"كلمة خاصة بالأخ الأكبر","he":"מילה מיוחדת לאח הגדול","sw":"neno maalum kwa kaka mkubwa"},
@@ -1463,5 +1464,6 @@ WORDS.olderbrother = {
     chr: ["ᎤᏂᎵ", "unili"],  // A brother's older brother.
     duu: ["tɑiɹɑ", "tɑiɹɑ"],  // Tones dropped, as in the rest of the row.
     juc: ["ahunwin", "axunwin"],  // no. 286 älterer Bruder, a-hun-win, m. ahūn; the row's other kin words keep the full transcription. Grube 1896 glossary (Sino-Jurchen vocabulary, Chinese transcription); OCR is rough. Latin surface normalised by me after the row; low to medium.
+    ocm: ["ai", "ʔai"],  // Old Cham Ai tuhā, translated 'her elder sibling' (C.20); C.82 'his elder tumān', tentative. Sibling, not specifically brother; medium.
   },
 };

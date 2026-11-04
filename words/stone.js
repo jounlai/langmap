@@ -750,7 +750,7 @@ WORDS.stone = {
     juc: ["uhe", "uxə"],
     omx: ["တၟံ", "tmɔʔ"],
     obr: ["က္လောက်", "klok"],
-    ocm: ["batau", "batau"],
+    ocm: ["vatuv", "batuw"],
     och: ["石", "*dAk"],
     ojp: ["石", "isi"],
     h_vedic: ["अश्मन्", "ɐ́ɕmɐn"],

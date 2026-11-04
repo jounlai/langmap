@@ -996,7 +996,7 @@ WORDS.stone = {
     lis: ["lo-tshi", "lo˦˦tsʰɿ˧˥"],
     brx: ["अन्थाइ", "ontʰai"],
     dnj: ["gwʌ̏", "ɡwʌ̏"],
-    srr: ["ɓil", "ɓil"],
+    srr: ["gac", "ɡac"],
     rhg: ["fattór", "fatːɔr"],
     drs: ["kinjo", "kindʒo"],
     tmh: ["ⵜⵀⵓⵏⵜ", "təhunt"],

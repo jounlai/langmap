@@ -1126,7 +1126,7 @@ WORDS.eat = {
     bej: ["tamaa", "tamaː"],
     tig: ["በልዐ", "balʕa"],
     byn: ["ቍና", "kʷʼɨna"],
-    ssy: ["niitan", "niːtan"],
+    ssy: ["beeto", "beːto"],
     ewo: ["di", "di"],
     bum: ["di", "di"],
     agq: ["pfʉa", "pfʉa"],

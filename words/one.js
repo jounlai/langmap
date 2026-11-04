@@ -714,7 +714,7 @@ WORDS.one = {
     kqn: ["umo", "umo"],
     lua: ["umue", "umue"],
     kg: ["mosi", "mosi"],
-    lol: ["etomelá", "etomelá"],
+    lol: ["moko", "moko"],
     tll: ["ɔtɔi", "ɔtɔi"],
     ff: ["goʼo", "ɡoʔo"],
     bm: ["kelen", "kelen"],

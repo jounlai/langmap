@@ -846,7 +846,7 @@ WORDS.dog = {
     bik: ["ayam", "ˈʔajam"],
     bto: ["ayam", "ajam"],
     tum: ["ncheŵe", "ntʃeβe"],
-    kde: ["nshenye", "nʃeɲe"],
+    kde: ["ng'avanga", "ŋavaŋɡa"],
     seh: ["mbwa", "mbwa"],
     ngl: ["nampwe", "nampwe"],
     din: ["jɔ̈ŋ", "dʒɔŋ"],

@@ -929,7 +929,7 @@ WORDS.heart = {
     nmn: ["ǀqʼàn", "ǀqʼan"],
     kr: ["karwu", "karwu"],
     men: ["lii", "liː"],
-    vai: ["ꔖꕇ", "seni"],
+    vai: ["ꔰ", "ɡbiː"],  // Koelle 1854: gbii 'heart, viz. the bodily organ, not the metaphysical heart', against fara 'liver, and, in a metaphorical sense, heart'. Written here with the syllable GBI.
     tem: ["ka-yɔn", "kajɔn"],
     dyu: ["dusu", "dusu"],
     bbo: ["dusu", "dusu"],

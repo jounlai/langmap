@@ -722,7 +722,7 @@ WORDS.good = {
     kqn: ["kyawama", "kjawama"],
     lua: ["impe", "impe"],
     kg: ["mbote", "mbote"],
-    lol: ["mpɔlɔ", "mpɔlɔ"],
+    lol: ["bolotsi", "bolotsi"],
     tll: ["lɔlɔ", "lɔlɔ"],
     ff: ["moƴƴo", "moʄːo"],
     bm: ["ka ɲi", "ka ɲi"],

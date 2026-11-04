@@ -862,7 +862,7 @@ WORDS.red = {
     nmn: ["ǀāhɲa", "ǀa̤ɲa"],
     kr: ["cime", "tʃime"],
     men: ["kpɔlu", "kpɔlu"],
-    vai: ["kpou", "kpou"],
+    vai: ["ꕧꕌꔒ", "dʒale"],  // Koelle 1854: dsare 'red'. The spelling is the New Testament's.
     tem: ["yim", "jim"],
     dyu: ["bilen", "bilen"],
     bbo: ["bilen", "bileɲ"],

@@ -334,6 +334,14 @@ WORDS.hiccup = {
     oj: "plain",
     yur: "plain",
     mwr: "imitative",
+    blr: "plain",
+    mmd: "plain",
+    mlm: "plain",
+    kmc: "plain",
+    mra: "plain",
+    hmn: "plain",
+    ain: "plain",
+    mnw: "plain",
   },
   routes: {
     imitative: {"color":"#ea580c","emoji":"🔊","en":"imitating the sound","ja":"音のまね","ko":"소리 흉내","zh":"模仿声音","yue":"模仿聲音","vi":"mô phỏng âm thanh","th":"เลียนเสียง","id":"tiruan bunyi","hi":"ध्वनि की नक़ल","de":"lautmalend","fr":"imitant le bruit","it":"onomatopeico","es":"imita el sonido","pt":"imita o som","ru":"звукоподражание","uk":"звуконаслідування","ar":"محاكاة الصوت","he":"חיקוי הקול","sw":"kuiga sauti"},
@@ -614,5 +622,13 @@ WORDS.hiccup = {
     oj: ["onwaawe", "onwaːwe"],  // 'He or she hiccups.'
     yur: ["cheeekorekʼ", "tʃiːkɔɹekʼ"],  // 'I have hiccups', the first-person form the row uses for verbs.
     mwr: ["हिचकी", "hitʃkiː"],  // Lalas's Rajasthani Sabad Kos, p. 6037, headword hicakī; the same word as Hindi हिचकी.
+    blr: ["nək51", "nək˥˩"],  // From the same IDS list as the rest of the row.
+    mmd: ["sa5 jɔ5", "sa˦˦ jɔ˦˦"],  // From the same IDS list as the rest of the row.
+    mlm: ["lak7 lət7", "lak˥˥ lət˥˥"],  // From the same IDS list as the rest of the row.
+    kmc: ["ʔək212", "ʔək˨˩˨"],  // From the same IDS list as the rest of the row.
+    mra: ["plʌk", "plʌk"],  // From the same IDS list as the rest of the row.
+    hmn: ["ua ntsos", "ua˧ ⁿtsɔ˨˩"],
+    ain: ["ヨㇺクㇽ", "jomkuɾ"],  // Saru dialect, Tamura's dictionary: 'to hiccup'.
+    mnw: ["လှိုက်", "hlak"],  // Shorto: 'hiccough'.
   },
 };

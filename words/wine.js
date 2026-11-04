@@ -971,6 +971,7 @@ WORDS.wine = {
     ssf: "other",
     apw: "other",
     osa: "other",
+    mrw: "ie",
   },
   routes: {
     ie: { color: "#7c2d12", emoji: "🏺", en: "Indo-European *wóyh₁nom", ja: "印欧祖語 *wóyh₁nom", ko: "인도유럽조어 *wóyh₁nom", zh: "原始印欧语 *wóyh₁nom", yue: "原始印歐語 *wóyh₁nom", vi: "Ấn-Âu nguyên thủy *wóyh₁nom", th: "อินโด-ยูโรเปียนดั้งเดิม *wóyh₁nom", id: "Proto-Indo-Eropa *wóyh₁nom", hi: "आद्य-भारोपीय *wóyh₁nom", de: "Urindogermanisch *wóyh₁nom", fr: "indo-européen commun *wóyh₁nom", it: "protoindoeuropeo *wóyh₁nom", es: "protoindoeuropeo *wóyh₁nom", pt: "protoindo-europeu *wóyh₁nom", ru: "праиндоевроп. *wóyh₁nom", uk: "праіндоєвроп. *wóyh₁nom", ar: "الهندية الأوروبية الأم *wóyh₁nom", he: "הודו-אירופית קדומה *wóyh₁nom", sw: "Kihindi-Ulaya cha kale *wóyh₁nom" },
@@ -1971,5 +1972,6 @@ WORDS.wine = {
     ssf: ["qilha", "qiɬa"],  // Thao word for alcoholic drink (酒), used for wine.
     apw: ["dastsʼaa bitoo", "dastsʼaː bitoː"],  // The phrase (bitoo 'its water', compare this row's tú 'water') used for the wine that ran out at Cana in John 2:3 and 2:9 of the Western Apache New Testament (Luke 5:37 uses the English loan wine).
     osa: ["házuni", "házuni"],  // Also 'grape juice'.
+    mrw: ["bino", "bino"],  // Spanish loan.
   },
 };

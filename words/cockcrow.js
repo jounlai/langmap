@@ -596,5 +596,6 @@ WORDS.cockcrow = {
     ar_ps: ["كوكو", "kuːkuː"],  // Imitates the sound of a rooster or hen.
     ar_lb: ["كوكو", "kuːkuː"],  // Imitates the sound of a rooster or hen.
     ar_sy: ["كوكو", "kuːkuː"],  // Imitates the sound of a rooster or hen.
+    ckv: ["temuku", "təmuku"],
   },
 };

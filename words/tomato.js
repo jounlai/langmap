@@ -529,6 +529,7 @@ WORDS.tomato = {
     osa: "other",
     djr: "nahuatl",
     pot: "nahuatl",
+    pwn: "other",
   },
   routes: {
     nahuatl: {"color":"#dc2626","emoji":"🌽","en":"from Nahuatl tomatl","ja":"ナワトル語 tomatl から","ko":"나우아틀어 tomatl에서","zh":"源自纳瓦特尔语 tomatl","yue":"源自納瓦特爾語 tomatl","vi":"từ tiếng Nahuatl tomatl","th":"จากภาษานาวัตล์ tomatl","id":"dari bahasa Nahuatl tomatl","hi":"नाहुआत्ल tomatl से","de":"aus Nahuatl tomatl","fr":"du nahuatl tomatl","it":"dal nahuatl tomatl","es":"del náhuatl tomatl","pt":"do náuatle tomatl","ru":"из науатль tomatl","uk":"з науатль tomatl","ar":"من الناواتلية tomatl","he":"מנאוואטל tomatl","sw":"kutoka Kinahuatl tomatl"},
@@ -1002,5 +1003,6 @@ WORDS.tomato = {
     osa: ["hką́ące žúuce", "hkã́ːtse ʒúːtse"],  // hką́ące 'fruit, plum' with žúuce 'red'.
     djr: ["damata", "damata"],  // From English tomato.
     pot: ["temido", "təmido"],
+    pwn: ["tjamunimuni", "tʲamunimuni"],
   },
 };

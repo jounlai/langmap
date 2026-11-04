@@ -560,5 +560,6 @@ WORDS.cuckoo = {
     eve: ["кэкучэн", "kəkutʃən"],  // Even, glossed «кукушка».
     ude: ["кэку", "kəku"],  // Udege, glossed «кукушка».
     kl: ["kuukooq", "kuːkoːq"],
+    trv: ["pupuk", "pupuk"],
   },
 };

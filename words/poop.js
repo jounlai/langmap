@@ -953,5 +953,10 @@ WORDS.poop = {
     adx: ["སྐྱག་པ", "htɕaχkwa"],  // Written Tibetan skyag pa, read in Xiahe Amdo as htɕaχ kwa.
     mpj: ["kiki", "kiki"],  // Martu Wangka kiki 'faeces'.
     osa: ["įlé", "ĩlé"],
+    blr: ["ʔɛŋ51", "ʔɛŋ˥˩"],  // From the same IDS list as the rest of the row.
+    mmd: ["uʔ7 khɛ4", "uʔ˥˥ kʰɛ˨˦"],  // From the same IDS list as the rest of the row.
+    mlm: ["uk7 ćɛ3", "uk˥˥ tɕɛ˥˧"],  // From the same IDS list as the rest of the row.
+    kmc: ["soŋ53 qe31", "soŋ˥˧ qe˧˩"],  // From the same IDS list as the rest of the row.
+    lic: ["ha:i3", "haːi˩˩"],  // From the same IDS list as the rest of the row.
   },
 };

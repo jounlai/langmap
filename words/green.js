@@ -1072,5 +1072,6 @@ WORDS.green = {
     siz: ["awraɣ", "awraʁ"],  // Elsewhere in Berber the same word means 'yellow' (Laoust).
     hbo: ["ירוק", "jɔːˈroːq"],  // From the root y-r-q of יֶרֶק 'green plants'; the wild ass 'searches for any green thing' (כׇּל־יָרוֹק, Job 39:8).
     kim: ["көк", "køk"],  // Tofa, glossed «синий, зелёный» in Rassadin's dictionary.
+    agt: ["matʌ", "matʌ"],  // From the same ABVD list as the rest of the row.
   }
 };

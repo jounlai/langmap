@@ -779,6 +779,10 @@ WORDS.thunder = {
     h_tagalog: "plain",
     kaw: "plain",
     ko_gor: "sky",
+    nxq: "plain",
+    lhu: "plain",
+    ii: "plain",
+    bca: "plain",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1504,5 +1508,9 @@ WORDS.thunder = {
     h_tagalog: ["ᜃᜓᜎᜓᜄ᜔", "kuˈloɡ"],  // Noceda & Sanlucar 1754: Colog, 'trueno'. The source is Latin; the Baybayin spelling is a transliteration. Stress follows the modern Wiktionary entry.
     kaw: ["ꦒ꧀ꦭꦥ꧀", "ɡlap"],  // Old Javanese glap in curse formulas: Alappanniṁ glap, translated 'may he be caught by thunderclap' (N.722, Alasantan, Masahar); Adan-Adan separates it from lightning without rain. Anjatan's note has 'lightning strike' for the same word. The source prints it in Latin letters; the Javanese-script spelling is a transliteration.
     ko_gor: ["天動", "*tʰjəntoŋ"],  // 鷄林類事 (1103) 雷曰天動; Wiktionary 천둥 gives this as first attestation. Sino reading mine.
+    nxq: ["meengv", "mɯ˧ŋɡv̩˧"],  // Sun 1991 (Lijiang Naxi) mɯ³³ŋgv³³. Row is Sun's Lijiang (36 of 65 match, rest notation). Naxi spelling is derived; the source is IPA.
+    lhu: ["mû-tɔ̀", "mûtɔ̀"],  // Sun 1991 (Black Lahu) mu⁵³tɔ³¹. Tone marks converted using the row's own pairs (53 ^, 31 grave, 35 acute, 21 grave with glottal, 11 macron). Spelling is derived.
+    ii: ["ꃅꊭ", "mu˧˧tsɿ̠˧˧"],  // Sun 1991 (Xide Yi) m̩³³tsɿ̄³³. Yi syllables chosen by me from Unicode names, using the sound-to-syllable pairs in the row (m̩ = MU, he = HXIE, 44 = X, 21 = P); no Yi-script source. Check font and spelling.
+    bca: ["xĩmɛ", "xĩ˥˥mɛ˨˩"],  // Sun 1991 (Jianchuan Bai) xĩ⁵⁵mɛ²¹. Wang's Zhoucheng has xe55mɛ21. Row mixes Wang's Zhoucheng and Sun's Jianchuan. Surface follows the row: IPA without tones.
   },
 };

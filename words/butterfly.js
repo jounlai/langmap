@@ -939,5 +939,7 @@ WORDS.butterfly = {
     ja_chu: ["蝶", "tɕoː"],  // てう in 御伽草子・貴船の本地 (室町末) as quoted in 日本国語大辞典, there as a figure for a beautiful woman. IPA as ja.
     mak: ["pipi-pipi", "ˌpipiˈpipi"],  // "pipi-pipi kupu-kupu"
     sas: ["éwok-éwok", "ewok ewok"],  // "éwok-éwok n kupu-kupu"; also bekol; page image read
+    ii: ["ꁯꆮ", "bu˨˩ɬu˨˩"],  // Sun 1991 (Xide Yi) bu²¹ɬ²¹. Yi syllables chosen by me from Unicode names, using the sound-to-syllable pairs in the row (m̩ = MU, he = HXIE, 44 = X, 21 = P); no Yi-script source. Check font and spelling.
+    khb: ["ᦂᦱᧇᦵᦢᦲᧉ", "kaːp˧˥ bɤː˩˧"],  // IDS 407 (Peiros, Tai Lü), the row's source: ka:p.9 bə:.3.  Tone numbers converted by the row's own pairs (1 ˥, 2 ˥˩, 3 ˩˧, 4 ˩, 5 ˧˥, 6 ˧, 7 ˧˥, 8 ˧, 9 ˧˥). New Tai Lue spelling is derived; the source is Latin.
   },
 };

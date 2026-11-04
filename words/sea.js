@@ -1119,5 +1119,6 @@ WORDS.sea = {
     auj: ["əlbə̀ḥr", "əlˈbəħr"],  // Borrowed from Arabic baḥr, article and all.
     siz: ["ləbħaṛ", "ləbʜarˤ"],  // Borrowed from Arabic baḥr; in Siwa it mostly means the oasis's two large lakes (Souag).
     osa: ["níi htą́ka", "níː htã́ka"],  // Also the Mississippi River.
+    ii: ["ꎿ", "ʂu̠˧˧"],  // Sun 1991 (Xide Yi) ʂu̱³³. Yi syllables chosen by me from Unicode names, using the sound-to-syllable pairs in the row (m̩ = MU, he = HXIE, 44 = X, 21 = P); no Yi-script source. Check font and spelling.
   }
 };

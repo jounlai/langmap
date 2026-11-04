@@ -665,6 +665,12 @@ WORDS.bat = {
     kaw: "plain",
     rtm: "plain",
     sas: "plain",
+    hni: "plain",
+    nxq: "plain",
+    lis: "plain",
+    lhu: "plain",
+    ii: "plain",
+    khb: "plain",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1275,5 +1281,11 @@ WORDS.bat = {
     kaw: ["ꦭꦮ", "lawa"],  // Old Javanese lawā 'bat' (Wiktionary, /la.wa/). No image is recorded for it, so it counts as a word of its own. The source prints it in Latin letters; the Javanese-script spelling is a transliteration.
     rtm: ["hufhufu", "hufhufu"],  // wordlist
     sas: ["bukan", "bukan"],  // "bung.kal; bukan n kelelawar"; also keloang; page image read
+    hni: ["alkubialhhal", "a˥˥kʰu˧˧bja˥˥ɣa˥˥"],  // Sun 1991 (Dazhai Hani) a⁵⁵khu³³bja⁵⁵ɣa⁵⁵. Row is Sun's Dazhai (46 of 65 cells match). Haqniqdoq spelling is derived; the source is IPA.
+    nxq: ["bbibbeq", "bi˧bə˨˩"],  // Sun 1991 (Lijiang Naxi) bi³³bə³¹. Row is Sun's Lijiang (36 of 65 match, rest notation). Naxi spelling is derived; the source is IPA.
+    lis: ["wa-la", "uɑ˧˩lɑ˧˩"],  // Sun 1991 (Lisu) uɑ³¹lɑ³¹. Row matches Sun's Lisu 30 of 61. Latin spelling is derived, after the row.
+    lhu: ["pò-ngá", "pòŋá"],  // Sun 1991 (Black Lahu) po³¹ŋᴀ³⁵. Tone marks converted using the row's own pairs (53 ^, 31 grave, 35 acute, 21 grave with glottal, 11 macron). Spelling is derived.
+    ii: ["ꉌꇑ", "hɛ˧˧lu˨˩"],  // Sun 1991 (Xide Yi) he³³l̩²¹. Yi syllables chosen by me from Unicode names, using the sound-to-syllable pairs in the row (m̩ = MU, he = HXIE, 44 = X, 21 = P); no Yi-script source. Check font and spelling.
+    khb: ["ᦀᦲᦢᦹᧂᧈ", "ʔiː˥ bɯŋ˧˥"],  // IDS 407 (Peiros, Tai Lü), the row's source: ʔi.1 bɨŋ.5.  Tone numbers converted by the row's own pairs (1 ˥, 2 ˥˩, 3 ˩˧, 4 ˩, 5 ˧˥, 6 ˧, 7 ˧˥, 8 ˧, 9 ˧˥). New Tai Lue spelling is derived; the source is Latin.
   },
 };

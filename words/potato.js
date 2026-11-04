@@ -546,6 +546,10 @@ WORDS.potato = {
     crk: "other",
     chr: "other",
     rar: "papa",
+    nxq: "other",
+    lis: "unknown",
+    lhu: "other",
+    bca: "other",
   },
   routes: {
     papa: {"color":"#ca8a04","emoji":"🏔️","en":"Quechua papa · Taíno batata","ja":"ケチュア語 papa・タイノ語 batata","ko":"케추아어 papa · 타이노어 batata","zh":"克丘亚语 papa・泰诺语 batata","yue":"克丘亞語 papa · 泰諾語 batata","vi":"Quechua papa · Taíno batata","th":"เกชัว papa · ไตโน batata","id":"Quechua papa · Taíno batata","hi":"क्वेचुआ papa · ताइनो batata","de":"Quechua papa · Taíno batata","fr":"quechua papa · taïno batata","it":"quechua papa · taíno batata","es":"quechua papa · taíno batata","pt":"quíchua papa · taíno batata","ru":"кечуа papa · таино batata","uk":"кечуа papa · таїно batata","ar":"كيتشوا papa · تاينو batata","he":"קצ'ואה papa · טאינו batata","sw":"Kiquechua papa · Kitaino batata"},
@@ -1033,5 +1037,9 @@ WORDS.potato = {
     crk: ["ᐊᐢᑭᑇᐏ", "askipwaːwi"],  // Potato, wild potato.
     chr: ["ᏄᎾ", "nuna"],
     rar: ["pītete", "piːtete"],  // Buse: Potato [Eng.]
+    nxq: ["yaqyul", "ʑa˨˩ʑu˥"],  // Sun 1991 (Lijiang Naxi) ʑa³¹ʑu⁵⁵. Looks like a loan of 洋芋; a reading. Row is Sun's Lijiang (36 of 65 match, rest notation). Naxi spelling is derived; the source is IPA.
+    lis: ["hu-bi", "xɯ˧˩bi˦˩"],  // Sun 1991 (Lisu) xɯ³¹bi⁴¹. Row matches Sun's Lisu 30 of 61. Latin spelling is derived, after the row.
+    lhu: ["yàʼ-yí-šɨ̄", "jàʔjíʃɯ̏"],  // Sun 1991 (Black Lahu) zᴀ²¹zi³⁵si¹¹. Looks like a loan of 洋芋 plus 'fruit'; a reading. Tone marks converted using the row's own pairs (53 ^, 31 grave, 35 acute, 21 grave with glottal, 11 macron). Spelling is derived.
+    bca: ["jaji", "ja˦˨ji˥˥"],  // Sun 1991 (Jianchuan Bai) jɑ⁴²ji⁵⁵. Looks like a loan of 洋芋; a reading. Row mixes Wang's Zhoucheng and Sun's Jianchuan. Surface follows the row: IPA without tones.
   },
 };

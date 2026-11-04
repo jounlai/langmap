@@ -892,6 +892,10 @@ WORDS.sugar = {
     osa: "other",
     cmg: "sharkara",
     abs: "guda",
+    hni: "other",
+    lis: "other",
+    lhu: "other",
+    ii: "other",
   },
   routes: {
     sharkara: { color: "#b45309", emoji: "💎", en: "from Sanskrit śarkarā", ja: "サンスクリット śarkarā 由来", ko: "산스크리트 śarkarā 유래", zh: "源自梵语 śarkarā", yue: "源自梵文 śarkarā", vi: "từ tiếng Phạn śarkarā", th: "จากภาษาสันสกฤต śarkarā", id: "dari bahasa Sanskerta śarkarā", hi: "संस्कृत शर्करा से", de: "vom Sanskrit śarkarā", fr: "du sanskrit śarkarā", it: "dal sanscrito śarkarā", es: "del sánscrito śarkarā", pt: "do sânscrito śarkarā", ru: "от санскр. śarkarā", uk: "від санскр. śarkarā", ar: "من السنسكريتية śarkarā", he: "מסנסקריט śarkarā", sw: "kutoka Kisanskriti śarkarā" },
@@ -1703,5 +1707,9 @@ WORDS.sugar = {
     osa: ["žąąníi", "ʒãːníː"],
     cmg: ["ᠰᠢᠬᠢᠷ", "ʃikir"],  // Traditional spelling from Wiktionary's Mongolian entry; no dated Classical citation opened, so this is the written-standard form, not proof of period. IPA in the row's style, mine.
     abs: ["gula", "ɡula"],  // gula
+    hni: ["poqbiav", "pʰo˧˩bja˧˧"],  // Sun 1991 (Dazhai Hani) pho³¹bja̱³³. Row is Sun's Dazhai (46 of 65 cells match). Haqniqdoq spelling is derived; the source is IPA.
+    lis: ["shua-bie", "ʃuɑ˦˦biɛ˧˩"],  // Sun 1991 (Lisu) ʃuɑ⁴⁴biɛ³¹. Row matches Sun's Lisu 30 of 61. Latin spelling is derived, after the row.
+    lhu: ["nàʼ-wài", "nàʔwàì"],  // Sun 1991 (Black Lahu) nᴀ²¹uᴀi³¹. Tone marks converted using the row's own pairs (53 ^, 31 grave, 35 acute, 21 grave with glottal, 11 macron). Spelling is derived.
+    ii: ["ꎬꐚ", "ʂa˧˦dʑi˧˧"],  // Sun 1991 (Xide Yi) ʂa⁴⁴dʑi³³. Second syllable as in the row's honey. Yi syllables chosen by me from Unicode names, using the sound-to-syllable pairs in the row (m̩ = MU, he = HXIE, 44 = X, 21 = P); no Yi-script source. Check font and spelling.
   },
 };

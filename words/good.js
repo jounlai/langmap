@@ -327,7 +327,7 @@ WORDS.good = {
     cng: ["nɑ", "nɑ"],
     ii: ["ꉾ", "xɯ˧˧"],
     yiz: ["mu", "mu˧˧"],
-    hni: ["xa", "xa˧˧"],
+    hni: ["meeq", "mɯ˧˩"],
     th_isan: ["ดี", "diː˨˩"],
     th_n: ["ดี", "diː˧"],
     th_s: ["ดี", "diː˥"],

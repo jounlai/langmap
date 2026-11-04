@@ -980,6 +980,12 @@ WORDS.wine = {
     ko_gor: "other",
     och: "other",
     zh_yuan: "other",
+    hni: "other",
+    lis: "other",
+    lhu: "other",
+    ii: "other",
+    bca: "other",
+    khb: "other",
   },
   routes: {
     ie: { color: "#7c2d12", emoji: "🏺", en: "Indo-European *wóyh₁nom", ja: "印欧祖語 *wóyh₁nom", ko: "인도유럽조어 *wóyh₁nom", zh: "原始印欧语 *wóyh₁nom", yue: "原始印歐語 *wóyh₁nom", vi: "Ấn-Âu nguyên thủy *wóyh₁nom", th: "อินโด-ยูโรเปียนดั้งเดิม *wóyh₁nom", id: "Proto-Indo-Eropa *wóyh₁nom", hi: "आद्य-भारोपीय *wóyh₁nom", de: "Urindogermanisch *wóyh₁nom", fr: "indo-européen commun *wóyh₁nom", it: "protoindoeuropeo *wóyh₁nom", es: "protoindoeuropeo *wóyh₁nom", pt: "protoindo-europeu *wóyh₁nom", ru: "праиндоевроп. *wóyh₁nom", uk: "праіндоєвроп. *wóyh₁nom", ar: "الهندية الأوروبية الأم *wóyh₁nom", he: "הודו-אירופית קדומה *wóyh₁nom", sw: "Kihindi-Ulaya cha kale *wóyh₁nom" },
@@ -1989,5 +1995,11 @@ WORDS.wine = {
     ko_gor: ["酥孛", "*supɨl"],  // 鷄林類事 (1103) 酒曰酥孛; Wiktionary Yale swùpùl.
     och: ["酒", "*tsuʔ"],  // 詩経 賓之初筵 as cited in 世界大百科事典 (kotobank); Baxter-Sagart on Wiktionary. Grain liquor, not grape wine.
     zh_yuan: ["酒", "tsiəu"],  // 關漢卿 竇娥冤: 交歡酒. Later edition. IPA fitted to the row's 手; liquor, not grape wine.
+    hni: ["zzilbaq", "dzi˥˥ba˧˩"],  // Sun 1991 (Dazhai Hani) dzi⁵⁵ba³¹. NOTE: gloss liquor, not grape wine. Row is Sun's Dazhai (46 of 65 cells match). Haqniqdoq spelling is derived; the source is IPA.
+    lis: ["ji-phu", "dʒi˧˧pʰɯ˧˩"],  // Sun 1991 (Lisu) dʒi³³pʰɯ³¹. NOTE: gloss liquor, not grape wine. Row matches Sun's Lisu 30 of 61. Latin spelling is derived, after the row.
+    lhu: ["jɨ̀", "dzɯ̀"],  // Sun 1991 (Black Lahu) dzɿ³¹. NOTE: gloss liquor, not grape wine. Tone marks converted using the row's own pairs (53 ^, 31 grave, 35 acute, 21 grave with glottal, 11 macron). Spelling is derived.
+    ii: ["ꎧ", "ndʐɿ˧˧"],  // Sun 1991 (Xide Yi) ndʐɿ³³. NOTE: gloss liquor, not grape wine. Yi syllables chosen by me from Unicode names, using the sound-to-syllable pairs in the row (m̩ = MU, he = HXIE, 44 = X, 21 = P); no Yi-script source. Check font and spelling.
+    bca: ["tsɤ̃", "tsɤ̃˧˧"],  // Sun 1991 (Jianchuan Bai) tsṽ³³. NOTE: gloss liquor, not grape wine. Row mixes Wang's Zhoucheng and Sun's Jianchuan. Surface follows the row: IPA without tones.
+    khb: ["ᦜᧁᧉᦘᦴᧉᦒᦱᧁᧈᦋᦲᧁ", "law˩˧ pʰuː˩ tʰaːw˧ tsiw˥˩"],  // IDS 407 (Peiros, Tai Lü), the row's source: lau.3 phu:.4 tha:u.6 ciu.2. Glossed 'wine'; lau is liquor, the rest looks like 葡萄酒 (a reading). Tone numbers converted by the row's own pairs (1 ˥, 2 ˥˩, 3 ˩˧, 4 ˩, 5 ˧˥, 6 ˧, 7 ˧˥, 8 ˧, 9 ˧˥). New Tai Lue spelling is derived; the source is Latin.
   },
 };

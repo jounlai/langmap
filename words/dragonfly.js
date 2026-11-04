@@ -365,6 +365,10 @@ WORDS.dragonfly = {
     rar: "plain",
     sas: "plain",
     sm: "plain",
+    hni: "plain",
+    lis: "plain",
+    lhu: "plain",
+    bca: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -675,5 +679,9 @@ WORDS.dragonfly = {
     rar: ["kākarāvai", "kaːkaɾaːvai"],  // Buse: various species of dragonfly; etymology queried (water gazer?)
     sas: ["kedée", "kədee"],  // "ke.dèe; kerèe n capung"; page image read
     sm: ["semu", "semu"],  // Pratt "Dragon-fly, n. semu"
+    hni: ["adovq", "a˧˧do˧˩"],  // Sun 1991 (Dazhai Hani) a³³do̱³¹. Row is Sun's Dazhai (46 of 65 cells match). Haqniqdoq spelling is derived; the source is IPA.
+    lis: ["che-wo", "tʃʰɛ˦˩ɣo˦˩"],  // Sun 1991 (Lisu) tʃhɛ⁴¹ɣo⁴¹. Row matches Sun's Lisu 30 of 61. Latin spelling is derived, after the row.
+    lhu: ["pā-pā-kú-ti-ni", "pȁpȁkútini"],  // Sun 1991 (Black Lahu) pᴀ¹¹pᴀ¹¹ku³⁵ti³³ni³³. Tone marks converted using the row's own pairs (53 ^, 31 grave, 35 acute, 21 grave with glottal, 11 macron). Spelling is derived.
+    bca: ["tɕikoloɣopiɕo", "tɕi˥˥ko˥˥lo˥˥ɣo˨˩pi˨˩ɕo˨˩"],  // Sun 1991 (Jianchuan Bai) tɕi⁵⁵ko⁵⁵lo⁵⁵ɣo²¹pi²¹ɕo²¹. Row mixes Wang's Zhoucheng and Sun's Jianchuan. Surface follows the row: IPA without tones.
   },
 };

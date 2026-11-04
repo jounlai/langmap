@@ -871,6 +871,12 @@ WORDS.yesterday = {
     rtm: "distinct",
     pmt: "distinct",
     zh_han: "distinct",
+    hni: "distinct",
+    nxq: "distinct",
+    lis: "distinct",
+    lhu: "distinct",
+    ii: "distinct",
+    khb: "distinct",
   },
   routes: {
     same: {"color":"#db2777","emoji":"🔁","en":"one word for yesterday and tomorrow","ja":"昨日と明日が同じ語","ko":"어제와 내일이 한 낱말","zh":"昨天和明天同一个词","yue":"尋日同聽日同一個詞","vi":"một từ cho hôm qua và ngày mai","th":"คำเดียวทั้งเมื่อวานและพรุ่งนี้","id":"satu kata untuk kemarin dan besok","hi":"बीते और आने वाले कल का एक शब्द","de":"ein Wort für gestern und morgen","fr":"un mot pour hier et demain","it":"una parola per ieri e domani","es":"una palabra para ayer y mañana","pt":"uma palavra para ontem e amanhã","ru":"одно слово для вчера и завтра","uk":"одне слово для учора й завтра","ar":"كلمة واحدة لأمس وغد","he":"מילה אחת לאתמול ולמחר","sw":"neno moja kwa jana na kesho"},
@@ -1687,5 +1693,11 @@ WORDS.yesterday = {
     rtm: ["asa", "asa"],  // wordlist asa 2; homonyms name, sun
     pmt: ["inanahi", "inanahi"],  // Tregear INANAHI; head and gloss columns aligned by count, confirmed by his Maori comparison
     zh_han: ["昨日", "ʒ(h)āk ńǝt"],  // 史記 魏其武安侯列傳 (灌夫 passage), also 莊子 山木; found on ctext. StarLing Western Han; 日 as the row's sun cell.
+    hni: ["milnao", "mi˥˥nɔ˧˧"],  // Sun 1991 (Dazhai Hani) mi⁵⁵nɔ³³. Row is Sun's Dazhai (46 of 65 cells match). Haqniqdoq spelling is derived; the source is IPA.
+    nxq: ["eqni", "ə˨˩ɲi˧"],  // Sun 1991 (Lijiang Naxi) ə³¹ȵi³³. Row is Sun's Lijiang (36 of 65 match, rest notation). Naxi spelling is derived; the source is IPA.
+    lis: ["a-nyi", "ɑ˦˩ɲi˧˧"],  // Sun 1991 (Lisu) ɑ⁴¹ȵi³³. Sagart's Lisu agrees apart from tone. Row matches Sun's Lisu 30 of 61. Latin spelling is derived, after the row.
+    lhu: ["á-ni", "áni"],  // Sun 1991 (Black Lahu) ᴀ³⁵ni³³. Tone marks converted using the row's own pairs (53 ^, 31 grave, 35 acute, 21 grave with glottal, 11 macron). Spelling is derived.
+    ii: ["ꀋꅓꉇ", "a˨˩ndi˧˧hi˧˦"],  // Sun 1991 (Xide Yi) a²¹ndi³³hi⁴⁴. Yi syllables chosen by me from Unicode names, using the sound-to-syllable pairs in the row (m̩ = MU, he = HXIE, 44 = X, 21 = P); no Yi-script source. Check font and spelling.
+    khb: ["ᦶᦎᧈᦞᦱ", "tɛː˧˥ vaː˥˩"],  // IDS 407 (Peiros, Tai Lü), the row's source: tɛ:.5 va:.2.  Tone numbers converted by the row's own pairs (1 ˥, 2 ˥˩, 3 ˩˧, 4 ˩, 5 ˧˥, 6 ˧, 7 ˧˥, 8 ˧, 9 ˧˥). New Tai Lue spelling is derived; the source is Latin.
   },
 };

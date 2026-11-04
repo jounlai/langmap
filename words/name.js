@@ -327,7 +327,7 @@ WORDS.name = {
       cng: ["rmə", "rmə"],
       ii: ["ꂓ", "m̥i˧˧"],
       yiz: ["mo", "mo˧˧"],
-      hni: ["milq", "mi˥˥"],
+      hni: ["colmiaol", "tsʰo˥˥mjɔ˥˥"],
       th_isan: ["ซื่อ", "sɨː˦"],
       th_n: ["จื้อ", "tɕɯː˥˩"],
       th_s: ["ชื่อ", "tɕʰɯː˥˩"],

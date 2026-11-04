@@ -694,6 +694,9 @@ WORDS.grandmother = {
     och: "split",
     zh_han: "split",
     meu: "one",
+    nxq: "unknown",
+    lis: "unknown",
+    khb: "one",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -1332,5 +1335,8 @@ WORDS.grandmother = {
     och: ["祖母", "*[ts]ˤaʔ məʔ"],  // 禮記 喪服小記 祖父卒，而后為祖母後者三年 (via 萌典). Readings Baxter-Sagart on Wiktionary.
     zh_han: ["大母", "dhāś mǝ̄́"],  // 以宣帝大母家封為侯 as found on ctext. 大 from StarLing, 母 as the row's mother cell. 祖母 is also pre-Han, your choice.
     meu: ["tubu hahine", "tubu hahine"],  // Lawes "Grandmother, Tubu hahine"
+    nxq: ["eqzzeeq", "ə˨˩dzɯ˨˩"],  // Sun 1991 (Lijiang Naxi) ə³¹dzɯ³¹. The dataset also has a garbled second form, so side is unknown. Row is Sun's Lijiang (36 of 65 match, rest notation). Naxi spelling is derived; the source is IPA.
+    lis: ["a-zhe", "ɑ˥˥ʒɛ˧˩"],  // Sun 1991 (Lisu) ɑ⁵⁵ʒɛ³¹. Row matches Sun's Lisu 30 of 61. Latin spelling is derived, after the row.
+    khb: ["ᦀᦲᦍᦱᧈ", "ʔiː˥ jaː˧"],  // IDS 407 (Peiros, Tai Lü), the row's source: ʔi.1 ja:.6.  Tone numbers converted by the row's own pairs (1 ˥, 2 ˥˩, 3 ˩˧, 4 ˩, 5 ˧˥, 6 ˧, 7 ˧˥, 8 ˧, 9 ˧˥). New Tai Lue spelling is derived; the source is Latin.
   },
 };

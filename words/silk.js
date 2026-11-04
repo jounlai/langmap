@@ -839,5 +839,7 @@ WORDS.silk = {
     kim: ["торғу", "torɣu"],  // Tofa, glossed «шёлк, шёлковый» in Rassadin's dictionary.
     trv: ["dmayi", "dmaji"],  // Truku word glossed 絲 and 蠶絲 'silkworm silk'.
     ko_gor: ["及", "*kip"],  // 鷄林類事 (1103) 絹曰及; ko_mid 깁. Medium.
+    hni: ["buvhaqpal", "bu˧˧xa˧˩pʰa˥˥"],  // Sun 1991 (Dazhai Hani) bu̱³³xa³¹pha⁵⁵. Gloss 'silk (cloth)'. Row is Sun's Dazhai (46 of 65 cells match). Haqniqdoq spelling is derived; the source is IPA.
+    lis: ["bu", "bu˧˩"],  // Sun 1991 (Lisu) bu³¹. Gloss 'silk (cloth)'. Row matches Sun's Lisu 30 of 61. Latin spelling is derived, after the row.
   }
 };

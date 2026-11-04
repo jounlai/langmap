@@ -1062,7 +1062,7 @@ WORDS.tooth = {
     mra: ["ʒən", "ʒən"],
     wuu_nb: ["牙", "ŋo˧˩˧"],
     yue_gz: ["牙", "ŋaː˨˩˦"],
-    khb: ["ᦵᦆᧁ", "xɛw˥"],
+    khb: ["ᦵᦃᧁᧉ", "xew˩˧"],
     blt: ["ꪵꪄ꫁ꪫ", "kʰɛw˨˩ˀ"],
     pam: ["ipan", "ˈʔipan"],
     pag: ["ngipen", "ŋiˈpen"],

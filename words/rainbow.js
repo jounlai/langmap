@@ -772,6 +772,11 @@ WORDS.rainbow = {
     kaw: "plain",
     h_tagalog: "other",
     rtm: "plain",
+    nxq: "plain",
+    lis: "plain",
+    ii: "plain",
+    bca: "plain",
+    khb: "plain",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1487,5 +1492,10 @@ WORDS.rainbow = {
     kaw: ["ꦧꦶꦪꦁꦭꦭ", "biaŋlala"],  // Old Javanese biāṅlala 'rainbow' (Wiktionary, /bi.aŋ.la.la/). The source prints it in Latin letters; the Javanese-script spelling is a transliteration.
     h_tagalog: ["ᜊᜑᜄ᜔ᜑᜇᜒ", "bahaɡˈhaɾiʔ"],  // Noceda & Sanlucar 1754: Bahaghari, 'Arco del Cielo'. The source is Latin; the Baybayin spelling is a transliteration. Stress follows the modern Wiktionary entry.
     rtm: ["ʻasesekäe", "ʔasesekæe"],  // wordlist
+    nxq: ["meeleelheeljjiq", "mɯ˧lɯ˥xɯ˥dʑi˨˩"],  // Sun 1991 (Lijiang Naxi) mɯ³³lɯ⁵⁵xɯ⁵⁵dʑi³¹. Row is Sun's Lijiang (36 of 65 match, rest notation). Naxi spelling is derived; the source is IPA.
+    lis: ["a-mu-shi-kho", "ɑ˥˥mu˧˩ʃɿ˦˦kʰo˥˥"],  // Sun 1991 (Lisu) ɑ⁵⁵mu³¹ʃɿ⁴⁴kho⁵⁵. Sagart's Lisu agrees. Row matches Sun's Lisu 30 of 61. Latin spelling is derived, after the row.
+    ii: ["ꌋꌋ", "si˧˧si˧˧"],  // Sun 1991 (Xide Yi) si³³si³³. Yi syllables chosen by me from Unicode names, using the sound-to-syllable pairs in the row (m̩ = MU, he = HXIE, 44 = X, 21 = P); no Yi-script source. Check font and spelling.
+    bca: ["kãkotɯ", "kã˥˥ko˦˦tɯ˨˩"],  // Sun 1991 (Jianchuan Bai) kɑ̃⁵⁵ko⁴⁴tɯ²¹. Row mixes Wang's Zhoucheng and Sun's Jianchuan. Surface follows the row: IPA without tones.
+    khb: ["ᦣᦳᧂ", "huŋ˥˩"],  // IDS 407 (Peiros, Tai Lü), the row's source: huŋ.2.  Tone numbers converted by the row's own pairs (1 ˥, 2 ˥˩, 3 ˩˧, 4 ˩, 5 ˧˥, 6 ˧, 7 ˧˥, 8 ˧, 9 ˧˥). New Tai Lue spelling is derived; the source is Latin.
   },
 };

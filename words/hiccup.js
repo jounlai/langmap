@@ -349,6 +349,7 @@ WORDS.hiccup = {
     ho: "plain",
     meu: "plain",
     rap: "plain",
+    khb: "plain",
   },
   routes: {
     imitative: {"color":"#ea580c","emoji":"🔊","en":"imitating the sound","ja":"音のまね","ko":"소리 흉내","zh":"模仿声音","yue":"模仿聲音","vi":"mô phỏng âm thanh","th":"เลียนเสียง","id":"tiruan bunyi","hi":"ध्वनि की नक़ल","de":"lautmalend","fr":"imitant le bruit","it":"onomatopeico","es":"imita el sonido","pt":"imita o som","ru":"звукоподражание","uk":"звуконаслідування","ar":"محاكاة الصوت","he":"חיקוי הקול","sw":"kuiga sauti"},
@@ -644,5 +645,6 @@ WORDS.hiccup = {
     ho: ["gado boiboi", "ɡado boiboi"],  // "hiccough, to: gado boiboi, baturo (Cent.), gado rege"
     meu: ["baturo", "batuɾo"],  // Lawes "Baturo, hiccough"
     rap: ["korereki", "koreɾeki"],  // Churchill "hiccough korereki"
+    khb: ["ᦵᦁᦲᧉ", "ʔɤː˩"],  // IDS 407 (Peiros, Tai Lü), the row's source: ʔə:.4.  Tone numbers converted by the row's own pairs (1 ˥, 2 ˥˩, 3 ˩˧, 4 ˩, 5 ˧˥, 6 ˧, 7 ˧˥, 8 ˧, 9 ˧˥). New Tai Lue spelling is derived; the source is Latin.
   },
 };

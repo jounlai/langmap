@@ -58,7 +58,7 @@ const WORD_CATEGORIES = [
         label: {
             en: "Home, food & drink", ja: "家と食べもの", ko: "집과 먹거리", zh: "家与饮食", yue: "屋企同飲食", vi: "Nhà cửa và ăn uống", th: "บ้านและอาหาร", id: "Rumah, makanan & minuman", hi: "घर और खान-पान", de: "Haus, Essen & Trinken", fr: "Maison, nourriture et boisson", it: "Casa, cibo e bevande", es: "Casa, comida y bebida", pt: "Casa, comida e bebida", ru: "Дом, еда и питьё", uk: "Дім, їжа і напої", ar: "البيت والطعام والشراب", he: "בית, מאכל ומשקה", sw: "Nyumba, chakula na kinywaji"
         },
-        words: ["house", "milk", "honey", "salt", "wine", "rice", "chocolate", "sushi", "tea", "coffee", "sugar", "orange", "potato", "tomato", "pineapple"],
+        words: ["house", "milk", "honey", "salt", "wine", "rice", "chocolate", "sushi", "tea", "coffee", "sugar", "orange", "potato", "tomato", "maize", "pineapple"],
     },
     {
         key: "made",

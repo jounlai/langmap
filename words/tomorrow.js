@@ -885,6 +885,7 @@ WORDS.tomorrow = {
     agt: "plain",
     grt: "plain",
     th_n: "plain",
+    ja_kanbun: "other",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -1714,5 +1715,6 @@ WORDS.tomorrow = {
     agt: ["lakwat", "lakwat"],  // Central Cagayan Agta word for tomorrow (Matthew 6:34; James 4:13 arawin ono lakwat 'today or tomorrow').
     grt: ["knal", "knal"],  // No image is recorded for it, so it counts as a word of its own. Yesterday is mejao.
     th_n: ["พูก", "pʰuːk˦˩"],  // Inherited from Proto-Tai *ɟm̩.rukᴰ 'tomorrow', cognate with Thai พรุ่ง (Wiktionary); it is often prefixed with วัน 'day' without change in meaning (วันพูก). Tai Tham spelling ᨻᩕᩪᨠ.
+    ja_kanbun: ["明日", "meːdʑitsɯ"],  // Classical Chinese 明日 'the next day', read on'yomi meijitsu (NKD めいじつ【明日】; the kun reading is あす). The row reads single characters with their kun (熊 kɯma, 骨 hone) and two-character words with their on reading (胡蝶 kotɕoː, 銀河 ɡiŋɡa, 車輪 ɕaɾiɴ).
   },
 };

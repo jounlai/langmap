@@ -294,6 +294,7 @@ WORDS.dragonfly = {
     tsu: "plain",
     szy: "plain",
     tao: "plain",
+    ja_kanbun: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -533,5 +534,6 @@ WORDS.dragonfly = {
     tsu: ["toivaʼvaʼa", "toivaʔvaʔa"],  // Tsou word for the dragonfly.
     szy: ["beded", "bədəd"],  // Sakizaya word for the dragonfly.
     tao: ["ponay", "ponaj"],  // Yami (Tao) word for the dragonfly.
+    ja_kanbun: ["蜻蛉", "seːɾeː"],  // Classical Chinese 蜻蛉 read on'yomi seirei; NKD せいれい【蜻蛉】: the Chinese name of the dragonfly (色葉字類抄 1177-81). The row reads single characters with their kun (熊 kɯma, 骨 hone) and two-character words with their on reading (胡蝶 kotɕoː, 銀河 ɡiŋɡa, 車輪 ɕaɾiɴ).
   },
 };

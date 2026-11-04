@@ -647,6 +647,7 @@ WORDS.grandmother = {
     xct: "one",
     dru: "unknown",
     ckv: "one",
+    ja_kanbun: "split",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -1238,5 +1239,6 @@ WORDS.grandmother = {
     xct: ["ཕྱི་མོ", "pʰjimo"],  // phyi mo, glossed by Ives Waldo as 'mothers of father and mother'; listed in Jäschke (p. 376).
     dru: ["kaingu", "kaiŋu"],  // Budai (霧台) Rukai word for grandmother (also kayngu, kaikaingu); the Rukai Bible uses it for Timothy's grandmother Lois (2 Tim 1:5).
     ckv: ["bai", "bai"],  // Kavalan bai, glossed 祖母, 奶奶 and 外婆: one word for both grandmothers.
+    ja_kanbun: ["祖母", "sobo"],  // Classical Chinese 祖母 (the father's mother; the mother's mother is 外祖母), read on'yomi sobo; NKD そぼ【祖母】. The row reads single characters with their kun (熊 kɯma, 骨 hone) and two-character words with their on reading (胡蝶 kotɕoː, 銀河 ɡiŋɡa, 車輪 ɕaɾiɴ).
   },
 };

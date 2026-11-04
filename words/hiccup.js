@@ -266,6 +266,7 @@ WORDS.hiccup = {
     pyu: "plain",
     ckv: "plain",
     ssf: "plain",
+    ja_kanbun: "plain",
   },
   routes: {
     imitative: {"color":"#ea580c","emoji":"🔊","en":"imitating the sound","ja":"音のまね","ko":"소리 흉내","zh":"模仿声音","yue":"模仿聲音","vi":"mô phỏng âm thanh","th":"เลียนเสียง","id":"tiruan bunyi","hi":"ध्वनि की नक़ल","de":"lautmalend","fr":"imitant le bruit","it":"onomatopeico","es":"imita el sonido","pt":"imita o som","ru":"звукоподражание","uk":"звуконаслідування","ar":"محاكاة الصوت","he":"חיקוי הקול","sw":"kuiga sauti"},
@@ -478,5 +479,6 @@ WORDS.hiccup = {
     pyu: ["tremerab", "ʈəmərab"],  // Nanwang (南王) Puyuma word for hiccup.
     ckv: ["sizukan", "sizukan"],  // Kavalan word for hiccup.
     ssf: ["lhmuthuk", "ɬmuθuk"],  // Thao word for hiccup (打呃，打嗝); also lhuthuk.
+    ja_kanbun: ["噦", "sakɯɾi"],  // Classical Chinese 噦 'hiccup', read with the old kun sakuri (later shakuri); NKD さくり【噦・噦噎】.
   },
 };

@@ -229,7 +229,7 @@ WORDS.nose = {
     mlm: ["kə5 naŋ1", "kə˦˦ naŋ˦˨"],
     swi: ["ʔnaŋ1", "ʔnaŋ˩˩"],
     lic: ["khat7", "kʰat˥˥"],
-    kmc: ["mɐŋ55", "mɐŋ˥˥"],
+    kmc: ["nəŋ55", "nəŋ˥˥"],
     gqu: ["ȵtɕe24", "ȵtɕe˨˦"],
     shx: ["kʰɤŋ44 piu54", "kʰɤŋ˦˦ piu˥˦"],
     hmn: ["ntswg", "ᶯdʐɨ˧˩"],
@@ -1015,7 +1015,7 @@ WORDS.nose = {
     fon: ["awɔntín", "awɔ̃tĩ́"],
     bci: ["bue", "bue"],
     kmb: ["dizulu", "dizulu"],
-    ii: ["ꅳꁖ", "n̥a˨˩bi˥˥"],  // ꅲ is "to ask"; the nose is ꅳꁖ (Wiktionary; n̥a21 bi55 in Sun, Yang and Lama).
+    ii: ["ꅳꁖ", "n̥a˨˩bi˥"],  // ꅲ is "to ask"; the nose is ꅳꁖ (Wiktionary; n̥a21 bi55 in Sun, Yang and Lama).
     pcc: ["ndangl", "ɗɐŋ˨˦"],
     wbm: ["meeih", "mɯih"],
     shy: ["axenfuf", "axənfuf"],

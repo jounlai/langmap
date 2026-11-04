@@ -227,7 +227,7 @@ WORDS.butterfly = {
     ban: ["kupu-kupu", "kupukupu"],  // Reduplicated kupu-kupu.
     ceb: ["alibangbang", "ʔalibaŋˈbaŋ"],  // Reduplicated -bang-bang. ACD transcribes it alibaŋbáŋ; respelled here in the row's standard Cebuano orthography (ŋ = ng), as in the row's own langgam.
     ace: ["bangbang", "baŋbaŋ"],  // a reduplication, ACD's PWMP *baŋbaŋ set (cf. Cebuano alibangbang); variant bambang; covers moths too (bangbang sutra 'silk moth')
-    iba: ["kelelaway", "kələlaway"],
+    iba: ["kelelaway", "kələlawaj"],
     fj: ["bēbē", "ᵐbeːᵐbeː"],  // Reduplicated bē-bē — the Oceanic *bebe root.
     sm: ["pepe", "pepe"],  // Reduplicated pe-pe; Proto-Polynesian *pepe, recorded as such by IDS.
     to: ["pepe", "pepe"],  // Reduplicated pe-pe; Proto-Polynesian *pepe.

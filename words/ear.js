@@ -844,7 +844,7 @@ WORDS.ear = {
     chf: ["chikin", "tʃikin"],
     kek: ["xik", "ʃik"],
     bbc: ["pinggol", "piŋɡol"],
-    bts: ["pinggol", "piɡːol"],
+    bts: ["pinggol", "piŋɡol"],
     akb: ["pinggol", "piŋɡol"],
     abs: ["talinga", "taliŋa"],
     max: ["talinga", "taliŋa"],

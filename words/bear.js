@@ -1939,7 +1939,7 @@ WORDS.bear = {
     pwn: ["cumai", "tsumai"], // was ["cumay", "tsumai"] (vi dialect rules 2026-10-06)
     dru: ["cumay", "tsuˈmai"],
     szy: ["tumay", "tumaj"], // was ["tumay", "tumai"] (vi dialect rules 2026-10-06)
-    ckv: ["tumay", "tuˈmai"],
+    ckv: ["tumay", "tuˈmaj"],
     haw: ["pea", "pea"],
     mi: ["pea", "pea"],
 
@@ -1949,7 +1949,7 @@ WORDS.bear = {
     bnn: ["tumaz", "tumað"],
     tsu: ["cmoi", "tsmoi"],
     trv: ["kumay", "kumaj"], // was ["sumay", "sumaj"] (vi dialect rules 2026-10-06)
-    ssf: ["cumay", "θumai"],
+    ssf: ["cumay", "θumaj"],
     bzg: ["choma", "tʃoma"],
     ptai: ["*ʰmwɯj", "ʰmwɯj"],
     och: ["熊", "*C.[ɢ]ʷ(r)əm"],

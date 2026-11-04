@@ -780,7 +780,7 @@ WORDS.green = {
     zh_nj: ["绿", "luʔ˥"],
     zh_xa: ["绿", "liɤu˨˩"],
     kwk: ["ła̱nx̱a", "ɬənχa"],
-    kmc: ["su35", "su˧˥"],
+    kmc: ["su55", "su˥˥"],
     blr: ["khiu33", "kʰiu˧˧"],
     es_bo: ["verde", "ˈbeɾðe"],
     es_hn: ["verde", "ˈbeɾðe"],

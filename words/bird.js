@@ -234,7 +234,7 @@ WORDS.bird = {
     mlm: ["nɔk8", "nɔk˩˨"],
     swi: ["nok8", "nok˧˩"],
     lic: ["taȶ7", "taȶ˥˥"],
-    kmc: ["mok21", "mok˨˩"],
+    kmc: ["mok212", "mok˨˩˨"],
     gqu: ["ntau31", "ntau˧˩"],
     shx: ["lɔ54", "lɔ˥˦"],
     hmn: ["noog", "nɔ̃˧˩"],

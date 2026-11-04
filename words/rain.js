@@ -902,7 +902,7 @@ WORDS.rain = {
     poh: ["jabʼ", "xaɓ"],
     pwn: ["qudjalj", "quɟaʎ"],
     pyu: ["udalr", "udal"],
-    pzh: ["udan", "udan"],
+    pzh: ["udal", "udal"],
     rim: ["mbura", "mbuɾa"],
     sce: ["ghura", "quˈrɑ"],
     peh: ["ɢura", "ɢura"],

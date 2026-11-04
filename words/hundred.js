@@ -1075,7 +1075,7 @@ WORDS.hundred = {
     wym: ["hundyt", "ˈhundɨt"],
     pau: ["dart", "ðaɾt"],
     dtp_kzj: ["hatus", "hatus"],
-    pzh: ["haten", "hatən"],
+    pzh: ["hatel", "hatəl"],
     ale: ["сисах̆", "sisaχ"],
     nrf_gg: ["chent", "ʃɑ̃"],
     ja_mvi: ["百", "mumu"],

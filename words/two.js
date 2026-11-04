@@ -339,7 +339,7 @@ WORDS.two = {
           { form: "双 / 松", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 雙 — Sawndip was never standardised" },
         ],
       },
-      mmd: ["ja1", "ja˦˨"],
+      mmd: ["ja2", "ja˨˧˩"],
       mlm: ["ɣa2", "ɣa˩˨˩"],
       swi: ["ɣa2", "ɣa˧˩"],
       lic: ["ɬau3", "ɬau˩˩"],

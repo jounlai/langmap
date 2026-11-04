@@ -744,7 +744,7 @@ WORDS.tongue = {
     mh: ["lo", "lo"],
     gil: ["newe", "newe"],
     ch: ["hulaʼ", "hulaʔ"],
-    tet: ["nanaan", "nanaːn"],
+    tet: ["nanaal", "nanaːl"],
     aoz: ["maf", "maf"],
     bi: ["tang", "taŋ"],
     pjt: ["tjaḻinypa", "caɭiɲpa"],

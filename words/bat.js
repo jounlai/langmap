@@ -915,7 +915,7 @@ WORDS.bat = {
     gor: ["abuhu", "ʔaˈbuhu"],  // The Gorontalo word for the bat. Unrelated to ʔudu 'rat' and buuruŋi 'bird' (ABVD).
     chy: ["méšenonetsénóne", "méʃenonetsénóne"],  // The Cheyenne word for the bat.
     xct: ["ཕ་ཝང", "pʰawaŋ"],  // The Tibetan word for the bat. Unrelated to བྱི་བ 'mouse' and བྱ 'bird'.
-    shn: ["မိင်ႇ", "miŋ˩˩"],  // The Shan word for the bat. No image is recorded for it, so it counts as a word of its own.
+    shn: ["မိင်ႇ", "miŋ˩"],  // The Shan word for the bat. No image is recorded for it, so it counts as a word of its own.
     rif: ["ⵍⵡⴻⴹⵡⴰⴹ", "rwəðˤwaðˤ"],  // The Tarifit word, used in the Bible for the bat of Leviticus 11:19. No image is recorded for it, so it counts as a word of its own.
     adt: ["mika", "mika"],  // The general Adnyamathanha term for bats. No image is recorded for it, so it counts as a word of its own.
     mpj: ["jarti", "caʈi"],  // The Martu Wangka word for the bat. Unrelated to jilku 'mouse' and pilurnpa 'bird' (Bowern).

@@ -446,7 +446,7 @@ WORDS.earth = {
     zh_km: ["土", "tʰu˥˧"],
     zh_lz: ["土", "tʰu˦˦˨"],
     zh_nj: ["土", "tʰu˨˩˨"],
-    zh_sc: ["土", "tʰu˥˧"],
+    zh_sc: ["泥巴", "ȵi˨˩ pa˥"],  // Soil is 泥巴 in Sichuanese (Wiktionary dialect table and pronunciation).
     zh_tj: ["土", "tʰu˩˧"],
     zh_wh: ["泥巴", "ni˨˩˧ pa˥˥"],  // Wuhan says 泥巴 for soil (Wiktionary dialect table; MCPDict Wuhan readings).
     zh_xa: ["土", "tʰu˥˧"],

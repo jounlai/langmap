@@ -1098,7 +1098,7 @@ WORDS.daughter = {
     bum: ["ngone", "ŋɡone"],
     ctg: ["মাইয়া", "maija"],
     sdh: ["دۊەت", "dyːæt"],
-    wuu_wz: ["女儿", "na˧˦ ŋ̍˧˩"],
+    wuu_wz: ["奶儿", "na˧˦ ŋ̍˧˩"],  // The Wenzhou word as Wiktionary's dialect table writes it.
     nan_hai: ["查某囝", "sa˧˩ mɔu˨˩˧ kia˨˩˧"],
     nzm: ["pena", "pena"],
     xlu: ["tuwatri-", "ˈtuwatri"],

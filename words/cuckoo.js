@@ -153,7 +153,7 @@ WORDS.cuckoo = {
     itl: ["ӄэӄуӄ", "qəquq"],
     ket: ["ӄопӄунь", "qɔpqʊɲ"],
     my: ["ဥသြ", "ʔṵ θɔ́"],
-    km: ["តាវៅ", "taːˈʋɨw"],
+    km: ["តាវៅ", "taːˈʋɨw"],  // The Asian koel, a cuckoo-family bird; SEAlang describes it as "a bird which resembles a cuckoo". The common cuckoo does not breed in Cambodia.
     lo: ["ນົກກັກກູ", "nok˧ kak˧˥ kuː˩˧"],
     zu: ["uphezukomkhono", "upʰezukomˈkʰono"],
     am: ["ኩኩ", "kuku"],

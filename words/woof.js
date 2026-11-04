@@ -295,5 +295,7 @@ WORDS.woof = {
     zh_tj: ["汪汪", "vɑŋ˨˩ vɑŋ˨˩"],
     zh_db: ["汪汪", "waŋ˥ waŋ˥"],
     zh_jiao: ["汪汪","vaŋ˨˩˧ vaŋ˨˩˧"],  // Same word as Standard Mandarin.
+    km: ["វ៉េសវ៉ូស", "ʋeːh ʋoːh"],  // Glossed 'sound of a dog barking' in the SEAlang Khmer dictionary (Headley veeh-vooh) and listed first in Wiktionary's woof translations; a big dog's bark is ហ៊ hɔː.
+    lo: ["ວົງໆ", "woŋ˧˥ woŋ˧˥"],  // Glossed 'onomatopoeia for the barking of a dog' in the SEAlang Lao dictionary (wóŋwóŋ; ໆ repeats the syllable).
   },
 };

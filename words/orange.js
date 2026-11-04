@@ -1076,7 +1076,7 @@ WORDS.orange = {
     ko_yb: ["오렌지", "oɾendʑi"],
     zh: ["橙", "ʈʂʰɤŋ˧˥"],
     yue: ["橙", "tsʰaːŋ˧˥"], // was ["橙", "tsʰaːŋ˩˧"] (vi dialect rules 2026-10-06)
-    nan: ["柑仔", "kam˦˦ ma˥˧"],
+    nan: ["柳丁", "liu˥˧ tiŋ˦˦"],  // The sweet orange; 柑仔 is the mandarin (Wiktionary dialect table and pronunciation).
     zh_tw: ["柳丁", "ljoʊ̯˧˩˧ tiŋ˥"], // was ["柳丁", "ljoʊ̯˧˩˧ tiŋ"] (vi dialect rules 2026-10-06)
     wuu: ["橙", "zã˨˧"], // was ["橙", "zaŋ˨˧"] (vi dialect rules 2026-10-06)
     hak_cn: ["柑仔", "kam˦ e˧˩"], // was ["柑仔", "kam˨˦ e˧˩"] (vi dialect rules 2026-10-06)
@@ -1355,8 +1355,8 @@ WORDS.orange = {
     hak_tw: ["柑仔", "kam˨˦ e˧˩"],
     wuu_sz: ["橙", "zã˨˨˧"],
     wuu_wz: ["甜橙", "di˧˩ dziɛ˧˩"], // was ["橙", "zaŋ˧˩"] (vi dialect rules 2026-10-06)
-    nan_qz: ["柑仔", "kam˧˧ ma˥˥˦"],
-    nan_hai: ["柑仔", "ka˨˧ kia˨˩˧"],
+    nan_qz: ["橙", "tsʰiaŋ˨˦"],  // The sweet orange; 柑仔 is the mandarin (Wiktionary dialect table and pronunciation).
+    nan_hai: ["橙", "seŋ˧˩"],  // The sweet orange; 柑仔 is the mandarin (Wiktionary dialect table; MCPDict reading).
     zh_wh: ["橙", "tsʰən˨˩˧"],
     zh_zz: ["橙", "tʂʰəŋ˦˨"], // was ["橙", "tʂʰɤŋ˦˨"] (vi dialect rules 2026-10-06)
     hak_hl: ["柑仔", "kam˥˧ ɤ˥˥"], // was ["柑仔", "kam˥˧ e˨˦"] (r46 fix 2026-10-03)
@@ -1373,8 +1373,8 @@ WORDS.orange = {
     zh_km: ["橙", "tʂʰə̃ĩ˧˩"], // was ["橙", "tʂʰɤŋ˧˩"] (r48 fix 2026-10-03)
     zh_xa: ["橙", "tʂʰəŋ˨˦"], // was ["橙", "tʂʰɤŋ˨˦"] (vi dialect rules 2026-10-06)
     qxq: ["portağal", "portaˈɣal"], // was ["portağal", "poɾtaˈɣal"] (vi dialect rules 2026-10-06)
-    nan_xm: ["柑仔", "kam˦˦ ma˥˧"],
-    nan_zz: ["柑仔", "kam˦˦ ma˥˧"],
+    nan_xm: ["橙", "tsʰiaŋ˨˦"],  // The sweet orange; 柑仔 is the mandarin (Wiktionary dialect table and pronunciation).
+    nan_zz: ["橙", "tsʰiam˩˧"],  // The sweet orange; 柑仔 is the mandarin (Wiktionary dialect table; MCPDict reading).
     wuu_jh: ["橙", "dʑiŋ˧˩˧"],
     wuu_jx: ["橙", "zã˧˩"], // was ["橙", "zaŋ˨˧"] (r46 fix 2026-10-03)
     yue_zs: ["橙", "tsʰaŋ˥˩"], // was ["橙", "tsʰaŋ˨˩"] (r46 fix 2026-10-03)

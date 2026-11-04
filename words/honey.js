@@ -542,7 +542,7 @@ WORDS.honey = {
     zh_hf: ["蜂蜜", "fəŋ˨˩˨ miəʔ˦"],
     zh_nj: ["蜂蜜", "fəŋ˧˩ miʔ˥"],
     zh_jh: ["蜂蜜", "fəŋ˧˩ miʔ˥˥"],
-    zh_cq: ["蜂蜜", "foŋ˥ mi˨˩"],
+    zh_cq: ["蜂糖", "foŋ˥ tʰaŋ˨˩"],  // Literally "bee sugar" or "honey sugar", the town's word (Wiktionary dialect table).
     zh_cd: ["蜂蜜", "foŋ˥˥ mi˨˩"],
     zh_sc: ["蜂蜜", "foŋ˥ mi˨˩"],
     zh_wh: ["蜂蜜", "foŋ˥˥ mi˨˩˧"],
@@ -731,7 +731,7 @@ WORDS.honey = {
     jvn: ["madu", "madu"],
     wuu: ["蜂蜜", "foŋ˥˧ miɪʔ˩˨"],
     wuu_sz: ["蜜糖", "miɪʔ˧ dɑ̃˨˨˧"],
-    wuu_nb: ["蜂蜜", "foŋ˥˨ miɪʔ˩˨"],
+    wuu_nb: ["蜂糖", "foŋ˥˨ dɔ̃˧˩˧"],  // Literally "bee sugar" or "honey sugar", the town's word (Wiktionary dialect table).
     wuu_hz: ["蜂蜜", "foŋ˧˧ mieʔ˨"],
     wuu_jx: ["蜂蜜", "foŋ˥˩ mieʔ˥"],
     wuu_jh: ["蜂糖", "foŋ˧˧˦ dɑŋ˧˩˧"],
@@ -848,7 +848,7 @@ WORDS.honey = {
     snk: ["yaage", "jaːɡe"],
     mxc: ["uchi", "utʃi"],
     mer: ["nainchũ", "naintʃo"],
-    czh: ["蜂蜜", "fan˩˩ mi˩˩"],
+    czh: ["蜜糖", "mi˩˩ tʰau˦˦"],  // Literally "bee sugar" or "honey sugar", the town's word (Wiktionary dialect table).
     cpx: ["冬蜜", "taŋ˥˧˧ piʔ˦"],
     din: ["kiɛ̈c", "kiɛtʃ"],
     laj: ["moo kic", "moː kitʃ"],

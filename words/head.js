@@ -524,7 +524,7 @@ WORDS.head = {
     mkz: ["dae", "dae"],
     rut: ["кьул", "qʼul"],
     tpn: ["akanga", "aˈkãŋa"],
-    zh_cq: ["头", "tʰəu˨˩"],
+    zh_cq: ["脑壳", "lau˦˨ kʰo˨˩"],  // Literally "brain shell", the Chongqing word (Wiktionary dialect table).
     zh_jn: ["脑袋", "nɔ˥˥ tɛ"],
     zh_km: ["脑壳", "nʌo˥˧ kʰo˧˩"],
     zh_xa: ["头", "tʰɤu˨˦"],

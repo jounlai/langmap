@@ -312,6 +312,7 @@ WORDS.milkyway = {
     vi_nom: "river",
     ain: "river",
     ja_oki: "river",
+    xct: "other",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -567,5 +568,6 @@ WORDS.milkyway = {
     vi_nom: ["銀河", "ŋən˧ haː˨˩"],  // Ngân Hà is the Sino-Vietnamese reading of 銀河 'silver river', written with the Chinese characters.
     ain: ["ペッノカ", "petnoka"],  // Hokkaido Ainu petnoka, from pet 'river' + noka; Hattori 1964 records it in Horobetsu, Saru, Obihiro and Nayoro.
     ja_oki: ["てぃんがーら", "tiŋɡaːɾa"],  // Literally 'sky river': tin 'sky, heaven' + kaara 'river'.
+    xct: ["དགུ་ཚིགས", "dɡutsʰiks"],  // dgu tshigs 'the Milky Way' (Rangjung Yeshe); listed in Jäschke (p. 110).
   },
 };

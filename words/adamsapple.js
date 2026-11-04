@@ -279,6 +279,8 @@ WORDS.adamsapple = {
     zh_wenyan_edu: "other",
     vi_han: "other",
     zh_han: "other",
+    vi_c: "plain",
+    vi_s: "plain",
   },
   routes: {
     adam: {"color":"#dc2626","emoji":"🍏","en":"Adam's apple","ja":"アダムのりんご","ko":"아담의 사과","zh":"亚当的苹果","yue":"亞當嘅蘋果","vi":"táo của Adam","th":"แอปเปิลของอาดัม","id":"apel Adam","hi":"आदम का सेब","de":"Adams Apfel","fr":"pomme d'Adam","it":"pomo d'Adamo","es":"fruto de Adán","pt":"maçã de Adão","ru":"яблоко Адама","uk":"яблуко Адама","ar":"تفاحة آدم","he":"תפוח אדם","sw":"tufaha la Adamu"},
@@ -502,5 +504,7 @@ WORDS.adamsapple = {
     zh_wenyan_edu: ["結喉", "kiːt˧ hɐu˨˩"],  // Literally 'knotted throat'; used in the Lingshu (Gudu chapter).
     vi_han: ["結喉", "ket˧˥ həw˨˩"],  // Literally 'knotted throat'; used in the Lingshu (Gudu chapter). Hán Việt kết hầu.
     zh_han: ["結喉", "kiǝ̄t ɣwā"],  // Literally 'knotted throat'; the Lingshu (Gudu chapter) measures 結喉以下至缺盆.
+    vi_c: ["yết hầu", "iək˧˦ həw˦˨"],  // The same word as standard Vietnamese, in the Huế pronunciation (Wiktionary [ʔiək̚˦˧˥ həw˦˩]), written with this row's own tone values; VDict gives yết hầu for English Adam's apple.
+    vi_s: ["yết hầu", "iək˧˥ həw˨˩"],  // The same word as standard Vietnamese, in the Saigon pronunciation (Wiktionary [ʔiək̚˦˥ həw˨˩]), written with this row's own tone values; VDict gives yết hầu for English Adam's apple.
   },
 };

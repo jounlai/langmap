@@ -37,3 +37,10 @@ Medium proposals (45, ~/langmap-work/par1104/ins/review_r7.json) not yet read:
 Hokkien orange 柑仔 → 橙 / 柳丁, 土 → 泥 words, Taipei thumb/tomato, etc.
 ium milk nyorx ('breast') → nyorx wuom (assembled, not printed by a source);
 vi Adam's apple yết hầu ('pharynx'); km cuckoo តាវៅ (koel).
+
+## Second pass (readings found)
+zh_db 小拇哥, zh_sc 泥巴, zh_cq 脑壳 / 蜂糖, czh 蜜糖, wuu_nb 蜂糖, wuu_wz 奶儿 (spelling),
+Hokkien orange 柑仔 → 橙 (nan_xm, nan_qz, nan_zz, nan_hai) and 柳丁 (nan). Held: czh 明朝
+(tone converted by inference), nan_pn 橙 (Wiktionary doesn't name Penang), zh_jh 雀子,
+czh 洋芋頭, yue_nn 雀仔 (no reading). vi Adam's apple yết hầu kept (VDict); km cuckoo
+kept with a koel note. LEXICAL_IMPORT_DEBT 31.

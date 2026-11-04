@@ -644,6 +644,7 @@ WORDS.grandmother = {
     tcs: "unknown",
     ja_oki: "unknown",
     ko_mid: "unknown",
+    xct: "one",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -1232,5 +1233,6 @@ WORDS.grandmother = {
     tcs: ["aka", "aka"],  // Torres Strait Creole word for grandmother; the Yumplatok Bible uses it for Timothy's grandmother Lois in 2 Timothy 1:5 (aka blo yu Louis).
     ja_oki: ["母前", "haːmeː"],  // Okinawan haamee, from haa 'mother' + mee, an affix of respect; the honorific form is っんーめー. Grandchildren also say おばー, from Japanese.
     ko_mid: ["·할미", "halmi"],  // Glossed 'grandmother, old lady'; attested in the Worin seokbo (1459). Ancestor of modern 할미.
+    xct: ["ཕྱི་མོ", "pʰjimo"],  // phyi mo, glossed by Ives Waldo as 'mothers of father and mother'; listed in Jäschke (p. 376).
   },
 };

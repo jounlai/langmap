@@ -559,5 +559,6 @@ WORDS.cuckoo = {
     kim: ["һек", "hek"],  // Tofa, glossed «кукушка» in Rassadin's dictionary.
     eve: ["кэкучэн", "kəkutʃən"],  // Even, glossed «кукушка».
     ude: ["кэку", "kəku"],  // Udege, glossed «кукушка».
+    kl: ["kuukooq", "kuːkoːq"],
   },
 };

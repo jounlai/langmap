@@ -1218,5 +1218,7 @@ WORDS.sleep = {
     zag: ["ge", "ɡɛ"],  // The Zaghawa verb 'to sleep'.
     kim: ["удуур", "uduːr"],  // Tofa, glossed «спать»; Rassadin's stem is уду-, and удуур has the -ур citation ending of the row's other verbs.
     ude: ["ӈуа", "ŋua"],  // Udege, glossed «спать».
+    osa: ["žą́ą", "ʒã́ː"],
+    umu: ["kawiiw", "kawiːw"],  // 'He sleeps.'
   },
 };

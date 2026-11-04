@@ -1197,5 +1197,6 @@ WORDS.wind = {
     gha: ["aḍụ", "adˤo"],  // Also means "scent, smell".
     siz: ["əlăhawa", "əlăɦawa"],  // Borrowed from Arabic hawāʾ 'air'.
     zh_jiao: ["风", "fəŋ˨˩˧"],
+    osa: ["htaacé", "htaːtsé"],
   },
 };

@@ -356,6 +356,11 @@ WORDS.milkyway = {
     ayl: "straw",
     tum: "unknown",
     yao: "unknown",
+    djr: "other",
+    chy: "road",
+    kl: "other",
+    crk: "road",
+    oj: "birds",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -655,5 +660,10 @@ WORDS.milkyway = {
     ayl: ["طريق خانب التبن", "tˤriːɡ χɑːnəb ətːəbən"],  // Literally 'the road of the hay thief'.
     tum: ["Nthowa ya Lukama", "ntʰowa ja lukama"],  // The Tumbuka name of the Milky Way.
     yao: ["Lichinga-usiku", "litʃiŋɡa usiku"],  // Recorded by Hetherwick (1902, p. 185); usiku is not a Yao word and looks borrowed.
+    djr: ["baḏurru", "baɖuru"],  // Also 'mist, fog'.
+    chy: ["heʼameméóʼo", "heʔameméóʔo"],  // With méó 'road', as in Hotóhkeméóná'e 'Star Road Woman'.
+    kl: ["Qilaap Sillia", "qilaːp silːia"],
+    crk: ["ᒪᐦᐃᐦᑲᓂ ᒣᐢᑲᓇᐤ", "mahihkani meːskanaw"],  // Literally 'wolf road'.
+    oj: ["binesiwi-miikana", "binesiwi miːkana"],  // With miikana 'road'; manidoo-miikana is also recorded.
   },
 };

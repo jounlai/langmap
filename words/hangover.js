@@ -203,5 +203,7 @@ WORDS.hangover = {
     nv: ["yoolééł", "jòːléːɬ"],  // Wiktionary gives 'hangover' as a sense of yoolééł, literally 'he/she is going along carrying it' (a rope-like object).
     el_grc: ["κραιπάλη", "krai̯pálɛː"],  // Ancient Greek kraipálē: drinking bout; intoxication; hangover (source of Latin crāpula).
     ota: ["مخمورلق", "mahmurˈluk"],  // Ottoman Turkish mahmurluk, from مخمور mahmur 'drunk' + -lık.
+    pot: ["mankago", "mankaɡo"],  // 'He or she has a hangover.'
+    kl: ["aqagutaarpoq", "aqaɣutaːʁpoq"],  // 'Is hung over.'
   },
 };

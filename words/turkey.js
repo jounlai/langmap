@@ -424,6 +424,10 @@ WORDS.turkey = {
     st: "india",
     ti: "unknown",
     ln: "india",
+    osa: "local",
+    pot: "local",
+    chy: "local",
+    tsi: "local",
   },
   routes: {
     india: {"color":"#ea580c","emoji":"🐘","en":"named for India · the Indies","ja":"インドの名で","ko":"인도의 이름으로","zh":"以印度为名","yue":"以印度為名","vi":"theo tên Ấn Độ","th":"ตั้งตามอินเดีย","id":"dinamai India","hi":"भारत के नाम पर","de":"nach Indien benannt","fr":"nommé d'après l'Inde","it":"dal nome dell'India","es":"por la India","pt":"pelo nome da Índia","ru":"по Индии","uk":"за Індією","ar":"باسم الهند","he":"על שם הודו","sw":"kwa jina la India"},
@@ -789,5 +793,9 @@ WORDS.turkey = {
     st: ["kalakune", "kalakune"],  // From Afrikaans kalkoen ('Calicut hen'); compare Zulu ikalikuni.
     ti: ["ታኪን", "takin"],  // The Tigrinya word for the turkey.
     ln: ["dendon", "dendon"],  // Borrowed from French dindon (from poule d'Inde 'Indian hen').
+    osa: ["súhkahtąą", "súhkahtãː"],
+    pot: ["msezé", "msəze"],
+    chy: ["maʼxėhēʼne", "maʔxeheʔne"],
+    tsi: ["ḵʼasḵʼoosm ʼwa̱huu", "qʼasqʼoːsm ʔwʌhuː"],
   },
 };

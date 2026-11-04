@@ -324,6 +324,15 @@ WORDS.hiccup = {
     ar_ma: "plain",
     gld: "plain",
     ar_sa: "imitative",
+    osa: "plain",
+    djr: "plain",
+    pot: "plain",
+    tsi: "plain",
+    mic: "plain",
+    kl: "plain",
+    chr: "plain",
+    oj: "plain",
+    yur: "plain",
   },
   routes: {
     imitative: {"color":"#ea580c","emoji":"🔊","en":"imitating the sound","ja":"音のまね","ko":"소리 흉내","zh":"模仿声音","yue":"模仿聲音","vi":"mô phỏng âm thanh","th":"เลียนเสียง","id":"tiruan bunyi","hi":"ध्वनि की नक़ल","de":"lautmalend","fr":"imitant le bruit","it":"onomatopeico","es":"imita el sonido","pt":"imita o som","ru":"звукоподражание","uk":"звуконаслідування","ar":"محاكاة الصوت","he":"חיקוי הקול","sw":"kuiga sauti"},
@@ -594,5 +603,14 @@ WORDS.hiccup = {
     ar_ma: ["فواقة", "fuwwaːqa"],  // The Moroccan Arabic word for the hiccup.
     gld: ["егдэчин", "jəɡdətʃin"],  // Nanai, glossed «икота» in Onenko 1989.
     ar_sa: ["فهاق", "fhaːɡ"],  // From Arabic فواق 'hiccup'; Wiktionary traces it to an imitative root.
+    osa: ["tóoske", "tóːske"],
+    djr: ["ŋiḏirrkthun", "ŋiɖirkt̪un"],
+    pot: ["nwawé", "nwawe"],  // 'He or she has hiccups.'
+    tsi: ["sanʼwa̱x", "sanʔwʌχ"],  // 'Hiccup; have hiccups.'
+    mic: ["ejgwit", "etʃkwit"],  // 'He or she hiccups.'
+    kl: ["niisorarpoq", "niːsoʁaʁpoq"],  // 'Has the hiccups.'
+    chr: ["ᎤᏩᎫᏩᏍᏗ", "uwaɡuwasdi"],
+    oj: ["onwaawe", "onwaːwe"],  // 'He or she hiccups.'
+    yur: ["cheeekorekʼ", "tʃiːkɔɹekʼ"],  // 'I have hiccups', the first-person form the row uses for verbs.
   },
 };

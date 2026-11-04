@@ -354,6 +354,12 @@ WORDS.dragonfly = {
     ja_kyo: "plain",
     ja_hak: "plain",
     ja_hir: "plain",
+    pot: "plain",
+    tsi: "plain",
+    crk: "plain",
+    chr: "plain",
+    oj: "plain",
+    yur: "other",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -653,5 +659,11 @@ WORDS.dragonfly = {
     ja_kyo: ["とんぼ", "tombo"],  // とんぼ is the word from northern Kyushu to Kantō (大阪弁 dictionary).
     ja_hak: ["とんぼ", "tombo"],  // とんぼ is the word from northern Kyushu to Kantō (大阪弁 dictionary).
     ja_hir: ["とんぼ", "tombo"],  // とんぼ is the word from northern Kyushu to Kantō (大阪弁 dictionary).
+    pot: ["bojkwansi", "bodʒkwansi"],
+    tsi: ["gyilatsʼiʼits", "ɡʲilatsʼiʔits"],
+    crk: ["ᒍᐍᐦᐃᑲᓈᐱᓰᐢ", "tʃoweːhikanaːpisiːs"],
+    chr: ["ᏩᏓᏚᎦ", "wadaduɡa"],
+    oj: ["oboodashkwaanishiinh", "oboːdaʃkwaːniʃĩː"],
+    yur: ["paʼaahl ʼwerrpʼ", "paʔaːɬ ʔwɚːpʼ"],  // With ʼwerrpʼ, the row's butterfly word.
   },
 };

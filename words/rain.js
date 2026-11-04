@@ -1192,5 +1192,6 @@ WORDS.rain = {
     siz: ["aṃẓáṛ", "amˤˈzˤarˤ"],  // Laoust (1931) wrote it anzar.
     zh_jiao: ["雨", "y˥˥"],
     kim: ["өъскен", "øʔsken"],  // Tofa, glossed «дождь» in Rassadin's dictionary.
+    pot: ["gméya", "ɡmeja"],  // 'It is raining.'
   },
 };

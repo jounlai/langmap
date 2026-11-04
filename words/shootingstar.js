@@ -320,6 +320,9 @@ WORDS.shootingstar = {
     pwn: "unknown",
     mi: "plain",
     wbp: "plain",
+    osa: "falling",
+    djr: "plain",
+    tsi: "other",
   },
   routes: {
     falling: {"color":"#2563eb","emoji":"⬇️","en":"a falling star","ja":"落ちる星","ko":"떨어지는 별","zh":"落下的星","yue":"跌落嘅星","vi":"sao rơi","th":"ดาวที่ตก","id":"bintang jatuh","hi":"गिरता तारा","de":"fallender Stern","fr":"étoile qui tombe","it":"stella che cade","es":"estrella que cae","pt":"estrela que cai","ru":"падающая звезда","uk":"зірка, що падає","ar":"نجم يسقط","he":"כוכב שנופל","sw":"nyota inayoanguka"},
@@ -585,5 +588,8 @@ WORDS.shootingstar = {
     pwn: ["sipanapanaq a vitjuqan", "sipanapanaq a vitʲuqan"],  // North Paiwan phrase for a shooting star; vitjuqan is 'star'.
     mi: ["kōtiritiri", "koːtiɾitiɾi"],  // Māori kōtiritiri 'meteor, shooting star' (Te Aka); also matakōkiri, tūmatakōkiri, unahi o Takero.
     wbp: ["mirntiwarri", "miɳʈiwari"],  // Warlpiri mirntiwarri 'shooting star'.
+    osa: ["mihkákʼe oxpáðe", "mihkákʔe oxpáðe"],  // 'Falling star': mihkákʼe 'star' with oxpáðe 'fall'.
+    djr: ["wuḻurrk", "wuɭurk"],
+    tsi: ["ʼyaanabiyaals", "ʔjaːnabijaːls"],  // 'Shooting star; meteorite.'
   },
 };

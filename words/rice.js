@@ -910,5 +910,6 @@ WORDS.rice = {
     siz: ["aṛṛə́ẓ", "aˈrˤːəzˤ"],  // Borrowed from Arabic; Laoust notes the rice came from the Nile Delta.
     ar_qur: ["أرز", "ʔaruzz"],  // Also written رز ruzz; Wiktionary gives أرز as a variant of it.
     non: ["rís", "riːs"],  // Rice, and rice porridge (Köbler, after de Vries).
+    osa: ["pósu", "pósu"],
   }
 };

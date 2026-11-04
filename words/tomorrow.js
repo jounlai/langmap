@@ -910,6 +910,7 @@ WORDS.tomorrow = {
     ja_kg: "morning",
     ja_osa: "morning",
     emk: "plain",
+    osa: "plain",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -1764,5 +1765,6 @@ WORDS.tomorrow = {
     ja_kg: ["あいた", "aita"],  // Kagoshima あいた 'tomorrow' (JLect: Kagoshima, Koshikijima). The 大阪弁 dictionary lists あいた as a variant of あした in Kawachi, so it keeps the 'morning' route.
     ja_osa: ["明日", "aɕita"],  // Osaka headword あした (大阪弁 dictionary).
     emk: ["sinin", "sinin"],  // Cognate with Bambara sinin; Wiktionary marks the tone as sínin.
+    osa: ["kasą́", "kasã́"],
   },
 };

@@ -1171,5 +1171,6 @@ WORDS.person = {
     siz: ["atərras", "atərːas"],  // Laoust marks it as a word of foreign origin; 'man' is aggʷíd.
     zh_jiao: ["人", "iə̃˦˨"],  // Mandarin r- is dropped here.
     clk: ["ci55me55", "ci˥˥me˥˥"],  // From Gao's Tibeto-Burman list, the source this row matches.
+    osa: ["níhka", "níhka"],
   }
 };

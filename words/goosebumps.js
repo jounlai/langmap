@@ -238,6 +238,7 @@ WORDS.goosebumps = {
     pwn: "plain",
     pyu: "plain",
     ssf: "plain",
+    djr: "plain",
   },
   family2: {
     ko: "bird",
@@ -424,5 +425,6 @@ WORDS.goosebumps = {
     pwn: ["magulu", "maɡuɭu"],  // North Paiwan word for goosebumps.
     pyu: ["gerenas", "ɡərənas"],  // Nanwang (南王) Puyuma word for goosebumps.
     ssf: ["kunhahumzash", "kunhahumðaʃ"],  // Thao word for goosebumps from sudden fright.
+    djr: ["ḏutjṯutj", "ɖucʈuc"],
   },
 };

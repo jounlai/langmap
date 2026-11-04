@@ -592,5 +592,9 @@ WORDS.cockcrow = {
     vi_han: ["喈喈", "zaːj˧˧ zaːj˧˧"],  // Shijing, 'Fēng yǔ': 風雨淒淒，雞鳴喈喈 'wind and rain, chill and cold; the cock crows jiē jiē'; Hán Việt giai giai.
     ak: ["kokrokoo", "kokrokoo"],  // The Akan imitation of the cock's crow.
     ln: ["kokolikó", "kokolikó"],  // The Lingala imitation of the cock's crow.
+    ar_jo: ["كوكو", "kuːkuː"],  // Imitates the sound of a rooster or hen.
+    ar_ps: ["كوكو", "kuːkuː"],  // Imitates the sound of a rooster or hen.
+    ar_lb: ["كوكو", "kuːkuː"],  // Imitates the sound of a rooster or hen.
+    ar_sy: ["كوكو", "kuːkuː"],  // Imitates the sound of a rooster or hen.
   },
 };

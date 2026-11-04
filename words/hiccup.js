@@ -323,6 +323,7 @@ WORDS.hiccup = {
     ln: "plain",
     ar_ma: "plain",
     gld: "plain",
+    ar_sa: "imitative",
   },
   routes: {
     imitative: {"color":"#ea580c","emoji":"🔊","en":"imitating the sound","ja":"音のまね","ko":"소리 흉내","zh":"模仿声音","yue":"模仿聲音","vi":"mô phỏng âm thanh","th":"เลียนเสียง","id":"tiruan bunyi","hi":"ध्वनि की नक़ल","de":"lautmalend","fr":"imitant le bruit","it":"onomatopeico","es":"imita el sonido","pt":"imita o som","ru":"звукоподражание","uk":"звуконаслідування","ar":"محاكاة الصوت","he":"חיקוי הקול","sw":"kuiga sauti"},
@@ -592,5 +593,6 @@ WORDS.hiccup = {
     ln: ["eseséku", "eseséku"],  // Borrowed from Bangi liseséku; Lingala also says liséséku.
     ar_ma: ["فواقة", "fuwwaːqa"],  // The Moroccan Arabic word for the hiccup.
     gld: ["егдэчин", "jəɡdətʃin"],  // Nanai, glossed «икота» in Onenko 1989.
+    ar_sa: ["فهاق", "fhaːɡ"],  // From Arabic فواق 'hiccup'; Wiktionary traces it to an imitative root.
   },
 };

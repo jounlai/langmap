@@ -770,6 +770,7 @@ WORDS.thunder = {
     ja_osa: "god",
     ja_kyo: "god",
     ja_hak: "god",
+    bm: "sky",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1486,5 +1487,6 @@ WORDS.thunder = {
     ja_osa: ["雷", "kaminaɾi"],  // Osaka かみなり(さん) (大阪弁 dictionary: Kinki and elsewhere).
     ja_kyo: ["雷", "kaminaɾi"],  // かみなり is the Kinki word (大阪弁 dictionary).
     ja_hak: ["雷", "kaminaɾi"],  // The 大阪弁 dictionary gives かみなり for Kyushu.
+    bm: ["san", "sán"],  // The word for the sky, which also means rain and thunder.
   },
 };

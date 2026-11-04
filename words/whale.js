@@ -463,6 +463,7 @@ WORDS.whale = {
     acw: "fish",
     wo: "plain",
     ak: "plain",
+    yo: "other",
   },
   routes: {
     fish: {"color":"#2563eb","emoji":"🐟","en":"called a fish","ja":"「魚」と呼ぶ","ko":"\"물고기\"라 부름","zh":"称作\"鱼\"","yue":"叫做「魚」","vi":"gọi là cá","th":"เรียกว่าปลา","id":"disebut ikan","hi":"मछली कहा जाता है","de":"als Fisch bezeichnet","fr":"appelée poisson","it":"chiamata pesce","es":"llamada pez","pt":"chamada peixe","ru":"называют рыбой","uk":"називають рибою","ar":"تُسمّى سمكة","he":"נקרא דג","sw":"huitwa samaki"},
@@ -871,5 +872,6 @@ WORDS.whale = {
     acw: ["حوت", "ħuːt"],  // The same word as Standard Arabic ḥūt.
     wo: ["mbonkana", "mbɔnkana"],  // The Wolof word for the whale.
     ak: ["bonsu", "bonsu"],  // The Akan word for the whale (Anane 2000, p. 487).
+    yo: ["àbùùbùtán", "àbùùbùtã́"],  // Literally 'scooping out without finishing', hence also 'endlessness'.
   },
 };

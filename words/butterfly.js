@@ -935,5 +935,6 @@ WORDS.butterfly = {
     afb: ["طرفشانة", "tˤerfeʃaːna"],  // The Gulf Arabic word for the butterfly.
     eve: ["докал", "dokal"],  // Even, glossed «бабочка».
     cjs: ["қонақ", "qonaq"],  // Shor, glossed «бабочка».
+    men: ["buwa", "buwa"],  // The Mende word for the butterfly.
   },
 };

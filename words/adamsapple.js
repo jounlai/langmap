@@ -290,6 +290,7 @@ WORDS.adamsapple = {
     de_ch: "adam",
     afb: "adam",
     ssw: "plain",
+    yo: "plain",
   },
   routes: {
     adam: {"color":"#dc2626","emoji":"🍏","en":"Adam's apple","ja":"アダムのりんご","ko":"아담의 사과","zh":"亚当的苹果","yue":"亞當嘅蘋果","vi":"táo của Adam","th":"แอปเปิลของอาดัม","id":"apel Adam","hi":"आदम का सेब","de":"Adams Apfel","fr":"pomme d'Adam","it":"pomo d'Adamo","es":"fruto de Adán","pt":"maçã de Adão","ru":"яблоко Адама","uk":"яблуко Адама","ar":"تفاحة آدم","he":"תפוח אדם","sw":"tufaha la Adamu"},
@@ -524,5 +525,6 @@ WORDS.adamsapple = {
     de_ch: ["Adamsapfel", "ˈaːdamsʔapfl̩"],  // Same word as standard German.
     afb: ["تفاحة آدم", "tuffaːħat ʔaːdam"],  // Literally 'Adam's apple', as in Standard Arabic.
     ssw: ["ligilo", "liɡilo"],  // The Swazi word for the Adam's apple (tones lígîlo).
+    yo: ["gògòńgò", "ɡòɡòŋ́ɡò"],  // Also the larynx; Wiktionary calls it ultimately ideophonic. A synonym is kókó-ọrùn.
   },
 };

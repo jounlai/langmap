@@ -787,6 +787,8 @@ WORDS.tea = {
     zh_jiao: "cha",
     hmn: "other",
     zag: "cha",
+    eve: "cha",
+    ude: "cha",
   },
   // Route marker shown on each tea label (this concept only): which trade
   // route the word travelled. Localized; falls back to en.
@@ -1534,5 +1536,7 @@ WORDS.tea = {
     zh_jiao: ["茶", "tʂʰa˦˨"],
     hmn: ["tshuaj yej", "ʈʂʰua˥˨ je˥˨"],  // Ratliff (World Loanword Database) counts it as native Hmongic, one of the few words for tea not taken from Chinese 茶; Wiktionary notes it also resembles 茶葉 'tea leaves', and speakers read it as tshuaj 'medicine' + yej.
     zag: ["shay", "ʃaj"],  // Borrowed from Arabic شاي shāy.
+    eve: ["чай", "tʃaj"],  // Even, glossed «чай».
+    ude: ["чая", "tʃaja"],  // Udege, glossed «чай».
   },
 };

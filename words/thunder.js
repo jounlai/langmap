@@ -763,6 +763,13 @@ WORDS.thunder = {
     roo: "plain",
     aer: "sky",
     sux: "plain",
+    ude: "plain",
+    cjs: "plain",
+    ja_sd: "plain",
+    ja_kg: "god",
+    ja_osa: "god",
+    ja_kyo: "god",
+    ja_hak: "god",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1472,5 +1479,12 @@ WORDS.thunder = {
     roo: ["varakeo", "βaɾakeo"],  // The word in Mark 3:17 (Boanerges explained as 'sons of thunder', varakeo reotoarei), John 12:29 and Revelation 4:5 (varakeoto) of the Rotokas New Testament. No image is recorded for it, so it counts as a word of its own.
     aer: ["kwatye angkentye", "kʷatʲə aŋkəntʲə"],  // Literally 'the rain's speaking': Mark 3:17 explains Boanerges with kwatye ... angkentye, and John 12:29 has kwatye angkulyele angkeme 'the rain (thunder) is speaking' in the Eastern Arrernte New Testament; kwatye is this row's rain.
     sux: ["𒅗𒀭𒉌𒋛", "kurku"],  // Transliterated kurku₂ (ePSD2 o0032694).
+    ude: ["агди", "aɡdi"],  // Udege, glossed «гром».
+    cjs: ["кӱзӱрек", "kyzyrek"],  // Shor, glossed «гром».
+    ja_sd: ["らいさま", "ɾaisama"],  // The 大阪弁 dictionary gives (お)らい(さま), the on reading of 雷, for eastern Ōu.
+    ja_kg: ["雷", "kaminaɾi"],  // The 大阪弁 dictionary gives かみなり for Kyushu.
+    ja_osa: ["雷", "kaminaɾi"],  // Osaka かみなり(さん) (大阪弁 dictionary: Kinki and elsewhere).
+    ja_kyo: ["雷", "kaminaɾi"],  // かみなり is the Kinki word (大阪弁 dictionary).
+    ja_hak: ["雷", "kaminaɾi"],  // The 大阪弁 dictionary gives かみなり for Kyushu.
   },
 };

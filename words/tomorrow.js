@@ -905,6 +905,10 @@ WORDS.tomorrow = {
     bor: "plain",
     zdj: "plain",
     luy: "plain",
+    eve: "plain",
+    ude: "plain",
+    ja_kg: "morning",
+    ja_osa: "morning",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -1754,5 +1758,9 @@ WORDS.tomorrow = {
     bor: ["barogwato", "baɾoɡwato"],  // The word in James 4:13-14 and Luke 13:32 of the Bororo New Testament. No image is recorded for it, so it counts as a word of its own.
     zdj: ["mauɗu", "mauɗu"],  // The Ngazidja word for tomorrow.
     luy: ["muchuli", "mutʃuli"],  // The Luhya word for tomorrow.
+    eve: ["тиминак", "timinak"],  // Even, glossed «завтра».
+    ude: ["тимана", "timana"],  // Udege, glossed «завтра».
+    ja_kg: ["あいた", "aita"],  // Kagoshima あいた 'tomorrow' (JLect: Kagoshima, Koshikijima). The 大阪弁 dictionary lists あいた as a variant of あした in Kawachi, so it keeps the 'morning' route.
+    ja_osa: ["明日", "aɕita"],  // Osaka headword あした (大阪弁 dictionary).
   },
 };

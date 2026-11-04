@@ -836,5 +836,6 @@ WORDS.silk = {
     arc: ["ܫܐܪܝܐ", "ʃeːʔraːjaː"],  // Šēʾrāyā, found in Babylonian and Samaritan Aramaic and in Syriac (Comprehensive Aramaic Lexicon).
     zdj: ["hariri", "hariri"],  // From Arabic ḥarīr 'silk', as in Swahili hariri.
     cop: ["ϣⲉⲛⲥ", "ʃens"],  // Coptic for silk.
+    kim: ["торғу", "torɣu"],  // Tofa, glossed «шёлк, шёлковый» in Rassadin's dictionary.
   }
 };

@@ -675,6 +675,11 @@ WORDS.grandmother = {
     usp: "unknown",
     zdj: "unknown",
     tig: "unknown",
+    kim: "unknown",
+    eve: "one",
+    ja_aom: "unknown",
+    ja_sd: "unknown",
+    ja_kg: "unknown",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -1294,5 +1299,10 @@ WORDS.grandmother = {
     usp: ["titʼ", "titʼ"],  // From 2 Timothy 1:5 (atit' Loida 'your grandmother Lois', beside anan Eunice 'your mother', this row's nan), without the possessive a-. The Bible verse gives one word for grandmother and does not say whether the father's and the mother's mother are told apart.
     zdj: ["koko", "koko"],  // The Ngazidja word for a grandmother.
     tig: ["አቦት", "ʔabot"],  // The Tigre word for a grandmother.
+    kim: ["ӄырған-аба", "qɯrɣanaba"],  // Tofa, glossed «бабушка» in Rassadin's dictionary.
+    eve: ["ата", "ata"],  // Even, glossed «мать отца или матери».
+    ja_aom: ["ばっちゃ", "battɕa"],  // Aomori ばっちゃ 'grandma' (JLect; 津軽語辞典 'お婆ちゃんの愛称').
+    ja_sd: ["おばんつぁん", "obantsaɴ"],  // Sendai おばんつぁん 'grandma' (JLect: Miyagi, Sendai); 仙台弁 ばんつぁん 'ばあさん'.
+    ja_kg: ["おばっさん", "obassaɴ"],  // Kagoshima おばっさん 'grandma' (JLect); also うんぼ.
   },
 };

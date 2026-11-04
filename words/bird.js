@@ -1215,5 +1215,6 @@ WORDS.bird = {
     gha: ["ag̣aḍịḍ", "aɟadˤedˤ"],
     auj: ["agəṭìṭ", "aɡəˈtˤitˤ"],  // Also 'sparrow'; the general Berber word for bird.
     siz: ["ašṭiṭ", "aʃtˤitˤ"],
+    ude: ["чиндʼа", "tʃindʔa"],  // Udege, glossed «птица».
   },
 };

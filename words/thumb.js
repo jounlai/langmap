@@ -633,6 +633,9 @@ WORDS.thumb = {
     cuk: "unknown",
     zdj: "unknown",
     hts: "plain",
+    gld: "plain",
+    eve: "plain",
+    ja_aom: "mother",
   },
   routes: {
     mother: {"color":"#db2777","emoji":"👪","en":"mother · parent · elder kin","ja":"母・親・年長の身内","ko":"어머니 · 어버이 · 웃어른","zh":"母亲・父母・长辈","yue":"阿媽 · 父母 · 長輩","vi":"mẹ · cha mẹ · bậc trên","th":"แม่ · พ่อแม่ · ญาติผู้ใหญ่","id":"ibu · orang tua · kerabat tua","hi":"माँ · माता-पिता · बड़े","de":"Mutter · Eltern · ältere Verwandte","fr":"mère · parent · aîné","it":"madre · genitore · parente anziano","es":"madre · padre · pariente mayor","pt":"mãe · pai · parente mais velho","ru":"мать · родитель · старший родич","uk":"мати · батько · старший родич","ar":"أم · والد · قريب أكبر","he":"אם · הורה · קרוב מבוגר","sw":"mama · mzazi · ndugu mkubwa"},
@@ -1210,5 +1213,8 @@ WORDS.thumb = {
     cuk: ["goo dummad", "ɡoː dumːad"],  // The word for the thumb in Exodus 29:20, Leviticus 8:23 and 14:14 (e-goo-dummad-argan-nuedsikidgi 'on his right thumb') and Judges 1:6-7 (plural goo-dummagan) of the Kuna Bible; the parts are not glossed in the source.
     zdj: ["shaya sha koo", "ʃaja ʃa koo"],  // The Ngazidja phrase for the thumb.
     hts: ["basluko", "baɬuko"],  // Wiktionary glosses it 'thumb, big toe, or its nail or claw': one word for the thumb and the big toe.
+    gld: ["пӯруэн", "puːruən"],  // Nanai, glossed «большой палец» in Onenko 1989.
+    eve: ["хөрэгэн", "hørəɡən"],  // Even, glossed «большой палец».
+    ja_aom: ["おどゆび", "odojɯbi"],  // Tsugaru おどゆび 'thumb' (津軽語辞典); the 大阪弁 dictionary explains it as 御父指 'father finger', used in Ōu. A parent finger, so route mother, like 親指.
   },
 };

@@ -933,5 +933,7 @@ WORDS.butterfly = {
     siz: ["zrizmá", "zrizˈma"],
     sga: ["etelachán", "ˈedʲelaxaːn"],  // 'The little flying creature', from etelach 'flying'; the ancestor of Irish féileacán (eDIL).
     afb: ["طرفشانة", "tˤerfeʃaːna"],  // The Gulf Arabic word for the butterfly.
+    eve: ["докал", "dokal"],  // Even, glossed «бабочка».
+    cjs: ["қонақ", "qonaq"],  // Shor, glossed «бабочка».
   },
 };

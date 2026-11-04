@@ -1178,5 +1178,6 @@ WORDS.daughter = {
     zh_jiao: ["闺女", "kuə̃˨˩˧ ny˥˥"],
     mnp: ["阿娘囝", "a˥˦ niɔŋ˧˧ kuiŋ˨˩"],  // Ends in 囝 'child', like Putian 婶娘囝.
     onw: ["ⲁⲥⲧ", "ast"],  // Attested in the Old Nubian psalms from Dongola, e.g. ⲧⲁⲛ ⲁⲥⲧ 'his/her daughter'.
+    ude: ["аӡига", "adʒiɡa"],  // Udege, glossed «дочь».
   },
 };

@@ -344,6 +344,16 @@ WORDS.dragonfly = {
     csb: "other",
     li: "plain",
     acw: "plain",
+    kim: "plain",
+    gld: "plain",
+    eve: "plain",
+    ude: "plain",
+    ja_aom: "plain",
+    ja_sd: "plain",
+    ja_osa: "plain",
+    ja_kyo: "plain",
+    ja_hak: "plain",
+    ja_hir: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -633,5 +643,15 @@ WORDS.dragonfly = {
     csb: ["żôłniérz", "ˈʒɞwɲeʃ"],  // Kashubian żôłniérz, the same word as 'soldier'; Wiktionary IPA /ˈʒɞw.ɲer̝/, final rz written as in the row (mòrze /ˈmwɛʒɛ/, devoiced finally).
     li: ["Libäll", "liˈbɛl"],  // Limburgish word for the dragonfly, from New Latin libellula.
     acw: ["يعسوب", "jaʕˈsuːb"],  // The Hijazi word for the dragonfly.
+    kim: ["моӈ-баъш", "moŋbaʔʃ"],  // Tofa, glossed «стрекоза» in Rassadin's dictionary.
+    gld: ["курбэнчу", "kurbəntʃu"],  // Nanai, glossed «стрекоза» in Onenko 1989.
+    eve: ["нөкилнэ", "nøkilnə"],  // Even, glossed «стрекоза».
+    ude: ["гидоло", "ɡidolo"],  // Udege, glossed «стрекоза».
+    ja_aom: ["だんぶり", "dambɯɾi"],  // Tsugaru だんぶり 'dragonfly' (津軽語辞典); the 大阪弁 dictionary gives だんぶり for northern Ōu.
+    ja_sd: ["あけず", "akezɯ"],  // The 大阪弁 dictionary gives あけず / あきず for Ōu.
+    ja_osa: ["とんぼ", "tombo"],  // Osaka headword とんぼ (大阪弁 dictionary).
+    ja_kyo: ["とんぼ", "tombo"],  // とんぼ is the word from northern Kyushu to Kantō (大阪弁 dictionary).
+    ja_hak: ["とんぼ", "tombo"],  // とんぼ is the word from northern Kyushu to Kantō (大阪弁 dictionary).
+    ja_hir: ["とんぼ", "tombo"],  // とんぼ is the word from northern Kyushu to Kantō (大阪弁 dictionary).
   },
 };

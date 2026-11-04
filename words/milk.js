@@ -1173,5 +1173,6 @@ WORDS.milk = {
     siz: ["axí", "aˈχi"],
     pwn: ["tutu", "tutu"],  // North Paiwan tutu, glossed 女性胸部；奶 'breasts; milk'.
     ckv: ["guling", "ɡuliŋ"],  // Kavalan word for (cow's) milk.
+    ude: ["косʼо", "kosʔo"],  // Udege, glossed «молоко».
   },
 };

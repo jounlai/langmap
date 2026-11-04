@@ -855,6 +855,15 @@ WORDS.yesterday = {
     acu: "distinct",
     jiv: "distinct",
     zdj: "distinct",
+    eve: "distinct",
+    ude: "distinct",
+    cjs: "distinct",
+    ja_aom: "distinct",
+    ja_kg: "distinct",
+    ja_osa: "distinct",
+    ja_kyo: "distinct",
+    ja_hak: "distinct",
+    ja_hir: "distinct",
   },
   routes: {
     same: {"color":"#db2777","emoji":"🔁","en":"one word for yesterday and tomorrow","ja":"昨日と明日が同じ語","ko":"어제와 내일이 한 낱말","zh":"昨天和明天同一个词","yue":"尋日同聽日同一個詞","vi":"một từ cho hôm qua và ngày mai","th":"คำเดียวทั้งเมื่อวานและพรุ่งนี้","id":"satu kata untuk kemarin dan besok","hi":"बीते और आने वाले कल का एक शब्द","de":"ein Wort für gestern und morgen","fr":"un mot pour hier et demain","it":"una parola per ieri e domani","es":"una palabra para ayer y mañana","pt":"uma palavra para ontem e amanhã","ru":"одно слово для вчера и завтра","uk":"одне слово для учора й завтра","ar":"كلمة واحدة لأمس وغد","he":"מילה אחת לאתמול ולמחר","sw":"neno moja kwa jana na kesho"},
@@ -1655,5 +1664,14 @@ WORDS.yesterday = {
     acu: ["yau", "jau"],  // The word in John 4:52 ('Yau tsaa yantanti...', yesterday at the seventh hour) of the Achuar New Testament, the same word as Shuar yau; tomorrow is this row's kashin.
     jiv: ["yau", "jau"],  // The word in John 4:52 ('Yau, nantu pukuntamtai...', yesterday at the seventh hour) of the Shuar New Testament, the same word as Achuar yau; tomorrow is this row's kashin.
     zdj: ["djana", "dʒana"],  // Compare Swahili jana.
+    eve: ["тинив", "tiniv"],  // Even, glossed «вчера».
+    ude: ["тинэнэӈи", "tinənəŋi"],  // Udege, glossed «вчера».
+    cjs: ["кече", "ketʃe"],  // Shor, glossed «вчера».
+    ja_aom: ["きな", "kina"],  // Tsugaru きな 'yesterday' (津軽語辞典; JLect: Aomori, Tsugaru).
+    ja_kg: ["きぬ", "kinɯ"],  // Kagoshima きぬ 'yesterday' (JLect); the 大阪弁 dictionary gives きぬ(ー) for southern Kyushu.
+    ja_osa: ["きんの", "kinno"],  // Osaka きんの 'yesterday'; used in central Kinki and Tōkai (大阪弁 dictionary).
+    ja_kyo: ["きんの", "kinno"],  // Kyoto きんの 'yesterday' (京ことば; also 大阪弁 dictionary: central Kinki).
+    ja_hak: ["きにょー", "kiɲoː"],  // The 大阪弁 dictionary gives きにょ(ー) for Chikuzen (the Hakata area), Sanyō and elsewhere.
+    ja_hir: ["きにょう", "kiɲoː"],  // Hiroshima きにょう 'yesterday' (JLect); the 大阪弁 dictionary gives きにょ(ー) for Sanyō. JLect also has きんにょう.
   },
 };

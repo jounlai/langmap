@@ -1216,5 +1216,7 @@ WORDS.sleep = {
     siz: ["əṭṭəs", "ətˤːəs"],  // Schiattarella's speakers also use nəddum, 'lie down, sleep'.
     zh_jiao: ["困觉", "kʰuə̃˦˨ tɕiɔ˦˨"],  // 睏 'drowsy' + 觉 'sleep', not Standard 睡觉; Wiktionary records the same word in dialectal Mandarin, Wu, Gan, Xiang, Hakka and Cantonese.
     zag: ["ge", "ɡɛ"],  // The Zaghawa verb 'to sleep'.
+    kim: ["удуур", "uduːr"],  // Tofa, glossed «спать»; Rassadin's stem is уду-, and удуур has the -ур citation ending of the row's other verbs.
+    ude: ["ӈуа", "ŋua"],  // Udege, glossed «спать».
   },
 };

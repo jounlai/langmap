@@ -679,6 +679,13 @@ WORDS.bat = {
     qxs: "plain",
     twm: "plain",
     clk: "plain",
+    kr: "plain",
+    rut: "plain",
+    bdk: "plain",
+    tkr: "plain",
+    khv: "plain",
+    agx: "plain",
+    kjj: "plain",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1303,5 +1310,12 @@ WORDS.bat = {
     qxs: ["tshɿχkəmə", "tsʰɿ˥˥χkə˧˧mə˧˧"],  // Sun 1991 (Taoping Qiang) tshɿ⁵⁵χkə³³mə³³. Surface and tone letters follow the row's pattern.
     twm: ["pᴀ13me53loŋ13", "pᴀ˩˧me˥˧loŋ˩˧"],  // Sun 1991 (Mama Tshona) pᴀ¹³me⁵³loŋ¹³, the row's list. Tone letters from the row's pairs.
     clk: ["kɑ55pɯu55", "kɑ˥˥pɯu˥˥"],  // Sun 1991 (Idu) kɑ⁵⁵pɯu⁵⁵, the row's list. Tone letters from the row's pairs.
+    kr: ["batata", "batata"],  // WOLD Kanuri bàtátá, the row's list (71 of 73). Tone marks left out as the row does.
+    rut: ["хъархъанаг", "qarqanaɡ"],  // IDS Rutul хъархъанаг, the row's list (59 of 70). Palochka and IPA from the row's pairs.
+    bdk: ["йараса", "jarasa"],  // IDS Budukh, the row's list. Palochka and IPA from the row's pairs.
+    tkr: ["чирхӏоӏ чапап", "tʃirħoˤ tʃapap"],  // IDS Tsakhur, the row's list. Palochka and IPA from the row's pairs.
+    khv: ["хупурас гъелӏу", "χupuras ʁetɬu"],  // IDS Khwarshi, the row's list. Palochka and IPA from the row's pairs.
+    agx: ["чапрахил", "tʃapraχil"],  // IDS Aghul, the row's list. Palochka and IPA from the row's pairs.
+    kjj: ["цӏвакьунур", "tsʼʷaqʼunur"],  // IDS Khinalug, the row's list. Palochka and IPA from the row's pairs.
   },
 };

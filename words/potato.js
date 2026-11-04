@@ -564,6 +564,14 @@ WORDS.potato = {
     twm: "unknown",
     clk: "unknown",
     nij: "other",
+    kr: "unknown",
+    rut: "truffle",
+    bdk: "truffle",
+    tkr: "truffle",
+    khv: "truffle",
+    agx: "unknown",
+    udi: "truffle",
+    kjj: "truffle",
   },
   routes: {
     papa: {"color":"#ca8a04","emoji":"🏔️","en":"Quechua papa · Taíno batata","ja":"ケチュア語 papa・タイノ語 batata","ko":"케추아어 papa · 타이노어 batata","zh":"克丘亚语 papa・泰诺语 batata","yue":"克丘亞語 papa · 泰諾語 batata","vi":"Quechua papa · Taíno batata","th":"เกชัว papa · ไตโน batata","id":"Quechua papa · Taíno batata","hi":"क्वेचुआ papa · ताइनो batata","de":"Quechua papa · Taíno batata","fr":"quechua papa · taïno batata","it":"quechua papa · taíno batata","es":"quechua papa · taíno batata","pt":"quíchua papa · taíno batata","ru":"кечуа papa · таино batata","uk":"кечуа papa · таїно batata","ar":"كيتشوا papa · تاينو batata","he":"קצ'ואה papa · טאינו batata","sw":"Kiquechua papa · Kitaino batata"},
@@ -1069,5 +1077,13 @@ WORDS.potato = {
     twm: ["che53", "che˥˧"],  // Sun 1991 (Mama Tshona) che⁵³, the row's list. Tone letters from the row's pairs.
     clk: ["gɯ55lu35", "ɡɯ˥˥lu˧˥"],  // Sun 1991 (Idu) gɯ⁵⁵lu³⁵, the row's list. Tone letters from the row's pairs.
     nij: ["kentang", "kəntaŋ"],  // Hardeland: "KANTANG, kentang, Kartoffeln (wachsen auf Borneo nicht)"; both scans
+    kr: ["kunduwu", "kunduwu"],  // WOLD Kanuri kùndúwù, the row's list (71 of 73). Tone marks left out as the row does.
+    rut: ["картышка", "kartɨʃka"],  // IDS Rutul картышка, the row's list (59 of 70). Russian loan, route as lez, av, ce. Palochka and IPA from the row's pairs.
+    bdk: ["кьартӏушкке", "qʼartʼuʃkːe"],  // IDS Budukh, the row's list. Route as its neighbours. Palochka and IPA from the row's pairs.
+    tkr: ["кӏартӏуф", "kʼartʼuf"],  // IDS Tsakhur, the row's list. Route as its neighbours. Palochka and IPA from the row's pairs.
+    khv: ["картушка", "kartuʃka"],  // IDS Khwarshi, the row's list. Route as its neighbours. Palochka and IPA from the row's pairs.
+    agx: ["гӏуй", "ʕuj"],  // IDS Aghul, the row's list. Palochka and IPA from the row's pairs.
+    udi: ["кӏартӏопӏи", "kʼartʼopʼi"],  // IDS Udi, the row's list. Route as its neighbours. Palochka and IPA from the row's pairs.
+    kjj: ["картышкка", "kʰartʰɨʃkːa"],  // IDS Khinalug, the row's list. Route as its neighbours. Palochka and IPA from the row's pairs.
   },
 };

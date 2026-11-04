@@ -789,6 +789,14 @@ WORDS.rainbow = {
     swi: "plain",
     hni: "plain",
     mrw: "plain",
+    lbe: "plain",
+    ddo: "plain",
+    dar: "plain",
+    kr: "plain",
+    rut: "plain",
+    bdk: "plain",
+    khv: "plain",
+    kjj: "plain",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1521,5 +1529,13 @@ WORDS.rainbow = {
     swi: ["ka1 ȶje1 nam3", "ka˩˩ ȶje˩˩ nam˧˧"],  // IDS Sui ka.1 cje.1 nam.3; c written ȶ as the row has it. Tone letters from the row's pairs.
     hni: ["beidollulcuq", "be˧˧do˥˥lu˥˥tsʰu˧˩"],  // Satterthwaite-Phillips list, Hani, bei dol lul cuq, printed in Haqniqdoq spelling. That list agrees with Sun's Dazhai on bat and liquor. IPA from the row's pairs.
     mrw: ["boloto", "boloto"],  // Page image p.116: "BOLOTO  RAINBOW. Kaoto o boloto, there is a rainbow"; also PAGAIAO, same on p.334
+    lbe: ["ссурул ккуртта", "sːurul kːurtːa"],  // NorthEuraLex Lak, the row's list (67 of 71 cells match). IPA spacing as the row.
+    ddo: ["ашуни", "aʃuni"],  // NorthEuraLex Tsez, the row's list (59 of 70).
+    dar: ["зурхӏяб", "zurħjab"],  // NorthEuraLex Dargwa, the row's list (57 of 71).
+    kr: ["kəmarma", "kəmarma"],  // WOLD Kanuri kə̀mármà, the row's list (71 of 73). Tone marks left out as the row does.
+    rut: ["хаӏле ваз", "χaˤle waz"],  // IDS Rutul хаІле ваз, the row's list (59 of 70). Palochka and IPA from the row's pairs.
+    bdk: ["тӏам", "tʼam"],  // IDS Budukh, the row's list. Palochka and IPA from the row's pairs.
+    khv: ["зарес ашу", "zares aʃu"],  // IDS Khwarshi, the row's list. Palochka and IPA from the row's pairs.
+    kjj: ["там", "tʰam"],  // IDS Khinalug, the row's list. Palochka and IPA from the row's pairs.
   },
 };

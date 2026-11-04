@@ -355,6 +355,15 @@ WORDS.hiccup = {
     roo: "plain",
     swi: "plain",
     nij: "plain",
+    kr: "plain",
+    rut: "plain",
+    bdk: "plain",
+    tkr: "plain",
+    tab: "plain",
+    khv: "plain",
+    agx: "plain",
+    udi: "plain",
+    kjj: "plain",
   },
   routes: {
     imitative: {"color":"#ea580c","emoji":"🔊","en":"imitating the sound","ja":"音のまね","ko":"소리 흉내","zh":"模仿声音","yue":"模仿聲音","vi":"mô phỏng âm thanh","th":"เลียนเสียง","id":"tiruan bunyi","hi":"ध्वनि की नक़ल","de":"lautmalend","fr":"imitant le bruit","it":"onomatopeico","es":"imita el sonido","pt":"imita o som","ru":"звукоподражание","uk":"звуконаслідування","ar":"محاكاة الصوت","he":"חיקוי הקול","sw":"kuiga sauti"},
@@ -656,5 +665,14 @@ WORDS.hiccup = {
     roo: ["repoo", "ɾepoː"],  // "repoo vRO. hiccup"
     swi: ["ʔək7", "ʔək˥˥"],  // IDS Sui ʔək.7, beside ʔnam.3. Tone letters from the row's pairs.
     nij: ["sahengkok", "sahəŋkok"],  // Hardeland: "SAHENGKOK, das Schluchzen, Aufstossen; (vulgo: Schluckauf)"; both scans
+    kr: ["səngettə", "səŋɡettə"],  // WOLD Kanuri sə́ngéttə́, the row's list (71 of 73). Tone marks left out as the row does.
+    rut: ["арпӏ выъын", "arpʼ wɨʔɨn"],  // IDS Rutul арпІ выъын, the row's list (59 of 70). Palochka and IPA from the row's pairs.
+    bdk: ["гьикӏ сиъи", "hikʼ siʔi"],  // IDS Budukh, the row's list. Palochka and IPA from the row's pairs.
+    tkr: ["хьытʼкӏ", "xɨtʲkʼ"],  // IDS Tsakhur, the row's list. Palochka and IPA from the row's pairs.
+    tab: ["гьинкӏар апӏуб", "hinkʼar apʼub"],  // IDS Tabasaran, the row's list. Palochka and IPA from the row's pairs.
+    khv: ["секӏ багьа", "sekʼ baha"],  // IDS Khwarshi, the row's list. Palochka and IPA from the row's pairs.
+    agx: ["гьинкӏ йирхӏас", "hinkʼ jirħas"],  // IDS Aghul, the row's list. Palochka and IPA from the row's pairs.
+    udi: ["бекӏтӏосун", "bekʼtʼosun"],  // IDS Udi, the row's list. Palochka and IPA from the row's pairs.
+    kjj: ["гаьгирмишкувал", "ɡæɡirmiʃkʰuval"],  // IDS Khinalug, the row's list. Palochka and IPA from the row's pairs.
   },
 };

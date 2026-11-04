@@ -474,6 +474,12 @@ WORDS.whale = {
     mmd: "fish",
     swi: "fish",
     nij: "fish",
+    rut: "plain",
+    bdk: "plain",
+    tkr: "plain",
+    khv: "plain",
+    agx: "plain",
+    udi: "plain",
   },
   routes: {
     fish: {"color":"#2563eb","emoji":"🐟","en":"called a fish","ja":"「魚」と呼ぶ","ko":"\"물고기\"라 부름","zh":"称作\"鱼\"","yue":"叫做「魚」","vi":"gọi là cá","th":"เรียกว่าปลา","id":"disebut ikan","hi":"मछली कहा जाता है","de":"als Fisch bezeichnet","fr":"appelée poisson","it":"chiamata pesce","es":"llamada pez","pt":"chamada peixe","ru":"называют рыбой","uk":"називають рибою","ar":"تُسمّى سمكة","he":"נקרא דג","sw":"huitwa samaki"},
@@ -893,5 +899,11 @@ WORDS.whale = {
     mmd: ["tɕin5 jy2", "tɕin˦˦ jy˨˧˩"],  // IDS Maonan, the row's list: cin.5 jü.2. Resembles Chinese 鯨魚, as zh. Tone letters from the row's pairs.
     swi: ["mom6 tɕin3 wi4", "mom˨˦ tɕin˧˧ wi˥˩"],  // IDS Sui mom.6 ćin.3 wi.4: the row's fish plus what resembles Chinese 鯨魚. Tone letters from the row's pairs.
     nij: ["lauk ludan", "lauk ludan"],  // Hardeland: "LUDAN, lauk ludan, Wallfisch"; both scans; lauk = fish
+    rut: ["кит", "kit"],  // IDS Rutul кит, the row's list (59 of 70). Russian loan. Palochka and IPA from the row's pairs.
+    bdk: ["кит", "kit"],  // IDS Budukh, the row's list. Palochka and IPA from the row's pairs.
+    tkr: ["кит", "kit"],  // IDS Tsakhur, the row's list. Palochka and IPA from the row's pairs.
+    khv: ["кит", "kit"],  // IDS Khwarshi, the row's list. Palochka and IPA from the row's pairs.
+    agx: ["кит", "kit"],  // IDS Aghul, the row's list. Palochka and IPA from the row's pairs.
+    udi: ["кит", "kit"],  // IDS Udi, the row's list. Palochka and IPA from the row's pairs.
   },
 };

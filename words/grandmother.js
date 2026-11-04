@@ -707,6 +707,11 @@ WORDS.grandmother = {
     gqu: "unknown",
     twm: "unknown",
     clk: "unknown",
+    rut: "one",
+    bdk: "unknown",
+    khv: "unknown",
+    udi: "unknown",
+    kjj: "unknown",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -1358,5 +1363,10 @@ WORDS.grandmother = {
     gqu: ["ta13 ȵa35", "ta˩˧ ȵa˧˥"],  // IDS Qau Kelao, already the source of several cells in this row, though the row's base list is another variety. ta.13 ńa.35.
     twm: ["ʔᴀi53", "ʔᴀi˥˧"],  // Sun 1991 (Mama Tshona) ʔᴀi⁵³, the row's list. Tone letters from the row's pairs.
     clk: ["nɑ55jɑ55", "nɑ˥˥jɑ˥˥"],  // Sun 1991 (Idu) nɑ⁵⁵jɑ⁵⁵, the row's list. Tone letters from the row's pairs.
+    rut: ["кьаӏсды нин", "qʼaˤsdɨ nin"],  // IDS Rutul кьаІсды нин, the row's list (59 of 70). Palochka and IPA from the row's pairs.
+    bdk: ["дада", "dada"],  // IDS Budukh, the row's list. List entry reads дада, нана, кьусу гьедж. Palochka and IPA from the row's pairs.
+    khv: ["йукъучӏи", "juqʼutʃʼi"],  // IDS Khwarshi, the row's list. Palochka and IPA from the row's pairs.
+    udi: ["кална", "kalna"],  // IDS Udi, the row's list. Palochka and IPA from the row's pairs.
+    kjj: ["эжаь", "eʒæ"],  // IDS Khinalug, the row's list. Palochka and IPA from the row's pairs.
   },
 };

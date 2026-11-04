@@ -1,7 +1,7 @@
 /**
  * Wine is a word that crosses language families, and nobody has established which way it travelled.
  * Indo-European has *wóyh₁nom — Latin vīnum, Greek oînos, Armenian gini, Hittite wiyana-. Semitic has
- * *wayn- — Hebrew yayin, Ugaritic yn, Arabic wayn. Kartvelian has *ɣwino- — Georgian ღვინო. Three
+ * *wayn- — Hebrew yayin, Ugaritic yn, Arabic wayn, an old word; the everyday Arabic cell is نبيذ. Kartvelian has *ɣwino- — Georgian ღვინო. Three
  * unrelated families, one word, and the oldest chemical traces of winemaking anywhere are from Georgia
  * and the south Caucasus around 6000 BC, which is exactly where all three families are in contact. The
  * honest state of the question is that the word spread with the drink and the direction is unsettled.

@@ -374,7 +374,7 @@ WORDS.dragonfly = {
     ar: ["يعسوب", "jaʕsuːb"],  // يعسوب also once meant 'queen bee' and 'leader'.
     fr: ["libellule", "libɛlyl"],  // From the New Latin libellula, a little 'carpenter's level', after the insect's level hovering.
     bn: ["ফড়িং", "pʰoɽiŋ"],  // Inherited through Old Bengali ফড়িঙ্গ from Sanskrit.
-    ru: ["стрекоза", "strʲɪkɐˈza"],  // Related to стрекотать 'to chirr' or стрекать 'to sting' (Vasmer).
+    ru: ["стрекоза", "strʲɪkɐˈza"],  // Vasmer derives it from стрекать 'to jump' or 'to sting', and cites Ilyinsky for a link with стрекотать 'to chirr'.
     id: ["capung", "tʃapuŋ"],  // Borrowed via Betawi from Balinese capung.
     de: ["Libelle", "liˈbɛlə"],  // Shortened from New Latin libellula, Linnaeus's coinage from libella 'carpenter's level'.
     ja: ["トンボ", "tombo"],  // From earlier tōbō, tonbō; often written 蜻蛉 with Chinese characters read as tonbo.

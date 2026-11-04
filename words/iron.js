@@ -7,9 +7,9 @@
  * split tells you roughly when the family split.
  *
  * The other half of the story is that the first iron anyone had fell out of the sky. Sumerian calls it
- * 𒀭𒁇 an-bar, "sky-metal"; Egyptian bjꜣ n pt is "metal of heaven", and Coptic ⲃⲉⲛⲓⲡⲉ is still that
+ * 𒀭𒁇 an-bar, a special term; Egyptian bjꜣ n pt is "metal of heaven", and Coptic ⲃⲉⲛⲓⲡⲉ is still that
  * phrase, worn down. And the Hittites, who are usually credited with the technology, did not use an
- * Indo-European word for it either — Hittite ḫapalki is borrowed from Hattic, the language that was
+ * Indo-European word for it either — Hittite ḫapalki is credited, with some dispute, to Hattic, the language that was
  * in Anatolia before them, and which is also on this map.
  */
 WORDS.iron = {

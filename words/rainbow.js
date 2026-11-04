@@ -780,7 +780,7 @@ WORDS.rainbow = {
   },
   data: {
     lb: ["Reebou", "ˈʁeːbəʊ̯"],  // Literally "rain-bow": Reen "rain" + Bou "bow, arc", like German Regenbogen.
-    ar: ["قوس قزح", "qaws quzaħ"],  // Literally "bow of Quzah", named after a pre-Islamic Arab god of storms and weather.
+    ar: ["قوس قزح", "qaws quzaħ"],  // Literally "bow of Quzah", named after a pre-Islamic Arab god of weather.
     acw: ["قوس قزح", "ɡoːs ɡuzaħ"],  // The Arabic "bow of Quzah", said with the Hijazi g for q.
     en: ["rainbow", "ˈɹeɪnbəʊ"],  // Rain + bow "arch", shared with German Regenbogen, Dutch regenboog and Danish regnbue.
     en_us: ["rainbow", "ˈɹeɪnboʊ"],  // Rain + bow "arch", the one English word for it.

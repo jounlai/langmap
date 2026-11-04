@@ -1,5 +1,5 @@
 /**
- * Butterfly is the word that refuses to travel. Within Indo-European alone, English butterfly, German Schmetterling, French papillon, Italian farfalla, Spanish mariposa and Russian бабочка are six unrelated formations for one insect, where 'water' or 'three' would be one word six ways. Two of the six are the same superstition arrived at twice: Schmetterling is built on East Central German Schmetten 'cream' and butterfly on butter, both from the belief that witches took the shape to steal the milk — while бабочка is a third motivation entirely, Vasmer's diminutive of баба, the ancestress's soul. What DOES recur, across families that have never met, is reduplication: Proto-Mayan *pehpen, Proto-Austronesian *baŋbaŋ, Proto-Polynesian *pepe and Proto-Kartvelian *perper- all have the shape, and Klimov derives the last of them from *per- 'to fly'. Their daughters keep it — Hebrew פרפר, Georgian პეპელა, Bulgarian пеперуда, Livonian lib-lab-, Nheengatu panapana, Pintupi-Luritja pintapinta. The soul-equation surfaces independently too: Burmese လိပ်ပြာ and Malagasy lolo each mean 'butterfly' and 'soul' as senses of one word, and Thai ผีเสื้อ is literally 'ghost-garment'. And where a language will not name it in one word it describes it: Hausa malam-buɗa-littāfi is "teacher, open the book", Welsh glöyn byw is 'living ember', Nuer del kwoth is "God's sheep". Note that many languages do not separate butterflies from moths at all, and that the four Sámi rows in the north build the word from 'sun' plus 'bird'.
+ * Butterfly is the word that refuses to travel. Within Indo-European alone, English butterfly, German Schmetterling, French papillon, Italian farfalla, Spanish mariposa and Russian бабочка are six different formations for one insect, where 'water' or 'three' would be one word six ways. Two of the six are the same superstition arrived at twice: Schmetterling is built on East Central German Schmetten 'cream' and butterfly on butter, both from the belief that witches took the shape to steal the milk — while бабочка is a third motivation entirely, Vasmer's diminutive of баба, the ancestress's soul. What DOES recur, across families that have never met, is reduplication: Proto-Mayan *pehpen, Proto-Austronesian *baŋbaŋ, Proto-Polynesian *pepe and Proto-Kartvelian *perper- all have the shape, and Klimov derives the last of them from *per- 'to fly'. Their daughters keep it — Hebrew פרפר, Georgian პეპელა, Bulgarian пеперуда, Livonian lib-lab-, Nheengatu panapana, Pintupi-Luritja pintapinta. The soul-equation surfaces independently too: Burmese လိပ်ပြာ and Malagasy lolo each mean 'butterfly' and 'soul' as senses of one word, and Thai ผีเสื้อ is literally 'ghost-garment'. And where a language will not name it in one word it describes it: Hausa malam-buɗa-littāfi is "teacher, open the book", Welsh glöyn byw is 'living ember', Nuer del kwoth is "God's sheep". Note that many languages do not separate butterflies from moths at all, and that the four Sámi rows in the north build the word from 'sun' plus 'bird'.
  */
 WORDS.butterfly = {
   emoji: "🦋",
@@ -138,7 +138,7 @@ WORDS.butterfly = {
     en: ["butterfly", "ˈbʌtəflaɪ"],  // Opaque compound 'butter' + 'fly', from Old English butorflēoge; WOLD glosses it 'BUTTER + FLY'.
     de: ["Schmetterling", "ˈʃmɛtɐlɪŋ"],  // From East Central German Schmetten 'cream' (cf. Czech smetana) — the same milk-thief folk belief behind English butterfly.
     fr: ["papillon", "papijɔ̃"],  // From Latin papilio.
-    it: ["farfalla", "farˈfalla"],  // Expressive far-falla; not a reflex of Latin papilio, unlike French papillon.
+    it: ["farfalla", "farˈfalla"],  // Of uncertain origin: Treccani suggests a sound-symbolic word, Wiktionary perhaps Old Italian parpaglione from Latin papilio.
     es: ["mariposa", "maɾiˈposa"],  // Traditionally explained as a univerbation of the phrase María, pósate 'Mary, alight!'.
     pt: ["borboleta", "buɾbuˈletɐ"],  // From a Latin reduplicated diminutive of bellus 'pretty' (belbellita).
     ca: ["papallona", "pəpəˈʎonə"],  // From Latin papilio, like French papillon.
@@ -229,9 +229,9 @@ WORDS.butterfly = {
     ace: ["bangbang", "baŋbaŋ"],  // a reduplication, ACD's PWMP *baŋbaŋ set (cf. Cebuano alibangbang); variant bambang; covers moths too (bangbang sutra 'silk moth')
     iba: ["kelelaway", "kələlawaj"],
     fj: ["bēbē", "ᵐbeːᵐbeː"],  // Reduplicated bē-bē — the Oceanic *bebe root.
-    sm: ["pepe", "pepe"],  // Reduplicated pe-pe; Proto-Polynesian *pepe, recorded as such by IDS.
-    to: ["pepe", "pepe"],  // Reduplicated pe-pe; Proto-Polynesian *pepe.
-    tvl: ["pepe", "pepe"],  // Reduplicated pe-pe; Proto-Polynesian *pepe.
+    sm: ["pepe", "pepe"],  // Reduplicated pe-pe; POLLEX reconstructs *pepe 'butterfly' to Proto-Oceanic.
+    to: ["pepe", "pepe"],  // Reduplicated pe-pe; POLLEX reconstructs *pepe 'butterfly' to Proto-Oceanic.
+    tvl: ["pepe", "pepe"],  // Reduplicated pe-pe; POLLEX reconstructs *pepe 'butterfly' to Proto-Oceanic.
     rtm: ["pepe", "pepe"],  // Reduplicated pe-pe.
     rap: ["pepa", "pepa"],  // Reduplicated pe-pa.
     gil: ["bwebwe", "bʷebʷe"],  // Reduplicated bwe-bwe — the same Oceanic *bebe root as Fijian bēbē.
@@ -286,7 +286,7 @@ WORDS.butterfly = {
     tsi: ["ba̱xbog̱mgyemk", "bʌχboɢm̩ɡʲemk"],  // compound ending in gyemk 'sun/moon/heat' (so stated in the dictionary); Kitkatla dialect has wa̱xwog̱mgyemk, and adabiis 'beautiful' is also used
     kpj: ["otʃiʃa", "otʃiʃa"],
     kmh: ["gogaŋ", "ɡoɡaŋ"],  // reduplicative go-gaŋ; the database also records a variant gugaŋ
-    th: ["ผีเสื้อ", "pʰiː˩˩˦sɯa̯˥˩"],  // Compound ผี 'ghost, spirit' + เสื้อ; WOLD glosses it phǐi-sʉ̂a '[ghost-garment]'. The same word still means 'tutelary spirit'.
+    th: ["ผีเสื้อ", "pʰiː˩˩˦sɯa̯˥˩"],  // Compound ผี 'spirit' + เสื้อ 'tutelar': first a tutelary spirit, and the insect took the name from the old belief that it embodied one. WOLD's morpheme gloss is phǐi-sʉ̂a '[ghost-garment]'.
     sah: ["үрүмэччи", "yrymetʃːi"],  // the general word; NorthEuraLex also lists лыах, which the Sakha dictionary defines as a larger kind of butterfly (NEL writes чч as cː, rewritten here as the row-style affricate tɕː)
     acn: ["pʰă31ʐam35tʂam55", "pʰă˧˩ʐam˧˥tʂam˥˥"],
     clk: ["e55phi31ɦuŋ̩55gɑ55", "e˥˥pʰi˧˩ɦuŋ̩˥˥ɡɑ˥˥"],

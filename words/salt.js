@@ -1,6 +1,6 @@
 /**
  * Salt is a word that paid people. Proto-Indo-European *séh₂ls gives Latin sal, and from sal comes
- * salārium, the allowance Roman soldiers drew — which is why English still calls a wage a salary, and
+ * salārium, a Roman word for pay (the story that soldiers were paid in salt has no ancient support) — which is why English still calls a wage a salary, and
  * why salad (salted greens), sauce and sausage are all the same root wearing different clothes. The
  * word itself is inherited right across the family: Greek háls, Old Irish salann, Old Church Slavonic
  * solь, Gothic salt, Armenian ał, Tocharian A sāle. Two neighbours stand out by not joining in —

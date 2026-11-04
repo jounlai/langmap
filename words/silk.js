@@ -6,7 +6,7 @@
  * while sēta gave Seide, soie, seta, seda, zeta, síoda. Other families never
  * touched Rome: Persian abrišam (Hindi रेशम), Arabic ḥarīr (Swahili hariri),
  * Sanskrit sūtra (Malay/Indonesian sutra), and the East-Asian words 絹 kinu,
- * 비단, and Vietnamese tơ — straight from 絲.
+ * 비단, and Vietnamese tơ, the thread rather than the cloth — straight from 絲.
  */
 WORDS.silk = {
   label: {

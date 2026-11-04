@@ -737,10 +737,10 @@ WORDS.honey = {
     wuu_jh: ["蜂糖", "foŋ˧˧˦ dɑŋ˧˩˧"],
     cjy: ["蜂蜜", "fəŋ˩ miəʔ˨"],
     cjy_lv: ["蜂蜜", "xuʌŋ˨˦ miəʔ˨˧"],
-    hsn: ["蜂蜜", "xoŋ˧˧ mi˨˦"],
+    hsn: ["蜜糖", "mi˨˦ tan˩˧"],  // Literally "honey sugar", the Changsha word (Wiktionary dialect table and pronunciation).
     hsn_hy: ["蜂蜜", "xəŋ˦˦˥ mi˩˩˨"],
     hsn_yz: ["蜂蜜", "xoŋ˧˧ mi˩˩˨"],
-    gan: ["蜂蜜", "fuŋ˦˨ mit˥"],
+    gan: ["蜜糖", "mit˥ tʰɔŋ˨˦"],  // Literally "honey sugar", the Nanchang word (Wiktionary dialect table; MCPDict readings).
     gan_fz: ["蜂蜜", "fuŋ˩˩ mit˥"],
     zh_lz: ["蜂蜜", "fəŋ˧˩ mi˩˧"],
     hak_cn: ["蜂糖", "fuŋ˦ tʰoŋ˩˩"],

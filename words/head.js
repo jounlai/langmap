@@ -403,7 +403,7 @@ WORDS.head = {
     bug: ["ulu", "ulu"],
     war: ["ulo", "ˈʔulo"],
     bto: ["payo", "paˈjo"],
-    nan_te: ["头", "tʰau˥˥"],
+    nan_te: ["头壳", "tʰau˥˥ kʰak˨"],  // Literally "head shell", the Chaozhou word (Wiktionary dialect table and pronunciation).
     zh_tj: ["脑袋", "nɑu˩˧ tai"],
     hsb: ["hłowa", "ˈɦwɔwa"],
     csb: ["głowa", "ˈɡwɔva"],

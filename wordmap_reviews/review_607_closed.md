@@ -21,6 +21,14 @@ Wiktionary entry of 1,223 cells in 23 mainland SE Asian rows: 4 flagged.
 Readings: Wiktionary per-variety IPA (yue, zh_cd, hsn) or the MCPDict town
 table (zh_wh, cjy_lv, gan, yue_dg, yue_zs), normalised to each row's style.
 
+## Medium proposals applied
+hsn honey 蜂蜜 → 蜜糖, gan honey 蜂蜜 → 蜜糖, nan_te head 头 → 头壳 (dial-syn lists only the new word; reading sourced).
+
+## Medium proposals not applied (cell's word plausibly in use, or no reading)
+yue rainbow 彩虹 (天虹 also listed; 彩虹 common), zh_cd sleep 睡觉, zh_tj ear/bear/honey,
+zh_hf ear, zh_kf head, Wu 土 → 爛泥 'mud', Hakka/cdo wheel, Hokkien orange 柑仔 →
+橙/柳丁 (sense issue: 柑仔 is the mandarin orange; no town readings for 橙/柳丁 yet).
+
 ## Open — word looks right, no reading in the row's source
 zh_db 小拇哥, zh_sc 泥巴, zh_jh 雀子, zh_cq 腦殼 / 蜂糖, czh 蜜糖 / 洋芋頭 / 明朝,
 wuu 蜜糖 (row notation differs from Wiktionary Shanghai), wuu_nb 蜂糖,

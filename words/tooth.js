@@ -1118,7 +1118,7 @@ WORDS.tooth = {
     sog: ["dntʾ", "danda"],
     otk: ["𐱅𐰃𐱁", "tiʃ"],
     ami: ["wadis", "waðis"],
-    pwn: ["alis", "aɭis"],
+    pwn: ["aljis", "aʎis"],
     tay: ["gʼnux", "ɡʔnux"],
     bnn: ["niipun", "niipun"],
     trv: ["gupun", "ɡupun"],

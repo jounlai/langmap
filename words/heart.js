@@ -1163,7 +1163,7 @@ WORDS.heart = {
     otk: ["𐰚𐰭𐰠", "køŋyl"],
     ami: ["falocoʼ", "falotsoʔ"],
     pwn: ["varung", "vaɾuŋ"],
-    tay: ["nyux", "njux"],
+    tay: ["inlungan", "inluŋan"],
     bnn: ["is-aang", "isaaŋ"],
     trv: ["tama baraq", "tama baɾaq"],
     tsu: ["tʼuhu", "tʔuxu"],

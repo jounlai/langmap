@@ -1101,7 +1101,7 @@ WORDS.tongue = {
     otk: ["𐱅𐰃𐰠", "til"],
     ami: ["sema^", "səmaʔ"],
     pwn: ["sema", "səma"],
-    tay: ["hmaʼ", "hmaʔ"],
+    tay: ["hmaliʼ", "hmaliʔ"],
     bnn: ["maʼma", "maʔma"],
     trv: ["hema", "həma"],
     tsu: ["umo", "umo"],

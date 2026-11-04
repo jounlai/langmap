@@ -1155,7 +1155,7 @@ WORDS.star = {
       sog: ["ʾstʾrʾk", "əstaːreː"],
       otk: ["𐰖𐰆𐰞𐱃𐰆𐰕", "jultuz"],
       ami: ["foʼis", "foʔis"],
-      pwn: ["vituqan", "vituqan"],
+      pwn: ["vitjuqan", "vitʲuqan"],
       tay: ["bingah", "biŋah"],
       bnn: ["bintuhan", "bintuhan"],
       trv: ["pngrah", "pŋəɾah"],

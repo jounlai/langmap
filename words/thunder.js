@@ -778,6 +778,7 @@ WORDS.thunder = {
     chr: "plain",
     h_tagalog: "plain",
     kaw: "plain",
+    ko_gor: "sky",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1502,5 +1503,6 @@ WORDS.thunder = {
     chr: ["ᎠᏴᏓᏆᎶᏍᎩ", "ahjə̃dakʷalosɡi"],
     h_tagalog: ["ᜃᜓᜎᜓᜄ᜔", "kuˈloɡ"],  // Noceda & Sanlucar 1754: Colog, 'trueno'. The source is Latin; the Baybayin spelling is a transliteration. Stress follows the modern Wiktionary entry.
     kaw: ["ꦒ꧀ꦭꦥ꧀", "ɡlap"],  // Old Javanese glap in curse formulas: Alappanniṁ glap, translated 'may he be caught by thunderclap' (N.722, Alasantan, Masahar); Adan-Adan separates it from lightning without rain. Anjatan's note has 'lightning strike' for the same word. The source prints it in Latin letters; the Javanese-script spelling is a transliteration.
+    ko_gor: ["天動", "*tʰjəntoŋ"],  // 鷄林類事 (1103) 雷曰天動; Wiktionary 천둥 gives this as first attestation. Sino reading mine.
   },
 };

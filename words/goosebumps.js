@@ -243,6 +243,7 @@ WORDS.goosebumps = {
     mi: "plain",
     rar: "plain",
     sas: "plain",
+    ko_em: "plain",
   },
   family2: {
     ko: "bird",
@@ -434,5 +435,6 @@ WORDS.goosebumps = {
     mi: ["hīnawanawa", "hiːnawanawa"],  // Te Aka: to have goose pimples, have goose bumps; a verb
     rar: ["ʻiʻī", "ʔiʔiː"],  // Buse: come out in goose flesh
     sas: ["kemotoq", "kəmotoʔ"],  // "ke.mo.toq a merinding"; page image read
+    ko_em: ["소오롬", "sooɾom"],  // Wiktionary 소름: 소홈 (1447) through Early Modern 소오롬, 소오름. No dated quote.
   },
 };

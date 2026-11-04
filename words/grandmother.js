@@ -691,6 +691,8 @@ WORDS.grandmother = {
     kaw: "one",
     rtm: "one",
     pmt: "one",
+    och: "split",
+    zh_han: "split",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -1326,5 +1328,7 @@ WORDS.grandmother = {
     kaw: ["ꦏꦼꦧꦶ", "kəbi"],  // Wukiran note: Old Javanese kəbi proved to mean 'grandmother'. Wurudu Kidul kakinya kvinya, translated 'her grandfathers, her grandmothers' (kvi is the inscription's spelling, once editor-marked). No side split seen. The source prints it in Latin letters; the Javanese-script spelling is a transliteration.
     rtm: ["maʻkiga", "maʔkiŋa"],  // wordlist 'grandparent or grandchild'
     pmt: ["tupuna morire", "tupuna morire"],  // Tregear TUPUNA-MORIRE a grandmother; no maternal/paternal split given
+    och: ["祖母", "*[ts]ˤaʔ məʔ"],  // 禮記 喪服小記 祖父卒，而后為祖母後者三年 (via 萌典). Readings Baxter-Sagart on Wiktionary.
+    zh_han: ["大母", "dhāś mǝ̄́"],  // 以宣帝大母家封為侯 as found on ctext. 大 from StarLing, 母 as the row's mother cell. 祖母 is also pre-Han, your choice.
   },
 };

@@ -668,7 +668,7 @@ WORDS.mother = {
     ko_mid: ["·어미", "əmi"],
     oko: ["母史", "*əzi"],
     h_goguryeo: ["—", "—"],
-    ko_gor: ["丫彌", "*əmi"],
+    ko_gor: ["丫彌", "*ami"],
     ko_em: ["어미", "əmi"],
     vi_han: ["母", "məw˧˧ˀ˥"],
     vi_nom: ["媄", "mɛ˧˨ʔ"],

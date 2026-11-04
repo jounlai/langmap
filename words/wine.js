@@ -975,6 +975,11 @@ WORDS.wine = {
     juc: "other",
     xng: "other",
     ja_heian: "other",
+    ko_mid: "other",
+    ko_em: "other",
+    ko_gor: "other",
+    och: "other",
+    zh_yuan: "other",
   },
   routes: {
     ie: { color: "#7c2d12", emoji: "🏺", en: "Indo-European *wóyh₁nom", ja: "印欧祖語 *wóyh₁nom", ko: "인도유럽조어 *wóyh₁nom", zh: "原始印欧语 *wóyh₁nom", yue: "原始印歐語 *wóyh₁nom", vi: "Ấn-Âu nguyên thủy *wóyh₁nom", th: "อินโด-ยูโรเปียนดั้งเดิม *wóyh₁nom", id: "Proto-Indo-Eropa *wóyh₁nom", hi: "आद्य-भारोपीय *wóyh₁nom", de: "Urindogermanisch *wóyh₁nom", fr: "indo-européen commun *wóyh₁nom", it: "protoindoeuropeo *wóyh₁nom", es: "protoindoeuropeo *wóyh₁nom", pt: "protoindo-europeu *wóyh₁nom", ru: "праиндоевроп. *wóyh₁nom", uk: "праіндоєвроп. *wóyh₁nom", ar: "الهندية الأوروبية الأم *wóyh₁nom", he: "הודו-אירופית קדומה *wóyh₁nom", sw: "Kihindi-Ulaya cha kale *wóyh₁nom" },
@@ -1979,5 +1984,10 @@ WORDS.wine = {
     juc: ["nure", "nurə"],  // no. 520 Wein, nu-lie, m. nure. Grube 1896 glossary (Sino-Jurchen vocabulary, Chinese transcription); OCR is rough. Latin surface normalised by me after the row; low to medium.
     xng: ["ᠳᠠᠷᠠᠰᠤᠨ", "darasun"],  // Wiktionary Middle Mongol: hapax in Phags-pa, d-r-sun, ts darasun, 'wine' (Phags-pa corpus pp.145, 183). Lemma spelling is Uyghur-Mongolian, as the row. cmg has ᠳᠠᠷᠠᠰᠤ.
     ja_heian: ["酒", "sake"],  // 和名抄 (934頃) 酒 佐介 (字通 on kotobank); same word as ojp. Rice liquor, not grape wine.
+    ko_mid: ["수을", "suɨl"],  // 석보상절 (1447) 수을, per Wiktionary's Korean 술 entry (kaikki dump). Liquor, not grape wine. Same cell as offered in round old.
+    ko_em: ["수울", "suul"],  // Wiktionary: Early Modern Korean 수울. No dated quote opened. Liquor.
+    ko_gor: ["酥孛", "*supɨl"],  // 鷄林類事 (1103) 酒曰酥孛; Wiktionary Yale swùpùl.
+    och: ["酒", "*tsuʔ"],  // 詩経 賓之初筵 as cited in 世界大百科事典 (kotobank); Baxter-Sagart on Wiktionary. Grain liquor, not grape wine.
+    zh_yuan: ["酒", "tsiəu"],  // 關漢卿 竇娥冤: 交歡酒. Later edition. IPA fitted to the row's 手; liquor, not grape wine.
   },
 };

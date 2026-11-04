@@ -838,5 +838,6 @@ WORDS.silk = {
     cop: ["ϣⲉⲛⲥ", "ʃens"],  // Coptic for silk.
     kim: ["торғу", "torɣu"],  // Tofa, glossed «шёлк, шёлковый» in Rassadin's dictionary.
     trv: ["dmayi", "dmaji"],  // Truku word glossed 絲 and 蠶絲 'silkworm silk'.
+    ko_gor: ["及", "*kip"],  // 鷄林類事 (1103) 絹曰及; ko_mid 깁. Medium.
   }
 };

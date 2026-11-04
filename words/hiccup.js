@@ -344,6 +344,8 @@ WORDS.hiccup = {
     mnw: "plain",
     h_tagalog: "plain",
     rtm: "plain",
+    zh_han: "plain",
+    zh_wenyan_edu: "plain",
   },
   routes: {
     imitative: {"color":"#ea580c","emoji":"🔊","en":"imitating the sound","ja":"音のまね","ko":"소리 흉내","zh":"模仿声音","yue":"模仿聲音","vi":"mô phỏng âm thanh","th":"เลียนเสียง","id":"tiruan bunyi","hi":"ध्वनि की नक़ल","de":"lautmalend","fr":"imitant le bruit","it":"onomatopeico","es":"imita el sonido","pt":"imita o som","ru":"звукоподражание","uk":"звуконаслідування","ar":"محاكاة الصوت","he":"חיקוי הקול","sw":"kuiga sauti"},
@@ -634,5 +636,7 @@ WORDS.hiccup = {
     mnw: ["လှိုက်", "hlak"],  // Shorto: 'hiccough'.
     h_tagalog: ["ᜐᜒᜈᜓᜃ᜔", "siˈnok"],  // Noceda & Sanlucar 1754: Sinoc, 'hipo'. The source is Latin; the Baybayin spelling is a transliteration. Stress follows the modern Wiktionary entry.
     rtm: ["masori", "masori"],  // wordlist 'hiccups, to have the'
+    zh_han: ["噦", "w̥āś"],  // 說文 氣啎也; 靈樞 脹論 脾脹者善噦 (via 萌典, gloss 打嗝). StarLing Western Han. Route as zh_tang.
+    zh_wenyan_edu: ["噦", "jyːt˨"],  // Wiktionary Jyutping jyut6 / jyut3, first listed taken. Route as zh_tang.
   },
 };

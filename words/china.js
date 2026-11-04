@@ -509,6 +509,7 @@ WORDS.china = {
     cjs: "khitan",
     cmg: "khitan",
     mak: "cina",
+    och: "zhongguo",
   },
   routes: {
     zhongguo: {"color":"#dc2626","emoji":"🏮","en":"reads 中國 \"Middle Kingdom\" itself","ja":"漢字 中國 を自分で読む","ko":"한자 中國을 직접 읽음","zh":"自己读汉字\"中國\"","yue":"自己讀漢字「中國」","vi":"tự đọc chữ 中國","th":"อ่านอักษร 中國 เอง","id":"membaca aksara 中國 sendiri","hi":"中國 को ख़ुद पढ़ना","de":"liest 中國 selbst","fr":"lit 中國 lui-même","it":"legge 中國 da sé","es":"lee 中國 por sí mismo","pt":"lê 中國 por si","ru":"своё чтение 中國","uk":"власне читання 中國","ar":"يقرأ 中國 بنفسه","he":"קורא את 中國 בעצמו","sw":"husoma 中國 yenyewe"},
@@ -960,5 +961,6 @@ WORDS.china = {
     cjs: ["Қыдат", "qɯdat"],  // Shor, glossed «Китай».
     cmg: ["ᠬᠢᠲᠠᠳ", "kitad"],  // Traditional spelling from Wiktionary's Mongolian entry; no dated Classical citation opened, so this is the written-standard form, not proof of period. IPA in the row's style, mine.
     mak: ["Cina", "tʃina"],  // "Cina (Tionghoa)"
+    och: ["中國", "*truŋ [C.q]ʷˤək"],  // 詩經 大雅 民勞 惠此中國 (國語辭典 via 萌典); there 毛傳 says 京師, the wider sense in 詩經 小雅 六月 序. Readings Baxter-Sagart on Wiktionary.
   },
 };

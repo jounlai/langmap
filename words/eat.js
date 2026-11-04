@@ -842,7 +842,7 @@ WORDS.eat = {
     mdr: ["ummande", "umːande"],
     cia: ["maʼa", "maʔa"],
     war: ["kaon", "kaʔon"],
-    bik: ["kakanon", "kakaˈnon"],
+    bik: ["kakan", "kaˈkan"],
     bto: ["kaən", "kaʔən"],
     tum: ["kurya", "kuɾja"],
     kde: ["kulya", "kuʎa"],

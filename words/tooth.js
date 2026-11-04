@@ -668,7 +668,7 @@ WORDS.tooth = {
     bxk: ["liino", "liːno"],
     ki: ["igego", "iɣɛɣɔ"],
     mer: ["ĩĩgo", "eːɡɔ"],
-    kam: ["ĩyo", "ejɔ"],
+    kam: ["ĩeo", "eeɔ"],
     ebu: ["ĩgego", "eɡɛɡɔ"],
     tn: ["leino", "leino"],
     st: ["leino", "leino"],

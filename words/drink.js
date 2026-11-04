@@ -842,7 +842,7 @@ WORDS.drink = {
     mdr: ["mandundu", "mandundu"],
     cia: ["poroku", "poroku"],
     war: ["inom", "ʔiˈnom"],
-    bik: ["inumon", "ʔinuˈmon"],
+    bik: ["inom", "ʔiˈnom"],
     bto: ["inom", "iˈnom"],
     tum: ["kumwa", "kumwa"],
     kde: ["kukumbila", "kukumbila"],

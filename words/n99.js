@@ -1018,7 +1018,7 @@ WORDS.n99 = {
     tyv: ["тозан тос", "tozan tos"],
     tvl: ["iva sefulu iva", "iva sefulu iva"],
     tsu: ["msiohʉ usio", "msiohɨ usio"],
-    tsg: ["kasiyaman tagsiyam", "kasijaman taɡsijam"],
+    tsg: ["kasiyaman-tagsiyam", "kasijaman taɡsijam"],
     toj: ["chan tajbʼe sok bʼalun lajune", "tʃan tahɓe sok ɓalun lahune"],
     tll: ["akumi divwa la divwa", "akumi divwa la divwa"],
     tkl: ["iva hefuluiva", "iva hefuluiva"],
@@ -1218,9 +1218,9 @@ WORDS.n99 = {
     th_n: ["เก้าสิบเก้า", "kaːw˥˩ sip˩˧ kaːw˥˩"], // was ["เก้าสิบเก้า", "kaːw˥˩ sip˨˩ kaːw˥˩"] (vi dialect rules 2026-10-06)
     lo: ["ເກົ້າສິບເກົ້າ", "kaw˥˨ sip˧˥ kaw˥˨"], // was ["ເກົ້າສິບເກົ້າ", "kaːw˥˨ sip˧˥ kaːw˥˨"] (vi dialect rules 2026-10-06)
     ceb: ["nobentay nuybe", "noˈbentaj ˈnujbe"],  // The Spanish loan, which everyone knows. The native Cebuano form is kasiyaman ug siyam, shortened to kasiyamag siyam.
-    war: ["kasiyaman kag siyam", "kasijaˈman kaɡ siˈjam"],
+    war: ["nobentay nuybe", "noˈbentaj ˈnujbe"],  // The Spanish loan, as in the Samarenyo Bible at Luke 15:4. The native form, kasiyaman kag siyam, is almost unheard of.
     bik: ["nobenta y nwebe", "noˈbenta i ˈnwebe"], // was ["nobenta y nwebe", "noˈbɛnta i ˈnwebe"] (vi dialect rules 2026-10-06)
-    hil: ["nobentay nwebe", "noˈbɛntaj ˈnwebe"],
+    hil: ["nobentay nwebe", "noˈbɛntaj ˈnwebe"],  // The Spanish loan, as in the 2012 Bible. The native form is kasiaman kag siam, printed in the 1982 Ang Biblia.
     pag: ["siamaplo tan siam", "siamaˈplo tan siˈam"],
     pam: ["siam apuluʼt siam", "siˈam ʔaˈpulut siˈam"],
     ilo: ["siam a pulo ket siam", "siˈam a ˈpulo ket siˈam"],

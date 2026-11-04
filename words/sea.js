@@ -1095,7 +1095,6 @@ WORDS.sea = {
     lij_t: ["mò", "mɔ"],
     kry: ["ʕil", "ʕil"],
     ki: ["iria", "iɾia"],
-    pmi: ["xuɐ53", "xuɐ˥˧"],
     cjs: ["талай", "talaj"],
     dyo: ["fal", "fal"],
     abv: ["بحر", "bəħər"],

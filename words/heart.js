@@ -1118,7 +1118,7 @@ WORDS.heart = {
     dag: ["suhu", "suhu"],
     xog: ["omutima", "omutima"],
     teo: ["etau", "etau"],
-    dyo: ["pu-ngor", "puŋɡor"],
+    dyo: ["esigir", "esiɡir"],
     bci: ["anwlɛn", "ãwlɛ̃"],
     tcy: ["ಕಂಜೆಲ್", "kaɲdʒelɯ"],
     haz: ["دل", "dil"],

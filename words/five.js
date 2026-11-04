@@ -950,7 +950,7 @@ WORDS.five = {
     hif: ["paanch", "pãːtʃ"],
     zgh: ["ⵙⵎⵎⵓⵙ", "səmːus"],
     aln: ["pesë", "peːs"],
-    rmt: ["panj", "pandʒ"],
+    rmt: ["pʌndžes", "pʌndʒes"],
     fud: ["lima", "lima"],
     hsn_hy: ["五", "u˧˧"],
     hsn_yz: ["五", "u˥˥"],

@@ -734,7 +734,7 @@ WORDS.drink = {
     mev: ["mi", "mi"],
     dnj: ["bhɯ̄n", "mɯ̃̄"],
     ses: ["haŋ", "haŋ"],
-    khq: ["hane", "hane"],
+    khq: ["nyin", "ɲin"],
     dje: ["haŋ", "haŋ"],
     kab: ["sew", "səw"],
     yua: ["ukʼul", "ukʼul"],

@@ -1117,7 +1117,7 @@ WORDS.moon = {
     dag: ["goli", "ɡoli"],
     xog: ["omwezi", "omwezi"],
     teo: ["elap", "elap"],
-    dyo: ["jileeŋ", "ɟileːŋ"],
+    dyo: ["fuleeŋ", "fuleːŋ"],
     bci: ["anglo", "aŋlo"],
     tcy: ["ತಿಂಗೊಳು", "tiŋɡoɭu"],
     haz: ["مه", "maː"],

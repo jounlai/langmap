@@ -945,7 +945,7 @@ WORDS.green = {
     osa: ["mąhį́ htóho", "mãhĩ́ htóho"],
     pao: ["puhi", "puhi"],
     djr: ["menydjuṉ", "meɲɟuɳ"],
-    ktz: ["ǀauhn", "ǀauhn"],
+    ktz: ["ǀauhn", "ǀaṳ̃"],
     fvr: ["kìrró", "kìrːó"],
     mpj: ["yukuri-yukuri", "jukuɻijukuɻi"],
     mcf: ["umu", "uˈmu"],

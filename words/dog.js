@@ -627,7 +627,7 @@ WORDS.dog = {
     pmh: ["सुणग", "suɳaɡa"],
     cop: ["ⲟⲩϩⲟⲣ", "uhor"],
     arc: ["ܟܠܒܐ", "kalbaː"],
-    amw: ["ܟܠܒܐ", "kalbaː"],
+    amw: ["ܟܠܒܐ", "xalpa"],
     aii: ["ܟܠܒܐ", "kalba"],
     tru: ["ܟܠܒܐ", "kalbo"],
     sux: ["𒌨", "ur"],

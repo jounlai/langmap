@@ -400,7 +400,7 @@ WORDS.water = {
     ibb: ["mmọọñ", "m̩mɔːŋ"],
     urh: ["ame", "ame"],
     deg: ["amin", "amin"],
-    ets: ["amɛ", "amɛ"],
+    ets: ["amẹ", "amɛ"],
     iso: ["ame", "ame"],
     ha: ["ruwa", "ɽuwaː"],
     xed: ["ìmí", "ìmí"],

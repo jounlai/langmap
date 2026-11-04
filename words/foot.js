@@ -1796,7 +1796,7 @@ WORDS.foot = {
     ksb: ["mulundi", "mulundi"],  // Steere's 1867 handbook gives mulundi for both foot and leg, and his errata fold the one apparent split back into a single word.
     ksh: ["Foß", "foːs"],  // Kölsch lowers MHG uo to oː in Booch, joot, Blot and Moder, and the Kölsch dictionary lemmatises the result as Foß (pl. Fööß) — the Bläck Fööss of the band's name.
     ksw: ["ခီၣ်", "kʰɔ́ˀ"],  // Jones 1961 #44 Sgaw khɔ́ʔ 'foot'; Luce glosses ခီၣ် 'foot, leg' and Luangthongkum #162 files it under the leg — Proto-Karen *khaŋᴮ, one word in all four Karen rows here.
-    ktz: ["ǀkáí", "ǀkxáí"],  // Dickens's dictionary 290 has ǀkxáí for the foot and his Concise Grammar ǃóm for the leg, which also does duty for a wheel.
+    ktz: ["ǀkáí", "ǀkxʼáí"],  // Dickens's dictionary 290 has ǀkxáí for the foot and his Concise Grammar ǃóm for the leg, which also does duty for a wheel.
     ku: ["pê", "peː"],  // pê vs ling. Kurmanji splits them as Sorani does.
     kum: ["аякъ", "ajaq"],  // аякъ covers both in Бамматов's Кумыкско-русский словарь; аякъны тюбю, the answer all six IDS dialects give, is 'the underside of the leg', the sole.
     kw: ["troos", "troːz"],  // troos vs garr, as in Welsh/Breton.

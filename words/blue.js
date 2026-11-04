@@ -1668,7 +1668,7 @@ WORDS.blue = {
     kpv: ["лӧз", "lɘz"],  // Komi-Zyrian лӧз vs веж.
     kr: ["liwulla", "liwulla"],  // Donor is Arabic. WOLD's comment on the word form is 'colour of needle = blue / metal' and on the borrowing 'blue ~ silver ~ needle (al-'ibra needle, as-surf silver)'. Green is a separate inherited word kə̀lî — already recorded by Koelle (1854) Grammar of the Bornu or Kanuri Language as kali — so this is a loan beside a native green, not a loan replacing a grue term. Tone stripped to match the row's kime/bul; WOLD's tone-marked form is lìwùllá.
     krl: ["sinini", "ˈsinini"],  // North Karelian sinini vs vihanta.
-    ktz: ["ǀauhn", "ǀauhn"],  // Juǀ'hoan ǀauhn is given for BOTH blue and green — a single cool-range term in a small basic-colour inventory.
+    ktz: ["ǀauhn", "ǀaṳ̃"],  // Juǀ'hoan ǀauhn is given for BOTH blue and green — a single cool-range term in a small basic-colour inventory.
     ku: ["şîn", "ʃiːn"],  // Kurmanji: NorthEuraLex gives the identical form şîn for BOTH blue and green — a single cool-range term.
     kum: ["гёк", "ɡøk"],  // Kumyk гёк against яшыл. Most IDS Kumyk dialects give ачыкъ гёк 'light gök' for blue specifically, which is exactly what a grue term needs a modifier for.
     kw: ["glas", "ɡlaːz"],  // Cornish glas covers blue, the green of growing things and grey, exactly as Welsh glas and Breton glaz do; Wiktionary lists glas first and the English loan blou second.

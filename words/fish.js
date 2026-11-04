@@ -610,7 +610,7 @@ WORDS.fish = {
     zh_han: ["魚", "ŋha"],
     zh_tang: ["魚", "ŋɨə̆"],
     ja_edo: ["魚", "sakana"],
-    ja_kanbun: ["魚", "uo"],
+    ja_kanbun: ["魚", "ɯo"],
     ja_heian: ["魚", "iwo"],
     ja_chu: ["魚", "uwo"],
     p_ryu: ["*io", "io"],

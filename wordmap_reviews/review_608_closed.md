@@ -33,3 +33,11 @@ but those cells now read ˧˧˦ without a stop (MCPDict 吉安) — the earlier 
 row rebuild disagree; needs one decision for the whole row. hsn 洋咪咪 mi˧ (one-letter tone).
 Readings that are one of two MCPDict layers without a label: mnp/cpx 日本, gan 星子,
 nan_hai 日头, wuu_sz 昨日 — label only after checking Wiktionary per [[hanmap-min-label-policy]].
+
+## Japonic / Koreanic notation consistency (27 rows, 2,492 cells)
+Applied 37 (4 high, 33 medium): ko_jl ʌ → ə (문어, 별똥별, 칠면조) and ko_jeju ə → ʌ (성);
+intervocalic ㄹ r → ɾ in ko_kp, ko_hg, ko_em, ko_mid; final ̚ added to 중국/한국 in ko,
+ko_kp, ko_bus, ko_jl, ko_yb, ko_hg, ko_jeju where the row marks it elsewhere; ja_kyo/ja_edo/
+ja_kanbun u → ɯ, n → ɴ, r → ɾ; ja_chu r → ɾ.
+Held (low): ja_heian r/ɾ split 9/11 (needs one direction), ja_sd/ja_aom geminate ː in copied
+cells, ko_em ̚ on 2 of 10 stops, ja_kanbun 日本 ɴ. Format: ko goosebumps holds "소름 / 닭살".

@@ -601,7 +601,7 @@ WORDS.night = {
     ja_edo: ["夜", "joɾɯ"],
     ja_kanbun: ["夜", "joɾɯ"],
     ja_heian: ["夜", "joɾu"],
-    ja_chu: ["夜", "joru"],
+    ja_chu: ["夜", "joɾu"],
     p_ryu: ["*yoru", "joru"],
     ko_mid: ["밤", "pam"],
     oko: ["夜音", "*pam"],

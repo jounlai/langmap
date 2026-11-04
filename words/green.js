@@ -425,7 +425,7 @@ WORDS.green = {
     myp: ["xahoasai", "ʔahoasai"],
     ko_kp: ["초록", "tɕʰoɾok̚"],
     ko_yb: ["초록", "tɕʰoɾok̚"],
-    ko_hg: ["초록", "tɕʰorok̚"],
+    ko_hg: ["초록", "tɕʰoɾok̚"],
     ko_jl: ["초록", "tɕʰoɾok̚"],
     ja_kyo: ["緑", "midoɾi"],
     es_mx: ["verde", "ˈbeɾðe"],

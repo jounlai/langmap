@@ -840,7 +840,7 @@ WORDS.whale = {
     zh_tang: ["鯨", "ɡiajŋ"],  // A word of its own; it also meant 'great, huge'.
     ja_heian: ["鯨", "kudira"],  // くぢら, inherited from Old Japanese kudira.
     ojp: ["久治良", "kudira"],  // Spelled 久治良 in a song of the Kojiki (712); perhaps from Proto-Japonic *kuntira.
-    ko_mid: ["고래", "koraj"],  // A native word, continued unchanged as modern 고래; its further origin is unknown.
+    ko_mid: ["고래", "koɾaj"],  // A native word, continued unchanged as modern 고래; its further origin is unknown.
     hy_grab: ["կէտ", "ket"],  // Borrowed from Greek κῆτος 'sea monster', like Old Church Slavonic китъ.
     ota: ["قیطس", "kiːˈtus"],  // From Greek κῆτος 'sea monster'; it is also the constellation Cetus.
     arc: ["ܬܢܝܢܐ", "tanniːnaː"],  // Also 'dragon, sea monster'; Targum Onkelos uses it for the great whales of Genesis 1:21.

@@ -854,7 +854,7 @@ WORDS.littlefinger = {
     vi_han: ["小指", "tiəw˧˩˧ tɕi˧˩˧"],  // 'Small finger', read tiểu chỉ in Sino-Vietnamese.
     non: ["litlifingr", "ˈlitliˌfiŋɡr"],  // 'The little finger', litli 'little' + fingr; the others were þumalfingr, vísifingr, langatöng and græðifingr, the 'healing finger' (Cleasby–Vigfusson, s.v. fingr).
     hbo: ["קֹטֶן", "ˈqoːtˤɛn"],  // 'The little one', from the root of קָטֹן 'small'; only in Rehoboam's reply 'my little finger (קׇטׇנִּי) is thicker than my father's loins' (1 Kings 12:10, 2 Chronicles 10:10).
-    ko_kp: ["새끼손가락", "sɛk͈isonk͈arak"],  // The 'young-one finger', as in the South: 새끼 is a young animal or a little one.
+    ko_kp: ["새끼손가락", "sɛk͈isonk͈aɾak̚"],  // The 'young-one finger', as in the South: 새끼 is a young animal or a little one.
     yue_zs: ["手指尾", "sɐu˨˩˧ tsi˨˩˧ mi˨˩˧"],  // 'The finger's tail', as in Cantonese; reading from MCPDict 中山.
     wuu_hz: ["小拇手指头", "ɕiɔ˥˧ moᵘ˥˧ sei˥˧ tsɿ˥˧ dei˨˩˧"],  // 'Small thumb-finger', as Wiktionary's dialect table gives for Hangzhou; reading from MCPDict 杭州.
     yue_dg: ["手指仔", "ʃau˧˥ tʃi˧˥ tʃɔi˧˥"],  // 'The finger's child': 仔 'son, little one'; Dongguan also says 手指尾. Reading from MCPDict 東莞.

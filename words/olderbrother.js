@@ -1137,7 +1137,7 @@ WORDS.olderbrother = {
     gd: ["bràthair", "ˈpɾaːhəɾʲ"],  // Plain 'brother'; the Gaelic Bible calls Esau simply do bhràthair 'your brother' and marks age only on sons (a mac a bu shine 'her elder son').
     emp: ["djaba", "ʒaˈba"],  // Plain 'brother'; an older one is djaba nabema 'first brother' and a younger one djaba tẽãbema.
     mrq: ["tuakana", "tuakana"],  // A man's older brother or a woman's older sister, from Proto-Polynesian *tuakana (tuaʻana in the south); younger: teina; a woman calls her brother tunane.
-    ko_jeju: ["성", "səŋ"],  // From Sino-Korean 兄, used by a man for an older brother (honorific 성님); younger: 아시; a woman calls her brother 오라방.
+    ko_jeju: ["성", "sʌŋ"],  // From Sino-Korean 兄, used by a man for an older brother (honorific 성님); younger: 아시; a woman calls her brother 오라방.
     mic: ["nsis", "nsis"],  // Literally 'my older brother' (his or her older brother is ugsisl); a younger brother is njignam.
     tsu: ["ohaeva", "ohaeva"],  // Ohaeva is an older sibling of either sex, specified as male or female with a following word; a younger sibling is ohaesa.
     moh: ["rakhtsì:ʼa", "rakʰtsìːʔa"],  // Literally 'my older brother', built on an older-sibling stem; a younger sibling is named with a different stem.

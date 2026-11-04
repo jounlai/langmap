@@ -1101,7 +1101,7 @@ WORDS.name = {
       xng: ["ᠨᠡᠷᠡ", "nere"],
       ja_kg: ["名前", "namae"],
       ja_sd: ["名前", "namae"],
-      ko_hg: ["이름", "irɯm"],
+      ko_hg: ["이름", "iɾɯm"],
       ko_jl: ["이름", "iɾɯm"],
       nan_pn: ["名", "miã˨˧"],
       mra: ["bɨr ʔi", "bɨr ʔi"],

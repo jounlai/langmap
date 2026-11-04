@@ -565,7 +565,7 @@ WORDS.head = {
     xog: ["omutwe", "omutwe"],
     ko_kp: ["머리", "mʌɾi"],
     ko_yb: ["머리", "mʌɾi"],
-    ko_hg: ["머리", "məri"],
+    ko_hg: ["머리", "məɾi"],
     ko_jl: ["머리", "məɾi"],
     ja_kyo: ["頭", "atama"],
     de_at: ["Kopf", "kɔpf"],

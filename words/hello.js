@@ -666,7 +666,7 @@ WORDS.hello = {
     ja_edo: ["御機嫌よう", "ɡokiɡeɴjoː"],
     ja_kanbun: ["拝啓", "haikei"],
     ja_heian: ["あなかしこ", "anakasiko"],
-    ja_chu: ["御機嫌よろしう", "ɡokiɡeɴ joroɕuː"],
+    ja_chu: ["御機嫌よろしう", "ɡokiɡeɴ joɾoɕuː"],
     p_ryu: ["—", "—"],
     ko_mid: ["안녕ᄒᆞ쇼셔", "annjəŋ hʌsjosjə"],
     oko: ["—", "—"],

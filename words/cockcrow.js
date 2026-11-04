@@ -452,7 +452,7 @@ WORDS.cockcrow = {
     zu: ["kikiligi", "kikiˈliɡi"],
     ha: ["kukuruku", "kúkùrúːkù"],
     ja_heian: ["かけろ", "kakero"],
-    ja_chu: ["かげんろ", "kaɡeɴro"],
+    ja_chu: ["かげんろ", "kaɡeɴɾo"],
     ja_edo: ["とうてんこう", "toːteɴkoː"],
     zh_tang: ["喈喈", "kəɨj kəɨj"],
     zh_wenyan_edu: ["喈喈", "kaːi˥ kaːi˥"],

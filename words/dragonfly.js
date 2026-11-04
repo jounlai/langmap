@@ -490,8 +490,8 @@ WORDS.dragonfly = {
     ota: ["یوسفجك", "jusufˈdʒuk"],  // Yusuf 'Joseph' + the diminutive -cuk, 'little Joseph'; modern yusufçuk.
     zh_wenyan_edu: ["蜻蛉", "tsʰɪŋ˥ lɪŋ˨˩"],  // The classical two-syllable insect name, in the Cantonese literary reading.
     vi_han: ["蜻蛉", "tʰaɲ˧˧ liɲ˧˧"],  // Read thanh linh in Sino-Vietnamese; the everyday word is chuồn chuồn.
-    ko_mid: ["ᄌᆞᆫ·자리", "tsʌntsari"],  // Attested from 1481 and continued as modern 잠자리. No image is recorded for it, so it counts as a word of its own.
-    ko_kp: ["잠자리", "tɕamdʑari"],  // The same word as in the South, attested since 1481 as Middle Korean ᄌᆞᆫ·자리.
+    ko_mid: ["ᄌᆞᆫ·자리", "tsʌntsaɾi"],  // Attested from 1481 and continued as modern 잠자리. No image is recorded for it, so it counts as a word of its own.
+    ko_kp: ["잠자리", "tɕamdʑaɾi"],  // The same word as in the South, attested since 1481 as Middle Korean ᄌᆞᆫ·자리.
     yue_zs: ["塘尾", "tʰɔŋ˥˩ mi˨˩˧"],  // 'Pond tail', as in Cantonese 塘尾; word from Wiktionary's dialect table, reading from MCPDict 中山.
     wuu_jh: ["蜻蜓", "tsʰiŋ˧˧˦ diŋ˧˩˧"],  // Reading from MCPDict 金華.
     wuu_hz: ["蜻蜓", "tɕʰiŋ˧˧ diŋ˨˩˧"],  // Reading from MCPDict 杭州.

@@ -557,7 +557,7 @@ WORDS.octopus = {
     ja_kyo: ["タコ", "tako"],  // A native word of debated origin; one common theory reads ta- as 'hand, arm'. The national word, which Kyoto speech uses as well.
     ja_hak: ["タコ", "tako"],  // A native word of debated origin; one common theory reads ta- as 'hand, arm'. The national word, which Hakata speech uses as well.
     ja_hir: ["タコ", "tako"],  // A native word of debated origin; one common theory reads ta- as 'hand, arm'. The national word, which Hiroshima speech uses as well.
-    ko_jl: ["문어", "munʌ"],  // Written 文魚 'literary fish', but Wiktionary calls the origin unclear and the spelling a later transliteration, perhaps of 민- 'bare' + 魚 'fish'. The national word, which Jeolla speech uses as well.
+    ko_jl: ["문어", "munə"],  // Written 文魚 'literary fish', but Wiktionary calls the origin unclear and the spelling a later transliteration, perhaps of 민- 'bare' + 魚 'fish'. The national word, which Jeolla speech uses as well.
     ko_bus: ["문어", "munʌ"],  // Written 文魚 'literary fish', but Wiktionary calls the origin unclear and the spelling a later transliteration, perhaps of 민- 'bare' + 魚 'fish'. The national word, which Busan speech uses as well.
     km: ["រពីងសមុទ្រ", "rɔpiːŋ saʔmot"],  // Literally 'sea spider': រពីង 'trapdoor spider' + សមុទ្រ 'sea'. Wiktionary also lists the learned អដ្ឋករ, from Pali 'eight hands'.
     ckv: ["qlita", "qlita"],  // Inherited from Proto-Austronesian *guʀiCa 'octopus'; cognate with Malay kurita and Cebuano kugita.

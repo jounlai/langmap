@@ -1395,7 +1395,7 @@ WORDS.thunder = {
     ja_edo: ["雷", "kaminaɾi"],  // かみなり, 'the god's sounding'; かんなり is a variant (Nihon Kokugo Daijiten).
     zh_wenyan_edu: ["雷", "lɵy˨˩"],  // An old Chinese root, in the Cantonese literary reading.
     vi_han: ["雷", "loj˧˧"],  // Read lôi in Sino-Vietnamese; the everyday Vietnamese word is sấm.
-    ko_kp: ["우뢰", "urwe"],  // North Korea's standard form of 우레, respelled after the folk etymology 雨雷 'rain-thunder'; the word goes back to Middle Korean ·울에, from a verb 'to roar'.
+    ko_kp: ["우뢰", "uɾwe"],  // North Korea's standard form of 우레, respelled after the folk etymology 雨雷 'rain-thunder'; the word goes back to Middle Korean ·울에, from a verb 'to roar'.
     nan_hai: ["雷公", "lui˧˩ kaŋ˨˧"],  // 'Lord Thunder', as in Hokkien 雷公, with the colloquial reading of 公; reading from MCPDict 海口.
     blr: ["nɨm51", "nɨm˥˩"],  // No image is recorded for it, so it counts as a word of its own. From the IDS Bulang list.
     mlm: ["la:k8 pɣa3", "laːk˩˩ pɣa˥˧"],  // From the IDS Mulam list; la:k8 also begins this row's star and daughter.

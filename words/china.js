@@ -536,7 +536,7 @@ WORDS.china = {
     mr: ["चीन", "tʃiːn"],  // Borrowed from Sanskrit Cīna (Wiktionary).
     te: ["చైనా", "tʃainaː"],  // Borrowed from English China; the older చీనా cīnā comes straight from Sanskrit (Wiktionary).
     tl: ["Tsina", "ˈtʃina"],  // Borrowed from Spanish China; the older native name Sungsong is now historical (Wiktionary).
-    ko: ["중국", "tɕuŋɡuk"],  // The Sino-Korean reading of 中國 'middle country' (Wiktionary).
+    ko: ["중국", "tɕuŋɡuk̚"],  // The Sino-Korean reading of 中國 'middle country' (Wiktionary).
     wuu: ["中国", "tsoŋ˥ koʔ˨˩"],  // Literally 'middle country', the name used of China since the Western Zhou bronze inscriptions (Wiktionary).
     ta: ["சீனா", "siːnaː"],  // Same Cīna name as Sanskrit and Hindi, but Wiktionary gives no etymology for the Tamil form. Route by resemblance to the neighbouring forms (ln(Sína) tpi(Saina)); no etymology of its own.
     ha: ["Sin", "sin"],  // Borrowed from Arabic (aṣ-)Ṣīn (Wiktionary).
@@ -748,9 +748,9 @@ WORDS.china = {
     cjy_xz: ["中国", "tsuəŋ˧˩˧ kuɔʔ˦˧"],  // The characters 中国 'middle country' read in Xinzhou Jin.
     ja_kyo: ["中国", "tɕɯːɡokɯ"],  // Borrowed from Middle Chinese 中國 'central country'; Kyoto says Chūgoku with its own Kansai pitch accent (Japanese Wiktionary).
     ja_osa: ["中国", "tɕɯːɡokɯ"],  // Borrowed from Middle Chinese 中國 'central country'; Kyoto-Osaka speech says Chūgoku with a Kansai pitch accent (Japanese Wiktionary).
-    ko_kp: ["중국", "tɕuŋɡuk"],  // The Sino-Korean reading of 中國 'middle country'; the North Korean press writes 중국.
-    ko_bus: ["중국", "tɕuŋɡuk"],  // The Sino-Korean reading of 中國 'middle country', as in all Korean.
-    ko_yb: ["중국", "tɕuŋɡuk"],  // The Sino-Korean reading of 中國 'middle country'; China's Korean press writes 중국.
+    ko_kp: ["중국", "tɕuŋɡuk̚"],  // The Sino-Korean reading of 中國 'middle country'; the North Korean press writes 중국.
+    ko_bus: ["중국", "tɕuŋɡuk̚"],  // The Sino-Korean reading of 中國 'middle country', as in all Korean.
+    ko_yb: ["중국", "tɕuŋɡuk̚"],  // The Sino-Korean reading of 中國 'middle country'; China's Korean press writes 중국.
     zh_tw: ["中國", "ʈʂʊŋ˥ kwo˧˥"],  // Literally 'middle country', the name used of China since the Western Zhou bronze inscriptions (Wiktionary).
     vi_c: ["Trung Quốc", "ʈuŋ͡m˥ kuək˧˦"],  // The Sino-Vietnamese reading of 中國 'middle country'.
     vi_s: ["Trung Quốc", "ʈuŋ͡m˧ wək˧˥"],  // The Sino-Vietnamese reading of 中國 'middle country'; Saigon speech pronounces qu- as [w].
@@ -944,9 +944,9 @@ WORDS.china = {
     hsn_hy: ["中国", "tsəŋ˦˦˥ kue˨˨"],  // With 中 'middle' in its 中央 reading; reading from MCPDict 衡陽.
     ja_hak: ["中国", "tɕɯːɡokɯ"],  // Borrowed from Middle Chinese 中國 'central country'; the prewar name 支那 Shina is now considered offensive (Wiktionary). The national word, which Hakata speech uses as well.
     ja_hir: ["中国", "tɕɯːɡokɯ"],  // Borrowed from Middle Chinese 中國 'central country'; the prewar name 支那 Shina is now considered offensive (Wiktionary). The national word, which Hiroshima speech uses as well.
-    ko_jl: ["중국", "tɕuŋɡuk"],  // The Sino-Korean reading of 中國 'middle country' (Wiktionary). The national word, which Jeolla speech uses as well.
+    ko_jl: ["중국", "tɕuŋɡuk̚"],  // The Sino-Korean reading of 中國 'middle country' (Wiktionary). The national word, which Jeolla speech uses as well.
     ja_kg: ["中国", "tɕɯːɡokɯ"],  // The standard Japanese word, used in Kagoshima as everywhere in Japan.
-    ko_hg: ["중국", "tɕuŋɡuk"],  // The same word in North and South Korea.
+    ko_hg: ["중국", "tɕuŋɡuk̚"],  // The same word in North and South Korea.
     vi_nom: ["中國", "tɕuŋ͡m˧ kuək˧˥"],  // Trung Quốc is the Sino-Vietnamese reading of 中國 'central country', written with the Chinese characters.
     ain: ["サンタン", "santan"],  // Borrowed from Japanese 山丹 Santan, first a name for the Ulch, Nivkh and other northern peoples who traded with the Sakhalin Ainu, later for Qing China.
     cnp: ["中国", "tʃœŋ˥˧ kok˧"],  // The standard Chinese name, read in Nanning Pinghua.

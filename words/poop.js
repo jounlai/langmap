@@ -316,7 +316,7 @@ WORDS.poop = {
     zh_wenyan_edu: ["屎", "siː˧˥"],
     zh_han: ["屎", "śǝ́j"],
     zh_tang: ["屎", "ɕi"],
-    ja_edo: ["うんこ", "uŋko"],
+    ja_edo: ["うんこ", "ɯŋko"],
     ja_kanbun: ["糞", "kɯso"],
     ja_heian: ["くそ", "kuso"],
     ja_chu: ["くそ", "kuso"],

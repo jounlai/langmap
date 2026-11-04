@@ -181,7 +181,7 @@ WORDS.i = {
       ja_aom: ["わ", "wa"],
       ja_oki: ["わん", "waɴ"],
       ja_hak: ["俺", "oɾe"],
-      ja_kyo: ["うち", "utɕi"],
+      ja_kyo: ["うち", "ɯtɕi"],
       ja_hir: ["わし", "waɕi"],
       ja_mvi: ["ばん", "baɴ"],
       ja_rys: ["ばぬ", "banu"],

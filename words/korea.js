@@ -456,7 +456,7 @@ WORDS.korea = {
     mr: ["कोरिया", "koːɾijaː"],  // The Marathi Wikipedia's name for Korea, the same form as Hindi; no source gives the path of the word. Route by resemblance to the neighbouring forms (hi(कोरिया) te(కొరియా)); no etymology of its own.
     te: ["కొరియా", "koɾijaː"],  // Borrowed from English Korea, ultimately from Korean 고려 Goryeo (Wiktionary).
     tl: ["Korea", "koˈɾea"],  // Borrowed from Spanish Corea, ultimately from Korean 고려 Goryeo 高麗 (Wiktionary).
-    ko: ["한국", "hanɡuk"],  // Sino-Korean 韓國, now short for 대한민국 'Republic of Great Han'; South Koreans have used it for Korea since the 1945 division, while North Korea keeps 조선 (Wiktionary).
+    ko: ["한국", "hanɡuk̚"],  // Sino-Korean 韓國, now short for 대한민국 'Republic of Great Han'; South Koreans have used it for Korea since the 1945 division, while North Korea keeps 조선 (Wiktionary).
     wuu: ["韩国", "ɦø˨˨ koʔ˦˦"],  // Literally 'Han country', the short name of the Republic of Korea, read in Shanghainese (Wiktionary, Wu Wikipedia).
     ta: ["கொரியா", "koɾijaː"],  // The Tamil name for Korea; South Korea is தென் கொரியா; no source gives the path of the word. Route by resemblance to the neighbouring forms (hi(कोरिया) te(కొరియా)); no etymology of its own.
     ms: ["Korea", "koˈrea"],  // Ultimately from Sino-Korean 고려 Goryeo 高麗; Malay passed the word on to Indonesian (Wiktionary).
@@ -597,8 +597,8 @@ WORDS.korea = {
     ja_kyo: ["韓国", "kaŋkokɯ"],  // Short for 大韓民国, South Korea's official name; Kyoto-Osaka speech says Kankoku with a Kansai pitch accent (Japanese Wiktionary).
     ja_osa: ["韓国", "kaŋkokɯ"],  // Short for 大韓民国, South Korea's official name; Kyoto-Osaka speech says Kankoku with a Kansai pitch accent (Japanese Wiktionary).
     ko_kp: ["조선", "tɕosʌn"],  // Sino-Korean 朝鮮, the name of Korea from 1394 to 1910, which North Korea keeps for the country (Wiktionary).
-    ko_bus: ["한국", "hanɡuk"],  // Sino-Korean 韓國, short for 대한민국 'Republic of Great Han', as in all South Korean speech (Wiktionary).
-    ko_yb: ["한국", "hanɡuk"],  // Sino-Korean 韓國; Koreans in China call South Korea 한국 and North Korea 조선, following Chinese usage (Wiktionary).
+    ko_bus: ["한국", "hanɡuk̚"],  // Sino-Korean 韓國, short for 대한민국 'Republic of Great Han', as in all South Korean speech (Wiktionary).
+    ko_yb: ["한국", "hanɡuk̚"],  // Sino-Korean 韓國; Koreans in China call South Korea 한국 and North Korea 조선, following Chinese usage (Wiktionary).
     vi_c: ["Hàn Quốc", "haːŋ˦˨ kuək˧˦"],  // The Sino-Vietnamese reading of 韓國, adopted in 1994 at South Korea's request in place of Triều Tiên (Wiktionary).
     vi_s: ["Hàn Quốc", "haːŋ˨˩ wək˧˥"],  // The Sino-Vietnamese reading of 韓國; Saigon speech pronounces qu- as [w] (Wiktionary).
     gan_yc: ["韩国", "xon˧˧ kuøʔ˦"],  // The Mainland Chinese short name 韓國 for South Korea, read in Yichun Gan.
@@ -778,13 +778,13 @@ WORDS.korea = {
     vo: ["Koreyän", "koreˈjɛn"],  // Korea plus the Volapük country suffix -än; South Korea is Sulüda-Koreyän, North Korea Nolüda-Koreyän (Volapük Wikipedia).
     liv: ["Korea", "ˈkorɛɑ"],  // Korea, the Livonian name of the country, listed as a place name in the Livonian–Latvian–Estonian dictionary at livonian.tech.
     ain: ["コレヤ", "koɾeja"],  // Koreya, borrowed from Russian Корея and so ultimately from Goryeo 高麗; Sakhalin Ainu also has カウレン kawren (Wiktionary).
-    ja_edo: ["朝鮮", "tɕoːsen"],  // てうせん, the Joseon kingdom of the Edo period's diplomatic missions.
+    ja_edo: ["朝鮮", "tɕoːseɴ"],  // てうせん, the Joseon kingdom of the Edo period's diplomatic missions.
     vi_han: ["朝鮮", "tɕiəw˨˩ tiən˧"],  // Triều Tiên, the Sino-Vietnamese reading of 朝鮮.
     ja_hak: ["韓国", "kaŋkokɯ"],  // Short for 大韓民国, South Korea's official name, borrowed from Korean 대한민국; 朝鮮 Chōsen is used for the peninsula and North Korea (Wiktionary). The national word, which Hakata speech uses as well.
     ja_hir: ["韓国", "kaŋkokɯ"],  // Short for 大韓民国, South Korea's official name, borrowed from Korean 대한민국; 朝鮮 Chōsen is used for the peninsula and North Korea (Wiktionary). The national word, which Hiroshima speech uses as well.
-    ko_jl: ["한국", "hanɡuk"],  // Sino-Korean 韓國, now short for 대한민국 'Republic of Great Han'; South Koreans have used it for Korea since the 1945 division, while North Korea keeps 조선 (Wiktionary). The national word, which Jeolla speech uses as well.
+    ko_jl: ["한국", "hanɡuk̚"],  // Sino-Korean 韓國, now short for 대한민국 'Republic of Great Han'; South Koreans have used it for Korea since the 1945 division, while North Korea keeps 조선 (Wiktionary). The national word, which Jeolla speech uses as well.
     ja_kg: ["韓国", "kaŋkokɯ"],  // The standard Japanese word, used in Kagoshima as everywhere in Japan.
-    ko_jeju: ["한국", "hanɡuk"],  // Wiktionary lists 한국 as the Jeju word for Korea; 조선 is rare.
+    ko_jeju: ["한국", "hanɡuk̚"],  // Wiktionary lists 한국 as the Jeju word for Korea; 조선 is rare.
     ko_hg: ["조선", "tɕosʌn"],  // The North Korean name for Korea (South Korea says 한국).
     vi_nom: ["韓國", "haːn˨˩ kuək˧˥"],  // Hàn Quốc is the Sino-Vietnamese reading of 韓國, written with the Chinese characters as Sino-Vietnamese words are in Nôm texts.
     cnp: ["韩国", "han˨˩ kok˧"],  // The standard Chinese name, read in Nanning Pinghua.

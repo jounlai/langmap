@@ -402,7 +402,7 @@ WORDS.sleep = {
     ja_edo: ["寢る", "neɾɯ"],
     ja_kanbun: ["寢ぬ", "inɯ"],
     ja_heian: ["寢", "nu"],
-    ja_chu: ["寢る", "nuru"],
+    ja_chu: ["寢る", "nuɾu"],
     ko_mid: ["자·다", "tsata"],
     ko_em: ["자다", "tɕada"],
     vi_han: ["寐", "mi˨˩˨"],

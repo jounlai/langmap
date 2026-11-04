@@ -849,7 +849,7 @@ WORDS.japan = {
     vi_nom: ["日本", "ɲət˨˩ ɓaːn˧˩˧"],  // Nhật Bản, written with the Chinese characters as Sino-Vietnamese words are in Nôm texts.
     ja_heian: ["日本", "niɸon"],  // Older texts read it ひのもと 'the sun's origin'; the reading にほん became common in the Heian period.
     ja_chu: ["日本", "niɸon"],  // にほん, with にっぽん, which keeps the old p, alongside it.
-    ja_edo: ["日本", "nihon"],  // にほん, with にっぽん alongside it.
+    ja_edo: ["日本", "nihoɴ"],  // にほん, with にっぽん alongside it.
     ja_kanbun: ["日本", "nihon"],  // Read にほん in kanbun.
     nan_hai: ["日本", "zit˥ ɓun˨˩˧"],  // The literary readings of 日本, as usual for foreign names; reading from MCPDict 海口.
     gan_yc: ["日本", "ȵiʔ˦ pin˨˩"],  // Reading from MCPDict 宜春.

@@ -559,7 +559,7 @@ WORDS.shootingstar = {
     zh_wenyan_edu: ["流星", "lɐu˨˩ sɪŋ˥"],  // 'Flowing star', in the Cantonese literary reading.
     vi_han: ["流星", "lɨw˧ tiŋ˧"],  // Lưu tinh, 'flowing star'.
     ja_heian: ["流れ星", "naɡarebosi"],  // 'Flowing star', attested since 1137.
-    ja_edo: ["流れ星", "naɡareboɕi"],  // 'Flowing star'.
+    ja_edo: ["流れ星", "naɡaɾeboɕi"],  // 'Flowing star'.
     sa: ["उल्का", "ulkaː"],  // Also 'firebrand, torch': the meteor is a fiery brand in the sky.
     ar_qur: ["شهاب", "ʃihaːb"],  // A blazing firebrand: in the Quran (37:10, 72:9) it is the flame that chases away eavesdropping devils.
     pi: ["उक्का", "ukkaː"],  // Also 'torch': the same word as Sanskrit उल्का, a fiery brand in the sky.
@@ -574,7 +574,7 @@ WORDS.shootingstar = {
     ja_kyo: ["流れ星", "naɡaɾeboɕi"],  // Literally 'flowing star', attested since 1137. The national word, which Kyoto speech uses as well.
     ja_hak: ["流れ星", "naɡaɾeboɕi"],  // Literally 'flowing star', attested since 1137. The national word, which Hakata speech uses as well.
     ja_hir: ["流れ星", "naɡaɾeboɕi"],  // Literally 'flowing star', attested since 1137. The national word, which Hiroshima speech uses as well.
-    ko_jl: ["별똥별", "pjʌlt͈oŋbjʌl"],  // Literally 'star-dung star'; the Sino-Korean 유성 is the formal term. The national word, which Jeolla speech uses as well.
+    ko_jl: ["별똥별", "pjəlt͈oŋbjəl"],  // Literally 'star-dung star'; the Sino-Korean 유성 is the formal term. The national word, which Jeolla speech uses as well.
     ko_bus: ["별똥별", "pjʌlt͈oŋbjʌl"],  // Literally 'star-dung star'; the Sino-Korean 유성 is the formal term. The national word, which Busan speech uses as well.
     nan_te: ["流星", "liu˥˥ tsʰẽ˧˧"],  // 'Flowing star', with the colloquial reading of 星; Wiktionary's Teochew pronunciation.
     cnp: ["流星", "lɐu˨˩ ɬeŋ˥˧"],  // Literally 'flowing star', as in Standard Chinese.

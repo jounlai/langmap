@@ -477,7 +477,7 @@ WORDS.sun = {
     kmh: ["pub", "pub"],
     nej: ["aatʌ", "aːtʌ"],
     alq: ['kìzis', 'kiːzɪs'],
-    ckv: ['siban', 'siˈban'],
+    ckv: ["sezang", "səˈzaŋ"],
     haj: ['bela', 'bela'],
     dtp_kzj: ['tadau', 'taˈdau'],
     mez: ['kēsoq', 'keːsoʔ'],

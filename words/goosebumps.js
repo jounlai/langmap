@@ -239,6 +239,7 @@ WORDS.goosebumps = {
     pyu: "plain",
     ssf: "plain",
     djr: "plain",
+    trv: "plain",
   },
   family2: {
     ko: "bird",
@@ -426,5 +427,6 @@ WORDS.goosebumps = {
     pyu: ["gerenas", "ɡərənas"],  // Nanwang (南王) Puyuma word for goosebumps.
     ssf: ["kunhahumzash", "kunhahumðaʃ"],  // Thao word for goosebumps from sudden fright.
     djr: ["ḏutjṯutj", "ɖucʈuc"],
+    trv: ["sisuy", "sisuj"],  // Truku word glossed 顫抖；雞皮疙瘩；毛骨悚然；麻麻 'tremble; goosebumps; shudder; tingle'.
   },
 };

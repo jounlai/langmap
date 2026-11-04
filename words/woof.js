@@ -298,5 +298,6 @@ WORDS.woof = {
     km: ["វ៉េសវ៉ូស", "ʋeːh ʋoːh"],  // Glossed 'sound of a dog barking' in the SEAlang Khmer dictionary (Headley veeh-vooh) and listed first in Wiktionary's woof translations; a big dog's bark is ហ៊ hɔː.
     lo: ["ວົງໆ", "woŋ˧˥ woŋ˧˥"],  // Glossed 'onomatopoeia for the barking of a dog' in the SEAlang Lao dictionary (wóŋwóŋ; ໆ repeats the syllable).
     dru: ["aleale", "aləalə"],  // Budai (霧台) Rukai word for a dog's barking (狗叫；犬吠).
+    trv: ["gow", "ɡow"],  // Truku word glossed 狗叫聲（擬聲詞） 'sound of a dog'. The dictionary also lists qeyng with the same gloss.
   },
 };

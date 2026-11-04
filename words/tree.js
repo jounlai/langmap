@@ -486,7 +486,7 @@ WORDS.tree = {
     kmh: ["mon", "mon"],
     nej: ["tei", "tei"],
     alq: ['mitig', 'mɪtɪɡ'],
-    ckv: ['kasuy', 'kaˈsuj'],
+    ckv: ["paRin", "paˈʁin"],
     haj: ['gas', 'ɡas'],
     dtp_kzj: ["kazu", "kazu"],
     mez: ["maeqtek", "mæʔtek"],

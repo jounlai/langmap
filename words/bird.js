@@ -939,7 +939,7 @@ WORDS.bird = {
     ote: ["tsʼintsʼu̲", "tsʼintsʼɨ"],
     ets: ["apfiami", "apfiami"],
     tem: ["abamp", "abamp"],
-    tao: ["laciw", "latsiw"],
+    tao: ["lapik", "lapik"],
     enf: ["chida sama", "tʃida sama"],
     agr: ["pishak", "piʃak"],
     trv: ["qbhni", "qbhəni"],

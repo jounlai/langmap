@@ -346,7 +346,7 @@ WORDS.sea = {
     pmt: ["tai", "tai"],
     pnb: ["سمندر", "səmʊndəɾ"],
     pon: ["sehd", "sɛːd"],
-    ssf: ["wazakan", "waðakan"],
+    ssf: ["wazaqan", "waðaqan"],
     tkl: ["moana", "moana"],
     orh: ["dalaj", "dalaj"],
     dje: ["teeku", "teːku"],

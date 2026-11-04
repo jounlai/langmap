@@ -8713,6 +8713,1669 @@ const TRIVIA_ARTICLES = [
         "url": "https://langmaps.com/wordmap.html"
       }
     ]
+  },
+  {
+    "id": "china-three-roads",
+    "icon": "🇨🇳",
+    "tags": [
+      "places",
+      "etymology",
+      "history"
+    ],
+    "title": {
+      "en": "China: Three Names from Three Directions",
+      "ja": "中国：三つの道、三つの名"
+    },
+    "summary": {
+      "en": "China calls itself the middle country. The West got its name from a dynasty by way of India. Russia’s name is a people who conquered northern China, and they were not Chinese.",
+      "ja": "中国は自分を中の国と呼ぶ。西洋の名はインドを経た王朝の名である。ロシアの名は中国北部を征服した人々の名で、彼らは中国人ではなかった。"
+    },
+    "body": {
+      "en": "<p>Ask for China in Moscow and you will hear the name of a people who were not Chinese. Russian <strong>Китай</strong> is, ultimately, the Khitan, a Mongolic people who ruled Manchuria, then northern China and then Central Asia from the 9th to the 13th centuries. Their name went through Turkic into Old East Slavic, and it stayed there long after the Khitan had gone. English <em>Cathay</em> is the same name. So one of the great international names of China belongs to a people who conquered part of it. The map shows 34 cells of this kind, and they include Ukrainian <strong>Китай</strong> and Mongolian <strong>Хятад</strong>.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"china\" data-code=\"ru\">🗺️ Show China on the map</button></div><h3>The middle country</h3><p>At home the name is quite different. Mandarin <strong>中国</strong> is “middle country”, written 中國, and Wiktionary traces it to the He zun bronze vessel of the Western Zhou, where it is the earliest known written reference, and it meant the central region. Japanese <strong>中国</strong>, Korean <strong>중국</strong> and Vietnamese <strong>Trung Quốc</strong> read the same characters in their own ways, and 88 cells on the map are of this kind. Indonesian <strong>Tiongkok</strong> has come to it by a longer road. It uses the Hokkien reading, <em>Tiong-kok</em>, and according to the cell note, it has been the official name since a presidential decision of 2014, replacing <em>Cina</em>, which is still common in speech.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,ja,ko,vi,id\" data-word=\"china\">🗣 Compare the middle country</button></div><h3>Through India</h3><p>The biggest group, 295 cells, is the one English belongs to. English <strong>China</strong> came from Spanish and Portuguese in the 16th century, and they took it from an Indian language, compare Sanskrit <em>Cīna</em>. And that likely comes from 秦, the Qin, the state and dynasty that ruled in the 3rd century BC. So the house of Qin gave the world its word, by way of India and the Portuguese. French <strong>Chine</strong>, Hindi <strong>चीन</strong>, Turkish <strong>Çin</strong> and Persian <strong>چین</strong> are on this road. Arabic <strong>الصين</strong> and Hebrew <strong>סין</strong> have it too, and so do Icelandic <strong>Kína</strong> and Finnish <strong>Kiina</strong>. Latin <strong>Sīnae</strong> and Ancient Greek <strong>Σῖναι</strong> had the form for a people reached by sea. Estonian <strong>Hiina</strong> has a nice wrinkle, having turned the sound into an <em>h</em>, most likely from German.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,fr,hi,tr,fa\" data-word=\"china\">🗣 Compare Cīna</button></div><h3>Three names</h3><p>That means one country is on the map under three unrelated names, and two of them were given by outsiders, for reasons unconnected with the Chinese language. The first is a people who conquered some of the north. The second is a description of where the speakers thought they were. The third is a memory of a dynasty. None of the speakers of any of them had to agree with the others.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ru,uk,mn\" data-word=\"china\">🗣 Compare the Khitan</button></div><p>There are a few more. The other group on the map has 11 cells, and among them is Tibetan, with a “black expanse”, while others use Han or Tang. Each is a reasonable answer to a very old question, what do you call a very large neighbour?</p>",
+      "ja": "<p>モスクワで中国の名を聞くと、中国人ではない人々の名が返ってくる。ロシア語<strong>Китай</strong>はもとをたどれば契丹で、9世紀から13世紀に満洲、華北、中央アジアを支配したモンゴル系の人々である。その名はテュルク語を経て古東スラヴ語に入り、契丹が去ったあとも残った。英語<em>Cathay</em>も同じ名だ。地図ではこの種のセルが34あり、ウクライナ語<strong>Китай</strong>とモンゴル語<strong>Хятад</strong>も入っている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"china\" data-code=\"ru\">🗺️ 地図で中国を見る</button></div><h3>中の国</h3><p>国内の名はまったく違う。中国語<strong>中国</strong>は「中の国」で、ウィクショナリーは西周の青銅器、何尊の銘文を最古の書かれた用例としていて、中央の地域の意味だった。日本語の<strong>中国</strong>、朝鮮語<strong>중국</strong>、ベトナム語<strong>Trung Quốc</strong>は同じ字をそれぞれに読み、地図の88セルがこの型である。インドネシア語<strong>Tiongkok</strong>はもっと長い道を来た。閩南語の読み<em>Tiong-kok</em>を使い、セルの注によれば2014年の大統領決定で公式の名となり、話し言葉には<em>Cina</em>も残る。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,ja,ko,vi,id\" data-word=\"china\">🗣 中の国を比べる</button></div><h3>インドを経て</h3><p>最大の295セルの集団に英語は属する。英語<strong>China</strong>は16世紀にスペイン語とポルトガル語から入った名で、両者はインドの言語から取った。サンスクリットの<em>Cīna</em>に見える形で、おそらく、紀元前3世紀に支配した国と王朝、秦から来ている。秦の家が、インドとポルトガル人を経て世界に語を与えたのだ。フランス語<strong>Chine</strong>、ヒンディー語<strong>चीन</strong>、トルコ語<strong>Çin</strong>、ペルシア語<strong>چین</strong>はこの道の上にいる。アラビア語<strong>الصين</strong>、ヘブライ語<strong>סין</strong>、アイスランド語<strong>Kína</strong>、フィンランド語<strong>Kiina</strong>も同じだ。ラテン語<strong>Sīnae</strong>と古代ギリシャ語<strong>Σῖναι</strong>には海路で届く人々の名としてこの形があった。エストニア語<strong>Hiina</strong>はおそらくドイツ語から、音を<em>h</em>に変えて取っている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,fr,hi,tr,fa\" data-word=\"china\">🗣 Cīnaを比べる</button></div><h3>三つの名</h3><p>つまり一つの国が三つの無関係な名で地図に載っている。一つは北の一部を征服した人々の名、一つは話し手が自分たちをどこにいると考えたかの描写、もう一つは王朝の記憶である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ru,uk,mn\" data-word=\"china\">🗣 契丹を比べる</button></div><p>ほかにも少しある。地図の「その他」の11セルにはチベット語の「黒い広がり」があり、漢や唐を使う語もある。どれも、とても大きな隣人を何と呼ぶかという古い問いへの答えである。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"中國\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E4%B8%AD%E5%9C%8B"
+      },
+      {
+        "text": "\"China\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/China"
+      },
+      {
+        "text": "\"Китай\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D0%9A%D0%B8%D1%82%D0%B0%D0%B9"
+      },
+      {
+        "text": "\"Cathay\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Cathay"
+      },
+      {
+        "text": "\"Tiongkok\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Tiongkok"
+      },
+      {
+        "text": "\"Hiina\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Hiina"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "computer-the-number-prophetess",
+    "icon": "💻",
+    "tags": [
+      "technology",
+      "etymology"
+    ],
+    "title": {
+      "en": "Computer: In Iceland, a Number Prophetess",
+      "ja": "コンピューター：アイスランドでは数の巫女"
+    },
+    "summary": {
+      "en": "Icelandic made its computer from “number” and “prophetess”. France asked a professor, China saw an electric brain, and for three centuries a computer was a person.",
+      "ja": "アイスランド語は「数」と「巫女」からコンピューターを作った。フランスは教授に手紙を書き、中国語は電気の脳を見た。三百年近く、コンピューターは人だった。"
+    },
+    "body": {
+      "en": "<p>The Icelandic word for a computer is a prophetess who does sums. <strong>tölva</strong> is a blend of <em>tala</em>, “number”, and <em>völva</em>, the seeress of Norse tradition, and it was coined in 1965 by Sigurður Nordal. Iceland does not like to borrow, and when a new machine arrived it went to the oldest shelf in the language and came back with a soothsayer. So when you ask your laptop a question in Reykjavík, you are consulting a woman who sees the future in figures. It is one of the best words anybody made for the thing.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"computer\" data-code=\"is\">🗺️ Show computer on the map</button></div><h3>A person with a lunch break</h3><p>Most of the world did not trouble. English <strong>computer</strong> was sent out with the machine, and German <strong>Computer</strong>, Russian <strong>компьютер</strong>, Korean <strong>컴퓨터</strong>, Hindi <strong>कंप्यूटर</strong> and Swahili <strong>kompyuta</strong> took it. The odd part is that the word was not made for a machine at all. It meant a person who computes, first recorded around 1613 in the poet Richard Brathwait, and only around 1897, in the magazine <em>Engineering</em>, does it mean a device. For nearly three hundred years a computer had a lunch break.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,ru,ko,hi\" data-word=\"computer\">🗣 Compare the loan</button></div><h3>A letter to a professor</h3><p>France refused, and it refused in the proper manner, by writing to a professor. In 1955 IBM France thought <em>calculateur</em> too narrow for what these machines could do, and it asked the philologist Jacques Perret. In a letter dated 16 April he offered <strong>ordinateur</strong>, from Latin <em>ōrdinātor</em>, one who puts things in order. Spanish <strong>ordenador</strong> in Spain and Basque <strong>ordenagailu</strong> are built the same way, but Argentina says <strong>computadora</strong> and Chile <strong>computador</strong>, so the Spanish-speaking world is split. Persian <em>رایانه</em> is a purist coinage, perhaps a calque of the French. Sweden has its own story. Swedish <strong>dator</strong> was proposed in 1967 by Börje Langefors, from <em>data</em>, on the pattern of <em>doktor</em> and <em>traktor</em>. An earlier Swedish word was <em>elektronhjärna</em>, “electron brain”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,es,eu,sv\" data-word=\"computer\">🗣 Compare the orderers</button></div><p>That image turned up on the other side of the world too. Mandarin <strong>电脑</strong> is “electric brain”. Wiktionary credits the word to Fan Kuanling, in his 1965 book 《電腦和你》. Hawaiian <strong>lolouila</strong> is <em>lolo</em>, “brain”, plus <em>uila</em>, “lightning, electric”, and Māori <strong>rorohiko</strong> is compared with it. So Polynesia and Taiwan both looked at the same machine and saw a head with lightning in it. Cantonese <strong>電腦</strong> says the same, while Japanese <strong>コンピューター</strong> took the English.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,mi,haw\" data-word=\"computer\">🗣 Compare electric brains</button></div><h3>Knowledge and counting</h3><p>Other languages asked what it did. Finnish <strong>tietokone</strong> is “knowledge machine”, officially accepted on 14 December 1959. Turkish <strong>bilgisayar</strong> is “information counter”, coined in 1969 by Aydın Köksal. Arabic <strong>حاسوب</strong> is a tool noun from the root for counting, dated to 1986.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,tr,ar\" data-word=\"computer\">🗣 Compare the counters</button></div><p>A map like this is unusual, because it records decisions. Nobody knows who first said “water”, but here we have dates, names and sometimes the letter. Most languages in the end simply took the English word. The ones that did not left us a brain, a prophetess, an orderer and a counter, and they are all describing the same box.</p>",
+      "ja": "<p>アイスランド語のコンピューターは、計算をする巫女である。<strong>tölva</strong>は「数」<em>tala</em>と、北欧の伝統の予言者<em>völva</em>を合わせた語で、1965年にシグルズル・ノルダルが作った。アイスランド語は借用を好まず、新しい機械が来ると言語のいちばん古い棚へ行き、巫女を連れて戻ってきたのだ。レイキャヴィークでノートパソコンに問いかけるとき、人は数字で未来を見る女性に相談していることになる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"computer\" data-code=\"is\">🗺️ 地図でコンピューターを見る</button></div><h3>昼休みのある人</h3><p>世界の多くは手間をかけなかった。英語<strong>computer</strong>が機械と一緒に送り出され、ドイツ語<strong>Computer</strong>、ロシア語<strong>компьютер</strong>、朝鮮語<strong>컴퓨터</strong>、ヒンディー語<strong>कंप्यूटर</strong>、スワヒリ語<strong>kompyuta</strong>がこれを取った。おもしろいのは、この語がもともと機械の語ではないことだ。計算をする人を指す語で、1613年ごろ詩人リチャード・ブラスウェイトに初めて現れ、機械を指すようになるのは1897年ごろ、雑誌『エンジニアリング』からである。三百年近く、コンピューターには昼休みがあったのだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,ru,ko,hi\" data-word=\"computer\">🗣 借用を比べる</button></div><h3>教授への手紙</h3><p>フランスは拒み、正しいやり方で拒んだ。教授に手紙を書いたのである。1955年、IBMフランスは<em>calculateur</em>ではこの機械にできることに狭すぎると考え、言語学者ジャック・ペレに尋ねた。ペレは4月16日付の手紙で、ものを順序づける人を指すラテン語<em>ōrdinātor</em>から<strong>ordinateur</strong>を提案した。スペインのスペイン語<strong>ordenador</strong>とバスク語<strong>ordenagailu</strong>は同じ作りだが、アルゼンチンは<strong>computadora</strong>、チリは<strong>computador</strong>で、スペイン語圏は割れている。ペルシア語<em>رایانه</em>は純化主義の造語で、フランス語のなぞりかもしれない。スウェーデン語<strong>dator</strong>は1967年にベリエ・ランゲフォシュが<em>data</em>から、<em>doktor</em>や<em>traktor</em>にならって提案した。それ以前のスウェーデン語には<em>elektronhjärna</em>「電子の脳」があった。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,es,eu,sv\" data-word=\"computer\">🗣 順序づける語を比べる</button></div><p>この絵は世界の反対側にも現れた。中国語<strong>电脑</strong>は「電気の脳」で、ウィクショナリーは1965年の本《電腦和你》の范光陵の造語としている。ハワイ語<strong>lolouila</strong>は「脳」<em>lolo</em>と「稲妻、電気」<em>uila</em>で、マオリ語<strong>rorohiko</strong>が比べられている。ポリネシアと台湾は同じ機械を見て、稲妻の入った頭を見たのである。広東語<strong>電腦</strong>も同じで、日本語の<strong>コンピューター</strong>は英語を取った。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,mi,haw\" data-word=\"computer\">🗣 電気の脳を比べる</button></div><h3>知識と計算</h3><p>何をするものかを尋ねた言語もある。フィンランド語<strong>tietokone</strong>は「知識の機械」で、1959年12月14日に公式に認められた。トルコ語<strong>bilgisayar</strong>は「情報を数えるもの」で、1969年にアイドゥン・キョクサルが作った。アラビア語<strong>حاسوب</strong>は数えることの語根からの道具名詞で、1986年の語である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,tr,ar\" data-word=\"computer\">🗣 数える語を比べる</button></div><p>こういう地図は珍しい。決定の記録だからだ。「水」と最初に言った人はだれにもわからないが、ここには日付と名前と、ときには手紙まである。多くの言語は結局英語を取った。取らなかった言語が残したのが、脳、巫女、順序づける人、数える人で、どれも同じ箱を描いている。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"tölva\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/t%C3%B6lva"
+      },
+      {
+        "text": "\"computer\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/computer"
+      },
+      {
+        "text": "\"ordinateur\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ordinateur"
+      },
+      {
+        "text": "\"dator\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/dator"
+      },
+      {
+        "text": "\"رایانه\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D8%B1%D8%A7%DB%8C%D8%A7%D9%86%D9%87"
+      },
+      {
+        "text": "\"電腦\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E9%9B%BB%E8%85%A6"
+      },
+      {
+        "text": "\"lolouila\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/lolouila"
+      },
+      {
+        "text": "\"tietokone\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/tietokone"
+      },
+      {
+        "text": "\"bilgisayar\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/bilgisayar"
+      },
+      {
+        "text": "\"حاسوب\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D8%AD%D8%A7%D8%B3%D9%88%D8%A8"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "daughter-the-word-that-reached-china",
+    "icon": "👧",
+    "tags": [
+      "family",
+      "etymology"
+    ],
+    "title": {
+      "en": "Daughter: Six Thousand Years, Almost Unchanged",
+      "ja": "娘：六千年ほとんど変わらなかった語"
+    },
+    "summary": {
+      "en": "From the Tarim Basin to Old English, one word stayed almost the same. Then Latin and Celtic threw it away, and much of the rest of the world says “female child”.",
+      "ja": "タリム盆地から古英語まで、一つの語がほとんど同じ形で残った。そしてラテン語とケルト語がこれを捨て、世界の多くは「女の子ども」と言う。"
+    },
+    "body": {
+      "en": "<p>Put these side by side and read them aloud: Sanskrit <em>duhitṛ</em>, Greek <em>thugátēr</em>, Gothic <em>dauhtar</em>, Old English <em>dohtor</em>, Lithuanian <em>duktė</em>, and Tocharian B <em>tkācer</em>. The last one was written in the Tarim Basin, in what is now western China, about as far as the family ever reached. All six are Proto-Indo-European <em>*dʰugh₂tḗr</em>, and in all six you can still hear it. <strong>daughter</strong> is one of the most stable words the family has. Reading those forms is about as close as you can get to watching the sound laws operate.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"daughter\" data-code=\"sa\">🗺️ Show daughter on the map</button></div><h3>The whole family</h3><p>The cells make the point. Sanskrit <strong>दुहितृ</strong>, Ancient Greek <strong>θυγάτηρ</strong>, Gothic <strong>𐌳𐌰𐌿𐌷𐍄𐌰𐍂</strong>, Old English <strong>dohtor</strong> and Tocharian B <strong>𑀢𑁆𑀓𑀸𑀘𑁂𑀭𑁆</strong> all sit on the map together, and modern German <strong>Tochter</strong>, Swedish <strong>dotter</strong> and Russian <strong>дочь</strong> have kept it too. Even a language from a different family took an interest. Finnish <strong>tytär</strong> was borrowed from Proto-Baltic <em>*duktē</em>, the source of Lithuanian, so in the far north a Uralic family says the word as well.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"sa,el_grc,got,ang,txb\" data-word=\"daughter\">🗣 Compare the old forms</button></div><h3>The exception</h3><p>What makes this worth a map is the exception. Latin threw the word away. <strong>fīlia</strong> is simply the feminine of <em>fīlius</em>, “son”, and it displaced the old Italic word, which is still attested in Oscan. So French <strong>fille</strong>, Spanish <strong>hija</strong> and Italian <strong>figlia</strong> have only the feminine of a boy. Celtic threw it away too. Irish <strong>iníon</strong> goes back to <em>*enigenā</em>, compare Latin <em>indigena</em>, “native”, one born within. Welsh <strong>merch</strong> means a girl, from a word for a young person. So the entire western edge of the family has replaced a word that the eastern edge kept.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,es,cy,ga,la\" data-word=\"daughter\">🗣 Compare the west</button></div><p>In much of the world the daughter is not a separate word at all. Arabic <strong>بنت</strong> and Hebrew <strong>בת</strong> use the feminine of “son”, with a Semitic <em>*-at-</em> on the root of <em>ibn</em>, the same move Latin made. Indonesian <strong>anak perempuan</strong> and Malay <strong>anak perempuan</strong> say <em>anak</em>, “child”, and add <em>perempuan</em>, “female”. Tagalog <strong>anak na babae</strong> says “child who is a girl”. Vietnamese <strong>con gái</strong> and Thai <strong>ลูกสาว</strong> do the same. These languages are perfectly clear about what they mean. They simply have one word for offspring and treat the sex as a detail.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ar,he,id,tl,ja\" data-word=\"daughter\">🗣 Compare female child</button></div><h3>Female child</h3><p>Some have words of their own. Japanese <strong>娘</strong> is first cited in the <em>Nihon Shoki</em> of 720, and it is analysed as <em>musu</em>, “to beget”, and <em>me</em>, “female”. Turkish <strong>kız</strong> also means “girl”, and goes back to Proto-Turkic. Korean <strong>딸</strong> is a native word with an initial cluster that is difficult to explain, and Modern Greek <strong>κόρη</strong>, “girl, maiden”, has replaced the ancient word.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,tr,ko,el\" data-word=\"daughter\">🗣 Compare the rest</button></div><p>So the same object has been both the most conservative word in the family and one of the most easily thrown away. Sound changes could not touch it in six thousand years. Latin simply decided that a girl could be named after a son.</p>",
+      "ja": "<p>並べて読み上げてみよう。サンスクリット<em>duhitṛ</em>、ギリシャ語<em>thugátēr</em>、ゴート語<em>dauhtar</em>、古英語<em>dohtor</em>、リトアニア語<em>duktė</em>、トカラ語B<em>tkācer</em>。最後の語は今の中国西部、タリム盆地で書かれたもので、語族が届いたいちばん遠い場所である。六つはどれも印欧祖語<em>*dʰugh₂tḗr</em>で、どれも聞き取れる。<strong>daughter</strong>は語族で最も安定した語の一つだ。これらの形を読むのは、音法則の働きを見ることに近い。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"daughter\" data-code=\"sa\">🗺️ 地図で娘を見る</button></div><h3>語族全体</h3><p>セルがそれを示している。サンスクリット<strong>दुहितृ</strong>、古代ギリシャ語<strong>θυγάτηρ</strong>、ゴート語<strong>𐌳𐌰𐌿𐌷𐍄𐌰𐍂</strong>、古英語<strong>dohtor</strong>、トカラ語B<strong>𑀢𑁆𑀓𑀸𑀘𑁂𑀭𑁆</strong>が地図に並び、現代のドイツ語<strong>Tochter</strong>、スウェーデン語<strong>dotter</strong>、ロシア語<strong>дочь</strong>もこれを保っている。別の語族でさえ関心を示した。フィンランド語<strong>tytär</strong>はリトアニア語のもとのバルト祖語<em>*duktē</em>からの借用で、北の果てではウラル語もこの語を言う。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"sa,el_grc,got,ang,txb\" data-word=\"daughter\">🗣 古い形を比べる</button></div><h3>例外</h3><p>この語に地図の価値があるのは例外のおかげである。ラテン語はこの語を捨てた。<strong>fīlia</strong>は「息子」<em>fīlius</em>の女性形にすぎず、オスク語に残る古いイタリック語の語を追い出した。フランス語<strong>fille</strong>、スペイン語<strong>hija</strong>、イタリア語<strong>figlia</strong>には男の子の女性形しかないのだ。ケルト語も捨てた。アイルランド語<strong>iníon</strong>は<em>*enigenā</em>にさかのぼり、ラテン語<em>indigena</em>「土地の人」と比べられる。ウェールズ語<strong>merch</strong>は若者を指す語から来た「少女」である。語族の西の端全体が、東の端の保った語を取り替えたのだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,es,cy,ga,la\" data-word=\"daughter\">🗣 西を比べる</button></div><p>世界の多くでは、娘は別の語でさえない。アラビア語<strong>بنت</strong>とヘブライ語<strong>בת</strong>は「息子」の女性形を使い、ラテン語と同じことをしている。インドネシア語<strong>anak perempuan</strong>とマレー語<strong>anak perempuan</strong>は「子」<em>anak</em>に「女」<em>perempuan</em>を足す。タガログ語<strong>anak na babae</strong>も同じ作りで、ベトナム語<strong>con gái</strong>とタイ語<strong>ลูกสาว</strong>も同じだ。子を指す語が一つあって、性別は細部として扱うのである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ar,he,id,tl,ja\" data-word=\"daughter\">🗣 女の子どもを比べる</button></div><h3>女の子ども</h3><p>自分の語を持つ言語もある。日本語の<strong>娘</strong>は720年の『日本書紀』に初めて引かれ、「生す」と「女」と分析される。トルコ語<strong>kız</strong>は「少女」でもあり、テュルク祖語にさかのぼる。朝鮮語<strong>딸</strong>は語頭の説明の難しい固有語で、現代ギリシャ語では「少女」を意味する<strong>κόρη</strong>が古い語に取って代わった。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,tr,ko,el\" data-word=\"daughter\">🗣 ほかを比べる</button></div><p>同じものが、語族で最も保守的な語であり、最も手放されやすい語の一つでもあった。音の変化は六千年かけてもこれを壊せなかった。ラテン語はただ、息子の名で娘を呼ぶことにしたのである。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"daughter\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/daughter"
+      },
+      {
+        "text": "\"दुहितृ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E0%A4%A6%E0%A5%81%E0%A4%B9%E0%A4%BF%E0%A4%A4%E0%A5%83"
+      },
+      {
+        "text": "\"θυγάτηρ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%CE%B8%CF%85%CE%B3%CE%AC%CF%84%CE%B7%CF%81"
+      },
+      {
+        "text": "\"filia\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/filia"
+      },
+      {
+        "text": "\"fille\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/fille"
+      },
+      {
+        "text": "\"merch\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/merch"
+      },
+      {
+        "text": "\"iníon\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/in%C3%ADon"
+      },
+      {
+        "text": "\"بنت\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D8%A8%D9%86%D8%AA"
+      },
+      {
+        "text": "\"anak\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/anak"
+      },
+      {
+        "text": "\"perempuan\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/perempuan"
+      },
+      {
+        "text": "\"娘\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E5%A8%98"
+      },
+      {
+        "text": "\"tytär\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/tyt%C3%A4r"
+      },
+      {
+        "text": "\"kız\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/k%C4%B1z"
+      },
+      {
+        "text": "\"딸\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%EB%94%B8"
+      },
+      {
+        "text": "\"κόρη\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%CE%BA%CF%8C%CF%81%CE%B7"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "father-jupiter-and-attila",
+    "icon": "👨",
+    "tags": [
+      "family",
+      "etymology"
+    ],
+    "title": {
+      "en": "Father: Jupiter Is One, and Attila May Be Another",
+      "ja": "父：ユピテルがそうで、アッティラもそうかもしれない"
+    },
+    "summary": {
+      "en": "The Roman king of the gods has “father” in his name. Slavic took a baby word instead, Attila may be a Gothic “little father”, and the Pope is simply papa.",
+      "ja": "ローマの神々の王の名には「父」が入っている。スラヴ語は赤ん坊の語を取り、アッティラはゴート語の「小さな父」かもしれず、教皇はただのパパである。"
+    },
+    "body": {
+      "en": "<p>The king of the Roman gods has “father” in his name. Latin <em>Iuppiter</em> goes back to Proto-Italic <em>*djous patēr</em>, “sky father”, and the same phrase in other mouths became Greek <em>Zeus patēr</em> and Vedic <em>Dyáuṣ Pitṛ́</em>. So the head of the old Indo-European heaven was a dad, and the word in his name is <strong>pater</strong>.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"father\" data-code=\"la\">🗺️ Show father on the map</button></div><h3>A long career</h3><p>That word is <em>*ph₂tḗr</em>, and it has had a long career. English <strong>father</strong>, German <strong>Vater</strong>, French <strong>père</strong>, Spanish <strong>padre</strong>, Greek <strong>πατέρας</strong> and Sanskrit <strong>पिता</strong> all continue it, and <em>pater</em>, <em>padre</em> and <em>père</em> are listed as English doublets. It has also taken some damage. Celtic lost its <em>p</em> altogether, so Irish <strong>athair</strong> is the same word, with nothing at the front. Armenian <strong>հայր</strong> has turned that <em>p</em> into an <em>h</em>, which is why it looks unrelated. These two rows are a textbook case of a sound law, and they have the great merit of being about somebody’s dad.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,fr,ga,hy\" data-word=\"father\">🗣 Compare *ph₂tḗr</button></div><h3>The small word</h3><p>Then there are the languages that ignored the grand word and kept the small one. Russian <strong>отец</strong> and Polish <strong>ojciec</strong> go back to a nursery word, <em>*átta</em>, with a Slavic ending. Gothic <strong>𐌰𐍄𐍄𐌰</strong> used the same baby word. It may also be behind the most feared name in European history. <em>Attila</em> has traditionally been explained as a Gothic “little father”, although Wiktionary marks it as uncertain and notes a more recent explanation. Turkish <em>ata</em>, “ancestor”, has the same shape, and it is in <em>Atatürk</em>, the surname that parliament granted to the founder of the republic in 1934, “Father of the Turks”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ru,pl,got,tr\" data-word=\"father\">🗣 Compare *átta</button></div><h3>Babble</h3><p>Most of the rest of the map is a variation on babble. Turkish <strong>baba</strong> is first attested in the 13th century, and a Turkish etymologist puts it down to the same onomatopoeia found in many languages. Hebrew <strong>אבא</strong> is Aramaic, and it gave English <em>abbot</em>. <em>pope</em> comes from Greek <em>παπᾶς</em>, a title for priests and bishops, so the head of the Catholic Church is, in etymology, just papa. Swahili <strong>baba</strong> has it, and Mandarin <strong>爸爸</strong> and Cantonese <strong>爸爸</strong> say much the same thing. In Georgian <strong>მამა</strong>, of course, <em>mama</em> is the father, as a reminder that the child does not say these things with any clear purpose. Japanese <strong>父</strong> has <em>chichi</em>, going back to Proto-Japonic <em>*titi</em>.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ka,he,sw,ms,ja\" data-word=\"father\">🗣 Compare the rest</button></div><p>A few are genuinely odd. Malay <strong>ayah</strong> comes from Proto-Austronesian <em>*aya</em>, which meant a father’s sister or her husband, and it moved into the job. Hungarian <strong>apa</strong> may be a Turkic loan, or an old Uralic word for a father-in-law. Finnish <strong>isä</strong> is an old Uralic word.</p><p>So a language can have one word that is a god and another that is a toddler’s noise, and they can sit side by side for six thousand years. The grand word got into heaven, and the small word got into the Vatican. The man who actually does the job is usually called by the second one.</p>",
+      "ja": "<p>ローマの神々の王の名には「父」が入っている。ラテン語<em>Iuppiter</em>はイタリック祖語<em>*djous patēr</em>「天の父」にさかのぼり、同じ句は別の口ではギリシャ語<em>Zeus patēr</em>、ヴェーダの<em>Dyáuṣ Pitṛ́</em>になった。古い印欧語の天の長はお父さんで、その名に入っている語が<strong>pater</strong>である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"father\" data-code=\"la\">🗺️ 地図で父を見る</button></div><h3>長い経歴</h3><p>その語は<em>*ph₂tḗr</em>で、長い経歴を持つ。英語<strong>father</strong>、ドイツ語<strong>Vater</strong>、フランス語<strong>père</strong>、スペイン語<strong>padre</strong>、ギリシャ語<strong>πατέρας</strong>、サンスクリット<strong>पिता</strong>はどれもこれを受け継ぐ。傷も負っている。ケルト語は<em>p</em>を丸ごと失ったので、アイルランド語<strong>athair</strong>は頭に何もない同じ語である。アルメニア語<strong>հայր</strong>はその<em>p</em>を<em>h</em>に変えたので、無関係に見える。この二つの行は音法則の教科書のような例で、しかもだれかの父の話である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,fr,ga,hy\" data-word=\"father\">🗣 *ph₂tḗrを比べる</button></div><h3>小さな語</h3><p>大きな語を無視して小さな語を保った言語もある。ロシア語<strong>отец</strong>とポーランド語<strong>ojciec</strong>は幼児語<em>*átta</em>にスラヴ語の語尾がついたものだ。ゴート語<strong>𐌰𐍄𐍄𐌰</strong>も同じ幼児語を使った。これはヨーロッパ史でいちばん恐れられた名の背後にもあるかもしれない。<em>Attila</em>は伝統的にゴート語の「小さな父」と説明されてきたが、ウィクショナリーは不確かとし、新しい説にも触れている。トルコ語<em>ata</em>「祖先」も同じ形で、1934年に議会が共和国の建国者に贈った姓<em>Atatürk</em>「トルコ人の父」に入っている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ru,pl,got,tr\" data-word=\"father\">🗣 *áttaを比べる</button></div><h3>幼児語</h3><p>地図の残りの多くは幼児語の変奏である。トルコ語<strong>baba</strong>は13世紀に初出で、語源学者ニシャンヤンは多くの言語に見られる擬音語としている。ヘブライ語<strong>אבא</strong>はアラム語で、英語<em>abbot</em>のもとだ。<em>pope</em>は司祭や司教の称号だったギリシャ語<em>παπᾶς</em>から来ていて、カトリック教会の長は語源の上ではただのパパである。スワヒリ語<strong>baba</strong>もこの形で、中国語<strong>爸爸</strong>と広東語<strong>爸爸</strong>もほぼ同じことを言う。ジョージア語<strong>მამა</strong>では<em>mama</em>が父である。日本語の<strong>父</strong>は「ちち」で、日本祖語<em>*titi</em>にさかのぼる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ka,he,sw,ms,ja\" data-word=\"father\">🗣 ほかを比べる</button></div><p>本当に変わった例もある。マレー語<strong>ayah</strong>はオーストロネシア祖語<em>*aya</em>「父の姉妹、その夫」から来ていて、この役に移った。ハンガリー語<strong>apa</strong>はテュルク語からの借用か、古いウラル語の「舅」である。フィンランド語<strong>isä</strong>は古いウラル語だ。</p><p>一つの言語が神である語と幼児の音である語を持ち、それが何千年も並んでいられるのである。大きな語は天に入り、小さな語はバチカンに入った。実際にその仕事をする人は、たいてい小さいほうで呼ばれている。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"father\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/father"
+      },
+      {
+        "text": "\"Iuppiter\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Iuppiter"
+      },
+      {
+        "text": "\"athair\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/athair"
+      },
+      {
+        "text": "\"հայր\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D5%B0%D5%A1%D5%B5%D6%80"
+      },
+      {
+        "text": "\"отец\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D0%BE%D1%82%D0%B5%D1%86"
+      },
+      {
+        "text": "\"Attila\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Attila"
+      },
+      {
+        "text": "\"ata\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ata"
+      },
+      {
+        "text": "\"baba\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/baba"
+      },
+      {
+        "text": "\"pope\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/pope"
+      },
+      {
+        "text": "\"abba\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/abba"
+      },
+      {
+        "text": "\"მამა\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E1%83%9B%E1%83%90%E1%83%9B%E1%83%90"
+      },
+      {
+        "text": "\"ayah\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ayah"
+      },
+      {
+        "text": "\"父\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E7%88%B6"
+      },
+      {
+        "text": "\"isä\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/is%C3%A4"
+      },
+      {
+        "text": "\"apa\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/apa"
+      },
+      {
+        "text": "\"Mama and papa\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Mama_and_papa"
+      },
+      {
+        "text": "\"Proto-Indo-Europeans\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Proto-Indo-Europeans"
+      },
+      {
+        "text": "\"Mustafa Kemal Atatürk\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "fire-two-words-and-a-fireplace",
+    "icon": "🔥",
+    "tags": [
+      "nature",
+      "etymology"
+    ],
+    "title": {
+      "en": "Fire: French Feu Is a Fireplace",
+      "ja": "火：フランス語のfeuは暖炉である"
+    },
+    "summary": {
+      "en": "Latin had a fine word for fire and let it die. French, Spanish and Italian say “hearth”, and that word also gave English focus. Indo-European had two fires, and the god kept one.",
+      "ja": "ラテン語は立派な火の語を手放した。フランス語、スペイン語、イタリア語は「炉」と言い、この語は英語のfocusにもなった。印欧語には火が二つあり、神が一つを保っている。"
+    },
+    "body": {
+      "en": "<p>The French word for fire is really a fireplace. <strong>feu</strong> comes from Latin <em>focus</em>, which meant a hearth, and in Late and Vulgar Latin it replaced the classical word <em>ignis</em>. Spanish <strong>fuego</strong> and Italian <strong>fuoco</strong> are the same. So when a Spanish officer shouts <em>¡fuego!</em>, he is, by origin, shouting “hearth”. Wiktionary is careful to add that the French word has nothing to do with English <strong>fire</strong> or German <strong>Feuer</strong>, in spite of how alike they look.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"fire\" data-code=\"fr\">🗺️ Show fire on the map</button></div><h3>From the flame to the room</h3><p>The replacement is one of the quietest revolutions in Romance. Latin <strong>ignis</strong> had a perfectly good word, and it lost out to the word for the place where the fire was kept. English has that hearth word in two surprising forms. <em>focus</em> is the same word, taken into the sciences by Johannes Kepler in describing the ellipses of the planets, and <em>fuel</em> comes from it through Old French. So the point at which you concentrate your mind was once a Roman fireplace.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,es,it,la\" data-word=\"fire\">🗣 Compare the hearth</button></div><h3>The god of fire</h3><p>Latin’s old word did not vanish everywhere. <em>ignis</em> survives in <em>ignition</em> and <em>igneous</em>, and it has famous relatives. Sanskrit <strong>अग्निः</strong> is <em>agni</em>, which also means Agni, the god of fire. Russian <strong>огонь</strong> and Polish <strong>ogień</strong> are the same word, so <em>*h₁n̥gʷnís</em> has been burning in India and Russia for some thousands of years.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"la,sa,ru,pl\" data-word=\"fire\">🗣 Compare *h₁n̥gʷnís</button></div><p>Indo-European in fact had two fires, and it is striking how many branches chose. The other word is <em>*péh₂wr̥</em>, behind English <strong>fire</strong>, German <strong>Feuer</strong>, Ancient Greek <strong>πῦρ</strong> and Hittite <strong>𒉺𒄴𒄯</strong>. Greek gave English <em>pyre</em>, which is a doublet of <em>fire</em>, so the funeral heap and the bonfire are one word by two routes. Gothic <strong>𐍆𐍉𐌽</strong> used a form of it too. Swedish <strong>eld</strong>, though Germanic, says something else. As with water, a word that everyone needed turned out to have two forms that branches could keep or drop.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,el_grc,hit,got\" data-word=\"fire\">🗣 Compare *péh₂wr̥</button></div><h3>Two fires</h3><p>Elsewhere, the old words are simple. Hungarian <strong>tűz</strong> goes back to Proto-Ugric, replacing an older Uralic word that Finnish <strong>tuli</strong> still has. Japanese <strong>火</strong> was <em>pi</em> in Old Japanese and has softened its first consonant to <em>h</em>, and Korean <strong>불</strong> has a word of its own. Malay <strong>api</strong>, Tagalog <strong>apoy</strong> and Hawaiian <strong>ahi</strong> are close relatives, going back to Proto-Austronesian <em>*Sapuy</em>. Mandarin <strong>火</strong> writes a picture of flames. Turkish <strong>ateş</strong> borrowed its word from Persian <strong>آتش</strong>, which goes back to Middle Persian <em>ātaxš</em>, and Arabic <strong>نار</strong> and Hebrew <strong>אש</strong> each have their own.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hu,ja,ko,fa,ms\" data-word=\"fire\">🗣 Compare the rest</button></div><p>What Romance shows is that even a word this basic can be replaced, and not by a foreign invader, but from inside the house. Nobody decided that <em>ignis</em> should go. It simply lost to the hearth.</p>",
+      "ja": "<p>フランス語の火は、実は暖炉である。<strong>feu</strong>はラテン語<em>focus</em>「炉」から来ていて、これが後期ラテン語と俗ラテン語で古典語の<em>ignis</em>に取って代わった。スペイン語<strong>fuego</strong>とイタリア語<strong>fuoco</strong>も同じである。スペインの士官が<em>¡fuego!</em>と叫ぶとき、もとをたどれば「炉！」と叫んでいるのだ。ウィクショナリーは、よく似ていてもフランス語の語は英語<strong>fire</strong>やドイツ語<strong>Feuer</strong>と無関係だと念を押している。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"fire\" data-code=\"fr\">🗺️ 地図で火を見る</button></div><h3>炎から部屋へ</h3><p>この入れ替えはロマンス語の静かな革命の一つである。ラテン語<strong>ignis</strong>の立派な語は、火を置く場所の語に負けた。英語はこの炉の語を意外な形で持っている。<em>focus</em>は同じ語で、ヨハネス・ケプラーが惑星の楕円軌道を述べるのに科学へ持ち込んだ。<em>fuel</em>も古フランス語を経てここから来ている。心を集中させる点は、かつてローマの暖炉だったのだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,es,it,la\" data-word=\"fire\">🗣 炉を比べる</button></div><h3>火の神</h3><p>ラテン語の古い語もどこでも消えたわけではない。<em>ignis</em>は<em>ignition</em>や<em>igneous</em>に残り、有名な親戚もいる。サンスクリット<strong>अग्निः</strong>は<em>agni</em>で、火の神アグニでもある。ロシア語<strong>огонь</strong>とポーランド語<strong>ogień</strong>も同じ語で、<em>*h₁n̥gʷnís</em>はインドとロシアで何千年も燃え続けてきた。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"la,sa,ru,pl\" data-word=\"fire\">🗣 *h₁n̥gʷnísを比べる</button></div><p>印欧語には実は火が二つあった。もう一つの語は<em>*péh₂wr̥</em>で、英語<strong>fire</strong>、ドイツ語<strong>Feuer</strong>、古代ギリシャ語<strong>πῦρ</strong>、ヒッタイト語<strong>𒉺𒄴𒄯</strong>の背後にある。ギリシャ語は英語に<em>pyre</em>を与え、これは<em>fire</em>の二重語なので、火葬の薪の山とたき火は二つの道を通った一つの語である。ゴート語<strong>𐍆𐍉𐌽</strong>もこの語の形を使った。スウェーデン語<strong>eld</strong>はゲルマン語なのに別の語を使う。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,el_grc,hit,got\" data-word=\"fire\">🗣 *péh₂wr̥を比べる</button></div><h3>二つの火</h3><p>ほかの土地の古い語は素朴である。ハンガリー語<strong>tűz</strong>はウゴル祖語にさかのぼり、フィンランド語<strong>tuli</strong>が今も持つ古いウラル語の語に取って代わった。日本語の<strong>火</strong>は上代日本語で<em>pi</em>で、語頭の子音が<em>h</em>に弱まった。朝鮮語<strong>불</strong>は自分の語を持つ。マレー語<strong>api</strong>、タガログ語<strong>apoy</strong>、ハワイ語<strong>ahi</strong>は近い親戚で、オーストロネシア祖語<em>*Sapuy</em>にさかのぼる。中国語<strong>火</strong>は炎の絵で書く。トルコ語<strong>ateş</strong>はペルシア語<strong>آتش</strong>からの借用で、もとは中期ペルシア語<em>ātaxš</em>であり、アラビア語<strong>نار</strong>とヘブライ語<strong>אש</strong>はそれぞれの語を持つ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hu,ja,ko,fa,ms\" data-word=\"fire\">🗣 ほかを比べる</button></div><p>ロマンス語が見せてくれるのは、これほど基本的な語でも入れ替わること、それも外からの侵入者ではなく家の中からだということだ。<em>ignis</em>を捨てようと決めた人はいない。炉に負けただけである。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"feu\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/feu"
+      },
+      {
+        "text": "\"fuego\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/fuego"
+      },
+      {
+        "text": "\"focus\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/focus"
+      },
+      {
+        "text": "\"fuel\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/fuel"
+      },
+      {
+        "text": "\"eld\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/eld"
+      },
+      {
+        "text": "\"ateş\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ate%C5%9F"
+      },
+      {
+        "text": "\"ignis\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ignis"
+      },
+      {
+        "text": "\"अग्नि\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E0%A4%85%E0%A4%97%E0%A5%8D%E0%A4%A8%E0%A4%BF"
+      },
+      {
+        "text": "\"огонь\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D0%BE%D0%B3%D0%BE%D0%BD%D1%8C"
+      },
+      {
+        "text": "\"fire\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/fire"
+      },
+      {
+        "text": "\"pyre\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/pyre"
+      },
+      {
+        "text": "\"tűz\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/t%C5%B1z"
+      },
+      {
+        "text": "\"火\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E7%81%AB"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "grandmother-which-side",
+    "icon": "👵",
+    "tags": [
+      "family",
+      "etymology"
+    ],
+    "title": {
+      "en": "Grandmother: Whose Mother Do You Mean?",
+      "ja": "祖母：だれの母のことか"
+    },
+    "summary": {
+      "en": "English has one grandmother. Swedish, Turkish and Chinese want to know which side she is on, and East Asia calls one side “outside”.",
+      "ja": "英語の祖母は一つである。スウェーデン語、トルコ語、中国語はどちら側かを知りたがり、東アジアは片方を「外」と呼ぶ。"
+    },
+    "body": {
+      "en": "<p>English has one word for two rather different people. Swedish does not put up with this. <strong>farmor</strong> is <em>far</em> plus <em>mor</em>, “father-mother”, and your other grandmother is <em>mormor</em>, “mother-mother”, which is as clear as a family tree. Turkish <strong>babaanne</strong> does exactly the same: “father-mother”, and <em>anneanne</em>, “mother-mother”. On this map 101 cells split the two grandmothers, and 342 use one word for both. If you are a speaker of the second kind you have probably never thought about it. If you are a speaker of the first kind, you have probably thought the other lot were being careless.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"grandmother\" data-code=\"sv\">🗺️ Show grandmother on the map</button></div><h3>Outside</h3><p>East Asia splits them in a way that says something about the family. Mandarin <strong>奶奶</strong> is the father’s mother, and the mother’s mother is <em>外婆</em>, with <em>外</em>, “outside”. Korean <strong>할머니</strong> does it too, and the mother’s mother is <em>외할머니</em>, “outside grandmother”. Vietnamese <strong>bà nội</strong> is explicit about both: this is the “inside grandmother”, and <em>bà ngoại</em> is the “outside grandmother”. The word tells you whose line the family runs through. Your mother’s mother is, in this vocabulary, from outside, however close you are to her.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,ko,vi,sv,tr\" data-word=\"grandmother\">🗣 Compare inside and outside</button></div><p>Other languages simply have two unrelated words, with nothing to explain them. Thai <strong>ย่า</strong> is the father’s mother, and <em>ยาย</em> is the mother’s mother. Hindi <strong>दादी</strong> is the father’s mother, and <em>नानी</em> the mother’s mother. Cantonese <strong>嫲嫲</strong> has its own. Arabic <strong>جدة</strong> uses one word for both, the feminine of “grandfather”, and Swahili <strong>bibi</strong> also means “lady” or “Mrs”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"th,hi,yue\" data-word=\"grandmother\">🗣 Compare two words</button></div><h3>Two grandmothers, one word</h3><p>The languages that merge them have mostly built a word out of mother. English <strong>grandmother</strong> uses <em>grand-</em>, and Wiktionary compares French <strong>grand-mère</strong>. The older English word was <em>eldmother</em>, “elder mother”, and it was superseded. German <strong>Großmutter</strong> is “great mother”, and Finnish <strong>isoäiti</strong> “big mother”. Korean <strong>할머니</strong> comes from <em>한어머니</em>, “big mother”, so even Korean’s plain grandmother has size in it. Size is doing the work of age: she is the larger mother behind your mother.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,fr,fi,ko\" data-word=\"grandmother\">🗣 Compare the big mothers</button></div><h3>From the nursery</h3><p>The really affectionate words come from the nursery. Russian <strong>бабушка</strong> is <em>баба</em> plus an endearing suffix, and it is what English took as <em>babushka</em>. Greek <strong>γιαγιά</strong> is a nursery word, beside <em>μαμά</em> and <em>μπαμπάς</em>. Tagalog <strong>lola</strong> may be a clipped Spanish <em>abuela</em>. That Spanish word <strong>abuela</strong> comes from Late Latin <em>aviola</em>, a diminutive of <strong>avia</strong>, and the male line has left a strange fossil in English. <em>uncle</em> comes from Latin <em>avunculus</em>, literally “little grandfather”, the mother’s brother. So the side of the family that East Asia calls outside gave English a word built on a grandfather.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ru,el,es,tl,la\" data-word=\"grandmother\">🗣 Compare the nursery</button></div><p>Whichever word it is, the question behind the map is the same. Does your language need to know how you got to her? In about one row in four where the answer is known, it does.</p>",
+      "ja": "<p>英語はかなり違う二人を一つの語で呼ぶ。スウェーデン語はこれを許さない。<strong>farmor</strong>は<em>far</em>と<em>mor</em>で「父の母」、もう一人の祖母は<em>mormor</em>「母の母」で、家系図のように明快だ。トルコ語<strong>babaanne</strong>もまったく同じで、「父の母」と<em>anneanne</em>「母の母」である。地図では101セルが二人の祖母を分け、342セルが一つの語で済ませる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"grandmother\" data-code=\"sv\">🗺️ 地図で祖母を見る</button></div><h3>外</h3><p>東アジアの分け方は家族のことを語っている。中国語<strong>奶奶</strong>は父方の祖母で、母方の祖母は「外」のある<em>外婆</em>である。朝鮮語<strong>할머니</strong>も同じで、母方の祖母は<em>외할머니</em>「外の祖母」だ。ベトナム語<strong>bà nội</strong>は両方はっきりしていて、これは「内の祖母」、<em>bà ngoại</em>は「外の祖母」である。語は家系がだれを通るかを告げている。どれほど親しくても、母の母はこの語彙では外から来た人なのだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,ko,vi,sv,tr\" data-word=\"grandmother\">🗣 内と外を比べる</button></div><p>無関係な二つの語を持つだけの言語もある。タイ語<strong>ย่า</strong>は父方の祖母で、<em>ยาย</em>が母方の祖母だ。ヒンディー語<strong>दादी</strong>は父の母で、<em>नानी</em>が母の母である。広東語<strong>嫲嫲</strong>も自分の語を持つ。アラビア語<strong>جدة</strong>は「祖父」の女性形を両方に使い、スワヒリ語<strong>bibi</strong>は「婦人」の意味でもある。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"th,hi,yue\" data-word=\"grandmother\">🗣 二つの語を比べる</button></div><h3>二人の祖母、二つの語</h3><p>二人をまとめる言語は、たいてい母から語を作った。英語<strong>grandmother</strong>は<em>grand-</em>を使い、ウィクショナリーはフランス語<strong>grand-mère</strong>と比べている。古い英語の語は<em>eldmother</em>「年上の母」で、取って代わられた。ドイツ語<strong>Großmutter</strong>は「大きな母」、フィンランド語<strong>isoäiti</strong>も「大きな母」である。朝鮮語<strong>할머니</strong>は<em>한어머니</em>「大きな母」から来ているので、朝鮮語の祖母にも大きさが入っている。大きさが年齢の仕事をしている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,fr,fi,ko\" data-word=\"grandmother\">🗣 大きな母を比べる</button></div><h3>子ども部屋から</h3><p>本当に親しみのこもった語は子ども部屋から来る。ロシア語<strong>бабушка</strong>は<em>баба</em>に愛称の接尾辞がついた語である。ギリシャ語<strong>γιαγιά</strong>は<em>μαμά</em>や<em>μπαμπάς</em>と並ぶ幼児語だ。タガログ語<strong>lola</strong>はスペイン語<em>abuela</em>が縮んだものかもしれない。そのスペイン語<strong>abuela</strong>はラテン語<strong>avia</strong>の指小形、後期ラテン語<em>aviola</em>から来ている。男性の側には奇妙な化石が英語に残った。<em>uncle</em>はラテン語<em>avunculus</em>、文字どおり「小さな祖父」で、母の兄弟のことである。東アジアが外と呼ぶ側は、英語に祖父からできた語を残したのである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ru,el,es,tl,la\" data-word=\"grandmother\">🗣 子ども部屋を比べる</button></div><p>どの語であれ、地図の背後の問いは同じである。あなたの言語は、彼女までどうたどり着いたかを知る必要があるか。答えのわかっている行の約四分の一では、知る必要がある。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"farmor\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/farmor"
+      },
+      {
+        "text": "\"奶奶\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E5%A5%B6%E5%A5%B6"
+      },
+      {
+        "text": "\"外婆\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E5%A4%96%E5%A9%86"
+      },
+      {
+        "text": "\"grandmother\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/grandmother"
+      },
+      {
+        "text": "\"할머니\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%ED%95%A0%EB%A8%B8%EB%8B%88"
+      },
+      {
+        "text": "\"бабушка\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B0%D0%B1%D1%83%D1%88%D0%BA%D0%B0"
+      },
+      {
+        "text": "\"γιαγιά\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%CE%B3%CE%B9%CE%B1%CE%B3%CE%B9%CE%AC"
+      },
+      {
+        "text": "\"abuela\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/abuela"
+      },
+      {
+        "text": "\"avunculus\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/avunculus"
+      },
+      {
+        "text": "\"uncle\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/uncle"
+      },
+      {
+        "text": "\"lola\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/lola"
+      },
+      {
+        "text": "\"babushka\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/babushka"
+      },
+      {
+        "text": "\"Großmutter\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Gro%C3%9Fmutter"
+      },
+      {
+        "text": "\"isoäiti\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/iso%C3%A4iti"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "green-grass-grow-and-gold",
+    "icon": "🟢",
+    "tags": [
+      "colour",
+      "etymology"
+    ],
+    "title": {
+      "en": "Green: The Colour of Growing, and of Gold",
+      "ja": "緑：育つものの色、そして金の色"
+    },
+    "summary": {
+      "en": "English green, grass and grow are one root. Russian green is related to yellow and gold, Greek green is a leek, and Japanese green began as a new shoot.",
+      "ja": "英語のgreen、grass、growは一つの語根である。ロシア語の緑は黄と金の親戚で、ギリシャ語の緑はネギで、日本語の緑は新芽から始まった。"
+    },
+    "body": {
+      "en": "<p>English green, grass and grow are one word. <strong>green</strong> goes back to Proto-Indo-European <em>*gʰreh₁-</em>, “to grow”, and so do <em>grass</em> and <em>grow</em>, which Wiktionary glosses at the Germanic stage as “to grow, grow green”. So a green field is a growing field, and the name of the colour was the name of what the colour was doing. German <strong>grün</strong>, Dutch <strong>groen</strong> and Swedish <strong>grön</strong> say the same. A surprising number of languages made the same connection without any help.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"green\" data-code=\"en\">🗺️ Show green on the map</button></div><h3>Things alive</h3><p>The idea turns up again and again. Japanese <strong>緑</strong> originally referred to new buds and shoots, and only later expanded to the colour. It is a relatively young colour word beside <em>ao</em>, which used to cover it. Latin <em>viridis</em> is from <em>vireō</em>, “to flourish, be verdant”, so Spanish <strong>verde</strong>, Italian <strong>verde</strong> and French <strong>vert</strong> are also in the business of plants, and Welsh <strong>gwyrdd</strong> borrowed the Latin. Malay <strong>hijau</strong> goes back to Proto-Austronesian, and its Tagalog cognate means “unripe”. Persian <strong>سبز</strong> goes back to a word for green and fresh, and Morgenstierne connects it with a Pashto word for vegetables and greens. It is the same story each time: people did not name a wavelength, they named a thing alive.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,sv,ja,ms\" data-word=\"green\">🗣 Compare the growing words</button></div><h3>Yellow and gold</h3><p>Slavic did something different, and in doing so it opens a door. Russian <strong>зелёный</strong> and Polish <strong>zielony</strong> go back to <em>*ǵʰelh₃-</em>, “green, yellow”, and that root has a very wide family. English <em>yellow</em>, <em>gold</em> and <em>glow</em> are from it, and so is <em>chlorine</em>, named in 1810 from Greek <strong>χλωρός</strong>, “pale green”, for the colour of the gas. So in Russian, green has the same root as gold, and, as in English, it can also mean raw and inexperienced. Hungarian <strong>zöld</strong>, most likely by way of an Alanic loan, is ultimately from the same place. The old root drew no line between green and yellow.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ru,pl,hu,el_grc\" data-word=\"green\">🗣 Compare the yellow root</button></div><h3>A leek</h3><p>Modern Greek has replaced its old word. <strong>πράσινο</strong> means “leek-green”, from <em>πράσον</em>, “leek”, and it displaced <em>χλωρός</em>. Tagalog <strong>berde</strong> and Basque <strong>berde</strong> borrowed the Spanish word, and Turkish <strong>yeşil</strong> has its old Proto-Turkic word, with cognates from Azerbaijani to Uyghur. Irish <strong>glas</strong> has kept the old word, and uses it for the green of plants and for grey. Vietnamese <strong>xanh lá</strong> has to specify “leaf” after its grue word, and that is a reminder that green is a recent separation in many languages, not a basic fact.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"el,es,cy,tl,tr\" data-word=\"green\">🗣 Compare the rest</button></div><p>So the map of green is a map of things. It is a shoot in Japan, a leek in Athens, and a field in English, with the colour following on behind. In Russian, it is kin to gold. Whichever word a language has, the thing behind it was usually alive.</p>",
+      "ja": "<p>英語のgreen、grass、growは一つの語である。<strong>green</strong>は印欧祖語<em>*gʰreh₁-</em>「育つ」にさかのぼり、<em>grass</em>と<em>grow</em>も同じで、ウィクショナリーはゲルマン語の段階を「育つ、緑になる」と説明している。緑の野原は育っている野原で、色の名はその色がしていることの名だったのだ。ドイツ語<strong>grün</strong>、オランダ語<strong>groen</strong>、スウェーデン語<strong>grön</strong>も同じことを言う。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"green\" data-code=\"en\">🗺️ 地図で緑を見る</button></div><h3>生きているもの</h3><p>この発想はくり返し現れる。日本語の<strong>緑</strong>はもとは新芽を指し、のちに色へ広がった。ラテン語<em>viridis</em>は「茂る」<em>vireō</em>から来ているので、スペイン語<strong>verde</strong>、イタリア語<strong>verde</strong>、フランス語<strong>vert</strong>も植物の仕事をしていて、ウェールズ語<strong>gwyrdd</strong>はこのラテン語を借りた。マレー語<strong>hijau</strong>はオーストロネシア祖語にさかのぼり、タガログ語の同源語は「熟していない」である。ペルシア語<strong>سبز</strong>は「緑の、新鮮な」の語にさかのぼり、モルゲンスティエルネはパシュトー語の「野菜」と結んでいる。人は波長に名をつけたのではなく、生きているものに名をつけたのだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,sv,ja,ms\" data-word=\"green\">🗣 育つ語を比べる</button></div><h3>黄と金</h3><p>スラヴ語は別のことをして、それが扉を開く。ロシア語<strong>зелёный</strong>とポーランド語<strong>zielony</strong>は<em>*ǵʰelh₃-</em>「緑、黄」にさかのぼり、この語根の家族はとても広い。英語の<em>yellow</em>、<em>gold</em>、<em>glow</em>がここから来ていて、<em>chlorine</em>も、ガスの色から1810年に古代ギリシャ語<strong>χλωρός</strong>「薄緑」で名づけられた。ロシア語の緑は金と同じ語根なのである。英語と同じく、未熟という意味にもなる。ハンガリー語<strong>zöld</strong>もアラン語からの借用らしく、もとは同じ場所に行き着く。古い語根は緑と黄の間に線を引いていなかった。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ru,pl,hu,el_grc\" data-word=\"green\">🗣 黄の語根を比べる</button></div><h3>ネギ</h3><p>現代ギリシャ語は古い語を取り替えた。<strong>πράσινο</strong>は「ネギ色」で、「ネギ」<em>πράσον</em>から来ていて、<em>χλωρός</em>を追い出した。タガログ語<strong>berde</strong>とバスク語<strong>berde</strong>はスペイン語を借り、トルコ語<strong>yeşil</strong>はテュルク祖語の古い語を持つ。アイルランド語<strong>glas</strong>は古い語を保ち、植物の緑にも灰色にも使う。ベトナム語<strong>xanh lá</strong>は青緑の語に「葉」を足して言う。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"el,es,cy,tl,tr\" data-word=\"green\">🗣 ほかを比べる</button></div><p>緑の地図はものの地図である。日本では新芽、アテネではネギ、英語では野原で、色はそのあとをついてくる。ロシア語では金の親戚である。どの語の後ろにあるものも、たいてい生きていた。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"green\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/green"
+      },
+      {
+        "text": "\"grow\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/grow"
+      },
+      {
+        "text": "\"grass\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/grass"
+      },
+      {
+        "text": "\"緑\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E7%B7%91"
+      },
+      {
+        "text": "\"hijau\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/hijau"
+      },
+      {
+        "text": "\"зелёный\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D0%B7%D0%B5%D0%BB%D1%91%D0%BD%D1%8B%D0%B9"
+      },
+      {
+        "text": "\"yellow\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/yellow"
+      },
+      {
+        "text": "\"chlorine\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/chlorine"
+      },
+      {
+        "text": "\"zöld\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/z%C3%B6ld"
+      },
+      {
+        "text": "\"πράσινος\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%CF%80%CF%81%CE%AC%CF%83%CE%B9%CE%BD%CE%BF%CF%82"
+      },
+      {
+        "text": "\"viridis\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/viridis"
+      },
+      {
+        "text": "\"verde\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/verde"
+      },
+      {
+        "text": "\"gwyrdd\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/gwyrdd"
+      },
+      {
+        "text": "\"yeşil\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ye%C5%9Fil"
+      },
+      {
+        "text": "\"سبز\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D8%B3%D8%A8%D8%B2"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "hundred-the-word-that-split-a-family",
+    "icon": "💯",
+    "tags": [
+      "numbers",
+      "etymology"
+    ],
+    "title": {
+      "en": "Hundred: The Word That Split a Family in Two",
+      "ja": "百：語族を二つに分けた語"
+    },
+    "summary": {
+      "en": "Linguists divide Indo-European with one number, centum or satem. The division turned out to be real, the map of it false, and English hundred is a word that means “hundred-count”.",
+      "ja": "言語学者は印欧語を一つの数、centumとsatemで分ける。区別は本物で、その地図は間違っていた。英語のhundredは「百を数える」という語である。"
+    },
+    "body": {
+      "en": "<p>Nineteenth-century linguists needed names for the two halves of Indo-European, and they chose one word. Latin <strong>centum</strong> and Avestan <strong>𐬯𐬀𐬙𐬆𐬨</strong>, the old language of Iran, both mean “hundred”. Latin begins with a hard <em>k</em>, <em>centum</em>, and Avestan with an <em>s</em>, <em>satəm</em>. Both come from Proto-Indo-European <em>*ḱm̥tóm</em>, and its first sound, a palatal <em>*ḱ</em>, had to go one way or the other in every branch. So every language in the family is, by this test, a centum language or a satem language. It is the most famous sound law in the subject, and it is named after a number.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"hundred\" data-code=\"la\">🗺️ Show hundred on the map</button></div><h3>The s side</h3><p>Follow the <em>s</em> side and you get Sanskrit <strong>शतम्</strong>, Old Church Slavonic <strong>съто</strong>, Russian <strong>сто</strong> and Lithuanian <strong>šimtas</strong>. Wiktionary calls <em>satem</em> the canonical example of a word that changed a Proto-Indo-European palatovelar into a sibilant, by the 3rd millennium BC. It runs through Iran, India and the Slavic and Baltic east, and it looks on the map exactly like what the theory first expected, a family with an eastern half.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"la,ave,sa,ru,lt\" data-word=\"hundred\">🗣 Compare satem</button></div><h3>The k side</h3><p>Follow the <em>k</em> side and you get Ancient Greek <strong>ἑκατόν</strong>, Old Irish <strong>cét</strong>, Latin and Germanic. Germanic is well disguised. Its <em>h</em> is a regular change from <em>k</em>, so Gothic <strong>𐌷𐌿𐌽𐌳</strong> and Old English <strong>hund</strong> are the same word. The map looked very neat, west against east, until the discovery of Tocharian. Tocharian B <strong>𑀓𑀦𑁆𑀢𑁂</strong> is on the <em>k</em> side, with a hard consonant, and it was spoken in the Tarim Basin, further east than any satem language. The line is real as a fact about sounds, and the map of it turned out not to be a line.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"la,el_grc,ga,got,txb\" data-word=\"hundred\">🗣 Compare centum</button></div><p>English has a small oddity of its own. The Old English row is <strong>hund</strong>, which is also a word for a dog, and that is no error. Germanic <em>*hundą</em>, “hundred”, and <em>*hundaz</em>, “dog”, had fallen together by that stage. The word <strong>hundred</strong> is built on it, plus <em>*radą</em>, “count”, so that an English hundred is by origin a “hundred-count”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,hu,et\" data-word=\"hundred\">🗣 Compare the Uralic loans</button></div><h3>Who was trading</h3><p>Outside the family the word shows who was trading with whom. Finnish <strong>sata</strong>, Estonian <strong>sada</strong> and Hungarian <strong>száz</strong> are loans. Proto-Finno-Ugric <em>*śëta</em> was borrowed from Indo-Iranian, on the satem side of the line, so the two families were in contact very early. Elsewhere languages have words of their own. Mandarin <strong>百</strong> and Japanese <strong>百</strong> share a character, Arabic <strong>مئة</strong> and Hebrew <strong>מאה</strong> a Semitic root, and Swahili <strong>mia</strong> took its word from Arabic. Turkish <strong>yüz</strong> has its own, and Malay <strong>seratus</strong> says “one hundred” with a prefix.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,ar,he,sw,tr\" data-word=\"hundred\">🗣 Compare the rest</button></div><p>A hundred is a big number to have a word for, and the speakers of Proto-Indo-European had one. Their descendants’ scholars then used that same number to sort the family, and got it nearly right.</p>",
+      "ja": "<p>19世紀の言語学者は印欧語の二つの半分に名前が必要で、一つの語を選んだ。ラテン語<strong>centum</strong>とイランの古い言語アヴェスター語<strong>𐬯𐬀𐬙𐬆𐬨</strong>はどちらも「百」である。ラテン語は硬い<em>k</em>で<em>centum</em>、アヴェスター語は<em>s</em>で<em>satəm</em>だ。どちらも印欧祖語<em>*ḱm̥tóm</em>から来ていて、語頭の<em>*ḱ</em>はどの枝でもどちらかへ進むしかなかった。語族のどの言語も、この基準でcentumかsatemかに分かれる。この分野でいちばん有名な音法則で、一つの数の名を持っている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"hundred\" data-code=\"la\">🗺️ 地図で百を見る</button></div><h3>sの側</h3><p><em>s</em>の側をたどるとサンスクリット<strong>शतम्</strong>、古教会スラヴ語<strong>съто</strong>、ロシア語<strong>сто</strong>、リトアニア語<strong>šimtas</strong>が現れる。ウィクショナリーは<em>satem</em>を、印欧祖語の硬口蓋軟口蓋音を歯擦音に変えた典型例と呼んでいる。イラン、インド、スラヴとバルトの東へ続き、地図の上では理論が最初に予想したとおり、語族の東半分に見える。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"la,ave,sa,ru,lt\" data-word=\"hundred\">🗣 satemを比べる</button></div><h3>kの側</h3><p><em>k</em>の側をたどると古代ギリシャ語<strong>ἑκατόν</strong>、古アイルランド語<strong>cét</strong>、ラテン語、ゲルマン語が現れる。ゲルマン語はよく変装している。<em>h</em>は<em>k</em>からの規則的な変化で、ゴート語<strong>𐌷𐌿𐌽𐌳</strong>と古英語<strong>hund</strong>は同じ語である。地図は西と東できれいに見えたが、トカラ語が見つかった。トカラ語B<strong>𑀓𑀦𑁆𑀢𑁂</strong>は硬い子音の<em>k</em>の側なのに、どのsatem語よりも東のタリム盆地で話されていた。音の事実としての線は本物だが、その地図は線ではなかったのである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"la,el_grc,ga,got,txb\" data-word=\"hundred\">🗣 centumを比べる</button></div><p>英語には小さな奇妙さがある。古英語の行の<strong>hund</strong>は犬の語でもあり、これは間違いではない。ゲルマン語<em>*hundą</em>「百」と<em>*hundaz</em>「犬」がその段階で同じ形になっていたのだ。<strong>hundred</strong>はこれに「数」<em>*radą</em>がついた語で、英語の百はもとは「百の数」である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,hu,et\" data-word=\"hundred\">🗣 ウラル語の借用を比べる</button></div><h3>だれが接していたか</h3><p>語族の外では、この語はだれとだれが接していたかを見せる。フィンランド語<strong>sata</strong>、エストニア語<strong>sada</strong>、ハンガリー語<strong>száz</strong>は借用である。フィン・ウゴル祖語<em>*śëta</em>はsatemの側のインド・イラン語からの借用で、二つの語族はとても早くから接していた。ほかの土地には自分の語がある。中国語<strong>百</strong>と日本語の<strong>百</strong>は字を共有し、アラビア語<strong>مئة</strong>とヘブライ語<strong>מאה</strong>はセム語の語根を共有し、スワヒリ語<strong>mia</strong>はアラビア語から取った。トルコ語<strong>yüz</strong>は自分の語を持ち、マレー語<strong>seratus</strong>は接頭辞で「一百」と言う。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,ar,he,sw,tr\" data-word=\"hundred\">🗣 ほかを比べる</button></div><p>百は語を持つには大きな数である。後の世代がこの同じ数を使って言語の子孫を分類し、それはほぼ正しかった。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"hundred\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/hundred"
+      },
+      {
+        "text": "\"centum\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/centum"
+      },
+      {
+        "text": "\"satem\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/satem"
+      },
+      {
+        "text": "\"sata\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/sata"
+      },
+      {
+        "text": "\"mia\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/mia"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "i-your-humble-servant",
+    "icon": "🙋",
+    "tags": [
+      "grammar",
+      "etymology"
+    ],
+    "title": {
+      "en": "I: In Much of Asia, Your Humble Servant",
+      "ja": "私：アジアの多くでは、あなたのしもべ"
+    },
+    "summary": {
+      "en": "Malay saya, Vietnamese tôi and Japanese boku all began as words for a servant, and Thai men refer to themselves as “hair”. English, meanwhile, capitalises itself.",
+      "ja": "マレー語のsaya、ベトナム語のtôi、日本語の「僕」はどれも召使いの語から始まった。タイの男性は自分を「髪」と呼ぶ。英語は自分を大文字で書く。"
+    },
+    "body": {
+      "en": "<p>When a Malay speaker says “I”, the word is a servant. <strong>saya</strong> and Indonesian <strong>saya</strong> are a clipping of <em>sahaya</em>, from Sanskrit <em>सहाय</em>, “follower”, and in Malay <em>sahaya</em> means a slave. Vietnamese <strong>tôi</strong> has done exactly the same with a different word. <em>tôi</em> is related to a Katuic word for a slave, and on its own it is an obsolete word for a slave or domestic servant. Wiktionary spells the path out: “slave, servant” to “I”. The first person in a large part of Asia began as a bow.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"i\" data-code=\"ms\">🗺️ Show I on the map</button></div><h3>Servant and private</h3><p>Japan has the same history in writing. <em>Boku</em>, the everyday word for a man, is written 僕, and that is a character for a manservant. Its use as “I” became common from around the Meiji period. The map’s <strong>私</strong> is a different word. 私 was a personal or private matter, and <em>watashi</em> is shifted from an older <em>watakushi</em>. So the choice of a Japanese speaker is between being a servant and being private. Thai <strong>ผม</strong> is the strangest of all. It is the word for the hair on your head, used by a man when speaking politely, and Wiktionary traces it to Proto-Tai <em>*prɤmᴬ</em>, “head hair”. In polite Thai a man refers to himself as the hair on top of him.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ms,id,vi,th,ja\" data-word=\"i\">🗣 Compare the servants</button></div><h3>Very old</h3><p>These languages have made a choice that European ones avoid. In Vietnamese, a pronoun usually carries a degree of kinship, and speakers mostly pick a word that states the relationship, so that pronouns are less like pronouns than like job titles.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,la,el_grc,sa\" data-word=\"i\">🗣 Compare Indo-European</button></div><h3>Short and ancient</h3><p>Indo-European keeps it simple, and very old. One ancient word is behind Latin <strong>ego</strong> and Ancient Greek <strong>ἐγώ</strong>, and so <em>ego</em>, and behind German <strong>ich</strong>, Gothic <strong>𐌹𐌺</strong>, Old English <strong>iċ</strong> and English <strong>I</strong>. Sanskrit <strong>अहम्</strong> and Avestan <strong>𐬀𐬰𐬆𐬨</strong> have it too. English then made the word smaller and smaller. The Middle English forms run from <em>ich</em> and <em>ik</em> down to a single letter, and it is the only pronoun that English writes with a capital in every position. French <strong>je</strong>, Spanish <strong>yo</strong>, Italian <strong>io</strong> and Russian <strong>я</strong> have all kept their own versions. Nobody in any of those languages has to decide their rank before opening their mouth.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,tr,ar,he,zh\" data-word=\"i\">🗣 Compare the rest</button></div><p>Elsewhere the word is short and ancient. Finnish <strong>minä</strong> and Turkish <strong>ben</strong> have an <em>m</em> or a <em>b</em> in it, Arabic <strong>أنا</strong> and Hebrew <strong>אני</strong> an old Semitic form, and Korean <strong>나</strong> is the plain form. Mandarin <strong>我</strong> is a single character.</p><p>So the same word can stand up straight or bow. For an English speaker it stands on its own, capital and all. In Kuala Lumpur or Hanoi the speaker bowed long ago, and has since forgotten it.</p>",
+      "ja": "<p>マレー語で「私」と言うとき、語は召使いである。<strong>saya</strong>とインドネシア語<strong>saya</strong>は<em>sahaya</em>を縮めた語で、これはサンスクリット<em>सहाय</em>「従者」から来ていて、マレー語の<em>sahaya</em>は奴隷の意味である。ベトナム語<strong>tôi</strong>は別の語で同じことをした。<em>tôi</em>はカトゥ語派の「奴隷」と関係があり、単独では奴隷、召使いを指す古語である。ウィクショナリーはこの道をはっきり書いている。「奴隷、召使い」から「私」へ。アジアの広い範囲で、一人称はお辞儀から始まった。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"i\" data-code=\"ms\">🗺️ 地図で「私」を見る</button></div><h3>召使いと私事</h3><p>日本語にも同じ歴史が字に残っている。男性のふだんの語「僕」は下男を表す字で、「私」の意味は明治のころから広まった。地図の<strong>私</strong>は別の語だ。私はもともと個人的なことで、「わたし」は古い「わたくし」が変わったものである。日本語の話者は、召使いか私事かを選ぶことになる。いちばん奇妙なのはタイ語<strong>ผม</strong>だ。頭の髪を指す語で、男性が丁寧に話すときに使い、ウィクショナリーはタイ祖語<em>*prɤmᴬ</em>「頭髪」にたどっている。丁寧なタイ語で、男性は自分を頭の上の髪と呼ぶのである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ms,id,vi,th,ja\" data-word=\"i\">🗣 召使いを比べる</button></div><h3>とても古い</h3><p>これらの言語は、ヨーロッパの言語が避ける選択をしている。ベトナム語の代名詞はたいてい親族関係の度合いを含み、話し手は関係を示す語を選ぶので、代名詞というより肩書きに近い。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,la,el_grc,sa\" data-word=\"i\">🗣 印欧語を比べる</button></div><h3>短くて古い</h3><p>印欧語は単純で、とても古い。一つの古い語がラテン語<strong>ego</strong>と古代ギリシャ語<strong>ἐγώ</strong>、つまり<em>ego</em>の背後にあり、ドイツ語<strong>ich</strong>、ゴート語<strong>𐌹𐌺</strong>、古英語<strong>iċ</strong>、英語<strong>I</strong>の背後にもある。サンスクリット<strong>अहम्</strong>とアヴェスター語<strong>𐬀𐬰𐬆𐬨</strong>も同じだ。英語はこの語をどんどん小さくした。中英語の形は<em>ich</em>、<em>ik</em>から一文字にまで縮み、どの位置でも大文字で書く唯一の代名詞になった。フランス語<strong>je</strong>、スペイン語<strong>yo</strong>、イタリア語<strong>io</strong>、ロシア語<strong>я</strong>もそれぞれの形を保っている。これらの言語では、口を開く前に自分の地位を決める必要はない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,tr,ar,he,zh\" data-word=\"i\">🗣 ほかを比べる</button></div><p>ほかの土地では語は短くて古い。フィンランド語<strong>minä</strong>とトルコ語<strong>ben</strong>には<em>m</em>か<em>b</em>があり、アラビア語<strong>أنا</strong>とヘブライ語<strong>אני</strong>は古いセム語の形で、朝鮮語<strong>나</strong>は素の形である。中国語<strong>我</strong>は一字だ。</p><p>同じ語がまっすぐ立つことも、お辞儀をすることもある。英語の話者の語は大文字で一人で立っている。クアラルンプールやハノイの話者はとうの昔にお辞儀をして、もうそれを忘れている。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"saya\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/saya"
+      },
+      {
+        "text": "\"sahaya\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/sahaya"
+      },
+      {
+        "text": "\"tôi\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/t%C3%B4i"
+      },
+      {
+        "text": "\"ผม\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E0%B8%9C%E0%B8%A1"
+      },
+      {
+        "text": "\"僕\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E5%83%95"
+      },
+      {
+        "text": "\"私\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E7%A7%81"
+      },
+      {
+        "text": "\"I\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/I"
+      },
+      {
+        "text": "\"ego\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ego"
+      },
+      {
+        "text": "\"나\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%EB%82%98"
+      },
+      {
+        "text": "\"Vietnamese pronouns\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Vietnamese_pronouns"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "india-named-after-a-river",
+    "icon": "🇮🇳",
+    "tags": [
+      "places",
+      "etymology",
+      "history"
+    ],
+    "title": {
+      "en": "India: A Country Named After a River",
+      "ja": "インド：川の名を持つ国"
+    },
+    "summary": {
+      "en": "Almost every name for India is the Sanskrit word for a river, by way of a Persian h that Greek then dropped. China’s spelling came with a pilgrim who explained it as the moon.",
+      "ja": "インドの名のほとんどはサンスクリットの川の語で、ペルシア語のhとそれを落としたギリシャ語を経ている。中国語の書き方は、これを月と説明した巡礼僧とともに来た。"
+    },
+    "body": {
+      "en": "<p>Nearly every name for India comes from a word for a river. Sanskrit <em>सिन्धु</em>, <em>síndhu</em>, meant a river, a stream, and especially the Indus. The people who first had to name the land beyond it were the Persians, and Old Persian had turned the <em>s</em> into an <em>h</em>, giving <em>hindu-</em>. That one small change of sound is why we have <em>Hindu</em>, <em>Hindi</em> and <em>Hindustan</em> on one side, and <em>Sindh</em> on the other.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"india\" data-code=\"en\">🗺️ Show India on the map</button></div><h3>The Persian road</h3><p>The Persian road has 50 cells. Persian <strong>هند</strong> and Arabic <strong>الهند</strong> say Hind, and Turkish <strong>Hindistan</strong> adds the same <em>-stan</em> that the Persians used. Hebrew <strong>הודו</strong> took the Old Persian form, and it has a surprise for anyone reading the dictionary. The same word means India and a turkey, the bird, one more case of a bird that was named after a place it never came from. Mongolian <strong>Энэтхэг</strong> came the long way round, by Uyghur from Sogdian.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fa,ar,tr,he\" data-word=\"india\">🗣 Compare the Persian road</button></div><p>Greek did the next thing. Without the <em>h</em>, Persian <em>hinduš</em> became <em>Ἰνδός</em>, the Indus, and the land became <strong>Ἰνδία</strong>. Latin <strong>India</strong> took it, Old English <strong>Indea</strong> had it, and this form went round the world with 291 cells: English <strong>India</strong>, French <strong>Inde</strong>, Russian <strong>Индия</strong>, Thai <strong>อินเดีย</strong>, Finnish <strong>Intia</strong> and even Tamil <strong>இந்தியா</strong>. It left a colour behind it too. <em>Indigo</em> is from Latin <em>indicum</em>, “Indian”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,fr,ru,th,ta\" data-word=\"india\">🗣 Compare the Greek road</button></div><h3>The moon</h3><p>China has a good story of its own. For a long time Chinese had a muddle of names, and the monk Xuanzang, who had gone to India himself, set out to clear it up in his <em>Great Tang Records on the Western Regions</em> of 646. Formerly, he said, it was called <em>Juandu</em> or <em>Xiandou</em>, but now we should follow the correct pronunciation, and say 印度. That is the form of Mandarin <strong>印度</strong>, and Japanese <strong>インド</strong>, Korean <strong>인도</strong> and Vietnamese <strong>Ấn Độ</strong> read it in their own ways, 72 cells in all. Xuanzang even explained it, as one of the many names for the moon, Sanskrit <em>इन्दु</em>. Wiktionary doubts that the word was ever used by Indians themselves. It remains the most poetic explanation on the map.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,ja,ko,vi\" data-word=\"india\">🗣 Compare Yìndù</button></div><h3>At home</h3><p>In the country itself, the usual name is something else. Hindi <strong>भारत</strong> and Bengali <strong>ভারত</strong> say <em>Bhārat</em>, from Sanskrit <strong>भारतवर्षम्</strong>, after the legendary king Bharata of the Mahābhārata, and 30 cells do so. <em>Hindustan</em>, the Persian name, is still a colloquial word for India in Hindi and Urdu as well. Tamil, as it happens, prefers the Greek version. So a country has the name of a legendary king to itself, while the rest of the world calls it after a river, in a form with a Persian <em>h</em> that Greek then took away.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hi,bn,sa\" data-word=\"india\">🗣 Compare Bhārat</button></div>",
+      "ja": "<p>インドの名のほとんどは川の語から来ている。サンスクリット<em>सिन्धु</em>、<em>síndhu</em>は川、流れ、特にインダス川を指した。その向こうの土地に名をつける必要があったのはペルシア人で、古代ペルシア語は<em>s</em>を<em>h</em>に変えて<em>hindu-</em>とした。この小さな音の変化のために、一方に<em>Hindu</em>、<em>Hindi</em>、<em>Hindustan</em>があり、もう一方に<em>Sindh</em>がある。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"india\" data-code=\"en\">🗺️ 地図でインドを見る</button></div><h3>ペルシアの道</h3><p>ペルシアの道は50セルある。ペルシア語<strong>هند</strong>とアラビア語<strong>الهند</strong>はHindと言い、トルコ語<strong>Hindistan</strong>はペルシア人の使った<em>-stan</em>をつける。ヘブライ語<strong>הודו</strong>は古代ペルシア語の形を取り、辞書を読む人には驚きがある。同じ語がインドと七面鳥を指すのだ。縁のない土地の名をもらった鳥が、ここにもいる。モンゴル語<strong>Энэтхэг</strong>はソグド語からウイグル語を経て遠回りで来た。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fa,ar,tr,he\" data-word=\"india\">🗣 ペルシアの道を比べる</button></div><p>ギリシャ語が次のことをした。ペルシア語<em>hinduš</em>はh抜きの<em>Ἰνδός</em>、インダス川になり、土地は<strong>Ἰνδία</strong>になった。ラテン語<strong>India</strong>がこれを取り、古英語<strong>Indea</strong>にも入り、この形は291セルで世界を回った。英語<strong>India</strong>、フランス語<strong>Inde</strong>、ロシア語<strong>Индия</strong>、タイ語<strong>อินเดีย</strong>、フィンランド語<strong>Intia</strong>、タミル語<strong>இந்தியா</strong>までがそうだ。色も残した。<em>indigo</em>はラテン語<em>indicum</em>「インドの」から来ている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,fr,ru,th,ta\" data-word=\"india\">🗣 ギリシャの道を比べる</button></div><h3>月</h3><p>中国には独自のいい話がある。中国語の呼び名は長く入り乱れていて、自らインドへ行った僧、玄奘が646年の『大唐西域記』で整理にかかった。昔は身毒とも賢豆とも言ったが、今は正しい音に従って印度と言うべきだという。これが中国語<strong>印度</strong>の形で、日本語の<strong>インド</strong>、朝鮮語<strong>인도</strong>、ベトナム語<strong>Ấn Độ</strong>がそれぞれに読み、合わせて72セルある。玄奘は月の多くの名の一つ、サンスクリット<em>इन्दु</em>だと説明までした。ウィクショナリーは、インド人自身がこの語を使ったとは考えにくいとしている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,ja,ko,vi\" data-word=\"india\">🗣 印度を比べる</button></div><h3>国内の名</h3><p>国内でふつうに使う名はまた別である。ヒンディー語<strong>भारत</strong>とベンガル語<strong>ভারত</strong>はサンスクリット<strong>भारतवर्षम्</strong>からの<em>Bhārat</em>で、『マハーバーラタ』の伝説の王バラタにちなみ、30セルがこれを使う。ペルシア語の名<em>Hindustan</em>も、ヒンディー語とウルドゥー語で今もくだけた呼び名である。タミル語は地図ではギリシャ語の形である。一つの国が伝説の王の名を自分で持ち、世界は川の名で呼ぶのだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hi,bn,sa\" data-word=\"india\">🗣 Bhāratを比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"India\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/India"
+      },
+      {
+        "text": "\"Hindu\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Hindu"
+      },
+      {
+        "text": "\"Indus\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Indus"
+      },
+      {
+        "text": "\"הודו\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D7%94%D7%95%D7%93%D7%95"
+      },
+      {
+        "text": "\"Hindustan\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Hindustan"
+      },
+      {
+        "text": "\"indigo\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/indigo"
+      },
+      {
+        "text": "\"印度\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E5%8D%B0%E5%BA%A6"
+      },
+      {
+        "text": "\"भारत\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4"
+      },
+      {
+        "text": "\"Энэтхэг\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D0%AD%D0%BD%D1%8D%D1%82%D1%85%D1%8D%D0%B3"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "japan-the-sun-by-way-of-malaya",
+    "icon": "🇯🇵",
+    "tags": [
+      "places",
+      "etymology",
+      "history"
+    ],
+    "title": {
+      "en": "Japan: The Name Went Through Malaya",
+      "ja": "日本：名前はマレーを通った"
+    },
+    "summary": {
+      "en": "The name Japan is two characters read in Hokkien, picked up by Malays, taken away by the Portuguese and spread round the world. No Japanese speaker had a hand in it.",
+      "ja": "Japanという名は閩南語で読まれた二字で、マレー人が拾い、ポルトガル人が運び、世界に広がった。日本語話者はそれに関わっていない。"
+    },
+    "body": {
+      "en": "<p>The word <em>Japan</em> is not Japanese. It is what happened to two characters on a very long journey. Those characters are 日本, “sun origin”, and the country has written itself that way since the 7th century. The earliest known inscription with them is from 678, and by 702 to 703 the self-designation 日本國 was stable. Before that, the outside world wrote the country as 倭. So the name is a claim about the place the sun comes from. Then it left home.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"japan\" data-code=\"ms\">🗺️ Show Japan on the map</button></div><h3>At home</h3><p>At home it stayed in the writing. Japanese <strong>日本</strong> reads it <em>Nihon</em> or <em>Nippon</em>, and English keeps a rare <em>Nippon</em> for brand names and postage stamps. Mandarin <strong>日本</strong>, Korean <strong>일본</strong> and Vietnamese <strong>Nhật Bản</strong> read the same two characters in their own sound systems, so that one name is <em>Rìběn</em>, <em>Ilbon</em> and <em>Nhật Bản</em>. The 82 cells on this route are the part of the map that shares the writing, and these are the speakers who can see at a glance that all those sounds are one word.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja,zh,ko,vi\" data-word=\"japan\">🗣 Compare the characters</button></div><h3>Through Malaya</h3><p>The name went abroad by sea, and in another Chinese language. Hokkien speakers said <em>Ji̍t-pún</em>. Malay <strong>Jepun</strong> took that, and so did Indonesian <strong>Jepang</strong> and Thai <strong>ญี่ปุ่น</strong>, which have it as a direct loan from Hokkien, with Lao <strong>ຍີ່ປຸ່ນ</strong> beside them, 23 cells in all. That is the route that made the difference, because a Malay form, <em>Jepang</em>, is what the Portuguese heard.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ms,id,th,lo\" data-word=\"japan\">🗣 Compare the Hokkien road</button></div><h3>Through Lisbon</h3><p>The Portuguese took the name from there. In Wiktionary’s account, English <strong>Japan</strong> came from Portuguese <strong>Japão</strong>, perhaps with some influence from Dutch, and both come from Malay. The first English attestation is in Richard Willes’s book of 1577, as <em>Giapan</em>, translating a letter of 1565 by the Jesuit Luís Fróis about “the Ilande of Giapan”. After that the road is easy to follow, and it is 274 cells long: French <strong>Japon</strong>, Russian <strong>Япония</strong>, Arabic <strong>اليابان</strong>, Hindi <strong>जापान</strong> and most of the rest of the world. Tagalog <strong>Hapon</strong> got it from Spanish, and pronounces the <em>j</em> as Spanish does, so it has lost the first sound completely: <em>Hapon</em>. A word that began with <em>n</em> in Tokyo has arrived in Manila with an <em>h</em>.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,pt,fr,ru,ar,hi\" data-word=\"japan\">🗣 Compare the European road</button></div><p>Look at what the name went through. It started in Chinese characters, and it was read in Hokkien, not Japanese. It was adapted by Malay speakers, spelt by Portuguese priests and passed to the Dutch and English. No Japanese speaker played any part in that. The 6 cells that fall outside these routes include Okinawan, with <em>Yamatu</em>, “mainland Japan”, beside the old name <em>Yamato</em>, of uncertain origin.</p><p>The one thing that has survived the trip is the sun. Whichever language you say it in, somewhere behind the sound are the two characters for the origin of the sun.</p>",
+      "ja": "<p>Japanという語は日本語ではない。これは二つの字が長い旅でたどり着いた姿である。字は日本、「日の本」で、この国は7世紀からそう書いている。この字を持つ最古の碑文は678年のもので、702年から703年には日本国という自称が定着した。それ以前、外の世界はこの国を倭と書いた。名前は太陽の出どころについての主張である。そしてこの名は家を出た。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"japan\" data-code=\"ms\">🗺️ 地図で日本を見る</button></div><h3>家で</h3><p>家では字の中にとどまった。日本語の<strong>日本</strong>は「ニホン」か「ニッポン」と読み、英語はブランド名や切手に<em>Nippon</em>を残す。中国語<strong>日本</strong>、朝鮮語<strong>일본</strong>、ベトナム語<strong>Nhật Bản</strong>は同じ二字を自分の音で読むので、一つの名が<em>Rìběn</em>、<em>Ilbon</em>、<em>Nhật Bản</em>になる。この道の82セルは字を共有する地図の部分である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja,zh,ko,vi\" data-word=\"japan\">🗣 字を比べる</button></div><h3>マレーを通って</h3><p>名は海を渡って外へ出た。それも別の中国語で。閩南語の話者は<em>Ji̍t-pún</em>と言った。マレー語<strong>Jepun</strong>がこれを取り、インドネシア語<strong>Jepang</strong>とタイ語<strong>ญี่ปุ่น</strong>も閩南語から直接借り、ラオ語<strong>ຍີ່ປຸ່ນ</strong>が隣にいて、全部で23セルである。これが決定的な道だった。マレー語の形<em>Jepang</em>を、ポルトガル人が聞いたからだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ms,id,th,lo\" data-word=\"japan\">🗣 閩南語の道を比べる</button></div><h3>リスボンを通って</h3><p>ポルトガル人はそこから名を取った。ウィクショナリーによれば、英語<strong>Japan</strong>はポルトガル語<strong>Japão</strong>から来て、オランダ語の影響もあったかもしれず、どちらもマレー語から来ている。英語の初出は1577年のリチャード・ウィルズの本の<em>Giapan</em>で、イエズス会士ルイス・フロイスの1565年の手紙の翻訳である。それからの道はたどりやすく、274セルある。フランス語<strong>Japon</strong>、ロシア語<strong>Япония</strong>、アラビア語<strong>اليابان</strong>、ヒンディー語<strong>जापान</strong>、世界の大半だ。タガログ語<strong>Hapon</strong>はスペイン語から取り、<em>j</em>をスペイン語のように読むので<em>Hapon</em>になった。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,pt,fr,ru,ar,hi\" data-word=\"japan\">🗣 ヨーロッパの道を比べる</button></div><p>この名がくぐったものを見てほしい。漢字で始まり、日本語ではなく閩南語で読まれ、マレー語話者が変え、ポルトガルの司祭が綴り、オランダ人と英語話者に渡した。そのどこにも日本語話者は関わっていない。この道の外の6セルには沖縄語の<em>Yamatu</em>「本土」があり、語源不明の古い名<em>Yamato</em>が隣にいる。</p><p>旅を生き延びたのは太陽である。どの言語で言っても、音の後ろには太陽の出どころを表す二つの字がある。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"日本\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E6%97%A5%E6%9C%AC"
+      },
+      {
+        "text": "\"Japan\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Japan"
+      },
+      {
+        "text": "\"Jepun\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Jepun"
+      },
+      {
+        "text": "\"ญี่ปุ่น\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99"
+      },
+      {
+        "text": "\"Nippon\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Nippon"
+      },
+      {
+        "text": "\"Yamato\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Yamato"
+      },
+      {
+        "text": "\"Hapon\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Hapon"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "korea-a-kingdom-gone-600-years",
+    "icon": "🇰🇷",
+    "tags": [
+      "places",
+      "etymology",
+      "history"
+    ],
+    "title": {
+      "en": "Korea: Named After a Medieval Kingdom",
+      "ja": "韓国：中世の王朝の名"
+    },
+    "summary": {
+      "en": "The world calls the country after Goryeo, a dynasty long gone. Korean itself uses two other names, depending on which side of the border you are on, and Mongolian has a fourth.",
+      "ja": "世界はこの国を、とうに消えた高麗の名で呼ぶ。朝鮮語自身は境界のどちら側かで別の二つの名を使い、モンゴル語にはもう一つの名がある。"
+    },
+    "body": {
+      "en": "<p>The world knows Korea by the name of a kingdom that ended in the 14th century. <em>Korea</em>, <em>Corée</em> and <em>Корея</em> all go back to Goryeo, 高麗, the official name of the country from 918 to the 1390s, and that was itself a shortening of the older 高句麗, Goguryeo. The map has 277 cells on this route. To put it another way, most of humanity is calling a modern country by a medieval dynasty.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"korea\" data-code=\"en\">🗺️ Show Korea on the map</button></div><h3>An old sailing story</h3><p>How it got out is an old sailing story. English <strong>Korea</strong> first has it as <em>Core</em>, in the 1598 translation of the 1596 <em>Itinerario</em> of Jan Huyghen van Linschoten. Linschoten took it from the Portuguese, and the Portuguese took it from some variety of Chinese. Wiktionary points to Hokkien <em>Ko-lê</em>, which matches the Dutch-Portuguese vowels exactly. So, like <em>Japan</em>, the name came through a Hokkien port and a Portuguese ear, and the word is a Chinese pronunciation of a Korean dynasty. <em>Corea</em> was the more common English spelling for a long time. French <strong>Corée</strong>, Russian <strong>Корея</strong> and Arabic <strong>كوريا</strong> are on the same road, and Thai <strong>เกาหลี</strong> is a separate loan, from Mandarin.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,fr,ru,ar,th\" data-word=\"korea\">🗣 Compare Goryeo</button></div><h3>At home</h3><p>At home, the name depends on where you are. South Korea says <strong>한국</strong>, written 韓國, originally short for the Empire of Great Han, the official name from 1897 to 1910, and now short for the Republic. The Han in it goes back to the Three Han, ancient confederations in the south of the peninsula. North Korea says <strong>조선</strong>, 朝鮮, the name of the dynasty that followed Goryeo. So the peninsula uses two different old names. The neighbours who write characters have to choose. Japanese <strong>韓国</strong>, Mandarin <strong>韩国</strong> and Vietnamese <strong>Hàn Quốc</strong> use the South’s name for the South and the North’s for the North, and 69 cells on the map are of the Hanguk kind. The map gives the name in everyday use in each language.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ko,ko_kp,ja,zh,vi\" data-word=\"korea\">🗣 Compare the names at home</button></div><h3>Further north</h3><p>Mongolian <strong>Солонгос</strong> has the fourth name, and it is the most interesting one. It comes from a Middle Mongolian <em>Solongos</em>, written in Chinese characters in the Yuan period as 莎郎合思, “Goryeo”. Wiktionary compares Jurchen <em>solgor</em>, which gave Manchu a word for Korea, an Old Turkic form <em>čölüg</em> for Silla, and the name of Silla itself, 新羅. So the northern name may keep an even older kingdom.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"mn\" data-word=\"korea\">🗣 Compare Solongos</button></div><p>Taken together this is a good picture of how country names work. Goryeo was the country when the sailors asked. Han and Joseon are what the people there chose. Solongos is what the people next door remembered. None of them is wrong, and all of them are out of date in one way or another, which is true of most of the names on this map.</p>",
+      "ja": "<p>世界が知るKoreaの名は、14世紀に終わった王朝の名である。<em>Korea</em>、<em>Corée</em>、<em>Корея</em>はどれも高麗にさかのぼる。918年から1390年代までの国の正式の名で、古い高句麗を短くしたものだ。この地図では277セルがこの道の上にある。人類の多くは現代の国を中世の王朝で呼んでいるのである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"korea\" data-code=\"en\">🗺️ 地図で韓国を見る</button></div><h3>船乗りの話</h3><p>外へ出た経緯は船乗りの話である。英語<strong>Korea</strong>の初出は、ヤン・ハイヘン・ファン・リンスホーテンの1596年の<em>Itinerario</em>の1598年の英訳の<em>Core</em>である。リンスホーテンはポルトガル人から、ポルトガル人は何らかの中国語から取った。ウィクショナリーは閩南語<em>Ko-lê</em>を挙げ、オランダ・ポルトガルの母音に正確に合うとしている。<em>Japan</em>と同じように、この名も閩南語の港とポルトガル人の耳を通ったのだ。フランス語<strong>Corée</strong>、ロシア語<strong>Корея</strong>、アラビア語<strong>كوريا</strong>も同じ道にいて、タイ語<strong>เกาหลี</strong>は中国語からの別の借用である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,fr,ru,ar,th\" data-word=\"korea\">🗣 高麗を比べる</button></div><h3>国内で</h3><p>国内では、名は場所によって変わる。韓国は<strong>한국</strong>と言い、韓國と書く。もとは1897年から1910年の国号、大韓帝国の略で、今は大韓民国の略である。韓は半島南部の古い連合、三韓にさかのぼる。北朝鮮は<strong>조선</strong>、朝鮮と言い、これは高麗の次の王朝の名だ。半島は二つの古い名を使っている。漢字を書く隣国は選ぶ必要があり、日本語の<strong>韓国</strong>、中国語<strong>韩国</strong>、ベトナム語<strong>Hàn Quốc</strong>は南を南の名で、北を北の名で呼ぶ。地図の69セルがHanguk型である。地図は各言語のふだんの名を示している。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ko,ko_kp,ja,zh,vi\" data-word=\"korea\">🗣 国内の名を比べる</button></div><h3>さらに北へ</h3><p>モンゴル語<strong>Солонгос</strong>には四つ目の名があり、これがいちばんおもしろい。中期モンゴル語<em>Solongos</em>から来ていて、漢字では莎郎合思と書かれた。ウィクショナリーは女真語<em>solgor</em>（ここから満洲語の朝鮮の語が出た）、古テュルク語<em>čölüg</em>「新羅」、新羅そのものと比べている。北の名はもっと古い王国を保っているのかもしれない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"mn\" data-word=\"korea\">🗣 ソロンゴスを比べる</button></div><p>合わせると、国名の働き方がよくわかる。高麗は船乗りが尋ねたときの国である。韓と朝鮮はそこの人々が選んだ名である。ソロンゴスは隣の人々が覚えていた名である。どれも間違いではなく、どれも何かの意味で古く、これはこの地図の名前の多くに言えることだ。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"Korea\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Korea"
+      },
+      {
+        "text": "\"高麗\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E9%AB%98%E9%BA%97"
+      },
+      {
+        "text": "\"เกาหลี\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5"
+      },
+      {
+        "text": "\"한국\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%ED%95%9C%EA%B5%AD"
+      },
+      {
+        "text": "\"조선\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%EC%A1%B0%EC%84%A0"
+      },
+      {
+        "text": "\"Солонгос\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D0%A1%D0%BE%D0%BB%D0%BE%D0%BD%D0%B3%D0%BE%D1%81"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "mobilephone-handy-and-honeycomb",
+    "icon": "📱",
+    "tags": [
+      "technology",
+      "etymology"
+    ],
+    "title": {
+      "en": "Mobile Phone: The German English Word",
+      "ja": "携帯電話：ドイツ製の英語"
+    },
+    "summary": {
+      "en": "Everybody got the same device in the same twenty years, and named it after the hand, the walk or the network. German Handy is not English, and Finnish made a word from a child’s “paw”.",
+      "ja": "だれもが同じ二十年に同じ機械を手に入れ、手、移動、網のどれかで名づけた。ドイツ語のHandyは英語ではなく、フィンランド語は子どもの「おてて」から語を作った。"
+    },
+    "body": {
+      "en": "<p>Germans call a mobile phone a <strong>Handy</strong>, and an English speaker in Berlin is entitled to be puzzled. It looks English and nobody in England says it. The cell notes call it a pseudo-anglicism found only in German. Wiktionary can only offer guesses, such as a Motorola product name, <em>handie-talkie</em>, on the model of <em>walkie-talkie</em>. It is a fitting start, because the phone is the newest everyday thing on this map, and the people naming it had the same object in their hands at the same time. They divided three ways, on which feature they thought mattered.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"mobilephone\" data-code=\"de\">🗺️ Show mobile phone on the map</button></div><h3>The hand</h3><p>The first group, 93 cells, looked at the hand. Mandarin <strong>手机</strong> is “hand machine”, and Thai <strong>มือถือ</strong> is “hand-held”. Tamil <strong>கைப்பேசி</strong> is “hand talker”. Finnish <strong>kännykkä</strong> is the most charming of them. It was coined in 1977 by Aarne Visuri, a sales representative at Nokia, from <em>känny</em>, a dialect and child’s word for a hand or paw. So the home of Nokia called it “the little paw thing”. Mongolian <strong>гар утас</strong> uses the word for hand too, and Swahili <strong>simu ya mkononi</strong> says “phone in the hand”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"de,zh,th,fi,ta\" data-word=\"mobilephone\">🗣 Compare the hand</button></div><p>The largest group, 154 cells, looked at the fact that it moves. English <strong>mobile</strong>, Spanish <strong>móvil</strong>, Swedish <strong>mobil</strong> and Greek <strong>κινητό</strong> say “mobile” in their own way. Japanese <strong>携帯</strong> is short for “carried telephone”, and it is often written ケータイ, although most people there now say スマホ. Korean <strong>휴대폰</strong> is built from the same Chinese word for carrying, with <em>폰</em> added. Arabic <strong>هاتف محمول</strong> is “carried telephone”, and regional words include <em>جوال</em>, “roamer”. France says <strong>portable</strong>, while Quebec says <em>cellulaire</em>, Switzerland <em>natel</em> and Belgium <em>GSM</em>, so one language has four answers.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,es,ja,ko,ar\" data-word=\"mobilephone\">🗣 Compare the mobile</button></div><h3>The network</h3><p>The 88 cells of the third group named the network, and that is an odd choice. Nobody sees a cell. American English says <em>cell phone</em> after the radio cells, and Italian <strong>cellulare</strong> is the same, as are Tagalog <strong>selpon</strong>, from English, and Indonesian <strong>ponsel</strong>, a contraction of <em>telepon seluler</em>. Polish <strong>komórka</strong> is a diminutive, “little chamber”, short for “cell telephone”. Russian has the best version of this. Beside its everyday <strong>мобильник</strong>, it has <em>сотовый</em>, from <em>соты</em>, “honeycomb”, so the network is a hive. It is also the title of the Russian Wikipedia article.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"it,pl,id,tl\" data-word=\"mobilephone\">🗣 Compare the cell</button></div><h3>The unpredictable</h3><p>Then there are the ones you could not have predicted. Hebrew <strong>פלאפון</strong> is a trademark that became the word, the operator Pelephone, a blend of <em>פלא</em>, “wonder”, and “telephone”. Malay <strong>telefon bimbit</strong> is <em>bimbit</em>, to carry something hanging from the fingers. Māori <strong>waea pūkoro</strong> is “pocket telephone”, and so is Irish <strong>fón póca</strong>. Icelandic <strong>farsími</strong> is “travelling telephone”, and for a while it had an informal <em>gemsi</em>, from GSM.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"he,ms,mi,is\" data-word=\"mobilephone\">🗣 Compare the rest</button></div><p>What makes this map different is that it records a very short period. All of these words are very young. Give them a century and they will be as worn and mysterious as any other word here, and somebody will write a note explaining that <em>Handy</em> was never English.</p>",
+      "ja": "<p>ドイツ人は携帯電話を<strong>Handy</strong>と呼び、ベルリンの英語話者は首をかしげることになる。英語に見えるが、イングランドでそう言う人はいない。セルの注はドイツ語だけの疑似英語としている。ウィクショナリーも推測しか挙げられず、たとえば<em>walkie-talkie</em>にならったモトローラの製品名<em>handie-talkie</em>である。この地図でいちばん新しい日用品にふさわしい始まりだ。名づける人々は同じ時期に同じものを手にして、どの特徴が大事かで三つに分かれた。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"mobilephone\" data-code=\"de\">🗺️ 地図で携帯電話を見る</button></div><h3>手</h3><p>第一の93セルの集団は手を見た。中国語<strong>手机</strong>は「手の機械」、タイ語<strong>มือถือ</strong>は「手に持つもの」、タミル語<strong>கைப்பேசி</strong>は「手の話し手」である。いちばん愛らしいのはフィンランド語<strong>kännykkä</strong>だ。1977年にノキアの販売担当者アールネ・ヴィスリが、手や前足を指す方言で幼児語の<em>känny</em>から作った。ノキアの国は、これを「おてての小さいの」と呼んだのである。モンゴル語<strong>гар утас</strong>も手の語を使い、スワヒリ語<strong>simu ya mkononi</strong>は「手の電話」と言う。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"de,zh,th,fi,ta\" data-word=\"mobilephone\">🗣 手を比べる</button></div><p>最大の154セルの集団は動くことを見た。英語<strong>mobile</strong>、スペイン語<strong>móvil</strong>、スウェーデン語<strong>mobil</strong>、ギリシャ語<strong>κινητό</strong>はそれぞれの形で「移動」と言う。日本語の<strong>携帯</strong>は「携帯電話」の略で、ケータイとも書くが、今はスマホと言う人が多い。朝鮮語<strong>휴대폰</strong>も同じ漢語に<em>폰</em>をつけた語だ。アラビア語<strong>هاتف محمول</strong>は「運ばれる電話」で、地域の語に<em>جوال</em>「歩き回るもの」がある。フランス語<strong>portable</strong>は「持ち運べるもの」だが、ケベックは<em>cellulaire</em>、スイスは<em>natel</em>、ベルギーは<em>GSM</em>で、一つの言語に答えが四つある。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,es,ja,ko,ar\" data-word=\"mobilephone\">🗣 移動を比べる</button></div><h3>網</h3><p>第三の88セルは網を名にした。妙な選択である。セルを見た人はいない。アメリカ英語は無線のセルから<em>cell phone</em>と言い、イタリア語<strong>cellulare</strong>も同じで、タガログ語<strong>selpon</strong>は英語から、インドネシア語<strong>ponsel</strong>は<em>telepon seluler</em>の短縮形である。ポーランド語<strong>komórka</strong>は「小部屋」の指小形で、「セル電話」の略である。いちばんいいのはロシア語である。ふだんの<strong>мобильник</strong>の隣に「蜂の巣」<em>соты</em>からの<em>сотовый</em>があり、網は巣なのだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"it,pl,id,tl\" data-word=\"mobilephone\">🗣 セルを比べる</button></div><h3>予想外</h3><p>予想できないものもある。ヘブライ語<strong>פלאפון</strong>は商標が語になったもので、通信会社ペレフォンの名、「驚異」<em>פלא</em>と「電話」の混成である。マレー語<strong>telefon bimbit</strong>の<em>bimbit</em>は指にぶら下げて運ぶこと。マオリ語<strong>waea pūkoro</strong>は「ポケットの電話」で、アイルランド語<strong>fón póca</strong>も同じだ。アイスランド語<strong>farsími</strong>は「旅の電話」で、GSMからのくだけた<em>gemsi</em>もあった。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"he,ms,mi,is\" data-word=\"mobilephone\">🗣 ほかを比べる</button></div><p>この地図が違うのは、とても短い時期を記録していることだ。ここの語はどれもとても若い。百年もすれば、ほかの語と同じようにすり減って謎めいたものになり、だれかが、<em>Handy</em>はもともと英語ではなかったという注を書くだろう。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"Handy\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Handy"
+      },
+      {
+        "text": "\"手機\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E6%89%8B%E6%A9%9F"
+      },
+      {
+        "text": "\"kännykkä\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/k%C3%A4nnykk%C3%A4"
+      },
+      {
+        "text": "\"携帯\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E6%90%BA%E5%B8%AF"
+      },
+      {
+        "text": "\"сотовый\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D1%81%D0%BE%D1%82%D0%BE%D0%B2%D1%8B%D0%B9"
+      },
+      {
+        "text": "\"farsími\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/fars%C3%ADmi"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "moon-the-measurer",
+    "icon": "🌙",
+    "tags": [
+      "nature",
+      "etymology",
+      "space"
+    ],
+    "title": {
+      "en": "Moon: The Thing You Measure Time With",
+      "ja": "月：時を測るもの"
+    },
+    "summary": {
+      "en": "English moon comes from a root meaning “to measure”, and in language after language the moon and the month are one word. Latin called it the shining one, and Russian has both.",
+      "ja": "英語のmoonは「測る」の語根から来ていて、多くの言語で月と暦の月は一つの語である。ラテン語は輝くものと呼び、ロシア語は両方を持つ。"
+    },
+    "body": {
+      "en": "<p>English moon probably means “the measurer”. <strong>moon</strong> goes back to Proto-Indo-European <em>*mḗh₁n̥s</em>, “moon, month”, and that is probably from <em>*meh₁-</em>, “to measure”. A moon and a month are two English words for one thing, and <em>month</em> comes from the same root by a separate path. Before anyone could keep a calendar, there was a large object in the sky that changed shape on a regular schedule, and everybody used it. It was in effect the first clock, and in much of the world it still has the name to show it.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"moon\" data-code=\"en\">🗺️ Show moon on the map</button></div><h3>Moon and month</h3><p>Look across the map and the moon and the month keep turning out to be one word. Malay <strong>bulan</strong> means moon and month, a word first attested in an inscription of 683. Turkish <strong>ay</strong> means both, and so does Finnish <strong>kuu</strong>, and Korean <strong>달</strong>. Japanese <strong>月</strong> is the Moon, and the character is used for every month of the calendar. Hungarian <strong>hold</strong> kept a neat pair: it comes from Proto-Uralic <em>*kuŋe</em>, and <em>hó</em>, “month”, is its cognate. German <strong>Mond</strong> and Swedish <strong>måne</strong> are moon words of the English kind. It would be hard to find a clearer sign of what this object was for.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"id,tr,ko,ja,hu\" data-word=\"moon\">🗣 Compare moon and month</button></div><h3>The shining one</h3><p>Latin took another view. It called the moon <strong>lūna</strong>, from <em>*louksnā</em>, “the shining one”, built on the same root as <em>lūx</em>, “light”. That is what gave French <strong>lune</strong>, Spanish <strong>luna</strong> and Italian <strong>luna</strong>, and English <em>lunar</em> and <em>lunatic</em>. So the south looked at the moon and saw a light, and the north looked and saw a calendar. Slavic has both. Russian <strong>луна</strong> uses the shining word for the body in the sky, and it keeps <em>месяц</em>, from the same <em>*mḗh₁n̥s</em>, for the month. Ukrainian <strong>місяць</strong> uses that one for the moon itself. Spanish, ever practical, has given <em>luna</em> a further job, as a word for a windshield.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"la,fr,ru,uk\" data-word=\"moon\">🗣 Compare the shining one</button></div><h3>Words of their own</h3><p>Other languages have made a word of their own. Arabic <strong>قمر</strong> has a word that Wiktionary says stands alone among the Semitic languages, of unknown origin, and the same root gives the verb “to gamble”. Hebrew <strong>ירח</strong> goes back to Proto-Semitic <em>*warḫ-</em>. Modern Greek <strong>φεγγάρι</strong> has moved away from the ancient <strong>σελήνη</strong>. Mandarin <strong>月亮</strong> is first recorded in a Tang dynasty poem, with 亮, “bright”, after the old 月, and Cantonese <strong>月光</strong> says “moonlight”. Swahili <strong>mwezi</strong> means moon and month as well.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ar,he,el,zh\" data-word=\"moon\">🗣 Compare the rest</button></div><p>The moon has had a long working life. Even where the sun has now taken over the arithmetic, the old unit has stayed in the word. English speakers who check the date on a phone are still, in the language, looking up at the sky to see how much of the moon is left.</p>",
+      "ja": "<p>英語のmoonはおそらく「測るもの」である。<strong>moon</strong>は印欧祖語<em>*mḗh₁n̥s</em>「月、ひと月」にさかのぼり、これはおそらく「測る」<em>*meh₁-</em>から来ている。<em>month</em>も別の道で同じ語根から来ている。暦を作れるようになる前から、空には決まった周期で形を変える大きなものがあり、だれもがそれを使った。事実上の最初の時計で、世界の多くでは今もその名がそれを物語っている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"moon\" data-code=\"en\">🗺️ 地図で月を見る</button></div><h3>月とひと月</h3><p>地図を見渡すと、空の月と暦の月が一つの語であることが続く。マレー語<strong>bulan</strong>は月とひと月を指し、683年の碑文に初めて現れる。トルコ語<strong>ay</strong>も両方を指し、フィンランド語<strong>kuu</strong>と朝鮮語<strong>달</strong>も同じだ。日本語の<strong>月</strong>は空の月で、この字はどの暦の月にも使う。ハンガリー語<strong>hold</strong>はきれいな対を保っていて、ウラル祖語<em>*kuŋe</em>から来ていて、「ひと月」<em>hó</em>がその同源語である。この物体が何のためのものだったかを、これほどはっきり示すものはない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"id,tr,ko,ja,hu\" data-word=\"moon\">🗣 月とひと月を比べる</button></div><h3>輝くもの</h3><p>ラテン語は別の見方をした。月を<strong>lūna</strong>と呼び、これは「光」<em>lūx</em>と同じ語根の<em>*louksnā</em>「輝くもの」から来ている。フランス語<strong>lune</strong>、スペイン語<strong>luna</strong>、イタリア語<strong>luna</strong>、英語の<em>lunar</em>と<em>lunatic</em>のもとである。南は月を見て光を見、北は暦を見た。スラヴ語は両方を持つ。ロシア語<strong>луна</strong>は空の天体に輝く語を使い、同じ<em>*mḗh₁n̥s</em>からの<em>месяц</em>をひと月に使う。ウクライナ語<strong>місяць</strong>はこちらを月そのものにも使う。スペイン語は<em>luna</em>にもう一つの仕事を与えていて、車のフロントガラスも指す。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"la,fr,ru,uk\" data-word=\"moon\">🗣 輝くものを比べる</button></div><h3>自分の語</h3><p>自分の語を持つ言語もある。アラビア語<strong>قمر</strong>の語は、ウィクショナリーによればセム語の中で孤立していて語源不明で、同じ語根が動詞「賭ける」にもなる。ヘブライ語<strong>ירח</strong>はセム祖語<em>*warḫ-</em>にさかのぼる。現代ギリシャ語<strong>φεγγάρι</strong>は古代の<strong>σελήνη</strong>から離れた。中国語<strong>月亮</strong>は唐の詩に初めて現れる語で、古い月に「亮」がつき、広東語<strong>月光</strong>は「月の光」と言う。スワヒリ語<strong>mwezi</strong>も月とひと月を指す。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ar,he,el,zh\" data-word=\"moon\">🗣 ほかを比べる</button></div><p>月は長い勤務歴を持っている。太陽が計算を引き継いだ土地でも、古い単位は語の中に残った。電話で日付を確かめる英語話者も、言葉の上ではまだ空を見上げて、月がどれだけ残っているかを見ているのである。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"moon\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/moon"
+      },
+      {
+        "text": "\"month\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/month"
+      },
+      {
+        "text": "\"bulan\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/bulan"
+      },
+      {
+        "text": "\"ay\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ay"
+      },
+      {
+        "text": "\"달\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%EB%8B%AC"
+      },
+      {
+        "text": "\"月\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E6%9C%88"
+      },
+      {
+        "text": "\"月亮\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E6%9C%88%E4%BA%AE"
+      },
+      {
+        "text": "\"ירח\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D7%99%D7%A8%D7%97"
+      },
+      {
+        "text": "\"mwezi\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/mwezi"
+      },
+      {
+        "text": "\"hold\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/hold"
+      },
+      {
+        "text": "\"kuu\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/kuu"
+      },
+      {
+        "text": "\"luna\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/luna"
+      },
+      {
+        "text": "\"месяц\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D0%BC%D0%B5%D1%81%D1%8F%D1%86"
+      },
+      {
+        "text": "\"قمر\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D9%82%D9%85%D8%B1"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "mother-mama-and-a-georgian-surprise",
+    "icon": "👩",
+    "tags": [
+      "family",
+      "etymology"
+    ],
+    "title": {
+      "en": "Mother: In Georgian, Mama Means Father",
+      "ja": "母：ジョージア語のママは父である"
+    },
+    "summary": {
+      "en": "The world’s babies say mama, and most of the world agrees. Georgian does not: its mama is your father. And in Old Japanese, your mother was papa.",
+      "ja": "世界の赤ん坊はママと言い、世界の多くはこれに同意する。ジョージア語は別で、ママは父を指す。そして上代日本語では母はパパだった。"
+    },
+    "body": {
+      "en": "<p>A Georgian child who says <em>mama</em> is talking to its father. <strong>დედა</strong>, “mother”, is <em>deda</em>, and the word for father is <em>მამა</em>, <em>mama</em>. Both are old, going back to Proto-Kartvelian <em>*ded-</em> and <em>*mam-</em>. It may be the best-known exception in the family words of the world, and it is not the only one. Japanese <strong>母</strong> is <em>haha</em>, and the sound changes behind it are perfectly regular: <em>papa</em>, <em>fafa</em>, <em>haha</em>. So in Old Japanese your mother was your <em>papa</em>. The everyday <em>okāsan</em> is a different word again, a sound shift from an older <em>o-kaka-sama</em>.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"mother\" data-code=\"ka\">🗺️ Show mother on the map</button></div><h3>Why everybody says it</h3><p>They stand out because the rest of the world is so much in agreement. Swahili <strong>mama</strong>, Swedish <strong>mamma</strong>, Welsh <strong>mam</strong>, Basque <strong>ama</strong>, Tamil <strong>அம்மா</strong>, Mandarin <strong>妈妈</strong> and Hindi <strong>माँ</strong> all have an <em>m</em>, and nobody supposes that they share a parent. The linguist Roman Jakobson suggested why. The nasal sound in <em>mama</em> comes from the nasal murmur babies produce when breastfeeding, the only sound that can be made with the lips pressed shut. The word is a baby’s, and the adults pick it up and decide it means them. Wiktionary’s note on English <em>mama</em> agrees: probably a reduplication of <em>ma</em>, a sound made by babies when breastfeeding.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"sw,sv,ta,cy,zh\" data-word=\"mother\">🗣 Compare the m sound</button></div><h3>The great old word</h3><p>Behind the formal words there is one great Indo-European form. <em>*méh₂tēr</em> gives English <strong>mother</strong>, German <strong>Mutter</strong>, French <strong>mère</strong>, Russian <strong>мать</strong>, Greek <strong>μητέρα</strong> and Sanskrit <strong>माता</strong>. Wiktionary lists <em>matrix</em>, <em>matter</em> and <em>Madeira</em> as doublets of English <em>mother</em>, which means that matter, in a sense, goes back to the mother of things. Gothic <strong>𐌰𐌹𐌸𐌴𐌹</strong> used a word of its own, and that matters further north.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,fr,ru,el,sa\" data-word=\"mother\">🗣 Compare *méh₂tēr</button></div><h3>Borrowed mothers</h3><p>Finnish <strong>äiti</strong> borrowed its mother. The word comes from Germanic, compare Gothic, and it mostly pushed aside the Uralic <em>emä</em>, which Finnish now keeps for the mothers of animals. Estonian <strong>ema</strong> did not. Hungarian <strong>anya</strong> is probably Proto-Uralic <em>*ańa</em>, and in engineering it also means a nut, the partner of a bolt. Turkish <strong>anne</strong> is Proto-Turkic. Korean <strong>어머니</strong> has a formal word, and the familiar <em>엄마</em> has a vocative ending built into it, because the word was always what you called out. Malay <strong>ibu</strong> probably came from Javanese, and it displaced an older native word. Hebrew <strong>אמא</strong> is a loan from Aramaic. So even a word like this one can be borrowed.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,hu,tr,ko\" data-word=\"mother\">🗣 Compare the rest</button></div><p>Mama and papa may be the closest thing that language has to a universal. The evidence is in every nursery. What the Georgians show is that this is a matter of sound and not of meaning. The baby says it, and the adults decide who it was for.</p>",
+      "ja": "<p>ジョージアの子が<em>mama</em>と言うと、父親に話しかけていることになる。<strong>დედა</strong>「母」は<em>deda</em>で、父の語が<em>მამა</em>、<em>mama</em>なのだ。どちらも古く、カルトヴェリ祖語<em>*ded-</em>と<em>*mam-</em>にさかのぼる。世界の親族語でいちばん有名な例外かもしれないが、例外はこれだけではない。日本語の<strong>母</strong>は「はは」で、音の変化はまったく規則的に<em>papa</em>、<em>fafa</em>、<em>haha</em>と進んだ。上代日本語の母はパパだったのである。ふだんの「お母さん」はまた別の語で、古い「おかかさま」の音が変わったものだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"mother\" data-code=\"ka\">🗺️ 地図で母を見る</button></div><h3>なぜだれもが言うのか</h3><p>この二つが目立つのは、世界のほかの土地がそれだけ一致しているからだ。スワヒリ語<strong>mama</strong>、スウェーデン語<strong>mamma</strong>、ウェールズ語<strong>mam</strong>、バスク語<strong>ama</strong>、タミル語<strong>அம்மா</strong>、中国語<strong>妈妈</strong>、ヒンディー語<strong>माँ</strong>はどれも<em>m</em>を持ち、親戚だと思う人はいない。言語学者ロマン・ヤコブソンが理由を示唆している。<em>mama</em>の鼻音は、赤ん坊が乳を飲むときの鼻の音から来ていて、唇を閉じたまま出せる唯一の音だという。この語は赤ん坊のもので、大人がそれを聞いて自分のことだと決めるのである。英語<em>mama</em>のウィクショナリーの注も同じで、乳を飲むときの音<em>ma</em>を重ねたものらしいとしている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"sw,sv,ta,cy,zh\" data-word=\"mother\">🗣 mの音を比べる</button></div><h3>大きな古い語</h3><p>改まった語の背後には、印欧語の大きな形が一つある。<em>*méh₂tēr</em>が英語<strong>mother</strong>、ドイツ語<strong>Mutter</strong>、フランス語<strong>mère</strong>、ロシア語<strong>мать</strong>、ギリシャ語<strong>μητέρα</strong>、サンスクリット<strong>माता</strong>を生んだ。ウィクショナリーは<em>matrix</em>、<em>matter</em>、<em>Madeira</em>を<em>mother</em>の二重語としている。物質はある意味で万物の母にさかのぼるわけだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,fr,ru,el,sa\" data-word=\"mother\">🗣 *méh₂tērを比べる</button></div><h3>借りた母</h3><p>フィンランド語<strong>äiti</strong>は母を借りた。この語はゴート語と比べられるゲルマン語から来ていて、ウラル語の<em>emä</em>を押しのけ、これは今は動物の母に使う。エストニア語<strong>ema</strong>は借りていない。ハンガリー語<strong>anya</strong>はおそらくウラル祖語<em>*ańa</em>で、工学ではボルトの相手のナットも指す。トルコ語<strong>anne</strong>はテュルク祖語である。朝鮮語<strong>어머니</strong>には改まった語があり、親しい<em>엄마</em>には呼びかけの語尾が組み込まれている。呼びかける語だったからだ。マレー語<strong>ibu</strong>はおそらくジャワ語から来て、もとの固有語を追い出した。ヘブライ語<strong>אמא</strong>はアラム語からの借用である。こんな語でも借りられるのである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,hu,tr,ko\" data-word=\"mother\">🗣 ほかを比べる</button></div><p>ママとパパは言語の普遍に最も近いものかもしれない。証拠はどの子ども部屋にもある。ジョージア語が示すのは、これが意味ではなく音の問題だということだ。赤ん坊が言い、それがだれのことかは大人が決めるのである。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"დედა\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E1%83%93%E1%83%94%E1%83%93%E1%83%90"
+      },
+      {
+        "text": "\"მამა\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E1%83%9B%E1%83%90%E1%83%9B%E1%83%90"
+      },
+      {
+        "text": "\"母\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E6%AF%8D"
+      },
+      {
+        "text": "\"Mama and papa\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Mama_and_papa"
+      },
+      {
+        "text": "\"mama\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/mama"
+      },
+      {
+        "text": "\"mother\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/mother"
+      },
+      {
+        "text": "\"äiti\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%C3%A4iti"
+      },
+      {
+        "text": "\"emä\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/em%C3%A4"
+      },
+      {
+        "text": "\"ema\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ema"
+      },
+      {
+        "text": "\"anya\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/anya"
+      },
+      {
+        "text": "\"anne\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/anne"
+      },
+      {
+        "text": "\"엄마\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%EC%97%84%EB%A7%88"
+      },
+      {
+        "text": "\"ibu\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ibu"
+      },
+      {
+        "text": "\"אמא\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D7%90%D7%9E%D7%90"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "name-why-everyone-almost-agrees",
+    "icon": "🏷️",
+    "tags": [
+      "language",
+      "etymology"
+    ],
+    "title": {
+      "en": "Name: The Word That Sounds the Same Everywhere",
+      "ja": "名前：どこでも同じに聞こえる語"
+    },
+    "summary": {
+      "en": "Name, nom, नाम, Finnish nimi and Japanese na are close enough to make you suspicious. Some are cousins, some are loans, and some are chance. And a nickname began as an “eke-name”.",
+      "ja": "name、nom、नाम、フィンランド語nimi、日本語の「な」は疑いたくなるほど似ている。親戚もいれば借用もあり、偶然もある。そしてあだ名は「追加の名」だった。"
+    },
+    "body": {
+      "en": "<p>Say <strong>name</strong>, French <strong>nom</strong>, Hindi <strong>नाम</strong>, Finnish <strong>nimi</strong>, Malay <strong>nama</strong> and Japanese <em>na</em> in a row and you might start to wonder whether all of humanity agrees. English, French and Hindi are one word, and Finnish, Malay and Japanese are three other stories. Telling these apart is what etymology is for, and it is one of the best exercises the map has.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"name\" data-code=\"en\">🗺️ Show name on the map</button></div><h3>The real family</h3><p>The real family is enormous. Proto-Indo-European <em>*h₁nómn̥</em> gives Latin <strong>nōmen</strong>, Ancient Greek <strong>ὄνομα</strong>, Sanskrit <strong>नाम</strong>, Gothic <strong>𐌽𐌰𐌼𐍉</strong>, Hittite <strong>𒆷𒀀𒈠𒀭</strong> and Tocharian B <strong>𑀜𑁂𑀫𑁆</strong>, with Irish <strong>ainm</strong> at one end of the map and Hindi at the other. Russian <strong>имя</strong> has lost the look of it and is still the same word, by a path through Proto-Balto-Slavic. English even has it twice: Wiktionary lists the grammar word <em>noun</em> as a cognate, which is a French-Latin copy. Spanish <strong>nombre</strong> and Italian <strong>nome</strong> carry it unchanged.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,fr,ru,hi,el\" data-word=\"name\">🗣 Compare *h₁nómn̥</button></div><h3>Three suspicious cases</h3><p>Now for the suspicious cases. Finnish <strong>nimi</strong> goes back to Proto-Uralic <em>*nime</em>, with Hungarian <strong>név</strong> and languages all the way to the Arctic beside it. Wiktionary says that the Uralic word may be a cognate of the Indo-European one, or one of a variety of similar words found across Eurasia. If it is a cognate, the word is older than both families. Malay <strong>nama</strong> is simpler. It is a straightforward borrowing from Sanskrit, by way of Old Javanese, and it displaced the native <em>ngaran</em>, which you can still see in Tagalog <strong>pangalan</strong> and Javanese. Japanese <strong>名前</strong> has the old <em>na</em> plus <em>mae</em>, “front”, and it goes back to Proto-Japonic, with no connection that anyone can show. That one looks like chance. Not every resemblance is a story, and here the third case is just a nasal and a vowel.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,hu,ja,ms\" data-word=\"name\">🗣 Compare the suspects</button></div><h3>Words of their own</h3><p>Others have clear words of their own. Arabic <strong>اسم</strong> and Hebrew <strong>שם</strong> go back to Proto-Semitic <em>*šim-</em>, and from there to Proto-Afroasiatic <em>*sim-</em>, so that is a family at least as old. Korean <strong>이름</strong> is the gerund of an old verb “to name”. Turkish <strong>ad</strong> is short and old. Mandarin <strong>名字</strong> is a union of two things: 名, a personal name, and 字, a courtesy name given at adulthood, and these were originally two different names until the compound swallowed them. Swahili <strong>jina</strong> goes back to Proto-Bantu, and the same word has been put to work in grammar, for “noun”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ar,he,ko,tr,zh\" data-word=\"name\">🗣 Compare the rest</button></div><p>English, meanwhile, has made a small mistake with the word, and kept it. A <em>nickname</em> was originally an <em>ekename</em>, an “additional name”. People said <em>an ekename</em> so often that it was heard as <em>a nekename</em>, and the <em>n</em> jumped across. So the word for what your friends call you is itself a slip of the ear. Nobody would have thought to check.</p>",
+      "ja": "<p>英語<strong>name</strong>、フランス語<strong>nom</strong>、ヒンディー語<strong>नाम</strong>、フィンランド語<strong>nimi</strong>、マレー語<strong>nama</strong>、日本語の「な」を続けて言うと、全人類が一致しているのかと思えてくる。英語、フランス語、ヒンディー語は一つの語で、フィンランド語、マレー語、日本語は別々の話である。これを見分けることこそ語源学の仕事で、地図の中でも指折りの練習問題だ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"name\" data-code=\"en\">🗺️ 地図で名前を見る</button></div><h3>本当の家族</h3><p>本当の家族は巨大である。印欧祖語<em>*h₁nómn̥</em>はラテン語<strong>nōmen</strong>、古代ギリシャ語<strong>ὄνομα</strong>、サンスクリット<strong>नाम</strong>、ゴート語<strong>𐌽𐌰𐌼𐍉</strong>、ヒッタイト語<strong>𒆷𒀀𒈠𒀭</strong>、トカラ語B<strong>𑀜𑁂𑀫𑁆</strong>を生み、地図の一方の端にアイルランド語<strong>ainm</strong>、もう一方にヒンディー語がいる。ロシア語<strong>имя</strong>は見た目は変わったが、バルト・スラヴ祖語を通った同じ語である。英語はこれを二度持っている。ウィクショナリーは文法用語<em>noun</em>も同源語に挙げている。スペイン語<strong>nombre</strong>とイタリア語<strong>nome</strong>はそのまま運んでいる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,fr,ru,hi,el\" data-word=\"name\">🗣 *h₁nómn̥を比べる</button></div><h3>三つの疑わしい例</h3><p>さて疑わしい例である。フィンランド語<strong>nimi</strong>はウラル祖語<em>*nime</em>にさかのぼり、ハンガリー語<strong>név</strong>と北極までの言語が並ぶ。ウィクショナリーは、ウラル語の語は印欧語の語の同源語か、ユーラシアに見られる似た語の一つかもしれないとしている。同源語なら、この語は二つの語族より古いことになる。マレー語<strong>nama</strong>はもっと単純で、古ジャワ語を経たサンスクリットからの借用であり、もとの<em>ngaran</em>を追い出した。この語はタガログ語<strong>pangalan</strong>やジャワ語に今も見える。日本語の<strong>名前</strong>は古い「な」に「前」がついた語で、日本祖語にさかのぼり、だれとの関係も示せない。これは偶然らしい。すべての類似に物語があるわけではなく、三つ目は鼻音と母音にすぎない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,hu,ja,ms\" data-word=\"name\">🗣 疑わしい例を比べる</button></div><h3>自分の語</h3><p>はっきり自分の語を持つ言語もある。アラビア語<strong>اسم</strong>とヘブライ語<strong>שם</strong>はセム祖語<em>*šim-</em>、さらにアフロ・アジア祖語<em>*sim-</em>にさかのぼる。朝鮮語<strong>이름</strong>は「名づける」という古い動詞の名詞形である。トルコ語<strong>ad</strong>は短く古い。中国語<strong>名字</strong>は二つのものの合体で、名は個人の名、字は成人のときに与えられる名で、もとは別の名だった。スワヒリ語<strong>jina</strong>はバントゥー祖語にさかのぼり、同じ語が文法の「名詞」にも使われる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ar,he,ko,tr,zh\" data-word=\"name\">🗣 ほかを比べる</button></div><p>一方、英語はこの語で小さな間違いをして、それを保った。<em>nickname</em>はもとは<em>ekename</em>「追加の名」だった。<em>an ekename</em>を<em>a nekename</em>と聞いて、<em>n</em>が飛び移ったのである。友だちが呼ぶ名を指す語は、それ自体が聞き違いなのだ。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"name\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/name"
+      },
+      {
+        "text": "\"имя\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D0%B8%D0%BC%D1%8F"
+      },
+      {
+        "text": "\"ainm\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ainm"
+      },
+      {
+        "text": "\"nimi\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/nimi"
+      },
+      {
+        "text": "\"név\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/n%C3%A9v"
+      },
+      {
+        "text": "\"名\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E5%90%8D"
+      },
+      {
+        "text": "\"名前\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E5%90%8D%E5%89%8D"
+      },
+      {
+        "text": "\"nama\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/nama"
+      },
+      {
+        "text": "\"ngalan\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ngalan"
+      },
+      {
+        "text": "\"اسم\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D9%85"
+      },
+      {
+        "text": "\"שם\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D7%A9%D7%9D"
+      },
+      {
+        "text": "\"이름\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%EC%9D%B4%EB%A6%84"
+      },
+      {
+        "text": "\"ad\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ad"
+      },
+      {
+        "text": "\"名字\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E5%90%8D%E5%AD%97"
+      },
+      {
+        "text": "\"nickname\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/nickname"
+      },
+      {
+        "text": "\"jina\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/jina"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "snow-a-word-from-the-himalayas",
+    "icon": "❄️",
+    "tags": [
+      "nature",
+      "etymology"
+    ],
+    "title": {
+      "en": "Snow: How the Tropics Got a Word for It",
+      "ja": "雪：熱帯がこの語を手に入れた道"
+    },
+    "summary": {
+      "en": "Thai borrowed snow from the same word as Himalaya, Malay and Swahili borrowed it from Arabic, and Hawaiian uses one word for snow, frost and dew.",
+      "ja": "タイ語はヒマラヤと同じ語から雪を借り、マレー語とスワヒリ語はアラビア語から借り、ハワイ語は雪も霜も露も一語で言う。"
+    },
+    "body": {
+      "en": "<p>Bangkok has never had to shovel its way to work, and Thai has a word for snow all the same. <strong>หิมะ</strong> is a loan from Sanskrit or Pali <em>hima</em>, and that is the word in the name of the Himalayas: <em>हिमालय</em> is <em>hima</em>, “snow, frost”, plus <em>ālaya</em>, “dwelling”, the house of snow. So when a Thai speaker talks about the snow on a Swiss mountain, the word has come from the top of the world by way of Sanskrit or Pali. The word for snow is one of the few basic words that a good part of humanity had to order from abroad.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"snow\" data-code=\"th\">🗺️ Show snow on the map</button></div><h3>Ordered from abroad</h3><p>The tropics got it from their neighbours in learning and trade. Thai and Lao got theirs from Sanskrit. Malay <strong>salji</strong> and Indonesian <strong>salju</strong>, which cannot even agree on the spelling, got theirs from Arabic, from the same word as Arabic <strong>ثلج</strong>, a Proto-Semitic <em>*ṯalg-</em> with Akkadian <em>šalgum</em> and Hebrew <strong>שלג</strong> beside it. Swahili <strong>theluji</strong> is from the Arabic plural. Tagalog <strong>niyebe</strong> took it from Spanish. In none of these cases did the word come with the weather.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"th,sa,ms,sw,ar\" data-word=\"snow\">🗣 Compare the loans</button></div><h3>The northern word</h3><p>The old northern word is the one you would expect. Proto-Indo-European <em>*sneygʷʰ-</em>, “to snow”, is behind English <strong>snow</strong>, German <strong>Schnee</strong>, Gothic <strong>𐍃𐌽𐌰𐌹𐍅𐍃</strong>, Russian <strong>снег</strong>, Polish <strong>śnieg</strong> and Irish <strong>sneachta</strong>. Latin <strong>nix</strong> and Ancient Greek <strong>χιών</strong> are from the same root, although Latin lost the initial <em>s</em>, and French <strong>neige</strong>, Spanish <strong>nieve</strong> and Italian <strong>neve</strong> have followed it. Finnish <strong>lumi</strong> and Turkish <strong>kar</strong> each have their own, and Hungarian <strong>hó</strong> goes back to Proto-Uralic <em>*kume</em>. Hungarian and Korean <strong>눈</strong> each have a small trap: the Hungarian word is spelt like an old word for a month, and the Korean one like the word for an eye, though both are separate words.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,fr,ru,got,ga\" data-word=\"snow\">🗣 Compare *sneygʷʰ-</button></div><h3>Less exact</h3><p>In other places the word is less exact. Hindi <strong>बर्फ़</strong> comes from Persian <strong>برف</strong>, and it means snow, ice and ice cubes. The Hawaiian word <strong>hau</strong> means dew, ice, snow and frost, and also a cool breeze. Mandarin <strong>雪</strong> is an old simplification of a character with 雨, “rain”, on top and a sound element below, and the word has also meant “to wipe away, to clean”. Tamil <strong>பனி</strong> goes back to a Proto-Dravidian word for dew, cold and chill, so the south of India had a word ready for the job.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,hi,fa,haw\" data-word=\"snow\">🗣 Compare the rest</button></div><p>People like to say that Eskimo languages have hundreds of words for snow. Wikipedia calls that claim a cliché, used to support a controversial theory about language and thought. The more interesting fact on this map is the opposite one. Most of humanity did not need a word for snow at all, and got one anyway, from a book or a sailor, and kept it.</p>",
+      "ja": "<p>バンコクの人が雪かきをして出勤したことはないが、タイ語には雪の語がある。<strong>หิมะ</strong>はサンスクリットかパーリ語の<em>hima</em>からの借用で、これはヒマラヤの名に入っている語である。<em>हिमालय</em>は「雪、霜」<em>hima</em>と「住まい」<em>ālaya</em>、つまり雪の家だ。タイ語でスイスの山の雪を語るとき、語は世界の屋根からサンスクリットかパーリ語を経て来ている。雪は、人類のかなりの部分が外国から取り寄せなければならなかった数少ない基本語の一つである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"snow\" data-code=\"th\">🗺️ 地図で雪を見る</button></div><h3>外国から取り寄せる</h3><p>熱帯は学問と交易の相手からこの語を手に入れた。タイ語とラオ語はサンスクリットから。マレー語<strong>salji</strong>とインドネシア語<strong>salju</strong>はアラビア語<strong>ثلج</strong>と同じ語からで、これはセム祖語<em>*ṯalg-</em>で、アッカド語<em>šalgum</em>とヘブライ語<strong>שלג</strong>が隣にいる。スワヒリ語<strong>theluji</strong>はアラビア語の複数形から来ている。タガログ語<strong>niyebe</strong>はスペイン語からだ。どの場合も、語は天気と一緒に来たのではなかった。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"th,sa,ms,sw,ar\" data-word=\"snow\">🗣 借用を比べる</button></div><h3>北の語</h3><p>北の古い語は予想どおりである。印欧祖語<em>*sneygʷʰ-</em>「雪が降る」が英語<strong>snow</strong>、ドイツ語<strong>Schnee</strong>、ゴート語<strong>𐍃𐌽𐌰𐌹𐍅𐍃</strong>、ロシア語<strong>снег</strong>、ポーランド語<strong>śnieg</strong>、アイルランド語<strong>sneachta</strong>の背後にある。ラテン語<strong>nix</strong>と古代ギリシャ語<strong>χιών</strong>も同じ語根で、ラテン語は語頭の<em>s</em>を失い、フランス語<strong>neige</strong>、スペイン語<strong>nieve</strong>、イタリア語<strong>neve</strong>がそれに続いた。フィンランド語<strong>lumi</strong>とトルコ語<strong>kar</strong>はそれぞれ自分の語を持ち、ハンガリー語<strong>hó</strong>はウラル祖語<em>*kume</em>にさかのぼる。ハンガリー語と朝鮮語<strong>눈</strong>には小さな落とし穴がある。ハンガリー語の語は古い「ひと月」の語と同じ綴りで、朝鮮語の語は「目」と同じ綴りだが、どちらも別の語である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,fr,ru,got,ga\" data-word=\"snow\">🗣 *sneygʷʰ-を比べる</button></div><h3>ゆるやかな語</h3><p>語がもっとゆるやかな土地もある。ヒンディー語<strong>बर्फ़</strong>はペルシア語から来ていて、雪、氷、角氷を指す。ハワイ語<strong>hau</strong>は露、氷、雪、霜で、涼しい風でもある。中国語<strong>雪</strong>は上に「雨」のある字の古い簡略形で、音を表す部分がついていて、「ぬぐう、清める」の意味もある。タミル語<strong>பனி</strong>はドラヴィダ祖語の「露、寒さ」にさかのぼり、南インドは手持ちの語で間に合わせた。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,hi,fa,haw\" data-word=\"snow\">🗣 ほかを比べる</button></div><p>エスキモーの言語には雪の語が何百もあるとよく言われる。ウィキペディアはこの主張を、言語と思考をめぐる議論のある説を支えるのに使われる決まり文句と呼んでいる。この地図でもっとおもしろいのはその反対の事実だ。人類の多くは雪の語を必要としなかったのに、本や船乗りから手に入れて、持ち続けたのである。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"หิมะ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E0%B8%AB%E0%B8%B4%E0%B8%A1%E0%B8%B0"
+      },
+      {
+        "text": "\"हिमालय\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E0%A4%B9%E0%A4%BF%E0%A4%AE%E0%A4%BE%E0%A4%B2%E0%A4%AF"
+      },
+      {
+        "text": "\"salji\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/salji"
+      },
+      {
+        "text": "\"ثلج\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D8%AB%D9%84%D8%AC"
+      },
+      {
+        "text": "\"theluji\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/theluji"
+      },
+      {
+        "text": "\"snow\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/snow"
+      },
+      {
+        "text": "\"बर्फ़\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A4%B0%E0%A5%8D%E0%A4%AB%E0%A4%BC"
+      },
+      {
+        "text": "\"hau\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/hau"
+      },
+      {
+        "text": "\"雪\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E9%9B%AA"
+      },
+      {
+        "text": "\"niyebe\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/niyebe"
+      },
+      {
+        "text": "\"பனி\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E0%AE%AA%E0%AE%A9%E0%AE%BF"
+      },
+      {
+        "text": "\"nix\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/nix"
+      },
+      {
+        "text": "\"눈\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%EB%88%88"
+      },
+      {
+        "text": "\"hó\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/h%C3%B3"
+      },
+      {
+        "text": "\"Eskimo words for snow\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Eskimo_words_for_snow"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "sun-the-eye-of-the-day",
+    "icon": "☀️",
+    "tags": [
+      "nature",
+      "etymology",
+      "space"
+    ],
+    "title": {
+      "en": "Sun: In Malay, the Eye of the Day",
+      "ja": "太陽：マレー語では昼の目"
+    },
+    "summary": {
+      "en": "Malay calls the sun the eye of the day. Hungarian uses one word for the sun and the day, Swahili’s word also means “to know”, and Mandarin’s means the greatest yang.",
+      "ja": "マレー語は太陽を昼の目と呼ぶ。ハンガリー語は太陽と日を一語で言い、スワヒリ語の語は「知る」でもあり、中国語の語は最大の陽である。"
+    },
+    "body": {
+      "en": "<p>The Malay word for the sun is an eye. <strong>matahari</strong> and Indonesian <strong>matahari</strong> are <em>mata</em>, “eye”, plus <em>hari</em>, “day”, so the sun is the eye of the day. The Dutch dancer who took the stage name Mata Hari was borrowing this word. Look up on a clear morning and the picture is hard to argue with: a single bright eye, open from dawn to dusk, and looking at everything.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"sun\" data-code=\"id\">🗺️ Show sun on the map</button></div><h3>The old word</h3><p>Indo-European has been more prosaic, and more constant. <em>*sóh₂wl̥</em> is behind Latin <strong>sōl</strong>, Ancient Greek <strong>ἥλιος</strong>, Russian <strong>солнце</strong>, Polish <strong>słońce</strong>, German <strong>Sonne</strong> and English <strong>sun</strong>. Greek shows what can happen to a word: the initial <em>s</em> became an <em>h</em> and the rest wore down, until it reached Modern Greek <strong>ήλιος</strong>. English and German took a form from the oblique stem, with an <em>n</em>, and Latin took the other, with an <em>l</em>, so a <em>solar</em> panel and a <em>sunny</em> day are the two ends of one old noun. Swedish <strong>sol</strong> and Spanish <strong>sol</strong> have the <em>l</em> version.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,la,el_grc,ru\" data-word=\"sun\">🗣 Compare *sóh₂wl̥</button></div><h3>Sun and day</h3><p>A striking number of languages do not separate the sun from the day. Hungarian <strong>nap</strong> means both sun and day, and its origin is unknown. Tagalog <strong>araw</strong> means sun and day, and goes back to Proto-Austronesian. Korean <strong>해</strong> is the sun, sunlight and the daytime. These languages are making a reasonable point: the day is what the sun does. Swahili <strong>jua</strong> goes back to Proto-Bantu, and the same spelling is the ordinary verb “to know”, though nothing says they are connected, and it is a lovely coincidence if not.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hu,tl,ko,sw\" data-word=\"sun\">🗣 Compare sun and day</button></div><p>Chinese has a word with a philosophy in it. The old word was 日, and it is still the one in Japanese <strong>日</strong>, where the same character gave the country its name. Mandarin <strong>太阳</strong> and Cantonese <strong>太陽</strong> now say a two-syllable word, and Wiktionary suggests that it may be so named because the sun was considered the greatest extreme of yang, one of the two primary forces in Chinese belief. So the everyday word for the thing in the sky is an expression of cosmology.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,ja,yue\" data-word=\"sun\">🗣 Compare the Chinese word</button></div><h3>The greatest yang</h3><p>Others have stayed with their own old words. Arabic <strong>شمس</strong> and Hebrew <strong>שמש</strong> go back to Proto-Semitic <em>*śamš-</em>. Turkish <strong>güneş</strong> comes from Proto-Turkic, with an old sense of a sunny place. Finnish <strong>aurinko</strong> is uncertain, and one proposal connects it to a Baltic word for dawn.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ar,he,tr,fi\" data-word=\"sun\">🗣 Compare the rest</button></div><p>The sun is the most visible thing that any language has ever had to name. Even so, the great families do not agree on what it is. It was a light, a day, a force in the universe and a watching eye. Malay’s answer is the only one that looks back.</p>",
+      "ja": "<p>マレー語の太陽は目である。<strong>matahari</strong>とインドネシア語<strong>matahari</strong>は「目」<em>mata</em>と「昼」<em>hari</em>で、太陽は昼の目なのだ。晴れた朝に見上げると、この絵には反論しにくい。明け方から夕暮れまで開いて、すべてを見ている一つの明るい目である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"sun\" data-code=\"id\">🗺️ 地図で太陽を見る</button></div><h3>古い語</h3><p>印欧語はもっと散文的で、もっと一貫している。<em>*sóh₂wl̥</em>がラテン語<strong>sōl</strong>、古代ギリシャ語<strong>ἥλιος</strong>、ロシア語<strong>солнце</strong>、ポーランド語<strong>słońce</strong>、ドイツ語<strong>Sonne</strong>、英語<strong>sun</strong>の背後にある。ギリシャ語は語に何が起こりうるかを見せてくれる。語頭の<em>s</em>が<em>h</em>になり、残りがすり減って、現代語の<strong>ήλιος</strong>に着いた。英語とドイツ語は<em>n</em>のある斜格の語幹を取り、ラテン語は<em>l</em>のある形を取ったので、ソーラーパネルと<em>sunny</em>な日は一つの古い名詞の両端である。スウェーデン語<strong>sol</strong>とスペイン語<strong>sol</strong>も<em>l</em>の形である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,la,el_grc,ru\" data-word=\"sun\">🗣 *sóh₂wl̥を比べる</button></div><h3>太陽と昼</h3><p>太陽と昼を分けない言語は驚くほど多い。ハンガリー語<strong>nap</strong>は太陽と日の両方を指し、語源は不明である。タガログ語<strong>araw</strong>も太陽と日を指し、オーストロネシア祖語にさかのぼる。朝鮮語<strong>해</strong>は太陽、日光、昼間である。昼は太陽のすることなのだから、もっともな話だ。スワヒリ語<strong>jua</strong>はバントゥー祖語にさかのぼり、同じ綴りがふつうの動詞「知る」でもある。つながりは示されていない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hu,tl,ko,sw\" data-word=\"sun\">🗣 太陽と昼を比べる</button></div><p>中国語には哲学の入った語がある。古い語は日で、日本語の<strong>日</strong>は今もこの字であり、同じ字が国の名にもなった。中国語<strong>太阳</strong>と広東語<strong>太陽</strong>は今は二音節の語を使い、ウィクショナリーは、太陽が中国の信仰の二つの力の一つ、陽の極みと考えられたからかもしれないとしている。空のものを指すふだんの語が、宇宙論の表現なのである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,ja,yue\" data-word=\"sun\">🗣 中国語の語を比べる</button></div><h3>最大の陽</h3><p>ほかの言語は自分の古い語にとどまった。アラビア語<strong>شمس</strong>とヘブライ語<strong>שמש</strong>はセム祖語<em>*śamš-</em>にさかのぼる。トルコ語<strong>güneş</strong>はテュルク祖語から来ていて、日なたの意味もあった。フィンランド語<strong>aurinko</strong>の語源は不確かで、バルト語の「夜明け」と結ぶ説がある。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ar,he,tr,fi\" data-word=\"sun\">🗣 ほかを比べる</button></div><p>太陽は言語が名づけなければならなかったものの中でいちばん目立つ。それでも、これが何かについて大きな語族は一致していない。光、昼、宇宙の力、見ている目である。こちらを見返してくるのはマレー語の答えだけだ。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"matahari\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/matahari"
+      },
+      {
+        "text": "\"Mata Hari\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Mata_Hari"
+      },
+      {
+        "text": "\"sun\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/sun"
+      },
+      {
+        "text": "\"Sonne\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Sonne"
+      },
+      {
+        "text": "\"ήλιος\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%CE%AE%CE%BB%CE%B9%CE%BF%CF%82"
+      },
+      {
+        "text": "\"nap\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/nap"
+      },
+      {
+        "text": "\"araw\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/araw"
+      },
+      {
+        "text": "\"해\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%ED%95%B4"
+      },
+      {
+        "text": "\"jua\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/jua"
+      },
+      {
+        "text": "\"太陽\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E5%A4%AA%E9%99%BD"
+      },
+      {
+        "text": "\"日\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E6%97%A5"
+      },
+      {
+        "text": "\"شمس\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D8%B4%D9%85%D8%B3"
+      },
+      {
+        "text": "\"güneş\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/g%C3%BCne%C5%9F"
+      },
+      {
+        "text": "\"aurinko\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/aurinko"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "tomorrow-the-morning-after",
+    "icon": "🌅",
+    "tags": [
+      "time",
+      "etymology"
+    ],
+    "title": {
+      "en": "Tomorrow: One Word for Morning, One for Yesterday",
+      "ja": "明日：朝の語、そして昨日の語"
+    },
+    "summary": {
+      "en": "Across Europe the next day is named after its morning, so Spanish mañana is both. In Hindi one word means tomorrow and yesterday, and the verb has to tell you which way you are going.",
+      "ja": "ヨーロッパの多くでは翌日はその朝の名で呼ばれ、スペイン語のmañanaは両方を指す。ヒンディー語では一語が明日と昨日を指し、動詞がどちらかを告げる。"
+    },
+    "body": {
+      "en": "<p>Spanish <strong>mañana</strong> means both “tomorrow” and “the morning”, and the English speaker who hears <em>mañana por la mañana</em> is being told “tomorrow in the morning” in the same word twice. It comes from Old Spanish <em>mannana</em>, literally “tomorrow morning”, and from Latin <em>māne</em>. On this map, 348 cells do something similar. They have no independent word for the next day. They take the first thing you see of it, and let that stand for the whole.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"tomorrow\" data-code=\"es\">🗺️ Show tomorrow on the map</button></div><h3>Across Europe</h3><p>Europe is full of this. German <strong>morgen</strong> is the same word as <em>Morgen</em>, “morning”, and Swedish <strong>i morgon</strong>, Danish <strong>i morgen</strong> and Icelandic <strong>á morgun</strong> are all “in the morning”. English <strong>tomorrow</strong> is <em>tō morgne</em>, “at morning”, from which the poetical <em>morrow</em> has been shortened. French <strong>demain</strong> is Late Latin <em>dē māne</em>, “early in the morning”, and Portuguese <strong>amanhã</strong> is “at morning”, a form that drove out Latin <em>cras</em>. Russian <strong>завтра</strong> gets there by a slightly different route, from <em>*za utra</em>, “after the morning”. Finnish <strong>huomenna</strong> is an old case form of a word for morning. Nobody seems to have copied anyone: it is simply how you speak of a day that has not begun.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"es,pt,de,fr,ru,fi\" data-word=\"tomorrow\">🗣 Compare Europe’s mornings</button></div><p>It runs right across the map. Vietnamese <strong>ngày mai</strong> is “morning day”. Malay <strong>esok</strong> and Indonesian <strong>besok</strong> are related to Javanese <em>ésuk</em>, “morning”. Japanese <strong>明日</strong> first meant “the next morning”, then shifted, and the same word for morning survives as <em>asa</em>. Māori <strong>āpōpō</strong> goes back to Proto-Oceanic, the same reduplication as an old word for early morning. Arabic <strong>غدا</strong> comes from a root that gives words for early morning. Many of these languages are unrelated. The dawn is the point at which tomorrow turns into today, and that is the thing that gets the name.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"vi,ms,ja,mi,ar\" data-word=\"tomorrow\">🗣 Compare the rest of the map</button></div><h3>Right across the map</h3><p>Then there is the opposite answer, 52 cells of it, and it is the strangest idea on the map. Hindi <strong>कल</strong> means tomorrow and also yesterday, and also any indefinite time in the past or the future. Urdu <strong>کل</strong>, Bengali <strong>কাল</strong> and Punjabi <strong>ਕੱਲ੍ਹ</strong> are similar. It goes back to Sanskrit <em>कल्य</em>, “dawn”, so this too began as a morning, the one on either side of today. A speaker uses the tense of the verb to say which way it lies. To the English ear this is alarming, but it is a coherent idea: <em>kal</em> is the day that is one step away.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hi,ur,bn,pa\" data-word=\"tomorrow\">🗣 Compare kal</button></div><h3>One word for two days</h3><p>The rest name it in other ways. Korean <strong>내일</strong> is Sino-Korean, “the coming day”, and in Mandarin <strong>明天</strong> the 明 means “next”. Hebrew <strong>מחר</strong> is probably built on the root of “after”, and Tamil <strong>நாளை</strong> goes back to Proto-Dravidian, with <em>நாள்</em>, “day”, beside it. Thai <strong>พรุ่งนี้</strong> adds “this” to an old Tai word for tomorrow, and 274 cells have a word that is just a word.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ko,zh,he,ta\" data-word=\"tomorrow\">🗣 Compare the coming day</button></div><p>So a language can look at the next day as a morning, as an arrival, as what comes after, or as one step in either direction. English takes the first of these and keeps it in the word. The sun has not risen on it yet, and in a large part of the map, that is what it is called.</p>",
+      "ja": "<p>スペイン語<strong>mañana</strong>は「明日」と「朝」の両方を指し、<em>mañana por la mañana</em>は同じ語を二度使った「明日の朝」である。古スペイン語<em>mannana</em>「明日の朝」から、さらにラテン語<em>māne</em>から来ている。地図では348セルが似たことをしている。翌日の独立した語を持たず、そこで最初に見えるものに全体を代表させるのだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"tomorrow\" data-code=\"es\">🗺️ 地図で明日を見る</button></div><h3>ヨーロッパじゅう</h3><p>ヨーロッパにはこれがあふれている。ドイツ語<strong>morgen</strong>は「朝」<em>Morgen</em>と同じ語で、スウェーデン語<strong>i morgon</strong>、デンマーク語<strong>i morgen</strong>、アイスランド語<strong>á morgun</strong>はどれも「朝に」である。英語<strong>tomorrow</strong>は<em>tō morgne</em>「朝に」で、詩語の<em>morrow</em>はここから短くなった。フランス語<strong>demain</strong>は後期ラテン語<em>dē māne</em>「朝早く」、ポルトガル語<strong>amanhã</strong>は「朝に」で、ラテン語<em>cras</em>を追い出した。ロシア語<strong>завтра</strong>は少し違う道で、<em>*za utra</em>「朝のあと」から来ている。フィンランド語<strong>huomenna</strong>は朝の語の古い格の形である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"es,pt,de,fr,ru,fi\" data-word=\"tomorrow\">🗣 ヨーロッパの朝を比べる</button></div><p>これは地図全体に広がっている。ベトナム語<strong>ngày mai</strong>は「朝の日」である。マレー語<strong>esok</strong>とインドネシア語<strong>besok</strong>はジャワ語<em>ésuk</em>「朝」と関係がある。日本語の<strong>明日</strong>はもとは「次の朝」で、のちに移り、朝の語は「あさ」に残る。マオリ語<strong>āpōpō</strong>はオセアニア祖語にさかのぼり、「早朝」の古い語と同じ重ねの形である。アラビア語<strong>غدا</strong>の語根からは早朝の語が出る。これらの言語の多くは親戚ではない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"vi,ms,ja,mi,ar\" data-word=\"tomorrow\">🗣 地図のほかを比べる</button></div><h3>地図全体</h3><p>そして反対の答えが52セルあり、これが地図でいちばん奇妙な発想である。ヒンディー語<strong>कल</strong>は明日であり昨日でもあり、過去や未来の不特定の時でもある。ウルドゥー語<strong>کل</strong>、ベンガル語<strong>কাল</strong>、パンジャーブ語<strong>ਕੱਲ੍ਹ</strong>も似ている。もとはサンスクリット<em>कल्य</em>「夜明け」で、これも今日の両側の朝から始まった。どちらの方向かは動詞の時制が示す。英語の耳には不安だが、一歩離れた日という筋の通った考えである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hi,ur,bn,pa\" data-word=\"tomorrow\">🗣 kalを比べる</button></div><h3>二日に一つの語</h3><p>ほかの言語は別の名をつけた。朝鮮語<strong>내일</strong>は漢語の「来る日」、中国語<strong>明天</strong>の明はここでは「次の」である。ヘブライ語<strong>מחר</strong>はおそらく「後」の語根から作られ、タミル語<strong>நாளை</strong>はドラヴィダ祖語にさかのぼり、「日」<em>நாள்</em>が隣にいる。タイ語<strong>พรุ่งนี้</strong>はタイ祖語の古い語に「この」を足す。残る274セルの語は、ただの語である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ko,zh,he,ta\" data-word=\"tomorrow\">🗣 来る日を比べる</button></div><p>言語は翌日を朝として、到来として、あとに来るものとして、どちらへも一歩として見る。地図の広い範囲で、それはまだ太陽が昇っていない朝の名で呼ばれている。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"mañana\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ma%C3%B1ana"
+      },
+      {
+        "text": "\"amanhã\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/amanh%C3%A3"
+      },
+      {
+        "text": "\"tomorrow\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/tomorrow"
+      },
+      {
+        "text": "\"morrow\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/morrow"
+      },
+      {
+        "text": "\"morgen\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/morgen"
+      },
+      {
+        "text": "\"demain\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/demain"
+      },
+      {
+        "text": "\"завтра\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D0%B7%D0%B0%D0%B2%D1%82%D1%80%D0%B0"
+      },
+      {
+        "text": "\"明日\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E6%98%8E%E6%97%A5"
+      },
+      {
+        "text": "\"कल\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%B2"
+      },
+      {
+        "text": "\"내일\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%EB%82%B4%EC%9D%BC"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "water-whisky-and-hydrogen",
+    "icon": "💧",
+    "tags": [
+      "nature",
+      "etymology"
+    ],
+    "title": {
+      "en": "Water: Whisky, Vodka and Hydrogen Are the Same Word",
+      "ja": "水：ウイスキー、ウォッカ、水素は同じ語"
+    },
+    "summary": {
+      "en": "Whisky, vodka and hydrogen all come from the old Indo-European word for water. Latin went its own way, and Greek gave up the word and now asks for “fresh”.",
+      "ja": "ウイスキーもウォッカも水素も、印欧語の古い水の語から来ている。ラテン語は別の道を行き、ギリシャ語はこの語を捨てて「新鮮な」と言う。"
+    },
+    "body": {
+      "en": "<p>Whisky, vodka and hydrogen are all, at bottom, the word water. English <strong>water</strong> goes back to Proto-Indo-European <em>*wódr̥</em>. So does Irish <strong>uisce</strong>, and whisky is the Gaelic <em>uisge-beatha</em>, “water of life”, shortened until only the water remains. Vodka is Russian <strong>вода</strong> plus a diminutive, “little water”. Hydrogen was coined by Lavoisier and Guyton de Morveau from the Greek form of the same word, because it generates water. Three things you would not want to confuse, and one root.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"water\" data-code=\"en\">🗺️ Show water on the map</button></div><h3>An old survivor</h3><p>That root has lasted very well. Hittite <strong>𒉿𒀀𒋻</strong>, the oldest written Indo-European language, has it, and it is plain enough in German <strong>Wasser</strong>, Swedish <strong>vatten</strong>, Polish <strong>woda</strong> and Gothic <strong>𐍅𐌰𐍄𐍉</strong>. Wiktionary calls it the more widespread word for water in Indo-European.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,ru,hit,ga\" data-word=\"water\">🗣 Compare *wódr̥</button></div><h3>Latin’s own word</h3><p>The Latin branch is the exception. Latin <strong>aqua</strong> used a different word, and that is the source of French <strong>eau</strong>, Spanish <strong>agua</strong> and Italian <strong>acqua</strong>. French has worn it down from <em>aqua</em> to three letters that spell one sound. Wiktionary’s reading is that the Latin word’s few relatives point to a narrower original meaning, “running water”. So Italy took a word for a stream and made it do for everything. Latin still gave English the <em>aquarium</em>, and <em>aqua vitae</em> is the phrase that Gaelic translated, which brings us back to whisky by a second door.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"la,fr,es,it\" data-word=\"water\">🗣 Compare Latin</button></div><p>Greek did something odder. Ancient Greek <strong>ὕδωρ</strong> gave science its <em>hydro-</em>, and then lost the word for daily use. Modern Greek <strong>νερό</strong> comes from a phrase, <em>νεαρὸν ὕδωρ</em>, “fresh water”, and it kept the adjective and dropped the noun. So a Greek asking for water is, by origin, asking for “fresh”. The formal <em>ύδωρ</em> is still in the dictionary.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,hu,ar,he\" data-word=\"water\">🗣 Compare Uralic and Semitic</button></div><h3>Elsewhere</h3><p>Outside the family, the word is often very old too. Finnish <strong>vesi</strong> and Hungarian <strong>víz</strong> go back to Proto-Uralic <em>*wete</em>, which looks a good deal like the Indo-European word. Arabic <strong>ماء</strong> and Hebrew <strong>מים</strong> have a Proto-Semitic <em>*māy-</em>. Malay <strong>air</strong> goes back to Proto-Austronesian <em>*wahiʀ</em>, and Hawaiian <strong>wai</strong> is a cousin. Swahili <strong>maji</strong> is Proto-Bantu. Korean <strong>물</strong> is first recorded in a Chinese list of 1103, and ancient place names show that the south of the peninsula said something like <em>*mul</em> while the north had another word. Thai <strong>น้ำ</strong> and Vietnamese <strong>nước</strong> have words of their own, and Mandarin <strong>水</strong>, Japanese <strong>水</strong> and Cantonese <strong>水</strong> share one character.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ms,sw,ko,th\" data-word=\"water\">🗣 Compare further out</button></div><p>Water is exactly the kind of word you expect a language to keep, and most languages do. What is interesting is how far the word can go from the tap. It has been distilled, diminished, turned into a gas and shortened to an adjective, and somewhere under each of them is a very old word for what you drink when you are thirsty.</p>",
+      "ja": "<p>ウイスキー、ウォッカ、水素は、もとをたどればどれもwaterという語である。英語<strong>water</strong>は印欧祖語<em>*wódr̥</em>にさかのぼる。アイルランド語<strong>uisce</strong>も同じで、ウイスキーはゲール語<em>uisge-beatha</em>「命の水」が水だけ残るまで縮んだものだ。ウォッカはロシア語<strong>вода</strong>に指小辞がついた「小さな水」である。水素はラヴォアジェとギトン・ド・モルヴォーがこの語のギリシャ語形から作った語で、水を生むものの意味だ。取り違えたくない三つのものが、一つの語根なのである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"water\" data-code=\"en\">🗺️ 地図で水を見る</button></div><h3>古い生き残り</h3><p>この語根はとてもよく残った。文字に残る最古の印欧語であるヒッタイト語<strong>𒉿𒀀𒋻</strong>にあり、ドイツ語<strong>Wasser</strong>、スウェーデン語<strong>vatten</strong>、ポーランド語<strong>woda</strong>、ゴート語<strong>𐍅𐌰𐍄𐍉</strong>でもはっきり見える。ウィクショナリーはこれを印欧語でより広く使われる水の語としている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,ru,hit,ga\" data-word=\"water\">🗣 *wódr̥を比べる</button></div><h3>ラテン語の語</h3><p>例外はラテン語の枝である。ラテン語<strong>aqua</strong>は別の語を使い、それがフランス語<strong>eau</strong>、スペイン語<strong>agua</strong>、イタリア語<strong>acqua</strong>のもとになった。フランス語は<em>aqua</em>を、三文字で一音を書く語にまですり減らした。ウィクショナリーによれば、ラテン語の語の数少ない親戚は「流れる水」という狭いもとの意味を示している。イタリアは川の語をすべての水に使ったわけだ。ラテン語は英語に<em>aquarium</em>も残し、<em>aqua vitae</em>はゲール語が翻訳した句なので、別の扉からウイスキーに戻ることになる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"la,fr,es,it\" data-word=\"water\">🗣 ラテン語を比べる</button></div><p>ギリシャ語はもっと変わったことをした。古代ギリシャ語<strong>ὕδωρ</strong>は科学に<em>hydro-</em>を与えたあと、この語を日常から失った。現代ギリシャ語<strong>νερό</strong>は句<em>νεαρὸν ὕδωρ</em>「新鮮な水」から形容詞だけを残し、名詞を捨てたものだ。水を頼むギリシャ人は、もとをたどれば「新鮮な」と頼んでいる。改まった<em>ύδωρ</em>は辞書に残っている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,hu,ar,he\" data-word=\"water\">🗣 ウラル語とセム語を比べる</button></div><h3>ほかの土地</h3><p>語族の外でも、この語はたいてい古い。フィンランド語<strong>vesi</strong>とハンガリー語<strong>víz</strong>はウラル祖語<em>*wete</em>にさかのぼり、これは印欧語の語によく似ている。アラビア語<strong>ماء</strong>とヘブライ語<strong>מים</strong>はセム祖語<em>*māy-</em>を持つ。マレー語<strong>air</strong>はオーストロネシア祖語<em>*wahiʀ</em>にさかのぼり、ハワイ語<strong>wai</strong>はその親戚だ。スワヒリ語<strong>maji</strong>はバントゥー祖語である。朝鮮語<strong>물</strong>は1103年の中国の語彙集に初めて記録され、古い地名を見ると半島の南は<em>*mul</em>のように言い、北は別の語を使っていた。タイ語<strong>น้ำ</strong>とベトナム語<strong>nước</strong>は自分の語を持ち、中国語<strong>水</strong>、日本語の<strong>水</strong>、広東語<strong>水</strong>は一つの字を共有する。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ms,sw,ko,th\" data-word=\"water\">🗣 もっと遠くを比べる</button></div><p>水は言語が手放さないと思う語で、実際に多くの言語が手放していない。おもしろいのは、語が蛇口からどこまで遠くへ行けるかだ。蒸留され、小さくされ、気体になり、形容詞に縮んでも、どの底にも、のどが渇いたときに飲むものの古い語がある。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"water\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/water"
+      },
+      {
+        "text": "\"whisky\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/whisky"
+      },
+      {
+        "text": "\"uisce\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/uisce"
+      },
+      {
+        "text": "\"vodka\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/vodka"
+      },
+      {
+        "text": "\"hydrogen\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/hydrogen"
+      },
+      {
+        "text": "\"Reconstruction:Proto-Indo-European/wódr̥\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European/w%C3%B3dr%CC%A5"
+      },
+      {
+        "text": "\"aqua\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/aqua"
+      },
+      {
+        "text": "\"νερό\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%CE%BD%CE%B5%CF%81%CF%8C"
+      },
+      {
+        "text": "\"vesi\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/vesi"
+      },
+      {
+        "text": "\"víz\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/v%C3%ADz"
+      },
+      {
+        "text": "\"ماء\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D9%85%D8%A7%D8%A1"
+      },
+      {
+        "text": "\"air\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/air"
+      },
+      {
+        "text": "\"maji\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/maji"
+      },
+      {
+        "text": "\"물\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%EB%AC%BC"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "we-who-counts-as-us",
+    "icon": "🧑‍🤝‍🧑",
+    "tags": [
+      "grammar"
+    ],
+    "title": {
+      "en": "We: Are You in This or Not?",
+      "ja": "私たち：あなたは入っているのか"
+    },
+    "summary": {
+      "en": "In Indonesian you must decide before you speak whether “we” includes the person you are talking to. About a quarter of the map has this, and English has no way to say it.",
+      "ja": "インドネシア語では話す前に、「私たち」に相手が入るかどうかを決めなければならない。地図の約四分の一がこの区別を持ち、英語にはこれを言う手段がない。"
+    },
+    "body": {
+      "en": "<p>If an English speaker says “we are going to the beach”, you do not know if you are invited. In Indonesian you would. <strong>kita / kami</strong> gives two words: <em>kita</em> is “you and I”, and <em>kami</em> is “we, not you”. So a sentence that English leaves open has to be decided before the speaker reaches the verb. Get it wrong, and you have invited someone in or shut them out, with no way to hedge. On this map, 274 cells make that split in their pronouns.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"we\" data-code=\"id\">🗺️ Show we on the map</button></div><h3>A very old choice</h3><p>The distinction is very old in Austronesian. Malay <strong>kita / kami</strong> goes back to Proto-Austronesian <em>*(i-)kita</em> and <em>*kami</em>, and Tagalog <strong>tayo / kami</strong>, Hawaiian <strong>kākou / mākou</strong> and Māori <strong>tātou / mātou</strong> all have their versions. From Taiwan to the Pacific a speaker has been making this choice for thousands of years. Tok Pisin <strong>yumi / mipela</strong> shows how much it matters there: it was built largely from English words, and it invented the split anyway, with <em>yumi</em>, “you-me”, and <em>mipela</em>, “me-fellow”. A language that takes its vocabulary from English took nothing of English’s carelessness about who was invited.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"id,tl,haw,mi,qu\" data-word=\"we\">🗣 Compare Austronesian and Quechua</button></div><h3>Not a neat map</h3><p>The split is not a neat map of families. Quechua <strong>ñuqanchik / ñuqayku</strong> has it in the Andes, and Somali <strong>innaga / annaga</strong> in Africa. Indo-European mostly lacks it, yet Gujarati <strong>આપણે / અમે</strong> and Marathi <strong>आपण / आम्ही</strong> have it outright, and Tamil <strong>நாம் / நாங்கள்</strong> next door has it too. Vietnamese <strong>chúng ta / chúng tôi</strong> makes the split too. The Chinese world mostly does without, although northern Mandarin <strong>咱们 / 我们</strong> has the pair. Hokkien has its own pair. Tungusic languages have it throughout, so it runs across Siberia as well.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"vi,zh,ta,mr,gu\" data-word=\"we\">🗣 Compare Asia</button></div><h3>Who’s we?</h3><p>The map is careful about what it counts. Some languages mark this only on the verb, not in the pronoun, as the Iroquoian and Siouan languages do, and here that is one word, because one word is what a speaker says. A language with no separate plural pronoun at all simply repeats “I”, and that is why old Chinese 我 stands unchanged in those rows. Where a language has both forms, both are printed, inclusive first.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,fr,de,ja,ar\" data-word=\"we\">🗣 Compare one word</button></div><p>English <strong>we</strong>, German <strong>wir</strong>, French <strong>nous</strong>, Japanese <strong>私たち</strong> and Arabic <strong>نحن</strong> belong to the 831 cells that have a single word. English has found other uses for its spare “we”. There is the royal we, the pronoun a monarch uses for one person. Nobody who speaks a language with <em>kita</em> and <em>kami</em> can quite believe that you could leave the matter open, and they may have a point. Most English speakers have at some time said “we should get lunch”, and been asked, “Who’s we?”</p><p>That question is the whole map. Three-quarters of the rows with a known answer never need to ask it, and in the other quarter the grammar has already answered.</p>",
+      "ja": "<p>英語の話者が「私たちは海へ行く」と言っても、あなたが誘われているのかはわからない。インドネシア語ならわかる。<strong>kita / kami</strong>は二つの語で、<em>kita</em>は「あなたと私」、<em>kami</em>は「私たち、あなたは別」である。英語があいまいにしておく文を、話し手は動詞に着く前に決めなければならない。間違えると相手を招き入れるか閉め出すかになり、ぼかす手段はない。この地図では274セルが代名詞でこの区別をする。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"we\" data-code=\"id\">🗺️ 地図で「私たち」を見る</button></div><h3>とても古い選択</h3><p>この区別はオーストロネシア語でとても古い。マレー語<strong>kita / kami</strong>はオーストロネシア祖語<em>*(i-)kita</em>と<em>*kami</em>にさかのぼり、タガログ語<strong>tayo / kami</strong>、ハワイ語<strong>kākou / mākou</strong>、マオリ語<strong>tātou / mātou</strong>もそれぞれの形を持つ。台湾から太平洋まで、話し手は何千年もこの選択をしてきた。トク・ピシン<strong>yumi / mipela</strong>はそれがどれほど大事かを示している。語彙の多くは英語から来たのに、<em>yumi</em>「あなたと私」と<em>mipela</em>「私たち」でこの区別を作り出した。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"id,tl,haw,mi,qu\" data-word=\"we\">🗣 オーストロネシア語とケチュア語を比べる</button></div><h3>きれいな地図ではない</h3><p>この区別は語族のきれいな地図にはならない。アンデスのケチュア語<strong>ñuqanchik / ñuqayku</strong>にも、アフリカのソマリ語<strong>innaga / annaga</strong>にもある。印欧語はたいてい持たないが、グジャラート語<strong>આપણે / અમે</strong>とマラーティー語<strong>आपण / आम्ही</strong>は持っていて、隣のタミル語<strong>நாம் / நாங்கள்</strong>にもある。ベトナム語<strong>chúng ta / chúng tôi</strong>もこの区別をする。中国語圏の多くは持たないが、北方の中国語<strong>咱们 / 我们</strong>はこの対を持つ。閩南語にも対がある。ツングース語は全体が持っていて、シベリアにも広がる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"vi,zh,ta,mr,gu\" data-word=\"we\">🗣 アジアを比べる</button></div><h3>「私たち」とはだれか</h3><p>地図は数え方に注意している。イロコイ語やスー語のように、代名詞ではなく動詞だけで区別する言語は、話し手の言う語が一つなので、ここでは一語と数える。複数の代名詞を持たない言語は「私」をくり返すだけで、古い中国語の行で我が変わらないのはこのためだ。両方の形を持つ言語では両方を載せ、包括形を先に置く。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,fr,de,ja,ar\" data-word=\"we\">🗣 一語を比べる</button></div><p>英語<strong>we</strong>、ドイツ語<strong>wir</strong>、フランス語<strong>nous</strong>、日本語の<strong>私たち</strong>、アラビア語<strong>نحن</strong>は一語の831セルに入る。英語は余った「私たち」に別の使い道を見つけた。君主が一人で使う、王の「私たち」である。<em>kita</em>と<em>kami</em>を持つ言語の話者には、これをあいまいにしておけることが信じにくい。</p><p>この問いが地図のすべてである。答えのわかっている行の四分の三はこれを尋ねる必要がなく、残りの四分の一では文法がすでに答えている。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"kita\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/kita"
+      },
+      {
+        "text": "\"kami\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/kami"
+      },
+      {
+        "text": "\"tayo\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/tayo"
+      },
+      {
+        "text": "\"yumi\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/yumi"
+      },
+      {
+        "text": "\"royal we\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/royal_we"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "white-rough-and-an-elf",
+    "icon": "⚪",
+    "tags": [
+      "colour",
+      "etymology"
+    ],
+    "title": {
+      "en": "White: Rough, Blank and Related to Elves",
+      "ja": "白：粗いもの、空白、そして妖精の親戚"
+    },
+    "summary": {
+      "en": "The modern Greek word for white comes from a Latin word for rough. French took its white from the Franks, and an elf is, probably, a white thing.",
+      "ja": "現代ギリシャ語の白はラテン語の「粗い」から来ている。フランス語はフランク人から白をもらい、妖精はおそらく白いものである。"
+    },
+    "body": {
+      "en": "<p>Modern Greek says white with a Latin word for rough. <strong>άσπρο</strong> comes through Hellenistic Greek from Latin <em>asper</em>, “rough”. How a word for a coarse surface came to mean the first colour any language names is not explained by the entry, and that is what makes it a fine place to start. Ancient Greek <strong>λευκός</strong> had a perfectly good word of its own, which English keeps in <em>leukocyte</em>. Black and white are the two colour terms every language has, and even so, the white of a language can be replaced from the outside.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"white\" data-code=\"el\">🗺️ Show white on the map</button></div><h3>Latin's two words for white</h3><p>That is what happened to Latin. Latin had two words for white. <strong>albus</strong> was properly a dull white, without lustre, and <em>candidus</em>, from a verb “to shine”, was a shining white. Neither of them became the ordinary word in the west. French <strong>blanc</strong>, Spanish <strong>blanco</strong>, Italian <strong>bianco</strong> and Portuguese <strong>branco</strong> all took a Germanic word instead, Frankish <em>*blank</em>, “gleaming, white, blinding”. English later borrowed that from French and got <em>blank</em>, and so a blank page is a white one. Only Romanian <strong>alb</strong> kept the Latin word. So most of Romance got its white from the Franks.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,es,it,pt,ro\" data-word=\"white\">🗣 Compare Romance</button></div><h3>Elves and milk</h3><p>The dull Latin word has done much better in disguise. Its root, <em>*albʰós</em>, gives <em>Albion</em>, the old name for Britain. And Wiktionary says that English <em>elf</em> ultimately probably derives from it, so an elf is a white thing. English <strong>white</strong> itself comes from another root, <em>*ḱweytós</em>, “bright, shine”, with German <strong>weiß</strong> and Swedish <strong>vit</strong>. In Hebrew, whiteness is a colour you can drink. Hebrew <strong>לבן</strong> goes back to Proto-West-Semitic <em>*laban-</em>, the same as Arabic <em>لَبَن</em>, “milk”, and that gave <em>Lebanon</em> the name of its mountains. Arabic <strong>أبيض</strong> itself uses a different root for the colour.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"la,he,ar,en\" data-word=\"white\">🗣 Compare the old roots</button></div><p>The Middle East and India have been trading their whites. Turkish <strong>beyaz</strong> came through Ottoman from Arabic, so the Turkish word and the Arabic are one. Persian <strong>سفید</strong> is from an earlier <em>سپید</em>, and it has Avestan <strong>𐬯𐬞𐬀𐬉𐬙𐬀</strong> and Sanskrit <strong>श्वेत</strong> beside it, and Hindi <strong>सफ़ेद</strong> has the Persian form. Russian <strong>белый</strong>, Polish <strong>biały</strong> and Ukrainian <strong>білий</strong> have the Slavic <em>*bělъ</em>.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,fa,hi,sa\" data-word=\"white\">🗣 Compare the trade</button></div><h3>Uncertain origins</h3><p>Further east the origins grow uncertain. The character for Chinese <strong>白</strong> has two proposed explanations, one as a picture of an acorn and one as a human head. Hungarian <strong>fehér</strong> is of uncertain origin, perhaps related to a Sámi word for a white reindeer. Finnish <strong>valkoinen</strong>, Malay <strong>putih</strong> and Thai <strong>ขาว</strong> have words of their own.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,hu,fi,ms\" data-word=\"white\">🗣 Compare the east</button></div><p>For a colour that every language starts with, then, there is a remarkable amount of importing. Greece got it from Rome, Rome’s heirs got it from the Franks, and India got it from Persia.</p>",
+      "ja": "<p>現代ギリシャ語は、ラテン語の「粗い」という語で白を言う。<strong>άσπρο</strong>はヘレニズム期のギリシャ語を経てラテン語<em>asper</em>「粗い」から来ている。ざらざらした表面の語がどうして白になったのかは、項目には説明がない。古代ギリシャ語<strong>λευκός</strong>には立派な自分の語があり、英語の<em>leukocyte</em>に残っている。黒と白はどの言語にもある色の語だが、それでも白は外から取り替えられることがあるのだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"white\" data-code=\"el\">🗺️ 地図で白を見る</button></div><h3>ラテン語の白を表す二つの語</h3><p>ラテン語にも起きたのはこれである。ラテン語には白が二つあった。<strong>albus</strong>はもともと光沢のない白で、「輝く」から来た<em>candidus</em>は輝く白である。どちらも西ではふつうの語にならなかった。フランス語<strong>blanc</strong>、スペイン語<strong>blanco</strong>、イタリア語<strong>bianco</strong>、ポルトガル語<strong>branco</strong>はみなゲルマン語、フランク語<em>*blank</em>「輝く、白い、まぶしい」を取った。英語はのちにこれをフランス語から借りて<em>blank</em>とし、空白のページは白いページになった。ルーマニア語<strong>alb</strong>だけがラテン語を保った。ロマンス語の多くは、白をフランク人からもらったのである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,es,it,pt,ro\" data-word=\"white\">🗣 ロマンス語を比べる</button></div><h3>妖精と乳</h3><p>光沢のないラテン語の語は姿を変えてもっと成功した。語根<em>*albʰós</em>はブリテンの古い名<em>Albion</em>を生み、ウィクショナリーは英語<em>elf</em>もおそらくここから来たとしている。妖精は白いものなのだ。英語<strong>white</strong>自身は別の語根<em>*ḱweytós</em>「明るい、輝く」から来ていて、ドイツ語<strong>weiß</strong>とスウェーデン語<strong>vit</strong>も同じである。ヘブライ語では、白は飲める色である。ヘブライ語<strong>לבן</strong>は西セム祖語<em>*laban-</em>にさかのぼり、アラビア語<em>لَبَن</em>「乳」と同じで、これが<em>Lebanon</em>の山の名になった。アラビア語<strong>أبيض</strong>自身は色に別の語根を使う。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"la,he,ar,en\" data-word=\"white\">🗣 古い語根を比べる</button></div><p>中東とインドは白を取引してきた。トルコ語<strong>beyaz</strong>はオスマン語を経たアラビア語で、トルコ語とアラビア語の語は一つである。ペルシア語<strong>سفید</strong>は古い<em>سپید</em>から来ていて、アヴェスター語<strong>𐬯𐬞𐬀𐬉𐬙𐬀</strong>とサンスクリット<strong>श्वेत</strong>が隣におり、ヒンディー語<strong>सफ़ेद</strong>はペルシア語の形を使う。ロシア語<strong>белый</strong>、ポーランド語<strong>biały</strong>、ウクライナ語<strong>білий</strong>はスラヴ語<em>*bělъ</em>である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,fa,hi,sa\" data-word=\"white\">🗣 取引を比べる</button></div><h3>不確かな出どころ</h3><p>さらに東へ行くと出どころは不確かになる。中国語<strong>白</strong>の字には、どんぐりの絵と人の頭の絵という二つの説がある。ハンガリー語<strong>fehér</strong>の語源は不確かで、サーミ語の白いトナカイの語と関係があるかもしれない。フィンランド語<strong>valkoinen</strong>、マレー語<strong>putih</strong>、タイ語<strong>ขาว</strong>は自分の語を持つ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,hu,fi,ms\" data-word=\"white\">🗣 東を比べる</button></div><p>どの言語も最初に持つ色なのに、輸入が驚くほど多い。ギリシャはローマから、ローマの子孫はフランク人から、インドはペルシアから得た。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"άσπρος\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%CE%AC%CF%83%CF%80%CF%81%CE%BF%CF%82"
+      },
+      {
+        "text": "\"blanc\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/blanc"
+      },
+      {
+        "text": "\"blank\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/blank"
+      },
+      {
+        "text": "\"albus\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/albus"
+      },
+      {
+        "text": "\"candidus\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/candidus"
+      },
+      {
+        "text": "\"alb\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/alb"
+      },
+      {
+        "text": "\"Albion\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Albion"
+      },
+      {
+        "text": "\"elf\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/elf"
+      },
+      {
+        "text": "\"white\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/white"
+      },
+      {
+        "text": "\"לבן\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D7%9C%D7%91%D7%9F"
+      },
+      {
+        "text": "\"Lebanon\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Lebanon"
+      },
+      {
+        "text": "\"beyaz\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/beyaz"
+      },
+      {
+        "text": "\"سفید\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D8%B3%D9%81%DB%8C%D8%AF"
+      },
+      {
+        "text": "\"白\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E7%99%BD"
+      },
+      {
+        "text": "\"fehér\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/feh%C3%A9r"
+      },
+      {
+        "text": "\"Basic Color Terms\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Basic_Color_Terms"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "wind-spirit-and-a-window",
+    "icon": "💨",
+    "tags": [
+      "nature",
+      "etymology"
+    ],
+    "title": {
+      "en": "Wind: Breath, Spirit and a Hole in the Wall",
+      "ja": "風：息、霊、壁の穴"
+    },
+    "summary": {
+      "en": "Hebrew and Arabic use one root for wind and spirit. English window is a Norse “wind-eye”, and the Chinese character for wind was borrowed from a phoenix.",
+      "ja": "ヘブライ語とアラビア語は風と霊に一つの語根を使う。英語のwindowはノルド語の「風の目」で、漢字の風は鳳凰から借りた字である。"
+    },
+    "body": {
+      "en": "<p>In Hebrew, the weather and the soul are one word. <strong>רוח</strong> means wind, air and a cardinal direction, in Biblical Hebrew breath, and a person’s spirit. It is the <em>ruach</em> of the “holy spirit” in Psalm 51. Arabic <strong>ريح</strong> uses a related form for the wind, and its cognate <em>رُوح</em> means spirit. The idea is easy to follow: something you cannot see, that moves things, and that goes when breathing stops. Latin and Greek had it too. Ancient Greek <strong>ἄνεμος</strong> is from the root <em>*h₂enh₁-</em>, “to breathe”, and Latin <em>anima</em>, “air, breath”, the source of <em>animal</em> and <em>animate</em>, is from the same root. So a wind in Homer and a soul in Virgil are related, and an animal is a thing with breath in it.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"wind\" data-code=\"he\">🗺️ Show wind on the map</button></div><h3>Wind-eye</h3><p>English has a small lesson on the subject in its own walls. A <strong>wind</strong> blows through a window, and the word <em>window</em> came from Old Norse <em>vindauga</em>, literally “wind-eye”, a hole in the roof or wall. Scots still has <em>windae</em> and <em>windock</em>. It displaced the native Old English <em>ēagþȳrel</em>, “eye-hole”, while German <strong>Wind</strong> took <em>Fenster</em> from Latin. Wiktionary explains that the “windows” of early Germanic peoples were just unglazed holes in the wall or roof. So a Viking house had an eye to let the wind in, and the English-speaking world is still looking out through it.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"he,ar,en,de\" data-word=\"wind\">🗣 Compare wind and spirit</button></div><h3>Blowing</h3><p>The word itself is one of the cleaner Indo-European stories. <em>*h₂wéh₁n̥ts</em> is a participle, “blowing”, and it gave Latin <strong>ventus</strong>, so French <strong>vent</strong>, Spanish <strong>viento</strong> and Italian <strong>vento</strong>. It gave Gothic <strong>𐍅𐌹𐌽𐌳𐍃</strong> and Welsh <strong>gwynt</strong>. Russian <strong>ветер</strong> and Polish <strong>wiatr</strong> are a close relative, and Sanskrit <strong>वायुः</strong> is in the same family. It is a simple name: the wind is what blows.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,fr,ru,sa,got\" data-word=\"wind\">🗣 Compare the blowing word</button></div><h3>A phoenix</h3><p>Elsewhere, each family has its own root. Chinese <strong>风</strong> has the strangest. The character 風 was in origin the phoenix, 鳳, borrowed for its sound to write the word for wind, and a sound element was added later. Japanese <strong>風</strong> uses the same character for its native word, and <em>kamikaze</em>, “divine wind”, is that word with <em>kami</em>, “god”, in front. Malay <strong>angin</strong> and Tagalog <strong>hangin</strong> have Proto-Austronesian <em>*haŋin</em>, and in Malay it also means air and gas, the stuff in a tyre. Swahili <strong>upepo</strong> is Proto-Bantu. Finnish <strong>tuuli</strong> goes back to Proto-Finno-Permic, and it also means a mood. Turkish <strong>rüzgâr</strong>, Persian <strong>باد</strong>, Hungarian <strong>szél</strong> and Georgian <strong>ქარი</strong> have words of their own.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,ja,ms,sw,fi\" data-word=\"wind\">🗣 Compare the rest</button></div><p>So the wind is a spirit, a bird, a mood, a thing that blows and a reason for a hole in the wall. Between them the languages on this map have noticed nearly everything about it, apart from where it comes from.</p>",
+      "ja": "<p>ヘブライ語では天気と魂が一つの語である。<strong>רוח</strong>は風、空気、方角で、聖書のヘブライ語では息、そして人の霊も指す。詩編51編の「聖なる霊」の<em>ruach</em>がこれだ。アラビア語<strong>ريح</strong>は関係のある形を風に使い、同源の<em>رُوح</em>は霊である。見えないのにものを動かし、息が止まるといなくなるもの、という考えはわかりやすい。ラテン語とギリシャ語にもあった。古代ギリシャ語<strong>ἄνεμος</strong>は「息をする」<em>*h₂enh₁-</em>から来ていて、ラテン語<em>anima</em>「空気、息」も同じ語根で、<em>animal</em>のもとである。動物とは息の入ったものなのだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"wind\" data-code=\"he\">🗺️ 地図で風を見る</button></div><h3>風の目</h3><p>英語の壁にはこの話の小さな教訓がある。<strong>wind</strong>は窓から吹き込むが、<em>window</em>は古ノルド語<em>vindauga</em>「風の目」から来た語で、屋根や壁の穴のことだった。スコットランド語には今も<em>windae</em>と<em>windock</em>がある。<em>window</em>は固有の古英語<em>ēagþȳrel</em>「目の穴」を追い出した語で、ドイツ語<strong>Wind</strong>の<em>Fenster</em>はラテン語から来ている。ウィクショナリーによれば、初期ゲルマン人の「窓」はガラスのない壁や屋根の穴だった。ヴァイキングの家には風を入れる目があり、英語圏は今もそこから外を見ている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"he,ar,en,de\" data-word=\"wind\">🗣 風と霊を比べる</button></div><h3>吹くもの</h3><p>語そのものは印欧語のきれいな話の一つである。<em>*h₂wéh₁n̥ts</em>は「吹いている」という分詞で、ラテン語<strong>ventus</strong>を経てフランス語<strong>vent</strong>、スペイン語<strong>viento</strong>、イタリア語<strong>vento</strong>になった。ゴート語<strong>𐍅𐌹𐌽𐌳𐍃</strong>とウェールズ語<strong>gwynt</strong>もこれである。ロシア語<strong>ветер</strong>とポーランド語<strong>wiatr</strong>は近い親戚で、サンスクリット<strong>वायुः</strong>も同じ仲間だ。風とは吹くものだという素朴な名である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,fr,ru,sa,got\" data-word=\"wind\">🗣 吹く語を比べる</button></div><h3>鳳凰</h3><p>ほかの土地では語族ごとに自分の語根がある。いちばん奇妙なのは中国語<strong>风</strong>である。風の字はもとは鳳で、音を借りて風の語を書き、あとから音の要素が足された。日本語の<strong>風</strong>は同じ字を和語に使い、<em>神風</em>はそこに「神」をつけた語だ。マレー語<strong>angin</strong>とタガログ語<strong>hangin</strong>はオーストロネシア祖語<em>*haŋin</em>で、マレー語ではタイヤの中の空気も指す。スワヒリ語<strong>upepo</strong>はバントゥー祖語である。フィンランド語<strong>tuuli</strong>はフィン・ペルム祖語にさかのぼり、気分の意味もある。トルコ語<strong>rüzgâr</strong>、ペルシア語<strong>باد</strong>、ハンガリー語<strong>szél</strong>、ジョージア語<strong>ქარი</strong>は自分の語を持つ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,ja,ms,sw,fi\" data-word=\"wind\">🗣 ほかを比べる</button></div><p>風は霊であり、鳥であり、気分であり、吹くものであり、壁に穴をあける理由である。地図の言語は風のことをほとんど全部見てきた。どこから来るかを除いて。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"רוח\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D7%A8%D7%95%D7%97"
+      },
+      {
+        "text": "\"ريح\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D8%B1%D9%8A%D8%AD"
+      },
+      {
+        "text": "\"wind\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/wind"
+      },
+      {
+        "text": "\"window\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/window"
+      },
+      {
+        "text": "\"風\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E9%A2%A8"
+      },
+      {
+        "text": "\"神風\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E7%A5%9E%E9%A2%A8"
+      },
+      {
+        "text": "\"angin\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/angin"
+      },
+      {
+        "text": "\"upepo\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/upepo"
+      },
+      {
+        "text": "\"tuuli\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/tuuli"
+      },
+      {
+        "text": "\"ἄνεμος\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E1%BC%84%CE%BD%CE%B5%CE%BC%CE%BF%CF%82"
+      },
+      {
+        "text": "\"anima\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/anima"
+      },
+      {
+        "text": "\"Holy Spirit in Judaism\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Holy_Spirit_in_Judaism"
+      },
+      {
+        "text": "\"Fenster\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Fenster"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
   }
 ];
 

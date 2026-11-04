@@ -583,7 +583,7 @@ WORDS.hundred = {
     ssf: ["shaba", "ʃaba"],   // same root as Bunun saba
     trv: ["kbkuy", "kbkuj"],
     tay: ["kbhul", "kbhul"],
-    tao: ["ranaw", "ranaw"],
+    tao: ["asa poo", "asa poo"],
     roo: ["katai vovoto", "katai βoβoto"],
     mkz: ["rasa", "rasa"],
     aoz: ["natun", "natun"],   // one hundred is natun=es, with the metathesis Meto puts on a phrase-final noun

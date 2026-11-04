@@ -1089,7 +1089,7 @@ WORDS.white = {
     zh_xa: ["白", "pei˨˦"],
     bbl: ["კʼუჲნ", "kʼujĩ"],
     bzg: ["mabukkas", "mabukːas"],
-    dru: ["popoli", "poˈpoli"],
+    dru: ["lrapungu", "ɭapuŋu"],
     hup: ["łiqay", "ɬɪqɑj"],
     kfa: ["ಬೊಳ್ತದ್", "boɭtadɨ"],
     kfr: ["અછો", "ətʃʰo"],

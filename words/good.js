@@ -1166,7 +1166,7 @@ WORDS.good = {
     tay: ["blaq", "blaq"],
     bnn: ["masial", "masial"],
     trv: ["malu", "malu"],
-    tsu: ["ʼaemʼaemo", "ʔaemʔaemo"],
+    tsu: ["ʉmnʉ", "ɨmnɨ"],
     tao: ["mapia", "mapia"],
     pyu: ["inaba", "inaba"],
     szy: ["kapah", "kapah"],

@@ -1165,7 +1165,7 @@ WORDS.eat = {
     tay: ["maniq", "maniq"],
     bnn: ["maun", "maun"],
     trv: ["meekan", "meekan"],
-    tsu: ["bonu", "bonu"],
+    tsu: ["bonʉ", "bonɨ"],
     tao: ["koman", "koman"],
     pyu: ["mekan", "məkan"],
     szy: ["mukan", "mukan"],

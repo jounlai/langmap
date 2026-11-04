@@ -837,5 +837,6 @@ WORDS.silk = {
     zdj: ["hariri", "hariri"],  // From Arabic ḥarīr 'silk', as in Swahili hariri.
     cop: ["ϣⲉⲛⲥ", "ʃens"],  // Coptic for silk.
     kim: ["торғу", "torɣu"],  // Tofa, glossed «шёлк, шёлковый» in Rassadin's dictionary.
+    trv: ["dmayi", "dmaji"],  // Truku word glossed 絲 and 蠶絲 'silkworm silk'.
   }
 };

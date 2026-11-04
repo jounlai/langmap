@@ -325,7 +325,7 @@ WORDS.moon = {
     lbj: ["ཟླ་བ", "lzawa"],
     khg: ["ཟླ་བ", "da˩˧wa˥˧"],
     cng: ["tʃhə ʂa", "tʃʰə ʂa"],
-    ii: ["ꆪ", "ɬɯ˨˩"],
+    ii: ["ꆧꁨ", "ɬo˨˩bo˨˩"],  // The everyday word; ꆪ is the literary synonym (Wiktionary).
     yiz: ["lobo", "lo˨˨bo˨˨"],
     hni: ["bala", "ba˧˧la˧˧"],
     th_isan: ["เดือน", "dɯan˨˩"],

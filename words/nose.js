@@ -1015,7 +1015,7 @@ WORDS.nose = {
     fon: ["awɔntín", "awɔ̃tĩ́"],
     bci: ["bue", "bue"],
     kmb: ["dizulu", "dizulu"],
-    ii: ["ꅲ", "n̥a˧˧"],
+    ii: ["ꅳꁖ", "n̥a˨˩bi˥˥"],  // ꅲ is "to ask"; the nose is ꅳꁖ (Wiktionary; n̥a21 bi55 in Sun, Yang and Lama).
     pcc: ["ndangl", "ɗɐŋ˨˦"],
     wbm: ["meeih", "mɯih"],
     shy: ["axenfuf", "axənfuf"],

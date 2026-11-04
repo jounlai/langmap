@@ -812,7 +812,7 @@ WORDS.rice = {
     quc: ["arroz", "aros"],
     nch: ["arroz", "aˈros"],
     ngu: ["arroz", "aˈros"],
-    dru: ["pagay", "paˈɡai"],
+    dru: ["berathe", "bəɾaθə"],  // Husked rice (Wiktionary; ACD after Li 1977 has bósə); pagay is the rice plant and unhusked grain.
     zh_yuan: ["米", "mi"],
     pmh: ["तंडुल", "taɳɖula"],
     xct: ["འབྲས", "bras"],

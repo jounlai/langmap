@@ -1110,7 +1110,7 @@ WORDS.rain = {
     kdt: ["məmia", "məmia"],
     srb: ["gənúr", "ɡənur"],
     kjg: ["kəmaʔ", "kəmaʔ"],
-    kxv: ["bela", "bela"],
+    kxv: ["piyyu", "pijːu"],
     kio: ["sép", "sép"],
     na: ["weron", "weron"],
     nha: ["pundu", "pundu"],

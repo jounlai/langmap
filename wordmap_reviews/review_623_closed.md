@@ -18,3 +18,14 @@ Held: bn heart হৃৎপিণ্ড: the organ's formal term; হৃদয�
 Notes only: fa heart, name, nose; bn drink, snow; 'person' words in hi pa gu kn ml.
 No comparison: lhm xsr lmn kfa lis kxv (NT in another script or broken); yai timed out.
 No NT: wbl trm kfr hno psi iru haj bhb bft bpy kgg twm.
+
+## Second round
+| row | word | was | now | evidence |
+|---|---|---|---|---|
+| kxv | rain | bela | piyyu | Matt 7:25; bela is 'time' in this NT |
+| lmn | tree | पेड़ | झाड | NT ఝాడ్; the old cell is the Hindi word. Transliterated from Telugu script |
+| lmn | tongue | जबान | जीब | NT. Transliterated from Telugu script |
+
+New cell: mwr hiccup हिचकी (Lalas p. 6037). DSAL fill stopped at this: large rows have few empties and they are
+rare concepts the dictionaries lack. Dropped: lmn dog (singular inferred from a plural), ps bat (entry cut off),
+sd poop (a 1910 form, mainstream use unknown).

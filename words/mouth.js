@@ -1244,5 +1244,6 @@ WORDS.mouth = {
     auj: ["am", "am"],
     siz: ["aṃḅú", "amˤˈbˤu"],
     zh_jiao: ["嘴", "tsue˥˥"],
+    adt: ["yaya", "jaja"],  // Adnyamathanha yaya 'mouth'.
   }
 };

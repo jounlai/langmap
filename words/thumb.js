@@ -622,6 +622,10 @@ WORDS.thumb = {
     es_pr: "plain",
     es_ec: "plain",
     es_ve: "plain",
+    kos: "big",
+    pon: "big",
+    adt: "plain",
+    wbt: "plain",
   },
   routes: {
     mother: {"color":"#db2777","emoji":"👪","en":"mother · parent · elder kin","ja":"母・親・年長の身内","ko":"어머니 · 어버이 · 웃어른","zh":"母亲・父母・长辈","yue":"阿媽 · 父母 · 長輩","vi":"mẹ · cha mẹ · bậc trên","th":"แม่ · พ่อแม่ · ญาติผู้ใหญ่","id":"ibu · orang tua · kerabat tua","hi":"माँ · माता-पिता · बड़े","de":"Mutter · Eltern · ältere Verwandte","fr":"mère · parent · aîné","it":"madre · genitore · parente anziano","es":"madre · padre · pariente mayor","pt":"mãe · pai · parente mais velho","ru":"мать · родитель · старший родич","uk":"мати · батько · старший родич","ar":"أم · والد · قريب أكبر","he":"אם · הורה · קרוב מבוגר","sw":"mama · mzazi · ndugu mkubwa"},
@@ -1188,5 +1192,9 @@ WORDS.thumb = {
     es_pr: ["pulgar", "pulˈɣaɾ"],  // The same word as standard Spanish, from Latin pollicāris 'of the thumb'; Wiktionary gives it with no regional label.
     es_ec: ["pulgar", "pulˈɣaɾ"],  // The same word as standard Spanish, from Latin pollicāris 'of the thumb'; Wiktionary gives it with no regional label.
     es_ve: ["pulgar", "pulˈɣaɾ"],  // The same word as standard Spanish, from Latin pollicāris 'of the thumb'; Wiktionary gives it with no regional label.
+    kos: ["kuf lulap", "kuf lulap"],  // Kosraean Bible, Judges 1:6: they cut off his kuf lulap ke paol ac ke nial — the thumbs and big toes are named with the same kuf lulap, on hands (paol) and feet (nial).
+    pon: ["sendinpehlap", "sendinpeːlap"],  // Pohnpeian Bible, Judges 1:6: sendinpehlap ko oh sendinnehlap ko 'thumbs and big toes' (peh 'hand', neh 'foot').
+    adt: ["ngarlki", "ŋaɭki"],  // Adnyamathanha ngarlki 'thumb' (also arlirlpa ngarlki).
+    wbt: ["murrkangunya", "murkaŋuɲa"],  // Warnman murrkangunya 'thumb'.
   },
 };

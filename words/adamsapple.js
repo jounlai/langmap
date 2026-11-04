@@ -285,6 +285,8 @@ WORDS.adamsapple = {
     es_uy: "adam",
     es_gt: "adam",
     es_cu: "adam",
+    mi: "plain",
+    el_grc: "other",
   },
   routes: {
     adam: {"color":"#dc2626","emoji":"🍏","en":"Adam's apple","ja":"アダムのりんご","ko":"아담의 사과","zh":"亚当的苹果","yue":"亞當嘅蘋果","vi":"táo của Adam","th":"แอปเปิลของอาดัม","id":"apel Adam","hi":"आदम का सेब","de":"Adams Apfel","fr":"pomme d'Adam","it":"pomo d'Adamo","es":"fruto de Adán","pt":"maçã de Adão","ru":"яблоко Адама","uk":"яблуко Адама","ar":"تفاحة آدم","he":"תפוח אדם","sw":"tufaha la Adamu"},
@@ -514,5 +516,7 @@ WORDS.adamsapple = {
     es_uy: ["manzana de Adán", "mansana ðe aðan"],  // Literally 'Adam's apple'; Wiktionary labels manzana de Adán Latin American, beside Spain's nuez de Adán.
     es_gt: ["manzana de Adán", "mansana ðe aðan"],  // Literally 'Adam's apple'; Wiktionary labels manzana de Adán Latin American, beside Spain's nuez de Adán.
     es_cu: ["manzana de Adán", "mansana ðe aðan"],  // Literally 'Adam's apple'; Wiktionary labels manzana de Adán Latin American, beside Spain's nuez de Adán.
+    mi: ["tenga", "teŋa"],  // Māori tenga: crop of a bird; Adam's apple; goitre (from Proto-Polynesian *tega 'compact rounded object').
+    el_grc: ["πρόλοβος", "prólobos"],  // Ancient Greek prólobos, 'before-lobe': the crop of a bird, and in anatomy the Adam's apple (LSJ).
   },
 };

@@ -294,6 +294,9 @@ WORDS.hiccup = {
     en_jam: "imitative",
     pt_br: "plain",
     fr_qc: "imitative",
+    mi: "plain",
+    adt: "plain",
+    mpj: "plain",
   },
   routes: {
     imitative: {"color":"#ea580c","emoji":"🔊","en":"imitating the sound","ja":"音のまね","ko":"소리 흉내","zh":"模仿声音","yue":"模仿聲音","vi":"mô phỏng âm thanh","th":"เลียนเสียง","id":"tiruan bunyi","hi":"ध्वनि की नक़ल","de":"lautmalend","fr":"imitant le bruit","it":"onomatopeico","es":"imita el sonido","pt":"imita o som","ru":"звукоподражание","uk":"звуконаслідування","ar":"محاكاة الصوت","he":"חיקוי הקול","sw":"kuiga sauti"},
@@ -534,5 +537,8 @@ WORDS.hiccup = {
     en_jam: ["hiccup", "ˈhɪkʌp"],  // The same word as general English: the imitative hic plus a diminutive ending (Wiktionary).
     pt_br: ["soluço", "soˈlusu"],  // The same word as in Portugal, from Latin singultus via Vulgar Latin suggluttium; it also means 'sob' (Wiktionary, Brazilian /soˈlu.su/).
     fr_qc: ["hoquet", "ɔkɛ"],  // The same word as in France, ultimately onomatopoeic (Wiktionary).
+    mi: ["tokopuhake", "tokopuhake"],  // Māori tokopuhake 'to hiccough' (Te Aka); also tokomauri.
+    adt: ["nganyangguRu", "ŋaɲaŋkuɹu"],  // Adnyamathanha nganyangguRu 'hiccup'.
+    mpj: ["ngitarnmanu", "ŋitaɳmanu"],  // Martu Wangka ngitarnmanu 'hiccough'.
   },
 };

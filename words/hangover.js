@@ -201,5 +201,7 @@ WORDS.hangover = {
     es_pr: ["resaca", "reˈsaka"],  // The same word as standard Spanish; Wiktionary gives resaca 'hangover' with no regional label (the regional cruda, guayabo, ratón and chuchaqui belong to Mexico, Colombia, Venezuela and Ecuador).
     es_cu: ["resaca", "reˈsaka"],  // The same word as standard Spanish; Wiktionary gives resaca 'hangover' with no regional label (the regional cruda, guayabo, ratón and chuchaqui belong to Mexico, Colombia, Venezuela and Ecuador).
     nv: ["yoolééł", "jòːléːɬ"],  // Wiktionary gives 'hangover' as a sense of yoolééł, literally 'he/she is going along carrying it' (a rope-like object).
+    el_grc: ["κραιπάλη", "krai̯pálɛː"],  // Ancient Greek kraipálē: drinking bout; intoxication; hangover (source of Latin crāpula).
+    ota: ["مخمورلق", "mahmurˈluk"],  // Ottoman Turkish mahmurluk, from مخمور mahmur 'drunk' + -lık.
   },
 };

@@ -1147,5 +1147,7 @@ WORDS.horse = {
     siz: ["agmár", "aɡˈmar"],
     zh_jiao: ["马", "ma˥˥"],
     yiz: ["mo", "mo˨˩"],  // From Yang's Yi survey; Lama's Nisoic list also has mo21.
+    adt: ["nhandu", "n̪antu"],  // Adnyamathanha nhandu 'horse'.
+    wbt: ["yawarta", "jawaʈa"],  // Warnman yawarta 'horse'.
   }
 };

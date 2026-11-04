@@ -259,6 +259,7 @@ WORDS.jellyfish = {
     zh_tang: "mother",
     zh_wenyan_edu: "mother",
     vi_han: "mother",
+    mi: "plain",
   },
   routes: {
     medusa: {"color":"#7c3aed","emoji":"🐍","en":"named after Medusa","ja":"メドゥーサにちなむ","ko":"메두사에서","zh":"源自美杜莎","yue":"源自美杜莎","vi":"theo tên Medusa","th":"ตั้งตามเมดูซา","id":"dari nama Medusa","hi":"मेडूसा के नाम पर","de":"nach Medusa","fr":"d'après Méduse","it":"da Medusa","es":"por Medusa","pt":"por Medusa","ru":"по имени Медузы","uk":"за ім'ям Медузи","ar":"على اسم ميدوسا","he":"על שם מדוזה","sw":"kwa jina la Medusa"},
@@ -462,5 +463,6 @@ WORDS.jellyfish = {
     zh_tang: ["水母", "ɕwi məw"],  // Literally 'water mother'; Guo Pu's Jiang fu (4th c.) has 水母目蝦, and the Tang Lingbiao luyi has an entry 水母.
     zh_wenyan_edu: ["水母", "sɵy˧˥ mou˩˧"],  // Literally 'water mother'; Guo Pu's Jiang fu (4th c.) has 水母目蝦.
     vi_han: ["水母", "tʰwi˧˩˧ məw˧˧ˀ˥"],  // Literally 'water mother'; Guo Pu's Jiang fu (4th c.) has 水母目蝦. Hán Việt thủy mẫu.
+    mi: ["tepetepe", "tepetepe"],  // Māori tepetepe, 'jellyfish - a general name' (Te Aka); synonyms petipeti, maremare tai, kākaru moana.
   },
 };

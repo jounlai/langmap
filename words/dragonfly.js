@@ -318,6 +318,9 @@ WORDS.dragonfly = {
     en_ca: "dragon",
     en_south: "creature",
     pt_br: "plain",
+    adt: "plain",
+    wbp: "plain",
+    dbl: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -581,5 +584,8 @@ WORDS.dragonfly = {
     en_ca: ["dragonfly", "ˈdɹæɡənflaɪ"],  // The same word as general English, a compound of dragon + fly.
     en_south: ["snake doctor", "ˈsneɪk ˌdɑktɚ"],  // Wiktionary labels snake doctor 'dragonfly' Southern US, from a folk belief that dragonflies follow snakes and stitch them back together when they are hurt.
     pt_br: ["libélula", "liˈbɛlulɐ"],  // The same word as in Portugal, from New Latin libellula (Wiktionary /liˈbɛ.lu.lɐ/); Brazil also has regional names such as helicóptero and lava-bunda.
+    adt: ["wirtu-wirtu", "wiʈu-wiʈu"],  // Adnyamathanha wirtu-wirtu 'dragonfly'.
+    wbp: ["ngirntiwurarri", "ŋiɳʈiwuɻari"],  // Warlpiri ngirntiwurarri 'dragonfly'.
+    dbl: ["yirinyjila", "ˈjiriɲɟila"],  // Dyirbal yiriɲdyila 'dragon-fly' (Dixon), in the row's practical spelling.
   },
 };

@@ -1163,5 +1163,6 @@ WORDS.iron = {
     auj: ["zzìl", "zːil"],  // The common Berber word (Kabyle uzzal).
     siz: ["lə́ħdid", "ˈləʜdid"],  // Borrowed from Arabic ḥadīd.
     zh_jiao: ["铁", "tʰiə˥˥"],
+    dbl: ["ngayan", "ˈŋajan"],  // Dyirbal ŋayan 'iron' (Dixon).
   },
 };

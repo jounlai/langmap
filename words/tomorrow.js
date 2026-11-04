@@ -890,6 +890,11 @@ WORDS.tomorrow = {
     crt: "unknown",
     moc: "plain",
     tob: "unknown",
+    nha: "plain",
+    mpj: "plain",
+    wbt: "morning",
+    wrh: "morning",
+    dbl: "plain",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -1724,5 +1729,10 @@ WORDS.tomorrow = {
     crt: ["kaxlomata", "kaxlomata"],  // From the IDS Chorote list (ka-xloma-ta); yesterday is nooxtiʔ.
     moc: ["neteʔe", "neteʔe"],  // No image is recorded for it, so it counts as a word of its own. Yesterday is skawit (IDS Mocoví).
     tob: ["qodʒiʔoʁoɲi", "qodʒiʔoʁoɲi"],  // From the IDS Toba list (ḳo-ǰiʔoʁo-ɲi); yesterday is ʃikait.
+    nha: ["induga", "induɡa"],  // Nhanda induga 'tomorrow'.
+    mpj: ["yungunpa", "juŋunpa"],  // Martu Wangka yungunpa 'tomorrow'; the Bible's Matthew 6:34 has yungun.
+    wbt: ["yutakurlu", "jutakuɭu"],  // Warnman yutakurlu, glossed 'tomorrow, morning'.
+    wrh: ["nguurruunggal", "ˈŋuːruːŋɡal"],  // Wiradjuri nguurruunggal, glossed 'morning, early, tomorrow, dawn'.
+    dbl: ["ngulga", "ˈŋulɡa"],  // Dyirbal ŋulga 'tomorrow' (Dixon), in the row's practical spelling.
   },
 };

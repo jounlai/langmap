@@ -318,6 +318,8 @@ WORDS.shootingstar = {
     cnp: "moving",
     bnn: "plain",
     pwn: "unknown",
+    mi: "plain",
+    wbp: "plain",
   },
   routes: {
     falling: {"color":"#2563eb","emoji":"⬇️","en":"a falling star","ja":"落ちる星","ko":"떨어지는 별","zh":"落下的星","yue":"跌落嘅星","vi":"sao rơi","th":"ดาวที่ตก","id":"bintang jatuh","hi":"गिरता तारा","de":"fallender Stern","fr":"étoile qui tombe","it":"stella che cade","es":"estrella que cae","pt":"estrela que cai","ru":"падающая звезда","uk":"зірка, що падає","ar":"نجم يسقط","he":"כוכב שנופל","sw":"nyota inayoanguka"},
@@ -581,5 +583,7 @@ WORDS.shootingstar = {
     cnp: ["流星", "lɐu˨˩ ɬeŋ˥˧"],  // Literally 'flowing star', as in Standard Chinese.
     bnn: ["budias", "budias"],  // Bunun word for a meteor or shooting star.
     pwn: ["sipanapanaq a vitjuqan", "sipanapanaq a vitʲuqan"],  // North Paiwan phrase for a shooting star; vitjuqan is 'star'.
+    mi: ["kōtiritiri", "koːtiɾitiɾi"],  // Māori kōtiritiri 'meteor, shooting star' (Te Aka); also matakōkiri, tūmatakōkiri, unahi o Takero.
+    wbp: ["mirntiwarri", "miɳʈiwari"],  // Warlpiri mirntiwarri 'shooting star'.
   },
 };

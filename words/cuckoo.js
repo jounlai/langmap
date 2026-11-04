@@ -555,5 +555,6 @@ WORDS.cuckoo = {
     ar_qur: ["وقواق", "waqwaːq"],  // The same word as modern Arabic وَقْوَاق.
     fa_clas: ["کوکو", "kuːkuː"],  // Kūkū, after the bird's call, as in modern Persian.
     niv: ["пык", "pɯk"],  // The Northeuralex Amur Nivkh word for the cuckoo.
+    vo: ["kukuk", "kuˈkuk"],  // Volapük kukuk 'cuckoo'.
   },
 };

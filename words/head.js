@@ -1217,5 +1217,6 @@ WORDS.head = {
     auj: ["tgìli", "ˈtɡili"],
     siz: ["axfí", "aχˈfi"],  // Laoust notes that only Siwi adds a final i to the Berber word for 'head'.
     zh_jiao: ["头", "tʰou˦˨"],  // Qingdao also says 脑袋.
+    dbl: ["dinggal", "ˈdiŋɡal"],  // Dyirbal diŋgal 'head' (Dixon), in the row's practical spelling.
   },
 };

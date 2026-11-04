@@ -655,6 +655,11 @@ WORDS.grandmother = {
     tob: "unknown",
     kpj: "unknown",
     es_uy: "one",
+    ltg: "unknown",
+    sga: "one",
+    kos: "unknown",
+    piu: "unknown",
+    wbt: "unknown",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -1254,5 +1259,10 @@ WORDS.grandmother = {
     tob: ["lkote", "lkote"],  // The source gives one word for grandmother and does not say whether the father's and the mother's mother are told apart. From the IDS Toba list (l-kote).
     kpj: ["lahi", "lahi"],  // The source gives one word for grandmother and does not say whether the father's and the mother's mother are told apart. From the IDS Karajá list.
     es_uy: ["abuela", "aˈβwela"],  // The same word as standard Spanish; one word for either grandmother.
+    ltg: ["vace", "ˈvatsʲæ"],  // Latgalian vace 'grandmother', from vacs 'old'.
+    sga: ["senmáthair", "ˈsʲenβ̃aːθəɾʲ"],  // Old Irish sen 'old' + máthir 'mother'; Würzburg glosses (Wb 29d13): 'the faith of your mother and grandmother'.
+    kos: ["nina matu", "nina matu"],  // Kosraean Bible, 2 Timothy 1:5: Lois nina matu kiom 'Lois your grandmother', beside Eunice nina kiom 'your mother' (nina 'mother').
+    piu: ["kapaḻi", "kapaɭi"],  // Pintupi-Luritja Bible, 2 Timothy 1:5: nyuntupa kapaḻi yini Luwitjanya 'your grandmother, named Lois'.
+    wbt: ["kami", "kami"],  // Warnman kami 'grandmother'.
   },
 };

@@ -1280,5 +1280,7 @@ WORDS.salt = {
     auj: ["tisə̀nt", "tiˈsənt"],
     siz: ["tisə́nt", "tiˈsənt"],
     zh_jiao: ["咸盐", "ɕiã˦˨ iã˦˨"],  // Literally 'salty salt'; plain 盐 is also used.
+    adt: ["irkili", "iɹkili"],  // Adnyamathanha irkili 'salt'.
+    wbt: ["jurlu", "ɟuɭu"],  // Warnman jurlu 'salt'.
   },
 };

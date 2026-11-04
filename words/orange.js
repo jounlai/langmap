@@ -722,6 +722,8 @@ WORDS.orange = {
     osa: "local",
     abs: "local",
     sas: "local",
+    meu: "naranj",
+    rap: "naranj",
   },
   routes: {
     naranj: {"color":"#ea580c","emoji":"🐪","en":"overland · Sanskrit नारङ्ग → نارنج","ja":"陸路・サンスクリット नारङ्ग → نارنج","ko":"육로 · 산스크리트 नारङ्ग → نارنج","zh":"陆路・梵语 नारङ्ग → نارنج","yue":"陸路 · 梵文 नारङ्ग → نارنج","vi":"đường bộ · tiếng Phạn नारङ्ग → نارنج","th":"ทางบก · สันสกฤต नारङ्ग → نارنج","id":"jalur darat · Sanskerta नारङ्ग → نارنج","hi":"स्थल मार्ग · संस्कृत नारङ्ग → نارنج","de":"Landweg · Sanskrit नारङ्ग → نارنج","fr":"voie terrestre · sanskrit नारङ्ग → نارنج","it":"via terrestre · sanscrito नारङ्ग → نارنج","es":"ruta terrestre · sánscrito नारङ्ग → نارنج","pt":"rota terrestre · sânscrito नारङ्ग → نارنج","ru":"по суше · санскрит नारङ्ग → نارنج","uk":"суходолом · санскрит नारङ्ग → نارنج","ar":"برًّا · سنسكريتية नारङ्ग ← نارنج","he":"ביבשה · סנסקריט नारङ्ग → نارنج","sw":"nchi kavu · Kisanskriti नारङ्ग → نارنج"},
@@ -1398,5 +1400,7 @@ WORDS.orange = {
     osa: ["hką́ącezi", "hkã́ːtsezi"],
     abs: ["lemong", "lemoŋ"],  // jeruk
     sas: ["jeruk", "dʒəruk"],  // "je.ruk n jeruk"; page image read
+    meu: ["anani", "anani"],  // Lawes "Orange (wild), Vauto. Anani. (Introduced)"
+    rap: ["anani", "anani"],  // Churchill "orange anani" (OCR anant)
   },
 };

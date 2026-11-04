@@ -575,7 +575,7 @@ WORDS.chocolate = {
     tar: ["chocolate", ""],
     fj: ["jokeliti", ""],
     tiv: ["côkoleeti", ""],
-    ho: ["chocolate", ""],
+    ho: ["sogeledi", "soɡeledi"],
     lg: ["kyokoleeti", "tʃokoleːti"],
     bem: ["chokoleti", ""],
     gym: ["chocolate", ""],

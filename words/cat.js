@@ -954,7 +954,7 @@ WORDS.cat = {
     bhb: ["मीनी", "miːniː"],
     cja: ["ميٛو", "meuv"],
     cjm: ["ꨟꨢꨥ", "məjaʊ"],
-    meu: ["gosi", "ɡosi"],
+    meu: ["pose", "pose"],
     pon: ["kaht", "kaːt"],
     kos: ["kihsrihk ngaho", "kɨʂɨk ŋaho"],
     myz: ["ࡔࡅࡍࡀࡓࡀ", "ʃunara"],

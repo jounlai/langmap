@@ -353,7 +353,7 @@ WORDS.heart = {
     ilo: ["puso", "ˈpuso"],
     fj: ["uto", "uto"],
     rtm: ["fatmanava", "fatmanava"],
-    sm: ["loto", "loto"],
+    sm: ["fatu", "fatu"],
     to: ["loto", "loto"],
     pau: ["reng", "ɾɛŋ"],
     sd: ["دل", "d̪ɪl"],

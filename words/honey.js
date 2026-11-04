@@ -643,7 +643,7 @@ WORDS.honey = {
     ff: ["njuumri", "ndʒuːmɾi"],
     ee: ["anyitsi", "aɲitsi"],
     gun: ["ei", "ei"],
-    meu: ["bada ranuna", "bada ɾanuna"],
+    meu: ["labolabo bata ranuna", "labolabo bata ɾanuna"],
     pon: ["sukehn loangalap", "sukeːn lɔŋalap"],
     chk: ["chunen", "tʃunen"],
     izz: ["manụ-ẹnwu", "manʊ ɛŋwu"],

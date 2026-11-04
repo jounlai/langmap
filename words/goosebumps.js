@@ -244,6 +244,7 @@ WORDS.goosebumps = {
     rar: "plain",
     sas: "plain",
     ko_em: "plain",
+    ho: "hair",
   },
   family2: {
     ko: "bird",
@@ -436,5 +437,6 @@ WORDS.goosebumps = {
     rar: ["ʻiʻī", "ʔiʔiː"],  // Buse: come out in goose flesh
     sas: ["kemotoq", "kəmotoʔ"],  // "ke.mo.toq a merinding"; page image read
     ko_em: ["소오롬", "sooɾom"],  // Wiktionary 소름: 소홈 (1447) through Early Modern 소오롬, 소오름. No dated quote.
+    ho: ["kopina huina ia gini", "kopina huina ia ɡini"],  // "goose flesh, to have: kopina huina ia gini"
   },
 };

@@ -1007,5 +1007,6 @@ WORDS.snow = {
     bom: ["nemuk-fwala", "nemukfwala"],
     rtm: ["sinou", "sinou"],
     zh_jiao: ["雪", "syə˥˥"],
+    rap: ["nieve", "nieve"],  // Churchill "snow nieve"; Spanish loan
   }
 };

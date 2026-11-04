@@ -185,7 +185,7 @@ WORDS.snow = {
     pt_br: ["neve", "ˈnɛvi"],
     ru: ["снег", "snʲek"],
     ar_qur: ["ثلج", "θaldʒ"],
-    ar: ["ثلج", "θalʒ"],
+    ar: ["ثلج", "θaldʒ"],
     he: ["שלג", "ˈʃeleɡ"],
     tr: ["kar", "kaɾ"],
     fa: ["برف", "bæɾf"],

@@ -815,7 +815,7 @@ WORDS.olderbrother = {
     nan: ["阿兄", "a˦˦ hiã˦˦"],  // Taiwanese 阿兄 a-hiaⁿ is an older brother; a younger one is 小弟 sió-tī.
     wuu: ["阿哥", "aʔ˧˧ ku˦˦"],  // Shanghainese 阿哥 is an older brother; 哥哥 is also used.
     hak_cn: ["阿哥", "a˦ ko˦"],  // Hakka 阿哥 is an older brother, built like this row's 阿爸 'dad'.
-    vi: ["anh", "ajŋ˧"],  // Vietnamese splits siblings by age: anh is an older brother, em a younger sibling (em trai, a younger brother).
+    vi: ["anh", "aɲ˧"],  // Vietnamese splits siblings by age: anh is an older brother, em a younger sibling (em trai, a younger brother).
     vi_c: ["anh", "ɛɲ˥"],  // As in the north, anh is an older brother and em trai a younger one.
     vi_s: ["anh", "an˧"],  // An older brother is anh, the eldest in the South anh hai; a younger brother is em trai.
     th: ["พี่ชาย", "pʰiː˥˩ tɕʰaːj˧"],  // Thai พี่ means any older sibling, and พี่ชาย, 'older sibling male', an older brother; a younger brother is น้องชาย.
@@ -952,7 +952,7 @@ WORDS.olderbrother = {
     en_em: ["brother", "ˈbrʊðər"],  // Brother covered older and younger brothers alike; age was added with an adjective.
     arc: ["ܐܚܐ", "ʔaħaː"],  // Aramaic said ʾaḥā rabbā, 'big brother', and ʾaḥā zʿērā, 'small brother'; there was no separate word.
     ja_kanbun: ["兄", "ani"],  // In kanbun reading 兄 is read あに, the elder brother, as against 弟 おとうと, the younger.
-    vi_nom: ["英", "ajŋ˧"],  // Vietnamese anh, written 英 in Nôm, is an elder brother; a younger one is em trai, 'male younger sibling'.
+    vi_nom: ["英", "aɲ˧"],  // Vietnamese anh, written 英 in Nôm, is an elder brother; a younger one is em trai, 'male younger sibling'.
     ce: ["ваша", "u̯aʃa"],  // Chechen has no separate word: an older brother is воккхаха волу ваша, 'the brother who is bigger'.
     inh: ["воша", "voʃa"],  // Ingush has no separate word: an older brother is воакхагIавола воша, 'the brother who is bigger' (IDS).
     av: ["вац", "wats"],  // Avar has no separate word: кІудияв вац is the big brother, гьитІинав вац the little one (IDS).

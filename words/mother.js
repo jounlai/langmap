@@ -310,7 +310,7 @@ WORDS.mother = {
     ka: ["დედა", "deda"],
     lzz: ["ნანა", "nana"],
     sva: ["დი", "di"],
-    hy: ["մայր", "majɾ"],
+    hy: ["մայր", "mɑjɾ"],
     hyw: ["մայր", "mɑjɾ"],
     nv: ["shimá", "ʃìmá"],
     koy: ["eenaa", "iːnaː"],

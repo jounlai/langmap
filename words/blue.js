@@ -1535,7 +1535,7 @@ WORDS.blue = {
     bm: ["bulaman", "bulaman"],  // Delafosse marks bula as a loan from French 'bleu'. The inherited system has no blue-specific term: fi/fin-ma is 'noir' ou 'bleu foncé' (Delafosse PAG_232-233) and firisi / f'ri-si is 'bleu clair ou vert clair' (PAG_239). Green today is binkɛnɛman 'grass-coloured'. Final -n written ɲ in the IPA to match this row's bilen/bileɲ, fin/fiɲ.
     bn: ["নীল", "nil"],  // নীল vs সবুজ.
     bnn: ["masanglav", "masaŋlav"],  // Isbukun (郡群) Bunun, the variety whose madanghas/maduhlas the row already uses. The bare root sanglav also means 'vegetables, greens'. A blue-specific malaingas 藍 exists in the same dictionary but masanglav is the basic term and is what the dictionary uses of the sky.
-    bo: ["སྔོན་པོ", "ŋom˥po˥"],  // སྔོན་པོ is the classic Tibetan grue: it is the word for the colour of the sky AND of grass. Sun's Lhasa wordlist gives ŋom⁵⁵po⁵³ for blue against tɕaŋ¹⁵ku¹³ for green; the tone letters here are reduced to the row's single-mark style.
+    bo: ["སྔོན་པོ", "ŋø̃˥po˥"],  // སྔོན་པོ is the classic Tibetan grue: it is the word for the colour of the sky AND of grass. Sun's Lhasa wordlist gives ŋom⁵⁵po⁵³ for blue against tɕaŋ¹⁵ku¹³ for green; the tone letters here are reduced to the row's single-mark style.
     br: ["glas", "ɡlɑːs"],  // Breton glas covers blue and the green of natural growing things; gwer is used for artificial green. IDS lists glaz for blue and gwer, ver, glaz for green.
     bsk: ["ṣiqám", "ʂiˈqam"],  // Burushaski: NorthEuraLex gives the identical pair diṅ and ṣiqám for blue AND for green — a single cool-range vocabulary. // was ["diṅ", "ʂiˈqam"] (r29 fix 2026-10-02)
     bxr: ["хүхэ", "xyˈxe"],  // Buryat хүхэ, the cognate of Mongolian хөх, against ногоон.

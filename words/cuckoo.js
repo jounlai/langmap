@@ -209,7 +209,7 @@ WORDS.cuckoo = {
     az: ["ququ", "ɡuˈɡu"],
     azb: ["گوگوک", "ɡuˈɡuk"],
     ug: ["كاككۇك", "kɑkˈkuk"],
-    kk: ["көкек", "kœˈkek"],
+    kk: ["көкек", "køˈkek"],
     ky: ["күкүк", "kyˈkyk"],
     uz: ["kakku", "kakˈku"],
     tk: ["ikatäk", "ikɑˈtæk"],

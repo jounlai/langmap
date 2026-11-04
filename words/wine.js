@@ -1202,7 +1202,7 @@ WORDS.wine = {
     en: ["wine", "waɪn"],
     ja: ["ワイン", "waiɴ"],
     ojp: ["酒", "sakey"],
-    ko: ["포도주", "pododʑu"],
+    ko: ["포도주", "pʰododʑu"],
     zh: ["葡萄酒", "pʰu˧˥ tʰɑʊ̯˧˥ tɕjoʊ̯˨˩˦"],
     yue: ["葡萄酒", "pʰou˨˩ tʰou˨˩ tsɐu˧˥"],
     vi: ["rượu vang", "zɨəw˧˨ʔ vaːŋ˧"],

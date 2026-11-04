@@ -754,7 +754,7 @@ WORDS.bat = {
     ga: ["ialtóg", "ˈiəl̪ˠt̪ˠoːɡ"],  // Old Irish íatlu 'bat' with the diminutive suffix -óg.
     eu: ["saguzar", "saɣus̻ar"],  // Literally 'old mouse': sagu 'mouse' plus -zar 'old'.
     cy: ["ystlum", "ˈəsdlɨm"],  // Related to Irish ialtóg and possibly from a language spoken in Britain before Celtic.
-    ka: ["ღამურა", "ʁamuɾa"],  // The 'night one', from ღამე 'night'.
+    ka: ["ღამურა", "ɣamura"],  // The 'night one', from ღამე 'night'.
     lzz: ["ბურბუ", "burbu"],  // Inherited from Proto-Georgian-Zan *barb-, shared with Mingrelian burbu.
     hy: ["չղջիկ", "tʃʰəχˈtʃʰik"],  // From Old Armenian չիղջ 'bat' with the diminutive suffix -իկ.
     hyw: ["չղջիկ", "tʃəχˈtʃiɡ"],  // From Old Armenian չիղջ 'bat' with the diminutive suffix -իկ.

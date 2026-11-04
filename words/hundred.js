@@ -133,7 +133,7 @@ WORDS.hundred = {
     osp: ["ciento", "ˈtsjento"],
     es_sgl: ["ciento", "ˈtsjento"],
     hy_grab: ["հարիւր", "haɾiwɾ"],
-    hy: ["հարյուր", "haɾˈjuɾ"],
+    hy: ["հարյուր", "hɑɾˈjuɾ"],
     pal: ["𐭮𐭣", "sad"],
     fa_clas: ["صد", "sad"],
     fa: ["صد", "sæd"],

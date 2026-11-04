@@ -310,7 +310,7 @@ WORDS.father = {
     ka: ["მამა", "mama"],
     lzz: ["ბაბა", "baba"],
     sva: ["მუ", "mu"],
-    hy: ["հայր", "hajɾ"],
+    hy: ["հայր", "hɑjɾ"],
     hyw: ["հայր", "hɑjɾ"],
     nv: ["shizhéʼé", "ʃìʒéʔé"],
     koy: ["eetaa", "iːtaː"],

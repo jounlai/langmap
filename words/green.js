@@ -149,7 +149,7 @@ WORDS.green = {
     haw: ["ʻōmaʻomaʻo", "ʔoːmaʔomaʔo"],
     mt: ["aħdar", "ˈaħdar"],
     sq: ["jeshil", "jɛˈʃil"],
-    hy: ["կանաչ", "kɑˈnɑtʃ"],
+    hy: ["կանաչ", "kɑˈnɑtʃʰ"],
     // Mesoamerica, from the ALMG vocabularies and Kaufman & Justeson's PMED.
     // Mayan *raʔx is a grue etymon, and the daughters here still are.
     itz: ["yaʼax", "jaʔaʃ"],   // ALMG's Itzaʼ vocabulary entry 1574 for verde; its Indumentaria volume uses the same word of indigo dye against Spanish "azul", so grue. Itzaʼ chʼoj exists but names the añil plant, not the colour.

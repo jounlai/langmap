@@ -377,7 +377,7 @@ WORDS.dragonfly = {
     ru: ["стрекоза", "strʲɪkɐˈza"],  // Related to стрекотать 'to chirr' or стрекать 'to sting' (Vasmer).
     id: ["capung", "tʃapuŋ"],  // Borrowed via Betawi from Balinese capung.
     de: ["Libelle", "liˈbɛlə"],  // Shortened from New Latin libellula, Linnaeus's coinage from libella 'carpenter's level'.
-    ja: ["トンボ", "toɴbo"],  // From earlier tōbō, tonbō; often written 蜻蛉 with Chinese characters read as tonbo.
+    ja: ["トンボ", "tombo"],  // From earlier tōbō, tonbō; often written 蜻蛉 with Chinese characters read as tonbo.
     fa: ["سنجاقک", "sændʒɒːɢæk"],  // سنجاق 'pin' + the diminutive -ak: 'little pin'.
     jv: ["kinjeng", "kiɲdʒəŋ"],  // The same word in ngoko and krama speech levels.
     yue: ["塘尾", "tʰɔːŋ˨˩ mei˥"],  // 塘 'pond' + 尾 'tail', with the second syllable in changed high tone; the written word is 蜻蜓.

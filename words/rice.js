@@ -96,7 +96,7 @@ WORDS.rice = {
     fa: ["برنج", "beˈɾendʒ"],
     tr: ["pirinç", "piˈɾintʃ"],
     ar: ["أرز", "ˈʔaruzz"],
-    he: ["אורז", "ˈorez"],
+    he: ["אורז", "ˈoʁez"],
     sw: ["mchele", "mˈtʃele"],
     my: ["ဆန်", "sʰàɴ"],
     km: ["អង្ករ", "ʔɑŋˈkɑː"],

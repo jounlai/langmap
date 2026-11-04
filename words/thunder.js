@@ -735,6 +735,7 @@ WORDS.thunder = {
     kpf: "plain",
     nlc: "plain",
     zh_han: "plain",
+    kjh: "plain",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1416,5 +1417,6 @@ WORDS.thunder = {
     kpf: ["kundunduŋ", "kundunduŋ"],  // Komba word for thunder: Mark 3:17 explains Boanerges as 'like thunder' (kundunduŋ yatâ), and Revelation 4:5 has kaŋkundunduŋ.
     nlc: ["liming", "limiŋ"],  // Nalca word for thunder: Mark 3:17 explains Boanerges as 'sons of thunder' (liming bedya mabo), John 12:29 has liming gururu amla 'thunder rumbles', and Revelation 6:1 'a voice like thunder' (liming yub).
     zh_han: ["雷", "rhwǝ̄j"],  // The Shuowen (c. 100 CE) defines 靁 (= 雷) as 陰陽薄動靁雨生物者也 'yin and yang striking each other, the thunder and rain that make things grow'.
+    kjh: ["кӱгӱрт", "kyɡyrt"],  // Romanised kügürt; Wiktionary also lists кӱгӱрт чолы.
   },
 };

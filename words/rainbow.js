@@ -757,6 +757,7 @@ WORDS.rainbow = {
     ja_mvi: "serpent",
     mnw: "unknown",
     adx: "plain",
+    niv: "plain",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1457,5 +1458,6 @@ WORDS.rainbow = {
     ja_mvi: ["天蛇", "tim̩paʋ"],  // Miyako tinpav, written 天蛇 'sky snake'.
     mnw: ["ဓမၚ်", "həmɛ̀aŋ"],  // Glossed 'rainbow' in the SEAlang Mon dictionary (Shorto); the same word also means the tie-beam joining the tops of opposite house-posts. Also ဓမၚ် ဍာ် həmɛ̀aŋ daik.
     adx: ["འཇའ", "ndʑa"],  // The inherited Tibetan word for the rainbow (Written Tibetan 'ja'), as in Lhasa and Khams.
+    niv: ["мем", "mem"],  // Wiktionary gives мем both as 'monkey' and, in East Sakhalin, as 'rainbow'; Northeuralex records мем for Amur Nivkh.
   },
 };

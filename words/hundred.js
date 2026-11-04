@@ -1198,5 +1198,6 @@ WORDS.hundred = {
     auj: ["mìyət", "ˈmijət"],  // From Arabic.
     siz: ["məjja", "məjːa"],  // Borrowed from Arabic.
     zh_jiao: ["百", "pe˥˥"],
+    niv: ["ньр̌аӈӄ", "ɲr̥aŋq"],  // The Northeuralex Amur Nivkh word for 'hundred'.
   },
 };

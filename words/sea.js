@@ -732,7 +732,7 @@ WORDS.sea = {
     rar: ["tai", "tai"],
     jvn: ["segara", "səɡɔrɔ"],
     mzh: ["lewomekitaj", "lewomekitax"],
-    arp: ["héetéc", "héːtétʃ"],
+    arp: ["héétec", "héːtetʃ"],
     pwn: ["ljavek", "ʎavək"],
     emi: ["paamanu", "paamanu"],
     wbp: ["mangkuru", "maŋkuɻu"],

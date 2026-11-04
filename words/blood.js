@@ -745,7 +745,7 @@ WORDS.blood = {
     tet: ["raan", "raːn"],
     aoz: ["naʼ", "naʔ"],
     bi: ["blad", "blad"],
-    pjt: ["milkaḻi", "milkaɭi"],
+    pjt: ["milkali", "milkali"],
     wbp: ["yalyu", "jaʎu"],
     piu: ["milkali", "milkali"],
     aer: ["alhwe", "al̪wə"],

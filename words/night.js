@@ -1184,7 +1184,7 @@ WORDS.night = {
     kim: ["түн", "tyn"],
     tpn: ["pytuna", "pɨˈtuna"],
     uln: ["Nacht", "naxt"],
-    wmt: ["pukanya", "pukaɲa"],
+    wmt: ["pukanyja", "pukaɲɟa"],
     wuu_hz: ["夜里", "ɦi˩˧ li˥˧"],
     xag: ["šu", "ʃu"],
     xfa: ["—", "—"],

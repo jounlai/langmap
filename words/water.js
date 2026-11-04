@@ -942,7 +942,7 @@ WORDS.water = {
     apw: ["tú", "tú"],
     dak: ["mní", "mní"],
     chy: ["mahpe", "mahpe"],
-    arp: ["nec", "netʃ"],
+    arp: ["néc", "nétʃ"],
     kio: ["thǫ́:", "tʰṍː"],
     lmo: ["aqua", "ˈaːkwa"],
     pms: ["eva", "ˈɛva"],

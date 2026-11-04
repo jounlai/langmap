@@ -1610,7 +1610,7 @@ WORDS.bear = {
     mic: ["muiʼn", "muiːn"],
     umu: ["maxkw", "maxkw"], // was ["maxkw", "maxkʷ"] (vi dialect rules 2026-10-06)
     chy: ["náhkohe", "náhkohe"],
-    arp: ["wox", "wox"],
+    arp: ["wóx", "wóx"],
     nv: ["shash", "ʃɑ̀ʃ"], // was ["shash", "ʃaʃ"] (vi dialect rules 2026-10-06)
     apw: ["shash", "ʃaʃ"],
     chr: ["ᏲᎾ", "jona"],

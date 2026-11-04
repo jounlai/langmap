@@ -944,7 +944,7 @@ WORDS.cat = {
     apw: ["gídí", "ɡídí"],
     dak: ["igmúŋ", "iɡmṹ"],
     chy: ["póéso", "póéso"],
-    arp: ["woʼóoo", "woʔóoo"],
+    arp: ["woʼóoó", "woʔóoó"],
     kio: ["báò:", "báòː"],
     lmo: ["gat", "ɡat"],
     pms: ["gat", "ɡat"],

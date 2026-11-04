@@ -1076,7 +1076,7 @@ WORDS.white = {
     kim: ["аӄ", "aq"],
     tpn: ["ting", "tiŋ"],
     uln: ["weiss", "vae̯s"],
-    wmt: ["parpjarti", "ˈpaɻpɟaɻti"],
+    wmt: ["parpjarti", "ˈpaɻpɟaʈi"],
     wuu_hz: ["白", "baʔ˨"],
     xag: ["biki", "biki"],
     xum: ["alfu", "ˈalfu"],

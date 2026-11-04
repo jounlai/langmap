@@ -760,7 +760,7 @@ WORDS.book = {
     rar: ["puka", "puka"],
     jvn: ["buku", "buku"],
     wba: ["karata", "kaɾata"],
-    arp: ["wo3onohóe", "woθonohóe"],
+    arp: ["wo3ónohóe", "woθónohóe"],
     bzd: ["ayë́jkuö", "ajɪ́hkuʊ"],
     tsu: ["tposʉ", "tposɨ"],
     bnn: ["patasan", "patasan"],

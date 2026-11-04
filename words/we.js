@@ -1847,7 +1847,7 @@ WORDS.we = {
     pqm: ["kilun / nilun", "kilun / nilun"],
     abe: ["kiona / niona", "kiona / niona"],
     umu: ["kiilóona / niilóona", "kiːloːna / niːloːna"],
-    crk: ["ᑭᔭᓈᓇᐤ / ᓂᔭᓈᐣ", "kijaːnaw / nijanaːn"],
+    crk: ["ᑭᔮᓇᐤ / ᓂᔭᓈᐣ", "kijaːnaw / nijanaːn"],
     yur: ["nekah", "nekah"],
     lkt: ["uŋkíyepi", "ũkíjepi"],
     kl: ["uagut", "uaɣut"],
@@ -2405,7 +2405,7 @@ WORDS.we = {
     fvr: ["kɨ́", "kɪ́"], // was ["kí", "kí"] (vi dialect rules 2026-10-06)
     fud: ["tātou / mātou", "taːtou / maːtou"],
     tca: ["yixemax / tomax", "ji˥ʔe˦maʔ˨ / to˧maʔ˦"],
-    wrh: ["ngiyani", "ŋiˈjani"],
+    wrh: ["ngiyani", "ˈŋijani"],
     lun: ["etu", "etu"],
     tsj: ["ai", "ai"],
     lep: ["ᰀᰦᰚᰫ", "kaju"],

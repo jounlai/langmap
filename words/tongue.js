@@ -747,7 +747,7 @@ WORDS.tongue = {
     tet: ["nanaal", "nanaːl"],
     aoz: ["maf", "maf"],
     bi: ["tang", "taŋ"],
-    pjt: ["tjaḻinypa", "caɭiɲpa"],
+    pjt: ["tjalinypa", "caliɲpa"],
     wbp: ["jalanypa", "ɟalaɲpa"],
     piu: ["tjalinypa", "caliɲpa"],
     aer: ["alenye", "aleɲə"],

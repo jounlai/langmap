@@ -1078,7 +1078,7 @@ WORDS.salt = {
     lkt: ["mniskúya", "mniskúja"],
     dak: ["mniskúya", "mniskúja"],
     chy: ["vóhpomaʼȯhtse", "vóhpomaʔohtse"],
-    arp: ["niicooʼowuʼ", "niːtʃoːʔowuʔ"],
+    arp: ["niicooʼówuʼ", "niːtʃoːʔówuʔ"],
     nhx: ["istaꞌ", "istaʔ"],
     hch: ["ʼuna", "ʔuna"],
     crn: ["unaj", "unah"],

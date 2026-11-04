@@ -941,7 +941,7 @@ WORDS.house = {
     apw: ["kįh", "kĩh"],
     dak: ["thípi", "tʰípi"],
     chy: ["mȧhēōʼo", "maheoʔo"],
-    arp: ["hoʼóowuʼ", "hoʔóowuʔ"],
+    arp: ["hoʼóowúʼ", "hoʔóowúʔ"],
     kio: ["tó:", "tóː"],
     lmo: ["cà", "kaː"],
     pms: ["ca", "ka"],

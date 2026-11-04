@@ -608,7 +608,7 @@ WORDS.snow = {
     apw: ["zas", "zas"],
     dak: ["wá", "wá"],
     chy: ["héstaʼse", "héstaʔse"],
-    arp: ["híii", "híiː"],
+    arp: ["híií", "híií"],
     lmo: ["nev", "neːf"],
     pms: ["fiòca", "ˈfjɔka"],
     mwl: ["niebe", "ˈnjeβɨ"],

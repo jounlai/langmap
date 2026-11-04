@@ -809,7 +809,7 @@ WORDS.heart = {
     tet: ["fuan", "fuan"],
     aoz: ["nekaf", "nekaf"],
     bi: ["hat", "hat"],
-    pjt: ["kurunpa", "kurunpa"],
+    pjt: ["kuṯuṯu", "kuʈuʈu"],
     wbp: ["rduku-rduku", "ɽukuɽuku"],
     piu: ["kututu", "kututu"],
     aer: ["atyenge", "atʲɛŋe"],

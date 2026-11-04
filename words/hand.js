@@ -766,7 +766,7 @@ WORDS.hand = {
     arn: ["kuwü", "kuwɨ"],
     cr: ["ᒥᒋᐦᒋᕀ", "mitʃihtʃij"],
     chp: ["ela", "ela"],
-    oj: ["ninij", "ninidʒ"],
+    oj: ["nininj", "ninindʒ"],
     atj: ["otcitcinan", "otʃitʃinan"],
     mic: ["ugpitn", "ukpidən"],
     pqm: ["ʼpihtin", "pihtin"],

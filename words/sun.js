@@ -940,7 +940,7 @@ WORDS.sun = {
     apw: ["yaʼáí", "jaʔáí"],
     dak: ["aŋpétuwí", "ãpétuwí"],
     chy: ["éšeʼhe", "éʃeʔhe"],
-    arp: ["hiisíis", "hiːsíis"],
+    arp: ["hiisíís", "hiːsíːs"],
     kio: ["pái", "páj"],
     lmo: ["sô", "su"],
     pms: ["sol", "sul"],

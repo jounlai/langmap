@@ -1508,7 +1508,7 @@ WORDS.blue = {
     ab: ["аиаҵәа", "ajatsʷʼa"],  // Abkhaz аҽҵәа vs ашьацԥшҭәала / аеҵәа. // was ["аҽҵәа", "ɑʈʂʰtsʼʷɑ"] (r29 fix 2026-10-02) // was ["аиаҵәа", "ajatsʼʷa"] (vi dialect rules 2026-10-06)
     acn: ["səm31", "səm˧˩"],  // Achang (Longchuan) səm³¹ against ȵau⁵⁵ 'green'.
     ady: ["шхъуантӏэ", "ʃχʷaːnˈtʼa"],  // Adyghe шхъуантӏэ is given by NorthEuraLex for BOTH blue and green — the standard West Caucasian single cool-range term.
-    aer: ["atherrke", "at̪erke"],  // Eastern Arrernte atherrke is documented as covering green including some shades of blue (and of yellow). Arrernte has no basic blue term; this is the cool-range word, and the row's other colour cells show the same small inventory.
+    aer: ["atherrke", "at̪eɾke"],  // Eastern Arrernte atherrke is documented as covering green including some shades of blue (and of yellow). Arrernte has no basic blue term; this is the cool-range word, and the row's other colour cells show the same small inventory.
     af: ["blou", "bləu"],  // Afrikaans blou against groen.
     agx: ["куюлед", "kujuˈled"],  // Aghul куюлед vs гӏазед (Koshan dialect). The IDS main Aghul entry has only the phrase завун ранг алеф 'having the colour of the sky', so the simple adjective is taken from the dialect entry.
     ak: ["tuntum", "tuntum"],  // Akan basic system is the three-term one already in this row (kɔkɔɔ / fitaa / tuntum); Christaller states explicitly that tuntum covers dark blue and dark green as well as black. Blue-specific words exist beside it: bruu/bru (< English 'blue'), bibiri 'dark-blue indigo cloth/colour', hoa 'light blue'. Modern everyday sky-blue is usually bruu; the basic-term answer is tuntum.

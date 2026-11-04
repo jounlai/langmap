@@ -589,5 +589,6 @@ WORDS.cockcrow = {
     ar: ["كُوكُوكُوكُو", "kuːkuːkuːkuː"],
     zh_yuan: ["喈喈", "kiai kiai"],
     shn: ["ဢုၵ်ႉၵလုၼ်းဢုၵ်ႈ", "ʔuk˦˨ˀ ka˨˦ lun˥ ʔuk˧˨"],  // Glossed 'crowing of a rooster, cockadoodledoo!' in the SEAlang Shan dictionary; a young rooster's crow is ဢႅၵ်ႉၵလႅၼ်းဢႅၵ်ႉ.
+    vi_han: ["喈喈", "zaːj˧˧ zaːj˧˧"],  // Shijing, 'Fēng yǔ': 風雨淒淒，雞鳴喈喈 'wind and rain, chill and cold; the cock crows jiē jiē'; Hán Việt giai giai.
   },
 };

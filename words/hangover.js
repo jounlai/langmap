@@ -189,5 +189,9 @@ WORDS.hangover = {
     bs: ["mahmurluk", "maxˈmurluk"],  // Borrowed from Ottoman Turkish mahmurluk 'hangover'; Croatian and Serbian have the h-less mamurluk.
     km: ["ធីងធោងឈឺក្បាល", "tʰiːŋ tʰoːŋ cʰɨː kɓaːl"],  // Literally 'dizzy + headache' (ធីងធោង + ឈឺក្បាល).
     ckv: ["kurazu", "kurazu"],  // Kavalan word for a hangover.
+    zh_tang: ["酲", "ɖiajŋ"],  // Being sick from drink: Shijing 憂心如酲 'my grieving heart is like a hangover'; the Shuowen defines 酲 as 病酒也 'sick from wine'.
+    zh_wenyan_edu: ["酲", "tsʰɪŋ˨˩"],  // Being sick from drink: Shijing 憂心如酲; Shuowen 酲，病酒也. Cantonese cing4.
+    vi_han: ["酲", "tɕiɲ˨˩"],  // Being sick from drink: Shijing 憂心如酲; Shuowen 酲，病酒也. Hán Việt trình.
+    zh_han: ["酲", "lheŋ"],  // Shuowen 酲，病酒也 'sick from wine'; the Hanshu (Liyue zhi) has 柘漿析朝酲 'cane juice cures the morning hangover'.
   },
 };

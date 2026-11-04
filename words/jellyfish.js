@@ -256,6 +256,9 @@ WORDS.jellyfish = {
     ain: "plain",
     ojp: "plain",
     ja_heian: "plain",
+    zh_tang: "mother",
+    zh_wenyan_edu: "mother",
+    vi_han: "mother",
   },
   routes: {
     medusa: {"color":"#7c3aed","emoji":"🐍","en":"named after Medusa","ja":"メドゥーサにちなむ","ko":"메두사에서","zh":"源自美杜莎","yue":"源自美杜莎","vi":"theo tên Medusa","th":"ตั้งตามเมดูซา","id":"dari nama Medusa","hi":"मेडूसा के नाम पर","de":"nach Medusa","fr":"d'après Méduse","it":"da Medusa","es":"por Medusa","pt":"por Medusa","ru":"по имени Медузы","uk":"за ім'ям Медузи","ar":"على اسم ميدوسا","he":"על שם מדוזה","sw":"kwa jina la Medusa"},
@@ -456,5 +459,8 @@ WORDS.jellyfish = {
     ain: ["フンペエトㇿ", "hunpeetoɾ"],  // Ainu word for the jellyfish (hunpeetor); dialect forms フㇺペエトㇿ, フㇺペートㇿ.
     ojp: ["水母", "kuraɡe"],  // Old Japanese kurage; NKD's first example is the Kojiki (712) account of the young land floating 'like oil' and drifting like a jellyfish.
     ja_heian: ["水母", "kuraɡe"],  // Heian example: Makura no sōshi (late 10th c.) 'くらげのななり' ('it must be a jellyfish's [bone]').
+    zh_tang: ["水母", "ɕwi məw"],  // Literally 'water mother'; Guo Pu's Jiang fu (4th c.) has 水母目蝦, and the Tang Lingbiao luyi has an entry 水母.
+    zh_wenyan_edu: ["水母", "sɵy˧˥ mou˩˧"],  // Literally 'water mother'; Guo Pu's Jiang fu (4th c.) has 水母目蝦.
+    vi_han: ["水母", "tʰwi˧˩˧ məw˧˧ˀ˥"],  // Literally 'water mother'; Guo Pu's Jiang fu (4th c.) has 水母目蝦. Hán Việt thủy mẫu.
   },
 };

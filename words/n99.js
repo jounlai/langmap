@@ -793,6 +793,7 @@ WORDS.n99 = {
     hi: "opaque", bn: "opaque", ur: "opaque",
     ttq: "mult",
     zh_jiao: "mult",
+    zh_wenyan_edu: "mult",
   },
   routes: {
     dec: {
@@ -1599,5 +1600,6 @@ WORDS.n99 = {
     tsz: ["tʼámu ekuatse témpeni iúmu tʼámu", "ˈtʰamu ekʷatse ˈtempeni ˈjumu ˈtʰamu"],
     ttq: ["tazayat tǝmǝrwen ǝd tazayat", "tæzˤajæt təmərwen əd tæzˤajæt"],  // 'Nine tens and nine', feminine to agree with tilay 'sheep'; the masculine nine is tăẓa.
     zh_jiao: ["九十九", "tɕiou˥˥ ʃɿ˦˨ tɕiou˥˥"],
+    zh_wenyan_edu: ["九十九", "kɐu˧˥ sɐp˨ kɐu˧˥"],  // Nine tens and nine, as in the other Classical rows; Cantonese gau2 sap6 gau2.
   }
 };

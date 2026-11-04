@@ -240,6 +240,10 @@ WORDS.wisdomtooth = {
     ja_chu: "other",
     shn: "other",
     lo: "age",
+    zh_tang: "other",
+    zh_wenyan_edu: "other",
+    vi_han: "other",
+    zh_han: "other",
   },
   routes: {
     wisdom: {"color":"#7c3aed","emoji":"🦉","en":"wisdom · sense","ja":"知恵・分別","ko":"지혜 · 분별","zh":"智慧・理智","yue":"智慧 · 理智","vi":"trí khôn · sự hiểu biết","th":"ปัญญา · ความรู้คิด","id":"kebijaksanaan · akal","hi":"बुद्धि · अक़्ल","de":"Weisheit · Verstand","fr":"sagesse · raison","it":"saggezza · giudizio","es":"sabiduría · juicio","pt":"sabedoria · siso","ru":"мудрость · разум","uk":"мудрість · розум","ar":"الحكمة · العقل","he":"חוכמה · בינה","sw":"busara · akili"},
@@ -423,5 +427,9 @@ WORDS.wisdomtooth = {
     ja_chu: ["親不知", "ojaɕiɾazu"],  // 'Unknown to the parents', short for oyashirazu-ba; NKD cites it from the Jesuit Latin-Portuguese-Japanese dictionary (1595).
     shn: ["ၶဵဝ်ႈၸိမ်", "kʰew˧˨ tsim˨˦"],  // Literally 'wedge tooth': ၶဵဝ်ႈ 'teeth' + ၸိမ် 'wedge' (SEAlang Shan dictionary, which glosses it 'wisdom tooth').
     lo: ["ແຂ້ວຊາວ", "kʰɛːw˧˩ saːw˧˥"],  // Literally 'twenty tooth': ແຂ້ວ 'tooth' + ຊາວ 'twenty' (SEAlang Lao dictionary).
+    zh_tang: ["真牙", "cin ŋaɨ"],  // Literally 'true teeth'; the Suwen says they grow at 21 in women, and the Tang commentator Wang Bing explains 真牙謂牙之最後生者 'the teeth that grow last'.
+    zh_wenyan_edu: ["真牙", "tsɐn˥ ŋaː˨˩"],  // Literally 'true teeth'; Suwen 三七腎氣平均，故真牙生而長極, explained by Wang Bing as 'the teeth that grow last'.
+    vi_han: ["真牙", "tɕən˧˧ ɲaː˧˧"],  // Literally 'true teeth'; Suwen 故真牙生而長極, 'the teeth that grow last' (Wang Bing). Hán Việt chân nha.
+    zh_han: ["真牙", "ćǝn ŋrǟ"],  // Literally 'true teeth'; Suwen 三七腎氣平均，故真牙生而長極, 'the teeth that grow last' (Wang Bing).
   },
 };

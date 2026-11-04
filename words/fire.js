@@ -209,7 +209,7 @@ WORDS.fire = {
     bn: ["আগুন", "aɡun"],
     rkt: ["আগুন", "aɡun"],
     ur: ["آگ", "aːɡ"],
-    ta: ["தீ", "t̪iː"],
+    ta: ["நெருப்பு", "neɾupːɯ"],
     iru: ["tī", "tiː"],
     en: ["fire", "faɪə"],
     en_scouse: ["fire", "faɪə"],

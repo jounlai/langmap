@@ -362,7 +362,7 @@ WORDS.blood = {
     to: ["toto", "toto"],
     pau: ["rasech", "ɾaˈsəʔ"],
     sd: ["رت", "rət"],
-    pa: ["ਖ਼ੂਨ", "xuːn"],
+    pa: ["ਲਹੂ", "ləuː˥˩"],
     pnb: ["لہو", "ləɦuː"],
     ne: ["रगत", "rʌɡʌt"],
     dty: ["रगत", "rəɡət"],

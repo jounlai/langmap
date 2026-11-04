@@ -209,7 +209,7 @@ WORDS.water = {
     bn: ["জল", "dʒɔl"],
     rkt: ["পানি", "pani"],
     ur: ["پانی", "paːniː"],
-    ta: ["நீர்", "niːɾ"],
+    ta: ["தண்ணீர்", "t̪aɳːiːɾ"],
     iru: ["nīr", "niːɾ"],
     en: ["water", "ˈwɔːtə"],
     en_scouse: ["water", "ˈwɔːt̪sə"],

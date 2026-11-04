@@ -570,7 +570,7 @@ WORDS.white = {
     mai: ["उज्जर", "udʒdʒər"],
     anp: ["उज्जर", "udʒdʒər"],
     awa: ["सपेत", "səpet"],
-    thr: ["सफेद", "səpʰeːd"],
+    thr: ["सेतो", "seːto"],
     bra: ["सेत", "seːt"],
     skr: ["چٹا", "tʃɪʈːaː"],
     sat: ["ᱯᱳᱱᱰ", "ponɖ"],

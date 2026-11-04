@@ -373,6 +373,7 @@ WORDS.dragonfly = {
     pmi: "plain",
     qxs: "plain",
     kac: "plain",
+    twm: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -691,5 +692,6 @@ WORDS.dragonfly = {
     pmi: ["tɕɨ53gua55tso35tso35", "tɕɨ˥˧ɡua˥˥tso˧˥tso˧˥"],  // Sun 1991 (Taoba Pumi) tɕɨ⁵³gua⁵⁵tso³⁵tso³⁵. Surface and tone letters follow the row's pattern.
     qxs: ["tshinthin", "tsʰin˥˥tʰin˧˩"],  // Sun 1991 (Taoping Qiang) tshin⁵⁵thin³¹. Surface and tone letters follow the row's pattern.
     kac: ["hka nsen", "kʰaʔ˧˩n̩˧˩sen˧˩"],  // Sun 1991 (Jingpho) khaʔ³¹n³¹sen³¹. Latin spelling follows the row's pairs; the source is IPA.
+    twm: ["tiŋ55tse55mɛ31", "tiŋ˥˥tse˥˥mɛ˧˩"],  // Sun 1991 (Mama Tshona) tiŋ⁵⁵tse⁵⁵mɛ³¹, the row's list. Tone letters from the row's pairs.
   },
 };

@@ -790,6 +790,7 @@ WORDS.thunder = {
     cng: "plain",
     lic: "plain",
     gqu: "plain",
+    twm: "plain",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1526,5 +1527,6 @@ WORDS.thunder = {
     cng: ["mərgu", "mərɡu"],  // Sun 1991 (Mawo Qiang) mərgu. Surface and tone letters follow the row's pattern.
     lic: ["ȵa:m3", "ȵaːm˩˩"],  // IDS Hlai (Baoting) ńa:m.3, beside ʔom.1. Tone letters from the row's pairs.
     gqu: ["mo35 zo35", "mo˧˥ zo˧˥"],  // IDS Qau Kelao, already the source of several cells in this row, though the row's base list is another variety. mo.35 zo.35.
+    twm: ["bruʔ53", "bruʔ˥˧"],  // Sun 1991 (Mama Tshona) bruʔ⁵³, the row's list. Tone letters from the row's pairs.
   },
 };

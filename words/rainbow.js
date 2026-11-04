@@ -785,6 +785,10 @@ WORDS.rainbow = {
     qxs: "plain",
     cng: "plain",
     gqu: "plain",
+    twm: "plain",
+    swi: "plain",
+    hni: "plain",
+    mrw: "plain",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1513,5 +1517,9 @@ WORDS.rainbow = {
     qxs: ["χməqutsu", "χmə˥˥qu˧˩tsu˧˧"],  // Sun 1991 (Taoping Qiang) χmə⁵⁵qu³¹tsu³³. Surface and tone letters follow the row's pattern.
     cng: ["muʁutsəthi", "muʁutsətʰi"],  // Sun 1991 (Mawo Qiang) muʁutsəthi. Surface and tone letters follow the row's pattern.
     gqu: ["ɕi35 pja42", "ɕi˧˥ pja˦˨"],  // IDS Qau Kelao, already the source of several cells in this row, though the row's base list is another variety. śi.35 pja.42.
+    twm: ["ȵᴀ53", "ȵᴀ˥˧"],  // Sun 1991 (Mama Tshona) ȵᴀ⁵³, the row's list. Tone letters from the row's pairs.
+    swi: ["ka1 ȶje1 nam3", "ka˩˩ ȶje˩˩ nam˧˧"],  // IDS Sui ka.1 cje.1 nam.3; c written ȶ as the row has it. Tone letters from the row's pairs.
+    hni: ["beidollulcuq", "be˧˧do˥˥lu˥˥tsʰu˧˩"],  // Satterthwaite-Phillips list, Hani, bei dol lul cuq, printed in Haqniqdoq spelling. That list agrees with Sun's Dazhai on bat and liquor. IPA from the row's pairs.
+    mrw: ["boloto", "boloto"],  // Page image p.116: "BOLOTO  RAINBOW. Kaoto o boloto, there is a rainbow"; also PAGAIAO, same on p.334
   },
 };

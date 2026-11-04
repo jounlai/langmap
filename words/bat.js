@@ -677,6 +677,8 @@ WORDS.bat = {
     pmi: "plain",
     nuf: "plain",
     qxs: "plain",
+    twm: "plain",
+    clk: "plain",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1299,5 +1301,7 @@ WORDS.bat = {
     pmi: ["ɕõ35gue55pa55pa55", "ɕõ˧˥ɡue˥˥pa˥˥pa˥˥"],  // Sun 1991 (Taoba Pumi) ɕõ³⁵gue⁵⁵pa⁵⁵pa⁵⁵. Surface and tone letters follow the row's pattern.
     nuf: ["tɕhyi31zɑ53", "tɕʰyi˧˩zɑ˥˧"],  // Sun 1991 (Bijiang Nusu) tɕhyi³¹zɑ⁵³. Surface and tone letters follow the row's pattern.
     qxs: ["tshɿχkəmə", "tsʰɿ˥˥χkə˧˧mə˧˧"],  // Sun 1991 (Taoping Qiang) tshɿ⁵⁵χkə³³mə³³. Surface and tone letters follow the row's pattern.
+    twm: ["pᴀ13me53loŋ13", "pᴀ˩˧me˥˧loŋ˩˧"],  // Sun 1991 (Mama Tshona) pᴀ¹³me⁵³loŋ¹³, the row's list. Tone letters from the row's pairs.
+    clk: ["kɑ55pɯu55", "kɑ˥˥pɯu˥˥"],  // Sun 1991 (Idu) kɑ⁵⁵pɯu⁵⁵, the row's list. Tone letters from the row's pairs.
   },
 };

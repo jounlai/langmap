@@ -1121,7 +1121,7 @@ WORDS.red = {
     wbm: ["raoh", "rauh"],
     srh: ["reesht", "ɾɵɕt"],
     blr: ["sa31 khak33", "sa˧˩ kʰak˧˧"],
-    rbb: ["—", "—"],
+    rbb: ["ron", "ron"],
     pll: ["kho", "kʰo"],
     ahk: ["ne", "ne˥"],
     dtp: ["aragang", "araɡaŋ"],

@@ -561,6 +561,9 @@ WORDS.potato = {
     mlm: "unknown",
     lic: "unknown",
     grt: "other",
+    twm: "unknown",
+    clk: "unknown",
+    nij: "other",
   },
   routes: {
     papa: {"color":"#ca8a04","emoji":"🏔️","en":"Quechua papa · Taíno batata","ja":"ケチュア語 papa・タイノ語 batata","ko":"케추아어 papa · 타이노어 batata","zh":"克丘亚语 papa・泰诺语 batata","yue":"克丘亞語 papa · 泰諾語 batata","vi":"Quechua papa · Taíno batata","th":"เกชัว papa · ไตโน batata","id":"Quechua papa · Taíno batata","hi":"क्वेचुआ papa · ताइनो batata","de":"Quechua papa · Taíno batata","fr":"quechua papa · taïno batata","it":"quechua papa · taíno batata","es":"quechua papa · taíno batata","pt":"quíchua papa · taíno batata","ru":"кечуа papa · таино batata","uk":"кечуа papa · таїно batata","ar":"كيتشوا papa · تاينو batata","he":"קצ'ואה papa · טאינו batata","sw":"Kiquechua papa · Kitaino batata"},
@@ -1063,5 +1066,8 @@ WORDS.potato = {
     mlm: ["man2", "man˩˨˩"],  // IDS Mulam man.2, the row's list. Tone letters from the row's pairs.
     lic: ["man1", "man˥˧"],  // IDS Hlai (Baoting) man.1. Tone letters from the row's pairs.
     grt: ["alu", "alu"],  // 1905: "Potato, n. Alu"
+    twm: ["che53", "che˥˧"],  // Sun 1991 (Mama Tshona) che⁵³, the row's list. Tone letters from the row's pairs.
+    clk: ["gɯ55lu35", "ɡɯ˥˥lu˧˥"],  // Sun 1991 (Idu) gɯ⁵⁵lu³⁵, the row's list. Tone letters from the row's pairs.
+    nij: ["kentang", "kəntaŋ"],  // Hardeland: "KANTANG, kentang, Kartoffeln (wachsen auf Borneo nicht)"; both scans
   },
 };

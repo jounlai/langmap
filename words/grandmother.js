@@ -705,6 +705,8 @@ WORDS.grandmother = {
     qxs: "unknown",
     cng: "unknown",
     gqu: "unknown",
+    twm: "unknown",
+    clk: "unknown",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -1354,5 +1356,7 @@ WORDS.grandmother = {
     qxs: ["lailai", "lai˥˥lai˧˧"],  // Sun 1991 (Taoping Qiang) lai⁵⁵lai³³. Surface and tone letters follow the row's pattern.
     cng: ["əu", "əu"],  // Sun 1991 (Mawo Qiang) əu. Surface and tone letters follow the row's pattern.
     gqu: ["ta13 ȵa35", "ta˩˧ ȵa˧˥"],  // IDS Qau Kelao, already the source of several cells in this row, though the row's base list is another variety. ta.13 ńa.35.
+    twm: ["ʔᴀi53", "ʔᴀi˥˧"],  // Sun 1991 (Mama Tshona) ʔᴀi⁵³, the row's list. Tone letters from the row's pairs.
+    clk: ["nɑ55jɑ55", "nɑ˥˥jɑ˥˥"],  // Sun 1991 (Idu) nɑ⁵⁵jɑ⁵⁵, the row's list. Tone letters from the row's pairs.
   },
 };

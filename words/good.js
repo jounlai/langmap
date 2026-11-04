@@ -1188,7 +1188,7 @@ WORDS.good = {
     wbm: ["mhawm", "m̥ɔm"],
     srh: ["charj", "tɕaɾdʑ"],
     blr: ["nhɔm33", "n̥ɔm˧˧"],
-    rbb: ["—", "—"],
+    rbb: ["pen", "pen"],
     pll: ["laʔ", "laʔ"],
     ahk: ["mui", "mɯ˨˩"],
     dtp: ["osonong", "osonoŋ"],

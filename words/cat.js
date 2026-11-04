@@ -990,7 +990,7 @@ WORDS.cat = {
     sas: ["meong", "meoŋ"],
     kha: ["u miaw", "u miau"],
     mns: ["кати", "kati"],
-    mrw: ["pusa", "pusa"],
+    mrw: ["bedong", "bədoŋ"],
     tsg: ["kuting", "kutiŋ"],
     yap: ["katuu", "katuː"],
     chk: ["kkááset", "kːaːset"],

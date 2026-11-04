@@ -502,6 +502,7 @@ WORDS.littlefinger = {
     gil: "plain",
     roo: "child",
     cbk: "plain",
+    nij: "plain",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -949,5 +950,6 @@ WORDS.littlefinger = {
     gil: ["ukire", "ukire"],  // Bingham "Ukire, n. the little finger, the little toe"
     roo: ["kokorai kova", "kokoɾai koβa"],  // "little finger or toe. Meaning the last to be born"
     cbk: ["kalamangking", "kalamaŋˈkiŋ"],  // Composite: "kalingking, the little finger", ZM kalamangking
+    nij: ["tunjuk angking", "tundʒuk aŋkiŋ"],  // Hardeland: "ANGKING, tundjuk angking, der kleine Finger", repeated under TUNDJOK; both scans; dj > j as in the row
   },
 };

@@ -881,6 +881,7 @@ WORDS.yesterday = {
     pmi: "distinct",
     qxs: "distinct",
     gqu: "distinct",
+    twm: "distinct",
   },
   routes: {
     same: {"color":"#db2777","emoji":"🔁","en":"one word for yesterday and tomorrow","ja":"昨日と明日が同じ語","ko":"어제와 내일이 한 낱말","zh":"昨天和明天同一个词","yue":"尋日同聽日同一個詞","vi":"một từ cho hôm qua và ngày mai","th":"คำเดียวทั้งเมื่อวานและพรุ่งนี้","id":"satu kata untuk kemarin dan besok","hi":"बीते और आने वाले कल का एक शब्द","de":"ein Wort für gestern und morgen","fr":"un mot pour hier et demain","it":"una parola per ieri e domani","es":"una palabra para ayer y mañana","pt":"uma palavra para ontem e amanhã","ru":"одно слово для вчера и завтра","uk":"одне слово для учора й завтра","ar":"كلمة واحدة لأمس وغد","he":"מילה אחת לאתמול ולמחר","sw":"neno moja kwa jana na kesho"},
@@ -1707,5 +1708,6 @@ WORDS.yesterday = {
     pmi: ["ʑɐ35n̥ə55", "ʑɐ˧˥n̥ə˥˥"],  // Sun 1991 (Taoba Pumi) ʑɐ³⁵n̥ə⁵⁵. Surface and tone letters follow the row's pattern.
     qxs: ["ȵisie", "ɲi˧˩sie˧˧"],  // Sun 1991 (Taoping Qiang) ȵi³¹sie³³. Surface and tone letters follow the row's pattern.
     gqu: ["te13 he35", "te˩˧ he˧˥"],  // IDS Qau Kelao, already the source of several cells in this row, though the row's base list is another variety. te.13 he.35.
+    twm: ["dᴀŋ13", "dᴀŋ˩˧"],  // Sun 1991 (Mama Tshona) dᴀŋ¹³, the row's list. Tone letters from the row's pairs.
   },
 };

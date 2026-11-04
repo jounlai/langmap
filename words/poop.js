@@ -958,5 +958,6 @@ WORDS.poop = {
     mlm: ["uk7 ćɛ3", "uk˥˥ tɕɛ˥˧"],  // From the same IDS list as the rest of the row.
     kmc: ["soŋ53 qe31", "soŋ˥˧ qe˧˩"],  // From the same IDS list as the rest of the row.
     lic: ["ha:i3", "haːi˩˩"],  // From the same IDS list as the rest of the row.
+    ii: ["ꐔ", "tɕʰɿ˧˧"],  // Sun 1991 (Xide Yi) tɕhɿ³³. Gloss 'excrement'. Yi syllables chosen by me from Unicode names, using the sound-to-syllable pairs in the row (m̩ = MU, he = HXIE, 44 = X, 21 = P); no Yi-script source. Check font and spelling. Satterthwaite-Phillips prints qy, glossed shit.
   },
 };

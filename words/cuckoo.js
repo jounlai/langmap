@@ -562,5 +562,6 @@ WORDS.cuckoo = {
     kl: ["kuukooq", "kuːkoːq"],
     trv: ["pupuk", "pupuk"],
     kha: ["ka khap-snem", "ka kʰap snem"],  // English-Khasi 1920: "Cuckoo, n. Ka khap-snem; ka khap-tod"; OCR b for h
+    mrw: ["tikoko", "tikoko"],  // Page image p.507: "TIKOKO  CUCKOO /red bird with black tail/"
   },
 };

@@ -1150,7 +1150,7 @@ WORDS.grandmother = {
     ext: ["agüela", "aˈɣwela"],  // Extremaduran agüela, with the b of Spanish abuela turned into g; one word for either grandmother.
     crk: ["ᓅᐦᑯᒼ", "noːhkom"],  // 'My grandmother', used for either grandmother; the address form is nôhkô!.
     mdf: ["баба", "ˈbaba"],  // Sources disagree: one gives baba for the father's mother only, another uses baba for both, with vasolo baba 'far grandmother' for the mother's mother.
-    nan_te: ["阿妈", "a˧˧ ma˥˨"],  // Father's mother, distinguished by tone from 阿妈 a1 ma5 'mother'; mother's mother: 外妈 'outside grandma'.
+    nan_te: ["阿嬤", "a˧˧ ma˥˨"],  // Father's mother, distinguished by tone from 阿妈 a1 ma5 'mother'; mother's mother: 外妈 'outside grandma'.
     nan_xm: ["阿妈", "a˦˦ ma˥˧"],  // Father's mother (also used loosely for both); mother's mother: 外妈 guā-má, 'outside grandma'.
     nan_zz: ["阿妈", "a˦˦ ma˥˧"],  // Father's mother (also used loosely for both); mother's mother: 外妈 guā-má, 'outside grandma'.
     wuu_nb: ["阿娘", "ɐʔ˥˥ ȵiã˧˩˧"],  // Father's mother (in Ningbo 阿娘 is the grandmother, while mother is 阿姆); mother's mother: 外婆, 'outside grandmother'.

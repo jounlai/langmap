@@ -542,7 +542,7 @@ WORDS.drink = {
     kim: ['иъжер', 'iʔʒer'],
     tpn: ['ʼu', 'ʔu'],
     uln: ["trinken", "ˈtriŋkɛn"],
-    wmt: ["ngarnu", "ŋaɳu"],
+    wmt: ["nganyja", "ŋaɲca"],
     wuu_hz: ["吃", "tɕʰioʔ˥"],
     xag: ["uɣ-", "uɣ"],
     xfa: ['pipafo', 'ˈpipafoː'],

@@ -7,8 +7,10 @@
  *   the reader's UI language — or null before the calendar existed.
  *
  * Intl (`ca=` keys) supplies the arithmetic for japanese, roc, buddhist,
- * chinese, dangi, hebrew, islamic-umalqura, persian, indian, ethiopic and
- * coptic, so leap months and month lengths are ICU's. Intl is NOT trusted
+ * hebrew, persian, indian, ethiopic and coptic, so leap months and month
+ * lengths are ICU's. Chinese, dangi and islamic-umalqura come from month
+ * tables in this file, with ICU only outside the Umm al-Qura table's range.
+ * Intl is NOT trusted
  * for wording: Chrome prints "ERA1" for the Ethiopian era and "M08" for
  * Chinese months in most locales, so every UI-language string is built
  * from timemap_i18n/<lang>.js (month names, year templates, date order).
@@ -624,7 +626,7 @@
     const MN_ANIMAL = ['хулганан', 'үхэр', 'бар', 'туулай', 'луу', 'могой', 'морин', 'хонин', 'бичин', 'тахиа', 'нохой', 'гахай'];
     const MM_MONTHS = ['ပဌမဝါဆို', 'တန်ခူး', 'ကဆုန်', 'နယုန်', 'ဝါဆို', 'ဝါခေါင်', 'တော်သလင်း', 'သီတင်းကျွတ်', 'တန်ဆောင်မုန်း', 'နတ်တော်', 'ပြာသို',
                        'တပို့တွဲ', 'တပေါင်း', 'နှောင်းတန်ခူး', 'နှောင်းကဆုန်', 'ဒုတိယဝါဆို'];
-    const KH_MONTHS = ['មិគសិរ', 'បុស្ស', 'មាឃ', 'ផល្គុន', 'ចេត្រ', 'ពិសាខ', 'ជេស្ឋ', 'អាសាឍ', 'ស្រាពណ៍', 'ភទ្របទ', 'អស្សុជ', 'កត្ដិក', 'បឋមាសាឍ', 'ទុតិយាសាឍ'];
+    const KH_MONTHS = ['មិគសិរ', 'បុស្ស', 'មាឃ', 'ផល្គុន', 'ចេត្រ', 'ពិសាខ', 'ជេស្ឋ', 'អាសាឍ', 'ស្រាពណ៍', 'ភទ្របទ', 'អស្សុជ', 'កត្តិក', 'បឋមាសាឍ', 'ទុតិយាសាឍ'];
     const KH_DAYS = ['អាទិត្យ', 'ចន្ទ', 'អង្គារ', 'ពុធ', 'ព្រហស្បតិ៍', 'សុក្រ', 'សៅរ៍'];
     // Tibetan-family date for a Gregorian day; the calendar year Y is the Gregorian year Losar falls in.
     function tibDate(variant, g) {

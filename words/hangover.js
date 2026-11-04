@@ -193,5 +193,7 @@ WORDS.hangover = {
     zh_wenyan_edu: ["酲", "tsʰɪŋ˨˩"],  // Being sick from drink: Shijing 憂心如酲; Shuowen 酲，病酒也. Cantonese cing4.
     vi_han: ["酲", "tɕiɲ˨˩"],  // Being sick from drink: Shijing 憂心如酲; Shuowen 酲，病酒也. Hán Việt trình.
     zh_han: ["酲", "lheŋ"],  // Shuowen 酲，病酒也 'sick from wine'; the Hanshu (Liyue zhi) has 柘漿析朝酲 'cane juice cures the morning hangover'.
+    tay: ["sqʼyan", "sqʔjan"],  // Squliq Atayal word for a hangover.
+    bnn: ["dungul", "duŋul"],  // Isbukun Bunun (郡群) word for a hangover; also dungulan.
   },
 };

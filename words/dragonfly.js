@@ -287,6 +287,13 @@ WORDS.dragonfly = {
     ssf: "plain",
     ojp: "plain",
     ja_heian: "plain",
+    tay: "plain",
+    bnn: "plain",
+    dru: "plain",
+    pyu: "plain",
+    tsu: "plain",
+    szy: "plain",
+    tao: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -519,5 +526,12 @@ WORDS.dragonfly = {
     ssf: ["tambalawan", "tambalawan"],  // Thao word for the dragonfly.
     ojp: ["蜻蛉", "akidu"],  // Old Japanese akidu (later akitu): the Kojiki (712) glosses its 蜻蛉 'to be read 阿岐豆 a-ki-du'; the Man'yōshū also has the place name 秋津.
     ja_heian: ["蜻蛉", "toubau"],  // Heian example: Ryōjin hishō (c. 1179) 居よ居よとうばうよ 'stay, stay, dragonfly'; NKD also lists kagerofu and enba as Heian words for the dragonfly, before tonbō.
+    tay: ["klosan", "klosan"],  // Squliq Atayal word for the dragonfly.
+    bnn: ["salinhanuaz", "salinhanuað"],  // Isbukun Bunun (郡群) word for the dragonfly; also salinghanuaz.
+    dru: ["sarukaabisi", "saɾukaabisi"],  // Budai (霧台) Rukai word for the dragonfly.
+    pyu: ["tibalrbalr", "tibalbal"],  // Nanwang (南王) Puyuma word for the dragonfly.
+    tsu: ["toivaʼvaʼa", "toivaʔvaʔa"],  // Tsou word for the dragonfly.
+    szy: ["beded", "bədəd"],  // Sakizaya word for the dragonfly.
+    tao: ["ponay", "ponaj"],  // Yami (Tao) word for the dragonfly.
   },
 };

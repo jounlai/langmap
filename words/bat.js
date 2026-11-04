@@ -652,6 +652,7 @@ WORDS.bat = {
     iba: "plain",
     aoz: "plain",
     zh_han: "plain",
+    ckv: "plain",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1249,5 +1250,6 @@ WORDS.bat = {
     iba: ["kusing", "kusiŋ"],  // Iban word for the bat in Leviticus 11:19, Deuteronomy 14:18 and Isaiah 2:20 ('to the moles and to the bats': jelu chuik enggau kusing).
     aoz: ["baʼu", "baʔu"],  // Atoni (Uab Meto) word for the bat; it closes the list of unclean birds in Leviticus 11:19 and Deuteronomy 14:18, where the Hebrew has the bat.
     zh_han: ["蝙蝠", "piān pwǝk"],  // Yang Xiong's Fangyan (Western Han): 蝙蝠 is the name used west of the passes (Qin and Long); east of the passes it is 服翼.
+    ckv: ["pelikid", "pəlikid"],  // Kavalan word for the bat (the dictionary's choice between pelikid and prikil).
   },
 };

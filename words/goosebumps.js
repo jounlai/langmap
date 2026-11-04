@@ -235,6 +235,9 @@ WORDS.goosebumps = {
     ja_chu: "bird",
     shn: "hair",
     vi_han: "other",
+    pwn: "plain",
+    pyu: "plain",
+    ssf: "plain",
   },
   family2: {
     ko: "bird",
@@ -418,5 +421,8 @@ WORDS.goosebumps = {
     ja_chu: ["鳥肌", "toɾihada"],  // 'Bird skin', like the skin of a plucked chicken; NKD cites it from the Vocabvlario (1603-04).
     shn: ["တုမ်ႇၶူၼ်ၼိူဝ်ႉ", "tum˩ kʰon˨˦ nɤː˦˨ˀ"],  // Glossed 'gooseflesh' in the SEAlang Shan dictionary: တုမ်ႇ 'bud, pimple' + ၶူၼ် 'body hair' + ၼိူဝ်ႉ 'flesh, skin'.
     vi_han: ["起粟", "xəːj˧˩˧ tuk͡p˧˥"],  // Literally 'to raise millet grains'; Su Shi: 凍合玉樓寒起粟. Hán Việt khởi túc.
+    pwn: ["magulu", "maɡuɭu"],  // North Paiwan word for goosebumps.
+    pyu: ["gerenas", "ɡərənas"],  // Nanwang (南王) Puyuma word for goosebumps.
+    ssf: ["kunhahumzash", "kunhahumðaʃ"],  // Thao word for goosebumps from sudden fright.
   },
 };

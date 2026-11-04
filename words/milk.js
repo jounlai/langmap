@@ -1171,5 +1171,7 @@ WORDS.milk = {
     gha: ["yeff", "jɐfː"],
     auj: ["aɣv", "aɣv"],  // The vowel between ɣ and v is optional (aɣəv).
     siz: ["axí", "aˈχi"],
+    pwn: ["tutu", "tutu"],  // North Paiwan tutu, glossed 女性胸部；奶 'breasts; milk'.
+    ckv: ["guling", "ɡuliŋ"],  // Kavalan word for (cow's) milk.
   },
 };

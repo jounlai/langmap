@@ -1250,7 +1250,7 @@ WORDS.drink = {
     mhy: ["ŋoʔot", "ŋoʔot"],
     gsw_als: ["trìnke", "trɪŋkə"],
     nan_ph: ["啉", "lim˧˧"],
-    aiw: ["—", "—"],
+    aiw: ["wochʼ", "wotʃʼ"],
     dzg: ["têi", "tèí"],  // Also 'feel, experience'.
     zag: ["jarì", "ɟaɾɪ"],  // Listed as jarì, kiyarí; the first form is given.
     ttq: ["ăšu", "æʃu"],  // Written ăšwu, pronounced ăšu in Tawəlləmmət (Prasse).

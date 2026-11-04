@@ -1069,7 +1069,7 @@ WORDS.dog = {
     srm: ["dágu", "dáɡu"],
     kwk: ["ʼwat̕si", "ʔwatsʼi"],
     blc: ["wacʼ", "watsʼ"],
-    sad: ["ǀɔɔ", "ǀɔː"],
+    sad: ["kaaka", "kaːka"],
     pcc: ["mal", "ma˨˦"],
     ium: ["juv", "tɕu˦"],
     hui: ["biango", "biaŋɡo"],

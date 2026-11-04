@@ -921,7 +921,7 @@ WORDS.water = {
     hts: ["atibii", "ʔatibiʔi"],
     nmn: ["ǃqhàa", "ǃqʰaː"],
     kr: ["nji", "ndʒi"],
-    men: ["njɛi", "ndʒɛi"],
+    men: ["nja", "ndʒa"],
     vai: ["ꕀ", "dʒi"],
     tem: ["mant", "mant"],
     dyu: ["ji", "dʒi"],

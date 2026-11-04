@@ -1250,7 +1250,7 @@ WORDS.eat = {
     mhy: ["kuman", "kuman"],
     gsw_als: ["ësse", "æsə"],
     nan_ph: ["食", "tsiaʔ˨˦"],
-    aiw: ["—", "—"],
+    aiw: ["its", "ʔits"],
     dzg: ["—", "—"],
     zag: ["serì", "sɛɾɪ"],  // Listed as serì, kiserí; the first form is given.
     ttq: ["atšu", "ætʃu"],

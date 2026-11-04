@@ -1211,7 +1211,7 @@ WORDS.white = {
     sdo: ["budaʼ", "budaʔ"],
     kio: ["tʼą́ydɔ́:", "tʼã́jdɔ́ː"],
     iru: ["velle", "velːe"],
-    aiw: ["tsaami", "tsaːmi"],
+    aiw: ["tsʼaami", "tsʼaːmi"],
     ja_rys: ["っすさーん", "ssusaːɴ"],
     mxv: ["yaa", "jaː"],
     dzg: ["cuu", "cʊ̀ʊ́"],

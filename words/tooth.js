@@ -963,7 +963,7 @@ WORDS.tooth = {
     iba: ["ngeliʼ", "ŋeliʔ"],
     ljp: ["ipon", "ipon"],
     tzm: ["ⵜⵉⵖⵎⴻⵙⵜ", "tiɣməst"],
-    tmh: ["ⵜⵉⵖⵎⴰⵙ", "tiɣmas"],
+    tmh: ["ⴻⵙⴻⵏ", "esen"],
     ng: ["eyego", "ejeɡo"],
     kj: ["eyoo", "ejoː"],
     umb: ["eyo", "ejo"],

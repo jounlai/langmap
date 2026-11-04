@@ -1164,7 +1164,7 @@ WORDS.rain = {
     olk: ["unyan", "uɲan"],
     fvr: ["kʋ̀y", "kʊ̀j"],
     anu: ["køth", "køt̪"],
-    men: ["njɛi", "ndʒɛi"],
+    men: ["nja", "ndʒa"],
     bsq: ["ní", "ní"],
     bin: ["amẹ", "amɛ̃"],
     wrh: ["galing", "ˈɡaliŋ"],

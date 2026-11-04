@@ -654,6 +654,8 @@ WORDS.bat = {
     zh_han: "plain",
     ckv: "plain",
     ja_kanbun: "plain",
+    tpy: "plain",
+    crt: "plain",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1253,5 +1255,7 @@ WORDS.bat = {
     zh_han: ["蝙蝠", "piān pwǝk"],  // Yang Xiong's Fangyan (Western Han): 蝙蝠 is the name used west of the passes (Qin and Long); east of the passes it is 服翼.
     ckv: ["pelikid", "pəlikid"],  // Kavalan word for the bat (the dictionary's choice between pelikid and prikil).
     ja_kanbun: ["蝙蝠", "hempɯkɯ"],  // Classical Chinese 蝙蝠 read on'yomi hempuku; デジタル大辞泉 へんぷく【蝙蝠】 'コウモリのこと'. The row reads single characters with their kun (熊 kɯma, 骨 hone) and two-character words with their on reading (胡蝶 kotɕoː, 銀河 ɡiŋɡa, 車輪 ɕaɾiɴ).
+    tpy: ["koioʃ", "koioʃ"],  // No image is recorded for it, so it counts as a word of its own. From the IDS Trumai list, the source of most of this row.
+    crt: ["exejeʔ", "exejeʔ"],  // No image is recorded for it, so it counts as a word of its own. From the IDS Chorote list (exeyeʔ, feminine), the source of this row.
   },
 };

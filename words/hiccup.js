@@ -267,6 +267,33 @@ WORDS.hiccup = {
     ckv: "plain",
     ssf: "plain",
     ja_kanbun: "plain",
+    es_uy: "imitative",
+    es_gt: "imitative",
+    es_do: "imitative",
+    es_py: "imitative",
+    es_pr: "imitative",
+    es_cu: "imitative",
+    es_hn: "imitative",
+    es_sv: "imitative",
+    es_bo: "imitative",
+    es_ec: "imitative",
+    es_ve: "imitative",
+    es_cr: "imitative",
+    es_ni: "imitative",
+    es_pa: "imitative",
+    es_mx: "imitative",
+    es_co: "imitative",
+    es_ar: "imitative",
+    es_pe: "imitative",
+    es_cl: "imitative",
+    en_us: "imitative",
+    en_ca: "imitative",
+    en_south: "imitative",
+    en_app: "imitative",
+    en_aave: "imitative",
+    en_jam: "imitative",
+    pt_br: "plain",
+    fr_qc: "imitative",
   },
   routes: {
     imitative: {"color":"#ea580c","emoji":"🔊","en":"imitating the sound","ja":"音のまね","ko":"소리 흉내","zh":"模仿声音","yue":"模仿聲音","vi":"mô phỏng âm thanh","th":"เลียนเสียง","id":"tiruan bunyi","hi":"ध्वनि की नक़ल","de":"lautmalend","fr":"imitant le bruit","it":"onomatopeico","es":"imita el sonido","pt":"imita o som","ru":"звукоподражание","uk":"звуконаслідування","ar":"محاكاة الصوت","he":"חיקוי הקול","sw":"kuiga sauti"},
@@ -480,5 +507,32 @@ WORDS.hiccup = {
     ckv: ["sizukan", "sizukan"],  // Kavalan word for hiccup.
     ssf: ["lhmuthuk", "ɬmuθuk"],  // Thao word for hiccup (打呃，打嗝); also lhuthuk.
     ja_kanbun: ["噦", "sakɯɾi"],  // Classical Chinese 噦 'hiccup', read with the old kun sakuri (later shakuri); NKD さくり【噦・噦噎】.
+    es_uy: ["hipo", "ˈipo"],  // The same imitative word as standard Spanish; Wiktionary gives hipo 'hiccup' with no regional label.
+    es_gt: ["hipo", "ˈipo"],  // The same imitative word as standard Spanish; Wiktionary gives hipo 'hiccup' with no regional label.
+    es_do: ["hipo", "ˈipo"],  // The same imitative word as standard Spanish; Wiktionary gives hipo 'hiccup' with no regional label.
+    es_py: ["hipo", "ˈipo"],  // The same imitative word as standard Spanish; Wiktionary gives hipo 'hiccup' with no regional label.
+    es_pr: ["hipo", "ˈipo"],  // The same imitative word as standard Spanish; Wiktionary gives hipo 'hiccup' with no regional label.
+    es_cu: ["hipo", "ˈipo"],  // The same imitative word as standard Spanish; Wiktionary gives hipo 'hiccup' with no regional label.
+    es_hn: ["hipo", "ˈipo"],  // The same imitative word as standard Spanish; Wiktionary gives hipo 'hiccup' with no regional label.
+    es_sv: ["hipo", "ˈipo"],  // The same imitative word as standard Spanish; Wiktionary gives hipo 'hiccup' with no regional label.
+    es_bo: ["hipo", "ˈipo"],  // The same imitative word as standard Spanish; Wiktionary gives hipo 'hiccup' with no regional label.
+    es_ec: ["hipo", "ˈipo"],  // The same imitative word as standard Spanish; Wiktionary gives hipo 'hiccup' with no regional label.
+    es_ve: ["hipo", "ˈipo"],  // The same imitative word as standard Spanish; Wiktionary gives hipo 'hiccup' with no regional label.
+    es_cr: ["hipo", "ˈipo"],  // The same imitative word as standard Spanish; Wiktionary gives hipo 'hiccup' with no regional label.
+    es_ni: ["hipo", "ˈipo"],  // The same imitative word as standard Spanish; Wiktionary gives hipo 'hiccup' with no regional label.
+    es_pa: ["hipo", "ˈipo"],  // The same imitative word as standard Spanish; Wiktionary gives hipo 'hiccup' with no regional label.
+    es_mx: ["hipo", "ˈipo"],  // The same imitative word as standard Spanish; Wiktionary gives hipo 'hiccup' with no regional label.
+    es_co: ["hipo", "ˈipo"],  // The same imitative word as standard Spanish; Wiktionary gives hipo 'hiccup' with no regional label.
+    es_ar: ["hipo", "ˈipo"],  // The same imitative word as standard Spanish; Wiktionary gives hipo 'hiccup' with no regional label.
+    es_pe: ["hipo", "ˈipo"],  // The same imitative word as standard Spanish; Wiktionary gives hipo 'hiccup' with no regional label.
+    es_cl: ["hipo", "ˈipo"],  // The same imitative word as standard Spanish; Wiktionary gives hipo 'hiccup' with no regional label.
+    en_us: ["hiccup", "ˈhɪkʌp"],  // The same word as general English: the imitative hic plus a diminutive ending (Wiktionary).
+    en_ca: ["hiccup", "ˈhɪkʌp"],  // The same word as general English: the imitative hic plus a diminutive ending (Wiktionary).
+    en_south: ["hiccup", "ˈhɪkʌp"],  // The same word as general English: the imitative hic plus a diminutive ending (Wiktionary).
+    en_app: ["hiccup", "ˈhɪkʌp"],  // The same word as general English: the imitative hic plus a diminutive ending (Wiktionary).
+    en_aave: ["hiccup", "ˈhɪkʌp"],  // The same word as general English: the imitative hic plus a diminutive ending (Wiktionary).
+    en_jam: ["hiccup", "ˈhɪkʌp"],  // The same word as general English: the imitative hic plus a diminutive ending (Wiktionary).
+    pt_br: ["soluço", "soˈlusu"],  // The same word as in Portugal, from Latin singultus via Vulgar Latin suggluttium; it also means 'sob' (Wiktionary, Brazilian /soˈlu.su/).
+    fr_qc: ["hoquet", "ɔkɛ"],  // The same word as in France, ultimately onomatopoeic (Wiktionary).
   },
 };

@@ -759,6 +759,9 @@ WORDS.rainbow = {
     adx: "plain",
     niv: "plain",
     ckv: "plain",
+    jup: "plain",
+    tpy: "plain",
+    crt: "plain",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1461,5 +1464,8 @@ WORDS.rainbow = {
     adx: ["འཇའ", "ndʑa"],  // The inherited Tibetan word for the rainbow (Written Tibetan 'ja'), as in Lhasa and Khams.
     niv: ["мем", "mem"],  // Wiktionary gives мем both as 'monkey' and, in East Sakhalin, as 'rainbow'; Northeuralex records мем for Amur Nivkh.
     ckv: ["qeliwaRwaR", "qəliwaʁwaʁ"],  // Kavalan word for the rainbow (Wiktionary also has qriwaRwaR).
+    jup: ["cɔ́", "cɔ́"],  // No image is recorded for it, so it counts as a word of its own. From the World Loanword Database (Hup).
+    tpy: ["pupu", "pupu"],  // No image is recorded for it, so it counts as a word of its own. From the IDS Trumai list.
+    crt: ["sapalkat", "sapalkat"],  // No image is recorded for it, so it counts as a word of its own. From the IDS Chorote list.
   },
 };

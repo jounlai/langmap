@@ -466,6 +466,22 @@ WORDS.littlefinger = {
     mnw: "plain",
     tay: "plain",
     ja_kanbun: "small",
+    es_uy: "other",
+    es_gt: "other",
+    es_do: "other",
+    es_py: "other",
+    es_pr: "other",
+    es_hn: "other",
+    es_sv: "other",
+    es_bo: "other",
+    es_ec: "other",
+    es_ve: "other",
+    es_cr: "other",
+    es_ni: "other",
+    es_pa: "other",
+    en_south: "plain",
+    en_app: "plain",
+    en_aave: "plain",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -877,5 +893,21 @@ WORDS.littlefinger = {
     mnw: ["ဣကေန်", "ʔiʔken"],  // Glossed 'little finger' in the SEAlang Mon dictionary (Shorto), which analyses it as the prefix iˀ- + ken; No image is recorded for it, so it counts as a word of its own.
     tay: ["tluling", "tluliŋ"],  // Squliq Atayal word for the little finger.
     ja_kanbun: ["小指", "kojɯbi"],  // Classical Chinese 小指, read koyubi; NKD gives only kun readings for 小指 (こゆび, こさし).
+    es_uy: ["meñique", "meˈɲike"],  // The same word as standard Spanish; Wiktionary gives meñique 'little finger' with no regional label.
+    es_gt: ["meñique", "meˈɲike"],  // The same word as standard Spanish; Wiktionary gives meñique 'little finger' with no regional label.
+    es_do: ["meñique", "meˈɲike"],  // The same word as standard Spanish; Wiktionary gives meñique 'little finger' with no regional label.
+    es_py: ["meñique", "meˈɲike"],  // The same word as standard Spanish; Wiktionary gives meñique 'little finger' with no regional label.
+    es_pr: ["meñique", "meˈɲike"],  // The same word as standard Spanish; Wiktionary gives meñique 'little finger' with no regional label.
+    es_hn: ["meñique", "meˈɲike"],  // The same word as standard Spanish; Wiktionary gives meñique 'little finger' with no regional label.
+    es_sv: ["meñique", "meˈɲike"],  // The same word as standard Spanish; Wiktionary gives meñique 'little finger' with no regional label.
+    es_bo: ["meñique", "meˈɲike"],  // The same word as standard Spanish; Wiktionary gives meñique 'little finger' with no regional label.
+    es_ec: ["meñique", "meˈɲike"],  // The same word as standard Spanish; Wiktionary gives meñique 'little finger' with no regional label.
+    es_ve: ["meñique", "meˈɲike"],  // The same word as standard Spanish; Wiktionary gives meñique 'little finger' with no regional label.
+    es_cr: ["meñique", "meˈɲike"],  // The same word as standard Spanish; Wiktionary gives meñique 'little finger' with no regional label.
+    es_ni: ["meñique", "meˈɲike"],  // The same word as standard Spanish; Wiktionary gives meñique 'little finger' with no regional label.
+    es_pa: ["meñique", "meˈɲike"],  // The same word as standard Spanish; Wiktionary gives meñique 'little finger' with no regional label.
+    en_south: ["pinky", "ˈpɪŋki"],  // The usual American word, as in General American (en_us has pinky); borrowed from Dutch pinkje.
+    en_app: ["pinky", "ˈpɪŋki"],  // The usual American word, as in General American (en_us has pinky); borrowed from Dutch pinkje.
+    en_aave: ["pinky", "ˈpɪŋki"],  // The usual American word, as in General American (en_us has pinky); borrowed from Dutch pinkje.
   },
 };

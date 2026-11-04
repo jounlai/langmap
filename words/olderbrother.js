@@ -749,6 +749,8 @@ WORDS.olderbrother = {
     acn: "age",
     dru: "age",
     ssf: "age",
+    jup: "age",
+    tpy: "age",
   },
   routes: {
     age: {"color":"#db2777","emoji":"👆","en":"a word just for an older brother","ja":"兄だけを指す語","ko":"형만 가리키는 낱말","zh":"专指哥哥的词","yue":"專指哥哥嘅詞","vi":"từ riêng cho anh","th":"คำเฉพาะสำหรับพี่ชาย","id":"kata khusus untuk kakak","hi":"बड़े भाई का अलग शब्द","de":"eigenes Wort für den älteren Bruder","fr":"un mot propre au frère aîné","it":"una parola solo per il fratello maggiore","es":"una palabra solo para el hermano mayor","pt":"uma palavra só para o irmão mais velho","ru":"отдельное слово для старшего брата","uk":"окреме слово для старшого брата","ar":"كلمة خاصة بالأخ الأكبر","he":"מילה מיוחדת לאח הגדול","sw":"neno maalum kwa kaka mkubwa"},
@@ -1439,5 +1441,7 @@ WORDS.olderbrother = {
     acn: ["tʂai55", "tʂai˥˥"],  // A word of its own for an older brother; the younger brother is a31ȵi55 (Sun 1991).
     dru: ["kaka", "kaka"],  // Budai (霧台) Rukai kaka 'older brother' (older sibling), as in Amis and Paiwan.
     ssf: ["minlhafut", "minɬafut"],  // Thao word for an older brother.
+    jup: ["cə̌t", "cə̌t"],  // A word of its own for an older brother (World Loanword Database, Hup).
+    tpy: ["apisi", "apisi"],  // A word of its own for an older brother; IDS gives (ha)-apisi with the possessor prefix this row drops.
   },
 };

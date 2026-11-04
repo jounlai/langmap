@@ -195,5 +195,11 @@ WORDS.hangover = {
     zh_han: ["酲", "lheŋ"],  // Shuowen 酲，病酒也 'sick from wine'; the Hanshu (Liyue zhi) has 柘漿析朝酲 'cane juice cures the morning hangover'.
     tay: ["sqʼyan", "sqʔjan"],  // Squliq Atayal word for a hangover.
     bnn: ["dungul", "duŋul"],  // Isbukun Bunun (郡群) word for a hangover; also dungulan.
+    es_uy: ["resaca", "reˈsaka"],  // The same word as standard Spanish; Wiktionary gives resaca 'hangover' with no regional label (the regional cruda, guayabo, ratón and chuchaqui belong to Mexico, Colombia, Venezuela and Ecuador).
+    es_do: ["resaca", "reˈsaka"],  // The same word as standard Spanish; Wiktionary gives resaca 'hangover' with no regional label (the regional cruda, guayabo, ratón and chuchaqui belong to Mexico, Colombia, Venezuela and Ecuador).
+    es_py: ["resaca", "reˈsaka"],  // The same word as standard Spanish; Wiktionary gives resaca 'hangover' with no regional label (the regional cruda, guayabo, ratón and chuchaqui belong to Mexico, Colombia, Venezuela and Ecuador).
+    es_pr: ["resaca", "reˈsaka"],  // The same word as standard Spanish; Wiktionary gives resaca 'hangover' with no regional label (the regional cruda, guayabo, ratón and chuchaqui belong to Mexico, Colombia, Venezuela and Ecuador).
+    es_cu: ["resaca", "reˈsaka"],  // The same word as standard Spanish; Wiktionary gives resaca 'hangover' with no regional label (the regional cruda, guayabo, ratón and chuchaqui belong to Mexico, Colombia, Venezuela and Ecuador).
+    nv: ["yoolééł", "jòːléːɬ"],  // Wiktionary gives 'hangover' as a sense of yoolééł, literally 'he/she is going along carrying it' (a rope-like object).
   },
 };

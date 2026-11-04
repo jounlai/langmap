@@ -839,6 +839,13 @@ WORDS.yesterday = {
     kim: "distinct",
     tay: "distinct",
     ja_kanbun: "distinct",
+    jup: "distinct",
+    crt: "distinct",
+    moc: "distinct",
+    tob: "distinct",
+    kpj: "unknown",
+    wba: "unknown",
+    cag: "unknown",
   },
   routes: {
     same: {"color":"#db2777","emoji":"🔁","en":"one word for yesterday and tomorrow","ja":"昨日と明日が同じ語","ko":"어제와 내일이 한 낱말","zh":"昨天和明天同一个词","yue":"尋日同聽日同一個詞","vi":"một từ cho hôm qua và ngày mai","th":"คำเดียวทั้งเมื่อวานและพรุ่งนี้","id":"satu kata untuk kemarin dan besok","hi":"बीते और आने वाले कल का एक शब्द","de":"ein Wort für gestern und morgen","fr":"un mot pour hier et demain","it":"una parola per ieri e domani","es":"una palabra para ayer y mañana","pt":"uma palavra para ontem e amanhã","ru":"одно слово для вчера и завтра","uk":"одне слово для учора й завтра","ar":"كلمة واحدة لأمس وغد","he":"מילה אחת לאתמול ולמחר","sw":"neno moja kwa jana na kesho"},
@@ -1623,5 +1630,12 @@ WORDS.yesterday = {
     kim: ["дүүн", "dyːn"],  // Not related to the word for 'tomorrow'; Robbeets et al. also record Tofa düün.
     tay: ["hira", "hira"],  // Squliq Atayal word for yesterday; the dictionary also lists hera, shera(ʼ), shiraʼ. Tomorrow is the different word suxan.
     ja_kanbun: ["昨日", "sakɯdʑitsɯ"],  // Classical Chinese 昨日, read on'yomi sakujitsu (NKD さくじつ【昨日】); tomorrow is the different word 明日. The row reads single characters with their kun (熊 kɯma, 骨 hone) and two-character words with their on reading (胡蝶 kotɕoː, 銀河 ɡiŋɡa, 車輪 ɕaɾiɴ).
+    jup: ["ɟʼám", "ɟʼám"],  // Different from tomorrow, ʔecáp (World Loanword Database, Hup).
+    crt: ["nooxtiʔ", "nooxtiʔ"],  // Different from tomorrow, kaxlomata (IDS Chorote).
+    moc: ["skawit", "skawit"],  // Different from tomorrow, neteʔe (IDS Mocoví sk-awit; Johansson's list also has skawit).
+    tob: ["ʃikait", "ʃikait"],  // Different from tomorrow, qodʒiʔoʁoɲi (IDS Toba šik-ait).
+    kpj: ["kau", "kau"],  // From the IDS Karajá list. No word for tomorrow was found in the same source to compare, so whether the two are distinct is not recorded here.
+    wba: ["kahe", "kahe"],  // From Johansson's sound-symbolism list (Warao), which this row's cells match; Joo's list also has kahe. No word for tomorrow was found in the same source to compare, so whether the two are distinct is not recorded here.
+    cag: ["kanʔut", "kanʔut"],  // From Johansson's sound-symbolism list (Nivaclé), which this row's cells match. No word for tomorrow was found in the same source to compare, so whether the two are distinct is not recorded here.
   },
 };

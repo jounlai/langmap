@@ -445,6 +445,8 @@ WORDS.pineapple = {
     ja_edo: "nanas",
     dru: "other",
     tsu: "other",
+    bwi: "other",
+    mbc: "other",
   },
   routes: {
     nanas: {"color":"#ea580c","emoji":"🌎","en":"from Tupi naná","ja":"トゥピ語 naná から","ko":"투피어 naná에서","zh":"源自图皮语 naná","yue":"源自圖皮語 naná","vi":"từ tiếng Tupi naná","th":"จากภาษาตูปี naná","id":"dari bahasa Tupi naná","hi":"तूपी naná से","de":"aus Tupi naná","fr":"du tupi naná","it":"dal tupi naná","es":"del tupí naná","pt":"do tupi naná","ru":"из тупи naná","uk":"з тупі naná","ar":"من التوبية naná","he":"מטופי naná","sw":"kutoka Kitupi naná"},
@@ -834,5 +836,7 @@ WORDS.pineapple = {
     ja_edo: ["アナナス", "ananasɯ"],  // From Latin ananas, ultimately a South American word; Nihon Kokugo Daijiten cites it from Bankoku seihyō (1860), late Edo.
     dru: ["pangudrale", "paŋuɖalə"],  // Budai (霧台) Rukai word for the pineapple (also pawpangudrale); cf. Paiwan pangudralj.
     tsu: ["ʼungeai", "ʔuŋeai"],  // Tsou word for the pineapple; cf. Taiwanese 王梨 ông-lâi.
+    bwi: ["máawiro", "máawiro"],  // A word of its own, unrelated to Tupi naná and to the pine-cone names (Hunter-Gatherer database, Baniwa).
+    mbc: ["kaiurá", "kaiurá"],  // A word of its own, unrelated to Tupi naná and to the pine-cone names (Hunter-Gatherer database, Makuxi).
   },
 };

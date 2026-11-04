@@ -737,6 +737,12 @@ WORDS.thunder = {
     zh_han: "plain",
     kjh: "plain",
     ja_kanbun: "plain",
+    jup: "plain",
+    srm: "sky",
+    crt: "plain",
+    wba: "plain",
+    pmt: "plain",
+    bwi: "plain",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1420,5 +1426,11 @@ WORDS.thunder = {
     zh_han: ["雷", "rhwǝ̄j"],  // The Shuowen (c. 100 CE) defines 靁 (= 雷) as 陰陽薄動靁雨生物者也 'yin and yang striking each other, the thunder and rain that make things grow'.
     kjh: ["кӱгӱрт", "kyɡyrt"],  // Romanised kügürt; Wiktionary also lists кӱгӱрт чолы.
     ja_kanbun: ["雷", "ikazɯtɕi"],  // Classical Chinese 雷, read with the classical kun ikazuchi (いかづち); 字通 gives the 字訓 かみなり・いかずち, and the 和名抄 and 名義抄 gloss 雷 as イカヅチ / ナルカミ.
+    jup: ["pæ̃j", "pæ̃j"],  // No image is recorded for it, so it counts as a word of its own. From the World Loanword Database (Hup); Johansson's list also has pæ̃j.
+    srm: ["gaángádú bái", "ɡaáŋɡádú bái"],  // Built on gaángádu 'sky' (World Loanword Database, Saramaccan).
+    crt: ["sjulteni", "sjulteni"],  // No image is recorded for it, so it counts as a word of its own. From the IDS Chorote list (-syulteni).
+    wba: ["nahaduɾu", "nahaduɾu"],  // No image is recorded for it, so it counts as a word of its own. From Johansson's sound-symbolism list (Warao).
+    pmt: ["fatutiri", "fatutiri"],  // No image is recorded for it, so it counts as a word of its own. The same form in ABVD (Tuamotu) and in Walworth's Polynesian list.
+    bwi: ["éeno", "éeno"],  // No image is recorded for it, so it counts as a word of its own. From the Hunter-Gatherer language database (Baniwa), the source this row follows.
   },
 };

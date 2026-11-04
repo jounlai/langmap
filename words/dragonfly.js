@@ -295,6 +295,29 @@ WORDS.dragonfly = {
     szy: "plain",
     tao: "plain",
     ja_kanbun: "plain",
+    es_uy: "other",
+    es_gt: "plain",
+    es_do: "plain",
+    es_py: "plain",
+    es_pr: "plain",
+    es_cu: "plain",
+    es_hn: "plain",
+    es_sv: "plain",
+    es_bo: "plain",
+    es_ec: "plain",
+    es_ve: "plain",
+    es_cr: "plain",
+    es_ni: "plain",
+    es_pa: "plain",
+    es_mx: "plain",
+    es_co: "plain",
+    es_ar: "other",
+    es_pe: "plain",
+    es_cl: "other",
+    en_us: "dragon",
+    en_ca: "dragon",
+    en_south: "creature",
+    pt_br: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -535,5 +558,28 @@ WORDS.dragonfly = {
     szy: ["beded", "bədəd"],  // Sakizaya word for the dragonfly.
     tao: ["ponay", "ponaj"],  // Yami (Tao) word for the dragonfly.
     ja_kanbun: ["蜻蛉", "seːɾeː"],  // Classical Chinese 蜻蛉 read on'yomi seirei; NKD せいれい【蜻蛉】: the Chinese name of the dragonfly (色葉字類抄 1177-81). The row reads single characters with their kun (熊 kɯma, 骨 hone) and two-character words with their on reading (胡蝶 kotɕoː, 銀河 ɡiŋɡa, 車輪 ɕaɾiɴ).
+    es_uy: ["aguacil", "aɣwaˈsil"],  // From alguacil 'bailiff, constable'; Wiktionary labels aguacil 'dragonfly' Rioplatense.
+    es_gt: ["libélula", "liˈbelula"],  // The same word as standard Spanish, from New Latin libellula; Wiktionary gives it with no regional label.
+    es_do: ["libélula", "liˈbelula"],  // The same word as standard Spanish, from New Latin libellula; Wiktionary gives it with no regional label.
+    es_py: ["libélula", "liˈbelula"],  // The same word as standard Spanish, from New Latin libellula; Wiktionary gives it with no regional label.
+    es_pr: ["libélula", "liˈbelula"],  // The same word as standard Spanish, from New Latin libellula; Wiktionary gives it with no regional label.
+    es_cu: ["libélula", "liˈbelula"],  // The same word as standard Spanish, from New Latin libellula; Wiktionary gives it with no regional label.
+    es_hn: ["libélula", "liˈbelula"],  // The same word as standard Spanish, from New Latin libellula; Wiktionary gives it with no regional label.
+    es_sv: ["libélula", "liˈbelula"],  // The same word as standard Spanish, from New Latin libellula; Wiktionary gives it with no regional label.
+    es_bo: ["libélula", "liˈbelula"],  // The same word as standard Spanish, from New Latin libellula; Wiktionary gives it with no regional label.
+    es_ec: ["libélula", "liˈbelula"],  // The same word as standard Spanish, from New Latin libellula; Wiktionary gives it with no regional label.
+    es_ve: ["libélula", "liˈbelula"],  // The same word as standard Spanish, from New Latin libellula; Wiktionary gives it with no regional label.
+    es_cr: ["libélula", "liˈbelula"],  // The same word as standard Spanish, from New Latin libellula; Wiktionary gives it with no regional label.
+    es_ni: ["pipilacha", "pipiˈlatʃa"],  // Wiktionary labels pipilacha 'dragonfly' Nicaraguan; no etymology is given, so it counts as a word of its own.
+    es_pa: ["libélula", "liˈbelula"],  // The same word as standard Spanish, from New Latin libellula; Wiktionary gives it with no regional label.
+    es_mx: ["libélula", "liˈbelula"],  // The same word as standard Spanish, from New Latin libellula; Wiktionary gives it with no regional label.
+    es_co: ["libélula", "liˈbelula"],  // The same word as standard Spanish, from New Latin libellula; Wiktionary gives it with no regional label.
+    es_ar: ["aguacil", "aɣwaˈsil"],  // From alguacil 'bailiff, constable'; Wiktionary labels aguacil 'dragonfly' Rioplatense.
+    es_pe: ["libélula", "liˈbelula"],  // The same word as standard Spanish, from New Latin libellula; Wiktionary gives it with no regional label.
+    es_cl: ["matapiojos", "mataˈpjoxos"],  // Literally 'lice-killer'; Wiktionary labels the dragonfly sense Chilean.
+    en_us: ["dragonfly", "ˈdɹæɡənflaɪ"],  // The same word as general English, a compound of dragon + fly.
+    en_ca: ["dragonfly", "ˈdɹæɡənflaɪ"],  // The same word as general English, a compound of dragon + fly.
+    en_south: ["snake doctor", "ˈsneɪk ˌdɑktɚ"],  // Wiktionary labels snake doctor 'dragonfly' Southern US, from a folk belief that dragonflies follow snakes and stitch them back together when they are hurt.
+    pt_br: ["libélula", "liˈbɛlulɐ"],  // The same word as in Portugal, from New Latin libellula (Wiktionary /liˈbɛ.lu.lɐ/); Brazil also has regional names such as helicóptero and lava-bunda.
   },
 };

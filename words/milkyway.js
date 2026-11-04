@@ -313,6 +313,30 @@ WORDS.milkyway = {
     ain: "river",
     ja_oki: "river",
     xct: "other",
+    es_uy: "milk",
+    es_gt: "milk",
+    es_do: "milk",
+    es_py: "milk",
+    es_pr: "milk",
+    es_cu: "milk",
+    es_hn: "milk",
+    es_sv: "milk",
+    es_bo: "milk",
+    es_ec: "milk",
+    es_ve: "milk",
+    es_cr: "milk",
+    es_ni: "milk",
+    es_pa: "milk",
+    es_mx: "milk",
+    es_co: "milk",
+    es_ar: "milk",
+    es_pe: "milk",
+    en_ca: "milk",
+    en_south: "milk",
+    en_app: "milk",
+    en_aave: "milk",
+    en_jam: "milk",
+    fr_qc: "milk",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -569,5 +593,29 @@ WORDS.milkyway = {
     ain: ["ペッノカ", "petnoka"],  // Hokkaido Ainu petnoka, from pet 'river' + noka; Hattori 1964 records it in Horobetsu, Saru, Obihiro and Nayoro.
     ja_oki: ["てぃんがーら", "tiŋɡaːɾa"],  // Literally 'sky river': tin 'sky, heaven' + kaara 'river'.
     xct: ["དགུ་ཚིགས", "dɡutsʰiks"],  // dgu tshigs 'the Milky Way' (Rangjung Yeshe); listed in Jäschke (p. 110).
+    es_uy: ["Vía Láctea", "ˈbia ˈlaɣtea"],  // The same learned name as standard Spanish, from Latin Via Lactea 'milky way'; Wiktionary gives it with no regional label.
+    es_gt: ["Vía Láctea", "ˈbia ˈlaɣtea"],  // The same learned name as standard Spanish, from Latin Via Lactea 'milky way'; Wiktionary gives it with no regional label.
+    es_do: ["Vía Láctea", "ˈbia ˈlaɣtea"],  // The same learned name as standard Spanish, from Latin Via Lactea 'milky way'; Wiktionary gives it with no regional label.
+    es_py: ["Vía Láctea", "ˈbia ˈlaɣtea"],  // The same learned name as standard Spanish, from Latin Via Lactea 'milky way'; Wiktionary gives it with no regional label.
+    es_pr: ["Vía Láctea", "ˈbia ˈlaɣtea"],  // The same learned name as standard Spanish, from Latin Via Lactea 'milky way'; Wiktionary gives it with no regional label.
+    es_cu: ["Vía Láctea", "ˈbia ˈlaɣtea"],  // The same learned name as standard Spanish, from Latin Via Lactea 'milky way'; Wiktionary gives it with no regional label.
+    es_hn: ["Vía Láctea", "ˈbia ˈlaɣtea"],  // The same learned name as standard Spanish, from Latin Via Lactea 'milky way'; Wiktionary gives it with no regional label.
+    es_sv: ["Vía Láctea", "ˈbia ˈlaɣtea"],  // The same learned name as standard Spanish, from Latin Via Lactea 'milky way'; Wiktionary gives it with no regional label.
+    es_bo: ["Vía Láctea", "ˈbia ˈlaɣtea"],  // The same learned name as standard Spanish, from Latin Via Lactea 'milky way'; Wiktionary gives it with no regional label.
+    es_ec: ["Vía Láctea", "ˈbia ˈlaɣtea"],  // The same learned name as standard Spanish, from Latin Via Lactea 'milky way'; Wiktionary gives it with no regional label.
+    es_ve: ["Vía Láctea", "ˈbia ˈlaɣtea"],  // The same learned name as standard Spanish, from Latin Via Lactea 'milky way'; Wiktionary gives it with no regional label.
+    es_cr: ["Vía Láctea", "ˈbia ˈlaɣtea"],  // The same learned name as standard Spanish, from Latin Via Lactea 'milky way'; Wiktionary gives it with no regional label.
+    es_ni: ["Vía Láctea", "ˈbia ˈlaɣtea"],  // The same learned name as standard Spanish, from Latin Via Lactea 'milky way'; Wiktionary gives it with no regional label.
+    es_pa: ["Vía Láctea", "ˈbia ˈlaɣtea"],  // The same learned name as standard Spanish, from Latin Via Lactea 'milky way'; Wiktionary gives it with no regional label.
+    es_mx: ["Vía Láctea", "ˈbia ˈlaɣtea"],  // The same learned name as standard Spanish, from Latin Via Lactea 'milky way'; Wiktionary gives it with no regional label.
+    es_co: ["Vía Láctea", "ˈbia ˈlaɣtea"],  // The same learned name as standard Spanish, from Latin Via Lactea 'milky way'; Wiktionary gives it with no regional label.
+    es_ar: ["Vía Láctea", "ˈbia ˈlaɣtea"],  // The same learned name as standard Spanish, from Latin Via Lactea 'milky way'; Wiktionary gives it with no regional label.
+    es_pe: ["Vía Láctea", "ˈbia ˈlaɣtea"],  // The same learned name as standard Spanish, from Latin Via Lactea 'milky way'; Wiktionary gives it with no regional label.
+    en_ca: ["Milky Way", "ˈmɪlki weɪ"],  // The same name as general English, a calque of Latin Via Lactea 'milky road' (Wiktionary).
+    en_south: ["Milky Way", "ˈmɪlki weɪ"],  // The same name as general English, a calque of Latin Via Lactea 'milky road' (Wiktionary).
+    en_app: ["Milky Way", "ˈmɪlki weɪ"],  // The same name as general English, a calque of Latin Via Lactea 'milky road' (Wiktionary).
+    en_aave: ["Milky Way", "ˈmɪlki weɪ"],  // The same name as general English, a calque of Latin Via Lactea 'milky road' (Wiktionary).
+    en_jam: ["Milky Way", "ˈmɪlki weɪ"],  // The same name as general English, a calque of Latin Via Lactea 'milky road' (Wiktionary).
+    fr_qc: ["Voie lactée", "vwa lakte"],  // The same name as in France, literally 'milky way' from Latin Via Lactea.
   },
 };

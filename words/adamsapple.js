@@ -282,6 +282,9 @@ WORDS.adamsapple = {
     vi_c: "plain",
     vi_s: "plain",
     pwn: "plain",
+    es_uy: "adam",
+    es_gt: "adam",
+    es_cu: "adam",
   },
   routes: {
     adam: {"color":"#dc2626","emoji":"🍏","en":"Adam's apple","ja":"アダムのりんご","ko":"아담의 사과","zh":"亚当的苹果","yue":"亞當嘅蘋果","vi":"táo của Adam","th":"แอปเปิลของอาดัม","id":"apel Adam","hi":"आदम का सेब","de":"Adams Apfel","fr":"pomme d'Adam","it":"pomo d'Adamo","es":"fruto de Adán","pt":"maçã de Adão","ru":"яблоко Адама","uk":"яблуко Адама","ar":"تفاحة آدم","he":"תפוח אדם","sw":"tufaha la Adamu"},
@@ -508,5 +511,8 @@ WORDS.adamsapple = {
     vi_c: ["yết hầu", "iək˧˦ həw˦˨"],  // The same word as standard Vietnamese, in the Huế pronunciation (Wiktionary [ʔiək̚˦˧˥ həw˦˩]), written with this row's own tone values; VDict gives yết hầu for English Adam's apple.
     vi_s: ["yết hầu", "iək˧˥ həw˨˩"],  // The same word as standard Vietnamese, in the Saigon pronunciation (Wiktionary [ʔiək̚˦˥ həw˨˩]), written with this row's own tone values; VDict gives yết hầu for English Adam's apple.
     pwn: ["raqul", "ɾaquɭ"],  // North Paiwan word for the Adam's apple.
+    es_uy: ["manzana de Adán", "mansana ðe aðan"],  // Literally 'Adam's apple'; Wiktionary labels manzana de Adán Latin American, beside Spain's nuez de Adán.
+    es_gt: ["manzana de Adán", "mansana ðe aðan"],  // Literally 'Adam's apple'; Wiktionary labels manzana de Adán Latin American, beside Spain's nuez de Adán.
+    es_cu: ["manzana de Adán", "mansana ðe aðan"],  // Literally 'Adam's apple'; Wiktionary labels manzana de Adán Latin American, beside Spain's nuez de Adán.
   },
 };

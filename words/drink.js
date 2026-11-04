@@ -753,7 +753,7 @@ WORDS.drink = {
     huv: ["anganeow", "aŋaneow"],
     ay: ["umaña", "umaɲa"],
     jqr: ["umaña", "umaɲa"],
-    cni: ["noiri", "noiɾi"],
+    cni: ["ninero", "nineɾo"],
     ame: ["orreñets", "oɻeɲets"],
     gym: ["ñögö", "ɲɤɡɤ"],
     yan: ["di", "di"],

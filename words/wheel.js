@@ -477,7 +477,7 @@ WORDS.wheel = {
     rcf: ["rou", "ru"],
     niv: ["кулкус", "kulkus"],
     bin: ["owẹ imọto", "owɛ imɔto"], // Edo Bible EZK 1:15, 1:19 — the cart's foot (r91)
-    yo: ["táyà", "tájà"],
+    yo: ["kẹ̀kẹ́", "kɛ̀kɛ́"],
     ig: ["wiil", "wiːl"],
     tiv: ["ikaver", "ikaver"],
     urh: ["adjugẹn", "adʒuɡɛ̃"],

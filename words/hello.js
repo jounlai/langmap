@@ -409,7 +409,7 @@ WORDS.hello = {
     dbq: ["usoko", "usoko"],
     wo: ["na nga def", "na ŋɡa dɛf"],
     srr: ["nam fiyo", "nam fijo"],
-    so: ["salaan", "salaːn"],
+    so: ["ma nabad baa", "ma nabad baː"],
     om: ["akkam", "akːam"],
     kxc: ["nakayta", "nakajta"],
     drs: ["mooye", "moːje"],

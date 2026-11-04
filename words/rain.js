@@ -322,7 +322,7 @@ WORDS.rain = {
     ar_gulf: ["مطر", "mutˤar"],
     ar_sa: ["مطر", "matˤar"],
     ar_ye: ["مطر", "mɑtˤɑr"],
-    ar_ma: ["مطر", "mtˤər"],
+    ar_ma: ["شتا", "ʃta"],
     arq: ["مطر", "mtˤər"],
     mey: ["سحاب", "sħaːb"],
     ar_tn: ["مطر", "mtˤar"],

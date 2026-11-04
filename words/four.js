@@ -315,7 +315,7 @@ WORDS.four = {
 
     // --- Bantu — the stem is -nè; the prefix is whatever that row cites with
     zu: ["kune", "kuːne"],
-    xh: ["kune", "kune"],
+    xh: ["ne", "ne"],
     rw: ["kane", "kane"],
     rn: ["kane", "kane"],
     sn: ["ina", "ina"],

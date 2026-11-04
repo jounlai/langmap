@@ -423,7 +423,7 @@ WORDS.three = {
     dsh: ["sedde", "sedːe"],
     rw: ["gatatu", "ɡatatu"],
     rn: ["gatatu", "ɡatatu"],
-    xh: ["kuthathu", "kutʰatʰu"],
+    xh: ["ntathu", "ntatʰu"],
     sn: ["tatu", "tatu"],
     mxc: ["tatu", "tatu"],
     ln: ["misato", "misato"],

@@ -17,7 +17,7 @@
  * bear эһэ 'grandfather' and Dolgan эбэкээ the same; Khakas аба is 'father'; Nanai мапа and Udege мафа
  * are 'old man'; Evenki амака is 'grandfather' beside the plain хомоты. Finnish has karhu 'the rough
  * one' and a whole wardrobe of circumlocutions (otso, mesikämmen 'honey-paw', kontio — the last of
- * which is what Karelian kondii and Veps kondi actually say). Khmer calls it ខ្លាឃ្មុំ 'honey tiger',
+ * which is what Karelian kontie and Veps kondi actually say). Khmer calls it ខ្លាឃ្មុំ 'honey tiger',
  * arriving at the Slavic idea independently. Ainu names the bear kamuy 'god' or kimun kamuy
  * 'mountain god' across Hokkaido; イソ iso is the Sakhalin word (Wiktionary, citing Chiri and Hattori
  * 1964), so the Hokkaido-based row shows kimun kamuy.

@@ -1226,7 +1226,7 @@ WORDS.blood = {
     mez: ["maehkīh", "mæhkiːh"],
     nan_xm: ["血", "huiʔ˧˨"],
     nan_zz: ["血", "hueʔ˧˨"],
-    osa: ["wapi", "wapĩ"],
+    osa: ["wapį́", "wapĩ́"],
     pmy: ["dara", "dara"],
     pot: ["mskwe", "mskwə"],
     pzh: ["damu", "damu"],

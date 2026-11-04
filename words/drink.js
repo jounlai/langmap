@@ -491,7 +491,7 @@ WORDS.drink = {
     mez: ['menew', 'menew'],
     nan_xm: ["啉", "lim˦˦"],
     nan_zz: ["啉", "lim˦˦"],
-    osa: ["iðátʰǫ", "iðátʰõ"],
+    osa: ["ðaahtą́", "ðaːhtã́"],
     pmy: ['minum', 'ˈminum'],
     pot: ["mnekwé", "mnəkwe"],
     pzh: ["mudaux", "mudaux"],

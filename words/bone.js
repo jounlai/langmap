@@ -1158,7 +1158,7 @@ WORDS.bone = {
     ani: ["рокьи", "rotɬʼi"],
     bdk: ["кӏерепӏ", "kʼerepʼ"],
     sdo: ["turang", "turaŋ"],
-    dbl: ["wurmbur", "ˈwurmbur"],
+    dbl: ["wurmbur", "ˈwuɻmbuɻ"],
     nrf_gg: ["os", "o"],
     fra_jer: ["os", "o"],
     gsw_w: ["Benggi", "ˈbɛŋɡi"],

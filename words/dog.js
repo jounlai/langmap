@@ -525,7 +525,7 @@ WORDS.dog = {
     nrf_gg: ['tchian', 'tʃjɑ̃'],
     fra_jer: ['tchian', 'tʃjɑ̃'],
     gsw_w: ["Hund", "hund"],
-    huz: ['вə', 'wə'],
+    huz: ["вә", "wə"],
     khv: ['гъве', 'ʁʷe'],
     kjj: ['пхра', 'pχra'],
     kpf: ["wâu", "wɐu"],

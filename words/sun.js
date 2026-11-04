@@ -483,7 +483,7 @@ WORDS.sun = {
     mez: ['kēsoq', 'keːsoʔ'],
     nan_xm: ["日头", "lit̚˦ tʰau˨˦"],
     nan_zz: ["日头", "dzit̚˩˨˩ tʰau˩˧"],
-    osa: ['mį́', 'mĩ́'],
+    osa: ["mį́į", "mĩ́ː"],
     pmy: ['matahari', 'mataˈhari'],
     pot: ["gises", "ɡisəs"],
     pzh: ['rizax', 'ɾizax'],

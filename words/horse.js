@@ -905,7 +905,7 @@ WORDS.horse = {
     nio: ["дюндүа", "dʲundyɐ"],
     yux: ["йахад аачэ", "jaqad aːtʃe"],
     moc: ["ʃipgaq", "ʃipɡaq"],
-    huz: ["сəрйо", "sərjo"],
+    huz: ["сәрйо", "sərjo"],
     blc: ["ałχapaliikʷ", "aɬχapaliːkʷ"],
     wrh: ["yarraman", "ˈjaraman"],
     en_ke: ["horse", "hɔːs"],

@@ -491,7 +491,7 @@ WORDS.eat = {
     mez: ['mīcew', 'miːtʃew'],
     nan_xm: ["食", "tsiaʔ˦"],
     nan_zz: ["食", "tsiaʔ˩˨˩"],
-    osa: ['ðatʰé', 'ðatʰé'],
+    osa: ["ðaacʼé", "ðaːtsʔé"],
     pmy: ['makan', 'ˈmakan'],
     pot: ["wisne", "wisnə"],
     pzh: ['mekan', 'məkan'],

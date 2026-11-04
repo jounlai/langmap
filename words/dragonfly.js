@@ -619,7 +619,7 @@ WORDS.dragonfly = {
     pt_br: ["libélula", "liˈbɛlulɐ"],  // The same word as in Portugal, from New Latin libellula (Wiktionary /liˈbɛ.lu.lɐ/); Brazil also has regional names such as helicóptero and lava-bunda.
     adt: ["wirtu-wirtu", "wiʈu-wiʈu"],  // Adnyamathanha wirtu-wirtu 'dragonfly'.
     wbp: ["ngirntiwurarri", "ŋiɳʈiwuɻari"],  // Warlpiri ngirntiwurarri 'dragonfly'.
-    dbl: ["yirinyjila", "ˈjiriɲɟila"],  // Dyirbal yiriɲdyila 'dragon-fly' (Dixon), in the row's practical spelling.
+    dbl: ["yirinyjila", "ˈjiɻiɲɟila"],  // Dyirbal yiriɲdyila 'dragon-fly' (Dixon), in the row's practical spelling.
     en_ck: ["dragonfly", "ˈdɹæɡənflɑɪ"],  // Same word as standard English; the IPA is built from the row's own cells (dr as in drink, TRAP as in black, -fly as in butterfly).
     en_scouse: ["dragonfly", "ˈdɹaɡənflaɪ"],  // Same word as standard English; the IPA is built from the row's own cells (dr as in drink, TRAP as in black, -fly as in butterfly).
     en_manc: ["dragonfly", "ˈdɹaɡənflaɪ"],  // Same word as standard English; the IPA is built from the row's own cells (dr as in drink, TRAP as in black, -fly as in butterfly).

@@ -495,7 +495,7 @@ WORDS.father = {
     mez: ["nōhnāeh", "noːhnæːh"],
     nan_xm: ["老爸", "lau˨˨ pe˨˨"],
     nan_zz: ["老爸", "lau˨˨ pɛ˨˨"],
-    osa: ['indáce', 'indátse'],
+    osa: ["įhtáci", "ĩhtátsi"],
     pmy: ['bapa', 'ˈbapa'],
     pot: ['nos', 'nos'],
     pzh: ['aba', 'aba'],

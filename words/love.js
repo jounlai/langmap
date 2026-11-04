@@ -484,7 +484,7 @@ WORDS.love = {
     mez: ["kesāenemāew", "kesæːnemæːw"],
     nan_xm: ["爱", "ai˨˩"],
     nan_zz: ["爱", "ai˨˩"],
-    osa: ['ðakʰíðe', 'ðakʰíðe'],
+    osa: ["ðálį ažį́", "ðálĩ aʒĩ́"],
     pmy: ['sayang', 'ˈsajaŋ'],
     pot: ["dbanawen", "dbanawən"],
     pzh: ['—', '—'],

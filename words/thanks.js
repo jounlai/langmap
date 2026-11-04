@@ -487,7 +487,7 @@ WORDS.thanks = {
     mez: ["wāēwāēnen", "wæːwæːnen"],
     nan_xm: ["多谢", "to˦˦ sia˨˨"],
     nan_zz: ["多谢", "to˦˦ sia˨˨"],
-    osa: ["Wíbthaxube", "wíbðaxube"],
+    osa: ["wéewiną", "wéːwinã"],
     pmy: ["trima kasi", "ˈtrima ˈkasi"],
     pot: ["migwétch", "miɡwetʃ"],
     pzh: ['—', '—'],

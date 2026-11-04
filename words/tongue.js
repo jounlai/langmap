@@ -1228,7 +1228,7 @@ WORDS.tongue = {
     mez: ["tēnaniw", "teːnaniw"],
     nan_xm: ["舌仔", "tsiʔ˦ a˥˧"],
     nan_zz: ["舌仔", "tsiʔ˩˨˩ a˥˧"],
-    osa: ["ðéže", "ðéʒe"],
+    osa: ["ðéeze", "ðéːze"],
     pmy: ["lida", "lida"],
     pot: ["déno", "deno"],
     pzh: ["dahama", "dahama"],

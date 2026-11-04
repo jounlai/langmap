@@ -1074,7 +1074,7 @@ WORDS.five = {
     pot: ["nyanen", "njanən"],
     yur: ["merueh", "meɹuh"],
     mus: ["cahkepen", "tʃahkiːpin"],
-    osa: ["sáhta", "sáhta"],
+    osa: ["sáhtą", "sáhtã"],
     tus: ["wísk", "wisk"],
     yuc: ["chʼwahe", "tʃʼwahe"],
     kio: ["ɔ́ntʼɔ̀", "ɔ́ntʼɔ̀"],

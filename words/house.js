@@ -1073,7 +1073,7 @@ WORDS.house = {
     ium: ["biauv", "piau˦"],
     hui: ["anda", "anda"],
     tkl: ["fale", "fale"],
-    squ: ["lámʼ", "lamʔ"],
+    squ: ["lam̓", "lamʔ"],
     mga: ["tech", "tʲex"],
     hbo: ["בית", "ˈbajiθ"],
     he_mis: ["בית", "bajit"],

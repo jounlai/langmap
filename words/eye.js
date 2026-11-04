@@ -491,7 +491,7 @@ WORDS.eye = {
     mez: ['oskēsek', 'oskeːsek'],
     nan_xm: ["目睭", "bak̚˦ tsiu˦˦"],
     nan_zz: ["目睭", "bak̚˩˨˩ tsiu˦˦"],
-    osa: ["ištá", "iʃtá"],
+    osa: ["įįštá", "ĩːʃtá"],
     pmy: ['mata', 'ˈmata'],
     pot: ["shkishek", "ʃkiʃək"],
     pzh: ['daurik', 'dauɾik'],

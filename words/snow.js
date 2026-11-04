@@ -740,7 +740,7 @@ WORDS.snow = {
     nrf_gg: ["neis", "nɛ"],
     fra_jer: ["né", "ne"],
     gsw_w: ["Schnee", "ʃneː"],
-    huz: ["əᴴз", "ə̃z"],
+    huz: ["әᴴз", "ə̃z"],
     khv: ["иса", "isa"],
     kjj: ["ккыза", "kːɨza"],
     kqz: ["abas", "abas"],

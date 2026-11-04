@@ -1063,7 +1063,7 @@ WORDS.hundred = {
     bbl: ["ბაჰʼ", "baħ"],
     ter: ["póhuti séndu", "ˈpohuti ˈsendu"],
     bew: ["seratus", "səratus"],
-    huz: ["гьəᴴсчӏитӏ", "hə̃stʃʼitʼ"],
+    huz: ["гьәᴴсчӏитӏ", "hə̃stʃʼitʼ"],
     pqm: ["ʼqotatq", "kʷotatkʷ"],
     lun: ["nkulakaji", "nkulakadʒi"],
     kwk: ["lakʼa̱nd", "lakʼənd"],

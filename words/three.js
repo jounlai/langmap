@@ -1223,7 +1223,7 @@ WORDS.three = {
     mez: ["nɛqniw", "nɛʔniw"],
     nan_xm: ["三", "sã˦˦"],
     nan_zz: ["三", "sã˦˦"],
-    osa: ["ðaabrį", "ðaːbrĩ"],
+    osa: ["ðáabrį", "ðáːbrĩ"],
     pmy: ["tiga", "tiɡa"],
     pot: ["nswe", "nswə"],
     pzh: ["turu", "tuɾu"],

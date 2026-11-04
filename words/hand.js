@@ -491,7 +491,7 @@ WORDS.hand = {
     mez: ['onehkeh', 'onehkeh'],
     nan_xm: ['手', 'tsʰiu˥˧'],
     nan_zz: ['手', 'tsʰiu˥˧'],
-    osa: ["nǫbé", "nõbé"],
+    osa: ["šáake", "ʃáːke"],
     pmy: ['tangan', 'ˈtaŋan'],
     pot: ["nech", "nətʃ"],
     pzh: ['rima', 'ɾima'],

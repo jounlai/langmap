@@ -1103,7 +1103,7 @@ WORDS.black = {
     wbt: ["warrukurla", "warukuɭa"],
     bwi: ["íitta", "íit̪a"],
     moc: ["naweʔ", "naweʔ"],
-    huz: ["цӏəдилу", "tsʼədilu"],
+    huz: ["цӏәдилу", "tsʼədilu"],
     ude: ["палиғи", "paliɣi"],
     de_ch: ["schwarz", "ʃvarts"],
     de_lu: ["schwarz", "ʃvaʁts"],

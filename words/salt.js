@@ -1084,7 +1084,7 @@ WORDS.salt = {
     crn: ["unaj", "unah"],
     pao: ["ongabe", "oŋabe"],
     mez: ["sēwehtākan", "seːwehtaːkan"],
-    osa: ["niskúðe", "niskúðe"],
+    osa: ["níiskuðe", "níːskuðe"],
     pot: ["siwtagen", "siwtaɡən"],
     esu: ["taryuq", "taʁjuq"],
     ess: ["таӷьюӄ", "taɣjuq"],

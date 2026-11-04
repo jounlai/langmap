@@ -1176,7 +1176,7 @@ WORDS.fish = {
     nrf_gg: ["païssaon", "pajˈsɔ̃"],
     fra_jer: ["paîsson", "pɛˈsɔ̃"],
     gsw_w: ["Fisch", "fɪʃ"],
-    huz: ["бысə", "bɨsə"],
+    huz: ["бысә", "bɨsə"],
     khv: ["чугӏа", "tʃuʕa"],
     kjj: ["балыгъ", "balɨʁ"],
     kpf: ["iŋan", "iŋan"],

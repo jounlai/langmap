@@ -552,7 +552,7 @@ WORDS.head = {
     hot: ["wakadôk", "wakadok"],
     kjg: ["kəmpoŋ", "kəmpoŋ"],
     nmf: ["kui", "kui"],
-    xul: ["guddagong", "ɡuddaɡoŋ"],
+    xul: ["guddagong", "ɡudːaɡoŋ"],
     naq: ["danas", "danas"],
     ko_bus: ["머리", "mʌɾi"],
     ty: ["upoʻo", "upoʔo"],

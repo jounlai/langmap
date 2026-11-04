@@ -491,7 +491,7 @@ WORDS.heart = {
     mez: ['otēh', 'oteːh'],
     nan_xm: ["心", "sim˦˦"],
     nan_zz: ["心", "sim˦˦"],
-    osa: ['náⁿʒe', 'nã́ʒe'],
+    osa: ["ðą́ące", "ðã́ːtse"],
     pmy: ['hati', 'ˈhati'],
     pot: ["dé'", "deʔ"],
     pzh: ['baga', 'baɡa'],

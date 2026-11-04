@@ -1221,7 +1221,7 @@ WORDS.night = {
     mez: ["tepāhkeh", "tepaːhkeh"],
     nan_xm: ["暗暝", "am˨˩ mĩ˨˦"],
     nan_zz: ["暗暝", "am˨˩ mɛ̃˩˧"],
-    osa: ["hą́", "hã́"],
+    osa: ["hą́ą", "hã́ː"],
     pmy: ["malam", "malam"],
     pot: ["pkonyak", "pkoɲak"],
     pzh: ["xinian", "xinian"],

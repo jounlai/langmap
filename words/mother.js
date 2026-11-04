@@ -484,7 +484,7 @@ WORDS.mother = {
     mez: ['nekīah', 'nekiːah'],
     nan_xm: ["老母", "lau˨˨ bu˥˧"],
     nan_zz: ["老母", "lau˨˨ bu˥˧"],
-    osa: ['iną́', 'inã́'],
+    osa: ["iiną́", "iːnã́"],
     pmy: ['mama', 'ˈmama'],
     pot: ["ngiye", "ŋɡijə"],
     pzh: ['ina', 'ina'],

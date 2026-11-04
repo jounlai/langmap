@@ -2323,7 +2323,7 @@ WORDS.we = {
     nrf_gg: ["nous", "nu"],
     fra_jer: ["nous", "nu"],
     gsw_w: ["wier", "ʋiər"],
-    huz: ["илə", "ilə"],
+    huz: ["илә", "ilə"],
     khv: ["ила", "ila"],
     kjj: ["кин / йир", "kʰin / jir"],
     kpf: ["nen", "nen"],

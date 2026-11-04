@@ -1264,7 +1264,7 @@ WORDS.foot = {
     acw: ["رجل", "ridʒil"],  // As Egyptian.
     ada: ["nane", "nane"],  // Dangme nane is foot and leg alike: the Dangme Bible washes nanehi in John 13 and breaks nanehi in John 19, with nine as the hand beside it.
     adi: ["ale", "ale"],  // Lorrain's Abor-Miri dictionary glosses ale 'leg; foot'; each end needs its own compound on that root when they must be told apart, lepo the foot and letik the leg.
-    adt: ["idna", "idna"],  // McEntee & McKenzie give idna for the foot with murta 'leg, shin' and wiRa 'leg' beside it.
+    adt: ["idna", "itna"],  // McEntee & McKenzie give idna for the foot with murta 'leg, shin' and wiRa 'leg' beside it.
     adx: ["རྐང་པ་", "hkaŋwa"],  // ZMYYC files Bla-brang hkaŋ wa under both 'foot' and 'leg', and the Amdo Tibetan Spoken Language Dictionary heads the entry '1. foot 2. leg'.
     ady: ["лъакъо", "ɬaːˈqʷa"],  // лъакъо covers the lower limb; лъэгу is the sole, not the foot as such.
     aer: ["ingke", "iŋkə"],  // ingke is the foot throughout the Arrernte Bible and never the leg; John 19:32 renders 'broke their legs' as ngkwerne ultakeke, broke their bones, so the nearest leg term on record is ulyepere 'thigh'.
@@ -1997,7 +1997,7 @@ WORDS.foot = {
     orh: ["algan", "alɡan"],  // Li and Whaley's Oroqen vocabulary returns algan for the foot and for the leg alike, with bɔ:kan for the thigh; it is the word behind Evenki халган.
     orv: ["нога", "noɡa"],  // As cu: Common Slavic *nogà 'foot, leg' (Derksen), continued by the ru and uk rows, which are leg+foot here.
     os: ["фад", "fad"],  // фад is the foot; къах is the leg.
-    osa: ["si", "si"],  // La Flesche's Osage dictionary heads çi 'foot' and hiu 'a leg', and his wa-hiu 'bone' is this row's wahú, so Osage splits si from hu the way Dakota splits sihá from hú.
+    osa: ["síi", "síː"],  // La Flesche's Osage dictionary heads çi 'foot' and hiu 'a leg', and his wa-hiu 'bone' is this row's wahú, so Osage splits si from hu the way Dakota splits sihá from hú.
     osn: ["suku", "suku"],  // Old Sundanese suku covers the whole lower limb, as modern Sundanese does.
     osp: ["pie", "pje"],  // pie vs pierna.
     osx: ["fōt", "foːt"],  // Tiefenbach s.v. fōt; Old Saxon scinka glosses Latin tibia (OED s.v. shank).

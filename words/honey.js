@@ -1157,7 +1157,7 @@ WORDS.honey = {
     tus: ["ruʼtahke uthré:weh", "ɾuʔtahke uθɾeːweh"],
     kio: ["tʼèlséppènhà:", "tʼèlséppènhàː"],
     kwa: ["næ̃̂g", "næ̃̂ɡ"],
-    osa: ["hkilǫ́ɣemąį", "hkilṍɣemãĩ"],
+    osa: ["hkilǫ́xemą", "hkilṍxemã"],
     aiw: ["kuri", "kuri"],
     kgg: ["twi-yi gidaŋ", "twiji ɡidaŋ"],
     srb: ["adangda", "adaŋda"],

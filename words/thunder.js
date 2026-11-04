@@ -746,6 +746,20 @@ WORDS.thunder = {
     adt: "plain",
     mpj: "plain",
     wrh: "plain",
+    chf: "plain",
+    cni: "plain",
+    ame: "plain",
+    bzd: "plain",
+    gun: "plain",
+    ctu: "plain",
+    ter: "plain",
+    huv: "plain",
+    ote: "plain",
+    acu: "plain",
+    maz: "plain",
+    usp: "plain",
+    bor: "plain",
+    xav: "plain",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1438,5 +1452,19 @@ WORDS.thunder = {
     adt: ["arnrdu", "aɳʈu"],  // Adnyamathanha arnrdu 'thunder' (also awi arnrdu).
     mpj: ["jantaju", "cantacu"],  // Martu Wangka jantaju 'thunder'.
     wrh: ["muurruubarraay", "ˈmuːruːbaraːj"],  // Wiradjuri muurruubarraay 'thunder'.
+    chf: ["chawäk", "tʃawɨk"],  // The word in Mark 3:17 (Boanerges, 'sons of thunder': u ch'ocob chawäc), John 12:29 and Revelation 4:5 and 6:1 of the Chontal New Testament (spelled chawäc there). No image is recorded for it, so it counts as a word of its own.
+    cni: ["itirei", "itiɾei"],  // The word in John 12:29 (otirei 'it thundered') and Revelation 4:5 and 6:1 (itirei) of the Asháninka New Testament. No image is recorded for it, so it counts as a word of its own.
+    ame: ["t̃ecorena", "tʲekoɾena"],  // The word in John 12:29 (c̈hot̃eʼcaʼye t̃ecorena 'it thundered') and in Mark 3:17, where Boanerges is explained as T̃ecorenaʼtar 'thunder people', in the Yanesha New Testament. No image is recorded for it, so it counts as a word of its own.
+    bzd: ["alá", "alá"],  // The word in John 12:29 (alá blane 'it thundered'), Revelation 4:5 and 6:1 and Mark 3:17 (we̱s alá 'like thunder') of the Bribri New Testament. No image is recorded for it, so it counts as a word of its own.
+    gun: ["yapu", "ɨaˈpu"],  // The word in Mark 3:17 ('Yapu va'e ra'y kuery', sons of thunder), John 12:29, Revelation 4:5 and 6:1 of the Mbyá New Testament. No image is recorded for it, so it counts as a word of its own.
+    ctu: ["chajk", "tʃahk"],  // The word in Mark 3:17, John 12:29 and Revelation 4:5 and 6:1 of the Chol Bible (spelled chajc there). No image is recorded for it, so it counts as a word of its own.
+    ter: ["xururúkoti", "ʃuɾuˈɾukoti"],  // The word in John 12:29 and Revelation 4:5 of the Terena New Testament. No image is recorded for it, so it counts as a word of its own.
+    huv: ["monteok", "monteok"],  // The word in Mark 3:17 (Boanerges explained as 'sons of thunder', atearriür monteoc) and John 12:29 of the Huave New Testament (spelled monteoc there). No image is recorded for it, so it counts as a word of its own.
+    ote: ["ngani", "ŋani"],  // The word in Mark 3:17 ('ngu ra ngani', like thunder), John 12:29 and Revelation 4:5 and 6:1 of the Mezquital Otomi New Testament. No image is recorded for it, so it counts as a word of its own.
+    acu: ["ipiamta", "ipiamta"],  // The word in Mark 3:17 (ipiamta tumau 'like thunder'), John 12:29 (ipiamtarui 'it thundered') and Revelation 4:5 and 6:1 of the Achuar New Testament. No image is recorded for it, so it counts as a word of its own.
+    maz: ["yürü", "jɨɾɨ"],  // The word in Mark 3:17 ('nza cja ’ma yürü e dyebe'), John 12:29 (vi yürü 'it thundered') and Revelation 4:5 of the Mazahua New Testament. No image is recorded for it, so it counts as a word of its own.
+    usp: ["kyekuljaw", "kjekulχaw"],  // The word in Mark 3:17 (Boanerges, ralc'wal quiekuljaw 'sons of thunder'), John 12:29 and Revelation 4:5 and 6:1 of the Uspanteko New Testament (spelled quiekuljaw there; this row writes kye, as in kyeq). No image is recorded for it, so it counts as a word of its own.
+    bor: ["boeiaruru", "boeiaɾuɾu"],  // The word in Mark 3:17 ('Boeiaruru ore nure emage', sons of thunder), John 12:29 and Revelation 4:5 of the Bororo New Testament. No image is recorded for it, so it counts as a word of its own.
+    xav: ["rãrã", "ɾãˈɾã"],  // The word in John 12:29 (te wei rãrã 'it thundered') and Revelation 4:5 (ĩrãrã'ã) of the Xavante New Testament. No image is recorded for it, so it counts as a word of its own.
   },
 };

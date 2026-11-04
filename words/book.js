@@ -1117,5 +1117,6 @@ WORDS.book = {
     siz: ["təxtəmət", "təχtəmət"],  // From Arabic ḫatma, 'a copy of the Quran'.
     zh_jiao: ["书", "ʃu˨˩˧"],
     agt: ["lebru", "lebru"],  // From Spanish libro; the book of Isaiah in Luke 4:17 and the books in Revelation 20:12.
+    mcf: ["dada", "dada"],  // The word in Luke 4:17 and 4:20 (the book of the prophet Isaiah handed to Jesus and given back) of the Matsés New Testament.
   }
 };

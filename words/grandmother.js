@@ -660,6 +660,19 @@ WORDS.grandmother = {
     kos: "unknown",
     piu: "unknown",
     wbt: "unknown",
+    chf: "unknown",
+    bzd: "unknown",
+    gun: "unknown",
+    ctu: "unknown",
+    gym: "unknown",
+    gum: "unknown",
+    kgp: "unknown",
+    mxv: "unknown",
+    mcf: "unknown",
+    nch: "unknown",
+    nhw: "unknown",
+    ngu: "unknown",
+    usp: "unknown",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -1264,5 +1277,18 @@ WORDS.grandmother = {
     kos: ["nina matu", "nina matu"],  // Kosraean Bible, 2 Timothy 1:5: Lois nina matu kiom 'Lois your grandmother', beside Eunice nina kiom 'your mother' (nina 'mother').
     piu: ["kapaḻi", "kapaɭi"],  // Pintupi-Luritja Bible, 2 Timothy 1:5: nyuntupa kapaḻi yini Luwitjanya 'your grandmother, named Lois'.
     wbt: ["kami", "kami"],  // Warnman kami 'grandmother'.
+    chf: ["noxiʼnaʼ", "noʃiʔnaʔ"],  // From 2 Timothy 1:5 (a noxi'na' ix Loida, 'your grandmother Lois', beside a na' ix Eunice 'your mother'), with the possessive a stripped as in this row's mother naʼ. The Bible verse gives one word for grandmother and does not say whether the father's and the mother's mother are told apart.
+    bzd: ["wi̱ʼkela", "wĩʔkela"],  // From 2 Timothy 1:5 (be' wi̱'kela Loida 'your grandmother Lois', beside be' mì Eunice 'your mother'), without the possessive be'. The Bible verse gives one word for grandmother and does not say whether the father's and the mother's mother are told apart.
+    gun: ["jaryi", "ʒaɾɨˈi"],  // From 2 Timothy 1:5 (ndejaryi Lóide 'your grandmother Lois', beside ndexy Eunice 'your mother', this row's xy), without the possessive nde-. The Bible verse gives one word for grandmother and does not say whether the father's and the mother's mother are told apart.
+    ctu: ["chuʼchuʼ", "tʃuʔtʃuʔ"],  // From 2 Timothy 1:5 (a chu'chu' Loida 'your grandmother Lois', beside a ña' Eunice 'your mother', this row's ñaʼ), without the possessive a. The Bible verse gives one word for grandmother and does not say whether the father's and the mother's mother are told apart.
+    gym: ["mölöi", "mɤlɤi"],  // From 2 Timothy 1:5 (ma mölöi Loida 'your grandmother Lois', beside ma meye Eunice 'your mother', this row's meye), without the possessive ma. The Bible verse gives one word for grandmother and does not say whether the father's and the mother's mother are told apart.
+    gum: ["awela", "awela"],  // From 2 Timothy 1:5 (ñui awela Loida, beside ñui usri Eunice 'your mother', this row's usri), a loan from Spanish abuela. The Bible verse gives one word for grandmother and does not say whether the father's and the mother's mother are told apart.
+    kgp: ["vóvó", "wɔwɔ"],  // From 2 Timothy 1:5 (ã vóvó tỹ Lóide 'your grandmother Lois', beside ã mỹnh tỹ Eunice 'your mother', this row's mỹnh), a loan from Portuguese vovó. The Bible verse gives one word for grandmother and does not say whether the father's and the mother's mother are told apart.
+    mxv: ["xitan", "ʃitan"],  // From 2 Timothy 1:5 (ña xitan kun Loida 'your grandmother Lois', beside ña siꞌi kun Eunice 'your mother', this row's siʼi), without the possessive kun. The Bible verse gives one word for grandmother and does not say whether the father's and the mother's mother are told apart.
+    mcf: ["chichi", "tʃitʃi"],  // From 2 Timothy 1:5 (Aton chichi Doida, 'your grandmother Lois') of the Matsés New Testament. The Bible verse gives one word for grandmother and does not say whether the father's and the mother's mother are told apart.
+    nch: ["hueyi nana", "ˈweji ˈnana"],  // Literally 'big mother': 2 Timothy 1:5 has mohueyi nana, Loida 'your grandmother Lois' beside monana, Eunice 'your mother' (this row's nana). The Bible verse gives one word for grandmother and does not say whether the father's and the mother's mother are told apart.
+    nhw: ["hueyi nana", "ˈweji ˈnana"],  // Literally 'big mother': 2 Timothy 1:5 has mohueyi nana, Loida 'your grandmother Lois' beside monana, Eunice 'your mother' (this row's nana). The Bible verse gives one word for grandmother and does not say whether the father's and the mother's mother are told apart.
+    ngu: ["abuelita", "abweˈlita"],  // From 2 Timothy 1:5 (moabuelita Loida 'your grandmother Lois', beside monanaj Eunice 'your mother'), the Spanish abuelita borrowed into Guerrero Nahuatl. The Bible verse gives one word for grandmother and does not say whether the father's and the mother's mother are told apart.
+    usp: ["titʼ", "titʼ"],  // From 2 Timothy 1:5 (atit' Loida 'your grandmother Lois', beside anan Eunice 'your mother', this row's nan), without the possessive a-. The Bible verse gives one word for grandmother and does not say whether the father's and the mother's mother are told apart.
   },
 };

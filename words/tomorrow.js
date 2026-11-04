@@ -895,6 +895,14 @@ WORDS.tomorrow = {
     wbt: "morning",
     wrh: "morning",
     dbl: "plain",
+    chf: "plain",
+    cni: "plain",
+    ame: "unknown",
+    bzd: "plain",
+    mcf: "plain",
+    usp: "plain",
+    guc: "plain",
+    bor: "plain",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -1734,5 +1742,13 @@ WORDS.tomorrow = {
     wbt: ["yutakurlu", "jutakuɭu"],  // Warnman yutakurlu, glossed 'tomorrow, morning'.
     wrh: ["nguurruunggal", "ˈŋuːruːŋɡal"],  // Wiradjuri nguurruunggal, glossed 'morning, early, tomorrow, dawn'.
     dbl: ["ngulga", "ˈŋulɡa"],  // Dyirbal ŋulga 'tomorrow' (Dixon), in the row's practical spelling.
+    chf: ["ikʼä", "ikʼɨ"],  // The word in Matthew 6:34, James 4:13-14 and Luke 13:32 (dali y ic'ä 'today and tomorrow') of the Chontal New Testament. No image is recorded for it, so it counts as a word of its own.
+    cni: ["osaitekera", "osaitekeɾa"],  // The word in Matthew 6:34 (three times), James 4:13-14 and Luke 13:32 of the Asháninka New Testament (spelled osaitequera there). No image is recorded for it, so it counts as a word of its own.
+    ame: ["tsapat̃", "tsapatʲ"],  // The word in Matthew 6:34 (tsapat̃onet̃) and James 4:13-14 (tsapat̃chaʼ, tsapat̃onet̃) of the Yanesha New Testament; it resembles this row's night tsap, but no source analyses it.
+    bzd: ["bulebök", "bulebʊk"],  // The word in Matthew 6:34 and James 4:13 of the Bribri New Testament (Luke 13:32 has the short bule beside i̱'ñe 'today'). No image is recorded for it, so it counts as a word of its own.
+    mcf: ["badiad", "badiad"],  // The word in Matthew 6:34 (badiadën), James 4:14 and Luke 13:32 (badiadshun) of the Matsés New Testament, with its case endings removed. No image is recorded for it, so it counts as a word of its own.
+    usp: ["chwekʼ", "tʃwekʼ"],  // The word in Matthew 6:34, James 4:13 and Luke 13:32 (lajori, chwek' 'today, tomorrow') of the Uspanteko New Testament. No image is recorded for it, so it counts as a word of its own.
+    guc: ["mapeena", "mapeːna"],  // The word in Matthew 6:34 (twice) and James 4:13-14 of the Wayuu New Testament. No image is recorded for it, so it counts as a word of its own.
+    bor: ["barogwato", "baɾoɡwato"],  // The word in James 4:13-14 and Luke 13:32 of the Bororo New Testament. No image is recorded for it, so it counts as a word of its own.
   },
 };

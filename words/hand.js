@@ -771,7 +771,7 @@ WORDS.hand = {
     mic: ["ugpitn", "ukpidən"],
     pqm: ["ʼpihtin", "pihtin"],
     abe: ["melji", "meldʒi"],
-    umu: ["mléelii", "mleːliː"],
+    umu: ["naxk", "naxk"],
     crk: ["ᒥᒋᐦᒋᕀ", "mitʃihtʃij"],
     yur: ["chewes", "tʃewes"],
     lkt: ["napé", "napé"],

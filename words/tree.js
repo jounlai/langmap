@@ -489,7 +489,7 @@ WORDS.tree = {
     ckv: ['kasuy', 'kaˈsuj'],
     haj: ['gas', 'ɡas'],
     dtp_kzj: ["kazu", "kazu"],
-    mez: ['metekoh', 'metekoh'],
+    mez: ["maeqtek", "mæʔtek"],
     nan_xm: ["树", "tsʰiu˨˨"],
     nan_zz: ["树", "tsʰiu˨˨"],
     osa: ['žą́', 'ʒã́'],

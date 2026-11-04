@@ -1223,7 +1223,7 @@ WORDS.star = {
       txr: ["—", "—"],
     bew: ["bintang", "ˈbintaŋ"],
     ltg: ["zvaigzne", "ˈzvai̯ɡʲzʲnʲæ"],
-    djr: ["ganyu", "ɡaɲu"],
+    djr: ["ganyuʼ", "ɡaɲuʔ"],
     ie: ["stelle", "ˈstele"],
     io: ["stelo", "ˈstelo"],
     vls: ["sterre", "ˈstærə"],

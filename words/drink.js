@@ -771,7 +771,7 @@ WORDS.drink = {
     mic: ["esamqwat", "esamxʷat"],
     pqm: ["lossomu", "lossomu"],
     abe: ["minoda", "minoda"],
-    umu: ["mneew", "mneːw"],
+    umu: ["muneew", "məneːw"],
     crk: ["ᒥᓂᐦᑴᐤ", "minihkweːw"],
     yur: ["ʼahspekʼ", "ʔahʂpekʼ"],
     lkt: ["yatkáŋ", "jatkã́"],

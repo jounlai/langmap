@@ -771,7 +771,7 @@ WORDS.eat = {
     mic: ["mijjit", "mitʃːit"],
     pqm: ["mitsu", "mitsu"],
     abe: ["midjoda", "midʒoda"],
-    umu: ["mit", "mit"],
+    umu: ["miichuw", "miːtʃəw"],
     crk: ["ᒦᒋᓱᐤ", "miːtʃisow"],
     yur: ["nepekʼ", "nepekʼ"],
     lkt: ["yúta", "júta"],

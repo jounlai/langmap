@@ -1225,7 +1225,7 @@ WORDS.tongue = {
     ckv: ["rilam", "rilam"],
     haj: ["jiba", "dʒiba"],
     dtp_kzj: ["dilaʼ", "dilaʔ"],
-    mez: ["tēnaniw", "teːnaniw"],
+    mez: ["otǣnaniw", "otæːnaniw"],
     nan_xm: ["舌仔", "tsiʔ˦ a˥˧"],
     nan_zz: ["舌仔", "tsiʔ˩˨˩ a˥˧"],
     osa: ["ðéeze", "ðéːze"],

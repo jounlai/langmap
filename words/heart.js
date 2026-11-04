@@ -772,7 +772,7 @@ WORDS.heart = {
     mic: ["ukamlamun", "uɡamlamun"],
     pqm: ["moshun", "moshun"],
     abe: ["mlawôgan", "mlawɔ̃ɡan"],
-    umu: ["ulehyii", "əlehjiː"],
+    umu: ["ndah", "ndah"],
     crk: ["ᒥᑌᐦ", "miteːh"],
     yur: ["chekws", "tʃekʷʂ"],
     lkt: ["čhaŋté", "tʃʰãté"],

@@ -489,7 +489,7 @@ WORDS.name = {
       ckv: ["nangan", "naŋan"],
       haj: ["nam", "nam"],
       dtp_kzj: ["ngaan", "ŋaan"],
-      mez: ["-esian", "esian"],
+      mez: ["niwīhswan", "niwiːhswan"],
       nan_xm: ["名", "miã˨˦"],
       nan_zz: ["名", "miã˩˧"],
       osa: ["žáže", "ʒáʒe"],

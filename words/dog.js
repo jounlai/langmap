@@ -93,7 +93,7 @@ WORDS.dog = {
       hop: ["pòoko", "pòːko"],
       com: ["sarii", "saɾiː"],
       one: ["é:lhal", "éːlhal"],
-      ono: ["—", "—"],
+      ono: ["jí:hah", "dʒíːhah"],
       win: ["šųųk", "ʃũːk"],
       cro: ["bishké", "biʃké"],
       hai: ["x̱a", "χa"],

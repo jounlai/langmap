@@ -763,7 +763,7 @@ WORDS.fire = {
     mic: ["puktew", "buktew"],
     pqm: ["sqot", "skʷot"],
     abe: ["skweda", "skʷeda"],
-    umu: ["lúhsuw", "ləhsəw"],
+    umu: ["tundeew", "təndeːw"],
     crk: ["ᐃᐢᑯᑌᐤ", "iskoteːw"],
     yur: ["mech", "metʃ"],
     lkt: ["pȟéta", "pˣéta"],

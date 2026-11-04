@@ -1077,7 +1077,7 @@ WORDS.father = {
     ium: ["diex", "tie˨˧"],
     hui: ["aba", "aba"],
     tkl: ["tamana", "tamana"],
-    squ: ["smas", "smas"],
+    squ: ["man", "man"],
     mga: ["athair", "aθirʲ"],
     hbo: ["אב", "ʔɔːv"],
     he_mis: ["אב", "ʔav"],

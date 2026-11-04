@@ -771,7 +771,7 @@ WORDS.eye = {
     mic: ["ugpugugw", "ukpuɡuɡʷ"],
     pqm: ["ʼsisoq", "sisokʷ"],
     abe: ["msizukw", "msizukʷ"],
-    umu: ["wíikšiit", "wiːkʃiːt"],
+    umu: ["nooskíinjukw", "noːskiːndʒəkw"],
     crk: ["ᒥᐢᑮᓯᐠ", "miskiːsik"],
     yur: ["ʼne-leen", "ʔnelin"],
     lkt: ["ištá", "iʃtá"],

@@ -525,7 +525,7 @@ WORDS.thunder = {
     szy: "unknown",
     acf: "other",
     swb: "unknown",
-    adx: "unknown",
+    adx: "other",
     nan_xm: "god",
     nan_zz: "god",
     nan_ph: "god",

@@ -317,7 +317,7 @@ WORDS.sunflower = {
     to: "turn",
     nv: "turn",
     co: "turn",
-    ja_oki: "unknown",
+    ja_oki: "sun",
     cnh: "sun",
     gag: "turn",
     ty: "sun",

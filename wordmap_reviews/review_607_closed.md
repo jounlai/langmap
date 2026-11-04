@@ -44,3 +44,13 @@ Hokkien orange 柑仔 → 橙 (nan_xm, nan_qz, nan_zz, nan_hai) and 柳丁 (nan)
 (tone converted by inference), nan_pn 橙 (Wiktionary doesn't name Penang), zh_jh 雀子,
 czh 洋芋頭, yue_nn 雀仔 (no reading). vi Adam's apple yết hầu kept (VDict); km cuckoo
 kept with a koel note. LEXICAL_IMPORT_DEBT 31.
+
+## Route review (plain / unknown cells, East and SE Asia)
+~900 cells checked against stated etymologies. Applied: adx thunder འབྲུག unknown → other
+(same word as 'dragon', as already routed in bo/khg/xct/dz); ja_oki sunflower ひーぐるま
+unknown → sun (日車 'sun-wheel', the cell's own note). Not applied: images read only from
+characters (Min/Hakka bat …婆, hiccup 噎, zh_cd 虰虰猫儿), Balinese lawah (inherited
+'flying squirrel' word, not an image), wuu_wz 皮翼 (meaning unconfirmed).
+Ryukyuan rows vs JLect: 101 cells, no wrong sense. Open policy: te-form verb cells in
+Japanese dialect rows (食って/飲んで/良くて) vs dictionary forms; ja_aom eye (Tōhoku
+managu?); ja_mvi fire pɨː vs Hirara umatsï.

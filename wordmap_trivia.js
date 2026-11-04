@@ -5025,6 +5025,1705 @@ const TRIVIA_ARTICLES = [
         "url": "https://en.wiktionary.org/wiki/トマト"
       }
     ]
+  },
+  {
+    "id": "coffee-one-word",
+    "icon": "☕",
+    "tags": [
+      "food",
+      "etymology",
+      "trade"
+    ],
+    "title": {
+      "en": "Coffee: One Word for the Planet, Except Its Homeland",
+      "ja": "コーヒー：世界で一語、ただし故郷を除く"
+    },
+    "summary": {
+      "en": "Tea split the world in two. Coffee did not: nearly every language uses one word, and it once meant wine. The exception is Ethiopia, where the plant comes from.",
+      "ja": "お茶は世界を二つに割ったが、コーヒーは割らなかった。ほとんどの言語が同じ語を使い、その語のもとの意味はワインである。例外は原産地エチオピアだ。"
+    },
+    "body": {
+      "en": "<p>Almost the whole world orders coffee with the same word. On the map 624 cells go back to Arabic <strong>قهوة</strong>, against 12 on a second route and 20 others. Tea split the planet down the middle. Coffee barely split at all, and the small patch that holds out is the place the plant came from.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"coffee\" data-code=\"en\">🗺️ Show coffee on the map</button></div><h3>From wine to coffee</h3><p>The word is older than the drink. Medieval Arabic dictionaries took <em>qahwah</em> to mean wine, and explained it with a root about losing appetite. Ibn Manzur said it was so named because it fills the drinker and takes away his desire. Other scholars think the word first meant something dark, or a brew. Either way the name passed from one thing you drink in company to another. The earliest reliable reports of coffee come from the Sufis of Yemen in the middle of the 15th century.</p><p>From there the route is easy to follow. Ottoman Turkish made it <strong>kahve</strong>, Italian <strong>caffè</strong> and Dutch <strong>koffie</strong>, and English took <strong>coffee</strong> from the Dutch in 1582. Swahili <strong>kahawa</strong> came straight from Arabic, and Polish <strong>kawa</strong> is on the same road. Malay <strong>kopi</strong> goes back through Dutch, so the Arabic word reached Southeast Asia with a European accent. Japanese <strong>コーヒー</strong> is on the same road.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,it,nl,en,pl,sw,ms,ja\" data-word=\"coffee\">🗣 Compare the qahwa road</button></div><h3>The homeland</h3><p>Then comes the homeland. <em>Coffea arabica</em> is Ethiopian, and the languages of the highlands have a word of their own: Amharic <strong>ቡና</strong>, Oromo <strong>buna</strong>, Tigrinya <strong>ቡን</strong>, Harari <strong>bun</strong>. Konso <strong>punitta</strong> looks like a stranger, but it is the same word behind a regular sound change, because Konso has <em>p</em> where Oromo has <em>b</em>. Its word for water, <em>pishaa</em>, matches Oromo <em>bishaan</em> the same way.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"am,om,ti,har,kxc\" data-word=\"coffee\">🗣 Compare the Ethiopian names</button></div><p>Along the Red Sea the two names divide the job. Old word lists for Blin and Beja give <em>bun</em> for the bean and a form of <em>qahwa</em> for the drink. A Somali dictionary keeps the same line: <em>bun</em> is the tree and its fruit, and the cup is <em>qaxwo</em>. So the people who grew it named the plant, and the people who brewed it named the drink. Harari shows how far the Arabic word could stretch. There <em>qahwa</em> is any hot infusion, even one made from tea leaves, so coffee is <em>bun qahwa</em>, a bean brew. Ethiopia also slipped a word back the other way: Sudanese Arabic <em>jabana</em>, the spiced coffee ritual, comes from the Ge’ez word for the coffee pot.</p><h3>Outside both routes</h3><p>A few rows sit outside both routes. Armenian <strong>սուրճ</strong> has been on record since 1769, and nobody knows where it comes from. Wolaytta <strong>tukkiya</strong>, in a coffee-growing part of Ethiopia, appears to belong to neither family. The last surprise is in South Asia. Urdu orders coffee as <strong>کافی</strong>, because <em>qahva</em> there means green tea. After wine and coffee, that is the old word’s third drink.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hy,wal,ur\" data-word=\"coffee\">🗣 Compare the outsiders</button></div>",
+      "ja": "<p>世界中のほとんどの人が、同じ言葉でコーヒーを注文している。地図では624セルがアラビア語<strong>قهوة</strong>にさかのぼり、第二の系統は12セル、その他は20セルしかない。お茶の呼び名は世界を真っ二つに分けたが、コーヒーはほとんど分かれなかった。わずかに抵抗している一角が、この植物のふるさとである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"coffee\" data-code=\"en\">🗺️ 地図でコーヒーを表示</button></div><h3>ワインからコーヒーへ</h3><p>言葉は飲み物より古い。中世アラビア語の辞書は<em>qahwah</em>をワインの意味とし、食欲がなくなることを表す語根で説明した。イブン・マンズールは、飲む人を満たして欲を失わせるのでこう呼ぶのだと書いている。もとは「黒っぽいもの」や「煎じたもの」だったと考える学者もいる。いずれにせよ、名前は人が集まって飲むものから、別の飲み物へ移った。コーヒーについて確かな記録が現れるのは15世紀半ばで、イエメンのスーフィーの間のことである。</p><p>その先の道はたどりやすい。オスマン語で<strong>kahve</strong>、イタリア語で<strong>caffè</strong>、オランダ語で<strong>koffie</strong>となり、英語の<strong>coffee</strong>は1582年にオランダ語から入った。スワヒリ語<strong>kahawa</strong>はアラビア語から直接入り、ポーランド語<strong>kawa</strong>も同じ道の上にある。マレー語<strong>kopi</strong>はオランダ語を経ているので、アラビア語の語はヨーロッパなまりで東南アジアに着いたことになる。日本語の<strong>コーヒー</strong>も同じ道の上にある。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,it,nl,en,pl,sw,ms,ja\" data-word=\"coffee\">🗣 qahwaの道を比べる</button></div><h3>故郷</h3><p>そして故郷である。<em>Coffea arabica</em>はエチオピアの植物で、高原の言語には自前の語がある。アムハラ語<strong>ቡና</strong>、オロモ語<strong>buna</strong>、ティグリニャ語<strong>ቡን</strong>、ハラリ語<strong>bun</strong>。コンソ語<strong>punitta</strong>は別物に見えるが、音の規則的な変化を経た同じ語だ。オロモ語の<em>b</em>はコンソ語では<em>p</em>になる。水を指す<em>pishaa</em>とオロモ語<em>bishaan</em>も同じ関係である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"am,om,ti,har,kxc\" data-word=\"coffee\">🗣 エチオピアの名を比べる</button></div><p>紅海沿いでは、二つの名が仕事を分け合っている。ビリン語とベジャ語の古い語彙集は、豆を<em>bun</em>、飲み物を<em>qahwa</em>の類としている。ソマリ語の辞書も同じ線を引き、<em>bun</em>は木とその実、一杯のコーヒーは<em>qaxwo</em>である。育てた人々が植物に名をつけ、いれた人々が飲み物に名をつけたわけだ。ハラリ語ではアラビア語の語がさらに広がり、<em>qahwa</em>は茶葉のものも含めて熱い煎じ汁全般を指す。だからコーヒーは<em>bun qahwa</em>、豆の煎じ汁である。エチオピアから逆に渡った語もあり、スーダンのアラビア語で香辛料入りのコーヒーの作法を指す<em>jabana</em>は、コーヒーポットを意味するゲエズ語から来ている。</p><h3>二つの系統の外</h3><p>どちらの系統にも入らない行もある。アルメニア語<strong>սուրճ</strong>は1769年から記録があるが、語源は誰にもわからない。エチオピアのコーヒー産地の言語、ウォライタ語の<strong>tukkiya</strong>も、どちらの系統でもないらしい。最後の驚きは南アジアにある。ウルドゥー語でコーヒーを頼むなら<strong>کافی</strong>と言う。そこでは<em>qahva</em>が緑茶を意味するからだ。ワイン、コーヒーに続いて、この古い語の三つ目の飲み物である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hy,wal,ur\" data-word=\"coffee\">🗣 系統の外の名を比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"Coffee\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Coffee"
+      },
+      {
+        "text": "\"قهوة\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/قهوة"
+      },
+      {
+        "text": "\"kahawa\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/kahawa"
+      },
+      {
+        "text": "\"kopi\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/kopi"
+      },
+      {
+        "text": "\"սուրճ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/սուրճ"
+      }
+    ]
+  },
+  {
+    "id": "chocolate-nahuatl",
+    "icon": "🍫",
+    "tags": [
+      "food",
+      "columbian-exchange",
+      "etymology"
+    ],
+    "title": {
+      "en": "Chocolate: The Nahuatl Word Nahuatl Cannot Have",
+      "ja": "チョコレート：ナワトル語に載せられないナワトル語"
+    },
+    "summary": {
+      "en": "The word conquered the world from Mexico. The popular story of where it came from is unattested, and the map’s Classical Nahuatl row has no cell for it.",
+      "ja": "この語はメキシコから世界を制した。しかし有名な語源説の形は記録になく、地図の古典ナワトル語の行にこのセルはない。"
+    },
+    "body": {
+      "en": "<p>The map has a row for Classical Nahuatl with 70 cells in it, and none of them is chocolate. That gap is deliberate. The language that gave the world the word is the one language on the map that cannot have it. The reason is a story about a popular etymology and the difference between a food and a drink.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"chocolate\" data-code=\"en\">🗺️ Show chocolate on the map</button></div><h3>Bitter water, or a stick?</h3><p>Every popular account gives the same source: <em>xocolātl</em>, from <em>xococ</em>, “bitter”, and <em>ātl</em>, “water”. It sounds right, and it appears in plenty of books. The trouble is that the form is not attested anywhere. Dakin and Wichmann argued in 2000 that the source is <em>chicolātl</em>, built on <em>chicolli</em>, the stick the drink was beaten with. Their case against the bitter water is a matter of sound: Nahuatl does not turn the <em>sh</em> of <em>xoco-</em> into <em>ch</em> in this position. The stick may well have been what people named.</p><p>The dates add to the difficulty. <em>Chocolatl</em> itself does not turn up in Nahuatl until the middle of the 18th century, which is two centuries too late for a row covering the 16th and 17th. Hernán Cortés may have been the first European to meet the drink, at the court of Moctezuma II in 1520. What 16th-century Mexico had was that drink, and the map’s word is the food, the bar, which is defined so as to leave out hot chocolate, the bean and the tree.</p><h3>Almost one word</h3><p>The word itself had no such trouble. It is a Spanish loanword, first recorded in English in 1604, and it then passed from language to language with very little damage. Spanish <strong>chocolate</strong>, French <strong>chocolat</strong>, German <strong>Schokolade</strong>, Italian <strong>cioccolato</strong>, Russian <strong>шоколад</strong> and Hebrew <strong>שוקולד</strong> could almost be spelling variants. Few words on the map are this close to universal.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"es,fr,de,it,ru,he\" data-word=\"chocolate\">🗣 Compare the near-identical forms</button></div><h3>Two spellings, one word</h3><p>The fun is at the edges, where the sounds did not fit. Finnish <strong>suklaa</strong> came through Swedish <em>choklad</em>, said with a <em>sh</em>, and it now looks like a different word. Japanese <strong>チョコレート</strong> and Korean <strong>초콜릿</strong> keep every syllable, and Japanese then clips the whole thing to <em>choko</em> in speech. China has two spellings of one English word. Mandarin <strong>巧克力</strong> was first used in Shanghainese, and Cantonese <strong>朱古力</strong> started in Cantonese. Read in Cantonese, 巧克力 comes out as <em>haau2 hak1 lik6</em>, a long way from chocolate.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,ja,ko,zh,yue\" data-word=\"chocolate\">🗣 Compare the edges</button></div><p>Neither spelling means anything to do with sweets, and that may be the neatest thing about them. Both reached Chinese through English. So a word from Mexico, carried by Spaniards and passed on by the English, ended up in Shanghainese and Cantonese as two forms that are each other’s doublets. Nahuatl, meanwhile, waits at the far end of the chain, perhaps with a stick in its hand.</p>",
+      "ja": "<p>地図の古典ナワトル語の行には70のセルがあるが、チョコレートはない。わざと空けてある。世界にこの語を与えた言語が、この地図でただ一つ、この語を持てない言語なのだ。理由は、有名な語源説と、食べ物と飲み物の違いにある。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"chocolate\" data-code=\"en\">🗺️ 地図でチョコレートを表示</button></div><h3>苦い水か、棒か</h3><p>どの読み物も同じ語源を挙げる。<em>xocolātl</em>、「苦い」<em>xococ</em>と「水」<em>ātl</em>である。いかにもありそうで、本にもよく載っている。困ったことに、この形はどこにも記録がない。ダキンとヴィクマンは2000年に、もとは<em>chicolātl</em>で、飲み物をかき混ぜる棒<em>chicolli</em>から来たと論じた。苦い水の説への反論は音の問題で、ナワトル語ではこの位置で<em>xoco-</em>の「シュ」が「チュ」に変わらないという。名づけられたのは味ではなく、棒だったのかもしれない。</p><p>年代も話を難しくする。<em>chocolatl</em>という形がナワトル語に現れるのは18世紀半ばで、16、17世紀を扱う行には二百年遅い。この飲み物に最初に出会ったヨーロッパ人は、1520年にモクテスマ2世の宮廷にいたエルナン・コルテスかもしれない。16世紀のメキシコにあったのはその飲み物で、地図の語が指すのは食べ物の板チョコである。定義の上でも、ココア、豆、木は除かれている。</p><h3>ほとんど一つの語</h3><p>語そのものには、こんな苦労はなかった。スペイン語からの借用語で、英語の初出は1604年、その後は言語から言語へ、ほとんど傷つかずに渡っていった。スペイン語<strong>chocolate</strong>、フランス語<strong>chocolat</strong>、ドイツ語<strong>Schokolade</strong>、イタリア語<strong>cioccolato</strong>、ロシア語<strong>шоколад</strong>、ヘブライ語<strong>שוקולד</strong>は、つづりの違いと言ってもいいほどだ。地図の中でも、これほど世界共通に近い語は多くない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"es,fr,de,it,ru,he\" data-word=\"chocolate\">🗣 そっくりな形を比べる</button></div><h3>二つの字、一つの語</h3><p>おもしろいのは音が合わなかった端のほうである。フィンランド語<strong>suklaa</strong>はスウェーデン語<em>choklad</em>を経た語で、別の語のように見える。日本語の<strong>チョコレート</strong>と朝鮮語の<strong>초콜릿</strong>は音節をすべて保ち、日本語はさらに話し言葉で「チョコ」に切り詰めた。中国語には同じ英語の書き方が二つある。<strong>巧克力</strong>は上海語で使われ始め、<strong>朱古力</strong>は広東語で生まれた。巧克力を広東語で読むと<em>haau2 hak1 lik6</em>となり、チョコレートからはずいぶん遠い。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,ja,ko,zh,yue\" data-word=\"chocolate\">🗣 端のほうを比べる</button></div><p>どちらの字にも、お菓子らしい意味はない。どちらも英語を通って中国語に入った。メキシコから出て、スペイン人に運ばれ、イギリス人に渡された語が、上海語と広東語で別々の形になったのである。ナワトル語はその長い鎖の向こう端で、もしかすると棒を手にして待っている。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"Chocolate\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Chocolate"
+      },
+      {
+        "text": "\"History of chocolate\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/History_of_chocolate"
+      },
+      {
+        "text": "\"suklaa\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/suklaa"
+      },
+      {
+        "text": "\"巧克力\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/巧克力"
+      },
+      {
+        "text": "\"朱古力\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/朱古力"
+      }
+    ]
+  },
+  {
+    "id": "sugar-chinese-indian",
+    "icon": "🍬",
+    "tags": [
+      "food",
+      "etymology",
+      "trade"
+    ],
+    "title": {
+      "en": "Sugar: India Gave the Word and Took Back “Chinese”",
+      "ja": "砂糖：語を贈ったインドが「中国の」と呼ぶまで"
+    },
+    "summary": {
+      "en": "A Sanskrit word for gravel reached almost every language. India itself now asks for the sweet stuff by a word that means Chinese.",
+      "ja": "砂利を意味するサンスクリットの語が、ほとんどの言語に届いた。そのインドは今、白い砂糖を「中国の」という語で呼んでいる。"
+    },
+    "body": {
+      "en": "<p>Ask for sugar in Hindi and you say <strong>चीनी</strong>, “Chinese”. That is a remarkable thing for an Indian language to say, because India gave the world its word for sugar, and sugar was first produced there. The word <em>cīnī</em> is built on the name of China with an ordinary adjective ending, and the map’s note credits the refining technique. The same word is the Hindi for a Chinese person, as in the old slogan हिन्दी चीनी भाई भाई, “Indians and Chinese are brothers”. So the country that started it all names the white stuff after somewhere else.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"sugar\" data-code=\"hi\">🗺️ Show sugar on the map</button></div><h3>Gravel</h3><p>The famous word is Sanskrit <em>śarkarā</em>, which also meant grit and gravel. Those were the crystals. It went west as Persian <strong>شکر</strong> and Arabic <strong>سكر</strong>, and Medieval Latin took it from there, giving English <strong>sugar</strong>, French <strong>sucre</strong> and German <strong>Zucker</strong>, then Turkish <strong>şeker</strong> and Polish <strong>cukier</strong>. With 423 cells this is the biggest route on the map. Wiktionary adds a piece of family gossip: the word is akin to Greek <em>krókē</em>, “pebble”, the same pebble behind <em>crocodile</em>. English <em>jaggery</em>, the coarse brown sugar, is another offshoot of <em>śarkarā</em>, by way of Malayalam or Tamil and the Portuguese.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,fr,ar,fa,tr,pl\" data-word=\"sugar\">🗣 Compare the śarkarā road</button></div><p>Spain and Portugal took more than they needed. They borrowed the Arabic word with its article attached, <em>as-sukkar</em>, so Spanish <strong>azúcar</strong> and Portuguese <strong>açúcar</strong> literally say “the sugar” before you add your own article. Spanish then carried it to the Philippines, where it became Tagalog <strong>asukal</strong>. That route has 104 cells. Maltese is the odd one. It is a Semitic language that could have kept the Arabic form, but <strong>zokkor</strong> came back through Sicilian with the article gone.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"es,pt,tl,mt\" data-word=\"sugar\">🗣 Compare the Arabic article</button></div><h3>The other Chinese word</h3><p>The Chinese route, with 30 cells, sits right on top of the older one. Hindi, Bengali <strong>চিনি</strong> and Sinhala <strong>සීනි</strong> are on it. Directly beside them, Marathi <strong>साखर</strong> and Tamil <strong>சர்க்கரை</strong> are still on <em>śarkarā</em> and never left home.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hi,bn,si,mr,ta\" data-word=\"sugar\">🗣 Compare neighbours on two routes</button></div><h3>Three more Sanskrit words, and one Chinese</h3><p>Sanskrit had more to give. <em>Khaṇḍa</em>, “piece”, went west through Persian <em>kand</em> and Arabic, and came out as English <em>candy</em>, so sugar and candy are two Sanskrit words that took different roads. Punjabi <strong>ਖੰਡ</strong> kept it at home, and Kazakh <strong>қант</strong> took it back east through Persian. <em>Guḍa</em>, “jaggery”, went southeast and became Malay <strong>gula</strong>, on a route of 26 cells.</p><p>And then there is the country in Hindi’s word. China did not import a name at all. <strong>糖</strong> is its own, and with 103 cells it carried into Japanese <strong>砂糖</strong>, Korean <strong>설탕</strong> and Vietnamese <strong>đường</strong>. Thai went somewhere else again: <strong>น้ำตาล</strong> comes from the palmyra palm, and the <em>-taan</em> at the end is the tree, not Chinese 糖, however much it sounds like it.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ms,zh,ja,ko,vi,th\" data-word=\"sugar\">🗣 Compare the eastern names</button></div>",
+      "ja": "<p>ヒンディー語で砂糖を頼むと<strong>चीनी</strong>、つまり「中国の」と言うことになる。これはなかなかの話で、世界に砂糖の語を与えたのはインドであり、最初に砂糖が作られたのもインドなのだ。<em>cīnī</em>は中国の国名にふつうの形容詞語尾をつけた語で、地図の注は精製の技術に由来するとしている。同じ語は中国人のことでもあり、かつての標語「हिन्दी चीनी भाई भाई」は「インド人と中国人は兄弟」の意味である。すべてを始めた国が、白い砂糖をよその国の名で呼んでいるわけだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"sugar\" data-code=\"hi\">🗺️ 地図で砂糖を表示</button></div><h3>砂利</h3><p>有名なのはサンスクリットの<em>śarkarā</em>で、砂利や小石の意味もあった。結晶のことだ。西へ向かってペルシア語<strong>شکر</strong>、アラビア語<strong>سكر</strong>となり、中世ラテン語がこれを受け取って、英語<strong>sugar</strong>、フランス語<strong>sucre</strong>、ドイツ語<strong>Zucker</strong>が生まれた。トルコ語<strong>şeker</strong>、ポーランド語<strong>cukier</strong>も同じである。423セルで、地図で最大の系統だ。ウィクショナリーにはおまけの話もあり、この語はギリシャ語<em>krókē</em>「小石」と親戚で、<em>crocodile</em>の語源にあるのも同じ小石だという。粗糖を指す英語<em>jaggery</em>も<em>śarkarā</em>の子孫で、マラヤーラム語かタミル語とポルトガル語を経ている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,fr,ar,fa,tr,pl\" data-word=\"sugar\">🗣 śarkarāの道を比べる</button></div><p>スペインとポルトガルは余計なものまで借りた。アラビア語を冠詞ごと、<em>as-sukkar</em>の形で取り入れたのだ。スペイン語<strong>azúcar</strong>とポルトガル語<strong>açúcar</strong>には、すでに「その」が入っている。スペイン語はこれをフィリピンへ運び、タガログ語<strong>asukal</strong>になった。この系統は104セルある。変わっているのはマルタ語で、セム系の言語なのに、<strong>zokkor</strong>は冠詞の取れた形でシチリア語から戻ってきた。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"es,pt,tl,mt\" data-word=\"sugar\">🗣 アラビア語の冠詞を比べる</button></div><h3>もう一つの「中国」</h3><p>「中国の」系統は30セルで、古い系統のすぐ隣にある。ヒンディー語、ベンガル語<strong>চিনি</strong>、シンハラ語<strong>සීනි</strong>がここに入る。そのすぐ横で、マラーティー語<strong>साखर</strong>とタミル語<strong>சர்க்கரை</strong>は今も<em>śarkarā</em>のままで、一度も家を出ていない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hi,bn,si,mr,ta\" data-word=\"sugar\">🗣 二つの系統の隣人を比べる</button></div><h3>サンスクリットの三語と、中国の一語</h3><p>サンスクリットにはまだ語がある。「かけら」を意味する<em>khaṇḍa</em>はペルシア語<em>kand</em>とアラビア語を経て西へ行き、英語の<em>candy</em>になった。砂糖とキャンディは、別々の道を通った二つのサンスクリットの語なのだ。パンジャーブ語<strong>ਖੰਡ</strong>は家に残り、カザフ語<strong>қант</strong>はペルシア語を経て東へ戻った。「粗糖」の<em>guḍa</em>は東南へ行き、マレー語<strong>gula</strong>になった。こちらは26セルである。</p><p>そして、ヒンディー語に名を貸した国である。中国は名を輸入しなかった。<strong>糖</strong>は自前の語で、103セルを占め、日本語<strong>砂糖</strong>、朝鮮語<strong>설탕</strong>、ベトナム語<strong>đường</strong>へ伝わった。タイ語はまた別の道を行く。<strong>น้ำตาล</strong>はオウギヤシから来た語で、語末の<em>-taan</em>は木の名である。中国語の糖によく似た音だが、関係はない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ms,zh,ja,ko,vi,th\" data-word=\"sugar\">🗣 東の名を比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"Sugar\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Sugar"
+      },
+      {
+        "text": "\"sugar\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/sugar"
+      },
+      {
+        "text": "\"jaggery\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/jaggery"
+      },
+      {
+        "text": "\"candy\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/candy"
+      },
+      {
+        "text": "\"चीनी\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/चीनी"
+      },
+      {
+        "text": "\"gula\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/gula"
+      }
+    ]
+  },
+  {
+    "id": "tea-two-roads",
+    "icon": "🍵",
+    "tags": [
+      "food",
+      "etymology",
+      "trade"
+    ],
+    "title": {
+      "en": "Tea: Two Words, and You Can Tell Which Way It Came",
+      "ja": "お茶：二つの語で、来た道がわかる"
+    },
+    "summary": {
+      "en": "If your word for tea sounds like te, it probably came by sea. If it sounds like cha, it probably came over land. Then there are Portugal, Poland and Burma.",
+      "ja": "「テ」に聞こえるなら海から、「チャ」に聞こえるなら陸から来たのだろう。そこへポルトガル、ポーランド、ビルマが割り込んでくる。"
+    },
+    "body": {
+      "en": "<p>Tell the map what you call tea and it will tell you, roughly, how tea reached you. The map has 352 cells on one route and 331 on the other, with only 34 left over, and both routes begin at the same character, 茶. It was read one way in most of China and another way on the southern coast, and the traders of the world picked up whichever one they met.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"tea\" data-code=\"en\">🗺️ Show tea on the map</button></div><h3>By sea</h3><p>The sea word is the coastal one. Min Chinese said <em>tê</em>, and the Dutch took it in the 17th century, either straight from Min speakers or by way of Malay <strong>teh</strong>. They dominated the early European tea trade, so Europe learned the word from them: Dutch <strong>thee</strong>, French <strong>thé</strong>, German <strong>Tee</strong>, Spanish <strong>té</strong> and English <strong>tea</strong>.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,fr,de,nl,es,ms\" data-word=\"tea\">🗣 Compare the sea word</button></div><p>The land word is the northern one. <em>Chá</em> passed overland to Central Asia and Persia, where it may have picked up a Persian ending, and that is the form behind Russian <strong>чай</strong>, Arabic <strong>شاي</strong>, Turkish <strong>çay</strong> and Hindi <strong>चाय</strong>. Swahili <strong>chai</strong> is on this route too, and so, from the same northern reading, are Japanese <strong>お茶</strong> and Korean <strong>차</strong>. It explains the coffee-shop oddity of a <em>chai tea</em>, which, put through the map, says tea twice.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ru,ar,tr,hi,sw,pt\" data-word=\"tea\">🗣 Compare the land word</button></div><h3>Portugal, the exception</h3><p>Portugal spoils the neat rule. The Portuguese came by sea, but they traded at Macao, where Cantonese also says <em>cha</em>, so Portuguese <strong>chá</strong> is a sea word with a land shape. English had that form first. <em>Cha</em> arrived in the 1590s through the Portuguese, and the Dutch <em>tea</em> only took over in the 17th century. The Dutch first brought the drink itself to England in 1644, and Wiktionary still lists <em>cha</em> as an English word.</p><h3>Poland and Burma</h3><p>Poland spoils it in another way. The Polish for tea is <strong>herbata</strong>, and Lithuanian has <strong>arbata</strong>. These go back to Dutch <em>herba thee</em>, “tea herb”, though a minority prefers Latin <em>herba thea</em>. So the word is a sea word hiding behind a herb. The Polish kettle, however, is a <em>czajnik</em>, from Russian. A Polish kitchen has one word from each route, the kettle from the land and the drink from the sea.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"pl,lt,my\" data-word=\"tea\">🗣 Compare the exceptions</button></div><p>Burma did not take either road. Burmese <strong>လက်ဖက်ရည်</strong> is <em>lahpet</em>, the tea plant, plus a word for liquid. The map once filed it under the Latin family until a reader pointed out the mistake. <em>Lahpet</em> goes back to Proto-Sino-Tibetan <em>*s-la</em>, “leaf”, the same old word behind 茶 itself. So Burmese kept the leaf’s own name and never needed a trader to bring it, which gives the route its 25 cells and the most honest label on the map: neither route, just the leaf.</p>",
+      "ja": "<p>お茶を何と呼ぶか教えてくれれば、地図はそのお茶がどう届いたかを大まかに教えてくれる。一方の系統が352セル、もう一方が331セルで、残りは34セルしかない。どちらの出発点も同じ字「茶」である。中国の大半と南の海岸では読みが違い、世界の商人は出会ったほうの音を持ち帰った。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"tea\" data-code=\"en\">🗺️ 地図でお茶を表示</button></div><h3>海の道</h3><p>海の語は海岸の音だ。閩語では<em>tê</em>といい、17世紀にオランダ人が閩語の話し手から直接、あるいはマレー語<strong>teh</strong>を通じて取り入れた。初期のヨーロッパの茶貿易を握っていたのは彼らで、ヨーロッパはその語を学んだ。オランダ語<strong>thee</strong>、フランス語<strong>thé</strong>、ドイツ語<strong>Tee</strong>、スペイン語<strong>té</strong>、英語<strong>tea</strong>である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,fr,de,nl,es,ms\" data-word=\"tea\">🗣 海の語を比べる</button></div><p>陸の語は北の音だ。<em>chá</em>は陸路で中央アジアとペルシアへ渡り、そこでペルシア語の語尾がついたらしい。ロシア語<strong>чай</strong>、アラビア語<strong>شاي</strong>、トルコ語<strong>çay</strong>、ヒンディー語<strong>चाय</strong>の背後にあるのはこの形である。スワヒリ語<strong>chai</strong>もこの道の上にあり、同じ北の読みから来た日本語の<strong>お茶</strong>と朝鮮語の<strong>차</strong>もこちらの側である。喫茶店の「チャイティー」が、地図で見れば「茶、茶」と言っていることになるのはこのためだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ru,ar,tr,hi,sw,pt\" data-word=\"tea\">🗣 陸の語を比べる</button></div><h3>例外のポルトガル</h3><p>ポルトガルはこのきれいな規則を崩す。ポルトガル人は海から来たが、取引の場はマカオで、広東語も<em>cha</em>と言う。だからポルトガル語<strong>chá</strong>は、海から来た陸の形である。実は英語もこの形を先に知っていた。<em>cha</em>は1590年代にポルトガル人を通じて入り、オランダ人の<em>tea</em>が優勢になるのは17世紀だ。オランダ人がイングランドへ茶そのものを初めて運んだのは1644年で、ウィクショナリーは今も<em>cha</em>を英語の語として載せている。</p><h3>ポーランドとビルマ</h3><p>ポーランドは別の形で規則を崩す。ポーランド語でお茶は<strong>herbata</strong>、リトアニア語は<strong>arbata</strong>である。これはオランダ語<em>herba thee</em>「茶の草」にさかのぼる。ラテン語<em>herba thea</em>からとする少数説もある。つまり草の陰に隠れた海の語だ。ところがポーランド語のやかんは<em>czajnik</em>で、こちらはロシア語から来た。ポーランドの台所には、やかんは陸から、飲み物は海から、両方の語がそろっている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"pl,lt,my\" data-word=\"tea\">🗣 例外を比べる</button></div><p>ビルマはどちらの道も通らなかった。ミャンマー語<strong>လက်ဖက်ရည်</strong>は、茶の木を指す<em>lahpet</em>に「汁」を足した語である。地図は以前これをラテン語の系統に入れていて、読者の指摘で直した。<em>lahpet</em>はシナ・チベット祖語<em>*s-la</em>「葉」にさかのぼり、これは「茶」の字そのものの背後にある古い語でもある。ミャンマー語は葉の名を保っただけで、運んでくれる商人を必要としなかった。この系統は25セルで、札には正直に、どちらの道でもなく葉そのもの、とある。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"Etymology of tea\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Etymology_of_tea"
+      },
+      {
+        "text": "\"chai\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/chai"
+      }
+    ]
+  },
+  {
+    "id": "wine-three-families",
+    "icon": "🍷",
+    "tags": [
+      "food",
+      "etymology",
+      "history"
+    ],
+    "title": {
+      "en": "Wine: One Word in Three Unrelated Families",
+      "ja": "ワイン：無関係な三つの語族に共通する一語"
+    },
+    "summary": {
+      "en": "Latin, Hebrew and Georgian are not related, yet they all say roughly the same thing for wine. Nobody knows which way the word went.",
+      "ja": "ラテン語、ヘブライ語、ジョージア語に親戚関係はない。それなのにワインの語はよく似ている。語がどちらへ進んだのかは誰にもわからない。"
+    },
+    "body": {
+      "en": "<p>Georgian <strong>ღვინო</strong> is said <em>ɣvino</em>. Italian <strong>vino</strong> needs no help. Hebrew <strong>יין</strong> goes back to West Semitic <em>*wayn-</em>. These three languages belong to three families that are not related at all, and in ordinary words that kind of match would be a coincidence. Here it is not. The word spread with the drink, and nobody has established in which direction.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"wine\" data-code=\"ka\">🗺️ Show wine on the map</button></div><h3>Where it began</h3><p>Each family has its own reconstructed form. Indo-European has <em>*wóyh₁nom</em>, seen in Hittite <em>wiyana-</em> and Greek <em>oînos</em>, Semitic <em>*wayn-</em> and Kartvelian <em>*ɣwino-</em>. The oldest evidence of wine anywhere comes from near Tbilisi in Georgia, from around 6000 BCE, and the earliest known winery, from around 4100 BCE, is at Areni in Armenia, where the word is <strong>գինի</strong>. That is exactly the area where the three families were in contact. The direction of the loan is still an open question, and the map shows it as 490 cells for the Indo-European route, 25 for the Semitic and 7 for the Kartvelian. The colours follow where a language’s word came from, not the family the language belongs to.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ka,he,hy,it,en,de\" data-word=\"wine\">🗣 Compare three families</button></div><p>Germanic did not inherit the word at all. English <strong>wine</strong> and German <strong>Wein</strong> are generally explained as early borrowings from Latin <em>vīnum</em>, and with the drink came <em>vine</em> and <em>vinegar</em>, which is <em>vīnum</em> plus <em>ācer</em>, “sour”. English has been naming wine that has gone off in French for centuries.</p><h3>Those who dropped it</h3><p>Other languages dropped the word. The largest group of all, 392 cells, says something else. Greek is the best case: the language of <strong>οἶνος</strong> now says <strong>κρασί</strong>, from a word for blending, because in ancient Greece wine was usually drunk mixed with water. A modern Greek ordering wine is asking for the mixture. Turkish <strong>şarap</strong> and Persian <strong>شراب</strong> come from an Arabic word for a drink. Arabic itself, whose older word sits on the Semitic route, gives <strong>نبيذ</strong> on the map.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"el,tr,fa,sw\" data-word=\"wine\">🗣 Compare the other drinks</button></div><p>Swahili brought the old word back. <strong>mvinyo</strong> was borrowed from Portuguese <em>vinho</em>, and its <em>m</em> is a Swahili addition, originally an <em>n</em> from the noun class the word was placed in. Japanese <strong>ワイン</strong> and Malay <strong>wain</strong> are the English word, so Latin reached Asia with an English accent.</p><h3>Grape liquor</h3><p>The best trick is in Chinese. <strong>葡萄酒</strong> means “grape liquor”, and the first two characters are not native. <em>Pútáo</em> “grape” was borrowed around 130 BCE from an Iranian word, a Bactrian <em>*bādāwa</em>, and that word meant wine; Persian <em>bâde</em> is its relative. Korean <strong>포도주</strong> is the same compound. So the Chinese word for a grape began as a word for wine, and then somebody added “liquor” to make wine from it. The word that three families cannot place has a fourth version at the far end of the Silk Road that says wine twice.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,ko,ja\" data-word=\"wine\">🗣 Compare East Asia</button></div>",
+      "ja": "<p>ジョージア語の<strong>ღვინო</strong>は<em>ɣvino</em>と読む。イタリア語の<strong>vino</strong>は説明も要らない。ヘブライ語<strong>יין</strong>は西セム祖語<em>*wayn-</em>にさかのぼる。この三つの言語は互いに無関係な三つの語族に属していて、ふつうの語なら偶然で片づける一致である。ところがワインでは偶然ではない。語は飲み物とともに広がり、どちらの方向へ進んだのかは今もわかっていない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"wine\" data-code=\"ka\">🗺️ 地図でワインを表示</button></div><h3>始まりの土地</h3><p>語族ごとに再構された形がある。印欧語は<em>*wóyh₁nom</em>で、ヒッタイト語<em>wiyana-</em>やギリシャ語<em>oînos</em>に見える。セム語は<em>*wayn-</em>、カルトヴェリ語は<em>*ɣwino-</em>である。ワインの最古の証拠はジョージアのトビリシ近郊の紀元前6000年ごろのもので、知られる最古のワイン醸造所は前4100年ごろ、アルメニアのアレニにある。アルメニア語では<strong>գինի</strong>だ。まさに三つの語族が接していた地域である。借用の向きは未解決のままで、地図では印欧語の系統が490セル、セム語が25セル、カルトヴェリ語が7セルとなっている。色分けは言語の系統ではなく、語の来た道に従っている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ka,he,hy,it,en,de\" data-word=\"wine\">🗣 三つの語族を比べる</button></div><p>ゲルマン語はこの語を受け継いだわけではない。英語<strong>wine</strong>とドイツ語<strong>Wein</strong>はラテン語<em>vīnum</em>からの古い借用とされ、飲み物と一緒に<em>vine</em>も<em>vinegar</em>も来た。後者は<em>vīnum</em>に「酸っぱい」<em>ācer</em>を足した語で、英語は傷んだワインを何百年もフランス語で呼んでいることになる。</p><h3>語を捨てた人々</h3><p>この語を捨てた言語もある。最大の集団は392セルで、別の語を使う。いちばんよい例はギリシャ語だ。<strong>οἶνος</strong>の言語が、今は<strong>κρασί</strong>と言う。「混ぜること」を表す語から来ていて、古代ギリシャではワインをふつう水で割って飲んだからである。現代のギリシャ人がワインを頼むとき、頼んでいるのは「混ぜたもの」なのだ。トルコ語<strong>şarap</strong>とペルシア語<strong>شراب</strong>は、「飲み物」を意味するアラビア語に由来する。アラビア語自身も、古い語はセム語の系統にあるが、地図のセルは<strong>نبيذ</strong>である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"el,tr,fa,sw\" data-word=\"wine\">🗣 別の飲み物を比べる</button></div><p>古い語を持ち帰った言語もある。スワヒリ語<strong>mvinyo</strong>はポルトガル語<em>vinho</em>からの借用で、語頭の<em>m</em>はスワヒリ語が足したものだ。もとは、この語が割り当てられた名詞クラスの<em>n</em>だったという。日本語の<strong>ワイン</strong>とマレー語<strong>wain</strong>は英語から来ていて、ラテン語の語は英語なまりでアジアに届いた。</p><h3>ぶどうの酒</h3><p>いちばんの仕掛けは中国語にある。<strong>葡萄酒</strong>は「ぶどうの酒」で、はじめの二字は中国固有の語ではない。「葡萄」は紀元前130年ごろ、イラン系の語、バクトリア語<em>*bādāwa</em>から借りられた語で、この語の意味はワインだった。ペルシア語<em>bâde</em>がその親戚である。朝鮮語<strong>포도주</strong>も同じ組み立てだ。つまり中国語のぶどうはワインを指す語に始まり、そこへ「酒」が足された。三つの語族が出どころを決められない語の、シルクロードの反対の端には、ワインと二度言っている四つ目の形がある。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,ko,ja\" data-word=\"wine\">🗣 東アジアを比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"Wine\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Wine"
+      },
+      {
+        "text": "\"History of wine\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/History_of_wine"
+      },
+      {
+        "text": "\"wine\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/wine"
+      },
+      {
+        "text": "\"vinegar\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/vinegar"
+      },
+      {
+        "text": "\"ღვინო\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ღვინო"
+      },
+      {
+        "text": "\"יין\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/יין"
+      },
+      {
+        "text": "\"κρασί\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/κρασί"
+      },
+      {
+        "text": "\"mvinyo\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/mvinyo"
+      },
+      {
+        "text": "\"葡萄\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/葡萄"
+      }
+    ]
+  },
+  {
+    "id": "salt-salary-myth",
+    "icon": "🧂",
+    "tags": [
+      "food",
+      "etymology",
+      "history"
+    ],
+    "title": {
+      "en": "Salt: The Roman Pay Story That Is Not True",
+      "ja": "塩：給料の話は本当ではない"
+    },
+    "summary": {
+      "en": "Everyone knows Roman soldiers were paid in salt, which is why we have salaries. The word part is true. The rest is a story that nobody can support.",
+      "ja": "ローマ兵の給料は塩だった、だからサラリーと言う。語源の部分は本当だが、残りは誰にも裏づけられない話である。"
+    },
+    "body": {
+      "en": "<p>Roman soldiers were paid in salt. It is one of the best-known word facts in English, and half of it is wrong. <em>Salary</em> really does come from Latin <em>salārium</em>, wages, the neuter of an adjective meaning “to do with salt”, from <em>sal</em>. But Wikipedia’s article on salt says flatly that the reason is unknown, and that the persistent modern claim that the legions were sometimes paid in salt is baseless. Wiktionary, for its part, reports various attempts to explain how the Latin word for wages came from the adjective, without settling on one.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"salt\" data-code=\"en\">🗺️ Show salt on the map</button></div><h3>The salad shelf</h3><p>The kitchen is safer ground. A whole shelf of English comes from the same root, and these words can be proved. <em>Salad</em> means “salted”, from the Roman habit of salting leaf vegetables. <em>Sauce</em> comes from Latin <em>salsus</em>, “salted”, and so does <em>salsa</em>, which is the same word again by a Spanish road. <em>Sausage</em> is from <em>salsīcius</em>, “seasoned with salt”.</p><p>The word for salt itself is one of the most stable on the map. Proto-Indo-European <em>*séh₂ls</em> runs through almost the whole family. Latin <strong>sal</strong> gives French <strong>sel</strong> and Spanish <strong>sal</strong>, and the northern branches have German <strong>Salz</strong>, Russian <strong>соль</strong> and Irish <strong>salann</strong>. Armenian <strong>աղ</strong> looks nothing like them, but that is the same word after a long run of regular changes. Greek shows what happens when the first sound goes: ancient <strong>ἅλς</strong> has an <em>h</em> where Latin has <em>s</em>, and today’s <strong>αλάτι</strong> is a diminutive built on it, a little salt.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"la,fr,es,de,ru,ga,hy,el\" data-word=\"salt\">🗣 Compare the Indo-European words</button></div><h3>One of the steadiest words</h3><p>Two neighbours stand out by not joining in. Sanskrit said <strong>लवण</strong>, and Hindi today says <strong>नमक</strong>, borrowed from Persian. It appears in the Hindi idiom for rubbing salt into a wound, sprinkling salt on a burn. Basque, which is not Indo-European at all, has <strong>gatz</strong>, a word that also means good humour.</p><h3>Those who said something else</h3><p>Elsewhere the map changes completely. Semitic has its own root, with Arabic <strong>ملح</strong> and Hebrew <strong>מלח</strong> side by side. Akkadian called salt <em>ṭābtu</em>, literally “the good thing”, which may be the kindest name on the map. East Asia is another world. Mandarin <strong>盐</strong> carries the Chinese layer, while Japanese <strong>塩</strong>, read <em>shio</em>, and Korean <strong>소금</strong> are native words underneath it. The Korean word has a long record: it is noted in Chinese characters as 蘇甘 in a word list of Goryeo Korea.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"sa,hi,eu,ar,he,ja,ko,zh\" data-word=\"salt\">🗣 Compare the others</button></div><p>So salt really did give English a word for pay, though nobody can say why. Ezra 4:14 offers one old parallel. The servants of the Persian king explain their loyalty with a phrase about salt, and taking someone’s salt meant being in his service. That is a much better story than soldiers with sacks, and it has the advantage of being in a text.</p>",
+      "ja": "<p>ローマの兵士は塩で給料をもらっていた。英語の語源話でも指折りの有名な話だが、半分は間違っている。<em>salary</em>がラテン語<em>salārium</em>「給与」から来ているのは本当で、これは<em>sal</em>「塩」の形容詞の中性形である。しかしウィキペディアの塩の項目は、理由は不明で、軍団が塩で給料を受け取ったことがあるという根強い説には根拠がないと言い切っている。ウィクショナリーも、給与の語が形容詞から生じた理由についていくつかの説明を挙げるだけで、結論は出していない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"salt\" data-code=\"en\">🗺️ 地図で塩を表示</button></div><h3>サラダの棚</h3><p>台所なら話はもっと確かだ。同じ語根から出た英語が棚いっぱいに並ぶ。<em>salad</em>は「塩をした」の意味で、葉物野菜に塩をふる古代ローマの習慣から来ている。<em>sauce</em>はラテン語<em>salsus</em>「塩をした」に由来し、<em>salsa</em>はスペイン語の道を通った同じ語である。<em>sausage</em>は「塩で味をつけた」<em>salsīcius</em>から来た。</p><p>塩を指す語そのものは、地図の中でも特に安定している。印欧祖語<em>*séh₂ls</em>が、語族のほとんど全体を貫いている。ラテン語<strong>sal</strong>からフランス語<strong>sel</strong>、スペイン語<strong>sal</strong>が生まれ、北の枝にはドイツ語<strong>Salz</strong>、ロシア語<strong>соль</strong>、アイルランド語<strong>salann</strong>がある。アルメニア語<strong>աղ</strong>は似ても似つかないが、規則的な変化を重ねた同じ語だ。ギリシャ語は語頭の音が変わるとどうなるかを見せてくれる。古代語<strong>ἅλς</strong>ではラテン語の<em>s</em>が<em>h</em>になっていて、今の<strong>αλάτι</strong>はそこから作られた指小形、「小さな塩」である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"la,fr,es,de,ru,ga,hy,el\" data-word=\"salt\">🗣 印欧語を比べる</button></div><h3>最も安定した語の一つ</h3><p>この輪に入らない隣人が二人いる。サンスクリットは<strong>लवण</strong>と言い、今のヒンディー語はペルシア語から借りた<strong>नमक</strong>と言う。傷口に塩を塗ることを、ヒンディー語ではやけどに塩をふると言う。印欧語ではないバスク語は<strong>gatz</strong>で、この語には「上機嫌」の意味もある。</p><h3>別の語を言った人々</h3><p>ほかの土地へ行くと、地図はがらりと変わる。セム語には独自の語根があり、アラビア語<strong>ملح</strong>とヘブライ語<strong>מלח</strong>が並ぶ。アッカド語は塩を<em>ṭābtu</em>、文字どおり「よいもの」と呼んだ。地図でいちばん優しい名かもしれない。東アジアはまた別の世界だ。中国語<strong>盐</strong>は漢字の層にあり、日本語の<strong>塩</strong>と朝鮮語の<strong>소금</strong>はその下にある固有語である。朝鮮語のこの語は記録が古く、高麗の語彙集に漢字で「蘇甘」と写されている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"sa,hi,eu,ar,he,ja,ko,zh\" data-word=\"salt\">🗣 それ以外を比べる</button></div><p>塩が英語に給料の語を与えたのは確かで、ただ理由がわからない。古い手がかりはエズラ記4章14節にある。ペルシア王の家臣たちが忠誠を語るのに塩の言い回しを使っていて、人の塩を受けることは、その人に仕えることを意味した。袋をかついだ兵士の話よりずっといいし、こちらはちゃんと文書に載っている。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"Salt\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Salt"
+      },
+      {
+        "text": "\"Salary\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Salary"
+      },
+      {
+        "text": "\"salary\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/salary"
+      },
+      {
+        "text": "\"salad\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/salad"
+      },
+      {
+        "text": "\"sauce\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/sauce"
+      },
+      {
+        "text": "\"sausage\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/sausage"
+      },
+      {
+        "text": "\"salsa\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/salsa"
+      },
+      {
+        "text": "\"αλάτι\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/αλάτι"
+      },
+      {
+        "text": "\"नमक\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/नमक"
+      },
+      {
+        "text": "\"gatz\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/gatz"
+      },
+      {
+        "text": "\"소금\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/소금"
+      }
+    ]
+  },
+  {
+    "id": "rice-three-words",
+    "icon": "🍚",
+    "tags": [
+      "food",
+      "etymology",
+      "asia"
+    ],
+    "title": {
+      "en": "Rice: One Word in English, Three in Malay",
+      "ja": "米：英語は一語、マレー語は三語"
+    },
+    "summary": {
+      "en": "English has rice. Languages that grow it have a word for each stage, and English quietly borrowed one of them. The western word may have started in Tamil, or in several other places.",
+      "ja": "英語にはriceしかない。米を作る言語には段階ごとの語があり、英語はその一つをこっそり借りている。西洋の語はタミル語に始まるのかもしれず、別の説もある。"
+    },
+    "body": {
+      "en": "<p>English has one word where Malay has three. In the field it is <em>padi</em>, husked and ready for the pot it is <strong>beras</strong>, and on the plate it is <em>nasi</em>. If you have ever said <em>paddy field</em>, you have already used the first one, because English borrowed <em>paddy</em> from Malay <em>padi</em>. The map takes the uncooked grain, which is why the cell says beras, and in much of Asia that distinction matters a good deal more than the word <em>rice</em> lets on.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"rice\" data-code=\"ms\">🗺️ Show rice on the map</button></div><h3>The road west</h3><p>Each of those Malay words has deep roots. <em>Beras</em> goes back to Proto-Austronesian <em>*bəRas</em>, and <em>nasi</em> to a Proto-Malayic <em>*nasi(ʔ)</em>. Indonesian <strong>beras</strong> shows the same word, and <em>nasi</em> can stand for a living there, in the same way that English speaks of bread.</p><p>The European names are one much-travelled loan. English <strong>rice</strong> came through Old French from Italian <strong>riso</strong>, and from medieval Greek <em>óryza</em>. French <strong>riz</strong>, German <strong>Reis</strong> and Russian <strong>рис</strong> are the same word. Spanish <strong>arroz</strong> took a different door: it came through Arabic with the article attached, <em>ar-ruzz</em>, which is why it starts with <em>a</em> and Arabic <strong>أرز</strong> starts the same way.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,fr,it,de,ru,es,ar\" data-word=\"rice\">🗣 Compare the European road</button></div><h3>Where did Greek get it?</h3><p>Where did Greek get it? This is where the sources stop agreeing. Wiktionary traces <em>óryza</em> to an Eastern Iranian language, and theorises that Iranian had it from Sanskrit <em>vrīhi</em>, which may in turn be a Dravidian loan or come from Austroasiatic languages further east. An alternative route runs through South Arabian to Tamil <strong>அரிசி</strong>, and Malayalam <strong>അരി</strong> is the closest cousin. The map’s note favours the Tamil story. Persian <strong>برنج</strong> belongs to the Iranian family of the first version. Hindi, meanwhile, has <strong>चावल</strong>, which is another word altogether. So the West’s word for rice comes from South Asia somehow, and the honest position today is that no one can draw the whole line.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ta,ml,fa,hi\" data-word=\"rice\">🗣 Compare South Asia and Persia</button></div><h3>The old words</h3><p>East and Southeast Asia kept their own ancient words. Mandarin <strong>米</strong> comes from Proto-Sino-Tibetan <em>*mej</em>, “grain”, and has relatives in Garo and Kachin. Japanese <strong>米</strong>, read <em>kome</em>, uses that character for a native word. Korean <strong>쌀</strong> and Vietnamese <strong>gạo</strong> are different again. Thai <strong>ข้าว</strong> goes back to Proto-Tai, with the Lao and Shan words as cousins, and it may be connected to an Austroasiatic word for husked rice.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,ja,ko,vi,th,id\" data-word=\"rice\">🗣 Compare East and Southeast Asia</button></div><p>None of these words had to travel, since the plant was already at home. That is the real division among the map’s 845 cells. Where people grow rice, the word is old and local, and there may be several. Where they import it, there is one word, it has been round the Middle East, and it sometimes arrives with someone else’s article on it.</p>",
+      "ja": "<p>日本語の話者なら驚かないだろうが、英語が一語で済ませるところをマレー語は三語で言う。田んぼにあるうちは<em>padi</em>、脱穀して炊く前は<strong>beras</strong>、皿の上では<em>nasi</em>である。稲、米、飯にそのまま当たる。英語の<em>paddy field</em>の<em>paddy</em>は、この<em>padi</em>を借りた語だ。地図が扱うのは炊く前の穀物なので、セルはberasになっている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"rice\" data-code=\"ms\">🗺️ 地図で米を表示</button></div><h3>西への道</h3><p>この三語の根は深い。<em>beras</em>はオーストロネシア祖語<em>*bəRas</em>にさかのぼり、<em>nasi</em>はマレー祖語<em>*nasi(ʔ)</em>にさかのぼる。インドネシア語<strong>beras</strong>も同じ語で、<em>nasi</em>はそちらでは比喩で暮らしの糧も指す。</p><p>ヨーロッパの名は、長い旅をした一つの借用語である。英語<strong>rice</strong>は古フランス語を経てイタリア語<strong>riso</strong>から、さらに中世ギリシャ語<em>óryza</em>から来た。フランス語<strong>riz</strong>、ドイツ語<strong>Reis</strong>、ロシア語<strong>рис</strong>も同じ語である。スペイン語<strong>arroz</strong>は別の入口を通った。アラビア語から冠詞つきの<em>ar-ruzz</em>の形で入ったので、語頭に<em>a</em>があり、アラビア語<strong>أرز</strong>も同じように始まる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,fr,it,de,ru,es,ar\" data-word=\"rice\">🗣 ヨーロッパの道を比べる</button></div><h3>ギリシャ語はどこから</h3><p>ではギリシャ語はどこから得たのか。ここで資料の話が割れる。ウィクショナリーは<em>óryza</em>を東イラン系の言語にたどり、それはサンスクリット<em>vrīhi</em>から来たとする説を挙げる。その先はドラヴィダ語からの借用かもしれず、さらに東のオーストロアジア語族からかもしれない。別の説では南アラビアを経てタミル語<strong>அரிசி</strong>にたどり着き、マラヤーラム語<strong>അരി</strong>がいちばん近い親戚になる。地図の注はタミル語説を取っている。ペルシア語<strong>برنج</strong>は一つ目の説のイラン系の語の仲間である。ヒンディー語の<strong>चावल</strong>はまったく別の語だ。西洋の米の語が南アジアのどこかから来たことは確かでも、線を最後まで引ける人はいない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ta,ml,fa,hi\" data-word=\"rice\">🗣 南アジアとペルシアを比べる</button></div><h3>古い語</h3><p>東アジアと東南アジアは自前の古い語を保った。中国語<strong>米</strong>はシナ・チベット祖語<em>*mej</em>「穀物」から来ていて、ガロ語やカチン語に親戚がある。日本語の<strong>米</strong>は同じ字を、和語<em>kome</em>に当てたものだ。朝鮮語<strong>쌀</strong>とベトナム語<strong>gạo</strong>はまた別の語である。タイ語<strong>ข้าว</strong>はタイ祖語にさかのぼり、ラオ語やシャン語に親戚があって、オーストロアジア語族の「脱穀した米」と関係があるかもしれない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,ja,ko,vi,th,id\" data-word=\"rice\">🗣 東アジアと東南アジアを比べる</button></div><p>これらの語に旅は必要なかった。植物がもともとそこにあったからだ。地図の845セルの本当の分かれ目はそこにある。米を作る土地では語は古くて地元のもので、いくつもあることがある。輸入する土地では語は一つで、中東を回ってきていて、ときには他人の冠詞をつけたまま届く。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"rice\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/rice"
+      },
+      {
+        "text": "\"arroz\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/arroz"
+      },
+      {
+        "text": "\"paddy\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/paddy"
+      },
+      {
+        "text": "\"nasi\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/nasi"
+      },
+      {
+        "text": "\"beras\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/beras"
+      },
+      {
+        "text": "\"米\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/米"
+      },
+      {
+        "text": "\"ข้าว\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ข้าว"
+      }
+    ]
+  },
+  {
+    "id": "silk-bristle-road",
+    "icon": "🧵",
+    "tags": [
+      "etymology",
+      "trade",
+      "asia"
+    ],
+    "title": {
+      "en": "Silk: To Germans It Is Horsehair, to English It Is China",
+      "ja": "絹：ドイツ語では馬の毛、英語では中国"
+    },
+    "summary": {
+      "en": "English silk and German Seide share nothing but the cloth. One word goes back to China, and the other goes back to horsehair.",
+      "ja": "英語のsilkとドイツ語のSeideは、同じ布を指すだけで語としては無関係である。一方は中国へ、もう一方は馬の毛へさかのぼる。"
+    },
+    "body": {
+      "en": "<p>The finest cloth in the ancient world is, in German, a word for horsehair. <strong>Seide</strong> comes through Old High German from Late Latin <em>sēta</em>, “silk”, and that comes from Latin <em>saeta</em>, a bristle or horsehair. It is a little like calling velvet sandpaper, and it stuck.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"silk\" data-code=\"en\">🗺️ Show silk on the map</button></div><h3>The bristle</h3><p>That Latin word covers much of western Europe. French <strong>soie</strong>, Spanish <strong>seda</strong> and Italian <strong>seta</strong> are all bristles underneath. English had it too. Old English said <em>sīde</em>, the same word as German, until something else displaced it.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"de,fr,es,it\" data-word=\"silk\">🗣 Compare the bristle family</button></div><p>The something else is the more romantic word. English <strong>silk</strong> goes back to Old English <em>sioloc</em>, which probably came by the Baltic trade routes, and it has relatives in Russian <strong>шёлк</strong>, Lithuanian <strong>šilkas</strong> and Finnish <strong>silkki</strong>. All of it leads back to Late Latin <em>sēricus</em> and Greek <em>sērikós</em>, “silken”, from the Greek name for the people who made the stuff, the Sēres, and that in turn comes from an Eastern source now represented by Chinese <strong>丝</strong>. Wikipedia also sets Mongolian <em>sirkek</em> beside it. So English and Mandarin stand at the two ends of the road with one word between them. English in fact has it twice more: <em>serge</em>, the hard-wearing cloth, and the rare <em>seric</em> are doublets of <em>silk</em>.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,ru,lt,fi,hu,zh\" data-word=\"silk\">🗣 Compare the sēricum family</button></div><h3>The word from China</h3><p>The map’s note puts Hungarian <strong>selyem</strong> with them. The Romans themselves wrote about silk often: Seneca mentions it in his <em>Phaedra</em>, and Virgil in the <em>Georgics</em>. They also had some idea where it came from. Pliny the Elder wrote of the <em>Bombyx</em>, “They weave webs, like spiders, that become a luxurious clothing material for women, called silk.” Knowing what it was did nothing to change what they called it, and German is still calling it horsehair today.</p><p>Other families never touched Rome. Persian <strong>ابریشم</strong> goes back through Middle Persian to Proto-Iranian, and Hindi <strong>रेशम</strong> is on that route. Classical Armenian took the Persian word as ապրիշում. Arabic <strong>حرير</strong> gave Swahili <strong>hariri</strong> along the coast. Malay <strong>sutera</strong> and Indonesian <strong>sutra</strong> were borrowed from Sanskrit <em>sūtra</em>, the word for a thread, so a bolt of silk in Jakarta and a Buddhist sutra share a name.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fa,hi,ar,sw,ms,id\" data-word=\"silk\">🗣 Compare Persian, Arabic and Sanskrit</button></div><h3>Other families</h3><p>East Asia hardly needed to borrow, though it did a little. Japanese <strong>絹</strong>, read <em>kinu</em>, is on its own. Vietnamese <strong>lụa</strong> is on its own too. Korean <strong>비단</strong> is the surprise. It looks native, but it came from early Mandarin 匹緞, and it displaced an indigenous word, <em>kip</em>. So the country next door to the source of silk borrowed its word from China, and so, by a much longer road, did English.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ko,ja,vi\" data-word=\"silk\">🗣 Compare East Asia</button></div>",
+      "ja": "<p>古代世界で最高級の布が、ドイツ語では馬の毛を意味する語で呼ばれている。<strong>Seide</strong>は古高ドイツ語を経て後期ラテン語<em>sēta</em>「絹」から来ていて、その元はラテン語<em>saeta</em>、剛毛や馬の毛である。ビロードを紙やすりと呼ぶようなものだが、この名は定着した。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"silk\" data-code=\"en\">🗺️ 地図で絹を表示</button></div><h3>剛毛</h3><p>このラテン語は西ヨーロッパの広い範囲を覆っている。フランス語<strong>soie</strong>、スペイン語<strong>seda</strong>、イタリア語<strong>seta</strong>も、もとをたどれば剛毛である。英語にもあった。古英語はドイツ語と同じ<em>sīde</em>と言っていて、それが別の語に追い出された。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"de,fr,es,it\" data-word=\"silk\">🗣 剛毛の系統を比べる</button></div><p>その別の語のほうが、話としてはずっと華やかだ。英語<strong>silk</strong>は古英語<em>sioloc</em>にさかのぼり、おそらくバルト海の交易路を通って来た語で、ロシア語<strong>шёлк</strong>、リトアニア語<strong>šilkas</strong>、フィンランド語<strong>silkki</strong>に親戚がある。どれも後期ラテン語<em>sēricus</em>、ギリシャ語<em>sērikós</em>「絹の」にたどり着く。これは絹を作る人々を指すギリシャ語の名セーレスから来ていて、その先は東方の語、今の中国語<strong>丝</strong>につながる。ウィキペディアはモンゴル語<em>sirkek</em>もここに並べている。英語と中国語は、道の両端に立って一つの語を挟んでいるわけだ。英語にはこの語がさらに二度現れる。丈夫な毛織物の<em>serge</em>と、珍しい語<em>seric</em>も<em>silk</em>と同源である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,ru,lt,fi,hu,zh\" data-word=\"silk\">🗣 sēricumの系統を比べる</button></div><h3>中国から来た語</h3><p>地図の注はハンガリー語<strong>selyem</strong>もこの仲間に入れている。ローマ人は絹についてよく書いた。セネカは『パエドラ』で、ウェルギリウスは『農耕詩』で触れている。出どころもある程度知っていた。大プリニウスは蚕について、クモのように網を織り、それが女性の豪華な衣服の材料、絹になる、と書いている。正体を知っても呼び名は変わらず、ドイツ語は今も馬の毛と呼んでいる。</p><p>ローマに触れなかった語族もある。ペルシア語<strong>ابریشم</strong>は中期ペルシア語を経てイラン祖語にさかのぼり、ヒンディー語<strong>रेशम</strong>もこの道の上にある。古典アルメニア語もこのペルシア語をապրիշումとして借りた。アラビア語<strong>حرير</strong>は海岸沿いにスワヒリ語<strong>hariri</strong>を生んだ。マレー語<strong>sutera</strong>とインドネシア語<strong>sutra</strong>はサンスクリット<em>sūtra</em>からの借用で、ジャカルタの絹の反物と仏教の経典は同じ名を持っている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fa,hi,ar,sw,ms,id\" data-word=\"silk\">🗣 ペルシア語、アラビア語、サンスクリットを比べる</button></div><h3>別の語族</h3><p>東アジアはほとんど借りる必要がなかったが、少しは借りた。日本語の<strong>絹</strong>は和語<em>kinu</em>で読み、ベトナム語<strong>lụa</strong>も独自の語である。驚きは朝鮮語<strong>비단</strong>だ。固有語に見えるが、早期の官話の「匹緞」から来ていて、固有語<em>kip</em>を追い出した。絹の本場の隣国も中国から語を借りていて、英語もずっと長い道を通って同じことをしたのである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ko,ja,vi\" data-word=\"silk\">🗣 東アジアを比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"Silk\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Silk"
+      },
+      {
+        "text": "\"History of silk\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/History_of_silk"
+      },
+      {
+        "text": "\"silk\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/silk"
+      },
+      {
+        "text": "\"Seide\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Seide"
+      },
+      {
+        "text": "\"sutera\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/sutera"
+      },
+      {
+        "text": "\"ابریشم\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ابریشم"
+      },
+      {
+        "text": "\"비단\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/비단"
+      }
+    ]
+  },
+  {
+    "id": "sushi-sour-rice",
+    "icon": "🍣",
+    "tags": [
+      "food",
+      "japan",
+      "etymology"
+    ],
+    "title": {
+      "en": "Sushi: A Word That Just Means Sour",
+      "ja": "寿司：「酸っぱい」というだけの語"
+    },
+    "summary": {
+      "en": "Sushi means sour, and it has nothing to do with raw fish. For centuries you threw the rice away, and the cheerful characters on the sign were picked for sound.",
+      "ja": "すしの意味は酸っぱいで、生の魚とは関係がない。何百年ものあいだ米は捨てられていて、看板のめでたい字は音で選ばれたものだ。"
+    },
+    "body": {
+      "en": "<p>Ask what sushi means and people say raw fish. It does not. The word comes from <em>sushi</em>, 酸し, an archaic form of the Japanese adjective for sour. It describes the taste of the original dish, fish fermented in rice, and it has no fish in it. One of Japan’s best-known exports is called, in plain terms, sour.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"sushi\" data-code=\"ja\">🗺️ Show sushi on the map</button></div><h3>From sour to long life</h3><p>The dish is older than Japan’s use of it. The earliest form, today called <em>narezushi</em>, was created in Southeast Asia, and it reached Japan around the Yayoi period. Fish was stored in fermented rice, possibly for months, with salt, and then the rice was thrown away. This fully fermented kind is also called <em>honnare</em>, as against the partly fermented <em>namanare</em> of later centuries. For a long time sushi was a way of keeping fish, and the rice was only the packing.</p><p>The map reaches that far back. Old Japanese has <strong>鮓</strong> in a row of its own, for the ancestral dish. In the Muromachi period, between 1336 and 1573, people began to eat the rice as well as the fish. In the Edo period vinegar took over from fermented rice, so the sourness now came from a bottle. Then the characters changed too. Today’s Japanese <strong>寿司</strong> is an ateji, characters chosen for their sound: 寿 is long life and 司 is to administer, cheerful words with no link to food. Chinese took the spelling back from Japan and reads it in its own way, as Mandarin <strong>寿司</strong> and Cantonese <strong>壽司</strong>, so the sour word now reaches Chinese as “long-life administration”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ojp,ja,zh,yue\" data-word=\"sushi\">🗣 Compare Old Japanese and Chinese</button></div><h3>Fast food</h3><p>Fast food came next. Around 1824 in Edo, Hanaya Yohei is believed to have invented <em>nigiri-zushi</em>, seafood on hand-pressed vinegared rice, the kind now commonly recognised. It was the fast food of the townspeople. The word changed its sound in compounds too, so <em>sushi</em> turns into <em>-zushi</em> after another word, as in <em>nigiri-zushi</em> itself.</p><p>Then it went round the world with the sound intact. English <strong>sushi</strong>, French <strong>sushi</strong>, German <strong>Sushi</strong> and Russian <strong>суши</strong> are the same word, each pronounced its own way. Korean is the interesting holdout. <strong>초밥</strong> is a compound, “vinegar rice”, dated from about 1940. It describes the dish better than the original word now does, and Korean also has 스시 for those who prefer the loan.</p><h3>Going abroad</h3><p>Some of the map’s oldest rows have no sushi, and the atlas has done something sensible about that. For languages that could never have had the word, it gives the nearest thing in the era. Ancient Greek gets <strong>τάριχος</strong>, salted fish. Latin gets <strong>salsāmentum</strong>. Neither is sushi, and the Latin word is built on <em>sal</em>, “salt”. But both are food put away with salt for later, which is just where this story started.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,fr,de,ru,ko\" data-word=\"sushi\">🗣 Compare the loans</button></div>",
+      "ja": "<p>「すし」とはどういう意味かと聞くと、外国では生の魚と答える人が多い。違う。この語は「酸し」、形容詞「酸い」の古い形から来ている。もとの料理、米で発酵させた魚の味を言ったもので、語の中に魚はいない。日本を代表する輸出品の名は、つまり「酸っぱい」である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"sushi\" data-code=\"ja\">🗺️ 地図で寿司を表示</button></div><h3>酸っぱいから長寿へ</h3><p>料理は日本より古い。最も古い形は今なれずしと呼ばれ、東南アジアで生まれて、弥生時代ごろに日本へ伝わった。魚を塩とともに発酵した米に漬けて、ときには何か月も保存し、米は捨てた。この完全に発酵させたものは本なれとも呼ばれ、後の時代の半発酵の生なれと区別される。長いあいだ、すしは魚を保存する方法で、米はただの詰め物だったのだ。</p><p>地図はそこまでさかのぼる。古代日本語の行には祖先の料理を指す<strong>鮓</strong>がある。室町時代（1336〜1573年）に、人々は魚と一緒に米も食べるようになった。江戸時代には発酵した米に代わって酢が使われるようになり、酸味は瓶から来ることになった。やがて字も変わった。今の日本語の<strong>寿司</strong>は当て字で、「寿」は長寿、「司」はつかさどること、食べ物とは縁のないめでたい字である。中国語はこの書き方を日本から取り入れて自分の音で読み、普通話の<strong>寿司</strong>、広東語の<strong>壽司</strong>となった。「酸っぱい」は中国語に届いたとき、長寿をつかさどる語になっていた。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ojp,ja,zh,yue\" data-word=\"sushi\">🗣 古代日本語と中国語を比べる</button></div><h3>ファストフード</h3><p>次はファストフードである。1824年ごろの江戸で、華屋与兵衛が握りずしを考案したとされる。酢飯を手で握り、魚介をのせた、今いちばん知られている形だ。これは町人のファストフードだった。語の音も複合語の中で変わり、「すし」はほかの語のあとでは、握りずしのように「ずし」になる。</p><p>それから語は、音を保ったまま世界を回った。英語<strong>sushi</strong>、フランス語<strong>sushi</strong>、ドイツ語<strong>Sushi</strong>、ロシア語<strong>суши</strong>は同じ語で、それぞれの発音で読まれている。おもしろい例外は朝鮮語で、<strong>초밥</strong>は「酢」と「飯」を合わせた語で、1940年ごろからの記録がある。今の料理を言い当てている点では、もとの語より正確かもしれない。借用語の스시もある。</p><h3>海外へ</h3><p>地図の古い行にすしはない。そこで地図は気の利いたことをしていて、この語を持ちえなかった言語には、その時代のいちばん近いものを載せている。古代ギリシャ語は<strong>τάριχος</strong>、塩漬けの魚である。ラテン語は<strong>salsāmentum</strong>だ。どちらもすしではなく、ラテン語のほうは<em>sal</em>「塩」からできた語である。しかし塩で保存する食べ物という点では、この話の出発点そのものだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,fr,de,ru,ko\" data-word=\"sushi\">🗣 借用語を比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"Sushi\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Sushi"
+      },
+      {
+        "text": "\"History of sushi\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/History_of_sushi"
+      },
+      {
+        "text": "\"sushi\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/sushi"
+      },
+      {
+        "text": "\"寿司\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/寿司"
+      },
+      {
+        "text": "\"초밥\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/초밥"
+      },
+      {
+        "text": "\"鮓\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/鮓"
+      }
+    ]
+  },
+  {
+    "id": "honey-two-roots",
+    "icon": "🍯",
+    "tags": [
+      "food",
+      "etymology",
+      "history"
+    ],
+    "title": {
+      "en": "Honey: Why the Bee Gives English Two Unrelated Words",
+      "ja": "蜂蜜：英語に二つの無関係な語がある理由"
+    },
+    "summary": {
+      "en": "Honey and mead come from different roots for the same bee. The word for honey may have reached ancient China from a language that vanished, and Hawaii got its word from a Greek Bible.",
+      "ja": "honeyとmeadは同じ蜂から生まれた別々の語根である。蜜という語は消えた言語から古代中国に届いたのかもしれず、ハワイの語はギリシャ語の聖書から来た。"
+    },
+    "body": {
+      "en": "<p>English gets honey and mead from the same bee and two unrelated roots. Proto-Indo-European seems to have kept two words, and its daughters divided the pair between them. One is <em>*médʰu</em>, “honey, honey wine”, and the other is <em>*mélit</em>. Germanic then walked away from both for the substance, coined a third word, and kept <em>*médʰu</em> for the drink.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"honey\" data-code=\"en\">🗺️ Show honey on the map</button></div><h3>The root that became wine</h3><p>The first root is the sweet one that turned to drink. It gives Sanskrit <em>madhu</em>, Russian <strong>мёд</strong>, Lithuanian <strong>medus</strong> and English <em>mead</em>. In Greek it slid away from honey altogether: <em>méthu</em> became wine, and that is where chemists got <em>methyl</em>, so a molecule in your laboratory is a distant relative of a mead hall. Uralic borrowed the word early, which is why Estonian <strong>mesi</strong> and Hungarian <strong>méz</strong> sit among unrelated neighbours. Finnish had <em>mesi</em> too, but <strong>hunaja</strong> displaced it, borrowed from Old Swedish, so Finland lost a loan from the east to a loan from the west.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ru,lt,hu,et\" data-word=\"honey\">🗣 Compare the médʰu family</button></div><p>The second root is what the Romance and Greek columns are running on. Latin <em>mel</em> gives French <strong>miel</strong>, Spanish <strong>miel</strong> and Italian <strong>miele</strong>. Greek <strong>μέλι</strong> is the same word, and it is on record in Mycenaean. This is the root English lost, although it has sneaked back in with <em>molasses</em>, from Latin <em>mellacium</em>, a honey-sweet thing.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,es,it,el,en,de,nl\" data-word=\"honey\">🗣 Compare mélit and the Germanic word</button></div><h3>The third word</h3><p>Germanic’s third word is its own. Old English <em>huniġ</em>, German <strong>Honig</strong> and Dutch <strong>honing</strong> come from a Proto-Germanic <em>*hunagą</em>. English <strong>honey</strong> has no cousin in Latin or Greek at all.</p><p>The most surprising step is at the far end of the Silk Road. Old Chinese 蜜, reconstructed <em>*mit</em>, has long been derived from Tocharian, an Indo-European branch of the Tarim Basin. The lender cannot be the Tocharian we can read, since the manuscripts are from the 5th to 10th centuries CE and Old Chinese is older, so the map’s note treats it as a loan from an earlier stage. It is a hypothesis, but the best current one. The 蜜 layer rode on with Buddhist texts. Modern Chinese and Japanese <strong>蜂蜜</strong>, “bee honey”, carry it. Korean took none of it and kept native <strong>꿀</strong>.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,ja,ko\" data-word=\"honey\">🗣 Compare East Asia</button></div><h3>Silk Road and Pacific</h3><p>Beyond all that, the map goes its own way. Turkish has <strong>bal</strong>, with Chuvash <strong>пыл</strong> showing a regular change of <em>b</em> to <em>p</em>, Arabic <strong>عسل</strong> gave Swahili <strong>asali</strong>, Hebrew has <strong>דבש</strong> and Tamil <strong>தேன்</strong>. Bantu has its own root, with Shona <strong>uchi</strong> and Xhosa <strong>ubusi</strong>. The strangest of them is Hawaiian <strong>meli</strong>, and Samoan <strong>meli</strong> beside it. Those are Greek <em>méli</em> again, arriving in the 19th century by Bible, so a word from ancient Greece reached the Pacific inside the book that promises a land flowing with milk and honey.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,ar,sw,he,ta,haw\" data-word=\"honey\">🗣 Compare the other routes</button></div>",
+      "ja": "<p>英語のhoney（蜂蜜）とmead（蜂蜜酒）は、同じ蜂の産物なのに語根が違う。印欧祖語には二つの語があったらしく、子孫の言語はこの組を分け合った。一つは<em>*médʰu</em>「蜂蜜、蜂蜜酒」、もう一つは<em>*mélit</em>である。ゲルマン語は蜂蜜そのものについてはどちらも捨てて三つ目の語を作り、酒のほうにだけ<em>*médʰu</em>を残した。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"honey\" data-code=\"en\">🗺️ 地図で蜂蜜を表示</button></div><h3>酒になった語根</h3><p>一つ目は、甘いものから酒へ移っていった語根だ。サンスクリット<em>madhu</em>、ロシア語<strong>мёд</strong>、リトアニア語<strong>medus</strong>、英語<em>mead</em>がこれである。ギリシャ語では蜂蜜を離れて<em>méthu</em>「酒」になり、化学者の<em>methyl</em>（メチル）はここから来た。実験室の分子の遠い親戚は、蜂蜜酒なのだ。ウラル語族は早くにこの語を借りたので、エストニア語<strong>mesi</strong>とハンガリー語<strong>méz</strong>が無関係な隣人の中にいる。フィンランド語にも<em>mesi</em>があったが、古スウェーデン語から借りた<strong>hunaja</strong>に追い出された。東からの借用語が、西からの借用語に負けたことになる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ru,lt,hu,et\" data-word=\"honey\">🗣 médʰuの系統を比べる</button></div><p>二つ目の語根は、ロマンス語とギリシャ語を支えている。ラテン語<em>mel</em>からフランス語<strong>miel</strong>、スペイン語<strong>miel</strong>、イタリア語<strong>miele</strong>が生まれた。ギリシャ語<strong>μέλι</strong>も同じ語で、ミケーネ時代の記録がある。英語が失った語根だが、<em>molasses</em>（糖蜜）に姿を変えて戻っている。もとはラテン語<em>mellacium</em>「蜜のように甘いもの」である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,es,it,el,en,de,nl\" data-word=\"honey\">🗣 mélitとゲルマン語を比べる</button></div><h3>三つ目の語</h3><p>ゲルマン語の三つ目の語は独自のものだ。古英語<em>huniġ</em>、ドイツ語<strong>Honig</strong>、オランダ語<strong>honing</strong>はゲルマン祖語<em>*hunagą</em>から来ている。英語<strong>honey</strong>には、ラテン語にもギリシャ語にも親戚がない。</p><p>いちばん驚くのはシルクロードの向こう端である。上古中国語の「蜜」は<em>*mit</em>と再構され、タリム盆地の印欧語、トカラ語からの借用と昔から言われてきた。ただし貸し手は読めるトカラ語ではありえない。写本は5〜10世紀のもので、上古中国語のほうが古いからだ。地図の注はこれをより古い段階からの借用としている。仮説ではあるが、今のところ最有力である。「蜜」の層は仏典に乗ってさらに広がった。中国語と日本語の<strong>蜂蜜</strong>はこれを受け継ぐ。朝鮮語はこの語を取らず、固有語の<strong>꿀</strong>を保った。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,ja,ko\" data-word=\"honey\">🗣 東アジアを比べる</button></div><h3>シルクロードと太平洋</h3><p>その外では、地図はそれぞれの道を行く。トルコ語は<strong>bal</strong>で、チュヴァシ語<strong>пыл</strong>では<em>b</em>が規則的に<em>p</em>になっている。アラビア語<strong>عسل</strong>はスワヒリ語<strong>asali</strong>を生み、ヘブライ語は<strong>דבש</strong>、タミル語は<strong>தேன்</strong>である。バントゥー語には独自の語根があり、ショナ語<strong>uchi</strong>、コサ語<strong>ubusi</strong>がある。いちばん奇妙なのはハワイ語<strong>meli</strong>と、その隣のサモア語<strong>meli</strong>だ。これはギリシャ語<em>méli</em>が19世紀に聖書とともに来たもので、古代ギリシャの語が、乳と蜜の流れる地を約束する書物に乗って太平洋へ渡ったのである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,ar,sw,he,ta,haw\" data-word=\"honey\">🗣 ほかの系統を比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"honey\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/honey"
+      },
+      {
+        "text": "\"mead\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/mead"
+      },
+      {
+        "text": "\"μέλι\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/μέλι"
+      },
+      {
+        "text": "\"mesi\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/mesi"
+      },
+      {
+        "text": "\"hunaja\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/hunaja"
+      },
+      {
+        "text": "\"molasses\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/molasses"
+      },
+      {
+        "text": "\"Mead\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Mead"
+      }
+    ]
+  },
+  {
+    "id": "hiccup-sob",
+    "icon": "😮",
+    "tags": [
+      "body",
+      "etymology",
+      "onomatopoeia"
+    ],
+    "title": {
+      "en": "Hiccup: The Same Word as Crying",
+      "ja": "しゃっくり：泣き声と同じ語"
+    },
+    "summary": {
+      "en": "Italians and Turks use one word for a hiccup and a sob. Latin’s word split so that hiccups went to some languages and tears to others, and Albanian hears a dog.",
+      "ja": "イタリア語とトルコ語では、しゃっくりとすすり泣きが同じ語である。ラテン語の一語はしゃっくりの言語と涙の言語に分かれ、アルバニア語は犬の声を聞いた。"
+    },
+    "body": {
+      "en": "<p>An Italian who says <strong>singhiozzo</strong> may be hiccuping or sobbing, and you have to look at the face to find out. Turkish does the same thing with <strong>hıçkırık</strong>, and Portuguese with <strong>soluço</strong>. A hiccup and a sob are not far apart in the body: a catch in the breath, a sudden jerk, a small noise you did not intend. Several languages decided that was close enough for one word.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"hiccup\" data-code=\"it\">🗺️ Show hiccup on the map</button></div><h3>Copying the noise</h3><p>Most languages, though, simply copy the sound. The map marks 119 cells as imitative, more than any other group that has a known story, and it is a noise that people everywhere hear the same way.</p><p>English <strong>hiccup</strong> began as <em>hic</em>, plus a little ending meaning small, and passed through <em>hicket</em> and <em>hickop</em>. It has relatives in Scots <em>hick</em> and in Dutch <strong>hik</strong>. The spelling <em>hiccough</em> looks learned, but the word has nothing to do with a cough. The same kind of shape turns up again and again: Spanish <strong>hipo</strong>, French <strong>hoquet</strong>, Hindi <strong>हिचकी</strong>, Russian <strong>икота</strong>, Finnish <strong>hikka</strong>. Korean <strong>딸꾹질</strong> is the most fun to say. <em>Ttalkkuk</em> is the hic itself, and the ending turns it into an action, so a hiccup in Korean is literally doing a ttalkkuk.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,nl,es,fr,hi,ru,fi,ko\" data-word=\"hiccup\">🗣 Compare the imitative words</button></div><h3>The sob</h3><p>The sob story is an old one. Latin <em>singultus</em> meant sobbing. On its way through Vulgar Latin it was influenced by <em>gluttiō</em>, “to swallow”, which fits a hiccup very well. Then the descendants went two ways. Italian <strong>singhiozzo</strong> and Portuguese <strong>soluço</strong> kept both senses, and Romanian <em>sughiț</em> is a relative. But French <em>sanglot</em> and Spanish <em>sollozo</em> mean only a sob. So a French speaker with the same Latin word in the house has to find a different one for a hiccup, and uses <strong>hoquet</strong>. The Latin word was divided between those who were crying and those who were just unlucky after lunch.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"it,pt,tr\" data-word=\"hiccup\">🗣 Compare hiccup and sob</button></div><p>Turkish reached the same place from the other end. <strong>hıçkırık</strong> is ultimately imitative, so here the noise is the root of the word, and it covers the tears as well.</p><h3>A swallow and a bark</h3><p>A few languages looked somewhere else. German <strong>Schluckauf</strong> is <em>schlucken</em>, “swallow”, plus <em>auf</em>, “up”, a swallow going the wrong way, and Yiddish <strong>שלוקערץ</strong> is on similar ground. Q’eqchi’ <strong>chuqʼubʼ</strong> is built on a root meaning to shake, and its verb covers both hiccuping and belching. The strangest of the lot is Albanian. <strong>lemzë</strong> comes from older <em>lehmëzë</em>, a derivative of <em>leh</em>, “to bark”. So an Albanian with hiccups is, by the word’s history, barking. There are 59 cells on the map with a word of their own and 95 whose origin no source has explained, including Japanese <strong>しゃっくり</strong>, so there may be more dogs in there.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"de,yi,sq,kek\" data-word=\"hiccup\">🗣 Compare the other images</button></div>",
+      "ja": "<p>イタリア人が<strong>singhiozzo</strong>と言ったら、しゃっくりかもしれないし、すすり泣きかもしれない。顔を見ないとわからない。トルコ語の<strong>hıçkırık</strong>も、ポルトガル語の<strong>soluço</strong>も同じだ。しゃっくりとすすり泣きは体の中では遠くない。息が詰まり、急に体が跳ね、思わず小さな音が出る。一語で足りると判断した言語がいくつもあった。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"hiccup\" data-code=\"it\">🗺️ 地図でしゃっくりを表示</button></div><h3>音をまねる</h3><p>とはいえ多くの言語は、ただ音をまねている。地図では119セルが擬音とされていて、由来のわかっている中では最大の集団である。どこの人にも同じように聞こえる音なのだ。</p><p>英語の<strong>hiccup</strong>は擬音の<em>hic</em>に小さいものを表す語尾がついた語で、<em>hicket</em>、<em>hickop</em>を経て今の形になった。スコットランド語<em>hick</em>やオランダ語<strong>hik</strong>が親戚である。<em>hiccough</em>というつづりは学問的に見えるが、cough（咳）とは関係がない。同じような形はあちこちに現れる。スペイン語<strong>hipo</strong>、フランス語<strong>hoquet</strong>、ヒンディー語<strong>हिचकी</strong>、ロシア語<strong>икота</strong>、フィンランド語<strong>hikka</strong>。言っていて楽しいのは朝鮮語の<strong>딸꾹질</strong>で、「タルクク」がひっくの音、語尾はそれをする動作を表す。文字どおり「ひっくをすること」である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,nl,es,fr,hi,ru,fi,ko\" data-word=\"hiccup\">🗣 擬音の語を比べる</button></div><h3>すすり泣き</h3><p>すすり泣きの話は古い。ラテン語<em>singultus</em>の意味はすすり泣きだった。俗ラテン語の時代に「飲み込む」を意味する<em>gluttiō</em>の影響を受けたというから、しゃっくりにはぴったりである。そして子孫は二手に分かれた。イタリア語<strong>singhiozzo</strong>とポルトガル語<strong>soluço</strong>は両方の意味を保ち、ルーマニア語<em>sughiț</em>も親戚である。ところがフランス語<em>sanglot</em>とスペイン語<em>sollozo</em>はすすり泣きだけを指す。だからフランス語話者は、同じラテン語を持ちながらしゃっくりには<strong>hoquet</strong>を探してこなければならなかった。一つのラテン語が、泣いている人と食後に運の悪かった人とに分けられたのである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"it,pt,tr\" data-word=\"hiccup\">🗣 しゃっくりとすすり泣きを比べる</button></div><p>トルコ語は反対の端から同じ場所に着いた。<strong>hıçkırık</strong>はもとをたどれば擬音で、語の根は音にあり、涙のほうも兼ねている。</p><h3>飲み込みと吠え声</h3><p>別のところを見た言語もある。ドイツ語<strong>Schluckauf</strong>は「飲み込む」<em>schlucken</em>と「上へ」<em>auf</em>で、逆方向に飲み込むことだ。イディッシュ語<strong>שלוקערץ</strong>も近い語である。ケクチ語<strong>chuqʼubʼ</strong>は「揺れる」の語根からできていて、動詞はしゃっくりにもげっぷにも使う。いちばん奇妙なのはアルバニア語で、<strong>lemzë</strong>は古い<em>lehmëzë</em>から来ていて、これは「吠える」<em>leh</em>の派生語である。しゃっくりの止まらないアルバニア人は、語の歴史の上では吠えていることになる。地図には独自の語が59セル、由来を説明する資料のない語が95セルあり、日本語の<strong>しゃっくり</strong>もその一つだ。まだ犬が隠れているかもしれない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"de,yi,sq,kek\" data-word=\"hiccup\">🗣 別の見立てを比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"hiccup\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/hiccup"
+      },
+      {
+        "text": "\"singhiozzo\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/singhiozzo"
+      },
+      {
+        "text": "\"soluço\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/soluço"
+      },
+      {
+        "text": "\"hıçkırık\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/hıçkırık"
+      },
+      {
+        "text": "\"lemzë\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/lemzë"
+      },
+      {
+        "text": "\"Schluckauf\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Schluckauf"
+      }
+    ]
+  },
+  {
+    "id": "goosebumps-which-bird",
+    "icon": "🪿",
+    "tags": [
+      "body",
+      "etymology",
+      "animals"
+    ],
+    "title": {
+      "en": "Goosebumps: Goose, Hen or Duck, Depending on the Border",
+      "ja": "鳥肌：国境でガチョウが鶏に変わる"
+    },
+    "summary": {
+      "en": "Nearly everyone agrees that frightened skin looks like a plucked bird. Nobody agrees on the bird, and Russia feels ants instead.",
+      "ja": "恐怖で粟立った肌が、羽をむしった鳥に似ていることには誰もが同意する。どの鳥かについては意見が合わず、ロシアではアリが這う。"
+    },
+    "body": {
+      "en": "<p>A frightened German has goose skin. Walk over the border into the Netherlands and the same person has chicken skin. Few things show the arbitrary side of language better. Human skin, cold or scared, looks like the skin of a plucked bird, and 119 cells on the map say so. The argument is over which bird. The bumps appear when someone is cold, tickled or feeling something strong, such as fear or euphoria, and some consider them a leftover reflex, which may be why they are so hard to describe with a straight face.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"goosebumps\" data-code=\"en\">🗺️ Show goosebumps on the map</button></div><h3>The goose and the hen</h3><p>The goose has the north and east. English <strong>goosebumps</strong> is named after the bumpy skin of a plucked goose, and the medical name, <em>cutis anserina</em>, is the same goose in Latin. German <strong>Gänsehaut</strong>, Swedish <strong>gåshud</strong>, Polish <strong>gęsia skórka</strong> and Ukrainian <strong>гусяча шкіра</strong> go with it, and it has an outpost in Italian <strong>pelle d’oca</strong>.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,sv,pl,it,uk\" data-word=\"goosebumps\">🗣 Compare the goose</button></div><p>The hen has much of the west, starting right next door. French <strong>chair de poule</strong> is “hen flesh”, Spanish <strong>piel de gallina</strong> and Portuguese <strong>pele de galinha</strong> are hen skin, and Dutch <strong>kippenvel</strong> and Finnish <strong>kananliha</strong> take the same side. So do far-off Vietnamese <strong>da gà</strong> and Mandarin <strong>鸡皮疙瘩</strong>, with a chicken in the phrase. Italy, in other words, sides with the goose while France and Spain side with the hen.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,es,pt,nl,fi,vi\" data-word=\"goosebumps\">🗣 Compare the hen</button></div><h3>Ants and hair</h3><p>Some languages decline to be specific. Japanese <strong>鳥肌</strong> just says bird skin, which is the safest answer on the map. Hebrew went for a third bird, with <strong>עור ברווז</strong>, “duck skin”, though “goose skin” is also found. Korean has it both ways. <strong>소름 / 닭살</strong> gives a native word recorded since 1447 and a newer “chicken skin” side by side.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja,zh,he\" data-word=\"goosebumps\">🗣 Compare the other birds</button></div><h3>Thorns and millet</h3><p>Two cells feel something else. Russian <strong>мурашки</strong> are “little ants”, from the crawling feeling on the skin, and Belarusian <strong>мурашкі</strong> is the same. It is the only route that describes how goosebumps feel instead of how they look. The bookish Russian term is the goose again, so the ant is what people actually say. Other languages go for the hair, which is what is really moving. Thai <strong>ขนลุก</strong> is “the hair rises”, and Hindi <strong>रोंगटे खड़े होना</strong> and Turkish <strong>tüyleri diken diken olmak</strong> are on the same route, 25 cells in all. Medicine agrees with them, and it has the grandest word: <em>horripilation</em>.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ru,be,th,hi,tr,bn\" data-word=\"goosebumps\">🗣 Compare ants and hair</button></div><p>Then there are the isolated images. Bengali <strong>গায়ে কাঁটা দেওয়া</strong> has thorns coming out on the body. The best of all is in Classical Chinese. <strong>起粟</strong> means to raise millet grains, picturing the bumps as millet, and Su Shi wrote the phrase in the 11th century: 凍合玉樓寒起粟. Nobody plucked anything for that one. The skin rose in a cold jade tower, in grains.</p>",
+      "ja": "<p>怖がっているドイツ人の肌はガチョウの肌である。国境を越えてオランダへ入ると、同じ肌が鶏の肌になる。言葉の気まぐれをこれほどよく見せる例も少ない。寒さや恐怖で粟立った人の肌は、羽をむしった鳥の肌に似ている。地図の119セルがそう言っていて、争点はどの鳥かだけである。鳥肌は寒いとき、くすぐられたとき、恐怖や陶酔のような強い感情を覚えたときに立ち、名残の反射だと考える人もいる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"goosebumps\" data-code=\"en\">🗺️ 地図で鳥肌を表示</button></div><h3>ガチョウと鶏</h3><p>北と東はガチョウのものだ。英語の<strong>goosebumps</strong>は羽をむしったガチョウのでこぼこした肌からの名で、医学用語<em>cutis anserina</em>もラテン語の同じガチョウである。ドイツ語<strong>Gänsehaut</strong>、スウェーデン語<strong>gåshud</strong>、ポーランド語<strong>gęsia skórka</strong>、ウクライナ語<strong>гусяча шкіра</strong>がこれに続き、イタリア語<strong>pelle d’oca</strong>も飛び地のようにここに入る。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,sv,pl,it,uk\" data-word=\"goosebumps\">🗣 ガチョウを比べる</button></div><p>西の多くは鶏のもので、ドイツのすぐ隣から始まる。フランス語<strong>chair de poule</strong>は「雌鶏の肉」、スペイン語<strong>piel de gallina</strong>とポルトガル語<strong>pele de galinha</strong>は雌鶏の皮、オランダ語<strong>kippenvel</strong>とフィンランド語<strong>kananliha</strong>も同じ側である。遠く離れたベトナム語<strong>da gà</strong>や中国語<strong>鸡皮疙瘩</strong>にも鶏がいる。フランスとスペインが鶏についているのに、イタリアはガチョウの側にいるわけだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,es,pt,nl,fi,vi\" data-word=\"goosebumps\">🗣 鶏を比べる</button></div><h3>アリと毛</h3><p>鳥の種類を言わない言語もある。日本語の<strong>鳥肌</strong>はただ鳥の肌と言うだけで、地図でいちばん無難な答えである。ヘブライ語は第三の鳥を選び、<strong>עור ברווז</strong>は「アヒルの皮」だ。「ガチョウの皮」も見られる。朝鮮語は両取りで、<strong>소름 / 닭살</strong>には1447年から記録のある固有語と、新しい「鶏の皮」が並んでいる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja,zh,he\" data-word=\"goosebumps\">🗣 ほかの鳥を比べる</button></div><h3>とげと粟</h3><p>二つのセルは別のものを感じている。ロシア語<strong>мурашки</strong>は「小さなアリ」で、肌を這う感じからの名であり、ベラルーシ語<strong>мурашкі</strong>も同じだ。見た目ではなく感触を語る唯一の系統である。ロシア語の書き言葉にはやはりガチョウがいるが、ふだん言うのはアリのほうだ。実際に動いている毛に目を向けた言語もある。タイ語<strong>ขนลุก</strong>は「毛が立つ」で、ヒンディー語<strong>रोंगटे खड़े होना</strong>やトルコ語<strong>tüyleri diken diken olmak</strong>も同じ系統の25セルに入る。医学も同じ見方で、いちばん大げさな語<em>horripilation</em>を持っている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ru,be,th,hi,tr,bn\" data-word=\"goosebumps\">🗣 アリと毛を比べる</button></div><p>さらに孤立した見立てがある。ベンガル語<strong>গায়ে কাঁটা দেওয়া</strong>では体にとげが出る。いちばんの傑作は漢文で、<strong>起粟</strong>は粟粒が立つという意味だ。粟立つという日本語と同じ見立てで、蘇軾は11世紀に「凍合玉樓寒起粟」と書いている。ここでは何もむしられていない。肌は冷たい玉楼の中で、粟になって立っている。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"Goose bumps\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Goose_bumps"
+      },
+      {
+        "text": "\"Gänsehaut\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Gänsehaut"
+      },
+      {
+        "text": "\"мурашки\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/мурашки"
+      }
+    ]
+  },
+  {
+    "id": "blessyou-what-you-say-to-a-sneeze",
+    "icon": "🤧",
+    "tags": [
+      "customs",
+      "phrases",
+      "folklore"
+    ],
+    "title": {
+      "en": "Bless You: What the World Says After a Sneeze",
+      "ja": "お大事に？：くしゃみのあとに世界が言うこと"
+    },
+    "summary": {
+      "en": "What you say after a sneeze is a small map of what people fear. Most wish you health, many call on God, and Okinawa tells the evil spirits exactly what to eat.",
+      "ja": "くしゃみのあとの一言は、人が恐れるものの小さな地図である。多くは健康を祈り、神に頼る人もいて、沖縄は悪霊に食べるものをはっきり告げる。"
+    },
+    "body": {
+      "en": "<p>In traditional Okinawan, when someone sneezes, the thing to say is <strong>糞くぇー</strong>. That is <em>kusu</em>, “feces”, and <em>kwee</em>, the imperative of “to eat”. The insult is not meant for the person who sneezed. It curses away the evil spirits that might have got in. It is the rudest cell on this word’s map, and it comes from the same worry as all the polite ones.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"blessyou\" data-code=\"ja_oki\">🗺️ Show the Okinawan phrase</button></div><h3>An omen</h3><p>The sneeze has always been an event. In ancient Greece and Rome it was an omen sent by the gods, read as good or bad according to the moment, and Romans answered with <em>Salve!</em> or “may Jupiter preserve you”. Later folk explanations held that the soul could be blown out of the body for an instant, leaving the sneezer open to possession, or that the heart briefly stopped. Neither has any basis in the body, but you can hear them in the phrases.</p><p>One group calls for help from above: 41 cells. English <strong>bless you</strong> is short for God bless you. Arabic <strong>يرحمك الله</strong>, “may God have mercy on you”, is half of a small exchange, since the sneezer first says <em>al-ḥamdu lillāh</em>. Hindi <strong>हरि ॐ</strong> is a mantra, invoking Vishnu and the sacred syllable.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,ar,hi\" data-word=\"blessyou\">🗣 Compare the blessings</button></div><h3>God and health</h3><p>The largest group, 78 cells, takes the practical line and wishes you health. German <strong>Gesundheit</strong> is so well known that English borrowed it. Spanish <strong>salud</strong>, Hebrew <strong>לבריאות</strong>, Polish <strong>na zdrowie</strong> and Swahili <strong>afya</strong> all mean the same thing. Russian <strong>будь здоров</strong> says “be healthy”, and Turkish <strong>çok yaşa</strong> says “live long”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"de,es,ru,tr,he,pl,sw\" data-word=\"blessyou\">🗣 Compare the health wishes</button></div><p>Then the phrases get interesting. French <strong>à tes souhaits</strong> wishes your wishes come true. Swedish <strong>prosit</strong> is Latin, “may it be of benefit”. Marathi <strong>सत्य आहे</strong> means “it is the truth”, because a sneeze confirms whatever was just said. Pashto says <strong>صبر</strong>, “patience”, and Kurdish <strong>xêr be</strong> is “may it be good”, since a sneeze is thought to stop what you were about to do. Yoruba <strong>pẹ̀lẹ́</strong> is the plain sympathy of “sorry, gently”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,sv,mr,ps,ku,yo\" data-word=\"blessyou\">🗣 Compare the odd ones</button></div><h3>Spirits, and silence</h3><p>Spirits come back in the east. Vietnamese <strong>cơm muối</strong>, “cooked rice and salt”, is said to a child to drive off the spirit troubling its weak soul. Adults usually get no reply. Cantonese <strong>大吉利事</strong>, “a great lucky thing”, is more like touching wood, since in southern Chinese belief a sneeze means someone is speaking ill of you. Japan shares the idea that a sneeze means you are being talked about, but it does not say anything. The Japanese row on this word is blank on purpose: nothing is customary, and the sneezer may apologise instead. So the map runs from a religious blessing to a curse on evil spirits to silence, and each of them, in its own way, is looking after you.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"vi,yue,ja_oki\" data-word=\"blessyou\">🗣 Compare the spirit phrases</button></div>",
+      "ja": "<p>昔ながらの沖縄の言葉では、誰かがくしゃみをしたら<strong>糞くぇー</strong>と言う。<em>kusu</em>は糞、<em>kwee</em>は「食う」の命令形である。くしゃみをした人を罵っているのではない。入り込むかもしれない悪霊を呪って追い払っているのだ。この語の地図でいちばん下品なセルだが、礼儀正しい言葉と同じ心配から出ている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"blessyou\" data-code=\"ja_oki\">🗺️ 沖縄の言葉を表示</button></div><h3>前兆</h3><p>くしゃみは昔から事件だった。古代ギリシャとローマでは神々の送る前兆で、そのときの状況で吉とも凶とも読まれ、ローマ人は<em>Salve!</em>「健やかに」やユピテルのご加護をと応じた。後の民間の説明には、魂が一瞬体から飛び出して悪魔に入られやすくなるというものや、心臓が一瞬止まるというものがある。どちらも体の事実とは関係ないが、言葉の中にその名残が聞こえる。</p><p>天に頼む集団は41セルある。英語の<strong>bless you</strong>はGod bless youの略である。アラビア語<strong>يرحمك الله</strong>「神があなたに慈悲を」は小さなやりとりの半分で、まずくしゃみをした人が<em>al-ḥamdu lillāh</em>と言う。ヒンディー語<strong>हरि ॐ</strong>はヴィシュヌと聖音を唱えるマントラである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,ar,hi\" data-word=\"blessyou\">🗣 祝福を比べる</button></div><h3>神と健康</h3><p>最大の集団78セルは現実的に健康を祈る。ドイツ語<strong>Gesundheit</strong>は英語が借りるほど有名だ。スペイン語<strong>salud</strong>、ヘブライ語<strong>לבריאות</strong>、ポーランド語<strong>na zdrowie</strong>、スワヒリ語<strong>afya</strong>も同じ意味である。ロシア語<strong>будь здоров</strong>は「健康でいろ」、トルコ語<strong>çok yaşa</strong>は「長生きしろ」だ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"de,es,ru,tr,he,pl,sw\" data-word=\"blessyou\">🗣 健康の願いを比べる</button></div><p>ここから先がおもしろい。フランス語<strong>à tes souhaits</strong>は「願いがかないますように」。スウェーデン語<strong>prosit</strong>はラテン語で「役に立ちますように」。マラーティー語<strong>सत्य आहे</strong>は「それは本当だ」で、くしゃみは直前の話を裏づけると考える。パシュトー語は<strong>صبر</strong>「辛抱」、クルド語<strong>xêr be</strong>は「よいことであれ」で、くしゃみはこれからすることを止めると思われているからだ。ヨルバ語<strong>pẹ̀lẹ́</strong>は「お気の毒に」というただの同情である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,sv,mr,ps,ku,yo\" data-word=\"blessyou\">🗣 変わった言葉を比べる</button></div><h3>霊と沈黙</h3><p>東へ来ると霊が戻ってくる。ベトナム語<strong>cơm muối</strong>「飯と塩」は、子どもがくしゃみをしたときに言って、弱った魂につく霊を追い払う。大人にはふつう何も言わない。広東語<strong>大吉利事</strong>「大いにめでたいこと」は厄払いの言葉で、南中国ではくしゃみは誰かに悪口を言われている印とされる。日本でも誰かに噂されている印とされるが、何も言わない。この語の日本語の行はわざと空けてあり、決まった言葉はなく、くしゃみをした人が謝ることもある。地図は宗教の祝福から悪霊への呪い、そして沈黙まで続いていて、どれもそれぞれのやり方で相手を気にかけている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"vi,yue,ja_oki\" data-word=\"blessyou\">🗣 霊の言葉を比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"Responses to sneezing\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Responses_to_sneezing"
+      },
+      {
+        "text": "\"gesundheit\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/gesundheit"
+      },
+      {
+        "text": "\"prosit\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/prosit"
+      }
+    ]
+  },
+  {
+    "id": "cockcrow-one-bird",
+    "icon": "🐓",
+    "tags": [
+      "onomatopoeia",
+      "animals",
+      "sound"
+    ],
+    "title": {
+      "en": "Cock-a-Doodle-Doo: One Rooster, Nearly Two Hundred Spellings",
+      "ja": "コケコッコー：一羽の鶏、二百近いつづり"
+    },
+    "summary": {
+      "en": "Roosters do not have accents, yet every language writes them down differently. Almost all reach for the same consonant, and finding the bird in a dictionary is harder than it sounds.",
+      "ja": "鶏になまりはない。それなのに、どの言語も違うつづりで書く。ほとんどが同じ子音に手を伸ばし、辞書で正しい鳥を見つけるのは思いのほか難しい。"
+    },
+    "body": {
+      "en": "<p>All roosters make the same noise. Nobody on earth disagrees about what it sounds like at five in the morning. Yet the map has 197 cells for it, and they read as though the birds had never met. English says <strong>cock-a-doodle-doo</strong>, French <strong>cocorico</strong>, Icelandic <strong>gaggalagó</strong>. There are no routes on this map, because there is nothing to inherit. Each language invented its own spelling of a sound nobody argues about.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"cockcrow\" data-code=\"en\">🗺️ Show cockcrow on the map</button></div><h3>The shared shape</h3><p>One thing is shared, and it is a shape: a hard consonant from the back of the mouth with a high vowel, repeated. German has <strong>kikeriki</strong>, Spanish <strong>quiquiriquí</strong>, Italian <strong>chicchirichì</strong> and Greek <strong>κικιρίκου</strong>, which could be four cousins and are simply four people listening. Dutch <strong>kukeleku</strong>, Hungarian <strong>kukurikú</strong> and Russian <strong>кукареку</strong> are a second group with their mouths more rounded. The call has a sharp start and several syllables, and nearly every language picks the same <em>k</em> to catch it, then disagrees about everything else.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,fr,de,es,it,hu,el,nl\" data-word=\"cockcrow\">🗣 Compare the k family</button></div><p>The exceptions are worth a look. English has a <em>doodle</em> in the middle that is unlike anything nearby. Icelandic moves the <em>k</em> to a <em>g</em>. Japanese <strong>コケコッコー</strong> and Korean <strong>꼬끼오</strong> stay with the velar family, but Thai <strong>เอ้กอี๊เอ้กเอ้ก</strong> opens with a catch in the throat and sounds like nothing else on the list. Turkish <strong>üürü üü</strong> nearly gave up on consonants. It is almost all vowel, and it may be the most honest of them.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"is,tr,th,ja,ko,ru\" data-word=\"cockcrow\">🗣 Compare the exceptions</button></div><h3>Which bird?</h3><p>Finding these words is harder than you would think, and the Chinese rows show why. The people filling the map searched 61 Sinitic rows in 2026, and only four could be filled. The trap is that dictionaries mostly record the hen. A gloss like 雞叫聲, “chicken noise”, does not say which bird, so the rule became to believe nothing without a source naming the cock. Mandarin is <strong>喔喔</strong>. Cantonese <strong>喔喔</strong> has the same characters and a different sound, <em>aak1</em>, because a Cantonese dictionary splits the character into a read form and a spoken form and attaches the doubled noise to the spoken one. The map first had the read form and corrected it, on the principle that a crow is something said, not something read.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,yue,nan\" data-word=\"cockcrow\">🗣 Compare the Chinese rows</button></div><p>The Taiwanese cell is the grand one. <strong>咯喈咯喔咯</strong> comes from a dictionary that separates the birds in one paragraph: this is the cock crowing at dawn, as distinct from the cock’s ordinary call and the hen calling her chicks.</p><h3>The closest miss</h3><p>Hakka is the closest miss in the whole word. A Taipei city agency published a Hakka picture book called 《咕咕咕》, about a cock’s crow, which is exactly what the map asks for. It prints no romanisation. A village survey has four syllables, for one village, and the official dictionary has 咕 as a sound for any animal. So the row stays blank, for now, for want of a proper spelling of a noise that everyone in Hakka country has heard.</p>",
+      "ja": "<p>鶏の鳴き声はどこでも同じだ。朝五時にどう聞こえるかで揉める人はいない。それなのに地図には197のセルがあり、読むと鶏同士が一度も会ったことがないかのようである。英語は<strong>cock-a-doodle-doo</strong>、フランス語は<strong>cocorico</strong>、アイスランド語は<strong>gaggalagó</strong>。この地図に系統はない。受け継ぐものがないからだ。どの言語も、誰も異論のない音に自分のつづりを発明した。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"cockcrow\" data-code=\"en\">🗺️ 地図で鶏の声を表示</button></div><h3>共通の形</h3><p>共通点は一つあり、それは形である。口の奥で作る硬い子音に高い母音をつけて、くり返す。ドイツ語<strong>kikeriki</strong>、スペイン語<strong>quiquiriquí</strong>、イタリア語<strong>chicchirichì</strong>、ギリシャ語<strong>κικιρίκου</strong>はいとこのように見えるが、四人が別々に聞いただけである。オランダ語<strong>kukeleku</strong>、ハンガリー語<strong>kukurikú</strong>、ロシア語<strong>кукареку</strong>は、もう少し口をすぼめた第二の組だ。鳴き声は鋭く始まって何音節か続くので、ほぼどの言語も同じ<em>k</em>でつかまえ、あとのことでは意見が割れる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,fr,de,es,it,hu,el,nl\" data-word=\"cockcrow\">🗣 kの仲間を比べる</button></div><p>例外も見ておきたい。英語の真ん中の<em>doodle</em>は、周りのどれにも似ていない。アイスランド語は<em>k</em>を<em>g</em>にした。日本語の<strong>コケコッコー</strong>と朝鮮語の<strong>꼬끼오</strong>は同じ子音の仲間にとどまるが、タイ語<strong>เอ้กอี๊เอ้กเอ้ก</strong>は喉を締める音で始まり、一覧のどれとも違う。トルコ語<strong>üürü üü</strong>は子音をほとんどあきらめている。母音ばかりで、もしかするといちばん正直かもしれない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"is,tr,th,ja,ko,ru\" data-word=\"cockcrow\">🗣 例外を比べる</button></div><h3>どの鳥か</h3><p>こうした語を探すのは思いのほか難しい。中国語の行がその理由を見せてくれる。地図の作り手は2026年に中国語系の61行を調べ、埋まったのは4行だけだった。辞書がたいてい雌鶏の声を載せているのが落とし穴である。「雞叫聲」のような説明では、どちらの鳥かわからない。そこで、雄鶏と明記した資料以外は信じないことになった。中国語は<strong>喔喔</strong>。広東語の<strong>喔喔</strong>は同じ字で音が違い、<em>aak1</em>である。広東語の字典はこの字を読書音と話し言葉の音に分け、重ねた鳴き声を話し言葉の音に結びつけている。地図は最初読書音を載せていたが、鳴き声は読むものではなく言うものだとして直した。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,yue,nan\" data-word=\"cockcrow\">🗣 中国語の行を比べる</button></div><p>台湾語のセルはいちばん立派だ。<strong>咯喈咯喔咯</strong>は、同じ段落で鳥を区別している辞書から取った語で、夜明けに鳴く雄鶏の声とされ、雄鶏のふだんの声や、雌鶏がひよこを呼ぶ声とは分けられている。</p><h3>いちばん惜しい行</h3><p>この語でいちばん惜しいのは客家語である。台北市の機関が『咕咕咕』という客家語の絵本を出していて、雄鶏の鳴き声を描いた本で、まさに地図の探しているものなのに、ローマ字が印刷されていない。ある村の調査には四音節の形があるが一村の例である。公式の辞書の「咕」は動物全般の声だ。そんなわけでこの行は、客家の人なら誰でも聞いたことのある音の正しいつづりを待って、今のところ空いている。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"Cross-linguistic onomatopoeias\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Cross-linguistic_onomatopoeias"
+      },
+      {
+        "text": "粵語同音字典, entry 喔 (as cited in the cell note)."
+      },
+      {
+        "text": "楊青矗, 國臺對照活用辭典 (as cited in the cell note)."
+      },
+      {
+        "text": "《咕咕咕》, Hakka picture book, 臺北市政府客家事務委員會 (as cited in the cell note)."
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "woof-dog-accents",
+    "icon": "🐕",
+    "tags": [
+      "onomatopoeia",
+      "animals",
+      "sound"
+    ],
+    "title": {
+      "en": "Woof: What Your Dog Says Abroad",
+      "ja": "ワンワン：外国の犬は何と鳴くか"
+    },
+    "summary": {
+      "en": "A dog barks the same in Seoul and Istanbul. Written down, it says meong, hav, gâu, bau or wan, and the first consonant tells you more about the listener than the dog.",
+      "ja": "ソウルでもイスタンブールでも犬の吠え声は同じだ。書き表すとモンモン、ハヴ、ガウ、バウ、ワンになり、最初の子音は犬より聞く人のことを語っている。"
+    },
+    "body": {
+      "en": "<p>A Korean dog says <strong>멍멍</strong>. No other dog on the map says anything close to that, and it is a perfectly good bark. Dogs do not have languages, but people do, and each language has to squeeze a sound with no real consonants into the consonants it owns. The map has 249 cells for the conventional bark, and the first sound of each one is a small lesson in how listeners hear.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"woof\" data-code=\"en\">🗺️ Show woof on the map</button></div><h3>The w group</h3><p>The most popular opening is a <em>w</em>, at 65 cells. English <strong>woof</strong> is in this group, along with Japanese <strong>ワンワン</strong>, Mandarin <strong>汪汪</strong>, French <strong>ouaf ouaf</strong> and Dutch <strong>waf waf</strong>. French spells that <em>w</em> with <em>ou</em>, and the two neighbours arrive at the same bark from different alphabets. Japanese and Mandarin close the syllable with a nasal, so their dogs end in a hum.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,ja,zh,fr,nl\" data-word=\"woof\">🗣 Compare the w group</button></div><p>Next come 34 cells with <em>h</em>. These dogs are all breath. Turkish <strong>hav hav</strong> and Hebrew <strong>הַב הַב</strong> match exactly, with no connection between them, and Finnish and Polish both have <strong>hau hau</strong>. Arabic <strong>هَوْ هَوْ</strong> is in the same group. Here the listener hears the air and not the voice.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,he,pl,fi,ar\" data-word=\"woof\">🗣 Compare the h group</button></div><h3>Hard starts</h3><p>The third group hears a hard start, 29 cells with <em>g</em>. Spanish <strong>guau guau</strong>, Indonesian <strong>guk guk</strong> and Vietnamese <strong>gâu gâu</strong> are on it. Russian <strong>гав-гав</strong> looks as though it should belong here and sounds like <em>gaf</em>, while Greek <strong>γαβ γαβ</strong> is softer, closer to <em>ghav</em>. Then come 19 cells with <em>v</em>, among them German <strong>wau wau</strong>, because the German <em>w</em> is really a <em>v</em>, and Icelandic <strong>voff voff</strong>. Another 17 open with <em>b</em>, as in Italian <strong>bau bau</strong> and Hindi <strong>भौं भौं</strong>. The English <em>bow-wow</em> has both, and in children’s speech it is simply a word for a dog.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"es,id,vi,it,hi,ru,el,de,is\" data-word=\"woof\">🗣 Compare g, v and b</button></div><p>Korea’s <em>m</em> has only 6 cells, so it is rare but not alone. Thai <strong>โฮ่ง ๆ</strong> sits with the <em>h</em> group, and writes its repeat with a special sign, ๆ, which tells you to say it twice. Thai does for the dog what most languages do by just writing it out.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ko,th\" data-word=\"woof\">🗣 Compare Korea and Thailand</button></div><h3>One thing they agree on</h3><p>The repeat is the one thing nearly everybody agrees on. English <em>woof</em> usually stands alone, but most of the map says it twice, as a dog actually does. Shakespeare spelled it his own way in <em>The Tempest</em>, where the watch-dogs go <em>bowgh wawgh</em>. It is likely that no real dog has ever sounded quite like any of these. Thirteen rows on the map carry only a dash, because no conventional bark has been sourced for them yet, so there may be more accents to come. This is a map of what people think they heard.</p>",
+      "ja": "<p>韓国の犬は<strong>멍멍</strong>（モンモン）と鳴く。地図にこれに近い犬はほかにいないが、立派な吠え声である。犬に言語はなくても人にはあり、どの言語も、はっきりした子音のない音を自分の持っている子音に押し込まなければならない。地図には決まった吠え声のセルが249あり、それぞれの最初の音は、人が音をどう聞くかの小さな教材である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"woof\" data-code=\"en\">🗺️ 地図で吠え声を表示</button></div><h3>wの組</h3><p>いちばん人気の出だしは<em>w</em>で、65セルある。英語の<strong>woof</strong>はここに入り、日本語の<strong>ワンワン</strong>、中国語の<strong>汪汪</strong>、フランス語<strong>ouaf ouaf</strong>、オランダ語<strong>waf waf</strong>も同じだ。フランス語はこの<em>w</em>を<em>ou</em>と書き、隣り合う二つの言語が別のつづりから同じ吠え声に着く。日本語と中国語は音節を鼻音で閉じるので、犬の声はハミングのように終わる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,ja,zh,fr,nl\" data-word=\"woof\">🗣 wの組を比べる</button></div><p>次は<em>h</em>の34セルで、息だけの犬たちである。トルコ語<strong>hav hav</strong>とヘブライ語<strong>הַב הַב</strong>はまったく同じ形で、両者に関係はない。フィンランド語とポーランド語はどちらも<strong>hau hau</strong>、アラビア語<strong>هَوْ هَوْ</strong>もこの組である。聞き手は声ではなく空気を聞いている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,he,pl,fi,ar\" data-word=\"woof\">🗣 hの組を比べる</button></div><h3>硬い出だし</h3><p>第三の組は硬い出だしを聞いた。<em>g</em>が29セルで、スペイン語<strong>guau guau</strong>、インドネシア語<strong>guk guk</strong>、ベトナム語<strong>gâu gâu</strong>がある。ロシア語<strong>гав-гав</strong>はこの組に見えて発音は「ガフ」、ギリシャ語<strong>γαβ γαβ</strong>はもっと柔らかい。<em>v</em>は19セルで、ドイツ語<strong>wau wau</strong>（ドイツ語の<em>w</em>は実は<em>v</em>）やアイスランド語<strong>voff voff</strong>が入る。<em>b</em>で始まるものは17セルで、イタリア語<strong>bau bau</strong>、ヒンディー語<strong>भौं भौं</strong>がある。英語の<em>bow-wow</em>は両方を持っていて、幼児語では犬そのものを指す。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"es,id,vi,it,hi,ru,el,de,is\" data-word=\"woof\">🗣 g、v、bを比べる</button></div><p>朝鮮語の<em>m</em>は6セルしかなく、珍しいが孤独ではない。タイ語<strong>โฮ่ง ๆ</strong>は<em>h</em>の組で、くり返しを専用の記号ๆで書く。ほかの言語が書き連ねるところを、タイ語は「二度言え」と指示するのである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ko,th\" data-word=\"woof\">🗣 朝鮮語とタイ語を比べる</button></div><h3>みんなが同意する一点</h3><p>くり返しは、ほとんどの言語が同意している唯一の点だ。英語の<em>woof</em>はふつう一度きりだが、地図の大半は犬が実際にするように二度言う。シェイクスピアは『テンペスト』で、番犬の声を<em>bowgh wawgh</em>とつづった。本物の犬がこのどれかに聞こえたことは、たぶん一度もない。地図の13行にはまだダッシュしかなく、決まった吠え声の資料が見つかっていない。なまりはまだ増えるかもしれない。これは犬の地図ではなく、人が聞いたつもりの音の地図である。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"bow-wow\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/bow-wow"
+      },
+      {
+        "text": "\"Cross-linguistic onomatopoeias\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Cross-linguistic_onomatopoeias"
+      },
+      {
+        "text": "\"ๆ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E0%B9%86"
+      },
+      {
+        "text": "LangMap Word Map data for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "lol-555-www",
+    "icon": "😂",
+    "tags": [
+      "internet",
+      "writing",
+      "laughter"
+    ],
+    "title": {
+      "en": "LOL: Why Thai Laughs in Fives and China in 233",
+      "ja": "LOL：タイは5で笑い、日本は草で笑う"
+    },
+    "summary": {
+      "en": "How do you type a laugh? Thailand uses numbers, Japan uses grass, China uses the 233rd smiley on an old forum, and France announces that it is dead.",
+      "ja": "笑いはどう打つのか。タイは数字、日本は草、中国は昔の掲示板の233番目の絵文字を使い、フランスは死んだと報告する。"
+    },
+    "body": {
+      "en": "<p>In Thai the number five is said <em>ha</em>, so <strong>555</strong> is <em>ha ha ha</em>. A Thai friend texting you a row of fives is laughing, and if you have ever been confused by that, you are in good company. It is the neatest trick on this map of 211 ways to type a laugh, a map the site’s owner asked for and one that needed rules of its own.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"lol\" data-code=\"th\">🗺️ Show lol on the map</button></div><h3>Numbers, grass and a dog</h3><p>Chinese has a number too, but for a stranger reason. <strong>233</strong> has nothing to do with sound. It comes from the 233rd emoji on the Chinese bulletin board Mop.com, a dog laughing, so a whole generation’s laugh is the catalogue number of a cartoon dog. Japanese went for the letter. The kanji 笑, “laugh”, was typed after a sentence, read <em>wara</em>, and that was shortened to <em>w</em> and then repeated: <strong>www</strong>. A long row of <em>w</em> looks like blades of grass, and so the word 草, “grass”, became a laugh as well. Japan therefore laughs in vegetation. Korean <strong>ㅋㅋㅋ</strong> is the letter for <em>k</em> on its own, with no vowel, a sound of snickering.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"th,zh,ja,ko\" data-word=\"lol\">🗣 Compare East Asia</button></div><p>The map’s evidence rules are unusual. A form needs a reliable source for that language, or a count from a large corpus of web text, where it must be the most frequent laugh, twice as frequent as the next one and spread over at least ten sites. The rule exists because strings of letters are dangerous. In these corpora, strings starting with <em>k</em> or <em>j</em> were mostly real words repeated, such as Igbo <em>jijiji</em>, “tremble”, and Sango <em>kue kue kue</em>, “all”. Only <em>h</em>-type and <em>jaja</em> laughter was accepted that way.</p><h3>The same laugh, different letters</h3><p>Most of the world spells the same laugh, and only the letter changes. Spanish <strong>jajaja</strong> looks odd to English eyes, but Spanish <em>j</em> is the <em>h</em> sound, and the word goes back at least to an 1877 book by José María de Pereda. Hebrew <strong>חחח</strong> writes only the consonants, as Hebrew does. Greek <strong>χαχαχα</strong>, Russian <strong>хахаха</strong> and Arabic <strong>ههه</strong> each use their own <em>h</em>, and Hungarian <strong>hahaha</strong> needs no explanation.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"es,he,el,ru,ar,hu\" data-word=\"lol\">🗣 Compare the h sounds</button></div><h3>Local specialities</h3><p>Then come the local specialities. French <strong>mdr</strong> stands for <em>mort de rire</em>, “dead of laughter”, so where English laughs out loud, France has died. Brazilian <strong>kkkk</strong> works because the letter <em>k</em> is called <em>ca</em> there, giving <em>cacacaca</em>. Indonesian <strong>wkwk</strong> may be short for <em>gue</em>, “I”, and <em>ketawa</em>, “laugh”, a way to save on text fees, or it may come from a noisier <em>wakakaka</em>. Polish <strong>xD</strong> is a face lying on its side, read aloud as letters. Vietnamese <strong>hihi</strong> giggles.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,pt_br,id,pl,vi,de\" data-word=\"lol\">🗣 Compare the specialities</button></div><p>Germans, Danes and Finns type <strong>lol</strong>, the English abbreviation, and German <strong>lol</strong> is read as a word. The others have kept their own. Laughter turns out to be something people prefer to do in their own language, even when the keyboard offers a convenient global alternative.</p>",
+      "ja": "<p>タイ語で数字の5は「ハー」と読むので、<strong>555</strong>は「ハハハ」になる。タイの友人から5が並んだメッセージが来たら、笑っているのだ。地図の211通りの笑いの打ち方の中でも、いちばんきれいな仕掛けである。この語は運営者の希望で作られ、語そのものに特別な決まりが必要になった。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"lol\" data-code=\"th\">🗺️ 地図でlolを表示</button></div><h3>数字、草、犬</h3><p>中国語にも数字があるが、理由はもっと奇妙だ。<strong>233</strong>は音とは関係がない。中国の掲示板Mop.comの233番目の絵文字、笑っている犬から来ている。つまり一世代の笑い声が、漫画の犬の整理番号なのだ。日本語は文字を選んだ。文末に（笑）と書き、これを「わら」と読み、wに縮めてくり返したのが<strong>www</strong>である。wが並ぶと草が生えて見えるので、「草」も笑いになった。日本は植物で笑う国である。朝鮮語の<strong>ㅋㅋㅋ</strong>は子音の字だけを並べた忍び笑いの音だ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"th,zh,ja,ko\" data-word=\"lol\">🗣 東アジアを比べる</button></div><p>この地図の証拠の決まりは変わっている。その言語について述べた信頼できる資料が一つあるか、大きなウェブ文書の集まりで数えて、最も多い笑いであり、次の形の二倍以上あり、10以上のサイトに現れることを求める。文字列は危ないからだ。こうした資料では、<em>k</em>や<em>j</em>で始まる連なりの多くは、笑いではなく本物の語のくり返しだった。イボ語の<em>jijiji</em>「震える」、サンゴ語の<em>kue kue kue</em>「すべて」がその例である。数えて認められたのは<em>h</em>型の笑いと<em>jaja</em>だけだ。</p><h3>同じ笑い、違う文字</h3><p>世界の大半は同じ笑いを書いていて、違うのは文字だけである。スペイン語<strong>jajaja</strong>は英語の目には奇妙だが、スペイン語の<em>j</em>はハ行の音で、この語は少なくとも1877年のホセ・マリア・デ・ペレーダの本までさかのぼる。ヘブライ語<strong>חחח</strong>はヘブライ語らしく子音だけを書く。ギリシャ語<strong>χαχαχα</strong>、ロシア語<strong>хахаха</strong>、アラビア語<strong>ههه</strong>はそれぞれ自分のハ行の字を使い、ハンガリー語<strong>hahaha</strong>には説明も要らない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"es,he,el,ru,ar,hu\" data-word=\"lol\">🗣 ハ行の音を比べる</button></div><h3>土地の名物</h3><p>そして土地の名物である。フランス語<strong>mdr</strong>は<em>mort de rire</em>「笑い死に」の略で、英語が声を出して笑うところで、フランスは死んでいる。ブラジルの<strong>kkkk</strong>は、<em>k</em>の字の名が「カ」なので「カカカカ」になる。インドネシア語<strong>wkwk</strong>は<em>gue</em>「僕」と<em>ketawa</em>「笑う」の略で通信料を節約した形かもしれず、騒がしい<em>wakakaka</em>から来たのかもしれない。ポーランド語<strong>xD</strong>は横倒しの顔で、読むときは字のまま読む。ベトナム語<strong>hihi</strong>はくすくす笑う。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,pt_br,id,pl,vi,de\" data-word=\"lol\">🗣 名物を比べる</button></div><p>ドイツ人、デンマーク人、フィンランド人は英語の略語<strong>lol</strong>を打ち、ドイツ語の<strong>lol</strong>は一語として読まれる。ほかの土地は自分の形を手放していない。便利な世界共通の略語がキーボードの上にあっても、笑いは自分の言葉でしたいものらしい。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"LOL\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/LOL"
+      },
+      {
+        "text": "\"555\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/555"
+      },
+      {
+        "text": "\"233\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/233"
+      },
+      {
+        "text": "\"mdr\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/mdr"
+      },
+      {
+        "text": "\"ㅋㅋㅋ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ㅋㅋㅋ"
+      },
+      {
+        "text": "\"wkwkwk\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/wkwkwk"
+      },
+      {
+        "text": "\"草\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/草"
+      },
+      {
+        "text": "\"jajaja\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/jajaja"
+      }
+    ]
+  },
+  {
+    "id": "poop-kaka-everywhere",
+    "icon": "💩",
+    "tags": [
+      "body",
+      "etymology",
+      "children"
+    ],
+    "title": {
+      "en": "Poop: Nearly One Word from Spain to Finland",
+      "ja": "うんち：スペインからフィンランドまでほぼ一語"
+    },
+    "summary": {
+      "en": "From Spain to Armenia to Finland, toddlers use the same two syllables. Some of that is inheritance, and some of it is simply the sound small children make.",
+      "ja": "スペインからアルメニア、フィンランドまで、幼児は同じ二音節を使っている。一部は受け継いだ語で、一部は幼児の出す音そのものだ。"
+    },
+    "body": {
+      "en": "<p>Parents in Madrid, Moscow, Athens, Istanbul and Helsinki use nearly the same word to a toddler, in languages from three different families. The map’s poop cells are one of the strangest patterns it has. Spanish and French <strong>caca</strong>, Italian <strong>cacca</strong>, Russian <strong>кака</strong>, Greek <strong>κακά</strong>, Turkish <strong>kaka</strong>, Finnish <strong>kakka</strong>, Armenian <strong>քաքա</strong> and Arabic <strong>كاكا</strong> sound as though they were one language. With 889 cells, this is a very well-travelled word.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"poop\" data-code=\"es\">🗺️ Show poop on the map</button></div><h3>Inherited, or reinvented?</h3><p>Some of it really is inheritance. Latin had <em>cacāre</em>, and Italian still has <em>cacare</em>, marked vulgar in the dictionaries. German <strong>Kacke</strong> sits comfortably beside them. The map’s notes trace the shape in several families to a Proto-Indo-European root <em>*kakka-</em>, “to void excrement”, which was probably imitative, the grunt of straining.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"es,fr,it,de,ru,el,tr,fi,hy,ar\" data-word=\"poop\">🗣 Compare the kaka family</button></div><p>But inheritance cannot be all of it. Finnish is not Indo-European, and Wiktionary calls <em>kakka</em> simply sound-symbolic, comparing Estonian <em>kaka</em>, Swedish <em>kacka</em> and Russian <em>кака</em>. Turkish is not Indo-European either, and neither is Arabic. Greek has a coincidence of its own, since <em>κακά</em> is also a form of the ancient word for bad. A velar stop with a low vowel, doubled, is about the easiest thing a small mouth can do, and a word that adults make up for children is under no pressure to be correct. So the likeliest picture is partly old root, partly loans between neighbours, and partly the same noise reinvented in nursery after nursery.</p><h3>Short forms and a Dutch relic</h3><p>Celtic has it short. Welsh <strong>cach</strong> and Irish <strong>cac</strong> keep one syllable, and English has a trace of its own in <em>cack</em>. The best English relic is <em>poppycock</em>, which sounds like an elderly gentleman objecting and was borrowed from Dutch <em>pappekak</em>, from <em>pappe</em>, “soft food”, and <em>kak</em>, “dung”. It means soft dung, and nobody in a club armchair has ever been told. English <strong>poop</strong> itself is of uncertain origin, possibly from a Middle English word for blowing a horn, and it matches Dutch <strong>poep</strong>. Polish <strong>kupa</strong> and Portuguese <strong>cocó</strong> keep the general idea with other vowels.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"cy,ga,nl,pl,pt\" data-word=\"poop\">🗣 Compare the other European forms</button></div><h3>Asia</h3><p>Asia stands apart. Japanese <strong>うんち</strong> is built on <em>un</em>, the sound made when straining, with a suffix of unclear origin, so it has the same idea as the Indo-European root, arrived at by a completely different mouth. Korean <strong>똥</strong> is a native word. Mandarin <strong>便便</strong> doubles the character for convenience and excretion, a very polite way of being a baby. Thai <strong>อึ</strong> is a single short grunt, the shortest possible version of the whole idea.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja,ko,zh,th\" data-word=\"poop\">🗣 Compare Asia</button></div><p>Nobody needs a linguist to tell them the origin of these words, and the point of the map is that nobody has to teach them either. Whatever the first speakers of Proto-Indo-European said to their toddlers, it would probably be understood in a nursery in Helsinki today.</p>",
+      "ja": "<p>マドリード、モスクワ、アテネ、イスタンブール、ヘルシンキの親は、三つの違う語族の言語で、幼児にほとんど同じ語を言っている。この語の地図は、とりわけ奇妙な模様を見せる。スペイン語とフランス語の<strong>caca</strong>、イタリア語<strong>cacca</strong>、ロシア語<strong>кака</strong>、ギリシャ語<strong>κακά</strong>、トルコ語<strong>kaka</strong>、フィンランド語<strong>kakka</strong>、アルメニア語<strong>քաքա</strong>、アラビア語<strong>كاكا</strong>は、まるで一つの言語のようだ。889セルもあり、よく旅をした語である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"poop\" data-code=\"es\">🗺️ 地図でうんちを表示</button></div><h3>受け継いだのか、生まれ直したのか</h3><p>一部は本当に受け継いだものだ。ラテン語には<em>cacāre</em>があり、イタリア語には今も<em>cacare</em>があって、辞書には卑語とある。ドイツ語<strong>Kacke</strong>もその隣に収まる。地図の注は、いくつかの語族でこの形を印欧祖語の語根<em>*kakka-</em>「排泄する」にたどっていて、これはおそらく踏ん張るときのうなり声をまねた語である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"es,fr,it,de,ru,el,tr,fi,hy,ar\" data-word=\"poop\">🗣 kakaの仲間を比べる</button></div><p>しかし受け継いだだけでは説明がつかない。フィンランド語は印欧語ではなく、ウィクショナリーは<em>kakka</em>をただ音象徴の語として、エストニア語<em>kaka</em>、スウェーデン語<em>kacka</em>、ロシア語<em>кака</em>と比べている。トルコ語もアラビア語も印欧語ではない。ギリシャ語には偶然もあって、<em>κακά</em>は「悪い」を意味する古い語の活用形でもある。口の奥の破裂音に開いた母音をつけて重ねるのは、小さな口にできるいちばん簡単なことの一つで、大人が子どものために作る語は正しくある必要もない。だから、古い語根と隣人どうしの借用と、あちこちの子ども部屋で同じ音が生まれ直したことの混ざり合いと見るのが、いちばんありそうである。</p><h3>短い形とオランダ語の名残</h3><p>ケルト語は短い。ウェールズ語<strong>cach</strong>、アイルランド語<strong>cac</strong>は一音節で、英語にも<em>cack</em>が残っている。英語の一番の名残は<em>poppycock</em>（たわごと）で、老紳士が異議を唱えているような響きだが、オランダ語<em>pappekak</em>からの借用である。<em>pappe</em>は柔らかい食べ物、<em>kak</em>は糞で、つまり「柔らかい糞」の意味だ。英語の<strong>poop</strong>そのものの語源ははっきりせず、角笛を吹くことを指す中英語から来たのかもしれない。オランダ語<strong>poep</strong>がこれに対応する。ポーランド語<strong>kupa</strong>とポルトガル語<strong>cocó</strong>は別の母音で同じ感じを保っている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"cy,ga,nl,pl,pt\" data-word=\"poop\">🗣 ほかのヨーロッパの形を比べる</button></div><h3>アジア</h3><p>アジアは別の世界だ。日本語の<strong>うんち</strong>は、いきむときの声「うん」に由来のはっきりしない「ち」がついた語である。印欧語の語根と同じ発想に、まったく別の口がたどり着いたわけだ。朝鮮語<strong>똥</strong>は固有語である。中国語<strong>便便</strong>は「便」を重ねた幼児語だ。タイ語<strong>อึ</strong>は短いうなり声一つで、この発想のいちばん短い形である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja,ko,zh,th\" data-word=\"poop\">🗣 アジアを比べる</button></div><p>この地図の要点は、誰もこの語を教わる必要がなかったことだ。印欧祖語を話した最初の人々が幼児に何と言ったにせよ、今のヘルシンキの子ども部屋でもおそらく通じるだろう。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"caca\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/caca"
+      },
+      {
+        "text": "\"cacare\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/cacare"
+      },
+      {
+        "text": "\"kakka\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/kakka"
+      },
+      {
+        "text": "\"poop\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/poop"
+      },
+      {
+        "text": "\"poppycock\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/poppycock"
+      },
+      {
+        "text": "\"うんち\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/うんち"
+      }
+    ]
+  },
+  {
+    "id": "hangover-carpenters",
+    "icon": "🤕",
+    "tags": [
+      "body",
+      "etymology",
+      "drink"
+    ],
+    "title": {
+      "en": "Hangover: Carpenters, a Tomcat and a Wooden Mouth",
+      "ja": "二日酔い：大工、雄猫、木の口"
+    },
+    "summary": {
+      "en": "Every drinking culture knows the morning after, and hardly any names it plainly. Danes hire carpenters, Germans get a tomcat, the French wake up with a wooden mouth.",
+      "ja": "酒を飲む文化なら翌朝を知っているが、そのまま名づける言語はほとんどない。デンマーク人は大工を雇い、ドイツ人は雄猫を抱え、フランス人は木の口で目を覚ます。"
+    },
+    "body": {
+      "en": "<p>The morning after, Danes have <strong>tømmermænd</strong>, literally carpenters. They are in your head, working on the timber, and you can hear the hammering. It is the best description on this map of 141 words, a map with no routes at all, because the images are too varied to sort into a few bins. Everyone who drinks has met this condition, and almost nobody will call it by a plain name.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"hangover\" data-code=\"da\">🗺️ Show hangover on the map</button></div><h3>A cat and its cousins</h3><p>German gets a cat, and the cat is a pun. <strong>Kater</strong> looks like “tomcat”, but the German dictionary DWDS traces it to 19th-century student slang reshaping <em>Katarrh</em>, a head cold, under the influence of an older word, <em>Katzenjammer</em>, “cats’ wailing”. Dutch <strong>kater</strong> was borrowed from German, tomcat and all. The older word then went east. Polish <strong>kac</strong> is clipped from <em>kacenjamer</em>, so a Polish hangover is the first syllable of a German cat fight, and Czech <strong>kocovina</strong> is probably modelled on the same thing.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"de,nl,pl,cs\" data-word=\"hangover\">🗣 Compare the cat family</button></div><p>French feels the dryness. <strong>gueule de bois</strong> is a “wooden mouth”, probably at first for the dry mouth after heavy drinking. The Iberian languages feel the sea. Spanish <strong>resaca</strong> is also the backwash of a wave pulling back from the shore, and Portuguese <strong>ressaca</strong> is a storm surge or undertow. Everything that came in last night is now going out again, and you are on the beach.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,es,pt,da\" data-word=\"hangover\">🗣 Compare mouths, waves and carpenters</button></div><h3>The calendar</h3><p>Another approach is to state the calendar. Japanese <strong>二日酔い</strong> is “two-day drunkenness”, cited since about 1500. Chinese <strong>宿醉</strong> and Korean <strong>숙취</strong> are “overnight drunkenness”, and Thai <strong>เมาค้าง</strong> is drunkenness left over. Turkish <strong>akşamdan kalmalık</strong> is “being left over from the evening”, and Hungarian <strong>másnaposság</strong> is “next-day-ness”. Swedish <strong>bakfylla</strong> and Norwegian <strong>bakrus</strong> are “back-drunkenness”. English <strong>hangover</strong> belongs here too. It first meant something left over, and took on the drinking sense only in the early 20th century.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja,zh,ko,th,tr,hu,sv,no\" data-word=\"hangover\">🗣 Compare the calendar words</button></div><h3>The learned words</h3><p>Then there are the learned ones. Finnish <strong>krapula</strong> comes from Latin <em>crapula</em>, “intoxication”, from Greek <em>kraipálē</em>, which already meant a hangover. The rare English word <em>crapulous</em> is the same one, and it has no connection with the word it sounds like. Russian <strong>похмелье</strong> is “after hops”, attested since at least the 15th century. Arabic <strong>خمار</strong> comes from the root of the word for wine, and needs care: with a different vowel, <em>khimār</em> is a veil. Modern Hebrew has an official word, <strong>חמרמורת</strong>, coined by the Academy from a biblical phrase about churning bowels. The English loan <em>hangover</em> is also common, which is perhaps a comment on the Academy.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,ru,ar,he,it\" data-word=\"hangover\">🗣 Compare the learned words</button></div><p>Italian has no single everyday noun for it. <strong>postumi della sbornia</strong> is “the after-effects of the binge”, in the language of a medical report. It is a very sober way of describing the state, and after carpenters, cats and the backwash, you may find it a relief.</p>",
+      "ja": "<p>飲みすぎた翌朝、デンマーク人の頭には<strong>tømmermænd</strong>、文字どおり大工たちがいる。頭の中で木材を相手に仕事をしていて、金づちの音が聞こえるのだ。141語が載るこの地図で最高の描写である。この語には系統の色分けがない。見立てがあまりに多様で、数種類に分けられないからだ。飲む人なら誰でも知っている状態なのに、ありのままの名で呼ぶ言語はほとんどない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"hangover\" data-code=\"da\">🗺️ 地図で二日酔いを表示</button></div><h3>猫とその親戚</h3><p>ドイツ語には猫が出てくるが、この猫は駄じゃれである。<strong>Kater</strong>は「雄猫」に見えるが、ドイツ語辞典DWDSによれば、19世紀の学生が風邪の<em>Katarrh</em>をもじった語で、もっと古い<em>Katzenjammer</em>「猫の嘆き」の影響を受けた。オランダ語<strong>kater</strong>は猫ごとドイツ語から借りた。古いほうの語は東へ行き、ポーランド語<strong>kac</strong>は<em>kacenjamer</em>を切り詰めた語だ。チェコ語<strong>kocovina</strong>もおそらく同じ語をもとにしている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"de,nl,pl,cs\" data-word=\"hangover\">🗣 猫の仲間を比べる</button></div><p>フランス語は渇きを感じている。<strong>gueule de bois</strong>は「木の口」で、深酒のあとの乾いた口をまず言ったものらしい。イベリアの言語は海を感じている。スペイン語<strong>resaca</strong>は岸から引いていく波の意味でもあり、ポルトガル語<strong>ressaca</strong>は高潮や引き波の意味でもある。ゆうべ入ってきたものがみな引いていき、自分は砂浜に残されている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,es,pt,da\" data-word=\"hangover\">🗣 口、波、大工を比べる</button></div><h3>暦</h3><p>暦をそのまま言う手もある。日本語の<strong>二日酔い</strong>は1500年ごろから見える語だ。中国語<strong>宿醉</strong>と朝鮮語<strong>숙취</strong>は「宿酔」、タイ語<strong>เมาค้าง</strong>は酔いが残ること。トルコ語<strong>akşamdan kalmalık</strong>は「夕べの残り」、ハンガリー語<strong>másnaposság</strong>は「翌日であること」である。スウェーデン語<strong>bakfylla</strong>とノルウェー語<strong>bakrus</strong>は「後ろの酔い」だ。英語の<strong>hangover</strong>もこの仲間で、もとは残ったものの意味で、酒の意味がついたのは20世紀初めである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja,zh,ko,th,tr,hu,sv,no\" data-word=\"hangover\">🗣 暦の語を比べる</button></div><h3>学のある語</h3><p>学のあるものもある。フィンランド語<strong>krapula</strong>はラテン語<em>crapula</em>「酩酊」から来ていて、その元のギリシャ語<em>kraipálē</em>がすでに二日酔いを指した。英語の珍しい語<em>crapulous</em>も同じ語である。ロシア語<strong>похмелье</strong>は「ホップの後」で、15世紀には記録がある。アラビア語<strong>خمار</strong>はワインの語と同じ語根で、注意が要る。母音が違うと「ヴェール」になるのだ。現代ヘブライ語には公式の語<strong>חמרמורת</strong>があり、アカデミーが聖書の腹がよじれる表現から作った。英語からの借用語もよく使われていて、これはアカデミーへの一つの返事かもしれない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,ru,ar,he,it\" data-word=\"hangover\">🗣 学のある語を比べる</button></div><p>イタリア語にはこれを指す日常の名詞が一語もない。<strong>postumi della sbornia</strong>は「深酒の後遺症」で、診断書のような言い方である。大工と猫と引き波のあとでは、このしらふの言葉にほっとするかもしれない。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"tømmermænd\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/tømmermænd"
+      },
+      {
+        "text": "\"Katzenjammer\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Katzenjammer"
+      },
+      {
+        "text": "\"Kater\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Kater"
+      },
+      {
+        "text": "\"kac\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/kac"
+      },
+      {
+        "text": "\"krapula\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/krapula"
+      },
+      {
+        "text": "\"crapulous\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/crapulous"
+      }
+    ]
+  },
+  {
+    "id": "wifi-means-nothing",
+    "icon": "📶",
+    "tags": [
+      "technology",
+      "loanwords",
+      "sound"
+    ],
+    "title": {
+      "en": "Wi-Fi: A Word That Means Nothing, Said Two Ways",
+      "ja": "Wi-Fi：何の意味もない語の二つの読み方"
+    },
+    "summary": {
+      "en": "The name was made up by a branding firm and stands for nothing. Everyone spells it the same, and the world then splits over whether it says wai-fai or wee-fee.",
+      "ja": "この名前はブランド会社が作ったもので、何の略でもない。誰もが同じようにつづり、そのあと世界はワイファイかウィフィかで割れる。"
+    },
+    "body": {
+      "en": "<p>Wi-Fi does not stand for anything. The technology was called IEEE 802.11b Direct Sequence, and the industry group behind it hired the branding firm Interbrand to find something, in their words, “a little catchier”. The name has no expanded form. The group did use the slogan “The Standard for Wireless Fidelity” for a short time, which is where the belief comes from that it is short for something. It never was. A made-up syllable pair now sits on the map in 274 cells, and it may be the only word of its kind that almost everyone spells the same and nobody says the same.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"wifi\" data-code=\"en\">🗺️ Show Wi-Fi on the map</button></div><h3>Two camps</h3><p>That is the interest of this word. The written form barely moves, so the whole story is in the sound, and the sound splits into two camps. The first reads it the English way, <em>wai-fai</em>. The second treats the four letters as what they would be in its own language, and comes out with <em>wee-fee</em>.</p><p>The English reading is the larger camp. Japanese writes <strong>Wi-Fi</strong> in Latin letters and says <em>wai-fai</em>, and Russian <strong>Wi-Fi</strong>, Hebrew and Ukrainian do the same, so the Latin spelling is misleading. Where a script spells out the diphthongs, the reading is on the page: Korean <strong>와이파이</strong>, Thai <strong>ไวไฟ</strong>, Arabic <strong>واي فاي</strong>. German also keeps the English diphthongs but turns the first sound into its own <em>w</em>, so <strong>Wi-Fi</strong> comes out as <em>vai-fai</em>, and in everyday German the thing itself is usually called WLAN.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,ja,ko,ru,ar,th\" data-word=\"wifi\">🗣 Compare the English reading</button></div><h3>Spain and Mexico</h3><p>The letter camp has at least 36 cells. French <strong>wifi</strong> is <em>wee-fee</em>, as are Finnish, Polish and Indonesian. The great fault line runs through Spanish. Spain writes <strong>wifi</strong> and says <em>wee-fee</em>. Mexico writes the same word and says <em>wai-fai</em>, so two speakers of one language can look at the same sticker on a café door and read it differently.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"es,es_mx,fr,fi,pl,id\" data-word=\"wifi\">🗣 Compare the letter reading</button></div><p>Asia adds some new effects. Mandarin <strong>Wi-Fi</strong> is written in Latin but read with citation tones, high and then falling, so the English word has become two Chinese syllables in everything but the writing. Cantonese <strong>Wi-Fi</strong> has both syllables on a high tone, and Vietnamese <strong>wifi</strong> opens with a soft <em>g</em> before the <em>w</em>. South Asia writes the reading straight out in its own scripts, as in Hindi <strong>वाई-फ़ाई</strong>. Tamil is the most inventive. It has no native <em>w</em> or <em>f</em>, so it writes <strong>ஒய்-ஃபை</strong>, which comes out as <em>oy-fai</em> and uses a special letter to get the <em>f</em> at all.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,yue,hi,ta\" data-word=\"wifi\">🗣 Compare Asia</button></div><h3>Tones and Tamil</h3><p>So a word designed in an office to be catchy, and to mean nothing, now has a pronunciation dispute as lively as any word with a thousand years of history. The branding firm got rather more than it was paid for.</p>",
+      "ja": "<p>Wi-Fiは何の略でもない。この技術の名はIEEE 802.11b Direct Sequenceで、業界団体がブランド会社インターブランドに、もう少し覚えやすい名前を頼んだ。団体は短い間「The Standard for Wireless Fidelity」という標語を使い、何かの略だという思い込みはそこから生まれた。実際は略ではない。作りものの二音節が今、地図の274セルにあり、誰もが同じようにつづり、誰も同じようには言わない、珍しい語である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"wifi\" data-code=\"en\">🗺️ 地図でWi-Fiを表示</button></div><h3>二つの陣営</h3><p>この語のおもしろさはそこにある。書き方はほとんど動かないので、話はすべて音の中にあり、音は二つの陣営に割れる。一方は英語どおりワイファイと読む。もう一方は四つの字を自分の言語の字として読み、ウィフィになる。</p><p>大きいのは英語読みの陣営である。日本語はラテン文字で<strong>Wi-Fi</strong>と書いてワイファイと読み、ロシア語<strong>Wi-Fi</strong>、ヘブライ語、ウクライナ語も同じなので、つづりはあてにならない。二重母音を書き表す文字なら読みが紙の上に出る。朝鮮語<strong>와이파이</strong>、タイ語<strong>ไวไฟ</strong>、アラビア語<strong>واي فاي</strong>である。ドイツ語は二重母音を保ちながら最初の音を自分の<em>w</em>に変えるので、<strong>Wi-Fi</strong>はヴァイファイとなり、ふだんはWLANと呼ぶことが多い。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,ja,ko,ru,ar,th\" data-word=\"wifi\">🗣 英語読みを比べる</button></div><h3>スペインとメキシコ</h3><p>字の読みの陣営は少なくとも36セルある。フランス語<strong>wifi</strong>はウィフィで、フィンランド語、ポーランド語、インドネシア語も同じだ。最大の断層はスペイン語を走っている。スペインは<strong>wifi</strong>と書いてウィフィと言い、メキシコは同じ語を書いてワイファイと言う。一つの言語の話者が、喫茶店の扉の同じステッカーを別々に読むわけだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"es,es_mx,fr,fi,pl,id\" data-word=\"wifi\">🗣 字の読みを比べる</button></div><p>アジアには新しい効果がある。中国語の<strong>Wi-Fi</strong>はラテン文字で書くが声調をつけて読み、高い音から下がる音へ続くので、書き方を除けばすっかり中国語の二音節である。広東語の<strong>Wi-Fi</strong>は両方の音節が高い声調で、ベトナム語<strong>wifi</strong>は<em>w</em>の前に軽い<em>g</em>の音が入る。南アジアは読みを自分の文字で書き出し、ヒンディー語は<strong>वाई-फ़ाई</strong>となる。いちばん工夫しているのはタミル語で、固有の<em>w</em>も<em>f</em>もないので<strong>ஒய்-ஃபை</strong>と書き、オイファイのようになる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,yue,hi,ta\" data-word=\"wifi\">🗣 アジアを比べる</button></div><h3>声調とタミル語</h3><p>こうして、事務所で覚えやすさだけを狙って作られた無意味な語に、千年の歴史を持つ語に負けない発音論争がついた。ブランド会社は報酬以上の仕事をしたようだ。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"Wi-Fi\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Wi-Fi"
+      }
+    ]
+  },
+  {
+    "id": "rainbow-water-door",
+    "icon": "🌈",
+    "tags": [
+      "nature",
+      "etymology",
+      "folklore"
+    ],
+    "title": {
+      "en": "Rainbow: A Door, a Belt, a Snake or a Straw",
+      "ja": "虹：扉、帯、蛇、そして吸い管"
+    },
+    "summary": {
+      "en": "Most of Europe sees a bow. Korea sees a water door, Turkey a sash, Yoruba a serpent, and Hungary a tube that something is drinking through.",
+      "ja": "ヨーロッパの多くは弓を見た。朝鮮語は水の扉、トルコ語は空の帯、ヨルバ語は蛇、ハンガリー語は何かが水を吸う管を見ている。"
+    },
+    "body": {
+      "en": "<p>The Korean word for a rainbow is a door. <strong>무지개</strong> is Middle Korean for “water” plus <em>jige</em>, an old word for a door, after the arched top of a door, and not the A-frame carrier of the same spelling. The rainbow is a door made of water. Look at the map with that in mind, and it becomes a catalogue of what people thought they were looking at. Most languages did not simply say “coloured stripe”. They said what the thing was for, or who owned it.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"rainbow\" data-code=\"ko\">🗺️ Show rainbow on the map</button></div><h3>Bows and arches</h3><p>The largest group by far, 238 cells, sees a bow or an arch. English <strong>rainbow</strong> is rain and bow, and German <strong>Regenbogen</strong> is the same. French <strong>arc-en-ciel</strong> is an arc in the sky, and Italian <strong>arcobaleno</strong> adds <em>baleno</em>, a flash of light. Swahili <strong>upinde wa mvua</strong> is a bow of rain. Finnish <strong>sateenkaari</strong> looks ancient and is not: the philologist Gustaf Renvall coined it in 1826. Hebrew <strong>קשת</strong> is simply the word for a bow, the weapon, and Greek <strong>ουράνιο τόξο</strong> is a heavenly bow.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,fr,it,fi,sw,he,el\" data-word=\"rainbow\">🗣 Compare bows and arches</button></div><p>A bow invites the question of who is holding it. Hindi <strong>इंद्रधनुष</strong> answers directly: it is Indra’s bow, after the Vedic god of thunder and rain. Arabic <strong>قوس قزح</strong> is the bow of Quzah, a pre-Islamic god of weather. The Spanish <strong>arcoíris</strong> and Portuguese <strong>arco-íris</strong> are arcs of Iris, the Greek goddess of the rainbow. The gods have changed, but the weapon is still up there.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hi,ar,es,pt\" data-word=\"rainbow\">🗣 Compare the gods’ bows</button></div><h3>The living rainbow</h3><p>In other parts of the world the rainbow is alive. Only 8 cells on the map say so, and they are the most striking ones. Yoruba <strong>òṣùmàrè</strong> is also the name of a rainbow serpent deity. Igbo <strong>ekeneegwurugwu</strong> begins with the word for python. Koyraboro Senni <strong>beenegondi</strong> is a “sky snake”, and it is the word its Bible uses in Genesis 9:13. White Hmong <strong>zaj sawv</strong> is “the dragon rises”, and Tiwi <strong>puntaninga</strong>, in northern Australia, is both the rainbow and the Rainbow Serpent.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"yo,ig,ses,hmn,tiw\" data-word=\"rainbow\">🗣 Compare the serpents</button></div><p>Others saw clothing and road-works. Turkish <strong>gökkuşağı</strong> is a sky sash, and Georgian <strong>ცისარტყელა</strong> a belt of the sky. Vietnamese <strong>cầu vồng</strong> has the word for a bridge in it. Malay <strong>pelangi</strong> is the striped one. Ukrainian <strong>веселка</strong> is simply “the merry one”. Polish <strong>tęcza</strong> took the name of the downpour itself, and Burmese <strong>သက်တံ</strong> is a descending rod. Tagalog <strong>bahaghari</strong> is commonly explained as “the king’s loincloth”, though some scholars prefer an older regional word.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,ka,vi,ms,uk,pl,tl,my\" data-word=\"rainbow\">🗣 Compare belts, bridges and stripes</button></div><h3>Something drinking</h3><p>The strangest is Hungarian <strong>szivárvány</strong>, from an old word for a sucking tube, after the belief that a mythical being draws water up from the earth through the rainbow. It has a remarkable match in China. The character 虹, in Mandarin <strong>彩虹</strong> and Japanese <strong>虹</strong>, began in the oracle bones as a two-headed dragon drinking from the river. Two cultures a continent apart looked at the same arc and decided that something was drinking through it. Irish <strong>tuar ceatha</strong> had a more practical view. It is an “omen of a shower”, which means, in Ireland, that it is usually correct.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hu,zh,ja,ga\" data-word=\"rainbow\">🗣 Compare the drinkers</button></div>",
+      "ja": "<p>朝鮮語の虹は扉である。<strong>무지개</strong>は中期朝鮮語の「水」に、扉を指す古い語<em>jige</em>がついた語で、扉の上のアーチに見立てたものだ。同じ綴りの背負子とは関係がない。虹は水でできた扉なのである。そう思って地図を見ると、人々が何を見ているつもりだったかの目録になる。ほとんどの言語は「色のついた筋」とは言わなかった。何のためのものか、誰のものかを言ったのである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"rainbow\" data-code=\"ko\">🗺️ 地図で虹を表示</button></div><h3>弓とアーチ</h3><p>飛び抜けて大きい集団は238セルで、弓やアーチを見ている。英語の<strong>rainbow</strong>は雨と弓、ドイツ語<strong>Regenbogen</strong>も同じだ。フランス語<strong>arc-en-ciel</strong>は空の弧、イタリア語<strong>arcobaleno</strong>には閃光を意味する<em>baleno</em>が足してある。スワヒリ語<strong>upinde wa mvua</strong>は雨の弓である。フィンランド語<strong>sateenkaari</strong>は古そうに見えるが、言語学者グスタフ・レンヴァルが1826年に作った語だ。ヘブライ語<strong>קשת</strong>は武器の弓そのもので、ギリシャ語<strong>ουράνιο τόξο</strong>は天の弓である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,fr,it,fi,sw,he,el\" data-word=\"rainbow\">🗣 弓とアーチを比べる</button></div><p>弓があるなら、誰が持っているのかが気になる。ヒンディー語<strong>इंद्रधनुष</strong>の答えは明快で、雷と雨のヴェーダの神インドラの弓である。アラビア語<strong>قوس قزح</strong>はイスラーム以前の天候の神クザハの弓だ。スペイン語<strong>arcoíris</strong>とポルトガル語<strong>arco-íris</strong>は、ギリシャの虹の女神イリスの弧である。神は変わっても、武器は空にかかったままだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hi,ar,es,pt\" data-word=\"rainbow\">🗣 神々の弓を比べる</button></div><h3>生きている虹</h3><p>世界の別の場所では、虹は生きている。地図でそう言うのは8セルだけだが、いちばん印象が強い。ヨルバ語<strong>òṣùmàrè</strong>は虹の蛇の神の名でもある。イボ語<strong>ekeneegwurugwu</strong>はニシキヘビの語で始まる。コイラボロ・センニ語<strong>beenegondi</strong>は「空の蛇」で、聖書の創世記9章13節もこの語を使う。白モン語<strong>zaj sawv</strong>は「竜が昇る」、オーストラリア北部のティウィ語<strong>puntaninga</strong>は虹であり虹蛇でもある。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"yo,ig,ses,hmn,tiw\" data-word=\"rainbow\">🗣 蛇を比べる</button></div><p>衣類や土木工事を見た人々もいる。トルコ語<strong>gökkuşağı</strong>は空の帯、ジョージア語<strong>ცისარტყელა</strong>も空の帯である。ベトナム語<strong>cầu vồng</strong>には橋の語が入っている。マレー語<strong>pelangi</strong>は縞のあるもの、ウクライナ語<strong>веселка</strong>はただ「陽気なもの」だ。ポーランド語<strong>tęcza</strong>は土砂降りそのものの名を取り、ミャンマー語<strong>သက်တံ</strong>は「降りてくる棒」である。タガログ語<strong>bahaghari</strong>はふつう「王のふんどし」と説明されるが、もっと古い地方語から来たと見る学者もいる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,ka,vi,ms,uk,pl,tl,my\" data-word=\"rainbow\">🗣 帯、橋、縞を比べる</button></div><h3>飲んでいるもの</h3><p>いちばん奇妙なのはハンガリー語<strong>szivárvány</strong>だ。吸い上げる管を指す古い語から来ていて、伝説の生き物が虹を通して地上の水を吸い上げると信じられていた。これには中国に見事な相手がいる。中国語<strong>彩虹</strong>や日本語の<strong>虹</strong>に使われる字は、甲骨文では川の水を飲む双頭の竜の絵だった。大陸の両側の文化が同じ弧を見て、何かが飲んでいると考えたのである。アイルランド語<strong>tuar ceatha</strong>はもっと実際的で、「にわか雨の前兆」である。アイルランドなら、たいてい当たるだろう。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hu,zh,ja,ga\" data-word=\"rainbow\">🗣 飲むものを比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "홍윤표, '무지개'의 어원, 새국어소식, February 2003, National Institute of Korean Language.",
+        "url": "https://www.korean.go.kr/nkview/nknews/200302/55_1.html"
+      },
+      {
+        "text": "\"sateenkaari\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/sateenkaari"
+      },
+      {
+        "text": "\"قوس قزح\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D9%82%D9%88%D8%B3_%D9%82%D8%B2%D8%AD"
+      },
+      {
+        "text": "\"Quzah\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Quzah"
+      },
+      {
+        "text": "\"Iris (mythology)\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Iris_%28mythology%29"
+      },
+      {
+        "text": "\"Oshunmare\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Oshunmare"
+      },
+      {
+        "text": "Koyraboro Senni Bible, Genesis 9:13, eBible.org.",
+        "url": "https://ebible.org/find/show.php?id=ses"
+      },
+      {
+        "text": "\"zaj sawv\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/zaj_sawv"
+      },
+      {
+        "text": "Tiwi Lexicon (as cited in the cell note)."
+      },
+      {
+        "text": "Interweaving Voices: Ampiji the Rainbow Serpent, Sydney Environment Institute, 2021.",
+        "url": "https://www.sydney.edu.au/sydney-environment-institute/news-analysis/news/2021/07/07/interweaving-voices--ampiji-the-rainbow-serpent.html"
+      },
+      {
+        "text": "\"tęcza\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/t%C4%99cza"
+      },
+      {
+        "text": "\"bahaghari\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/bahaghari"
+      },
+      {
+        "text": "\"szivárvány\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/sziv%C3%A1rv%C3%A1ny"
+      },
+      {
+        "text": "\"虹\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E8%99%B9"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "thunder-god-voice",
+    "icon": "⛈️",
+    "tags": [
+      "nature",
+      "etymology",
+      "folklore"
+    ],
+    "title": {
+      "en": "Thunder: The Word That Is Also a God",
+      "ja": "雷：語がそのまま神である"
+    },
+    "summary": {
+      "en": "Japanese calls it the god’s roar. In English and Danish, thunder and Thor are one word. On much of the map the noise and the deity were never quite separated.",
+      "ja": "日本語の雷は「神鳴り」である。英語やデンマーク語では雷とトールが一つの語で、地図の多くの場所で、音と神は切り離されていない。"
+    },
+    "body": {
+      "en": "<p>In Japanese, every thunderclap is a god clearing his throat. <strong>雷</strong>, <em>kaminari</em>, was originally <em>kami</em>, “god”, and <em>nari</em>, “sounding”: the god’s roar. Thunder is the one weather event you cannot see the cause of, and it is very loud, so people in many places reached the same conclusion. The map has 48 cells where the word for thunder and a god are bound together, and that is before you count English.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"thunder\" data-code=\"ja\">🗺️ Show thunder on the map</button></div><h3>Thor’s din</h3><p>English <strong>thunder</strong> is Old English <em>þunor</em>, from a Germanic root shared with the god-name Thor, and German <strong>Donner</strong> has the same root. It runs in the direction you might not guess: Thor was named after the thunder, and not the other way round. Thursday is his day. In Scandinavia the god comes back into the noise. Danish and Norwegian <strong>torden</strong> is “Thor’s din”. Swedish <strong>åska</strong> looks unrelated, but it comes from Old Swedish <em>āsikkia</em>, “the god’s driving”, the sound of Thor riding his chariot across the clouds.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,da,no,sv\" data-word=\"thunder\">🗣 Compare the Thor family</button></div><p>Elsewhere the god and the word are simply the same. Latvian <strong>pērkons</strong> is the god Pērkons himself. Finnish <strong>ukkonen</strong> is “little Ukko”, after the sky and thunder god. Northern Sámi <strong>baján</strong> is the name of the Sámi thunder god, and Adyghe <strong>шыблэ</strong> is Shible, the Circassian god of lightning. Taiwanese <strong>雷公</strong> means “Thunder Duke”, the name of the Chinese thunder god, used for the sound. A Taiwanese grandmother who says it is thundering is saying, strictly, that the Duke is at it again.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,lv,se,ady,nan\" data-word=\"thunder\">🗣 Compare the god names</button></div><h3>Thunderbirds</h3><p>North America has birds. Lakota <strong>wakíŋyaŋ</strong> means “the flying one”, and the same word is both thunder and the thunderbird. Ojibwe <strong>animikii</strong> is the same idea from another language family, with <em>animikiikaa</em>, “there is thunder”, built on the word. Two peoples agree that the noise is a very large bird.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"lkt,oj\" data-word=\"thunder\">🗣 Compare the thunderbirds</button></div><p>A smaller group ignored the theology and copied the noise, only 18 cells. Javanese <strong>gludhug</strong> and Sundanese <strong>guludug</strong> are echoes of the rumble, and Albanian <strong>bubullimë</strong> is built on an imitative verb. Nepali <strong>गड्याङगुडुङ</strong> is the most complete, and Turner’s dictionary records the same word for a cat’s purring, which gives a good idea of what kind of noise is meant.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"jv,su,sq,ne\" data-word=\"thunder\">🗣 Compare the imitative words</button></div><h3>Heaven moving</h3><p>Most cells on the map, 399 of them, are a plain old word, and those have their own stories. Korean <strong>천둥</strong> is a native-looking form of Sino-Korean 天動, “movement of heaven”, so a god of sorts is in there too. Russian <strong>гром</strong> also means the thunderbolt. Arabic <strong>رعد</strong> goes back to Proto-Semitic, and Sura 13 of the Qur’an is named after it. Swahili <strong>radi</strong> was borrowed from that Arabic word, and it covers lightning as well. Mandarin <strong>雷</strong> is an old root, and the verb for thundering is 打雷, “to strike thunder”, as though somebody up there were hitting it.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ko,ar,sw,ru,zh\" data-word=\"thunder\">🗣 Compare the plain words</button></div>",
+      "ja": "<p>日本語では、雷が鳴るたびに神が声を上げている。<strong>雷</strong>、かみなりは、もとは「神」と「鳴り」で、神の轟きである。雷は原因の見えない天気で、しかも非常にうるさい。だから世界の多くの人が同じ結論に達した。地図には雷の語と神が結びついたセルが48あり、これは英語を数える前の話だ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"thunder\" data-code=\"ja\">🗺️ 地図で雷を表示</button></div><h3>トールの騒音</h3><p>英語の<strong>thunder</strong>は古英語<em>þunor</em>で、神の名トールと同じゲルマン語の語根から来ていて、ドイツ語<strong>Donner</strong>も同じである。順序は意外かもしれない。雷の名をもらったのはトールのほうなのだ。木曜日Thursdayは彼の日である。スカンディナヴィアでは神が音の中へ戻ってくる。デンマーク語とノルウェー語の<strong>torden</strong>は「トールの騒音」だ。スウェーデン語<strong>åska</strong>は無関係に見えるが、古スウェーデン語<em>āsikkia</em>「神の走行」から来ていて、トールが戦車で雲の上を走る音である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,da,no,sv\" data-word=\"thunder\">🗣 トールの仲間を比べる</button></div><p>ほかの土地では、神と語はまったく同じものだ。ラトビア語<strong>pērkons</strong>は神ペールコンスその人である。フィンランド語<strong>ukkonen</strong>は「小さなウッコ」で、空と雷の神の名から来ている。北サーミ語<strong>baján</strong>はサーミの雷神の名、アディゲ語<strong>шыблэ</strong>はチェルケスの稲妻の神シブレである。台湾語<strong>雷公</strong>は中国の雷神の名で、音そのものを指すのに使う。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,lv,se,ady,nan\" data-word=\"thunder\">🗣 神の名を比べる</button></div><h3>サンダーバード</h3><p>北アメリカには鳥がいる。ラコタ語<strong>wakíŋyaŋ</strong>は「飛ぶもの」の意味で、同じ語が雷もサンダーバードも指す。オジブワ語<strong>animikii</strong>は別の語族の同じ発想で、「雷が鳴る」<em>animikiikaa</em>はこの語からできている。二つの民族が、あの音は巨大な鳥だと考えた。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"lkt,oj\" data-word=\"thunder\">🗣 サンダーバードを比べる</button></div><p>神学を気にせず音をまねた集団もあるが、18セルしかない。ジャワ語<strong>gludhug</strong>とスンダ語<strong>guludug</strong>はゴロゴロという音の写しで、アルバニア語<strong>bubullimë</strong>は擬音の動詞からできている。いちばん念が入っているのはネパール語<strong>गड्याङगुडुङ</strong>で、ターナーの辞書は同じ語を猫がのどを鳴らす音としても載せている。どんな音のつもりかがよくわかる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"jv,su,sq,ne\" data-word=\"thunder\">🗣 擬音の語を比べる</button></div><h3>天の動き</h3><p>地図の大半の399セルはふつうの古い語だが、そこにも話はある。朝鮮語<strong>천둥</strong>は固有語のように見えて、漢語「天動」、「天の動き」が変化した形なので、やはりどこかに神がいる。ロシア語<strong>гром</strong>は落雷も指す。アラビア語<strong>رعد</strong>はセム祖語にさかのぼり、クルアーン第13章の章名になっている。スワヒリ語<strong>radi</strong>はこのアラビア語を借りた語で、稲妻も指す。中国語の<strong>雷</strong>は古い語根で、雷が鳴ることは「打雷」、雷を打つと言う。空の上で誰かが叩いているかのようである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ko,ar,sw,ru,zh\" data-word=\"thunder\">🗣 ふつうの語を比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"雷\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E9%9B%B7"
+      },
+      {
+        "text": "\"Thursday\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Thursday"
+      },
+      {
+        "text": "\"Thor\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Thor"
+      },
+      {
+        "text": "\"torden\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/torden"
+      },
+      {
+        "text": "\"åska\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%C3%A5ska"
+      },
+      {
+        "text": "\"Perkūnas\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Perk%C5%ABnas"
+      },
+      {
+        "text": "\"Ukko\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Ukko"
+      },
+      {
+        "text": "\"Horagalles\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Horagalles"
+      },
+      {
+        "text": "\"Circassian paganism\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Circassian_paganism"
+      },
+      {
+        "text": "\"雷公\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E9%9B%B7%E5%85%AC"
+      },
+      {
+        "text": "\"wakíŋyaŋ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/wak%C3%AD%C5%8Bya%C5%8B"
+      },
+      {
+        "text": "\"animikii\". The Ojibwe People's Dictionary, University of Minnesota.",
+        "url": "https://ojibwe.lib.umn.edu/main-entry/animikii-na"
+      },
+      {
+        "text": "\"animikiikaa\". The Ojibwe People's Dictionary, University of Minnesota.",
+        "url": "https://ojibwe.lib.umn.edu/main-entry/animikiikaa-vii"
+      },
+      {
+        "text": "\"ꦒ꧀ꦭꦸꦝꦸꦒ꧀\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%EA%A6%92%EA%A7%80%EA%A6%AD%EA%A6%B8%EA%A6%9D%EA%A6%B8%EA%A6%92%EA%A7%80"
+      },
+      {
+        "text": "\"bubullon\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/bubullon"
+      },
+      {
+        "text": "R. L. Turner, A Comparative and Etymological Dictionary of the Nepali Language (as cited in the cell note)."
+      },
+      {
+        "text": "\"천둥\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%EC%B2%9C%EB%91%A5"
+      },
+      {
+        "text": "\"رعد\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D8%B1%D8%B9%D8%AF"
+      },
+      {
+        "text": "\"Ar-Ra'd\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Ar-Ra%27d"
+      },
+      {
+        "text": "\"radi\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/radi"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "shootingstar-droppings",
+    "icon": "🌠",
+    "tags": [
+      "nature",
+      "etymology",
+      "space"
+    ],
+    "title": {
+      "en": "Shooting Star: Asia’s Heavenly Droppings",
+      "ja": "流れ星：アジアの星のふん"
+    },
+    "summary": {
+      "en": "Make a wish, say the English. Korean, Malay and Malagasy call the same streak star dung, and in Hakka the little star has the runs.",
+      "ja": "英語の話者は願いをかける。同じ光を朝鮮語、マレー語、マダガスカル語は星のふんと呼び、客家語では小さな星がお腹をこわしている。"
+    },
+    "body": {
+      "en": "<p>English speakers wish on shooting stars. Koreans are looking at <strong>별똥별</strong>, literally “star-dung star”. It is a fine piece of observation: something bright has just dropped out of the sky, and it clearly came out of a star. Korean is not alone in this, and the pattern is one of the best surprises on the map.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"shootingstar\" data-code=\"ko\">🗺️ Show shooting star on the map</button></div><h3>Star dung</h3><p>North Korea has <strong>별찌</strong>, “star dung”, in a shorter form. Malay <strong>tahi bintang</strong> is “star droppings”, and Madagascar, on the far side of the Indian Ocean, says the same in <strong>tain-kintana</strong>. Taiwanese <strong>落屎星</strong> goes further, with “diarrhoea star”, and the Ministry of Education dictionary defines it as the shooting star without blushing. Hakka <strong>星仔瀉屎</strong> is the most frank of the lot: “the little star has the runs”. Across Southeast Asia and into China, a very long way from each other, people have stood at night and thought the same rude thought.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ko,ko_kp,ms,mg,nan,hak_tw\" data-word=\"shootingstar\">🗣 Compare the droppings</button></div><p>German took the idea indoors. <strong>Sternschnuppe</strong> is “star snuff”, the glowing bit of wick pinched off a candle. If the stars are candles, a shooting star is what somebody has just trimmed off and dropped. Belarusian <strong>знічка</strong> is a diminutive of <em>зніч</em>, the sacred fire of pagan tradition. Malayalam <strong>കൊള്ളിമീൻ</strong> is built on words for a stick of firewood and an old word for a star, which today means a fish. Arabic <strong>شهاب</strong> also means a blazing firebrand, the sense it has in the Qur’an. So the second reading of the sky is a thing on fire.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"de,be,ml,ar\" data-word=\"shootingstar\">🗣 Compare wicks and fire</button></div><h3>Fire and candles</h3><p>The largest group, 124 cells, does not comment on the star’s health. It just says that it moves. Japanese <strong>流れ星</strong> is a “flowing star”, attested since 1137, and Mandarin <strong>流星</strong> is the same picture. Spanish <strong>estrella fugaz</strong> is fleeting, Turkish <strong>kayan yıldız</strong> is sliding, and French <strong>étoile filante</strong> is slipping away. Finnish <strong>tähdenlento</strong> is “a star’s flight”, and it also means a flash in the pan.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja,zh,es,fr,fi,tr\" data-word=\"shootingstar\">🗣 Compare the moving stars</button></div><p>A further 44 cells say that it falls. Portuguese <strong>estrela cadente</strong>, Russian <strong>падающая звезда</strong>, Italian <strong>stella cadente</strong>, Hungarian <strong>hullócsillag</strong> and Thai <strong>ดาวตก</strong> are all “falling star”. Dutch <strong>vallende ster</strong> is the same, and it had a colonial career: Indonesian <strong>bintang jatuh</strong> is a calque of it. So on either side of the Strait of Malacca, Indonesian says a star fell, as the Dutch did, and Malay says a star relieved itself.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"pt,ru,th,it,hu,nl,id\" data-word=\"shootingstar\">🗣 Compare the falling stars</button></div><h3>Fleeting and falling</h3><p>The remaining images are stranger. Tianjin <strong>贼星</strong> is a “thief star”, a colloquial Chinese name, slipping across the sky at night. Hindi <strong>टूटता तारा</strong> is a “breaking star”. An older Thai name, now dated, is even better than any of these: ผีพุ่งไต้, a ghost throwing a torch. Astronomy’s answer, a grain of dust burning up, is correct, but it is much less fun.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh_tj,as,hi\" data-word=\"shootingstar\">🗣 Compare the other images</button></div>",
+      "ja": "<p>英語の話者は流れ星に願いをかける。韓国人が見ているのは<strong>별똥별</strong>、文字どおり「星のふんの星」である。観察としては悪くない。空から光るものが落ちてきたのだから、星から出たに違いない。朝鮮語だけではなく、この模様は地図でも指折りの驚きである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"shootingstar\" data-code=\"ko\">🗺️ 地図で流れ星を表示</button></div><h3>星のふん</h3><p>北朝鮮にはもっと短い<strong>별찌</strong>「星のふん」がある。マレー語<strong>tahi bintang</strong>は「星の落とし物」で、インド洋の反対側のマダガスカルも<strong>tain-kintana</strong>と同じことを言う。台湾語<strong>落屎星</strong>はさらに進んで「下痢の星」で、教育部の辞書はすまし顔でこれを流れ星と定義している。いちばん率直なのは客家語<strong>星仔瀉屎</strong>で、「小さな星がお腹をくだしている」である。東南アジアから中国まで、遠く離れた人々が夜空を見て同じ不作法なことを考えた。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ko,ko_kp,ms,mg,nan,hak_tw\" data-word=\"shootingstar\">🗣 星のふんを比べる</button></div><p>ドイツ語はこの発想を屋内へ持ち込んだ。<strong>Sternschnuppe</strong>は「星の灯心くず」で、ろうそくの芯から切り落とした光るかけらである。星がろうそくなら、流れ星は誰かが切って落としたものだ。ベラルーシ語<strong>знічка</strong>は異教の聖なる火<em>зніч</em>の指小形である。マラヤーラム語<strong>കൊള്ളിമീൻ</strong>は薪を指す語と、今は魚を意味する星の古語からできている。アラビア語<strong>شهاب</strong>は燃えさかる火でもあり、クルアーンにもその意味で出てくる。空の二つ目の読みは、燃えているものである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"de,be,ml,ar\" data-word=\"shootingstar\">🗣 灯心と火を比べる</button></div><h3>火とろうそく</h3><p>最大の集団124セルは、星の体調には触れず、動くとだけ言う。日本語の<strong>流れ星</strong>は1137年から記録があり、中国語<strong>流星</strong>も同じ絵である。スペイン語<strong>estrella fugaz</strong>はつかの間の星、トルコ語<strong>kayan yıldız</strong>は滑る星、フランス語<strong>étoile filante</strong>はするりと去る星である。フィンランド語<strong>tähdenlento</strong>は「星の飛行」で、一発屋の意味でも使う。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja,zh,es,fr,fi,tr\" data-word=\"shootingstar\">🗣 動く星を比べる</button></div><p>別の44セルは落ちると言う。ポルトガル語<strong>estrela cadente</strong>、ロシア語<strong>падающая звезда</strong>、イタリア語<strong>stella cadente</strong>、ハンガリー語<strong>hullócsillag</strong>、タイ語<strong>ดาวตก</strong>はどれも「落ちる星」だ。オランダ語<strong>vallende ster</strong>も同じで、これは植民地に渡った。インドネシア語<strong>bintang jatuh</strong>はそのなぞりである。だからマラッカ海峡の両側で、インドネシア語はオランダ人のように星が落ちたと言い、マレー語は星が用を足したと言っている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"pt,ru,th,it,hu,nl,id\" data-word=\"shootingstar\">🗣 落ちる星を比べる</button></div><h3>流れる星、落ちる星</h3><p>残りの見立てはもっと変わっている。天津の<strong>贼星</strong>は中国語の口語の名で「泥棒星」、夜空を忍び足で横切る。ヒンディー語<strong>टूटता तारा</strong>は「砕ける星」である。タイ語の今は古い名ผีพุ่งไต้は、どれよりも見事で、松明を投げる幽霊という意味だ。天文学の答えは燃えつきるちりの粒で、正しいが、ずっとおもしろくない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh_tj,as,hi\" data-word=\"shootingstar\">🗣 ほかの見立てを比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "落屎星. 教育部臺灣台語常用詞辭典.",
+        "url": "https://sutian.moe.edu.tw/zh-hant/tshiau/?lui=tai_su&tsha=%E8%90%BD%E5%B1%8E%E6%98%9F"
+      },
+      {
+        "text": "\"별찌\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%EB%B3%84%EC%B0%8C"
+      },
+      {
+        "text": "\"tahi bintang\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/tahi_bintang"
+      },
+      {
+        "text": "tain-kintana. Malagasy Dictionary and Encyclopedia of Madagascar.",
+        "url": "https://malagasyword.org/bins/teny2/tain-kintana"
+      },
+      {
+        "text": "\"星仔瀉屎\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E6%98%9F%E4%BB%94%E7%80%89%E5%B1%8E"
+      },
+      {
+        "text": "Wolfgang Pfeifer et al., Etymologisches Wörterbuch des Deutschen, \"Sternschnuppe\", in DWDS.",
+        "url": "https://www.dwds.de/wb/etymwb/Sternschnuppe"
+      },
+      {
+        "text": "\"зніч\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D0%B7%D0%BD%D1%96%D1%87"
+      },
+      {
+        "text": "\"شهاب\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D8%B4%D9%87%D8%A7%D8%A8"
+      },
+      {
+        "text": "\"流れ星\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E6%B5%81%E3%82%8C%E6%98%9F"
+      },
+      {
+        "text": "\"bintang jatuh\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/bintang_jatuh"
+      },
+      {
+        "text": "\"賊星\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E8%B3%8A%E6%98%9F"
+      },
+      {
+        "text": "\"ผีพุ่งไต้\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E0%B8%9C%E0%B8%B5%E0%B8%9E%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B9%84%E0%B8%95%E0%B9%89"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "sunflower-does-not-turn",
+    "icon": "🌻",
+    "tags": [
+      "plants",
+      "etymology",
+      "nature"
+    ],
+    "title": {
+      "en": "Sunflower: Named for a Trick It Stops Doing",
+      "ja": "ヒマワリ：やめてしまう癖で名づけられた花"
+    },
+    "summary": {
+      "en": "Most of the world calls it the plant that turns to the sun. It only does that when young, and Turkey calls it a moon flower anyway.",
+      "ja": "世界の多くはこの花を太陽のほうを向く植物と呼ぶ。実際にそうするのは若いうちだけで、トルコ語はそもそも月の花と呼んでいる。"
+    },
+    "body": {
+      "en": "<p>The biggest group on this map, 144 cells, names the sunflower for something it mostly does not do. A mature sunflower does not follow the sun. Young plants do, the heads facing east at dawn and moving west through the day, but once the flower reaches full maturity it stops, and the heads end up facing one way. Half the names on the map are based on the behaviour of a teenage plant.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"sunflower\" data-code=\"es\">🗺️ Show sunflower on the map</button></div><h3>The turners</h3><p>That young-plant habit was enough. It is also a little odd that it was noticed so fast, because the plant is a newcomer in most of those places. The common sunflower is considered native to the central and western United States, southern Canada and northern Mexico, and yet its names today read as if it had always been there.</p><p>The turning route is the most literal. Spanish <strong>girasol</strong> is <em>gira</em>, “turns”, and <em>sol</em>, “sun”, Italian <strong>girasole</strong> the same, and Portuguese <strong>girassol</strong> perhaps came by way of French from Italian. French <strong>tournesol</strong> was borrowed from Italian <em>tornasole</em>, “turn-sun”. East Asia has the same idea. Mandarin <strong>向日葵</strong> is the plant that faces the sun, and Japanese <strong>向日葵</strong>, <em>himawari</em>, borrows those characters for a native word meaning sun-turning. Korean <strong>해바라기</strong> is a “sun-gazer”. Hindi <strong>सूरजमुखी</strong> is “sun-facing”, and Arabic <strong>دوار الشمس</strong> “the turner of the sun”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"es,it,fr,pt,ja,zh,ko,hi,ar\" data-word=\"sunflower\">🗣 Compare the turners</button></div><h3>Plain sun flowers</h3><p>A second group, 97 cells, keeps it simple and makes no claim about behaviour. English <strong>sunflower</strong> is a plain compound, as are German <strong>Sonnenblume</strong>, Dutch <strong>zonnebloem</strong> and Indonesian <strong>bunga matahari</strong>. Russian <strong>подсолнечник</strong> is a little different, “the one under the sun”, and the colloquial word is <em>подсолнух</em>. These are the languages with a clear conscience.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,nl,id,ru\" data-word=\"sunflower\">🗣 Compare the plain compounds</button></div><p>The small “other” group has the best ones. Turkish <strong>ayçiçeği</strong> is literally “moon flower”, which is a remarkable thing to call this particular plant, although the etymology is disputed, and the synonym <em>günebakan</em> is a sun-looker. Thai <strong>ทานตะวัน</strong> is “the one that withstands the sun”, and it first named a royal sunshade. Dari <strong>آفتاب‌پرست</strong> is “sun-worshipper”, and in Iran that same word means the chameleon, so Iranian Persian says “sun-turner” for the plant. Estonian <strong>päevalill</strong> is a “day flower”, and Khmer <strong>ឈូករ័ត្ន</strong> is a “jewel lotus”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,th,prs,et,km\" data-word=\"sunflower\">🗣 Compare the other images</button></div><h3>Moon, camel and marvel</h3><p>Two more refuse to mention the sun at all. Ottoman Turkish <strong>دوه طبانی</strong>, <em>deve tabanı</em>, is “camel’s sole”, which is what you would call a very large flat round object if you had spent time with camels. In Chile the flower is simply <strong>maravilla</strong>, “the marvel”, as in <em>aceite de maravilla</em>, sunflower oil. Swahili <strong>alizeti</strong> has no etymology in the sources. Anyone who has stood in front of a field in July will sympathise with Chile. It has no need to turn to anything.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ota,es_cl,sw\" data-word=\"sunflower\">🗣 Compare camel and marvel</button></div>",
+      "ja": "<p>この地図で最大の集団144セルは、ヒマワリがたいていはしないことでこの花を名づけている。成熟したヒマワリは太陽を追わない。若い株は、夜明けに東を向いて一日かけて西へ動くが、花が十分に育つと動かなくなり、同じ向きで止まる。地図の呼び名の半分は、若いころの癖にもとづいているのだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"sunflower\" data-code=\"es\">🗺️ 地図でヒマワリを表示</button></div><h3>回るもの</h3><p>その癖だけで十分だった。ただ、これほど早く気づかれたのは少し不思議で、この植物はほとんどの土地で新参者である。ヒマワリの原産地はアメリカの中部と西部、カナダ南部、メキシコ北部とされているのに、今の呼び名は昔からそこにあったかのように読める。</p><p>回る系統はいちばん文字どおりだ。スペイン語<strong>girasol</strong>は「回る」<em>gira</em>と「太陽」<em>sol</em>で、イタリア語<strong>girasole</strong>も同じ、ポルトガル語<strong>girassol</strong>はフランス語を経てイタリア語から来たらしい。フランス語<strong>tournesol</strong>はイタリア語<em>tornasole</em>「太陽回し」の借用である。東アジアにも同じ発想がある。中国語<strong>向日葵</strong>は太陽を向く植物で、日本語の<strong>向日葵</strong>はこの字を和語の「日回り」に当てたものだ。朝鮮語<strong>해바라기</strong>は「太陽を見つめるもの」、ヒンディー語<strong>सूरजमुखी</strong>は「太陽に顔を向ける」、アラビア語<strong>دوار الشمس</strong>は「太陽を回るもの」である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"es,it,fr,pt,ja,zh,ko,hi,ar\" data-word=\"sunflower\">🗣 回るものを比べる</button></div><h3>ただの太陽の花</h3><p>第二の集団97セルは、行動については何も言わない。英語の<strong>sunflower</strong>は単純な複合語で、ドイツ語<strong>Sonnenblume</strong>、オランダ語<strong>zonnebloem</strong>、インドネシア語<strong>bunga matahari</strong>も同じだ。ロシア語<strong>подсолнечник</strong>は少し違って「太陽の下のもの」で、話し言葉では<em>подсолнух</em>と言う。こちらは良心にやましいところのない言語たちである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,nl,id,ru\" data-word=\"sunflower\">🗣 単純な複合語を比べる</button></div><p>小さな「その他」の集団にいちばんいい例がある。トルコ語<strong>ayçiçeği</strong>は文字どおりには「月の花」で、よりによってこの植物に何という名をつけたのかと思うが、語源には異説があり、同義語<em>günebakan</em>は「太陽を見るもの」である。タイ語<strong>ทานตะวัน</strong>は「太陽に耐えるもの」で、もとは王の日よけの名だった。ダリー語<strong>آفتاب‌پرست</strong>は「太陽崇拝者」で、イランでは同じ語がカメレオンを指すので、イランのペルシア語は花を「太陽回し」と呼ぶ。エストニア語<strong>päevalill</strong>は「昼の花」、クメール語<strong>ឈូករ័ត្ន</strong>は「宝石の蓮」である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,th,prs,et,km\" data-word=\"sunflower\">🗣 別の見立てを比べる</button></div><h3>月、ラクダ、驚異</h3><p>太陽に触れないものもある。オスマン語<strong>دوه طبانی</strong>、<em>deve tabanı</em>は「ラクダの足の裏」で、ラクダを見慣れた人が大きくて平たくて丸いものにつける名だ。チリではこの花はただ<strong>maravilla</strong>「驚異」で、ヒマワリ油は<em>aceite de maravilla</em>という。スワヒリ語<strong>alizeti</strong>の語源は資料に書かれていない。7月のヒマワリ畑の前に立ったことのある人なら、チリの気持ちがわかるだろう。何かのほうを向く必要などないのである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ota,es_cl,sw\" data-word=\"sunflower\">🗣 ラクダと驚異を比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"Sunflower\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Sunflower"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "butterfly-refuses-to-travel",
+    "icon": "🦋",
+    "tags": [
+      "animals",
+      "etymology",
+      "folklore"
+    ],
+    "title": {
+      "en": "Butterfly: The Word That Refuses to Travel",
+      "ja": "チョウ：旅をしない語"
+    },
+    "summary": {
+      "en": "Water is one word across much of Europe. Butterfly is six different words, and one of them comes from the belief that witches turned into butterflies to steal cream.",
+      "ja": "「水」はヨーロッパの六言語で一つの語だが、「チョウ」は六つの別々の語である。そのうち二つには乳製品が入っていて、ドイツ語の背後にはクリームを盗む魔女がいる。"
+    },
+    "body": {
+      "en": "<p>Water is the same old word across much of Indo-European. So is three. Butterfly is not, and the difference is remarkable. English <strong>butterfly</strong>, German <strong>Schmetterling</strong>, French <strong>papillon</strong>, Italian <strong>farfalla</strong>, Spanish <strong>mariposa</strong> and Russian <strong>бабочка</strong> are six different words for one insect, in six related languages. People seem to have felt that a butterfly deserved a fresh idea.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"butterfly\" data-code=\"en\">🗺️ Show butterfly on the map</button></div><h3>A dairy thief</h3><p>Two of those six are dairy products. <em>Butterfly</em> really does contain <em>butter</em>, and nobody is sure why: the name may first have meant yellow butterflies, or it may reflect a belief that they ate milk and butter. German is clearer. <em>Schmetterling</em> is built on East Central German <em>Schmetten</em>, “cream”, a loan from Czech <em>smetana</em>, after the folk belief that witches flew in butterfly shape to steal milk and cream. So the prettiest thing in a German garden is named after a dairy theft.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,fr,it,es,ru\" data-word=\"butterfly\">🗣 Compare the six words</button></div><p>The rest keep the etymologists busy. French <strong>papillon</strong> continues Latin <em>papilio</em>. Italian <strong>farfalla</strong> is of uncertain origin: Treccani suspects a word that simply sounds like what it means, and Wiktionary suggests the same Latin word through Old Italian <em>parpaglione</em>, though nobody can quite account for the <em>f</em>. Spanish <strong>mariposa</strong> has several explanations, and the best is a phrase, <em>María, pósate</em>, “Mary, alight!”, which would make it a call turned into a noun. Portuguese <strong>borboleta</strong> may be a reduplicated diminutive of Latin <em>bellus</em>, “pretty”, and Greek <strong>πεταλούδα</strong> probably comes from the word for a leaf.</p><h3>Flapping twice</h3><p>What does recur, across families that have never met, is doubling. Proto-Mayan <em>*pehpen</em>, Austronesian <em>*baŋbaŋ</em>, Oceanic <em>*pepe</em> and Proto-Kartvelian <em>*perper-</em> all have the shape, and the last comes from a root meaning “to fly”. Their daughters keep it. Hebrew <strong>פרפר</strong>, Georgian <strong>პეპელა</strong> and Bulgarian <strong>пеперуда</strong> all flap twice. It seems people hear the wing beat, even though a butterfly makes no sound.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"he,ka,bg\" data-word=\"butterfly\">🗣 Compare the doubled forms</button></div><p>The other idea that keeps coming back is the soul. Russian <strong>бабочка</strong> is a diminutive of <em>бабка</em>, “granny”, and Vasmer puts it down to the idea that the soul of the dead lives on as a butterfly. Burmese <strong>လိပ်ပြာ</strong> also means “spirit”, and Malagasy <strong>lolo</strong> also means “ghost”. Thai <strong>ผีเสื้อ</strong> was first a tutelary spirit, and the insect took the name from the old belief that it embodied one. Unrelated families reached the same thought about the same small silent visitor. Few other insects have been given so much to carry.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"my,mg,th\" data-word=\"butterfly\">🗣 Compare the soul words</button></div><h3>The soul</h3><p>Some languages do not bother with a single word and describe it instead. Hausa <strong>malam-buɗa-littafi</strong> is “teacher, open the book”, which is an exact description of the wings, and possibly the best word on the map. Welsh <strong>glöyn byw</strong> is a “living ember”. Nuer <strong>del kwoth</strong> is “God’s sheep”. The four Sámi rows in the far north build the word from “sun” and “bird”. Arabic <strong>فراشة</strong> also covers moths, and many languages do not separate the two. Korean <strong>나비</strong> and Japanese <strong>蝶</strong> do. Whatever else it is, this is an insect that even close relatives refuse to share a name for.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ha,cy,pt,el\" data-word=\"butterfly\">🗣 Compare the descriptions</button></div>",
+      "ja": "<p>「水」は印欧語の多くで同じ古い語である。「三」もそうだ。チョウはそうならなかった。英語<strong>butterfly</strong>、ドイツ語<strong>Schmetterling</strong>、フランス語<strong>papillon</strong>、イタリア語<strong>farfalla</strong>、スペイン語<strong>mariposa</strong>、ロシア語<strong>бабочка</strong>は、親戚の六言語で一つの虫を指す、それぞれ違う六つの語である。チョウには新しい発想がふさわしいと、人々は感じたらしい。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"butterfly\" data-code=\"en\">🗺️ 地図でチョウを表示</button></div><h3>乳製品の泥棒</h3><p>この六つのうち二つは乳製品である。<em>butterfly</em>には本当に<em>butter</em>（バター）が入っているが、理由ははっきりしない。もとは黄色いチョウの名だったのかもしれず、チョウが乳やバターを食べるという俗信かもしれない。ドイツ語はもっとはっきりしている。<em>Schmetterling</em>は中東部ドイツ語の「クリーム」<em>Schmetten</em>からできていて、これはチェコ語<em>smetana</em>からの借用である。魔女がチョウの姿で飛んで乳とクリームを盗むという俗信から来た名だ。ドイツの庭でいちばん美しいものの名は、乳製品の泥棒から来たわけだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,fr,it,es,ru\" data-word=\"butterfly\">🗣 六つの語を比べる</button></div><p>残りは語源学者を悩ませている。フランス語<strong>papillon</strong>はラテン語<em>papilio</em>を受け継ぐ。イタリア語<strong>farfalla</strong>の語源は不明で、トレッカーニ辞典は音の響きから生まれた語かとし、ウィクショナリーは古イタリア語<em>parpaglione</em>を経た同じラテン語かもしれないとするが、<em>f</em>の説明がつかない。スペイン語<strong>mariposa</strong>には説がいくつかあり、いちばんおもしろいのは<em>María, pósate</em>「マリア様、とまって」という句だとする説である。呼びかけが名詞になったことになる。ポルトガル語<strong>borboleta</strong>はラテン語<em>bellus</em>「きれいな」を重ねた指小形かもしれず、ギリシャ語<strong>πεταλούδα</strong>はおそらく葉を指す語から来ている。</p><h3>二度の羽ばたき</h3><p>互いに出会ったことのない語族に何度も現れるのは、重複である。マヤ祖語<em>*pehpen</em>、オーストロネシア語の<em>*baŋbaŋ</em>、オセアニア語の<em>*pepe</em>、カルトヴェリ祖語<em>*perper-</em>がこの形を持ち、最後のものは「飛ぶ」の語根から来ている。子孫も形を保っている。ヘブライ語<strong>פרפר</strong>、ジョージア語<strong>პეპელა</strong>、ブルガリア語<strong>пеперуда</strong>はどれも二度羽ばたく。チョウに羽音はないのに、人はそれを聞いているらしい。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"he,ka,bg\" data-word=\"butterfly\">🗣 重複する形を比べる</button></div><p>くり返し戻ってくるもう一つの考えは魂である。ロシア語<strong>бабочка</strong>は「おばあさん」<em>бабка</em>の指小形で、ファスマーは、死者の魂がチョウの姿で生き続けるという考えから来たとしている。ミャンマー語<strong>လိပ်ပြာ</strong>は「魂」、マダガスカル語<strong>lolo</strong>は「幽霊」の意味でもある。タイ語<strong>ผีเสื้อ</strong>はもともと守護霊のことで、チョウがその霊を宿すという古い信仰からこの虫の名になった。無関係な語族が、同じ小さな静かな訪問者について同じことを考えた。これほど多くを背負わされた虫はあまりいない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"my,mg,th\" data-word=\"butterfly\">🗣 魂の語を比べる</button></div><h3>魂</h3><p>一語で済まさず、描写する言語もある。ハウサ語<strong>malam-buɗa-littafi</strong>は「先生、本を開いて」で、羽の動きをそのまま言い当てていて、地図でいちばんの語かもしれない。ウェールズ語<strong>glöyn byw</strong>は「生きている燃えさし」、ヌエル語<strong>del kwoth</strong>は「神の羊」である。北のサーミ語の四行は「太陽」と「鳥」でこの語を作る。アラビア語<strong>فراشة</strong>はガも指し、チョウとガを分けない言語は多い。朝鮮語<strong>나비</strong>や日本語の<strong>蝶</strong>は分けている。ともかくこれは、近い親戚の言語どうしでさえ名前を分け合おうとしない虫である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ha,cy,pt,el\" data-word=\"butterfly\">🗣 描写の語を比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"butterfly\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/butterfly"
+      },
+      {
+        "text": "Wolfgang Pfeifer et al., Etymologisches Wörterbuch des Deutschen, \"Schmetterling\", in DWDS.",
+        "url": "https://www.dwds.de/wb/etymwb/Schmetterling"
+      },
+      {
+        "text": "\"farfalla\". Vocabolario Treccani.",
+        "url": "https://www.treccani.it/vocabolario/farfalla/"
+      },
+      {
+        "text": "\"farfalla\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/farfalla"
+      },
+      {
+        "text": "\"mariposa\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/mariposa"
+      },
+      {
+        "text": "\"borboleta\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/borboleta"
+      },
+      {
+        "text": "\"πεταλούδα\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%CF%80%CE%B5%CF%84%CE%B1%CE%BB%CE%BF%CF%8D%CE%B4%CE%B1"
+      },
+      {
+        "text": "Max Vasmer, Etymological Dictionary of the Russian Language, \"бабочка\".",
+        "url": "https://lexicography.online/etymology/vasmer/%D0%B1/%D0%B1%D0%B0%D0%B1%D0%BE%D1%87%D0%BA%D0%B0"
+      },
+      {
+        "text": "Terrence Kaufman with John Justeson, A Preliminary Mayan Etymological Dictionary, FAMSI, 2003.",
+        "url": "https://www.famsi.org/reports/01051/pmed.pdf"
+      },
+      {
+        "text": "PEPE. POLLEX-Online, Polynesian Lexicon Project.",
+        "url": "https://pollex.eva.mpg.de/entry/pepe/"
+      },
+      {
+        "text": "\"პეპელა\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E1%83%9E%E1%83%94%E1%83%9E%E1%83%94%E1%83%9A%E1%83%90"
+      },
+      {
+        "text": "\"လိပ်ပြာ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E1%80%9C%E1%80%AD%E1%80%95%E1%80%BA%E1%80%95%E1%80%BC%E1%80%AC"
+      },
+      {
+        "text": "\"lolo\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/lolo"
+      },
+      {
+        "text": "\"ผีเสื้อ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E0%B8%9C%E0%B8%B5%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD"
+      },
+      {
+        "text": "Paul Newman, Hausa dictionary (as cited in the cell note)."
+      },
+      {
+        "text": "Huffman, Nuer dictionary (as cited in the cell note)."
+      },
+      {
+        "text": "Klimov, Kartvelian etymological dictionary (as cited in the cell note)."
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "dragonfly-snakes-servant",
+    "icon": "🪰",
+    "tags": [
+      "animals",
+      "etymology",
+      "folklore"
+    ],
+    "title": {
+      "en": "Dragonfly: The Snake’s Servant and the Carpenter’s Level",
+      "ja": "トンボ：蛇の召使いと大工の水準器"
+    },
+    "summary": {
+      "en": "A harmless insect that eats mosquitoes has been called a dragon, a snake doctor, a devil’s horse and an eye-stabber. Linnaeus, more calmly, saw a spirit level.",
+      "ja": "蚊を食べる無害な虫が、竜、蛇の医者、悪魔の馬、目を刺すものと呼ばれてきた。リンネはもっと落ち着いていて、水準器を見た。"
+    },
+    "body": {
+      "en": "<p>There is something about a dragonfly that makes people nervous. It cannot hurt you, and yet the map records it as a dragon, the devil’s horse, the wolf’s pole and an eye-stabber. In Wales it is <strong>gwas y neidr</strong>, “the snake’s servant”. People have looked at this long, fast, glittering insect and concluded that it must work for something worse.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"dragonfly\" data-code=\"en\">🗺️ Show dragonfly on the map</button></div><h3>Servants of the snake</h3><p>Snakes come up more than once. Slovene <strong>kačji pastir</strong> is “the snake’s shepherd”, and in the American South the word is <strong>snake doctor</strong>, from a folk belief that dragonflies follow snakes and stitch them back together when they are hurt. English <strong>dragonfly</strong> and Icelandic <strong>drekafluga</strong> skip the servant and go straight for the dragon. Finnish <strong>sudenkorento</strong> is “the wolf’s pole”, the carrying stick.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,is,cy,sl,fi,en_south\" data-word=\"dragonfly\">🗣 Compare dragons and snakes</button></div><p>The next group gave the insect a rider. Across the Balkans it is a horse belonging to a supernatural woman. Croatian <strong>vilinski konjic</strong> and Macedonian <strong>вилино коњче</strong> are “the fairy’s little horse”. Lithuanian <strong>laumžirgis</strong> is the steed of the <em>laumė</em>, a fairy or witch of Lithuanian folklore. Further west the owner gets worse: Galician <strong>cabalo do demo</strong> is “the devil’s horse”. Swedish <strong>trollslända</strong> has a troll in it, with <em>slända</em> originally a spindle, so the troll’s spindle.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hr,mk,lt,gl,sv\" data-word=\"dragonfly\">🗣 Compare the horses and the troll</button></div><h3>The fairy’s horse</h3><p>Then comes the most peaceful idea on the map, and it comes from a scientist. Linnaeus coined the New Latin <em>libellula</em> from <em>libella</em>, a carpenter’s level, after the insect’s level hovering. Most of Romance Europe and German took it straight from him: French <strong>libellule</strong>, German <strong>Libelle</strong>, Italian <strong>libellula</strong>, Spanish <strong>libélula</strong>, Dutch <strong>libel</strong>. Polish <strong>ważka</strong> went one better and translated it, from <em>waga</em>, “scale, balance”. So half of Europe calls it a dragon’s accomplice, and the other half calls it a tool. A taxonomist’s word replaced folk names across much of a continent.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,de,it,es,nl,pl\" data-word=\"dragonfly\">🗣 Compare the carpenter’s level</button></div><p>The remaining images get personal. Hungarian <strong>szitakötő</strong> is the “sieve-knitter”, and one look at the wings suggests why. Georgian <strong>ნემსიყლაპია</strong> is the “needle-swallower”. Norwegian <strong>øyenstikker</strong> is the “eye-stinger”, which is the nervousness at its plainest, though the Bokmål dictionary stays calm and lists only four wings, big eyes and a long body. Russian <strong>стрекоза</strong> comes, says Vasmer, from a verb for jumping or one for stinging, and he notes another scholar’s link with chirring.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hu,ka,no,ru\" data-word=\"dragonfly\">🗣 Compare sieve, needle and eye</button></div><h3>The carpenter’s level</h3><p>East Asia is calmer. With 180 cells the largest group has a word of its own and no story attached. Japanese <strong>トンボ</strong> goes back to earlier <em>tōbō</em> and <em>tonbō</em>, Mandarin <strong>蜻蜓</strong> is a two-syllable insect name, and Korean <strong>잠자리</strong> has been on record since 1481. That Korean word happens to look exactly like the word for a bed. Nothing connects them. In a map full of devils, that is the most restful coincidence available.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja,ko,zh\" data-word=\"dragonfly\">🗣 Compare East Asia</button></div>",
+      "ja": "<p>トンボには人を落ち着かなくさせる何かがあるらしい。害はないのに、地図には竜、悪魔の馬、狼の天秤棒、目を刺すものが並ぶ。ウェールズでは<strong>gwas y neidr</strong>、「蛇の召使い」である。長くて速くてきらきらしたこの虫を見て、人々はもっと恐ろしいものに仕えているに違いないと考えた。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"dragonfly\" data-code=\"en\">🗺️ 地図でトンボを表示</button></div><h3>蛇の召使い</h3><p>蛇は一度ならず出てくる。スロベニア語<strong>kačji pastir</strong>は「蛇の羊飼い」で、アメリカ南部の<strong>snake doctor</strong>は、トンボが蛇についていってけがを縫い合わせるという俗信から来ている。英語の<strong>dragonfly</strong>とアイスランド語<strong>drekafluga</strong>は召使いを飛ばして、いきなり竜である。フィンランド語<strong>sudenkorento</strong>は「狼の天秤棒」である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,is,cy,sl,fi,en_south\" data-word=\"dragonfly\">🗣 竜と蛇を比べる</button></div><p>次の集団はこの虫に乗り手を与えた。バルカン一帯では、これは超自然の女の馬である。クロアチア語<strong>vilinski konjic</strong>とマケドニア語<strong>вилино коњче</strong>は「妖精の小馬」、リトアニア語<strong>laumžirgis</strong>は民話の妖精ラウメの馬だ。西へ行くと持ち主はさらに悪くなり、ガリシア語<strong>cabalo do demo</strong>は「悪魔の馬」である。スウェーデン語<strong>trollslända</strong>にはトロルが入っていて、<em>slända</em>はもとは糸巻き棒なので、トロルの紡錘である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hr,mk,lt,gl,sv\" data-word=\"dragonfly\">🗣 馬とトロルを比べる</button></div><h3>妖精の馬</h3><p>そして地図でいちばん穏やかな発想が、科学者からやって来る。リンネは大工の水準器<em>libella</em>から新ラテン語<em>libellula</em>を作った。水平に宙に止まる姿からである。ロマンス語の多くとドイツ語はこれを直接受け取った。フランス語<strong>libellule</strong>、ドイツ語<strong>Libelle</strong>、イタリア語<strong>libellula</strong>、スペイン語<strong>libélula</strong>、オランダ語<strong>libel</strong>である。ポーランド語<strong>ważka</strong>はさらに一歩進めて、「はかり」<em>waga</em>からの訳語を作った。つまりヨーロッパの半分はこれを竜の手下と呼び、もう半分は道具と呼んでいる。分類学者の語が、大陸の広い範囲で民間の名に取って代わったのである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,de,it,es,nl,pl\" data-word=\"dragonfly\">🗣 大工の水準器を比べる</button></div><p>残りの見立ては人に近づいてくる。ハンガリー語<strong>szitakötő</strong>は「ふるいを編むもの」で、あの翅を見れば見当がつく。ジョージア語<strong>ნემსიყლაპია</strong>は「針を飲むもの」、ノルウェー語<strong>øyenstikker</strong>は「目を刺すもの」で、不安をそのまま言葉にしている。もっともノルウェーの辞書は落ち着いたもので、四枚の翅、大きな目、長い腹を挙げるだけだ。ロシア語<strong>стрекоза</strong>はファスマーによれば「跳ねる」か「刺す」を意味する動詞から来ていて、虫の鳴き声と結びつける別の学者の説も挙げている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hu,ka,no,ru\" data-word=\"dragonfly\">🗣 ふるい、針、目を比べる</button></div><h3>大工の水準器</h3><p>東アジアはもっと静かだ。最大の集団180セルは独自の語で、特別な物語はない。日本語の<strong>トンボ</strong>は古い<em>tōbō</em>、<em>tonbō</em>にさかのぼり、中国語<strong>蜻蜓</strong>は二音節の虫の名、朝鮮語<strong>잠자리</strong>は1481年から記録がある。この朝鮮語は寝床を指す語とまったく同じ形だが、関係はない。悪魔だらけの地図の中で、いちばん安らかな偶然である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja,ko,zh\" data-word=\"dragonfly\">🗣 東アジアを比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"snake doctor\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/snake_doctor"
+      },
+      {
+        "text": "\"sudenkorento\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/sudenkorento"
+      },
+      {
+        "text": "\"Laumė\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Laum%C4%97"
+      },
+      {
+        "text": "\"cabalo do demo\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/cabalo_do_demo"
+      },
+      {
+        "text": "\"trollslända\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/trollsl%C3%A4nda"
+      },
+      {
+        "text": "\"Libelle\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Libelle"
+      },
+      {
+        "text": "\"ważka\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/wa%C5%BCka"
+      },
+      {
+        "text": "\"szitakötő\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/szitak%C3%B6t%C5%91"
+      },
+      {
+        "text": "\"ნემსიყლაპია\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E1%83%9C%E1%83%94%E1%83%9B%E1%83%A1%E1%83%98%E1%83%A7%E1%83%9A%E1%83%90%E1%83%9E%E1%83%98%E1%83%90"
+      },
+      {
+        "text": "øyenstikker. Bokmålsordboka.",
+        "url": "https://ordbokene.no/bm/42985"
+      },
+      {
+        "text": "Max Vasmer, Etymological Dictionary of the Russian Language, \"стрекоза\".",
+        "url": "https://lexicography.online/etymology/vasmer/%D1%81/%D1%81%D1%82%D1%80%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0"
+      },
+      {
+        "text": "\"蜻蛉\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E8%9C%BB%E8%9B%89"
+      },
+      {
+        "text": "\"잠자리\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%EC%9E%A0%EC%9E%90%EB%A6%AC"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "bat-bald-mouse",
+    "icon": "🦇",
+    "tags": [
+      "animals",
+      "etymology",
+      "folklore"
+    ],
+    "title": {
+      "en": "Bat: A Bald, Blind, Flying Mouse",
+      "ja": "コウモリ：はげて目の見えない空飛ぶネズミ"
+    },
+    "summary": {
+      "en": "Europe looked at the only flying mammal and decided it was a mouse. The French made it bald, Iberia made it blind, and everyone else had to choose between a bird and something stranger.",
+      "ja": "ヨーロッパは唯一の飛ぶ哺乳類を見てネズミだと決めた。フランスははげさせ、イベリアは目を見えなくし、ほかの土地は鳥かもっと奇妙なものかを選んだ。"
+    },
+    "body": {
+      "en": "<p>The French word for a bat is a bald mouse. <strong>chauve-souris</strong> comes from Late Latin <em>calva sorex</em>, attested in Gaul from the 8th century. Spanish <strong>murciélago</strong> and Portuguese <strong>morcego</strong> are a different insult, from Vulgar Latin <em>mūs caecus</em>, “blind mouse”. Bats are neither bald nor blind, but a mouse is at least the right idea. It is a small furry mammal, and bats are the one thing that looks like that and flies. Across Europe people came to the same conclusion, and 116 cells on the map call the bat a mouse or a rat.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"bat\" data-code=\"fr\">🗺️ Show bat on the map</button></div><h3>Birds of the night</h3><p>The rest of the family is more literal. German <strong>Fledermaus</strong> is a flutter-mouse, from Old High German <em>fledarmūs</em>. Dutch <strong>vleermuis</strong> and Swedish <strong>fladdermus</strong> are the same, and Russian <strong>летучая мышь</strong> is simply a “flying mouse”. Korea reached the idea on its own. <strong>박쥐</strong> goes back to a Middle Korean word whose second part is <em>jwi</em>, “rat”, though nobody is sure what the first part means. A mouse with some unexplained extra, which is a fair description.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"de,nl,sv,fr,es,pt,ru\" data-word=\"bat\">🗣 Compare the mice</button></div><p>A much smaller group, 10 cells, filed the bat with the birds. Amharic <strong>የሌሊትወፍ</strong> is “bird of the night”, a very reasonable name. Chuvash <strong>ҫара ҫерҫи</strong> has <em>ҫерҫи</em>, “sparrow”, as its second word. South Asia has a lovely variant, and Nepali <strong>चमेरो</strong> and Sindhi <strong>چمڙو</strong> both go back to Sanskrit <em>carmacaṭaka</em>, a “leather-sparrow”, which might be the best two-word description of a bat ever made.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"am,ne,sd,cv\" data-word=\"bat\">🗣 Compare the birds</button></div><h3>Evening and leather</h3><p>Other languages picked the bat’s time of day or its skin. Italian <strong>pipistrello</strong> comes from Latin <em>vespertīliō</em>, the “evening creature”, from <em>vesper</em>, “evening”, so at least one European language avoided the mouse. Arabic <strong>خفاش</strong> comes from a verb meaning “to be day-blind”, the same bad eyesight that Spanish alleges. Hindi <strong>चमगादड़</strong> is something like “leather-jackal”, which gives the animal a remarkable promotion.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"it,ar,hi,ko\" data-word=\"bat\">🗣 Compare evening, leather and blindness</button></div><h3>A word of its own</h3><p>The largest group, 308 cells, has a word of its own. English <strong>bat</strong> comes from Middle English <em>bakke</em>, a word of Scandinavian origin, and has nothing to do with the bat used in cricket or baseball. Mandarin <strong>蝙蝠</strong> is an expanded form of Old Chinese 蝠, a Sino-Tibetan root. Japanese <strong>蝙蝠</strong> borrows those characters for <em>kōmori</em>, going back to Old Japanese <em>kawahori</em>, possibly “leather” plus something unknown, so the leather idea may have reached Japan independently. Turkish <strong>yarasa</strong> continues a Proto-Turkic word for the animal. Indonesian <strong>kelelawar</strong> is inherited from Proto-Austronesian, Thai <strong>ค้างคาว</strong> is of unknown origin, and Vietnamese <strong>dơi</strong> is unrelated to the words for both mouse and bird.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,zh,ja,tr,sw,id,th,vi\" data-word=\"bat\">🗣 Compare the words of their own</button></div><p>A bat is hard to classify, which is why the map hesitates. Swahili <strong>popo</strong> shows what people make of that. It is the everyday word, and figuratively it also means a traitor. Polish <strong>nietoperz</strong> is a Slavic word of debated origin. Nobody on the map, in any language, seems to have looked up at dusk and thought “mammal”.</p>",
+      "ja": "<p>フランス語でコウモリは「はげネズミ」である。<strong>chauve-souris</strong>は後期ラテン語<em>calva sorex</em>から来ていて、8世紀のガリアに記録がある。スペイン語<strong>murciélago</strong>とポルトガル語<strong>morcego</strong>は別の悪口で、俗ラテン語<em>mūs caecus</em>「目の見えないネズミ」から来ている。コウモリははげてもいないし目も見えるが、ネズミというのは少なくとも悪くない考えだ。小さくて毛の生えた哺乳類で、そんな姿で飛ぶものはほかにいない。ヨーロッパ中で人々が同じ結論に達し、地図の116セルがコウモリをネズミの仲間と呼んでいる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"bat\" data-code=\"fr\">🗺️ 地図でコウモリを表示</button></div><h3>夜の鳥</h3><p>一族の残りはもっと文字どおりだ。ドイツ語<strong>Fledermaus</strong>は「羽ばたくネズミ」で、古高ドイツ語<em>fledarmūs</em>から来ている。オランダ語<strong>vleermuis</strong>、スウェーデン語<strong>fladdermus</strong>も同じで、ロシア語<strong>летучая мышь</strong>はただ「飛ぶネズミ」である。朝鮮語も同じ考えに着いた。<strong>박쥐</strong>は中期朝鮮語にさかのぼり、後半は「ネズミ」だが、前半の意味はよくわかっていない。正体不明のものがついたネズミというのは、かなり正確な描写である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"de,nl,sv,fr,es,pt,ru\" data-word=\"bat\">🗣 ネズミを比べる</button></div><p>ずっと小さな集団10セルは、コウモリを鳥に分類した。アムハラ語<strong>የሌሊትወፍ</strong>は「夜の鳥」で、とても理にかなった名だ。チュヴァシ語<strong>ҫара ҫерҫи</strong>の二語目は「スズメ」である。南アジアにはすばらしい変種があり、ネパール語<strong>चमेरो</strong>とシンド語<strong>چمڙو</strong>はサンスクリット<em>carmacaṭaka</em>「革のスズメ」にさかのぼる。コウモリを二語で言い表すなら、これ以上はないかもしれない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"am,ne,sd,cv\" data-word=\"bat\">🗣 鳥を比べる</button></div><h3>夕方と革</h3><p>時間帯や皮に目をつけた言語もある。イタリア語<strong>pipistrello</strong>はラテン語<em>vespertīliō</em>「夕方の生き物」から来ていて、ネズミを避けたヨーロッパの言語の一つだ。アラビア語<strong>خفاش</strong>は「昼に目が見えない」という動詞から来ていて、スペイン語と同じ言いがかりである。ヒンディー語<strong>चमगादड़</strong>は「革のジャッカル」のような語で、この動物の大出世である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"it,ar,hi,ko\" data-word=\"bat\">🗣 夕方、革、目の悪さを比べる</button></div><h3>独自の語</h3><p>最大の集団308セルは独自の語を持つ。英語の<strong>bat</strong>は中英語<em>bakke</em>から来たスカンディナヴィア系の語で、クリケットや野球のバットとは関係がない。中国語<strong>蝙蝠</strong>は上古の「蝠」を広げた語で、シナ・チベット語の語根である。日本語の<strong>蝙蝠</strong>はこの字を「こうもり」に当てたもので、古語<em>kawahori</em>にさかのぼり、「皮」に意味不明の部分がついた語かもしれない。トルコ語<strong>yarasa</strong>はテュルク祖語の語を受け継ぎ、インドネシア語<strong>kelelawar</strong>はオーストロネシア祖語から来ている。タイ語<strong>ค้างคาว</strong>の由来は不明で、ベトナム語<strong>dơi</strong>はネズミの語とも鳥の語とも関係がない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,zh,ja,tr,sw,id,th,vi\" data-word=\"bat\">🗣 独自の語を比べる</button></div><p>コウモリは分類しにくく、地図もそこで迷っている。スワヒリ語<strong>popo</strong>を見ると、人がそれをどう思ったかがわかる。ふつうの語だが、比喩では裏切り者の意味にもなる。ポーランド語<strong>nietoperz</strong>はスラヴ語で、由来には議論がある。どの言語でも、夕暮れの空を見上げて「哺乳類だ」と思った人はいなかったようだ。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"chauve-souris\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/chauve-souris"
+      },
+      {
+        "text": "\"murciélago\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/murci%C3%A9lago"
+      },
+      {
+        "text": "Wolfgang Pfeifer et al., Etymologisches Wörterbuch des Deutschen, \"Fledermaus\", in DWDS.",
+        "url": "https://www.dwds.de/wb/etymwb/Fledermaus"
+      },
+      {
+        "text": "\"박쥐\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%EB%B0%95%EC%A5%90"
+      },
+      {
+        "text": "\"चमगादड़\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E0%A4%9A%E0%A4%AE%E0%A4%97%E0%A4%BE%E0%A4%A6%E0%A4%A1%E0%A4%BC"
+      },
+      {
+        "text": "R. L. Turner, A Comparative Dictionary of the Indo-Aryan Languages (as cited in the cell note)."
+      },
+      {
+        "text": "\"pipistrello\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/pipistrello"
+      },
+      {
+        "text": "\"خفاش\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D8%AE%D9%81%D8%A7%D8%B4"
+      },
+      {
+        "text": "\"bat\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/bat"
+      },
+      {
+        "text": "\"蝙蝠\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E8%9D%99%E8%9D%A0"
+      },
+      {
+        "text": "\"yarasa\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/yarasa"
+      },
+      {
+        "text": "\"kelelawar\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/kelelawar"
+      },
+      {
+        "text": "\"popo\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/popo"
+      },
+      {
+        "text": "\"ҫерҫи\". Викисловарь, accessed 2026.",
+        "url": "https://ru.wiktionary.org/wiki/%D2%AB%D0%B5%D1%80%D2%AB%D0%B8"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "jellyfish-medusa-mother",
+    "icon": "🪼",
+    "tags": [
+      "animals",
+      "etymology",
+      "sea"
+    ],
+    "title": {
+      "en": "Jellyfish: Medusa, a Sea Mother and a Bride",
+      "ja": "クラゲ：メドゥーサ、海の母、花嫁"
+    },
+    "summary": {
+      "en": "It has no brain and no bones, and the world has called it a Gorgon, a mother, a bride and a lamp. English settled for jelly.",
+      "ja": "脳も骨もない生き物を、世界はゴルゴン、母、花嫁、灯火と呼んできた。英語はゼリーで落ち着いた。"
+    },
+    "body": {
+      "en": "<p>It is a bag of water, more or less, and French named it after a monster. <strong>méduse</strong> is Medusa, the Gorgon with snakes for hair, and with good reason: turn a jellyfish upside down and there is a round head with long things writhing out of it. English speakers look at the same animal and see a pudding: jelly, and fish. The map shows how much imagination other languages have spent on it.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"jellyfish\" data-code=\"fr\">🗺️ Show jellyfish on the map</button></div><h3>The Gorgon</h3><p>The Medusa route is the largest with a story, at 53 cells. Russian <strong>медуза</strong>, Spanish and Italian <strong>medusa</strong> and Greek <strong>μέδουσα</strong> all carry the Gorgon. Italian’s note explains the match: her snake hair resembles the trailing tentacles. Greek is an odd case, because <strong>μέδουσα</strong> came back from French, so the language of the original myth borrowed the sea creature’s name from France, and its everyday word is <em>τσούχτρα</em>, “stinger”, which is what you actually say on a beach.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,ru,es,it,el\" data-word=\"jellyfish\">🗣 Compare the Medusa family</button></div><p>A much smaller family, 7 cells, sees a mother. Mandarin <strong>水母</strong> is the “water mother”, and the <em>New Tales of Guangdong</em> explains that the creature takes the scum of salt water as its mother. Turkish <strong>denizanası</strong> is the “sea mother”, from <em>deniz</em>, “sea”, and <em>ana</em>, “mother”. The two languages are not related and reached the same picture. Japanese <strong>クラゲ</strong> is an inherited Old Japanese word, but when written in kanji it borrows 水母, “water mother”, or 海月, “sea moon”, from Chinese, and the sea moon is the prettiest spelling on the map.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,tr,ja\" data-word=\"jellyfish\">🗣 Compare the mothers</button></div><h3>Mothers and brides</h3><p>Further west the imagery turns to brides and lamps. Persian <strong>عروس دریایی</strong> is the “bride of the sea”. Arabic <strong>قنديل البحر</strong> is the “lamp of the sea”. Any diver at night would agree with that one. Between neighbours, the jellyfish goes from a wedding to a lamp.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fa,ar\" data-word=\"jellyfish\">🗣 Compare bride and lamp</button></div><p>Northern Europe is more practical. English <strong>jellyfish</strong> is jelly and fish, though it is not a fish. German <strong>Qualle</strong> and Dutch <strong>kwal</strong> are probably related to words for swelling and welling up, so the name describes a thing that wobbles. Swedish <strong>manet</strong> has a warning in it: it comes from Old Norse <em>*marnæta</em>, “sea nettle”, which is exactly what you remember if you have ever touched one. On the jelly route, 40 cells in all, the name stops being about myth and turns into a description of texture or pain.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,nl,sv\" data-word=\"jellyfish\">🗣 Compare the northern words</button></div><h3>Jelly and nettles</h3><p>Southeast Asia has its own words, and many of them double. Indonesian <strong>ubur-ubur</strong> and Malay <strong>ampai-ampai</strong> are reduplicated, with no origin given by the sources, and they sound as if they are pulsing. Thai <strong>แมงกะพรุน</strong> uses <em>แมง</em>, the prefix for small creatures. Tagalog <strong>dikya</strong> is a word of its own. Hindi <strong>जेलीफ़िश</strong> borrowed the English, although Hindi Wikipedia gives a native word as well. So a creature that has neither heart nor brain has been given a mother, a wedding, a lamp and a snake-haired head, which is a good deal more personality than it has ever asked for.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"id,ms,th,tl,hi\" data-word=\"jellyfish\">🗣 Compare Southeast Asia</button></div>",
+      "ja": "<p>ほとんど水の袋のようなものなのに、フランス語はこれに怪物の名をつけた。<strong>méduse</strong>は蛇の髪を持つゴルゴン、メドゥーサである。もっともな話で、クラゲをひっくり返すと丸い頭から長いものがうごめいて出ている。同じ動物を見て英語の話者はゼリーと魚と言った。ほかの言語がどれだけ想像力を使ったかは、地図が見せてくれる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"jellyfish\" data-code=\"fr\">🗺️ 地図でクラゲを表示</button></div><h3>ゴルゴン</h3><p>メドゥーサの系統は物語のある名の中で最大の53セルである。ロシア語<strong>медуза</strong>、スペイン語とイタリア語の<strong>medusa</strong>、ギリシャ語<strong>μέδουσα</strong>はどれもゴルゴンを背負っている。蛇の髪が垂れ下がる触手に似ているのだ。ギリシャ語はおかしな例で、<strong>μέδουσα</strong>はフランス語から戻ってきた語である。神話の本家が海の生き物の名をフランスから借りたわけで、ふだんの語は「刺すもの」<em>τσούχτρα</em>だ。海辺で実際に言うのはこちらである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,ru,es,it,el\" data-word=\"jellyfish\">🗣 メドゥーサの系統を比べる</button></div><p>ずっと小さな7セルの系統は母を見た。中国語<strong>水母</strong>は「水の母」で、『広東新語』には塩水のかすを母とするとある。トルコ語<strong>denizanası</strong>は「海」<em>deniz</em>と「母」<em>ana</em>で「海の母」である。二つの言語に親戚関係はないのに同じ絵にたどり着いた。日本語の<strong>クラゲ</strong>は古くからの和語だが、漢字では中国語の「水母」か「海月」を借りて書く。海月は地図でいちばん美しい書き方である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,tr,ja\" data-word=\"jellyfish\">🗣 母を比べる</button></div><h3>母と花嫁</h3><p>西へ行くと、見立ては花嫁と灯火に変わる。ペルシア語<strong>عروس دریایی</strong>は「海の花嫁」である。アラビア語<strong>قنديل البحر</strong>は「海の灯火」で、夜の海に潜った人なら同意するだろう。隣り合う言語の間で、クラゲは結婚式から灯火へ移っている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fa,ar\" data-word=\"jellyfish\">🗣 花嫁と灯火を比べる</button></div><p>北ヨーロッパはもっと実際的だ。英語の<strong>jellyfish</strong>はゼリーと魚だが、魚ではない。ドイツ語<strong>Qualle</strong>とオランダ語<strong>kwal</strong>は膨らむ、湧くを意味する語の親戚らしい。スウェーデン語<strong>manet</strong>には警告が入っていて、古ノルド語<em>*marnæta</em>「海のイラクサ」から来ている。一度でも触ったことがあるなら忘れない名だろう。ゼリーの系統は全部で40セルで、ここでは神話が消え、手触りと痛みの話になる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,nl,sv\" data-word=\"jellyfish\">🗣 北の語を比べる</button></div><h3>ゼリーとイラクサ</h3><p>東南アジアには独自の語があり、重ねた形が多い。インドネシア語<strong>ubur-ubur</strong>とマレー語<strong>ampai-ampai</strong>は重複語で、語源は資料にないが、脈打っているように聞こえる。タイ語<strong>แมงกะพรุน</strong>は小さな生き物につける<em>แมง</em>を使う。タガログ語<strong>dikya</strong>は独自の語である。ヒンディー語<strong>जेलीफ़िश</strong>は英語を借りたが、固有の語もあるという。心臓も脳もない生き物に、母と花嫁と灯火と蛇の髪の頭が与えられた。本人が頼んだよりずっと多くの個性である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"id,ms,th,tl,hi\" data-word=\"jellyfish\">🗣 東南アジアを比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"Medusa\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Medusa"
+      },
+      {
+        "text": "\"μέδουσα\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%CE%BC%CE%AD%CE%B4%CE%BF%CF%85%CF%83%CE%B1"
+      },
+      {
+        "text": "\"τσούχτρα\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%CF%84%CF%83%CE%BF%CF%8D%CF%87%CF%84%CF%81%CE%B1"
+      },
+      {
+        "text": "\"水母\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E6%B0%B4%E6%AF%8D"
+      },
+      {
+        "text": "\"海月\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E6%B5%B7%E6%9C%88"
+      },
+      {
+        "text": "Wolfgang Pfeifer et al., Etymologisches Wörterbuch des Deutschen, \"Qualle\", in DWDS.",
+        "url": "https://www.dwds.de/wb/etymwb/Qualle"
+      },
+      {
+        "text": "\"kwal\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/kwal"
+      },
+      {
+        "text": "\"manet\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/manet"
+      },
+      {
+        "text": "Kamus Dewan (as cited in the cell note)."
+      },
+      {
+        "text": "\"जेलीफ़िश\". Wikipedia, accessed 2026.",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%9C%E0%A5%87%E0%A4%B2%E0%A5%80%E0%A4%AB%E0%A4%BC%E0%A4%BF%E0%A4%B6"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "octopus-coal-crab",
+    "icon": "🐙",
+    "tags": [
+      "animals",
+      "etymology",
+      "sea"
+    ],
+    "title": {
+      "en": "Octopus: Eight Feet, an Elephant’s Trunk or a Coal Crab",
+      "ja": "タコ：八本足、象の鼻、石炭のカニ"
+    },
+    "summary": {
+      "en": "The Greeks counted eight feet, and then many. Czech saw a trunk, Iceland a coal crab, Brittany a sea cat, and Austronesian sailors have had the same word for thousands of years.",
+      "ja": "ギリシャ人は足を八本と数え、次に「たくさん」と言った。チェコ語は象の鼻を見て、アイスランド語は石炭のカニと呼び、オーストロネシアの船乗りは何千年も同じ語を使っている。"
+    },
+    "body": {
+      "en": "<p>The Icelandic word for an octopus is <strong>kolkrabbi</strong>, “coal crab”. It is a mystery why anyone would look at the most flexible animal in the sea and think of a crab, or of coal, unless it is the ink. Every language had the same problem: a creature with too many limbs and no bones, unlike anything on land. Some counted, some compared, and a few gave up and named it after a monster.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"octopus\" data-code=\"is\">🗺️ Show octopus on the map</button></div><h3>Counting</h3><p>Counting is the largest answer, 100 cells. English <strong>octopus</strong> was borrowed through Latin from Greek <em>oktṓpous</em>, “eight-foot”. Russian <strong>осьминог</strong> does the sum with its own words, old <em>осмь</em>, “eight”, and <em>нога</em>, “leg”. Persian <strong>هشت‌پا</strong> is a calque of the same idea. Hebrew went further and built a new word: <strong>תמנון</strong> is a modern blend of Aramaic <em>tmanya</em>, “eight”, and <em>nun</em>, “fish”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,ru,fa,he\" data-word=\"octopus\">🗣 Compare eight feet</button></div><p>A second family could not be bothered to count. Greek also had <em>polýpous</em>, “many-footed”, and through Latin <em>polypus</em> it became Spanish <strong>pulpo</strong>, Italian <strong>polpo</strong> and Portuguese <strong>polvo</strong>. That is 55 cells. French is the best story in this group. <strong>pieuvre</strong> is the same word, but it comes from the Norman dialect of Guernsey, and it was popularised by Victor Hugo, so the standard French name of the animal is a word a novelist picked up on a Channel island.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"es,it,pt,fr\" data-word=\"octopus\">🗣 Compare many feet</button></div><h3>Trunks, ink and cats</h3><p>Then come the images. Czech <strong>chobotnice</strong> is “the trunked one”, from <em>chobot</em>, an elephant’s trunk, and Croatian <strong>hobotnica</strong> is its relative. The whole animal is named after a limb belonging to something else. Danish <strong>blæksprutte</strong> and Norwegian <strong>blekksprut</strong> are “ink squirter”, a practical name that also covers squid. Afrikaans <strong>seekat</strong> and Breton <strong>morgazh</strong> both say “sea cat”, and no explanation is offered for that, although the two languages are a long way apart.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"is,cs,hr,da,no,af,br\" data-word=\"octopus\">🗣 Compare the images</button></div><p>Others named a threat. Finnish <strong>tursas</strong> comes from Tursas, a sea monster of Finnish mythology. Thai <strong>หมึกยักษ์</strong> is “giant squid”, with <em>ยักษ์</em> also meaning an ogre. German <strong>Krake</strong> was borrowed from dialectal Norwegian <em>krake(n)</em>, whose origin the Duden dictionary calls unexplained. The gentlest name is on the Chinese coast, where Ningbo <strong>望潮</strong> means “watching the tide”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,th,wuu_nb,de\" data-word=\"octopus\">🗣 Compare monsters and tides</button></div><h3>Very old words</h3><p>The oldest word may be in the Pacific. Malay <strong>gurita</strong> and Tagalog <strong>pugita</strong> are inherited from Proto-Austronesian <em>*guʀiCa</em>, “octopus”, a word thousands of years old, which suits a family of languages that crossed oceans. Japanese <strong>タコ</strong> is a native word of debated origin, with one common theory reading <em>ta-</em> as “hand, arm”. Korean <strong>문어</strong> is written 文魚, “literary fish”, which sounds wonderful, but Wiktionary calls the origin unclear and the spelling a later transliteration. Mandarin <strong>章鱼</strong> has an origin the sources do not explain, and the colloquial word is 八爪鱼, “eight-claw fish”. That brings East Asia back to where the Greeks began, counting.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ms,tl,ja,ko,zh\" data-word=\"octopus\">🗣 Compare Asia and the Pacific</button></div>",
+      "ja": "<p>アイスランド語でタコは<strong>kolkrabbi</strong>、「石炭のカニ」である。海でいちばん柔らかい動物を見てカニや石炭を思い浮かべた理由はわからない。墨のせいだろうか。どの言語も同じ問題を抱えていた。手足が多すぎて骨がなく、陸の何にも似ていない生き物である。数えた言語があり、例えた言語があり、あきらめて怪物の名をつけた言語もある。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"octopus\" data-code=\"is\">🗺️ 地図でタコを表示</button></div><h3>数える</h3><p>いちばん多い答えは数えることで、100セルある。英語<strong>octopus</strong>はラテン語を経てギリシャ語<em>oktṓpous</em>「八本足」から来ている。ロシア語<strong>осьминог</strong>は古い<em>осмь</em>「八」と<em>нога</em>「足」で自分の語で計算した。ペルシア語<strong>هشت‌پا</strong>は同じ発想のなぞりである。ヘブライ語はさらに進んで新語を作り、<strong>תמנון</strong>はアラム語<em>tmanya</em>「八」と<em>nun</em>「魚」を混ぜた現代の語である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,ru,fa,he\" data-word=\"octopus\">🗣 八本足を比べる</button></div><p>第二の系統は数えるのをやめた。ギリシャ語には「足の多い」<em>polýpous</em>もあり、これがラテン語<em>polypus</em>を経てスペイン語<strong>pulpo</strong>、イタリア語<strong>polpo</strong>、ポルトガル語<strong>polvo</strong>になった。55セルである。いちばんいい話はフランス語にある。<strong>pieuvre</strong>も同じ語だが、ガーンジー島のノルマン方言から来ていて、ヴィクトル・ユゴーが広めた。この動物の標準フランス語の名は、小説家が海峡の島で拾った語なのだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"es,it,pt,fr\" data-word=\"octopus\">🗣 多くの足を比べる</button></div><h3>鼻、墨、猫</h3><p>次は見立てである。チェコ語<strong>chobotnice</strong>は象の鼻<em>chobot</em>から「鼻を持つもの」で、クロアチア語<strong>hobotnica</strong>はその親戚だ。動物全体が別の動物の体の一部で呼ばれている。デンマーク語<strong>blæksprutte</strong>とノルウェー語<strong>blekksprut</strong>は「墨を吹くもの」で、実用的な名でイカも含む。アフリカーンス語<strong>seekat</strong>とブルトン語<strong>morgazh</strong>はどちらも「海の猫」である。遠く離れた二つの言語が同じことを言うのに、理由の説明はない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"is,cs,hr,da,no,af,br\" data-word=\"octopus\">🗣 見立てを比べる</button></div><p>脅威を名にした言語もある。フィンランド語<strong>tursas</strong>はフィンランド神話の海の怪物トゥルサスから来ている。タイ語<strong>หมึกยักษ์</strong>は「巨大なイカ」で、<em>ยักษ์</em>は鬼の意味でもある。ドイツ語<strong>Krake</strong>はノルウェーの方言<em>krake(n)</em>の借用で、ドゥーデン辞典は語源不明としている。いちばん優しい名は中国の海岸にあり、寧波の<strong>望潮</strong>は「潮を望む」である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,th,wuu_nb,de\" data-word=\"octopus\">🗣 怪物と潮を比べる</button></div><h3>とても古い語</h3><p>最も古い語は太平洋にあるかもしれない。マレー語<strong>gurita</strong>とタガログ語<strong>pugita</strong>はオーストロネシア祖語<em>*guʀiCa</em>「タコ」を受け継ぐ。何千年も前の語で、大洋を渡った語族にふさわしい。日本語の<strong>タコ</strong>は語源に議論のある和語で、「タ」を手とする説がよく知られる。朝鮮語<strong>문어</strong>は「文魚」と書き、すてきな字面だが、ウィクショナリーは語源不明で字は後の当て字としている。中国語<strong>章鱼</strong>の由来は資料にない。話し言葉の「八爪鱼」は八本爪の魚で、東アジアはギリシャ人の出発点、数えることに戻ってくる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ms,tl,ja,ko,zh\" data-word=\"octopus\">🗣 アジアと太平洋を比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"kolkrabbi\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/kolkrabbi"
+      },
+      {
+        "text": "\"octopus\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/octopus"
+      },
+      {
+        "text": "\"תמנון\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D7%AA%D7%9E%D7%A0%D7%95%D7%9F"
+      },
+      {
+        "text": "\"pieuvre\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/pieuvre"
+      },
+      {
+        "text": "\"blæksprutte\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/bl%C3%A6ksprutte"
+      },
+      {
+        "text": "\"morgazh\". Wiktionnaire, accessed 2026.",
+        "url": "https://fr.wiktionary.org/wiki/morgazh"
+      },
+      {
+        "text": "\"Iku-Turso (creature)\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Iku-Turso_%28creature%29"
+      },
+      {
+        "text": "Krake. Duden online.",
+        "url": "https://www.duden.de/rechtschreibung/Krake"
+      },
+      {
+        "text": "\"gurita\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/gurita"
+      },
+      {
+        "text": "\"pugita\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/pugita"
+      },
+      {
+        "text": "\"蛸\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E8%9B%B8"
+      },
+      {
+        "text": "\"문어\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%EB%AC%B8%EC%96%B4"
+      },
+      {
+        "text": "\"望潮\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E6%9C%9B%E6%BD%AE"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "whale-still-a-fish",
+    "icon": "🐋",
+    "tags": [
+      "animals",
+      "etymology",
+      "sea"
+    ],
+    "title": {
+      "en": "Whale: Still a Fish in Many Languages",
+      "ja": "クジラ：今も魚のままの言語"
+    },
+    "summary": {
+      "en": "Science took the whale out of the fish. Many languages did not. Others called it a sea pig, an old man, a dragon or an elephant fish.",
+      "ja": "科学はクジラを魚から外したが、言葉の多くは外さなかった。海の豚、老人、竜、象の魚と呼ぶ言語もある。"
+    },
+    "body": {
+      "en": "<p>Dutch calls a whale <strong>walvis</strong>, a whale-fish. Biologists disagree, and the Dutch know this perfectly well, but the name was settled long before anyone asked. There are 85 cells on the map where the word for a whale is, or contains, the word for a fish. Languages are slow to take in a correction, and the whale is the best example of that in the sea.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"whale\" data-code=\"nl\">🗺️ Show whale on the map</button></div><h3>Fish that are not</h3><p>The Dutch word shows how it happens. Old <em>wal</em> meant a whale already, and <em>vis</em> was added to clarify it. German <strong>Wal</strong> and Swedish <strong>val</strong> are the old Germanic word on its own, but both languages also have the longer <em>Walfisch</em> and <em>valfisk</em>. Asia does it from the other direction. Mandarin <strong>鲸鱼</strong> is 鲸, “whale”, plus 鱼, “fish”, and 鲸 alone is the formal, scientific term. Thai <strong>ปลาวาฬ</strong> is “fish whale”, with the same division of labour. Malay <strong>paus</strong> is often said as <em>ikan paus</em>, with <em>ikan</em>, “fish”, in front. Vietnamese <strong>cá voi</strong> is the most charming: “elephant fish”, which at least acknowledges the size.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"nl,de,sv,zh,th,ms,vi\" data-word=\"whale\">🗣 Compare the fish names</button></div><p>Arabic has a neat history here. <strong>حوت</strong> is the old Arabic word for a fish, the one that swallows Jonah in the Qur’an, and it also means a whale, while everyday fish is now usually <em>سمك</em>. So the whale keeps a word for fish that the fish have mostly left behind. Other languages keep the two apart from the start. English <strong>whale</strong> is Old English <em>hwæl</em>, and French <strong>baleine</strong> comes from Latin and Greek <em>phálaina</em>. Russian <strong>кит</strong> comes through Old Church Slavonic from Greek <em>kêtos</em>, “sea monster”. Japanese <strong>鯨</strong> is a native word, already in the Kojiki of 712 as <em>kudira</em>. The kanji has the fish radical, but the word has no fish in it. Korean <strong>고래</strong> is native too.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ar,en,fr,ru,ja,ko\" data-word=\"whale\">🗣 Compare the old words</button></div><h3>Monsters</h3><p>The sea-monster idea runs through the map. Hebrew <strong>לווייתן</strong> is the biblical Leviathan, the coiling monster, reused as the ordinary word. Georgian <strong>ვეშაპი</strong> is the vishap, a dragon of Caucasian myth. Tibetan <strong>ཆུ་སྲིན</strong> is the makara, a mythical water monster, and Tibet has no sea to find a whale in. Tamil <strong>திமிங்கிலம்</strong> comes from Sanskrit <em>timiṅgila</em>, “whale-swallower”, a fish big enough to eat a whale, so the whale ended up with the name of the thing that eats it. A creature that big was a myth before it was an animal.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"he,ka,bo,ta\" data-word=\"whale\">🗣 Compare the monsters</button></div><h3>Pigs, old men and endlessness</h3><p>Then there are the local descriptions. Irish <strong>míol mór</strong> is a “great beast”, and Welsh <strong>morfil</strong> a “sea beast”. These two may be the most accurate on the map, and they did not need a biologist. Scottish Gaelic <strong>muc-mhara</strong> is a “sea pig”. Taiwanese <strong>海翁</strong> is the “old man of the sea”. Lithuanian <strong>banginis</strong> is a “wave creature”, from <em>banga</em>, “wave”. Yoruba <strong>àbùùbùtán</strong> means “scooping out without finishing”, hence “endlessness”, which is exactly how a whale looks to someone standing beside one.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ga,cy,gd,nan,lt,yo\" data-word=\"whale\">🗣 Compare the descriptions</button></div><p>Many languages far from any sea have no word at all and stay blank on the map, which is honest. For the rest, fish, monster and old man are all reasonable accounts of something enormous seen from the shore.</p>",
+      "ja": "<p>オランダ語でクジラは<strong>walvis</strong>、「クジラ魚」である。生物学者は異議を唱えるし、オランダ人もそれはよく知っているが、名前は誰かが尋ねるずっと前に決まっていた。地図には、クジラの語が魚の語そのものか、魚の語を含むセルが85ある。言葉は訂正を受け入れるのが遅く、クジラは海でいちばんの例である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"whale\" data-code=\"nl\">🗺️ 地図でクジラを表示</button></div><h3>魚ではない魚</h3><p>オランダ語を見ると、どうしてそうなるかがわかる。古い<em>wal</em>がすでにクジラの意味で、はっきりさせるために<em>vis</em>を足したのだ。ドイツ語<strong>Wal</strong>とスウェーデン語<strong>val</strong>は古いゲルマン語の語そのままだが、どちらにも長い<em>Walfisch</em>、<em>valfisk</em>がある。アジアは反対の方向から同じことをする。中国語<strong>鲸鱼</strong>は「鲸」と「鱼」で、「鲸」だけなら改まった学術語である。タイ語<strong>ปลาวาฬ</strong>も同じ分担だ。マレー語<strong>paus</strong>はよく前に「魚」をつけて<em>ikan paus</em>と言う。いちばんかわいいのはベトナム語<strong>cá voi</strong>で、「象の魚」である。大きさだけは認めている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"nl,de,sv,zh,th,ms,vi\" data-word=\"whale\">🗣 魚の名を比べる</button></div><p>アラビア語の歴史はおもしろい。<strong>حوت</strong>はコーランでヨナを飲みこむ魚にも使われる古い「魚」の語で、クジラの意味もあり、ふつうの魚は今ではたいてい<em>سمك</em>と言う。魚がおおかた去ったあとの語を、クジラが持ち続けているのだ。最初から分けている言語もある。英語の<strong>whale</strong>は古英語<em>hwæl</em>、フランス語<strong>baleine</strong>はラテン語とギリシャ語<em>phálaina</em>から来ている。ロシア語<strong>кит</strong>は古代教会スラヴ語を経てギリシャ語<em>kêtos</em>「海の怪物」から来た。日本語の<strong>鯨</strong>は和語で、712年の古事記にすでに<em>kudira</em>として見える。字には魚偏があるが、語に魚は入っていない。朝鮮語<strong>고래</strong>も固有語である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ar,en,fr,ru,ja,ko\" data-word=\"whale\">🗣 古い語を比べる</button></div><h3>怪物</h3><p>海の怪物という発想は地図のあちこちにある。ヘブライ語<strong>לווייתן</strong>は聖書のレビヤタン、とぐろを巻く怪物で、それがふつうの語になった。ジョージア語<strong>ვეშაპი</strong>はカフカスの神話の竜ヴィシャップである。チベット語<strong>ཆུ་སྲིན</strong>は神話の水の怪物マカラで、チベットにクジラのいる海はない。タミル語<strong>திமிங்கிலம்</strong>はサンスクリット<em>timiṅgila</em>「クジラを飲むもの」から来ている。クジラを食べるほど大きな魚の名で、クジラは自分を食べるものの名をもらったことになる。これほど大きい生き物は、動物である前に神話だった。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"he,ka,bo,ta\" data-word=\"whale\">🗣 怪物を比べる</button></div><h3>豚、老人、果てしなさ</h3><p>そして土地ごとの描写がある。アイルランド語<strong>míol mór</strong>は「大きな獣」、ウェールズ語<strong>morfil</strong>は「海の獣」で、地図でいちばん正確な二語かもしれない。生物学者を待つ必要もなかった。スコットランド・ゲール語<strong>muc-mhara</strong>は「海の豚」、台湾語<strong>海翁</strong>は「海の老人」である。リトアニア語<strong>banginis</strong>は「波」<em>banga</em>から来た「波の生き物」だ。ヨルバ語<strong>àbùùbùtán</strong>は「すくってもすくい尽くせない」で、「果てしなさ」の意味にもなる。すぐ隣に立てば、クジラはまさにそう見えるだろう。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ga,cy,gd,nan,lt,yo\" data-word=\"whale\">🗣 描写を比べる</button></div><p>海から遠い多くの言語にはこの語がなく、地図では空いている。それも正直な姿である。ほかの言語にとって、魚も怪物も老人も、岸から見た巨大なものの説明としてはもっともである。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"walvis\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/walvis"
+      },
+      {
+        "text": "\"Walfisch\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Walfisch"
+      },
+      {
+        "text": "\"valfisk\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/valfisk"
+      },
+      {
+        "text": "\"حوت\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D8%AD%D9%88%D8%AA"
+      },
+      {
+        "text": "Qur'an 37:142."
+      },
+      {
+        "text": "\"кит\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D0%BA%D0%B8%D1%82"
+      },
+      {
+        "text": "\"鯨\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E9%AF%A8"
+      },
+      {
+        "text": "\"לווייתן\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%D7%9C%D7%95%D7%95%D7%99%D7%99%D7%AA%D7%9F"
+      },
+      {
+        "text": "\"ვეშაპი\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E1%83%95%E1%83%94%E1%83%A8%E1%83%90%E1%83%9E%E1%83%98"
+      },
+      {
+        "text": "ཆུ་སྲིན, makara. 84000 Glossary of Terms.",
+        "url": "https://read.84000.co/glossary/entity-9134.html"
+      },
+      {
+        "text": "\"तिमिङ्गिल\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E0%A4%A4%E0%A4%BF%E0%A4%AE%E0%A4%BF%E0%A4%99%E0%A5%8D%E0%A4%97%E0%A4%BF%E0%A4%B2"
+      },
+      {
+        "text": "\"morfil\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/morfil"
+      },
+      {
+        "text": "\"banginis\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/banginis"
+      },
+      {
+        "text": "\"abuubutan\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/abuubutan"
+      },
+      {
+        "text": "\"海翁\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/%E6%B5%B7%E7%BF%81"
+      },
+      {
+        "text": "LangMap Word Map data and cell notes for this word.",
+        "url": "https://langmaps.com/wordmap.html"
+      }
+    ]
+  },
+  {
+    "id": "cuckoo-says-its-name",
+    "icon": "🐦",
+    "tags": [
+      "animals",
+      "onomatopoeia",
+      "etymology"
+    ],
+    "title": {
+      "en": "Cuckoo: The Bird That Says Its Own Name",
+      "ja": "カッコウ：自分の名を名乗る鳥"
+    },
+    "summary": {
+      "en": "Nobody had to invent this one. The bird announces itself, and almost every language in its range has written that down, then found a use for it in insults.",
+      "ja": "この語は発明する必要がなかった。鳥が自分で名乗るからだ。分布域のほとんどの言語がそれを書き取り、さらに悪口にも使った。"
+    },
+    "body": {
+      "en": "<p>Most birds have names. The cuckoo has a catchphrase. Its call is two clean notes, nearly impossible to mistake, and when people needed a word they simply wrote the noise down. The common name and the genus name both come from it. So the map of this word is a rare one: 519 cells across the bird’s range, most of them making more or less the same noise, because they are all quoting the same source.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"cuckoo\" data-code=\"en\">🗺️ Show cuckoo on the map</button></div><h3>Europe sings together</h3><p>Europe sings together. English <strong>cuckoo</strong> comes from Old French <em>cucu</em>, and its earliest recorded use in English is from around 1240, in the song <em>Sumer Is Icumen In</em>. French <strong>coucou</strong>, German <strong>Kuckuck</strong>, Spanish <strong>cuco</strong>, Italian <strong>cuculo</strong> and Russian <strong>кукушка</strong> are all on it, and Wiktionary calls the German and English words ultimately onomatopoeic. Turkish <strong>guguk</strong> softens the first sound. These languages did not need to borrow the word from each other to end up with it. Anyone standing in a wood in May could have done the same.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,fr,de,es,it,ru,tr\" data-word=\"cuckoo\">🗣 Compare Europe</button></div><p>Asia heard the same two notes and did clever things with them. Japanese <strong>カッコウ</strong> is the plain imitation, and Korean <strong>뻐꾸기</strong> starts with a tight <em>pp</em> where others have <em>k</em>. Mandarin <strong>布谷鸟</strong> is the best trick on the map. The two syllables copy the call, but the characters mean “to spread grain”, because the birds are heard at sowing time and their song marks the new farming season. So China turned a noise into an instruction. Arabic <strong>وَقْوَاق</strong> and Swahili <strong>kekeo</strong> have their own version of the double beat.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ko,ja,zh,ar,sw\" data-word=\"cuckoo\">🗣 Compare Asia and Africa</button></div><h3>Spreading grain</h3><p>Two rows do something different. Finnish <strong>käki</strong> is not a copy of the call in any obvious way. It is either an early loan from Baltic or itself imitative, and Sámi has a relative. The older Germanic word is similar, and it is still around in Scots <em>gowk</em>, a fool, from Old Norse <em>gaukr</em>. Hindi <strong>कोयल</strong> looks as if it belongs, but the bird is a different one, the Asian koel, a member of the cuckoo family found across the Indian subcontinent.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,hi\" data-word=\"cuckoo\">🗣 Compare Finnish and Hindi</button></div><h3>The rude part</h3><p>Whatever else people said about the cuckoo, they were rude. The common cuckoo is a brood parasite, laying its eggs in the nests of other species, particularly dunnocks, meadow pipits and reed warblers. That is where English <em>cuckold</em> comes from, by way of Old French <em>cucuault</em>, built on <em>cucu</em>. The man whose wife has strayed is named after the bird, though the logic is odd, since it is the other birds that have been tricked. Scots <em>gowk</em> is a fool, and in Japanese the old name 閑古鳥 is the “lonesome old bird”, attested since the Nippo Jisho of 1603, and it gives the saying that one is singing when a shop has no customers.</p><p>The map’s coverage follows the bird. This is a partial word: it is plotted only where a real, sourced form exists, and because the common cuckoo’s range is Eurasia and Africa, the cells thin out in the Americas and the remote Pacific by design. So this is, unusually, a map of a sound that stops where the singer stops.</p>",
+      "ja": "<p>たいていの鳥には名前がある。カッコウには決め台詞がある。澄んだ二つの音はまず聞き間違えようがなく、語が必要になった人々はその音を書き取るだけでよかった。英語名も属名もここから来ている。だからこの語の地図は珍しい。鳥の分布域に広がる519のセルの多くが、だいたい同じ音を出している。みな同じ出典を引用しているからだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"cuckoo\" data-code=\"en\">🗺️ 地図でカッコウを表示</button></div><h3>声をそろえるヨーロッパ</h3><p>ヨーロッパは声をそろえている。英語の<strong>cuckoo</strong>は古フランス語<em>cucu</em>から来ていて、英語の最古の記録は1240年ごろの歌<em>Sumer Is Icumen In</em>である。フランス語<strong>coucou</strong>、ドイツ語<strong>Kuckuck</strong>、スペイン語<strong>cuco</strong>、イタリア語<strong>cuculo</strong>、ロシア語<strong>кукушка</strong>がこの仲間で、ウィクショナリーはドイツ語と英語の語をもとは擬音としている。トルコ語<strong>guguk</strong>は語頭を柔らかくした。互いに借りなくても同じ語にたどり着けただろう。5月の森に立てば誰でも書き取れるのだから。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,fr,de,es,it,ru,tr\" data-word=\"cuckoo\">🗣 ヨーロッパを比べる</button></div><p>アジアは同じ二音を聞いて、賢いことをした。日本語の<strong>カッコウ</strong>は素直な写しで、朝鮮語<strong>뻐꾸기</strong>はkの代わりに硬い音で始まる。地図でいちばんの工夫は中国語<strong>布谷鸟</strong>だ。二音節は鳴き声を写しているが、字の意味は「穀物をまく」である。種まきの時期に聞こえ、その声が農作業の始まりを告げるからだ。中国は音を指示に変えたのである。アラビア語<strong>وَقْوَاق</strong>とスワヒリ語<strong>kekeo</strong>にも、それぞれの二拍がある。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ko,ja,zh,ar,sw\" data-word=\"cuckoo\">🗣 アジアとアフリカを比べる</button></div><h3>穀物をまく</h3><p>別のことをしている行が二つある。フィンランド語<strong>käki</strong>は鳴き声の写しには見えない。バルト語からの古い借用か、それ自体が擬音かのどちらかで、サーミ語に親戚がある。ゲルマン語の古い語もこれに似ていて、スコットランドの<em>gowk</em>「ばか者」に残り、古ノルド語<em>gaukr</em>から来ている。ヒンディー語<strong>कोयल</strong>は仲間に見えるが、鳥が違う。インド亜大陸に広くいるカッコウ科のオニカッコウである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,hi\" data-word=\"cuckoo\">🗣 フィンランド語とヒンディー語を比べる</button></div><h3>口の悪い話</h3><p>人々はこの鳥について口が悪かった。カッコウは托卵をする鳥で、ヨーロッパカヤクグリ、マキバタヒバリ、ヨシキリの類の巣に卵を産む。英語の<em>cuckold</em>（妻を寝取られた男）はここから来ていて、古フランス語<em>cucuault</em>、つまり<em>cucu</em>からできている。だまされるのはほかの鳥なのだから理屈は妙だ。スコットランドの<em>gowk</em>はばか者である。日本語の古い名の閑古鳥は1603年の日葡辞書から記録があり、客のいない店では「閑古鳥が鳴く」と言う。</p><p>地図の範囲はこの鳥についていく。この語は資料のある形だけを載せていて、カッコウの分布がユーラシアとアフリカなので、南北アメリカや太平洋の遠い島ではセルがわざと少なくなっている。珍しいことに、歌い手のいないところで止まる音の地図なのである。</p>"
+    },
+    "sources": [
+      {
+        "text": "\"Common cuckoo\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Common_cuckoo"
+      },
+      {
+        "text": "\"Asian koel\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Asian_koel"
+      },
+      {
+        "text": "\"cuckoo\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/cuckoo"
+      },
+      {
+        "text": "\"cuckold\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/cuckold"
+      },
+      {
+        "text": "\"Kuckuck\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Kuckuck"
+      },
+      {
+        "text": "\"gowk\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/gowk"
+      },
+      {
+        "text": "\"布穀\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/布穀"
+      },
+      {
+        "text": "\"閑古鳥\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/閑古鳥"
+      },
+      {
+        "text": "\"käki\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/käki"
+      }
+    ]
   }
 ];
 

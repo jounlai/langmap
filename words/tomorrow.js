@@ -923,6 +923,11 @@ WORDS.tomorrow = {
     lis: "plain",
     ii: "plain",
     khb: "plain",
+    roo: "plain",
+    jiu: "plain",
+    pmi: "plain",
+    nuf: "plain",
+    qxs: "plain",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -1790,5 +1795,10 @@ WORDS.tomorrow = {
     lis: ["sha-gu", "ʃɑ˥˥ɡɯ˧˧"],  // Sun 1991 (Lisu) ʃɑ⁵⁵gɯ³³. Sagart's Lisu agrees. Row matches Sun's Lisu 30 of 61. Latin spelling is derived, after the row.
     ii: ["ꃆꏂꑍ", "mu˨˩ʂɿ˧˧ɲi˨˩"],  // Sun 1991 (Xide Yi) m̩²¹ʂɿ³³ȵi²¹. Yi syllables chosen by me from Unicode names, using the sound-to-syllable pairs in the row (m̩ = MU, he = HXIE, 44 = X, 21 = P); no Yi-script source. Check font and spelling.
     khb: ["ᦞᧃᦘᦳᧅ", "van˥˩ pʰuk˧"],  // IDS 407 (Peiros, Tai Lü), the row's source: van.2 phuk.8.  Tone numbers converted by the row's own pairs (1 ˥, 2 ˥˩, 3 ˩˧, 4 ˩, 5 ˧˥, 6 ˧, 7 ˧˥, 8 ˧, 9 ˧˥). New Tai Lue spelling is derived; the source is Latin.
+    roo: ["vokipavira", "βokipaβiɾa"],  // English index "tomorrow temp. vokipavira"
+    jiu: ["mi33ɕɔ33ni33", "mi˧˧ɕɔ˧˧ni˧˧"],  // Sun 1991 (Jinuo) mi³³ɕɔ³³ni³³. Surface and tone letters follow the row's pattern.
+    pmi: ["sẽ35bo55", "sẽ˧˥bo˥˥"],  // Sun 1991 (Taoba Pumi) sẽ³⁵bo⁵⁵. Surface and tone letters follow the row's pattern.
+    nuf: ["ʔnɑ35bɑ35", "ʔnɑ˧˥bɑ˧˥"],  // Sun 1991 (Bijiang Nusu) ʔnɑ³⁵bɑ³⁵. Surface and tone letters follow the row's pattern.
+    qxs: ["təpə", "tə˧˩pə˧˧"],  // Sun 1991 (Taoping Qiang) tə³¹pə³³. Surface and tone letters follow the row's pattern.
   },
 };

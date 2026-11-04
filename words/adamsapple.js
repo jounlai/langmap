@@ -296,6 +296,7 @@ WORDS.adamsapple = {
     ja_edo: "buddha",
     rar: "plain",
     fj: "other",
+    ch: "plain",
   },
   routes: {
     adam: {"color":"#dc2626","emoji":"🍏","en":"Adam's apple","ja":"アダムのりんご","ko":"아담의 사과","zh":"亚当的苹果","yue":"亞當嘅蘋果","vi":"táo của Adam","th":"แอปเปิลของอาดัม","id":"apel Adam","hi":"आदम का सेब","de":"Adams Apfel","fr":"pomme d'Adam","it":"pomo d'Adamo","es":"fruto de Adán","pt":"maçã de Adão","ru":"яблоко Адама","uk":"яблуко Адама","ar":"تفاحة آدم","he":"תפוח אדם","sw":"tufaha la Adamu"},
@@ -536,5 +537,6 @@ WORDS.adamsapple = {
     ja_edo: ["喉仏", "nodobotoke"],  // 志都の岩屋講本 (1811) のど仏, as quoted in 日本国語大辞典.
     rar: ["puku karaponga", "puku kaɾapoŋa"],  // Savage: puku-karaponga Adam's apple
     fj: ["itagitagi", "itaŋitaŋi"],  // Hazlewood "Adam's Apple, ai tagitagi"; ai > i as in row ivola; tagi = cry
+    ch: ["guegmon", "ɡweɡmon"],  // 1918 "guegmon, n.: larynx; Adam's apple"
   },
 };

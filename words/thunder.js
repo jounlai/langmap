@@ -783,6 +783,11 @@ WORDS.thunder = {
     lhu: "plain",
     ii: "plain",
     bca: "plain",
+    jiu: "plain",
+    pmi: "plain",
+    nuf: "plain",
+    qxs: "plain",
+    cng: "plain",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1512,5 +1517,10 @@ WORDS.thunder = {
     lhu: ["mû-tɔ̀", "mûtɔ̀"],  // Sun 1991 (Black Lahu) mu⁵³tɔ³¹. Tone marks converted using the row's own pairs (53 ^, 31 grave, 35 acute, 21 grave with glottal, 11 macron). Spelling is derived.
     ii: ["ꃅꊭ", "mu˧˧tsɿ̠˧˧"],  // Sun 1991 (Xide Yi) m̩³³tsɿ̄³³. Yi syllables chosen by me from Unicode names, using the sound-to-syllable pairs in the row (m̩ = MU, he = HXIE, 44 = X, 21 = P); no Yi-script source. Check font and spelling.
     bca: ["xĩmɛ", "xĩ˥˥mɛ˨˩"],  // Sun 1991 (Jianchuan Bai) xĩ⁵⁵mɛ²¹. Wang's Zhoucheng has xe55mɛ21. Row mixes Wang's Zhoucheng and Sun's Jianchuan. Surface follows the row: IPA without tones.
+    jiu: ["tshɯ44na42tɯ33", "tsʰɯ˦˦na˦˨tɯ˧˧"],  // Sun 1991 (Jinuo) tshɯ⁴⁴na⁴²tɯ³³. Surface and tone letters follow the row's pattern.
+    pmi: ["mə35ruẽ53", "mə˧˥ruẽ˥˧"],  // Sun 1991 (Taoba Pumi) mə³⁵ruẽ⁵³. Surface and tone letters follow the row's pattern.
+    nuf: ["mɯ31gɹɯ55", "mɯ˧˩ɡɹɯ˥˥"],  // Sun 1991 (Bijiang Nusu) mɯ³¹gɹɯ⁵⁵. Surface and tone letters follow the row's pattern.
+    qxs: ["məgo", "mə˥˥ɡo˧˧"],  // Sun 1991 (Taoping Qiang) mə⁵⁵go³³. Surface and tone letters follow the row's pattern.
+    cng: ["mərgu", "mərɡu"],  // Sun 1991 (Mawo Qiang) mərgu. Surface and tone letters follow the row's pattern.
   },
 };

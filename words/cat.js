@@ -336,7 +336,7 @@ WORDS.cat = {
     blr: ["mɛl33", "mɛl˧˧"],
     srh: ["—", "—"],
     rbb: ["—", "—"],
-    swi: ["—", "—"],
+    swi: ["meu4", "meu˥˩"],
     lic: ["mi:u2", "miːu˥˥"],
     kmc: ["meu31", "meu˧˩"],
     gqu: ["—", "—"],

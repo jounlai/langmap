@@ -550,6 +550,12 @@ WORDS.potato = {
     lis: "unknown",
     lhu: "other",
     bca: "other",
+    jiu: "other",
+    pmi: "other",
+    nuf: "other",
+    qxs: "other",
+    cng: "other",
+    kac: "other",
   },
   routes: {
     papa: {"color":"#ca8a04","emoji":"🏔️","en":"Quechua papa · Taíno batata","ja":"ケチュア語 papa・タイノ語 batata","ko":"케추아어 papa · 타이노어 batata","zh":"克丘亚语 papa・泰诺语 batata","yue":"克丘亞語 papa · 泰諾語 batata","vi":"Quechua papa · Taíno batata","th":"เกชัว papa · ไตโน batata","id":"Quechua papa · Taíno batata","hi":"क्वेचुआ papa · ताइनो batata","de":"Quechua papa · Taíno batata","fr":"quechua papa · taïno batata","it":"quechua papa · taíno batata","es":"quechua papa · taíno batata","pt":"quíchua papa · taíno batata","ru":"кечуа papa · таино batata","uk":"кечуа papa · таїно batata","ar":"كيتشوا papa · تاينو batata","he":"קצ'ואה papa · טאינו batata","sw":"Kiquechua papa · Kitaino batata"},
@@ -1041,5 +1047,11 @@ WORDS.potato = {
     lis: ["hu-bi", "xɯ˧˩bi˦˩"],  // Sun 1991 (Lisu) xɯ³¹bi⁴¹. Row matches Sun's Lisu 30 of 61. Latin spelling is derived, after the row.
     lhu: ["yàʼ-yí-šɨ̄", "jàʔjíʃɯ̏"],  // Sun 1991 (Black Lahu) zᴀ²¹zi³⁵si¹¹. Looks like a loan of 洋芋 plus 'fruit'; a reading. Tone marks converted using the row's own pairs (53 ^, 31 grave, 35 acute, 21 grave with glottal, 11 macron). Spelling is derived.
     bca: ["jaji", "ja˦˨ji˥˥"],  // Sun 1991 (Jianchuan Bai) jɑ⁴²ji⁵⁵. Looks like a loan of 洋芋; a reading. Row mixes Wang's Zhoucheng and Sun's Jianchuan. Surface follows the row: IPA without tones.
+    jiu: ["jɑ42ji55", "jɑ˦˨ji˥˥"],  // Sun 1991 (Jinuo) jɑ⁴²ji⁵⁵. Resembles Chinese 洋芋. Surface and tone letters follow the row's pattern.
+    pmi: ["jã35y35", "jã˧˥y˧˥"],  // Sun 1991 (Taoba Pumi) jã³⁵y³⁵. Resembles Chinese 洋芋. Surface and tone letters follow the row's pattern.
+    nuf: ["iɑ31ʔui35", "iɑ˧˩ʔui˧˥"],  // Sun 1991 (Bijiang Nusu) iɑ³¹ʔui³⁵. Resembles Chinese 洋芋. Surface and tone letters follow the row's pattern.
+    qxs: ["iɑŋy", "iɑŋ˧˩y˥˥"],  // Sun 1991 (Taoping Qiang) iɑŋ³¹y⁵⁵. Resembles Chinese 洋芋. Surface and tone letters follow the row's pattern.
+    cng: ["jajuŋ", "jajuŋ"],  // Sun 1991 (Mawo Qiang) jajuŋ. Resembles Chinese 洋芋. Surface and tone letters follow the row's pattern.
+    kac: ["yangyi", "jaŋ˧˩ji˥˥"],  // Sun 1991 (Jingpho) jaŋ³¹ji⁵⁵. Resembles Chinese 洋芋. Latin spelling follows the row's pairs.
   },
 };

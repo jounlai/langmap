@@ -671,6 +671,12 @@ WORDS.bat = {
     lhu: "plain",
     ii: "plain",
     khb: "plain",
+    bzh: "plain",
+    roo: "plain",
+    jiu: "plain",
+    pmi: "plain",
+    nuf: "plain",
+    qxs: "plain",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1287,5 +1293,11 @@ WORDS.bat = {
     lhu: ["pò-ngá", "pòŋá"],  // Sun 1991 (Black Lahu) po³¹ŋᴀ³⁵. Tone marks converted using the row's own pairs (53 ^, 31 grave, 35 acute, 21 grave with glottal, 11 macron). Spelling is derived.
     ii: ["ꉌꇑ", "hɛ˧˧lu˨˩"],  // Sun 1991 (Xide Yi) he³³l̩²¹. Yi syllables chosen by me from Unicode names, using the sound-to-syllable pairs in the row (m̩ = MU, he = HXIE, 44 = X, 21 = P); no Yi-script source. Check font and spelling.
     khb: ["ᦀᦲᦢᦹᧂᧈ", "ʔiː˥ bɯŋ˧˥"],  // IDS 407 (Peiros, Tai Lü), the row's source: ʔi.1 bɨŋ.5.  Tone numbers converted by the row's own pairs (1 ˥, 2 ˥˩, 3 ˩˧, 4 ˩, 5 ˧˥, 6 ˧, 7 ˧˥, 8 ˧, 9 ˧˥). New Tai Lue spelling is derived; the source is Latin.
+    bzh: ["malibeḳ", "mal̪iᵐbəq"],  // "malibek noun fruit bat, flying fox"; IPA from its bracket, k = q respelled ḳ
+    roo: ["aatu", "aːtu"],  // "aatu nCF. bat, flying fox, fruit bat"
+    jiu: ["pɛ42tɕhi55", "pɛ˦˨tɕʰi˥˥"],  // Sun 1991 (Jinuo) pɛ⁴²tɕhi⁵⁵. Surface and tone letters follow the row's pattern.
+    pmi: ["ɕõ35gue55pa55pa55", "ɕõ˧˥ɡue˥˥pa˥˥pa˥˥"],  // Sun 1991 (Taoba Pumi) ɕõ³⁵gue⁵⁵pa⁵⁵pa⁵⁵. Surface and tone letters follow the row's pattern.
+    nuf: ["tɕhyi31zɑ53", "tɕʰyi˧˩zɑ˥˧"],  // Sun 1991 (Bijiang Nusu) tɕhyi³¹zɑ⁵³. Surface and tone letters follow the row's pattern.
+    qxs: ["tshɿχkəmə", "tsʰɿ˥˥χkə˧˧mə˧˧"],  // Sun 1991 (Taoping Qiang) tshɿ⁵⁵χkə³³mə³³. Surface and tone letters follow the row's pattern.
   },
 };

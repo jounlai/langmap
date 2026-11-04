@@ -697,6 +697,13 @@ WORDS.grandmother = {
     nxq: "unknown",
     lis: "unknown",
     khb: "one",
+    roo: "split",
+    acn: "unknown",
+    jiu: "unknown",
+    pmi: "unknown",
+    nuf: "unknown",
+    qxs: "unknown",
+    cng: "unknown",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -1338,5 +1345,12 @@ WORDS.grandmother = {
     nxq: ["eqzzeeq", "ə˨˩dzɯ˨˩"],  // Sun 1991 (Lijiang Naxi) ə³¹dzɯ³¹. The dataset also has a garbled second form, so side is unknown. Row is Sun's Lijiang (36 of 65 match, rest notation). Naxi spelling is derived; the source is IPA.
     lis: ["a-zhe", "ɑ˥˥ʒɛ˧˩"],  // Sun 1991 (Lisu) ɑ⁵⁵ʒɛ³¹. Row matches Sun's Lisu 30 of 61. Latin spelling is derived, after the row.
     khb: ["ᦀᦲᦍᦱᧈ", "ʔiː˥ jaː˧"],  // IDS 407 (Peiros, Tai Lü), the row's source: ʔi.1 ja:.6.  Tone numbers converted by the row's own pairs (1 ˥, 2 ˥˩, 3 ˩˧, 4 ˩, 5 ˧˥, 6 ˧, 7 ˧˥, 8 ˧, 9 ˧˥). New Tai Lue spelling is derived; the source is Latin.
+    roo: ["aavuva / taataaiva", "aːβuβa / taːtaːiβa"],  // "aavuva grandmother (FaMo)"; "taataaiva grandmother (MoMo)"
+    acn: ["tɕhiŋ55", "tɕʰiŋ˥˥"],  // Sun 1991 (Achang) tɕhiŋ⁵⁵. The list has a second form, ʑa³¹; which side each names is not stated. Surface and tone letters follow the row's pattern.
+    jiu: ["a33phi33", "a˧˧pʰi˧˧"],  // Sun 1991 (Jinuo) a³³phi³³. Surface and tone letters follow the row's pattern.
+    pmi: ["a55de55", "a˥˥de˥˥"],  // Sun 1991 (Taoba Pumi) a⁵⁵de⁵⁵. Surface and tone letters follow the row's pattern.
+    nuf: ["iɑ55iɑ31", "iɑ˥˥iɑ˧˩"],  // Sun 1991 (Bijiang Nusu) iɑ⁵⁵iɑ³¹. Surface and tone letters follow the row's pattern.
+    qxs: ["lailai", "lai˥˥lai˧˧"],  // Sun 1991 (Taoping Qiang) lai⁵⁵lai³³. Surface and tone letters follow the row's pattern.
+    cng: ["əu", "əu"],  // Sun 1991 (Mawo Qiang) əu. Surface and tone letters follow the row's pattern.
   },
 };

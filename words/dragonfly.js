@@ -369,6 +369,10 @@ WORDS.dragonfly = {
     lis: "plain",
     lhu: "plain",
     bca: "plain",
+    gil: "plain",
+    pmi: "plain",
+    qxs: "plain",
+    kac: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -683,5 +687,9 @@ WORDS.dragonfly = {
     lis: ["che-wo", "tʃʰɛ˦˩ɣo˦˩"],  // Sun 1991 (Lisu) tʃhɛ⁴¹ɣo⁴¹. Row matches Sun's Lisu 30 of 61. Latin spelling is derived, after the row.
     lhu: ["pā-pā-kú-ti-ni", "pȁpȁkútini"],  // Sun 1991 (Black Lahu) pᴀ¹¹pᴀ¹¹ku³⁵ti³³ni³³. Tone marks converted using the row's own pairs (53 ^, 31 grave, 35 acute, 21 grave with glottal, 11 macron). Spelling is derived.
     bca: ["tɕikoloɣopiɕo", "tɕi˥˥ko˥˥lo˥˥ɣo˨˩pi˨˩ɕo˨˩"],  // Sun 1991 (Jianchuan Bai) tɕi⁵⁵ko⁵⁵lo⁵⁵ɣo²¹pi²¹ɕo²¹. Row mixes Wang's Zhoucheng and Sun's Jianchuan. Surface follows the row: IPA without tones.
+    gil: ["keketi", "kekesi"],  // Bingham "Keketi, n. a dragon-fly"; also Kanebu
+    pmi: ["tɕɨ53gua55tso35tso35", "tɕɨ˥˧ɡua˥˥tso˧˥tso˧˥"],  // Sun 1991 (Taoba Pumi) tɕɨ⁵³gua⁵⁵tso³⁵tso³⁵. Surface and tone letters follow the row's pattern.
+    qxs: ["tshinthin", "tsʰin˥˥tʰin˧˩"],  // Sun 1991 (Taoping Qiang) tshin⁵⁵thin³¹. Surface and tone letters follow the row's pattern.
+    kac: ["hka nsen", "kʰaʔ˧˩n̩˧˩sen˧˩"],  // Sun 1991 (Jingpho) khaʔ³¹n³¹sen³¹. Latin spelling follows the row's pairs; the source is IPA.
   },
 };

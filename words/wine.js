@@ -986,6 +986,12 @@ WORDS.wine = {
     ii: "other",
     bca: "other",
     khb: "other",
+    acn: "other",
+    jiu: "other",
+    pmi: "other",
+    nuf: "other",
+    qxs: "other",
+    cng: "other",
   },
   routes: {
     ie: { color: "#7c2d12", emoji: "🏺", en: "Indo-European *wóyh₁nom", ja: "印欧祖語 *wóyh₁nom", ko: "인도유럽조어 *wóyh₁nom", zh: "原始印欧语 *wóyh₁nom", yue: "原始印歐語 *wóyh₁nom", vi: "Ấn-Âu nguyên thủy *wóyh₁nom", th: "อินโด-ยูโรเปียนดั้งเดิม *wóyh₁nom", id: "Proto-Indo-Eropa *wóyh₁nom", hi: "आद्य-भारोपीय *wóyh₁nom", de: "Urindogermanisch *wóyh₁nom", fr: "indo-européen commun *wóyh₁nom", it: "protoindoeuropeo *wóyh₁nom", es: "protoindoeuropeo *wóyh₁nom", pt: "protoindo-europeu *wóyh₁nom", ru: "праиндоевроп. *wóyh₁nom", uk: "праіндоєвроп. *wóyh₁nom", ar: "الهندية الأوروبية الأم *wóyh₁nom", he: "הודו-אירופית קדומה *wóyh₁nom", sw: "Kihindi-Ulaya cha kale *wóyh₁nom" },
@@ -2001,5 +2007,11 @@ WORDS.wine = {
     ii: ["ꎧ", "ndʐɿ˧˧"],  // Sun 1991 (Xide Yi) ndʐɿ³³. NOTE: gloss liquor, not grape wine. Yi syllables chosen by me from Unicode names, using the sound-to-syllable pairs in the row (m̩ = MU, he = HXIE, 44 = X, 21 = P); no Yi-script source. Check font and spelling.
     bca: ["tsɤ̃", "tsɤ̃˧˧"],  // Sun 1991 (Jianchuan Bai) tsṽ³³. NOTE: gloss liquor, not grape wine. Row mixes Wang's Zhoucheng and Sun's Jianchuan. Surface follows the row: IPA without tones.
     khb: ["ᦜᧁᧉᦘᦴᧉᦒᦱᧁᧈᦋᦲᧁ", "law˩˧ pʰuː˩ tʰaːw˧ tsiw˥˩"],  // IDS 407 (Peiros, Tai Lü), the row's source: lau.3 phu:.4 tha:u.6 ciu.2. Glossed 'wine'; lau is liquor, the rest looks like 葡萄酒 (a reading). Tone numbers converted by the row's own pairs (1 ˥, 2 ˥˩, 3 ˩˧, 4 ˩, 5 ˧˥, 6 ˧, 7 ˧˥, 8 ˧, 9 ˧˥). New Tai Lue spelling is derived; the source is Latin.
+    acn: ["tsi55", "tsi˥˥"],  // Sun 1991 (Achang) tsi⁵⁵. Gloss 'liquor', not grape wine. Surface and tone letters follow the row's pattern.
+    jiu: ["tɕɛ42pʰɯ33", "tɕɛ˦˨pʰɯ˧˧"],  // Sun 1991 (Jinuo) tɕɛ⁴²pʰɯ³³. Gloss 'liquor', not grape wine. Surface and tone letters follow the row's pattern.
+    pmi: ["tɕɛ55tɕhi35", "tɕɛ˥˥tɕʰi˧˥"],  // Sun 1991 (Taoba Pumi) tɕɛ⁵⁵tɕhi³⁵. Gloss 'liquor', not grape wine. Surface and tone letters follow the row's pattern.
+    nuf: ["ʐi55", "ʐi˥˥"],  // Sun 1991 (Bijiang Nusu) ʐi⁵⁵. Gloss 'liquor', not grape wine. Surface and tone letters follow the row's pattern.
+    qxs: ["tɕha", "tɕʰa˥˥"],  // Sun 1991 (Taoping Qiang) tɕha⁵⁵. Gloss 'liquor', not grape wine. Surface and tone letters follow the row's pattern.
+    cng: ["ɕi", "ɕi"],  // Sun 1991 (Mawo Qiang) ɕi. Gloss 'liquor', not grape wine. Surface and tone letters follow the row's pattern.
   },
 };

@@ -767,6 +767,10 @@ WORDS.olderbrother = {
     lhu: "age",
     ii: "age",
     bca: "age",
+    pmi: "age",
+    nuf: "age",
+    qxs: "age",
+    cng: "age",
   },
   routes: {
     age: {"color":"#db2777","emoji":"👆","en":"a word just for an older brother","ja":"兄だけを指す語","ko":"형만 가리키는 낱말","zh":"专指哥哥的词","yue":"專指哥哥嘅詞","vi":"từ riêng cho anh","th":"คำเฉพาะสำหรับพี่ชาย","id":"kata khusus untuk kakak","hi":"बड़े भाई का अलग शब्द","de":"eigenes Wort für den älteren Bruder","fr":"un mot propre au frère aîné","it":"una parola solo per il fratello maggiore","es":"una palabra solo para el hermano mayor","pt":"uma palavra só para o irmão mais velho","ru":"отдельное слово для старшего брата","uk":"окреме слово для старшого брата","ar":"كلمة خاصة بالأخ الأكبر","he":"מילה מיוחדת לאח הגדול","sw":"neno maalum kwa kaka mkubwa"},
@@ -1475,5 +1479,9 @@ WORDS.olderbrother = {
     lhu: ["ɔ-ví-pā", "ɔvípȁ"],  // Sun 1991 (Black Lahu) ɔ³³vi³⁵pᴀ¹¹. Tone marks converted using the row's own pairs (53 ^, 31 grave, 35 acute, 21 grave with glottal, 11 macron). Spelling is derived.
     ii: ["ꃺꃶ", "vɿ˥vu˧˧"],  // Sun 1991 (Xide Yi) vɿ⁵⁵vu³³. Yi syllables chosen by me from Unicode names, using the sound-to-syllable pairs in the row (m̩ = MU, he = HXIE, 44 = X, 21 = P); no Yi-script source. Check font and spelling.
     bca: ["ako", "a˧˩ko˧˧"],  // Sun 1991 (Jianchuan Bai) ɑ³¹ko³³. Row mixes Wang's Zhoucheng and Sun's Jianchuan. Surface follows the row: IPA without tones.
+    pmi: ["pe35pe55", "pe˧˥pe˥˥"],  // Sun 1991 (Taoba Pumi) pe³⁵pe⁵⁵. Surface and tone letters follow the row's pattern.
+    nuf: ["iɑ55dɛ31", "iɑ˥˥dɛ˧˩"],  // Sun 1991 (Bijiang Nusu) iɑ⁵⁵dɛ³¹. Surface and tone letters follow the row's pattern.
+    qxs: ["tubʐɑ", "tu˥˥bʐɑ˧˩"],  // Sun 1991 (Taoping Qiang) tu⁵⁵bʐɑ³¹. Surface and tone letters follow the row's pattern.
+    cng: ["təbaʴ", "təbaʴ"],  // Sun 1991 (Mawo Qiang) təbaʴ. Surface and tone letters follow the row's pattern.
   },
 };

@@ -896,6 +896,8 @@ WORDS.sugar = {
     lis: "other",
     lhu: "other",
     ii: "other",
+    jiu: "other",
+    cng: "other",
   },
   routes: {
     sharkara: { color: "#b45309", emoji: "💎", en: "from Sanskrit śarkarā", ja: "サンスクリット śarkarā 由来", ko: "산스크리트 śarkarā 유래", zh: "源自梵语 śarkarā", yue: "源自梵文 śarkarā", vi: "từ tiếng Phạn śarkarā", th: "จากภาษาสันสกฤต śarkarā", id: "dari bahasa Sanskerta śarkarā", hi: "संस्कृत शर्करा से", de: "vom Sanskrit śarkarā", fr: "du sanskrit śarkarā", it: "dal sanscrito śarkarā", es: "del sánscrito śarkarā", pt: "do sânscrito śarkarā", ru: "от санскр. śarkarā", uk: "від санскр. śarkarā", ar: "من السنسكريتية śarkarā", he: "מסנסקריט śarkarā", sw: "kutoka Kisanskriti śarkarā" },
@@ -1711,5 +1713,7 @@ WORDS.sugar = {
     lis: ["shua-bie", "ʃuɑ˦˦biɛ˧˩"],  // Sun 1991 (Lisu) ʃuɑ⁴⁴biɛ³¹. Row matches Sun's Lisu 30 of 61. Latin spelling is derived, after the row.
     lhu: ["nàʼ-wài", "nàʔwàì"],  // Sun 1991 (Black Lahu) nᴀ²¹uᴀi³¹. Tone marks converted using the row's own pairs (53 ^, 31 grave, 35 acute, 21 grave with glottal, 11 macron). Spelling is derived.
     ii: ["ꎬꐚ", "ʂa˧˦dʑi˧˧"],  // Sun 1991 (Xide Yi) ʂa⁴⁴dʑi³³. Second syllable as in the row's honey. Yi syllables chosen by me from Unicode names, using the sound-to-syllable pairs in the row (m̩ = MU, he = HXIE, 44 = X, 21 = P); no Yi-script source. Check font and spelling.
+    jiu: ["ʃɯ33thɐr33", "ʃɯ˧˧tʰɐr˧˧"],  // Sun 1991 (Jinuo) ʃɯ³³thɐr³³. Final r as printed in the dataset. Surface and tone letters follow the row's pattern.
+    cng: ["buː", "buː"],  // Sun 1991 (Mawo Qiang) buː. Surface and tone letters follow the row's pattern.
   },
 };

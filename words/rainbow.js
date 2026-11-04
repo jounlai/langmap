@@ -777,6 +777,13 @@ WORDS.rainbow = {
     ii: "plain",
     bca: "plain",
     khb: "plain",
+    gil: "plain",
+    bzh: "plain",
+    roo: "plain",
+    pmi: "plain",
+    nuf: "plain",
+    qxs: "plain",
+    cng: "plain",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1497,5 +1504,12 @@ WORDS.rainbow = {
     ii: ["ꌋꌋ", "si˧˧si˧˧"],  // Sun 1991 (Xide Yi) si³³si³³. Yi syllables chosen by me from Unicode names, using the sound-to-syllable pairs in the row (m̩ = MU, he = HXIE, 44 = X, 21 = P); no Yi-script source. Check font and spelling.
     bca: ["kãkotɯ", "kã˥˥ko˦˦tɯ˨˩"],  // Sun 1991 (Jianchuan Bai) kɑ̃⁵⁵ko⁴⁴tɯ²¹. Row mixes Wang's Zhoucheng and Sun's Jianchuan. Surface follows the row: IPA without tones.
     khb: ["ᦣᦳᧂ", "huŋ˥˩"],  // IDS 407 (Peiros, Tai Lü), the row's source: huŋ.2.  Tone numbers converted by the row's own pairs (1 ˥, 2 ˥˩, 3 ˩˧, 4 ˩, 5 ˧˥, 6 ˧, 7 ˧˥, 8 ˧, 9 ˧˥). New Tai Lue spelling is derived; the source is Latin.
+    gil: ["tabaura", "tabaura"],  // Bingham "Tabaura, n. a rainbow"; same in both scans
+    bzh: ["marubggii", "maɾuᵐbɣiː"],  // "marubggii noun rainbow"
+    roo: ["govugovuto", "ɡoβuɡoβuto"],  // "govugovuto nCM. rainbow"
+    pmi: ["mɐ35kha35", "mɐ˧˥kʰa˧˥"],  // Sun 1991 (Taoba Pumi) mɐ³⁵kha³⁵. Surface and tone letters follow the row's pattern.
+    nuf: ["tshɑ̃31gɹi53ɑ31", "tsʰɑ̃˧˩ɡɹi˥˧ɑ˧˩"],  // Sun 1991 (Bijiang Nusu) tshɑ̃³¹gɹi⁵³ɑ³¹. Surface and tone letters follow the row's pattern.
+    qxs: ["χməqutsu", "χmə˥˥qu˧˩tsu˧˧"],  // Sun 1991 (Taoping Qiang) χmə⁵⁵qu³¹tsu³³. Surface and tone letters follow the row's pattern.
+    cng: ["muʁutsəthi", "muʁutsətʰi"],  // Sun 1991 (Mawo Qiang) muʁutsəthi. Surface and tone letters follow the row's pattern.
   },
 };

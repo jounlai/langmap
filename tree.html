@@ -418,6 +418,8 @@
 </script>
 
 <script src="wordmap_data.js?v=361"></script>
+<!-- Branches from Glottolog, compressed for display: tools/build_tree_paths.js. -->
+<script src="tree_paths.js?v=1"></script>
 <!-- The meta-i18n layer (engine + the current UI's slice only) is loaded
      dynamically below, next to the meta file — see loadMetaI18nForUi(). The old
      eager meta_i18n_ext + coverage{,2,3} tags pulled ~5 MB of ALL 22 UIs. -->
@@ -738,6 +740,228 @@ generates lang_names/<ui>.js from lang_names.js. -->
             'philosophical':'哲学系', 'artistic':'芸術系', 'logical':'論理系',
             'Disputed':'帰属不明', 'Tyrsenian':'チュルセニアン',
             'Pre-Hittite Anatolia':'ヒッタイト前アナトリア',
+            // Glottolog branch names used by tree_paths.js (2026-11-04)
+            'Greek':'ギリシャ語派', 'Armenian':'アルメニア語派',
+            'Arabic':'アラビア語群', 'Tamil-Kannada':'タミル・カンナダ語群', 'Lao-Thai':'ラオ・タイ語群',
+            'Yaunde-Fang (A.70)':'ヤウンデ・ファン語群（A.70）', 'Algonquian':'アルゴンキン語群', 'Bantu':'バントゥー語群',
+            'Mande':'マンデ語族', 'Italic':'イタリック語派', 'High German':'高地ドイツ語群', 'Low German':'低地ドイツ語群',
+            'Polynesian':'ポリネシア語群', 'Micronesian':'ミクロネシア語群', 'Malayo-Polynesian':'マレー・ポリネシア語派',
+            'Malayic':'マレー語群', 'Iroquoian':'イロコイ語族', 'Salishan':'セイリッシュ語族', 'Wakashan':'ワカシュ語族',
+            'Kru':'クル語群', 'Atlantic':'大西洋語群', 'Kwa':'クワ語群', 'Gbe':'グベ語群', 'Aramaic':'アラム語群',
+            'Kam-Sui':'カム・スイ語群', 'Munda':'ムンダ語群', 'Loloish':'ロロ語群', 'Lezgic':'レズギ語群',
+            'West Germanic':'西ゲルマン語群', 'North Germanic':'北ゲルマン語群', 'East Slavic':'東スラヴ語群',
+            'West Slavic':'西スラヴ語群', 'South Slavic':'南スラヴ語群', 'Goidelic':'ゴイデル語群', 'Brythonic':'ブリソン語群',
+            'Frisian':'フリジア語群', 'Anglo-Frisian':'アングロ・フリジア語群', 'Oghuz':'オグズ語群', 'Kipchak':'キプチャク語群',
+            'Karluk':'カルルク語群', 'Nakh':'ナフ語群', 'Inuit':'イヌイット語群', 'Shirongol':'シロンゴル語群',
+            'Western Nilotic':'西ナイル語群', 'Eastern Nilotic':'東ナイル語群', 'Manding':'マンデン語群',
+            'Central Philippine':'中部フィリピン語群', 'Greater Central Philippine':'広域中部フィリピン語群',
+            'South Sulawesi':'南スラウェシ語群', 'Visayan':'ビサヤ語群', 'Italo-Dalmatian':'イタロ・ダルマチア語群',
+            'Canaanite':'カナン語群', 'Northwest Semitic':'北西セム語群', 'Khoe-Kwadi':'コエ・クアディ語族',
+            'East Cushitic':'東クシ語群',
+            'Smaller families':'その他の語族',
+            'New Guinea and the Pacific':'ニューギニア・太平洋',
+            'Sepik':'セピック語族',
+            'Eastern Algonquian':'東アルゴンキン語群',
+            'Malayo-Chamic':'マレー・チャム語群',
+            'Central Semitic':'中央セム語群',
+            'Arabian Peninsula Arabic':'アラビア半島アラビア語',
+            'Aceh-Chamic':'アチェ・チャム語群',
+            'Creoles and pidgins':'クレオール・ピジン',
+            'French-based':'フランス語系',
+            'Lwoo':'ルオ語群',
+            'Burmo-Qiangic':'ビルマ・チャン語群',
+            'Lolo-Burmese':'ロロ・ビルマ語群',
+            'Southern Burmish':'南ビルマ語群',
+            'Bodic':'ボディック語群',
+            'Low Franconian':'低フランク語群',
+            'Benue-Congo':'ベヌエ・コンゴ語群',
+            'Southern Bantoid':'南バントイド語群',
+            'Northern Luzon':'北ルソン語群',
+            'Quichean-Mamean':'キチェ・マム語群',
+            'Greater Mamean':'マム語群',
+            'Daghestanian':'ダゲスタン語群',
+            'Samur':'サムール語群',
+            'Hani-Jino':'ハニ・ジノー語群',
+            'Eastern Aramaic':'東アラム語',
+            'Ainu':'アイヌ語族',
+            'Africa':'アフリカ',
+            'South Omotic':'南オモ語族',
+            'Central Tano':'中央タノ語群',
+            'Sumatran':'スマトラ語群',
+            'Central-Southern Batak':'中南部バタク語群',
+            'Pemongan':'ペモン語群',
+            'Ojibwa-Potawatomi':'オジブワ・ポタワトミ語群',
+            'Southeast Kipchak':'南東キプチャク語群',
+            'Ethiosemitic':'エチオピア・セム語群',
+            'South Ethiopic':'南エチオピア・セム語群',
+            'Southern Maipuran':'南マイプレ語群',
+            'East Formosan':'東台湾諸語',
+            'Western Romance':'西ロマンス語群',
+            'North Sea Germanic':'北海ゲルマン語群',
+            'Anglic':'英語群',
+            'Avar-Andic-Tsezic':'アヴァル・アンディ・ツェズ語群',
+            'Bihari':'ビハール語群',
+            'Magadhan':'マガダ語群',
+            'Na-Dene':'ナ・デネ語族',
+            'South America':'南アメリカ',
+            'Araucanian':'アラウカノ語族',
+            'North African Arabic':'北アフリカ・アラビア語',
+            'Eastern Indo-Aryan':'東インド・アーリア語群',
+            'West Ibero-Romance':'西イベロ・ロマンス語群',
+            'East Bantu':'東バントゥー語群',
+            'Northeast Savanna Bantu':'北東サバンナ・バントゥー語群',
+            'Northwest Kipchak':'北西キプチャク語群',
+            'English-based':'英語系',
+            'Northwestern Iranian':'北西イラン語群',
+            'Upper German':'上部ドイツ語群',
+            'Western Mande':'西マンデ語群',
+            'Balto-Slavic':'バルト・スラヴ語派',
+            'South Dravidian':'南ドラヴィダ語群',
+            'South Dravidian I':'南ドラヴィダ語群 I',
+            'Eastern South Slavic':'東南スラヴ語群',
+            'Central Indo-Aryan':'中央インド・アーリア語群',
+            'Western Hindi':'西ヒンディー語群',
+            'Gujarati-Rajasthani':'グジャラート・ラージャスターン語群',
+            'Rajasthani':'ラージャスターン語群',
+            'Edoid':'エド語群',
+            'Karenic':'カレン語群',
+            'Peripheral Karen':'周辺カレン語群',
+            'Khasi-Palaung':'カシ・パラウン語群',
+            'Palaungic':'パラウン語群',
+            'Waic':'ワ語群',
+            'Manding-Kpelle':'マンデン・クペレ語群',
+            'Central Mande':'中央マンデ語群',
+            'Manding-Vai':'マンデン・ヴァイ語群',
+            'Central Tibetan':'中央チベット語群',
+            'Bororoan':'ボロロ語族',
+            'Southwestern Iranian':'南西イラン語群',
+            'Brahmaputran':'ブラマプトラ語群',
+            'Western South Slavic':'西南スラヴ語群',
+            'Khalkha-Buriat':'ハルハ・ブリヤート語群',
+            'Isthmic Chibchan':'地峡チブチャ語群',
+            'Oceanic':'オセアニア語群',
+            'Western Oceanic':'西オセアニア語群',
+            'Mataguayan':'マタコ語族',
+            'Greater Quichean':'キチェ語群',
+            'Northern Iroquoian':'北イロコイ語群',
+            'Iroquois':'イロコイ五部族語群',
+            'Spanish-based':'スペイン語系',
+            'Coastal Min':'沿岸閩語',
+            'Western Mayan':'西マヤ語群',
+            'Cholan-Tzeltalan':'チョル・ツェルタル語群',
+            'Cholan':'チョル語群',
+            'Central Micronesian':'中央ミクロネシア語群',
+            'Western Micronesian':'西ミクロネシア語群',
+            'Muskogean':'マスコギ語族',
+            'Cham':'チャム語群',
+            'Sayan-Yenisei Turkic':'サヤン・エニセイ・チュルク語群',
+            'Mandarin and Jin':'官話・晋語',
+            'Kurdish':'クルド語群',
+            'Mongolian':'モンゴル語群',
+            'Na-Qiangic':'ナシ・チャン語群',
+            'Qiangic':'チャン語群',
+            'Kuki-Chin-Naga':'クキ・チン・ナガ語群',
+            'Italian Romance':'イタリア・ロマンス語群',
+            'Northern Uto-Aztecan':'北ユト・アステカ語群',
+            'West Kipchak':'西キプチャク語群',
+            'Southern Uto-Aztecan':'南ユト・アステカ語群',
+            'Corachol-Aztecan':'コラ・アステカ語群',
+            'Lechitic':'レヒト語群',
+            'North Volta-Congo':'北ヴォルタ・コンゴ語群',
+            'Central Gur':'中央グル語群',
+            'Mississippi Valley':'ミシシッピ渓谷スー語群',
+            'Biu-Mandara':'ビウ・マンダラ語群',
+            'Tsezic':'ツェズ語群',
+            'Dogon':'ドゴン語族',
+            'Eastern Dardic':'東ダルド語群',
+            'Himachali':'ヒマーチャル語群',
+            'Northern Indo-Aryan':'北インド・アーリア語群',
+            'Cameroun-Ubangian':'カメルーン・ウバンギ語群',
+            'Gallo-Italian':'ガロ・イタリア語群',
+            'Igboid':'イボ語群',
+            'Chocoan':'チョコ語族',
+            'Castilic':'カスティーリャ語群',
+            'Eskimo':'エスキモー語群',
+            'Northeastern Tungusic':'北東ツングース語群',
+            'Northern Tungusic':'北ツングース語群',
+            'Persian':'ペルシア語群',
+            'Galician Romance':'ガリシア・ロマンス語群',
+            'Nubian':'ヌビア語族',
+            'Central Pacific':'中央太平洋語群',
+            'West Scandinavian':'西スカンディナヴィア語群',
+            'Gallo-Rhaetian':'ガロ・レト語群',
+            'Oïl':'オイル語群',
+            'Furan':'フル語族',
+            'West Oghuz':'西オグズ語群',
+            'South Dravidian II':'南ドラヴィダ語群 II',
+            'Yanomamic':'ヤノマミ語族',
+            'North America':'北アメリカ',
+            'Haida':'ハイダ語',
+            'East Polynesian':'東ポリネシア語群',
+            'Central-Western Bantu':'中西部バントゥー語群',
+            'Njila':'ンジラ語群',
+            'Hindustani':'ヒンドゥスターニー語',
+            'Sindhi-Lahnda':'シンド・ラフンダ語群',
+            'Greater Panjabic':'パンジャーブ語群',
+            'Kherwarian':'ケルワリ語群',
+            'Huavean':'ウアベ語族',
+            'Standard Malay-Indonesian':'マレー語・インドネシア語',
+            'Manchu-Jurchen':'満洲・女真語群',
+            'Nadahup':'ナダフプ語族',
+            'Georgian-Zan':'ジョージア・ザン語群',
+            'South Kipchak':'南キプチャク語群',
+            'Portuguese-based':'ポルトガル語系',
+            'Eurasia':'ユーラシア',
+            'Macro-Jê':'マクロ・ジェ語族',
+            'Khmeric':'クメール語群',
+            'Southern Indo-Aryan':'南インド・アーリア語群',
+            'Kxʼa':'クア語族',
+            'Tangkic':'タンキ語族',
+            'Himalayish':'ヒマラヤ語群',
+            'Mahakiranti':'マハーキランティ語群',
+            'North Zaire River':'北ザイール川語群',
+            'Southern Bantu':'南部バントゥー語群',
+            'Wa-Lawa':'ワ・ラワ語群',
+            'Teso-Lotuxo-Maa':'テソ・ロトゥホ・マー語群',
+            'Otomian':'オトミ語群',
+            'Pano-Tacanan':'パノ・タカナ語族',
+            'Barito':'バリト語群',
+            'Eastern Otomanguean':'東オト・マンゲ語群',
+            'Mixtec':'ミシュテカ語群',
+            'Southern Periphery Mongolic':'南周縁モンゴル語群',
+            'Timor-Alor-Pantar':'ティモール・アロール・パンタル語族',
+            'Guaicuruan':'グアイクル語族',
+            'South-West Pama-Nyungan':'南西パマ・ニュンガン語群',
+            'Vietic':'ヴィエト語群',
+            'Pidgins':'ピジン',
+            'Aztec':'アステカ語群（ナワトル）',
+            'Eastern Nahuatl':'東ナワトル語群',
+            'Huasteca Nahuatl':'ワステカ・ナワトル語',
+            'Sign languages':'手話',
+            'Sahaptian':'サハプティン語族',
+            'Nivkh':'ニヴフ語',
+            'Tuu':'トゥウ語族',
+            'Torricelli':'トリチェリ語族',
+            'Tumbuka-Sena-Nyanja':'トゥンブカ・セナ・ニャンジャ語群',
+            'Sogdic-Ossetic':'ソグド・オセット語群',
+            'Uyghuric':'ウイグル語群',
+            'Iberian-based':'イベリア語系',
+            'Ugarito-Phoenician':'ウガリット・フェニキア語群',
+            'Desert Nyungic':'砂漠ニュンガ語群',
+            'Wati':'ワティ語群',
+            'Other creoles':'その他のクレオール',
+            'Southern Quechua':'南部ケチュア語群',
+            'Zenati':'ゼナティ語群',
+            'Eastern Romance':'東ロマンス語群',
+            'North Bougainville':'北ブーゲンヴィル語族',
+            'Atlas Berber':'アトラス・ベルベル語群',
+            'Ticuna-Yuri':'ティクナ・ユリ語族',
+            'Tsimshian':'チムシアン語族',
+            'Tarascan':'タラスコ語',
+            'Tucanoan':'トゥカノ語族',
+            'Ta-Ne-Omotic':'タ・ネ・オモ語族',
+            'Caddoan':'カド語族',
+            'Hurro-Urartian':'フルリ・ウラルトゥ語族',
         },
         ko: {
             /* prominent sub-branch ko labels (added) */ "Wu":"오어", "Ibero-Romance":"이베리아로망스어군", "Cariban":"카리브어족", "Siberian":"시베리아 제어", "Ryukyuan":"류큐어파", "High German":"고지 독일어", "Otomanguean":"오토망게어족", "Edoid":"에도이드어군", "Qiangic":"창어군", "Tibetic":"티베트어군", "Italo-Western":"이탈리아서로망스어군", "Tangkic":"탕크어족", "Northeast Caucasian":"북동캅카스어족", "French creole":"프랑스어 기반 크레올", "Indo-Iranian":"인도이란어파", "Macro-Jê":"마크로제어족", "Sabaki":"사바키어군", "Sukuma-Nyamwezi":"수쿠마-냠웨지어군", "Manchu-Nanai":"만주-나나이어군", "Yao-Makonde":"야오-마콘데어군", "Madang":"마당어군", "Eastern Indo-Aryan":"동부 인도아리아어군", "Kiranti":"키란티어군", "Sundic":"순다어군", "Tsezic":"체즈어군", "creole":"크레올", "Sahaptian":"사합틴어족", "Jê":"제어족", "Bororoan":"보로로어족", "Tupí-Guaraní":"투피-과라니어군", "Nungish":"눙어군", "Gyalrongic":"갸롱어군", "Bai":"바이어", "Katuic":"카투어군", "Naga":"나가어군", "Vietnamese":"베트남어", "Chaga":"차가어군", "Gurage":"구라게어군", "Finno-Ugric":"핀우그리아어파", "Southern Indo-Aryan":"남부 인도아리아어군", "Kurdish":"쿠르드어", "Khalkha-Buryat":"할하-부랴트어군", "Manchu-Tungus":"만주퉁구스어파", "Cross River":"크로스강어군", "Lower Cross":"하류 크로스어군", "Albanian":"알바니아어파", "Sami":"사미어", "Kola Sami":"콜라 사미어", "Anglic":"앵글어군", "Egyptian":"이집트어파", "Nahuan":"나우아어군", "Jin":"진어", "Xiang":"상어", "Gan":"간어", "Western Hindi":"서부 힌디어", "Spanish-based creole":"스페인어 기반 크레올", "Fula":"풀라어", "Totonacan":"토토낙어족", "Barbacoan":"바르바코아어족", "Misumalpan":"미수말파어족", "Ubykh":"우비흐어", "Tani":"타니어군", "Assamese":"아삼어", "Celebic":"술라웨시어군", "Bikol":"비콜어", "Kru":"크루어군", "Mel":"멜어군", "Kiowa-Tanoan":"카이오와-타노아어족", "Mandaic":"만다어", "Paman":"파만어군", "Tukanoan":"투카노어족", "Herero":"헤레로어", "Ethio-Semitic":"에티오피아셈어파", "Low German":"저지 독일어", "Old Saxon":"고대 작센어", "Grassfields":"그래스필드어군", "Panoan":"파노어족", "Numic":"누미크어군", "Tupi-Guarani":"투피-과라니어군", "Khoekhoe":"코이코이어", "Caddoan":"캐도어족", "German":"독일어", "Italo-Romance":"이탈리아로망스어군", "Five Nations":"이로쿼이 오족",
@@ -895,7 +1119,8 @@ generates lang_names/<ui>.js from lang_names.js. -->
 
             const lang = LANG_DATA[code];
             const fam = (lang.meta && lang.meta.family) || 'Unclassified';
-            const path = parseFamilyPath(fam);
+            // Glottolog branch (tree_paths.js); the free-text family string only for rows it lacks.
+            const path = (window.TREE_PATHS && window.TREE_PATHS[code]) || parseFamilyPath(fam);
             let node = root;
             for (const segment of path) {
                 if (!node._byKey.has(segment)) {
@@ -989,6 +1214,9 @@ generates lang_names/<ui>.js from lang_names.js. -->
             if (plain) return parseInt(plain[1].replace(/,/g, ''), 10) || 0;
             return 0;
         }
+        const PROTO = new Set(window.TREE_PROTO || []);
+        const TAIL = ['Japonic–Koreanic (proposed)', 'Smaller families', 'Language isolate', 'Creoles and pidgins',
+                      'Constructed', 'Sign languages', 'Unclassified'];
         function sortNode(n) {
             if (!n.children) return;
             n.children.forEach(sortNode);
@@ -998,6 +1226,14 @@ generates lang_names/<ui>.js from lang_names.js. -->
                 if (isLangGroup) {
                     if (a.isStandardForm && !b.isStandardForm) return -1;
                     if (!a.isStandardForm && b.isStandardForm) return 1;
+                }
+                // A proto-language heads the family it reconstructs, before its branches.
+                const pa0 = PROTO.has(a.code), pb0 = PROTO.has(b.code);
+                if (pa0 !== pb0) return pa0 ? -1 : 1;
+                // Catch-all groups go after the real families, in a fixed order.
+                if (n.key === 'All Languages') {
+                    const ra = TAIL.indexOf(a.key), rb = TAIL.indexOf(b.key);
+                    if (ra !== rb) return (ra < 0 ? -1 : ra) - (rb < 0 ? -1 : rb);
                 }
                 const aInt = !!a.isInternal, bInt = !!b.isInternal;
                 if (aInt && !bInt) return -1;
@@ -1010,6 +1246,9 @@ generates lang_names/<ui>.js from lang_names.js. -->
                     if (sa !== sb) return sb - sa;
                     return a.name.localeCompare(b.name);
                 }
+                // A proto-language heads the family it reconstructs.
+                const pa = PROTO.has(a.code), pb = PROTO.has(b.code);
+                if (pa !== pb) return pa ? -1 : 1;
                 // Both leaves: by speaker count desc (importance order)
                 const sa = speakerCountFor(a), sb = speakerCountFor(b);
                 if (sa !== sb) return sb - sa;

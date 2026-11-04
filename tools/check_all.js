@@ -680,6 +680,8 @@ s = run('vi_tone_check.js');
 line('Vietnamese tone per row', num(s, /violations: (\d+)/));
 s = run('thai_lao_tone_check.js');
 line('Thai/Lao tone from the spelling', num(s, /violations: (\d+)/));
+s = run('build_tree_paths.js --check');
+line('tree_paths.js fresh', num(s, /violations: (\d+)/));
 s = run('ko_notation_check.js');
 line('Korean notation per row', num(s, /violations: (\d+)/));
 s = run('sinitic_char_reading_check.js --check');

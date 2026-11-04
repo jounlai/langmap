@@ -833,7 +833,7 @@ WORDS.tree = {
     tdh: ["धक्सा", "dʌksa"],
     brx: ["बिफां", "bipʰaŋ"],
     adi: ["esing", "esiŋ"],
-    nag: ["ghas", "ɡʱas"],
+    nag: ["gas", "ɡas"],
     nzm: ["hingbang", "hiŋbaŋ"],
     nmf: ["thingrong", "tʰiŋroŋ"],
     lus: ["thingkung", "tʰiŋkuŋ"],

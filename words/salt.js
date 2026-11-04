@@ -701,7 +701,7 @@ WORDS.salt = {
     ket: ["тъʼ", "tʌʔ"],
     vep: ["sol", "sol"],
     vot: ["soolõ", "ˈsoːlɤ"],
-    liv: ["sūoļ", "suːoʎ"],
+    liv: ["sūolõ", "suːolə"],
     sma: ["saelhtie", "ˈsæːlhtiɛ"],
     smj: ["sállte", "ˈsaːltɛ"],
     smn: ["sältti", "ˈsæltːi"],

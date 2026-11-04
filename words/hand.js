@@ -784,7 +784,7 @@ WORDS.hand = {
     agx: ["гъил", "ʁil"],
     ddo: ["рекьа", "retɬʼa"],
     lbe: ["бартка", "bartka"],
-    tab: ["хил", "xil"],
+    tab: ["хил", "χil"],
     aqc: ["кул", "kul"],
     udi: ["кул", "kul"],
     tkr: ["хылʼ", "χɨlʲ"],

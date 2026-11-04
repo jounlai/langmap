@@ -779,7 +779,7 @@ WORDS.moon = {
     lbe: ["барз", "barz"],
     tab: ["ваз", "vaz"],
     aqc: ["бац", "bats"],
-    udi: ["хаш", "xaʃ"],
+    udi: ["хаш", "χaʃ"],
     tkr: ["ваз", "waz"],
     kum: ["ай", "aj"],
     nog: ["ай", "aj"],

@@ -571,7 +571,7 @@ WORDS.four = {
     sms: ["nellj", "nɛʎːɐ"],
     srr: ["nahik", "nahik"],
     suk: ["ine", "ine"],
-    ab: ["пшьба", "pʼʃba"],
+    ab: ["ԥшьба", "pʰʃba"],
     ach: ["angwen", "aŋwɛn"],
     adi: ["api", "api"],
     aii: ["ܐܪܒܥܐ", "arpa"],

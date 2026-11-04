@@ -880,7 +880,7 @@ WORDS.drink = {
     ext: ["bebel", "beˈβel"],
     fax: ["bebel", "beˈbel"],
     an: ["beber", "beˈβeɾ"],
-    rup: ["beari", "ˈbeari"],
+    rup: ["beari", "ˈbe̯ari"],
     ruq: ["beari", "ˈbe̯ari"],
     wa: ["boere", "bwɛːʁ"],
     kpv: ["юны", "junɨ"],

@@ -811,7 +811,7 @@ WORDS.night = {
     ext: ["nochi", "ˈnotʃi"],
     fax: ["noiti", "ˈnojti"],
     an: ["nueit", "nwejt"],
-    rup: ["noapti", "ˈnwapti"],
+    rup: ["noapti", "ˈno̯apti"],
     ruq: ["noapti", "ˈno̯apti"],
     wa: ["nute", "nyt"],
     kpv: ["вой", "voj"],

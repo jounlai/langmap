@@ -341,7 +341,7 @@ WORDS.daughter = {
     xqa: ["qız", "qɯz"],
 
     // --- Mongolic and Tungusic ------------------------------------------
-    xal: ["күүкн", "kyːkn"],
+    xal: ["күүкн", "kyːˈkən"],
     bxr: ["басаган", "basaɡaŋ"],
     cmg: ["ᠥᠬᠢᠨ", "økin"],
     xng: ["ᠥᠬᠢᠨ", "økin"],
@@ -594,7 +594,7 @@ WORDS.daughter = {
     inh: ["йоӏ", "i̯oʕ"],
     agx: ["руш", "ruʃ"],
     ddo: ["кид", "kid"],
-    udi: ["хуьйаьр", "xyjær"],
+    udi: ["хуьйаьр", "χyjær"],
     tkr: ["йиш", "jiʃ"],
     bdk: ["риж", "riʒ"],
     huz: ["кид", "kid"],

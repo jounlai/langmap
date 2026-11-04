@@ -778,7 +778,7 @@ WORDS.mountain = {
     djk: ["mongo", "moŋo"],
     emp: ["eya", "eja"],
     koi: ["керӧс", "ˈkerɘs"],
-    udi: ["бурух", "burux"],
+    udi: ["бурух", "buruχ"],
     crn: ["jɨrí", "hɨˈɽi"],
     crx: ["d̲z̲ulh", "dzuɬ"],
     kl: ["qaqqaq", "qaqːaq"],

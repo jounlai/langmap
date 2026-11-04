@@ -1127,7 +1127,7 @@ WORDS.hundred = {
     srh: ["sad", "sad"],
     atb: ["rashô", "ʒa˨˩ʃo˥˩"],
     adx: ["བརྒྱ་ཐམ་པ", "dʑatʰamba"],
-    maz: ["ciento", "ˈsjento"],
+    maz: ["siento", "ˈsjento"],
     tob: ["ʃien", "ʃien"],
     plg: ["sien jʔaʁaik", "sien jʔaʁaik"],
     one: ["tewʌhnyáwelu", "tewʌ̃hnjáwelũ"],

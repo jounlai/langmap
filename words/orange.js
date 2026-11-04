@@ -902,7 +902,7 @@ WORDS.orange = {
     lzz: ["ფოტუკალი", "pʰotʼukʼali"],
     bo: ["ཚ་ལུ་མ", "tsʰə˥lu˥mə"],
     ady: ["тӏамы", "tʼaːmə"],
-    tab: ["партахал", "partaxal"],
+    tab: ["партахал", "partaχal"],
     sg: ["orânze", "orãzɛ"],
     dyu: ["lemuruba", "lemuruba"],
     ngl: ["nrarance", "nɾaɾantʃe"],

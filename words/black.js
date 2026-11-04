@@ -1124,7 +1124,7 @@ WORDS.black = {
     zh_cd: ["黑", "xe˨˩"],
     zh_km: ["黑", "xə˧˩"],
     zh_hf: ["黑", "xɐʔ˦"],
-    rut: ["лыӏхды", "lɨˤxdɨ"],
+    rut: ["лыӏхды", "lɨˤχdɨ"],
     kgg: ["soksogərəm", "soksoɡərəm"],
     mjg: ["hara", "xara"],
     vls: ["zwort", "zwɔrt"],

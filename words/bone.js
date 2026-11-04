@@ -698,7 +698,7 @@ WORDS.bone = {
     agx: ["иркк", "irkː"],
     ddo: ["лӏуза", "tɬuza"],
     lbe: ["ттаркӏ", "tːarkʼ"],
-    tab: ["кӏараб", "kʼarab"],
+    tab: ["кӏураб", "kʼurab"],
     aqc: ["лекки", "lekːi"],
     udi: ["уъкъеън", "uˤqʼeˤn"],
     tkr: ["баркӏв", "barkʼʷ"],

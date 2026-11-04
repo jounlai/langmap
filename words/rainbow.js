@@ -959,7 +959,7 @@ WORDS.rainbow = {
     myv: ["пурьгинечирьке", "purʲɡʲinʲetʃirʲke"],  // Literally 'thunder bow' (пурьгине 'thunder' + чирьке 'arc'); Erzya also says пиземечирьке 'rain bow'.
     mdf: ["атямъёнга", "atʲamjoŋɡa"],  // Literally 'thunder bow' (атям 'thunder' + ёнга 'arc'), like Erzya пурьгинечирьке.
     krl: ["ukonkuari", "ˈukoŋkuɑri"],  // Literally 'Ukko's bow': Ukko, the thunder god, + kuari 'arc, bow'.
-    vot: ["ikolookkõ", "ˈikoloːkːə"],  // Literally an 'arch' (lookkõ, also 'bow'), with a first part possibly meaning 'age'.
+    vot: ["ikolookkõ", "ˈikoloːkːɤ"],  // Literally an 'arch' (lookkõ, also 'bow'), with a first part possibly meaning 'age'.
     hsb: ["tučel", "ˈtutʃɛl"],  // The Upper Sorbian word for the rainbow, unrelated to Lower Sorbian tyca; its origin is not given in the sources consulted.
     dsb: ["tyca", "ˈtɨtsa"],  // The Lower Sorbian word for the rainbow, also called bogowa tyca 'God's tyca'.
     csb: ["tãga", "ˈtãɡa"],  // From Proto-Slavic *dǫga 'arc', the same root as Czech duha and Russian дуга.
@@ -1064,7 +1064,7 @@ WORDS.rainbow = {
     av: ["нур", "nur"],  // The same word as "light", borrowed from Arabic nūr.
     lez: ["яргъируш", "jarʁiruʃ"],  // Ends in руш "girl"; the Quba dialect writes it as two words, йергъи руш.
     agx: ["рагъухъан", "raʁuqan"],  // Built on рагъ "sun"; the sense of the ending is not given.
-    udi: ["бихогъокуштикӏ", "bixoɣokuʃtikʼ"],  // Literally "God's belt".
+    udi: ["бихогъокуштикӏ", "biχoɣokuʃtikʼ"],  // Literally "God's belt".
     nog: ["курткашык", "qurtqaʃɯq"],  // The Nogai word for the rainbow.
     ady: ["лэгъупэкъопс", "laʁʷəpaqʷaps"],  // The Adyghe word for the rainbow; IPA from NorthEuraLex.
     xmf: ["ცაშორტყაფუ", "tsaʃortʼqʼapu"],  // Literally "belt of the sky", like Georgian ცისარტყელა.

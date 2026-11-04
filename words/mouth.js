@@ -813,7 +813,7 @@ WORDS.mouth = {
     kj: ["okanya", "okaɲa"],
     maw: ["noori", "noːri"],
     mdr: ["nganga", "ŋaŋa"],
-    krc: ["ауз", "awuz"],
+    krc: ["аууз", "awuz"],
     nxq: ["nvl", "nv̩˥"],
     bdq: ["ʼbơ̆r", "ɓər"],
     iru: ["vāyi", "vaːji"],

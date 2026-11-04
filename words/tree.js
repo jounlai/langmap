@@ -794,7 +794,7 @@ WORDS.tree = {
     lbe: ["мурхь", "murx"],
     tab: ["гьар", "har"],
     aqc: ["хъватӏи", "qʷatʼi"],
-    udi: ["ход", "xod"],
+    udi: ["ход", "χod"],
     tkr: ["йив", "jiw"],
     kum: ["терек", "terek"],
     nog: ["терек", "terek"],

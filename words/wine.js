@@ -1502,7 +1502,7 @@ WORDS.wine = {
     ce: ["чагӏар", "tʃaʁar"],
     inh: ["чагӏар", "tʃaʁar"],
     av: ["чагъир", "tʃaʁir"],
-    lez: ["чехир", "tʃexir"],
+    lez: ["чехир", "tʃeχir"],
 
     // --- Turkic — şarap from Arabic, but bor is the old native word ---------
     tt: ["шәраб", "ʃærab"],
@@ -1776,11 +1776,11 @@ WORDS.wine = {
     dar: ["чягъир", "tʃaˤʁir"],
     agx: ["чахир", "tʃaχir"],
     lbe: ["чахир", "tʃaχir"], // was ["чахир", "tʃaxir"] (vi dialect rules 2026-10-06)
-    tab: ["чяхир", "tʃæxir"],
-    aqc: ["чихир", "tʃixir"],
+    tab: ["чяхир", "tʃæχir"],
+    aqc: ["чихир", "tʃiχir"],
     tkr: ["чахыр", "tʃaχɨr"], // was ["чахыр", "tʃaxɨr"] (vi dialect rules 2026-10-06)
-    rut: ["чахыр", "tʃaxɨr"],
-    bdk: ["чахыр", "tʃaxɨr"],
+    rut: ["чахыр", "tʃaχɨr"],
+    bdk: ["чахыр", "tʃaχɨr"],
     kjj: ["чахыр", "tʃaχɨr"],
     kry: ["çaxır", "tʃaxɨr"],
     ani: ["чагъир", "tʃaʁir"],

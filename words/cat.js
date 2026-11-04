@@ -755,7 +755,7 @@ WORDS.cat = {
     yan: ["mistuh", "mistuh"],
     jiv: ["míchik", "ˈmitʃik"],
     agr: ["bishu", "biʃu"],
-    acu: ["micha", "mitʃa"],
+    acu: ["mishi", "miʃi"],
     car: ["meu", "meu"],
     pbb: ["misx", "miʃ"],
     gum: ["mishi", "miʃi"],

@@ -743,7 +743,7 @@ WORDS.tooth = {
     lbe: ["ккарччи", "kːartʃːi"],
     tab: ["силиб", "silib"],
     aqc: ["сот", "sot"],
-    udi: ["улух", "ulux"],
+    udi: ["улух", "uluχ"],
     tkr: ["сили", "sili"],
     kum: ["тиш", "tiʃ"],
     nog: ["тис", "tis"],

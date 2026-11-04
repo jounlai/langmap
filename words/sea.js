@@ -612,7 +612,7 @@ WORDS.sea = {
     kac: ["panglai", "paŋ˧lai˧"],
     tji: ["hai", "xai˥˧"],
     nij: ["tasik", "tasik"],
-    yua: ["kʼáaʼnáab", "kʼaːʔnaːɓ"],
+    yua: ["kʼáakʼnáab", "kʼaːkʼnaːɓ"],
     tzh: ["mar", "mar"],
     mam: ["plow", "plow"],
     mixtec: ["nducha mar", "ndutʃa maɾ"],

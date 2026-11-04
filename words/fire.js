@@ -778,7 +778,7 @@ WORDS.fire = {
     lbe: ["цӏу", "tsʼu"],
     tab: ["цӏа", "tsʼa"],
     aqc: ["оцӏ", "otsʼ"],
-    udi: ["арух", "arux"],
+    udi: ["арух", "aruχ"],
     tkr: ["цӏа", "tsʼa"],
     kum: ["от", "ot"],
     nog: ["от", "ot"],

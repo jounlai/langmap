@@ -884,7 +884,7 @@ WORDS.love = {
     mrj: ["яратымаш", "jaratəmaʃ"],
     myv: ["вечкема", "vetʃkema"],
     mdf: ["кельгома", "kelʲɡoma"],
-    krl: ["tykätä", "ˈtykætæ"],
+    krl: ["armahuš", "ˈɑrmɑhuʃ"],
     olo: ["armastua", "ˈarmastua"],
     vep: ["armastuz", "ˈarmastuz"],
     vot: ["suvata", "ˈsuvata"],

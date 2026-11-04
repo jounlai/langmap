@@ -1097,7 +1097,7 @@ WORDS.thumb = {
     tet: ["liman-fuan boot", "liman fuan boːt"],  // Literally 'big finger', liman-fuan 'finger' (liman 'hand' + fuan 'fruit') + boot 'big'.
     wa: ["pôce", "poːs"],  // From Latin pollex 'thumb', like French pouce; it is also an old measure of about 2.9 cm, the inch.
     pcd: ["pouche", "puʃ"],  // The Picard counterpart of French pouce; local forms poche, pau and peu are also given.
-    lez: ["чӏехи тӏуб", "tʃʼexi tʼub"],  // Literally 'big finger' (чӏехи 'big' + тӏуб 'finger'); the Lezgian Bible uses the same phrase for the thumb and, with кӏвач 'foot', the big toe.
+    lez: ["чӏехи тӏуб", "tʃʼeχi tʼub"],  // Literally 'big finger' (чӏехи 'big' + тӏуб 'finger'); the Lezgian Bible uses the same phrase for the thumb and, with кӏвач 'foot', the big toe.
     kek: ["naʼ uqʼm", "naʔ uqʼm"],  // Literally 'mother hand' (naʼ 'mother' + uqʼm 'hand'); the Qʼeqchiʼ Bible likewise says xnaʼ ruʼuj ruqʼ for the thumb and xnaʼ ruʼuj roq for the big toe.
     tzh: ["meʼ kʼab", "meʔ kʼaɓ"],  // Literally 'mother of the hand' (meʼ 'mother' + kʼab 'hand'); the Tzeltal Bibles likewise call the big toe the 'mother of the foot'.
     kac: ["yungnu", "juŋ˧˩nu˧˩"],  // Built on yung 'finger' (as in yung sha 'the other fingers') and nu 'mother'; the Bible calls the thumb lata yungnu 'hand yungnu' and the big toe lagaw yungnu.
@@ -1106,7 +1106,7 @@ WORDS.thumb = {
     hwc: ["thumb", "tʌm"],  // The English word kept as it is; the Hawaii Pidgin Bible says 'da thumb a his right hand' and 'da big toe a his right foot'.
     ja_oki: ["大指", "ʔuɸuʔiːbi"],  // Literally 'big finger' (うふ 'big' + いーび 'finger'); the same word also names the big toe.
     lbe: ["хъумма кӏисса", "qumːa kʼisːa"],  // Literally 'big finger': кӏисса is 'finger', and хъумма is from the root of хъунмасса 'big'.
-    tab: ["аьхюну тӏуб", "æxynu tʼub"],  // Literally 'big finger': тӏуб is 'finger' and аьхю- is 'big'.
+    tab: ["аьхюну тӏуб", "æχynu tʼub"],  // Literally 'big finger': тӏуб is 'finger' and аьхю- is 'big'.
     co: ["ditone", "diˈtɔne"],  // Built on ditu 'finger' with the augmentative -one, 'the big finger'; several villages say ditu grossu 'big finger' instead.
     frp: ["pôjo", "poʒo"],  // The Arpitan counterpart of French pouce; Arpitan Wikipedia notes it is the finger with two phalanges instead of three.
     enq: ["mange", "maŋɡe"],  // The same word also names the big toe; kingi kondenge 'hand finger' can also mean the thumb.

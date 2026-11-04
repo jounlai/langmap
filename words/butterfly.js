@@ -219,7 +219,7 @@ WORDS.butterfly = {
     ddo: ["кьандилу", "tɬʼandilu"],
     lbe: ["чӏимучӏали", "tʃʼimutʃʼali"],  // Reduplicative tʃʼi-...-tʃʼa-.
     ady: ["хьампӏырашъу", "ħaːmpʼəˈraːʂʷə"],
-    ab: ["аҧарҧалыкь", "ɑpʰɑrpʰɑlɨkʼʲ"],  // Reduplicated pʰar-pʰal-.
+    ab: ["аҧарҧалыкь", "apʰarpʰaləkʼʲ"],  // Reduplicated pʰar-pʰal-.
     bsk: ["hoólalas", "ˈhoːlalas"],
     kl: ["pakkaluaq", "pakːaluaq"],  // the ordinary word; Ordbogen (2003) gives pakkalugaq unnuarsiooq 'night butterfly' for moth, and Kleinschmidt (1871) marks utsuppaluaq as provincial with paluaq as a short form
     agt: ["lollo", "lolːo"],  // Reduplicated lol-lo.

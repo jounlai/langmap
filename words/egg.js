@@ -1098,7 +1098,7 @@ WORDS.egg = {
     duu: ["ɑŋlɯm", "ɑŋlɯm"],
     ybe: ["oja", "oja"],
     xav: ["siʼaʼre", "siʔaˈʔɾe"],
-    maz: ["blanquillo", "blaŋˈkijo"],
+    maz: ["muru", "muɾu"],
     umu: ["wáhwal", "wahwal"],
     thp: ["heʔúseʔ", "heʔuseʔ"],
     kio: ["tʼą́y", "tʼã́j"],

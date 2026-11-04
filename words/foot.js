@@ -1251,7 +1251,7 @@ WORDS.foot = {
     aa: ["iba", "iba"],  // One word for the limb.
     aae: ["këmba", "ˈkəmba"],  // As Albanian. The definite këmba, matching this row's own dora.
     aau: ["sune", "sune"],  // Foley and Laycock both gloss sune 'leg' and the New Testament washes it in Luke 7:38; John 19:32 breaks oiow, which John 19:36 fixes as 'bone', not a second leg word.
-    ab: ["ашьапы", "ɑʃɑpʼɨ"],  // ашьапы covers both; the compound is the foot-specific form.
+    ab: ["ашьапы", "aʃapʼə"],  // ашьапы covers both; the compound is the foot-specific form.
     abe: ["mzid", "mzid"],  // The Western Abenaki dictionary gives foot as mzid and leg as wkôt, the pair Laurent set side by side in 1884 — melji ta mezid, wpedin ta wkod.
     abq: ["щапӏы", "ɕapʼə"],  // Abaza шьапы covers the limb as Abkhaz ашьапы does; the foot-specific ащапӏблахъ and ащапӏмхӏаста are built on it. // was ["шьапы", "ʂapə"] (vi dialect rules 2026-10-06)
     abs: ["kaki", "kaki"],  // Ambon Malay keeps Malay kaki, which the ACD glosses 'foot; leg; base' in one entry. Stress unmarked: this row marks only 9% of its polysyllables.

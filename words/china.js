@@ -514,6 +514,7 @@ WORDS.china = {
     khb: "zhongguo",
     ceb: "cina",
     grt: "cina",
+    mdh: "cina",
   },
   routes: {
     zhongguo: {"color":"#dc2626","emoji":"🏮","en":"reads 中國 \"Middle Kingdom\" itself","ja":"漢字 中國 を自分で読む","ko":"한자 中國을 직접 읽음","zh":"自己读汉字\"中國\"","yue":"自己讀漢字「中國」","vi":"tự đọc chữ 中國","th":"อ่านอักษร 中國 เอง","id":"membaca aksara 中國 sendiri","hi":"中國 को ख़ुद पढ़ना","de":"liest 中國 selbst","fr":"lit 中國 lui-même","it":"legge 中國 da sé","es":"lee 中國 por sí mismo","pt":"lê 中國 por si","ru":"своё чтение 中國","uk":"власне читання 中國","ar":"يقرأ 中國 بنفسه","he":"קורא את 中國 בעצמו","sw":"husoma 中國 yenyewe"},
@@ -970,5 +971,6 @@ WORDS.china = {
     khb: ["ᦷᦋᧂᧈᦷᦅᧉ", "tsoŋ˧ koː˩"],  // Wiktionary (kaikki Lü dump): 'China (country)', /t͡soŋ˧.koː˩/, script copied. No tie bar, as the row.
     ceb: ["Tsina", "ˈtsina"],  // Wolff: Tsína, "wage war against China"; ka-an China
     grt: ["Chin song", "tʃin soŋ"],  // 1905: "China, n. Chin song"; song = village, country
+    mdh: ["China", "tʃina"],  // Maguindanao china 'China' (SEAlang).
   },
 };

@@ -987,7 +987,7 @@ WORDS.moon = {
     sas: ["bulan", "bulan"],
     kha: ["bnai", "bnai"],
     mns: ["э̄тпос", "eːtpos"],
-    mrw: ["bolan", "bolan"],
+    mrw: ["olan", "olan"],
     tsg: ["bulan", "bulan"],
     yap: ["pul", "pul"],
     chk: ["maram", "maram"],

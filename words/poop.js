@@ -548,7 +548,7 @@ WORDS.poop = {
     li: ["poep", "pup"],
     mfe: ["kaka", "kaka"],
     tsg: ["tayꞌ", "tajʔ"],
-    mdh: ["tahi", "ˈtahi"],
+    mdh: ["tay", "taj"],
     gor: ["bountu", "boˈuntu"],
     iba: ["tai", "tai"],
     ljp: ["tahi", "tahi"],

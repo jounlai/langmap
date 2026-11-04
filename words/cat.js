@@ -1105,7 +1105,7 @@ WORDS.cat = {
     blt: ["ꪵꪣꪫ", "mɛːw˥"],
     pam: ["pusa", "ˈpusaʔ"],
     pag: ["pusa", "ˈpusa"],
-    mdh: ["kuting", "kuˈtiŋ"],
+    mdh: ["bedung", "bəduŋ"],
     gor: ["tete", "ˈtete"],
     mak: ["miong", "ˈmioŋ"],
     fon: ["asé", "asé"],

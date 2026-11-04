@@ -1044,7 +1044,7 @@ WORDS.eat = {
     gmh: ["ezzen", "ˈesːən"],
     es_sgl: ["comer", "koˈmeɾ"],
     osp: ["comer", "koˈmeɾ"],
-    okz: ["ស៊ី", "ciːə"],
+    okz: ["ច្យ", "ciːə"],
     osx: ["etan", "ˈetan"],
     mos: ["dɩ", "dɪ"],
     maw: ["di", "di"],

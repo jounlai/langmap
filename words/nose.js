@@ -440,7 +440,7 @@ WORDS.nose = {
     ja_heian: ["鼻", "ɸana"],
     ja_chu: ["鼻", "ɸana"],
     p_ryu: ["*pana", "pana"],
-    ko_mid: ["고", "koh"],
+    ko_mid: ["·곻", "koh"],
     ko_em: ["코", "kʰo"],
     vi_han: ["鼻", "ti˨˩˨"],
     vi_nom: ["𪖫", "muj˧ˀ˥"],

@@ -928,6 +928,7 @@ WORDS.tomorrow = {
     pmi: "plain",
     nuf: "plain",
     qxs: "plain",
+    gqu: "plain",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -1800,5 +1801,6 @@ WORDS.tomorrow = {
     pmi: ["sẽ35bo55", "sẽ˧˥bo˥˥"],  // Sun 1991 (Taoba Pumi) sẽ³⁵bo⁵⁵. Surface and tone letters follow the row's pattern.
     nuf: ["ʔnɑ35bɑ35", "ʔnɑ˧˥bɑ˧˥"],  // Sun 1991 (Bijiang Nusu) ʔnɑ³⁵bɑ³⁵. Surface and tone letters follow the row's pattern.
     qxs: ["təpə", "tə˧˩pə˧˧"],  // Sun 1991 (Taoping Qiang) tə³¹pə³³. Surface and tone letters follow the row's pattern.
+    gqu: ["su42 nu35", "su˦˨ nu˧˥"],  // IDS Qau Kelao, already the source of several cells in this row, though the row's base list is another variety. su.42 nu.35.
   },
 };

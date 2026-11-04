@@ -339,7 +339,7 @@ WORDS.cat = {
     swi: ["meu4", "meu˥˩"],
     lic: ["mi:u2", "miːu˥˥"],
     kmc: ["meu31", "meu˧˩"],
-    gqu: ["—", "—"],
+    gqu: ["pi35 miu42", "pi˧˥ miu˦˨"],
     shx: ["—", "—"],
     hmn: ["miv", "mi˨˦"],
     jv: ["kucing", "kutʃiŋ"],

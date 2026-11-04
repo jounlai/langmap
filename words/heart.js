@@ -343,7 +343,7 @@ WORDS.heart = {
     swi: ["ɕim1", "ɕim˩˩"],
     lic: ["ɬa:u3", "ɬaːu˩˩"],
     kmc: ["səm323", "səm˧˨˧"],
-    gqu: ["—", "—"],
+    gqu: ["pa42 pu35", "pa˦˨ pu˧˥"],
     shx: ["—", "—"],
     hmn: ["plawv", "plaɨ˨˦"],
     jv: ["ati", "ati"],

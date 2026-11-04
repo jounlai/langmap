@@ -556,6 +556,11 @@ WORDS.potato = {
     qxs: "other",
     cng: "other",
     kac: "other",
+    kmc: "other",
+    mmd: "unknown",
+    mlm: "unknown",
+    lic: "unknown",
+    grt: "other",
   },
   routes: {
     papa: {"color":"#ca8a04","emoji":"🏔️","en":"Quechua papa · Taíno batata","ja":"ケチュア語 papa・タイノ語 batata","ko":"케추아어 papa · 타이노어 batata","zh":"克丘亚语 papa・泰诺语 batata","yue":"克丘亞語 papa · 泰諾語 batata","vi":"Quechua papa · Taíno batata","th":"เกชัว papa · ไตโน batata","id":"Quechua papa · Taíno batata","hi":"क्वेचुआ papa · ताइनो batata","de":"Quechua papa · Taíno batata","fr":"quechua papa · taïno batata","it":"quechua papa · taíno batata","es":"quechua papa · taíno batata","pt":"quíchua papa · taíno batata","ru":"кечуа papa · таино batata","uk":"кечуа papa · таїно batata","ar":"كيتشوا papa · تاينو batata","he":"קצ'ואה papa · טאינו batata","sw":"Kiquechua papa · Kitaino batata"},
@@ -1053,5 +1058,10 @@ WORDS.potato = {
     qxs: ["iɑŋy", "iɑŋ˧˩y˥˥"],  // Sun 1991 (Taoping Qiang) iɑŋ³¹y⁵⁵. Resembles Chinese 洋芋. Surface and tone letters follow the row's pattern.
     cng: ["jajuŋ", "jajuŋ"],  // Sun 1991 (Mawo Qiang) jajuŋ. Resembles Chinese 洋芋. Surface and tone letters follow the row's pattern.
     kac: ["yangyi", "jaŋ˧˩ji˥˥"],  // Sun 1991 (Jingpho) jaŋ³¹ji⁵⁵. Resembles Chinese 洋芋. Latin spelling follows the row's pairs.
+    kmc: ["jaŋ212 jui55", "jaŋ˨˩˨ jui˥˥"],  // IDS Southern Kam, the row's list (48 of 76 cells match): jaŋ.212 jui.55, beside mân.212. Resembles Chinese 洋芋.
+    mmd: ["la:ʔ8 man3", "laːʔ˨˦ man˥˩"],  // IDS Maonan la:ʔ.8 man.3. Tone letters from the row's pairs.
+    mlm: ["man2", "man˩˨˩"],  // IDS Mulam man.2, the row's list. Tone letters from the row's pairs.
+    lic: ["man1", "man˥˧"],  // IDS Hlai (Baoting) man.1. Tone letters from the row's pairs.
+    grt: ["alu", "alu"],  // 1905: "Potato, n. Alu"
   },
 };

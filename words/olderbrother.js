@@ -771,6 +771,7 @@ WORDS.olderbrother = {
     nuf: "age",
     qxs: "age",
     cng: "age",
+    gqu: "age",
   },
   routes: {
     age: {"color":"#db2777","emoji":"👆","en":"a word just for an older brother","ja":"兄だけを指す語","ko":"형만 가리키는 낱말","zh":"专指哥哥的词","yue":"專指哥哥嘅詞","vi":"từ riêng cho anh","th":"คำเฉพาะสำหรับพี่ชาย","id":"kata khusus untuk kakak","hi":"बड़े भाई का अलग शब्द","de":"eigenes Wort für den älteren Bruder","fr":"un mot propre au frère aîné","it":"una parola solo per il fratello maggiore","es":"una palabra solo para el hermano mayor","pt":"uma palavra só para o irmão mais velho","ru":"отдельное слово для старшего брата","uk":"окреме слово для старшого брата","ar":"كلمة خاصة بالأخ الأكبر","he":"מילה מיוחדת לאח הגדול","sw":"neno maalum kwa kaka mkubwa"},
@@ -1483,5 +1484,6 @@ WORDS.olderbrother = {
     nuf: ["iɑ55dɛ31", "iɑ˥˥dɛ˧˩"],  // Sun 1991 (Bijiang Nusu) iɑ⁵⁵dɛ³¹. Surface and tone letters follow the row's pattern.
     qxs: ["tubʐɑ", "tu˥˥bʐɑ˧˩"],  // Sun 1991 (Taoping Qiang) tu⁵⁵bʐɑ³¹. Surface and tone letters follow the row's pattern.
     cng: ["təbaʴ", "təbaʴ"],  // Sun 1991 (Mawo Qiang) təbaʴ. Surface and tone letters follow the row's pattern.
+    gqu: ["ta35", "ta˧˥"],  // IDS Qau Kelao, already the source of several cells in this row, though the row's base list is another variety. ta.35.
   },
 };

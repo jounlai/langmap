@@ -1175,5 +1175,6 @@ WORDS.milk = {
     ckv: ["guling", "ɡuliŋ"],  // Kavalan word for (cow's) milk.
     ude: ["косʼо", "kosʔo"],  // Udege, glossed «молоко».
     omx: ["တှ်", "tɔh"],  // Surface is the second part of mnw ဍာ်တှ်. Shorto 1971 (Dictionary of the Mon Inscriptions) toḥh, 'milk', phonemic form as SEAlang prints it, respelled in the row's symbols. Surface copied from the mnw cell, as the row uses modern spelling.
+    gqu: ["tɕəu35", "tɕəu˧˥"],  // IDS Qau Kelao, already the source of several cells in this row, though the row's base list is another variety. ćəu.35.
   },
 };

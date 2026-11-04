@@ -784,6 +784,7 @@ WORDS.rainbow = {
     nuf: "plain",
     qxs: "plain",
     cng: "plain",
+    gqu: "plain",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1511,5 +1512,6 @@ WORDS.rainbow = {
     nuf: ["tshɑ̃31gɹi53ɑ31", "tsʰɑ̃˧˩ɡɹi˥˧ɑ˧˩"],  // Sun 1991 (Bijiang Nusu) tshɑ̃³¹gɹi⁵³ɑ³¹. Surface and tone letters follow the row's pattern.
     qxs: ["χməqutsu", "χmə˥˥qu˧˩tsu˧˧"],  // Sun 1991 (Taoping Qiang) χmə⁵⁵qu³¹tsu³³. Surface and tone letters follow the row's pattern.
     cng: ["muʁutsəthi", "muʁutsətʰi"],  // Sun 1991 (Mawo Qiang) muʁutsəthi. Surface and tone letters follow the row's pattern.
+    gqu: ["ɕi35 pja42", "ɕi˧˥ pja˦˨"],  // IDS Qau Kelao, already the source of several cells in this row, though the row's base list is another variety. śi.35 pja.42.
   },
 };

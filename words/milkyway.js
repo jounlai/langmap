@@ -365,6 +365,7 @@ WORDS.milkyway = {
     rar: "other",
     ch: "road",
     gil: "other",
+    kha: "road",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -673,5 +674,6 @@ WORDS.milkyway = {
     rar: ["Te Tārava", "te taːɾava"],  // Buse under tārava; Savage tarava the milky-way. Also te ika a Tangaroa
     ch: ["karera de Santiago", "kaɾeɾa de santiaɡo"],  // 1918 "Milky Way, n.: carera de Santiago"; Spanish road of St James; c > k
     gil: ["Naiabu", "naiabu"],  // Bingham "Naiabu, n. The Milky Way; the Galaxy"
+    kha: ["ka lynti bneng", "ka lənti bneŋ"],  // 1920: "Galaxy, n. Ka lynti bneng"; road of the sky
   },
 };

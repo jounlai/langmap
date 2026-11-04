@@ -773,6 +773,7 @@ WORDS.coffee = {
     siz: "qahwa",
     zh_jiao: "qahwa",
     rtm: "qahwa",
+    grt: "qahwa",
   },
   routes: {
     qahwa: { color: "#78350f", emoji: "☕", en: "Arabic qahwa, and no split at all", ja: "アラビア語 qahwa・分岐なし", ko: "아랍어 qahwa, 갈라짐 없이", zh: "阿拉伯语 qahwa，全无分歧", yue: "阿拉伯文 qahwa，完全冇分歧", vi: "tiếng Ả Rập qahwa, không hề chia đôi", th: "ภาษาอาหรับ qahwa ไม่แยกสายเลย", id: "bahasa Arab qahwa, tanpa percabangan", hi: "अरबी qahwa, कोई विभाजन नहीं", de: "arabisch qahwa, ganz ohne Spaltung", fr: "arabe qahwa, sans aucune scission", it: "arabo qahwa, senza alcuna scissione", es: "árabe qahwa, sin escisión alguna", pt: "árabe qahwa, sem cisão alguma", ru: "араб. qahwa, без всякого раздвоения", uk: "араб. qahwa, без жодного роздвоєння", ar: "العربية قهوة، دون أي انقسام", he: "ערבית qahwa, ללא שום פיצול", sw: "Kiarabu qahwa, bila mgawanyiko wowote" },
@@ -1437,5 +1438,6 @@ WORDS.coffee = {
     siz: ["lqahwa", "lqaɦwa"],  // Borrowed from Arabic qahwa.
     zh_jiao: ["咖啡","kʰa˨˩˧ fe˨˩˧"],  // Same word as Standard Mandarin.
     rtm: ["kofe", "kofe"],  // wordlist
+    grt: ["kapi", "kapi"],  // 1905: "Coffee, n. Kapi"
   },
 };

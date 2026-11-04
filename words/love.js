@@ -1072,7 +1072,7 @@ WORDS.love = {
     swi: ["ᵐbjum1", "ᵐbjum˩˩"],
     lic: ["o:p7", "oːp˥˥"],
     kmc: ["ljaŋ35", "ljaŋ˧˥"],
-    gqu: ["—", "—"],
+    gqu: ["cau13", "cau˩˧"],
     shx: ["—", "—"],
     ium: ["hnamv", "n̥am˦"],
     hui: ["gubalini holene", "ɡubalini holene"],

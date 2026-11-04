@@ -1150,7 +1150,7 @@ WORDS.salt = {
     bxk: ["kumuunyu", "kumuːɲu"],
     dnj: ["wèe", "wèː"],
     toi: ["munyo", "muɲo"],
-    grt: ["kasim", "kasim"],
+    grt: ["kari", "kari"],
     ada: ["ngo", "ŋo"],
     bom: ["nevwashe", "nevwaʃe"],
     ngl: ["mwapa", "mwapa"],

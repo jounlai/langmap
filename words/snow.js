@@ -1009,5 +1009,6 @@ WORDS.snow = {
     zh_jiao: ["雪", "syə˥˥"],
     rap: ["nieve", "nieve"],  // Churchill "snow nieve"; Spanish loan
     lhu: ["vâ-mēi", "vâmeȉ"],  // Sun 1991 (Black Lahu) vᴀ⁵³mei¹¹. Tone marks converted using the row's own pairs (53 ^, 31 grave, 35 acute, 21 grave with glottal, 11 macron). Spelling is derived.
+    tyz: ["mươi khao", "mɨəj˧˧ kʰaːw˧˧"],  // Wiktionary (kaikki Tày dump) 'hoarfrost; dusty snow'; IPA as printed there, tie-free.
   }
 };

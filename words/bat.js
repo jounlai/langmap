@@ -687,6 +687,7 @@ WORDS.bat = {
     agx: "plain",
     kjj: "plain",
     abe: "plain",
+    srm: "plain",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1319,5 +1320,6 @@ WORDS.bat = {
     agx: ["чапрахил", "tʃapraχil"],  // IDS Aghul, the row's list. Palochka and IPA from the row's pairs.
     kjj: ["цӏвакьунур", "tsʼʷaqʼunur"],  // IDS Khinalug, the row's list. Palochka and IPA from the row's pairs.
     abe: ["madagenilhas", "madaɡenilhas"],  // Laurent page image p.37: "Madagenilhas. A bat."
+    srm: ["pukusu", "pukusu"],  // WOLD Saramaccan, the list this row matches. Tie bars removed and spaces restored, as the row.
   },
 };

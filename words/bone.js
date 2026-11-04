@@ -701,7 +701,7 @@ WORDS.bone = {
     tab: ["кӏураб", "kʼurab"],
     aqc: ["лекки", "lekːi"],
     udi: ["уъкъеън", "uˤqʼeˤn"],
-    tkr: ["баркӏв", "barkʼʷ"],
+    tkr: ["баркӏ", "barkʼ"],
     kum: ["сюек", "syjek"],
     nog: ["суьек", "syjek"],
     ady: ["къупшъхьэ", "qʷəpʂħa"],

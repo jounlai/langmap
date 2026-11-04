@@ -936,6 +936,14 @@ WORDS.tomorrow = {
     khv: "plain",
     kjj: "plain",
     abe: "plain",
+    enf: "plain",
+    smj: "plain",
+    itl: "plain",
+    ckt: "plain",
+    bsk: "plain",
+    dta: "plain",
+    tue: "plain",
+    tpy: "plain",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -1816,5 +1824,13 @@ WORDS.tomorrow = {
     khv: ["гъваде", "ʁʷade"],  // IDS Khwarshi, the row's list. Palochka and IPA from the row's pairs.
     kjj: ["пага", "pʰaɡa"],  // IDS Khinalug, the row's list. Beside ппогочу. Palochka and IPA from the row's pairs.
     abe: ["saba", "saba"],  // Laurent p.20: "Saba. To-morrow."
+    enf: ["cheta", "tʃʲɛta"],  // NorthEuraLex Forest Enets, the list this row matches. Tie bars removed and spaces restored, as the row. Latin spelling follows the row's pairs; the list prints Cyrillic.
+    smj: ["idet", "idɛt"],  // NorthEuraLex Lule Sami, the list this row matches. Tie bars removed and spaces restored, as the row.
+    itl: ["азоск", "azosk"],  // NorthEuraLex Itelmen, the list this row matches. Tie bars removed and spaces restored, as the row.
+    ckt: ["эргатык", "eɹɣatək"],  // NorthEuraLex Chukchi, the list this row matches. Tie bars removed and spaces restored, as the row.
+    bsk: ["jímale", "ˈdʑimalʉ"],  // NorthEuraLex Burushaski, the list this row matches. Tie bars removed and spaces restored, as the row.
+    dta: ["buni", "buni"],  // Robbeets Altaic list Dagur, the list this row matches. IPA from the row's pairs.
+    tue: ["yãʼbĩ-gã", "jãʔbĩɡã"],  // IDS Tuyuca, the list this row matches. IPA from the row's pairs.
+    tpy: ["kodaka-ki", "kodakaki"],  // IDS Trumai, the list this row matches. IPA from the row's pairs.
   },
 };

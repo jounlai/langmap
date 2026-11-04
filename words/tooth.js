@@ -734,7 +734,7 @@ WORDS.tooth = {
     lkt: ["hí", "hí"],
     kl: ["kigut", "kiɣut"],
     ce: ["церг", "tserɡ"],
-    inh: ["царг", "tsarɡʲ"],
+    inh: ["цӏерг", "tsʼerɡ"],
     av: ["ца", "tsa"],
     lez: ["сас", "sas"],
     dar: ["цула", "tsula"],

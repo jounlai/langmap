@@ -698,7 +698,7 @@ WORDS.wind = {
     gag: ["yel", "jel"],
     alt: ["салкын", "salqɯn"],
     dlg: ["тыал", "tɯal"],
-    kaa: ["samal", "samal"],
+    kaa: ["jel", "ʒel"],
     yrk: ["мерця", "mʲertsʲa"],
     sma: ["bïegke", "ˈpɨɛkːɛ"],
     smj: ["biegga", "bieɡːa"],

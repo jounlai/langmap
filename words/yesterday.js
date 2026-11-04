@@ -888,6 +888,13 @@ WORDS.yesterday = {
     kjj: "distinct",
     chb: "distinct",
     abe: "distinct",
+    nio: "distinct",
+    enf: "distinct",
+    smj: "distinct",
+    sel: "distinct",
+    itl: "distinct",
+    yrk: "distinct",
+    dta: "distinct",
   },
   routes: {
     same: {"color":"#db2777","emoji":"🔁","en":"one word for yesterday and tomorrow","ja":"昨日と明日が同じ語","ko":"어제와 내일이 한 낱말","zh":"昨天和明天同一个词","yue":"尋日同聽日同一個詞","vi":"một từ cho hôm qua và ngày mai","th":"คำเดียวทั้งเมื่อวานและพรุ่งนี้","id":"satu kata untuk kemarin dan besok","hi":"बीते और आने वाले कल का एक शब्द","de":"ein Wort für gestern und morgen","fr":"un mot pour hier et demain","it":"una parola per ieri e domani","es":"una palabra para ayer y mañana","pt":"uma palavra para ontem e amanhã","ru":"одно слово для вчера и завтра","uk":"одне слово для учора й завтра","ar":"كلمة واحدة لأمس وغد","he":"מילה אחת לאתמול ולמחר","sw":"neno moja kwa jana na kesho"},
@@ -1721,5 +1728,12 @@ WORDS.yesterday = {
     kjj: ["лагъын", "laʁɨn"],  // IDS Khinalug, the row's list. Palochka and IPA from the row's pairs.
     chb: ["muyhica suasa", "mɨhɨka suasa"],  // Uricoechea: "Ayer, muyhica suasa"; two scans; row IPA of muyhy-
     abe: ["wlôgwa", "wlɔ̃ɡʷa"],  // Laurent p.20: "Wlôgwa. Yesterday."
+    nio: ["талу", "tɐlu"],  // NorthEuraLex Nganasan, the list this row matches. Tie bars removed and spaces restored, as the row.
+    enf: ["chenoyu", "tʃʲɛnɔju"],  // NorthEuraLex Forest Enets, the list this row matches. Tie bars removed and spaces restored, as the row. Latin spelling follows the row's pairs; the list prints Cyrillic.
+    smj: ["iektu", "iɛktʊ"],  // NorthEuraLex Lule Sami, the list this row matches. Tie bars removed and spaces restored, as the row.
+    sel: ["тял челы", "tʲal tɕelɨ"],  // NorthEuraLex Northern Selkup, the list this row matches. Tie bars removed and spaces restored, as the row.
+    itl: ["ачињчк", "atʃiɲtʃk"],  // NorthEuraLex Itelmen, the list this row matches. Tie bars removed and spaces restored, as the row.
+    yrk: ["теняна", "tʲeːɲɑnɑ"],  // NorthEuraLex Tundra Nenets, the list this row matches. Tie bars removed and spaces restored, as the row.
+    dta: ["udeši udur", "udeʃi udur"],  // Robbeets Altaic list Dagur, the list this row matches. IPA from the row's pairs.
   },
 };

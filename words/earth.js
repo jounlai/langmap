@@ -701,7 +701,7 @@ WORDS.earth = {
     rap: ["ʻoʻone", "ʔoʔone"],
     rtm: ["pera", "pera"],
     rut: ["накьв", "naqʼʷ"],
-    sel: ["—", "—"],
+    sel: ["тэтты", "tætːɨ"],
     tkr: ["накьв", "naqʼʷ"],
     tsi: ["la̱xyuup", "lʌχjuːp"],
     tue: ["dita", "diˈta"],

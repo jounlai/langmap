@@ -801,6 +801,16 @@ WORDS.thunder = {
     kjj: "plain",
     nci: "plain",
     abe: "plain",
+    nio: "plain",
+    enf: "plain",
+    smj: "plain",
+    ckt: "plain",
+    yrk: "plain",
+    bsk: "plain",
+    ykg: "plain",
+    sms: "plain",
+    smn: "plain",
+    mns: "plain",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1548,5 +1558,15 @@ WORDS.thunder = {
     kjj: ["ттокъуд", "tːoqud"],  // IDS Khinalug, the row's list. Palochka and IPA from the row's pairs.
     nci: ["quaqualachtli", "kʷakʷalatʃtɬi"],  // Siméon: "QUAQUALACHTLI ou QUAQUALACTLI, s. v. Tonnerre, bruit de la foudre"; no length marks
     abe: ["padôgi", "padɔ̃ɡi"],  // Laurent p.17: "Padôgi. Thunder."
+    nio: ["кадюа", "kɐdʲuɐ"],  // NorthEuraLex Nganasan, the list this row matches. Tie bars removed and spaces restored, as the row.
+    enf: ["kihu", "kihu"],  // NorthEuraLex Forest Enets, the list this row matches. Tie bars removed and spaces restored, as the row. Latin spelling follows the row's pairs; the list prints Cyrillic.
+    smj: ["átjek", "atʃɛk"],  // NorthEuraLex Lule Sami, the list this row matches. Tie bars removed and spaces restored, as the row.
+    ckt: ["йъилкээв", "jʔiɬkeːβ"],  // NorthEuraLex Chukchi, the list this row matches. Tie bars removed and spaces restored, as the row.
+    yrk: ["мунота", "munoːtɑ"],  // NorthEuraLex Tundra Nenets, the list this row matches. Tie bars removed and spaces restored, as the row.
+    bsk: ["ġaráo", "ɡ̇aˈraɔ"],  // NorthEuraLex Burushaski, the list this row matches. Tie bars removed and spaces restored, as the row.
+    ykg: ["мөнэр", "møner"],  // NorthEuraLex Northern Yukaghir, the list this row matches. Tie bars removed and spaces restored, as the row.
+    sms: ["tie´rmes", "tiɛrʲmʲɛs"],  // NorthEuraLex Skolt Sami, the list this row matches. Tie bars removed and spaces restored, as the row.
+    smn: ["juuṛâ", "ˈjuːrɐ"],  // NorthEuraLex Inari Sami, the list this row matches. Tie bars removed and spaces restored, as the row.
+    mns: ["сяхыл кургил", "sʲaχɪl kurɣil"],  // NorthEuraLex Northern Mansi, the list this row matches. Tie bars removed and spaces restored, as the row.
   },
 };

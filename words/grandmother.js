@@ -713,6 +713,12 @@ WORDS.grandmother = {
     udi: "unknown",
     kjj: "unknown",
     chb: "one",
+    ckt: "unknown",
+    ess: "unknown",
+    evn: "unknown",
+    xal: "unknown",
+    nog: "unknown",
+    gmh: "unknown",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -1370,5 +1376,11 @@ WORDS.grandmother = {
     udi: ["кална", "kalna"],  // IDS Udi, the row's list. Palochka and IPA from the row's pairs.
     kjj: ["эжаь", "eʒæ"],  // IDS Khinalug, the row's list. Palochka and IPA from the row's pairs.
     chb: ["caca", "kaka"],  // Uricoechea: "Abuela, caca"; two scans; one scan misreads coca once
+    ckt: ["нʼэвмиргын", "ŋeβmiɹɣən"],  // NorthEuraLex Chukchi, the list this row matches. Tie bars removed and spaces restored, as the row.
+    ess: ["ныӈьюӄ", "nɨŋɡ̥ʲjuq"],  // NorthEuraLex Central Siberian Yupik, the list this row matches. Tie bars removed and spaces restored, as the row.
+    evn: ["эбэкэ̄", "əbəkəː"],  // NorthEuraLex Evenki, the list this row matches. Tie bars removed and spaces restored, as the row.
+    xal: ["эмг эк", "emɡ ek"],  // NorthEuraLex Kalmyk, the list this row matches. Tie bars removed and spaces restored, as the row.
+    nog: ["анай", "anaj"],  // IDS Nogai, the list this row matches. IPA from the row's pairs.
+    gmh: ["ane", "ˈanə"],  // IDS Middle High German, the list this row matches. IPA from the row's pairs.
   },
 };

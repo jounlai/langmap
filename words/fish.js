@@ -1269,7 +1269,7 @@ WORDS.fish = {
     dzg: ["bosu", "bɔ̀sʊ́"],
     zag: ["hût", "hut"],  // Marked as Arabic in the dictionary (Arabic ḥūt).
     ttq: ["kifi", "kifi"],  // A Hausa loan (Prasse).
-    gha: ["—", "—"],
+    gha: ["ulisma", "ulisma"],
     auj: ["—", "—"],
     siz: ["tisməkt", "tisməkt"],  // Laoust's French–Berber glossary gives only assir, a small fish of the springs.
     zh_jiao: ["鱼", "y˦˨"],

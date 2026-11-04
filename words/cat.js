@@ -924,7 +924,7 @@ WORDS.cat = {
     nmn: ["—", "—"],
     kr: ["ngam", "ŋɡam"],
     men: ["gɔngɔ", "ɡɔŋɡɔ"],
-    vai: ["ꖷꖬ", "musu"],
+    vai: ["ꕮꕰꔒ", "maɲale"],  // Koelle 1854: manyare 'cat'. Spelled here syllable by syllable; no Vai-script source was found.
     tem: ["ayari", "ajari"],
     dyu: ["jakuma", "dʒakuma"],
     bbo: ["nyukuma", "ɲukuma"],

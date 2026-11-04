@@ -905,7 +905,7 @@ WORDS.moon = {
     kbp: ["fenaɣ", "fenaɣ"],
     ee: ["ɣleti", "ɣleti"],
     gej: ["wetri", "wetri"],
-    aja: ["esun", "esun"],
+    aja: ["wleci", "wletʃi"],
     nyn: ["okwezi", "okwezi"],
     cgg: ["okwezi", "okwezi"],
     ttj: ["okwezi", "okwezi"],

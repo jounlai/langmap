@@ -928,7 +928,7 @@ WORDS.eye = {
     nmn: ["ǃʼûĩ", "ǃʼũĩ"],
     kr: ["shim", "ʃim"],
     men: ["ngama", "ŋɡama"],
-    vai: ["ꕰ", "ɲa"],
+    vai: ["ꕧ", "dʒa"],  // Koelle 1854: dsa 'eye'. The New Testament writes ꕧꗅ, whose first syllable this is.
     tem: ["ra-fɔr", "rafɔr"],
     dyu: ["ɲɛ", "ɲɛ"],
     bbo: ["ɲono", "ɲono"],

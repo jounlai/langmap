@@ -412,7 +412,7 @@ WORDS.tree = {
     ha: ["bishiya", "biʃijaː"],
     xed: ["fú", "fú"],
     ker: ["kəbaŋ", "kəbaŋ"],
-    dbq: ["pay", "paj"],
+    dbq: ["wìɗeŋ", "wìɗeŋ"],
     wo: ["garab", "ɡarab"],
     srr: ["ndaxar", "ndaxaɾ"],
     so: ["geed", "ɡeːd"],

@@ -988,7 +988,7 @@ WORDS.red = {
     crs: ["rouz", "ruz"],
     gcf: ["wouj", "wuʒ"],
     mnk: ["wuleŋ", "wuleŋ"],
-    bqi: ["سرخ", "seɾx"],
+    bqi: ["سور", "sor"],
     unr: ["araʼ", "araʔ"],
     hoc: ["jenga", "dʒeŋɡa"],
     enq: ["kone", "kone"],

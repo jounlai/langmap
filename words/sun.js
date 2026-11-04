@@ -1046,7 +1046,7 @@ WORDS.sun = {
     crs: ["soley", "solej"],
     gcf: ["solèy", "solɛj"],
     mnk: ["tiloo", "tiloː"],
-    bqi: ["خور", "xor"],
+    bqi: ["افتو", "æftaw"],
     unr: ["singi", "siŋɡi"],
     hoc: ["singi", "siŋɡi"],
     enq: ["niki", "niki"],

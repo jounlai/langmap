@@ -411,7 +411,7 @@ WORDS.drink = {
     ha: ["sha", "ʃaː"],
     xed: ["sà", "sà"],
     ker: ["se", "se"],
-    dbq: ["sa", "sa"],
+    dbq: ["su", "su"],
     wo: ["naan", "naːn"],
     srr: ["yer", "jeɾ"],
     so: ["cab", "ʕab"],

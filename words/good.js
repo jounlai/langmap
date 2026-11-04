@@ -729,7 +729,7 @@ WORDS.good = {
     dds: ["seeⁿ", "sẽː"],
     emk: ["ka ɲi", "ka ɲi"],
     kao: ["nyi", "ɲi"],
-    snk: ["siita", "siːta"],
+    snk: ["sire", "sire"],
     mwk: ["ñuman", "ɲuman"],
     mlq: ["ɲima", "ɲima"],
     mev: ["yiè", "jiè"],

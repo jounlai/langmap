@@ -1028,7 +1028,7 @@ WORDS.black = {
     zts: ["ngas", "ŋas"],
     mix: ["nchaʼi", "ntʃaʔi"],
     deg: ["obibi", "obibi"],
-    tkr: ["кӏаарна", "kʼaːrna"],
+    tkr: ["кӏарын", "kʼarɨn"],
     cho: ["lusa", "losa"],
     mus: ["lvste", "ləsti"],
     lkt: ["sápa", "sápa"],

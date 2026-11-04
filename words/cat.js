@@ -777,7 +777,7 @@ WORDS.cat = {
     av: ["кету", "ketu"],
     lez: ["кац", "kats"],
     dar: ["гата", "ɡata"],
-    agx: ["къурмев", "qurmew"],
+    agx: ["къурмев", "qːurmew"],
     ddo: ["кӏетӏу", "kʼetʼu"],
     lbe: ["ччиту", "tʃːitu"],
     tab: ["гату", "ɡatu"],

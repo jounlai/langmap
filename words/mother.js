@@ -562,7 +562,7 @@ WORDS.mother = {
     hwc: ["muddah", "mɑdə"],
     se: ["eadni", "ˈeɑdni"],
     sma: ["tjidtjie", "ˈtʃitːʃiɛ"],
-    smj: ["iednne", "iɛdnːɛ"],
+    smj: ["ieddne", "iɛdnːɛ"],
     smn: ["enni", "enːi"],
     sms: ["jeäʹnn", "ʝɛanʲnɐ"],
     sjd: ["е̄ннҍ", "jeːɲː"],

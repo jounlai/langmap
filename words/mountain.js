@@ -736,7 +736,7 @@ WORDS.mountain = {
     an: ["montaña", "monˈtaɲa"],
     krl: ["vuara", "ˈvuara"],
     agx: ["сув", "suw"],
-    abq: ["щхъа", "ɕqa"],
+    abq: ["хва", "xʷa"],
     tcs: ["maunten", "maunten"],
     ekp: ["eɓu", "eɓu"],
     bbo: ["tolo", "tolo"],

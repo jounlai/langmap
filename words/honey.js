@@ -615,7 +615,7 @@ WORDS.honey = {
     nci: ["neuctli", "nekʷtɬi"],
     nv: ["tsísʼná bitłʼizh", "tsʰísʔnɑ́ pìtɬʼìʒ"],
     new: ["कस्ति", "kəsti"],
-    nrf: ["mié", "mje"],
+    nrf: ["myi", "mji"],
     nrf_gg: ["miel", "mjɛl"],
     fra_jer: ["myi", "mji"],
     pnb: ["ماکھی", "maːkʰiː"],

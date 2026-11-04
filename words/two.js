@@ -897,7 +897,7 @@ WORDS.two = {
       vot: ["kahsi", "ˈkahsi"],
       liv: ["kakš", "kɑkʃ"],
       mzn: ["دِ", "de"],
-      glk: ["دو", "du"],
+      glk: ["دؤ", "do"],
       lrc: ["دو", "do"],
       crh: ["eki", "eˈki"],
       tt: ["ике", "iˈke"],

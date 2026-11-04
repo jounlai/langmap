@@ -256,7 +256,7 @@ WORDS.butterfly = {
     nog: ["куьпелек", "kypelek"],  // Shared Turkic root with Turkish kelebek.
     inh: ["кӏормац", "kʼormats"],
     ani: ["чӏемерчӏа", "tʃʼemertʃʼa"],  // Reduplicative tʃʼe-…-tʃʼa.
-    agx: ["цӏабрахъил", "tsʼabraqʰil"],
+    agx: ["цӏабрахъил", "tsʼabraqil"],
     aqc: ["цӏимицӏала", "tsʼimitsʼala"],  // Reduplicated tsʼi-mi-tsʼa-. WOLD independently records the same word as c’imic’əla and rates it 'perhaps borrowed'.
     udi: ["пампалукӏ", "pampalukʼ"],  // Reduplicative pam-pal-.
     tkr: ["кабай", "kabaj"],  // The Gelmets dialect has the reduplicated гаккабай.

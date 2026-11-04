@@ -852,7 +852,7 @@ WORDS.sleep = {
     // --- Caucasus, second pass
     ce: ["вижа", "viʒa"],
     inh: ["вижа", "viʒa"],
-    agx: ["гъархьас", "ʁarħas"],
+    agx: ["гъархьас", "ʁarxas"],
     ani: ["кьихинну", "tɬʼiχinːu"],
     bdk: ["архар", "arxar"],
     ddo: ["кеца", "ketsa"],
@@ -928,7 +928,7 @@ WORDS.sleep = {
     efi: ["de", "dɛ"],
     kde: ["kugona", "kuɡona"],
     rim: ["uraa", "uɾaː"],
-    sms: ["vuâʹđđed", "ˈvuɐðːʲɛd"],
+    sms: ["vueʹđđed", "ˈvuɛðːʲɛd"],
     sgs: ["mėiguotė", "mʲeːiɡuoteː"],
     nog: ["уйклав", "ujqlaw"],
     niv: ["ӄʼод", "qʰod"],

@@ -356,7 +356,7 @@ WORDS.bird = {
     hwc: ["bird", "bɜd"],
     se: ["loddi", "ˈlotːi"],
     sma: ["ledtie", "ˈlɛtːiɛ"],
-    smj: ["lådde", "lɔtɛ"],
+    smj: ["lådde", "lɔdːɛ"],
     smn: ["lodde", "ˈlodːe"],
     vro: ["tsirk", "tsirk"],
     gn: ["guyra", "ɡʷɨɾa"],
@@ -803,7 +803,7 @@ WORDS.bird = {
     yrk: ["тиртя сармик", "tʲirtʲa sarmʲik"],
 
     // --- Caucasus — Turkic quš spread through Lezgic and Khinalug; the rest are native
-    agx: ["къуш", "quʃ"],
+    agx: ["къуш", "qːuʃ"],
     lez: ["къуш", "quʃ"],
     udi: ["къуш", "qʼuʃ"],
     kjj: ["къуш", "quʃ"],

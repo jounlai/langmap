@@ -1007,7 +1007,7 @@ WORDS.egg = {
     tiw: ["pajipajuwu", "padʒipadʒuwu"],
     ja_rys: ["卵", "tunaɡa"],
     xkz: ["khauti", "kʰauti"],
-    abq: ["квтӏагъь", "kʷtʼaʁʲ"],
+    abq: ["кӏвтӏагъь", "kʷʼtʼaʁʲ"],
     ekp: ["ụkwa", "ʊkwa"],
     bbo: ["wɔɔnʋʋ", "wɔːnʊː"],
     mzh: ["lhichʼu", "ɬitʃʼu"],

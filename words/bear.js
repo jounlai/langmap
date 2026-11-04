@@ -1826,7 +1826,7 @@ WORDS.bear = {
     olo: ["kondii", "ˈkondiː"], // was ["kondii", "kondiː"] (vi dialect rules 2026-10-06)
     smj: ["biernna", "piɛrnːa"],
     smn: ["kuob'žâ", "kuobdʒɐ"], // was ["kuob'žâ", "kuɔbdʒa"] (vi dialect rules 2026-10-06)
-    sms: ["kueʹbǯǯ", "kuɛbʲddʒʲɘ"],
+    sms: ["kuõbǯǯ", "kuəbddʒɐ"],
     kca: ["мойпәр", "mɔːjpər"], // was ["мойпар", "mojpar"] (vi dialect rules 2026-10-06)
     mns: ["во̄рто̄лнут", "woːrtoːlnut"],
     sel: ["ӄорӄы", "qorqɨ"],

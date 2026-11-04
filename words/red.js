@@ -222,7 +222,7 @@ WORDS.red = {
     de: ["rot", "ʁoːt"],
     fr: ["rouge", "ʁuʒ"],
     pcd: ["rouche", "ʁuʃ"],
-    nrf: ["rouoge", "ʁwɔdʒ"],
+    nrf: ["rouoge", "ʁwɔʒ"],
     it: ["rosso", "ˈrosso"],
     es: ["rojo", "ˈroxo"],
     es_mx: ["rojo", "ˈroxo"],

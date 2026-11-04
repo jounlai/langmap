@@ -795,7 +795,7 @@ WORDS.name = {
       ady: ["цӏэ", "tsʼa"],
       kbd: ["цӏэ", "tsʼa"],
       ab: ["ахьӡ", "axʲdz"],
-      abq: ["хьыз", "χʲəz"],
+      abq: ["хьзы", "xʲzə"],
       uby: ["pʼtsʼa", "pʼtsʼa"],
       xmf: ["ჯოხო", "dʒoxo"],
       os: ["ном", "nom"],

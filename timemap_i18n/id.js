@@ -84,10 +84,10 @@ window.TM_I18N["id"] = {
   ],
   "hebrew": [
    "Tisyri",
-   "Hesywan",
+   "Heshwan",
    "Kislew",
-   "Tebet",
-   "Syebat",
+   "Tewet",
+   "Syewat",
    "Adar I",
    "Adar",
    "Adar II",
@@ -95,7 +95,7 @@ window.TM_I18N["id"] = {
    "Iyar",
    "Siwan",
    "Tamus",
-   "Ab",
+   "Av",
    "Elul"
   ],
   "islamic": [
@@ -422,14 +422,14 @@ window.TM_I18N["id"] = {
    "type": "Matahari",
    "epoch": "Anno Domini",
    "used": "Sejak 14 September 1752 (3–13 September 1752 tidak pernah ada)",
-   "note": "Britania dan koloninya beralih 170 tahun setelah Roma. Undang-undang yang sama memindahkan Tahun Baru dari 25 Maret ke 1 Januari di Inggris, Wales, Irlandia, dan koloni-koloninya; Skotlandia sudah melakukannya sejak 1600."
+   "note": "Britania dan koloninya beralih 170 tahun setelah Roma; undang-undang yang sama memindahkan Tahun Baru dari 25 Maret ke 1 Januari."
   },
   "greg_us": {
    "name": "Kalender Gregorius",
    "region": "Amerika Serikat",
    "type": "Matahari",
    "epoch": "Anno Domini",
-   "used": "Sejak 1752 di koloni-koloni Britania; wilayah Spanyol dan Prancis memakainya sejak 1582 (atau sejak didirikan), Alaska sejak 1867",
+   "used": "Sejak 1752, sebagai koloni Britania",
    "note": "Kalender yang sama dengan Britania, tetapi bulan ditulis lebih dulu: 10/5 berarti 5 Oktober di AS dan 10 Mei di Britania."
   },
   "greg_jp": {
@@ -455,7 +455,7 @@ window.TM_I18N["id"] = {
    "type": "Bulan Gregorius, tahun era Republik",
    "epoch": "Berdirinya Republik Tiongkok, 1912",
    "used": "Sejak 1912; resmi di Taiwan",
-   "note": "Tahun = tahun Masehi − 1911. Tahun Juche Korea Utara, yang juga dihitung dari 1912 dan dipakai hingga 2024, memiliki angka yang sama.",
+   "note": "Tahun = tahun Masehi − 1911. Berjalan seiring dengan tahun Juche Korea Utara.",
    "year": "Minguo {n}"
   },
   "juche": {
@@ -464,7 +464,7 @@ window.TM_I18N["id"] = {
    "type": "Bulan Gregorius, tahun Juche",
    "epoch": "Kelahiran Kim Il Sung, 1912",
    "used": "1997–2024: Korea Utara berhenti mencantumkan tahun Juche pada Oktober 2024",
-   "note": "Tanggal dulu ditulis dengan tahun Masehi dalam kurung, seperti 주체113(2024)년.",
+   "note": "Ditulis dengan tahun Masehi dalam kurung: 주체115(2026)년.",
    "year": "Juche {n}"
   },
   "buddhist": {
@@ -472,7 +472,7 @@ window.TM_I18N["id"] = {
    "region": "Thailand",
    "type": "Matahari, tahun Era Buddhis",
    "epoch": "Era Buddhis: parinirwana Buddha, 543 SM menurut hitungan Thailand",
-   "used": "Resmi sejak 1 April 1913 (tahun BE), dengan 1 Januari sebagai Tahun Baru sejak 1941",
+   "used": "Resmi sejak 1912 (tahun BE), dengan 1 Januari sebagai Tahun Baru sejak 1941",
    "note": "Tahun = tahun Masehi + 543. Sri Lanka, Myanmar, dan Kamboja menghitung Era Buddhis berselisih satu tahun dari Thailand.",
    "year": "{n} BE"
   },
@@ -491,7 +491,7 @@ window.TM_I18N["id"] = {
    "type": "Lunisolar",
    "epoch": "Tanpa hitungan tahun berjalan; siklus 60 tahun",
    "used": "Menentukan Seollal dan Chuseok",
-   "note": "Aturannya sama dengan kalender Tionghoa tetapi dihitung menurut waktu Korea, sehingga bulan baru menjelang tengah malam bisa membuat awal bulan bergeser satu hari, dan sesekali bulan kabisatnya jatuh di tempat lain (2012: bulan kabisat ke-3 di Korea, bulan kabisat ke-4 di Tiongkok).",
+   "note": "Aturannya sama dengan kalender Tionghoa tetapi dihitung menurut waktu Korea, sehingga bulan baru menjelang tengah malam bisa membuat awal bulan bergeser satu hari.",
    "year": "tahun {gzPy} ({animal})"
   },
   "hebrew": {
@@ -508,7 +508,7 @@ window.TM_I18N["id"] = {
    "type": "Bulan (tanpa bulan kabisat)",
    "epoch": "Hijrah, kepindahan Nabi Muhammad ke Madinah, 622 M",
    "used": "Keperluan agama di seluruh dunia; sipil di Arab Saudi (tabel Umm al-Qura)",
-   "note": "Setahun sekitar 354 hari, sehingga Ramadan maju sekitar 11 hari setiap tahun Masehi dan melewati semua musim dalam 33 tahun. Tanggal dari tahun 1937 hingga 2077 mengikuti kalender Umm al-Qura, yang dihitung Arab Saudi jauh-jauh hari alih-alih menunggu rukyat hilal, meskipun pihak berwenang masih dapat menggeser awal Muharam, Ramadan, Syawal, atau Zulhijah satu hari setelah rukyat. Tanggal sebelum 1937 bersifat perkiraan.",
+   "note": "Setahun sekitar 354 hari, sehingga Ramadan maju sekitar 11 hari setiap tahun Masehi dan melewati semua musim dalam 33 tahun.",
    "year": "{n} H"
   },
   "persian": {
@@ -656,7 +656,7 @@ window.TM_I18N["id"] = {
    "region": "Dawoodi Bohra, Surat",
    "type": "Bulan, tabular: bulan 30 dan 29 hari, 11 tahun kabisat dalam 30 tahun",
    "epoch": "Hijrah, 622 M",
-   "used": "Komunitas Dawoodi Bohra di seluruh dunia (sekitar satu hingga satu setengah juta orang), untuk Ramadan, Idulfitri dan Iduladha, dan semua tanggal keagamaan",
+   "used": "Komunitas Dawoodi Bohra di seluruh dunia (sekitar satu juta orang), untuk Ramadan, Idulfitri dan Iduladha, dan semua tanggal keagamaan",
    "note": "Kalender aritmetis tetap warisan Dinasti Fatimiyah, sehingga Lebaran kaum Bohra bisa jatuh sehari sebelum yang ditetapkan dengan rukyat — Idulfitri 1445 jatuh pada 9 April 2024.",
    "year": "{n} H"
   },
@@ -666,7 +666,7 @@ window.TM_I18N["id"] = {
    "type": "Hitungan 260 hari: 13 angka × 20 nama hari",
    "epoch": "Tanpa tahun 1: hitungan ini berjalan tanpa putus sejak Maya Klasik",
    "used": "Para penjaga hari Maya (ajq’ijab’) untuk upacara, ramalan, dan pemberian nama; Wajxaqib’ B’atz’ (8 B’atz’) membuka siklus baru mereka",
-   "note": "Hitungan yang hidup hingga kini adalah hitungan kuno itu tanpa putus: jatuh pada hari yang sama dengan Tzolk’in klasik dalam korelasi Hitungan Panjang yang dipakai di sini. Wajxaqib’ B’atz’ jatuh setiap 260 hari: 18 Januari 2025, 5 Oktober 2025, 22 Juni 2026, 9 Maret 2027."
+   "note": "Hitungan yang hidup hingga kini adalah hitungan kuno itu tanpa putus: jatuh pada hari yang sama dengan Tzolk’in klasik dalam korelasi Hitungan Panjang yang dipakai di sini. Wajxaqib’ B’atz’ jatuh pada 18 Januari 2025 dan 22 Juni 2026."
   },
   "tibetan": {
    "name": "Kalender Tibet (Phugpa)",
@@ -682,7 +682,7 @@ window.TM_I18N["id"] = {
    "region": "Mongolia",
    "type": "Lunisolar, dengan hari yang dilompati dan digandakan (tipe Tibet)",
    "epoch": "Tanpa hitungan tahun berjalan; tahun dinamai menurut unsur dan hewan dalam siklus 60 tahun",
-   "used": "Bukan kalender negara (sejak 1948 kalender Gregorius), tetapi menentukan Tsagaan Sar, tahun baru, dan hari lahir Chinggis Khaan, keduanya hari libur nasional",
+   "used": "Bukan kalender negara (yaitu kalender Gregorius), tetapi menentukan Tsagaan Sar, tahun baru, dan hari lahir Chinggis Khaan, keduanya hari libur nasional",
    "note": "Versi Genden Baru (Tögs Buyant) dari kalender Tibet, disusun pada 1786; awal tahunnya bisa berselisih sehari atau sebulan dari Tibet — Tsagaan Sar 2025 jatuh pada 1 Maret, Losar pada 28 Februari.",
    "year": "tahun {gzPy} ({animal})"
   },

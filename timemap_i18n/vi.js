@@ -422,14 +422,14 @@ window.TM_I18N["vi"] = {
    "type": "Dương lịch",
    "epoch": "Công nguyên",
    "used": "Từ ngày 14 tháng 9 năm 1752 (các ngày 3–13 tháng 9 năm 1752 chưa từng tồn tại)",
-   "note": "Anh và các thuộc địa chuyển đổi muộn hơn Roma 170 năm. Cùng đạo luật đó dời ngày đầu năm từ 25 tháng 3 sang 1 tháng 1 ở xứ Anh, xứ Wales, Ireland và các thuộc địa; Scotland đã đổi như vậy từ năm 1600."
+   "note": "Anh và các thuộc địa chuyển đổi muộn hơn Roma 170 năm; cùng đạo luật đó dời ngày đầu năm từ 25 tháng 3 sang 1 tháng 1."
   },
   "greg_us": {
    "name": "Lịch Gregory",
    "region": "Hoa Kỳ",
    "type": "Dương lịch",
    "epoch": "Công nguyên",
-   "used": "Từ năm 1752 ở các thuộc địa Anh; các vùng đất của Tây Ban Nha và Pháp dùng từ năm 1582 (hoặc từ khi được lập), Alaska từ năm 1867",
+   "used": "Từ năm 1752, khi còn là thuộc địa Anh",
    "note": "Cùng bộ lịch với Anh, nhưng viết tháng trước: 10/5 là ngày 5 tháng 10 ở Mỹ và ngày 10 tháng 5 ở Anh."
   },
   "greg_jp": {
@@ -455,7 +455,7 @@ window.TM_I18N["vi"] = {
    "type": "Tháng dương lịch, năm Dân Quốc",
    "epoch": "Thành lập Trung Hoa Dân Quốc, 1912",
    "used": "Từ năm 1912; chính thức tại Đài Loan",
-   "note": "Năm = năm dương lịch − 1911. Năm Chủ thể của Triều Tiên, cũng tính từ năm 1912 và dùng đến năm 2024, mang cùng con số.",
+   "note": "Năm = năm dương lịch − 1911. Trùng với năm Chủ thể của Triều Tiên.",
    "year": "Dân Quốc {n}"
   },
   "juche": {
@@ -464,7 +464,7 @@ window.TM_I18N["vi"] = {
    "type": "Tháng dương lịch, năm Chủ thể",
    "epoch": "Năm sinh của Kim Nhật Thành, 1912",
    "used": "1997–2024: Triều Tiên ngừng in năm Chủ thể từ tháng 10 năm 2024",
-   "note": "Ngày tháng từng được viết kèm năm dương lịch trong ngoặc, như 주체113(2024)년.",
+   "note": "Viết kèm năm dương lịch trong ngoặc: 주체115(2026)년.",
    "year": "Chủ thể {n}"
   },
   "buddhist": {
@@ -472,7 +472,7 @@ window.TM_I18N["vi"] = {
    "region": "Thái Lan",
    "type": "Dương lịch, năm Phật lịch",
    "epoch": "Phật lịch: năm Đức Phật nhập Niết-bàn, 543 TCN theo cách tính của Thái Lan",
-   "used": "Chính thức từ ngày 1 tháng 4 năm 1913 (năm Phật lịch), lấy 1 tháng 1 làm ngày đầu năm từ năm 1941",
+   "used": "Chính thức từ năm 1912 (năm Phật lịch), lấy 1 tháng 1 làm ngày đầu năm từ năm 1941",
    "note": "Năm = năm dương lịch + 543. Sri Lanka, Myanmar và Campuchia tính Phật lịch lệch một năm so với Thái Lan.",
    "year": "Phật lịch {n}"
   },
@@ -491,7 +491,7 @@ window.TM_I18N["vi"] = {
    "type": "Âm dương lịch",
    "epoch": "Không đếm năm liên tục; chu kỳ 60 năm",
    "used": "Xác định Tết Seollal và Chuseok",
-   "note": "Cùng quy tắc với âm lịch Trung Quốc nhưng tính theo giờ Hàn Quốc, nên khi ngày sóc rơi gần nửa đêm, tháng có thể bắt đầu lệch một ngày, và đôi khi tháng nhuận rơi vào chỗ khác (năm 2012: Hàn Quốc nhuận tháng 3, Trung Quốc nhuận tháng 4).",
+   "note": "Cùng quy tắc với âm lịch Trung Quốc nhưng tính theo giờ Hàn Quốc, nên khi ngày sóc rơi gần nửa đêm, tháng có thể bắt đầu lệch một ngày.",
    "year": "{gzVi}"
   },
   "hebrew": {
@@ -508,7 +508,7 @@ window.TM_I18N["vi"] = {
    "type": "Âm lịch (không có tháng nhuận)",
    "epoch": "Hijra, cuộc di cư của Muhammad đến Medina, năm 622",
    "used": "Dùng cho tôn giáo trên toàn thế giới; dân sự tại Ả Rập Xê Út (bảng Umm al-Qura)",
-   "note": "Một năm khoảng 354 ngày, nên tháng Ramadan sớm hơn khoảng 11 ngày mỗi năm dương lịch và đi hết một vòng các mùa trong 33 năm. Các ngày từ năm 1937 đến 2077 theo lịch Umm al-Qura, do Ả Rập Xê Út tính trước thay vì chờ nhìn thấy trăng non, dù nhà chức trách vẫn có thể dời ngày bắt đầu tháng Muharram, Ramadan, Shawwal hoặc Dhu al-Hijjah một ngày sau khi quan sát trăng. Các ngày trước năm 1937 chỉ là gần đúng.",
+   "note": "Một năm khoảng 354 ngày, nên tháng Ramadan sớm hơn khoảng 11 ngày mỗi năm dương lịch và đi hết một vòng các mùa trong 33 năm.",
    "year": "{n} Hijri"
   },
   "persian": {
@@ -656,7 +656,7 @@ window.TM_I18N["vi"] = {
    "region": "Người Dawoodi Bohra, Surat",
    "type": "Âm lịch, theo bảng: tháng 30 và 29 ngày, 11 năm nhuận trong 30 năm",
    "epoch": "Hijra, năm 622",
-   "used": "Cộng đồng Dawoodi Bohra trên toàn thế giới (khoảng từ một triệu đến một triệu rưỡi người), cho Ramadan, Eid và mọi ngày tôn giáo",
+   "used": "Cộng đồng Dawoodi Bohra trên toàn thế giới (khoảng một triệu người), cho Ramadan, Eid và mọi ngày tôn giáo",
    "note": "Một bộ lịch số học cố định thừa hưởng từ nhà Fatimid, nên Eid của người Bohra có thể sớm hơn một ngày so với Eid định theo trăng — Eid al-Fitr năm 1445 rơi vào 9 tháng 4 năm 2024.",
    "year": "{n} Hijri"
   },
@@ -666,7 +666,7 @@ window.TM_I18N["vi"] = {
    "type": "Đếm 260 ngày: 13 con số × 20 tên ngày",
    "epoch": "Không có năm 1: phép đếm chạy liên tục từ thời Maya cổ điển",
    "used": "Các thầy giữ ngày Maya (ajq’ijab’) dùng cho nghi lễ, bói toán và đặt tên; Wajxaqib’ B’atz’ (8 B’atz’) mở đầu chu kỳ mới của họ",
-   "note": "Phép đếm còn sống chính là phép đếm cổ, không hề gián đoạn: nó trùng ngày với Tzolk’in cổ điển theo cách quy đổi Long Count dùng ở đây. Wajxaqib’ B’atz’ cứ 260 ngày lại rơi vào một lần: 18 tháng 1 năm 2025, 5 tháng 10 năm 2025, 22 tháng 6 năm 2026, 9 tháng 3 năm 2027."
+   "note": "Phép đếm còn sống chính là phép đếm cổ, không hề gián đoạn: nó trùng ngày với Tzolk’in cổ điển theo cách quy đổi Long Count dùng ở đây. Wajxaqib’ B’atz’ rơi vào 18 tháng 1 năm 2025 và 22 tháng 6 năm 2026."
   },
   "tibetan": {
    "name": "Lịch Tạng (phái Phugpa)",
@@ -682,7 +682,7 @@ window.TM_I18N["vi"] = {
    "region": "Mông Cổ",
    "type": "Âm dương lịch, có ngày bị bỏ qua và ngày lặp lại (kiểu lịch Tạng)",
    "epoch": "Không đếm năm liên tục; năm được gọi theo ngũ hành và con giáp trong chu kỳ 60 năm",
-   "used": "Không phải lịch nhà nước (lịch Gregory là lịch chính thức từ năm 1948), nhưng dùng để định Tsagaan Sar (Tết) và ngày sinh Thành Cát Tư Hãn, cả hai đều là ngày nghỉ lễ",
+   "used": "Không phải lịch nhà nước (lịch Gregory là lịch chính thức), nhưng dùng để định Tsagaan Sar (Tết) và ngày sinh Thành Cát Tư Hãn, cả hai đều là ngày nghỉ lễ",
    "note": "Là bản Tân Genden (Tögs Buyant) của lịch Tạng, soạn năm 1786; năm mới có thể lệch một ngày hoặc một tháng so với Tây Tạng — Tsagaan Sar năm 2025 rơi vào 1 tháng 3, còn Losar vào 28 tháng 2.",
    "year": "{gzVi}"
   },

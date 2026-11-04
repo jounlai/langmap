@@ -422,14 +422,14 @@ window.TM_I18N["de"] = {
    "type": "Solar",
    "epoch": "Anno Domini",
    "used": "Seit 14. September 1752 (den 3.–13. September 1752 gab es nie)",
-   "note": "Großbritannien und seine Kolonien stellten 170 Jahre nach Rom um. Dasselbe Gesetz verlegte den Neujahrstag in England, Wales, Irland und den Kolonien vom 25. März auf den 1. Januar; Schottland hatte diesen Schritt bereits 1600 vollzogen."
+   "note": "Großbritannien und seine Kolonien stellten 170 Jahre nach Rom um; dasselbe Gesetz verlegte den Neujahrstag vom 25. März auf den 1. Januar."
   },
   "greg_us": {
    "name": "Gregorianischer Kalender",
    "region": "Vereinigte Staaten",
    "type": "Solar",
    "epoch": "Anno Domini",
-   "used": "Seit 1752 in den britischen Kolonien; spanische und französische Gebiete nutzten ihn seit 1582 (oder seit ihrer Gründung), Alaska seit 1867",
+   "used": "Seit 1752, als britische Kolonien",
    "note": "Derselbe Kalender wie in Großbritannien, aber mit dem Monat zuerst geschrieben: 10/5 ist in den USA der 5. Oktober, im Vereinigten Königreich der 10. Mai."
   },
   "greg_jp": {
@@ -455,7 +455,7 @@ window.TM_I18N["de"] = {
    "type": "Gregorianische Monate, Jahre der Republik",
    "epoch": "Gründung der Republik China, 1912",
    "used": "Seit 1912; in Taiwan amtlich",
-   "note": "Jahr = westliches Jahr − 1911. Nordkoreas Juche-Jahre, die bis 2024 vom selben Ausgangsjahr 1912 an gezählt wurden, trugen dieselben Zahlen.",
+   "note": "Jahr = westliches Jahr − 1911. Er läuft gleich mit Nordkoreas Juche-Jahr.",
    "year": "Minguo {n}"
   },
   "juche": {
@@ -464,7 +464,7 @@ window.TM_I18N["de"] = {
    "type": "Gregorianische Monate, Juche-Jahre",
    "epoch": "Geburt Kim Il-sungs, 1912",
    "used": "1997–2024: Seit Oktober 2024 druckt Nordkorea das Juche-Jahr nicht mehr",
-   "note": "Daten wurden mit dem westlichen Jahr in Klammern geschrieben, etwa 주체113(2024)년.",
+   "note": "Geschrieben mit dem westlichen Jahr in Klammern: 주체115(2026)년.",
    "year": "Juche {n}"
   },
   "buddhist": {
@@ -472,7 +472,7 @@ window.TM_I18N["de"] = {
    "region": "Thailand",
    "type": "Solar, Jahre der buddhistischen Ära",
    "epoch": "Buddhistische Ära: Parinirvana des Buddha, 543 v. Chr. nach thailändischer Rechnung",
-   "used": "Amtlich seit dem 1. April 1913 (BE-Jahr), mit dem 1. Januar als Neujahr seit 1941",
+   "used": "Amtlich seit 1912 (BE-Jahr), mit dem 1. Januar als Neujahr seit 1941",
    "note": "Jahr = westliches Jahr + 543. Sri Lanka, Myanmar und Kambodscha zählen die buddhistische Ära um ein Jahr verschoben gegenüber Thailand.",
    "year": "{n} BE"
   },
@@ -482,7 +482,7 @@ window.TM_I18N["de"] = {
    "type": "Lunisolar",
    "epoch": "Keine fortlaufende Jahreszählung; die Jahre durchlaufen 60 Namen aus Himmelsstämmen und Erdzweigen",
    "used": "Legt das Frühlingsfest, das Mondfest und andere Feiertage fest",
-   "note": "Jeder Monat beginnt am Tag des Neumonds nach Pekinger Zeit (UTC+8, Meridian 120° O); ein Schaltmonat wird etwa 7-mal in 19 Jahren eingefügt.",
+   "note": "Die Monate richten sich nach dem Neumond in Peking; ein Schaltmonat wird etwa 7-mal in 19 Jahren eingefügt.",
    "year": "Jahr {gzPy} ({animal})"
   },
   "dangi": {
@@ -491,7 +491,7 @@ window.TM_I18N["de"] = {
    "type": "Lunisolar",
    "epoch": "Keine fortlaufende Jahreszählung; 60-Jahres-Zyklus",
    "used": "Legt Seollal und Chuseok fest",
-   "note": "Dieselben Regeln wie der chinesische Kalender, aber für koreanische Zeit berechnet; ein Neumond nahe Mitternacht kann einen Monat daher einen Tag versetzt beginnen lassen, und gelegentlich liegt der Schaltmonat an anderer Stelle (2012: in Korea Schaltmonat 3, in China Schaltmonat 4).",
+   "note": "Dieselben Regeln wie der chinesische Kalender, aber für koreanische Zeit berechnet; ein Neumond nahe Mitternacht kann einen Monat daher einen Tag versetzt beginnen lassen.",
    "year": "Jahr {gzPy} ({animal})"
   },
   "hebrew": {
@@ -507,8 +507,8 @@ window.TM_I18N["de"] = {
    "region": "Saudi-Arabien",
    "type": "Lunar (ohne Schaltmonat)",
    "epoch": "Die Hidschra, Mohammeds Auswanderung nach Medina, 622 n. Chr.",
-   "used": "Weltweit religiös genutzt; in Saudi-Arabien amtlich (Umm-al-Qura-Tabellen), doch staatliche Gehälter werden dort seit 2016 nach dem gregorianischen Kalender gezahlt",
-   "note": "Ein Jahr hat etwa 354 Tage, daher rückt der Ramadan jedes westliche Jahr etwa 11 Tage nach vorn und durchläuft in 33 Jahren alle Jahreszeiten. Die Datumsangaben von 1937 bis 2077 folgen dem Umm-al-Qura-Kalender, den Saudi-Arabien im Voraus berechnet, statt auf die Sichtung der Mondsichel zu warten; dennoch können die Behörden den Beginn von Muharram, Ramadan, Schawwal oder Dhu l-hiddscha nach einer Sichtung um einen Tag verschieben. Datumsangaben vor 1937 sind Näherungswerte.",
+   "used": "Weltweit religiös genutzt; in Saudi-Arabien bürgerlich (Umm-al-Qura-Tabellen)",
+   "note": "Ein Jahr hat etwa 354 Tage, daher rückt der Ramadan jedes westliche Jahr etwa 11 Tage nach vorn und durchläuft in 33 Jahren alle Jahreszeiten.",
    "year": "{n} n. H."
   },
   "persian": {
@@ -517,7 +517,7 @@ window.TM_I18N["de"] = {
    "type": "Solar (astronomisch)",
    "epoch": "Die Hidschra, 622 n. Chr., in Sonnenjahren gezählt",
    "used": "Amtlich im Iran seit 1925. Afghanistan verwendete ihn amtlich bis 2022, als die Regierung zum islamischen Mondkalender wechselte; die Bevölkerung nutzt ihn dort weiterhin",
-   "note": "Das Jahr beginnt am Tag der Märztagundnachtgleiche (Nouruz): Fällt sie vor Mittag Teheraner Zeit, ist dieser Tag der 1. Farwardin, sonst der folgende Tag. Weil das Jahr an die tatsächliche Tagundnachtgleiche gebunden ist, gehört dieser Kalender zu den genauesten Kalendern in Gebrauch.",
+   "note": "Das Jahr beginnt im exakten Moment der Märztagundnachtgleiche (Nouruz), was ihn zu einem der genauesten gebräuchlichen Kalender macht.",
    "year": "{n} SH"
   },
   "indian": {
@@ -535,7 +535,7 @@ window.TM_I18N["de"] = {
    "type": "Solar (feste Regeln)",
    "epoch": "Bangabda, 593 n. Chr.",
    "used": "Amtlich in Bangladesch; gezeigt ist die Revision von 2019",
-   "note": "Neujahr, Pohela Boishakh, liegt fest auf dem 14. April. Westbengalen in Indien behält eine ältere astronomische Fassung, daher können Daten dort um einige Tage abweichen.",
+   "note": "Neujahr, Pohela Boishakh, liegt fest auf dem 14. April. Westbengalen in Indien behält eine ältere astronomische Fassung, daher können Daten dort um einen Tag abweichen.",
    "year": "{n} BS"
   },
   "ethiopic": {
@@ -544,7 +544,7 @@ window.TM_I18N["de"] = {
    "type": "Solar: 12 Monate zu 30 Tagen + ein 13. mit 5–6",
    "epoch": "Ära der Menschwerdung, 8 n. Chr. nach gregorianischer Zählung",
    "used": "Amtlich in Äthiopien",
-   "note": "Sieben bis acht Jahre hinter der westlichen Zählung; Neujahr (Enkutatash) fällt auf den 11. September, im Jahr vor einem gregorianischen Schaltjahr auf den 12. September.",
+   "note": "Sieben bis acht Jahre hinter der westlichen Zählung; Neujahr (Enkutatash) fällt auf den 11. September.",
    "year": "{n} (äthiopisch)"
   },
   "coptic": {
@@ -656,7 +656,7 @@ window.TM_I18N["de"] = {
    "region": "Dawoodi Bohra, Surat",
    "type": "Lunar, tabellarisch: Monate zu 30 und 29 Tagen, 11 Schaltjahre in 30",
    "epoch": "Die Hidschra, 622 n. Chr.",
-   "used": "Die Gemeinschaft der Dawoodi Bohra weltweit (etwa ein bis eineinhalb Millionen), für Ramadan, Eid und alle religiösen Daten",
+   "used": "Die Gemeinschaft der Dawoodi Bohra weltweit (etwa eine Million), für Ramadan, Eid und alle religiösen Daten",
    "note": "Ein fester arithmetischer Kalender, von den Fatimiden übernommen; daher kann das Eid der Bohra einen Tag vor dem nach Mondsichtung bestimmten liegen – Eid al-Fitr 1445 war am 9. April 2024.",
    "year": "{n} n. H."
   },
@@ -666,7 +666,7 @@ window.TM_I18N["de"] = {
    "type": "260-Tage-Zählung: 13 Zahlen × 20 Tagesnamen",
    "epoch": "Kein Jahr 1: Die Zählung läuft seit den klassischen Maya ununterbrochen",
    "used": "Maya-Tageshüter (ajq’ijab’) für Zeremonien, Wahrsagung und Namensgebung; Wajxaqib’ B’atz’ (8 B’atz’) eröffnet ihren neuen Zyklus",
-   "note": "Die lebendige Zählung ist die alte, ohne Unterbrechung: Sie fällt auf denselben Tag wie das klassische Tzolk’in in der hier verwendeten Korrelation der Langen Zählung. Wajxaqib’ B’atz’ fällt alle 260 Tage: 18. Januar 2025, 5. Oktober 2025, 22. Juni 2026, 9. März 2027."
+   "note": "Die lebendige Zählung ist die alte, ohne Unterbrechung: Sie fällt auf denselben Tag wie das klassische Tzolk’in in der hier verwendeten Korrelation der Langen Zählung. Wajxaqib’ B’atz’ fiel auf den 18. Januar 2025 und den 22. Juni 2026."
   },
   "tibetan": {
    "name": "Tibetischer Kalender (Phugpa)",
@@ -682,7 +682,7 @@ window.TM_I18N["de"] = {
    "region": "Mongolei",
    "type": "Lunisolar, mit ausgelassenen und verdoppelten Tagen (tibetischer Typ)",
    "epoch": "Keine fortlaufende Jahreszählung; die Jahre sind in einem 60-Jahres-Zyklus nach Element und Tier benannt",
-   "used": "Nicht der Staatskalender (das ist seit 1948 der gregorianische), legt aber Tsagaan Sar, das Neujahr, und den Geburtstag Dschingis Khans fest, beides gesetzliche Feiertage",
+   "used": "Nicht der Staatskalender (das ist der gregorianische), legt aber Tsagaan Sar, das Neujahr, und den Geburtstag Dschingis Khans fest, beides gesetzliche Feiertage",
    "note": "Die 1786 geschaffene Neue-Genden-Version (Tögs Buyant) des tibetischen Kalenders; ihr Jahr kann einen Tag oder einen Monat versetzt zu Tibet beginnen – Tsagaan Sar 2025 fiel auf den 1. März, Losar auf den 28. Februar.",
    "year": "Jahr {gzPy} ({animal})"
   },

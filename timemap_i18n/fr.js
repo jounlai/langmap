@@ -422,14 +422,14 @@ window.TM_I18N["fr"] = {
    "type": "Solaire",
    "epoch": "Anno Domini",
    "used": "Depuis le 14 septembre 1752 (les 3–13 septembre 1752 n’ont jamais existé)",
-   "note": "La Grande-Bretagne et ses colonies ont changé 170 ans après Rome. La même loi a déplacé le jour de l’An du 25 mars au 1er janvier en Angleterre, au pays de Galles, en Irlande et dans les colonies ; l’Écosse l’avait déjà fait en 1600."
+   "note": "La Grande-Bretagne et ses colonies ont changé 170 ans après Rome ; la même loi a déplacé le jour de l’An du 25 mars au 1er janvier."
   },
   "greg_us": {
    "name": "Calendrier grégorien",
    "region": "États-Unis",
    "type": "Solaire",
    "epoch": "Anno Domini",
-   "used": "Depuis 1752 dans les colonies britanniques ; les territoires espagnols et français l’utilisaient depuis 1582 (ou depuis leur fondation), l’Alaska depuis 1867",
+   "used": "Depuis 1752, en tant que colonies britanniques",
    "note": "Même calendrier qu’en Grande-Bretagne, mais le mois s’écrit en premier : 10/5 est le 5 octobre aux États-Unis et le 10 mai au Royaume-Uni."
   },
   "greg_jp": {
@@ -455,7 +455,7 @@ window.TM_I18N["fr"] = {
    "type": "Mois grégoriens, années de la République",
    "epoch": "Fondation de la République de Chine, 1912",
    "used": "Depuis 1912 ; officiel à Taïwan",
-   "note": "Année = année occidentale − 1911. Les années Juche de la Corée du Nord, comptées jusqu’en 2024 à partir du même point de départ (1912), portaient les mêmes numéros.",
+   "note": "Année = année occidentale − 1911. Il avance au même rythme que l’année Juche de la Corée du Nord.",
    "year": "Minguo {n}"
   },
   "juche": {
@@ -464,7 +464,7 @@ window.TM_I18N["fr"] = {
    "type": "Mois grégoriens, années Juche",
    "epoch": "Naissance de Kim Il-sung, 1912",
    "used": "1997–2024 : la Corée du Nord a cessé d’imprimer l’année Juche en octobre 2024",
-   "note": "Les dates s’écrivaient avec l’année occidentale entre parenthèses, comme dans 주체113(2024)년.",
+   "note": "S’écrit avec l’année occidentale entre parenthèses : 주체115(2026)년.",
    "year": "Juche {n}"
   },
   "buddhist": {
@@ -472,7 +472,7 @@ window.TM_I18N["fr"] = {
    "region": "Thaïlande",
    "type": "Solaire, années de l’ère bouddhique",
    "epoch": "Ère bouddhique : le parinirvana du Bouddha, 543 av. J.-C. selon le comput thaï",
-   "used": "Officiel depuis le 1er avril 1913 (année EB), avec le 1er janvier comme Nouvel An depuis 1941",
+   "used": "Officiel depuis 1912 (année EB), avec le 1er janvier comme Nouvel An depuis 1941",
    "note": "Année = année occidentale + 543. Le Sri Lanka, la Birmanie et le Cambodge comptent l’ère bouddhique avec un an d’écart par rapport à la Thaïlande.",
    "year": "{n} EB"
   },
@@ -482,7 +482,7 @@ window.TM_I18N["fr"] = {
    "type": "Luni-solaire",
    "epoch": "Pas de compte continu des années ; les années parcourent un cycle de 60 noms (troncs célestes et branches terrestres)",
    "used": "Fixe la fête du Printemps, la fête de la Mi-Automne et d’autres fêtes",
-   "note": "Chaque mois commence le jour de la nouvelle lune, à l’heure de Pékin (UTC+8, méridien 120° E) ; un mois intercalaire est ajouté environ 7 fois en 19 ans.",
+   "note": "Les mois suivent la nouvelle lune à Pékin ; un mois intercalaire est ajouté environ 7 fois en 19 ans.",
    "year": "année {gzPy} ({animal})"
   },
   "dangi": {
@@ -491,7 +491,7 @@ window.TM_I18N["fr"] = {
    "type": "Luni-solaire",
    "epoch": "Pas de compte continu des années ; cycle de 60 ans",
    "used": "Fixe Seollal et Chuseok",
-   "note": "Mêmes règles que le calendrier chinois, mais calculé pour l’heure coréenne : une nouvelle lune proche de minuit peut ainsi faire commencer un mois un jour plus tôt ou plus tard, et il arrive que le mois intercalaire tombe ailleurs (2012 : mois intercalaire 3 en Corée, mois intercalaire 4 en Chine).",
+   "note": "Mêmes règles que le calendrier chinois, mais calculé pour l’heure coréenne : une nouvelle lune proche de minuit peut ainsi faire commencer un mois un jour plus tôt ou plus tard.",
    "year": "année {gzPy} ({animal})"
   },
   "hebrew": {
@@ -507,8 +507,8 @@ window.TM_I18N["fr"] = {
    "region": "Arabie saoudite",
    "type": "Lunaire (sans mois intercalaire)",
    "epoch": "L’Hégire, départ de Mahomet pour Médine, 622 apr. J.-C.",
-   "used": "Usage religieux dans le monde entier ; officiel en Arabie saoudite (tables d’Umm al-Qura), même si les salaires publics y sont versés selon le calendrier grégorien depuis 2016",
-   "note": "Une année compte environ 354 jours : le ramadan avance donc d’environ 11 jours chaque année occidentale et fait le tour des saisons en 33 ans. Les dates de 1937 à 2077 suivent le calendrier d’Umm al-Qura, que l’Arabie saoudite calcule à l’avance au lieu d’attendre l’observation du croissant, même si les autorités peuvent encore décaler d’un jour le début de mouharram, du ramadan, de chawwal ou de dhou al-hijja après une observation. Les dates antérieures à 1937 sont approximatives.",
+   "used": "Usage religieux dans le monde entier ; civil en Arabie saoudite (tables d’Umm al-Qura)",
+   "note": "Une année compte environ 354 jours : le ramadan avance donc d’environ 11 jours chaque année occidentale et fait le tour des saisons en 33 ans.",
    "year": "{n} de l’hégire"
   },
   "persian": {
@@ -517,7 +517,7 @@ window.TM_I18N["fr"] = {
    "type": "Solaire (astronomique)",
    "epoch": "L’Hégire, 622 apr. J.-C., comptée en années solaires",
    "used": "Officiel en Iran depuis 1925. L’Afghanistan l’a utilisé officiellement jusqu’en 2022, quand le gouvernement est passé à l’hégire lunaire ; la population l’utilise toujours",
-   "note": "L’année commence le jour de l’équinoxe de mars (Norouz) : si l’équinoxe a lieu avant midi, heure de Téhéran, ce jour est le 1er farvardin ; sinon, c’est le lendemain. Lier l’année à l’équinoxe réel en fait l’un des calendriers en usage les plus précis.",
+   "note": "L’année commence à l’instant exact de l’équinoxe de mars (Norouz), ce qui en fait l’un des calendriers en usage les plus précis.",
    "year": "{n} de l’hégire solaire"
   },
   "indian": {
@@ -535,7 +535,7 @@ window.TM_I18N["fr"] = {
    "type": "Solaire (règles fixes)",
    "epoch": "Bangabda, 593 apr. J.-C.",
    "used": "Officiel au Bangladesh ; la révision de 2019 est affichée",
-   "note": "Le Nouvel An, Pohela Boishakh, est fixé au 14 avril. Le Bengale-Occidental, en Inde, conserve une ancienne version astronomique : les dates peuvent y différer de quelques jours.",
+   "note": "Le Nouvel An, Pohela Boishakh, est fixé au 14 avril. Le Bengale-Occidental, en Inde, conserve une ancienne version astronomique : les dates peuvent y différer d’un jour.",
    "year": "{n} BS"
   },
   "ethiopic": {
@@ -544,7 +544,7 @@ window.TM_I18N["fr"] = {
    "type": "Solaire : 12 mois de 30 jours + un 13e de 5–6",
    "epoch": "Ère de l’Incarnation, 8 apr. J.-C. selon le comput grégorien",
    "used": "Officiel en Éthiopie",
-   "note": "Sept ou huit ans de retard sur le comput occidental ; le Nouvel An (Enkutatash) tombe le 11 septembre, ou le 12 septembre l’année qui précède une année bissextile grégorienne.",
+   "note": "Sept ou huit ans de retard sur le comput occidental ; le Nouvel An (Enkutatash) tombe le 11 septembre.",
    "year": "{n} (éthiopien)"
   },
   "coptic": {
@@ -656,7 +656,7 @@ window.TM_I18N["fr"] = {
    "region": "Dawoodi Bohras, Surat",
    "type": "Lunaire, tabulaire : mois de 30 et 29 jours, 11 années bissextiles sur 30",
    "epoch": "L’Hégire, 622 apr. J.-C.",
-   "used": "La communauté dawoodi bohra dans le monde (environ un million à un million et demi de fidèles), pour le ramadan, l’Aïd et toutes les dates religieuses",
+   "used": "La communauté dawoodi bohra dans le monde (environ un million de fidèles), pour le ramadan, l’Aïd et toutes les dates religieuses",
    "note": "Un calendrier arithmétique fixe hérité des Fatimides : l’Aïd des Bohras peut donc tomber un jour avant celui fixé par l’observation de la lune — l’Aïd el-Fitr 1445 a eu lieu le 9 avril 2024.",
    "year": "{n} de l’hégire"
   },
@@ -666,7 +666,7 @@ window.TM_I18N["fr"] = {
    "type": "Compte de 260 jours : 13 nombres × 20 noms de jours",
    "epoch": "Pas d’an 1 : le compte se poursuit sans interruption depuis les Mayas de l’époque classique",
    "used": "Les gardiens des jours mayas (ajq’ijab’), pour les cérémonies, la divination et l’attribution des noms ; Wajxaqib’ B’atz’ (8 B’atz’) ouvre leur nouveau cycle",
-   "note": "Le compte vivant est l’ancien, sans interruption : il tombe le même jour que le tzolk’in classique selon la corrélation du compte long utilisée ici. Wajxaqib’ B’atz’ tombe tous les 260 jours : 18 janvier 2025, 5 octobre 2025, 22 juin 2026, 9 mars 2027."
+   "note": "Le compte vivant est l’ancien, sans interruption : il tombe le même jour que le tzolk’in classique selon la corrélation du compte long utilisée ici. Wajxaqib’ B’atz’ est tombé le 18 janvier 2025 et le 22 juin 2026."
   },
   "tibetan": {
    "name": "Calendrier tibétain (Phugpa)",
@@ -682,7 +682,7 @@ window.TM_I18N["fr"] = {
    "region": "Mongolie",
    "type": "Luni-solaire, avec jours sautés et jours doublés (type tibétain)",
    "epoch": "Pas de compte continu des années ; les années sont nommées d’après un élément et un animal dans un cycle de 60 ans",
-   "used": "Ce n’est pas le calendrier de l’État (c’est le grégorien depuis 1948), mais il fixe Tsagaan Sar, le Nouvel An, et l’anniversaire de Gengis Khan, tous deux jours fériés",
+   "used": "Ce n’est pas le calendrier de l’État (c’est le grégorien), mais il fixe Tsagaan Sar, le Nouvel An, et l’anniversaire de Gengis Khan, tous deux jours fériés",
    "note": "La version Nouveau Genden (Tögs Buyant) du calendrier tibétain, créée en 1786 ; l’année peut y commencer un jour ou un mois avant ou après le Tibet — Tsagaan Sar 2025 est tombé le 1er mars, Losar le 28 février.",
    "year": "année {gzPy} ({animal})"
   },

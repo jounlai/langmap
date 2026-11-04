@@ -1217,7 +1217,7 @@ WORDS.n99 = {
     th_isan: ["เก้าสิบเก้า", "kaːw˧˩ sip˨˦ kaːw˧˩"],
     th_n: ["เก้าสิบเก้า", "kaːw˥˩ sip˩˧ kaːw˥˩"], // was ["เก้าสิบเก้า", "kaːw˥˩ sip˨˩ kaːw˥˩"] (vi dialect rules 2026-10-06)
     lo: ["ເກົ້າສິບເກົ້າ", "kaw˥˨ sip˧˥ kaw˥˨"], // was ["ເກົ້າສິບເກົ້າ", "kaːw˥˨ sip˧˥ kaːw˥˨"] (vi dialect rules 2026-10-06)
-    ceb: ["nobentay nuybe", "noˈbentaj ˈnujbe"], // was ["nobentay nuybe", "noˈbɛntaj ˈnujbe"] (vi dialect rules 2026-10-06)
+    ceb: ["nobentay nuybe", "noˈbentaj ˈnujbe"],  // The Spanish loan, which everyone knows. The native Cebuano form is kasiyaman ug siyam, shortened to kasiyamag siyam.
     war: ["kasiyaman kag siyam", "kasijaˈman kaɡ siˈjam"],
     bik: ["nobenta y nwebe", "noˈbenta i ˈnwebe"], // was ["nobenta y nwebe", "noˈbɛnta i ˈnwebe"] (vi dialect rules 2026-10-06)
     hil: ["nobentay nwebe", "noˈbɛntaj ˈnwebe"],

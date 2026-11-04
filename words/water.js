@@ -515,7 +515,7 @@ WORDS.water = {
     bdk: ["хьад", "xad"],
     sdo: ["umoʼ", "umoʔ"],
     dbl: ['bana', 'ˈbana'],
-    nrf_gg: ['ieau', 'jo'],
+    nrf_gg: ["iaoue", "jo"],
     fra_jer: ['ieau', 'jo'],
     gsw_w: ['Wasser', 'ʋasːər'],
     huz: ["лъыᴴ", "ɬɨ̃"],

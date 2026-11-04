@@ -26,7 +26,7 @@ Total: 1197 codes.
 | `ady` | Adyghe | アディゲ語 | NW Caucasian (Circassian) | ~600K |
 | `aer` | Eastern Arrernte | 東部アレンテ語 | Pama-Nyungan | ~4K (vulnerable) |
 | `af` | Afrikaans | アフリカーンス語 | Germanic | ~17M |
-| `afb` | Qatari Arabic | カタール・アラビア語 | Afro-Asiatic (Semitic) | ~36M (Gulf Arabic) |
+| `afb` | Qatari Arabic | カタール・アラビア語 | Afro-Asiatic (Semitic) | ~11M (Gulf Arabic) |
 | `agq` | Aghem | アゲム語 | Atlantic-Congo (Bantu, Grassfields, Ring) | ~30K |
 | `agr` | Aguaruna | アグアルナ語 | Jivaroan | ~55K (Peru ~50K + Ecuador ~5K) |
 | `agt` | Central Cagayan Agta | 中部カガヤン・アグタ語 | Austronesian | ~600 (UNESCO: severely endangered) |
@@ -60,7 +60,7 @@ Total: 1197 codes.
 | `aqc` | Archi | アルチ語 | NE Caucasian (Lezgic — isolated within Lezgic; not part of any subgroup) | ~1K (severely endangered) |
 | `ar` | Modern Standard Arabic | 正則アラビア語 | Semitic | ~400M |
 | `ar_eg` | Egyptian Arabic | エジプト・アラビア語 | Semitic | ~100M |
-| `ar_gulf` | Gulf Arabic | 湾岸アラビア語 | Afro-Asiatic (Semitic, Central Semitic, Arabic) | ~36M |
+| `ar_gulf` | Gulf Arabic | 湾岸アラビア語 | Afro-Asiatic (Semitic, Central Semitic, Arabic) | ~11M |
 | `ar_iq` | Iraqi Arabic | イラク・アラビア語 | Semitic | ~30M |
 | `ar_jo` | Jordanian Arabic | ヨルダン・アラビア語 | Afro-Asiatic (Semitic) | ~10M (Jordan) |
 | `ar_lb` | Lebanese Arabic | レバノン・アラビア語 | Semitic | ~5.5M |
@@ -402,7 +402,7 @@ Total: 1197 codes.
 | `h_goguryeo` | Goguryeo | 高句麗語 | Koreanic (debated; possible Japonic affinity) | Extinct (1c. BCE - 668 CE) |
 | `h_tagalog` | Old Tagalog | 古タガログ語 | Austronesian (Central Philippine) | Extinct as classical form (~16c. CE; modern Tagalog descends) |
 | `h_vedic` | Vedic Sanskrit | ヴェーダ語 | Indo-European (Indo-Iranian, Indo-Aryan; Old Indo-Aryan) | Extinct (liturgical use, no native speakers) |
-| `ha` | Hausa | ハウサ語 | Afro-Asiatic (Chadic) | ~80M (~40M L1 + ~40M L2) |
+| `ha` | Hausa | ハウサ語 | Afro-Asiatic (Chadic) | ~94M (~58M L1 + ~36M L2) |
 | `hai` | Haida | ハイダ語 | Language isolate | ~50–100 fluent + ~250–300 total |
 | `haj` | Hajong | ハジョン語 | Indo-Aryan (Eastern; Bengali-Assamese contact zone) | ~70K |
 | `hak_cn` | Hakka Chinese | 客家語 | Sinitic (Hakka) | ~30M mainland (~47M global) |
@@ -450,7 +450,7 @@ Total: 1197 codes.
 | `ibb` | Ibibio | イビビオ語 | Atlantic-Congo (Cross River, Lower Cross) | ~5M |
 | `id` | Indonesian | インドネシア語 | Austronesian | ~200M (~30M L1 + ~170M L2/national) |
 | `ie` | Interlingue | インテルリングエ | Constructed (auxiliary, naturalistic) | ~100 active |
-| `ig` | Igbo | イグボ語 | Niger-Congo | ~24M |
+| `ig` | Igbo | イグボ語 | Niger-Congo | ~34M |
 | `ii` | Yi | イ語 | Sino-Tibetan (Loloish) | ~2M |
 | `ik` | Inupiaq | イヌピアック語 | Eskimo-Aleut (Inuit) | ~2K (definitely endangered) |
 | `ilo` | Ilocano | イロカノ語 | Austronesian | ~10M |
@@ -494,7 +494,7 @@ Total: 1197 codes.
 | `jqr` | Jaqaru | ハカル語 | Aymaran | ~700 (severely endangered) |
 | `juc` | Jurchen | 女真語 | Tungusic (Jurchen-Manchu) | Extinct (~12th-16th c. CE; merged into Manchu) |
 | `jup` | Hup | フプ語 | Nadahup | ~1.5K (Brazil, Colombia) |
-| `jv` | Javanese | ジャワ語 | Austronesian | ~98M |
+| `jv` | Javanese | ジャワ語 | Austronesian | ~68M |
 | `jvn` | Caribbean Javanese | カリブ・ジャワ語 | Austronesian (Malayo-Polynesian, Javanese, diaspora) | ~60K |
 | `jya` | Situ rGyalrong | シトゥ・ルギャルロン語 | Sino-Tibetan (Gyalrongic) | ~85–100K |
 | `ka` | Georgian | ジョージア語 | Kartvelian | ~3.7M |
@@ -536,11 +536,11 @@ Total: 1197 codes.
 | `kjh` | Khakas | ハカス語 | Turkic | ~43K |
 | `kjj` | Khinalug | ヒナルグ語 | NE Caucasian (isolate within Lezgic / independent branch) | ~3K |
 | `kjp` | Pwo Karen | プオ・カレン語 | Sino-Tibetan (Karen, Pwo) | ~1M |
-| `kk` | Kazakh | カザフ語 | Turkic | ~13M |
+| `kk` | Kazakh | カザフ語 | Turkic | ~16M |
 | `kky` | Guugu Yimithirr | グーグ・イミディル語 | Pama-Nyungan (Paman, eastern Cape York) | ~800 |
 | `kl` | Greenlandic | グリーンランド語 | Eskimo-Aleut (Inuit) | ~57K |
 | `kln` | Kalenjin | カレンジン語 | Nilo-Saharan (Eastern Sudanic, Nilotic, Southern Nilotic — Kalenjin cluster) | ~5M |
-| `km` | Khmer | クメール語 | Austroasiatic (Khmeric) | ~17M |
+| `km` | Khmer | クメール語 | Austroasiatic (Khmeric) | ~19M |
 | `kmb` | Kimbundu | キンブンドゥ語 | Niger-Congo (Atlantic-Congo, Bantu; Guthrie Zone H.20 — North Mbundu) | ~2M |
 | `kmc` | Southern Dong | 南部トン語 | Kra-Dai (Kam-Sui) | ~1.5M (Dong nationality ~2.9M) |
 | `kmh` | Kalam | カラム語 | Trans-New Guinea (Madang, Kalam-Kobon) | ~15–20K |
@@ -781,7 +781,7 @@ Total: 1197 codes.
 | `okz` | Old Khmer | 古クメール語 | Austroasiatic (Khmeric) | Extinct |
 | `olk` | Olkol | オルコル語 | Pama-Nyungan | ~50 fluent + heritage learners |
 | `olo` | Livvi-Karelian | リヴヴィ・カレリア語 | Uralic | ~14K (severely endangered) |
-| `om` | Oromo | オロモ語 | Cushitic | ~37M |
+| `om` | Oromo | オロモ語 | Cushitic | ~45M |
 | `omc` | Mochica | ムチカ語 | Mochica (likely isolate) | Extinct |
 | `omx` | Old Mon | 古モン語 | Austroasiatic (Mon-Khmer, Monic) | Extinct (~6-11c. CE; modern Mon descends) |
 | `omy` | Old Malay | 古マレー語 | Austronesian (Malayo-Polynesian, Malayic) | Extinct (~7-14c. CE; modern Malay/Indonesian descend) |
@@ -974,7 +974,7 @@ Total: 1197 codes.
 | `ssy` | Saho | サホ語 | Afro-Asiatic (Cushitic, East) | ~250K |
 | `st` | Sesotho | 南ソト語 | Atlantic-Congo (Bantu, Sotho-Tswana) | ~14M |
 | `stq` | Saterland Frisian | ザーターラント・フリジア語 | Indo-European (West Germanic, Frisian) | ~2.5K |
-| `su` | Sundanese | スンダ語 | Austronesian | ~42M |
+| `su` | Sundanese | スンダ語 | Austronesian | ~32M |
 | `suk` | Sukuma | スクマ語 | Atlantic-Congo (Bantu, Sukuma-Nyamwezi) | ~5M |
 | `sukh` | Sukhothai Thai | スコータイ・タイ語 | Kra-Dai (Tai, Southwestern) | Extinct (13–15c; direct ancestor of modern Thai) |
 | `sus` | Susu | スース語 | Niger-Congo (Mande, Western, Susu-Yalunka) | ~1.2M |

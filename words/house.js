@@ -566,7 +566,7 @@ WORDS.house = {
     smn: ["táálu", "taːlu"],
     sms: ["tääll", "taːlːɐ"],
     sjd: ["пэ̄ҏҏт", "peːrrt"],
-    vro: ["tarõ", "tɑrɤ"],
+    vro: ["koda", "kodɑ"],
     gn: ["óga", "oɡa"],
     yrl: ["uka", "uka"],
     chr: ["ᎦᎵᏦᏕ", "ɡalitsode"],

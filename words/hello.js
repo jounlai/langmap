@@ -840,7 +840,7 @@ WORDS.hello = {
     bik: ["kumusta", "kumusˈta"],
     bto: ["kumusta", "kumusta"],
     tum: ["monire", "moniɾe"],
-    kde: ["nakushukuru", "nakuʃukuɾu"],
+    kde: ["—", "—"],  // nakushukuru read as Swahili "I thank you"; no Makonde greeting found in an open source.
     seh: ["mwadzukabwanji", "mwadzukabwandʒi"],
     ngl: ["salama", "salama"],
     din: ["madho", "mad̪o"],

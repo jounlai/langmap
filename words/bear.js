@@ -234,7 +234,6 @@ WORDS.bear = {
     srr: "loan",
     ve: "loan",
     yo: "loan",
-    ig: "loan",
     zne: "loan",
     bsk: "inherited",
     kio: "taboo",
@@ -307,7 +306,6 @@ WORDS.bear = {
     rcf: "loan",
     niu: "loan",
     rar: "loan",
-    ty: "loan",
     jvn: "loan",
     tsg: "loan",
     bgc: "inherited",
@@ -1160,7 +1158,6 @@ WORDS.bear = {
     srr: ["ursu", "uɾsu"],
     ve: ["biara", "biara"],
     yo: ["beari", "beaɾi"],
-    ig: ["bịa", "bɪa"],
     zne: ["urisi", "urisi"], // was ["urisi", "uɾisi"] (vi dialect rules 2026-10-06)
     bsk: ["ya", "ja"],
     kio: ["ɔ̀nhá:dè", "ɔ̀nháːdè"], // was ["àunhá:dè", "ɔ̀nháːdè"] (r33 fix 2026-10-02)
@@ -1233,7 +1230,6 @@ WORDS.bear = {
     rcf: ["lours", "luʁs"],
     niu: ["urosa", "urosa"],
     rar: ["pea", "pea"], // was ["daba", "daba"] (vi dialect rules 2026-10-06)
-    ty: ["daba", "daba"],
     jvn: ["bruwang", "bruwaŋ"],
     tsg: ["baluwang", "baluwaŋ"],
     bgc: ["भाल्लू", "bʱaːlːuː"],

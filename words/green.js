@@ -148,7 +148,7 @@ WORDS.green = {
     mi: ["kākāriki", "kaːkaːɾiki"],
     haw: ["ʻōmaʻomaʻo", "ʔoːmaʔomaʔo"],
     mt: ["aħdar", "ˈaħdar"],
-    sq: ["jeshil", "jɛˈʃil"],
+    sq: ["gjelbër", "ˈɟɛlbəɾ"],
     hy: ["կանաչ", "kɑˈnɑtʃʰ"],
     // Mesoamerica, from the ALMG vocabularies and Kaufman & Justeson's PMED.
     // Mayan *raʔx is a grue etymon, and the daughters here still are.

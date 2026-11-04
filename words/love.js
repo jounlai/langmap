@@ -777,7 +777,7 @@ WORDS.love = {
     dar: ["дигай", "diɡaj"],
     agx: ["кӏанди", "kʼandi"],
     ddo: ["уйла", "ujla"],
-    lbe: ["ччан", "tʃːan"],
+    lbe: ["ххирану бикӏан", "χːiranu bikʼan"],
     tab: ["ккунивал", "kːunival"],
     aqc: ["кьан", "kɬʼan"],
     udi: ["чурпсун", "tʃurpsun"],

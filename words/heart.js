@@ -862,7 +862,7 @@ WORDS.heart = {
     shy: ["ul", "ul"],
     mwr: ["हियो", "hijo"],
     bgc: ["दिल", "dɪl"],
-    ks: ["دِل", "dɪl"],
+    ks: ["وۄندٕ", "wondɨ"],
     kok: ["काळीज", "kaːɭiːdʒ"],
     mnp: ["心", "seiŋ˥˦"],
     nan_te: ["心", "sim˧˧"],

@@ -120,7 +120,7 @@ NAMES.daniel = {
 NAMES.peter = {
   id:'peter', category:'biblical',
   display:{ en:'Peter', ja:'ペトロ / ピーター' },
-  origin:{ lang:{ en:'Greek', ja:'ギリシャ語' }, native:'Πέτρος', rom:'Pétros', meaning:{ en:'“Rock, stone” — coined by Jesus to render Aramaic Kēfā', ja:'「岩・石」— イエスがアラム語ケファを訳して付けた名' } },
+  origin:{ lang:{ en:'Greek', ja:'ギリシャ語' }, native:'Πέτρος', rom:'Pétros', meaning:{ en:'“Rock, stone” — the Greek rendering of Aramaic Kēfā, the name Jesus gave Simon', ja:'「岩・石」— イエスがシモンに与えたアラム語の名ケファのギリシャ語訳' } },
   background:{
     en:'The name Jesus gave to the fisherman Simon — Greek Pétros, “rock”, a translation of the Aramaic nickname Kēfā — making him the rock on which the Church was built. As the first pope, Saint Peter carried the name into every Christian land: Latin Petrus, French Pierre, Spanish Pedro, Italian Pietro, Russian Pyotr. Eastern Christians kept the Greek Petros, and Arabic-speaking Christians say Buṭrus.',
     ja:'イエスが漁師シモンに与えた名で、ギリシャ語ペトロス「岩」はアラム語のあだ名ケファの訳であり、教会が建てられる岩とされた。初代教皇・聖ペトロを通じてキリスト教圏全体に広がり、ラテン語ペトルス、フランス語ピエール、スペイン語ペドロ、イタリア語ピエトロ、ロシア語ピョートルとなった。東方教会はギリシャ語ペトロスを保ち、アラビア語圏のキリスト教徒はブトルスと呼ぶ。',
@@ -1171,7 +1171,7 @@ NAMES.husayn = {
     ja:'フサインはハサンの縮小形で「小さなハサン」「小さく美しい者」を意味する。預言者の孫でハサンの弟にあたるフサイン・イブン・アリーの名であり、680年のカルバラーの戦いでの殉教により、シーア派イスラムの感情的中心となった（毎年アーシューラーで追悼される）。その形はムスリム世界を巡る——ペルシア語ホセイン、トルコ語ヒュセイン、南アジアのフサイン、そしてサダム・フセインやヨルダンのフセイン国王が名乗ったアラビア語フセイン。',
   },
   forms:{
-    ar:  { form:'حُسَيْن', rom:'Ḥusayn', ipa:'ħu.sajn', freq:'very-common', note:{en:'the original',ja:'原形'}, people:['Husayn ibn Ali','Saddam Hussein','King Hussein of Jordan'] },
+    ar:  { form:'حُسَيْن', rom:'Ḥusayn', ipa:'ħu.sajn', freq:'very-common', note:{en:'the original',ja:'原形'}, people:['Husayn ibn Ali','King Hussein of Jordan'] },
     ars: { form:'حسين', rom:'Ḥusayn', ipa:'ħu.sajn', freq:'very-common' },
     fa:  { form:'حسین', rom:'Hossein', ipa:'hoˈsejn', freq:'very-common', note:{en:'also Hosein',ja:'ホセインとも'}, people:['Hossein Rezazadeh'] },
     ur:  { form:'حسین', rom:'Hussain', ipa:'ɦʊˈsɛːn', freq:'common' },
@@ -1364,8 +1364,8 @@ NAMES.margaret = {
   display:{ en:'Margaret', ja:'マーガレット / マルガリータ' },
   origin:{ lang:{ en:'Greek', ja:'ギリシャ語' }, native:'μαργαρίτης', rom:'margarítēs', meaning:{ en:'“Pearl”', ja:'「真珠」' } },
   background:{
-    en:'From Greek margarítēs, “pearl”, a word Greek had itself borrowed from further east. The cult of Saint Margaret of Antioch made it a favourite across medieval Europe, later worn by queens and by figures from Margaret Thatcher to Margaret Atwood. Its pet forms took on lives of their own — German Greta, Italian and Spanish Rita, and English Daisy, because French marguerite came to name the daisy flower.',
-    ja:'ギリシャ語マルガリーテース「真珠」（ギリシャ語自体がさらに東方から借用した語）に由来する。アンティオキアの聖マルガリタへの崇敬により中世ヨーロッパで愛され、後にマーガレット・サッチャーやマーガレット・アトウッドまで多くの女性が名乗った。愛称も独立して広まり、独グレタ、伊・西のリタ、そして英語のデイジーとなった（フランス語 marguerite がヒナギクを指すようになったため。ギリシャ語 margarítēs 自体は「真珠」のみを意味する）。',
+    en:'From Greek margarítēs, “pearl”, a word Greek had itself borrowed from further east. The cult of Saint Margaret of Antioch made it a favourite across medieval Europe, later worn by queens and by figures from Margaret Thatcher to Margaret Atwood. Its pet forms took on lives of their own — German Greta, Italian and Spanish Rita, and English Daisy, a flower name also used as a nickname for Margaret, since Marguerite is the French word for the daisy.',
+    ja:'ギリシャ語マルガリーテース「真珠」（ギリシャ語自体がさらに東方から借用した語）に由来する。アンティオキアの聖マルガリタへの崇敬により中世ヨーロッパで愛され、後にマーガレット・サッチャーやマーガレット・アトウッドまで多くの女性が名乗った。愛称も独立して広まり、独グレタ、伊・西のリタ、そして英語のデイジーである（デイジーは花の名で、フランス語 marguerite がヒナギクを指すことからマーガレットの愛称にもなった。ギリシャ語 margarítēs 自体は「真珠」のみを意味する）。',
   },
   forms:{
     en:  { form:'Margaret', rom:'Margaret', ipa:'ˈmɑːɡərɪt', freq:'very-common', note:{en:'Maggie, Peggy, Margo dim.',ja:'愛称マギー・ペギー・マーゴ'}, people:['Margaret Thatcher','Margaret Atwood'] },

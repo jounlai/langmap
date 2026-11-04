@@ -8,5 +8,6 @@
 - sw speakers: ~5M L1 + ~92M L2 (total unchanged).
 
 Rejected: id ~270M, su ~32M, pcm ~120M. Counting methods differ and these feed zoom gating; no single better source.
-Open: descriptions of af tn st ts ssw nbl nso en_za still say 11 official languages in every translation; jv ~98M against 68M;
+Fixed afterwards: descriptions of the South African rows now say 12 official languages in every translation.
+Open: jv ~98M against 68M;
 gaps on om ig kk km sd ceb ms mai ny ha; afb and ar_gulf both ~36M; en official "UK, USA" thin; ur official omits Indian states.

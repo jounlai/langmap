@@ -468,6 +468,8 @@ WORDS.whale = {
     pot: "plain",
     crk: "plain",
     cmg: "plain",
+    rtm: "plain",
+    pmt: "plain",
   },
   routes: {
     fish: {"color":"#2563eb","emoji":"🐟","en":"called a fish","ja":"「魚」と呼ぶ","ko":"\"물고기\"라 부름","zh":"称作\"鱼\"","yue":"叫做「魚」","vi":"gọi là cá","th":"เรียกว่าปลา","id":"disebut ikan","hi":"मछली कहा जाता है","de":"als Fisch bezeichnet","fr":"appelée poisson","it":"chiamata pesce","es":"llamada pez","pt":"chamada peixe","ru":"называют рыбой","uk":"називають рибою","ar":"تُسمّى سمكة","he":"נקרא דג","sw":"huitwa samaki"},
@@ -881,5 +883,7 @@ WORDS.whale = {
     pot: ["mshinmégwé", "mʃinmeɡwe"],
     crk: ["ᒥᓯ ᐚᐸᒣᐠ", "misi waːpameːk"],
     cmg: ["ᠬᠠᠯᠢᠮᠤ", "qalimu"],  // Traditional spelling from Wiktionary's Mongolian entry; no dated Classical citation opened, so this is the written-standard form, not proof of period. IPA in the row's style, mine.
+    rtm: ["tolo", "tolo"],  // wordlist
+    pmt: ["paraoa", "paraoa"],  // Tregear PARAOA a whale; no length marks in source
   },
 };

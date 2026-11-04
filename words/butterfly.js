@@ -937,5 +937,7 @@ WORDS.butterfly = {
     cjs: ["қонақ", "qonaq"],  // Shor, glossed «бабочка».
     men: ["buwa", "buwa"],  // The Mende word for the butterfly.
     ja_chu: ["蝶", "tɕoː"],  // てう in 御伽草子・貴船の本地 (室町末) as quoted in 日本国語大辞典, there as a figure for a beautiful woman. IPA as ja.
+    mak: ["pipi-pipi", "ˌpipiˈpipi"],  // "pipi-pipi kupu-kupu"
+    sas: ["éwok-éwok", "ewok ewok"],  // "éwok-éwok n kupu-kupu"; also bekol; page image read
   },
 };

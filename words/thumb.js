@@ -641,6 +641,7 @@ WORDS.thumb = {
     crk: "big",
     h_tagalog: "big",
     cmg: "plain",
+    pmt: "plain",
   },
   routes: {
     mother: {"color":"#db2777","emoji":"👪","en":"mother · parent · elder kin","ja":"母・親・年長の身内","ko":"어머니 · 어버이 · 웃어른","zh":"母亲・父母・长辈","yue":"阿媽 · 父母 · 長輩","vi":"mẹ · cha mẹ · bậc trên","th":"แม่ · พ่อแม่ · ญาติผู้ใหญ่","id":"ibu · orang tua · kerabat tua","hi":"माँ · माता-पिता · बड़े","de":"Mutter · Eltern · ältere Verwandte","fr":"mère · parent · aîné","it":"madre · genitore · parente anziano","es":"madre · padre · pariente mayor","pt":"mãe · pai · parente mais velho","ru":"мать · родитель · старший родич","uk":"мати · батько · старший родич","ar":"أم · والد · قريب أكبر","he":"אם · הורה · קרוב מבוגר","sw":"mama · mzazi · ndugu mkubwa"},
@@ -1226,5 +1227,6 @@ WORDS.thumb = {
     crk: ["ᒥᓯᒋᐦᒑᐣ", "misitʃihtʃaːn"],  // With misi- 'big'.
     h_tagalog: ["ᜑᜒᜈ᜔ᜎᜎᜃᜒ", "hinlalaˈki"],  // Noceda & Sanlucar 1754: Hinlalaqui, 'dedo pulgar'. The source is Latin; the Baybayin spelling is a transliteration. Stress follows the modern Wiktionary entry.
     cmg: ["ᠡᠷᠡᠬᠡᠢ", "erekei"],  // Traditional spelling from Wiktionary's Mongolian entry; no dated Classical citation opened, so this is the written-standard form, not proof of period. IPA in the row's style, mine.
+    pmt: ["rima ponga", "rima poŋa"],  // Tregear rima poga the thumb (under MANEMANEA)
   },
 };

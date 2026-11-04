@@ -771,6 +771,7 @@ WORDS.rainbow = {
     duu: "plain",
     kaw: "plain",
     h_tagalog: "other",
+    rtm: "plain",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1485,5 +1486,6 @@ WORDS.rainbow = {
     duu: ["mɯɕiŋɟɔʔ", "mɯɕiŋɟɔʔ"],  // Tones dropped, as in the rest of the row.
     kaw: ["ꦧꦶꦪꦁꦭꦭ", "biaŋlala"],  // Old Javanese biāṅlala 'rainbow' (Wiktionary, /bi.aŋ.la.la/). The source prints it in Latin letters; the Javanese-script spelling is a transliteration.
     h_tagalog: ["ᜊᜑᜄ᜔ᜑᜇᜒ", "bahaɡˈhaɾiʔ"],  // Noceda & Sanlucar 1754: Bahaghari, 'Arco del Cielo'. The source is Latin; the Baybayin spelling is a transliteration. Stress follows the modern Wiktionary entry.
+    rtm: ["ʻasesekäe", "ʔasesekæe"],  // wordlist
   },
 };

@@ -362,6 +362,7 @@ WORDS.milkyway = {
     crk: "road",
     oj: "birds",
     cmg: "other",
+    rar: "other",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -667,5 +668,6 @@ WORDS.milkyway = {
     crk: ["ᒪᐦᐃᐦᑲᓂ ᒣᐢᑲᓇᐤ", "mahihkani meːskanaw"],  // Literally 'wolf road'.
     oj: ["binesiwi-miikana", "binesiwi miːkana"],  // With miikana 'road'; manidoo-miikana is also recorded.
     cmg: ["ᠲᠩᠷᠢ ᠶᠢᠨ ᠵᠠᠭᠠᠳᠠᠰᠤ", "teŋri jin dʒaɣadasu"],  // Traditional spelling from Wiktionary's Mongolian entry; no dated Classical citation opened, so this is the written-standard form, not proof of period. IPA in the row's style, mine.
+    rar: ["Te Tārava", "te taːɾava"],  // Buse under tārava; Savage tarava the milky-way. Also te ika a Tangaroa
   },
 };

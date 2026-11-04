@@ -325,6 +325,8 @@ WORDS.shootingstar = {
     tsi: "other",
     xct: "other",
     ja_chu: "moving",
+    rar: "moving",
+    pmt: "plain",
   },
   routes: {
     falling: {"color":"#2563eb","emoji":"⬇️","en":"a falling star","ja":"落ちる星","ko":"떨어지는 별","zh":"落下的星","yue":"跌落嘅星","vi":"sao rơi","th":"ดาวที่ตก","id":"bintang jatuh","hi":"गिरता तारा","de":"fallender Stern","fr":"étoile qui tombe","it":"stella che cade","es":"estrella que cae","pt":"estrela que cai","ru":"падающая звезда","uk":"зірка, що падає","ar":"نجم يسقط","he":"כוכב שנופל","sw":"nyota inayoanguka"},
@@ -595,5 +597,7 @@ WORDS.shootingstar = {
     tsi: ["ʼyaanabiyaals", "ʔjaːnabijaːls"],  // 'Shooting star; meteorite.'
     xct: ["སྐར་མདའ", "skarmda"],  // Tibetan སྐར་མདའ 'meteor, shooting star' (Wiktionary): skar 'star' + mda' 'arrow'. IPA in the row's written-form style; the entry is not marked Classical.
     ja_chu: ["流星", "naɡaɾeboɕi"],  // 釈日本紀 (1274-1301) 流星(ナカレホシ), as quoted in 日本国語大辞典.
+    rar: ["ʻētū rere", "ʔeːtuː ɾeɾe"],  // Buse: shooting star; rere = fly
+    pmt: ["kopuru", "kopuru"],  // Tregear KOPURU a meteor; no length marks
   },
 };

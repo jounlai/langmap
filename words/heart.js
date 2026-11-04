@@ -802,7 +802,7 @@ WORDS.heart = {
     niu: ["atevili", "atevili"],
     tvl: ["fatu", "fatu"],
     rap: ["mahatu", "mahatu"],
-    rar: ["ngākau", "ŋaːkau"],
+    rar: ["pūmanava", "puːmanava"],
     mh: ["bōro", "pˠərˠəw"],
     gil: ["nano", "nano"],
     ch: ["korason", "koɾason"],

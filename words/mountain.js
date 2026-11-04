@@ -541,7 +541,7 @@ WORDS.mountain = {
     teo: ["emoru", "emoru"],
     war: ["bukid", "ˈbukid"],
     sas: ["gunung", "ɡunuŋ"],
-    mak: ["moncong", "ˈmoɲtʃoŋ"],
+    mak: ["buluʼ", "ˈbuluʔ"],
     mui: ["gunung", "ɡunuŋ"],
     ii: ["ꁧ", "bo˧˧"],
     pcc: ["bol", "po˨˦"],

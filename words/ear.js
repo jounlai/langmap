@@ -846,7 +846,7 @@ WORDS.ear = {
     bbc: ["pinggol", "piŋɡol"],
     bts: ["pinggol", "piŋɡol"],
     akb: ["pinggol", "piŋɡol"],
-    abs: ["talinga", "taliŋa"],
+    abs: ["talingang", "taliŋaŋ"],
     max: ["talinga", "taliŋa"],
     bew: ["kuping", "kupiŋ"],
     pmy: ["tlinga", "tliŋa"],

@@ -663,6 +663,8 @@ WORDS.bat = {
     osa: "plain",
     duu: "plain",
     kaw: "plain",
+    rtm: "plain",
+    sas: "plain",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1271,5 +1273,7 @@ WORDS.bat = {
     osa: ["žą́ąhpaxe", "ʒã́ːhpaxe"],
     duu: ["nɑmpɯwɑŋ", "nɑmpɯwɑŋ"],  // Tones dropped, as in the rest of the row.
     kaw: ["ꦭꦮ", "lawa"],  // Old Javanese lawā 'bat' (Wiktionary, /la.wa/). No image is recorded for it, so it counts as a word of its own. The source prints it in Latin letters; the Javanese-script spelling is a transliteration.
+    rtm: ["hufhufu", "hufhufu"],  // wordlist
+    sas: ["bukan", "bukan"],  // "bung.kal; bukan n kelelawar"; also keloang; page image read
   },
 };

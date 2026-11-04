@@ -795,7 +795,7 @@ WORDS.star = {
       niu: ["fetū", "fetuː"],
       tvl: ["fetū", "fetuː"],
       rap: ["hetuʻu", "hetuʔu"],
-      rar: ["ʻetū", "ʔetuː"],
+      rar: ["ʻētū", "ʔeːtuː"],
       mh: ["iju", "jitʲiw"],
       gil: ["itoi", "iˈtoi"],
       ch: ["putiʼon", "putiˈʔon"],

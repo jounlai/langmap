@@ -392,7 +392,7 @@ WORDS.new = {
     niu: ["foou", "foou"],
     tvl: ["fou", "fou"],
     rap: ["hoʻou", "hoʔou"],
-    rar: ["ʻou", "ʔou"],
+    rar: ["ʻōu", "ʔoːu"],
     gil: ["bou", "bou"],
     tet: ["foun", "foun"],
     aoz: ["feʼu", "feʔu"],

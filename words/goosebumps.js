@@ -240,6 +240,9 @@ WORDS.goosebumps = {
     ssf: "plain",
     djr: "plain",
     trv: "plain",
+    mi: "plain",
+    rar: "plain",
+    sas: "plain",
   },
   family2: {
     ko: "bird",
@@ -428,5 +431,8 @@ WORDS.goosebumps = {
     ssf: ["kunhahumzash", "kunhahumðaʃ"],  // Thao word for goosebumps from sudden fright.
     djr: ["ḏutjṯutj", "ɖucʈuc"],
     trv: ["sisuy", "sisuj"],  // Truku word glossed 顫抖；雞皮疙瘩；毛骨悚然；麻麻 'tremble; goosebumps; shudder; tingle'.
+    mi: ["hīnawanawa", "hiːnawanawa"],  // Te Aka: to have goose pimples, have goose bumps; a verb
+    rar: ["ʻiʻī", "ʔiʔiː"],  // Buse: come out in goose flesh
+    sas: ["kemotoq", "kəmotoʔ"],  // "ke.mo.toq a merinding"; page image read
   },
 };

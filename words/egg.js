@@ -441,7 +441,7 @@ WORDS.egg = {
     niu: ["fua moa", "fua moa"],
     tvl: ["fuamoa", "fuamoa"],
     rap: ["māmari", "maːmaɾi"],
-    rar: ["ua", "ua"],
+    rar: ["ʻua", "ʔua"],
     mh: ["lep", "lʲɛpʲ"],
     gil: ["bunnimoa", "bunːiˈmoa"],
     ch: ["chådaʼ", "tʃɑdaʔ"],

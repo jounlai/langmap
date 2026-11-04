@@ -360,6 +360,10 @@ WORDS.dragonfly = {
     chr: "plain",
     oj: "plain",
     yur: "other",
+    abs: "plain",
+    rtm: "plain",
+    rar: "plain",
+    sas: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -665,5 +669,9 @@ WORDS.dragonfly = {
     chr: ["ᏩᏓᏚᎦ", "wadaduɡa"],
     oj: ["oboodashkwaanishiinh", "oboːdaʃkwaːniʃĩː"],
     yur: ["paʼaahl ʼwerrpʼ", "paʔaːɬ ʔwɚːpʼ"],  // With ʼwerrpʼ, the row's butterfly word.
+    abs: ["andarinyu", "andariɲu"],  // capung
+    rtm: ["ʻạsʻạsi", "ʔɔsʔɔsi"],  // wordlist
+    rar: ["kākarāvai", "kaːkaɾaːvai"],  // Buse: various species of dragonfly; etymology queried (water gazer?)
+    sas: ["kedée", "kədee"],  // "ke.dèe; kerèe n capung"; page image read
   },
 };

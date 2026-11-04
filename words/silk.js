@@ -581,7 +581,7 @@ WORDS.silk = {
     zap: ["seda", "seda"],
     chf: ["seda", "ˈseda"],
     ixl: ["seda", "ˈseda"],
-    mic: ["lapliʼsikn", "labəliːsiɡən"],
+    mic: ["lapliʼsign", "labəliːsiɡən"],
     tdh: ["रेशम", "resəm"],
     mwl: ["seda", "ˈseðɐ"],
     aqc: ["дарай", "daɾaj"],

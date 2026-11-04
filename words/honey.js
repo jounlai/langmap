@@ -683,7 +683,7 @@ WORDS.honey = {
     lg: ["omubisi gwʼenjuki", "omubisi ɡweɲdʒuki"],
     sms: ["miõtt", "miətːɐ"],
     sma: ["hååneske", "ˈhoːnɛskɛ"],
-    sjd: ["мӣдт", "miːdt"],
+    sjd: ["мӣдт", "mʲiːdt"],
     yrk: ["мяв", "mʲaw"],
     ket: ["меʼт", "mʲɛʔt"],
     gld: ["киаксо", "kiaksɔ"],

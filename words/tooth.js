@@ -527,7 +527,7 @@ WORDS.tooth = {
     vro: ["hammas", "ˈhɑmːɑs"],
     gn: ["tãi", "tãj"],
     yrl: ["sanya", "saɲa"],
-    chr: ["ᎦᎾᏙᎦ", "ɡanadoɡa"],
+    chr: ["ᎦᏅᏙᎦ", "ɡandoɡa"],
     cay: ["onóʼjaʼ", "onóʔdʒaʔ"],
     tus: ["uʼtuʼth", "əʔtuʔθ"],
     as: ["দাঁত", "dãt"],

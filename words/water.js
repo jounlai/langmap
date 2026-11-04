@@ -1223,7 +1223,7 @@ WORDS.water = {
     tji: ["ce", "tsʰe˨˩"],
     nij: ["danum", "danum"],
     sda: ["uai", "uai"],
-    lld: ["ega", "ˈeɡa"],
+    lld: ["ega", "ˈɛɡa"],
     stq: ["Woater", "ˈvɔːtər"],
     wym: ["woser", "ˈvɔsɐ"],
     yuc: ["tse", "tse"],

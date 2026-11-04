@@ -762,7 +762,7 @@ WORDS.love = {
     chp: ["yeghąnétą", "jeʁãnétã"],
     oj: ["zaagiʼiwewin", "zaːɡiʔiwewin"],
     atj: ["sakihiwewin", "sakihiwewin"],
-    mic: ["kesalk", "ɡesalɡ"],
+    mic: ["gesaluet", "ɡesaluet"],
     pqm: ["kseltom", "kseltom"],
     abe: ["kazalmômuk", "kazalmɔ̃muk"],
     umu: ["ahóoluw", "ahoːləw"],

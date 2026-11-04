@@ -460,7 +460,7 @@ WORDS.thanks = {
     sr: ["хвала", "xʋǎːla"],
     bg: ["благодаря", "blɐɡodɐˈrʲɤ"],
     lt: ["ačiū", "ˈɑːtʃʲuː"],
-    sgs: ["ačiū", "atʃuː"],
+    sgs: ["diekou", "dʲieːkɔu"],
     lv: ["paldies", "ˈpaldiɛs"],
     prg: ["dīnkun", "diːnkun"],
     sq: ["faleminderit", "falɛminˈdɛɾit"],

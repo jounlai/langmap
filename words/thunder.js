@@ -1233,7 +1233,7 @@ WORDS.thunder = {
     hsn_hy: ["雷", "lui˩˩˨"],  // The plain old Chinese root, as in Mandarin; 雷公 'Lord Thunder' is also used.
     kw: ["taran", "ˈtaran"],  // From Proto-Celtic *toranos, the root behind the Gaulish thunder god Taranis; lightning is lughes.
     ain: ["カムイフㇺ", "kamujhum"],  // Kamuy 'god' + hum 'sound': thunder is the god's sound.
-    sjd: ["тӣрьмесь", "tiːrʲmesʲ"],  // The same word as Tiermes, the thunder god of the Eastern Sámi.
+    sjd: ["тӣрьмесь", "tʲiːrmʲeɕ"],  // The same word as Tiermes, the thunder god of the Eastern Sámi.
     vep: ["juru", "ˈjuru"],  // The Veps Bible also calls it jumalanjuru, 'God's thunder'.
     gld: ["агди", "aɡdʒi"],  // Akin to Evenki агды agdy 'thunder'.
     tsu: ["akʼengʉca", "akʔeŋɨtsa"],  // Kept apart from the lightning in Revelation 4:5.

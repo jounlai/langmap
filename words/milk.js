@@ -685,7 +685,7 @@ WORDS.milk = {
     arn: ["lichi", "litʃi"],
     oj: ["doodooshaaboo", "doːdoːʃaːboː"],
     atj: ["tcotcocanapo", "tʃotʃoʃanapo"],
-    mic: ["mlakejk", "mlaɡedʒk"],
+    mic: ["mlagejg", "məlaɡetʃk"],
     rif: ["ⴰⵖⵉ", "aɣi"],
     kr: ["cam", "tʃam"],
     moh: ["onòn:taʼ", "onũ̀ːtaʔ"],

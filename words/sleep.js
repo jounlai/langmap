@@ -834,7 +834,7 @@ WORDS.sleep = {
     sma: ["åeredh", "ˈoærɛdh"],
     smj: ["oadet", "oadet"],
     smn: ["uáđđiđ", "uaðːið"],
-    sjd: ["вуэдтӭ", "vuedte"],
+    sjd: ["вуэдтӭ", "vuedtʲe"],
     ykg: ["аавэ-", "aːwe"],
     ckt: ["йыԓӄэтык", "jəɬqetək"],
     ess: ["ӄаваӷаӄуӄ", "qavaɣaquq"],
@@ -851,7 +851,7 @@ WORDS.sleep = {
 
     // --- Caucasus, second pass
     ce: ["вижа", "viʒa"],
-    inh: ["вижа", "viʒa"],
+    inh: ["наб е", "nab je"],
     agx: ["гъархьас", "ʁarxas"],
     ani: ["кьихинну", "tɬʼiχinːu"],
     bdk: ["архар", "arxar"],

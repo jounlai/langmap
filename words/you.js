@@ -769,7 +769,7 @@ WORDS.you = {
       chp: ["nën", "nen"],
       oj: ["giin", "ɡiːn"],
       atj: ["kir", "kiɾ"],
-      mic: ["kiʼl", "kiːl"],
+      mic: ["giʼl", "ɡiːl"],
       pqm: ["kil", "kil"],
       abe: ["kia", "kia"],
       umu: ["kii", "kiː"],

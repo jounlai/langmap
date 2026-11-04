@@ -634,7 +634,7 @@ WORDS.white = {
     chp: ["delgai", "delɡai"],
     oj: ["waabishkaa", "waːbiʃkaː"],
     atj: ["wapaw", "wapaw"],
-    mic: ["wapeʼk", "wabeːɡ"],
+    mic: ["wapeʼg", "wabeːɡ"],
     pqm: ["wapeyu", "wapeju"],
     abe: ["wôbi", "wɔ̃bi"],
     umu: ["waapeew", "waːpeːw"],

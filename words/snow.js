@@ -384,7 +384,7 @@ WORDS.snow = {
     sms: ["muõtt", "muətːɐ"],
     sjd: ["вэ̄дз", "veːdz"],
     vro: ["lumi", "ˈlumi"],
-    chr: ["ᎤᎾᏥ", "unatsi"],
+    chr: ["ᎤᏅᏥ", "unə̃tsi"],
     as: ["বৰফ", "bɔɹɔf"],
     or: ["ବରଫ", "bɔrɔpʰɔ"],
     bho: ["बरफ", "bəɾəf"],

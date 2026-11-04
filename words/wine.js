@@ -1774,7 +1774,7 @@ WORDS.wine = {
 
     // --- Caucasus, Volga-Ural, Siberia, Semitic and the Horn ---
     dar: ["чягъир", "tʃaˤʁir"],
-    agx: ["чахир", "tʃaxir"],
+    agx: ["чахир", "tʃaχir"],
     lbe: ["чахир", "tʃaχir"], // was ["чахир", "tʃaxir"] (vi dialect rules 2026-10-06)
     tab: ["чяхир", "tʃæxir"],
     aqc: ["чихир", "tʃixir"],

@@ -514,7 +514,7 @@ WORDS.new = {
     nij: ["taheta", "taheta"],
     mhy: ["waʔu", "waʔu"],
     sda: ["baʼru", "baʔru"],
-    lld: ["nuef", "nuɛf"],
+    lld: ["nuef", "nwef"],
     kgg: ["dzəŋən", "dzəŋən"],
     ani: ["цӏив", "tsʼiv"],
     bdk: ["таза", "taza"],

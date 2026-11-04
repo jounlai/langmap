@@ -1224,7 +1224,7 @@ WORDS.tree = {
     tji: ["kamong", "kʰa˨˩moŋ˨˩"],
     nij: ["kayu", "kaju"],
     sda: ["kayu", "kaju"],
-    lld: ["lën", "lən"],
+    lld: ["lën", "ləŋ"],
     stq: ["Boom", "boːm"],
     wym: ["baojm", "baɔjm"],
     yuc: ["ʼya", "ʔja"],

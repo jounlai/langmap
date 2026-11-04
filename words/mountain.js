@@ -710,7 +710,7 @@ WORDS.mountain = {
     toc: ["kestín", "kestín"],
     poh: ["yuuqʼ", "juːqʼ"],
     cuk: ["yar", "jaɾ"],
-    mic: ["kmʼtn", "ɡəmdən"],
+    mic: ["gmtn", "ɡəmdən"],
     jiv: ["náint", "naint"],
     srm: ["kúnunu", "kúnunu"],
     mpt: ["amgolim", "amɡolim"],

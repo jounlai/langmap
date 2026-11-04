@@ -543,7 +543,7 @@ WORDS.iron = {
     // --- Uralic — Baltic *rauda in the west, *kertä in the east ----------
     smn: ["ryev'di", "ryevdi"],
     sms: ["ruʹvdd", "ruvʲdːʲɘ"],
-    sjd: ["рӯввьт", "ruːvʲːt"],
+    sjd: ["рӯввьт", "ruːvːt"],
     liv: ["rōda", "ˈroːdɑ"],
     kca: ["карты", "kaːrti"],
     ohu: ["vȁs", "vɒʃ"],

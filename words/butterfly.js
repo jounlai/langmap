@@ -605,7 +605,7 @@ WORDS.butterfly = {
     sad: ["karapupu", "karapupu"],
     poh: ["pehpem", "pehpem"],
     fo: ["firvaldur", "ˈfɪɹvaltʊɹ"],
-    mic: ["mimikes", "mimikes"],
+    mic: ["mimiges", "mimikes"],
     apw: ["doolé", "doːlé"],
     alt: ["кӧбӧлӧк", "købøløk"],
     mwl: ["paxarina", "paʃaˈɾinɐ"],

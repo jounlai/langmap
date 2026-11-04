@@ -781,7 +781,7 @@ WORDS.drink = {
     av: ["гьекъезе", "heqʼeze"],
     lez: ["хъун", "qʰun"],
     dar: ["бержес", "berʒes"],
-    agx: ["ухас", "uxas"],
+    agx: ["ухас", "uχas"],
     ddo: ["хӏалӏа", "ħatɬa"],
     lbe: ["хӏачӏан", "ħatʃʼan"],
     tab: ["убхъуб", "ubqub"],

@@ -518,7 +518,7 @@ WORDS.cat = {
     sdo: ["singau", "siŋau"],
     dbl: ['—', '—'],
     nrf_gg: ['cat', 'kat'],
-    fra_jer: ['cat', 'kat'],
+    fra_jer: ["cat", "ka"],
     gsw_w: ['Chatza', 'ˈxatsa'],
     huz: ["магъурди", "maʁurdi"],
     khv: ["кӏитӏу", "kʼitʼu"],

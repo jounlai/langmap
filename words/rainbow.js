@@ -1003,7 +1003,7 @@ WORDS.rainbow = {
     ssf: ["qariwazwaz", "qariwaðwað"],  // Related to Pazeh oliwowah, another Formosan word for the rainbow.
     tpi: ["renbo", "renbo"],  // Borrowed from English rainbow, "rain bow".
     se: ["arvedávgi", "ˈɑrveˌtaːvki"],  // Literally "rain bow" (arvi "rain" + dávgi "bow"); bajándávgi "thunder bow" is a synonym.
-    sjd: ["тӣрьмесью̄ккс", "tiːrʲmʲesʲuːkːs"],  // Literally "thunder bow" (тӣрьмесь "thunder" + ю̄ккс "arc, bow"); аббьрю̄ккс "rain bow" is a synonym.
+    sjd: ["тӣрьмесью̄ккс", "tʲiːrmʲeɕʲuːkːs"],  // Literally "thunder bow" (тӣрьмесь "thunder" + ю̄ккс "arc, bow"); аббьрю̄ккс "rain bow" is a synonym.
     as: ["ৰামধেনু", "ɹamdʱɛnu"],  // Literally "Rama's bow", like Bengali রামধনু.
     or: ["ଇନ୍ଦ୍ରଧନୁ", "indɾɔdʱɔnu"],  // Literally "Indra's bow", borrowed from Sanskrit.
     en_south: ["rainbow", "ˈɹæɪnboʊ"],  // Rain + bow "arch", the one English word for it.

@@ -1702,7 +1702,7 @@ WORDS.blue = {
     mh: ["būļu", "pˠilˠiw"],  // Marshallese būļu is an English loan (blue); the inherited term maroro covers green and blue-green. // was ["būļu", "bʲɯlʲɯ"] (vi dialect rules 2026-10-06)
     mhr: ["канде", "ˈkande"],  // Meadow Mari канде vs ужар. NorthEuraLex writes the stress-marked ка́нде; the plain orthographic form is given here to match the row's йошкар/ошо.
     mi: ["kahurangi", "kahuɾaŋi"],  // Māori kahurangi (also kikorangi) for blue, kākāriki for green. Before European contact Māori did not separate them — the survey records one term used for both — and IDS still lists puruu, the English loan, as the blue.
-    mic: ["ewneʼg", "ewneːɡ"],  // ORTHOGRAPHY CAVEAT: ewneʼg is the Listuguj spelling; the other cells in this row (mekwek, wapeʼk, maqteweʼk) are Smith-Francis, where this would be written ewneʼk. Not changed, because I could not source the Smith-Francis spelling directly.
+    mic: ["ewneʼg", "ewneːɡ"],
     min: ["biru", "biɾu"],  // Class marked uncertain because no source states the blue/green boundary explicitly; the reasoning is that the Minangkabau definition makes biru the sky colour and a primary colour, and ijau is a separate word for green. Historical caveat worth recording: van der Toorn (1891), Minangkabausch-Maleisch-Nederlandsch woordenboek, s.v. biroe, glosses it 'blauw (zelden)' — 'blue (rarely)' — so the term was marginal in Minangkabau a century ago (https://archive.org/download/minangkabauschm00toorgoog/minangkabauschm00toorgoog_djvu.txt).
     mk: ["син", "sin"],  // Macedonian син against зелен.
     ml: ["നീല", "niːla"],  // Malayalam നീല against പച്ച.

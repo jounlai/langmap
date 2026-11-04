@@ -1874,7 +1874,7 @@ WORDS.foot = {
     mhr: ["йол", "jol"],  // йол covers both.
     mhy: ["peʔe", "peʔe"],  // One word again: pee is washed at John 13:5 and broken at John 19:31-33, with taulang 'bone' at John 19:36 as the control, and Acts 14:8 uses it of the lame man's limbs; ABVD (Hudson) writes it peʔe.
     mi: ["waewae", "waewae"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes ringa as ɾiŋa.
-    mic: ["ukwat", "uɡʷat"],  // The Mi'kmaq NT washes uggwatuaq at John 13:5 and breaks uggwatual at John 19:31 — one word — while the bones stay waqan at 19:36, and the Listuguj dictionary's body-part list has no 'leg' noun at all, only uggwajign 'lower part of leg'; ukwat is that uggwat in the Francis-Smith spelling this row's ukamlamun already uses.
+    mic: ["uggwat", "ukːʷat"],  // The Mi'kmaq NT washes uggwatuaq at John 13:5 and breaks uggwatual at John 19:31 — one word — while the bones stay waqan at 19:36, and the Listuguj dictionary's body-part list has no 'leg' noun at all, only uggwajign 'lower part of leg'.
     min: ["kaki", "kaki"],  // Taken to follow Malay/Indonesian kaki, which covers the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes tangan as taŋan.
     mix: ["tsaʼa", "tsaʔá"],  // Bowers's Mixtepec-Mixtec lexicon lemmatises tsa'a 'foot, pie' apart from si'in 'leg, pierna', the same split the mxv row carries as xaʼa against siʼin.
     mjg: ["kol", "kol"],  // kol covers both; Georg gives Halchighol kol against Naringhol kuor and Mangghuer khuer.

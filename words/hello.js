@@ -763,7 +763,7 @@ WORDS.hello = {
     chp: ["edlanetʼe", "edlanetʼe"],
     oj: ["boozhoo", "boːʒoː"],
     atj: ["kwei", "kwej"],
-    mic: ["kweʼ", "kʷeː"],
+    mic: ["gweʼ", "ɡʷeː"],
     pqm: ["qey", "kʷej"],
     abe: ["kwai", "kʷai"],
     umu: ["hé", "heː"],

@@ -785,7 +785,7 @@ WORDS.thumb = {
     es_an: ["pulgar", "pulˈɣaɾ"],  // From Latin pollicaris, from pollex 'thumb'.
     de_at: ["Daumen", "ˈdaʊ̯mən"],  // From Middle High German dūme, a cognate of English thumb.
     nds: ["Duum", "duːm"],  // Cognate with English thumb; Dumen is also used as the singular.
-    ksh: ["Dumm", "dʊm"],  // Cognate with German Daumen and English thumb.
+    ksh: ["Duume", "ˈduːmə"],  // Cognate with German Daumen and English thumb.
     fy: ["tomme", "ˈtɔmə"],  // Cognate with English thumb.
     nn: ["tommel", "ˈtɔməl"],  // Cognate with English thumb; tommelfinger 'thumb-finger' is also common.
     oc: ["poce", "ˈpuse"],  // From Latin pollex; familiarly also det gròs 'big finger'.

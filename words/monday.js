@@ -1171,7 +1171,7 @@ WORDS.monday = {
     yap: ["Moontaag", "moːntaːɡ"],  // Borrowed from German Montag, "moon day", from the German colonial period; the dictionary also lists the variant Moontaak and the descriptive synonym Taqareeb fean ea maruweel, "first of the working days".
     stq: ["Moundai", "ˈmoːu̯ndaːi̯"],  // From Old Frisian mōnadei, 'day of the moon', like German Montag.
     jbo: ["pavdei", "ˈpavdei"],  // A compound of pa 'one' and djedi 'day': the first day of the week.
-    chy: ["Noʼka éšeeva", "noʔka éʃeeva"],  // Literally 'one day', the first day; this is the Montana name, while in Oklahoma the same phrase means Tuesday.
+    chy: ["Noʼka Éšeēva", "noʔka éʃeeva"],  // Literally 'one day', the first day; this is the Montana name, while in Oklahoma the same phrase means Tuesday.
     aqc: ["итнаттут ихъ", "itnatːut iq"],  // Literally 'Monday-ish day': iq 'day' with an adjective from itni 'on Monday', the Avar итни from Arabic al-ithnayn, 'the two'. Route by resemblance to Avar итни.
     crx: ["jimosdzen hukwʼelhʼaz", "dʒimosdzen hʌkʷʼeɬʔaz"],  // Literally 'after Sunday' (jimosdzen 'Sunday'), in the Lheidli dialect of Carrier.
     pqm: ["kissonte", "kissonte"],  // Literally 'it has been Sunday', built on sonte 'Sunday'; amsqahs luhkan, literally 'first working', is also used.

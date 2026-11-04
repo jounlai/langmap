@@ -760,7 +760,7 @@ WORDS.fire = {
     chp: ["kón", "kón"],
     oj: ["ishkode", "iʃkode"],
     atj: ["ickote", "iʃkote"],
-    mic: ["puktew", "buktew"],
+    mic: ["pugtew", "buktew"],
     pqm: ["sqot", "skʷot"],
     abe: ["skweda", "skʷeda"],
     umu: ["tundeew", "təndeːw"],

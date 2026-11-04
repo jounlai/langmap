@@ -1121,7 +1121,7 @@ WORDS.moon = {
     bci: ["anglo", "aŋlo"],
     tcy: ["ತಿಂಗೊಳು", "tiŋɡoɭu"],
     haz: ["مه", "maː"],
-    tly: ["ümüj", "ymyʒ"],
+    tly: ["oşım", "oʃɨm"],
     kaa: ["ay", "aj"],
     bej: ["tirig", "tiriɡ"],
     tig: ["ወርሕ", "warəħ"],

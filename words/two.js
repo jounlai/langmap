@@ -1217,7 +1217,7 @@ WORDS.two = {
       tji: ["nie", "ȵie˥˥"],
       nij: ["due", "ˈdue"],
       sda: ["dua", "dua"],
-      lld: ["doi", "dɔi"],
+      lld: ["doi", "doi"],
       stq: ["twäin", "tvɛɪ̯n"],
       wym: ["cwē", "tsvɛː"],
       yuc: ["nõwe", "nõwe"],

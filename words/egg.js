@@ -763,7 +763,7 @@ WORDS.egg = {
     // --- Indo-European gap-fill
     prg: ["paute", "ˈpaute"],
     aae: ["ve", "vɛ"],
-    lld: ["uef", "uɛf"],
+    lld: ["uef", "wef"],
     ltg: ["ūla", "ˈuːla"],
     pnt: ["ωβό", "oˈvo"],
     haj: ["dim", "dim"],

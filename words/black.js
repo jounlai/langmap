@@ -595,7 +595,7 @@ WORDS.black = {
     // --- Other Americas -----------------------------------------------
     nv: ["łizhin", "ɬìʒìn"],
     iu: ["ᕿᕐᓂᖅᑐᖅ", "qiʁniqtuq"],
-    chr: ["ᎬᎾᎨ", "ɡə̃naɡe"],
+    chr: ["ᎬᎿᎨ", "ɡə̃hnaɡe"],
     oj: ["makadewaa", "makadewaː"],
     mic: ["maqtaweʼg", "maxtaweːɡ"],
 
@@ -1023,7 +1023,7 @@ WORDS.black = {
     esu: ["tungulria", "tuŋuɬʁia"],
     cr: ["ᑲᐢᑭᑌᐚᐤ", "kaskiteːwaːw"],
     ker: ["sarka", "saɾka"],
-    lld: ["fosch", "fosk"],
+    lld: ["fosch", "foʃk"],
     tdh: ["केकेम", "kekem"],
     zts: ["ngas", "ŋas"],
     mix: ["nchaʼi", "ntʃaʔi"],

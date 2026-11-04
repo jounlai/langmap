@@ -1843,7 +1843,7 @@ WORDS.we = {
     chp: ["nuhni", "nuhni"],
     oj: ["giinawind / niinawind", "ɡiːnawind / niːnawind"],
     atj: ["kirano / ninan", "kiɾano / ninan"],
-    mic: ["kinu / ninen", "kinu / ninen"],
+    mic: ["ginu / ninen", "ɡinu / ninen"],
     pqm: ["kilun / nilun", "kilun / nilun"],
     abe: ["kiona / niona", "kiona / niona"],
     umu: ["kiilóona / niilóona", "kiːloːna / niːloːna"],

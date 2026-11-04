@@ -1027,7 +1027,7 @@ WORDS.rain = {
     kfx: ["गाश", "ɡaːʃ"],
     hns: ["barkha", "bərkʰaː"],
     hui: ["dalu", "dalu"],
-    mic: ["kikpesan", "ɡikpesan"],
+    mic: ["gigpesan", "ɡikpesan"],
     bzh: ["hob", "ʁoᵐb"],
     yai: ["bōrōn", "boːˈroːn"],
     hch: ["wiyeri", "wijeɾi"],

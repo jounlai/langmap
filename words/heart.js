@@ -769,7 +769,7 @@ WORDS.heart = {
     chp: ["dënedzié", "denedzié"],
     oj: ["odeʼ", "odeʔ"],
     atj: ["otehinan", "otehinan"],
-    mic: ["ukamlamun", "uɡamlamun"],
+    mic: ["uggamlamun", "ukːamlamun"],
     pqm: ["moshun", "moshun"],
     abe: ["mlawôgan", "mlawɔ̃ɡan"],
     umu: ["ndah", "ndah"],

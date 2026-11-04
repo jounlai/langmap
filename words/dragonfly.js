@@ -591,7 +591,7 @@ WORDS.dragonfly = {
     bew: ["capung", "tʃapuŋ"],  // Borrowed from Balinese capung 'dragonfly'.
     ssf: ["tambalawan", "tambalawan"],  // Thao word for the dragonfly.
     ojp: ["蜻蛉", "akidu"],  // Old Japanese akidu (later akitu): the Kojiki (712) glosses its 蜻蛉 'to be read 阿岐豆 a-ki-du'; the Man'yōshū also has the place name 秋津.
-    ja_heian: ["蜻蛉", "toubau"],  // Heian example: Ryōjin hishō (c. 1179) 居よ居よとうばうよ 'stay, stay, dragonfly'; NKD also lists kagerofu and enba as Heian words for the dragonfly, before tonbō.
+    ja_heian: ["蜻蛉", "kaɡeɾoɸu"],  // Heian example: Ryōjin hishō (c. 1179) 居よ居よとうばうよ 'stay, stay, dragonfly'; NKD also lists kagerofu and enba as Heian words for the dragonfly, before tonbō.
     tay: ["klosan", "klosan"],  // Squliq Atayal word for the dragonfly.
     bnn: ["salinhanuaz", "salinhanuað"],  // Isbukun Bunun (郡群) word for the dragonfly; also salinghanuaz.
     dru: ["sarukaabisi", "saɾukaabisi"],  // Budai (霧台) Rukai word for the dragonfly.

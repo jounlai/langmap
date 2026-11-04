@@ -309,7 +309,6 @@ WORDS.computer = {
     "ny": ["kompyuta", "kompjuta"],
     "oc": ["ordinator", "urdinaˈtu"],
     "och": ["—", "—"],
-    "ojp": ["算木", "saŋɡi"],
     "om": ["koompitara", "koːmpitara"],
     "or": ["କମ୍ପ୍ୟୁଟର", "kɔmpjuʈɔɾɔ"],
     "os": ["компьютер", "kompjuter"],

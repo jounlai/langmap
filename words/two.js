@@ -671,7 +671,7 @@ WORDS.two = {
       ja_edo: ["二", "ɲi"],
       ja_kanbun: ["二", "ɲi"],
       ja_heian: ["二", "ɸutatu"],
-      ja_chu: ["二", "ni"],
+      ja_chu: ["二つ", "ɸutatsu"],
       p_ryu: ["*puta", "puta"],
       ko_mid: [":둟", "tulh"],
       oko: ["二肹", "*tubɨɾ"],

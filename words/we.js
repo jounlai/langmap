@@ -1349,7 +1349,7 @@ WORDS.we = {
     yue: ["我哋", "ŋɔː˩˧ tei˨"], // was ["我哋", "ŋɔ˩˧ tei˨"] (vi dialect rules 2026-10-06)
     nan: ["咱 / 阮", "lan˥˧ / ɡun˥˧"],
     zh_tw: ["我們", "wo˨˩˦ mən"],
-    wuu: ["阿拉", "aʔ˧ laʔ˦"],
+    wuu: ["阿拉", "aʔ˧ laʔ˦˦"],
     hak_cn: ["𠊎兜", "ŋai˩˩ teu˦"],
     vi: ["chúng ta / chúng tôi", "tɕuŋ͡m˧˥ taː˧ / tɕuŋ͡m˧˥ toj˧"],
     vi_c: ["chúng ta / chúng tôi", "cuŋ͡m˨˦ taː˥ / cuŋ͡m˨˦ toj˥"], // was ["chúng ta / chúng tôi", "tɕuŋ͡m˧˥ taː˧ / tɕuŋ͡m˧˥ toj˧"] (vi dialect rules 2026-10-06)

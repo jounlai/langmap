@@ -23,3 +23,13 @@ cells checked for spelling→IPA consistency and near-typos; 7 slips.
 
 Left alone: ii heart/bird hɛ˧˧ (Lama he33), txg drink, swi two, tji fire, kmc four
 (source splits); mfa -ang → -ɛ (regular Patani Malay change).
+
+## Sinitic surface↔IPA agreement (57 rows, 27 majority-reading mismatches)
+Applied: wuu we 阿拉 aʔ˧ laʔ˦ → aʔ˧ laʔ˦˦ (the row's ˧ + ˦˦ sandhi pattern, cf. 德国).
+Not applied: reduplicated second syllables written toneless (13 rows, a convention);
+Shanghai/Ningbo sandhi; Cantonese changed tone.
+Open: gan_ja 脚 tɕio˥ (and 喝/吃 with -t): the foot note cites the row's 陰入 ˥ (血 ɕyɛ˥, 骨 kut˥)
+but those cells now read ˧˧˦ without a stop (MCPDict 吉安) — the earlier hand fix and the later
+row rebuild disagree; needs one decision for the whole row. hsn 洋咪咪 mi˧ (one-letter tone).
+Readings that are one of two MCPDict layers without a label: mnp/cpx 日本, gan 星子,
+nan_hai 日头, wuu_sz 昨日 — label only after checking Wiktionary per [[hanmap-min-label-policy]].

@@ -418,8 +418,6 @@
 </script>
 
 <script src="wordmap_data.js?v=361"></script>
-<!-- Branches from Glottolog, compressed for display: tools/build_tree_paths.js. -->
-<script src="tree_paths.js?v=1"></script>
 <!-- The meta-i18n layer (engine + the current UI's slice only) is loaded
      dynamically below, next to the meta file — see loadMetaI18nForUi(). The old
      eager meta_i18n_ext + coverage{,2,3} tags pulled ~5 MB of ALL 22 UIs. -->
@@ -622,6 +620,9 @@ generates lang_names/<ui>.js from lang_names.js. -->
     // no longer pulls the 19 MB wordmap_meta.js (descriptions/sources unused).
     _loadJS('wordmap_meta_lite.js?v=417')
         .then(() => Promise.all([
+            // Branches from Glottolog (tools/build_tree_paths.js), and their ko/zh/yue names.
+            _loadJS('tree_paths.js?v=2'),
+            (['ko', 'zh', 'yue'].includes(uiLang) ? _loadJS('tree_names_i18n.js?v=1') : null),
             loadMetaI18nForUi(uiLang),   // lite defines META_I18N before the per-UI slice fills it
             // A ?ui= / #ui= link picks the UI without the cookie the name table's
             // boot reads, so language names stayed English (r24).
@@ -1033,6 +1034,9 @@ generates lang_names/<ui>.js from lang_names.js. -->
         // 1. Tree-specific overrides (root + Unclassified)
         const rootDict = TREE_ROOT_I18N[uiLang] || TREE_ROOT_I18N[uiLang.split('_')[0]];
         if (rootDict && rootDict[name]) return rootDict[name];
+        // 1b. Branch names of the Glottolog tree (tree_names_i18n.js)
+        const treeDict = window.TREE_NAME_I18N && window.TREE_NAME_I18N[uiLang];
+        if (treeDict && treeDict[name]) return treeDict[name];
         // 2. Local FAMILY_NAMES_I18N — historically maintained ja/ko/zh sub-branch
         //    overrides (e.g. 'East Slavic', dialect group names not in FAMILY_ATOMS)
         const dict = FAMILY_NAMES_I18N[uiLang] || FAMILY_NAMES_I18N[uiLang.split('_')[0]];

@@ -981,7 +981,7 @@ Total: 1197 codes.
 | `sux` | Sumerian | シュメール語 | Language isolate | Extinct |
 | `sv` | Swedish | スウェーデン語 | Germanic | ~10M |
 | `sva` | Svan | スヴァン語 | Kartvelian (Svan branch — sister to Zan-Georgian) | ~14–30K |
-| `sw` | Swahili | スワヒリ語 | Bantu | ~100M (~20M L1 + ~80M L2) |
+| `sw` | Swahili | スワヒリ語 | Bantu | ~100M (~5M L1 + ~92M L2) |
 | `swb` | Maore Comorian | マオレ・コモロ語 | Niger-Congo (Bantu, Sabaki) | ~80–152K (Mayotte) |
 | `swg` | Swabian | シュヴァーベン語 | Indo-European | ~800K |
 | `swi` | Sui | 水語 | Kra-Dai (Kam-Sui) | ~300K (Sui nationality ~496K) |

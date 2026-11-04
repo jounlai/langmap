@@ -678,6 +678,8 @@ line('Isan tones in the cited six', num(s, /violations: (\d+)/));
 // Sinitic character read two ways inside one row (ratchet: lock file).
 s = run('vi_tone_check.js');
 line('Vietnamese tone per row', num(s, /violations: (\d+)/));
+s = run('thai_lao_tone_check.js');
+line('Thai/Lao tone from the spelling', num(s, /violations: (\d+)/));
 s = run('ko_notation_check.js');
 line('Korean notation per row', num(s, /violations: (\d+)/));
 s = run('sinitic_char_reading_check.js --check');

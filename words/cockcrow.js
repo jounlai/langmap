@@ -495,7 +495,7 @@ WORDS.cockcrow = {
     en_nz: ["cock-a-doodle-doo", "ˌkɔkədʉːdlˈdʉː"],
     en_au: ["cock-a-doodle-doo", "ˌkɔkəduːdlˈduː"],
     is: ["gaggalagó", "ˈɡaɡːalaˌɡouː"],
-    ca: ["quiquiriquic", "kikiriˈkik"],
+    ca: ["quiquiriquic", "kikiɾiˈkik"],
     gl: ["quiquiriquí", "kikiɾiˈki"],
     be: ["кукарэку", "kukaˈrɛku"],
     cs: ["kykyryký", "ˈkɪkɪrɪkiː"],

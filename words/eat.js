@@ -303,7 +303,7 @@ WORDS.eat = {
     no: ["spise", "ˈspiːsə"],
     da: ["spise", "ˈsb̥iːsə"],
     ro: ["a mânca", "a mɨnˈka"],
-    ga: ["ith", "ɪ"],
+    ga: ["ith", "ɪh"],
     eu: ["jan", "jan"],
     cy: ["bwyta", "ˈbʊɨta"],
     ka: ["ჭამა", "tʃʼama"],

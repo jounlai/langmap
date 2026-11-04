@@ -298,7 +298,7 @@ WORDS.three = {
     hu: ["három", "ˈhaːrom"],
     ohu: ["három", "ˈhaːrom"],
     el: ["τρία", "ˈtɾia"],
-    nl: ["drie", "driː"],
+    nl: ["drie", "dri"],
     pl: ["trzy", "tʂɨ"],
     szl: ["trzi", "tʂi"],
     uk: ["три", "trɪ"],

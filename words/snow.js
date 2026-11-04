@@ -236,7 +236,7 @@ WORDS.snow = {
     hu: ["hó", "hoː"],
     ohu: ["hó", "hoː"],
     el: ["χιόνι", "ˈçoni"],
-    nl: ["sneeuw", "sneːw"],
+    nl: ["sneeuw", "sneːu̯"],
     pl: ["śnieg", "ɕɲɛk"],
     szl: ["śniyg", "ɕɲɪk"],
     uk: ["сніг", "sʲnʲiɦ"],

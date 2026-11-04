@@ -213,7 +213,7 @@ WORDS.new = {
     fi: ["uusi", "ˈuːsi"],
     hu: ["új", "uːj"],
     el: ["καινούριο", "ceˈnuɾʝo"],
-    nl: ["nieuw", "niːw"],
+    nl: ["nieuw", "niu̯"],
     pl: ["nowy", "ˈnɔvɨ"],
     uk: ["новий", "nɔˈʋɪi̯"],
     sv: ["ny", "nyː"],

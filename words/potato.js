@@ -617,7 +617,7 @@ WORDS.potato = {
     nl: ["aardappel", "ˈaːrdɑpəl"],  // Literally "earth apple".
     nl_be: ["patat", "paˈtɑt"],  // In Flanders patat means a potato, while in the Netherlands it means chips; the standard written word is aardappel.
     pl: ["ziemniak", "ˈʑɛmɲak"],  // Built on ziemia "earth", like French pomme de terre.
-    uk: ["картопля", "karˈtɔplʲa"],  // From German Kartoffel via Polish and Russian; dialects also say бульба and бараболя.
+    uk: ["картопля", "kɐrˈtɔplʲɐ"],  // From German Kartoffel via Polish and Russian; dialects also say бульба and бараболя.
     sv: ["potatis", "pʊˈtɑːtɪs"],  // Borrowed from English potatoes.
     no: ["potet", "pʊˈteːt"],  // From English potato via older Danish; Danish itself later switched to kartoffel.
     da: ["kartoffel", "kɑˈtɔfəl"],  // From German Kartoffel, ultimately Italian tartufolo "little truffle".

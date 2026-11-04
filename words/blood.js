@@ -296,7 +296,7 @@ WORDS.blood = {
     sgw: ["ደም", "dam"],
     mg: ["ra", "ra"],
     ain: ["ケㇺ", "kem"],
-    fi: ["veri", "ˈveri"],
+    fi: ["veri", "ˈʋeri"],
     hu: ["vér", "veːr"],
     ohu: ["vér", "veːr"],
     el: ["αίμα", "ˈema"],

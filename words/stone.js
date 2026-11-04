@@ -199,7 +199,7 @@ WORDS.stone = {
     am: ["ድንጋይ", "ˈdɨnɡaj"],
     mg: ["vato", "ˈvatu"],
     ain: ["スマ", "suma"],
-    fi: ["kivi", "ˈkivi"],
+    fi: ["kivi", "ˈkiʋi"],
     hu: ["kő", "køː"],
     ohu: ["kő", "køː"],
     el: ["πέτρα", "ˈpetɾa"],

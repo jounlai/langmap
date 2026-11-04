@@ -816,7 +816,7 @@ WORDS.rainbow = {
     pt_ao: ["arco-íris", "aɾkuˈiɾiʃ"],  // Arco "arch, bow" + íris, the general Portuguese word.
     pt_cv: ["arco-íris", "aɾkuˈiɾiʃ"],  // Arco "arch, bow" + íris, the general Portuguese word.
     ru: ["радуга", "ˈradʊɡə"],  // Usually explained as containing *dǫga "arc" (Russian дуга), though a borrowing from Scythian has also been proposed.
-    uk: ["веселка", "weˈsɛlka"],  // Literally "the merry one", from веселий "cheerful"; the older райдуга also exists.
+    uk: ["веселка", "ʋeˈsɛɫkɐ"],  // Literally "the merry one", from веселий "cheerful"; the older райдуга also exists.
     pl: ["tęcza", "ˈtɛntʂa"],  // From Proto-Slavic *tǫča "downpour, rain cloud": the rainbow took the name of the rain itself.
     szl: ["dynga", "ˈdɪŋɡa"],  // From Proto-Slavic *dǫga "arc", unlike Polish tęcza.
     sv: ["regnbåge", "ˈrɛŋnboːɡɛ"],  // Regn "rain" + båge "bow, arc".
@@ -932,7 +932,7 @@ WORDS.rainbow = {
     cs: ["duha", "ˈduɦa"],  // From Proto-Slavic *dǫga 'arc, arch', the same root as Russian дуга 'arc' inside радуга.
     sk: ["dúha", "ˈduːɦa"],  // From Proto-Slavic *dǫga 'arc, arch'; the same word still means a barrel stave.
     sl: ["mavrica", "ˈmaːʋritsa"],  // The Slovene word for the rainbow; Wiktionary gives no etymology. No image is recorded for it, so it counts as a word of its own.
-    bg: ["дъга", "dɤˈɡa"],  // The same word means 'arc' in geometry, from Proto-Slavic *dǫga 'arc, arch'.
+    bg: ["дъга", "dɐˈɡa"],  // The same word means 'arc' in geometry, from Proto-Slavic *dǫga 'arc, arch'.
     lt: ["vaivorykštė", "vɐɪˈvoːrʲiːkʃʲtʲeː"],  // Cognate with Latvian varavīksne, built on a reduplicated root *war- 'to bend' whose original sense was probably 'arch' (LEV).
     sgs: ["vandarīkštė", "vandariːkʃteː"],  // The Samogitian counterpart of Lithuanian vaivorykštė; Samogitian Wikipedia also gives voverīkštė.
     lv: ["varavīksne", "ˈvaraviːksnɛ"],  // Probably originally 'bending, arch', from a reduplicated root *war- 'to bend'; Latvian dialects keep several taboo-shaped variants.

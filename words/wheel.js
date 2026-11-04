@@ -99,7 +99,7 @@ WORDS.wheel = {
 
     // --- Modern Europe --------------------------------------------------
     el: ["ρόδα", "ˈɾoða"],
-    nl: ["wiel", "ʋiːl"],
+    nl: ["wiel", "ʋil"],
     af: ["wiel", "vil"],
     sv: ["hjul", "jʉːl"],
     no: ["hjul", "juːl"],

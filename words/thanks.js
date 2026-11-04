@@ -303,7 +303,7 @@ WORDS.thanks = {
     no: ["takk", "tɑkː"],
     da: ["tak", "tˢɑɡ̊"],
     ro: ["mulțumesc", "multsuˈmesk"],
-    ga: ["go raibh maith agat", "ɡɔ ɾˠɛv mˠah aɡət̪ˠ"],
+    ga: ["go raibh maith agat", "ɡə ɾˠə mˠah əɡət̪ˠ"],
     eu: ["eskerrik asko", "esˈkerik ˈasko"],
     cy: ["diolch", "ˈdiːɔlx"],
     ka: ["მადლობა", "madloba"],

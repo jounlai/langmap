@@ -677,10 +677,10 @@ WORDS.thumb = {
     fr: ["pouce", "pus"],  // From Latin pollex 'thumb'; it also means 'inch'.
     it: ["pollice", "ˈpɔllitʃe"],  // From Latin pollex; in familiar speech dito grosso 'big finger' is also heard.
     es: ["pulgar", "pulˈɣaɾ"],  // From Latin pollicāris 'of the thumb', from pollex.
-    pt: ["polegar", "puliˈɡaɾ"],  // From Latin pollicāris 'of the thumb'; colloquially dedão is also used.
+    pt: ["polegar", "pulɨˈɡaɾ"],  // From Latin pollicāris 'of the thumb'; colloquially dedão is also used.
     pt_br: ["polegar", "poleˈɡaʁ"],  // From Latin pollicāris 'of the thumb'; colloquially dedão is also used.
     ru: ["большой палец", "bɐlʲˈʂoj ˈpalʲɪts"],  // Literally 'big finger'; it also means the big toe.
-    uk: ["великий палець", "weˈɫɪkɪj ˈpaɫetsʲ"],  // Literally 'big finger'.
+    uk: ["великий палець", "ʋeˈɫɪkei̯ ˈpaɫetsʲ"],  // Literally 'big finger'.
     nl: ["duim", "dœy̯m"],  // The same Germanic word as English thumb; it also means 'inch'.
     pl: ["kciuk", "ktɕuk"],  // Possibly from a variant of chrzcić 'to baptize', since the sign of the cross is made with the thumb (Wiktionary, tentative).
     sv: ["tumme", "ˈtɵmːɛ"],  // The same Germanic word as English thumb.

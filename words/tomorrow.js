@@ -1037,11 +1037,11 @@ WORDS.tomorrow = {
     ivv: ["andelak", "andɨlak"],  // Used for 'tomorrow' in the Ivatan Bible (Matthew 6:34, James 4:13). No image is recorded for it, so it counts as a word of its own.
     fi: ["huomenna", "ˈhuomenːɑ"],  // Huomenna is an old case form of huomen 'morning', so literally 'in the morning' (Wiktionary).
     hu: ["holnap", "ˈholnɒp"],  // Holnap is *hol 'morning, dawn' + nap 'day' and originally meant 'morning' (Wiktionary).
-    el: ["αύριο", "ˈavrio"],  // From Ancient Greek αὔριον, an old locative of the Indo-European root for 'dawn', akin to ἠώς 'dawn' (Wiktionary, after Beekes).
+    el: ["αύριο", "ˈavɾio"],  // From Ancient Greek αὔριον, an old locative of the Indo-European root for 'dawn', akin to ἠώς 'dawn' (Wiktionary, after Beekes).
     nl: ["morgen", "ˈmɔrɣən"],  // Morgen means both 'tomorrow' and 'morning' (Wiktionary).
     pl: ["jutro", "ˈjutrɔ"],  // Jutro also meant 'morning' in Middle Polish, the old Slavic sense of the word (Wiktionary).
     szl: ["jutro", "ˈjutrɔ"],  // Jutro comes from the Old Polish word that also meant 'morning' (Wiktionary).
-    uk: ["завтра", "ˈzawtra"],  // Завтра comes from Proto-Slavic *za utra, built on utro 'morning' (Wiktionary).
+    uk: ["завтра", "ˈzau̯trɐ"],  // Завтра comes from Proto-Slavic *za utra, built on utro 'morning' (Wiktionary).
     sv: ["i morgon", "i mɔrɡɔn"],  // I morgon is literally 'in (the) morning'; morgon is 'morning' (Wiktionary).
     no: ["i morgen", "i moːrən"],  // I morgen is literally 'in (the) morning'; morgen is 'morning' (Wiktionary).
     da: ["i morgen", "i mɒːɒn"],  // I morgen is literally 'in (the) morning'; morgen is 'morning' (Wiktionary).

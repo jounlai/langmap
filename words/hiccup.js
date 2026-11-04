@@ -369,7 +369,7 @@ WORDS.hiccup = {
     it: ["singhiozzo", "sinˈɡjottso"],  // From Latin singultus via Vulgar Latin *singluttium; it also means 'sob'.
     es: ["hipo", "ˈipo"],  // An imitative word.
     pl: ["czkawka", "ˈtʂkafka"],  // From czkać 'to hiccup'. Czkać imitates the sound.
-    uk: ["гикавка", "ˈɦɪkawka"],  // Also spelled ікавка, икавка. Like Russian икота, built on the sound ik.
+    uk: ["гикавка", "ˈɦɪkɐu̯kɐ"],  // Also spelled ікавка, икавка. Like Russian икота, built on the sound ik.
     nl: ["hik", "hɪk"],  // An imitative word.
     sv: ["hicka", "ˈhɪkːa"],  // Attested since the 15th century as Old Swedish hikka; hickning is a synonym. Route by resemblance to the neighbouring forms (or(ହିକ୍କା) nl(hik)); no etymology of its own.
     da: ["hikke", "ˈheɡ̊ə"],  // From Old Danish hikkæn; a single hiccup is et hik. Like English hiccup, an imitation of the sound.

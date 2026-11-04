@@ -962,7 +962,7 @@ WORDS.yesterday = {
     nl: ["gisteren", "ˈɣɪstərən"],  // tomorrow: morgen; morgen also means 'morning'.
     pl: ["wczoraj", "ˈftʂɔraj"],  // tomorrow: jutro; the final -j is a 17th-century addition to older wczora.
     szl: ["wczora", "ˈftʂɔra"],  // tomorrow: jutro; Silesian keeps wczora, the form Polish had before adding -j.
-    uk: ["вчора", "ˈwtʃɔra"],  // tomorrow: завтра; вчора alternates with учора after a consonant.
+    uk: ["вчора", "ˈʍtʃɔrɐ"],  // tomorrow: завтра; вчора alternates with учора after a consonant.
     sv: ["i går", "i ɡoːr"],  // tomorrow: i morgon; går is an old word for 'yesterday' (Old Norse í gær), also written igår.
     no: ["i går", "i ɡoːr"],  // tomorrow: i morgen; går survives only in this phrase (Old Norse í gær).
     da: ["i går", "i ɡɒːˀ"],  // tomorrow: i morgen; literally 'on yesterday', from Old Norse í gær.

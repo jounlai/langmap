@@ -291,7 +291,7 @@ WORDS.soap = {
     af: ["seep", "sɪəp"],
     sq: ["sapun", "saˈpun"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     am: ["ሳሙና", "ˈsamuna"],
-    ar: ["صابون", "saːbuːn"],
+    ar: ["صابون", "sˤaːbuːn"],
     hy: ["օճառ", "oˈtʃɑr"],
     ast: ["xabón", "ʃaˈbon"],
     av: ["сапун", "sapun"],

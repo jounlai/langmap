@@ -511,7 +511,7 @@ WORDS.camel = {
     sl: ["kamela", "kameːla"],
     so: ["geel", "ɡeːl"],  // An old borrowing from an undetermined Semitic source.
     es: ["camello", "kaˈmeʝo"],
-    sw: ["ngamia", "ɡaˈmia"],  // An old borrowing, ultimately from Arabic جمل.
+    sw: ["ngamia", "ŋɡaˈmia"],  // An old borrowing, ultimately from Arabic جمل.
     tl: ["kamelyo", "kaˈmeljo"],
     tg: ["шутур", "ʃutur"],
     ta: ["ஒட்டகம்", "oʈːaɡam"],

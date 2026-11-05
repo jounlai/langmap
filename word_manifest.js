@@ -30,7 +30,7 @@ const WORD_CATEGORIES = [
         label: {
             en: "Sky & elements", ja: "空と自然", ko: "하늘과 자연", zh: "天空与自然", yue: "天空同自然", vi: "Trời và thiên nhiên", th: "ท้องฟ้าและธรรมชาติ", id: "Langit & alam", hi: "आकाश और प्रकृति", de: "Himmel & Natur", fr: "Ciel et nature", it: "Cielo e natura", es: "Cielo y naturaleza", pt: "Céu e natureza", ru: "Небо и природа", uk: "Небо і природа", ar: "السماء والطبيعة", he: "שמיים וטבע", sw: "Anga na maumbile"
         },
-        words: ["water", "fire", "sun", "moon", "star", "night", "yesterday", "tomorrow", "rain", "rainbow", "thunder", "snow", "wind", "earth", "stone", "mountain", "sea", "milkyway", "shootingstar", "monday", "sunday", "saturday"],
+        words: ["water", "fire", "sun", "moon", "star", "night", "yesterday", "tomorrow", "rain", "rainbow", "thunder", "snow", "wind", "earth", "stone", "mountain", "sea", "milkyway", "shootingstar", "monday", "week", "sunday", "saturday"],
     },
     {
         key: "people",
@@ -79,7 +79,7 @@ const WORD_CATEGORIES = [
         label: {
             en: "Numbers", ja: "数", ko: "수", zh: "数字", yue: "數字", vi: "Số", th: "ตัวเลข", id: "Angka", hi: "संख्याएँ", de: "Zahlen", fr: "Nombres", it: "Numeri", es: "Números", pt: "Números", ru: "Числа", uk: "Числа", ar: "الأعداد", he: "מספרים", sw: "Namba"
         },
-        words: ["one", "two", "three", "four", "five", "twenty", "hundred", "n99"],
+        words: ["one", "two", "three", "four", "five", "twenty", "hundred", "thousand", "n99"],
     },
     {
         key: "greetings",

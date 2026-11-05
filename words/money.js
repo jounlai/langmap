@@ -67,7 +67,7 @@ WORDS.money = {
     uk: "Гроші — те, чим платять. Багато мов досі називають їх за металом: французьке argent та івритське כסף означають «срібло», японське 金 — «золото». Інші беруть назву монети, як dinero від римського денарія чи гінді पैसा. Німецьке Geld означає «плата», а англійське money сягає римського монетного двору.",
     ar: "النقود — ما يدفع به الناس. ما زالت لغات كثيرة تسميها باسم معدن: فالفرنسية argent والعبرية כסף تعنيان «الفضة»، واليابانية 金 تعني «الذهب». وتستعمل لغات أخرى اسم عملة واحدة، مثل dinero من الدينار الروماني، أو الهندية पैसा. والألمانية Geld تعني الدفع، والإنجليزية money ترجع إلى دار سك النقود الرومانية.",
     he: "כסף — מה שמשלמים בו. שפות רבות עדיין קוראות לו על שם מתכת: argent הצרפתית ו-כסף העברית הן המתכת כסף, 金 היפנית היא ״זהב״. אחרות משתמשות בשם של מטבע, כמו dinero מהדינר הרומי, או पैसा בהינדי. Geld הגרמנית פירושה תשלום, ו-money האנגלית חוזרת למטבעה הרומית.",
-    sw: "Pesa — kitu cha kulipia. Lugha nyingi bado huuita kwa jina la madini: argent ya Kifaransa na כסף ya Kiebrania ni “fedha”, 金 ya Kijapani ni “dhahabu”. Nyingine hutumia jina la sarafu, kama dinero kutoka denari ya Kirumi, au पैसा ya Kihindi. Geld ya Kijerumani ni malipo, na money ya Kiingereza inarudi kwenye kiwanda cha sarafu cha Roma.",
+    sw: "Pesa — kitu cha kulipia. Lugha nyingi bado huiita kwa jina la madini: argent ya Kifaransa na כסף ya Kiebrania ni “fedha”, 金 ya Kijapani ni “dhahabu”. Nyingine hutumia jina la sarafu, kama dinero kutoka denari ya Kirumi, au पैसा ya Kihindi. Geld ya Kijerumani ni malipo, na money ya Kiingereza inarudi kwenye kiwanda cha sarafu cha Roma.",
   },
   family: {
     abs: "coin",

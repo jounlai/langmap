@@ -30,14 +30,14 @@ const WORD_CATEGORIES = [
         label: {
             en: "Sky & elements", ja: "空と自然", ko: "하늘과 자연", zh: "天空与自然", yue: "天空同自然", vi: "Trời và thiên nhiên", th: "ท้องฟ้าและธรรมชาติ", id: "Langit & alam", hi: "आकाश और प्रकृति", de: "Himmel & Natur", fr: "Ciel et nature", it: "Cielo e natura", es: "Cielo y naturaleza", pt: "Céu e natureza", ru: "Небо и природа", uk: "Небо і природа", ar: "السماء والطبيعة", he: "שמיים וטבע", sw: "Anga na maumbile"
         },
-        words: ["water", "fire", "sun", "moon", "star", "night", "yesterday", "tomorrow", "rain", "rainbow", "thunder", "snow", "wind", "earth", "stone", "mountain", "sea", "milkyway", "shootingstar", "monday", "week", "sunday", "saturday"],
+        words: ["water", "fire", "sun", "moon", "star", "night", "yesterday", "tomorrow", "rain", "rainbow", "thunder", "snow", "wind", "earth", "earthquake", "stone", "mountain", "sea", "milkyway", "shootingstar", "monday", "week", "sunday", "saturday"],
     },
     {
         key: "people",
         label: {
             en: "People", ja: "人", ko: "사람", zh: "人", yue: "人", vi: "Con người", th: "ผู้คน", id: "Orang", hi: "लोग", de: "Menschen", fr: "Personnes", it: "Persone", es: "Personas", pt: "Pessoas", ru: "Люди", uk: "Люди", ar: "الناس", he: "אנשים", sw: "Watu"
         },
-        words: ["mother", "father", "grandmother", "daughter", "wife", "olderbrother", "i", "you", "we", "name", "person"],
+        words: ["mother", "father", "grandmother", "uncle", "daughter", "wife", "olderbrother", "i", "you", "we", "name", "person"],
     },
     {
         key: "body",
@@ -51,7 +51,7 @@ const WORD_CATEGORIES = [
         label: {
             en: "Animals & plants", ja: "動物と植物", ko: "동물과 식물", zh: "动物与植物", yue: "動物同植物", vi: "Động vật và thực vật", th: "สัตว์และพืช", id: "Hewan & tumbuhan", hi: "जानवर और पौधे", de: "Tiere & Pflanzen", fr: "Animaux et plantes", it: "Animali e piante", es: "Animales y plantas", pt: "Animais e plantas", ru: "Животные и растения", uk: "Тварини і рослини", ar: "الحيوانات والنباتات", he: "בעלי חיים וצמחים", sw: "Wanyama na mimea"
         },
-        words: ["tree", "dog", "cat", "fish", "bird", "bat", "butterfly", "dragonfly", "egg", "bear", "horse", "camel", "cuckoo", "woof", "cockcrow", "turkey", "ladybird", "whale", "octopus", "jellyfish", "sunflower"],
+        words: ["tree", "dog", "cat", "fish", "bird", "bat", "butterfly", "dragonfly", "egg", "bear", "lion", "horse", "camel", "cuckoo", "woof", "cockcrow", "turkey", "ladybird", "whale", "octopus", "jellyfish", "sunflower"],
     },
     {
         key: "home",
@@ -65,7 +65,7 @@ const WORD_CATEGORIES = [
         label: {
             en: "Things people made", ja: "人のつくったもの", ko: "사람이 만든 것", zh: "人造之物", yue: "人整嘅嘢", vi: "Đồ người làm ra", th: "สิ่งที่มนุษย์สร้าง", id: "Buatan manusia", hi: "मानव-निर्मित वस्तुएँ", de: "Von Menschen Gemachtes", fr: "Objets fabriqués", it: "Cose fatte dall'uomo", es: "Cosas hechas por el hombre", pt: "Coisas feitas pelo homem", ru: "Сделанное людьми", uk: "Зроблене людьми", ar: "مصنوعات البشر", he: "דברים מעשה ידי אדם", sw: "Vitu vilivyotengenezwa"
         },
-        words: ["iron", "wheel", "silk", "money", "book", "paper", "computer", "wifi", "mobilephone", "atsign"],
+        words: ["iron", "wheel", "silk", "cotton", "money", "book", "paper", "computer", "wifi", "mobilephone", "atsign"],
     },
     {
         key: "actions",

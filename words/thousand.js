@@ -3,13 +3,13 @@
  * 
  * PARTIAL WORD (🧪). Few people needed a thousand until there was trade, tax or an
  * army, so the word often arrived with them, and the map shows the routes. Germanic,
- * Baltic and Slavic share thousand, Tausend, тысяча, tūkstantis, a 'strong hundred',
+ * Baltic and Slavic share thousand, Tausend, тысяча, tūkstantis, perhaps a 'fat hundred',
  * and Finnish tuhat borrowed it. Latin mille gave mille, mil, mie. Persian هزار went
  * to Hindi, Hungarian ezer and across Central Asia. Arabic ألف went to Swahili elfu.
  * Chinese 千 went to Japanese, Korean and Vietnamese. Sanskrit सहस्र is behind Tamil
  * ஆயிரம் and Kannada ಸಾವಿರ. Greek χίλια reached Serbian хиљада. Georgian ათასი and
  * Sinhala දහස simply say ten hundreds. Routes:
- *   strong   a strong hundred
+ *   strong   the Germanic and Slavic thousand
  *   mille    Latin mille
  *   hazar    Persian hazār
  *   alf      Arabic alf

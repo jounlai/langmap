@@ -175,7 +175,7 @@ WORDS.week = {
     gd: "seven",
     crs: "seven",
     scn: "seven",
-    si: "seven",
+    si: "plain",
     sk: "thisday",
     sl: "thisday",
     so: "plain",
@@ -201,7 +201,7 @@ WORDS.week = {
     ug: "seven",
     uz: "seven",
     vi: "other",
-    wa: "seven",
+    wa: "plain",
     cy: "eight",
     sah: "sunday",
     yi: "turn",
@@ -214,13 +214,13 @@ WORDS.week = {
     smj: "turn",
     se: "turn",
     smn: "turn",
-    sms: "sunday",
+    sms: "plain",
     sjd: "sunday",
-    mrj: "sunday",
+    mrj: "plain",
     mhr: "sunday",
     koi: "sunday",
     kpv: "sunday",
-    kca: "seven",
+    kca: "plain",
     mns: "seven",
     ku: "seven",
     hyw: "sabbath",
@@ -233,7 +233,7 @@ WORDS.week = {
     evn: "sunday",
     gld: "sunday",
     ady: "other",
-    dar: "friday",
+    dar: "plain",
     zh: "stars",
     arn: "seven",
     dsb: "thisday",
@@ -399,7 +399,7 @@ WORDS.week = {
     xal: ["долан хонг", "doˈlan xoˈnək"],
     kn: ["ವಾರ", "ʋaːɾa"],  // From Sanskrit vāra 'turn, day'.
     krl: ["nedäli", "ˈnedæli"],
-    ks: ["ہفتہٕ", "haftɨ"],
+    ks: ["ہفتہٕ", "haftɨ"],  // Route by resemblance to the neighbouring forms (dv,lez,tg); no etymology of its own.
     csb: ["tidzéń", "ˈtidzeɲ"],
     kk: ["жұма", "ʒumɑ"],  // Also 'Friday'.
     km: ["អាទិត្យ", "ʔaːtɨt"],
@@ -443,7 +443,7 @@ WORDS.week = {
     gd: ["seachdain", "ˈʃɛxkɔɲ"],
     crs: ["semenn", "semɛn"],
     scn: ["simana", "siˈmana"],
-    si: ["සතිය", "satija"],
+    si: ["සතිය", "satija"],  // No opened source supports the route.
     sk: ["týždeň", "tiːʒɟeɲ"],
     sl: ["teden", "ˈteːdɛn"],
     so: ["toddobaad", "todːobaːd"],
@@ -469,28 +469,28 @@ WORDS.week = {
     ug: ["ھەپتە", "hɛptɛ"],
     uz: ["hafta", "hafta"],
     vi: ["tuần", "twən˨˩"],  // From 旬, a ten-day period.
-    wa: ["samwinne", "samwɛ̃n"],
+    wa: ["samwinne", "samwɛ̃n"],  // No opened source supports the route.
     cy: ["wythnos", "ˈʊɨθnɔs"],  // 'Eight nights.'
     sah: ["нэдиэлэ", "nediele"],
-    yi: ["וואך", "vɔχ"],
+    yi: ["וואך", "vɔχ"],  // Route by resemblance to the neighbouring forms (lb); no etymology of its own.
     zza: ["hefte", "hefte"],
     zu: ["iviki", "iˈviki"],  // From Afrikaans.
     fkv: ["viikko", "ʋiːkːo"],
     olo: ["nedäli", "nedæli"],
     vep: ["nedal'", "nedalʲ"],
     sma: ["våhkoe", "βɔhkuʌ"],  // From Norse.
-    smj: ["vahkko", "vɑhːkuɔ"],  // From Norse.
+    smj: ["vahkko", "vɑhːkuɔ"],  // Route by resemblance to the neighbouring forms (se); no etymology of its own.
     se: ["vahkku", "vɑhkːu"],  // From Norse.
     smn: ["okko", "okːo"],
-    sms: ["niä´t´tel", "niatʲtɛl"],
+    sms: ["niä´t´tel", "niatʲtɛl"],  // No opened source supports the route.
     sjd: ["не̄дтӭль", "ɲeːdtʲeʎ"],
-    mrj: ["ӓрня", "ærnja"],
-    mhr: ["арня", "arɲa"],
+    mrj: ["ӓрня", "ærnja"],  // No opened source supports the route.
+    mhr: ["арня", "arɲa"],  // Route by resemblance to the neighbouring forms (udm); no etymology of its own.
     koi: ["неделя", "ɲeɟeʎa"],
     kpv: ["неделя", "ɲeɟeʎa"],
-    kca: ["ӆапат", "ɬapat"],
+    kca: ["ӆапат", "ɬapat"],  // No opened source supports the route.
     mns: ["са̄т", "saːt"],
-    ku: ["heftî", "hɛfti"],
+    ku: ["heftî", "hɛfti"],  // Route by resemblance to the neighbouring forms (zza); no etymology of its own.
     hyw: ["շաբաթ", "ʃɑpʰɑtʰ"],
     aln: ["javë", "javə"],
     hr: ["tjedan", "tjêdan"],  // 'The same day.'
@@ -501,7 +501,7 @@ WORDS.week = {
     evn: ["неделя", "ɲədʒəlja"],
     gld: ["неделя", "nʲədʲəlʲa"],
     ady: ["тхьамафэ", "tħaːmaːˈfa"],
-    dar: ["жумягӏ", "ʒumjaʕ"],
+    dar: ["жумягӏ", "ʒumjaʕ"],  // No opened source supports the route.
     zh: ["星期", "ɕiŋ˥ tɕʰi˥"],
     arn: ["semana", "semana"],
     dsb: ["tyźeń", "ˈtɨʑɛɲ"],

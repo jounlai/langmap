@@ -71,11 +71,11 @@ WORDS.saturday = {
     sw: "Jumamosi — siku kabla ya Jumapili. Lugha nyingine huiita kwa jina la Zohali, nyingi kwa sabato ya Kiyahudi, nyingine huhesabu tu, na watu wa Kaskazini waliiita siku ya kuoga.",
   },
   family: {
-    ab: "sabbath",
+    ab: "plain",
     aa: "sabbath",
     af: "saturn",
     ak: "plain",
-    sq: "sabbath",
+    sq: "plain",
     am: "other",
     ar: "sabbath",
     hy: "sabbath",
@@ -94,7 +94,7 @@ WORDS.saturday = {
     tzm: "plain",
     ce: "sabbath",
     ny: "other",
-    cv: "sabbath",
+    cv: "plain",
     crh: "after",
     cs: "sabbath",
     da: "wash",
@@ -139,7 +139,7 @@ WORDS.saturday = {
     lv: "count",
     lzz: "sabbath",
     lez: "plain",
-    ln: "sabbath",
+    ln: "plain",
     lt: "count",
     liv: "other",
     lb: "sabbath",
@@ -156,10 +156,10 @@ WORDS.saturday = {
     nap: "sabbath",
     oc: "sabbath",
     or: "saturn",
-    om: "sabbath",
+    om: "plain",
     os: "sabbath",
     ps: "other",
-    pdc: "sabbath",
+    pdc: "plain",
     pl: "sabbath",
     pt: "sabbath",
     qu: "other",
@@ -211,22 +211,22 @@ WORDS.saturday = {
     fkv: "wash",
     olo: "sabbath",
     vep: "sabbath",
-    sma: "wash",
-    smj: "wash",
+    sma: "plain",
+    smj: "plain",
     se: "wash",
     smn: "wash",
-    sms: "sabbath",
-    sjd: "sabbath",
+    sms: "plain",
+    sjd: "plain",
     mrj: "other",
-    mhr: "sabbath",
+    mhr: "plain",
     mdf: "plain",
     koi: "wash",
     kpv: "wash",
-    kca: "count",
+    kca: "plain",
     mns: "sabbath",
     ku: "sabbath",
     hyw: "sabbath",
-    aln: "sabbath",
+    aln: "plain",
     hr: "sabbath",
     no: "wash",
     nn: "wash",
@@ -330,16 +330,16 @@ WORDS.saturday = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
-    ab: ["асабша", "asabʂa"],
+    ab: ["асабша", "asabʂa"],  // No opened source supports the route.
     aa: ["sábti", "sabti"],
     af: ["Saterdag", "ˈsɑːtərdəχ"],
     ak: ["Memenada", "memenada"],
-    sq: ["e shtunë", "ɛˈʃtunə"],
+    sq: ["e shtunë", "ɛˈʃtunə"],  // Page gives the origin as unknown.
     am: ["ቅዳሜ", "kʼɨdame"],
     ar: ["يوم السبت", "jaum assabt"],
     hy: ["շաբաթ", "ʃɑˈpʰɑtʰ"],
     ast: ["sábadu", "ˈsabadu"],
-    av: ["щамат", "ʃːamat"],
+    av: ["щамат", "ʃːamat"],  // Route by resemblance to the neighbouring forms (hy,hyw,bbl); no etymology of its own.
     az: ["şənbə", "ʃæmˈbæ"],
     ba: ["шәмбе", "ˈʃæmbi̞"],
     eu: ["larunbat", "laɾunbat"],
@@ -353,13 +353,13 @@ WORDS.saturday = {
     tzm: ["ⵙⴰⴷ", "sad"],
     ce: ["шот", "ʃu̯ɔt"],
     ny: ["Loweruka", "loweˈɾuka"],
-    cv: ["шӑматкун", "ʃəmatkun"],
-    crh: ["cumaertesi", "dʒumaertesi"],
+    cv: ["шӑматкун", "ʃəmatkun"],  // No opened source supports the route.
+    crh: ["cumaertesi", "dʒumaertesi"],  // Route by resemblance to the neighbouring forms (tr); no etymology of its own.
     cs: ["sobota", "ˈsobota"],
     da: ["lørdag", "lørda"],  // From a word for 'bath'.
     nl: ["zaterdag", "ˈzaːtərˌdɑx"],
     egl: ["sâbet", "ˈsaːbet"],
-    myv: ["субута", "subuta"],
+    myv: ["субута", "subuta"],  // Route by resemblance to the neighbouring forms (be,uk,hr); no etymology of its own.
     eo: ["sabato", "saˈbato"],
     et: ["laupäev", "ˈlɑuˌbæev"],  // From Norse.
     fo: ["leygardagur", "ˈlɛiːjaˌtɛaːvʊɹ"],  // From a word for 'bath'.
@@ -367,7 +367,7 @@ WORDS.saturday = {
     fr: ["samedi", "samdi"],
     fur: ["sabide", "saˈbide"],
     gl: ["sábado", "ˈsabado"],
-    ka: ["შაბათი", "ʃabatʰi"],
+    ka: ["შაბათი", "ʃabatʰi"],  // Route by resemblance to the neighbouring forms (bbl); no etymology of its own.
     de: ["Samstag", "ˈzamstaːk"],
     el: ["Σάββατο", "ˈsavato"],
     kl: ["arfininngorneq", "aʁviniŋːoɴeq"],
@@ -398,7 +398,7 @@ WORDS.saturday = {
     lv: ["sestdiena", "sɛsddiɛna"],
     lzz: ["საბატონი", "sabatʼoni"],
     lez: ["киш", "kiʃ"],
-    ln: ["sabala", "sabala"],
+    ln: ["sabala", "sabala"],  // No opened source supports the route.
     lt: ["šeštadienis", "ʃʲɛˈʃtaːdʲiɛnʲɪs"],
     liv: ["pūolpǟva", "ˈpuːolˌpæːvɑ"],  // 'Half day.'
     lb: ["Samschdeg", "ˈzɑmʃdeχ"],
@@ -415,10 +415,10 @@ WORDS.saturday = {
     nap: ["sàbbato", "ˈsabːatə"],
     oc: ["dissabte", "diˈsatte"],
     or: ["ଶନିବାର", "sɔnibaɾɔ"],
-    om: ["Sanbata", "sanbata"],
+    om: ["Sanbata", "sanbata"],  // No opened source supports the route.
     os: ["сабат", "sabat"],
     ps: ["خالي", "xɑˈli"],  // Also 'empty, free'.
-    pdc: ["Samschdaag", "ˈsamʃdaːk"],
+    pdc: ["Samschdaag", "ˈsamʃdaːk"],  // No opened source supports the route.
     pl: ["sobota", "sɔˈbɔta"],
     pt: ["sábado", "ˈsabadu"],
     qu: ["kʼuychichaw", "kʼujtʃitʃaw"],
@@ -468,35 +468,35 @@ WORDS.saturday = {
     zza: ["şeme", "ʃeme"],
     zu: ["uMgqibelo", "umɡǃʱiɓeːlo"],  // 'The day that finishes.'
     fkv: ["lauantai", "lɑʋɑntɑi"],
-    olo: ["suovattu", "suovatːu"],
+    olo: ["suovattu", "suovatːu"],  // Route by resemblance to the neighbouring forms (krl); no etymology of its own.
     vep: ["sobat", "sobat"],
-    sma: ["laavvadahke", "lɑːβːadahkɛ"],
-    smj: ["lávvodahka", "lavːuɔdɑhkɑ"],
+    sma: ["laavvadahke", "lɑːβːadahkɛ"],  // No opened source supports the route.
+    smj: ["lávvodahka", "lavːuɔdɑhkɑ"],  // No opened source supports the route.
     se: ["lávvordat", "laːvːɔrtɑh"],
-    smn: ["láṿárdâh", "læværdɐh"],
-    sms: ["sue´vet", "suɛvʲɛt"],
-    sjd: ["сӯветҍ", "suːvetʲ"],
+    smn: ["láṿárdâh", "læværdɐh"],  // Route by resemblance to the neighbouring forms (se); no etymology of its own.
+    sms: ["sue´vet", "suɛvʲɛt"],  // No opened source supports the route.
+    sjd: ["сӯветҍ", "suːvetʲ"],  // No opened source supports the route.
     mrj: ["кукшыгечӹ", "kukʃəɣetʃɯ"],  // 'Dry day.'
-    mhr: ["шуматкече", "ʃumatketʃe"],
+    mhr: ["шуматкече", "ʃumatketʃe"],  // No opened source supports the route.
     mdf: ["ёткши", "jotkʃi"],
     koi: ["пывсянлун", "pɨvɕanlun"],  // 'Bath day.'
     kpv: ["пывсянлун", "pɨvɕanlun"],  // 'Bath day.'
-    kca: ["ӆапат хутмет хатӆ", "ɬapat xutmet xatɬ"],
+    kca: ["ӆапат хутмет хатӆ", "ɬapat xutmet xatɬ"],  // No opened source supports the route.
     mns: ["суббота", "subbota"],
-    ku: ["şemî", "ʃɛmi"],
+    ku: ["şemî", "ʃɛmi"],  // Route by resemblance to the neighbouring forms (zza); no etymology of its own.
     hyw: ["շաբաթ", "ʃɑpʰɑtʰ"],
-    aln: ["shtunë", "ʃtunə"],
+    aln: ["shtunë", "ʃtunə"],  // Page gives the origin as unknown.
     hr: ["subota", "sǔbota"],
     no: ["lørdag", "ˈløːrdaːɡ"],  // From a word for 'bath'.
     nn: ["lørdag", "ˈløːrdaːɡ"],  // From a word for 'bath'.
     en: ["Saturday", "ˈsætədeɪ"],
     mn: ["бямба", "pʲampa"],
-    bxr: ["суббото", "subbɔtɔ"],
+    bxr: ["суббото", "subbɔtɔ"],  // Route by resemblance to the neighbouring forms (mns,evn,gld); no etymology of its own.
     evn: ["суббота", "subbota"],
     gld: ["суббота", "subbɔta"],
     kn: ["ಶನಿವಾರ", "ʃaniʋaːɾa"],
     te: ["శనివారము", "ʃaniʋaːɾamu"],
-    ady: ["шэмбэт", "ʃamˈbat"],
+    ady: ["шэмбэт", "ʃamˈbat"],  // Route by resemblance to the neighbouring forms (az,bbl); no etymology of its own.
     dar: ["сут", "sut"],
     zh: ["星期六", "ɕiŋ˥ tɕʰi˥ ljoʊ̯˥˩"],
     dsb: ["sobota", "ˈsɔbɔta"],

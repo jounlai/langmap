@@ -102,7 +102,7 @@ WORDS.thousand = {
     crh: "plain",
     cs: "strong",
     da: "strong",
-    dar: "hazar",
+    dar: "plain",
     nl: "strong",
     krl: "strong",
     fi: "strong",
@@ -110,15 +110,15 @@ WORDS.thousand = {
     olo: "strong",
     vep: "strong",
     et: "strong",
-    liv: "strong",
-    sma: "strong",
-    smj: "strong",
+    liv: "plain",
+    sma: "plain",
+    smj: "plain",
     se: "strong",
     smn: "strong",
-    sms: "strong",
-    sjd: "strong",
-    mrj: "strong",
-    mhr: "strong",
+    sms: "plain",
+    sjd: "plain",
+    mrj: "plain",
+    mhr: "plain",
     mdf: "strong",
     myv: "strong",
     udm: "other",
@@ -360,7 +360,7 @@ WORDS.thousand = {
     crh: ["miñ", "miŋ"],
     cs: ["tisíc", "ˈtɪsiːts"],
     da: ["tusind", "tuːsənə"],
-    dar: ["азир", "azir"],
+    dar: ["азир", "azir"],  // No opened source supports the route.
     nl: ["duizend", "ˈdœy̯zənt"],
     krl: ["tuhat", "tuhɑt"],
     fi: ["tuhat", "ˈtuhɑt"],  // From Baltic.
@@ -368,17 +368,17 @@ WORDS.thousand = {
     olo: ["tuhat", "tuhat"],
     vep: ["tuha", "tuha"],
     et: ["tuhat", "ˈtuhɑt"],  // From Baltic.
-    liv: ["tū’ontõ", "tuːˀontə"],
-    sma: ["tåvsene", "tʰɔβsɛnɛ"],
-    smj: ["tuvsán", "tʊvsan"],
+    liv: ["tū’ontõ", "tuːˀontə"],  // No opened source supports the route.
+    sma: ["tåvsene", "tʰɔβsɛnɛ"],  // No opened source supports the route.
+    smj: ["tuvsán", "tʊvsan"],  // No opened source supports the route.
     se: ["duhát", "tuhaːh"],
-    smn: ["tuhháát", "tuhːæːt"],
-    sms: ["dohat", "doxɒt"],
-    sjd: ["то̄а̄фант", "toːaːfant"],
-    mrj: ["тӹжем", "tɯʒem"],
-    mhr: ["тӱжем", "tyʒem"],
+    smn: ["tuhháát", "tuhːæːt"],  // Route by resemblance to the neighbouring forms (krl,fi,fkv); no etymology of its own.
+    sms: ["dohat", "doxɒt"],  // No opened source supports the route.
+    sjd: ["то̄а̄фант", "toːaːfant"],  // No opened source supports the route.
+    mrj: ["тӹжем", "tɯʒem"],  // No opened source supports the route.
+    mhr: ["тӱжем", "tyʒem"],  // No opened source supports the route.
     mdf: ["тёжянь", "tʲoʒaɲ"],
-    myv: ["тыща", "tɨʃtʃa"],
+    myv: ["тыща", "tɨʃtʃa"],  // Route by resemblance to the neighbouring forms (kpv,koi); no etymology of its own.
     udm: ["сюрс", "sʲurs"],  // From Indo-Iranian.
     kpv: ["тысяча", "tɨɕatɕa"],  // From Russian.
     koi: ["тысяча", "tɨɕatɕa"],  // From Russian.

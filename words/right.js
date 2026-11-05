@@ -121,7 +121,7 @@ WORDS.right = {
     kk: "plain",
     kjh: "plain",
     km: "plain",
-    ko: "straight",
+    ko: "plain",
     kum: "plain",
     ky: "plain",
     lo: "loan",
@@ -178,7 +178,7 @@ WORDS.right = {
     sah: "plain",
     yi: "straight",
     fkv: "straight",
-    krl: "straight",
+    krl: "plain",
     olo: "straight",
     vep: "straight",
     liv: "good",
@@ -189,20 +189,20 @@ WORDS.right = {
     sms: "plain",
     sjd: "plain",
     mrj: "plain",
-    mhr: "good",
+    mhr: "plain",
     udm: "good",
-    koi: "straight",
-    kpv: "straight",
+    koi: "plain",
+    kpv: "plain",
     kca: "plain",
     mns: "plain",
-    ku: "straight",
+    ku: "plain",
     hyw: "plain",
     aln: "dexter",
     hr: "dexter",
     no: "good",
     nn: "good",
     en: "straight",
-    br: "compass",
+    br: "dexter",
     cv: "plain",
     bxr: "compass",
     evn: "plain",
@@ -221,7 +221,7 @@ WORDS.right = {
     fur: "straight",
     hsb: "straight",
     csb: "straight",
-    gv: "dexter",
+    gv: "plain",
     gay: "plain",
     iba: "plain",
     pam: "plain",
@@ -300,9 +300,9 @@ WORDS.right = {
     ja_hak: "plain",
     ja_kyo: "plain",
     ja_hir: "plain",
-    ko_kp: "straight",
-    ko_bus: "straight",
-    ko_yb: "straight",
+    ko_kp: "plain",
+    ko_bus: "plain",
+    ko_yb: "plain",
     es_mx: "straight",
     prs: "straight",
     en_aave: "straight",
@@ -330,8 +330,8 @@ WORDS.right = {
     es_cu: "straight",
     es_pe: "straight",
     es_an: "straight",
-    ko_hg: "straight",
-    ko_jl: "straight",
+    ko_hg: "plain",
+    ko_jl: "plain",
     es_pr: "straight",
     es_do: "straight",
     es_gt: "straight",
@@ -402,7 +402,7 @@ WORDS.right = {
     kk: ["оң", "oŋ"],
     kjh: ["оң", "oŋ"],
     km: ["ស្ដាំ", "sɗam"],
-    ko: ["오른쪽", "oɾɯntɕ͈ok̚"],
+    ko: ["오른쪽", "oɾɯntɕ͈ok̚"],  // No opened source supports the route.
     kum: ["онг", "oŋ"],
     ky: ["оң", "oŋ"],
     lo: ["ຂວາ", "kʰuːə̯˩˧"],  // Borrowed from Old Chinese 右.
@@ -410,7 +410,7 @@ WORDS.right = {
     lv: ["labais", "labais"],  // From labs 'good'.
     lt: ["dešinys", "dʲɛʃʲɪˈnʲiːs"],
     lb: ["riets", "ʁiə̯ts"],
-    mk: ["десно", "ˈdɛsnɔ"],
+    mk: ["десно", "ˈdɛsnɔ"],  // Route by resemblance to the neighbouring forms (hr); no etymology of its own.
     ms: ["kanan", "kanan"],
     ml: ["വലത്", "ʋalad̪ɨ"],
     mt: ["lemin", "lɛˈmiːn"],
@@ -434,7 +434,7 @@ WORDS.right = {
     gd: ["deas", "tʲes̪"],  // Also 'south'.
     cjs: ["оң", "oŋ"],
     sk: ["pravý", "praviː"],
-    sl: ["desni", "ˈdɛsni"],
+    sl: ["desni", "ˈdɛsni"],  // Route by resemblance to the neighbouring forms (hr); no etymology of its own.
     so: ["midig", "midiɡ"],
     es: ["derecha", "deˈɾetʃa"],
     su: ["tengen", "təŋən"],
@@ -459,7 +459,7 @@ WORDS.right = {
     sah: ["уҥа", "uŋa"],
     yi: ["רעכט", "rɛχt"],
     fkv: ["oikea", "ˈoikeɑ"],
-    krl: ["oikie", "ˈoikie"],
+    krl: ["oikie", "ˈoikie"],  // No opened source supports the route.
     olo: ["oigei", "ˈoiɡei"],
     vep: ["oiged", "ˈoiɡed"],
     liv: ["jõvā", "jɨvɑː"],
@@ -470,20 +470,20 @@ WORDS.right = {
     sms: ["vuõiǥâs", "vuəiɣɐs"],
     sjd: ["вуэлькесь", "vueʎkeɕ"],
     mrj: ["вургамла", "vurɣɑmlɑ"],
-    mhr: ["пурла", "purla"],  // Also 'good'.
+    mhr: ["пурла", "purla"],  // No opened source supports the route.
     udm: ["бур", "bur"],  // Also 'good'.
-    koi: ["веськытланись", "vʲeɕkɨtlaɲiɕ"],
-    kpv: ["веськытланись", "vʲeɕkɨtlaɲiɕ"],
+    koi: ["веськытланись", "vʲeɕkɨtlaɲiɕ"],  // No opened source supports the route.
+    kpv: ["веськытланись", "vʲeɕkɨtlaɲiɕ"],  // No opened source supports the route.
     kca: ["ям", "jam"],
     mns: ["ёмаспал", "jomaspal"],
-    ku: ["rastê", "raste"],
+    ku: ["rastê", "raste"],  // No opened source supports the route.
     hyw: ["աջ", "ɑtʃʰ"],
     aln: ["djathtë", "djaθtə"],
     hr: ["desni", "dêsniː"],
     no: ["høyre", "ˈhœjrə"],  // Comparative of a word for 'handy'.
     nn: ["høyre", "ˈhœjrə"],  // Comparative of a word for 'handy'.
     en: ["right", "ɹaɪt"],
-    br: ["dehoù", "dɛhu"],  // Also 'south'.
+    br: ["dehoù", "dɛhu"],  // Welsh de page gives Breton dehou as a cognate from *dexswos 'right'; no source for 'south' in Breton.
     cv: ["сылтӑм", "ˈsɯltəm"],
     bxr: ["баруун", "baruːŋ"],  // Also 'west'.
     evn: ["анӈӯ", "anŋuː"],
@@ -502,7 +502,7 @@ WORDS.right = {
     fur: ["dret", "dret"],
     hsb: ["prawy", "ˈprawɨ"],
     csb: ["prawi", "ˈpravi"],
-    gv: ["jesh", "dʒɛʃ"],
+    gv: ["jesh", "dʒɛʃ"],  // No opened source supports the route.
     gay: ["kuwən", "kuwən"],
     iba: ["kanan", "kanan"],
     pam: ["wánan", "wanan"],
@@ -581,9 +581,9 @@ WORDS.right = {
     ja_hak: ["右", "miɡi"],
     ja_kyo: ["右", "miɡi"],
     ja_hir: ["右", "miɡi"],
-    ko_kp: ["오른쪽", "oɾɯntɕ͈ok̚"],
-    ko_bus: ["오른쪽", "oɾɯntɕ͈ok̚"],
-    ko_yb: ["오른쪽", "oɾɯntɕ͈ok̚"],
+    ko_kp: ["오른쪽", "oɾɯntɕ͈ok̚"],  // No opened source supports the route.
+    ko_bus: ["오른쪽", "oɾɯntɕ͈ok̚"],  // No opened source supports the route.
+    ko_yb: ["오른쪽", "oɾɯntɕ͈ok̚"],  // No opened source supports the route.
     es_mx: ["derecha", "deˈɾetʃa"],
     prs: ["راست", "rɑːst"],
     en_aave: ["right", "ɹaɪt"],
@@ -611,8 +611,8 @@ WORDS.right = {
     es_cu: ["derecha", "deˈɾetʃa"],
     es_pe: ["derecha", "deˈɾetʃa"],
     es_an: ["derecha", "deˈɾetʃa"],
-    ko_hg: ["오른쪽", "oɾɯntɕ͈ok̚"],
-    ko_jl: ["오른쪽", "oɾɯntɕ͈ok̚"],
+    ko_hg: ["오른쪽", "oɾɯntɕ͈ok̚"],  // No opened source supports the route.
+    ko_jl: ["오른쪽", "oɾɯntɕ͈ok̚"],  // No opened source supports the route.
     es_pr: ["derecha", "deˈɾetʃa"],
     es_do: ["derecha", "deˈɾetʃa"],
     es_gt: ["derecha", "deˈɾetʃa"],

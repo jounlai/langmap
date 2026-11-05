@@ -79,11 +79,11 @@ WORDS.sunday = {
     af: "sun",
     ak: "plain",
     sq: "sun",
-    am: "count",
+    am: "plain",
     ar: "count",
     hy: "lord",
     ast: "lord",
-    av: "count",
+    av: "plain",
     az: "market",
     ban: "sun",
     ba: "count",
@@ -144,7 +144,7 @@ WORDS.sunday = {
     csb: "rest",
     kk: "count",
     km: "sun",
-    kg: "lord",
+    kg: "plain",
     ko: "sun",
     ky: "count",
     lad: "count",
@@ -168,7 +168,7 @@ WORDS.sunday = {
     mr: "sun",
     mfe: "lord",
     nv: "lord",
-    nap: "lord",
+    nap: "plain",
     ne: "sun",
     niu: "holy",
     oc: "lord",
@@ -209,7 +209,7 @@ WORDS.sunday = {
     sv: "sun",
     tab: "market",
     tl: "lord",
-    ty: "holy",
+    ty: "plain",
     tg: "count",
     ta: "sun",
     tt: "count",
@@ -217,8 +217,8 @@ WORDS.sunday = {
     te: "sun",
     tet: "lord",
     th: "sun",
-    ti: "sabbath",
-    tkl: "holy",
+    ti: "plain",
+    tkl: "plain",
     to: "sabbath",
     tn: "other",
     tum: "sabbath",
@@ -235,7 +235,7 @@ WORDS.sunday = {
     vro: "holy",
     wa: "lord",
     cy: "sun",
-    wo: "lord",
+    wo: "plain",
     sah: "resurrection",
     yi: "sun",
     zza: "market",
@@ -243,17 +243,17 @@ WORDS.sunday = {
     fkv: "sun",
     olo: "holy",
     vep: "holy",
-    sma: "holy",
-    smj: "sun",
+    sma: "plain",
+    smj: "plain",
     se: "sun",
-    smn: "holy",
-    sms: "holy",
-    sjd: "holy",
+    smn: "plain",
+    sms: "plain",
+    sjd: "plain",
     mrj: "other",
     mhr: "other",
-    mdf: "market",
-    koi: "resurrection",
-    kpv: "resurrection",
+    mdf: "plain",
+    koi: "plain",
+    kpv: "plain",
     kca: "plain",
     ku: "count",
     hy_grab: "lord",
@@ -331,26 +331,26 @@ WORDS.sunday = {
     it_dan: "lord",
     mn: "sun",
     bxr: "resurrection",
-    ykg: "resurrection",
+    ykg: "plain",
     ckt: "plain",
     bsk: "sun",
-    ady: "lord",
-    ddo: "count",
-    lbe: "count",
-    dar: "count",
+    ady: "plain",
+    ddo: "plain",
+    lbe: "plain",
+    dar: "plain",
     zh: "other",
     bdk: "market",
     rut: "market",
     kjj: "market",
     osp: "lord",
-    gmh: "sun",
+    gmh: "plain",
     rmy: "lord",
     crt: "plain",
     cag: "plain",
-    kr: "count",
+    kr: "plain",
     dsb: "rest",
     mg: "count",
-    tzo: "lord",
+    tzo: "plain",
     ote: "lord",
     otq: "lord",
     srm: "sun",
@@ -380,11 +380,11 @@ WORDS.sunday = {
     af: ["Sondag", "ˈsɔndaχ"],
     ak: ["Kwasiada", "kwasiada"],
     sq: ["e diel", "ɛˈdjɛl"],  // From diell 'sun'.
-    am: ["እሑድ", "ʔɨhud"],
+    am: ["እሑድ", "ʔɨhud"],  // No opened source supports the route.
     ar: ["يوم الأحد", "jaum alʔaxad"],  // Literally 'the one', the first day.
     hy: ["կիրակի", "kiɾɑˈki"],
     ast: ["domingu", "doˈminɣu"],
-    av: ["гьатӏан", "hatʼan"],
+    av: ["гьатӏан", "hatʼan"],  // Page ties it to a word for 'law, prayer', not a count.
     az: ["bazar", "bɑzɑɾ"],
     ban: ["redité", "rədite"],
     ba: ["йәкшәмбе", "jækˈʃæmbe"],
@@ -445,7 +445,7 @@ WORDS.sunday = {
     csb: ["niedzela", "ɲɛˈdzɛla"],
     kk: ["жексенбі", "ʒeksenbɘ"],
     km: ["ថ្ងៃអាទិត្យ", "tʰŋaj ʔaːtɨt"],
-    kg: ["Lumbu kia lumingu", "lumbu kia luminɡu"],
+    kg: ["Lumbu kia lumingu", "lumbu kia luminɡu"],  // No opened source supports the route.
     ko: ["일요일", "iljoil"],
     ky: ["жекшемби", "dʒekʃemˈbi"],
     lad: ["alhad", "alˈxad"],
@@ -453,7 +453,7 @@ WORDS.sunday = {
     la: ["diēs Sōlis", "ˈdiːeːs ˈsoːlis"],
     lv: ["svētdiena", "zveːddiena"],
     lez: ["базар", "bazar"],
-    lij: ["domenega", "doˈmeneɡa"],
+    lij: ["domenega", "doˈmeneɡa"],  // Route by resemblance to the neighbouring forms (co,it,lmo); no etymology of its own.
     ln: ["eyenga", "ejenɡa"],
     lt: ["sekmadienis", "sʲɛˈkmɑːdʲiɛnʲɪs"],  // Literally 'seventh day'.
     liv: ["pivāpǟva", "ˈpivɑːˌpæːvɑ"],
@@ -469,7 +469,7 @@ WORDS.sunday = {
     mr: ["रविवार", "ɾəʋiʋaɾ"],
     mfe: ["dimans", "dimɑ̃s"],
     nv: ["Damį́įgo", "tɑ̀mĩ̂ːkò"],
-    nap: ["dumméneca", "dumˈmenəkə"],
+    nap: ["dumméneca", "dumˈmenəkə"],  // No opened source supports the route.
     ne: ["आइतबार", "aitʌbar"],
     niu: ["Aho Tapu", "aho tapu"],
     oc: ["dimenge", "diˈmendʒe"],
@@ -510,7 +510,7 @@ WORDS.sunday = {
     sv: ["söndag", "ˈsœndɑːɡ"],
     tab: ["базар", "bazar"],
     tl: ["Linggo", "liŋˈɡo"],  // From Spanish domingo.
-    ty: ["Tapati", "tapati"],
+    ty: ["Tapati", "tapati"],  // No opened source supports the route.
     tg: ["якшанбе", "jakʃanbe"],
     ta: ["ஞாயிறு", "ɲaːjirɯ"],
     tt: ["якшәмбе", "jɑqʃæmbe"],
@@ -518,9 +518,9 @@ WORDS.sunday = {
     te: ["ఆదివారం", "aːdiʋaːɾam"],
     tet: ["loron-domingu", "lorondominɡu"],
     th: ["วันอาทิตย์", "wan˧ʔaː˧tʰit˦˥"],
-    ti: ["ሰንበት", "sɐnbɐt"],
-    tkl: ["Ahohā", "ahohaː"],
-    to: ["Sapate", "sapate"],
+    ti: ["ሰንበት", "sɐnbɐt"],  // No opened source supports the route.
+    tkl: ["Ahohā", "ahohaː"],  // No opened source supports the route.
+    to: ["Sapate", "sapate"],  // Route by resemblance to the neighbouring forms (kl); no etymology of its own.
     tn: ["latshipi", "latsʰipi"],
     tum: ["Sabata", "sabata"],
     tr: ["pazar", "pazaɾ"],  // Literally 'market'.
@@ -536,27 +536,27 @@ WORDS.sunday = {
     vro: ["pühäpäiv", "ˈpyhæpæiv"],
     wa: ["dimegne", "dimɛɲ"],
     cy: ["dydd Sul", "ˌdɨːð ˈsɨːl"],
-    wo: ["Dibéer", "dibeːr"],
+    wo: ["Dibéer", "dibeːr"],  // No opened source supports the route.
     sah: ["баскыһыанньа", "baskɯhɯaɲːa"],
     yi: ["זונטיק", "ˈzʊntɪk"],
     zza: ["bazar", "bazar"],
     zu: ["iSonto", "iːsoːnto"],
     fkv: ["sunnuntai", "ˈsunːuntɑi"],
-    olo: ["pyhäpäivy", "ˈpyhæpæivy"],
+    olo: ["pyhäpäivy", "ˈpyhæpæivy"],  // Route by resemblance to the neighbouring forms (et,krl); no etymology of its own.
     vep: ["pühäpäiv", "ˈpyhæpæiv"],
-    sma: ["aejlege", "ˈæːjlɛkɛ"],
-    smj: ["sådnåbiejvve", "sɔdnɔbiɛjvːɛ"],
+    sma: ["aejlege", "ˈæːjlɛkɛ"],  // No opened source supports the route.
+    smj: ["sådnåbiejvve", "sɔdnɔbiɛjvːɛ"],  // No opened source supports the route.
     se: ["sotnabeaivi", "ˈsotnɑˌpeɑjvi"],
-    smn: ["pasepeivi", "pɑsepeivi"],
-    sms: ["pâ´sspei´vv", "pɐsːʲpʲɛivːʲɘ"],
-    sjd: ["па̄ссьпе̄ййв", "paːɕːpeːjːv"],
+    smn: ["pasepeivi", "pɑsepeivi"],  // No opened source supports the route.
+    sms: ["pâ´sspei´vv", "pɐsːʲpʲɛivːʲɘ"],  // No opened source supports the route.
+    sjd: ["па̄ссьпе̄ййв", "paːɕːpeːjːv"],  // No opened source supports the route.
     mrj: ["рушӓрня", "ruʃærnja"],
     mhr: ["рушарня", "ruʃarɲa"],
-    mdf: ["таргоши", "tarɡoʃi"],
-    koi: ["кресення", "krʲeɕeɲːa"],
-    kpv: ["кресення", "krʲeɕeɲːa"],
+    mdf: ["таргоши", "tarɡoʃi"],  // No opened source supports the route.
+    koi: ["кресення", "krʲeɕeɲːa"],  // No opened source supports the route.
+    kpv: ["кресення", "krʲeɕeɲːa"],  // No opened source supports the route.
     kca: ["сютсяты хатӆ", "sʲutsʲatɪ xatɬ"],
-    ku: ["yekşemb", "jɛkʃɛmb"],
+    ku: ["yekşemb", "jɛkʃɛmb"],  // Route by resemblance to the neighbouring forms (ug,fa,tk); no etymology of its own.
     hy_grab: ["կիրակի", "kiɾaki"],
     hyw: ["կիրակի", "kiɾɑki"],
     aln: ["diel", "diɛl"],
@@ -632,28 +632,28 @@ WORDS.sunday = {
     it_dan: ["domenica", "domenika"],
     mn: ["ням", "nʲam"],
     bxr: ["воскресени", "voskrʲesʲeni"],
-    ykg: ["боскирисиэннэ", "boskiriseːnne"],
+    ykg: ["боскирисиэннэ", "boskiriseːnne"],  // No opened source supports the route.
     ckt: ["чантэн", "tɕanten"],
     bsk: ["adít", "aˈdit"],
-    ady: ["тхьаумаф", "tħaːwəˈmaːf"],  // Literally 'God's day'.
-    ddo: ["гьатӏан", "hatʼan"],
-    lbe: ["алхӏат", "alħat"],
-    dar: ["алхIят", "alχijat"],
+    ady: ["тхьаумаф", "tħaːwəˈmaːf"],  // No opened source supports the route.
+    ddo: ["гьатӏан", "hatʼan"],  // Same word as Avar гьатӏан, tied to 'law, prayer'.
+    lbe: ["алхӏат", "alħat"],  // No opened source supports the route.
+    dar: ["алхIят", "alχijat"],  // No opened source supports the route.
     zh: ["星期日", "ɕiŋ˥ tɕʰi˥ ʐɨ˥˩"],  // 'Week-day'; 星期 is 'star period'.
     bdk: ["базар", "bazar"],
     rut: ["базар", "bazar"],
     kjj: ["базар", "bazar"],
     osp: ["domingo", "doˈmiŋɡo"],
-    gmh: ["suntac", "ˈzuntak"],
+    gmh: ["suntac", "ˈzuntak"],  // No opened source supports the route.
     rmy: ["kurko", "kurko"],
     crt: ["injo-ʔmannijin", "injoʔmannijin"],
     cag: ["jamejkˀoja", "jamejkˀoja"],
-    kr: ["ládə̀", "ladə"],
+    kr: ["ládə̀", "ladə"],  // No opened source supports the route.
     dsb: ["njeźela", "ˈnʲɛʑɛla"],
-    mg: ["alahàdy", "alaˈhadi"],
-    tzo: ["rominko", "rominko"],
-    ote: ["ndomingo", "ndomiŋɡo"],
-    otq: ["ndomingo", "ndomiŋɡo"],
+    mg: ["alahàdy", "alaˈhadi"],  // Route by resemblance to the neighbouring forms (ha); no etymology of its own.
+    tzo: ["rominko", "rominko"],  // No opened source supports the route.
+    ote: ["ndomingo", "ndomiŋɡo"],  // Route by resemblance to the neighbouring forms (ceb,gl,es); no etymology of its own.
+    otq: ["ndomingo", "ndomiŋɡo"],  // Route by resemblance to the neighbouring forms (ceb,gl,es); no etymology of its own.
     srm: ["sónde", "sónde"],
     jup: ["cówag", "cówaɡ"],
     fa: ["یکشنبه", "jekʃæmˈbe"],  // 'One after the sabbath'.

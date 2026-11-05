@@ -37,7 +37,7 @@ const WORD_CATEGORIES = [
         label: {
             en: "People", ja: "人", ko: "사람", zh: "人", yue: "人", vi: "Con người", th: "ผู้คน", id: "Orang", hi: "लोग", de: "Menschen", fr: "Personnes", it: "Persone", es: "Personas", pt: "Pessoas", ru: "Люди", uk: "Люди", ar: "الناس", he: "אנשים", sw: "Watu"
         },
-        words: ["mother", "father", "grandmother", "daughter", "olderbrother", "i", "you", "we", "name", "person"],
+        words: ["mother", "father", "grandmother", "daughter", "wife", "olderbrother", "i", "you", "we", "name", "person"],
     },
     {
         key: "body",
@@ -51,14 +51,14 @@ const WORD_CATEGORIES = [
         label: {
             en: "Animals & plants", ja: "動物と植物", ko: "동물과 식물", zh: "动物与植物", yue: "動物同植物", vi: "Động vật và thực vật", th: "สัตว์และพืช", id: "Hewan & tumbuhan", hi: "जानवर और पौधे", de: "Tiere & Pflanzen", fr: "Animaux et plantes", it: "Animali e piante", es: "Animales y plantas", pt: "Animais e plantas", ru: "Животные и растения", uk: "Тварини і рослини", ar: "الحيوانات والنباتات", he: "בעלי חיים וצמחים", sw: "Wanyama na mimea"
         },
-        words: ["tree", "dog", "cat", "fish", "bird", "bat", "butterfly", "dragonfly", "egg", "bear", "horse", "cuckoo", "woof", "cockcrow", "turkey", "ladybird", "whale", "octopus", "jellyfish", "sunflower"],
+        words: ["tree", "dog", "cat", "fish", "bird", "bat", "butterfly", "dragonfly", "egg", "bear", "horse", "camel", "cuckoo", "woof", "cockcrow", "turkey", "ladybird", "whale", "octopus", "jellyfish", "sunflower"],
     },
     {
         key: "home",
         label: {
             en: "Home, food & drink", ja: "家と食べもの", ko: "집과 먹거리", zh: "家与饮食", yue: "屋企同飲食", vi: "Nhà cửa và ăn uống", th: "บ้านและอาหาร", id: "Rumah, makanan & minuman", hi: "घर और खान-पान", de: "Haus, Essen & Trinken", fr: "Maison, nourriture et boisson", it: "Casa, cibo e bevande", es: "Casa, comida y bebida", pt: "Casa, comida e bebida", ru: "Дом, еда и питьё", uk: "Дім, їжа і напої", ar: "البيت والطعام والشراب", he: "בית, מאכל ומשקה", sw: "Nyumba, chakula na kinywaji"
         },
-        words: ["house", "milk", "honey", "salt", "wine", "rice", "chocolate", "sushi", "tea", "coffee", "sugar", "orange", "potato", "tomato", "maize", "pineapple"],
+        words: ["house", "window", "milk", "honey", "salt", "soap", "wine", "rice", "chocolate", "sushi", "tea", "coffee", "tobacco", "sugar", "orange", "potato", "tomato", "maize", "pineapple"],
     },
     {
         key: "made",
@@ -93,7 +93,7 @@ const WORD_CATEGORIES = [
         label: {
             en: "Colour", ja: "色", ko: "색", zh: "颜色", yue: "顏色", vi: "Màu sắc", th: "สี", id: "Warna", hi: "रंग", de: "Farben", fr: "Couleurs", it: "Colori", es: "Colores", pt: "Cores", ru: "Цвета", uk: "Кольори", ar: "الألوان", he: "צבעים", sw: "Rangi"
         },
-        words: ["red", "white", "black", "green", "blue"],
+        words: ["red", "white", "black", "green", "blue", "yellow"],
     },
     {
         key: "countries",

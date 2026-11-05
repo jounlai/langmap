@@ -509,7 +509,7 @@ WORDS.sunday = {
     sw: ["Jumapili", "dʒumaˈpili"],
     sv: ["söndag", "ˈsœndɑːɡ"],
     tab: ["базар", "bazar"],
-    tl: ["Linggo", "d"],  // From Spanish domingo.
+    tl: ["Linggo", "liŋˈɡo"],  // From Spanish domingo.
     ty: ["Tapati", "tapati"],
     tg: ["якшанбе", "jakʃanbe"],
     ta: ["ஞாயிறு", "ɲaːjirɯ"],

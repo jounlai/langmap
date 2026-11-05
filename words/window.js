@@ -379,16 +379,16 @@ WORDS.window = {
     aqc: ["гьаракут", "harakut"],
     bdk: ["агъушке", "aʁuʃke"],
     huz: ["жогъ", "ʒoʁ"],
-    kjj: ["паьнджаьраь", "pændʒæræ"],
+    kjj: ["паьнджаьраь", "pændʒæræ"],  // Route by resemblance to the neighbouring forms (gag,fa,az); no etymology of its own.
     nog: ["шагарак", "ʃaɡarak"],
     tab: ["улд", "uld"],
     udi: ["акІушка", "akʼuʃka"],
     am: ["መስኮት", "məskot"],
     ti: ["መስኮት", "mɐskot"],
     arn: ["fentana", "fentana"],
-    bal: ["دریگ", "dariːɡ"],
+    bal: ["دریگ", "dariːɡ"],  // Route by resemblance to the neighbouring forms (fa); no etymology of its own.
     bho: ["खिड़की", "kʰiɽkiː"],
-    bqi: ["بنجه", "bandʒa"],
+    bqi: ["بنجه", "bandʒa"],  // Route by resemblance to the neighbouring forms (fa); no etymology of its own.
     cjs: ["кӧзнек", "køznek"],
     kjh: ["кӧзенек", "køzenek"],
     tyv: ["көзенек", "køzenek"],
@@ -403,44 +403,44 @@ WORDS.window = {
     haw: ["puka aniani", "puka aniani"],  // From puka 'door' and aniani 'glass'.
     jv: ["cendhéla", "tʃəɳɖelɔ"],
     kea: ["janéla", "ʒaˈnɛla"],
-    kek: ["bʼentaan", "bʼentaːn"],
+    kek: ["bʼentaan", "bʼentaːn"],  // Route by resemblance to the neighbouring forms (es); no etymology of its own.
     kr: ["tágà", "táɡà"],
     krc: ["терезе", "tereze"],
     kum: ["терезе", "tereze"],
     ky: ["терезе", "tereˈze"],
     lad: ["ventana", "venˈtana"],
-    lg: ["eddirisa", "edːirisa"],
+    lg: ["eddirisa", "edːirisa"],  // Route by resemblance to the neighbouring forms (sw); no etymology of its own.
     mdh: ["paliwangan", "paliwaŋan"],
     mwr: ["बारी", "baːri"],
-    mzh: ["wentana", "wentana"],
+    mzh: ["wentana", "wentana"],  // Route by resemblance to the neighbouring forms (arn,lad,pap); no etymology of its own.
     nap: ["fenesta", "feˈnɛstə"],
     nrf: ["f'nêtre", "fnɛtr"],
     oj: ["waasechigan", "waːsetʃiɡan"],
     pag: ["dorongawen", "doɾoŋawen"],
     pap: ["bentana", "benˈtana"],
     pms: ["fnestra", "ˈfnɛstra"],
-    qu: ["wintana", "wintana"],
+    qu: ["wintana", "wintana"],  // Route by resemblance to the neighbouring forms (ceb); no etymology of its own.
     rcf: ["fénèt", "fenet"],
     rm: ["fanestra", "faˈnɛstra"],
     rmy: ["bloka", "bloka"],
     rom: ["bloka", "bloka"],
     rue: ["окно", "okˈno"],
     rup: ["firidã", "firiˈdə"],
-    rw: ["idirishya", "idiɾiʃa"],
+    rw: ["idirishya", "idiɾiʃa"],  // Route by resemblance to the neighbouring forms (sw,ki); no etymology of its own.
     sc: ["fentana", "fenˈtana"],
     sd: ["دري", "dəɾiː"],
     si: ["ජනේලය", "dʒaneːləjə"],  // From Portuguese janela.
     sm: ["faʻamalama", "faʔamalama"],
     so: ["dariishad", "dariːʃad"],
-    st: ["fenstere", "fɛnstɛrɛ"],
+    st: ["fenstere", "fɛnstɛrɛ"],  // Route by resemblance to the neighbouring forms (fy,sv,af); no etymology of its own.
     sw: ["dirisha", "diˈriʃa"],  // From Omani Arabic drīša, from Persian دریچه.
     te: ["కిటికీ", "kiʈikiː"],
     tzo: ["ventana", "bentana"],
     ug: ["دېرىزە", "derize"],
-    vro: ["akõn", "akɤn"],
+    vro: ["akõn", "akɤn"],  // Route by resemblance to the neighbouring forms (et); no etymology of its own.
     wo: ["palanteer", "palanteːr"],
     yo: ["fèrèsé", "fèrèsé"],
-    zu: ["ifasitela", "ifasitela"],
+    zu: ["ifasitela", "ifasitela"],  // Route by resemblance to the neighbouring forms (af); no etymology of its own.
     zza: ["teqa", "teqa"],
     zh: ["窗户", "ʈʂʰwɑŋ˥ xu˥˩"],
     yue: ["窗", "tsʰœːŋ˥"],
@@ -453,7 +453,7 @@ WORDS.window = {
     ar: ["نافذة", "naːfiða"],
     he: ["חלון", "χaˈlon"],
     fa: ["پنجره", "pændʒeˈɾe"],
-    ckb: ["پەنجەرە", "pandʒaɾa"],
+    ckb: ["پەنجەرە", "pandʒaɾa"],  // Route by resemblance to the neighbouring forms (gag,fa,az); no etymology of its own.
     cbk: ["ventana", "benˈtana"],
     hil: ["bentana", "benˈtana"],
     iba: ["jenila", "dʒənila"],
@@ -506,8 +506,8 @@ WORDS.window = {
     nl: ["raam", "raːm"],
     egl: ["fnèstra", "ˈfnɛːstra"],
     myv: ["вальма", "valʲma"],
-    eo: ["fenestro", "feˈnestro"],
-    ee: ["fesre", "fesre"],
+    eo: ["fenestro", "feˈnestro"],  // Route by resemblance to the neighbouring forms (co,nap,pms); no etymology of its own.
+    ee: ["fesre", "fesre"],  // Route by resemblance to the neighbouring forms (srn); no etymology of its own.
     fo: ["vindeyga", "ˈvɪntˌɛiːja"],
     fi: ["ikkuna", "ikːunɑ"],  // Of Slavic origin, from the word for a window.
     fr: ["fenêtre", "fənɛtʁ"],  // From Latin fenestra, which Wiktionary traces to Etruscan.
@@ -530,7 +530,7 @@ WORDS.window = {
     it: ["finestra", "fiˈnɛstra"],
     kn: ["ಕಿಟಕಿ", "kiʈaki"],
     pam: ["auang", "ˈawəŋ"],
-    krl: ["ikkuna", "ikːunɑ"],
+    krl: ["ikkuna", "ikːunɑ"],  // Route by resemblance to the neighbouring forms (vot); no etymology of its own.
     csb: ["òkno", "ˈwɛknɔ"],
     kk: ["терезе", "teɾeze"],  // From Persian دریچه.
     kg: ["nela", "nela"],
@@ -578,28 +578,28 @@ WORDS.window = {
     umb: ["ombando", "ombando"],
     ur: ["کھڑکی", "kʰɪɽkiː"],
     uz: ["deraza", "deraza"],  // Borrowed from Classical Persian دریچه.
-    vep: ["ikun", "ikun"],
+    vep: ["ikun", "ikun"],  // Route by resemblance to the neighbouring forms (fi,krl,fkv); no etymology of its own.
     vo: ["fenät", "feˈnɛt"],
     vot: ["akkunõ", "ˈakːuna"],
-    wa: ["finiesse", "fiɲɛs"],
+    wa: ["finiesse", "fiɲɛs"],  // Route by resemblance to the neighbouring forms (fr); no etymology of its own.
     cy: ["ffenestr", "fɛnɛstr"],
     xh: ["ifestile", "ifestiːle"],
     sah: ["түннүк", "tynːyk"],
-    yi: ["פענצטער", "ˈfɛntstəʁ"],
-    fkv: ["ikkuna", "ikːunɑ"],
-    olo: ["ikkun", "ikːun"],
+    yi: ["פענצטער", "ˈfɛntstəʁ"],  // Route by resemblance to the neighbouring forms (nap,fy,sv); no etymology of its own.
+    fkv: ["ikkuna", "ikːunɑ"],  // Route by resemblance to the neighbouring forms (vot); no etymology of its own.
+    olo: ["ikkun", "ikːun"],  // Route by resemblance to the neighbouring forms (fi,krl,fkv); no etymology of its own.
     liv: ["lä’b", "læˀb"],
     sma: ["klaase", "kʰlɑːsɛ"],
     smj: ["vinndek", "vinːdɛk"],
     se: ["láse", "laːse"],
     smn: ["laasâ", "lɑːsɐ"],
-    sms: ["ikkân", "ikːɐn"],
+    sms: ["ikkân", "ikːɐn"],  // Route by resemblance to the neighbouring forms (vep,olo); no etymology of its own.
     sjd: ["эххкан", "exːkan"],
     mrj: ["окня", "oknja"],
-    mhr: ["окна", "okna"],
+    mhr: ["окна", "okna"],  // Route by resemblance to the neighbouring forms (rue,cs,pl); no etymology of its own.
     kca: ["ишни", "iʃni"],
     mns: ["ӣснас", "iːsnas"],
-    sel: ["окошка", "okoʃka"],
+    sel: ["окошка", "okoʃka"],  // Route by resemblance to the neighbouring forms (ru); no etymology of its own.
     yrk: ["сидерˮ", "sʲidʲeːrʔ"],
     nio: ["сиәз̌ыр", "sʲiəðɨr"],
     hyw: ["պատուհան", "pɑtuhɑn"],

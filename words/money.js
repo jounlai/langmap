@@ -70,7 +70,7 @@ WORDS.money = {
     sw: "Pesa — kitu cha kulipia. Lugha nyingi bado huiita kwa jina la madini: argent ya Kifaransa na כסף ya Kiebrania ni “fedha”, 金 ya Kijapani ni “dhahabu”. Nyingine hutumia jina la sarafu, kama dinero kutoka denari ya Kirumi, au पैसा ya Kihindi. Geld ya Kijerumani ni malipo, na money ya Kiingereza inarudi kwenye kiwanda cha sarafu cha Roma.",
   },
   family: {
-    abs: "coin",
+    abs: "plain",
     agx: "coin",
     bdk: "coin",
     tab: "coin",
@@ -82,7 +82,7 @@ WORDS.money = {
     ani: "plain",
     aqc: "plain",
     rut: "coin",
-    huz: "silver",
+    huz: "plain",
     udi: "coin",
     ay: "silver",
     qu: "silver",
@@ -111,10 +111,10 @@ WORDS.money = {
     kum: "coin",
     lg: "coin",
     lld: "coin",
-    mg: "silver",
+    mg: "plain",
     nog: "coin",
     om: "plain",
-    pap: "coin",
+    pap: "plain",
     pcm: "coin",
     rcf: "silver",
     rm: "coin",
@@ -290,8 +290,8 @@ WORDS.money = {
     smj: "other",
     se: "other",
     smn: "other",
-    sms: "coin",
-    sjd: "coin",
+    sms: "plain",
+    sjd: "plain",
     mrj: "coin",
     mhr: "coin",
     kpv: "coin",
@@ -308,7 +308,7 @@ WORDS.money = {
     nn: "coin",
     en: "coin",
     bxr: "silver",
-    evn: "silver",
+    evn: "plain",
     gld: "plain",
     ket: "coin",
     ykg: "plain",
@@ -394,59 +394,59 @@ WORDS.money = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
-    abs: ["kepeng", "kəpeŋ"],
+    abs: ["kepeng", "kəpeŋ"],  // No opened source supports the route.
     agx: ["пул", "pul"],
     bdk: ["пул", "pul"],
     tab: ["пул", "pul"],
     tk: ["pul", "pul"],
-    kjj: ["пыл", "pɨl"],
-    tkr: ["пыл", "pɨl"],
+    kjj: ["пыл", "pɨl"],  // Route by resemblance to the neighbouring forms (bqi); no etymology of its own.
+    tkr: ["пыл", "pɨl"],  // Route by resemblance to the neighbouring forms (bqi); no etymology of its own.
     am: ["ገንዘብ", "ɡənzəb"],
     ti: ["ገንዘብ", "ɡɐnzɐb"],
     ani: ["орси", "orsi"],
     aqc: ["арси", "arsi"],
-    rut: ["тангабыр", "tanɡabɨr"],
-    huz: ["окро", "okro"],
-    udi: ["таьнгаь", "tæŋɡæ"],
-    ay: ["qullqi", "quʎqi"],
+    rut: ["тангабыр", "tanɡabɨr"],  // Route by resemblance to the neighbouring forms (kk); no etymology of its own.
+    huz: ["окро", "okro"],  // No opened source supports the route.
+    udi: ["таьнгаь", "tæŋɡæ"],  // Route by resemblance to the neighbouring forms (kk); no etymology of its own.
+    ay: ["qullqi", "quʎqi"],  // Route by resemblance to the neighbouring forms (qu); no etymology of its own.
     qu: ["qullqi", "quʎqi"],
     ban: ["pipis", "pipis"],
     bew: ["duit", "duit"],
     bin: ["igho", "iɣo"],
     ch: ["salape", "salape"],
     ceb: ["kwarta", "ˈkwaɾta"],
-    war: ["kwarta", "ˈkwaɾta"],
+    war: ["kwarta", "ˈkwaɾta"],  // Route by resemblance to the neighbouring forms (ceb); no etymology of its own.
     chr: ["ᎠᏕᎳ", "adela"],
     cic: ["taʼosso", "taʔosːo"],
-    cjs: ["ақча", "aqtʃa"],
-    crh: ["aqça", "aqtʃa"],
+    cjs: ["ақча", "aqtʃa"],  // Route by resemblance to the neighbouring forms (kk,ky); no etymology of its own.
+    crh: ["aqça", "aqtʃa"],  // Route by resemblance to the neighbouring forms (kk,ky); no etymology of its own.
     crs: ["pesa", "pesa"],
-    fo: ["pengar", "ˈpɛŋːar"],
-    gcr: ["lajan", "laʒã"],
+    fo: ["pengar", "ˈpɛŋːar"],  // Route by resemblance to the neighbouring forms (no); no etymology of its own.
+    gcr: ["lajan", "laʒã"],  // Route by resemblance to the neighbouring forms (ht,mfe); no etymology of its own.
     gv: ["argid", "ˈarɡid"],
     haw: ["kālā", "kaːlaː"],
     ia: ["moneta", "moˈneta"],
     ig: ["egō", "eɡo"],
-    inh: ["ахча", "axtʃa"],
+    inh: ["ахча", "axtʃa"],  // Route by resemblance to the neighbouring forms (ky); no etymology of its own.
     kab: ["idrimen", "idrimən"],
     kek: ["tumin", "tumin"],
-    kjh: ["ахча", "axtʃa"],
-    krc: ["ахча", "axtʃa"],
-    kum: ["акъча", "aqtʃa"],
+    kjh: ["ахча", "axtʃa"],  // Route by resemblance to the neighbouring forms (ky); no etymology of its own.
+    krc: ["ахча", "axtʃa"],  // Route by resemblance to the neighbouring forms (ky); no etymology of its own.
+    kum: ["акъча", "aqtʃa"],  // Route by resemblance to the neighbouring forms (kk,ky); no etymology of its own.
     lg: ["ssente", "sːente"],
     lld: ["muneida", "muˈnɛida"],
-    mg: ["vola", "vula"],
-    nog: ["акша", "aqʃa"],
+    mg: ["vola", "vula"],  // No opened source supports the route.
+    nog: ["акша", "aqʃa"],  // Route by resemblance to the neighbouring forms (kk,ba,ky); no etymology of its own.
     om: ["qarshii", "qarʃiː"],
-    pap: ["plaka", "plaka"],
+    pap: ["plaka", "plaka"],  // No opened source supports the route.
     pcm: ["mọní", "mɔni"],
-    rcf: ["larzan", "larzã"],
+    rcf: ["larzan", "larzã"],  // Route by resemblance to the neighbouring forms (mfe); no etymology of its own.
     rm: ["munaida", "muˈnaidə"],
     rmy: ["love", "love"],
     rom: ["love", "love"],
     ruq: ["pari", "pari"],
     rw: ["amafaranga", "amafaɾaŋɡa"],
-    shn: ["ငိုၼ်", "ŋɤn˨˦"],
+    shn: ["ငိုၼ်", "ŋɤn˨˦"],  // Route by resemblance to the neighbouring forms (lo,th); no etymology of its own.
     si: ["මුදල්", "mudal"],
     so: ["lacag", "laʕaɡ"],
     sq: ["para", "ˈpaɾa"],
@@ -486,8 +486,8 @@ WORDS.money = {
     fr: ["argent", "aʁʒɑ̃"],  // Inherited from the word for silver.
     dz: ["དངུལ", "ŋyː˥"],
     ak: ["sika", "sika"],
-    alt: ["акча", "aktʃa"],
-    as: ["পইচা", "pɔisa"],
+    alt: ["акча", "aktʃa"],  // Route by resemblance to the neighbouring forms (ky,tyv); no etymology of its own.
+    as: ["পইচা", "pɔisa"],  // Route by resemblance to the neighbouring forms (ne,mr,or); no etymology of its own.
     ace: ["peng", "peŋ"],
     iba: ["duit", "duit"],
     su: ["duit", "duit"],
@@ -501,7 +501,7 @@ WORDS.money = {
     pot: ["zhonya", "ʃonja"],
     oj: ["zhooniyaa", "ʒoːnijaː"],
     lkt: ["mázaska", "mázaska"],
-    ckb: ["پارە", "paːɾə"],
+    ckb: ["پارە", "paːɾə"],  // Route by resemblance to the neighbouring forms (ruq,sq,zza); no etymology of its own.
     kbd: ["уэн", "wan"],
     pau: ["diall", "dialː"],
     szy: ["kalisiw", "kalisiw"],
@@ -530,10 +530,10 @@ WORDS.money = {
     br: ["arc'hant", "ˈarɣãnt"],
     my: ["ပိုက်ဆံ", "paɪʔsʰàɴ"],  // Borrowed from Hindi पैसा.
     rue: ["гроші", "hroʃji"],
-    ca: ["diners", "diˈnes"],
-    ce: ["ахча", "ˈaːxtʃa"],
+    ca: ["diners", "diˈnes"],  // Route by resemblance to the neighbouring forms (an); no etymology of its own.
+    ce: ["ахча", "ˈaːxtʃa"],  // Route by resemblance to the neighbouring forms (ky); no etymology of its own.
     ny: ["ndalama", "daˈɽama"],  // Ultimately from Arabic دراهم 'dirhams'.
-    cv: ["укҫа", "ukɕa"],
+    cv: ["укҫа", "ukɕa"],  // Route by resemblance to the neighbouring forms (tyv); no etymology of its own.
     kw: ["arghans", "ˈarxans"],
     cs: ["peníze", "ˈpɛɲiːzɛ"],  // Plural of peníz 'coin'.
     da: ["penge", "pɛŋə"],  // A plural of penning 'coin', related to English penny.
@@ -573,15 +573,15 @@ WORDS.money = {
     mr: ["पैसा", "pəisa"],
     mfe: ["larzan", "lɑːzɑ̃"],
     mdf: ["ярмакт", "jarmakt"],
-    nv: ["béeso", "pêːsò"],
+    nv: ["béeso", "pêːsò"],  // Route by resemblance to the neighbouring forms (crs,ur,hi); no etymology of its own.
     nap: ["sordi", "ˈsɔrda"],
     niv: ["чӽа", "cʰχæ"],
     or: ["ପଇସା", "pɔisa"],
-    os: ["ӕхца", "əxtsa"],
+    os: ["ӕхца", "əxtsa"],  // Route by resemblance to the neighbouring forms (cv,tt); no etymology of its own.
     ps: ["پيسې", "paiˈse"],
     pis: ["selen", "selen"],
     pt: ["dinheiro", "dʒĩˈɲejɾu"],  // From a coin of little value, from Vulgar Latin.
-    pa: ["ਪੈਸਾ", "ˈpɛːsaː"],
+    pa: ["ਪੈਸਾ", "ˈpɛːsaː"],  // Route by resemblance to the neighbouring forms (crs,ur,hi); no etymology of its own.
     ro: ["ban", "ban"],
     sm: ["tupe", "tupe"],  // A word broadened from 'toy'.
     sat: ["ᱠᱟᱹᱣᱰᱤ", "kəwɖi"],
@@ -590,11 +590,11 @@ WORDS.money = {
     sk: ["peniaze", "peɲɪ̯aze"],
     es: ["dinero", "diˈneɾo"],  // From Latin dēnārius.
     sw: ["pesa", "ˈpesa"],  // Borrowed from Hindi पैसा.
-    sv: ["pengar", "ˈpɛŋːar"],
+    sv: ["pengar", "ˈpɛŋːar"],  // Route by resemblance to the neighbouring forms (no); no etymology of its own.
     tl: ["salapi", "salaˈpiʔ"],
     tg: ["пул", "pul"],
     ta: ["பணம்", "paɳam"],
-    tt: ["акча", "aktɕa"],
+    tt: ["акча", "aktɕa"],  // Route by resemblance to the neighbouring forms (ky,tyv); no etymology of its own.
     te: ["డబ్బు", "ɖabːu"],
     tpi: ["mani", "mani"],
     tr: ["para", "paˈɾa"],  // From Persian پاره, a coin.
@@ -603,23 +603,23 @@ WORDS.money = {
     udm: ["коньдон", "koɲˈdon"],
     ug: ["پۇل", "pul"],
     uz: ["pul", "pul"],
-    vo: ["mon", "mon"],
+    vo: ["mon", "mon"],  // Route by resemblance to the neighbouring forms (pcm,mi,chk); no etymology of its own.
     cy: ["arian", "ˈarjan"],  // From Old Welsh argant 'silver'.
     sah: ["харчы", "xartʃɯ"],
     yi: ["געלט", "ɡɛlt"],
     zu: ["imali", "imaːli"],
     fkv: ["raha", "rɑhɑ"],
-    olo: ["dengat", "deŋːat"],
+    olo: ["dengat", "deŋːat"],  // Route by resemblance to the neighbouring forms (ru); no etymology of its own.
     sma: ["vierhtie", "βiɛrhtiɛ"],
     smj: ["ruhta", "rʊhtɑ"],
     se: ["ruhta", "ruhtɑ"],
     smn: ["ruttâ", "rutːɐ"],
-    sms: ["teä´ǧ´ǧ", "tɛaɟɟʝʲɘ"],
-    sjd: ["те̄ӈӈьк", "tʲeːŋːjk"],
-    mrj: ["окса", "oksɑ"],
-    mhr: ["окса", "oksa"],
-    kpv: ["деньга", "ɟeɲɡa"],
-    koi: ["деньга", "ɟeɲɡa"],
+    sms: ["teä´ǧ´ǧ", "tɛaɟɟʝʲɘ"],  // No opened source supports the route.
+    sjd: ["те̄ӈӈьк", "tʲeːŋːjk"],  // No opened source supports the route.
+    mrj: ["окса", "oksɑ"],  // Route by resemblance to the neighbouring forms (cv); no etymology of its own.
+    mhr: ["окса", "oksa"],  // Route by resemblance to the neighbouring forms (cv); no etymology of its own.
+    kpv: ["деньга", "ɟeɲɡa"],  // Route by resemblance to the neighbouring forms (ru); no etymology of its own.
+    koi: ["деньга", "ɟeɲɡa"],  // Route by resemblance to the neighbouring forms (ru); no etymology of its own.
     kca: ["вох", "wox"],
     mns: ["олн", "oln"],
     sel: ["ӄөмта", "qømta"],
@@ -629,16 +629,16 @@ WORDS.money = {
     hyw: ["փող", "pʰoʁ"],
     aln: ["para", "paɾa"],
     no: ["penger", "ˈpɛŋər"],
-    nn: ["penger", "ˈpɛŋər"],
+    nn: ["penger", "ˈpɛŋər"],  // Route by resemblance to the neighbouring forms (da,no); no etymology of its own.
     en: ["money", "ˈmʌnɪ"],  // From Old French moneie, from Latin monēta.
     bxr: ["мүнгэн", "myŋɡeŋ"],
-    evn: ["мэӈур", "məŋur"],
+    evn: ["мэӈур", "məŋur"],  // No opened source supports the route.
     gld: ["диха", "diɣa"],
     ket: ["день", "dʲɛɲ"],
     ykg: ["поӻодэ", "poʁode"],
     itl: ["упкʼэʼл", "upkʔeʔl"],
     ckt: ["манэман", "maneman"],
-    ess: ["манит", "manit"],
+    ess: ["манит", "manit"],  // Route by resemblance to the neighbouring forms (pjt,tpi,en_my); no etymology of its own.
     bsk: ["paisá", "paiˈsa"],
     ady: ["ахъщ", "aːχɕ"],
     ddo: ["мицхир", "mitsʼχir"],
@@ -672,7 +672,7 @@ WORDS.money = {
     en_za: ["money", "ˈmʌnɪ"],
     de_ch: ["Geld", "ɡɛlt"],
     pt_ao: ["dinheiro", "dʒĩˈɲejɾu"],
-    ca_va: ["diners", "diˈnes"],
+    ca_va: ["diners", "diˈnes"],  // Route by resemblance to the neighbouring forms (an); no etymology of its own.
     es_mx: ["dinero", "diˈneɾo"],
     prs: ["پول", "puːl"],
     en_aave: ["money", "ˈmʌnɪ"],

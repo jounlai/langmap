@@ -192,7 +192,7 @@ WORDS.maize = {
     st: "plain",
     su: "grain",
     sv: "mahiz",
-    sw: "place",
+    sw: "plain",
     tg: "makka",
     ti: "plain",
     tk: "makka",
@@ -393,11 +393,11 @@ WORDS.maize = {
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
   },
   data: {
-    ace: ["jagong", "dʒaɡoŋ"],
+    ace: ["jagong", "dʒaɡoŋ"],  // Route by resemblance to the neighbouring forms (ms,su,id); no etymology of its own.
     acn: ["xau31tʂhaʔ55", "xau˧˩tʂʰaʔ˥˥"],
     agr: ["shaa", "ʃaː"],
-    agx: ["хІаджикІа", "ħadʒikʼa"],
-    aqc: ["гьаІжила", "haˤʒila"],
+    agx: ["хІаджикІа", "ħadʒikʼa"],  // Route by resemblance to the neighbouring forms (ce); no etymology of its own.
+    aqc: ["гьаІжила", "haˤʒila"],  // Route by resemblance to the neighbouring forms (agx); no etymology of its own.
     ain: ["キミ", "kimi"],
     am: ["በቆሎ", "bəkʼolo"],
     ar: ["ذرة", "ðura"],
@@ -406,10 +406,10 @@ WORDS.maize = {
     av: ["цӏоросаролъ", "tsʼorosaroɬ"],
     awa: ["जोन्हरी", "dʒonʱəriː"],
     ay: ["tunqu", "tunqu"],
-    ban: ["jagung", "dʒaɡuŋ"],
+    ban: ["jagung", "dʒaɡuŋ"],  // Route by resemblance to the neighbouring forms (ms,su,id); no etymology of its own.
     bdk: ["кьардали", "qʼardali"],
     be: ["кукуруза", "kukuˈruza"],
-    bho: ["मक्का", "məkkaː"],
+    bho: ["मक्का", "məkkaː"],  // Route by resemblance to the neighbouring forms (hi,ur,mr); no etymology of its own.
     bm: ["kaba", "kaba"],
     br: ["maiz", "mais"],
     cak: ["ixim", "iʃim"],
@@ -419,22 +419,22 @@ WORDS.maize = {
     quc: ["ixim", "iʃim"],
     tzo: ["ixim", "iʃim"],
     ceb: ["mais", "maˈʔis"],
-    ch: ["máies", "ˈmaies"],
+    ch: ["máies", "ˈmaies"],  // Route by resemblance to the neighbouring forms (br,ceb,et); no etymology of its own.
     cho: ["tanchi", "tantʃi"],
     cic: ["tanchiʼ", "tantʃiʔ"],
     chr: ["ᏎᎷ", "selu"],
     clk: ["ɑ55boŋ35", "ɑ˥˥boŋ˧˥"],
     com: ["haniibi", "haniːbi"],
     crh: ["mısırboğday", "mɯsɯrboɣdaj"],
-    crs: ["mai", "mai"],
+    crs: ["mai", "mai"],  // Route by resemblance to the neighbouring forms (ast,br,ceb); no etymology of its own.
     da: ["majs", "mɑjˀs"],
     ddo: ["симинди", "simindi"],
     huz: ["симинди", "simindi"],
     bbl: ["სიმინდ", "simind"],
     dru: ["lapanay", "lapanaj"],
     dsb: ["majs", "majs"],
-    dty: ["मकै", "məkəi"],
-    dv: ["ޒުވާރި", "zuvaːɾi"],
+    dty: ["मकै", "məkəi"],  // Route by resemblance to the neighbouring forms (pa); no etymology of its own.
+    dv: ["ޒުވާރި", "zuvaːɾi"],  // Route by resemblance to the neighbouring forms (ky,kk); no etymology of its own.
     dz: ["གེ་ཟ", "ɡeza"],
     emp: ["be", "be"],
     en: ["maize", "meɪz"],
@@ -443,7 +443,7 @@ WORDS.maize = {
     fo: ["mais", "mais"],
     gcr: ["mayis", "majis"],
     gor: ["binte", "binte"],
-    guc: ["maikki", "maikːi"],
+    guc: ["maikki", "maikːi"],  // Route by resemblance to the neighbouring forms (fi); no etymology of its own.
     haw: ["kūlina", "kuːlina"],
     he: ["תירס", "tiˈʁas"],  // After Tiras, a son of Japheth in Genesis 10, sometimes identified with the Turks.
     hop: ["qaaʼö", "qaːʔø"],
@@ -451,12 +451,12 @@ WORDS.maize = {
     hy: ["եգիպտացորեն", "jeɡiptɑtsʰoˈɾen"],  // Literally 'Egyptian wheat'.
     ia: ["mais", "mais"],
     ilo: ["mais", "maˈʔis"],
-    inh: ["хьажкIа", "ħaʒkʼa"],
-    jam: ["kaan", "kaːn"],
-    jv: ["jagung", "dʒaɡuŋ"],
-    kjj: ["кокруз", "kokruz"],
+    inh: ["хьажкIа", "ħaʒkʼa"],  // Route by resemblance to the neighbouring forms (ce); no etymology of its own.
+    jam: ["kaan", "kaːn"],  // Route by resemblance to the neighbouring forms (en_us); no etymology of its own.
+    jv: ["jagung", "dʒaɡuŋ"],  // Route by resemblance to the neighbouring forms (ms,su,id); no etymology of its own.
+    kjj: ["кокруз", "kokruz"],  // Route by resemblance to the neighbouring forms (ru); no etymology of its own.
     kk: ["жүгері", "ʒyɡeɾɘ"],  // From Persian jovâri.
-    kn: ["ಮೆಕ್ಕೆ ಜೋಳ", "mekːe dʒoːɭa"],
+    kn: ["ಮೆಕ್ಕೆ ಜೋಳ", "mekːe dʒoːɭa"],  // Route by resemblance to the neighbouring forms (hi,mr); no etymology of its own.
     kum: ["гьажибудай", "haʒibudaj"],
     lez: ["гьажибугъда", "haʒibuʁda"],
     tab: ["гьяжибугъда", "haʒibuʁda"],
@@ -465,12 +465,12 @@ WORDS.maize = {
     lad: ["maís", "maˈis"],
     lkt: ["wagmiza", "waɡmiza"],
     lmo: ["formentón", "furmenˈton"],
-    vec: ["formenton", "formenˈton"],
+    vec: ["formenton", "formenˈton"],  // Route by resemblance to the neighbouring forms (lmo); no etymology of its own.
     lus: ["vaimîm", "vaimiːm"],  // From vai 'foreigner' and mîm 'Job's tears'.
     lv: ["kukurūza", "ˈkukuruːza"],
     lzz: ["ლაზუტი", "lazutʼi"],
     xmf: ["ლაიტი", "laitʼi"],
-    mai: ["मकै", "məkəi"],
+    mai: ["मकै", "məkəi"],  // Route by resemblance to the neighbouring forms (pa); no etymology of its own.
     mfe: ["may", "maj"],
     mg: ["katsaka", "kaˈtsaka"],
     mi: ["kānga", "kaːŋa"],  // Borrowed from English corn.
@@ -484,12 +484,12 @@ WORDS.maize = {
     kbd: ["нартыху", "naːrtəxʷ"],
     nrf: ["maïs", "mais"],
     oj: ["mandaamin", "mandaːmin"],
-    or: ["ମକା", "mɔka"],
+    or: ["ମକା", "mɔka"],  // Route by resemblance to the neighbouring forms (mr); no etymology of its own.
     osa: ["hápa", "hápa"],
     pa: ["ਮੱਕੀ", "məkːiː"],
     pam: ["mais", "məˈis"],
-    pap: ["maishi", "maiʃi"],
-    ps: ["جوار", "dʒwaɾ"],
+    pap: ["maishi", "maiʃi"],  // Route by resemblance to the neighbouring forms (fi); no etymology of its own.
+    ps: ["جوار", "dʒwaɾ"],  // Route by resemblance to the neighbouring forms (ky,kk); no etymology of its own.
     pwn: ["puday", "pudaj"],
     pyu: ["kadumu", "kadumu"],
     rap: ["tarake", "taɾake"],
@@ -501,11 +501,11 @@ WORDS.maize = {
     tkr: ["къаргъыдалий", "qarʁɨdalij"],
     udi: ["къардали", "qardali"],
     rw: ["ikigori", "ikiɡoɾi"],
-    sah: ["кукурууза", "kukuruːza"],
+    sah: ["кукурууза", "kukuruːza"],  // Route by resemblance to the neighbouring forms (be,hr,lv); no etymology of its own.
     sat: ["ᱡᱚᱸᱰᱨᱟ", "dʒɔ̃ɖra"],
     sc: ["trigumoriscu", "triɡumoˈrisku"],  // Literally 'Moorish wheat'.
     scn: ["granuturcu", "ɡranuturku"],  // Literally 'Turkish grain'.
-    sd: ["مڪئي", "məkəiː"],
+    sd: ["مڪئي", "məkəiː"],  // Route by resemblance to the neighbouring forms (pa); no etymology of its own.
     si: ["බඩ ඉරිඟු", "baɖa iriⁿɡu"],
     so: ["galley", "ɡalej"],
     st: ["poone", "poːne"],
@@ -541,12 +541,12 @@ WORDS.maize = {
     ff: ["masarru", "masaɾːu"],
     fy: ["mais", "mais"],
     hil: ["mais", "maˈʔis"],
-    iba: ["jagung", "dʒaɡuŋ"],
+    iba: ["jagung", "dʒaɡuŋ"],  // Route by resemblance to the neighbouring forms (ms,su,id); no etymology of its own.
     lb: ["Mais", "maɪs"],
     lg: ["kasooli", "kasoːli"],
     liv: ["kukurūz", "ˈkukuruːz"],
     mak: ["biralle", "biˈralːe"],
-    ne: ["मकै", "məkəi"],
+    ne: ["मकै", "məkəi"],  // Route by resemblance to the neighbouring forms (pa); no etymology of its own.
     nn: ["mais", "mais"],
     shn: ["ၶဝ်ႈၵၢပ်ႇ", "kʰaw˧˨ kaːp˩"],
     sid: ["badala", "badala"],
@@ -568,7 +568,7 @@ WORDS.maize = {
     my: ["ပြောင်း", "pjáʊɴ"],  // Glossed 'millet' first in Wiktionary; used for maize as well.
     km: ["ពោត", "poːt"],
     fa: ["ذرت", "zoɾˈɾæt"],
-    gu: ["મકાઈ", "məkaːiː"],
+    gu: ["મકાઈ", "məkaːiː"],  // Route by resemblance to the neighbouring forms (pa,mr); no etymology of its own.
     hi: ["मक्का", "məkkaː"],  // Wiktionary traces it to Sanskrit markaka.
     ur: ["مکا", "məkkaː"],
     ga: ["grán buí", "ˈɡɾˠɑːnˠ bˠiː"],  // Literally 'yellow grain'.
@@ -578,7 +578,7 @@ WORDS.maize = {
     uz: ["makkajoʻxori", "makkadʒoχɒɾi"],
     gl: ["millo", "ˈmiʎo"],  // From Latin milium 'millet'; the word is dated in that sense.
     an: ["milloca", "miˈʎoka"],
-    oc: ["milh", "mil"],
+    oc: ["milh", "mil"],  // Route by resemblance to the neighbouring forms (pt); no etymology of its own.
     eu: ["arto", "arto"],  // Originally millet; the word moved over when maize displaced millet.
     es: ["maíz", "maˈiθ"],  // From Taíno mahiz, the word Columbus's men brought to Spain.
     pt: ["milho", "ˈmiʎu"],  // Inherited from Latin milium 'millet'.
@@ -630,10 +630,10 @@ WORDS.maize = {
     ta: ["சோளம்", "tʃoːɭam"],  // Also the word for sorghum.
     te: ["మొక్కజొన్న", "mokːadʒonːa"],
     tet: ["batar", "batar"],  // From Proto-Malayo-Polynesian *batad 'millet, sorghum'.
-    vo: ["mait", "mait"],
+    vo: ["mait", "mait"],  // Route by resemblance to the neighbouring forms (ast,br,ceb); no etymology of its own.
     yi: ["קוקורוזע", "kʊkʊˈrʊzə"],
     yrl: ["awatí", "awaˈti"],  // Compare Old Tupi.
-    ks: ["مکٲے", "makəːj"],
+    ks: ["مکٲے", "makəːj"],  // Route by resemblance to the neighbouring forms (hi); no etymology of its own.
     ln: ["lisangu", "lisanɡu"],
     loz: ["mbonyi", "mboɲi"],
     umb: ["epungu", "epunɡu"],
@@ -666,7 +666,7 @@ WORDS.maize = {
     es_mx: ["maíz", "maˈis"],
     pt_br: ["milho", "ˈmiʎu"],
     prs: ["ذرت", "zurˈrat"],
-    jvn: ["jagung", "dʒaɡuŋ"],
+    jvn: ["jagung", "dʒaɡuŋ"],  // Route by resemblance to the neighbouring forms (ms,su,id); no etymology of its own.
     en_aave: ["maize", "meɪz"],
     en_au: ["maize", "mæɪz"],
     de_at: ["Mais", "maɪs"],

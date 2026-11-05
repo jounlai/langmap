@@ -206,7 +206,7 @@ WORDS.paper = {
     kn: "kaghaz",
     km: "charta",
     lt: "papyrus",
-    khb: "charta",
+    khb: "plain",
     ml: "charta",
     ne: "kaghaz",
     pa: "kaghaz",
@@ -215,7 +215,7 @@ WORDS.paper = {
     sw: "charta",
     sv: "papyrus",
     ta: "kaghaz",
-    th: "charta",
+    th: "plain",
     tk: "kaghaz",
     udm: "kaghaz",
     ur: "kaghaz",
@@ -282,7 +282,7 @@ WORDS.paper = {
     wls: "papyrus",
     wa: "papyrus",
     yi: "plain",
-    mra: "charta",
+    mra: "plain",
     es_cr: "papyrus",
     es_hn: "papyrus",
     es_ni: "papyrus",
@@ -348,28 +348,28 @@ WORDS.paper = {
   },
   data: {
     aa: ["warkát", "warkat"],
-    ab: ["ақьаад", "akʲaːd"],
+    ab: ["ақьаад", "akʲaːd"],  // Route by resemblance to the neighbouring forms (tr,kk); no etymology of its own.
     acn: ["lai31tseʔ55", "lai˧˩tseʔ˥˥"],
     am: ["ወረቀት", "wərəkʼət"],
-    ani: ["кагъар", "kaʁar"],
-    aqc: ["кагъара", "kaʁara"],
-    dar: ["кагъар", "kaʁar"],
+    ani: ["кагъар", "kaʁar"],  // Route by resemblance to the neighbouring forms (ddo,av,bdk); no etymology of its own.
+    aqc: ["кагъара", "kaʁara"],  // Route by resemblance to the neighbouring forms (ani,dar); no etymology of its own.
+    dar: ["кагъар", "kaʁar"],  // Route by resemblance to the neighbouring forms (ddo,av,bdk); no etymology of its own.
     ddo: ["кагъат", "kaʁat"],
     av: ["кагъат", "kaʁat"],
     bdk: ["кагъаз", "kaʁaz"],
-    kjj: ["къагъаз", "qaʁaz"],
-    kum: ["кагъыз", "kaʁɨz"],
+    kjj: ["къагъаз", "qaʁaz"],  // Route by resemblance to the neighbouring forms (bdk,lez,tab); no etymology of its own.
+    kum: ["кагъыз", "kaʁɨz"],  // Route by resemblance to the neighbouring forms (bdk,lez,tab); no etymology of its own.
     lez: ["кагъаз", "kaʁaz"],
     tab: ["кагъаз", "kaʁaz"],
-    lbe: ["чагъар", "tʃaʁar"],
+    lbe: ["чагъар", "tʃaʁar"],  // Route by resemblance to the neighbouring forms (dar); no etymology of its own.
     rut: ["кагъат", "kaʁat"],
-    tkr: ["кагъыз", "kaʁɨz"],
-    udi: ["кагъыз", "kaʁɨz"],
+    tkr: ["кагъыз", "kaʁɨz"],  // Route by resemblance to the neighbouring forms (bdk,lez,tab); no etymology of its own.
+    udi: ["кагъыз", "kaʁɨz"],  // Route by resemblance to the neighbouring forms (bdk,lez,tab); no etymology of its own.
     krc: ["къагъыт", "qaʁɨt"],
-    nog: ["кагыт", "kaɡɨt"],
+    nog: ["кагыт", "kaɡɨt"],  // Route by resemblance to the neighbouring forms (tr,kk); no etymology of its own.
     arn: ["papel", "papel"],
     ast: ["papel", "paˈpel"],
-    bal: ["کاگد", "kaːɡəd"],
+    bal: ["کاگد", "kaːɡəd"],  // Route by resemblance to the neighbouring forms (bho,mr,mwr); no etymology of its own.
     bho: ["कागज", "kaːɡədʒ"],
     br: ["paper", "ˈpapɛr"],
     bxr: ["саарһан", "saːrhan"],
@@ -386,13 +386,13 @@ WORDS.paper = {
     fur: ["cjarte", "ˈcarte"],
     gcr: ["papyé", "papje"],
     gld: ["хаосан", "xaosan"],
-    gv: ["pabyr", "ˈpabər"],
+    gv: ["pabyr", "ˈpabər"],  // Route by resemblance to the neighbouring forms (br,kw,sv); no etymology of its own.
     ha: ["takarda", "takarda"],
     he: ["נייר", "neˈjaʁ"],
     hr: ["papir", "papir"],
     ht: ["papye", "papje"],
     ia: ["papiro", "paˈpiro"],
-    inh: ["каьхат", "kæxat"],
+    inh: ["каьхат", "kæxat"],  // Route by resemblance to the neighbouring forms (ddo,av,rut); no etymology of its own.
     jv: ["kertas", "kərtas"],
     kab: ["lkaɣeḍ", "lkaɣədˤ"],
     kek: ["hu", "hu"],
@@ -401,7 +401,7 @@ WORDS.paper = {
     krl: ["bumuagu", "bumuaɡu"],
     ks: ["کاغذ", "kaːɣaz"],
     ky: ["кагаз", "kɑˈɡɑz"],
-    mdf: ["кагод", "kaɡod"],
+    mdf: ["кагод", "kaɡod"],  // Route by resemblance to the neighbouring forms (mr,mwr,as); no etymology of its own.
     mdh: ["karatas", "karatas"],
     mrw: ["karatas", "karatas"],
     mfe: ["papie", "papje"],
@@ -416,22 +416,22 @@ WORDS.paper = {
     rap: ["parau", "paɾau"],
     ty: ["parau", "paɾau"],
     rm: ["palpiri", "palˈpiri"],
-    rmy: ["papíri", "paˈpiri"],
+    rmy: ["papíri", "paˈpiri"],  // Route by resemblance to the neighbouring forms (hr,ia,rm); no etymology of its own.
     rom: ["lil", "lil"],
-    rue: ["папірь", "paˈpʲirʲ"],
+    rue: ["папірь", "paˈpʲirʲ"],  // Route by resemblance to the neighbouring forms (br,hr,ia); no etymology of its own.
     rup: ["hãrtii", "hərˈtii"],
     sah: ["кумааҕы", "kumaːɣɨ"],
     shp: ["kirika", "kirika"],
-    si: ["කඩදාසිය", "kaɖadaːsijə"],
+    si: ["කඩදාසිය", "kaɖadaːsijə"],  // Route by resemblance to the neighbouring forms (ml); no etymology of its own.
     sk: ["papier", "papjɛr"],
     sl: ["papír", "paˈpiːr"],
     so: ["warqad", "warqad"],
-    ti: ["ወረቐት", "wɐrɐxʼɐt"],
+    ti: ["ወረቐት", "wɐrɐxʼɐt"],  // Route by resemblance to the neighbouring forms (am); no etymology of its own.
     tt: ["кәгазь", "kæɣæz"],
     uz: ["qogʻoz", "qoʁoz"],
     xmf: ["ქაღარდი", "kʰaɣardi"],
     yo: ["ìwé", "iwe"],
-    zh: ["纸", "tʂɨ˨˩˦"],
+    zh: ["纸", "tʂɨ˨˩˦"],  // Route by resemblance to the neighbouring forms (lo); no etymology of its own.
     yue: ["紙", "tsiː˧˥"],
     ja: ["紙", "kami"],  // From Middle Chinese 紙, according to Wiktionary.
     ko: ["종이", "tɕoŋi"],  // First attested in Late Old Korean as 捶.
@@ -444,9 +444,9 @@ WORDS.paper = {
     fa: ["کاغذ", "kɒːˈɣæz"],  // From Sogdian; Wiktionary's chain queries an origin in Old Chinese 紙.
     as: ["কাগজ", "kaɡɔz"],
     ckb: ["کاغەز", "kaːɣəz"],
-    alt: ["кагас", "kaɡas"],
+    alt: ["кагас", "kaɡas"],  // Route by resemblance to the neighbouring forms (kk); no etymology of its own.
     ace: ["ôn", "on"],
-    ak: ["kraataa", "kraːtaː"],
+    ak: ["kraataa", "kraːtaː"],  // Route by resemblance to the neighbouring forms (sw); no etymology of its own.
     ban: ["kertas", "kərtas"],
     su: ["kertas", "kərtas"],
     cbk: ["papel", "paˈpel"],
@@ -458,14 +458,14 @@ WORDS.paper = {
     kok: ["कागद", "kaːɡəd"],
     kw: ["paper", "ˈpapər"],
     liv: ["papīer", "ˈpapiːer"],
-    mak: ["karattasaʼ", "kaˈratːasaʔ"],
+    mak: ["karattasaʼ", "kaˈratːasaʔ"],  // Route by resemblance to the neighbouring forms (mdh,mrw,mg); no etymology of its own.
     mh: ["peba", "peba"],
     mn: ["цаас", "tsʰaːs"],
-    om: ["waraqaa", "waraqaː"],
-    rw: ["urupapuro", "urupapuɾo"],
-    tn: ["pampiri", "pampiri"],
+    om: ["waraqaa", "waraqaː"],  // Route by resemblance to the neighbouring forms (ar); no etymology of its own.
+    rw: ["urupapuro", "urupapuɾo"],  // Route by resemblance to the neighbouring forms (en,fr); no etymology of its own.
+    tn: ["pampiri", "pampiri"],  // Route by resemblance to the neighbouring forms (rm); no etymology of its own.
     tsg: ["kātas", "kaːtas"],
-    tum: ["pepala", "pepala"],
+    tum: ["pepala", "pepala"],  // Route by resemblance to the neighbouring forms (en); no etymology of its own.
     vot: ["paperi", "ˈpaperi"],
     yrl: ["papera", "paˈpera"],
     zu: ["iphepha", "ipʰepʰa"],
@@ -475,13 +475,13 @@ WORDS.paper = {
     ki: ["irũa", "iɾoa"],
     ca: ["paper", "pəˈpe"],
     dv: ["ކަރުދާސް", "kaɾudaːs"],
-    et: ["paber", "ˈpɑber"],
+    et: ["paber", "ˈpɑber"],  // Route by resemblance to the neighbouring forms (br,kw,sv); no etymology of its own.
     ka: ["ქაღალდი", "kʰaɣaldi"],
     gu: ["કાગળ", "ˈkaɡəɭ"],
     kn: ["ಕಾಗದ", "kaːɡada"],
     km: ["ក្រដាស", "krɑɗaːh"],
     lt: ["popierius", "ˈpoːpʲiɛrʲʊs"],
-    khb: ["ᦂᦡᦱᧆ", "kadaːt˧˥"],
+    khb: ["ᦂᦡᦱᧆ", "kadaːt˧˥"],  // No opened source supports the route.
     ml: ["കടലാസ്", "kaɖalaːsɨ"],  // Borrowed from Portuguese cartaz.
     ne: ["कागज", "kaːɡʌdz"],
     pa: ["ਕਾਗ਼ਜ਼", "kaːɣəz"],
@@ -490,7 +490,7 @@ WORDS.paper = {
     sw: ["karatasi", "karaˈtasi"],  // Through Aramaic from Greek χάρτης.
     sv: ["papper", "ˈpapːɛr"],
     ta: ["காகிதம்", "kaːɡidam"],
-    th: ["กระดาษ", "kra˨˩ daːt˨˩"],
+    th: ["กระดาษ", "kra˨˩ daːt˨˩"],  // Page says the origin is uncertain and only compares cartaz and kertas.
     tk: ["kagyz", "kaːˈɣɯz"],
     udm: ["кагаз", "kaˈɡaz"],
     ur: ["کاغذ", "kaːɣəz"],  // From Persian, from Sogdian; Wiktionary's chain queries an origin in Old Chinese 紙.
@@ -557,7 +557,7 @@ WORDS.paper = {
     wls: ["pepa", "pepa"],
     wa: ["papî", "papiː"],
     yi: ["פאפיר", "paˈpir"],
-    mra: ["kra dat", "kra dat"],
+    mra: ["kra dat", "kra dat"],  // No opened source supports the route.
     es_cr: ["papel", "paˈpel"],
     es_hn: ["papel", "paˈpel"],
     es_ni: ["papel", "paˈpel"],

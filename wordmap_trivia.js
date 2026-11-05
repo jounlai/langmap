@@ -10376,6 +10376,1431 @@ const TRIVIA_ARTICLES = [
         "url": "https://langmaps.com/wordmap.html"
       }
     ]
+  },
+  {
+    "id": "sunday-day-or-week",
+    "icon": "☀️",
+    "tags": [
+      "calendar",
+      "etymology"
+    ],
+    "title": {
+      "en": "Sunday: The Day That Became a Week",
+      "ja": "日曜日：一週間に育った一日"
+    },
+    "summary": {
+      "en": "In Sofia a неделя lasts one day. In Moscow it lasts seven. Sunday has more rival names than any other day, and one of them grew into a whole week.",
+      "ja": "ソフィアでは неделя は一日で終わるのに、モスクワでは七日続く。日曜日には呼び名の争いがいくつもあり、そのひとつは週全体の名前にまで育った。"
+    },
+    "body": {
+      "en": "<p>In Sofia a <em>неделя</em> lasts one day. In Moscow it lasts seven. Bulgarian <strong>неделя</strong> means Sunday, and the same word in Russian means week. Nobody in Russia stretched the day. The old word for Sunday moved over to the whole week, and Sunday itself took a new name, <strong>воскресенье</strong>, from the Resurrection. It is the neatest of many quarrels about this one day. On the map the sun and the Lord run almost level, with about 90 cells each, and the rest of the world has named it after a market, a ban on work or a number.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"sunday\" data-code=\"bg\">🗺️ Show Sunday on the map</button></div><h3>The day nothing gets done</h3><p>The old Slavic word is reconstructed as <em>*neděľa</em>. The usual reading is “not” plus the root of “work”, the day nothing gets done, although Wiktionary also records a second reading built on “divide”. Polish <strong>niedziela</strong>, Czech <strong>neděle</strong>, Ukrainian <strong>неділя</strong> and Croatian <strong>nedjelja</strong> still mean Sunday. Russian is the only Slavic row on the map that left, and its new word travelled: Yakut <strong>баскыһыанньа</strong> and Buryat <strong>воскресени</strong> are the Resurrection too.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"bg,pl,cs,uk,ru\" data-word=\"sunday\">🗣 Compare the Slavic Sundays</button></div><p>The slide from Sunday to week is not a Russian oddity. Georgian <em>კვირა</em> comes from the Greek word for Sunday and now means both, so the day has a longer form of its own, <strong>კვირადღე</strong>. Malay <em>minggu</em>, “week”, is Portuguese <em>domingo</em>, and in Indonesian <strong>Minggu</strong> with a capital is still Sunday. If a week needs a name, the day everyone looks forward to seems to be the obvious place to take it from.</p><h3>The sun and the Lord</h3><p>Sunday began as the sun’s day in the Roman planetary week, <em>diēs Sōlis</em>, and the first Christian emperor saw no need to change that. Constantine’s decree of 7 March 321, which made it a day of rest, calls it “the venerable Day of the Sun”. The Germanic languages translated the name, which gave English <strong>Sunday</strong> and German <strong>Sonntag</strong>. Welsh <strong>dydd Sul</strong> and Breton <strong>Sul</strong> kept Latin <em>Sōl</em>, and Albanian <strong>e diel</strong> rebuilt the idea from its own word for the sun. The church preferred <em>diēs Dominicus</em>, the Lord’s day, and in the Romance languages it won: French <strong>dimanche</strong>, Italian <strong>domenica</strong>, Spanish <strong>domingo</strong>, Romanian <strong>duminică</strong>. The line runs through the Celtic languages, since Irish <strong>Domhnach</strong> is the Lord’s while Welsh stayed with the sun. Greek <strong>Κυριακή</strong> means the same, and Armenian <strong>կիրակի</strong> comes from it.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,cy,ga,fr,es\" data-word=\"sunday\">🗣 Compare sun and Lord in Europe</button></div><p>Both names went a long way east. Thai <strong>วันอาทิตย์</strong> and Khmer <strong>ថ្ងៃអាទិត្យ</strong> rest on Sanskrit <em>āditya</em>, the sun, and Japanese <strong>日曜日</strong> is the sun’s day, brought in with Chinese astrology in the Heian period. Chinese <strong>星期日</strong> looks like a relative and is not. <em>星期</em> means “week” and 日 here is only “day”, so the character that means the sun in Japanese has no sun in it in Chinese. Vietnamese <strong>Chủ nhật</strong> is the Lord’s Day again, 主日, in Sino-Vietnamese dress.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"th,km,ja,zh,vi\" data-word=\"sunday\">🗣 Compare Sunday in Asia</button></div><h3>Markets, bans and numbers</h3><p>The market has its own patch. Turkish <strong>pazar</strong> is the Persian word for a market, and Hungarian <strong>vasárnap</strong> is <em>vásár</em>, “market”, plus <em>nap</em>, “day”. Elsewhere the day is holy: Estonian <strong>pühapäev</strong>, Latvian <strong>svētdiena</strong> and, in the Pacific, Fijian <strong>Siga Tabu</strong>, whose <em>tabu</em> is a relative of the Tongan word that gave English <em>taboo</em>. Hawaiian <strong>Lāpule</strong> is “day of prayer”. Chichewa <strong>Lasabata</strong> is the odd one, a sabbath name for Sunday, the day after the Sabbath it is named for.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,hu,et,fj,haw\" data-word=\"sunday\">🗣 Compare market and holy days</button></div><p>Then there are the people who simply count, and they do not agree either. Hebrew <strong>יום ראשון</strong> is “first day”. Arabic <strong>يوم الأحد</strong> is the day of “the one”, and Persian <strong>یکشنبه</strong> is “one” plus the word for Saturday. Swahili <strong>Jumapili</strong> is “week two”, because its count starts on Saturday. Lithuanian <strong>sekmadienis</strong> is “seventh day”. So Sunday is the first day of the week, the second or the last, depending on the language, and in Sofia it still lasts exactly one day.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"he,ar,fa,sw,lt\" data-word=\"sunday\">🗣 Compare the counted Sundays</button></div>",
+      "ja": "<p>ソフィアで<em>неделя</em>といえば一日だが、モスクワでは七日になる。ブルガリア語の<strong>неделя</strong>は日曜日で、同じ語がロシア語では「週」を指すのだ。ロシア人が一日を引き延ばしたわけではない。日曜日を表していた古い語が週全体の呼び名に移り、日曜日のほうは「復活」にちなむ新しい名<strong>воскресенье</strong>をもらった。この一日をめぐる呼び名の争いは数多いが、これはその中でもとりわけ鮮やかな例だ。地図では太陽と「主」がそれぞれ約90セルでほぼ互角に並び、ほかの地域は市場や労働の禁止や数字から名づけている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"sunday\" data-code=\"bg\">🗺️ 地図で日曜日を見る</button></div><h3>何もしない日</h3><p>古いスラヴ語の形は<em>*neděľa</em>と再建されている。ふつうは「～でない」と「働く」の語根を合わせた語、つまり何もしない日と説明されるが、ウィクショナリーは「分ける」にもとづく別の解釈も載せている。ポーランド語<strong>niedziela</strong>、チェコ語<strong>neděle</strong>、ウクライナ語<strong>неділя</strong>、クロアチア語<strong>nedjelja</strong>は今も日曜日のままだ。地図のスラヴ語でこの語を手放したのはロシア語だけで、その新しい語は外へ広がった。ヤクート語<strong>баскыһыанньа</strong>もブリヤート語<strong>воскресени</strong>も同じ「復活」である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"bg,pl,cs,uk,ru\" data-word=\"sunday\">🗣 スラヴ語の日曜日を比べる</button></div><p>日曜日が週に化ける現象はロシア語だけのものではない。ジョージア語の<em>კვირა</em>はギリシャ語の日曜日から来て、いまは日曜日と週の両方を指すので、日曜日には<strong>კვირადღე</strong>という長い形もある。マレー語で週を表す<em>minggu</em>はポルトガル語の<em>domingo</em>で、インドネシア語では語頭を大文字にした<strong>Minggu</strong>が今も日曜日だ。週に名前が要るとき、みんなが待ちわびている日から借りるのは自然なことらしい。</p><h3>太陽と主</h3><p>日曜日の出発点はローマの惑星の週で、「太陽の日」<em>diēs Sōlis</em>だった。最初のキリスト教徒の皇帝も、この名を変えようとはしなかった。321年3月7日にコンスタンティヌスが出した休日の布告には、「尊ぶべき太陽の日」とある。ゲルマン語はこの名を翻訳し、英語<strong>Sunday</strong>とドイツ語<strong>Sonntag</strong>が生まれた。ウェールズ語<strong>dydd Sul</strong>とブルトン語<strong>Sul</strong>はラテン語の<em>Sōl</em>を残し、アルバニア語<strong>e diel</strong>は自分たちの「太陽」で同じ発想を組み立て直した。一方、教会が好んだのは「主の日」<em>diēs Dominicus</em>で、ロマンス語ではこちらが勝った。フランス語<strong>dimanche</strong>、イタリア語<strong>domenica</strong>、スペイン語<strong>domingo</strong>、ルーマニア語<strong>duminică</strong>である。境界線はケルト語の中を走っていて、アイルランド語<strong>Domhnach</strong>は「主の日」、ウェールズ語は太陽のままだ。ギリシャ語<strong>Κυριακή</strong>も「主の日」で、アルメニア語<strong>կիրակի</strong>はここから来ている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,cy,ga,fr,es\" data-word=\"sunday\">🗣 ヨーロッパの太陽と主を比べる</button></div><p>どちらの名も遠く東まで届いた。タイ語<strong>วันอาทิตย์</strong>とクメール語<strong>ថ្ងៃអាទិត្យ</strong>のもとはサンスクリットの<em>āditya</em>「太陽」で、日本語の<strong>日曜日</strong>も太陽の日だ。平安時代に中国の占星術とともに入ってきた。中国語の<strong>星期日</strong>は親戚に見えるが、そうではない。<em>星期</em>は「週」で、ここの「日」はただの「日にち」にすぎない。日本語では太陽を指す漢字が、中国語のこの語では太陽と関係がないのである。ベトナム語<strong>Chủ nhật</strong>はまた「主の日」で、「主日」の漢越語だ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"th,km,ja,zh,vi\" data-word=\"sunday\">🗣 アジアの日曜日を比べる</button></div><h3>市場と禁忌と数字</h3><p>市場の日にも縄張りがある。トルコ語<strong>pazar</strong>はペルシア語の「市場」で、ハンガリー語<strong>vasárnap</strong>は<em>vásár</em>「市」と<em>nap</em>「日」を合わせた語である。聖なる日とする言語もある。エストニア語<strong>pühapäev</strong>、ラトビア語<strong>svētdiena</strong>、太平洋ではフィジー語<strong>Siga Tabu</strong>がそうで、この<em>tabu</em>は英語<em>taboo</em>のもとになったトンガ語の語と親戚にあたる。ハワイ語<strong>Lāpule</strong>は「祈りの日」だ。変わり種はチェワ語<strong>Lasabata</strong>で、安息日の名を、安息日の翌日である日曜日に使っている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,hu,et,fj,haw\" data-word=\"sunday\">🗣 市場の日と聖なる日を比べる</button></div><p>そして、ただ数える人たちがいる。ところがここでも話は合わない。ヘブライ語<strong>יום ראשון</strong>は「第一の日」。アラビア語<strong>يوم الأحد</strong>は「一」の日で、ペルシア語<strong>یکشنبه</strong>は「一」に土曜日を表す語を足したものだ。スワヒリ語<strong>Jumapili</strong>は土曜日から数えるので「週の二」。リトアニア語<strong>sekmadienis</strong>は「七番目の日」である。日曜日は言語によって週の初日にも二日目にも最終日にもなる。そしてソフィアでは、今もきっかり一日で終わる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"he,ar,fa,sw,lt\" data-word=\"sunday\">🗣 数える日曜日を比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"Sunday\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Sunday"
+      },
+      {
+        "text": "\"Reconstruction:Proto-Slavic/neděľa\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Slavic/neděľa"
+      },
+      {
+        "text": "\"неделя\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/неделя"
+      },
+      {
+        "text": "\"воскресенье\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/воскресенье"
+      },
+      {
+        "text": "\"კვირა\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/კვირა"
+      },
+      {
+        "text": "\"minggu\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/minggu"
+      },
+      {
+        "text": "\"Linggo\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Linggo"
+      },
+      {
+        "text": "\"Sul\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Sul"
+      },
+      {
+        "text": "\"Domhnach\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Domhnach"
+      },
+      {
+        "text": "\"e diel\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/e_diel"
+      },
+      {
+        "text": "\"chủ nhật\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/chủ_nhật"
+      },
+      {
+        "text": "\"日曜日\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/日曜日"
+      },
+      {
+        "text": "\"星期日\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/星期日"
+      },
+      {
+        "text": "\"pazar\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/pazar"
+      },
+      {
+        "text": "\"vasárnap\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/vasárnap"
+      },
+      {
+        "text": "\"pühapäev\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/pühapäev"
+      },
+      {
+        "text": "\"svētdiena\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/svētdiena"
+      },
+      {
+        "text": "\"Siga Tabu\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Siga_Tabu"
+      },
+      {
+        "text": "\"Lāpule\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Lāpule"
+      },
+      {
+        "text": "\"taboo\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/taboo"
+      },
+      {
+        "text": "\"Lasabata\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Lasabata"
+      },
+      {
+        "text": "\"Jumapili\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Jumapili"
+      },
+      {
+        "text": "\"sekmadienis\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/sekmadienis"
+      },
+      {
+        "text": "\"یک‌شنبه\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/یک‌شنبه"
+      },
+      {
+        "text": "\"יום ראשון\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/יום_ראשון"
+      },
+      {
+        "text": "\"يوم الأحد\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/يوم_الأحد"
+      },
+      {
+        "text": "\"อาทิตย์\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/อาทิตย์"
+      },
+      {
+        "text": "\"អាទិត្យ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/អាទិត្យ"
+      }
+    ]
+  },
+  {
+    "id": "twenty-one-whole-person",
+    "icon": "🖐️",
+    "tags": [
+      "numbers",
+      "etymology"
+    ],
+    "title": {
+      "en": "Twenty: One Whole Person",
+      "ja": "二十：まるごと一人の人間"
+    },
+    "summary": {
+      "en": "In Kʼicheʼ the word for twenty means one person. Count every finger and toe and you can see why. Elsewhere it is two tens, the wreck of two tens, or the plural of ten.",
+      "ja": "キチェ語の「二十」は「一人の人」という意味だ。手足の指を全部数えれば理由がわかる。ほかの言語では十が二つだったり、その残骸だったり、十の複数形だったりする。"
+    },
+    "body": {
+      "en": "<p>In Kʼicheʼ Maya, twenty is <strong>juwinaq</strong>. The word is <em>jun</em>, “one”, plus <em>winaq</em>, “person”. Count every finger and toe on one human being and you have the number, so the language simply names who you have just used up. San Blas Kuna <strong>dula</strong> does the same, with a word for person. Twenty is the number where you can see what a language counts with, and the map finds at least five different answers.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"twenty\" data-code=\"quc\">🗺️ Show twenty on the map</button></div><h3>Two tens, plain and worn</h3><p>The plainest answer says exactly what it means. Malay <strong>dua puluh</strong>, Vietnamese <strong>hai mươi</strong>, Chinese <strong>二十</strong>, Finnish <strong>kaksikymmentä</strong>, Tamil <strong>இருபது</strong> and Quechua <strong>iskay chunka</strong> are all two and ten, and a learner who knows those two words has already worked out the third. More than a hundred cells do this.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ms,vi,zh,fi,ta,qu\" data-word=\"twenty\">🗣 Compare plain two tens</button></div><p>About as many once did. English <strong>twenty</strong> is Old English <em>twēntiġ</em>, “two tens”, and it still looks a bit like <em>two</em>, but the ten has been reduced to a suffix. German <strong>zwanzig</strong> is the same compound. Russian <strong>двадцать</strong> preserves an old dual, “twice ten”, with <em>десять</em> worn down to <em>-дцать</em>. Go back far enough and it gets stranger. Spanish <strong>veinte</strong> and Hindi <strong>बीस</strong> show no two and no ten at all, yet Wiktionary traces both, through Latin <em>vīgintī</em> and Sanskrit <em>viṃśatí</em>, to one Proto-Indo-European form, <em>*dwi(h₁)dḱm̥ti</em>, a compound of those two numbers. Speakers in Madrid and Delhi are using the ruin of the same phrase.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,ru,es,hi\" data-word=\"twenty\">🗣 Compare worn-down two tens</button></div><h3>Counting by twenties</h3><p>Then there are the languages that build on twenty. French <strong>vingt</strong> comes from <em>vīgintī</em> as well, but it became a unit, which is why eighty is <em>quatre-vingts</em>, “four twenties”. Wiktionary puts the pattern down to the Celtic languages, where Welsh says <em>pedwar ugain</em>. Danish <strong>tyve</strong> carries the same load, and English had its own unit in <em>score</em>, originally a notch cut in a tally. Georgian builds thirty from <strong>ოცი</strong> as <em>ოცდაათი</em>, “twenty and ten”. Basque forty is <em>berrogei</em>, “two-score”, from <strong>hogei</strong>, and Albanian forty is <em>dyzet</em>, “two” plus the twenty of <strong>njëzet</strong>. Ainu, whose twenty is <strong>ホッ</strong>, goes further: Wikipedia gives thirty as “ten more until two twenties”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,da,ka,eu,ain\" data-word=\"twenty\">🗣 Compare counting by twenties</button></div><h3>Other roads</h3><p>A few languages took another road. Hebrew <strong>עשרים</strong> is simply the plural of ten, and Maltese <strong>għoxrin</strong> comes down from its Arabic relative. Swahili <strong>ishirini</strong> is borrowed from that same Arabic word. Turkish <strong>yirmi</strong>, Hungarian <strong>húsz</strong> and Korean <strong>스물</strong> are words of their own with nothing of two or ten visible in them. Hungarian’s goes back to a Finno-Ugric form shared with Mansi.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"he,mt,sw,tr,hu,ko\" data-word=\"twenty\">🗣 Compare the other roads</button></div><p>Japanese hides the best surprise. The map’s <strong>二十</strong> is <em>nijū</em>, two and ten, read in Chinese style. But Japanese once had a word of its own for this number, <em>hata</em>, now obsolete, and it has not quite gone. A person of twenty is <em>hatachi</em>, 二十歳, a word that goes back to Old Japanese <em>patati</em>, “twenty items”. The twentieth of the month is <em>hatsuka</em>, 二十日, for which Wiktionary offers two likely derivations, both through the same old word. So someone turning twenty in Tokyo still picks up the ancient number, with no idea it is there.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja,zh,ko\" data-word=\"twenty\">🗣 Compare twenty in East Asia</button></div>",
+      "ja": "<p>マヤ系のキチェ語では、二十は<strong>juwinaq</strong>という。<em>jun</em>「一」に<em>winaq</em>「人」を足した語である。人間一人の手足の指を全部数えるとちょうどこの数になるので、数え終えた当の本人の名で呼んでしまうわけだ。サンブラス・クナ語の<strong>dula</strong>も「人」を表す語で同じことをしている。二十は、その言語が何を土台に数えているかが見えはじめる数で、地図には少なくとも五通りの答えがある。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"twenty\" data-code=\"quc\">🗺️ 地図で二十を見る</button></div><h3>そのままの二十、すり減った二十</h3><p>いちばん素直な答えは、見たままを言う。マレー語<strong>dua puluh</strong>、ベトナム語<strong>hai mươi</strong>、中国語<strong>二十</strong>、フィンランド語<strong>kaksikymmentä</strong>、タミル語<strong>இருபது</strong>、ケチュア語<strong>iskay chunka</strong>はどれも二と十でできている。二と十を覚えた学習者は、三つ目の語をもう手に入れたようなものだ。こうした語は百セルを超える。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ms,vi,zh,fi,ta,qu\" data-word=\"twenty\">🗣 そのままの「十が二つ」を比べる</button></div><p>かつてそうだった語も同じくらいある。英語<strong>twenty</strong>は古英語<em>twēntiġ</em>「十が二つ」で、今も少し<em>two</em>に似ているが、十のほうは接尾辞に縮んでしまった。ドイツ語<strong>zwanzig</strong>も同じ複合語である。ロシア語<strong>двадцать</strong>は古い双数を残した「十の二倍」で、<em>десять</em>がすり減って<em>-дцать</em>になった。さらにさかのぼると、話はもっと奇妙になる。スペイン語<strong>veinte</strong>とヒンディー語<strong>बीस</strong>には二も十も影すらない。それなのにウィクショナリーは、ラテン語<em>vīgintī</em>とサンスクリット<em>viṃśatí</em>を経て、どちらも印欧祖語の同じ形<em>*dwi(h₁)dḱm̥ti</em>、つまりこの二つの数の複合語にたどり着くとしている。マドリードとデリーの人々は、同じ言い回しの廃墟を使っているのだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,ru,es,hi\" data-word=\"twenty\">🗣 すり減った「十が二つ」を比べる</button></div><h3>二十ずつ数える</h3><p>一方、二十を土台にして数える言語もある。フランス語<strong>vingt</strong>も<em>vīgintī</em>から来ているが、こちらは単位になった。八十が<em>quatre-vingts</em>「二十が四つ」なのはそのためで、ウィクショナリーはこの型をケルト語に由来するとし、ウェールズ語の<em>pedwar ugain</em>を挙げる。デンマーク語<strong>tyve</strong>も同じ役を負っている。英語にも<em>score</em>という単位があって、もとは割り符に刻んだ切り込みを指した。ジョージア語は<strong>ოცი</strong>から三十を<em>ოცდაათი</em>「二十と十」と組み立てる。バスク語の四十は<strong>hogei</strong>をもとにした<em>berrogei</em>「二十が二つ」、アルバニア語の四十は「二」に<strong>njëzet</strong>の二十を足した<em>dyzet</em>だ。二十を<strong>ホッ</strong>というアイヌ語はさらに先を行き、ウィキペディアによると三十は「二十が二つまであと十」である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,da,ka,eu,ain\" data-word=\"twenty\">🗣 二十ずつ数える言語を比べる</button></div><h3>別の道</h3><p>別の道を行った言語もある。ヘブライ語<strong>עשרים</strong>はあっさり十の複数形で、マルタ語<strong>għoxrin</strong>はその親戚のアラビア語を受け継いでいる。スワヒリ語<strong>ishirini</strong>は同じアラビア語からの借用だ。トルコ語<strong>yirmi</strong>、ハンガリー語<strong>húsz</strong>、朝鮮語<strong>스물</strong>はそれぞれ独自の語で、二も十も見えない。ハンガリー語の語はマンシ語と共通のフィン・ウゴル祖語の形にさかのぼる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"he,mt,sw,tr,hu,ko\" data-word=\"twenty\">🗣 別の道を比べる</button></div><p>いちばんの驚きは日本語に隠れている。地図の<strong>二十</strong>は「にじゅう」で、二と十を漢語で読んだものだ。ところが日本語にはかつて、この数を表す固有の語「はた」があった。すでに廃れた語だが、完全に消えたわけではない。二十歳の「はたち」は上代語の<em>patati</em>「二十個」にさかのぼる。月の二十日の「はつか」についても、ウィクショナリーは有力な語源を二つ挙げていて、どちらもこの古い語を経由している。東京で二十歳を迎える人は、本人も知らないまま、大昔の数詞で呼ばれているのである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja,zh,ko\" data-word=\"twenty\">🗣 東アジアの二十を比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"Vigesimal\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Vigesimal"
+      },
+      {
+        "text": "\"juwinaq\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/juwinaq"
+      },
+      {
+        "text": "\"winaq\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/winaq"
+      },
+      {
+        "text": "\"score\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/score"
+      },
+      {
+        "text": "\"twenty\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/twenty"
+      },
+      {
+        "text": "\"zwanzig\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/zwanzig"
+      },
+      {
+        "text": "\"двадцать\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/двадцать"
+      },
+      {
+        "text": "\"vingt\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/vingt"
+      },
+      {
+        "text": "\"veinte\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/veinte"
+      },
+      {
+        "text": "\"बीस\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/बीस"
+      },
+      {
+        "text": "\"ഇരുപത്\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ഇരുപത്"
+      },
+      {
+        "text": "\"quatre-vingts\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/quatre-vingts"
+      },
+      {
+        "text": "\"ოცდაათი\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ოცდაათი"
+      },
+      {
+        "text": "\"dyzet\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/dyzet"
+      },
+      {
+        "text": "\"עשרים\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/עשרים"
+      },
+      {
+        "text": "\"għoxrin\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/għoxrin"
+      },
+      {
+        "text": "\"ishirini\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ishirini"
+      },
+      {
+        "text": "\"yirmi\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/yirmi"
+      },
+      {
+        "text": "\"húsz\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/húsz"
+      },
+      {
+        "text": "\"스물\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/스물"
+      },
+      {
+        "text": "\"二十\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/二十"
+      },
+      {
+        "text": "\"二十歳\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/二十歳"
+      },
+      {
+        "text": "\"二十日\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/二十日"
+      }
+    ]
+  },
+  {
+    "id": "maize-named-after-everywhere-else",
+    "icon": "🌽",
+    "tags": [
+      "food",
+      "columbian-exchange",
+      "names"
+    ],
+    "title": {
+      "en": "Maize: Named After Everywhere but Home",
+      "ja": "トウモロコシ：故郷の名でだけ呼ばれない穀物"
+    },
+    "summary": {
+      "en": "Italians call it Turkish grain, Turks call it Egypt, and Welsh says India. A plant from Mexico crossed the world, and almost nobody along the way knew where it came from.",
+      "ja": "イタリア語では「トルコの穀物」、トルコ語では「エジプト」、ウェールズ語では「インド」。メキシコ生まれの作物が世界を渡るあいだ、出どころを知る人はほとんどいなかった。"
+    },
+    "body": {
+      "en": "<p>Italians call it Turkish grain. Turks call it Egypt. Maize was first grown in southern Mexico about 9,000 years ago and has no connection with either country, but by the time it reached the eastern Mediterranean nobody could have told you that. A few decades after Columbus it was growing in Spain, and from there it moved faster than its passport. Most of the languages that met it had to guess, and the map keeps their guesses.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"maize\" data-code=\"tr\">🗺️ Show maize on the map</button></div><p>Italian <strong>granturco</strong> goes back to Latin <em>frumentum turcicum</em>, a label coined by European botanists in the 1530s who did not know the plant had come from America. The Turks, for their part, said “Egyptian wheat”, and Turkish <strong>mısır</strong> is what remains of that phrase, the name of Egypt on its own. Armenian <strong>եգիպտացորեն</strong> has Egypt in it too. Hebrew <strong>תירס</strong> is the neatest of them, named after Tiras, a son of Japheth in Genesis 10 who was sometimes identified with the Turks. Welsh <strong>indrawn</strong> is <em>India</em> plus <em>grawn</em>, “grain”, and Catalan <strong>blat de moro</strong> is “Moor’s wheat”. Everyone agreed that it came from somewhere else. They just did not agree on where.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"it,tr,hy,he,cy,ca\" data-word=\"maize\">🗣 Compare the wrong countries</button></div><h3>Just another grain</h3><p>The other common guess was that this was a new kind of something familiar. English shows it best. <em>Corn</em> meant whatever grain a place mainly grew, wheat in England and oats in Scotland or Ireland, so American <strong>corn</strong> is a shortening of “Indian corn” that took over in the 18th century. Portuguese <strong>milho</strong> is the old word for millet, and Afrikaans <strong>mielie</strong> also goes back to a word for millet. Korean <strong>옥수수</strong> is “jade” and “sorghum”, a partial copy of Chinese 玉蜀黍. Japanese <strong>玉蜀黍</strong>, <em>tōmorokoshi</em>, writes that same Chinese word, but the sound is <em>tō</em>, “Tang, foreign”, plus <em>morokoshi</em>, “sorghum”: foreign sorghum, chosen because the two plants look alike.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en_us,pt,af,ko,ja\" data-word=\"maize\">🗣 Compare the old grain words</button></div><p>Indonesian <strong>jagung</strong> has the most striking date of all. Wiktionary records the Malay word in the Tanjung Tanah manuscript, dated to the 14th century, generations before Columbus sailed. It cannot have meant maize then. Its old sense was sorghum, and the new plant simply inherited the word. Tamil <strong>சோளம்</strong> also means sorghum, and Chinese <strong>玉米</strong> is “jade rice” by its characters. This crowd has about 50 cells.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"id,zh,ta\" data-word=\"maize\">🗣 Compare words older than maize</button></div><h3>The name that got through</h3><p>The real name did get through, and it is the biggest single group on the map, with 95 cells. Spanish <strong>maíz</strong> comes from Taíno, the language Columbus’s men met in the Caribbean, and it passed into French <strong>maïs</strong>, German <strong>Mais</strong>, Tagalog <strong>mais</strong> and English <strong>maize</strong>. Linnaeus then used it in the scientific name, <em>Zea mays</em>. So a Caribbean word sits in the botanical name of a Mexican plant, in Latin, thanks to a Swede.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"es,fr,de,tl,en\" data-word=\"maize\">🗣 Compare the Taíno name</button></div><h3>Pigeons, tsars and home</h3><p>Eastern Europe went its own way. Russian <strong>кукуруза</strong>, Hungarian <strong>kukorica</strong>, Polish <strong>kukurydza</strong> and Croatian <strong>kukuruz</strong> are one wandering word of Balkan origin, and nobody is sure where it began. Romanian <strong>porumb</strong> is stranger. It is Latin <em>palumbus</em>, the wood pigeon, and Wiktionary suggests the cob looked like the bird. Bulgarian <strong>царевица</strong> is built on <em>цар</em>, “tsar”, perhaps by way of Tsarigrad, the old Slavic name for Istanbul, which brings the Turks back in. Hindi <strong>मक्का</strong> has a bird behind it as well, a Sanskrit name for the adjutant stork, if Wiktionary’s derivation is right.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ru,hu,pl,ro,bg,hi\" data-word=\"maize\">🗣 Compare Eastern Europe and India</button></div><p>The only people who never had to guess were the ones who already knew the plant. Quechua <strong>sara</strong>, Aymara <strong>tunqu</strong> and Yucatec Maya <strong>ixiʼim</strong> name no country and no other grain. After all those wrong addresses, those are the words from home.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"qu,ay,yua\" data-word=\"maize\">🗣 Compare the words from home</button></div>",
+      "ja": "<p>イタリア人はこれを「トルコの穀物」と呼び、トルコ人は「エジプト」と呼ぶ。トウモロコシが栽培されはじめたのは約9000年前のメキシコ南部で、どちらの国とも関係がない。しかし東地中海に届くころには、それを知る人はいなくなっていた。コロンブスから数十年でスペインに根づいたこの作物は、身元の説明が追いつかない速さで広がった。出会った言語の多くは推測するしかなく、地図にはその推測がそのまま残っている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"maize\" data-code=\"tr\">🗺️ 地図でトウモロコシを見る</button></div><p>イタリア語<strong>granturco</strong>のもとは、ラテン語の<em>frumentum turcicum</em>である。1530年代のヨーロッパの植物学者が、アメリカから来た植物だとは知らずにつけた呼び名だ。一方のトルコ人は「エジプトの小麦」と言っていて、トルコ語<strong>mısır</strong>はその名残、つまりエジプトという国名だけが残った形である。アルメニア語<strong>եգիպտացորեն</strong>にもエジプトが入っている。いちばん手が込んでいるのはヘブライ語<strong>תירס</strong>で、創世記10章に出てくるヤフェトの子ティラスにちなむ。ティラスはトルコ人と結びつけられることがあったのだ。ウェールズ語<strong>indrawn</strong>は<em>India</em>と<em>grawn</em>「穀物」、カタルーニャ語<strong>blat de moro</strong>は「ムーア人の小麦」である。よそから来たという点では誰もが一致していた。ただ、そのよそがどこなのかが一致しなかった。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"it,tr,hy,he,cy,ca\" data-word=\"maize\">🗣 間違った国の名を比べる</button></div><h3>ただの別の穀物</h3><p>もう一つのよくある推測は、知っている作物の新種だろう、というものだった。これは英語がいちばんよくわかる。<em>corn</em>はその土地のおもな穀物を指す語で、イングランドなら小麦、スコットランドやアイルランドならオート麦だった。アメリカの<strong>corn</strong>は「インディアンのcorn」を縮めた形で、18世紀に定着した。ポルトガル語<strong>milho</strong>はキビを指す古い語で、アフリカーンス語<strong>mielie</strong>もキビを指す語にさかのぼる。朝鮮語<strong>옥수수</strong>は「玉」と「モロコシ」で、中国語の玉蜀黍を部分的に写したものだ。日本語の<strong>玉蜀黍</strong>はこの中国語をそのまま書くが、音の「トウモロコシ」は「唐」と「モロコシ」である。姿が似ていることから、外来のモロコシと見なされたわけだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en_us,pt,af,ko,ja\" data-word=\"maize\">🗣 古い穀物の語を比べる</button></div><p>インドネシア語<strong>jagung</strong>には、いちばん驚かされる年代がついている。ウィクショナリーによると、このマレー語の語は14世紀のタンジュン・タナ写本に見える。コロンブスの航海より何世代も前だ。当時トウモロコシを指したはずはない。もとの意味はモロコシで、新しい作物がその語をそのまま受け継いだのである。タミル語<strong>சோளம்</strong>もモロコシを意味し、中国語<strong>玉米</strong>は字の上では「玉の米」だ。この仲間は約50セルある。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"id,zh,ta\" data-word=\"maize\">🗣 トウモロコシより古い語を比べる</button></div><h3>届いた本来の名</h3><p>本来の名も、ちゃんと届いてはいる。しかも地図で最大の単独グループで、95セルを数える。スペイン語<strong>maíz</strong>はコロンブスの一行がカリブ海で出会ったタイノ語から来たもので、そこからフランス語<strong>maïs</strong>、ドイツ語<strong>Mais</strong>、タガログ語<strong>mais</strong>、英語<strong>maize</strong>に広がった。さらにリンネがこれを学名<em>Zea mays</em>に使った。メキシコの植物の学名に、スウェーデン人のおかげで、カリブ海の言葉がラテン語の顔で収まっているのである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"es,fr,de,tl,en\" data-word=\"maize\">🗣 タイノ語の名を比べる</button></div><h3>ハトと皇帝と故郷</h3><p>東ヨーロッパは独自の道を行った。ロシア語<strong>кукуруза</strong>、ハンガリー語<strong>kukorica</strong>、ポーランド語<strong>kukurydza</strong>、クロアチア語<strong>kukuruz</strong>はバルカン起源の同じ語がさまよったもので、もとの形はよくわかっていない。ルーマニア語<strong>porumb</strong>はもっと変わっている。ラテン語の<em>palumbus</em>、つまりモリバトで、ウィクショナリーは穂の姿が鳥に似ていたからだろうとしている。ブルガリア語<strong>царевица</strong>は「皇帝」<em>цар</em>をもとにした語で、イスタンブールの古いスラヴ語名ツァリグラードを経たのかもしれない。それならトルコがまた顔を出すことになる。ヒンディー語<strong>मक्का</strong>の背後にも鳥がいる。ウィクショナリーの語源が正しければ、サンスクリットのハゲコウの名だ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ru,hu,pl,ro,bg,hi\" data-word=\"maize\">🗣 東ヨーロッパとインドを比べる</button></div><p>推測する必要がなかったのは、この作物をもとから知っていた人々だけである。ケチュア語<strong>sara</strong>、アイマラ語<strong>tunqu</strong>、ユカテコ語<strong>ixiʼim</strong>には、どの国の名もほかの穀物の名も入っていない。行き先違いの宛名を重ねたあとで、これが故郷の言葉だ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"qu,ay,yua\" data-word=\"maize\">🗣 故郷の言葉を比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"Maize\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Maize"
+      },
+      {
+        "text": "\"granoturco\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/granoturco"
+      },
+      {
+        "text": "\"mısır\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/mısır"
+      },
+      {
+        "text": "\"תירס\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/תירס"
+      },
+      {
+        "text": "\"indrawn\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/indrawn"
+      },
+      {
+        "text": "\"blat de moro\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/blat_de_moro"
+      },
+      {
+        "text": "\"եգիպտացորեն\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/եգիպտացորեն"
+      },
+      {
+        "text": "\"milho\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/milho"
+      },
+      {
+        "text": "\"mielie\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/mielie"
+      },
+      {
+        "text": "\"mealie\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/mealie"
+      },
+      {
+        "text": "\"옥수수\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/옥수수"
+      },
+      {
+        "text": "\"玉蜀黍\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/玉蜀黍"
+      },
+      {
+        "text": "\"jagung\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/jagung"
+      },
+      {
+        "text": "\"maíz\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/maíz"
+      },
+      {
+        "text": "\"кукуруза\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/кукуруза"
+      },
+      {
+        "text": "\"kukorica\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/kukorica"
+      },
+      {
+        "text": "\"porumb\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/porumb"
+      },
+      {
+        "text": "\"царевица\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/царевица"
+      },
+      {
+        "text": "\"मक्का\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/मक्का"
+      },
+      {
+        "text": "\"sara\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/sara"
+      },
+      {
+        "text": "\"சோளம்\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/சோளம்"
+      }
+    ]
+  },
+  {
+    "id": "right-which-way-you-faced",
+    "icon": "🧭",
+    "tags": [
+      "body",
+      "direction",
+      "etymology"
+    ],
+    "title": {
+      "en": "Right: Which Way Were You Facing?",
+      "ja": "右：どちらを向いていたのか"
+    },
+    "summary": {
+      "en": "The word for right also means south in Irish, west in Mongolian and north in Hawaiian. None of them is wrong. Each one remembers which way people stood.",
+      "ja": "「右」を表す語が、アイルランド語では南、モンゴル語では西、ハワイ語では北も意味する。どれも間違いではない。人々が立っていた向きを、語が覚えているのだ。"
+    },
+    "body": {
+      "en": "<p>In Irish the word for right, <strong>deas</strong>, also means south. In Mongolian <strong>баруун</strong> means right and also west. In Hawaiian <strong>ʻākau</strong> means right and also north. Three peoples, one body and three different answers, and nobody has made a mistake. Left and right have no landmark of their own, so these words kept a memory of a pair of feet pointing somewhere.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"right\" data-code=\"ga\">🗺️ Show right on the map</button></div><p>Welsh gives the rule away. Wiktionary explains that <strong>de</strong>, “right”, came to mean south because the south is on your right when you face east, the side of the sunrise. Run the same test on the others. If west is on your right, you are looking south, and Mongolian’s word for left, <em>зүүн</em>, duly means east as well. If north is on your right, you are looking west, and Hawaiian <em>hema</em> is both left and south. So the Celts faced east, the Mongols south and the Hawaiians west, at least when these words took shape. The map can tell you that much. Why they stood that way it cannot say.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ga,cy,mn,haw\" data-word=\"right\">🗣 Compare the compass words</button></div><h3>Right on the world map</h3><p>The same habit put “right” on the world map. Sanskrit <strong>दक्ष</strong> and its longer form <em>दक्षिण</em> mean right, and the second also means south, which is why the great plateau of southern India is the Deccan. Hindi <strong>दाहिना</strong> comes from the same word. Further west Hebrew <strong>ימין</strong> and Arabic <strong>يمين</strong> carry the old Semitic word for right, and Wiktionary traces the name of Yemen to it. Wikipedia explains the logic: Arabic took its directions facing east, the same stance as the Celts, so the land on the right was the south. It also reports a rival derivation from a word for “blessed”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"sa,hi,he,ar\" data-word=\"right\">🗣 Compare the south words</button></div><h3>The hand that was correct</h3><p>Most languages did something less geographic and more flattering. They decided the right hand was correct. English <strong>right</strong> meant “straight” in Old English, and the sense of being correct came along with it. Spanish <strong>derecha</strong> comes from Latin <em>dīrēctus</em>, “straight”, as do French <strong>droite</strong> and their relatives, about a hundred cells in all. Russian <strong>правый</strong> belongs here, and so does Finnish <strong>oikea</strong>, which first meant straight and also means correct. Vietnamese <strong>phải</strong> took a road of its own, from “to have to endure” through “must” and “correct” to the right hand. Finnish and Vietnamese have no shared history here. They simply had the same opinion of the hand.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,es,ru,fi,vi\" data-word=\"right\">🗣 Compare “correct”</button></div><p>Others went further and called it better. Hungarian <strong>jobb</strong> is the comparative of <em>jó</em>, “good”, so a sign pointing right in Budapest is using the word for “better”. Estonian <strong>parem</strong> is “better” too, and Latvian <strong>labais</strong> comes from <em>labs</em>, “good”. Turkish <strong>sağ</strong> also means healthy and alive. Swedish <strong>höger</strong> is an old comparative meaning something like “handier”, from a word for easy or convenient. And Swahili <strong>kulia</strong> is the practical one. It comes from <em>mkono wa kulia</em>, the hand you eat with.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hu,et,lv,tr,sv,sw\" data-word=\"right\">🗣 Compare “better”</button></div><h3>An old root</h3><p>Under all this runs an old root of its own. Italian <strong>destra</strong> and Greek <strong>δεξιός</strong> go back to Proto-Indo-European <em>*deḱs-</em>, the source of Irish <strong>deas</strong> and of Albanian <strong>djathtë</strong> as well, and it gave English <em>dexterity</em>, the skill of the right hand. Thai <strong>ขวา</strong> went shopping and came back with Old Chinese 右, the same character behind Japanese <strong>右</strong>. All this praise had a cost, and the left hand paid it. Latin <em>sinister</em> only meant left. English took the word and kept it for something much worse.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"it,el,sq,th,ja\" data-word=\"right\">🗣 Compare the old root and the loan</button></div>",
+      "ja": "<p>アイルランド語で右を表す<strong>deas</strong>は南の意味も持つ。モンゴル語の<strong>баруун</strong>は右で、西でもある。ハワイ語の<strong>ʻākau</strong>は右で、北でもある。同じ体を持つ三つの民族が三通りの答えを出しているのに、誰も間違っていない。右と左には目印になるものがないので、これらの語には、ある方向を向いて立つ足の記憶が残っているのだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"right\" data-code=\"ga\">🗺️ 地図で右を見る</button></div><p>種明かしをしてくれるのはウェールズ語である。ウィクショナリーによると、「右」を表す<strong>de</strong>が南の意味になったのは、日の昇る東を向くと南が右手に来るからだ。ほかの言語にも同じ考え方を当てはめてみよう。西が右にあるなら、その人は南を向いている。実際、モンゴル語の左<em>зүүн</em>には東の意味もある。北が右にあるなら西を向いていて、ハワイ語の<em>hema</em>は左であり南でもある。つまりケルトの人々は東を、モンゴルの人々は南を、ハワイの人々は西を向いていたことになる。少なくとも、これらの語ができたころには。地図からわかるのはそこまでで、なぜその向きに立ったのかまではわからない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ga,cy,mn,haw\" data-word=\"right\">🗣 方角になった語を比べる</button></div><h3>世界地図の上の右</h3><p>同じ習慣は「右」を世界地図にも書き込んだ。サンスクリットの<strong>दक्ष</strong>とその長い形<em>दक्षिण</em>は右を意味し、後者は南も意味する。インド南部の大高原がデカンと呼ばれるのはこのためだ。ヒンディー語<strong>दाहिना</strong>も同じ語から来ている。西へ行くと、ヘブライ語<strong>ימין</strong>とアラビア語<strong>يمين</strong>がセム語の古い「右」を受け継いでいて、ウィクショナリーはイエメンの名もこの語にさかのぼるとしている。ウィキペディアによると、アラビア語は東を向いて方角を決めたので、右手の土地が南になった。ケルトの人々と同じ立ち方である。ただし「恵まれた」を意味する語に由来するという別の説もある。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"sa,hi,he,ar\" data-word=\"right\">🗣 南を表す語を比べる</button></div><h3>正しいほうの手</h3><p>多くの言語は地理よりも、右手を持ち上げる方向に進んだ。右こそ正しいと決めたのである。英語<strong>right</strong>は古英語で「まっすぐな」を意味し、正しいという意味もいっしょについてきた。スペイン語<strong>derecha</strong>もフランス語<strong>droite</strong>もラテン語<em>dīrēctus</em>「まっすぐな」から来ていて、この仲間は全部で約百セルある。ロシア語<strong>правый</strong>もここに入る。フィンランド語<strong>oikea</strong>はもともと「まっすぐな」で、「正しい」の意味もある。ベトナム語<strong>phải</strong>は独自の道をたどり、「耐えねばならない」から「～すべきだ」「正しい」を経て右手に行き着いた。フィンランド語とベトナム語のあいだに歴史のつながりはない。右手についての意見が、たまたま同じだっただけだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,es,ru,fi,vi\" data-word=\"right\">🗣 「正しい」を比べる</button></div><p>さらに踏み込んで「より良い」と呼んだ言語もある。ハンガリー語<strong>jobb</strong>は「良い」<em>jó</em>の比較級で、ブダペストで右を指す標識は「より良い」という語を使っていることになる。エストニア語<strong>parem</strong>も「より良い」、ラトビア語<strong>labais</strong>は「良い」<em>labs</em>から来ている。トルコ語<strong>sağ</strong>は「健康な」「生きている」も意味する。スウェーデン語<strong>höger</strong>は「楽な、都合のよい」を表す語の古い比較級で、いわば「使いやすいほう」だ。実用本位なのはスワヒリ語<strong>kulia</strong>で、<em>mkono wa kulia</em>、つまり食べるほうの手から来ている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hu,et,lv,tr,sv,sw\" data-word=\"right\">🗣 「より良い」を比べる</button></div><h3>古い語根</h3><p>これらの下には、もう一つ古い語根が流れている。イタリア語<strong>destra</strong>とギリシャ語<strong>δεξιός</strong>は印欧祖語<em>*deḱs-</em>にさかのぼる。アイルランド語<strong>deas</strong>とアルバニア語<strong>djathtë</strong>の源でもあり、英語の<em>dexterity</em>「器用さ」、つまり右手の腕前もここから出た。タイ語<strong>ขวา</strong>は外に求めて古代中国語の「右」を借りた。日本語の<strong>右</strong>と同じ字である。これだけ持ち上げれば、そのつけは誰かに回る。払わされたのは左手だった。ラテン語の<em>sinister</em>はただ「左」という意味だったのに、英語はこの語を受け取って、ずっと不吉な意味で使っている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"it,el,sq,th,ja\" data-word=\"right\">🗣 古い語根と借用を比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"Deccan Plateau\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Deccan_Plateau"
+      },
+      {
+        "text": "\"Yemen\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Yemen"
+      },
+      {
+        "text": "\"de\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/de"
+      },
+      {
+        "text": "\"deas\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/deas"
+      },
+      {
+        "text": "\"баруун\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/баруун"
+      },
+      {
+        "text": "\"зүүн\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/зүүн"
+      },
+      {
+        "text": "\"ʻākau\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ʻākau"
+      },
+      {
+        "text": "\"hema\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/hema"
+      },
+      {
+        "text": "\"Deccan\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Deccan"
+      },
+      {
+        "text": "\"दाहिना\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/दाहिना"
+      },
+      {
+        "text": "\"Yemen\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Yemen"
+      },
+      {
+        "text": "\"right\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/right"
+      },
+      {
+        "text": "\"oikea\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/oikea"
+      },
+      {
+        "text": "\"phải\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/phải"
+      },
+      {
+        "text": "\"jobb\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/jobb"
+      },
+      {
+        "text": "\"parem\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/parem"
+      },
+      {
+        "text": "\"labais\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/labais"
+      },
+      {
+        "text": "\"sağ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/sağ"
+      },
+      {
+        "text": "\"höger\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/höger"
+      },
+      {
+        "text": "\"kulia\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/kulia"
+      },
+      {
+        "text": "\"dexter\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/dexter"
+      },
+      {
+        "text": "\"δεξιός\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/δεξιός"
+      },
+      {
+        "text": "\"ขวา\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ขวา"
+      },
+      {
+        "text": "\"sinister\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/sinister"
+      },
+      {
+        "text": "\"dexterity\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/dexterity"
+      },
+      {
+        "text": "\"derecha\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/derecha"
+      },
+      {
+        "text": "\"droite\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/droite"
+      }
+    ]
+  },
+  {
+    "id": "paper-the-inventors-word",
+    "icon": "📜",
+    "tags": [
+      "writing",
+      "trade",
+      "etymology"
+    ],
+    "title": {
+      "en": "Paper: Where Did the Inventors’ Word Go?",
+      "ja": "紙：発明者の言葉はどこへ行ったのか"
+    },
+    "summary": {
+      "en": "China invented paper, yet only six cells on the map keep the Chinese word in the open. Most of the world named it after an Egyptian reed. Or did the Chinese word travel in disguise?",
+      "ja": "紙を発明したのは中国なのに、中国語の語をはっきり残すのは地図でわずか6セル。世界の大半はエジプトの草の名で呼んだ。それとも中国語の語は姿を変えて旅をしたのだろうか。"
+    },
+    "body": {
+      "en": "<p>China invented paper, and on the map you would hardly know it. The process was documented under the Eastern Han and traditionally credited to the court official Cai Lun in 105 CE. Most inventions carry their name with them, as coffee and tea did. Paper did not. Only six cells openly keep the Chinese word <strong>纸</strong>, and 123 name the new material after the thing it replaced, a reed from the Nile.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"paper\" data-code=\"zh\">🗺️ Show paper on the map</button></div><h3>A second Greek word</h3><p>The word is <em>papyrus</em>, which is Greek, of unknown origin. It was never paper. Sheets of papyrus were cut from a plant, not made from pulp, but when real paper reached Europe the old name was waiting. English <strong>paper</strong> took an odd route, through Anglo-Norman from Old Catalan <em>paper</em>, itself a half-learned borrowing from Latin. French <strong>papier</strong>, German <strong>Papier</strong>, Spanish <strong>papel</strong> and Finnish <strong>paperi</strong> belong to the same crowd, and Spanish carried the word to Tagalog <strong>papel</strong>.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,fr,de,es,tl,fi\" data-word=\"paper\">🗣 Compare the papyrus words</button></div><p>Greek had a second word, <em>χάρτης</em>, a sheet of papyrus, and it went further than anyone would guess. Modern Greek <strong>χαρτί</strong> keeps it, and so does Italian <strong>carta</strong>, which leaves Italy on the other side from France and Spain. Through Aramaic and Arabic it sailed the Indian Ocean: Malay <strong>kertas</strong> and Swahili <strong>karatasi</strong> are the same word, with Arabic <em>qirṭās</em> in between, and Khmer <strong>ក្រដាស</strong> took it from Malay. Portuguese <em>cartaz</em> brought a second copy to Malayalam <strong>കടലാസ്</strong>. Thai <strong>กระดาษ</strong> looks like one of the family, but Wiktionary calls its origin uncertain.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"el,it,ms,sw,ml,km\" data-word=\"paper\">🗣 Compare the χάρτης words</button></div><h3>Leaves and cotton</h3><p>Others simply described what they held. Arabic <strong>ورق</strong> is “leaf”, foliage, the same idea as a leaf in an English book, and it went down the Red Sea coast to Amharic <strong>ወረቀት</strong> and Somali <strong>warqad</strong>. Paper reached the Islamic world in the 8th century, and an often-told story says Chinese prisoners taken at the Battle of Talas in 751 taught the craft in Samarkand, although Wikipedia points out that it comes from an 11th-century writer and that no contemporary Arab source mentions it. Russian <strong>бумага</strong> is the strangest of all. Its history is uncertain, but it is believed to go back to a Middle Persian word for cotton, by way of something like Italian <em>bambagia</em>. In Russian, then, paper may be cotton.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ar,am,so,ru\" data-word=\"paper\">🗣 Compare leaf and cotton</button></div><h3>The word in disguise</h3><p>Near home the Chinese word did survive, usually in disguise. Vietnamese <strong>giấy</strong> descends from Old Chinese <strong>紙</strong>, and it looks nothing like the Sino-Vietnamese reading of the same character. Lao <strong>ເຈ້ຍ</strong> belongs here too. Japanese writes <strong>紙</strong> but says <em>kami</em>, which Wiktionary traces to a Proto-Japonic <em>*kanpi</em>. It also records another idea, that <em>kami</em> is Middle Chinese 簡, the bamboo slip people wrote on before paper. Korean <strong>종이</strong> is on record from 1103 and stands apart on the map.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,ja,vi,lo,ko\" data-word=\"paper\">🗣 Compare China’s neighbours</button></div><p>Now look at the third big group. Persian <strong>کاغذ</strong> spread across a huge area in 58 cells, from Turkish <strong>kâğıt</strong> and Georgian <strong>ქაღალდი</strong> through Kazakh <strong>қағаз</strong> to Hindi <strong>काग़ज़</strong> and Tamil <strong>காகிதம்</strong>. Persian got it from Sogdian, the language of the Silk Road merchants, and there the trail thins. Wiktionary says the Sogdian word is perhaps a borrowing from Old Chinese <strong>紙</strong>, and Mongolian <strong>цаас</strong> has the same Sogdian source. It is only a perhaps. But if it holds, the inventors’ word did make the journey after all, unrecognised, from the Bosphorus to the Bay of Bengal.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fa,tr,hi,ka,kk,ta\" data-word=\"paper\">🗣 Compare the kāġaz words</button></div>",
+      "ja": "<p>紙を発明したのは中国だが、地図を見てもほとんどそうとは思えない。製法の記録は後漢の時代にあり、伝統的には105年の宮廷の官吏、蔡倫の功績とされる。発明品はたいてい、コーヒーや茶のように名前を連れて旅をする。ところが紙はそうならなかった。中国語の<strong>纸</strong>をはっきり残すのはわずか6セルで、123セルはこの新しい素材を、それが取って代わった相手の名で呼んでいる。ナイル川の草の名だ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"paper\" data-code=\"zh\">🗺️ 地図で紙を見る</button></div><h3>もう一つのギリシャ語</h3><p>その語は<em>papyrus</em>で、語源不明のギリシャ語である。パピルスは紙ではなかった。植物を切って作るもので、繊維をすいて作るのではない。それでも本物の紙がヨーロッパに届いたとき、古い名前が待ち構えていた。英語<strong>paper</strong>の道のりは少し変わっていて、ラテン語から半ば学術的に借りた古カタルーニャ語<em>paper</em>がアングロ・ノルマン語を経て入った。フランス語<strong>papier</strong>、ドイツ語<strong>Papier</strong>、スペイン語<strong>papel</strong>、フィンランド語<strong>paperi</strong>も同じ仲間で、スペイン語はこれをタガログ語<strong>papel</strong>まで運んだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,fr,de,es,tl,fi\" data-word=\"paper\">🗣 パピルス系の語を比べる</button></div><p>ギリシャ語にはもう一つ<em>χάρτης</em>という語があって、パピルスの一枚を指した。こちらは誰も予想しないほど遠くまで行った。現代ギリシャ語<strong>χαρτί</strong>とイタリア語<strong>carta</strong>がこれを受け継いでいて、イタリアはフランスやスペインとは反対側に立つことになる。アラム語とアラビア語を経ると、語はインド洋に乗り出した。マレー語<strong>kertas</strong>とスワヒリ語<strong>karatasi</strong>は、アラビア語<em>qirṭās</em>を間にはさんだ同じ語で、クメール語<strong>ក្រដាស</strong>はマレー語から取った。ポルトガル語<em>cartaz</em>はもう一つの写しをマラヤーラム語<strong>കടലാസ്</strong>に届けた。タイ語<strong>กระดาษ</strong>も一族に見えるが、ウィクショナリーは語源不明としている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"el,it,ms,sw,ml,km\" data-word=\"paper\">🗣 χάρτης系の語を比べる</button></div><h3>葉と綿</h3><p>手にしたものをそのまま言い表した人々もいる。アラビア語<strong>ورق</strong>は「葉」で、紅海沿いに下ってアムハラ語<strong>ወረቀት</strong>やソマリ語<strong>warqad</strong>になった。紙がイスラーム世界に届いたのは8世紀で、751年のタラスの戦いで捕虜になった中国人がサマルカンドに製法を伝えた、という話がよく語られる。ただしウィキペディアによると、これは11世紀の著述家の記述で、同時代のアラブの史料には見えない。いちばん奇妙なのはロシア語<strong>бумага</strong>だ。来歴ははっきりしないが、中世ペルシア語の「綿」にさかのぼり、イタリア語の<em>bambagia</em>のような語を経たと考えられている。つまりロシア語の紙は、綿なのかもしれない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ar,am,so,ru\" data-word=\"paper\">🗣 葉と綿を比べる</button></div><h3>姿を変えた語</h3><p>中国の近くでは、たしかに中国語の語が生き残った。ただしたいていは姿を変えて。ベトナム語<strong>giấy</strong>は古代中国語の<strong>紙</strong>の子孫で、同じ字の漢越音とは似ても似つかない。ラオ語<strong>ເຈ້ຍ</strong>もこの仲間だ。日本語は<strong>紙</strong>と書いて「かみ」と読み、ウィクショナリーはこれを日琉祖語の<em>*kanpi</em>にさかのぼらせる。一方で、紙以前の書写材である竹簡の「簡」を中古中国語から借りたものだという別の説も載せている。朝鮮語<strong>종이</strong>は1103年の記録に見え、地図では別枠に立っている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,ja,vi,lo,ko\" data-word=\"paper\">🗣 中国の隣人を比べる</button></div><p>ここで三つ目の大きなグループを見てみよう。ペルシア語<strong>کاغذ</strong>は58セルにわたって広大な範囲に広がった。トルコ語<strong>kâğıt</strong>、ジョージア語<strong>ქაღალდი</strong>からカザフ語<strong>қағаз</strong>を経て、ヒンディー語<strong>काग़ज़</strong>、タミル語<strong>காகிதம்</strong>まで。ペルシア語はこれをシルクロードの商人の言葉ソグド語から得たのだが、足跡はそこで薄れる。ウィクショナリーは、このソグド語は古代中国語の<strong>紙</strong>からの借用かもしれないと書いていて、モンゴル語<strong>цаас</strong>も同じソグド語に由来する。あくまで「かもしれない」にとどまる。しかしもしそうなら、発明者の言葉は結局ちゃんと旅をしたことになる。誰にも気づかれないまま、ボスポラス海峡からベンガル湾まで。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fa,tr,hi,ka,kk,ta\" data-word=\"paper\">🗣 kāġaz系の語を比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"History of paper\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/History_of_paper"
+      },
+      {
+        "text": "\"paper\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/paper"
+      },
+      {
+        "text": "\"papyrus\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/papyrus"
+      },
+      {
+        "text": "\"papel\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/papel"
+      },
+      {
+        "text": "\"χαρτί\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/χαρτί"
+      },
+      {
+        "text": "\"carta\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/carta"
+      },
+      {
+        "text": "\"kertas\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/kertas"
+      },
+      {
+        "text": "\"karatasi\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/karatasi"
+      },
+      {
+        "text": "\"ក្រដាស\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ក្រដាស"
+      },
+      {
+        "text": "\"കടലാസ്\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/കടലാസ്"
+      },
+      {
+        "text": "\"กระดาษ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/กระดาษ"
+      },
+      {
+        "text": "\"ورق\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ورق"
+      },
+      {
+        "text": "\"бумага\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/бумага"
+      },
+      {
+        "text": "\"紙\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/紙"
+      },
+      {
+        "text": "\"giấy\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/giấy"
+      },
+      {
+        "text": "\"종이\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/종이"
+      },
+      {
+        "text": "\"کاغذ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/کاغذ"
+      },
+      {
+        "text": "\"kâğıt\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/kâğıt"
+      },
+      {
+        "text": "\"ქაღალდი\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ქაღალდი"
+      },
+      {
+        "text": "\"цаас\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/цаас"
+      }
+    ]
+  },
+  {
+    "id": "money-a-squirrel-skin",
+    "icon": "🐿️",
+    "tags": [
+      "trade",
+      "etymology"
+    ],
+    "title": {
+      "en": "Money: A Squirrel Skin, a Temple and a Lot of Silver",
+      "ja": "お金：リスの毛皮、神殿、そして大量の銀"
+    },
+    "summary": {
+      "en": "Finnish money is a squirrel skin. French money is silver. English money is a Roman temple. Every language remembers what people paid with, or where it was made.",
+      "ja": "フィンランド語のお金はリスの毛皮、フランス語のお金は銀、英語のお金はローマの神殿。どの言語も、昔の人が何で払い、どこで作ったかを覚えている。"
+    },
+    "body": {
+      "en": "<p>In Finnish, money is a dead squirrel. <strong>raha</strong> was borrowed from a Germanic word for a dry animal skin, and it meant furs, especially squirrel pelts, because that is what people paid with before there were notes and coins. Nobody in Helsinki thinks of this while buying coffee. Every language’s word for money is a small fossil of that kind, and the map sorts them by what they remember.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"money\" data-code=\"fi\">🗺️ Show money on the map</button></div><h3>Paid in silver</h3><p>The plainest memory is the metal. French <strong>argent</strong>, Irish <strong>airgead</strong> and Welsh <strong>arian</strong> all mean silver as well, and so does Hebrew <strong>כסף</strong>. Thai <strong>เงิน</strong> is silver too, and that word was borrowed long ago from Old Chinese 銀. Japanese <strong>お金</strong> is the same thought in a politer voice, with 金 for metal. These 38 cells describe a currency nobody has carried for a long time. A French bank card is still, by name, silver.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,ga,cy,he,th,ja\" data-word=\"money\">🗣 Compare the silver words</button></div><h3>One coin, or one mint</h3><p>Most of the map, 181 cells, took the name of one coin, or of the place that struck it. English <strong>money</strong> is the strangest case. It comes through Anglo-Norman from Latin <em>monēta</em>, and <em>Monēta</em> was a title of the goddess Juno, whose temple in Rome housed a mint. The same Latin word also reached English by an older road as <em>mint</em>, so <em>money</em> and <em>mint</em> are doublets. The Roman <em>dēnārius</em> gave Spanish <strong>dinero</strong>, Italian <strong>denaro</strong> and Basque <strong>diru</strong>. The old Germanic coin that became the English penny gave Swedish <strong>pengar</strong>, and it went through Slavic to Polish <strong>pieniądze</strong> and Hungarian <strong>pénz</strong>.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,es,it,eu,pl,sv\" data-word=\"money\">🗣 Compare the Roman and Germanic coins</button></div><p>Follow a small coin far enough and you get some distance. Hindi <strong>पैसा</strong> goes back to a Sanskrit “quarter part”, since the coin was worth a quarter of an anna, and traders took it to East Africa as Swahili <strong>pesa</strong>. Turkish <strong>para</strong> is a Persian word for a piece. Persian <strong>پول</strong> is perhaps Greek <em>ὀβολός</em>, the obol, and Georgian <strong>ფული</strong> sits right beside it. Russian <strong>деньги</strong> comes from a Turkic source, and its relatives include the Kazakh currency, the tenge.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hi,sw,tr,fa,ka,ru\" data-word=\"money\">🗣 Compare the travelling coins</button></div><p>Chinese <strong>钱</strong> may have the most down-to-earth history. Wiktionary links it to 鏟, a shovel, and old texts use the character for a farm spade. It may be no coincidence that coins of the Zhou dynasty were cast in the shape of spades. Vietnamese <strong>tiền</strong> is the same word. German <strong>Geld</strong> and Dutch <strong>geld</strong> skip the object and name the act, from an old root meaning to pay.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,vi,de,nl\" data-word=\"money\">🗣 Compare spades and payment</button></div><h3>Skins, beans and cows</h3><p>Then there is the Pacific, where money began as a game. Samoan <strong>tupe</strong> is the matchbox bean, and also a coconut disk used in a throwing game. Tongan <em>paʻanga</em> is the same bean, a creeper with flat seeds played with in a game called <em>lafo</em>, and it is now the name of the national currency. Anything flat, round and handled often is apparently on its way to being money. English nearly went the other way. Before <em>money</em> arrived from French it used <em>feoh</em>, the word that survives as <em>fee</em>, and <em>feoh</em> meant cattle.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,sm,en\" data-word=\"money\">🗣 Compare the oldest ideas</button></div>",
+      "ja": "<p>フィンランド語では、お金は死んだリスである。<strong>raha</strong>は「乾いた獣皮」を表すゲルマン語からの借用で、もとは毛皮、とくにリスの皮を指した。紙幣や硬貨が現れる前は、それで支払っていたからだ。ヘルシンキでコーヒーを買う人がこんなことを考えるはずもない。お金を表す語はどの言語でも、この手の小さな化石で、地図はそれを何を覚えているかで分類している。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"money\" data-code=\"fi\">🗺️ 地図でお金を見る</button></div><h3>銀で払う</h3><p>いちばんわかりやすい記憶は金属である。フランス語<strong>argent</strong>、アイルランド語<strong>airgead</strong>、ウェールズ語<strong>arian</strong>はどれも銀の意味も持ち、ヘブライ語<strong>כסף</strong>も同じだ。タイ語<strong>เงิน</strong>も銀で、この語は遠い昔に古代中国語の「銀」から借りられた。日本語の<strong>お金</strong>も発想は同じで、それを丁寧に言ったものである。この38セルが語っているのは、誰ももう持ち歩かない通貨だ。フランス人の銀行カードは、名前の上では今も銀なのである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,ga,cy,he,th,ja\" data-word=\"money\">🗣 銀の語を比べる</button></div><h3>一枚の硬貨、一つの造幣所</h3><p>地図の大部分、181セルは一つの硬貨か、それを鋳造した場所の名を取った。いちばん奇妙なのは英語<strong>money</strong>だ。アングロ・ノルマン語を経てラテン語<em>monēta</em>から来た語で、モネータは女神ユノの称号であり、ローマのその神殿に造幣所があった。同じラテン語は別の古い経路でも<em>mint</em>「造幣所」として英語に入っていて、<em>money</em>と<em>mint</em>は二重語にあたる。ローマの<em>dēnārius</em>はスペイン語<strong>dinero</strong>、イタリア語<strong>denaro</strong>、バスク語<strong>diru</strong>になった。英語のpennyになった古いゲルマンの貨幣からはスウェーデン語<strong>pengar</strong>が生まれ、スラヴ語を経てポーランド語<strong>pieniądze</strong>やハンガリー語<strong>pénz</strong>にも届いた。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,es,it,eu,pl,sv\" data-word=\"money\">🗣 ローマとゲルマンの貨幣を比べる</button></div><p>小さな硬貨の跡をたどると、ずいぶん遠くまで行くことになる。ヒンディー語<strong>पैसा</strong>はサンスクリットの「四分の一」にさかのぼる。この硬貨が1アンナの四分の一の値打ちだったからで、これがスワヒリ語<strong>pesa</strong>として東アフリカに届いた。トルコ語<strong>para</strong>はペルシア語の「ひとかけ」である。ペルシア語<strong>پول</strong>はギリシャの貨幣オボロス<em>ὀβολός</em>かもしれず、ジョージア語<strong>ფული</strong>もそのすぐ隣に並ぶ。ロシア語<strong>деньги</strong>はテュルク語起源で、カザフスタンの通貨テンゲと親戚である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hi,sw,tr,fa,ka,ru\" data-word=\"money\">🗣 旅をした硬貨を比べる</button></div><p>いちばん地に足がついているのは中国語<strong>钱</strong>かもしれない。ウィクショナリーはこの語を「鏟」と結びつけていて、古い文献ではこの字が農具のすきを指す。周の時代の貨幣がすきの形に鋳られていたのも、偶然ではないのかもしれない。ベトナム語<strong>tiền</strong>は同じ語である。ドイツ語<strong>Geld</strong>とオランダ語<strong>geld</strong>は物を飛ばして行為を名指しており、「払う」を意味する古い語根から来ている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,vi,de,nl\" data-word=\"money\">🗣 すきと支払いを比べる</button></div><h3>毛皮と豆と牛</h3><p>そして太平洋では、お金は遊びから始まった。サモア語<strong>tupe</strong>はモダマの豆で、投げて遊ぶゲームに使うココヤシの円盤も指す。トンガ語<em>paʻanga</em>も同じ豆で、平たい種を<em>lafo</em>という遊びに使うつる植物であり、いまでは国の通貨の名前になっている。平たくて丸くて、よく人の手を渡るものは、お金になる素質があるらしい。英語は別の方向に行きかけていた。<em>money</em>がフランス語から来る前は<em>feoh</em>という語を使っていて、これが<em>fee</em>として残っている。<em>feoh</em>の意味は、家畜だった。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,sm,en\" data-word=\"money\">🗣 いちばん古い発想を比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"Spade money\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Spade_money"
+      },
+      {
+        "text": "\"raha\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/raha"
+      },
+      {
+        "text": "\"argent\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/argent"
+      },
+      {
+        "text": "\"airgead\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/airgead"
+      },
+      {
+        "text": "\"כסף\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/כסף"
+      },
+      {
+        "text": "\"เงิน\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/เงิน"
+      },
+      {
+        "text": "\"金\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/金"
+      },
+      {
+        "text": "\"money\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/money"
+      },
+      {
+        "text": "\"dinero\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/dinero"
+      },
+      {
+        "text": "\"diru\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/diru"
+      },
+      {
+        "text": "\"penge\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/penge"
+      },
+      {
+        "text": "\"pénz\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/pénz"
+      },
+      {
+        "text": "\"पैसा\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/पैसा"
+      },
+      {
+        "text": "\"pesa\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/pesa"
+      },
+      {
+        "text": "\"para\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/para"
+      },
+      {
+        "text": "\"پول\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/پول"
+      },
+      {
+        "text": "\"деньги\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/деньги"
+      },
+      {
+        "text": "\"錢\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/錢"
+      },
+      {
+        "text": "\"Geld\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Geld"
+      },
+      {
+        "text": "\"tupe\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/tupe"
+      },
+      {
+        "text": "\"paʻanga\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/paʻanga"
+      },
+      {
+        "text": "\"fee\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/fee"
+      }
+    ]
+  },
+  {
+    "id": "window-wind-eye-door-cage",
+    "icon": "🪟",
+    "tags": [
+      "home",
+      "etymology"
+    ],
+    "title": {
+      "en": "Window: An Eye for the Wind, a Small Door or a Cage",
+      "ja": "窓：風の目、小さな扉、そして鳥かご"
+    },
+    "summary": {
+      "en": "English window is a wind eye. Portuguese calls it a little door, and Persian a cage. Every language had to decide what a hole in the wall is for.",
+      "ja": "英語のwindowは「風の目」。ポルトガル語は「小さな扉」、ペルシア語は「かご」と呼ぶ。壁の穴が何のためにあるのか、どの言語も決めなければならなかった。"
+    },
+    "body": {
+      "en": "<p>An English <strong>window</strong> is an eye for the wind. The word is Old Norse <em>vindauga</em>, <em>vindr</em>, “wind”, plus <em>auga</em>, “eye”, and it pushed out the native Old English word, <em>ēagþȳrel</em>, an “eye-hole”. So English swapped one eye for another. A hole in a wall needs a name, and every language had to decide what the hole is for: to let the wind through, to look out, to squeeze through, or just to be a smaller door. The map holds all of these.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"window\" data-code=\"en\">🗺️ Show window on the map</button></div><h3>Eyes</h3><p>The wind has 52 cells. The Norse word stayed at home in Danish <strong>vindue</strong> and Norwegian <strong>vindu</strong>, and it crossed the sea to Ireland as <strong>fuinneog</strong>, with an Irish ending attached. Spanish reached the same idea independently. <strong>ventana</strong> is built on Latin <em>ventus</em>, “wind”, and it broke away from the Latin word for a window used by nearly all its neighbours.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,da,ga,es\" data-word=\"window\">🗣 Compare the wind words</button></div><p>The eye has 32. Russian <strong>окно</strong> and Polish <strong>okno</strong> are related to the old word for eye, <em>око</em>, and Wiktionary sets them beside the Norse and Old English words as parallels. Finnish <strong>ikkuna</strong> is a loan of the Slavic word, and its first vowel may have been nudged by Russian <em>икона</em>, “icon”. Japanese <strong>窓</strong> goes the same way by itself. <em>Mado</em> is most often explained as <em>ma</em>, “eye”, plus <em>to</em>, “gate”, an opening to look through, although <em>ma</em> “gap” is also proposed.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ru,pl,fi,ja\" data-word=\"window\">🗣 Compare the eye words</button></div><h3>Small doors</h3><p>A surprising number of people looked at a window and saw a door. Portuguese <strong>janela</strong> is a diminutive of Latin <em>iānua</em>, “door”, the word that comes from Janus, the Roman god of doorways. Portuguese sailors took it east. Indonesian <strong>jendela</strong> and Bengali <strong>জানালা</strong> both come from it, and in Bengali the word is a doublet of <em>জানুয়ারি</em>, January. Swahili <strong>dirisha</strong> came through Omani Arabic from Persian <em>دریچه</em>, a small opening. Greek <strong>παράθυρο</strong> is “beside the door”. Vietnamese <strong>cửa sổ</strong> is the most fun of them, <em>cửa</em>, “door”, plus <em>sổ</em>, “to slip away”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"pt,id,sw,el,vi\" data-word=\"window\">🗣 Compare the doors</button></div><h3>The word nobody can read</h3><p>The word that conquered Europe has no known meaning at all. Latin <em>fenestra</em> gave German <strong>Fenster</strong>, French <strong>fenêtre</strong>, Italian <strong>finestra</strong> and Welsh <strong>ffenestr</strong>, 48 cells in all. It apparently comes from Etruscan, and Wiktionary adds that nothing is known about the meaning of the Etruscan base. Half of Europe looks out through a word nobody can read.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"de,fr,it,cy\" data-word=\"window\">🗣 Compare the fenestra words</button></div><p>Further east the idea is darker. Persian <strong>پنجره</strong> was borrowed from Sanskrit <em>पिञ्जर</em>, “cage, skeleton”, and it went on to Turkish <strong>pencere</strong> and Georgian <strong>ფანჯარა</strong>. Arabic <strong>نافذة</strong> comes from a verb meaning to pierce, and as the literary word for a window it is a late 19th-century invention. Hungarian <strong>ablak</strong> probably comes from a Slovak word for an arc, and Dutch <strong>raam</strong> is a frame, so those two looked at the edges. Albanian <em>dritare</em> at least looked through it, since it comes from the word for light. Wind, eye, door, cage, piercing or frame, it is the same hole in the same wall.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fa,tr,ka,ar,hu,nl\" data-word=\"window\">🗣 Compare cage, piercing and frame</button></div>",
+      "ja": "<p>英語の<strong>window</strong>は「風の目」である。古ノルド語の<em>vindauga</em>で、<em>vindr</em>「風」と<em>auga</em>「目」を合わせた語だ。これが古英語の固有語<em>ēagþȳrel</em>「目の穴」を追い出した。つまり英語は目を別の目に取り替えたのである。壁の穴には名前が要る。そしてどの言語も、その穴が何のためにあるのかを決めなければならなかった。風を通すためか、外を見るためか、くぐり抜けるためか、それともただの小さな扉か。地図にはそのすべてがある。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"window\" data-code=\"en\">🗺️ 地図で窓を見る</button></div><h3>目</h3><p>風は52セルを占める。ノルド語の語は、デンマーク語<strong>vindue</strong>やノルウェー語<strong>vindu</strong>として本国に残り、海を渡ってアイルランド語<strong>fuinneog</strong>にもなった。こちらはアイルランド語の語尾がついた形だ。スペイン語は別の経路で同じ発想に行き着いた。<strong>ventana</strong>はラテン語<em>ventus</em>「風」にもとづく語で、近隣の言語のほとんどが使うラテン語の「窓」から離れている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,da,ga,es\" data-word=\"window\">🗣 風の語を比べる</button></div><p>目は32セルだ。ロシア語<strong>окно</strong>とポーランド語<strong>okno</strong>は「目」を表す古い語<em>око</em>の親戚で、ウィクショナリーはノルド語や古英語の語と並べて、同じ発想の例として挙げている。フィンランド語<strong>ikkuna</strong>はこのスラヴ語からの借用で、最初の母音はロシア語の<em>икона</em>「イコン」に引かれたのかもしれない。日本語の<strong>窓</strong>も独自に同じ道をたどった。「まど」はふつう「目」の古い形<em>ま</em>と「門」の<em>と</em>を合わせた語、つまり外を見るための開口部と説明される。ただし「間」とする説もある。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ru,pl,fi,ja\" data-word=\"window\">🗣 目の語を比べる</button></div><h3>小さな扉</h3><p>窓を見て扉を思い浮かべた人は、意外なほど多い。ポルトガル語<strong>janela</strong>はラテン語<em>iānua</em>「戸口」の指小形で、この語はローマの扉の神ヤヌスにちなむ。ポルトガルの船乗りはこれを東へ運んだ。インドネシア語<strong>jendela</strong>もベンガル語<strong>জানালা</strong>もここから来ていて、ベンガル語ではこの語が1月を表す<em>জানুয়ারি</em>の二重語にあたる。スワヒリ語<strong>dirisha</strong>はオマーンのアラビア語を経て、ペルシア語<em>دریچه</em>「小さな窓」から来た。ギリシャ語<strong>παράθυρο</strong>は「扉のそば」である。いちばん愉快なのはベトナム語<strong>cửa sổ</strong>で、<em>cửa</em>「戸」に<em>sổ</em>「すり抜ける」を足したものだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"pt,id,sw,el,vi\" data-word=\"window\">🗣 扉を比べる</button></div><h3>誰にも読めない語</h3><p>ヨーロッパを制覇した語には、意味がまったくわからない。ラテン語<em>fenestra</em>からドイツ語<strong>Fenster</strong>、フランス語<strong>fenêtre</strong>、イタリア語<strong>finestra</strong>、ウェールズ語<strong>ffenestr</strong>が生まれ、全部で48セルある。もとはエトルリア語らしいのだが、ウィクショナリーは、そのエトルリア語の語基の意味は何もわかっていないと書き添えている。ヨーロッパの半分は、誰にも読めない語を通して外を眺めているわけだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"de,fr,it,cy\" data-word=\"window\">🗣 fenestra系の語を比べる</button></div><p>東へ行くと、発想はもっと暗くなる。ペルシア語<strong>پنجره</strong>はサンスクリットの<em>पिञ्जर</em>「鳥かご、骸骨」からの借用で、トルコ語<strong>pencere</strong>、ジョージア語<strong>ფანჯარა</strong>へと伝わった。アラビア語<strong>نافذة</strong>は「貫く」を意味する動詞から来ていて、文語の「窓」としては19世紀末に作られた語である。ハンガリー語<strong>ablak</strong>はおそらくスロバキア語の「アーチ」、オランダ語<strong>raam</strong>は「枠」で、この二つは窓のふちを見ていたことになる。アルバニア語<em>dritare</em>はさすがに向こうを見ていて、「光」から来ている。風でも目でも扉でも、かごでも貫通でも枠でも、同じ壁の同じ穴だ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fa,tr,ka,ar,hu,nl\" data-word=\"window\">🗣 かご、貫通、枠を比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"window\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/window"
+      },
+      {
+        "text": "\"vindue\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/vindue"
+      },
+      {
+        "text": "\"fuinneog\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/fuinneog"
+      },
+      {
+        "text": "\"ventana\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ventana"
+      },
+      {
+        "text": "\"окно\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/окно"
+      },
+      {
+        "text": "\"ikkuna\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ikkuna"
+      },
+      {
+        "text": "\"aken\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/aken"
+      },
+      {
+        "text": "\"窓\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/窓"
+      },
+      {
+        "text": "\"janela\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/janela"
+      },
+      {
+        "text": "\"jendela\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/jendela"
+      },
+      {
+        "text": "\"জানালা\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/জানালা"
+      },
+      {
+        "text": "\"dirisha\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/dirisha"
+      },
+      {
+        "text": "\"παράθυρο\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/παράθυρο"
+      },
+      {
+        "text": "\"cửa sổ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/cửa_sổ"
+      },
+      {
+        "text": "\"fenestra\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/fenestra"
+      },
+      {
+        "text": "\"پنجره\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/پنجره"
+      },
+      {
+        "text": "\"pencere\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/pencere"
+      },
+      {
+        "text": "\"ფანჯარა\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ფანჯარა"
+      },
+      {
+        "text": "\"نافذة\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/نافذة"
+      },
+      {
+        "text": "\"dritare\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/dritare"
+      },
+      {
+        "text": "\"raam\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/raam"
+      },
+      {
+        "text": "\"ablak\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ablak"
+      }
+    ]
+  },
+  {
+    "id": "camel-the-elephant-of-the-north",
+    "icon": "🐪",
+    "tags": [
+      "animals",
+      "trade",
+      "etymology"
+    ],
+    "title": {
+      "en": "Camel: The Elephant of the North",
+      "ja": "ラクダ：北国のゾウ"
+    },
+    "summary": {
+      "en": "Russian верблюд probably began as the word for an elephant. People who had never seen either animal borrowed a big-beast name, and the camel kept it.",
+      "ja": "ロシア語のверблюдは、もとはゾウを指す語だったらしい。どちらの動物も見たことのない人々が大きな獣の名を借り、それがラクダに残った。"
+    },
+    "body": {
+      "en": "<p>Russian <strong>верблюд</strong> is probably an elephant. It comes through Proto-Slavic from Gothic <em>ulbandus</em>, and that word is usually connected with Greek <em>ἐλέφας</em>, the elephant, although the exact derivation is uncertain. Icelandic <strong>úlfaldi</strong> belongs to the same word, and Old English had it too, as <em>olfend</em>. People in the north who had seen neither animal seem to have had one name for a huge foreign beast, and the camel ended up with it. Polish <strong>wielbłąd</strong> got a second life as a joke. Speakers heard <em>wielki błąd</em>, “a huge mistake”, in it, and the word can now mean a howler. Only six cells keep this name. The camel has five long-distance names on the map, and each of them is a trade route.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"camel\" data-code=\"ru\">🗺️ Show camel on the map</button></div><h3>The Semitic road</h3><p>The biggest route is Semitic, with 133 cells. Arabic <strong>جمل</strong> and Hebrew <strong>גמל</strong> go back to a Proto-Semitic <em>*gamal-</em>. Greek took it as <em>κάμηλος</em>, Latin as <em>camēlus</em>, and from there came English <strong>camel</strong>, German <strong>Kamel</strong> and French <strong>chameau</strong>. Southward it went to Swahili <strong>ngamia</strong>, an old borrowing from Arabic. So the same three consonants turned up in Rome and on the East African coast.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,fr,ar,he,sw\" data-word=\"camel\">🗣 Compare the Semitic road</button></div><h3>The Persian and Turkic roads</h3><p>The second route runs through Persia and India, from Proto-Indo-Iranian <em>*úštras</em>, a word for a camel, or perhaps once a buffalo. Persian <strong>شتر</strong>, Hindi <strong>ऊँट</strong> and Armenian <strong>ուղտ</strong> are on it. Armenian has the best idiom on this map: to make a mountain out of a molehill is to make a camel out of a flea. Malay <strong>unta</strong> came from Prakrit, and Thai <strong>อูฐ</strong> and Tamil <strong>ஒட்டகம்</strong> also go back to Sanskrit, a long way from any desert. English briefly had the word as well, <em>oont</em>. The same root may be in the most famous name in old Iran. Zoroaster, Wikipedia says, is thought to mean “he who can manage camels”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fa,hi,hy,ms,th,ta\" data-word=\"camel\">🗣 Compare the Persian road</button></div><p>The third route is Turkic <em>*tebe</em>, with 32 cells: Turkish <strong>deve</strong>, Kazakh <strong>түйе</strong>, and Hungarian <strong>teve</strong>, on record from about 1395. Slovak <strong>ťava</strong> took it from Hungarian, which draws a line through a single country’s history, since Czech says <strong>velbloud</strong>, the elephant word. Mongolian <strong>тэмээ</strong> is borrowed from <em>*tebe</em> as well, and it has a job on the chessboard. In Mongolian the bishop is the camel, probably an adaptation of the Persian piece, the elephant. So a camel stands in for an elephant again.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,kk,hu,sk,cs,mn\" data-word=\"camel\">🗣 Compare the Turkic road</button></div><h3>East Asia and Africa</h3><p>East Asia shares one written word. Chinese <strong>骆驼</strong> gave Korean <strong>낙타</strong>, Japanese <strong>駱駝</strong> and Vietnamese <strong>lạc đà</strong>. Its older form was 橐駝, and one researcher compares it to a Proto-Turkic word for a young camel. If that is right, the Chinese name came down the same road as the animal.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,ko,ja,vi\" data-word=\"camel\">🗣 Compare East Asia</button></div><p>Africa has its own line. Hausa <strong>raƙumi</strong> is a very old borrowing from Berber, Wolof <strong>giléem</strong> is the same word, and Hausa built its giraffe from it, <em>raƙumin dawa</em>. Only one language on the list seems to have looked at the animal and described it. Lithuanian <strong>kupranugaris</strong> is <em>kupra</em>, “hump”, plus <em>nugara</em>, “back”. Everyone else took the name from whoever was selling them the camel.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ha,wo,lt\" data-word=\"camel\">🗣 Compare Africa and the hump</button></div>",
+      "ja": "<p>ロシア語の<strong>верблюд</strong>は、おそらくゾウである。スラヴ祖語を経てゴート語の<em>ulbandus</em>にさかのぼり、この語はふつうギリシャ語の<em>ἐλέφας</em>「ゾウ」と結びつけられている。ただし正確な語源ははっきりしない。アイスランド語<strong>úlfaldi</strong>も同じ語で、古英語にも<em>olfend</em>があった。どちらの動物も見たことのない北方の人々は、遠い国の巨大な獣をひとつの名で呼んでいたらしく、それがラクダに落ち着いたのだ。ポーランド語<strong>wielbłąd</strong>は冗談として第二の人生を得た。<em>wielki błąd</em>「大失敗」と聞こえるので、へまの意味でも使われる。この名を残すのは6セルだけである。地図の上でラクダには五つの遠距離の名があり、そのどれもが交易路になっている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"camel\" data-code=\"ru\">🗺️ 地図でラクダを見る</button></div><h3>セム語の道</h3><p>最大の道はセム語のもので、133セルある。アラビア語<strong>جمل</strong>とヘブライ語<strong>גמל</strong>はセム祖語の<em>*gamal-</em>にさかのぼる。ギリシャ語はこれを<em>κάμηλος</em>、ラテン語は<em>camēlus</em>として取り入れ、そこから英語<strong>camel</strong>、ドイツ語<strong>Kamel</strong>、フランス語<strong>chameau</strong>が生まれた。南へはスワヒリ語<strong>ngamia</strong>まで届いていて、これはアラビア語からの古い借用である。同じ三つの子音が、ローマにも東アフリカの海岸にも現れたことになる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,fr,ar,he,sw\" data-word=\"camel\">🗣 セム語の道を比べる</button></div><h3>ペルシアとテュルクの道</h3><p>二つ目の道はペルシアとインドを通る。印欧語のインド・イラン祖語<em>*úštras</em>が出発点で、ラクダ、あるいはもとは水牛を指したらしい。ペルシア語<strong>شتر</strong>、ヒンディー語<strong>ऊँट</strong>、アルメニア語<strong>ուղտ</strong>がこの道に並ぶ。アルメニア語には、この地図で最高の慣用句がある。針小棒大のことを「ノミからラクダを作る」と言うのだ。マレー語<strong>unta</strong>はプラークリットから入り、タイ語<strong>อูฐ</strong>とタミル語<strong>ஒட்டகம்</strong>もサンスクリットにさかのぼる。砂漠からは遠い土地である。英語にも一時<em>oont</em>という形があった。古代イランでいちばん有名な名前にも同じ語根があるかもしれない。ウィキペディアによると、ゾロアスターの名は「ラクダを扱える者」を意味すると考えられている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fa,hi,hy,ms,th,ta\" data-word=\"camel\">🗣 ペルシアの道を比べる</button></div><p>三つ目はテュルク語<em>*tebe</em>の道で、32セルある。トルコ語<strong>deve</strong>、カザフ語<strong>түйе</strong>、そして1395年ごろの記録があるハンガリー語<strong>teve</strong>だ。スロバキア語<strong>ťava</strong>はハンガリー語から取った。チェコ語はゾウ系の<strong>velbloud</strong>なので、隣り合う二つの言語の間に線が引かれている。モンゴル語<strong>тэмээ</strong>も<em>*tebe</em>からの借用で、チェス盤の上にも仕事がある。モンゴルのチェスではビショップがラクダなのだ。おそらくペルシアの駒、つまりゾウを置き換えたものだという。ここでもラクダがゾウの代わりを務めている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,kk,hu,sk,cs,mn\" data-word=\"camel\">🗣 テュルクの道を比べる</button></div><h3>東アジアとアフリカ</h3><p>東アジアは書き言葉を共有している。中国語<strong>骆驼</strong>から朝鮮語<strong>낙타</strong>、日本語<strong>駱駝</strong>、ベトナム語<strong>lạc đà</strong>が生まれた。古い形は「橐駝」で、これをテュルク祖語の「子ラクダ」と比べる研究者もいる。もしそうなら、中国語の名は動物と同じ道を通ってやって来たことになる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,ko,ja,vi\" data-word=\"camel\">🗣 東アジアを比べる</button></div><p>アフリカには独自の線がある。ハウサ語<strong>raƙumi</strong>はベルベル語からのごく古い借用で、ウォロフ語<strong>giléem</strong>も同じ語だ。ハウサ語はこの語からキリンの名<em>raƙumin dawa</em>も作っている。動物を見てそのまま描写したらしい言語は、この中では一つしかない。リトアニア語<strong>kupranugaris</strong>は<em>kupra</em>「こぶ」と<em>nugara</em>「背中」である。ほかの人々はみな、ラクダを売りに来た相手から名前ももらったのだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ha,wo,lt\" data-word=\"camel\">🗣 アフリカとこぶを比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"Zoroaster\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Zarathustra"
+      },
+      {
+        "text": "\"верблюд\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/верблюд"
+      },
+      {
+        "text": "\"wielbłąd\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/wielbłąd"
+      },
+      {
+        "text": "\"úlfaldi\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/úlfaldi"
+      },
+      {
+        "text": "\"𐌿𐌻𐌱𐌰𐌽𐌳𐌿𐍃\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/𐌿𐌻𐌱𐌰𐌽𐌳𐌿𐍃"
+      },
+      {
+        "text": "\"camel\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/camel"
+      },
+      {
+        "text": "\"ngamia\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ngamia"
+      },
+      {
+        "text": "\"شتر\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/شتر"
+      },
+      {
+        "text": "\"ऊँट\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ऊँट"
+      },
+      {
+        "text": "\"unta\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/unta"
+      },
+      {
+        "text": "\"oont\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/oont"
+      },
+      {
+        "text": "\"อูฐ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/อูฐ"
+      },
+      {
+        "text": "\"ஒட்டகம்\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ஒட்டகம்"
+      },
+      {
+        "text": "\"լու\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/լու"
+      },
+      {
+        "text": "\"deve\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/deve"
+      },
+      {
+        "text": "\"teve\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/teve"
+      },
+      {
+        "text": "\"ťava\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ťava"
+      },
+      {
+        "text": "\"тэмээ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/тэмээ"
+      },
+      {
+        "text": "\"駱駝\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/駱駝"
+      },
+      {
+        "text": "\"橐駝\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/橐駝"
+      },
+      {
+        "text": "\"낙타\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/낙타"
+      },
+      {
+        "text": "\"raƙumi\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/raƙumi"
+      },
+      {
+        "text": "\"kupranugaris\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/kupranugaris"
+      }
+    ]
+  },
+  {
+    "id": "saturday-bath-day",
+    "icon": "🛁",
+    "tags": [
+      "calendar",
+      "etymology"
+    ],
+    "title": {
+      "en": "Saturday: Bath Day",
+      "ja": "土曜日：風呂の日"
+    },
+    "summary": {
+      "en": "Swedish Saturday is bath day, a name from Old Norse. Most of the world calls it the Sabbath, a good part calls it Saturn’s, and one extra sound shows which way the Sabbath travelled.",
+      "ja": "スウェーデン語の土曜日は風呂の日で、古ノルド語以来の名だ。世界の大半は安息日、かなりの地域は土星の日と呼び、余分な一音が安息日の通った道を教えてくれる。"
+    },
+    "body": {
+      "en": "<p>In Sweden Saturday is bath day. <strong>lördag</strong> comes from Old Norse <em>laugardagr</em>, <em>laug</em>, “bath”, plus <em>dagr</em>, “day”, and the rest of the Norse world agrees: Icelandic <strong>laugardagur</strong> is the same word. Finnish borrowed it as <strong>lauantai</strong>, and Wiktionary adds, with a straight face, that the meaning is fitting because a sauna on Saturday evening is still common in Finland. Estonian <strong>laupäev</strong> has the same origin.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"saturday\" data-code=\"sv\">🗺️ Show Saturday on the map</button></div><p>Komi got there alone. <strong>пывсянлун</strong> is built on <em>пывсян</em>, the public bath, so people on either side of the Baltic world decided independently that this was the day to get clean. There are only 15 of these cells on the map, but no other day of the week has a name this practical.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"sv,is,fi,et,kpv\" data-word=\"saturday\">🗣 Compare the bath days</button></div><h3>The Sabbath and the extra m</h3><p>The biggest name by far is the Sabbath, with about 120 cells. Hebrew <strong>יום שבת</strong> passed into Greek as <em>σάββατον</em>, and Latin <em>sabbatum</em> gave Spanish <strong>sábado</strong> and Italian <strong>sabato</strong>. Modern Greek <strong>Σάββατο</strong> is the same word. Arabic <strong>يوم السبت</strong> has it too, matched to a native verb meaning to rest, and Malay <strong>Sabtu</strong> borrowed it from Arabic. It is a Jewish word that Christians and Muslims both kept.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"he,es,it,el,ar,ms\" data-word=\"saturday\">🗣 Compare the Sabbath</button></div><p>Look closely and an odd sound appears. French <strong>samedi</strong>, German <strong>Samstag</strong>, Romanian <strong>sâmbătă</strong> and Hungarian <strong>szombat</strong> all have an <em>m</em> that Hebrew never had. They descend from a variant, Greek <em>*σάμβατον</em>, Latin <em>*sambatum</em>, and the nasal spread with it through Europe. Russian <strong>суббота</strong> comes from it too, with the nasal gone. Persian <strong>شنبه</strong> also has the <em>m</em> in its older form <em>šambat</em>. Spanish and Italian kept the plain form, so one extra sound splits Latin Europe down the middle.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,de,ro,hu,ru,fa\" data-word=\"saturday\">🗣 Compare the extra m</button></div><h3>Saturn</h3><p>Saturn’s day is the old Roman name, and English is among the few that kept it. <strong>Saturday</strong> is Old English <em>sæternesdæġ</em>, a translation of <em>diēs Saturnī</em>, and Dutch <strong>zaterdag</strong> and Welsh <strong>dydd Sadwrn</strong> are the same. The planet went east as well. Japanese <strong>土曜日</strong> names Saturn, brought with Chinese astrology in the Heian period, and Hindi <strong>शनिवार</strong> is the day of Śani. Mongolian <strong>бямба</strong> comes from Tibetan <em>spen pa</em>, “Saturn”. Mercury and Venus had their followers, but only Saturn reached an English calendar under his own name.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,nl,cy,ja,hi,mn\" data-word=\"saturday\">🗣 Compare Saturn</button></div><h3>Before and after</h3><p>Some languages name it by what comes next or what came before. German also has <em>Sonnabend</em>, “Sunday eve”, from a time when the day was reckoned from sunset. Navajo <strong>Yiską́ Damį́įgo</strong> is “tomorrow is Sunday”. Turkish <strong>cumartesi</strong> looks the other way, a shortening of <em>cuma ertesi</em>, “after Friday”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"de,nv,tr\" data-word=\"saturday\">🗣 Compare eve and after</button></div><p>And the counters still cannot agree. Chinese <strong>星期六</strong> is “week six”, and Lithuanian <strong>šeštadienis</strong> is “sixth day”. Vietnamese <strong>thứ bảy</strong> is the seventh. Swahili <strong>Jumamosi</strong> is “week one”, because its count starts here. First, sixth or seventh, Saturday can be any of them, and in Finland it is still sauna night.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,vi,lt,sw\" data-word=\"saturday\">🗣 Compare the numbers</button></div>",
+      "ja": "<p>スウェーデンでは、土曜日は風呂の日である。<strong>lördag</strong>は古ノルド語の<em>laugardagr</em>から来ていて、<em>laug</em>「風呂」と<em>dagr</em>「日」を合わせた語だ。ノルド語圏のほかの言語も同じで、アイスランド語<strong>laugardagur</strong>はそのままの形である。フィンランド語はこれを<strong>lauantai</strong>として借り、ウィクショナリーは大まじめに、土曜の夜にサウナに入る習慣が今もフィンランドで一般的なのでこの意味はふさわしい、と書き添えている。エストニア語<strong>laupäev</strong>も同じ起源だ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"saturday\" data-code=\"sv\">🗺️ 地図で土曜日を見る</button></div><p>コミ語は単独で同じ結論に達した。<strong>пывсянлун</strong>は公衆浴場<em>пывсян</em>をもとにした語である。この日に体を洗おうと考えた人々は、別々の土地にいたのだ。地図ではわずか15セルだが、これほど実用本位の名を持つ曜日はほかにない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"sv,is,fi,et,kpv\" data-word=\"saturday\">🗣 風呂の日を比べる</button></div><h3>安息日と余分なm</h3><p>圧倒的に多いのは安息日の名で、約120セルある。ヘブライ語<strong>יום שבת</strong>はギリシャ語に<em>σάββατον</em>として入り、ラテン語<em>sabbatum</em>からスペイン語<strong>sábado</strong>、イタリア語<strong>sabato</strong>が生まれた。現代ギリシャ語<strong>Σάββατο</strong>も同じ語だ。アラビア語<strong>يوم السبت</strong>にもあり、「休む」を表す固有の動詞に重ねられている。マレー語<strong>Sabtu</strong>はアラビア語から借りた。ユダヤの言葉を、キリスト教徒もイスラーム教徒も持ち続けたわけである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"he,es,it,el,ar,ms\" data-word=\"saturday\">🗣 安息日を比べる</button></div><p>よく見ると、不思議な音が現れる。フランス語<strong>samedi</strong>、ドイツ語<strong>Samstag</strong>、ルーマニア語<strong>sâmbătă</strong>、ハンガリー語<strong>szombat</strong>には、ヘブライ語になかった<em>m</em>がある。これらはギリシャ語<em>*σάμβατον</em>、ラテン語<em>*sambatum</em>という異形の子孫で、この鼻音がヨーロッパに広がったのだ。ロシア語<strong>суббота</strong>もここから来たが、鼻音は消えている。ペルシア語<strong>شنبه</strong>も古い形<em>šambat</em>に<em>m</em>を持つ。スペイン語とイタリア語は素直な形を保ったので、たった一つの音がラテン系のヨーロッパを二つに分けている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,de,ro,hu,ru,fa\" data-word=\"saturday\">🗣 余分なmを比べる</button></div><h3>土星</h3><p>土星の日はローマの古い名で、英語はこれを残した数少ない言語の一つだ。<strong>Saturday</strong>は古英語の<em>sæternesdæġ</em>で、<em>diēs Saturnī</em>の翻訳である。オランダ語<strong>zaterdag</strong>もウェールズ語<strong>dydd Sadwrn</strong>も同じだ。この惑星は東へも行った。日本語の<strong>土曜日</strong>は平安時代に中国の占星術とともに入った土星の名で、ヒンディー語<strong>शनिवार</strong>はシャニの日である。モンゴル語<strong>бямба</strong>はチベット語の<em>spen pa</em>「土星」から来ている。水星も金星もそれぞれ信奉者を持っていたが、英語の暦に自分の名で入ったのは土星だけだった。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,nl,cy,ja,hi,mn\" data-word=\"saturday\">🗣 土星を比べる</button></div><h3>前と後</h3><p>次に来る日や前の日で呼ぶ言語もある。ドイツ語には<em>Sonnabend</em>「日曜の前夜」もあって、一日を日没から数えていた時代の名残だ。ナバホ語<strong>Yiską́ Damį́įgo</strong>は「明日は日曜」である。トルコ語<strong>cumartesi</strong>は逆を向いていて、<em>cuma ertesi</em>「金曜の翌日」を縮めたものだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"de,nv,tr\" data-word=\"saturday\">🗣 前夜と翌日を比べる</button></div><p>そして数える人たちは、ここでも話が合わない。中国語<strong>星期六</strong>は「週の六」、リトアニア語<strong>šeštadienis</strong>は「六番目の日」。ベトナム語<strong>thứ bảy</strong>は七番目だ。スワヒリ語<strong>Jumamosi</strong>はここから数えはじめるので「週の一」である。一番目にも六番目にも七番目にもなる土曜日だが、フィンランドでは今もサウナの夜だ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,vi,lt,sw\" data-word=\"saturday\">🗣 数を比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"laugardagr\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/laugardagr"
+      },
+      {
+        "text": "\"lördag\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/lördag"
+      },
+      {
+        "text": "\"lauantai\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/lauantai"
+      },
+      {
+        "text": "\"пывсян\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/пывсян"
+      },
+      {
+        "text": "\"sabbatum\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/sabbatum"
+      },
+      {
+        "text": "\"Reconstruction:Latin/sambatum\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Reconstruction:Latin/sambatum"
+      },
+      {
+        "text": "\"Samstag\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Samstag"
+      },
+      {
+        "text": "\"samedi\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/samedi"
+      },
+      {
+        "text": "\"sâmbătă\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/sâmbătă"
+      },
+      {
+        "text": "\"szombat\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/szombat"
+      },
+      {
+        "text": "\"суббота\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/суббота"
+      },
+      {
+        "text": "\"شنبه\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/شنبه"
+      },
+      {
+        "text": "\"السبت\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/السبت"
+      },
+      {
+        "text": "\"Sabtu\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Sabtu"
+      },
+      {
+        "text": "\"Saturday\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Saturday"
+      },
+      {
+        "text": "\"土曜日\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/土曜日"
+      },
+      {
+        "text": "\"бямба\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/бямба"
+      },
+      {
+        "text": "\"Sonnabend\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Sonnabend"
+      },
+      {
+        "text": "\"cumartesi\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/cumartesi"
+      },
+      {
+        "text": "\"Yiską́ Damį́įgo\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Yiską́_Damį́įgo"
+      },
+      {
+        "text": "\"šeštadienis\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/šeštadienis"
+      },
+      {
+        "text": "\"Jumamosi\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Jumamosi"
+      }
+    ]
+  },
+  {
+    "id": "week-seven-eight-or-ten",
+    "icon": "📅",
+    "tags": [
+      "calendar",
+      "etymology"
+    ],
+    "title": {
+      "en": "Week: Seven Days, Eight Nights or Ten",
+      "ja": "週：七日、八夜、あるいは十日"
+    },
+    "summary": {
+      "en": "A week has seven days, but in Welsh it is eight nights and in Vietnamese the word once meant ten days. The name of the week is rarely about the week.",
+      "ja": "一週間は七日なのに、ウェールズ語では八つの夜、ベトナム語の語はもともと十日を指した。週の名前は、週そのものを語っていないことが多い。"
+    },
+    "body": {
+      "en": "<p>A week has seven days everywhere, and yet Welsh <strong>wythnos</strong> is <em>wyth</em>, “eight”, plus <em>nos</em>, “night”. Marathi <strong>आठवडा</strong> goes back to a Sanskrit compound with “eight” in it, and Gujarati <strong>અઠવાડિયું</strong> does the same. Vietnamese <strong>tuần</strong> is Sino-Vietnamese 旬, a ten-day period, and the same word still names one of the three ten-day parts of a month in the Vietnamese calendar. Nobody here has miscounted. The seven-day week arrived late in most of the world, and each language made a name from whatever was to hand.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"week\" data-code=\"cy\">🗺️ Show the week on the map</button></div><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"cy,mr,gu,vi\" data-word=\"week\">🗣 Compare eight and ten</button></div><h3>The number itself</h3><p>The obvious material is the number itself, and 101 cells use it. Late Latin <em>septimāna</em>, from <em>septimus</em>, “seventh”, gave French <strong>semaine</strong> and Spanish <strong>semana</strong>. Greek <strong>εβδομάδα</strong> comes from its own word for seven, Arabic <strong>أسبوع</strong> sits on the root of seven, and Persian <strong>هفته</strong> is built on <em>haft</em>. Hindi <strong>सप्ताह</strong> is the Sanskrit equivalent, and Hindi also has <em>हफ़्ता</em>, the Persian word, which Wiktionary calls its doublet. Hungarian <strong>hét</strong> is the shortest solution, since the word for week and the word for seven are simply the same word.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,es,el,ar,fa,hi,hu\" data-word=\"week\">🗣 Compare the sevens</button></div><h3>A turn</h3><p>English <strong>week</strong> has nothing to do with seven. It goes back to Proto-Germanic <em>*wikǭ</em>, from a root meaning to bend or turn, by a path that Wiktionary gives as “to bend, give way”, then “to shift”, then “sequence, week”. German <strong>Woche</strong> is the same word. The Germanic peoples took the idea of a week from the Romans around the 1st century and named it for the turning of the sequence. Finnish <strong>viikko</strong> and Swahili <strong>wiki</strong> are later copies. South India has a parallel of its own, since Tamil <strong>வாரம்</strong> comes from Sanskrit <em>vāra</em>, “turn, time, day”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,fi,sw,ta\" data-word=\"week\">🗣 Compare the turns</button></div><h3>The day that ate the week</h3><p>Then there is the week named after one of its days. Russian <strong>неделя</strong> was Sunday before it was a week, as we saw in the story of Sunday, and Georgian <strong>კვირა</strong>, Indonesian <strong>minggu</strong> and Khmer <strong>អាទិត្យ</strong> all made the same move. That is 32 cells where the day of rest ate the week around it.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ru,ka,id,km\" data-word=\"week\">🗣 Compare Sunday’s week</button></div><p>Where Islam set the rhythm, the day that swallowed the week was Friday. Maltese <strong>ġimgħa</strong> and Kazakh <strong>жұма</strong> are both words for Friday and for the week. Bashkir <strong>аҙна</strong> looks unrelated, but it comes from Persian <em>آدینه</em>, also Friday. Armenian does the same trick with Saturday, in <em>շաբաթ</em>.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"mt,kk,ba\" data-word=\"week\">🗣 Compare Friday’s week</button></div><h3>The same day again</h3><p>Polish found the most thoughtful answer. <strong>tydzień</strong> is <em>ten</em> plus <em>dzień</em>, “this day”, and Croatian <strong>tjedan</strong> goes back to a Slavic word for “the same day”, seven days on. It is the only name here that describes what a week actually is: you are back at the same day. Chinese <strong>星期</strong> looks up instead, with a character for star, and Hawaiian <strong>pule</strong> is a word for prayer. Fewer than half the cells on the map say seven. The rest found another way to say that it comes round again.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"pl,hr,zh,haw\" data-word=\"week\">🗣 Compare the last ideas</button></div>",
+      "ja": "<p>一週間はどこでも七日なのに、ウェールズ語の<strong>wythnos</strong>は<em>wyth</em>「八」と<em>nos</em>「夜」でできている。マラーティー語<strong>आठवडा</strong>は「八」を含むサンスクリットの複合語にさかのぼり、グジャラート語<strong>અઠવાડિયું</strong>も同じだ。ベトナム語<strong>tuần</strong>は漢越語の「旬」で十日間のことで、ベトナムの暦では今もひと月を三つに分けた十日間の呼び名である。誰も数え間違えたわけではない。七日の週は世界の多くの地域に遅れて届き、それぞれの言語が手近なものから名前を作ったのだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"week\" data-code=\"cy\">🗺️ 地図で週を見る</button></div><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"cy,mr,gu,vi\" data-word=\"week\">🗣 八と十を比べる</button></div><h3>数そのもの</h3><p>素材としてまず思いつくのは数そのもので、101セルがこれを使っている。後期ラテン語の<em>septimāna</em>は<em>septimus</em>「七番目」から来ていて、フランス語<strong>semaine</strong>、スペイン語<strong>semana</strong>になった。ギリシャ語<strong>εβδομάδα</strong>は自前の「七」から来ており、アラビア語<strong>أسبوع</strong>は「七」の語根の上にあり、ペルシア語<strong>هفته</strong>は<em>haft</em>をもとにしている。ヒンディー語<strong>सप्ताह</strong>はそのサンスクリット版で、ヒンディー語にはペルシア語の<em>हफ़्ता</em>もあって、ウィクショナリーはこれを二重語としている。いちばん簡潔なのはハンガリー語<strong>hét</strong>で、「週」と「七」がまったく同じ語なのである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,es,el,ar,fa,hi,hu\" data-word=\"week\">🗣 七を比べる</button></div><h3>めぐり</h3><p>英語<strong>week</strong>は七と何の関係もない。ゲルマン祖語の<em>*wikǭ</em>にさかのぼり、もとは「曲がる、回る」を意味する語根だ。ウィクショナリーの説明では「曲がる、譲る」から「移る」、そして「順番、週」へと変わった。ドイツ語<strong>Woche</strong>も同じ語である。ゲルマン人は1世紀ごろローマ人から週の考えを取り入れ、順番がめぐることを名前にした。フィンランド語<strong>viikko</strong>やスワヒリ語<strong>wiki</strong>はのちの写しだ。南インドにも似た例があって、タミル語<strong>வாரம்</strong>はサンスクリットの<em>vāra</em>「順番、時、日」から来ている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,fi,sw,ta\" data-word=\"week\">🗣 めぐりを比べる</button></div><h3>週を飲み込んだ日</h3><p>次は、週の中の一日にちなんだ週である。ロシア語<strong>неделя</strong>は、週になる前は日曜日だった。これは日曜日の話で見たとおりで、ジョージア語<strong>კვირა</strong>、インドネシア語<strong>minggu</strong>、クメール語<strong>អាទិត្យ</strong>も同じ動きをした。休みの日がまわりの週を飲み込んだ例が32セルある。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ru,ka,id,km\" data-word=\"week\">🗣 日曜日の週を比べる</button></div><p>イスラームが生活の拍子を決めた地域では、週を飲み込んだのは金曜日だった。マルタ語<strong>ġimgħa</strong>とカザフ語<strong>жұма</strong>はどちらも金曜日と週の両方を指す。バシキール語<strong>аҙна</strong>は無関係に見えるが、これもペルシア語の金曜日<em>آدینه</em>から来ている。アルメニア語は土曜日で同じことをしていて、<em>շաբաթ</em>がそれだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"mt,kk,ba\" data-word=\"week\">🗣 金曜日の週を比べる</button></div><h3>また同じ日</h3><p>いちばん考え抜かれた答えを出したのはポーランド語である。<strong>tydzień</strong>は<em>ten</em>と<em>dzień</em>で「この日」、クロアチア語<strong>tjedan</strong>はスラヴ語の「同じ日」にさかのぼる。七日たつと同じ日だ、というわけで、週とは何かをそのまま言い表した名はこれだけである。中国語<strong>星期</strong>は「星」の字で空を見上げ、ハワイ語<strong>pule</strong>は「祈り」の語だ。地図で七と言っているのは全体の半分に満たない。残りの言語は、それがまためぐってくることを別の言い方で表したのである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"pl,hr,zh,haw\" data-word=\"week\">🗣 最後の発想を比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"wythnos\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/wythnos"
+      },
+      {
+        "text": "\"आठवडा\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/आठवडा"
+      },
+      {
+        "text": "\"અઠવાડિયું\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/અઠવાડિયું"
+      },
+      {
+        "text": "\"tuần\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/tuần"
+      },
+      {
+        "text": "\"semaine\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/semaine"
+      },
+      {
+        "text": "\"أسبوع\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/أسبوع"
+      },
+      {
+        "text": "\"هفته\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/هفته"
+      },
+      {
+        "text": "\"hét\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/hét"
+      },
+      {
+        "text": "\"week\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/week"
+      },
+      {
+        "text": "\"Reconstruction:Proto-Germanic/wikǭ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/wikǭ"
+      },
+      {
+        "text": "\"viikko\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/viikko"
+      },
+      {
+        "text": "\"ವಾರ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ವಾರ"
+      },
+      {
+        "text": "\"வாரம்\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/வாரம்"
+      },
+      {
+        "text": "\"Reconstruction:Proto-Slavic/neděľa\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Slavic/neděľa"
+      },
+      {
+        "text": "\"неделя\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/неделя"
+      },
+      {
+        "text": "\"კვირა\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/კვირა"
+      },
+      {
+        "text": "\"minggu\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/minggu"
+      },
+      {
+        "text": "\"អាទិត្យ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/អាទិត្យ"
+      },
+      {
+        "text": "\"ġimgħa\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ġimgħa"
+      },
+      {
+        "text": "\"жұма\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/жұма"
+      },
+      {
+        "text": "\"аҙна\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/аҙна"
+      },
+      {
+        "text": "\"атна\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/атна"
+      },
+      {
+        "text": "\"juma\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/juma"
+      },
+      {
+        "text": "\"tydzień\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/tydzień"
+      },
+      {
+        "text": "\"tjedan\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/tjedan"
+      },
+      {
+        "text": "\"星期\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/星期"
+      },
+      {
+        "text": "\"pule\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/pule"
+      }
+    ]
+  },
+  {
+    "id": "thousand-one-heap",
+    "icon": "🔢",
+    "tags": [
+      "numbers",
+      "trade",
+      "etymology"
+    ],
+    "title": {
+      "en": "Thousand: One Heap",
+      "ja": "千：ひとつの山"
+    },
+    "summary": {
+      "en": "Latin mille may be “one heap”, and Greek, Persian and Sanskrit share the root. Four colours on the map turn out to be one very old pile of something.",
+      "ja": "ラテン語のmilleは「一つの山」らしく、ギリシャ語、ペルシア語、サンスクリットも同じ語根を持つ。地図の四つの色は、実はとても古いひと山の何かだった。"
+    },
+    "body": {
+      "en": "<p>Latin <strong>mille</strong> seems to mean “one heap”. Wiktionary takes it back to a Proto-Indo-European compound of <em>*sm̥-</em>, “one”, and <em>*ǵʰés-lo-</em>, “heap”, which is a very human way to get to a number too big to count on your fingers. It then compares three other words: Greek <strong>χίλιοι</strong>, Persian <strong>هزار</strong> and the Sanskrit <em>सहस्र</em>, source of Tamil <strong>ஆயிரம்</strong>. On the map those are four different colours, because each spread on its own road. Underneath they are the same old pile.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"thousand\" data-code=\"la\">🗺️ Show thousand on the map</button></div><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"la,el,fa,hi,ta\" data-word=\"thousand\">🗣 Compare the heap words</button></div><h3>Latin</h3><p>The Latin line is the most familiar. French <strong>mille</strong>, Spanish <strong>mil</strong>, Italian <strong>mille</strong> and Irish <strong>míle</strong> are all direct, 53 cells in all. It has a hidden cousin in English, too. A <em>mile</em> is Latin <em>mīlle passūs</em>, “a thousand paces”, with the paces worn off.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,es,it,ga\" data-word=\"thousand\">🗣 Compare the Latin line</button></div><p>Persian <strong>هزار</strong> covers Iran, Central Asia and northern India, including Hindi <strong>हज़ार</strong>. Hungarian <strong>ezer</strong> took the Iranian word as well, possibly from the Alans, and Komi and Udmurt have their own loans from the same source. The Sanskrit form went south and north: Kannada <strong>ಸಾವಿರ</strong> comes from it through Old Kannada <em>sāsira</em>, Kashmiri <strong>ساس</strong> is from it, and so is Tamil. Greek reached the Balkans as a loan: Serbian <strong>хиљада</strong> and Bulgarian <strong>хиляда</strong> are borrowings of <em>χιλιάδα</em>. So a Slavic speaker in Belgrade counts with a Greek word while a Slavic speaker in Moscow does not.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hu,kn,ks,sr,bg\" data-word=\"thousand\">🗣 Compare the eastern loans</button></div><h3>The fat hundred</h3><p>Moscow is on the other great line. English <strong>thousand</strong>, German <strong>tausend</strong>, Russian <strong>тысяча</strong> and Lithuanian <strong>tūkstantis</strong> belong together, 56 cells, and Finnish <strong>tuhat</strong> borrowed the word from Baltic. Nobody is certain what it is. One suggestion, from Guus Kroonen, is that it contains <em>*tuHs-</em>, “fat”, and the word for hundred, so that a thousand is a “fat hundred”, and Old Norse <em>þúshundrað</em> looks like just that. It is only a proposal, but it is an agreeable one: a thousand as a big, swollen hundred.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,ru,lt,fi\" data-word=\"thousand\">🗣 Compare the fat hundred</button></div><h3>Trade and the holdouts</h3><p>Further south and east trade did the work. Arabic <strong>ألف</strong> and Hebrew <strong>אלף</strong> are cognates, and Swahili <strong>elfu</strong> is the Arabic loan. Chinese <strong>千</strong> took over its neighbours almost completely, 41 cells, with Japanese <strong>千</strong>, Korean <strong>천</strong> and Vietnamese <strong>nghìn</strong> all drawing on it.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ar,he,sw,zh,ja,ko,vi\" data-word=\"thousand\">🗣 Compare the trade words</button></div><p>Some held out. Turkish <strong>bin</strong> and Mongolian <strong>мянга</strong> stayed outside all of this. Malay <strong>ribu</strong> is older than most of the words here, on record in the Kedukan Bukit inscription of 683 CE, and its Cham relative appears in a 4th-century inscription. Then there are the honest ones. Georgian <strong>ათასი</strong> is <em>ati</em>, “ten”, plus <em>asi</em>, “hundred”, and Sinhala <strong>දහස</strong> ultimately goes back to Sanskrit for “ten hundred”. Most of the world reached for a heap or a fat hundred. They did the arithmetic.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,mn,ms,ka,si\" data-word=\"thousand\">🗣 Compare the holdouts</button></div>",
+      "ja": "<p>ラテン語の<strong>mille</strong>は「一つの山」を意味するらしい。ウィクショナリーはこの語を、印欧祖語の<em>*sm̥-</em>「一」と<em>*ǵʰés-lo-</em>「山、積み重ね」の複合語にさかのぼらせている。指では数えきれない数にたどり着く道として、いかにも人間らしい。そのうえで三つの語が比べられている。ギリシャ語<strong>χίλιοι</strong>、ペルシア語<strong>هزار</strong>、そしてタミル語<strong>ஆயிரம்</strong>のもとになったサンスクリットの<em>सहस्र</em>である。地図ではこれらは四つの色に分かれる。それぞれ別の道を広がったからだ。しかし根はどれも同じ古いひと山である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"thousand\" data-code=\"la\">🗺️ 地図で千を見る</button></div><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"la,el,fa,hi,ta\" data-word=\"thousand\">🗣 山の語を比べる</button></div><h3>ラテン語</h3><p>ラテン語の系統はいちばんなじみがある。フランス語<strong>mille</strong>、スペイン語<strong>mil</strong>、イタリア語<strong>mille</strong>、アイルランド語<strong>míle</strong>はどれも直系で、全部で53セルある。英語にも隠れた親戚がいる。<em>mile</em>はラテン語の<em>mīlle passūs</em>「千歩」で、歩のほうがすり減って消えたのだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,es,it,ga\" data-word=\"thousand\">🗣 ラテン語の系統を比べる</button></div><p>ペルシア語<strong>هزار</strong>はイラン、中央アジア、北インドに広がり、ヒンディー語<strong>हज़ार</strong>もその一つだ。ハンガリー語<strong>ezer</strong>もイランの語を取り入れた。アラン人からかもしれない。コミ語やウドムルト語にも同じ源からの借用がある。サンスクリットの形は南にも北にも行った。カンナダ語<strong>ಸಾವಿರ</strong>は古カンナダ語<em>sāsira</em>を経ており、カシミール語<strong>ساس</strong>も、タミル語もここから来ている。ギリシャ語は借用としてバルカンに届いた。セルビア語<strong>хиљада</strong>、ブルガリア語<strong>хиляда</strong>は<em>χιλιάδα</em>の借用である。ベオグラードのスラヴ語話者はギリシャの語で数え、モスクワのスラヴ語話者はそうしないわけだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hu,kn,ks,sr,bg\" data-word=\"thousand\">🗣 東の借用を比べる</button></div><h3>太った百</h3><p>モスクワはもう一つの大きな系統に属する。英語<strong>thousand</strong>、ドイツ語<strong>tausend</strong>、ロシア語<strong>тысяча</strong>、リトアニア語<strong>tūkstantis</strong>は一族で、56セルある。フィンランド語<strong>tuhat</strong>はバルト語から借りた。この語の正体は確かではない。一説はグース・クローネンのもので、「太った」を意味する<em>*tuHs-</em>と「百」を含み、千とは「太った百」だという。古ノルド語の<em>þúshundrað</em>がまさにその形に見える。提案にすぎないが、千とはふくれあがった百のことだ、というのは楽しい想像である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,ru,lt,fi\" data-word=\"thousand\">🗣 太った百を比べる</button></div><h3>交易と持ちこたえた言語</h3><p>南と東では、交易が仕事をした。アラビア語<strong>ألف</strong>とヘブライ語<strong>אלף</strong>は同源語で、スワヒリ語<strong>elfu</strong>はアラビア語からの借用である。中国語の<strong>千</strong>は周囲をほぼ塗りつぶし、41セルを占める。日本語<strong>千</strong>、朝鮮語<strong>천</strong>、ベトナム語<strong>nghìn</strong>はどれもこれに連なる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ar,he,sw,zh,ja,ko,vi\" data-word=\"thousand\">🗣 交易の語を比べる</button></div><p>持ちこたえた言語もある。トルコ語<strong>bin</strong>とモンゴル語<strong>мянга</strong>はこのどれにも加わらなかった。マレー語<strong>ribu</strong>はここに並ぶ語の多くより古く、683年のクドゥカン・ブキット碑文に記録があり、チャム語の同系の語は4世紀の碑文に見える。そして正直者たちがいる。ジョージア語<strong>ათასი</strong>は<em>ati</em>「十」と<em>asi</em>「百」で、シンハラ語<strong>දහස</strong>も、さかのぼればサンスクリットの「十の百」である。世界の大半が山や太った百に手を伸ばす中、彼らは計算をした。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,mn,ms,ka,si\" data-word=\"thousand\">🗣 持ちこたえた語を比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"mille\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/mille"
+      },
+      {
+        "text": "\"mile\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/mile"
+      },
+      {
+        "text": "\"هزار\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/هزار"
+      },
+      {
+        "text": "\"ezer\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ezer"
+      },
+      {
+        "text": "\"ஆயிரம்\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ஆயிரம்"
+      },
+      {
+        "text": "\"ಸಾವಿರ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ಸಾವಿರ"
+      },
+      {
+        "text": "\"ساس\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ساس"
+      },
+      {
+        "text": "\"хиљада\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/хиљада"
+      },
+      {
+        "text": "\"thousand\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/thousand"
+      },
+      {
+        "text": "\"Reconstruction:Proto-Germanic/þūsundī\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/þūsundī"
+      },
+      {
+        "text": "\"tūkstantis\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/tūkstantis"
+      },
+      {
+        "text": "\"tuhat\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/tuhat"
+      },
+      {
+        "text": "\"ألف\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ألف"
+      },
+      {
+        "text": "\"elfu\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/elfu"
+      },
+      {
+        "text": "\"千\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/千"
+      },
+      {
+        "text": "\"nghìn\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/nghìn"
+      },
+      {
+        "text": "\"bin\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/bin"
+      },
+      {
+        "text": "\"ribu\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ribu"
+      },
+      {
+        "text": "\"ათასი\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ათასი"
+      },
+      {
+        "text": "\"දහස\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/දහස"
+      }
+    ]
+  },
+  {
+    "id": "yellow-the-colour-of-a-spice",
+    "icon": "🟡",
+    "tags": [
+      "colours",
+      "etymology"
+    ],
+    "title": {
+      "en": "Yellow: The Colour of a Spice",
+      "ja": "黄色：香辛料の色"
+    },
+    "summary": {
+      "en": "In Swahili and Tamil the word for yellow is the word for turmeric. More than most colours, yellow is named after a thing: a spice, gold, honey, a lemon or something bitter.",
+      "ja": "スワヒリ語とタミル語では、黄色を表す語はウコンを表す語でもある。黄色はほかの色以上に、香辛料、金、蜂蜜、シトロン、苦いものといった「物」の名で呼ばれる。"
+    },
+    "body": {
+      "en": "<p>Ask for <strong>manjano</strong> in a Swahili market and you might get either a colour or a spice, because the word means both. Tamil <strong>மஞ்சள்</strong> is the same, and so is Sinhala <strong>කහ</strong>. Across South Asia, Southeast Asia and East Africa, yellow is what turmeric looks like, and the colour simply borrowed the plant’s name. Tagalog <strong>dilaw</strong> goes back to a Proto-Philippine word that already meant both, and Bengali <strong>হলদে</strong> comes from Sanskrit <em>haridrā</em>, “turmeric”. Hawaiian <strong>lenalena</strong> repeats <em>lena</em>, the turmeric plant. Indonesian <strong>kuning</strong> may be another, although Wiktionary lists rival theories for it, while Sundanese <strong>konéng</strong> is traced directly to the turmeric word.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"yellow\" data-code=\"sw\">🗺️ Show yellow on the map</button></div><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"sw,ta,si,tl,bn,haw\" data-word=\"yellow\">🗣 Compare the turmeric words</button></div><h3>Gold, honey and bitterness</h3><p>Other languages picked other yellow things. Persian <strong>زرد</strong> is related to <em>زر</em>, “gold”, and Vietnamese <strong>vàng</strong> also means gold. Greek <strong>κίτρινος</strong> is the citron, a fruit. Welsh <strong>melyn</strong> and Breton <strong>melen</strong> come from a Celtic word for honey, “likened as the colour of honey” in Wiktionary’s words. Catalan <strong>groc</strong> is Latin <em>crocum</em>, saffron, which makes it the most expensive yellow on the map.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"vi,fa,el,cy,br,es,ca\" data-word=\"yellow\">🗣 Compare gold, fruit, honey and bitter</button></div><p>Spanish <strong>amarillo</strong> and Portuguese <strong>amarelo</strong> are odder. Both come from Late Latin <em>amārellus</em>, “yellowish, pale”, built on <em>amārus</em>, “bitter”. A taste turned into a colour. Albanian <strong>verdhë</strong> comes from Latin <em>viridis</em>, “green”. Hausa <strong>rawaya</strong> is named after a dye plant, and Māori <strong>kōwhai</strong> after a flowering tree.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"sq,ha,mi\" data-word=\"yellow\">🗣 Compare green, plant and tree</button></div><h3>One root for two colours</h3><p>Northern Europe kept one very old root, <em>*ǵʰelh₃-</em>, and it is a strange one, because it meant both green and yellow. English <strong>yellow</strong>, German <strong>gelb</strong> and Russian <strong>жёлтый</strong> all come from it, and Latvian <strong>dzeltens</strong> sits in a cluster of colour words from the same source, among them <em>zelts</em>, “gold”, and <em>zaļš</em>, “green”. Finnish <strong>keltainen</strong> was borrowed from Baltic. So the same root ended up meaning yellow in Moscow and green in Riga.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,ru,lv,fi\" data-word=\"yellow\">🗣 Compare the old root</button></div><p>French <strong>jaune</strong> looks as if it should belong here and does not. With Italian <strong>giallo</strong> and Romanian <strong>galben</strong> it comes from Latin <em>galbinus</em>, and Wiktionary says plainly that this word is unrelated to the Germanic one and that its origin is unknown. Italian did not even inherit it, since <strong>giallo</strong> was borrowed from Old French. The resemblance to English is a coincidence.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,it,ro\" data-word=\"yellow\">🗣 Compare the galbinus words</button></div><h3>The eastern road and the plain words</h3><p>Further east the word travelled with the Turkic languages. Turkish <strong>sarı</strong> comes from a Proto-Turkic word for yellow or white, and it was borrowed into Hungarian as <strong>sárga</strong> and into Mongolian as <strong>шар</strong>. Most of the rest of the map, 142 cells, has a word with no recorded image at all. Japanese <strong>黄色い</strong> is one of them. For them yellow is just yellow, which, after turmeric, gold, honey, bitterness and saffron, is almost a relief.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,hu,mn,ja\" data-word=\"yellow\">🗣 Compare the eastern words</button></div>",
+      "ja": "<p>スワヒリ語圏の市場で<strong>manjano</strong>と言うと、色のことにも香辛料のことにもなる。この語は両方を意味するからだ。タミル語<strong>மஞ்சள்</strong>も、シンハラ語<strong>කහ</strong>も同じである。南アジア、東南アジア、東アフリカでは、黄色とはウコンの見た目のことで、色がそのまま植物の名を借りたのだ。タガログ語<strong>dilaw</strong>のもとのフィリピン祖語の語はすでに両方を意味していたし、ベンガル語<strong>হলদে</strong>はサンスクリットの<em>haridrā</em>「ウコン」から来ている。ハワイ語<strong>lenalena</strong>はウコンを指す<em>lena</em>の繰り返しだ。インドネシア語<strong>kuning</strong>もそうかもしれないが、ウィクショナリーは対立する説を並べている。一方スンダ語<strong>konéng</strong>はウコンの語に直接たどれる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"yellow\" data-code=\"sw\">🗺️ 地図で黄色を見る</button></div><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"sw,ta,si,tl,bn,haw\" data-word=\"yellow\">🗣 ウコンの語を比べる</button></div><h3>金と蜂蜜と苦み</h3><p>別の黄色いものを選んだ言語もある。ペルシア語<strong>زرد</strong>は「金」<em>زر</em>と関連があり、ベトナム語<strong>vàng</strong>にも金の意味がある。ギリシャ語<strong>κίτρινος</strong>は果物のシトロンである。ウェールズ語<strong>melyn</strong>とブルトン語<strong>melen</strong>はケルト語の「蜂蜜」から来ていて、ウィクショナリーは蜂蜜の色になぞらえた語だと説明する。カタルーニャ語<strong>groc</strong>はラテン語<em>crocum</em>、サフランで、地図でいちばん高価な黄色ということになる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"vi,fa,el,cy,br,es,ca\" data-word=\"yellow\">🗣 金、果物、蜂蜜、苦みを比べる</button></div><p>スペイン語<strong>amarillo</strong>とポルトガル語<strong>amarelo</strong>はもっと変わっている。どちらも後期ラテン語<em>amārellus</em>「黄ばんだ、青白い」から来ていて、この語のもとは<em>amārus</em>「苦い」である。味覚の語が顔色の語になったわけだ。アルバニア語<strong>verdhë</strong>はラテン語<em>viridis</em>「緑」から来ている。ハウサ語<strong>rawaya</strong>は染料になる植物の名、マオリ語<strong>kōwhai</strong>は花の咲く木の名だ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"sq,ha,mi\" data-word=\"yellow\">🗣 緑、植物、木を比べる</button></div><h3>二つの色に一つの語根</h3><p>北ヨーロッパはとても古い語根<em>*ǵʰelh₃-</em>を保った。これが奇妙な語根で、緑と黄色の両方を意味した。英語<strong>yellow</strong>、ドイツ語<strong>gelb</strong>、ロシア語<strong>жёлтый</strong>はすべてここから来ている。ラトビア語<strong>dzeltens</strong>のまわりには同じ源の色の語が集まっていて、「金」<em>zelts</em>や「緑」<em>zaļš</em>もその仲間だ。フィンランド語<strong>keltainen</strong>はバルト語からの借用である。同じ語根が、モスクワでは黄色に、リガでは緑にもなったのだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,ru,lv,fi\" data-word=\"yellow\">🗣 古い語根を比べる</button></div><p>フランス語<strong>jaune</strong>は一見この仲間のようだが、違う。イタリア語<strong>giallo</strong>、ルーマニア語<strong>galben</strong>とともにラテン語の<em>galbinus</em>から来ていて、ウィクショナリーは、この語はゲルマン語の語とは無関係で語源不明だと明言している。イタリア語は受け継いですらおらず、<strong>giallo</strong>は古フランス語からの借用である。よく似ているのは偶然なのだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,it,ro\" data-word=\"yellow\">🗣 galbinus系の語を比べる</button></div><h3>東の道と素の語</h3><p>東へ行くと、この語はテュルク語とともに旅をした。トルコ語<strong>sarı</strong>はテュルク祖語の「黄、白」から来ていて、ハンガリー語には<strong>sárga</strong>、モンゴル語には<strong>шар</strong>として借りられた。地図の残りの大部分、142セルは、由来となる物の記録がない語である。日本語の<strong>黄色い</strong>もその一つだ。ここでは黄色はただの黄色で、ウコンと金と蜂蜜と苦みとサフランのあとでは、それがほとんど救いに思える。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,hu,mn,ja\" data-word=\"yellow\">🗣 東の語を比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"manjano\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/manjano"
+      },
+      {
+        "text": "\"மஞ்சள்\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/மஞ்சள்"
+      },
+      {
+        "text": "\"කහ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/කහ"
+      },
+      {
+        "text": "\"dilaw\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/dilaw"
+      },
+      {
+        "text": "\"হলদে\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/হলদে"
+      },
+      {
+        "text": "\"হলুদ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/হলুদ"
+      },
+      {
+        "text": "\"ହଳଦିଆ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ହଳଦିଆ"
+      },
+      {
+        "text": "\"lena\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/lena"
+      },
+      {
+        "text": "\"lenalena\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/lenalena"
+      },
+      {
+        "text": "\"konéng\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/konéng"
+      },
+      {
+        "text": "\"kuning\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/kuning"
+      },
+      {
+        "text": "\"vàng\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/vàng"
+      },
+      {
+        "text": "\"زرد\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/زرد"
+      },
+      {
+        "text": "\"κίτρινος\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/κίτρινος"
+      },
+      {
+        "text": "\"melyn\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/melyn"
+      },
+      {
+        "text": "\"amarillo\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/amarillo"
+      },
+      {
+        "text": "\"amarelo\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/amarelo"
+      },
+      {
+        "text": "\"groc\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/groc"
+      },
+      {
+        "text": "\"verdhë\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/verdhë"
+      },
+      {
+        "text": "\"rawaya\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/rawaya"
+      },
+      {
+        "text": "\"kōwhai\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/kōwhai"
+      },
+      {
+        "text": "\"yellow\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/yellow"
+      },
+      {
+        "text": "\"gelb\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/gelb"
+      },
+      {
+        "text": "\"жёлтый\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/жёлтый"
+      },
+      {
+        "text": "\"dzeltens\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/dzeltens"
+      },
+      {
+        "text": "\"keltainen\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/keltainen"
+      },
+      {
+        "text": "\"kelta\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/kelta"
+      },
+      {
+        "text": "\"Reconstruction:Proto-Indo-European/ǵʰelh₃-\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ǵʰelh₃-"
+      },
+      {
+        "text": "\"galbinus\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/galbinus"
+      },
+      {
+        "text": "\"jaune\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/jaune"
+      },
+      {
+        "text": "\"giallo\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/giallo"
+      },
+      {
+        "text": "\"galben\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/galben"
+      },
+      {
+        "text": "\"sárga\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/sárga"
+      },
+      {
+        "text": "\"шар\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/шар"
+      }
+    ]
   }
 ];
 

@@ -7,7 +7,7 @@
  * Germanic word, Gothic ulbandus, whose derivation is uncertain and which has been
  * linked to the word for an elephant: people who had never seen a camel lent it
  * another big beast's name. Indo-Iranian *úštras gave Persian شتر, Hindi ऊँट,
- * Armenian ուղտ, and through Prakrit Malay unta, Thai อูฐ and Tamil ஒட்டகம். Turkic
+ * and through Prakrit Malay unta, Thai อูฐ and Tamil ஒட்டகம். Turkic
  * *tebe gave deve, түйе and Hungarian teve, and Mongolic тэмээ is traced to it.
  * Chinese 駱駝 went to Korean 낙타, Japanese 駱駝 and Vietnamese lạc đà. Berber
  * alɣem is behind Hausa raƙumi and Wolof giléem. Chains from Wiktionary. Routes:

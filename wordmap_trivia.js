@@ -10982,8 +10982,8 @@ const TRIVIA_ARTICLES = [
       "ja": "フィンランド語のお金はリスの毛皮、フランス語のお金は銀、英語のお金はローマの神殿。どの言語も、昔の人が何で払い、どこで作ったかを覚えている。"
     },
     "body": {
-      "en": "<p>In Finnish, money is a dead squirrel. <strong>raha</strong> was borrowed from a Germanic word for a dry animal skin, and it meant furs, especially squirrel pelts, because that is what people paid with before there were notes and coins. Nobody in Helsinki thinks of this while buying coffee. Every language’s word for money is a small fossil of that kind, and the map sorts them by what they remember.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"money\" data-code=\"fi\">🗺️ Show money on the map</button></div><h3>Paid in silver</h3><p>The plainest memory is the metal. French <strong>argent</strong>, Irish <strong>airgead</strong> and Welsh <strong>arian</strong> all mean silver as well, and so does Hebrew <strong>כסף</strong>. Thai <strong>เงิน</strong> is silver too, and that word was borrowed long ago from Old Chinese 銀. Japanese <strong>お金</strong> is the same thought in a politer voice, with 金 for metal. These 38 cells describe a currency nobody has carried for a long time. A French bank card is still, by name, silver.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,ga,cy,he,th,ja\" data-word=\"money\">🗣 Compare the silver words</button></div><h3>One coin, or one mint</h3><p>Most of the map, 181 cells, took the name of one coin, or of the place that struck it. English <strong>money</strong> is the strangest case. It comes through Anglo-Norman from Latin <em>monēta</em>, and <em>Monēta</em> was a title of the goddess Juno, whose temple in Rome housed a mint. The same Latin word also reached English by an older road as <em>mint</em>, so <em>money</em> and <em>mint</em> are doublets. The Roman <em>dēnārius</em> gave Spanish <strong>dinero</strong>, Italian <strong>denaro</strong> and Basque <strong>diru</strong>. The old Germanic coin that became the English penny gave Swedish <strong>pengar</strong>, and it went through Slavic to Polish <strong>pieniądze</strong> and Hungarian <strong>pénz</strong>.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,es,it,eu,pl,sv\" data-word=\"money\">🗣 Compare the Roman and Germanic coins</button></div><p>Follow a small coin far enough and you get some distance. Hindi <strong>पैसा</strong> goes back to a Sanskrit “quarter part”, since the coin was worth a quarter of an anna, and traders took it to East Africa as Swahili <strong>pesa</strong>. Turkish <strong>para</strong> is a Persian word for a piece. Persian <strong>پول</strong> is perhaps Greek <em>ὀβολός</em>, the obol, and Georgian <strong>ფული</strong> sits right beside it. Russian <strong>деньги</strong> comes from a Turkic source, and its relatives include the Kazakh currency, the tenge.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hi,sw,tr,fa,ka,ru\" data-word=\"money\">🗣 Compare the travelling coins</button></div><p>Chinese <strong>钱</strong> may have the most down-to-earth history. Wiktionary links it to 鏟, a shovel, and old texts use the character for a farm spade. It may be no coincidence that coins of the Zhou dynasty were cast in the shape of spades. Vietnamese <strong>tiền</strong> is the same word. German <strong>Geld</strong> and Dutch <strong>geld</strong> skip the object and name the act, from an old root meaning to pay.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,vi,de,nl\" data-word=\"money\">🗣 Compare spades and payment</button></div><h3>Skins, beans and cows</h3><p>Then there is the Pacific, where money began as a game. Samoan <strong>tupe</strong> is the matchbox bean, and also a coconut disk used in a throwing game. Tongan <em>paʻanga</em> is the same bean, a creeper with flat seeds played with in a game called <em>lafo</em>, and it is now the name of the national currency. Anything flat, round and handled often is apparently on its way to being money. English nearly went the other way. Before <em>money</em> arrived from French it used <em>feoh</em>, the word that survives as <em>fee</em>, and <em>feoh</em> meant cattle.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,sm,en\" data-word=\"money\">🗣 Compare the oldest ideas</button></div>",
-      "ja": "<p>フィンランド語では、お金は死んだリスである。<strong>raha</strong>は「乾いた獣皮」を表すゲルマン語からの借用で、もとは毛皮、とくにリスの皮を指した。紙幣や硬貨が現れる前は、それで支払っていたからだ。ヘルシンキでコーヒーを買う人がこんなことを考えるはずもない。お金を表す語はどの言語でも、この手の小さな化石で、地図はそれを何を覚えているかで分類している。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"money\" data-code=\"fi\">🗺️ 地図でお金を見る</button></div><h3>銀で払う</h3><p>いちばんわかりやすい記憶は金属である。フランス語<strong>argent</strong>、アイルランド語<strong>airgead</strong>、ウェールズ語<strong>arian</strong>はどれも銀の意味も持ち、ヘブライ語<strong>כסף</strong>も同じだ。タイ語<strong>เงิน</strong>も銀で、この語は遠い昔に古代中国語の「銀」から借りられた。日本語の<strong>お金</strong>も発想は同じで、それを丁寧に言ったものである。この38セルが語っているのは、誰ももう持ち歩かない通貨だ。フランス人の銀行カードは、名前の上では今も銀なのである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,ga,cy,he,th,ja\" data-word=\"money\">🗣 銀の語を比べる</button></div><h3>一枚の硬貨、一つの造幣所</h3><p>地図の大部分、181セルは一つの硬貨か、それを鋳造した場所の名を取った。いちばん奇妙なのは英語<strong>money</strong>だ。アングロ・ノルマン語を経てラテン語<em>monēta</em>から来た語で、モネータは女神ユノの称号であり、ローマのその神殿に造幣所があった。同じラテン語は別の古い経路でも<em>mint</em>「造幣所」として英語に入っていて、<em>money</em>と<em>mint</em>は二重語にあたる。ローマの<em>dēnārius</em>はスペイン語<strong>dinero</strong>、イタリア語<strong>denaro</strong>、バスク語<strong>diru</strong>になった。英語のpennyになった古いゲルマンの貨幣からはスウェーデン語<strong>pengar</strong>が生まれ、スラヴ語を経てポーランド語<strong>pieniądze</strong>やハンガリー語<strong>pénz</strong>にも届いた。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,es,it,eu,pl,sv\" data-word=\"money\">🗣 ローマとゲルマンの貨幣を比べる</button></div><p>小さな硬貨の跡をたどると、ずいぶん遠くまで行くことになる。ヒンディー語<strong>पैसा</strong>はサンスクリットの「四分の一」にさかのぼる。この硬貨が1アンナの四分の一の値打ちだったからで、これがスワヒリ語<strong>pesa</strong>として東アフリカに届いた。トルコ語<strong>para</strong>はペルシア語の「ひとかけ」である。ペルシア語<strong>پول</strong>はギリシャの貨幣オボロス<em>ὀβολός</em>かもしれず、ジョージア語<strong>ფული</strong>もそのすぐ隣に並ぶ。ロシア語<strong>деньги</strong>はテュルク語起源で、カザフスタンの通貨テンゲと親戚である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hi,sw,tr,fa,ka,ru\" data-word=\"money\">🗣 旅をした硬貨を比べる</button></div><p>いちばん地に足がついているのは中国語<strong>钱</strong>かもしれない。ウィクショナリーはこの語を「鏟」と結びつけていて、古い文献ではこの字が農具のすきを指す。周の時代の貨幣がすきの形に鋳られていたのも、偶然ではないのかもしれない。ベトナム語<strong>tiền</strong>は同じ語である。ドイツ語<strong>Geld</strong>とオランダ語<strong>geld</strong>は物を飛ばして行為を名指しており、「払う」を意味する古い語根から来ている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,vi,de,nl\" data-word=\"money\">🗣 すきと支払いを比べる</button></div><h3>毛皮と豆と牛</h3><p>そして太平洋では、お金は遊びから始まった。サモア語<strong>tupe</strong>はモダマの豆で、投げて遊ぶゲームに使うココヤシの円盤も指す。トンガ語<em>paʻanga</em>も同じ豆で、平たい種を<em>lafo</em>という遊びに使うつる植物であり、いまでは国の通貨の名前になっている。平たくて丸くて、よく人の手を渡るものは、お金になる素質があるらしい。英語は別の方向に行きかけていた。<em>money</em>がフランス語から来る前は<em>feoh</em>という語を使っていて、これが<em>fee</em>として残っている。<em>feoh</em>の意味は、家畜だった。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,sm,en\" data-word=\"money\">🗣 いちばん古い発想を比べる</button></div>"
+      "en": "<p>In Finnish, money is a dead squirrel. <strong>raha</strong> was borrowed from a Germanic word for a dry animal skin, and it meant furs, especially squirrel pelts, because that is what people paid with before there were notes and coins. Nobody in Helsinki thinks of this while buying coffee. Every language’s word for money is a small fossil of that kind, and the map sorts them by what they remember.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"money\" data-code=\"fi\">🗺️ Show money on the map</button></div><h3>Paid in silver</h3><p>The plainest memory is the metal. French <strong>argent</strong>, Irish <strong>airgead</strong> and Welsh <strong>arian</strong> all mean silver as well, and so does Hebrew <strong>כסף</strong>. Thai <strong>เงิน</strong> is silver too, and that word was borrowed long ago from Old Chinese 銀. Japanese <strong>お金</strong> is the same thought in a politer voice, with 金 for metal. These 35 cells describe a currency nobody has carried for a long time. A French bank card is still, by name, silver.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,ga,cy,he,th,ja\" data-word=\"money\">🗣 Compare the silver words</button></div><h3>One coin, or one mint</h3><p>Most of the map, 177 cells, took the name of one coin, or of the place that struck it. English <strong>money</strong> is the strangest case. It comes through Anglo-Norman from Latin <em>monēta</em>, and <em>Monēta</em> was a title of the goddess Juno, whose temple in Rome housed a mint. The same Latin word also reached English by an older road as <em>mint</em>, so <em>money</em> and <em>mint</em> are doublets. The Roman <em>dēnārius</em> gave Spanish <strong>dinero</strong>, Italian <strong>denaro</strong> and Basque <strong>diru</strong>. The old Germanic coin that became the English penny gave Swedish <strong>pengar</strong>, and it went through Slavic to Polish <strong>pieniądze</strong> and Hungarian <strong>pénz</strong>.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,es,it,eu,pl,sv\" data-word=\"money\">🗣 Compare the Roman and Germanic coins</button></div><p>Follow a small coin far enough and you get some distance. Hindi <strong>पैसा</strong> goes back to a Sanskrit “quarter part”, since the coin was worth a quarter of an anna, and traders took it to East Africa as Swahili <strong>pesa</strong>. Turkish <strong>para</strong> is a Persian word for a piece. Persian <strong>پول</strong> is perhaps Greek <em>ὀβολός</em>, the obol, and Georgian <strong>ფული</strong> sits right beside it. Russian <strong>деньги</strong> comes from a Turkic source, and its relatives include the Kazakh currency, the tenge.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hi,sw,tr,fa,ka,ru\" data-word=\"money\">🗣 Compare the travelling coins</button></div><p>Chinese <strong>钱</strong> may have the most down-to-earth history. Wiktionary links it to 鏟, a shovel, and old texts use the character for a farm spade. It may be no coincidence that coins of the Zhou dynasty were cast in the shape of spades. Vietnamese <strong>tiền</strong> is the same word. German <strong>Geld</strong> and Dutch <strong>geld</strong> skip the object and name the act, from an old root meaning to pay.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,vi,de,nl\" data-word=\"money\">🗣 Compare spades and payment</button></div><h3>Skins, beans and cows</h3><p>Then there is the Pacific, where money began as a game. Samoan <strong>tupe</strong> is the matchbox bean, and also a coconut disk used in a throwing game. Tongan <em>paʻanga</em> is the same bean, a creeper with flat seeds played with in a game called <em>lafo</em>, and it is now the name of the national currency. Anything flat, round and handled often is apparently on its way to being money. English nearly went the other way. Before <em>money</em> arrived from French it used <em>feoh</em>, the word that survives as <em>fee</em>, and <em>feoh</em> meant cattle.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,sm,en\" data-word=\"money\">🗣 Compare the oldest ideas</button></div>",
+      "ja": "<p>フィンランド語では、お金は死んだリスである。<strong>raha</strong>は「乾いた獣皮」を表すゲルマン語からの借用で、もとは毛皮、とくにリスの皮を指した。紙幣や硬貨が現れる前は、それで支払っていたからだ。ヘルシンキでコーヒーを買う人がこんなことを考えるはずもない。お金を表す語はどの言語でも、この手の小さな化石で、地図はそれを何を覚えているかで分類している。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"money\" data-code=\"fi\">🗺️ 地図でお金を見る</button></div><h3>銀で払う</h3><p>いちばんわかりやすい記憶は金属である。フランス語<strong>argent</strong>、アイルランド語<strong>airgead</strong>、ウェールズ語<strong>arian</strong>はどれも銀の意味も持ち、ヘブライ語<strong>כסף</strong>も同じだ。タイ語<strong>เงิน</strong>も銀で、この語は遠い昔に古代中国語の「銀」から借りられた。日本語の<strong>お金</strong>も発想は同じで、それを丁寧に言ったものである。この35セルが語っているのは、誰ももう持ち歩かない通貨だ。フランス人の銀行カードは、名前の上では今も銀なのである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,ga,cy,he,th,ja\" data-word=\"money\">🗣 銀の語を比べる</button></div><h3>一枚の硬貨、一つの造幣所</h3><p>地図の大部分、177セルは一つの硬貨か、それを鋳造した場所の名を取った。いちばん奇妙なのは英語<strong>money</strong>だ。アングロ・ノルマン語を経てラテン語<em>monēta</em>から来た語で、モネータは女神ユノの称号であり、ローマのその神殿に造幣所があった。同じラテン語は別の古い経路でも<em>mint</em>「造幣所」として英語に入っていて、<em>money</em>と<em>mint</em>は二重語にあたる。ローマの<em>dēnārius</em>はスペイン語<strong>dinero</strong>、イタリア語<strong>denaro</strong>、バスク語<strong>diru</strong>になった。英語のpennyになった古いゲルマンの貨幣からはスウェーデン語<strong>pengar</strong>が生まれ、スラヴ語を経てポーランド語<strong>pieniądze</strong>やハンガリー語<strong>pénz</strong>にも届いた。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,es,it,eu,pl,sv\" data-word=\"money\">🗣 ローマとゲルマンの貨幣を比べる</button></div><p>小さな硬貨の跡をたどると、ずいぶん遠くまで行くことになる。ヒンディー語<strong>पैसा</strong>はサンスクリットの「四分の一」にさかのぼる。この硬貨が1アンナの四分の一の値打ちだったからで、これがスワヒリ語<strong>pesa</strong>として東アフリカに届いた。トルコ語<strong>para</strong>はペルシア語の「ひとかけ」である。ペルシア語<strong>پول</strong>はギリシャの貨幣オボロス<em>ὀβολός</em>かもしれず、ジョージア語<strong>ფული</strong>もそのすぐ隣に並ぶ。ロシア語<strong>деньги</strong>はテュルク語起源で、カザフスタンの通貨テンゲと親戚である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hi,sw,tr,fa,ka,ru\" data-word=\"money\">🗣 旅をした硬貨を比べる</button></div><p>いちばん地に足がついているのは中国語<strong>钱</strong>かもしれない。ウィクショナリーはこの語を「鏟」と結びつけていて、古い文献ではこの字が農具のすきを指す。周の時代の貨幣がすきの形に鋳られていたのも、偶然ではないのかもしれない。ベトナム語<strong>tiền</strong>は同じ語である。ドイツ語<strong>Geld</strong>とオランダ語<strong>geld</strong>は物を飛ばして行為を名指しており、「払う」を意味する古い語根から来ている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,vi,de,nl\" data-word=\"money\">🗣 すきと支払いを比べる</button></div><h3>毛皮と豆と牛</h3><p>そして太平洋では、お金は遊びから始まった。サモア語<strong>tupe</strong>はモダマの豆で、投げて遊ぶゲームに使うココヤシの円盤も指す。トンガ語<em>paʻanga</em>も同じ豆で、平たい種を<em>lafo</em>という遊びに使うつる植物であり、いまでは国の通貨の名前になっている。平たくて丸くて、よく人の手を渡るものは、お金になる素質があるらしい。英語は別の方向に行きかけていた。<em>money</em>がフランス語から来る前は<em>feoh</em>という語を使っていて、これが<em>fee</em>として残っている。<em>feoh</em>の意味は、家畜だった。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fi,sm,en\" data-word=\"money\">🗣 いちばん古い発想を比べる</button></div>"
     },
     "sources": [
       {
@@ -11203,8 +11203,8 @@ const TRIVIA_ARTICLES = [
       "ja": "ロシア語のверблюдは、もとはゾウを指す語だったらしい。どちらの動物も見たことのない人々が大きな獣の名を借り、それがラクダに残った。"
     },
     "body": {
-      "en": "<p>Russian <strong>верблюд</strong> is probably an elephant. It comes through Proto-Slavic from Gothic <em>ulbandus</em>, and that word is usually connected with Greek <em>ἐλέφας</em>, the elephant, although the exact derivation is uncertain. Icelandic <strong>úlfaldi</strong> belongs to the same word, and Old English had it too, as <em>olfend</em>. People in the north who had seen neither animal seem to have had one name for a huge foreign beast, and the camel ended up with it. Polish <strong>wielbłąd</strong> got a second life as a joke. Speakers heard <em>wielki błąd</em>, “a huge mistake”, in it, and the word can now mean a howler. Only six cells keep this name. The camel has five long-distance names on the map, and each of them is a trade route.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"camel\" data-code=\"ru\">🗺️ Show camel on the map</button></div><h3>The Semitic road</h3><p>The biggest route is Semitic, with 133 cells. Arabic <strong>جمل</strong> and Hebrew <strong>גמל</strong> go back to a Proto-Semitic <em>*gamal-</em>. Greek took it as <em>κάμηλος</em>, Latin as <em>camēlus</em>, and from there came English <strong>camel</strong>, German <strong>Kamel</strong> and French <strong>chameau</strong>. Southward it went to Swahili <strong>ngamia</strong>, an old borrowing from Arabic. So the same three consonants turned up in Rome and on the East African coast.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,fr,ar,he,sw\" data-word=\"camel\">🗣 Compare the Semitic road</button></div><h3>The Persian and Turkic roads</h3><p>The second route runs through Persia and India, from Proto-Indo-Iranian <em>*úštras</em>, a word for a camel, or perhaps once a buffalo. Persian <strong>شتر</strong>, Hindi <strong>ऊँट</strong> and Armenian <strong>ուղտ</strong> are on it. Armenian has the best idiom on this map: to make a mountain out of a molehill is to make a camel out of a flea. Malay <strong>unta</strong> came from Prakrit, and Thai <strong>อูฐ</strong> and Tamil <strong>ஒட்டகம்</strong> also go back to Sanskrit, a long way from any desert. English briefly had the word as well, <em>oont</em>. The same root may be in the most famous name in old Iran. Zoroaster, Wikipedia says, is thought to mean “he who can manage camels”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fa,hi,hy,ms,th,ta\" data-word=\"camel\">🗣 Compare the Persian road</button></div><p>The third route is Turkic <em>*tebe</em>, with 32 cells: Turkish <strong>deve</strong>, Kazakh <strong>түйе</strong>, and Hungarian <strong>teve</strong>, on record from about 1395. Slovak <strong>ťava</strong> took it from Hungarian, which draws a line through a single country’s history, since Czech says <strong>velbloud</strong>, the elephant word. Mongolian <strong>тэмээ</strong> is borrowed from <em>*tebe</em> as well, and it has a job on the chessboard. In Mongolian the bishop is the camel, probably an adaptation of the Persian piece, the elephant. So a camel stands in for an elephant again.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,kk,hu,sk,cs,mn\" data-word=\"camel\">🗣 Compare the Turkic road</button></div><h3>East Asia and Africa</h3><p>East Asia shares one written word. Chinese <strong>骆驼</strong> gave Korean <strong>낙타</strong>, Japanese <strong>駱駝</strong> and Vietnamese <strong>lạc đà</strong>. Its older form was 橐駝, and one researcher compares it to a Proto-Turkic word for a young camel. If that is right, the Chinese name came down the same road as the animal.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,ko,ja,vi\" data-word=\"camel\">🗣 Compare East Asia</button></div><p>Africa has its own line. Hausa <strong>raƙumi</strong> is a very old borrowing from Berber, Wolof <strong>giléem</strong> is the same word, and Hausa built its giraffe from it, <em>raƙumin dawa</em>. Only one language on the list seems to have looked at the animal and described it. Lithuanian <strong>kupranugaris</strong> is <em>kupra</em>, “hump”, plus <em>nugara</em>, “back”. Everyone else took the name from whoever was selling them the camel.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ha,wo,lt\" data-word=\"camel\">🗣 Compare Africa and the hump</button></div>",
-      "ja": "<p>ロシア語の<strong>верблюд</strong>は、おそらくゾウである。スラヴ祖語を経てゴート語の<em>ulbandus</em>にさかのぼり、この語はふつうギリシャ語の<em>ἐλέφας</em>「ゾウ」と結びつけられている。ただし正確な語源ははっきりしない。アイスランド語<strong>úlfaldi</strong>も同じ語で、古英語にも<em>olfend</em>があった。どちらの動物も見たことのない北方の人々は、遠い国の巨大な獣をひとつの名で呼んでいたらしく、それがラクダに落ち着いたのだ。ポーランド語<strong>wielbłąd</strong>は冗談として第二の人生を得た。<em>wielki błąd</em>「大失敗」と聞こえるので、へまの意味でも使われる。この名を残すのは6セルだけである。地図の上でラクダには五つの遠距離の名があり、そのどれもが交易路になっている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"camel\" data-code=\"ru\">🗺️ 地図でラクダを見る</button></div><h3>セム語の道</h3><p>最大の道はセム語のもので、133セルある。アラビア語<strong>جمل</strong>とヘブライ語<strong>גמל</strong>はセム祖語の<em>*gamal-</em>にさかのぼる。ギリシャ語はこれを<em>κάμηλος</em>、ラテン語は<em>camēlus</em>として取り入れ、そこから英語<strong>camel</strong>、ドイツ語<strong>Kamel</strong>、フランス語<strong>chameau</strong>が生まれた。南へはスワヒリ語<strong>ngamia</strong>まで届いていて、これはアラビア語からの古い借用である。同じ三つの子音が、ローマにも東アフリカの海岸にも現れたことになる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,fr,ar,he,sw\" data-word=\"camel\">🗣 セム語の道を比べる</button></div><h3>ペルシアとテュルクの道</h3><p>二つ目の道はペルシアとインドを通る。印欧語のインド・イラン祖語<em>*úštras</em>が出発点で、ラクダ、あるいはもとは水牛を指したらしい。ペルシア語<strong>شتر</strong>、ヒンディー語<strong>ऊँट</strong>、アルメニア語<strong>ուղտ</strong>がこの道に並ぶ。アルメニア語には、この地図で最高の慣用句がある。針小棒大のことを「ノミからラクダを作る」と言うのだ。マレー語<strong>unta</strong>はプラークリットから入り、タイ語<strong>อูฐ</strong>とタミル語<strong>ஒட்டகம்</strong>もサンスクリットにさかのぼる。砂漠からは遠い土地である。英語にも一時<em>oont</em>という形があった。古代イランでいちばん有名な名前にも同じ語根があるかもしれない。ウィキペディアによると、ゾロアスターの名は「ラクダを扱える者」を意味すると考えられている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fa,hi,hy,ms,th,ta\" data-word=\"camel\">🗣 ペルシアの道を比べる</button></div><p>三つ目はテュルク語<em>*tebe</em>の道で、32セルある。トルコ語<strong>deve</strong>、カザフ語<strong>түйе</strong>、そして1395年ごろの記録があるハンガリー語<strong>teve</strong>だ。スロバキア語<strong>ťava</strong>はハンガリー語から取った。チェコ語はゾウ系の<strong>velbloud</strong>なので、隣り合う二つの言語の間に線が引かれている。モンゴル語<strong>тэмээ</strong>も<em>*tebe</em>からの借用で、チェス盤の上にも仕事がある。モンゴルのチェスではビショップがラクダなのだ。おそらくペルシアの駒、つまりゾウを置き換えたものだという。ここでもラクダがゾウの代わりを務めている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,kk,hu,sk,cs,mn\" data-word=\"camel\">🗣 テュルクの道を比べる</button></div><h3>東アジアとアフリカ</h3><p>東アジアは書き言葉を共有している。中国語<strong>骆驼</strong>から朝鮮語<strong>낙타</strong>、日本語<strong>駱駝</strong>、ベトナム語<strong>lạc đà</strong>が生まれた。古い形は「橐駝」で、これをテュルク祖語の「子ラクダ」と比べる研究者もいる。もしそうなら、中国語の名は動物と同じ道を通ってやって来たことになる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,ko,ja,vi\" data-word=\"camel\">🗣 東アジアを比べる</button></div><p>アフリカには独自の線がある。ハウサ語<strong>raƙumi</strong>はベルベル語からのごく古い借用で、ウォロフ語<strong>giléem</strong>も同じ語だ。ハウサ語はこの語からキリンの名<em>raƙumin dawa</em>も作っている。動物を見てそのまま描写したらしい言語は、この中では一つしかない。リトアニア語<strong>kupranugaris</strong>は<em>kupra</em>「こぶ」と<em>nugara</em>「背中」である。ほかの人々はみな、ラクダを売りに来た相手から名前ももらったのだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ha,wo,lt\" data-word=\"camel\">🗣 アフリカとこぶを比べる</button></div>"
+      "en": "<p>Russian <strong>верблюд</strong> is probably an elephant. It comes through Proto-Slavic from Gothic <em>ulbandus</em>, and that word is usually connected with Greek <em>ἐλέφας</em>, the elephant, although the exact derivation is uncertain. Icelandic <strong>úlfaldi</strong> belongs to the same word, and Old English had it too, as <em>olfend</em>. People in the north who had seen neither animal seem to have had one name for a huge foreign beast, and the camel ended up with it. Polish <strong>wielbłąd</strong> got a second life as a joke. Speakers heard <em>wielki błąd</em>, “a huge mistake”, in it, and the word can now mean a howler. Only six cells keep this name. The camel has five long-distance names on the map, and each of them is a trade route.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"camel\" data-code=\"ru\">🗺️ Show camel on the map</button></div><h3>The Semitic road</h3><p>The biggest route is Semitic, with 133 cells. Arabic <strong>جمل</strong> and Hebrew <strong>גמל</strong> go back to a Proto-Semitic <em>*gamal-</em>. Greek took it as <em>κάμηλος</em>, Latin as <em>camēlus</em>, and from there came English <strong>camel</strong>, German <strong>Kamel</strong> and French <strong>chameau</strong>. Southward it went to Swahili <strong>ngamia</strong>, an old borrowing from Arabic. So the same three consonants turned up in Rome and on the East African coast.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,fr,ar,he,sw\" data-word=\"camel\">🗣 Compare the Semitic road</button></div><h3>The Persian and Turkic roads</h3><p>The second route runs through Persia and India, from Proto-Indo-Iranian <em>*úštras</em>, a word for a camel, or perhaps once a buffalo. Persian <strong>شتر</strong> and Hindi <strong>ऊँट</strong> are on it. Armenian <strong>ուղտ</strong> stands beside the road rather than on it. It comes from Urartian <em>ulṭu</em>, which only perhaps connects with this word. Armenian still has the best idiom on this map: to make a mountain out of a molehill is to make a camel out of a flea. Malay <strong>unta</strong> came from Prakrit, and Thai <strong>อูฐ</strong> and Tamil <strong>ஒட்டகம்</strong> also go back to Sanskrit, a long way from any desert. English briefly had the word as well, <em>oont</em>. The same root may be in the most famous name in old Iran. Zoroaster, Wikipedia says, is thought to mean “he who can manage camels”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fa,hi,hy,ms,th,ta\" data-word=\"camel\">🗣 Compare the Persian road</button></div><p>The third route is Turkic <em>*tebe</em>, with 32 cells: Turkish <strong>deve</strong>, Kazakh <strong>түйе</strong>, and Hungarian <strong>teve</strong>, on record from about 1395. Slovak <strong>ťava</strong> took it from Hungarian, which draws a line through a single country’s history, since Czech says <strong>velbloud</strong>, the elephant word. Mongolian <strong>тэмээ</strong> is borrowed from <em>*tebe</em> as well, and it has a job on the chessboard. In Mongolian the bishop is the camel, probably an adaptation of the Persian piece, the elephant. So a camel stands in for an elephant again.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,kk,hu,sk,cs,mn\" data-word=\"camel\">🗣 Compare the Turkic road</button></div><h3>East Asia and Africa</h3><p>East Asia shares one written word. Chinese <strong>骆驼</strong> gave Korean <strong>낙타</strong>, Japanese <strong>駱駝</strong> and Vietnamese <strong>lạc đà</strong>. Its older form was 橐駝, and one researcher compares it to a Proto-Turkic word for a young camel. If that is right, the Chinese name came down the same road as the animal.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,ko,ja,vi\" data-word=\"camel\">🗣 Compare East Asia</button></div><p>Africa has its own line. Hausa <strong>raƙumi</strong> is a very old borrowing from Berber, Wolof <strong>giléem</strong> is the same word, and Hausa built its giraffe from it, <em>raƙumin dawa</em>. Only one language on the list seems to have looked at the animal and described it. Lithuanian <strong>kupranugaris</strong> is <em>kupra</em>, “hump”, plus <em>nugara</em>, “back”. Everyone else took the name from whoever was selling them the camel.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ha,wo,lt\" data-word=\"camel\">🗣 Compare Africa and the hump</button></div>",
+      "ja": "<p>ロシア語の<strong>верблюд</strong>は、おそらくゾウである。スラヴ祖語を経てゴート語の<em>ulbandus</em>にさかのぼり、この語はふつうギリシャ語の<em>ἐλέφας</em>「ゾウ」と結びつけられている。ただし正確な語源ははっきりしない。アイスランド語<strong>úlfaldi</strong>も同じ語で、古英語にも<em>olfend</em>があった。どちらの動物も見たことのない北方の人々は、遠い国の巨大な獣をひとつの名で呼んでいたらしく、それがラクダに落ち着いたのだ。ポーランド語<strong>wielbłąd</strong>は冗談として第二の人生を得た。<em>wielki błąd</em>「大失敗」と聞こえるので、へまの意味でも使われる。この名を残すのは6セルだけである。地図の上でラクダには五つの遠距離の名があり、そのどれもが交易路になっている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"camel\" data-code=\"ru\">🗺️ 地図でラクダを見る</button></div><h3>セム語の道</h3><p>最大の道はセム語のもので、133セルある。アラビア語<strong>جمل</strong>とヘブライ語<strong>גמל</strong>はセム祖語の<em>*gamal-</em>にさかのぼる。ギリシャ語はこれを<em>κάμηλος</em>、ラテン語は<em>camēlus</em>として取り入れ、そこから英語<strong>camel</strong>、ドイツ語<strong>Kamel</strong>、フランス語<strong>chameau</strong>が生まれた。南へはスワヒリ語<strong>ngamia</strong>まで届いていて、これはアラビア語からの古い借用である。同じ三つの子音が、ローマにも東アフリカの海岸にも現れたことになる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,fr,ar,he,sw\" data-word=\"camel\">🗣 セム語の道を比べる</button></div><h3>ペルシアとテュルクの道</h3><p>二つ目の道はペルシアとインドを通る。印欧語のインド・イラン祖語<em>*úštras</em>が出発点で、ラクダ、あるいはもとは水牛を指したらしい。ペルシア語<strong>شتر</strong>とヒンディー語<strong>ऊँट</strong>がこの道に並ぶ。アルメニア語<strong>ուղտ</strong>は道の上というより道の脇にある。ウラルトゥ語<em>ulṭu</em>から来た語で、この語との関係は「もしかすると」という程度なのだ。そのアルメニア語には、この地図で最高の慣用句がある。針小棒大のことを「ノミからラクダを作る」と言うのだ。マレー語<strong>unta</strong>はプラークリットから入り、タイ語<strong>อูฐ</strong>とタミル語<strong>ஒட்டகம்</strong>もサンスクリットにさかのぼる。砂漠からは遠い土地である。英語にも一時<em>oont</em>という形があった。古代イランでいちばん有名な名前にも同じ語根があるかもしれない。ウィキペディアによると、ゾロアスターの名は「ラクダを扱える者」を意味すると考えられている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fa,hi,hy,ms,th,ta\" data-word=\"camel\">🗣 ペルシアの道を比べる</button></div><p>三つ目はテュルク語<em>*tebe</em>の道で、32セルある。トルコ語<strong>deve</strong>、カザフ語<strong>түйе</strong>、そして1395年ごろの記録があるハンガリー語<strong>teve</strong>だ。スロバキア語<strong>ťava</strong>はハンガリー語から取った。チェコ語はゾウ系の<strong>velbloud</strong>なので、隣り合う二つの言語の間に線が引かれている。モンゴル語<strong>тэмээ</strong>も<em>*tebe</em>からの借用で、チェス盤の上にも仕事がある。モンゴルのチェスではビショップがラクダなのだ。おそらくペルシアの駒、つまりゾウを置き換えたものだという。ここでもラクダがゾウの代わりを務めている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,kk,hu,sk,cs,mn\" data-word=\"camel\">🗣 テュルクの道を比べる</button></div><h3>東アジアとアフリカ</h3><p>東アジアは書き言葉を共有している。中国語<strong>骆驼</strong>から朝鮮語<strong>낙타</strong>、日本語<strong>駱駝</strong>、ベトナム語<strong>lạc đà</strong>が生まれた。古い形は「橐駝」で、これをテュルク祖語の「子ラクダ」と比べる研究者もいる。もしそうなら、中国語の名は動物と同じ道を通ってやって来たことになる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,ko,ja,vi\" data-word=\"camel\">🗣 東アジアを比べる</button></div><p>アフリカには独自の線がある。ハウサ語<strong>raƙumi</strong>はベルベル語からのごく古い借用で、ウォロフ語<strong>giléem</strong>も同じ語だ。ハウサ語はこの語からキリンの名<em>raƙumin dawa</em>も作っている。動物を見てそのまま描写したらしい言語は、この中では一つしかない。リトアニア語<strong>kupranugaris</strong>は<em>kupra</em>「こぶ」と<em>nugara</em>「背中」である。ほかの人々はみな、ラクダを売りに来た相手から名前ももらったのだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ha,wo,lt\" data-word=\"camel\">🗣 アフリカとこぶを比べる</button></div>"
     },
     "sources": [
       {
@@ -11799,6 +11799,366 @@ const TRIVIA_ARTICLES = [
       {
         "text": "\"шар\". Wiktionary, accessed 2026.",
         "url": "https://en.wiktionary.org/wiki/шар"
+      }
+    ]
+  },
+  {
+    "id": "soap-hair-product",
+    "icon": "🧼",
+    "tags": [
+      "home",
+      "trade",
+      "etymology"
+    ],
+    "title": {
+      "en": "Soap: A Roman Hair Product That Went Everywhere",
+      "ja": "石鹸：世界を回ったローマの整髪料"
+    },
+    "summary": {
+      "en": "The Romans scraped themselves clean and used soap on their hair, and they got the word from Germanic. From there one word went round the world, while Slavic stayed with “wash”.",
+      "ja": "ローマ人は体を削ってきれいにし、石鹸は髪に使った。語はゲルマン語からの借りものだ。そこから一つの語が世界を回り、スラヴ語だけは「洗う」にとどまった。"
+    },
+    "body": {
+      "en": "<p>When Latin first mentions <em>sāpō</em>, in Pliny’s <em>Natural History</em> in the 1st century, it is not for washing. Wiktionary glosses it as an ancient hair product, and Pliny calls it a Gaulish invention. Romans got clean with oil and a metal scraper. They did not even own the word, which Latin had borrowed from Germanic <em>*saipǭ</em>, of unclear origin, perhaps once meaning amber or resin. So English <strong>soap</strong> and German <strong>Seife</strong> are the home-grown forms. Latin passed the word to French <strong>savon</strong>, Spanish <strong>jabón</strong> and Italian <strong>sapone</strong>, and Italian lent it to Hungarian as <strong>szappan</strong>. Finnish <strong>saippua</strong> took it straight from Germanic. That is 99 cells, and it is only the first leg.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"soap\" data-code=\"de\">🗺️ Show soap on the map</button></div><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,fr,es,it,fi,hu\" data-word=\"soap\">🗣 Compare the first leg</button></div><h3>Portuguese ships</h3><p>The second leg ran through Arabic. Latin went into Greek, Greek into Aramaic and Aramaic into Arabic <strong>صابون</strong>, and from there it spread with the trade of the Islamic world. Turkish <strong>sabun</strong>, Swahili <strong>sabuni</strong>, Malay <strong>sabun</strong> and Hindi <strong>साबुन</strong> belong here, 57 cells in all. A word that started in northern Europe reached Zanzibar and Java looking as if it had always been Arabic.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ar,tr,sw,ms,hi\" data-word=\"soap\">🗣 Compare the Arabic leg</button></div><p>Portuguese ships ran a third leg. <em>sabão</em> gave Sinhala <strong>සබන්</strong>, Telugu <strong>సబ్బు</strong> and Khmer <strong>សាប៊ូ</strong>. Wiktionary also traces Lao <strong>ສະບູ່</strong> to Thai <strong>สบู่</strong> and on to Portuguese. The word had now travelled east by land and by sea, and the two branches met in Southeast Asia.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"th,km,si,te,lo\" data-word=\"soap\">🗣 Compare the Portuguese leg</button></div><h3>East Asia</h3><p>East Asia did something different, and the characters tell the story. Hokkien <strong>雪文</strong>, <em>sap-bûn</em>, is the same word, borrowed from Malay or from Portuguese or Arabic. The characters mean “snow” and “writing”, chosen for sound, which gives soap a lovely name by accident. Korean <strong>비누</strong> stands apart. Chinese <strong>肥皂</strong> was originally made from plants like the honey locust, and an old sense of the word is that tree. Japanese <strong>石鹸</strong> is “stone” plus “lye”, a borrowing from Middle Chinese, but Japanese has the western word too. <em>シャボン</em>, the word in soap bubbles, came from Portuguese or Spanish.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"nan,ko,zh,ja\" data-word=\"soap\">🗣 Compare East Asia</button></div><h3>The washing thing</h3><p>Slavic never took the trade word at all. Russian <strong>мыло</strong>, Polish <strong>mydło</strong> and Czech <strong>mýdlo</strong> are built on <em>*myti</em>, “to wash”, plus a suffix for a tool, so soap is simply the washing thing. Lithuanian <strong>muilas</strong> and Yakut <strong>мыыла</strong> borrowed the Russian word. Swedish <strong>tvål</strong> had the same idea on its own, from a Germanic word for bathing, and it is related to <em>två</em>, “to wash”. So even inside the family that gave the world this word, one language went back to basics.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ru,pl,cs,sv,lt,sah\" data-word=\"soap\">🗣 Compare the washing words</button></div><p>A few languages described what soap does. Tongan <strong>koa</strong> means soap, foam and lather together, and Navajo <strong>táláwosh</strong> comes from a root meaning to bubble. A resin, a Roman hair dressing and a global trade word, and at the end of it all someone in Tonga just looked at the foam.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"to,nv\" data-word=\"soap\">🗣 Compare foam and bubbles</button></div>",
+      "ja": "<p>ラテン語の<em>sāpō</em>が初めて現れるのは1世紀のプリニウス『博物誌』で、それは洗うためのものではなかった。ウィクショナリーの語義は「古代の整髪料」で、プリニウスはこれをガリア人の発明と呼んでいる。ローマ人は油と金属のへらで汚れを落としていたのだ。語そのものも彼らのものではなく、ゲルマン語の<em>*saipǭ</em>からの借用で、語源ははっきりしないが、もとは琥珀や樹脂を指したのかもしれない。つまり英語<strong>soap</strong>とドイツ語<strong>Seife</strong>が地元の形である。ラテン語はこれをフランス語<strong>savon</strong>、スペイン語<strong>jabón</strong>、イタリア語<strong>sapone</strong>に渡し、イタリア語はハンガリー語に<strong>szappan</strong>として貸した。フィンランド語<strong>saippua</strong>はゲルマン語から直接取った。ここまでで99セルだが、これはまだ最初の一区間にすぎない。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"soap\" data-code=\"de\">🗺️ 地図で石鹸を見る</button></div><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,fr,es,it,fi,hu\" data-word=\"soap\">🗣 第一の区間を比べる</button></div><h3>ポルトガルの船</h3><p>第二の区間はアラビア語を通る。ラテン語がギリシャ語に、ギリシャ語がアラム語に、アラム語がアラビア語<strong>صابون</strong>に入り、そこからイスラーム世界の交易に乗って広がった。トルコ語<strong>sabun</strong>、スワヒリ語<strong>sabuni</strong>、マレー語<strong>sabun</strong>、ヒンディー語<strong>साबुन</strong>がこの仲間で、全部で57セルある。北ヨーロッパで生まれた語が、もとからアラビア語だったような顔でザンジバルやジャワに届いたわけだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ar,tr,sw,ms,hi\" data-word=\"soap\">🗣 アラビア語の区間を比べる</button></div><p>第三の区間はポルトガルの船が運んだ。<em>sabão</em>からシンハラ語<strong>සබන්</strong>、テルグ語<strong>సబ్బు</strong>、クメール語<strong>សាប៊ូ</strong>が生まれた。ウィクショナリーはラオ語<strong>ສະບູ່</strong>もタイ語<strong>สบู่</strong>を経てポルトガル語にたどっている。こうしてこの語は陸路でも海路でも東へ進み、二つの枝が東南アジアで出会った。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"th,km,si,te,lo\" data-word=\"soap\">🗣 ポルトガル語の区間を比べる</button></div><h3>東アジア</h3><p>東アジアは別の動きを見せた。ここでは漢字が物語を語る。福建語の<strong>雪文</strong>は<em>sap-bûn</em>で同じ語であり、マレー語か、ポルトガル語かアラビア語から借りたものだ。字の意味は「雪」と「文」で、音に合わせて選ばれたのだが、偶然にも石鹸にすてきな名がついた。朝鮮語<strong>비누</strong>は別枠である。中国語<strong>肥皂</strong>はもともとサイカチの仲間の植物から作られ、この語には古くその木を指す意味もある。日本語の<strong>石鹸</strong>は「石」と「鹸」で中古中国語からの借用だが、日本語には西の語もある。シャボン玉の<em>シャボン</em>で、ポルトガル語かスペイン語から来た。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"nan,ko,zh,ja\" data-word=\"soap\">🗣 東アジアを比べる</button></div><h3>洗うもの</h3><p>スラヴ語は交易の語をまったく取らなかった。ロシア語<strong>мыло</strong>、ポーランド語<strong>mydło</strong>、チェコ語<strong>mýdlo</strong>は<em>*myti</em>「洗う」に道具の接尾辞をつけた語で、石鹸はただの「洗うもの」である。リトアニア語<strong>muilas</strong>とヤクート語<strong>мыыла</strong>はロシア語の語を借りた。スウェーデン語<strong>tvål</strong>も独自に同じ発想をしていて、「入浴」を表すゲルマン語から来ており、<em>två</em>「洗う」の仲間である。この語を世界に送り出した語族の中でさえ、一つの言語は基本に立ち返ったのである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ru,pl,cs,sv,lt,sah\" data-word=\"soap\">🗣 洗う語を比べる</button></div><p>石鹸の働きをそのまま言った言語もある。トンガ語<strong>koa</strong>は石鹸と泡を一語で表し、ナバホ語<strong>táláwosh</strong>は「泡立つ」を意味する語根から来ている。樹脂、ローマの整髪料、世界規模の交易語。その果てに、トンガでは誰かがただ泡を見ていたのだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"to,nv\" data-word=\"soap\">🗣 泡を比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"Soap\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Soap"
+      },
+      {
+        "text": "\"sapo\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/sapo"
+      },
+      {
+        "text": "\"Reconstruction:Proto-Germanic/saipǭ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/saipǭ"
+      },
+      {
+        "text": "\"soap\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/soap"
+      },
+      {
+        "text": "\"savon\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/savon"
+      },
+      {
+        "text": "\"jabón\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/jabón"
+      },
+      {
+        "text": "\"szappan\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/szappan"
+      },
+      {
+        "text": "\"saippua\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/saippua"
+      },
+      {
+        "text": "\"صابون\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/صابون"
+      },
+      {
+        "text": "\"sabuni\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/sabuni"
+      },
+      {
+        "text": "\"sabun\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/sabun"
+      },
+      {
+        "text": "\"สบู่\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/สบู่"
+      },
+      {
+        "text": "\"ສະບູ່\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ສະບູ່"
+      },
+      {
+        "text": "\"សាប៊ូ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/សាប៊ូ"
+      },
+      {
+        "text": "\"සබන්\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/සබන්"
+      },
+      {
+        "text": "\"సబ్బు\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/సబ్బు"
+      },
+      {
+        "text": "\"雪文\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/雪文"
+      },
+      {
+        "text": "\"肥皂\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/肥皂"
+      },
+      {
+        "text": "\"石鹸\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/石鹸"
+      },
+      {
+        "text": "\"シャボン\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/シャボン"
+      },
+      {
+        "text": "\"비누\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/비누"
+      },
+      {
+        "text": "\"мыло\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/мыло"
+      },
+      {
+        "text": "\"tvål\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/tvål"
+      },
+      {
+        "text": "\"muilas\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/muilas"
+      },
+      {
+        "text": "\"мыыла\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/мыыла"
+      },
+      {
+        "text": "\"koa\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/koa"
+      },
+      {
+        "text": "\"táláwosh\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/táláwosh"
+      }
+    ]
+  },
+  {
+    "id": "wife-is-she-just-a-woman",
+    "icon": "💍",
+    "tags": [
+      "family",
+      "etymology"
+    ],
+    "title": {
+      "en": "Wife: Is She Just a Woman?",
+      "ja": "妻：ただの「女」なのか"
+    },
+    "summary": {
+      "en": "A Frenchman says “my woman” and means his wife. English looks different, until you find that its word for woman is built on wife. Elsewhere she is a half, a yoke-mate or a soul.",
+      "ja": "フランス人は「私の女」と言って妻を指す。英語は違うように見えるが、女を表す語は妻の語から作られている。ほかの地域では、妻は半分だったり、くびきの相棒だったり、魂だったりする。"
+    },
+    "body": {
+      "en": "<p>A Frenchman who says <em>ma femme</em> is saying “my woman”, and that is simply how French says wife. German <strong>Frau</strong>, Dutch <strong>vrouw</strong>, Estonian <strong>naine</strong> and Welsh <strong>gwraig</strong> work the same way. On this map a cell is marked as the same word for woman only when the row’s own sources give both meanings the same form. That is true of 41 cells. In 132 the two words differ, 8 use the word for husband as well, and for 11 we have no word for woman to compare, so the map says nothing. The test is about spelling, and as soon as you look under the spelling it gets interesting.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"wife\" data-code=\"fr\">🗺️ Show wife on the map</button></div><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,de,nl,et,cy\" data-word=\"wife\">🗣 Compare “woman” and “wife”</button></div><h3>English in disguise</h3><p>English is the best example. The map marks <strong>wife</strong> as a word of its own, since English has <em>woman</em> beside it. But Old English <em>wīf</em> meant “woman, wife”, and a <em>midwife</em> is, on one reading, simply a with-woman. Then look at <em>woman</em>. It is <em>wīfmann</em>, <em>wīf</em> plus <em>mann</em>, “person”, a female person. So English did not develop a special word for wife. It started out like German and later built a longer word for woman on top. German itself has the same old word as <em>Weib</em>, and <strong>Frau</strong> began as “mistress”, the feminine of a word for lord.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de\" data-word=\"wife\">🗣 Compare English and German</button></div><p>Other “own” words on the map have the same history. Russian <strong>жена</strong> is a separate word from <em>женщина</em> today, but it goes back to the old Indo-European word for woman, the same one that gave English <em>queen</em>. Danish <strong>kone</strong> is from that root as well, and Wiktionary still lists a dated sense “woman”. Italian <strong>moglie</strong> is Latin <em>mulier</em>, “woman”, while Spanish kept <em>mujer</em> for both and also has <strong>esposa</strong>, from Latin <em>spōnsa</em>, a woman promised. The plural of that word, <em>esposas</em>, also means handcuffs, and Spanish speakers did not have to invent that joke.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ru,da,it,es\" data-word=\"wife\">🗣 Compare the old woman words</button></div><h3>What the new words say</h3><p>Where the word really is new, it usually describes the relationship. Greek <strong>σύζυγος</strong> means “yoked together”, and it is the same word for a husband, which is why the map marks it as spouse. Hungarian <strong>feleség</strong> is built on <em>fél</em>, “half”. Swedish <strong>hustru</strong> is the mistress of the house, from <em>hus</em> plus the word that is now <em>fru</em>. And Finnish <strong>vaimo</strong> comes from a Finnic word for spirit or soul, the same word as Estonian <em>vaim</em>, “spirit”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"el,hu,sv,fi\" data-word=\"wife\">🗣 Compare half, yoke, house and soul</button></div><p>East Asia has the quietest history. Japanese <strong>妻</strong>, <em>tsuma</em>, comes from 端, “side, edge”, the person at your side, and Wiktionary compares it to the English “better half”. It once meant a husband as well, and only later came to mean the wife alone. Japanese also has <em>奥さん</em>, for someone else’s wife, built on <em>oku</em>, the inner part of a house. Korean <strong>아내</strong> and Chinese <strong>妻子</strong> have words of their own. So that is the map: a woman, a half, a soul, a partner under a yoke, and someone standing at your side.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja,ko,zh\" data-word=\"wife\">🗣 Compare East Asia</button></div>",
+      "ja": "<p>フランス人が<em>ma femme</em>と言えば「私の女」だが、これがフランス語で妻を指すごくふつうの言い方である。ドイツ語<strong>Frau</strong>、オランダ語<strong>vrouw</strong>、エストニア語<strong>naine</strong>、ウェールズ語<strong>gwraig</strong>も同じだ。この地図で「女と同じ語」と印がつくのは、その行の資料で妻も女も同じ形になっている場合だけで、これが41セルある。132セルでは二つの語が異なり、8セルは夫にも同じ語を使い、11セルは比べる「女」の語がないので何も言えない。この判定は綴りだけを見ている。そして綴りの下をのぞくと、話はおもしろくなる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"wife\" data-code=\"fr\">🗺️ 地図で妻を見る</button></div><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,de,nl,et,cy\" data-word=\"wife\">🗣 「女」と「妻」を比べる</button></div><h3>変装した英語</h3><p>いちばんの例は英語である。英語には<em>woman</em>があるので、地図は<strong>wife</strong>を独自の語としている。しかし古英語の<em>wīf</em>は「女、妻」を意味し、<em>midwife</em>「助産婦」も、一つの解釈ではただの「寄り添う女」だ。次に<em>woman</em>を見てみよう。これは<em>wīfmann</em>、つまり<em>wīf</em>と<em>mann</em>「人」で、女性の人という意味である。英語は妻を表す特別な語を発達させたのではない。ドイツ語と同じ出発点から、あとで女を表す長い語を上に積んだのだ。ドイツ語にも同じ古い語が<em>Weib</em>として残っていて、<strong>Frau</strong>のほうはもともと「女主人」、領主を表す語の女性形だった。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de\" data-word=\"wife\">🗣 英語とドイツ語を比べる</button></div><p>地図の「独自の語」には、ほかにも同じ来歴のものがある。ロシア語<strong>жена</strong>は今でこそ<em>женщина</em>と別の語だが、もとは印欧語の「女」で、英語の<em>queen</em>と同じ語から出ている。デンマーク語<strong>kone</strong>も同じ語根で、ウィクショナリーは古い意味として今も「女」を載せている。イタリア語<strong>moglie</strong>はラテン語<em>mulier</em>「女」である。スペイン語は<em>mujer</em>を両方の意味に残し、さらに<strong>esposa</strong>も持っている。これはラテン語<em>spōnsa</em>「約束された女」から来た語で、複数形の<em>esposas</em>には「手錠」の意味もある。スペイン語が作ったわけではない冗談だ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ru,da,it,es\" data-word=\"wife\">🗣 古い「女」の語を比べる</button></div><h3>新しい語が語ること</h3><p>語が本当に新しい場合は、たいてい関係そのものを描いている。ギリシャ語<strong>σύζυγος</strong>は「一つのくびきにつながれた」という意味で、夫にも同じ語を使うので、地図では「夫と同じ語」になる。ハンガリー語<strong>feleség</strong>は<em>fél</em>「半分」をもとにしている。スウェーデン語<strong>hustru</strong>は家の女主人で、<em>hus</em>と今の<em>fru</em>にあたる語からできた。そしてフィンランド語<strong>vaimo</strong>はフィン語の「霊、魂」から来ていて、エストニア語<em>vaim</em>「霊」と同じ語である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"el,hu,sv,fi\" data-word=\"wife\">🗣 半分、くびき、家、魂を比べる</button></div><p>東アジアの歴史はいちばん静かだ。日本語の<strong>妻</strong>は「端」から来ていて、そばにいる人のことである。ウィクショナリーは英語のbetter halfと比べている。もとは夫にも妻にも使う語で、のちに妻だけを指すようになった。日本語には他人の妻を指す<em>奥さん</em>もあり、これは家の奥を表す<em>奥</em>にもとづく。朝鮮語<strong>아내</strong>と中国語<strong>妻子</strong>はそれぞれ独自の語を持つ。こうして地図には、女、半分、魂、くびきの相棒、そばに立つ人が並ぶ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja,ko,zh\" data-word=\"wife\">🗣 東アジアを比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"femme\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/femme"
+      },
+      {
+        "text": "\"Frau\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Frau"
+      },
+      {
+        "text": "\"wife\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/wife"
+      },
+      {
+        "text": "\"midwife\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/midwife"
+      },
+      {
+        "text": "\"woman\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/woman"
+      },
+      {
+        "text": "\"жена\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/жена"
+      },
+      {
+        "text": "\"queen\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/queen"
+      },
+      {
+        "text": "\"kone\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/kone"
+      },
+      {
+        "text": "\"moglie\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/moglie"
+      },
+      {
+        "text": "\"esposa\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/esposa"
+      },
+      {
+        "text": "\"σύζυγος\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/σύζυγος"
+      },
+      {
+        "text": "\"feleség\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/feleség"
+      },
+      {
+        "text": "\"hustru\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/hustru"
+      },
+      {
+        "text": "\"vaimo\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/vaimo"
+      },
+      {
+        "text": "\"妻\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/妻"
+      },
+      {
+        "text": "\"奥さん\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/奥さん"
+      },
+      {
+        "text": "\"아내\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/아내"
+      }
+    ]
+  },
+  {
+    "id": "tobacco-older-than-the-plant",
+    "icon": "🚬",
+    "tags": [
+      "trade",
+      "columbian-exchange",
+      "etymology"
+    ],
+    "title": {
+      "en": "Tobacco: Was the Word There First?",
+      "ja": "タバコ：語のほうが先にあったのか"
+    },
+    "summary": {
+      "en": "The American leaf reached the world with a Spanish name, but that name may be Arabic, and already in Spain before the leaf arrived. Elsewhere it is smoke, or medicine.",
+      "ja": "アメリカ大陸の葉はスペイン語の名で世界に広まった。しかしその名はアラビア語で、葉が届く前からスペインにあったのかもしれない。ほかの地域では煙や薬と呼ばれる。"
+    },
+    "body": {
+      "en": "<p>Tobacco is an American plant, so its name ought to be American. It may not be. Wiktionary gives two stories for Spanish <strong>tabaco</strong>. One is Kari’na or Taíno <em>tabago</em>, a tube for inhaling smoke. The other is Arabic <em>طُبَّاق</em>, a medicinal herb, in which case Spain already had the word when the leaf arrived, and simply reused it. Nobody has settled this. Either way the word spread with the plant, and 94 cells carry it. Portuguese <strong>tabaco</strong>, French <strong>tabac</strong>, German <strong>Tabak</strong> and English <strong>tobacco</strong> are the obvious ones. Arabic <strong>تبغ</strong> is borrowed back from Spanish, so if the second story is right, the word went out from Arabic and came home changed.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"tobacco\" data-code=\"es\">🗺️ Show tobacco on the map</button></div><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"es,pt,fr,de,en,ar\" data-word=\"tobacco\">🗣 Compare tabaco</button></div><h3>The overland word</h3><p>The word went further east with Portuguese, and Persian <strong>تنباکو</strong>, borrowed from it, became a second centre. Wiktionary’s list of its descendants reads like a map of Asia: Hindi <strong>तम्बाकू</strong>, Bengali <strong>তামাক</strong>, Georgian <strong>თამბაქო</strong>, Kazakh <strong>темекі</strong>, Mongolian <em>тамхи</em> and Malay <strong>tembakau</strong>. These 29 cells look like one family, and they are, but they all passed through Persia first.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fa,hi,bn,ka,kk,ms\" data-word=\"tobacco\">🗣 Compare the Persian line</button></div><p>Japan has another line. <strong>タバコ</strong> was borrowed from Portuguese, and Japanese passed it on to Korean, where Early Modern Korean <em>담파고</em> wore down to modern <strong>담배</strong>. It takes a moment to see the same word in there.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja,ko\" data-word=\"tobacco\">🗣 Compare Japan and Korea</button></div><h3>Smoke leaves</h3><p>Where tobacco came overland, it often got a new name for what it did. Turkish <strong>tütün</strong> goes back to Proto-Turkic for “smoke”, and it spread through the Ottoman world: Bulgarian and Ukrainian both took it as <strong>тютюн</strong>, and Polish <strong>tytoń</strong> took it from East Slavic. That draws a sharp line in the Slavic east, because Russian says <strong>табак</strong>, which came through French. Two neighbours picked up the same leaf from different directions.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,bg,uk,pl,ru\" data-word=\"tobacco\">🗣 Compare tütün and табак</button></div><p>The same idea appears in Arabic <em>دخان</em>, “smoke”, which gave Ottoman <em>duhan</em> and through it Hungarian <strong>dohány</strong> and Albanian <strong>duhan</strong>.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hu,sq\" data-word=\"tobacco\">🗣 Compare the smoke of Arabic</button></div><p>Others described it from scratch. Tamil <strong>புகையிலை</strong> and Malayalam <strong>പുകയില</strong> are compounds of “smoke” and “leaf”, and Telugu <strong>పొగాకు</strong> is built the same way. Armenian <strong>ծխախոտ</strong> is from “to smoke” and “grass”. Greek <strong>καπνός</strong> is just the old word for smoke, and Navajo <strong>nátʼoh</strong> comes from a verb meaning to smoke something.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ta,ml,te,hy,el,nv\" data-word=\"tobacco\">🗣 Compare the smoke words</button></div><h3>Medicine</h3><p>Then there are the people who thought it was good for them. Thai <strong>ยาสูบ</strong> is <em>yaa</em>, “medicine”, plus “to smoke”, Lao <strong>ຢາສູບ</strong> comes from it, and Khmer <strong>ថ្នាំជក់</strong> has the same shape. Vietnamese <strong>thuốc lá</strong> is “medicine” plus “leaf”. Chichewa <strong>fodya</strong> keeps it simple. It is a very old borrowing from Portuguese <em>folha</em>, “leaf”. So the map has one last small irony: the word that went round the world may have begun, in Spain, as the name of a medicine too.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"th,lo,km,vi,ny\" data-word=\"tobacco\">🗣 Compare medicine and leaf</button></div>",
+      "ja": "<p>タバコはアメリカ大陸の植物なのだから、名前もアメリカのものであるはずだ。ところがそうとも限らない。ウィクショナリーはスペイン語<strong>tabaco</strong>について二つの説を挙げている。一つはカリーニャ語かタイノ語の<em>tabago</em>で、煙を吸う管である。もう一つはアラビア語の<em>طُبَّاق</em>という薬草で、この場合スペインには葉が届く前からこの語があって、それを転用したことになる。決着はついていない。いずれにせよ語は植物とともに広まり、94セルがこの語を持つ。ポルトガル語<strong>tabaco</strong>、フランス語<strong>tabac</strong>、ドイツ語<strong>Tabak</strong>、英語<strong>tobacco</strong>はわかりやすい例だ。アラビア語<strong>تبغ</strong>はスペイン語からの借用で、もし二つ目の説が正しければ、語はアラビア語から出て、姿を変えて里帰りしたことになる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"tobacco\" data-code=\"es\">🗺️ 地図でタバコを見る</button></div><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"es,pt,fr,de,en,ar\" data-word=\"tobacco\">🗣 tabacoを比べる</button></div><h3>陸路の語</h3><p>語はポルトガル語とともにさらに東へ進み、これを借りたペルシア語<strong>تنباکو</strong>が第二の中心になった。ウィクショナリーが挙げる子孫の一覧は、アジアの地図のようだ。ヒンディー語<strong>तम्बाकू</strong>、ベンガル語<strong>তামাক</strong>、ジョージア語<strong>თამბაქო</strong>、カザフ語<strong>темекі</strong>、モンゴル語<em>тамхи</em>、マレー語<strong>tembakau</strong>。この29セルはみな一つの家族だが、いずれも先にペルシアを通っている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fa,hi,bn,ka,kk,ms\" data-word=\"tobacco\">🗣 ペルシア語の線を比べる</button></div><p>日本にはまた別の線がある。<strong>タバコ</strong>はポルトガル語からの借用で、日本語はこれを朝鮮語に渡した。近世朝鮮語の<em>담파고</em>がすり減って、今の<strong>담배</strong>になったのだ。同じ語だと気づくには少し時間がかかる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja,ko\" data-word=\"tobacco\">🗣 日本と朝鮮を比べる</button></div><h3>煙の葉</h3><p>陸路で届いた土地では、タバコは働きにちなんだ新しい名をもらうことが多かった。トルコ語<strong>tütün</strong>はテュルク祖語の「煙」にさかのぼり、オスマン帝国の世界に広まった。ブルガリア語とウクライナ語はどちらもこれを<strong>тютюн</strong>として取り入れ、ポーランド語<strong>tytoń</strong>は東スラヴ語から取った。スラヴ語の東部には、ここで鋭い線が引かれる。ロシア語はフランス語経由の<strong>табак</strong>だからだ。隣り合う言語が、同じ葉を別々の方向から受け取ったのである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"tr,bg,uk,pl,ru\" data-word=\"tobacco\">🗣 tütün と табак を比べる</button></div><p>同じ発想はアラビア語の<em>دخان</em>「煙」にもある。これがオスマン語の<em>duhan</em>になり、そこからハンガリー語<strong>dohány</strong>、アルバニア語<strong>duhan</strong>が生まれた。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"hu,sq\" data-word=\"tobacco\">🗣 アラビア語の煙を比べる</button></div><p>一から描写した言語もある。タミル語<strong>புகையிலை</strong>とマラヤーラム語<strong>പുകയില</strong>は「煙」と「葉」の複合語で、テルグ語<strong>పొగాకు</strong>も同じ作りだ。アルメニア語<strong>ծխախոտ</strong>は「煙を出す」と「草」でできている。ギリシャ語<strong>καπνός</strong>は古くからの「煙」そのもので、ナバホ語<strong>nátʼoh</strong>は「吸う」を意味する動詞から来ている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ta,ml,te,hy,el,nv\" data-word=\"tobacco\">🗣 煙の語を比べる</button></div><h3>薬</h3><p>そして、体に良いと考えた人々がいる。タイ語<strong>ยาสูบ</strong>は<em>yaa</em>「薬」に「吸う」を足した語で、ラオ語<strong>ຢາສູບ</strong>はここから来ており、クメール語<strong>ថ្នាំជក់</strong>も同じ形をしている。ベトナム語<strong>thuốc lá</strong>は「薬」と「葉」である。チェワ語<strong>fodya</strong>は簡潔で、ポルトガル語<em>folha</em>「葉」からのごく古い借用だ。そして地図には最後に小さな皮肉が残る。世界を回ったこの語も、スペインでは薬の名として始まったのかもしれないのだ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"th,lo,km,vi,ny\" data-word=\"tobacco\">🗣 薬と葉を比べる</button></div>"
+    },
+    "sources": [
+      {
+        "text": "\"tabaco\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/tabaco"
+      },
+      {
+        "text": "\"tobacco\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/tobacco"
+      },
+      {
+        "text": "\"تبغ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/تبغ"
+      },
+      {
+        "text": "\"تنباکو\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/تنباکو"
+      },
+      {
+        "text": "\"तम्बाकू\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/तम्बाकू"
+      },
+      {
+        "text": "\"তামাক\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/তামাক"
+      },
+      {
+        "text": "\"თამბაქო\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/თამბაქო"
+      },
+      {
+        "text": "\"темекі\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/темекі"
+      },
+      {
+        "text": "\"tembakau\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/tembakau"
+      },
+      {
+        "text": "\"タバコ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/タバコ"
+      },
+      {
+        "text": "\"담배\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/담배"
+      },
+      {
+        "text": "\"tütün\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/tütün"
+      },
+      {
+        "text": "\"тютюн\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/тютюн"
+      },
+      {
+        "text": "\"табак\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/табак"
+      },
+      {
+        "text": "\"tytoń\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/tytoń"
+      },
+      {
+        "text": "\"دخان\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/دخان"
+      },
+      {
+        "text": "\"dohány\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/dohány"
+      },
+      {
+        "text": "\"duhan\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/duhan"
+      },
+      {
+        "text": "\"புகையிலை\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/புகையிலை"
+      },
+      {
+        "text": "\"പുകയില\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/പുകയില"
+      },
+      {
+        "text": "\"పొగాకు\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/పొగాకు"
+      },
+      {
+        "text": "\"ծխախոտ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ծխախոտ"
+      },
+      {
+        "text": "\"καπνός\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/καπνός"
+      },
+      {
+        "text": "\"nátʼoh\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/nátʼoh"
+      },
+      {
+        "text": "\"ยาสูบ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ยาสูบ"
+      },
+      {
+        "text": "\"ຢາສູບ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ຢາສູບ"
+      },
+      {
+        "text": "\"ថ្នាំជក់\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ថ្នាំជក់"
+      },
+      {
+        "text": "\"thuốc lá\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/thuốc_lá"
+      },
+      {
+        "text": "\"fodya\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/fodya"
       }
     ]
   }

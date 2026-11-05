@@ -22,7 +22,7 @@ WORDS.tobacco = {
   emoji: "🚬",
   label: {
     en: "Tobacco",
-    ja: "煙草",
+    ja: "タバコ",
     ko: "담배",
     zh: "烟草",
     yue: "煙草",
@@ -47,7 +47,7 @@ WORDS.tobacco = {
   },
   definition: {
     en: "Tobacco — the leaf that people smoke. Spanish and Portuguese carried one word round the world, Persian passed it on, and elsewhere people named it after the smoke or after medicine.",
-    ja: "煙草 — 人が吸う葉。スペイン語とポルトガル語が一つの語を世界に運び、ペルシア語がそれを広めた。ほかの地域では煙や薬にちなんで名づけた。",
+    ja: "タバコ — 人が吸う葉。スペイン語とポルトガル語が一つの語を世界に運び、ペルシア語がそれを広めた。ほかの地域では煙や薬にちなんで名づけた。",
     ko: "담배 — 사람이 피우는 잎. 스페인어와 포르투갈어가 한 낱말을 온 세상에 실어 날랐고 페르시아어가 이를 더 퍼뜨렸으며, 다른 곳에서는 연기나 약에서 이름을 땄다.",
     zh: "烟草——人们吸食的叶子。西班牙语和葡萄牙语把一个词带到世界各地，波斯语又把它传开，别的地方则以烟或药来命名。",
     yue: "煙草——人哋食嘅葉。西班牙語同葡萄牙語將一個詞帶到世界各地，波斯語再將佢傳開，其他地方就以煙或者藥嚟命名。",
@@ -57,7 +57,7 @@ WORDS.tobacco = {
     hi: "तंबाकू — वह पत्ती जिसे लोग पीते हैं। स्पेनिश और पुर्तगाली एक शब्द को पूरी दुनिया में ले गईं, फ़ारसी ने उसे आगे बढ़ाया, और दूसरी जगहों पर लोगों ने इसे धुएँ या दवा का नाम दिया।",
     de: "Tabak — das Blatt, das man raucht. Spanisch und Portugiesisch trugen ein Wort um die Welt, das Persische gab es weiter, und anderswo benannte man es nach dem Rauch oder nach der Arznei.",
     fr: "Tabac — la feuille que l'on fume. L'espagnol et le portugais ont porté un mot autour du monde, le persan l'a transmis, et ailleurs on l'a nommé d'après la fumée ou le remède.",
-    it: "Tabacco — la foglia che si fuma. Lo spagnolo e il portoghese hanno portato una parola in tutto il mondo, il persiano l'ha trasmessa, e altrove lo hanno chiamato come il fumo o la medicina.",
+    it: "Tabacco — la foglia che si fuma. Lo spagnolo e il portoghese hanno portato una parola in tutto il mondo, il persiano l'ha trasmessa, e altrove lo hanno chiamato dal fumo o dalla medicina.",
     es: "Tabaco — la hoja que se fuma. El español y el portugués llevaron una palabra por todo el mundo, el persa la transmitió, y en otros lugares lo nombraron por el humo o la medicina.",
     es_eu: "Tabaco — la hoja que se fuma. El español y el portugués llevaron una palabra por todo el mundo, el persa la transmitió, y en otros lugares lo nombraron por el humo o la medicina.",
     es_mx: "Tabaco — la hoja que se fuma. El español y el portugués llevaron una palabra por todo el mundo, el persa la transmitió, y en otros lugares lo nombraron por el humo o la medicina.",
@@ -236,7 +236,7 @@ WORDS.tobacco = {
   routes: {
     tabaco: {"color":"#b45309","emoji":"🌿","en":"Spanish and Portuguese tabaco","ja":"スペイン語・ポルトガル語の tabaco","ko":"스페인어·포르투갈어 tabaco","zh":"西班牙语和葡萄牙语的 tabaco","yue":"西班牙語同葡萄牙語嘅 tabaco","vi":"tabaco của tiếng Tây Ban Nha và Bồ Đào Nha","th":"tabaco ของสเปนและโปรตุเกส","id":"tabaco dari Spanyol dan Portugis","hi":"स्पेनिश और पुर्तगाली tabaco","de":"spanisch und portugiesisch tabaco","fr":"le tabaco espagnol et portugais","it":"il tabaco spagnolo e portoghese","es":"el tabaco español y portugués","pt":"o tabaco espanhol e português","ru":"испанское и португальское tabaco","uk":"іспанське й португальське tabaco","ar":"tabaco الإسبانية والبرتغالية","he":"tabaco הספרדית והפורטוגזית","sw":"tabaco ya Kihispania na Kireno"},
     tanbaku: {"color":"#7c3aed","emoji":"🐫","en":"Persian tanbākū","ja":"ペルシア語 tanbākū","ko":"페르시아어 tanbākū","zh":"波斯语 tanbākū","yue":"波斯語 tanbākū","vi":"tiếng Ba Tư tanbākū","th":"เปอร์เซีย tanbākū","id":"Persia tanbākū","hi":"फ़ारसी tanbākū","de":"persisch tanbākū","fr":"le persan tanbākū","it":"il persiano tanbākū","es":"el persa tanbākū","pt":"o persa tanbākū","ru":"персидское tanbākū","uk":"перське tanbākū","ar":"الفارسية تنباكو","he":"הפרסית tanbākū","sw":"Kiajemi tanbākū"},
-    smoke: {"color":"#6b7280","emoji":"💨","en":"a word for smoke","ja":"煙の語","ko":"연기라는 말","zh":"表示烟的词","yue":"表示煙嘅詞","vi":"từ chỉ khói","th":"คำว่าควัน","id":"kata untuk asap","hi":"धुएँ का शब्द","de":"ein Wort für Rauch","fr":"un mot pour fumée","it":"una parola per fumo","es":"una palabra para humo","pt":"uma palavra para fumo","ru":"слово «дым»","uk":"слово «дим»","ar":"كلمة للدخان","he":"מילה לעשן","sw":"neno la moshi"},
+    smoke: {"color":"#6b7280","emoji":"💨","en":"a word for smoke","ja":"煙の語","ko":"연기라는 말","zh":"表示烟的词","yue":"表示煙嘅詞","vi":"từ chỉ khói","th":"คำว่าควัน","id":"kata untuk asap","hi":"धुएँ का शब्द","de":"ein Wort für Rauch","fr":"un mot pour la fumée","it":"una parola per il fumo","es":"una palabra para el humo","pt":"uma palavra para o fumo","ru":"слово «дым»","uk":"слово «дим»","ar":"كلمة للدخان","he":"מילה לעשן","sw":"neno la moshi"},
     medicine: {"color":"#16a34a","emoji":"💊","en":"a medicine","ja":"薬","ko":"약","zh":"药","yue":"藥","vi":"thuốc","th":"ยา","id":"obat","hi":"दवा","de":"eine Arznei","fr":"un remède","it":"una medicina","es":"una medicina","pt":"um remédio","ru":"лекарство","uk":"ліки","ar":"دواء","he":"תרופה","sw":"dawa"},
     other: {"color":"#6b7280","emoji":"✨","en":"another name","ja":"ほかの名","ko":"다른 이름","zh":"其他名称","yue":"其他名","vi":"tên khác","th":"ชื่ออื่น","id":"nama lain","hi":"कोई और नाम","de":"ein anderer Name","fr":"un autre nom","it":"un altro nome","es":"otro nombre","pt":"outro nome","ru":"другое название","uk":"інша назва","ar":"اسم آخر","he":"שם אחר","sw":"jina jingine"},
     plain: {"color":"#94a3b8","emoji":"📅","en":"a word of its own","ja":"固有の語","ko":"고유어","zh":"自有的词","yue":"自有嘅詞","vi":"từ riêng","th":"คำเฉพาะของภาษา","id":"kata tersendiri","hi":"अपना अलग शब्द","de":"ein eigenes Wort","fr":"un mot propre","it":"una parola propria","es":"una palabra propia","pt":"uma palavra própria","ru":"собственное слово","uk":"власне слово","ar":"كلمة خاصة","he":"מילה משלה","sw":"neno lake lenyewe"},

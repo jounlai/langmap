@@ -494,7 +494,7 @@ NAMES.michael = {
   forms:{
     en:  { form:'Michael', rom:'Michael', ipa:'ˈmaɪkəl', freq:'very-common', note:{en:'Mike, Mikey dim.',ja:'愛称マイク・マイキー'}, people:['Michael Jackson','Michael Faraday'] },
     gb:  { form:'Michael', rom:'Michael', ipa:'ˈmaɪkəl', freq:'very-common', people:['Michael Caine'] },
-    ga:  { form:'Mícheál', rom:'Mícheál', ipa:'ˈmʲiːçaːl', freq:'common', people:['Micheál Martin'] },
+    ga:  { form:'Mícheál', rom:'Mícheál', ipa:'ˈmʲiːhaːl', freq:'common', people:['Micheál Martin'] },
     fr:  { form:'Michel', rom:'Michel', ipa:'miʃɛl', freq:'common', people:['Michel Foucault','Michel Platini'] },
     es:  { form:'Miguel', rom:'Miguel', ipa:'miˈɣel', freq:'very-common', note:{en:'Miki dim.',ja:'愛称ミキ'}, people:['Miguel de Cervantes'] },
     pt:  { form:'Miguel', rom:'Miguel', ipa:'miˈɣɛɫ', freq:'very-common' },

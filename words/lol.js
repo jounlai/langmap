@@ -77,7 +77,7 @@ WORDS.lol = {
   },
   data: {
     // ja: ja.wikipedia 「w (ネットスラング)」 — w abbreviates わら(笑); Rest of World 2023 "How different languages laugh online"; IPA is the reading of わら
-    ja: ["www", "waɾa"],
+    ja: ["www", "waɾai"],
     ko: ["ㅋㅋㅋ", "kʰɯkʰɯkʰɯ"],
     th: ["555", "haː˥˩ haː˥˩ haː˥˩"],
     lo: ["555", "haː˧˩ haː˧˩ haː˧˩"],

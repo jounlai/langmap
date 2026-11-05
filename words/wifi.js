@@ -83,7 +83,7 @@ WORDS.wifi = {
     es_mx: ["wifi", "ˈwajfaj"],    // Latin America (Wiktionary es-pr: wai fai)
     pt: ["Wi-Fi", "ˈwajfaj"],      // Wiktionary pt-IPA "wáifái"
     pt_br: ["Wi-Fi", "ˈwajfaj"],
-    de: ["Wi-Fi", "ˈvaɪfaɪ"],      // w → /v/; the thing itself is usually "WLAN" in German
+    de: ["Wi-Fi", "ˈwaɪfaɪ"],      // DWDS gives [ˈwaɪ̯faɪ̯] and [ˈviːfi].
     ja: ["Wi-Fi", "waiɸai"],       // written "Wi-Fi" in Japanese text, read ワイファイ
     ko: ["와이파이", "waipʰai"],     // Wiktionary [wa̠ipʰa̠i]
     th: ["ไวไฟ", "waj˧faj˧"],   // ไว-ไฟ, both mid tone (Wiktionary th-pron)        // ไว-ไฟ (Wiktionary th-pron)

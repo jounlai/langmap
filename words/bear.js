@@ -14,10 +14,10 @@
  * as a loan, because the euphemism was Slavic, not Hungarian.)
  *
  * The same avoidance runs right round the northern hemisphere, and the map shows it. Sakha calls the
- * bear эһэ 'grandfather' and Dolgan эбэкээ the same; Khakas аба is 'father'; Nanai мапа and Udege мафа
+ * bear эһэ 'grandfather' and Dolgan has эбэкээ (compare Yakut эбэккэ 'granny, bear'); Khakas аба is 'father'; Nanai мапа and Udege мафа
  * are 'old man'; Evenki амака is 'grandfather' beside the plain хомоты. Finnish has karhu 'the rough
  * one' and a whole wardrobe of circumlocutions (otso, mesikämmen 'honey-paw', kontio — the last of
- * which is what Karelian kontie and Veps kondi actually say). Khmer calls it ខ្លាឃ្មុំ 'honey tiger',
+ * which is what Karelian kontie and Veps kondi actually say). Khmer calls it ខ្លាឃ្មុំ 'bee tiger',
  * arriving at the Slavic idea independently. Ainu names the bear kamuy 'god' or kimun kamuy
  * 'mountain god' across Hokkaido; イソ iso is the Sakhalin word (Wiktionary, citing Chiri and Hattori
  * 1964), so the Hokkaido-based row shows kimun kamuy.
@@ -569,7 +569,7 @@ WORDS.bear = {
     alt: "inherited",
     cv: "inherited",
     sah: "taboo", // route 2026-10-02 (r28 flag): эһэ "grandfather", per the header
-    dlg: "taboo", // route 2026-10-02 (r28 flag): эбэкээ "grandfather", per the header
+    dlg: "taboo", // route 2026-10-02 (r28 flag): a kin name; compare Yakut эбэккэ 'granny, bear'
     kjh: "taboo", // route 2026-10-02 (r28 flag): аба "father", per the header
     mn: "inherited",
     bxr: "inherited",

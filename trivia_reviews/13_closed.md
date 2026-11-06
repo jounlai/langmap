@@ -9,3 +9,6 @@ Bodies of those 70 articles, every paragraph side by side with the English: ja 9
 English fixed in all languages: sentinelese (most attempts; unknown number of people), Wenzhou near zero, Tangut three centuries, pan-sinosphere heading, Hawaiian fish name with ā. Also Bulgarian turkey struts, quoc-ngu level tone. A line explains cells in 72 word stories.
 
 Dropped on purpose: the entering-tone lead sentence stays, since the rewrite made "most scholars" appear twice. Left: spelling variants inside hi, th, ru, uk, ar, he; Bai "Lee" in zh; zh pan-sinosphere has no third layer; Haiti total; some omissions judged off the point, listed in ~/langmap-work/l10n_read/s4/notes_*.md.
+
+Spelling pass, same day (owner approved): one form per name or term within each language, all 19, tables in ~/langmap-work/l10n_read/x6. Site language names win where they exist. Overruled for readers: ja keeps シナ・チベット, パクパ文字, カタカナ, ひらがな; vi keeps Latinh. Bulk lines were checked by sample, not hit by hit. A few choices need a native: sw Kifinlandi, Kiwelshi, Kiayalandi, Kicornish; ar السواحيلية; ru сандип, гууг-; pt célula for cell.
+Site labels now out of step with the text: ja peo and pal (ペルシア), ko nci (나와틀어), he kun-yomi (קונ-יומי).

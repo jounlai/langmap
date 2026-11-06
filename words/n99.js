@@ -1108,7 +1108,7 @@ WORDS.n99 = {
     jmc: ["makumi kyeenda na kyeenda", "makumi kjeːnda na kjeːnda"],
     ixl: ["bʼelelaval toʼkʼal", "ɓelelaval toʔkʼal"], // was ["bʼelelaval toʼkʼal", "ɓelelaʋal toʔkʼal"] (vi dialect rules 2026-10-06)
     ivv: ["sasiam aya poho kano sasiam", "sasiam aja poho kano sasiam"],
-    ium: ["juov ziepc juov", "tɕuo˦ tsiep˨˩ tɕuo˦"],
+    ium: ["juov ziepc juov", "tɕuo˦ tsiep˨˩ tɕuo˦"],  // Confirmed by a reader, Zaigen Torne Saephan, 2026-11-06, who also wrote it by ear as chua tsiep chua.
     iba: ["semilan puluh semilan", "səmilan puluh səmilan"],
     hyw: ["իննսունըինը", "innəsunəˈinə"],
     hwc: ["ninety nine", "nainti nain"],

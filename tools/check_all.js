@@ -524,6 +524,11 @@ line('CJK descriptions: no identical bracket repeat', num(s, /identical bracket 
 s = run('trivia_zh_script_check.js --check');
 line('trivia zh is simplified', num(s, /traditional zh characters: (\d+)/));
 
+// Counts quoted in Word Map stories drift as cells are added. Report only, so
+// adding a cell never blocks a commit; refresh the story when it is next touched.
+s = run('trivia_count_check.js');
+line('trivia route counts', 0, `${num(s, /(\d+) drifted/)} drifted of ${num(s, /(\d+) tracked/)}`);
+
 // Three articles in a row were translated from an English draft that was later
 // edited, leaving the translations asserting things the article no longer says
 // — 97 million speakers, "communist propaganda", "1,500 years in the character

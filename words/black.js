@@ -17,10 +17,8 @@
  * is of uncertain origin, and is left as such rather than attached to *h₁regʷ- or *h₂erǵ-, both of
  * which have been proposed. Sino-Tibetan has its own root again, *nək (Coblin 1986; STEDT *s-nak),
  * which Burmese နက် and Tibetan ནག་པོ still carry.
- * `txb` and `xto` are still empty although the words are known — erkent and arkant — because those
- * two rows write their surfaces in Brahmi and transliterating into it here would be this file's
- * guess rather than a manuscript spelling. Old Spanish, Old Javanese and Proto-Austronesian are
- * empty for the ordinary reason: no source to hand.
+ * `txb` and `xto` hold erkent and arkant in Brahmi. Proto-Austronesian is empty for the ordinary
+ * reason: no source to hand.
  */
 WORDS.black = {
   emoji: "⚫",

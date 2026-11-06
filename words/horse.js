@@ -2,8 +2,9 @@
  * horse — the animal, and a famous Indo-European fault line.
  *
  * PIE *h₁éḱwos is the pedigree word: Latin equus, Greek híppos, Sanskrit
- * अश्व aśva, Old Irish ech — but almost none of the modern everyday words
- * descend from it. Latin caballus (a nag, likely a Wanderwort) buried equus
+ * अश्व aśva, Old Irish ech — but in Europe almost none of the modern everyday
+ * words descend from it, though Persian اسب, Kurdish hesp, Tajik асп and
+ * Pashto آس do. Latin caballus (a nag, likely a Wanderwort) buried equus
  * across Romance (cheval, caballo, cavallo, cavalo); Germanic went its own
  * way with horse / Pferd / Ross. The other IE branch is *marko-, the "mare"
  * word, alive in Germanic (mare, Mähre) and Celtic (Irish marc, Welsh march).

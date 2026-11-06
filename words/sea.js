@@ -1035,7 +1035,7 @@ WORDS.sea = {
     tar: ["mar", "maɾ"],
     zh_yuan: ["海", "xai"],
     xqa: ["täŋiz", "tæŋiz"],
-    juc: ["mede", "mədə"],
+    juc: ["mederin", "mederin"],  // no. 46 Meer, meh-t‘eh-’oh-lin, m. mederi. Grube 1896 glossary, read from the scan 2026-11-06.
     qwc: ["mama qucha", "mama qutʃa"],
     ohu: ["tenger", "tɛŋɡɛr"],
     onw: ["ⲑⲁⲗⲁⲥ", "tʰalas"],

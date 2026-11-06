@@ -1120,7 +1120,7 @@ WORDS.new = {
     zh_yuan: ["新", "siən"],
     pmh: ["णव", "ɳaʋa"],
     xqa: ["yaŋı", "jaŋɯ"],
-    juc: ["ice", "itʃə"],
+    juc: ["icegi", "itʃeɡi"],  // no. 626 neu, yih-č‘e-kih, m. ice. Grube 1896 glossary, read from the scan 2026-11-06.
     zkt: ["𘬥𘭛", "ʃɛn"],
     gez: ["ሐዲስ", "ħaddiːs"],
     arc: ["ܚܕܬܐ", "ħaðtaː"],

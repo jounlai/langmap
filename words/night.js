@@ -1079,7 +1079,7 @@ WORDS.night = {
     osn: ["peuting", "pɯtiŋ"],
     h_tagalog: ["ᜄᜊᜒ", "ɡaˈbi"],
     zkt: ["𘰷𘭌", "suni"],
-    juc: ["dobori", "dobori"],
+    juc: ["dolowo", "dolowo"],  // no. 78 Nacht, to-lo-woh, vgl. m. dobori. Grube 1896 glossary, read from the scan 2026-11-06.
     omx: ["ဗ္တံ", "bərtɔm"],
     pyx: ["—", "—"],
     obr: ["ည", "ɲaɲʔ"],

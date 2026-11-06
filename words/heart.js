@@ -1149,7 +1149,7 @@ WORDS.heart = {
     osn: ["hate", "hate"],
     h_tagalog: ["ᜉᜓᜐᜓ", "puso"],
     zkt: ["—", "—"],
-    juc: ["niema", "niema"],
+    juc: ["mejilan", "medʑilan"],  // no. 506 Herz, meh-ži-lan(-poh), m. mujilen. Grube 1896 glossary, read from the scan 2026-11-06.
     omx: ["စိုတ်", "cət"],
     pyx: ["—", "—"],
     obr: ["နှလုံး", "n̥alumh"],

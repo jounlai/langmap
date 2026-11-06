@@ -1087,7 +1087,7 @@ WORDS.tongue = {
     osn: ["letah", "lətah"],
     h_tagalog: ["ᜇᜒᜎ", "diˈlaʔ"],
     zkt: ["—", "—"],
-    juc: ["ilenggi", "iləŋɡi"],
+    juc: ["ilengu", "ileŋɡu"],  // no. 499 Zunge, yih-leng-ku, m. ilenggu. Grube 1896 glossary, read from the scan 2026-11-06.
     omx: ["ကတာက်", "kətaik"],
     pyx: ["—", "—"],
     obr: ["လျှာ", "l̥jaː"],

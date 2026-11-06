@@ -971,7 +971,7 @@ WORDS.ear = {
     xqa: ["qulqaq", "qulqaq"],
     xng: ["ᠴᠢᠬᠢᠨ", "tʃikin"],
     mjg: ["qigi", "tɕʰiɡi"],
-    juc: ["šan", "ʃan"],
+    juc: ["šaha", "ʃaxa"],  // no. 497 Ohr, ša-hah, m. šan. Grube 1896 glossary, read from the scan 2026-11-06.
     ude: ["куай", "kuʔai"],
     brh: ["خف", "xaf"],
     kru: ["ख़ेबदा", "xebdaː"],

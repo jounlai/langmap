@@ -1153,7 +1153,7 @@ WORDS.sun = {
         { form: "nair", script: "Latin (Kane 2009 reading)", source: "Kane (2009) Index of Graphs #159 — Khitan *nair (sun / day), cognate Mongolic nara." },
       ],
     },
-    juc: ["še'un", "ʃeun"],  // Grube 1896 #3 'Sonne, Tag' = yih-nöng-kih, m. inenggi — one Jurchen word for sun and day. The row's earlier šun is the Manchu sun word, which Grube's entry does not license; see the row comment on the invented 漢字音訳.
+    juc: ["inenggi", "ineŋɡi"],  // Grube 1896 #3 'Sonne, Tag' = yih-nöng-kih, m. inenggi — one Jurchen word for sun and day. The row's earlier šun is the Manchu sun word, which Grube's entry does not license; see the row comment on the invented 漢字音訳.
     omx: ["တ္ၚဲ", "tŋɔj"],
     pyx: ["—", "—"],
     obr: ["နိ", "nij"],

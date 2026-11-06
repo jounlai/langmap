@@ -68,7 +68,7 @@ WORDS.earthquake = {
   },
   family: {
     acn: "plain",
-    af: "unknown",
+    af: "earth",
     aii: "plain",
     ami: "plain",
     ang: "earth",
@@ -77,19 +77,19 @@ WORDS.earthquake = {
     ast: "earth",
     az: "zalzala",
     ba: "earth",
-    bdk: "unknown",
-    be: "unknown",
+    bdk: "zalzala",
+    be: "earth",
     bg: "earth",
     bi: "plain",
     bn: "earth",
     bto: "plain",
-    bxr: "unknown",
+    bxr: "earth",
     ca: "earth",
     cbk: "shake",
     ceb: "plain",
-    ckb: "unknown",
+    ckb: "earth",
     ckv: "plain",
-    cop: "unknown",
+    cop: "earth",
     crh: "zalzala",
     crt: "earth",
     cs: "earth",
@@ -110,7 +110,7 @@ WORDS.earthquake = {
     fo: "earth",
     fr: "earth",
     gag: "earth",
-    gd: "unknown",
+    gd: "earth",
     gl: "earth",
     gor: "plain",
     gu: "earth",
@@ -120,24 +120,24 @@ WORDS.earthquake = {
     hil: "plain",
     ht: "earth",
     hu: "earth",
-    hy: "unknown",
-    id: "unknown",
+    hy: "earth",
+    id: "earth",
     ilo: "plain",
-    io: "unknown",
+    io: "earth",
     is: "earth",
     it: "earth",
     ja: "earth",
-    ka: "unknown",
-    kk: "unknown",
+    ka: "earth",
+    kk: "earth",
     kl: "earth",
-    kn: "unknown",
+    kn: "earth",
     ko: "earth",
     kpf: "plain",
-    ku: "unknown",
+    ku: "earth",
     kum: "plain",
-    ky: "unknown",
+    ky: "earth",
     la: "earth",
-    lez: "unknown",
+    lez: "zalzala",
     lo: "earth",
     lv: "earth",
     mak: "plain",
@@ -150,22 +150,22 @@ WORDS.earthquake = {
     mr: "earth",
     mrw: "plain",
     ms: "earth",
-    mt: "unknown",
+    mt: "earth",
     myv: "earth",
-    ne: "unknown",
+    ne: "earth",
     new: "plain",
     nhx: "plain",
     njo: "plain",
-    nl: "unknown",
+    nl: "earth",
     nzm: "plain",
     or: "earth",
     ote: "earth",
     pa: "zalzala",
     pam: "plain",
-    pap: "unknown",
+    pap: "shake",
     pl: "earth",
     pt: "shake",
-    rgn: "unknown",
+    rgn: "earth",
     rhg: "plain",
     ro: "shake",
     roo: "plain",
@@ -173,11 +173,11 @@ WORDS.earthquake = {
     ru: "earth",
     rw: "plain",
     sa: "earth",
-    scn: "unknown",
+    scn: "earth",
     sd: "zalzala",
     shn: "plain",
     sk: "earth",
-    sl: "unknown",
+    sl: "shake",
     so: "earth",
     sq: "earth",
     sr: "earth",
@@ -186,20 +186,20 @@ WORDS.earthquake = {
     syc: "plain",
     szy: "plain",
     ta: "earth",
-    te: "unknown",
+    te: "earth",
     tg: "zalzala",
     th: "earth",
     tk: "zalzala",
     tl: "plain",
-    tly: "unknown",
+    tly: "earth",
     to: "plain",
     tpi: "earth",
     tpy: "plain",
     tr: "shake",
     tsg: "plain",
-    tt: "unknown",
+    tt: "zalzala",
     ug: "zalzala",
-    uk: "unknown",
+    uk: "earth",
     ur: "zalzala",
     uz: "zalzala",
     vi: "earth",
@@ -221,7 +221,7 @@ WORDS.earthquake = {
   },
   data: {
     acn: ["in31san35", "in˧˩san˧˥"],
-    af: ["aardbewing", "ˈɑːrtbeːvəŋ"],
+    af: ["aardbewing", "ˈɑːrtbeːvəŋ"],  // Built on the word for earth or land.
     aii: ["ܪܥܘܕܢܐ", "rʕoːðaːnaː"],
     ami: ["lonen", "lonən"],
     ang: ["eorþbeofung", "ˈeorθˌbeofunɡ"],  // Built on the word for earth or land.
@@ -230,19 +230,19 @@ WORDS.earthquake = {
     ast: ["terremotu", "tereˈmotu"],  // Built on the word for earth or land.
     az: ["zəlzələ", "zælzæˈlæ"],  // From Arabic زلزلة zalzala.
     ba: ["ер тетрәү", "ˈjɪ̞ɾtɪ̞tˌɾɶw"],  // Built on the word for earth or land.
-    bdk: ["зелзеле", "zelzele"],
-    be: ["землятрус", "zʲamlʲaˈtrus"],
+    bdk: ["зелзеле", "zelzele"],  // From Arabic زلزلة zalzala.
+    be: ["землятрус", "zʲamlʲaˈtrus"],  // Built on the word for earth or land.
     bg: ["земетресение", "zɛmɛtrɛˈsɛniɛ"],  // Built on the word for earth or land.
     bi: ["etkwek", "etkwek"],
     bn: ["ভূমিকম্প", "bʱumikɔmpo"],  // Built on the word for earth or land.
     bto: ["linog", "linoɡ"],
-    bxr: ["газар хүдэлэлгэ", "ɡazarxydelelɡe"],
+    bxr: ["газар хүдэлэлгэ", "ɡazarxydelelɡe"],  // Built on the word for earth or land.
     ca: ["terratrèmol", "ˌtɛrəˈtɾɛmul"],  // Built on the word for earth or land.
     cbk: ["temblor", "tembloɾ"],  // A word for shaking, with no earth in it.
     ceb: ["linog", "ˈlinoɡ"],
-    ckb: ["بوومەلەرزە", "buːmalaɾza"],
+    ckb: ["بوومەلەرزە", "buːmalaɾza"],  // Built on the word for earth or land.
     ckv: ["utuz", "utuz"],
-    cop: ["ⲕⲙⲧⲟ", "km̩ˈtoʔ"],
+    cop: ["ⲕⲙⲧⲟ", "km̩ˈtoʔ"],  // Built on the word for earth or land.
     crh: ["zelzele", "zelzele"],  // From Arabic زلزلة zalzala.
     crt: ["axnat-tiwesi", "axnat-tiwesi"],  // Built on the word for earth or land.
     cs: ["zemětřesení", "ˈzɛmɲɛtr̝̊ɛsɛɲiː"],  // Built on the word for earth or land.
@@ -263,7 +263,7 @@ WORDS.earthquake = {
     fo: ["jarðskjálvti", "ˈjaɹ̥ʃɔl̥tɪ"],  // Built on the word for earth or land.
     fr: ["tremblement de terre", "tʁɑ̃bləmɑ̃ də tɛʁ"],  // Built on the word for earth or land.
     gag: ["er tepremesi", "ertepremesi"],  // Built on the word for earth or land.
-    gd: ["crith-thalmhainn", "kʰɾʲi ˈhaˈl̪ˠaiɲ"],
+    gd: ["crith-thalmhainn", "kʰɾʲi ˈhaˈl̪ˠaiɲ"],  // Built on the word for earth or land.
     gl: ["terremoto", "tereˈmoto"],  // Built on the word for earth or land.
     gor: ["liluhu", "liluhu"],
     gu: ["ભૂકંપ", "bʱukəmp"],  // Built on the word for earth or land.
@@ -273,24 +273,24 @@ WORDS.earthquake = {
     hil: ["linog", "ˈlinoɡ"],
     ht: ["tranblemanntè", "tɣãblemãntɛ"],  // Built on the word for earth or land.
     hu: ["földrengés", "ˈføldrɛŋɡeːʃ"],  // Built on the word for earth or land.
-    hy: ["երկրաշարժ", "jeɾkɾɑˈʃɑɾʒ"],
-    id: ["gempa bumi", "ɡəmˌpa ˈbumi"],
+    hy: ["երկրաշարժ", "jeɾkɾɑˈʃɑɾʒ"],  // Built on the word for earth or land.
+    id: ["gempa bumi", "ɡəmˌpa ˈbumi"],  // Built on the word for earth or land.
     ilo: ["gingined", "ɡiŋiˈned"],
-    io: ["tertremo", "terˈtremo"],
+    io: ["tertremo", "terˈtremo"],  // Built on the word for earth or land.
     is: ["jarðskjálfti", "ˈjarðscaul̥tɪ"],  // Built on the word for earth or land.
     it: ["terremoto", "terreˈmɔto"],  // Built on the word for earth or land.
     ja: ["地震", "dʑiɕiɴ"],  // Built on the word for earth or land.
-    ka: ["მიწისძვრა", "mitsʼisdzʷɾä"],
-    kk: ["жер сілкінісі", "ʒer sɪlkɪnɪsɪ"],
+    ka: ["მიწისძვრა", "mitsʼisdzʷɾä"],  // Built on the word for earth or land.
+    kk: ["жер сілкінісі", "ʒer sɪlkɪnɪsɪ"],  // Built on the word for earth or land.
     kl: ["nunap sajunnera", "nunap sajunnira"],  // Built on the word for earth or land.
-    kn: ["ಭೂಕಂಪ", "bʱuːkampa"],
+    kn: ["ಭೂಕಂಪ", "bʱuːkampa"],  // Built on the word for earth or land.
     ko: ["지진", "tɕidʑin"],  // Built on the word for earth or land.
     kpf: ["wâriŋ", "wɐriŋ"],
-    ku: ["erdhej", "ɛɾdhɛʒ"],
+    ku: ["erdhej", "ɛɾdhɛʒ"],  // Built on the word for earth or land.
     kum: ["тербенив", "terbeniw"],
-    ky: ["жер титирөө", "dʒer titirøː"],
+    ky: ["жер титирөө", "dʒer titirøː"],  // Built on the word for earth or land.
     la: ["terrae motus", "ˈtɛrrae̯ ˈmoːtʊs"],  // Built on the word for earth or land.
-    lez: ["залзала", "zalzala"],
+    lez: ["залзала", "zalzala"],  // From Arabic زلزلة zalzala.
     lo: ["ແຜ່ນດິນໄຫວ", "pʰɛːn˧ din˩˧ ʋaj˩˧"],  // Built on the word for earth or land.
     lv: ["zemestrīce", "ˈzɛmɛstriːtsɛ"],  // Built on the word for earth or land.
     mak: ["ronrong", "ˈronroŋ"],
@@ -303,22 +303,22 @@ WORDS.earthquake = {
     mr: ["भूकंप", "bʱukəmpə"],  // Built on the word for earth or land.
     mrw: ["linog", "linoɡ"],
     ms: ["gempa bumi", "ɡəmˌpa ˈbumi"],  // Built on the word for earth or land.
-    mt: ["terremot", "tɛrrɛˈmɔːt"],
+    mt: ["terremot", "tɛrrɛˈmɔːt"],  // Built on the word for earth or land.
     myv: ["модасоркс", "modasorks"],  // Built on the word for earth or land.
-    ne: ["भूकम्प", "bʱukʌmpʌ"],
+    ne: ["भूकम्प", "bʱukʌmpʌ"],  // Built on the word for earth or land.
     new: ["भुखा", "bʱukʰa"],
     nhx: ["ta̱lo̱li̱n", "taːˈloːliːn"],
     njo: ["menoknok", "menoknok"],
-    nl: ["aardbeving", "ˈaːrtbeːvɪŋ"],
+    nl: ["aardbeving", "ˈaːrtbeːvɪŋ"],  // Built on the word for earth or land.
     nzm: ["kagetei", "kaɡetei"],
     or: ["ଭୂମିକମ୍ପ", "bʱumikɔmpɔ"],  // Built on the word for earth or land.
     ote: ["hmämhai", "hmãmhai"],  // Built on the word for earth or land.
     pa: ["ਜ਼ਲਜ਼ਲਾ", "zəlzəläː"],  // From Arabic زلزلة zalzala.
     pam: ["ayun", "əˈjun"],
-    pap: ["temblor", "temblor"],
+    pap: ["temblor", "temblor"],  // A word for shaking, with no earth in it.
     pl: ["trzęsienie ziemi", "tʂɛ̃ˈɕɛɲɛ ˈʑɛmi"],  // Built on the word for earth or land.
     pt: ["sismo", "ˈsizmu"],  // A word for shaking, with no earth in it.
-    rgn: ["taramòt", "taramɔt"],
+    rgn: ["taramòt", "taramɔt"],  // Built on the word for earth or land.
     rhg: ["búsal", "busal"],
     ro: ["cutremur", "kutremur"],  // A word for shaking, with no earth in it.
     roo: ["ravurike", "ɾaβuɾike"],
@@ -326,11 +326,11 @@ WORDS.earthquake = {
     ru: ["землетрясение", "zʲɪmlʲɪtrʲɪˈsʲenʲɪjə"],  // Built on the word for earth or land.
     rw: ["umutingito", "umutinɡito"],
     sa: ["भूकम्प", "bʱuːkɐmpɐ"],  // Built on the word for earth or land.
-    scn: ["tirrimotu", "tirrimɔtu"],
+    scn: ["tirrimotu", "tirrimɔtu"],  // Built on the word for earth or land.
     sd: ["زلزلو", "zəlzəloː"],  // From Arabic زلزلة zalzala.
     shn: ["ဢိင်ႇသၼ်ႇ", "ʔiŋ˩sʰan˩"],
     sk: ["zemetrasenie", "zemetraseɲɪ̯e"],  // Built on the word for earth or land.
-    sl: ["potres", "ˈpɔtrɛs"],
+    sl: ["potres", "ˈpɔtrɛs"],  // A word for shaking, with no earth in it.
     so: ["dhulgariir", "ɖulɡariːr"],  // Built on the word for earth or land.
     sq: ["tërmet", "təɾˈmet"],  // Built on the word for earth or land.
     sr: ["земљотрес", "zɛmʎɔtrɛs"],  // Built on the word for earth or land.
@@ -339,20 +339,20 @@ WORDS.earthquake = {
     syc: ["ܪܥܠܐ", "rɛʕlɑ"],
     szy: ["ninel", "ninəl"],
     ta: ["நிலநடுக்கம்", "nɪlɐnɐɖʊkːɐm"],  // Built on the word for earth or land.
-    te: ["భూకంపం", "bʱuːkampam"],
+    te: ["భూకంపం", "bʱuːkampam"],  // Built on the word for earth or land.
     tg: ["зилзила", "zilzila"],  // From Arabic زلزلة zalzala.
     th: ["แผ่นดินไหว", "pʰɛːn˨˩ din˧ waj˩˩˦"],  // Built on the word for earth or land.
     tk: ["zenzele", "ðenðeˈle"],  // From Arabic زلزلة zalzala.
     tl: ["lindol", "linˈdol"],
-    tly: ["büməlarzə", "byməlaɾzə"],
+    tly: ["büməlarzə", "byməlaɾzə"],  // Built on the word for earth or land.
     to: ["mofuike", "mofuike"],
     tpi: ["guria", "ɡuria"],  // Built on the word for earth or land.
     tpy: ["hapdokokah", "hapdokokah"],
     tr: ["deprem", "depˈɾem"],  // Coined by the Turkish Language Association in 1934 from depre- 'to shake', replacing Arabic zelzele.
     tsg: ["linug", "linuɡ"],
-    tt: ["зилзилә", "zilzilæ"],
+    tt: ["зилзилә", "zilzilæ"],  // From Arabic زلزلة zalzala.
     ug: ["زىلزىلە", "zilzilɛ"],  // From Arabic زلزلة zalzala.
-    uk: ["землетрус", "zemɫeˈtrus"],
+    uk: ["землетрус", "zemɫeˈtrus"],  // Built on the word for earth or land.
     ur: ["زلزلہ", "zəlzəlɑː"],  // From Arabic زلزلة zalzala.
     uz: ["zilzila", "zilzila"],  // From Arabic زلزلة zalzala.
     vi: ["động đất", "ɗəwŋ˧˨ʔ ɗət˧˥"],  // Built on the word for earth or land.

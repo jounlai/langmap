@@ -1082,7 +1082,7 @@ WORDS.red = {
     osn: ["beureum", "bɯrɯm"],
     h_tagalog: ["ᜉᜓᜎ", "puˈlaʔ"],
     zkt: ["𘱄𘱹𘰹", "ljauqu"],
-    juc: ["fulian", "fulian"],
+    juc: ["fulagiyan", "fulaɡijan"],  // no. 617 roth, fuh-lah-kiang, m. fulgiyan. Grube 1896 glossary, read from the scan 2026-11-06.
     omx: ["—", "—"],
     pyx: ["—", "—"],
     obr: ["နီ", "niː"],

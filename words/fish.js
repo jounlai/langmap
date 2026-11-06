@@ -1089,7 +1089,7 @@ WORDS.fish = {
     osn: ["lauk", "lauk"],
     h_tagalog: ["ᜁᜐ᜔ᜇ", "isˈdaʔ"],
     zkt: ["—", "—"],
-    juc: ["nimuha", "nimuxa"],
+    juc: ["liwaha", "liwaxa"],  // no. 163 Fisch, li-wah-hah, m. nimaha. Grube 1896 glossary, read from the scan 2026-11-06.
     omx: ["က", "kaʔ"],
     pyx: ["—", "—"],
     obr: ["ငါး", "ŋaːh"],

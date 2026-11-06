@@ -2,8 +2,8 @@
  * Bear is the textbook case of taboo replacement — a word half a language family threw away because
  * saying it was thought to summon the animal. Proto-Indo-European *h₂ŕ̥tḱos survives intact right
  * across the family's southern and eastern arms: Latin ursus, Greek árktos, Sanskrit ṛkṣa, Hittite
- * ḫartaggaš, Welsh arth, Ossetian ars, and — through Latin — Basque hartz, which borrowed the animal's
- * name from its neighbours. English keeps the old word too, but only in "Arctic": the north is named
+ * ḫartaggaš, Welsh arth, Ossetian ars. Basque hartz looks like it belongs here but has no agreed origin: Wiktionary calls it
+ * unknown, perhaps Celtic, and the sounds do not fit that loan well, so it is coloured as its own old word. English keeps the old word too, but only in "Arctic": the north is named
  * for the Great Bear overhead. Germanic, though, replaced the name with a colour euphemism, "the brown
  * one" (bear, Bär, bjǫrn, Yiddish בער), and Slavic with a kenning, "the honey-eater" (медведь,
  * niedźwiedź, medvěd) — which Hungarian and Finnic then borrowed as medve. Baltic went a third way,

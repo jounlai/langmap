@@ -703,7 +703,7 @@ WORDS.snow = {
     orv: ["снѣгъ", "snʲeɡŭ"],
     qwc: ["ritʼi", "ɾitʼi"],
     chb: ["hichu", "hitʃu"],
-    juc: ["imanggi", "imaŋɡi"],
+    juc: ["imagi", "imaɡi"],  // no. 17 Schnee, yih-ma-kih, m. nimanggi. Grube 1896 glossary, read from the scan 2026-11-06.
     och: ["雪", "*[s]ot"],
     ojp: ["雪", "juki"],
     h_vedic: ["हिम", "ɦímɐ"],

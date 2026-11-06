@@ -8,7 +8,7 @@
  *
  * East Asia is a separate world here: 鹽 and its simplification 盐 carry the Sinoxenic layer, while
  * Japanese しお and Korean 소금 are native words underneath it. Semitic has its own root again —
- * Arabic milḥ, Hebrew melaḥ — and Akkadian ṭābtu is literally 'the good thing'.
+ * Arabic milḥ, Hebrew melaḥ.
  */
 WORDS.salt = {
   emoji: "🧂",
@@ -1232,7 +1232,7 @@ WORDS.salt = {
     yuy: ["daabsən", "daːbsən"],
     zh_yuan: ["鹽", "iɛm"],
     pura: ["—", "—"],
-    juc: ["datsu", "datsu"],
+    juc: ["dabusun", "dabusun"],  // no. 527 Salz, tah-puh-sun, m. dabsun. Grube 1896 glossary, read from the scan 2026-11-06.
     ohu: ["só", "ʃoː"],
     xsa: ["𐩣𐩡𐩢", "milħ"],
     okz: ["អំប្យល", "ʔəmˈɓiːəl"],

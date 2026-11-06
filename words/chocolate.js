@@ -14,13 +14,12 @@
  * source is `chicolātl`, from chicol(li), the stick the drink was beaten
  * with, plus ā and the absolutive -tl; their case against xocolātl is that
  * Nahuatl does not turn /ʃ/ into /tʃ/ in this environment. `chocolatl`
- * itself does not appear in Nahuatl until the mid-18th century.
+ * itself is first attested around 1580 (Wiktionary); early Nahuatl texts say cacahuatl.
  *
  * Which settles a gap that looks like an oversight and is not. `nci`
- * (Classical Nahuatl, 16–17c) has 70 cells in this atlas and NO cell here,
- * and should not be given one: the word is two centuries too late for that
- * row. What 16th-century Mesoamerica had was the drink, and this concept is
- * the food — see the definition, which excludes hot chocolate, the bean and
+ * (Classical Nahuatl, 16–17c) has 85 cells in this atlas and NO cell here,
+ * and should not be given one. What 16th-century Mesoamerica had was the
+ * drink, and this concept is the food — see the definition, which excludes hot chocolate, the bean and
  * the tree. The origin language is the one language that cannot have it.
  *
  * Not route-coloured, and that was checked rather than assumed (2026-09-21).

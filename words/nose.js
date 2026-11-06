@@ -1150,7 +1150,7 @@ WORDS.nose = {
     blk: ["နေ့ဖူ", "neʔ˦˥ pʰu"],
     tsz: ["úrhi", "ˈuɽi"],
     mxv: ["sitin", "sitin"],
-    juc: ["sunggi", "suŋɡi"],
+    juc: ["šuanggi", "ʃuaŋɡi"],  // no. 501 Nase, šuang-kih. Grube 1896 glossary, read from the scan 2026-11-06.
     hai: ["kún", "kʰún"],
     fia: ["sòrìŋ", "sòrìŋ"],
     kqz: ["ǂuib", "ǂuib"],

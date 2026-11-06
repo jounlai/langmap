@@ -1085,7 +1085,7 @@ WORDS.blood = {
     osn: ["getih", "ɡətih"],
     h_tagalog: ["ᜇᜓᜄᜓ", "duˈɡoʔ"],
     zkt: ["—", "—"],
-    juc: ["šenggi", "ʃəŋɡi"],
+    juc: ["segi", "seɡi"],  // no. 512 Blut, seh-kih, m. senggi. Grube 1896 glossary, read from the scan 2026-11-06.
     omx: ["ဆိမ်", "cʰim"],
     pyx: ["—", "—"],
     obr: ["သုယ်", "suj"],

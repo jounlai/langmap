@@ -1024,7 +1024,7 @@ WORDS.name = {
       txb: ["𑀜𑁂𑀫𑁆", "ɲem"],
       phn: ["𐤔𐤌", "ʃim"],
       uga: ["𐎌𐎎", "ʃumu"],
-      xlu: ["𔐓𔓇𔒄𔖪", "ˈalamantsa"],
+      xlu: ["𔐓𔓊𔒅𔖪", "ˈalamantsa"],  // ACLT: á-lá/í-ma-za, acc. sg.
       pal: ["𐭭𐭠𐭬", "naːm"],
       fa_clas: ["نام", "naːm"],
       syc: ["ܫܡܐ", "ʃmaː"],

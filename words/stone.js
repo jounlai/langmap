@@ -1173,7 +1173,7 @@ WORDS.stone = {
     blc: ["tʼχt", "tʼχt"],
     blk: ["လုံး", "loŋ˥˧"],
     yuy: ["tʃəluu", "tʃəluː"],
-    xlu: ["āššu-", "ˈaːsːu"],
+    xlu: ["𔔯𔐓𔖢𔗔", "ˈaːsːus"],  // ACLT, TÜNP 1: (“SCALPRUM”)á-su-sa, nom. sg.
     kry: ["xud", "xud"],
     kqz: ["ǀʼuis", "ǀʔuis"],
     ktz: ["nǃòm", "ᵑǃòm"],

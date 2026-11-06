@@ -2312,7 +2312,7 @@ WORDS.foot = {
     xh: ["unyawo", "uɲaːwo"],  // Xhosa splits them the way Zulu does — umlenze is the leg (Kropf's Kafir-English Dictionary). IPA is the plain reading of the orthography, following how this row's own moon cell writes inyanga as iɲaːŋɡa.
     xhu: ["𒌋𒊑", "uri"],  // Wegner & Bomhard 2020 glossary p. 152. Not ugri, which Laroche cites only of the feet of furniture. Route unknown: no Hurrian leg word is attested.
     xkz: ["tawa", "tawa"],  // Hyslop's Kurtöp grammar files tawa as the reflex of rkang-pa and glosses tawa=i thila, literally 'leg's thumb', as the big toe of a foot.
-    xlu: ["pāta-", "ˈpaːta"],  // Melchert, Cuneiform Luwian Lexicon s.v. pāta-. Route unknown: the GLD names talla- as a candidate 'human leg' for Hittite and only guesses at Luwian.
+    xlu: ["𔑣𔕸𔐬", "ˈpada"],  // ACLT, SULTANHAN: (“PES”)pa-tà; Melchert, Cuneiform Luwian Lexicon s.v. pāta-. Route unknown: the GLD names talla- as a candidate 'human leg' for Hittite and only guesses at Luwian.
     xmf: ["კუჩხი", "kʼutʃxi"],  // Class inferred from Georgian and from the Svan cognate ჭიშხ 'foot, leg'. IPA is the plain reading of the orthography, following how this row's own hand cell writes ხე as xe.
     xmr: ["𐦯𐦴", "sata"],  // Rilly's glossary p. 184, 'st — foot, feet', read with the inherent vowel as this row's 𐦨𐦯 masa and 𐦠𐦶 ato are. Route unknown: no Meroitic leg word is attested. // was ["𐦯𐦴", "ˈsata"] (vi dialect rules 2026-10-06)
     xng: ["ᠬᠥᠯ", "køl"],  // Nugteren's comparative lexicon gives *köl 'foot, often also leg', with MMo Secret History kol (H103) and 華夷譯語 köl (M72).

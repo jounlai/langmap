@@ -956,7 +956,7 @@ WORDS.three = {
     txb: ["𑀢𑁆𑀭𑀬", "traj"],
     phn: ["𐤔𐤋𐤔", "ʃaloːʃ"],
     uga: ["𐎘𐎍𐎘", "θalaːθu"],
-    xlu: ["tarri-", "ˈtarːi"],
+    xlu: ["𔖸𔖩𔓯", "ˈtarːintsi"],  // ACLT, ASSUR letter a: 3-zi-i, nom. pl.
     pal: ["𐭮𐭧", "seː"],
     fa_clas: ["سه", "si"],
     syc: ["ܬܠܬ", "tlaːθ"],

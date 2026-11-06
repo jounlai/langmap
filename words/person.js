@@ -989,7 +989,7 @@ WORDS.person = {
     h_tagalog: ["ᜆᜂ", "taʔo"],
     osn: ["janma", "dʒanma"],
     kaw: ["ꦮ꧀ꦮꦁ", "wwaŋ"],
-    xlu: ["ziti-", "ˈtsiti"],
+    xlu: ["𔕟𔑣𔓯𔗔", "ˈtsidis"],  // ACLT, KARKAMIŠ A1b: VIR-ti-i-sa, nom. sg.
     en_em: ["person", "ˈpɛrsən"],
     de_lut: ["Mensch", "mɛnʃ"],
     pi_edu: ["manussa", "manusːa"],

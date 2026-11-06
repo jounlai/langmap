@@ -1023,7 +1023,7 @@ WORDS.dog = {
     txb: ["𑀓𑀼", "ku"],
     phn: ["𐤊𐤋𐤁", "kalb"],
     uga: ["𐎋𐎍𐎁", "kalbu"],
-    xlu: ["zuwana-", "tsuˈwana"],
+    xlu: ["𔑬𔗵𔗬𔗐𔖩", "ˈtsuwanintsi"],  // ACLT, ASSUR letter b: (“CANIS”)zú-wa/i-ni-zi, pl.; the clitics -ha-wa/i are left off.
     pal: ["𐭮𐭢", "saɡ"],
     fa_clas: ["سگ", "saɡ"],
     syc: ["ܟܠܒܐ", "kalbaː"],

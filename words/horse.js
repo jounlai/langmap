@@ -1069,7 +1069,7 @@ WORDS.horse = {
     pt_gw: ["kabalu", "kaˈbalu"],
     zh_yuan: ["馬", "ma"],
     pmh: ["अस्स", "asːa"],
-    xlu: ["azzu-", "ˈatsːu"],
+    xlu: ["𔑮𔗆", "ˈatsːus"],  // ACLT, TOPADA: EQUUS(ANIMA)-sa4, nom. sg.
     juc: ["muri", "muri"],
     ohu: ["ló", "loː"],
     onw: ["ⲙⲟⲩⲣⲧ", "murt"],

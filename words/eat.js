@@ -1022,7 +1022,7 @@ WORDS.eat = {
     txb: ["𑀰𑀼𑀯", "ɕuwa"],
     phn: ["𐤀𐤊𐤋", "ʔakal"],
     uga: ["𐎍𐎈𐎎", "laħam"],
-    xlu: ["ad-", "ad"],
+    xlu: ["𔐆𔐓𔗑𔐤", "ˈaruna"],  // ACLT, ÇİFTLİK: (“EDERE”)á-ru-na, infinitive of ad-, d written r.
     pal: ["𐭧𐭥𐭫𐭲𐭭", "xwardan"],
     fa_clas: ["خوردن", "xʷardan"],
     syc: ["ܐܟܠ", "ʔeχal"],

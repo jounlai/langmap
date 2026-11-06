@@ -562,7 +562,7 @@ WORDS.earth = {
     oar: ["ארק", "ʔarq"],
     xto: ["𑀢𑁆𑀓𑀁", "tkam"],
     txb: ["𑀓𑁂𑀁", "kem"],
-    xlu: ["tiyamma-", "ˈtijamma"],
+    xlu: ["𔓤𔑰𔗧𔖻𔓯", "ˈtakmi"],  // ACLT, SULTANHAN: (“TERRA”)ta-ka-mi-i, the hieroglyphic counterpart of Cuneiform Luwian tiyammi-.
     xpr: ["zamīg", "zamiːɡ"],
     sog: ["zʾy", "zaːj"],
     egy: ["𓇾", "ta"],

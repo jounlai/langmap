@@ -1214,7 +1214,7 @@ WORDS.four = {
     yuy: ["dørwen", "dørwen"],
     xav: ["maparane siʼuiwa", "mapaɾane siʔuiwa"],
     zh_yuan: ["四", "sɿ"],
-    xlu: ["māuwa-", "ˈmaːuwa"],
+    xlu: ["𔖻𔖩𔓯", "ˈmawintsi"],  // ACLT, ASSUR letter f+g: 4-zi-i, nom. pl.
     onw: ["ⲕⲉⲙⲥⲟ", "kemso"],
     pal: ["𐭰𐭧𐭠𐭫", "tʃahaːr"],
     aau: ["iha-iha-aw", "ihaiha aw"],

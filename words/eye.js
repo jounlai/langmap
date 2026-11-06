@@ -1022,7 +1022,7 @@ WORDS.eye = {
     txb: ["𑀏𑀓𑁆", "ek"],
     phn: ["𐤏𐤍", "ʕajin"],
     uga: ["𐎓𐎐", "ʕajnu"],
-    xlu: ["tawi-", "ˈtawi"],
+    xlu: ["𔑰𔗬", "ˈtawa"],  // ACLT, KARABURUN: ta-wa/i, acc. collective.
     pal: ["𐭰𐭱𐭬", "tʃaʃm"],
     fa_clas: ["چشم", "tʃaʃm"],
     syc: ["ܥܝܢܐ", "ʕajnaː"],

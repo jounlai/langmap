@@ -1101,7 +1101,7 @@ WORDS.daughter = {
     wuu_wz: ["奶儿", "na˧˦ ŋ̍˧˩"],  // The Wenzhou word as Wiktionary's dialect table writes it.
     nan_hai: ["查某囝", "sa˧˩ mɔu˨˩˧ kia˨˩˧"],
     nzm: ["pena", "pena"],
-    xlu: ["tuwatri-", "ˈtuwatri"],
+    xlu: ["𔐱𔕬𔗬𔖹𔐤", "ˈtuwatarin"],  // ACLT, TELL AHMAR 1: (FILIA)tú-wa/i-tara/i-na, acc. sg.
     cms: ["bilia", "ˈbilia"],
     ja_kanbun: ["女", "mɯsɯme"],
     nci: ["ichpōchtli", "itʃpoːtʃtɬi"],

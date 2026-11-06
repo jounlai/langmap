@@ -1058,7 +1058,7 @@ WORDS.mountain = {
     zh_yuan: ["山", "ʂan"],
     ptai: ["*doːj", "doːj"],
     pmh: ["गिरि", "ɡiri"],
-    xlu: ["watti-", "ˈwatːi"],
+    xlu: ["𔓬𔗬𔑣𔓯", "ˈwatːi"],  // ACLT, ANCOZ 8: (MONS)wa/i-ti-i, dat. sg.
     xag: ["bu", "bu"],
     txg: ["𘑗", "ŋər˧"],
     qwc: ["urqu", "uɾqu"],

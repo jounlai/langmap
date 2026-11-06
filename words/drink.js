@@ -1022,7 +1022,7 @@ WORDS.drink = {
     txb: ["𑀬𑁄𑀓𑁆", "jok"],
     phn: ["𐤔𐤕", "ʃat"],
     uga: ["𐎌𐎚𐎊", "ʃataju"],
-    xlu: ["ū-", "uː"],
+    xlu: ["𔐇𔐤", "ˈuna"],  // ACLT, ÇİFTLİK: “BIBERE”-na, infinitive; the clitic -ha is left off.
     pal: ["𐭧𐭥𐭠𐭫𐭩𐭲𐭭", "xwaːriːdan"],
     fa_clas: ["آشامیدن", "aːʃaːmiːdan"],
     syc: ["ܐܫܬܝ", "ʔeʃtiː"],

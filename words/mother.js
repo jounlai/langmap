@@ -1015,7 +1015,7 @@ WORDS.mother = {
     txb: ["𑀫𑀸𑀘𑁂𑀭𑁆", "maːtɕer"],
     phn: ["𐤀𐤌", "ʔem"],
     uga: ["𐎜𐎎", "ʔummu"],
-    xlu: ["anni-", "ˈanni"],
+    xlu: ["𔑘𔐤𔘟𔐤", "ˈannattin"],  // ACLT, KARATEPE 1: MATER-na-tí-na, acc. sg. of annatti-, the hieroglyphic stem beside Cuneiform Luwian anni-.
     pal: ["𐭬𐭠𐭲𐭫", "maːdar"],
     fa_clas: ["مادر", "maːdar"],
     syc: ["ܐܡܐ", "ʔemmaː"],

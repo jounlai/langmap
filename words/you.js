@@ -1023,7 +1023,7 @@ WORDS.you = {
       txb: ["𑀢𑀼𑀯𑁂", "tuwe"],
       phn: ["𐤀𐤕", "ʔatta"],
       uga: ["𐎀𐎚", "ʔatta"],
-      xlu: ["tī", "tiː"],
+      xlu: ["𔑣", "tiː"],  // ACLT, POTOROO: ti.
       pal: ["𐭲𐭥", "toː"],
       fa_clas: ["تو", "tu"],
       syc: ["ܐܢܬ", "ʔat"],

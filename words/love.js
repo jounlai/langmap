@@ -1016,7 +1016,7 @@ WORDS.love = {
     txb: ["—", "—"],
     phn: ["—", "—"],
     uga: ["𐎀𐎅𐎁", "ʔahaːbu"],
-    xlu: ["azza-", "ˈatsːa"],
+    xlu: ["𔖫𔐓𔖪𔑰", "ˈatsːanta"],  // ACLT, MARAŞ 1: (LITUUS)á-za-ta, 3 pl. past.
     pal: ["𐭣𐭥𐭱𐭠𐭫𐭬", "doːʃaːram"],
     fa_clas: ["عشق", "ʔiʃq"],
     syc: ["ܚܘܒܐ", "ħubbaː"],

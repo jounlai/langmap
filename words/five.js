@@ -760,7 +760,7 @@ WORDS.five = {
     txb: ["𑀧𑀺𑀰𑁆", "piɕ"],
     phn: ["𐤇𐤌𐤔", "ħameʃ"],
     uga: ["𐎃𐎎𐎌", "χamiʃu"],
-    xlu: ["panta", "ˈpanta"],
+    xlu: ["𔖼", "ˈpanta"],  // The numeral sign 5 as written in ACLT, KULULU lead strip 2. The inscriptions do not spell the word out; the IPA is the Cuneiform Luwian reading.
     pal: ["𐭯𐭭𐭰", "pandʒ"],
     fa_clas: ["پنج", "pandʒ"],
     syc: ["ܚܡܫ", "ħammeʃ"],

@@ -587,7 +587,7 @@ WORDS.head = {
     rgn: ["tësta", "ˈtɛsta"],
     wa: ["tiesse", "tjɛs"],
     fon: ["ta", "ta"],
-    xlu: ["ḫarmaḫi-", "ˈxarmaxi"],
+    xlu: ["𔐉𔓷𔖱𔒅𔗒", "ˈxarmaxi"],  // ACLT, CEKKE: (“CAPUT”)ha+ra/i-ma-hi; ha+ra/i is a ligature on the stone.
     tzo: ["jolol", "holol"],
     clk: ["e55ko55ɹɑ", "e˥˥ko˥˥ɹɑ"],
     jiu: ["vu33khɛ33", "vu˧˧kʰɛ˧˧"],

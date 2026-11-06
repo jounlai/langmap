@@ -1024,7 +1024,7 @@ WORDS.wine = {
     ja_kanbun: ["葡萄酒", "bɯdoːɕɯ"],
     zh_han: ["蒲陶酒", "bhā lhǝ̄w cjǝ́w"],
     sog: ["mδw", "maðu"],
-    xlu: ["maddu-", "ˈmatːu"],
+    xlu: ["𔒻𔒅𔕬𔑷", "ˈmatːusa"],  // ACLT, AKSARAY: (VITIS)ma-tú-sà.
     ja_edo: ["葡萄酒", "bɯdoːɕɯ"],
     xpr: ["my", "maj"],
     onw: ["ⲟⲣⲡⲁ", "orpa"],

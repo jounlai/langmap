@@ -1023,7 +1023,7 @@ WORDS.heart = {
     txb: ["𑀅𑀭𑀾𑀜𑁆𑀘𑁂", "araɲtɕe"],
     phn: ["𐤋𐤁", "lib"],
     uga: ["𐎍𐎁", "libbu"],
-    xlu: ["zārt-", "tsaːrt"],
+    xlu: ["𔖪𔖱𔖪", "ˈtsaːrtsa"],  // ACLT, KULULU 5: za+ra/i-za, acc. sg.
     pal: ["𐭣𐭩𐭫", "dil"],
     fa_clas: ["دل", "dil"],
     syc: ["ܠܒܐ", "lebbaː"],

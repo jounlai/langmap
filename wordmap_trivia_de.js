@@ -405,7 +405,7 @@ window.TRIVIA_I18N['de'] = {
     title: 'Sentinelesisch: die Sprache, die wir nie aufgezeichnet haben',
     summary: 'Von der Sprache der Insel North Sentinel gibt es keine brauchbare öffentliche Aufnahme oder Transkription. Da dauerhafter Kontakt verboten ist, bleibt ihre Verwandtschaft mit anderen andamanischen Sprachen unbestätigt.',
     body: `
-<p>Etwa 1.200 km östlich des indischen Festlands, im Golf von Bengalen, liegt eine kleine bewaldete Insel von etwa 60 Quadratkilometern. Sie heißt <strong>North Sentinel Island</strong>, und irgendwo im Inneren leben ein paar Dutzend bis einige hundert Menschen (indische Zensusschätzungen reichten von 15 bis etwa 100, alle vom Meer aus gezählt), die sich dauerhaftem Kontakt mit Außenstehenden widersetzt haben. Von ihrer Sprache ist keine brauchbare Aufnahme oder Transkription öffentlich zugänglich, und sie ist nicht mit Sicherheit klassifiziert.</p>
+<p>Etwa 1.200 km östlich des indischen Festlands, im Golf von Bengalen, liegt eine kleine bewaldete Insel von etwa 60 Quadratkilometern. Sie heißt <strong>North Sentinel Island</strong>, und irgendwo im Inneren lebt eine unbekannte Zahl von Menschen (indische Zensusschätzungen reichten von 15 bis etwa 100, alle vom Meer aus gezählt), die sich dauerhaftem Kontakt mit Außenstehenden widersetzt haben. Von ihrer Sprache ist keine brauchbare Aufnahme oder Transkription öffentlich zugänglich, und sie ist nicht mit Sicherheit klassifiziert.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="panto" data-lat="11.55" data-lng="92.24" data-zoom="8">🗺️ Nach North Sentinel Island fliegen</button>
@@ -413,7 +413,7 @@ window.TRIVIA_I18N['de'] = {
 
 <p>Die Sentinelesen gehören zu den <strong>Andamanesen</strong> — vermutlich Nachkommen einer der frühesten <em>Out-of-Africa</em>-Ausbreitungen, die die Andamanen möglicherweise vor zehntausenden Jahren erreichten. Kein Sentinelese hat je eine DNA-Probe abgegeben; genetische Studien ihrer Nachbarn, der Onge und Jarawa, ordnen diese Gruppen aber unter die am längsten isolierten Populationen des Planeten ein, und man nimmt an, dass die Sentinelesen diese Geschichte teilen. Ihre Nachbarn auf dem breiteren Archipel — die Großen Andamanesen, die Onge von Klein-Andaman und die Jarawa von Süd- und Mittel-Andaman — sprechen Sprachen, die in <strong>zwei nicht verwandte Familien</strong> fallen: Groß-Andamanesisch und die kleinere Ongan-Familie (Onge + Jarawa). Weil ihre Kanus, Bögen und ihre materielle Kultur denen der Onge und Jarawa ähneln, gilt Sentinelesisch meist als Ongan-Sprache. Versuche, tatsächlich mit ihnen zu reden, fanden jedoch keine gemeinsame Basis. In den 1880er Jahren sagte Portmans Onge-Begleiter Tomiti, die Sentinelesen sprächen eine Sprache, die er nicht verstehe; auch Onge-Besucher späterer Expeditionen erkannten nichts wieder, und 2001 probierten Volkszähler Jarawa-Wörter aus — ohne jede Reaktion. Mit welchen Sprachen auch immer es verwandt ist: Kein Sprecher einer bekannten andamanischen Sprache versteht es.</p>
 
-<p>Jeder dokumentierte Kontaktversuch ist entweder gescheitert oder endete in Gewalt:</p>
+<p>Die meisten dokumentierten Kontaktversuche sind gescheitert oder endeten in Gewalt:</p>
 
 <ul>
   <li><strong>1880</strong>: Der britische Kolonialoffizier <strong>Maurice Vidal Portman</strong> landete mit einer Suchgruppe, nahm ein älteres Paar und vier Kinder gefangen und brachte sie nach Port Blair. Die Erwachsenen erkrankten bald und starben, vermutlich an Infektionen, gegen die die Inselbewohner keine Immunität hatten. Die Kinder wurden mit Geschenken zur Insel zurückgebracht. Wörter der Gefangenen sind offenbar nicht überliefert.</li>
@@ -805,7 +805,7 @@ window.TRIVIA_I18N['de'] = {
 
 <p>Später verfeinerte <strong>Michail Sofronow</strong> die phonologische Rekonstruktion in den 1960er Jahren; <strong>Xenia Kepping</strong> arbeitete an Grammatik und rituellen Texten; Gong Hwang-cherng in Taipeh, Nishida Tatsuo in Kyoto und Li Fanwen in Ningxia schufen einen Großteil des modernen Gerüsts; heute veröffentlichen Forscher in Peking, Kyoto, Taipeh und St. Petersburg weiterhin Editionen neu katalogisierter Manuskripte. Wichtige Fragen sind noch offen: das genaue Tonsystem, die tiefere genetische Position innerhalb des Sino-Tibetischen, die Bedeutung Dutzender seltener Zeichen, die nur ein- oder zweimal im Korpus vorkommen.</p>
 
-<p>Tangutisch wurde in wenigen Jahren erfunden, fast fünf Jahrhunderte lang geschrieben und dann für vier vergessen. Wiederbelebt haben es nur Gelehrte: Niemand wird je wieder Tangutisch sprechen, doch dank eines Sprachführers, eines Schatzes in einem Stupa und eines Japanologen, der den Druck seines Werks nicht mehr erlebte, kann man es lesen.</p>
+<p>Tangutisch wurde in wenigen Jahren erfunden, fast fünf Jahrhunderte lang geschrieben und dann für drei vergessen. Wiederbelebt haben es nur Gelehrte: Niemand wird je wieder Tangutisch sprechen, doch dank eines Sprachführers, eines Schatzes in einem Stupa und eines Japanologen, der den Druck seines Werks nicht mehr erlebte, kann man es lesen.</p>
     `,
   },
 
@@ -1061,7 +1061,7 @@ window.TRIVIA_I18N['de'] = {
   <button type="button" class="trivia-action" data-action="focus" data-code="haw" data-zoom="5">🌍 Hawaiianisch auf der Karte zeigen</button>
 </div>
 
-<p>Das kleine Phoneminventar bringt viele vokalreiche Wörter hervor, darunter <em>humuhumunukunukuapuaʻa</em> (der Riff-Drückerfisch, der Staatsfisch Hawaiis), <em>pāhoehoe</em> und <em>ʻaʻā</em> (glatte und zerklüftete Lava — beide Begriffe direkt in die weltweite Geologie entlehnt) und <em>aloha</em>, das Hallo, Tschüss, Liebe und Mitgefühl bedeuten kann.</p>
+<p>Das kleine Phoneminventar bringt viele vokalreiche Wörter hervor, darunter <em>humuhumunukunukuāpuaʻa</em> (der Riff-Drückerfisch, der Staatsfisch Hawaiis), <em>pāhoehoe</em> und <em>ʻaʻā</em> (glatte und zerklüftete Lava — beide Begriffe direkt in die weltweite Geologie entlehnt) und <em>aloha</em>, das Hallo, Tschüss, Liebe und Mitgefühl bedeuten kann.</p>
 
 <p>Hawaiianisch stammt vom <strong>Proto-Polynesischen</strong> ab, von Seefahrern aus den Marquesas- und Gesellschaftsinseln gebracht. Hochpräzise Radiokarbondatierungen setzen diese Ankunft weit später an, als ältere Lehrbücher annahmen — heutige Schätzungen konzentrieren sich auf etwa <strong>1000 bis 1300 n. Chr.</strong>, also kaum tausend Jahre zurück. Die nächsten lebenden Verwandten sind Marquesanisch, Tahitianisch und Maori — und die historischen Entsprechungen sind so regelmäßig, dass ein Maori-Sprecher oft auf einen Blick ein hawaiianisches Kognat erraten kann (Maori <em>tangata</em> ↔ Hawaiianisch <em>kanaka</em>, "Person"; Maori <em>ika</em> ↔ Hawaiianisch <em>iʻa</em>, "Fisch": Das Hawaiianische machte aus altem <em>t</em> ein <em>k</em> und aus altem <em>k</em> den Glottisverschluss ʻ).</p>
 

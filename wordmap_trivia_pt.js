@@ -394,7 +394,7 @@ window.TRIVIA_I18N['pt'] = {
     title: 'Sentinelês: a língua que nunca registramos',
     summary: 'A língua da Ilha Sentinela do Norte não tem nenhuma gravação ou transcrição pública utilizável. Com o contato continuado proibido, sua relação com as outras línguas andamanesas segue sem confirmação.',
     body: `
-<p>A cerca de 1.200 km a leste da Índia continental, na Baía de Bengala, encontra-se uma pequena ilha florestada de aproximadamente 60 quilômetros quadrados. Chama-se <strong>Ilha Sentinela do Norte</strong> e, em algum lugar dela, vivem de algumas dezenas a algumas centenas de pessoas (as estimativas dos censos indianos variaram de 15 a cerca de 100, todas contadas do mar) que resistiram ao contato prolongado com forasteiros. Não há nenhuma gravação ou transcrição utilizável da sua língua disponível ao público, e ela não foi classificada com segurança.</p>
+<p>A cerca de 1.200 km a leste da Índia continental, na Baía de Bengala, encontra-se uma pequena ilha florestada de aproximadamente 60 quilômetros quadrados. Chama-se <strong>Ilha Sentinela do Norte</strong> e, em algum lugar dela, vive um número desconhecido de pessoas (as estimativas dos censos indianos variaram de 15 a cerca de 100, todas contadas do mar) que resistiram ao contato prolongado com forasteiros. Não há nenhuma gravação ou transcrição utilizável da sua língua disponível ao público, e ela não foi classificada com segurança.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="panto" data-lat="11.55" data-lng="92.24" data-zoom="8">🗺️ Voar até a Ilha Sentinela do Norte</button>
@@ -402,7 +402,7 @@ window.TRIVIA_I18N['pt'] = {
 
 <p>Os sentineleses são um dos povos <strong>andamaneses</strong> — acredita-se que descendem de uma das primeiras dispersões humanas <em>Para Fora da África</em>, podendo ter alcançado as Andamãs há dezenas de milhares de anos. Nenhum sentinelês jamais forneceu uma amostra de DNA; mas estudos genéticos de seus vizinhos, os Onge e os Jarawa, colocam esses grupos entre as populações isoladas por mais tempo no planeta, e presume-se que os sentineleses compartilhem essa história. Seus vizinhos no arquipélago mais amplo — os Grandes Andamaneses, os Onge da Pequena Andamã e os Jarawa do Andamão do Sul e Central — falam línguas que se enquadram em <strong>duas famílias não relacionadas</strong>: Grande Andamanês e a menor família Ongan (Onge + Jarawa). Como suas canoas, arcos e cultura material se parecem com os dos Onge e Jarawa, costuma-se presumir que o sentinelês seja uma língua ongan. As tentativas de conversa de verdade, porém, não encontraram nenhum terreno comum. Nos anos 1880, Tomiti, o acompanhante onge de Portman, disse que os sentineleses falavam uma língua que ele não entendia; visitantes onge em expedições posteriores também não reconheceram nada; e em 2001 os recenseadores experimentaram palavras jarawa, que ficaram sem resposta. Sejam quais forem seus parentes, a língua não é entendida por falantes de nenhuma língua andamanesa conhecida.</p>
 
-<p>Toda tentativa documentada de contato falhou ou terminou em violência:</p>
+<p>A maioria das tentativas documentadas de contato falhou ou terminou em violência:</p>
 
 <ul>
   <li><strong>1880</strong>: o oficial colonial britânico <strong>Maurice Vidal Portman</strong> desembarcou com uma equipe de busca, capturou um casal idoso e quatro crianças, e os levou para Port Blair. Os adultos logo adoeceram e morreram, provavelmente de infecções às quais os ilhéus não tinham imunidade. As crianças foram devolvidas à ilha com presentes. Nenhum vocabulário dos cativos parece ter sobrevivido.</li>
@@ -785,7 +785,7 @@ window.TRIVIA_I18N['pt'] = {
 
 <p>Mais tarde, <strong>Mikhail Sofronov</strong> refinou a reconstrução fonológica nos anos 1960; <strong>Ksenia Kepping</strong> trabalhou em gramática e textos rituais; Gong Hwang-cherng em Taipé, Nishida Tatsuo em Quioto e Li Fanwen em Ningxia ergueram boa parte do arcabouço moderno; hoje pesquisadores em Pequim, Quioto, Taipé e São Petersburgo continuam a publicar edições de manuscritos recém-catalogados. Questões significativas permanecem — o sistema tonal exato, a posição genética mais profunda dentro do sino-tibetano, o significado de dezenas de caracteres raros que ocorrem apenas uma ou duas vezes no corpus.</p>
 
-<p>O tangute foi inventado em poucos anos, escrito por quase cinco séculos e depois esquecido por quatro. Seu renascimento é coisa de estudiosos: ninguém voltará a falar tangute, mas graças a um manual de conversação, a um tesouro escondido numa estupa e a um japanólogo que não viveu para ver sua obra impressa, hoje é possível lê-lo.</p>
+<p>O tangute foi inventado em poucos anos, escrito por quase cinco séculos e depois esquecido por três. Seu renascimento é coisa de estudiosos: ninguém voltará a falar tangute, mas graças a um manual de conversação, a um tesouro escondido numa estupa e a um japanólogo que não viveu para ver sua obra impressa, hoje é possível lê-lo.</p>
     `,
   },
   'linear-a-undeciphered': {
@@ -1033,7 +1033,7 @@ window.TRIVIA_I18N['pt'] = {
   <button type="button" class="trivia-action" data-action="focus" data-code="haw" data-zoom="5">🌍 Mostrar havaiano no mapa</button>
 </div>
 
-<p>Seu pequeno inventário de fonemas produz muitas palavras ricas em vogais, entre elas <em>humuhumunukunukuapuaʻa</em> (o peixe-cabra-de-recife, peixe-símbolo do Havaí), <em>pāhoehoe</em> e <em>ʻaʻā</em> (lava lisa e lava acidentada — ambos os termos emprestados diretamente para a geologia em todo o mundo), e <em>aloha</em>, que pode significar olá, adeus, amor e compaixão.</p>
+<p>Seu pequeno inventário de fonemas produz muitas palavras ricas em vogais, entre elas <em>humuhumunukunukuāpuaʻa</em> (o peixe-cabra-de-recife, peixe-símbolo do Havaí), <em>pāhoehoe</em> e <em>ʻaʻā</em> (lava lisa e lava acidentada — ambos os termos emprestados diretamente para a geologia em todo o mundo), e <em>aloha</em>, que pode significar olá, adeus, amor e compaixão.</p>
 
 <p>O havaiano descende do <strong>proto-polinésio</strong>, trazido por navegadores das Marquesas e Ilhas da Sociedade. A datação por radiocarbono de alta precisão empurrou essa chegada para muito mais tarde do que supunham os manuais antigos — as estimativas atuais concentram-se entre cerca de <strong>1000 e 1300 d.C.</strong>, ou seja, mal mil anos atrás. Os parentes vivos mais próximos são o marquesano, taitiano e maori — e as correspondências históricas são tão regulares que um falante de maori muitas vezes pode adivinhar um cognato havaiano à primeira vista (maori <em>tangata</em> ↔ havaiano <em>kanaka</em>, "pessoa"; maori <em>ika</em> ↔ havaiano <em>iʻa</em>, "peixe": o havaiano transformou o antigo <em>t</em> em <em>k</em> e o antigo <em>k</em> na oclusiva glotal ʻ).</p>
 

@@ -393,7 +393,7 @@ window.TRIVIA_I18N['id'] = {
     title: 'Sentinel: bahasa yang belum pernah kita rekam',
     summary: 'Bahasa Pulau Sentinel Utara tidak memiliki rekaman atau transkripsi publik yang dapat dipakai. Karena kontak berkelanjutan dilarang, hubungannya dengan bahasa-bahasa Andaman lain belum dapat dipastikan.',
     body: `
-<p>Sekitar 1.200 km timur daratan India, di Teluk Benggala, terletak sebuah pulau berhutan kecil seluas kira-kira 60 kilometer persegi. Namanya <strong>Pulau Sentinel Utara</strong>, dan di suatu tempat di dalamnya tinggal beberapa lusin hingga beberapa ratus orang (perkiraan sensus India berkisar antara 15 dan sekitar 100, semuanya dihitung dari lepas pantai) yang telah menolak kontak berkelanjutan dengan orang luar. Mereka adalah <strong>orang Sentinel</strong>. Tidak ada rekaman atau transkripsi bahasa mereka yang bisa dipakai dan tersedia untuk umum, dan bahasa itu belum diklasifikasikan dengan yakin.</p>
+<p>Sekitar 1.200 km timur daratan India, di Teluk Benggala, terletak sebuah pulau berhutan kecil seluas kira-kira 60 kilometer persegi. Namanya <strong>Pulau Sentinel Utara</strong>, dan di suatu tempat di dalamnya tinggal entah berapa orang (perkiraan sensus India berkisar antara 15 dan sekitar 100, semuanya dihitung dari lepas pantai) yang telah menolak kontak berkelanjutan dengan orang luar. Mereka adalah <strong>orang Sentinel</strong>. Tidak ada rekaman atau transkripsi bahasa mereka yang bisa dipakai dan tersedia untuk umum, dan bahasa itu belum diklasifikasikan dengan yakin.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="panto" data-lat="11.55" data-lng="92.24" data-zoom="8">🗺️ Terbang ke Pulau Sentinel Utara</button>
@@ -401,7 +401,7 @@ window.TRIVIA_I18N['id'] = {
 
 <p>Orang Sentinel adalah salah satu masyarakat <strong>Andaman</strong> — diyakini berasal dari salah satu gelombang penyebaran manusia <em>Keluar Afrika</em> paling awal, yang mungkin mencapai Kepulauan Andaman puluhan ribu tahun yang lalu. Belum pernah ada orang Sentinel yang memberikan sampel DNA; tetapi studi genetik atas tetangga mereka, orang Onge dan Jarawa, menempatkan kedua kelompok itu di antara populasi yang paling lama terisolasi di planet ini, dan orang Sentinel diduga berbagi sejarah yang sama. Tetangga mereka di kepulauan yang lebih luas — orang Andaman Besar, Onge di Andaman Kecil, dan Jarawa di Andaman Selatan dan Tengah — berbicara bahasa yang termasuk dalam <strong>dua keluarga tidak terkait</strong>: Andaman Besar, dan keluarga Ongan yang lebih kecil (Onge + Jarawa). Karena kano, busur, dan budaya kebendaan mereka mirip dengan milik orang Onge dan Jarawa, bahasa Sentinel biasanya diduga termasuk bahasa Ongan. Namun upaya untuk benar-benar bercakap tak pernah menemukan titik temu. Pada 1880-an, pendamping Onge Portman, Tomiti, mengatakan orang Sentinel berbicara dalam bahasa yang tak bisa ia pahami; pengunjung Onge dalam ekspedisi-ekspedisi berikutnya juga tak mengenali apa pun; dan pada 2001 petugas sensus mencoba kata-kata Jarawa, yang tak mendapat tanggapan. Apa pun kerabatnya, bahasa ini tidak dipahami penutur bahasa Andaman mana pun yang dikenal.</p>
 
-<p>Setiap upaya kontak yang terdokumentasi telah gagal atau berakhir dengan kekerasan:</p>
+<p>Sebagian besar upaya kontak yang terdokumentasi gagal atau berakhir dengan kekerasan:</p>
 
 <ul>
   <li><strong>1880</strong>: Perwira kolonial Inggris <strong>Maurice Vidal Portman</strong> mendarat dengan tim pencari, menangkap pasangan tua dan empat anak, dan membawa mereka ke Port Blair. Orang dewasa segera jatuh sakit dan meninggal, kemungkinan karena infeksi yang tak bisa dilawan kekebalan tubuh penduduk pulau itu. Anak-anak dikembalikan ke pulau dengan hadiah. Tampaknya tak ada kosakata dari para tawanan itu yang tersimpan.</li>
@@ -784,7 +784,7 @@ window.TRIVIA_I18N['id'] = {
 
 <p>Kemudian <strong>Mikhail Sofronov</strong> menyempurnakan rekonstruksi fonologis pada 1960-an; <strong>Ksenia Kepping</strong> mengerjakan tata bahasa dan teks ritual; Gong Hwang-cherng di Taipei, Nishida Tatsuo di Kyoto, dan Li Fanwen di Ningxia membangun sebagian besar kerangka modernnya; hari ini peneliti di Beijing, Kyoto, Taipei, dan St Petersburg terus menerbitkan edisi manuskrip yang baru dikatalogkan. Masih ada pertanyaan penting: sistem nada yang tepat, posisi Tangut di dalam rumpun Sino-Tibet, dan makna lusinan karakter langka yang hanya muncul sekali atau dua kali dalam korpus.</p>
 
-<p>Tangut diciptakan dalam beberapa tahun, ditulis selama hampir lima abad, lalu dilupakan selama empat abad. Kebangkitannya adalah kebangkitan ilmiah: tak seorang pun akan berbicara bahasa Tangut lagi, tetapi berkat sebuah buku percakapan, timbunan harta dalam stupa, dan seorang Japanologis yang tak sempat melihat karyanya dicetak, orang kini bisa membacanya.</p>
+<p>Tangut diciptakan dalam beberapa tahun, ditulis selama hampir lima abad, lalu dilupakan selama tiga abad. Kebangkitannya adalah kebangkitan ilmiah: tak seorang pun akan berbicara bahasa Tangut lagi, tetapi berkat sebuah buku percakapan, timbunan harta dalam stupa, dan seorang Japanologis yang tak sempat melihat karyanya dicetak, orang kini bisa membacanya.</p>
     `
   },
   'linear-a-undeciphered': {
@@ -1033,7 +1033,7 @@ window.TRIVIA_I18N['id'] = {
   <button type="button" class="trivia-action" data-action="focus" data-code="haw" data-zoom="5">🌍 Tampilkan Hawaii di peta</button>
 </div>
 
-<p>Inventaris fonem yang kecil ini menghasilkan banyak kata yang kaya vokal, termasuk <em>humuhumunukunukuapuaʻa</em> (ikan triggerfish karang, ikan negara bagian Hawaiʻi), <em>pāhoehoe</em> dan <em>ʻaʻā</em> (lava halus dan bergerigi — kedua istilah dipinjam langsung ke geologi di seluruh dunia), serta <em>aloha</em>, yang bisa berarti halo, selamat tinggal, cinta, dan belas kasih.</p>
+<p>Inventaris fonem yang kecil ini menghasilkan banyak kata yang kaya vokal, termasuk <em>humuhumunukunukuāpuaʻa</em> (ikan triggerfish karang, ikan negara bagian Hawaiʻi), <em>pāhoehoe</em> dan <em>ʻaʻā</em> (lava halus dan bergerigi — kedua istilah dipinjam langsung ke geologi di seluruh dunia), serta <em>aloha</em>, yang bisa berarti halo, selamat tinggal, cinta, dan belas kasih.</p>
 
 <p>Hawaii diturunkan dari <strong>Proto-Polinesia</strong>, dibawa oleh pelayar dari Marquesas dan Kepulauan Society. Penanggalan radiokarbon presisi tinggi telah mendorong waktu kedatangan itu jauh lebih belakangan daripada dugaan buku teks lama — perkiraan saat ini berkisar antara sekitar <strong>1000 dan 1300 M</strong>, jadi baru sekitar seribu tahun yang lalu. Kerabat hidup terdekat adalah Marquesan, Tahiti, dan Māori — dan korespondensi historisnya begitu reguler sehingga penutur Māori sering dapat menebak kognat Hawaii dengan sekilas (Māori <em>tangata</em> ↔ Hawaii <em>kanaka</em>, "orang"; Māori <em>ika</em> ↔ Hawaii <em>iʻa</em>, "ikan": bahasa Hawaii mengubah <em>t</em> lama menjadi <em>k</em>, dan <em>k</em> lama menjadi henti glotal ʻ).</p>
 

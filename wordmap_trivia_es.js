@@ -392,7 +392,7 @@ window.TRIVIA_I18N['es'] = {
     title: 'Sentinelés: la lengua que nunca hemos registrado',
     summary: 'De la lengua de la isla Sentinel del Norte no existe ninguna grabación ni transcripción pública utilizable. Como está prohibido el contacto continuado, su relación con las demás lenguas andamanesas sigue sin confirmarse.',
     body: `
-  <p>A unos 1.200 km al este de la India continental, en la bahía de Bengala, se encuentra una pequeña isla boscosa de aproximadamente 60 kilómetros cuadrados. Se llama <strong>isla Sentinel del Norte</strong>, y en algún lugar de su interior viven entre unas pocas decenas y unos pocos cientos de personas (las estimaciones de los censos indios han oscilado entre 15 y unas 100, siempre contadas desde el mar) que se han resistido a un contacto sostenido con el exterior. No hay disponible públicamente ninguna grabación ni transcripción utilizable de su lengua, que tampoco se ha clasificado con seguridad.</p>
+  <p>A unos 1.200 km al este de la India continental, en la bahía de Bengala, se encuentra una pequeña isla boscosa de aproximadamente 60 kilómetros cuadrados. Se llama <strong>isla Sentinel del Norte</strong>, y en algún lugar de su interior vive un número desconocido de personas (las estimaciones de los censos indios han oscilado entre 15 y unas 100, siempre contadas desde el mar) que se han resistido a un contacto sostenido con el exterior. No hay disponible públicamente ninguna grabación ni transcripción utilizable de su lengua, que tampoco se ha clasificado con seguridad.</p>
 
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="panto" data-lat="11.55" data-lng="92.24" data-zoom="8">🗺️ Volar a la isla Sentinel del Norte</button>
@@ -400,7 +400,7 @@ window.TRIVIA_I18N['es'] = {
 
   <p>Los sentineleses son uno de los pueblos <strong>andamaneses</strong> — se cree que descienden de una de las primeras dispersiones humanas <em>fuera de África</em>, que pudieron llegar a las Andamán hace decenas de miles de años. Ningún sentinelés ha dado nunca una muestra de ADN; pero los estudios genéticos de sus vecinos, los onge y los jarawa, sitúan a esos grupos entre las poblaciones aisladas durante más tiempo del planeta, y se supone que los sentineleses comparten esa historia. Sus vecinos en el archipiélago más amplio — los gran andamaneses, los onge de la Pequeña Andamán, y los jarawa de Andamán Sur y Media — hablan lenguas que pertenecen a <strong>dos familias no emparentadas</strong>: gran andamanés, y la familia menor ongan (onge + jarawa). Como sus canoas, sus arcos y su cultura material se parecen a los de los onge y los jarawa, se suele suponer que el sentinelés es una lengua ongan. Pero los intentos de hablar de verdad con ellos no han encontrado ningún terreno común. En la década de 1880, Tomiti, el acompañante onge de Portman, dijo que los sentineleses hablaban una lengua que él no entendía; los visitantes onge de expediciones posteriores tampoco reconocieron nada, y en 2001 los agentes del censo probaron con palabras jarawa, que no obtuvieron respuesta. Sean cuales sean sus parientes, ningún hablante de una lengua andamanesa conocida la entiende.</p>
 
-  <p>Cada intento de contacto documentado ha fracasado o terminado en violencia:</p>
+  <p>La mayoría de los intentos de contacto documentados han fracasado o terminado en violencia:</p>
 
   <ul>
     <li><strong>1880</strong>: El oficial colonial británico <strong>Maurice Vidal Portman</strong> desembarcó con una partida de búsqueda, capturó a una pareja anciana y cuatro niños, y los llevó a Port Blair. Los adultos no tardaron en enfermar y morir, probablemente de infecciones ante las que los isleños no tenían inmunidad. Los niños fueron devueltos a la isla con regalos. No parece haberse conservado ni una palabra de vocabulario de los cautivos.</li>
@@ -781,7 +781,7 @@ window.TRIVIA_I18N['es'] = {
 
   <p>Tras Nevsky, <strong>Mikhail Sofronov</strong> refinó la reconstrucción fonológica en los años 60; <strong>Ksenia Kepping</strong> trabajó en gramática y textos rituales; Gong Hwang-cherng en Taipéi, Nishida Tatsuo en Kioto y Li Fanwen en Ningxia levantaron buena parte del marco moderno; hoy investigadores en Pekín, Kioto, Taipéi y San Petersburgo continúan publicando ediciones de manuscritos recién catalogados. Quedan preguntas significativas — el sistema tonal exacto, su lugar exacto dentro del árbol sino-tibetano, el significado de docenas de caracteres raros que aparecen solo una o dos veces en el corpus.</p>
 
-  <p>El tangut se inventó en pocos años, se escribió durante casi cinco siglos y luego quedó olvidado durante cuatro. Su resurrección es obra de eruditos: nadie volverá a hablar tangut, pero gracias a un manual de conversación, un tesoro escondido en una estupa y un japonólogo que no vivió para ver su obra impresa, hoy se puede leer.</p>
+  <p>El tangut se inventó en pocos años, se escribió durante casi cinco siglos y luego quedó olvidado durante tres. Su resurrección es obra de eruditos: nadie volverá a hablar tangut, pero gracias a un manual de conversación, un tesoro escondido en una estupa y un japonólogo que no vivió para ver su obra impresa, hoy se puede leer.</p>
     `,
   },
   'linear-a-undeciphered': {
@@ -1029,7 +1029,7 @@ window.TRIVIA_I18N['es'] = {
     <button type="button" class="trivia-action" data-action="focus" data-code="haw" data-zoom="5">🌍 Mostrar el hawaiano en el mapa</button>
   </div>
 
-  <p>Su pequeño inventario fonémico produce muchas palabras ricas en vocales, entre ellas <em>humuhumunukunukuapuaʻa</em> (el pez ballesta de arrecife, pez estatal de Hawái), <em>pāhoehoe</em> y <em>ʻaʻā</em> (lava lisa y lava dentada — ambos términos prestados directamente a la geología mundial), y <em>aloha</em>, que puede significar hola, adiós, amor y compasión.</p>
+  <p>Su pequeño inventario fonémico produce muchas palabras ricas en vocales, entre ellas <em>humuhumunukunukuāpuaʻa</em> (el pez ballesta de arrecife, pez estatal de Hawái), <em>pāhoehoe</em> y <em>ʻaʻā</em> (lava lisa y lava dentada — ambos términos prestados directamente a la geología mundial), y <em>aloha</em>, que puede significar hola, adiós, amor y compasión.</p>
 
   <p>El hawaiano desciende del <strong>protopolinesio</strong>, traído por navegantes de las Marquesas y las Islas de la Sociedad. La datación por radiocarbono de alta precisión ha hecho esa llegada mucho más reciente de lo que suponían los manuales antiguos — las estimaciones actuales se concentran entre aproximadamente el <strong>1000 y el 1300 d. C.</strong>, es decir, apenas hace un milenio. Los parientes vivos más cercanos son el marquesano, el tahitiano y el maorí — y las correspondencias históricas son tan regulares que un hablante maorí a menudo puede adivinar un cognado hawaiano de un vistazo (maorí <em>tangata</em> ↔ hawaiano <em>kanaka</em>, "persona"; maorí <em>ika</em> ↔ hawaiano <em>iʻa</em>, "pez": el hawaiano convirtió la antigua <em>t</em> en <em>k</em>, y la antigua <em>k</em> en la oclusiva glotal ʻ).</p>
 

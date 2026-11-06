@@ -393,7 +393,7 @@ window.TRIVIA_I18N['vi'] = {
     title: 'Sentinelese: ngôn ngữ hầu như không có tư liệu công khai',
     summary: 'Ngôn ngữ được sử dụng trên Đảo Bắc Sentinel. Vì không có bản ghi âm hay bản chép công khai đủ để nghiên cứu, quan hệ họ hàng của nó vẫn chưa được xác định.',
     body: `
-<p>Khoảng 1.200 km về phía đông đất liền Ấn Độ, ở Vịnh Bengal, có một hòn đảo rừng rộng khoảng 60 km² mang tên <strong>Đảo Bắc Sentinel</strong>. Trên đảo có vài chục đến vài trăm người sinh sống (các ước tính của điều tra dân số Ấn Độ dao động từ 15 đến khoảng 100 người, tất cả đều đếm từ ngoài khơi). <strong>Người Sentinel</strong> đã cưỡng lại việc tiếp xúc lâu dài với người ngoài, và hiện không có bản ghi âm hay bản chép ngôn ngữ công khai đủ cho nghiên cứu. Vì vậy, Sentinelese chưa được phân loại một cách đáng tin cậy.</p>
+<p>Khoảng 1.200 km về phía đông đất liền Ấn Độ, ở Vịnh Bengal, có một hòn đảo rừng rộng khoảng 60 km² mang tên <strong>Đảo Bắc Sentinel</strong>. Không rõ trên đảo có bao nhiêu người sinh sống (các ước tính của điều tra dân số Ấn Độ dao động từ 15 đến khoảng 100 người, tất cả đều đếm từ ngoài khơi). <strong>Người Sentinel</strong> đã cưỡng lại việc tiếp xúc lâu dài với người ngoài, và hiện không có bản ghi âm hay bản chép ngôn ngữ công khai đủ cho nghiên cứu. Vì vậy, Sentinelese chưa được phân loại một cách đáng tin cậy.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="panto" data-lat="11.55" data-lng="92.24" data-zoom="8">🗺️ Bay đến Đảo Bắc Sentinel</button>
@@ -401,7 +401,7 @@ window.TRIVIA_I18N['vi'] = {
 
 <p>Người Sentinel là một trong những dân tộc <strong>Andaman</strong> — được tin là hậu duệ của một trong những đợt phân tán <em>Ra Khỏi Châu Phi</em> sớm nhất của loài người, có thể đã đến Andaman cách đây hàng chục nghìn năm. Chưa người Sentinel nào từng cho mẫu ADN; nhưng các nghiên cứu di truyền về láng giềng của họ là người Onge và Jarawa xếp các nhóm này vào số những quần thể bị cô lập lâu đời nhất hành tinh, và người Sentinel được cho là có chung lịch sử ấy. Các láng giềng của họ trên quần đảo rộng hơn — Người Đại Andaman, Onge của Đảo Tiểu Andaman, và Jarawa của Nam và Trung Andaman — nói các ngôn ngữ thuộc <strong>hai họ không liên quan</strong>: Đại Andaman, và họ Ongan nhỏ hơn (Onge + Jarawa). Vì thuyền độc mộc, cung tên và văn hóa vật chất của họ giống của người Onge và Jarawa, Sentinelese thường được mặc định là một ngôn ngữ Ongan. Thế nhưng những lần thử trò chuyện thực sự đều không tìm ra điểm chung nào. Vào thập niên 1880, Tomiti, người bạn đồng hành người Onge của Portman, nói rằng người Sentinel nói một thứ tiếng anh không hiểu; những người Onge tham gia các chuyến thám hiểm sau này cũng chẳng nhận ra được gì; và năm 2001, các nhân viên điều tra dân số thử dùng từ tiếng Jarawa nhưng không nhận được phản hồi nào. Dù họ hàng của nó là ai, người nói bất kỳ ngôn ngữ Andaman nào đã biết cũng không hiểu được nó.</p>
 
-<p>Mọi nỗ lực tiếp xúc được ghi chép đều hoặc thất bại hoặc kết thúc bằng bạo lực:</p>
+<p>Phần lớn các nỗ lực tiếp xúc được ghi chép đều thất bại hoặc kết thúc bằng bạo lực:</p>
 
 <ul>
   <li><strong>1880</strong>: Sĩ quan thuộc địa Anh <strong>Maurice Vidal Portman</strong> đã đổ bộ với một nhóm tìm kiếm, bắt một cặp vợ chồng cao tuổi và bốn đứa trẻ, và đưa họ đến Port Blair. Hai người lớn chẳng bao lâu đổ bệnh rồi qua đời, có lẽ vì những bệnh nhiễm trùng mà dân đảo không có miễn dịch. Những đứa trẻ được trả lại đảo cùng với quà tặng. Dường như không có từ vựng nào của những người bị bắt còn được lưu lại.</li>
@@ -786,7 +786,7 @@ window.TRIVIA_I18N['vi'] = {
 
 <p>Sau Nevsky, <strong>Mikhail Sofronov</strong> tinh chỉnh việc phục dựng âm vị vào những năm 1960; <strong>Ksenia Kepping</strong> làm việc về ngữ pháp và các văn bản nghi lễ; Củng Hoàng Thành (Gong Hwang-cherng) ở Đài Bắc, Nishida Tatsuo ở Kyoto và Lý Phạm Văn (Li Fanwen) ở Ninh Hạ đã dựng nên phần lớn khung lý thuyết hiện đại; ngày nay các nhà nghiên cứu ở Bắc Kinh, Kyoto, Đài Bắc và St Petersburg tiếp tục công bố các bản hiệu đính của những bản thảo mới được biên mục. Vẫn còn nhiều câu hỏi quan trọng: hệ thống thanh điệu chính xác là gì, tiếng Tangut đứng ở đâu trong phả hệ Hán-Tạng, và hàng chục chữ hiếm chỉ xuất hiện một hai lần trong kho văn bản có nghĩa gì.</p>
 
-<p>Chữ Tangut được phát minh trong vài năm, được viết suốt gần năm thế kỷ, rồi bị lãng quên bốn thế kỷ. Sự hồi sinh của nó là sự hồi sinh trong học thuật: sẽ không còn ai nói tiếng Tangut nữa, nhưng nhờ một cuốn sách song ngữ, một kho sách trong bảo tháp và một nhà Nhật Bản học không kịp sống để thấy công trình của mình được in, giờ đây người ta có thể đọc được nó.</p>
+<p>Chữ Tangut được phát minh trong vài năm, được viết suốt gần năm thế kỷ, rồi bị lãng quên ba thế kỷ. Sự hồi sinh của nó là sự hồi sinh trong học thuật: sẽ không còn ai nói tiếng Tangut nữa, nhưng nhờ một cuốn sách song ngữ, một kho sách trong bảo tháp và một nhà Nhật Bản học không kịp sống để thấy công trình của mình được in, giờ đây người ta có thể đọc được nó.</p>
     `,
   },
   'linear-a-undeciphered': {
@@ -1035,7 +1035,7 @@ window.TRIVIA_I18N['vi'] = {
   <button type="button" class="trivia-action" data-action="focus" data-code="haw" data-zoom="5">🌍 Hiển thị Hawaii trên bản đồ</button>
 </div>
 
-<p>Âm tiết mở và chuỗi nguyên âm xuất hiện thường xuyên trong tiếng Hawaii. Ví dụ gồm <em>humuhumunukunukuapuaʻa</em> (một loài cá bò, cá biểu tượng của bang Hawaii), <em>pāhoehoe</em> và <em>ʻaʻā</em> (hai thuật ngữ về dung nham đã được mượn vào địa chất học quốc tế), cùng <em>aloha</em>, từ được dùng khi chào, tạm biệt và để biểu đạt tình yêu hoặc lòng trắc ẩn.</p>
+<p>Âm tiết mở và chuỗi nguyên âm xuất hiện thường xuyên trong tiếng Hawaii. Ví dụ gồm <em>humuhumunukunukuāpuaʻa</em> (một loài cá bò, cá biểu tượng của bang Hawaii), <em>pāhoehoe</em> và <em>ʻaʻā</em> (hai thuật ngữ về dung nham đã được mượn vào địa chất học quốc tế), cùng <em>aloha</em>, từ được dùng khi chào, tạm biệt và để biểu đạt tình yêu hoặc lòng trắc ẩn.</p>
 
 <p>Tiếng Hawaii xuất phát từ <strong>Proto-Polynesian</strong>, do những người đi biển từ Quần đảo Marquesas và Society mang đến. Phương pháp định tuổi bằng carbon phóng xạ độ chính xác cao đã đẩy thời điểm họ đặt chân đến Hawaii muộn hơn nhiều so với giả định của các sách giáo khoa cũ — ước tính hiện nay tập trung vào khoảng <strong>năm 1000 đến 1300 sau Công nguyên</strong>, tức chỉ khoảng một nghìn năm trước. Những ngôn ngữ họ hàng còn sống gần gũi nhất là Marquesan, Tahitian và Māori, và các tương ứng lịch sử đều đặn đến nỗi người nói Māori thường đoán ngay được từ cùng gốc trong tiếng Hawaii (Māori <em>tangata</em> ↔ Hawaii <em>kanaka</em>, "người"; Māori <em>ika</em> ↔ Hawaii <em>iʻa</em>, "cá": tiếng Hawaii đã biến <em>t</em> cũ thành <em>k</em>, và <em>k</em> cũ thành âm tắc thanh hầu ʻ).</p>
 

@@ -985,7 +985,7 @@ const TRIVIA_ARTICLES = [
       },
       body: {
         en: `
-  <p>About 1,200 km east of mainland India, in the Bay of Bengal, lies a small forested island of roughly 60 square kilometres. It is called <strong>North Sentinel Island</strong>, and somewhere inside it live a few dozen to a few hundred people (Indian census estimates have ranged from 15 to about 100, all counted from offshore) who have resisted sustained contact from outsiders. No usable recording or transcription of their language is publicly available, and it has not been classified with confidence.</p>
+  <p>About 1,200 km east of mainland India, in the Bay of Bengal, lies a small forested island of roughly 60 square kilometres. It is called <strong>North Sentinel Island</strong>, and somewhere inside it live an unknown number of people (Indian census estimates have ranged from 15 to about 100, all counted from offshore) who have resisted sustained contact from outsiders. No usable recording or transcription of their language is publicly available, and it has not been classified with confidence.</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="panto" data-lat="11.55" data-lng="92.24" data-zoom="8">🗺️ Fly to North Sentinel Island</button>
@@ -993,7 +993,7 @@ const TRIVIA_ARTICLES = [
   
   <p>The Sentinelese are one of the <strong>Andamanese</strong> peoples — believed to descend from one of the earliest <em>Out of Africa</em> human dispersals that may have reached the Andamans tens of thousands of years ago. No Sentinelese has ever given a DNA sample; but genetic studies of their neighbours the Onge and Jarawa place those groups among the most long-isolated populations on the planet, and the Sentinelese are presumed to share that history. Their neighbours on the wider archipelago — the Great Andamanese, the Onge of Little Andaman, and the Jarawa of South and Middle Andaman — speak languages that fall into <strong>two unrelated families</strong>: Great Andamanese, and the smaller Ongan family (Onge + Jarawa). Because their canoes, bows and material culture resemble those of the Onge and Jarawa, Sentinelese is usually presumed to be an Ongan language. Attempts to actually talk, though, have found no common ground. In the 1880s Portman's Onge companion Tomiti said the Sentinelese spoke a language he could not understand; Onge visitors on later expeditions recognised nothing either; and in 2001 census enumerators tried out Jarawa words, which met no response. Whatever its relatives, Sentinelese is not understood by speakers of any known Andamanese language.</p>
   
-  <p>Every documented attempt at contact has either failed or ended in violence:</p>
+  <p>Most documented attempts at contact have failed or ended in violence:</p>
   
   <ul>
     <li><strong>1880</strong>: British colonial officer <strong>Maurice Vidal Portman</strong> landed with a search party, captured an elderly couple and four children, and brought them to Port Blair. The adults soon fell ill and died, probably of infections to which the islanders had no immunity. The children were returned to the island with gifts. No vocabulary from the captives appears to have survived.</li>
@@ -1013,7 +1013,7 @@ const TRIVIA_ARTICLES = [
   <p>It is the rarest of linguistic situations: a living, breathing human language, used every day, that we have agreed as a species not to study. Whether that agreement will survive the 21st century is uncertain. For now, the Sentinelese remain the people who will not be interviewed. Their language is the one tongue in this collection that we describe not because we know it, but because we know we don't.</p>
         `,
         ja: `
-  <p>インド本土から東に約1,200km、ベンガル湾の中に、面積60平方キロほどの森林に覆われた小島がある。<strong>北センチネル島</strong>と呼ばれるその島に、数十人から数百人の人々が住んでいる（インドの国勢調査の推計は15人から約100人までと幅があり、いずれも沖合から数えたものだ）。彼らは外部との継続的な接触を拒み続けてきた。これが<strong>センチネル族</strong>である。その言語の実用的な録音や転写は公開されておらず、系統も確かには分類されていない。</p>
+  <p>インド本土から東に約1,200km、ベンガル湾の中に、面積60平方キロほどの森林に覆われた小島がある。<strong>北センチネル島</strong>と呼ばれるその島には、人数のわからない人々が住んでいる（インドの国勢調査の推計は15人から約100人までと幅があり、いずれも沖合から数えたものだ）。彼らは外部との継続的な接触を拒み続けてきた。これが<strong>センチネル族</strong>である。その言語の実用的な録音や転写は公開されておらず、系統も確かには分類されていない。</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="panto" data-lat="11.55" data-lng="92.24" data-zoom="8">🗺️ 北センチネル島へ飛ぶ</button>
@@ -1021,7 +1021,7 @@ const TRIVIA_ARTICLES = [
   
   <p>センチネル族は<strong>アンダマン諸族</strong>の一支族であり、「出アフリカ」の初期の波の一つに連なる人々が数万年前にアンダマン諸島へ到達したものと考えられている。センチネル族がDNA試料を提供したことは一度もない。だが近隣のオンゲ族とジャラワ族の遺伝学的研究によれば、この二つの集団は地球上でもっとも長く孤立してきた人々に数えられ、センチネル族もその歴史を共有していると推定されている。同じ諸島の隣人──大アンダマン人、リトル・アンダマンのオンゲ族、南／中アンダマンのジャラワ族──が話す言語は、互いに無関係な<strong>大アンダマン語族</strong>と<strong>オンガン語族</strong>（オンゲ語＋ジャラワ語）の二つに分類される。カヌーや弓などの物質文化がオンゲ族・ジャラワ族のものに似ていることから、センチネル語はふつうオンガン語族の一員と推定されている。だが実際に言葉を交わそうとした試みでは、通じ合うものは何ひとつ見つからなかった。1880年代、ポートマンに同行したオンゲ族のトミティは、センチネル族は自分にはわからない言葉を話していると言った。その後の探検に加わったオンゲ族の人々も何も聞き分けられず、2001年には国勢調査員がジャラワ語の単語を試してみたが、反応はなかった。系統がどうであれ、既知のどのアンダマン語の話者にも通じない言語なのである。</p>
   
-  <p>記録に残る接触の試みは、いずれも失敗するか流血で終わった:</p>
+  <p>記録に残る接触の試みの多くは、失敗するか流血で終わった:</p>
   
   <ul>
     <li><strong>1880年</strong>：イギリス植民地官 <strong>モーリス・V・ポートマン</strong>が探検隊で上陸、高齢の夫婦と子供4人を拘束し、ポート・ブレアに連行した。夫婦はほどなく病に倒れて死亡した。おそらく島民に免疫のない感染症によるものだ。子供たちは贈り物と共に島に返された。捕虜たちから得た語彙は、何ひとつ残っていないようだ。</li>
@@ -1898,7 +1898,7 @@ const TRIVIA_ARTICLES = [
   
   <p>After Nevsky, <strong>Mikhail Sofronov</strong> refined the phonological reconstruction in the 1960s; <strong>Ksenia Kepping</strong> worked on grammar and ritual texts; Gong Hwang-cherng in Taipei, Nishida Tatsuo in Kyoto and Li Fanwen in Ningxia built much of the modern framework; today researchers in Beijing, Kyoto, Taipei and St Petersburg continue to publish editions of newly catalogued manuscripts. Significant questions remain — the exact tone system, the deeper genetic position within Sino-Tibetan, the meaning of dozens of rare characters that occur only once or twice in the corpus.</p>
   
-  <p>Tangut was invented in a few years, written for nearly five centuries, then forgotten for four. Its revival is a scholarly one: no one will speak Tangut again, but thanks to a phrasebook, a hoard in a stupa and a Japanologist who did not live to see his work in print, people can read it.</p>
+  <p>Tangut was invented in a few years, written for nearly five centuries, then forgotten for three. Its revival is a scholarly one: no one will speak Tangut again, but thanks to a phrasebook, a hoard in a stupa and a Japanologist who did not live to see his work in print, people can read it.</p>
         `,
         ja: `
   <p>西暦1036年、<strong>西夏（Xixia）</strong>王朝の初代皇帝<strong>李元昊（り・げんこう）</strong>は、自らの民タングート族にふさわしい文字を持つよう命じた。学者・野利仁栄がわずか数年で<strong>約6000字</strong>の表意文字を一気に設計したとされる。漢字に似ているが漢字から借りていない、完全に新設計の文字体系──それが<strong>西夏文（Tangut script）</strong>である。</p>
@@ -1929,7 +1929,7 @@ const TRIVIA_ARTICLES = [
   
   <p>その後、<strong>ミハイル・ソフロノフ</strong>が音韻復元を精緻化し、<strong>クセニア・ケッピング</strong>が文法と儀礼文献を整備した。台北の龔煌城、京都の西田龍雄、寧夏の李範文らは、現代の研究の枠組みの多くを築いた。現在は北京・京都・台北・サンクトペテルブルクの研究者たちが、新出写本の校訂を続けている。声調体系の細部、シナ・チベット語族内の正確な位置、コーパス中に一・二回しか現れない希少字の意味──未解明の問いはまだ多い。</p>
   
-  <p>西夏文は数年で発明され、5世紀近く書き継がれ、そして4世紀にわたって忘れられた。その復活は学問の上でのものだ。西夏語を再び話す人はいないだろう。だが一冊の対訳語彙集と、仏塔に眠っていた書物の山と、自分の仕事が活字になるのを見ることなく逝った一人の日本学者のおかげで、人々はこの文字を読むことができる。</p>
+  <p>西夏文は数年で発明され、5世紀近く書き継がれ、そして3世紀にわたって忘れられた。その復活は学問の上でのものだ。西夏語を再び話す人はいないだろう。だが一冊の対訳語彙集と、仏塔に眠っていた書物の山と、自分の仕事が活字になるのを見ることなく逝った一人の日本学者のおかげで、人々はこの文字を読むことができる。</p>
         `,
       },
       sources: [

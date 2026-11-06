@@ -146,7 +146,7 @@ window.TRIVIA_I18N['fr'] = {
   <button type="button" class="trivia-action" data-action="panto" data-lat="-6.20" data-lng="155.30" data-zoom="8" data-tiles="terrain">🌋 Zoomer sur la chaîne du Crown Prince</button>
 </div>
 
-<p>La leçon du Rotokas n'est pas que les langues plus simples sont « plus faciles » — un enfant rotokas apprend sa langue comme n'importe quel enfant ailleurs dans le monde apprend la sienne. C'est plutôt que <strong>la faculté de langage humaine a une marge remarquable dans les deux directions</strong>. D\'environ onze sons distinctifs à bien plus de cent, le système sous-jacent est le même.</p>
+<p>Un petit inventaire de phonèmes ne rend pas une langue « plus facile » : les enfants rotokas apprennent leur langue comme les enfants d'ailleurs apprennent la leur. Le Rotokas et le Taa montrent plutôt l'étendue que peuvent couvrir les systèmes sonores des langues parlées, d'environ onze sons distinctifs à bien plus de cent.</p>
     `
   },
   'ubykh-last-speaker': {
@@ -853,7 +853,7 @@ window.TRIVIA_I18N['fr'] = {
 
 <p>Les résultats sur l'aymara sont souvent discutés aux côtés des travaux de George Lakoff sur la métaphore conceptuelle et des expériences de Lera Boroditsky sur le temps et le langage. Ils indiquent que <strong>les métaphores spatiales pour les domaines abstraits ne sont pas universelles</strong> et peuvent varier selon les conventions linguistiques et culturelles.</p>
 
-<p>L'aymara est aussi remarquable à d'autres égards : la proposition contestée d\'Iván Guzmán de Rojas, dans les années 1980, selon laquelle sa grammaire refléterait une <em>logique à trois valeurs</em>, un système d'évidentialité obligatoire pas sans rappeler celui du tuyuca, et une édition dynamique en langue autochtone. Mais c'est le passé placé devant — le passé vu sous ses yeux, l'avenir invisible dans le dos — qui a fait tomber l'idée d'une métaphore du temps universelle.</p>
+<p>D'autres travaux sur l'aymara comprennent la proposition contestée d'Iván Guzmán de Rojas, dans les années 1980, selon laquelle sa grammaire refléterait une <em>logique à trois valeurs</em>, des recherches sur son système d'évidentialité obligatoire et un corpus croissant de publications en langue autochtone. Mais c'est le passé placé devant — le passé vu sous ses yeux, l'avenir invisible dans le dos — qui a fait tomber l'idée d'une métaphore du temps universelle.</p>
     `
   },
   'tuyuca-evidentials': {

@@ -81,6 +81,8 @@ const CITED = {
     'clerical-change-lishu': ['魚（鱼）', '馬（马）'],
     // the Guangyun fanqie entry cited as written, and the character its
     // data-char button opens.
+    // Japanese sentence quoted as Japanese: 飲む must keep its Japanese form.
+    'kokugo-versus-kango': ['を飲む</em>', '、飲む（和语）'],
     'rhyme-dictionaries-qieyun': ['東 <em>dōng</em>', '显示 東', 'data-char="東"', '東 <em>tuwng</em>'],
     // the Japanese words compared with their Chinese homographs (新聞紙 before 新聞).
     'cjkv-false-friends': ['手紙', '汽車', '愛人', '新聞紙', '新聞'],

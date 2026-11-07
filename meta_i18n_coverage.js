@@ -272,7 +272,7 @@ const META_I18N_COVERAGE_ATOMS = {
         'Vietnamese-derived': 'ベトナム語由来',
         'Pinyin': 'ピンイン', 'Pinyin-based': 'ピンインに基づく',
         'Old': '古',
-        'Old Persian': '古代ペルシア語',
+        'Old Persian': '古ペルシャ語',
         'Bronze': '青銅器',
         'Bronze Age': '青銅器時代',
         'Bronze Age Korean Peninsula / Liaoning': '青銅器時代の朝鮮半島・遼寧',

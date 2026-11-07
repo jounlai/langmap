@@ -490,7 +490,7 @@ Total: 1197 codes.
 | `jiu` | Jino | 基諾語 | Sino-Tibetan (Lolo-Burmese, Loloish) | ~21K |
 | `jiv` | Shuar | シュアル語 | Jivaroan | ~35K |
 | `jmc` | Machame | マチャメ語 | Atlantic-Congo (Bantu, Chaga) | ~470K |
-| `jpr` | Judeo-Persian | ユダヤ・ペルシア語 | Iranian | ~60K |
+| `jpr` | Judeo-Persian | ユダヤ・ペルシャ語 | Iranian | ~60K |
 | `jqr` | Jaqaru | ハカル語 | Aymaran | ~700 (severely endangered) |
 | `juc` | Jurchen | 女真語 | Tungusic (Jurchen-Manchu) | Extinct (~12th-16th c. CE; merged into Manchu) |
 | `jup` | Hup | フプ語 | Nadahup | ~1.5K (Brazil, Colombia) |
@@ -816,7 +816,7 @@ Total: 1197 codes.
 | `pa` | Punjabi | パンジャーブ語 | Indo-Aryan | ~150M |
 | `pafa` | Proto-Afroasiatic | アフロ・アジア祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
 | `pag` | Pangasinan | パンガシナン語 | Austronesian (Northern Luzon) | ~2M |
-| `pal` | Middle Persian | 中世ペルシア語 | Indo-European (Iranian, Middle, Southwestern) | Extinct as L1; Zoroastrian liturgical use |
+| `pal` | Middle Persian | 中世ペルシャ語 | Indo-European (Iranian, Middle, Southwestern) | Extinct as L1; Zoroastrian liturgical use |
 | `pam` | Kapampangan | カパンパンガン語 | Austronesian (Central Luzon) | ~3M |
 | `pao` | Northern Paiute | 北パイユート語 | Uto-Aztecan (Numic, Western) | ~700 |
 | `pap` | Papiamento | パピアメント語 | Iberian-based creole | ~330K |
@@ -830,7 +830,7 @@ Total: 1197 codes.
 | `pdc` | Pennsylvania German | ペンシルベニア・ドイツ語 | Indo-European (Germanic, West, German) | ~270K |
 | `pdt` | Plautdietsch | プラウトディーチェ語 | Indo-European | ~400K |
 | `peh` | Bonan | 保安語 | Mongolic (Shirongolic) | ~6K (Bonan nationality ~20K) |
-| `peo` | Old Persian | 古ペルシア語 | Indo-European (Iranian, Old, Southwestern) | Extinct (~6th-4th c. BCE; royal Achaemenid) |
+| `peo` | Old Persian | 古ペルシャ語 | Indo-European (Iranian, Old, Southwestern) | Extinct (~6th-4th c. BCE; royal Achaemenid) |
 | `phn` | Phoenician | フェニキア語 | Afro-Asiatic (Northwest Semitic, Canaanite) | Extinct (~1500 BCE-3rd c. CE) |
 | `pi` | Pali | パーリ語 | Indo-European (Indo-Aryan, Middle) | Extinct (liturgical) |
 | `pi_edu` | Pedagogical Pali | 教学パーリ語 | Indo-European (Indo-Aryan, Middle; Theravada monastic pedagogy) | Active monastic/lay pedagogical use (Theravada) |

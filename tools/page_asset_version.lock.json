@@ -35,13 +35,17 @@
     "version": 5,
     "hash": "14cc4b70876a8e62"
   },
+  "map_boot.js": {
+    "version": 1,
+    "hash": "3331f819ae4b1265"
+  },
   "master.js": {
     "version": 31,
     "hash": "7b1a7f5ef57fec4c"
   },
   "my-languages.js": {
-    "version": 41,
-    "hash": "10482d1de1927600"
+    "version": 42,
+    "hash": "5ded554300e8c6ee"
   },
   "namemap_data.js": {
     "version": 14,

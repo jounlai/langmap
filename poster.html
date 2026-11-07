@@ -24,14 +24,12 @@
   </div>
   <div id="poster-wrap"><div id="poster-root"></div></div>
 
+  <script src="map_boot.js?v=1"></script>
   <script src="poster_geo.js?v=12"></script>
   <script src="poster_langs.js?v=12"></script>
   <script src="poster_render.js?v=12"></script>
   <script>
     (function () {
-      // Self-hosted + simplified copy (see wordmap.html); the remote original
-      // is 14.6 MB at full resolution.
-      const SRC = 'countries.geojson?v=1';
       // Google Fonts subsets are lazy-loaded per script and NOT covered by
       // document.fonts.ready until something uses them. Canvas measureText on an
       // unloaded script (Arabic, Bengali, …) returns fallback/.notdef metrics,
@@ -69,7 +67,7 @@
         sel.appendChild(o);
       });
       sel.value = currentWord;
-      Promise.all([fetch(SRC).then(r => r.json()), preloadFonts()]).then(([geojson]) => {
+      Promise.all([window.loadCountries(), preloadFonts()]).then(([geojson]) => {
         draw(geojson);
         // Safety net: if any subset was still settling at measure time, redraw
         // once every font is truly ready so no country is wrongly dropped.

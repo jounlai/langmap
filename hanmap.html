@@ -126,8 +126,7 @@
          characters render as tofu boxes on most systems. -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&family=Noto+Serif:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+TC:wght@400;700&family=Noto+Serif+KR:wght@400;700&family=Noto+Serif+Thai&family=Noto+Serif+Tibetan:wght@400;700&family=Noto+Sans+Yi&family=Charis+SIL:wght@400;700&family=Noto+Serif+Tangut&family=Noto+Sans+Old+Turkic&family=Noto+Sans+Mongolian&family=Noto+Sans+Sogdian&family=Noto+Sans+Phags+Pa&family=Noto+Sans+Manichaean&family=Noto+Sans+Egyptian+Hieroglyphs&family=Noto+Sans+Meroitic&family=Noto+Sans+Sundanese&family=Noto+Sans+Tagalog&family=Noto+Sans+Coptic&family=Noto+Sans+New+Tai+Lue&display=swap" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&family=Noto+Serif:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+TC:wght@400;700&family=Noto+Serif+KR:wght@400;700&family=Noto+Serif+Thai&family=Noto+Serif+Tibetan:wght@400;700&family=Noto+Sans+Yi&family=Charis+SIL:wght@400;700&family=Noto+Serif+Tangut&family=Noto+Sans+Old+Turkic&family=Noto+Sans+Mongolian&family=Noto+Sans+Sogdian&family=Noto+Sans+Phags+Pa&family=Noto+Sans+Manichaean&family=Noto+Sans+Egyptian+Hieroglyphs&family=Noto+Sans+Meroitic&family=Noto+Sans+Sundanese&family=Noto+Sans+Tagalog&family=Noto+Sans+Coptic&family=Noto+Sans+New+Tai+Lue&display=swap"></noscript>
+    <noscript data-late-fonts><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&family=Noto+Serif:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+TC:wght@400;700&family=Noto+Serif+KR:wght@400;700&family=Noto+Serif+Thai&family=Noto+Serif+Tibetan:wght@400;700&family=Noto+Sans+Yi&family=Charis+SIL:wght@400;700&family=Noto+Serif+Tangut&family=Noto+Sans+Old+Turkic&family=Noto+Sans+Mongolian&family=Noto+Sans+Sogdian&family=Noto+Sans+Phags+Pa&family=Noto+Sans+Manichaean&family=Noto+Sans+Egyptian+Hieroglyphs&family=Noto+Sans+Meroitic&family=Noto+Sans+Sundanese&family=Noto+Sans+Tagalog&family=Noto+Sans+Coptic&family=Noto+Sans+New+Tai+Lue&display=swap"></noscript>
     <!-- Old Hangul Jamo (U+1100-11FF) for ko_mid / ko_em is now served
          from a self-hosted Noto Serif KR subset with explicit
          unicode-range scoping; see the @font-face block below. -->
@@ -149,7 +148,7 @@
            the two NomNaTong is missing — filled from Hanazono Mincho B.
          Combined transfer: ~9 KB, only when one of the 28 codepoints
          appears on the page (unicode-range scoping). -->
-    <style>
+    <style media="print" data-late-fonts>
         @font-face {
             font-family: 'Nom Serif Subset';
             font-style: normal;
@@ -375,7 +374,7 @@
          for "Noto Serif Khitan Small Script"). Load the Serif variant
          directly from the notofonts.github.io CDN via jsDelivr so 𘲺 𘭧
          𘬣 𘰕𘯛 (zkt) actually render instead of becoming □ / ☒. -->
-    <style>
+    <style media="print" data-late-fonts>
         @font-face {
             font-family: 'Noto Serif Khitan Small Script';
             font-style: normal;
@@ -3564,6 +3563,7 @@
         <path class="conn-path" d="" marker-end="url(#conn-arrow)"></path>
     </svg>
 
+    <script src="map_boot.js?v=1"></script>
     <script src="/vendor/leaflet-1.9.4/leaflet.js"></script>
     <!-- Hanmap: 3D globe view is intentionally hidden (the toggle button is
          display:none — see styles around line 402). Globe.gl (~1 MB) is NOT
@@ -5221,9 +5221,7 @@
         // remote original is 14.6 MB / 4.6 MB gz at full resolution and both
         // downloaded it on every page load; the local copy is 1.9 MB / 0.6 MB gz
         // and comes off our own CDN. Regenerate with tools/build_countries_geojson.js.
-        fetch('countries.geojson?v=1')
-            .then(r => r.json())
-            .then(geojson => {
+        window.loadCountries().then(geojson => {
                 L.geoJSON(geojson, {
                     style: (feature) => {
                         let name = feature.properties.ADMIN || feature.properties.name || '';
@@ -12742,11 +12740,15 @@
             return _hanTriviaPromise;
         }
         window.__hmLoadTrivia = loadHanTrivia;
-        if (document.readyState === 'complete') setTimeout(loadHanTrivia, 0);
-        else window.addEventListener('load', () => {
-            if (window.requestIdleCallback) requestIdleCallback(loadHanTrivia, { timeout: 4000 });
-            else setTimeout(loadHanTrivia, 600);
-        }, { once: true });
+        // After the map: on a slow line these 320 KB would otherwise share it with
+        // the borders (map_boot.js).
+        window.whenMapReady(() => {
+            if (document.readyState === 'complete') setTimeout(loadHanTrivia, 0);
+            else window.addEventListener('load', () => {
+                if (window.requestIdleCallback) requestIdleCallback(loadHanTrivia, { timeout: 4000 });
+                else setTimeout(loadHanTrivia, 600);
+            }, { once: true });
+        });
 
         // Article bodies in languages other than English come from
         // hanmap_trivia_rt/<ui>.js, requested with base.js's own ?v= (the

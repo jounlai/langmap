@@ -579,6 +579,11 @@ line('trivia index links freshness', num(s, /stale: (\d+)/));
 s = cp.execSync(`node ${path.join(__dirname, 'generate_lang_codes_md.mjs')} --check`, { encoding: 'utf8' });
 line('LANG_CODES.md freshness', num(s, /stale: (\d+)/));
 
+// The borders readers download are built from countries.geojson; map_boot.js
+// asks for them by hash.
+s = run('build_countries_lite.js --check');
+line('countries_lite.js freshness', num(s, /stale: (\d+)/));
+
 s = run('build_lang_names.js --check');
 line('lang_names/ freshness', num(s, /stale: (\d+)/));
 

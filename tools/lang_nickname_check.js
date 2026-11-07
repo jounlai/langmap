@@ -22,7 +22,7 @@
  *      source. This is the check that stops a plausible-looking invention.
  *
  * Nicknames LONGER than the formal name are reported but not failed — a few
- * are (パフラヴィー語 beats 中世ペルシア語 for recognisability, not for width)
+ * are (パフラヴィー語 beats 中世ペルシャ語 for recognisability, not for width)
  * and that is a judgement, not a defect.
  *
  * Usage: node tools/lang_nickname_check.js [--check]

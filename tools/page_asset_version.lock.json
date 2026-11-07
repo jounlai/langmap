@@ -44,8 +44,8 @@
     "hash": "10482d1de1927600"
   },
   "namemap_data.js": {
-    "version": 13,
-    "hash": "8795091840bea3fd"
+    "version": 14,
+    "hash": "c02528c08be86d41"
   },
   "namemap_i18n.js": {
     "version": 3,
@@ -56,8 +56,8 @@
     "hash": "1725c7a21734a986"
   },
   "namemap_names_ext.js": {
-    "version": 13,
-    "hash": "93c5dfdc44638a85"
+    "version": 14,
+    "hash": "ac59f94d6e780b8c"
   },
   "namemap_trivia_rt/base.js": {
     "version": 21,
@@ -112,7 +112,7 @@
     "hash": "f95045213f266fd5"
   },
   "word_manifest.js": {
-    "version": 1498,
+    "version": 1499,
     "hash": "c5957e7cde62eb26"
   },
   "wordmap_data.js": {

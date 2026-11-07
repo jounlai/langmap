@@ -43,7 +43,7 @@ WORDS.earthquake = {
   },
   definition: {
     en: "Earthquake — the ground shaking. Much of the world says just that: German Erdbeben, Spanish terremoto, Hindi भूकंप, Chinese 地震 and Vietnamese động đất are all \"earth\" plus \"shake\". Arabic zalzala spread across the Islamic world, to Persian زلزله, Urdu زلزلہ and Uzbek zilzila, while the Philippines has words of its own such as linog.",
-    ja: "地震 — 大地が揺れること。世界の多くの言語はそのまま言う。ドイツ語 Erdbeben、スペイン語 terremoto、ヒンディー語 भूकंप、中国語 地震、ベトナム語 động đất は、どれも「大地」と「揺れ」でできている。アラビア語 zalzala はイスラム世界に広まり、ペルシア語 زلزله、ウルドゥー語 زلزلہ、ウズベク語 zilzila になった。フィリピンには linog のような独自の語がある。",
+    ja: "地震 — 大地が揺れること。世界の多くの言語はそのまま言う。ドイツ語 Erdbeben、スペイン語 terremoto、ヒンディー語 भूकंप、中国語 地震、ベトナム語 động đất は、どれも「大地」と「揺れ」でできている。アラビア語 zalzala はイスラム世界に広まり、ペルシャ語 زلزله、ウルドゥー語 زلزلہ、ウズベク語 zilzila になった。フィリピンには linog のような独自の語がある。",
     ko: "지진 — 땅이 흔들리는 것. 세계의 많은 언어가 그대로 말한다. 독일어 Erdbeben, 스페인어 terremoto, 힌디어 भूकंप, 중국어 地震, 베트남어 động đất은 모두 ‘땅’과 ‘흔들림’으로 되어 있다. 아랍어 zalzala는 이슬람 세계로 퍼져 페르시아어 زلزله, 우르두어 زلزلہ, 우즈베크어 zilzila가 되었고, 필리핀에는 linog 같은 고유한 말이 있다.",
     zh: "地震——大地摇动。世界上许多语言就是这么说的：德语 Erdbeben、西班牙语 terremoto、印地语 भूकंप、汉语 地震、越南语 động đất 都是“地”加“震”。阿拉伯语 zalzala 传遍伊斯兰世界，到了波斯语 زلزله、乌尔都语 زلزلہ 和乌兹别克语 zilzila，菲律宾则有 linog 这样自己的词。",
     yue: "地震——大地郁動。世界好多語言就係咁講：德語 Erdbeben、西班牙語 terremoto、印地語 भूकंप、漢語 地震、越南語 động đất 都係「地」加「震」。阿拉伯語 zalzala 傳遍伊斯蘭世界，去到波斯語 زلزله、烏爾都語 زلزلہ 同烏茲別克語 zilzila，菲律賓就有 linog 呢類自己嘅詞。",

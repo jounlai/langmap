@@ -45,7 +45,7 @@ WORDS.potato = {
   },
   definition: {
     en: "Potato — the tuber of Solanum tuberosum (not the sweet potato). It left the Andes in the 16th century, and each language had to decide what it was: Spanish kept Quechua papa, French, Dutch, Hebrew and Persian called it an \"apple of the earth\", German and Russian named it after the truffle, Japanese after Jakarta.",
-    ja: "じゃがいも — ジャガイモ（Solanum tuberosum）の塊茎。サツマイモではない。16世紀にアンデスを出て各地に渡り、受け入れた言語はそれが何なのかを決めなければならなかった。スペイン語はケチュア語のpapaをそのまま使い、フランス語・オランダ語・ヘブライ語・ペルシア語は「大地のりんご」と呼び、ドイツ語とロシア語はトリュフにたとえ、日本語はジャカルタの名で呼んだ。",
+    ja: "じゃがいも — ジャガイモ（Solanum tuberosum）の塊茎。サツマイモではない。16世紀にアンデスを出て各地に渡り、受け入れた言語はそれが何なのかを決めなければならなかった。スペイン語はケチュア語のpapaをそのまま使い、フランス語・オランダ語・ヘブライ語・ペルシャ語は「大地のりんご」と呼び、ドイツ語とロシア語はトリュフにたとえ、日本語はジャカルタの名で呼んだ。",
     ko: "감자 — 감자(Solanum tuberosum)의 덩이줄기. 고구마는 아님. 16세기에 안데스를 떠나 각지로 퍼졌고, 받아들인 언어마다 이것이 무엇인지 정해야 했다. 스페인어는 케추아어 papa를 그대로 썼고, 프랑스어·네덜란드어·히브리어·페르시아어는 \"땅의 사과\"라 불렀으며, 독일어와 러시아어는 송로버섯에 빗댔고, 일본어는 자카르타의 이름으로 불렀다.",
     zh: "土豆——马铃薯（Solanum tuberosum）的块茎，不是红薯。它在16世纪离开安第斯山区，接受它的每种语言都得决定它是什么：西班牙语沿用克丘亚语 papa，法语、荷兰语、希伯来语和波斯语称它为\"大地的苹果\"，德语和俄语以松露为它命名，日语则以雅加达为名。",
     yue: "薯仔——馬鈴薯（Solanum tuberosum）嘅塊莖，唔係番薯。佢喺16世紀離開安第斯山，接收佢嘅每種語言都要決定佢係乜：西班牙文沿用克丘亞語 papa，法文、荷蘭文、希伯來文同波斯文叫佢做「大地嘅蘋果」，德文同俄文用松露幫佢命名，日文就用雅加達嚟叫。",

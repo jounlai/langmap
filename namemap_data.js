@@ -61,7 +61,7 @@ const NM_LANGS = {
   he:  { name:{en:'Hebrew',     ja:'ヘブライ語'},  country:{en:'Israel',      ja:'イスラエル'},  lat:31.4, lng:35.0 },
   ar:  { name:{en:'Arabic',     ja:'アラビア語'},  country:{en:'Egypt',       ja:'エジプト'},   lat:26.5, lng:30.0 },
   ars: { name:{en:'Arabic',     ja:'アラビア語'},  country:{en:'Saudi Arabia',ja:'サウジアラビア'}, lat:24.0, lng:45.0 },
-  fa:  { name:{en:'Persian',    ja:'ペルシア語'},  country:{en:'Iran',        ja:'イラン'},     lat:32.5, lng:53.5 },
+  fa:  { name:{en:'Persian',    ja:'ペルシャ語'},  country:{en:'Iran',        ja:'イラン'},     lat:32.5, lng:53.5 },
   ur:  { name:{en:'Urdu',       ja:'ウルドゥー語'}, country:{en:'Pakistan',   ja:'パキスタン'},  lat:30.0, lng:69.5 },
   hi:  { name:{en:'Hindi',      ja:'ヒンディー語'}, country:{en:'India',      ja:'インド'},     lat:22.5, lng:79.0 },
   bn:  { name:{en:'Bengali',    ja:'ベンガル語'},  country:{en:'Bangladesh',  ja:'バングラデシュ'}, lat:23.7, lng:90.3 },
@@ -251,7 +251,7 @@ NAMES.muhammad = {
   },
   background:{
     en:'The name of the Prophet of Islam, and often described as the most common given name in the world, though no worldwide count exists. From Arabic muḥammad (root ḥ-m-d, “to praise”) it travelled with Islam into every language of the Muslim world, each reshaping its sounds: Turkish Mehmet, Persian/Urdu Mohammad, Bosnian Muhamed, West African Mamadou, Southeast Asian Muhammad/Mohd.',
-    ja:'イスラムの預言者の名であり、世界で最も多い男性名とよくいわれるが、世界全体を数えた統計は存在しない。アラビア語のムハンマド（語根 ḥ-m-d「称賛する」）はイスラムとともにムスリム世界の各言語へ広がり、それぞれ音を変えた。トルコ語メフメト、ペルシア・ウルドゥー語モハンマド、ボスニア語ムハメド、西アフリカのママドゥ、東南アジアのムハンマド（略記 Mohd.）など。',
+    ja:'イスラムの預言者の名であり、世界で最も多い男性名とよくいわれるが、世界全体を数えた統計は存在しない。アラビア語のムハンマド（語根 ḥ-m-d「称賛する」）はイスラムとともにムスリム世界の各言語へ広がり、それぞれ音を変えた。トルコ語メフメト、ペルシャ・ウルドゥー語モハンマド、ボスニア語ムハメド、西アフリカのママドゥ、東南アジアのムハンマド（略記 Mohd.）など。',
   },
   forms:{
     ar:  { form:'محمد', rom:'Muḥammad', ipa:'muˈħam.mad', freq:'very-common', note:{en:'the original',ja:'原形'}, people:['Prophet Muhammad'] },
@@ -274,7 +274,7 @@ NAMES.muhammad = {
   },
   tree:{
     muhammad_ar:{ label:'Muḥammad', script:'محمد', lang:{en:'Arabic',ja:'アラビア語'} },
-    mohammad:   { label:'Mohammad', lang:{en:'Persian / Urdu',ja:'ペルシア・ウルドゥー語'}, parent:'muhammad_ar' },
+    mohammad:   { label:'Mohammad', lang:{en:'Persian / Urdu',ja:'ペルシャ・ウルドゥー語'}, parent:'muhammad_ar' },
     mehmet:     { label:'Mehmet', lang:{en:'Turkish',ja:'トルコ語'}, parent:'muhammad_ar' },
     muhamed:    { label:'Muhamed', lang:{en:'Bosnian',ja:'ボスニア語'}, parent:'muhammad_ar' },
     mohamed:    { label:'Mohamed', lang:{en:'Maghrebi / French',ja:'マグレブ・フランス語'}, parent:'muhammad_ar' },
@@ -330,7 +330,7 @@ NAMES.alexander = {
     alessandro:{ label:'Alessandro', lang:{en:'Italian',ja:'イタリア語'}, parent:'alexander_la' },
     aleksandr: { label:'Aleksandr / Sasha', script:'Александр', lang:{en:'Russian',ja:'ロシア語'}, parent:'alexandros' },
     sandor:    { label:'Sándor', lang:{en:'Hungarian',ja:'ハンガリー語'}, parent:'alexander_la' },
-    iskandar:  { label:'Iskandar / Sikandar', script:'إسكندر', lang:{en:'Arabic / Persian',ja:'アラビア・ペルシア語'}, parent:'alexandros', note:{en:'Islamic line: Arabic Al- read as the article',ja:'イスラム系統（アラビア語で Al- を冠詞と解釈）'} },
+    iskandar:  { label:'Iskandar / Sikandar', script:'إسكندر', lang:{en:'Arabic / Persian',ja:'アラビア・ペルシャ語'}, parent:'alexandros', note:{en:'Islamic line: Arabic Al- read as the article',ja:'イスラム系統（アラビア語で Al- を冠詞と解釈）'} },
   },
 };
 
@@ -346,7 +346,7 @@ NAMES.fatima = {
   },
   background:{
     en:'The name of Fāṭima al-Zahrāʼ, daughter of the Prophet Muhammad and wife of ʿAlī, and thus one of the most honoured female names in Islam — especially in Shia tradition, where she is the mother of the imams. From the Arabic root f-ṭ-m (“to wean”) it spread with Islam and softened along the way: Turkish clips it to Fatma, Persian shifts the final vowel to give Fāṭeme, Urdu and Hindi keep Fatima, and Malay and Indonesian spell it Fatimah. In the Balkans it lives on as Fatima with the pet-form Fata.',
-    ja:'預言者ムハンマドの娘でありアリーの妻、ファーティマ・アッ＝ザフラーの名。イスラム、とりわけ歴代イマームの母とされるシーア派の伝統で最も敬われる女性名の一つ。アラビア語の語根 f-ṭ-m「乳離れさせる」に由来し、イスラムとともに広がる中で音を変えた。トルコ語では縮めてファトマ、ペルシア語では語末の母音が変わってファーテメ、ウルドゥー語・ヒンディー語ではファーティマのまま、マレー語・インドネシア語では Fatimah と綴る。バルカンではファティマ（愛称ファタ）として残る。',
+    ja:'預言者ムハンマドの娘でありアリーの妻、ファーティマ・アッ＝ザフラーの名。イスラム、とりわけ歴代イマームの母とされるシーア派の伝統で最も敬われる女性名の一つ。アラビア語の語根 f-ṭ-m「乳離れさせる」に由来し、イスラムとともに広がる中で音を変えた。トルコ語では縮めてファトマ、ペルシャ語では語末の母音が変わってファーテメ、ウルドゥー語・ヒンディー語ではファーティマのまま、マレー語・インドネシア語では Fatimah と綴る。バルカンではファティマ（愛称ファタ）として残る。',
   },
   forms:{
     ar:  { form:'فاطمة', rom:'Fāṭima', ipa:'ˈfaːtˤima', freq:'very-common', note:{en:'the original',ja:'原形'}, people:['Fatimah bint Muhammad','Fatima al-Fihri'] },
@@ -370,7 +370,7 @@ NAMES.fatima = {
   tree:{
     fatima_ar:{ label:'Fāṭima', script:'فاطمة', lang:{en:'Arabic',ja:'アラビア語'} },
     fatma:    { label:'Fatma', lang:{en:'Turkish',ja:'トルコ語'}, parent:'fatima_ar' },
-    fateme:   { label:'Fāṭeme', script:'فاطمه', lang:{en:'Persian',ja:'ペルシア語'}, parent:'fatima_ar' },
+    fateme:   { label:'Fāṭeme', script:'فاطمه', lang:{en:'Persian',ja:'ペルシャ語'}, parent:'fatima_ar' },
     fatima_sa:{ label:'Fātima', script:'فاطمہ', lang:{en:'Urdu / South Asian',ja:'ウルドゥー・南アジア'}, parent:'fatima_ar' },
     fatimah_se:{ label:'Fatimah', lang:{en:'Malay / Indonesian',ja:'マレー・インドネシア語'}, parent:'fatima_ar' },
     fatuma:   { label:'Fatuma', lang:{en:'Swahili',ja:'スワヒリ語'}, parent:'fatima_ar' },
@@ -390,7 +390,7 @@ NAMES.ali = {
   },
   background:{
     en:'The name of ʿAlī ibn Abī Ṭālib, cousin and son-in-law of the Prophet Muhammad, fourth caliph in Sunni tradition and the first imam of Shia Islam — which makes Ali one of the central names of the Muslim world. The word itself, as al-ʿAlī “the Most High”, is also one of the 99 Beautiful Names of God. From Arabic ʿAlī (root ʿ-l-w, “to be high”) the sounds carry almost unchanged across languages: Ali in Turkish, Persian and Urdu, Alija in Bosnian, Aliyu in West Africa. In the West it is best known through the boxer Muhammad Ali.',
-    ja:'預言者ムハンマドの従弟であり娘婿、スンナ派では第4代カリフ、シーア派では初代イマームであるアリー・イブン・アビー・ターリブの名。ムスリム世界の中心的な名前であり、アル＝アリーが神の属性であることから「美しき御名」の一つでもある。アラビア語のアリー（語根 ʿ-l-w「高い」）はほぼ音を変えずに各言語へ広がった。トルコ語・ペルシア語・ウルドゥー語のアリー、ボスニア語のアリヤ、西アフリカのアリユなど。西洋ではボクサーのモハメド・アリでよく知られる。',
+    ja:'預言者ムハンマドの従弟であり娘婿、スンナ派では第4代カリフ、シーア派では初代イマームであるアリー・イブン・アビー・ターリブの名。ムスリム世界の中心的な名前であり、アル＝アリーが神の属性であることから「美しき御名」の一つでもある。アラビア語のアリー（語根 ʿ-l-w「高い」）はほぼ音を変えずに各言語へ広がった。トルコ語・ペルシャ語・ウルドゥー語のアリー、ボスニア語のアリヤ、西アフリカのアリユなど。西洋ではボクサーのモハメド・アリでよく知られる。',
   },
   forms:{
     ar:  { form:'عليّ', rom:'ʿAlī', ipa:'ʕaˈliː', freq:'very-common', note:{en:'the original',ja:'原形'}, people:['Ali ibn Abi Talib'] },
@@ -414,7 +414,7 @@ NAMES.ali = {
   },
   tree:{
     ali_ar:  { label:'ʿAlī', script:'عليّ', lang:{en:'Arabic',ja:'アラビア語'} },
-    ali_fa:  { label:'Ali', script:'علی', lang:{en:'Persian',ja:'ペルシア語'}, parent:'ali_ar' },
+    ali_fa:  { label:'Ali', script:'علی', lang:{en:'Persian',ja:'ペルシャ語'}, parent:'ali_ar' },
     ali_ur:  { label:'Ali', script:'علی', lang:{en:'Urdu / South Asian',ja:'ウルドゥー・南アジア'}, parent:'ali_ar' },
     ali_tr:  { label:'Ali', lang:{en:'Turkish',ja:'トルコ語'}, parent:'ali_ar' },
     alija:   { label:'Alija', lang:{en:'Bosnian',ja:'ボスニア語'}, parent:'ali_ar' },

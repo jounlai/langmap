@@ -324,7 +324,7 @@ NAMES.abraham = {
     abraao:    { label:'Abraão', lang:{en:'Portuguese',ja:'ポルトガル語'}, parent:'abraham_la' },
     avraam_sl: { label:'Avraam', script:'Авраам', lang:{en:'Slavic',ja:'スラヴ語'}, parent:'abraam_gr' },
     ibrahim:   { label:'Ibrāhīm', script:'إبراهيم', lang:{en:'Arabic (Qurʼan)',ja:'アラビア語（コーラン）'}, parent:'avraham', note:{en:'parallel Islamic line',ja:'イスラムの並行系統'} },
-    ebrahim:   { label:'Ebrahim / İbrahim', lang:{en:'Persian / Turkish',ja:'ペルシア・トルコ語'}, parent:'ibrahim' },
+    ebrahim:   { label:'Ebrahim / İbrahim', lang:{en:'Persian / Turkish',ja:'ペルシャ・トルコ語'}, parent:'ibrahim' },
   },
 };
 
@@ -1009,7 +1009,7 @@ NAMES.omar = {
   },
   tree:{
     umar_ar: { label:'ʿUmar', script:'عُمَر', lang:{en:'Arabic',ja:'アラビア語'} },
-    omar_fa: { label:'Omar', lang:{en:'Persian',ja:'ペルシア語'}, parent:'umar_ar' },
+    omar_fa: { label:'Omar', lang:{en:'Persian',ja:'ペルシャ語'}, parent:'umar_ar' },
     omer_tr: { label:'Ömer', lang:{en:'Turkish',ja:'トルコ語'}, parent:'umar_ar' },
     omer_bs: { label:'Omer', lang:{en:'Bosnian',ja:'ボスニア語'}, parent:'umar_ar' },
     umaru:   { label:'Umaru', lang:{en:'West African (Hausa)',ja:'西アフリカ（ハウサ）'}, parent:'umar_ar' },
@@ -1081,7 +1081,7 @@ NAMES.khadija = {
   tree:{
     khadija_ar:{ label:'Khadīja', script:'خَدِيجَة', lang:{en:'Arabic',ja:'アラビア語'} },
     hatice:    { label:'Hatice', lang:{en:'Turkish',ja:'トルコ語'}, parent:'khadija_ar' },
-    khadijeh:  { label:'Khadijeh', lang:{en:'Persian',ja:'ペルシア語'}, parent:'khadija_ar' },
+    khadijeh:  { label:'Khadijeh', lang:{en:'Persian',ja:'ペルシャ語'}, parent:'khadija_ar' },
     hadiza:    { label:'Hadiza', lang:{en:'West African (Hausa)',ja:'西アフリカ（ハウサ）'}, parent:'khadija_ar' },
     khady:     { label:'Khady', lang:{en:'Senegalese',ja:'セネガル'}, parent:'khadija_ar', note:{en:'Wolof short form',ja:'ウォロフ語の短縮形'} },
     hadija:    { label:'Hadija', lang:{en:'Swahili',ja:'スワヒリ語'}, parent:'khadija_ar' },
@@ -1095,7 +1095,7 @@ NAMES.abdullah = {
   origin:{ lang:{ en:'Arabic', ja:'アラビア語' }, native:'عَبْد اللّٰه', rom:'ʿAbd Allāh', meaning:{ en:'“Servant of God”', ja:'「神の僕（しもべ）」' } },
   background:{
     en:'A theophoric name meaning “servant of God”, formed from ʿabd (“servant”) and Allāh. It was the name of the Prophet Muhammadʼs father, ʿAbd Allāh ibn ʿAbd al-Muttalib, and a hadith names ʿAbdullāh and ʿAbd al-Rahmān as the names most beloved to God — so it is among the most recommended names in Islam. It spans the Muslim world with only light phonetic change: Persian Abdollah, Maghrebi Abdallah and Abdellah, Nigerian Abdullahi, Francophone West African Abdoulaye, and Bosnian Abdulah.',
-    ja:'「神の僕（しもべ）」を意味する神名的な名で、ʿabd（「僕」）と Allāh（神）から成る。預言者ムハンマドの父アブドゥッラー・イブン・アブドゥルムッタリブの名であり、あるハディースはアブドゥッラーとアブドゥッラフマーンを神に最も愛される名として挙げる。そのためイスラムで最も推奨される名の一つである。音の変化はわずかで、ペルシア語アブドッラー、マグレブのアブダッラー／アブデッラー、ナイジェリアのアブドゥッラーヒ、仏語圏西アフリカのアブドゥライ、ボスニアのアブドゥラフなど、ムスリム世界全体に広がる。',
+    ja:'「神の僕（しもべ）」を意味する神名的な名で、ʿabd（「僕」）と Allāh（神）から成る。預言者ムハンマドの父アブドゥッラー・イブン・アブドゥルムッタリブの名であり、あるハディースはアブドゥッラーとアブドゥッラフマーンを神に最も愛される名として挙げる。そのためイスラムで最も推奨される名の一つである。音の変化はわずかで、ペルシャ語アブドッラー、マグレブのアブダッラー／アブデッラー、ナイジェリアのアブドゥッラーヒ、仏語圏西アフリカのアブドゥライ、ボスニアのアブドゥラフなど、ムスリム世界全体に広がる。',
   },
   forms:{
     ar:  { form:'عَبْد اللّٰه', rom:'ʿAbd Allāh', ipa:'ʕab.dulˈlaːh', freq:'very-common', note:{en:'the original',ja:'原形'}, people:['ʿAbd Allāh ibn ʿAbd al-Muttalib'] },
@@ -1116,7 +1116,7 @@ NAMES.abdullah = {
   },
   tree:{
     abdullah_ar:{ label:'ʿAbd Allāh', script:'عَبْد اللّٰه', lang:{en:'Arabic',ja:'アラビア語'} },
-    abdollah:   { label:'Abdollah', lang:{en:'Persian',ja:'ペルシア語'}, parent:'abdullah_ar' },
+    abdollah:   { label:'Abdollah', lang:{en:'Persian',ja:'ペルシャ語'}, parent:'abdullah_ar' },
     abdallah:   { label:'Abdallah', lang:{en:'Maghrebi / French',ja:'マグレブ・フランス語'}, parent:'abdullah_ar' },
     abdullahi:  { label:'Abdullahi', lang:{en:'West African (Hausa)',ja:'西アフリカ（ハウサ）'}, parent:'abdullah_ar' },
     abdoulaye:  { label:'Abdoulaye', lang:{en:'West African (Francophone)',ja:'西アフリカ（仏語圏）'}, parent:'abdullah_ar', note:{en:'Senegal, Mali, Guinea',ja:'セネガル・マリ・ギニア'} },
@@ -1154,7 +1154,7 @@ NAMES.hassan = {
   tree:{
     hasan_ar:  { label:'Ḥasan', script:'حسن', lang:{en:'Arabic',ja:'アラビア語'} },
     hasan_tr:  { label:'Hasan', lang:{en:'Turkish',ja:'トルコ語'}, parent:'hasan_ar' },
-    hassan_fa: { label:'Hassan', lang:{en:'Persian / Urdu',ja:'ペルシア・ウルドゥー語'}, parent:'hasan_ar' },
+    hassan_fa: { label:'Hassan', lang:{en:'Persian / Urdu',ja:'ペルシャ・ウルドゥー語'}, parent:'hasan_ar' },
     hasan_bs:  { label:'Hasan / Haso', lang:{en:'Bosnian',ja:'ボスニア語'}, parent:'hasan_ar' },
     hasani_sw: { label:'Hasani', lang:{en:'Swahili',ja:'スワヒリ語'}, parent:'hasan_ar' },
     hassan_ha: { label:'Hassan', lang:{en:'Hausa',ja:'ハウサ語'}, parent:'hasan_ar' },
@@ -1168,7 +1168,7 @@ NAMES.husayn = {
   origin:{ lang:{ en:'Arabic', ja:'アラビア語' }, native:'حُسَيْن', rom:'Ḥusayn', meaning:{ en:'“Little Hasan”, “the little beautiful one” (diminutive of Ḥasan)', ja:'「小さきハサン」「小さく美しい者」（ハサンの縮小形）' } },
   background:{
     en:'Ḥusayn is the diminutive of Ḥasan — “little Hasan”, “the little beautiful one”. It belonged to Husayn ibn Ali, younger grandson of the Prophet, whose martyrdom at the Battle of Karbala in 680 CE made the name the emotional heart of Shia Islam, commemorated each year at Ashura. Its forms circle the Muslim world: Persian Hossein, Turkish Hüseyin, South Asian Hussain, and the Arabic Hussein borne by Saddam Hussein and King Hussein of Jordan.',
-    ja:'フサインはハサンの縮小形で「小さなハサン」「小さく美しい者」を意味する。預言者の孫でハサンの弟にあたるフサイン・イブン・アリーの名であり、680年のカルバラーの戦いでの殉教により、シーア派イスラムの感情的中心となった（毎年アーシューラーで追悼される）。その形はムスリム世界を巡る——ペルシア語ホセイン、トルコ語ヒュセイン、南アジアのフサイン、そしてサダム・フセインやヨルダンのフセイン国王が名乗ったアラビア語フセイン。',
+    ja:'フサインはハサンの縮小形で「小さなハサン」「小さく美しい者」を意味する。預言者の孫でハサンの弟にあたるフサイン・イブン・アリーの名であり、680年のカルバラーの戦いでの殉教により、シーア派イスラムの感情的中心となった（毎年アーシューラーで追悼される）。その形はムスリム世界を巡る——ペルシャ語ホセイン、トルコ語ヒュセイン、南アジアのフサイン、そしてサダム・フセインやヨルダンのフセイン国王が名乗ったアラビア語フセイン。',
   },
   forms:{
     ar:  { form:'حُسَيْن', rom:'Ḥusayn', ipa:'ħu.sajn', freq:'very-common', note:{en:'the original',ja:'原形'}, people:['Husayn ibn Ali','King Hussein of Jordan'] },
@@ -1188,7 +1188,7 @@ NAMES.husayn = {
   },
   tree:{
     husayn_ar:  { label:'Ḥusayn', script:'حسين', lang:{en:'Arabic',ja:'アラビア語'}, note:{en:'diminutive of Ḥasan',ja:'ハサンの縮小形'} },
-    hossein_fa: { label:'Hossein', lang:{en:'Persian',ja:'ペルシア語'}, parent:'husayn_ar' },
+    hossein_fa: { label:'Hossein', lang:{en:'Persian',ja:'ペルシャ語'}, parent:'husayn_ar' },
     huseyin_tr: { label:'Hüseyin', lang:{en:'Turkish',ja:'トルコ語'}, parent:'husayn_ar' },
     hussain_ur: { label:'Hussain', lang:{en:'Urdu / South Asian',ja:'ウルドゥー・南アジア'}, parent:'husayn_ar' },
     husein_bs:  { label:'Husein', lang:{en:'Bosnian',ja:'ボスニア語'}, parent:'husayn_ar' },
@@ -1225,7 +1225,7 @@ NAMES.zaynab = {
     zaynab_ar:  { label:'Zaynab', script:'زينب', lang:{en:'Arabic',ja:'アラビア語'} },
     zeynep_tr:  { label:'Zeynep', lang:{en:'Turkish',ja:'トルコ語'}, parent:'zaynab_ar' },
     zainab_ur:  { label:'Zainab', lang:{en:'Urdu / South Asian',ja:'ウルドゥー・南アジア'}, parent:'zaynab_ar' },
-    zeynab_fa:  { label:'Zeynab', lang:{en:'Persian',ja:'ペルシア語'}, parent:'zaynab_ar' },
+    zeynab_fa:  { label:'Zeynab', lang:{en:'Persian',ja:'ペルシャ語'}, parent:'zaynab_ar' },
     zainabu_sw: { label:'Zainabu / Zenabou', lang:{en:'Swahili / West African',ja:'スワヒリ・西アフリカ'}, parent:'zaynab_ar' },
     zejneba_bs: { label:'Zejneba', lang:{en:'Bosnian',ja:'ボスニア語'}, parent:'zaynab_ar' },
   },

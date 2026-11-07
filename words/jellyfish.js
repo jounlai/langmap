@@ -42,7 +42,7 @@ WORDS.jellyfish = {
   },
   definition: {
     en: "Jellyfish — the soft, see-through sea animal that drifts and stings. Much of Europe names it after Medusa, the Gorgon with snakes for hair (French méduse, Russian медуза, Spanish medusa). Chinese 水母 is the \"water mother\" and Turkish denizanası the \"sea mother\"; Persian عروس دریایی is the \"bride of the sea\", Arabic قنديل البحر the \"lamp of the sea\", Swedish manet the \"sea nettle\", and English jellyfish a fish of jelly.",
-    ja: "クラゲ — ふわふわと漂い、刺すこともある透き通った海の生き物。ヨーロッパの多くの言語は、髪が蛇のゴルゴン、メドゥーサにちなむ（フランス語 méduse、ロシア語 медуза、スペイン語 medusa）。中国語 水母は「水の母」、トルコ語 denizanası は「海の母」。ペルシア語 عروس دریایی は「海の花嫁」、アラビア語 قنديل البحر は「海のランプ」、スウェーデン語 manet は「海のイラクサ」、英語 jellyfish は「ゼリーの魚」。",
+    ja: "クラゲ — ふわふわと漂い、刺すこともある透き通った海の生き物。ヨーロッパの多くの言語は、髪が蛇のゴルゴン、メドゥーサにちなむ（フランス語 méduse、ロシア語 медуза、スペイン語 medusa）。中国語 水母は「水の母」、トルコ語 denizanası は「海の母」。ペルシャ語 عروس دریایی は「海の花嫁」、アラビア語 قنديل البحر は「海のランプ」、スウェーデン語 manet は「海のイラクサ」、英語 jellyfish は「ゼリーの魚」。",
     ko: "해파리 — 떠다니며 쏘기도 하는 투명한 바다 동물. 유럽의 많은 언어는 뱀 머리카락의 고르곤 메두사에서 이름을 따왔다(프랑스어 méduse, 러시아어 медуза, 스페인어 medusa). 중국어 水母는 \"물의 어머니\", 튀르키예어 denizanası는 \"바다의 어머니\". 페르시아어 عروس دریایی는 \"바다의 신부\", 아랍어 قنديل البحر는 \"바다의 등불\", 스웨덴어 manet는 \"바다 쐐기풀\", 영어 jellyfish는 \"젤리 물고기\"다.",
     zh: "水母——漂浮在海中、会蜇人的透明海洋动物。许多欧洲语言以蛇发女妖美杜莎命名（法语 méduse、俄语 медуза、西班牙语 medusa）。汉语 水母是\"水之母\"，土耳其语 denizanası 是\"海之母\"；波斯语 عروس دریایی 是\"海的新娘\"，阿拉伯语 قنديل البحر 是\"海的灯\"，瑞典语 manet 是\"海荨麻\"，英语 jellyfish 则是\"果冻鱼\"。",
     yue: "水母——喺海度漂浮、識螫人嘅透明海洋動物，廣東話口語叫白鮓。好多歐洲語言用蛇髮女妖美杜莎嚟改名（法文 méduse、俄文 медуза、西班牙文 medusa）。中文 水母係「水嘅母親」，土耳其文 denizanası 係「海嘅母親」；波斯文 عروس دریایی 係「海嘅新娘」，阿拉伯文 قنديل البحر 係「海嘅燈」，瑞典文 manet 係「海蕁麻」，英文 jellyfish 就係「啫喱魚」。",

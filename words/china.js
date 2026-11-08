@@ -403,7 +403,7 @@ WORDS.china = {
     cv: "khitan",
     tsg: "other",
     li: "cina",
-    mnw: "unknown",
+    mnw: "other",
     quy: "cina",
     tly: "cina",
     nij: "cina",
@@ -867,7 +867,7 @@ WORDS.china = {
     cv: ["Китай", "kiˈtaj"],  // The same name as Russian Китай; Chuvash stress falls on the last full vowel.
     tsg: ["Sungsung", "suŋsuŋ"],  // The Tausug dictionary glosses Sungsung as China; its Tagalog cognate Sungsong is traced either to the Song 宋 dynasty or to Proto-Malayo-Polynesian *suŋsuŋ 'against the current'.
     li: ["China", "ˈʃinaː"],  // The Limburgish Wikipedia title; the Limburgish Wiktionary gives the pronunciation /ʃìna:/ and the alternative spelling Sjina.
-    mnw: ["ကြုက်", "krɜk"],  // Kruk is the Mon name of the Chinese; the country is also written ဍုင်ကြုက် 'land of the Chinese'.
+    mnw: ["ကြုက်", "krɜk"],  // Kruk; a 2023 copy of Wiktionary gives ကြုက် as a proper noun "China, the Chinese" beside the common noun "mango", comparing Middle Chinese 客 "guest" (the live entry keeps only "mango"). The country is also written ဍုင်ကြုက် "land of the Chinese".
     quy: ["China", "ˈtʃina"],  // China, as in Spanish; Jehovah's Witnesses' Ayacucho Quechua news digest speaks of chinamanta kaq turistakuna 'tourists from China', and Unicode CLDR's Quechua locale names China China; penultimate stress by the regular Quechua rule. Route by resemblance to the neighbouring forms (es(China) qu(China)); no etymology of its own.
     tly: ["Cin", "tʃin"],  // The Talysh Wikipedia calls the People's Republic Cin Xəlǧi Respublikə and the Chinese language cini zyvon (Jehovah's Witnesses' Talysh spells it Çin); the same word as Persian چین. Route by resemblance to the neighbouring forms (fa(چین) az(Çin)); no etymology of its own.
     nij: ["Cina", "ˈtʃina"],  // China in Ngaju, as in Jehovah's Witnesses' Ngaju 'Uluh Cina' 'a Chinese person' and 'penjara Cina' 'a prison in China'; stress on the penultimate as in the row's due. Route by resemblance to the neighbouring forms (ms(China) id(Cina)); no etymology of its own.
@@ -979,7 +979,7 @@ WORDS.china = {
     ceb: ["Tsina", "ˈtsina"],  // Wolff: Tsína, "wage war against China"; ka-an China
     grt: ["Chin song", "tʃin soŋ"],  // 1905: "China, n. Chin song"; song = village, country
     mdh: ["China", "tʃina"],  // Maguindanao china 'China' (SEAlang).
-    mn_cn: ["ᠳᠤᠮᠳᠠᠳᠤ ᠤᠯᠤᠰ", "tʊmtɑt ʊls"],  // Dumdadu ulus "Middle State", the calque of 中國 that is China's official name in Inner Mongolia; Хятад is the name in Mongolia (Wiktionary Дундад улс, which gives Khalkha [tʊn.tɐ̝t ʊɬs]). IPA in the row's Chakhar style keeping the script's m, mine.
+    mn_cn: ["ᠳᠤᠮᠳᠠᠳᠤ ᠤᠯᠤᠰ", "tʊmtɑt ʊls"],  // Dumdadu ulus "Middle State", the calque of 中國 that is China's official name in Inner Mongolia; Хятад is the name in Mongolia (Wiktionary Дундад улс, which gives Khalkha [tʊn.tɐ̝t ʊɬs]). IPA in the row's Chakhar style keeping the script's m, mine. In the 13th-14th centuries a Dumdadu Mongγol Ulus "Middle Mongol State" named the Chagatai realm in Central Asia, not China (Ligeti 1971, Matsui; Wikipedia, Chagatai Khanate).
     bo: ["རྒྱ་ནག / ཀྲུང་གོ", "ca˩˧ naʔ˥˧ / ʈʂuŋ˥ ko˥"],  // Gyanag, literally "black expanse", the native name, paired with རྒྱ་གར Gyagar "white expanse" for India; ཀྲུང་གོ krung go, from Mandarin 中國, is the official name in China. Both are given for China (Wiktionary རྒྱ་ནག, Lhasa /ɟa˩˨.na˥˨/; ཀྲུང་གོ, /ʈ͡ʂuŋ˥˥.ko˥˥/); IPA in this row's style.
     bxr: ["Хитад", "xʲitʰɐt"],  // Xitad, the Mongolic plural of the Khitan name, "the Khitans", as Mongolian Хятад; Buryat kept the older i (Wiktionary Хитад, [xʲi.tʰɐt]).
     xal: ["Китд", "kitət"],  // Kitd, the Mongolic plural of the Khitan name, cited beside Mongolian Хятад and Buryat Хитад (Wiktionary Хятад). Kalmyk spelling drops the reduced vowel; IPA mine.

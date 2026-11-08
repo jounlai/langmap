@@ -36,8 +36,8 @@ Not done, and why
 - id Tiongkok / Cina (Hadi Tahir): Wiktionary marks Cina "possibly derogatory" and the state replaced it in 2014; the note already says it is common in speech. Left single.
 - hmn Tsoob Kuj "middle kingdom" (Keng Xyooj-KauvLev): no source found. Tuam Tshoj is archaic per Wiktionary. Left single.
 - dz རྒྱ་ནག as a second word: listed by Wiktionary, but no reading to write it with. The note gives it.
-- mnw ကြုက်: Wiktionary glosses it "mango", the cell note says "the Chinese"; still unknown, needs a Mon source.
+- mnw ကြုက်: a 2023 copy of Wiktionary had the proper noun "China, the Chinese" beside "mango" (live entry: mango only). Routed other; article count 18 -> 19.
 - trv Cikuku: origin unknown.
-- Dumdadu ulus meaning the Chagatai ulus in Yuan times (Erkhemchukhal Dorj): not checked, not used.
+- Dumdadu ulus in Yuan times (Erkhemchukhal Dorj): Dumdadu Mongγol Ulus named the Chagatai realm (Ligeti 1971, Matsui; Wikipedia Chagatai Khanate). Added to the mn_cn note.
 - Tibetic rows adx, khg, xct, lbj, xsr, bft still have no China cell; no source with a form for them yet.
 - computer, hmn (same reader, Keng Xyooj-KauvLev): now "koos pis tawj / hlwb hlau", the loan and the native "iron brain". The reader is the source; IPA mine from the spelling. "Xob Taws" for electricity: the map has no electricity word. Wiktionary gives hluav taws xob for it.

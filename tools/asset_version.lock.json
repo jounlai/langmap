@@ -1,7 +1,7 @@
 {
   "words": {
-    "version": 1505,
-    "hash": "f072ccbfa381665e",
+    "version": 1506,
+    "hash": "44e0b72e9162e17d",
     "files": 144
   },
   "langWords": {
@@ -40,8 +40,8 @@
     "files": 1199
   },
   "trivia": {
-    "version": 75,
-    "hash": "7c54a68cb98b744e",
+    "version": 76,
+    "hash": "b620ce78cce5472f",
     "files": 1
   },
   "metaI18n": {
@@ -75,8 +75,8 @@
     "files": 18
   },
   "triviaI18n": {
-    "version": 75,
-    "hash": "e893e2351e40e0bf",
+    "version": 76,
+    "hash": "51bf5a2fd27fa87a",
     "files": 17
   }
 }

@@ -519,9 +519,15 @@ WORDS.china = {
     bo: "other",
     bxr: "khitan",
     xal: "khitan",
+    lbj: "other",
+    xsr: "other",
+    xct: "other",
+    ne: "cina",
+    ilo: "cina",
   },
   family2: {
     bo: "zhongguo",
+    tg: "khitan",
   },
   routes: {
     zhongguo: {"color":"#dc2626","emoji":"🏮","en":"reads 中國 \"Middle Kingdom\" itself","ja":"漢字 中國 を自分で読む","ko":"한자 中國을 직접 읽음","zh":"自己读汉字\"中國\"","yue":"自己讀漢字「中國」","vi":"tự đọc chữ 中國","th":"อ่านอักษร 中國 เอง","id":"membaca aksara 中國 sendiri","hi":"中國 को ख़ुद पढ़ना","de":"liest 中國 selbst","fr":"lit 中國 lui-même","it":"legge 中國 da sé","es":"lee 中國 por sí mismo","pt":"lê 中國 por si","ru":"своё чтение 中國","uk":"власне читання 中國","ar":"يقرأ 中國 بنفسه","he":"קורא את 中國 בעצמו","sw":"husoma 中國 yenyewe"},
@@ -613,7 +619,7 @@ WORDS.china = {
     cdo: ["中国", "tyŋ˥˥ kuɔʔ˨˦"],  // Dṳ̆ng-guók, the Fuzhou reading of 中國 "Middle Kingdom".
     ca: ["Xina", "ˈʃinə"],  // Normally used with the article: la Xina; the sources give no etymology. Route by resemblance to the neighbouring forms (gd(Sìona) fr(Chine)); no etymology of its own.
     he: ["סין", "sin"],  // From Latin Sīnae and Greek Σῖναι, probably from Sanskrit Cīna.
-    tg: ["Чин", "tʃin"],  // Inherited from Classical Persian Čīn; Хитой (from Khitan) is a synonym.
+    tg: ["Чин / Хитой", "tʃin / xitoj"],  // Чин continues Classical Persian čīn, Хитой Classical Persian xitāy, from the Khitan name; Wiktionary gives them as synonyms, and Radio Ozodi news uses both, "сафири нави Чин (Хитой)" (2022).
     ti: ["ቻይና", "tʃajna"],  // Borrowed from English China.
     qu: ["China", "ˈtʃina"],  // The Quechua Wikipedia uses China in the name of the People's Republic of China. Route by resemblance to the neighbouring forms (tl(Tsina) ms(China)); no etymology of its own.
     ckb: ["چین", "tʃiːn"],  // Same name as Kurmanji Çîn and Persian چین. Route by resemblance to the neighbouring forms (hi(चीन) bn(চীন)); no etymology of its own.
@@ -646,7 +652,7 @@ WORDS.china = {
     tt: ["Кытай", "qɤˈtɑj"],  // From the name of the Khitan people, cognate with Russian Китай.
     nso: ["Tšhaena", "tʃʰaena"],  // Looks like a loan of English China, but no source names the donor. Route by resemblance to the neighbouring forms (te(చైనా) ml(ചൈന)); no etymology of its own.
     sg: ["Sînä", "sina"],  // Sînä; the source gives no etymology. Route by resemblance to the neighbouring forms (ln(Sína) tpi(Saina)); no etymology of its own.
-    hmn: ["Suav Teb", "ʂuə˧˦ te˥"],  // Suav Teb "land of the Suav"; Suav, also "Chinese", is probably from 夏 Xia, the first dynasty of the Chinese histories, or else from 華 Hua (Wiktionary). Tuam Tshoj, from Middle Chinese 大朝 "Great Dynasty", is archaic.
+    hmn: ["Suav Teb", "ʂuə˧˦ te˥"],  // Suav Teb "land of the Suav"; Suav, also "Chinese", is probably from 夏 Xia, the first dynasty of the Chinese histories, or else from 華 Hua (Wiktionary; Yang 2009 calls this conjectural). Other names in the dictionaries: Teb chaws Suav, Tuam tshoj teb (from 大朝 "Great Dynasty", archaic) and Tsoob kuj, from 中國 (Jaisser, Hmong for Beginners, 1995, p. 244).
     tpi: ["Saina", "saina"],  // From English China; Saina also means a Chinese person.
     din: ["Caina", "tʃaina"],  // Looks like a loan of English China, but no source names the donor. Route by resemblance to the neighbouring forms (te(చైనా) ml(ചൈന)); no etymology of its own.
     mzn: ["چین", "tʃiːn"],  // Same name as Persian چین Čīn. Route by resemblance to the neighbouring forms (hi(चीन) bn(চীন)); no etymology of its own.
@@ -678,7 +684,7 @@ WORDS.china = {
     eu: ["Txina", "tʃina"],  // Txina is the Euskaltzaindia standard name; officially Txinako Herri Errepublika. Route by resemblance to the neighbouring forms (tl(Tsina) ms(China)); no etymology of its own.
     rue: ["Кітай", "kiˈtaj"],  // From the Khitan name via Old East Slavic Китаи, like Russian Китай; the Rusyn Wikipedia also gives Китай and Чіна.
     ady: ["Хъытыдж", "χətədʒ"],  // Ultimately from Old Turkic Qïtaǰ "Khitan", cognate with Russian Китай and English Cathay; Китай borrowed from Russian is also used (Wiktionary).
-    dz: ["ཀྲུང་ཀོ", "ʈuŋko"],  // The Dzongkha Wikipedia titles the country ཀྲུང་ཀོ and also gives རྒྱ་ནག, the Tibetan-script "black expanse" name. Route by resemblance to the neighbouring forms (za(中國)); no etymology of its own.
+    dz: ["ཀྲུང་ཀོ", "ʈuŋko"],  // The Dzongkha Wikipedia titles the country ཀྲུང་ཀོ and also gives རྒྱ་ནག, the Tibetan-script "black expanse" name. Route by resemblance to the neighbouring forms (za(中國)); no etymology of its own. The Dzongkha romanization guide (1991, p. 96) writes རྒྱ་ནག as Jana.
     kaa: ["Qıtay", "qɯˈtaj"],  // From Old Turkic Qïtań, the name of the Khitan people, cognate with English Cathay (Wiktionary).
     nn: ["Kina", "ˈçiːnɑ"],  // Kina is the Nynorsk name; the official name is Folkerepublikken Kina. Route by resemblance to the neighbouring forms (de(China) el(Κίνα)); no etymology of its own.
     os: ["Китай", "kitaj"],  // The Ossetian Wikipedia names the country Китай; officially Китайы Адæмон Республикæ. Route by resemblance to the neighbouring forms (ru(Китай) uk(Китай)); no etymology of its own.
@@ -865,9 +871,9 @@ WORDS.china = {
     kbp: ["Siini", "siːni"],  // Siini is the Kabiye Wikipedia title, used as Siini ɛjaɖɛ 'the country China' and in Siini kʋnʋŋ 'Chinese (language)'.
     sc: ["Tzina", "ˈtsina"],  // Sardinian writes the name Tzina, with the article sa (Sa Tzina), in Wikipedia and in the CLDR locale.
     cv: ["Китай", "kiˈtaj"],  // The same name as Russian Китай; Chuvash stress falls on the last full vowel.
-    tsg: ["Sungsung", "suŋsuŋ"],  // The Tausug dictionary glosses Sungsung as China; its Tagalog cognate Sungsong is traced either to the Song 宋 dynasty or to Proto-Malayo-Polynesian *suŋsuŋ 'against the current'.
+    tsg: ["Sungsung", "suŋsuŋ"],  // Glossed China in Tausug; Blust and Trussel's Austronesian Comparative Dictionary puts it with *suŋsuŋ "go against wind or current", and tentatively links the name with the hard sail to China. Tagalog Sungsong is the same word.
     li: ["China", "ˈʃinaː"],  // The Limburgish Wikipedia title; the Limburgish Wiktionary gives the pronunciation /ʃìna:/ and the alternative spelling Sjina.
-    mnw: ["ကြုက်", "krɜk"],  // Kruk; a 2023 copy of Wiktionary gives ကြုက် as a proper noun "China, the Chinese" beside the common noun "mango", comparing Middle Chinese 客 "guest" (the live entry keeps only "mango"). The country is also written ဍုင်ကြုက် "land of the Chinese".
+    mnw: ["ကြုက်", "krɜk"],  // Kruk; Halliday's Mon-English Dictionary glosses Krauk "adj. Chinese; n. mango" (p. 71). The country is ဍုၚ်ကြုက် "land of the Chinese" in Mon news. A link with Middle Chinese 客 "guest" has been proposed, not shown (Wiktionary).
     quy: ["China", "ˈtʃina"],  // China, as in Spanish; Jehovah's Witnesses' Ayacucho Quechua news digest speaks of chinamanta kaq turistakuna 'tourists from China', and Unicode CLDR's Quechua locale names China China; penultimate stress by the regular Quechua rule. Route by resemblance to the neighbouring forms (es(China) qu(China)); no etymology of its own.
     tly: ["Cin", "tʃin"],  // The Talysh Wikipedia calls the People's Republic Cin Xəlǧi Respublikə and the Chinese language cini zyvon (Jehovah's Witnesses' Talysh spells it Çin); the same word as Persian چین. Route by resemblance to the neighbouring forms (fa(چین) az(Çin)); no etymology of its own.
     nij: ["Cina", "ˈtʃina"],  // China in Ngaju, as in Jehovah's Witnesses' Ngaju 'Uluh Cina' 'a Chinese person' and 'penjara Cina' 'a prison in China'; stress on the penultimate as in the row's due. Route by resemblance to the neighbouring forms (ms(China) id(Cina)); no etymology of its own.
@@ -980,8 +986,13 @@ WORDS.china = {
     grt: ["Chin song", "tʃin soŋ"],  // 1905: "China, n. Chin song"; song = village, country
     mdh: ["China", "tʃina"],  // Maguindanao china 'China' (SEAlang).
     mn_cn: ["ᠳᠤᠮᠳᠠᠳᠤ ᠤᠯᠤᠰ", "tʊmtɑt ʊls"],  // Dumdadu ulus "Middle State", the calque of 中國 that is China's official name in Inner Mongolia; Хятад is the name in Mongolia (Wiktionary Дундад улс, which gives Khalkha [tʊn.tɐ̝t ʊɬs]). IPA in the row's Chakhar style keeping the script's m, mine. In the 13th-14th centuries a Dumdadu Mongγol Ulus "Middle Mongol State" named the Chagatai realm in Central Asia, not China (Ligeti 1971, Matsui; Wikipedia, Chagatai Khanate).
-    bo: ["རྒྱ་ནག / ཀྲུང་གོ", "ca˩˧ naʔ˥˧ / ʈʂuŋ˥ ko˥"],  // Gyanag, literally "black expanse", the native name, paired with རྒྱ་གར Gyagar "white expanse" for India; ཀྲུང་གོ krung go, from Mandarin 中國, is the official name in China. Both are given for China (Wiktionary རྒྱ་ནག, Lhasa /ɟa˩˨.na˥˨/; ཀྲུང་གོ, /ʈ͡ʂuŋ˥˥.ko˥˥/); IPA in this row's style.
+    bo: ["རྒྱ་ནག / ཀྲུང་གོ", "ca˩˧ naʔ˥˧ / ʈʂuŋ˥ ko˥"],  // Gyanag, literally "black expanse", the native name, paired with རྒྱ་གར Gyagar "white expanse" for India; ཀྲུང་གོ krung go, from Mandarin 中國, is the official name in China. Both are given for China (Wiktionary རྒྱ་ནག, Lhasa /ɟa˩˨.na˥˨/; ཀྲུང་གོ, /ʈ͡ʂuŋ˥˥.ko˥˥/); IPA in this row's style. Why black is debated: Mair (1990, Sino-Platonic Papers 18) compares the dictionaries' explanations, one of them the colour of the Chinese clothing.
     bxr: ["Хитад", "xʲitʰɐt"],  // Xitad, the Mongolic plural of the Khitan name, "the Khitans", as Mongolian Хятад; Buryat kept the older i (Wiktionary Хитад, [xʲi.tʰɐt]).
     xal: ["Китд", "kitət"],  // Kitd, the Mongolic plural of the Khitan name, cited beside Mongolian Хятад and Buryat Хитад (Wiktionary Хятад). Kalmyk spelling drops the reduced vowel; IPA mine.
+    lbj: ["རྒྱ་ནག", "ɡʲanak"],  // Gya-nak, the traditional rgya nag "black expanse"; Rebecca Norman, Getting Started in Ladakhi, place names: "Gya-nak: China; gya-mi: a Chinese person". IPA mine from that spelling.
+    xsr: ["རྒྱ་ནག", "ɡjanak"],  // Gyanak, the traditional rgya nag "black expanse", beside gyami "Han Chinese" (Tournadre et al., Sherpa-English Dictionary, 2009, pp. 69, 163). IPA mine from the dictionary spelling.
+    xct: ["རྒྱ་ནག", "rɡjanak"],  // rgya nag "the black expanse", the name for China in the classical dictionaries (Jäschke, Das; compared in Mair 1990, Sino-Platonic Papers 18). IPA in this row's written-form style, mine.
+    ne: ["चीन", "tsin"],  // Cīn, the Cīna name; Wiktionary gives the nominative [t͡sin], and the immediate donor is not stated.
+    ilo: ["Tsina", "ˈtsina"],  // Tsina, China with ch adapted as ts, the example given in the official Ilocano orthography (Komisyon sa Wikang Filipino, Tarabay iti Ortograpia, §6.2.1).
   },
 };

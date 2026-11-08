@@ -41,3 +41,12 @@ Not done, and why
 - Dumdadu ulus in Yuan times (Erkhemchukhal Dorj): Dumdadu Mongγol Ulus named the Chagatai realm (Ligeti 1971, Matsui; Wikipedia Chagatai Khanate). Added to the mn_cn note.
 - Tibetic rows adx, khg, xct, lbj, xsr, bft still have no China cell; no source with a form for them yet.
 - computer, hmn (same reader, Keng Xyooj-KauvLev): now "koos pis tawj / hlwb hlau", the loan and the native "iron brain". The reader is the source; IPA mine from the spelling. "Xob Taws" for electricity: the map has no electricity word. Wiktionary gives hluav taws xob for it.
+
+## Follow-up 2026-11-08: Codex research (brief in ~/langmap-work/china1108/CODEX_BRIEF.md)
+
+Codex returned 11 proposals with saved sources (~/langmap-work/china1108/codex). Quotes spot-checked in the saved texts (Gya-nak, Krauk, Jana, Хитой, Tsoob kuj, Tsina); all 11 taken.
+- Added: lbj Gya-nak (Norman, Getting Started in Ladakhi), xsr Gyanak (Tournadre et al. 2009), xct rgya nag (Jäschke, Das via Mair 1990; IPA rɡjanak in the row's no-space style, not Codex's "rɡja nag"), all other; ne चीन and ilo Tsina, cina.
+- tg now Чин / Хитой (cina / khitan): Wiktionary synonyms, both in Radio Ozodi news.
+- Notes: hmn (Tsoob kuj and Tuam tshoj teb in Jaisser 1995; Xia origin conjectural per Yang 2009), mnw (Halliday: Krauk "Chinese; mango"), tsg (ACD *suŋsuŋ), dz (Jana in the 1991 romanization guide), bo (Mair on why "black").
+- Article counts 304 -> 306 and 19 -> 22 in all languages; lock re-seeded.
+- Still open: trv Cikuku (no source found); adx, khg, bft (no form found); Hmong Tsoob kuj frequency; Indonesian Cina left as reported evidence only.

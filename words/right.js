@@ -340,6 +340,17 @@ WORDS.right = {
     de_at: "straight",
     de_ch: "straight",
     es_uy: "straight",
+    alt: "plain",
+    ota: "good",
+    mnc: "plain",
+    rif: "plain",
+    nrf: "straight",
+    rm: "straight",
+    ang: "good",
+    kw: "compass",
+    as: "other",
+    uga: "plain",
+    ket: "plain",
   },
   routes: {
     straight: {"color":"#2563eb","emoji":"📏","en":"'straight, true, correct'","ja":"「まっすぐ、正しい」","ko":"‘곧은, 옳은’","zh":"“直、正确”","yue":"「直、啱」","vi":"“thẳng, đúng”","th":"“ตรง ถูกต้อง”","id":"“lurus, benar”","hi":"‘सीधा, सही’","de":"„gerade, richtig“","fr":"« droit, juste »","it":"“dritto, giusto”","es":"«recto, correcto»","pt":"«reto, certo»","ru":"«прямой, верный»","uk":"«прямий, правильний»","ar":"«مستقيم، صحيح»","he":"״ישר, נכון״","sw":"“nyoofu, sahihi”"},
@@ -621,5 +632,16 @@ WORDS.right = {
     de_at: ["rechts", "rɛçts"],
     de_ch: ["rechts", "rɛçts"],
     es_uy: ["derecha", "deˈɾetʃa"],
+    alt: ["оҥ", "oŋ"],  // Inherited from Proto-Turkic *oŋ 'right'; no image is recorded for it, so it counts as a word of its own.
+    ota: ["صاغ", "saʁ"],  // Also means 'healthy, alive'.
+    mnc: ["ᡳᠴᡳ", "itʃi"],  // No image is recorded for it, so it counts as a word of its own.
+    rif: ["ⴰⴼⵓⵙⵉ", "afusi"],  // Inherited from Proto-Berber; it also means the right hand.
+    nrf: ["drouaite", "drwɛt"],  // From Old French droite, feminine of droit 'right, straight', as in French droite.
+    rm: ["dretg", "drɛtɕ"],  // From Latin directus 'straight', through Late Latin drictus.
+    ang: ["swīþra", "ˈswiːθrɑ"],  // The comparative of swīþ 'strong', so literally 'the stronger'.
+    kw: ["dyghow", "ˈdɪxɔʊ"],  // The same word means south.
+    as: ["সোঁ", "xʊ̃"],  // Inherited from Sanskrit sama 'equal, alike, level'.
+    uga: ["𐎊𐎎𐎐", "jamiːnu"],  // From Proto-Semitic *yamīn-, like Hebrew yāmīn; it also means the right hand.
+    ket: ["боӷат", "bɔqat"],  // From earlier *bóqad 'on the right', of uncertain origin, probably related to Kott pagai 'right side'.
   },
 };

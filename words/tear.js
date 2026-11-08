@@ -290,6 +290,17 @@ WORDS.tear = {
     zh: "eye",
     zu: "plain",
     en: "plain",
+    got: "plain",
+    rif: "plain",
+    ki: "plain",
+    aqc: "plain",
+    mwr: "plain",
+    ang: "plain",
+    dsb: "plain",
+    uga: "plain",
+    pi: "plain",
+    sl: "plain",
+    non: "plain",
   },
   routes: {
     eyewater: {"color":"#0891b2","emoji":"💧","en":"eye + water (air mata, 눈물, nước mắt)","ja":"目＋水（air mata, 눈물, nước mắt）","ko":"눈 + 물 (air mata, 눈물, nước mắt)","zh":"眼＋水（air mata、눈물、nước mắt）","yue":"眼＋水（air mata、눈물、nước mắt）","vi":"mắt + nước (air mata, 눈물, nước mắt)","th":"ตา + น้ำ (air mata, 눈물, nước mắt)","id":"mata + air (air mata, 눈물, nước mắt)","hi":"आँख + पानी (air mata, 눈물, nước mắt)","de":"Auge + Wasser (air mata, 눈물, nước mắt)","fr":"œil + eau (air mata, 눈물, nước mắt)","it":"occhio + acqua (air mata, 눈물, nước mắt)","es":"ojo + agua (air mata, 눈물, nước mắt)","pt":"olho + água (air mata, 눈물, nước mắt)","ru":"глаз + вода (air mata, 눈물, nước mắt)","uk":"око + вода (air mata, 눈물, nước mắt)","ar":"عين + ماء (air mata, 눈물, nước mắt)","he":"עין + מים (air mata, 눈물, nước mắt)","sw":"jicho + maji (air mata, 눈물, nước mắt)"},
@@ -524,5 +535,16 @@ WORDS.tear = {
     zh: ["眼泪", "jɛn˧˩˧ leɪ̯˥˩"],  // Built on the word for eye.
     zu: ["unyembezi", "uɲembezi"],
     en: ["tear", "tɪə"],
+    got: ["𐍄𐌰𐌲𐍂", "taɡr"],  // Inherited from Proto-Germanic *tahrą; cognate with English tear and Latin lacrima.
+    rif: ["ⴰⵎⴻⵟⵟⴰ", "amətˤːa"],  // Inherited from Proto-Berber; it also means crying.
+    ki: ["rĩithori", "ɾeiðɔɾi"],  // Inherited from Proto-Bantu *-yí̧cōdī̧.
+    aqc: ["набхъ", "nabq"],  // Akin to Lezgi нагъв.
+    mwr: ["आंहू", "ãːɦuː"],  // Inherited from Prakrit aṃsu, from Sanskrit अश्रु áśru.
+    ang: ["tēar", "tæːɑr"],  // From Proto-West Germanic *tahr.
+    dsb: ["łdza", "dza"],  // From Proto-Slavic *slĭza, like Polish łza and Czech slza.
+    uga: ["𐎄𐎎𐎓𐎚", "dimʕatu"],  // Like Hebrew dimʿā and Arabic damʕa.
+    pi: ["अस्सु", "asːu"],  // Inherited from Sanskrit áśru, from Proto-Indo-European *h₂eḱru.
+    sl: ["solza", "ˈsɔːʋza"],  // From Proto-Slavic *slĭza; first attested in the 16th century.
+    non: ["tár", "tɑːr"],  // From Proto-Germanic *tahrą.
   },
 };

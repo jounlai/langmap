@@ -317,6 +317,36 @@ WORDS.saturday = {
     es_ec: "sabbath",
     es_uy: "sabbath",
     es_ve: "sabbath",
+    aii: "sabbath",
+    cop: "sabbath",
+    vo: "plain",
+    dng: "sabbath",
+    oj: "other",
+    sva: "sabbath",
+    sco: "saturn",
+    cic: "other",
+    hil: "sabbath",
+    tly: "sabbath",
+    lus: "other",
+    fj: "unknown",
+    sd: "saturn",
+    kbd: "sabbath",
+    zag: "sabbath",
+    cho: "saturn",
+    bo: "saturn",
+    nrf: "sabbath",
+    chr: "plain",
+    cu: "sabbath",
+    rm: "sabbath",
+    fy: "eve",
+    ang: "saturn",
+    hsb: "sabbath",
+    kw: "saturn",
+    as: "saturn",
+    lld: "sabbath",
+    ks: "other",
+    non: "wash",
+    tet: "sabbath",
   },
   routes: {
     saturn: {"color":"#7c3aed","emoji":"🪐","en":"Saturn's day","ja":"土星の日","ko":"토성의 날","zh":"土星之日","yue":"土星嘅日","vi":"ngày sao Thổ","th":"วันของดาวเสาร์","id":"hari Saturnus","hi":"शनि का दिन","de":"Saturns Tag","fr":"le jour de Saturne","it":"il giorno di Saturno","es":"el día de Saturno","pt":"o dia de Saturno","ru":"день Сатурна","uk":"день Сатурна","ar":"يوم زحل","he":"יום שבתאי","sw":"siku ya Zohali"},
@@ -576,5 +606,35 @@ WORDS.saturday = {
     es_ec: ["sábado", "ˈsabado"],
     es_uy: ["sábado", "ˈsabado"],
     es_ve: ["sábado", "ˈsabado"],
+    aii: ["ܫܲܒܬ݂ܵܐ", "ʃabbəθa"],  // Inherited from Aramaic šabbəṯā, borrowed from Hebrew שַׁבָּת 'Sabbath'.
+    cop: ["ⲥⲁⲃⲃⲁⲧⲟⲛ", "sabbaton"],  // Borrowed from Koine Greek σάμβατον, from Hebrew שַׁבָּת.
+    vo: ["zädel", "tsɛˈdel"],  // No origin is recorded for it, so it counts as a word of its own; the older velüdel is archaic.
+    dng: ["шанбэ", "ʂæ̃˥˩pɛ˨˦"],  // From Persian شنبه šanbe; щинчилю and либэлю are also used.
+    oj: ["ishkwaajanokii-giizhigad", "iʃkwaːdʒanokiː ɡiːʒiɡad"],  // Literally 'after-work day', a verb, 'it is Saturday'; giziibiigisaginige-giizhigad 'washes-floors day' is also used.
+    sva: ["საფტინ", "sapʰtʼin"],  // Borrowed from Mingrelian საბატონი.
+    sco: ["Seturday", "ˈsɛtərde"],  // From Old English sæterdæġ, 'Saturn's day'.
+    cic: ["Nittak Holloʼ Nakfish", "nitːak holːoʔ nakfiʃ"],  // Literally 'the holy day's younger sibling'; Nittak Ishhannaʼliʼ 'the sixth day' is also used.
+    hil: ["Sábado", "ˈsabado"],  // Borrowed from Spanish sábado, ultimately from Hebrew שַׁבָּת.
+    tly: ["şambə", "ʃambə"],  // Cognate with Persian شنبه.
+    lus: ["Inrinni", "inrinni"],  // Literally 'preparing day', from inring 'to prepare' and ni 'day'.
+    fj: ["Siga Vakarauwai", "siŋa βakarauwai"],  // Siga is 'day'; the source does not gloss Vakarauwai.
+    sd: ["ڇنڇر", "tʃʰəɲtʃʰəru"],  // The same word names the planet Saturn; from Sanskrit *śanaiścara 'slow-moving; Saturn'.
+    kbd: ["щэбэт", "ɕabat"],  // Borrowed from Georgian შაბათი, from Hebrew שבת.
+    zag: ["sabit", "sabit"],  // From Arabic السبت, ultimately Hebrew שבת.
+    cho: ["Satʋti", "satəti"],  // Borrowed from English Saturday, Saturn's day.
+    bo: ["གཟའ་སྤེན་པ", "sa˩˨ pẽ˥ pa˥"],  // 'Planet Saturn': གཟའ gza' 'planet, day of the week' plus སྤེན་པ spen pa 'Saturn'.
+    nrf: ["Sanm'di", "sɑ̃mdi"],  // From Latin Sabbati dies 'day of the Sabbath'.
+    chr: ["ᏙᏓᏈᏕᎾ", "dodakʷidena"],  // No image is recorded for it, so it counts as a word of its own.
+    cu: ["сѫбота", "sɔ̃bota"],  // Borrowed through Latin and Greek from Hebrew šabbāṯ 'sabbath'.
+    rm: ["sonda", "ˈsɔnda"],  // From Latin dies Sabbati 'day of the Sabbath'.
+    fy: ["sneon", "snøən"],  // From Old Frisian sunna-evend, literally 'Sunday evening'; saterdei is the Wood Frisian synonym.
+    ang: ["sæternesdæġ", "ˈsæternesˌdæj"],  // 'Saturn's day', a calque of Latin dies Saturni.
+    hsb: ["sobota", "ˈsɔbɔta"],  // From Proto-Slavic *sǫbota, borrowed through Latin and Greek from Hebrew šabbāṯ 'sabbath'.
+    kw: ["dy'Sadorn", "dɪˈsadɔrn"],  // 'Day of Saturn': dydh 'day' plus Sadorn 'Saturn', a calque of Latin dies Saturni.
+    as: ["শনিবাৰ", "xɔnibɑɹ"],  // A learned borrowing from Sanskrit śanivāra, the day of Śani, Saturn.
+    lld: ["sabeda", "ˈsabeda"],  // From Latin sabbata, from sabbatum 'Sabbath'.
+    ks: ["بَٹہٕ وار", "baʈɨ ʋaːr"],  // Inherited from Sanskrit bhaṭṭārakavāra.
+    non: ["laugardagr", "ˈlɑuɡɑrˌdɑɡr"],  // 'Bath day': laug 'bath' plus dagr 'day'; it lives on in Swedish lördag and Finnish lauantai.
+    tet: ["loron-sábadu", "loron ˈsabadu"],  // 'Saturday day': loron 'day' plus Portuguese sábado, from the Sabbath.
   },
 };

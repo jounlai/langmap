@@ -384,6 +384,25 @@ WORDS.money = {
     es_ec: "coin",
     es_uy: "coin",
     es_ve: "coin",
+    la: "other",
+    ota: "coin",
+    mnc: "plain",
+    khb: "silver",
+    got: "coin",
+    lad: "coin",
+    jv: "coin",
+    cjy: "coin",
+    lep: "silver",
+    bo: "silver",
+    cu: "coin",
+    fy: "pay",
+    ang: "other",
+    cdo: "coin",
+    enm: "coin",
+    pcc: "silver",
+    gan: "coin",
+    tyz: "silver",
+    sce: "plain",
   },
   routes: {
     silver: {"color":"#64748b","emoji":"🥈","en":"a word for silver or gold (argent, כסף, เงิน)","ja":"銀や金を指す語（argent, כסף, เงิน）","ko":"은이나 금을 뜻하는 말 (argent, כסף, เงิน)","zh":"指银或金的词（argent, כסף, เงิน）","yue":"指銀或者金嘅詞（argent, כסף, เงิน）","vi":"từ chỉ bạc hoặc vàng (argent, כסף, เงิน)","th":"คำที่หมายถึงเงินหรือทอง (argent, כסף, เงิน)","id":"kata untuk perak atau emas (argent, כסף, เงิน)","hi":"चाँदी या सोने का शब्द (argent, כסף, เงิน)","de":"ein Wort für Silber oder Gold (argent, כסף, เงิน)","fr":"un mot pour l'argent métal ou l'or (argent, כסף, เงิน)","it":"una parola per l'argento o l'oro (argent, כסף, เงิน)","es":"una palabra para la plata o el oro (argent, כסף, เงิน)","pt":"uma palavra para a prata ou o ouro (argent, כסף, เงิน)","ru":"слово для серебра или золота (argent, כסף, เงิน)","uk":"слово для срібла чи золота (argent, כסף, เงิน)","ar":"كلمة للفضة أو الذهب (argent, כסף, เงิน)","he":"מילה לכסף המתכת או לזהב (argent, כסף, เงิน)","sw":"neno la fedha au dhahabu (argent, כסף, เงิน)"},
@@ -708,5 +727,24 @@ WORDS.money = {
     es_ec: ["dinero", "diˈneɾo"],
     es_uy: ["dinero", "diˈneɾo"],
     es_ve: ["dinero", "diˈneɾo"],
+    la: ["pecūnia", "peˈkuːnia"],  // From pecū 'cattle': money as 'having cattle'.
+    ota: ["پاره", "paˈɾa"],  // Borrowed from Persian پاره 'piece'; also the name of a coin.
+    mnc: ["ᠵᡳᡥᠠ", "dʒixa"],  // Inherited from Proto-Tungusic *ǯiaka; no image is recorded for it, so it counts as a word of its own.
+    khb: ["ᦇᦹᧃ", "ŋɯn˥˩"],  // Also means silver; from Old Chinese 銀 'silver'.
+    got: ["𐍃𐌺𐌰𐍄𐍄𐍃", "skatːs"],  // The word for a denarius, used loosely for money.
+    lad: ["paras", "ˈpaɾas"],  // A plural noun, from Ottoman Turkish پاره para, from Persian 'coin, money'.
+    jv: ["dhuwit", "ɖuwit"],  // Borrowed from Dutch duit, a small Dutch coin; the polite (krama) word is yatra.
+    cjy: ["钱", "tɕʰie˩"],  // Originally the name of a coin, as in Mandarin.
+    lep: ["ᰀᰩᰮ", "kɔm"],  // Also means silver; compare Old Chinese 金 'gold, money'.
+    bo: ["དངུལ", "ŋyː˥"],  // Also the word for silver.
+    cu: ["пѣнѧѕь", "pænɛ̃dzĭ"],  // Also 'penny, coin'; borrowed into Slavic from Germanic *panningaz, the source of penny.
+    fy: ["jild", "jɪlt"],  // From Proto-West Germanic *geld 'reward, gift, money', the same word as German Geld.
+    ang: ["feoh", "feox"],  // Also 'livestock, cattle' and 'property'; the source of English fee.
+    cdo: ["钱", "tsieŋ˥˧"],  // The Chinese 錢, originally a coin, read in Fuzhou.
+    enm: ["moneye", "muˈnæi̯ə"],  // From Anglo-Norman muneie, from Latin moneta, a doublet of mynt.
+    pcc: ["nganz", "ŋɐn˩˩"],  // Also the word for silver; from Old Chinese 銀 'silver', like Thai ngən.
+    gan: ["钱", "tɕʰiɛn˨˦"],  // The Chinese 錢, originally a coin, read in Nanchang.
+    tyz: ["bạc", "ɓaːk̚˧˨ʔ"],  // Also the word for silver; borrowed from Vietnamese bạc 'silver'; ngần is a synonym.
+    sce: ["baer", "pɑˈɚ"],  // No image is recorded for it, so it counts as a word of its own.
   },
 };

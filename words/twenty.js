@@ -433,6 +433,31 @@ WORDS.twenty = {
     es_uy: "fused",
     es_ve: "fused",
     pt_mz: "fused",
+    alt: "plain",
+    mnc: "plain",
+    vo: "tens",
+    lad: "fused",
+    ug: "plain",
+    tly: "fused",
+    si: "fused",
+    udi: "plain",
+    aqc: "plain",
+    rmf: "fused",
+    hif: "fused",
+    nrf: "base",
+    chr: "tens",
+    cu: "tens",
+    rm: "fused",
+    fy: "fused",
+    ang: "fused",
+    hsb: "fused",
+    lkt: "tens",
+    as: "fused",
+    nci: "base",
+    lld: "fused",
+    rue: "fused",
+    osp: "fused",
+    khw: "fused",
   },
   routes: {
     tens: {"color":"#2563eb","emoji":"🔟","en":"two and the free word for ten","ja":"二と「十」の語","ko":"둘과 ‘열’이라는 낱말","zh":"二加“十”这个词","yue":"二加「十」呢個詞","vi":"hai và từ “mười”","th":"สองกับคำว่าสิบ","id":"dua dan kata untuk sepuluh","hi":"दो और दस का शब्द","de":"zwei und das Wort für zehn","fr":"deux et le mot pour dix","it":"due e la parola per dieci","es":"dos y la palabra para diez","pt":"dois e a palavra para dez","ru":"два и слово «десять»","uk":"два і слово «десять»","ar":"اثنان وكلمة عشرة","he":"שתיים והמילה עשר","sw":"mbili na neno la kumi"},
@@ -805,5 +830,30 @@ WORDS.twenty = {
     es_uy: ["veinte", "ˈbeinte"],
     es_ve: ["veinte", "ˈbeinte"],
     pt_mz: ["vinte", "ˈvĩte"],
+    alt: ["јирме", "dʲirme"],  // Inherited from Proto-Turkic *yegirmi 'twenty'.
+    mnc: ["ᠣᡵᡳᠨ", "orin"],  // From Jurchen orin, from Proto-Tungusic *xorin.
+    vo: ["teldeg", "telˈdeɡ"],  // Two and ten: tel 'two' and deg 'ten'.
+    lad: ["vente", "ˈvente"],  // Inherited from Old Spanish veynte, from Latin vīgintī.
+    ug: ["يىگىرمە", "jiɡirmɛ"],  // The Turkic word for twenty, like Turkish yirmi.
+    tly: ["vist", "vist"],  // Cognate with Persian بیست bist.
+    si: ["විස්ස", "ʋisːə"],  // Inherited from Sanskrit विंशति viṃśati.
+    udi: ["къа", "qʼa"],  // From Aghwan q̇å, from Proto-Northeast Caucasian *ɢ̄ə.
+    aqc: ["къа", "qʼa"],  // From Proto-Lezghian *q̇:a, from Proto-Northeast Caucasian *ɢ̄ə.
+    rmf: ["biȟ", "bix"],  // From Sanskrit विंशति viṃśatí; cognate with Hindi बीस.
+    hif: ["biis", "biːs"],  // From Awadhi बीस, ultimately from Sanskrit विंशति viṃśatí.
+    nrf: ["vîngt", "vĩ"],  // From Latin viginti; Norman counts in twenties, as quatre-vîngts 'four twenties' for eighty shows.
+    chr: ["ᏔᎵᏍᎪᎯ", "talisɡohi"],  // 'Two tens': ᏔᎵ tali 'two' plus ᏍᎪᎯ sgohi 'ten'.
+    cu: ["дъва десѧти", "dŭva desɛ̃ti"],  // 'Two tens': дъва 'two' plus the dual of десѧть 'ten'.
+    rm: ["ventg", "vɛntɕ"],  // The Rumantsch Grischun form.
+    fy: ["tweintich", "ˈtvɛintəx"],  // From Proto-Germanic *twai tigiwiz 'two tens', worn down to one word.
+    ang: ["twēntiġ", "ˈtweːntij"],  // From Proto-Germanic *twai tigiwiz 'two tens', worn down to one word.
+    hsb: ["dwaceći", "ˈdwatsɛtʃi"],  // Two tens worn down to one word.
+    lkt: ["wikčémna núŋpa", "wiktʃémna nṹpa"],  // 'Ten two': wikčémna 'ten' plus núŋpa 'two'.
+    as: ["বিছ", "bis"],  // কুৰি kuri, a score, is a synonym.
+    nci: ["cempōhualli", "sempoːˈwalːi"],  // 'One count': ce 'one' plus pōhualli 'a count', the unit of counting by twenties.
+    lld: ["vint", "vint"],  // From Latin viginti.
+    rue: ["двадцять", "ˈdvatʲtsʲatʲ"],  // Two tens worn down to one word.
+    osp: ["veynte", "βeˈinte"],  // Inherited from Latin viginti.
+    khw: ["بیشیر", "ˈbiʃir"],  // From Sanskrit viṃśati 'twenty'; Kalasha bíši is related.
   },
 };

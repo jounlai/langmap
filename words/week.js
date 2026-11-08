@@ -327,6 +327,26 @@ WORDS.week = {
     es_ec: "seven",
     es_uy: "seven",
     es_ve: "seven",
+    vo: "plain",
+    got: "turn",
+    co: "seven",
+    nds: "turn",
+    lad: "seven",
+    tsg: "seven",
+    udi: "sabbath",
+    frp: "seven",
+    nlc: "sunday",
+    nrf: "seven",
+    chr: "plain",
+    rm: "seven",
+    fy: "turn",
+    ang: "turn",
+    hsb: "thisday",
+    lld: "seven",
+    li: "turn",
+    bo: "seven",
+    non: "turn",
+    osp: "seven",
   },
   routes: {
     seven: {"color":"#2563eb","emoji":"7️⃣","en":"the number seven","ja":"数の七","ko":"일곱이라는 수","zh":"数字七","yue":"數字七","vi":"con số bảy","th":"เลขเจ็ด","id":"angka tujuh","hi":"सात की संख्या","de":"die Zahl Sieben","fr":"le nombre sept","it":"il numero sette","es":"el número siete","pt":"o número sete","ru":"число семь","uk":"число сім","ar":"العدد سبعة","he":"המספר שבע","sw":"namba saba"},
@@ -595,5 +615,25 @@ WORDS.week = {
     es_ec: ["semana", "seˈmana"],
     es_uy: ["semana", "seˈmana"],
     es_ve: ["semana", "seˈmana"],
+    vo: ["vig", "viɡ"],  // No origin is recorded for it, so it counts as a word of its own.
+    got: ["𐍅𐌹𐌺𐍉", "ˈwikoː"],  // Inherited from Proto-Germanic *wikǭ; it also means 'sequence, routine'.
+    co: ["sittimana", "sittiˈmana"],  // From Late Latin septimāna, from septimus 'seventh'.
+    nds: ["Week", "veːk"],  // From Middle Low German wēke, from Proto-Germanic *wikǭ.
+    lad: ["semana", "seˈmana"],  // From Latin septimāna.
+    tsg: ["pitu", "pitu"],  // The same word as pitu 'seven'.
+    udi: ["шаматӏ", "ʃamatʼ"],  // The same word means the Sabbath and Saturday; compare Armenian շաբաթ.
+    frp: ["semana", "seˈmana"],  // Inherited from Late Latin septimāna.
+    nlc: ["minggu", "miŋɡu"],  // From Indonesian minggu, ultimately from Portuguese domingo 'Sunday'.
+    nrf: ["s'maine", "smɛn"],  // From Late Latin septimana, built on septimus 'seventh'.
+    chr: ["ᏑᎾᏙᏓᏆᏍᏗ", "sunadodakʷasdi"],  // No image is recorded for it, so it counts as a word of its own.
+    rm: ["emna", "ˈɛmna"],  // From Latin hebdomas, from Greek hebdomás 'seven, a week'.
+    fy: ["wike", "ˈvikə"],  // From Proto-Germanic *wikǭ 'sequence, a shift', from a root 'to bend, turn'.
+    ang: ["wice", "ˈwike"],  // From Proto-Germanic *wikǭ 'sequence, a shift', from a root 'to bend, turn'.
+    hsb: ["tydźeń", "ˈtɨdʒɛjn"],  // From Proto-Slavic *tŭjĭdĭnĭ, 'this day' run together into one word.
+    lld: ["ena", "ˈena"],  // From Latin hebdomas, from Greek hebdomás 'seven, a week'; setemena, from Latin septimana, is a synonym.
+    li: ["waek", "ʋɛːk"],  // From Proto-Germanic *wikǭ 'sequence, a shift', from a root 'to bend, turn'.
+    bo: ["བདུན་ཕྲག", "tỹ˩˨ ʈʂʰa˥˨"],  // Begins with བདུན bdun 'seven'.
+    non: ["vika", "ˈvikɑ"],  // From Proto-Germanic *wikǭ, from a root 'to bend, wind, turn'; it also meant the distance rowed in one sitting.
+    osp: ["setmana", "setˈmana"],  // From Late Latin septimana, from septimus 'seventh'; semana is a variant.
   },
 };

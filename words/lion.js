@@ -260,6 +260,40 @@ WORDS.lion = {
     ar_eg: "asad",
     ar_ma: "plain",
     ar_tn: "asad",
+    alt: "arslan",
+    ota: "arslan",
+    fo: "leo",
+    rif: "plain",
+    jv: "simha",
+    cjy: "shi",
+    ki: "plain",
+    zu: "plain",
+    mnw: "plain",
+    av: "plain",
+    sn: "plain",
+    mfe: "leo",
+    cy: "leo",
+    bm: "plain",
+    bo: "other",
+    chr: "plain",
+    rm: "leo",
+    hsb: "leo",
+    cdo: "shi",
+    dsb: "leo",
+    enm: "leo",
+    uga: "plain",
+    pi: "simha",
+    lij: "leo",
+    ti: "plain",
+    sl: "leo",
+    ha: "plain",
+    ak: "plain",
+    ff: "plain",
+    mos: "plain",
+    gan: "shi",
+    sog: "shir",
+    kfa: "simha",
+    tcy: "simha",
   },
   routes: {
     leo: {"color":"#2563eb","emoji":"🏛️","en":"from Latin leo, Greek leon (Löwe, лев, león)","ja":"ラテン語 leo、ギリシア語 leon から (Löwe, лев, león)","ko":"라틴어 leo, 그리스어 leon에서 (Löwe, лев, león)","zh":"来自拉丁语 leo、希腊语 leon (Löwe, лев, león)","yue":"嚟自拉丁語 leo、希臘語 leon (Löwe, лев, león)","vi":"từ tiếng Latinh leo, tiếng Hy Lạp leon (Löwe, лев, león)","th":"จากภาษาละติน leo ภาษากรีก leon (Löwe, лев, león)","id":"dari leo Latin, leon Yunani (Löwe, лев, león)","hi":"लैटिन leo, यूनानी leon से (Löwe, лев, león)","de":"aus Lateinisch leo, Griechisch leon (Löwe, лев, león)","fr":"du latin leo, du grec leon (Löwe, лев, león)","it":"dal latino leo, dal greco leon (Löwe, лев, león)","es":"del latín leo, del griego leon (Löwe, лев, león)","pt":"do latim leo, do grego leon (Löwe, лев, león)","ru":"от латинского leo, греческого leon (Löwe, лев, león)","uk":"від латинського leo, грецького leon (Löwe, лев, león)","ar":"من اللاتينية leo واليونانية leon (Löwe, лев, león)","he":"מהלטינית leo, מהיוונית leon (Löwe, лев, león)","sw":"kutoka Kilatini leo, Kigiriki leon (Löwe, лев, león)"},
@@ -462,5 +496,39 @@ WORDS.lion = {
     ar_eg: ["أسد", "ʔasad"],  // Arabic asad; سبع sabʕ is also used.
     ar_ma: ["سبع", "sbaʕ"],  // From Arabic sabʕ 'beast of prey'.
     ar_tn: ["سيد", "siːd"],  // From Arabic asad.
+    alt: ["арслан", "arslan"],  // Inherited from Proto-Turkic *arsïlan.
+    ota: ["آرسلان", "aɾsˈlan"],  // Inherited from Proto-Turkic *arsïlan 'lion'.
+    fo: ["ljón", "ljɔun"],  // From Old Norse león, from Latin leō; leyva and colloquial løva are also used.
+    rif: ["ⴰⵢⵔⴰⴷ", "ajrað"],  // Inherited from Proto-Berber; izem and buharru are synonyms.
+    jv: ["singa", "siŋɔ"],  // From Old Javanese siṅha, from Sanskrit सिंह siṃha 'lion'.
+    cjy: ["狮子", "sɹ̩˩ tsəʔ˨"],  // From Chinese 獅, the word that also gave Korean 사자.
+    ki: ["mũrũthi", "moɾoːði"],  // No origin is recorded for it, so it counts as a word of its own.
+    zu: ["ibhubesi", "ibuˈɓeːsi"],  // Derived from imbube, another word for lion; ingonyama is also used.
+    mnw: ["ဇာဒိသိုၚ်", "cɛatiʔsaŋ"],  // No origin is recorded on the entry, so it counts as a word of its own.
+    av: ["гъалбацӏ", "ʁalbatsʼ"],  // No origin is recorded for it, so it counts as a word of its own.
+    sn: ["shumba", "ʃumba"],  // No origin is recorded for it, so it counts as a word of its own.
+    mfe: ["lion", "ljɔ̃"],  // From French lion.
+    cy: ["llew", "ɬeːu"],  // From Proto-Brythonic *llew, from Latin leō.
+    bm: ["waraba", "waraba"],  // No origin is recorded for it, so it counts as a word of its own.
+    bo: ["སེང་གེ", "seŋ˥ ke˥"],  // Borrowed from a Central Asian substrate language, related to Chinese 獅 and Sanskrit siṃha rather than taken from either.
+    chr: ["ᎲᏓᏱ", "hə̃daji"],  // No image is recorded for it, so it counts as a word of its own. ᏝᏓᏥ tladatsi, mainly 'cougar', is also used.
+    rm: ["liun", "liˈun"],  // From Latin leo, leonem.
+    hsb: ["law", "law"],  // Inherited from Proto-Slavic *lĭvŭ, the Slavic form of the lion word.
+    cdo: ["狮", "sai˥˥"],  // The Chinese 獅, read in Fuzhou.
+    dsb: ["law", "law"],  // From Proto-Slavic *lĭvŭ.
+    enm: ["lyoun", "liˈuːn"],  // From Old French leon, from Latin leo and Greek léōn.
+    uga: ["𐎍𐎁𐎜", "labaʔu"],  // From Proto-Semitic *labiʔ- 'lion', like Hebrew lāḇī; 𐎀𐎗𐎆 ʾarwu is another lion word.
+    pi: ["सीह", "siːha"],  // Inherited from Sanskrit siṃha.
+    lij: ["lión", "liˈʊŋ"],  // From Latin leonem, from Greek léōn.
+    ti: ["ኣንበሳ", "ʔanbɐsa"],  // No image is recorded for it, so it counts as a word of its own.
+    sl: ["lev", "lɛʋ"],  // Inherited from Proto-Slavic *lĭvŭ, which goes back through a Germanic source to Latin leo.
+    ha: ["zaki", "záːkìː"],  // Likely from a Benue-Congo language, like Cara ziki.
+    ak: ["gyata", "ɡʲata"],  // No image is recorded for it, so it counts as a word of its own.
+    ff: ["piyoori", "pijoːɾi"],  // Pular; ngayuuri, ñaɓii and waroori are synonyms.
+    mos: ["gɩgemde", "ɡɪɡemde"],  // No image is recorded for it, so it counts as a word of its own. Farefare gɩgnɛ 'lion' is related.
+    gan: ["狮子", "sɿ˦˨ tsɿ˨"],  // The Chinese 獅子, read in Nanchang.
+    sog: ["šrwγ", "ʃruɣ"],  // From Proto-Iranian *cárguš, the source of Persian šēr.
+    kfa: ["ಸಿಂಹ", "simha"],  // Borrowed from Sanskrit siṃhá 'lion'.
+    tcy: ["ಸಿಂಹ", "simha"],  // Borrowed from Sanskrit siṃhá 'lion'.
   },
 };

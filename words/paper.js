@@ -335,6 +335,17 @@ WORDS.paper = {
     es_ec: "papyrus",
     es_uy: "papyrus",
     es_ve: "papyrus",
+    la: "charta",
+    ota: "kaghaz",
+    mnc: "plain",
+    aii: "leaf",
+    esu: "plain",
+    apw: "plain",
+    lv: "papyrus",
+    bo: "plain",
+    ang: "charta",
+    cdo: "chinese",
+    arq: "kaghaz",
   },
   routes: {
     papyrus: {"color":"#2563eb","emoji":"📜","en":"from Latin papyrus (papier, papel, Papier)","ja":"ラテン語 papyrus から（papier, papel, Papier）","ko":"라틴어 papyrus에서 (papier, papel, Papier)","zh":"源自拉丁语 papyrus（papier, papel, Papier）","yue":"源自拉丁文 papyrus（papier, papel, Papier）","vi":"từ tiếng Latinh papyrus (papier, papel, Papier)","th":"จากภาษาละติน papyrus (papier, papel, Papier)","id":"dari bahasa Latin papyrus (papier, papel, Papier)","hi":"लातिन papyrus से (papier, papel, Papier)","de":"aus lateinisch papyrus (papier, papel, Papier)","fr":"du latin papyrus (papier, papel, Papier)","it":"dal latino papyrus (papier, papel, Papier)","es":"del latín papyrus (papier, papel, Papier)","pt":"do latim papyrus (papier, papel, Papier)","ru":"из латинского papyrus (papier, papel, Papier)","uk":"з латинського papyrus (papier, papel, Papier)","ar":"من اللاتينية papyrus (papier, papel, Papier)","he":"מ-papyrus הלטינית (papier, papel, Papier)","sw":"kutoka Kilatini papyrus (papier, papel, Papier)"},
@@ -610,5 +621,16 @@ WORDS.paper = {
     es_ec: ["papel", "paˈpel"],
     es_uy: ["papel", "paˈpel"],
     es_ve: ["papel", "paˈpel"],
+    la: ["charta", "ˈkʰarta"],  // Borrowed from Ancient Greek χάρτης 'paper'.
+    ota: ["كاغد", "caːˈʁɯd"],  // Borrowed from Persian کاغذ kāġaz, from Sogdian.
+    mnc: ["ᡥᠣᠣᡧᠠᠨ", "xoːʃan"],  // No origin is recorded for it, so it counts as a word of its own.
+    aii: ["ܘܲܪܲܩܬܵܐ", "warraːqta"],  // Borrowed from Arabic وَرَقَة, from Proto-Semitic *waraḳ- 'leaf'.
+    esu: ["kalikaq", "kalikaq"],  // No origin is recorded for it, so it counts as a word of its own.
+    apw: ["nałtsoos", "naɬtsoːs"],  // The same word means book; compare Navajo naaltsoos 'paper, book'.
+    lv: ["papīrs", "ˈpapiːrs"],  // From Polish papier.
+    bo: ["ཤོག་བུ", "ɕu˥ ku˥"],  // No image is recorded for it, so it counts as a word of its own.
+    ang: ["carte", "ˈkɑrte"],  // From Latin charta, from Greek khártēs.
+    cdo: ["纸", "tsai˧˧"],  // The Chinese 紙, read in Fuzhou.
+    arq: ["كاغط", "kaːɣətˤ"],  // Inherited from Arabic kāḡad, the Persian kāġaz word; it also meant a document.
   },
 };

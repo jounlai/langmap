@@ -209,6 +209,30 @@ WORDS.cotton = {
     ar_gulf: "qutn",
     ar_ma: "qutn",
     ar_tn: "qutn",
+    gv: "plain",
+    ota: "pambak",
+    sa: "karpasa",
+    cop: "qutn",
+    inh: "pambak",
+    nds: "treewool",
+    jv: "karpasa",
+    az: "pambak",
+    udi: "pambak",
+    pdc: "treewool",
+    glk: "pambak",
+    et: "treewool",
+    chr: "plain",
+    tk: "plain",
+    ady: "plain",
+    enm: "qutn",
+    pi: "karpasa",
+    sl: "plain",
+    ha: "plain",
+    mzn: "pambak",
+    ba: "plain",
+    ht: "qutn",
+    eu: "qutn",
+    sk: "treewool",
   },
   routes: {
     qutn: {"color":"#059669","emoji":"🐪","en":"from Arabic qutn (coton, cotton, algodón)","ja":"アラビア語 qutn から (coton, cotton, algodón)","ko":"아랍어 qutn에서 (coton, cotton, algodón)","zh":"来自阿拉伯语 qutn (coton, cotton, algodón)","yue":"嚟自阿拉伯語 qutn (coton, cotton, algodón)","vi":"từ tiếng Ả Rập qutn (coton, cotton, algodón)","th":"จากภาษาอาหรับ qutn (coton, cotton, algodón)","id":"dari qutn Arab (coton, cotton, algodón)","hi":"अरबी qutn से (coton, cotton, algodón)","de":"aus Arabisch qutn (coton, cotton, algodón)","fr":"de l'arabe qutn (coton, cotton, algodón)","it":"dall'arabo qutn (coton, cotton, algodón)","es":"del árabe qutn (coton, cotton, algodón)","pt":"do árabe qutn (coton, cotton, algodón)","ru":"от арабского qutn (coton, cotton, algodón)","uk":"від арабського qutn (coton, cotton, algodón)","ar":"من العربية قطن (coton, cotton, algodón)","he":"מהערבית qutn (coton, cotton, algodón)","sw":"kutoka Kiarabu qutn (coton, cotton, algodón)"},
@@ -362,5 +386,29 @@ WORDS.cotton = {
     ar_gulf: ["قطن", "ɡɪtˤɪn"],  // From Arabic qutn.
     ar_ma: ["قطن", "qtˤun"],  // From Arabic qutn.
     ar_tn: ["قطن", "qtˤʊn"],  // From Arabic qutn.
+    gv: ["cadee", "ˈkadiː"],  // No origin is recorded for it, so it counts as a word of its own.
+    ota: ["پاموق", "paˈmuk"],  // From Old Anatolian Turkish panbuq, from Middle Persian pambag.
+    sa: ["कर्पास", "kɐɾpaːsɐ"],  // A wanderword, probably from an eastern substrate; compare Proto-Austroasiatic *k-rn-pas 'cotton'.
+    cop: ["ⲕⲟⲩⲧⲱⲛ", "kutoːn"],  // Sahidic; from Arabic قطن quṭn 'cotton'.
+    inh: ["боамби", "bɔ̯ambi"],  // Borrowed from Ossetian бӕмбӕг, which goes back to Persian pambak.
+    nds: ["Boomwull", "ˈboːmvʊl"],  // Literally 'tree wool', like German Baumwolle.
+    jv: ["kapas", "kapas"],  // Route by resemblance to the neighbouring forms (ms); no etymology of its own.
+    az: ["pambıq", "pɑmˈbɯx"],  // From Old Anatolian Turkish pambuq; cognate with Middle Persian pambag.
+    udi: ["памбакӏ", "pambakʼ"],  // From Middle Persian pambak, not through Armenian.
+    pdc: ["Baawoll", "ˈbaːvɔl"],  // Literally 'tree wool', from Baam 'tree' and Woll 'wool', like German Baumwolle.
+    glk: ["پنبه", "panba"],  // Borrowed from Middle Persian pambag 'cotton'.
+    et: ["puuvill", "ˈpuːvilː"],  // Literally 'tree wool', from puu 'tree' and vill 'wool'.
+    chr: ["ᎤᏥᎸᎢ", "utsilə̃i"],  // No image is recorded for it, so it counts as a word of its own.
+    tk: ["pagta", "paɡta"],  // Borrowed from Classical Persian paxta 'cotton'.
+    ady: ["джыны", "dʒənə"],  // It also means hair, wool and yarn.
+    enm: ["coton", "kɔˈtuːn"],  // Through Old French and Italian cotone from Arabic quṭn.
+    pi: ["कप्पास", "kapːaːsa"],  // From Sanskrit karpāsa.
+    sl: ["bombaž", "bɔmˈbaːʃ"],  // Borrowed from Venetan bombaso.
+    ha: ["audùgā", "ʔáudùɡáː"],  // It also means the cotton plant.
+    mzn: ["پمه", "pæmme"],  // From Middle Persian pmbk', the Persian pambak word.
+    ba: ["мамыҡ", "mɑˈmɯ̞q"],  // From Chagatai mamuq 'cotton'; it also means cotton wool and down.
+    ht: ["koton", "kotɔ̃"],  // From French coton.
+    eu: ["algodoi", "alɣoðoi̯"],  // Borrowed from Spanish algodón, the Arabic qutn word with the article; kotoin, from French coton, is a synonym.
+    sk: ["bavlna", "ˈbaʋl̩na"],  // The same word as Czech bavlna, which is 'tree wool' or borrowed from such a word.
   },
 };

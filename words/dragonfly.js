@@ -375,6 +375,8 @@ WORDS.dragonfly = {
     kac: "plain",
     twm: "plain",
     mdh: "plain",
+    ilo: "plain",
+    tk: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -695,5 +697,7 @@ WORDS.dragonfly = {
     kac: ["hka nsen", "kʰaʔ˧˩n̩˧˩sen˧˩"],  // Sun 1991 (Jingpho) khaʔ³¹n³¹sen³¹. Latin spelling follows the row's pairs; the source is IPA.
     twm: ["tiŋ55tse55mɛ31", "tiŋ˥˥tse˥˥mɛ˧˩"],  // Sun 1991 (Mama Tshona) tiŋ⁵⁵tse⁵⁵mɛ³¹, the row's list. Tone letters from the row's pairs.
     mdh: ["talangas", "talaŋas"],  // Maguindanao talangas 'dragonfly' (SEAlang). No image is recorded for it, so it counts as a word of its own.
+    ilo: ["billobillo", "billobillo"],  // No origin is recorded for it, so it counts as a word of its own.
+    tk: ["teneçir", "tenetʃiɾ"],  // No image is recorded for it, so it counts as a word of its own.
   },
 };

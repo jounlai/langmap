@@ -525,6 +525,7 @@ WORDS.china = {
     ne: "cina",
     ilo: "cina",
     mni: "other",
+    tk: "khitan",
   },
   family2: {
     bo: "zhongguo",
@@ -996,5 +997,6 @@ WORDS.china = {
     ne: ["चीन", "tsin"],  // Cīn, the Cīna name; Wiktionary gives the nominative [t͡sin], and the immediate donor is not stated.
     ilo: ["Tsina", "ˈtsina"],  // Tsina, China with ch adapted as ts, the example given in the official Ilocano orthography (Komisyon sa Wikang Filipino, Tarabay iti Ortograpia, §6.2.1).
     mni: ["ꯈꯥꯀꯤ ꯂꯩꯄꯥꯛ", "kʰaɡi ləipak"],  // Khagi Leibak "land of the Khagi", the Meitei Wikipedia's title for China; Khagi is the old Meitei name for the Chinese, as in King Khagemba "conqueror of the Chinese" (r. 1597-1652; Wikipedia, Khagemba). Its origin is unknown. IPA mine.
+    tk: ["Hytaý", "hɯtaj"],  // From the Khitan people, probably through Uyghur xitay; related to Russian Kitaj and English Cathay.
   },
 };

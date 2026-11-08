@@ -178,7 +178,24 @@ const DECISIONS = [
             // 2026-10-29: goosebumps 51 → 53 — new jv mrinding and hy cells expose jvn (Caribbean Javanese) and hyw (Western Armenian); no source for either.
             // 2026-11-03: ratcheted after Kansai/Hakata/Hiroshima and Jeolla/Busan cells copied from the national word.
             // 2026-11-05: new word sunday; variety rows without a source for the day name.
-            const BUDGET = {uncle: 116, cotton: 112, lion: 116, earthquake: 115, tear: 119, tobacco: 81, wife: 45, soap: 76, yellow: 49, camel: 73, window: 80, thousand: 71, week: 63, saturday: 99, money: 62, paper: 71, maize: 64, right: 55, twenty: 26, sunday: 52, lol: 0, turkey: 46, potato: 34, mobilephone: 43, hangover: 56, ladybird: 61, monday: 22, whale: 45, wisdomtooth: 55, cheers: 31, blessyou: 24, sunflower: 36, goosebumps: 53, octopus: 49, shootingstar: 36, jellyfish: 71, tomato: 34, pineapple: 46, adamsapple: 61, germany: 33, japan: 29, china: 27, korea: 37, india: 29, greece: 36, atsign: 30, blue: 5, cockcrow: 46, coffee: 25, computer: 8, cuckoo: 27, dopamine: 31, n99: 11, orange: 7, sugar: 11, sushi: 11, tea: 8, wifi: 26, woof: 29};
+            // 2026-11-09: earthquake 118 → 121 — Wiktionary gap fill (review 671): new parent cells expose cjy_lv cjy_xz gan_fz gan_ja gan_yc jvn; no variety-level source yet.
+            // 2026-11-09: lion 119 → 123 — Wiktionary gap fill (review 671): new parent cells expose cjy_lv cjy_xz gan_fz gan_ja gan_yc jvn lij_t; no variety-level source yet.
+            // 2026-11-09: money 65 → 68 — Wiktionary gap fill (review 671): new parent cells expose cjy_lv cjy_xz gan_fz gan_ja gan_yc jvn; no variety-level source yet.
+            // 2026-11-09: right 55 → 56 — Wiktionary gap fill (review 671): new parent cells expose nrf_gg; no variety-level source yet.
+            // 2026-11-09: soap 78 → 79 — Wiktionary gap fill (review 671): new parent cells expose cjy_lv cjy_xz nrf_gg; no variety-level source yet.
+            // 2026-11-09: sunday 52 → 58 — Wiktionary gap fill (review 671): new parent cells expose nrf_gg yue_dg yue_gz yue_nn yue_ts yue_zs; no variety-level source yet.
+            // 2026-11-09: twenty 26 → 27 — Wiktionary gap fill (review 671): new parent cells expose nrf_gg; no variety-level source yet.
+            // 2026-11-09: uncle 116 → 117 — Wiktionary gap fill (review 671): new parent cells expose nrf_gg; no variety-level source yet.
+            // 2026-11-09: week 63 → 64 — Wiktionary gap fill (review 671): new parent cells expose nrf_gg; no variety-level source yet.
+            // 2026-11-09: wife 47 → 57 — Wiktionary gap fill (review 671): new parent cells expose cjy_lv cjy_xz gan_fz gan_ja gan_yc vi_c vi_s yue_dg yue_gz yue_nn yue_ts yue_zs; no variety-level source yet.
+            // 2026-11-09: cotton 112 → 113 — Wiktionary gap fill (review 671): new jv kapas exposes jvn (Caribbean Javanese); no town-level source yet.
+            // 2026-11-09: earthquake 115 → 118 — Wiktionary gap fill (review 671): new cjy 地震 and jv cells expose cjy_lv, cjy_xz (Lüliang, Xinzhou Jin) and jvn; no town-level source yet.
+            // 2026-11-09: lion 116 → 119 — Wiktionary gap fill (review 671): new cjy 狮子 and jv cells expose cjy_lv, cjy_xz and jvn; no town-level source yet.
+            // 2026-11-09: money 62 → 65 — Wiktionary gap fill (review 671): new cjy 钱 and jv cells expose cjy_lv, cjy_xz and jvn; no town-level source yet.
+            // 2026-11-09: soap 76 → 78 — Wiktionary gap fill (review 671): new cjy 胰子 exposes cjy_lv, cjy_xz; no town-level source yet.
+            // 2026-11-09: wife 45 → 47 — Wiktionary gap fill (review 671): new cjy 老婆 exposes cjy_lv, cjy_xz; no town-level source yet.
+            // 2026-11-09: window 80 → 82 — Wiktionary gap fill (review 671): new cjy 窗户 exposes cjy_lv, cjy_xz; no town-level source yet.
+            const BUDGET = {uncle: 117, cotton: 113, lion: 123, earthquake: 121, tear: 119, tobacco: 81, wife: 57, soap: 79, yellow: 49, camel: 73, window: 82, thousand: 71, week: 64, saturday: 99, money: 68, paper: 71, maize: 64, right: 56, twenty: 27, sunday: 58, lol: 0, turkey: 46, potato: 34, mobilephone: 43, hangover: 56, ladybird: 61, monday: 22, whale: 45, wisdomtooth: 55, cheers: 31, blessyou: 24, sunflower: 36, goosebumps: 53, octopus: 49, shootingstar: 36, jellyfish: 71, tomato: 34, pineapple: 46, adamsapple: 61, germany: 33, japan: 29, china: 27, korea: 37, india: 29, greece: 36, atsign: 30, blue: 5, cockcrow: 46, coffee: 25, computer: 8, cuckoo: 27, dopamine: 31, n99: 11, orange: 7, sugar: 11, sushi: 11, tea: 8, wifi: 26, woof: 29};
             const bad = [];
             for (const f of fs.readdirSync(path.join(ROOT, 'words'))) {
                 if (!f.endsWith('.js') || !/partial:\s*true/.test(read('words/' + f))) continue;

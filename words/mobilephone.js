@@ -490,6 +490,9 @@ WORDS.mobilephone = {
     vi_nom: "carry",
     afb: "carry",
     szy: "other",
+    nrf: "other",
+    kw: "other",
+    lkt: "other",
   },
   routes: {
     hand: {"color":"#ea580c","emoji":"✋","en":"the hand","ja":"手","ko":"손","zh":"手","yue":"手","vi":"bàn tay","th":"มือ","id":"tangan","hi":"हाथ","de":"die Hand","fr":"la main","it":"la mano","es":"la mano","pt":"a mão","ru":"рука","uk":"рука","ar":"اليد","he":"היד","sw":"mkono"},
@@ -923,5 +926,8 @@ WORDS.mobilephone = {
     vi_nom: ["電話移動", "ɗiən˧˨ʔ tʰwaːj˧˨ʔ zi˧ ɗəwŋ͡m˧˨ʔ"],  // The Hán spelling of điện thoại di động that Wiktionary gives: điện thoại 電話 'telephone' + di động 移動 'mobile'.
     afb: ["موبايل", "moːbaːjl"],  // From English mobile.
     szy: ["limaki", "limaki"],
+    nrf: ["téléphône dé pouchette", "telefoːn de puʃɛt"],  // Literally 'pocket telephone' (pouchette 'pocket').
+    kw: ["klapkodh", "ˈklapkɔð"],  // Literally 'chatter husk' (klapp 'chatter' plus kodh 'husk'); kellgowser, a calque of 'cell phone', is a synonym.
+    lkt: ["omásʼapȟela", "omásʔapˣela"],  // 'Little telephone': omásʼapȟe 'telephone' plus the diminutive -la, coined at a Lakota immersion school in the 2010s.
   },
 };

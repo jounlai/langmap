@@ -325,6 +325,10 @@ WORDS.octopus = {
     meu: "plain",
     ksw: "plain",
     mdh: "plain",
+    fo: "eight",
+    sv: "other",
+    nrf: "many",
+    rcf: "plain",
   },
   routes: {
     eight: {"color":"#2563eb","emoji":"8️⃣","en":"eight feet","ja":"8本の足","ko":"여덟 발","zh":"八条腿","yue":"八隻腳","vi":"tám chân","th":"แปดเท้า","id":"delapan kaki","hi":"आठ पैर","de":"acht Füße","fr":"huit pieds","it":"otto piedi","es":"ocho pies","pt":"oito pés","ru":"восемь ног","uk":"вісім ніг","ar":"ثماني أقدام","he":"שמונה רגליים","sw":"miguu minane"},
@@ -594,5 +598,9 @@ WORDS.octopus = {
     meu: ["urita", "uɾita"],  // Lawes "Urita, s. cuttlefish, octopus"
     ksw: ["ပဝဲၢ်", "pawɛ"],  // S'gaw Karen 'octopus' (SEAlang). No image is recorded for it, so it counts as a word of its own. IPA read from the script; the dictionary prints none.
     mdh: ["kuleta", "kuleta"],  // Maguindanao kuleta 'octopus' (SEAlang). No image is recorded for it, so it counts as a word of its own.
+    fo: ["áttaermdur høgguslokkur", "ˈɔʰtːeɹmtʊɹ ˈhœkːʊslɔʰkːʊɹ"],  // Literally 'eight-armed squid'.
+    sv: ["bläckfisk", "ˈblɛkːfɪsk"],  // Literally 'ink fish'; it covers all cephalopods, and an octopus can be specified as åttaarmad bläckfisk 'eight-armed ink fish'.
+    nrf: ["pieuvre", "pjœvr"],  // From Latin polypus, Greek polúpous 'several feet'.
+    rcf: ["zourit", "zuʁit"],  // From French les ourites, from Malagasy horita.
   },
 };

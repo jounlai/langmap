@@ -227,6 +227,26 @@ WORDS.uncle = {
     ha: "split",
     ee: "split",
     so: "split",
+    la: "split",
+    ota: "split",
+    aii: "split",
+    sco: "one",
+    ps: "split",
+    lo: "unknown",
+    am: "unknown",
+    djk: "unknown",
+    sq: "split",
+    nrf: "one",
+    rm: "one",
+    fy: "one",
+    gd: "split",
+    ang: "split",
+    as: "split",
+    oc: "one",
+    yi: "one",
+    crh: "split",
+    sl: "split",
+    bo: "split",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's brother ≠ mother's brother","ja":"父の兄弟と母の兄弟で別の語","ko":"아버지의 형제와 어머니의 형제가 다른 낱말","zh":"父亲的兄弟和母亲的兄弟用不同的词","yue":"老豆嘅兄弟同阿媽嘅兄弟用唔同嘅詞","vi":"anh em của cha ≠ anh em của mẹ","th":"พี่น้องชายของพ่อกับของแม่เป็นคนละคำ","id":"saudara ayah ≠ saudara ibu","hi":"पिता का भाई ≠ माँ का भाई","de":"Bruder des Vaters ≠ Bruder der Mutter","fr":"frère du père ≠ frère de la mère","it":"fratello del padre ≠ fratello della madre","es":"hermano del padre ≠ hermano de la madre","pt":"irmão do pai ≠ irmão da mãe","ru":"брат отца ≠ брат матери","uk":"брат батька ≠ брат матері","ar":"أخو الأب ≠ أخو الأم","he":"אחי האב ≠ אחי האם","sw":"kaka wa baba ≠ kaka wa mama"},
@@ -396,5 +416,25 @@ WORDS.uncle = {
     ha: ["baffa", "bafːa"],  // Father's brother; mother's brother is kawu.
     ee: ["tɔɖe", "tɔɖe"],  // Father's brother; mother's brother is wɔfa.
     so: ["adeer", "adeːr"],  // Father's brother; mother's brother is abti.
+    la: ["patruus", "ˈpatruus"],  // Father's brother; mother's brother is avunculus.
+    ota: ["عموجه", "amuˈdʒa"],  // Father's brother; mother's brother is دایی.
+    aii: ["ܥܲܡܵܐ", "ʕamma"],  // Father's brother; mother's brother is ܚܵܠܵܐ.
+    sco: ["uncle", "ˈʌŋkəl"],  // From Old French oncle; eme and mither-brither name the mother's brother only.
+    ps: ["تره", "ˈtuɾa"],  // Father's brother; mother's brother is ماما.
+    lo: ["ລຸງ", "luŋ˧˥"],  // A parent's older brother, from Proto-Tai *luŋ; the source gives no separate words for younger uncles to settle the side.
+    am: ["ኣጎት", "ʔaɡot"],  // Glossed simply 'uncle'; the source does not say whether it covers both sides.
+    djk: ["tiyu", "tiju"],  // Borrowed from Portuguese tio; omu is a synonym. The source does not say whether either names one side only.
+    sq: ["xhaxha", "dʒadʒa"],  // Father's brother; mother's brother is dajë, from Ottoman Turkish dayı. The general word ungj comes from Latin avunculus.
+    nrf: ["oncl'ye", "ɔ̃kʎ"],  // From Latin avunculus 'mother's brother', one word for both sides; tonton is a synonym.
+    rm: ["aug", "awk"],  // One word for both sides; barba, the word for 'beard', is a synonym.
+    fy: ["omke", "ˈomkə"],  // One word for both sides; the aunt is muoike.
+    gd: ["bràthair-athar", "ˈpɾaːhəɾʲ ˈahəɾ"],  // Literally 'brother of the father'; the mother's brother is bràthair-màthar, and uncail is used only before names.
+    ang: ["fædera", "ˈfæderɑ"],  // The father's brother; the mother's brother is ēam.
+    as: ["খুৰা", "kʰuɹɑ"],  // The father's younger brother; the father's elder brother is বৰদেউতা bordeuta and the mother's brother মোমাই mümai.
+    oc: ["oncle", "ˈuŋkle"],  // From Latin avunculus, one word for both sides.
+    yi: ["פֿעטער", "ˈfɛtər"],  // From Old High German fetiro, once 'father's brother'; in Yiddish it is simply 'uncle'.
+    crh: ["emce", "emdʒe"],  // The father's brother, like Turkish amca; the mother's brother is dayı.
+    sl: ["stric", "striːts"],  // The father's brother; the mother's brother is ujec.
+    bo: ["ཨ་ཁུ", "ə˥ kʰu˥"],  // The father's brother; the mother's brother is ཨ་ཞང a zhang.
   },
 };

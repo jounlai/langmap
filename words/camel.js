@@ -321,6 +321,27 @@ WORDS.camel = {
     es_do: "gamal",
     es_ec: "gamal",
     es_ve: "gamal",
+    la: "gamal",
+    alt: "tebe",
+    ota: "tebe",
+    sa: "ushtra",
+    mnc: "tebe",
+    aii: "gamal",
+    cop: "gamal",
+    got: "ulban",
+    orv: "ulban",
+    mhr: "ulban",
+    pjt: "plain",
+    kaa: "tebe",
+    sah: "tebe",
+    zag: "plain",
+    lv: "gamal",
+    cu: "ulban",
+    ang: "ulban",
+    cdo: "luotuo",
+    enm: "gamal",
+    mos: "plain",
+    ssy: "other",
   },
   routes: {
     gamal: {"color":"#d97706","emoji":"🐫","en":"from Semitic gamal (جمل, camel, ngamia)","ja":"セム語 gamal から（جمل, camel, ngamia）","ko":"셈어 gamal에서 (جمل, camel, ngamia)","zh":"源自闪米特语 gamal（جمل, camel, ngamia）","yue":"源自閃米特語 gamal（جمل, camel, ngamia）","vi":"từ tiếng Semit gamal (جمل, camel, ngamia)","th":"จากภาษาเซมิติก gamal (جمل, camel, ngamia)","id":"dari bahasa Semit gamal (جمل, camel, ngamia)","hi":"सामी gamal से (جمل, camel, ngamia)","de":"aus semitisch gamal (جمل, camel, ngamia)","fr":"du sémitique gamal (جمل, camel, ngamia)","it":"dal semitico gamal (جمل, camel, ngamia)","es":"del semítico gamal (جمل, camel, ngamia)","pt":"do semítico gamal (جمل, camel, ngamia)","ru":"из семитского gamal (جمل, camel, ngamia)","uk":"із семітського gamal (جمل, camel, ngamia)","ar":"من السامية gamal (جمل, camel, ngamia)","he":"מ-gamal השמית (جمل, camel, ngamia)","sw":"kutoka Kisemiti gamal (جمل, camel, ngamia)"},
@@ -581,5 +602,26 @@ WORDS.camel = {
     es_do: ["camello", "kaˈmeʝo"],
     es_ec: ["camello", "kaˈmeʝo"],
     es_ve: ["camello", "kaˈmeʝo"],
+    la: ["camēlus", "kaˈmeːlus"],  // Borrowed from Ancient Greek κάμηλος, itself from a Semitic language (compare Arabic جَمَل).
+    alt: ["тӧӧ", "tøː"],  // Inherited from Proto-Turkic *debe 'camel'.
+    ota: ["دوه", "deˈve"],  // Inherited from Proto-Turkic *tebe.
+    sa: ["उष्ट्र", "uʂʈɾɐ"],  // Inherited from Proto-Indo-Iranian *úštras; in the Veda it can also mean a buffalo.
+    mnc: ["ᡨᡝᠮᡝᠨ", "təmən"],  // From Proto-Mongolic *temexen; compare Mongolian тэмээ.
+    aii: ["ܓܘܼܡܠܵܐ", "ɡumla"],  // Inherited from Aramaic gamlā, from Proto-Semitic *gamal-.
+    cop: ["ϫⲁⲙⲟⲩⲗ", "tʃaˈmuːl"],  // Bohairic; inherited from Demotic gmwl 'camel', itself borrowed from Semitic.
+    got: ["𐌿𐌻𐌱𐌰𐌽𐌳𐌿𐍃", "ˈulbandus"],  // Of uncertain origin, usually linked to Greek ἐλέφας 'elephant'.
+    orv: ["вельблѫдъ", "vʲelʲĭbludŭ"],  // Inherited from Proto-Slavic, which took it from Gothic ulbandus.
+    mhr: ["верблюд", "verbʎut"],  // Borrowed from Russian верблюд; тӱе is a synonym.
+    pjt: ["auru", "auru"],  // No origin is recorded for it, so it counts as a word of its own.
+    kaa: ["túye", "tyje"],  // Inherited from Proto-Turkic *tebe.
+    sah: ["тэбиэн", "tebien"],  // From Proto-Mongolic *temexen, from Proto-Turkic *tebe; compare Turkish deve.
+    zag: ["dî", "di"],  // No origin is recorded for it, so it counts as a word of its own.
+    lv: ["kamielis", "ˈkamiɛlis"],  // Ultimately from Proto-West Semitic *gamal-.
+    cu: ["вельбѫдъ", "velĭbɔ̃dŭ"],  // From Proto-Slavic *velĭb(l)ǫdŭ, the old Slavic camel word.
+    ang: ["olfend", "ˈolfend"],  // From Proto-West Germanic *olbandu, a doublet of elpend 'elephant'.
+    cdo: ["骆驼", "louʔ˥ to˥˧"],  // The Chinese 駱駝, read in Fuzhou.
+    enm: ["camel", "ˈkamɛl"],  // From Old Northern French camel, from Latin camelus; Early Middle English also had olfent, from Old English olfend.
+    mos: ["yʋgemde", "jʊɡemde"],  // No image is recorded for it, so it counts as a word of its own. Farefare yʋgnɛ 'camel' is related.
+    ssy: ["gaala", "ɡaːla"],  // An old borrowing into East Cushitic from an undetermined Semitic language, like Afar gáala and Oromo gaala; it is the collective 'camels'.
   },
 };

@@ -361,6 +361,25 @@ WORDS.window = {
     es_ec: "wind",
     es_uy: "wind",
     es_ve: "wind",
+    la: "fenestra",
+    ota: "panjara",
+    mnc: "plain",
+    aii: "plain",
+    cop: "plain",
+    got: "eye",
+    orv: "eye",
+    rif: "plain",
+    cjy: "plain",
+    djk: "fenestra",
+    sa: "wind",
+    chr: "plain",
+    cu: "eye",
+    ang: "eye",
+    cdo: "door",
+    enm: "wind",
+    uga: "plain",
+    bo: "plain",
+    non: "wind",
   },
   routes: {
     wind: {"color":"#0891b2","emoji":"🌬️","en":"built on the wind (window, vindue, ventana)","ja":"風からできた語（window, vindue, ventana）","ko":"바람에서 나온 말 (window, vindue, ventana)","zh":"由“风”构成（window, vindue, ventana）","yue":"由「風」構成（window, vindue, ventana）","vi":"tạo từ chữ gió (window, vindue, ventana)","th":"สร้างจากคำว่าลม (window, vindue, ventana)","id":"dibentuk dari kata angin (window, vindue, ventana)","hi":"हवा के शब्द से बना (window, vindue, ventana)","de":"vom Wind gebildet (window, vindue, ventana)","fr":"construit sur le vent (window, vindue, ventana)","it":"costruito sul vento (window, vindue, ventana)","es":"formado sobre el viento (window, vindue, ventana)","pt":"formado sobre o vento (window, vindue, ventana)","ru":"построено на слове для ветра (window, vindue, ventana)","uk":"побудоване на слові для вітру (window, vindue, ventana)","ar":"مبني على الريح (window, vindue, ventana)","he":"בנוי על הרוח (window, vindue, ventana)","sw":"limejengwa juu ya upepo (window, vindue, ventana)"},
@@ -661,5 +680,24 @@ WORDS.window = {
     es_ec: ["ventana", "benˈtana"],
     es_uy: ["ventana", "benˈtana"],
     es_ve: ["ventana", "benˈtana"],
+    la: ["fenestra", "feˈnestra"],  // Apparently from Etruscan.
+    ota: ["پنجره", "pendʒeˈɾe"],  // Borrowed from Persian پنجره panjara 'window, lattice'.
+    mnc: ["ᡶᠠ", "fa"],  // Inherited from Proto-Tungusic *page; no image is recorded for it.
+    aii: ["ܟܲܘܹܐ", "kawweː"],  // Originally the plural of Aramaic kawwṯā; compare Arabic كُوَّة 'embrasure'. No image is recorded for it.
+    cop: ["ϣⲟⲩϣⲧ", "ʃuʃt"],  // From Demotic ššṱ, from Egyptian sšd 'window'.
+    got: ["𐌰𐌿𐌲𐌰𐌳𐌰𐌿𐍂𐍉", "ˈɔːɣadɔroː"],  // Literally 'eye-door', from 𐌰𐌿𐌲𐍉 'eye' and 𐌳𐌰𐌿𐍂𐍉 'door'; it occurs only once.
+    orv: ["окъно", "okŭno"],  // From Proto-Slavic *okъno, related to the word for an eye.
+    rif: ["ⵜⴱⵓⵔⵊⴻⵜ", "θβɔaʒət"],  // Especially a small window; cognate with Senhaja taburjet 'closet'. Central Tarifit says řkaẓi.
+    cjy: ["窗户", "tsʰuɒ̃˩ xu˦˥"],  // No image is recorded for it, as for Mandarin 窗户.
+    djk: ["fensee", "fenseː"],  // From Sranan Tongo fensre, from Dutch venster.
+    sa: ["वातायन", "ʋaːtaːjɐnɐ"],  // A 'wind-passage': the same word means an airhole, and as an adjective 'moving in the wind'.
+    chr: ["ᏦᎳᏅ", "tsolanə̃"],  // No image is recorded for it, so it counts as a word of its own. ᏦᎳᏂ tsolani is a variant.
+    cu: ["окъньце", "okŭnĭtse"],  // A diminutive of окно 'window', which is built on oko 'eye'.
+    ang: ["ēagþȳrel", "ˈæːɑɡˌθyːrel"],  // Literally 'eye hole': ēage 'eye' plus þȳrel 'hole'; ēagduru 'eye door' and the Latin loan fenester also occur.
+    cdo: ["槛门囝", "kʰaŋ˧˧ muoŋ˥˧ kiaŋ˧˧"],  // Written with 門 'door' and the diminutive 囝; 檻門 without 囝 is a synonym.
+    enm: ["wyndowe", "ˈwindɔu̯ə"],  // Borrowed from Old Norse vindauga 'wind eye'; first attested about 1230.
+    uga: ["𐎈𐎍𐎐", "ħallaːn"],  // Like Hebrew ḥallōn 'window'.
+    bo: ["སྒེ་ཁུང", "ki˩˨ kʰuŋ˥"],  // No image is recorded for it, so it counts as a word of its own.
+    non: ["vindauga", "ˈvindˌɑuɡɑ"],  // 'Wind eye': vindr 'wind' plus auga 'eye'; it gave English window.
   },
 };

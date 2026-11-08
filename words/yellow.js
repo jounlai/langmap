@@ -354,6 +354,36 @@ WORDS.yellow = {
     es_do: "bitter",
     es_ec: "bitter",
     es_ve: "bitter",
+    alt: "sari",
+    ota: "sari",
+    ltg: "ghel",
+    mnc: "plain",
+    cop: "plain",
+    vo: "plain",
+    na: "plain",
+    cic: "plain",
+    rif: "plain",
+    nds: "ghel",
+    goh: "ghel",
+    apw: "plain",
+    lus: "plain",
+    sd: "gold",
+    egl: "galbinus",
+    pdc: "ghel",
+    nrf: "galbinus",
+    chr: "plain",
+    cu: "ghel",
+    rm: "honey",
+    fy: "ghel",
+    ang: "ghel",
+    lkt: "plain",
+    as: "turmeric",
+    lmo: "galbinus",
+    wym: "ghel",
+    ksw: "plain",
+    mtq: "gold",
+    ty: "plain",
+    osp: "bitter",
   },
   routes: {
     turmeric: {"color":"#d97706","emoji":"🫚","en":"turmeric","ja":"ウコン","ko":"강황","zh":"姜黄","yue":"黃薑","vi":"nghệ","th":"ขมิ้น","id":"kunyit","hi":"हल्दी","de":"Kurkuma","fr":"le curcuma","it":"la curcuma","es":"la cúrcuma","pt":"a curcuma","ru":"куркума","uk":"куркума","ar":"الكركم","he":"כורכום","sw":"manjano"},
@@ -648,5 +678,35 @@ WORDS.yellow = {
     es_do: ["amarillo", "amaˈɾiʝo"],
     es_ec: ["amarillo", "amaˈɾiʝo"],
     es_ve: ["amarillo", "amaˈɾiʝo"],
+    alt: ["сары", "sarɯ"],  // Inherited from Proto-Turkic *sārïg 'yellow'.
+    ota: ["صاری", "saˈɾɯ"],  // Inherited from Proto-Turkic *sārïg 'yellow, white'.
+    ltg: ["dzaltons", "ˈdzaltɔnts"],  // Cognate with Latvian dzeltens and Lithuanian geltonas.
+    mnc: ["ᠰᡠᠸᠠᠶᠠᠨ", "suwajan"],  // No origin is recorded for it, so it counts as a word of its own.
+    cop: ["ⲁⲟⲩⲓⲛ", "aˈwiːn"],  // Bohairic; the noun also means jaundice. No origin is recorded.
+    vo: ["yelovik", "jeloˈvik"],  // The noun yelov 'yellow' with the adjective ending -ik.
+    na: ["ebabobo", "ebabobo"],  // No origin is recorded for it, so it counts as a word of its own; bababo is also given.
+    cic: ["lakna", "lakna"],  // Inherited from Proto-Muskogean *lakna; the same word covers brown and gold.
+    rif: ["ⴰⵡⵔⴰⵖ", "awraʁ"],  // Inherited from Proto-Berber *a-wăraɣ; it also covers gold as a colour.
+    nds: ["geel", "ɡeːl"],  // From Proto-Germanic *gelwaz, the old root for yellow and green.
+    goh: ["gelo", "ˈɡelo"],  // From Proto-West Germanic *gelu, the old root for yellow and green; cognate with Old English geolu.
+    apw: ["łitsog", "ɬitsoɡ"],  // Ultimately from Proto-Athabaskan *tsu̓ɢ 'yellow'; compare Navajo łitso.
+    lus: ["eng", "eŋ"],  // From Proto-Kuki-Chin *ʔeŋ.
+    sd: ["زرد", "zərdu"],  // Borrowed from Persian زرد zard, related to زر 'gold'.
+    egl: ["śal", "zal"],  // From Old French jalne, from Latin galbinus; compare Italian giallo.
+    pdc: ["gehl", "ɡeːl"],  // Compare German gelb, Dutch geel, English yellow.
+    nrf: ["jaûne", "ʒoːn"],  // From Latin galbinus 'yellowish', through Old French jaune.
+    chr: ["ᏓᎶᏁᎦ", "daloneɡa"],  // No image is recorded for it, so it counts as a word of its own.
+    cu: ["жлътъ", "ʒlŭtŭ"],  // From Proto-Slavic *žĭltŭ.
+    rm: ["mellen", "ˈmɛlən"],  // Probably from Latin mel 'honey'.
+    fy: ["giel", "ɡiəl"],  // From Proto-Germanic *gelwaz.
+    ang: ["ġeolu", "ˈjeolu"],  // From Proto-Germanic *gelwaz, from a root meaning 'green, yellow'.
+    lkt: ["zí", "zí"],  // No image is recorded for it, so it counts as a word of its own; it appears in tȟózi 'green' and waȟčázi 'sunflower'.
+    as: ["হালধীয়া", "ɦɑlɔdʱiɑ"],  // From হালধি halodhi 'turmeric' plus -a; it also means 'turmericish'.
+    lmo: ["giald", "dʒɑːlt"],  // From Old Lombard galdo, from Latin galbinus.
+    wym: ["gaoł", "ɡaɔw"],  // From Old High German gelo, from Proto-Germanic *gelwaz, from a root for 'green, yellow'.
+    ksw: ["ဘီ", "bɔ́"],  // From Proto-Karen *ʔbaŋᴬ 'yellow', from Proto-Sino-Tibetan *hwaŋ 'shine, bright, yellow'.
+    mtq: ["wàng", "waːŋ"],  // The same word means gold; from Chinese 黃, like Vietnamese vàng.
+    ty: ["reʻareʻa", "ɾeʔaɾeʔa"],  // No image is recorded for it, so it counts as a word of its own.
+    osp: ["amariello", "amaˈɾjeʎo"],  // From Early Medieval Latin amarellus 'yellowish, pale', from amarus 'bitter'.
   },
 };

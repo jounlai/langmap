@@ -232,6 +232,20 @@ WORDS.tobacco = {
     es_ec: "tabaco",
     es_uy: "tabaco",
     es_ve: "tabaco",
+    ota: "smoke",
+    cop: "smoke",
+    vo: "plain",
+    oj: "plain",
+    tl: "tabaco",
+    sah: "tabaco",
+    kbd: "smoke",
+    chr: "plain",
+    fy: "tabaco",
+    as: "smoke",
+    nci: "plain",
+    ady: "smoke",
+    sip: "other",
+    srn: "tabaco",
   },
   routes: {
     tabaco: {"color":"#b45309","emoji":"🌿","en":"Spanish and Portuguese tabaco","ja":"スペイン語・ポルトガル語の tabaco","ko":"스페인어·포르투갈어 tabaco","zh":"西班牙语和葡萄牙语的 tabaco","yue":"西班牙語同葡萄牙語嘅 tabaco","vi":"tabaco của tiếng Tây Ban Nha và Bồ Đào Nha","th":"tabaco ของสเปนและโปรตุเกส","id":"tabaco dari Spanyol dan Portugis","hi":"स्पेनिश और पुर्तगाली tabaco","de":"spanisch und portugiesisch tabaco","fr":"le tabaco espagnol et portugais","it":"il tabaco spagnolo e portoghese","es":"el tabaco español y portugués","pt":"o tabaco espanhol e português","ru":"испанское и португальское tabaco","uk":"іспанське й португальське tabaco","ar":"tabaco الإسبانية والبرتغالية","he":"tabaco הספרדית והפורטוגזית","sw":"tabaco ya Kihispania na Kireno"},
@@ -404,5 +418,19 @@ WORDS.tobacco = {
     es_ec: ["tabaco", "taˈbako"],
     es_uy: ["tabaco", "taˈbako"],
     es_ve: ["tabaco", "taˈbako"],
+    ota: ["توتون", "tyˈtyn"],  // From Proto-Turkic *tütün 'smoke'; the word for pipe tobacco, while narghile tobacco is تنباكو.
+    cop: ["ⲭⲣⲉⲙⲧⲥ", "xremts"],  // Bohairic 'smoke, mist', from Demotic qrmṱs 'obscurity'; the tobacco sense was coined by the Copts of Zeniya around 1600.
+    vo: ["tabak", "taˈbak"],  // No origin is recorded on the entry, so it counts as a word of its own.
+    oj: ["asemaa", "asemaː"],  // Inherited from Proto-Algonquian *ahseᐧmaᐧwa 'tobacco', a word of the tobacco's own homeland.
+    tl: ["tabako", "taˈbako"],  // Borrowed from Spanish tabaco; it also means a cigar.
+    sah: ["табах", "tabax"],  // Borrowed from Russian табак.
+    kbd: ["тутын", "təwtən"],  // From Ottoman Turkish توتون tütün, a word for smoke; it also means a cigarette.
+    chr: ["ᏦᎳ", "tsoːlaː"],  // Inherited from Proto-Iroquoian *-tsjoːɹ-.
+    fy: ["tabak", "taˈbɔk"],  // Borrowed from Dutch tabak, from Spanish tabaco.
+    as: ["ধঁপাত", "dʱɔ̃pɑt"],  // Seems to be ধোঁৱা dhü̃a 'smoke' plus পাত pat 'leaf'.
+    nci: ["piciyetl", "piˈsijetɬ"],  // Built on iyetl 'tobacco'; Molina calls it a medicinal plant like henbane.
+    ady: ["тутын", "təwtən"],  // From Ottoman Turkish tütün; it also means a cigarette.
+    sip: ["ཏང་ཁུ", "taŋkʰu"],  // From Arabic ṭubbāq, by a different path than Tibetan ཐ་མག tha mag.
+    srn: ["tabaka", "taˈbaka"],  // From English tobacco or Dutch tabak, both from Spanish tabaco.
   },
 };

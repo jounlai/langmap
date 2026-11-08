@@ -361,6 +361,34 @@ WORDS.sunday = {
     en_scouse: "sun",
     en_geordie: "sun",
     en_brum: "sun",
+    aii: "count",
+    got: "sabbath",
+    oj: "other",
+    esu: "other",
+    sva: "sun",
+    orv: "rest",
+    cic: "holy",
+    ms: "count",
+    lus: "lord",
+    acw: "count",
+    xmf: "sun",
+    syc: "count",
+    sn: "sun",
+    bar: "sun",
+    bo: "sun",
+    nrf: "lord",
+    chr: "plain",
+    cu: "rest",
+    fy: "sun",
+    hsb: "rest",
+    lkt: "holy",
+    as: "other",
+    lld: "lord",
+    bbl: "lord",
+    lzz: "sun",
+    tpi: "sun",
+    bjn: "count",
+    yue: "other",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -662,5 +690,33 @@ WORDS.sunday = {
     en_scouse: ["Sunday", "ˈsʊndeɪ"],
     en_geordie: ["Sunday", "ˈsʊndə"],
     en_brum: ["Sunday", "ˈsʊndʌɪ"],
+    aii: ["ܚܲܕ݇ܒ݂ܫܲܒܵܐ", "xawʃabba"],  // Literally 'one in the week', from ܚܲܕ݇ 'one, first', ܒ- 'in' and ܫܲܒܵܐ 'week'.
+    got: ["𐌳𐌰𐌲𐍃 𐌰𐍆𐌰𐍂𐍃𐌰𐌱𐌱𐌰𐍄𐌴", "daɡs ˈafarsabbateː"],  // Literally 'the day after the Sabbath'; it occurs only once in the Gothic Bible.
+    oj: ["anamaʼe-giizhigad", "anamaʔe ɡiːʒiɡad"],  // Literally 'church day', from anamaʼe- 'church, Christian' and giizhigad 'it is day'.
+    esu: ["Agayuneq", "aɣajunəq"],  // Literally 'praying, worship', from agayu- 'to pray, worship'.
+    sva: ["მიშლადეღ", "miʃladeɣ"],  // Literally 'sun day', from მიჟ 'sun' and ლადეღ 'day'.
+    orv: ["недѣлꙗ", "nedʲelʲa"],  // From Proto-Slavic *neděľa, the day of not working, like Polish niedziela.
+    cic: ["Nittak Holloʼ", "nitːak holːoʔ"],  // Literally 'holy day', from nittak 'day' and holloꞌ 'holy, sacred'; Nittak Ishtontokloʼ 'the seventh day' is also used.
+    ms: ["Ahad", "ahat"],  // Borrowed from Arabic الأحد 'the one', the first day; Minggu, from Portuguese domingo, is a synonym.
+    lus: ["Pathianni", "patʰianni"],  // Literally 'God's day', likely a calque of Latin dies Dominicus 'the Lord's day'; Chawlhni 'rest day' is a synonym.
+    acw: ["الأحد", "alʔaħad"],  // Inherited from Arabic الأحد 'the one', the first day.
+    xmf: ["ჟაშხა", "ʒaʃxa"],  // A blend of ბჟა 'sun', the genitive -შ and დღა 'day'; compare Svan მიშლადეღ.
+    syc: ["ܚܕܒܫܒܐ", "ħaðbəʃabbaː"],  // Literally 'one in the week', from ܚܕ 'one, first', ܒ- 'in' and ܫܒܐ 'week'; compare Arabic الأحد.
+    sn: ["Svondo", "svondo"],  // From a Nguni language, ultimately from Afrikaans Sondag 'sun day'; the same word means week.
+    bar: ["Sunnda", "ˈsund̥ɐ"],  // From Old High German sunnūntag, 'day of the sun'.
+    bo: ["གཟའ་ཉི་མ", "sa˩˨ ɲi˩˨ mə˥"],  // 'Planet sun': གཟའ gza' 'planet, day of the week' plus ཉི་མ nyi ma 'sun'.
+    nrf: ["Dînmanche", "dĩmɑ̃ʃ"],  // From Late Latin dies Dominicus 'day of the Lord'.
+    chr: ["ᎤᎾᏙᏓᏆᏍᎬᎢ", "unadodakʷasɡə̃i"],  // No image is recorded for it, so it counts as a word of its own.
+    cu: ["недѣлꙗ", "nedælʲa"],  // Probably 'no work' (ne 'not' plus dělo 'work').
+    fy: ["snein", "snɛin"],  // From Proto-West Germanic *sunnōn dag 'day of the sun', a calque of Latin dies Solis.
+    hsb: ["njedźela", "ˈnjɛdʒɛla"],  // From Proto-Slavic *neděľa, probably 'no work' (ne 'not' plus dělo 'work').
+    lkt: ["Aŋpétu Wakȟáŋ", "ãpétu wakˣã́"],  // 'Holy day': aŋpétu 'day' plus wakȟáŋ 'holy'.
+    as: ["দেওবাৰ", "dɛʊbɑɹ"],  // দেও deü 'God, ghost' plus বাৰ bar 'day'; ৰবিবাৰ robibar, from Sanskrit, is less common.
+    lld: ["domenia", "doˈmenia"],  // From Late Latin dies Dominica 'day of the Lord'.
+    bbl: ["კვირაჸო̆", "kʼviraʔŏ"],  // Borrowed from Middle Georgian კვირა kvira 'Sunday'.
+    lzz: ["ბჟაჩხა", "bʒatʃxa"],  // 'The sun's day': *ბჟა bja 'sun' plus the genitive -შ plus დღა dğa 'day'.
+    tpi: ["Sande", "sande"],  // From English Sunday, 'day of the sun'.
+    bjn: ["Ahat", "ahat"],  // From Arabic al-ʔaḥad, the first day of the Arabic week.
+    yue: ["星期日", "sɪŋ˥ kʰei˨˩ jɐt˨"],  // 'Week-day', with 星期 'star period' for the week.
   },
 };

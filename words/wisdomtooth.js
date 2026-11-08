@@ -250,6 +250,8 @@ WORDS.wisdomtooth = {
     ttj: "unknown",
     kl: "other",
     hil: "age",
+    cy: "other",
+    is: "age",
   },
   routes: {
     wisdom: {"color":"#7c3aed","emoji":"🦉","en":"wisdom · sense","ja":"知恵・分別","ko":"지혜 · 분별","zh":"智慧・理智","yue":"智慧 · 理智","vi":"trí khôn · sự hiểu biết","th":"ปัญญา · ความรู้คิด","id":"kebijaksanaan · akal","hi":"बुद्धि · अक़्ल","de":"Weisheit · Verstand","fr":"sagesse · raison","it":"saggezza · giudizio","es":"sabiduría · juicio","pt":"sabedoria · siso","ru":"мудрость · разум","uk":"мудрість · розум","ar":"الحكمة · العقل","he":"חוכמה · בינה","sw":"busara · akili"},
@@ -443,5 +445,7 @@ WORDS.wisdomtooth = {
     ttj: ["muziiki", "muziːki"],  // The Tooro word for a wisdom tooth.
     kl: ["erlippak kilorleq", "eʁlipːak kiloʁleq"],
     hil: ["panuok", "paˈnuʔok"],  // Hiligaynon panúok 'the wisdom tooth' (Kaufmann), the same word as Cebuano panuok.
+    cy: ["dant helbul", "dant ˈhɛlbɨl"],  // Literally 'trouble tooth'; dant gofid 'tooth of affliction' is a synonym.
+    is: ["endajaxl", "ˈɛntajakstl̥"],  // Literally 'end molar', from enda 'end' and jaxl 'molar'; vísdómstönn 'wisdom tooth' is also used.
   },
 };

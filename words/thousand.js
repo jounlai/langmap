@@ -317,6 +317,41 @@ WORDS.thousand = {
     es_ec: "mille",
     es_uy: "mille",
     es_ve: "mille",
+    alt: "plain",
+    ota: "plain",
+    sa: "sahasra",
+    mnc: "plain",
+    aii: "alf",
+    khb: "plain",
+    vo: "plain",
+    got: "strong",
+    dng: "qian",
+    oj: "tenhund",
+    sco: "strong",
+    inh: "plain",
+    hil: "plain",
+    tsg: "plain",
+    tly: "hazar",
+    ilo: "plain",
+    udi: "hazar",
+    lus: "plain",
+    sd: "hazar",
+    aqc: "plain",
+    mfe: "mille",
+    iso: "plain",
+    chr: "plain",
+    ang: "strong",
+    nci: "other",
+    rgn: "mille",
+    oc: "mille",
+    lmo: "mille",
+    enm: "strong",
+    rhg: "hazar",
+    sat: "hazar",
+    rcf: "mille",
+    bjn: "plain",
+    ln: "plain",
+    ivv: "plain",
   },
   routes: {
     strong: {"color":"#2563eb","emoji":"🔢","en":"the Germanic and Slavic thousand","ja":"ゲルマン語とスラヴ語の「千」","ko":"게르만어와 슬라브어의 ‘천’","zh":"日耳曼语和斯拉夫语的“千”","yue":"日耳曼語同斯拉夫語嘅「千」","vi":"“nghìn” của các tiếng German và Slav","th":"คำว่า “พัน” ของภาษาเจอร์แมนิกและสลาฟ","id":"kata “ribu” rumpun Jermanik dan Slavia","hi":"जर्मनिक और स्लाव भाषाओं का ‘हज़ार’","de":"das germanische und slawische Tausend","fr":"le « mille » germanique et slave","it":"il “mille” germanico e slavo","es":"el «mil» germánico y eslavo","pt":"o «mil» germânico e eslavo","ru":"«тысяча» германских и славянских языков","uk":"«тисяча» германських і слов’янських мов","ar":"«الألف» في الجرمانية والسلافية","he":"„אלף” הגרמאני והסלאבי","sw":"“elfu” ya lugha za Kijerumani na Kislavu"},
@@ -575,5 +610,40 @@ WORDS.thousand = {
     es_ec: ["mil", "mil"],
     es_uy: ["mil", "mil"],
     es_ve: ["mil", "mil"],
+    alt: ["муҥ", "muŋ"],  // Inherited from Proto-Turkic *bïŋ 'thousand'.
+    ota: ["بیك", "biŋ"],  // Inherited from Proto-Turkic *bïŋ 'thousand'.
+    sa: ["सहस्र", "sɐɦɐsɾɐ"],  // From Proto-Indo-Iranian *saȷ́ʰásram 'thousand'; cognate with Persian هزار.
+    mnc: ["ᠮᡳᠩᡤᠠᠨ", "miŋɡan"],  // From Jurchen mingan, with cognates across Tungusic.
+    aii: ["ܐܲܠܦܵܐ", "ʔalpa"],  // A cognate of Arabic alf, from Aramaic ʾalpā.
+    khb: ["ᦗᧃ", "pan˥˩"],  // Cognate with Thai พัน and Lao ພັນ.
+    vo: ["mil", "mil"],  // No origin is recorded on the entry, so it counts as a word of its own.
+    got: ["𐌸𐌿𐍃𐌿𐌽𐌳𐌹", "ˈθuːsundi"],  // Inherited from Proto-Germanic *þūsundī.
+    dng: ["чян", "tɕʰiæ̃˨˦"],  // Cognate with Mandarin 千 qiān.
+    oj: ["midaaswaak", "midaːswaːk"],  // Ten hundreds: midaasw- 'ten' with the hundred ending -aakw- of ingodwaak.
+    sco: ["thousand", "ˈθuzɪnd"],  // Inherited from Old English þūsend.
+    inh: ["эзар", "ezar"],  // No origin is recorded on the entry, so it counts as a word of its own.
+    hil: ["libo", "ˈlibo"],  // Borrowed from Malay ribu, from Proto-Malayo-Polynesian *ʀibu.
+    tsg: ["ibu", "ʔibu"],  // Borrowed from Malay ribu, from Proto-Malayo-Polynesian *ʀibu.
+    tly: ["həzo", "həzo"],  // Cognate with Persian هزار hezâr.
+    ilo: ["ribo", "ˈɾibo"],  // From Proto-Malayo-Polynesian *ʀibu; cognate with Malay ribu.
+    udi: ["гьазар", "haˈzar"],  // Possibly borrowed from Armenian հազար, the Persian thousand.
+    lus: ["sâng", "saːŋ"],  // No origin is recorded for this sense, so it counts as a word of its own.
+    sd: ["هزار", "həzaːru"],  // Borrowed from Persian هزار hazār.
+    aqc: ["изар", "izar"],  // Akin to Chechen эзар; no origin is recorded beyond that.
+    mfe: ["mil", "mil"],  // From French mille.
+    iso: ["odu", "odu"],  // No origin is recorded for it, so it counts as a word of its own.
+    chr: ["ᎢᏯᎦᏴᎵ", "ijaɡajə̃li"],  // No image is recorded for it, so it counts as a word of its own.
+    ang: ["þūsend", "ˈθuːsend"],  // From Proto-Germanic *þūsundī.
+    nci: ["ōntzontli īpan mahtlācpōhualli", "oːntsontɬi iːpan mahtɬaːkpoːwalːi"],  // 'Eight hundred on two hundred' (ōntzontli 'eight hundred', īpan 'on', mahtlācpōhualli 'two hundred').
+    rgn: ["mèl", "mɛl"],  // No etymology is recorded for it.
+    oc: ["mil", "mil"],  // From Latin mille.
+    lmo: ["milla", "ˈmila"],  // From Latin mille.
+    enm: ["thousend", "ˈθuːzɛnd"],  // Inherited from Old English þūsend.
+    rhg: ["házar", "hazar"],  // From Classical Persian hazār; ázar is a variant.
+    sat: ["ᱦᱟᱡᱟᱨ", "haɟar"],  // Ultimately from Classical Persian hazār; ᱢᱤᱫ ᱦᱟᱡᱟᱨ mit’ hajar is 'one thousand'.
+    rcf: ["mil", "mil"],  // From French mille.
+    bjn: ["ribu", "ribu"],  // Inherited from Proto-Malayo-Polynesian *ʀibu.
+    ln: ["nkoto", "ŋkoto"],  // Borrowed from Bangi nkoto; a different word nkoto means scorpion.
+    ivv: ["livu", "livu"],  // No image is recorded for it, so it counts as a word of its own.
   },
 };

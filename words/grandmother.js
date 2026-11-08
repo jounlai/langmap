@@ -719,6 +719,9 @@ WORDS.grandmother = {
     xal: "unknown",
     nog: "unknown",
     gmh: "unknown",
+    nrf: "one",
+    chr: "split",
+    sat: "one",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -1382,5 +1385,8 @@ WORDS.grandmother = {
     xal: ["эмг эк", "emɡ ek"],  // NorthEuraLex Kalmyk, the list this row matches. Tie bars removed and spaces restored, as the row.
     nog: ["анай", "anaj"],  // IDS Nogai, the list this row matches. IPA from the row's pairs.
     gmh: ["ane", "ˈanə"],  // IDS Middle High German, the list this row matches. IPA from the row's pairs.
+    nrf: ["grand-méthe", "ɡrɑ̃mɛð"],  // 'Grand' plus méthe 'mother'; manman is a Jersey synonym and Guernsey says grand'-mère.
+    chr: ["ᎡᏂᏏ", "enisi"],  // The father's mother (the same word also means the father's father); the mother's mother is ᎠᎵᏏ alisi.
+    sat: ["ᱟᱡᱤ", "adʒi"],  // No separate word for the mother's mother is given.
   },
 };

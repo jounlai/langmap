@@ -275,6 +275,30 @@ WORDS.soap = {
     es_ec: "sapo",
     es_uy: "sapo",
     es_ve: "sapo",
+    alt: "sabun",
+    ota: "sabun",
+    sa: "other",
+    vo: "plain",
+    nds: "sapo",
+    lad: "sapo",
+    hil: "sapo",
+    cjy: "other",
+    kaa: "sabun",
+    blt: "sapo",
+    mrw: "sabun",
+    kbd: "sabun",
+    mdh: "sabun",
+    nrf: "sapo",
+    chr: "plain",
+    rm: "sapo",
+    ang: "sapo",
+    as: "sabun",
+    cdo: "plain",
+    ady: "sabun",
+    wym: "sapo",
+    enm: "sapo",
+    stq: "sapo",
+    iu: "plain",
   },
   routes: {
     sapo: {"color":"#2563eb","emoji":"🏛️","en":"Latin sapo","ja":"ラテン語 sapo","ko":"라틴어 sapo","zh":"拉丁语 sapo","yue":"拉丁語 sapo","vi":"tiếng Latinh sapo","th":"ละติน sapo","id":"Latin sapo","hi":"लैटिन sapo","de":"lateinisch sapo","fr":"le latin sapo","it":"il latino sapo","es":"el latín sapo","pt":"o latim sapo","ru":"латинское sapo","uk":"латинське sapo","ar":"اللاتينية sapo","he":"הלטינית sapo","sw":"Kilatini sapo"},
@@ -491,5 +515,29 @@ WORDS.soap = {
     es_ec: ["jabón", "xaˈbon"],
     es_uy: ["jabón", "xaˈbon"],
     es_ve: ["jabón", "haˈbon"],
+    alt: ["самын", "samɯn"],  // Borrowed from Persian صَابُون, from Arabic.
+    ota: ["صابون", "saˈbun"],  // Borrowed from Arabic صَابُون ṣābūn, ultimately from Latin sāpō.
+    sa: ["फेनक", "pʰeːnɐkɐ"],  // From फेन 'foam, lather': 'the lathering thing'.
+    vo: ["sob", "sob"],  // No origin is recorded for it, so it counts as a word of its own.
+    nds: ["Seep", "zeːp"],  // From Middle Low German sêpe; cognate with English soap.
+    lad: ["shavón", "ʃaˈvon"],  // From Old Spanish xabon, from Latin sāpō.
+    hil: ["habón", "haˈbon"],  // Borrowed from Spanish jabón, from Latin sāpō.
+    cjy: ["胰子", "i˩ tsəʔ˨"],  // The same word means the pancreas of a domestic animal; Wiktionary lists Jin among the varieties that use it for soap.
+    kaa: ["sabın", "sabɯn"],  // Route by resemblance to the neighbouring forms (kk,ky); no etymology of its own.
+    blt: ["ꪎꪱꪡ꫁ꪮꪉ", "saː˨fɔŋ˧˩ˀ"],  // From French savon, possibly through Vietnamese xà phòng.
+    mrw: ["sabon", "sabon"],  // Route by resemblance to the neighbouring forms (ms); akin to Maguindanao sabun.
+    kbd: ["сабын", "saːbən"],  // Borrowed from Ottoman Turkish صابون, from Arabic صَابُون.
+    mdh: ["sabun", "saˈbun"],  // Borrowed from Arabic صَابُون, from Latin sāpō.
+    nrf: ["savon", "savɔ̃"],  // From Latin sapo 'soap', through Old French savon.
+    chr: ["ᎣᎳ", "ola"],  // No image is recorded for it, so it counts as a word of its own. ᎣᏝ otla is a variant.
+    rm: ["savun", "saˈvun"],  // From Latin sapo, saponem.
+    ang: ["sāpe", "ˈsɑːpe"],  // From Proto-Germanic *saipǭ, the word behind English soap.
+    as: ["চাবোন", "sɑbʊn"],  // Borrowed from Classical Persian sābūn, from Arabic ṣābūn.
+    cdo: ["胰皂", "i˥˧ tsɔ˨˦˨"],  // No image is recorded for it, so it counts as a word of its own.
+    ady: ["сабын", "saːbən"],  // Borrowed from Ottoman Turkish sabun, from Arabic ṣābūn.
+    wym: ["zaof", "zaɔf"],  // From Old High German seife, like German Seife.
+    enm: ["sope", "ˈsɔːpə"],  // Inherited from Old English sāpe.
+    stq: ["Seepe", "ˈseːpə"],  // From Proto-Germanic *saipǭ, the word behind English soap.
+    iu: ["ᐃᕐᒥᐅᑦ", "iʁmiut"],  // No image is recorded for it, so it counts as a word of its own.
   },
 };

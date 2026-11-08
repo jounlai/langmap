@@ -253,6 +253,10 @@ WORDS.cheers = {
     mi: "health",
     kl: "other",
     tay: "drain",
+    aii: "other",
+    az: "health",
+    fj: "other",
+    nrf: "health",
   },
   routes: {
     health: {"color":"#16a34a","emoji":"💪","en":"to health · to life","ja":"健康に・命に","ko":"건강을 위해 · 생명을 위해","zh":"为健康・为生命","yue":"為健康 · 為生命","vi":"vì sức khỏe · vì sự sống","th":"แด่สุขภาพ · แด่ชีวิต","id":"untuk kesehatan · kehidupan","hi":"सेहत के नाम · जीवन के नाम","de":"auf die Gesundheit · aufs Leben","fr":"à la santé · à la vie","it":"alla salute · alla vita","es":"por la salud · por la vida","pt":"à saúde · à vida","ru":"за здоровье · за жизнь","uk":"за здоров'я · за життя","ar":"للصحة · للحياة","he":"לבריאות · לחיים","sw":"kwa afya · kwa uhai"},
@@ -451,5 +455,9 @@ WORDS.cheers = {
     mi: ["kia ora", "kia oɾa"],  // Kia ora! 'hello! cheers! good luck!', literally 'be well' (Te Aka).
     kl: ["kasuutta", "kasuːtːa"],  // 'Here's to you.'
     tay: ["gopi", "ɡopi"],  // Squliq Atayal word glossed （喝酒）乾杯 'cheers, when drinking'. The stem gop gives gopi, mgop and gopaw.
+    aii: ["ܒܚܘܼܒܘܼܟ݂", "bəxubboːx"],  // Literally 'to your love' (said to a man; to a woman ܒܚܘܼܒܵܟ݂ܝ).
+    az: ["sizin sağlığınıza", "siˈzin sɑɣlɯɣɯnɯˈzɑ"],  // Literally 'to your health', the formal or plural form; to one friend sənin sağlığına.
+    fj: ["bula", "mbula"],  // Literally 'life'; the same word is the everyday greeting.
+    nrf: ["santé", "sɑ̃te"],  // 'Health', borrowed from French santé.
   },
 };

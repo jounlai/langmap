@@ -210,6 +210,20 @@ WORDS.earthquake = {
     yue: "earth",
     zh: "earth",
     ar_ma: "zalzala",
+    ota: "zalzala",
+    got: "shake",
+    sco: "earth",
+    jv: "plain",
+    cjy: "earth",
+    goh: "earth",
+    lb: "earth",
+    egl: "earth",
+    bo: "earth",
+    cu: "shake",
+    cdo: "earth",
+    bho: "earth",
+    gan: "earth",
+    khw: "earth",
   },
   routes: {
     earth: {"color":"#b45309","emoji":"🌍","en":"earth + shaking (Erdbeben, terremoto, भूकंप, 地震)","ja":"大地＋揺れ (Erdbeben, terremoto, भूकंप, 地震)","ko":"땅 + 흔들림 (Erdbeben, terremoto, भूकंप, 地震)","zh":"地 + 震 (Erdbeben, terremoto, भूकंप, 地震)","yue":"地 + 震 (Erdbeben, terremoto, भूकंप, 地震)","vi":"đất + rung (Erdbeben, terremoto, भूकंप, 地震)","th":"ดิน + สั่น (Erdbeben, terremoto, भूकंप, 地震)","id":"bumi + guncang (Erdbeben, terremoto, भूकंप, 地震)","hi":"धरती + कंपन (Erdbeben, terremoto, भूकंप, 地震)","de":"Erde + Beben (Erdbeben, terremoto, भूकंप, 地震)","fr":"terre + tremblement (Erdbeben, terremoto, भूकंप, 地震)","it":"terra + tremore (Erdbeben, terremoto, भूकंप, 地震)","es":"tierra + temblor (Erdbeben, terremoto, भूकंप, 地震)","pt":"terra + tremor (Erdbeben, terremoto, भूकंप, 地震)","ru":"земля + тряска (Erdbeben, terremoto, भूकंप, 地震)","uk":"земля + трус (Erdbeben, terremoto, भूकंप, 地震)","ar":"أرض + اهتزاز (Erdbeben, terremoto, भूकंप, 地震)","he":"אדמה + רעד (Erdbeben, terremoto, भूकंप, 地震)","sw":"ardhi + tikisa (Erdbeben, terremoto, भूकंप, 地震)"},
@@ -363,5 +377,19 @@ WORDS.earthquake = {
     yue: ["地震", "tei˨ tsɐn˧"],  // Built on the word for earth or land.
     zh: ["地震", "ti˥˩ ʈʂən˥˩"],  // Built on the word for earth or land.
     ar_ma: ["زلزال", "zalzaːl"],  // From Arabic زلزال zilzāl.
+    ota: ["زلزله", "zelzeˈle"],  // Borrowed from Arabic زَلْزَلَة zalzala 'earthquake'.
+    got: ["𐍂𐌴𐌹𐍂𐍉", "ˈriːroː"],  // 'A trembling', related to 𐍂𐌴𐌹𐍂𐌰𐌽 'to tremble, quake'.
+    sco: ["yirdquauk", "ˈjɪrdkwɑːk"],  // Earth and quake, from Middle English erthequake or calqued on English earthquake; the English word itself is also used.
+    jv: ["lindhu", "linɖu"],  // Inherited from Old Javanese liṇḍū, from Proto-Austronesian *linuR; compare Tagalog lindol.
+    cjy: ["地震", "ti˦˥ tsəŋ˦˥"],  // Earth and shake, as in Mandarin.
+    goh: ["erdbibunga", "ˈerdbibuŋɡa"],  // Earth and trembling, from erda 'earth' and bibēn 'to tremble'; cognate with Dutch aardbeving.
+    lb: ["Äerdbiewen", "ˈɛːə̯tbiə̯vən"],  // Earth and shaking, from Äerd 'earth' and biewen 'to shake, tremble'.
+    egl: ["taramòt", "taraˈmɔt"],  // Bolognese and Mirandolese. Route by resemblance to the neighbouring forms (it); no etymology of its own.
+    bo: ["ས་ཡོམ", "sa˥ jom˥˨"],  // Earth (ས sa) plus 'to quiver, shake' (ཡོམ yom).
+    cu: ["трѫсъ", "trɔ̃sŭ"],  // A word for shaking alone, from the verb for 'to shake'.
+    cdo: ["地震", "ti˨˦˨ tsiŋ˧˧"],  // 'Earth shaking', the Chinese 地震.
+    bho: ["भुँइडोल", "bʱũiɖoːl"],  // From Sanskrit bhūmi 'earth' plus Bhojpuri ḍōl; भूकंप bhūkamp is a synonym.
+    gan: ["地震", "tʰi˩˩ tsɨn˧˥"],  // 'Earth shaking', the Chinese 地震, read in Nanchang.
+    khw: ["بولموژی", "bolˈmuʒi"],  // From Sanskrit bhūmicala 'an earthquake', built on bhūmi 'earth'.
   },
 };

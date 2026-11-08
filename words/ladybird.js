@@ -245,6 +245,9 @@ WORDS.ladybird = {
     chy: "other",
     pyu: "other",
     ceb: "holy",
+    aii: "other",
+    lld: "holy",
+    li: "holy",
   },
   routes: {
     holy: {"color":"#7c3aed","emoji":"😇","en":"Mary · God · a saint","ja":"聖母・神・聖人","ko":"성모 · 하느님 · 성인","zh":"圣母・上帝・圣人","yue":"聖母 · 上帝 · 聖人","vi":"Đức Mẹ · Chúa · thánh","th":"พระแม่ · พระเจ้า · นักบุญ","id":"Bunda Maria · Tuhan · santo","hi":"मरियम · ईश्वर · संत","de":"Maria · Gott · Heilige","fr":"Marie · Dieu · un saint","it":"Maria · Dio · un santo","es":"María · Dios · un santo","pt":"Maria · Deus · um santo","ru":"Богородица · Бог · святой","uk":"Богородиця · Бог · святий","ar":"مريم · الله · قديس","he":"מרים · האל · קדוש","sw":"Maria · Mungu · mtakatifu"},
@@ -433,5 +436,8 @@ WORDS.ladybird = {
     chy: ["mȯhenėšēmo", "moheneʃemo"],
     pyu: ["tawtawyan", "tawtawjan"],  // Also 'scarab'.
     ceb: ["lidibag", "lidiˈbaɡ"],  // Wolff: "lidibag n k.o. ladybug commonly found on squash plants"; loan from English
+    aii: ["ܒܵܛܝܼܒܵܛܘܿ", "baːtˤiːbaːtˤoː"],  // Related to ܒܸܛܵܐ 'spark', probably because the beetle looks like a spark; the word also means firefly.
+    lld: ["chëifer dla Madona", "ˈkəifer dla maˈdona"],  // 'Beetle of the Madonna' (chëifer 'beetle', borrowed from German).
+    li: ["slivvenhierebieske", "slɪvəˈniːrəbiskə"],  // 'Our God's little animal': Slivvenhier 'Our God' plus bieske 'little animal, little cow', like Dutch lieveheersbeestje.
   },
 };

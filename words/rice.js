@@ -914,5 +914,6 @@ WORDS.rice = {
     cmg: ["ᠪᠤᠳᠠᠭ᠎ᠠ", "budaɣa"],  // Traditional spelling from Wiktionary's Mongolian entry; no dated Classical citation opened, so this is the written-standard form, not proof of period. IPA in the row's style, mine.
     omx: ["သ္ၚု", "sŋɯʔ"],  // Shorto 1971 (Dictionary of the Mon Inscriptions) sṅo', 'husked rice', phonemic form as SEAlang prints it, respelled in the row's symbols. Surface copied from the mnw cell, as the row uses modern spelling.
     ko_gor: ["菩薩", "*pʌsʌl"],  // 鷄林類事 (1103) 白米曰漢菩薩, 粟曰田菩薩; Wiktionary 쌀. Second element is the rice word, so 漢 'white' dropped. IPA fitted to the row.
+    aoz: ["ane", "ane"],  // No origin is recorded for it.
   }
 };

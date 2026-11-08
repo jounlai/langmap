@@ -1183,7 +1183,7 @@ WORDS.hello = {
     ahk: ["u du la", "u˧du˧la˧"],
     dtp: ["kopivosian", "kopivosian"],
     hne: ["जोहार", "dʒoːɦaːr"],
-    mnw: ["—", "—"],
+    mnw: ["မ္ၚဵုရအဴ", "məŋɜ̀raʔao"],  // Mon greeting; Wiktionary gives it as မ္ၚဵု + ရ + အဴ, romanized mṅura'ao.
     bru: ["te", "te"],
     bdq: ["ô", "ʔo"],
     lwl: ["—", "—"],

@@ -919,7 +919,7 @@ WORDS.love = {
     fan: ["ndzem", "ndzem"],
     naq: ["ǀnam", "ǀnam"],
     hts: ["—", "—"],
-    nmn: ["—", "—"],
+    nmn: ["ǀnàm", "ǀnam"],  // ǀnàm 'to love' in Traill's ǃXóõ Dictionary (1994), via Wiktionary; tsāha 'to love, to like' is another verb.
     kr: ["nem-shanu", "nem ʃanu"],
     men: ["ndoma", "ndoma"],
     vai: ["ꔷꕩ", "lija"],
@@ -1013,7 +1013,7 @@ WORDS.love = {
     peo: ["—", "—"],
     ave: ["𐬟𐬭𐬌𐬌𐬀", "frija"],
     xto: ["𑀢𑀼𑀁𑀓𑁆", "tuŋk"],
-    txb: ["—", "—"],
+    txb: ["𑀢𑀦𑁆𑀓𑁆𑀯𑁆", "tankw"],  // Tocharian B tankw 'love'; compare Tocharian A tunk (Wiktionary). larauñe 'love, affection' is another word.
     phn: ["—", "—"],
     uga: ["𐎀𐎅𐎁", "ʔahaːbu"],
     xlu: ["𔖫𔐓𔖪𔑰", "ˈatsːanta"],  // ACLT, MARAŞ 1: (LITUUS)á-za-ta, 3 pl. past.

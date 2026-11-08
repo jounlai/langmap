@@ -480,7 +480,7 @@ WORDS.iron = {
     ik: ["saviksraq", "savikʂaq"],
     kl: ["savimineq", "savimineq"],
     yua: ["máaskab", "maːskaɓ"],
-    kgp: ["—", "—"],
+    kgp: ["kyfé", "kɨɸɛ"],  // Kaingang kyfé 'iron (metal)' (Wiktionary).
 
     // --- Proto-languages that do have the word ----------------------------
     ptrk: ["*temür", "temyr"],

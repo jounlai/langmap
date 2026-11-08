@@ -557,7 +557,7 @@ WORDS.butterfly = {
     nan_pn: ["尾蝶", "bue˦˦˥ iaʔ˦"],
     hak_hl: ["蝶仔", "ʒak˨ ɤ˥˥"],
     ksb: ["hoho", "hoho"],
-    urh: ["—", "—"],
+    urh: ["erhi", "eɾi"],  // Ukere's Urhobo-English Dictionary (1986, p. 9) via Wiktionary; cognate with Isoko ẹzi 'butterfly'.
     gaa: ["abei", "abei"],
     tll: ["lumbudi", "lumbudi"],
     ttj: ["ekihoiholya", "ekihoiholja"],

@@ -78,7 +78,7 @@ WORDS.wheel = {
     ang: ["hwēol", "ʍeːol"],
     enm: ["whel", "hweːl"],
     non: ["hjól", "hjoːl"],
-    txb: ["—", "—"],
+    txb: ["𑀬𑁂𑀭𑁆𑀓𑁆𑀯𑀦𑁆𑀢𑁄", "jerkwanto"],  // Tocharian B yerkwanto 'wheel'; compare Tocharian A wärkänt (Wiktionary).
     cu: ["коло", "kolo"],
 
     // --- ...and the family's second wheel word, *Hrot-o- ---------------

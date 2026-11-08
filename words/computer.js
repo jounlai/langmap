@@ -700,7 +700,7 @@ WORDS.computer = {
     sus: ["ordinatɛri", ""],
     ndc: ["komputadhori", ""],
     tca: ["computador", ""],
-    trv: ["—", "—"],
+    trv: ["patas samaw", "patas samaw"],  // The Truku word given by Wiktionary; the Tgdaya dialect says tennaw, a loan from Chinese 電腦 'electric brain'.
     nrf: ["compiuteu", ""],
     mnw: ["ခမ်ပျူတာ", ""],
     ppl: ["computadora", ""],

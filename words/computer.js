@@ -592,7 +592,7 @@ WORDS.computer = {
     wls: ["olotinatea", "olotinatea"],
     gcf: ["òwdinatè", "ɔwdinatɛ"],
     ach: ["kompiuta", "kompiuta"],
-    hmn: ["koos pis tawj", "kɔ̃˨˩ pi˨˩ taɨ˥˨"],
+    hmn: ["koos pis tawj / hlwb hlau", "kɔ̃˨˩ pi˨˩ taɨ˥˨ / l̥ɨ˥ l̥au˧"],  // koos pis tawj is borrowed from English computer; hlwb hlau, literally "iron brain" (hlwb brain + hlau iron), is also used (a Hmong reader, Keng Xyooj-KauvLev, 2026-11-08). IPA of hlwb hlau mine, from the RPA spelling.
     nzi: ["kɔmpita", "kɔmpita"],
     ve: ["khomphyutha", "kʰompʰjutʰa"],
     lua: ["ordinatere", "ordinatere"],

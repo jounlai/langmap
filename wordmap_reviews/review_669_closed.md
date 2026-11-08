@@ -40,3 +40,4 @@ Not done, and why
 - trv Cikuku: origin unknown.
 - Dumdadu ulus meaning the Chagatai ulus in Yuan times (Erkhemchukhal Dorj): not checked, not used.
 - Tibetic rows adx, khg, xct, lbj, xsr, bft still have no China cell; no source with a form for them yet.
+- computer, hmn (same reader, Keng Xyooj-KauvLev): now "koos pis tawj / hlwb hlau", the loan and the native "iron brain". The reader is the source; IPA mine from the spelling. "Xob Taws" for electricity: the map has no electricity word. Wiktionary gives hluav taws xob for it.

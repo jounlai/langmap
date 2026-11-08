@@ -56,3 +56,9 @@ Codex returned 11 proposals with saved sources (~/langmap-work/china1108/codex).
 - adx (Amdo): Sung & Lha Byams Rgyal, Colloquial Amdo Tibetan (2005), lesson 6, writes "map of China" with ཀྲུང་གོ (legacy-font text N%-$R), not རྒྱ་ནག. The lesson gives no pronunciation, so no cell yet; a reading of ཀྲུང་གོ in Amdo is what is missing.
 - khg (Khams), bft (Balti): no published form found.
 - trv Cikuku: the Truku Wikipedia article uses Cikuku as its title and 中國 (Coko) as a heading, and writes other loans the Japanese way (地理 Tiri). A Japanese source for Cikuku is likely but not shown; left unknown.
+
+## Follow-up 2026-11-08: three more reader comments
+
+- mni (Yaiphabi Wahengbam: Khagi / Khagi-lam): added ꯈꯥꯀꯤ ꯂꯩꯄꯥꯛ Khagi Leibak, the Meitei Wikipedia's title for China (Wikidata Q148), route other; Khagi "the Chinese" as in King Khagemba "conqueror of the Chinese" (Wikipedia). IPA mine. Article "other" count 22 -> 23.
+- sah (北村 聡志): Кытай kept (Wiktionary: via Old Uyghur, not from Russian as the comment says); the note now records the reader's archaic Кыдат, from Mongolian.
+- ug (北村 聡志): Junggo kept. The note now follows Wiktionary's usage note: Xitay is usual in Kazakhstan, formally prohibited in China and treated there as a slur.

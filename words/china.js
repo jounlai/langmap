@@ -524,6 +524,7 @@ WORDS.china = {
     xct: "other",
     ne: "cina",
     ilo: "cina",
+    mni: "other",
   },
   family2: {
     bo: "zhongguo",
@@ -608,7 +609,7 @@ WORDS.china = {
     el: ["Κίνα", "ˈcina"],  // Borrowed from Italian Cina in the 18th century, displacing Ancient Greek Σῖναι from the same ultimate source.
     hu: ["Kína", "ˈkiːnɒ"],  // From Old Italian China, from Portuguese China, ultimately from Sanskrit Cīna.
     sv: ["Kina", "ˈɕiːna"],  // The European name China, ultimately from Sanskrit Cīna, itself probably from the Qin 秦 dynasty.
-    ug: ["جۇڭگو", "dʒuŋˈɡo"],  // Junggo, borrowed from Mandarin 中國; the older name خىتاي Xitay (from Khitan) is dated in China and avoided there as offensive.
+    ug: ["جۇڭگو", "dʒuŋˈɡo"],  // Junggo, borrowed from Mandarin 中國. The older خىتاي Xitay, from the Khitan name, is still the usual word in Kazakhstan; in China it is formally prohibited and treated as a slur (Wiktionary خىتاي, usage notes).
     wo: ["Siin", "siːn"],  // Siin is the name used in the Wolof Wikipedia title for the People's Republic of China. Route by resemblance to the neighbouring forms (ha(Sin) as(চীন)); no etymology of its own.
     rw: ["Ubushinwa", "ubuʃinwa"],  // Built with the country-name prefix ubu-, as in other Kinyarwanda country names. Route by resemblance to the neighbouring forms (sw(Uchina)); no etymology of its own.
     sn: ["Chayina", "tʃajina"],  // Chayina is the Shona Wikipedia name for China. Route by resemblance to the neighbouring forms (te(చైనా) ml(ചൈന)); no etymology of its own.
@@ -693,7 +694,7 @@ WORDS.china = {
     xmf: ["ჩინეთი", "tʃʰinetʰi"],  // The same name as Georgian ჩინეთი; officially ჩინეთიშ ოკათე რესპუბლიკა. Route by resemblance to the neighbouring forms (ka(ჩინეთი)); no etymology of its own.
     oc: ["China", "ˈtʃinɔ"],  // Officially la Republica Populara de China; Gascon also writes Shina (Wiktionary). Route by resemblance to the neighbouring forms (eo(Ĉinio) hi(चीन)); no etymology of its own.
     crh: ["Çin", "tʃin"],  // From Persian čin, ultimately Sanskrit Cīna; the Crimean Tatar Wikipedia also gives Kitay and Qıtay (Wiktionary).
-    sah: ["Кытай", "kɯˈtaj"],  // Ultimately from the Khitan name via Old Uyghur Ḳïtay; Китай, borrowed from Russian, is an alternative form (Wiktionary).
+    sah: ["Кытай", "kɯˈtaj"],  // Ultimately from the Khitan name via Old Uyghur Ḳïtay; Китай, borrowed from Russian, is an alternative form (Wiktionary). A Sakha reader adds that Кыдат, from Mongolian, is the archaic name.
     is: ["Kína", "ˈcʰiːna"],  // Ultimately from the Qin 秦 dynasty name, the source of Sanskrit Cīna and European China (Wiktionary).
     dv: ["ސީނުކަރަ", "siːnukaɾa"],  // A compound of ސީނު and ކަރަ; ޗައިނާ, from English, is also listed (Wiktionary).
     udm: ["Китай", "kiˈtaj"],  // Officially Китай Калык Республика (Udmurt Wikipedia). Route by resemblance to the neighbouring forms (ru(Китай) uk(Китай)); no etymology of its own.
@@ -994,5 +995,6 @@ WORDS.china = {
     xct: ["རྒྱ་ནག", "rɡjanak"],  // rgya nag "the black expanse", the name for China in the classical dictionaries (Jäschke, Das; compared in Mair 1990, Sino-Platonic Papers 18). IPA in this row's written-form style, mine.
     ne: ["चीन", "tsin"],  // Cīn, the Cīna name; Wiktionary gives the nominative [t͡sin], and the immediate donor is not stated.
     ilo: ["Tsina", "ˈtsina"],  // Tsina, China with ch adapted as ts, the example given in the official Ilocano orthography (Komisyon sa Wikang Filipino, Tarabay iti Ortograpia, §6.2.1).
+    mni: ["ꯈꯥꯀꯤ ꯂꯩꯄꯥꯛ", "kʰaɡi ləipak"],  // Khagi Leibak "land of the Khagi", the Meitei Wikipedia's title for China; Khagi is the old Meitei name for the Chinese, as in King Khagemba "conqueror of the Chinese" (r. 1597-1652; Wikipedia, Khagemba). Its origin is unknown. IPA mine.
   },
 };

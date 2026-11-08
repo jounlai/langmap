@@ -50,3 +50,9 @@ Codex returned 11 proposals with saved sources (~/langmap-work/china1108/codex).
 - Notes: hmn (Tsoob kuj and Tuam tshoj teb in Jaisser 1995; Xia origin conjectural per Yang 2009), mnw (Halliday: Krauk "Chinese; mango"), tsg (ACD *suŋsuŋ), dz (Jana in the 1991 romanization guide), bo (Mair on why "black").
 - Article counts 304 -> 306 and 19 -> 22 in all languages; lock re-seeded.
 - Still open: trv Cikuku (no source found); adx, khg, bft (no form found); Hmong Tsoob kuj frequency; Indonesian Cina left as reported evidence only.
+
+## Follow-up 2026-11-08, last search
+
+- adx (Amdo): Sung & Lha Byams Rgyal, Colloquial Amdo Tibetan (2005), lesson 6, writes "map of China" with ཀྲུང་གོ (legacy-font text N%-$R), not རྒྱ་ནག. The lesson gives no pronunciation, so no cell yet; a reading of ཀྲུང་གོ in Amdo is what is missing.
+- khg (Khams), bft (Balti): no published form found.
+- trv Cikuku: the Truku Wikipedia article uses Cikuku as its title and 中國 (Coko) as a heading, and writes other loans the Japanese way (地理 Tiri). A Japanese source for Cikuku is likely but not shown; left unknown.

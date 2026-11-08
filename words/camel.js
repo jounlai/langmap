@@ -342,6 +342,12 @@ WORDS.camel = {
     enm: "gamal",
     mos: "plain",
     ssy: "other",
+    za: "luotuo",
+    pdt: "gamal",
+    wuu: "luotuo",
+    akk: "gamal",
+    aer: "gamal",
+    os: "tebe",
   },
   routes: {
     gamal: {"color":"#d97706","emoji":"🐫","en":"from Semitic gamal (جمل, camel, ngamia)","ja":"セム語 gamal から（جمل, camel, ngamia）","ko":"셈어 gamal에서 (جمل, camel, ngamia)","zh":"源自闪米特语 gamal（جمل, camel, ngamia）","yue":"源自閃米特語 gamal（جمل, camel, ngamia）","vi":"từ tiếng Semit gamal (جمل, camel, ngamia)","th":"จากภาษาเซมิติก gamal (جمل, camel, ngamia)","id":"dari bahasa Semit gamal (جمل, camel, ngamia)","hi":"सामी gamal से (جمل, camel, ngamia)","de":"aus semitisch gamal (جمل, camel, ngamia)","fr":"du sémitique gamal (جمل, camel, ngamia)","it":"dal semitico gamal (جمل, camel, ngamia)","es":"del semítico gamal (جمل, camel, ngamia)","pt":"do semítico gamal (جمل, camel, ngamia)","ru":"из семитского gamal (جمل, camel, ngamia)","uk":"із семітського gamal (جمل, camel, ngamia)","ar":"من السامية gamal (جمل, camel, ngamia)","he":"מ-gamal השמית (جمل, camel, ngamia)","sw":"kutoka Kisemiti gamal (جمل, camel, ngamia)"},
@@ -623,5 +629,11 @@ WORDS.camel = {
     enm: ["camel", "ˈkamɛl"],  // From Old Northern French camel, from Latin camelus; Early Middle English also had olfent, from Old English olfend.
     mos: ["yʋgemde", "jʊɡemde"],  // No image is recorded for it, so it counts as a word of its own. Farefare yʋgnɛ 'camel' is related.
     ssy: ["gaala", "ɡaːla"],  // An old borrowing into East Cushitic from an undetermined Semitic language, like Afar gáala and Oromo gaala; it is the collective 'camels'.
+    za: ["lozdoz", "lo˧˩ to˧˩"],  // Borrowed from Mandarin 駱駝 luòtuo.
+    pdt: ["Kameel", "kaˈmeːl"],  // No origin is given; it matches German Kamel and Dutch kameel.
+    wuu: ["骆驼", "loʔ˩˩ du˨˧"],  // The Chinese word 駱駝 read in Shanghainese.
+    akk: ["𒃵𒂷", "ɡammalu"],  // Probably a loan from West Semitic gamal; it is Neo-Assyrian.
+    aer: ["kamule", "kamulə"],  // Borrowed from English camel.
+    os: ["теуа", "tewa"],  // From a Turkic language, ultimately from *täbe.
   },
 };

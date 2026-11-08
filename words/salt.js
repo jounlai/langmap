@@ -1282,5 +1282,6 @@ WORDS.salt = {
     zh_jiao: ["咸盐", "ɕiã˦˨ iã˦˨"],  // Literally 'salty salt'; plain 盐 is also used.
     adt: ["irkili", "iɹkili"],  // Adnyamathanha irkili 'salt'.
     wbt: ["jurlu", "ɟuɭu"],  // Warnman jurlu 'salt'.
+    nio: ["сыр", "sɨr"],  // From Proto-Samoyedic *sër; the same word means ice.
   },
 };

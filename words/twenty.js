@@ -458,6 +458,17 @@ WORDS.twenty = {
     rue: "fused",
     osp: "fused",
     khw: "fused",
+    za: "tens",
+    ia: "fused",
+    rup: "fused",
+    xal: "plain",
+    io: "tens",
+    ckb: "fused",
+    zza: "fused",
+    gsw: "fused",
+    fro: "base",
+    chk: "plain",
+    tzm: "plain",
   },
   routes: {
     tens: {"color":"#2563eb","emoji":"🔟","en":"two and the free word for ten","ja":"二と「十」の語","ko":"둘과 ‘열’이라는 낱말","zh":"二加“十”这个词","yue":"二加「十」呢個詞","vi":"hai và từ “mười”","th":"สองกับคำว่าสิบ","id":"dua dan kata untuk sepuluh","hi":"दो और दस का शब्द","de":"zwei und das Wort für zehn","fr":"deux et le mot pour dix","it":"due e la parola per dieci","es":"dos y la palabra para diez","pt":"dois e a palavra para dez","ru":"два и слово «десять»","uk":"два і слово «десять»","ar":"اثنان وكلمة عشرة","he":"שתיים והמילה עשר","sw":"mbili na neno la kumi"},
@@ -855,5 +866,16 @@ WORDS.twenty = {
     rue: ["двадцять", "ˈdvatʲtsʲatʲ"],  // Two tens worn down to one word.
     osp: ["veynte", "βeˈinte"],  // Inherited from Latin viginti.
     khw: ["بیشیر", "ˈbiʃir"],  // From Sanskrit viṃśati 'twenty'; Kalasha bíši is related.
+    za: ["ngeih cib", "ŋei˧ ɕip˧"],  // ngeih 'two' and cib 'ten'.
+    ia: ["vinti", "ˈvinti"],  // Two tens worn down to one word, like Italian venti; viginti is a synonym.
+    rup: ["yinghits", "ˈɣinɡits"],  // Inherited from Latin vīgintī and reshaped over time.
+    xal: ["хөрн", "xørn̩"],  // From Proto-Mongolic *korin, like Mongolian хорь.
+    io: ["duadek", "duˈadek"],  // du 'two', a linking vowel, and dek 'ten'.
+    ckb: ["بیست", "biːst"],  // From Proto-Iranian *HwiHcati, like Persian بیست.
+    zza: ["vist", "vist"],  // Inherited from Proto-Iranian *HwiHcati, like Persian بیست.
+    gsw: ["zwänzg", "tsvæntsk"],  // From Old High German zweinzug, two tens worn down to one word like German zwanzig.
+    fro: ["vint", "vint"],  // From Latin vīgintī.
+    chk: ["rue", "rue"],  // No analysis is recorded for it, so it counts as a word of its own.
+    tzm: ["ⴰⴳⵏⴰⵔ", "aɡnar"],  // The native Berber word; ⵄⵛⵔⵉⵏ from Arabic is also used.
   },
 };

@@ -347,6 +347,21 @@ WORDS.week = {
     bo: "seven",
     non: "turn",
     osp: "seven",
+    za: "stars",
+    pdt: "turn",
+    ia: "seven",
+    rup: "seven",
+    frr: "turn",
+    io: "seven",
+    zdj: "plain",
+    yai: "seven",
+    pa: "seven",
+    sga: "seven",
+    fro: "seven",
+    szl: "thisday",
+    nmn: "turn",
+    lol: "plain",
+    osx: "turn",
   },
   routes: {
     seven: {"color":"#2563eb","emoji":"7️⃣","en":"the number seven","ja":"数の七","ko":"일곱이라는 수","zh":"数字七","yue":"數字七","vi":"con số bảy","th":"เลขเจ็ด","id":"angka tujuh","hi":"सात की संख्या","de":"die Zahl Sieben","fr":"le nombre sept","it":"il numero sette","es":"el número siete","pt":"o número sete","ru":"число семь","uk":"число сім","ar":"العدد سبعة","he":"המספר שבע","sw":"namba saba"},
@@ -635,5 +650,20 @@ WORDS.week = {
     bo: ["བདུན་ཕྲག", "tỹ˩˨ ʈʂʰa˥˨"],  // Begins with བདུན bdun 'seven'.
     non: ["vika", "ˈvikɑ"],  // From Proto-Germanic *wikǭ, from a root 'to bend, wind, turn'; it also meant the distance rowed in one sitting.
     osp: ["setmana", "setˈmana"],  // From Late Latin septimana, from septimus 'seventh'; semana is a variant.
+    za: ["singhgiz", "θiŋ˧ ki˧˩"],  // From Mandarin 星期 'star period'; it can also mean Sunday.
+    pdt: ["Wäakj", "vɛːac"],  // From Middle Low German wēke and Old Saxon wika, the Germanic week word.
+    ia: ["septimana", "septiˈmana"],  // The Latin 'seven-day' word, like Italian settimana.
+    rup: ["siptãmãnã", "siptəˈmɨnə"],  // From Late Latin septimāna, from septimus 'seventh'.
+    frr: ["waag", "vaːx"],  // From Old Frisian wike, the Germanic week word; Föhr-Amrum says weg.
+    io: ["semano", "seˈmano"],  // From French semaine, Italian settimana and Spanish semana, from Late Latin septimāna.
+    zdj: ["mfumo", "ᵐfumo"],  // No image is recorded for it, so it counts as a word of its own.
+    yai: ["hafta", "hafta"],  // Borrowed from Tajik ҳафта.
+    pa: ["ਹਫ਼ਤਾ", "ˈɦəftaː"],  // Borrowed from Classical Persian هفته, from هفت 'seven'.
+    sga: ["sechtmain", "ˈsʲextβ̃ənʲ"],  // Borrowed from Late Latin septimāna, from septimus 'seventh'.
+    fro: ["semaine", "seˈmajnə"],  // From Late Latin septimāna, from septimus 'seventh'.
+    szl: ["tydziyń", "ˈtɪdʑɪɲ"],  // From Old Polish tydzień, literally 'this day' (tyn + dziyń).
+    nmn: ["bìikì", "biiki"],  // From English or Afrikaans week.
+    lol: ["eyenga", "ejeŋɡa"],  // No image is recorded for it, so it counts as a word of its own.
+    osx: ["wika", "ˈwika"],  // From Proto-Germanic *wikǭ 'turn, succession, change, week'.
   },
 };

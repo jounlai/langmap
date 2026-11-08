@@ -178,6 +178,23 @@ const DECISIONS = [
             // 2026-10-29: goosebumps 51 → 53 — new jv mrinding and hy cells expose jvn (Caribbean Javanese) and hyw (Western Armenian); no source for either.
             // 2026-11-03: ratcheted after Kansai/Hakata/Hiroshima and Jeolla/Busan cells copied from the national word.
             // 2026-11-05: new word sunday; variety rows without a source for the day name.
+            // 2026-11-09: camel 73 → 79 — Wiktionary gap fill, slice A (review 672): new parent cells expose variety rows; no variety-level source yet.
+            // 2026-11-09: cotton 113 → 114 — Wiktionary gap fill, slice A (review 672): new parent cells expose variety rows; no variety-level source yet.
+            // 2026-11-09: earthquake 121 → 129 — Wiktionary gap fill, slice A (review 672): new parent cells expose variety rows; no variety-level source yet.
+            // 2026-11-09: lion 123 → 133 — Wiktionary gap fill, slice A (review 672): new parent cells expose variety rows; no variety-level source yet.
+            // 2026-11-09: maize 64 → 70 — Wiktionary gap fill, slice A (review 672): new parent cells expose variety rows; no variety-level source yet.
+            // 2026-11-09: money 68 → 76 — Wiktionary gap fill, slice A (review 672): new parent cells expose variety rows; no variety-level source yet.
+            // 2026-11-09: paper 71 → 77 — Wiktionary gap fill, slice A (review 672): new parent cells expose variety rows; no variety-level source yet.
+            // 2026-11-09: soap 79 → 82 — Wiktionary gap fill, slice A (review 672): new parent cells expose variety rows; no variety-level source yet.
+            // 2026-11-09: sunflower 36 → 38 — Wiktionary gap fill, slice A (review 672): new parent cells expose variety rows; no variety-level source yet.
+            // 2026-11-09: tear 119 → 120 — Wiktionary gap fill, slice A (review 672): new parent cells expose variety rows; no variety-level source yet.
+            // 2026-11-09: tobacco 81 → 82 — Wiktionary gap fill, slice A (review 672): new parent cells expose variety rows; no variety-level source yet.
+            // 2026-11-09: twenty 27 → 29 — Wiktionary gap fill, slice A (review 672): new parent cells expose variety rows; no variety-level source yet.
+            // 2026-11-09: uncle 117 → 121 — Wiktionary gap fill, slice A (review 672): new parent cells expose variety rows; no variety-level source yet.
+            // 2026-11-09: week 64 → 65 — Wiktionary gap fill, slice A (review 672): new parent cells expose variety rows; no variety-level source yet.
+            // 2026-11-09: wife 57 → 69 — Wiktionary gap fill, slice A (review 672): new parent cells expose variety rows; no variety-level source yet.
+            // 2026-11-09: window 82 → 91 — Wiktionary gap fill, slice A (review 672): new parent cells expose variety rows; no variety-level source yet.
+            // 2026-11-09: yellow 49 → 51 — Wiktionary gap fill, slice A (review 672): new parent cells expose variety rows; no variety-level source yet.
             // 2026-11-09: earthquake 118 → 121 — Wiktionary gap fill (review 671): new parent cells expose cjy_lv cjy_xz gan_fz gan_ja gan_yc jvn; no variety-level source yet.
             // 2026-11-09: lion 119 → 123 — Wiktionary gap fill (review 671): new parent cells expose cjy_lv cjy_xz gan_fz gan_ja gan_yc jvn lij_t; no variety-level source yet.
             // 2026-11-09: money 65 → 68 — Wiktionary gap fill (review 671): new parent cells expose cjy_lv cjy_xz gan_fz gan_ja gan_yc jvn; no variety-level source yet.
@@ -195,7 +212,7 @@ const DECISIONS = [
             // 2026-11-09: soap 76 → 78 — Wiktionary gap fill (review 671): new cjy 胰子 exposes cjy_lv, cjy_xz; no town-level source yet.
             // 2026-11-09: wife 45 → 47 — Wiktionary gap fill (review 671): new cjy 老婆 exposes cjy_lv, cjy_xz; no town-level source yet.
             // 2026-11-09: window 80 → 82 — Wiktionary gap fill (review 671): new cjy 窗户 exposes cjy_lv, cjy_xz; no town-level source yet.
-            const BUDGET = {uncle: 117, cotton: 113, lion: 123, earthquake: 121, tear: 119, tobacco: 81, wife: 57, soap: 79, yellow: 49, camel: 73, window: 82, thousand: 71, week: 64, saturday: 99, money: 68, paper: 71, maize: 64, right: 56, twenty: 27, sunday: 58, lol: 0, turkey: 46, potato: 34, mobilephone: 43, hangover: 56, ladybird: 61, monday: 22, whale: 45, wisdomtooth: 55, cheers: 31, blessyou: 24, sunflower: 36, goosebumps: 53, octopus: 49, shootingstar: 36, jellyfish: 71, tomato: 34, pineapple: 46, adamsapple: 61, germany: 33, japan: 29, china: 27, korea: 37, india: 29, greece: 36, atsign: 30, blue: 5, cockcrow: 46, coffee: 25, computer: 8, cuckoo: 27, dopamine: 31, n99: 11, orange: 7, sugar: 11, sushi: 11, tea: 8, wifi: 26, woof: 29};
+            const BUDGET = {uncle: 121, cotton: 114, lion: 133, earthquake: 129, tear: 120, tobacco: 82, wife: 69, soap: 82, yellow: 51, camel: 79, window: 91, thousand: 71, week: 65, saturday: 99, money: 76, paper: 77, maize: 70, right: 56, twenty: 29, sunday: 58, lol: 0, turkey: 46, potato: 34, mobilephone: 43, hangover: 56, ladybird: 61, monday: 22, whale: 45, wisdomtooth: 55, cheers: 31, blessyou: 24, sunflower: 38, goosebumps: 53, octopus: 49, shootingstar: 36, jellyfish: 71, tomato: 34, pineapple: 46, adamsapple: 61, germany: 33, japan: 29, china: 27, korea: 37, india: 29, greece: 36, atsign: 30, blue: 5, cockcrow: 46, coffee: 25, computer: 8, cuckoo: 27, dopamine: 31, n99: 11, orange: 7, sugar: 11, sushi: 11, tea: 8, wifi: 26, woof: 29};
             const bad = [];
             for (const f of fs.readdirSync(path.join(ROOT, 'words'))) {
                 if (!f.endsWith('.js') || !/partial:\s*true/.test(read('words/' + f))) continue;

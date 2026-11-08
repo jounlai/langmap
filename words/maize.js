@@ -389,6 +389,10 @@ WORDS.maize = {
     tyz: "plain",
     tpi: "grain",
     gun: "plain",
+    za: "grain",
+    wuu: "grain",
+    mt: "place",
+    pnt: "other",
   },
   routes: {
     mahiz: {"color":"#eab308","emoji":"🌽","en":"from Taíno mahiz (maíz, Mais, maïs)","ja":"タイノ語 mahiz から（maíz, Mais, maïs）","ko":"타이노어 mahiz에서 (maíz, Mais, maïs)","zh":"源自泰诺语 mahiz（maíz, Mais, maïs）","yue":"源自泰諾語 mahiz（maíz, Mais, maïs）","vi":"từ tiếng Taíno mahiz (maíz, Mais, maïs)","th":"จากภาษาไตโน mahiz (maíz, Mais, maïs)","id":"dari bahasa Taíno mahiz (maíz, Mais, maïs)","hi":"ताइनो mahiz से (maíz, Mais, maïs)","de":"aus Taíno mahiz (maíz, Mais, maïs)","fr":"du taïno mahiz (maíz, Mais, maïs)","it":"dal taíno mahiz (maíz, Mais, maïs)","es":"del taíno mahiz (maíz, Mais, maïs)","pt":"do taíno mahiz (maíz, Mais, maïs)","ru":"из таино mahiz (maíz, Mais, maïs)","uk":"з таїно mahiz (maíz, Mais, maïs)","ar":"من mahiz في لغة التاينو (maíz, Mais, maïs)","he":"מ-mahiz בטאינו (maíz, Mais, maïs)","sw":"kutoka Kitaino mahiz (maíz, Mais, maïs)"},
@@ -716,5 +720,9 @@ WORDS.maize = {
     tyz: ["bắp", "ɓap̚˧˥"],  // Borrowed from Vietnamese bắp 'corn'.
     tpi: ["kon", "kon"],  // From English corn.
     gun: ["avaxi", "avaˈʃi"],  // No image is recorded for it, so it counts as a word of its own; Paraguayan Guarani avati is related.
+    za: ["haeuxyangz", "hau˦˨ jaːŋ˧˩"],  // haeux 'rice' plus yangz, a Chinese morpheme often taken as 洋 'foreign'.
+    wuu: ["珍珠米", "tsən˥ tsz̩˧˧ mi˨˩"],  // Literally 'pearl rice'.
+    mt: ["qamħirrum", "ʔamħɪrˈruːm"],  // From older qamħ ir-Rum, literally 'wheat of the Romans'.
+    pnt: ["λαζούδ", "laˈzuð"],  // Borrowed from Turkish dialect lazut; its origin is uncertain, and the link to the Laz people is a folk etymology.
   },
 };

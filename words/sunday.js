@@ -389,6 +389,17 @@ WORDS.sunday = {
     tpi: "sun",
     bjn: "count",
     yue: "other",
+    pdt: "sun",
+    xh: "plain",
+    mwl: "lord",
+    my: "sun",
+    wal: "plain",
+    om: "plain",
+    cv: "other",
+    chk: "holy",
+    xag: "count",
+    os: "lord",
+    kum: "plain",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -718,5 +729,16 @@ WORDS.sunday = {
     tpi: ["Sande", "sande"],  // From English Sunday, 'day of the sun'.
     bjn: ["Ahat", "ahat"],  // From Arabic al-ʔaḥad, the first day of the Arabic week.
     yue: ["星期日", "sɪŋ˥ kʰei˨˩ jɐt˨"],  // 'Week-day', with 星期 'star period' for the week.
+    pdt: ["Sindach", "ˈzɪndax"],  // From Proto-West Germanic *Sunnōn dag, 'the sun's day'.
+    xh: ["iCawe", "iǀaːwe"],  // No image is recorded for it in the source, so it counts as a word of its own.
+    mwl: ["demingo", "dɨˈmĩɡu"],  // From Late Latin diēs Dominicus, 'the day of the Lord'.
+    my: ["တနင်္ဂနွေ", "tənɪ́ɴɡənwè"],  // From Old Burmese; the second part may be a Pyu word for the sun, and the first is read as 'governor'.
+    wal: ["Woggaa", "woɡːaː"],  // No image is recorded for it, so it counts as a word of its own.
+    om: ["Dilbata", "dilbata"],  // No image is recorded for it, so it counts as a word of its own.
+    cv: ["вырсарникун", "vɯrzarniˈɡun"],  // Literally 'Russian week day': вырӑс 'Russian', эрне 'week' and кун 'day'.
+    chk: ["Raninfen", "raninfen"],  // ran 'day', -in 'of' and fen 'holy': the holy day.
+    xag: ["sašambaṭ", "saʃambatʼ"],  // sa plus šambaṭ 'Sabbath, week', formed like Syriac ܚܕܒܫܒܐ 'one in the week'.
+    os: ["хуыцаубон", "xʷɨtsawbon"],  // хуыцау 'God' plus бон 'day'; Digor says хуцаубон.
+    kum: ["къаттыгюн", "qatːɯɡyn"],  // No image is recorded for it in the source, so it counts as a word of its own.
   },
 };

@@ -352,6 +352,27 @@ WORDS.thousand = {
     bjn: "plain",
     ln: "plain",
     ivv: "plain",
+    rup: "mille",
+    xal: "plain",
+    io: "mille",
+    nv: "mille",
+    ckb: "hazar",
+    zza: "hazar",
+    vec: "mille",
+    mi: "plain",
+    fur: "mille",
+    yai: "hazar",
+    pa: "hazar",
+    tab: "hazar",
+    pap: "mille",
+    kum: "plain",
+    mdr: "plain",
+    xsr: "hazar",
+    kea: "mille",
+    cab: "mille",
+    war: "plain",
+    to: "plain",
+    otk: "plain",
   },
   routes: {
     strong: {"color":"#2563eb","emoji":"🔢","en":"the Germanic and Slavic thousand","ja":"ゲルマン語とスラヴ語の「千」","ko":"게르만어와 슬라브어의 ‘천’","zh":"日耳曼语和斯拉夫语的“千”","yue":"日耳曼語同斯拉夫語嘅「千」","vi":"“nghìn” của các tiếng German và Slav","th":"คำว่า “พัน” ของภาษาเจอร์แมนิกและสลาฟ","id":"kata “ribu” rumpun Jermanik dan Slavia","hi":"जर्मनिक और स्लाव भाषाओं का ‘हज़ार’","de":"das germanische und slawische Tausend","fr":"le « mille » germanique et slave","it":"il “mille” germanico e slavo","es":"el «mil» germánico y eslavo","pt":"o «mil» germânico e eslavo","ru":"«тысяча» германских и славянских языков","uk":"«тисяча» германських і слов’янських мов","ar":"«الألف» في الجرمانية والسلافية","he":"„אלף” הגרמאני והסלאבי","sw":"“elfu” ya lugha za Kijerumani na Kislavu"},
@@ -645,5 +666,26 @@ WORDS.thousand = {
     bjn: ["ribu", "ribu"],  // Inherited from Proto-Malayo-Polynesian *ʀibu.
     ln: ["nkoto", "ŋkoto"],  // Borrowed from Bangi nkoto; a different word nkoto means scorpion.
     ivv: ["livu", "livu"],  // No image is recorded for it, so it counts as a word of its own.
+    rup: ["njilje", "ˈɲiʎe"],  // From Latin mīlia, the plural of mīlle.
+    xal: ["миңһн", "miŋɣn̩"],  // From Proto-Mongolic *miŋgan, like Mongolian мянга.
+    io: ["mil", "mil"],  // From Esperanto mil and the Romance words, from Latin mīlle.
+    nv: ["mííl", "míːl"],  // From Spanish mil, from Latin mīlle; tʼááłáhádí mííl is 'one thousand'.
+    ckb: ["ھەزار", "hazaːɾ"],  // The Iranian thousand, like Persian هزار.
+    zza: ["xezar", "xɛˈzaɾ"],  // Related to Persian هزار.
+    vec: ["mìle", "ˈmile"],  // From Latin mille.
+    mi: ["mano", "mano"],  // From Proto-Polynesian *mano, which meant ten thousand in some languages.
+    fur: ["mil", "mil"],  // From Latin mīlle.
+    yai: ["hazor", "hazor"],  // Borrowed from Tajik ҳазор.
+    pa: ["ਹਜ਼ਾਰ", "ɦəˈzaːɾ"],  // Borrowed from Classical Persian هزار; it displaced the inherited Old Punjabi ਸਹੰਸ.
+    tab: ["агъзур", "aʁzur"],  // No origin is given; it is the same word as Lezgi агъзур.
+    pap: ["mil", "mil"],  // From Portuguese, Spanish and Kabuverdianu mil, from Latin mīlle.
+    kum: ["минг", "miŋ"],  // From Proto-Turkic *bïŋ 'thousand'.
+    mdr: ["sallessorang", "salːesːoraŋ"],  // No analysis is recorded for it, so it counts as a word of its own.
+    xsr: ["འ་ཛར", "hazar"],  // From Nepali हजार, the Persian thousand.
+    kea: ["mil", "mil"],  // From Portuguese mil.
+    cab: ["milu", "milu"],  // Probably from French mille.
+    war: ["yukot", "juˈkot"],  // No analysis is recorded for it, so it counts as a word of its own.
+    to: ["afe", "afe"],  // From Proto-Polynesian *afe, like Samoan afe.
+    otk: ["𐰋𐰃𐰭", "biŋ"],  // Inherited from Proto-Turkic *bïŋ, like Turkish bin.
   },
 };

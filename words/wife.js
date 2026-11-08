@@ -325,6 +325,40 @@ WORDS.wife = {
     yua: "unknown",
     abs: "other",
     id: "own",
+    pdt: "own",
+    ia: "own",
+    rup: "own",
+    io: "other",
+    nv: "woman",
+    rom: "woman",
+    ckb: "woman",
+    wuu: "unknown",
+    tyv: "woman",
+    km: "own",
+    fur: "woman",
+    yai: "unknown",
+    wo: "own",
+    pa: "own",
+    mt: "woman",
+    sga: "woman",
+    hsn: "woman",
+    fro: "woman",
+    akk: "own",
+    yo: "unknown",
+    tab: "unknown",
+    mnp: "unknown",
+    tpn: "own",
+    th: "own",
+    om: "unknown",
+    ky: "woman",
+    nmn: "woman",
+    hai: "unknown",
+    gl: "own",
+    mdr: "unknown",
+    gu: "own",
+    mk: "woman",
+    blc: "woman",
+    shi: "woman",
   },
   routes: {
     woman: {"color":"#db2777","emoji":"👩","en":"the same word as woman","ja":"「女」と同じ語","ko":"‘여자’와 같은 말","zh":"与“女人”同词","yue":"同「女人」同一個詞","vi":"cùng một từ với “đàn bà”","th":"คำเดียวกับ “ผู้หญิง”","id":"sama dengan kata “perempuan”","hi":"‘औरत’ वाला ही शब्द","de":"dasselbe Wort wie Frau","fr":"le même mot que femme","it":"la stessa parola di donna","es":"la misma palabra que mujer","pt":"a mesma palavra que mulher","ru":"то же слово, что «женщина»","uk":"те саме слово, що «жінка»","ar":"الكلمة نفسها لـ«امرأة»","he":"אותה מילה כמו ״אישה״","sw":"neno sawa na mwanamke"},
@@ -593,5 +627,39 @@ WORDS.wife = {
     yua: ["atan", "atan"],  // One word for wife, with no woman word beside it in the source.
     abs: ["maitua", "maitua"],  // mai plus tua 'old', compared with English 'old lady'; it also means girlfriend.
     id: ["istri", "ˈistri"],  // From Sanskrit strī through Malay, and the word for woman is perempuan.
+    pdt: ["Wief", "viːf"],  // From Proto-West Germanic *wīb 'woman; wife'; the word for woman is Fru.
+    ia: ["uxor", "ukˈsor"],  // The Latin word for wife; the word for woman is femina.
+    rup: ["ãnveastã", "ənˈve̯astə"],  // From Proto-Slavic *nevěsta; it also means bride. muljari 'woman' can also mean wife.
+    io: ["spozino", "spoˈzino"],  // spozo 'spouse' plus the feminine suffix -ino; the word for woman is muliero.
+    nv: ["sheʼesdzáán", "ʃèʔèstsɑ́ːn"],  // 'My wife' is the possessed form of asdzáán 'woman'.
+    rom: ["romni", "romni"],  // The same word means a Romani woman; it is rrom 'Romani man' with the feminine suffix -ni.
+    ckb: ["ژن", "ʒɪn"],  // The same word means woman.
+    wuu: ["老婆", "lɔ˨˨ bu˦˦"],  // The everyday Shanghainese word; no woman word from the same source is set beside it.
+    tyv: ["кадай", "qaˈdaj"],  // The same word means woman; it comes from Proto-Turkic *xātun 'queen, lady'.
+    km: ["ប្រពន្ធ", "prɑˈpŭən"],  // From Old Khmer prabandha 'bond, tie'; the word for woman is ស្រី.
+    fur: ["femine", "ˈfɛmine"],  // The same word means woman; muîr is a synonym for wife.
+    yai: ["inč", "intʃ"],  // From Sogdian, ultimately from Proto-Iranian *ǰánHs 'woman'; no Yaghnobi word for woman is given beside it.
+    wo: ["jabar", "dʒabar"],  // The word for woman is jigéen; husband is jëkkër.
+    pa: ["ਪਤਨੀ", "pətniː"],  // Borrowed from Sanskrit पत्नी; the word for woman is ਔਰਤ.
+    mt: ["mara", "ˈmara"],  // The same word means woman, from Arabic imraʔa 'woman; wife'.
+    sga: ["ben", "bʲen"],  // The same word means woman; séitig is a synonym for wife.
+    hsn: ["堂客", "tan˩˧ kʰɤ˨˦"],  // In Xiang the same word also means a (married) woman.
+    fro: ["fame", "ˈfãmə"],  // The same word means woman, especially of lower rank; dame was the word for a lady.
+    akk: ["𒁮", "aʃʃatu"],  // The word for woman is sinništu; the sign DAM 'spouse' also writes mutu 'husband'.
+    yo: ["aya", "aja"],  // Its husband counterpart is ọkọ; the source gives no woman word beside it.
+    tab: ["хпиб", "χpib"],  // Glossed both 'female' and 'wife'; no word for woman is set beside it in the same source.
+    mnp: ["老妈", "se˥˥ ma˨˩"],  // In Northern Min this word means wife; elsewhere it means mum or an old woman.
+    tpn: ["emirekó", "ɛ̃miɾɛˈkɔ"],  // Literally 'what someone has with oneself'; the word for woman is kunhã.
+    th: ["ภรรยา", "pʰan˧ jaː˧"],  // From Sanskrit भार्या 'wife'; it is the formal word, and the word for woman is ผู้หญิง.
+    om: ["niitii", "niːtiː"],  // The source gives no word for woman beside it.
+    ky: ["аял", "ɑˈjɑl"],  // The same word means woman; it comes through Persian from Arabic ʕayāl 'offspring'.
+    nmn: ["tâa qáe", "taa qae"],  // The same phrase means woman: tâa 'person' plus qáe 'female'.
+    hai: ["jáa", "dʒáː"],  // The source gives no word for woman beside it.
+    gl: ["esposa", "esˈposa"],  // From Latin spōnsa; muller, the word for woman, is also used for wife.
+    mdr: ["baine", "bainɛ"],  // From Proto-Malayo-Polynesian *babinahi; the source gives no woman word beside it.
+    gu: ["પત્ની", "pətniː"],  // A learned borrowing from Sanskrit पत्नी; the word for woman is નારી, though several woman words can also mean wife.
+    mk: ["жена", "ˈʒɛna"],  // The same word means woman; сопруга is a formal synonym.
+    blc: ["cnas", "çnas"],  // The same word means woman.
+    shi: ["ⵜⴰⵎⵖⴰⵔⵜ", "tamɣart"],  // The same word means woman, from Proto-Berber *ta-mɣar-t 'old woman'.
   },
 };

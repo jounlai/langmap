@@ -351,6 +351,10 @@ WORDS.right = {
     as: "other",
     uga: "plain",
     ket: "plain",
+    io: "dexter",
+    nv: "plain",
+    sga: "compass",
+    akk: "plain",
   },
   routes: {
     straight: {"color":"#2563eb","emoji":"📏","en":"'straight, true, correct'","ja":"「まっすぐ、正しい」","ko":"‘곧은, 옳은’","zh":"“直、正确”","yue":"「直、啱」","vi":"“thẳng, đúng”","th":"“ตรง ถูกต้อง”","id":"“lurus, benar”","hi":"‘सीधा, सही’","de":"„gerade, richtig“","fr":"« droit, juste »","it":"“dritto, giusto”","es":"«recto, correcto»","pt":"«reto, certo»","ru":"«прямой, верный»","uk":"«прямий, правильний»","ar":"«مستقيم، صحيح»","he":"״ישר, נכון״","sw":"“nyoofu, sahihi”"},
@@ -643,5 +647,9 @@ WORDS.right = {
     as: ["সোঁ", "xʊ̃"],  // Inherited from Sanskrit sama 'equal, alike, level'.
     uga: ["𐎊𐎎𐎐", "jamiːnu"],  // From Proto-Semitic *yamīn-, like Hebrew yāmīn; it also means the right hand.
     ket: ["боӷат", "bɔqat"],  // From earlier *bóqad 'on the right', of uncertain origin, probably related to Kott pagai 'right side'.
+    io: ["dextra", "ˈdekstra"],  // From Esperanto dekstra and Latin dexter.
+    nv: ["nishʼnáájígo", "nìʃʔnɑ́ːtʃíkò"],  // It means 'on the right'; no image is recorded for it, so it counts as a word of its own.
+    sga: ["dess", "dʲes"],  // It also means south, from Proto-Celtic *dexswos.
+    akk: ["𒅎𒉡", "imnu"],  // From Proto-Semitic *yamīn- 'right hand, side', like Arabic يمين.
   },
 };

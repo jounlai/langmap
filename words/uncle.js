@@ -247,6 +247,18 @@ WORDS.uncle = {
     crh: "split",
     sl: "split",
     bo: "split",
+    pdt: "unknown",
+    nv: "split",
+    mn: "split",
+    mi: "one",
+    fur: "unknown",
+    fro: "unknown",
+    pap: "unknown",
+    my: "split",
+    th: "split",
+    shn: "unknown",
+    gld: "split",
+    hu: "one",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's brother ≠ mother's brother","ja":"父の兄弟と母の兄弟で別の語","ko":"아버지의 형제와 어머니의 형제가 다른 낱말","zh":"父亲的兄弟和母亲的兄弟用不同的词","yue":"老豆嘅兄弟同阿媽嘅兄弟用唔同嘅詞","vi":"anh em của cha ≠ anh em của mẹ","th":"พี่น้องชายของพ่อกับของแม่เป็นคนละคำ","id":"saudara ayah ≠ saudara ibu","hi":"पिता का भाई ≠ माँ का भाई","de":"Bruder des Vaters ≠ Bruder der Mutter","fr":"frère du père ≠ frère de la mère","it":"fratello del padre ≠ fratello della madre","es":"hermano del padre ≠ hermano de la madre","pt":"irmão do pai ≠ irmão da mãe","ru":"брат отца ≠ брат матери","uk":"брат батька ≠ брат матері","ar":"أخو الأب ≠ أخو الأم","he":"אחי האב ≠ אחי האם","sw":"kaka wa baba ≠ kaka wa mama"},
@@ -436,5 +448,17 @@ WORDS.uncle = {
     crh: ["emce", "emdʒe"],  // The father's brother, like Turkish amca; the mother's brother is dayı.
     sl: ["stric", "striːts"],  // The father's brother; the mother's brother is ujec.
     bo: ["ཨ་ཁུ", "ə˥ kʰu˥"],  // The father's brother; the mother's brother is ཨ་ཞང a zhang.
+    pdt: ["Onkel", "ˈɔŋkəl"],  // The entry gives one word for uncle without saying which side.
+    nv: ["shizhéʼé yázhí", "ʃìʒéʔé jɑ́ʒí"],  // Literally 'my little father', the father's brother; the mother's brother is shidáʼí.
+    mn: ["авга ах", "awk ax"],  // The father's brother; авга on its own means a paternal relative.
+    mi: ["matua kēkē", "matua keːkeː"],  // Any sibling of a parent; kēkē, from kē 'different', marks the other line.
+    fur: ["barbe", "ˈbarbe"],  // From barbe 'beard', since a beard marks a grown man, like Ligurian bàrba.
+    fro: ["oncle", "ˈõnklə"],  // From Latin avunculus, which meant the mother's brother.
+    pap: ["tio", "ˈtio"],  // From Portuguese tio and Spanish tío; the source gives one word without saying which side.
+    my: ["ဘကြီး", "ba̰dʑí"],  // The father's elder brother; the father's youngest brother is ဘထွေး and the mother's younger brother ဦးလေး.
+    th: ["ลุง", "luŋ˧"],  // The older brother of either parent; the father's younger brother is อา and the mother's younger brother น้า.
+    shn: ["လုင်း", "luŋ˥"],  // A parent's older brother, from Proto-Tai *luŋ; the source gives no separate words for younger uncles to settle the side.
+    gld: ["эчэкэ", "ətʃəkə"],  // The father's younger brother; the mother's younger brother is гусин.
+    hu: ["nagybácsi", "ˈnɒɟbaːtʃi"],  // Literally 'big uncle'; it covers the brother of either parent.
   },
 };

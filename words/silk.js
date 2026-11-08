@@ -841,5 +841,6 @@ WORDS.silk = {
     ko_gor: ["及", "*kip"],  // 鷄林類事 (1103) 絹曰及; ko_mid 깁. Medium.
     hni: ["buvhaqpal", "bu˧˧xa˧˩pʰa˥˥"],  // Sun 1991 (Dazhai Hani) bu̱³³xa³¹pha⁵⁵. Gloss 'silk (cloth)'. Row is Sun's Dazhai (46 of 65 cells match). Haqniqdoq spelling is derived; the source is IPA.
     lis: ["bu", "bu˧˩"],  // Sun 1991 (Lisu) bu³¹. Gloss 'silk (cloth)'. Row matches Sun's Lisu 30 of 61. Latin spelling is derived, after the row.
+    nv: ["naakʼaʼatʼą́hí disǫsígíí", "nɑ̀ːkʼɑ̀ʔɑ̀tʼɑ̃́hí tìsõ̀síkíː"],  // Literally 'cloth that glitters'.
   }
 };

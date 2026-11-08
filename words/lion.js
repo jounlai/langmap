@@ -294,6 +294,31 @@ WORDS.lion = {
     sog: "shir",
     kfa: "simha",
     tcy: "simha",
+    za: "shi",
+    dz: "other",
+    pdt: "leo",
+    frr: "leo",
+    zza: "shir",
+    wuu: "shi",
+    mn: "arslan",
+    km: "plain",
+    wo: "plain",
+    xh: "other",
+    nn: "leo",
+    hsn: "shi",
+    akk: "plain",
+    my: "plain",
+    mnp: "shi",
+    tum: "plain",
+    wal: "plain",
+    cv: "arslan",
+    ny: "plain",
+    min: "simha",
+    lol: "plain",
+    aa: "plain",
+    ts: "plain",
+    shi: "plain",
+    sux: "plain",
   },
   routes: {
     leo: {"color":"#2563eb","emoji":"🏛️","en":"from Latin leo, Greek leon (Löwe, лев, león)","ja":"ラテン語 leo、ギリシア語 leon から (Löwe, лев, león)","ko":"라틴어 leo, 그리스어 leon에서 (Löwe, лев, león)","zh":"来自拉丁语 leo、希腊语 leon (Löwe, лев, león)","yue":"嚟自拉丁語 leo、希臘語 leon (Löwe, лев, león)","vi":"từ tiếng Latinh leo, tiếng Hy Lạp leon (Löwe, лев, león)","th":"จากภาษาละติน leo ภาษากรีก leon (Löwe, лев, león)","id":"dari leo Latin, leon Yunani (Löwe, лев, león)","hi":"लैटिन leo, यूनानी leon से (Löwe, лев, león)","de":"aus Lateinisch leo, Griechisch leon (Löwe, лев, león)","fr":"du latin leo, du grec leon (Löwe, лев, león)","it":"dal latino leo, dal greco leon (Löwe, лев, león)","es":"del latín leo, del griego leon (Löwe, лев, león)","pt":"do latim leo, do grego leon (Löwe, лев, león)","ru":"от латинского leo, греческого leon (Löwe, лев, león)","uk":"від латинського leo, грецького leon (Löwe, лев, león)","ar":"من اللاتينية leo واليونانية leon (Löwe, лев, león)","he":"מהלטינית leo, מהיוונית leon (Löwe, лев, león)","sw":"kutoka Kilatini leo, Kigiriki leon (Löwe, лев, león)"},
@@ -530,5 +555,30 @@ WORDS.lion = {
     sog: ["šrwγ", "ʃruɣ"],  // From Proto-Iranian *cárguš, the source of Persian šēr.
     kfa: ["ಸಿಂಹ", "simha"],  // Borrowed from Sanskrit siṃhá 'lion'.
     tcy: ["ಸಿಂಹ", "simha"],  // Borrowed from Sanskrit siṃhá 'lion'.
+    za: ["saeceij", "θai˨˦ ɕei˥"],  // From Chinese 獅子.
+    dz: ["སེངགེ", "seŋɡe"],  // Akin to Classical Tibetan སེང་གེ, which Wiktionary traces to a Central Asian substrate word.
+    pdt: ["Leiw", "lɛɪ̯f"],  // No origin is given; it matches German Löwe and Dutch leeuw.
+    frr: ["lau", "laʊ̯"],  // From Proto-West Germanic *lēwō, the Germanic form of the lion word; Föhr-Amrum says lööw.
+    zza: ["şêr", "ʃeɾ"],  // Related to Persian شیر.
+    wuu: ["狮子", "sz̩˥ tsz̩˨˩"],  // From Chinese 獅, the shi word.
+    mn: ["арслан", "arslaŋ"],  // From Classical Mongolian arslang, probably borrowed from a Turkic language.
+    km: ["តោ", "tao"],  // No origin is recorded; the Sanskrit loans សឹង្ហ and សីហៈ are synonyms.
+    wo: ["gaynde", "ɡajndɛ"],  // No image is recorded for it, so it counts as a word of its own.
+    xh: ["ingonyama", "iŋɡoɲaːma"],  // From ingwe 'leopard' plus inyama 'meat'.
+    nn: ["løve", "ˈløːvə"],  // From Middle Low German, ultimately Latin leo and Greek λέων.
+    hsn: ["狮子", "sɹ̩˧˧ tsɹ̩˧"],  // From Chinese 獅, the shi word.
+    akk: ["𒌨𒈤", "neːʃu"],  // From Proto-Semitic *naḥaš- 'lion'; the cognates in Arabic and Hebrew mean snake. The sign is the Sumerogram UR.MAḪ.
+    my: ["ခြင်္သေ့", "tɕʰɪ̀ɴðḛ"],  // Inherited from Old Burmese khrangsiy; its further origin is obscure, and English chinthe comes from it.
+    mnp: ["狮子", "su˥˦ tsu˨˩"],  // From Chinese 獅, the shi word.
+    tum: ["nkhalamu", "nkʰalamu"],  // Related to Chichewa nkhalamo; no image is recorded for it.
+    wal: ["gaammuwa", "ɡaːmːuwa"],  // No image is recorded for it, so it counts as a word of its own.
+    cv: ["арӑслан", "arəsˈlan"],  // Borrowed from Tatar арыслан, from Proto-Turkic *arsïlan; it replaced the inherited услан.
+    ny: ["nkhalamo", "nkʰalamo"],  // Related to Tumbuka nkhalamu and Bemba inkalamo; mkángo is a synonym.
+    min: ["singo", "siŋo"],  // No origin is given; it matches Malay singa, from Sanskrit siṃha.
+    lol: ["nkosi", "nkosi"],  // No image is recorded for it, so it counts as a word of its own.
+    aa: ["lubak", "lubak"],  // No image is recorded for it, so it counts as a word of its own.
+    ts: ["ndzawo", "ndzawo"],  // No image is recorded for it; nghala is a synonym.
+    shi: ["ⵉⵣⵎ", "izm"],  // From Proto-Berber *e-zăm 'lion'.
+    sux: ["𒊊", "piriŋ"],  // No analysis is recorded for it; the synonym 𒌨𒈤 urmaḫ means 'great beast of prey'.
   },
 };

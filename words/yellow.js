@@ -384,6 +384,24 @@ WORDS.yellow = {
     mtq: "gold",
     ty: "plain",
     osp: "bitter",
+    za: "plain",
+    pdt: "ghel",
+    rup: "galbinus",
+    frr: "ghel",
+    io: "plain",
+    ckb: "ghel",
+    vec: "galbinus",
+    rap: "other",
+    pa: "plain",
+    naq: "plain",
+    pap: "ghel",
+    evn: "plain",
+    tpn: "plain",
+    gld: "plain",
+    dtp: "plain",
+    vep: "plain",
+    osx: "ghel",
+    rmy: "galbinus",
   },
   routes: {
     turmeric: {"color":"#d97706","emoji":"🫚","en":"turmeric","ja":"ウコン","ko":"강황","zh":"姜黄","yue":"黃薑","vi":"nghệ","th":"ขมิ้น","id":"kunyit","hi":"हल्दी","de":"Kurkuma","fr":"le curcuma","it":"la curcuma","es":"la cúrcuma","pt":"a curcuma","ru":"куркума","uk":"куркума","ar":"الكركم","he":"כורכום","sw":"manjano"},
@@ -708,5 +726,23 @@ WORDS.yellow = {
     mtq: ["wàng", "waːŋ"],  // The same word means gold; from Chinese 黃, like Vietnamese vàng.
     ty: ["reʻareʻa", "ɾeʔaɾeʔa"],  // No image is recorded for it, so it counts as a word of its own.
     osp: ["amariello", "amaˈɾjeʎo"],  // From Early Medieval Latin amarellus 'yellowish, pale', from amarus 'bitter'.
+    za: ["henj", "heːn˥"],  // No image is recorded for it, so it counts as a word of its own; lieng is a dialect word.
+    pdt: ["jäl", "jɛːl"],  // From Proto-West Germanic *gelu, the old Germanic yellow.
+    rup: ["galbin", "ˈɡalbin"],  // From Latin galbinus.
+    frr: ["gööl", "ɡøːl"],  // From Proto-West Germanic *gelu, the old Germanic yellow; Föhr-Amrum and Sylt say güül.
+    io: ["flava", "ˈflava"],  // From Esperanto flava and Latin flāvus.
+    ckb: ["زەرد", "zaɾd"],  // From Proto-Iranian *járHitah, like Kurmanji zer.
+    vec: ["xało", "ˈzao"],  // Ultimately from Latin galbinus, probably through a Gallo-Romance language.
+    rap: ["toua mamari", "toua mamaɾi"],  // Built on mamari; the row's word for egg is māmari.
+    pa: ["ਪੀਲਾ", "piːɭaː"],  // From Sanskrit pītala.
+    naq: ["ǃhūni", "ǃʰuːni"],  // No image is recorded for it, so it counts as a word of its own.
+    pap: ["hel", "hel"],  // From Dutch geel, the old Germanic yellow.
+    evn: ["сиӈама", "siŋama"],  // From Proto-Tungusic *siŋa-; it also covers beige and brown.
+    tpn: ["îub", "juβ"],  // Inherited from Proto-Tupi-Guarani *juβ 'yellow', from Proto-Tupian *wub 'red'.
+    gld: ["согдён", "soɡˈdʲon"],  // From Proto-Tungusic *sola.
+    dtp: ["osilou", "osilou"],  // No image is recorded for it, so it counts as a word of its own.
+    vep: ["pakuine", "ˈpakuine"],  // Its origin is uncertain; it may relate to an old word for a yellow dye plant.
+    osx: ["gelo", "ˈɡelo"],  // From Proto-West Germanic *gelu, the old Germanic yellow.
+    rmy: ["galbeno", "ˈɡalbeno"],  // Borrowed from Romanian galben, from Latin galbinus.
   },
 };

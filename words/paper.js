@@ -346,6 +346,11 @@ WORDS.paper = {
     ang: "charta",
     cdo: "chinese",
     arq: "kaghaz",
+    za: "chinese",
+    wuu: "chinese",
+    nn: "papyrus",
+    aer: "papyrus",
+    ain: "chinese",
   },
   routes: {
     papyrus: {"color":"#2563eb","emoji":"📜","en":"from Latin papyrus (papier, papel, Papier)","ja":"ラテン語 papyrus から（papier, papel, Papier）","ko":"라틴어 papyrus에서 (papier, papel, Papier)","zh":"源自拉丁语 papyrus（papier, papel, Papier）","yue":"源自拉丁文 papyrus（papier, papel, Papier）","vi":"từ tiếng Latinh papyrus (papier, papel, Papier)","th":"จากภาษาละติน papyrus (papier, papel, Papier)","id":"dari bahasa Latin papyrus (papier, papel, Papier)","hi":"लातिन papyrus से (papier, papel, Papier)","de":"aus lateinisch papyrus (papier, papel, Papier)","fr":"du latin papyrus (papier, papel, Papier)","it":"dal latino papyrus (papier, papel, Papier)","es":"del latín papyrus (papier, papel, Papier)","pt":"do latim papyrus (papier, papel, Papier)","ru":"из латинского papyrus (papier, papel, Papier)","uk":"з латинського papyrus (papier, papel, Papier)","ar":"من اللاتينية papyrus (papier, papel, Papier)","he":"מ-papyrus הלטינית (papier, papel, Papier)","sw":"kutoka Kilatini papyrus (papier, papel, Papier)"},
@@ -632,5 +637,10 @@ WORDS.paper = {
     ang: ["carte", "ˈkɑrte"],  // From Latin charta, from Greek khártēs.
     cdo: ["纸", "tsai˧˧"],  // The Chinese 紙, read in Fuzhou.
     arq: ["كاغط", "kaːɣətˤ"],  // Inherited from Arabic kāḡad, the Persian kāġaz word; it also meant a document.
+    za: ["ceij", "ɕei˥"],  // From Chinese 紙.
+    wuu: ["纸头", "tsz̩˧˧ dɤ˦˦"],  // 紙 'paper' with the noun suffix 頭.
+    nn: ["papir", "pɑˈpiːr"],  // From Old French papier, through Middle Low German and late Old Norse.
+    aer: ["pipe", "pipə"],  // From English paper; the row's book is the same word.
+    ain: ["カㇺピ", "kampi"],  // Borrowed from Old Japanese 紙 'paper'.
   },
 };

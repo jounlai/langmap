@@ -347,6 +347,15 @@ WORDS.saturday = {
     ks: "other",
     non: "wash",
     tet: "sabbath",
+    pdt: "eve",
+    ia: "sabbath",
+    rup: "sabbath",
+    io: "saturn",
+    ckb: "sabbath",
+    pa: "saturn",
+    mwl: "sabbath",
+    chk: "other",
+    xag: "sabbath",
   },
   routes: {
     saturn: {"color":"#7c3aed","emoji":"🪐","en":"Saturn's day","ja":"土星の日","ko":"토성의 날","zh":"土星之日","yue":"土星嘅日","vi":"ngày sao Thổ","th":"วันของดาวเสาร์","id":"hari Saturnus","hi":"शनि का दिन","de":"Saturns Tag","fr":"le jour de Saturne","it":"il giorno di Saturno","es":"el día de Saturno","pt":"o dia de Saturno","ru":"день Сатурна","uk":"день Сатурна","ar":"يوم زحل","he":"יום שבתאי","sw":"siku ya Zohali"},
@@ -636,5 +645,14 @@ WORDS.saturday = {
     ks: ["بَٹہٕ وار", "baʈɨ ʋaːr"],  // Inherited from Sanskrit bhaṭṭārakavāra.
     non: ["laugardagr", "ˈlɑuɡɑrˌdɑɡr"],  // 'Bath day': laug 'bath' plus dagr 'day'; it lives on in Swedish lördag and Finnish lauantai.
     tet: ["loron-sábadu", "loron ˈsabadu"],  // 'Saturday day': loron 'day' plus Portuguese sábado, from the Sabbath.
+    pdt: ["Sinnowent", "ˈzɪnovɛnt"],  // From Middle Low German sunneāvent, 'sun' plus 'evening', like German Sonnabend.
+    ia: ["sabbato", "ˈsabbato"],  // A sabbath word, like Italian sabato.
+    rup: ["Sãmbãtã", "ˈsəmbətə"],  // From Vulgar Latin *sambata, ultimately Latin sabbatum 'Sabbath'.
+    io: ["saturdio", "saˈturdjo"],  // Borrowed from Latin diēs Saturnī and English Saturday.
+    ckb: ["شەممە", "ʃamma"],  // Ultimately from Hebrew שַׁבָּת 'Sabbath'.
+    pa: ["ਸ਼ਨੀਵਾਰ", "ʃəniːʋaːɾ"],  // A learned borrowing from Sanskrit śanivāra, Saturn's day; ਸਨਿੱਚਰਵਾਰ is the other common form.
+    mwl: ["sábado", "ˈsaβaðu"],  // From Latin sabbatum, from Hebrew שַׁבָּת 'Sabbath'.
+    chk: ["Ammon", "amːon"],  // From ammon 'preparation'.
+    xag: ["šambaṭ", "ʃambatʼ"],  // From Parthian šambat 'Sabbath, Saturday'; it also means the week.
   },
 };

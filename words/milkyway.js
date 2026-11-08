@@ -367,6 +367,7 @@ WORDS.milkyway = {
     gil: "other",
     kha: "road",
     ksw: "other",
+    dz: "other",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -677,5 +678,6 @@ WORDS.milkyway = {
     gil: ["Naiabu", "naiabu"],  // Bingham "Naiabu, n. The Milky Way; the Galaxy"
     kha: ["ka lynti bneng", "ka lənti bneŋ"],  // 1920: "Galaxy, n. Ka lynti bneng"; road of the sky
     ksw: ["ဆၣ်ဘုမုၢ်", "sʰabumɨ"],  // S'gaw Karen 'Milky Way' (SEAlang), beginning with ဆၣ် 'star'. IPA read from the script; the dictionary prints none.
+    dz: ["རྒིལ་འག་སྨེ་ཡེར", "kil˩ kɑ˩ me˥ jer˩"],  // Its origin is uncertain; Wiktionary compares Chinese 銀河 'silver river'.
   },
 };

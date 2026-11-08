@@ -299,6 +299,15 @@ WORDS.soap = {
     enm: "sapo",
     stq: "sapo",
     iu: "plain",
+    pdt: "sapo",
+    rup: "sapo",
+    io: "sapo",
+    mn: "sabun",
+    se: "sapo",
+    mt: "sabun",
+    nn: "sapo",
+    mnp: "plain",
+    tao: "other",
   },
   routes: {
     sapo: {"color":"#2563eb","emoji":"🏛️","en":"Latin sapo","ja":"ラテン語 sapo","ko":"라틴어 sapo","zh":"拉丁语 sapo","yue":"拉丁語 sapo","vi":"tiếng Latinh sapo","th":"ละติน sapo","id":"Latin sapo","hi":"लैटिन sapo","de":"lateinisch sapo","fr":"le latin sapo","it":"il latino sapo","es":"el latín sapo","pt":"o latim sapo","ru":"латинское sapo","uk":"латинське sapo","ar":"اللاتينية sapo","he":"הלטינית sapo","sw":"Kilatini sapo"},
@@ -539,5 +548,14 @@ WORDS.soap = {
     enm: ["sope", "ˈsɔːpə"],  // Inherited from Old English sāpe.
     stq: ["Seepe", "ˈseːpə"],  // From Proto-Germanic *saipǭ, the word behind English soap.
     iu: ["ᐃᕐᒥᐅᑦ", "iʁmiut"],  // No image is recorded for it, so it counts as a word of its own.
+    pdt: ["Seep", "zeːp"],  // From Middle Low German sēpe, from Proto-West Germanic *saipā, like Dutch zeep.
+    rup: ["sãpuni", "səˈpuni"],  // From Latin sāpō.
+    io: ["sapono", "saˈpono"],  // From French savon, Italian sapone and Spanish jabón, from Latin sāpō.
+    mn: ["саван", "ˈsawaŋ"],  // From Persian صابون, through a Turkic language.
+    se: ["sáibu", "ˈsaːjːpuː"],  // Borrowed from Finnish saippua, from Proto-Germanic *saipǭ.
+    mt: ["sapun", "saˈpuːn"],  // Probably inherited from Arabic صابون, with the p of Sicilian sapuni; ultimately from Latin sāpō.
+    nn: ["såpe", "ˈsoːpə"],  // From late Old Norse sápa, from Old English sāpe, from Proto-Germanic *saipǭ.
+    mnp: ["胰仔", "i˨˩ tsiɛ˨˩"],  // No image is recorded for it, so it counts as a word of its own.
+    tao: ["siken", "siken"],  // Borrowed from Japanese 石鹸 sekken, 'stone and lye'.
   },
 };

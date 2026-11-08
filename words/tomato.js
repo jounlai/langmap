@@ -535,6 +535,7 @@ WORDS.tomato = {
     ho: "nahuatl",
     sva: "apple",
     nrf: "nahuatl",
+    se: "nahuatl",
   },
   routes: {
     nahuatl: {"color":"#dc2626","emoji":"🌽","en":"from Nahuatl tomatl","ja":"ナワトル語 tomatl から","ko":"나우아틀어 tomatl에서","zh":"源自纳瓦特尔语 tomatl","yue":"源自納瓦特爾語 tomatl","vi":"từ tiếng Nahuatl tomatl","th":"จากภาษานาวัตล์ tomatl","id":"dari bahasa Nahuatl tomatl","hi":"नाहुआत्ल tomatl से","de":"aus Nahuatl tomatl","fr":"du nahuatl tomatl","it":"dal nahuatl tomatl","es":"del náhuatl tomatl","pt":"do náuatle tomatl","ru":"из науатль tomatl","uk":"з науатль tomatl","ar":"من الناواتلية tomatl","he":"מנאוואטל tomatl","sw":"kutoka Kinahuatl tomatl"},
@@ -1014,5 +1015,6 @@ WORDS.tomato = {
     ho: ["tamato", "tamato"],  // "tomato: tamato"
     sva: ["პა̈მიდორ", "pʼæmidor"],  // Borrowed from Georgian პამიდორი, from Russian помидор, from Italian 'golden apple'; პა̈ტრიჯან is also used.
     nrf: ["tonmate", "tɔ̃mat"],  // Borrowed from Spanish tomate, from Classical Nahuatl tomatl.
+    se: ["tomáhtta", "ˈtomaːhtːa"],  // No origin is given; it matches Finnish tomaatti, ultimately from Nahuatl tomatl.
   },
 };

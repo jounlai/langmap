@@ -380,6 +380,14 @@ WORDS.window = {
     uga: "plain",
     bo: "plain",
     non: "wind",
+    za: "plain",
+    pdt: "fenestra",
+    frr: "plain",
+    wuu: "plain",
+    hsn: "other",
+    akk: "plain",
+    vls: "fenestra",
+    gcf: "fenestra",
   },
   routes: {
     wind: {"color":"#0891b2","emoji":"🌬️","en":"built on the wind (window, vindue, ventana)","ja":"風からできた語（window, vindue, ventana）","ko":"바람에서 나온 말 (window, vindue, ventana)","zh":"由“风”构成（window, vindue, ventana）","yue":"由「風」構成（window, vindue, ventana）","vi":"tạo từ chữ gió (window, vindue, ventana)","th":"สร้างจากคำว่าลม (window, vindue, ventana)","id":"dibentuk dari kata angin (window, vindue, ventana)","hi":"हवा के शब्द से बना (window, vindue, ventana)","de":"vom Wind gebildet (window, vindue, ventana)","fr":"construit sur le vent (window, vindue, ventana)","it":"costruito sul vento (window, vindue, ventana)","es":"formado sobre el viento (window, vindue, ventana)","pt":"formado sobre o vento (window, vindue, ventana)","ru":"построено на слове для ветра (window, vindue, ventana)","uk":"побудоване на слові для вітру (window, vindue, ventana)","ar":"مبني على الريح (window, vindue, ventana)","he":"בנוי על הרוח (window, vindue, ventana)","sw":"limejengwa juu ya upepo (window, vindue, ventana)"},
@@ -699,5 +707,13 @@ WORDS.window = {
     uga: ["𐎈𐎍𐎐", "ħallaːn"],  // Like Hebrew ḥallōn 'window'.
     bo: ["སྒེ་ཁུང", "ki˩˨ kʰuŋ˥"],  // No image is recorded for it, so it counts as a word of its own.
     non: ["vindauga", "ˈvindˌɑuɡɑ"],  // 'Wind eye': vindr 'wind' plus auga 'eye'; it gave English window.
+    za: ["cueng", "ɕuːŋ˨˦"],  // From Chinese 窗; conghcueng, with congh 'opening', is also used.
+    pdt: ["Fensta", "ˈfɛnsta"],  // From Middle Low German venster, from Proto-West Germanic *fenestr.
+    frr: ["waning", "ˈvanɪŋ"],  // No image is recorded for it, so it counts as a word of its own; Föhr-Amrum says wöning.
+    wuu: ["窗", "tsʰɑ̃˥˧"],  // The plain Chinese word 窗; 窗门 is also heard in Shanghai.
+    hsn: ["亮窗", "liæn˨˩ tɕʰyæn˧˧"],  // 亮 'bright' plus 窗 'window'; 窗户 is also used.
+    akk: ["𒀊𒌓", "aptu"],  // Possibly borrowed from Sumerian ab 'window, opening'.
+    vls: ["veister", "ˈveːstər"],  // From Middle Dutch veinster, from Latin fenestra.
+    gcf: ["finèt", "finɛt"],  // From French fenêtre.
   },
 };

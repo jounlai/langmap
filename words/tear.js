@@ -301,6 +301,15 @@ WORDS.tear = {
     pi: "plain",
     sl: "plain",
     non: "plain",
+    za: "eyewater",
+    pdt: "plain",
+    vec: "plain",
+    mn: "plain",
+    fur: "plain",
+    sga: "plain",
+    pap: "plain",
+    om: "plain",
+    hit: "plain",
   },
   routes: {
     eyewater: {"color":"#0891b2","emoji":"💧","en":"eye + water (air mata, 눈물, nước mắt)","ja":"目＋水（air mata, 눈물, nước mắt）","ko":"눈 + 물 (air mata, 눈물, nước mắt)","zh":"眼＋水（air mata、눈물、nước mắt）","yue":"眼＋水（air mata、눈물、nước mắt）","vi":"mắt + nước (air mata, 눈물, nước mắt)","th":"ตา + น้ำ (air mata, 눈물, nước mắt)","id":"mata + air (air mata, 눈물, nước mắt)","hi":"आँख + पानी (air mata, 눈물, nước mắt)","de":"Auge + Wasser (air mata, 눈물, nước mắt)","fr":"œil + eau (air mata, 눈물, nước mắt)","it":"occhio + acqua (air mata, 눈물, nước mắt)","es":"ojo + agua (air mata, 눈물, nước mắt)","pt":"olho + água (air mata, 눈물, nước mắt)","ru":"глаз + вода (air mata, 눈물, nước mắt)","uk":"око + вода (air mata, 눈물, nước mắt)","ar":"عين + ماء (air mata, 눈물, nước mắt)","he":"עין + מים (air mata, 눈물, nước mắt)","sw":"jicho + maji (air mata, 눈물, nước mắt)"},
@@ -546,5 +555,14 @@ WORDS.tear = {
     pi: ["अस्सु", "asːu"],  // Inherited from Sanskrit áśru, from Proto-Indo-European *h₂eḱru.
     sl: ["solza", "ˈsɔːʋza"],  // From Proto-Slavic *slĭza; first attested in the 16th century.
     non: ["tár", "tɑːr"],  // From Proto-Germanic *tahrą.
+    za: ["raemxda", "ɣam˦˨ ta˨˦"],  // raemx 'water' plus da 'eye'.
+    pdt: ["Tron", "tɾoːn"],  // No image is recorded for it, so it counts as a word of its own.
+    vec: ["làgrema", "ˈlaɡrema"],  // From Latin lācrima.
+    mn: ["нулимс", "nʊlims"],  // From Proto-Mongolic *nïlbusun.
+    fur: ["lagrime", "ˈlaɡrime"],  // From Latin lācrima.
+    sga: ["dér", "dʲeːr"],  // From Proto-Celtic *dakrom, related to Greek δάκρυ.
+    pap: ["lágrima", "ˈlaɡrima"],  // From Portuguese and Spanish lágrima, from Latin lacrima.
+    om: ["immimamaan", "imːimamaːn"],  // No image is recorded for it, so it counts as a word of its own.
+    hit: ["𒅖𒄩𒄴𒊒", "isxaxru"],  // From Proto-Indo-European *(s)h₂éḱru 'tear', with some unresolved sound changes; it means tears.
   },
 };

@@ -17,3 +17,4 @@ One agent per language reads all 273 articles cold as a native writer and rewrit
 Content fix: paper-the-inventors-word gave Old Chinese 紙 the Japanese reading '(kami)' in every language; bracket removed.
 | th | 2546 | มัน overuse, ถูก-passives, colon setups, calqued idioms; telegraphic newer short articles (c08–c10) rewritten into connected Thai; shanghainese-ipa-wugniu th is missing two English passages (needs retranslation) |
 | sw | 639 | ~180 Title Case → sentence case, ~170 em dashes, rest voice; twenty-one-whole-person Kimanx → Kimansi (fact); three headings left in Title Case (not unique without ##) |
+| de | 593 | c01 and Han articles most (dash asides, participle openers, drumroll colons); reader address unified to Sie/man; c09 articles 4–30 only scanned (needs a full read); c01 still has ~570 straight quotes, ~600 em dashes overall — typography script pending |

@@ -8,3 +8,4 @@ One agent per language reads all 273 articles cold as a native writer and rewrit
 |---|---|---|
 | en | 97 | most in the Han Map script/history articles; Taa consonant counts worded three ways across articles (consistent, not identical) |
 | ja | 162 | c01 (oldest, most translated) had ~90; Mongolian-script article now matches the English on why Cyrillic cut readers off; three ja articles miss a clause the English has (atsign-animals, linear-a-undeciphered, germany-names); five Han articles use です/ます |
+| zh | 176 | ~100 in c01 (chains of 的, 其实/关键在于, drumroll colons); c01 and some c02 still use half-width , : ; and digit spacing varies — separate mechanical job |

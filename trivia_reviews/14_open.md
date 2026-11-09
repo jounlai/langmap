@@ -28,3 +28,5 @@ Content fix: paper-the-inventors-word gave Old Chinese 紙 the Japanese reading 
 | he (pass 1) | 162 | c01 and c10 read in full, c02–c09 only openings, closings and flagged sentences; 'סימניות' (bookmarks) used for characters ~30 times; full read follows |
 | ar (c04–c06 full) | 142 | إنه/إنها openers, ببساطة, heading echoes, olderbrother meaning matched to English; hangul/cuckoo/kanbun-yomi drop English content (noted); أيضاً vs أيضًا spelling to unify |
 Mechanical: ASCII , ; : ? ! between Chinese characters (zh, yue) made full-width; trivia_style budget ascii-punct 38 → 0.
+| ar (c01–c03 full) | 442 | ~270 voice, 149 straight quotes → «», 23 centuries in words; esperanto mood «الصيغة» matched to English |
+| ar (c07–c10 full) | 264 | dashes, headings, «» quotes, خانة for map cell; circumflex named correctly in quoc-ngu; invented closing moral removed (go-on); quoc-ngu and hakka drop English facts (noted) |

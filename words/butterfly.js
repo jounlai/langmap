@@ -360,7 +360,7 @@ WORDS.butterfly = {
     yua: ["péepen", "peːpen"],  // reduplication, from proto-Mayan *pehpen (Kaufman & Justeson 2003)
     quc: ["pepe", "pepe"],  // reduplication, from proto-Mayan *pehpen; the ALMG vocabulary lists penpen as a second reduplicated variant
     cak: ["palamax", "palamaʃ"],  // Kaqchikel has dropped the pan-Mayan *pehpen word (Kaufman's PMED still records pepe for the Itzapa variety); variants malax / amalax
-    nci: ["pāpālōtl", "paːpaːloːtɬ"],  // borrowed into Mexican Spanish as papalote
+    nci: ["pāpālōtl", "paːˈpaːloːtɬ"],  // borrowed into Mexican Spanish as papalote
     tar: ["nakarópari", "nakaropari"],  // the dictionary spells it nacarópari in SIL orthography; respelled c→k, hu→w to match this row (cf. its ca'huara → kaʼwá, ba'hui → bawí)
     hch: ["kɨpí", "kɨˈpi"],  // McIntosh & Grimes's c is /k/ (their ciye 'tree' = this row's kiyé) and their ɨ is this row's ï; the second vowel is legible only through OCR, hence the low confidence
     nv: ["kʼaalógii", "kʼɑ̀ːlókìː"],  // the Analytical Lexicon gives no etymology for it

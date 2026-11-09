@@ -610,7 +610,7 @@ WORDS.tomato = {
     aii: ["ܛܡܛܐ", "tˤaːmaːtˤaː"],  // From Iraqi Arabic, ultimately from Spanish tomate.
     lij: ["tomata", "tuˈmaːta"],  // From French tomate.
     is: ["tómatur", "ˈtʰouːmatʏr"],  // Ultimately from Nahuatl tomatl; the native coinage rauðaldin 'red fruit' is very rare.
-    nch: ["tomatl", "tomatɬ"],  // The Nahuatl word itself, the source of tomato in most of the world's languages.
+    nch: ["tomatl", "ˈtomatɬ"],  // The Nahuatl word itself, the source of tomato in most of the world's languages.
     ast: ["tomate", "toˈmate"],  // Etymology not given by the source. Route by resemblance to the neighbouring forms (de(Tomate) gl(tomate)); no etymology of its own.
     eo: ["tomato", "toˈmato"],  // Built on the European tomato words, all from Spanish tomate.
     crs: ["tomat", "tomat"],  // From French tomate.
@@ -920,7 +920,7 @@ WORDS.tomato = {
     cbk: ["tomates", "toˈmates"],  // Inherited from the Spanish plural tomates, used in Chavacano as the ordinary noun; ultimately Nahuatl tomatl.
     mt: ["tadam", "taˈdaːm"],  // Clipped from tuffieħa t'Adam 'Adam's apple', the fruit of the tree in paradise; collective noun with singular tadama.
     szl: ["tōmata", "toˈmata"],  // Borrowed from German Tomate, from Nahuatl tomatl; Steuer spelling tůmata.
-    nhw: ["tomatl", "tomatɬ"],  // The Nahuatl word itself, the source of tomato in most of the world's languages.
+    nhw: ["tomatl", "ˈtomatɬ"],  // The Nahuatl word itself, the source of tomato in most of the world's languages.
     sah: ["помидор", "pomiˈdor"],  // Borrowed from Russian помидор, from Italian pomi d'oro 'golden apples'; томат is a less common synonym.
     crh: ["pamidor", "pamiˈdor"],  // Borrowed from Russian помидор 'golden apple'; domatis, from Greek ντομάτα, is a synonym.
     fy: ["tomaat", "toˈmaːt"],  // Borrowed from Dutch tomaat, ultimately from Spanish tomate and Nahuatl tomatl.
@@ -1011,7 +1011,7 @@ WORDS.tomato = {
     nan_pn: ["紅毛茄", "aŋ˨˧ mɔ˨˧ kio˨˧"],  // Literally 'red-haired (Western) aubergine', a Southeast Asian Hokkien word.
     dru: ["tumatu", "tumatu"],  // Budai (霧台) Rukai word for the tomato, a loan of the international tomato word.
     ckv: ["mutideng", "mutidəŋ"],  // Kavalan word for the tomato (also tumatu).
-    nci: ["xītomatl", "ʃiːtomatɬ"],  // The Nahuatl word itself: xictli 'navel' + tomātl 'tomatillo' (Wiktionary); Spanish tomate and English tomato come from tomātl.
+    nci: ["xītomatl", "ʃiːˈtomatɬ"],  // The Nahuatl word itself: xictli 'navel' + tomātl 'tomatillo' (Wiktionary); Spanish tomate and English tomato come from tomātl.
     acw: ["طماطم", "tˤamaːtˤim"],  // Ultimately from Nahuatl tomatl, through Spanish.
     cjs: ["томат", "tomat"],  // Shor, glossed «помидор».
     har: ["timātim", "timaːtim"],  // Borrowed from Arabic طماطم (Leslau, p. 150a); Ethiopic spelling ቲማቲም.

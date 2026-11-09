@@ -1218,8 +1218,8 @@ WORDS.thunder = {
     ssy: ["angud", "anɡud"],  // Kept apart from xankarha, the lightning.
     naq: ["ǃgurub", "ǃɡurub"],  // Kept apart from napagu, the lightning; -b is the masculine singular ending.
     izz: ["egbigwe", "eɡbiɡwe"],  // Kept apart from ebemu, the lightning.
-    nhw: ["tlatomonilotl", "tɬatomonilotɬ"],  // Kept apart from tlapetlanilotl, the lightning; the verb is tlatomoni 'it thunders'.
-    nhe: ["tlatomonilotl", "tɬatomonilotɬ"],  // Kept apart from tlapetlanilotl, the lightning; the verb is tlatomoni 'it thunders'.
+    nhw: ["tlatomonilotl", "tɬatomoˈnilotɬ"],  // Kept apart from tlapetlanilotl, the lightning; the verb is tlatomoni 'it thunders'.
+    nhe: ["tlatomonilotl", "tɬatomoˈnilotɬ"],  // Kept apart from tlapetlanilotl, the lightning; the verb is tlatomoni 'it thunders'.
     nch: ["tatomonilot", "tatomoˈnilot"],  // The Central Huasteca form of tlatomonilotl, with tl reduced to t; lightning is tapetanilot.
     hui: ["hari kulu", "hari kulu"],  // Used in the Huli Bible for the thunder the crowd heard in John 12:29.
     bi: ["tanda", "tanda"],  // Kept apart from laetning, the lightning; compare Tok Pisin tanda, from English thunder. Route by resemblance to the neighbouring forms (English thunder); no etymology of its own.
@@ -1560,7 +1560,7 @@ WORDS.thunder = {
     agx: ["зав рухас", "zaw ruχas"],  // IDS Aghul, the row's list. Palochka and IPA from the row's pairs.
     udi: ["дуьруьпсум", "dyrypsum"],  // IDS Udi, the row's list. Palochka and IPA from the row's pairs.
     kjj: ["ттокъуд", "tːoqud"],  // IDS Khinalug, the row's list. Palochka and IPA from the row's pairs.
-    nci: ["quaqualachtli", "kʷakʷalatʃtɬi"],  // Siméon: "QUAQUALACHTLI ou QUAQUALACTLI, s. v. Tonnerre, bruit de la foudre"; no length marks
+    nci: ["quaqualachtli", "kʷakʷaˈlatʃtɬi"],  // Siméon: "QUAQUALACHTLI ou QUAQUALACTLI, s. v. Tonnerre, bruit de la foudre"; no length marks
     abe: ["padôgi", "padɔ̃ɡi"],  // Laurent p.17: "Padôgi. Thunder."
     nio: ["кадюа", "kɐdʲuɐ"],  // NorthEuraLex Nganasan, the list this row matches. Tie bars removed and spaces restored, as the row.
     enf: ["kihu", "kihu"],  // NorthEuraLex Forest Enets, the list this row matches. Tie bars removed and spaces restored, as the row. Latin spelling follows the row's pairs; the list prints Cyrillic.

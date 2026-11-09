@@ -1116,7 +1116,7 @@ WORDS.mouth = {
     zh_tang: ["口", "kʰəw"],
     zh_wenyan_edu: ["口", "hɐu˧˥"],
     txg: ["𗋈", "ŋwu˧˥"],
-    nci: ["camatl", "kamatɬ"],
+    nci: ["camatl", "ˈkamatɬ"],
     tpn: ["îuru", "juˈɾu"],
     p_hmx: ["*ɲɟuj", "ɲɟuj"],
     he_mis: ["פה", "pe"],

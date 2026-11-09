@@ -396,7 +396,7 @@ WORDS.person = {
     nap: ["perzona", "perˈtsonə"],
     naq: ["khoe-i", "kʰoei"],
     nbl: ["umuntu", "umuntu"],
-    nci: ["tlācatl", "tɬaːkatɬ"],
+    nci: ["tlācatl", "ˈtɬaːkatɬ"],
     nd: ["umuntu", "umuntu"],
     nds: ["Minsch", "mɪnʃ"],
     new: ["मनू", "mənuː"],

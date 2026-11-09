@@ -104,7 +104,7 @@ WORDS.iron = {
     hbo: ["ברזל", "barˈzɛl"],
     he_mis: ["ברזל", "barˈzel"],
     ar_qur: ["حديد", "ħadiːd"],
-    nci: ["tepoztli", "tepostɬi"],
+    nci: ["tepoztli", "teˈpostɬi"],
 
     // --- Modern Europe --------------------------------------------------
     nl: ["ijzer", "ˈɛi̯zər"],
@@ -466,9 +466,9 @@ WORDS.iron = {
     pis: ["aean", "aean"],
 
     // --- Nahuan — tepoztli, the metal word, pressed into service ----------
-    nch: ["tepostli", "tepostɬi"],
-    nhw: ["tepostli", "tepostɬi"],
-    nhe: ["tepostli", "tepostɬi"],
+    nch: ["tepostli", "teˈpostɬi"],
+    nhw: ["tepostli", "teˈpostɬi"],
+    nhe: ["tepostli", "teˈpostɬi"],
     ngu: ["tepostli", "tepostɬi"],
 
     // --- The Americas — a word that arrived with the ships ----------------
@@ -1020,7 +1020,7 @@ WORDS.iron = {
     ker: ["kooso", "koːso"],
     mpt: ["ain", "ain"],
     yai: ["ohan", "ohan"],
-    ppl: ["tepusti", "tepusti"],
+    ppl: ["tepusti", "teˈpusti"],
     ykg: ["чуо", "tʃuo"],
     ivv: ["vahayang", "vahajaŋ"],
     piu: ["yayina", "jajina"],

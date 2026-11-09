@@ -432,6 +432,6 @@ WORDS.earthquake = {
     lus: ["lîrnghîng", "liːrŋʰiːŋ"],  // Lîr 'to roll' + nghîng 'to shake'.
     om: ["kirkira lafaa", "kirkira lafaː"],  // Lafaa 'of the earth' is built on lafa 'earth'; the source does not gloss kirkira.
     rif: ["ⵣⵣⵉⵏⵣⴰⵍ", "zːɪnzɛl"],  // Borrowed from Moroccan Arabic زنزال zanzāl, a form of Arabic زلزال zilzāl.
-    nci: ["tlālōlīn", "tɬaːloːliːn"],  // Built from tlālli 'earth' and olīn 'movement, quake'.
+    nci: ["tlālōlīn", "tɬaːˈloːliːn"],  // Built from tlālli 'earth' and olīn 'movement, quake'.
   },
 };

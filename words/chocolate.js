@@ -371,7 +371,7 @@ WORDS.chocolate = {
     pon: ["sokoled", "sokoled"],
     en_ck: ["chocolate", "ˈtʃɒklɪʔ"],
     vep: ["šokolad", "ˈʃokolad"],
-    ppl: ["chukulat", "tʃukulat"],
+    ppl: ["chukulat", "tʃuˈkulat"],
     lld: ["ciculata", "tʃikuˈlata"],
     atj: ["kokocimiko", "kokoʃimiko"],
     zts: ["nax", "naʃ"],

@@ -1003,7 +1003,7 @@ WORDS.hundred = {
     pon: ["epwiki", "epʷiki"],
     toj: ["joʼ winkeʼ", "hoʔ winkeʔ"],
     cr: ["ᒥᑖᑕᐦᑐᒥᑕᓇᐤ", "mitaːtahtomitanaw"],
-    ppl: ["tzunti", "tsunti"],
+    ppl: ["tzunti", "ˈtsunti"],
     lld: ["cënt", "tʃənt"],
     atj: ["mitato mitana", "mitato mitana"],
     zts: ["gayuaa", "ɡajuaː"],

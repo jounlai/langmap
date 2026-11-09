@@ -1104,7 +1104,7 @@ WORDS.daughter = {
     xlu: ["𔐱𔕬𔗬𔖹𔐤", "ˈtuwatarin"],  // ACLT, TELL AHMAR 1: (FILIA)tú-wa/i-tara/i-na, acc. sg.
     cms: ["bilia", "ˈbilia"],
     ja_kanbun: ["女", "mɯsɯme"],
-    nci: ["ichpōchtli", "itʃpoːtʃtɬi"],
+    nci: ["ichpōchtli", "itʃˈpoːtʃtɬi"],
     gan_yc: ["女", "ȵy˨˩"],
     gan_ja: ["女", "ȵy˥˧"],
     gan_fz: ["女", "ȵi˧˥"],

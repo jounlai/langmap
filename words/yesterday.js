@@ -1381,12 +1381,12 @@ WORDS.yesterday = {
     asu: ["ighuo", "iɣuo"],  // tomorrow: yavo
     tet: ["horisehik", "horisehik"],  // tomorrow: awan; also written horiseik, literally 'the other day'.
     jmc: ["ukwau", "ukwau"],  // tomorrow: ndesi
-    nhw: ["yalohua", "jalowa"],  // tomorrow: mostla
+    nhw: ["yalohua", "jaˈlowa"],  // tomorrow: mostla
     gej: ["esɔ", "esɔ"],  // Esɔ (written èsɔ̀ in the 2014 Gɛ̃gbe Bible) means both 'yesterday' and 'tomorrow', as in Ewe; tense makes the difference.
     ebu: ["ĩgoro", "eɡoɾo"],  // tomorrow: rũyũ; the Bible writes îgoro, rûyû.
     ses: ["bi", "bi"],  // tomorrow: suba
     tzo: ["volje", "volhe"],  // tomorrow: okʼom
-    nhe: ["yalhuaya", "jalwaja"],  // tomorrow: mostla
+    nhe: ["yalhuaya", "jalˈwaja"],  // tomorrow: mostla
     pdt: ["jistren", "ˈjistrən"],  // tomorrow: morjen
     kqn: ["kesha", "keʃa"],  // Kesha means both 'yesterday' (Hebrews 13:8, John 4:52) and 'tomorrow' (Matthew 6:34, Luke 13:32) in the Kaonde New Testament.
     mev: ["yalá", "jalá"],  // Tomorrow word not established from the same Bible. Tomorrow is tòò.
@@ -1404,7 +1404,7 @@ WORDS.yesterday = {
     her: ["erero", "erero"],  // tomorrow: muhuka
     ssy: ["kumal", "kumal"],  // tomorrow: beera
     enq: ["kuaka", "kuaka"],  // tomorrow: taita
-    nch: ["yalohua", "jalowa"],  // tomorrow: mosta
+    nch: ["yalohua", "jaˈlowa"],  // tomorrow: mosta
     cab: ["gúñaarü", "ˈɡuɲaːɾɨ"],  // tomorrow: haruga
     ami: ["inacila", "inatsila"],  // tomorrow: anocila
     kfx: ["काल", "kaːl"],  // The same word means 'yesterday' (Hebrews 13:8, Acts 7:28) and 'tomorrow' (Matthew 6:34, James 4:13) in the Kullui New Testament.
@@ -1538,7 +1538,7 @@ WORDS.yesterday = {
     orv: ["вьчера", "vĭtʃera"],  // tomorrow: заутра; вьчера is the ancestor of Russian вчера and Ukrainian учора.
     fr_class: ["hier", "jɛr"],  // tomorrow: demain; 17th-century verse could count hier as one syllable or two (hi-er).
     es_sgl: ["ayer", "aˈʝeɾ"],  // tomorrow: mañana; ayer comes from Latin ad heri, and mañana also meant 'morning'.
-    nci: ["yālhua", "jaːlwa"],  // tomorrow: mōztla; both are recorded in Alonso de Molina's 1555 Spanish–Nahuatl vocabulary.
+    nci: ["yālhua", "ˈjaːlwa"],  // tomorrow: mōztla; both are recorded in Alonso de Molina's 1555 Spanish–Nahuatl vocabulary.
     qwc: ["qayna", "qajna"],  // tomorrow: kaya (q'aya, Holguín 1608); Holguín writes ccayna, ccayna punchao 'yesterday's day'.
     fa_clas: ["دیروز", "diːroːz"],  // tomorrow: فردا (fardā); dī-rōz is literally 'yester-day', dī going back to Middle Persian dīk.
     ojp: ["昨日", "kinəpu"],  // tomorrow: 明日 (asu); the final pu of kino2pu is a form of pi 'day', as in kepu 'today'.

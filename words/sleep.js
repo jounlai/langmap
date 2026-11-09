@@ -375,7 +375,7 @@ WORDS.sleep = {
     sux: ["𒅇𒆪", "uku"],
     akk: ["𒍝𒆷𒇻", "sˤalaːlu"],
     hit: ["𒊺𒌍𒍣", "sestsi"],
-    nci: ["cochi", "kotʃi"],
+    nci: ["cochi", "ˈkotʃi"],
     nhx: ["cochi", "kotʃi"],
     nch: ["cochi", "ˈkotʃi"],
     nhw: ["cochi", "ˈkotʃi"],

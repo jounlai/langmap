@@ -859,7 +859,7 @@ WORDS.yellow = {
     frp: ["jôno", "ˈʒono"],  // Inherited from Latin galbinus.
     sjd: ["руччкэ", "rutʃːke"],  // From Proto-Sami *ručkë, related to Finnish ruskea 'brown'; the attributive form is руччкесь. No image is recorded for it, so it counts as a word of its own.
     rgn: ["ẓal", "zal"],  // The same word as Italian giallo, from Latin galbinus.
-    ppl: ["tultik", "tultik"],  // No image is recorded for it, so it counts as a word of its own.
+    ppl: ["tultik", "ˈtultik"],  // No image is recorded for it, so it counts as a word of its own.
     otk: ["𐰽𐰺𐰍", "sarɯɣ"],  // Inherited from Proto-Turkic *siarïg 'yellow; white'; Turkish sarı and Hungarian sárga continue it.
     quc: ["qʼan", "qʼan"],  // From Proto-Mayan *qʼan; also spelled qʼän. No image is recorded for it, so it counts as a word of its own.
     pis: ["ialo", "ialo"],  // From English yellow; Bislama and Tok Pisin yelo are the same word.

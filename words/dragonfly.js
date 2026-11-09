@@ -727,7 +727,7 @@ WORDS.dragonfly = {
     prk: ["ag yóng", "ʔakʑɔ̤ŋ"],  // The same word names a black water bird. No image is recorded for it, so it counts as a word of its own.
     ykg: ["кичиэн волмэ", "kitʃeːn wolme"],  // No image is recorded for it, so it counts as a word of its own.
     blc: ["xiku", "χikʷu"],  // No image is recorded for it, so it counts as a word of its own.
-    nci: ["āpipiyōllōtl", "aːpipijoːlːoːtɬ"],  // Built from ātl 'water' and pipiyōlin 'bee'.
+    nci: ["āpipiyōllōtl", "aːpipiˈjoːlːoːtɬ"],  // Built from ātl 'water' and pipiyōlin 'bee'.
     tkl: ["hēhēmū", "heːheːmuː"],  // From Proto-Polynesian *mu, which names insects in Hawaiian mū.
   },
 };

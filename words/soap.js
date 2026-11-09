@@ -624,7 +624,7 @@ WORDS.soap = {
     fy: ["sjippe", "ˈsjɪpə"],  // From Old Frisian *sēpe, from Proto-West Germanic *saipā.
     ki: ["thabuni", "ðaβuːni"],  // Borrowed from Swahili sabuni.
     mh: ["joob", "tʲɛwɛpˠ"],  // Borrowed from English soap.
-    nci: ["ahmōlli", "aʔmoːlːi"],  // From Proto-Nahuan *ahmool-lɨ 'soapweed, agave'; agave plants were used for soap.
+    nci: ["ahmōlli", "aʔˈmoːlːi"],  // From Proto-Nahuan *ahmool-lɨ 'soapweed, agave'; agave plants were used for soap.
     nhx: ["xapo̱n", "ʃapoːn"],  // Borrowed from Spanish xabon, modern jabón.
     osp: ["xabon", "ʃaˈbon"],  // Inherited from Latin sāpōnem, itself from Germanic.
     pyu: ["sabun", "sabun"],  // Borrowed from Taiwanese Hokkien 雪文 sap-bûn.

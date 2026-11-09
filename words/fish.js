@@ -574,11 +574,11 @@ WORDS.fish = {
     // 2026-08-29. — is this project's marker for "no source", which is
     // exactly the situation; see docs/dev-handoff.md item 30.
     hit: ["—", "—"],
-    nci: ["michin", "mitʃin"],
+    nci: ["michin", "ˈmitʃin"],
     nhx: ["to̱poj", "toːpoh"],
-    nch: ["michi", "mitʃi"],
-    nhw: ["michi", "mitʃi"],
-    nhe: ["michi", "mitʃi"],
+    nch: ["michi", "ˈmitʃi"],
+    nhw: ["michi", "ˈmitʃi"],
+    nhe: ["michi", "ˈmitʃi"],
     hch: ["ketsɨ", "ketsɨ"],
     ngu: ["michin", "mitʃin"],
     ppl: ["michin", "ˈmitʃiŋ"],

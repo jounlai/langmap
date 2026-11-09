@@ -880,7 +880,7 @@ WORDS.littlefinger = {
     ar_qur: ["خنصر", "xinsˤir"],  // A word of its own, unchanged in modern Arabic.
     hy_grab: ["ճկոյթ", "tʃkojtʰ"],  // Borrowed from a Zan (Kartvelian) word; compare Laz ts'ulu k'iti, literally 'small finger'.
     syc: ["ܚܨܪܐ", "ħesˤraː"],  // From a root meaning 'to narrow'; it also means the little toe, and figuratively 'a small part'.
-    nci: ["mahpilxōcoyōtl", "maʔpilʃoːkojoːtɬ"],  // Mahpilli 'finger' + xōcoyōtl 'youngest child': the youngest finger.
+    nci: ["mahpilxōcoyōtl", "maʔpilʃoːˈkojoːtɬ"],  // Mahpilli 'finger' + xōcoyōtl 'youngest child': the youngest finger.
     sga: ["lútu", "ˈluːdu"],  // The ancestor of Irish lúidín (eDIL). No image is recorded for it, so it counts as a word of its own.
     orv: ["мѣзиньць", "mæzinʲtsʲ"],  // Originally 'youngest son': the little finger is the youngest of the five. Modern Russian мизинец.
     ofs: ["slūtere", "ˈsluːtere"],  // The 'locker', from slūta 'to close': the little finger closes the fist (Köbler).

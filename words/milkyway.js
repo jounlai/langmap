@@ -606,7 +606,7 @@ WORDS.milkyway = {
     sc: ["Camminu de paza", "kamˈminu de ˈpadza"],  // Literally 'the road of straw', the same image as Turkish Samanyolu and Arabic درب التبانة.
     rgn: ["strê 'd Roma", "streː d roma"],  // Literally 'the road to Rome'; Ercolani's Romagnol dictionary gives it as the name of the Milky Way.
     syc: ["ܫܒܝܠ ܬܒܢܐ", "ʃβiːl teβnaː"],  // Literally 'path of chaff', the same image as Arabic and Turkish.
-    nci: ["citlālīcue", "sitɬaːliːkʷe"],  // Citlālin 'star' + īcue 'her skirt': 'her skirt of stars', the name of the goddess Citlālīcue. Molina's 1555 dictionary glosses it as the 'Camino de Santiago in the sky'.
+    nci: ["citlālīcue", "sitɬaːˈliːkʷe"],  // Citlālin 'star' + īcue 'her skirt': 'her skirt of stars', the name of the goddess Citlālīcue. Molina's 1555 dictionary glosses it as the 'Camino de Santiago in the sky'.
     nan_hai: ["银河", "ŋin˧˩ ho˧˩"],  // 'Silver river'; word from Wiktionary's dialect table, reading from MCPDict 海口.
     wuu_hz: ["天河", "tʰiᴇ̃˧˧ ɦoᵘ˨˩˧"],  // 'The heavenly river'; Hangzhou also says 银河. Reading from MCPDict 杭州.
     cjy_xz: ["天河", "tʰiɛ̃˧˩˧ xɛ˧˩"],  // 'The heavenly river'; reading from MCPDict 忻州.

@@ -702,8 +702,8 @@ WORDS.paper = {
     cjs: ["қат", "qat"],  // No image is recorded for it, so it counts as a word of its own.
     ee: ["agbalẽ", "aɡbalẽ"],  // The same word means book, letter and paper; it is possibly from agba 'scaffolding' and lẽ, a forest tree.
     mch: ["jajeda", "hʷaheːɾ̠a"],  // Borrowed from Spanish papel.
-    nch: ["amatl", "aːmatɬ"],  // The bark-paper word; Classical Nahuatl āmatl is from Proto-Nahuan *aama-tl, a fig species and its paper.
-    nci: ["āmatl", "aːmatɬ"],  // From Proto-Nahuan *aama-tl, a species of fig and the bark paper made from it; it also means a document or book.
+    nch: ["amatl", "ˈaːmatɬ"],  // The bark-paper word; Classical Nahuatl āmatl is from Proto-Nahuan *aama-tl, a fig species and its paper.
+    nci: ["āmatl", "ˈaːmatɬ"],  // From Proto-Nahuan *aama-tl, a species of fig and the bark paper made from it; it also means a document or book.
     new: ["भ्वं", "bʱwɔ̃ː"],  // No image is recorded for it, so it counts as a word of its own.
     osp: ["papel", "paˈpel"],  // Borrowed from Old Catalan paper, from Latin papȳrus; attested from 1330.
     sa: ["कागद", "kaːɡɐdɐ"],  // Borrowed from Hindi कागद, from Persian kāġaz.

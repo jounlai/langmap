@@ -1268,11 +1268,11 @@ WORDS.tomorrow = {
     arc: ["ܡܚܪ", "mħaːr"],  // Mḥār is the common Aramaic word for 'tomorrow', cognate with Hebrew māḥār (Wiktionary). Like Hebrew māḥār, probably built on the root of 'after'.
     aii: ["ܩܘܕܡܐ", "qudmeː"],  // Qudme is the word Iraqi Koine uses for 'tomorrow'; the literary word is ܡܚܵܪ, and some Urmian speakers use qudme for 'yesterday' too (Wiktionary). No image is recorded for it, so it counts as a word of its own.
     akk: ["𒌨𒊏𒄠", "urram"],  // Urram is the adverbial accusative of urrum 'daylight, daytime' (Wiktionary, CAD).
-    nci: ["mōztla", "moːstɬa"],  // Molina's 1555 dictionary gives muztla for 'mañana después de hoy' (Wiktionary). No image is recorded for it, so it counts as a word of its own.
+    nci: ["mōztla", "ˈmoːstɬa"],  // Molina's 1555 dictionary gives muztla for 'mañana después de hoy' (Wiktionary). No image is recorded for it, so it counts as a word of its own.
     nhx: ["mo̱sta", "moːsta"],  // Mo̱sta is paired with a̱man 'today' in the Isthmus Nahuatl New Testament (Luke 13:32, James 4:13). No image is recorded for it, so it counts as a word of its own.
-    nch: ["mosta", "mosta"],  // Mosta is paired with ama 'today' in the Central Huasteca Nahuatl New Testament (Luke 13:32). No image is recorded for it, so it counts as a word of its own.
-    nhw: ["mostla", "mostɬa"],  // Mostla is paired with ama 'today' in the Western Huasteca Nahuatl New Testament (Luke 13:32). No image is recorded for it, so it counts as a word of its own.
-    nhe: ["mostla", "mostɬa"],  // Mostla is paired with ama 'today' in the Eastern Huasteca Nahuatl New Testament (Luke 13:32). No image is recorded for it, so it counts as a word of its own.
+    nch: ["mosta", "ˈmosta"],  // Mosta is paired with ama 'today' in the Central Huasteca Nahuatl New Testament (Luke 13:32). No image is recorded for it, so it counts as a word of its own.
+    nhw: ["mostla", "ˈmostɬa"],  // Mostla is paired with ama 'today' in the Western Huasteca Nahuatl New Testament (Luke 13:32). No image is recorded for it, so it counts as a word of its own.
+    nhe: ["mostla", "ˈmostɬa"],  // Mostla is paired with ama 'today' in the Eastern Huasteca Nahuatl New Testament (Luke 13:32). No image is recorded for it, so it counts as a word of its own.
     ngu: ["mostla", "mostɬa"],  // Mostla is paired with aman 'today' in the Guerrero Nahuatl New Testament (Luke 13:32). No image is recorded for it, so it counts as a word of its own.
     hch: ["ʼuxaʼa", "ʔuraʔa"],  // ʼUxaʼa is used for 'tomorrow' in the Wixarika New Testament (Matthew 6:34, James 4:13). No image is recorded for it, so it counts as a word of its own.
     ppl: ["musta", "ˈmuːsta"],  // Musta is the Nawat cognate of Classical Nahuatl mōztla (Wiktionary).

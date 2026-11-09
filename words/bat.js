@@ -1062,8 +1062,8 @@ WORDS.bat = {
     mam: ["sotzʼ", "sotsʼ"],  // Inherited from the Proto-Mayan word for the bat, *sootzʼ.
     ctu: ["sutsʼ", "sutsʼ"],  // Inherited from the Proto-Mayan word for the bat, *sootzʼ.
     nhe: ["tzotzo", "ˈtsotso"],  // Borrowed from Huastec (Wastek) tsots 'bat'.
-    nch: ["tzotzo", "tsotso"],  // Borrowed from Huastec (Wastek) tsots 'bat', as in Eastern Huasteca Nahuatl.
-    nhw: ["tzole", "tsole"],  // The Western Huasteca Nahuatl word for the bat; the other Huasteca varieties say tzotzo. No image is recorded for it, so it counts as a word of its own.
+    nch: ["tzotzo", "ˈtsotso"],  // Borrowed from Huastec (Wastek) tsots 'bat', as in Eastern Huasteca Nahuatl.
+    nhw: ["tzole", "ˈtsole"],  // The Western Huasteca Nahuatl word for the bat; the other Huasteca varieties say tzotzo. No image is recorded for it, so it counts as a word of its own.
     ngu: ["tsinakan", "tsiˈnakan"],  // The Guerrero Nahuatl word, the descendant of Classical Nahuatl tzinacan. Route by resemblance to the neighbouring forms (ppl(tzinakan)); no etymology of its own.
     pap: ["raton di anochi", "raton di anotʃi"],  // Literally 'mouse of the night'.
     hwc: ["bat", "bæt"],  // Taken over from English bat.
@@ -1247,7 +1247,7 @@ WORDS.bat = {
     ar_qur: ["خفاش", "xuffaːʃ"],  // From the verb خَفِشَ 'to be day-blind', after the bat's supposed poor sight by day.
     ota: ["یراسه", "jaɾaˈsa"],  // Inherited from Proto-Turkic *yarïsgu 'bat', the same word as Turkish yarasa.
     osp: ["murciego", "muɾˈθjeɣo"],  // From Vulgar Latin mūrem caecum 'blind mouse'; attested about 1250, later murciélago.
-    nci: ["tzinacan", "tsinaːkan"],  // Inherited from Proto-Nahuan *ȼinaakan 'bat'. No image is recorded for it, so it counts as a word of its own.
+    nci: ["tzinacan", "tsiˈnaːkan"],  // Inherited from Proto-Nahuan *ȼinaakan 'bat'. No image is recorded for it, so it counts as a word of its own.
     syc: ["ܦܪܚܕܘܕܐ", "praħduːðaː"],  // Either from the root p-r-ḥ 'to fly' or from Arabic خُفْدُود; the sources do not settle which.
     fa_clas: ["شب‌پره", "ʃabpara"],  // Literally 'night-wing': شب 'night' + پره 'wing'. In modern Iran it is dated, and the Arabic loan خفاش replaced it.
     sga: ["íatlu", "ˈiːadlu"],  // The ancestor of Irish ialtóg (eDIL). No image is recorded for it, so it counts as a word of its own.

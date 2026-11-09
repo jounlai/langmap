@@ -1258,7 +1258,7 @@ WORDS.olderbrother = {
     ja_heian: ["兄", "ani"],  // younger brother: 弟 (otouto); Heian ani replaced Old Japanese ye, and the dictionary also lists konokami as a synonym.
     ja_chu: ["兄", "ani"],  // younger brother: 弟, usually pronounced ototo in the Middle Japanese period.
     ja_edo: ["兄貴", "aɲiki"],  // younger brother: 弟 (otōto), which only in the Edo period came to mean a younger brother specifically; plain 兄 ani was the neutral word.
-    nci: ["āchcāuhtli", "aːtʃkaːwtɬi"],  // younger brother: iccāuhtli; āchcāuhtli also meant a leader or captain, and a shorter āchtli is also recorded.
+    nci: ["āchcāuhtli", "aːtʃˈkaːwtɬi"],  // younger brother: iccāuhtli; āchcāuhtli also meant a leader or captain, and a shorter āchtli is also recorded.
     puaz: ["*paʔti", "paʔti"],  // Stubbs (2011) glosses it 'older sibling'; it survives in Classical Nahuatl āchtli 'older brother'.
     xng: ["ᠠᠬᠠ", "aqa"],  // younger sibling: degü; the Xianbei word behind Chinese 哥 'elder brother' is a close relative.
     cmg: ["ᠠᠬ᠎ᠠ", "aqa"],  // younger sibling: degüü; modern Khalkha ах.

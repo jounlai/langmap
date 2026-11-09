@@ -585,9 +585,9 @@ WORDS.black = {
     ctu: ["iʼikʼ", "iʔikʼ"],
 
     // --- Uto-Aztecan; Nawat lost the tɬ Nahuatl kept -------------------
-    nci: ["tlīltic", "tɬiːltik"],
+    nci: ["tlīltic", "ˈtɬiːltik"],
     nhx: ["pi̱stiꞌ", "piːstiʔ"],
-    ppl: ["tiltik", "tiltik"],
+    ppl: ["tiltik", "ˈtiltik"],
     hop: ["qömvi", "qømvi"],
 
     // --- Other Americas -----------------------------------------------

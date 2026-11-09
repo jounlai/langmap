@@ -636,7 +636,7 @@ WORDS.hand = {
     nhx: ["mayiꞌ", "majiʔ"],
     nch: ["maitl", "maitɬ"],
     nhw: ["maitl", "maitɬ"],
-    nhe: ["mayitl", "majitɬ"],
+    nhe: ["mayitl", "ˈmajitɬ"],
     hch: ["mama", "mama"],
     ngu: ["maitl", "maitɬ"],
     ppl: ["mey", "mej"],

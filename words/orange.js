@@ -1407,7 +1407,7 @@ WORDS.orange = {
     meu: ["anani", "anani"],  // Lawes "Orange (wild), Vauto. Anani. (Introduced)"
     rap: ["anani", "anani"],  // Churchill "orange anani" (OCR anant)
     mrw: ["karomamis", "karomamis"],  // Page image p.205: "KAROMAMIS  ORANGE"; also DARANGITA, Citrus aurantium, p.132
-    nci: ["naranjaxocotl", "naɾanxaʃokotɬ"],  // Siméon: "NARANJAXOCOTL, s. Orange. RR. naranja, xocotl"; colonial; head line starred as post-conquest
+    nci: ["naranjaxocotl", "naɾanxaˈʃokotɬ"],  // Siméon: "NARANJAXOCOTL, s. Orange. RR. naranja, xocotl"; colonial; head line starred as post-conquest
     ksw: ["စူၢ်ဝံၣ်သၣ်", "suwiθa"],  // S'gaw Karen 'an orange, the fruit' (SEAlang), which also lists တဃ့ၣ်သၣ်. IPA read from the script; the dictionary prints none.
     blc: ["antsns", "ʔantsns"],  // Borrowed from English oranges.
   },

@@ -1024,7 +1024,7 @@ WORDS.blue = {
     pll: ["kjo", "kjo"],
     pmh: ["णील", "ɳiːla"],
     emy: ["yax", "jaʃ"],
-    nci: ["texotli", "teʃohtɬi"],
+    nci: ["texotli", "teˈʃohtɬi"],
     pi: ["नील", "niːla"],
     sux: ["𒍝𒆳", "zaɡin"],
     sog: ["kpʾwt", "kapoːt"],

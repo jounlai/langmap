@@ -457,7 +457,7 @@ WORDS.sushi = {
     de_lu: ["Sushi", "ˈzuːʃi"],
     gn: ["súchi", "ˈsuʃi"],
     awa: ["सुशी", "suʃiː"],
-    ppl: ["sushi", "suʃi"],
+    ppl: ["sushi", "ˈsuʃi"],
     pwn: ["susi", "susi"],
     pnb: ["سوشی", "suːʃiː"],
     dag: ["sushi", "suʃi"],

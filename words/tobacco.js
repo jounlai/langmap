@@ -505,7 +505,7 @@ WORDS.tobacco = {
     dty: ["तमाख", "təmaːkʰ"],  // From Portuguese tabaco.
     ki: ["mbakĩ", "mbake"],  // No image is recorded for it; it also means snuff and the tobacco plant.
     mch: ["kawai", "kawaj"],  // No image is recorded for it, so it counts as a word of its own.
-    nch: ["iyatl", "ijatɬ"],  // No image is recorded for it, so it counts as a word of its own.
+    nch: ["iyatl", "ˈijatɬ"],  // No image is recorded for it, so it counts as a word of its own.
     nhe: ["iyatl", "ˈijatɬ"],  // Cognate with Classical Nahuatl iyetl; no image is recorded for it.
     pao: ["pahmu", "pahmu"],  // No origin is recorded for it (the entry compares Cahuilla pívat), so it counts as a word of its own.
     rm: ["tubac", "tuˈbak"],  // The same word as Italian tabacco.
@@ -547,7 +547,7 @@ WORDS.tobacco = {
     ono: ["oyę́ʼgwaʼ", "ojɛ̃́ʔɡwaʔ"],  // No image is recorded for it, so it counts as a word of its own.
     lkt: ["čhaŋlí", "tʃʰãlí"],  // It also means 'cigarette'. No image is recorded for it, so it counts as a word of its own.
     pdt: ["Tobbak", "ˈtɔbak"],  // Ultimately from Spanish tabaco; compare German Tobak.
-    ppl: ["iyat", "ijat"],  // Compare Huasteca Nahuatl iyatl 'tobacco'. No image is recorded for it, so it counts as a word of its own.
+    ppl: ["iyat", "ˈijat"],  // Compare Huasteca Nahuatl iyatl 'tobacco'. No image is recorded for it, so it counts as a word of its own.
     nys: ["boolkoo", "bulku"],  // No image is recorded for it, so it counts as a word of its own.
     crk: ["ᒋᐢᑌᒫᐤ", "tʃisteːmaːw"],  // From Proto-Algonquian *θeʔθe·ma·wa. No image is recorded for it, so it counts as a word of its own.
     cho: ["hakchuma", "haktʃuma"],  // Inherited from Proto-Muskogean, with cognates such as Koasati hakchommi.

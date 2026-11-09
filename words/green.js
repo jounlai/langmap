@@ -375,7 +375,7 @@ WORDS.green = {
     nap: ["verde", "ˈverdə"],
     naq: ["ǃgam", "ǃɡam"],
     nbl: ["hlaza", "ɬaːza"],   // Nguni luhlaza covers green and blue together; the cell is the same as this row's 'blue', as it is for zu and xh already.
-    nci: ["xoxoctic", "ʃoʃoktik"],
+    nci: ["xoxoctic", "ʃoˈʃoktik"],
     nd: ["luhlaza", "luɬaːza"],
     nds: ["gröön", "ɡrøːn"],
     nij: ["bahijau", "bahidʒau"],
@@ -680,7 +680,7 @@ WORDS.green = {
     pbb: ["çẽy", "tsẽj"],
     esu: ["cungagliq", "tʃuŋaɣɬiq"],
     en_ck: ["green", "ɡɹiːn"],
-    ppl: ["shushuwik", "ʃuʃuwik"],
+    ppl: ["shushuwik", "ʃuˈʃuwik"],
     atj: ["ocawackwaw", "oʃawaʃkwaw"],
     tdh: ["गिगिम", "ɡiɡim"],
     zts: ["nga", "ŋa"],

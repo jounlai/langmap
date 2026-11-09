@@ -1929,8 +1929,8 @@ WORDS.foot = {
     nap: ["pere", "ˈpɛːrə"],  // The translation table spells it pere; Wiktionary's lemma pede carries the IPA.
     naq: ["ǂaidi", "ǂaidi"],  // Khoekhoe splits them. IPA is the plain reading of the orthography, following how this row's own hand cell writes ǃom-mi as ǃomːi.
     nbl: ["inyawo", "iɲawo"],  // Southern Ndebele splits them as the Nguni rows do but keeps the foot word in class 5 — inyawo lakho at Mark 9:45, against the imilenze broken in John 19.
-    nch: ["icxitl", "ikʃitɬ"],  // The Huasteca NT opposes moicxi to mometz and breaks ininmetzomiyo, 'their leg-bones', so icxitl is the foot as in Classical Nahuatl.
-    nci: ["icxitl", "ikʃitɬ"],  // Nahuatl splits them. IPA is the plain reading of the orthography, following how this row's own hand cell writes māitl as maːitɬ.
+    nch: ["icxitl", "ˈikʃitɬ"],  // The Huasteca NT opposes moicxi to mometz and breaks ininmetzomiyo, 'their leg-bones', so icxitl is the foot as in Classical Nahuatl.
+    nci: ["icxitl", "ˈikʃitɬ"],  // Nahuatl splits them. IPA is the plain reading of the orthography, following how this row's own hand cell writes māitl as maːitɬ.
     nd: ["unyawo", "uɲawo"],  // Zimbabwean Ndebele splits them as Zulu does; Elliott's 1897 dictionary already has unyawo against umlenze for the leg.
     ndc: ["tsoka", "tsoka"],  // Ndau splits soka from the murenje it breaks in John 19; the 2023 Cindau translation writes s where Shona writes ts throughout, and Mark 9:45 gives the singular. // was ["soka", "soka"] (r51 audit 2026-10-04)
     nds: ["Foot", "fɔʊ̯t"],  // Foot vs Been.
@@ -1942,8 +1942,8 @@ WORDS.foot = {
     ngl: ["nnani", "nnani"],  // Elomwe splits them: the Lomwe Bible washes manani in John 13 but breaks mecho in John 19, and Matthew 18:8 pairs ntata with nnani.
     ngu: ["icxitl", "ikʃitɬ"],  // The Guerrero NT breaks the legs with the foot word — quimicxipojpostequican at John 19:31 — while its bone at John 19:36 is iomiyo and its only metz- body part is imetzcojyo 'his thigh' at Revelation 19:16, so Guerrero sits with nhx, not with the Huasteca rows.
     nha: ["yina", "jina"],  // Blevins prints both — yina 'foot, feet, track' against wirda 'leg'.
-    nhe: ["icxitl", "ikʃitɬ"],  // As the Central Huasteca row: the NT's ome mometz is 'two legs' and icxi is only the foot.
-    nhw: ["icxitl", "ikʃitɬ"],  // As the Central Huasteca row: icxi for the foot, metz for the leg, and John 19:32 breaks the leg-bones.
+    nhe: ["icxitl", "ˈikʃitɬ"],  // As the Central Huasteca row: the NT's ome mometz is 'two legs' and icxi is only the foot.
+    nhw: ["icxitl", "ˈikʃitɬ"],  // As the Central Huasteca row: icxi for the foot, metz for the leg, and John 19:32 breaks the leg-bones.
     nhx: ["icxi", "ikʃi"],  // Isthmus-Mecayapan breaks iyikximej for the legs at John 19:32 — the same ikxi it washes at 13:5 — so it crosses the line the Huasteca rows keep with metz.
     nia: ["ahe", "ahe"],  // One word answers both: the ACD glosses ahe 'foot' and Wiktionary 'leg', and adulo mbisi is the calf, not a rival.
     nij: ["pai", "pai"],  // Wiktionary glosses Ngaju pai 'foot, leg' in one entry, and buntis is the shank, not a rival.
@@ -2055,7 +2055,7 @@ WORDS.foot = {
     poh: ["ooq", "oːq"],  // PMED gives PCH ERG-oq 'pie' and #a 'pierna'; the Poqomchiʼ NT breaks ri tuuk for the legs and washes wo̱k for the feet.
     pon: ["patehn neh", "pateːn neː"],  // Rehg & Sohl give neh 'leg' and patehn neh 'foot; hoof', and their English finderlist answers foot with the compound alone — the 'flat of the leg' pattern this concept already has in Chuvash and Kazakh.
     pot: ["zet", "zət"],  // The Citizen Potawatomi dictionary that gave this row nibet and shkishek also gives zet 'foot' against kat 'leg'. // was ["zet", "zɛt"] (vi dialect rules 2026-10-06)
-    ppl: ["ikshi", "ikʃi"],  // Campbell's Pipil lexicon gives (i)kxi 'pie, pata' against the separate leg stem mets- 'pierna', free in nu-metsku:yu 'my leg'; metsti is the moon, as this row's own moon cell says.
+    ppl: ["ikshi", "ˈikʃi"],  // Campbell's Pipil lexicon gives (i)kxi 'pie, pata' against the separate leg stem mets- 'pierna', free in nu-metsku:yu 'my leg'; metsti is the moon, as this row's own moon cell says.
     pqm: ["ʼsit", "sit"],  // Passamaquoddy files ʼsit 'h/ foot' and ʼkat 'h/ leg (including foot)' as two dependent nouns, and glosses its own example sentence 'nsit (nkat)'.
     prg: ["nagē", "naɡeː"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes rancko as ranko.
     prk: ["jāong", "tɕa̤uŋ"],  // Watkins' Wa dictionary glosses caong 'foot, leg' in one sense and prints the proverb 'near for the eyes, far for the caong'; plawng: caong is the leg-specific compound on the same head. // was ["caong", "tʃaɔŋ"] (vi dialect rules 2026-10-06)

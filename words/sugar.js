@@ -1153,8 +1153,8 @@ WORDS.sugar = {
     cbk: ["azucar", "aˈsukaɾ"], // was ["azucar", "aˈsukar"] (vi dialect rules 2026-10-06)
     yrl: ["asukirí", "asukiˈɾi"],
     gn: ["asuka", "asuka"],
-    nhe: ["tzopelictli", "tsopeliktɬi"],
-    nch: ["chanchaka", "tʃantʃaka"],
+    nhe: ["tzopelictli", "tsopeˈliktɬi"],
+    nch: ["chanchaka", "tʃanˈtʃaka"],
     dak: ["čaŋhaŋpi", "tʃãhãpi"], // was ["čaŋhaŋpi", "tʃaŋhaŋpi"] (vi dialect rules 2026-10-06)
     lkt: ["čhaŋháŋpi", "tʃʰãhã́pi"],
     ykg: ["саакар", "saːkar"],

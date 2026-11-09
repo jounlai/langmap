@@ -699,7 +699,7 @@ WORDS.book = {
     lol: ["bonkanda", "bonkanda"],
     mev: ["kíí", "kíː"],
     nhw: ["libro", "ˈlibro"],
-    nhe: ["amatl", "amatɬ"],
+    nhe: ["amatl", "ˈamatɬ"],
     guc: ["karaloukta", "karaloukta"],
     cab: ["líburu", "ˈlibuɾu"],
     ctu: ["juñ", "huɲ"],

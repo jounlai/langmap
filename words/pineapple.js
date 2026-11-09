@@ -783,7 +783,7 @@ WORDS.pineapple = {
     tet: ["ananás", "anaˈnas"],  // Borrowed from Portuguese ananás; ai-nanás, with ai 'plant, tree', is also recorded.
     tzo: ["paxakʼ", "paʃakʼ"],  // The Zinacantán Tzotzil name in Laughlin's dictionary; wild relatives are named as kinds of paxakʼ, such as chimpo paxakʼ, the sour wild pinguin.
     mam: ["matztiʼj", "matstiʔχ"],  // The Mam word in the Guatemalan Mayan Languages Academy dictionary, which keeps kuch for a pine cone.
-    nhw: ["matsajtli", "matsahtɬi"],  // The native Nahuatl name, the same word as Classical Nahuatl matzahtli, which Molina glossed in 1555 as the well-known fruit piña.
+    nhw: ["matsajtli", "maˈtsahtɬi"],  // The native Nahuatl name, the same word as Classical Nahuatl matzahtli, which Molina glossed in 1555 as the well-known fruit piña.
     sah: ["ананас", "ananas"],  // Borrowed from Russian ананас, which goes back to Portuguese ananás and Old Tupi naná.
     kum: ["ананас", "ananas"],  // Borrowed from Russian ананас, which goes back to Portuguese ananás and Old Tupi naná.
     nhe: ["matzohtli", "maˈtsohtɬi"],  // Eastern Huasteca Nahuatl matzohtli, cognate with Classical Nahuatl matzatli; Wiktionary also lists matzahtli for this variety.
@@ -860,7 +860,7 @@ WORDS.pineapple = {
     meu: ["painapo", "painapo"],  // Lawes "Pineapple, Painapo. (Introduced.)"
     gil: ["bainabora", "bainabora"],  // Bingham "Bainabora, n. (Eng.) a pineapple"
     nij: ["kanas", "kanas"],  // Hardeland: "KANAS, Ananas"; also example under HILA; both scans
-    nci: ["matzahtli", "matsaʔtɬi"],  // Molina's 1555 vocabulary glosses piña 'pineapple' as matzatli; no origin is recorded.
+    nci: ["matzahtli", "maˈtsaʔtɬi"],  // Molina's 1555 vocabulary glosses piña 'pineapple' as matzatli; no origin is recorded.
     vo: ["nanad", "naˈnad"],  // No origin is recorded; it matches ananas in the languages around it.
     ota: ["آناناس", "anaˈnas"],  // From French ananas, ultimately from Old Tupi naná.
     mag: ["अनारस", "ənaːrəs"],  // Route by resemblance to the neighbouring forms (bn(আনারস) hi(अनानास)); no etymology of its own.

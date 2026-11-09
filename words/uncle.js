@@ -386,7 +386,7 @@ WORDS.uncle = {
     mt: ["għamm", "aːmm"],  // Father's brother; mother's brother is ħal.
     mui: ["waq", "waːʔ"],
     nap: ["vuònculo", "ˈvwoŋkələ"],
-    nci: ["tlahtli", "tɬaʔtɬi"],
+    nci: ["tlahtli", "ˈtɬaʔtɬi"],
     ne: ["काका", "käkä"],  // Father's brother; mother's brother is मामा.
     nl: ["oom", "oːm"],
     nn: ["onkel", "ˈɔŋkəl"],

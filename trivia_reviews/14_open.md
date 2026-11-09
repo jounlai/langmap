@@ -26,3 +26,5 @@ Content fix: paper-the-inventors-word gave Old Chinese 紙 the Japanese reading 
 | ar (pass 1) | 355 | only ~17 articles read in full; the rest pattern-scanned (ببساطة ×80, ~470 dash asides, والنتيجة drumrolls, حجر رشيد). Full read split into three readers follows |
 | uk | 1394 | delayed-subject calques, bookish copulas, Title Case; term spellings unified (кандзі, ханча, манйоґана, хан-в’єт); mixed apostrophes and missing IPA on Ukrainian forms left |
 | he (pass 1) | 162 | c01 and c10 read in full, c02–c09 only openings, closings and flagged sentences; 'סימניות' (bookmarks) used for characters ~30 times; full read follows |
+| ar (c04–c06 full) | 142 | إنه/إنها openers, ببساطة, heading echoes, olderbrother meaning matched to English; hangul/cuckoo/kanbun-yomi drop English content (noted); أيضاً vs أيضًا spelling to unify |
+Mechanical: ASCII , ; : ? ! between Chinese characters (zh, yue) made full-width; trivia_style budget ascii-punct 38 → 0.

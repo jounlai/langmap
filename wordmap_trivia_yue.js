@@ -1047,7 +1047,7 @@ window.TRIVIA_I18N['yue'] = {
   <p>受紐西蘭毛利<em>Kōhanga Reo</em>（「語言巢」）啟發，一群教育者，包括<strong>拉里·基穆拉</strong>、<strong>威廉·H·「皮拉」·威爾遜</strong>同<strong>考阿諾·卡瑪納</strong>，喺1983年創立咗<strong>ʻAha Pūnana Leo</strong>——夏威夷語專用幼稚園，長老只用夏威夷語對幼兒講嘢。1986年，持續90年嘅夏威夷語教學禁令終於被廢除。到1987年，首批<strong>Kula Kaiapuni</strong>夏威夷沉浸式公立學校開放。夏威夷大學希洛分校嘅<strong>Ka Haka ʻUla O Keʻelikōlani</strong>夏威夷語學院，由幼稚園到研究院都提供夏威夷語教學，仲喺2006年開辦咗全世界第一個專門研究原住民語言同文化復興嘅博士學位。</p>
 
   <div class="trivia-actions">
-    <button type="button" class="trivia-action" data-action="panto" data-lat="19.72" data-lng="-155.08" data-zoom="7">🌋 飛去希洛,復興嘅心臟</button>
+    <button type="button" class="trivia-action" data-action="panto" data-lat="19.72" data-lng="-155.08" data-zoom="7">🌋 飛去希洛，復興嘅心臟</button>
   </div>
 
   <p>2016年夏威夷州一份報告統計有<strong>約18,400人</strong>喺屋企講夏威夷語；到2024年，夏威夷原住民事務局將呢個數字定為<strong>27,338人</strong>（根據人口普查局2018至2022年嘅調查數據）——不足十年就升咗接近五成；全美國喺屋企講夏威夷語嘅，大約有32,700人。喺從來冇失落過呢隻語言嘅尼豪島以外，而家再次有小朋友以夏威夷語做第一語言長大。音位庫仍然係13個，但講呢隻語言嘅人數，已經唔再係當年嗰個數。</p>

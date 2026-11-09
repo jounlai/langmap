@@ -19,3 +19,4 @@ Content fix: paper-the-inventors-word gave Old Chinese 紙 the Japanese reading 
 | sw | 639 | ~180 Title Case → sentence case, ~170 em dashes, rest voice; twenty-one-whole-person Kimanx → Kimansi (fact); three headings left in Title Case (not unique without ##) |
 | de | 593 | c01 and Han articles most (dash asides, participle openers, drumroll colons); reader address unified to Sie/man; c09 articles 4–30 only scanned (needs a full read); c01 still has ~570 straight quotes, ~600 em dashes overall — typography script pending |
 | fr | 382 | c01 139, Han script articles ~190 (dashes, Title Case, calques réaliser/possiblement/vs.); 10 empty <sup></sup>, entities in tea article and mixed apostrophes/NBSP left for a script; Haiti population (en says ~12M in country and ~12M total) needs an English check |
+| pt | 134 | c01 ~60, c07 ~28; ~30 articles in European Portuguese among Brazilian ones (variety unification pending); Mohawk '58 células' → '58 prefixos pronominais' |

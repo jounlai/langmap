@@ -34,3 +34,6 @@ Mechanical: ASCII , ; : ? ! between Chinese characters (zh, yue) made full-width
 Stock openers rewritten by hand: vi water (Điều thú vị là), zh window (最有趣的是), ja Zhongyuan Yinyun (注目すべきは); budget ai-opener 3 → 2 (the remaining two are in quoted/compound use).
 | he (c08–c09 full) | 225 | all 18 'סימניות' → 'סימנים' with agreement; dashes; Latin family no longer 'Roman family'; shanghainese and tea articles shorter than English; wu-zetian 'minister' rendered 'subject' (noted) |
 | de (c09 full) | 81 | cleft sentences, drumroll colons, Ehrenwort phra, Feste als Zufälle; titles lower case after colon |
+Register: ja (5 articles です/ます → だ/である, 23 lines) and ko (hakka, mary → 다체; mary's list converted by hand in namemap_trivia.js); trivia_style budget register 7 → 0.
+pt-BR: 36 European-Portuguese articles rewritten as Brazilian (591 lines; registro, fato, Vietnã, Cingapura, Moscou, equipe, celular, próclise, 'em 4 de janeiro'); ~20 stray European forms elsewhere. anthony-tony keeps the cited Portuguese form António.
+| he (c05–c07 full) | 843 | 'סימניות'/'תו' → 'סימן' per article, clichés (race against time, one rule to rule them all), milk lac/γάλα meaning fixed, Sawndip masculine, ״״ quotes, English beach example made Hebrew; kanbun-yomi, kaeriten, tangut and quoc-ngu shorter than English (noted) |

@@ -249,6 +249,12 @@ WORDS.ladybird = {
     lld: "holy",
     li: "holy",
     la: "other",
+    vot: "holy",
+    cic: "other",
+    krl: "holy",
+    nn: "holy",
+    tly: "other",
+    koi: "other",
   },
   routes: {
     holy: {"color":"#7c3aed","emoji":"😇","en":"Mary · God · a saint","ja":"聖母・神・聖人","ko":"성모 · 하느님 · 성인","zh":"圣母・上帝・圣人","yue":"聖母 · 上帝 · 聖人","vi":"Đức Mẹ · Chúa · thánh","th":"พระแม่ · พระเจ้า · นักบุญ","id":"Bunda Maria · Tuhan · santo","hi":"मरियम · ईश्वर · संत","de":"Maria · Gott · Heilige","fr":"Marie · Dieu · un saint","it":"Maria · Dio · un santo","es":"María · Dios · un santo","pt":"Maria · Deus · um santo","ru":"Богородица · Бог · святой","uk":"Богородиця · Бог · святий","ar":"مريم · الله · قديس","he":"מרים · האל · קדוש","sw":"Maria · Mungu · mtakatifu"},
@@ -441,5 +447,11 @@ WORDS.ladybird = {
     lld: ["chëifer dla Madona", "ˈkəifer dla maˈdona"],  // 'Beetle of the Madonna' (chëifer 'beetle', borrowed from German).
     li: ["slivvenhierebieske", "slɪvəˈniːrəbiskə"],  // 'Our God's little animal': Slivvenhier 'Our God' plus bieske 'little animal, little cow', like Dutch lieveheersbeestje.
     la: ["coccinella", "kokkiˈnella"],  // Coined by Linnaeus in 1758 from coccinus 'scarlet' and a diminutive ending.
+    vot: ["jumalõlintu", "ˈjumalɤlintu"],  // Jumalõ 'god' + lintu 'bird'.
+    cic: ["loksiʼ", "loksiʔ"],  // The same word means tortoise or turtle.
+    krl: ["spuassunlehmä", "ˈspuɑ̯sːunlehmæ"],  // Spuassu 'the Saviour, Christ' + lehmä 'cow': the Saviour's cow.
+    nn: ["marihøne", "ˈmɑːriˌhøːnə"],  // Mari 'Mary, the mother of Jesus' + høne 'hen'.
+    tly: ["donəjən", "donəʒən"],  // Probably donə 'single grain or berry' plus jən, a stem of je.
+    koi: ["енӧшка", "jenɘʃka"],  // Possibly ен 'God' plus ӧшка; compare Russian божья коровка 'God's little cow'. The source gives its origin only as possible, so it is not counted as holy.
   },
 };

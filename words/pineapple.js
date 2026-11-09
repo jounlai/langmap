@@ -458,6 +458,9 @@ WORDS.pineapple = {
     nci: "unknown",
     vo: "nanas",
     ota: "nanas",
+    mag: "nanas",
+    lkt: "other",
+    chb: "unknown",
   },
   routes: {
     nanas: {"color":"#ea580c","emoji":"🌎","en":"from Tupi naná","ja":"トゥピ語 naná から","ko":"투피어 naná에서","zh":"源自图皮语 naná","yue":"源自圖皮語 naná","vi":"từ tiếng Tupi naná","th":"จากภาษาตูปี naná","id":"dari bahasa Tupi naná","hi":"तूपी naná से","de":"aus Tupi naná","fr":"du tupi naná","it":"dal tupi naná","es":"del tupí naná","pt":"do tupi naná","ru":"из тупи naná","uk":"з тупі naná","ar":"من التوبية naná","he":"מטופי naná","sw":"kutoka Kitupi naná"},
@@ -860,5 +863,8 @@ WORDS.pineapple = {
     nci: ["matzahtli", "matsaʔtɬi"],  // Molina's 1555 vocabulary glosses piña 'pineapple' as matzatli; no origin is recorded.
     vo: ["nanad", "naˈnad"],  // No origin is recorded; it matches ananas in the languages around it.
     ota: ["آناناس", "anaˈnas"],  // From French ananas, ultimately from Old Tupi naná.
+    mag: ["अनारस", "ənaːrəs"],  // Route by resemblance to the neighbouring forms (bn(আনারস) hi(अनानास)); no etymology of its own.
+    lkt: ["makȟátȟaspaŋ", "makˣátˣaspã"],  // The 'earth apple' or 'ground apple': makȟá 'earth' plus tȟaspáŋ 'apple'.
+    chb: ["begyra", "beɡɨɾa"],  // Origin not stated in the source.
   },
 };

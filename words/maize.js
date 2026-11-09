@@ -407,6 +407,25 @@ WORDS.maize = {
     pdc: "grain",
     one: "plain",
     dak: "plain",
+    uby: "plain",
+    wal: "plain",
+    egl: "grain",
+    emk: "plain",
+    mtq: "plain",
+    trv: "plain",
+    abe: "plain",
+    bin: "plain",
+    rif: "grain",
+    tig: "plain",
+    ono: "plain",
+    ii: "plain",
+    cay: "plain",
+    dtp: "plain",
+    aii: "makka",
+    mez: "plain",
+    cro: "plain",
+    ty: "unknown",
+    rue: "place",
   },
   routes: {
     mahiz: {"color":"#eab308","emoji":"🌽","en":"from Taíno mahiz (maíz, Mais, maïs)","ja":"タイノ語 mahiz から（maíz, Mais, maïs）","ko":"타이노어 mahiz에서 (maíz, Mais, maïs)","zh":"源自泰诺语 mahiz（maíz, Mais, maïs）","yue":"源自泰諾語 mahiz（maíz, Mais, maïs）","vi":"từ tiếng Taíno mahiz (maíz, Mais, maïs)","th":"จากภาษาไตโน mahiz (maíz, Mais, maïs)","id":"dari bahasa Taíno mahiz (maíz, Mais, maïs)","hi":"ताइनो mahiz से (maíz, Mais, maïs)","de":"aus Taíno mahiz (maíz, Mais, maïs)","fr":"du taïno mahiz (maíz, Mais, maïs)","it":"dal taíno mahiz (maíz, Mais, maïs)","es":"del taíno mahiz (maíz, Mais, maïs)","pt":"do taíno mahiz (maíz, Mais, maïs)","ru":"из таино mahiz (maíz, Mais, maïs)","uk":"з таїно mahiz (maíz, Mais, maïs)","ar":"من mahiz في لغة التاينو (maíz, Mais, maïs)","he":"מ-mahiz בטאינו (maíz, Mais, maïs)","sw":"kutoka Kitaino mahiz (maíz, Mais, maïs)"},
@@ -752,5 +771,24 @@ WORDS.maize = {
     pdc: ["Welschkann", "ˈvɛlʃkan"],  // Literally 'foreign grain': welsch 'foreign' plus Kann, the word for rye.
     one: ["o:nʌ́steʼ", "oːnʌ̃́steʔ"],  // Inherited from Proto-North Iroquoian *-nẽhst-, like Mohawk ó꞉nenhste.
     dak: ["wagmíza", "waɡmíza"],  // No image is recorded for it, so it counts as a word of its own.
+    uby: ["naːtʰəf", "naːtʰəf"],  // No image is recorded for it, so it counts as a word of its own.
+    wal: ["badalaa", "badalaː"],  // No image is recorded for it, so it counts as a word of its own.
+    egl: ["furmintån", "furmiŋˈtʌŋ"],  // From furmänt 'wheat'.
+    emk: ["kaba", "kaba"],  // The same form also means sky; no image is recorded for the maize word.
+    mtq: ["khãu", "kʰaw"],  // No image is recorded for it, so it counts as a word of its own.
+    trv: ["srqemu", "sɾqəmu"],  // No image is recorded for it, so it counts as a word of its own.
+    abe: ["skamon", "skamon"],  // No image is recorded for it, so it counts as a word of its own.
+    bin: ["ọka", "ɔ́kà"],  // Cognate with Yoruba and Igbo ọkà and Urhobo ọ́ka; no image is recorded for it.
+    rif: ["ⴷⴷⵔⴰ", "dˤːɾˤɑ"],  // Borrowed from Moroccan Arabic درة dra, from Arabic ذُرَة ḏura, first the name of sorghum.
+    tig: ["ዕፉን", "ʕɨfun"],  // No image is recorded for it, so it counts as a word of its own; Tigrinya has the same word.
+    ono: ["onę́haʼ", "onɛ̃́haʔ"],  // No image is recorded for it, so it counts as a word of its own.
+    ii: ["ꀀꃆ", "i˥ mu˨˩"],  // No image is recorded for it, so it counts as a word of its own.
+    cay: ["onę́hę:ʼ", "onɛ̃́hɛ̃ːʔ"],  // No image is recorded for it, so it counts as a word of its own.
+    dtp: ["luong", "luoŋ"],  // No image is recorded for it, so it counts as a word of its own.
+    aii: ["ܡܟܐ", "makkeː"],  // Ultimately from Hindi मक्का makkā.
+    mez: ["wāpemen", "waːpemen"],  // No image is recorded for it, so it counts as a word of its own.
+    cro: ["xoóxaashe", "χoóχaːʃe"],  // No image is recorded for it, so it counts as a word of its own.
+    ty: ["tō papaʻā", "toː papaʔaː"],  // The source gives no etymology.
+    rue: ["тенґериця", "tenɡeˈrɪtsʲa"],  // From Hungarian tengeri 'corn', literally 'from the sea'.
   },
 };

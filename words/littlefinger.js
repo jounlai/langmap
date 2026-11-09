@@ -506,6 +506,7 @@ WORDS.littlefinger = {
     arn: "small",
     mdh: "plain",
     rif: "plain",
+    yi: "small",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -957,5 +958,6 @@ WORDS.littlefinger = {
     arn: ["püchü changüll kuwü", "pɨtʃɨ tʃaŋɨʎ kuwɨ"],  // Augusta, page image p.111: "meñique pəchü chaŋəll"; ə = row ü; also entry meñique with (kuq); kuwü as in the row thumb
     mdh: ["kingking", "kiŋkiŋ"],  // Maguindanao kingking 'little finger' (SEAlang). No image is recorded for it, so it counts as a word of its own.
     rif: ["ⵜⵉⵔⴻⵟⵟⴻⵟⵟ", "θɪɾˤɐtˤtˤɐtˤː"],  // Inherited from Proto-Berber, a cognate of Tashelhit tilileḍt.
+    yi: ["מינדסטער פֿינגער", "ˈmɪndstər ˈfɪŋɡər"],  // Literally 'smallest finger'.
   },
 };

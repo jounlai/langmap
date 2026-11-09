@@ -456,6 +456,35 @@ WORDS.money = {
     blc: "unknown",
     kky: "other",
     tzo: "silver",
+    szl: "coin",
+    ks: "coin",
+    moh: "other",
+    urh: "plain",
+    ve: "pay",
+    myp: "other",
+    hsb: "coin",
+    rif: "coin",
+    sd: "coin",
+    xkz: "plain",
+    txg: "plain",
+    ilo: "coin",
+    tru: "plain",
+    osc: "plain",
+    rgn: "coin",
+    ttj: "other",
+    ii: "plain",
+    guc: "plain",
+    cho: "coin",
+    shi: "coin",
+    akk: "silver",
+    mch: "silver",
+    cay: "plain",
+    dng: "coin",
+    mez: "silver",
+    tiw: "coin",
+    kpy: "plain",
+    rki: "coin",
+    iru: "coin",
   },
   routes: {
     silver: {"color":"#64748b","emoji":"🥈","en":"a word for silver or gold (argent, כסף, เงิน)","ja":"銀や金を指す語（argent, כסף, เงิน）","ko":"은이나 금을 뜻하는 말 (argent, כסף, เงิน)","zh":"指银或金的词（argent, כסף, เงิน）","yue":"指銀或者金嘅詞（argent, כסף, เงิน）","vi":"từ chỉ bạc hoặc vàng (argent, כסף, เงิน)","th":"คำที่หมายถึงเงินหรือทอง (argent, כסף, เงิน)","id":"kata untuk perak atau emas (argent, כסף, เงิน)","hi":"चाँदी या सोने का शब्द (argent, כסף, เงิน)","de":"ein Wort für Silber oder Gold (argent, כסף, เงิน)","fr":"un mot pour l'argent métal ou l'or (argent, כסף, เงิน)","it":"una parola per l'argento o l'oro (argent, כסף, เงิน)","es":"una palabra para la plata o el oro (argent, כסף, เงิน)","pt":"uma palavra para a prata ou o ouro (argent, כסף, เงิน)","ru":"слово для серебра или золота (argent, כסף, เงิน)","uk":"слово для срібла чи золота (argent, כסף, เงิน)","ar":"كلمة للفضة أو الذهب (argent, כסף, เงิน)","he":"מילה לכסף המתכת או לזהב (argent, כסף, เงิน)","sw":"neno la fedha au dhahabu (argent, כסף, เงิน)"},
@@ -852,5 +881,34 @@ WORDS.money = {
     blc: ["taala", "taːla"],  // Borrowed from Chinook Jargon dala.
     kky: ["nambal", "nambal"],  // The same word means stone.
     tzo: ["takʼin", "takʼin"],  // The same word means metal and bell.
+    szl: ["piniōndze", "piˈɲondzɛ"],  // Plural of piniōndz 'currency', the Slavic coin word borrowed from Germanic, like Polish pieniądze.
+    ks: ["پونٛسٕہ", "põːsɨh"],  // It also means one paisa, the coin.
+    moh: ["ohwístaʼ", "ohwístaʔ"],  // The same word means metal.
+    urh: ["igho", "iɣo"],  // Cognate with Edo ígho and Isoko ugho 'money'; no image is recorded for it.
+    ve: ["tshelede", "tʃʰelede"],  // From Afrikaans geld, the same word as German Geld.
+    myp: ["kapiigá", "kapiiɡá"],  // The same word means paper; it also names a banknote.
+    hsb: ["pjenjezy", "ˈpʲɛjɲɛzɨ"],  // Plural of pjenjez 'coin', the Slavic coin word borrowed from Germanic.
+    rif: ["ⵔⴻⴼⵔⵓⵙ", "rəfrʊs"],  // Borrowed from Moroccan Arabic فلوس flūs, the plural of a small coin.
+    sd: ["پيسو", "pɛːsoː"],  // Borrowed from Urdu پیسہ paisa, the name of a small coin; it also means 'paisa'.
+    xkz: ["tiru", "tiru"],  // Related to Dzongkha ཏི་རུ ti ru. No image is recorded for it, so it counts as a word of its own.
+    txg: ["𘔭", "dzjɨj˧"],  // No image is recorded for it, so it counts as a word of its own.
+    ilo: ["kuarta", "ˈkwaɾta"],  // Borrowed from Spanish cuarta; Cebuano and Waray have the same word.
+    tru: ["ܟܠܠܐ", "kalla"],  // No image is recorded for it, so it counts as a word of its own.
+    osc: ["eitiuvam", "eitiuwam"],  // Attested in the accusative; it also means 'a fine'. Its origin is uncertain (de Vaan suggests 'that which goes', livestock, then money), so it counts as a word of its own.
+    rgn: ["dinêṟ", "diˈneːr"],  // The same word as Italian denaro, from the Roman dēnārius.
+    ttj: ["ensimbi", "ensíːmbi"],  // First the cowrie shell, once used as money; from Proto-Bantu *ncímbɪ́ 'iron; cowry'.
+    ii: ["ꎆꃀ", "dʐɯ˧˧ mo˨˩"],  // No image is recorded for it, so it counts as a word of its own.
+    guc: ["neerü", "neːrɨ"],  // No image is recorded for it, so it counts as a word of its own.
+    cho: ["iskʋli", "iskəli"],  // Borrowed from French escalin, an old coin.
+    shi: ["ⴰⵇⴰⵔⵉⴹ", "aqaridˤ"],  // Borrowed from Arabic قيراط 'carat', an old coin; its first sense is 'copper coin'.
+    akk: ["𒆬𒌓", "kaspu"],  // The word for silver, also money; written with the logogram KUG.BABBAR.
+    mch: ["jüdata", "hʷɨɾ̠aːta"],  // Borrowed from Spanish plata 'silver, money'.
+    cay: ["ohwíhsdaʼ", "ohwíhsdaʔ"],  // Compare Mohawk ohwístaʼ; no image is recorded for it.
+    dng: ["чян", "tɕʰiæ̃˨˦"],  // Cognate with Chinese 錢 qián.
+    mez: ["sūniyan", "suːnijan"],  // From Proto-Algonquian *šoᐧliyaᐧw 'money, silver'; it still means both.
+    tiw: ["wurrupiya", "wuɾupija"],  // From Makasar rupia, ultimately the rupee, a silver coin.
+    kpy: ["пылвынто", "pəlvənto"],  // No image is recorded for it, so it counts as a word of its own.
+    rki: ["ဖေ့သာ", "pʰḭθà"],  // Likely borrowed from Hindi पैसा paisā.
+    iru: ["paṇa", "paɳa"],  // Borrowed from Sanskrit पण paṇa, like Tamil பணம்.
   },
 };

@@ -380,6 +380,18 @@ WORDS.dragonfly = {
     agt: "plain",
     mnc: "other",
     dak: "plain",
+    cic: "other",
+    krl: "creature",
+    mtq: "other",
+    kw: "creature",
+    ti: "unknown",
+    lkt: "plain",
+    sah: "other",
+    prk: "plain",
+    ykg: "plain",
+    blc: "plain",
+    nci: "other",
+    tkl: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -705,5 +717,17 @@ WORDS.dragonfly = {
     agt: ["fofoy", "fofoj"],  // No image is recorded for it, so it counts as a word of its own.
     mnc: ["ᡠᠯᠮᡝ ᡥᡡᠯᡥᠠᡨᡠ", "ulmə xulxatu"],  // Literally 'needle robber', from ulme 'needle' and hūlhatu 'habitual robber'.
     dak: ["susbéčha", "susbétʃʰa"],  // No image is recorded for it, so it counts as a word of its own.
+    cic: ["okaʼ paknaʼ tannowaʼ", "okaʔ paknaʔ tanːowaʔ"],  // Okaʼ 'water' + paknaʼ 'on top of' + tannowa 'to pass': the one that passes over the water.
+    krl: ["hukankorenda", "ˈhukɑŋkorendɑ"],  // Hukan 'of a wolf' + korenda 'cowlstaff', like Finnish sudenkorento.
+    mtq: ["còng cun", "kɔŋ kun"],  // Còng 'dragonfly, damselfly' + cun 'Muong lord'.
+    kw: ["nader margh", "ˈnaːdɛr marx"],  // Literally 'adder horse'; compare archaic English adder fly.
+    ti: ["ፈረሰኛ", "fɐrɐsɐɲa"],  // The source gives no analysis of the word.
+    lkt: ["thuswéčha", "tʰuswétʃʰa"],  // No image is recorded for it, so it counts as a word of its own.
+    sah: ["тоҥолоччу", "toŋolotʃːu"],  // From тоҥ toŋ plus the agent suffix -аачы; compare Turkish donmak 'to freeze'.
+    prk: ["ag yóng", "ʔakʑɔ̤ŋ"],  // The same word names a black water bird. No image is recorded for it, so it counts as a word of its own.
+    ykg: ["кичиэн волмэ", "kitʃeːn wolme"],  // No image is recorded for it, so it counts as a word of its own.
+    blc: ["xiku", "χikʷu"],  // No image is recorded for it, so it counts as a word of its own.
+    nci: ["āpipiyōllōtl", "aːpipijoːlːoːtɬ"],  // Built from ātl 'water' and pipiyōlin 'bee'.
+    tkl: ["hēhēmū", "heːheːmuː"],  // From Proto-Polynesian *mu, which names insects in Hawaiian mū.
   },
 };

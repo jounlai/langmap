@@ -779,6 +779,11 @@ WORDS.olderbrother = {
     kjj: "plain",
     rcf: "age",
     mch: "age",
+    uby: "age",
+    krl: "age",
+    car: "age",
+    rif: "age",
+    blk: "age",
   },
   routes: {
     age: {"color":"#db2777","emoji":"👆","en":"a word just for an older brother","ja":"兄だけを指す語","ko":"형만 가리키는 낱말","zh":"专指哥哥的词","yue":"專指哥哥嘅詞","vi":"từ riêng cho anh","th":"คำเฉพาะสำหรับพี่ชาย","id":"kata khusus untuk kakak","hi":"बड़े भाई का अलग शब्द","de":"eigenes Wort für den älteren Bruder","fr":"un mot propre au frère aîné","it":"una parola solo per il fratello maggiore","es":"una palabra solo para el hermano mayor","pt":"uma palavra só para o irmão mais velho","ru":"отдельное слово для старшего брата","uk":"окреме слово для старшого брата","ar":"كلمة خاصة بالأخ الأكبر","he":"מילה מיוחדת לאח הגדול","sw":"neno maalum kwa kaka mkubwa"},
@@ -1499,5 +1504,10 @@ WORDS.olderbrother = {
     kjj: ["къадаш", "qadaʃ"],  // IDS Khinalug, the row's list. Beside чхи цсы. Palochka and IPA from the row's pairs.
     rcf: ["anin", "anin"],  // Borrowed from Tamil aṇṇaṉ 'older brother'.
     mch: ["dui", "duj"],  // A man's word for his older brother; a woman says ji.
+    uby: ["dʒəɬaɡʲədza", "dʒəɬaɡʲədza"],  // A dedicated word for an elder brother.
+    krl: ["lʹolʹlʹo", "ˈlʲolʲːo"],  // A dedicated word for an elder brother, ultimately from baby talk.
+    car: ["yryi", "ɨːɺ̢ɨj"],  // A dedicated word for a man's older brother (Eastern, Suriname); it also means a man's older male parallel cousin.
+    rif: ["ⵄⵣⵉⵣⵉ", "ʕzɪzɪ"],  // Borrowed from Moroccan Arabic ʕzīzi, from Arabic عزيزي 'my dear'; it also means 'paternal uncle'.
+    blk: ["ဝေးခို", "we˥˧ kʰo̤˧˩"],  // ဝေး 'older sibling' plus ခို 'male'.
   },
 };

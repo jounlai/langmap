@@ -370,6 +370,7 @@ WORDS.milkyway = {
     dz: "other",
     pjt: "other",
     dak: "road",
+    swi: "river",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -683,5 +684,6 @@ WORDS.milkyway = {
     dz: ["རྒིལ་འག་སྨེ་ཡེར", "kil˩ kɑ˩ me˥ jer˩"],  // Its origin is uncertain; Wiktionary compares Chinese 銀河 'silver river'.
     pjt: ["tjukalpa", "ˈcukalpa"],  // Built on tjukal with -pa; the same word means a makeshift ladder.
     dak: ["wanáǧithačhaŋku", "wanáɣitʰatʃʰãku"],  // Literally 'ghost road'.
+    swi: ["ʔnja:ŋ1 ʔbən1", "ʔnjaːŋ˩˧ ʔbən˩˧"],  // The 'channel of the sky': qnyaangl 'ditch, channel' plus qbenl 'sky'.
   },
 };

@@ -394,6 +394,28 @@ WORDS.saturday = {
     pam: "sabbath",
     dv: "saturn",
     tum: "other",
+    uby: "unknown",
+    wal: "plain",
+    vot: "wash",
+    mni: "plain",
+    yo: "other",
+    gmh: "sabbath",
+    hif: "saturn",
+    rif: "sabbath",
+    ff: "sabbath",
+    blk: "saturn",
+    pot: "other",
+    jam: "saturn",
+    mnw: "saturn",
+    abq: "plain",
+    ch: "sabbath",
+    za: "count",
+    shi: "sabbath",
+    yrl: "sabbath",
+    stq: "eve",
+    gor: "sabbath",
+    pwo: "unknown",
+    obr: "saturn",
   },
   routes: {
     saturn: {"color":"#7c3aed","emoji":"🪐","en":"Saturn's day","ja":"土星の日","ko":"토성의 날","zh":"土星之日","yue":"土星嘅日","vi":"ngày sao Thổ","th":"วันของดาวเสาร์","id":"hari Saturnus","hi":"शनि का दिन","de":"Saturns Tag","fr":"le jour de Saturne","it":"il giorno di Saturno","es":"el día de Saturno","pt":"o dia de Saturno","ru":"день Сатурна","uk":"день Сатурна","ar":"يوم زحل","he":"יום שבתאי","sw":"siku ya Zohali"},
@@ -730,5 +752,27 @@ WORDS.saturday = {
     pam: ["Sabadu", "ˈsabədu"],  // Borrowed from Spanish sábado, the Sabbath.
     dv: ["ހޮނިހިރު", "honihiɾu"],  // From Sanskrit śanivāra, 'Saturn's day'.
     tum: ["Cisulo", "tʃisulo"],  // From -sula 'rest': in colonial times workers were let off early on that day.
+    uby: ["ɕaba", "ɕaba"],  // The source gives no origin for the name.
+    wal: ["Qeeraa", "kʼeːraː"],  // No image is recorded for it, so it counts as a word of its own.
+    vot: ["laukopäive", "ˈlaukopæivæ"],  // Lauko- + päive 'day', a partial calque of Old Norse laugardagr 'washing day'; compare Estonian laupäev.
+    mni: ["ꯊꯥꯡꯖ", "tʰaŋdʒə"],  // Inherited from Old Manipuri thāngca; no image is recorded for it, so it counts as a word of its own.
+    yo: ["ọjọ́ Àbámẹ́ta", "ɔdʒɔ́ àbámɛ́ta"],  // Ọjọ́ 'day' + àbá 'idea, suggestion' + mẹ́ta 'three', literally 'day of three resolutions'.
+    gmh: ["sameztac", "ˈsaməstak"],  // From Old High German sambaȥtag, through Gothic from a Greek form of 'Sabbath'.
+    hif: ["sanichar", "sənitʃər"],  // Inherited from Awadhi sanīcar, from Prakrit saṇiccara. Route by resemblance to the neighbouring forms (hi(शनिवार)); no gloss of the Prakrit word in the source.
+    rif: ["ⵙⵙⴻⴼⵜ", "sːəft"],  // Borrowed from Moroccan Arabic السبت es-sabt, the sabbath.
+    ff: ["asewe", "asewe"],  // The Pular word for Saturday, from Arabic السبت as-sabt.
+    blk: ["စနေႏ", "cə ne˥˥"],  // Borrowed from Burmese စနေ ca.ne, from Sanskrit शनि śani 'Saturn'.
+    pot: ["odanké gizhêk", "odaŋɡɛ ɡiʃʊk"],  // The day for going to town: odanké 'to go to town' plus gizhêk 'day'.
+    jam: ["Satde", "satde"],  // From English Saturday.
+    mnw: ["သ္ၚိသဝ်", "hɔeʔ sɔ"],  // The day of Saturn: the same word names the planet.
+    abq: ["сабша", "sabʃa"],  // From Proto-Abkhaz-Abaza *śábəša; Abkhaz асабша is the same. No opened source supports a route.
+    ch: ["Såbalu", "ˈsɑbalu"],  // Borrowed from Spanish sábado, the sabbath.
+    za: ["singhgizroek", "θiŋ˧ ki˧˩ ɣok˥"],  // A calque of Chinese 星期六: singhgiz 'week' plus roek 'six'.
+    shi: ["ⵙⵙⴱⵜ", "sːbt"],  // Borrowed from Moroccan Arabic السبت 'the Sabbath'.
+    yrl: ["saurú", "sauˈɾu"],  // From Portuguese sábado, ultimately from Hebrew šabbāṯ 'Sabbath'.
+    stq: ["Snäivende", "ˈsnɛɪ̯vəndə"],  // From Old Frisian sunna-evend 'Sunday eve', like German Sonnabend.
+    gor: ["Sahutu", "sahutu"],  // Borrowed from Malay Sabtu, from Arabic as-sabt 'the Sabbath'.
+    pwo: ["ၥံၭၥီၫ", "θeiʔ θauɴ"],  // Borrowed from Mon သ္ၚိသဝ်.
+    obr: ["စနိယ်", "tsanij"],  // A learned loan of Sanskrit शनि 'Saturn'.
   },
 };

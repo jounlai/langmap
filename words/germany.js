@@ -504,6 +504,10 @@ WORDS.germany = {
     gag: "germania",
     nch: "alemanni",
     nhw: "alemanni",
+    wal: "germania",
+    frp: "alemanni",
+    rom: "alemanni",
+    lzz: "alemanni",
   },
   routes: {
     deutsch: {"color":"#0891b2","emoji":"🗣️","en":"the Germans' own word","ja":"ドイツ人の自称","ko":"독일인의 자칭","zh":"德国人的自称","yue":"德國人嘅自稱","vi":"tên tự gọi của người Đức","th":"ชื่อที่ชาวเยอรมันเรียกตัวเอง","id":"sebutan orang Jerman sendiri","hi":"जर्मनों का अपना शब्द","de":"die Selbstbezeichnung","fr":"le nom que se donnent les Allemands","it":"il nome che si danno i tedeschi","es":"el nombre que se dan los alemanes","pt":"o nome que os alemães se dão","ru":"самоназвание немцев","uk":"самоназва німців","ar":"اسم الألمان لأنفسهم","he":"השם שהגרמנים קוראים לעצמם","sw":"jina la Wajerumani wenyewe"},
@@ -948,5 +952,9 @@ WORDS.germany = {
     gag: ["Germaniya", "ɡerˈmanija"],  // Borrowed from Russian Германия, from Latin Germānia.
     nch: ["Alemania", "aleˈmania"],  // Borrowed from Spanish Alemania.
     nhw: ["Alemania", "aleˈmania"],  // Borrowed from Spanish Alemania.
+    wal: ["Jermane", "dʒermane"],  // Route by resemblance to the neighbouring forms (am(ጀርመን)); no etymology of its own.
+    frp: ["Alemagne", "aləˈmaɲə"],  // Named after the Alamanni.
+    rom: ["Alemánya", "aleˈmanja"],  // Borrowed from Spanish Alemania or French Allemagne, the name of the Alamanni.
+    lzz: ["ალამანჲა", "alamanja"],  // Ultimately from Latin Alamannia, the land of the Alamanni.
   },
 };

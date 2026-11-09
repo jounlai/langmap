@@ -274,6 +274,10 @@ WORDS.jellyfish = {
     mh: "plain",
     mnc: "plain",
     nrf: "other",
+    squ: "other",
+    bal: "other",
+    pqm: "plain",
+    blc: "plain",
   },
   routes: {
     medusa: {"color":"#7c3aed","emoji":"🐍","en":"named after Medusa","ja":"メドゥーサにちなむ","ko":"메두사에서","zh":"源自美杜莎","yue":"源自美杜莎","vi":"theo tên Medusa","th":"ตั้งตามเมดูซา","id":"dari nama Medusa","hi":"मेडूसा के नाम पर","de":"nach Medusa","fr":"d'après Méduse","it":"da Medusa","es":"por Medusa","pt":"por Medusa","ru":"по имени Медузы","uk":"за ім'ям Медузи","ar":"على اسم ميدوسا","he":"על שם מדוזה","sw":"kwa jina la Medusa"},
@@ -492,5 +496,9 @@ WORDS.jellyfish = {
     mh: ["jan̄ij", "tʲæŋitʲ"],  // No image is recorded for it, so it counts as a word of its own.
     mnc: ["ᠰᠠᠩᡤᡠᠵᡳ", "saŋɡudʒi"],  // No image is recorded for it, so it counts as a word of its own.
     nrf: ["leune", "løn"],  // The same word as leune, 'moon'.
+    squ: ["kwá7kwelh", "kʷaʔkʷəɬ"],  // A reduplication of kwelh 'to be split', for the jellyfish's ability to be split apart and stay alive.
+    bal: ["آپو", "aːpoː"],  // From آپ áp 'water' plus -o.
+    pqm: ["sahsap", "sahsap"],  // Cognate with Mi'kmaq sasap; no image is recorded for it.
+    blc: ["stlkwʼa", "stlkʷʼa"],  // No image is recorded for it, so it counts as a word of its own.
   },
 };

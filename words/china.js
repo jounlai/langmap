@@ -528,6 +528,11 @@ WORDS.china = {
     tk: "khitan",
     se: "cina",
     slr: "cina",
+    wal: "cina",
+    egl: "cina",
+    tru: "cina",
+    pdt: "cina",
+    hni: "zhongguo",
   },
   family2: {
     bo: "zhongguo",
@@ -1002,5 +1007,10 @@ WORDS.china = {
     tk: ["Hytaý", "hɯtaj"],  // From the Khitan people, probably through Uyghur xitay; related to Russian Kitaj and English Cathay.
     se: ["Kiinná", "ˈkiːnːa"],  // No origin is given; it matches Finnish Kiina, ultimately from Sanskrit Cīna.
     slr: ["Çin", "tɕin"],  // From Persian چین čin, ultimately from Sanskrit चीन cīna.
+    wal: ["Chaynaa", "tʃajnaː"],  // Route by resemblance to the neighbouring forms (am(ቻይና) om(Chaayinaa)); no etymology of its own.
+    egl: ["Zéṅna", "ˈθeŋna"],  // Cognate with Italian Cina.
+    tru: ["ܨܝܢ", "sˤin"],  // Borrowed from Classical Syriac ܨܝܢ.
+    pdt: ["Kjiena", "ˈkʲiːna"],  // Borrowed from German China.
+    hni: ["Zaolgoq", "tsɔ˥˥ko˧˩"],  // Borrowed from Chinese 中國 Zhōngguó.
   },
 };

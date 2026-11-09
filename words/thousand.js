@@ -419,6 +419,32 @@ WORDS.thousand = {
     ude: "plain",
     ii: "plain",
     bft: "plain",
+    wal: "plain",
+    vot: "strong",
+    ket: "tenhund",
+    egl: "mille",
+    mag: "hazar",
+    szl: "strong",
+    yo: "other",
+    dv: "sahasra",
+    nog: "plain",
+    rif: "alf",
+    xkz: "plain",
+    blk: "plain",
+    ain: "plain",
+    jam: "strong",
+    abq: "plain",
+    ttj: "other",
+    lic: "plain",
+    csb: "strong",
+    frr_amr: "strong",
+    lzz: "chilia",
+    pqm: "plain",
+    xng: "plain",
+    bbl: "tenhund",
+    akk: "plain",
+    acn: "qian",
+    glk: "hazar",
   },
   routes: {
     strong: {"color":"#2563eb","emoji":"🔢","en":"the Germanic and Slavic thousand","ja":"ゲルマン語とスラヴ語の「千」","ko":"게르만어와 슬라브어의 ‘천’","zh":"日耳曼语和斯拉夫语的“千”","yue":"日耳曼語同斯拉夫語嘅「千」","vi":"“nghìn” của các tiếng German và Slav","th":"คำว่า “พัน” ของภาษาเจอร์แมนิกและสลาฟ","id":"kata “ribu” rumpun Jermanik dan Slavia","hi":"जर्मनिक और स्लाव भाषाओं का ‘हज़ार’","de":"das germanische und slawische Tausend","fr":"le « mille » germanique et slave","it":"il “mille” germanico e slavo","es":"el «mil» germánico y eslavo","pt":"o «mil» germânico e eslavo","ru":"«тысяча» германских и славянских языков","uk":"«тисяча» германських і слов’янських мов","ar":"«الألف» في الجرمانية والسلافية","he":"„אלף” הגרמאני והסלאבי","sw":"“elfu” ya lugha za Kijerumani na Kislavu"},
@@ -779,5 +805,31 @@ WORDS.thousand = {
     ude: ["миӈга", "miŋɡa"],  // No image is recorded for it, so it counts as a word of its own.
     ii: ["ꄙ", "tu̠˧˧"],  // From Proto-Sino-Tibetan s-toŋ 'thousand'; no image is recorded for it.
     bft: ["སྟོང", "stoŋ"],  // From Proto-Sino-Tibetan s-toŋ 'thousand', like Tibetan སྟོང.
+    wal: ["shaʼa", "ʃaʔa"],  // No image is recorded for it, so it counts as a word of its own.
+    vot: ["tuhattõ", "ˈtuhatːɤ"],  // From Proto-Finnic *tuhatta; compare Ingrian tuhatta.
+    ket: ["ӄога киʼ", "qɔka kiʔ"],  // Ten times a hundred: qō 'ten' + hā 'times' + kiˀ 'hundred'.
+    egl: ["méll", "mel"],  // From Latin mille.
+    mag: ["हजार", "hədʒaːr"],  // From Classical Persian hazār.
+    szl: ["tysiōnc", "ˈtɪɕonts"],  // Inherited from Old Polish tysiąc, the Slavic thousand.
+    yo: ["ẹgbẹ̀rún", "ɛɡbɛ̀ɾṹ"],  // From igba 'two hundred' + ẹ̀rún 'five': five two-hundreds.
+    dv: ["ހާސް", "haːs"],  // Contracted from an earlier haas, from Prakrit sahassa, from Sanskrit sahasra.
+    nog: ["мынъ", "mɯŋ"],  // From Proto-Turkic *bïŋ, like Turkish bin and Kazakh мың.
+    rif: ["ⴰⵔⴻⴼ", "ɛrəf"],  // Borrowed from Moroccan Arabic ألف ʔalf.
+    xkz: ["trong", "ʈoŋ"],  // From Proto-Sino-Tibetan *s-tawŋ, the same word as Tibetan སྟོང stong.
+    blk: ["တရေင်ꩻ", "tə reŋ˧˧"],  // No image is recorded for it, so it counts as a word of its own.
+    ain: ["ワニㇰ", "wanik"],  // The Hokkaido word (Obihiro waník in the 1964 dialect table); Saru says asikne wanhot and Sakhalin sinewantanku. No image is recorded for it, so it counts as a word of its own.
+    jam: ["touzn", "touzn"],  // Inherited from English thousand.
+    abq: ["зкьы", "zkʲə"],  // From Proto-Abkhaz-Abaza *zaḱə́; Abkhaz зықы is the same word. No image is recorded for it, so it counts as a word of its own.
+    ttj: ["rukumi", "ɾukúmi"],  // The class 11 prefix ru- on -kumi 'ten'; the full collective form is orukumi.
+    lic: ["ŋu:n1", "ŋuːn˥˧"],  // From Proto-Hlai *C-ŋuːn 'thousand' (Norquest 2015). No image is recorded for it, so it counts as a word of its own.
+    csb: ["tësąc", "ˈtɜsɔ̃ts"],  // The Slavic thousand, like Polish tysiąc.
+    frr_amr: ["düüsen", "ˈdyːzn̩"],  // The Germanic thousand; the Föhr-Amrum form with [yː] is from Middle Dutch dusent or Middle Low German dûsent blended with Old Frisian thūsend.
+    lzz: ["შილია", "ʃilia"],  // Borrowed from Pontic Greek, from Ancient Greek χίλιοι 'thousand'.
+    pqm: ["ʼqotamqahk", "kʷotamkʷahk"],  // Built from ʼqot- 'one' and -amqahk 'times a thousand'.
+    xng: ["ᠮᠢᠩᠬᠠᠨ", "miŋqan"],  // Inherited from Proto-Mongolic, from Turkic *bïŋ 'thousand'.
+    bbl: ["ათას", "atas"],  // Borrowed from Georgian ათასი, which is counted as ten hundreds.
+    akk: ["𒇷𒈬", "liːmu"],  // No image is recorded for it, so it counts as a word of its own.
+    acn: ["xiŋ51", "xiŋ˥˩"],  // From Chinese 千 'thousand'.
+    glk: ["هزر", "hezar"],  // The Persian hazār.
   },
 };

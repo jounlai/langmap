@@ -435,6 +435,31 @@ WORDS.sunday = {
     fax: "lord",
     min: "count",
     su: "count",
+    uby: "plain",
+    vot: "holy",
+    mni: "plain",
+    yo: "other",
+    moh: "unknown",
+    hif: "sun",
+    kok: "sun",
+    tao: "sun",
+    ace: "count",
+    rif: "count",
+    pot: "other",
+    ilo: "lord",
+    tly: "rest",
+    ch: "lord",
+    mus: "holy",
+    sat: "sun",
+    slr: "count",
+    cho: "sun",
+    shi: "count",
+    yrl: "rest",
+    gor: "count",
+    pam: "lord",
+    enm: "sun",
+    lep: "other",
+    kmb: "lord",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -810,5 +835,30 @@ WORDS.sunday = {
     fax: ["dumingu", "duˈmiŋɡu"],  // From Late Latin diēs Dominicus, 'the Lord's day'.
     min: ["Akaik", "akaiʔ"],  // No etymology is given; it is Malay Ahad, from Arabic al-ʔaḥad 'the first'.
     su: ["Ahad", "ahad"],  // Ultimately from Arabic al-ʔaḥad 'the one', the first day.
+    uby: ["məɕʷaməχ", "məɕʷaməχ"],  // No image is recorded for it, so it counts as a word of its own.
+    vot: ["pühäpäive", "ˈpyhæpæivæ"],  // Pühä 'holy' + päive 'day'; it also means a holiday.
+    mni: ["ꯅꯣꯡꯃꯥꯏꯖꯤꯡ", "noŋmaidʒiŋ"],  // Inherited from Old Manipuri nongmāicing; no image is recorded for it, so it counts as a word of its own.
+    yo: ["ọjọ́ Àìkú", "ɔdʒɔ́ àìkú"],  // Ọjọ́ 'day' + àì- 'not' + kú 'to die', literally 'day of immortality'.
+    moh: ["Awentatokenhtì:ke", "awʌ̃tatoɡʌ̃htìːɡe"],  // The source gives no analysis of the name.
+    hif: ["etwaar", "eːtʋaːr"],  // Inherited from Awadhi itvār, from Prakrit āittavāra, Sanskrit ādityavāra, the day of Āditya, the sun.
+    kok: ["आयतार", "aːjtaːɾ"],  // Inherited from Sanskrit ādityavāra, the day of Āditya, the sun; compare Hindi इतवार.
+    tao: ["niciyo", "nitɕijo"],  // Borrowed from Japanese 日曜日 nichiyōbi, the sun's day.
+    ace: ["Aleuhat", "alɯhat"],  // From Arabic al-ʔaḥad, the first day, like Malay Ahad.
+    rif: ["ⵔⵃⴻⴷⴷ", "rħɐdː"],  // Borrowed from Moroccan Arabic الحد el-ḥadd, Arabic الأحد 'the first (day)'.
+    pot: ["nëm'é gizhêk", "nʌmʔɛ ɡiʃʊk"],  // The praying day: nëm'é 'to pray' plus gizhêk 'day'.
+    ilo: ["Dominggo", "doˈminɡo"],  // Borrowed from Spanish domingo, the Lord's day.
+    tly: ["vıxətno", "vɨxətno"],  // Borrowed from Russian выходной vyxodnoj 'day off'.
+    ch: ["Damenggo", "daˈmeŋɡo"],  // Borrowed from Spanish domingo, the Lord's day.
+    mus: ["Nettvcako", "nitːətʃako"],  // The holy day: nettv 'day' plus -cako 'holy'.
+    sat: ["ᱥᱤᱸᱜᱮ ᱢᱟᱦᱟᱸ", "sĩɡe mahã"],  // The sun's day: ᱥᱤᱸᱜᱮ, the row's sun word ᱥᱤᱸᱜᱤ, plus ᱢᱟᱦᱟᱸ 'day', as in the row's Monday ᱚᱛᱮ ᱢᱟᱦᱟᱸ.
+    slr: ["yekşembe", "jexʃembe"],  // From Persian یکشنبه.
+    cho: ["Sʋnti", "sənti"],  // Borrowed from English Sunday, like the row's Mʋnti and Satʋti.
+    shi: ["ⵍⵃⴷⴷ", "lħdː"],  // Borrowed from Moroccan Arabic الحد.
+    yrl: ["mituú", "mituˈu"],  // Inherited from Old Tupi; it is the older form of pituú 'to rest'.
+    gor: ["Ahadi", "ahadi"],  // From Malay Ahad, from Arabic al-ʔaḥad.
+    pam: ["Duminggu", "dʊˈmiŋɡu"],  // Borrowed from Spanish domingo 'the Lord's day'.
+    enm: ["Sonday", "ˈsundæi̯"],  // From Old English sunnandæg, a calque of Latin dies Solis 'day of the sun'.
+    lep: ["ᰕᰧ ᰠᰣᰤᰦᰭ", "mi səʔjak"],  // Literally 'fire day'.
+    kmb: ["lumingu", "lumiŋɡu"],  // Adapted from Portuguese domingo 'the Lord's day'.
   },
 };

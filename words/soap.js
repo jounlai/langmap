@@ -348,6 +348,27 @@ WORDS.soap = {
     bnn: "other",
     ban: "sabun",
     kg: "sabun",
+    uby: "plain",
+    vot: "wash",
+    egl: "sapo",
+    bar: "sapo",
+    gmh: "sapo",
+    trv: "other",
+    tn: "sapo",
+    liv: "sapo",
+    rif: "sabun",
+    sd: "sabun",
+    tig: "sabun",
+    mnw: "plain",
+    dru: "other",
+    sco: "sapo",
+    jv: "sabun",
+    lg: "sabun",
+    shi: "sabun",
+    yrl: "sabao",
+    mch: "plain",
+    dng: "other",
+    tay: "other",
   },
   routes: {
     sapo: {"color":"#2563eb","emoji":"🏛️","en":"Latin sapo","ja":"ラテン語 sapo","ko":"라틴어 sapo","zh":"拉丁语 sapo","yue":"拉丁語 sapo","vi":"tiếng Latinh sapo","th":"ละติน sapo","id":"Latin sapo","hi":"लैटिन sapo","de":"lateinisch sapo","fr":"le latin sapo","it":"il latino sapo","es":"el latín sapo","pt":"o latim sapo","ru":"латинское sapo","uk":"латинське sapo","ar":"اللاتينية sapo","he":"הלטינית sapo","sw":"Kilatini sapo"},
@@ -637,5 +658,26 @@ WORDS.soap = {
     bnn: ["siking", "sikiŋ"],  // Borrowed from Japanese 石鹸 sekken, 'stone and lye'.
     ban: ["sabun", "sabun"],  // Borrowed from Malay sabun.
     kg: ["sabuni", "sabuni"],  // From Swahili sabuni, from Arabic ṣābūn.
+    uby: ["tʃʰəfa", "tʃʰəfa"],  // No image is recorded for it, so it counts as a word of its own.
+    vot: ["muilõ", "ˈmuilɤ"],  // Borrowed from Ingrian muila, from Russian мыло, the Slavic word from washing.
+    egl: ["savån", "saˈvʌŋ"],  // From Latin saponem.
+    bar: ["Saf", "sɑːf"],  // From Middle High German seife, the same word as German Seife.
+    gmh: ["seife", "ˈsei̯fə"],  // Inherited from Old High German seifa, the same word as German Seife.
+    trv: ["sekeng", "sekeŋ"],  // Borrowed from Japanese 石鹸 sekken 'soap'.
+    tn: ["sesepa", "seˈsepa"],  // Borrowed from Afrikaans seep, the Germanic soap word.
+    liv: ["zēp", "zeːp"],  // Borrowed from Middle Low German sepe, the Germanic soap word.
+    rif: ["ⵚⵚⴰⴱⵓⵏ", "sˤːɑβˤʊnˤ"],  // Borrowed from Moroccan Arabic صابون ṣābūn.
+    sd: ["صابڻ", "saːbʊn"],  // Borrowed from Classical Persian صابون sābūn, from Arabic ṣābūn.
+    tig: ["ሳቡን", "sabun"],  // Borrowed from Arabic صابون ṣābūn.
+    mnw: ["ဆာပ်ပျာ", "cʰap pja"],  // Borrowed from Burmese ဆပ်ပြာ, itself perhaps from English soap; no route is recorded, so it counts as a word of its own.
+    dru: ["sikingi", "sikiŋi"],  // Borrowed from Japanese 石鹸 sekken 'stone and lye'.
+    sco: ["saip", "sep"],  // Route by resemblance to Old English sāpe and English soap; no etymology of its own.
+    jv: ["sabun", "sabun"],  // Borrowed from Arabic صابون ṣābūn or Portuguese sabão; route as for the Malay sabun beside it.
+    lg: ["ssabbuuni", "sːabːuːni"],  // Borrowed from Swahili sabuni, from Arabic صابون ṣābūn.
+    shi: ["ⵚⵚⴰⴱⵓⵏ", "sˤːabun"],  // Borrowed from Moroccan Arabic صابون, from Arabic ṣābūn.
+    yrl: ["sabãu", "saˈbãw"],  // Borrowed from Portuguese sabão.
+    mch: ["ajuni", "ahuːni"],  // No image is recorded for it, so it counts as a word of its own.
+    dng: ["йизы", "i˦ tsɹ̩"],  // Cognate with Chinese 胰子 yízi.
+    tay: ["sekeng", "sekeŋ"],  // Borrowed from Japanese 石鹸 sekken.
   },
 };

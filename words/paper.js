@@ -384,6 +384,27 @@ WORDS.paper = {
     ln: "other",
     sog: "kaghaz",
     kha: "unknown",
+    uby: "kaghaz",
+    ksw: "other",
+    egl: "charta",
+    szl: "papyrus",
+    gag: "kaghaz",
+    gun: "plain",
+    kg: "other",
+    rif: "kaghaz",
+    pot: "plain",
+    frp: "papyrus",
+    tru: "kaghaz",
+    mnw: "plain",
+    pdt: "papyrus",
+    nys: "plain",
+    mus: "plain",
+    tyz: "chinese",
+    byn: "leaf",
+    slr: "kaghaz",
+    pqm: "other",
+    pwo: "unknown",
+    syc: "leaf",
   },
   routes: {
     papyrus: {"color":"#2563eb","emoji":"📜","en":"from Latin papyrus (papier, papel, Papier)","ja":"ラテン語 papyrus から（papier, papel, Papier）","ko":"라틴어 papyrus에서 (papier, papel, Papier)","zh":"源自拉丁语 papyrus（papier, papel, Papier）","yue":"源自拉丁文 papyrus（papier, papel, Papier）","vi":"từ tiếng Latinh papyrus (papier, papel, Papier)","th":"จากภาษาละติน papyrus (papier, papel, Papier)","id":"dari bahasa Latin papyrus (papier, papel, Papier)","hi":"लातिन papyrus से (papier, papel, Papier)","de":"aus lateinisch papyrus (papier, papel, Papier)","fr":"du latin papyrus (papier, papel, Papier)","it":"dal latino papyrus (papier, papel, Papier)","es":"del latín papyrus (papier, papel, Papier)","pt":"do latim papyrus (papier, papel, Papier)","ru":"из латинского papyrus (papier, papel, Papier)","uk":"з латинського papyrus (papier, papel, Papier)","ar":"من اللاتينية papyrus (papier, papel, Papier)","he":"מ-papyrus הלטינית (papier, papel, Papier)","sw":"kutoka Kilatini papyrus (papier, papel, Papier)"},
@@ -479,7 +500,7 @@ WORDS.paper = {
     tt: ["кәгазь", "kæɣæz"],
     uz: ["qogʻoz", "qoʁoz"],
     xmf: ["ქაღარდი", "kʰaɣardi"],
-    yo: ["ìwé", "iwe"],
+    yo: ["ìwé", "ìwé"],
     zh: ["纸", "tʂɨ˨˩˦"],  // Route by resemblance to the neighbouring forms (lo); no etymology of its own.
     yue: ["紙", "tsiː˧˥"],
     ja: ["紙", "kami"],  // From Middle Chinese 紙, according to Wiktionary.
@@ -708,5 +729,26 @@ WORDS.paper = {
     ln: ["monkandá", "monkandá"],  // The same word means skin, letter and book; from Kongo nkanda.
     sog: ["kʾγδʾ", "kaːɣaðaː"],  // The word behind Persian kāġaz; perhaps borrowed from Old Chinese 紙.
     kha: ["kot", "kot"],  // The same word means book; possibly borrowed from Bengali কৎ 'nib, quill'.
+    uby: ["kʰʲaːhatʰ", "kʰʲaːhatʰ"],  // Borrowed from Ottoman Turkish kâğıd, from Persian.
+    ksw: ["စးခီ", "sakʰɔ"],  // Borrowed from Mon cakkhū.
+    egl: ["chèrta", "ˈkɛːrta"],  // From Latin charta; it also means a card.
+    szl: ["papiōr", "ˈpapjor"],  // Borrowed from German Papier.
+    gag: ["kiyat", "kiˈjat"],  // Inherited from Old Anatolian Turkish kāġıd, from Persian kâġaz; the same word means book, letter and playing card.
+    gun: ["kuaxia", "kuaˈʃia"],  // Cognate with Paraguayan Guarani kuatia; it also means a document or a book.
+    kg: ["nkanda", "ŋkanda"],  // The same word means skin, and a letter or document.
+    rif: ["ⵔⵛⵉⵖⴻⴹ", "rˤʃˤɪʁɐðˤ"],  // Borrowed from Moroccan Arabic كاغط kāḡaṭ, from Arabic كَاغَد kāḡad, the Persian word for paper.
+    pot: ["mzen'egen", "mzənʔəɡən"],  // The same word as book; Wiktionary gives 'book' and 'paper, document'. No image is recorded for it, so it counts as a word of its own.
+    frp: ["papiér", "paˈpje"],  // Borrowed from French and Old French papier, from Latin papȳrus.
+    tru: ["ܟܓܬ", "kaɣat"],  // From Ottoman Turkish كاغد kâğıd, from Persian کاغد kâġed 'paper'.
+    mnw: ["စက္ခူ", "cah kʰao"],  // Burmese has the same word, စက္ကူ. No image is recorded for it, so it counts as a word of its own.
+    pdt: ["Papia", "paˈpia"],  // From Middle Low German papīr, from Old French papier, from Latin papȳrus.
+    nys: ["bibool", "bibul"],  // No image is recorded for it, so it counts as a word of its own.
+    mus: ["cokv", "tʃokə"],  // It also means 'book' and 'letter'. No image is recorded for it, so it counts as a word of its own.
+    tyz: ["chỉa", "ciə˨˩˧"],  // Borrowed from Chinese 紙.
+    byn: ["ወረቀት", "wərəkʼət"],  // Borrowed from Tigre ወረቀት; Amharic ወረቀት is the same word.
+    slr: ["xağıt", "χɑʁɨt"],  // Borrowed from Sogdian, the source of Persian kāġaz; related to Turkish kâğıt.
+    pqm: ["pilasq", "pilaskʷ"],  // The same word also names new-growth birch bark.
+    pwo: ["စၭခီၫ", "saʔ kʰauɴ"],  // Borrowed from Mon စက္ခူ cakkhū.
+    syc: ["ܘܪܩܬܐ", "warraqtaː"],  // Borrowed from Arabic ورقة; the same word means leaf.
   },
 };

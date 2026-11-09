@@ -814,6 +814,7 @@ WORDS.thunder = {
     ksw: "plain",
     osx: "plain",
     dak: "god",
+    lwl: "plain",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1574,5 +1575,6 @@ WORDS.thunder = {
     ksw: ["လီသီၣ်", "lɔθɔ"],  // S'gaw Karen 'thunder' (SEAlang). No image is recorded for it, so it counts as a word of its own. IPA read from the script; the dictionary prints none.
     osx: ["thuner", "ˈθuner"],  // From Proto-West Germanic *þunr, the same word as Old English þunor.
     dak: ["waŋkíŋyaŋ", "wãkĩ́jã"],  // Route by resemblance to Lakota wakíŋyaŋ, the thunderbirds whose voice is thunder.
+    lwl: ["naem mbreʼ", "nɛm ᵐbreʔ"],  // No image is recorded for it, so it counts as a word of its own.
   },
 };

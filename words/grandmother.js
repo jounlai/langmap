@@ -725,6 +725,12 @@ WORDS.grandmother = {
     vec: "one",
     cic: "unknown",
     cjm: "unknown",
+    uby: "unknown",
+    hif: "unknown",
+    rif: "unknown",
+    xkz: "unknown",
+    blc: "unknown",
+    afb: "unknown",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -1394,5 +1400,11 @@ WORDS.grandmother = {
     vec: ["nona", "ˈnona"],  // From Late Latin nonna, the same word as Italian nonna; one word for either grandmother.
     cic: ["ippoʼsiʼ", "ipːoʔsiʔ"],  // The source gives one word for grandmother and does not say which side.
     cjm: ["ꨌꨮꩀ", "cəʔ"],  // Rumi cek; the source gives one word and does not say which side. A homonym means mountain.
+    uby: ["naɡʲədza", "naɡʲədza"],  // The source gives one word and does not say whether the two grandmothers are told apart.
+    hif: ["aaji", "aːdʒiː"],  // Inherited from Bhojpuri आजी; the source glosses it only as grandmother and does not say which side.
+    rif: ["ⵃⴻⵏⵏⴰ", "ħɐnnɛ"],  // Borrowed from Moroccan Arabic حنة ḥanna; the source does not say whether the two grandmothers are told apart.
+    xkz: ["aiya", "aija"],  // The source gives one word for grandmother and does not say whether the two grandmothers are told apart.
+    blc: ["kikya", "kikja"],  // Inherited from Proto-Salish *kayaʔ; the source does not say whether it covers both grandmothers.
+    afb: ["يدة", "ˈjədːə"],  // Inherited from Arabic جدة 'grandmother'; the source does not say whether it covers both grandmothers.
   },
 };

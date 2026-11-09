@@ -454,6 +454,40 @@ WORDS.wife = {
     bgc: "woman",
     ny: "woman",
     xmr: "unknown",
+    wal: "unknown",
+    ket: "woman",
+    egl: "unknown",
+    mag: "woman",
+    mni: "unknown",
+    dv: "unknown",
+    lus: "unknown",
+    kok: "woman",
+    yux: "other",
+    udi: "woman",
+    sjo: "unknown",
+    nag: "woman",
+    khw: "unknown",
+    eve: "woman",
+    sd: "unknown",
+    xkz: "unknown",
+    txg: "own",
+    ett: "unknown",
+    squ: "unknown",
+    bdq: "unknown",
+    ibb: "woman",
+    slr: "own",
+    ykg: "own",
+    xag: "woman",
+    yrl: "own",
+    bsk: "own",
+    tzm: "woman",
+    xpg: "woman",
+    tay: "woman",
+    obr: "unknown",
+    pms: "woman",
+    fax: "woman",
+    dz: "woman",
+    mfa: "unknown",
   },
   routes: {
     woman: {"color":"#db2777","emoji":"👩","en":"the same word as woman","ja":"「女」と同じ語","ko":"‘여자’와 같은 말","zh":"与“女人”同词","yue":"同「女人」同一個詞","vi":"cùng một từ với “đàn bà”","th":"คำเดียวกับ “ผู้หญิง”","id":"sama dengan kata “perempuan”","hi":"‘औरत’ वाला ही शब्द","de":"dasselbe Wort wie Frau","fr":"le même mot que femme","it":"la stessa parola di donna","es":"la misma palabra que mujer","pt":"a mesma palavra que mulher","ru":"то же слово, что «женщина»","uk":"те саме слово, що «жінка»","ar":"الكلمة نفسها لـ«امرأة»","he":"אותה מילה כמו ״אישה״","sw":"neno sawa na mwanamke"},
@@ -851,5 +885,39 @@ WORDS.wife = {
     bgc: ["बीर", "biːr"],  // The same word means woman.
     ny: ["mkazi", "m̩ˈkazi"],  // The same word means woman; from Proto-Bantu mʊ̀kádí.
     xmr: ["𐦱𐦨", "səma"],  // No word for woman is given beside it.
+    wal: ["machchiyo", "matʃːijo"],  // The source gives this one word for wife; no word for woman is beside it, so the route is unknown.
+    ket: ["ӄим", "qʲim"],  // One word for woman and wife, inherited from Proto-Yeniseian *qim 'woman'.
+    egl: ["mujêr", "muˈjeːr"],  // From Latin mulier; the source glosses it only as wife and gives no woman word beside it.
+    mag: ["मेहरारू", "meːhraːruː"],  // One word for woman and wife.
+    mni: ["ꯇꯥꯂꯣꯏ", "taloi"],  // The source gives this one word for wife; no word for woman is beside it, so the route is unknown.
+    dv: ["އަނބި", "aᵐbi"],  // Inherited from Sanskrit ambā; the source gives no word for woman beside it, so the route is unknown.
+    lus: ["nupui", "nupui"],  // Nu 'mother' + -pui, an augmentative suffix; the source gives no word for woman beside it, so the route is unknown.
+    kok: ["बायल", "baːjl"],  // One word for woman and wife.
+    yux: ["тэрикэ", "terɪkə"],  // The same word means old woman; borrowed from Russian старуха 'old woman'.
+    udi: ["чугьух", "tʃuhuχ"],  // One word for woman and wife (Nij dialect), from Caucasian Albanian čibux̣.
+    sjo: ["ᡨᠠᡞᡨᠠᡞ", "tʰɑitʰɑi"],  // Borrowed from Mandarin 太太 tàitai; the source gives no word for woman beside it, so the route is unknown.
+    nag: ["maiki", "maiki"],  // One word for woman and wife, from Assamese মাইকী.
+    khw: ["بؤوک", "bɔˈʊk"],  // From Sanskrit vadhūkkā 'bride'; the source gives no word for woman beside it, so the route is unknown.
+    eve: ["аси", "asi"],  // One word for woman and wife, from Proto-Tungusic *asī.
+    sd: ["جوءِ", "dʒoːi"],  // Inherited from Prakrit juvaï, from Sanskrit युवति yuvatí 'young woman'; the entry gives no word for woman beside it.
+    xkz: ["’nêsang", "néːsaŋ"],  // Related to Dzongkha གནས་ཚང gnas tshang; the source gives no word for woman beside it.
+    txg: ["𗪰", "ɡji˧˥"],  // A word of its own; the word for woman is 𗶈 *dẹ¹.
+    ett: ["puia", "ˈpuia"],  // Perhaps related somehow to Ancient Greek ὀπυίω 'to marry'; no Etruscan word for woman stands beside it.
+    squ: ["chewásh", "tʃəwaʃ"],  // A married woman; the source gives no word for woman beside it.
+    bdq: ["akăn", "ʔakan"],  // From Proto-Bahnaric *ʔəkan 'wife', a prefixed form of *kan 'female'; the source gives no word for woman beside it.
+    ibb: ["n̄n̄waan", "ŋ̍ŋwaːn"],  // The same word means woman and wife (and female).
+    slr: ["kiyne", "kʰijni"],  // From Proto-Turkic *kẹlin; the word for woman is a different one, qadın.
+    ykg: ["мирийэ", "mirije"],  // From Proto-Yukaghir *mirijə; the word for woman is a different one, пайпэ.
+    xag: ["čibux̣", "tʃibuχ"],  // From Proto-Lezghian; the same word means woman and wife.
+    yrl: ["imirikú", "imiɾiˈku"],  // Inherited from Old Tupi emirekó; the word for woman is a different one, kunhã.
+    bsk: ["yuus", "juːs"],  // The word for woman is a different one, gus.
+    tzm: ["ⵜⴰⵎⵟⵟⵓⵜⵜ", "tamtˤːutː"],  // Inherited from Proto-Berber; the same word means woman and wife.
+    xpg: ["knais", "knais"],  // From Proto-Indo-European *gʷneh₂- 'woman'; the same word means woman and wife.
+    tay: ["kneril", "kəneril"],  // The same word means woman and wife.
+    obr: ["မိယဟ်", "mijah"],  // From Proto-Lolo-Burmese *m-ja² 'wife'.
+    pms: ["fomna", "ˈfumnɐ"],  // From Latin fēmina; the same word means woman and wife.
+    fax: ["mullel", "muˈʎel"],  // Inherited from Old Galician-Portuguese moller; the same word means woman and wife.
+    dz: ["ཨམ་སྲུ", "amsu"],  // The same word means woman and wife.
+    mfa: ["bining", "biniŋ"],  // Inherited from Proto-Malayic *bini.
   },
 };

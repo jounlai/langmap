@@ -325,6 +325,16 @@ WORDS.tear = {
     goh: "plain",
     stq: "plain",
     sma: "plain",
+    uby: "unknown",
+    ksw: "eyewater",
+    nv: "eyewater",
+    ff: "plain",
+    txg: "plain",
+    ak: "eyewater",
+    dru: "plain",
+    xal: "plain",
+    kjg: "eyewater",
+    lzz: "plain",
   },
   routes: {
     eyewater: {"color":"#0891b2","emoji":"💧","en":"eye + water (air mata, 눈물, nước mắt)","ja":"目＋水（air mata, 눈물, nước mắt）","ko":"눈 + 물 (air mata, 눈물, nước mắt)","zh":"眼＋水（air mata、눈물、nước mắt）","yue":"眼＋水（air mata、눈물、nước mắt）","vi":"mắt + nước (air mata, 눈물, nước mắt)","th":"ตา + น้ำ (air mata, 눈물, nước mắt)","id":"mata + air (air mata, 눈물, nước mắt)","hi":"आँख + पानी (air mata, 눈물, nước mắt)","de":"Auge + Wasser (air mata, 눈물, nước mắt)","fr":"œil + eau (air mata, 눈물, nước mắt)","it":"occhio + acqua (air mata, 눈물, nước mắt)","es":"ojo + agua (air mata, 눈물, nước mắt)","pt":"olho + água (air mata, 눈물, nước mắt)","ru":"глаз + вода (air mata, 눈물, nước mắt)","uk":"око + вода (air mata, 눈물, nước mắt)","ar":"عين + ماء (air mata, 눈물, nước mắt)","he":"עין + מים (air mata, 눈물, nước mắt)","sw":"jicho + maji (air mata, 눈물, nước mắt)"},
@@ -594,5 +604,15 @@ WORDS.tear = {
     goh: ["zahar", "ˈtsahar"],  // No image is recorded for it, so it counts as a word of its own.
     stq: ["Troone", "ˈtroːnə"],  // From Old Frisian trān; no image is recorded for it, so it counts as a word of its own.
     sma: ["gïknjele", "ˈkɨkɲɛlɛ"],  // From Proto-Sami këńël; no image is recorded for it.
+    uby: ["blaʃʷa", "blaʃʷa"],  // The first part looks like bla 'eye', but the source gives no analysis.
+    ksw: ["မဲာ်ထံ", "mɛtʰi"],  // From မဲာ် 'eye' + ထံ 'water'.
+    nv: ["nákʼeeshtoʼ", "nɑ́kʼèːʃtʰòʔ"],  // Nákʼee 'eye socket, area of the eye' + -toʼ, the possessed form of tó 'water'.
+    ff: ["gonngol", "ɡoŋːɡol"],  // The Pular and Maasina word for a tear, plural gonɗi. No image is recorded for it, so it counts as a word of its own.
+    txg: ["𗊽", "bjɨ˧"],  // No image is recorded for it, so it counts as a word of its own; 𗑉𗊽 'eye' + 'tear' is a compound of it.
+    ak: ["anisuo", "anisuo"],  // Eye water: ani-, as in aniwa 'eye', and nsuo 'water'; also nisuo.
+    dru: ["lrese", "ɭəsə"],  // From Proto-Rukai *Ləsə, from Proto-Austronesian *luSəq 'tear'. No image is recorded for it, so it counts as a word of its own.
+    xal: ["нульмсн", "nulʲmsn̩"],  // From Proto-Mongolic *nïlbusun; Mongolian нулимс is the same word. No image is recorded for it, so it counts as a word of its own.
+    kjg: ["ʔom mat", "ʔom mat"],  // Eye water: ອົມ ʔom 'water' plus ມັດ mat 'eye'.
+    lzz: ["ჩილამბრი", "tʃilambri"],  // Inherited from Proto-Kartvelian *kreml- 'tear', like Georgian ცრემლი.
   },
 };

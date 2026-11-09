@@ -428,6 +428,18 @@ WORDS.window = {
     fit: "other",
     sux: "other",
     yua: "plain",
+    ks: "door",
+    mtq: "plain",
+    sjo: "plain",
+    nag: "plain",
+    tig: "other",
+    ain: "plain",
+    frp: "fenestra",
+    mzn: "plain",
+    slr: "door",
+    mos: "fenestra",
+    kpy: "plain",
+    blt: "plain",
   },
   routes: {
     wind: {"color":"#0891b2","emoji":"🌬️","en":"built on the wind (window, vindue, ventana)","ja":"風からできた語（window, vindue, ventana）","ko":"바람에서 나온 말 (window, vindue, ventana)","zh":"由“风”构成（window, vindue, ventana）","yue":"由「風」構成（window, vindue, ventana）","vi":"tạo từ chữ gió (window, vindue, ventana)","th":"สร้างจากคำว่าลม (window, vindue, ventana)","id":"dibentuk dari kata angin (window, vindue, ventana)","hi":"हवा के शब्द से बना (window, vindue, ventana)","de":"vom Wind gebildet (window, vindue, ventana)","fr":"construit sur le vent (window, vindue, ventana)","it":"costruito sul vento (window, vindue, ventana)","es":"formado sobre el viento (window, vindue, ventana)","pt":"formado sobre o vento (window, vindue, ventana)","ru":"построено на слове для ветра (window, vindue, ventana)","uk":"побудоване на слові для вітру (window, vindue, ventana)","ar":"مبني على الريح (window, vindue, ventana)","he":"בנוי על הרוח (window, vindue, ventana)","sw":"limejengwa juu ya upepo (window, vindue, ventana)"},
@@ -795,5 +807,17 @@ WORDS.window = {
     fit: ["klasi", "ˈklasi"],  // The same word means glass; borrowed from Swedish glas.
     sux: ["𒀊", "ab"],  // The same sign and word means hole, opening and roof vent.
     yua: ["kalom kʼiin", "kalom kʼiːn"],  // No etymology is given, so it counts as a word of its own.
+    ks: ["دٲر", "dəːr"],  // Inherited from Sanskrit dvāra 'door'; compare Marathi दार 'door'.
+    mtq: ["vỏng", "vɔŋ"],  // No image is recorded for it, so it counts as a word of its own.
+    sjo: ["ᡫᠠ", "fɑ"],  // Inherited from Manchu ᡶᠠ fa, from Proto-Tungusic *page.
+    nag: ["kidki", "kidki"],  // From Assamese খিৰিকী khiriki 'window'.
+    tig: ["ሽባክ", "ʃɨbbak"],  // From Arabic شباك šubbāk.
+    ain: ["プヤㇻ", "pujaɾ"],  // No image is recorded for it, so it counts as a word of its own.
+    frp: ["fenétra", "fəˈnetra"],  // Inherited from Latin fenestra.
+    mzn: ["آبشکه", "ɒbəʃkɐ"],  // Compare Nishaburi Persian آغشکه âġəška 'window'. No image is recorded for it, so it counts as a word of its own.
+    slr: ["terci", "tʰerʝi"],  // Borrowed from Persian دریچه 'little door'.
+    mos: ["fẽnetre", "fẽnetre"],  // Borrowed from French fenêtre.
+    kpy: ["уӄнун", "uqnun"],  // No image is recorded for it, so it counts as a word of its own.
+    blt: ["ꪔ꪿ꪱꪉ", "taːŋ˦˥"],  // No image is recorded for it, so it counts as a word of its own.
   },
 };

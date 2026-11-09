@@ -441,6 +441,29 @@ WORDS.yellow = {
     dru: "plain",
     dz: "plain",
     kjh: "sari",
+    uby: "plain",
+    vot: "ghel",
+    ket: "other",
+    ks: "turmeric",
+    dv: "turmeric",
+    bar: "ghel",
+    kok: "turmeric",
+    kjp: "plain",
+    lbe: "plain",
+    ff: "plain",
+    ain: "plain",
+    frp: "galbinus",
+    sjd: "plain",
+    rgn: "galbinus",
+    ppl: "plain",
+    otk: "sari",
+    quc: "plain",
+    pis: "plain",
+    lzz: "plain",
+    yrl: "other",
+    xng: "sari",
+    tzm: "plain",
+    mdh: "plain",
   },
   routes: {
     turmeric: {"color":"#d97706","emoji":"🫚","en":"turmeric","ja":"ウコン","ko":"강황","zh":"姜黄","yue":"黃薑","vi":"nghệ","th":"ขมิ้น","id":"kunyit","hi":"हल्दी","de":"Kurkuma","fr":"le curcuma","it":"la curcuma","es":"la cúrcuma","pt":"a curcuma","ru":"куркума","uk":"куркума","ar":"الكركم","he":"כורכום","sw":"manjano"},
@@ -822,5 +845,28 @@ WORDS.yellow = {
     dru: ["buraw", "buɾaw"],  // No image is recorded for it, so it counts as a word of its own.
     dz: ["སེརཔོ", "seːp˥"],  // From Classical Tibetan སེར་པོ 'yellow'.
     kjh: ["сарығ", "saˈrɯɣ"],  // From Proto-Turkic siarïg 'yellow, white', like Turkish sarı.
+    uby: ["ʁʷa", "ʁʷa"],  // The same form also means 'smoke', 'eight' and 'hollow'; no image is recorded for the colour word.
+    vot: ["kõltõin", "ˈkɤltɤin"],  // From Proto-Finnic *këltainën, like Finnish keltainen.
+    ket: ["ӄъляй", "qʌʎaj"],  // Probably derived from an old Yeniseian word for gall, or from Ket qə́ə̀lʲ 'bile'.
+    ks: ["لیٛۆدُر", "lʲodur"],  // Inherited from Sanskrit haridrā 'turmeric'.
+    dv: ["ރީނދޫކުލަ", "ɾiːⁿduːkula"],  // Rīⁿdū 'turmeric' + kula 'colour'.
+    bar: ["gööb", "ɡœːb"],  // From Middle High German gel, the same word as German gelb.
+    kok: ["अळदुवो", "əɭduʋoː"],  // Also written हळदुवो; the source gives no etymology, but the form matches हळद haḷad 'turmeric'.
+    kjp: ["ၜင်", "ɓàɴ"],  // No image is recorded for it, so it counts as a word of its own.
+    lbe: ["хъахъисса", "qʰaqʰisːa"],  // No image is recorded for it, so it counts as a word of its own.
+    ff: ["oolo", "oːlo"],  // The Adamawa Fulfulde word for yellow. No image is recorded for it, so it counts as a word of its own.
+    ain: ["シケㇾペペウㇱ", "ɕikeɾpepeus"],  // No image is recorded for it, so it counts as a word of its own.
+    frp: ["jôno", "ˈʒono"],  // Inherited from Latin galbinus.
+    sjd: ["руччкэ", "rutʃːke"],  // From Proto-Sami *ručkë, related to Finnish ruskea 'brown'; the attributive form is руччкесь. No image is recorded for it, so it counts as a word of its own.
+    rgn: ["ẓal", "zal"],  // The same word as Italian giallo, from Latin galbinus.
+    ppl: ["tultik", "tultik"],  // No image is recorded for it, so it counts as a word of its own.
+    otk: ["𐰽𐰺𐰍", "sarɯɣ"],  // Inherited from Proto-Turkic *siarïg 'yellow; white'; Turkish sarı and Hungarian sárga continue it.
+    quc: ["qʼan", "qʼan"],  // From Proto-Mayan *qʼan; also spelled qʼän. No image is recorded for it, so it counts as a word of its own.
+    pis: ["ialo", "ialo"],  // From English yellow; Bislama and Tok Pisin yelo are the same word.
+    lzz: ["სკითა", "skʼitʰa"],  // No image is recorded for it, so it counts as a word of its own.
+    yrl: ["tawá", "taˈwa"],  // From Old Tupi tagûá 'yellow earth'.
+    xng: ["ᠰᠢᠷ᠎ᠠ", "ʃira"],  // Inherited from Proto-Mongolic *sïra, from Turkic *sārïg.
+    tzm: ["ⴰⵡⵔⴰⵖ", "awraɣ"],  // From Proto-Berber *a-wăraɣ 'yellow'; no image is recorded for it.
+    mdh: ["binaning", "binaniŋ"],  // No image is recorded for it, so it counts as a word of its own.
   },
 };

@@ -494,6 +494,9 @@ WORDS.mobilephone = {
     kw: "other",
     lkt: "other",
     brx: "unknown",
+    xkz: "carry",
+    pot: "other",
+    fit: "carry",
   },
   routes: {
     hand: {"color":"#ea580c","emoji":"✋","en":"the hand","ja":"手","ko":"손","zh":"手","yue":"手","vi":"bàn tay","th":"มือ","id":"tangan","hi":"हाथ","de":"die Hand","fr":"la main","it":"la mano","es":"la mano","pt":"a mão","ru":"рука","uk":"рука","ar":"اليد","he":"היד","sw":"mkono"},
@@ -931,5 +934,8 @@ WORDS.mobilephone = {
     kw: ["klapkodh", "ˈklapkɔð"],  // Literally 'chatter husk' (klapp 'chatter' plus kodh 'husk'); kellgowser, a calque of 'cell phone', is a synonym.
     lkt: ["omásʼapȟela", "omásʔapˣela"],  // 'Little telephone': omásʼapȟe 'telephone' plus the diminutive -la, coined at a Lakota immersion school in the 2010s.
     brx: ["जानबुं", "dʒanbuŋ"],  // No origin is recorded for it.
+    xkz: ["mobail", "mobail"],  // Borrowed from English mobile.
+    pot: ["biwapkos", "biwapkos"],  // A little metal: biwapêk 'piece of metal, iron' with the diminutive -os; it also means 'telephone' and 'wire'.
+    fit: ["mupiili", "ˈmupiːli"],  // Borrowed from Swedish mobil(telefon).
   },
 };

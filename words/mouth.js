@@ -1246,5 +1246,6 @@ WORDS.mouth = {
     zh_jiao: ["嘴", "tsue˥˥"],
     adt: ["yaya", "jaja"],  // Adnyamathanha yaya 'mouth'.
     osa: ["íhaa", "íhaː"],
+    moh: ["óhsaʼ", "óhsaʔ"],  // The same word means lip.
   }
 };

@@ -1219,5 +1219,6 @@ WORDS.five = {
     gha: ["səmməs", "səmːəs"],
     siz: ["xamsa", "χamsa"],  // Borrowed from Arabic.
     zh_jiao: ["五", "vu˥˥"],
+    xpg: ["pinke", "ˈpinke"],  // From Proto-Indo-European *pénkʷe.
   },
 };

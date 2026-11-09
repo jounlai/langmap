@@ -504,6 +504,43 @@ WORDS.twenty = {
     bnn: "plain",
     rhg: "plain",
     ttj: "other",
+    uby: "unknown",
+    vot: "tens",
+    ket: "plain",
+    egl: "fused",
+    ks: "fused",
+    urh: "plain",
+    ik: "person",
+    ctu: "base",
+    war: "other",
+    rif: "loan",
+    sd: "fused",
+    ff: "plain",
+    xkz: "plain",
+    frp: "fused",
+    ilo: "tens",
+    ett: "plain",
+    abq: "tens",
+    mak: "tens",
+    bm: "plain",
+    sux: "plain",
+    aa: "plain",
+    mam: "base",
+    hup: "tens",
+    lzz: "base",
+    cho: "tens",
+    shi: "loan",
+    ykg: "fused",
+    pqm: "fused",
+    bbl: "base",
+    xib: "base",
+    cay: "tens",
+    ota: "plain",
+    aii: "plural",
+    skr: "fused",
+    ig: "tens",
+    kjb: "base",
+    kab: "loan",
   },
   routes: {
     tens: {"color":"#2563eb","emoji":"🔟","en":"two and the free word for ten","ja":"二と「十」の語","ko":"둘과 ‘열’이라는 낱말","zh":"二加“十”这个词","yue":"二加「十」呢個詞","vi":"hai và từ “mười”","th":"สองกับคำว่าสิบ","id":"dua dan kata untuk sepuluh","hi":"दो और दस का शब्द","de":"zwei und das Wort für zehn","fr":"deux et le mot pour dix","it":"due e la parola per dieci","es":"dos y la palabra para diez","pt":"dois e a palavra para dez","ru":"два и слово «десять»","uk":"два і слово «десять»","ar":"اثنان وكلمة عشرة","he":"שתיים והמילה עשר","sw":"mbili na neno la kumi"},
@@ -667,7 +704,7 @@ WORDS.twenty = {
     wo: ["ñaar fukk", "ɲaːr fukː"],
     sah: ["сүүрбэ", "syːrbe"],
     yi: ["צוואנציק", "ˈtsvantsɪk"],
-    yo: ["ogún", "oɡũ"],
+    yo: ["ogún", "oɡṹ"],
     yua: ["junkʼáal", "hunkʼaːl"],  // Literally 'one score'.
     esu: ["yuinaq", "juinaq"],  // Cell comment in words/hundred.js counts in yuinaq; no source for 'person'.
     zu: ["amashumi amabili", "amaʃumi amabili"],
@@ -947,5 +984,42 @@ WORDS.twenty = {
     bnn: ["mapusan", "mapusan"],  // No etymology is given, so it counts as a word of its own.
     rhg: ["kuri", "kuri"],  // No etymology is given, so it counts as a word of its own.
     ttj: ["abiri", "aːβiɾi"],  // A clipping of makumi abiri 'two tens': the word for two alone.
+    uby: ["tʼqʼʷatʼʷə", "tʼqʼʷatʼʷə"],  // The source gives no analysis of the numeral.
+    vot: ["kahčümmed", "ˈkahtʃymːed"],  // From Proto-Finnic *kakci kümmentä 'two tens'.
+    ket: ["эʼк", "ɛʔk"],  // Inherited from Proto-Ketic *ɛˀk 'twenty', a word of its own.
+    egl: ["vént", "veŋt"],  // Inherited from Latin viginti, two tens worn down to one word.
+    ks: ["وُہ", "wuh"],  // From Sanskrit viṃśatí, like Hindi बीस.
+    urh: ["uje", "udʒe"],  // Inherited from Proto-Edoid *U-gheGi 'twenty', a word of its own.
+    ik: ["iñuiññaq", "iɲuiɲːaq"],  // Iñuit + -ñaq, 'a complete person': one score.
+    ctu: ["junkʼal", "hunkʼal"],  // Jun 'one' + kʼal, the score, as in the row's hundred joʼkʼal 'five score'.
+    war: ["karuhaan", "kaɾuˈhaʔan"],  // Built on duha 'two' with ka- -an.
+    rif: ["ⵄⵉⵛⵔⵉⵏ", "ʕɪʃɾɪn"],  // Borrowed from Moroccan Arabic عشرين ʕašrīn.
+    sd: ["ويهه", "ʋiːhə"],  // Inherited from Prakrit vīsa, from Sanskrit विंशति viṃśati.
+    ff: ["noogas", "noːɡas"],  // The Adamawa Fulfulde word for twenty. No image is recorded for it, so it counts as a word of its own.
+    xkz: ["khedi", "kʰedi"],  // No image is recorded for it, so it counts as a word of its own; ten is che.
+    frp: ["vengt", "vɛ̃"],  // Inherited from Latin vīgintī.
+    ilo: ["duapulo", "dwaˈpulo"],  // dua 'two' and pulo 'ten', the ten of sangapulo; the Spanish beinte is also used.
+    ett: ["zathrum", "ˈtsatʰrum"],  // No image is recorded for it, so it counts as a word of its own.
+    abq: ["гӏважва", "ʕʷaʒʷa"],  // From Proto-Abkhaz-Abaza *ʕʷǝžʷá, *ʕʷǝ́ 'two' plus *žʷá 'ten' (жваба); Abkhaz ҩажәа is the same.
+    mak: ["ruampulo", "ruamˈpulo"],  // From rua 'two' plus pulo 'ten'.
+    bm: ["mugan", "muɡan"],  // No image is recorded for it, so it counts as a word of its own.
+    sux: ["𒎙", "niʃ"],  // No image is recorded for it, so it counts as a word of its own.
+    aa: ["labaatanna", "labaːˈtanːa"],  // No image is recorded for it, so it counts as a word of its own.
+    mam: ["junkʼal", "χunkʼal"],  // jun 'one' plus kʼal, like Yucatec junkʼáal 'one score'.
+    hup: ["nahdiminłang", "nahdiminɬaŋ"],  // nahding 'twice' plus minłung 'ten'.
+    lzz: ["ეჩი", "etʃi"],  // Inherited from Proto-Georgian-Zan; like Georgian ოცი it is the unit of counting by twenties.
+    cho: ["pokoli tuklo", "pokoli toklo"],  // Literally 'ten two'.
+    shi: ["ⵄⵛⵔⵉⵏ", "ʕʃrin"],  // Borrowed from Moroccan Arabic عشرين.
+    ykg: ["кингуниль", "kinɡunilʲ"],  // A compound of кийуонь 'two' and кунильань 'ten', worn down to one word.
+    pqm: ["nisinsk", "nisinsk"],  // Built from nis- 'two' and -insk 'times ten', a suffix rather than the free word for ten.
+    bbl: ["ტყა", "tʼqʼa"],  // Inherited from Proto-Nakh *ṭq̇o, the unit of counting by twenties, like Chechen ткъа.
+    xib: ["orkei", "orkei"],  // A reading of the Iberian numerals; certainly connected to Basque hogei 'twenty'.
+    cay: ["dewáhshę:", "dewáhshɛ̃ː"],  // Built from de- 'two' and wahshę: 'ten'.
+    ota: ["یكرمی", "jiɾˈmi"],  // Inherited from Proto-Turkic *yẹgirmi 'twenty', like Turkish yirmi.
+    aii: ["ܥܣܪܝܢ", "ʕɪsˈrinː"],  // From Aramaic ʿesrīn, the plural of ten, like Arabic عشرون.
+    skr: ["ویہہ", "ʋiːh"],  // The same word as Punjabi ਵੀਹ 'twenty'.
+    ig: ["iri abụọ", "iɾi abʊɔ"],  // Literally 'ten two'.
+    kjb: ["junkʼal", "xunkʼal"],  // The Mayan unit of counting by twenties, like Yucatec junkʼáal.
+    kab: ["ɛecrin", "ʕəʃrin"],  // Borrowed from Algerian Arabic عشرين.
   },
 };

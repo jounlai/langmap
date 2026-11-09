@@ -382,6 +382,15 @@ WORDS.right = {
     lus: "other",
     tao: "plain",
     pa: "straight",
+    gmh: "dexter",
+    khb: "loan",
+    chr: "plain",
+    kru: "plain",
+    txg: "plain",
+    ilo: "plain",
+    skr: "straight",
+    bew: "loan",
+    scn: "straight",
   },
   routes: {
     straight: {"color":"#2563eb","emoji":"📏","en":"'straight, true, correct'","ja":"「まっすぐ、正しい」","ko":"‘곧은, 옳은’","zh":"“直、正确”","yue":"「直、啱」","vi":"“thẳng, đúng”","th":"“ตรง ถูกต้อง”","id":"“lurus, benar”","hi":"‘सीधा, सही’","de":"„gerade, richtig“","fr":"« droit, juste »","it":"“dritto, giusto”","es":"«recto, correcto»","pt":"«reto, certo»","ru":"«прямой, верный»","uk":"«прямий, правильний»","ar":"«مستقيم، صحيح»","he":"״ישר, נכון״","sw":"“nyoofu, sahihi”"},
@@ -705,5 +714,14 @@ WORDS.right = {
     lus: ["ding", "diŋ"],  // The same word means upright; from Proto-Kuki-Chin diŋ 'to stand'.
     tao: ["wanan", "wanan"],  // From Proto-Austronesian waNan, like Malay kanan; no image is recorded for it.
     pa: ["ਸੱਜਾ", "sədʒːaː"],  // The same word also means 'correct, truthful'; inherited from Prakrit sajja, from Sanskrit sajya.
+    gmh: ["zese", "ˈtsɛsə"],  // From Old High German zëso, from Proto-Germanic *tehswô, the old root of Latin dexter.
+    khb: ["ᦧᦱ", "xʷaː˥"],  // Borrowed from Old Chinese 右 'right', like Thai ขวา.
+    chr: ["ᎠᎦᏘᏏ", "aɡatisi"],  // No image is recorded for it, so it counts as a word of its own.
+    kru: ["तीना", "tiːnaː"],  // No image is recorded for it, so it counts as a word of its own.
+    txg: ["𗼛", "tɕier˧"],  // No image is recorded for it, so it counts as a word of its own.
+    ilo: ["kanawan", "kanaˈwan"],  // From Proto-Malayo-Polynesian *(ka-)wanan with the sounds swapped round. No image is recorded for it, so it counts as a word of its own.
+    skr: ["سڄا", "səʄːaː"],  // Inherited from Prakrit sajja, from Sanskrit sajya; the same word as Punjabi ਸੱਜਾ.
+    bew: ["betengen", "bətəŋən"],  // Borrowed from Sundanese or Banyumasan tengen 'right'.
+    scn: ["drittu", "ˈɾitːu"],  // From Latin dīrēctus; its first sense is 'straight'.
   },
 };

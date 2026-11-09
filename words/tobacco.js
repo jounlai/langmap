@@ -288,6 +288,26 @@ WORDS.tobacco = {
     arp: "plain",
     ia: "tabaco",
     dak: "plain",
+    uby: "smoke",
+    vot: "tabaco",
+    ket: "plain",
+    aer: "plain",
+    nog: "smoke",
+    khb: "medicine",
+    rif: "tabaco",
+    tig: "tabaco",
+    ono: "plain",
+    lkt: "plain",
+    pdt: "tabaco",
+    ppl: "plain",
+    nys: "plain",
+    crk: "plain",
+    cho: "plain",
+    ykg: "plain",
+    yrl: "plain",
+    pqm: "plain",
+    aii: "smoke",
+    har: "tabaco",
   },
   routes: {
     tabaco: {"color":"#b45309","emoji":"🌿","en":"Spanish and Portuguese tabaco","ja":"スペイン語・ポルトガル語の tabaco","ko":"스페인어·포르투갈어 tabaco","zh":"西班牙语和葡萄牙语的 tabaco","yue":"西班牙語同葡萄牙語嘅 tabaco","vi":"tabaco của tiếng Tây Ban Nha và Bồ Đào Nha","th":"tabaco ของสเปนและโปรตุเกส","id":"tabaco dari Spanyol dan Portugis","hi":"स्पेनिश और पुर्तगाली tabaco","de":"spanisch und portugiesisch tabaco","fr":"le tabaco espagnol et portugais","it":"il tabaco spagnolo e portoghese","es":"el tabaco español y portugués","pt":"o tabaco espanhol e português","ru":"испанское и португальское tabaco","uk":"іспанське й португальське tabaco","ar":"tabaco الإسبانية والبرتغالية","he":"tabaco הספרדית והפורטוגזית","sw":"tabaco ya Kihispania na Kireno"},
@@ -516,5 +536,25 @@ WORDS.tobacco = {
     arp: ["síísoowoo", "síːsoːwoː"],  // No image is recorded for it, so it counts as a word of its own.
     ia: ["tabaco", "taˈbako"],  // The Spanish and Portuguese word tabaco.
     dak: ["čhaŋdí", "tʃʰãdí"],  // No image is recorded for it, so it counts as a word of its own; it also means cigarette.
+    uby: ["tʰutʰun", "tʰutʰun"],  // Borrowed from Ottoman Turkish tütün, a word for smoke.
+    vot: ["tubakkõ", "ˈtubakːɤ"],  // Borrowed from Estonian tubak.
+    ket: ["сяʼль", "ɕaʔʎ"],  // Inherited from Proto-Ketic *saˀλ 'tobacco', a loanword shared with other Siberian languages; no image is recorded.
+    aer: ["ingkwelpe", "iŋkʷəlpə"],  // No image is recorded for it, so it counts as a word of its own.
+    nog: ["туьтин", "tytin"],  // From Proto-Turkic *tütün, like Turkish tütün, a word for smoke.
+    khb: ["ᦊᦱ", "jaː˥"],  // The word for medicine, from Proto-Tai *ˀjɯəᴬ 'medicine', like Thai ยา.
+    rif: ["ⵟⵟⴰⴱⴰ", "tˤːɑβˤɑ"],  // Borrowed from Moroccan Arabic طابة ṭāba, from French tabac.
+    tig: ["ትምባክ", "tɨmbæːk"],  // Also 'tobacco pipe'. Route by resemblance to the neighbouring forms (Amharic ትምባሆ, Tigrinya ትምባኾ); no etymology of its own.
+    ono: ["oyę́ʼgwaʼ", "ojɛ̃́ʔɡwaʔ"],  // No image is recorded for it, so it counts as a word of its own.
+    lkt: ["čhaŋlí", "tʃʰãlí"],  // It also means 'cigarette'. No image is recorded for it, so it counts as a word of its own.
+    pdt: ["Tobbak", "ˈtɔbak"],  // Ultimately from Spanish tabaco; compare German Tobak.
+    ppl: ["iyat", "ijat"],  // Compare Huasteca Nahuatl iyatl 'tobacco'. No image is recorded for it, so it counts as a word of its own.
+    nys: ["boolkoo", "bulku"],  // No image is recorded for it, so it counts as a word of its own.
+    crk: ["ᒋᐢᑌᒫᐤ", "tʃisteːmaːw"],  // From Proto-Algonquian *θeʔθe·ma·wa. No image is recorded for it, so it counts as a word of its own.
+    cho: ["hakchuma", "haktʃuma"],  // Inherited from Proto-Muskogean, with cognates such as Koasati hakchommi.
+    ykg: ["нонӻа", "nonʁa"],  // Inherited from Proto-Yukaghir *nonqǝ.
+    yrl: ["pitima", "piˈtima"],  // Inherited from Old Tupi petyma, from Proto-Tupian *pe 'tobacco' and 'to plant'.
+    pqm: ["ʼtomawey", "tomawej"],  // Cognate with Penobscot wətamάweyi and Abenaki wdamô.
+    aii: ["ܬܘܬܢܐ", "tuttɑːnɑː"],  // Borrowed from Ottoman Turkish توتون tütün 'smoke, tobacco'.
+    har: ["tämbaxo", "təmbɑχo"],  // The same word as Tigrinya ትምባኾ and Amharic ትምባሆ, from tabaco.
   },
 };

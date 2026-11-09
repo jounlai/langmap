@@ -1152,5 +1152,6 @@ WORDS.horse = {
     wbt: ["yawarta", "jawaʈa"],  // Warnman yawarta 'horse'.
     umu: ["nehnayóongus", "nehnajoːŋɡəs"],
     gqu: ["ȵo35", "ȵo˧˥"],  // IDS Qau Kelao, already the source of several cells in this row, though the row's base list is another variety. ńo.35.
+    xhu: ["𒀸𒋗𒉿", "aʃːuwa"],  // Borrowed from Mitanni; compare Sanskrit aśva.
   }
 };

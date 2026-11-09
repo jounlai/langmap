@@ -436,6 +436,10 @@ WORDS.turkey = {
     ota: "india",
     rif: "local",
     ppl: "local",
+    tar: "local",
+    lkt: "local",
+    atj: "local",
+    hop: "local",
   },
   routes: {
     india: {"color":"#ea580c","emoji":"🐘","en":"named for India · the Indies","ja":"インドの名で","ko":"인도의 이름으로","zh":"以印度为名","yue":"以印度為名","vi":"theo tên Ấn Độ","th":"ตั้งตามอินเดีย","id":"dinamai India","hi":"भारत के नाम पर","de":"nach Indien benannt","fr":"nommé d'après l'Inde","it":"dal nome dell'India","es":"por la India","pt":"pelo nome da Índia","ru":"по Индии","uk":"за Індією","ar":"باسم الهند","he":"על שם הודו","sw":"kwa jina la India"},
@@ -813,5 +817,9 @@ WORDS.turkey = {
     ota: ["هندی", "hinˈdi"],  // Literally 'Indian', from Arabic هِنْدِيّ.
     rif: ["ⵒⴰⴱⵓ", "pˤɑβˤʊ"],  // Borrowed from Spanish pavo, originally 'peacock'.
     ppl: ["tutulin", "tuˈtuliŋ"],  // A native word, compare Classical Nahuatl tōtolin, 'turkey hen'.
+    tar: ["chiwí", "tʃiwi"],  // A native word; no image is recorded for it.
+    lkt: ["zizíčha", "zizítʃʰa"],  // A native Lakota word; no foreign place is named in it.
+    atj: ["micirew", "miʃiɾew"],  // A native word; no foreign place is named in it.
+    hop: ["koyongo", "kojoŋo"],  // A native word.
   },
 };

@@ -728,5 +728,6 @@ WORDS.computer = {
     zh_jiao: ["电脑","tiã˦˨ nɔ˥˥"],  // Literally 'electric brain'; same word as Standard Mandarin.
     tsi: ["haʼlitʼmiism na̱xnox", "haʔlitʼmiːsm nʌxnox"],
     lkt: ["wóuŋspe omnáye", "wóũspe omnáje"],
+    ady: ["компутер", "kʷomputer"],  // Borrowed through Russian компьютер, Turkish kompüter and Arabic كمبيوتر, ultimately from English computer; the coinage шӏэнгъэпс 'knowledge builder' is also used.
   },
 };

@@ -365,6 +365,17 @@ WORDS.camel = {
     mnw: "ushtra",
     orh: "tebe",
     tly: "tebe",
+    uby: "plain",
+    cic: "other",
+    shn: "ushtra",
+    rar: "gamal",
+    phn: "gamal",
+    naq: "plain",
+    otk: "tebe",
+    slr: "tebe",
+    bbl: "plain",
+    brh: "ushtra",
+    sip: "plain",
   },
   routes: {
     gamal: {"color":"#d97706","emoji":"🐫","en":"from Semitic gamal (جمل, camel, ngamia)","ja":"セム語 gamal から（جمل, camel, ngamia）","ko":"셈어 gamal에서 (جمل, camel, ngamia)","zh":"源自闪米特语 gamal（جمل, camel, ngamia）","yue":"源自閃米特語 gamal（جمل, camel, ngamia）","vi":"từ tiếng Semit gamal (جمل, camel, ngamia)","th":"จากภาษาเซมิติก gamal (جمل, camel, ngamia)","id":"dari bahasa Semit gamal (جمل, camel, ngamia)","hi":"सामी gamal से (جمل, camel, ngamia)","de":"aus semitisch gamal (جمل, camel, ngamia)","fr":"du sémitique gamal (جمل, camel, ngamia)","it":"dal semitico gamal (جمل, camel, ngamia)","es":"del semítico gamal (جمل, camel, ngamia)","pt":"do semítico gamal (جمل, camel, ngamia)","ru":"из семитского gamal (جمل, camel, ngamia)","uk":"із семітського gamal (جمل, camel, ngamia)","ar":"من السامية gamal (جمل, camel, ngamia)","he":"מ-gamal השמית (جمل, camel, ngamia)","sw":"kutoka Kisemiti gamal (جمل, camel, ngamia)"},
@@ -669,5 +680,16 @@ WORDS.camel = {
     mnw: ["အုတ်", "ut"],  // Borrowed from Pali ottho, from Sanskrit uṣṭra.
     orh: ["təməkun", "təməkun"],  // From Proto-Mongolic temexen, which is traced to Turkic tebe.
     tly: ["dəvə", "dəvə"],  // Borrowed from Azerbaijani dəvə, from Turkic tebe.
+    uby: ["maːχʷʈʂʰa", "maːχʷʈʂʰa"],  // A native word, related to Abkhaz amaxĉ and Adyghe maꭓšɛ.
+    cic: ["issoba kobokshiʼ", "isːoba kobokʃiʔ"],  // Issoba 'horse' + kobokshi 'to have a hump'.
+    shn: ["ၵလႃးဢူၵ်ႉ", "ka˨˦laː˥ʔok˦˨ˀ"],  // Borrowed from Burmese ကုလားအုတ်, which is built on a word from the Sanskrit one.
+    rar: ["kāmera", "kaːmeɾa"],  // Borrowed from English camel, which goes back through Latin and Greek to Semitic.
+    phn: ["𐤂𐤌𐤋", "ɡamal"],  // From Proto-West Semitic *gamal- 'camel'; the same word names the third letter, 𐤂.
+    naq: ["ǃnais", "ǃnais"],  // No image is recorded for it, so it counts as a word of its own.
+    otk: ["𐱆𐰌𐰄", "tebi"],  // Inherited from Proto-Turkic *tebe 'camel'; Turkish deve is the same word.
+    slr: ["döye", "tøje"],  // From Proto-Turkic *tebe.
+    bbl: ["აქლამ", "aklam"],  // Inherited from Proto-Nakh *imkal, like Chechen эмкал.
+    brh: ["ہچ", "hutʃ"],  // Borrowed from Iranian, ultimately from Proto-Indo-Iranian *úštras.
+    sip: ["རྔ་མོ", "ŋamo"],  // From Proto-Sino-Tibetan *rŋa-mwaŋ, like Tibetan རྔ་མོང.
   },
 };

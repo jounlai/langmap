@@ -404,6 +404,7 @@ WORDS.atsign = {
     fra_jer: ["à", "a"],
     csb: ["smôrzcz", ""],
     scn: ["a cummirciali", ""],
-    sdh: ["ئەت", "æt"]
+    sdh: ["ئەت", "æt"],
+    oj: ["dazhibiiʼigan", "daʒibiːʔiɡan"],  // Built from dazhibiiʼ- 'write it in a certain place' and the noun suffix -gan.
   },
 };

@@ -272,6 +272,17 @@ WORDS.uncle = {
     war: "unknown",
     niv: "unknown",
     ln: "unknown",
+    ksw: "unknown",
+    ket: "one",
+    szl: "one",
+    yux: "one",
+    km: "unknown",
+    gu: "split",
+    sah: "unknown",
+    lzz: "unknown",
+    ykg: "unknown",
+    brh: "one",
+    mdr: "unknown",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's brother ≠ mother's brother","ja":"父の兄弟と母の兄弟で別の語","ko":"아버지의 형제와 어머니의 형제가 다른 낱말","zh":"父亲的兄弟和母亲的兄弟用不同的词","yue":"老豆嘅兄弟同阿媽嘅兄弟用唔同嘅詞","vi":"anh em của cha ≠ anh em của mẹ","th":"พี่น้องชายของพ่อกับของแม่เป็นคนละคำ","id":"saudara ayah ≠ saudara ibu","hi":"पिता का भाई ≠ माँ का भाई","de":"Bruder des Vaters ≠ Bruder der Mutter","fr":"frère du père ≠ frère de la mère","it":"fratello del padre ≠ fratello della madre","es":"hermano del padre ≠ hermano de la madre","pt":"irmão do pai ≠ irmão da mãe","ru":"брат отца ≠ брат матери","uk":"брат батька ≠ брат матері","ar":"أخو الأب ≠ أخو الأم","he":"אחי האב ≠ אחי האם","sw":"kaka wa baba ≠ kaka wa mama"},
@@ -486,5 +497,16 @@ WORDS.uncle = {
     war: ["tatang", "taˈtaŋ"],  // From Philippine Spanish tata 'daddy' with the diminutive -ng.
     niv: ["ытык", "ɯtɯk"],  // The same word means father, and several in-laws; the source does not say which side.
     ln: ["noko", "noko"],  // The source does not say which side.
+    ksw: ["ဖါတံၢ်", "pʰati"],  // The source gives one word, which also means a full-grown male animal, and does not say whether the two uncles are told apart.
+    ket: ["беʼп", "bɛʔp"],  // One word for an elder sibling of either parent, uncle or aunt.
+    szl: ["ujek", "ˈujɛk"],  // One word for the brother or brother-in-law of either parent, inherited from Old Polish ujek.
+    yux: ["чаачаа", "tɕaːtɕaː"],  // One word for an elder brother of either parent; it also means elder brother.
+    km: ["ពូ", "puː"],  // The source gives one word for uncle (also a pronoun for a man younger than one's parents) and does not say whether the two sides are told apart.
+    gu: ["કાકો", "kaːko"],  // The father's brother; the mother's brother is મામો māmo.
+    sah: ["абаҕа", "abaɣa"],  // Borrowed from Middle Mongol abaqa; the source does not say whether the father's and the mother's brother are told apart.
+    lzz: ["ჯუმადი", "dʒumadi"],  // Inherited from Proto-Georgian-Zan 'big brother' and glossed 'mother or father's brother'; Laz has also borrowed Turkish emuca and dayi, which keep the two sides apart.
+    ykg: ["чумуочиэ", "tʃumuotʃeː"],  // The father's older brother; the father's younger brother is өчидиэ, and the source gives no word for the mother's brother.
+    brh: ["الہ", "ilːa"],  // One word for the mother's and the father's brother.
+    mdr: ["amanaure", "amanaure"],  // The source does not say which side it covers.
   },
 };

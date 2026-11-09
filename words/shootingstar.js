@@ -335,6 +335,7 @@ WORDS.shootingstar = {
     ksw: "moving",
     mic: "plain",
     nv: "moving",
+    cho: "unknown",
   },
   routes: {
     falling: {"color":"#2563eb","emoji":"⬇️","en":"a falling star","ja":"落ちる星","ko":"떨어지는 별","zh":"落下的星","yue":"跌落嘅星","vi":"sao rơi","th":"ดาวที่ตก","id":"bintang jatuh","hi":"गिरता तारा","de":"fallender Stern","fr":"étoile qui tombe","it":"stella che cade","es":"estrella que cae","pt":"estrela que cai","ru":"падающая звезда","uk":"зірка, що падає","ar":"نجم يسقط","he":"כוכב שנופל","sw":"nyota inayoanguka"},
@@ -615,5 +616,6 @@ WORDS.shootingstar = {
     ksw: ["ဆၣ်ယူၤ", "sʰaju"],  // S'gaw Karen 'meteor, shooting star' (SEAlang): ဆၣ် 'star' with ယူၤ 'to fly'. IPA read from the script; the dictionary prints none.
     mic: ["pugtewit", "puktewit"],  // The same word means a comet; no image is recorded for it.
     nv: ["sǫʼ yilwoł", "sõ̀ʔ jìlwòɬ"],  // sǫʼ 'star' plus yilwoł 'it is running along'.
+    cho: ["fichik hela", "fitʃik hela"],  // Built on fichik 'star'; the source does not explain hela.
   },
 };

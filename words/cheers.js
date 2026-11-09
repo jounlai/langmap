@@ -290,7 +290,7 @@ WORDS.cheers = {
     vi: ["dô", "zo˧"],  // Dô (Southern dzô) is a Southern way of saying vô 'in!', usually shouted after the count một, hai, ba; the formal word is cạn chén 'drain the cup'.
     vi_s: ["dô", "jow˧"],  // Dô is the Southern pronunciation of vô 'in!', shouted after the count một, hai, ba.
     th: ["ชนแก้ว", "tɕʰon˧kɛːw˥˩"],  // Chon kaeo literally means 'clink glasses'; the cheer chai-yo, from Sanskrit jaya 'victory', is also used.
-    id: ["bersulang", "bərsulaŋ"],  // Bersulang 'to toast' is the formal word, and Wiktionary notes that sulang is little used in casual speech.
+    id: ["bersulang", "bərˈsulaŋ"],  // Bersulang 'to toast' is the formal word, and Wiktionary notes that sulang is little used in casual speech.
     hi: ["चियर्स", "tʃɪjəɾs"],  // Borrowed from English cheers.
     lb: ["prost", "pʁost"],  // Like German prost, from Latin prōsit 'may it do (you) good'.
     de: ["prost", "pʁoːst"],  // Prost is short for Latin prosit 'may it do (you) good'; the formal toast is zum Wohl 'to (your) well-being'.

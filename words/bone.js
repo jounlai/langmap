@@ -814,7 +814,7 @@ WORDS.bone = {
     lrc: ["استخو", "ostexo"],
     crh: ["süyek", "syjek"],
     tt: ["сөяк", "søjæk"],
-    ba: ["һөйәк", "højæk"],
+    ba: ["һөйәк", "høˈjæk"],
     krc: ["сюек", "syjek"],
     ksw: ["တၢ်ဃံ", "tâxi"],
     pwo: ["ဎွံၪ", "xwi"],

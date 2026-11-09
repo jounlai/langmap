@@ -947,7 +947,7 @@ WORDS.red = {
     kmb: ["kusuka", "kusuka"],
     lue: ["chichila", "tʃitʃila"],
     her: ["serandu", "serandu"],
-    xal: ["улан", "ulan"],
+    xal: ["улан", "uˈlan"],
     sg: ["bengba", "beŋɡba"],
     toi: ["salala", "salala"],
     peo: ["—", "—"],

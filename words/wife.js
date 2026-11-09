@@ -512,7 +512,7 @@ WORDS.wife = {
     ba: ["ҡатын", "qɑˈtɯ̞n"],
     eu: ["emazte", "emaste"],
     bbl: ["ფსტუ", "pstʼu"],
-    be: ["жонка", "ʐonka"],
+    be: ["жонка", "ˈʐonka"],
     bn: ["বেগম", "beɡom"],
     br: ["gwreg", "ɡwreːk"],
     bg: ["жена", "ʒɛˈna"],
@@ -528,14 +528,14 @@ WORDS.wife = {
     nl: ["vrouw", "vrɑu̯"],
     fi: ["vaimo", "ˈʋɑimo"],
     fkv: ["vaimo", "ʋɑimo"],
-    krl: ["akka", "ɑkːɑ"],
+    krl: ["akka", "ˈɑkːɑ"],
     olo: ["mučoi", "mutʃoi"],
     vep: ["ak", "ak"],
     et: ["naine", "ˈnɑine"],
     liv: ["nai", "nɑi"],
     sma: ["gåmma", "kɔmːa"],
     smj: ["áhkká", "ahːka"],
-    se: ["áhkká", "aːhkːaː"],
+    se: ["áhkká", "ˈaːhkːaː"],
     smn: ["kálgu", "kælɡu"],
     sms: ["ä´ǩǩ", "accçʲɘ"],
     sjd: ["а̄ххьк", "aːçːk"],
@@ -562,7 +562,7 @@ WORDS.wife = {
     ru: ["жена", "ʐɨˈna"],
     lt: ["žmona", "ʒmoˈna"],
     lv: ["sieva", "ˈsiɛva"],
-    is: ["eiginkona", "ɛijɪŋ̥kɔna"],  // A compound of kona 'woman'.
+    is: ["eiginkona", "ˈɛijɪŋ̥kɔna"],  // A compound of kona 'woman'.
     nn: ["hustru", "ˈhʉstrʉː"],
     no: ["hustru", "ˈhʉstrʉː"],
     sv: ["hustru", "hɵsːtrɵ"],
@@ -570,7 +570,7 @@ WORDS.wife = {
     en: ["wife", "waɪf"],
     ga: ["bean chéile", "bʲan̪ˠ ˈçeːlʲə"],  // A compound of bean 'woman'.
     cy: ["gwraig", "ɡwraɪɡ"],
-    la: ["uxor", "uksor"],
+    la: ["uxor", "ˈuksor"],
     fr: ["femme", "fam"],
     es: ["esposa", "esˈposa"],  // Mujer is also used.
     pt: ["esposa", "ɨʃˈpozɐ"],  // Mulher is also used.
@@ -583,7 +583,7 @@ WORDS.wife = {
     cv: ["арӑм", "ˈarəm"],
     sah: ["ойох", "ojox"],
     mn: ["эхнэр", "exner"],
-    xal: ["гергн", "ɡerɡen"],
+    xal: ["гергн", "ɡerˈɡen"],
     evn: ["асӣ", "asiː"],
     gld: ["аси", "azi"],
     ko: ["아내", "anɛ"],

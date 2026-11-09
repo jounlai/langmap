@@ -508,7 +508,7 @@ WORDS.paper = {
     ko_jeju: ["종이", "tɕoŋi"],
     tr: ["kâğıt", "caːˈɯt"],  // From Persian کاغذ.
     hi: ["काग़ज़", "kaːɣəz"],
-    kk: ["қағаз", "qɑʁɑz"],
+    kk: ["қағаз", "qɑˈʁɑz"],
     mr: ["कागद", "kaːɡəd"],
     mwr: ["कागद", "kaːɡəd"],
     fa: ["کاغذ", "kɒːˈɣæz"],  // From Sogdian; Wiktionary's chain queries an origin in Old Chinese 紙.

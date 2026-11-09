@@ -580,7 +580,7 @@ WORDS.twenty = {
     kw: ["ugens", "ʏɡənz"],
     crh: ["yigirmi", "jiɡirmi"],
     cs: ["dvacet", "ˈdvatsɛt"],
-    da: ["tyve", "tyːvə"],  // The unit behind halvfems, 90.
+    da: ["tyve", "ˈtyːvə"],  // The unit behind halvfems, 90.
     dar: ["гъал", "ʁal"],  // No opened source supports the route.
     dv: ["ވިހި", "ʋihi"],
     nl: ["twintig", "ˈtʋɪntəx"],
@@ -668,7 +668,7 @@ WORDS.twenty = {
     gd: ["fichead", "ˈfiçət̪"],
     shn: ["သၢဝ်း", "sʰaːw˥"],
     scn: ["vinti", "ˈvinti"],
-    sk: ["dvadsať", "dvatsːac"],
+    sk: ["dvadsať", "ˈdvatsːac"],
     sl: ["dvajset", "ˈdʋaːjsɛt"],
     so: ["labaatan", "labaːtan"],
     es: ["veinte", "ˈbeinte"],

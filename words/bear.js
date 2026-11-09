@@ -1317,7 +1317,7 @@ WORDS.bear = {
     yue: ["熊", "hʊŋ˨˩"],
     vi: ["gấu", "ɣəw˧˥"],
     th: ["หมี", "miː˩˩˦"],
-    id: ["beruang", "bəruaŋ"],
+    id: ["beruang", "bəˈruaŋ"],
     hi: ["भालू", "bʱaːluː"],
     de: ["Bär", "bɛːɐ̯"],
     fr: ["ours", "uʁs"],
@@ -1506,7 +1506,7 @@ WORDS.bear = {
     az: ["ayı", "ɑˈjɯ"], // was ["ayı", "aˈjɯ"] (vi dialect rules 2026-10-06)
     gag: ["ayı", "aˈjɯ"],
     crh: ["ayuv", "ajuw"],
-    tk: ["aýy", "ajɯ"],
+    tk: ["aýy", "aˈjɯ"],
     uz: ["ayiq", "ajiq"],
     kk: ["аю", "ajuw"],
     ky: ["аюу", "ɑˈjuː"], // was ["аюу", "ajuː"] (vi dialect rules 2026-10-06)
@@ -1519,7 +1519,7 @@ WORDS.bear = {
     ug: ["ئېيىق", "ejiq"],
     tyv: ["адыг", "adɯɣ"],
     alt: ["айу", "aju"],
-    cv: ["упа", "uba"],
+    cv: ["упа", "uˈba"],
     // Siberian Turkic renames the bear as a relative: 'grandfather', 'father'.
     sah: ["эһэ", "ehe"],
     dlg: ["эбэкээ", "ebekeː"],
@@ -1528,7 +1528,7 @@ WORDS.bear = {
     // --- Mongolic and Tungusic ----------------------------------------
     mn: ["баавгай", "baːwɡɛː"], // was ["баавгай", "baːwɡaj"] (vi dialect rules 2026-10-06)
     bxr: ["баабгай", "baːbɡaj"],
-    xal: ["аю", "aju"],
+    xal: ["аю", "aˈju"],
     mnc: ["ᠯᡝᡶᡠ", "ləfu"],
     // Evenki хомоты is the plain word; амака 'grandfather' is the hunting name.
     evn: ["хомоты", "xomoti"], // was ["хомоты", "homotɨ"] (vi dialect rules 2026-10-06)
@@ -1805,7 +1805,7 @@ WORDS.bear = {
     sgs: ["meška", "mʲɛʃka"],
     ltg: ["luocs", "luɔ̯tsʲsʲ"], // was ["luocs", "luots"] (vi dialect rules 2026-10-06)
     gv: ["maghouin", "maˈɣuːnʲ"],
-    mga: ["mathgamain", "maθɣəvənʲ"],
+    mga: ["mathgamain", "ˈmaθɣəvənʲ"],
 
     // --- 2026-08-31 bear pass 2: Caucasus, Uralic, Siberian (out_caucasus_uralic.tsv)
     ani: ["сей", "sej"],

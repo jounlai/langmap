@@ -691,7 +691,7 @@ WORDS.mobilephone = {
     no: ["mobil", "muˈbiːl"],  // Short for mobiltelefon 'mobile telephone', the everyday Norwegian word.
     hr: ["mobitel", "mǒbitel"],  // Blend of mobilni telefon 'mobile telephone', popularised by the Slovene operator Mobitel; Croatian Wikipedia calls it 'simply mobitel'.
     gan: ["手机", "siu˨˩˧ tɕi˦˨"],  // Literally 'hand machine', the same word as Standard Chinese 手机; it is the title of the Gan-language Wikipedia article.
-    fa: ["گوشی", "ɡuːʃiː"],  // Literally 'the ear-piece' (گوش 'ear'), first the handset of a landline phone; موبایل 'mobile' and formal تلفن همراه 'companion telephone' are also used.
+    fa: ["گوشی", "ɡuːˈʃiː"],  // Literally 'the ear-piece' (گوش 'ear'), first the handset of a landline phone; موبایل 'mobile' and formal تلفن همراه 'companion telephone' are also used.
     ha: ["wayar hannu", "wajar hanːuː"],  // Literally 'phone of the hand' (waya 'wire, phone' + hannu 'hand'); wayar salula 'cellular phone' is also used.
     yo: ["fóònù alágbèéká", "fóònù aláɡbèéká"],  // Literally 'phone that is carried about' (fóònù 'phone' + alágbèéká, built on gbé 'carry'); in speech often just fóònù.
     bar: ["Handy", "ˈhɛndi"],  // The German pseudo-anglicism Handy, usually explained from 'hand'; Bavarian Wikipedia gives Mobuitelefon as the formal alternative.
@@ -894,7 +894,7 @@ WORDS.mobilephone = {
     cpx: ["手机", "tsʰiu˦˥˧ ki˥˧˧"],  // Literally 'hand machine', the same word as Mandarin 手机.
     glk: ["گؤشي", "ɡoʃi"],  // Literally 'ear-piece', like Persian گوشی (گوش 'ear'), first the handset of a landline; مؤبايل 'mobile' is also used.
     ban: ["hapé", "hape"],  // From HP, the Indonesian initials of English 'handphone', read ha-pé.
-    li: ["mobielke", "mobilkə"],  // Literally 'little mobile', diminutive of mobiel 'mobile' as in Dutch mobieltje; gsm is the synonym, and the Mofers dialect says Hendie.
+    li: ["mobielke", "moˈbilkə"],  // Literally 'little mobile', diminutive of mobiel 'mobile' as in Dutch mobieltje; gsm is the synonym, and the Mofers dialect says Hendie.
     sco: ["mobile phone", "ˈmobəil fon"],  // The same word as in British English, 'mobile' for short; Scots Wikipedia uses it throughout.
     dag: ["nuchɛbaŋa", "nutʃɛbaŋa"],  // The Dagbani Wikipedia name for the mobile phone, distinct from ŋmeli baŋa 'telephone'; its make-up is not documented in the sources.
     tsg: ["silpun", "silpun"],  // From English 'cell phone', the Philippine Tausug word; Malaysian Tausug says hinpun 'handphone'.

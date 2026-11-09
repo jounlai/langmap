@@ -543,7 +543,7 @@ WORDS.week = {
     crs: ["semenn", "semɛn"],
     scn: ["simana", "siˈmana"],
     si: ["සතිය", "satija"],  // No opened source supports the route.
-    sk: ["týždeň", "tiːʒɟeɲ"],
+    sk: ["týždeň", "ˈtiːʒɟeɲ"],
     sl: ["teden", "ˈteːdɛn"],
     so: ["toddobaad", "todːobaːd"],
     es: ["semana", "seˈmana"],
@@ -579,7 +579,7 @@ WORDS.week = {
     vep: ["nedal'", "nedalʲ"],
     sma: ["våhkoe", "βɔhkuʌ"],  // From Norse.
     smj: ["vahkko", "vɑhːkuɔ"],  // Route by resemblance to the neighbouring forms (se); no etymology of its own.
-    se: ["vahkku", "vɑhkːu"],  // From Norse.
+    se: ["vahkku", "ˈvɑhkːu"],  // From Norse.
     smn: ["okko", "okːo"],
     sms: ["niä´t´tel", "niatʲtɛl"],  // No opened source supports the route.
     sjd: ["не̄дтӭль", "ɲeːdtʲeʎ"],

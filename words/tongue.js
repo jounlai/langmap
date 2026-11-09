@@ -238,7 +238,7 @@ WORDS.tongue = {
     ar: ["لسان", "lisaːn"],
     he: ["לשון", "laˈʃon"],
     tr: ["dil", "dil"],
-    fa: ["زبان", "zæbɒːn"],
+    fa: ["زبان", "zæˈbɒːn"],
     jpr: ["זבאן", "zæbɒːn"],
     prs: ["زبان", "zabɑːn"],
     trm: ["jip", "dʒip"],

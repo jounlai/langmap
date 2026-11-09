@@ -912,15 +912,15 @@ WORDS.olderbrother = {
     te: ["అన్న", "anːa"],  // From Proto-Dravidian *aṇṇa 'elder brother'; younger: తమ్ముడు.
     kn: ["ಅಣ್ಣ", "aɳːa"],  // From Proto-Dravidian *aṇṇa 'elder brother'; younger: ತಮ್ಮ.
     ml: ["ചേട്ടൻ", "tʃeːʈːan"],  // From Sanskrit jyeṣṭha 'eldest'; younger: അനിയൻ.
-    tg: ["ака", "aka"],  // A Turkic loan also used to address men respectfully; the Persian alternative is бародари калонӣ 'big brother'.
+    tg: ["ака", "aˈka"],  // A Turkic loan also used to address men respectfully; the Persian alternative is бародари калонӣ 'big brother'.
     wo: ["mag", "maɡ"],  // mag means 'older sibling' (an older brother is mag ju góor); younger: rakk.
     ha: ["wa", "waː"],  // Hausa also says yaya for an older sibling; younger: ƙane.
     si: ["අයියා", "ajəjaː"],  // Younger: මල්ලි.
     ug: ["ئاكا", "ɑkɑ"],  // From Proto-Turkic *āka 'elder brother'; also a polite address for an older man; younger: ئۇكا.
-    kk: ["аға", "ɑʁɑ"],  // From Proto-Turkic *āka; also 'uncle' and 'senior'; younger: іні.
+    kk: ["аға", "ɑˈʁɑ"],  // From Proto-Turkic *āka; also 'uncle' and 'senior'; younger: іні.
     ky: ["байке", "bɑjˈke"],  // The inherited Turkic ага is also used; younger: ини.
-    uz: ["aka", "aka"],  // From Proto-Turkic *āka; also a respectful 'sir' to an older man; younger: uka.
-    tk: ["aga", "aːʁa"],  // dogan is 'sibling' of either sex; younger: ini.
+    uz: ["aka", "aˈka"],  // From Proto-Turkic *āka; also a respectful 'sir' to an older man; younger: uka.
+    tk: ["aga", "aːˈʁa"],  // dogan is 'sibling' of either sex; younger: ini.
     mnc: ["ᠠᡥᡡᠨ", "axʊn"],  // From Proto-Tungusic *akun, like Oroqen akɪn; younger: ᡩᡝᠣ (deo).
     mn_cn: ["ᠠᠬ᠎ᠠ", "ɑχ"],  // Compare the Xianbei word *aqa behind Chinese 哥; younger: дүү (Cyrillic spelling).
     th_s: ["พี่บ่าว", "pʰiː˥˩ baːw˨˩"],  // Literally 'older-sibling man', with Southern Thai บ่าว 'young man'; younger: น้องบ่าว.
@@ -1016,7 +1016,7 @@ WORDS.olderbrother = {
     dsb: ["bratš", "bratʃ"],  // Lower Sorbian has no separate word: an older brother is staršy bratš, a younger one młodšy bratš (WOLD).
     crh: ["ağa", "aˈʁa"],  // From Proto-Turkic *āka, also 'uncle'; the northern dialect says aqa; younger: qardaş.
     tt: ["абый", "ɑˈbɯj"],  // Абый is an older brother, also used to address older men; younger: эне.
-    ba: ["ағай", "aʁaj"],  // From Proto-Turkic *āka, also any older male relative; younger: ҡусты or эне.
+    ba: ["ағай", "aˈʁaj"],  // From Proto-Turkic *āka, also any older male relative; younger: ҡусты or эне.
     mns: ["ка̄ӈк", "kaːŋk"],  // Mansi has separate words by age; younger: а̄пси.
     zh_wh: ["哥哥", "ko˥˥ ko"],  // Wuhan says 哥哥 for an older brother; younger: 弟弟.
     zh_km: ["哥哥", "ko˦˦ ko"],  // Kunming says 哥哥 for an older brother; younger: 弟弟.
@@ -1128,7 +1128,7 @@ WORDS.olderbrother = {
     fj: ["tuaka", "tuaka"],  // Tuaka (tuakana 'his elder sibling') is an older sibling of the same sex; a younger one is taci, and a woman's brother is gane.
     pis: ["brata", "brata"],  // Pijin uses brata for any brother; the eldest is the fasbon brata, 'first-born brother'.
     pap: ["ruman", "ruman"],  // Ruman is a sibling of either sex; an older brother is a ruman mayó, and ruman hòmber specifies a brother.
-    pdc: ["Bruder", "bruːdər"],  // Pennsylvania German adds an adjective for age, as in eldshtah Bruder, 'eldest brother'.
+    pdc: ["Bruder", "ˈbruːdər"],  // Pennsylvania German adds an adjective for age, as in eldshtah Bruder, 'eldest brother'.
     bxr: ["аха", "axa"],  // Аха is an older brother, also a respectful word for any older man; a younger sibling is дүү.
     naq: ["ǃgâsab", "ǃɡãːsab"],  // An older brother is kai ǃgâsab, 'big brother'; there is no separate word.
     bdq: ["ʼnhŏng", "ʔɲoŋ"],  // ʼNhŏng is an older sibling, with kơdră 'male' added for a brother; a younger sibling is oh.

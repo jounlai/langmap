@@ -80,7 +80,7 @@ WORDS.hundred = {
     nuf: ["ɕhɑ35", "ɕʰɑ˧˥"],
     pmi: ["re53", "re˥˧"],
     twm: ["chɛʔ53le31ŋe53", "cʰɛʔ˥˧le˧˩ŋe˥˧"],
-    id: ["seratus", "səratus"],
+    id: ["seratus", "səˈratus"],
     hi: ["सौ", "sɔː"],
     de: ["hundert", "ˈhʊndɐt"],
     fr: ["cent", "sɑ̃"],
@@ -500,7 +500,7 @@ WORDS.hundred = {
     // --- Austronesian -------------------------------------------------------
     paus: ["*RaCus", "RaCus"],
     omy: ["ratus", "ratus"],
-    ms: ["seratus", "səratus"],
+    ms: ["seratus", "səˈratus"],
     jv: ["satus", "satus"],
     kaw: ["ꦱꦠꦸꦱ꧀", "satus"],
     su: ["saratus", "saratus"],

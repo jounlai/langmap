@@ -490,7 +490,7 @@ WORDS.thousand = {
     da: ["tusind", "tuːsənə"],
     dar: ["азир", "azir"],  // No opened source supports the route.
     nl: ["duizend", "ˈdœy̯zənt"],
-    krl: ["tuhat", "tuhɑt"],
+    krl: ["tuhat", "ˈtuhɑt"],
     fi: ["tuhat", "ˈtuhɑt"],  // From Baltic.
     fkv: ["tuhat", "tuhɑt"],
     olo: ["tuhat", "tuhat"],
@@ -499,7 +499,7 @@ WORDS.thousand = {
     liv: ["tū’ontõ", "tuːˀontə"],  // No opened source supports the route.
     sma: ["tåvsene", "tʰɔβsɛnɛ"],  // No opened source supports the route.
     smj: ["tuvsán", "tʊvsan"],  // No opened source supports the route.
-    se: ["duhát", "tuhaːh"],
+    se: ["duhát", "ˈtuhaːh"],
     smn: ["tuhháát", "tuhːæːt"],  // Route by resemblance to the neighbouring forms (krl,fi,fkv); no etymology of its own.
     sms: ["dohat", "doxɒt"],  // No opened source supports the route.
     sjd: ["то̄а̄фант", "toːaːfant"],  // No opened source supports the route.
@@ -510,7 +510,7 @@ WORDS.thousand = {
     udm: ["сюрс", "sʲurs"],  // From Indo-Iranian.
     kpv: ["тысяча", "tɨɕatɕa"],  // From Russian.
     koi: ["тысяча", "tɨɕatɕa"],  // From Russian.
-    hu: ["ezer", "ɛzɛr"],  // From Iranian.
+    hu: ["ezer", "ˈɛzɛr"],  // From Iranian.
     kca: ["сюрас", "sʲuras"],  // From Indo-Iranian.
     mns: ["со̄ты̄р", "soːtɪːr"],  // From Indo-Iranian.
     hi: ["हज़ार", "həzaːɾ"],
@@ -539,7 +539,7 @@ WORDS.thousand = {
     sv: ["tusen", "ˈtʉːsɛn"],
     de: ["tausend", "ˈtaʊ̯zn̩t"],
     en: ["thousand", "ˈθaʊzənd"],
-    ga: ["míle", "mʲiːlʲə"],
+    ga: ["míle", "ˈmʲiːlʲə"],
     cy: ["mil", "mɪl"],
     la: ["mille", "ˈmiːlle"],
     fr: ["mille", "mil"],
@@ -577,7 +577,7 @@ WORDS.thousand = {
     ban: ["siu", "siu"],
     jv: ["ewu", "sewu"],
     iba: ["seribu", "səribu"],
-    pam: ["libu", "libu"],
+    pam: ["libu", "ˈlibu"],
     mad: ["saebu", "saebu"],
     mrw: ["nggibo", "ŋɡibo"],
     sm: ["afe", "afe"],

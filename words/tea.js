@@ -995,7 +995,7 @@ WORDS.tea = {
     khg: ["ཇ", "tɕa"],
     adx: ["ཇ་", "tɕa"],
     cbk: ["cha", "tʃa"],
-    yrl: ["xaa", "ʃaʔa"],
+    yrl: ["xaa", "ʃaˈʔa"],
     dak: ["waȟpe", "waχpe"],
     lkt: ["waȟpé", "waχpé"],
     ykg: ["чай", "tʃaj"], // was ["чаай", "tʃaːj"] (vi dialect rules 2026-10-06)

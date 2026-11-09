@@ -490,7 +490,7 @@ WORDS.egg = {
     glk: ["مرغانه", "murɣɒne"],
     crh: ["yımırta", "jɯmɯrta"],
     tt: ["күкәй", "kykæj"],
-    ba: ["йомортҡа", "jomortqa"],
+    ba: ["йомортҡа", "jomortˈqa"],
     kum: ["йымырткъа", "jɯmɯrtqa"],
     ee: ["koklozi", "koklozi"],
     ssw: ["licandza", "liǀandza"],

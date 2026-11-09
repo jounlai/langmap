@@ -2378,7 +2378,7 @@ WORDS.we = {
     nan_xm: ["咱 / 阮", "lan˥˧ / ɡun˥˧"], // was ["咱 / 阮", "lan˥˧ / ɡuan˥˧"] (vi dialect rules 2026-10-06)
     nan_zz: ["咱 / 阮", "lan˥˧ / ɡuan˥˧"],
     osa: ["ąkóta", "ãkóta"],
-    pmy: ["kitorang", "kitoraŋ"],
+    pmy: ["kitorang", "kiˈtoraŋ"],
     pot: ["ginan / ninan", "ɡinan / ninan"], // was ["kinan / ninan", "kinan / ninan"] (vi dialect rules 2026-10-06)
     pzh: ["ita / yami", "ita / jami"],
     wic: ["naciraːkʔih / nacaːkʔih", "natsiɾaːkʔih / natsaːkʔih"],

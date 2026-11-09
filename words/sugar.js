@@ -1151,7 +1151,7 @@ WORDS.sugar = {
     clk: ["pu31rɯm55", "pu˧˩rɯm˥˥"],
     acn: ["năm31muai31", "năm˧˩muai˧˩"],
     cbk: ["azucar", "aˈsukaɾ"], // was ["azucar", "aˈsukar"] (vi dialect rules 2026-10-06)
-    yrl: ["asukirí", "asukiɾi"],
+    yrl: ["asukirí", "asukiˈɾi"],
     gn: ["asuka", "asuka"],
     nhe: ["tzopelictli", "tsopeliktɬi"],
     nch: ["chanchaka", "tʃantʃaka"],

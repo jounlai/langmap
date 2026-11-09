@@ -293,7 +293,7 @@ WORDS.cotton = {
     car: ["mauru", "mauɾu"],
     cbk: ["algodon", "alɡoˈdon"],  // From Arabic qutn.
     ce: ["бамба", "bamba"],
-    ceb: ["gapas", "ɡapas"],  // From Sanskrit karpāsa.
+    ceb: ["gapas", "ˈɡapas"],  // From Sanskrit karpāsa.
     cho: ["pokpo", "pokpo"],
     ckb: ["لۆکە", "loka"],
     ckv: ["kpua", "kpua"],

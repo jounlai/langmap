@@ -462,7 +462,7 @@ WORDS.black = {
     jqr: ["tsʼirara", "tsʼiɾaɾa"],
     gn: ["hũ", "hũ"],
     gun: ["hũ", "hũ"],
-    yrl: ["pixuna", "piʃuna"],
+    yrl: ["pixuna", "piˈʃuna"],
     tpn: ["pixun", "piˈʃun"],
     kl: ["qernertoq", "qeɴːeχtoq"],
     atj: ["makatewaw", "makatewaw"],

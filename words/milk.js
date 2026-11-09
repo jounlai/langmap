@@ -54,7 +54,7 @@ WORDS.milk = {
     zh_wenyan_edu: ["乳", "jyː˩˧"],
     vi: ["sữa", "sɨə˧ˀ˥"],
     th: ["นม", "nom˧"],
-    id: ["susu", "susu"],
+    id: ["susu", "ˈsusu"],
     hi: ["दूध", "duːdʱ"],
     de: ["Milch", "mɪlç"],
     fr: ["lait", "lɛ"],
@@ -170,7 +170,7 @@ WORDS.milk = {
     ug: ["سۈت", "syt"],
     mn: ["сүү", "suː"],
     bo: ["འོ་མ", "oma˩˧"],
-    ms: ["susu", "susu"],
+    ms: ["susu", "ˈsusu"],
     tl: ["gatas", "ˈɡatas"],
     ceb: ["gatas", "ˈɡatas"],
     haw: ["waiū", "waiuː"],
@@ -586,7 +586,7 @@ WORDS.milk = {
     // Classical Nahuatl names it 'breast water' too.
     nci: ["chīchīhualāyōtl", "tʃiːtʃiːwalaːjoːtɬ"],
     gn: ["kamby", "kambɨ"],
-    gun: ["kamby", "kambɨ"],
+    gun: ["kamby", "kamˈbɨ"],
     tpn: ["kamby", "kamˈbɨ"],
 
     // --- Deep reconstructions, and the oldest writing --------------------------
@@ -965,7 +965,7 @@ WORDS.milk = {
     cnh: ["hnuk", "hnuk"],
     rwk: ["maruva", "maɾuva"],
     adi: ["anyun", "aɲun"],
-    ngu: ["chichiualatl", "tʃitʃiwalatɬ"],
+    ngu: ["chichiualatl", "tʃitʃiwaˈlatɬ"],
     cak: ["leche", "ˈletʃe"],
     gym: ["kian", "kiã"],
     ixl: ["chʼuʼ", "tʃʼuʔ"],

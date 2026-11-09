@@ -823,7 +823,7 @@ WORDS.grandmother = {
     yi: ["באָבע", "ˈbɔbə"],  // The Yiddish word for grandmother, also 'granny'. One word for either grandmother.
     af: ["ouma", "ˈœuma"],  // From Dutch oma; one word for either grandmother (grootmoeder is a synonym).
     swg: ["Ahna", "ˈõna"],  // An old inherited word (Old High German ana) rather than German Großmutter. One word for either grandmother.
-    pdc: ["Groossmammi", "ɡroːsːmami"],  // Built from German groß 'great' and English mommy. One word for either grandmother.
+    pdc: ["Groossmammi", "ˈɡroːsːmami"],  // Built from German groß 'great' and English mommy. One word for either grandmother.
     ca: ["àvia", "ˈaβiə"],  // One word for either grandmother (iaia is a synonym).
     gl: ["avoa", "aˈboa"],  // The Galician word for grandmother. One word for either grandmother.
     be: ["бабуля", "baˈbulʲa"],  // One word for either grandmother.
@@ -851,7 +851,7 @@ WORDS.grandmother = {
     te: ["నాన్నమ్మ", "naːnːamːa"],  // Literally 'father's mother' (nānna + amma); mother's mother: అమ్మమ్మ ammamma, 'mother's mother'.
     kn: ["ಅಜ್ಜಿ", "adʒːi"],  // One word for either grandmother.
     ml: ["അമ്മുമ്മ", "amːumːa"],  // Built on അമ്മ 'mother'; മുത്തശ്ശി muttaśśi is a synonym.
-    tg: ["бибӣ", "bibi"],  // One word for either grandmother, also a respectful title for older women; модаркалон, literally 'big mother', is a synonym.
+    tg: ["бибӣ", "biˈbi"],  // One word for either grandmother, also a respectful title for older women; модаркалон, literally 'big mother', is a synonym.
     ckb: ["داپیر", "daːpiːɾ"],  // One word for either grandmother (Wiktionary: 'maternal and paternal').
     ps: ["نيا", "njɑ"],  // The Pashto word for grandmother; انا anā is a synonym.
     az: ["nənə", "næˈnæ"],  // One word for either grandmother (in Urmia it means 'mother').

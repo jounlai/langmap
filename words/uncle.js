@@ -333,7 +333,7 @@ WORDS.uncle = {
     et: ["onu", "ˈonu"],
     eu: ["osaba", "os̺aba"],
     eve: ["этэ", "ətə"],
-    fa: ["عمو", "ʔamoː"],  // Father's brother; mother's brother is دایی.
+    fa: ["عمو", "ʔaˈmoː"],  // Father's brother; mother's brother is دایی.
     fi: ["setä", "ˈsetæ"],  // Father's brother; mother's brother is eno.
     fr: ["oncle", "ɔ̃kl"],
     frr: ["Oom", "oːm"],

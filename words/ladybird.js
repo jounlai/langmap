@@ -452,6 +452,6 @@ WORDS.ladybird = {
     krl: ["spuassunlehmä", "ˈspuɑ̯sːunlehmæ"],  // Spuassu 'the Saviour, Christ' + lehmä 'cow': the Saviour's cow.
     nn: ["marihøne", "ˈmɑːriˌhøːnə"],  // Mari 'Mary, the mother of Jesus' + høne 'hen'.
     tly: ["donəjən", "donəʒən"],  // Probably donə 'single grain or berry' plus jən, a stem of je.
-    koi: ["енӧшка", "jenɘʃka"],  // Possibly ен 'God' plus ӧшка; compare Russian божья коровка 'God's little cow'. The source gives its origin only as possible, so it is not counted as holy.
+    koi: ["енӧшка", "jeˈnɘʃka"],  // Possibly ен 'God' plus ӧшка; compare Russian божья коровка 'God's little cow'. The source gives its origin only as possible, so it is not counted as holy.
   },
 };

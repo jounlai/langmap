@@ -372,7 +372,7 @@ WORDS.person = {
     mer: ["muntũ", "munto"],
     meu: ["taunimanima", "taunimanima"],
     mfe: ["dimounn", "dimun"],
-    mga: ["duine", "dunʲe"],
+    mga: ["duine", "ˈdunʲe"],
     mhr: ["айдеме", "ajˈdeme"],
     mhy: ["ulun", "ulun"],
     mic: ["mimajuinu", "mimadʒuinu"],

@@ -551,7 +551,7 @@ WORDS.window = {
     km: ["បង្អួច", "bɑŋʔuəc"],
     lt: ["langas", "ˈlɑŋɡɐs"],
     sv: ["fönster", "ˈfœnstɛr"],
-    uk: ["вікно", "ʋiknɔ"],
+    uk: ["вікно", "ʋikˈnɔ"],
     xal: ["терз", "tertse"],
     mn: ["гэгээвч", "ɡeɡeːwtʃ"],
     koi: ["ӧшын", "ɘʃɨn"],
@@ -567,10 +567,10 @@ WORDS.window = {
     az: ["pəncərə", "pændʒæˈɾæ"],
     ba: ["тәҙрә", "tæðˈræ"],
     eu: ["leiho", "lei̯ho"],
-    be: ["акно", "akno"],
+    be: ["акно", "akˈno"],
     bn: ["জানালা", "dʒanala"],  // Borrowed from Portuguese janela.
     br: ["prenestr", "ˈprɛ̃ːnɛstr"],
-    bg: ["прозорец", "prɔzɔrɛts"],
+    bg: ["прозорец", "prɔˈzɔrɛts"],
     my: ["ပြတင်းပေါက်", "bədɪ́ɴbaʊʔ"],
     bxr: ["сонхо", "sɔŋxɔ"],
     ca: ["finestra", "fiˈnestɾə"],
@@ -581,19 +581,19 @@ WORDS.window = {
     kw: ["fenester", "ˈfɛnɛstɛr"],
     crh: ["pencere", "pendʒere"],
     cs: ["okno", "ˈokno"],
-    da: ["vindue", "vendu"],  // From Old Norse vindauga 'wind eye'.
+    da: ["vindue", "ˈvendu"],  // From Old Norse vindauga 'wind eye'.
     nl: ["raam", "raːm"],
     egl: ["fnèstra", "ˈfnɛːstra"],
     myv: ["вальма", "valʲma"],
     eo: ["fenestro", "feˈnestro"],  // Route by resemblance to the neighbouring forms (co,nap,pms); no etymology of its own.
     ee: ["fesre", "fesre"],  // Route by resemblance to the neighbouring forms (srn); no etymology of its own.
     fo: ["vindeyga", "ˈvɪntˌɛiːja"],
-    fi: ["ikkuna", "ikːunɑ"],  // Of Slavic origin, from the word for a window.
+    fi: ["ikkuna", "ˈikːunɑ"],  // Of Slavic origin, from the word for a window.
     fr: ["fenêtre", "fənɛtʁ"],  // From Latin fenestra, which Wiktionary traces to Etruscan.
     gl: ["fiestra", "fiˈɛstɾa"],
     ka: ["ფანჯარა", "pʰandʒaɾa"],  // From Persian پنجره.
     de: ["Fenster", "ˈfɛnstɐ"],  // From Latin fenestra.
-    el: ["παράθυρο", "paɾaθiɾo"],  // From Byzantine Greek παράθυρον.
+    el: ["παράθυρο", "paˈɾaθiɾo"],  // From Byzantine Greek παράθυρον.
     kl: ["igalaaq", "iɡalaaq"],
     gu: ["બારી", "ˈbaɾi"],
     ht: ["fenèt", "fenɛt"],
@@ -638,7 +638,7 @@ WORDS.window = {
     pt: ["janela", "ʒaˈnɛlɐ"],  // From Vulgar Latin, a 'little door'.
     pa: ["ਬਾਰੀ", "baːɾiː"],
     ro: ["fereastră", "feˈre̯astrə"],
-    ru: ["окно", "ɐkno"],  // From Proto-Slavic *okъno, related to the word for an eye.
+    ru: ["окно", "ɐkˈno"],  // From Proto-Slavic *okъno, related to the word for an eye.
     sco: ["windae", "ˈwɪndə"],
     gd: ["uinneag", "ˈɯɲak"],
     scn: ["finestra", "fiˈnɛʃːɽa"],
@@ -661,16 +661,16 @@ WORDS.window = {
     vo: ["fenät", "feˈnɛt"],
     vot: ["akkunõ", "ˈakːuna"],
     wa: ["finiesse", "fiɲɛs"],  // Route by resemblance to the neighbouring forms (fr); no etymology of its own.
-    cy: ["ffenestr", "fɛnɛstr"],
+    cy: ["ffenestr", "ˈfɛnɛstr"],
     xh: ["ifestile", "ifestiːle"],
     sah: ["түннүк", "tynːyk"],
     yi: ["פענצטער", "ˈfɛntstəʁ"],  // Route by resemblance to the neighbouring forms (nap,fy,sv); no etymology of its own.
     fkv: ["ikkuna", "ikːunɑ"],  // Route by resemblance to the neighbouring forms (vot); no etymology of its own.
-    olo: ["ikkun", "ikːun"],  // Route by resemblance to the neighbouring forms (fi,krl,fkv); no etymology of its own.
+    olo: ["ikkun", "ˈikːun"],  // Route by resemblance to the neighbouring forms (fi,krl,fkv); no etymology of its own.
     liv: ["lä’b", "læˀb"],
     sma: ["klaase", "kʰlɑːsɛ"],
     smj: ["vinndek", "vinːdɛk"],
-    se: ["láse", "laːse"],
+    se: ["láse", "ˈlaːse"],
     smn: ["laasâ", "lɑːsɐ"],
     sms: ["ikkân", "ikːɐn"],  // Route by resemblance to the neighbouring forms (vep,olo); no etymology of its own.
     sjd: ["эххкан", "exːkan"],

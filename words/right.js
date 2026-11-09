@@ -424,7 +424,7 @@ WORDS.right = {
     ce: ["аьтту", "ˈæːtːuː"],
     crh: ["oñ", "oŋ"],
     cs: ["pravý", "ˈpraviː"],
-    da: ["højre", "hɔjrə"],  // Comparative of a word for 'handy'.
+    da: ["højre", "ˈhɔjrə"],  // Comparative of a word for 'handy'.
     dlg: ["уӈа", "uŋa"],
     nl: ["rechts", "rɛxts"],
     myv: ["вить", "vitʲ"],
@@ -437,7 +437,7 @@ WORDS.right = {
     got: ["𐍄𐌰𐌹𐌷𐍃𐍅𐌰", "ˈtɛhswa"],
     el: ["δεξιός", "ðeksiˈos"],
     haw: ["ʻākau", "ʔaːkau"],  // Also 'north'.
-    he: ["ימין", "jamin"],
+    he: ["ימין", "jaˈmin"],
     hil: ["tuô", "tuʔo"],
     hi: ["दाहिना", "daːɦɪnaː"],
     hu: ["jobb", "jobː"],  // Literally 'better'.
@@ -484,7 +484,7 @@ WORDS.right = {
     sa: ["दक्ष", "dɐkʂɐ"],
     gd: ["deas", "tʲes̪"],  // Also 'south'.
     cjs: ["оң", "oŋ"],
-    sk: ["pravý", "praviː"],
+    sk: ["pravý", "ˈpraviː"],
     sl: ["desni", "ˈdɛsni"],  // Route by resemblance to the neighbouring forms (hr); no etymology of its own.
     so: ["midig", "midiɡ"],
     es: ["derecha", "deˈɾetʃa"],
@@ -513,7 +513,7 @@ WORDS.right = {
     krl: ["oikie", "ˈoikie"],  // No opened source supports the route.
     olo: ["oigei", "ˈoiɡei"],
     vep: ["oiged", "ˈoiɡed"],
-    liv: ["jõvā", "jɨvɑː"],
+    liv: ["jõvā", "ˈjɨvɑː"],
     sma: ["åelkies", "oælkiɛs"],
     smj: ["oalges", "uɔɑlɡɛs"],
     se: ["olgeš", "ˈolkeʃ"],

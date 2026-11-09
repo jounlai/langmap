@@ -534,7 +534,7 @@ WORDS.yellow = {
     jv: ["kuning", "kuniŋ"],  // Perhaps from a word for turmeric.
     xal: ["шар", "ʃaˈrə"],  // From Turkic.
     kn: ["ಹಳದಿ", "haɭadi"],
-    krl: ["keltani", "keltɑni"],
+    krl: ["keltani", "ˈkeltɑni"],
     csb: ["żôłti", "ˈʒɞwti"],
     kk: ["сары", "sɑɾə"],
     km: ["លឿង", "lɨəŋ"],  // From Thai.
@@ -617,7 +617,7 @@ WORDS.yellow = {
     olo: ["keldaine", "keldaine"],
     sma: ["viskes", "βiskɛs"],
     smj: ["visská", "visːka"],
-    se: ["fiskes", "fiskes"],
+    se: ["fiskes", "ˈfiskes"],
     smn: ["viskâd", "viskɐd"],
     sms: ["viskkâd", "viskːɐd"],
     mrj: ["сар", "sɑr"],

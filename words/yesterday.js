@@ -1257,7 +1257,7 @@ WORDS.yesterday = {
     aln: ["dje", "dje"],
     gu: ["કાલ", "kaːl"],  // tomorrow: કાલ; one word for both days, made explicit as ગઈ કાલ 'gone kaal' and આવતી કાલ 'coming kaal'.
     shi: ["ⵉⴹⴳⴰⵎ", "idˤɡam"],  // tomorrow: azkka.
-    bar: ["gestern", "ɡestɐn"],  // tomorrow: morgn; also heard as gesting or gestring.
+    bar: ["gestern", "ˈɡestɐn"],  // tomorrow: morgn; also heard as gesting or gestring.
     su: ["kamari", "kamari"],  // tomorrow: isuk (polite énjing), words that also mean 'morning'.
     gn: ["kuehe", "kʷehe"],  // tomorrow: ko'ẽrõ, built on ko'ẽ 'dawn'.
     pcm: ["yestade", "jɛstade"],  // tomorrow: tumoro; both from English.

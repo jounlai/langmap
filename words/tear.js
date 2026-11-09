@@ -415,7 +415,7 @@ WORDS.tear = {
     he: ["דמעה", "dimˈa"],
     hi: ["आँसू", "ɑ̃ːsuː"],
     hil: ["luha", "luha"],
-    hsb: ["sylza", "sɨlza"],
+    hsb: ["sylza", "ˈsɨlza"],
     ht: ["dlo je", "dlo ʒe"],  // Built from the words for eye and water or liquid. Compare je 'eye', dlo 'water'.
     hu: ["könny", "køɲː"],
     huz: ["ма̇къу", "ˈmɑqʼu"],
@@ -453,7 +453,7 @@ WORDS.tear = {
     lbe: ["макь", "maqʼ"],
     lez: ["вилин нагъв", "wilin naʁʷ"],  // Built on the word for eye (вил).
     liv: ["kīņḑõl", "ˈkiːɲɟəl"],
-    lt: ["ašara", "ɐʃɐrɐ"],
+    lt: ["ašara", "ˈɐʃɐrɐ"],
     ltg: ["osora", "ɔsɔra"],
     lus: ["mittui", "mittui"],  // Built from the words for eye and water or liquid. Compare mit 'eye', tui 'water'.
     lv: ["asara", "asara"],

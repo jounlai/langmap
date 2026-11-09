@@ -228,7 +228,7 @@ WORDS.daughter = {
     nds: ["Dochter", "ˈdɔxtɐ"],
     ksh: ["Doochter", "ˈdoːxtɐ"],
     vmf: ["Dochder", "dɔxdɐ"],
-    pdc: ["Dochder", "dɔxdər"],
+    pdc: ["Dochder", "ˈdɔxdər"],
     lb: ["Duechter", "ˈduəχtɐ"],
     de_ch: ["Tochter", "ˈtɔxtər"],
     de_lu: ["Tochter", "ˈtɔxtɐ"],

@@ -732,8 +732,8 @@ WORDS.monday = {
     th: ["วันจันทร์", "wan˧tɕan˧"],  // "Moon day": jan is the Moon (Sanskrit candra).
     lo: ["ວັນຈັນ", "ʋan˧˥ tɕan˩˧"],  // "Moon day", like Thai wan jan.
     km: ["ថ្ងៃច័ន្ទ", "tʰŋaj can"],  // thngai "day" + chan "moon".
-    id: ["Senin", "sənin"],  // From Arabic al-ithnayn, "the two" (the second day), via Malay.
-    ms: ["Isnin", "isnin"],  // From Arabic al-ithnayn, "the two" (the second day).
+    id: ["Senin", "səˈnin"],  // From Arabic al-ithnayn, "the two" (the second day), via Malay.
+    ms: ["Isnin", "ˈisnin"],  // From Arabic al-ithnayn, "the two" (the second day).
     jv: ["Senèn", "sənɛn"],  // Wiktionary asks whether it comes from Arabic al-ithnayn "the two" but does not say. Route by resemblance to the neighbouring forms (su(Senén) id(Senin)); no etymology of its own.
     tl: ["Lunes", "ˈlunes"],  // From Spanish lunes, "day of the Moon".
     haw: ["Pōʻakahi", "poːʔakahi"],  // pō "day" + ʻakahi "first": day one.
@@ -963,7 +963,7 @@ WORDS.monday = {
     ar_iq: ["الاثنين", "liθneːn"],  // "The two": the second day counting from Sunday; also said يوم الاثنين yoom li-thneen.
     ar_tn: ["الاثنين", "liθniːn"],  // "The two": the second day counting from Sunday, usually said with نهار nhār "day" before it.
     ar_ye: ["الاثنين", "alʔiθˈnajn"],  // "The two": the second day counting from Sunday.
-    fa: ["دوشنبه", "doʃæmbe"],  // do "two" + shanbe "Saturday": the second day after the Sabbath.
+    fa: ["دوشنبه", "doʃæmˈbe"],  // do "two" + shanbe "Saturday": the second day after the Sabbath.
     ku: ["duşem", "dʊˈʃɛm"],  // du "two" + şem "Saturday", a cognate of Persian doshanbe "two (days after) Saturday".
     my: ["တနင်္လာ", "tənɪ́ɴlà"],  // From Old Burmese tan-hnin-la; Burmese Wikipedia explains the last syllable as an old form of la "moon", making it "the moon day".
     bo: ["གཟའ་ཟླ་བ", "sa˩˨ta˩˨wa˥˥"],  // gza' "planet, weekday" + zla ba "moon": the moon's day.

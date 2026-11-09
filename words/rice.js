@@ -183,7 +183,7 @@ WORDS.rice = {
     as: ["চাউল", "saul"],
     ast: ["arroz", "aˈroθ"],
     av: ["пиринчӏ", "pirintʃʼ"],
-    ba: ["дөгө", "døɡø"],
+    ba: ["дөгө", "døˈɡø"],
     ban: ["baas", "baʔas"],
     bbc: ["boras", "boras"],
     bem: ["umupunga", "umupuŋɡa"],

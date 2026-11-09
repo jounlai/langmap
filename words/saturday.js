@@ -531,7 +531,7 @@ WORDS.saturday = {
     sn: ["Chitanhatu", "tʃitanhatu"],
     scn: ["sàbbatu", "ˈsabbatu"],
     si: ["සෙනසුරාදා", "senasuraːdaː"],
-    sk: ["sobota", "sɔbɔta"],
+    sk: ["sobota", "ˈsɔbɔta"],
     sl: ["sobota", "sɔˈboːta"],
     so: ["Sabti", "sabti"],
     st: ["Moqebele", "moǃebele"],
@@ -571,7 +571,7 @@ WORDS.saturday = {
     vep: ["sobat", "sobat"],
     sma: ["laavvadahke", "lɑːβːadahkɛ"],  // No opened source supports the route.
     smj: ["lávvodahka", "lavːuɔdɑhkɑ"],  // No opened source supports the route.
-    se: ["lávvordat", "laːvːɔrtɑh"],
+    se: ["lávvordat", "ˈlaːvːɔrtɑh"],
     smn: ["láṿárdâh", "læværdɐh"],  // Route by resemblance to the neighbouring forms (se); no etymology of its own.
     sms: ["sue´vet", "suɛvʲɛt"],  // No opened source supports the route.
     sjd: ["сӯветҍ", "suːvetʲ"],  // No opened source supports the route.

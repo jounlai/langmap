@@ -637,7 +637,7 @@ WORDS.money = {
     cv: ["укҫа", "ukɕa"],  // Route by resemblance to the neighbouring forms (tyv); no etymology of its own.
     kw: ["arghans", "ˈarxans"],
     cs: ["peníze", "ˈpɛɲiːzɛ"],  // Plural of peníz 'coin'.
-    da: ["penge", "pɛŋə"],  // A plural of penning 'coin', related to English penny.
+    da: ["penge", "ˈpɛŋə"],  // A plural of penning 'coin', related to English penny.
     dv: ["ފައިސާ", "faisaː"],
     nl: ["geld", "ɣɛlt"],
     myv: ["ярмак", "jarmak"],
@@ -713,7 +713,7 @@ WORDS.money = {
     olo: ["dengat", "deŋːat"],  // Route by resemblance to the neighbouring forms (ru); no etymology of its own.
     sma: ["vierhtie", "βiɛrhtiɛ"],
     smj: ["ruhta", "rʊhtɑ"],
-    se: ["ruhta", "ruhtɑ"],
+    se: ["ruhta", "ˈruhtɑ"],
     smn: ["ruttâ", "rutːɐ"],
     sms: ["teä´ǧ´ǧ", "tɛaɟɟʝʲɘ"],  // No opened source supports the route.
     sjd: ["те̄ӈӈьк", "tʲeːŋːjk"],  // No opened source supports the route.

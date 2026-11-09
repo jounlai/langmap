@@ -167,7 +167,7 @@ WORDS.butterfly = {
     ka: ["პეპელა", "pʼepʼela"],  // Reduplicated pe-pe-la.
     ar: ["فراشة", "faraːʃa"],  // farāša; the same word is used for moths.
     he: ["פרפר", "paʁˈpaʁ"],  // Reduplicated par-par.
-    fa: ["پروانه", "pæɾvɒːne"],  // parvāne also covers moths — the moth of the classical candle-flame topos.
+    fa: ["پروانه", "pæɾvɒːˈne"],  // parvāne also covers moths — the moth of the classical candle-flame topos.
     ku: ["perperîk", "pɛrpɛˈriːk"],  // Reduplicated per-per-.
     ps: ["پتنګ", "paˈtanɡ"],
     tr: ["kelebek", "celeˈbec"],  // Shared Turkic root with Azerbaijani kəpənək, Kazakh көбелек, Tatar күбәләк.

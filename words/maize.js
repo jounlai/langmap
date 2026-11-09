@@ -634,7 +634,7 @@ WORDS.maize = {
     mk: ["пченка", "ˈptʃɛnka"],
     sl: ["koruza", "kɔˈruːza"],
     cs: ["kukuřice", "ˈkukur̝ɪtsɛ"],
-    sk: ["kukurica", "kukuritsa"],
+    sk: ["kukurica", "ˈkukuritsa"],
     pl: ["kukurydza", "kukuˈrɨdza"],
     hu: ["kukorica", "ˈkukoritsɒ"],  // Borrowed from Serbo-Croatian kukuruz or Romanian cucuruz.
     ca: ["blat de moro", "ˈblad də ˈmoɾu"],  // Literally 'Moor's wheat'.

@@ -344,7 +344,7 @@ WORDS.tobacco = {
     co: ["tabaccu", "taˈbakku"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     crh: ["tütün", "tytyn"],
     cs: ["tabák", "ˈtabaːk"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
-    da: ["tobak", "tobak"],
+    da: ["tobak", "toˈbak"],
     nl: ["tabak", "taːˈbɑk"],
     eo: ["tabako", "taˈbako"],
     et: ["tubakas", "ˈtubakas"],  // Through Swedish or German.
@@ -397,7 +397,7 @@ WORDS.tobacco = {
     ru: ["табак", "tɐˈbak"],
     gd: ["tombaca", "t̪ʰəˈmaʰkə"],
     crs: ["taba", "taba"],
-    sk: ["tabak", "tabak"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    sk: ["tabak", "ˈtabak"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     sl: ["tobak", "toˈbak"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     so: ["buuri", "buːri"],
     es: ["tabaco", "taˈbako"],

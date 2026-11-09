@@ -743,7 +743,7 @@ WORDS.bat = {
     vi_s: ["dơi", "jəːj˧"],  // The same word as in the rest of Vietnam, with Southern j- for d-.
     th: ["ค้างคาว", "kʰaːŋ˦˥kʰaːw˧"],  // Of unknown origin, shared with Lao ຄ້າງຄາວ.
     id: ["kelelawar", "kələˈlawar"],  // Inherited from Proto-Austronesian *kula-la(m)baʀ; kalong is reserved for the large fruit bats.
-    ms: ["kelawar", "kəlawar"],  // A shortened form of kelelawar, inherited from Proto-Austronesian *kula-la(m)baʀ.
+    ms: ["kelawar", "kəˈlawar"],  // A shortened form of kelelawar, inherited from Proto-Austronesian *kula-la(m)baʀ.
     hi: ["चमगादड़", "tʃəmɡaːdəɽ"],  // Literally something like 'leather-jackal': carma 'skin' plus the root of गीदड़ 'jackal'.
     sa: ["अजिनपत्रा", "ɐdʑinɐpɐtɾaː"],  // Literally 'hide-winged': ajina 'animal hide' plus patra 'wing'.
     bn: ["বাদুড়", "baduɽ"],  // Inherited from a reconstructed Sanskrit *vālduḍa, shared with Odia and Hindi bādur.
@@ -977,7 +977,7 @@ WORDS.bat = {
     nog: ["ярганат", "jarʁaˈnat"],  // The Kipchak Turkic bat word shared with Bashkir ярғанат and Tatar ярканат. Route by resemblance to the neighbouring forms (ba(ярғанат) tt(ярканат)); no etymology of its own.
     ady: ["чэщбзыу", "tʃaɕbzəw"],  // Literally 'night bird': чэщ 'night' plus бзыу 'bird'.
     pa: ["ਚਮਗਿੱਦੜ", "tʃəmɡɪdːəɽ"],  // Literally something like 'leather-jackal': ਚਮ 'skin' plus ਗਿੱਦੜ 'jackal', the same make-up as Hindi चमगादड़.
-    fa: ["خفاش", "xoffɒːʃ"],  // Borrowed from Arabic خُفَّاش, from a verb meaning 'to be day-blind'; شب‌کور 'night-blind' is a native synonym.
+    fa: ["خفاش", "xofˈfɒːʃ"],  // Borrowed from Arabic خُفَّاش, from a verb meaning 'to be day-blind'; شب‌کور 'night-blind' is a native synonym.
     pcm: ["bat", "bat"],  // Taken over from English bat.
     cjy: ["夜壁蝠", "iɛ˦˥ piəʔ˨ fəʔ˨"],  // The Taiyuan word: 夜 'night' and 壁 'wall' added to 蝠, the old Chinese word for the bat.
     kn: ["ಬಾವಲಿ", "baːʋali"],  // A Dravidian word shared with Tamil vauvāl and Malayalam vavvāl.

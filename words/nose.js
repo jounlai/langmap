@@ -77,7 +77,7 @@ WORDS.nose = {
     pt_gw: ["naris", "naˈris"],
     pmt: ["ihu", "ihu"],
     abv: ["خشم", "xaʃim"],
-    afb: ["خشم", "xaʃim"],
+    afb: ["خشم", "ˈxaʃim"],
     acw: ["خشم", "xuʃum"],
     adx: ["སྣ", "hna"],
     slr: ["purun", "pʰurun"],

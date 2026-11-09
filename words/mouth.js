@@ -975,7 +975,7 @@ WORDS.mouth = {
     en_wc: ["mouth", "maʊθ"],
     tlh: ["nuj", "nudʒ"],
     fra_jer: ["bouoche", "bwɔʃ"],
-    pmy: ["mulut", "mulut"],
+    pmy: ["mulut", "ˈmulut"],
     ivv: ["vivi", "vivi"],
     njo: ["tebang", "tebaŋ"],
     uby: ["tʃʼa", "tʃʼa"],

@@ -460,7 +460,7 @@ WORDS.turkey = {
     ar_lev: ["ديك حبش", "diːk ħabaʃ"],  // Literally "Abyssinian (Ethiopian) rooster"; Wiktionary also lists North Levantine حبشة ḥabše.
     he: ["תרנגול הודו", "taʁneɡol hodu"],  // Literally "rooster of India" (הודו = India).
     tr: ["hindi", "hinˈdi"],  // Literally "Indian", named after India.
-    fa: ["بوقلمون", "buːʁælæmuːn"],  // Originally the name of a colour-changing Byzantine fabric, applied to the bird for its shifting feather colours; also means "chameleon".
+    fa: ["بوقلمون", "buːʁælæˈmuːn"],  // Originally the name of a colour-changing Byzantine fabric, applied to the bird for its shifting feather colours; also means "chameleon".
     prs: ["بوقلمون", "buːqalamuːn"],  // Originally the name of a colour-changing Byzantine fabric, applied to the bird for its shifting colours.
     es: ["pavo", "ˈpaβo"],  // From Latin pāvō "peacock": the peacock's name was extended to the new bird.
     es_mx: ["guajolote", "ɡwaxoˈlote"],  // Borrowed from Nahuatl huehxōlōtl, the Aztec name of the bird.

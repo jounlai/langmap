@@ -562,7 +562,7 @@ WORDS.camel = {
     sid: ["gaala", "ɡaːla"],
     szl: ["kamela", "kaˈmɛla"],
     sd: ["اٺ", "ʊʈʰʊ"],
-    sk: ["ťava", "cava"],  // Borrowed from Hungarian teve, from Turkic.
+    sk: ["ťava", "ˈcava"],  // Borrowed from Hungarian teve, from Turkic.
     sl: ["kamela", "kameːla"],
     so: ["geel", "ɡeːl"],  // An old borrowing from an undetermined Semitic source.
     es: ["camello", "kaˈmeʝo"],

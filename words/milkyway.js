@@ -402,7 +402,7 @@ WORDS.milkyway = {
     sa_edu: ["आकाशगङ्गा", "aːkaːɕɐɡɐŋɡaː"],  // Literally 'the sky Ganges'; the source of Hindi, Bengali, Gujarati and Marathi ākāśgaṅgā.
     ur: ["کہکشاں", "kəɦkəʃãː"],  // From Persian kahkashān, literally 'straw-dragging' (kāh 'straw'), the trail of spilled straw.
     mr: ["आकाशगंगा", "aːkaːʃɡəŋɡaː"],  // Literally 'the sky Ganges', from Sanskrit ākāśagaṅgā.
-    gu: ["આકાશગંગા", "aːkaːʃɡəŋɡaː"],  // Literally 'the sky Ganges', borrowed from Sanskrit; દૂધ ગંગા 'milk Ganges' is also listed.
+    gu: ["આકાશગંગા", "ˈaːkaːʃɡəŋɡaː"],  // Literally 'the sky Ganges', borrowed from Sanskrit; દૂધ ગંગા 'milk Ganges' is also listed.
     en: ["Milky Way", "ˈmɪlki weɪ"],  // A calque of Latin Via Lactea 'milky road', itself from Greek galaxías 'milky (circle)'.
     de: ["Milchstraße", "ˈmɪlçʃtʁaːsə"],  // Literally 'milk street', a calque of Latin Via Lactea.
     de_ch: ["Milchstrasse", "ˈmɪlçʃtraːsə"],  // Literally 'milk street'; spelled with ss in Switzerland, which does not use ß.
@@ -547,7 +547,7 @@ WORDS.milkyway = {
     av: ["ГӀачинух", "ʕatʃinuχ"],  // Literally 'the cows' path'.
     ace: ["Bima Sakti", "bima sakti"],  // The Indonesian name, after the hero Bima of the Mahabharata; Acehnese Wikipedia uses it as its title.
     vec: ["Via Làtea", "ˈvia ˈlatea"],  // Literally 'the milky way', the name Venetian uses for the bright band across the night sky.
-    udm: ["Кизилисюрес", "kiʑiʎiɕures"],  // Literally 'star road'; Udmurt also calls it Ӟазегсюрес 'goose road' and Лудӟазегсюрес 'wild-goose road'. First element equals the row's star cell кизили.
+    udm: ["Кизилисюрес", "kiʑiʎiɕuˈres"],  // Literally 'star road'; Udmurt also calls it Ӟазегсюрес 'goose road' and Лудӟазегсюрес 'wild-goose road'. First element equals the row's star cell кизили.
     aii: ["ܫܒܝܠ ܬܒܢܐ", "ʃəwiːl tɪwnaː"],  // Literally 'the path of the chaff', like Arabic درب التبانة; ܐܘܪܚܐ ܕܓܢܒܐ 'the road of the thieves' is a synonym.
     ng: ["Ekaladhidhi", "ekalaðiði"],  // The Oshindonga name for the Milky Way; its etymology is not given in the source.
     wa: ["Voye Sint-Djåke", "voːj sɛ̃ dʒɔːk"],  // Literally 'Saint James's Road': in August it stretches south-west from Wallonia, as if showing the pilgrims' way to Santiago de Compostela.

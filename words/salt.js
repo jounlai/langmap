@@ -309,7 +309,7 @@ WORDS.salt = {
     mrj: ["санзал", "sanzal"],
 
     // --- Caucasus -------------------------------------------------------
-    ce: ["туьха", "tyxa"],
+    ce: ["туьха", "ˈtyxa"],
     av: ["цӏам", "tsʼam"],
     lez: ["кьел", "qʼel"],
     ady: ["щыгъу", "ɕəʁʷ"],
@@ -534,7 +534,7 @@ WORDS.salt = {
     bto: ["asin", "aˈsin"],
     pam: ["asin", "ʔaˈsin"],
     pag: ["asin", "ʔaˈsin"],
-    tsg: ["asin", "asin"],
+    tsg: ["asin", "aˈsin"],
     h_tagalog: ["ᜀᜐᜒᜈ᜔", "aˈsin"],
     ch: ["asiga", "aˈsiɡa"],
     tet: ["masin", "ˈmasin"],

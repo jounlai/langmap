@@ -403,8 +403,8 @@ WORDS.milk = {
     mdf: ["лофца", "ˈloftsa"],
 
     // --- Caucasus ---------------------------------------------------------
-    ce: ["шура", "ʃura"],
-    inh: ["шура", "ʃura"],
+    ce: ["шура", "ˈʃura"],
+    inh: ["шура", "ˈʃura"],
     av: ["рахь", "rax"],
     lez: ["нек", "nek"],
     ady: ["щэ", "ɕa"],
@@ -433,7 +433,7 @@ WORDS.milk = {
     mt: ["ħalib", "ħaˈliːp"],
     syc: ["ܚܠܒܐ", "ħalβaː"],
     tru: ["ܚܠܒܐ", "ħalwo"],
-    aii: ["ܚܠܒܐ", "xalwa"],
+    aii: ["ܚܠܒܐ", "ˈxalwa"],
     ti: ["ጸባ", "tsʼɐba"],
     tig: ["ሐሊብ", "ħaliːb"],
     kab: ["ayefki", "ajəfki"],
@@ -769,7 +769,7 @@ WORDS.milk = {
     gum: ["pitsø", "pitsə"],
     udi: ["муч̍анакъ", "mutʃʼanaqʼ"],
     tet: ["susubeen", "susubeːn"],
-    pjt: ["ipi", "ipi"],
+    pjt: ["ipi", "ˈipi"],
     wbp: ["lampurnu", "lampuɳu"],
     aer: ["werlatye", "weɭatʲə"],
     kde: ["mavele", "mavele"],

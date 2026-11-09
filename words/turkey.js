@@ -549,7 +549,7 @@ WORDS.turkey = {
     vo: ["dindun", "dinˈdun"],  // Borrowed from French dindon, which goes back to coq d'Inde "rooster of India".
     mk: ["мисирка", "ˈmisirka"],  // Named after Egypt (Ottoman Turkish Mısır), from the false belief that turkeys came from there; the cock is мисир.
     os: ["гогыз", "ɡoɡɨz"],  // A Turkic borrowing meaning "blue bird".
-    ce: ["москал", "moskal"],  // Named after Moscow (Russian Москва); compare Lak оьрус аьнакӏи "Russian chicken".
+    ce: ["москал", "ˈmoskal"],  // Named after Moscow (Russian Москва); compare Lak оьрус аьнакӏи "Russian chicken".
     kw: ["yar Gyni", "jaːr ɡɪːni"],  // Literally "Guinea hen"; the cock is kulyek Gyni.
     srn: ["krakun", "krakun"],  // From Dutch kalkoen, which is named after Calicut (Kozhikode) in India.
     ast: ["pavu", "ˈpaβu"],  // From Latin pāvō "peacock", the same extension as Spanish pavo.

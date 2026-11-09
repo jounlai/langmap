@@ -502,7 +502,7 @@ WORDS.uncle = {
     szl: ["ujek", "ˈujɛk"],  // One word for the brother or brother-in-law of either parent, inherited from Old Polish ujek.
     yux: ["чаачаа", "tɕaːtɕaː"],  // One word for an elder brother of either parent; it also means elder brother.
     km: ["ពូ", "puː"],  // The source gives one word for uncle (also a pronoun for a man younger than one's parents) and does not say whether the two sides are told apart.
-    gu: ["કાકો", "kaːko"],  // The father's brother; the mother's brother is મામો māmo.
+    gu: ["કાકો", "ˈkaːko"],  // The father's brother; the mother's brother is મામો māmo.
     sah: ["абаҕа", "abaɣa"],  // Borrowed from Middle Mongol abaqa; the source does not say whether the father's and the mother's brother are told apart.
     lzz: ["ჯუმადი", "dʒumadi"],  // Inherited from Proto-Georgian-Zan 'big brother' and glossed 'mother or father's brother'; Laz has also borrowed Turkish emuca and dayi, which keep the two sides apart.
     ykg: ["чумуочиэ", "tʃumuotʃeː"],  // The father's older brother; the father's younger brother is өчидиэ, and the source gives no word for the mother's brother.

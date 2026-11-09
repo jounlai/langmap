@@ -577,7 +577,7 @@ WORDS.saturday = {
     sjd: ["сӯветҍ", "suːvetʲ"],  // No opened source supports the route.
     mrj: ["кукшыгечӹ", "kukʃəɣetʃɯ"],  // 'Dry day.'
     mhr: ["шуматкече", "ʃumatketʃe"],  // No opened source supports the route.
-    mdf: ["ёткши", "jotkʃi"],
+    mdf: ["ёткши", "ˈjotkʃi"],
     koi: ["пывсянлун", "pɨvɕanlun"],  // 'Bath day.'
     kpv: ["пывсянлун", "pɨvɕanlun"],  // 'Bath day.'
     kca: ["ӆапат хутмет хатӆ", "ɬapat xutmet xatɬ"],  // No opened source supports the route.

@@ -550,7 +550,7 @@ WORDS.shootingstar = {
     quc: ["achaq chʼimil", "atʃaq tʃʼimil"],  // Literally 'star excrement', achaq 'excrement' + chʼimil, the Totonicapán word for 'star' (Christenson's dictionary).
     mni: ["ꯊꯋꯥꯟꯃꯤꯆꯥꯛ ꯃꯊꯤ", "tʰəwanmitʃak mətʰí"],  // Literally 'star droppings', ꯊꯋꯥꯟꯃꯤꯆꯥꯛ 'star' + ꯃꯊꯤ 'faeces', the same image as Korean 별똥별 (Sharma's dictionary).
     et: ["langev täht", "lɑŋɡeʋ tæht"],  // Literally 'falling star', the everyday name for a meteor.
-    tsg: ["bulākaw", "bulaːkaw"],  // A word of its own, glossed 'meteor, comet, shooting star'; as bulākawan it also means 'hysterical'.
+    tsg: ["bulākaw", "bulaːˈkaw"],  // A word of its own, glossed 'meteor, comet, shooting star'; as bulākawan it also means 'hysterical'.
     kjp: ["ယှးယူ", "ʃá jɯ̀"],  // Literally 'star flies': ယှး 'star' + ယူ 'to fly'; it also covers a comet.
     mnw: ["သၞံၚ်ဂြဲု", "hnɔŋ krùi"],  // Shorto's Mon dictionary glosses it 'meteor': သၞံၚ် 'star' + ဂြဲု, which on its own means 'to be emaciated, wasted'.
     eu: ["izar iheskor", "is̻ar ieskor"],  // Literally "fleeing star" (iheskor "fugitive, fleeting"); Basque Wikipedia gives it, with izarloka and izar uxo, as the everyday name for a meteor.

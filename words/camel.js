@@ -645,7 +645,7 @@ WORDS.camel = {
     cop: ["ϫⲁⲙⲟⲩⲗ", "tʃaˈmuːl"],  // Bohairic; inherited from Demotic gmwl 'camel', itself borrowed from Semitic.
     got: ["𐌿𐌻𐌱𐌰𐌽𐌳𐌿𐍃", "ˈulbandus"],  // Of uncertain origin, usually linked to Greek ἐλέφας 'elephant'.
     orv: ["вельблѫдъ", "vʲelʲĭbludŭ"],  // Inherited from Proto-Slavic, which took it from Gothic ulbandus.
-    mhr: ["верблюд", "verbʎut"],  // Borrowed from Russian верблюд; тӱе is a synonym.
+    mhr: ["верблюд", "verˈbʎut"],  // Borrowed from Russian верблюд; тӱе is a synonym.
     pjt: ["auru", "auru"],  // No origin is recorded for it, so it counts as a word of its own.
     kaa: ["túye", "tyje"],  // Inherited from Proto-Turkic *tebe.
     sah: ["тэбиэн", "tebien"],  // From Proto-Mongolic *temexen, from Proto-Turkic *tebe; compare Turkish deve.

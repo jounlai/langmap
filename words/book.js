@@ -594,7 +594,7 @@ WORDS.book = {
     egl: ["lîber", "ˈliːber"],
     ce: ["жайна", "ʒajna"],
     tpi: ["buk", "buk"],
-    srn: ["buku", "buku"],
+    srn: ["buku", "ˈbuku"],
     wal: ["maxaafaa", "matʼaːfaː"],
     sid: ["maxaafa", "matʼaːfa"],
     thr: ["किताब", "kitaːb"],

@@ -744,7 +744,7 @@ WORDS.thumb = {
     io: ["polexo", "poˈlekso"],  // A word of its own, from the same root as Latin pollex 'thumb'.
     pa: ["ਅੰਗੂਠਾ", "əŋɡuːʈʰaː"],  // From Sanskrit aṅguṣṭha 'thumb, big toe'; the same word also names the big toe.
     mr: ["अंगठा", "əŋɡʈʰaː"],  // From Sanskrit aṅguṣṭha 'thumb, big toe'; the same word also names the big toe.
-    gu: ["અંગૂઠો", "əŋɡuːʈʰo"],  // From Sanskrit aṅguṣṭha 'thumb, big toe'; the same word also names the big toe.
+    gu: ["અંગૂઠો", "ˈəŋɡuːʈʰo"],  // From Sanskrit aṅguṣṭha 'thumb, big toe'; the same word also names the big toe.
     mnc: ["ᡶᡝᡵᡥᡝ", "fərxə"],  // Inherited Tungusic word, probably related to Mongolian erekei 'thumb'.
     sco: ["thoum", "θum"],  // Same word as English thumb, from Old English þūma.
     af: ["duim", "dœym"],  // From Dutch duim, a cognate of English thumb.
@@ -825,7 +825,7 @@ WORDS.thumb = {
     ast: ["pulgar", "pulˈɣaɾ"],  // From Latin pollicaris, built on pollex 'thumb'; dedón 'big finger' is also used.
     rup: ["pilicar", "piliˈkar"],  // From Latin pollicaris (from pollex 'thumb'); the same word also means the big toe, and the variant pulicar is common.
     ruq: ["pulicar", "puliˈkar"],  // From Latin pollicaris, built on pollex 'thumb'.
-    udm: ["пӧлы", "pɘlɨ"],  // Inherited from Proto-Uralic *pälkä 'thumb', the same word as Finnish peukalo.
+    udm: ["пӧлы", "pɘˈlɨ"],  // Inherited from Proto-Uralic *pälkä 'thumb', the same word as Finnish peukalo.
     myv: ["пелька", "pelʲka"],  // Inherited from Proto-Uralic *pälkä 'thumb', the same word as Finnish peukalo.
     kpv: ["пев", "pev"],  // Inherited from Proto-Uralic *pälkä 'thumb', cognate with Udmurt пӧлы and Finnish peukalo.
     ba: ["баш бармаҡ", "bɑʃ bɑrˈmɑq"],  // Literally 'head finger', баш 'head, main' + бармаҡ 'finger', as in Turkish başparmak; it also means the big toe.

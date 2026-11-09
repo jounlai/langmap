@@ -978,7 +978,7 @@ WORDS.olderbrother = {
     ja_kanbun: ["兄", "ani"],  // In kanbun reading 兄 is read あに, the elder brother, as against 弟 おとうと, the younger.
     vi_nom: ["英", "aɲ˧"],  // Vietnamese anh, written 英 in Nôm, is an elder brother; a younger one is em trai, 'male younger sibling'.
     ce: ["ваша", "u̯aʃa"],  // Chechen has no separate word: an older brother is воккхаха волу ваша, 'the brother who is bigger'.
-    inh: ["воша", "voʃa"],  // Ingush has no separate word: an older brother is воакхагIавола воша, 'the brother who is bigger' (IDS).
+    inh: ["воша", "ˈvoʃa"],  // Ingush has no separate word: an older brother is воакхагIавола воша, 'the brother who is bigger' (IDS).
     av: ["вац", "wats"],  // Avar has no separate word: кІудияв вац is the big brother, гьитІинав вац the little one (IDS).
     lez: ["стха", "stχa"],  // Lezgian has no separate word: чІехи стха is the big brother, гъвечІи стха the small one (IDS).
     eo: ["frato", "ˈfrato"],  // Esperanto has no separate word: an older brother is a pli aĝa frato, 'older brother'.
@@ -1009,8 +1009,8 @@ WORDS.olderbrother = {
     dng: ["гәгә", "kə˨˦kə"],  // Dungan гәгә is Mandarin 哥哥 'elder brother' written in Cyrillic.
     kpv: ["вок", "vok"],  // Komi has no separate word: an older brother is ыджыд вок 'big brother' (IDS).
     udm: ["агай", "aɡaj"],  // A Turkic loan (compare Tatar агай), also meaning 'uncle'; younger: вын.
-    mhr: ["иза", "iza"],  // Inherited from Proto-Uralic *ićä; also used for a father's younger brother; younger: шольо.
-    mrj: ["ӹзӓ", "ɯzæ"],  // Cognate with Meadow Mari иза, from Proto-Uralic *ićä; younger: шоля.
+    mhr: ["иза", "iˈza"],  // Inherited from Proto-Uralic *ićä; also used for a father's younger brother; younger: шольо.
+    mrj: ["ӹзӓ", "ˈɯzæ"],  // Cognate with Meadow Mari иза, from Proto-Uralic *ićä; younger: шоля.
     myv: ["леля", "lʲelʲa"],  // Леля is an elder brother (also 'uncle'); younger: ялакс.
     mdf: ["альняка", "ˈalʲnʲakə"],  // Moksha альняка means specifically an elder brother; the general words for brother are пяльне and дуган (NorthEuraLex).
     dsb: ["bratš", "bratʃ"],  // Lower Sorbian has no separate word: an older brother is staršy bratš, a younger one młodšy bratš (WOLD).
@@ -1343,7 +1343,7 @@ WORDS.olderbrother = {
     vec: ["fradeło", "fraˈdɛo"],  // Venetian fradeło is a brother of any age; an older brother is said with a phrase, fradeło mazor.
     lmo: ["fradell", "fraˈdɛl"],  // Lombard fradell, from Latin frātellus, is a brother of any age; an older brother is said with a phrase, fradel magior.
     zza: ["bra", "bɾa"],  // Zazaki bra, also written bira or bıra, is a brother of any age; an older brother is said with a phrase, birayo pîl 'big brother'.
-    srn: ["brada", "brada"],  // From English brother; no source seen says whether Sranan has a separate older-brother word.
+    srn: ["brada", "ˈbrada"],  // From English brother; no source seen says whether Sranan has a separate older-brother word.
     mzn: ["برار", "bərɒːɾ"],  // Inherited from Proto-Iranian *bráHtā 'brother'; no source seen settles whether an older brother has his own word.
     sdh: ["برا", "bɪɾɑː"],  // Southern Kurdish bira is 'brother'; no source seen settles whether kaka is used for an older brother as in Sorani.
     bej: ["san", "san"],  // Beja san is 'brother'; the family terms list gives no separate older-brother word, but no source says so outright.

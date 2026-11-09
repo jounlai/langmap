@@ -101,7 +101,7 @@ WORDS.butterfly = {
     cjy: ["蝴蝶", "xu˦˥ tiəʔ˥˦"],  // the general Chinese word; earlier written 胡蝶. Taiyuan also has the diminutive 蝴蝶兒
     ckb: ["پەپوولە", "papuːla"],  // a reduplicated pe-pû-le, matching Kurmanji p'irp'irok, Zazaki filfilik and Hebrew parpar; Sorani keeps it distinct from پەروانە perwane 'moth'
     dak: ["kímama", "kímama"],  // reduplicative in shape; Riggs also records the diminutive kimamana, Williamson a variant kimimana
-    gu: ["પતંગિયું", "pətəŋɡijũ"],  // a diminutive of પતંગ patang 'flying insect, moth' (Sanskrit pataṅgá 'flying creature', Turner CDIAL p. 436) - a different root from the titlī of Hindi-Urdu-Punjabi
+    gu: ["પતંગિયું", "ˈpətəŋɡijũ"],  // a diminutive of પતંગ patang 'flying insect, moth' (Sanskrit pataṅgá 'flying creature', Turner CDIAL p. 436) - a different root from the titlī of Hindi-Urdu-Punjabi
     hil: ["alibangbang", "ʔaliˈbaŋbaŋ"],  // reduplicated -bangbang, from Proto-Malayo-Polynesian *baŋbaŋ; the same word names the Bauhinia tree, for its butterfly-shaped leaves
     kg: ["lumbembambemba", "lumbembambemba"],  // reduplicated stem -bemba-bemba with class 10 lu- prefix
     ki: ["kĩĩhuruta", "keːhuruːta"],  // class 7 noun (pl. ciĩhuruta); covers moths as well as butterflies
@@ -114,7 +114,7 @@ WORDS.butterfly = {
     mus: ["tvffolupv", "təfːolopa"],  // formation not stated in the source
     nan: ["蝶仔", "iaʔ˦ a˥˧"],  // native Hokkien word on the root ia̍h; the first syllable is also written 美/尾, so its morpheme is unsettled. Northern Taiwan often says 蝶仔 ia̍h-á, and the literary 蝴蝶 ôo-tia̍p also exists
     or: ["ପ୍ରଜାପତି", "pɾɔdʒaːpɔti"],  // the Sanskrit divine name prajāpati 'lord of creatures' used for the insect; Bengali প্রজাপতি is the same
-    pa: ["ਤਿਤਲੀ", "tɪtliː"],  // same word as Hindi-Urdu titlī, from Prakrit tittiri- (Turner CDIAL p. 331)
+    pa: ["ਤਿਤਲੀ", "ˈtɪtliː"],  // same word as Hindi-Urdu titlī, from Prakrit tittiri- (Turner CDIAL p. 331)
     pjt: ["pinta-pinta", "pintapinta"],  // reduplicated; the dictionary glosses it 'butterfly, moth', so it covers moths too
     qu: ["pillpintu", "piʎˈpintu"],  // covers Lepidoptera generally, i.e. moths as well
     sat: ["ᱯᱤᱯᱤᱲᱤᱭᱟᱹᱝ", "pipiɽijɔŋ"],  // Ol Chiki spelling varies across sources (ᱯᱤᱯᱲᱤᱚᱝ is also attested); Campbell's 1899 example 'the moth was burnt' shows the word covers moths too
@@ -186,10 +186,10 @@ WORDS.butterfly = {
     olo: ["liipukku", "ˈliːpukːu"],
     vep: ["lipkaine", "ˈlipkaine"],
     liv: ["li’bla’bbiņ", "ˈliˀblɑˀbːiɲ"],  // Reduplicated lib-lab- with vowel alternation; NorthEuraLex records a second Livonian form libālabā.
-    kpv: ["бобув", "bobuv"],  // Reduplicated bo-buv; cf. Komi-Permyak бабыв and Udmurt бубыли.
+    kpv: ["бобув", "ˈbobuv"],  // Reduplicated bo-buv; cf. Komi-Permyak бабыв and Udmurt бубыли.
     koi: ["бабыв", "babɨv"],  // Reduplicated ba-bɨv.
-    udm: ["бубыли", "bubɨlʲi"],  // Reduplicated bu-bɨ-.
-    mhr: ["лыве", "ləve"],
+    udm: ["бубыли", "bubɨˈlʲi"],  // Reduplicated bu-bɨ-.
+    mhr: ["лыве", "ˈləve"],
     mrj: ["лӹпӹ", "lɯpɯ"],  // Reduplicative lɨ-pɨ shape.
     myv: ["нимиляв", "nʲimʲilʲav"],
     mdf: ["мелав", "mʲelav"],
@@ -212,7 +212,7 @@ WORDS.butterfly = {
     ckt: ["ӄопаԓготкочьын", "qopaɬɣotkotɕʔən"],
     itl: ["вэвэчҳ", "βeβetʃχ"],  // Reduplicated ve-ve-.
     ess: ["яӄылъыӈытаӄ", "jaqɨɬɨŋɨtaq"],
-    ce: ["полла", "polːa"],
+    ce: ["полла", "ˈpolːa"],
     av: ["кӏалкӏучӏ", "kʼalkʼutʃʼ"],  // Reduplicative kʼal-kʼu-. IDS records a dozen different Avar dialect words for this one insect.
     lez: ["чепелукь", "tʃepeluqʼ"],
     dar: ["къабулдан", "qːabuldan"],  // IDS records eighteen different Dargwa dialect words for this one insect.
@@ -500,7 +500,7 @@ WORDS.butterfly = {
     pms: ["parpajon", "parpaˈjuŋ"],
     bs: ["leptir", "ˈleptiːr"],
     jam: ["botaflai", "bɔtaflai"],
-    srn: ["kapelka", "kapelka"],
+    srn: ["kapelka", "kaˈpelka"],
     sid: ["billaachcha", "bilːaːtʃːa"],
     aa: ["laahintí", "laːhinti"],
     shy: ["aferṭeṭṭu", "afərtˤətˤːu"],
@@ -550,7 +550,7 @@ WORDS.butterfly = {
     sda: ["kalubambang", "kalubambaŋ"],
     tzh: ["pejpen", "pehpen"],
     mam: ["pakaʼl", "pakaʔl"],
-    aii: ["ܦܪܚܘܢܝܬܐ", "parxoniːta"],
+    aii: ["ܦܪܚܘܢܝܬܐ", "parxoˈniːta"],
     mt: ["farfett", "farˈfɛt"],
     dty: ["पुतली", "putəli"],
     tly: ["lüləpər", "lyləpəɾ"],
@@ -575,7 +575,7 @@ WORDS.butterfly = {
     swg: ["Schmeddrleng", "ˈʃmɛdɐlɛŋ"],
     fy: ["flinter", "ˈflɪntər"],
     kea: ["borboléta", "boɾboˈlɛtɐ"],
-    tyv: ["ховаган", "xoβaɣan"],
+    tyv: ["ховаган", "xoβaˈɣan"],
     bxr: ["эрбээхэй", "erbeːxej"],
     pdt: ["Sommavoagel", "ˈzɔmafoəɡəl"],
     pis: ["bataflae", "bataflae"],

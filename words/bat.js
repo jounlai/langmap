@@ -703,7 +703,7 @@ WORDS.bat = {
   data: {
     lb: ["Fliedermaus", "ˈfliə̯dɐmæʊ̯s"],  // A 'flutter-mouse': the second element is Maus 'mouse', as in German Fledermaus.
     gun: ["mbopi", "mboˈpi"],  // The same word as Paraguayan Guarani mbopi 'bat'. Unrelated to anguja 'mouse' and guyra 'bird'.
-    acw: ["خفاش", "xuffaːʃ"],  // Inherited from Arabic خُفَّاش, from a verb meaning 'to be day-blind'.
+    acw: ["خفاش", "xufˈfaːʃ"],  // Inherited from Arabic خُفَّاش, from a verb meaning 'to be day-blind'.
     es_pr: ["murciélago", "muɾˈsjelaɣo"],  // From Old Spanish murciego, Vulgar Latin mūs caecus 'blind mouse', with a diminutive suffix.
     es_do: ["murciélago", "muɾˈsjelaɣo"],  // From Old Spanish murciego, Vulgar Latin mūs caecus 'blind mouse', with a diminutive suffix.
     es_gt: ["murciélago", "muɾˈsjelaɣo"],  // From Old Spanish murciego, Vulgar Latin mūs caecus 'blind mouse', with a diminutive suffix.
@@ -758,7 +758,7 @@ WORDS.bat = {
     pt: ["morcego", "muɾˈseɡu"],  // From Vulgar Latin mūs caecus, 'blind mouse'.
     pt_br: ["morcego", "moʁˈseɡu"],  // From Vulgar Latin mūs caecus, 'blind mouse'.
     ru: ["летучая мышь", "lʲɪˈtutɕɪjə ˈmɨʂ"],  // Literally 'flying mouse'.
-    ar: ["خفاش", "xuffaːʃ"],  // From the verb خَفِشَ 'to be day-blind', after the bat's supposed poor sight by day.
+    ar: ["خفاش", "xufˈfaːʃ"],  // From the verb خَفِشَ 'to be day-blind', after the bat's supposed poor sight by day.
     he: ["עטלף", "ataˈlef"],  // The everyday Hebrew word for the bat. Unrelated to עכבר 'mouse' and ציפור 'bird'; Aramaic has the same word.
     tr: ["yarasa", "jaɾaˈsa"],  // Inherited from a Proto-Turkic word for 'bat', *yar-.
     sw: ["popo", "ˈpopo"],  // The everyday Swahili word; figuratively it also means 'a traitor'. Unrelated to panya 'mouse' and ndege 'bird'.

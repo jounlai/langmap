@@ -486,7 +486,7 @@ WORDS.dragonfly = {
     nuf: ["ɹi35liɯ31liɯ31ɑ31", "ɹi˧˥liɯ˧˩liɯ˧˩ɑ˧˩"],  // Etymology not given by the source. No image is recorded for it, so it counts as a word of its own.
     awa: ["भँभीरी", "bʱə̃bʱiːriː"],  // McGregor marks the word as Braj and Awadhi; it also names a butterfly and a child's spinning top. Route by resemblance to the neighbouring forms (ur بھنبھیری); no etymology of its own.
     sd: ["ڀنڀوري", "bʱənbʱuːɾiː"],  // Mewaram (1910) records it with a variant ڀۇنڀۇريِ; it is related to Hindi-Urdu bhaṅbhīrī. Route by resemblance to the neighbouring forms (ur بھنبھیری); no etymology of its own.
-    gu: ["વાણિયો", "ʋaːɳijo"],  // The same word means a member of the Bania merchant caste, or a merchant; no source says how the insect got the name.
+    gu: ["વાણિયો", "ˈʋaːɳijo"],  // The same word means a member of the Bania merchant caste, or a merchant; no source says how the insect got the name.
     ps: ["ستن", "stən"],  // The word for 'needle' (also 'pin', 'pillar'), used for the dragonfly's long thin body.
     mg: ["angidina", "aŋˈɡidina"],  // The ordinary Malagasy name, used for the adult of the water nymph called ondrindrano. No image is recorded for it, so it counts as a word of its own.
     kk: ["инелік", "ɪjneˈlɪk"],  // The Kazakh word for dragonflies and damselflies (Odonata); Kyrgyz has the similar ийнелик. Route by resemblance to the neighbouring forms (ky(ийнелик)); no etymology of its own.

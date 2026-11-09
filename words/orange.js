@@ -910,7 +910,7 @@ WORDS.orange = {
     nbl: ["orentji", "orentʃi"],
     lzz: ["ფოტუკალი", "pʰotʼukʼali"],
     bo: ["ཚ་ལུ་མ", "tsʰə˥lu˥mə"],
-    ady: ["тӏамы", "tʼaːmə"],
+    ady: ["тӏамы", "tʼˈaːmə"],
     tab: ["партахал", "partaχal"],
     sg: ["orânze", "orãzɛ"],
     dyu: ["lemuruba", "lemuruba"],
@@ -1351,7 +1351,7 @@ WORDS.orange = {
     crs: ["zoranz", "zorãz"], // was ["zoranz", "zoʁãz"] (vi dialect rules 2026-10-06)
     gcf: ["zowanj", "zowãʒ"],
     bqi: ["پرتقال", "poɾteɣɒl"],
-    srn: ["apresina", "apresina"], // was ["alanya", "alaɲa"] (r29 fix 2026-10-02)
+    srn: ["apresina", "apreˈsina"], // was ["alanya", "alaɲa"] (r29 fix 2026-10-02)
     ja_kg: ["オレンジ", "oɾendʑi"],
     ja_sd: ["オレンジ", "oɾendʑi"],
     ko_hg: ["오렌지", "oɾendʑi"],

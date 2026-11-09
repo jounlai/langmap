@@ -160,7 +160,7 @@ WORDS.honey = {
     yi: ["האָניק", "ˈhɔnɪk"],
 
     // --- Balto-Slavic and Indo-Iranian: the *médʰu branch --------------
-    prg: ["meddo", "medo"],
+    prg: ["meddo", "ˈmedo"],
     lt: ["medus", "mʲɛˈdʊs"],
     lv: ["medus", "ˈmædus"],
     cu: ["медъ", "medŭ"],
@@ -475,7 +475,7 @@ WORDS.honey = {
     liv: ["mež", "mɛʒ"],
     mrj: ["мӱ", "my"],
     mdf: ["медь", "mʲedʲ"],
-    udm: ["чечы", "tɕetɕɨ"],
+    udm: ["чечы", "tɕeˈtɕɨ"],
     koi: ["ма", "ma"],
     kca: ["мав", "maw"],
     mns: ["ма̄г", "maːɣ"],
@@ -625,7 +625,7 @@ WORDS.honey = {
     rhg: ["moudu", "moudu"],
     cjs: ["пал", "pal"],
     sid: ["malawo", "malawo"],
-    srn: ["oni", "oni"],
+    srn: ["oni", "ˈoni"],
     sva: ["თუ", "tʰu"],
     tsg: ["tunub", "tunub"],
     tet: ["bani-been", "bani-beːn"],

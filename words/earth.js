@@ -155,7 +155,7 @@ WORDS.earth = {
     as: ["মাটি", "mati"],
     pa: ["ਮਿੱਟੀ", "mɪʈːiː"],
     pnb: ["مٹی", "mɪʈːiː"],
-    gu: ["માટી", "maːʈiː"],
+    gu: ["માટી", "ˈmaːʈiː"],
     mr: ["माती", "maːtiː"],
     ne: ["माटो", "maːʈo"],
     si: ["පස", "pasə"],
@@ -587,7 +587,7 @@ WORDS.earth = {
     lua: ["buloba", "buloba"],
     ja_oki: ["んーちゃ", "ɴːtɕa"],
     ko_gor: ["轄希", "*holki"],
-    ce: ["латта", "latta"],
+    ce: ["латта", "ˈlatta"],
     alt: ["јер", "dʲer"],
     krc: ["топракъ", "topˈraq"],
     za: {

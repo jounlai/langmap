@@ -547,7 +547,7 @@ WORDS.germany = {
     it: ["Germania", "dʒerˈmaːnja"],  // From Latin Germania (Wiktionary).
     pnb: ["جرمنی", "dʒəɾməniː"],  // Borrowed from English Germany (Wiktionary).
     th: ["เยอรมนี", "jɤː˧ra˦˥ma˦˥niː˧"],  // A semi-learned borrowing of English Germany (Wiktionary).
-    gu: ["જર્મની", "dʒəɾməniː"],  // Listed among the names from Latin Germania, reaching Gujarati through English Germany.
+    gu: ["જર્મની", "ˈdʒəɾməniː"],  // Listed among the names from Latin Germania, reaching Gujarati through English Germany.
     bho: ["जर्मनी", "dʒəɾməniː"],  // The same form as Hindi जर्मनी; no source found that names the donor. Route by resemblance to the neighbouring forms (hi(जर्मनी) ur(جرمنی)); no etymology of its own.
     ps: ["آلمان", "ɑlmɑn"],  // Borrowed from Persian آلمان, from French Allemagne; جرمني from English Germany is also used (Wiktionary).
     nan: ["德國", "tiɪk˧˨ kɔk˧˨"],  // 德 is short for 德意志, a transcription of Deutsch, plus 國 'country'; Taiwanese once also used 獨逸 from Japanese (Wiktionary).

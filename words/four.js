@@ -534,7 +534,7 @@ WORDS.four = {
     tk: ["dört", "døːɾt"],
     tkl: ["fā", "faː"],
     trv: ["sepac", "səpats"],
-    tsg: ["upat", "upat"],
+    tsg: ["upat", "uˈpat"],
     tsj: ["pshi", "pɕi"],
     uby: ["pʼɬʼə", "pʼɬʼə"],
     ude: ["дӣ", "diː"],

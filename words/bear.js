@@ -1489,11 +1489,11 @@ WORDS.bear = {
     sjd: ["та̄лл", "taːlː"],
     kpv: ["ош", "oʃ"],
     koi: ["ош", "oʃ"],
-    udm: ["гондыр", "ɡondɨr"],
+    udm: ["гондыр", "ɡonˈdɨr"],
     mhr: ["маска", "maska"],
-    mrj: ["мӧскӓ", "møskæ"],
+    mrj: ["мӧскӓ", "ˈmøskæ"],
     myv: ["овто", "ovto"],
-    mdf: ["офта", "ofta"],
+    mdf: ["офта", "ˈofta"],
     yrk: ["варк", "wərk"], // was ["варк", "wark"] (vi dialect rules 2026-10-06)
     nio: ["ӈарка", "ŋarka"],
 
@@ -1526,7 +1526,7 @@ WORDS.bear = {
     kjh: ["аба", "aˈba"],
 
     // --- Mongolic and Tungusic ----------------------------------------
-    mn: ["баавгай", "baːwɡɛː"], // was ["баавгай", "baːwɡaj"] (vi dialect rules 2026-10-06)
+    mn: ["баавгай", "ˈbaːwɡɛː"], // was ["баавгай", "baːwɡaj"] (vi dialect rules 2026-10-06)
     bxr: ["баабгай", "baːbɡaj"],
     xal: ["аю", "aˈju"],
     mnc: ["ᠯᡝᡶᡠ", "ləfu"],
@@ -1888,7 +1888,7 @@ WORDS.bear = {
     dv: ["ސާރިދޯޅު", "saːɾidoːɭu"],
     rmy: ["riči", "ritʃi"],
     azb: ["آیی", "aˈjɯ"],
-    cjs: ["апшақ", "apʃaq"],
+    cjs: ["апшақ", "apˈʃaq"],
     kim: ["иресаӈ", "iresaŋ"],
 
     // --- 2026-08-31 bear pass 2: North America and Mesoamerica (out_namerica.tsv)
@@ -1954,7 +1954,7 @@ WORDS.bear = {
     ptai: ["*ʰmwɯj", "ʰmwɯj"],
     och: ["熊", "*C.[ɢ]ʷ(r)əm"],
     zh_tang: ["熊", "ɦuwŋ"], // was ["熊", "hjuwng"] (zh_tang rebuild 2026-10-04)
-    aii: ["ܕܒܐ", "dɪbba"],
+    aii: ["ܕܒܐ", "ˈdɪbba"],
     tru: ["ܕܒܐ", "debo"],
     ht: ["lous", "lus"],
     bzj: ["byaa", "bjaː"],

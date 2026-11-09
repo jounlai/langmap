@@ -590,7 +590,7 @@ WORDS.green = {
     rgn: ["vérd", "veːrd"],
     li: ["greun", "ɡrøːn"],
     av: ["гӏурччинаб", "ʕurtʃːinab"],
-    tsg: ["gaddung", "ɡadduŋ"],
+    tsg: ["gaddung", "ɡadˈduŋ"],
     ljp: ["hujau", "hudʒau"],
     unr: ["hariar", "harijar"],
     grt: ["tangsek", "taŋsek"],

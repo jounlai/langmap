@@ -330,7 +330,7 @@ WORDS.iron = {
     csb: ["żelazło", "ʒɛˈlazwɔ"],
     rue: ["желїзо", "ʒeˈlʲizo"],
     bs: ["željezo", "ʒeʎezo"],
-    orv: ["желѣзо", "ʒelʲezo"],
+    orv: ["желѣзо", "ʒeˈlʲezo"],
 
     // --- Baltic — *gelž-, the Slavic word's own cousin ---------------------
     prg: ["gelso", "ˈɡelso"],
@@ -385,7 +385,7 @@ WORDS.iron = {
     hif: ["lohaa", "loɦaː"],
 
     // --- Caucasus — three families, three unrelated words ------------------
-    ce: ["эчиг", "etʃiɡ"],
+    ce: ["эчиг", "ˈetʃiɡ"],
     inh: ["аьшк", "ɛ̯aʃkʲ"],
     av: ["махх", "maxː"],
     lez: ["ракь", "raqʼ"],
@@ -560,7 +560,7 @@ WORDS.iron = {
     kpv: ["кӧрт", "kɘrt"],
     koi: ["кӧрт", "kɘrt"],
     udm: ["корт", "kort"],
-    mhr: ["кӱртньӧ", "kyrtɲø"],
+    mhr: ["кӱртньӧ", "ˈkyrtɲø"],
     mrj: ["кӹртни", "kɯrtni"],
     myv: ["кшни", "kʃnʲi"],
     mdf: ["кшни", "kʃnʲi"],
@@ -576,7 +576,7 @@ WORDS.iron = {
     mvf: ["tumur", "tumur"],
     sce: ["qiemu", "tɕʰjəˈmu"],
     juc: ["sele", "sələ"],
-    cjs: ["тебир", "tebir"],
+    cjs: ["тебир", "teˈbir"],
     kjh: ["тимір", "tiˈmir"],
     tyv: ["демир", "deˈmir"],
     kim: ["дэмир", "demir"],

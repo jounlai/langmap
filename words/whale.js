@@ -555,7 +555,7 @@ WORDS.whale = {
     tr: ["balina", "baˈlina"],  // Ultimately from Italian balena, probably through Ottoman Turkish.
     sw: ["nyangumi", "ɲaˈŋɡumi"],  // The Swahili word for the whale; it does not contain samaki 'fish'.
     tl: ["balyena", "balˈjena"],  // Borrowed from Spanish ballena.
-    mn: ["халим", "xaɮim"],  // An old Mongolic word, *kalimu, shared with Tungusic and Nivkh.
+    mn: ["халим", "ˈxaɮim"],  // An old Mongolic word, *kalimu, shared with Tungusic and Nivkh.
     evn: ["калим", "kalim"],  // An old Tungusic word, *kalimu, shared with Mongolian xalim.
     eve: ["калим", "kalim"],  // An old Tungusic word, *kalimu, shared with Mongolian xalim.
     gld: ["калима", "kalima"],  // Borrowed from Mongolic, compare Mongolian xalim.
@@ -626,7 +626,7 @@ WORDS.whale = {
     lv: ["valis", "ˈvalis"],  // Borrowed from German; the older form valzivs added zivs 'fish', which has since dropped off.
     sq: ["balenë", "baˈlɛnə"],  // Borrowed from Italian balena.
     et: ["vaal", "ʋaːl"],  // Borrowed from German Wal.
-    ht: ["balèn", "balɛn"],  // Inherited from French baleine.
+    ht: ["balèn", "baˈlɛn"],  // Inherited from French baleine.
     se: ["fális", "ˈfaːliːs"],  // An early loan from Germanic hwalaz 'whale', through Proto-Sami *fālēs.
     sjd: ["ва̄лесь", "vaːlʲesʲ"],  // An early loan from Germanic hwalaz 'whale', through Proto-Sami *fālēs.
     as: ["তিমি", "timi"],  // From Sanskrit timi, a name for a huge sea creature.

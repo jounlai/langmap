@@ -197,7 +197,7 @@ WORDS.cuckoo = {
     pnb: ["کوئل", "koːɪl"],
     ne: ["कोइली", "koili"],
     mr: ["कोकीळ", "koːkiːɭ"],
-    gu: ["કોયલ", "koːjəl"],
+    gu: ["કોયલ", "ˈkoːjəl"],
     si: ["කොහා", "kohaː"],
     dv: ["ކޮވެލި", "koʋeli"],
     te: ["కోయిల", "koːjila"],

@@ -785,7 +785,7 @@ WORDS.potato = {
     kum: ["картоп", "kartop"],  // From Russian картофель, ultimately from Italian tartufolo "truffle".
     tt: ["бәрәңге", "bæræŋˈɡe"],  // From Persian farangi "Frankish, Western": the potato as the Europeans' vegetable.
     ba: ["бәрәңге", "bæræŋˈɡe"],  // From Persian farangi "Frankish, Western": the potato as the Europeans' vegetable; картуф, from Russian, is also used.
-    kpv: ["картупель", "kartupelʲ"],  // Borrowed from Russian картофель, ultimately from Italian tartufolo "truffle".
+    kpv: ["картупель", "ˈkartupelʲ"],  // Borrowed from Russian картофель, ultimately from Italian tartufolo "truffle".
     vot: ["maamuna", "ˈmaːmuna"],  // Literally "earth egg" (maa + muna), as in neighbouring Ingrian.
     liv: ["naggõrz", "ˈnaɡːərz"],  // Originally "turnip" (Proto-Finnic *nakris); the word moved to the potato and the turnip became "leaf-potato".
     crh: ["qartop", "qarˈtop"],  // From Russian картофель, ultimately from Italian tartufolo "truffle".
@@ -812,7 +812,7 @@ WORDS.potato = {
     cho: ["ahe", "ahe"],  // An inherited Muskogean tuber word; the sweet potato is ahe champuli, 'sweet ahe'.
     dsb: ["kulka", "ˈkulka"],  // Literally "little ball" (kula + -ka); the same word also means dumpling.
     kw: ["aval dor", "aval doːr"],  // Literally "earth apple", calqued on Dutch aardappel or French pomme de terre; synonyms patatys and tetti come from English.
-    kgp: ["pén'ó", "pɛnʔɔ"],
+    kgp: ["pén'ó", "pɛnˈʔɔ"],
     abs: ["artapel", "artapel"],  // Borrowed from Dutch aardappel, literally "earth apple".
     gor: ["artape", "arˈtape"],  // Borrowed from Dutch aardappel, literally "earth apple".
     mfe: ["pomdeter", "pomdetɛʁ"],  // From French pomme de terre, literally "apple of the earth".

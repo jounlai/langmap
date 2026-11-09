@@ -490,7 +490,7 @@ WORDS.tear = {
     orv: ["сльза", "slɪˈzɑ"],
     osp: ["lagrema", "ˈlaɡɾema"],
     ota: ["كریه", "ɟirˈje"],
-    pa: ["ਹੰਝੂ", "ɦəɲ˥dʒuː"],
+    pa: ["ਹੰਝੂ", "ˈɦəɲ˥dʒuː"],
     pag: ["lua", "ˈlwa"],
     pam: ["lua", "ˈlwaʔ"],
     pl: ["łza", "wza"],

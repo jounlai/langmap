@@ -1408,7 +1408,7 @@ WORDS.foot = {
     cic: ["iyyiʼ", "ijːiʔ"],  // Munro & Willmond gloss iyyiʼ 'leg(s), foot/feet' in one entry, and the Humes corpus has no simplex leg noun at all — its 'leg (lower)' is iyi i̲ takali, built on the foot word, with no Chickasaw reflex of Choctaw hanaaliʼ.
     cja: ["تاكاي", "takai"],  // Aymonier and Cabaton — a dictionary this row already cites — gloss takai 'pied, jambe' in one entry and give duâ gah takai as 'les deux jambes', with batih 'jambe, mollet' the calf beside it; Old Cham takai is already on this map as one word for the limb.
     cjm: ["ꨓꨆꨰ", "takai"],  // The standard Cham dictionary glosses takai 'pied, jambe' in one entry, and the 2024 Eastern Cham New Testament uses it thirty-four times for feet, for the pillars of fire at Revelation 10:1 and for the man lame in both limbs at Acts 14:8; the ACD's pha is the *paqa thigh word and batih the calf.
-    cjs: ["азақ", "azaq"],  // азақ covers both, the Yeniseian Turkic reflex of *adak that Khakas writes азах.
+    cjs: ["азақ", "aˈzaq"],  // азақ covers both, the Yeniseian Turkic reflex of *adak that Khakas writes азах.
     cjy: ["脚", "tɕyəʔ˨"],  // Jin keeps them apart.
     cjy_lv: ["脚", "tɕiəʔ˦"],  // Jin keeps them apart, as the Taiyuan row does: Wiktionary's dialect tables give Lishi 腳/腳片子 for the foot, and both Jin points with dictionary coverage — Taiyuan and Xinzhou — set 腿 against it. MCPDict 離石 脚 tɕiəʔ7; ˦ is this row's 陰入, and 李小平 2004's published 離石 values (陰平24 陽平44 上聲312 去52 陰入4 陽入23) match the row throughout.
     cjy_xz: ["脚", "tɕiɛʔ˦˧"],  // Jin keeps them apart, and Xinzhou is one of the points where the dictionaries record both sides: 腳/腳板子 against 腿, 大腿, 小腿子. MCPDict 忻州秀容 脚 tɕiɛʔ7, the row's 陰入 ˨. // was ["脚", "tɕiɛʔ˨"] (r46 fix 2026-10-03)
@@ -2037,7 +2037,7 @@ WORDS.foot = {
     pi_edu: ["pāda", "paːda"],  // As pi, transliterated per this teaching row's IAST convention.
     pis: ["leg", "leɡ"],  // Jourdan glosses leg as leg, foot AND ankle, and walking is wokabaot long leg; the Pijin scriptures put leg where the Greek has a foot at Matthew 10:14, 18:8, Mark 9:45 and Revelation 10:1, so leg runs the limb as Tok Pisin's lek does. fut survives beside it, but Jourdan gives fut 'leg' as a second sense, so the two are synonyms rather than a pair.
     piu: ["tjina", "cina"],  // Hansen & Hansen split tjina 'foot' from tjunta 'leg; thigh', and the Luritja Bible breaks tjunta tarrka at John 19:31.
-    pjt: ["tjina", "cina"],  // John 19:31-33 breaks tjaḻpa three times and John 13 washes tjina; the Pintupi-Luritja dictionary glosses tjaḻpa 'lower leg area' independently. // was ["tjina", "cɪnɐ"] (vi dialect rules 2026-10-06)
+    pjt: ["tjina", "ˈcina"],  // John 19:31-33 breaks tjaḻpa three times and John 13 washes tjina; the Pintupi-Luritja dictionary glosses tjaḻpa 'lower leg area' independently. // was ["tjina", "cɪnɐ"] (vi dialect rules 2026-10-06)
     pkar: ["*berq-", "berq"],  // Proto-Karen *berq- for the lower limb.
     pkp: ["vae", "vae"],  // One word for the limb, the Polynesian norm; POLLEX glosses the Pukapuka reflex of PPn *waqe 'Foot, leg'. No stress mark, as on the other Polynesian rows.
     pl: ["stopa", "ˈstɔpa"],  // Polish is the West Slavic outlier: stopa is the ordinary word for the foot, against Czech/Slovak noha for both.
@@ -2162,7 +2162,7 @@ WORDS.foot = {
     srb: ["jʼeng", "dʒʔeŋ"],  // Ramamurti glosses ʤeːŋ-ən 'leg, foot' in one entry and builds toe, sole, heel, ankle and knee on it; ayang is the bone. Length is dropped as this row already dropped it from his si:-n. // was ["jeng", "dʒeŋ"] (vi dialect rules 2026-10-06)
     srh: ["pedh", "peð"],  // Shaw's Ghalchah vocabulary glosses the one word 'leg, foot' and answers the leg slots beside it with Persian lang and paichah, as Wakhi пуд does. The vowel is the row's plain e: Shaw writes ⟨ii⟩ for /ɵ/ in dhiist and riisht and ⟨e⟩ here.
     srm: ["fútu", "fútu"],  // The English-derived foot covers the whole limb — the mirror image of Tok Pisin's lek.
-    srn: ["futu", "futu"],  // Class inferred from Saramaccan. IPA is the plain reading of the orthography, following how this row's own hand cell writes anu as anu.
+    srn: ["futu", "ˈfutu"],  // Class inferred from Saramaccan. IPA is the plain reading of the orthography, following how this row's own hand cell writes anu as anu.
     srr: ["caf", "tʃaf"],  // Seereer caf is the whole limb — the Serer Bible washes a caf and breaks a caf — and Pozdniakov's Proto-Fula–Sereer gives caf al 'pied'.
     ssf: ["kuskus", "kuskus"],  // Blust's own Thao Dictionary glosses kuskus 'foot, leg; hoof' in one entry, with sapaz reserved for the sole.
     ssw: ["lunyawo", "luɲawo"],  // siSwati splits them like its Nguni neighbours, with umlente for the leg where Zulu has umlenze.
@@ -2231,7 +2231,7 @@ WORDS.foot = {
     tru: ["ܪܓܠܐ", "raɣlo"],  // Ritter's Ṭuroyo Wörterbuch has raglo 'Fuss' and the derived b-raglo 'einbeinig', one-legged, so the one word covers the limb; the contrasting qaqe is 'Unterschenkel', the shank.
     trv: ["papak", "papak"],  // papak is the foot washed at John 13:5, the leg the greaves go on at 1 Samuel 17:6 and the leg like a marble pillar at Song of Songs 5:15 — 393 occurrences against 25 of bteriq, which Genesis 24:2 and 32:25 show to be the thigh — so the split the ACD's qaqai and ABVD's btəriq seemed to promise is not there.
     ts: ["nenge", "neŋɡe"],  // nenge covers the limb — Cuenod glosses it 'leg, foot' in a single entry, and nkondzo is only the sole.
-    tsg: ["siki", "siki"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes lima as lima.
+    tsg: ["siki", "siˈki"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes lima as lima.
     tsi: ["asii", "asiː"],  // IDS splits Tsimshian asii from tˀmłaam, and this row's anʼoon is IDS's anʔon.
     tsj: ["bi", "bi"],  // Egli-Roduner's Tshangla handbook glosses bi 'leg / foot' outright, and Andvik 2010 pairs it with the honorific zhap; biting, which he glosses 'foot' in one idiom and 'leg' in the next, is built on it.
     tsu: ["tʼango", "tʔaŋo"],  // tʼango is washed at John 13:5 and broken at John 19:31-32, with cʉehʉ 'bone' at John 19:36 as the control, so one word carries the limb; ABVD's older rúru turns out to be the ACD's Tsou ruru 'shin bone', not a rival.

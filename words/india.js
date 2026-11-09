@@ -563,7 +563,7 @@ WORDS.india = {
     ur: ["بھارت", "bʱaːɾət"],  // Borrowed from Sanskrit Bhārata; ہندوستان Hindustān, from Persian, is a common synonym (Wiktionary).
     ru: ["Индия", "ˈinʲdʲɪjə"],  // Inherited from Old East Slavic, ultimately from Latin and Greek names for the Indus (Wiktionary).
     id: ["India", "ˈindia"],  // Borrowed from Dutch India, from Latin and Greek; older Indonesian also had Hindia, as in Hindia Belanda 'Dutch East Indies' (Wiktionary).
-    pa: ["ਭਾਰਤ", "paː˩ɾət"],  // Learned borrowing from Sanskrit Bhārata; the initial bh- of the spelling is heard as a low tone (Wiktionary).
+    pa: ["ਭਾਰਤ", "ˈpaː˩ɾət"],  // Learned borrowing from Sanskrit Bhārata; the initial bh- of the spelling is heard as a low tone (Wiktionary).
     de: ["Indien", "ˈɪndi̯ən"],  // From Latin India, from Greek Ἰνδία, named after the Indus river (Wiktionary).
     ja: ["インド", "indo"],  // The Japanese reading of the Chinese name 印度, once written in those kanji and now in katakana (Wiktionary).
     fa: ["هند", "hend"],  // Inherited from Old Persian Hiⁿdūš, the Indus land; هندوستان Hendustân is the colloquial alternative (Wiktionary).

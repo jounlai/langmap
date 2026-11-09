@@ -578,7 +578,7 @@ WORDS.snow = {
     wa: ["nive", "niːf"],
     kpv: ["лым", "lɨm"],
     koi: ["лым", "lɨm"],
-    udm: ["лымы", "lɨmɨ"],
+    udm: ["лымы", "lɨˈmɨ"],
     mhr: ["лум", "lum"],
     mrj: ["лым", "ləm"],
     myv: ["лов", "lov"],

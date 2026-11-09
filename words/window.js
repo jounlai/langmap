@@ -541,7 +541,7 @@ WORDS.window = {
     hsb: ["wokno", "ˈwɔknɔ"],
     su: ["jandéla", "dʒandela"],
     szl: ["ôkno", "ˈwɔknɔ"],
-    tsg: ["tandawan", "tandawan"],
+    tsg: ["tandawan", "tandaˈwan"],
     war: ["tarambuan", "taˈɾambuan"],
     tet: ["janela", "ʒanela"],
     tpi: ["windo", "windo"],
@@ -674,7 +674,7 @@ WORDS.window = {
     smn: ["laasâ", "ˈlɑːsɐ"],
     sms: ["ikkân", "ˈikːɐn"],  // Route by resemblance to the neighbouring forms (vep,olo); no etymology of its own.
     sjd: ["эххкан", "exːkan"],
-    mrj: ["окня", "oknja"],
+    mrj: ["окня", "ˈoknja"],
     mhr: ["окна", "okna"],  // Route by resemblance to the neighbouring forms (rue,cs,pl); no etymology of its own.
     kca: ["ишни", "ˈiʃni"],
     mns: ["ӣснас", "ˈiːsnas"],
@@ -796,7 +796,7 @@ WORDS.window = {
     chb: ["bentana", "βentana"],  // Borrowed from Spanish ventana.
     fro: ["fenestre", "feˈnɛstrə"],  // Inherited from Latin fenestra.
     goh: ["fenstar", "ˈfenstar"],  // From Proto-West Germanic fenestr, from Latin fenestra.
-    acw: ["شباك", "ʃubbaːk"],  // Inherited from Arabic šubbāk.
+    acw: ["شباك", "ʃuˈbbaːk"],  // Inherited from Arabic šubbāk.
     kok: ["खिडकी", "kʰiɖkiː"],  // Inherited from Sanskrit khaṭakkikā; no image is recorded for it.
     ik: ["igaliq", "iɣaliq"],  // No image is recorded for it, so it counts as a word of its own.
     lij: ["barcun", "barˈkyŋ"],  // No etymology is given, so it counts as a word of its own.

@@ -261,7 +261,7 @@ WORDS.new = {
     tg: ["нав", "nav"],
     ku: ["nû", "nuː"],
     ckb: ["نوێ", "nweː"],
-    ps: ["نوی", "nəwaj"],
+    ps: ["نوی", "ˈnəwaj"],
     az: ["yeni", "jeˈni"],
     azb: ["یئنی", "jeˈni"],
     gag: ["eni", "eˈni"],

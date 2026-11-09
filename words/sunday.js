@@ -613,7 +613,7 @@ WORDS.sunday = {
     tg: ["якшанбе", "jakʃanbe"],
     ta: ["ஞாயிறு", "ɲaːjirɯ"],
     tt: ["якшәмбе", "jɑqʃæmbe"],
-    tsg: ["Ahad", "ʔahad"],
+    tsg: ["Ahad", "ʔaˈhad"],
     te: ["ఆదివారం", "aːdiʋaːɾam"],
     tet: ["loron-domingu", "lorondominɡu"],
     th: ["วันอาทิตย์", "wan˧ʔaː˧tʰit˦˥"],

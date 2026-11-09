@@ -719,7 +719,7 @@ WORDS.twenty = {
     sms: ["kuâhttlo", "ˈkuɐxtːlo"],  // No opened source supports the route.
     sjd: ["кӯххтлоагкь", "kuːxːtloaɡk"],
     mrj: ["коклы", "koklə"],  // No opened source supports the route.
-    mhr: ["коло", "kolo"],
+    mhr: ["коло", "ˈkolo"],
     mdf: ["комсь", "komsʲ"],
     myv: ["комсь", "komsʲ"],
     koi: ["кыкдас", "kɨkdas"],
@@ -979,7 +979,7 @@ WORDS.twenty = {
     lij: ["vìnti", "ˈviŋti"],  // From Latin vīgintī, 'two tens' worn down to one word.
     lb: ["zwanzeg", "ˈtswɑntsəɕ"],  // Like German zwanzig, 'two tens' worn down to one word.
     ne: ["बीस", "bis"],  // The same word as Hindi बीस, from Sanskrit viṃśati, 'two tens' worn down to one word.
-    tsg: ["kawhaan", "kawhaʔan"],  // Built on duwa 'two' with ka- -an, with no ten in it.
+    tsg: ["kawhaan", "kawhaˈʔan"],  // Built on duwa 'two' with ka- -an, with no ten in it.
     ude: ["вайи", "waji"],  // Shared with other Tungusic words for twenty (Nanai хорин); no image is recorded for it.
     bnn: ["mapusan", "mapusan"],  // No etymology is given, so it counts as a word of its own.
     rhg: ["kuri", "kuri"],  // No etymology is given, so it counts as a word of its own.

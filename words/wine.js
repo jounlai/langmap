@@ -1503,7 +1503,7 @@ WORDS.wine = {
     acf: ["diven", "divɛ̃"],
 
     // --- Slavic -------------------------------------------------------------
-    orv: ["вино", "vino"],
+    orv: ["вино", "viˈno"],
     rue: ["вино", "ˈvɪno"], // was ["вино", "viˈno"] (vi dialect rules 2026-10-06)
     szl: ["wino", "ˈvinɔ"],
     csb: ["wino", "ˈvinɔ"],
@@ -1830,7 +1830,7 @@ WORDS.wine = {
     xal: ["чаһр", "tʃaɣr̩"],
     bxr: ["дарһан", "darhaŋ"], // was ["дарһан", "darhan"] (vi dialect rules 2026-10-06)
     sce: ["putoujiu", "pʰutʰəwˈtɕju"], // was ["darasun", "darasuŋ"] (r29 fix 2026-10-02) // was ["putoujiu", "putəudʑiəu"] (vi dialect rules 2026-10-06)
-    kpv: ["вина", "vina"],
+    kpv: ["вина", "ˈvina"],
     koi: ["вина", "vina"],
     udm: ["вина", "vina"],
     mdf: ["вина", "vina"],

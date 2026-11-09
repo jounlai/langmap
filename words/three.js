@@ -251,7 +251,7 @@ WORDS.three = {
     agt: ["tallu", "talːu"],
     itb: ["atlo", "atlo"],
     ivv: ["tatdo", "tatdo"],
-    mn: ["гурав", "ɡʊraw"],
+    mn: ["гурав", "ˈɡʊraw"],
     sah: ["үс", "ys"],
     tyv: ["үш", "yʃ"],
     kjh: ["ӱс", "ys"],

@@ -348,7 +348,7 @@ WORDS.earthquake = {
     nzm: ["kagetei", "kaɡetei"],
     or: ["ଭୂମିକମ୍ପ", "bʱumikɔmpɔ"],  // Built on the word for earth or land.
     ote: ["hmämhai", "hmãmhai"],  // Built on the word for earth or land.
-    pa: ["ਜ਼ਲਜ਼ਲਾ", "zəlzəläː"],  // From Arabic زلزلة zalzala.
+    pa: ["ਜ਼ਲਜ਼ਲਾ", "ˈzəlzəläː"],  // From Arabic زلزلة zalzala.
     pam: ["ayun", "əˈjun"],
     pap: ["temblor", "temblor"],  // A word for shaking, with no earth in it.
     pl: ["trzęsienie ziemi", "tʂɛ̃ˈɕɛɲɛ ˈʑɛmi"],  // Built on the word for earth or land.
@@ -384,7 +384,7 @@ WORDS.earthquake = {
     tpi: ["guria", "ɡuria"],  // Built on the word for earth or land.
     tpy: ["hapdokokah", "hapdokokah"],
     tr: ["deprem", "depˈɾem"],  // Coined by the Turkish Language Association in 1934 from depre- 'to shake', replacing Arabic zelzele.
-    tsg: ["linug", "linuɡ"],
+    tsg: ["linug", "liˈnuɡ"],
     tt: ["зилзилә", "zilzilæ"],  // From Arabic زلزلة zalzala.
     ug: ["زىلزىلە", "zilzilɛ"],  // From Arabic زلزلة zalzala.
     uk: ["землетрус", "zemɫeˈtrus"],  // Built on the word for earth or land.

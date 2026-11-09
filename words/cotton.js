@@ -292,7 +292,7 @@ WORDS.cotton = {
     ca: ["cotó", "kuˈtu"],  // From Arabic qutn.
     car: ["mauru", "mauɾu"],
     cbk: ["algodon", "alɡoˈdon"],  // From Arabic qutn.
-    ce: ["бамба", "bamba"],
+    ce: ["бамба", "ˈbamba"],
     ceb: ["gapas", "ˈɡapas"],  // From Sanskrit karpāsa.
     cho: ["pokpo", "pokpo"],
     ckb: ["لۆکە", "loka"],
@@ -398,7 +398,7 @@ WORDS.cotton = {
     tob: ["waloḳ", "waloḳ"],
     tpy: ["amundiu", "amundiu"],
     tr: ["pamuk", "paˈmuk"],  // From Persian pambak (panbe).
-    tsg: ["gapas", "ɡapas"],  // From Sanskrit karpāsa.
+    tsg: ["gapas", "ɡaˈpas"],  // From Sanskrit karpāsa.
     tsj: ["moŋan", "moŋan"],
     tyz: ["bông", "ɓəwŋ˧˥"],
     ug: ["پاختا", "pɑχtɑ"],

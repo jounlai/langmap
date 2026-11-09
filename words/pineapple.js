@@ -497,7 +497,7 @@ WORDS.pineapple = {
     it: ["ananas", "ˈaːnanas"],  // Borrowed unchanged from Portuguese ananás, from Old Tupi naná.
     cjy: ["菠萝", "pɤ˩ lɤ˩"],  // Clipped from 菠萝蜜, the jackfruit.
     th: ["สับปะรด", "sap˨˩pa˨˩rot˦˥"],  // From Pali sabbarasa, "all juices / every flavour".
-    gu: ["અનનાસ", "ənənaːs"],  // From Portuguese ananás, from Old Tupi naná.
+    gu: ["અનનાસ", "ˈənənaːs"],  // From Portuguese ananás, from Old Tupi naná.
     nan: ["王梨", "ɔŋ˨˦ lai˨˦"],  // Spoken ông-lâi, a "pear" name; also written 鳳梨 or 旺來.
     hak_cn: ["黄梨", "voŋ˩˩ li˩˩"],  // "Yellow pear"; Meixian also uses 菠萝.
     es: ["piña", "ˈpiɲa"],  // Piña is first of all a pine cone; the fruit was named for looking like one.
@@ -716,7 +716,7 @@ WORDS.pineapple = {
     cv: ["ананас", "anaˈnas"],  // Borrowed from Russian ананас, which goes back to Portuguese ananás and Old Tupi naná.
     gor: ["nanati", "naˈnati"],  // Goes back through Dutch ananas and Portuguese/Spanish ananás to Tupi-Guarani naná, as the Gorontalo Wikipedia explains.
     kbp: ["adɔtɔ", "adɔtɔ"],  // The Kabiye Wikipedia names the fruit adɔtɔ; the origin of the word is not given.
-    tsg: ["pisang", "pisaŋ"],  // Cognate of Malay pisang, which means banana: in Tausug the word names the pineapple instead.
+    tsg: ["pisang", "piˈsaŋ"],  // Cognate of Malay pisang, which means banana: in Tausug the word names the pineapple instead.
     dag: ["alafiɛ", "alafiɛ"],  // The Dagbani Wikipedia names the fruit alafiɛ (also alaafee), citing Naden's Dagbani dictionary; the origin of the word is not given.
     grt: ["anaros", "anaros"],  // Recorded by Burling for the Garo of Bangladesh; the neighbouring Atong also say anaros. Route by resemblance to the neighbouring forms (Bengali আনারস, Assamese আনাৰস, Bodo आनारस); no etymology of its own.
     brx: ["आनारस", "anarɔs"],  // Borrowed from Assamese আনাৰস, from Bengali আনারস and ultimately Portuguese ananás.

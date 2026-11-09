@@ -569,7 +569,7 @@ WORDS.computer = {
     kg: ["ludinatelo", "ludinatelo"],
     oj: ["mazinaabikiwebinigan", "mazinaːbikiwebiniɡan"],
     lzz: ["ბილგისაჲარი", "bilɡisajari"],
-    srn: ["kompyuter", "kompjuter"],
+    srn: ["kompyuter", "komˈpjuter"],
     liv: ["datōr", "ˈdɑtoːr"],
     shn: ["ၵွမ်ႇပျူႇတိူဝ်ႇ", "kɔm˩ pjuː˩ tɤː˩"],
     wal: ["komppiiteriya", "kompːiːterija"],

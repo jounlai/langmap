@@ -1172,11 +1172,11 @@ WORDS.yesterday = {
     tt: ["кичә", "kiˈtɕæ"],  // tomorrow: иртәгә; кичә comes from Proto-Turkic *kēče 'evening', and иртәгә from a word for 'morning'.
     ba: ["кисә", "kiˈsæ"],  // tomorrow: иртәгә; кисә comes from Proto-Turkic *kēče 'night, evening'.
     kum: ["тюнегюн", "tyneɡyn"],  // tomorrow: тангала; тангала is built on *taŋ 'dawn'.
-    kpv: ["тӧрыт", "tɘrɨt"],  // tomorrow: аски; тӧрыт is literally 'that evening' (тӧ- + рыт 'evening').
+    kpv: ["тӧрыт", "ˈtɘrɨt"],  // tomorrow: аски; тӧрыт is literally 'that evening' (тӧ- + рыт 'evening').
     koi: ["тӧн", "tɘn"],  // tomorrow: ашын (NorthEuraLex).
-    udm: ["толон", "tolon"],  // tomorrow: ӵуказе.
-    mhr: ["теҥгече", "teŋɡetʃe"],  // tomorrow: эрла.
-    mrj: ["тенгечӹ", "teŋɡetʃɯ"],  // tomorrow: иргод (NorthEuraLex).
+    udm: ["толон", "toˈlon"],  // tomorrow: ӵуказе.
+    mhr: ["теҥгече", "teŋˈɡetʃe"],  // tomorrow: эрла.
+    mrj: ["тенгечӹ", "teŋˈɡetʃɯ"],  // tomorrow: иргод (NorthEuraLex).
     myv: ["исяк", "isʲak"],  // tomorrow: ванды, derived from a stem meaning 'light'.
     mdf: ["исяк", "iˈsʲak"],  // tomorrow: ванды; Moksha shares both words with Erzya.
     krl: ["eklen", "ˈeklʲen"],  // tomorrow: huomena; eklen is cognate with Finnish eilen.
@@ -1346,7 +1346,7 @@ WORDS.yesterday = {
     nag: ["kali", "kali"],  // tomorrow: kali; as in Assamese kali, one word covers both days, with juwa 'gone' or ahha 'coming' added when needed.
     seh: ["dzulo", "dzulo"],  // tomorrow: mangwana; Chichewa has dzulo and mawa.
     dag: ["sɔhila", "sɔhila"],  // tomorrow: biɛɣu.
-    tsg: ["kahapun", "kahapun"],  // tomorrow: kunsum (Bible spelling kinsum); kahapun matches Tagalog kahapon.
+    tsg: ["kahapun", "kahaˈpun"],  // tomorrow: kunsum (Bible spelling kinsum); kahapun matches Tagalog kahapon.
     czh: ["昨日", "tsʰo˩˩ ȵie˩˩"],  // tomorrow: 明日; Tunxi keeps the old pair 昨日 and 明日, while Jixi says 頭朝 and 明朝.
     cpx: ["顶日", "tɛŋ˦˥˧ tiʔ˦"],  // tomorrow: 逢早; 顶日 literally 'the top (previous) day', and in Southern Min the same word means 'the day before yesterday'.
     mnw: ["နူကနေံတေံ", "nṳ kəneʔ teʔ"],  // tomorrow: တ္ၚဲ ယး; in Thailand the word is shortened to နူကၞေံ.

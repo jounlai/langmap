@@ -583,8 +583,8 @@ WORDS.week = {
     smn: ["okko", "ˈokːo"],
     sms: ["niä´t´tel", "ˈniatʲtɛl"],  // No opened source supports the route.
     sjd: ["не̄дтӭль", "ɲeːdtʲeʎ"],
-    mrj: ["ӓрня", "ærnja"],  // No opened source supports the route.
-    mhr: ["арня", "arɲa"],  // Route by resemblance to the neighbouring forms (udm); no etymology of its own.
+    mrj: ["ӓрня", "ˈærnja"],  // No opened source supports the route.
+    mhr: ["арня", "arˈɲa"],  // Route by resemblance to the neighbouring forms (udm); no etymology of its own.
     koi: ["неделя", "ɲeɟeʎa"],
     kpv: ["неделя", "ɲeɟeʎa"],
     kca: ["ӆапат", "ˈɬapat"],  // No opened source supports the route.
@@ -699,7 +699,7 @@ WORDS.week = {
     co: ["sittimana", "sittiˈmana"],  // From Late Latin septimāna, from septimus 'seventh'.
     nds: ["Week", "veːk"],  // From Middle Low German wēke, from Proto-Germanic *wikǭ.
     lad: ["semana", "seˈmana"],  // From Latin septimāna.
-    tsg: ["pitu", "pitu"],  // The same word as pitu 'seven'.
+    tsg: ["pitu", "piˈtu"],  // The same word as pitu 'seven'.
     udi: ["шаматӏ", "ʃamatʼ"],  // The same word means the Sabbath and Saturday; compare Armenian շաբաթ.
     frp: ["semana", "seˈmana"],  // Inherited from Late Latin septimāna.
     nlc: ["minggu", "miŋɡu"],  // From Indonesian minggu, ultimately from Portuguese domingo 'Sunday'.

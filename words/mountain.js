@@ -662,7 +662,7 @@ WORDS.mountain = {
     bi: ["hil", "hil"],
     ext: ["montaña", "monˈtaɲa"],
     rup: ["munti", "ˈmunti"],
-    udm: ["гурезь", "ɡureʑ"],
+    udm: ["гурезь", "ɡuˈreʑ"],
     enq: ["yuu manda", "juː manda"],
     jmc: ["ifumbu", "ifumbu"],
     nzi: ["boka", "boka"],

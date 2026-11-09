@@ -1883,7 +1883,7 @@ WORDS.we = {
     tet: ["ita / ami", "ita / ami"],
     aoz: ["hit / hai", "hit / hai"],
     bi: ["yumi / mifala", "jumi / mifala"],
-    pjt: ["nganaṉa", "ŋanaɳa"], // was ["nganana", "ŋanaɳa"] (vi dialect rules 2026-10-06)
+    pjt: ["nganaṉa", "ˈŋanaɳa"], // was ["nganana", "ŋanaɳa"] (vi dialect rules 2026-10-06)
     wbp: ["ngalipa / nganimpa", "ŋalipa / ŋanimpa"],
     piu: ["nganana", "ŋanana"], // was ["nganana", "ŋanaɳa"] (vi dialect rules 2026-10-06)
     aer: ["anwerne", "ˈanwəɳə"],

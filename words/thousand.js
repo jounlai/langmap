@@ -505,10 +505,10 @@ WORDS.thousand = {
     sjd: ["то̄а̄фант", "toːaːfant"],  // No opened source supports the route.
     mrj: ["тӹжем", "tɯʒem"],  // No opened source supports the route.
     mhr: ["тӱжем", "tyʒem"],  // No opened source supports the route.
-    mdf: ["тёжянь", "tʲoʒaɲ"],
+    mdf: ["тёжянь", "ˈtʲoʒaɲ"],
     myv: ["тыща", "tɨʃtʃa"],  // Route by resemblance to the neighbouring forms (kpv,koi); no etymology of its own.
     udm: ["сюрс", "sʲurs"],  // From Indo-Iranian.
-    kpv: ["тысяча", "tɨɕatɕa"],  // From Russian.
+    kpv: ["тысяча", "ˈtɨɕatɕa"],  // From Russian.
     koi: ["тысяча", "tɨɕatɕa"],  // From Russian.
     hu: ["ezer", "ˈɛzɛr"],  // From Iranian.
     kca: ["сюрас", "ˈsʲuras"],  // From Indo-Iranian.
@@ -716,7 +716,7 @@ WORDS.thousand = {
     sco: ["thousand", "ˈθuzɪnd"],  // Inherited from Old English þūsend.
     inh: ["эзар", "ezar"],  // No origin is recorded on the entry, so it counts as a word of its own.
     hil: ["libo", "ˈlibo"],  // Borrowed from Malay ribu, from Proto-Malayo-Polynesian *ʀibu.
-    tsg: ["ibu", "ʔibu"],  // Borrowed from Malay ribu, from Proto-Malayo-Polynesian *ʀibu.
+    tsg: ["ibu", "ʔiˈbu"],  // Borrowed from Malay ribu, from Proto-Malayo-Polynesian *ʀibu.
     tly: ["həzo", "həzo"],  // Cognate with Persian هزار hezâr.
     ilo: ["ribo", "ˈɾibo"],  // From Proto-Malayo-Polynesian *ʀibu; cognate with Malay ribu.
     udi: ["гьазар", "haˈzar"],  // Possibly borrowed from Armenian հազար, the Persian thousand.

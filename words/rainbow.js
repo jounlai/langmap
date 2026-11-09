@@ -1030,7 +1030,7 @@ WORDS.rainbow = {
     guc: ["kasipoluin", "kasipoluin"],  // The Wayuu word for the rainbow; Kasipoluin is also a figure in Wayuu tradition, but the sources consulted do not explain the word.
     mch: ["jasudi", "hʷasuːɾi"],  // In Ye'kwana tradition the rainbow is the feathered crown of Wiyu, the water spirit, and is a bad omen for women and children.
     emp: ["euma", "euma"],  // The Northern Emberá word for the rainbow. Unrelated to enẽdrɨma 'bow' and dama 'snake' (IDS).
-    tsg: ["bāngaw", "baːŋaw"],  // Inherited from Proto-Central Philippine *balaŋaw 'rainbow', the same word as Cebuano bangaw and Tagalog balangaw.
+    tsg: ["bāngaw", "baːˈŋaw"],  // Inherited from Proto-Central Philippine *balaŋaw 'rainbow', the same word as Cebuano bangaw and Tagalog balangaw.
     hr: ["duga", "dǔːɡa"],  // From Proto-Slavic *dǫga 'arc', the same root as Russian дуга 'arc' and Czech duha.
     iba: ["endaraja", "əndaradʒa"],  // The Iban word for the rainbow; its origin is not given in the sources consulted. No image is recorded for it, so it counts as a word of its own.
     xal: ["солңһ", "solŋɣ"],  // Inherited from Proto-Mongolic *solaŋga 'rainbow', the same word as Mongolian солонго.

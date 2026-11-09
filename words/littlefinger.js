@@ -666,7 +666,7 @@ WORDS.littlefinger = {
     mnp: ["尾指仔", "muɛ˨˩ ki˨˦ tsiɛ˨˩"],  // Literally 'little tail finger' (尾 'tail, end' + 指 'finger' + diminutive 仔).
     as: ["কেঞা আঙুলি", "kɛã aŋuli"],  // Literally 'smallest finger' (কেঞা 'small, smallest' + আঙুলি 'finger').
     bn: ["কড়ে আঙ্গুল", "kɔɽe aŋɡul"],  // Literally 'little finger' (কড়ে 'little, small' + আঙ্গুল 'finger'); কানি আঙ্গুল is an alternative form.
-    pa: ["ਚੀਚੀ", "tʃiːtʃiː"],  // A word of its own for the little finger, also used for the little toe.
+    pa: ["ਚੀਚੀ", "ˈtʃiːtʃiː"],  // A word of its own for the little finger, also used for the little toe.
     pnb: ["چیچی", "tʃiːtʃiː"],  // A word of its own for the little finger, also used for the little toe.
     skr: ["چیچی", "tʃiːtʃiː"],  // A word of its own for the little finger, shared with Punjabi.
     sd: ["چيچ", "tʃiːtʃə"],  // A word of its own for the little finger, which also names the little toe.

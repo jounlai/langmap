@@ -955,7 +955,7 @@ WORDS.grandmother = {
     mnp: ["奶奶", "nai˨˩ nai˨˦"],  // Father's mother in Jian'ou (also 妈妈); mother's mother: 外婆 uài-pô̤ or 畲嫲.
     cnp: ["奶奶", "nai˨˩ nai˨˦"],  // Father's mother (also 阿奶); mother's mother: 阿婆 or 外婆.
     pnb: ["دادی", "daːdiː"],  // Father's mother; mother's mother: نانی nānī.
-    gu: ["દાદી", "daːdiː"],  // Father's mother; mother's mother: નાની nānī (બા bā is also a common word for grandmother).
+    gu: ["દાદી", "ˈdaːdiː"],  // Father's mother; mother's mother: નાની nānī (બા bā is also a common word for grandmother).
     sd: ["ڏاڏي", "ɗaːɗiː"],  // Father's mother; mother's mother: ناني nānī.
     ta: ["பாட்டி", "paːʈːi"],  // One word for either grandmother; regional words such as அம்மாச்சி ammācci (mother's mother) also exist.
     fa: ["مادربزرگ", "mɒːdæɾbozoɾɡ"],  // Literally 'big mother', used for either grandmother (ننه nane is the homely word).
@@ -1028,7 +1028,7 @@ WORDS.grandmother = {
     aii: ["ܣܒܬܐ", "sawta"],  // Also 'old woman, elder'; the colloquial, endearing word is ܢܢܐ nana.
     szl: ["ōma", "ˈoma"],  // From German Oma; synonyms babka and starka. One word for either grandmother, like German Oma.
     guc: ["oushu", "ouʃu"],  // One word for either grandmother; 'my grandmother' is toushu.
-    cab: ["agütü", "aɡɨtɨ"],  // The possessed stem is -gütü.
+    cab: ["agütü", "aˈɡɨtɨ"],  // The possessed stem is -gütü.
     cak: ["atitaj", "atitax"],  // Glossed 'father's mother' (abuela paterna); the source has no separate mother's-mother entry, so whether the two are distinguished is not established.
     yua: ["chiich", "tʃiːtʃ"],  // One word for either grandmother; mamich is a synonym.
     oc: ["menina", "meˈninɔ"],  // Also 'old woman'; synonyms include grand, mairegrand and mameta.

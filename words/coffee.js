@@ -1163,7 +1163,7 @@ WORDS.coffee = {
     pll: ["khəpi", "kʰəpi"],
     ter: ["káfe", "ˈkafe"],
     guc: ["kepein", "kepein"],
-    tsg: ["kahawa", "kahawa"],
+    tsg: ["kahawa", "kahaˈwa"],
     gay: ["kupi", "kupi"],
     ljp: ["kupi", "kupi"],
     ace: ["kupi", "kupi"],
@@ -1322,7 +1322,7 @@ WORDS.coffee = {
     pa: ["ਕੌਫ਼ੀ", "kɔːfiː"],
     ne: ["कफी", "kʌpʰiː"], // was ["कफी", "kapʰiː"] (vi dialect rules 2026-10-06)
     mr: ["कॉफी", "kɔfiː"],
-    gu: ["કૉફી", "kɔfiː"],
+    gu: ["કૉફી", "ˈkɔfiː"],
     si: ["කෝපි", "koːpi"],
     te: ["కాఫీ", "kaːpʰiː"],
     kn: ["ಕಾಫಿ", "kaːpʰi"],

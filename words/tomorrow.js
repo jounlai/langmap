@@ -1394,7 +1394,7 @@ WORDS.tomorrow = {
     fur: ["doman", "doˈmaŋ"],  // From Late Latin dē māne 'early in the morning', like Italian domani.
     ast: ["mañana", "maˈɲana"],  // Mañana means both 'tomorrow' and 'morning', from Latin māne 'in the morning'.
     rup: ["mãni", "ˈməni"],  // From Latin māne 'in the morning', like Romanian mâine; also spelled mãne.
-    kpv: ["аски", "aski"],  // Inherited from Proto-Permic *aski; Udmurt dialects keep the cognate аскы.
+    kpv: ["аски", "ˈaski"],  // Inherited from Proto-Permic *aski; Udmurt dialects keep the cognate аскы.
     udm: ["ӵуказе", "tʃukaʑe"],  // Built on ӵук 'morning, early morning'.
     krl: ["huomena", "ˈhuo̯menɑ"],  // The locative of Proto-Finnic *hoomën 'morning', so literally 'in the morning', like Finnish huomenna.
     olo: ["huomei", "ˈhuomei"],  // Derived from Proto-Finnic *hoomën 'morning', which also gives Livvi huondes 'morning'.

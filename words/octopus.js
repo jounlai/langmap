@@ -389,7 +389,7 @@ WORDS.octopus = {
     hy: ["ութոտնուկ", "utʰotˈnuk"],  // Literally 'eight-foot' with the suffix -uk; colloquially also asminog, from Russian.
     hr: ["hobotnica", "xǒbotnitsa"],  // Built on the Slavic word for 'trunk' (*xobotъ).
     sk: ["chobotnica", "ˈxobotɲitsa"],  // Built on chobot 'trunk' (as of an elephant): 'the trunked one'.
-    mn: ["наймалж", "nɛːmaltʃ"],  // Wiktionary tentatively links it to найман 'eight', but the origin is unconfirmed.
+    mn: ["наймалж", "ˈnɛːmaltʃ"],  // Wiktionary tentatively links it to найман 'eight', but the origin is unconfirmed.
     scn: ["purpu", "ˈpuɾpu"],  // From Latin polypus, a variant of Greek polýpous 'many-footed'.
     bik: ["kugita", "kuˈɡita"],  // Inherited from Proto-Austronesian *guʀiCa 'octopus' (ACD).
     tpi: ["urita", "urita"],  // Taken from Tolai urita, itself an Austronesian octopus word (*kuʀita).
@@ -492,7 +492,7 @@ WORDS.octopus = {
     or: ["ଅକ୍ଟୋପସ", "ɔkʈopɔs"],  // Borrowed from English octopus, Greek 'eight-foot'.
     ne: ["अक्टोपस", "əkʈopəs"],  // Borrowed from English octopus, a name Nepali Wikipedia explains by its eight legs.
     th: ["หมึกยักษ์", "mɯk˨˩ jak˦˥"],  // Literally 'giant squid' (หมึก 'squid' + ยักษ์ 'giant, ogre'); หมึกสาย 'string squid' is a synonym.
-    gu: ["ઓક્ટોપસ", "okʈopəs"],  // Borrowed from English octopus, Greek 'eight-foot'; the learned calque અષ્ટપાદ 'eight-footed' also appears.
+    gu: ["ઓક્ટોપસ", "ˈokʈopəs"],  // Borrowed from English octopus, Greek 'eight-foot'; the learned calque અષ્ટપાદ 'eight-footed' also appears.
     bho: ["ऑक्टोपस", "ɔkʈopəs"],  // Borrowed from English octopus, Greek 'eight-foot'.
     ps: ["اختاپوس", "axtapus"],  // Taken over from Persian اختاپوس, ultimately Greek oktṓpous 'eight-foot'.
     hak_cn: ["章鱼", "tsɔŋ˦ ŋ̍˩˩"],  // The same word as Mandarin 章鱼; Meixian also says 八带鱼 'eight-band fish'.
@@ -549,7 +549,7 @@ WORDS.octopus = {
     et: ["kaheksajalg", "ˈkɑheksɑjɑlɡ"],  // Literally 'eight-leg': kaheksa 'eight' + jalg 'leg, foot'.
     sc: ["pulpu", "ˈpulpu"],  // From Latin polypus < Greek polýpous 'many-footed'; Campidanese says pruppu.
     mfe: ["ourit", "uʁit"],  // Borrowed from Malagasy horita, which continues the Austronesian octopus word *guʀiCa.
-    tsg: ["kugita", "kuɡita"],  // Inherited from Proto-Malayo-Polynesian *kuʀita 'octopus' (Blust & Trussel, ACD).
+    tsg: ["kugita", "kuɡiˈta"],  // Inherited from Proto-Malayo-Polynesian *kuʀita 'octopus' (Blust & Trussel, ACD).
     cv: ["осьминог", "osʲmʲiˈnok"],  // Borrowed from Russian осьминог 'eight-legs'.
     li: ["oktopus", "ˈɒktopəs"],  // From Greek oktṓpous 'eight-foot'; Limburgish also has the calque achpoeat 'eight-foot'.
     cy: ["octopws", "ɔkˈtɔpʊs"],  // Borrowed from English octopus, from Greek oktṓpous 'eight-foot'; Welsh Wikipedia uses it as the article title.

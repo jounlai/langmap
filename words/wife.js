@@ -540,10 +540,10 @@ WORDS.wife = {
     sms: ["ä´ǩǩ", "ˈaccçʲɘ"],
     sjd: ["а̄ххьк", "aːçːk"],
     mrj: ["вӓтӹ", "vætɯ"],
-    mhr: ["вате", "vate"],
+    mhr: ["вате", "ˈvate"],
     mdf: ["ърьвя", "ərʲvʲa"],
     myv: ["ни", "ɲi"],
-    udm: ["кышно", "kɨʃno"],
+    udm: ["кышно", "kɨʃˈno"],
     koi: ["инь", "iɲ"],
     kpv: ["инь", "iɲ"],
     hu: ["feleség", "ˈfɛlɛʃeːɡ"],
@@ -582,7 +582,7 @@ WORDS.wife = {
     tt: ["хатын", "χaˈtɤn"],
     cv: ["арӑм", "ˈarəm"],
     sah: ["ойох", "oˈjox"],
-    mn: ["эхнэр", "exner"],
+    mn: ["эхнэр", "ˈexner"],
     xal: ["гергн", "ɡerˈɡen"],
     evn: ["асӣ", "asiː"],
     gld: ["аси", "azi"],
@@ -700,10 +700,10 @@ WORDS.wife = {
     got: ["𐌵𐌴𐌽𐍃", "kʷeːns"],  // The word for woman is the related 𐌵𐌹𐌽𐍉.
     dng: ["пәе", "pʰə˨˦iə˥˩"],  // The same word means woman; cognate with dialectal Mandarin 婆姨.
     sco: ["guidwife", "ˈɡɪdwəif"],  // Literally 'good woman', from guid 'good' and wife 'woman'.
-    orv: ["жена", "ʒena"],  // The same word means woman.
+    orv: ["жена", "ʒeˈna"],  // The same word means woman.
     rif: ["ⵜⴰⵎⵖⴰⵔⵜ", "θamʁaθ"],  // The same word means woman (and mother-in-law); inherited from Proto-Berber *ta-mɣar-t.
     ug: ["خوتۇن", "xoˈtun"],  // The same word means woman; from Proto-Common Turkic *xātun 'queen'.
-    tsg: ["asawa", "ʔasawa"],  // Inherited from Proto-Austronesian *qasawa; the word for woman is babai and for husband bana.
+    tsg: ["asawa", "ʔasaˈwa"],  // Inherited from Proto-Austronesian *qasawa; the word for woman is babai and for husband bana.
     cjy: ["老婆", "lau˥˧ pʰɤ˩"],  // The colloquial word for wife; no woman word from the same source is set beside it.
     si: ["බිරිඳ", "biriⁿdə"],  // No word for woman from the same source is set beside it.
     lo: ["ເມຍ", "miːə̯˧˥"],  // Inherited from Proto-Tai *miəᴬ 'wife'; no woman word from the same source is set beside it.
@@ -786,7 +786,7 @@ WORDS.wife = {
     hai: ["jáa", "dʒáː"],  // The source gives no word for woman beside it.
     gl: ["esposa", "esˈposa"],  // From Latin spōnsa; muller, the word for woman, is also used for wife.
     mdr: ["baine", "bainɛ"],  // From Proto-Malayo-Polynesian *babinahi; the source gives no woman word beside it.
-    gu: ["પત્ની", "pətniː"],  // A learned borrowing from Sanskrit पत्नी; the word for woman is નારી, though several woman words can also mean wife.
+    gu: ["પત્ની", "ˈpətniː"],  // A learned borrowing from Sanskrit पत्नी; the word for woman is નારી, though several woman words can also mean wife.
     mk: ["жена", "ˈʒɛna"],  // The same word means woman; сопруга is a formal synonym.
     blc: ["cnas", "çnas"],  // The same word means woman.
     shi: ["ⵜⴰⵎⵖⴰⵔⵜ", "tamɣart"],  // The same word means woman, from Proto-Berber *ta-mɣar-t 'old woman'.

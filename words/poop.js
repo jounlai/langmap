@@ -340,7 +340,7 @@ WORDS.poop = {
     niu: ["tē", "teː"],
     ch: ["tåkeʼ", "ˈtɑkeʔ"],
     bi: ["kaka", "kaka"],
-    pjt: ["kuna", "kuna"],
+    pjt: ["kuna", "ˈkuna"],
     wbp: ["kuna", "kuna"],
     ban: ["tai", "tai"],
     war: ["tae", "taʔe"],

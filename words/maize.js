@@ -598,7 +598,7 @@ WORDS.maize = {
     szl: ["kukurzica", "kukuˈʐitsa"],
     tao: ["tomozokosi", "tomozokosi"],  // Compare Japanese tōmorokoshi.
     tkl: ["hana", "hana"],
-    tsg: ["gandum", "ɡandum"],
+    tsg: ["gandum", "ɡanˈdum"],
     vot: ["kukuruza", "kukuˈruza"],
     war: ["mais", "maˈʔis"],
     yua: ["ixiʼim", "iʃiʔim"],
@@ -785,7 +785,7 @@ WORDS.maize = {
     ii: ["ꀀꃆ", "i˥ mu˨˩"],  // No image is recorded for it, so it counts as a word of its own.
     cay: ["onę́hę:ʼ", "onɛ̃́hɛ̃ːʔ"],  // No image is recorded for it, so it counts as a word of its own.
     dtp: ["luong", "luoŋ"],  // No image is recorded for it, so it counts as a word of its own.
-    aii: ["ܡܟܐ", "makkeː"],  // Ultimately from Hindi मक्का makkā.
+    aii: ["ܡܟܐ", "makˈkeː"],  // Ultimately from Hindi मक्का makkā.
     mez: ["wāpemen", "waːpemen"],  // No image is recorded for it, so it counts as a word of its own.
     cro: ["xoóxaashe", "χoóχaːʃe"],  // No image is recorded for it, so it counts as a word of its own.
     ty: ["tō papaʻā", "toː papaʔaː"],  // The source gives no etymology.

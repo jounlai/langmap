@@ -751,13 +751,13 @@ WORDS.monday = {
     sd: ["سومر", "suːmərʊ"],  // Probably from Sanskrit somavāra, "moon day".
     pa: ["ਸੋਮਵਾਰ", "soːmʋaːɾ"],  // From Sanskrit somavāra, soma "moon" + vāra "day".
     mr: ["सोमवार", "soːmʋaːɾ"],  // From Sanskrit somavāra, soma "moon" + vāra "day".
-    gu: ["સોમવાર", "somʋaːɾ"],  // Learned borrowing of Sanskrit somavāra, literally "moon-day".
+    gu: ["સોમવાર", "ˈsomʋaːɾ"],  // Learned borrowing of Sanskrit somavāra, literally "moon-day".
     dv: ["ހޯމަ", "hoːma"],  // Inherited from Sanskrit soma, "moon".
     te: ["సోమవారం", "soːmaʋaːɾam"],  // From Sanskrit somavāra, "moon-day".
     kn: ["ಸೋಮವಾರ", "soːmaʋaːɾa"],  // From Sanskrit somavāra, soma "moon" + vāra "day".
     ml: ["തിങ്കളാഴ്ച", "t̪iŋɡaɭaːɻtʃa"],  // Native compound of tiṅkaḷ "moon" and āḻca "week (day)".
     tg: ["душанбе", "duʃanbe"],  // "Two (days after) Saturday": du "two" + shanbe, counting from Saturday as day zero.
-    ckb: ["دووشەممە", "duːʃamma"],  // Like Persian dushanbe: "two" + shamme "Saturday", the second day counted from Saturday.
+    ckb: ["دووشەممە", "duːʃamˈma"],  // Like Persian dushanbe: "two" + shamme "Saturday", the second day counted from Saturday.
     az: ["bazar ertəsi", "bɑzɑɾ æɾtæsi"],  // "The day after bazar (Sunday)".
     ug: ["دۈشەنبە", "dyʃɛnˈbɛ"],  // From Persian dushanbe, "two (days after) Saturday".
     kk: ["дүйсенбі", "dyjsenˈbɘ"],  // From Persian dushanbe, "two (days after) Saturday".
@@ -906,7 +906,7 @@ WORDS.monday = {
     aa: ["itlén", "itlen"],  // From Arabic al-ithnayn, "the two" (the second day counting from Sunday).
     mak: ["Sanneng", "ˈsanːeŋ"],  // Via Malay Senin from Arabic al-ithnayn, "the two" (the second day).
     lmo: ["lunedí", "lyneˈdi"],  // From Latin Lūnae diēs, "day of the Moon"; also lunesdí, lundesdí.
-    kpv: ["выльлун", "vɨʎlun"],  // Literally "new day" (vyľ "new" + lun "day").
+    kpv: ["выльлун", "ˈvɨʎlun"],  // Literally "new day" (vyľ "new" + lun "day").
     kl: ["ataasinngorneq", "ataːsiŋːoɴːeq"],  // Built on ataaseq "one" (+ -nngor- "become"): day one of the week.
     mns: ["са̄т о̄выл хо̄талэ", "saːt oːwɪl χoːtalə"],  // "The week's first day": sāt "week" + ōwyl "first" + xōtal "day".
     ty: ["Monirē", "moniɾeː"],  // Monday has its own name, while Tuesday to Saturday are numbered: mahana piti "day two" up to mahana mā'a "day six". Route by resemblance to the neighbouring forms (rar(Mōnitē) rtm(Mạnre)); no etymology of its own.

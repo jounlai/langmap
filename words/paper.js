@@ -534,7 +534,7 @@ WORDS.paper = {
     om: ["waraqaa", "waraqaː"],  // Route by resemblance to the neighbouring forms (ar); no etymology of its own.
     rw: ["urupapuro", "urupapuɾo"],  // Route by resemblance to the neighbouring forms (en,fr); no etymology of its own.
     tn: ["pampiri", "pampiri"],  // Route by resemblance to the neighbouring forms (rm); no etymology of its own.
-    tsg: ["kātas", "kaːtas"],
+    tsg: ["kātas", "kaːˈtas"],
     tum: ["pepala", "pepala"],  // Route by resemblance to the neighbouring forms (en); no etymology of its own.
     vot: ["paperi", "ˈpaperi"],
     yrl: ["papera", "paˈpera"],

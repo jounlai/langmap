@@ -717,8 +717,8 @@ WORDS.money = {
     smn: ["ruttâ", "ˈrutːɐ"],
     sms: ["teä´ǧ´ǧ", "ˈtɛaɟɟʝʲɘ"],  // No opened source supports the route.
     sjd: ["те̄ӈӈьк", "tʲeːŋːjk"],  // No opened source supports the route.
-    mrj: ["окса", "oksɑ"],  // Route by resemblance to the neighbouring forms (cv); no etymology of its own.
-    mhr: ["окса", "oksa"],  // Route by resemblance to the neighbouring forms (cv); no etymology of its own.
+    mrj: ["окса", "ˈoksɑ"],  // Route by resemblance to the neighbouring forms (cv); no etymology of its own.
+    mhr: ["окса", "okˈsa"],  // Route by resemblance to the neighbouring forms (cv); no etymology of its own.
     kpv: ["деньга", "ɟeɲɡa"],  // Route by resemblance to the neighbouring forms (ru); no etymology of its own.
     koi: ["деньга", "ɟeɲɡa"],  // Route by resemblance to the neighbouring forms (ru); no etymology of its own.
     kca: ["вох", "wox"],
@@ -873,7 +873,7 @@ WORDS.money = {
     xh: ["imali", "imaːli"],  // From Swahili mali, ultimately from Arabic مال 'wealth'.
     lij: ["palanche", "paˈlaŋke"],  // Related to Italian palanca, from Spanish blanca, a small copper coin.
     ofs: ["ield", "jeld"],  // From Proto-Germanic geldą, from a root meaning 'to repay'.
-    tsg: ["pilak", "pilak"],  // The same word means silver; borrowed from Malay pirak, an old form of perak.
+    tsg: ["pilak", "piˈlak"],  // The same word means silver; borrowed from Malay pirak, an old form of perak.
     yur: ["cheeek", "tʃiːk"],  // No image is recorded for it, so it counts as a word of its own.
     vot: ["raha", "ˈraha"],  // From Proto-Finnic raha, borrowed from Proto-Germanic skrahā 'squirrel skin'.
     pwn: ["paisu", "paisu"],  // No etymology is given, so it counts as a word of its own.

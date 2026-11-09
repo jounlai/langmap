@@ -502,7 +502,7 @@ WORDS.rice = {
     rhg: ["soil", "sɔil"],
     tcy: ["ಅರಿ", "aɾi"],
     sco: ["rice", "rəis"],
-    tsg: ["bugas", "buɡas"],
+    tsg: ["bugas", "buˈɡas"],
     gor: ["pale", "ˈpale"],
     unr: ["chauli", "tʃauli"],
     hoc: ["chauli", "tʃauli"],

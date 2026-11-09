@@ -495,7 +495,7 @@ WORDS.japan = {
     ur: ["جاپان", "dʒaːpaːn"],  // Borrowed from English Japan (Wiktionary).
     ru: ["Япония", "jɪˈponʲɪjə"],  // A learned borrowing from New Latin Iaponia (Wiktionary).
     id: ["Jepang", "dʒəˈpaŋ"],  // Inherited from Malay Jepang, from Hokkien 日本 Ji̍t-pún; the Malay word is the source of the European name Japan (Wiktionary).
-    pa: ["ਜਪਾਨ", "dʒəpaːn"],  // Borrowed from English Japan (Wiktionary).
+    pa: ["ਜਪਾਨ", "dʒəˈpaːn"],  // Borrowed from English Japan (Wiktionary).
     de: ["Japan", "ˈjaːpan"],  // From Dutch Japan, from Malay Jepang, from Hokkien 日本 Ji̍t-pún (Wiktionary).
     ja: ["日本", "nihoɴ"],  // Literally 'sun origin'; Nihon is the everyday reading and Nippon the more formal one (Wiktionary).
     fa: ["ژاپن", "ʒɒːˈpon"],  // Borrowed from French Japon; Afghan Dari uses جاپان jāpān (Wiktionary).
@@ -516,9 +516,9 @@ WORDS.japan = {
     pnb: ["جاپان", "dʒaːpaːn"],  // Borrowed from English Japan (Wiktionary).
     cjy: ["日本", "zəʔ˨ pəŋ˥˧"],  // Literally 'sun origin', read in Taiyuan Jin (Wiktionary, MCPDict).
     th: ["ญี่ปุ่น", "jiː˥˩ pun˨˩"],  // Borrowed from Hokkien 日本 Ji̍t-pún; Lao ຍີ່ປຸ່ນ is a cognate (Wiktionary).
-    gu: ["જાપાન", "dʒaːpaːn"],  // Borrowed from English Japan (Wiktionary).
+    gu: ["જાપાન", "ˈdʒaːpaːn"],  // Borrowed from English Japan (Wiktionary).
     bho: ["जापान", "dʒaːpaːn"],  // The same form as Hindi जापान; no source found that names the donor. Route by resemblance to the neighbouring forms (hi(जापान) bn(জাপান)); no etymology of its own.
-    ps: ["جاپان", "dʒɑpɑn"],  // Borrowed from English Japan, possibly through Urdu (Wiktionary).
+    ps: ["جاپان", "dʒɑˈpɑn"],  // Borrowed from English Japan, possibly through Urdu (Wiktionary).
     nan: ["日本", "lit˦ pun˥˧"],  // Literally 'sun origin'; this Hokkien Ji̍t-pún is the source of Malay Jepang and, through it, of Japan (Wiktionary).
     hak_cn: ["日本", "ŋit˩ pun˧˩"],  // Literally 'sun origin', read in Hakka (Wiktionary).
     es: ["Japón", "xaˈpon"],  // Probably from Portuguese Japão, perhaps influenced by the Hokkien of early Manila (Wiktionary).
@@ -778,7 +778,7 @@ WORDS.japan = {
     tcy: ["ಜಪಾನ್", "dʒapaːn"],  // ಜಪಾನ್ is the title of the Tulu Wikipedia article on Japan, the same form as Kannada ಜಪಾನ್.
     mni: ["ꯖꯄꯥꯟ", "dʒəpan"],  // ꯖꯄꯥꯟ is the title of the Manipuri Wikipedia article on Japan, and Unicode CLDR gives the same name, জাপান, in Bengali script.
     iba: ["Jipun", "dʒipun"],  // Borrowed from Hokkien 日本 Ji̍t-pún (Wiktionary); Iban Wikipedia's article on Japan is titled Jipun.
-    tsg: ["Jipun", "dʒipun"],  // Borrowed from Malay Jepun, from Hokkien 日本 Ji̍t-pún (Wiktionary); also Hula' Jipun 'land of Japan'.
+    tsg: ["Jipun", "dʒiˈpun"],  // Borrowed from Malay Jepun, from Hokkien 日本 Ji̍t-pún (Wiktionary); also Hula' Jipun 'land of Japan'.
     mrw: ["Diyapan", "dijapan"],  // Glossed 'Japan' in the Maranao dictionary; the Japanese people are Apon, and Japan is also called inged o Apon 'country of the Apon'.
     tig: ["ጃፓን", "dʒapan"],  // Tigre Wikipedia's name for Japan, ደውለት ጃፓን 'State of Japan'.
     gor: ["Japangi", "dʒaˈpaŋi"],  // Gorontalo Wikipedia's name for Japan; Japanese is bahasa Japangi.

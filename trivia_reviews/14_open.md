@@ -24,3 +24,5 @@ Content fix: paper-the-inventors-word gave Old Chinese 紙 the Japanese reading 
 | it | 1865 | c01, c03–c07 most (punchy fragments, generic tu, calques, dashes, Title Case); kokuji heading duplicates the title (not unique); Lineare A/B gender and quote style to unify |
 | ru | 258 | c01–c05 most; tuyuca summary Хуан → Джон (fact), Бакстер and Ели Жэньжун unified, клетка → ячейка; Latin-script person names in Russian text left (site policy needed) |
 | ar (pass 1) | 355 | only ~17 articles read in full; the rest pattern-scanned (ببساطة ×80, ~470 dash asides, والنتيجة drumrolls, حجر رشيد). Full read split into three readers follows |
+| uk | 1394 | delayed-subject calques, bookish copulas, Title Case; term spellings unified (кандзі, ханча, манйоґана, хан-в’єт); mixed apostrophes and missing IPA on Ukrainian forms left |
+| he (pass 1) | 162 | c01 and c10 read in full, c02–c09 only openings, closings and flagged sentences; 'סימניות' (bookmarks) used for characters ~30 times; full read follows |

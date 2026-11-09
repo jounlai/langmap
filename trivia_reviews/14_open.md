@@ -22,3 +22,4 @@ Content fix: paper-the-inventors-word gave Old Chinese 紙 the Japanese reading 
 | pt | 134 | c01 ~60, c07 ~28; ~30 articles in European Portuguese among Brazilian ones (variety unification pending); Mohawk '58 células' → '58 prefixos pronominais' |
 | es | 398 | c01 175 (≈200 dash asides), Sinosphere and word-story articles; 'accidentes geográficos' mistranslation fixed; 47 lower-case cited forms opening sentences; tú/usted mix; quote style and capitalisation of peoples/scripts to unify |
 | it | 1865 | c01, c03–c07 most (punchy fragments, generic tu, calques, dashes, Title Case); kokuji heading duplicates the title (not unique); Lineare A/B gender and quote style to unify |
+| ru | 258 | c01–c05 most; tuyuca summary Хуан → Джон (fact), Бакстер and Ели Жэньжун unified, клетка → ячейка; Latin-script person names in Russian text left (site policy needed) |

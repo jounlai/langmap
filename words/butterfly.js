@@ -923,7 +923,7 @@ WORDS.butterfly = {
     abe: ["mamijola", "mamidʒola"],
     ik: ["taqalukisaq", "taqalukisaq"],
     usp: ["pepe", "pepe"],
-    bgc: ["पटबीजणा", "pəʈbiːdʒɳaː"],
+    bgc: ["तितली", "tɪtliː"],  // The Hindi word; no Haryanvi-specific word for butterfly was found. The earlier पटबीजणा is the firefly (Wiktionary; Rekhta पट बीजना "firefly").
     nyo: ["ekihoiholya", "ekihoiholja"],
     kos: ["sacliki", "sɛliki"],
     dzg: ["kuli-mallimi", "kʊ̀lɪ̀málɪ́mɪ́"],  // Covers butterflies and moths; synonym popur.

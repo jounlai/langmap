@@ -1063,7 +1063,7 @@ WORDS.head = {
     xpu: ["𐤓𐤀𐤔", "ruːʃ"],
     uga: ["𐎗𐎛𐎌", "raʔʃu"],
     syc: ["ܪܝܫܐ", "reːʃaː"],
-    akk: ["𒊕𒆕", "qaqːadu"],
+    akk: ["𒊕𒁺", "qaqːadu"],  // Written with the logogram SAG.DU (Wiktionary qaqqadum).
     hbo: ["רֹאשׁ", "roːʃ"],
     gez: ["ርእስ", "rəʔs"],
     hit: ["𒄩𒅈𒊭𒅈", "xarsar"],
@@ -1115,7 +1115,7 @@ WORDS.head = {
     duu: ["u", "u"],
     ybe: ["paš", "paʃ"],
     atb: ["ulhum", "u˨˩lu̱m˨˩"],
-    bor: ["ao", "ao"],
+    bor: ["aora", "aoɾa"],  // Ao alone is hair (Wiktionary, ASJP).
     blc: ["tʼnχʷ", "tʼnχʷ"],
     guu: ["he", "he"],
     jup: ["núh", "núh"],

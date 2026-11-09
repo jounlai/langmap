@@ -152,7 +152,7 @@ WORDS.uncle = {
     mak: "unknown",
     mbc: "split",
     mch: "split",
-    mfe: "unknown",
+    mfe: "one",
     mk: "split",
     ml: "split",
     mnc: "split",
@@ -377,7 +377,7 @@ WORDS.uncle = {
     mak: ["aeng", "aˈeŋ"],
     mbc: ["papai", "papai"],  // Father's brother; mother's brother is inton.
     mch: ["ümü", "ɨmɨ"],  // Father's brother; mother's brother is wo.
-    mfe: ["mama", "mama"],
+    mfe: ["tonton", "tɔ̃tɔ̃"],  // From French tonton; mama is 'mother' (Wiktionary).
     mk: ["чичко", "ˈtʃitʃkɔ"],  // Father's brother; mother's brother is вујко.
     ml: ["വല്യച്ഛൻ", "ʋɐljɐtʃtʃʰɐn"],  // Father's brother; mother's brother is അമ്മാവൻ.
     mnc: ["ᠠᠮᠵᡳ", "ämtɕi"],  // Father's brother; mother's brother is ᡩᡝᡥᡝᠮᠠ.

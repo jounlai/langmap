@@ -1199,7 +1199,7 @@ WORDS.sleep = {
     wic: ["hiʔinck", "hiʔintsk"],
     yuc: ["tsa", "tsa"],
     sdo: ["buʼus", "buʔus"],
-    hup: ["mił", "miɬ"],
+    hup: ["xokiwung", "xokʲiwuŋ"],  // 'He is asleep' (Golla 1996, entry asleep); the earlier mił is the postposition 'with it'.
     aiw: ["leema", "leːma"],
     wrh: ["yuray", "ˈjuɻaj"],
     spp: ["ŋɔɔ", "ŋɔ́ː"],

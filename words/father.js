@@ -634,7 +634,7 @@ WORDS.father = {
     aii: ["ܒܒܐ", "baba"],
     tru: ["ܒܒܐ", "babo"],
     sux: ["𒀊𒁀", "abːa"],
-    akk: ["𒀊", "abu"],
+    akk: ["𒀀𒁍", "abu"],  // Spelled a-bu, as the row spells mother um-mu (Wiktionary abum).
     hit: ["𒀜𒋫𒀸", "atːas"],
     nci: ["tahtli", "tahtɬi"],
     nhx: ["te̱taj", "teːtah"],

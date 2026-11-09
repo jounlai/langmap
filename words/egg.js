@@ -129,7 +129,7 @@ WORDS.egg = {
     th: ["ไข่", "kʰaj˨˩"],
     id: ["telur", "təˈlur"],
     ms: ["telur", "təˈlor"],
-    ace: ["boh", "bɔh"],
+    ace: ["boh", "bɔh"],  // Boh means both fruit and egg; a hen's egg is boh manok.
     hi: ["अंडा", "əɳɖaː"],
     hns: ["anda", "əɳɖaː"],
     sa_edu: ["अण्डम्", "ɐɳɖɐm"],

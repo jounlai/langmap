@@ -419,7 +419,7 @@ WORDS.moon = {
     mxc: ["mwedzi", "mwedzi"],
     ln: ["sánzá", "sánzá"],
     ny: ["mwezi", "mwezi"],
-    yao: ["lwesi", "lwesi"],
+    yao: ["mwesi", "mwesi"],  // Moon and month; lwesi is moonlight (Wiktionary).
     en_aave: ["moon", "muːn"],
     en_nz: ["moon", "mʉːn"],
     en_au: ["moon", "mʉːn"],

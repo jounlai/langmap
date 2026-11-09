@@ -489,7 +489,7 @@ WORDS.snow = {
     ak: ["sukyerɛmma", "sutɕɪrɛmma"],
     nzi: ["ezukɔtweaba", "ezukɔtweaba"],
     mk: ["снег", "snɛk"],
-    ki: ["ira", "iɾa"],
+    ki: ["ira", "iɾa"],  // The same word means yesterday (Isaiah 1:18 pairs it with snow).
     mer: ["nkamia", "ŋkamia"],
     kam: ["ĩa", "ea"],
     ebu: ["ĩra", "eɾa"],

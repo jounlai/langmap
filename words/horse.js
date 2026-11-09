@@ -747,7 +747,7 @@ WORDS.horse = {
     vai: ["ꖇ", "so"],
     bru: ["aséh", "aseh"],
     rwk: ["farasi", "faɾasi"],
-    urh: ["esi", "esi"],
+    urh: ["iyesi", "ijesi"],  // Ukere's Urhobo-English Dictionary: iyési horse, esi pig.
     iso: ["anyenya", "aɲeɲa"],
     bzj: ["haas", "haːs"],
     ja_oki: ["馬", "ʔɴma"],

@@ -1111,7 +1111,7 @@ WORDS.daughter = {
     cjy_lv: ["女", "zu˧˩˨"],
     hsn_hy: ["女", "ny˧˧"],
     kmc: ["pəi31", "pəi˧˩"],
-    niv: ["оӻла", "oʁla"],
+    niv: ["оӻла", "oʁla"],  // NorthEuraLex gives it for daughter; Wiktionary glosses it child, son.
     bsk: ["-i", "i"],
     slr: ["qız", "qɨz"],
     cag: ["ɔse", "ɔse"],

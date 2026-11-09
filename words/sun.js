@@ -765,7 +765,7 @@ WORDS.sun = {
     abe: ["kisos", "kisos"],
     umu: ["kíishux", "kiːʃux"],
     crk: ["ᐲᓯᒼ", "piːsim"],
-    yur: ["wonewsleg", "wɔnewʂleɣ"],
+    yur: ["wonewsleg", "wɔnewʂleɣ"],  // Names both the sun and the moon (Yurok Language Project dictionary).
     lkt: ["wí", "wí"],
     kl: ["seqineq", "seqineq"],
     ce: ["малх", "malx"],

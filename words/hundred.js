@@ -886,7 +886,7 @@ WORDS.hundred = {
     kam: ["ĩana", "eana"],
     yue_ts: ["百", "pak˧˧"],
     din: ["buɔt", "buɔt"],
-    ay: ["pataka", "pataka"],
+    ay: ["pataka", "paˈtaka"],
     fon: ["kanwe ko", "kãwe ko"],
     ii: ["ꉐ", "ha˧˧"],
     pcc: ["bas", "pa˧˥"],

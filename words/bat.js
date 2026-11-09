@@ -1032,7 +1032,7 @@ WORDS.bat = {
     tum: ["kasuska", "kasuska"],  // The Tumbuka word for the bat. No image is recorded for it, so it counts as a word of its own.
     myx: ["liwukuru", "liwukuru"],  // The Lumasaaba word for the bat; the plural is kamawukuru. Unrelated to imbeeba 'rat' and khanywinywi 'bird'.
     quc: ["sotzʼ", "sotsʼ"],  // Inherited from Proto-Mayan *sootzʼ 'bat', like Yucatec sootsʼ and Tzotzil sotzʼ.
-    ay: ["chiñi", "tʃiɲi"],  // The Aymara word for the bat, shared with Quechua chiñi.
+    ay: ["chiñi", "ˈtʃiɲi"],  // The Aymara word for the bat, shared with Quechua chiñi.
     mni: ["ꯁꯦꯛꯄꯤ", "sekpi"],  // The Meitei word for the bat. Unrelated to uchi 'mouse' and uchek 'bird'.
     mak: ["paʼnyiki", "paʔˈɲiki"],  // The Makassarese word for the bat. Route by resemblance to the neighbouring forms (tl(paniki) bik(paniki)); no etymology of its own.
     max: ["paniki", "paniki"],  // Probably taken from a language of North Sulawesi, ultimately from Proto-Malayo-Polynesian *paniki 'fruit bat'.

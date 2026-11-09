@@ -1618,7 +1618,7 @@ WORDS.bear = {
     osa: ["wasápe", "wasápe"],
     qwc: ["ukumari", "ukumaɾi"],
     qu: ["ukumari", "ukuˈmaɾi"], // was ["ukumari", "ukumaɾi"] (vi dialect rules 2026-10-06)
-    ay: ["jukumari", "xukumaɾi"],
+    ay: ["jukumari", "xukuˈmaɾi"],
 
     // --- Africa: established loans only ----------------------------------
     xh: ["ibhere", "ibʱere"],
@@ -1772,7 +1772,7 @@ WORDS.bear = {
     acu: ["chayu", "tʃaju"],
     pbb: ["eʼsxavy", "eʔʃaβʲ"], // was ["eʼsxavy", "eʔʃaβj"] (vi dialect rules 2026-10-06) // was ["eʼsxavy", "eʔʃaβʲ"] (vi dialect rules 2026-10-06)
     gum: ["wig", "wik"], // was ["wig", "wiɡ"] (r35 fix 2026-10-02)
-    quz: ["ukuku", "ukuku"],
+    quz: ["ukuku", "uˈkuku"],
     quy: ["ukumari", "ukumaɾi"],
     guc: ["jeesü", "heːsɨ"],
     emp: ["ui", "ui"], // was ["wi", "wi"] (vi dialect rules 2026-10-06)

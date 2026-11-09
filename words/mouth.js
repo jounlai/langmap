@@ -713,7 +713,7 @@ WORDS.mouth = {
     mnk: ["daa", "daː"],
     dag: ["noli", "noli"],
     quc: ["chiʼ", "tʃiʔ"],
-    quz: ["simi", "simi"],
+    quz: ["simi", "ˈsimi"],
     ksw: ["ထးခိၣ်", "tʰakʰo"],
     pwo: ["နိၭ", "noʔ"],
     hni: ["meiqbaoq", "me˧˩bɔ˧˩"],

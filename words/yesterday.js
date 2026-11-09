@@ -1315,7 +1315,7 @@ WORDS.yesterday = {
     kde: ["lido", "lido"],  // tomorrow: nundu.
     mak: ["subangngi", "suˈbaŋːi"],  // tomorrow: ammuko; subangngi contains bangngi 'night'.
     mas: ["ŋole", "ŋole"],  // tomorrow: taisere; the Bibles spell the word ng'ole.
-    ay: ["wasüru", "wasuːɾu"],  // tomorrow: qharüru; all three day words end in uru 'day'.
+    ay: ["wasüru", "waˈsuːɾu"],  // tomorrow: qharüru; all three day words end in uru 'day'.
     hmn: ["nag hmo", "na˧˩̤ m̥ɔ˧"],  // tomorrow: tag kis; nag hmo contains hmo 'night', and nag alone is also used.
     doi: ["कल", "kəl"],  // tomorrow: कल; as in Hindi and Punjabi, one word serves both days.
     nyn: ["nyomwabazyo", "ɲomwabazjo"],  // tomorrow: nyencakare.

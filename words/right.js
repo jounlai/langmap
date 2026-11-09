@@ -476,7 +476,7 @@ WORDS.right = {
     fa: ["راست", "ɾɒːst"],
     pl: ["prawy", "ˈpravɨ"],
     pt: ["direita", "diˈɾɐjtɐ"],
-    qu: ["paña", "paɲa"],
+    qu: ["paña", "ˈpaɲa"],
     rap: ["mataʻu", "mataʔu"],
     ro: ["drept", "drept"],
     ru: ["правый", "ˈpravɨj"],
@@ -545,7 +545,7 @@ WORDS.right = {
     ha: ["dama", "dama"],
     rtm: ["ʔatmai", "ʔatmai"],
     to: ["tafaʔaki mataʔu", "tafaʔaki mataʔu"],
-    ay: ["kupi", "kupi"],
+    ay: ["kupi", "ˈkupi"],
     arn: ["man", "man"],
     sw: ["kulia", "kuˈlia"],  // From mkono wa kulia, the hand to eat with.
     dsb: ["pšawy", "ˈpʃawɨ"],

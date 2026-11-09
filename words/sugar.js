@@ -1388,7 +1388,7 @@ WORDS.sugar = {
     bi: ["suga", "suɡa"],
     bzj: ["shuga", "ʃuɡa"],
     kl: ["sukkut", "sukːut"],
-    ay: ["asukara", "asukaɾa"], // was ["azúcar", "asukar"] (vi dialect rules 2026-10-06)
+    ay: ["asukara", "asuˈkaɾa"], // was ["azúcar", "asukar"] (vi dialect rules 2026-10-06)
     sn: ["shuga", "ʃuɡa"],
     rw: ["isukari", "isukaɾi"], // was ["isukari", "isukari"] (vi dialect rules 2026-10-06)
     ny: ["shuga", "ʃuɡa"],

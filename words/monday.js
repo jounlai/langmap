@@ -1039,7 +1039,7 @@ WORDS.monday = {
     brx: ["समबार", "sɔmbar"],  // Sombar, the Bodo name for Monday; no Bodo source for its etymology was found. Route by resemblance to the neighbouring forms (ne(सोमबार) hi(सोमवार)); no etymology of its own.
     mas: ["Jumatátu", "dʒumatatu"],  // Jumatatu, the same name as Swahili Jumatatu; no Maasai source states its origin. Route by resemblance to the neighbouring forms (sw(Jumatatu) luy(Jumatatu)); no etymology of its own.
     nd: ["Mvulo", "mvulo"],  // Mvulo, the Northern Ndebele name for Monday; its literal meaning is not given in the source. Route by resemblance to the neighbouring forms (xh(uMvulo)); no etymology of its own.
-    ay: ["Lunisa", "lunisa"],  // Lunisa, the Aymara name for Monday; the source does not state its origin. Route by resemblance to the neighbouring forms (sc(lunis) fur(lunis)); no etymology of its own.
+    ay: ["Lunisa", "luˈnisa"],  // Lunisa, the Aymara name for Monday; the source does not state its origin. Route by resemblance to the neighbouring forms (sc(lunis) fur(lunis)); no etymology of its own.
     kbp: ["Hodo wiye", "hodo wije"],  // Hodo wiye, the Kabiye name for Monday; the source does not explain the name.
     kea: ["sigunda-fera", "siˈɡũdɐ ˈfeɾɐ"],  // From Portuguese segunda-feira, "second weekday", counting Sunday as the first.
     gaa: ["Ju", "dʒu"],  // Ju, the Ga name for Monday (CLDR); its literal meaning was not found.

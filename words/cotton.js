@@ -371,7 +371,7 @@ WORDS.cotton = {
     pbb: ["wawa", "wawa"],
     pl: ["bawełna", "baˈvɛwna"],  // Literally 'tree wool', or borrowed from such a word.
     pt: ["algodão", "awɡuˈdɐ̃w̃"],  // From Arabic qutn.
-    qu: ["utku", "utku"],
+    qu: ["utku", "ˈutku"],
     quy: ["utku", "utku"],
     rap: ["vavai", "vavai"],
     rhg: ["gútum", "ɡutum"],
@@ -385,7 +385,7 @@ WORDS.cotton = {
     sq: ["pambuk", "pamˈbuk"],  // From Persian pambak (panbe).
     ssw: ["kotini", "kotini"],  // From Arabic qutn.
     sv: ["bomull", "ˈbuːmɵlː"],
-    sw: ["pamba", "pamba"],  // From Persian pambak (panbe).
+    sw: ["pamba", "ˈpamba"],  // From Persian pambak (panbe).
     szl: ["bawołna", "baˈvɔwna"],  // Literally 'tree wool', or borrowed from such a word.
     ta: ["பருத்தி", "pɐɾʊt̪ːiː"],
     te: ["ప్రత్తి", "pɾat̪ːi"],

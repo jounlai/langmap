@@ -569,7 +569,7 @@ WORDS.yellow = {
     ps: ["ژېړ", "ʒeɻ"],
     pl: ["żółty", "ˈʐuwtɨ"],
     pt: ["amarelo", "amaˈɾɛlu"],  // From Latin amarus 'bitter'.
-    qu: ["qʼillu", "qʼiʎu"],
+    qu: ["qʼillu", "ˈqʼiʎu"],
     rcf: ["zone", "zon"],  // From French.
     ro: ["galben", "ˈɡalben"],
     ru: ["жёлтый", "ˈʐoltɨj"],

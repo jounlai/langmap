@@ -520,7 +520,7 @@ WORDS.saturday = {
     pdc: ["Samschdaag", "ˈsamʃdaːk"],  // No opened source supports the route.
     pl: ["sobota", "sɔˈbɔta"],
     pt: ["sábado", "ˈsabadu"],
-    qu: ["kʼuychichaw", "kʼujtʃitʃaw"],
+    qu: ["kʼuychichaw", "kʼujˈtʃitʃaw"],
     rom: ["sàvato", "ˈsavato"],
     ro: ["sâmbătă", "ˈsɨmbətə"],
     ru: ["суббота", "sʊˈbotə"],

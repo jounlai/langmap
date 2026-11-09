@@ -744,7 +744,7 @@ WORDS.one = {
     mxv: ["iin", "iːn"],
     toc: ["aktum", "aktum"],
     huv: ["nop", "nop"],
-    ay: ["maya", "maja"],
+    ay: ["maya", "ˈmaja"],
     jqr: ["maya", "maja"],
     cni: ["aparoni", "apaɾoni"],
     ame: ["pat̃err", "patʲeɻ"],

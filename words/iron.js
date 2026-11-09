@@ -860,7 +860,7 @@ WORDS.iron = {
     yue_ts: ["铁", "het˧˧"],
     cpx: ["铁", "tʰi˩˩"],
     laj: ["nyonyo", "ɲoɲo"],
-    ay: ["qillaya", "qiʎaja"],
+    ay: ["qillaya", "qiˈʎaja"],
     bci: ["blalɛ", "blalɛ"],
     pag: ["balatyang", "balatˈjaŋ"],
     mui: ["besi", "bəsi"],

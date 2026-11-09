@@ -179,7 +179,7 @@ WORDS.sea = {
     as: ["সাগৰ", "xaɡɔɹ"],
     ast: ["mar", "maɾ"],
     av: ["ралъад", "raɬad"],
-    ay: ["lamara", "lamaɾa"],
+    ay: ["lamara", "laˈmaɾa"],
     azb: ["دنیز", "dæˈniz"],
     ba: ["диңгеҙ", "diŋˈɡeð"],
     ban: ["pasih", "pasih"],

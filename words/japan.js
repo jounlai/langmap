@@ -604,7 +604,7 @@ WORDS.japan = {
     tum: ["Japan", "dʒapan"],  // Tumbuka name for Japan, spelled as in English. Route by resemblance to the neighbouring forms (hi(जापान) bn(জাপান)); no etymology of its own.
     sl: ["Japonska", "jaˈpoːnska"],  // Slovene name for Japan, formed with the adjective suffix -ska like other country names. Route by resemblance to the neighbouring forms (cs(Japonsko) sk(Japonsko)); no etymology of its own.
     gl: ["Xapón", "ʃaˈpoŋ"],  // Galician name for Japan. Route by resemblance to the neighbouring forms (mn(Япон) es_pa(Japón)); no etymology of its own.
-    ay: ["Nihun", "nihun"],  // Aymara name taken from Japanese Nihon; Hapun from Spanish is also used. Route by resemblance to the neighbouring forms (lo(ຍີ່ປຸ່ນ)); no etymology of its own.
+    ay: ["Nihun", "ˈnihun"],  // Aymara name taken from Japanese Nihon; Hapun from Spanish is also used. Route by resemblance to the neighbouring forms (lo(ຍີ່ປຸ່ນ)); no etymology of its own.
     pms: ["Giapon", "dʒaˈpuŋ"],  // From French Japon, which goes back via Malay to Hokkien Ji̍t-pún.
     ga: ["an tSeapáin", "ən̪ˠ ˈtʲapˠɑːnʲ"],  // Borrowed from English Japan; it is always cited with the article, which turns s- into t-.
     lv: ["Japāna", "ˈjapaːna"],  // Probably from German Japan, made a feminine noun like most Latvian country names.

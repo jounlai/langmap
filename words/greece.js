@@ -835,7 +835,7 @@ WORDS.greece = {
     sdh: ["یونان", "junɑːn"],  // یونان, the same name as Persian Yunan, is used in the Southern Kurdish Bible.
     gbm: ["यूनान", "juːnaːn"],  // यूनान, the same name as Hindi, is used in both Garhwali Bibles, once as यूनान देस "the country Yunan".
     bej: ["Yoonaan", "joːnaːn"],  // Yoonaan, the same name as Arabic al-Yūnān, is used in the Beja New Testament.
-    ay: ["Grisya", "ɡɾisja"],  // Grisya is the title of the Aymara Wikipedia article on Greece.
+    ay: ["Grisya", "ˈɡɾisja"],  // Grisya is the title of the Aymara Wikipedia article on Greece.
     bbc: ["Junani", "dʒunani"],  // Junani is the title of the Toba Batak Wikipedia article on Greece, which glosses it as Indonesian Yunani.
     mni: ["ꯒ꯭ꯔꯤꯁ", "ɡris"],  // ꯒ꯭ꯔꯤꯁ is the title of the Meitei Wikipedia article on Greece; the Meitei Bible (2022) likewise has Grista "to Greece" in Acts 20:2.
     kbd: ["Алыджей", "aːɮədʒej"],  // Алыджей is the title of the Kabardian Wikipedia article on Greece, built on Алыдж "Greek" (as in Алыдж пащтыхьыгъуэ "kingdom of Greece", Daniel 8:21); the 2017 Kabardian New Testament uses the Russian loan Грецие instead.

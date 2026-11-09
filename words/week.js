@@ -533,7 +533,7 @@ WORDS.week = {
     ps: ["اونۍ", "uwaˈnəj"],
     pl: ["tydzień", "ˈtɨdʑɛɲ"],
     pt: ["semana", "seˈmɐ̃nɐ"],
-    qu: ["simana", "simana"],
+    qu: ["simana", "siˈmana"],
     rom: ["kurko", "ˈkurko"],
     ro: ["săptămână", "səptəˈmɨnə"],
     ru: ["неделя", "nʲɪˈdʲelʲə"],

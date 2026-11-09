@@ -498,7 +498,7 @@ WORDS.window = {
     pag: ["dorongawen", "doɾoŋawen"],
     pap: ["bentana", "benˈtana"],
     pms: ["fnestra", "ˈfnɛstra"],
-    qu: ["wintana", "wintana"],  // Route by resemblance to the neighbouring forms (ceb); no etymology of its own.
+    qu: ["wintana", "winˈtana"],  // Route by resemblance to the neighbouring forms (ceb); no etymology of its own.
     rcf: ["fénèt", "fenet"],
     rm: ["fanestra", "faˈnɛstra"],
     rmy: ["bloka", "bloka"],

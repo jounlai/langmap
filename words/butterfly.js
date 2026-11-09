@@ -266,7 +266,7 @@ WORDS.butterfly = {
     bdk: ["чуьнглеле", "tʃynɡlele"],
     kjj: ["каьпаьнаьг", "kʰæpʰænæɡ"],  // A Turkic loan (cf. Azerbaijani kəpənək); IDS also records паьрваьнаь, from Persian parvāne.
     tab: ["ппазипенди", "pːazipendi"],  // IDS's Southern Tabasaran form; the Khanag subdialect has ригъикӏракӏ and ппалагьан.
-    ay: ["pilpintu", "pilpintu"],  // Reduplicative pil-pin-; shared with Quechua pillpintu.
+    ay: ["pilpintu", "pilˈpintu"],  // Reduplicative pil-pin-; shared with Quechua pillpintu.
     gn: ["panambi", "panaˈmbi"],  // IDS writes panaᵐbi; respelled mb, as in the row's own mbarakaja.
     agr: ["wámpishuk", "wámpiʃuk"],
     arn: ["llampüzkeñ", "ʎampɨðkeɲ"],  // Augusta separates the diurnal llampüdkeñ from tontón 'mariposa nocturna' (moth) — the IDS Mapudungun entry, a reduplicated tonton, is that moth word; llamkellamke is a reduplicated synonym of llampüdkeñ
@@ -506,7 +506,7 @@ WORDS.butterfly = {
     shy: ["aferṭeṭṭu", "afərtˤətˤːu"],
     nd: ["ivevane", "iveˈvane"],
     mnk: ["firifiroo", "firifiroː"],
-    quz: ["pillpintu", "piʎpintu"],
+    quz: ["pillpintu", "piʎˈpintu"],
     ja_aom: ["蝶", "tɕoː"],
     hni: ["allu", "a˥˥lu˧˧"],
     lis: ["bo-lo-na-gua", "bo˦˩lo˦˦nɑ˥˥ɡuɑ˧˧"],

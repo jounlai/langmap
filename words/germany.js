@@ -661,7 +661,7 @@ WORDS.germany = {
     ssw: ["iJalimane", "idʒalimane"],  // siSwati Wikipedia's name for Germany; compare Zulu iJalimani; no source found naming the donor. Route by resemblance to the neighbouring forms (zu(iJalimani)); no etymology of its own.
     kok: ["जर्मनी", "dʒərməniː"],  // Borrowed from English Germany, from Latin Germania.
     egl: ["Germâgna", "dʒerˈmaːɲa"],  // Inherited from Latin Germania (Bolognese form).
-    ay: ["Alimaña", "alimaɲa"],  // From Spanish Alemania, from the Alamanni tribe.
+    ay: ["Alimaña", "aliˈmaɲa"],  // From Spanish Alemania, from the Alamanni tribe.
     ce: ["Германи", "ˈɡermani"],  // From Russian Германия, from Latin Germania; Chechen also has native names such as Лоьмсойчоь.
     pms: ["Almagna", "alˈmaɲa"],  // From the Alamanni tribe, like French Allemagne.
     pag: ["Alemanya", "ʔaleˈmaɲa"],  // From Spanish Alemania, from the Alamanni tribe.

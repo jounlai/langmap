@@ -482,7 +482,7 @@ WORDS.paper = {
     oc: ["papièr", "paˈpjɛ"],
     os: ["гӕххӕтт", "ɡæxːætː"],
     ps: ["کاغذ", "kaːɣaz"],
-    qu: ["raphi", "ɾapʰi"],
+    qu: ["raphi", "ˈɾapʰi"],
     rap: ["parau", "paɾau"],
     ty: ["parau", "paɾau"],
     rm: ["palpiri", "palˈpiri"],

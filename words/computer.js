@@ -644,7 +644,7 @@ WORDS.computer = {
     lue: ["kopyuta", "kopjuta"],
     kok: ["संगणक", "səŋɡəɳək"],
     laj: ["kompiuta", "kompiuta"],
-    ay: ["atamiri", "atamiɾi"],
+    ay: ["atamiri", "ataˈmiɾi"],
     guc: ["komputatoora", "komputatoːra"],
     smn: ["tiättur", "ˈtiætːur"],
     ckv: ["tiannaw", "tiannaw"],

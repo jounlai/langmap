@@ -685,7 +685,7 @@ WORDS.red = {
     mxv: ["kuaʼa", "kʷaʔa"],
     toc: ["tsutsokgo", "tsutsoqo"],
     huv: ["nakants", "nakants"],
-    ay: ["wila", "wila"],
+    ay: ["wila", "ˈwila"],
     jqr: ["chukapa", "tʃukapa"],
     cni: ["kitioncari", "kitionkaɾi"],
     ame: ["tsamat̃", "tsamatʲ"],
@@ -1015,7 +1015,7 @@ WORDS.red = {
     mpt: ["ilem", "ilem"],
     ygr: ["gitumaʼ", "ɡitumaʔ"],
     roo: ["revasia", "ɾeβasia"],  // Firchow 1973 and 2008 both: "revasia adj. red color". The cell held kakaea; kakae is 'small, little' and kakaea is in neither book.
-    quz: ["puka", "puka"],
+    quz: ["puka", "ˈpuka"],
     quy: ["puka", "puka"],
     shp: ["joshin", "hoʃin"],
     cab: ["fúnati", "ˈfunati"],

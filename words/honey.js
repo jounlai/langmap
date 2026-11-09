@@ -600,7 +600,7 @@ WORDS.honey = {
     ak: ["ɛwoɔ", "ɛwoɔ"],
     // --- gapfill 2026-08 ---------------------------------------------------
     alt: ["бал", "bal"],
-    ay: ["miskʼi", "miskʼi"],
+    ay: ["miskʼi", "ˈmiskʼi"],
     bho: ["मधु", "mədʱu"],
     kam: ["ũkĩ", "oke"],
     ks: ["ماچھ", "maːtsʰ"],
@@ -875,7 +875,7 @@ WORDS.honey = {
     nbl: ["iliju", "ilidʒu"],
     sus: ["kumi", "kumi"],
     toi: ["buci", "butʃi"],
-    quz: ["miskʼi", "miskʼi"],
+    quz: ["miskʼi", "ˈmiskʼi"],
     ksw: ["ကနဲစီ", "kanɛsɔ"],
     pwo: ["န့ၫစၩ့", "nɪ saɴ"],
     hni: ["biaqeel", "bja˧˩ɯ˥˥"],

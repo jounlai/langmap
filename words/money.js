@@ -509,8 +509,8 @@ WORDS.money = {
     rut: ["тангабыр", "tanɡabɨr"],  // Route by resemblance to the neighbouring forms (kk); no etymology of its own.
     huz: ["окро", "okro"],  // No opened source supports the route.
     udi: ["таьнгаь", "tæŋɡæ"],  // Route by resemblance to the neighbouring forms (kk); no etymology of its own.
-    ay: ["qullqi", "quʎqi"],  // Route by resemblance to the neighbouring forms (qu); no etymology of its own.
-    qu: ["qullqi", "quʎqi"],
+    ay: ["qullqi", "ˈquʎqi"],  // Route by resemblance to the neighbouring forms (qu); no etymology of its own.
+    qu: ["qullqi", "ˈquʎqi"],
     ban: ["pipis", "pipis"],
     bew: ["duit", "duit"],
     bin: ["igho", "iɣo"],

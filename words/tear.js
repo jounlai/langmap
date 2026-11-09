@@ -498,7 +498,7 @@ WORDS.tear = {
     pt: ["lágrima", "ˈlaɡɾimɐ"],
     pwn: ["ruseq", "ɾusəq"],
     pzh: ["rese", "ɾəsə"],
-    qu: ["wiqi", "wiqi"],
+    qu: ["wiqi", "ˈwiqi"],
     rap: ["mata-vai", "mata-vai"],  // Built from the words for eye and water or liquid. Compare mata 'eye', vai 'water'.
     rm: ["larma", "ˈlaːɾmə"],
     rn: ["amarira", "amaɾiɾa"],

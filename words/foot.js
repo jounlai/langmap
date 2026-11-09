@@ -1326,7 +1326,7 @@ WORDS.foot = {
     av: ["хӏетӏе", "ħetʼe"],  // Avar has separate words, though the dialect material shows хӏетӏе reaching the leg too. // was ["хӏетӏе", "ħjetʼje"] (vi dialect rules 2026-10-06)
     ave: ["𐬞𐬀𐬛", "pad"],  // Bartholomae s.v. pad- 'Fuß'; IDS gives Avestan 4-370 pad- against paitištāna- 'leg'.
     awa: ["गोड़", "ɡoːɽ"],  // As Bhojpuri: गोड़ is the whole limb — Awadhi speaks of a गोड़ मा चोट, an injury to the leg.
-    ay: ["kayu", "kaju"],  // Aymara splits them, where its Quechua neighbour uses one word. IPA is the plain reading of the orthography, following how this row's own hand cell writes ampara as ampaɾa.
+    ay: ["kayu", "ˈkaju"],  // Aymara splits them, where its Quechua neighbour uses one word. IPA is the plain reading of the orthography, following how this row's own hand cell writes ampara as ampaɾa.
     ayl: ["كراع", "kraːʕ"],  // Wiktionary's Libyan Arabic كراع is 'foot' with 'leg' marked rare — the kurāʕ root the ar_sd row takes, not the رجل of the eastern dialects.
     az: ["ayaq", "ɑˈjɑx"],  // Azerbaijani keeps the inherited one-word pattern that Turkish broke with bacak.
     azb: ["آیاق", "ɑjɑɣ"],  // آیاق covers both, as in the north; قیچ is colloquial for the leg and بالدیر the shin, which is what the Azerbaijani New Testament breaks in John 19:32.
@@ -2080,7 +2080,7 @@ WORDS.foot = {
     qu: ["chaki", "ˈtʃaki"],  // chaki covers foot and leg. IPA is the plain reading of the Quechua orthography, as in this row's hand cell maki. // was ["chaki", "tʃaki"] (vi dialect rules 2026-10-06)
     quc: ["aqan", "aqan"],  // Kaufman's PMED glosses KCH aqan 'pie, pierna' in one entry, and the K'iche' NT breaks the same rakan at John 19:32 that it washes at 13:5; aaʼ is the thigh.
     quy: ["chaki", "tʃaki"],  // As the Cusco row: chaki covers foot and leg, and this row marks stress on only 15 of 52, so the IPA is bare.
-    quz: ["chaki", "tʃaki"],  // Southern Quechua chaki runs the whole lower limb, as the qu and qwc rows on this map already have it; chaka is the hip.
+    quz: ["chaki", "ˈtʃaki"],  // Southern Quechua chaki runs the whole lower limb, as the qu and qwc rows on this map already have it; chaka is the hip.
     qwc: ["chaki", "tʃaki"],  // Classical Quechua chaki, one word for the limb.
     qxq: ["ayağ", "aˈjaʁ"],  // Çelik's Kaşkay glossary gives ayağ 'ayak'; kıç, like Azerbaijani qıç, overlaps it rather than dividing it.
     qxs: ["dʑi", "dʑi˥˥"],  // ZMYYC 263.9 gives Taoping dʑi⁵⁵ 'foot' and 264.9 builds the leg on it as dʑi³³sɑ³³, with sɑ the free word for the shank in Yadu Qiang; Evans's Longxi and Mianchi Southern Qiang split gò from duà instead, so this route is Taoping's.

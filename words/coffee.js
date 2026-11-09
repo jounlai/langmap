@@ -1004,7 +1004,7 @@ WORDS.coffee = {
     mas: ["kashawa", "kaʃawa"],
     kr: ["kofi", "kofi"],
     qu: ["kaphiy", "ˈkapʰij"], // was ["kaphiy", "kapʰij"] (vi dialect rules 2026-10-06)
-    quz: ["kaphiy", "kapʰij"],
+    quz: ["kaphiy", "ˈkapʰij"],
     kea: ["kafé", "kaˈfɛ"],
     wa: ["cafè", "kaˈfɛ"],
     vec: ["cafè", "kaˈfɛ"],

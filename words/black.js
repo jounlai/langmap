@@ -455,10 +455,10 @@ WORDS.black = {
 
     // --- Andean, Tupian, Arctic ------------------------------------------
     qu: ["yana", "ˈjana"],
-    quz: ["yana", "jana"],
+    quz: ["yana", "ˈjana"],
     quy: ["yana", "jana"],
     qwc: ["yana", "jana"],
-    ay: ["chʼiyara", "tʃʼijaɾa"],
+    ay: ["chʼiyara", "tʃʼiˈjaɾa"],
     jqr: ["tsʼirara", "tsʼiɾaɾa"],
     gn: ["hũ", "hũ"],
     gun: ["hũ", "hũ"],

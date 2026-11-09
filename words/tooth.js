@@ -1038,7 +1038,7 @@ WORDS.tooth = {
     mpt: ["sit", "sit"],
     ygr: ["haemota", "haemota"],
     roo: ["reuri", "ɾeuɾi"],
-    quz: ["kiru", "kiɾu"],
+    quz: ["kiru", "ˈkiɾu"],
     quy: ["kiru", "kiɾu"],
     shp: ["xeta", "ʂɨta"],
     cab: ["ari", "aɾi"],

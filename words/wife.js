@@ -601,7 +601,7 @@ WORDS.wife = {
     ha: ["mata", "mata"],
     rap: ["vîʻe", "viʔe"],
     to: ["mali", "mali"],
-    ay: ["warmi", "waɾmi"],
+    ay: ["warmi", "ˈwaɾmi"],
     arn: ["kure", "kuɾe"],
     dsb: ["žeńska", "ˈʒɛɲska"],
     ban: ["kurenan", "kurenan"],

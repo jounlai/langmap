@@ -423,7 +423,7 @@ WORDS.uncle = {
     stq: ["Oom", "ˈoːm"],
     su: ["ua", "ua"],
     sv: ["farbror", "ˈfarːbrur"],  // Father's brother; mother's brother is morbror.
-    sw: ["ami", "ami"],  // Father's brother; mother's brother is mjomba.
+    sw: ["ami", "ˈami"],  // Father's brother; mother's brother is mjomba.
     syc: ["ܕܕܐ", "dɑðɑ"],  // Father's brother; mother's brother is ܚܠܐ.
     szy: ["baki", "baki"],
     ta: ["பெரியப்பா", "pɛɾɪjɐpːɑː"],  // Father's brother; mother's brother is மாமா.

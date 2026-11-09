@@ -535,7 +535,7 @@ WORDS.daughter = {
     quz: ["ususi", "uˈsusi"],
     quy: ["ususi", "uˈsusi"],
     qwc: ["ususi", "ususi"],
-    ay: ["phucha", "pʰutʃa"],
+    ay: ["phucha", "ˈpʰutʃa"],
     kl: ["panik", "panik"],
     iu: ["ᐸᓂᒃ", "panik"],
     ik: ["panik", "panik"],

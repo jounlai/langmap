@@ -661,7 +661,7 @@ WORDS.silk = {
     bts: ["sitora", "sitora"],
     lua: ["swa", "swa"],
     iso: ["silki", "silki"],
-    ay: ["seda", "seda"],
+    ay: ["seda", "ˈseda"],
     gcf: ["swa", "swa"],
     nds: ["Sied", "ziː"],
     mai: ["रेशम", "reːʃəm"],

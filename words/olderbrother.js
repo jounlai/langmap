@@ -1086,7 +1086,7 @@ WORDS.olderbrother = {
     tsg: ["magulang", "maɡulaŋ"],  // Tausug magulang is an older sibling (magulang usug, an older brother), while kakaꞌ is the way to address one; younger: manghud.
     myx: ["yaaya", "jaːja"],  // Lumasaaba says yaaya umukhulu, 'big brother', for an older brother; yaaya is a man's brother, and a woman calls her brother wandaya.
     cpx: ["阿兄", "a˥˧˧ hia˥˧˧"],  // Pu-Xian says 阿兄, the old Min word 兄 'elder brother' with the prefix 阿; younger: 弟.
-    ay: ["jila", "xila"],  // Aymara has no separate word: an older brother is a jiliri jila, literally 'elder brother', and a younger one a sullkiri jila.
+    ay: ["jila", "ˈxila"],  // Aymara has no separate word: an older brother is a jiliri jila, literally 'elder brother', and a younger one a sullkiri jila.
     tyz: ["có", "kɔ˧˥"],  // Tày có is an older brother (có ché, 'older siblings'); younger: noọng.
     pcc: ["bix", "pi˧˩"],  // Bouyei bix is an older sibling of either sex, cognate with Thai phi; younger: nuangx.
     mnw: ["ကော", "kao"],  // Mon ကော, an elder brother, is borrowed from Burmese ကို; the matching younger-sibling term was not checked.
@@ -1099,7 +1099,7 @@ WORDS.olderbrother = {
     dag: ["biɛli", "biɛli"],  // Dagbani biɛli is an older sibling; younger: tizo; mabia is a brother of any age.
     quc: ["atz achi", "ats atʃi"],  // Kʼicheʼ atz achi pairs atz, an older sibling, with achi 'man'; younger: chaqʼ ala; achalal is a man's brother in general.
     bts: ["abang", "abaŋ"],  // Simalungun abang is an elder brother, the same word as Malay abang; younger: anggi.
-    quz: ["wayqi", "wajqi"],  // Quechua marks the speaker's sex, not age: a man's brother is wayqi and a woman's is tura, and an older one is a kuraq wayqi.
+    quz: ["wayqi", "ˈwajqi"],  // Quechua marks the speaker's sex, not age: a man's brother is wayqi and a woman's is tura, and an older one is a kuraq wayqi.
     ami: ["kaka", "kaka"],  // Kaka means an older sibling of either sex, from Proto-Malayo-Polynesian *kaka; a younger sibling is safa.
     is: ["bróðir", "ˈprouːðɪr"],  // Icelandic uses bróðir for older and younger brothers alike; an older one is eldri or stóri bróðir.
     wa: ["fré", "fʁe"],  // Walloon fré, from Latin frater, covers older and younger brothers alike.

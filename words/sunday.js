@@ -583,7 +583,7 @@ WORDS.sunday = {
     pl: ["niedziela", "ɲɛˈdʑɛla"],
     pt: ["domingo", "duˈmĩɡu"],
     pa: ["ਐਤਵਾਰ", "ɛːtʋaːɾ"],
-    qu: ["intichaw", "intitʃaw"],
+    qu: ["intichaw", "inˈtitʃaw"],
     rcf: ["dimans", "dimãs"],
     rom: ["kurko", "kurko"],
     ro: ["duminică", "duˈminikə"],

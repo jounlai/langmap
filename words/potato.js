@@ -789,7 +789,7 @@ WORDS.potato = {
     vot: ["maamuna", "ˈmaːmuna"],  // Literally "earth egg" (maa + muna), as in neighbouring Ingrian.
     liv: ["naggõrz", "ˈnaɡːərz"],  // Originally "turnip" (Proto-Finnic *nakris); the word moved to the potato and the turnip became "leaf-potato".
     crh: ["qartop", "qarˈtop"],  // From Russian картофель, ultimately from Italian tartufolo "truffle".
-    ay: ["chʼuqi", "tʃʼuqi"],  // The native Andean word; Chilean school material notes that ch'uqi is also a byword for food itself.
+    ay: ["chʼuqi", "ˈtʃʼuqi"],  // The native Andean word; Chilean school material notes that ch'uqi is also a byword for food itself.
     rue: ["бандурка", "banˈdurka"],  // The Rusyn word for the potato, shared with western Ukrainian dialects.
     koi: ["картов", "kartov"],  // From Russian картофель, ultimately from Italian tartufolo "truffle".
     mrj: ["тури", "turi"],  // The Hill Mari word for the potato, unlike Meadow Mari.

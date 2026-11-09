@@ -872,7 +872,7 @@ WORDS.china = {
     luo: ["China", "tʃina"],  // China is the spelling used in Dholuo publications and CLDR; Wiktionary lists Chaina.
     kam: ["Kyaina", "kjaina"],  // Kyaina is the Kamba name of the country; Wiktionary's translation table gives Chaina instead.
     nyn: ["China", "tʃina"],  // China is the Runyankore spelling, as in abantu ba China 'the people of China'.
-    ay: ["China", "tʃina"],  // Usually said as China marka 'the country China', with marka 'country, town'.
+    ay: ["China", "ˈtʃina"],  // Usually said as China marka 'the country China', with marka 'country, town'.
     mrw: ["Sina", "sina"],  // The Maranao dictionary on Webonary glosses Sina as 'China' and, as an adjective, 'Chinese'.
     iba: ["China", "tʃina"],  // China is the Iban Wikipedia title, and Iban publications write menua China 'the country China'.
     quz: ["China", "ˈtʃina"],  // Cusco Quechua publications write China nación 'the nation of China', as the Quechua CLDR locale and Wikipedia do.

@@ -450,7 +450,7 @@ WORDS.maize = {
     ast: ["maíz", "maˈiθ"],
     av: ["цӏоросаролъ", "tsʼorosaroɬ"],
     awa: ["जोन्हरी", "dʒonʱəriː"],
-    ay: ["tunqu", "tunqu"],
+    ay: ["tunqu", "ˈtunqu"],
     ban: ["jagung", "dʒaɡuŋ"],  // Route by resemblance to the neighbouring forms (ms,su,id); no etymology of its own.
     bdk: ["кьардали", "qʼardali"],
     be: ["кукуруза", "kukuˈruza"],

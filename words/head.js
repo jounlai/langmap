@@ -695,7 +695,7 @@ WORDS.head = {
     din: ["nhom", "n̪om"],
     luo: ["wich", "witʃ"],
     laj: ["wic", "witʃ"],
-    ay: ["pʼiqi", "pʼiqi"],
+    ay: ["pʼiqi", "ˈpʼiqi"],
     ssw: ["inhloko", "inɬoko"],
     bci: ["ti", "ti"],
     kmb: ["mutwe", "mutwe"],  // Wiktionary gives mutue as the obsolete spelling.
@@ -732,7 +732,7 @@ WORDS.head = {
     toi: ["mutwe", "mutwe"],
     dag: ["zuɣu", "zuɣu"],
     quc: ["jolom", "xolom"],
-    quz: ["uma", "uma"],
+    quz: ["uma", "ˈuma"],
     ja_aom: ["頭", "adama"],
     ksw: ["ခိၣ်", "kʰo"],
     pwo: ["ခိၪ", "kʰo"],

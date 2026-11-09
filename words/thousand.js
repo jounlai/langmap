@@ -616,7 +616,7 @@ WORDS.thousand = {
     ht: ["mil", "mil"],
     tpi: ["tausen", "tausen"],  // From English.
     eo: ["mil", "mil"],
-    qu: ["waranqa", "waɾanqa"],
+    qu: ["waranqa", "waˈɾanqa"],
     as: ["হাজাৰ", "ɦazaɹ"],
     or: ["ହଜାର", "hɔdʒaɾɔ"],
     ks: ["ساس", "saːs"],

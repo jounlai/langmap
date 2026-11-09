@@ -1204,7 +1204,7 @@ WORDS.wine = {
     dtp_kzj: ["anggur", "aŋɡur"],
     niu: ["uaina", "uaina"],
     emp: ["uva b̶a", "uba ɓa"],
-    ay: ["winu", "winu"], // was ["vino", "vino"] (vi dialect rules 2026-10-06)
+    ay: ["winu", "ˈwinu"], // was ["vino", "vino"] (vi dialect rules 2026-10-06)
     ivv: ["vino", "vino"],
     pqm: ["meqpahak", "mekʷpahak"], // was ["mekwpahak", "mekʷpahak"] (vi dialect rules 2026-10-06)
     tao: ["potaw cyo", "potaw tsjo"],

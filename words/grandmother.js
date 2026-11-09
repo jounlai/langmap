@@ -1009,7 +1009,7 @@ WORDS.grandmother = {
     rom: ["mami", "mami"],  // Turner records māmi 'grandmother' in the Romani of Romania.
     ba: ["әбәй", "æbæj"],  // The NorthEuraLex form; the side is not marked.
     pag: ["bai", "ˈbai"],  // Inherited from Proto-Austronesian *bahi 'woman'; laki is the grandfather. One word for either grandmother.
-    ay: ["awicha", "awitʃa"],  // From Spanish abuela; one word for either grandmother.
+    ay: ["awicha", "aˈwitʃa"],  // From Spanish abuela; one word for either grandmother.
     sid: ["ahaahe", "ahaːhe"],  // Feminine of ahaaho 'grandfather'.
     aa: ["aboyyá", "abojˈja"],  // Feminine counterpart of kaxxa-abbá 'grandfather'.
     ii: ["ꀊꂵ", "a˧˧ma˥˥"],  // The a- is the kin-term prefix, as in ꀉꂿ 'mother'.

@@ -213,7 +213,7 @@ WORDS.book = {
     bi: ["buk", "buk"],
     acf: ["liv", "liv"],
     crs: ["liv", "liv"],
-    ay: ["panka", "panka"],
+    ay: ["panka", "ˈpanka"],
     cak: ["wuj", "wux"],
     chr: ["ᎪᏪᎵ", "ɡoweli"],
     apw: ["nałtsoos", "naɬtsoːs"],  // Kept, on the source's own sense order: Wiktionary's Western Apache entry glosses it 'book' first and 'paper' second, where Choctaw holisso, Dakota wowapi and Yupʼik kalikaq — all declined — are glossed paper-first. Western Apache has no separate book word, so this is the ordinary one. The Navajo cognate in Young & Morgan is broader ('papers, documentation, printed material'), which is why it stays flagged rather than settled.
@@ -602,7 +602,7 @@ WORDS.book = {
     sus: ["buki", "buki"],
     dag: ["buku", "buku"],
     quc: ["wuj", "wux"],
-    quz: ["liwru", "liwɾu"],
+    quz: ["liwru", "ˈliwɾu"],
     ja_aom: ["本", "hoɴ"],
     ksw: ["လံာ်", "li"],
     pwo: ["လံၬ", "leiʔ"],

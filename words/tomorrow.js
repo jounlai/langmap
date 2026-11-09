@@ -1362,7 +1362,7 @@ WORDS.tomorrow = {
     tzo: ["okʼob", "ʔokʼoɓ"],  // Okʼob is the Tzotzil word for tomorrow. No image is recorded for it, so it counts as a word of its own.
     tzh: ["pajel", "pahel"],  // Pajel is the Tzeltal word for tomorrow. No image is recorded for it, so it counts as a word of its own.
     toc: ["chalí", "tʃalí"],  // Chalí is the Totonac word for tomorrow. No image is recorded for it, so it counts as a word of its own.
-    ay: ["qharüru", "qʰaɾuːɾu"],  // Qharüru is the Aymara word; like wasüru 'yesterday' it ends in -üru.
+    ay: ["qharüru", "qʰaˈɾuːɾu"],  // Qharüru is the Aymara word; like wasüru 'yesterday' it ends in -üru.
     agr: ["kashin", "kaʃin"],  // Kashin is the Awajún word for tomorrow. Built on kashi 'night', like kashik 'morning' (Key's Pano-Tacanan and Huber's lists).
     pbb: ["kuskus", "kuskus"],  // Kuskus is the Nasa Yuwe word for tomorrow. A doubling of kus 'night'; 'morning' is kus-ʼii (IDS).
     tab: ["закур", "zakur"],  // Закур is the Tabasaran word for tomorrow. Unrelated to гачӏ кин 'morning' and йишв 'night' (IDS).

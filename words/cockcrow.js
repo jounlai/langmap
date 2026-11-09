@@ -262,7 +262,10 @@
  * verb. fro NOT FILLED: Chantecler is a NAME, chante + cler, sung clearly.
  * nci: nothing found in Molina 1571 from here.
  *
- * la and el_grc NOT FILLED, and the reason is a fact about the tradition
+ * la FILLED 2026-11-09 (review 673): cocococo, Petronius, Satyricon 59, 「Et
+ * tu cum esses capo, cocococo, atque cor non habebas」 (Latin Library text
+ * checked). The catalogues below give only verbs, but the novel has the cry.
+ * el_grc NOT FILLED, and the reason is a fact about the tradition
  * rather than a gap. The classical voces animantium catalogues list animal
  * sounds as VERBS: Suetonius, De Naturis Animantium, 「gallorum cucurrire
  * vel cantare」; Cratinus fr. 311 「κοκκύζειν τὸν ἀλεκτρυόν' οὐκ ἀνέχονται」;
@@ -598,5 +601,6 @@ WORDS.cockcrow = {
     ar_sy: ["كوكو", "kuːkuː"],  // Imitates the sound of a rooster or hen.
     ckv: ["temuku", "təmuku"],
     hil: ["toktorook", "toktoˈɾoʔok"],  // Hiligaynon toktoróok 'the crow of a cock; to crow' (Kaufmann).
+    la: ["cocococo", "koˈkokoko"],  // An imitation of the cock's crow in Petronius, Satyricon 59: 'when you were a cockerel, cocococo'.
   },
 };

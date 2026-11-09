@@ -373,6 +373,7 @@ WORDS.thousand = {
     war: "plain",
     to: "plain",
     otk: "plain",
+    txb: "plain",
   },
   routes: {
     strong: {"color":"#2563eb","emoji":"🔢","en":"the Germanic and Slavic thousand","ja":"ゲルマン語とスラヴ語の「千」","ko":"게르만어와 슬라브어의 ‘천’","zh":"日耳曼语和斯拉夫语的“千”","yue":"日耳曼語同斯拉夫語嘅「千」","vi":"“nghìn” của các tiếng German và Slav","th":"คำว่า “พัน” ของภาษาเจอร์แมนิกและสลาฟ","id":"kata “ribu” rumpun Jermanik dan Slavia","hi":"जर्मनिक और स्लाव भाषाओं का ‘हज़ार’","de":"das germanische und slawische Tausend","fr":"le « mille » germanique et slave","it":"il “mille” germanico e slavo","es":"el «mil» germánico y eslavo","pt":"o «mil» germânico e eslavo","ru":"«тысяча» германских и славянских языков","uk":"«тисяча» германських і слов’янських мов","ar":"«الألف» في الجرمانية والسلافية","he":"„אלף” הגרמאני והסלאבי","sw":"“elfu” ya lugha za Kijerumani na Kislavu"},
@@ -687,5 +688,6 @@ WORDS.thousand = {
     war: ["yukot", "juˈkot"],  // No analysis is recorded for it, so it counts as a word of its own.
     to: ["afe", "afe"],  // From Proto-Polynesian *afe, like Samoan afe.
     otk: ["𐰋𐰃𐰭", "biŋ"],  // Inherited from Proto-Turkic *bïŋ, like Turkish bin.
+    txb: ["𑀬𑀮𑁆𑀢𑁆𑀲𑁂", "jaltse"],  // Tocharian B yaltse; compare Tocharian A wälts. No image is recorded for it, so it counts as a word of its own.
   },
 };

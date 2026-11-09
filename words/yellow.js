@@ -402,6 +402,7 @@ WORDS.yellow = {
     vep: "plain",
     osx: "ghel",
     rmy: "galbinus",
+    txb: "plain",
   },
   routes: {
     turmeric: {"color":"#d97706","emoji":"🫚","en":"turmeric","ja":"ウコン","ko":"강황","zh":"姜黄","yue":"黃薑","vi":"nghệ","th":"ขมิ้น","id":"kunyit","hi":"हल्दी","de":"Kurkuma","fr":"le curcuma","it":"la curcuma","es":"la cúrcuma","pt":"a curcuma","ru":"куркума","uk":"куркума","ar":"الكركم","he":"כורכום","sw":"manjano"},
@@ -744,5 +745,6 @@ WORDS.yellow = {
     vep: ["pakuine", "ˈpakuine"],  // Its origin is uncertain; it may relate to an old word for a yellow dye plant.
     osx: ["gelo", "ˈɡelo"],  // From Proto-West Germanic *gelu, the old Germanic yellow.
     rmy: ["galbeno", "ˈɡalbeno"],  // Borrowed from Romanian galben, from Latin galbinus.
+    txb: ["𑀢𑀼𑀢𑁂", "tute"],  // Tocharian B tute 'yellow'. No image is recorded for it, so it counts as a word of its own.
   },
 };

@@ -503,8 +503,8 @@ WORDS.cat = {
     bzg: ["bottoos", "botːoːs"],
     dru: ['ngiyaw', 'ŋiˈjau'],
     hup: ['—', '—'],
-    kfa: ['—', '—'],
-    kfr: ['—', '—'],
+    kfa: ["ಪೂಞೆ", "puːɲe"],  // Cognate with Tamil பூஞை pūñai and Malayalam പൂച്ച pūcca (Wiktionary).
+    kfr: ["મન્ની", "mənːiː"],  // Romanised mannī; compare Mehsani Gujarati મની manī (Wiktionary).
     kry: ['—', '—'],
     luz: ['gorbe', 'ɡoɾˈbe'],
     osc: ['—', '—'],

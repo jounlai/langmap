@@ -16,3 +16,5 @@ Coordinator calls:
 Parity budgets raised for germany, maize, soap and week: the new parents expose rmy, dtp_kzj, jvn, wae, gsw_w, gsw_als and lij_t.
 
 Left for later: Caucasian Albanian fish šu and star xal'um sit behind "—" cells; Tocharian A/B leads given only in transliteration; Lisu, Old Javanese, Sylheti and Tamasheq leads whose entries lack the row's script.
+
+Addendum: four "—" cells the agents left alone now hold sourced words: Caucasian Albanian fish šu (John 21:10 šuaxoc 'from the fish'; a separate entry from šu 'night', so the same-form pair is a homonym), Kodava cat ಪೂಞೆ /puːɲe/, Kachhi cat મન્ની mannī, Kavalan thanks wanay. Left as "—": Iberian (meanings rest on Basque comparison), Etruscan house and love, Old Persian three (a numeral sign), Hurrian one, Tangut we and Tocharian A hello (no reading or no Brahmi in the source).

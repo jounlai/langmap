@@ -481,7 +481,7 @@ WORDS.thanks = {
     kmh: ["ñib", "ɲib"],
     nej: ["—", "—"],
     alq: ['Migwech', 'mɪɡwetʃ'],
-    ckv: ['—', '—'],
+    ckv: ["wanay", "wanaj"],  // Also 'goodbye' (Wiktionary).
     haj: ['—', '—'],
     dtp_kzj: ['pounsikou', 'pounˈsikou'],
     mez: ["wāēwāēnen", "wæːwæːnen"],

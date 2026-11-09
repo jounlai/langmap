@@ -1196,7 +1196,7 @@ WORDS.fish = {
     uln: ["Fisch", "fiʃ"],
     wmt: ["kapi", "kapi"],
     wuu_hz: ["鱼", "ɦʮ˨˩˧"],
-    xag: ["—", "—"],
+    xag: ["šu", "ʃu"],  // Attested in the Caucasian Albanian palimpsest, John 21:10 šuaxoc "from the fish" (Wiktionary).
     xfa: ["—", "—"],
     xib: ["—", "—"],
     xli: ["—", "—"],

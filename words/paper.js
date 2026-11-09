@@ -468,7 +468,7 @@ WORDS.paper = {
     kek: ["hu", "hu"],
     tzo: ["vun", "vun"],
     cak: ["wuj", "wuχ"],
-    krl: ["bumuagu", "bumuaɡu"],
+    krl: ["bumuagu", "ˈbumuaɡu"],
     ks: ["کاغذ", "kaːɣaz"],
     ky: ["кагаз", "kɑˈɡɑz"],
     mdf: ["кагод", "kaɡod"],  // Route by resemblance to the neighbouring forms (mr,mwr,as); no etymology of its own.
@@ -493,7 +493,7 @@ WORDS.paper = {
     sah: ["кумааҕы", "kumaːɣɨ"],
     shp: ["kirika", "kirika"],
     si: ["කඩදාසිය", "kaɖadaːsijə"],  // Route by resemblance to the neighbouring forms (ml); no etymology of its own.
-    sk: ["papier", "papjɛr"],
+    sk: ["papier", "ˈpapjɛr"],
     sl: ["papír", "paˈpiːr"],
     so: ["warqad", "warqad"],
     ti: ["ወረቐት", "wɐrɐxʼɐt"],  // Route by resemblance to the neighbouring forms (am); no etymology of its own.

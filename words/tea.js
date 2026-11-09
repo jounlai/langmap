@@ -1025,9 +1025,9 @@ WORDS.tea = {
     liv: ["tēj", "tɛːj"], // was ["tēj", "teːj"] (vi dialect rules 2026-10-06)
     vro: ["tsäi", "tsæi"],
     sjd: ["чайй", "tʃajː"], // was ["ча̄йй", "tʃaːjː"] (vi dialect rules 2026-10-06) // was ["чайй", "tʃajː"] (vi dialect rules 2026-10-06)
-    smj: ["tedja", "tɛdʒɑ"], // was ["tiedja", "tie̯dja"] (vi dialect rules 2026-10-06)
-    sms: ["čee", "tʃeːɐ"], // was ["čee", "tʃeː"] (vi dialect rules 2026-10-06)
-    smn: ["teejâ", "teːjɐ"],
+    smj: ["tedja", "ˈtɛdʒɑ"], // was ["tiedja", "tie̯dja"] (vi dialect rules 2026-10-06)
+    sms: ["čee", "ˈtʃeːɐ"], // was ["čee", "tʃeː"] (vi dialect rules 2026-10-06)
+    smn: ["teejâ", "ˈteːjɐ"],
     se: ["deadja", "ˈteɑtja"],
     csb: ["arbata", "arˈbata"],
     hsb: ["čaj", "tʃaj"],

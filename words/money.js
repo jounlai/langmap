@@ -659,7 +659,7 @@ WORDS.money = {
     it: ["denaro", "deˈnaro"],  // From Latin dēnārius.
     xal: ["мөңгн", "møŋˈɡən"],
     kn: ["ಹಣ", "haɳa"],
-    krl: ["raha", "rɑhɑ"],
+    krl: ["raha", "ˈrɑhɑ"],
     kg: ["mbongo", "mbonɡo"],
     ky: ["акча", "ɑqˈtʃɑ"],
     lez: ["пул", "pul"],
@@ -688,7 +688,7 @@ WORDS.money = {
     sat: ["ᱠᱟᱹᱣᱰᱤ", "kəwɖi"],
     gd: ["airgead", "ˈaˈɾakʲit"],
     scn: ["dinaru", "diˈnaru"],
-    sk: ["peniaze", "peɲɪ̯aze"],
+    sk: ["peniaze", "ˈpeɲɪ̯aze"],
     es: ["dinero", "diˈneɾo"],  // From Latin dēnārius.
     sw: ["pesa", "ˈpesa"],  // Borrowed from Hindi पैसा.
     sv: ["pengar", "ˈpɛŋːar"],  // Route by resemblance to the neighbouring forms (no); no etymology of its own.
@@ -709,13 +709,13 @@ WORDS.money = {
     sah: ["харчы", "xartʃɯ"],
     yi: ["געלט", "ɡɛlt"],
     zu: ["imali", "imaːli"],
-    fkv: ["raha", "rɑhɑ"],
-    olo: ["dengat", "deŋːat"],  // Route by resemblance to the neighbouring forms (ru); no etymology of its own.
-    sma: ["vierhtie", "βiɛrhtiɛ"],
-    smj: ["ruhta", "rʊhtɑ"],
+    fkv: ["raha", "ˈrɑhɑ"],
+    olo: ["dengat", "ˈdeŋːat"],  // Route by resemblance to the neighbouring forms (ru); no etymology of its own.
+    sma: ["vierhtie", "ˈβiɛrhtiɛ"],
+    smj: ["ruhta", "ˈrʊhtɑ"],
     se: ["ruhta", "ˈruhtɑ"],
-    smn: ["ruttâ", "rutːɐ"],
-    sms: ["teä´ǧ´ǧ", "tɛaɟɟʝʲɘ"],  // No opened source supports the route.
+    smn: ["ruttâ", "ˈrutːɐ"],
+    sms: ["teä´ǧ´ǧ", "ˈtɛaɟɟʝʲɘ"],  // No opened source supports the route.
     sjd: ["те̄ӈӈьк", "tʲeːŋːjk"],  // No opened source supports the route.
     mrj: ["окса", "oksɑ"],  // Route by resemblance to the neighbouring forms (cv); no etymology of its own.
     mhr: ["окса", "oksa"],  // Route by resemblance to the neighbouring forms (cv); no etymology of its own.

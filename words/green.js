@@ -360,7 +360,7 @@ WORDS.green = {
     mmd: ["ju1", "ju˦˨"],
     mn: ["ногоон", "nɔɡɔːŋ"],
     mnc: ["ᠨᡳᠣᠸᠠᠩᡤᡳᠶᠠᠨ", "niowaŋɡijan"],
-    mns: ["няртпумоспа", "ɲartpumospa"],   // 'Fresh-grass-coloured', but both IDS and NorthEuraLex elicit it as the green term and Mansi dictionaries lemmatise it as an adjective — the same reading that lets Kabardian удзыфэ in above.
+    mns: ["няртпумоспа", "ˈɲartpumospa"],   // 'Fresh-grass-coloured', but both IDS and NorthEuraLex elicit it as the green term and Mansi dictionaries lemmatise it as an adjective — the same reading that lets Kabardian удзыфэ in above.
     mrj: ["ыжар", "əˈʒar"],
     mrw: ["gadong", "ˈɡadoŋ"],
     mwl: ["berde", "ˈbeɾðɨ"],
@@ -655,7 +655,7 @@ WORDS.green = {
     poh: ["rax", "raʃ"],
     mic: ["stoqonamuʼg", "əstoxonamuːɡ"],
     apw: ["dotłʼizh", "dotɬʼiʒ"],
-    smj: ["ruodnat", "ruɔdnɑt"],
+    smj: ["ruodnat", "ˈruɔdnɑt"],
     sip: ["ལྗང་ཀུ", "dʑaŋku"],
     ers: ["zizɑ", "zi˥˥zɑ˥˥"],
     xal: ["ноһан", "noˈɣan"],

@@ -831,9 +831,9 @@ WORDS.monday = {
     tpi: ["Mande", "mande"],  // From English Monday, "day of the Moon".
     se: ["vuossárga", "ˈvuosːaːrka"],  // "First weekday": vuos "first" + árga "weekday"; the Norse loan mánnodat is also used.
     sma: ["måanta", "ˈmoɑntɑ"],  // Borrowed from Norwegian mandag, "moon's day".
-    smj: ["mánnodahka", "maːnːuodɑhkɑ"],  // A Norse loan, from Old Norse mánudagr "moon's day".
-    smn: ["vuossargâ", "vuosːɑrɡɐ"],  // "First weekday", like Northern Sámi vuossárga (vuos "first" + árga "weekday").
-    sms: ["vuõssargg", "vuəsːɒrɡː"],  // "First weekday", cognate with Kildin vūssoarrk and Northern Sámi vuossárga.
+    smj: ["mánnodahka", "ˈmaːnːuodɑhkɑ"],  // A Norse loan, from Old Norse mánudagr "moon's day".
+    smn: ["vuossargâ", "ˈvuosːɑrɡɐ"],  // "First weekday", like Northern Sámi vuossárga (vuos "first" + árga "weekday").
+    sms: ["vuõssargg", "ˈvuəsːɒrɡː"],  // "First weekday", cognate with Kildin vūssoarrk and Northern Sámi vuossárga.
     sjd: ["вӯссоаррк", "vuːsːoarːk"],  // "First weekday": vūss "first" + oarrk "weekday".
     as: ["সোমবাৰ", "xʊmbaɹ"],  // Learned borrowing of Sanskrit somavāra, "moon-day".
     or: ["ସୋମବାର", "somɔbaːɾɔ"],  // Learned borrowing of Sanskrit somavāra, soma "moon" + vāra "day".

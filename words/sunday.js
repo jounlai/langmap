@@ -539,7 +539,7 @@ WORDS.sunday = {
     xal: ["нарн өдр", "narn øtr"],
     kn: ["ಭಾನುವಾರ", "bʰaːnuʋaːɾə"],
     kpj: ["nobiku", "nobiku"],
-    krl: ["pyhäpäivä", "pyhæpæivæ"],
+    krl: ["pyhäpäivä", "ˈpyhæpæivæ"],
     ks: ["آتھوار", "aːtʰʋaːr"],
     csb: ["niedzela", "ɲɛˈdzɛla"],
     kk: ["жексенбі", "ʒeksenbɘ"],
@@ -644,10 +644,10 @@ WORDS.sunday = {
     olo: ["pyhäpäivy", "ˈpyhæpæivy"],  // Route by resemblance to the neighbouring forms (et,krl); no etymology of its own.
     vep: ["pühäpäiv", "ˈpyhæpæiv"],
     sma: ["aejlege", "ˈæːjlɛkɛ"],  // No opened source supports the route.
-    smj: ["sådnåbiejvve", "sɔdnɔbiɛjvːɛ"],  // No opened source supports the route.
+    smj: ["sådnåbiejvve", "ˈsɔdnɔbiɛjvːɛ"],  // No opened source supports the route.
     se: ["sotnabeaivi", "ˈsotnɑˌpeɑjvi"],
-    smn: ["pasepeivi", "pɑsepeivi"],  // No opened source supports the route.
-    sms: ["pâ´sspei´vv", "pɐsːʲpʲɛivːʲɘ"],  // No opened source supports the route.
+    smn: ["pasepeivi", "ˈpɑsepeivi"],  // No opened source supports the route.
+    sms: ["pâ´sspei´vv", "ˈpɐsːʲpʲɛivːʲɘ"],  // No opened source supports the route.
     sjd: ["па̄ссьпе̄ййв", "paːɕːpeːjːv"],  // No opened source supports the route.
     mrj: ["рушӓрня", "ruʃærnja"],
     mhr: ["рушарня", "ruʃarɲa"],

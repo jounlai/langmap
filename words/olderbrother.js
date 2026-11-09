@@ -1437,7 +1437,7 @@ WORDS.olderbrother = {
     usp: ["aatz", "ʔaːts"],  // Uspanteko aatz is an elder brother, an inalienably possessed noun; a younger brother is q'uun.
     ium: ["gorx", "kɔ˨˧"],  // Iu Mien gorx is an older brother and youz a man's younger brother; together gorx-youz means 'older and younger brothers'.
     myp: ["xahaigí", "ʔahaiɡí"],  // Pirahã has one word, xahaigí, for a sibling of either sex and any age; Everett describes its kinship system as the simplest known.
-    smn: ["viljâ", "viʎɐ"],  // Inari Sámi has no separate word: an older brother is a stuorrâviljâ, 'big brother', and a younger one an uccâviljâ.
+    smn: ["viljâ", "ˈviʎɐ"],  // Inari Sámi has no separate word: an older brother is a stuorrâviljâ, 'big brother', and a younger one an uccâviljâ.
     kwk: ["ʼnula", "ʔnula"],  // A man's older brother (an older sibling of the same sex) is his ʼnula; a younger one is tʼsaʼya, and a woman calls her brother of any age waḵ̕wa.
     thp: ["qéck", "qetsk"],  // Thompson has separate words by age: qéck is an older brother, sínciʔ a younger brother.
     yur: ["meechos", "mitʃɔs"],  // Yurok meechos covers an elder brother and a male cousin; a younger sibling is cheechos and an older sister peenos.

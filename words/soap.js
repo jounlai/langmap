@@ -436,7 +436,7 @@ WORDS.soap = {
     xal: ["савң", "sabəŋ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     kn: ["ಸಾಬೂನು", "saːbuːnu"],
     krc: ["сапын", "sapɯn"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
-    krl: ["saippu", "saippu"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    krl: ["saippu", "ˈsaippu"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     csb: ["mëdło", "ˈmɜdwɔ"],
     kk: ["сабын", "sɑbən"],
     kjh: ["сабын", "sabɯn"],  // Route by resemblance to the neighbouring forms; no etymology of its own.

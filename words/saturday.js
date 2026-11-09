@@ -485,7 +485,7 @@ WORDS.saturday = {
     it: ["sabato", "ˈsabato"],
     ja: ["土曜日", "dojoːbi"],
     xal: ["суббот", "suppot"],
-    krl: ["suovatta", "suovɑtːɑ"],
+    krl: ["suovatta", "ˈsuovɑtːɑ"],
     csb: ["sobòta", "sɔˈbwɛta"],
     kk: ["сенбі", "senbə"],
     km: ["ថ្ងៃសៅរ៍", "tʰŋaj saw"],
@@ -566,14 +566,14 @@ WORDS.saturday = {
     esu: ["Maqineq", "maqinəq"],
     zza: ["şeme", "ʃeme"],
     zu: ["uMgqibelo", "umɡǃʱiɓeːlo"],  // 'The day that finishes.'
-    fkv: ["lauantai", "lɑʋɑntɑi"],
-    olo: ["suovattu", "suovatːu"],  // Route by resemblance to the neighbouring forms (krl); no etymology of its own.
+    fkv: ["lauantai", "ˈlɑʋɑntɑi"],
+    olo: ["suovattu", "ˈsuovatːu"],  // Route by resemblance to the neighbouring forms (krl); no etymology of its own.
     vep: ["sobat", "sobat"],
-    sma: ["laavvadahke", "lɑːβːadahkɛ"],  // No opened source supports the route.
-    smj: ["lávvodahka", "lavːuɔdɑhkɑ"],  // No opened source supports the route.
+    sma: ["laavvadahke", "ˈlɑːβːadahkɛ"],  // No opened source supports the route.
+    smj: ["lávvodahka", "ˈlavːuɔdɑhkɑ"],  // No opened source supports the route.
     se: ["lávvordat", "ˈlaːvːɔrtɑh"],
-    smn: ["láṿárdâh", "læværdɐh"],  // Route by resemblance to the neighbouring forms (se); no etymology of its own.
-    sms: ["sue´vet", "suɛvʲɛt"],  // No opened source supports the route.
+    smn: ["láṿárdâh", "ˈlæværdɐh"],  // Route by resemblance to the neighbouring forms (se); no etymology of its own.
+    sms: ["sue´vet", "ˈsuɛvʲɛt"],  // No opened source supports the route.
     sjd: ["сӯветҍ", "suːvetʲ"],  // No opened source supports the route.
     mrj: ["кукшыгечӹ", "kukʃəɣetʃɯ"],  // 'Dry day.'
     mhr: ["шуматкече", "ʃumatketʃe"],  // No opened source supports the route.
@@ -581,7 +581,7 @@ WORDS.saturday = {
     koi: ["пывсянлун", "pɨvɕanlun"],  // 'Bath day.'
     kpv: ["пывсянлун", "pɨvɕanlun"],  // 'Bath day.'
     kca: ["ӆапат хутмет хатӆ", "ɬapat xutmet xatɬ"],  // No opened source supports the route.
-    mns: ["суббота", "subbota"],
+    mns: ["суббота", "ˈsubbota"],
     ku: ["şemî", "ʃɛmi"],  // Route by resemblance to the neighbouring forms (zza); no etymology of its own.
     hyw: ["շաբաթ", "ʃɑpʰɑtʰ"],
     aln: ["shtunë", "ʃtunə"],  // Page gives the origin as unknown.

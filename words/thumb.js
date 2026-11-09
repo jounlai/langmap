@@ -781,8 +781,8 @@ WORDS.thumb = {
     to: ["motuʻanima", "motuʔanima"],  // Literally 'parent finger' (motuʻa 'old; parent' + nima 'hand'), per Churchward; the big toe is motuʻavaʻe.
     tzo: ["meʼ kʼobol", "meʔ kʼoɓol"],  // Literally 'mother of the hand' (meʼ 'mother' + kʼob 'hand').
     eo: ["dikfingro", "dikˈfinɡro"],  // Literally 'thick finger'; the Latin-based polekso is the anatomical term.
-    smn: ["pelgi", "pelɡi"],  // Cognate with Northern Sámi bealgi 'thumb'.
-    sms: ["peäʹlǧǧ", "pɛalʲɟɟʝʲɘ"],  // Cognate with Northern Sámi bealgi 'thumb'.
+    smn: ["pelgi", "ˈpelɡi"],  // Cognate with Northern Sámi bealgi 'thumb'.
+    sms: ["peäʹlǧǧ", "ˈpɛalʲɟɟʝʲɘ"],  // Cognate with Northern Sámi bealgi 'thumb'.
     en_aave: ["thumb", "θʌm"],  // From Old English þūma.
     en_nz: ["thumb", "θɐm"],  // From Old English þūma.
     en_au: ["thumb", "θɐm"],  // From Old English þūma.
@@ -1268,7 +1268,7 @@ WORDS.thumb = {
     tue: ["pai-ʼri-ga", "paiʔriɡa"],  // IDS Tuyuca, the list this row matches. IPA from the row's pairs.
     ksw: ["စုမုၢ်ဒိၣ်", "sumɨdo"],  // S'gaw Karen 'thumb; inch' (SEAlang), which also lists စုမုၢ်ကျၢၢ်. Begins with စု 'hand'. No image is recorded for it, so it counts as a word of its own. IPA read from the script; the dictionary prints none.
     txb: ["𑀫𑁄𑀓𑁄𑀘𑁂", "mokotɕe"],  // Tocharian B mokoce 'thumb'. No image is recorded for it, so it counts as a word of its own.
-    smj: ["bielgge", "piɛlkːɛ"],  // From Proto-Sami *pealkē, the same word as Northern Sámi bealgi.
+    smj: ["bielgge", "ˈpiɛlkːɛ"],  // From Proto-Sami *pealkē, the same word as Northern Sámi bealgi.
     dak: ["naŋpháhuŋ", "nãpʰáhũ"],  // No image is recorded for it, so it counts as a word of its own.
     cic: ["ilbak ishkiʼ", "ilbak iʃkiʔ"],  // Ilbak 'hand' + ishkiʼ 'mother'.
     ff: ["mawndu", "mawndu"],  // The Pular word for the thumb, built on maw- 'largeness', as in mawɗo 'big, elder'.

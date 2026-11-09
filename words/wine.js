@@ -1127,7 +1127,7 @@ WORDS.wine = {
     bik: ["arak", "ˈʔaɾak"],
     qxq: ["şərab", "ʃæˈrɑb"],
     yue_zs: ["葡萄酒", "pʰu˥˩ tʰou˥˩ tsɐu˨˩˧"], // was ["葡萄酒", "pʰu˨˩ tʰou˨˩ tsɐu˧˥"] (r46 fix 2026-10-03)
-    sms: ["vijnn", "viʝnːɐ"], // was ["vijnn", "vijnː"] (vi dialect rules 2026-10-06)
+    sms: ["vijnn", "ˈviʝnːɐ"], // was ["vijnn", "vijnː"] (vi dialect rules 2026-10-06)
     yrl: ["vinyu", "viɲu"],
     nlc: ["anggur mek", "aŋɡur mek"],
     nhw: ["xocomeca atl", "ʃokomeka atɬ"],
@@ -1137,7 +1137,7 @@ WORDS.wine = {
     hop: ["ovavala", "ʔovavala"],
     dak: ["mníša", "mníʃa"],
     eve: ["минэ", "minə"],
-    mns: ["вина", "wina"],
+    mns: ["вина", "ˈwina"],
     tdh: ["अङ्गूरकु बिलाम", "aŋɡurku bilam"],
     adi: ["onggur alang", "oŋɡur alaŋ"],
     nzm: ["wain", "wain"],
@@ -1835,7 +1835,7 @@ WORDS.wine = {
     udm: ["вина", "vina"],
     mdf: ["вина", "vina"],
     myv: ["вина", "vina"],
-    kca: ["ўна", "una"], // was ["ўна", "wuna"] (vi dialect rules 2026-10-06)
+    kca: ["ўна", "ˈuna"], // was ["ўна", "wuna"] (vi dialect rules 2026-10-06)
     sjd: ["выннҍ", "vɨɲː"], // was ["выннҍ", "vɨnʲː"] (vi dialect rules 2026-10-06) // was ["выннҍ", "vɨɲː"] (vi dialect rules 2026-10-06)
     liv: ["vīnõ", "ˈviːnə"],
     vep: ["vin", "vin"],

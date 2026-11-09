@@ -681,7 +681,7 @@ WORDS.honey = {
     agu: ["kabʼ", "kaɓ"],
     mam: ["taʼl xiiʼ", "taʔl ʂiːʔ"],
     lg: ["omubisi gwʼenjuki", "omubisi ɡweɲdʒuki"],
-    sms: ["miõtt", "miətːɐ"],
+    sms: ["miõtt", "ˈmiətːɐ"],
     sma: ["hååneske", "ˈhoːnɛskɛ"],
     sjd: ["мӣдт", "mʲiːdt"],
     yrk: ["мяв", "mʲaw"],

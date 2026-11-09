@@ -1559,13 +1559,13 @@ WORDS.rainbow = {
     abe: ["managuôn", "manaɡʷɔ̃n"],  // Laurent p.14: "Managuôn. A rainbow."
     nio: ["ӈуо хонтә", "ŋʷo xontə"],  // NorthEuraLex Nganasan, the list this row matches. Tie bars removed and spaces restored, as the row.
     enf: ["mensi pya", "mʲɛnsi pʲa"],  // NorthEuraLex Forest Enets, the list this row matches. Tie bars removed and spaces restored, as the row. Latin spelling follows the row's pairs; the list prints Cyrillic.
-    smj: ["ádjájuoksa", "adʒajʊuɔksɑ"],  // NorthEuraLex Lule Sami, the list this row matches. Tie bars removed and spaces restored, as the row.
+    smj: ["ádjájuoksa", "ˈadʒajʊuɔksɑ"],  // NorthEuraLex Lule Sami, the list this row matches. Tie bars removed and spaces restored, as the row.
     sel: ["ӄөттаӈкы", "qøtːaŋkɨ"],  // NorthEuraLex Northern Selkup, the list this row matches. Tie bars removed and spaces restored, as the row.
     itl: ["тэӄʼәм", "teqʔəm"],  // NorthEuraLex Itelmen, the list this row matches. Tie bars removed and spaces restored, as the row.
     ckt: ["йынʼэттэткʼымчучьын", "jəŋetːetqəmtɕutɕˀən"],  // NorthEuraLex Chukchi, the list this row matches. Tie bars removed and spaces restored, as the row.
     yrk: ["нувʼ пан", "nuwʔ pɑn"],  // NorthEuraLex Tundra Nenets, the list this row matches. Tie bars removed and spaces restored, as the row.
     ykg: ["хуруун унумэдьуо", "xuruːn unumedʲuo"],  // NorthEuraLex Northern Yukaghir, the list this row matches. Tie bars removed and spaces restored, as the row.
-    sms: ["teârmmazjohss", "tɛɐrmːɒzʝoxsː"],  // NorthEuraLex Skolt Sami, the list this row matches. Tie bars removed and spaces restored, as the row.
+    sms: ["teârmmazjohss", "ˈtɛɐrmːɒzʝoxsː"],  // NorthEuraLex Skolt Sami, the list this row matches. Tie bars removed and spaces restored, as the row.
     liv: ["õvātõks", "ˈɨvɑːtɨks"],  // NorthEuraLex Livonian, the list this row matches. Tie bars removed and spaces restored, as the row.
     evn: ["серун", "sjerun"],  // NorthEuraLex Evenki, the list this row matches. Tie bars removed and spaces restored, as the row.
     tue: ["buʼe-da", "buʔeda"],  // IDS Tuyuca, the list this row matches. IPA from the row's pairs.

@@ -840,9 +840,9 @@ WORDS.grandmother = {
     pap: ["wela", "wela"],  // The Papiamentu word for grandmother.
     se: ["áhkku", "ˈaːhkːu"],  // One word for either grandmother.
     sma: ["aahka", "ˈɑːhka"],  // One word for either grandmother; the side can be specified with aehtjie 'father' or tjidtjie 'mother'.
-    smj: ["áhkko", "ahːkuɔ"],  // Also means 'old woman'. One word for either grandmother.
-    smn: ["ákku", "ækːu"],  // The Inari Sámi word for grandmother. One word for either grandmother.
-    sms: ["äkk", "akːɐ"],  // One word for either grandmother; the mother's mother can also be called jieʹnnjeäʹnn, 'mother's mother'.
+    smj: ["áhkko", "ˈahːkuɔ"],  // Also means 'old woman'. One word for either grandmother.
+    smn: ["ákku", "ˈækːu"],  // The Inari Sámi word for grandmother. One word for either grandmother.
+    sms: ["äkk", "ˈakːɐ"],  // One word for either grandmother; the mother's mother can also be called jieʹnnjeäʹnn, 'mother's mother'.
     sjd: ["а̄ка", "aːka"],  // The Kildin Sámi word for grandmother.
     nn: ["farmor", "ˈfɑrmuːr"],  // Literally 'father-mother'; mother's mother: mormor, 'mother-mother' (bestemor is the general word).
     pa: ["ਦਾਦੀ", "daːdiː"],  // Father's mother; mother's mother: ਨਾਨੀ nānī.
@@ -902,7 +902,7 @@ WORDS.grandmother = {
     lbe: ["буттал нину", "butːal ninu"],  // Literally 'father's mother'; mother's mother: ниттил нину, 'mother's mother'.
     aqc: ["дозба", "dozba"],  // One word for either grandmother; the grandfather is dozya.
     agx: ["хӏабаб", "ħabab"],  // Built on баб 'mother', as the grandfather хӏадад is on дад 'father'; one word for either grandmother.
-    mns: ["сясе̄ква", "sʲasʲeːkʷa"],  // Father's mother; mother's mother: ане̄ква — one Mansi word list (Lyskova) gives both words without a side.
+    mns: ["сясе̄ква", "ˈsʲasʲeːkʷa"],  // Father's mother; mother's mother: ане̄ква — one Mansi word list (Lyskova) gives both words without a side.
     tkl: ["tupuna", "tupuna"],  // One word for any grandparent; tupuna mātua 'female grandparent' makes it explicit.
     eo: ["avino", "aˈvino"],  // Feminine of avo, defined as the parent of a father or a mother; one word for either grandmother.
     zh_tj: ["奶奶", "nai˩˧ nai"],  // Father's mother; mother's mother: 姥姥 lǎolao.

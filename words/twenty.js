@@ -712,11 +712,11 @@ WORDS.twenty = {
     krl: ["kaksikymmentä", "ˈkaksikymːentæ"],
     olo: ["kaksikymmen", "ˈkaksikymːen"],
     vep: ["kaks'kümne", "ˈkaksʲkymne"],
-    sma: ["göökteluhkie", "køːktɛlʉhkiɛ"],
-    smj: ["guoktalåhke", "ɡʊuɔktɑlɔhkɛ"],
+    sma: ["göökteluhkie", "ˈkøːktɛlʉhkiɛ"],
+    smj: ["guoktalåhke", "ˈɡʊuɔktɑlɔhkɛ"],
     se: ["guoktelogi", "ˈkuɔktelɔki"],
-    smn: ["kyeh'tilov", "kyehtilov"],
-    sms: ["kuâhttlo", "kuɐxtːlo"],  // No opened source supports the route.
+    smn: ["kyeh'tilov", "ˈkyehtilov"],
+    sms: ["kuâhttlo", "ˈkuɐxtːlo"],  // No opened source supports the route.
     sjd: ["кӯххтлоагкь", "kuːxːtloaɡk"],
     mrj: ["коклы", "koklə"],  // No opened source supports the route.
     mhr: ["коло", "kolo"],

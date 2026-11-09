@@ -364,7 +364,7 @@ WORDS.earthquake = {
     scn: ["tirrimotu", "tirrimɔtu"],  // Built on the word for earth or land.
     sd: ["زلزلو", "zəlzəloː"],  // From Arabic زلزلة zalzala.
     shn: ["ဢိင်ႇသၼ်ႇ", "ʔiŋ˩sʰan˩"],
-    sk: ["zemetrasenie", "zemetraseɲɪ̯e"],  // Built on the word for earth or land.
+    sk: ["zemetrasenie", "ˈzemetraseɲɪ̯e"],  // Built on the word for earth or land.
     sl: ["potres", "ˈpɔtrɛs"],  // A word for shaking, with no earth in it.
     so: ["dhulgariir", "ɖulɡariːr"],  // Built on the word for earth or land.
     sq: ["tërmet", "təɾˈmet"],  // Built on the word for earth or land.

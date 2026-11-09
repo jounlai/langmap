@@ -828,12 +828,12 @@ WORDS.sleep = {
 
     // --- Uralic and Siberia
     krl: ["muata", "ˈmuɑtɑ"],
-    kca: ["оӆты", "oɬtɯ"],
-    mns: ["хуюӈкве", "χujuŋkʷe"],
+    kca: ["оӆты", "ˈoɬtɯ"],
+    mns: ["хуюӈкве", "ˈχujuŋkʷe"],
     nio: ["кундуаса", "kunduasa"],
     sma: ["åeredh", "ˈoærɛdh"],
-    smj: ["oadet", "oadet"],
-    smn: ["uáđđiđ", "uaðːið"],
+    smj: ["oadet", "ˈoadet"],
+    smn: ["uáđđiđ", "ˈuaðːið"],
     sjd: ["вуэдтӭ", "vuedtʲe"],
     ykg: ["аавэ-", "aːwe"],
     ckt: ["йыԓӄэтык", "jəɬqetək"],

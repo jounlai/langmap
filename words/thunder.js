@@ -1564,12 +1564,12 @@ WORDS.thunder = {
     abe: ["padôgi", "padɔ̃ɡi"],  // Laurent p.17: "Padôgi. Thunder."
     nio: ["кадюа", "kɐdʲuɐ"],  // NorthEuraLex Nganasan, the list this row matches. Tie bars removed and spaces restored, as the row.
     enf: ["kihu", "kihu"],  // NorthEuraLex Forest Enets, the list this row matches. Tie bars removed and spaces restored, as the row. Latin spelling follows the row's pairs; the list prints Cyrillic.
-    smj: ["átjek", "atʃɛk"],  // NorthEuraLex Lule Sami, the list this row matches. Tie bars removed and spaces restored, as the row.
+    smj: ["átjek", "ˈatʃɛk"],  // NorthEuraLex Lule Sami, the list this row matches. Tie bars removed and spaces restored, as the row.
     ckt: ["йъилкээв", "jʔiɬkeːβ"],  // NorthEuraLex Chukchi, the list this row matches. Tie bars removed and spaces restored, as the row.
     yrk: ["мунота", "munoːtɑ"],  // NorthEuraLex Tundra Nenets, the list this row matches. Tie bars removed and spaces restored, as the row.
     bsk: ["ġaráo", "ɡ̇aˈraɔ"],  // NorthEuraLex Burushaski, the list this row matches. Tie bars removed and spaces restored, as the row.
     ykg: ["мөнэр", "møner"],  // NorthEuraLex Northern Yukaghir, the list this row matches. Tie bars removed and spaces restored, as the row.
-    sms: ["tie´rmes", "tiɛrʲmʲɛs"],  // NorthEuraLex Skolt Sami, the list this row matches. Tie bars removed and spaces restored, as the row.
+    sms: ["tie´rmes", "ˈtiɛrʲmʲɛs"],  // NorthEuraLex Skolt Sami, the list this row matches. Tie bars removed and spaces restored, as the row.
     smn: ["juuṛâ", "ˈjuːrɐ"],  // NorthEuraLex Inari Sami, the list this row matches. Tie bars removed and spaces restored, as the row.
     mns: ["сяхыл кургил", "sʲaχɪl kurɣil"],  // NorthEuraLex Northern Mansi, the list this row matches. Tie bars removed and spaces restored, as the row.
     ksw: ["လီသီၣ်", "lɔθɔ"],  // S'gaw Karen 'thunder' (SEAlang). No image is recorded for it, so it counts as a word of its own. IPA read from the script; the dictionary prints none.

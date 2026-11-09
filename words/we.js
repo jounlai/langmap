@@ -1640,7 +1640,7 @@ WORDS.we = {
     sma: ["mijjieh", "ˈmijːiɛh"],
     smj: ["mij", "mij"],
     smn: ["mij", "mij"],
-    sms: ["mij", "miʝɐ"], // was ["mij", "mij"] (vi dialect rules 2026-10-06)
+    sms: ["mij", "ˈmiʝɐ"], // was ["mij", "mij"] (vi dialect rules 2026-10-06)
     sjd: ["мыйй", "mɨjː"],
     vro: ["mi", "mi"],
     gn: ["ñande / ore", "ɲãnde / oɾe"],

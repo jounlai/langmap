@@ -199,8 +199,8 @@ WORDS.butterfly = {
     sms: ["äʹllbaž", "ˈalːʲbʲɒʒ"],  // the Kola Sámi word, cognate with Kildin а̄лльп, rather than the 'day-bird' compound of the western Sámi languages; NEL also lists pei´vvlå´dd for Skolt, and which of the two is the everyday word is unchecked. Surface kept verbatim from NEL (´ not ʹ), as the row itself does in nâ´stt
     sma: ["biejjielåbloe", "ˈpiɛjːiɛˌlɔbluʌ"],  // Begins with biejjie 'sun', like the other Sámi forms.
     sjd: ["а̄лльп", "aːʎːp"],  // Not a 'sun-bird' compound, unlike the other Sámi rows; WOLD independently records the same word as āll’p.
-    mns: ["ла̄панты", "laːpantɪ"],
-    kca: ["ӆапата", "ɬapata"],
+    mns: ["ла̄панты", "ˈlaːpantɪ"],
+    kca: ["ӆапата", "ˈɬapata"],
     sel: ["лөнтыра", "løntɨra"],
     nio: ["кәуз̌иай", "kəuðʲiɐj"],
     yrk: ["ламбӑрё", "lambərʲo"],

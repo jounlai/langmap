@@ -1115,7 +1115,7 @@ WORDS.tomorrow = {
     ykg: ["эгуойиэ", "eɡuojie"],  // Эгуойиэ goes back to Proto-Yukaghir *öŋkǝ- (Wiktionary, after Nikolaeva 2006).
     nio: ["талу", "talu"],  // Талу is one of two Nganasan words for 'tomorrow'; the other, күз̌иахүˮ, resembles күз̌иату 'morning' (NorthEuraLex).
     sel: ["тялы", "tʲalɨ"],  // Тялы is the Northern Selkup word for 'tomorrow' (NorthEuraLex; IDS).
-    kca: ["хаӆэват", "xaɬəwat"],  // Хаӆэват is the Northern Khanty word for 'tomorrow' (NorthEuraLex; IDS). No image is recorded for it, so it counts as a word of its own.
+    kca: ["хаӆэват", "ˈxaɬəwat"],  // Хаӆэват is the Northern Khanty word for 'tomorrow' (NorthEuraLex; IDS). No image is recorded for it, so it counts as a word of its own.
     acn: ["pʰă55nap55", "pʰă˥˥nap˥˥"],  // Longchuan Achang says pʰă⁵⁵nap⁵⁵ (Sun 1991; Sagart et al. 2019). The second syllable nap is also the Achang word for 'morning' (Mann's Burmish lexicon).
     clk: ["ɑ31nɑ55jɑ55", "ɑ˧˩nɑ˥˥jɑ˥˥"],  // Idu says ɑ³¹nɑ⁵⁵jɑ⁵⁵ (Sun 1991; Sagart et al. 2019). No image is recorded for it, so it counts as a word of its own.
     jv: ["sésuk", "sesuk"],  // Sésuk is the ngoko word for 'tomorrow'; the polite krama form is bénjing (Wikivoyage; Javanese Wiktionary). Built on ésuk 'morning', as Sundanese isuk means both.
@@ -1231,8 +1231,8 @@ WORDS.tomorrow = {
     hwc: ["tomorra", "təmɑɹə"],  // From English tomorrow, itself from Old English tō morgne 'on the morning' (Wiktionary).
     se: ["ihttin", "ˈihːtiːn"],  // Ihttin is the Northern Sámi word for 'tomorrow'; Wiktionary gives no etymology.
     sma: ["jirreden", "ˈjirːɛdɛn"],  // Jirreden is the Southern Sámi word for 'tomorrow' (Giellatekno dictionary; NorthEuraLex).
-    smn: ["itten", "itːen"],  // Itten is the Inari Sámi word for 'tomorrow' (Giellatekno dictionary; NorthEuraLex).
-    sms: ["jâđđa", "jɐðːɒ"],  // Jâđđa is the Skolt Sámi word for 'tomorrow' (Giellatekno dictionary; NorthEuraLex).
+    smn: ["itten", "ˈitːen"],  // Itten is the Inari Sámi word for 'tomorrow' (Giellatekno dictionary; NorthEuraLex).
+    sms: ["jâđđa", "ˈjɐðːɒ"],  // Jâđđa is the Skolt Sámi word for 'tomorrow' (Giellatekno dictionary; NorthEuraLex).
     sjd: ["янта", "janta"],  // Янта is the Kildin Sámi word for 'tomorrow' (Kuruch 1985; NorthEuraLex).
     gn: ["koʼẽrõ", "koʔẽɾõ"],  // Ko'ẽrõ is built on ko'ẽ 'dawn, morning' (Wiktionary).
     chr: ["ᏑᎾᎴᎢ", "sunaːleːʔi"],  // ᏑᎾᎴᎢ sunalei means both 'morning' and 'tomorrow' (Cherokee-English Dictionary; Dictionary of Semantic Shifts).
@@ -1433,7 +1433,7 @@ WORDS.tomorrow = {
     abs: ["eso", "eso"],  // Eso, the Ambon Malay form of Malay esok, is 'tomorrow' in the Ambon Malay Bible. Malay esok, like Indonesian besok, is compared with Javanese ésuk 'morning'.
     max: ["beso", "beso"],  // Beso, the local form of Malay besok, is 'tomorrow' in the North Moluccan Malay New Testament. Malay besok, like Indonesian besok, is compared with Javanese ésuk 'morning'.
     sas: ["lémaq", "lemaʔ"],  // Lémaq is 'tomorrow' in the Sasak Bible, set against jelo niki 'today'. No image is recorded for it, so it counts as a word of its own.
-    mns: ["холытан", "χolɪtan"],  // Derived from Proto-Uralic *kude 'morning', the same root as Hungarian holnap 'tomorrow'.
+    mns: ["холытан", "ˈχolɪtan"],  // Derived from Proto-Uralic *kude 'morning', the same root as Hungarian holnap 'tomorrow'.
     yap: ["gabul", "ɡabul"],  // Gabul is 'tomorrow' in the Yapese Bible, set against daba’ 'today'. No image is recorded for it, so it counts as a word of its own.
     gbm: ["भोल", "bʱoːl"],  // Bhol is 'tomorrow' in the Garhwali New Testament; unlike Hindi kal it is not used for yesterday.
     xnr: ["कल", "kal"],  // Kal means both 'tomorrow' and 'yesterday', as in Hindi; context tells them apart.
@@ -1827,7 +1827,7 @@ WORDS.tomorrow = {
     kjj: ["пага", "pʰaɡa"],  // IDS Khinalug, the row's list. Beside ппогочу. Palochka and IPA from the row's pairs.
     abe: ["saba", "saba"],  // Laurent p.20: "Saba. To-morrow."
     enf: ["cheta", "tʃʲɛta"],  // NorthEuraLex Forest Enets, the list this row matches. Tie bars removed and spaces restored, as the row. Latin spelling follows the row's pairs; the list prints Cyrillic.
-    smj: ["idet", "idɛt"],  // NorthEuraLex Lule Sami, the list this row matches. Tie bars removed and spaces restored, as the row.
+    smj: ["idet", "ˈidɛt"],  // NorthEuraLex Lule Sami, the list this row matches. Tie bars removed and spaces restored, as the row.
     itl: ["азоск", "azosk"],  // NorthEuraLex Itelmen, the list this row matches. Tie bars removed and spaces restored, as the row.
     ckt: ["эргатык", "eɹɣatək"],  // NorthEuraLex Chukchi, the list this row matches. Tie bars removed and spaces restored, as the row.
     bsk: ["jímale", "ˈdʑimalʉ"],  // NorthEuraLex Burushaski, the list this row matches. Tie bars removed and spaces restored, as the row.

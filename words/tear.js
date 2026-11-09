@@ -465,7 +465,7 @@ WORDS.tear = {
     ml: ["കണ്ണുനീർ", "kaɳːuniːr"],  // Built from the words for eye and water or liquid.
     mnc: ["ᠶᠠᠰᠠᡳ ᠮᡠᡴᡝ", "jasai mukə"],  // Built from the words for eye and water or liquid. Compare ᠶᠠᠰᠠ 'eye', ᠮᡠᡴᡝ 'water'.
     mni: ["ꯄꯤ", "pi"],
-    mns: ["самвит", "samwit"],  // Built from the words for eye and water or liquid. Compare сам 'eye', вит 'water'.
+    mns: ["самвит", "ˈsamwit"],  // Built from the words for eye and water or liquid. Compare сам 'eye', вит 'water'.
     mr: ["आसू", "asu"],
     mra: ["hwaj mat", "hwaj mat"],  // Built on the word for eye (mat).
     mrj: ["сӹнзӓвӹд", "sɯnzævɯð"],  // Built from the words for eye and water or liquid. Compare сӹнзӓ 'eye', вӹд 'water'.
@@ -485,7 +485,7 @@ WORDS.tear = {
     nyo: ["emiziga", "emiziɡa"],
     nzm: ["mikdui", "mikdui"],  // Built from the words for eye and water or liquid.
     oc: ["lagrema", "laˈɡɾemɔ"],
-    olo: ["kyynäl", "kyynæl"],
+    olo: ["kyynäl", "ˈkyynæl"],
     or: ["ଅଶ୍ରୁ", "ɔsɾu"],
     orv: ["сльза", "slɪˈzɑ"],
     osp: ["lagrema", "ˈlaɡɾema"],
@@ -519,7 +519,7 @@ WORDS.tear = {
     sjd: ["кэ̄нял", "ˈkɛːɲal"],
     sk: ["slza", "ˈsl̩za"],
     skr: ["ہنج", "hə̃dʒ"],
-    smn: ["koonjâl", "koːɲɐl"],
+    smn: ["koonjâl", "ˈkoːɲɐl"],
     so: ["ilmo", "ilmo"],  // Built on the word for eye (il).
     sq: ["lot", "lɔt"],
     sr: ["слуза", "ˈsluza"],
@@ -592,7 +592,7 @@ WORDS.tear = {
     txb: ["𑀅𑀓𑁆𑀭𑀽𑀦", "akruːna"],  // Tocharian B akrūna 'tears', found only in the plural. No image is recorded for it, so it counts as a word of its own.
     krl: ["kyynäl", "ˈkyːnæl"],  // From Proto-Finnic *küünel, the same word as Finnish kyynel.
     nog: ["яс", "jas"],  // From Proto-Turkic *yāĺ 'tear'; the same form also means young and year.
-    smj: ["ganjál", "kaɲaːl"],  // From Proto-Sami *këńël, the same word as Northern Sámi ganjal.
+    smj: ["ganjál", "ˈkaɲaːl"],  // From Proto-Sami *këńël, the same word as Northern Sámi ganjal.
     tyv: ["чаш", "tʃaʃ"],  // From Proto-Turkic *yāĺ 'tear', the same word as Turkish yaş.
     pdc: ["Draen", "drɛːn"],  // From Middle High German træne, like German Träne.
     ckv: ["Rusi", "ʁusi"],  // Inherited from Proto-Austronesian *luSəq.

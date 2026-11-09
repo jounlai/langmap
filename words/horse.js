@@ -776,7 +776,7 @@ WORDS.horse = {
     sip: ["རྟ", "ta"],
     pau: ["uos", "uos"],
     tkl: ["holofanua", "holofanua"],
-    smj: ["råsse", "rɔsːɛ"],
+    smj: ["råsse", "ˈrɔsːɛ"],
     ers: ["nbo", "nbo˧˧"],
     ess: ["кони", "kɔni"],
     xal: ["мөрн", "møˈrn̩"],

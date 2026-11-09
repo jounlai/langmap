@@ -362,7 +362,7 @@ WORDS.cotton = {
     nl: ["katoen", "kaːˈtun"],  // From Arabic qutn.
     nmf: ["vat", "vat"],
     nzm: ["kelang", "kelanɡ"],
-    olo: ["puuvillu", "puuvillu"],
+    olo: ["puuvillu", "ˈpuuvillu"],
     or: ["କପା", "kɔpa"],  // From Sanskrit karpāsa.
     os: ["бӕмбӕг", "bæmbæɡ"],  // From Persian pambak (panbe).
     osp: ["algodon", "alɡoˈdon"],  // From Arabic qutn.

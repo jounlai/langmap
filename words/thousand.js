@@ -492,16 +492,16 @@ WORDS.thousand = {
     nl: ["duizend", "ˈdœy̯zənt"],
     krl: ["tuhat", "ˈtuhɑt"],
     fi: ["tuhat", "ˈtuhɑt"],  // From Baltic.
-    fkv: ["tuhat", "tuhɑt"],
-    olo: ["tuhat", "tuhat"],
+    fkv: ["tuhat", "ˈtuhɑt"],
+    olo: ["tuhat", "ˈtuhat"],
     vep: ["tuha", "tuha"],
     et: ["tuhat", "ˈtuhɑt"],  // From Baltic.
     liv: ["tū’ontõ", "tuːˀontə"],  // No opened source supports the route.
-    sma: ["tåvsene", "tʰɔβsɛnɛ"],  // No opened source supports the route.
-    smj: ["tuvsán", "tʊvsan"],  // No opened source supports the route.
+    sma: ["tåvsene", "ˈtʰɔβsɛnɛ"],  // No opened source supports the route.
+    smj: ["tuvsán", "ˈtʊvsan"],  // No opened source supports the route.
     se: ["duhát", "ˈtuhaːh"],
-    smn: ["tuhháát", "tuhːæːt"],  // Route by resemblance to the neighbouring forms (krl,fi,fkv); no etymology of its own.
-    sms: ["dohat", "doxɒt"],  // No opened source supports the route.
+    smn: ["tuhháát", "ˈtuhːæːt"],  // Route by resemblance to the neighbouring forms (krl,fi,fkv); no etymology of its own.
+    sms: ["dohat", "ˈdoxɒt"],  // No opened source supports the route.
     sjd: ["то̄а̄фант", "toːaːfant"],  // No opened source supports the route.
     mrj: ["тӹжем", "tɯʒem"],  // No opened source supports the route.
     mhr: ["тӱжем", "tyʒem"],  // No opened source supports the route.
@@ -511,8 +511,8 @@ WORDS.thousand = {
     kpv: ["тысяча", "tɨɕatɕa"],  // From Russian.
     koi: ["тысяча", "tɨɕatɕa"],  // From Russian.
     hu: ["ezer", "ˈɛzɛr"],  // From Iranian.
-    kca: ["сюрас", "sʲuras"],  // From Indo-Iranian.
-    mns: ["со̄ты̄р", "soːtɪːr"],  // From Indo-Iranian.
+    kca: ["сюрас", "ˈsʲuras"],  // From Indo-Iranian.
+    mns: ["со̄ты̄р", "ˈsoːtɪːr"],  // From Indo-Iranian.
     hi: ["हज़ार", "həzaːɾ"],
     ur: ["ہزار", "həzaːɾ"],
     ps: ["زر", "zer"],  // A cognate of Persian hazār.

@@ -268,7 +268,7 @@ WORDS.book = {
     enf: ["kniga", "kniɡa"],
     eve: ["книга", "kniɡa"],   // Wiktionary's Even entry confirms the loan and lists native дукон/дукун alongside it; which is the everyday one is unsettled.
     evn: ["книга", "kɲiɣa"],   // NorthEuraLex's other Evenki form, дукӯвӯн, is 'letter/writing', not a book.
-    kca: ["книга", "kniɣa"],   // Its other kca form, ӆуӈатти нэпек 'reading paper', is a phrase.
+    kca: ["книга", "ˈkniɣa"],   // Its other kca form, ӆуӈатти нэпек 'reading paper', is a phrase.
     ket: ["книга", "kɲiɡa"],
     itl: ["книга", "kniɡa"],
     koi: ["небӧг", "ˈɲebɘɡ"],  // NorthEuraLex gives Komi-Permyak книга, but koi.wikipedia writes небӧг in running prose ("Коми небӧг лэдзанін", a book publisher). Taking the native literary word, which also matches the kpv cell — the two standards share it.
@@ -340,7 +340,7 @@ WORDS.book = {
     mdf: ["книга", "kɲiɡa"],   // Native кинига exists but loses badly in inflected prose on mdf.wikipedia (книгань 46, кинигань 5). 407_letter is сёрма.
     mhr: ["книга", "kɲiɡa"],
     mrj: ["книгӓ", "kniɣæ"],   // The Hill Mari -ӓ form, not книга: mrj.wikipedia has 67 against 9. ӓ is U+04D3.
-    mns: ["кнӣга", "kniːɣa"],  // NorthEuraLex offers нэпак too, but gives that same form for 407_letter — the paper/written-thing word, as with the Khanty нэпек this file already declined. ӣ precomposed U+04E3.
+    mns: ["кнӣга", "ˈkniːɣa"],  // NorthEuraLex offers нэпак too, but gives that same form for 407_letter — the paper/written-thing word, as with the Khanty нэпек this file already declined. ӣ precomposed U+04E3.
     myv: ["книга", "kɲiɡa"],   // Against myv.wikipedia's article title Кинига, which is a purist outlier: in inflected running prose книгась/книганть/книгань score 21/28/49 and кинигась/кинигань score 0.
     nio: ["книга", "kɲiɡa"],   // 407_letter is хоз̌үр, a separate word.
     olo: ["kirju", "ˈkirju"],  // NorthEuraLex gives the Russian loan kniigu, but olo.wikipedia titles the article Kirju, opens with it, and says outright that kniigu comes from книга — the same call the koi cell makes. 407_letter is kirjaine, so kirju is not the letter word.
@@ -739,7 +739,7 @@ WORDS.book = {
     mpt: ["buk", "buk"],
     sip: ["དེབ", "dep"],
     tkl: ["tuhi", "tuhi"],
-    smj: ["girjje", "kirjːe"],
+    smj: ["girjje", "ˈkirjːe"],
     ess: ["игаӄ", "iɡaq"],
     xal: ["дегтр", "dekˈtər"],
     nhx: ["a̱maꞌ", "aːmaʔ"],
@@ -882,7 +882,7 @@ WORDS.book = {
     pt_mo: ["livro", "ˈlivɾu"],
     en_ph: ["book", "bʊk"],
     hsn_hy: ["书", "ɕy˦˦˥"],
-    sms: ["ǩeʹrjj", "cçɛrʲʝːʲɘ"],
+    sms: ["ǩeʹrjj", "ˈcçɛrʲʝːʲɘ"],
     djr: ["djorraʼ", "ɟoraʔ"],
     kgp: ["vẽnh rá", "wẽɲ ɾə"],
     bor: ["bapera", "bapeɾa"],

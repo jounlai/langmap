@@ -784,7 +784,7 @@ WORDS.poop = {
     agu: ["txaʼ", "ʈʂaʔ"],
     ixl: ["txaʼ", "ʈʂaʔ"],
     olo: ["šittu", "ˈʃittu"],
-    smj: ["bajkka", "pajkːa"],
+    smj: ["bajkka", "ˈpajkːa"],
     ers: ["htʃo", "htʃo˥˥"],
     mpt: ["al", "al"],
     uga: ["𐎃𐎗𐎜", "χurʔu"],

@@ -514,11 +514,11 @@ WORDS.right = {
     olo: ["oigei", "ˈoiɡei"],
     vep: ["oiged", "ˈoiɡed"],
     liv: ["jõvā", "ˈjɨvɑː"],
-    sma: ["åelkies", "oælkiɛs"],
-    smj: ["oalges", "uɔɑlɡɛs"],
+    sma: ["åelkies", "ˈoælkiɛs"],
+    smj: ["oalges", "ˈuɔɑlɡɛs"],
     se: ["olgeš", "ˈolkeʃ"],
-    smn: ["uál'gis", "u̯ælɡis"],
-    sms: ["vuõiǥâs", "vuəiɣɐs"],
+    smn: ["uál'gis", "ˈu̯ælɡis"],
+    sms: ["vuõiǥâs", "ˈvuəiɣɐs"],
     sjd: ["вуэлькесь", "vueʎkeɕ"],
     mrj: ["вургамла", "vurɣɑmlɑ"],
     mhr: ["пурла", "purla"],  // No opened source supports the route.
@@ -526,7 +526,7 @@ WORDS.right = {
     koi: ["веськытланись", "vʲeɕkɨtlaɲiɕ"],  // No opened source supports the route.
     kpv: ["веськытланись", "vʲeɕkɨtlaɲiɕ"],  // No opened source supports the route.
     kca: ["ям", "jam"],
-    mns: ["ёмаспал", "jomaspal"],
+    mns: ["ёмаспал", "ˈjomaspal"],
     ku: ["rastê", "raste"],  // No opened source supports the route.
     hyw: ["աջ", "ɑtʃʰ"],
     aln: ["djathtë", "djaθtə"],

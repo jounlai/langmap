@@ -574,20 +574,20 @@ WORDS.week = {
     yi: ["וואך", "vɔχ"],  // Route by resemblance to the neighbouring forms (lb); no etymology of its own.
     zza: ["hefte", "hefte"],
     zu: ["iviki", "iˈviki"],  // From Afrikaans.
-    fkv: ["viikko", "ʋiːkːo"],
-    olo: ["nedäli", "nedæli"],
+    fkv: ["viikko", "ˈʋiːkːo"],
+    olo: ["nedäli", "ˈnedæli"],
     vep: ["nedal'", "nedalʲ"],
-    sma: ["våhkoe", "βɔhkuʌ"],  // From Norse.
-    smj: ["vahkko", "vɑhːkuɔ"],  // Route by resemblance to the neighbouring forms (se); no etymology of its own.
+    sma: ["våhkoe", "ˈβɔhkuʌ"],  // From Norse.
+    smj: ["vahkko", "ˈvɑhːkuɔ"],  // Route by resemblance to the neighbouring forms (se); no etymology of its own.
     se: ["vahkku", "ˈvɑhkːu"],  // From Norse.
-    smn: ["okko", "okːo"],
-    sms: ["niä´t´tel", "niatʲtɛl"],  // No opened source supports the route.
+    smn: ["okko", "ˈokːo"],
+    sms: ["niä´t´tel", "ˈniatʲtɛl"],  // No opened source supports the route.
     sjd: ["не̄дтӭль", "ɲeːdtʲeʎ"],
     mrj: ["ӓрня", "ærnja"],  // No opened source supports the route.
     mhr: ["арня", "arɲa"],  // Route by resemblance to the neighbouring forms (udm); no etymology of its own.
     koi: ["неделя", "ɲeɟeʎa"],
     kpv: ["неделя", "ɲeɟeʎa"],
-    kca: ["ӆапат", "ɬapat"],  // No opened source supports the route.
+    kca: ["ӆапат", "ˈɬapat"],  // No opened source supports the route.
     mns: ["са̄т", "saːt"],
     ku: ["heftî", "hɛfti"],  // Route by resemblance to the neighbouring forms (zza); no etymology of its own.
     hyw: ["շաբաթ", "ʃɑpʰɑtʰ"],

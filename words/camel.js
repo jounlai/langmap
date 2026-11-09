@@ -451,7 +451,7 @@ WORDS.camel = {
     rue: ["коміла", "koˈmila"],  // Route by resemblance to the neighbouring forms (hr,el); no etymology of its own.
     rw: ["ingamiya", "iŋɡamija"],  // Route by resemblance to the neighbouring forms (sw); no etymology of its own.
     sc: ["camellu", "kaˈmɛlːu"],
-    se: ["kamel", "kamel"],
+    se: ["kamel", "ˈkamel"],
     si: ["ඔටුවා", "oʈuwaː"],
     sn: ["ngamera", "ŋɡamera"],
     tcy: ["ಒಂಟೆ", "oɳʈe"],  // Route by resemblance to the neighbouring forms (kn,mr,te); no etymology of its own.

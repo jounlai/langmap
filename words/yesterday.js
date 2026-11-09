@@ -1105,7 +1105,7 @@ WORDS.yesterday = {
     se: ["ikte", "ˈikːte"],  // tomorrow: ihttin.
     sma: ["jååktan", "ˈjoːktan"],  // tomorrow: jirreden.
     smn: ["jieht", "jieht"],  // tomorrow: itten.
-    sms: ["jåhtta", "jɔxtːɒ"],  // tomorrow: jâđđa.
+    sms: ["jåhtta", "ˈjɔxtːɒ"],  // tomorrow: jâđđa.
     sjd: ["яххта", "jaxːta"],  // tomorrow: янта.
     as: ["কালি", "kali"],  // tomorrow: কালি; the same word serves for both days, made explicit as যোৱাকালি 'yesterday' or অহাকালি 'tomorrow'.
     or: ["କାଲି", "kaːli"],  // tomorrow: କାଲି; one word for both days, made explicit as ଗତକାଲି 'yesterday' or ଆଗାମୀ କାଲି 'tomorrow'.
@@ -1214,7 +1214,7 @@ WORDS.yesterday = {
     fro: ["ier", "jɛr"],  // tomorrow: demain; ier is from Latin herī.
     sga: ["indé", "inʲˈdʲeː"],  // tomorrow: i mbárach.
     ltg: ["vakar", "ˈvakar"],  // tomorrow: reit.
-    mns: ["мо̄лхо̄тал", "moːlχoːtal"],  // tomorrow: холытан, cognate with Hungarian holnap.
+    mns: ["мо̄лхо̄тал", "ˈmoːlχoːtal"],  // tomorrow: холытан, cognate with Hungarian holnap.
     xct: ["ཁ་སང", "kʰasaŋ"],  // tomorrow: སང་ཉིན; Old Tibetan also wrote ཁར་སང.
     xct_litpr: ["ཁ་སང", "kʰasaŋ"],  // tomorrow: སང་ཉིན.
     ota: ["دون", "dyn"],  // tomorrow: یارین (yarın); دون also meant 'the past'.
@@ -1651,7 +1651,7 @@ WORDS.yesterday = {
     umu: ["wŭláakwe", "wəlaːkwe"],  // Wŭláakwe is the Munsee word for yesterday, recorded in John O'Meara's Munsee Delaware dictionary.
     cay: ["té:dę:ʼ", "téːdɛ̃ːʔ"],  // Tomorrow is ęyó:hęʼ 'it will be tomorrow'; té:dę:ʼ is built on a root for 'past day', which also gives gyoté:dęhk 'the day before yesterday'.
     fai: ["amsino", "amsino"],  // tomorrow: amsino; the Faiwol New Testament uses amsino for yesterday (John 4:52, Acts 7:28) and for tomorrow (Matthew 6:34, James 4:13).
-    kca: ["мо̆ԓхатәԓ", "moɬxatəɬ"],  // tomorrow: хӑԓэвәт; Acts 7:28 of the Khanty Bible reads 'хо̆ты мо̆ԓхатәԓ Египет ху веԓсэн' (as you killed the Egyptian yesterday).
+    kca: ["мо̆ԓхатәԓ", "ˈmoɬxatəɬ"],  // tomorrow: хӑԓэвәт; Acts 7:28 of the Khanty Bible reads 'хо̆ты мо̆ԓхатәԓ Египет ху веԓсэн' (as you killed the Egyptian yesterday).
     evn: ["тынэвэ", "tinəwə"],  // tomorrow: тэгэмӣ (also given as тыматиэ).
     lkt: ["ȟtálehaŋ", "χtálehã"],  // tomorrow: híŋhaŋni, as in James 4:13 of the Lakota Bible portions ('Hiƞhaƞni ki naƞiƞṡ hiƞhaƞni ak̇otaƞhaƞ').
     moh: ["thetén:re", "tʰedʌ̃́ːre"],  // tomorrow: enhiórenʼne, as in James 4:13 of the Mohawk New Testament.
@@ -1736,7 +1736,7 @@ WORDS.yesterday = {
     abe: ["wlôgwa", "wlɔ̃ɡʷa"],  // Laurent p.20: "Wlôgwa. Yesterday."
     nio: ["талу", "tɐlu"],  // NorthEuraLex Nganasan, the list this row matches. Tie bars removed and spaces restored, as the row.
     enf: ["chenoyu", "tʃʲɛnɔju"],  // NorthEuraLex Forest Enets, the list this row matches. Tie bars removed and spaces restored, as the row. Latin spelling follows the row's pairs; the list prints Cyrillic.
-    smj: ["iektu", "iɛktʊ"],  // NorthEuraLex Lule Sami, the list this row matches. Tie bars removed and spaces restored, as the row.
+    smj: ["iektu", "ˈiɛktʊ"],  // NorthEuraLex Lule Sami, the list this row matches. Tie bars removed and spaces restored, as the row.
     sel: ["тял челы", "tʲal tɕelɨ"],  // NorthEuraLex Northern Selkup, the list this row matches. Tie bars removed and spaces restored, as the row.
     itl: ["ачињчк", "atʃiɲtʃk"],  // NorthEuraLex Itelmen, the list this row matches. Tie bars removed and spaces restored, as the row.
     yrk: ["теняна", "tʲeːɲɑnɑ"],  // NorthEuraLex Tundra Nenets, the list this row matches. Tie bars removed and spaces restored, as the row.

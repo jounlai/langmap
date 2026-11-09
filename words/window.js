@@ -609,7 +609,7 @@ WORDS.window = {
     it: ["finestra", "fiˈnɛstra"],
     kn: ["ಕಿಟಕಿ", "kiʈaki"],
     pam: ["auang", "ˈawəŋ"],
-    krl: ["ikkuna", "ikːunɑ"],  // Route by resemblance to the neighbouring forms (vot); no etymology of its own.
+    krl: ["ikkuna", "ˈikːunɑ"],  // Route by resemblance to the neighbouring forms (vot); no etymology of its own.
     csb: ["òkno", "ˈwɛknɔ"],
     kk: ["терезе", "teɾeze"],  // From Persian دریچه.
     kg: ["nela", "nela"],
@@ -665,19 +665,19 @@ WORDS.window = {
     xh: ["ifestile", "ifestiːle"],
     sah: ["түннүк", "tynːyk"],
     yi: ["פענצטער", "ˈfɛntstəʁ"],  // Route by resemblance to the neighbouring forms (nap,fy,sv); no etymology of its own.
-    fkv: ["ikkuna", "ikːunɑ"],  // Route by resemblance to the neighbouring forms (vot); no etymology of its own.
+    fkv: ["ikkuna", "ˈikːunɑ"],  // Route by resemblance to the neighbouring forms (vot); no etymology of its own.
     olo: ["ikkun", "ˈikːun"],  // Route by resemblance to the neighbouring forms (fi,krl,fkv); no etymology of its own.
     liv: ["lä’b", "læˀb"],
-    sma: ["klaase", "kʰlɑːsɛ"],
-    smj: ["vinndek", "vinːdɛk"],
+    sma: ["klaase", "ˈkʰlɑːsɛ"],
+    smj: ["vinndek", "ˈvinːdɛk"],
     se: ["láse", "ˈlaːse"],
-    smn: ["laasâ", "lɑːsɐ"],
-    sms: ["ikkân", "ikːɐn"],  // Route by resemblance to the neighbouring forms (vep,olo); no etymology of its own.
+    smn: ["laasâ", "ˈlɑːsɐ"],
+    sms: ["ikkân", "ˈikːɐn"],  // Route by resemblance to the neighbouring forms (vep,olo); no etymology of its own.
     sjd: ["эххкан", "exːkan"],
     mrj: ["окня", "oknja"],
     mhr: ["окна", "okna"],  // Route by resemblance to the neighbouring forms (rue,cs,pl); no etymology of its own.
-    kca: ["ишни", "iʃni"],
-    mns: ["ӣснас", "iːsnas"],
+    kca: ["ишни", "ˈiʃni"],
+    mns: ["ӣснас", "ˈiːsnas"],
     sel: ["окошка", "okoʃka"],  // Route by resemblance to the neighbouring forms (ru); no etymology of its own.
     yrk: ["сидерˮ", "sʲidʲeːrʔ"],
     nio: ["сиәз̌ыр", "sʲiəðɨr"],

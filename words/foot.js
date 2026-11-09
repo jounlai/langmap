@@ -1889,7 +1889,7 @@ WORDS.foot = {
     mni: ["ꯈꯣꯡ", "kʰoŋ"],  // Chelliah's Grammar of Meithei has khoŋ for the leg and khoŋpak for the foot; the Manipuri New Testament washes feet with plain khong, set against khut for the hand.
     mnk: ["siŋo", "siŋo"],  // siŋo is 'foot, leg' in one entry of the Peace Corps Gambia dictionary, and the leg-specific sinkaloo is built on it — where Bambara has sen, Mandinka has siŋ.
     mnp: ["跤", "kʰau˥˦"],  // Min Bei patterns with the rest of Min: 骹 covers the limb and 跤腿 specifies the leg. MCPDict 建甌 骹 kʰau1, glossed 腳; tone ˥˦ to match this row's other 陰平 cells (心 siŋ˥˦, 三 saŋ˥˦). Written 跤 as the atlas's other Min rows have it.
-    mns: ["ла̄гыл", "laːɣɪl"],  // ла̄гыл covers both.
+    mns: ["ла̄гыл", "ˈlaːɣɪl"],  // ла̄гыл covers both.
     mnw: ["ဇိုၚ်", "càŋ"],  // Shorto's Dictionary of Modern Spoken Mon glosses ဇိုၚ် 'lower limb, leg, foot' with 'he has a bad leg' and 'wash your feet' under the one entry; modern Mon keeps what Old Mon ဇုင် already had.
     moc: ["lapiaʔ", "lapiaʔ"],  // IDS splits Mocoví l-apiaʔ from li-či, and this row's lqaiʔlaʁat is IDS's l-ḳaiʔlaʁat.
     moh: ["ohsì:taʼ", "ohsìːtaʔ"],  // The 1818 Mohawk John washes radighsige 'their feet' at 13:5 and breaks honwarenghsyakon 'his legs' at 19:33 while 19:36 leaves raoghstyen 'his bone' whole; the citation noun is Maracle's ohsì:taʼ, against ohsí:naʼ for the leg.
@@ -2149,9 +2149,9 @@ WORDS.foot = {
     slr: ["ayax", "ɑjɑχ"],  // ayax covers both in Ma Wei et al.'s Salar-Uyghur-Chinese dictionary; ABVD's 'b. leg' inʤix is incik, the shin.
     sm: ["vae", "vae"],  // One word for the limb, the Polynesian norm; POLLEX glosses the Samoan reflex of PPn *waqe 'Leg'. No stress mark, as on the other Polynesian rows.
     sma: ["juelkie", "ˈjʉɛlkiɛ"],  // One word for the whole lower limb, the Uralic norm. // was ["juelkie", "jʉɛlkiɛ"] (vi dialect rules 2026-10-06)
-    smj: ["juolgge", "jʊuɔlɡːɛ"],  // One word for the whole lower limb, the Uralic norm.
-    smn: ["jyel'gi", "jyelɡi"],  // One word for the whole lower limb, the Uralic norm.
-    sms: ["jueʹlǧǧ", "ʝuɛlʲɟɟʝʲɘ"],  // One word for the whole lower limb, the Uralic norm.
+    smj: ["juolgge", "ˈjʊuɔlɡːɛ"],  // One word for the whole lower limb, the Uralic norm.
+    smn: ["jyel'gi", "ˈjyelɡi"],  // One word for the whole lower limb, the Uralic norm.
+    sms: ["jueʹlǧǧ", "ˈʝuɛlʲɟɟʝʲɘ"],  // One word for the whole lower limb, the Uralic norm.
     sn: ["tsoka", "tsoka"],  // Shona splits them: tsoka is the foot and gumbo the leg, the latter with the page reference to Hannan in the Tervuren lexicostatistic file.
     so: ["cago", "ʕaɡo"],  // Somali splits them. IPA is the plain reading of the orthography, following how this row's own hand cell writes gacan as ɡaʕan.
     soa: ["ตีน", "tiːn˨˦"],  // The Tai tin/kha split: ตีน against ขา. Thai Song is the Thailand-resident Black Tai, and ABVD's Tai Dam list (Pittayaporn 2021) gives tin¹ 'foot' beside kʰaː¹ 'leg'. // was ["ตีน", "tiːn˧"] (r51 audit 2026-10-04)

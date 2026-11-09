@@ -519,7 +519,7 @@ WORDS.computer = {
     de_lu: ["Computer", "kɔmˈpjuːtɐ"],
     ext: ["ordenaol", "oɾðenaˈol"],
     sgs: ["kuompioteris", "kuomˈpʲɔtʲɛrʲɪs"],
-    sms: ["teâttmašina", "teatːmaʃina"],
+    sms: ["teâttmašina", "ˈteatːmaʃina"],
     pap: ["kòmpiuter", "kɔmpjuter"],
     frr: ["kompjuuter", "kɔmˈpjuːtər"],
     tok: ["ilo sona", "ilo sona"],

@@ -425,7 +425,7 @@ WORDS.hundred = {
 
     // --- More Uralic -------------------------------------------------------
     smj: ["tjuohte", "ˈtʃuohte"],
-    smn: ["čyeti", "tʃyeti"],
+    smn: ["čyeti", "ˈtʃyeti"],
     mrj: ["шӱдӹ", "ʃyðɯ"],
     liv: ["sadā", "ˈsɑdɑː"],
     mns: ["са̄т", "saːt"],
@@ -697,7 +697,7 @@ WORDS.hundred = {
     pcd: ["chint", "ʃɛ̃"],
     fax: ["cen", "θeŋ"],
     ruq: ["sută", "ˈsutə"],   // the Slavic loan Romanian also took
-    sms: ["čueʹtt", "tʃuɛtːʲɘ"],
+    sms: ["čueʹtt", "ˈtʃuɛtːʲɘ"],
     sma: ["tjuetie", "ˈtʃʉɛtiɛ"],
     yai: ["sad", "sad"],
     tly: ["sa", "sa"],

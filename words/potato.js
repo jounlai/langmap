@@ -1103,7 +1103,7 @@ WORDS.potato = {
     bew: ["artapel", "artapəl"],  // Borrowed from Dutch aardappel, literally 'earth apple'.
     afb: ["بطاط", "bʊˈtˤɑːtˤ"],  // Ultimately from Spanish patata, from Taíno batata; it also means chips and crisps.
     rup: ["pãtatã", "pəˈtatə"],  // No origin is given; it matches Greek πατάτα, from Spanish patata.
-    smj: ["berun", "perun"],  // Borrowed from Finnish peruna.
+    smj: ["berun", "ˈperun"],  // Borrowed from Finnish peruna.
     sma: ["peara", "ˈpeæra"],  // Borrowed from Swedish pära, a dialect word for both a pear and a potato.
     khw: ["الُو", "aˈlu"],  // Borrowed from Urdu آلُو ālū, the same word as Hindi आलू.
     slr: ["yañyü", "jɑŋjy"],  // Borrowed from Mandarin 洋芋 yángyù.

@@ -743,7 +743,7 @@ WORDS.daughter = {
     arn: ["ñawe", "ɲawe"],
     guc: ["achon", "atʃon"],
     mzh: ["lhäse", "ɬɑse"],
-    kgp: ["kósin fi", "kɔsin ɸi"],
+    kgp: ["kósin fi", "kɔʃin ɸi"],
     tob: ["liale", "liale"],
     plg: ["lekʔoqte", "lekʔoqte"],
     moc: ["lʲaale", "lʲaale"],

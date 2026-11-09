@@ -717,7 +717,7 @@ WORDS.silk = {
     fr_lu: ["soie", "swa"],
     acn: ["pʰe55", "pʰe˥˥"],
     ter: ["sêta", "ˈseːta"],
-    kgp: ["seda", "seda"],
+    kgp: ["seda", "ʃeda"],
     gum: ["seda", "ˈseda"],
     nhx: ["seda", "seda"],
     acu: ["seda", "seda"],

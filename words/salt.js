@@ -904,7 +904,7 @@ WORDS.salt = {
     emp: ["tã", "tã"],
     arn: ["chazi", "tʃaði"],
     xav: ["sa", "sa"],
-    kgp: ["sa", "sa"],
+    kgp: ["sa", "ʃa"],
     kpj: ["dʒɨra", "dʒɨra"],
     tob: ["towe", "towe"],
     plg: ["qaaʔnowa", "qaaʔnowa"],

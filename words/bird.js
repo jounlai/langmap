@@ -614,7 +614,7 @@ WORDS.bird = {
     zza: ["mıriçık", "mɨritʃɨk"],
     mrq: ["manu", "manu"],
     guc: ["wuchii", "wutʃiː"],
-    kgp: ["sẽsĩ", "sɛ̃sĩ"],
+    kgp: ["sẽsĩ", "ʃɛ̃ʃĩ"],
     tob: ["qojo", "qojo"],
     plg: ["majoʔ", "majoʔ"],
     moc: ["ajo", "ajo"],

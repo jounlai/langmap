@@ -627,7 +627,7 @@ WORDS.five = {
     shy: ["semmus", "səmmus"],
     mwr: ["पाँच", "pãːtʃ"],
     bgc: ["पाँच", "pãːtʃ"],
-    kok: ["पाच", "paːtʃ"],
+    kok: ["पाच", "paːts"],
     mnp: ["五", "ŋu˦˨"],
     nan_te: ["五", "ŋou˧˥"],
     yue_ts: ["五", "m̩˥˥"],

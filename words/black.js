@@ -1092,7 +1092,7 @@ WORDS.black = {
     sms: ["čappâd", "ˈtʃɒpːɐd"],
     dak: ["sápa", "sápa"],
     ter: ["haháʼiti", "haˈhaʔiti"],
-    kgp: ["sá", "sə"],
+    kgp: ["sá", "ʃə"],
     wls: ["ʻuli", "ʔuli"],
     woe: ["chochoal", "tʃotʃɒl"],
     fud: ["ʻuli", "ʔuli"],

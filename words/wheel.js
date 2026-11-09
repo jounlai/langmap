@@ -270,7 +270,7 @@ WORDS.wheel = {
     ps: ["څرخ", "tsarx"],
     as: ["চকা", "sɔka"],
     or: ["ଚକ", "tʃɔkɔ"],
-    kok: ["चाक", "tʃaːk"],
+    kok: ["चाक", "tsaːk"],
     tcy: ["ಚಕ್ರ", "tʃakɾa"],
     hne: ["चक्का", "tʃəkkaː"],
     hy_grab: ["անիւ", "aniw"],

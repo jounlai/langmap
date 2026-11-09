@@ -14,3 +14,5 @@ Changed:
 Notes added for double meanings: Kikuyu snow/yesterday ira, Nivkh daughter оӻла (Wiktionary child, son), Yurok wonewsleg sun and moon, Acehnese boh fruit and egg.
 
 Weak keeps for a later look: Mooré wheel karga, Huli nose ngui (body count 15), Yukaghir new илльэ, Nùng father pá, Wallisian white hina, Kaskaskia daughter, Mende rain nja, Mizo thunder khawpui, Arpitan tea tè.
+
+Addendum, the 381 form-of flags: nearly all are alternative spellings or script forms the rows use on purpose (Tifinagh, Akhar Thrah, Cree syllabics, Devanagari Pali). Of the 19 Wiktionary calls obsolete or dated: Kimbundu head mutue → mutwe and water menha → menya (the row already writes w and ny elsewhere). Isoko's eleven 'dated' spellings are the Bible orthography the whole row follows, and Huasteca Nahuatl's cahuayo and cuahuitl match that row's colonial-style spelling; both left.

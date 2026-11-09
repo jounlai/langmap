@@ -698,7 +698,7 @@ WORDS.head = {
     ay: ["pʼiqi", "pʼiqi"],
     ssw: ["inhloko", "inɬoko"],
     bci: ["ti", "ti"],
-    kmb: ["mutue", "mutue"],
+    kmb: ["mutwe", "mutwe"],  // Wiktionary gives mutue as the obsolete spelling.
     teo: ["akou", "akou"],
     bik: ["payo", "paˈjo"],
     mui: ["palak", "palak"],

@@ -1004,7 +1004,7 @@ WORDS.water = {
     ng: ["omeya", "omeja"],
     kj: ["omeva", "omeva"],
     umb: ["ovava", "ovava"],
-    kmb: ["menha", "meɲa"],
+    kmb: ["menya", "meɲa"],  // Wiktionary gives menha as the obsolete spelling.
     lue: ["meya", "meja"],
     her: ["omeva", "omeva"],
     xal: ["усн", "usn̩"],

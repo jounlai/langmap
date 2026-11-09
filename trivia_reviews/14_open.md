@@ -30,3 +30,5 @@ Content fix: paper-the-inventors-word gave Old Chinese 紙 the Japanese reading 
 Mechanical: ASCII , ; : ? ! between Chinese characters (zh, yue) made full-width; trivia_style budget ascii-punct 38 → 0.
 | ar (c01–c03 full) | 442 | ~270 voice, 149 straight quotes → «», 23 centuries in words; esperanto mood «الصيغة» matched to English |
 | ar (c07–c10 full) | 264 | dashes, headings, «» quotes, خانة for map cell; circumflex named correctly in quoc-ngu; invented closing moral removed (go-on); quoc-ngu and hakka drop English facts (noted) |
+| he (c02–c04 full) | 264 | dash asides (c02 83 → 13), passives with על ידי, garbled lines (Nushu, poop club armchair), 'our letter A' reworded; names unified in these chunks |
+Stock openers rewritten by hand: vi water (Điều thú vị là), zh window (最有趣的是), ja Zhongyuan Yinyun (注目すべきは); budget ai-opener 3 → 2 (the remaining two are in quoted/compound use).

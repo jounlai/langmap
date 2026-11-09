@@ -12,3 +12,5 @@ One agent per language reads all 273 articles cold as a native writer and rewrit
 | yue | 490 | c01 (347): 36 articles had English punctuation between characters, now full-width; written-Chinese leftovers (著, 其, 與, 們) and "…" quotes around Chinese → 「」 |
 | ko | 449 | c01/c04/c07 most; five 합니다체 articles turned into 다체 like the rest; 3 list-item fixes not applied (list markup differs); en/ja/yue leftovers that had appeared twice in an overlay now applied (fixdup.py, verify.py) |
 | vi | 567 | ~360 voice (passive được…bởi chains, calques), 121 titles lowercased after the colon, Han headings to sentence case, Latin→Latinh; olderbrother article now matches the English on брат/fratello |
+| id | 2223 | Word Map articles most ("X Polandia" order, calques), Title Case → sentence case, aksara, tulang ramalan; 土豆 gloss fixed to 'kacang dari tanah' (peanut misreading) |
+| hi | 471 | c01–c02 and Han articles most; gender agreement and spaces before । fixed; etruscan 'letters you are reading now' reworded; paper article cites 紙 (kami) as Old Chinese — the English has the same slip (content fix pending) |

@@ -12,8 +12,8 @@
     "hash": "ba8627897ad439a9"
   },
   "hanmap_trivia_rt/base.js": {
-    "version": 41,
-    "hash": "ff5380a33276aed6"
+    "version": 43,
+    "hash": "9080566a3dd5415a"
   },
   "lang-filter.js": {
     "version": 65,
@@ -64,8 +64,8 @@
     "hash": "ac59f94d6e780b8c"
   },
   "namemap_trivia_rt/base.js": {
-    "version": 27,
-    "hash": "bc9254196723a51e"
+    "version": 28,
+    "hash": "ccd6abcef00b304b"
   },
   "nav-short.js": {
     "version": 55,
@@ -104,8 +104,8 @@
     "hash": "369e92696647b0bd"
   },
   "timemap_trivia_rt/base.js": {
-    "version": 22,
-    "hash": "a0e5dabe131d982c"
+    "version": 23,
+    "hash": "54a9a8c74c4a2a64"
   },
   "trivia_reader.js": {
     "version": 2,

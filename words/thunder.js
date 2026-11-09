@@ -905,7 +905,7 @@ WORDS.thunder = {
     bo: ["འབྲུག", "ʈʂu˩˧˨"],  // The same word means 'dragon'; Bhutan is འབྲུག་ཡུལ, the land of the thunder dragon.
     khg: ["འབྲུག", "ndʐuʔ˥˧"],  // The same word means 'dragon' in Tibetan.
     mn: ["аянга", "ajaŋɡ"],  // One word for both thunder and lightning.
-    sah: ["этиҥ", "etiŋ"],  // Lightning is a separate word, чаҕылҕан. No image is recorded for it, so it counts as a word of its own.
+    sah: ["этиҥ", "eˈtiŋ"],  // Lightning is a separate word, чаҕылҕан. No image is recorded for it, so it counts as a word of its own.
     evn: ["агды", "aɡdi"],  // The same word also means storm and lightning.
     eve: ["агди", "aɡdi"],  // Shared with Evenki агды and Nanai агди. No image is recorded for it, so it counts as a word of its own.
     cv: ["аслати", "aslaˈti"],  // Chuvash stresses the last syllable here. No image is recorded for it, so it counts as a word of its own.
@@ -1187,7 +1187,7 @@ WORDS.thunder = {
     kum: ["кёк кёкюрев", "køk køkyrew"],  // Literally 'the sky's rumbling': кёк 'sky' + кёкюрев, the verbal noun of кёкюре- 'to thunder'.
     krc: ["кёк кюкюреу", "køk kykyrew"],  // Literally 'the sky's rumbling', кёк 'sky' + the verbal noun кюкюреу, the same build as Kumyk кёк кёкюрев; lightning is шыбыла.
     crh: ["kök güdürdisi", "køk ɡydyrdisi"],  // Literally 'the sky's rumbling', kök 'sky' + güdürdi 'rumble'; the Bible also uses kök gürültisi.
-    kaa: ["gúldirmama", "ɡyldirmama"],  // Kept apart from jasın and shaqmaq, the lightning; the same word as Uyghur گۈلدۈرماما.
+    kaa: ["gúldirmama", "ɡyldirmaˈma"],  // Kept apart from jasın and shaqmaq, the lightning; the same word as Uyghur گۈلدۈرماما.
     tyv: ["диңмирээшкин", "diŋmireːʃˈkin"],  // A noun from диңмире- 'to thunder'; lightning is кызаңнаашкын. No image is recorded for it, so it counts as a word of its own.
     yi: ["דונער", "ˈdʊnər"],  // From Middle High German doner, the Germanic thunder word shared with German Donner and English thunder.
     dv: ["ގުގުރި", "ɡuɡuɾi"],  // Inherited from Sanskrit ghurghurā and cognate with Sinhala ගිගුරුම; it can also mean a snore.
@@ -1334,7 +1334,7 @@ WORDS.thunder = {
     sat: ["ᱦᱩᱰᱩᱨ", "huɖur"],  // The Santali Bible calls James and John huḍurren hopon, 'sons of thunder', and keeps huḍur apart from bijli, the lightning.
     gn: ["arasunu", "aɾasuˈnũ"],  // The Guarani Bible calls James and John Arasunu ra'y, 'sons of thunder'; the shorter sunu is also recorded. Ara 'sky' plus sunu 'noise'.
     rif: ["ⴰⵊⵊⴰⵊ", "aʒːaʒ"],  // Inherited from Proto-Berber and cognate with Tashelhit iggig; it can also mean the storm.
-    tt: ["күкрәү", "kykræw"],  // A verbal noun 'rumbling'; the fuller күк күкрәү, with күк 'sky', is also used, as in the Tatar Bible's 'sons of thunder'.
+    tt: ["күкрәү", "kykˈræw"],  // A verbal noun 'rumbling'; the fuller күк күкрәү, with күк 'sky', is also used, as in the Tatar Bible's 'sons of thunder'.
     min: ["guruah", "ɡuruah"],  // The Minangkabau form of Malay guruh, inherited from Proto-Malayo-Polynesian *kuʀuq; guntua and gaga are also said.
     ks: ["گَگٕراے", "ɡaɡɨraːj"],  // A feminine plural noun; the flash of lightning is a separate word, ترَٛٹھ traṭh. No image is recorded for it, so it counts as a word of its own.
     nap: ["truono", "ˈtrwonə"],  // From Latin tonus with an extra r, like Sicilian tronu and old Italian truono; a truóno 'e marzo is a sudden early-spring clap.
@@ -1496,7 +1496,7 @@ WORDS.thunder = {
     kpf: ["kundunduŋ", "kundunduŋ"],  // Komba word for thunder: Mark 3:17 explains Boanerges as 'like thunder' (kundunduŋ yatâ), and Revelation 4:5 has kaŋkundunduŋ.
     nlc: ["liming", "limiŋ"],  // Nalca word for thunder: Mark 3:17 explains Boanerges as 'sons of thunder' (liming bedya mabo), John 12:29 has liming gururu amla 'thunder rumbles', and Revelation 6:1 'a voice like thunder' (liming yub).
     zh_han: ["雷", "rhwǝ̄j"],  // The Shuowen (c. 100 CE) defines 靁 (= 雷) as 陰陽薄動靁雨生物者也 'yin and yang striking each other, the thunder and rain that make things grow'.
-    kjh: ["кӱгӱрт", "kyɡyrt"],  // Romanised kügürt; Wiktionary also lists кӱгӱрт чолы.
+    kjh: ["кӱгӱрт", "kyˈɡyrt"],  // Romanised kügürt; Wiktionary also lists кӱгӱрт чолы.
     ja_kanbun: ["雷", "ikazɯtɕi"],  // Classical Chinese 雷, read with the classical kun ikazuchi (いかづち); 字通 gives the 字訓 かみなり・いかずち, and the 和名抄 and 名義抄 gloss 雷 as イカヅチ / ナルカミ.
     jup: ["pæ̃j", "pæ̃j"],  // No image is recorded for it, so it counts as a word of its own. From the World Loanword Database (Hup); Johansson's list also has pæ̃j.
     srm: ["gaángádú bái", "ɡaáŋɡádú bái"],  // Built on gaángádu 'sky' (World Loanword Database, Saramaccan).

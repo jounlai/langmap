@@ -726,7 +726,7 @@ WORDS.thumb = {
     tr: ["başparmak", "ˈbaʃpaɾmak"],  // Literally 'head finger'.
     sw: ["kidole gumba", "kiˈdole ˈɠumba"],  // kidole 'finger' + gumba 'thumb'; gumba alone also means 'thumb'.
     mn: ["эрхий", "erxiː"],  // Inherited from Proto-Mongolic *herekei; it also names the big toe.
-    sah: ["эрбэх", "erbex"],  // A word of its own; Sakha dictionaries gloss it as the 'big finger of the hand'.
+    sah: ["эрбэх", "erˈbex"],  // A word of its own; Sakha dictionaries gloss it as the 'big finger of the hand'.
     my: ["လက်မ", "lɛʔma̰"],  // Literally 'main (one) of the hand'; it also means 'inch'.
     km: ["មេដៃ", "mei ɗaj"],  // Literally 'mother of the hand' (មេ 'mother; chief').
     yo: ["àtàǹpàkò", "àtàŋ̀kpàkò"],  // The same word also names the big toe.
@@ -1264,7 +1264,7 @@ WORDS.thumb = {
     kjj: ["йака", "jakʰa"],  // IDS Khinalug, the row's list. Beside ысттал. Palochka and IPA from the row's pairs.
     inh: ["боккха пӏелг", "bokːχa pʼelɡ"],  // IDS Ingush, the row's list. Palochka and IPA from the row's pairs.
     nci: ["huei mapilli", "wei mapilːi"],  // Siméon under MAPILLI: "uei mapilli, pouce, litt. gros doigt"; also MAPILTECUTLI; uei > huei as in the row; no length marks
-    kum: ["башбармакъ", "baʃbarmaq"],  // IDS Kumyk, the list this row matches. IPA from the row's pairs.
+    kum: ["башбармакъ", "baʃbarˈmaq"],  // IDS Kumyk, the list this row matches. IPA from the row's pairs.
     tue: ["pai-ʼri-ga", "paiʔriɡa"],  // IDS Tuyuca, the list this row matches. IPA from the row's pairs.
     ksw: ["စုမုၢ်ဒိၣ်", "sumɨdo"],  // S'gaw Karen 'thumb; inch' (SEAlang), which also lists စုမုၢ်ကျၢၢ်. Begins with စု 'hand'. No image is recorded for it, so it counts as a word of its own. IPA read from the script; the dictionary prints none.
     txb: ["𑀫𑁄𑀓𑁄𑀘𑁂", "mokotɕe"],  // Tocharian B mokoce 'thumb'. No image is recorded for it, so it counts as a word of its own.

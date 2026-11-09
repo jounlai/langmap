@@ -507,7 +507,7 @@ WORDS.right = {
     vi: ["phải", "faːj˧˩˧"],  // Also 'correct'.
     war: ["tuo", "tuʔo"],
     cy: ["de", "dɛ"],  // Also 'south'.
-    sah: ["уҥа", "uŋa"],
+    sah: ["уҥа", "uˈŋa"],
     yi: ["רעכט", "rɛχt"],
     fkv: ["oikea", "ˈoikeɑ"],
     krl: ["oikie", "ˈoikie"],  // No opened source supports the route.

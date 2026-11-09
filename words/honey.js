@@ -248,7 +248,7 @@ WORDS.honey = {
     ba: ["бал", "bal"],
     cv: ["пыл", "pɯl"],               // regular Chuvash p- for Common Turkic b-
     sah: ["мүөт", "myøt"],            // borrowed from Russian мёд
-    uz: ["asal", "asal"],
+    uz: ["asal", "aˈsal"],
     ug: ["ھەسەل", "hɛˈsɛl"],
     mn: ["бал", "bal"],
 

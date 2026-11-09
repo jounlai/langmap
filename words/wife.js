@@ -577,11 +577,11 @@ WORDS.wife = {
     it: ["moglie", "ˈmoʎʎe"],
     ro: ["soție", "soˈtsie"],
     tr: ["karı", "kaˈɾɯ"],
-    uz: ["rafiqa", "rafiqa"],
-    kk: ["зайып", "zɑjəp"],
-    tt: ["хатын", "χatɤn"],
+    uz: ["rafiqa", "rafiˈqa"],
+    kk: ["зайып", "zɑˈjəp"],
+    tt: ["хатын", "χaˈtɤn"],
     cv: ["арӑм", "ˈarəm"],
-    sah: ["ойох", "ojox"],
+    sah: ["ойох", "oˈjox"],
     mn: ["эхнэр", "exner"],
     xal: ["гергн", "ɡerˈɡen"],
     evn: ["асӣ", "asiː"],
@@ -690,7 +690,7 @@ WORDS.wife = {
     es_ec: ["esposa", "esˈposa"],
     es_uy: ["esposa", "esˈposa"],
     es_ve: ["esposa", "esˈposa"],
-    alt: ["кадын", "kadɯn"],  // The same word means woman; from Proto-Turkic *xātun.
+    alt: ["кадын", "kaˈdɯn"],  // The same word means woman; from Proto-Turkic *xātun.
     ota: ["قاری", "kaˈɾɯ"],  // The same word means woman.
     sa: ["पत्नी", "pɐtniː"],  // The feminine of पति 'husband, lord'; the word for woman is स्त्री.
     ltg: ["sīva", "ˈsʲiːva"],  // The same word means woman; cognate with Latvian sieva.
@@ -702,7 +702,7 @@ WORDS.wife = {
     sco: ["guidwife", "ˈɡɪdwəif"],  // Literally 'good woman', from guid 'good' and wife 'woman'.
     orv: ["жена", "ʒena"],  // The same word means woman.
     rif: ["ⵜⴰⵎⵖⴰⵔⵜ", "θamʁaθ"],  // The same word means woman (and mother-in-law); inherited from Proto-Berber *ta-mɣar-t.
-    ug: ["خوتۇن", "xotun"],  // The same word means woman; from Proto-Common Turkic *xātun 'queen'.
+    ug: ["خوتۇن", "xoˈtun"],  // The same word means woman; from Proto-Common Turkic *xātun 'queen'.
     tsg: ["asawa", "ʔasawa"],  // Inherited from Proto-Austronesian *qasawa; the word for woman is babai and for husband bana.
     cjy: ["老婆", "lau˥˧ pʰɤ˩"],  // The colloquial word for wife; no woman word from the same source is set beside it.
     si: ["බිරිඳ", "biriⁿdə"],  // No word for woman from the same source is set beside it.
@@ -725,7 +725,7 @@ WORDS.wife = {
     ang: ["wīf", "wiːf"],  // The same word means woman.
     hsb: ["žona", "ˈʒɔna"],  // The same word means woman.
     as: ["ঘৈণী", "ɡʱoini"],  // From Sanskrit gṛhiṇī 'housewife'; the word for woman is মহিলা mohila.
-    tk: ["aýal", "ajal"],  // Also 'married woman'; the word for woman is zenan, and gyz is an unmarried woman.
+    tk: ["aýal", "aˈjal"],  // Also 'married woman'; the word for woman is zenan, and gyz is an unmarried woman.
     lld: ["fëna", "ˈfəna"],  // Gherdëina; the entry also gives 'lady' but no separate word for woman.
     rgn: ["mój", "moj"],  // Inherited from Latin mulierem 'woman, wife'; the word for woman is dòna, and mujéṟ is a synonym.
     cdo: ["老妈", "lau˨˦˨ ma˧˧"],  // Literally 'old mother'; the same word means mum and old woman, and is 'wife' in Eastern Min.
@@ -737,7 +737,7 @@ WORDS.wife = {
     rue: ["жона", "ʒoˈna"],  // The same word means woman; Prešov and Lemko say жена.
     mg: ["andefimandry", "andefiˈmandri"],  // Literally 'one who lies on the other side of the bed' (ana plus lefitra 'other side' plus mandry 'to lie down').
     kl: ["nuliaq", "nuliaq"],  // Inherited from Proto-Inuit *nuliaʁ; the word for woman is arnaq.
-    crh: ["apaqay", "apaqaj"],  // The same word means woman; apay is a synonym.
+    crh: ["apaqay", "apaˈqaj"],  // The same word means woman; apay is a synonym.
     ti: ["ሰበይቲ", "sɐbɐjti"],  // The same word means woman.
     sl: ["žena", "ˈʒɛːna"],  // The word for woman is ženska, derived from it.
     ks: ["آشَنؠ", "aːʃanʲ"],  // Inherited from Sanskrit āśraya; the word for woman is زَنانہٕ zanānụ, which can also mean wife.
@@ -838,7 +838,7 @@ WORDS.wife = {
     mwr: ["लुगाई", "luɡaːiː"],  // Lugāī means both wife and woman.
     an: ["muller", "muˈʎeɾ"],  // From Latin mulierem; muller means both woman and wife.
     tpi: ["meri", "meri"],  // From English Mary; meri means both woman and wife.
-    kum: ["къатын", "qatɯn"],  // Qatın means both woman and wife.
+    kum: ["къатын", "qaˈtɯn"],  // Qatın means both woman and wife.
     prg: ["genno", "ˈɡʲænoː"],  // From Proto-Balto-Slavic *génāˀ; genno means both woman and wife, like Russian жена once did.
     ppl: ["siwat", "ˈsiwaːt"],  // Siwat is woman, and possessed it means wife (nusiwaw 'my wife').
     iu: ["ᓄᓕᐊᖅ", "nuliaq"],  // From Proto-Inuit *nuliaʁ; the source gives no woman word beside it.

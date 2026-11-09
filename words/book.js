@@ -149,7 +149,7 @@ WORDS.book = {
     tk: ["kitap", "kiˈtaːp"],
     tt: ["китап", "kiˈtap"],
     ba: ["китап", "kiˈtap"],
-    ug: ["كىتاب", "kitɑp"],
+    ug: ["كىتاب", "kiˈtɑp"],
     mt: ["ktieb", "ktɪːp"],
     am: ["መጽሐፍ", "mətsʼħaf"],
     so: ["buug", "buːɡ"],
@@ -178,7 +178,7 @@ WORDS.book = {
     el_grc: ["βιβλίον", "biblíon"],
     el_kath: ["βιβλίον", "viˈvlion"],
     cv: ["кӗнеке", "kɘneˈɡe"],
-    alt: ["бичик", "bitʃik"],
+    alt: ["бичик", "biˈtʃik"],
     cjs: ["ном", "nom"],
     bxr: ["ном", "nom"],
     cmg: ["ᠨᠣᠮ", "nom"],
@@ -346,8 +346,8 @@ WORDS.book = {
     olo: ["kirju", "ˈkirju"],  // NorthEuraLex gives the Russian loan kniigu, but olo.wikipedia titles the article Kirju, opens with it, and says outright that kniigu comes from книга — the same call the koi cell makes. 407_letter is kirjaine, so kirju is not the letter word.
     os: ["чиныг", "tʃinɨɡ"],   // From orv кънига by metathesis. Wiktionary's second sense 'letter, writing, document' is marked archaic, so the living everyday sense is the book.
     // Caucasus and the Turkic of the Russian sphere.
-    kum: ["китап", "kitap"],
-    nog: ["китап", "kitap"],   // Checked against its own Wiktionary entry, not inferred from Kumyk.
+    kum: ["китап", "kiˈtap"],
+    nog: ["китап", "kiˈtap"],   // Checked against its own Wiktionary entry, not inferred from Kumyk.
     lbe: ["лу", "lu"],         // Lak splits cleanly: лу 'book' (pl. луттирду) against чагъар 'letter'. lbe.wikipedia uses луттирду for books in Arabic, Persian and Turkish generally, so it is not scripture-only.
     lez: ["улуб", "ulub"],     // The native word and the title of lez.wikipedia's book article; кагъаз 'letter' (< Persian kāḡaḏ 'paper') is separate, and the Arabic loan китаб is marginal here.
     lzz: ["სუპარა", "supʼara"],  // Nenapuna p.310. სვარა and ქითაბი are given as synonyms, so the Arabic loan is not the lemma.
@@ -682,7 +682,7 @@ WORDS.book = {
     swg: ["Buach", "buɐx"],
     kea: ["livru", "ˈlivɾu"],
     hwc: ["book", "buk"],
-    sah: ["кинигэ", "kiniɡe"],
+    sah: ["кинигэ", "kiniˈɡe"],
     tyv: ["ном", "nom"],
     adi: ["kitab", "kitab"],
     sgw: ["መጣፍ", "mɐtʼaf"],

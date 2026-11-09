@@ -692,7 +692,7 @@ WORDS.hiccup = {
     srm: ["tekútekú", "tekútekú"],  // WOLD Saramaccan, the list this row matches. Tie bars removed and spaces restored, as the row.
     crs: ["loke", "loke"],  // WOLD Seychelles Creole, the list this row matches. Tie bars removed and spaces restored, as the row.
     kum: ["гьынкъ этмек", "hɨnq etmek"],  // IDS Kumyk, the list this row matches. IPA from the row's pairs.
-    nog: ["сыкылдав", "sɨqɨldaw"],  // IDS Nogai, the list this row matches. IPA from the row's pairs.
+    nog: ["сыкылдав", "sɨqɨlˈdaw"],  // IDS Nogai, the list this row matches. IPA from the row's pairs.
     gmh: ["roffezen", "ˈrɔfətsən"],  // IDS Middle High German, the list this row matches. IPA from the row's pairs.
     tue: ["yoo-ʼgʉ", "joʔɡɨ"],  // IDS Tuyuca, the list this row matches. IPA from the row's pairs.
     tpy: ["ʃukuk", "ʃukuk"],  // IDS Trumai, the list this row matches. IPA from the row's pairs.

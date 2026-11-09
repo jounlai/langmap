@@ -551,7 +551,7 @@ WORDS.thousand = {
     uz: ["ming", "miŋ"],
     kk: ["мың", "məŋ"],
     tt: ["мең", "meŋ"],
-    sah: ["тыһыынча", "tɯhɯːntʃa"],  // From Russian.
+    sah: ["тыһыынча", "tɯhɯːnˈtʃa"],  // From Russian.
     mn: ["мянга", "mʲaŋk"],
     evn: ["тысяча", "tisjatʃa"],  // From Russian.
     gld: ["минган", "minɡan"],

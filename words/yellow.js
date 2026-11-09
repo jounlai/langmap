@@ -536,7 +536,7 @@ WORDS.yellow = {
     kn: ["ಹಳದಿ", "haɭadi"],
     krl: ["keltani", "ˈkeltɑni"],
     csb: ["żôłti", "ˈʒɞwti"],
-    kk: ["сары", "sɑɾə"],
+    kk: ["сары", "sɑˈɾə"],
     km: ["លឿង", "lɨəŋ"],  // From Thai.
     ko: ["노랗다", "noɾatʰa"],
     kri: ["yala", "jala"],
@@ -592,25 +592,25 @@ WORDS.yellow = {
     tl: ["dilaw", "diˈlaw"],  // Proto-Philippine *dilaw meant both.
     tg: ["зард", "zard"],  // From Persian zard, related to zar 'gold'.
     ta: ["மஞ்சள்", "maɲdʒaɭ"],  // Also 'turmeric'.
-    tt: ["сары", "sarɤ"],
+    tt: ["сары", "saˈrɤ"],
     te: ["పసుపు", "pasupu"],  // Also 'turmeric'.
     tet: ["kinur", "kinur"],  // Compare kunir, turmeric.
     th: ["เหลือง", "lɯa̯ŋ˩˩˦"],
     ti: ["ብጫ", "bɨtʃʼa"],
     tpi: ["yelopela", "jelopela"],
     tr: ["sarı", "saˈɾɯ"],
-    tk: ["sary", "sarɯ"],
+    tk: ["sary", "saˈrɯ"],
     tyv: ["сарыг", "saˈrɯɣ"],
     udm: ["ӵуж", "tʃuʒ"],
     uk: ["жовтий", "ˈʒɔu̯tɪj"],
     ur: ["پیلا", "piːlaː"],
-    ug: ["سېرىق", "seriq"],
-    uz: ["sariq", "sariq"],
+    ug: ["سېرىق", "seˈriq"],
+    uz: ["sariq", "saˈriq"],
     vi: ["vàng", "vaːŋ˨˩"],  // Also 'gold'. A reading of Chinese 黃.
     vro: ["kõllanõ", "kɤlːanɤ"],
     wa: ["djaene", "dʒɛn"],
     cy: ["melyn", "ˈmɛlɨn"],  // From a Celtic word for 'honey'.
-    sah: ["араҕас", "araɣas"],
+    sah: ["араҕас", "araˈɣas"],
     yi: ["געל", "ɡɛl"],
     zza: ["zerd", "zerd"],
     fkv: ["keltainen", "ˈkeltɑinen"],
@@ -758,7 +758,7 @@ WORDS.yellow = {
     es_do: ["amarillo", "amaˈɾiʝo"],
     es_ec: ["amarillo", "amaˈɾiʝo"],
     es_ve: ["amarillo", "amaˈɾiʝo"],
-    alt: ["сары", "sarɯ"],  // Inherited from Proto-Turkic *sārïg 'yellow'.
+    alt: ["сары", "saˈrɯ"],  // Inherited from Proto-Turkic *sārïg 'yellow'.
     ota: ["صاری", "saˈɾɯ"],  // Inherited from Proto-Turkic *sārïg 'yellow, white'.
     ltg: ["dzaltons", "ˈdzaltɔnts"],  // Cognate with Latvian dzeltens and Lithuanian geltonas.
     mnc: ["ᠰᡠᠸᠠᠶᠠᠨ", "suwajan"],  // No origin is recorded for it, so it counts as a word of its own.
@@ -823,7 +823,7 @@ WORDS.yellow = {
     cbk: ["amarillo", "amaˈɾiʎo"],  // Inherited from Spanish amarillo.
     slr: ["sarı", "sɑrɨ"],  // Inherited from Proto-Turkic *siarïg, like Kazakh sarı.
     sat: ["ᱥᱟᱥᱟᱝ", "sasaŋ"],  // The same word as the noun ᱥᱟᱥᱟᱝ, 'turmeric'.
-    kum: ["сари", "sari"],  // Related to Kazakh and Kyrgyz сары, the Turkic word for yellow.
+    kum: ["сари", "saˈri"],  // Related to Kazakh and Kyrgyz сары, the Turkic word for yellow.
     iba: ["kuning", "kuniəŋ"],  // From Proto-Malayic *kuniŋ; no image is recorded for it, so it counts as a word of its own.
     gag: ["sarı", "saˈrɯ"],  // The Turkic word for yellow, like Turkish sarı.
     pon: ["oangoahng", "ɔŋɔːŋ"],  // Inherited from Proto-Oceanic *aŋoaŋo, 'to be yellow'.

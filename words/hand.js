@@ -250,7 +250,7 @@ WORDS.hand = {
     itb: ["lima", "lima"],
     ivv: ["tanoro", "tanoro"],
     mn: ["гар", "ɡar"],
-    sah: ["илии", "iliː"],
+    sah: ["илии", "iˈliː"],
     tyv: ["хол", "xol"],
     kjh: ["хол", "xol"],
     alt: ["кол", "kol"],

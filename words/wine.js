@@ -1073,12 +1073,12 @@ WORDS.wine = {
     evn: ["араки", "araki"],
     gn: ["víno", "ˈʋino"],
     din: ["mɔ̈u", "mɔu"],
-    kjh: ["араға", "araɣa"],
+    kjh: ["араға", "araˈɣa"],
     zts: ["vin", "vin"],
     wbp: ["pama", "pama"],
     udi: ["фи", "fi"],
     tyz: ["lẩu", "ləw˨˩˧"],
-    tyv: ["арага", "araɣa"],
+    tyv: ["арага", "araˈɣa"],
     tsu: ["emi", "emi"],
     tob: ["lataʁa", "lataʁa"],
     tll: ["wanu", "wanu"],
@@ -1332,8 +1332,8 @@ WORDS.wine = {
     kn: ["ವೈನ್", "ʋain"],
     si: ["වයින්", "ʋajin"],
     ne: ["वाइन", "wain"], // was ["मदिरा", "mədiɾaː"] (r29 fix 2026-10-02)
-    kk: ["шарап", "ʃarap"],
-    uz: ["sharob", "ʃarɒb"], // was ["sharob", "ʃarob"] (vi dialect rules 2026-10-06)
+    kk: ["шарап", "ʃaˈrap"],
+    uz: ["sharob", "ʃaˈrɒb"], // was ["sharob", "ʃarob"] (vi dialect rules 2026-10-06)
     ky: ["шарап", "ʃɑˈrɑp"], // was ["шарап", "ʃarap"] (vi dialect rules 2026-10-06)
     mn: ["дарс", "dars"],
     ms: ["wain", "wain"],
@@ -1531,10 +1531,10 @@ WORDS.wine = {
     lez: ["чехир", "tʃeχir"],
 
     // --- Turkic — şarap from Arabic, but bor is the old native word ---------
-    tt: ["шәраб", "ʃærab"],
+    tt: ["шәраб", "ʃæˈrab"],
     ba: ["шарап", "ʃaˈrap"],
-    tk: ["şerap", "ʃeɾap"], // was ["şerap", "ʃerap"] (vi dialect rules 2026-10-06)
-    ug: ["شاراب", "ʃɑrɑp"], // was ["شاراب", "ʃaˈrab"] (vi dialect rules 2026-10-06)
+    tk: ["şerap", "ʃeˈɾap"], // was ["şerap", "ʃerap"] (vi dialect rules 2026-10-06)
+    ug: ["شاراب", "ʃɑˈrɑp"], // was ["شاراب", "ʃaˈrab"] (vi dialect rules 2026-10-06)
     azb: ["شراب", "ʃæˈɾab"],
     xqa: ["bor", "bor"],
     ohu: ["bor", "bor"],
@@ -1819,12 +1819,12 @@ WORDS.wine = {
     ady: ["санэ", "saːna"],
     kbd: ["санэ", "sana"],
     uby: ["baqʼəsma", "baqʼəsma"],
-    kum: ["чагъыр", "tʃaʁɯr"], // was ["чагъыр", "tʃaʁɨr"] (vi dialect rules 2026-10-06)
-    nog: ["шагыр", "ʃaɡɯr"], // was ["шагыр", "ʃaɡɨr"] (vi dialect rules 2026-10-06)
-    krc: ["чагъыр", "tʃaʁɯr"],
+    kum: ["чагъыр", "tʃaˈʁɯr"], // was ["чагъыр", "tʃaʁɨr"] (vi dialect rules 2026-10-06)
+    nog: ["шагыр", "ʃaˈɡɯr"], // was ["шагыр", "ʃaɡɨr"] (vi dialect rules 2026-10-06)
+    krc: ["чагъыр", "tʃaˈʁɯr"],
     cv: ["эрех", "eˈrex"],
-    sah: ["вино", "vino"],
-    alt: ["вино", "vino"],
+    sah: ["вино", "viˈno"],
+    alt: ["вино", "viˈno"],
     dlg: ["арагы", "araɡɯ"], // was ["арагы", "araɣɯ"] (vi dialect rules 2026-10-06)
     mn_cn: ["ᠳᠠᠷᠠᠰᠤ", "darasu"],
     xal: ["чаһр", "tʃaɣr̩"],

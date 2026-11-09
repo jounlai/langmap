@@ -649,7 +649,7 @@ WORDS.mountain = {
     swg: ["Berg", "bɛrɡ"],
     kea: ["monti", "ˈmõti"],
     hwc: ["mountain", "maʊntən"],
-    sah: ["хайа", "xaja"],
+    sah: ["хайа", "xaˈja"],
     tyv: ["даг", "daɣ"],
     lif: ["ᤁᤥ᤺ᤰᤔᤠ", "koːkmaː"],
     xsr: ["རི", "ri"],

@@ -1505,25 +1505,25 @@ WORDS.bear = {
     tr: ["ayı", "aˈjɯ"],
     az: ["ayı", "ɑˈjɯ"], // was ["ayı", "aˈjɯ"] (vi dialect rules 2026-10-06)
     gag: ["ayı", "aˈjɯ"],
-    crh: ["ayuv", "ajuw"],
+    crh: ["ayuv", "aˈjuw"],
     tk: ["aýy", "aˈjɯ"],
-    uz: ["ayiq", "ajiq"],
-    kk: ["аю", "ajuw"],
+    uz: ["ayiq", "aˈjiq"],
+    kk: ["аю", "aˈjuw"],
     ky: ["аюу", "ɑˈjuː"], // was ["аюу", "ajuː"] (vi dialect rules 2026-10-06)
-    kaa: ["ayıw", "ajɯw"],
-    tt: ["аю", "aju"],
+    kaa: ["ayıw", "aˈjɯw"],
+    tt: ["аю", "aˈju"],
     ba: ["айыу", "ajɯw"],
-    kum: ["аюв", "ajuw"],
-    nog: ["аюв", "ajuw"],
-    krc: ["айыу", "ajɯw"],
-    ug: ["ئېيىق", "ejiq"],
-    tyv: ["адыг", "adɯɣ"],
-    alt: ["айу", "aju"],
+    kum: ["аюв", "aˈjuw"],
+    nog: ["аюв", "aˈjuw"],
+    krc: ["айыу", "aˈjɯw"],
+    ug: ["ئېيىق", "eˈjiq"],
+    tyv: ["адыг", "aˈdɯɣ"],
+    alt: ["айу", "aˈju"],
     cv: ["упа", "uˈba"],
     // Siberian Turkic renames the bear as a relative: 'grandfather', 'father'.
-    sah: ["эһэ", "ehe"],
+    sah: ["эһэ", "eˈhe"],
     dlg: ["эбэкээ", "ebekeː"],
-    kjh: ["аба", "aba"],
+    kjh: ["аба", "aˈba"],
 
     // --- Mongolic and Tungusic ----------------------------------------
     mn: ["баавгай", "baːwɡɛː"], // was ["баавгай", "baːwɡaj"] (vi dialect rules 2026-10-06)
@@ -1887,7 +1887,7 @@ WORDS.bear = {
     tcy: ["ಕರಡಿ", "kaɾaɖi"], // was ["ಕರಡಿ", "karaɖi"] (vi dialect rules 2026-10-06)
     dv: ["ސާރިދޯޅު", "saːɾidoːɭu"],
     rmy: ["riči", "ritʃi"],
-    azb: ["آیی", "ajɯ"],
+    azb: ["آیی", "aˈjɯ"],
     cjs: ["апшақ", "apʃaq"],
     kim: ["иресаӈ", "iresaŋ"],
 

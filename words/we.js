@@ -1399,7 +1399,7 @@ WORDS.we = {
     itb: ["yaten / yamen", "jatɨn / jamɨn"],
     ivv: ["yaten / yamen", "jatɨn / jamɨn"],
     mn: ["бид", "bid"],
-    sah: ["биһиги", "bihiɡi"],
+    sah: ["биһиги", "bihiˈɡi"],
     tyv: ["бис", "bis"],
     kjh: ["піс", "pis"],
     alt: ["бис", "bis"],

@@ -223,7 +223,7 @@ WORDS.white = {
     itb: ["mahilak", "mahilak"],
     ivv: ["maydak", "majdak"],
     mn: ["цагаан", "tsʰaɡaːŋ"],
-    sah: ["үрүҥ", "yryŋ"],
+    sah: ["үрүҥ", "yˈryŋ"],
     tyv: ["ак", "aq"],
     kjh: ["ах", "ax"],
     alt: ["ак", "ɑq"],

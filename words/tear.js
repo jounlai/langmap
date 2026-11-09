@@ -376,7 +376,7 @@ WORDS.tear = {
     cgg: ["emiziga", "emiziɡa"],
     ckb: ["فرمێسک", "fəɾme̞ːsk"],
     cng: ["ʁləq", "ʁləq"],
-    crh: ["közyaş", "køzjaʃ"],  // Built on the word for eye (köz).
+    crh: ["közyaş", "køzˈjaʃ"],  // Built on the word for eye (köz).
     cs: ["slza", "ˈsl̩za"],
     csb: ["łza", "wza"],
     cu: ["сльза", "slĭza"],
@@ -597,7 +597,7 @@ WORDS.tear = {
     pdc: ["Draen", "drɛːn"],  // From Middle High German træne, like German Träne.
     ckv: ["Rusi", "ʁusi"],  // Inherited from Proto-Austronesian *luSəq.
     slr: ["yaş", "jɑʃ"],  // From Proto-Turkic *yāĺ.
-    kum: ["гёзьяш", "ɡøzjaʃ"],  // From гёз 'eye' plus яш 'tear', like Turkish gözyaşı.
+    kum: ["гёзьяш", "ɡøzˈjaʃ"],  // From гёз 'eye' plus яш 'tear', like Turkish gözyaşı.
     khw: ["اشرو", "aʃˈru"],  // Inherited from Sanskrit aśru, 'tear'.
     doi: ["अत्थरूं", "ətːʰərũː"],  // From Sanskrit áśru, 'tear', like Punjabi atthrū.
     fro: ["lerme", "ˈlɛrmə"],  // From Latin lacrima; no image is recorded for it, so it counts as a word of its own.

@@ -520,7 +520,7 @@ WORDS.money = {
     chr: ["ᎠᏕᎳ", "adela"],
     cic: ["taʼosso", "taʔosːo"],
     cjs: ["ақча", "aqtʃa"],  // Route by resemblance to the neighbouring forms (kk,ky); no etymology of its own.
-    crh: ["aqça", "aqtʃa"],  // Route by resemblance to the neighbouring forms (kk,ky); no etymology of its own.
+    crh: ["aqça", "aqˈtʃa"],  // Route by resemblance to the neighbouring forms (kk,ky); no etymology of its own.
     crs: ["pesa", "pesa"],
     fo: ["pengar", "ˈpɛŋːar"],  // Route by resemblance to the neighbouring forms (no); no etymology of its own.
     gcr: ["lajan", "laʒã"],  // Route by resemblance to the neighbouring forms (ht,mfe); no etymology of its own.
@@ -531,13 +531,13 @@ WORDS.money = {
     inh: ["ахча", "axtʃa"],  // Route by resemblance to the neighbouring forms (ky); no etymology of its own.
     kab: ["idrimen", "idrimən"],
     kek: ["tumin", "tumin"],
-    kjh: ["ахча", "axtʃa"],  // Route by resemblance to the neighbouring forms (ky); no etymology of its own.
-    krc: ["ахча", "axtʃa"],  // Route by resemblance to the neighbouring forms (ky); no etymology of its own.
-    kum: ["акъча", "aqtʃa"],  // Route by resemblance to the neighbouring forms (kk,ky); no etymology of its own.
+    kjh: ["ахча", "axˈtʃa"],  // Route by resemblance to the neighbouring forms (ky); no etymology of its own.
+    krc: ["ахча", "axˈtʃa"],  // Route by resemblance to the neighbouring forms (ky); no etymology of its own.
+    kum: ["акъча", "aqˈtʃa"],  // Route by resemblance to the neighbouring forms (kk,ky); no etymology of its own.
     lg: ["ssente", "sːente"],
     lld: ["muneida", "muˈnɛida"],
     mg: ["vola", "vula"],  // No opened source supports the route.
-    nog: ["акша", "aqʃa"],  // Route by resemblance to the neighbouring forms (kk,ba,ky); no etymology of its own.
+    nog: ["акша", "aqˈʃa"],  // Route by resemblance to the neighbouring forms (kk,ba,ky); no etymology of its own.
     om: ["qarshii", "qarʃiː"],
     pap: ["plaka", "plaka"],  // No opened source supports the route.
     pcm: ["mọní", "mɔni"],
@@ -587,7 +587,7 @@ WORDS.money = {
     fr: ["argent", "aʁʒɑ̃"],  // Inherited from the word for silver.
     dz: ["དངུལ", "ŋyː˥"],
     ak: ["sika", "sika"],
-    alt: ["акча", "aktʃa"],  // Route by resemblance to the neighbouring forms (ky,tyv); no etymology of its own.
+    alt: ["акча", "akˈtʃa"],  // Route by resemblance to the neighbouring forms (ky,tyv); no etymology of its own.
     as: ["পইচা", "pɔisa"],  // Route by resemblance to the neighbouring forms (ne,mr,or); no etymology of its own.
     ace: ["peng", "peŋ"],
     iba: ["duit", "duit"],
@@ -695,18 +695,18 @@ WORDS.money = {
     tl: ["salapi", "salaˈpiʔ"],
     tg: ["пул", "pul"],
     ta: ["பணம்", "paɳam"],
-    tt: ["акча", "aktɕa"],  // Route by resemblance to the neighbouring forms (ky,tyv); no etymology of its own.
+    tt: ["акча", "akˈtɕa"],  // Route by resemblance to the neighbouring forms (ky,tyv); no etymology of its own.
     te: ["డబ్బు", "ɖabːu"],
     tpi: ["mani", "mani"],
     tr: ["para", "paˈɾa"],  // From Persian پاره, a coin.
-    tyv: ["акша", "akʃa"],
+    tyv: ["акша", "akˈʃa"],
     aoz: ["noni", "noni"],
     udm: ["коньдон", "koɲˈdon"],
     ug: ["پۇل", "pul"],
     uz: ["pul", "pul"],
     vo: ["mon", "mon"],  // Route by resemblance to the neighbouring forms (pcm,mi,chk); no etymology of its own.
     cy: ["arian", "ˈarjan"],  // From Old Welsh argant 'silver'.
-    sah: ["харчы", "xartʃɯ"],
+    sah: ["харчы", "xarˈtʃɯ"],
     yi: ["געלט", "ɡɛlt"],
     zu: ["imali", "imaːli"],
     fkv: ["raha", "ˈrɑhɑ"],

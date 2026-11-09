@@ -578,7 +578,7 @@ WORDS.twenty = {
     cic: ["pokoli toklo", "pokoli toklo"],  // No opened source supports the route.
     cv: ["ҫирӗм", "ˈɕirɘm"],
     kw: ["ugens", "ʏɡənz"],
-    crh: ["yigirmi", "jiɡirmi"],
+    crh: ["yigirmi", "jiɡirˈmi"],
     cs: ["dvacet", "ˈdvatsɛt"],
     da: ["tyve", "ˈtyːvə"],  // The unit behind halvfems, 90.
     dar: ["гъал", "ʁal"],  // No opened source supports the route.
@@ -615,9 +615,9 @@ WORDS.twenty = {
     it: ["venti", "ˈventi"],
     ja: ["二十", "niʑɯː"],
     kn: ["ಇಪ್ಪತ್ತು", "ipːatːu"],
-    krc: ["джыйырма", "dʒɯjɯrma"],
-    kk: ["жиырма", "dʒɨjɨrma"],
-    kjh: ["чибірге", "tʃibirɡe"],
+    krc: ["джыйырма", "dʒɯjɯrˈma"],
+    kk: ["жиырма", "dʒɨjɨrˈma"],
+    kjh: ["чибірге", "tʃibirˈɡe"],
     km: ["ម្ភៃ", "mpʰɨj"],
     quc: ["juwinaq", "xuwinaq"],  // Literally 'one person'.
     kg: ["makumole", "makumole"],
@@ -680,7 +680,7 @@ WORDS.twenty = {
     ty: ["piti ʻahuru", "piti ʔahuɾu"],
     tg: ["бист", "bist"],
     ta: ["இருபது", "iɾubad̪ɯ"],
-    tt: ["егерме", "eɡerme"],
+    tt: ["егерме", "eɡerˈme"],
     te: ["ఇరవై", "iɾaʋai"],
     tet: ["ruanulu", "ruanulu"],
     th: ["ยี่สิบ", "jiː˥˩ sip˨˩"],
@@ -691,18 +691,18 @@ WORDS.twenty = {
     to: ["uofulu", "uofulu"],
     tn: ["somamabedi", "somamabedi"],  // No opened source supports the route.
     tr: ["yirmi", "jiɾˈmi"],
-    tk: ["ýigrimi", "jiɡrimi"],
-    tyv: ["чээрби", "tʃeːrbi"],
+    tk: ["ýigrimi", "jiɡriˈmi"],
+    tyv: ["чээрби", "tʃeːrˈbi"],
     udm: ["кызь", "kɨʑ"],
     uk: ["двадцять", "ˈdʋadtsʲɐtʲ"],
     ur: ["بیس", "biːs"],
-    uz: ["yigirma", "jiɡirma"],
+    uz: ["yigirma", "jiɡirˈma"],
     vec: ["vinti", "ˈvinti"],
     vi: ["hai mươi", "haːj˧ mɨəj˧"],
     wa: ["vint", "vɛ̃"],
     cy: ["ugain", "ˈɪɡai̯n"],  // Page derives it from 'two-ten'; nothing opened shows a score unit.
     wo: ["ñaar fukk", "ɲaːr fukː"],
-    sah: ["сүүрбэ", "syːrbe"],
+    sah: ["сүүрбэ", "syːrˈbe"],
     yi: ["צוואנציק", "ˈtsvantsɪk"],
     yo: ["ogún", "oɡṹ"],
     yua: ["junkʼáal", "hunkʼaːl"],  // Literally 'one score'.
@@ -738,8 +738,8 @@ WORDS.twenty = {
     ab: ["ҩажәа", "ɥaʒʷa"],
     ady: ["тӏокӏы", "tʼʷaˈtʃʼə"],
     zh: ["二十", "ɑɻ˥˩ ʂʐ̩˧˥"],
-    kum: ["йигирма", "jiɡirma"],
-    nog: ["йырма", "jɯrma"],
+    kum: ["йигирма", "jiɡirˈma"],
+    nog: ["йырма", "jɯrˈma"],
     rmy: ["biš", "biʃ"],
     jam: ["twɛntɩ", "twɛnti"],  // No opened source supports the route.
     fud: ["kaulua", "kaulua"],
@@ -913,11 +913,11 @@ WORDS.twenty = {
     es_uy: ["veinte", "ˈbeinte"],
     es_ve: ["veinte", "ˈbeinte"],
     pt_mz: ["vinte", "ˈvĩte"],
-    alt: ["јирме", "dʲirme"],  // Inherited from Proto-Turkic *yegirmi 'twenty'.
+    alt: ["јирме", "dʲirˈme"],  // Inherited from Proto-Turkic *yegirmi 'twenty'.
     mnc: ["ᠣᡵᡳᠨ", "orin"],  // From Jurchen orin, from Proto-Tungusic *xorin.
     vo: ["teldeg", "telˈdeɡ"],  // Two and ten: tel 'two' and deg 'ten'.
     lad: ["vente", "ˈvente"],  // Inherited from Old Spanish veynte, from Latin vīgintī.
-    ug: ["يىگىرمە", "jiɡirmɛ"],  // The Turkic word for twenty, like Turkish yirmi.
+    ug: ["يىگىرمە", "jiɡirˈmɛ"],  // The Turkic word for twenty, like Turkish yirmi.
     tly: ["vist", "vist"],  // Cognate with Persian بیست bist.
     si: ["විස්ස", "ʋisːə"],  // Inherited from Sanskrit विंशति viṃśati.
     udi: ["къа", "qʼa"],  // From Aghwan q̇å, from Proto-Northeast Caucasian *ɢ̄ə.

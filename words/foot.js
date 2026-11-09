@@ -1329,7 +1329,7 @@ WORDS.foot = {
     ay: ["kayu", "ˈkaju"],  // Aymara splits them, where its Quechua neighbour uses one word. IPA is the plain reading of the orthography, following how this row's own hand cell writes ampara as ampaɾa.
     ayl: ["كراع", "kraːʕ"],  // Wiktionary's Libyan Arabic كراع is 'foot' with 'leg' marked rare — the kurāʕ root the ar_sd row takes, not the رجل of the eastern dialects.
     az: ["ayaq", "ɑˈjɑx"],  // Azerbaijani keeps the inherited one-word pattern that Turkish broke with bacak.
-    azb: ["آیاق", "ɑjɑɣ"],  // آیاق covers both, as in the north; قیچ is colloquial for the leg and بالدیر the shin, which is what the Azerbaijani New Testament breaks in John 19:32.
+    azb: ["آیاق", "ɑˈjɑɣ"],  // آیاق covers both, as in the north; قیچ is colloquial for the leg and بالدیر the shin, which is what the Azerbaijani New Testament breaks in John 19:32.
     ba: ["аяҡ", "ɑˈjɑq"],  // аяҡ covers both; табан is the sole.
     bal: ["پاد", "paːd"],  // Gilbertson glosses pād 'leg, foot' outright; ling is the thigh.
     ban: ["cokor", "tʃokor"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes tangan as taŋan.
@@ -1426,7 +1426,7 @@ WORDS.foot = {
     cop: ["ⲟⲩⲉⲣⲏⲧⲉ", "uereːte"],  // Crum CD 491a is one entry covering 'foot' and 'leg' together.
     cpx: ["跤", "kʰɒ˥˧˧"],  // Pu-Xian descends from Southern Min and keeps its word: MCPDict 仙游 lists 骹 kʰɒ under 陰平, glossed 腳, and every Min point with dictionary coverage builds the leg on it. Tone ˥˧ with the row's 乌 ɔ˥˧ and 心 ɬim˥˧; its 丝 ɬi˥˧˧ and 风 hɒŋ˥˧˧ are the 陰平 split already carried as debt.
     cr: ["ᒥᓯᐟ", "misit"],  // Watkins 1865 gives two headwords a hundred pages apart, 'Foot, Misit' and 'Leg, Miskat', so Cree splits ᒥᓯᐟ from ᒥᐢᑳᐟ; the syllabics are this row's own ᒥ, ᓯ and final ᐟ.
-    crh: ["ayaq", "ajaq"],  // ayaq covers the limb, with the Turkish-style bacaq also available. IPA is the plain reading of the orthography, following how this row's own hand cell writes el as el.
+    crh: ["ayaq", "aˈjaq"],  // ayaq covers the limb, with the Turkish-style bacaq also available. IPA is the plain reading of the orthography, following how this row's own hand cell writes el as el.
     crk: ["ᒥᓯᐟ", "misit"],  // Wolvengrey files misit, stem -sit-, in the same dependent-noun class as this row's mitêh and mîpit, and miskât, stem -skât-, under Leg; ALA's Plains Cree speakers say nisit and niskāt.
     crn: ["ɨɨka", "ɨːka"],  // Stubbs glosses Cora ïïka 'leg', and the Cora NT uses that one word for the feet at Luke 24:39, Revelation 10:1 and Acts 21:11 and for the legs broken at John 19:32; chepuá only ever washes, or makes the footstool of Acts 7:49, so it is the sole.
     cro: ["iché", "itʃé"],  // The Crow Dictionary answers 'foot' with iché and 'leg' with iihulé, itself built on hulé 'bone', and iché carries the same i- possessed shape as this row's ishtá.
@@ -1717,7 +1717,7 @@ WORDS.foot = {
     jvn: ["sikil", "sikil"],  // Caribbean Javanese keeps sikil unchanged — the row's own tangan and untu are likewise untouched — and its one systematic spelling change, final a to o, has no target here.
     jya: ["ta-mɛ", "tamɛ"],  // ZMYYC 263.12 ta mᴇ 'foot'; Nagano and Prins's rGyalrongic database gives the same tɑ-me for 'leg' in Bola, Caodeng and Jiamuzu Konglong, and the rival ta-ndam and tə-pʰət-pa are filed as 'thigh' elsewhere in it, so the word covers the limb as Japhug tɯ-mi does.
     ka: ["ფეხი", "pʰexi"],  // Georgian ფეხი covers the whole lower limb; ტერფი is the foot proper. The hand row ხელი likewise covers hand and arm.
-    kaa: ["ayaq", "ajaq"],  // ayaq covers both; put is the thigh, and Karakalpak does not build the Kazakh compound аяқ-басы.
+    kaa: ["ayaq", "aˈjaq"],  // ayaq covers both; put is the thigh, and Karakalpak does not build the Kazakh compound аяқ-басы.
     kab: ["aḍar", "adˤar"],  // Dallet, Dictionnaire kabyle–français, root ḌR: aḍar, pl. iḍarren, 'Pied. Patte. Jambe.'; the competing aqʷejjir is glossed 'Pied; patte. Jambe depuis le genou', the same range again.
     kac: ["lagaw", "laɡo˧"],  // Sun's TBL gives the same lagaw for foot and for leg, as Marrison does; labop is the calf and lahtaw the leg just above the ankle.
     kam: ["kũũ", "koː"],  // Hinde 1904 already had Kamba kuu for the foot, and the Kikamba Bible pairs kũũ with kwʼoko at Matthew 18:8 and breaks maũũ in John 19. // was ["kũũ", "kuː"] (vi dialect rules 2026-10-06)
@@ -1752,10 +1752,10 @@ WORDS.foot = {
     kj: ["omhadi", "om̥adi"],  // Oshikwanyama splits them: omhadi is the foot, okuulu the leg, and Kwanyama mh answers the mp of the Oshindonga cognate ompadhi.
     kjb: ["aqan", "aqan"],  // PMED glosses QAN aqan 'pie, pierna' outright; penek is the knee, not a leg word.
     kjg: ["krwɛh", "krwɛh"],  // Suwilai's Khmu dictionary has foot krwɛh against leg plɔːŋ, and Khmu has pushed the inherited *ɟəŋ etymon onto the leg (ɟɪəŋ) — the reverse of the rest of Mon-Khmer.
-    kjh: ["азах", "azax"],  // азах covers both; пут is the thigh.
+    kjh: ["азах", "aˈzax"],  // азах covers both; пут is the thigh.
     kjj: ["анк", "ankʰ"],  // IDS 4-350 анк answers 4-370 too; ппача, the other leg word, is never offered for the foot.
     kjp: ["ခင်း", "kʰáɴ"],  // Kato glosses Eastern Pwo ခင်း kháɴ 'leg' and Jones 1961 #44 gives Moulmein khánʔ 'foot' — the same Proto-Karen *khaŋᴮ as Sgaw and Pa'O.
-    kk: ["аяқ-басы", "ɑjɑqbɑsə"],  // Kazakh builds the foot word as аяқ-басы, literally 'leg's head', on the leg word — the compound pattern.
+    kk: ["аяқ-басы", "ɑjɑqbɑˈsə"],  // Kazakh builds the foot word as аяқ-басы, literally 'leg's head', on the leg word — the compound pattern.
     kky: ["dhamal", "d̪amal"],  // Guugu Yimidhirr dhamal 'foot', distinct from the leg word.
     kl: ["isigak", "isiɣak"],  // Greenlandic keeps them apart.
     kln: ["keldo", "keldo"],  // Hollis prints the identical entry twice — Foot, kel (keldo) and Leg, kel (keldo) — and the Kalenjin New Testament wets kelyek with tears at Luke 7:38 and breaks kelyek at John 19:31; kowet is the bone.
@@ -1787,7 +1787,7 @@ WORDS.foot = {
     kqn: ["kuulu", "kuːlu"],  // Kikaonde pairs kuboko with kuulu at Matthew 18:8, the row's own hand cell beside the new one, and the maulu washed in John 13 are the maulu broken in John 19.
     kqz: ["ǂaib", "ǂʔaib"],  // du Plessis's Kora-English dictionary has ǂ’aib 'foot' at 320 against ǀnūb 'leg' at 299, the same split Nama makes on the same etymon.
     kr: ["shi", "ʃi"],  // Koelle's 1854 Bornu grammar cuts a leg with si, and his Polyglotta Africana files ṣī under both leg and foot, the foot-specific form being a compound on it.
-    krc: ["аякъ", "ajaq"],  // аякъ covers both; табан is the sole, the same word the Bashkir row names.
+    krc: ["аякъ", "aˈjaq"],  // аякъ covers both; табан is the sole, the same word the Bashkir row names.
     kri: ["fut", "fut"],  // The Peace Corps Krio manual glosses fut '(1) foot, leg' in one line, so Krio widens the English word where Jamaican keeps fʊt narrow.
     krl: ["jalka", "ˈjɑlkɑ"],  // One word for the whole lower limb, the Uralic norm.
     kru: ["ख़ेड्ड", "xeɖː"],  // Kurukh keeps the route and drops the etymon: DEDR 1479 has no Kurukh reflex of *kāl at all, and DEDR 1943 glosses xeḍḍ 'foot, leg' in one entry, beside Malto qeḍu 'the legs, the feet'.
@@ -1798,7 +1798,7 @@ WORDS.foot = {
     ksw: ["ခီၣ်", "kʰɔ́ˀ"],  // Jones 1961 #44 Sgaw khɔ́ʔ 'foot'; Luce glosses ခီၣ် 'foot, leg' and Luangthongkum #162 files it under the leg — Proto-Karen *khaŋᴮ, one word in all four Karen rows here.
     ktz: ["ǀkáí", "ǀkxʼáí"],  // Dickens's dictionary 290 has ǀkxáí for the foot and his Concise Grammar ǃóm for the leg, which also does duty for a wheel.
     ku: ["pê", "peː"],  // pê vs ling. Kurmanji splits them as Sorani does.
-    kum: ["аякъ", "ajaq"],  // аякъ covers both in Бамматов's Кумыкско-русский словарь; аякъны тюбю, the answer all six IDS dialects give, is 'the underside of the leg', the sole.
+    kum: ["аякъ", "aˈjaq"],  // аякъ covers both in Бамматов's Кумыкско-русский словарь; аякъны тюбю, the answer all six IDS dialects give, is 'the underside of the leg', the sole.
     kw: ["troos", "troːz"],  // troos vs garr, as in Welsh/Breton.
     kwa: ["cɨ̌m", "cɨ̌m"],  // Martins's minimal pair holds ʃɛ̀ɟ 'perna' apart from cɯ́m 'pé', the word Dâw also builds cɯm-xɯ̃w 'tornozelo' and cɯm-ʔaʔ 'chinelo' on; the row writes his acute as a caron, as it does for pǎʃ and hǒt.
     kxc: ["loʛta", "loʛta"],  // Ongaye's Grammar of Konso 324 prints loʛta 'leg, foot' as one entry; seettitaa is only the instep.
@@ -1958,7 +1958,7 @@ WORDS.foot = {
     nmn: ["ǂnùũ", "ǂnũũ"],  // ǂHoan keeps the foot word apart from the leg.
     nn: ["fot", "fuːt"],  // fot vs bein.
     no: ["fot", "fuːt"],  // fot vs bein; the Bokmål and Nynorsk forms are identical here.
-    nog: ["аяк", "ajaq"],  // аяк covers both in Baskakov and Kalmykov's Ногайско-русский словарь; табан is the sole, as Bashkir табан is.
+    nog: ["аяк", "aˈjaq"],  // аяк covers both in Baskakov and Kalmykov's Ногайско-русский словарь; табан is the sole, as Bashkir табан is.
     non: ["fótr", "foːtr"],  // fótr is explicitly glossed as covering the leg including the foot; leggr is the shank-specific word. IPA is the standard normalised Old Norse reading of the spelling.
     nrf: ["pid", "pi"],  // pid vs gambe; the continental form is pyid. IPA is the plain reading of the orthography, following how this row's own hand cell writes main as mɛ̃.
     nrf_gg: ["pid", "pi"],  // As Norman: pid vs gàmbe. IPA is the plain reading of the orthography, following how this row's own hand cell writes main as mɛ̃.
@@ -2113,7 +2113,7 @@ WORDS.foot = {
     sa: ["पाद", "paːdɐ"],  // pāda- 'foot' vs jaṅghā- 'leg (shank)'.
     sa_edu: ["पाद", "paːdɐ"],  // Same lexeme as the classical row; listed separately because the atlas keeps a spoken-Sanskrit pedagogy row.
     sad: ["ǁhata", "ǁʰata"],  // Eaton & Hunziker's dialect survey 32 says Sandawe does not distinguish leg from foot, and Kagaya 4 glosses ǁʰata 'leg, foot, sole'.
-    sah: ["атах", "atax"],  // атах covers both.
+    sah: ["атах", "aˈtax"],  // атах covers both.
     saq: ["nkeju", "ŋkedʒu"],  // Same Maa entry, dialect-tagged [North]: nkɛjʉ́ from hip to toes, with nkɔ́dɔ́ɔ́s the contemptuous leg word. Surface and IPA are this row's own wheel cell.
     sas: ["naé", "nae"],  // naé is what the disciples have washed at John 13:5 and what the soldiers break at John 19:31-32, with tolang 'bone' at John 19:36 as the control, and the ACD's Sasak entries put only betis 'calf', pukaŋ 'thigh', lulut 'shin' and dampa 'sole' beside it — the ankle itself is mata-n nae, built on this word.
     sat: ["ᱡᱟᱝᱜᱟ", "dʒaŋɡa"],  // Campbell p.254 reads 'Janga. The foot, the leg.' — one entry, and the New Testament uses it for both while ᱡᱟᱝ stays the bone. Mundari and Ho take kaṭa instead of this root.
@@ -2236,7 +2236,7 @@ WORDS.foot = {
     tsj: ["bi", "bi"],  // Egli-Roduner's Tshangla handbook glosses bi 'leg / foot' outright, and Andvik 2010 pairs it with the honorific zhap; biting, which he glosses 'foot' in one idiom and 'leg' in the next, is built on it.
     tsu: ["tʼango", "tʔaŋo"],  // tʼango is washed at John 13:5 and broken at John 19:31-32, with cʉehʉ 'bone' at John 19:36 as the control, so one word carries the limb; ABVD's older rúru turns out to be the ACD's Tsou ruru 'shin bone', not a rival.
     tsz: ["jantsíri", "xanˈtsiɾi"],  // Velásquez Gallardo's phorhépecha dictionary gives 'pie (anatomía) Jantsíri' against 'pierna: tsikájtakua, angájtakua', and it is his acute that puts the stress on the second syllable; Lathrop's SIL vocabulary has jantsiri 'pie' and no entry for pierna at all.
-    tt: ["аяк", "ajak"],  // аяк covers both.
+    tt: ["аяк", "aˈjak"],  // аяк covers both.
     ttj: ["ekigere", "ekiɡere"],  // Rutooro splits them: Kaji's vocabulary has ekigere for the foot and okuguru for the leg.
     tue: ["dʉpo", "dɨpo"],  // IDS splits Tuyuca dɨʼpo from yĩʼkã; the stress mark is dropped because this row marks only 6 of 33.
     tum: ["lundi", "lundi"],  // Chitumbuka has one word for the limb: the 1981 Buku Lakupatulika and the 2023 New World Translation both wash malundi in John 13 and break malundi in John 19, and Bastin, Coupez & Mann give lundi for the leg.
@@ -2264,7 +2264,7 @@ WORDS.foot = {
     ur: ["پاؤں", "paːõː"],  // Same split as Hindi.
     urh: ["owọ", "owɔ"],  // owọ covers the limb, as obọ does on the arm; the 1854 foot word úkōwọ́ is a compound on it.
     usp: ["aqan", "aqan"],  // Uspanteko keeps the K'iche' aqan but not the K'iche' route — PMED has (r)aaʼ 'muslo, pierna' and the NT breaks raʼ at John 19:32.
-    uz: ["oyoq", "ɒjɒq"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes qoʻl as qol. // was ["oyoq", "ojoq"] (vi dialect rules 2026-10-06)
+    uz: ["oyoq", "ɒˈjɒq"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes qoʻl as qol. // was ["oyoq", "ojoq"] (vi dialect rules 2026-10-06)
     vai: ["ꔞꘋ", "keŋ"],  // Koelle's 1854 Vei vocabulary has one entry, ken- 'foot, leg', with ken-goro for the sole.
     ve: ["mulenzhe", "mulenʒe"],  // mulenzhe covers the limb in present-day Tshivenḓa; Mafela notes in Lexikos 18 that Marole's 1932 word list still kept lunayo apart for the foot.
     vec: ["pìe", "ˈpie"],  // pìe vs ganba; the plural is piè, which is why both spellings are in the dictionaries.

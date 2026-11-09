@@ -1107,7 +1107,7 @@ const HAN_DATA = {
       "vi_nom": "năm",
       "dng": "vu²",
       "zh_jiao": "wu⁵⁵",
-      "hak_mz": "ńg",
+      "hak_mz": "ń",
       "zh_gl": "wu⁵³",
       "cdo": "ngô",
       "mnp": "ngù",
@@ -1208,7 +1208,7 @@ const HAN_DATA = {
       "vi_nom": "nam˧˧",
       "dng": "vu˥˩",
       "zh_jiao": "vu˥˥",
-      "hak_mz": "ŋ̍˧˩",
+      "hak_mz": "n̩˧˩",
       "zh_gl": "u˥˧",
       "cdo": "ŋou˨˦˨",
       "cpx": "ŋɔu˩˩",
@@ -5939,7 +5939,7 @@ const HAN_DATA = {
       "dng": "yü¹",
       "nan_th": "hɤ⁵⁵",
       "zh_jiao": "yu⁴²",
-      "hak_mz": "ng",
+      "hak_mz": "ǹ",
       "zh_gl": "yu³¹"
     },
     "ipa": {
@@ -6047,7 +6047,7 @@ const HAN_DATA = {
       "dng": "y˨˦",
       "nan_th": "hɤ˥˥",
       "zh_jiao": "y˦˨",
-      "hak_mz": "ŋ˩˩",
+      "hak_mz": "n̩˩˩",
       "zh_gl": "y˧˩"
     },
     "en": {

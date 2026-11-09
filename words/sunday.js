@@ -400,6 +400,10 @@ WORDS.sunday = {
     xag: "count",
     os: "lord",
     kum: "plain",
+    yue_dg: "other",
+    yue_nn: "other",
+    yue_ts: "other",
+    yue_zs: "other",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -740,5 +744,9 @@ WORDS.sunday = {
     xag: ["sašambaṭ", "saʃambatʼ"],  // sa plus šambaṭ 'Sabbath, week', formed like Syriac ܚܕܒܫܒܐ 'one in the week'.
     os: ["хуыцаубон", "xʷɨtsawbon"],  // хуыцау 'God' plus бон 'day'; Digor says хуцаубон.
     kum: ["къаттыгюн", "qatːɯɡyn"],  // No image is recorded for it in the source, so it counts as a word of its own.
+    yue_dg: ["礼拜日", "lɔi˧˦ pai˦˦˧ jak˧"],  // Literally 'worship day', the day of Mass.
+    yue_nn: ["礼拜日", "lɐi˨˦ pai˧˧ jɐt˨"],  // Literally 'worship day', the day of Mass.
+    yue_ts: ["礼拜日", "lai˨˩ pai˧˧ ŋit˧˨"],  // Literally 'worship day', the day of Mass.
+    yue_zs: ["禮拜", "lɐi˨˩˧ pai˧˧"],  // Literally 'worship', the Zhongshan word for Sunday.
   },
 };

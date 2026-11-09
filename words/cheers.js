@@ -257,6 +257,7 @@ WORDS.cheers = {
     az: "health",
     fj: "other",
     nrf: "health",
+    nrf_gg: "health",
   },
   routes: {
     health: {"color":"#16a34a","emoji":"💪","en":"to health · to life","ja":"健康に・命に","ko":"건강을 위해 · 생명을 위해","zh":"为健康・为生命","yue":"為健康 · 為生命","vi":"vì sức khỏe · vì sự sống","th":"แด่สุขภาพ · แด่ชีวิต","id":"untuk kesehatan · kehidupan","hi":"सेहत के नाम · जीवन के नाम","de":"auf die Gesundheit · aufs Leben","fr":"à la santé · à la vie","it":"alla salute · alla vita","es":"por la salud · por la vida","pt":"à saúde · à vida","ru":"за здоровье · за жизнь","uk":"за здоров'я · за життя","ar":"للصحة · للحياة","he":"לבריאות · לחיים","sw":"kwa afya · kwa uhai"},
@@ -459,5 +460,6 @@ WORDS.cheers = {
     az: ["sizin sağlığınıza", "siˈzin sɑɣlɯɣɯnɯˈzɑ"],  // Literally 'to your health', the formal or plural form; to one friend sənin sağlığına.
     fj: ["bula", "mbula"],  // Literally 'life'; the same word is the everyday greeting.
     nrf: ["santé", "sɑ̃te"],  // 'Health', borrowed from French santé.
+    nrf_gg: ["à vot'sàntaïe", "a vɔt sɑ̃taj"],  // Literally 'to your health'.
   },
 };

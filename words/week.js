@@ -363,6 +363,8 @@ WORDS.week = {
     lol: "plain",
     osx: "turn",
     arc: "seven",
+    nrf_gg: "seven",
+    frr_amr: "turn",
   },
   routes: {
     seven: {"color":"#2563eb","emoji":"7️⃣","en":"the number seven","ja":"数の七","ko":"일곱이라는 수","zh":"数字七","yue":"數字七","vi":"con số bảy","th":"เลขเจ็ด","id":"angka tujuh","hi":"सात की संख्या","de":"die Zahl Sieben","fr":"le nombre sept","it":"il numero sette","es":"el número siete","pt":"o número sete","ru":"число семь","uk":"число сім","ar":"العدد سبعة","he":"המספר שבע","sw":"namba saba"},
@@ -667,5 +669,7 @@ WORDS.week = {
     lol: ["eyenga", "ejeŋɡa"],  // No image is recorded for it, so it counts as a word of its own.
     osx: ["wika", "ˈwika"],  // From Proto-Germanic *wikǭ 'turn, succession, change, week'.
     arc: ["ܫܒܘܥܐ", "ʃaːβoːʕaː"],  // Classical Syriac, derived from ܫܒܥܐ šaḇʿā 'seven', like Hebrew שבוע.
+    nrf_gg: ["s'môine", "smɔin"],  // From Late Latin septimāna, from septimus 'seventh'.
+    frr_amr: ["weg", "vɛç"],  // From Old Frisian wike, the old Germanic week word.
   },
 };

@@ -321,6 +321,14 @@ WORDS.lion = {
     sux: "plain",
     txb: "other",
     arc: "plain",
+    wuu_sz: "shi",
+    wuu_nb: "shi",
+    wuu_hz: "shi",
+    wuu_jh: "shi",
+    wuu_wz: "shi",
+    cjy_xz: "shi",
+    hsn_hy: "shi",
+    frr_amr: "leo",
   },
   routes: {
     leo: {"color":"#2563eb","emoji":"🏛️","en":"from Latin leo, Greek leon (Löwe, лев, león)","ja":"ラテン語 leo、ギリシア語 leon から (Löwe, лев, león)","ko":"라틴어 leo, 그리스어 leon에서 (Löwe, лев, león)","zh":"来自拉丁语 leo、希腊语 leon (Löwe, лев, león)","yue":"嚟自拉丁語 leo、希臘語 leon (Löwe, лев, león)","vi":"từ tiếng Latinh leo, tiếng Hy Lạp leon (Löwe, лев, león)","th":"จากภาษาละติน leo ภาษากรีก leon (Löwe, лев, león)","id":"dari leo Latin, leon Yunani (Löwe, лев, león)","hi":"लैटिन leo, यूनानी leon से (Löwe, лев, león)","de":"aus Lateinisch leo, Griechisch leon (Löwe, лев, león)","fr":"du latin leo, du grec leon (Löwe, лев, león)","it":"dal latino leo, dal greco leon (Löwe, лев, león)","es":"del latín leo, del griego leon (Löwe, лев, león)","pt":"do latim leo, do grego leon (Löwe, лев, león)","ru":"от латинского leo, греческого leon (Löwe, лев, león)","uk":"від латинського leo, грецького leon (Löwe, лев, león)","ar":"من اللاتينية leo واليونانية leon (Löwe, лев, león)","he":"מהלטינית leo, מהיוונית leon (Löwe, лев, león)","sw":"kutoka Kilatini leo, Kigiriki leon (Löwe, лев, león)"},
@@ -584,5 +592,13 @@ WORDS.lion = {
     sux: ["𒊊", "piriŋ"],  // No analysis is recorded for it; the synonym 𒌨𒈤 urmaḫ means 'great beast of prey'.
     txb: ["𑀱𑁂𑀘𑀓𑁂", "ʂetɕake"],  // Tocharian B ṣecake; compare Tocharian A śiśäk (Wiktionary).
     arc: ["ܐܪܝܐ", "ʔarjaː"],  // Classical Syriac ʾaryā, from Proto-Semitic *ʔarway-, like Hebrew אריה.
+    wuu_sz: ["狮子", "sɿ˦˦ tsɿ˥˩"],  // The Chinese word for the lion, 獅子, built on 獅.
+    wuu_nb: ["狮子", "sɿ˥˨ tsɿ˧˨˥"],  // The Chinese word for the lion, 獅子, built on 獅.
+    wuu_hz: ["狮子", "sɿ˧˧ tsɿ˥˧"],  // The Chinese word for the lion, 獅子, built on 獅.
+    wuu_jh: ["狮子", "sɿ˧˧˦ tsɿ˥˧˥"],  // The Chinese word for the lion, 獅子, built on 獅.
+    wuu_wz: ["狮子", "sai˧˩˧ tsɿ˧˥"],  // The Chinese word for the lion, 獅子, built on 獅.
+    cjy_xz: ["狮子", "sɿ˧˩˧ tsɿ˧˩˧"],  // The Chinese word for the lion, 獅子, built on 獅.
+    hsn_hy: ["狮子", "sɿ˦˦˥ tsɿ˧˧"],  // The Chinese word for the lion, 獅子, built on 獅.
+    frr_amr: ["lööw", "løːv"],  // Possibly from German Löwe, or inherited from Old Frisian; both go back to the Latin leo line.
   },
 };

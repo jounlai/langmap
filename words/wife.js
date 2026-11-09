@@ -362,6 +362,19 @@ WORDS.wife = {
     txb: "woman",
     vi_c: "own",
     vi_s: "own",
+    wuu_sz: "woman",
+    wuu_nb: "unknown",
+    wuu_jh: "unknown",
+    wuu_wz: "unknown",
+    cjy_lv: "unknown",
+    cjy_xz: "woman",
+    hsn_hy: "woman",
+    yue_dg: "other",
+    yue_gz: "other",
+    yue_nn: "other",
+    yue_ts: "other",
+    yue_zs: "other",
+    rmy: "woman",
   },
   routes: {
     woman: {"color":"#db2777","emoji":"👩","en":"the same word as woman","ja":"「女」と同じ語","ko":"‘여자’와 같은 말","zh":"与“女人”同词","yue":"同「女人」同一個詞","vi":"cùng một từ với “đàn bà”","th":"คำเดียวกับ “ผู้หญิง”","id":"sama dengan kata “perempuan”","hi":"‘औरत’ वाला ही शब्द","de":"dasselbe Wort wie Frau","fr":"le même mot que femme","it":"la stessa parola di donna","es":"la misma palabra que mujer","pt":"a mesma palavra que mulher","ru":"то же слово, что «женщина»","uk":"те саме слово, що «жінка»","ar":"الكلمة نفسها لـ«امرأة»","he":"אותה מילה כמו ״אישה״","sw":"neno sawa na mwanamke"},
@@ -667,5 +680,18 @@ WORDS.wife = {
     txb: ["𑀰𑀦", "ɕana"],  // Tocharian B śana; the same word means woman (Wiktionary).
     vi_c: ["vợ", "vəː˧˩"],  // The same word as standard Vietnamese, with the Huế nặng tone.
     vi_s: ["vợ", "jəː˨˩˨"],  // The same word as standard Vietnamese, with Southern j- for v-.
+    wuu_sz: ["女人", "ȵy˨˧˩ ȵiən˨˨˧"],  // The same word as 女人 'woman', listed first for Suzhou.
+    wuu_nb: ["老婆", "lɔ˩˩˧ bəu˧˩˧"],  // Literally 'old woman', the everyday word for a wife.
+    wuu_jh: ["老婆", "lɑu˥˧˥ bɤ˧˩˧"],  // Literally 'old woman', the everyday word for a wife.
+    wuu_wz: ["老安", "lɜ˧˦ ʔjy˧˧"],  // The everyday Wenzhou word for a wife.
+    cjy_lv: ["婆姨", "pʰuo˦˦ zɿ˦˦"],  // A northern dialect word for a wife; Wiktionary glosses it wife, married woman.
+    cjy_xz: ["女人", "ny˧˩˧ ʐəŋ˧˩"],  // The same word as 女人 'woman', listed first for Xinzhou.
+    hsn_hy: ["堂客", "tan˩˩˨ kʰa˨˨"],  // The same word as 堂客 'woman' in Hengyang.
+    yue_dg: ["老婆", "lɐu˧˦ pʰɔ˧˩"],  // Literally 'old woman', the everyday word for a wife.
+    yue_gz: ["老婆", "lu̯ɔw˨˩˦ pʰɔ˨˩˦"],  // Literally 'old woman', the everyday word for a wife.
+    yue_nn: ["老婆", "lu˨˦ pʰɔ˨˩"],  // Literally 'old woman', the everyday word for a wife.
+    yue_ts: ["老婆", "lɑu˥˥ pʰuɔ˨˩"],  // Literally 'old woman', the everyday word for a wife.
+    yue_zs: ["老婆", "lou˨˩˧ pʰɔ˥˩"],  // Literally 'old woman', the everyday word for a wife.
+    rmy: ["romni", "romˈni"],  // The same word as 'Romani woman', the feminine of rom 'Romani man; husband'.
   },
 };

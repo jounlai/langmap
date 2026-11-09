@@ -352,6 +352,19 @@ WORDS.camel = {
     wuu_sz: "luotuo",
     wuu_nb: "luotuo",
     wuu_jh: "luotuo",
+    mh: "gamal",
+    mnk: "plain",
+    osp: "gamal",
+    shi: "other",
+    syc: "gamal",
+    ybe: "tebe",
+    kpv: "ulban",
+    egl: "gamal",
+    fro: "gamal",
+    goh: "ulban",
+    mnw: "ushtra",
+    orh: "tebe",
+    tly: "tebe",
   },
   routes: {
     gamal: {"color":"#d97706","emoji":"🐫","en":"from Semitic gamal (جمل, camel, ngamia)","ja":"セム語 gamal から（جمل, camel, ngamia）","ko":"셈어 gamal에서 (جمل, camel, ngamia)","zh":"源自闪米特语 gamal（جمل, camel, ngamia）","yue":"源自閃米特語 gamal（جمل, camel, ngamia）","vi":"từ tiếng Semit gamal (جمل, camel, ngamia)","th":"จากภาษาเซมิติก gamal (جمل, camel, ngamia)","id":"dari bahasa Semit gamal (جمل, camel, ngamia)","hi":"सामी gamal से (جمل, camel, ngamia)","de":"aus semitisch gamal (جمل, camel, ngamia)","fr":"du sémitique gamal (جمل, camel, ngamia)","it":"dal semitico gamal (جمل, camel, ngamia)","es":"del semítico gamal (جمل, camel, ngamia)","pt":"do semítico gamal (جمل, camel, ngamia)","ru":"из семитского gamal (جمل, camel, ngamia)","uk":"із семітського gamal (جمل, camel, ngamia)","ar":"من السامية gamal (جمل, camel, ngamia)","he":"מ-gamal השמית (جمل, camel, ngamia)","sw":"kutoka Kisemiti gamal (جمل, camel, ngamia)"},
@@ -643,5 +656,18 @@ WORDS.camel = {
     wuu_sz: ["骆驼", "loʔ˧ dəu˨˨˧"],  // The common Chinese word for the camel, 駱駝.
     wuu_nb: ["骆驼", "loʔ˩˨ dəu˧˩˧"],  // The common Chinese word for the camel, 駱駝.
     wuu_jh: ["骆驼", "loʔ˨˩˨ duɤ˧˩˧"],  // The common Chinese word for the camel, 駱駝.
+    mh: ["kameļ", "kæmʲɛlˠ"],  // Borrowed from English camel.
+    mnk: ["ñonkomoo", "ɲoŋkomoː"],  // No image is recorded for it, so it counts as a word of its own.
+    osp: ["camello", "kaˈmeʎo"],  // From Latin camēlus, from Greek kámēlos.
+    shi: ["ⴰⵔⴰⵎ", "aram"],  // From Proto-Berber *a-lɣəm 'camel', ultimately from a Semitic language; Latin spelling aram.
+    syc: ["ܓܡܠܐ", "ɡamlɑ"],  // Inherited from Proto-Semitic *gamal-.
+    ybe: ["ti", "ti"],  // Inherited from Proto-Turkic *tebe.
+    kpv: ["верблюд", "verbˈʎud"],  // Borrowed from Russian верблюд.
+    egl: ["camèl", "kaˈmɛːl"],  // From Latin camelus.
+    fro: ["chamel", "tʃaˈmɛl"],  // From Vulgar Latin camellus, a variant of Latin camēlus.
+    goh: ["olbenta", "ˈolbenta"],  // From Proto-Germanic ulbanduz, from Greek ἐλέφας 'elephant'; the sense moved through confusion.
+    mnw: ["အုတ်", "ut"],  // Borrowed from Pali ottho, from Sanskrit uṣṭra.
+    orh: ["təməkun", "təməkun"],  // From Proto-Mongolic temexen, which is traced to Turkic tebe.
+    tly: ["dəvə", "dəvə"],  // Borrowed from Azerbaijani dəvə, from Turkic tebe.
   },
 };

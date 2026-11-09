@@ -358,6 +358,7 @@ WORDS.wifi = {
     wa: ["wifi", ""],
     mad: ["wifi", ""],
     ceb: ["WiFi", ""],
-    gsw_w: ["WiFi", ""]
+    gsw_w: ["WiFi", ""],
+    za: ["vaihfaij", "βaːi˧ faːi˥"],  // Borrowed from Chinese Wi-Fi, from English.
   }
 };

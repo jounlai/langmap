@@ -395,6 +395,39 @@ WORDS.window = {
     wuu_hz: "plain",
     wuu_wz: "plain",
     frr_amr: "plain",
+    bbl: "plain",
+    eve: "eye",
+    gmh: "fenestra",
+    gsw: "fenestra",
+    mh: "wind",
+    new: "plain",
+    osp: "fenestra",
+    syc: "plain",
+    pdc: "fenestra",
+    ckv: "plain",
+    sn: "fenestra",
+    sat: "plain",
+    afb: "door",
+    kfr: "door",
+    skr: "plain",
+    mrw: "plain",
+    trv: "plain",
+    rgn: "fenestra",
+    gez: "plain",
+    chb: "wind",
+    fro: "fenestra",
+    goh: "fenestra",
+    acw: "other",
+    kok: "plain",
+    ik: "plain",
+    lij: "plain",
+    ofs: "plain",
+    tao: "eye",
+    dng: "plain",
+    ayl: "other",
+    fit: "other",
+    sux: "other",
+    yua: "plain",
   },
   routes: {
     wind: {"color":"#0891b2","emoji":"🌬️","en":"built on the wind (window, vindue, ventana)","ja":"風からできた語（window, vindue, ventana）","ko":"바람에서 나온 말 (window, vindue, ventana)","zh":"由“风”构成（window, vindue, ventana）","yue":"由「風」構成（window, vindue, ventana）","vi":"tạo từ chữ gió (window, vindue, ventana)","th":"สร้างจากคำว่าลม (window, vindue, ventana)","id":"dibentuk dari kata angin (window, vindue, ventana)","hi":"हवा के शब्द से बना (window, vindue, ventana)","de":"vom Wind gebildet (window, vindue, ventana)","fr":"construit sur le vent (window, vindue, ventana)","it":"costruito sul vento (window, vindue, ventana)","es":"formado sobre el viento (window, vindue, ventana)","pt":"formado sobre o vento (window, vindue, ventana)","ru":"построено на слове для ветра (window, vindue, ventana)","uk":"побудоване на слові для вітру (window, vindue, ventana)","ar":"مبني على الريح (window, vindue, ventana)","he":"בנוי על הרוח (window, vindue, ventana)","sw":"limejengwa juu ya upepo (window, vindue, ventana)"},
@@ -729,5 +762,38 @@ WORDS.window = {
     wuu_hz: ["窗", "tsʰʮæ̃˧˧"],  // The plain Chinese word for a window.
     wuu_wz: ["窗", "tɕʰyɔ˧˧"],  // The plain Chinese word for a window.
     frr_amr: ["wöning", "ˈvønɪŋ"],  // No image is recorded for it, so it counts as a word of its own.
+    bbl: ["ქორ", "kor"],  // Inherited from Proto-Nakh *kor, the same word as Chechen and Ingush кор; it also means loophole.
+    eve: ["окно", "okno"],  // Borrowed from Russian окно, a word built on 'eye'.
+    gmh: ["venster", "ˈfɛnstər"],  // From Old High German fënstar, from Latin fenestra.
+    gsw: ["Fäischter", "ˈfæiʃtər"],  // From Middle High German venster, from Latin fenestra.
+    mh: ["wūntō", "winʲtˠɛɰ"],  // Borrowed from English window.
+    new: ["झ्याः", "dʑʱjaː"],  // From Classical Newar jhyāla; related to Nepali झ्याल jhyāl.
+    osp: ["finiestra", "fiˈnjestɾa"],  // From Latin fenestra, probably from Etruscan.
+    syc: ["ܟܘܬܐ", "kawθɑ"],  // Also an opening or hole; no image is recorded for it, so it counts as a word of its own.
+    pdc: ["Fenschder", "ˈfɛnʃdər"],  // From Middle High German venster, like German Fenster.
+    ckv: ["dengat", "dəŋat"],  // No image is recorded for it, so it counts as a word of its own.
+    sn: ["fafitera", "fafitera"],  // Through a Nguni language from Afrikaans venster, which goes back to Latin fenestra.
+    sat: ["ᱠᱷᱤᱲᱠᱤ", "kʰiɽki"],  // The same word as Hindi खिड़की; no image is recorded for it, so it counts as a word of its own.
+    afb: ["دريشة", "dəˈriʃə"],  // Borrowed from Persian دریچه, 'small window', from در 'door' plus a diminutive.
+    kfr: ["બારી", "baːriː"],  // From Prakrit bāra, from Sanskrit द्वार, 'door'.
+    skr: ["دری", "dəɾiː"],  // No origin is recorded for it, so it counts as a word of its own.
+    mrw: ["rowasan", "rowasan"],  // No image is recorded for it, so it counts as a word of its own.
+    trv: ["bling", "bliŋ"],  // No image is recorded for it, so it counts as a word of its own.
+    rgn: ["fnèstra", "ˈfnɛstra"],  // The Romagnol form of Latin fenestra.
+    gez: ["መስኮት", "maskot"],  // No origin is recorded for it, so it counts as a word of its own.
+    chb: ["bentana", "βentana"],  // Borrowed from Spanish ventana.
+    fro: ["fenestre", "feˈnɛstrə"],  // Inherited from Latin fenestra.
+    goh: ["fenstar", "ˈfenstar"],  // From Proto-West Germanic fenestr, from Latin fenestra.
+    acw: ["شباك", "ʃubbaːk"],  // Inherited from Arabic šubbāk.
+    kok: ["खिडकी", "kʰiɖkiː"],  // Inherited from Sanskrit khaṭakkikā; no image is recorded for it.
+    ik: ["igaliq", "iɣaliq"],  // No image is recorded for it, so it counts as a word of its own.
+    lij: ["barcun", "barˈkyŋ"],  // No etymology is given, so it counts as a word of its own.
+    ofs: ["andern", "ˈandern"],  // No etymology is given, so it counts as a word of its own.
+    tao: ["mado", "mado"],  // Borrowed from Japanese 窓 mado, a compound of 'eye' and 'door'.
+    dng: ["чуонхў", "tʂʰuɑŋ˨˦ xu˥˩"],  // Cognate to Mandarin 窗户; no image is recorded for it, as for Mandarin.
+    ayl: ["روشن", "roːʃən"],  // From Persian روزن rowzan.
+    fit: ["klasi", "ˈklasi"],  // The same word means glass; borrowed from Swedish glas.
+    sux: ["𒀊", "ab"],  // The same sign and word means hole, opening and roof vent.
+    yua: ["kalom kʼiin", "kalom kʼiːn"],  // No etymology is given, so it counts as a word of its own.
   },
 };

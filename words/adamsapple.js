@@ -300,6 +300,9 @@ WORDS.adamsapple = {
     nij: "other",
     ceb: "plain",
     hi: "plain",
+    ady: "plain",
+    mnc: "plain",
+    kk: "other",
   },
   routes: {
     adam: {"color":"#dc2626","emoji":"🍏","en":"Adam's apple","ja":"アダムのりんご","ko":"아담의 사과","zh":"亚当的苹果","yue":"亞當嘅蘋果","vi":"táo của Adam","th":"แอปเปิลของอาดัม","id":"apel Adam","hi":"आदम का सेब","de":"Adams Apfel","fr":"pomme d'Adam","it":"pomo d'Adamo","es":"fruto de Adán","pt":"maçã de Adão","ru":"яблоко Адама","uk":"яблуко Адама","ar":"تفاحة آدم","he":"תפוח אדם","sw":"tufaha la Adamu"},
@@ -544,5 +547,8 @@ WORDS.adamsapple = {
     nij: ["bungkok tingang", "buŋkok tiŋaŋ"],  // Hardeland under BUNGKOK: "Bungkok tingang, Kehlkopf, der sogenannte Adamsapfel"; both scans; tingang = hornbill
     ceb: ["ubol-ubol", "ˌʔubolˈʔubol"],  // Cebuano ubul-úbul 'Adam's apple; windpipe' (Wolff). No image is recorded for it, so it counts as a word of its own.
     hi: ["टेंटुआ", "ʈẽːʈʊaː"],  // No image is recorded for it, so it counts as a word of its own.
+    ady: ["тыкъын", "təqən"],  // No image is recorded for it, so it counts as a word of its own.
+    mnc: ["ᡤᡡᠩᡴᠠᠨ", "ɡuŋkan"],  // No image is recorded for it, so it counts as a word of its own.
+    kk: ["жұтқыншақ", "ʒʊtqɯnˈʃɑq"],  // Built on жұту 'to swallow'; the same word means pharynx.
   },
 };

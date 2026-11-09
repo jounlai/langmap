@@ -260,6 +260,18 @@ WORDS.uncle = {
     gld: "split",
     hu: "one",
     nrf_gg: "one",
+    osp: "one",
+    roo: "unknown",
+    koi: "unknown",
+    jv: "one",
+    wo: "unknown",
+    nio: "one",
+    mnw: "one",
+    kok: "split",
+    ain: "unknown",
+    war: "unknown",
+    niv: "unknown",
+    ln: "unknown",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's brother ≠ mother's brother","ja":"父の兄弟と母の兄弟で別の語","ko":"아버지의 형제와 어머니의 형제가 다른 낱말","zh":"父亲的兄弟和母亲的兄弟用不同的词","yue":"老豆嘅兄弟同阿媽嘅兄弟用唔同嘅詞","vi":"anh em của cha ≠ anh em của mẹ","th":"พี่น้องชายของพ่อกับของแม่เป็นคนละคำ","id":"saudara ayah ≠ saudara ibu","hi":"पिता का भाई ≠ माँ का भाई","de":"Bruder des Vaters ≠ Bruder der Mutter","fr":"frère du père ≠ frère de la mère","it":"fratello del padre ≠ fratello della madre","es":"hermano del padre ≠ hermano de la madre","pt":"irmão do pai ≠ irmão da mãe","ru":"брат отца ≠ брат матери","uk":"брат батька ≠ брат матері","ar":"أخو الأب ≠ أخو الأم","he":"אחי האב ≠ אחי האם","sw":"kaka wa baba ≠ kaka wa mama"},
@@ -462,5 +474,17 @@ WORDS.uncle = {
     gld: ["эчэкэ", "ətʃəkə"],  // The father's younger brother; the mother's younger brother is гусин.
     hu: ["nagybácsi", "ˈnɒɟbaːtʃi"],  // Literally 'big uncle'; it covers the brother of either parent.
     nrf_gg: ["aonclle", "ɔ̃kʎ"],  // From Latin avunculus 'mother's brother', now used for any uncle.
+    osp: ["tio", "ˈtio"],  // From Late Latin thīus, from Greek theîos; the entry gives the one word, as in Spanish tío.
+    roo: ["aite", "aite"],  // The same word as aite, 'father'; it also covers the mother's sister's husband, and the source gives no word for the mother's brother.
+    koi: ["чож", "tɕoʒ"],  // From Proto-Uralic *śečä; the source gives only 'uncle' and does not say which side.
+    jv: ["paklik", "paʔliʔ"],  // Short for pak cilik, 'little father': a parent's younger brother on either side (an older one is pakdhe).
+    wo: ["nijjaay", "nidʒːaːj"],  // The source glosses it only as 'uncle' and does not say which side.
+    nio: ["иси", "ˈisʲi"],  // A parent's older brother on either side (also a parent's older sister's husband).
+    mnw: ["မူ", "mao"],  // A parent's younger brother on either side; borrowed from Burmese မူး.
+    kok: ["काका", "kaːkaː"],  // Mother's brother is मामा.
+    ain: ["アチャ", "atɕa"],  // The same word also means father and a middle-aged man; the source does not say which side.
+    war: ["tatang", "taˈtaŋ"],  // From Philippine Spanish tata 'daddy' with the diminutive -ng.
+    niv: ["ытык", "ɯtɯk"],  // The same word means father, and several in-laws; the source does not say which side.
+    ln: ["noko", "noko"],  // The source does not say which side.
   },
 };

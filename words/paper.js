@@ -354,6 +354,36 @@ WORDS.paper = {
     wuu_sz: "chinese",
     wuu_nb: "chinese",
     wuu_wz: "chinese",
+    cjs: "plain",
+    ee: "plain",
+    mch: "papyrus",
+    nch: "other",
+    nci: "other",
+    new: "plain",
+    osp: "papyrus",
+    sa: "kaghaz",
+    se: "papyrus",
+    pdc: "papyrus",
+    nrf: "papyrus",
+    enm: "papyrus",
+    ckv: "plain",
+    sat: "kaghaz",
+    an: "papyrus",
+    afb: "leaf",
+    roo: "papyrus",
+    rmf: "plain",
+    cic: "plain",
+    tsu: "plain",
+    pon: "plain",
+    kri: "papyrus",
+    fro: "papyrus",
+    acw: "leaf",
+    ami: "plain",
+    ik: "other",
+    ium: "chinese",
+    ln: "other",
+    sog: "kaghaz",
+    kha: "unknown",
   },
   routes: {
     papyrus: {"color":"#2563eb","emoji":"📜","en":"from Latin papyrus (papier, papel, Papier)","ja":"ラテン語 papyrus から（papier, papel, Papier）","ko":"라틴어 papyrus에서 (papier, papel, Papier)","zh":"源自拉丁语 papyrus（papier, papel, Papier）","yue":"源自拉丁文 papyrus（papier, papel, Papier）","vi":"từ tiếng Latinh papyrus (papier, papel, Papier)","th":"จากภาษาละติน papyrus (papier, papel, Papier)","id":"dari bahasa Latin papyrus (papier, papel, Papier)","hi":"लातिन papyrus से (papier, papel, Papier)","de":"aus lateinisch papyrus (papier, papel, Papier)","fr":"du latin papyrus (papier, papel, Papier)","it":"dal latino papyrus (papier, papel, Papier)","es":"del latín papyrus (papier, papel, Papier)","pt":"do latim papyrus (papier, papel, Papier)","ru":"из латинского papyrus (papier, papel, Papier)","uk":"з латинського papyrus (papier, papel, Papier)","ar":"من اللاتينية papyrus (papier, papel, Papier)","he":"מ-papyrus הלטינית (papier, papel, Papier)","sw":"kutoka Kilatini papyrus (papier, papel, Papier)"},
@@ -648,5 +678,35 @@ WORDS.paper = {
     wuu_sz: ["纸头", "tsɿ˥˩ døʏ˨˨˧"],  // 纸 'paper' with the noun suffix 头.
     wuu_nb: ["纸头", "tsɿ˧˨˥ dœʏ˧˩˧"],  // 纸 'paper' with the noun suffix 头.
     wuu_wz: ["纸", "tsei˧˥"],  // The Chinese word for paper.
+    cjs: ["қат", "qat"],  // No image is recorded for it, so it counts as a word of its own.
+    ee: ["agbalẽ", "aɡbalẽ"],  // The same word means book, letter and paper; it is possibly from agba 'scaffolding' and lẽ, a forest tree.
+    mch: ["jajeda", "hʷaheːɾ̠a"],  // Borrowed from Spanish papel.
+    nch: ["amatl", "aːmatɬ"],  // The bark-paper word; Classical Nahuatl āmatl is from Proto-Nahuan *aama-tl, a fig species and its paper.
+    nci: ["āmatl", "aːmatɬ"],  // From Proto-Nahuan *aama-tl, a species of fig and the bark paper made from it; it also means a document or book.
+    new: ["भ्वं", "bʱwɔ̃ː"],  // No image is recorded for it, so it counts as a word of its own.
+    osp: ["papel", "paˈpel"],  // Borrowed from Old Catalan paper, from Latin papȳrus; attested from 1330.
+    sa: ["कागद", "kaːɡɐdɐ"],  // Borrowed from Hindi कागद, from Persian kāġaz.
+    se: ["bábir", "ˈpaːpiːr"],  // No origin is recorded; it matches Swedish papper and Finnish paperi.
+    pdc: ["Babier", "baˈbiːr"],  // The same word as German Papier.
+    nrf: ["papi", "papi"],  // From Old French papier.
+    enm: ["paper", "paˈpeːr"],  // Borrowed from Anglo-Norman paper.
+    ckv: ["tepuluk", "təpuluk"],  // No image is recorded for it, so it counts as a word of its own.
+    sat: ["ᱠᱟᱜᱚᱡᱽ", "kaɡɔdʒ"],  // Borrowed from Bengali কাগজ, from Persian kāġaz.
+    an: ["papel", "paˈpel"],  // From Old Navarro-Aragonese papel, from Old Catalan paper.
+    afb: ["ورقة", "wrɪɡə"],  // Inherited from Arabic waraqa; the same word means a leaf.
+    roo: ["pepa", "pepa"],  // Borrowed from Tok Pisin pepa, from English paper.
+    rmf: ["liin", "liːn"],  // The same word as liin, 'book'; it also means a letter.
+    cic: ["holisso", "holisːo"],  // The same word as holisso, 'book'; it also means a page or a letter.
+    tsu: ["saiptuku", "saiptuku"],  // No origin is recorded for it, so it counts as a word of its own.
+    pon: ["doaropwe", "dɔropʷe"],  // No origin is recorded for it, so it counts as a word of its own.
+    kri: ["pepa", "pepa"],  // From English paper.
+    fro: ["papier", "paˈpjer"],  // Borrowed from Old Catalan paper, ultimately Latin papȳrus; first attested in 1308.
+    acw: ["ورق", "waraɡ"],  // The same word means leaves; from Arabic waraq 'leaf'.
+    ami: ["tipelok", "tipəlok"],  // No image is recorded for it, so it counts as a word of its own.
+    ik: ["kaliikkaq", "kaliːkːaq"],  // Borrowed from Koryak kalikal.
+    ium: ["zeiv", "tsei˦"],  // From Proto-Mienic tjejᴮ, from Chinese 紙.
+    ln: ["monkandá", "monkandá"],  // The same word means skin, letter and book; from Kongo nkanda.
+    sog: ["kʾγδʾ", "kaːɣaðaː"],  // The word behind Persian kāġaz; perhaps borrowed from Old Chinese 紙.
+    kha: ["kot", "kot"],  // The same word means book; possibly borrowed from Bengali কৎ 'nib, quill'.
   },
 };

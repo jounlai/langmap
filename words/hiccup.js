@@ -374,6 +374,9 @@ WORDS.hiccup = {
     tpy: "plain",
     ksw: "plain",
     rup: "plain",
+    nhx: "plain",
+    smn: "plain",
+    nrf: "imitative",
   },
   routes: {
     imitative: {"color":"#ea580c","emoji":"🔊","en":"imitating the sound","ja":"音のまね","ko":"소리 흉내","zh":"模仿声音","yue":"模仿聲音","vi":"mô phỏng âm thanh","th":"เลียนเสียง","id":"tiruan bunyi","hi":"ध्वनि की नक़ल","de":"lautmalend","fr":"imitant le bruit","it":"onomatopeico","es":"imita el sonido","pt":"imita o som","ru":"звукоподражание","uk":"звуконаслідування","ar":"محاكاة الصوت","he":"חיקוי הקול","sw":"kuiga sauti"},
@@ -694,5 +697,8 @@ WORDS.hiccup = {
     tpy: ["ʃukuk", "ʃukuk"],  // IDS Trumai, the list this row matches. IPA from the row's pairs.
     ksw: ["သါတကုး", "θataku"],  // S'gaw Karen 'to hiccup' (SEAlang). No image is recorded for it, so it counts as a word of its own. IPA read from the script; the dictionary prints none.
     rup: ["sugljits", "suˈɡʎits"],  // From Vulgar Latin, ultimately Latin singultus; it also means a sob.
+    nhx: ["tzicno̱lis", "tsiknoːlis"],  // Compare Classical Nahuatl tziucnōliztli; no image is recorded for it.
+    smn: ["njihânjâš", "ˈɲihɐɲɐʃ"],  // No image is recorded for it, so it counts as a word of its own.
+    nrf: ["hitchet", "hitʃɛ"],  // An imitative word; compare French hoquet.
   },
 };

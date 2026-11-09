@@ -248,6 +248,14 @@ WORDS.cotton = {
     gl: "qutn",
     lt: "treewool",
     gcr: "qutn",
+    ti: "plain",
+    sat: "plain",
+    zu: "qutn",
+    mg: "plain",
+    mrw: "plain",
+    mfe: "qutn",
+    ami: "plain",
+    uby: "plain",
   },
   routes: {
     qutn: {"color":"#059669","emoji":"🐪","en":"from Arabic qutn (coton, cotton, algodón)","ja":"アラビア語 qutn から (coton, cotton, algodón)","ko":"아랍어 qutn에서 (coton, cotton, algodón)","zh":"来自阿拉伯语 qutn (coton, cotton, algodón)","yue":"嚟自阿拉伯語 qutn (coton, cotton, algodón)","vi":"từ tiếng Ả Rập qutn (coton, cotton, algodón)","th":"จากภาษาอาหรับ qutn (coton, cotton, algodón)","id":"dari qutn Arab (coton, cotton, algodón)","hi":"अरबी qutn से (coton, cotton, algodón)","de":"aus Arabisch qutn (coton, cotton, algodón)","fr":"de l'arabe qutn (coton, cotton, algodón)","it":"dall'arabo qutn (coton, cotton, algodón)","es":"del árabe qutn (coton, cotton, algodón)","pt":"do árabe qutn (coton, cotton, algodón)","ru":"от арабского qutn (coton, cotton, algodón)","uk":"від арабського qutn (coton, cotton, algodón)","ar":"من العربية قطن (coton, cotton, algodón)","he":"מהערבית qutn (coton, cotton, algodón)","sw":"kutoka Kiarabu qutn (coton, cotton, algodón)"},
@@ -440,5 +448,13 @@ WORDS.cotton = {
     gl: ["algodón", "alɣoˈðoŋ"],  // From Andalusian Arabic quṭun, from Arabic قُطْن.
     lt: ["medvilnė", "ˈmʲæːdʲʋʲɪlʲnʲeː"],  // Built like Latvian kokvilna, 'tree wool'.
     gcr: ["koton", "kotɔ̃"],  // From French coton, from Arabic qutn.
+    ti: ["ጡጥ", "tʼutʼ"],  // No image is recorded for it; it means cotton and cotton wool.
+    sat: ["ᱛᱩᱞᱟᱹᱢ", "tuləm"],  // No image is recorded for it, so it counts as a word of its own.
+    zu: ["ukotini", "ukotiːni"],  // Borrowed from English cotton.
+    mg: ["hasy", "ˈhasi"],  // No origin is recorded for it, so it counts as a word of its own.
+    mrw: ["daso", "daso"],  // No origin is recorded for it, so it counts as a word of its own.
+    mfe: ["koton", "kotɔ̃"],  // From French coton.
+    ami: ["parok", "parok"],  // No image is recorded for it, so it counts as a word of its own.
+    uby: ["babaj", "babaj"],  // No image is recorded for it, so it counts as a word of its own.
   },
 };

@@ -404,6 +404,37 @@ WORDS.sunday = {
     yue_nn: "other",
     yue_ts: "other",
     yue_zs: "other",
+    jam: "sun",
+    kbd: "lord",
+    mdh: "count",
+    mh: "sabbath",
+    new: "sun",
+    osx: "sun",
+    sga: "lord",
+    wym: "sun",
+    ckv: "other",
+    cbk: "lord",
+    ota: "market",
+    mwr: "sun",
+    an: "lord",
+    afb: "count",
+    rmf: "count",
+    aa: "count",
+    sip: "sun",
+    mrw: "count",
+    bm: "plain",
+    awa: "sun",
+    fro: "lord",
+    goh: "sun",
+    kea: "lord",
+    stq: "sun",
+    nds: "sun",
+    ami: "sun",
+    grt: "unknown",
+    nso: "sun",
+    fax: "lord",
+    min: "count",
+    su: "count",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -748,5 +779,36 @@ WORDS.sunday = {
     yue_nn: ["礼拜日", "lɐi˨˦ pai˧˧ jɐt˨"],  // Literally 'worship day', the day of Mass.
     yue_ts: ["礼拜日", "lai˨˩ pai˧˧ ŋit˧˨"],  // Literally 'worship day', the day of Mass.
     yue_zs: ["禮拜", "lɐi˨˩˧ pai˧˧"],  // Literally 'worship', the Zhongshan word for Sunday.
+    jam: ["Sonde", "ˈsɔnde"],  // From English Sunday.
+    kbd: ["тхьэмахуэ", "tħamaːxʷa"],  // Literally 'God day', from тхьэ 'God' and махуэ 'day'; the same word also means week.
+    mdh: ["Akad", "ˈʔakad"],  // Borrowed from Arabic al-ʔaḥad, 'the first (day)'.
+    mh: ["Jabōt", "tʲæpˠɛtˠ"],  // Borrowed from English Sabbath; it also means the Sabbath.
+    new: ["आइतबाः", "aitəbaː"],  // Ultimately from Sanskrit ādityavāra, the day of the sun.
+    osx: ["sunnundag", "ˈsunːundaɣ"],  // A calque of Latin dies Solis, 'day of the sun': sunna 'sun' + dag 'day'.
+    sga: ["domnach", "ˈdoβ̃nəx"],  // From Late Latin diēs Dominicus, 'the Lord's day'.
+    wym: ["zuntaog", "ˈzuntaɔk"],  // From Old High German sunnuntag, 'day of the sun'.
+    ckv: ["ripay", "ripaj"],  // Borrowed from Hokkien 禮拜 lé-pài, literally 'worship'.
+    cbk: ["Domingo", "doˈmiŋɡo"],  // Inherited from Spanish domingo, the Lord's day.
+    ota: ["بازار كونی", "bazaɾ ɡyny"],  // Literally 'market day' (bazar günü).
+    mwr: ["अदीतवार", "ədiːtʋaːɾ"],  // From Sanskrit आदित्यवार, 'the sun's day'.
+    an: ["domingo", "doˈmiŋɡo"],  // From Late Latin diēs Dominicus, 'the day of the Lord'.
+    afb: ["الاحد", "ɪlˈəħəd"],  // Inherited from Arabic al-ʔaḥad, 'the first'.
+    rmf: ["eftato diives", "eftato diːves"],  // Literally 'the seventh day': eftato 'seventh' plus diives 'day'.
+    aa: ["acád", "aħad"],  // Borrowed from Arabic ʔaḥad, 'one, first'.
+    sip: ["ཉི་མ", "ɲima"],  // The same word as ཉི་མ, 'sun'.
+    mrw: ["Akad", "akad"],  // Derived from Arabic al-ʔaḥad, 'the first'.
+    bm: ["kari", "kari"],  // No image is recorded for it, so it counts as a word of its own.
+    awa: ["अत्तवार", "əttʋaːr"],  // From Sanskrit ādityavāra, 'the sun's day'.
+    fro: ["diemenche", "diəˈmantʃə"],  // Inherited from Late Latin diēs Dominicus, 'the Lord's day'.
+    goh: ["sunnūntag", "ˈsunnuːntaɡ"],  // A calque of Latin diēs Sōlis, 'the sun's day'.
+    kea: ["dumingu", "duˈmiŋɡu"],  // From Portuguese domingo, from Latin dominicus 'of the Lord'.
+    stq: ["Sundai", "ˈsʊndaːi̯"],  // From Old Frisian sunnandei, 'the sun's day'.
+    nds: ["Sünndag", "ˈzʏndax"],  // Related to German Sonntag and English Sunday, 'the sun's day'.
+    ami: ["sacidalan", "satsiðalan"],  // Built on cidal 'sun' with sa- -an.
+    grt: ["chigicho", "tʃiɡitʃo"],  // The Garo name for Sunday; the source gives no etymology.
+    nso: ["Sontaga", "sontaɣa"],  // No etymology is given; it is the same word as Sesotho Sontaha, from Afrikaans Sondag.
+    fax: ["dumingu", "duˈmiŋɡu"],  // From Late Latin diēs Dominicus, 'the Lord's day'.
+    min: ["Akaik", "akaiʔ"],  // No etymology is given; it is Malay Ahad, from Arabic al-ʔaḥad 'the first'.
+    su: ["Ahad", "ahad"],  // Ultimately from Arabic al-ʔaḥad 'the one', the first day.
   },
 };

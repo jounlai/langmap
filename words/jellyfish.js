@@ -271,6 +271,9 @@ WORDS.jellyfish = {
     sm: "plain",
     chr: "jelly",
     fy: "jelly",
+    mh: "plain",
+    mnc: "plain",
+    nrf: "other",
   },
   routes: {
     medusa: {"color":"#7c3aed","emoji":"🐍","en":"named after Medusa","ja":"メドゥーサにちなむ","ko":"메두사에서","zh":"源自美杜莎","yue":"源自美杜莎","vi":"theo tên Medusa","th":"ตั้งตามเมดูซา","id":"dari nama Medusa","hi":"मेडूसा के नाम पर","de":"nach Medusa","fr":"d'après Méduse","it":"da Medusa","es":"por Medusa","pt":"por Medusa","ru":"по имени Медузы","uk":"за ім'ям Медузи","ar":"على اسم ميدوسا","he":"על שם מדוזה","sw":"kwa jina la Medusa"},
@@ -486,5 +489,8 @@ WORDS.jellyfish = {
     sm: ["ʻaluʻalu", "ʔaluʔalu"],  // Pratt 'Alu'alu, a species of jelly-fish
     chr: ["ᏩᏂᎨ ᎠᏣᏗ", "waniɡe adʒaʔdĩ"],  // Literally 'limber fish' (ᏩᏂᎨ wanige 'mush, limber' plus ᎠᏣᏗ 'fish'), a calque of English jellyfish.
     fy: ["kwab", "kvɔp"],  // Its first sense is a weak, blubbery mass of fat or flesh; kwabbe is the fuller form.
+    mh: ["jan̄ij", "tʲæŋitʲ"],  // No image is recorded for it, so it counts as a word of its own.
+    mnc: ["ᠰᠠᠩᡤᡠᠵᡳ", "saŋɡudʒi"],  // No image is recorded for it, so it counts as a word of its own.
+    nrf: ["leune", "løn"],  // The same word as leune, 'moon'.
   },
 };

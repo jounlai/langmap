@@ -329,6 +329,22 @@ WORDS.lion = {
     cjy_xz: "shi",
     hsn_hy: "shi",
     frr_amr: "leo",
+    crs: "leo",
+    gcf: "leo",
+    gmy: "leo",
+    nd: "plain",
+    tru: "plain",
+    zag: "plain",
+    pdc: "leo",
+    csb: "leo",
+    kpv: "leo",
+    fro: "leo",
+    non: "leo",
+    kea: "leo",
+    hif: "shir",
+    nlc: "simha",
+    tkl: "leo",
+    cmg: "arslan",
   },
   routes: {
     leo: {"color":"#2563eb","emoji":"🏛️","en":"from Latin leo, Greek leon (Löwe, лев, león)","ja":"ラテン語 leo、ギリシア語 leon から (Löwe, лев, león)","ko":"라틴어 leo, 그리스어 leon에서 (Löwe, лев, león)","zh":"来自拉丁语 leo、希腊语 leon (Löwe, лев, león)","yue":"嚟自拉丁語 leo、希臘語 leon (Löwe, лев, león)","vi":"từ tiếng Latinh leo, tiếng Hy Lạp leon (Löwe, лев, león)","th":"จากภาษาละติน leo ภาษากรีก leon (Löwe, лев, león)","id":"dari leo Latin, leon Yunani (Löwe, лев, león)","hi":"लैटिन leo, यूनानी leon से (Löwe, лев, león)","de":"aus Lateinisch leo, Griechisch leon (Löwe, лев, león)","fr":"du latin leo, du grec leon (Löwe, лев, león)","it":"dal latino leo, dal greco leon (Löwe, лев, león)","es":"del latín leo, del griego leon (Löwe, лев, león)","pt":"do latim leo, do grego leon (Löwe, лев, león)","ru":"от латинского leo, греческого leon (Löwe, лев, león)","uk":"від латинського leo, грецького leon (Löwe, лев, león)","ar":"من اللاتينية leo واليونانية leon (Löwe, лев, león)","he":"מהלטינית leo, מהיוונית leon (Löwe, лев, león)","sw":"kutoka Kilatini leo, Kigiriki leon (Löwe, лев, león)"},
@@ -600,5 +616,21 @@ WORDS.lion = {
     cjy_xz: ["狮子", "sɿ˧˩˧ tsɿ˧˩˧"],  // The Chinese word for the lion, 獅子, built on 獅.
     hsn_hy: ["狮子", "sɿ˦˦˥ tsɿ˧˧"],  // The Chinese word for the lion, 獅子, built on 獅.
     frr_amr: ["lööw", "løːv"],  // Possibly from German Löwe, or inherited from Old Frisian; both go back to the Latin leo line.
+    crs: ["lyon", "ljɔ̃"],  // From French lion.
+    gcf: ["lyon", "ljɔ̃"],  // From French lion.
+    gmy: ["𐀩𐀺", "lewoːn"],  // Written re-wo in Linear B; cognate with Ancient Greek λέων.
+    nd: ["isilwane", "isilwane"],  // No image is recorded for it, so it counts as a word of its own.
+    tru: ["ܐܪܝܐ", "arjo"],  // From Aramaic aryā, from Proto-Semitic *ʔarway-.
+    zag: ["sura", "suɾa"],  // No origin is recorded for it, so it counts as a word of its own.
+    pdc: ["Leeb", "leːp"],  // The same word as German Löwe.
+    csb: ["lew", "lɛf"],  // Inherited from Proto-Slavic, the same word as Polish lew; it goes back to Latin leō.
+    kpv: ["лев", "ʎev"],  // Borrowed from Russian лев.
+    fro: ["lion", "liˈõn"],  // A semi-learned borrowing from Latin leō, from Greek λέων.
+    non: ["león", "ˈleoːn"],  // Borrowed from Latin leō.
+    kea: ["lion", "liˈɔ̃"],  // Inherited from Portuguese leão, from Latin leo.
+    hif: ["sher", "ʃeːr"],  // No etymology is given; it is the Hindi शेर, from Persian šēr.
+    nlc: ["singa", "siŋa"],  // From Indonesian and Malay singa, from Sanskrit siṃha.
+    tkl: ["leona", "leona"],  // A learned borrowing from Samoan leona, from Greek λέων.
+    cmg: ["ᠠᠷᠰᠯᠠᠩ", "arslaŋ"],  // Borrowed from Proto-Turkic arsïlan 'lion'.
   },
 };

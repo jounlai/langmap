@@ -375,6 +375,50 @@ WORDS.thousand = {
     otk: "plain",
     txb: "plain",
     arc: "alf",
+    arn: "plain",
+    bpy: "hazar",
+    cop: "plain",
+    hne: "sahasra",
+    ki: "plain",
+    mh: "strong",
+    ojp: "plain",
+    osp: "mille",
+    osx: "strong",
+    sga: "mille",
+    srn: "strong",
+    tru: "alf",
+    za: "qian",
+    syc: "alf",
+    pdc: "strong",
+    nrf: "mille",
+    sn: "plain",
+    cbk: "mille",
+    slr: "plain",
+    rmf: "plain",
+    kfr: "hazar",
+    bal: "hazar",
+    uga: "alf",
+    co: "mille",
+    ybe: "plain",
+    ts: "plain",
+    tyz: "qian",
+    cu: "strong",
+    fro: "mille",
+    non: "strong",
+    goh: "strong",
+    lad: "mille",
+    pi: "sahasra",
+    hif: "hazar",
+    ium: "qian",
+    nso: "plain",
+    orh: "plain",
+    rw: "plain",
+    kw: "mille",
+    haj: "hazar",
+    ve: "plain",
+    ude: "plain",
+    ii: "plain",
+    bft: "plain",
   },
   routes: {
     strong: {"color":"#2563eb","emoji":"🔢","en":"the Germanic and Slavic thousand","ja":"ゲルマン語とスラヴ語の「千」","ko":"게르만어와 슬라브어의 ‘천’","zh":"日耳曼语和斯拉夫语的“千”","yue":"日耳曼語同斯拉夫語嘅「千」","vi":"“nghìn” của các tiếng German và Slav","th":"คำว่า “พัน” ของภาษาเจอร์แมนิกและสลาฟ","id":"kata “ribu” rumpun Jermanik dan Slavia","hi":"जर्मनिक और स्लाव भाषाओं का ‘हज़ार’","de":"das germanische und slawische Tausend","fr":"le « mille » germanique et slave","it":"il “mille” germanico e slavo","es":"el «mil» germánico y eslavo","pt":"o «mil» germânico e eslavo","ru":"«тысяча» германских и славянских языков","uk":"«тисяча» германських і слов’янських мов","ar":"«الألف» في الجرمانية والسلافية","he":"„אלף” הגרמאני והסלאבי","sw":"“elfu” ya lugha za Kijerumani na Kislavu"},
@@ -691,5 +735,49 @@ WORDS.thousand = {
     otk: ["𐰋𐰃𐰭", "biŋ"],  // Inherited from Proto-Turkic *bïŋ, like Turkish bin.
     txb: ["𑀬𑀮𑁆𑀢𑁆𑀲𑁂", "jaltse"],  // Tocharian B yaltse; compare Tocharian A wälts. No image is recorded for it, so it counts as a word of its own.
     arc: ["ܐܠܦܐ", "ʔalpaː"],  // Classical Syriac ʾalpā, a cognate of Arabic alf and Hebrew elef.
+    arn: ["waranka", "waɾaŋka"],  // No origin is recorded for it, so it counts as a word of its own.
+    bpy: ["হাজার", "hadʒar"],  // The Persian loan hazār, as in Bengali হাজার.
+    cop: ["ϣⲟ", "ʃoʔ"],  // From Demotic ḫꜣ, from Egyptian ḫꜣ 'thousand'.
+    hne: ["सहस", "səhəs"],  // Inherited through Prakrit sahassa from Sanskrit sahasra.
+    ki: ["ngiri", "ŋɡiɾi"],  // No image is recorded for it, so it counts as a word of its own.
+    mh: ["to̧ujin", "tˠæwitʲinʲ"],  // Borrowed from English thousand.
+    ojp: ["千", "ti"],  // The native Old Japanese word read ti, not the Chinese loan sen.
+    osp: ["mil", "mil"],  // Inherited from Latin mīlle.
+    osx: ["thusund", "ˈθusund"],  // From Proto-Germanic *þūsundī.
+    sga: ["míle", "ˈmʲiːlʲe"],  // Borrowed from Latin mīlia.
+    srn: ["dusun", "dusun"],  // Borrowed from Dutch duizend.
+    tru: ["ܐܠܦܐ", "alfo"],  // The Aramaic word for thousand, as in Arabic alf.
+    za: ["cien", "ɕiːn˨˦"],  // Borrowed from Chinese 千.
+    syc: ["ܐܠܦܐ", "ʔalpɑ"],  // Inherited from Proto-Semitic *ʔalp-, the same word as Arabic alf.
+    pdc: ["dausend", "ˈdaʊsənt"],  // From Old High German dūsunt, like German tausend.
+    nrf: ["mille", "mil"],  // From Old French mile, from Latin mīlle.
+    sn: ["chiuru", "tʃiuru"],  // No image is recorded for it, so it counts as a word of its own.
+    cbk: ["mil", "mil"],  // Inherited from Spanish mil.
+    slr: ["miñ", "miŋ"],  // From Proto-Turkic *bïŋ.
+    rmf: ["aadur", "ˈaːdur"],  // No origin is recorded for it, so it counts as a word of its own.
+    kfr: ["હજાર", "hədʒaːr"],  // Borrowed from Classical Persian hazār.
+    bal: ["ہزار", "hazaːr"],  // Inherited from Proto-Iranian *hajáhram, the same word as Persian hazār.
+    uga: ["𐎀𐎍𐎔", "ʔalpu"],  // From Proto-West Semitic *ʔalp-, the same word as Arabic alf; it also means a head of cattle.
+    co: ["mille", "ˈmille"],  // From Latin mille.
+    ybe: ["mïŋ", "mɯŋ"],  // Inherited from Proto-Turkic *bïŋ.
+    ts: ["gidi", "ɡidi"],  // No origin is recorded for it, so it counts as a word of its own.
+    tyz: ["xiên", "siən˧˥"],  // From Chinese 千.
+    cu: ["тꙑсѫщи", "tɨsɔ̃ʃti"],  // The Slavic word for thousand, like Russian тысяча.
+    fro: ["mile", "ˈmilə"],  // From Latin mīlle.
+    non: ["þúsund", "ˈθuːsund"],  // From Proto-Germanic þūsundī, of unclear origin.
+    goh: ["dūsunt", "ˈduːsunt"],  // From Proto-Germanic þūsundī.
+    lad: ["mil", "mil"],  // Inherited from Old Spanish mil, from Latin mīlle.
+    pi: ["सहस्स", "sahasːa"],  // Inherited from Sanskrit sahasra.
+    hif: ["hajaar", "ɦədʒaːr"],  // Inherited from Awadhi हजार, from Persian hazār.
+    ium: ["cin", "tsʰin˧"],  // From Proto-Hmong-Mien tsʰi̯en, from Chinese 千.
+    nso: ["sekete", "sekete"],  // No image is recorded for it, so it counts as a word of its own.
+    orh: ["miŋga", "miŋɡa"],  // Shared with other Tungusic languages and Manchu minggan; no image is recorded for it.
+    rw: ["igihumbi", "iɡihumbi"],  // No image is recorded for it, so it counts as a word of its own.
+    kw: ["mil", "mil"],  // From Proto-Brythonic mil, from Latin mīlia.
+    haj: ["হাজাৰ", "hadʒaɾ"],  // No etymology is given; it is the Persian hazār of Bengali হাজার.
+    ve: ["gidi", "ɡidi"],  // No image is recorded for it, so it counts as a word of its own.
+    ude: ["миӈга", "miŋɡa"],  // No image is recorded for it, so it counts as a word of its own.
+    ii: ["ꄙ", "tu̠˧˧"],  // From Proto-Sino-Tibetan s-toŋ 'thousand'; no image is recorded for it.
+    bft: ["སྟོང", "stoŋ"],  // From Proto-Sino-Tibetan s-toŋ 'thousand', like Tibetan སྟོང.
   },
 };

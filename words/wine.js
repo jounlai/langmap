@@ -995,6 +995,7 @@ WORDS.wine = {
     twm: "other",
     clk: "other",
     kr: "other",
+    mnc: "other",
   },
   routes: {
     ie: { color: "#7c2d12", emoji: "🏺", en: "Indo-European *wóyh₁nom", ja: "印欧祖語 *wóyh₁nom", ko: "인도유럽조어 *wóyh₁nom", zh: "原始印欧语 *wóyh₁nom", yue: "原始印歐語 *wóyh₁nom", vi: "Ấn-Âu nguyên thủy *wóyh₁nom", th: "อินโด-ยูโรเปียนดั้งเดิม *wóyh₁nom", id: "Proto-Indo-Eropa *wóyh₁nom", hi: "आद्य-भारोपीय *wóyh₁nom", de: "Urindogermanisch *wóyh₁nom", fr: "indo-européen commun *wóyh₁nom", it: "protoindoeuropeo *wóyh₁nom", es: "protoindoeuropeo *wóyh₁nom", pt: "protoindo-europeu *wóyh₁nom", ru: "праиндоевроп. *wóyh₁nom", uk: "праіндоєвроп. *wóyh₁nom", ar: "الهندية الأوروبية الأم *wóyh₁nom", he: "הודו-אירופית קדומה *wóyh₁nom", sw: "Kihindi-Ulaya cha kale *wóyh₁nom" },
@@ -2019,5 +2020,6 @@ WORDS.wine = {
     twm: ["tɕhᴀŋ53", "tɕʰᴀŋ˥˧"],  // Sun 1991 (Mama Tshona) tɕhᴀŋ⁵³, the row's list. Gloss 'liquor', not grape wine. Tone letters from the row's pairs.
     clk: ["ju55ɦɑ55ɹɑ55", "ju˥˥ɦɑ˥˥ɹɑ˥˥"],  // Sun 1991 (Idu) ju⁵⁵ɦɑ⁵⁵ɹɑ⁵⁵, the row's list. Gloss 'liquor', not grape wine. Tone letters from the row's pairs.
     kr: ["mbal", "mbal"],  // WOLD Kanuri mbàl, the row's list (71 of 73). Tone marks left out as the row does.
+    mnc: ["ᠨᡠᡵᡝ", "nurə"],  // A word of its own for wine and alcoholic drink; it also names huangjiu.
   },
 };

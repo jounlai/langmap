@@ -643,6 +643,7 @@ WORDS.monday = {
     kw: "moon",
     nci: "count",
     lld: "moon",
+    mdf: "after",
   },
   routes: {
     moon: {"color":"#7c3aed","emoji":"🌙","en":"the moon's day","ja":"月の日","ko":"달의 날","zh":"月亮之日","yue":"月亮嘅日","vi":"ngày mặt trăng","th":"วันของดวงจันทร์","id":"hari bulan","hi":"चंद्रमा का दिन","de":"Tag des Mondes","fr":"jour de la lune","it":"giorno della luna","es":"día de la luna","pt":"dia da lua","ru":"день луны","uk":"день місяця","ar":"يوم القمر","he":"יום הירח","sw":"siku ya mwezi"},
@@ -1228,5 +1229,6 @@ WORDS.monday = {
     kw: ["dy'Lun", "dɪˈlyːn"],  // 'Day of the Moon': dydh 'day' plus Lun, a partial calque of Latin dies Lunae.
     nci: ["ic ōmilhuitl semana", "ikoːˈmiɬwitɬ ʃiˈmaːnaʔ"],  // 'The second day of the week': ic ōme 'second' plus ilhuitl 'day' plus Spanish semana 'week'; the seven-day week came with the Spanish.
     lld: ["lunesc", "luˈneʃk"],  // From Latin dies Lunae 'day of the moon'.
+    mdf: ["понедельник", "pənʲəˈdʲelʲnʲək"],  // Borrowed from Russian понедельник, 'the day after Sunday'.
   },
 };

@@ -471,6 +471,39 @@ WORDS.twenty = {
     tzm: "plain",
     txb: "fused",
     nrf_gg: "base",
+    bpy: "fused",
+    cop: "fused",
+    mch: "person",
+    mwl: "fused",
+    osx: "fused",
+    pms: "fused",
+    sga: "base",
+    zag: "plain",
+    enm: "fused",
+    cbk: "fused",
+    bal: "fused",
+    ppl: "base",
+    hil: "other",
+    co: "fused",
+    mr: "fused",
+    bi: "fused",
+    ses: "plain",
+    ext: "fused",
+    chy: "plain",
+    non: "fused",
+    goh: "fused",
+    kea: "fused",
+    stq: "fused",
+    dak: "tens",
+    kok: "fused",
+    lij: "fused",
+    lb: "fused",
+    ne: "fused",
+    tsg: "other",
+    ude: "plain",
+    bnn: "plain",
+    rhg: "plain",
+    ttj: "other",
   },
   routes: {
     tens: {"color":"#2563eb","emoji":"🔟","en":"two and the free word for ten","ja":"二と「十」の語","ko":"둘과 ‘열’이라는 낱말","zh":"二加“十”这个词","yue":"二加「十」呢個詞","vi":"hai và từ “mười”","th":"สองกับคำว่าสิบ","id":"dua dan kata untuk sepuluh","hi":"दो और दस का शब्द","de":"zwei und das Wort für zehn","fr":"deux et le mot pour dix","it":"due e la parola per dieci","es":"dos y la palabra para diez","pt":"dois e a palavra para dez","ru":"два и слово «десять»","uk":"два і слово «десять»","ar":"اثنان وكلمة عشرة","he":"שתיים והמילה עשר","sw":"mbili na neno la kumi"},
@@ -881,5 +914,38 @@ WORDS.twenty = {
     tzm: ["ⴰⴳⵏⴰⵔ", "aɡnar"],  // The native Berber word; ⵄⵛⵔⵉⵏ from Arabic is also used.
     txb: ["𑀇𑀓𑀁", "ikəm"],  // Tocharian B ikäṃ, inherited from the Indo-European 'two tens' (Wiktionary).
     nrf_gg: ["vingt", "vɛ̃"],  // From Latin vīgintī 'twenty'.
+    bpy: ["বিশ", "biʃ"],  // The same word as Bengali বিশ, from Sanskrit viṃśati.
+    cop: ["ϫⲟⲩⲱⲧ", "tʃwoːt"],  // From Egyptian mḏwtj, analysed as the dual of mḏw 'ten'.
+    mch: ["sotto", "sotto"],  // The word for person, from Proto-Cariban *wɨtoto 'person'; it means twenty inside numerals.
+    mwl: ["binte", "ˈbĩtɨ"],  // Inherited from Latin vīgintī.
+    osx: ["twentig", "ˈtwentiɣ"],  // From Proto-Germanic *twai tigiwiz 'two tens'.
+    pms: ["vint", "vint"],  // From Latin vīgintī.
+    sga: ["fiche", "ˈfʲixʲe"],  // From Proto-Celtic *wikantī, from an old 'two tens'; Irish counts by twenties on this word.
+    zag: ["dedi", "dedi"],  // No analysis is recorded for it, so it counts as a word of its own.
+    enm: ["twenty", "ˈtwɛntiː"],  // From Old English twēntiġ, 'two tens' worn down to one word.
+    cbk: ["veinte", "ˈbejnte"],  // Inherited from Spanish veinte.
+    bal: ["گیست", "ɡiːst"],  // The Balochi form of the Iranian 'twenty', Persian bist.
+    ppl: ["senpual", "seːmˈpuwal"],  // Literally 'one count': sēn- 'one' plus pual 'count', like Classical Nahuatl cempōhualli.
+    hil: ["kaluhaan", "kaluˈhaʔan"],  // Built from duha 'two' with ka- -an, like Cebuano kawhaan.
+    co: ["vinti", "ˈvinti"],  // From Latin vīgintī.
+    mr: ["वीस", "ʋiːs"],  // Inherited through Prakrit vīsaï from Sanskrit viṃśati.
+    bi: ["twante", "twante"],  // From English twenty.
+    ses: ["waranka", "waranka"],  // No origin is recorded for it, so it counts as a word of its own.
+    ext: ["venti", "ˈbenti"],  // From Latin vīgintī.
+    chy: ["nésóʼe", "nésóʔe"],  // No origin is recorded for it, so it counts as a word of its own.
+    non: ["tuttugu", "ˈtutːuɡu"],  // From Proto-Germanic twai tigiwiz, 'two tens', worn down to one word.
+    goh: ["zweinzug", "ˈtsweintsuɡ"],  // From Proto-Germanic twai tigiwiz, 'two tens', worn down to one word.
+    kea: ["vinti", "ˈvinti"],  // From Portuguese vinte, from Latin vīgintī, 'two tens' worn down to one word.
+    stq: ["twintich", "ˈtvɪntɪx"],  // From Proto-Germanic twai tigiwiz, 'two tens' worn down to one word.
+    dak: ["wikčémna núŋpa", "wiktʃémna nṹpa"],  // Literally 'ten two': wikčémna 'ten' and núŋpa 'two'.
+    kok: ["वीस", "ʋiːs"],  // From Sanskrit viṃśati, 'two tens' worn down to one word.
+    lij: ["vìnti", "ˈviŋti"],  // From Latin vīgintī, 'two tens' worn down to one word.
+    lb: ["zwanzeg", "ˈtswɑntsəɕ"],  // Like German zwanzig, 'two tens' worn down to one word.
+    ne: ["बीस", "bis"],  // The same word as Hindi बीस, from Sanskrit viṃśati, 'two tens' worn down to one word.
+    tsg: ["kawhaan", "kawhaʔan"],  // Built on duwa 'two' with ka- -an, with no ten in it.
+    ude: ["вайи", "waji"],  // Shared with other Tungusic words for twenty (Nanai хорин); no image is recorded for it.
+    bnn: ["mapusan", "mapusan"],  // No etymology is given, so it counts as a word of its own.
+    rhg: ["kuri", "kuri"],  // No etymology is given, so it counts as a word of its own.
+    ttj: ["abiri", "aːβiɾi"],  // A clipping of makumi abiri 'two tens': the word for two alone.
   },
 };

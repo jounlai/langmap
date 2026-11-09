@@ -330,6 +330,9 @@ WORDS.octopus = {
     nrf: "many",
     rcf: "plain",
     nrf_gg: "many",
+    mh: "plain",
+    an: "many",
+    yur: "plain",
   },
   routes: {
     eight: {"color":"#2563eb","emoji":"8️⃣","en":"eight feet","ja":"8本の足","ko":"여덟 발","zh":"八条腿","yue":"八隻腳","vi":"tám chân","th":"แปดเท้า","id":"delapan kaki","hi":"आठ पैर","de":"acht Füße","fr":"huit pieds","it":"otto piedi","es":"ocho pies","pt":"oito pés","ru":"восемь ног","uk":"вісім ніг","ar":"ثماني أقدام","he":"שמונה רגליים","sw":"miguu minane"},
@@ -604,5 +607,8 @@ WORDS.octopus = {
     nrf: ["pieuvre", "pjœvr"],  // From Latin polypus, Greek polúpous 'several feet'.
     rcf: ["zourit", "zuʁit"],  // From French les ourites, from Malagasy horita.
     nrf_gg: ["pieuvre", "pjœvr"],  // From Latin polypus, Greek polúpous 'several feet'.
+    mh: ["kweet", "kʷejetˠ"],  // Inherited from Proto-Micronesian *kuyita; related to Malay kurita and Fijian kuita.
+    an: ["polpo", "ˈpolpo"],  // Inherited from Latin polypus, 'many-footed'.
+    yur: ["paamew", "paːmew"],  // No image is recorded for it, so it counts as a word of its own.
   },
 };

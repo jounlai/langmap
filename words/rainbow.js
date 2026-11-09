@@ -813,6 +813,7 @@ WORDS.rainbow = {
     ksw: "plain",
     mdh: "plain",
     cic: "plain",
+    afb: "bow",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1569,5 +1570,6 @@ WORDS.rainbow = {
     ksw: ["တၢၢ်ကွဲၤ", "tɛkwɛ"],  // S'gaw Karen 'rainbow' (SEAlang). No image is recorded for it, so it counts as a word of its own. IPA read from the script; the dictionary prints none.
     mdh: ["pagayaw", "paɡajaw"],  // Maguindanao pagayaw 'rainbow' (SEAlang); Maranao has the same word. No image is recorded for it, so it counts as a word of its own.
     cic: ["nakbatiipoliʼ", "nakbatiːpoliʔ"],  // No origin is recorded for it, so it counts as a word of its own.
+    afb: ["قز قزح", "qʊz qʊzəħ"],  // A semi-learned borrowing from Arabic qaws quzaḥ, 'the bow of Quzah'.
   },
 };

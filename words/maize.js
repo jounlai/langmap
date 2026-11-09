@@ -397,6 +397,16 @@ WORDS.maize = {
     wuu_nb: "other",
     wuu_jx: "grain",
     wuu_jh: "plain",
+    bsq: "plain",
+    cuk: "plain",
+    mh: "grain",
+    moh: "plain",
+    nci: "plain",
+    se: "mahiz",
+    ssf: "plain",
+    pdc: "grain",
+    one: "plain",
+    dak: "plain",
   },
   routes: {
     mahiz: {"color":"#eab308","emoji":"🌽","en":"from Taíno mahiz (maíz, Mais, maïs)","ja":"タイノ語 mahiz から（maíz, Mais, maïs）","ko":"타이노어 mahiz에서 (maíz, Mais, maïs)","zh":"源自泰诺语 mahiz（maíz, Mais, maïs）","yue":"源自泰諾語 mahiz（maíz, Mais, maïs）","vi":"từ tiếng Taíno mahiz (maíz, Mais, maïs)","th":"จากภาษาไตโน mahiz (maíz, Mais, maïs)","id":"dari bahasa Taíno mahiz (maíz, Mais, maïs)","hi":"ताइनो mahiz से (maíz, Mais, maïs)","de":"aus Taíno mahiz (maíz, Mais, maïs)","fr":"du taïno mahiz (maíz, Mais, maïs)","it":"dal taíno mahiz (maíz, Mais, maïs)","es":"del taíno mahiz (maíz, Mais, maïs)","pt":"do taíno mahiz (maíz, Mais, maïs)","ru":"из таино mahiz (maíz, Mais, maïs)","uk":"з таїно mahiz (maíz, Mais, maïs)","ar":"من mahiz في لغة التاينو (maíz, Mais, maïs)","he":"מ-mahiz בטאינו (maíz, Mais, maïs)","sw":"kutoka Kitaino mahiz (maíz, Mais, maïs)"},
@@ -732,5 +742,15 @@ WORDS.maize = {
     wuu_nb: ["六谷", "loʔ˩˨ koʔ˥˥"],  // Literally 'the sixth grain', a grain outside the traditional five.
     wuu_jx: ["芦粟", "ləuᵝ˧˩ soʔ˥"],  // Literally 'reed millet'; elsewhere the word means sorghum.
     wuu_jh: ["包萝", "pɑu˧˧˦ luɤ˧˩˧"],  // No image is recorded for it, so it counts as a word of its own.
+    bsq: ["mɛ́ɛ̀n", "mɛ́ɛ̀n"],  // No image is recorded for it, so it counts as a word of its own.
+    cuk: ["chichab", "tʃitʃab"],  // No image is recorded for it, so it counts as a word of its own.
+    mh: ["ko̧o̧n", "kæwænʲ"],  // Borrowed from English corn.
+    moh: ["ó:nenhste", "óːnʌ̃hste"],  // From Proto-North Iroquoian *-nẽhst-; no image is recorded for it.
+    nci: ["tlaōlli", "tɬaˈoːlːi"],  // No image is recorded for it; compare ōlōtl 'maize cob' and ēlōtl 'green ear of maize'.
+    se: ["máisa", "ˈmaːjːsa"],  // No origin is recorded; it matches Swedish majs and Finnish maissi.
+    ssf: ["tipur", "tipuɾ"],  // No image is recorded for it, so it counts as a word of its own.
+    pdc: ["Welschkann", "ˈvɛlʃkan"],  // Literally 'foreign grain': welsch 'foreign' plus Kann, the word for rye.
+    one: ["o:nʌ́steʼ", "oːnʌ̃́steʔ"],  // Inherited from Proto-North Iroquoian *-nẽhst-, like Mohawk ó꞉nenhste.
+    dak: ["wagmíza", "waɡmíza"],  // No image is recorded for it, so it counts as a word of its own.
   },
 };

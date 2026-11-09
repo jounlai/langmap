@@ -793,6 +793,7 @@ WORDS.tea = {
     ksw: "leaf",
     mdh: "te",
     slr: "other",
+    uby: "cha",
   },
   // Route marker shown on each tea label (this concept only): which trade
   // route the word travelled. Localized; falls back to en.
@@ -1546,5 +1547,6 @@ WORDS.tea = {
     ksw: ["လၣ်ဖးထံ", "lapʰatʰi"],  // S'gaw Karen 'tea, the hot drink' (SEAlang): လၣ်ဖး 'dried tea leaves' with ထံ 'water'. IPA read from the script; the dictionary prints none.
     mdh: ["ti", "ti"],  // Maguindanao ti 'tea' (SEAlang).
     slr: ["saluq", "sɑluχ"],  // From salğusı, not the cha word; ça is a synonym.
+    uby: ["čaaj", "tʃaːj"],  // From Russian чай, from Chinese 茶 chá.
   },
 };

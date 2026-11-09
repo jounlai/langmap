@@ -252,6 +252,41 @@ WORDS.tobacco = {
     pa: "tanbaku",
     xh: "plain",
     niv: "tanbaku",
+    apw: "plain",
+    bbl: "tanbaku",
+    dty: "tabaco",
+    ki: "plain",
+    mch: "plain",
+    nch: "plain",
+    nhe: "plain",
+    pao: "plain",
+    rm: "tabaco",
+    wrh: "tabaco",
+    wym: "tabaco",
+    pdc: "tabaco",
+    sn: "other",
+    lzz: "smoke",
+    mwr: "tanbaku",
+    ceb: "tabaco",
+    zu: "plain",
+    tpi: "tabaco",
+    chk: "smoke",
+    yo: "other",
+    hop: "plain",
+    hch: "plain",
+    sid: "plain",
+    krc: "smoke",
+    haw: "tabaco",
+    ami: "tabaco",
+    szl: "tabaco",
+    hif: "tanbaku",
+    tsg: "tabaco",
+    rw: "tabaco",
+    yur: "plain",
+    su: "tabaco",
+    car: "plain",
+    arp: "plain",
+    ia: "tabaco",
   },
   routes: {
     tabaco: {"color":"#b45309","emoji":"🌿","en":"Spanish and Portuguese tabaco","ja":"スペイン語・ポルトガル語の tabaco","ko":"스페인어·포르투갈어 tabaco","zh":"西班牙语和葡萄牙语的 tabaco","yue":"西班牙語同葡萄牙語嘅 tabaco","vi":"tabaco của tiếng Tây Ban Nha và Bồ Đào Nha","th":"tabaco ของสเปนและโปรตุเกส","id":"tabaco dari Spanyol dan Portugis","hi":"स्पेनिश और पुर्तगाली tabaco","de":"spanisch und portugiesisch tabaco","fr":"le tabaco espagnol et portugais","it":"il tabaco spagnolo e portoghese","es":"el tabaco español y portugués","pt":"o tabaco espanhol e português","ru":"испанское и португальское tabaco","uk":"іспанське й португальське tabaco","ar":"tabaco الإسبانية والبرتغالية","he":"tabaco הספרדית והפורטוגזית","sw":"tabaco ya Kihispania na Kireno"},
@@ -444,5 +479,40 @@ WORDS.tobacco = {
     pa: ["ਤਮਾਕੂ", "təmaːkuː"],  // Borrowed from Classical Persian تنباکو.
     xh: ["icuba", "iǀuːɓa"],  // No image is recorded for it, so it counts as a word of its own; irhameti is a synonym.
     niv: ["тамх", "tamx"],  // From a Mongolic language, like Mongolian тамхи, which comes from Persian تنباکو.
+    apw: ["nato", "nato"],  // No image is recorded for it, so it counts as a word of its own.
+    bbl: ["თამბაქო", "tambakŏ"],  // Borrowed from Georgian თამბაქო.
+    dty: ["तमाख", "təmaːkʰ"],  // From Portuguese tabaco.
+    ki: ["mbakĩ", "mbake"],  // No image is recorded for it; it also means snuff and the tobacco plant.
+    mch: ["kawai", "kawaj"],  // No image is recorded for it, so it counts as a word of its own.
+    nch: ["iyatl", "ijatɬ"],  // No image is recorded for it, so it counts as a word of its own.
+    nhe: ["iyatl", "ˈijatɬ"],  // Cognate with Classical Nahuatl iyetl; no image is recorded for it.
+    pao: ["pahmu", "pahmu"],  // No origin is recorded for it (the entry compares Cahuilla pívat), so it counts as a word of its own.
+    rm: ["tubac", "tuˈbak"],  // The same word as Italian tabacco.
+    wrh: ["biyaga", "ˈbijaɡa"],  // From English bacca, a dialect form of tobacco.
+    wym: ["tabak", "ˈtabak"],  // The same word as German Tabak.
+    pdc: ["Duwack", "ˈduvak"],  // The same word as German Tabak and English tobacco.
+    sn: ["fodya", "fodja"],  // Borrowed from Portuguese folha, 'leaf'.
+    lzz: ["თუთუნი", "tʰutʰuni"],  // Borrowed from Ottoman Turkish tütün, 'smoke'.
+    mwr: ["तमाकू", "təmaːkuː"],  // From Classical Persian تنباکو tanbākū.
+    ceb: ["tabako", "taˈbakoʔ"],  // Borrowed from Spanish tabaco.
+    zu: ["ugwayi", "uɡwaːji"],  // No image is recorded for it, so it counts as a word of its own.
+    tpi: ["tabak", "tabak"],  // Borrowed from German Tabak.
+    chk: ["supwa", "supʷa"],  // The same word means smoke.
+    yo: ["tábà", "tábà"],  // Borrowed from Hausa tāba, ultimately from Arabic ṭubbāq.
+    hop: ["piva", "piva"],  // From Proto-Uto-Aztecan *pipaC.
+    hch: ["yá", "ja"],  // From Proto-Uto-Aztecan *pipaC.
+    sid: ["araddo", "aɾadːo"],  // No origin is recorded for it, so it counts as a word of its own.
+    krc: ["тютюн", "tytyn"],  // From Proto-Turkic *tütün; the same word means smoke.
+    haw: ["paka", "paka"],  // From English tobacco.
+    ami: ["tamako^", "tamakoʔ"],  // No etymology is given; it resembles Japanese tabako.
+    szl: ["tabaka", "taˈbaka"],  // Borrowed from German Tabak.
+    hif: ["tamaakuu", "təmaːkuː"],  // From Hindi तमाकू, from Persian tanbākū.
+    tsg: ["tabakuꞌ", "tabakuʔ"],  // No etymology is given; it is the Spanish tabaco word, like Tagalog tabako.
+    rw: ["itabi", "itabi"],  // From French tabac.
+    yur: ["hohkuem", "hɔhkum"],  // No image is recorded for it, so it counts as a word of its own.
+    su: ["bako", "bako"],  // Borrowed from Portuguese tabaco.
+    car: ["tamy", "taːmɨ"],  // From Proto-Cariban tamɨ, an old American word; no image is recorded for it.
+    arp: ["síísoowoo", "síːsoːwoː"],  // No image is recorded for it, so it counts as a word of its own.
+    ia: ["tabaco", "taˈbako"],  // The Spanish and Portuguese word tabaco.
   },
 };

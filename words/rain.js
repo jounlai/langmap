@@ -1193,5 +1193,6 @@ WORDS.rain = {
     zh_jiao: ["雨", "y˥˥"],
     kim: ["өъскен", "øʔsken"],  // Tofa, glossed «дождь» in Rassadin's dictionary.
     pot: ["gméya", "ɡmeja"],  // 'It is raining.'
+    ake: ["tuna", "tuna"],  // The same word as tuna, 'water'.
   },
 };

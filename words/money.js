@@ -417,6 +417,45 @@ WORDS.money = {
     wuu_sz: "coin",
     wuu_nb: "coin",
     wuu_jh: "coin",
+    bar: "pay",
+    cro: "coin",
+    ee: "other",
+    mh: "coin",
+    new: "plain",
+    osp: "coin",
+    osx: "other",
+    pdt: "pay",
+    ssf: "plain",
+    tn: "other",
+    wym: "pay",
+    syc: "silver",
+    pdc: "pay",
+    slr: "other",
+    lzz: "coin",
+    afb: "coin",
+    aa: "silver",
+    uga: "silver",
+    csb: "coin",
+    co: "coin",
+    rmt: "coin",
+    hns: "plain",
+    crn: "coin",
+    fro: "coin",
+    stq: "pay",
+    grt: "coin",
+    ium: "plain",
+    aii: "silver",
+    xh: "other",
+    lij: "coin",
+    ofs: "pay",
+    tsg: "silver",
+    yur: "plain",
+    vot: "other",
+    pwn: "plain",
+    tar: "unknown",
+    blc: "unknown",
+    kky: "other",
+    tzo: "silver",
   },
   routes: {
     silver: {"color":"#64748b","emoji":"🥈","en":"a word for silver or gold (argent, כסף, เงิน)","ja":"銀や金を指す語（argent, כסף, เงิน）","ko":"은이나 금을 뜻하는 말 (argent, כסף, เงิน)","zh":"指银或金的词（argent, כסף, เงิน）","yue":"指銀或者金嘅詞（argent, כסף, เงิน）","vi":"từ chỉ bạc hoặc vàng (argent, כסף, เงิน)","th":"คำที่หมายถึงเงินหรือทอง (argent, כסף, เงิน)","id":"kata untuk perak atau emas (argent, כסף, เงิน)","hi":"चाँदी या सोने का शब्द (argent, כסף, เงิน)","de":"ein Wort für Silber oder Gold (argent, כסף, เงิน)","fr":"un mot pour l'argent métal ou l'or (argent, כסף, เงิน)","it":"una parola per l'argento o l'oro (argent, כסף, เงิน)","es":"una palabra para la plata o el oro (argent, כסף, เงิน)","pt":"uma palavra para a prata ou o ouro (argent, כסף, เงิน)","ru":"слово для серебра или золота (argent, כסף, เงิน)","uk":"слово для срібла чи золота (argent, כסף, เงิน)","ar":"كلمة للفضة أو الذهب (argent, כסף, เงิน)","he":"מילה לכסף המתכת או לזהב (argent, כסף, เงิน)","sw":"neno la fedha au dhahabu (argent, כסף, เงิน)"},
@@ -774,5 +813,44 @@ WORDS.money = {
     wuu_sz: ["铜钿", "doŋ˨˨˧ di˨˨˧"],  // Literally 'copper coins', the Wu word for money.
     wuu_nb: ["铜钿", "doŋ˧˩˧ di˩˩˧"],  // Literally 'copper coins', the Wu word for money.
     wuu_jh: ["铜钿", "doŋ˧˩˧ die˧˩˧"],  // Literally 'copper coins', the Wu word for money.
+    bar: ["Göd", "ɡœːd"],  // From Old High German gelt, from a root meaning 'to pay'; the same word as German Geld.
+    cro: ["bálaa", "báːlaː"],  // Borrowed from English money, from Latin monēta 'mint'; it also means dollar.
+    ee: ["ga", "ɡa"],  // The word for metal, which also means money.
+    mh: ["jāān", "tʲæjænʲ"],  // Borrowed from English cent; it means cents, money and a fund.
+    new: ["ध्यबा", "dʱjəba"],  // No image is recorded for it, so it counts as a word of its own.
+    osp: ["dineros", "diˈneɾos"],  // The plural of dinero, a coin, from Latin dēnārius; the entry gives 'money' for the plural.
+    osx: ["fehu", "ˈfehu"],  // The word for cattle and property, which also meant money, like Old English feoh.
+    pdt: ["Jelt", "jɛlt"],  // From Middle Low German gelt, Old Saxon geld; the same word as German Geld.
+    ssf: ["tuali", "tuali"],  // No image is recorded for it, so it counts as a word of its own.
+    tn: ["madi", "madi"],  // Seemingly a wanderword from Swahili mali 'wealth'; the same form also means blood.
+    wym: ["giełd", "ɡiewt"],  // Ultimately from Proto-Germanic *geldą, the same word as German Geld.
+    syc: ["ܟܣܦܐ", "kɛspɑ"],  // The word for silver also means money, as Hebrew כסף does.
+    pdc: ["Geld", "ɡɛlt"],  // The same word as German Geld, from Old High German gelt.
+    slr: ["heli", "heli"],  // From Mongolian гуул, 'copper'.
+    lzz: ["ფარა", "pʰara"],  // Borrowed from Ottoman Turkish para, from Persian pâre, the name of a coin.
+    afb: ["فلوس", "fluːs"],  // The plural of fils, the name of a coin.
+    aa: ["lakqó", "lakʕo"],  // Lakqo means both money and silver.
+    uga: ["𐎋𐎒𐎔", "kaspu"],  // The word for silver also means money, as Hebrew כסף does.
+    csb: ["pieniądz", "ˈpjɛɲɔ̃ts"],  // Inherited from the Proto-Slavic word for a coin, like Polish pieniądz.
+    co: ["dinaru", "diˈnaru"],  // From Latin dēnārius, the name of a Roman coin.
+    rmt: ["ple", "ple"],  // Borrowed from Persian پول pol, the name of a coin.
+    hns: ["dhuku", "dʱuku"],  // No origin is recorded for it, so it counts as a word of its own.
+    crn: ["túmiin", "ˈtumiːn"],  // Borrowed through Nahuatl from Spanish tomín, the name of a coin worth an eighth of a peso.
+    fro: ["monoie", "muˈnojə"],  // From earlier moneie, inherited from Latin monēta, 'the mint'.
+    stq: ["Jield", "jild"],  // From Proto-Germanic geldą 'payment', like German Geld.
+    grt: ["tangka", "taŋka"],  // Compare Bengali টাকা, the name of a coin.
+    ium: ["nyaanh", "ɲaːn˧˩"],  // No image is recorded for it, so it counts as a word of its own.
+    aii: ["ܟܸܣܦܵܐ", "kɪspa"],  // The same word once meant silver.
+    xh: ["imali", "imaːli"],  // From Swahili mali, ultimately from Arabic مال 'wealth'.
+    lij: ["palanche", "paˈlaŋke"],  // Related to Italian palanca, from Spanish blanca, a small copper coin.
+    ofs: ["ield", "jeld"],  // From Proto-Germanic geldą, from a root meaning 'to repay'.
+    tsg: ["pilak", "pilak"],  // The same word means silver; borrowed from Malay pirak, an old form of perak.
+    yur: ["cheeek", "tʃiːk"],  // No image is recorded for it, so it counts as a word of its own.
+    vot: ["raha", "ˈraha"],  // From Proto-Finnic raha, borrowed from Proto-Germanic skrahā 'squirrel skin'.
+    pwn: ["paisu", "paisu"],  // No etymology is given, so it counts as a word of its own.
+    tar: ["winomí", "winomi"],  // Compare O'odham vainom 'metal, iron'; the source gives no etymology of its own.
+    blc: ["taala", "taːla"],  // Borrowed from Chinook Jargon dala.
+    kky: ["nambal", "nambal"],  // The same word means stone.
+    tzo: ["takʼin", "takʼin"],  // The same word means metal and bell.
   },
 };

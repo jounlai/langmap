@@ -404,6 +404,43 @@ WORDS.yellow = {
     rmy: "galbinus",
     txb: "plain",
     frr_amr: "ghel",
+    cjs: "sari",
+    crs: "galbinus",
+    gcf: "galbinus",
+    kbd: "plain",
+    mh: "plain",
+    new: "plain",
+    nhe: "plain",
+    nog: "sari",
+    pao: "plain",
+    sga: "plain",
+    shi: "plain",
+    enm: "ghel",
+    cbk: "bitter",
+    slr: "sari",
+    sat: "turmeric",
+    kum: "sari",
+    iba: "plain",
+    gag: "sari",
+    pon: "plain",
+    meu: "plain",
+    fro: "galbinus",
+    non: "ghel",
+    kea: "bitter",
+    stq: "ghel",
+    lad: "bitter",
+    ik: "plain",
+    ium: "plain",
+    xh: "plain",
+    orh: "plain",
+    pag: "unknown",
+    fax: "bitter",
+    ude: "plain",
+    gor: "plain",
+    dlg: "other",
+    dru: "plain",
+    dz: "plain",
+    kjh: "sari",
   },
   routes: {
     turmeric: {"color":"#d97706","emoji":"🫚","en":"turmeric","ja":"ウコン","ko":"강황","zh":"姜黄","yue":"黃薑","vi":"nghệ","th":"ขมิ้น","id":"kunyit","hi":"हल्दी","de":"Kurkuma","fr":"le curcuma","it":"la curcuma","es":"la cúrcuma","pt":"a curcuma","ru":"куркума","uk":"куркума","ar":"الكركم","he":"כורכום","sw":"manjano"},
@@ -748,5 +785,42 @@ WORDS.yellow = {
     rmy: ["galbeno", "ˈɡalbeno"],  // Borrowed from Romanian galben, from Latin galbinus.
     txb: ["𑀢𑀼𑀢𑁂", "tute"],  // Tocharian B tute 'yellow'. No image is recorded for it, so it counts as a word of its own.
     frr_amr: ["güül", "ɡyːl"],  // From Proto-West Germanic *gelu 'yellow'.
+    cjs: ["сарығ", "saˈrɯɣ"],  // From Proto-Turkic *siarïg 'yellow, white'.
+    crs: ["zon", "zon"],  // From French jaune.
+    gcf: ["jòn", "ʒɔn"],  // From French jaune.
+    kbd: ["гъуэжьы", "ʁʷaʑə"],  // From Proto-Circassian *ʁʷaʑə; no image is recorded for it.
+    mh: ["iaļo", "jijælˠew"],  // Borrowed from English yellow; the loan counts as a plain word, as in Tok Pisin and Bislama.
+    new: ["म्हासु", "mʱasu"],  // No image is recorded for it, so it counts as a word of its own.
+    nhe: ["kostik", "ˈkostik"],  // No image is recorded for it, so it counts as a word of its own.
+    nog: ["сары", "saˈrɯ"],  // From Proto-Turkic *sārïg, the same word as Karakalpak sarı.
+    pao: ["oha", "oha"],  // No image is recorded for it, so it counts as a word of its own.
+    sga: ["buide", "ˈbuðʲe"],  // From Proto-Celtic *bodyos 'yellow', the source also of Latin badius; no image is recorded for it.
+    shi: ["ⴰⵡⵔⴰⵖ", "awraɣ"],  // From Proto-Berber *a-wăraɣ, from an old Afroasiatic word for green and yellow; it also means gold. Latin spelling awraɣ.
+    enm: ["yelow", "ˈjɛlɔu̯"],  // From Old English ġeolu, from Proto-Germanic *gelwaz, the old root for yellow and green.
+    cbk: ["amarillo", "amaˈɾiʎo"],  // Inherited from Spanish amarillo.
+    slr: ["sarı", "sɑrɨ"],  // Inherited from Proto-Turkic *siarïg, like Kazakh sarı.
+    sat: ["ᱥᱟᱥᱟᱝ", "sasaŋ"],  // The same word as the noun ᱥᱟᱥᱟᱝ, 'turmeric'.
+    kum: ["сари", "sari"],  // Related to Kazakh and Kyrgyz сары, the Turkic word for yellow.
+    iba: ["kuning", "kuniəŋ"],  // From Proto-Malayic *kuniŋ; no image is recorded for it, so it counts as a word of its own.
+    gag: ["sarı", "saˈrɯ"],  // The Turkic word for yellow, like Turkish sarı.
+    pon: ["oangoahng", "ɔŋɔːŋ"],  // Inherited from Proto-Oceanic *aŋoaŋo, 'to be yellow'.
+    meu: ["laboralabora", "laboɾalaboɾa"],  // No image is recorded for it, so it counts as a word of its own.
+    fro: ["jaune", "ˈdʒau̯nə"],  // From Latin galbinus.
+    non: ["gulr", "ɡulr"],  // From Proto-Germanic gulaz, from the old root for yellow and green.
+    kea: ["marélu", "maˈɾɛlu"],  // From Portuguese amarelo, from Latin amarus 'bitter'.
+    stq: ["jeel", "jeːl"],  // From Old Frisian jele, the old Germanic root for yellow and green.
+    lad: ["amariyo", "amaˈɾijo"],  // Like Spanish amarillo, from Latin amarus 'bitter'.
+    ik: ["quqsuqtaaq", "quqsuqtaːq"],  // No image is recorded for it, so it counts as a word of its own.
+    ium: ["yaangh", "jaːŋ˧˩"],  // From Proto-Mienic wi̯əŋᴬ, from Chinese 黃.
+    xh: ["mthubi", "mtʰuɓi"],  // No image is recorded for it, so it counts as a word of its own.
+    orh: ["ʃɪŋarɪn", "ʃɪŋarɪn"],  // No image is recorded for it, so it counts as a word of its own.
+    pag: ["duyaw", "duˈjaw"],  // Compare Tagalog dilaw; no etymology of its own is given.
+    fax: ["amarelu", "amaˈɾelu"],  // From Medieval Latin amārellus, like Portuguese amarelo.
+    ude: ["холиғи", "xoliɣi"],  // From Proto-Tungusic sola; no image is recorded for it.
+    gor: ["lalahu", "lalahu"],  // Inherited from Proto-Philippine dalag, like Cebuano dalag.
+    dlg: ["һаһыл", "hahɯl"],  // The same word means fox; usually traced to Proto-Turkic yāĺïl 'green'.
+    dru: ["buraw", "buɾaw"],  // No image is recorded for it, so it counts as a word of its own.
+    dz: ["སེརཔོ", "seːp˥"],  // From Classical Tibetan སེར་པོ 'yellow'.
+    kjh: ["сарығ", "saˈrɯɣ"],  // From Proto-Turkic siarïg 'yellow, white', like Turkish sarı.
   },
 };

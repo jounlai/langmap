@@ -311,6 +311,20 @@ WORDS.tear = {
     om: "plain",
     hit: "plain",
     txb: "plain",
+    krl: "plain",
+    nog: "plain",
+    smj: "plain",
+    tyv: "plain",
+    pdc: "plain",
+    ckv: "plain",
+    slr: "plain",
+    kum: "eye",
+    khw: "plain",
+    doi: "plain",
+    fro: "plain",
+    goh: "plain",
+    stq: "plain",
+    sma: "plain",
   },
   routes: {
     eyewater: {"color":"#0891b2","emoji":"💧","en":"eye + water (air mata, 눈물, nước mắt)","ja":"目＋水（air mata, 눈물, nước mắt）","ko":"눈 + 물 (air mata, 눈물, nước mắt)","zh":"眼＋水（air mata、눈물、nước mắt）","yue":"眼＋水（air mata、눈물、nước mắt）","vi":"mắt + nước (air mata, 눈물, nước mắt)","th":"ตา + น้ำ (air mata, 눈물, nước mắt)","id":"mata + air (air mata, 눈물, nước mắt)","hi":"आँख + पानी (air mata, 눈물, nước mắt)","de":"Auge + Wasser (air mata, 눈물, nước mắt)","fr":"œil + eau (air mata, 눈물, nước mắt)","it":"occhio + acqua (air mata, 눈물, nước mắt)","es":"ojo + agua (air mata, 눈물, nước mắt)","pt":"olho + água (air mata, 눈물, nước mắt)","ru":"глаз + вода (air mata, 눈물, nước mắt)","uk":"око + вода (air mata, 눈물, nước mắt)","ar":"عين + ماء (air mata, 눈물, nước mắt)","he":"עין + מים (air mata, 눈물, nước mắt)","sw":"jicho + maji (air mata, 눈물, nước mắt)"},
@@ -566,5 +580,19 @@ WORDS.tear = {
     om: ["immimamaan", "imːimamaːn"],  // No image is recorded for it, so it counts as a word of its own.
     hit: ["𒅖𒄩𒄴𒊒", "isxaxru"],  // From Proto-Indo-European *(s)h₂éḱru 'tear', with some unresolved sound changes; it means tears.
     txb: ["𑀅𑀓𑁆𑀭𑀽𑀦", "akruːna"],  // Tocharian B akrūna 'tears', found only in the plural. No image is recorded for it, so it counts as a word of its own.
+    krl: ["kyynäl", "ˈkyːnæl"],  // From Proto-Finnic *küünel, the same word as Finnish kyynel.
+    nog: ["яс", "jas"],  // From Proto-Turkic *yāĺ 'tear'; the same form also means young and year.
+    smj: ["ganjál", "kaɲaːl"],  // From Proto-Sami *këńël, the same word as Northern Sámi ganjal.
+    tyv: ["чаш", "tʃaʃ"],  // From Proto-Turkic *yāĺ 'tear', the same word as Turkish yaş.
+    pdc: ["Draen", "drɛːn"],  // From Middle High German træne, like German Träne.
+    ckv: ["Rusi", "ʁusi"],  // Inherited from Proto-Austronesian *luSəq.
+    slr: ["yaş", "jɑʃ"],  // From Proto-Turkic *yāĺ.
+    kum: ["гёзьяш", "ɡøzjaʃ"],  // From гёз 'eye' plus яш 'tear', like Turkish gözyaşı.
+    khw: ["اشرو", "aʃˈru"],  // Inherited from Sanskrit aśru, 'tear'.
+    doi: ["अत्थरूं", "ətːʰərũː"],  // From Sanskrit áśru, 'tear', like Punjabi atthrū.
+    fro: ["lerme", "ˈlɛrmə"],  // From Latin lacrima; no image is recorded for it, so it counts as a word of its own.
+    goh: ["zahar", "ˈtsahar"],  // No image is recorded for it, so it counts as a word of its own.
+    stq: ["Troone", "ˈtroːnə"],  // From Old Frisian trān; no image is recorded for it, so it counts as a word of its own.
+    sma: ["gïknjele", "ˈkɨkɲɛlɛ"],  // From Proto-Sami këńël; no image is recorded for it.
   },
 };

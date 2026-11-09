@@ -355,6 +355,33 @@ WORDS.right = {
     nv: "plain",
     sga: "compass",
     akk: "plain",
+    ady: "plain",
+    jam: "straight",
+    kbd: "plain",
+    kl: "plain",
+    osp: "dexter",
+    shi: "compass",
+    syc: "plain",
+    slr: "good",
+    tpi: "loan",
+    chk: "plain",
+    mg: "plain",
+    mr: "straight",
+    wa: "straight",
+    ace: "plain",
+    fro: "dexter",
+    non: "good",
+    goh: "dexter",
+    lad: "straight",
+    szl: "straight",
+    mnw: "plain",
+    aii: "plain",
+    orh: "plain",
+    ne: "dexter",
+    min: "eat",
+    lus: "other",
+    tao: "plain",
+    pa: "straight",
   },
   routes: {
     straight: {"color":"#2563eb","emoji":"📏","en":"'straight, true, correct'","ja":"「まっすぐ、正しい」","ko":"‘곧은, 옳은’","zh":"“直、正确”","yue":"「直、啱」","vi":"“thẳng, đúng”","th":"“ตรง ถูกต้อง”","id":"“lurus, benar”","hi":"‘सीधा, सही’","de":"„gerade, richtig“","fr":"« droit, juste »","it":"“dritto, giusto”","es":"«recto, correcto»","pt":"«reto, certo»","ru":"«прямой, верный»","uk":"«прямий, правильний»","ar":"«مستقيم، صحيح»","he":"״ישר, נכון״","sw":"“nyoofu, sahihi”"},
@@ -651,5 +678,32 @@ WORDS.right = {
     nv: ["nishʼnáájígo", "nìʃʔnɑ́ːtʃíkò"],  // It means 'on the right'; no image is recorded for it, so it counts as a word of its own.
     sga: ["dess", "dʲes"],  // It also means south, from Proto-Celtic *dexswos.
     akk: ["𒅎𒉡", "imnu"],  // From Proto-Semitic *yamīn- 'right hand, side', like Arabic يمين.
+    ady: ["джабгъо", "dʒaːbʁʷa"],  // No image is recorded for it, so it counts as a word of its own.
+    jam: ["rait", "ɹait"],  // Inherited from English right.
+    kbd: ["ижь", "jəʑ"],  // No image is recorded for it, so it counts as a word of its own.
+    kl: ["talerpik", "talipːik"],  // From Proto-Inuit *ta(u)liqpiɣ 'right side, right arm'; it also means the right arm.
+    osp: ["diestro", "ˈdjestɾo"],  // From Latin dextrum 'right, right-hand'.
+    shi: ["ⴰⴼⴰⵙⵉ", "afasi"],  // Derived from Proto-Berber *a-fuʔs 'hand'; it also means south. Latin spelling afasi.
+    syc: ["ܝܡܝܢܐ", "jamminɑ"],  // Inherited from Proto-Semitic *yamīn-, like Arabic yamīn; no image is recorded for it, so it counts as a word of its own.
+    slr: ["sıx", "sɨχ"],  // From Proto-Turkic *sag, 'healthy'; sıx still also means healthy.
+    tpi: ["raithan", "raithan"],  // From English right hand.
+    chk: ["mwan", "mʷan"],  // The same spelling also means 'man'; no image is recorded for it, so it counts as a word of its own.
+    mg: ["havanana", "havaˈnana"],  // From Proto-Malayo-Polynesian *(ka-)wanan, like Malay kanan; no image is recorded for it, so it counts as a word of its own.
+    mr: ["उजवे", "udzʋe"],  // From Sanskrit ṛjú, 'straight, right'.
+    wa: ["droete", "dʁwɛt"],  // The feminine of droet, 'straight', from Latin dīrēctus.
+    ace: ["uneun", "unɨn"],  // No image is recorded for it, so it counts as a word of its own.
+    fro: ["destre", "ˈdɛstrə"],  // From Latin dexter.
+    non: ["hǿgri", "ˈhøːɡri"],  // The comparative of hǿgr 'easy, convenient', from a word for 'skilled'.
+    goh: ["zeso", "ˈtseso"],  // From Proto-Germanic tehswô, the old root of Latin dexter.
+    lad: ["derecha", "deˈɾetʃa"],  // The same word as the adjective derecha 'straight'.
+    szl: ["prawy", "ˈpravɪ"],  // The same word means 'true, correct', like Polish prawy.
+    mnw: ["ပုၚ်", "pɜŋ"],  // No image is recorded for it, so it counts as a word of its own.
+    aii: ["ܝܲܡܝܼܢܵܐ", "jammiːna"],  // Inherited from Aramaic yammīnā, the Semitic word of Arabic يمين and Hebrew ימין.
+    orh: ["aan", "aan"],  // No image is recorded for it, so it counts as a word of its own.
+    ne: ["दाहिने", "daine"],  // No etymology is given; it is the word of Hindi दाहिना, from the old root of Latin dexter.
+    min: ["suok", "suoʔ"],  // From tangan suok 'right hand', literally 'the hand for taking a mouthful'.
+    lus: ["ding", "diŋ"],  // The same word means upright; from Proto-Kuki-Chin diŋ 'to stand'.
+    tao: ["wanan", "wanan"],  // From Proto-Austronesian waNan, like Malay kanan; no image is recorded for it.
+    pa: ["ਸੱਜਾ", "sədʒːaː"],  // The same word also means 'correct, truthful'; inherited from Prakrit sajja, from Sanskrit sajya.
   },
 };

@@ -356,6 +356,44 @@ WORDS.saturday = {
     mwl: "sabbath",
     chk: "other",
     xag: "sabbath",
+    bar: "sabbath",
+    bjn: "sabbath",
+    ee: "plain",
+    mdh: "sabbath",
+    mh: "saturn",
+    new: "saturn",
+    sga: "saturn",
+    tru: "sabbath",
+    udi: "sabbath",
+    wym: "eve",
+    enm: "saturn",
+    cbk: "sabbath",
+    ota: "after",
+    ceb: "sabbath",
+    an: "sabbath",
+    mg: "sabbath",
+    ilo: "sabbath",
+    skr: "other",
+    ote: "sabbath",
+    fro: "sabbath",
+    goh: "sabbath",
+    kea: "sabbath",
+    nds: "saturn",
+    acw: "sabbath",
+    ami: "other",
+    szl: "sabbath",
+    grt: "unknown",
+    nso: "other",
+    pag: "sabbath",
+    ne: "saturn",
+    fax: "sabbath",
+    min: "sabbath",
+    got: "sabbath",
+    su: "sabbath",
+    ve: "unknown",
+    pam: "sabbath",
+    dv: "saturn",
+    tum: "other",
   },
   routes: {
     saturn: {"color":"#7c3aed","emoji":"🪐","en":"Saturn's day","ja":"土星の日","ko":"토성의 날","zh":"土星之日","yue":"土星嘅日","vi":"ngày sao Thổ","th":"วันของดาวเสาร์","id":"hari Saturnus","hi":"शनि का दिन","de":"Saturns Tag","fr":"le jour de Saturne","it":"il giorno di Saturno","es":"el día de Saturno","pt":"o dia de Saturno","ru":"день Сатурна","uk":"день Сатурна","ar":"يوم زحل","he":"יום שבתאי","sw":"siku ya Zohali"},
@@ -654,5 +692,43 @@ WORDS.saturday = {
     mwl: ["sábado", "ˈsaβaðu"],  // From Latin sabbatum, from Hebrew שַׁבָּת 'Sabbath'.
     chk: ["Ammon", "amːon"],  // From ammon 'preparation'.
     xag: ["šambaṭ", "ʃambatʼ"],  // From Parthian šambat 'Sabbath, Saturday'; it also means the week.
+    bar: ["Samsda", "ˈsɔmsdɐ"],  // From Old High German sambaȥtag, through Gothic from Greek sámbaton 'sabbath'.
+    bjn: ["Saptu", "saptu"],  // From Arabic as-sabt, the sabbath.
+    ee: ["Memleɖagbe", "memleɖaɡbe"],  // No image is recorded for it, so it counts as a word of its own.
+    mdh: ["Saptu", "ˈsaptu"],  // Borrowed from Arabic as-sabt, the sabbath.
+    mh: ["Jādede", "tʲærʲɛjrʲɛj"],  // Borrowed from English Saturday.
+    new: ["शनिबाः", "sənibaː"],  // Ultimately from Sanskrit śanivāra, Saturn's day.
+    sga: ["Satharn", "ˈsaθərn"],  // From Latin Saturnus.
+    tru: ["ܫܒܬܐ", "ʃabθo"],  // From Aramaic šabbəṯā, the sabbath; the same word also means week.
+    udi: ["шаматӏ", "ʃamatʼ"],  // The sabbath word; it also means the Sabbath and week. Compare Caucasian Albanian šambaṭ.
+    wym: ["zynwyt", "ˈzɨnvɨt"],  // Cognate with German Sonnabend, 'Sunday eve'.
+    enm: ["Saterday", "ˈsatərdæi̯"],  // From Old English sæterdæg, 'Saturn's day'.
+    cbk: ["Sabado", "ˈsabado"],  // Inherited from Spanish sábado, the sabbath.
+    ota: ["جمعه ایرتسی", "dʒyma eɾtesi"],  // Literally 'the day after Friday' (cüma ertesi).
+    ceb: ["Sabado", "sabaˈdo"],  // Borrowed from Spanish sábado, from the Hebrew word for the sabbath.
+    an: ["sabado", "ˈsaβaðo"],  // From Latin sabbatum, from Hebrew שַׁבָּת, the Sabbath.
+    mg: ["asabotsy", "asaˈbutsi"],  // From Arabic as-sabt, the sabbath.
+    ilo: ["Sabado", "ˈsabado"],  // Borrowed from Spanish sábado, from the Hebrew word for the sabbath.
+    skr: ["ہفتہ", "həftaː"],  // The same word as hafta, 'week', from Persian; as in Urdu.
+    ote: ["sabdo", "saβðo"],  // Borrowed from Spanish sábado, from the Hebrew word for the sabbath.
+    fro: ["samedi", "saməˈdi"],  // From Vulgar Latin sambati diēs, 'the day of the Sabbath'.
+    goh: ["sambaztag", "ˈsambastaɡ"],  // Borrowed through Gothic from a Greek form of 'Sabbath'.
+    kea: ["sabadu", "ˈsabadu"],  // From Portuguese sábado, from the Hebrew Sabbath.
+    nds: ["Saterdag", "ˈzaːtɐdax"],  // From Middle Low German satersdach, 'Saturn's day'.
+    acw: ["السبت", "assabt"],  // Inherited from Arabic as-sabt, the Sabbath.
+    ami: ["saseraan", "sasəraan"],  // Built on sera 'earth' with sa- -an.
+    szl: ["sobota", "sɔˈbɔta"],  // From the Hebrew Sabbath, through Greek and Latin.
+    grt: ["sanicho", "sanitʃo"],  // The Garo name for Saturday; the source gives no etymology.
+    nso: ["Mokibelo", "mokiβelo"],  // No etymology is given; it is the same word as Sesotho Moqebele.
+    pag: ["Sabado", "ˈsabado"],  // From Spanish sábado, the Sabbath.
+    ne: ["शनिबार", "sʌnibaːɾ"],  // Built on शनि 'Saturn' and बार 'day'.
+    fax: ["sábadu", "ˈsabadu"],  // From Latin sabbatum, from Hebrew shabát 'Sabbath'.
+    min: ["Satu", "satu"],  // Borrowed from Javanese Setu, ultimately from Arabic as-sabt, the Sabbath.
+    got: ["𐍃𐌰𐌱𐌱𐌰𐍄𐍉", "ˈsabbatoː"],  // Borrowed from Greek σάββατον, from Hebrew, the Sabbath.
+    su: ["Saptu", "saptu"],  // From Arabic as-sabt, the Sabbath.
+    ve: ["Mugivhela", "muɡiβela"],  // The Venda name for Saturday; the source gives no etymology.
+    pam: ["Sabadu", "ˈsabədu"],  // Borrowed from Spanish sábado, the Sabbath.
+    dv: ["ހޮނިހިރު", "honihiɾu"],  // From Sanskrit śanivāra, 'Saturn's day'.
+    tum: ["Cisulo", "tʃisulo"],  // From -sula 'rest': in colonial times workers were let off early on that day.
   },
 };

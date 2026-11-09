@@ -309,6 +309,45 @@ WORDS.soap = {
     mnp: "plain",
     tao: "other",
     arc: "sapo",
+    ak: "plain",
+    fj: "sapo",
+    fy: "sapo",
+    ki: "sabun",
+    mh: "sapo",
+    nci: "other",
+    nhx: "sapo",
+    osp: "sapo",
+    pyu: "sabun",
+    ssf: "plain",
+    syc: "sapo",
+    pdc: "sapo",
+    ckv: "sabun",
+    sn: "sapo",
+    ceb: "sapo",
+    an: "sapo",
+    zu: "sapo",
+    tpi: "sapo",
+    cic: "wash",
+    ilo: "sapo",
+    iba: "sabun",
+    vep: "wash",
+    tsu: "sabun",
+    ote: "sapo",
+    mak: "sabun",
+    hch: "sapo",
+    szy: "sabun",
+    acw: "sabun",
+    ami: "sabun",
+    kok: "sabun",
+    xh: "sapo",
+    pag: "sapo",
+    rw: "sabun",
+    war: "sapo",
+    niv: "wash",
+    car: "sapo",
+    bnn: "other",
+    ban: "sabun",
+    kg: "sabun",
   },
   routes: {
     sapo: {"color":"#2563eb","emoji":"🏛️","en":"Latin sapo","ja":"ラテン語 sapo","ko":"라틴어 sapo","zh":"拉丁语 sapo","yue":"拉丁語 sapo","vi":"tiếng Latinh sapo","th":"ละติน sapo","id":"Latin sapo","hi":"लैटिन sapo","de":"lateinisch sapo","fr":"le latin sapo","it":"il latino sapo","es":"el latín sapo","pt":"o latim sapo","ru":"латинское sapo","uk":"латинське sapo","ar":"اللاتينية sapo","he":"הלטינית sapo","sw":"Kilatini sapo"},
@@ -559,5 +598,44 @@ WORDS.soap = {
     mnp: ["胰仔", "i˨˩ tsiɛ˨˩"],  // No image is recorded for it, so it counts as a word of its own.
     tao: ["siken", "siken"],  // Borrowed from Japanese 石鹸 sekken, 'stone and lye'.
     arc: ["ܨܦܘܢܐ", "sˤappoːnaː"],  // Classical Syriac ṣappōnā, from Greek σάπων, from Latin sāpō.
+    ak: ["samina", "samina"],  // No image is recorded for it, so it counts as a word of its own (Twi).
+    fj: ["sovu", "soβu"],  // Borrowed from English soap.
+    fy: ["sjippe", "ˈsjɪpə"],  // From Old Frisian *sēpe, from Proto-West Germanic *saipā.
+    ki: ["thabuni", "ðaβuːni"],  // Borrowed from Swahili sabuni.
+    mh: ["joob", "tʲɛwɛpˠ"],  // Borrowed from English soap.
+    nci: ["ahmōlli", "aʔmoːlːi"],  // From Proto-Nahuan *ahmool-lɨ 'soapweed, agave'; agave plants were used for soap.
+    nhx: ["xapo̱n", "ʃapoːn"],  // Borrowed from Spanish xabon, modern jabón.
+    osp: ["xabon", "ʃaˈbon"],  // Inherited from Latin sāpōnem, itself from Germanic.
+    pyu: ["sabun", "sabun"],  // Borrowed from Taiwanese Hokkien 雪文 sap-bûn.
+    ssf: ["dauqan", "dauqan"],  // No image is recorded for it, so it counts as a word of its own.
+    syc: ["ܨܦܘܢܐ", "sˤapponɑ"],  // From Greek σάπων, from Latin sāpō.
+    pdc: ["Seef", "seːf"],  // The same word as German Seife and English soap.
+    ckv: ["sabun", "sabun"],  // Borrowed from Taiwanese Hokkien 雪文 sap-bûn, itself the trade word sabun.
+    sn: ["sipo", "sipo"],  // Through a Nguni language from Afrikaans seep, the same word as English soap.
+    ceb: ["sabon", "saˈbon"],  // Borrowed from Early Modern Spanish jabón.
+    an: ["sabón", "saˈβon"],  // From Latin sāpōnem, from Proto-Germanic *saipǭ.
+    zu: ["insipho", "insiːpʰo"],  // Borrowed from Afrikaans seep.
+    tpi: ["sop", "sop"],  // From English soap.
+    cic: ["ishtachifaʼ", "iʃtatʃifaʔ"],  // From ishtachifa, 'to wash with', made into a noun.
+    ilo: ["sabon", "saˈbon"],  // Borrowed from Early Modern Spanish jabón.
+    iba: ["sabun", "sabʊn"],  // From Malay sabun, from Arabic ṣābūn or Portuguese sabão.
+    vep: ["muil", "muil"],  // Borrowed from Russian мыло, the Slavic word from washing.
+    tsu: ["savungu", "savuŋu"],  // Borrowed from Taiwanese Hokkien 雪文 sap-bûn, itself the trade word sabun.
+    ote: ["xabo", "ʃaβo"],  // Borrowed from Old Spanish xabon, from Latin sāpō.
+    mak: ["sabung", "ˈsabuŋ"],  // From Malay sabun.
+    hch: ["xapúni", "rapuni"],  // Borrowed from Spanish xabon, modern jabón.
+    szy: ["sabun", "sabun"],  // Borrowed from Taiwanese Hokkien 雪文 sap-bûn.
+    acw: ["صابون", "sˤaːbuːn"],  // Inherited from Arabic ṣābūn.
+    ami: ["safon", "safon"],  // Borrowed from Taiwanese Hokkien 雪文 sap-bûn.
+    kok: ["साबण", "saːbəɳ"],  // Borrowed through Persian from Arabic ṣābūn.
+    xh: ["isepha", "iseːpʰa"],  // Borrowed from Afrikaans seep, of the Germanic soap word.
+    pag: ["sabon", "saˈbon"],  // Borrowed from Early Modern Spanish jabón, from Latin sapo.
+    rw: ["isabune", "isabune"],  // Borrowed from Swahili sabuni, from Arabic ṣābūn.
+    war: ["sabon", "saˈbon"],  // Borrowed from Early Modern Spanish jabón, from Latin sapo.
+    niv: ["мыло", "mɯlo"],  // Borrowed from Russian мыло, from мыть 'to wash'.
+    car: ["sopo", "soːpo"],  // Borrowed from Sranan Tongo sopo, from English soap.
+    bnn: ["siking", "sikiŋ"],  // Borrowed from Japanese 石鹸 sekken, 'stone and lye'.
+    ban: ["sabun", "sabun"],  // Borrowed from Malay sabun.
+    kg: ["sabuni", "sabuni"],  // From Swahili sabuni, from Arabic ṣābūn.
   },
 };

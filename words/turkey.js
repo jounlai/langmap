@@ -432,6 +432,10 @@ WORDS.turkey = {
     cic: "local",
     am: "local",
     nci: "local",
+    pqm: "local",
+    ota: "india",
+    rif: "local",
+    ppl: "local",
   },
   routes: {
     india: {"color":"#ea580c","emoji":"🐘","en":"named for India · the Indies","ja":"インドの名で","ko":"인도의 이름으로","zh":"以印度为名","yue":"以印度為名","vi":"theo tên Ấn Độ","th":"ตั้งตามอินเดีย","id":"dinamai India","hi":"भारत के नाम पर","de":"nach Indien benannt","fr":"nommé d'après l'Inde","it":"dal nome dell'India","es":"por la India","pt":"pelo nome da Índia","ru":"по Индии","uk":"за Індією","ar":"باسم الهند","he":"על שם הודו","sw":"kwa jina la India"},
@@ -805,5 +809,9 @@ WORDS.turkey = {
     cic: ["chaloklowaʼ", "tʃaloklowaʔ"],  // A native word, from chaloklowa 'to gobble like a turkey'; cognate with Choctaw chʋlukloha.
     am: ["ጅግራ", "dʒɨɡra"],  // No origin is recorded for it, so it counts as the language's own word.
     nci: ["huehxōlōtl", "weʔˈʃoːloːtɬ"],  // The turkey cock, a native word that gave Spanish guajolote; the hen is tōtolin.
+    pqm: ["nem", "nem"],  // A native word, cognate with Abenaki nahama and Mohegan-Pequot náham.
+    ota: ["هندی", "hinˈdi"],  // Literally 'Indian', from Arabic هِنْدِيّ.
+    rif: ["ⵒⴰⴱⵓ", "pˤɑβˤʊ"],  // Borrowed from Spanish pavo, originally 'peacock'.
+    ppl: ["tutulin", "tuˈtuliŋ"],  // A native word, compare Classical Nahuatl tōtolin, 'turkey hen'.
   },
 };

@@ -365,6 +365,45 @@ WORDS.week = {
     arc: "seven",
     nrf_gg: "seven",
     frr_amr: "turn",
+    ada: "plain",
+    bar: "turn",
+    cho: "turn",
+    ee: "plain",
+    kbd: "sunday",
+    ki: "plain",
+    pcm: "turn",
+    tru: "sabbath",
+    vro: "sunday",
+    wym: "turn",
+    syc: "seven",
+    pdc: "turn",
+    enm: "turn",
+    sn: "sunday",
+    cbk: "seven",
+    chk: "turn",
+    kfr: "eight",
+    ilo: "plain",
+    iba: "sunday",
+    bal: "seven",
+    skr: "seven",
+    rif: "seven",
+    lkt: "plain",
+    hil: "seven",
+    gag: "seven",
+    awa: "seven",
+    pnt: "seven",
+    goh: "turn",
+    kea: "seven",
+    acw: "seven",
+    kok: "seven",
+    grt: "other",
+    aii: "seven",
+    kw: "seven",
+    war: "seven",
+    nag: "seven",
+    xmf: "sunday",
+    esu: "sunday",
+    pcd: "seven",
   },
   routes: {
     seven: {"color":"#2563eb","emoji":"7️⃣","en":"the number seven","ja":"数の七","ko":"일곱이라는 수","zh":"数字七","yue":"數字七","vi":"con số bảy","th":"เลขเจ็ด","id":"angka tujuh","hi":"सात की संख्या","de":"die Zahl Sieben","fr":"le nombre sept","it":"il numero sette","es":"el número siete","pt":"o número sete","ru":"число семь","uk":"число сім","ar":"العدد سبعة","he":"המספר שבע","sw":"namba saba"},
@@ -671,5 +710,44 @@ WORDS.week = {
     arc: ["ܫܒܘܥܐ", "ʃaːβoːʕaː"],  // Classical Syriac, derived from ܫܒܥܐ šaḇʿā 'seven', like Hebrew שבוע.
     nrf_gg: ["s'môine", "smɔin"],  // From Late Latin septimāna, from septimus 'seventh'.
     frr_amr: ["weg", "vɛç"],  // From Old Frisian wike, the old Germanic week word.
+    ada: ["otsi", "otsi"],  // No image is recorded for it, so it counts as a word of its own.
+    bar: ["Woch", "ʋoːx"],  // From Old High German wohha, the same word as German Woche.
+    cho: ["wīk", "wiːk"],  // Borrowed from English week.
+    ee: ["kɔsiɖa", "kɔsiɖa"],  // No image is recorded for it, so it counts as a word of its own.
+    kbd: ["тхьэмахуэ", "tħamaːxʷa"],  // The word for Sunday, literally 'God day', also means week.
+    ki: ["kiumia", "kiumia"],  // No image is recorded for it, so it counts as a word of its own.
+    pcm: ["wik", "wik"],  // From English week.
+    tru: ["ܫܒܬܐ", "ʃabθo"],  // From Aramaic šabbəṯā, the sabbath; the same word also means Saturday.
+    vro: ["nätäl'", "ˈnætælʲ"],  // From Old East Slavic nedělja, the Slavic word for Sunday; the same word as Estonian nädal.
+    wym: ["woch", "vɔx"],  // The same word as German Woche, from a root meaning 'to turn'.
+    syc: ["ܫܒܘܥܐ", "ʃabbuʕɑ"],  // Derived from ܫܒܥܐ, 'seven'.
+    pdc: ["Woch", "vɔx"],  // From Old High German wohha, the same word as German Woche and English week.
+    enm: ["wyke", "ˈwikə"],  // From Old English wice, wucu, from Proto-Germanic *wikǭ.
+    sn: ["svondo", "svondo"],  // The same word as Svondo, 'Sunday', which came through a Nguni language from Afrikaans Sondag.
+    cbk: ["semana", "seˈmana"],  // Inherited from Spanish semana, from Latin septimāna, built on septem 'seven'.
+    chk: ["wik", "wik"],  // Borrowed from English week.
+    kfr: ["અઠવાડ઼િયો", "əʈʰʋaːɽijo"],  // Borrowed from Gujarati અઠવાડિયું, which goes back to Sanskrit aṣṭavāra, 'eight days'.
+    ilo: ["lawas", "ˈlawas"],  // No image is recorded for it, so it counts as a word of its own.
+    iba: ["minggu", "miŋɡu"],  // From Malay minggu, from Portuguese domingo, 'Sunday'.
+    bal: ["ہپتگ", "haptaɡ"],  // From ہپت 'seven' plus -ag, like Persian hafte.
+    skr: ["ہفتہ", "həftaː"],  // Borrowed from Classical Persian hafta, from haft 'seven'; it also means Saturday.
+    rif: ["ⵙⵉⵎⴰⵏⴰ", "sɪmɛnɛ"],  // Borrowed from Spanish semana and/or Moroccan Arabic sīmāna, from Latin septimāna.
+    lkt: ["okó", "okó"],  // No image is recorded for it, so it counts as a word of its own.
+    hil: ["semana", "seˈmana"],  // Borrowed from Spanish semana, from Latin septimāna, built on 'seven'.
+    gag: ["hafta", "hafˈta"],  // From Ottoman Turkish hafta, from Persian hafta, built on haft 'seven'.
+    awa: ["हप्ता", "həptaː"],  // From Classical Persian hafta, built on haft 'seven'.
+    pnt: ["εβδομάδαν", "evðoˈmaðan"],  // From Ancient Greek ἑβδομάς, 'a group of seven'.
+    goh: ["wehha", "ˈwexxa"],  // From Proto-Germanic wikǭ, 'sequence, week'.
+    kea: ["simana", "siˈmanɐ"],  // From Portuguese semana, from Latin septimana 'a group of seven'.
+    acw: ["أسبوع", "ʔusbuːʕ"],  // Inherited from Arabic ʔusbūʕ, from the root for seven.
+    kok: ["सप्तक", "səptək"],  // Inherited from Sanskrit saptāha, from sapta 'seven'.
+    grt: ["anti", "anti"],  // The same word means market.
+    aii: ["ܫܵܒ݂ܘܿܥܵܐ", "ʃaːwoːʕa"],  // Derived from Classical Syriac ܫܲܒ݂ܥܵܐ 'seven'.
+    kw: ["seythen", "ˈsɛɪθɛn"],  // From Proto-Brythonic seiθọn, from Latin septimāna.
+    war: ["semana", "seˈmana"],  // Borrowed from Spanish semana, from Latin septimana 'a group of seven'.
+    nag: ["hafta", "hafta"],  // Borrowed from Hindi हफ़्ता, from Persian hafta, built on haft 'seven'.
+    xmf: ["ჟაშხა", "ʒaʃxa"],  // The same word means Sunday, 'the sun's day' (ბჟა 'sun' + დღა 'day').
+    esu: ["nitiliq", "nitiliq"],  // Borrowed from Russian неделя, the old Slavic name of Sunday.
+    pcd: ["smangne", "smaɲ"],  // From Late Latin septimana, 'a group of seven'.
   },
 };

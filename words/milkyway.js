@@ -369,6 +369,7 @@ WORDS.milkyway = {
     ksw: "other",
     dz: "other",
     pjt: "other",
+    dak: "road",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -681,5 +682,6 @@ WORDS.milkyway = {
     ksw: ["ဆၣ်ဘုမုၢ်", "sʰabumɨ"],  // S'gaw Karen 'Milky Way' (SEAlang), beginning with ဆၣ် 'star'. IPA read from the script; the dictionary prints none.
     dz: ["རྒིལ་འག་སྨེ་ཡེར", "kil˩ kɑ˩ me˥ jer˩"],  // Its origin is uncertain; Wiktionary compares Chinese 銀河 'silver river'.
     pjt: ["tjukalpa", "ˈcukalpa"],  // Built on tjukal with -pa; the same word means a makeshift ladder.
+    dak: ["wanáǧithačhaŋku", "wanáɣitʰatʃʰãku"],  // Literally 'ghost road'.
   },
 };

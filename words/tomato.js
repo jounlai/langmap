@@ -543,6 +543,7 @@ WORDS.tomato = {
     afb: "nahuatl",
     cic: "other",
     hif: "nahuatl",
+    dak: "other",
   },
   routes: {
     nahuatl: {"color":"#dc2626","emoji":"🌽","en":"from Nahuatl tomatl","ja":"ナワトル語 tomatl から","ko":"나우아틀어 tomatl에서","zh":"源自纳瓦特尔语 tomatl","yue":"源自納瓦特爾語 tomatl","vi":"từ tiếng Nahuatl tomatl","th":"จากภาษานาวัตล์ tomatl","id":"dari bahasa Nahuatl tomatl","hi":"नाहुआत्ल tomatl से","de":"aus Nahuatl tomatl","fr":"du nahuatl tomatl","it":"dal nahuatl tomatl","es":"del náhuatl tomatl","pt":"do náuatle tomatl","ru":"из науатль tomatl","uk":"з науатль tomatl","ar":"من الناواتلية tomatl","he":"מנאוואטל tomatl","sw":"kutoka Kinahuatl tomatl"},
@@ -1030,5 +1031,6 @@ WORDS.tomato = {
     afb: ["طماط", "tˤʊˈmɑːtˤ"],  // From a European language, ultimately from Nahuatl tomatl.
     cic: ["akankishnihaʼ", "akankiʃnihaʔ"],  // Built from akankaꞌ 'chicken', isht- 'with' and niha 'grease'.
     hif: ["tamaatar", "ʈəmaːʈər"],  // Borrowed from English tomato, ultimately from Nahuatl tomatl.
+    dak: ["uŋžíŋžiŋtka", "ũʒĩ́ʒĩtka"],  // Route by resemblance to Lakota uŋžíŋžiŋtka, the word for rose hips.
   },
 };

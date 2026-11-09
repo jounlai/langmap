@@ -18,3 +18,5 @@ Coordinator calls:
 Parity budgets raised for nine partial words: the new parents expose koi, nrf_gg, smj, sms, lij_t, prs, wae, gsw_w, gsw_als. Skipped Guernsey and Walser forms in the logs are leads for those rows.
 
 Left: the last ~28% of the dump (pass 2b); Dakota leads need a spelling mapping (ą/į/ų, x, ch against the row's aŋ, ȟ, č).
+
+Addendum: the seven Dakota leads agent d held (entries in the ą/į/ų, x, c spelling) were written in the row's spelling (aŋ/iŋ/uŋ, ȟ, č): sunflower waȟčázi, thunder waŋkíŋyaŋ, tobacco čhaŋdí, tomato uŋžíŋžiŋtka, thumb naŋpháhuŋ, dragonfly susbéčha, Milky Way wanáǧithačhaŋku 'ghost road'. Sunflower, thunder and tomato are routed by resemblance to the Lakota cells; tobacco, thumb and dragonfly are plain (no image recorded); the Milky Way gloss gives the road.

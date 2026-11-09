@@ -379,6 +379,7 @@ WORDS.dragonfly = {
     tk: "plain",
     agt: "plain",
     mnc: "other",
+    dak: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -703,5 +704,6 @@ WORDS.dragonfly = {
     tk: ["teneçir", "tenetʃiɾ"],  // No image is recorded for it, so it counts as a word of its own.
     agt: ["fofoy", "fofoj"],  // No image is recorded for it, so it counts as a word of its own.
     mnc: ["ᡠᠯᠮᡝ ᡥᡡᠯᡥᠠᡨᡠ", "ulmə xulxatu"],  // Literally 'needle robber', from ulme 'needle' and hūlhatu 'habitual robber'.
+    dak: ["susbéčha", "susbétʃʰa"],  // No image is recorded for it, so it counts as a word of its own.
   },
 };

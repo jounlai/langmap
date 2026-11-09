@@ -1199,7 +1199,7 @@ WORDS.thunder = {
     ses: ["jiŋjiŋ", "dʒiŋdʒiŋ"],  // The same word is the verb 'to thunder'; the Bible also says beenaa jiŋjiŋyanoo, 'the sky's thundering'.
     nij: ["nyaho", "ɲaho"],  // Kept apart from kilat, the lightning; the older ABVD wordlist writes it nyahu.
     ami: ["kakeleng", "kakələŋ"],  // Kept apart from kalapiyat, the lightning; the 2019 Amis Bible spells it kakleng.
-    lus: ["khawpui", "kʰawpui"],  // Thunder 'sounds' (ri) in Mizo: khawpui a ri; lightning is kâwlphe.
+    lus: ["khawpui", "kʰawpui"],  // Thunder 'sounds' (ri) in Mizo: khawpui a ri; lightning is kâwlphe. Lorrain & Savidge 1898: khaw-pui ri 'thunder'; khawpui also means city, capital.
     kac: ["mu", "muʔ˥"],  // Thunder 'sounds' (ngoi) in Jingpho, mu ngoi; lightning is myihprap.
     sda: ["guntuʼ", "ɡuntuʔ"],  // Kept apart from kila', the lightning; galugu is the rumbling.
     dtp: ["tinggoron", "tiŋɡoron"],  // Used in the Kadazandusun Bible for the thunder the crowd heard in John 12:29. No image is recorded for it, so it counts as a word of its own.

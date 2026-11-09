@@ -86,6 +86,7 @@ const CROSS = {
 // row. Prefer the row-level key: "this pair is fine everywhere" is a much
 // stronger claim than it looks, and grue is the only one this atlas can make.
 const ACCEPTED = {
+    'mos:foot|wheel': 'Mooré naoore: the SIL Mooré dictionary glosses it "pied, patte, roue de véhicule; foot, leg, paw, wheel" and its French index gives roue = naoore (or the loan ru). Review 678, 2026-11-09.',
     'yiz:black|red': 'Azhe ȵɪ˨˨ "black" and ȵɪ˧˧ "red" (Yang Yi survey via Lexibank): the row writes no tones in the surface, so two words fall together there; the IPA keeps them apart (the source also marks black with a tense vowel). 2026-11-04.',
     'sux:mouth|nose': 'Sumerian 𒅗 is read ka "mouth" and kiri3 "nose" (ePSD2 o0031473 kag; kiri3 is the same sign) — one logogram, two words. r88, 2026-10-12.',
     'enf:eye|heart': 'Forest Enets сэй sɛj "eye" and сԑй sæj "heart" (NorthEuraLex, ASJP): two words whose Latin transliteration in this row falls together; the IPA keeps them apart. r83, 2026-10-12.',

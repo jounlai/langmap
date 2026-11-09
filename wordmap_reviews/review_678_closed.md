@@ -16,3 +16,10 @@ Notes added for double meanings: Kikuyu snow/yesterday ira, Nivkh daughter оӻ�
 Weak keeps for a later look: Mooré wheel karga, Huli nose ngui (body count 15), Yukaghir new илльэ, Nùng father pá, Wallisian white hina, Kaskaskia daughter, Mende rain nja, Mizo thunder khawpui, Arpitan tea tè.
 
 Addendum, the 381 form-of flags: nearly all are alternative spellings or script forms the rows use on purpose (Tifinagh, Akhar Thrah, Cree syllabics, Devanagari Pali). Of the 19 Wiktionary calls obsolete or dated: Kimbundu head mutue → mutwe and water menha → menya (the row already writes w and ny elsewhere). Isoko's eleven 'dated' spellings are the Bible orthography the whole row follows, and Huasteca Nahuatl's cahuayo and cuahuitl match that row's colonial-style spelling; both left.
+
+Addendum, the nine weak keeps (agent w, sources in ~/langmap-work/glosscheck/w/dl1):
+- Mooré wheel karga → naoore (SIL Mooré dictionary: naoore 'foot, leg, paw, wheel of a vehicle'; karga only leg, foot); recorded in implausible_polysemy_check ACCEPTED.
+- Arpitan tea tè → tê (Stich: thé = tê; tè is the pronoun).
+- Mizo thunder khawpui kept, note now cites Lorrain & Savidge 1898 khaw-pui ri 'thunder' and the city sense.
+- Kept with sources: Huli ngui (Lomas 1988: 15 = nose), Yukaghir илльэ (NorthEuraLex NEW), Nùng pá (Tày–Việt dictionary 'pá mé' father and mother), Wallisian hina (Rensch 1984 'blanc'), Mende nja (Schön 1884 'rain', also water), Kosraean acn.
+- Also from the form-of list: Māori daughter tamāhine is the plural; now tamahine.

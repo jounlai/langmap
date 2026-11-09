@@ -181,7 +181,7 @@ WORDS.daughter = {
     ms: ["anak perempuan", "anaʔ pərəmpuan"],
     tl: ["anak na babae", "ˈʔanak na baˈbaʔe"],
     haw: ["kaikamahine", "kaikamahine"],
-    mi: ["tamāhine", "tamaːhine"],
+    mi: ["tamahine", "tamahine"],  // Wiktionary: tamāhine is the plural of tamahine.
     sm: ["afafine", "afafine"],
     zu: ["indodakazi", "indodaˈkazi"],
     xh: ["intombi", "inˈtombi"],

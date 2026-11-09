@@ -1383,7 +1383,7 @@ WORDS.tea = {
     fo: ["te", "tʰeː"],
     fr: ["thé", "te"],
     fr_class: ["thé", "te"],
-    frp: ["tè", "tɛ"],
+    frp: ["tê", "te"],  // Stich, Dictionnaire francoprovençal: thé = tê; tè is the pronoun.
     fur: ["tè", "tɛ"],
     fy: ["tee", "teː"],
     ga: ["tae", "t̪ˠeː"],

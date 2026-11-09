@@ -535,7 +535,7 @@ WORDS.wheel = {
     ndc: ["vhiri", "viri"],
     sg: ["ruu", "ruː"],
     dag: ["kalinli", "kalinli"],
-    mos: ["karga", "karɡa"],
+    mos: ["naoore", "naoːre"],  // SIL Mooré dictionary: naoore foot, leg, paw, wheel of a vehicle; karga is only leg, foot.
     fon: ["kɛkɛ́fɔ", "kɛkɛ́fɔ"],
     gej: ["afɔku", "afɔku"],
     ee: ["afɔti", "afɔti"],

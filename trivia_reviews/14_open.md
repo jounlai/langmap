@@ -14,3 +14,4 @@ One agent per language reads all 273 articles cold as a native writer and rewrit
 | vi | 567 | ~360 voice (passive được…bởi chains, calques), 121 titles lowercased after the colon, Han headings to sentence case, Latin→Latinh; olderbrother article now matches the English on брат/fratello |
 | id | 2223 | Word Map articles most ("X Polandia" order, calques), Title Case → sentence case, aksara, tulang ramalan; 土豆 gloss fixed to 'kacang dari tanah' (peanut misreading) |
 | hi | 471 | c01–c02 and Han articles most; gender agreement and spaces before । fixed; etruscan 'letters you are reading now' reworded; paper article cites 紙 (kami) as Old Chinese — the English has the same slip (content fix pending) |
+Content fix: paper-the-inventors-word gave Old Chinese 紙 the Japanese reading '(kami)' in every language; bracket removed.

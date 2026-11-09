@@ -10,3 +10,4 @@ One agent per language reads all 273 articles cold as a native writer and rewrit
 | ja | 162 | c01 (oldest, most translated) had ~90; Mongolian-script article now matches the English on why Cyrillic cut readers off; three ja articles miss a clause the English has (atsign-animals, linear-a-undeciphered, germany-names); five Han articles use です/ます |
 | zh | 176 | ~100 in c01 (chains of 的, 其实/关键在于, drumroll colons); c01 and some c02 still use half-width , : ; and digit spacing varies — separate mechanical job |
 | yue | 490 | c01 (347): 36 articles had English punctuation between characters, now full-width; written-Chinese leftovers (著, 其, 與, 們) and "…" quotes around Chinese → 「」 |
+| ko | 449 | c01/c04/c07 most; five 합니다체 articles turned into 다체 like the rest; 3 list-item fixes not applied (list markup differs); en/ja/yue leftovers that had appeared twice in an overlay now applied (fixdup.py, verify.py) |

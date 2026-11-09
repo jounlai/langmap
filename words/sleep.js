@@ -1221,6 +1221,6 @@ WORDS.sleep = {
     osa: ["žą́ą", "ʒã́ː"],
     umu: ["kawiiw", "kawiːw"],  // 'He sleeps.'
     omx: ["သ္တိက်", "stik"],  // Shorto 1971 (Dictionary of the Mon Inscriptions) stik, 'lie, sleep', phonemic form as SEAlang prints it, respelled in the row's symbols. Surface copied from the mnw cell, as the row uses modern spelling.
-    bbl: ["ნჵაპ", "nħapʼ"],  // Inherited from Proto-Nakh *nHaaṗ.
+    bbl: ["ნჵაპ", "nʕapʼ"],  // Inherited from Proto-Nakh *nHaaṗ.
   },
 };

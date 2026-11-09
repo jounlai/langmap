@@ -503,7 +503,7 @@ WORDS.eye = {
     zh_hf: ['眼', 'jĩ˨˦'],
     zh_kf: ["眼", "ian˦˦"],
     zh_nj: ["眼睛", "iɛn˨˩˨ tɕiŋ˧˩"],
-    bbl: ["ბჵარკ", "bħarkʼ"],
+    bbl: ["ბჵარკ", "bʕarkʼ"],
     bzg: ['macha', 'matʃa'],
     dru: ['maca', 'ˈmatsa'],
     hup: ['-na:ʼ', '-nɑːʔ'],

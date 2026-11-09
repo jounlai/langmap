@@ -1161,7 +1161,7 @@ WORDS.four = {
     gun: ["irundy", "iɾunˈdɨ"],
     piu: ["puupala", "puːpala"],
     mpj: ["puu", "puː"],
-    bbl: ["დჵივჸ", "dħivʔ"],
+    bbl: ["დჵივჸ", "dʕivʔ"],
     kgp: ["vẽnh kãgra", "wẽɲ kãŋɾa"],
     sjd: ["не̄лльй", "ɲeːʎːj"],
     sce: ["jieron", "tɕjəˈron"],

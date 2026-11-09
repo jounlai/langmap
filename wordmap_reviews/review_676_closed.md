@@ -7,7 +7,7 @@ Applied: 475 cells in 219 rows. Most: twenty 37, wife 34, money 29, thousand 26,
 Coordinator calls:
 - Dropped: Amharic dragonfly ተርብ (first sense wasp); Tibetan soap ཡི་ཙི (plain would hide a likely 胰子 loan nobody has sourced); Punjabi hangover ਖ਼ੁਮਾਰ (second sense of 'intoxication').
 - Komi-Permyak ladybird енӧшка routed other, not holy: the entry gives its origin only as possible.
-- Bats sleep written with ħ for ჵ, as the row's other cells write it; Wiktionary gives ʕ, so the whole row may want a look.
+- Bats sleep: Wiktionary gives ʕ/ʡ for ჵ in every entry and never ħ, so the row's eye, four and sleep were all written with ʕ (addendum).
 - Sgaw Karen IPA written without syllable spaces, as the row does.
 - Tone notation brought to each row's style: Yoruba paper ìwé and twenty oɡṹ, Dungan soap i˦.
 - Föhr-Amrum thousand düüsen placed in frr_amr, not the Mooring frr row.

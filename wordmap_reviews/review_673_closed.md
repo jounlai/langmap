@@ -8,3 +8,6 @@ txb, from agent A's verified leads (Wiktionary gives Latin transliteration only)
 blue tseṃ 𑀢𑁆𑀲𑁂𑀁 (borrowed, from Middle Chinese 青); green motartstse; lion ṣecake (other); thousand yaltse; twenty ikäṃ (fused); wife śana (woman, the entry glosses both); tear akrūna (plural only); thumb mokoce; window patstsāṅk; yellow tute.
 
 Checked, no change: nio white сыр. The entry has an adjective 'white, grey-haired' beside the noun 'ice; salt' (Kosterkina et al. 2001 p. 160).
+
+Addendum, arc: the row follows Sokoloff's Syriac Lexicon in Syriac script, so Classical Syriac entries are its convention. Seven added from their Classical Syriac sections: camel ܓܡܠܐ, lion ܐܪܝܐ, money ܟܣܦܐ (silver, as he), thousand ܐܠܦܐ (Etymology 3, the numeral), soap ܨܦܘܢܐ (sapo, via Greek σάπων), window ܟܘܬܐ, week ܫܒܘܥܐ. Not added: twenty and paper (Assyrian Neo-Aramaic sections only), earthquake זועא (Hebrew script only), china, coffee, tea (modern).
+Also bfea55512: vi_c, vi_s wife vợ (vidial vigen.js).

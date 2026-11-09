@@ -775,6 +775,11 @@ line('no new intra-row duplicate', num(s, /violations: (\d+)/), num(s, /stale: (
 // numbered for it — and only Kikuyu was wrong. A blanket exemption would have
 // hidden the one; a blanket rejection would have deleted the nine. The budget
 // is 0 and stays 0: every future hit gets read.
+// Trivia style slips (trivia_style/README.md, owner 2026-11-09): ASCII punctuation in
+// CJK text, ja/ko register drift, stock AI openers. Budget in tools/trivia_style.budget.json,
+// set 2026-11-10 at the counts the rereads had not yet reached; only ever lower it.
+s = run('trivia_style_check.js --check');
+line('trivia style slips', num(s, /over budget: (\d+)/));
 s = run('implausible_polysemy_check.js --check');
 line('a shared form that is a claim', num(s, /violations: (\d+)/));
 

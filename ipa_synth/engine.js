@@ -317,13 +317,13 @@
     }
 
     // ------------------------------------------------------------------ targets
-    const FIELDS_A = ['AV', 'AH', 'AF', 'FF', 'FB', 'glot', 'CR', 'TL', 'RG'];   // TL: extra low-pass on the voice (0 none)                       // fast (amplitudes, source)
+    const FIELDS_A = ['AV', 'AH', 'AF', 'FF', 'FB', 'glot', 'CR', 'TL', 'RG', 'BR'];   // BR: breathier voice (0..1)   // TL: extra low-pass on the voice (0 none)                       // fast (amplitudes, source)
     const FIELDS_F = ['F1', 'F2', 'F3', 'F4', 'B1', 'B2', 'B3', 'FNZ'];                   // formants
     const FIELDS_R = ['cx', 'cy', 'tx', 'ty', 'curl', 'lip', 'pro', 'll', 'vel', 'jaw', 'lat'];   // articulators (drawing)
     const FIELDS = [...FIELDS_A, ...FIELDS_F, ...FIELDS_R];
 
     const REST = {
-        AV: 0, AH: 0, AF: 0, FF: 4000, FB: 2000, glot: 1, CR: 0, TL: 0, RG: 0,
+        AV: 0, AH: 0, AF: 0, FF: 4000, FB: 2000, glot: 1, CR: 0, TL: 0, RG: 0, BR: 0,
         F1: 500, F2: 1500, F3: 2500, F4: 3500, B1: 90, B2: 110, B3: 170, FNZ: 270,
         cx: 182, cy: 262, tx: 118, ty: 262, curl: 0, lip: 0.03, pro: 0, ll: 0, vel: 1, jaw: 0.08, lat: 0,
     };
@@ -608,7 +608,15 @@
                 }
                 if (s._onglide) edgeF = 70;
                 if (s._glideIn) edgeF = Math.max(edgeF, Math.min(s._glideIn, d * .8));
-                push(d, P, Object.assign({ kind: 'vowel', edgeF, edgeCap: s._glideIn ? .8 : .5 }, info));
+                // voice quality varies along the utterance (Klatt & Klatt 1990): unstressed syllables
+                // are softer and breathier, the last syllable breathiest
+                let PV = P;
+                if (s.voiced !== 0 && (i === lastNucleus || (!tonal && anyProm && !s.prom && isNucleus(s)))) {
+                    PV = Object.assign({}, P);
+                    if (i === lastNucleus) PV.BR = Math.max(PV.BR, .45);
+                    else { PV.BR = Math.max(PV.BR, .3); PV.AV *= .85; }
+                }
+                push(d, PV, Object.assign({ kind: 'vowel', edgeF, edgeCap: s._glideIn ? .8 : .5 }, info));
                 if (s.glot) push(40, Object.assign({}, P, { AV: 0, AH: 0, glot: -0.5 }), Object.assign({ kind: 'glottal closure' }, info));
             } else {
                 const V = ctxVowel(i);
@@ -894,8 +902,22 @@
         pitch.sort((x, y) => x[0] - y[0]);
         for (const p of pitch) p[1] += declin(p[0]);
         if (!pitch.length) pitch.push([0, 3], [T, 2.6]);
+        // microprosody: close vowels a little higher than open ones (intrinsic F0); a vowel starts
+        // higher after a voiceless obstruent and slightly lower after a voiced one, settling in ~45 ms
+        const micro = [];
+        phases.forEach((ph, k) => {
+            if (ph.kind !== 'vowel' || ph.seg < 0) return;
+            const v = segs[ph.seg];
+            const intr = (v.apical ? 0 : (v.h - .5) * .5) * (tonal ? .5 : 1);
+            let on = 0;
+            const pc = phases[k - 1] && phases[k - 1].seg >= 0 ? segs[phases[k - 1].seg] : null;
+            if (pc && pc.type === 'C' && pc.place !== 'GL' && ['stop', 'affr', 'fric', 'latfric'].includes(pc.manner)) on = pc.voiced ? -.2 : .4;
+            on *= tonal ? .5 : 1;
+            micro.push([ph.t0, intr + on], [ph.t0 + Math.min(45, ph.dur * .4), intr], [ph.t1, intr]);
+        });
+        micro.sort((x, y) => x[0] - y[0]);
 
-        return { ipa, parsed, segs, phases, tracks, pitch, T, tonal };
+        return { ipa, parsed, segs, phases, tracks, pitch, micro, T, tonal };
     }
 
     // ------------------------------------------------------------------ sampling
@@ -951,11 +973,29 @@
 
     function mulberry(seed) { return () => { seed |= 0; seed = seed + 0x6D2B79F5 | 0; let t = Math.imul(seed ^ seed >>> 15, 1 | seed); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
 
+    // rd: Fant's (1995) glottal shape parameter (tense ~0.6 .. breathy ~2.5); asp: breath noise
+    // mixed into the voice (Klatt & Klatt 1990: the main cue that keeps a voice from sounding
+    // mechanical, strongest in female voices); fl: KLSYN88 flutter (slow F0 wobble).
     const VOICES = {
-        male: { f0: 112, vt: 1.0, oq: .6, tilt: .25 },
-        female: { f0: 205, vt: 1.16, oq: .68, tilt: .35 },
-        child: { f0: 270, vt: 1.3, oq: .7, tilt: .35 },
+        male: { f0: 112, vt: 1.0, rd: 1.0, asp: .05, tilt: .2, fl: 25 },
+        female: { f0: 205, vt: 1.16, rd: 1.3, asp: .12, tilt: .15, fl: 25 },
+        child: { f0: 270, vt: 1.3, rd: 1.3, asp: .1, tilt: .15, fl: 25 },
     };
+
+    // LF-model timing from Rd (Fant 1995 regressions): Ra, Rk, Rg, then Tp, Te, Ta as fractions of T0
+    function rdTiming(rd) {
+        rd = Math.max(.4, Math.min(2.7, rd));
+        const ra = (-1 + 4.8 * rd) / 100, rk = (22.4 + 11.8 * rd) / 100;
+        const rg = rk / (4 * Math.max(.02, .11 * rd / (.5 + 1.2 * rk) - ra));
+        const tp = 1 / (2 * rg), te = Math.min(.95, tp * (1 + rk)), ta = Math.max(.01, ra);
+        // LF open phase: g(t) = e^{a(t-te)} sin(pi t/tp) / |sin(pi te/tp)|, so g(te) = -1. Choose a so
+        // the flow returns to zero: the open-phase area equals the return phase's (~ta).
+        const w = Math.PI / tp, sw = Math.abs(Math.sin(w * te)) || 1e-3;
+        const area = a => (Math.exp(a * te) * (a * Math.sin(w * te) - w * Math.cos(w * te)) + w) / (a * a + w * w) * Math.exp(-a * te) / sw;
+        let lo = -10, hi = 60;
+        for (let k = 0; k < 40; k++) { const m = (lo + hi) / 2; if (area(m) > ta) lo = m; else hi = m; }
+        return { tp, te, ta, a: (lo + hi) / 2, w, sw };
+    }
 
     function render(pl, opts = {}) {
         const fs = opts.fs || 22050;
@@ -967,17 +1007,21 @@
         const R = [new Resonator(), new Resonator(), new Resonator(), new Resonator(), new Resonator()];
         const NP = new Resonator(), NZ = new AntiResonator(), FR = new Resonator();
         const hints = {}; for (const f of FIELDS) hints[f] = { i: 0 }; const ph = { i: 0 };
-        let phase = 0, T0 = fs / voice.f0, tilt = 0, prevNoise = 0, rough = 0, hp = { x1: 0, y1: 0 };
+        let phase = 0, T0 = fs / voice.f0, tilt = 0, prevNoise = 0, rough = 0, hp = { x1: 0, y1: 0 }, prevAsp = 0;
         const FRAME = 32;
-        let P = {}, f0 = voice.f0, f0s = 0, gF = 1, cr = 0, av = 0, ah = 0, af = 0;
+        let P = {}, f0 = voice.f0, f0s = 0, gF = 1, cr = 0, av = 0, ah = 0, af = 0, br = 0, tm = rdTiming(voice.rd), micro = 0;
         const kF0 = 1 - Math.exp(-FRAME / fs / .018), kAV = 1 - Math.exp(-1 / fs / .004), kAF = 1 - Math.exp(-1 / fs / .0025);
+        const mh = { i: 0 };
         for (let n = 0; n < N; n++) {
             if (n % FRAME === 0) {
                 const t = n / fs * 1000;
                 for (const f of FIELDS_A.concat(FIELDS_F)) P[f] = valueAt(pl.tracks[f], t, hints[f]);
-                const lv = valueAt(pl.pitch, t, ph);
+                const lv = valueAt(pl.pitch, t, ph) + (pl.micro ? valueAt(pl.micro, t, mh) : 0);
                 cr = P.CR;
-                const target = voice.f0 * Math.pow(2, (lv - 3) / 5) * (1 - .3 * cr) * (1 + .006 * Math.sin(t * .027) + .004 * Math.sin(t * .0107 + 1));
+                // flutter (KLSYN88): (FL/50)(F0/100)(sin 12.7 Hz + sin 7.1 Hz + sin 4.7 Hz), in Hz
+                const base = voice.f0 * Math.pow(2, (lv - 3) / 5) * (1 - .3 * cr);
+                const ts = t / 1000;
+                const target = base + (voice.fl / 50) * (base / 100) * (Math.sin(2 * Math.PI * 12.7 * ts) + Math.sin(2 * Math.PI * 7.1 * ts) + Math.sin(2 * Math.PI * 4.7 * ts));
                 f0s = f0s ? f0s + (target - f0s) * kF0 : target; f0 = f0s;
                 const vt = voice.vt;
                 R[0].set(P.F1 * vt, P.B1, fs); R[1].set(P.F2 * vt, P.B2, fs); R[2].set(P.F3 * vt, P.B3, fs);
@@ -985,27 +1029,31 @@
                 NP.set(270, 100, fs); NZ.set(P.FNZ * (P.FNZ === 270 ? 1 : vt), 100, fs);
                 FR.set(Math.min(P.FF * Math.sqrt(vt), fs * .46), P.FB, fs);
             }
-            // glottal source: KLGLOTT88-style flow derivative
+            // glottal source: LF-like flow derivative shaped by Rd, with jitter and shimmer
             phase += 1;
             if (phase >= T0) {
                 phase -= T0;
-                const jit = .01 + .25 * cr;
-                T0 = fs / f0 * (1 + jit * (rnd() - .5));
-                gF = 1 - .4 * cr * rnd();
+                const jit = .005 + .25 * cr;
+                T0 = fs / f0 * (1 + jit * (rnd() * 2 - 1));
+                gF = (1 + .035 * (rnd() * 2 - 1)) * (1 - .4 * cr * rnd());     // shimmer ~0.3 dB
+                const rd = voice.rd + (P.glot > .3 ? 1 : 0) + br * 1.1 - .5 * cr;
+                tm = rdTiming(rd);
             }
-            const breathy = P.glot > .3;
-            const Te = T0 * voice.oq * (breathy ? 1.1 : 1);
-            const Ta = T0 * (breathy ? .09 : .045);
-            let g = 0;
-            if (phase < Te) { const x = phase / Te; g = (2 * x - 3 * x * x); }
-            else g = -Math.exp(-(phase - Te) / Ta);           // return phase: the folds close softly
-            const tl = Math.max(voice.tilt + (breathy ? .3 : 0), P.TL);
+            const Te = tm.te * T0, Ta = tm.ta * T0;
+            let g;
+            const u = phase / T0;
+            if (phase < Te) g = Math.exp(tm.a * (u - tm.te)) * Math.sin(tm.w * u) / tm.sw;          // LF open phase, -1 at Te
+            else g = -Math.exp(-(phase - Te) / Ta);                                                  // return phase
+            const tl = Math.max(voice.tilt + (P.glot > .3 ? .3 : 0) + .25 * br, P.TL);
             tilt = tilt * tl + g * (1 - tl);
-            av += (P.AV - av) * kAV; ah += (P.AH - ah) * kAV; af += (P.AF - af) * kAF;
-            const voicing = tilt * av * gF;
-            // breath noise, a little of it pulsed with the voice
-            const nz = noise();
-            const asp = nz * (ah + (phase < Te ? .03 * av : 0)) * .45;
+            av += (P.AV - av) * kAV; ah += (P.AH - ah) * kAV; af += (P.AF - af) * kAF; br += (P.BR - br) * kAV;
+            // loudness declines a little over the utterance
+            const voicing = tilt * av * gF * (1 - .18 * n / N);
+            // breath noise: pulsed with the glottal cycle (louder while open) and high-passed, so
+            // it replaces upper harmonics rather than adding a hiss underneath (Klatt & Klatt 1990)
+            const nz = noise(), nzh = nz - .7 * prevAsp; prevAsp = nz;
+            const breath = (voice.asp + .22 * br) * av * (phase < Te ? 1 : .35);
+            const asp = nz * ah * .45 + nzh * breath * .5;
             let x = voicing + asp;
             x = NZ.tick(NP.tick(x));
             for (let k = 4; k >= 0; k--) x = R[k].tick(x);

@@ -11,17 +11,17 @@
  */
 (function () {
     'use strict';
-    const V = '?v=12';
+    const V = '?v=14';
     const BASE = '/ipa_synth/';
     const STR = {
         en: { open: 'Pronunciation', close: 'Close', hintHover: 'Point at a word on the map to hear it.', hintTap: 'Tap a word on the map to hear it.',
-              note: 'Synthesized from the IPA by rule: an approximation, not checked by native speakers.', none: 'No IPA for this word.', male: 'male', female: 'female', replay: 'Replay' },
+              note: 'Synthesized from the IPA by rule: an approximation, not checked by native speakers.', unlock: 'Click anywhere once to turn the sound on.', none: 'No IPA for this word.', male: 'male', female: 'female', replay: 'Replay' },
         ja: { open: '発音', close: '閉じる', hintHover: '地図の単語にマウスを重ねると読み上げます。', hintTap: '地図の単語をタップすると読み上げます。',
-              note: 'IPAから規則で合成した近似音です。ネイティブによる確認はしていません。', none: 'この単語にはIPAがありません。', male: '男声', female: '女声', replay: 'もう一度' },
+              note: 'IPAから規則で合成した近似音です。ネイティブによる確認はしていません。', unlock: '音を出すには、まず画面を一度クリックしてください。', none: 'この単語にはIPAがありません。', male: '男声', female: '女声', replay: 'もう一度' },
         ko: { open: '발음', close: '닫기', hintHover: '지도의 단어에 마우스를 올리면 읽어 줍니다.', hintTap: '지도의 단어를 누르면 읽어 줍니다.',
-              note: 'IPA를 규칙으로 합성한 근사음입니다. 원어민 확인은 거치지 않았습니다.', none: '이 단어에는 IPA가 없습니다.', male: '남성', female: '여성', replay: '다시 듣기' },
+              note: 'IPA를 규칙으로 합성한 근사음입니다. 원어민 확인은 거치지 않았습니다.', unlock: '소리를 켜려면 화면을 한 번 클릭하세요.', none: '이 단어에는 IPA가 없습니다.', male: '남성', female: '여성', replay: '다시 듣기' },
         zh: { open: '发音', close: '关闭', hintHover: '将鼠标移到地图上的词语即可朗读。', hintTap: '点按地图上的词语即可朗读。',
-              note: '根据 IPA 按规则合成的近似音，未经母语者核对。', none: '这个词没有 IPA。', male: '男声', female: '女声', replay: '重播' },
+              note: '根据 IPA 按规则合成的近似音，未经母语者核对。', unlock: '请先点击一下页面以开启声音。', none: '这个词没有 IPA。', male: '男声', female: '女声', replay: '重播' },
     };
     const lang = () => {
         const l = (document.documentElement.lang || 'en').toLowerCase();
@@ -139,17 +139,38 @@
         panel.querySelector('.sp-close').setAttribute('aria-label', T('close'));
         panel.querySelector('.sp-replay').textContent = '▶ ' + T('replay');
         voiceSel.options[0].textContent = T('female'); voiceSel.options[1].textContent = T('male');
-        elHint.textContent = canHover() ? T('hintHover') : T('hintTap');
+        const locked = AC == null || AC.state === 'suspended';
+        elHint.textContent = (open && locked && canHover() ? T('unlock') + ' ' : '') + (canHover() ? T('hintHover') : T('hintTap'));
         panel.querySelector('.sp-note').textContent = T('note');
     }
 
-    function show() {
-        open = true; panel.hidden = false; btn.setAttribute('aria-pressed', 'true');
+    // speak=1 in the URL hash: the page's own hash writer keeps it while window.__speakOpen is set
+    function syncUrl() {
+        try {
+            const h = new URLSearchParams(location.hash.slice(1));
+            if (open) h.set('speak', '1'); else h.delete('speak');
+            const s = h.toString().replace(/%2C/g, ',').replace(/%3A/gi, ':').replace(/%7C/gi, '|');
+            const url = location.pathname + location.search + (s ? '#' + s : '');
+            if (url !== location.pathname + location.search + location.hash) history.replaceState(history.state, '', url);
+        } catch (_) {}
+    }
+    // after a reload the panel is open but audio is still locked until the first click/tap
+    function unlockOnGesture() {
+        const go = () => { try { AC = AC || new (window.AudioContext || window.webkitAudioContext)(); if (AC.state === 'suspended') AC.resume(); } catch (_) {} relabel(); };
+        document.addEventListener('pointerdown', go, { once: true, capture: true });
+        document.addEventListener('keydown', go, { once: true, capture: true });
+    }
+    function show(fromUrl) {
+        open = true; window.__speakOpen = true; panel.hidden = false; btn.setAttribute('aria-pressed', 'true');
+        syncUrl();
+        if (fromUrl) unlockOnGesture();
         try { AC = AC || new (window.AudioContext || window.webkitAudioContext)(); if (AC.state === 'suspended') AC.resume(); } catch (_) {}
+        relabel();
         load().then(() => drawRest()).catch(() => { elHint.textContent = 'Could not load the synthesizer.'; });
     }
     function close() {
-        open = false; panel.hidden = true; btn.setAttribute('aria-pressed', 'false');
+        open = false; window.__speakOpen = false; panel.hidden = true; btn.setAttribute('aria-pressed', 'false');
+        syncUrl();
         stop(); mark(null);
     }
     function stop() { if (src) { try { src.stop(); } catch (_) {} src = null; } cancelAnimationFrame(raf); }
@@ -180,7 +201,8 @@
             if (lastEl !== el || !open) return;
             stop();
             const S = window.IPASynth;
-            plan = S.plan(ipa);
+            const code = el.getAttribute('data-code') || (el.closest('[data-code]') && el.closest('[data-code]').getAttribute('data-code')) || '';
+            plan = S.plan(ipa, { lang: code });   // the language's intonation profile
             const out = S.render(plan, { voice: voiceSel.value });
             if (!AC) AC = new (window.AudioContext || window.webkitAudioContext)();
             if (AC.state === 'suspended') AC.resume();
@@ -200,5 +222,11 @@
         });
     }
 
-    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', build); else build();
+    function boot() {
+        build();
+        let want = false;
+        try { want = new URLSearchParams(location.hash.slice(1)).get('speak') === '1' || new URLSearchParams(location.search).get('speak') === '1'; } catch (_) {}
+        if (want) show(true);
+    }
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
 })();

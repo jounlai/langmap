@@ -9457,6 +9457,8 @@
             }
             // Persist an open game (reading quiz) so it deep-links / reopens.
             if (window.__hmOpenGame) params.set('play', window.__hmOpenGame);
+            // The pronunciation panel (ipa_synth/speak.js) stays open across reloads.
+            if (window.__speakOpen) params.set('speak', '1');
             // Undo URLSearchParams' %2C so p=lat,lng,z and cmp=code,code keep
             // literal commas — shorter, still parsed correctly on load.
             let hashBody = params.toString().replace(/%2C/g, ',');
@@ -14333,6 +14335,6 @@
         }).observe(p, { attributes: true, attributeFilter: ['class'] });
     })();
     </script>
-<script src="ipa_synth/speak.js?v=12" defer></script>
+<script src="ipa_synth/speak.js?v=14" defer></script>
 </body>
 </html>

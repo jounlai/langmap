@@ -138,12 +138,13 @@ label { font-size: 13px; color: var(--muted); }
         ex.append(b);
     }
 
+    let pickedLang = '', pickedIpa = '';
     let AC = null, plan = null, audio = null, source = null, startAt = 0, playing = false, cursor = 0, spec = null;
     const S = window.IPASynth;
 
     function build() {
         const ds = +$('speed').value;
-        plan = S.plan($('ipa').value, { durScale: ds });
+        plan = S.plan($('ipa').value, { durScale: ds, lang: pickedLang && $('ipa').value === pickedIpa ? pickedLang : '' });
         audio = S.render(plan, { voice: $('voice').value });
         spec = spectrogram(audio.samples, audio.fs);
         cursor = 0;
@@ -316,7 +317,7 @@ label { font-size: 13px; color: var(--muted); }
     lSel.onchange = () => {
         const w = window.WORDS[cSel.value], c = lSel.value; if (!w || !c) return;
         const cell = w.data[c];
-        $('ipa').value = cell[1];
+        $('ipa').value = cell[1]; pickedLang = c; pickedIpa = cell[1];
         $('wmNote').textContent = langName(c) + ': ' + cell[0] + '  [' + cell[1] + ']';
         build(); play();
     };

@@ -317,13 +317,13 @@
     }
 
     // ------------------------------------------------------------------ targets
-    const FIELDS_A = ['AV', 'AH', 'AF', 'FF', 'FB', 'glot', 'CR', 'TL'];   // TL: extra low-pass on the voice (0 none)                       // fast (amplitudes, source)
+    const FIELDS_A = ['AV', 'AH', 'AF', 'FF', 'FB', 'glot', 'CR', 'TL', 'RG'];   // TL: extra low-pass on the voice (0 none)                       // fast (amplitudes, source)
     const FIELDS_F = ['F1', 'F2', 'F3', 'F4', 'B1', 'B2', 'B3', 'FNZ'];                   // formants
     const FIELDS_R = ['cx', 'cy', 'tx', 'ty', 'curl', 'lip', 'pro', 'll', 'vel', 'jaw', 'lat'];   // articulators (drawing)
     const FIELDS = [...FIELDS_A, ...FIELDS_F, ...FIELDS_R];
 
     const REST = {
-        AV: 0, AH: 0, AF: 0, FF: 4000, FB: 2000, glot: 1, CR: 0, TL: 0,
+        AV: 0, AH: 0, AF: 0, FF: 4000, FB: 2000, glot: 1, CR: 0, TL: 0, RG: 0,
         F1: 500, F2: 1500, F3: 2500, F4: 3500, B1: 90, B2: 110, B3: 170, FNZ: 270,
         cx: 182, cy: 262, tx: 118, ty: 262, curl: 0, lip: 0.03, pro: 0, ll: 0, vel: 1, jaw: 0.08, lat: 0,
     };
@@ -459,8 +459,30 @@
         if (seg.phar) { P.F1 += 180; P.F2 = Math.min(P.F2, 1150); }
         const N = NOISE[place] || velarNoise(V);
         P.FF = N[0]; P.FB = N[1];
-        P.AV = 0; P.AH = 0; P.AF = 0; P.CR = 0; P.TL = 0;
+        P.AV = 0; P.AH = 0; P.AF = 0; P.CR = 0; P.TL = 0; P.RG = 0;
         return P;
+    }
+
+    // ------------------------------------------------------------------ language intonation
+    // Only features that hold for the language as a whole are used; a row with no profile gets
+    // the generic one. stress: where an unmarked word is stressed (the IPA's own ˈ always wins).
+    const STRESS_INITIAL = new Set('fi hu cs sk is lv et se smn sms sma smj sju krl olo vep liv mns kca ga gd hsb dsb'.split(' '));
+    const STRESS_PENULT = new Set('pl sw qu quz ay cy br eo szl csb'.split(' '));
+    const STRESS_ANTEPENULT = new Set(['mk']);
+    const STRESS_FINAL = new Set('tr az uz kk ky tt ba sah tk ug crh hy fa he'.split(' '));
+    function langProfile(code) {
+        const c = String(code || ''), b = c.split('_')[0];
+        if (c === 'ja' || c === 'ja_tokyo') return { type: 'ja' };       // Tokyo: unaccented (heiban) shape
+        if (b === 'ja') return { type: 'flat' };                          // other dialects: accent systems differ
+        if (c === 'ko' || c === 'ko_seoul') return { type: 'ko' };       // Seoul accentual phrase
+        if (b === 'ko') return { type: 'flat' };
+        if (b === 'fr') return { type: 'fr' };
+        if (b === 'zh' || b === 'cmn') return { type: 'stress', sandhi3: true };
+        if (STRESS_INITIAL.has(b)) return { type: 'stress', stress: 'initial' };
+        if (STRESS_PENULT.has(b)) return { type: 'stress', stress: 'penult' };
+        if (STRESS_ANTEPENULT.has(b)) return { type: 'stress', stress: 'antepenult' };
+        if (STRESS_FINAL.has(b)) return { type: 'stress', stress: 'final' };
+        return { type: 'stress' };
     }
 
     // ------------------------------------------------------------------ plan
@@ -514,10 +536,20 @@
         const REDUCED = new Set(['ə', 'ɐ', 'ɚ']);
         const markedStress = segs.some(s => s.stress);
         segs.forEach(s => { s.prom = s.stress || 0; });
-        if (!markedStress && !tonal) {
+        const prof = langProfile(opts.lang);
+        if (!markedStress && !tonal && (prof.type === 'stress' || prof.type === 'fr')) {
             const byWord = {};
             segs.forEach(s => { if (isNucleus(s)) (byWord[s.word] = byWord[s.word] || []).push(s); });
-            for (const list of Object.values(byWord)) { const v = list.find(s => !REDUCED.has(s.base)) || list[0]; v.prom = 1; }
+            for (const list of Object.values(byWord)) {
+                const n = list.length;
+                let v;
+                if (prof.type === 'fr' || prof.stress === 'final') v = list[n - 1];
+                else if (prof.stress === 'initial') v = list[0];
+                else if (prof.stress === 'penult') v = list[Math.max(0, n - 2)];
+                else if (prof.stress === 'antepenult') v = list[Math.max(0, n - 3)];
+                else v = list.find(s => !REDUCED.has(s.base)) || list[0];
+                v.prom = 1;
+            }
         }
         const anyProm = segs.some(s => s.prom);
         const nucleiInWord = w => segs.filter(s => s.word === w && isNucleus(s)).length;
@@ -668,6 +700,15 @@
                         P.AV = s.voiced ? .5 : 0;
                         if (s.voiced) { P.TL = .93; P.B1 = 120; P.B2 = 200; P.B3 = 300; }
                         P.AH = ['BL', 'LD', 'DE', 'PH', 'EP'].includes(s.place) && !s.voiced ? .12 : 0;
+                        // Back fricatives (x χ ħ, ɣ ʁ ʕ): a smooth noise band around 1.3 kHz sounded like
+                        // a whistle. The turbulence there is rough (the uvula and back of the tongue
+                        // flutter), so the band is wider and its loudness flickers irregularly (RG),
+                        // with a little breath through the formants.
+                        if (['VE', 'UV', 'PH', 'EP'].includes(s.place)) {
+                            P.FB = 2000; P.FF = Math.max(P.FF, 1500);
+                            P.AH = Math.max(P.AH, s.voiced ? .08 : .18);
+                            P.RG = s.place === 'VE' ? .7 : .9;
+                        }
                         if (s.ejective) P.glot = -0.5;
                         push((s.voiced ? 88 : s.place === 'VE' || s.place === 'UV' ? 115 : 98) * gem * syl, P, Object.assign({ kind: 'fricative', edgeA: 18 }, info));
                     }
@@ -737,6 +778,20 @@
         const pitch = [];
         const segSpan = i => { let a = Infinity, b = -Infinity; for (const ph of phases) if (ph.seg === i) { a = Math.min(a, ph.t0); b = Math.max(b, ph.t1); } return [a, b]; };
         const declin = tt => -(tonal ? .25 : .5) * tt / T;
+        if (tonal && prof.sandhi3) {
+            // Mandarin third tone: 214 before another 214 becomes 35; before any other syllable a
+            // half third (21). The last one keeps its full contour.
+            const dip = t => t && t.length >= 3 && t[0] <= 2.5 && Math.min(...t) <= 1.5 && t[t.length - 1] >= 3.5;
+            const sylList = [];
+            segs.forEach(s => { if (isNucleus(s) && s.syl != null && !sylList.includes(s.syl)) sylList.push(s.syl); });
+            const toneOf = sy => { const x = segs.find(s => s.syl === sy && isNucleus(s)); return x && (x.toneMark || x.sylTone); };
+            const setTone = (sy, t) => segs.forEach(s => { if (s.syl === sy) { if (s.sylTone) s.sylTone = t; if (s.toneMark) s.toneMark = t; } });
+            for (let k = 0; k + 1 < sylList.length; k++) {
+                const t = toneOf(sylList[k]);
+                if (!dip(t)) continue;
+                setTone(sylList[k], dip(toneOf(sylList[k + 1])) ? [3, 5] : [2, 1]);
+            }
+        }
         if (tonal) {
             // each syllable with a tone: contour over its nucleus and voiced coda
             const done = new Set();
@@ -776,16 +831,65 @@
                 pitch.push([a + (b - a) * .15, lv], [a + (b - a) * .85, lv - .4]);
             });
         } else {
-            // a pitch peak early in each prominent vowel, unstressed syllables lower, a fall at the end
-            let afterPeak = false;
-            segs.forEach((s, i) => {
-                if (!isNucleus(s)) return;
-                const [a, b] = segSpan(i);
-                if (s.prom === 1) { pitch.push([a + (b - a) * .1, 3.4], [a + (b - a) * .45, 4.1]); afterPeak = true; }
-                else if (s.prom === 2) { pitch.push([a + (b - a) * .4, 3.6]); afterPeak = true; }
-                else pitch.push([(a + b) / 2, afterPeak ? 2.9 : 3.1]);
-                if (i === lastNucleus) pitch.push([b, 2.0]);
-            });
+            const nucByWord = {};
+            segs.forEach((s, i) => { if (isNucleus(s)) (nucByWord[s.word] = nucByWord[s.word] || []).push(i); });
+            const words = Object.keys(nucByWord).map(Number).sort((x, y) => x - y);
+            const lastWord = words[words.length - 1];
+            if (prof.type === 'ja') {
+                // Tokyo unaccented shape: the first mora low, high from the second, a slight
+                // fall at the end (no accent-nucleus data in the IPA, so no accented words)
+                for (const w of words) {
+                    const L = nucByWord[w];
+                    L.forEach((i, n) => {
+                        const [a, b] = segSpan(i);
+                        const twoMora = segs[i].long || (segs[i + 1] && segs[i + 1].type === 'C' && segs[i + 1].manner === 'nasal' && !(segs[i + 2] && segs[i + 2].type === 'V'));
+                        if (n === 0) { pitch.push([a + (b - a) * .15, 2.6]); pitch.push([twoMora || L.length === 1 ? b : a + (b - a) * .9, L.length === 1 && !twoMora ? 3.1 : 3.7]); }
+                        else pitch.push([(a + b) / 2, 3.9 - .1 * n]);
+                        if (i === lastNucleus) pitch.push([b, 3.2]);
+                    });
+                }
+            } else if (prof.type === 'ko') {
+                // Seoul accentual phrase: starts low, or high after an aspirated/tense consonant,
+                // s or h; high on the second syllable; the utterance falls at its end
+                for (const w of words) {
+                    const L = nucByWord[w];
+                    let k = L[0]; while (k > 0 && segs[k - 1].type === 'C' && segs[k - 1].word === w) k--;
+                    const c0 = segs[k].type === 'C' ? segs[k] : null;
+                    const high = c0 && (c0.asp || c0.base === 's' || c0.base === 'h' || /\u0348/.test(c0.sym) || c0.tense);
+                    L.forEach((i, n) => {
+                        const [a, b] = segSpan(i);
+                        const lv = n === 0 ? (high ? 4.0 : 2.7) : n === 1 ? 4.1 : 3.5 - .15 * n;
+                        pitch.push([(a + b) / 2, lv]);
+                        if (n === L.length - 1) pitch.push([b, w === lastWord ? 2.2 : 3.9]);
+                    });
+                }
+            } else if (prof.type === 'fr') {
+                // French: the last syllable of each word carries the accent, rising inside the
+                // phrase (continuation) and falling at the end of the utterance
+                for (const w of words) {
+                    const L = nucByWord[w];
+                    L.forEach((i, n) => {
+                        const [a, b] = segSpan(i);
+                        if (n < L.length - 1) pitch.push([(a + b) / 2, 3.0]);
+                        else if (w !== lastWord) pitch.push([a + (b - a) * .2, 3.2], [b, 4.3]);
+                        else pitch.push([a + (b - a) * .2, 3.7], [b, 1.8]);
+                    });
+                }
+            } else if (prof.type === 'flat') {
+                segs.forEach((s, i) => { if (isNucleus(s)) { const [a, b] = segSpan(i); pitch.push([(a + b) / 2, 3.3]); if (i === lastNucleus) pitch.push([b, 2.5]); } });
+            } else {
+                // stress languages: a peak early in each prominent vowel, unstressed syllables lower,
+                // a fall at the end
+                let afterPeak = false;
+                segs.forEach((s, i) => {
+                    if (!isNucleus(s)) return;
+                    const [a, b] = segSpan(i);
+                    if (s.prom === 1) { pitch.push([a + (b - a) * .1, 3.4], [a + (b - a) * .45, 4.4]); afterPeak = true; }
+                    else if (s.prom === 2) { pitch.push([a + (b - a) * .4, 3.7]); afterPeak = true; }
+                    else pitch.push([(a + b) / 2, afterPeak ? 2.8 : 3.1]);
+                    if (i === lastNucleus) pitch.push([b, 1.8]);
+                });
+            }
         }
         pitch.sort((x, y) => x[0] - y[0]);
         for (const p of pitch) p[1] += declin(p[0]);
@@ -863,7 +967,7 @@
         const R = [new Resonator(), new Resonator(), new Resonator(), new Resonator(), new Resonator()];
         const NP = new Resonator(), NZ = new AntiResonator(), FR = new Resonator();
         const hints = {}; for (const f of FIELDS) hints[f] = { i: 0 }; const ph = { i: 0 };
-        let phase = 0, T0 = fs / voice.f0, tilt = 0, prevNoise = 0, hp = { x1: 0, y1: 0 };
+        let phase = 0, T0 = fs / voice.f0, tilt = 0, prevNoise = 0, rough = 0, hp = { x1: 0, y1: 0 };
         const FRAME = 32;
         let P = {}, f0 = voice.f0, f0s = 0, gF = 1, cr = 0, av = 0, ah = 0, af = 0;
         const kF0 = 1 - Math.exp(-FRAME / fs / .018), kAV = 1 - Math.exp(-1 / fs / .004), kAF = 1 - Math.exp(-1 / fs / .0025);
@@ -907,7 +1011,10 @@
             for (let k = 4; k >= 0; k--) x = R[k].tick(x);
             // frication: parallel noise branch, differentiated (radiation)
             const fn = noise();
-            const fr = FR.tick((fn - prevNoise) * af) * 1.06;
+            // roughness: the frication's loudness flickers with a slow random signal (~40-150 Hz)
+            rough += (noise() - rough) * .02;
+            const afr = P.RG ? af * Math.max(0, 1 + P.RG * rough * 4) : af;
+            const fr = FR.tick((fn - prevNoise) * afr) * 1.06;
             prevNoise = fn;
             const y = x + fr;
             // DC block

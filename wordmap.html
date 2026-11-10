@@ -7921,6 +7921,8 @@
             // Passport) so its screen is deep-linkable and reopens from a shared
             // URL. Games set window.__wmOpenGame on open and clear it on close.
             if (window.__wmOpenGame) params.set('play', window.__wmOpenGame);
+            // The pronunciation panel (ipa_synth/speak.js) stays open across reloads.
+            if (window.__speakOpen) params.set('speak', '1');
             // Undo URLSearchParams' %2C so combined params (p=lat,lng,z and
             // cmp=code,code) keep literal commas — shorter, and still parsed
             // correctly on load (URLSearchParams reads literal commas fine).
@@ -13428,6 +13430,6 @@
             open: function () { if (window.__wmCompareReopen) return window.__wmCompareReopen(); var f = document.querySelector('.compare-fab'); if (f && f.getClientRects().length) f.click(); else return false; } });
     })();
     </script>
-<script src="ipa_synth/speak.js?v=12" defer></script>
+<script src="ipa_synth/speak.js?v=14" defer></script>
 </body>
 </html>

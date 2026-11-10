@@ -46,7 +46,7 @@ a { color: var(--accent); }
     const list = document.getElementById('list');
     CASES.forEach((c, n) => {
         const d = document.createElement('div'); d.className = 'case'; d.id = 'c-' + c.id;
-        const ipa = document.createElement('div'); ipa.className = 'ipa'; ipa.textContent = (n + 1) + '. ' + c.ipa;
+        const ipa = document.createElement('div'); ipa.className = 'ipa'; ipa.textContent = (n + 1) + '. ' + c.ipa + (c.lang ? '  (' + c.lang + ')' : '');
         const btns = document.createElement('div'); btns.className = 'btns';
         const b = document.createElement('button'); b.textContent = '▶ 再生'; b.onclick = () => { queue = []; play(c); };
         const sl = document.createElement('button'); sl.textContent = '½ ゆっくり'; sl.onclick = () => { queue = []; play(c, 2); };
@@ -64,7 +64,7 @@ a { color: var(--accent); }
         stop();
         AC = AC || new (window.AudioContext || window.webkitAudioContext)();
         if (AC.state === 'suspended') AC.resume();
-        const out = S.render(S.plan(c.ipa, { durScale: ds || 1 }), { voice: document.getElementById('voice').value });
+        const out = S.render(S.plan(c.ipa, { durScale: ds || 1, lang: c.lang || '' }), { voice: document.getElementById('voice').value });
         const buf = AC.createBuffer(1, out.samples.length, out.fs); buf.getChannelData(0).set(out.samples);
         src = AC.createBufferSource(); src.buffer = buf; src.connect(AC.destination); src.start();
         const el = document.getElementById('c-' + c.id); el.classList.add('playing'); el.scrollIntoView({ block: 'nearest', behavior: 'smooth' });

@@ -767,8 +767,11 @@
                     if (glideSV) P.AV = s.voiced ? .92 : 0;
                     // a glide is a movement: reach the target slowly, leave slowly
                     // the slow exit is the cue: a glide leaves its target over ~95 ms; a fast one sounds like l
-                    if (glideSV && beforeVowel) nx._glideIn = 95;
-                    push((glideSV ? 65 : beforeVowel ? 58 : 72) * gem * syl, P, Object.assign({ kind: m === 'lat' ? 'lateral' : 'approximant', edgeF: glideSV ? 45 : 22, edgeCap: glideSV ? .75 : .5 }, info));
+                    // after a consonant (Chinese medials: tʰjɛn, xwo) a glide is a quick ~35 ms passage;
+                    // alone (ja, aja) it needs ~65 ms and a slow exit, or it sounds like l
+                    const medial = glideSV && i > 0 && segs[i - 1].type === 'C' && !segs[i - 1].pause && !segs[i - 1].wordEnd;
+                    if (glideSV && beforeVowel) nx._glideIn = medial ? 60 : 95;
+                    push((glideSV ? (medial ? 35 : 65) : beforeVowel ? 58 : 72) * gem * syl, P, Object.assign({ kind: m === 'lat' ? 'lateral' : 'approximant', edgeF: glideSV ? 45 : 22, edgeCap: glideSV ? .75 : .5 }, info));
                 } else if (m === 'tap' || m === 'ltap') {
                     const P = consTarget(s, V, m);
                     P.AV = .35; P.glot = 0;
@@ -853,7 +856,15 @@
                     for (let k = i + 1; k < segs.length && segs[k].syl === s.syl; k++) { if (!segs[k].voiced) break; b = segSpan(k)[1]; }
                 }
                 const span = b - a;
+                // reach the tone's start by the syllable's voiced onset, so the move from the
+                // previous tone happens at the boundary rather than inside the rhyme
+                let on = i; while (on > 0 && segs[on - 1].syl === s.syl && segs[on - 1].voiced !== 0) on--;
+                if (on < i) pitch.push([segSpan(on)[0] + 15, tone[0]]);
                 if (tone.length === 1) { pitch.push([a + span * .1, tone[0]], [a + span * .9, tone[0]]); }
+                else if (tone.length === 2 && tone[1] > tone[0]) {
+                    // a rise is a slight dip, then a steep climb in the second half (Xu 1997)
+                    pitch.push([a + span * .08, tone[0]], [a + span * .38, tone[0] - .35], [a + span * .92, tone[1] + .2]);
+                }
                 else tone.forEach((lv, n) => pitch.push([a + span * (.1 + .8 * n / (tone.length - 1)), lv]));
             });
             // nuclei with no tone of their own sit mid

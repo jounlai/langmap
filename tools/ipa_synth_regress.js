@@ -42,6 +42,8 @@ const CHECK = {
     xwo: p => { const x = phasesOf(p, 'x')[0]; return x.P.PW === 1 && x.P.F2 <= 1400; },
     voicing_zh: p => { const z = p.segs.find(s => s.base === 'ʈ'); const fr = p.phases.find(ph => ph.kind === 'frication'); return z.voiced === 1 && z.passiveVoiced && !p.segs.find(s => s.base === 't').voiced && fr.P.TL >= .6 && p.segs[p.segs.length - 1].apical === 'RE'; },
     gamma_par: p => phasesOf(p, 'ɣ')[0].P.PW === 1,
+    rise: p => { const ɑ = p.phases.find(ph => ph.kind === 'vowel' && p.segs[ph.seg].base === 'ɑ'); const pts = p.pitch.filter(x => x[0] >= ɑ.t0 && x[0] <= ɑ.t1 + 80); return pts.length >= 3 && pts[1][1] < pts[0][1] && pts[pts.length - 1][1] - pts[1][1] >= 2; },
+    medial: p => phasesOf(p, 'j')[0].dur <= 40 && S.plan('ja').phases.find(ph => ph.kind === 'approximant').dur >= 60,
     glottal: p => p.phases.some(ph => ph.kind === 'glottal release' && ph.P.CR === 1 && ph.P.AV === 1),
 };
 

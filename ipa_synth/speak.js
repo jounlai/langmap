@@ -11,7 +11,7 @@
  */
 (function () {
     'use strict';
-    const V = '?v=15';
+    const V = '?v=16';
     const BASE = '/ipa_synth/';
     const STR = {
         en: { open: 'Pronunciation', close: 'Close', hintHover: 'Point at a word on the map to hear it.', hintTap: 'Tap a word on the map to hear it.',
@@ -66,7 +66,7 @@
     .speak-panel .sp-note { color: #8a8a8a; font-size: 10.5px; margin-top: 6px; }
     .lang-label.sp-speaking, .globe-label.sp-speaking { outline: 2px solid #1a73e8; outline-offset: 2px; border-radius: 4px; }
     @media (max-width: 600px) {
-        .speak-panel { left: 8px; right: 8px; width: auto; bottom: max(28px, env(safe-area-inset-bottom)); padding: 8px 10px; }
+        .speak-panel { left: 8px; right: auto; width: min(290px, calc(100vw - 16px)); bottom: max(28px, env(safe-area-inset-bottom)); padding: 8px 10px; }
         .speak-panel canvas { width: 96px; height: 120px; flex-basis: 96px; }
         .speak-panel .sp-note { display: none; }
     }

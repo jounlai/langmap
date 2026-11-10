@@ -644,6 +644,7 @@
                     else { PV.BR = Math.max(PV.BR, .2); PV.AV *= .85; }
                 }
                 const afterRelease = phases.length && ['short lag', 'aspiration', 'burst', 'breathy release', 'release'].includes(phases[phases.length - 1].kind);
+                if (s._implosiveOnset) push(25, Object.assign({}, P, { CR: .6, AV: 1 }), Object.assign({ kind: 'creaky onset', edgeA: 1, edgeF: 10 }, info));
                 push(d, PV, Object.assign({ kind: 'vowel', edgeF, edgeCap: s._glideIn ? .8 : .5, edgeA: afterRelease ? 16 : undefined }, info));
                 if (s.glot) push(40, Object.assign({}, P, { AV: 0, AH: 0, glot: -0.5 }), Object.assign({ kind: 'glottal closure' }, info));
             } else {
@@ -681,6 +682,14 @@
                     // closure instead of stopping dead, and a closure between vowels is short (~50 ms)
                     const prevVoiced = i > 0 && !segs[i - 1].pause && segs[i - 1].voiced !== 0 && (segs[i - 1].type === 'V' || ['nasal', 'approx', 'lat'].includes(segs[i - 1].manner));
                     const nextV = segs[i + 1] && segs[i + 1].type === 'V';
+                    if (m === 'impl') {
+                        // Implosive: the larynx drops during the closure, so the voice swells instead of
+                        // fading (crescendo), then the release is almost noiseless and the vowel starts
+                        // loud with a touch of creak.
+                        push(30 * gem, Object.assign({}, closure, { AV: .3, F1: 230, B1: 80 }), Object.assign({ kind: 'closure', edgeA: 8 }, info));
+                        push(28 * gem, Object.assign({}, closure, { AV: .95, F1: 240, B1: 80 }), Object.assign({ kind: 'implosion', edgeA: 22 }, info));
+                        if (nextV) segs[i + 1]._implosiveOnset = true;
+                    } else
                     push((afterPause ? 45 : prevVoiced && nextV ? 50 : 62) * gem, closure, Object.assign({ kind: 'closure', edgeA: prevVoiced ? 26 : 10 }, info));
                     if (!s.noRelease) {
                         const B = BURST[s.place] || velarNoise(V, 1.08);

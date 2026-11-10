@@ -475,9 +475,10 @@
         const c = String(code || ''), b = c.split('_')[0];
         if (c === 'ja' || c === 'ja_tokyo') return { type: 'ja' };       // Tokyo: unaccented (heiban) shape
         if (b === 'ja') return { type: 'flat' };                          // other dialects: accent systems differ
-        if (c === 'ko' || c === 'ko_seoul') return { type: 'ko', passiveVoicing: true };   // Seoul accentual phrase
-        if (b === 'ko') return { type: 'flat', passiveVoicing: true };
-        if (b === 'yue') return { type: 'stress', passiveVoicing: true };
+        if (c === 'ko' || c === 'ko_seoul') return { type: 'ko', passiveVoicing: true, unreleasedFinal: true };   // Seoul accentual phrase
+        if (b === 'ko') return { type: 'flat', passiveVoicing: true, unreleasedFinal: true };
+        if (b === 'yue') return { type: 'stress', passiveVoicing: true, unreleasedFinal: true };
+        if (['vi', 'th', 'lo', 'km', 'my', 'ms', 'id', 'nan', 'hak'].includes(b)) return { type: 'stress', unreleasedFinal: true };
         if (b === 'fr') return { type: 'fr' };
         if (b === 'zh' || b === 'cmn') return { type: 'stress', sandhi3: true, passiveVoicing: true, mandarin: true };
         if (STRESS_INITIAL.has(b)) return { type: 'stress', stress: 'initial' };
@@ -504,6 +505,14 @@
                     const c = segs[k - 1], pl = c.manner === 'affr' ? c.fricPlace : c.place;
                     if (c.type === 'C' && ['fric', 'affr'].includes(c.manner) && (pl === 'RE' || pl === 'AL')) x.apical = pl;
                 }
+            });
+        }
+        if (prof.unreleasedFinal) {
+            // syllable-final stops are unreleased in these languages (Vietnamese Đức ɗɨk, Cantonese,
+            // Thai, Korean …), whether or not the cell writes ̚
+            segs.forEach((x, k) => {
+                const nx = segs[k + 1];
+                if (x.type === 'C' && x.manner === 'stop' && x.place !== 'GL' && (!nx || x.wordEnd || nx.type === 'C')) x.noRelease = true;
             });
         }
         const vtarget = segs.map(s => s.type === 'V' ? vowelTarget(s) : null);

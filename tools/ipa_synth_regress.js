@@ -53,7 +53,7 @@ const CHECK = {
         return band(1900, 3300) - band(150, 900) >= -30 && p.phases.find(q => q.kind === 'vowel').dur <= 45;
     },
     tabako: p => { const b = p.phases.filter(ph => ph.kind === 'burst'); const sl = p.phases.filter(ph => ph.kind === 'short lag'); return b.every(ph => ph.dur <= 14) && sl.every(ph => ph.P.AH <= .1 && ph.dur <= 16); },
-    implosive: p => { const k = p.phases.findIndex(ph => ph.kind === 'implosion'); return k > 0 && p.phases[k].P.AV > p.phases[k - 1].P.AV + .4 && p.phases.some(ph => ph.kind === 'creaky onset'); },
+    implosive: p => { const k = p.phases.findIndex(ph => ph.kind === 'implosion'); return k > 0 && p.phases[k].P.AV > p.phases[k - 1].P.AV + .4 && p.phases.some(ph => ph.kind === 'creaky onset') && p.segs[p.segs.length - 1].noRelease === true; },
     glottal: p => p.phases.some(ph => ph.kind === 'glottal release' && ph.P.CR === 1 && ph.P.AV === 1),
 };
 

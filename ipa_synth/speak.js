@@ -11,17 +11,17 @@
  */
 (function () {
     'use strict';
-    const V = '?v=14';
+    const V = '?v=15';
     const BASE = '/ipa_synth/';
     const STR = {
         en: { open: 'Pronunciation', close: 'Close', hintHover: 'Point at a word on the map to hear it.', hintTap: 'Tap a word on the map to hear it.',
-              note: 'Synthesized from the IPA by rule: an approximation, not checked by native speakers.', unlock: 'Click anywhere once to turn the sound on.', none: 'No IPA for this word.', male: 'male', female: 'female', replay: 'Replay' },
+              note: 'Synthesized from the IPA by rule: an approximation, not checked by native speakers.', unlock: 'Click anywhere once to turn the sound on.', none: 'No IPA for this word.', male: 'male', female: 'female', child: 'child', replay: 'Replay' },
         ja: { open: '発音', close: '閉じる', hintHover: '地図の単語にマウスを重ねると読み上げます。', hintTap: '地図の単語をタップすると読み上げます。',
-              note: 'IPAから規則で合成した近似音です。ネイティブによる確認はしていません。', unlock: '音を出すには、まず画面を一度クリックしてください。', none: 'この単語にはIPAがありません。', male: '男声', female: '女声', replay: 'もう一度' },
+              note: 'IPAから規則で合成した近似音です。ネイティブによる確認はしていません。', unlock: '音を出すには、まず画面を一度クリックしてください。', none: 'この単語にはIPAがありません。', male: '男声', female: '女声', child: '子ども', replay: 'もう一度' },
         ko: { open: '발음', close: '닫기', hintHover: '지도의 단어에 마우스를 올리면 읽어 줍니다.', hintTap: '지도의 단어를 누르면 읽어 줍니다.',
-              note: 'IPA를 규칙으로 합성한 근사음입니다. 원어민 확인은 거치지 않았습니다.', unlock: '소리를 켜려면 화면을 한 번 클릭하세요.', none: '이 단어에는 IPA가 없습니다.', male: '남성', female: '여성', replay: '다시 듣기' },
+              note: 'IPA를 규칙으로 합성한 근사음입니다. 원어민 확인은 거치지 않았습니다.', unlock: '소리를 켜려면 화면을 한 번 클릭하세요.', none: '이 단어에는 IPA가 없습니다.', male: '남성', female: '여성', child: '어린이', replay: '다시 듣기' },
         zh: { open: '发音', close: '关闭', hintHover: '将鼠标移到地图上的词语即可朗读。', hintTap: '点按地图上的词语即可朗读。',
-              note: '根据 IPA 按规则合成的近似音，未经母语者核对。', unlock: '请先点击一下页面以开启声音。', none: '这个词没有 IPA。', male: '男声', female: '女声', replay: '重播' },
+              note: '根据 IPA 按规则合成的近似音，未经母语者核对。', unlock: '请先点击一下页面以开启声音。', none: '这个词没有 IPA。', male: '男声', female: '女声', child: '童声', replay: '重播' },
     };
     const lang = () => {
         const l = (document.documentElement.lang || 'en').toLowerCase();
@@ -97,7 +97,7 @@
         panel.className = 'speak-panel'; panel.hidden = true; panel.setAttribute('role', 'dialog'); panel.setAttribute('aria-modal', 'false');
         panel.innerHTML = '<div class="sp-head"><span class="sp-title"></span><button type="button" class="sp-close">×</button></div>'
             + '<div class="sp-body"><canvas width="128" height="160" aria-hidden="true"></canvas><div class="sp-text"><div class="sp-word" dir="auto"></div><div class="sp-ipa" dir="ltr"></div><div class="sp-name"></div></div></div>'
-            + '<div class="sp-hint"></div><div class="sp-row"><select class="sp-voice"><option value="female"></option><option value="male"></option></select><button type="button" class="sp-replay"></button></div>'
+            + '<div class="sp-hint"></div><div class="sp-row"><select class="sp-voice"><option value="female"></option><option value="male"></option><option value="child"></option></select><button type="button" class="sp-replay"></button></div>'
             + '<div class="sp-note"></div>';
         document.body.appendChild(panel);
         canvas = panel.querySelector('canvas');
@@ -138,7 +138,7 @@
         panel.querySelector('.sp-title').textContent = T('open');
         panel.querySelector('.sp-close').setAttribute('aria-label', T('close'));
         panel.querySelector('.sp-replay').textContent = '▶ ' + T('replay');
-        voiceSel.options[0].textContent = T('female'); voiceSel.options[1].textContent = T('male');
+        voiceSel.options[0].textContent = T('female'); voiceSel.options[1].textContent = T('male'); voiceSel.options[2].textContent = T('child');
         const locked = AC == null || AC.state === 'suspended';
         elHint.textContent = (open && locked && canHover() ? T('unlock') + ' ' : '') + (canHover() ? T('hintHover') : T('hintTap'));
         panel.querySelector('.sp-note').textContent = T('note');

@@ -64,6 +64,15 @@ const CHECK = {
     // and shaped as the m (lips shut, velum down), not as the vowel: that was heard as "tha"
     'tʰm': p => { const a = p.phases.find(ph => ph.kind === 'aspiration'); return a.dur <= 25 && a.P.vel === 1 && a.P.F1 <= 300 && S.plan('tʰa').phases.find(ph => ph.kind === 'aspiration').dur >= 50; },
     noise_nat: p => { const f = p.phases.filter(ph => ph.kind === 'fricative'); return f.length >= 2 && f.every(ph => ph.edgeA >= 30) && f.every(ph => { const nx = p.phases[p.phases.indexOf(ph) + 1]; return nx.kind !== 'vowel' || nx.edgeA >= 20; }); },
+    // rendered: s is a wide band with a steep low side (2 kHz >= 25 dB under the 5-10 kHz peak)
+    noise_shape: p => {
+        if (!p.phases.some(ph => ph.kind === 'breathy offset')) return false;
+        const q = S.plan('asa'), f = q.phases.find(ph => ph.kind === 'fricative'), o = S.render(q, { voice: 'female' });
+        const x = Array.from(o.samples.slice(Math.round((f.t0 + 30) / 1000 * o.fs), Math.round((f.t1 - 15) / 1000 * o.fs)));
+        const band = (lo, hi) => { let e = 0; for (let fr = lo; fr <= hi; fr += 100) { let re = 0, im = 0; for (let n = 0; n < x.length; n++) { const w = .5 - .5 * Math.cos(2 * Math.PI * n / x.length); re += x[n] * w * Math.cos(2 * Math.PI * fr * n / o.fs); im -= x[n] * w * Math.sin(2 * Math.PI * fr * n / o.fs); } e += re * re + im * im; } return 10 * Math.log10(e / ((hi - lo) / 100 + 1) + 1e-12); };
+        let pk = -1e9; for (let c = 5000; c <= 10000; c += 1000) pk = Math.max(pk, band(c - 400, c + 400));
+        return pk - band(1600, 2400) >= 25;
+    },
 };
 
 let bad = 0;

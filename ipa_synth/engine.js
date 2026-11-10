@@ -827,7 +827,15 @@
                         if (s.ejective) P.glot = -0.5;
                         // natural friction swells in and fades out (rise ~40% of the fricative, overlapping
                         // the voice); an 18 ms switch to a flat level sounded like a box
-                        const fd = (s.voiced ? 88 : s.place === 'VE' || s.place === 'UV' ? 115 : 98) * gem * syl;
+                        let fd = (s.voiced ? 88 : s.place === 'VE' || s.place === 'UV' ? 115 : 98) * gem * syl;
+                        // vowel into a voiceless fricative: the glottis opens a little before the
+                        // tongue reaches the constriction, so the vowel ends breathy (a brief [h]
+                        // colour) instead of the voice and the hiss simply crossfading
+                        const pv = phases[phases.length - 1];
+                        if (!s.voiced && !P.PW && pv && pv.kind === 'vowel') {   // (not the back fricatives: x was tuned on its own)
+                            push(16, Object.assign({}, pv.P, { AV: .5, AH: .22, BR: .9, AF: P.AF * .25, FF: P.FF, FB: P.FB, PW: P.PW, A3: P.A3 }), Object.assign({ kind: 'breathy offset', edgeA: 8, edgeF: 10 }, info));
+                            fd -= 12;
+                        }
                         push(fd, P, Object.assign({ kind: 'fricative', edgeA: Math.min(38, fd * .4) }, info));
                     }
                 } else if (m === 'approx' || m === 'lat') {
@@ -1092,6 +1100,15 @@
         }
         tick(x) { const y = this.a * x + this.b * this.y1 + this.c * this.y2; this.y2 = this.y1; this.y1 = y; return y; }
     }
+    // second-order high-pass (RBJ biquad, Q 0.7)
+    class HighPass {
+        constructor() { this.x1 = this.x2 = this.y1 = this.y2 = 0; this.b0 = 1; this.b1 = this.b2 = this.a1 = this.a2 = 0; }
+        set(F, fs) {
+            const w = 2 * Math.PI * F / fs, al = Math.sin(w) / 1.4, cw = Math.cos(w), a0 = 1 + al;
+            this.b0 = (1 + cw) / 2 / a0; this.b1 = -(1 + cw) / a0; this.b2 = this.b0; this.a1 = -2 * cw / a0; this.a2 = (1 - al) / a0;
+        }
+        tick(x) { const y = this.b0 * x + this.b1 * this.x1 + this.b2 * this.x2 - this.a1 * this.y1 - this.a2 * this.y2; this.x2 = this.x1; this.x1 = x; this.y2 = this.y1; this.y1 = y; return y; }
+    }
     class AntiResonator {
         constructor() { this.x1 = 0; this.x2 = 0; this.a = 1; this.b = 0; this.c = 0; }
         set(F, B, fs) {
@@ -1128,7 +1145,8 @@
         return { tp, te, ta, a: (lo + hi) / 2, w, sw };
     }
 
-    const PAR_A2 = .24, PAR_A3 = .18;   // parallel F2/F3 noise gains (calibrated: x ~ -11 dB, k burst ~ -8 dB re vowel)
+    const PAR_A2 = .24, PAR_A3 = .18;
+    const SIB_B2 = -.3, SIB_G = .75;   // sibilant second peak, level match (calibrated against the single-peak band)   // parallel F2/F3 noise gains (calibrated: x ~ -11 dB, k burst ~ -8 dB re vowel)
     function render(pl, opts = {}) {
         const fs = opts.fs || 22050;
         const voice = VOICES[opts.voice] || VOICES.male;
@@ -1137,9 +1155,9 @@
         const rnd = mulberry(12345);
         const noise = () => rnd() * 2 - 1;
         const R = [new Resonator(), new Resonator(), new Resonator(), new Resonator(), new Resonator()];
-        const NP = new Resonator(), NZ = new AntiResonator(), FR = new Resonator(), PF2 = new Resonator(), PF3 = new Resonator();
+        const NP = new Resonator(), NZ = new AntiResonator(), FR = new Resonator(), FR2 = new Resonator(), FHP = new HighPass(), PF2 = new Resonator(), PF3 = new Resonator();
         const hints = {}; for (const f of FIELDS) hints[f] = { i: 0 }; const ph = { i: 0 };
-        let phase = 0, T0 = fs / voice.f0, tilt = 0, prevNoise = 0, rough = 0, prevV = 0, hp = { x1: 0, y1: 0 }, prevAsp = 0, turb = 0, ffw = 0;
+        let phase = 0, T0 = fs / voice.f0, tilt = 0, prevNoise = 0, rough = 0, prevV = 0, hp = { x1: 0, y1: 0 }, prevAsp = 0, turb = 0, ffw = 0, sib = false;
         const FRAME = 32;
         let P = {}, f0 = voice.f0, f0s = 0, gF = 1, cr = 0, av = 0, ah = 0, af = 0, br = 0, tm = rdTiming(voice.rd), micro = 0;
         const kF0 = 1 - Math.exp(-FRAME / fs / .018), kAV = 1 - Math.exp(-1 / fs / .004), kAF = 1 - Math.exp(-1 / fs / .0025);
@@ -1161,7 +1179,13 @@
                 NP.set(270, 100, fs); NZ.set(P.FNZ * (P.FNZ === 270 ? 1 : vt), 100, fs);
                 // the friction's spectral peak wanders a little (turbulence is never stationary)
                 ffw += (noise() - ffw) * .15;
-                FR.set(Math.min(P.FF * Math.sqrt(vt) * (1 + .035 * ffw), fs * .46), P.FB, fs);
+                const ffc = Math.min(P.FF * Math.sqrt(vt) * (1 + .035 * ffw), fs * .46);
+                FR.set(ffc, P.FB, fs);
+                // sibilants and palatals: a second, broader peak above the main one (opposite
+                // polarity, as in Klatt's parallel branch) and a steep low side, so the hiss is a
+                // wide band with little energy under ~half its peak, not one tonal peak
+                sib = P.FF >= 2500 && P.FB <= 2000;
+                if (sib) { FR2.set(Math.min(ffc * 1.45, fs * .37), P.FB * 1.6, fs); FHP.set(ffc * .55, fs); }
                 PF2.set(P.F2 * vt, Math.max(P.B2, 380), fs); PF3.set(Math.min(P.F3 * vt, fs * .45), Math.max(P.B3, 480), fs);   // noise formants are broad: narrow ones sounded like a soft whistle / f
             }
             // glottal source: LF-like flow derivative shaped by Rd, with jitter and shimmer
@@ -1214,7 +1238,10 @@
             // F2 and F3 (the velar/uvular pinch), so the noise moves with the formant transitions
             // instead of sitting in a fixed band (heard as f, v or sh).
             const pw = P.PW;
-            const band = FR.tick((fn - prevNoise) * afr * (1 - pw)) * 1.06;
+            const xin = (fn - prevNoise) * afr * (1 - pw);
+            let band = FR.tick(xin) * 1.06;
+            const b2 = FR2.tick(xin), bh = FHP.tick(band - SIB_B2 * b2);
+            if (sib) band = bh * SIB_G;
             const par = pw ? (PF2.tick(fn * afr * pw) * PAR_A2 + PF3.tick(fn * afr * pw) * PAR_A3 * P.A3 / .7) : 0;
             const fr = (band + par) * 1.4;   // +3 dB: keeps consonant/vowel ratios after the voice high-shelf
             prevNoise = fn;

@@ -466,6 +466,18 @@
         // nucleus of each syllable (first syllabic vowel, else syllabic consonant)
         const isNucleus = s => (s.type === 'V' && !s.nonsyl) || s.syllabic;
         const lastNucleus = (() => { for (let i = segs.length - 1; i >= 0; i--) if (isNucleus(segs[i])) return i; return -1; })();
+        // prominence: written stress if any; with no stress and no tone marks, each word's first
+        // full (non-schwa) vowel carries it, so unmarked phrases are not read as even beats
+        const REDUCED = new Set(['ə', 'ɐ', 'ɚ']);
+        const markedStress = segs.some(s => s.stress);
+        segs.forEach(s => { s.prom = s.stress || 0; });
+        if (!markedStress && !tonal) {
+            const byWord = {};
+            segs.forEach(s => { if (isNucleus(s)) (byWord[s.word] = byWord[s.word] || []).push(s); });
+            for (const list of Object.values(byWord)) { const v = list.find(s => !REDUCED.has(s.base)) || list[0]; v.prom = 1; }
+        }
+        const anyProm = segs.some(s => s.prom);
+        const nucleiInWord = w => segs.filter(s => s.word === w && isNucleus(s)).length;
 
         const ctxVowel = i => {
             let nx = null, pv = null;
@@ -488,14 +500,18 @@
             };
             if (s.type === 'V') {
                 const P = vtarget[i];
-                let d = 120;
-                if (s.stress === 1) d *= 1.35; else if (s.stress === 2) d *= 1.15;
-                if (s.long === 1) d *= 1.8; else if (s.long) d *= 1.35;
+                // open vowels are intrinsically longer; schwa and unstressed lax vowels are short
+                let d = 120 * (.85 + .35 * (1 - s.h));
+                const multi = nucleiInWord(s.word) > 1;
+                if (s.prom === 1) d *= 1.3; else if (s.prom === 2) d *= 1.12;
+                else if (REDUCED.has(s.base) && !tonal) d = 52;
+                else if (anyProm && multi) d *= ['ɪ', 'ʊ', 'ɨ'].includes(s.base) ? .62 : .8;
+                if (s.long === 1) d *= 1.6; else if (s.long) d *= 1.3;
                 if (s.short) d *= .6;
                 if (s.nonsyl) d = Math.min(d, 65);
                 const tone = s.toneMark || s.sylTone;
                 if (tone && isNucleus(s)) { const contour = new Set(tone).size > 1; d = Math.max(d, contour ? 190 : 150); }
-                if (i === lastNucleus) d *= 1.3;
+                if (i === lastNucleus) d = Math.max(d * 1.3, 75);
                 if (s.apical) d = Math.max(d, 150);
                 push(d, P, Object.assign({ kind: 'vowel', edgeF: 45 }, info));
                 if (s.glot) push(40, Object.assign({}, P, { AV: 0, AH: 0, glot: -0.5 }), Object.assign({ kind: 'glottal closure' }, info));
@@ -648,16 +664,15 @@
             // nuclei with no tone of their own sit mid
             segs.forEach((s, i) => { if (isNucleus(s) && !s.toneMark && !s.sylTone) { const [a, b] = segSpan(i); pitch.push([(a + b) / 2, 3]); } });
         } else {
-            const anyStress = segs.some(s => s.stress);
-            let nuc = 0;
+            // a pitch peak early in each prominent vowel, unstressed syllables lower, a fall at the end
+            let afterPeak = false;
             segs.forEach((s, i) => {
                 if (!isNucleus(s)) return;
                 const [a, b] = segSpan(i);
-                let lv = 3.2;
-                if (s.stress === 1) lv += .9; else if (s.stress === 2) lv += .4; else if (!anyStress && nuc === 0) lv += .3;
-                pitch.push([(a + b) / 2, lv]);
-                if (i === lastNucleus) pitch.push([b, 2.1]);
-                nuc++;
+                if (s.prom === 1) { pitch.push([a + (b - a) * .1, 3.4], [a + (b - a) * .45, 4.1]); afterPeak = true; }
+                else if (s.prom === 2) { pitch.push([a + (b - a) * .4, 3.6]); afterPeak = true; }
+                else pitch.push([(a + b) / 2, afterPeak ? 2.9 : 3.1]);
+                if (i === lastNucleus) pitch.push([b, 2.0]);
             });
         }
         pitch.sort((x, y) => x[0] - y[0]);

@@ -530,6 +530,7 @@
                 if (s.nonsyl) d = Math.min(d, 65);
                 const tone = s.toneMark || s.sylTone;
                 if (tone && isNucleus(s)) { const contour = new Set(tone).size > 1; d = Math.max(d, contour ? 190 : 150); }
+                else if (tonal && isNucleus(s)) d *= .65;     // neutral tone: a light, short syllable
                 if (i === lastNucleus) d = Math.max(d * 1.3, 75);
                 if (s.apical) d = Math.max(d, 150);
                 // falling diphthong (eɪ̯, aʊ̯): the nucleus keeps only half of the syllable's vowel time
@@ -706,7 +707,26 @@
                 else tone.forEach((lv, n) => pitch.push([a + span * (.1 + .8 * n / (tone.length - 1)), lv]));
             });
             // nuclei with no tone of their own sit mid
-            segs.forEach((s, i) => { if (isNucleus(s) && !s.toneMark && !s.sylTone) { const [a, b] = segSpan(i); pitch.push([(a + b) / 2, 3]); } });
+            // A toneless syllable among toned ones is a neutral (light) tone: short, and its pitch
+            // follows the tone before it (Chao's Mandarin values): after a fall it is low (51 > 1),
+            // after a high level it is mid-low (55 > 2), after a rise mid (35 > 3), after a low or
+            // dipping tone high (21, 214 > 4). With no toned syllable before it, it sits mid.
+            let prevTone = null;
+            segs.forEach((s, i) => {
+                if (!isNucleus(s)) return;
+                const tone = s.toneMark || s.sylTone;
+                if (tone) { prevTone = tone; return; }
+                const [a, b] = segSpan(i);
+                let lv = 3;
+                if (prevTone) {
+                    const st = prevTone[0], en = prevTone[prevTone.length - 1], lo = Math.min(...prevTone);
+                    if (Math.max(...prevTone) <= 2 || (lo < st && lo < en)) lv = 4;
+                    else if (en < st) lv = Math.max(1, en - .3);
+                    else if (en > st) lv = 3;
+                    else lv = en >= 4 ? 2 : Math.max(1, en - 1);
+                }
+                pitch.push([a + (b - a) * .15, lv], [a + (b - a) * .85, lv - .4]);
+            });
         } else {
             // a pitch peak early in each prominent vowel, unstressed syllables lower, a fall at the end
             let afterPeak = false;

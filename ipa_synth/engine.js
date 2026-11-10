@@ -129,19 +129,21 @@
             const isAsciiDigit = /[0-9]/.test(ch) && prev;
             if (ch in TONE_LETTER || ch in SUP_DIGIT || isAsciiDigit) {
                 const lv = [];
-                let k = i;
+                let k = i, brk = null;
                 for (; k < chars.length; k++) {
                     const c = chars[k];
                     if (c in TONE_LETTER) lv.push(TONE_LETTER[c]);
                     else if (c in SUP_DIGIT) lv.push(SUP_DIGIT[c]);
                     else if (/[0-9]/.test(c)) lv.push(+c);
                     else if (c === '̃' || c === '̰') continue; // stray marks inside a run
+                    // ˀ between tone letters (Vietnamese ngã ˧ˀ˥): the voice breaks mid-syllable
+                    else if (c === 'ˀ' && lv.length && k + 1 < chars.length && chars[k + 1] in TONE_LETTER) { brk = lv.length; continue; }
                     else break;
                 }
                 i = k - 1;
                 const ok = lv.length && lv.length <= 4 && lv.every(v => v >= 1 && v <= 5);
                 if (segs.length > sylStart) {
-                    syllables.push({ start: sylStart, end: segs.length, tone: ok ? lv.map(v => v + register) : null, toneText: lv.join(''), category: !ok });
+                    syllables.push({ start: sylStart, end: segs.length, tone: ok ? lv.map(v => v + register) : null, toneText: lv.join(''), category: !ok, brk: ok ? brk : null });
                     sylStart = segs.length;
                 } else if (syllables.length && ok) {
                     syllables[syllables.length - 1].tone = lv.map(v => v + register);
@@ -245,7 +247,7 @@
         // stress carried by an onset consonant goes to the next vowel
         for (let i = 0; i < segs.length; i++) if (segs[i].stressOnset) { for (let k = i; k < segs.length; k++) if (segs[k].type === 'V') { segs[k].stress = segs[k].stress || segs[i].stressOnset; break; } }
         // syllable index and tone per segment
-        syllables.forEach((sy, n) => { for (let k = sy.start; k < sy.end && k < segs.length; k++) { segs[k].syl = n; if (sy.tone) segs[k].sylTone = sy.tone; if (sy.category) segs[k].toneCategory = sy.toneText; } });
+        syllables.forEach((sy, n) => { for (let k = sy.start; k < sy.end && k < segs.length; k++) { segs[k].syl = n; if (sy.tone) segs[k].sylTone = sy.tone; if (sy.brk != null) segs[k].sylBreak = sy.brk; if (sy.category) segs[k].toneCategory = sy.toneText; } });
         return { segs, syllables: syllables.filter(sy => sy.end > sy.start), unsupported: [...unsupported.keys()] };
     }
 
@@ -665,7 +667,14 @@
                 }
                 const afterRelease = phases.length && ['short lag', 'aspiration', 'burst', 'breathy release', 'release'].includes(phases[phases.length - 1].kind);
                 if (s._implosiveOnset) push(25, Object.assign({}, P, { CR: .6, AV: 1 }), Object.assign({ kind: 'creaky onset', edgeA: 1, edgeF: 10 }, info));
-                push(d, PV, Object.assign({ kind: 'vowel', edgeF, edgeCap: s._glideIn ? .8 : .5, edgeA: afterRelease ? 16 : undefined }, info));
+                if (s.sylBreak != null && isNucleus(s) && tone) {
+                    // broken tone (ngã ˧ˀ˥): vowel, creak into a short glottal stop, creaky restart, rise
+                    push(d * .42, PV, Object.assign({ kind: 'vowel', edgeF, edgeCap: s._glideIn ? .8 : .5, edgeA: afterRelease ? 16 : undefined }, info));
+                    push(22, Object.assign({}, PV, { CR: 1, AV: .8 }), Object.assign({ kind: 'creak', edgeA: 8 }, info));
+                    push(45, Object.assign({}, PV, { AV: 0, AH: 0, AF: 0, glot: -0.5, CR: 0 }), Object.assign({ kind: 'glottal break', edgeA: 3 }, info));
+                    push(25, Object.assign({}, PV, { CR: .8, AV: 1 }), Object.assign({ kind: 'creaky onset', edgeA: 1 }, info));
+                    push(d * .48, PV, Object.assign({ kind: 'vowel', edgeA: 6 }, info));
+                } else push(d, PV, Object.assign({ kind: 'vowel', edgeF, edgeCap: s._glideIn ? .8 : .5, edgeA: afterRelease ? 16 : undefined }, info));
                 if (s.glot) push(40, Object.assign({}, P, { AV: 0, AH: 0, glot: -0.5 }), Object.assign({ kind: 'glottal closure' }, info));
             } else {
                 const V = ctxVowel(i);
@@ -751,7 +760,9 @@
                         push(40, Object.assign({}, closure, { AV: 0, AF: 0, AH: 0, glot: -0.5, lip: C.lip + .1, ty: C.ty + 6 }), Object.assign({ kind: 'glottal hold' }, info));
                     } else if (s.asp) {
                         const A = Object.assign({}, nv, { AV: 0, AH: .55, AF: 0, glot: 1, F1: nv.F1 * .8, B1: 200 });
-                        push(['VE', 'UV'].includes(s.place) ? 70 : 58, A, Object.assign({ kind: 'aspiration', edgeF: 8 }, info));
+                        // before a consonant (Khmer tʰmɑː) only a short puff: a full 58 ms sounded like "th-ma"
+                        const nxC = segs[i + 1] && segs[i + 1].type === 'C' && !segs[i + 1].pause;
+                        push(nxC ? 22 : ['VE', 'UV'].includes(s.place) ? 70 : 58, nxC ? Object.assign(A, { AH: .4 }) : A, Object.assign({ kind: 'aspiration', edgeF: nxC ? 5 : 8 }, info));
                     } else if (s.basp) {
                         const A = Object.assign({}, nv, { AV: .5, AH: .4, AF: 0, glot: .5, B1: 180 });
                         push(58, A, Object.assign({ kind: 'breathy release', edgeF: 8 }, info));
@@ -911,7 +922,16 @@
                 // previous tone happens at the boundary rather than inside the rhyme
                 let on = i; while (on > 0 && segs[on - 1].syl === s.syl && segs[on - 1].voiced !== 0) on--;
                 if (on < i) pitch.push([segSpan(on)[0] + 15, tone[0]]);
-                if (tone.length === 1) { pitch.push([a + span * .1, tone[0]], [a + span * .9, tone[0]]); }
+                const bk = s.sylBreak;
+                if (bk != null && bk > 0 && bk < tone.length) {
+                    const ph = phases.filter(q => q.seg === i), br = ph.find(q => q.kind === 'glottal break');
+                    const pre = tone.slice(0, bk), post = tone.slice(bk);
+                    pre.forEach((lv, n) => pitch.push([a + (br.t0 - a) * (.1 + .7 * n / Math.max(1, pre.length - 1)), lv]));
+                    pitch.push([br.t0 - 10, pre[pre.length - 1] - .4]);
+                    pitch.push([br.t1 + 5, post.length === 1 && post[0] > pre[pre.length - 1] ? pre[pre.length - 1] : post[0] - .5]);   // a single level after the catch is reached by a rise
+                    post.forEach((lv, n) => pitch.push([br.t1 + 30 + (b - br.t1 - 30) * (post.length > 1 ? n / (post.length - 1) : 1) * .9, lv + .2]));
+                }
+                else if (tone.length === 1) { pitch.push([a + span * .1, tone[0]], [a + span * .9, tone[0]]); }
                 else if (tone.length === 2 && tone[1] > tone[0]) {
                     // a rise is a slight dip, then a steep climb in the second half (Xu 1997)
                     pitch.push([a + span * .08, tone[0]], [a + span * .38, tone[0] - .35], [a + span * .92, tone[1] + .2]);

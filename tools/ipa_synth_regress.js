@@ -60,6 +60,8 @@ const CHECK = {
     sandhi313: p => { const t = p.segs.find(s => s.base === 'i').sylTone; const t2 = p.segs.find(s => s.base === 'a').sylTone; return t[0] === 3 && t[1] === 5 && t2.length === 3; },
     xau: p => { const x = phasesOf(p, 'x')[0]; return x.P.F1 >= 450 && x.P.RG >= .5 && x.P.PW === 1; },
     glottal: p => p.phases.some(ph => ph.kind === 'glottal release' && ph.P.CR === 1 && ph.P.AV === 1),
+    nga: p => { const k = p.phases.findIndex(ph => ph.kind === 'glottal break'); if (k < 0) return false; const br = p.phases[k], before = p.pitch.filter(x => x[0] < br.t0).pop(), last = p.pitch.filter(x => x[0] > br.t1).pop(); return br.P.AV === 0 && p.phases[k + 1].P.CR > 0 && last[1] - before[1] >= 2; },
+    'tʰm': p => p.phases.find(ph => ph.kind === 'aspiration').dur <= 25 && S.plan('tʰa').phases.find(ph => ph.kind === 'aspiration').dur >= 50,
 };
 
 let bad = 0;

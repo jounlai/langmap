@@ -9881,7 +9881,7 @@
                         // this column is not always phonemic — for a row marked
                         // phonetic or romanization the slashes were simply wrong.
                         // The compare table already renders it bare.
-                        html += `<tr><td>${escapeHtml(wLabel)}</td><td><span class="wm-form" dir="auto">${escapeHtml(entry[0])}</span>${evMark}${altLine}</td><td style="${ipaStyle}"><span class="wm-ipa${entry[1] ? '' : ' ipa-unknown'}"${entry[1] ? '' : ` title="${escapeHtml(wt('ipaUnknown'))}"`}>${entry[1] ? escapeHtml(entry[1]) : '?'}</span></td></tr>`;
+                        html += `<tr data-ipa="${escapeHtml(entry[1] || '')}" data-word="${escapeHtml(entry[0])}"><td>${escapeHtml(wLabel)}</td><td><span class="wm-form" dir="auto">${escapeHtml(entry[0])}</span>${evMark}${altLine}</td><td style="${ipaStyle}"><span class="wm-ipa${entry[1] ? '' : ' ipa-unknown'}"${entry[1] ? '' : ` title="${escapeHtml(wt('ipaUnknown'))}"`}>${entry[1] ? escapeHtml(entry[1]) : '?'}</span></td></tr>`;
                     }
                 }
             }
@@ -13430,6 +13430,6 @@
             open: function () { if (window.__wmCompareReopen) return window.__wmCompareReopen(); var f = document.querySelector('.compare-fab'); if (f && f.getClientRects().length) f.click(); else return false; } });
     })();
     </script>
-<script src="ipa_synth/speak.js?v=20" defer></script>
+<script src="ipa_synth/speak.js?v=22" defer></script>
 </body>
 </html>

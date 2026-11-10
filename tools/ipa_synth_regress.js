@@ -28,7 +28,7 @@ const CHECK = {
     burmese: p => { const e = p.phases.find(ph => ph.kind === 'vowel' && p.segs[ph.seg].base === 'e'); const i = p.segs.find(s => s.base === 'ɪ'); return e.dur <= 100 && i.nonsyl; },
     palatal: p => { const g = p.phases.filter(ph => ph.kind === 'offglide j'); return g.length === 2 && g.every(ph => ph.dur >= 40 && ph.P.F2 >= 2250); },
     capital: p => p.segs.map(x => x.base).join('') === 'dak' && p.parsed.unsupported.length === 0,
-    klox: p => { const x = phasesOf(p, 'x')[0]; return x.P.RG >= .5 && x.P.FB >= 1800; },
+    klox: p => { const x = phasesOf(p, 'x')[0]; return x.P.RG >= .5 && x.P.FB >= 1000; },
     into_ja: p => p.pitch[0][1] < p.pitch[1][1] - .7,
     into_fr: p => { const v = p.pitch.map(x => x[1]); return Math.max(...v.slice(0, -2)) >= 4 && v[v.length - 1] <= 2; },
     into_ko: p => p.pitch[0][1] >= 3.5,
@@ -38,6 +38,8 @@ const CHECK = {
     velar: p => { const b = p.phases.filter(ph => ph.kind === 'burst'); return b[0].dur >= 22 && b[0].P.RG > 0 && b[1].dur <= 16 && b[0].P.FB <= 700; },
     clear_u: p => { const v = p.phases.filter(ph => ph.kind === 'vowel'); return v.every(ph => (ph.edgeF || 0) <= ph.dur * .45 + 1) && v[v.length - 1].P.BR <= .35; },
     staccato: p => { const c = p.phases.filter(ph => ph.kind === 'closure'); return c[1].edgeA >= 20 && c[1].dur <= 55 && p.phases.filter(ph => ph.kind === 'vowel').every(ph => ph.edgeA == null || ph.edgeA >= 14); },
+    xwo: p => { const x = phasesOf(p, 'x')[0]; return x.P.FF <= 1400 && x.P.FB <= 1500; },
+    voicing_zh: p => { const z = p.segs.find(s => s.base === 'ʈ'); return z.voiced === 1 && z.passiveVoiced && !p.segs.find(s => s.base === 't').voiced; },
     glottal: p => p.phases.some(ph => ph.kind === 'glottal release' && ph.P.CR === 1 && ph.P.AV === 1),
 };
 

@@ -11,16 +11,16 @@
  */
 (function () {
     'use strict';
-    const V = '?v=20';
+    const V = '?v=22';
     const BASE = '/ipa_synth/';
     const STR = {
-        en: { open: 'Pronunciation', close: 'Close', hintHover: 'Point at a word on the map to hear it.', hintTap: 'Tap a word on the map to hear it.',
+        en: { open: 'Pronunciation', close: 'Close', hintHover: 'Point at a word on the map, or in a language panel, to hear it.', hintTap: 'Tap a word on the map to hear it; tap it again to open its language.',
               note: 'Synthesized from the IPA by rule: an approximation, not checked by native speakers.', unlock: 'Click anywhere once to turn the sound on.', none: 'No IPA for this word.', male: 'male', female: 'female', child: 'child', replay: 'Replay' },
-        ja: { open: '発音', close: '閉じる', hintHover: '地図の単語にマウスを重ねると読み上げます。', hintTap: '地図の単語をタップすると読み上げます。',
+        ja: { open: '発音', close: '閉じる', hintHover: '地図や言語の詳細の単語にマウスを重ねると読み上げます。', hintTap: '地図の単語をタップすると読み上げ、もう一度タップすると言語の詳細が開きます。',
               note: 'IPAから規則で合成した近似音です。ネイティブによる確認はしていません。', unlock: '音を出すには、まず画面を一度クリックしてください。', none: 'この単語にはIPAがありません。', male: '男声', female: '女声', child: '子ども', replay: 'もう一度' },
-        ko: { open: '발음', close: '닫기', hintHover: '지도의 단어에 마우스를 올리면 읽어 줍니다.', hintTap: '지도의 단어를 누르면 읽어 줍니다.',
+        ko: { open: '발음', close: '닫기', hintHover: '지도나 언어 정보의 단어에 마우스를 올리면 읽어 줍니다.', hintTap: '지도의 단어를 누르면 읽어 주고, 한 번 더 누르면 언어 정보가 열립니다.',
               note: 'IPA를 규칙으로 합성한 근사음입니다. 원어민 확인은 거치지 않았습니다.', unlock: '소리를 켜려면 화면을 한 번 클릭하세요.', none: '이 단어에는 IPA가 없습니다.', male: '남성', female: '여성', child: '어린이', replay: '다시 듣기' },
-        zh: { open: '发音', close: '关闭', hintHover: '将鼠标移到地图上的词语即可朗读。', hintTap: '点按地图上的词语即可朗读。',
+        zh: { open: '发音', close: '关闭', hintHover: '将鼠标移到地图或语言详情中的词语上即可朗读。', hintTap: '点按地图上的词语即可朗读，再点一次打开该语言的详情。',
               note: '根据 IPA 按规则合成的近似音，未经母语者核对。', unlock: '请先点击一下页面以开启声音。', none: '这个词没有 IPA。', male: '男声', female: '女声', child: '童声', replay: '重播' },
     };
     const lang = () => {
@@ -65,6 +65,8 @@
     .speak-panel .sp-row button { width: auto; flex: 0 0 auto; white-space: nowrap; }
     .speak-panel .sp-note { color: #8a8a8a; font-size: 10.5px; margin-top: 6px; }
     .lang-label.sp-speaking, .globe-label.sp-speaking { outline: 2px solid #1a73e8; outline-offset: 2px; border-radius: 4px; }
+    tr.sp-speaking > td { background: rgba(26,115,232,.1); }
+    .speak-panel .sp-word, .speak-panel .sp-ipa { cursor: pointer; }
     @media (max-width: 600px) {
         .speak-panel { left: 8px; right: auto; width: min(290px, calc(100vw - 16px)); bottom: max(28px, env(safe-area-inset-bottom)); padding: 8px 10px; }
         .speak-panel canvas { width: 96px; height: 120px; flex-basis: 96px; }
@@ -107,16 +109,30 @@
         voiceSel.addEventListener('change', () => { try { localStorage.setItem('lm_speak_voice', voiceSel.value); } catch (_) {} if (lastEl) say(lastEl); });
         panel.querySelector('.sp-close').addEventListener('click', close);
         panel.querySelector('.sp-replay').addEventListener('click', () => { if (lastEl) say(lastEl); });
+        for (const x of [elWord, elIpa]) x.addEventListener('click', () => { if (lastEl) say(lastEl); });   // the panel's own word replays
         document.addEventListener('keydown', e => { if (open && e.key === 'Escape') close(); });
         relabel();
         new MutationObserver(relabel).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
 
         // label events: capture phase, so a tap can be taken before the map's own handler opens the popup
-        const labelOf = t => t && t.closest && t.closest('[data-ipa]');
+        const labelOf = (t, ev) => {
+            let e = t && t.closest && t.closest('[data-ipa]');
+            // a tap on the gap between table rows lands on the tbody: take the row at that height
+            if (!e && ev && t && t.closest && t.closest('tbody')) {
+                for (const r of t.closest('tbody').querySelectorAll('tr[data-ipa]')) { const q = r.getBoundingClientRect(); if (ev.clientY >= q.top - 2 && ev.clientY <= q.bottom + 2) { e = r; break; } }
+            }
+            return e && e.getAttribute('data-ipa') ? e : null;
+        };
+        // touch: the first tap on a map label speaks it; a second tap on the same label lets the
+        // page open its language panel, whose table rows can then be tapped to hear them
+        let lastTap = null;
         document.addEventListener('click', e => {
             if (!open || canHover()) return;
-            const el = labelOf(e.target); if (!el) return;
+            const el = labelOf(e.target, e); if (!el) return;
+            const onMap = !!el.closest('.lang-label, .globe-label');
+            if (onMap && lastTap === el && Date.now() - lastTap._t < 4000) { lastTap = null; return; }
             e.stopPropagation(); e.preventDefault();
+            if (onMap) { lastTap = el; el._t = Date.now(); }
             say(el);
         }, true);
         document.addEventListener('mouseover', e => {
@@ -186,7 +202,9 @@
 
     function nameOf(el) {
         const n = el.querySelector('.name') || (el.closest('.lang-label, .globe-label') || el).querySelector('.name');
-        return n ? n.textContent.trim() : '';
+        if (n) return n.textContent.trim();
+        const panelH = el.closest('[data-code]') && el.closest('[data-code]').querySelector('h2');   // a row in the language panel
+        return panelH ? panelH.textContent.trim() : '';
     }
 
     function say(el) {

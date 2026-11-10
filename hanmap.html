@@ -10985,7 +10985,7 @@
                 const trStyle = isCur ? 'background:#fff8e1' : '';
                 for (let ri = 0; ri < rows.length; ri++) {
                     const r = rows[ri];
-                    html += `<tr style="${trStyle};${ri === rows.length - 1 ? 'border-bottom:1px solid #f3f3f3' : ''}">`;
+                    html += `<tr data-ipa="${escapeHtml(r.ipa || '')}" data-word="${escapeHtml(r.native || r.romanized || ch)}" style="${trStyle};${ri === rows.length - 1 ? 'border-bottom:1px solid #f3f3f3' : ''}">`;   // data-ipa: pronunciation panel
                     if (ri === 0) {
                         const sel = isCur ? ';color:#c0392b;font-weight:600' : '';
                         const cellChar = displayCharOf(ch);
@@ -14335,6 +14335,6 @@
         }).observe(p, { attributes: true, attributeFilter: ['class'] });
     })();
     </script>
-<script src="ipa_synth/speak.js?v=20" defer></script>
+<script src="ipa_synth/speak.js?v=22" defer></script>
 </body>
 </html>

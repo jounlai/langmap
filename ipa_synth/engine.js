@@ -474,10 +474,11 @@
         const c = String(code || ''), b = c.split('_')[0];
         if (c === 'ja' || c === 'ja_tokyo') return { type: 'ja' };       // Tokyo: unaccented (heiban) shape
         if (b === 'ja') return { type: 'flat' };                          // other dialects: accent systems differ
-        if (c === 'ko' || c === 'ko_seoul') return { type: 'ko' };       // Seoul accentual phrase
-        if (b === 'ko') return { type: 'flat' };
+        if (c === 'ko' || c === 'ko_seoul') return { type: 'ko', passiveVoicing: true };   // Seoul accentual phrase
+        if (b === 'ko') return { type: 'flat', passiveVoicing: true };
+        if (b === 'yue') return { type: 'stress', passiveVoicing: true };
         if (b === 'fr') return { type: 'fr' };
-        if (b === 'zh' || b === 'cmn') return { type: 'stress', sandhi3: true };
+        if (b === 'zh' || b === 'cmn') return { type: 'stress', sandhi3: true, passiveVoicing: true };
         if (STRESS_INITIAL.has(b)) return { type: 'stress', stress: 'initial' };
         if (STRESS_PENULT.has(b)) return { type: 'stress', stress: 'penult' };
         if (STRESS_ANTEPENULT.has(b)) return { type: 'stress', stress: 'antepenult' };
@@ -552,6 +553,17 @@
             }
         }
         const anyProm = segs.some(s => s.prom);
+        // Where stops contrast aspiration, not voice (Mandarin, Cantonese, Korean lenis), an
+        // unaspirated stop or affricate between voiced sounds inside a phrase is voiced
+        // (ta˥˩ mu˧˩˧ ʈʂɨ˧˩˧: the ʈʂ is [ɖʐ]).
+        if (prof.passiveVoicing) {
+            const voicedSeg = x => x && x.voiced !== 0 && (x.type === 'V' || ['nasal', 'approx', 'lat'].includes(x.manner));
+            segs.forEach((x, k) => {
+                if (x.type !== 'C' || x.voiced || x.asp || x.ejective || !['stop', 'affr'].includes(x.manner) || x.place === 'GL') return;
+                const pv = segs[k - 1], nx2 = segs[k + 1];
+                if (voicedSeg(pv) && !pv.pause && nx2 && nx2.type === 'V') { x.voiced = 1; x.passiveVoiced = true; }
+            });
+        }
         const nucleiInWord = w => segs.filter(s => s.word === w && isNucleus(s)).length;
 
         const ctxVowel = i => {
@@ -723,7 +735,9 @@
                         // flutter), so the band is wider and its loudness flickers irregularly (RG),
                         // with a little breath through the formants.
                         if (['VE', 'UV', 'PH', 'EP'].includes(s.place)) {
-                            P.FB = 2000; P.FF = Math.max(P.FF, 1500);
+                            // the band follows the next vowel (low before o u, high before i) and is of
+                            // middling width: 2 kHz from 1.5 kHz up made xwo sound like "sh"
+                            P.FB = 1200; P.FF = Math.max(900, Math.min(2300, V.F2 * 1.1));
                             P.AH = Math.max(P.AH, s.voiced ? .08 : .18);
                             P.RG = s.place === 'VE' ? .7 : .9;
                             // voiced back fricatives (ɣ ʁ ʕ): keep the velar/uvular formant pinch audible in

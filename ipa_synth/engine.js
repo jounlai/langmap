@@ -314,13 +314,13 @@
     }
 
     // ------------------------------------------------------------------ targets
-    const FIELDS_A = ['AV', 'AH', 'AF', 'FF', 'FB', 'glot', 'CR'];                       // fast (amplitudes, source)
+    const FIELDS_A = ['AV', 'AH', 'AF', 'FF', 'FB', 'glot', 'CR', 'TL'];   // TL: extra low-pass on the voice (0 none)                       // fast (amplitudes, source)
     const FIELDS_F = ['F1', 'F2', 'F3', 'F4', 'B1', 'B2', 'B3', 'FNZ'];                   // formants
     const FIELDS_R = ['cx', 'cy', 'tx', 'ty', 'curl', 'lip', 'pro', 'll', 'vel', 'jaw', 'lat'];   // articulators (drawing)
     const FIELDS = [...FIELDS_A, ...FIELDS_F, ...FIELDS_R];
 
     const REST = {
-        AV: 0, AH: 0, AF: 0, FF: 4000, FB: 2000, glot: 1, CR: 0,
+        AV: 0, AH: 0, AF: 0, FF: 4000, FB: 2000, glot: 1, CR: 0, TL: 0,
         F1: 500, F2: 1500, F3: 2500, F4: 3500, B1: 90, B2: 110, B3: 170, FNZ: 270,
         cx: 182, cy: 262, tx: 118, ty: 262, curl: 0, lip: 0.03, pro: 0, ll: 0, vel: 1, jaw: 0.08, lat: 0,
     };
@@ -456,7 +456,7 @@
         if (seg.phar) { P.F1 += 180; P.F2 = Math.min(P.F2, 1150); }
         const N = NOISE[place] || velarNoise(V);
         P.FF = N[0]; P.FB = N[1];
-        P.AV = 0; P.AH = 0; P.AF = 0; P.CR = 0;
+        P.AV = 0; P.AH = 0; P.AF = 0; P.CR = 0; P.TL = 0;
         return P;
     }
 
@@ -652,8 +652,11 @@
                         P.AF = (m === 'latfric' ? .7 : N[2]) * (s.voiced ? (s.place === 'VE' || s.place === 'UV' ? .5 : .65) : 1);
                         if (m === 'latfric') { P.FF = 4500; P.FB = 2500; P.AF = .12 * (s.voiced ? .5 : 1); }
                         if (s.base === 'ɧ') { P.FF = 2000; P.FB = 1500; P.AF = .4; P.cx = 205; P.cy = 228; }
-                        P.AV = s.voiced ? .4 : 0;
-                        if (s.voiced) { P.B1 = 130; P.B2 = 160; P.B3 = 240; }
+                        // In a voiced fricative the voice survives mostly as a low buzz (the narrow channel damps
+                        // its upper harmonics): strong low-pass on the voice, so F2/F3 do not ring like an
+                        // approximant, and only moderate noise on top.
+                        P.AV = s.voiced ? .5 : 0;
+                        if (s.voiced) { P.TL = .93; P.B1 = 120; P.B2 = 200; P.B3 = 300; }
                         P.AH = ['BL', 'LD', 'DE', 'PH', 'EP'].includes(s.place) && !s.voiced ? .12 : 0;
                         if (s.ejective) P.glot = -0.5;
                         push((s.voiced ? 88 : s.place === 'VE' || s.place === 'UV' ? 115 : 98) * gem * syl, P, Object.assign({ kind: 'fricative', edgeA: 18 }, info));
@@ -880,7 +883,7 @@
             let g = 0;
             if (phase < Te) { const x = phase / Te; g = (2 * x - 3 * x * x); }
             else g = -Math.exp(-(phase - Te) / Ta);           // return phase: the folds close softly
-            const tl = voice.tilt + (breathy ? .3 : 0);
+            const tl = Math.max(voice.tilt + (breathy ? .3 : 0), P.TL);
             tilt = tilt * tl + g * (1 - tl);
             av += (P.AV - av) * kAV; ah += (P.AH - ah) * kAV; af += (P.AF - af) * kAF;
             const voicing = tilt * av * gF;

@@ -497,7 +497,7 @@
                 if (tone && isNucleus(s)) { const contour = new Set(tone).size > 1; d = Math.max(d, contour ? 190 : 150); }
                 if (i === lastNucleus) d *= 1.3;
                 if (s.apical) d = Math.max(d, 150);
-                push(d, P, Object.assign({ kind: 'vowel', edgeF: 30 }, info));
+                push(d, P, Object.assign({ kind: 'vowel', edgeF: 45 }, info));
                 if (s.glot) push(40, Object.assign({}, P, { AV: 0, AH: 0, glot: -0.5 }), Object.assign({ kind: 'glottal closure' }, info));
             } else {
                 const V = ctxVowel(i);
@@ -615,9 +615,9 @@
         const tracks = {};
         for (const f of FIELDS) tracks[f] = [];
         for (const ph of phases) {
-            const eA = Math.min(ph.edgeA != null ? ph.edgeA : 6, ph.dur / 3) * ds;
-            const eF = Math.min((ph.edgeF != null ? ph.edgeF : 18) * ds, ph.dur * .5);
-            const eR = Math.min((ph.edgeR != null ? ph.edgeR : 28) * ds, ph.dur * .6);
+            const eA = Math.min((ph.edgeA != null ? ph.edgeA : 10) * ds, ph.dur / 3);
+            const eF = Math.min((ph.edgeF != null ? ph.edgeF : 24) * ds, ph.dur * .5);
+            const eR = Math.min((ph.edgeR != null ? ph.edgeR : 40) * ds, ph.dur * .7);
             for (const f of FIELDS) {
                 const e = FIELDS_A.includes(f) ? eA : FIELDS_F.includes(f) ? eF : eR;
                 tracks[f].push([ph.t0 + e, ph.P[f]], [ph.t1, ph.P[f]]);
@@ -668,6 +668,8 @@
     }
 
     // ------------------------------------------------------------------ sampling
+    // S-curve between keyframes: no corners, so movements start and stop gently
+    const ease = u => u * u * (3 - 2 * u);
     function valueAt(track, t, hint) {
         // track: [[t, v], ...] sorted; linear interpolation
         const n = track.length;
@@ -680,12 +682,12 @@
             while (lo < n - 2 && track[lo + 1][0] <= t) lo++;
             hint.i = lo;
             const a = track[lo], b = track[lo + 1];
-            return b[0] === a[0] ? b[1] : a[1] + (b[1] - a[1]) * (t - a[0]) / (b[0] - a[0]);
+            return b[0] === a[0] ? b[1] : a[1] + (b[1] - a[1]) * ease((t - a[0]) / (b[0] - a[0]));
         }
         while (hi - lo > 1) { const m = (lo + hi) >> 1; if (track[m][0] <= t) lo = m; else hi = m; }
         if (hint) hint.i = lo;
         const a = track[lo], b = track[hi];
-        return b[0] === a[0] ? b[1] : a[1] + (b[1] - a[1]) * (t - a[0]) / (b[0] - a[0]);
+        return b[0] === a[0] ? b[1] : a[1] + (b[1] - a[1]) * ease((t - a[0]) / (b[0] - a[0]));
     }
     function sample(pl, t) {
         const out = {};
@@ -736,14 +738,16 @@
         const hints = {}; for (const f of FIELDS) hints[f] = { i: 0 }; const ph = { i: 0 };
         let phase = 0, T0 = fs / voice.f0, tilt = 0, prevNoise = 0, hp = { x1: 0, y1: 0 };
         const FRAME = 32;
-        let P = {}, f0 = voice.f0, gF = 1, cr = 0;
+        let P = {}, f0 = voice.f0, f0s = 0, gF = 1, cr = 0, av = 0, ah = 0, af = 0;
+        const kF0 = 1 - Math.exp(-FRAME / fs / .018), kAV = 1 - Math.exp(-1 / fs / .004), kAF = 1 - Math.exp(-1 / fs / .0008);
         for (let n = 0; n < N; n++) {
             if (n % FRAME === 0) {
                 const t = n / fs * 1000;
                 for (const f of FIELDS_A.concat(FIELDS_F)) P[f] = valueAt(pl.tracks[f], t, hints[f]);
                 const lv = valueAt(pl.pitch, t, ph);
                 cr = P.CR;
-                f0 = voice.f0 * Math.pow(2, (lv - 3) / 5) * (1 - .3 * cr);
+                const target = voice.f0 * Math.pow(2, (lv - 3) / 5) * (1 - .3 * cr) * (1 + .006 * Math.sin(t * .027) + .004 * Math.sin(t * .0107 + 1));
+                f0s = f0s ? f0s + (target - f0s) * kF0 : target; f0 = f0s;
                 const vt = voice.vt;
                 R[0].set(P.F1 * vt, P.B1, fs); R[1].set(P.F2 * vt, P.B2, fs); R[2].set(P.F3 * vt, P.B3, fs);
                 R[3].set(P.F4 * vt, 250, fs); R[4].set(Math.min(4500 * vt, fs * .45), 300, fs);
@@ -758,20 +762,25 @@
                 T0 = fs / f0 * (1 + jit * (rnd() - .5));
                 gF = 1 - .4 * cr * rnd();
             }
-            const Te = T0 * voice.oq * (P.glot > .3 ? 1.1 : 1);
+            const breathy = P.glot > .3;
+            const Te = T0 * voice.oq * (breathy ? 1.1 : 1);
+            const Ta = T0 * (breathy ? .09 : .045);
             let g = 0;
             if (phase < Te) { const x = phase / Te; g = (2 * x - 3 * x * x); }
-            tilt = tilt * (voice.tilt + (P.glot > .3 ? .3 : 0)) + g * (1 - voice.tilt - (P.glot > .3 ? .3 : 0));
-            const voicing = tilt * P.AV * gF;
+            else g = -Math.exp(-(phase - Te) / Ta);           // return phase: the folds close softly
+            const tl = voice.tilt + (breathy ? .3 : 0);
+            tilt = tilt * tl + g * (1 - tl);
+            av += (P.AV - av) * kAV; ah += (P.AH - ah) * kAV; af += (P.AF - af) * kAF;
+            const voicing = tilt * av * gF;
             // breath noise, a little of it pulsed with the voice
             const nz = noise();
-            const asp = nz * (P.AH + (phase < Te ? .03 * P.AV : 0)) * .45;
+            const asp = nz * (ah + (phase < Te ? .03 * av : 0)) * .45;
             let x = voicing + asp;
             x = NZ.tick(NP.tick(x));
             for (let k = 4; k >= 0; k--) x = R[k].tick(x);
             // frication: parallel noise branch, differentiated (radiation)
             const fn = noise();
-            const fr = FR.tick((fn - prevNoise) * P.AF) * 1.6;
+            const fr = FR.tick((fn - prevNoise) * af) * 1.06;
             prevNoise = fn;
             const y = x + fr;
             // DC block

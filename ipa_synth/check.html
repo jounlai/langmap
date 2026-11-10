@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>発音の聞き直し — LangMap</title>
+<style>
+:root { --bg: #f7f5f1; --panel: #fff; --ink: #222; --muted: #6b6b6b; --line: #ddd6cb; --accent: #2e6fb8; }
+@media (prefers-color-scheme: dark) { :root { --bg: #17191c; --panel: #212428; --ink: #e8e6e3; --muted: #9a9a9a; --line: #3a3d42; --accent: #6ea8ec; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif; }
+main { max-width: 900px; margin: 0 auto; padding: 16px; }
+h1 { font-size: 20px; margin: 0 0 4px; }
+p.lead { color: var(--muted); margin: 0 0 12px; font-size: 13px; }
+.bar { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
+button, select { font: inherit; padding: 5px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); cursor: pointer; }
+button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.case { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; margin-bottom: 8px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 12px; align-items: center; }
+.case.playing { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent) inset; }
+.ipa { font: 22px "Doulos SIL", "Charis SIL", "Gentium Plus", "Noto Sans", serif; }
+.meta { grid-column: 1 / -1; font-size: 13px; color: var(--muted); }
+.meta b { color: var(--ink); font-weight: 600; }
+.btns { display: flex; gap: 6px; }
+a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+    <h1>発音の聞き直し</h1>
+    <p class="lead">これまでに「おかしい」と指摘いただいた語の一覧です。直した内容が今も効いているかを、ここで聞き直せます。各修正は自動検査（tools/ipa_synth_regress.js、check_all に組み込み済み）でも見張っています。新しい指摘を直したら、ここにも加えます。<a href="../ipa_synth.html">IPA音声合成のページ</a></p>
+    <div class="bar">
+        <button class="primary" id="all">▶ 全部続けて再生</button>
+        <button id="stop">■ 停止</button>
+        <label>声 <select id="voice"><option value="female">女声</option><option value="male">男声</option></select></label>
+    </div>
+    <div id="list"></div>
+</main>
+<script src="engine.js"></script>
+<script src="regress_cases.js"></script>
+<script>
+(function () {
+    'use strict';
+    const S = window.IPASynth, CASES = window.IPA_REGRESS;
+    let AC = null, src = null, queue = [];
+    const list = document.getElementById('list');
+    CASES.forEach((c, n) => {
+        const d = document.createElement('div'); d.className = 'case'; d.id = 'c-' + c.id;
+        const ipa = document.createElement('div'); ipa.className = 'ipa'; ipa.textContent = (n + 1) + '. ' + c.ipa;
+        const btns = document.createElement('div'); btns.className = 'btns';
+        const b = document.createElement('button'); b.textContent = '▶ 再生'; b.onclick = () => { queue = []; play(c); };
+        const sl = document.createElement('button'); sl.textContent = '½ ゆっくり'; sl.onclick = () => { queue = []; play(c, 2); };
+        btns.append(b, sl);
+        const meta = document.createElement('div'); meta.className = 'meta';
+        meta.innerHTML = '';
+        const h = document.createElement('div'); h.append('指摘: '); const hb = document.createElement('b'); hb.textContent = c.heard; h.append(hb);
+        const f = document.createElement('div'); f.textContent = '対応: ' + c.fix + '（' + c.date + '）';
+        meta.append(h, f);
+        d.append(ipa, btns, meta);
+        list.append(d);
+    });
+    function stop() { if (src) { try { src.stop(); } catch (_) {} src = null; } document.querySelectorAll('.case.playing').forEach(x => x.classList.remove('playing')); }
+    function play(c, ds) {
+        stop();
+        AC = AC || new (window.AudioContext || window.webkitAudioContext)();
+        if (AC.state === 'suspended') AC.resume();
+        const out = S.render(S.plan(c.ipa, { durScale: ds || 1 }), { voice: document.getElementById('voice').value });
+        const buf = AC.createBuffer(1, out.samples.length, out.fs); buf.getChannelData(0).set(out.samples);
+        src = AC.createBufferSource(); src.buffer = buf; src.connect(AC.destination); src.start();
+        const el = document.getElementById('c-' + c.id); el.classList.add('playing'); el.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+        const me = src;
+        src.onended = () => { if (src !== me) return; el.classList.remove('playing'); src = null; const nx = queue.shift(); if (nx) setTimeout(() => play(nx), 450); };
+    }
+    document.getElementById('all').onclick = () => { queue = CASES.slice(1); play(CASES[0]); };
+    document.getElementById('stop').onclick = () => { queue = []; stop(); };
+})();
+</script>
+</body>
+</html>

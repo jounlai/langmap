@@ -780,6 +780,8 @@ line('no new intra-row duplicate', num(s, /violations: (\d+)/), num(s, /stale: (
 // set 2026-11-10 at the counts the rereads had not yet reached; only ever lower it.
 s = run('trivia_style_check.js --check');
 line('trivia style slips', num(s, /over budget: (\d+)/));
+s = run('ipa_synth_regress.js --check');
+line('IPA synth fixes kept', num(s, /regressed: (\d+)/));
 s = run('implausible_polysemy_check.js --check');
 line('a shared form that is a claim', num(s, /violations: (\d+)/));
 

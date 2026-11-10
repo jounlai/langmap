@@ -585,8 +585,14 @@
                     push(50, P, Object.assign({ kind: 'prenasal' }, info));
                 }
                 if (s.place === 'GL' && m === 'stop') {
+                    // A glottal stop is heard at its edges: creak into it, a hard (instant) voice onset
+                    // and a few creaky pulses out of it. After silence only the release is audible.
                     const P = Object.assign({}, V, { AV: 0, AH: 0, AF: 0, glot: -0.5, vel: 0, CR: 0 });
-                    push(55 * gem, P, Object.assign({ kind: 'glottal closure' }, info));
+                    const prevV = segs[i - 1] && segs[i - 1].type === 'V';
+                    if (prevV) push(30, Object.assign({}, vtarget[i - 1], { AV: .7, CR: 1 }), Object.assign({ kind: 'creak', edgeA: 8 }, info));
+                    push((prevV ? 55 : 35) * gem, P, Object.assign({ kind: 'glottal closure', edgeA: 2 }, info));
+                    const nv = nextVowelP(i);
+                    if (nv && beforeVowel) push(35, Object.assign({}, nv, { AV: 1, CR: 1 }), Object.assign({ kind: 'glottal release', edgeA: .7, edgeF: 2 }, info));
                 } else if (m === 'stop' || m === 'affr' || m === 'impl' || m === 'click') {
                     const C = consTarget(s, V, m === 'affr' ? 'stop' : m);
                     if (m === 'click') {

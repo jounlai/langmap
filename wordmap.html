@@ -2510,7 +2510,7 @@
             cursor: pointer;
             display: none;
         }
-        .trivia-modal.compact .trivia-expand { display: inline-flex; align-items: center; justify-content: center; }
+        .trivia-modal.compact .trivia-expand { display: inline-flex; align-items: center; justify-content: center; font-size: 12.5px; margin-inline-end: auto; background: linear-gradient(135deg,#ffefc4,#ffd98a); border-color: #c8932f; }
         .trivia-expand:hover {
             background: rgba(255,235,180,0.95);
             border-color: #b8860b;
@@ -4854,6 +4854,7 @@
                 sw: 'Vyanzo na masomo zaidi',
             },
             triviaExpand: { en: '⤢' },  // icon-only; full phrase in triviaExpandTitle
+            triviaResume: { en: '↩ Back to the article', ja: '↩ 記事に戻る', ko: '↩ 글로 돌아가기', zh: '↩ 回到文章', yue: '↩ 返去文章', vi: '↩ Quay lại bài viết', th: '↩ กลับไปที่บทความ', id: '↩ Kembali ke artikel', hi: '↩ लेख पर लौटें', de: '↩ Zurück zum Artikel', fr: '↩ Retour à l\'article', it: '↩ Torna all\'articolo', es: '↩ Volver al artículo', pt: '↩ Voltar ao artigo', ru: '↩ Вернуться к статье', uk: '↩ Повернутися до статті', ar: '↪ العودة إلى المقالة', he: '↪ חזרה למאמר', sw: '↩ Rudi kwenye makala' },
             triviaExpandTitle: {
                 en: 'Expand article back to full screen',
                 ja: '記事を全画面に広げる',
@@ -5051,7 +5052,7 @@
             if (tClose) tClose.setAttribute('aria-label', i18n('triviaClose'));
             const tExpand = document.getElementById('trivia-expand');
             if (tExpand) {
-                tExpand.textContent = '⤢';
+                tExpand.textContent = i18n('triviaResume');   // worded: the ⤢ icon was not read as the way back, and × closed the article
                 const expandTitle = i18n('triviaExpandTitle');
                 tExpand.title = expandTitle;
                 tExpand.setAttribute('aria-label', expandTitle);
@@ -11668,6 +11669,8 @@
         }
         function openTrivia(id, opts) {
             const fromHash = !!(opts && opts.fromHash);
+            // the 📚 button reopens the article that was being read
+            if (!id && !fromHash && _triviaResume && _triviaResume !== 'index') id = _triviaResume;
             // Two lazy dependencies: the 25 word-data blocks (the compare table
             // inside an article uses them) and the articles themselves.
             if (!wordsReady() || !window.TRIVIA_ARTICLES) {
@@ -11723,8 +11726,10 @@
             // would otherwise restore the prior scroll position.
             const _scrollOpen = document.getElementById('trivia-scroll');
             if (_scrollOpen) {
-                _scrollOpen.scrollTop = 0;
-                requestAnimationFrame(() => { _scrollOpen.scrollTop = 0; });
+                const _tmY = document.getElementById('trivia-modal');
+                const _y = _tmY.dataset.view === 'article' ? (_triviaPos[_tmY.dataset.articleId] || 0) : _triviaIdxPos;
+                _scrollOpen.scrollTop = _y;
+                requestAnimationFrame(() => { _scrollOpen.scrollTop = _y; });
             }
             setTimeout(() => modal.focus(), 0);
             // Its one history entry comes from the shared helper (_triviaHist
@@ -11734,6 +11739,7 @@
             if (typeof updateHash === 'function') updateHash();
         }
         function navigateTrivia(id) {
+            _triviaSave();
             const modal = document.getElementById('trivia-modal');
             // Each article starts from a clean surface — close any
             // language modal / compare panel / blinks from the previous
@@ -11757,12 +11763,22 @@
             _triviaLastId = id;
         }
         var _triviaLastId = null;
+        // Where the reader was: scroll per article and in the list, and what was open at close,
+        // so the 📚 button and ← Articles come back to the same spot instead of the top.
+        var _triviaPos = {}, _triviaIdxPos = 0, _triviaResume = null;
+        function _triviaSave() {
+            const m = document.getElementById('trivia-modal'), sc = document.getElementById('trivia-scroll');
+            if (!m || !sc || !m.classList.contains('visible')) return;
+            if (m.dataset.view === 'article' && m.dataset.articleId) _triviaPos[m.dataset.articleId] = sc.scrollTop;
+            else if (m.dataset.view === 'index') _triviaIdxPos = sc.scrollTop;
+        }
         function backToTriviaIndex() {
+            _triviaSave();
             _resetTriviaSurface();
             renderTriviaIndex();
             setTriviaCompact(false);
             const _scrollBack = document.getElementById('trivia-scroll');
-            if (_scrollBack) _scrollBack.scrollTop = 0;
+            if (_scrollBack) { _scrollBack.scrollTop = _triviaIdxPos; requestAnimationFrame(() => { _scrollBack.scrollTop = _triviaIdxPos; }); }
             // Replace: the window keeps its one entry (r29; r20's push left an entry
             // behind every article, so × and Back reopened Trivia).
             if (typeof updateHash === 'function') updateHash();
@@ -11793,6 +11809,7 @@
                 if (!ok(r)) r = ['#play-menu-btn', '#trivia-open', '.hamburger-btn'].map((q) => document.querySelector(q)).find(ok);
                 if (r) setTimeout(() => { try { r.focus(); } catch (_) {} }, 0);
             }
+            _triviaSave(); if (modal.classList.contains('visible')) _triviaResume = modal.dataset.view === 'article' ? modal.dataset.articleId : 'index';
             modal.classList.remove('visible');
             backdrop.classList.remove('visible');
             backdrop.setAttribute('aria-hidden', 'true');

@@ -47,7 +47,8 @@
 .trivia-back,.trivia-expand{height:26px;font-size:12px;font-weight:600;line-height:1;padding:0 10px;border:1px solid rgba(180,130,30,.45);border-radius:12px;background:rgba(255,247,225,.85);color:#6a4c1c;cursor:pointer;align-items:center;justify-content:center;font-family:inherit;display:none}
 .trivia-back{margin-inline-end:auto}
 .trivia-modal[data-view=article] .trivia-back{display:inline-flex}
-.trivia-modal.compact .trivia-expand{display:inline-flex;font-size:14px;min-width:28px}
+.trivia-modal.compact .trivia-expand{display:inline-flex;font-size:12.5px;min-width:28px;margin-inline-end:auto;background:linear-gradient(135deg,#ffefc4,#ffd98a);border-color:#c8932f}
+.trivia-modal.compact .trivia-back{display:none}
 .trivia-back:hover,.trivia-expand:hover{background:rgba(255,235,180,.95);border-color:#b8860b}
 .trivia-modal .close-btn{background:none;border:none;width:28px;height:26px;font-size:22px;line-height:1;cursor:pointer;color:#7a5a1e;display:inline-flex;align-items:center;justify-content:center;padding:0}
 .trivia-modal .close-btn:hover{color:#5a3f15}
@@ -107,6 +108,7 @@
         next: { en: 'Next →', ja: '次の記事 →', ko: '다음 글 →', zh: '下一篇 →', yue: '下一篇 →', vi: 'Tiếp →', th: 'ถัดไป →', id: 'Berikutnya →', hi: 'अगला →', de: 'Nächster →', fr: 'Suivant →', it: 'Successivo →', es: 'Siguiente →', pt: 'Próximo →', ru: 'Далее →', uk: 'Далі →', ar: 'التالي ←', he: 'הבא ←', sw: 'Inayofuata →' },
         page: { en: 'Article page', ja: '記事ページ', ko: '기사 페이지', zh: '文章页面', yue: '文章頁面', vi: 'Trang bài viết', th: 'หน้าบทความ', id: 'Halaman artikel', hi: 'लेख पृष्ठ', de: 'Artikelseite', fr: 'Page de l’article', it: 'Pagina dell’articolo', es: 'Página del artículo', pt: 'Página do artigo', ru: 'Страница статьи', uk: 'Сторінка статті', ar: 'صفحة المقالة', he: 'עמוד המאמר', sw: 'Ukurasa wa makala' },
         sources: { en: 'Sources & further reading', ja: '出典・参考文献', ko: '출처 · 참고문헌', zh: '参考资料', yue: '參考資料', vi: 'Nguồn & tài liệu tham khảo', th: 'แหล่งอ้างอิงและอ่านเพิ่มเติม', id: 'Sumber & bacaan lanjutan', hi: 'स्रोत और संदर्भ', de: 'Quellen & Lektüre', fr: 'Sources & lectures', it: 'Fonti & approfondimenti', es: 'Fuentes y lecturas', pt: 'Fontes e leituras', ru: 'Источники и литература', uk: 'Джерела й література', ar: 'المصادر والقراءات الإضافية', he: 'מקורות וקריאה נוספת', sw: 'Vyanzo na masomo zaidi' },
+        resume: { en: '↩ Back to the article', ja: '↩ 記事に戻る', ko: '↩ 글로 돌아가기', zh: '↩ 回到文章', yue: '↩ 返去文章', vi: '↩ Quay lại bài viết', th: '↩ กลับไปที่บทความ', id: '↩ Kembali ke artikel', hi: '↩ लेख पर लौटें', de: '↩ Zurück zum Artikel', fr: '↩ Retour à l\'article', it: '↩ Torna all\'articolo', es: '↩ Volver al artículo', pt: '↩ Voltar ao artigo', ru: '↩ Вернуться к статье', uk: '↩ Повернутися до статті', ar: '↪ العودة إلى المقالة', he: '↪ חזרה למאמר', sw: '↩ Rudi kwenye makala' },
         expand: { en: 'Expand article back to full screen', ja: '記事を全画面に広げる', ko: '글을 전체 화면으로 펼치기', zh: '将文章展开到全屏', yue: '將文章展開到全螢幕', vi: 'Mở rộng bài viết toàn màn hình', th: 'ขยายบทความเต็มหน้าจอ', id: 'Perluas artikel ke layar penuh', hi: 'लेख को पूरी स्क्रीन तक विस्तार करें', de: 'Artikel auf Vollbild erweitern', fr: 'Agrandir l\'article en plein écran', it: 'Espandi l\'articolo a schermo intero', es: 'Expandir el artículo a pantalla completa', pt: 'Expandir o artigo para tela cheia', ru: 'Развернуть статью на весь экран', uk: 'Розгорнути статтю на весь екран', ar: 'توسيع المقالة إلى ملء الشاشة', he: 'הרחבת המאמר למסך מלא', sw: 'Panua makala kwa skrini nzima' },
     };
 
@@ -116,6 +118,10 @@
 
     let cfg = null, modal, backdrop, scroll, btn, hist = null;
     let curId = null, view = null, opener = null, lastId = null, pending = null;
+    // Where the reader was: scroll position per article and in the list, and what was open when
+    // the window was closed, so coming back lands on the same spot instead of the top.
+    const pos = {}; let idxPos = 0, resumeId = null;
+    function saveScroll() { if (!scroll) return; if (view === 'article' && curId) pos[curId] = scroll.scrollTop; else if (view === 'index') idxPos = scroll.scrollTop; }
     const loaded = {}, loading = {};
 
     function L() { return String((cfg && cfg.getLang && cfg.getLang()) || 'en').split('_')[0]; }
@@ -234,7 +240,9 @@
         modal.lang = ui;
         modal.querySelector('#trivia-back').textContent = t('back');
         modal.querySelector('#trivia-close').setAttribute('aria-label', t('close'));
-        const ex = modal.querySelector('#trivia-expand'); ex.title = t('expand'); ex.setAttribute('aria-label', t('expand'));
+        // in the small window over the map, a worded way back to the article (the ⤢ icon was not
+        // read as one, and the × closed the article instead)
+        const ex = modal.querySelector('#trivia-expand'); ex.textContent = t('resume'); ex.title = t('expand'); ex.removeAttribute('aria-label');
         modal.querySelector('#trivia-nav-next .nav-dir').textContent = t('next');
         modal.querySelector('#trivia-nav-prev .nav-dir').textContent = t('prev');
         modal.querySelector('#trivia-nav-index .nav-dir').textContent = t('back');
@@ -311,6 +319,7 @@
     }
 
     function go(id) {
+        saveScroll();
         const wasCompact = modal.classList.contains('compact');
         renderArticle(id);
         if (!wasCompact) setCompact(false);
@@ -319,10 +328,11 @@
         if (cfg.onHash) cfg.onHash();
     }
     function showIndex() {
+        saveScroll();
         renderIndex();
         setCompact(false);
-        scroll.scrollTop = 0;
-        const c = lastId && modal.querySelector('.trivia-card[data-article-id="' + CSS.escape(lastId) + '"]');
+        scroll.scrollTop = idxPos;
+        const c = lastId && modal.querySelector('.trivia-card[data-article-id="' + window.CSS.escape(lastId) + '"]');
         if (c) c.focus({ preventScroll: true }); else modal.querySelector('#trivia-heading').focus({ preventScroll: true });
         if (cfg.onHash) cfg.onHash();
     }
@@ -337,13 +347,15 @@
             const want = pending; pending = null;
             if (!want) return;   // closed while loading
             if (!articles().length) return;
+            // the 📚 button reopens what was being read, where it was left
+            if (!want.id && !want.fromHash && resumeId) want.id = resumeId === 'index' ? undefined : resumeId;
             const match = want.id && articles().some((a) => a.id === want.id);
             if (match) renderArticle(want.id); else renderIndex();
             setCompact(false);
             const already = modal.classList.contains('visible');
             backdrop.classList.add('visible'); backdrop.setAttribute('aria-hidden', 'false');
             modal.classList.add('visible');
-            scroll.scrollTop = 0;
+            scroll.scrollTop = view === 'article' ? (pos[curId] || 0) : idxPos;
             setTimeout(() => modal.focus(), 0);
             if (!want.fromHash && !already && hist) hist.opened();
             // From a link or Back/Forward the helper sees the window open through
@@ -356,6 +368,7 @@
     function close() {
         pending = null;
         if (!modal.classList.contains('visible')) return;
+        saveScroll(); resumeId = view === 'article' ? curId : 'index';
         modal._lmLast = modal.dataset.articleId || '';
         modal.classList.remove('visible');
         setCompact(false);

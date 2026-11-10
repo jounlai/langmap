@@ -7604,7 +7604,10 @@
             // popup keep all of them).
             if (firstOnly && rows.length > 1) rows = rows.slice(0, 1);
             const multiCls = rows.length > 1 ? ' multi-variant' : '';
-            let html = `<div class="${cssClass}${isVertical ? ' vertical' : ''}${multiCls}${inCompareCls}" data-code="${codeAttr}" role="button" tabindex="0" aria-label="${ariaLabel}">`;
+            // data-ipa / data-word: the pronunciation panel (ipa_synth/speak.js) reads them; readings are read in turn with a pause (|)
+            const sayIpa = escapeHtml(rows.map(r => r.ipa).filter(Boolean).join(' | '));
+            const sayWord = escapeHtml(rows.map(r => r.native || r.romanized).filter(Boolean).join(' / '));
+            let html = `<div class="${cssClass}${isVertical ? ' vertical' : ''}${multiCls}${inCompareCls}" data-code="${codeAttr}" data-ipa="${sayIpa}" data-word="${sayWord}" role="button" tabindex="0" aria-label="${ariaLabel}">`;
             for (const r of rows) {
                 // Build the word line: romanisation only (optionally with
                 // a per-variant label tag). 独自文字 (native script) gets
@@ -14330,5 +14333,6 @@
         }).observe(p, { attributes: true, attributeFilter: ['class'] });
     })();
     </script>
+<script src="ipa_synth/speak.js?v=1" defer></script>
 </body>
 </html>

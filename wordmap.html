@@ -6372,7 +6372,7 @@
             ariaParts.push(displayName);   // raw: the join is escaped once below (n is already escaped)
             const ariaLabel = escapeHtml(ariaParts.filter(Boolean).join(' — '));
             const inCompareCls = (window.__compareList || []).indexOf(code) !== -1 ? ' in-compare' : '';
-            let html = `<div class="${cssClass}${isVertical ? ' vertical' : ''}${inCompareCls}" data-code="${codeAttr}" role="button" tabindex="0" aria-label="${ariaLabel}">`;
+            let html = `<div class="${cssClass}${isVertical ? ' vertical' : ''}${inCompareCls}" data-code="${codeAttr}" data-ipa="${i}" data-word="${w}" role="button" tabindex="0" aria-label="${ariaLabel}">`;   // data-ipa: the pronunciation panel (ipa_synth/speak.js) reads it
             // Audit Task 129: dir="auto" on word + name so RTL labels render
             // in correct order; IPA stays LTR.
             // Route-coloured concepts: colour the word/IPA by which trade route
@@ -13428,5 +13428,6 @@
             open: function () { if (window.__wmCompareReopen) return window.__wmCompareReopen(); var f = document.querySelector('.compare-fab'); if (f && f.getClientRects().length) f.click(); else return false; } });
     })();
     </script>
+<script src="ipa_synth/speak.js?v=1" defer></script>
 </body>
 </html>

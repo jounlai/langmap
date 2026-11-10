@@ -624,6 +624,19 @@
         });
         push(140, Object.assign({}, REST), { kind: 'rest', seg: -1 });
 
+        // Silence carries no formant movement: give rest/pause phases the formants (and lip/jaw
+        // pose) of the sound they lead into, or else a vowel after silence starts with a rising
+        // F1/F2 sweep that is heard as a [b] ("apan" -> "bapan"). Voicing after silence fades in.
+        phases.forEach((ph, k) => {
+            if (ph.kind !== 'rest' && ph.kind !== 'pause') return;
+            const nb = phases[k + 1] && phases[k + 1].seg >= 0 ? phases[k + 1] : phases[k - 1];
+            if (!nb || nb.seg < 0) return;
+            for (const f of ['F1', 'F2', 'F3', 'F4', 'B1', 'B2', 'B3', 'FNZ']) ph.P[f] = nb.P[f];
+            if (nb === phases[k + 1]) {
+                for (const f of ['lip', 'pro', 'jaw', 'cx', 'cy', 'tx', 'ty']) ph.P[f] = REST[f] + (nb.P[f] - REST[f]) * .6;
+                if (nb.P.AV > .5 && nb.kind !== 'closure') nb.edgeA = Math.max(nb.edgeA || 0, 28);
+            }
+        });
         // times
         let t = 0;
         for (const ph of phases) { ph.t0 = t; t += ph.dur; ph.t1 = t; }

@@ -545,12 +545,13 @@
                         const B = BURST[s.place] || velarNoise(V, 1.08);
                         const R = Object.assign({}, closure);
                         R.FF = B[0]; R.FB = B[1];
-                        R.AF = m === 'click' ? (CLICK_GAIN[s.place] || .6) : B[2] * (s.ejective ? 1.4 : m === 'impl' ? .35 : 1);
+                        R.AF = m === 'click' ? (CLICK_GAIN[s.place] || .6) * .55 : B[2] * .42 * (s.ejective ? 1.4 : m === 'impl' ? .35 : 1);
                         R.AV = s.voiced ? .35 : 0;
                         if (m === 'click') R.FB = Math.min(R.FB, 900);
                         // release: articulators already opening
                         R.tx = C.tx; R.ty = C.ty + 3; R.lip = s.place === 'BL' ? .06 : C.lip;
-                        push(m === 'click' ? 5 : 8, R, Object.assign({ kind: 'burst', edgeA: .5, edgeF: 1 }, info));
+                        // a softer release: longer, quieter, ramped in and left to decay into the next phase
+                        push(m === 'click' ? 8 : 14, R, Object.assign({ kind: 'burst', edgeA: 2, edgeF: 2 }, info));
                     }
                     if (m === 'affr') {
                         const F = consTarget(Object.assign({}, s, { place: s.fricPlace, base: s.fricBase }), V, s.lateral ? 'latfric' : 'fric');
@@ -754,7 +755,7 @@
         let phase = 0, T0 = fs / voice.f0, tilt = 0, prevNoise = 0, hp = { x1: 0, y1: 0 };
         const FRAME = 32;
         let P = {}, f0 = voice.f0, f0s = 0, gF = 1, cr = 0, av = 0, ah = 0, af = 0;
-        const kF0 = 1 - Math.exp(-FRAME / fs / .018), kAV = 1 - Math.exp(-1 / fs / .004), kAF = 1 - Math.exp(-1 / fs / .0008);
+        const kF0 = 1 - Math.exp(-FRAME / fs / .018), kAV = 1 - Math.exp(-1 / fs / .004), kAF = 1 - Math.exp(-1 / fs / .0025);
         for (let n = 0; n < N; n++) {
             if (n % FRAME === 0) {
                 const t = n / fs * 1000;

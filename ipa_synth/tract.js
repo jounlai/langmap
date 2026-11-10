@@ -8,7 +8,7 @@
  */
 (function () {
     'use strict';
-    const W = 420, H = 430, R = 46;
+    const W = 344, H = 430, R = 46;
     const PIVOT = [252, 168];          // the mandible turns about the condyle
     const PAL = [[84, 199], [96, 191], [114, 185], [150, 177], [190, 176], [226, 181]];
     const WALL = [[282, 168], [287, 250], [284, 330], [281, 430]];
@@ -61,32 +61,39 @@
         const pro = S.pro * 8;
         const ulBottom = 212 - S.lip * 4;                  // upper lip edge
         const lowInc = J([81, 228]);                       // lower incisor tip
-        const llTop = S.ll ? Math.min(lowInc[1] - 6, 219) : Math.max(ulBottom + S.lip * 26, Math.min(ulBottom + 2, lowInc[1] - 10));
-        const llX = S.ll ? 72 : 52 - pro;
-        const chin = J([72, 302]), chinLow = J([96, 320]), jawAngle = J([214, 312]);
+        // the lower lip rides on the jaw: it stays just above the lower teeth and moves back with them
+        const llTop = S.ll ? Math.min(lowInc[1] - 6, 219) : Math.max(ulBottom, Math.min(ulBottom + S.lip * 26, lowInc[1] - 6));
+        const llX = S.ll ? 72 : 52 - pro + (lowInc[0] - 81) * .8;
 
-        // ---- head: skin silhouette (face left, neck right)
+        // ---- head: one smooth profile (face left, neck right)
         ctx.beginPath();
-        ctx.moveTo(120, 14); ctx.quadraticCurveTo(96, 40, 92, 64);
-        ctx.quadraticCurveTo(80, 96, 77, 114); ctx.quadraticCurveTo(54, 140, 36, 162);
-        ctx.quadraticCurveTo(38, 176, 54, 179); ctx.quadraticCurveTo(61, 181, 64, 186);
-        ctx.quadraticCurveTo(50 - pro, 194, 50 - pro, ulBottom - 3);
+        ctx.moveTo(160, 10);
+        ctx.bezierCurveTo(118, 12, 94, 40, 90, 78);          // crown to forehead
+        ctx.bezierCurveTo(88, 92, 84, 100, 84, 106);         // brow
+        ctx.bezierCurveTo(86, 114, 84, 120, 78, 128);        // bridge of the nose
+        ctx.bezierCurveTo(64, 142, 48, 152, 40, 162);        // nose ridge
+        ctx.bezierCurveTo(34, 170, 40, 178, 52, 178);        // tip and nostril
+        ctx.bezierCurveTo(58, 178, 62, 181, 64, 186);        // under the nose
+        ctx.bezierCurveTo(56 - pro, 190, 50 - pro, 196, 50 - pro, ulBottom - 3);
         ctx.quadraticCurveTo(54 - pro, ulBottom + 1, 66, ulBottom);
-        ctx.lineTo(66, llTop);
+        ctx.lineTo(llX + 14, llTop);
         ctx.quadraticCurveTo(llX - 2, llTop - 1, llX, llTop + 8);
-        const llBase = J([60, 252]);
-        ctx.quadraticCurveTo(llX + 2, llTop + 22, llBase[0], llBase[1]);
-        ctx.quadraticCurveTo(chin[0] - 10, chin[1] - 20, chin[0], chin[1]);
-        ctx.quadraticCurveTo(chinLow[0] - 8, chinLow[1] + 4, chinLow[0] + 10, chinLow[1]);
-        ctx.quadraticCurveTo(jawAngle[0] - 70, jawAngle[1] + 20, 190, 352);
-        ctx.quadraticCurveTo(172, 380, 178, 430);
-        ctx.lineTo(338, 430); ctx.quadraticCurveTo(334, 300, 344, 200); ctx.quadraticCurveTo(352, 60, 250, 18); ctx.quadraticCurveTo(190, 2, 120, 14);
+        const fold = J([66, 250]), chinFront = J([60, 280]), chinBottom = J([80, 304]), underChin = J([130, 318]);
+        ctx.bezierCurveTo(llX + 1, llTop + 18, fold[0] - 2, fold[1] - 8, fold[0], fold[1]);
+        ctx.bezierCurveTo(fold[0] - 6, fold[1] + 10, chinFront[0] - 2, chinFront[1] - 8, chinFront[0], chinFront[1]);
+        ctx.bezierCurveTo(chinFront[0] + 2, chinBottom[1] - 6, chinBottom[0] - 10, chinBottom[1], chinBottom[0], chinBottom[1]);
+        ctx.bezierCurveTo(chinBottom[0] + 20, chinBottom[1] + 4, underChin[0] - 20, underChin[1], underChin[0], underChin[1]);
+        ctx.bezierCurveTo(152, 326, 172, 334, 180, 350);   // into the throat
+        ctx.bezierCurveTo(184, 372, 182, 400, 184, 430);
+        ctx.lineTo(326, 430);
+        ctx.bezierCurveTo(318, 360, 320, 290, 330, 220);    // back of the neck
+        ctx.bezierCurveTo(342, 130, 300, 14, 160, 10);      // back of the head
         ctx.closePath();
-        ctx.fillStyle = C.skin; ctx.fill(); ctx.strokeStyle = C.skinLine; ctx.lineWidth = 1.5; ctx.stroke();
-
-        // ---- spine (behind the pharynx wall)
-        ctx.fillStyle = C.bone; ctx.strokeStyle = C.boneLine; ctx.lineWidth = 1;
-        for (let i = 0; i < 6; i++) { const y = 182 + i * 40; ctx.beginPath(); if (ctx.roundRect) ctx.roundRect(296, y, 30, 31, 6); else ctx.rect(296, y, 30, 31); ctx.fill(); ctx.stroke(); }
+        ctx.fillStyle = C.skin; ctx.fill(); ctx.strokeStyle = C.skinLine; ctx.lineWidth = 1.4; ctx.stroke();
+        // brow and a closed eye, just enough to read as a face
+        ctx.strokeStyle = C.skinLine; ctx.lineWidth = 1.6;
+        ctx.beginPath(); ctx.moveTo(92, 98); ctx.quadraticCurveTo(104, 94, 118, 98); ctx.stroke();
+        ctx.beginPath(); ctx.moveTo(98, 112); ctx.quadraticCurveTo(106, 116, 116, 112); ctx.stroke();
 
         // ---- nasal cavity
         const nasalFlow = S.vel > .4 && (S.AV > .15 || S.AH > .1);
@@ -109,7 +116,7 @@
         spline(ctx, WALL, false, false);
         ctx.lineTo(244, 430); ctx.lineTo(244, 372); ctx.lineTo(238, 344);
         ctx.lineTo(J([150, 330])[0], J([150, 330])[1]); ctx.lineTo(J([100, 300])[0], J([100, 300])[1]);
-        ctx.lineTo(lowInc[0] + 8, lowInc[1] + 6); ctx.lineTo(66, llTop);
+        ctx.lineTo(lowInc[0] + 8, lowInc[1] + 6); ctx.lineTo(lowInc[0] + 2, lowInc[1] - 2); ctx.lineTo(llX + 14, llTop);
         ctx.closePath();
         ctx.fillStyle = C.air; ctx.fill();
         ctx.beginPath(); spline(ctx, WALL, false); ctx.strokeStyle = C.skinLine; ctx.lineWidth = 2; ctx.stroke();
@@ -162,19 +169,14 @@
         ctx.fillStyle = C.lip; ctx.strokeStyle = C.tongueLine; ctx.lineWidth = 1;
         ctx.beginPath(); ctx.moveTo(64, 188); ctx.quadraticCurveTo(50 - pro, 194, 50 - pro, ulBottom - 3); ctx.quadraticCurveTo(54 - pro, ulBottom + 1, 66, ulBottom);
         ctx.quadraticCurveTo(72, ulBottom - 6, 70, 194); ctx.closePath(); ctx.fill(); ctx.stroke();
-        ctx.beginPath(); ctx.moveTo(66, llTop); ctx.quadraticCurveTo(llX - 2, llTop - 1, llX, llTop + 8); ctx.quadraticCurveTo(llX + 2, llTop + 16, llX + 10, llTop + 18);
-        ctx.quadraticCurveTo(74, llTop + 12, 70, llTop + 2); ctx.closePath(); ctx.fill(); ctx.stroke();
+        ctx.beginPath(); ctx.moveTo(llX + 14, llTop); ctx.quadraticCurveTo(llX - 2, llTop - 1, llX, llTop + 8); ctx.quadraticCurveTo(llX + 2, llTop + 16, llX + 10, llTop + 18);
+        ctx.quadraticCurveTo(llX + 20, llTop + 12, llX + 18, llTop + 2); ctx.closePath(); ctx.fill(); ctx.stroke();
 
         // ---- epiglottis and larynx
         ctx.beginPath(); ctx.moveTo(256, 334); ctx.quadraticCurveTo(260, 308, 272, 294);
         ctx.strokeStyle = C.velum; ctx.lineWidth = 5; ctx.stroke();
         ctx.beginPath(); ctx.moveTo(240, 346); ctx.quadraticCurveTo(232, 372, 244, 400); ctx.lineTo(244, 430);
         ctx.strokeStyle = C.skinLine; ctx.lineWidth = 1.5; ctx.stroke();
-        const shake = S.AV > .05 ? Math.sin(t * 0.06) * 1.6 * Math.min(1, S.AV) : 0;
-        const gOpen = Math.max(0, S.glot) * 5;
-        ctx.beginPath(); ctx.moveTo(245, 375 + shake); ctx.lineTo(262 - gOpen, 372 + shake);
-        ctx.moveTo(282, 375 - shake); ctx.lineTo(268 + gOpen, 372 - shake);
-        ctx.strokeStyle = C.fold; ctx.lineWidth = 4; ctx.stroke();
 
         // ---- airflow cues
         const seg = info.seg;
@@ -203,32 +205,6 @@
             ctx.globalAlpha = 1;
         }
 
-        drawGlottis(ctx, S, t, C, info.labels || {});
-    }
-
-    // glottis seen from above, in a box to the lower right
-    function drawGlottis(ctx, S, t, C, L) {
-        const ox = 382, oy = 330, w = 66, h = 70;
-        ctx.save();
-        ctx.fillStyle = C.air; ctx.strokeStyle = C.skinLine; ctx.lineWidth = 1;
-        ctx.beginPath(); if (ctx.roundRect) ctx.roundRect(ox - w / 2, oy - 8, w, h + 24, 8); else ctx.rect(ox - w / 2, oy - 8, w, h + 24); ctx.fill(); ctx.stroke();
-        ctx.fillStyle = C.text; ctx.font = '10px system-ui, sans-serif'; ctx.textAlign = 'center';
-        ctx.fillText(L.glottis || 'glottis', ox, oy + h + 10);
-        const g = S.glot;
-        let open = g > 0 ? g * 13 : 0;
-        if (S.AV > .05) open = Math.max(open, 2 + 2.4 * Math.abs(Math.sin(t * .09)) * Math.min(1, S.AV));
-        const fy = oy + 4, by = oy + h - 12;
-        ctx.fillStyle = '#3a2323';
-        ctx.beginPath(); ctx.moveTo(ox, fy); ctx.lineTo(ox - open, by); ctx.lineTo(ox + open, by); ctx.closePath(); ctx.fill();
-        ctx.fillStyle = C.fold; ctx.strokeStyle = C.tongueLine;
-        for (const sg of [-1, 1]) {
-            ctx.beginPath(); ctx.moveTo(ox, fy); ctx.lineTo(ox + sg * open, by); ctx.lineTo(ox + sg * (open + 9), by + 4); ctx.lineTo(ox + sg * 23, fy + 8); ctx.closePath(); ctx.fill(); ctx.stroke();
-        }
-        if (g < -0.2) {
-            ctx.strokeStyle = C.tongueLine; ctx.lineWidth = 2;
-            ctx.beginPath(); ctx.moveTo(ox - 15, fy + 12); ctx.lineTo(ox - 3, fy + 36); ctx.moveTo(ox + 15, fy + 12); ctx.lineTo(ox + 3, fy + 36); ctx.stroke();
-        }
-        ctx.restore();
     }
 
     window.VocalTract = { draw, W, H };

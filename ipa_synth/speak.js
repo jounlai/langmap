@@ -11,7 +11,7 @@
  */
 (function () {
     'use strict';
-    const V = '?v=33';
+    const V = '?v=34';
     const BASE = '/ipa_synth/';
     const STR = {
         en: { open: 'Pronunciation', close: 'Close', hintHover: 'Point at a word on the map, or in a language panel, to hear it.', hintTap: 'Tap a word on the map to hear it; tap it again to open its language.',
@@ -68,8 +68,15 @@
     tr.sp-speaking > td { background: rgba(26,115,232,.1); }
     .speak-panel .sp-word, .speak-panel .sp-ipa { cursor: pointer; }
     @media (max-width: 600px) {
-        .speak-panel { left: 8px; right: auto; width: min(290px, calc(100vw - 16px)); bottom: max(28px, env(safe-area-inset-bottom)); padding: 8px 10px; }
-        .speak-panel canvas { width: 96px; height: 120px; flex-basis: 96px; }
+        .speak-panel { left: 8px; right: auto; width: min(232px, calc(100vw - 16px)); bottom: max(28px, env(safe-area-inset-bottom)); padding: 6px 8px; font-size: 12px; }
+        .speak-panel .sp-body { gap: 6px; margin-top: 0; }
+        .speak-panel canvas { width: 64px; height: 80px; flex-basis: 64px; }
+        .speak-panel .sp-word { font-size: 16px; }
+        .speak-panel .sp-ipa { font-size: 13px; }
+        .speak-panel .sp-name { font-size: 11px; margin-top: 0; }
+        .speak-panel .sp-hint { margin-top: 4px; font-size: 11px; }
+        .speak-panel .sp-row { margin-top: 4px; }
+        .speak-panel .sp-close { width: 28px; height: 28px; }
         .speak-panel .sp-note { display: none; }
     }
     @media (prefers-color-scheme: dark) {
@@ -170,6 +177,24 @@
             if (url !== location.pathname + location.search + location.hash) history.replaceState(history.state, '', url);
         } catch (_) {}
     }
+    // iOS Safari: after switching to another app the context comes back "interrupted" or
+    // suspended, and resume() outside a gesture does nothing (sometimes never settles). On the
+    // next touch, resume it; if the page was in the background, replace the context outright,
+    // and play one silent sample so the new context is unlocked inside the gesture.
+    let stale = false;
+    document.addEventListener('visibilitychange', () => { if (document.hidden) stale = true; else if (AC && AC.state !== 'running') AC.resume().catch(() => {}); });
+    window.addEventListener('pagehide', () => { stale = true; });
+    function wake() {
+        try {
+            const Ctx = window.AudioContext || window.webkitAudioContext;
+            if (AC && AC.state !== 'running' && (stale || AC.state === 'interrupted')) { try { AC.close(); } catch (_) {} AC = null; }
+            stale = false;
+            if (!AC) AC = new Ctx();
+            if (AC.state !== 'running') AC.resume().catch(() => {});
+            const b = AC.createBuffer(1, 1, 22050), s = AC.createBufferSource(); s.buffer = b; s.connect(AC.destination); s.start(0);
+        } catch (_) {}
+    }
+    ['touchend', 'pointerdown', 'keydown'].forEach(ev => document.addEventListener(ev, () => { if (open && (!AC || AC.state !== 'running' || stale)) wake(); }, true));
     // after a reload the panel is open but audio is still locked until the first click/tap
     function unlockOnGesture() {
         const go = () => { try { AC = AC || new (window.AudioContext || window.webkitAudioContext)(); if (AC.state === 'suspended') AC.resume(); } catch (_) {} relabel(); };
@@ -222,8 +247,8 @@
             const code = el.getAttribute('data-code') || (el.closest('[data-code]') && el.closest('[data-code]').getAttribute('data-code')) || '';
             plan = S.plan(ipa, { lang: code });   // the language's intonation profile
             const out = S.render(plan, { voice: voiceSel.value });
-            if (!AC) AC = new (window.AudioContext || window.webkitAudioContext)();
-            if (AC.state === 'suspended') AC.resume();
+            if (!AC || AC.state === 'closed') AC = new (window.AudioContext || window.webkitAudioContext)();
+            if (AC.state !== 'running') AC.resume().catch(() => {});
             const buf = AC.createBuffer(1, out.samples.length, out.fs);
             buf.getChannelData(0).set(out.samples);
             src = AC.createBufferSource(); src.buffer = buf; src.connect(AC.destination);

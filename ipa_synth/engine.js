@@ -490,6 +490,20 @@
                 k = e + 1;
             }
         }
+        // Likewise a run of vowels where one carries a tone diacritic (θéɪɴ): that vowel is the
+        // nucleus and its unmarked neighbours in the run are glides.
+        {
+            let k = 0;
+            while (k < segs.length) {
+                if (segs[k].type !== 'V' || segs[k].apical) { k++; continue; }
+                let e = k;
+                while (e + 1 < segs.length && segs[e + 1].type === 'V' && !segs[e + 1].apical && segs[e + 1].syl === segs[k].syl && !segs[e].wordEnd && !segs[e + 1].stress) e++;
+                const run = segs.slice(k, e + 1);
+                const toned = run.filter(v => v.toneMark);
+                if (run.length > 1 && toned.length === 1) for (const v of run) if (v !== toned[0] && !v.nonsyl) { v.nonsyl = true; v.autoGlide = true; }
+                k = e + 1;
+            }
+        }
         const isNucleus = s => (s.type === 'V' && !s.nonsyl) || s.syllabic;
         const lastNucleus = (() => { for (let i = segs.length - 1; i >= 0; i--) if (isNucleus(segs[i])) return i; return -1; })();
         // prominence: written stress if any; with no stress and no tone marks, each word's first
@@ -521,8 +535,11 @@
             const beforeVowel = nx && nx.type === 'V';
             const glide = () => {
                 if (!beforeVowel) return;
-                if (s.pal) { const P = consTarget({ place: 'PL', manner: 'approx', base: 'j', voiced: 1 }, ctxVowel(i)); P.AV = .8; P.glot = 0; push(28, P, Object.assign({ kind: 'offglide j' }, info)); }
-                else if (s.lab) { const P = consTarget({ place: 'LV', manner: 'approx', base: 'w', voiced: 1 }, ctxVowel(i)); P.AV = .8; P.glot = 0; push(28, P, Object.assign({ kind: 'offglide w' }, info)); }
+                // palatalized consonants and palatal stops/nasals/laterals release through a clear [j]:
+                // the i-like glide is held briefly and the vowel enters slowly
+                const palatal = s.pal || (['PL', 'AP'].includes(s.place) && ['nasal', 'stop', 'lat', 'impl'].includes(s.manner));
+                if (palatal) { const P = consTarget({ place: 'PL', manner: 'approx', base: 'j', voiced: 1 }, ctxVowel(i)); P.AV = s.voiced || s.manner === 'nasal' ? .85 : .5; P.AH = s.voiced ? 0 : .2; P.glot = 0; push(s.pal ? 50 : 40, P, Object.assign({ kind: 'offglide j', edgeF: 14 }, info)); nx._onglide = true; }
+                else if (s.lab) { const P = consTarget({ place: 'LV', manner: 'approx', base: 'w', voiced: 1 }, ctxVowel(i)); P.AV = .8; P.glot = 0; push(45, P, Object.assign({ kind: 'offglide w', edgeF: 14 }, info)); nx._onglide = true; }
             };
             if (s.type === 'V') {
                 const P = vtarget[i];

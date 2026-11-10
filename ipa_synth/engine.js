@@ -575,7 +575,8 @@
                     d = 55; edgeF = 18; nx._onglide = true;
                 }
                 if (s._onglide) edgeF = 70;
-                push(d, P, Object.assign({ kind: 'vowel', edgeF }, info));
+                if (s._glideIn) edgeF = Math.max(edgeF, Math.min(s._glideIn, d * .8));
+                push(d, P, Object.assign({ kind: 'vowel', edgeF, edgeCap: s._glideIn ? .8 : .5 }, info));
                 if (s.glot) push(40, Object.assign({}, P, { AV: 0, AH: 0, glot: -0.5 }), Object.assign({ kind: 'glottal closure' }, info));
             } else {
                 const V = ctxVowel(i);
@@ -677,7 +678,9 @@
                     const glideSV = GLIDES.has(s.base);
                     if (glideSV) P.AV = s.voiced ? .92 : 0;
                     // a glide is a movement: reach the target slowly, leave slowly
-                    push((glideSV ? 70 : beforeVowel ? 58 : 72) * gem * syl, P, Object.assign({ kind: m === 'lat' ? 'lateral' : 'approximant', edgeF: glideSV ? 32 : 22 }, info));
+                    // the slow exit is the cue: a glide leaves its target over ~95 ms; a fast one sounds like l
+                    if (glideSV && beforeVowel) nx._glideIn = 95;
+                    push((glideSV ? 65 : beforeVowel ? 58 : 72) * gem * syl, P, Object.assign({ kind: m === 'lat' ? 'lateral' : 'approximant', edgeF: glideSV ? 45 : 22, edgeCap: glideSV ? .75 : .5 }, info));
                 } else if (m === 'tap' || m === 'ltap') {
                     const P = consTarget(s, V, m);
                     P.AV = .35; P.glot = 0;
@@ -722,7 +725,7 @@
         for (const f of FIELDS) tracks[f] = [];
         for (const ph of phases) {
             const eA = Math.min((ph.edgeA != null ? ph.edgeA : 10) * ds, ph.dur / 3);
-            const eF = Math.min((ph.edgeF != null ? ph.edgeF : 24) * ds, ph.dur * .5);
+            const eF = Math.min((ph.edgeF != null ? ph.edgeF : 24) * ds, ph.dur * (ph.edgeCap || .5));
             const eR = Math.min((ph.edgeR != null ? ph.edgeR : 40) * ds, ph.dur * .7);
             for (const f of FIELDS) {
                 const e = FIELDS_A.includes(f) ? eA : FIELDS_F.includes(f) ? eF : eR;

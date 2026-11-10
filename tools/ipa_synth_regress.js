@@ -19,7 +19,8 @@ const CHECK = {
     siang: p => { const v = vowels(p); return v.length === 2 && v[0].dur <= 70; },
     lei: p => { const v = vowels(p); return v.length === 2 && v[0].dur / (v[0].dur + v[1].dur) <= .45; },
     neutral: p => p.pitch[p.pitch.length - 1][1] <= 1.5 && vowels(p)[1].dur < vowels(p)[0].dur,
-    j: p => phasesOf(p, 'j').every(ph => ph.P.F2 >= 2250 && ph.P.B2 <= 100),
+    // and the vowel after it is entered slowly (≥ 90 ms): at normal speed a fast exit sounded like l
+    j: p => phasesOf(p, 'j').every(ph => ph.P.F2 >= 2250 && ph.P.B2 <= 100) && p.phases.filter((ph, k) => k && p.phases[k - 1].kind === 'approximant' && ph.kind === 'vowel').every(ph => ph.edgeF >= 90),
     xue: p => { const v = vowels(p); const x = phasesOf(p, 'x')[0]; return v[0].dur <= 60 && x.dur >= 100 && x.P.AF >= .5; },
     korean: p => p.segs.some(s => s.pause) && p.segs.filter(s => s.type === 'V').length === 4,
     gamma: p => { const g = phasesOf(p, 'ɣ')[0]; return g.P.TL >= .9 && g.P.AF >= .2 && g.P.AF <= .4 && phasesOf(p, 'j')[0].P.F2 >= 2250; },

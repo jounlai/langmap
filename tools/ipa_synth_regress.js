@@ -25,6 +25,7 @@ const CHECK = {
     gamma: p => { const g = phasesOf(p, 'ɣ')[0]; return g.P.TL >= .9 && g.P.AF >= .2 && g.P.AF <= .4 && phasesOf(p, 'j')[0].P.F2 >= 2250; },
     burmese: p => { const e = p.phases.find(ph => ph.kind === 'vowel' && p.segs[ph.seg].base === 'e'); const i = p.segs.find(s => s.base === 'ɪ'); return e.dur <= 100 && i.nonsyl; },
     palatal: p => { const g = p.phases.filter(ph => ph.kind === 'offglide j'); return g.length === 2 && g.every(ph => ph.dur >= 40 && ph.P.F2 >= 2250); },
+    capital: p => p.segs.map(x => x.base).join('') === 'dak' && p.parsed.unsupported.length === 0,
     glottal: p => p.phases.some(ph => ph.kind === 'glottal release' && ph.P.CR === 1 && ph.P.AV === 1),
 };
 

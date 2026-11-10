@@ -63,6 +63,9 @@
         'ʦ': 'ts', 'ʣ': 'dz', 'ʧ': 'tʃ', 'ʤ': 'dʒ', 'ʨ': 'tɕ', 'ʥ': 'dʑ', 'ǝ': 'ə', 'ε': 'ɛ', 'φ': 'ɸ', 'ɂ': 'ʔ',
         'ʻ': 'ʔ', 'ɼ': 'r', 'ʇ': 'ǀ', 'ʗ': 'ǃ', 'ʖ': 'ǁ', 'ꞎ': 'ɬ', '’': 'ʼ', 'ᵻ': 'ɨ', 'ᵿ': 'ʊ', 'ɑ': 'ɑ',
     };
+    // Capital letters in reconstructions are cover symbols, not IPA; read them as the sound
+    // usually assumed (Old Chinese A; Proto-Austronesian C N R S L per Blust; V any vowel; H laryngeal).
+    const CAPITALS = { 'A': 'a', 'E': 'e', 'I': 'i', 'O': 'o', 'U': 'u', 'V': 'ə', 'C': 'ts', 'N': 'ʎ', 'R': 'ʀ', 'S': 's', 'L': 'l', 'H': 'h' };
     const TONE_LETTER = { '˥': 5, '˦': 4, '˧': 3, '˨': 2, '˩': 1, '꜒': 5, '꜓': 4, '꜔': 3, '꜕': 2, '꜖': 1 };
     const SUP_DIGIT = { '⁰': 0, '¹': 1, '²': 2, '³': 3, '⁴': 4, '⁵': 5, '⁶': 6, '⁷': 7, '⁸': 8, '⁹': 9 };
     const TONE_MARK = {
@@ -87,7 +90,7 @@
         // c + cedilla is ç; keep it as one letter
         s = s.replace(/ç/g, 'ç');
         let t = '';
-        for (const ch of s) t += FOLD[ch] !== undefined ? FOLD[ch] : ch;
+        for (const ch of s) t += FOLD[ch] !== undefined ? FOLD[ch] : CAPITALS[ch] !== undefined ? CAPITALS[ch] : ch;
         const chars = [...t];
 
         const segs = [];

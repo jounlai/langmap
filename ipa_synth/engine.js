@@ -660,7 +660,12 @@
                         // release: articulators already opening
                         R.tx = C.tx; R.ty = C.ty + 3; R.lip = s.place === 'BL' ? .06 : C.lip;
                         // a softer release: longer, quieter, ramped in and left to decay into the next phase
-                        push(m === 'click' ? 8 : 14, R, Object.assign({ kind: 'burst', edgeA: 2, edgeF: 2 }, info));
+                        // Velar and uvular releases are long and compact: the tongue body peels off the
+                        // palate slowly, often in two or three bursts, with energy bunched near F2/F3.
+                        // Short weak ones sounded like t.
+                        const back = s.place === 'VE' || s.place === 'UV' || s.place === 'LV';
+                        if (back && m !== 'click') { R.AF *= 1.6; R.FB = 600; R.RG = .8; }
+                        push(m === 'click' ? 8 : back ? 26 : 14, R, Object.assign({ kind: 'burst', edgeA: 2, edgeF: 2 }, info));
                     }
                     if (m === 'affr') {
                         const F = consTarget(Object.assign({}, s, { place: s.fricPlace, base: s.fricBase }), V, s.lateral ? 'latfric' : 'fric');
@@ -675,13 +680,13 @@
                         push(40, Object.assign({}, closure, { AV: 0, AF: 0, AH: 0, glot: -0.5, lip: C.lip + .1, ty: C.ty + 6 }), Object.assign({ kind: 'glottal hold' }, info));
                     } else if (s.asp) {
                         const A = Object.assign({}, nv, { AV: 0, AH: .55, AF: 0, glot: 1, F1: nv.F1 * .8, B1: 200 });
-                        push(58, A, Object.assign({ kind: 'aspiration', edgeF: 8 }, info));
+                        push(['VE', 'UV'].includes(s.place) ? 70 : 58, A, Object.assign({ kind: 'aspiration', edgeF: 8 }, info));
                     } else if (s.basp) {
                         const A = Object.assign({}, nv, { AV: .5, AH: .4, AF: 0, glot: .5, B1: 180 });
                         push(58, A, Object.assign({ kind: 'breathy release', edgeF: 8 }, info));
                     } else if (!s.voiced && !s.noRelease && m !== 'click') {
                         const A = Object.assign({}, nv, { AV: 0, AH: .18, AF: 0, glot: .6, F1: nv.F1 * .8 });
-                        push(12, A, Object.assign({ kind: 'short lag', edgeF: 6 }, info));
+                        push(['VE', 'UV'].includes(s.place) ? 22 : 12, A, Object.assign({ kind: 'short lag', edgeF: 6 }, info));
                     } else if (m === 'click') {
                         push(18, Object.assign({}, nv, { AV: s.prenasal || s.voiced ? .6 : 0, AH: s.asp ? .5 : .08, AF: 0, glot: s.voiced ? 0 : .7 }), Object.assign({ kind: 'release', edgeF: 6 }, info));
                     }

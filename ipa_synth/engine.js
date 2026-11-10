@@ -665,6 +665,7 @@
                     if (i === lastNucleus) PV.BR = Math.max(PV.BR, .3);
                     else { PV.BR = Math.max(PV.BR, .2); PV.AV *= .85; }
                 }
+                const afterFric = phases.length && phases[phases.length - 1].kind === 'fricative';   // the friction fades under the voice
                 const afterRelease = phases.length && ['short lag', 'aspiration', 'burst', 'breathy release', 'release'].includes(phases[phases.length - 1].kind);
                 if (s._implosiveOnset) push(25, Object.assign({}, P, { CR: .6, AV: 1 }), Object.assign({ kind: 'creaky onset', edgeA: 1, edgeF: 10 }, info));
                 if (s.sylBreak != null && isNucleus(s) && tone) {
@@ -674,7 +675,7 @@
                     push(45, Object.assign({}, PV, { AV: 0, AH: 0, AF: 0, glot: -0.5, CR: 0 }), Object.assign({ kind: 'glottal break', edgeA: 3 }, info));
                     push(25, Object.assign({}, PV, { CR: .8, AV: 1 }), Object.assign({ kind: 'creaky onset', edgeA: 1 }, info));
                     push(d * .48, PV, Object.assign({ kind: 'vowel', edgeA: 6 }, info));
-                } else push(d, PV, Object.assign({ kind: 'vowel', edgeF, edgeCap: s._glideIn ? .8 : .5, edgeA: afterRelease ? 16 : undefined }, info));
+                } else push(d, PV, Object.assign({ kind: 'vowel', edgeF, edgeCap: s._glideIn ? .8 : .5, edgeA: afterRelease ? 16 : afterFric ? 22 : undefined }, info));
                 if (s.glot) push(40, Object.assign({}, P, { AV: 0, AH: 0, glot: -0.5 }), Object.assign({ kind: 'glottal closure' }, info));
             } else {
                 const V = ctxVowel(i);
@@ -824,7 +825,10 @@
                             if (s.voiced) { P.TL = .72; P.B1 = 110; P.B2 = 170; P.B3 = 240; }
                         }
                         if (s.ejective) P.glot = -0.5;
-                        push((s.voiced ? 88 : s.place === 'VE' || s.place === 'UV' ? 115 : 98) * gem * syl, P, Object.assign({ kind: 'fricative', edgeA: 18 }, info));
+                        // natural friction swells in and fades out (rise ~40% of the fricative, overlapping
+                        // the voice); an 18 ms switch to a flat level sounded like a box
+                        const fd = (s.voiced ? 88 : s.place === 'VE' || s.place === 'UV' ? 115 : 98) * gem * syl;
+                        push(fd, P, Object.assign({ kind: 'fricative', edgeA: Math.min(38, fd * .4) }, info));
                     }
                 } else if (m === 'approx' || m === 'lat') {
                     const P = consTarget(s, V, m);
@@ -1135,7 +1139,7 @@
         const R = [new Resonator(), new Resonator(), new Resonator(), new Resonator(), new Resonator()];
         const NP = new Resonator(), NZ = new AntiResonator(), FR = new Resonator(), PF2 = new Resonator(), PF3 = new Resonator();
         const hints = {}; for (const f of FIELDS) hints[f] = { i: 0 }; const ph = { i: 0 };
-        let phase = 0, T0 = fs / voice.f0, tilt = 0, prevNoise = 0, rough = 0, prevV = 0, hp = { x1: 0, y1: 0 }, prevAsp = 0;
+        let phase = 0, T0 = fs / voice.f0, tilt = 0, prevNoise = 0, rough = 0, prevV = 0, hp = { x1: 0, y1: 0 }, prevAsp = 0, turb = 0, ffw = 0;
         const FRAME = 32;
         let P = {}, f0 = voice.f0, f0s = 0, gF = 1, cr = 0, av = 0, ah = 0, af = 0, br = 0, tm = rdTiming(voice.rd), micro = 0;
         const kF0 = 1 - Math.exp(-FRAME / fs / .018), kAV = 1 - Math.exp(-1 / fs / .004), kAF = 1 - Math.exp(-1 / fs / .0025);
@@ -1155,7 +1159,9 @@
                 R[0].set(P.F1 * vt, P.B1, fs); R[1].set(P.F2 * vt, P.B2, fs); R[2].set(P.F3 * vt, P.B3, fs);
                 R[3].set(P.F4 * vt, 250, fs); R[4].set(Math.min(4500 * vt, fs * .45), 300, fs);
                 NP.set(270, 100, fs); NZ.set(P.FNZ * (P.FNZ === 270 ? 1 : vt), 100, fs);
-                FR.set(Math.min(P.FF * Math.sqrt(vt), fs * .46), P.FB, fs);
+                // the friction's spectral peak wanders a little (turbulence is never stationary)
+                ffw += (noise() - ffw) * .15;
+                FR.set(Math.min(P.FF * Math.sqrt(vt) * (1 + .035 * ffw), fs * .46), P.FB, fs);
                 PF2.set(P.F2 * vt, Math.max(P.B2, 380), fs); PF3.set(Math.min(P.F3 * vt, fs * .45), Math.max(P.B3, 480), fs);   // noise formants are broad: narrow ones sounded like a soft whistle / f
             }
             // glottal source: LF-like flow derivative shaped by Rd, with jitter and shimmer
@@ -1185,9 +1191,11 @@
             const voicing = (vraw - .8 * prevV) / .2; prevV = vraw;
             // breath noise: pulsed with the glottal cycle (louder while open) and high-passed, so
             // it replaces upper harmonics rather than adding a hiss underneath (Klatt & Klatt 1990)
+            turb += (noise() - turb) * .004;   // turbulence (see the friction below)
+            const tb = 1 + 4.5 * turb;
             const nz = noise(), nzh = nz - .7 * prevAsp; prevAsp = nz;
             const breath = (voice.asp + .22 * br) * av * (phase < Te ? 1 : .35);
-            const asp = nz * ah * .63 + nzh * breath * .5;
+            const asp = nz * ah * .63 * tb + nzh * breath * .5;
             let x = voicing + asp;
             x = NZ.tick(NP.tick(x));
             for (let k = 4; k >= 0; k--) x = R[k].tick(x);
@@ -1195,7 +1203,13 @@
             const fn = noise();
             // roughness: the frication's loudness flickers with a slow random signal (~40-150 Hz)
             rough += (noise() - rough) * .02;
-            const afr = P.RG ? af * Math.max(0, 1 + P.RG * rough * 4) : af;
+            // turbulence: slow random loudness fluctuation (~15 Hz, about ±12%) on friction and
+            // aspiration, and in voiced fricatives the noise pulses with the glottal cycle (louder
+            // while the folds are open; Klatt 1980, Pincas & Jackson 2004). Flat, steady noise is a
+            // hallmark of synthetic speech.
+            const kv = Math.min(.7, av * 1.2), oq = tm.te;
+            const pulse = 1 + kv * (phase < Te ? (1 - oq) : -oq) * 1.3;
+            const afr = (P.RG ? af * Math.max(0, 1 + P.RG * rough * 4) : af) * tb * pulse;
             // Parallel formant branch (Klatt 1980): back consonants' noise excites the tract's own
             // F2 and F3 (the velar/uvular pinch), so the noise moves with the formant transitions
             // instead of sitting in a fixed band (heard as f, v or sh).

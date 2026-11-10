@@ -63,6 +63,7 @@ const CHECK = {
     nga: p => { const k = p.phases.findIndex(ph => ph.kind === 'glottal break'); if (k < 0) return false; const br = p.phases[k], before = p.pitch.filter(x => x[0] < br.t0).pop(), last = p.pitch.filter(x => x[0] > br.t1).pop(); return br.P.AV === 0 && p.phases[k + 1].P.CR > 0 && last[1] - before[1] >= 2; },
     // and shaped as the m (lips shut, velum down), not as the vowel: that was heard as "tha"
     'tʰm': p => { const a = p.phases.find(ph => ph.kind === 'aspiration'); return a.dur <= 25 && a.P.vel === 1 && a.P.F1 <= 300 && S.plan('tʰa').phases.find(ph => ph.kind === 'aspiration').dur >= 50; },
+    noise_nat: p => { const f = p.phases.filter(ph => ph.kind === 'fricative'); return f.length >= 2 && f.every(ph => ph.edgeA >= 30) && f.every(ph => { const nx = p.phases[p.phases.indexOf(ph) + 1]; return nx.kind !== 'vowel' || nx.edgeA >= 20; }); },
 };
 
 let bad = 0;

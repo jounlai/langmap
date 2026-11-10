@@ -44,6 +44,13 @@ const CHECK = {
     gamma_par: p => phasesOf(p, 'ɣ')[0].P.PW === 1,
     rise: p => { const ɑ = p.phases.find(ph => ph.kind === 'vowel' && p.segs[ph.seg].base === 'ɑ'); const pts = p.pitch.filter(x => x[0] >= ɑ.t0 && x[0] <= ɑ.t1 + 80); return pts.length >= 3 && pts[1][1] < pts[0][1] && pts[pts.length - 1][1] - pts[1][1] >= 2; },
     medial: p => phasesOf(p, 'j')[0].dur <= 40 && S.plan('ja').phases.find(ph => ph.kind === 'approximant').dur >= 60,
+    // rendered: F2/F3 of a close vowel within ~30 dB of F1 (it was 35-43 dB under: muffled, n-like)
+    snau: p => {
+        const o = S.render(S.plan('ˈpiːta'), { voice: 'male' }), ph = S.plan('ˈpiːta').phases.find(q => q.kind === 'vowel'), c = ph.t0 + ph.dur / 2;
+        const x = Array.from(o.samples.slice(Math.round((c - 25) / 1000 * o.fs), Math.round((c + 25) / 1000 * o.fs)));
+        const band = (lo, hi) => { let e = 0; for (let f = lo; f <= hi; f += 25) { let re = 0, im = 0; for (let n = 0; n < x.length; n++) { const w = .5 - .5 * Math.cos(2 * Math.PI * n / x.length); re += x[n] * w * Math.cos(2 * Math.PI * f * n / o.fs); im -= x[n] * w * Math.sin(2 * Math.PI * f * n / o.fs); } e += re * re + im * im; } return 10 * Math.log10(e + 1e-12); };
+        return band(1900, 3300) - band(150, 900) >= -30 && p.phases.find(q => q.kind === 'vowel').dur <= 45;
+    },
     glottal: p => p.phases.some(ph => ph.kind === 'glottal release' && ph.P.CR === 1 && ph.P.AV === 1),
 };
 

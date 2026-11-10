@@ -628,7 +628,10 @@
                     d = s._glide; edgeF = d * .95;
                 } else if (s.nonsyl && nx && nx.type === 'V' && !nx.nonsyl && nx.syl === s.syl) {
                     // rising diphthong (u̯ə, i̯ə): the glide is a passing point, not a held vowel
-                    d = 55; edgeF = 18; nx._onglide = true;
+                    // after a consonant (ɕi̯ɑʊ̯) it is a medial: pass through it without holding, or its
+                    // low F1 hold sounded like a nasal ("snau")
+                    const afterC = i > 0 && segs[i - 1].type === 'C' && !segs[i - 1].pause;
+                    d = afterC ? 40 : 55; edgeF = afterC ? d * .65 : 18; nx._onglide = true;
                 }
                 if (s._onglide) edgeF = Math.min(70, d * .4);   // keep most of the vowel steady
                 if (s._glideIn) edgeF = Math.max(edgeF, Math.min(s._glideIn, d * .8));
@@ -1058,7 +1061,7 @@
         const R = [new Resonator(), new Resonator(), new Resonator(), new Resonator(), new Resonator()];
         const NP = new Resonator(), NZ = new AntiResonator(), FR = new Resonator(), PF2 = new Resonator(), PF3 = new Resonator();
         const hints = {}; for (const f of FIELDS) hints[f] = { i: 0 }; const ph = { i: 0 };
-        let phase = 0, T0 = fs / voice.f0, tilt = 0, prevNoise = 0, rough = 0, hp = { x1: 0, y1: 0 }, prevAsp = 0;
+        let phase = 0, T0 = fs / voice.f0, tilt = 0, prevNoise = 0, rough = 0, prevV = 0, hp = { x1: 0, y1: 0 }, prevAsp = 0;
         const FRAME = 32;
         let P = {}, f0 = voice.f0, f0s = 0, gF = 1, cr = 0, av = 0, ah = 0, af = 0, br = 0, tm = rdTiming(voice.rd), micro = 0;
         const kF0 = 1 - Math.exp(-FRAME / fs / .018), kAV = 1 - Math.exp(-1 / fs / .004), kAF = 1 - Math.exp(-1 / fs / .0025);
@@ -1100,12 +1103,17 @@
             tilt = tilt * tl + g * (1 - tl);
             av += (P.AV - av) * kAV; ah += (P.AH - ah) * kAV; af += (P.AF - af) * kAF; br += (P.BR - br) * kAV;
             // loudness declines a little over the utterance
-            const voicing = tilt * av * gF * (1 - .18 * n / N);
+            // High-shelf on the voice: the soft LF return phase cuts the spectrum above ~500 Hz, which
+            // left F2/F3 of close vowels and glides 35 dB under F1 (natural ~20): i, j and i̯ sounded
+            // muffled, like n ("sne", "snau"). y = (x - .8 x[-1]) / .2: flat at low frequencies,
+            // about +4 dB at 1 kHz and +10 dB at 2.5 kHz.
+            const vraw = tilt * av * gF * (1 - .18 * n / N);
+            const voicing = (vraw - .8 * prevV) / .2; prevV = vraw;
             // breath noise: pulsed with the glottal cycle (louder while open) and high-passed, so
             // it replaces upper harmonics rather than adding a hiss underneath (Klatt & Klatt 1990)
             const nz = noise(), nzh = nz - .7 * prevAsp; prevAsp = nz;
             const breath = (voice.asp + .22 * br) * av * (phase < Te ? 1 : .35);
-            const asp = nz * ah * .45 + nzh * breath * .5;
+            const asp = nz * ah * .63 + nzh * breath * .5;
             let x = voicing + asp;
             x = NZ.tick(NP.tick(x));
             for (let k = 4; k >= 0; k--) x = R[k].tick(x);
@@ -1120,7 +1128,7 @@
             const pw = P.PW;
             const band = FR.tick((fn - prevNoise) * afr * (1 - pw)) * 1.06;
             const par = pw ? (PF2.tick(fn * afr * pw) * PAR_A2 + PF3.tick(fn * afr * pw) * PAR_A3 * P.A3 / .7) : 0;
-            const fr = band + par;
+            const fr = (band + par) * 1.4;   // +3 dB: keeps consonant/vowel ratios after the voice high-shelf
             prevNoise = fn;
             const y = x + fr;
             // DC block

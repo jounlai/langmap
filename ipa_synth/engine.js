@@ -624,6 +624,12 @@
                 if (tone && isNucleus(s)) { const contour = new Set(tone).size > 1; d = Math.max(d, contour ? 190 : 150); }
                 else if (tonal && isNucleus(s)) d *= .65;     // neutral tone: a light, short syllable
                 if (i === lastNucleus) d = Math.max(d * 1.3, 75);
+                // checked syllable (ends in an unreleased stop: ɗɨk˧˥, Cantonese entering tone): short
+                {
+                    let k = i + 1; while (k < segs.length && segs[k].type === 'V' && segs[k].nonsyl) k++;
+                    const coda = segs[k];
+                    if (coda && coda.type === 'C' && coda.manner === 'stop' && coda.noRelease && (!segs[k + 1] || coda.wordEnd || segs[k + 1].type === 'C')) { d = Math.min(d, 105); s._checked = true; }
+                }
                 if (s.apical) d = Math.max(d, 150);
                 // falling diphthong (eɪ̯, aʊ̯): the nucleus keeps only half of the syllable's vowel time
                 // and the formants glide across the whole second half, instead of a long steady
@@ -698,6 +704,9 @@
                         push(30 * gem, Object.assign({}, closure, { AV: .3, F1: 230, B1: 80 }), Object.assign({ kind: 'closure', edgeA: 8 }, info));
                         push(28 * gem, Object.assign({}, closure, { AV: .95, F1: 240, B1: 80 }), Object.assign({ kind: 'implosion', edgeA: 22 }, info));
                         if (nextV) segs[i + 1]._implosiveOnset = true;
+                    } else if (s.noRelease && prevVoiced && !nextV) {
+                        // an unreleased final stop is a catch: the voice stops dead and the glottis closes
+                        push(70 * gem, Object.assign({}, closure, { AV: 0, glot: -0.5 }), Object.assign({ kind: 'closure', edgeA: 3, edgeF: 12 }, info));
                     } else
                     push((afterPause ? 45 : prevVoiced && nextV ? 50 : 62) * gem, closure, Object.assign({ kind: 'closure', edgeA: prevVoiced ? 26 : 10 }, info));
                     if (!s.noRelease) {

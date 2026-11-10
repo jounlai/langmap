@@ -57,6 +57,7 @@ const CHECK = {
     tuan: p => { const b = p.phases.find(ph => ph.kind === 'burst'); return b.dur >= 12 && b.P.AF >= .14; },
     implosive: p => { const k = p.phases.findIndex(ph => ph.kind === 'implosion'); return k > 0 && p.phases[k].P.AV > p.phases[k - 1].P.AV + .4 && p.phases.some(ph => ph.kind === 'creaky onset') && p.segs[p.segs.length - 1].noRelease === true && p.phases.filter(ph => ph.kind === 'vowel').every(ph => ph.dur <= 110) && p.phases[p.phases.length - 2].edgeA <= 4; },
     anh: p => p.phases.some(ph => ph.kind === 'offglide j' && p.segs[ph.seg].base === 'ɲ'),
+    sandhi313: p => { const t = p.segs.find(s => s.base === 'i').sylTone; const t2 = p.segs.find(s => s.base === 'a').sylTone; return t[0] === 3 && t[1] === 5 && t2.length === 3; },
     glottal: p => p.phases.some(ph => ph.kind === 'glottal release' && ph.P.CR === 1 && ph.P.AV === 1),
 };
 

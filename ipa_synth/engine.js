@@ -877,7 +877,8 @@
         if (tonal && prof.sandhi3) {
             // Mandarin third tone: 214 before another 214 becomes 35; before any other syllable a
             // half third (21). The last one keeps its full contour.
-            const dip = t => t && t.length >= 3 && t[0] <= 2.5 && Math.min(...t) <= 1.5 && t[t.length - 1] >= 3.5;
+            // any dipping contour is the third tone however the row writes it: ˨˩˦ 214, ˧˩˧ 313, ˨˩˧ 213
+            const dip = t => t && t.length >= 3 && Math.min(...t) <= 1.5 && t[0] > Math.min(...t) && t[t.length - 1] > Math.min(...t);
             const sylList = [];
             segs.forEach(s => { if (isNucleus(s) && s.syl != null && !sylList.includes(s.syl)) sylList.push(s.syl); });
             const toneOf = sy => { const x = segs.find(s => s.syl === sy && isNucleus(s)); return x && (x.toneMark || x.sylTone); };

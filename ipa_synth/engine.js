@@ -80,7 +80,8 @@
     // ------------------------------------------------------------------ parse
     function parse(input) {
         let s = String(input || '').trim();
-        s = s.split(/\s*~\s*|\s+\/\s+|\s*;\s*/)[0];            // first of "a ~ b" variants
+        // every form of "a ~ b", "a / b", "a; b" is read, in turn, with a pause between
+        s = s.split(/\s*~\s*|\s+\/\s+|\s*;\s*/).filter(Boolean).join(' | ');
         s = s.replace(/^[\[\/]+|[\]\/]+$/g, '').replace(/[()*\[\]\/]/g, '');
         s = s.normalize('NFD');
         // c + cedilla is ç; keep it as one letter

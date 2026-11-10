@@ -616,7 +616,8 @@
                     if (i === lastNucleus) PV.BR = Math.max(PV.BR, .3);
                     else { PV.BR = Math.max(PV.BR, .2); PV.AV *= .85; }
                 }
-                push(d, PV, Object.assign({ kind: 'vowel', edgeF, edgeCap: s._glideIn ? .8 : .5 }, info));
+                const afterRelease = phases.length && ['short lag', 'aspiration', 'burst', 'breathy release', 'release'].includes(phases[phases.length - 1].kind);
+                push(d, PV, Object.assign({ kind: 'vowel', edgeF, edgeCap: s._glideIn ? .8 : .5, edgeA: afterRelease ? 16 : undefined }, info));
                 if (s.glot) push(40, Object.assign({}, P, { AV: 0, AH: 0, glot: -0.5 }), Object.assign({ kind: 'glottal closure' }, info));
             } else {
                 const V = ctxVowel(i);
@@ -649,7 +650,11 @@
                     if (s.ejective) closure.glot = -0.5;
                     if (m === 'click' && s.prenasal) { closure.AV = .5; closure.vel = 1; closure.FNZ = 2400; }
                     const afterPause = i === 0 || segs[i - 1].pause;
-                    push((afterPause ? 45 : 62) * gem, closure, Object.assign({ kind: 'closure' }, info));
+                    // Not staccato: after a vowel or sonorant the voice dies away over ~25 ms into the
+                    // closure instead of stopping dead, and a closure between vowels is short (~50 ms)
+                    const prevVoiced = i > 0 && !segs[i - 1].pause && segs[i - 1].voiced !== 0 && (segs[i - 1].type === 'V' || ['nasal', 'approx', 'lat'].includes(segs[i - 1].manner));
+                    const nextV = segs[i + 1] && segs[i + 1].type === 'V';
+                    push((afterPause ? 45 : prevVoiced && nextV ? 50 : 62) * gem, closure, Object.assign({ kind: 'closure', edgeA: prevVoiced ? 26 : 10 }, info));
                     if (!s.noRelease) {
                         const B = BURST[s.place] || velarNoise(V, 1.08);
                         const R = Object.assign({}, closure);
@@ -782,7 +787,7 @@
         const tracks = {};
         for (const f of FIELDS) tracks[f] = [];
         for (const ph of phases) {
-            const eA = Math.min((ph.edgeA != null ? ph.edgeA : 10) * ds, ph.dur / 3);
+            const eA = Math.min((ph.edgeA != null ? ph.edgeA : 10) * ds, ph.dur * (ph.edgeA != null ? .6 : 1 / 3));
             const eF = Math.min((ph.edgeF != null ? ph.edgeF : 24) * ds, ph.dur * (ph.edgeCap || .5));
             const eR = Math.min((ph.edgeR != null ? ph.edgeR : 40) * ds, ph.dur * .7);
             for (const f of FIELDS) {

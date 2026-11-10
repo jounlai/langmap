@@ -37,6 +37,7 @@ const CHECK = {
     natural: p => p.micro.length > 0 && p.phases.filter(ph => ph.kind === 'vowel').pop().P.BR >= .25 && Object.values(S.VOICES).every(v => v.asp > 0 && v.fl > 0 && v.rd > 0),
     velar: p => { const b = p.phases.filter(ph => ph.kind === 'burst'); return b[0].dur >= 22 && b[0].P.RG > 0 && b[1].dur <= 16 && b[0].P.FB <= 700; },
     clear_u: p => { const v = p.phases.filter(ph => ph.kind === 'vowel'); return v.every(ph => (ph.edgeF || 0) <= ph.dur * .45 + 1) && v[v.length - 1].P.BR <= .35; },
+    staccato: p => { const c = p.phases.filter(ph => ph.kind === 'closure'); return c[1].edgeA >= 20 && c[1].dur <= 55 && p.phases.filter(ph => ph.kind === 'vowel').every(ph => ph.edgeA == null || ph.edgeA >= 14); },
     glottal: p => p.phases.some(ph => ph.kind === 'glottal release' && ph.P.CR === 1 && ph.P.AV === 1),
 };
 

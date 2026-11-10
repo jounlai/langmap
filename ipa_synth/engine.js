@@ -346,7 +346,7 @@
         if (round) { F2 *= 1 - (0.12 + 0.43 * b) * (0.45 + 0.55 * h); F3 -= 250 * (1 - b) + 50; F1 *= .96; }
         if (seg.rhotic) { F3 = 1650; F2 = Math.min(F2, 1350); }
         P.F1 = F1; P.F2 = F2; P.F3 = F3; P.F4 = Math.max(3400, F3 + 600);
-        P.B1 = 60 + 40 * (1 - h); P.B2 = 80 + 40 * b; P.B3 = 150;
+        P.B1 = 55 + 35 * (1 - h); P.B2 = 70 + 30 * b; P.B3 = 130;   // vowels: fairly sharp formants
         P.AV = 1; P.AH = 0.02; P.glot = 0;
         // tongue body circle (r 46 in tract.js): top 8px under the palate for close vowels, root near the wall for ɑ
         P.cx = 150 + 62 * b + 12 * b * (1 - h); P.cy = 271 - 40 * h;
@@ -606,15 +606,15 @@
                     // rising diphthong (u̯ə, i̯ə): the glide is a passing point, not a held vowel
                     d = 55; edgeF = 18; nx._onglide = true;
                 }
-                if (s._onglide) edgeF = 70;
+                if (s._onglide) edgeF = Math.min(70, d * .4);   // keep most of the vowel steady
                 if (s._glideIn) edgeF = Math.max(edgeF, Math.min(s._glideIn, d * .8));
                 // voice quality varies along the utterance (Klatt & Klatt 1990): unstressed syllables
                 // are softer and breathier, the last syllable breathiest
                 let PV = P;
                 if (s.voiced !== 0 && (i === lastNucleus || (!tonal && anyProm && !s.prom && isNucleus(s)))) {
                     PV = Object.assign({}, P);
-                    if (i === lastNucleus) PV.BR = Math.max(PV.BR, .45);
-                    else { PV.BR = Math.max(PV.BR, .3); PV.AV *= .85; }
+                    if (i === lastNucleus) PV.BR = Math.max(PV.BR, .3);
+                    else { PV.BR = Math.max(PV.BR, .2); PV.AV *= .85; }
                 }
                 push(d, PV, Object.assign({ kind: 'vowel', edgeF, edgeCap: s._glideIn ? .8 : .5 }, info));
                 if (s.glot) push(40, Object.assign({}, P, { AV: 0, AH: 0, glot: -0.5 }), Object.assign({ kind: 'glottal closure' }, info));
@@ -721,6 +721,10 @@
                             P.FB = 2000; P.FF = Math.max(P.FF, 1500);
                             P.AH = Math.max(P.AH, s.voiced ? .08 : .18);
                             P.RG = s.place === 'VE' ? .7 : .9;
+                            // voiced back fricatives (ɣ ʁ ʕ): keep the velar/uvular formant pinch audible in
+                            // the voice (damped, not removed) and bunch the noise near it. Removing it
+                            // left a plain buzz + diffuse hiss, heard as ð; ringing formants were heard as l.
+                            if (s.voiced) { P.TL = .72; P.B1 = 110; P.B2 = 170; P.B3 = 240; P.FB = 1000; P.FF = Math.max(1400, (P.F2 + P.F3) / 2); }
                         }
                         if (s.ejective) P.glot = -0.5;
                         push((s.voiced ? 88 : s.place === 'VE' || s.place === 'UV' ? 115 : 98) * gem * syl, P, Object.assign({ kind: 'fricative', edgeA: 18 }, info));

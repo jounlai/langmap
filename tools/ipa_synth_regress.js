@@ -23,7 +23,8 @@ const CHECK = {
     j: p => phasesOf(p, 'j').every(ph => ph.P.F2 >= 2250 && ph.P.B2 <= 100) && p.phases.filter((ph, k) => k && p.phases[k - 1].kind === 'approximant' && ph.kind === 'vowel').every(ph => ph.edgeF >= 90),
     xue: p => { const v = vowels(p); const x = phasesOf(p, 'x')[0]; return v[0].dur <= 60 && x.dur >= 100 && x.P.AF >= .5; },
     korean: p => p.segs.some(s => s.pause) && p.segs.filter(s => s.type === 'V').length === 4,
-    gamma: p => { const g = phasesOf(p, 'ɣ')[0]; return g.P.TL >= .9 && g.P.AF >= .2 && g.P.AF <= .4 && phasesOf(p, 'j')[0].P.F2 >= 2250; },
+    // ɣ: voice damped but its formant pinch kept (TL .6-.85; .93 was heard as ð, none as l), compact noise
+    gamma: p => { const g = phasesOf(p, 'ɣ')[0]; return g.P.TL >= .6 && g.P.TL <= .85 && g.P.FB <= 1200 && g.P.AF >= .2 && g.P.AF <= .4 && phasesOf(p, 'j')[0].P.F2 >= 2250; },
     burmese: p => { const e = p.phases.find(ph => ph.kind === 'vowel' && p.segs[ph.seg].base === 'e'); const i = p.segs.find(s => s.base === 'ɪ'); return e.dur <= 100 && i.nonsyl; },
     palatal: p => { const g = p.phases.filter(ph => ph.kind === 'offglide j'); return g.length === 2 && g.every(ph => ph.dur >= 40 && ph.P.F2 >= 2250); },
     capital: p => p.segs.map(x => x.base).join('') === 'dak' && p.parsed.unsupported.length === 0,
@@ -33,8 +34,9 @@ const CHECK = {
     into_ko: p => p.pitch[0][1] >= 3.5,
     into_zh: p => { const t = p.segs.find(s => s.base === 'i').sylTone; return t[0] === 3 && t[1] === 5; },
     into_tr: p => { const v = p.segs.filter(s => s.type === 'V'); return v[v.length - 1].prom === 1 && !v[0].prom; },
-    natural: p => p.micro.length > 0 && p.phases.filter(ph => ph.kind === 'vowel').pop().P.BR >= .4 && Object.values(S.VOICES).every(v => v.asp > 0 && v.fl > 0 && v.rd > 0),
+    natural: p => p.micro.length > 0 && p.phases.filter(ph => ph.kind === 'vowel').pop().P.BR >= .25 && Object.values(S.VOICES).every(v => v.asp > 0 && v.fl > 0 && v.rd > 0),
     velar: p => { const b = p.phases.filter(ph => ph.kind === 'burst'); return b[0].dur >= 22 && b[0].P.RG > 0 && b[1].dur <= 16 && b[0].P.FB <= 700; },
+    clear_u: p => { const v = p.phases.filter(ph => ph.kind === 'vowel'); return v.every(ph => (ph.edgeF || 0) <= ph.dur * .45 + 1) && v[v.length - 1].P.BR <= .35; },
     glottal: p => p.phases.some(ph => ph.kind === 'glottal release' && ph.P.CR === 1 && ph.P.AV === 1),
 };
 

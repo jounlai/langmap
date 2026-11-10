@@ -381,13 +381,15 @@
     const CLICK_GAIN = { BL: 3.63, DE: .25, PA: .95, PL: .63, AL: .29 };
     const NASAL_ZERO = { BL: 1050, LD: 1100, DE: 1600, AL: 1650, PA: 1800, RE: 1500, AP: 2100, PL: 2100, VE: 2600, UV: 2300, LV: 1100 };
     const APPROX = {
-        j: [260, 2150, 2950], w: [290, 650, 2200], ɥ: [270, 1900, 2350], ɰ: [310, 1300, 2400], ɹ: [350, 1250, 1650], ɻ: [350, 1200, 1550],
+        j: [250, 2300, 3050], w: [280, 620, 2200], ɥ: [255, 1950, 2350], ɰ: [310, 1300, 2400], ɹ: [350, 1250, 1650], ɻ: [350, 1200, 1550],
         ʋ: [320, 1400, 2350], l: [360, 1250, 2700], ɫ: [380, 900, 2600], ɭ: [360, 1350, 2100], ʎ: [270, 2100, 2850], ʟ: [330, 1100, 2500],
     };
+    // semivowels: vowel-like (i, u, y) and reached at their own target, not blended toward the vowel
+    const GLIDES = new Set(['j', 'w', 'ɥ', 'ɰ']);
     // contact points on the palate for coronal constrictions (drawing coordinates)
     const TIP = { DE: [84, 207], AL: [100, 194], PA: [114, 187], RE: [128, 182] };
 
-    function velarNoise(V, g) { const c = Math.max(1300, Math.min(2600, V.F2 * 1.08)); return [c, 700, g || .354]; }
+    function velarNoise(V, g) { const c = Math.max(1300, Math.min(2600, V.F2 * 1.08)); return [c, 900, g || .6]; }
 
     function consTarget(seg, V, manner) {
         const P = Object.assign({}, V);
@@ -438,10 +440,14 @@
         P.F1 = deg === 0 ? 220 : deg === 1 ? 320 : P.F1;
         P.F2 = L[1] + k2 * (V.F2 - L[1]);
         P.F3 = L[2] + k3 * (V.F3 - L[2]);
-        if (deg === 2 && APPROX[seg.base]) { [P.F1, P.F2, P.F3] = APPROX[seg.base]; P.F2 = P.F2 * .8 + V.F2 * .2; }
+        if (deg === 2 && APPROX[seg.base]) {
+            [P.F1, P.F2, P.F3] = APPROX[seg.base];
+            if (!GLIDES.has(seg.base)) P.F2 = P.F2 * .8 + V.F2 * .2;
+        }
         if (place === 'GL') { P.F1 = V.F1; P.F2 = V.F2; P.F3 = V.F3; }
         if (place === 'PH' || place === 'EP') { P.F1 = Math.max(P.F1, 650); }
         P.B1 = deg === 0 ? 140 : 100; P.B2 = 130; P.B3 = 200;
+        if (GLIDES.has(seg.base)) { P.B1 = 65; P.B2 = 95; P.B3 = 160; }   // glides are vowel-like: sharp formants
         P.FNZ = 270;
         if (seg.pal) { P.F2 = Math.max(P.F2, 2050); P.F3 = Math.max(P.F3, 2800); }
         if (seg.lab) { P.F2 *= .78; P.F3 -= 200; }
@@ -543,7 +549,11 @@
                     d = total * .38; nx._glide = total * .62;
                 } else if (s.nonsyl && s._glide) {
                     d = s._glide; edgeF = d * .95;
+                } else if (s.nonsyl && nx && nx.type === 'V' && !nx.nonsyl && nx.syl === s.syl) {
+                    // rising diphthong (u̯ə, i̯ə): the glide is a passing point, not a held vowel
+                    d = 55; edgeF = 18; nx._onglide = true;
                 }
+                if (s._onglide) edgeF = 70;
                 push(d, P, Object.assign({ kind: 'vowel', edgeF }, info));
                 if (s.glot) push(40, Object.assign({}, P, { AV: 0, AH: 0, glot: -0.5 }), Object.assign({ kind: 'glottal closure' }, info));
             } else {
@@ -626,13 +636,16 @@
                         P.AV = s.voiced ? .45 : 0;
                         P.AH = ['BL', 'LD', 'DE', 'PH', 'EP'].includes(s.place) && !s.voiced ? .12 : 0;
                         if (s.ejective) P.glot = -0.5;
-                        push((s.voiced ? 78 : 98) * gem * syl, P, Object.assign({ kind: 'fricative' }, info));
+                        push((s.voiced ? 78 : s.place === 'VE' || s.place === 'UV' ? 115 : 98) * gem * syl, P, Object.assign({ kind: 'fricative', edgeA: 18 }, info));
                     }
                 } else if (m === 'approx' || m === 'lat') {
                     const P = consTarget(s, V, m);
                     P.AV = s.voiced ? .78 : 0; P.AH = s.voiced ? 0 : .45; P.glot = s.voiced ? 0 : 1;
                     if (m === 'lat') P.B2 = 220;
-                    push((beforeVowel ? 58 : 72) * gem * syl, P, Object.assign({ kind: m === 'lat' ? 'lateral' : 'approximant', edgeF: 22 }, info));
+                    const glideSV = GLIDES.has(s.base);
+                    if (glideSV) P.AV = s.voiced ? .92 : 0;
+                    // a glide is a movement: reach the target slowly, leave slowly
+                    push((glideSV ? 70 : beforeVowel ? 58 : 72) * gem * syl, P, Object.assign({ kind: m === 'lat' ? 'lateral' : 'approximant', edgeF: glideSV ? 32 : 22 }, info));
                 } else if (m === 'tap' || m === 'ltap') {
                     const P = consTarget(s, V, m);
                     P.AV = .35; P.glot = 0;

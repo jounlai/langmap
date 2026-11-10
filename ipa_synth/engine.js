@@ -368,7 +368,7 @@
     // closure loci: [F1, F2, F3] at the constriction; velars take theirs from the vowel
     const LOCUS = {
         BL: [220, 850, 2200], LD: [250, 1100, 2350], DE: [250, 1600, 2600], AL: [250, 1750, 2700], PA: [250, 2000, 2550],
-        RE: [250, 1650, 1900], AP: [250, 2200, 2900], PL: [250, 2300, 3000], VE: null, UV: [380, 1150, 2400],
+        RE: [250, 1650, 1900], AP: [250, 2200, 2900], PL: [250, 2300, 3000], VE: null, UV: [500, 1150, 2400],
         PH: [700, 1100, 2500], EP: [700, 1050, 2500], GL: null, LV: [230, 800, 2200], LP: [240, 1900, 2400],
     };
     // frication / burst spectrum per place: [centre Hz, bandwidth Hz, relative gain]
@@ -443,6 +443,8 @@
         if (!L) L = place === 'VE' ? [250, Math.max(1450, V.F2 * 1.05), Math.max(1900, V.F2 * 1.05 + 350)] : [V.F1, V.F2, V.F3];
         const k2 = .35, k3 = .3;
         P.F1 = deg === 0 ? 220 : deg === 1 ? 320 : P.F1;
+        // uvular and pharyngeal constrictions raise F1 (a low F1 there gave v/l-like transitions)
+        if (['UV', 'PH', 'EP'].includes(place)) P.F1 = Math.max(P.F1, L[0]);
         P.F2 = L[1] + k2 * (V.F2 - L[1]);
         P.F3 = L[2] + k3 * (V.F3 - L[2]);
         if (deg === 2 && APPROX[seg.base]) {
@@ -798,7 +800,9 @@
                             // band was heard as f (before o), sh (before a) or a whistle; ɣ as v or ð.
                             P.PW = 1; P.RG = .3;
                             // velar: F2 and F3 together (the pinch); uvular/pharyngeal: mostly F2, low in the throat
-                            P.A3 = s.place === 'VE' ? .7 : .2;
+                            P.A3 = s.place === 'VE' ? .7 : .35;
+                            // uvular/pharyngeal friction is loud and raspy (Mandarin x is realized here)
+                            if (s.place !== 'VE') { P.AF *= 1.5; P.RG = .55; }
                             P.AH = Math.max(P.AH, s.voiced ? .05 : .12);
                             if (s.voiced) { P.TL = .72; P.B1 = 110; P.B2 = 170; P.B3 = 240; }
                         }
@@ -1094,7 +1098,7 @@
         return { tp, te, ta, a: (lo + hi) / 2, w, sw };
     }
 
-    const PAR_A2 = .19, PAR_A3 = .14;   // parallel F2/F3 noise gains (calibrated: x ~ -11 dB, k burst ~ -8 dB re vowel)
+    const PAR_A2 = .24, PAR_A3 = .18;   // parallel F2/F3 noise gains (calibrated: x ~ -11 dB, k burst ~ -8 dB re vowel)
     function render(pl, opts = {}) {
         const fs = opts.fs || 22050;
         const voice = VOICES[opts.voice] || VOICES.male;
@@ -1126,7 +1130,7 @@
                 R[3].set(P.F4 * vt, 250, fs); R[4].set(Math.min(4500 * vt, fs * .45), 300, fs);
                 NP.set(270, 100, fs); NZ.set(P.FNZ * (P.FNZ === 270 ? 1 : vt), 100, fs);
                 FR.set(Math.min(P.FF * Math.sqrt(vt), fs * .46), P.FB, fs);
-                PF2.set(P.F2 * vt, Math.max(P.B2, 180), fs); PF3.set(Math.min(P.F3 * vt, fs * .45), Math.max(P.B3, 240), fs);
+                PF2.set(P.F2 * vt, Math.max(P.B2, 380), fs); PF3.set(Math.min(P.F3 * vt, fs * .45), Math.max(P.B3, 480), fs);   // noise formants are broad: narrow ones sounded like a soft whistle / f
             }
             // glottal source: LF-like flow derivative shaped by Rd, with jitter and shimmer
             phase += 1;

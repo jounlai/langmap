@@ -58,6 +58,7 @@ const CHECK = {
     implosive: p => { const k = p.phases.findIndex(ph => ph.kind === 'implosion'); return k > 0 && p.phases[k].P.AV > p.phases[k - 1].P.AV + .4 && p.phases.some(ph => ph.kind === 'creaky onset') && p.segs[p.segs.length - 1].noRelease === true && p.phases.filter(ph => ph.kind === 'vowel').every(ph => ph.dur <= 110) && p.phases[p.phases.length - 2].edgeA <= 4; },
     anh: p => p.phases.some(ph => ph.kind === 'offglide j' && p.segs[ph.seg].base === 'ɲ'),
     sandhi313: p => { const t = p.segs.find(s => s.base === 'i').sylTone; const t2 = p.segs.find(s => s.base === 'a').sylTone; return t[0] === 3 && t[1] === 5 && t2.length === 3; },
+    xau: p => { const x = phasesOf(p, 'x')[0]; return x.P.F1 >= 450 && x.P.RG >= .5 && x.P.PW === 1; },
     glottal: p => p.phases.some(ph => ph.kind === 'glottal release' && ph.P.CR === 1 && ph.P.AV === 1),
 };
 

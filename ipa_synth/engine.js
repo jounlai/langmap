@@ -19,7 +19,8 @@
     // ------------------------------------------------------------------ symbol tables
     // vowels: [height 0 open..1 close, backness 0 front..1 back, rounded, rhotic]
     const VOWELS = {
-        'i': [1, 0, 0], 'y': [1, 0, 1], 'ɨ': [1, .5, 0], 'ʉ': [1, .5, 1], 'ɯ': [1, 1, 0], 'u': [1, 1, 1],
+        'i': [1, 0, 0], 'y': [1, 0, 1], 'ɨ': [1, .5, 0], 'ʉ': [1, .5, 1], 'ɯ': [.9, .95, 0], 'u': [1, 1, 1],   // ɯ: F1 ~310 (as close as i/u it sounded muffled)
+       
         'ɪ': [.85, .15, 0], 'ʏ': [.85, .15, 1], 'ʊ': [.85, .85, 1], 'ɩ': [.85, .15, 0], 'ɷ': [.85, .85, 1],
         'e': [.67, 0, 0], 'ø': [.67, 0, 1], 'ɘ': [.67, .5, 0], 'ɵ': [.67, .5, 1], 'ɤ': [.67, 1, 0], 'o': [.67, 1, 1],
         'ə': [.5, .5, 0], 'ɚ': [.5, .5, 0, 1], 'ɛ': [.33, 0, 0], 'œ': [.33, 0, 1], 'ɜ': [.33, .5, 0], 'ɝ': [.33, .5, 0, 1],
@@ -317,13 +318,13 @@
     }
 
     // ------------------------------------------------------------------ targets
-    const FIELDS_A = ['AV', 'AH', 'AF', 'FF', 'FB', 'glot', 'CR', 'TL', 'RG', 'BR'];   // BR: breathier voice (0..1)   // TL: extra low-pass on the voice (0 none)                       // fast (amplitudes, source)
+    const FIELDS_A = ['AV', 'AH', 'AF', 'FF', 'FB', 'glot', 'CR', 'TL', 'RG', 'BR', 'PW', 'A3'];   // PW: share of the noise sent through the parallel F2/F3 resonators   // BR: breathier voice (0..1)   // TL: extra low-pass on the voice (0 none)                       // fast (amplitudes, source)
     const FIELDS_F = ['F1', 'F2', 'F3', 'F4', 'B1', 'B2', 'B3', 'FNZ'];                   // formants
     const FIELDS_R = ['cx', 'cy', 'tx', 'ty', 'curl', 'lip', 'pro', 'll', 'vel', 'jaw', 'lat'];   // articulators (drawing)
     const FIELDS = [...FIELDS_A, ...FIELDS_F, ...FIELDS_R];
 
     const REST = {
-        AV: 0, AH: 0, AF: 0, FF: 4000, FB: 2000, glot: 1, CR: 0, TL: 0, RG: 0, BR: 0,
+        AV: 0, AH: 0, AF: 0, FF: 4000, FB: 2000, glot: 1, CR: 0, TL: 0, RG: 0, BR: 0, PW: 0, A3: .7,
         F1: 500, F2: 1500, F3: 2500, F4: 3500, B1: 90, B2: 110, B3: 170, FNZ: 270,
         cx: 182, cy: 262, tx: 118, ty: 262, curl: 0, lip: 0.03, pro: 0, ll: 0, vel: 1, jaw: 0.08, lat: 0,
     };
@@ -379,7 +380,7 @@
     };
     const BURST = {
         BL: [900, 1600, 2.06], LD: [5000, 4000, .1], DE: [4500, 3000, .3], AL: [4200, 2200, .425], PA: [3000, 1600, .48],
-        RE: [2800, 1500, .645], AP: [3500, 1600, .53], PL: [3300, 1500, .56], VE: null, UV: [1250, 650, 1.63],
+        RE: [2800, 1500, .645], AP: [3500, 1600, .53], PL: [3300, 1500, .56], VE: null, UV: [1250, 650, .8],
         PH: [1100, 900, .94], EP: [1100, 900, 1.18], GL: [2000, 3000, .1], LV: [1000, 1200, 1.5], LP: [2500, 2000, .5],
     };
     const CLICK_GAIN = { BL: 3.63, DE: .25, PA: .95, PL: .63, AL: .29 };
@@ -459,7 +460,7 @@
         if (seg.phar) { P.F1 += 180; P.F2 = Math.min(P.F2, 1150); }
         const N = NOISE[place] || velarNoise(V);
         P.FF = N[0]; P.FB = N[1];
-        P.AV = 0; P.AH = 0; P.AF = 0; P.CR = 0; P.TL = 0; P.RG = 0;
+        P.AV = 0; P.AH = 0; P.AF = 0; P.CR = 0; P.TL = 0; P.RG = 0; P.PW = 0;
         return P;
     }
 
@@ -478,7 +479,7 @@
         if (b === 'ko') return { type: 'flat', passiveVoicing: true };
         if (b === 'yue') return { type: 'stress', passiveVoicing: true };
         if (b === 'fr') return { type: 'fr' };
-        if (b === 'zh' || b === 'cmn') return { type: 'stress', sandhi3: true, passiveVoicing: true };
+        if (b === 'zh' || b === 'cmn') return { type: 'stress', sandhi3: true, passiveVoicing: true, mandarin: true };
         if (STRESS_INITIAL.has(b)) return { type: 'stress', stress: 'initial' };
         if (STRESS_PENULT.has(b)) return { type: 'stress', stress: 'penult' };
         if (STRESS_ANTEPENULT.has(b)) return { type: 'stress', stress: 'antepenult' };
@@ -493,6 +494,18 @@
         const segs = parsed.segs;
         const phases = [];
         const push = (dur, P, info) => phases.push(Object.assign({ dur: dur * ds, P }, info));
+        const prof = langProfile(opts.lang);
+        if (prof.mandarin) {
+            // Mandarin realizations: x is far back, close to [χ]; "-i" after a sibilant is the
+            // apical vowel (ʂɨ = [ʂʅ], sɨ = [sɿ]) whatever the cell's IPA writes
+            segs.forEach((x, k) => {
+                if (x.type === 'C' && x.base === 'x') x.place = 'UV';
+                if (x.type === 'V' && x.base === 'ɨ' && k > 0) {
+                    const c = segs[k - 1], pl = c.manner === 'affr' ? c.fricPlace : c.place;
+                    if (c.type === 'C' && ['fric', 'affr'].includes(c.manner) && (pl === 'RE' || pl === 'AL')) x.apical = pl;
+                }
+            });
+        }
         const vtarget = segs.map(s => s.type === 'V' ? vowelTarget(s) : null);
         const schwa = vowelTarget({ h: .5, b: .5, round: 0 });
         const tonal = segs.some(s => s.sylTone || s.toneMark);
@@ -537,7 +550,6 @@
         const REDUCED = new Set(['ə', 'ɐ', 'ɚ']);
         const markedStress = segs.some(s => s.stress);
         segs.forEach(s => { s.prom = s.stress || 0; });
-        const prof = langProfile(opts.lang);
         if (!markedStress && !tonal && (prof.type === 'stress' || prof.type === 'fr')) {
             const byWord = {};
             segs.forEach(s => { if (isNucleus(s)) (byWord[s.word] = byWord[s.word] || []).push(s); });
@@ -681,13 +693,13 @@
                         // palate slowly, often in two or three bursts, with energy bunched near F2/F3.
                         // Short weak ones sounded like t.
                         const back = s.place === 'VE' || s.place === 'UV' || s.place === 'LV';
-                        if (back && m !== 'click') { R.AF *= 1.6; R.FB = 600; R.RG = .8; }
-                        push(m === 'click' ? 8 : back ? 26 : 14, R, Object.assign({ kind: 'burst', edgeA: 2, edgeF: 2 }, info));
+                        if (back && m !== 'click') { R.AF *= 2.2; R.PW = 1; R.RG = 0; R.A3 = s.place === 'UV' ? .2 : .7; }   // noise through the velar pinch itself (no flicker: it whistled)
+                        push(m === 'click' ? 8 : back ? 22 : 14, R, Object.assign({ kind: 'burst', edgeA: 2, edgeF: 2 }, info));
                     }
                     if (m === 'affr') {
                         const F = consTarget(Object.assign({}, s, { place: s.fricPlace, base: s.fricBase }), V, s.lateral ? 'latfric' : 'fric');
                         const N = NOISE[s.fricPlace] || velarNoise(V);
-                        F.AF = N[2] * (s.voiced ? .5 : 1); F.AV = s.voiced ? .4 : 0; F.glot = s.voiced ? 0 : 1;
+                        F.AF = N[2] * (s.voiced ? .75 : 1); F.AV = s.voiced ? .3 : 0; F.glot = s.voiced ? 0 : 1; if (s.voiced) F.TL = .72;   // a voiced affricate stays fricative, not nasal-like
                         if (s.lateral) { F.FF = 4500; F.FB = 2500; F.AF = .12; }
                         if (s.ejective) F.glot = -0.5;
                         push(65 * gem, F, Object.assign({ kind: 'frication' }, info));
@@ -735,15 +747,14 @@
                         // flutter), so the band is wider and its loudness flickers irregularly (RG),
                         // with a little breath through the formants.
                         if (['VE', 'UV', 'PH', 'EP'].includes(s.place)) {
-                            // the band follows the next vowel (low before o u, high before i) and is of
-                            // middling width: 2 kHz from 1.5 kHz up made xwo sound like "sh"
-                            P.FB = 1200; P.FF = Math.max(900, Math.min(2300, V.F2 * 1.1));
-                            P.AH = Math.max(P.AH, s.voiced ? .08 : .18);
-                            P.RG = s.place === 'VE' ? .7 : .9;
-                            // voiced back fricatives (ɣ ʁ ʕ): keep the velar/uvular formant pinch audible in
-                            // the voice (damped, not removed) and bunch the noise near it. Removing it
-                            // left a plain buzz + diffuse hiss, heard as ð; ringing formants were heard as l.
-                            if (s.voiced) { P.TL = .72; P.B1 = 110; P.B2 = 170; P.B3 = 240; P.FB = 1000; P.FF = Math.max(1400, (P.F2 + P.F3) / 2); }
+                            // Back fricatives: the noise goes through the tract's own F2/F3 (parallel
+                            // branch), so it carries the velar/uvular pinch and follows the vowel. A fixed
+                            // band was heard as f (before o), sh (before a) or a whistle; ɣ as v or ð.
+                            P.PW = 1; P.RG = .3;
+                            // velar: F2 and F3 together (the pinch); uvular/pharyngeal: mostly F2, low in the throat
+                            P.A3 = s.place === 'VE' ? .7 : .2;
+                            P.AH = Math.max(P.AH, s.voiced ? .05 : .12);
+                            if (s.voiced) { P.TL = .72; P.B1 = 110; P.B2 = 170; P.B3 = 240; }
                         }
                         if (s.ejective) P.glot = -0.5;
                         push((s.voiced ? 88 : s.place === 'VE' || s.place === 'UV' ? 115 : 98) * gem * syl, P, Object.assign({ kind: 'fricative', edgeA: 18 }, info));
@@ -1025,6 +1036,7 @@
         return { tp, te, ta, a: (lo + hi) / 2, w, sw };
     }
 
+    const PAR_A2 = .19, PAR_A3 = .14;   // parallel F2/F3 noise gains (calibrated: x ~ -11 dB, k burst ~ -8 dB re vowel)
     function render(pl, opts = {}) {
         const fs = opts.fs || 22050;
         const voice = VOICES[opts.voice] || VOICES.male;
@@ -1033,7 +1045,7 @@
         const rnd = mulberry(12345);
         const noise = () => rnd() * 2 - 1;
         const R = [new Resonator(), new Resonator(), new Resonator(), new Resonator(), new Resonator()];
-        const NP = new Resonator(), NZ = new AntiResonator(), FR = new Resonator();
+        const NP = new Resonator(), NZ = new AntiResonator(), FR = new Resonator(), PF2 = new Resonator(), PF3 = new Resonator();
         const hints = {}; for (const f of FIELDS) hints[f] = { i: 0 }; const ph = { i: 0 };
         let phase = 0, T0 = fs / voice.f0, tilt = 0, prevNoise = 0, rough = 0, hp = { x1: 0, y1: 0 }, prevAsp = 0;
         const FRAME = 32;
@@ -1056,6 +1068,7 @@
                 R[3].set(P.F4 * vt, 250, fs); R[4].set(Math.min(4500 * vt, fs * .45), 300, fs);
                 NP.set(270, 100, fs); NZ.set(P.FNZ * (P.FNZ === 270 ? 1 : vt), 100, fs);
                 FR.set(Math.min(P.FF * Math.sqrt(vt), fs * .46), P.FB, fs);
+                PF2.set(P.F2 * vt, Math.max(P.B2, 180), fs); PF3.set(Math.min(P.F3 * vt, fs * .45), Math.max(P.B3, 240), fs);
             }
             // glottal source: LF-like flow derivative shaped by Rd, with jitter and shimmer
             phase += 1;
@@ -1090,7 +1103,13 @@
             // roughness: the frication's loudness flickers with a slow random signal (~40-150 Hz)
             rough += (noise() - rough) * .02;
             const afr = P.RG ? af * Math.max(0, 1 + P.RG * rough * 4) : af;
-            const fr = FR.tick((fn - prevNoise) * afr) * 1.06;
+            // Parallel formant branch (Klatt 1980): back consonants' noise excites the tract's own
+            // F2 and F3 (the velar/uvular pinch), so the noise moves with the formant transitions
+            // instead of sitting in a fixed band (heard as f, v or sh).
+            const pw = P.PW;
+            const band = FR.tick((fn - prevNoise) * afr * (1 - pw)) * 1.06;
+            const par = pw ? (PF2.tick(fn * afr * pw) * PAR_A2 + PF3.tick(fn * afr * pw) * PAR_A3 * P.A3 / .7) : 0;
+            const fr = band + par;
             prevNoise = fn;
             const y = x + fr;
             // DC block

@@ -52,8 +52,11 @@ const CHECK = {
         const band = (lo, hi) => { let e = 0; for (let f = lo; f <= hi; f += 25) { let re = 0, im = 0; for (let n = 0; n < x.length; n++) { const w = .5 - .5 * Math.cos(2 * Math.PI * n / x.length); re += x[n] * w * Math.cos(2 * Math.PI * f * n / o.fs); im -= x[n] * w * Math.sin(2 * Math.PI * f * n / o.fs); } e += re * re + im * im; } return 10 * Math.log10(e + 1e-12); };
         return band(1900, 3300) - band(150, 900) >= -30 && p.phases.find(q => q.kind === 'vowel').dur <= 45;
     },
-    tabako: p => { const b = p.phases.filter(ph => ph.kind === 'burst'); const sl = p.phases.filter(ph => ph.kind === 'short lag'); return b.every(ph => ph.dur <= 14) && sl.every(ph => ph.P.AH <= .1 && ph.dur <= 16); },
+    tabako: p => { const b = p.phases.filter(ph => ph.kind === 'burst'); const sl = p.phases.filter(ph => ph.kind === 'short lag'); return b.slice(1).every(ph => ph.dur <= 14) && sl.every(ph => ph.P.AH <= .1 && ph.dur <= 16); },
+    // word-initial plain t keeps an audible burst (it vanished: tuần heard as uan)
+    tuan: p => { const b = p.phases.find(ph => ph.kind === 'burst'); return b.dur >= 12 && b.P.AF >= .14; },
     implosive: p => { const k = p.phases.findIndex(ph => ph.kind === 'implosion'); return k > 0 && p.phases[k].P.AV > p.phases[k - 1].P.AV + .4 && p.phases.some(ph => ph.kind === 'creaky onset') && p.segs[p.segs.length - 1].noRelease === true && p.phases.filter(ph => ph.kind === 'vowel').every(ph => ph.dur <= 110) && p.phases[p.phases.length - 2].edgeA <= 4; },
+    anh: p => p.phases.some(ph => ph.kind === 'offglide j' && p.segs[ph.seg].base === 'ɲ'),
     glottal: p => p.phases.some(ph => ph.kind === 'glottal release' && ph.P.CR === 1 && ph.P.AV === 1),
 };
 

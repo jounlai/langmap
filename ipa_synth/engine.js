@@ -511,8 +511,11 @@
             // syllable-final stops are unreleased in these languages (Vietnamese Đức ɗɨk, Cantonese,
             // Thai, Korean …), whether or not the cell writes ̚
             segs.forEach((x, k) => {
-                const nx = segs[k + 1];
-                if (x.type === 'C' && x.manner === 'stop' && x.place !== 'GL' && (!nx || x.wordEnd || nx.type === 'C')) x.noRelease = true;
+                // syllable-final = after a vowel, and no vowel follows (directly or after a glide);
+                // "next is a consonant" also caught onset clusters (twən lost its t)
+                const nx = segs[k + 1], pv = segs[k - 1];
+                const vowelNext = nx && (nx.type === 'V' || (GLIDES.has(nx.base) && segs[k + 2] && segs[k + 2].type === 'V'));
+                if (x.type === 'C' && x.manner === 'stop' && x.place !== 'GL' && pv && pv.type === 'V' && (x.wordEnd || !vowelNext)) x.noRelease = true;
             });
         }
         const vtarget = segs.map(s => s.type === 'V' ? vowelTarget(s) : null);
@@ -727,8 +730,11 @@
                         // An unaspirated voiceless stop (tabako) has a brief, light release; the long
                         // strong burst suits aspirated kʰ tʰ and made plain k t sound synthetic.
                         const plain = !s.voiced && !s.asp && !s.ejective && m !== 'click' && m !== 'affr';
-                        if (plain) R.AF *= .55;
-                        push(m === 'click' ? 8 : back ? (plain ? 14 : 22) : (plain ? 9 : 14), R, Object.assign({ kind: 'burst', edgeA: 2, edgeF: 2 }, info));
+                        // Light only between voiced sounds: after silence the burst is the stop's only cue
+                        // (tuần twən: a light t vanished and was heard as "uan" / "nuan").
+                        const light = plain && prevVoiced;
+                        if (light) R.AF *= .55; else if (plain) R.AF *= .9;
+                        push(m === 'click' ? 8 : back ? (light ? 14 : plain ? 18 : 22) : (light ? 9 : plain ? 12 : 14), R, Object.assign({ kind: 'burst', edgeA: 2, edgeF: 2 }, info));
                     }
                     if (m === 'affr') {
                         const F = consTarget(Object.assign({}, s, { place: s.fricPlace, base: s.fricBase }), V, s.lateral ? 'latfric' : 'fric');
@@ -754,6 +760,12 @@
                         push(18, Object.assign({}, nv, { AV: s.prenasal || s.voiced ? .6 : 0, AH: s.asp ? .5 : .08, AF: 0, glot: s.voiced ? 0 : .7 }), Object.assign({ kind: 'release', edgeF: 6 }, info));
                     }
                 } else if (m === 'nasal') {
+                    // a palatal nasal closing a syllable (Vietnamese anh aɲ ≈ [ajŋ]): the vowel glides
+                    // toward i before the nasal; otherwise it sounds like plain n
+                    if ((s.place === 'PL' || s.place === 'AP') && i > 0 && segs[i - 1].type === 'V' && !beforeVowel) {
+                        const G = consTarget({ place: 'PL', manner: 'approx', base: 'j', voiced: 1 }, V); G.AV = .95; G.glot = 0;
+                        push(55, G, Object.assign({ kind: 'offglide j', edgeF: 40 }, info));
+                    }
                     const P = consTarget(s, V, 'nasal');
                     Object.assign(P, { AV: s.voiced ? .6 : 0, AH: s.voiced ? 0 : .35, F1: 260, B1: 110, FNZ: NASAL_ZERO[s.place] || 1600, glot: s.voiced ? 0 : 1 });
                     const coda = !beforeVowel;

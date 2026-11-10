@@ -464,6 +464,25 @@
         const schwa = vowelTarget({ h: .5, b: .5, round: 0 });
         const tonal = segs.some(s => s.sylTone || s.toneMark);
         // nucleus of each syllable (first syllabic vowel, else syllabic consonant)
+        // In a tone-marked syllable a run of vowels is one syllable: the most open vowel is the
+        // nucleus and the others are glides (siəŋ˨˩˧ = s-i̯-ə-ŋ, not two syllables si + əŋ).
+        {
+            let k = 0;
+            while (k < segs.length) {
+                if (segs[k].type !== 'V' || segs[k].apical || !segs[k].sylTone) { k++; continue; }
+                let e = k;
+                while (e + 1 < segs.length && segs[e + 1].type === 'V' && !segs[e + 1].apical && segs[e + 1].syl === segs[k].syl) e++;
+                if (e > k) {
+                    const run = segs.slice(k, e + 1).filter(v => !v.nonsyl);
+                    if (run.length > 1) {
+                        let nuc = run[0];
+                        for (const v of run) if (v.h < nuc.h - .01) nuc = v;
+                        for (const v of run) if (v !== nuc) { v.nonsyl = true; v.autoGlide = true; }
+                    }
+                }
+                k = e + 1;
+            }
+        }
         const isNucleus = s => (s.type === 'V' && !s.nonsyl) || s.syllabic;
         const lastNucleus = (() => { for (let i = segs.length - 1; i >= 0; i--) if (isNucleus(segs[i])) return i; return -1; })();
         // prominence: written stress if any; with no stress and no tone marks, each word's first
@@ -513,7 +532,18 @@
                 if (tone && isNucleus(s)) { const contour = new Set(tone).size > 1; d = Math.max(d, contour ? 190 : 150); }
                 if (i === lastNucleus) d = Math.max(d * 1.3, 75);
                 if (s.apical) d = Math.max(d, 150);
-                push(d, P, Object.assign({ kind: 'vowel', edgeF: 45 }, info));
+                // falling diphthong (eɪ̯, aʊ̯): the nucleus keeps only half of the syllable's vowel time
+                // and the formants glide across the whole second half, instead of a long steady
+                // vowel with a 65 ms jump at the end
+                const nx = segs[i + 1];
+                let edgeF = 45;
+                if (!s.nonsyl && nx && nx.type === 'V' && nx.nonsyl && nx.syl === s.syl) {
+                    const total = d + 65;
+                    d = total * .38; nx._glide = total * .62;
+                } else if (s.nonsyl && s._glide) {
+                    d = s._glide; edgeF = d * .95;
+                }
+                push(d, P, Object.assign({ kind: 'vowel', edgeF }, info));
                 if (s.glot) push(40, Object.assign({}, P, { AV: 0, AH: 0, glot: -0.5 }), Object.assign({ kind: 'glottal closure' }, info));
             } else {
                 const V = ctxVowel(i);

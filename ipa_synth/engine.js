@@ -697,7 +697,11 @@
                         // Short weak ones sounded like t.
                         const back = s.place === 'VE' || s.place === 'UV' || s.place === 'LV';
                         if (back && m !== 'click') { R.AF *= 2.2; R.PW = 1; R.RG = 0; R.A3 = s.place === 'UV' ? .2 : .7; }   // noise through the velar pinch itself (no flicker: it whistled)
-                        push(m === 'click' ? 8 : back ? 22 : 14, R, Object.assign({ kind: 'burst', edgeA: 2, edgeF: 2 }, info));
+                        // An unaspirated voiceless stop (tabako) has a brief, light release; the long
+                        // strong burst suits aspirated kʰ tʰ and made plain k t sound synthetic.
+                        const plain = !s.voiced && !s.asp && !s.ejective && m !== 'click' && m !== 'affr';
+                        if (plain) R.AF *= .55;
+                        push(m === 'click' ? 8 : back ? (plain ? 14 : 22) : (plain ? 9 : 14), R, Object.assign({ kind: 'burst', edgeA: 2, edgeF: 2 }, info));
                     }
                     if (m === 'affr') {
                         const F = consTarget(Object.assign({}, s, { place: s.fricPlace, base: s.fricBase }), V, s.lateral ? 'latfric' : 'fric');
@@ -717,8 +721,8 @@
                         const A = Object.assign({}, nv, { AV: .5, AH: .4, AF: 0, glot: .5, B1: 180 });
                         push(58, A, Object.assign({ kind: 'breathy release', edgeF: 8 }, info));
                     } else if (!s.voiced && !s.noRelease && m !== 'click') {
-                        const A = Object.assign({}, nv, { AV: 0, AH: .18, AF: 0, glot: .6, F1: nv.F1 * .8 });
-                        push(['VE', 'UV'].includes(s.place) ? 22 : 12, A, Object.assign({ kind: 'short lag', edgeF: 6 }, info));
+                        const A = Object.assign({}, nv, { AV: 0, AH: .07, AF: 0, glot: .6, F1: nv.F1 * .8 });
+                        push(['VE', 'UV'].includes(s.place) ? 16 : 10, A, Object.assign({ kind: 'short lag', edgeF: 6 }, info));
                     } else if (m === 'click') {
                         push(18, Object.assign({}, nv, { AV: s.prenasal || s.voiced ? .6 : 0, AH: s.asp ? .5 : .08, AF: 0, glot: s.voiced ? 0 : .7 }), Object.assign({ kind: 'release', edgeF: 6 }, info));
                     }

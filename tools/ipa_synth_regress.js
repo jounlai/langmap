@@ -36,7 +36,8 @@ const CHECK = {
     into_zh: p => { const t = p.segs.find(s => s.base === 'i').sylTone; return t[0] === 3 && t[1] === 5; },
     into_tr: p => { const v = p.segs.filter(s => s.type === 'V'); return v[v.length - 1].prom === 1 && !v[0].prom; },
     natural: p => p.micro.length > 0 && p.phases.filter(ph => ph.kind === 'vowel').pop().P.BR >= .25 && Object.values(S.VOICES).every(v => v.asp > 0 && v.fl > 0 && v.rd > 0),
-    velar: p => { const b = p.phases.filter(ph => ph.kind === 'burst'); return b[0].dur >= 20 && b[0].P.PW === 1 && !b[0].P.RG && b[1].dur <= 16; },
+    // k: burst through the velar pinch, longer than t's (plain k 14 ms vs t 9; aspirated kʰ 22)
+    velar: p => { const b = p.phases.filter(ph => ph.kind === 'burst'); return b[0].P.PW === 1 && !b[0].P.RG && b[0].dur > b[1].dur && S.plan('kʰa').phases.find(q => q.kind === 'burst').dur >= 20; },
     clear_u: p => { const v = p.phases.filter(ph => ph.kind === 'vowel'); return v.every(ph => (ph.edgeF || 0) <= ph.dur * .45 + 1) && v[v.length - 1].P.BR <= .35; },
     staccato: p => { const c = p.phases.filter(ph => ph.kind === 'closure'); return c[1].edgeA >= 20 && c[1].dur <= 55 && p.phases.filter(ph => ph.kind === 'vowel').every(ph => ph.edgeA == null || ph.edgeA >= 14); },
     xwo: p => { const x = phasesOf(p, 'x')[0]; return x.P.PW === 1 && x.P.F2 <= 1400; },
@@ -51,6 +52,7 @@ const CHECK = {
         const band = (lo, hi) => { let e = 0; for (let f = lo; f <= hi; f += 25) { let re = 0, im = 0; for (let n = 0; n < x.length; n++) { const w = .5 - .5 * Math.cos(2 * Math.PI * n / x.length); re += x[n] * w * Math.cos(2 * Math.PI * f * n / o.fs); im -= x[n] * w * Math.sin(2 * Math.PI * f * n / o.fs); } e += re * re + im * im; } return 10 * Math.log10(e + 1e-12); };
         return band(1900, 3300) - band(150, 900) >= -30 && p.phases.find(q => q.kind === 'vowel').dur <= 45;
     },
+    tabako: p => { const b = p.phases.filter(ph => ph.kind === 'burst'); const sl = p.phases.filter(ph => ph.kind === 'short lag'); return b.every(ph => ph.dur <= 14) && sl.every(ph => ph.P.AH <= .1 && ph.dur <= 16); },
     glottal: p => p.phases.some(ph => ph.kind === 'glottal release' && ph.P.CR === 1 && ph.P.AV === 1),
 };
 

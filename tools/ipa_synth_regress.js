@@ -60,7 +60,7 @@ const CHECK = {
     sandhi313: p => { const t = p.segs.find(s => s.base === 'i').sylTone; const t2 = p.segs.find(s => s.base === 'a').sylTone; return t[0] === 3 && t[1] === 5 && t2.length === 3; },
     xau: p => { const x = phasesOf(p, 'x')[0]; return x.P.F1 >= 450 && x.P.RG >= .5 && x.P.PW === 1; },
     glottal: p => p.phases.some(ph => ph.kind === 'glottal release' && ph.P.CR === 1 && ph.P.AV === 1),
-    nga: p => { const k = p.phases.findIndex(ph => ph.kind === 'glottal break'); if (k < 0) return false; const br = p.phases[k], before = p.pitch.filter(x => x[0] < br.t0).pop(), last = p.pitch.filter(x => x[0] > br.t1).pop(); return br.P.AV === 0 && p.phases[k + 1].P.CR > 0 && last[1] - before[1] >= 2; },
+    nga: p => { const k = p.phases.findIndex(ph => ph.kind === 'glottal break'); if (k < 0) return false; const br = p.phases[k], before = p.pitch.filter(x => x[0] < br.t0).pop(), last = p.pitch.filter(x => x[0] > br.t1).pop(); return br.P.AV <= .4 && br.P.CR > 0 && p.phases[k + 1].P.CR > 0 && last[1] - before[1] >= 2; },   // 2026-11-11: a creaky dip, not silence (Hanoi recording)
     // and shaped as the m (lips shut, velum down), not as the vowel: that was heard as "tha"
     'tʰm': p => { const a = p.phases.find(ph => ph.kind === 'aspiration'); return a.dur <= 25 && a.P.vel === 1 && a.P.F1 <= 300 && S.plan('tʰa').phases.find(ph => ph.kind === 'aspiration').dur >= 50; },
     noise_nat: p => { const f = p.phases.filter(ph => ph.kind === 'fricative'); return f.length >= 2 && f.every(ph => ph.edgeA >= 30) && f.every(ph => { const nx = p.phases[p.phases.indexOf(ph) + 1]; return nx.kind !== 'vowel' || nx.edgeA >= 20; }); },
@@ -72,6 +72,14 @@ const CHECK = {
         const band = (lo, hi) => { let e = 0; for (let fr = lo; fr <= hi; fr += 100) { let re = 0, im = 0; for (let n = 0; n < x.length; n++) { const w = .5 - .5 * Math.cos(2 * Math.PI * n / x.length); re += x[n] * w * Math.cos(2 * Math.PI * fr * n / o.fs); im -= x[n] * w * Math.sin(2 * Math.PI * fr * n / o.fs); } e += re * re + im * im; } return 10 * Math.log10(e / ((hi - lo) / 100 + 1) + 1e-12); };
         let pk = -1e9; for (let c = 5000; c <= 10000; c += 1000) pk = Math.max(pk, band(c - 400, c + 400));
         return pk - band(1600, 2400) >= 25;
+    },
+    // measured against Commons recordings 2026-11-11 (~/langmap-work/audcmp)
+    measured: p => {
+        const cr = p.creak && p.creak.length === 1, len = p.phases.filter(ph => ph.kind === 'vowel').reduce((t, ph) => t + ph.dur, 0) >= 280;
+        const a = S.plan('a').phases.find(ph => ph.kind === 'vowel').P, u = S.plan('u').phases.find(ph => ph.kind === 'vowel').P;
+        const sh = S.plan('ʃa').phases.find(ph => ph.kind === 'fricative').P, sc = S.plan('ɕa').phases.find(ph => ph.kind === 'fricative').P;
+        const sandhi = !S.plan('ni˨˩˦ xaʊ̯˨˩˦', { lang: 'zh' }).creak.some(c => c[0] < 300);   // ni (→35) does not creak
+        return cr && len && sandhi && a.F2 <= 1500 && u.F2 >= 700 && u.F1 >= 260 && sh.FF <= 2900 && sc.FF <= 3400;
     },
 };
 

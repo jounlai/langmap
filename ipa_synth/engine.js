@@ -25,7 +25,7 @@
         'e': [.67, 0, 0], 'ø': [.67, 0, 1], 'ɘ': [.67, .5, 0], 'ɵ': [.67, .5, 1], 'ɤ': [.67, 1, 0], 'o': [.67, 1, 1],
         'ə': [.5, .5, 0], 'ɚ': [.5, .5, 0, 1], 'ɛ': [.33, 0, 0], 'œ': [.33, 0, 1], 'ɜ': [.33, .5, 0], 'ɝ': [.33, .5, 0, 1],
         'ɞ': [.33, .5, 1], 'ʌ': [.33, 1, 0], 'ɔ': [.33, 1, 1], 'æ': [.15, 0, 0], 'ɐ': [.2, .5, 0],
-        'a': [0, .15, 0], 'ɶ': [0, 0, 1], 'ɑ': [0, 1, 0], 'ɒ': [0, 1, 1], 'ᴀ': [0, .5, 0], 'ᴇ': [.5, 0, 0],
+        'a': [0, .4, 0], 'ɶ': [0, 0, 1], 'ɑ': [0, 1, 0], 'ɒ': [0, 1, 1], 'ᴀ': [0, .5, 0], 'ᴇ': [.5, 0, 0],
     };
     // apical ("fricative") vowels of Chinese phonology: a syllabic, buzzy coronal approximant
     const APICAL = { 'ɿ': 'AL', 'ʅ': 'RE', 'ʮ': 'AL', 'ʯ': 'RE' };  // ʮ ʯ: rounded
@@ -342,11 +342,13 @@
             if (round) { P.F2 *= .82; P.F3 -= 150; P.lip = .15; P.pro = 1; }
             return P;
         }
-        let F1 = 250 + 600 * (1 - h);
+        // close vowels' F1 275 (was 250) and u's F2 ~740 (was 607): measured against Commons
+        // recordings (Hanoi u 360/750 male; Peterson & Barney u 300/870), the old u was too dark
+        let F1 = 275 + 575 * (1 - h);
         const F2f = 1750 + 600 * h, F2b = 1050 + 300 * h;
         let F2 = F2f + (F2b - F2f) * b;
         let F3 = 2450 + 550 * h * (1 - b);
-        if (round) { F2 *= 1 - (0.12 + 0.43 * b) * (0.45 + 0.55 * h); F3 -= 250 * (1 - b) + 50; F1 *= .96; }
+        if (round) { F2 *= 1 - (0.12 + 0.33 * b) * (0.45 + 0.55 * h); F3 -= 250 * (1 - b) + 50; F1 *= .96; }
         if (seg.rhotic) { F3 = 1650; F2 = Math.min(F2, 1350); }
         P.F1 = F1; P.F2 = F2; P.F3 = F3; P.F4 = Math.max(3400, F3 + 600);
         P.B1 = 55 + 35 * (1 - h); P.B2 = 70 + 30 * b; P.B3 = 130;   // vowels: fairly sharp formants
@@ -376,8 +378,8 @@
     // frication / burst spectrum per place: [centre Hz, bandwidth Hz, relative gain]
     // gains calibrated in node against a vowel (2026-11-10): s ≈ -8 dB, ʃ -7, x -14, f/θ -20, bursts -4..-10
     const NOISE = {
-        BL: [1400, 2500, .25], LD: [5500, 4500, .043], DE: [6500, 3500, .027], AL: [6200, 1600, .081], PA: [3100, 1300, .365],
-        RE: [2600, 1100, .43], AP: [3900, 1500, .22], PL: [4300, 1500, .114], VE: null, UV: [1300, 650, .79],
+        BL: [1400, 2500, .25], LD: [5500, 4500, .043], DE: [6500, 3500, .027], AL: [5700, 1600, .081], PA: [2800, 1300, .365],
+        RE: [2600, 1100, .43], AP: [3300, 1400, .22], PL: [3400, 1400, .114], VE: null, UV: [1300, 650, .79],
         PH: [1100, 900, .46], EP: [1000, 900, .6], GL: [2500, 4000, 0], LV: [1300, 1200, .48], LP: [3000, 2000, .15],
     };
     const BURST = {
@@ -398,6 +400,14 @@
 
     function velarNoise(V, g) { const c = Math.max(1300, Math.min(2600, V.F2 * 1.08)); return [c, 900, g || .6]; }
 
+    // a tone whose lowest point is level 1 and that rises again after it (214, 213, 313), or
+    // a Mandarin half-third / fall ending at 1
+    function lowDip(s, tone) {
+        if (!tone || tone.length < 2) return false;
+        const m = Math.min(...tone); if (m > 1.5) return false;
+        const k = tone.indexOf(m);
+        return (k > 0 && k < tone.length - 1) || (s._zhLow && k === tone.length - 1);
+    }
     function consTarget(seg, V, manner) {
         const P = Object.assign({}, V);
         const place = seg.place;
@@ -631,6 +641,7 @@
                 if (tone && isNucleus(s)) { const contour = new Set(tone).size > 1; d = Math.max(d, contour ? 190 : 150); }
                 else if (tonal && isNucleus(s)) d *= .65;     // neutral tone: a light, short syllable
                 if (i === lastNucleus) d = Math.max(d * 1.3, 75);
+                if (i === lastNucleus && tone && tone.length >= 3 && lowDip(s, tone)) d = Math.max(d, 300);   // citation 214 is long (recordings ~500 ms)
                 // checked syllable (ends in an unreleased stop: ɗɨk˧˥, Cantonese entering tone): short
                 {
                     let k = i + 1; while (k < segs.length && segs[k].type === 'V' && segs[k].nonsyl) k++;
@@ -671,9 +682,10 @@
                 if (s.sylBreak != null && isNucleus(s) && tone) {
                     // broken tone (ngã ˧ˀ˥): vowel, creak into a short glottal stop, creaky restart, rise
                     push(d * .42, PV, Object.assign({ kind: 'vowel', edgeF, edgeCap: s._glideIn ? .8 : .5, edgeA: afterRelease ? 16 : undefined }, info));
-                    push(22, Object.assign({}, PV, { CR: 1, AV: .8 }), Object.assign({ kind: 'creak', edgeA: 8 }, info));
-                    push(45, Object.assign({}, PV, { AV: 0, AH: 0, AF: 0, glot: -0.5, CR: 0 }), Object.assign({ kind: 'glottal break', edgeA: 3 }, info));
-                    push(25, Object.assign({}, PV, { CR: .8, AV: 1 }), Object.assign({ kind: 'creaky onset', edgeA: 1 }, info));
+                    // recordings (Hanoi mũi) show no silent gap: a brief creaky, weakened stretch
+                    push(18, Object.assign({}, PV, { CR: 1, AV: .7 }), Object.assign({ kind: 'creak', edgeA: 8 }, info));
+                    push(30, Object.assign({}, PV, { AV: .35, CR: 1, glot: -0.3 }), Object.assign({ kind: 'glottal break', edgeA: 6 }, info));
+                    push(22, Object.assign({}, PV, { CR: .7, AV: .9 }), Object.assign({ kind: 'creaky onset', edgeA: 4 }, info));
                     push(d * .48, PV, Object.assign({ kind: 'vowel', edgeA: 6 }, info));
                 } else push(d, PV, Object.assign({ kind: 'vowel', edgeF, edgeCap: s._glideIn ? .8 : .5, edgeA: afterRelease ? 16 : afterFric ? 22 : undefined }, info));
                 if (s.glot) push(40, Object.assign({}, P, { AV: 0, AH: 0, glot: -0.5 }), Object.assign({ kind: 'glottal closure' }, info));
@@ -904,7 +916,7 @@
         }
 
         // pitch: levels 1..5 (Chao), 3 = the speaker's mid
-        const pitch = [];
+        const pitch = [], creak = [];
         const segSpan = i => { let a = Infinity, b = -Infinity; for (const ph of phases) if (ph.seg === i) { a = Math.min(a, ph.t0); b = Math.max(b, ph.t1); } return [a, b]; };
         const declin = tt => -(tonal ? .25 : .5) * tt / T;
         if (tonal && prof.sandhi3) {
@@ -955,6 +967,13 @@
                     pitch.push([a + span * .08, tone[0]], [a + span * .38, tone[0] - .35], [a + span * .92, tone[1] + .2]);
                 }
                 else tone.forEach((lv, n) => pitch.push([a + span * (.1 + .8 * n / (tone.length - 1)), lv]));
+                // a low dipping tone (after sandhi) goes creaky and weak at its bottom: Commons
+                // recordings of Mandarin 214 drop ~10 dB into creak there (Kuang 2017)
+                s._zhLow = !!prof.sandhi3;
+                if (lowDip(s, tone)) {
+                    const lo = tone.indexOf(Math.min(...tone)), fr = .1 + .8 * lo / (tone.length - 1);
+                    creak.push([a + span * Math.max(.05, fr - .2), a + span * Math.min(.97, fr + .18)]);
+                }
             });
             // nuclei with no tone of their own sit mid
             // A toneless syllable among toned ones is a neutral (light) tone: short, and its pitch
@@ -1056,7 +1075,7 @@
         });
         micro.sort((x, y) => x[0] - y[0]);
 
-        return { ipa, parsed, segs, phases, tracks, pitch, micro, T, tonal };
+        return { ipa, parsed, segs, phases, tracks, pitch, micro, creak, T, tonal };
     }
 
     // ------------------------------------------------------------------ sampling
@@ -1146,7 +1165,7 @@
     }
 
     const PAR_A2 = .24, PAR_A3 = .18;
-    const SIB_B2 = -.3, SIB_G = .75;   // sibilant second peak, level match (calibrated against the single-peak band)   // parallel F2/F3 noise gains (calibrated: x ~ -11 dB, k burst ~ -8 dB re vowel)
+    const SIB_B2 = -.1, SIB_G = 1.05;   // sibilant second peak, level match (calibrated against the single-peak band)   // parallel F2/F3 noise gains (calibrated: x ~ -11 dB, k burst ~ -8 dB re vowel)
     function render(pl, opts = {}) {
         const fs = opts.fs || 22050;
         const voice = VOICES[opts.voice] || VOICES.male;
@@ -1168,6 +1187,11 @@
                 for (const f of FIELDS_A.concat(FIELDS_F)) P[f] = valueAt(pl.tracks[f], t, hints[f]);
                 const lv = valueAt(pl.pitch, t, ph) + (pl.micro ? valueAt(pl.micro, t, mh) : 0);
                 cr = P.CR;
+                // creaky stretches of low tones (plan.creak), ramped over 30 ms at each edge
+                if (pl.creak) for (const [c0, c1] of pl.creak) if (t > c0 - 30 && t < c1 + 30) {
+                    const k = Math.min(1, (t - c0 + 30) / 30, (c1 + 30 - t) / 30);
+                    cr = Math.max(cr, .75 * k); P.AV *= 1 - .45 * k;
+                }
                 // flutter (KLSYN88): (FL/50)(F0/100)(sin 12.7 Hz + sin 7.1 Hz + sin 4.7 Hz), in Hz
                 const base = voice.f0 * Math.pow(2, (lv - 3) / 5) * (1 - .3 * cr);
                 const ts = t / 1000;
@@ -1185,7 +1209,7 @@
                 // polarity, as in Klatt's parallel branch) and a steep low side, so the hiss is a
                 // wide band with little energy under ~half its peak, not one tonal peak
                 sib = P.FF >= 2500 && P.FB <= 2000;
-                if (sib) { FR2.set(Math.min(ffc * 1.45, fs * .37), P.FB * 1.6, fs); FHP.set(ffc * .55, fs); }
+                if (sib) { FR2.set(Math.min(ffc * 1.2, fs * .37), P.FB * 1.6, fs); FHP.set(ffc * .55, fs); }
                 PF2.set(P.F2 * vt, Math.max(P.B2, 380), fs); PF3.set(Math.min(P.F3 * vt, fs * .45), Math.max(P.B3, 480), fs);   // noise formants are broad: narrow ones sounded like a soft whistle / f
             }
             // glottal source: LF-like flow derivative shaped by Rd, with jitter and shimmer

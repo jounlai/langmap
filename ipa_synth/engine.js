@@ -762,7 +762,13 @@
                         const A = Object.assign({}, nv, { AV: 0, AH: .55, AF: 0, glot: 1, F1: nv.F1 * .8, B1: 200 });
                         // before a consonant (Khmer tʰmɑː) only a short puff: a full 58 ms sounded like "th-ma"
                         const nxC = segs[i + 1] && segs[i + 1].type === 'C' && !segs[i + 1].pause;
-                        push(nxC ? 22 : ['VE', 'UV'].includes(s.place) ? 70 : 58, nxC ? Object.assign(A, { AH: .4 }) : A, Object.assign({ kind: 'aspiration', edgeF: nxC ? 5 : 8 }, info));
+                        if (nxC) {
+                            // the puff is shaped by the consonant it runs into, not by the vowel: with
+                            // the vowel's open F1 it was heard as "tha" and the m vanished
+                            const c = segs[i + 1], N2 = consTarget(c, nv);
+                            if (c.manner === 'nasal') Object.assign(N2, { F1: 260, B1: 110, FNZ: NASAL_ZERO[c.place] || 1600 });
+                            push(22, Object.assign(N2, { AV: 0, AH: .3, AF: 0, glot: 1 }), Object.assign({ kind: 'aspiration', edgeF: 5 }, info));
+                        } else push(['VE', 'UV'].includes(s.place) ? 70 : 58, A, Object.assign({ kind: 'aspiration', edgeF: 8 }, info));
                     } else if (s.basp) {
                         const A = Object.assign({}, nv, { AV: .5, AH: .4, AF: 0, glot: .5, B1: 180 });
                         push(58, A, Object.assign({ kind: 'breathy release', edgeF: 8 }, info));

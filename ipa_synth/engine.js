@@ -649,11 +649,11 @@
                     } else {
                         const N = NOISE[s.place] || velarNoise(V);
                         // voiced fricatives: real noise over a weaker, damped voice, or they turn into approximants
-                        P.AF = (m === 'latfric' ? .7 : N[2]) * (s.voiced ? .85 : 1);
+                        P.AF = (m === 'latfric' ? .7 : N[2]) * (s.voiced ? (s.place === 'VE' || s.place === 'UV' ? .5 : .65) : 1);
                         if (m === 'latfric') { P.FF = 4500; P.FB = 2500; P.AF = .12 * (s.voiced ? .5 : 1); }
                         if (s.base === 'ɧ') { P.FF = 2000; P.FB = 1500; P.AF = .4; P.cx = 205; P.cy = 228; }
-                        P.AV = s.voiced ? .32 : 0;
-                        if (s.voiced) { P.B1 = 160; P.B2 = 180; P.B3 = 260; }
+                        P.AV = s.voiced ? .4 : 0;
+                        if (s.voiced) { P.B1 = 130; P.B2 = 160; P.B3 = 240; }
                         P.AH = ['BL', 'LD', 'DE', 'PH', 'EP'].includes(s.place) && !s.voiced ? .12 : 0;
                         if (s.ejective) P.glot = -0.5;
                         push((s.voiced ? 88 : s.place === 'VE' || s.place === 'UV' ? 115 : 98) * gem * syl, P, Object.assign({ kind: 'fricative', edgeA: 18 }, info));

@@ -138,7 +138,7 @@ WORDS.sunday = {
     jv: "lord",
     xal: "sun",
     kn: "sun",
-    kpj: "plain",
+    kpj: "lord",
     krl: "holy",
     ks: "sun",
     csb: "rest",
@@ -334,7 +334,7 @@ WORDS.sunday = {
     ykg: "plain",
     ckt: "plain",
     bsk: "sun",
-    ady: "plain",
+    ady: "lord",
     ddo: "plain",
     lbe: "plain",
     dar: "plain",
@@ -460,6 +460,22 @@ WORDS.sunday = {
     enm: "sun",
     lep: "other",
     kmb: "lord",
+    li: "sun",
+    hil: "lord",
+    pwo: "sun",
+    shn: "sun",
+    ca_va: "lord",
+    ja_osa: "sun",
+    ja_aom: "sun",
+    ja_hak: "sun",
+    ja_kyo: "sun",
+    ja_hir: "sun",
+    ko_kp: "sun",
+    ko_bus: "sun",
+    ko_yb: "sun",
+    ko_hg: "sun",
+    ko_jl: "sun",
+    lij_t: "lord",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -860,5 +876,21 @@ WORDS.sunday = {
     enm: ["Sonday", "ˈsundæi̯"],  // From Old English sunnandæg, a calque of Latin dies Solis 'day of the sun'.
     lep: ["ᰕᰧ ᰠᰣᰤᰦᰭ", "mi səʔjak"],  // Literally 'fire day'.
     kmb: ["lumingu", "lumiŋɡu"],  // Adapted from Portuguese domingo 'the Lord's day'.
+    li: ["Saundech", "ˈzaundəç"],  // From Proto-West Germanic *sunnōn dag, 'day of the sun'.
+    hil: ["Dominggo", "doˈmiŋɡo"],
+    pwo: ["အတုၬ", "ʔə təɯʔ"],  // Borrowed from Mon အဒိုတ်, which also means 'sun'.
+    shn: ["တၼင်းၼူၺ်ႇ", "ta˨˦naŋ˥noj˩"],  // From Burmese တနင်္ဂနွေ.
+    ca_va: ["diumenge", "diwˈmeɲʒa"],
+    ja_osa: ["日曜日", "nitɕijoːbi"],
+    ja_aom: ["日曜日", "nitɕijoːbi"],
+    ja_hak: ["日曜日", "nitɕijoːbi"],
+    ja_kyo: ["日曜日", "nitɕijoːbi"],
+    ja_hir: ["日曜日", "nitɕijoːbi"],
+    ko_kp: ["일요일", "iljoil"],
+    ko_bus: ["일요일", "iljoil"],
+    ko_yb: ["일요일", "iljoil"],
+    ko_hg: ["일요일", "iljoil"],
+    ko_jl: ["일요일", "iljoil"],
+    lij_t: ["domenega", "doˈmeneɡa"],
   },
 };

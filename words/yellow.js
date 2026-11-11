@@ -206,7 +206,7 @@ WORDS.yellow = {
     vro: "plain",
     wa: "galbinus",
     cy: "honey",
-    sah: "plain",
+    sah: "sari",
     yi: "ghel",
     zza: "ghel",
     fkv: "plain",
@@ -408,7 +408,7 @@ WORDS.yellow = {
     crs: "galbinus",
     gcf: "galbinus",
     kbd: "plain",
-    mh: "plain",
+    mh: "ghel",
     new: "plain",
     nhe: "plain",
     nog: "sari",
@@ -464,6 +464,13 @@ WORDS.yellow = {
     xng: "sari",
     tzm: "plain",
     mdh: "plain",
+    szl: "ghel",
+    pau: "other",
+    aii: "other",
+    car: "plain",
+    mni: "plain",
+    dtp_kzj: "plain",
+    yo: "plain",
   },
   routes: {
     turmeric: {"color":"#d97706","emoji":"🫚","en":"turmeric","ja":"ウコン","ko":"강황","zh":"姜黄","yue":"黃薑","vi":"nghệ","th":"ขมิ้น","id":"kunyit","hi":"हल्दी","de":"Kurkuma","fr":"le curcuma","it":"la curcuma","es":"la cúrcuma","pt":"a curcuma","ru":"куркума","uk":"куркума","ar":"الكركم","he":"כורכום","sw":"manjano"},
@@ -868,5 +875,12 @@ WORDS.yellow = {
     xng: ["ᠰᠢᠷ᠎ᠠ", "ʃira"],  // Inherited from Proto-Mongolic *sïra, from Turkic *sārïg.
     tzm: ["ⴰⵡⵔⴰⵖ", "awraɣ"],  // From Proto-Berber *a-wăraɣ 'yellow'; no image is recorded for it.
     mdh: ["binaning", "binaniŋ"],  // No image is recorded for it, so it counts as a word of its own.
+    szl: ["żōłty", "ˈʐowtɪ"],
+    pau: ["merir", "məˈrir"],  // From rir 'fallen leaves'.
+    aii: ["ܫܥܘܬܐ", "ʃaʔuːθa"],  // From Aramaic šaʿūṯā; cognate with Hebrew שַׁעֲוָה 'wax'.
+    car: ["ỳki", "hkɰi"],
+    mni: ["ꯍꯡꯒꯥꯝꯄꯥꯜ", "haŋɡampal"],
+    dtp_kzj: ["osilou", "osilou"],
+    yo: ["ofefee", "òféfèé"],
   },
 };

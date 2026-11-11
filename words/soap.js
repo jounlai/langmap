@@ -369,6 +369,7 @@ WORDS.soap = {
     mch: "plain",
     dng: "other",
     tay: "other",
+    rki: "sabao",
   },
   routes: {
     sapo: {"color":"#2563eb","emoji":"🏛️","en":"Latin sapo","ja":"ラテン語 sapo","ko":"라틴어 sapo","zh":"拉丁语 sapo","yue":"拉丁語 sapo","vi":"tiếng Latinh sapo","th":"ละติน sapo","id":"Latin sapo","hi":"लैटिन sapo","de":"lateinisch sapo","fr":"le latin sapo","it":"il latino sapo","es":"el latín sapo","pt":"o latim sapo","ru":"латинское sapo","uk":"латинське sapo","ar":"اللاتينية sapo","he":"הלטינית sapo","sw":"Kilatini sapo"},
@@ -679,5 +680,6 @@ WORDS.soap = {
     mch: ["ajuni", "ahuːni"],  // No image is recorded for it, so it counts as a word of its own.
     dng: ["йизы", "i˦ tsɹ̩"],  // Cognate with Chinese 胰子 yízi.
     tay: ["sekeng", "sekeŋ"],  // Borrowed from Japanese 石鹸 sekken.
+    rki: ["သပုန်", "θəbòʊɴ"],  // Likely from Portuguese sabão.
   },
 };

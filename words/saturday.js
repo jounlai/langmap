@@ -205,7 +205,7 @@ WORDS.saturday = {
     xh: "other",
     sah: "sabbath",
     yi: "sabbath",
-    esu: "plain",
+    esu: "wash",
     zza: "sabbath",
     zu: "other",
     fkv: "wash",
@@ -219,7 +219,7 @@ WORDS.saturday = {
     sjd: "plain",
     mrj: "other",
     mhr: "plain",
-    mdf: "plain",
+    mdf: "other",
     koi: "wash",
     kpv: "wash",
     kca: "plain",
@@ -416,6 +416,14 @@ WORDS.saturday = {
     gor: "sabbath",
     pwo: "unknown",
     obr: "saturn",
+    co: "sabbath",
+    lij: "sabbath",
+    li: "sabbath",
+    shn: "saturn",
+    tsg: "sabbath",
+    tkl: "other",
+    mak: "sabbath",
+    lij_t: "sabbath",
   },
   routes: {
     saturn: {"color":"#7c3aed","emoji":"🪐","en":"Saturn's day","ja":"土星の日","ko":"토성의 날","zh":"土星之日","yue":"土星嘅日","vi":"ngày sao Thổ","th":"วันของดาวเสาร์","id":"hari Saturnus","hi":"शनि का दिन","de":"Saturns Tag","fr":"le jour de Saturne","it":"il giorno di Saturno","es":"el día de Saturno","pt":"o dia de Saturno","ru":"день Сатурна","uk":"день Сатурна","ar":"يوم زحل","he":"יום שבתאי","sw":"siku ya Zohali"},
@@ -774,5 +782,13 @@ WORDS.saturday = {
     gor: ["Sahutu", "sahutu"],  // Borrowed from Malay Sabtu, from Arabic as-sabt 'the Sabbath'.
     pwo: ["ၥံၭၥီၫ", "θeiʔ θauɴ"],  // Borrowed from Mon သ္ၚိသဝ်.
     obr: ["စနိယ်", "tsanij"],  // A learned loan of Sanskrit शनि 'Saturn'.
+    co: ["sabbatu", "ˈsabadu"],
+    lij: ["sàbbo", "ˈsabbu"],
+    li: ["Sammstech", "ˈzamstəç"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    shn: ["ၸၼေႇ", "tɕa˨˦neː˩"],  // From Burmese စနေ, ultimately from Sanskrit śani.
+    tsg: ["Sabtuꞌ", "sabtuʔ"],
+    tkl: ["Aho Tōnai", "ahʲo toːnai"],  // A calque of Samoan Aso Toʻanaʻi, 'day of preparation'.
+    mak: ["Sattu", "ˈsattu"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    lij_t: ["sàbbo", "ˈsabbu"],
   },
 };

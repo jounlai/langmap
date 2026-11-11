@@ -488,6 +488,13 @@ WORDS.wife = {
     fax: "woman",
     dz: "woman",
     mfa: "unknown",
+    gd: "unknown",
+    shn: "unknown",
+    zza: "unknown",
+    mch: "unknown",
+    gmh: "woman",
+    prs: "woman",
+    lij_t: "own",
   },
   routes: {
     woman: {"color":"#db2777","emoji":"👩","en":"the same word as woman","ja":"「女」と同じ語","ko":"‘여자’와 같은 말","zh":"与“女人”同词","yue":"同「女人」同一個詞","vi":"cùng một từ với “đàn bà”","th":"คำเดียวกับ “ผู้หญิง”","id":"sama dengan kata “perempuan”","hi":"‘औरत’ वाला ही शब्द","de":"dasselbe Wort wie Frau","fr":"le même mot que femme","it":"la stessa parola di donna","es":"la misma palabra que mujer","pt":"a mesma palavra que mulher","ru":"то же слово, что «женщина»","uk":"те саме слово, що «жінка»","ar":"الكلمة نفسها لـ«امرأة»","he":"אותה מילה כמו ״אישה״","sw":"neno sawa na mwanamke"},
@@ -919,5 +926,12 @@ WORDS.wife = {
     fax: ["mullel", "muˈʎel"],  // Inherited from Old Galician-Portuguese moller; the same word means woman and wife.
     dz: ["ཨམ་སྲུ", "amsu"],  // The same word means woman and wife.
     mfa: ["bining", "biniŋ"],  // Inherited from Proto-Malayic *bini.
+    gd: ["bean", "b̥ɛ̃n"],
+    shn: ["မေး", "meː˥"],
+    zza: ["veyve", "ˈvɛjvɘ"],
+    mch: ["jinñamo", "hʷinɲamo"],
+    gmh: ["wip", "wiːp"],  // Also 'woman'.
+    prs: ["زن", "zan"],
+    lij_t: ["mogê", "muˈdʒeː"],
   },
 };

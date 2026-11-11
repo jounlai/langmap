@@ -426,6 +426,12 @@ WORDS.week = {
     sgs: "sunday",
     pam: "sunday",
     prg: "plain",
+    yo: "plain",
+    xh: "turn",
+    nci: "seven",
+    new: "other",
+    aa: "other",
+    lij_t: "seven",
   },
   routes: {
     seven: {"color":"#2563eb","emoji":"7️⃣","en":"the number seven","ja":"数の七","ko":"일곱이라는 수","zh":"数字七","yue":"數字七","vi":"con số bảy","th":"เลขเจ็ด","id":"angka tujuh","hi":"सात की संख्या","de":"die Zahl Sieben","fr":"le nombre sept","it":"il numero sette","es":"el número siete","pt":"o número sete","ru":"число семь","uk":"число сім","ar":"العدد سبعة","he":"המספר שבע","sw":"namba saba"},
@@ -793,5 +799,11 @@ WORDS.week = {
     sgs: ["nedielė", "nʲɛdʲieːlʲeː"],  // Borrowed from Old East Slavic недѣлꙗ 'Sunday, week'; the row's Monday panedielis is the day after it.
     pam: ["paruminggu", "pəɾʊˈmiŋɡu"],  // Built from pa- and Duminggu 'Sunday'.
     prg: ["sawayte", "ˈsawajte"],  // Of uncertain origin, perhaps 'the time between two meetings'; Lithuanian savaitė is the same word.
+    yo: ["ọsẹ", "ɔ̀sɛ̀"],
+    xh: ["iveki", "iveːki"],  // Borrowed from Afrikaans week.
+    nci: ["semana", "ʃiˈmaːnaʔ"],
+    new: ["बाः", "baː"],  // Perhaps ultimately from Sanskrit vāra 'day'.
+    aa: ["ayyam", "ajˈjam"],  // Borrowed from Arabic أَيَّام 'days'.
+    lij_t: ["settemaña", "seteˈmaŋa"],
   },
 };

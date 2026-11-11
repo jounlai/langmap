@@ -80,7 +80,7 @@ WORDS.right = {
     hy: "plain",
     ast: "straight",
     az: "good",
-    ban: "plain",
+    ban: "loan",
     ba: "plain",
     eu: "good",
     be: "straight",
@@ -88,7 +88,7 @@ WORDS.right = {
     bg: "dexter",
     my: "plain",
     ca: "straight",
-    ceb: "plain",
+    ceb: "straight",
     ce: "plain",
     crh: "plain",
     cs: "straight",
@@ -132,7 +132,7 @@ WORDS.right = {
     mk: "dexter",
     ms: "plain",
     ml: "plain",
-    mt: "plain",
+    mt: "loan",
     mdr: "plain",
     mdf: "plain",
     mn: "compass",
@@ -156,12 +156,12 @@ WORDS.right = {
     sl: "dexter",
     so: "plain",
     es: "straight",
-    su: "plain",
+    su: "loan",
     sv: "good",
-    tl: "plain",
+    tl: "loan",
     tg: "straight",
     tly: "straight",
-    ta: "plain",
+    ta: "good",
     tt: "plain",
     te: "plain",
     tet: "plain",
@@ -207,7 +207,7 @@ WORDS.right = {
     bxr: "compass",
     evn: "plain",
     gld: "plain",
-    kn: "plain",
+    kn: "good",
     lez: "plain",
     zh: "plain",
     ha: "plain",
@@ -374,7 +374,7 @@ WORDS.right = {
     goh: "dexter",
     lad: "straight",
     szl: "straight",
-    mnw: "plain",
+    mnw: "eat",
     aii: "plain",
     orh: "plain",
     ne: "dexter",
@@ -391,6 +391,11 @@ WORDS.right = {
     skr: "straight",
     bew: "loan",
     scn: "straight",
+    yo: "plain",
+    ki: "eat",
+    tzm: "plain",
+    pcc: "loan",
+    bbl: "plain",
   },
   routes: {
     straight: {"color":"#2563eb","emoji":"📏","en":"'straight, true, correct'","ja":"「まっすぐ、正しい」","ko":"‘곧은, 옳은’","zh":"“直、正确”","yue":"「直、啱」","vi":"“thẳng, đúng”","th":"“ตรง ถูกต้อง”","id":"“lurus, benar”","hi":"‘सीधा, सही’","de":"„gerade, richtig“","fr":"« droit, juste »","it":"“dritto, giusto”","es":"«recto, correcto»","pt":"«reto, certo»","ru":"«прямой, верный»","uk":"«прямий, правильний»","ar":"«مستقيم، صحيح»","he":"״ישר, נכון״","sw":"“nyoofu, sahihi”"},
@@ -706,7 +711,7 @@ WORDS.right = {
     goh: ["zeso", "ˈtseso"],  // From Proto-Germanic tehswô, the old root of Latin dexter.
     lad: ["derecha", "deˈɾetʃa"],  // The same word as the adjective derecha 'straight'.
     szl: ["prawy", "ˈpravɪ"],  // The same word means 'true, correct', like Polish prawy.
-    mnw: ["ပုၚ်", "pɜŋ"],  // No image is recorded for it, so it counts as a word of its own.
+    mnw: ["ပုၚ်", "pɜŋ"],  // From Old Mon pūṅ, from Proto-Mon-Khmer *puuŋ 'cooked rice': the eating hand (Wiktionary).
     aii: ["ܝܲܡܝܼܢܵܐ", "jammiːna"],  // Inherited from Aramaic yammīnā, the Semitic word of Arabic يمين and Hebrew ימין.
     orh: ["aan", "aan"],  // No image is recorded for it, so it counts as a word of its own.
     ne: ["दाहिने", "daine"],  // No etymology is given; it is the word of Hindi दाहिना, from the old root of Latin dexter.
@@ -723,5 +728,10 @@ WORDS.right = {
     skr: ["سڄا", "səʄːaː"],  // Inherited from Prakrit sajja, from Sanskrit sajya; the same word as Punjabi ਸੱਜਾ.
     bew: ["betengen", "bətəŋən"],  // Borrowed from Sundanese or Banyumasan tengen 'right'.
     scn: ["drittu", "ˈɾitːu"],  // From Latin dīrēctus; its first sense is 'straight'.
+    yo: ["ọtun", "ɔ̀tṹ"],
+    ki: ["ũrĩo", "oɾeɔꜜ"],  // Derived from kũrĩa 'to eat'.
+    tzm: ["ⴰⴼⴰⵙⵉ", "afasi"],
+    pcc: ["gvaz", "kʷa˩˩"],  // From Old Chinese 右.
+    bbl: ["ატტიჼ", "atʼːĩ"],
   },
 };

@@ -1,0 +1,3 @@
+# Review 701 — gap fill for 27 recent words (2026-11-12)
+
+A fresh pass over the full kaikki dump (complete translation tables: the old new20/trp.py stopped at the first nested table) filled 148 empty main rows and 881 variety rows (locus-tested copies) across the 20 words of 2026-11-05 and the seven of 2026-11-12 drafted without variety rows. Fixed at install: apostrophes per row (cic, yur, ote, crx, tsg), level-tone spelling to each row's majority (ii, bo, lic, pcc, swi), no stress mark on three monosyllables. Dropped zu right ukudla (it is 'to eat'; the right side is kwesokudla). Known gaps still open: right am; tear ha yo; earthquake ha yo am zu; cotton am; uncle pa yo zu kk uz; soap ha; wife zu; yellow zu; tobacco ha.

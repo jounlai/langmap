@@ -1,0 +1,3 @@
+# Review 700 — route review of the 2026-11-05 words (2026-11-12)
+
+Every cell of the 20 words added on 2026-11-05 whose word has a Wiktionary entry (3,394 of 6,503) was read against the entry's etymology. 42 routes changed, each with the etymology sentence as evidence (~/langmap-work/new1112/rr/out_*.json): sunday 2, maize 1, right 8, tear 3, paper 3 (ga, pau, gd papyrus), money 2, window 5, earthquake 2, saturday 2, lion 3, cotton 9, yellow 2. Twenty, camel, uncle, soap, thousand, wife, week, tobacco unchanged. Hedged etymologies left as they were. Open: yellow's Persian زرد is `gold` for fa/tg/sd but `ghel` for ckb/bal/zza/ku — needs one policy.

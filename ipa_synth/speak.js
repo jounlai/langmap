@@ -11,7 +11,7 @@
  */
 (function () {
     'use strict';
-    const V = '?v=45';
+    const V = '?v=46';
     const BASE = '/ipa_synth/';
     const STR = {
         en: { open: 'Pronunciation', close: 'Close', hintHover: 'Point at a word on the map, or in a language panel, to hear it.', hintTap: 'Tap a word on the map to hear it; tap it again to open its language.',
@@ -58,12 +58,12 @@
     .speak-panel .sp-word { font-size: 20px; font-weight: 600; word-break: break-word; }
     .speak-panel .sp-ipa { font: 15px "Doulos SIL", "Charis SIL", "Gentium Plus", "Noto Sans", serif; color: #444; word-break: break-word; }
     .speak-panel .sp-name { color: #6b6b6b; font-size: 12px; margin-top: 2px; }
-    .speak-panel .sp-spec { display: block; width: 100%; height: 70px; margin-top: 6px; cursor: pointer; }
+    .speak-panel .sp-spec { display: block; width: 100%; height: 72px; margin-top: 10px; cursor: pointer; }
     .speak-panel .sp-spec[hidden], .speak-panel .sp-hint[hidden] { display: none; }
-    .speak-panel .sp-hint { color: #555; margin-top: 6px; }
-    .speak-panel .sp-row { display: flex; gap: 6px; margin-top: 6px; align-items: center; }
+    .speak-panel .sp-hint { color: #555; margin-top: 8px; }
+    .speak-panel .sp-row { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; align-items: center; }
     .speak-panel .sp-row select, .speak-panel .sp-row button { font: inherit; font-size: 12px; padding: 3px 8px; border: 1px solid #ccc; border-radius: 8px; background: #fff; color: #222; cursor: pointer; }
-    .speak-panel .sp-row select { width: auto; min-width: 0; max-width: 50%; flex: 0 1 auto; height: auto; }
+    .speak-panel .sp-row select { width: auto; min-width: 0; flex: 0 1 auto; height: auto; }
     .speak-panel .sp-row button { width: auto; flex: 0 0 auto; white-space: nowrap; }
     .speak-panel .sp-note { color: #8a8a8a; font-size: 10.5px; margin-top: 6px; }
     .lang-label.sp-speaking, .globe-label.sp-speaking { outline: 2px solid #1a73e8; outline-offset: 2px; border-radius: 4px; }
@@ -77,7 +77,8 @@
         .speak-panel .sp-ipa { font-size: 13px; }
         .speak-panel .sp-name { font-size: 11px; margin-top: 0; }
         .speak-panel .sp-hint { margin-top: 4px; font-size: 11px; }
-        .speak-panel .sp-row { margin-top: 4px; }
+        .speak-panel .sp-row { margin-top: 5px; gap: 4px; }
+        .speak-panel .sp-row select, .speak-panel .sp-row button { font-size: 11px; padding: 2px 6px; }
         .speak-panel .sp-close { width: 28px; height: 28px; }
         .speak-panel .sp-note { display: none; }
         .speak-panel .sp-spec { height: 50px; margin-top: 4px; }
@@ -109,9 +110,10 @@
         panel = document.createElement('div');
         panel.className = 'speak-panel'; panel.hidden = true; panel.setAttribute('role', 'dialog'); panel.setAttribute('aria-modal', 'false');
         panel.innerHTML = '<div class="sp-head"><span class="sp-title"></span><button type="button" class="sp-close">×</button></div>'
-            + '<div class="sp-body"><canvas width="128" height="160" aria-hidden="true"></canvas><div class="sp-text"><div class="sp-word" dir="auto"></div><div class="sp-ipa" dir="ltr"></div><div class="sp-name"></div></div></div>'
+            + '<div class="sp-body"><canvas width="128" height="160" aria-hidden="true"></canvas><div class="sp-text"><div class="sp-word" dir="auto"></div><div class="sp-ipa" dir="ltr"></div><div class="sp-name"></div>'
+            + '<div class="sp-row"><select class="sp-voice"><option value="female"></option><option value="male"></option><option value="child"></option></select><button type="button" class="sp-replay"></button></div></div></div>'
             + '<canvas class="sp-spec" role="img" hidden></canvas>'
-            + '<div class="sp-hint"></div><div class="sp-row"><select class="sp-voice"><option value="female"></option><option value="male"></option><option value="child"></option></select><button type="button" class="sp-replay"></button></div>'
+            + '<div class="sp-hint"></div>'
             + '<div class="sp-note"></div>';
         document.body.appendChild(panel);
         canvas = panel.querySelector('canvas');
@@ -292,23 +294,22 @@
         const c = specCv.getContext('2d'); c.setTransform(dpr, 0, 0, dpr, 0, 0);
         const dark = isDark(), ink = dark ? '#e8e6e3' : '#333', line = dark ? '#3a3d42' : '#e2ddd4';
         c.clearRect(0, 0, W, H);
-        const bw = Math.round(W * .3), gx = bw + 6, gw = W - gx, segH = H >= 60 ? 15 : 12, sh = H - segH;
-        c.fillStyle = dark ? '#16181b' : '#fff'; c.fillRect(gx, 0, gw, H);
-        c.strokeStyle = line; c.lineWidth = 1; c.strokeRect(gx + .5, .5, gw - 1, H - 1);
+        const bw = Math.round(W * .3), gx = bw + 8, gw = W - gx, segH = H >= 60 ? 15 : 12, sh = H - segH;
+        c.fillStyle = dark ? '#16181b' : '#fff'; c.fillRect(0, 0, bw, H); c.fillRect(gx, 0, gw, H);
+        c.strokeStyle = line; c.lineWidth = 1; c.strokeRect(.5, .5, bw - 1, H - 1); c.strokeRect(gx + .5, .5, gw - 1, H - 1);
         c.beginPath(); c.moveTo(gx, sh + .5); c.lineTo(W, sh + .5); c.stroke();
-        c.beginPath(); c.moveTo(0, H - .5); c.lineTo(bw, H - .5); c.stroke();
         if (!spec || !plan) return;
         // bars: thin, one colour, fast rise and gentle fall
         const now = performance.now(), dt = Math.min(100, now - (spec.last || now)); spec.last = now;
         const fr = t != null ? spec.frames[Math.min(spec.frames.length - 1, Math.floor(t / spec.hop))] : null;
-        const step = bw / NB;
+        const step = (bw - 6) / NB, bh = H - 6;
         c.fillStyle = dark ? 'rgba(110,168,236,.75)' : 'rgba(46,111,184,.55)';
         for (let k = 0; k < NB; k++) {
             let m = -200; if (fr) for (let b = spec.edges[k]; b <= Math.max(spec.edges[k], spec.edges[k + 1] - 1) && b < spec.bins; b++) m = Math.max(m, fr[b]);
             const target = fr ? Math.max(0, Math.min(1, (m - (spec.top - 60)) / 60)) : 0;
             spec.lev[k] = target > spec.lev[k] ? target : Math.max(target, spec.lev[k] - dt / 350);
-            const h = spec.lev[k] * (H - 3);
-            if (h > .5) c.fillRect(k * step, H - 1 - h, Math.max(1, step - 1), h);
+            const h = spec.lev[k] * bh;
+            if (h > .5) c.fillRect(3 + k * step, H - 3 - h, Math.max(1, step - 1), h);
         }
         // spectrogram
         if (!spec.img || spec.img.dark !== dark) spec.img = gramImage(spec, dark);

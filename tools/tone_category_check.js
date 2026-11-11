@@ -45,6 +45,36 @@ const MC = {
   '綠':['R','c'], '灰':['P','q'], '雞':['P','q'], '豬':['P','q'], '蛇':['P','z'], '牙':['P','c'], '錢':['P','z'], '門':['P','c'], '有':['S','c'],
   // tier 6 (2026-10-06)
   '鐵':['R','q'],
+  // tier 7 (2026-11-12)
+  '百':['R','q'],
+  '千':['P','q'],
+  '萬':['Q','c'],
+  '鼠':['S','q'],
+  '兔':['Q','q'],
+  '猴':['P','z'],
+  '骨':['R','q'],
+  '舌':['R','z'],
+  '毛':['P','c'],
+  '男':['P','c'],
+  '父':['S','z'],
+  '母':['S','c'],
+  '紫':['S','q'],
+  '金':['P','q'],
+  '高':['P','q'],
+  '新':['P','q'],
+  '好':['S','q'],
+  '少':['S','q'],
+  '前':['P','z'],
+  '後':['S','z'],
+  '言':['P','c'],
+  '春':['P','q'],
+  '夏':['Q','z'],
+  '秋':['P','q'],
+  '冬':['P','q'],
+  '朝':['P','q'],
+  '夜':['Q','c'],
+  '今':['P','q'],
+  '時':['P','z'],
   // 2026-10-02: the 18 characters added to the Han Map.
   '我':['S','c'],   '大':['Q','z'],   '白':['R','z'],   '茶':['P','z'],   '飛':['P','q'],   '無':['P','c'],
   '兒':['P','c'],   '黃':['P','z'],   '家':['P','q'],   '生':['P','q'],   '不':['R','q'],   '青':['P','q'],
@@ -188,7 +218,23 @@ const EXCEPTIONS = new Set([
   // Taishanese 陰入 splits 55/33; 鐵 is het 33 in MCPDict 台山 and Wiktionary (2026-10-06)
   'yue_ts|鐵',
   'zh_km|不',
-  'zh_lz|無',]);
+  'zh_lz|無',
+  // tier 7 (2026-11-12): source-given irregulars, each re-read in the row's own table.
+  // 夏 文讀 / 母 in Wu leave 陽去/陽上 as MCPDict lists them (上海 ɕia5 muᵝ1, 蘇州 ɕiɑ3);
+  // 毛 is 陰平 in Hakka (梅縣 mau1, 臺灣四縣/海陸 mo1) and in 宜春 Gan (mau1);
+  // Cantonese 舌 sit3 is 中入 (香港 sit3/sit6, 廣州 sit7b with sit8 又音);
+  // 兔 is 上 in 南昌 (tʰu3) and 陽上 in 東莞 (tʰɐu4); 臨桂兩江 百 pei3 (上);
+  // 金華 千 tsʰia5/tsʰiã5 in 陰去 (both layers, like 犬 左 above); Taishan 百 pak8
+  // for the numeral (一~), pak7 for 百貨 — the 陰入 split as with 鐵.
+  // Old cells newly outvoted by 舌: 白 in 忻州 pæ2, 婁底 pe2, 臨桂兩江 pʰei6 (tables agree).
+  // 高 in Singapore Hokkien is 訓讀（懸） kuân (Wiktionary gives no literary reading).
+  'wuu|夏', 'wuu|母', 'wuu_sz|夏',
+  'hak_cn|毛', 'hak_mz|毛', 'hak_hl|毛', 'hak_tw|毛', 'gan_yc|毛',
+  'yue|舌', 'yue_hk|舌', 'yue_mo|舌',
+  'gan|兔', 'yue_dg|兔', 'cnp_gl|百', 'wuu_jh|千', 'yue_ts|百',
+  'cjy_xz|白', 'hsn_ld|白', 'cnp_gl|白',
+  'nan_sg|高',
+]);
 
 // --- 5. For each variety, group chars by MC cell, find majority tone, flag outliers.
 const candidates = [];

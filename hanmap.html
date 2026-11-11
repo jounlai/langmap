@@ -32,12 +32,12 @@
     <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HanMap — Han Character Pronunciation Atlas (105 chars × 110 languages)</title>
-    <meta name="description" content="Interactive Sinosphere atlas of 105 Han characters (一二三, 日月山, 龍虎犬, 人手足, 上下中, 行来去, 大白黑, 我你家…) pronounced across 110 languages and variants — Mandarin, Cantonese, Min Nan/Hokkien (POJ), Hakka, Wu/Shanghainese, Japanese on-yomi (呉音/漢音/唐音) and kun-yomi, Sino-Korean (한자음), Sino-Vietnamese (Hán-Việt), plus Old Chinese, Middle Chinese, Tang and Song reconstructions — with IPA, Pinyin, Jyutping, Hangul.">
+    <title>HanMap — Han Character Pronunciation Atlas (134 chars × 110 languages)</title>
+    <meta name="description" content="Interactive Sinosphere atlas of 134 Han characters (一二三, 日月山, 龍虎犬, 人手足, 上下中, 行来去, 大白黑, 我你家…) pronounced across 110 languages and variants — Mandarin, Cantonese, Min Nan/Hokkien (POJ), Hakka, Wu/Shanghainese, Japanese on-yomi (呉音/漢音/唐音) and kun-yomi, Sino-Korean (한자음), Sino-Vietnamese (Hán-Việt), plus Old Chinese, Middle Chinese, Tang and Song reconstructions — with IPA, Pinyin, Jyutping, Hangul.">
     <meta name="keywords" content="Han characters, kanji, hanja, hán tự, Han character pronunciation, IPA, Sinosphere, Sino-Japanese, Sino-Korean, Sino-Vietnamese, on-yomi, kun-yomi, 呉音, 漢音, 唐音, Jyutping, Pinyin, POJ, Middle Chinese, Old Chinese, historical phonology">
     <meta name="author" content="Jounlai Cho, Heuron Inc.">
-    <meta property="og:title" content="HanMap — Han Character Pronunciation Atlas (105 chars × 110 languages)">
-    <meta property="og:description" content="105 Han characters × 110 languages and variants — Mandarin, Cantonese, Min, Hakka, Wu, Japanese on/kun, Korean, Vietnamese, plus Old Chinese, Middle Chinese, Tang and Song reconstructions.">
+    <meta property="og:title" content="HanMap — Han Character Pronunciation Atlas (134 chars × 110 languages)">
+    <meta property="og:description" content="134 Han characters × 110 languages and variants — Mandarin, Cantonese, Min, Hakka, Wu, Japanese on/kun, Korean, Vietnamese, plus Old Chinese, Middle Chinese, Tang and Song reconstructions.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://langmaps.com/hanmap.html">
     <meta property="og:image" content="https://langmaps.com/ogp-hanmap.png">
@@ -51,7 +51,7 @@
     <meta property="og:locale:alternate" content="zh_CN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="HanMap — Han Character Pronunciation Atlas">
-    <meta name="twitter:description" content="105 Han characters × 110 languages and variants across the Sinosphere — IPA, Pinyin, Jyutping, POJ, Hangul, Hán-Việt, on/kun yomi.">
+    <meta name="twitter:description" content="134 Han characters × 110 languages and variants across the Sinosphere — IPA, Pinyin, Jyutping, POJ, Hangul, Hán-Việt, on/kun yomi.">
     <meta name="twitter:image" content="https://langmaps.com/ogp-hanmap.png">
     <meta name="twitter:creator" content="@jounlai">
     <link rel="canonical" href="https://langmaps.com/hanmap.html">
@@ -71,7 +71,7 @@
         "@type": "WebPage",
         "name": "HanMap: Han Character Pronunciation Atlas",
         "url": "https://langmaps.com/hanmap.html",
-        "description": "105 Han characters in 110 Sinosphere language and variant pronunciations — IPA, Pinyin, Jyutping, Sino-Korean, Sino-Vietnamese, Old and Middle Chinese reconstructions.",
+        "description": "134 Han characters in 110 Sinosphere language and variant pronunciations — IPA, Pinyin, Jyutping, Sino-Korean, Sino-Vietnamese, Old and Middle Chinese reconstructions.",
         "isPartOf": {"@id": "https://langmaps.com/#website"},
         "inLanguage": ["ja", "ko", "zh", "yue", "vi", "th", "id", "hi", "en", "de", "fr", "it", "es", "pt", "ru", "uk", "ar", "he", "sw"]
     }
@@ -360,6 +360,31 @@
             font-display: swap;
             src: url('fonts/HanaMinExC-hanmap.woff2') format('woff2');
             unicode-range: U+2B233;
+        }
+        /* tier 7 (2026-11-12): Nôm and Sawndip glyphs of the 29 new characters */
+        @font-face {
+            font-family: 'Nom Serif Hanmap Subset';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url('fonts/HanaMinB-hanmap4.woff2') format('woff2');
+            unicode-range: U+201D1, U+209B3, U+23B5C, U+24832, U+24CC6, U+2A7DE, U+2BD3B, U+2C334, U+2D961, U+2DBD3, U+2EABC;
+        }
+        @font-face {
+            font-family: 'Nom Serif Hanmap Subset';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url('fonts/NomNaTong-hanmap2.woff2') format('woff2');
+            unicode-range: U+3D4B;
+        }
+        @font-face {
+            font-family: 'Nom Serif Hanmap Subset';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url('fonts/PlangothicP2-hanmap2.woff2') format('woff2');
+            unicode-range: U+30860;
         }
         /* Desktop: the chrome toggle is moved out of the header by script;
            hidden there until then so the nav does not slide (rally r5). */
@@ -3617,7 +3642,7 @@
     </script>
     <script src="wordmap_data.js?v=361"></script>
     <script src="lang_attention.js?v=5"></script>
-    <script src="hanmap_data.js?v=218"></script>
+    <script src="hanmap_data.js?v=219"></script>
     <script>
         // Hanmap stubs: replace the per-word loader. wordmap.html loads
         // ~20 individual JS files under words/<id>.js (one per concept) and
@@ -5775,7 +5800,7 @@
         // form, or a digit tells a CJK reader nothing. A different character
         // (走 = 跑, 豬 = 豚) is a real gloss and stays (r24; r23 hid every
         // single-character gloss).
-        const _HM_VARIANTS = {'鐵':'鐵铁鉄','龍':'龍龙竜','馬':'馬马','雞':'雞鸡鶏','豬':'豬猪','貓':'貓猫','鳥':'鳥鸟','魚':'魚鱼','頭':'頭头','兒':'兒儿児','門':'門门','飯':'飯饭','錢':'錢钱銭','來':'來来','飛':'飛飞','見':'見见','聞':'聞闻','飲':'飲饮','紅':'紅红','黃':'黃黄','綠':'綠绿緑','長':'長长','遠':'遠远','熱':'熱热','東':'東东','無':'無无','個':'個个箇','気':'気氣','黑':'黑黒'};
+        const _HM_VARIANTS = {'鐵':'鐵铁鉄','龍':'龍龙竜','馬':'馬马','雞':'雞鸡鶏','豬':'豬猪','貓':'貓猫','鳥':'鳥鸟','魚':'魚鱼','頭':'頭头','兒':'兒儿児','門':'門门','飯':'飯饭','錢':'錢钱銭','來':'來来','飛':'飛飞','見':'見见','聞':'聞闻','飲':'飲饮','紅':'紅红','黃':'黃黄','綠':'綠绿緑','長':'長长','遠':'遠远','熱':'熱热','東':'東东','無':'無无','個':'個个箇','気':'気氣','黑':'黑黒','萬':'萬万','後':'後后','時':'時时','兔':'兔兎'};
         window.__hmGlossIsEcho = function (ch, g) {
             g = String(g || ''); ch = String(ch || '');
             if (!g) return false;
@@ -7210,6 +7235,8 @@
             '远':'遠','饭':'飯',
             // 2026-10-06: tier 6
             '铁':'鐵',
+            // tier 7 (2026-11-12)
+            '万':'萬','后':'後','时':'時',
             // tier 5
             '绿':'綠','鸡':'雞','猪':'豬','钱':'錢',
         };

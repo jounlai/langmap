@@ -11,17 +11,17 @@
  */
 (function () {
     'use strict';
-    const V = '?v=44';
+    const V = '?v=45';
     const BASE = '/ipa_synth/';
     const STR = {
         en: { open: 'Pronunciation', close: 'Close', hintHover: 'Point at a word on the map, or in a language panel, to hear it.', hintTap: 'Tap a word on the map to hear it; tap it again to open its language.',
-              note: 'Synthesized from the IPA by rule: an approximation, not checked by native speakers.', unlock: 'Click anywhere once to turn the sound on.', none: 'No IPA for this word.', male: 'male', female: 'female', child: 'child', replay: 'Replay', spec: 'Tap to switch: frequency bars / spectrogram' },
+              note: 'Synthesized from the IPA by rule: an approximation, not checked by native speakers.', unlock: 'Click anywhere once to turn the sound on.', none: 'No IPA for this word.', male: 'male', female: 'female', child: 'child', replay: 'Replay', spec: 'Left: loudness by pitch band. Right: spectrogram 0-5 kHz (bands are formants), pitch in red, sounds below.' },
         ja: { open: '発音', close: '閉じる', hintHover: '地図や言語の詳細の単語にマウスを重ねると読み上げます。', hintTap: '地図の単語をタップすると読み上げ、もう一度タップすると言語の詳細が開きます。',
-              note: 'IPAから規則で合成した近似音です。ネイティブによる確認はしていません。', unlock: '音を出すには、まず画面を一度クリックしてください。', none: 'この単語にはIPAがありません。', male: '男声', female: '女声', child: '子ども', replay: 'もう一度', spec: 'タップで切り替え：周波数バー／スペクトログラム' },
+              note: 'IPAから規則で合成した近似音です。ネイティブによる確認はしていません。', unlock: '音を出すには、まず画面を一度クリックしてください。', none: 'この単語にはIPAがありません。', male: '男声', female: '女声', child: '子ども', replay: 'もう一度', spec: '左：周波数ごとの強さ。右：スペクトログラム 0〜5 kHz（横の帯がフォルマント）、赤線は声の高さ、下は音の並び。' },
         ko: { open: '발음', close: '닫기', hintHover: '지도나 언어 정보의 단어에 마우스를 올리면 읽어 줍니다.', hintTap: '지도의 단어를 누르면 읽어 주고, 한 번 더 누르면 언어 정보가 열립니다.',
-              note: 'IPA를 규칙으로 합성한 근사음입니다. 원어민 확인은 거치지 않았습니다.', unlock: '소리를 켜려면 화면을 한 번 클릭하세요.', none: '이 단어에는 IPA가 없습니다.', male: '남성', female: '여성', child: '어린이', replay: '다시 듣기', spec: '눌러서 전환: 주파수 막대 / 스펙트로그램' },
+              note: 'IPA를 규칙으로 합성한 근사음입니다. 원어민 확인은 거치지 않았습니다.', unlock: '소리를 켜려면 화면을 한 번 클릭하세요.', none: '이 단어에는 IPA가 없습니다.', male: '남성', female: '여성', child: '어린이', replay: '다시 듣기', spec: '왼쪽: 주파수별 세기. 오른쪽: 스펙트로그램 0~5 kHz(가로 띠가 포먼트), 빨간 선은 음높이, 아래는 소리 순서.' },
         zh: { open: '发音', close: '关闭', hintHover: '将鼠标移到地图或语言详情中的词语上即可朗读。', hintTap: '点按地图上的词语即可朗读，再点一次打开该语言的详情。',
-              note: '根据 IPA 按规则合成的近似音，未经母语者核对。', unlock: '请先点击一下页面以开启声音。', none: '这个词没有 IPA。', male: '男声', female: '女声', child: '童声', replay: '重播', spec: '点按切换：频率条 / 语谱图' },
+              note: '根据 IPA 按规则合成的近似音，未经母语者核对。', unlock: '请先点击一下页面以开启声音。', none: '这个词没有 IPA。', male: '男声', female: '女声', child: '童声', replay: '重播', spec: '左：各频段的强度。右：语谱图 0–5 kHz（横带为共振峰），红线为音高，下方为音段。' },
     };
     const lang = () => {
         const l = (document.documentElement.lang || 'en').toLowerCase();
@@ -31,7 +31,7 @@
     const canHover = () => window.matchMedia && matchMedia('(hover: hover) and (pointer: fine)').matches;
 
     let open = false, loaded = null, AC = null, src = null, plan = null, startAt = 0, raf = 0, hoverTimer = 0, lastEl = null;
-    let panel, canvas, specCv, spec = null, specMode = 'bars', elWord, elIpa, elName, elHint, btn, voiceSel;
+    let panel, canvas, specCv, spec = null, elWord, elIpa, elName, elHint, btn, voiceSel;
 
     const css = `
     .speak-fab { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; min-width: 44px;
@@ -58,7 +58,8 @@
     .speak-panel .sp-word { font-size: 20px; font-weight: 600; word-break: break-word; }
     .speak-panel .sp-ipa { font: 15px "Doulos SIL", "Charis SIL", "Gentium Plus", "Noto Sans", serif; color: #444; word-break: break-word; }
     .speak-panel .sp-name { color: #6b6b6b; font-size: 12px; margin-top: 2px; }
-    .speak-panel .sp-spec { display: block; width: 100%; height: 56px; margin-top: 6px; border-radius: 8px; background: #10141c; cursor: pointer; }
+    .speak-panel .sp-spec { display: block; width: 100%; height: 70px; margin-top: 6px; cursor: pointer; }
+    .speak-panel .sp-spec[hidden], .speak-panel .sp-hint[hidden] { display: none; }
     .speak-panel .sp-hint { color: #555; margin-top: 6px; }
     .speak-panel .sp-row { display: flex; gap: 6px; margin-top: 6px; align-items: center; }
     .speak-panel .sp-row select, .speak-panel .sp-row button { font: inherit; font-size: 12px; padding: 3px 8px; border: 1px solid #ccc; border-radius: 8px; background: #fff; color: #222; cursor: pointer; }
@@ -79,7 +80,7 @@
         .speak-panel .sp-row { margin-top: 4px; }
         .speak-panel .sp-close { width: 28px; height: 28px; }
         .speak-panel .sp-note { display: none; }
-        .speak-panel .sp-spec { height: 38px; margin-top: 4px; }
+        .speak-panel .sp-spec { height: 50px; margin-top: 4px; }
     }
     @media (prefers-color-scheme: dark) {
         html[data-theme="dark"] .speak-panel { background: rgba(33,36,40,.96); color: #e8e6e3; border-color: #3a3d42; }
@@ -109,18 +110,13 @@
         panel.className = 'speak-panel'; panel.hidden = true; panel.setAttribute('role', 'dialog'); panel.setAttribute('aria-modal', 'false');
         panel.innerHTML = '<div class="sp-head"><span class="sp-title"></span><button type="button" class="sp-close">×</button></div>'
             + '<div class="sp-body"><canvas width="128" height="160" aria-hidden="true"></canvas><div class="sp-text"><div class="sp-word" dir="auto"></div><div class="sp-ipa" dir="ltr"></div><div class="sp-name"></div></div></div>'
-            + '<canvas class="sp-spec" width="512" height="112" role="img"></canvas>'
+            + '<canvas class="sp-spec" role="img" hidden></canvas>'
             + '<div class="sp-hint"></div><div class="sp-row"><select class="sp-voice"><option value="female"></option><option value="male"></option><option value="child"></option></select><button type="button" class="sp-replay"></button></div>'
             + '<div class="sp-note"></div>';
         document.body.appendChild(panel);
         canvas = panel.querySelector('canvas');
         specCv = panel.querySelector('.sp-spec');
-        try { specMode = localStorage.getItem('lm_speak_spec') === 'gram' ? 'gram' : 'bars'; } catch (_) {}
-        specCv.addEventListener('click', () => {
-            specMode = specMode === 'bars' ? 'gram' : 'bars';
-            try { localStorage.setItem('lm_speak_spec', specMode); } catch (_) {}
-            drawSpec(src && plan ? Math.max(0, (AC.currentTime - startAt) * 1000) : null);
-        });
+        specCv.addEventListener('click', () => { if (lastEl) say(lastEl); });
         elWord = panel.querySelector('.sp-word'); elIpa = panel.querySelector('.sp-ipa'); elName = panel.querySelector('.sp-name'); elHint = panel.querySelector('.sp-hint');
         voiceSel = panel.querySelector('.sp-voice');
         try { voiceSel.value = localStorage.getItem('lm_speak_voice') || 'female'; } catch (_) {}
@@ -258,67 +254,85 @@
             }
         }
     }
+    const NB = 40;   // bar bands
     function analyse(x, fs) {
         const N = 512, hop = Math.round(fs * .005), bins = Math.min(N / 2, Math.round(7500 / fs * N));
         const win = new Float32Array(N); for (let i = 0; i < N; i++) win[i] = .5 - .5 * Math.cos(2 * Math.PI * i / N);
         const frames = [], re = new Float32Array(N), im = new Float32Array(N);
         let top = -200;
         for (let s0 = -N / 2; s0 < x.length - N / 2; s0 += hop) {
-            for (let i = 0; i < N; i++) { const v = x[s0 + i]; re[i] = (v || 0) * win[i]; im[i] = 0; }
+            for (let i = 0; i < N; i++) { const v = (x[s0 + i] || 0) - .95 * (x[s0 + i - 1] || 0); re[i] = v * win[i]; im[i] = 0; }   // pre-emphasis, as on the synth page
             fft(re, im);
             const f = new Float32Array(bins);
             for (let b = 0; b < bins; b++) { f[b] = 10 * Math.log10(re[b] * re[b] + im[b] * im[b] + 1e-10); if (f[b] > top) top = f[b]; }
             frames.push(f);
         }
-        // bar bands: 24, log-spaced 90-7500 Hz
-        const edges = []; for (let k = 0; k <= 24; k++) edges.push(Math.max(1, Math.round(90 * Math.pow(7500 / 90, k / 24) / fs * N)));
-        return { frames, top, hop: hop / fs * 1000, bins, edges, img: null, lev: new Float32Array(24), cap: new Float32Array(24), last: 0 };
+        // bar bands: NB, log-spaced 90-7500 Hz
+        const edges = []; for (let k = 0; k <= NB; k++) edges.push(Math.max(1, Math.round(90 * Math.pow(7500 / 90, k / NB) / fs * N)));
+        return { frames, top, hop: hop / fs * 1000, bins, gbins: Math.min(bins, Math.round(5000 / fs * N)), edges, img: null, lev: new Float32Array(NB), last: 0 };
     }
-    const heat = v => {   // 0..1 → dark blue, violet, orange, pale yellow
-        const st = [[16, 20, 28], [40, 50, 140], [160, 60, 160], [240, 120, 60], [255, 240, 170]];
-        const x = Math.max(0, Math.min(1, v)) * 4, i = Math.min(3, Math.floor(x)), f = x - i;
-        return st[i].map((c, k) => Math.round(c + (st[i + 1][k] - c) * f));
-    };
-    function gramImage(sp, W, H) {
-        const img = new ImageData(W, H), d = img.data, n = sp.frames.length;
-        for (let x = 0; x < W; x++) {
-            const fr = sp.frames[Math.min(n - 1, Math.floor(x / W * n))];
-            for (let y = 0; y < H; y++) {
-                const b = Math.min(sp.bins - 1, Math.floor((1 - y / H) * sp.bins));
-                const [r, g, bl] = heat((fr[b] - (sp.top - 55)) / 55), o = (y * W + x) * 4;
-                d[o] = r; d[o + 1] = g; d[o + 2] = bl; d[o + 3] = 255;
-            }
+    const isDark = () => document.documentElement.getAttribute('data-theme') === 'dark';
+    // spectrogram 0-5 kHz in grey, as on the IPA synth page; one pixel column per frame, scaled when drawn
+    function gramImage(sp, dark) {
+        const w = sp.frames.length, h = sp.gbins, off = document.createElement('canvas'); off.width = w; off.height = h;
+        const o = off.getContext('2d'), img = o.createImageData(w, h);
+        for (let x = 0; x < w; x++) for (let b = 0; b < h; b++) {
+            const v = Math.max(0, Math.min(1, (sp.frames[x][b] - sp.top + 60) / 60)), g = dark ? Math.round(v * 235) : Math.round(255 - v * 255);
+            const q = ((h - 1 - b) * w + x) * 4; img.data[q] = img.data[q + 1] = img.data[q + 2] = g; img.data[q + 3] = 255;
         }
-        return img;
+        o.putImageData(img, 0, 0); return { c: off, dark };
     }
+    // the strip: quiet bars on the left, the word's spectrogram with pitch and segments on the right.
     // t: ms into the word, or null when nothing is playing
     function drawSpec(t) {
-        if (!specCv) return;
-        const c = specCv.getContext('2d'), W = specCv.width, H = specCv.height;
-        c.fillStyle = '#10141c'; c.fillRect(0, 0, W, H);
-        if (!spec) return;
+        if (!specCv || specCv.hidden) return;
+        const dpr = window.devicePixelRatio || 1, W = specCv.clientWidth, H = specCv.clientHeight;
+        if (!W || !H) return;
+        if (specCv.width !== Math.round(W * dpr) || specCv.height !== Math.round(H * dpr)) { specCv.width = Math.round(W * dpr); specCv.height = Math.round(H * dpr); }
+        const c = specCv.getContext('2d'); c.setTransform(dpr, 0, 0, dpr, 0, 0);
+        const dark = isDark(), ink = dark ? '#e8e6e3' : '#333', line = dark ? '#3a3d42' : '#e2ddd4';
+        c.clearRect(0, 0, W, H);
+        const bw = Math.round(W * .3), gx = bw + 6, gw = W - gx, segH = H >= 60 ? 15 : 12, sh = H - segH;
+        c.fillStyle = dark ? '#16181b' : '#fff'; c.fillRect(gx, 0, gw, H);
+        c.strokeStyle = line; c.lineWidth = 1; c.strokeRect(gx + .5, .5, gw - 1, H - 1);
+        c.beginPath(); c.moveTo(gx, sh + .5); c.lineTo(W, sh + .5); c.stroke();
+        c.beginPath(); c.moveTo(0, H - .5); c.lineTo(bw, H - .5); c.stroke();
+        if (!spec || !plan) return;
+        // bars: thin, one colour, fast rise and gentle fall
         const now = performance.now(), dt = Math.min(100, now - (spec.last || now)); spec.last = now;
-        if (specMode === 'gram') {
-            if (!spec.img) spec.img = gramImage(spec, W, H);
-            c.putImageData(spec.img, 0, 0);
-            if (t != null && plan) {
-                const x = Math.min(W - 1, t / (spec.frames.length * spec.hop) * W);
-                c.fillStyle = 'rgba(255,255,255,.85)'; c.fillRect(x - 1, 0, 2, H);
-            }
-            return;
-        }
         const fr = t != null ? spec.frames[Math.min(spec.frames.length - 1, Math.floor(t / spec.hop))] : null;
-        const nb = 24, gap = 3, bw = (W - gap * (nb + 1)) / nb;
-        for (let k = 0; k < nb; k++) {
+        const step = bw / NB;
+        c.fillStyle = dark ? 'rgba(110,168,236,.75)' : 'rgba(46,111,184,.55)';
+        for (let k = 0; k < NB; k++) {
             let m = -200; if (fr) for (let b = spec.edges[k]; b <= Math.max(spec.edges[k], spec.edges[k + 1] - 1) && b < spec.bins; b++) m = Math.max(m, fr[b]);
             const target = fr ? Math.max(0, Math.min(1, (m - (spec.top - 60)) / 60)) : 0;
-            // fast attack, slow fall; caps hang, then drop
-            spec.lev[k] = target > spec.lev[k] ? target : Math.max(target, spec.lev[k] - dt / 400);
-            spec.cap[k] = Math.max(spec.lev[k], spec.cap[k] - dt / 900);
-            const x = gap + k * (bw + gap), h = spec.lev[k] * (H - 6), [r, g, b] = heat(.3 + .7 * k / nb);
-            c.fillStyle = `rgb(${r},${g},${b})`; c.fillRect(x, H - h, bw, h);
-            if (spec.cap[k] > .02) { c.fillStyle = 'rgba(255,255,255,.8)'; c.fillRect(x, H - spec.cap[k] * (H - 6) - 4, bw, 2); }
+            spec.lev[k] = target > spec.lev[k] ? target : Math.max(target, spec.lev[k] - dt / 350);
+            const h = spec.lev[k] * (H - 3);
+            if (h > .5) c.fillRect(k * step, H - 1 - h, Math.max(1, step - 1), h);
         }
+        // spectrogram
+        if (!spec.img || spec.img.dark !== dark) spec.img = gramImage(spec, dark);
+        const X = tm => gx + Math.min(1, tm / plan.T) * gw;
+        c.imageSmoothingEnabled = true;
+        c.drawImage(spec.img.c, gx + 1, 1, Math.min(gw - 2, spec.frames.length * spec.hop / plan.T * gw), sh - 1);
+        // pitch
+        c.strokeStyle = dark ? '#ff7a5c' : '#d0402f'; c.lineWidth = 1.5; c.beginPath();
+        let pen = false;
+        for (let px = 0; px <= gw; px += 2) {
+            const st = window.IPASynth.sample(plan, px / gw * plan.T), y = sh - 2 - (st.level - .5) / 5.5 * (sh - 4);
+            if (st.AV > .3) { pen ? c.lineTo(gx + px, y) : c.moveTo(gx + px, y); pen = true; } else pen = false;
+        }
+        c.stroke();
+        // segments
+        c.font = (segH - 3) + 'px "Doulos SIL","Charis SIL","Noto Sans",serif'; c.textAlign = 'center'; c.textBaseline = 'middle';
+        plan.segs.forEach((s, i) => {
+            const ps = plan.phases.filter(p => p.seg === i); if (!ps.length) return;
+            const a = X(ps[0].t0), b = X(ps[ps.length - 1].t1);
+            c.fillStyle = s.type === 'V' ? 'rgba(46,111,184,.16)' : 'rgba(160,160,160,.16)'; c.fillRect(a + .5, sh + 1, b - a - 1, segH - 2);
+            if (b - a >= 5) { c.fillStyle = ink; c.fillText(s.sym, (a + b) / 2, sh + segH / 2 + .5); }
+        });
+        // playhead
+        if (t != null) { c.strokeStyle = dark ? '#6ea8ec' : '#2e6fb8'; c.lineWidth = 1.5; c.beginPath(); c.moveTo(X(t), 0); c.lineTo(X(t), H); c.stroke(); }
     }
 
     function nameOf(el) {
@@ -347,6 +361,7 @@
             if (!AC || AC.state === 'closed') AC = new (window.AudioContext || window.webkitAudioContext)();
             if (AC.state !== 'running') AC.resume().catch(() => {});
             spec = analyse(out.samples, out.fs);
+            elHint.hidden = true; specCv.hidden = false;   // the strip takes the hint's place once a word is heard
             const buf = AC.createBuffer(1, out.samples.length, out.fs);
             buf.getChannelData(0).set(out.samples);
             src = AC.createBufferSource(); src.buffer = buf; src.connect(AC.destination);
@@ -365,10 +380,10 @@
                     loop.done = end;
                 }
                 drawSpec(end ? null : t);   // after the word the bars fall and the spectrogram stays
-                if (!end || (specMode === 'bars' && spec.cap.some(v => v > .02))) raf = requestAnimationFrame(loop);
+                if (!end || spec.lev.some(v => v > .01)) raf = requestAnimationFrame(loop);
             };
             cancelAnimationFrame(raf); raf = requestAnimationFrame(loop);
-        }).catch(() => { elHint.textContent = 'Could not load the synthesizer.'; });
+        }).catch(() => { elHint.textContent = 'Could not load the synthesizer.'; elHint.hidden = false; specCv.hidden = true; });
     }
 
     function boot() {

@@ -493,7 +493,8 @@
         if (b === 'ko') return { type: 'flat', passiveVoicing: true, unreleasedFinal: true };
         if (b === 'yue') return { type: 'stress', passiveVoicing: true, unreleasedFinal: true };
         if (['vi', 'th', 'lo', 'km', 'my', 'ms', 'id', 'nan', 'hak'].includes(b)) return { type: 'stress', unreleasedFinal: true };
-        if (b === 'fr') return { type: 'fr' };
+        if (b === 'fr') return { type: 'fr', uvularR: true };
+        if (['de', 'da', 'nl', 'lb'].includes(b)) return { type: 'stress', uvularR: true };   // r as an approximant ʁ (as in French)
         if (b === 'zh' || b === 'cmn') return { type: 'stress', sandhi3: true, passiveVoicing: true, mandarin: true };
         if (STRESS_INITIAL.has(b)) return { type: 'stress', stress: 'initial' };
         if (STRESS_PENULT.has(b)) return { type: 'stress', stress: 'penult' };
@@ -837,6 +838,15 @@
                             if (s.voiced) { P.TL = .72; P.B1 = 110; P.B2 = 170; P.B3 = 240; }
                         }
                         if (s.ejective) P.glot = -0.5;
+                        // French / German r (ʁ): an approximant with little friction. The Commons
+                        // chère has F1 rising to ~800, F2 falling to ~1300, weak voice and almost
+                        // no noise; the fricative ɣ-like ʁ (strong rough noise) was not heard as
+                        // a French r. Next to a voiceless consonant (mɛʁsi) it is partly devoiced.
+                        if (s.base === 'ʁ' && prof.uvularR) {
+                            const nxv = segs[i + 1], pvv = segs[i - 1];
+                            const devoice = (nxv && nxv.type === 'C' && nxv.voiced === 0) || (pvv && pvv.type === 'C' && pvv.voiced === 0);
+                            Object.assign(P, { F1: 720, F2: 1300, F3: 2350, B1: 160, B2: 160, B3: 220, AV: devoice ? .45 : .7, TL: devoice ? .55 : .35, AF: devoice ? .22 : .07, RG: .15, PW: 1, A3: .35, AH: devoice ? .1 : .03, BR: .3 });
+                        }
                         // natural friction swells in and fades out (rise ~40% of the fricative, overlapping
                         // the voice); an 18 ms switch to a flat level sounded like a box
                         let fd = (s.voiced ? 88 : s.place === 'VE' || s.place === 'UV' ? 115 : 98) * gem * syl;

@@ -87,6 +87,7 @@ const CHECK = {
         const peak = Math.max(...S.plan('ˈpata', { lang: 'en' }).pitch.map(q => q[1]));
         return end[1] <= .25 && zend[1] >= .9 && peak >= 4.6;
     },
+    french_r: p => { const r = phasesOf(p, 'ʁ')[0]; const g = phasesOf(S.plan('jaː˥ ɣaː˦˨'), 'ɣ')[0]; return r.P.F1 >= 650 && r.P.F2 <= 1400 && r.P.AF <= .25 && r.P.RG <= .2 && g.P.AF >= .2; },
 };
 
 let bad = 0;

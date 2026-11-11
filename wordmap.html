@@ -4115,12 +4115,13 @@
         // read in full when the reader opens one. Fetch after `load` so they
         // never sit in front of first paint; every reader guards with `|| []`.
         let _triviaPromise = null;
-        function loadTrivia() {
+        function loadTrivia(urgent) {
             if (_triviaPromise) return _triviaPromise;
             if (window.TRIVIA_ARTICLES) return (_triviaPromise = Promise.resolve());
             _triviaPromise = new Promise((resolve) => {
                 const el = document.createElement('script');
                 el.src = assetUrl('wordmap_trivia.js', 'trivia');
+                if (urgent) el.fetchPriority = 'high';   // the reader is waiting on it
                 el.onload = el.onerror = () => resolve();
                 document.head.appendChild(el);
             }).then(() => {
@@ -11671,15 +11672,17 @@
             const fromHash = !!(opts && opts.fromHash);
             // the 📚 button reopens the article that was being read
             if (!id && !fromHash && _triviaResume && _triviaResume !== 'index') id = _triviaResume;
-            // Two lazy dependencies: the 25 word-data blocks (the compare table
-            // inside an article uses them) and the articles themselves.
-            if (!wordsReady() || !window.TRIVIA_ARTICLES) {
-                Promise.all([
-                    wordsReady() ? Promise.resolve() : ensureAllWords().then(() => { _allWordsAttempted = true; }),
-                    loadTrivia(),
-                ]).then(() => openTrivia(id, opts));
+            // Two lazy dependencies: the articles, which the window needs, and the
+            // whole word corpus (~140 files), which only the article buttons
+            // (setword / compare / …) need. Waiting for the corpus before opening
+            // made the 📚 button slow on a phone, so it loads behind the open
+            // window and _runTriviaAction waits for it instead.
+            if (!window.TRIVIA_ARTICLES) {
+                loadTrivia(true).then(() => openTrivia(id, opts));
                 return;
             }
+            // only after the articles: on a slow line the corpus would share the line with them
+            if (!wordsReady()) ensureAllWords().then(() => { _allWordsAttempted = true; });
             const list = window.TRIVIA_ARTICLES || [];
             if (!list.length) return;
             // Back/forward onto the article already showing: nothing to do.
@@ -11921,6 +11924,8 @@
         function _runTriviaAction(btn) {
             const action = (btn.dataset.action || '').toLowerCase();
             if (!action) return;
+            // the word corpus loads behind the open window: an early click waits for it
+            if (!wordsReady() && action !== 'article') { ensureAllWords().then(() => { _allWordsAttempted = true; _runTriviaAction(btn); }); return; }
             triviaClearBlinks();
             // Tile-mode handling. Explicit data-tiles="…" always wins
             // (terrain / labels / flat). Defaults (user 2026-05-17):

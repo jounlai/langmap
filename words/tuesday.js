@@ -245,7 +245,7 @@ WORDS.tuesday = {
     hr: "count",
     tzm: "plain",
     her: "plain",
-    xal: "count",
+    xal: "mars",
     gmh: "god",
     sga: "mars",
     bsk: "mars",
@@ -517,7 +517,7 @@ WORDS.tuesday = {
     hr: ["utorak", "ǔːtorak"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     tzm: ["ⴰⵔⴰⵎ", "aram"],
     her: ["Oritjavari", "oritjavari"],
-    xal: ["вторник", "wtornik"],  // Borrowed from Russian вторник.
+    xal: ["мигмр өдр", "miɡmr ødr"],  // 'Day of Mars' (мигмр, the planet, + өдр 'day'), as with Monday сарң өдр; NorthEuraLex records the Russian loan вторник instead.
     gmh: ["ziestac", "ˈtsiə̯stak"],
     sga: ["Máirt", "ˈmaːrʲtʲ"],
     bsk: ["aṅáro", "aṅˈarɔ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.

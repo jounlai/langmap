@@ -241,7 +241,7 @@ WORDS.friday = {
     hr: "plain",
     tzm: "plain",
     her: "plain",
-    xal: "count",
+    xal: "venus",
     gmh: "goddess",
     bsk: "plain",
     srn: "goddess",
@@ -508,7 +508,7 @@ WORDS.friday = {
     hr: ["petak", "pěːtak"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     tzm: ["ⵙⴰⵎ", "sam"],
     her: ["Oritjatano", "oritjatano"],
-    xal: ["пятниц", "pjatnits"],  // Borrowed from Russian пятница.
+    xal: ["басң өдр", "basŋ ødr"],  // 'Day of Venus' (басң, the planet, + өдр 'day'); NorthEuraLex records the Russian loan пятница instead.
     gmh: ["vritac", "ˈvriːtak"],
     bsk: ["śúkuro", "ˈɕukorɔ"],
     srn: ["freida", "freida"],

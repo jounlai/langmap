@@ -305,13 +305,13 @@ WORDS.spider = {
     szl: "pauk",
     ta: "plain",
     tao: "plain",
-    te: "other",
+    te: "plain",
     tet: "plain",
     tg: "ankabut",
     th: "other",
     ti: "plain",
     tkl: "plain",
-    tl: "aranea",
+    tl: "plain",
     tn: "plain",
     to: "plain",
     tpi: "plain",
@@ -664,13 +664,13 @@ WORDS.spider = {
     szl: ["pajōnk", "ˈpajoŋk"],  // From Proto-Slavic *paǫkъ.
     ta: ["சிலந்தி", "tʃɪland̪iː"],
     tao: ["aaraw", "aaraw"],
-    te: ["ఈగపులి", "iːɡapuli"],  // ఈగ "fly" + పులి "tiger": the fly-tiger.
+    te: ["సాలీడు", "saːliːɖu"],  // The everyday word; ఈగపులి 'fly-tiger' is also recorded.
     tet: ["labadain", "labadain"],
     tg: ["анкабӯт", "ankaˈbɵt"],  // From Semitic *ʕankab-, Arabic ʕankabūt.
     th: ["แมงมุม", "mɛːŋ˧mum˧"],  // แมง "arachnid, bug" + มุม "corner".
     ti: ["ሳሬት", "saret"],
     tkl: ["kūmā", "kuːmaː"],
-    tl: ["aranya", "ʔaɾanˈja"],  // From Latin arānea or Greek ἀράχνη.
+    tl: ["gagamba", "ɡaɡamˈba"],  // The everyday word; aranya, from Spanish, is rarer.
     tn: ["segokgo", "seχokχo"],
     to: ["hina", "hina"],
     tpi: ["lawa", "lawa"],  // From Malay labah-labah.

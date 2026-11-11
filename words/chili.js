@@ -94,7 +94,7 @@ WORDS.chili = {
     my: "pepper",
     fi: "chilli",
     hu: "chilli",
-    el: "other",
+    el: "pepper",
     nl: "chilli",
     pl: "chilli",
     uk: "pepper",
@@ -116,7 +116,7 @@ WORDS.chili = {
     ca: "other",
     gl: "spice",
     sk: "pepper",
-    lv: "pepper",
+    lv: "chilli",
     sq: "spice",
     et: "chilli",
     rom: "pepper",
@@ -274,10 +274,10 @@ WORDS.chili = {
     my: ["ငရုတ်", "ŋəjoʊʔ"],  // From Pali marica 'black pepper'.
     fi: ["chilipippuri", "ˈtʃiliˌpipːuri"],  // chili + pippuri.
     hu: ["csilipaprika", "ˈtʃilipɒprikɒ"],  // csili + paprika.
-    el: ["μπούκοβο", "ˈbukovo"],  // Named after the village of Bukovo.
+    el: ["καυτερή πιπεριά", "kafteˈri pipeˈrʝa"],  // Literally 'hot pepper'; μπούκοβο is the word for chili flakes.
     nl: ["chilipeper", "ˈtʃiliˌpeːpər"],  // chili + peper.
     pl: ["chilli", "ˈtʂili"],  // From English chilli.
-    uk: ["паприка", "ˈpaprekɐ"],  // From Hungarian paprika, ultimately Latin piper 'pepper'.
+    uk: ["червоний перець", "tʃerˈwɔnɪj ˈpɛrɛtsʲ"],  // Literally 'red pepper', as Russian красный перец.
     da: ["chili", "ˈtɕiːli"],  // The everyday word; peber is the black-pepper word.
     cy: ["tsili", "ˈtʃɪlɪ"],  // From English chili.
     ka: ["წიწაკა", "tsʼitsʼäkʼä"],
@@ -296,7 +296,7 @@ WORDS.chili = {
     ca: ["bitxo", "ˈbitʃu"],  // From vit 'penis'.
     gl: ["pemento", "peˈmento"],  // From Latin pigmentum 'pigment, colour'.
     sk: ["paprika", "paprika"],  // From Hungarian paprika, ultimately Latin piper 'pepper'.
-    lv: ["paprika", "paprika"],  // From Hungarian paprika, ultimately Latin piper 'pepper'.
+    lv: ["čili", "ˈtʃili"],
     sq: ["spec", "spɛts"],  // From Italian spezie 'spices'.
     et: ["tšiili pipar̃", "tsiilipipar"],  // tšiili + pipar 'pepper'.
     rom: ["paprika", "paprika"],  // Route by resemblance to the neighbouring forms; no etymology of its own.

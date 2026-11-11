@@ -418,7 +418,7 @@ WORDS.east = {
     ilo: ["daya", "ˈdaja"],  // From Proto-Malayo-Polynesian *daya 'upriver, toward the interior'.
     ne: ["पूर्व", "purbʌ"],  // From Sanskrit pūrva.
     mr: ["पूर्व", "puɾʋə"],  // From Sanskrit pūrva.
-    gu: ["પ્રાચી", "ˈpɾɑtʃi"],
+    gu: ["પૂર્વ", "puːɾʋ"],  // The everyday word, from Sanskrit pūrva; પ્રાચી is literary.
     si: ["නැගෙනහිර", "næɡenahira"],
     dv: ["ފޫރުއްބަ", "fuːɾuʔba"],  // From Sanskrit purā 'before, formerly'.
     te: ["తూర్పు", "t̪uːɾpu"],  // From దూరు 'to enter': where the sun enters the sky.

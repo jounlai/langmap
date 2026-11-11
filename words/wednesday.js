@@ -149,7 +149,7 @@ WORDS.wednesday = {
     ml: "mercury",
     tg: "count",
     ku: "count",
-    ps: "other",
+    ps: "count",
     az: "count",
     ug: "count",
     kk: "count",
@@ -252,7 +252,7 @@ WORDS.wednesday = {
     hr: "middle",
     tzm: "plain",
     her: "plain",
-    xal: "middle",
+    xal: "mercury",
     gmh: "middle",
     sga: "fast",
     bsk: "plain",
@@ -431,7 +431,7 @@ WORDS.wednesday = {
     ml: ["ബുധനാഴ്ച", "bud̪ʱɐnaːɻtʃɐ"],
     tg: ["чоршанбе", "tʃorʃanbe"],
     ku: ["çarşem", "tʃɑːɾˈʃɛm"],
-    ps: ["شروع", "ʃʊːrʊː"],  // Borrowed from Persian شروع, from Arabic شُرُوع 'beginning'.
+    ps: ["چارشنبه", "tʃaːrʃanˈba"],  // 'Fourth day' after the Sabbath, from Persian چهارشنبه.
     az: ["çərşənbə", "tʃæɾʃænbæ"],
     ug: ["چارشەنبە", "tʃɑrʃɛnbɛ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     kk: ["сәрсенбі", "sæɾsenbə"],
@@ -534,7 +534,7 @@ WORDS.wednesday = {
     hr: ["srijeda", "srijěda"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     tzm: ["ⴰⵀⴰⴷ", "ahad"],
     her: ["Oritjatatu", "oritjatatu"],
-    xal: ["среда", "sreda"],  // Borrowed from Russian среда.
+    xal: ["үлмҗ өдр", "ylmdʒ ødr"],  // 'Day of Mercury' (үлмҗ, the planet, + өдр 'day'); NorthEuraLex records the Russian loan среда instead.
     gmh: ["mittewoche", "ˈmitːəwoxə"],
     sga: ["cétaín", "ˈkʲeːdaːinʲ"],  // cét- 'first' + aín 'fasting'.
     bsk: ["bódo", "ˈbɔdɔ"],

@@ -151,7 +151,7 @@ WORDS.kiss = {
     ak: "plain",
     mk: "plain",
     kl: "smell",
-    rap: "plain",
+    rap: "smell",
     csb: "kus",
     ast: "basium",
     gv: "peace",
@@ -333,7 +333,7 @@ WORDS.kiss = {
     ak: ["mfeano", "mfeano"],
     mk: ["бакнеж", "ˈbaknɛʃ"],
     kl: ["kunik", "kunik"],  // From Proto-Inuit *kuniɣ- 'kiss, sniff'.
-    rap: ["hoŋi", "hoŋi"],
+    rap: ["hoŋi", "hoŋi"],  // Also means 'to smell' (Wiktionary); compare Māori hongi.
     csb: ["kùsk", "kwusk"],
     ast: ["besu", "ˈbesu"],  // From Latin bāsium.
     gv: ["paag", "pɛːɡ"],  // From Latin ōsculum pācis 'kiss of peace'.

@@ -200,7 +200,7 @@ WORDS.butter = {
     aii: "plain",
     eo: "butyrum",
     vo: "butyrum",
-    ia: "plain",
+    ia: "butyrum",
     ak: "butyrum",
     mk: "butyrum",
     kg: "manteca",
@@ -222,7 +222,7 @@ WORDS.butter = {
     ks: "plain",
     rue: "smear",
     ast: "manteca",
-    wa: "plain",
+    wa: "butyrum",
     koi: "waje",
     udm: "waje",
     myv: "waje",
@@ -468,7 +468,7 @@ WORDS.butter = {
     aii: ["ܟܪܥܐ", "karʕaː"],
     eo: ["butero", "buˈtero"],
     vo: ["bör", "bør"],
-    ia: ["butyro", "ˈbutiro"],
+    ia: ["butyro", "ˈbutiro"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     ak: ["bɔta", "bɔta"],
     mk: ["путер", "ˈputɛr"],
     kg: ["manteka", "manteka"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
@@ -490,7 +490,7 @@ WORDS.butter = {
     ks: ["تھٔنؠ", "tʰənʲ"],
     rue: ["масло", "maslo"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     ast: ["mantega", "manˈteɣa"],
-    wa: ["boûre", "buːʀ"],
+    wa: ["boûre", "buːʀ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     koi: ["ви", "vi"],  // From Proto-Finno-Ugric *waje; cognate with Finnish voi.
     udm: ["вӧй", "ʋɘj"],  // From Proto-Finno-Ugric *waje; cognate with Finnish voi.
     myv: ["ой", "oj"],  // From Proto-Finno-Ugric *waje; cognate with Finnish voi.

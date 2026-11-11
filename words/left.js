@@ -363,7 +363,7 @@ WORDS.left = {
     en: ["left", "left"],  // From Old English left, lyft 'weak, clumsy, foolish' (Wiktionary).
     de: ["link", "lɪŋk"],
     fr: ["gauche", "ɡoʃ"],  // From gauchir 'to bend, warp'.
-    it: ["sinistra", "siˈnistra"],  // Learned borrowing from Latin sinister.
+    it: ["sinistra", "siˈnistra"],  // Inherited from Latin sinister (Wiktionary).
     es: ["izquierda", "iθˈkjeɾda"],  // Borrowed from Basque ezker 'left'.
     pt: ["esquerda", "iʃˈkeɾdɐ"],  // From Old Spanish exquerdo, from Basque ezker 'left'.
     ru: ["левый", "ˈlʲevɨj"],

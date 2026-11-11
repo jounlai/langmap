@@ -98,7 +98,7 @@ WORDS.chili = {
     nl: "chilli",
     pl: "chilli",
     uk: "pepper",
-    da: "pepper",
+    da: "chilli",
     cy: "chilli",
     ka: "plain",
     hy: "plain",
@@ -278,7 +278,7 @@ WORDS.chili = {
     nl: ["chilipeper", "ˈtʃiliˌpeːpər"],  // chili + peper.
     pl: ["chilli", "ˈtʂili"],  // From English chilli.
     uk: ["паприка", "ˈpaprekɐ"],  // From Hungarian paprika, ultimately Latin piper 'pepper'.
-    da: ["peber", "ˈpʰewɐ"],  // The word for black pepper, from Latin piper.
+    da: ["chili", "ˈtɕiːli"],  // The everyday word; peber is the black-pepper word.
     cy: ["tsili", "ˈtʃɪlɪ"],  // From English chili.
     ka: ["წიწაკა", "tsʼitsʼäkʼä"],
     hy: ["ծիծակ", "tsiˈtsɑk"],  // From Georgian წიწაკა.
@@ -315,7 +315,7 @@ WORDS.chili = {
     bi: ["smolpima", "smolpima"],  // smol 'small' + pima 'chilli pepper'.
     war: ["sili", "ˈsili"],  // From Spanish chile.
     fax: ["dxindxa", "ˈdʒindʒa"],
-    an: ["ají", "aji"],  // The same word as Spanish ají, from Taíno.
+    an: ["ají", "aji"],  // The same word as Spanish ají, from Taíno.
     liv: ["paprik", "ˈpɑprik"],
     pwo: ["ဆၧဂဲၪၥၪ", "sʰə ɣai θa"],  // 'Thing' + 'spicy' + 'fruit'.
     kr: ["bàrwùnó", "bàrwùnó"],

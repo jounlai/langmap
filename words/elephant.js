@@ -114,7 +114,7 @@ WORDS.elephant = {
     co: "elephas",
     crh: "pil",
     cs: "slon",
-    csb: "elephas",
+    csb: "slon",
     cu: "slon",
     cv: "slon",
     cy: "elephas",
@@ -165,7 +165,7 @@ WORDS.elephant = {
     ia: "elephas",
     id: "gaja",
     ig: "plain",
-    ilo: "elephas",
+    ilo: "gaja",
     inh: "pil",
     io: "elephas",
     is: "pil",
@@ -460,7 +460,7 @@ WORDS.elephant = {
     co: ["elefante", "eleˈfante"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
     crh: ["pil", "pil"],  // From Persian pīl (ultimately Akkadian pīru), often through Arabic fīl.
     cs: ["slon", "slon"],  // Slavic slon.
-    csb: ["słóń", "swoɲ"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
+    csb: ["słóń", "swoɲ"],  // Inherited from Proto-Slavic *slonъ.
     cu: ["слонь", "slonĭ"],  // Slavic slon.
     cv: ["слон", "slon"],  // Slavic slon.
     cy: ["eliffant", "ˈɛlɪfant"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
@@ -511,7 +511,7 @@ WORDS.elephant = {
     ia: ["elephante", "eleˈfante"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
     id: ["gajah", "ˈɡadʒah"],  // From Sanskrit gaja.
     ig: ["enyi", "eɲi"],  // Compare Yoruba erin.
-    ilo: ["gadia", "ˈɡadja"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
+    ilo: ["gadia", "ˈɡadja"],  // Borrowed from Malay gajah, from Sanskrit gaja.
     inh: ["пилл", "pill"],  // From Persian pīl (ultimately Akkadian pīru), often through Arabic fīl.
     io: ["elefanto", "eleˈfanto"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
     is: ["fíll", "ˈfitl̥"],  // From Persian pīl (ultimately Akkadian pīru), often through Arabic fīl.

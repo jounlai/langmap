@@ -166,7 +166,7 @@ WORDS.bread = {
     mey: "khubz",
     mt: "khubz",
     ln: "panis",
-    ny: "plain",
+    ny: "braud",
     sco: "braud",
     af: "braud",
     bar: "braud",
@@ -512,7 +512,7 @@ WORDS.bread = {
     mey: ["خبز", "xubz"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     mt: ["ħobż", "ħɔps"],
     ln: ["lipa", "lipa"],  // From French pain.
-    ny: ["buledi", "buˈɽedi"],
+    ny: ["buledi", "buˈɽedi"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     sco: ["breid", "brid"],
     af: ["brood", "brʊə̯t"],
     bar: ["Brod", "b̥rɔud̥"],

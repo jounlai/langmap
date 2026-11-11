@@ -6,7 +6,7 @@
  *   - NM_LANGS      : the language/country "cells" that can carry a name form
  *                     (name/native/country/lat/lng), analogous to LANG_DATA.
  *   - NM_UI         : UI strings, English + Japanese only for now.
- *   - NM_CATEGORIES : name groupings (biblical / quran / greco-roman / …).
+ *   - NM_CATEGORIES : name groupings (biblical / quran / greco-roman / germanic / …).
  *   - NAMES         : the names themselves, each with origin, meaning,
  *                     cultural background, a per-cell `forms` table and an
  *                     etymology `tree` (nodes + parent edges = derivation path).
@@ -90,7 +90,7 @@ const NM_UI = {
     frequency:'Usage', romanization:'Romanization', ipa:'Pronunciation (IPA)',
     region:'Region', notablePeople:'Notable people', close:'Close',
     category:'Category', noForm:'No common form', random:'Random name', details:'Details', simpleDisplay:'Simple display', settings:'Settings', fontSize:'Font size',
-    cats:{ biblical:'Biblical', quran:'Qurʼanic', 'greco-roman':'Greek & Roman', hindu:'Hindu / Indic', indigenous:'Regional' },
+    cats:{ biblical:'Biblical', quran:'Qurʼanic', 'greco-roman':'Greek & Roman', germanic:'Germanic', hindu:'Hindu / Indic', indigenous:'Regional' },
     freq:{ 'very-common':'Very common', common:'Common', moderate:'Moderate', rare:'Rare' },
     navName:'Name Map', navOrder:'Word Order', navWord:'Word Map', navHan:'HanMap', navTree:'Tree',
     tapCountry:'Tap a country to see its form', of:'form of',
@@ -103,14 +103,14 @@ const NM_UI = {
     frequency:'使用頻度', romanization:'ローマ字表記', ipa:'発音（IPA）',
     region:'使用地域', notablePeople:'著名人', close:'閉じる',
     category:'分類', noForm:'一般的な対応形なし', random:'ランダムな名前', details:'詳細', simpleDisplay:'シンプル表示', settings:'設定', fontSize:'文字サイズ',
-    cats:{ biblical:'聖書由来', quran:'コーラン由来', 'greco-roman':'ギリシャ・ローマ由来', hindu:'インド・ヒンドゥー由来', indigenous:'各地固有' },
+    cats:{ biblical:'聖書由来', quran:'コーラン由来', 'greco-roman':'ギリシャ・ローマ由来', germanic:'ゲルマン由来', hindu:'インド・ヒンドゥー由来', indigenous:'各地固有' },
     freq:{ 'very-common':'非常に多い', common:'多い', moderate:'普通', rare:'少ない' },
     navName:'名前マップ', navOrder:'語順マップ', navWord:'単語マップ', navHan:'漢字マップ', navTree:'ツリー',
     tapCountry:'国をタップして対応形を表示', of:'の対応形',
   },
 };
 
-const NM_CATEGORY_ORDER = ['biblical','quran','greco-roman','hindu','indigenous'];
+const NM_CATEGORY_ORDER = ['biblical','quran','greco-roman','germanic','hindu','indigenous'];
 
 /* ---------------------------------------------------------------------------
  * NAMES — the dataset. The four entries below are hand-authored and act as the

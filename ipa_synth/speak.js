@@ -11,7 +11,7 @@
  */
 (function () {
     'use strict';
-    const V = '?v=46';
+    const V = '?v=47';
     const BASE = '/ipa_synth/';
     const STR = {
         en: { open: 'Pronunciation', close: 'Close', hintHover: 'Point at a word on the map, or in a language panel, to hear it.', hintTap: 'Tap a word on the map to hear it; tap it again to open its language.',
@@ -256,7 +256,7 @@
             }
         }
     }
-    const NB = 40;   // bar bands
+    const NB = 40;   // at most this many bar bands; fewer on a narrow strip
     function analyse(x, fs) {
         const N = 512, hop = Math.round(fs * .005), bins = Math.min(N / 2, Math.round(7500 / fs * N));
         const win = new Float32Array(N); for (let i = 0; i < N; i++) win[i] = .5 - .5 * Math.cos(2 * Math.PI * i / N);
@@ -269,9 +269,7 @@
             for (let b = 0; b < bins; b++) { f[b] = 10 * Math.log10(re[b] * re[b] + im[b] * im[b] + 1e-10); if (f[b] > top) top = f[b]; }
             frames.push(f);
         }
-        // bar bands: NB, log-spaced 90-7500 Hz
-        const edges = []; for (let k = 0; k <= NB; k++) edges.push(Math.max(1, Math.round(90 * Math.pow(7500 / 90, k / NB) / fs * N)));
-        return { frames, top, hop: hop / fs * 1000, bins, gbins: Math.min(bins, Math.round(5000 / fs * N)), edges, img: null, lev: new Float32Array(NB), last: 0 };
+        return { frames, top, hop: hop / fs * 1000, bins, binHz: fs / N, gbins: Math.min(bins, Math.round(5000 / fs * N)), edges: null, img: null, lev: new Float32Array(NB), last: 0 };
     }
     const isDark = () => document.documentElement.getAttribute('data-theme') === 'dark';
     // spectrogram 0-5 kHz in grey, as on the IPA synth page; one pixel column per frame, scaled when drawn
@@ -302,14 +300,20 @@
         // bars: thin, one colour, fast rise and gentle fall
         const now = performance.now(), dt = Math.min(100, now - (spec.last || now)); spec.last = now;
         const fr = t != null ? spec.frames[Math.min(spec.frames.length - 1, Math.floor(t / spec.hop))] : null;
-        const step = (bw - 6) / NB, bh = H - 6;
-        c.fillStyle = dark ? 'rgba(110,168,236,.75)' : 'rgba(46,111,184,.55)';
-        for (let k = 0; k < NB; k++) {
+        // bars: rounded, mirrored about the middle, log-spaced 90-7500 Hz; one every ~4.5 px
+        const nb = Math.max(14, Math.min(NB, Math.floor((bw - 8) / 4.5))), step = (bw - 8) / nb, mid = H / 2, bh = H - 10;
+        if (!spec.edges || spec.edges.length !== nb + 1) { spec.edges = []; for (let k = 0; k <= nb; k++) spec.edges.push(Math.max(1, Math.round(90 * Math.pow(7500 / 90, k / nb) / spec.binHz))); }
+        const gr = c.createLinearGradient(0, mid - bh / 2, 0, mid + bh / 2);
+        gr.addColorStop(0, dark ? '#9fc6f5' : '#9cc0ec'); gr.addColorStop(.5, dark ? '#4f8fe0' : '#2e6fb8'); gr.addColorStop(1, dark ? '#9fc6f5' : '#9cc0ec');
+        c.fillStyle = dark ? 'rgba(255,255,255,.12)' : 'rgba(46,111,184,.18)'; c.fillRect(4, mid - .5, bw - 8, 1);
+        c.fillStyle = gr;
+        const bwid = Math.max(1.5, step * .6);
+        for (let k = 0; k < nb; k++) {
             let m = -200; if (fr) for (let b = spec.edges[k]; b <= Math.max(spec.edges[k], spec.edges[k + 1] - 1) && b < spec.bins; b++) m = Math.max(m, fr[b]);
             const target = fr ? Math.max(0, Math.min(1, (m - (spec.top - 60)) / 60)) : 0;
             spec.lev[k] = target > spec.lev[k] ? target : Math.max(target, spec.lev[k] - dt / 350);
-            const h = spec.lev[k] * bh;
-            if (h > .5) c.fillRect(3 + k * step, H - 3 - h, Math.max(1, step - 1), h);
+            const h = Math.max(bwid, spec.lev[k] * bh), x = 4 + k * step + (step - bwid) / 2;
+            if (spec.lev[k] > .01) { c.beginPath(); if (c.roundRect) c.roundRect(x, mid - h / 2, bwid, h, bwid / 2); else c.rect(x, mid - h / 2, bwid, h); c.fill(); }
         }
         // spectrogram
         if (!spec.img || spec.img.dark !== dark) spec.img = gramImage(spec, dark);

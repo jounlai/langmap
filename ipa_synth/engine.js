@@ -641,7 +641,7 @@
                 if (tone && isNucleus(s)) { const contour = new Set(tone).size > 1; d = Math.max(d, contour ? 190 : 150); }
                 else if (tonal && isNucleus(s)) d *= .65;     // neutral tone: a light, short syllable
                 if (i === lastNucleus) d = Math.max(d * 1.3, 75);
-                if (i === lastNucleus && tone && tone.length >= 3 && lowDip(s, tone)) d = Math.max(d, 300);   // citation 214 is long (recordings ~500 ms)
+                if (i === lastNucleus && tone && tone.length >= 3 && lowDip(s, tone)) d = Math.max(d, 400);   // citation 214 is long (recordings ~500 ms)
                 // checked syllable (ends in an unreleased stop: ɗɨk˧˥, Cantonese entering tone): short
                 {
                     let k = i + 1; while (k < segs.length && segs[k].type === 'V' && segs[k].nonsyl) k++;
@@ -915,6 +915,26 @@
             }
         }
 
+        // Utterance-final fade: recorded words die away over their last sonorant stretch (10-25 dB),
+        // where the synth held full voice and stopped. Not after a final rising tone (Mandarin
+        // 214 ends loud in the recordings).
+        {
+            let k = phases.length - 1; while (k >= 0 && (phases[k].seg < 0 || phases[k].kind === 'rest' || phases[k].kind === 'pause')) k--;
+            const last = phases[k], sg = last && segs[last.seg];
+            const syl = sg ? segs.find(x => x.syl === sg.syl && isNucleus(x)) : null, tn = syl && (syl.toneMark || syl.sylTone);
+            const rising = tn && tn.length > 1 && tn[tn.length - 1] > tn[0];
+            if (last && last.P.AV > .3 && !rising) {
+                // fade across the last two sonorant phases when the very last is short (a coda)
+                let a = last.t0; if (last.dur < 120 && phases[k - 1] && phases[k - 1].P.AV > .3) a = phases[k - 1].t0 + phases[k - 1].dur * .5;
+                const from = a + (last.t1 - a) * .35;
+                const av = tracks.AV, cut = av.filter(p => p[0] < from);
+                const vAt = (() => { const q = av.filter(p => p[0] <= from); return q.length ? q[q.length - 1][1] : last.P.AV; })();
+                const rest = av.filter(p => p[0] > last.t1);
+                tracks.AV = cut.concat([[from, vAt], [last.t1, vAt * .18]], rest);
+                const br = tracks.BR; br.push([last.t1 - 1, Math.max(.45, last.P.BR || 0)]); br.sort((x, y) => x[0] - y[0]);
+            }
+        }
+
         // pitch: levels 1..5 (Chao), 3 = the speaker's mid
         const pitch = [], creak = [];
         const segSpan = i => { let a = Infinity, b = -Infinity; for (const ph of phases) if (ph.seg === i) { a = Math.min(a, ph.t0); b = Math.max(b, ph.t1); } return [a, b]; };
@@ -1050,10 +1070,10 @@
                 segs.forEach((s, i) => {
                     if (!isNucleus(s)) return;
                     const [a, b] = segSpan(i);
-                    if (s.prom === 1) { pitch.push([a + (b - a) * .1, 3.4], [a + (b - a) * .45, 4.4]); afterPeak = true; }
+                    if (s.prom === 1) { pitch.push([a + (b - a) * .1, 3.6], [a + (b - a) * .45, 5.0]); afterPeak = true; }
                     else if (s.prom === 2) { pitch.push([a + (b - a) * .4, 3.7]); afterPeak = true; }
                     else pitch.push([(a + b) / 2, afterPeak ? 2.8 : 3.1]);
-                    if (i === lastNucleus) pitch.push([b, 1.8]);
+                    if (i === lastNucleus) pitch.push([b, 1.5]);
                 });
             }
         }
@@ -1190,7 +1210,7 @@
                 // creaky stretches of low tones (plan.creak), ramped over 30 ms at each edge
                 if (pl.creak) for (const [c0, c1] of pl.creak) if (t > c0 - 30 && t < c1 + 30) {
                     const k = Math.min(1, (t - c0 + 30) / 30, (c1 + 30 - t) / 30);
-                    cr = Math.max(cr, .75 * k); P.AV *= 1 - .45 * k;
+                    cr = Math.max(cr, .8 * k); P.AV *= 1 - .7 * k;
                 }
                 // flutter (KLSYN88): (FL/50)(F0/100)(sin 12.7 Hz + sin 7.1 Hz + sin 4.7 Hz), in Hz
                 const base = voice.f0 * Math.pow(2, (lv - 3) / 5) * (1 - .3 * cr);
@@ -1267,7 +1287,7 @@
             const b2 = FR2.tick(xin), bh = FHP.tick(band - SIB_B2 * b2);
             if (sib) band = bh * SIB_G;
             const par = pw ? (PF2.tick(fn * afr * pw) * PAR_A2 + PF3.tick(fn * afr * pw) * PAR_A3 * P.A3 / .7) : 0;
-            const fr = (band + par) * 1.4;   // +3 dB: keeps consonant/vowel ratios after the voice high-shelf
+            const fr = (band + par) * 1.4 * (pw ? .7 : .56);   // +3 dB after the voice high-shelf, then -5 dB (front) / -3 dB (back): recordings put s and ʃ 15-24 dB under the vowel peak
             prevNoise = fn;
             const y = x + fr;
             // DC block

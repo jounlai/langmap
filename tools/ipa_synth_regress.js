@@ -81,6 +81,12 @@ const CHECK = {
         const sandhi = !S.plan('ni˨˩˦ xaʊ̯˨˩˦', { lang: 'zh' }).creak.some(c => c[0] < 300);   // ni (→35) does not creak
         return cr && len && sandhi && a.F2 <= 1500 && u.F2 >= 700 && u.F1 >= 260 && sh.FF <= 2900 && sc.FF <= 3400;
     },
+    measured2: p => {
+        const av = p.tracks.AV, end = av.filter(q => q[1] > 0).pop();   // fades to <= .25 at the last voiced point
+        const zh = S.plan('ma˨˩˦', { lang: 'zh' }), zend = zh.tracks.AV.filter(q => q[1] > 0).pop();   // a final rise does not fade
+        const peak = Math.max(...S.plan('ˈpata', { lang: 'en' }).pitch.map(q => q[1]));
+        return end[1] <= .25 && zend[1] >= .9 && peak >= 4.6;
+    },
 };
 
 let bad = 0;

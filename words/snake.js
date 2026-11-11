@@ -186,7 +186,7 @@ WORDS.snake = {
     gu: "crawl",
     guc: "plain",
     gun: "plain",
-    gv: "plain",
+    gv: "twist",
     ha: "plain",
     haw: "other",
     he: "other",

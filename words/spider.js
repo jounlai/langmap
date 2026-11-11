@@ -113,7 +113,7 @@ WORDS.spider = {
     ckb: "plain",
     ckv: "plain",
     crh: "plain",
-    crs: "plain",
+    crs: "other",
     crt: "plain",
     cs: "pauk",
     csb: "pauk",

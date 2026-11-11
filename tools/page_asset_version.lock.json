@@ -15,6 +15,10 @@
     "version": 69,
     "hash": "4ee07a0adcb83841"
   },
+  "ipa_synth/speak.js": {
+    "version": 48,
+    "hash": "320e601e92e9e595"
+  },
   "lang-filter.js": {
     "version": 65,
     "hash": "4207778dc948809f"
@@ -84,8 +88,8 @@
     "hash": "86181f3bf041494a"
   },
   "progress_data.js": {
-    "version": 661,
-    "hash": "be4df2b8ab3879a0"
+    "version": 662,
+    "hash": "eae425aef4ce7d6f"
   },
   "pwa.js": {
     "version": 2,
@@ -108,16 +112,16 @@
     "hash": "e834506ebd8090b9"
   },
   "trivia_reader.js": {
-    "version": 2,
-    "hash": "ff7fc2a7b48c958e"
+    "version": 4,
+    "hash": "8e0e635d02653c30"
   },
   "word_labels.js": {
-    "version": 133,
-    "hash": "f95045213f266fd5"
+    "version": 134,
+    "hash": "b549b893d8b9e0b0"
   },
   "word_manifest.js": {
-    "version": 1537,
-    "hash": "c5957e7cde62eb26"
+    "version": 1539,
+    "hash": "b2dacb9274012be8"
   },
   "wordmap_data.js": {
     "version": 361,

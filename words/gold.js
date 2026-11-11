@@ -619,9 +619,9 @@ WORDS.gold = {
     tyv: ["алдын", "a̰ldɤn"],
     gld: ["айсин", "aisi"],  // Borrowed from Manchu aisin.
     nv: ["óola", "ʔôːlà"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
-    ii: ["ꏂ", "ʂz̩˧˧"],
+    ii: ["ꏂ", "ʂɿ˧˧"],
     mnc: ["ᠠᡳᠰᡳᠨ", "äiɕin"],  // Cognate with Jurchen antʃu-un.
-    li: ["góldj", "ˈʝo˦lc"],
+    li: ["góldj", "ɣolc"],
     hil: ["bulawan", "buˈlawan"],
     dz: ["གསེར", "seː˥"],
     apw: ["ooro", "oːro"],  // Route by resemblance to the neighbouring forms; no etymology of its own.

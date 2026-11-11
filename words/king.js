@@ -394,7 +394,7 @@ WORDS.king = {
     ckt: ["тиркэрым", "tiɹkeɹəm"],
     ket: ["кый", "kɨj"],
     my: ["ဘုရင်", "bəjɪ̀ɴ"],
-    yo: ["ọba", "ɔ̄bā"],
+    yo: ["ọba", "ɔba"],
     zu: ["inkosi", "inkoːsi"],  // From Proto-Bantu *nkócì 'lion'.
     am: ["ንጉሥ", "ˈnɨɡus"],  // Learned borrowing from Ge'ez ንጉሥ.
     fi: ["kuningas", "ˈkuniŋːɑs"],  // Borrowed from Proto-Germanic *kuningaz.
@@ -437,7 +437,7 @@ WORDS.king = {
     af: ["koning", "ˈkʊənəŋ"],
     bar: ["Kini", "kʰiːni"],
     pdt: ["Kjennich", "çɛ̯ænɪç"],
-    yi: ["מלך", "ˈmɛɪ̯lɜχ"],  // From Hebrew מֶלֶךְ.
+    yi: ["מלך", "ˈmɛlɛχ"],  // From Hebrew מֶלֶךְ.
     is: ["konungur", "ˈkʰɔːnuŋkʏr"],
     gd: ["rìgh", "rˠiː"],
     br: ["roue", "ˈruːe"],
@@ -503,7 +503,7 @@ WORDS.king = {
     vep: ["kunigaz", "kuniɡaz"],
     vot: ["kunikõz", "ˈkunikɑz"],
     liv: ["kēņig", "ˈkeːɲiɡ"],
-    ba: ["батша", "bɑtˈʂɑ"],  // From Persian bādšāh, a variant of pādišāh.
+    ba: ["батша", "bɑtˈʃɑ"],  // From Persian bādšāh, a variant of pādišāh.
     shn: ["ၶုၼ်ႁေႃၶမ်း", "kʰun˨˦hɔː˨˦kʰam˥"],
     ee: ["fiaŋutsu", "fiaŋutsu"],
     nyn: ["omugabe", "omuɡaβe"],

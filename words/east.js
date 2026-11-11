@@ -370,7 +370,7 @@ WORDS.east = {
     pt: ["este", "ˈɛʃtɨ"],  // Borrowed from French est, from Old English ēast.
     ru: ["восток", "vɐˈstok"],  // From Old Church Slavonic въстокъ 'rising', a calque of Greek ἀνατολή.
     ar: ["شرق", "ʃarq"],  // Wiktionary compares Hebrew זָרַח 'to shine, to rise'.
-    he: ["מזרח", "mizˈroːħ"],  // From the root ז־ר־ח 'to rise, shine': where the sun rises.
+    he: ["מזרח", "mizˈʁaχ"],  // From the root ז־ר־ח 'to rise, shine': where the sun rises.
     tr: ["doğu", "doˈu"],  // From doğ- 'to be born, to rise' + -u.
     fa: ["مشرق", "maʃɾiq"],  // Borrowed from Arabic مَشْرِق.
     tl: ["silangan", "siˈlaŋan"],  // Literally 'place of rising (of the sun)'.
@@ -391,7 +391,7 @@ WORDS.east = {
     ket: ["тъӈбаӈӄолеп", "tʌŋbaŋqɔʎɛp"],
     my: ["အရှေ့", "ʔəʃḛ"],  // အ- + ရှေ့ 'front'.
     lo: ["ທິດຕາເວັນອອກ", "tʰit˧ taː˩˧ ʋen˧˥ ʔɔːk˧˩"],  // ທິດ + ຕາເວັນອອກ 'sun comes out'.
-    yo: ["gabasi", "ɡàbāsì"],
+    yo: ["gabasi", "ɡàbasì"],
     zu: ["impumalanga", "impumalaːnɡa"],  // From -phuma 'to rise' + ilanga 'sun'.
     ain: ["チュㇷ゚カ", "tʃupka"],  // 'sun' + 'on, above'.
     fi: ["itä", "ˈitæ"],  // From Proto-Uralic *itä- 'to appear'.
@@ -442,7 +442,7 @@ WORDS.east = {
     sco: ["aist", "est"],
     yi: ["מזרח", "ˈmɪzʁəχ"],
     is: ["austur", "ˈœistʏr"],
-    br: ["reter", "ʀɛtɛʀ"],
+    br: ["reter", "ˈreːtɛr"],
     co: ["este", "ˈɛste"],
     ca: ["est", "est"],
     gl: ["leste", "ˈlɛste"],
@@ -487,7 +487,7 @@ WORDS.east = {
     kbd: ["къуэкӏыпӏэ", "qʷatʃʼəpa"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     ab: ["амрагылара", "amraɡɨlara"],
     os: ["скæсæн", "skæsæn"],
-    tet: ["lorosaʼe", "lorosa'e"],  // loro 'sun' + sa'e 'climb'.
+    tet: ["lorosaʼe", "lorosaʔe"],  // loro 'sun' + sa'e 'climb'.
     mdr: ["timur", "timur"],
     war: ["sinirangan", "siniˈɾaŋan"],
     ks: ["مشرق", "maʃrik"],
@@ -504,8 +504,8 @@ WORDS.east = {
     vep: ["päivnouzm", "pæivnouzm"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     vot: ["itä", "ˈitæ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     liv: ["mōgõr", "ˈmɒːɡər"],
-    tt: ["көнчыгыш", "ˈkønɕɯˌʁɯʂ"],  // көн 'sun' + чык- 'to come out'.
-    ba: ["көнсығыш", "ˈkʏ̞nsɯ̞ˌʁɯ̞ʂ"],  // көн 'sun' + сыҡ- 'to come out'.
+    tt: ["көнчыгыш", "kønɕɯˈʁɯʃ"],  // көн 'sun' + чык- 'to come out'.
+    ba: ["көнсығыш", "kʏ̞nsɯ̞ˈʁɯ̞ʃ"],  // көн 'sun' + сыҡ- 'to come out'.
     pwo: ["မုထၪ့", "mɯ tʰaɴ"],  // 'the sun' + 'ascend'.
     ess: ["накаӷья", "nakaɣʲja"],
     dsb: ["jutšo", "ˈjutʃɔ"],  // Also 'morning'.

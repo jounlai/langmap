@@ -461,7 +461,7 @@ WORDS.monkey = {
     ka: ["მაიმუნი", "maimuni"],  // From Arabic maymūn, directly or through Turkish or Persian.
     kg: ["nkewa", "nkewa"],  // Inherited from Proto-Bantu *nkɪ́mà.
     khw: ["موکوڑ", "mɔkuɫ"],  // From Sanskrit markaṭa.
-    kk: ["маймыл", "mɑjˈmɯɫ"],  // From Arabic maymūn, directly or through Turkish or Persian.
+    kk: ["маймыл", "mɑjˈmɯl"],  // From Arabic maymūn, directly or through Turkish or Persian.
     kl: ["aapakaaq", "aapakaaq"],  // From Danish abekat.
     km: ["ស្វា", "sʋaː"],
     kmb: ["hima", "hima"],  // From Proto-Bantu *nkɪ́mà.

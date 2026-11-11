@@ -706,7 +706,7 @@ WORDS.spider = {
     bin: ["akpakpa", "akpakpa"],
     kpy: ["аняпэль", "ʔæɲapʲelʲ"],  // From аня 'grandma' + -пэль.
     ket: ["элым", "ɛ˩˧lɯm˧˩"],
-    yo: ["alantakun", "āláŋ̀tākũ̀"],  // Literally 'one who weaves with string'.
+    yo: ["alantakun", "aláŋ̀takũ̀"],  // Literally 'one who weaves with string'.
     yur: ["ʼwes", "ˀweʂ"],
     cag: ["sivôclôc", "siwɒklɒk"],
     ltg: ["ziernyuklis", "ˈzʲiɛ̯rnɨu̯kʲlʲis"],  // Route by resemblance to the neighbouring forms; no etymology of its own.

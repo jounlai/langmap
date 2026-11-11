@@ -921,7 +921,7 @@ WORDS.snake = {
     ket: ["тиг", "tik͉˧"],  // From Proto-Yeniseian *tɬigʌ 'wriggling creature'.
     nv: ["tłʼiish", "tɬʼìːʃ"],
     cng: ["bbixxi", "biʑi"],
-    ii: ["ꁮꏂ", "bʉ˧˧ ʂɨ˧˧"],  // ꁮ 'worm' + ꏂ 'snake'.
+    ii: ["ꁮꏂ", "bʉ˧˧ ʂɿ˧˧"],  // ꁮ 'worm' + ꏂ 'snake'.
     lic: ["dzax", "za˥˥"],
     yua: ["kaan", "kaːn"],
     tzo: ["chon", "tɕʰon"],

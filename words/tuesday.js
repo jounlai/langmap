@@ -430,7 +430,7 @@ WORDS.tuesday = {
     gd: ["Dimàirt", "d̥ʲəˈmãːrˠs̪t̪"],
     br: ["Meurzh", "mœrs"],
     scn: ["marti", "ˈmaɾti"],
-    co: ["marti", "ˈmærti"],
+    co: ["marti", "ˈmarti"],
     lij: ["martedì", "marteˈdi"],
     egl: ["martedé", "marteˈde"],
     ca: ["dimarts", "diˈmals"],

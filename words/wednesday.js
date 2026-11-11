@@ -379,7 +379,7 @@ WORDS.wednesday = {
     pt: ["quarta-feira", "kwaɾtɐˈfɐjɾɐ"],  // quarta-feira, 'fourth weekday'.
     ru: ["среда", "srʲɪˈda"],  // Borrowed from Old Church Slavonic срѣда, 'middle'.
     ar: ["الأربعاء", "alʔarbiʕaːʔ"],  // 'The fourth', after Syriac 'fourth in the week'.
-    he: ["יום רביעי", "jom ʁəviʔi"],
+    he: ["יום רביעי", "jom ʁeviˈʔi"],
     tr: ["çarşamba", "tʃaɾʃamˈba"],  // From Persian چهارشنبه, 'four days after Saturday'.
     fa: ["چهارشنبه", "tʃæhɒːɾʃæmˈbe"],  // چهار 'four' + شنبه.
     tl: ["Miyerkoles", "miˈjeɾkoles"],
@@ -398,7 +398,7 @@ WORDS.wednesday = {
     ket: ["доӈамась иʼ", "dɔŋamaɕ ʲiʔ"],
     my: ["ဗုဒ္ဓဟူး", "boʊʔdəhú"],
     lo: ["ວັນພຸດ", "ʋan˧˥ pʰut˧"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
-    yo: ["Ọjọru", "ɔ̄dʒɔ́ɾú"],  // ọjọ́ 'day' + rú 'to disrupt'.
+    yo: ["Ọjọru", "ɔdʒɔ́ɾú"],  // ọjọ́ 'day' + rú 'to disrupt'.
     zu: ["uLwesithathu", "ulwesitʰaːtʰu"],
     am: ["ረቡዕ", "ˈɾəbuʔ"],
     fi: ["keskiviikko", "ˈkeskiˌʋiːkːo"],  // keski- 'middle' + viikko 'week'.
@@ -435,7 +435,7 @@ WORDS.wednesday = {
     az: ["çərşənbə", "tʃæɾʃænbæ"],
     ug: ["چارشەنبە", "tʃɑrʃɛnbɛ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     kk: ["сәрсенбі", "sæɾsenbə"],
-    ky: ["шаршемби", "ʂɑrʃemˈbi"],
+    ky: ["шаршемби", "ʃɑrʃemˈbi"],
     uz: ["chorshanba", "tʃɒrʃanba"],
     tk: ["çarşenbe", "ˌtʃɑːɾʃenˈbe"],
     mt: ["Erbgħa", "ˈɛrba"],
@@ -520,7 +520,7 @@ WORDS.wednesday = {
     vot: ["kõlmõzpäive", "ˈkɤlmɑzˌpæivæ"],
     liv: ["kuolmõndpǟva", "ˈkuolməndˌpæːvɑ"],
     tt: ["чәршәмбе", "tʃærʃæmbe"],
-    ba: ["шаршамбы", "ʂɑrˈʂɑmbɯ̞"],
+    ba: ["шаршамбы", "ʃɑrˈʃɑmbɯ̞"],
     pwo: ["ပူၬတပၠါ", "pouʔ tə pja"],
     shn: ["ပုၵ်ႈတႁူး", "puk̚˧˧˨ta˨˦huː˥"],
     ee: ["Kuɖagbe", "kuɖaɡbe"],

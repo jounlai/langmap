@@ -497,7 +497,7 @@ WORDS.island = {
     jv: ["pulo", "pulo"],
     ka: ["კუნძული", "kʼundzuli"],
     kjh: ["олтырых", "oltɯrɯx"],
-    kk: ["арал", "ɑˈrɑɫ"],  // From Proto-Mongolic *aral.
+    kk: ["арал", "ɑˈrɑl"],  // From Proto-Mongolic *aral.
     kl: ["qeqertaq", "qiqirtaq"],
     km: ["កោះ", "kɑh"],  // From Proto-Mon-Khmer *tkɔɔʔ.
     kn: ["ದ್ವೀಪ", "d̪ʋiːpa"],  // From Sanskrit dvīpa.

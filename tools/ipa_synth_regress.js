@@ -88,6 +88,7 @@ const CHECK = {
         return end[1] <= .25 && zend[1] >= .9 && peak >= 4.6;
     },
     french_r: p => { const r = phasesOf(p, 'ʁ')[0]; const g = phasesOf(S.plan('jaː˥ ɣaː˦˨'), 'ɣ')[0]; return r.P.F1 >= 650 && r.P.F2 <= 1400 && r.P.AF <= .25 && r.P.RG <= .2 && g.P.AF >= .2; },
+    soleil: p => { const j = phasesOf(p, 'j')[0]; const v = p.phases.filter(ph => ph.kind === 'vowel').pop(); const avAt = t => { const tr = p.tracks.AV; for (let k = 1; k < tr.length; k++) if (tr[k][0] >= t) { const [t0, v0] = tr[k - 1], [t1, v1] = tr[k]; return v0 + (v1 - v0) * (t - t0) / Math.max(1e-9, t1 - t0); } return 0; }; return j.dur >= 100 && avAt(v.t1 - 5) >= .9 && avAt(j.t0 + j.dur * .5) >= .85; },
 };
 
 let bad = 0;

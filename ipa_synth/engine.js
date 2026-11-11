@@ -872,6 +872,10 @@
                     // alone (ja, aja) it needs ~65 ms and a slow exit, or it sounds like l
                     const medial = glideSV && i > 0 && segs[i - 1].type === 'C' && !segs[i - 1].pause && !segs[i - 1].wordEnd;
                     if (glideSV && beforeVowel) nx._glideIn = medial ? 60 : 95;
+                    // a glide closing a word (French soleil sɔlɛj, travail): held as a consonant,
+                    // ~110 ms with the target reached by its middle (65 ms + the final fade made it faint)
+                    const codaGlide = glideSV && !beforeVowel && i > 0 && segs[i - 1].type === 'V' && (!segs[i + 1] || s.wordEnd || segs[i + 1].pause);
+                    if (codaGlide) { push(110 * gem, P, Object.assign({ kind: 'approximant', edgeF: 45, edgeCap: .45, codaGlide: true }, info)); return; }
                     push((glideSV ? (medial ? 35 : 65) : beforeVowel ? 58 : 72) * gem * syl, P, Object.assign({ kind: m === 'lat' ? 'lateral' : 'approximant', edgeF: glideSV ? 45 : 22, edgeCap: glideSV ? .75 : .5 }, info));
                 } else if (m === 'tap' || m === 'ltap') {
                     const P = consTarget(s, V, m);
@@ -935,12 +939,15 @@
             const rising = tn && tn.length > 1 && tn[tn.length - 1] > tn[0];
             if (last && last.P.AV > .3 && !rising) {
                 // fade across the last two sonorant phases when the very last is short (a coda)
-                let a = last.t0; if (last.dur < 120 && phases[k - 1] && phases[k - 1].P.AV > .3) a = phases[k - 1].t0 + phases[k - 1].dur * .5;
-                const from = a + (last.t1 - a) * .35;
+                // a final sonorant consonant (l, n, j …) keeps the vowel full and fades itself
+                // (fading from the vowel's middle made soleil's final j faint)
+                const cons = sg.type === 'C';
+                let a = last.t0; if (!cons && last.dur < 120 && phases[k - 1] && phases[k - 1].P.AV > .3) a = phases[k - 1].t0 + phases[k - 1].dur * .5;
+                const from = a + (last.t1 - a) * (cons ? .55 : .35);
                 const av = tracks.AV, cut = av.filter(p => p[0] < from);
                 const vAt = (() => { const q = av.filter(p => p[0] <= from); return q.length ? q[q.length - 1][1] : last.P.AV; })();
                 const rest = av.filter(p => p[0] > last.t1);
-                tracks.AV = cut.concat([[from, vAt], [last.t1, vAt * .18]], rest);
+                tracks.AV = cut.concat([[from, vAt], [last.t1, vAt * (cons ? .35 : .18)]], rest);
                 const br = tracks.BR; br.push([last.t1 - 1, Math.max(.45, last.P.BR || 0)]); br.sort((x, y) => x[0] - y[0]);
             }
         }

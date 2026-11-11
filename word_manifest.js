@@ -30,7 +30,7 @@ const WORD_CATEGORIES = [
         label: {
             en: "Sky & elements", ja: "空と自然", ko: "하늘과 자연", zh: "天空与自然", yue: "天空同自然", vi: "Trời và thiên nhiên", th: "ท้องฟ้าและธรรมชาติ", id: "Langit & alam", hi: "आकाश और प्रकृति", de: "Himmel & Natur", fr: "Ciel et nature", it: "Cielo e natura", es: "Cielo y naturaleza", pt: "Céu e natureza", ru: "Небо и природа", uk: "Небо і природа", ar: "السماء والطبيعة", he: "שמיים וטבע", sw: "Anga na maumbile"
         },
-        words: ["water", "fire", "sun", "moon", "star", "night", "yesterday", "tomorrow", "rain", "rainbow", "thunder", "snow", "wind", "earth", "earthquake", "stone", "mountain", "sea", "milkyway", "shootingstar", "monday", "week", "sunday", "saturday"],
+        words: ["water", "fire", "sun", "moon", "star", "night", "yesterday", "tomorrow", "rain", "rainbow", "thunder", "snow", "wind", "earth", "earthquake", "stone", "mountain", "sea", "island", "milkyway", "shootingstar", "monday", "week", "sunday", "saturday"],
     },
     {
         key: "people",
@@ -51,21 +51,21 @@ const WORD_CATEGORIES = [
         label: {
             en: "Animals & plants", ja: "動物と植物", ko: "동물과 식물", zh: "动物与植物", yue: "動物同植物", vi: "Động vật và thực vật", th: "สัตว์และพืช", id: "Hewan & tumbuhan", hi: "जानवर और पौधे", de: "Tiere & Pflanzen", fr: "Animaux et plantes", it: "Animali e piante", es: "Animales y plantas", pt: "Animais e plantas", ru: "Животные и растения", uk: "Тварини і рослини", ar: "الحيوانات والنباتات", he: "בעלי חיים וצמחים", sw: "Wanyama na mimea"
         },
-        words: ["tree", "dog", "cat", "fish", "bird", "bat", "butterfly", "dragonfly", "egg", "bear", "lion", "horse", "camel", "elephant", "cuckoo", "woof", "cockcrow", "turkey", "ladybird", "whale", "octopus", "jellyfish", "sunflower"],
+        words: ["tree", "dog", "cat", "fish", "bird", "bat", "butterfly", "dragonfly", "egg", "bear", "lion", "horse", "camel", "elephant", "monkey", "snake", "spider", "cuckoo", "woof", "cockcrow", "turkey", "ladybird", "whale", "octopus", "jellyfish", "sunflower"],
     },
     {
         key: "home",
         label: {
             en: "Home, food & drink", ja: "家と食べもの", ko: "집과 먹거리", zh: "家与饮食", yue: "屋企同飲食", vi: "Nhà cửa và ăn uống", th: "บ้านและอาหาร", id: "Rumah, makanan & minuman", hi: "घर और खान-पान", de: "Haus, Essen & Trinken", fr: "Maison, nourriture et boisson", it: "Casa, cibo e bevande", es: "Casa, comida y bebida", pt: "Casa, comida e bebida", ru: "Дом, еда и питьё", uk: "Дім, їжа і напої", ar: "البيت والطعام والشراب", he: "בית, מאכל ומשקה", sw: "Nyumba, chakula na kinywaji"
         },
-        words: ["house", "window", "milk", "honey", "salt", "soap", "wine", "rice", "chocolate", "sushi", "tea", "coffee", "tobacco", "sugar", "orange", "potato", "tomato", "maize", "pineapple"],
+        words: ["house", "window", "mirror", "milk", "honey", "salt", "soap", "wine", "rice", "chocolate", "sushi", "tea", "coffee", "tobacco", "sugar", "orange", "potato", "tomato", "maize", "pineapple"],
     },
     {
         key: "made",
         label: {
             en: "Things people made", ja: "人のつくったもの", ko: "사람이 만든 것", zh: "人造之物", yue: "人整嘅嘢", vi: "Đồ người làm ra", th: "สิ่งที่มนุษย์สร้าง", id: "Buatan manusia", hi: "मानव-निर्मित वस्तुएँ", de: "Von Menschen Gemachtes", fr: "Objets fabriqués", it: "Cose fatte dall'uomo", es: "Cosas hechas por el hombre", pt: "Coisas feitas pelo homem", ru: "Сделанное людьми", uk: "Зроблене людьми", ar: "مصنوعات البشر", he: "דברים מעשה ידי אדם", sw: "Vitu vilivyotengenezwa"
         },
-        words: ["iron", "wheel", "silk", "cotton", "money", "book", "paper", "computer", "wifi", "mobilephone", "atsign"],
+        words: ["iron", "gold", "wheel", "silk", "cotton", "money", "book", "paper", "computer", "wifi", "mobilephone", "atsign"],
     },
     {
         key: "actions",

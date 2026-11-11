@@ -58,7 +58,7 @@ const legitimate = (t) =>
     // Caucasian palochka, typed as ASCII I or as Ӏ (U+04C0)
     (/[IӀ]/.test(t) && /^[Ѐ-ӿIӀ]+$/u.test(t)) ||
     // Proto-Slavic / OCS: Latin stem carrying the Cyrillic yers
-    (/[ъь]/.test(t) && /^[A-Za-zÀ-ÿĀ-ſ̀-ͯъьěђ]+$/u.test(t)) ||
+    (/[ъь]/.test(t) && /^[A-Za-zÀ-ÿĀ-ſ̀-ͯ\u01EA\u01EBъьěђ]+$/u.test(t)) ||   // ǫ (U+01EB): the Proto-Slavic nasal o
     // Ossetian æ is a letter of its Cyrillic alphabet
     (/^[Ѐ-ӿæÆ]+$/u.test(t));
 

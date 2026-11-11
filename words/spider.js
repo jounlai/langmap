@@ -1,0 +1,632 @@
+/**
+ * Spider — named for its web, its poison or its legs.
+ * 
+ * PARTIAL WORD (🧪). Germanic calls it the spinner: German Spinne, Dutch spin,
+ * Swedish spindel, English spider (from *spinnaną "to spin"). Turkic does the
+ * same with *ȫr- "to spin": örümcek, өрмекші. Older Germanic had the "poison cup",
+ * Danish edderkop and Old English atorcoppe. Latin arānea and Greek ἀράχνη gave
+ * araña, araignée, ragno. Slavic *paǫkъ, from a word for hook, gave паук, pająk,
+ * pavouk and Hungarian pók. Semitic *ʕankab gave عنكبوت and עכביש. Sanskrit
+ * markaṭa gave Hindi मकड़ा and Bengali মাকড়সা. Some names are pictures: Malayalam
+ * എട്ടുകാലി "eight legs", Telugu "fly-tiger", Irish damhán alla "the fierce
+ * little stag". Chains from Wiktionary etymologies. Routes:
+ *   spin     a spinner (Spinne, spider, örümcek)
+ *   aranea   from Latin arānea, Greek ἀράχνη (araña, ragno)
+ *   pauk     Slavic *paǫkъ (паук, pająk, pók)
+ *   ankabut  Semitic *ʕankab (عنكبوت, עכביש)
+ *   markata  from Sanskrit markaṭa (मकड़ा)
+ *   cup      the "poison cup" (edderkop, atorcoppe)
+ *   other    another name (എട്ടുകാലി, damhán alla)
+ *   plain    a word of its own (蜘蛛, 거미, laba-laba)
+ */
+WORDS.spider = {
+  partial: true,
+  emoji: "🕷️",
+  label: {
+    en: "Spider",
+    ja: "蜘蛛",
+    ko: "거미",
+    zh: "蜘蛛",
+    yue: "蜘蛛",
+    vi: "Nhện",
+    th: "แมงมุม",
+    id: "Laba-laba",
+    hi: "मकड़ी",
+    de: "Spinne",
+    fr: "Araignée",
+    it: "Ragno",
+    es: "Araña",
+    es_eu: "Araña",
+    es_mx: "Araña",
+    pt: "Aranha",
+    pt_eu: "Aranha",
+    pt_br: "Aranha",
+    ru: "Паук",
+    uk: "Павук",
+    ar: "عنكبوت",
+    he: "עכביש",
+    sw: "Buibui",
+  },
+  definition: {
+    en: "Spider — the eight-legged web-maker. German Spinne, Swedish spindel and English spider all mean the spinner, and Turkish örümcek comes from a Turkic verb \"to spin\". Latin arānea gave araña and ragno, Slavic gave паук and pająk, Semitic gave عنكبوت, and Sanskrit markaṭa gave Hindi मकड़ा. Some names are little pictures: Malayalam \"eight legs\", Irish \"the fierce little stag\".",
+    ja: "蜘蛛 — 八本脚で網を張る生きもの。ドイツ語 Spinne、スウェーデン語 spindel、英語 spider はどれも「糸を紡ぐもの」で、トルコ語 örümcek もテュルク語の「紡ぐ」から来ている。ラテン語 arānea から araña や ragno が、スラヴ語から паук や pająk が、セム語から عنكبوت が、サンスクリット語 markaṭa からヒンディー語 मकड़ा が生まれた。マラヤーラム語の「八本脚」、アイルランド語の「小さな荒々しい雄鹿」のような絵のような名もある。",
+    ko: "거미 — 다리 여덟 개로 그물을 치는 동물. 독일어 Spinne, 스웨덴어 spindel, 영어 spider는 모두 '실을 잣는 것'이고, 튀르키예어 örümcek도 튀르크어 '잣다'에서 왔다. 라틴어 arānea에서 araña와 ragno가, 슬라브어에서 паук과 pająk가, 셈어에서 عنكبوت가, 산스크리트어 markaṭa에서 힌디어 मकड़ा가 나왔다. 말라얄람어 '여덟 다리', 아일랜드어 '사나운 작은 수사슴'처럼 그림 같은 이름도 있다.",
+    zh: "蜘蛛——八条腿、会结网的动物。德语 Spinne、瑞典语 spindel、英语 spider 都是“纺丝者”，土耳其语 örümcek 也来自突厥语的“纺”。拉丁语 arānea 产生了 araña 和 ragno，斯拉夫语产生了 паук 和 pająk，闪米特语产生了 عنكبوت，梵语 markaṭa 产生了印地语 मकड़ा。也有像图画一样的名字：马拉雅拉姆语叫“八条腿”，爱尔兰语叫“凶猛的小雄鹿”。",
+    yue: "蜘蛛——八隻腳、識結網嘅動物。德文 Spinne、瑞典文 spindel、英文 spider 都係「紡絲嘅」，土耳其文 örümcek 都係嚟自突厥語嘅「紡」。拉丁文 arānea 生出 araña 同 ragno，斯拉夫語生出 паук 同 pająk，閃米特語生出 عنكبوت，梵文 markaṭa 生出印地文 मकड़ा。都有啲名似一幅畫：馬拉雅拉姆語叫「八隻腳」，愛爾蘭文叫「兇猛嘅細雄鹿」。",
+    vi: "Nhện — con vật tám chân giăng tơ. Tiếng Đức Spinne, Thụy Điển spindel và Anh spider đều là \"kẻ kéo tơ\", còn tiếng Thổ Nhĩ Kỳ örümcek đến từ động từ \"kéo sợi\" của tiếng Turk. Tiếng Latinh arānea cho araña và ragno, tiếng Slav cho паук và pająk, tiếng Semit cho عنكبوت, và tiếng Phạn markaṭa cho tiếng Hindi मकड़ा. Có những cái tên như bức tranh nhỏ: tiếng Malayalam \"tám chân\", tiếng Ireland \"chú hươu đực nhỏ hung dữ\".",
+    th: "แมงมุม — สัตว์แปดขาที่ชักใย ภาษาเยอรมัน Spinne สวีเดน spindel และอังกฤษ spider ล้วนหมายถึง \"ผู้ปั่นด้าย\" และภาษาตุรกี örümcek ก็มาจากคำกริยา \"ปั่น\" ของภาษาเตอร์กิก ภาษาละติน arānea ให้ araña และ ragno ภาษาสลาฟให้ паук และ pająk ภาษาเซมิติกให้ عنكبوت และภาษาสันสกฤต markaṭa ให้ภาษาฮินดี मकड़ा บางชื่อเหมือนภาพวาด เช่น ภาษามลยาฬัม \"แปดขา\" และภาษาไอริช \"กวางตัวผู้ตัวน้อยดุร้าย\"",
+    id: "Laba-laba — hewan berkaki delapan yang membuat jaring. Spinne Jerman, spindel Swedia, dan spider Inggris semuanya berarti \"pemintal\", dan örümcek Turki berasal dari kata kerja Turkik \"memintal\". arānea Latin menjadi araña dan ragno, bahasa Slavia memberi паук dan pająk, Semit memberi عنكبوت, dan markaṭa Sanskerta menjadi मकड़ा Hindi. Ada pula nama yang seperti gambar: Malayalam \"delapan kaki\", Irlandia \"rusa jantan kecil yang galak\".",
+    hi: "मकड़ी — आठ टाँगों वाला जाला बुनने वाला जीव। जर्मन Spinne, स्वीडिश spindel और अंग्रेज़ी spider सबका अर्थ \"कातने वाला\" है, और तुर्की örümcek भी तुर्क \"कातना\" से है। लैटिन arānea से araña और ragno बने, स्लाव से паук और pająk, सामी से عنكبوت, और संस्कृत markaṭa से हिन्दी मकड़ा। कुछ नाम छोटे-छोटे चित्र हैं: मलयालम में \"आठ टाँगें\", आयरिश में \"छोटा उग्र हिरन\"।",
+    de: "Spinne — das achtbeinige Netztier. Deutsch Spinne, schwedisch spindel und englisch spider heißen alle „die Spinnende“, und türkisch örümcek kommt von einem Turkverb „spinnen“. Lateinisch arānea ergab araña und ragno, das Slawische паук und pająk, das Semitische عنكبوت, und Sanskrit markaṭa ergab Hindi मकड़ा. Manche Namen sind kleine Bilder: Malayalam „acht Beine“, Irisch „der wilde kleine Hirsch“.",
+    fr: "Araignée — la tisseuse à huit pattes. L'allemand Spinne, le suédois spindel et l'anglais spider veulent tous dire « la fileuse », et le turc örümcek vient d'un verbe turcique « filer ». Le latin arānea a donné araña et ragno, le slave паук et pająk, le sémitique عنكبوت, et le sanskrit markaṭa le hindi मकड़ा. Certains noms sont de petits tableaux : en malayalam « huit pattes », en irlandais « le petit cerf farouche ».",
+    it: "Ragno — l'animale a otto zampe che tesse la tela. Il tedesco Spinne, lo svedese spindel e l'inglese spider vogliono dire «il filatore», e il turco örümcek viene da un verbo turco «filare». Il latino arānea ha dato araña e ragno, lo slavo паук e pająk, il semitico عنكبوت, e il sanscrito markaṭa l'hindi मकड़ा. Alcuni nomi sono piccoli quadri: in malayalam «otto zampe», in irlandese «il piccolo cervo feroce».",
+    es: "Araña — el animal de ocho patas que teje la tela. El alemán Spinne, el sueco spindel y el inglés spider significan «la hilandera», y el turco örümcek viene de un verbo túrquico «hilar». El latín arānea dio araña y ragno, el eslavo паук y pająk, el semítico عنكبوت, y el sánscrito markaṭa el hindi मकड़ा. Algunos nombres son pequeños cuadros: en malayalam «ocho patas», en irlandés «el pequeño ciervo feroz».",
+    es_eu: "Araña — el animal de ocho patas que teje la tela. El alemán Spinne, el sueco spindel y el inglés spider significan «la hilandera», y el turco örümcek viene de un verbo túrquico «hilar». El latín arānea dio araña y ragno, el eslavo паук y pająk, el semítico عنكبوت, y el sánscrito markaṭa el hindi मकड़ा. Algunos nombres son pequeños cuadros: en malayalam «ocho patas», en irlandés «el pequeño ciervo feroz».",
+    es_mx: "Araña — el animal de ocho patas que teje la tela. El alemán Spinne, el sueco spindel y el inglés spider significan «la hilandera», y el turco örümcek viene de un verbo túrquico «hilar». El latín arānea dio araña y ragno, el eslavo паук y pająk, el semítico عنكبوت, y el sánscrito markaṭa el hindi मकड़ा. Algunos nombres son pequeños cuadros: en malayalam «ocho patas», en irlandés «el pequeño ciervo feroz».",
+    pt: "Aranha — o animal de oito patas que tece a teia. O alemão Spinne, o sueco spindel e o inglês spider querem dizer «a fiandeira», e o turco örümcek vem de um verbo túrquico «fiar». O latim arānea deu araña e ragno, o eslavo паук e pająk, o semítico عنكبوت, e o sânscrito markaṭa o hindi मकड़ा. Alguns nomes são pequenos quadros: em malaiala «oito patas», em irlandês «o pequeno veado feroz».",
+    pt_eu: "Aranha — o animal de oito patas que tece a teia. O alemão Spinne, o sueco spindel e o inglês spider querem dizer «a fiandeira», e o turco örümcek vem de um verbo túrquico «fiar». O latim arānea deu araña e ragno, o eslavo паук e pająk, o semítico عنكبوت, e o sânscrito markaṭa o hindi मकड़ा. Alguns nomes são pequenos quadros: em malaiala «oito patas», em irlandês «o pequeno veado feroz».",
+    pt_br: "Aranha — o animal de oito patas que tece a teia. O alemão Spinne, o sueco spindel e o inglês spider querem dizer «a fiandeira», e o turco örümcek vem de um verbo túrquico «fiar». O latim arānea deu araña e ragno, o eslavo паук e pająk, o semítico عنكبوت, e o sânscrito markaṭa o hindi मकड़ा. Alguns nomes são pequenos quadros: em malaiala «oito patas», em irlandês «o pequeno veado feroz».",
+    ru: "Паук — восьминогий ткач паутины. Немецкое Spinne, шведское spindel и английское spider значат «прядильщик», а турецкое örümcek происходит от тюркского глагола «прясть». Латинское arānea дало araña и ragno, славянское — паук и pająk, семитское — عنكبوت, санскритское markaṭa — хинди मकड़ा. Некоторые названия — маленькие картинки: на малаялам «восемь ног», по-ирландски «маленький свирепый олень».",
+    uk: "Павук — восьминогий ткач павутини. Німецьке Spinne, шведське spindel і англійське spider означають «прядильник», а турецьке örümcek походить від тюркського дієслова «прясти». Латинське arānea дало araña і ragno, словʼянське — павук і pająk, семітське — عنكبوت, санскритське markaṭa — гінді मकड़ा. Деякі назви — маленькі малюнки: малаялам «вісім ніг», ірландською «маленький лютий олень».",
+    ar: "عنكبوت — الحيوان ذو الأرجل الثماني الذي ينسج الشبكة. الألمانية Spinne والسويدية spindel والإنجليزية spider كلها تعني «الغازل»، والتركية örümcek من فعل تركي بمعنى «غزل». وأعطت اللاتينية arānea كلمتي araña وragno، والسلافية паук وpająk، والسامية عنكبوت، والسنسكريتية markaṭa الهندية मकड़ा. وبعض الأسماء صور صغيرة: في المالايالامية «ثماني أرجل»، وفي الأيرلندية «الأيل الصغير الشرس».",
+    he: "עכביש — היצור בעל שמונה הרגליים שטווה קורים. הגרמנית Spinne, השוודית spindel והאנגלית spider פירושן \"הטווה\", והטורקית örümcek באה מפועל טורקי \"לטוות\". הלטינית arānea נתנה את araña ו־ragno, הסלאבית את паук ו־pająk, השמית את عنكبوت, והסנסקריט markaṭa את ההינדי मकड़ा. יש שמות שהם תמונות קטנות: במלאיאלאם \"שמונה רגליים\", באירית \"האייל הקטן והפראי\".",
+    sw: "Buibui — mdudu wa miguu minane anayesuka utando. Kijerumani Spinne, Kiswidi spindel na Kiingereza spider vyote vina maana ya \"msokotaji\", na Kituruki örümcek kinatoka kitenzi cha Kiturki \"kusokota\". Kilatini arānea kilizaa araña na ragno, Kislavoni kilizaa паук na pająk, Kisemiti kilizaa عنكبوت, na Kisanskriti markaṭa kilizaa Kihindi मकड़ा. Majina mengine ni picha ndogo: Kimalayalam \"miguu minane\", Kiayalandi \"paa dume mdogo mkali\".",
+  },
+  family: {
+    aa: "plain",
+    aau: "plain",
+    abe: "plain",
+    ady: "spin",
+    af: "spin",
+    aii: "ankabut",
+    ak: "plain",
+    am: "plain",
+    an: "aranea",
+    ang: "cup",
+    ar: "ankabut",
+    arn: "plain",
+    as: "markata",
+    ast: "aranea",
+    av: "plain",
+    ay: "plain",
+    az: "spin",
+    ba: "spin",
+    be: "pauk",
+    bg: "pauk",
+    blt: "plain",
+    bn: "markata",
+    bnn: "plain",
+    bor: "plain",
+    bpy: "plain",
+    bs: "pauk",
+    bug: "plain",
+    bwi: "plain",
+    bzg: "plain",
+    ca: "aranea",
+    car: "plain",
+    cbk: "plain",
+    ce: "plain",
+    ceb: "plain",
+    cgg: "plain",
+    chf: "plain",
+    cia: "plain",
+    ckb: "plain",
+    ckv: "plain",
+    crh: "plain",
+    crs: "plain",
+    crt: "plain",
+    cs: "pauk",
+    csb: "pauk",
+    cv: "plain",
+    cy: "cup",
+    da: "cup",
+    dar: "plain",
+    ddo: "plain",
+    de: "spin",
+    dsb: "pauk",
+    dtp: "plain",
+    ee: "plain",
+    egl: "plain",
+    el: "aranea",
+    emi: "plain",
+    en: "spin",
+    enf: "plain",
+    enm: "spin",
+    enq: "plain",
+    eo: "aranea",
+    es: "aranea",
+    ess: "plain",
+    et: "plain",
+    eu: "plain",
+    eve: "plain",
+    evn: "plain",
+    fa: "ankabut",
+    fi: "plain",
+    fj: "other",
+    fo: "cup",
+    fr: "aranea",
+    frr: "spin",
+    fud: "plain",
+    fur: "aranea",
+    fy: "spin",
+    ga: "other",
+    gag: "spin",
+    gay: "plain",
+    gd: "other",
+    gil: "plain",
+    gl: "aranea",
+    gld: "plain",
+    grt: "plain",
+    gu: "spin",
+    gv: "other",
+    haw: "plain",
+    hch: "plain",
+    he: "ankabut",
+    hi: "markata",
+    hil: "plain",
+    hr: "pauk",
+    hsb: "pauk",
+    ht: "aranea",
+    hu: "pauk",
+    hy: "plain",
+    ia: "aranea",
+    iba: "plain",
+    id: "plain",
+    ik: "plain",
+    ilo: "plain",
+    inh: "plain",
+    is: "other",
+    it: "aranea",
+    ivv: "plain",
+    ja: "plain",
+    jmc: "plain",
+    ka: "plain",
+    kam: "plain",
+    kgg: "plain",
+    khw: "spin",
+    ki: "plain",
+    kjh: "spin",
+    kk: "spin",
+    kky: "plain",
+    kl: "plain",
+    km: "plain",
+    ko: "plain",
+    koi: "plain",
+    kos: "plain",
+    kpv: "plain",
+    krl: "plain",
+    ksb: "plain",
+    ky: "spin",
+    la: "aranea",
+    lb: "spin",
+    lbe: "plain",
+    lez: "plain",
+    liv: "plain",
+    ljp: "plain",
+    lkt: "plain",
+    lmo: "aranea",
+    ln: "plain",
+    lo: "other",
+    lt: "plain",
+    lus: "plain",
+    lv: "other",
+    lzz: "plain",
+    mak: "plain",
+    max: "plain",
+    maz: "plain",
+    mbc: "plain",
+    mdh: "plain",
+    meu: "plain",
+    mg: "plain",
+    mi: "plain",
+    mic: "plain",
+    mk: "pauk",
+    mkz: "plain",
+    ml: "other",
+    mn: "plain",
+    mnc: "plain",
+    mpj: "plain",
+    mrj: "plain",
+    ms: "plain",
+    mt: "plain",
+    my: "plain",
+    myv: "plain",
+    nap: "aranea",
+    nch: "plain",
+    nci: "plain",
+    ne: "plain",
+    nha: "plain",
+    nhe: "plain",
+    nhw: "plain",
+    nhx: "plain",
+    nij: "plain",
+    nio: "plain",
+    niu: "plain",
+    niv: "plain",
+    njo: "plain",
+    nl: "spin",
+    nmf: "plain",
+    no: "plain",
+    nog: "plain",
+    oc: "aranea",
+    oj: "plain",
+    olo: "plain",
+    om: "plain",
+    or: "markata",
+    orv: "pauk",
+    osp: "aranea",
+    ote: "plain",
+    otq: "plain",
+    pa: "markata",
+    pap: "aranea",
+    pjt: "plain",
+    pkp: "plain",
+    pl: "pauk",
+    pmt: "plain",
+    pon: "plain",
+    ppl: "plain",
+    prg: "plain",
+    ps: "plain",
+    pt: "aranea",
+    pyu: "plain",
+    pzh: "plain",
+    qu: "plain",
+    rgn: "aranea",
+    rn: "plain",
+    ro: "pauk",
+    roo: "plain",
+    ru: "pauk",
+    rup: "pauk",
+    sa: "spin",
+    sah: "plain",
+    sas: "plain",
+    sd: "spin",
+    sda: "plain",
+    se: "plain",
+    sel: "plain",
+    sga: "other",
+    shn: "plain",
+    si: "markata",
+    sjd: "plain",
+    sk: "pauk",
+    sl: "pauk",
+    slr: "plain",
+    so: "plain",
+    sq: "other",
+    sr: "pauk",
+    srn: "other",
+    ssf: "plain",
+    st: "plain",
+    su: "plain",
+    suk: "plain",
+    sv: "spin",
+    sw: "plain",
+    syc: "plain",
+    szl: "pauk",
+    ta: "plain",
+    tao: "plain",
+    te: "other",
+    tet: "plain",
+    tg: "ankabut",
+    th: "other",
+    ti: "plain",
+    tkl: "plain",
+    tl: "aranea",
+    tn: "plain",
+    to: "plain",
+    tpi: "plain",
+    tr: "spin",
+    trv: "plain",
+    ts: "plain",
+    tsg: "plain",
+    tsu: "plain",
+    tt: "spin",
+    tvl: "plain",
+    tyz: "plain",
+    tzh: "plain",
+    udm: "plain",
+    uk: "pauk",
+    ur: "markata",
+    vec: "aranea",
+    vep: "plain",
+    vi: "plain",
+    vot: "plain",
+    vro: "plain",
+    wa: "aranea",
+    war: "plain",
+    wbp: "plain",
+    wls: "plain",
+    xh: "plain",
+    xkz: "plain",
+    xmf: "plain",
+    yi: "spin",
+    yrl: "plain",
+    yua: "plain",
+    yue: "plain",
+    zh: "plain",
+  },
+  routes: {
+    spin: {"color":"#059669","emoji":"🧶","en":"a spinner (Spinne, spider, örümcek)","ja":"「紡ぐもの」 (Spinne, spider, örümcek)","ko":"'잣는 것' (Spinne, spider, örümcek)","zh":"“纺丝者” (Spinne, spider, örümcek)","yue":"「紡絲嘅」 (Spinne, spider, örümcek)","vi":"\"kẻ kéo tơ\" (Spinne, spider, örümcek)","th":"\"ผู้ปั่นด้าย\" (Spinne, spider, örümcek)","id":"\"pemintal\" (Spinne, spider, örümcek)","hi":"\"कातने वाला\" (Spinne, spider, örümcek)","de":"„Spinner“ (Spinne, spider, örümcek)","fr":"« fileur » (Spinne, spider, örümcek)","it":"«filatore» (Spinne, spider, örümcek)","es":"«hilandero» (Spinne, spider, örümcek)","pt":"«fiandeiro» (Spinne, spider, örümcek)","ru":"«прядильщик» (Spinne, spider, örümcek)","uk":"«прядильник» (Spinne, spider, örümcek)","ar":"«الغازل» (Spinne, spider, örümcek)","he":"\"הטווה\" (Spinne, spider, örümcek)","sw":"\"msokotaji\" (Spinne, spider, örümcek)"},
+    aranea: {"color":"#2563eb","emoji":"🏛️","en":"from Latin arānea, Greek ἀράχνη (araña, ragno)","ja":"ラテン語 arānea、ギリシャ語 ἀράχνη から (araña, ragno)","ko":"라틴어 arānea, 그리스어 ἀράχνη에서 (araña, ragno)","zh":"来自拉丁语 arānea、希腊语 ἀράχνη (araña, ragno)","yue":"嚟自拉丁語 arānea、希臘語 ἀράχνη (araña, ragno)","vi":"từ tiếng Latinh arānea, Hy Lạp ἀράχνη (araña, ragno)","th":"จากภาษาละติน arānea กรีก ἀράχνη (araña, ragno)","id":"dari arānea Latin, ἀράχνη Yunani (araña, ragno)","hi":"लैटिन arānea, यूनानी ἀράχνη से (araña, ragno)","de":"aus lateinisch arānea, griechisch ἀράχνη (araña, ragno)","fr":"du latin arānea, grec ἀράχνη (araña, ragno)","it":"dal latino arānea, greco ἀράχνη (araña, ragno)","es":"del latín arānea, griego ἀράχνη (araña, ragno)","pt":"do latim arānea, grego ἀράχνη (araña, ragno)","ru":"от латинского arānea, греческого ἀράχνη (araña, ragno)","uk":"від латинського arānea, грецького ἀράχνη (araña, ragno)","ar":"من اللاتينية arānea واليونانية ἀράχνη (araña, ragno)","he":"מהלטינית arānea, מהיוונית ἀράχνη (araña, ragno)","sw":"kutoka Kilatini arānea, Kigiriki ἀράχνη (araña, ragno)"},
+    pauk: {"color":"#dc2626","emoji":"🪝","en":"Slavic *paǫkъ (паук, pająk, pók)","ja":"スラヴ語 *paǫkъ (паук, pająk, pók)","ko":"슬라브어 *paǫkъ (паук, pająk, pók)","zh":"斯拉夫语 *paǫkъ (паук, pająk, pók)","yue":"斯拉夫語 *paǫkъ (паук, pająk, pók)","vi":"tiếng Slav *paǫkъ (паук, pająk, pók)","th":"ภาษาสลาฟ *paǫkъ (паук, pająk, pók)","id":"*paǫkъ Slavia (паук, pająk, pók)","hi":"स्लाव *paǫkъ (паук, pająk, pók)","de":"slawisch *paǫkъ (паук, pająk, pók)","fr":"le slave *paǫkъ (паук, pająk, pók)","it":"lo slavo *paǫkъ (паук, pająk, pók)","es":"el eslavo *paǫkъ (паук, pająk, pók)","pt":"o eslavo *paǫkъ (паук, pająk, pók)","ru":"славянское *paǫkъ (паук, pająk, pók)","uk":"словʼянське *paǫkъ (паук, pająk, pók)","ar":"السلافية *paǫkъ (паук, pająk, pók)","he":"הסלאבית *paǫkъ (паук, pająk, pók)","sw":"Kislavoni *paǫkъ (паук, pająk, pók)"},
+    ankabut: {"color":"#0891b2","emoji":"🌙","en":"Semitic *ʕankab (عنكبوت, עכביש)","ja":"セム語 *ʕankab (عنكبوت, עכביש)","ko":"셈어 *ʕankab (عنكبوت, עכביש)","zh":"闪米特语 *ʕankab (عنكبوت, עכביש)","yue":"閃米特語 *ʕankab (عنكبوت, עכביש)","vi":"tiếng Semit *ʕankab (عنكبوت, עכביש)","th":"ภาษาเซมิติก *ʕankab (عنكبوت, עכביש)","id":"*ʕankab Semit (عنكبوت, עכביש)","hi":"सामी *ʕankab (عنكبوت, עכביש)","de":"semitisch *ʕankab (عنكبوت, עכביש)","fr":"le sémitique *ʕankab (عنكبوت, עכביש)","it":"il semitico *ʕankab (عنكبوت, עכביש)","es":"el semítico *ʕankab (عنكبوت, עכביש)","pt":"o semítico *ʕankab (عنكبوت, עכביש)","ru":"семитское *ʕankab (عنكبوت, עכביש)","uk":"семітське *ʕankab (عنكبوت, עכביש)","ar":"السامية *ʕankab (عنكبوت, עכביש)","he":"השמית *ʕankab (عنكبوت, עכביש)","sw":"Kisemiti *ʕankab (عنكبوت, עכביש)"},
+    markata: {"color":"#d97706","emoji":"🪷","en":"from Sanskrit markaṭa (मकड़ा, মাকড়সা)","ja":"サンスクリット語 markaṭa から (मकड़ा, মাকড়সা)","ko":"산스크리트어 markaṭa에서 (मकड़ा, মাকড়সা)","zh":"来自梵语 markaṭa (मकड़ा, মাকড়সা)","yue":"嚟自梵語 markaṭa (मकड़ा, মাকড়সা)","vi":"từ tiếng Phạn markaṭa (मकड़ा, মাকড়সা)","th":"จากภาษาสันสกฤต markaṭa (मकड़ा, মাকড়সা)","id":"dari markaṭa Sanskerta (मकड़ा, মাকড়সা)","hi":"संस्कृत markaṭa से (मकड़ा, মাকড়সা)","de":"aus Sanskrit markaṭa (मकड़ा, মাকড়সা)","fr":"du sanskrit markaṭa (मकड़ा, মাকড়সা)","it":"dal sanscrito markaṭa (मकड़ा, মাকড়সা)","es":"del sánscrito markaṭa (मकड़ा, মাকড়সা)","pt":"do sânscrito markaṭa (मकड़ा, মাকড়সা)","ru":"от санскритского markaṭa (मकड़ा, মাকড়সা)","uk":"від санскритського markaṭa (मकड़ा, মাকড়সা)","ar":"من السنسكريتية markaṭa (मकड़ा, মাকড়সা)","he":"מהסנסקריט markaṭa (मकड़ा, মাকড়সা)","sw":"kutoka Kisanskriti markaṭa (मकड़ा, মাকড়সা)"},
+    cup: {"color":"#7c2d12","emoji":"☠️","en":"the \"poison cup\" (edderkop, atorcoppe)","ja":"「毒の杯」 (edderkop, atorcoppe)","ko":"'독 잔' (edderkop, atorcoppe)","zh":"“毒杯” (edderkop, atorcoppe)","yue":"「毒杯」 (edderkop, atorcoppe)","vi":"\"chén độc\" (edderkop, atorcoppe)","th":"\"ถ้วยพิษ\" (edderkop, atorcoppe)","id":"\"cawan racun\" (edderkop, atorcoppe)","hi":"\"विष का प्याला\" (edderkop, atorcoppe)","de":"„Giftkopf“ (edderkop, atorcoppe)","fr":"« coupe à poison » (edderkop, atorcoppe)","it":"«coppa del veleno» (edderkop, atorcoppe)","es":"«copa de veneno» (edderkop, atorcoppe)","pt":"«taça de veneno» (edderkop, atorcoppe)","ru":"«ядовитая чаша» (edderkop, atorcoppe)","uk":"«отруйна чаша» (edderkop, atorcoppe)","ar":"«كأس السم» (edderkop, atorcoppe)","he":"\"גביע הרעל\" (edderkop, atorcoppe)","sw":"\"kikombe cha sumu\" (edderkop, atorcoppe)"},
+    other: {"color":"#7c3aed","emoji":"✨","en":"another name","ja":"ほかの名","ko":"다른 이름","zh":"其他名称","yue":"其他名","vi":"tên khác","th":"ชื่ออื่น","id":"nama lain","hi":"कोई और नाम","de":"ein anderer Name","fr":"un autre nom","it":"un altro nome","es":"otro nombre","pt":"outro nome","ru":"другое название","uk":"інша назва","ar":"اسم آخر","he":"שם אחר","sw":"jina jingine"},
+    plain: {"color":"#94a3b8","emoji":"🔤","en":"a word of its own","ja":"固有の語","ko":"고유어","zh":"自有的词","yue":"自有嘅詞","vi":"từ riêng","th":"คำเฉพาะของภาษา","id":"kata tersendiri","hi":"अपना अलग शब्द","de":"ein eigenes Wort","fr":"un mot propre","it":"una parola propria","es":"una palabra propia","pt":"uma palavra própria","ru":"собственное слово","uk":"власне слово","ar":"كلمة خاصة","he":"מילה משלה","sw":"neno lake lenyewe"},
+    unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
+  },
+  data: {
+    aa: ["qaro", "ʕaro"],
+    aau: ["arampou", "arampow"],
+    abe: ["mamselabika", "mamselabika"],
+    ady: ["бэджы", "badʒə"],  // бэ "a lot" + джын "to spin".
+    af: ["spinnekop", "ˈspənəkɔp"],  // From Dutch spinnekop.
+    aii: ["ܥܟܒܝܬܐ", "ʕakkɑːwiːθɑː"],  // From Semitic *ʕankab-, Arabic ʕankabūt.
+    ak: ["ananse", "ananse"],
+    am: ["ሸረሪት", "ʃərərit"],  // Possibly of Cushitic origin; compare Geʽez śaret.
+    an: ["araina", "aˈɾaina"],  // From Latin arānea or Greek ἀράχνη.
+    ang: ["atorcoppe", "ˈɑːtorˌkoppe"],  // "Poison cup": Germanic *aitrą "poison" + *kuppaz "something round".
+    ar: ["عنكبوت", "ʕankabuːt"],  // From Semitic *ʕankab-, Arabic ʕankabūt.
+    arn: ["llalliñ", "llalliɲ"],
+    as: ["মকৰা", "mɔkɔɹa"],  // From Sanskrit markaṭa "spider", the word that also gave Marathi माकड "monkey".
+    ast: ["araña", "aɾaɲa"],  // From Latin arānea or Greek ἀράχνη.
+    av: ["хъанхъра", "qχːanqχːra"],
+    ay: ["kusikusi", "kusikusi"],
+    az: ["hörümçək", "hœɾymˈtʃæk"],  // A spinner: from a verb "to spin".
+    ba: ["үрмәксе", "ʏrmækˈsi̞"],  // A spinner: from a verb "to spin".
+    be: ["павук", "paˈvuk"],  // From Proto-Slavic *paǫkъ.
+    bg: ["паяк", "ˈpajɐk"],  // From Proto-Slavic *paǫkъ.
+    blt: ["ꪎꪲ꪿ꪉꪎꪱꪫ", "siŋ˦˥saːw˨"],
+    bn: ["মাকড়সা", "makoɽʃa"],  // From Sanskrit markaṭa "spider", the word that also gave Marathi माकड "monkey".
+    bnn: ["kakatu", "kakatu"],
+    bor: ["bakaigo", "bakaiɡo"],
+    bpy: ["মাকড়সা", "makorʃa"],
+    bs: ["pauk", "pauk"],  // From Proto-Slavic *paǫkъ.
+    bug: ["garaŋkaŋ", "ɡaraŋkaŋ"],
+    bwi: ["éeni", "éeni"],
+    bzg: ["tarrara", "tarrara"],
+    ca: ["aranya", "əˈɾaɲə"],  // From Latin arānea or Greek ἀράχνη.
+    car: ["kupina", "kupina"],
+    cbk: ["gagamba", "ɡaɡamˈba"],
+    ce: ["гезг", "ɡezɡ"],
+    ceb: ["kaka", "kaka"],
+    cgg: ["orutangura", "orutanɡura"],
+    chf: ["ajchiwoʼ", "ʔahtʃiwoʔ"],
+    cia: ["laβalaβa", "laβalaβa"],
+    ckb: ["جاڵجاڵۆکە", "dʒaːɫdʒaːɫoːka"],
+    ckv: ["paqaw", "paqaw"],
+    crh: ["biy", "bij"],
+    crs: ["bib", "bib"],
+    crt: ["siwalak", "siwalak"],
+    cs: ["pavouk", "ˈpavouk"],  // From Proto-Slavic *paǫkъ.
+    csb: ["pajk", "pajk"],  // From Proto-Slavic *paǫkъ.
+    cv: ["эрешмен", "ereʃmen"],
+    cy: ["cop", "kɔp"],  // From Middle English coppe, from Old English copp, from Proto-West Germanic *kopp "round object".
+    da: ["edderkop", "ˈeðˀɐˌkʰʌp"],  // "Poison cup": Germanic *aitrą "poison" + *kuppaz "something round".
+    dar: ["хъисхъа", "qisqa"],
+    ddo: ["бозогъу", "bozoʁu"],
+    de: ["Spinne", "ˈʃpɪnə"],  // An agent noun from the verb "to spin".
+    dsb: ["pawk", "pawk"],  // From Proto-Slavic *paǫkъ.
+    dtp: ["korut", "korut"],
+    ee: ["yiyi", "jiji"],
+    egl: ["râgn", "ˈraːɲ"],
+    el: ["αράχνη", "aˈɾaxni"],  // From Latin arānea or Greek ἀράχνη.
+    emi: ["batibati", "batibati"],
+    en: ["spider", "spaɪdə"],  // Old English spīþra, from Proto-Germanic *spinnaną "to spin"; it displaced attercop, the "poison-head".
+    enf: ["nibi", "nibi"],
+    enm: ["spynnere", "ˈspinərə"],  // A spinner: from a verb "to spin".
+    enq: ["aete", "aete"],
+    eo: ["araneo", "araˈneo"],  // From Latin arānea or Greek ἀράχνη.
+    es: ["araña", "aˈɾaɲa"],  // From Latin arānea or Greek ἀράχνη.
+    ess: ["апайыпайиӄ", "apajɨpajiq"],
+    et: ["ämblik", "ˈæmblik"],
+    eu: ["armiarma", "armiarma"],
+    eve: ["атаки", "ataki"],
+    evn: ["атакӣ", "atakiː"],
+    fa: ["عنکبوت", "ʔænkæˈbuːt"],  // From Semitic *ʕankab-, Arabic ʕankabūt.
+    fi: ["hämähäkki", "ˈhæmæˌhækːi"],
+    fj: ["viritalawalawa", "βiritalawalawa"],  // virita "to throw" + lawalawa "cobweb": the web-thrower.
+    fo: ["eiturkoppur", "ˈaiːtʊɹ̥ˌkʰɔʰpːʊɹ"],  // "Poison cup": Germanic *aitrą "poison" + *kuppaz "something round".
+    fr: ["araignée", "aʁɛɲe"],  // From Latin arānea or Greek ἀράχνη.
+    frr: ["Spen", "spɛn"],  // Cognate with Dutch spin and German Spinne, the spinner.
+    fud: ["kaleveleve", "kaleveleve"],
+    fur: ["ragn", "raɲ"],  // From Latin arānea or Greek ἀράχνη.
+    fy: ["spin", "spɪn"],  // A spinner: from a verb "to spin".
+    ga: ["damhán alla", "ˌd̪ˠuanˠ ˈal̪ˠɪː"],  // From Old Irish damán allaid, "the fierce little stag".
+    gag: ["örümcäk", "ørymˈdʒæc"],  // A spinner: from a verb "to spin".
+    gay: ["lɔlawah", "lɔlawah"],
+    gd: ["damhan-allaidh", "t̪ˠavanˈal̪ˠɪ"],  // From Old Irish damán allaid, "the fierce little stag".
+    gil: ["areau", "aɾeau"],
+    gl: ["araña", "aˈɾaɲa"],  // From Latin arānea or Greek ἀράχνη.
+    gld: ["атакан", "atakan"],
+    grt: ["guang", "ɡuanɡ"],
+    gu: ["કરોળિયો", "ˈkəɾoɭijo"],  // From Sanskrit kolika "weaver".
+    gv: ["doo-oallee", "duː ˈoli"],  // From Old Irish damán allaid, "the fierce little stag".
+    haw: ["nananana", "nananana"],
+    hch: ["tuuká", "tuuka"],
+    he: ["עכביש", "akaˈviʃ"],  // From Semitic *ʕankab-, Arabic ʕankabūt.
+    hi: ["मकड़ा", "məkɽaː"],  // From Sanskrit markaṭa "spider", the word that also gave Marathi माकड "monkey".
+    hil: ["damang", "daˈmaŋ"],
+    hr: ["pauk", "pâuːk"],  // From Proto-Slavic *paǫkъ.
+    hsb: ["pawk", "pawk"],  // From Proto-Slavic *paǫkъ.
+    ht: ["zariyen", "zaɣijɛ̃"],  // From Latin arānea or Greek ἀράχνη.
+    hu: ["pók", "poːk"],  // From a Slavic language, from Proto-Slavic *paǫkъ.
+    hy: ["սարդ", "sɑɾd"],
+    ia: ["aranea", "aranea"],  // From Latin arānea or Greek ἀράχνη.
+    iba: ["empelawa", "əmpəlawaʔ"],
+    id: ["laba-laba", "ˌlaba ˈlaba"],
+    ik: ["aasrivak", "aasʐivak"],
+    ilo: ["lawwa", "lawwa"],
+    inh: ["гизг", "ɡizɡ"],
+    is: ["könguló", "ˈkʰœiŋkʏˌlou"],  // From Old Norse kǫngurváfa; the first element is from Proto-Germanic *kang-.
+    it: ["ragno", "ˈraɲɲo"],  // From Latin arāneus.
+    ivv: ["hahawa", "hahawa"],
+    ja: ["蜘蛛", "kɯmo"],  // A native word written with the Chinese characters; its derivation is unknown.
+    jmc: ["mbwii", "mbwii"],
+    ka: ["ობობა", "oboba"],
+    kam: ["mbUavUI", "mbuaβui"],
+    kgg: ["pəŋga", "pəŋɡa"],
+    khw: ["شوبیناک", "ɕubinɑk"],  // šu "bolt of cloth" + binák "weaver": the cloth-weaver.
+    ki: ["mbũmbũĩ", "mbomboe"],
+    kjh: ["ірімӌік", "ɘrɘmdʒɘk"],  // A spinner: from a verb "to spin".
+    kk: ["өрмекші", "ørmekʃi"],  // From Proto-Turkic *ȫrmekči, from *ȫr- "to spin".
+    kky: ["bulubul", "bulubul"],
+    kl: ["aasiak", "aasiak"],
+    km: ["ពីងពាង", "piːŋ piəŋ"],  // From Proto-Mon-Khmer *ɓiŋ, with ablauting reduplication.
+    ko: ["거미", "kʌmi"],
+    koi: ["черань", "tɕʲeraɲ"],
+    kos: ["pwepwenu", "pwepwenu"],
+    kpv: ["черань", "ˈtɕeraɲ"],
+    krl: ["hämehikki", "ˈhæmeˌhikːi"],
+    ksb: ["ubwii", "ubwii"],
+    ky: ["жөргөмүш", "dʒørɡømyʃ"],  // From Proto-Turkic *ȫr- "to spin".
+    la: ["araneus", "aˈraːneus"],  // From Latin arānea or Greek ἀράχνη.
+    lb: ["Spann", "ʃpɑn"],  // From the base of the verb "to spin".
+    lbe: ["ххялцу", "χːjaltsu"],
+    lez: ["хуьшрекан", "χyʃrekan"],
+    liv: ["ēbrikš", "ˈeːbrikʃ"],
+    ljp: ["lɑwɑh", "lawah"],
+    lkt: ["iktómi", "iktómi"],
+    lmo: ["ragn", "raɲ"],  // From Latin arānea or Greek ἀράχνη.
+    ln: ["alulu", "alulu"],
+    lo: ["ແມງມຸມ", "mɛːŋ˧˥mum˧˥"],  // ແມງ "arachnid, bug" + ມຸມ "corner".
+    lt: ["voras", "ˈvɔːrɐs"],
+    lus: ["maimawm", "maimawm"],
+    lv: ["zirneklis", "ˈzirneklis"],  // zirnis "pea" + -eklis.
+    lzz: ["ბობოლა", "bobola"],
+    mak: ["bolang-bolang", "ˌbolamˈbolaŋ"],
+    max: ["labalaba", "labalaba"],
+    maz: ["mexe", "meʃe"],
+    mbc: ["moyoi", "mojoi"],
+    mdh: ["lalawa", "lalawa"],
+    meu: ["magera", "maɡera"],
+    mg: ["halabe", "halabe"],
+    mi: ["pūngāwerewere", "puːŋaːwerewere"],
+    mic: ["goʼgwejij", "koːkʷetʃitʃ"],
+    mk: ["пајак", "ˈpajak"],  // From Proto-Slavic *paǫkъ.
+    mkz: ["boboraka", "boboraka"],
+    ml: ["എട്ടുകാലി", "eʈʈuɡaːli"],  // എട്ട് "eight" + കാൽ "leg": the eight-legged one.
+    mn: ["аалз", "aːɮts"],
+    mnc: ["ᡥᡝᠯᠮᡝᡥᡝᠨ", "χəlməχən"],
+    mpj: ["taapari", "taapaɻi"],
+    mrj: ["ӓнгӹремшӹ", "æŋɡɯremʃɯ"],
+    ms: ["labah", "labah"],
+    mt: ["brimb", "brɪmp"],
+    my: ["ပင့်ကူ", "pɪ̰ɴɡù"],  // Probably of Mon origin; compare Khmer ពីងពាង.
+    myv: ["шанжав", "ʃanʒav"],
+    nap: ["rancio", "ˈraɲdʒə"],  // From Latin arānea or Greek ἀράχνη.
+    nch: ["tokatl", "tokatɬ"],
+    nci: ["tocatl", "tokatɬ"],
+    ne: ["माकुरा", "makuɾa"],
+    nha: ["athu", "at̪u"],
+    nhe: ["tokatl", "tokatɬ"],
+    nhw: ["tokatl", "tokatɬ"],
+    nhx: ["tocaꞌ", "ˈtokaʔ"],
+    nij: ["sabangkang", "sabanɡkanɡ"],
+    nio: ["имиз̌иай", "jimʲiðʲiɐj"],
+    niu: ["kufani", "kufani"],
+    niv: ["кывғыв", "kɤvɣɤv"],
+    njo: ["sorak", "soɹak"],
+    nl: ["spin", "spɪn"],  // An agent noun from spinnen "to spin", for the webs.
+    nmf: ["karkao", "karkao"],
+    no: ["edderkopp", "ˈɛdərkɔp"],
+    nog: ["бий", "bij"],
+    oc: ["aranha", "aˈraɲɔ"],  // From Latin arānea or Greek ἀράχνη.
+    oj: ["asabikeshiinh", "asabikeːʃĩː"],
+    olo: ["hämähäkki", "hæmæhækki"],
+    om: ["sarariitii", "sarariːtiː"],
+    or: ["ମକ୍ରୀ", "mɔkɾi"],  // From Sanskrit markaṭa "spider", the word that also gave Marathi माकड "monkey".
+    orv: ["паукъ", "paukŭ"],  // From Proto-Slavic *paǫkъ.
+    osp: ["aranna", "aˈɾaɲa"],  // From Latin arānea or Greek ἀράχνη.
+    ote: ["mexe", "meʃe"],
+    otq: ["mexe", "meʃe"],
+    pa: ["ਮੱਕੜੀ", "məkkəɽiː"],  // From Sanskrit markaṭa "spider", the word that also gave Marathi माकड "monkey".
+    pap: ["araña", "araɲa"],  // From Latin arānea or Greek ἀράχνη.
+    pjt: ["waṉka", "waɳka"],
+    pkp: ["mangamanga", "mankamanka"],
+    pl: ["pająk", "ˈpajɔŋk"],  // From Proto-Slavic *paǫkъ.
+    pmt: ["tukutuku", "tukutuku"],
+    pon: ["likan", "likan"],
+    ppl: ["tukat", "ˈtukat"],
+    prg: ["spendiks", "spendiks"],
+    ps: ["غڼه", "ɣəɳa"],
+    pt: ["aranha", "aˈɾɐ̃ɲɐ"],  // From Latin arānea or Greek ἀράχνη.
+    pyu: ["kamakamaŋ", "kamakamaŋ"],
+    pzh: ["kakasu", "kakasu"],
+    qu: ["apasanka", "apasanka"],
+    rgn: ["râgn", "ˈrɤɤ̃ɲ"],  // From Latin arānea or Greek ἀράχνη.
+    rn: ["ikitangurirwa", "ikitanɡuɾiɾwa"],
+    ro: ["păianjen", "pəˈjanʒen"],  // Borrowed from Old Church Slavonic *pajǫžina, from Proto-Slavic *paǫkъ.
+    roo: ["akave", "akaβe"],
+    ru: ["паук", "pɐˈuk"],  // From Proto-Slavic *paǫkъ.
+    rup: ["pangu", "panɡu"],  // From Proto-Slavic *paǫkъ.
+    sa: ["तन्तुवाय", "tɐntuʋaːjɐ"],  // तन्तु "thread" + वाय "weaver".
+    sah: ["ооҕуй", "oːʁuj"],
+    sas: ["bərarak", "bərarak"],
+    sd: ["ڪوريئڙو", "koːɾɪjəɽoː"],  // From Sanskrit kolika "weaver".
+    sda: ["laa", "laa"],
+    se: ["heavdni", "ˈhea̯vːtniː"],
+    sel: ["отая", "otaja"],
+    sga: ["damán allaid", "ˌdaβ̃aːn ˈaləðʲ"],  // damán "calf, fawn" + allaid "wild".
+    shn: ["ၵူင်ႇၵၢဝ်", "koŋ˩kaːw˨˦"],
+    si: ["මකුළුවා", "məkuluʋaː"],  // From Sanskrit markaṭa "spider", the word that also gave Marathi माकड "monkey".
+    sjd: ["е̄внэшш", "jievneʃː"],
+    sk: ["pavúk", "pavuːk"],  // From Proto-Slavic *paǫkъ.
+    sl: ["pajek", "paːjək"],  // From Proto-Slavic *paǫkъ.
+    slr: ["böy", "pøj"],
+    so: ["caaro", "ʕaaro"],
+    sq: ["merimangë", "mɛɾiˈmaŋɡə"],  // Borrowed from Greek μυρμήγκι "ant", per its first attestation.
+    sr: ["паук", "pâuːk"],  // From Proto-Slavic *paǫkъ.
+    srn: ["anansi", "aˈnansi"],  // From Akan ananse "spider".
+    ssf: ["kakatu", "kakatu"],
+    st: ["sekgo", "sɛkxɔ"],
+    su: ["lancah", "lantʃah"],
+    suk: ["itandala", "itandala"],
+    sv: ["spindel", "ˈspɪndɛl"],  // Old Swedish spinnil: spinna "to spin" + an agent suffix.
+    sw: ["buibui", "buibui"],
+    syc: ["ܓܘܓܝ", "ɡəwaɣaj"],
+    szl: ["pajōnk", "ˈpajoŋk"],  // From Proto-Slavic *paǫkъ.
+    ta: ["சிலந்தி", "tʃɪland̪iː"],
+    tao: ["aaraw", "aaraw"],
+    te: ["ఈగపులి", "iːɡapuli"],  // ఈగ "fly" + పులి "tiger": the fly-tiger.
+    tet: ["labadain", "labadain"],
+    tg: ["анкабӯт", "ankaˈbɵt"],  // From Semitic *ʕankab-, Arabic ʕankabūt.
+    th: ["แมงมุม", "mɛːŋ˧mum˧"],  // แมง "arachnid, bug" + มุม "corner".
+    ti: ["ሳሬት", "saret"],
+    tkl: ["kūmā", "kuːmaː"],
+    tl: ["aranya", "ʔaɾanˈja"],  // From Latin arānea or Greek ἀράχνη.
+    tn: ["segokgo", "seχokχo"],
+    to: ["hina", "hina"],
+    tpi: ["lawa", "lawa"],  // From Malay labah-labah.
+    tr: ["örümcek", "øɾymˈdʒec"],  // A spinner: from a verb "to spin".
+    trv: ["krobaw", "kɾobaw"],
+    ts: ["pume", "pume"],
+    tsg: ["lawaꞌ", "lawaʔ"],
+    tsu: ["kakatu", "kakatu"],
+    tt: ["үрмәкүч", "yrmækytʃ"],  // Cognate with Turkish örümcek.
+    tvl: ["naleau", "naleau"],
+    tyz: ["xao", "saːw˧˧"],
+    tzh: ["am", "am"],
+    udm: ["чонари", "tɕonari"],
+    uk: ["павук", "pɐˈwuk"],  // From Proto-Slavic *paǫkъ.
+    ur: ["مکڑی", "məkɽiː"],  // From Sanskrit markaṭa "spider", the word that also gave Marathi माकड "monkey".
+    vec: ["ràgno", "ˈraɲo"],  // From Latin arānea or Greek ἀράχνη.
+    vep: ["hämähouk", "hæmæhouk"],
+    vi: ["nhện", "ɲen˧˨ʔ"],
+    vot: ["hämöläin", "ˈhæmølæin"],
+    vro: ["härm", "hærm"],
+    wa: ["araegne", "aʀɛɲ"],  // From Latin arānea or Greek ἀράχνη.
+    war: ["lawa", "ˈlawaʔ"],
+    wbp: ["yinarrki", "jinaɻɻki"],
+    wls: ["kaleveleve", "kaleveleve"],
+    xh: ["isigcawu", "isiɡǀaːwu"],
+    xkz: ["la", "la"],
+    xmf: ["ბორბოლია", "borbolia"],
+    yi: ["שפּין", "ʃpɪn"],  // From Old High German spinna, the spinner.
+    yrl: ["yandú", "jãˈdu"],
+    yua: ["am", "am"],
+    yue: ["蜘蛛", "tsiː˥ tsyː˥"],
+    zh: ["蜘蛛", "ʈʂʅ˥ ʈʂu˥"],  // A reduplicated Old Chinese word (Baxter and Sagart 1998).
+  },
+};

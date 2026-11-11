@@ -382,7 +382,7 @@ WORDS.king = {
     ar: ["ملك", "malik"],  // From Proto-Semitic *malk-.
     he: ["מלך", "malk"],  // From Proto-Semitic *malk-.
     tr: ["kral", "kɾaɫ"],  // From a South Slavic language; compare Proto-Slavic *korľь.
-    fa: ["شاه", "ʃoː"],  // Persian šāh, from Old Persian xšāyaθiya 'king'.
+    fa: ["شاه", "ʃɒːh"],  // Persian šāh, from Old Persian xšāyaθiya 'king'.
     tl: ["hari", "ˈhaɾiʔ"],  // Borrowed from Old Javanese haji.
     mn: ["ван", "waŋ"],  // From Classical Mongolian wang, from Mandarin 王.
     sah: ["король", "korolʲ"],  // Borrowed from Russian король.

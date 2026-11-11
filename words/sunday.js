@@ -689,7 +689,7 @@ WORDS.sunday = {
     en_nz: ["Sunday", "ˈsɐndæe"],
     en_south: ["Sunday", "ˈsʌndæɪ"],
     en_ke: ["Sunday", "ˈsʌndeː"],
-    en: ["Sunday", "ˈsʌndɪ"],
+    en: ["Sunday", "ˈsʌndeɪ"],
     en_em: ["Sunday", "ˈsʊndɪ"],
     en_us: ["Sunday", "ˈsʌndeɪ"],
     en_za: ["Sunday", "ˈsʌndeː"],

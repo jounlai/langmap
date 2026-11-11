@@ -408,7 +408,7 @@ WORDS.east = {
     ga: ["oirthear", "ˈeɾʲhəɾˠ"],  // From Old Irish air- 'front, east'.
     eu: ["sortalde", "s̺ortalde"],  // sortu 'to emerge' + alde 'side'.
     cy: ["dwyrain", "ˈdʊɨ̯rain"],  // Verb-noun of dwyre 'rise into view'.
-    ka: ["აღმოსავლეთი", "ärmo̞sävle̞tʰi"],  // Literally 'a place from where it comes up towards us', the sun.
+    ka: ["აღმოსავლეთი", "aʁmosavletʰi"],  // Literally 'a place from where it comes up towards us', the sun.
     hy: ["արևելք", "ɑɾeˈvelkʰ"],
     nv: ["haʼaʼaah", "hɑ̀ʔɑ̀ʔɑ̀ːh"],  // ha- 'up out' + a verb.
     haw: ["hikina", "hikina"],  // From hiki 'to come': the sun's coming.

@@ -906,7 +906,7 @@ WORDS.snake = {
     wbt: ["jila", "ɟila"],
     wls: ["gata", "kata"],
     wo: ["jaan", "dʒaːn"],
-    xal: ["моһа", "moˈra"],
+    xal: ["моһа", "moˈʁa"],
     xh: ["inyoka", "iɲoːka"],
     xmf: ["გვერი", "ɡveri"],
     yi: ["שלאַנג", "ʃlaŋɡ"],

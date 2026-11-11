@@ -355,7 +355,7 @@ WORDS.friday = {
     bn: ["শুক্রবার", "ʃukɾobaɾ"],
     ur: ["جمعہ", "dʒʊmʔɑː"],  // From Arabic jumʿa via Persian.
     ta: ["வெள்ளிக்கிழமை", "ʋeɭːikːiɻamai"],  // வெள்ளி 'Venus' + கிழமை 'day'.
-    en: ["Friday", "ˈfɹaɪdɪ"],  // From Old English frīġedæġ, 'day of Frigg'.
+    en: ["Friday", "ˈfraɪdeɪ"],  // From Old English frīġedæġ, 'day of Frigg'.
     de: ["Freitag", "ˈfʁaɪ̯tax"],  // From Old High German frīatag, 'day of Frigg', a calque of Latin diēs Veneris.
     fr: ["vendredi", "vɑ̃dʁədi"],  // From Latin Veneris diēs, 'day of Venus'.
     it: ["venerdì", "venerˈdi"],  // From Latin Veneris diēs, 'day of Venus'.

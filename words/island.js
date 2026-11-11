@@ -440,7 +440,7 @@ WORDS.island = {
     chk: ["fonu", "fonu"],
     ckt: ["иԓир", "iɬir"],
     co: ["isula", "ˈizula"],  // From Latin īnsula, directly or through a later language.
-    cop: ["ⲙⲟⲩⲓ", "muː"],
+    cop: ["ⲙⲟⲩⲓ", "muːj"],
     crh: ["ada", "ada"],
     cs: ["ostrov", "ˈostrof"],  // Slavic: land around the stream (*ostrovъ, akin to "stream"; otok, o- "around" + tok "flow").
     csb: ["òstrów", "ˈwɛstrof"],  // Slavic: land around the stream (*ostrovъ, akin to "stream"; otok, o- "around" + tok "flow").

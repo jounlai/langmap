@@ -30,21 +30,21 @@ const WORD_CATEGORIES = [
         label: {
             en: "Sky & elements", ja: "空と自然", ko: "하늘과 자연", zh: "天空与自然", yue: "天空同自然", vi: "Trời và thiên nhiên", th: "ท้องฟ้าและธรรมชาติ", id: "Langit & alam", hi: "आकाश और प्रकृति", de: "Himmel & Natur", fr: "Ciel et nature", it: "Cielo e natura", es: "Cielo y naturaleza", pt: "Céu e natureza", ru: "Небо и природа", uk: "Небо і природа", ar: "السماء والطبيعة", he: "שמיים וטבע", sw: "Anga na maumbile"
         },
-        words: ["water", "fire", "sun", "moon", "star", "night", "yesterday", "tomorrow", "rain", "rainbow", "thunder", "snow", "wind", "earth", "earthquake", "stone", "mountain", "sea", "island", "milkyway", "shootingstar", "monday", "week", "sunday", "saturday"],
+        words: ["water", "fire", "sun", "east", "moon", "star", "night", "yesterday", "tomorrow", "rain", "rainbow", "thunder", "snow", "wind", "earth", "earthquake", "stone", "mountain", "sea", "island", "milkyway", "shootingstar", "monday", "tuesday", "wednesday", "friday", "week", "sunday", "saturday"],
     },
     {
         key: "people",
         label: {
             en: "People", ja: "人", ko: "사람", zh: "人", yue: "人", vi: "Con người", th: "ผู้คน", id: "Orang", hi: "लोग", de: "Menschen", fr: "Personnes", it: "Persone", es: "Personas", pt: "Pessoas", ru: "Люди", uk: "Люди", ar: "الناس", he: "אנשים", sw: "Watu"
         },
-        words: ["mother", "father", "grandmother", "uncle", "daughter", "wife", "olderbrother", "i", "you", "we", "name", "person"],
+        words: ["mother", "father", "grandmother", "uncle", "daughter", "wife", "husband", "olderbrother", "i", "you", "we", "name", "person", "king"],
     },
     {
         key: "body",
         label: {
             en: "Body & feeling", ja: "からだと心", ko: "몸과 마음", zh: "身体与情感", yue: "身體同感情", vi: "Cơ thể và cảm xúc", th: "ร่างกายและความรู้สึก", id: "Tubuh & perasaan", hi: "शरीर और भाव", de: "Körper & Gefühl", fr: "Corps et sentiment", it: "Corpo e sentimento", es: "Cuerpo y sentimiento", pt: "Corpo e sentimento", ru: "Тело и чувства", uk: "Тіло і почуття", ar: "الجسد والشعور", he: "גוף ורגש", sw: "Mwili na hisia"
         },
-        words: ["head", "eye", "tear", "ear", "nose", "mouth", "tooth", "tongue", "hand", "right", "thumb", "littlefinger", "foot", "heart", "bone", "blood", "poop", "love", "wisdomtooth", "goosebumps", "adamsapple", "hangover", "dopamine"],
+        words: ["head", "eye", "tear", "ear", "nose", "mouth", "tooth", "tongue", "language", "hand", "right", "left", "thumb", "littlefinger", "foot", "heart", "bone", "blood", "poop", "love", "kiss", "wisdomtooth", "goosebumps", "adamsapple", "hangover", "dopamine"],
     },
     {
         key: "nature",
@@ -58,7 +58,7 @@ const WORD_CATEGORIES = [
         label: {
             en: "Home, food & drink", ja: "家と食べもの", ko: "집과 먹거리", zh: "家与饮食", yue: "屋企同飲食", vi: "Nhà cửa và ăn uống", th: "บ้านและอาหาร", id: "Rumah, makanan & minuman", hi: "घर और खान-पान", de: "Haus, Essen & Trinken", fr: "Maison, nourriture et boisson", it: "Casa, cibo e bevande", es: "Casa, comida y bebida", pt: "Casa, comida e bebida", ru: "Дом, еда и питьё", uk: "Дім, їжа і напої", ar: "البيت والطعام والشراب", he: "בית, מאכל ומשקה", sw: "Nyumba, chakula na kinywaji"
         },
-        words: ["house", "window", "mirror", "milk", "honey", "salt", "soap", "wine", "rice", "chocolate", "sushi", "tea", "coffee", "tobacco", "sugar", "orange", "potato", "tomato", "maize", "pineapple"],
+        words: ["house", "window", "mirror", "milk", "cheese", "butter", "honey", "salt", "soap", "wine", "rice", "bread", "chocolate", "sushi", "tea", "coffee", "tobacco", "sugar", "orange", "potato", "tomato", "chili", "maize", "pineapple"],
     },
     {
         key: "made",

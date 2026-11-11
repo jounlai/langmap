@@ -797,7 +797,7 @@ WORDS.twenty = {
     czh_wy: ["二十", "ø˥˩ sɑ˥˩"],
     yue: ["二十", "jiː˨ sɐp˨"],  // 廿 in 廿一 and the like.
     nan: ["二十", "dʑi˧˧ tsap˦"],
-    zh_tw: ["二十", "ɑɻ˥˩ ʂʐ̩˧˥"],
+    zh_tw: ["二十", "ɚ˥˩ ʂʐ̩˧˥"],
     wuu: ["廿", "ɲie˨˧"],  // 二十 is the written form.
     hak_cn: ["二十", "ŋi˥˧ sɨp˥"],
     zh_db: ["二十", "ɚ˥˧ ʂʐ̩˧˥"],

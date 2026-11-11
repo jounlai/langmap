@@ -11,17 +11,17 @@
  */
 (function () {
     'use strict';
-    const V = '?v=43';
+    const V = '?v=44';
     const BASE = '/ipa_synth/';
     const STR = {
         en: { open: 'Pronunciation', close: 'Close', hintHover: 'Point at a word on the map, or in a language panel, to hear it.', hintTap: 'Tap a word on the map to hear it; tap it again to open its language.',
-              note: 'Synthesized from the IPA by rule: an approximation, not checked by native speakers.', unlock: 'Click anywhere once to turn the sound on.', none: 'No IPA for this word.', male: 'male', female: 'female', child: 'child', replay: 'Replay' },
+              note: 'Synthesized from the IPA by rule: an approximation, not checked by native speakers.', unlock: 'Click anywhere once to turn the sound on.', none: 'No IPA for this word.', male: 'male', female: 'female', child: 'child', replay: 'Replay', spec: 'Tap to switch: frequency bars / spectrogram' },
         ja: { open: '発音', close: '閉じる', hintHover: '地図や言語の詳細の単語にマウスを重ねると読み上げます。', hintTap: '地図の単語をタップすると読み上げ、もう一度タップすると言語の詳細が開きます。',
-              note: 'IPAから規則で合成した近似音です。ネイティブによる確認はしていません。', unlock: '音を出すには、まず画面を一度クリックしてください。', none: 'この単語にはIPAがありません。', male: '男声', female: '女声', child: '子ども', replay: 'もう一度' },
+              note: 'IPAから規則で合成した近似音です。ネイティブによる確認はしていません。', unlock: '音を出すには、まず画面を一度クリックしてください。', none: 'この単語にはIPAがありません。', male: '男声', female: '女声', child: '子ども', replay: 'もう一度', spec: 'タップで切り替え：周波数バー／スペクトログラム' },
         ko: { open: '발음', close: '닫기', hintHover: '지도나 언어 정보의 단어에 마우스를 올리면 읽어 줍니다.', hintTap: '지도의 단어를 누르면 읽어 주고, 한 번 더 누르면 언어 정보가 열립니다.',
-              note: 'IPA를 규칙으로 합성한 근사음입니다. 원어민 확인은 거치지 않았습니다.', unlock: '소리를 켜려면 화면을 한 번 클릭하세요.', none: '이 단어에는 IPA가 없습니다.', male: '남성', female: '여성', child: '어린이', replay: '다시 듣기' },
+              note: 'IPA를 규칙으로 합성한 근사음입니다. 원어민 확인은 거치지 않았습니다.', unlock: '소리를 켜려면 화면을 한 번 클릭하세요.', none: '이 단어에는 IPA가 없습니다.', male: '남성', female: '여성', child: '어린이', replay: '다시 듣기', spec: '눌러서 전환: 주파수 막대 / 스펙트로그램' },
         zh: { open: '发音', close: '关闭', hintHover: '将鼠标移到地图或语言详情中的词语上即可朗读。', hintTap: '点按地图上的词语即可朗读，再点一次打开该语言的详情。',
-              note: '根据 IPA 按规则合成的近似音，未经母语者核对。', unlock: '请先点击一下页面以开启声音。', none: '这个词没有 IPA。', male: '男声', female: '女声', child: '童声', replay: '重播' },
+              note: '根据 IPA 按规则合成的近似音，未经母语者核对。', unlock: '请先点击一下页面以开启声音。', none: '这个词没有 IPA。', male: '男声', female: '女声', child: '童声', replay: '重播', spec: '点按切换：频率条 / 语谱图' },
     };
     const lang = () => {
         const l = (document.documentElement.lang || 'en').toLowerCase();
@@ -31,7 +31,7 @@
     const canHover = () => window.matchMedia && matchMedia('(hover: hover) and (pointer: fine)').matches;
 
     let open = false, loaded = null, AC = null, src = null, plan = null, startAt = 0, raf = 0, hoverTimer = 0, lastEl = null;
-    let panel, canvas, elWord, elIpa, elName, elHint, btn, voiceSel;
+    let panel, canvas, specCv, spec = null, specMode = 'bars', elWord, elIpa, elName, elHint, btn, voiceSel;
 
     const css = `
     .speak-fab { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; min-width: 44px;
@@ -58,6 +58,7 @@
     .speak-panel .sp-word { font-size: 20px; font-weight: 600; word-break: break-word; }
     .speak-panel .sp-ipa { font: 15px "Doulos SIL", "Charis SIL", "Gentium Plus", "Noto Sans", serif; color: #444; word-break: break-word; }
     .speak-panel .sp-name { color: #6b6b6b; font-size: 12px; margin-top: 2px; }
+    .speak-panel .sp-spec { display: block; width: 100%; height: 56px; margin-top: 6px; border-radius: 8px; background: #10141c; cursor: pointer; }
     .speak-panel .sp-hint { color: #555; margin-top: 6px; }
     .speak-panel .sp-row { display: flex; gap: 6px; margin-top: 6px; align-items: center; }
     .speak-panel .sp-row select, .speak-panel .sp-row button { font: inherit; font-size: 12px; padding: 3px 8px; border: 1px solid #ccc; border-radius: 8px; background: #fff; color: #222; cursor: pointer; }
@@ -78,6 +79,7 @@
         .speak-panel .sp-row { margin-top: 4px; }
         .speak-panel .sp-close { width: 28px; height: 28px; }
         .speak-panel .sp-note { display: none; }
+        .speak-panel .sp-spec { height: 38px; margin-top: 4px; }
     }
     @media (prefers-color-scheme: dark) {
         html[data-theme="dark"] .speak-panel { background: rgba(33,36,40,.96); color: #e8e6e3; border-color: #3a3d42; }
@@ -107,10 +109,18 @@
         panel.className = 'speak-panel'; panel.hidden = true; panel.setAttribute('role', 'dialog'); panel.setAttribute('aria-modal', 'false');
         panel.innerHTML = '<div class="sp-head"><span class="sp-title"></span><button type="button" class="sp-close">×</button></div>'
             + '<div class="sp-body"><canvas width="128" height="160" aria-hidden="true"></canvas><div class="sp-text"><div class="sp-word" dir="auto"></div><div class="sp-ipa" dir="ltr"></div><div class="sp-name"></div></div></div>'
+            + '<canvas class="sp-spec" width="512" height="112" role="img"></canvas>'
             + '<div class="sp-hint"></div><div class="sp-row"><select class="sp-voice"><option value="female"></option><option value="male"></option><option value="child"></option></select><button type="button" class="sp-replay"></button></div>'
             + '<div class="sp-note"></div>';
         document.body.appendChild(panel);
         canvas = panel.querySelector('canvas');
+        specCv = panel.querySelector('.sp-spec');
+        try { specMode = localStorage.getItem('lm_speak_spec') === 'gram' ? 'gram' : 'bars'; } catch (_) {}
+        specCv.addEventListener('click', () => {
+            specMode = specMode === 'bars' ? 'gram' : 'bars';
+            try { localStorage.setItem('lm_speak_spec', specMode); } catch (_) {}
+            drawSpec(src && plan ? Math.max(0, (AC.currentTime - startAt) * 1000) : null);
+        });
         elWord = panel.querySelector('.sp-word'); elIpa = panel.querySelector('.sp-ipa'); elName = panel.querySelector('.sp-name'); elHint = panel.querySelector('.sp-hint');
         voiceSel = panel.querySelector('.sp-voice');
         try { voiceSel.value = localStorage.getItem('lm_speak_voice') || 'female'; } catch (_) {}
@@ -166,6 +176,7 @@
         const locked = AC == null || AC.state === 'suspended';
         elHint.textContent = (open && locked && canHover() ? T('unlock') + ' ' : '') + (canHover() ? T('hintHover') : T('hintTap'));
         panel.querySelector('.sp-note').textContent = T('note');
+        specCv.title = T('spec'); specCv.setAttribute('aria-label', T('spec'));
     }
 
     // speak=1 in the URL hash: the page's own hash writer keeps it while window.__speakOpen is set
@@ -230,6 +241,86 @@
         window.VocalTract.draw(canvas, window.IPASynth.sample(p, 0), { time: 0, labels: {} });
     }
 
+    // The strip under the mouth: the word's own samples, analysed once (no AnalyserNode, so it
+    // also moves when the phone is muted). Short-time spectra every 5 ms, 512-point FFT.
+    function fft(re, im) {
+        const n = re.length;
+        for (let i = 1, j = 0; i < n; i++) { let b = n >> 1; for (; j & b; b >>= 1) j ^= b; j ^= b; if (i < j) { let t = re[i]; re[i] = re[j]; re[j] = t; t = im[i]; im[i] = im[j]; im[j] = t; } }
+        for (let len = 2; len <= n; len <<= 1) {
+            const a = -2 * Math.PI / len, wr = Math.cos(a), wi = Math.sin(a);
+            for (let i = 0; i < n; i += len) {
+                let cr = 1, ci = 0;
+                for (let k = 0; k < len / 2; k++) {
+                    const p = i + k, q = p + len / 2, xr = re[q] * cr - im[q] * ci, xi = re[q] * ci + im[q] * cr;
+                    re[q] = re[p] - xr; im[q] = im[p] - xi; re[p] += xr; im[p] += xi;
+                    const t = cr * wr - ci * wi; ci = cr * wi + ci * wr; cr = t;
+                }
+            }
+        }
+    }
+    function analyse(x, fs) {
+        const N = 512, hop = Math.round(fs * .005), bins = Math.min(N / 2, Math.round(7500 / fs * N));
+        const win = new Float32Array(N); for (let i = 0; i < N; i++) win[i] = .5 - .5 * Math.cos(2 * Math.PI * i / N);
+        const frames = [], re = new Float32Array(N), im = new Float32Array(N);
+        let top = -200;
+        for (let s0 = -N / 2; s0 < x.length - N / 2; s0 += hop) {
+            for (let i = 0; i < N; i++) { const v = x[s0 + i]; re[i] = (v || 0) * win[i]; im[i] = 0; }
+            fft(re, im);
+            const f = new Float32Array(bins);
+            for (let b = 0; b < bins; b++) { f[b] = 10 * Math.log10(re[b] * re[b] + im[b] * im[b] + 1e-10); if (f[b] > top) top = f[b]; }
+            frames.push(f);
+        }
+        // bar bands: 24, log-spaced 90-7500 Hz
+        const edges = []; for (let k = 0; k <= 24; k++) edges.push(Math.max(1, Math.round(90 * Math.pow(7500 / 90, k / 24) / fs * N)));
+        return { frames, top, hop: hop / fs * 1000, bins, edges, img: null, lev: new Float32Array(24), cap: new Float32Array(24), last: 0 };
+    }
+    const heat = v => {   // 0..1 → dark blue, violet, orange, pale yellow
+        const st = [[16, 20, 28], [40, 50, 140], [160, 60, 160], [240, 120, 60], [255, 240, 170]];
+        const x = Math.max(0, Math.min(1, v)) * 4, i = Math.min(3, Math.floor(x)), f = x - i;
+        return st[i].map((c, k) => Math.round(c + (st[i + 1][k] - c) * f));
+    };
+    function gramImage(sp, W, H) {
+        const img = new ImageData(W, H), d = img.data, n = sp.frames.length;
+        for (let x = 0; x < W; x++) {
+            const fr = sp.frames[Math.min(n - 1, Math.floor(x / W * n))];
+            for (let y = 0; y < H; y++) {
+                const b = Math.min(sp.bins - 1, Math.floor((1 - y / H) * sp.bins));
+                const [r, g, bl] = heat((fr[b] - (sp.top - 55)) / 55), o = (y * W + x) * 4;
+                d[o] = r; d[o + 1] = g; d[o + 2] = bl; d[o + 3] = 255;
+            }
+        }
+        return img;
+    }
+    // t: ms into the word, or null when nothing is playing
+    function drawSpec(t) {
+        if (!specCv) return;
+        const c = specCv.getContext('2d'), W = specCv.width, H = specCv.height;
+        c.fillStyle = '#10141c'; c.fillRect(0, 0, W, H);
+        if (!spec) return;
+        const now = performance.now(), dt = Math.min(100, now - (spec.last || now)); spec.last = now;
+        if (specMode === 'gram') {
+            if (!spec.img) spec.img = gramImage(spec, W, H);
+            c.putImageData(spec.img, 0, 0);
+            if (t != null && plan) {
+                const x = Math.min(W - 1, t / (spec.frames.length * spec.hop) * W);
+                c.fillStyle = 'rgba(255,255,255,.85)'; c.fillRect(x - 1, 0, 2, H);
+            }
+            return;
+        }
+        const fr = t != null ? spec.frames[Math.min(spec.frames.length - 1, Math.floor(t / spec.hop))] : null;
+        const nb = 24, gap = 3, bw = (W - gap * (nb + 1)) / nb;
+        for (let k = 0; k < nb; k++) {
+            let m = -200; if (fr) for (let b = spec.edges[k]; b <= Math.max(spec.edges[k], spec.edges[k + 1] - 1) && b < spec.bins; b++) m = Math.max(m, fr[b]);
+            const target = fr ? Math.max(0, Math.min(1, (m - (spec.top - 60)) / 60)) : 0;
+            // fast attack, slow fall; caps hang, then drop
+            spec.lev[k] = target > spec.lev[k] ? target : Math.max(target, spec.lev[k] - dt / 400);
+            spec.cap[k] = Math.max(spec.lev[k], spec.cap[k] - dt / 900);
+            const x = gap + k * (bw + gap), h = spec.lev[k] * (H - 6), [r, g, b] = heat(.3 + .7 * k / nb);
+            c.fillStyle = `rgb(${r},${g},${b})`; c.fillRect(x, H - h, bw, h);
+            if (spec.cap[k] > .02) { c.fillStyle = 'rgba(255,255,255,.8)'; c.fillRect(x, H - spec.cap[k] * (H - 6) - 4, bw, 2); }
+        }
+    }
+
     function nameOf(el) {
         const n = el.querySelector('.name') || (el.closest('.lang-label, .globe-label') || el).querySelector('.name');
         if (n) return n.textContent.trim();
@@ -244,7 +335,7 @@
         elIpa.textContent = ipa && ipa !== '—' ? ipa : '';
         elName.textContent = nameOf(el);
         mark(el);
-        if (!ipa || ipa === '—') { elIpa.textContent = T('none'); stop(); return; }
+        if (!ipa || ipa === '—') { elIpa.textContent = T('none'); stop(); spec = null; drawSpec(null); return; }
         load().then(() => {
             if (lastEl !== el || !open) return;
             if (!window.IPASynth || !window.VocalTract) return;
@@ -255,6 +346,7 @@
             const out = S.render(plan, { voice: voiceSel.value });
             if (!AC || AC.state === 'closed') AC = new (window.AudioContext || window.webkitAudioContext)();
             if (AC.state !== 'running') AC.resume().catch(() => {});
+            spec = analyse(out.samples, out.fs);
             const buf = AC.createBuffer(1, out.samples.length, out.fs);
             buf.getChannelData(0).set(out.samples);
             src = AC.createBufferSource(); src.buffer = buf; src.connect(AC.destination);
@@ -266,9 +358,14 @@
                 // a context that never starts (iOS during a call) keeps its clock at 0: stop drawing
                 if (performance.now() - wall > plan.T + 2000) return;
                 const t = Math.max(0, (AC.currentTime - startAt) * 1000);
-                const st = S.sample(plan, Math.min(t, plan.T)), ph = st.phase;   // the segment tells the drawing where the friction is
-                window.VocalTract.draw(canvas, st, { time: performance.now(), seg: ph && ph.seg >= 0 ? plan.segs[ph.seg] : null, phase: ph, labels: {} });
-                if (t < plan.T && src === me) raf = requestAnimationFrame(loop);
+                const end = t >= plan.T;
+                if (!end || !loop.done) {
+                    const st = S.sample(plan, Math.min(t, plan.T)), ph = st.phase;   // the segment tells the drawing where the friction is
+                    window.VocalTract.draw(canvas, st, { time: performance.now(), seg: ph && ph.seg >= 0 ? plan.segs[ph.seg] : null, phase: ph, labels: {} });
+                    loop.done = end;
+                }
+                drawSpec(end ? null : t);   // after the word the bars fall and the spectrogram stays
+                if (!end || (specMode === 'bars' && spec.cap.some(v => v > .02))) raf = requestAnimationFrame(loop);
             };
             cancelAnimationFrame(raf); raf = requestAnimationFrame(loop);
         }).catch(() => { elHint.textContent = 'Could not load the synthesizer.'; });

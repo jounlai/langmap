@@ -34,6 +34,22 @@
         }
         if (closed) ctx.closePath();
     }
+    // centripetal Catmull-Rom (alpha 0.5): no cusps or self-loops where points bunch up,
+    // so the tongue outline stays one smooth curve whatever the pose
+    function smooth(ctx, pts) {
+        const n = pts.length, P = i => pts[(i + n) % n];
+        const d = (a, b) => Math.pow(Math.hypot(b[0] - a[0], b[1] - a[1]) || 1e-3, .5);
+        ctx.moveTo(pts[0][0], pts[0][1]);
+        for (let i = 0; i < n; i++) {
+            const p0 = P(i - 1), p1 = P(i), p2 = P(i + 1), p3 = P(i + 2);
+            const d1 = d(p0, p1), d2 = d(p1, p2), d3 = d(p2, p3);
+            // Yuksel et al. (2011): Bezier control points of the centripetal segment p1 -> p2
+            const c1 = [0, 1].map(k => (d1 * d1 * p2[k] - d2 * d2 * p0[k] + (2 * d1 * d1 + 3 * d1 * d2 + d2 * d2) * p1[k]) / (3 * d1 * (d1 + d2)));
+            const c2 = [0, 1].map(k => (d3 * d3 * p1[k] - d2 * d2 * p3[k] + (2 * d3 * d3 + 3 * d3 * d2 + d2 * d2) * p2[k]) / (3 * d3 * (d3 + d2)));
+            ctx.bezierCurveTo(c1[0], c1[1], c2[0], c2[1], p2[0], p2[1]);
+        }
+        ctx.closePath();
+    }
     function mul(seed) { return () => { seed |= 0; seed = seed + 0x6D2B79F5 | 0; let t = Math.imul(seed ^ seed >>> 15, 1 | seed); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
 
     function draw(canvas, S, info) {
@@ -135,24 +151,51 @@
 
         // ---- tongue: a circle-capped body from the tip back to the hyoid
         const cx = S.cx, cy = S.cy;
-        // dorsum: the upper arc of a circle; root: the front wall of the pharynx, further back for back/low tongues
-        const arc = [];
-        for (let a = -160; a <= -20; a += 20) { const r = a * Math.PI / 180; arc.push([Math.min(cx + R * Math.cos(r), 280), cy + R * Math.sin(r)]); }
-        const rootX = Math.min(281, Math.max(243 + .25 * (cx - 150) + .2 * (cy - 231), cx + R * .98 - 4));
+        // One smooth outline, clockwise from the tip: blade, dorsum (the upper arc of the body
+        // circle), root down the pharynx to the hyoid, the floor of the mouth, and under the tip.
+        // Few, evenly spread points through a centripetal spline: no kinks, waists or necks.
+        // Dorsum: a wide half-ellipse whose top is the body circle's top (so every constriction
+        // stays where it was), instead of a small circle sitting on a wider base (which drew a
+        // mushroom with shoulders). It never rises through the palate.
+        const palY = x => {
+            if (x <= PAL[0][0]) return PAL[0][1];
+            for (let k = 1; k < PAL.length; k++) if (x <= PAL[k][0]) { const [x0, y0] = PAL[k - 1], [x1, y1] = PAL[k]; return y0 + (y1 - y0) * (x - x0) / (x1 - x0); }
+            return 181 - (x - 226) * .1;   // the velum
+        };
         const tip = [S.tx, S.ty];
-        const a0 = arc[0];
         const curl = S.curl > .2;
-        const blade = curl
-            ? [(tip[0] + a0[0]) / 2 + 2, Math.max(tip[1] + 5, (tip[1] + a0[1]) / 2)]
-            : [tip[0] * .45 + a0[0] * .55, Math.min(tip[1] + 2, (tip[1] + a0[1]) / 2 - 1)];
-        const under = curl ? [tip[0] + 3, tip[1] + 9] : [tip[0] + 6, tip[1] + 11];
-        const underBlade = [Math.max(under[0] + 8, blade[0] + 4), Math.max(under[1] + 10, blade[1] + 18)];
-        const floorFront = J([100, 270]);
-        const raised = tip[1] < cy - 8;
-        const tipRound = [tip[0] - 2, tip[1] + 5];
-        const front = raised ? [floorFront, underBlade, under, tipRound] : [floorFront, under, tipRound];
-        const pts = [tip, blade, ...arc, [rootX, Math.max(cy + 20, arc[arc.length - 1][1] + 26)], [rootX - 4, 306], [250, 334], [200, 342], J([130, 318]), ...front];
-        ctx.beginPath(); spline(ctx, pts, true);
+        const raised = tip[1] < cy - 10;
+        // the dorsum's top is the body circle's top, so every constriction stays where it was;
+        // around it the outline slopes away smoothly (a few key points through the spline)
+        const top = cy - R;
+        const backX = Math.min(279, cx + 58);
+        const arc = [[cx - 30, top + 9], [cx, top], [cx + 30, top + 9], [backX, top + 36]]
+            .map(([x, y]) => [Math.min(x, 279), Math.max(y, palY(x) + 3)]);
+        if (raised) arc.shift();   // a raised blade runs straight up to the dorsum's top: no dip between them
+        const a0 = arc[0];
+        const rootX = Math.min(278, Math.max(arc[arc.length - 1][0] - 2, 243 + .25 * (cx - 150)));
+        const floorFront = J([96, 276]);
+        const front = [];   // clockwise: under the tip, the tip, the blade's top
+        if (raised) {
+            // a raised tip: a thick blade tapering to a rounded tip; a retroflex tip curls back,
+            // so its top sags
+            const dx = a0[0] - tip[0], dy = a0[1] - tip[1], L = Math.hypot(dx, dy) || 1, nx = dy / L, ny = -dx / L;   // normal, up-left
+            const m1 = [tip[0] + dx * .5, tip[1] + dy * .5];
+            // underside: down from the tip into the floor of the mouth, a shallow hollow only
+            const lowBlade = [tip[0] + 5, tip[1] + 20];
+            front.push([Math.max(floorFront[0] + 10, tip[0] - 2), (lowBlade[1] + floorFront[1]) / 2 + 4], lowBlade);
+            front.push(curl ? [tip[0] + 5, tip[1] + 6] : [tip[0] + 2, tip[1] + 7], tip);
+            front.push(curl ? [m1[0] + 3, m1[1] + 1] : [m1[0] + nx * 3, m1[1] + ny * 3]);
+        } else {
+            // tip down behind the lower teeth: the front of the tongue is one rounded slope
+            front.push([tip[0] + 4, tip[1] + 11], [tip[0] - 1, tip[1] + 3]);   // a rounded tip
+            // a back tongue leaves a long blade lying on the floor of the mouth: give it a gently
+            // convex top instead of a notch between the tip and the dorsum
+            const dx = a0[0] - tip[0];
+            if (dx > 40) front.push([tip[0] + dx * .45, tip[1] + (a0[1] - tip[1]) * .5]);
+        }
+        const pts = [...front, ...arc, [rootX, Math.max(arc[arc.length - 1][1] + 30, cy + 26)], [rootX - 4, 304], [rootX - 24, 333], [200, 341], J([134, 321]), floorFront];
+        ctx.beginPath(); smooth(ctx, pts);
         ctx.fillStyle = C.tongue; ctx.fill(); ctx.strokeStyle = C.tongueLine; ctx.lineWidth = 1.4; ctx.stroke();
         if (S.lat > .3) {          // lateral: air escapes past the sides of the tongue
             ctx.save(); ctx.setLineDash([3, 3]); ctx.strokeStyle = C.flow; ctx.lineWidth = 1.6; ctx.globalAlpha = S.lat;

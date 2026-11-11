@@ -11,7 +11,7 @@
  */
 (function () {
     'use strict';
-    const V = '?v=41';
+    const V = '?v=42';
     const BASE = '/ipa_synth/';
     const STR = {
         en: { open: 'Pronunciation', close: 'Close', hintHover: 'Point at a word on the map, or in a language panel, to hear it.', hintTap: 'Tap a word on the map to hear it; tap it again to open its language.',
@@ -258,7 +258,8 @@
             const loop = () => {
                 if (!open || plan == null) return;
                 const t = Math.max(0, (AC.currentTime - startAt) * 1000);
-                window.VocalTract.draw(canvas, S.sample(plan, Math.min(t, plan.T)), { time: performance.now(), labels: {} });
+                const st = S.sample(plan, Math.min(t, plan.T)), ph = st.phase;   // the segment tells the drawing where the friction is
+                window.VocalTract.draw(canvas, st, { time: performance.now(), seg: ph && ph.seg >= 0 ? plan.segs[ph.seg] : null, phase: ph, labels: {} });
                 if (t < plan.T && src === me) raf = requestAnimationFrame(loop);
             };
             cancelAnimationFrame(raf); raf = requestAnimationFrame(loop);

@@ -11,7 +11,7 @@
  */
 (function () {
     'use strict';
-    const V = '?v=42';
+    const V = '?v=43';
     const BASE = '/ipa_synth/';
     const STR = {
         en: { open: 'Pronunciation', close: 'Close', hintHover: 'Point at a word on the map, or in a language panel, to hear it.', hintTap: 'Tap a word on the map to hear it; tap it again to open its language.',
@@ -89,6 +89,7 @@
         if (loaded) return loaded;
         const add = f => new Promise((res, rej) => { const s = document.createElement('script'); s.src = BASE + f + V; s.onload = res; s.onerror = rej; document.head.appendChild(s); });
         loaded = (window.IPASynth ? Promise.resolve() : add('engine.js')).then(() => window.VocalTract ? null : add('tract.js'));
+        loaded.catch(() => { loaded = null; });   // a failed download is retried on the next word, not remembered
         return loaded;
     }
 
@@ -181,15 +182,19 @@
     // suspended, and resume() outside a gesture does nothing (sometimes never settles). On the
     // next touch, resume it; if the page was in the background, replace the context outright,
     // and play one silent sample so the new context is unlocked inside the gesture.
-    let stale = false;
+    // A context is replaced at most once per return from the background and never twice within
+    // 3 s: while a call or another app holds the audio, every tap used to close and open a new
+    // context (two per tap: touchend + pointerdown), and Safari can hang when contexts pile up.
+    let stale = false, lastNew = 0;
     document.addEventListener('visibilitychange', () => { if (document.hidden) stale = true; else if (AC && AC.state !== 'running') AC.resume().catch(() => {}); });
     window.addEventListener('pagehide', () => { stale = true; });
     function wake() {
         try {
             const Ctx = window.AudioContext || window.webkitAudioContext;
-            if (AC && AC.state !== 'running' && (stale || AC.state === 'interrupted')) { try { AC.close(); } catch (_) {} AC = null; }
+            const now = Date.now();
+            if (AC && AC.state !== 'running' && stale && now - lastNew > 3000) { try { AC.close().catch(() => {}); } catch (_) {} AC = null; }
             stale = false;
-            if (!AC) AC = new Ctx();
+            if (!AC) { AC = new Ctx(); lastNew = now; }
             if (AC.state !== 'running') AC.resume().catch(() => {});
             const b = AC.createBuffer(1, 1, 22050), s = AC.createBufferSource(); s.buffer = b; s.connect(AC.destination); s.start(0);
         } catch (_) {}
@@ -197,7 +202,7 @@
     ['touchend', 'pointerdown', 'keydown'].forEach(ev => document.addEventListener(ev, () => { if (open && (!AC || AC.state !== 'running' || stale)) wake(); }, true));
     // after a reload the panel is open but audio is still locked until the first click/tap
     function unlockOnGesture() {
-        const go = () => { try { AC = AC || new (window.AudioContext || window.webkitAudioContext)(); if (AC.state === 'suspended') AC.resume(); } catch (_) {} relabel(); };
+        const go = () => { try { AC = AC || new (window.AudioContext || window.webkitAudioContext)(); if (AC.state === 'suspended') AC.resume().catch(() => {}); } catch (_) {} relabel(); };
         document.addEventListener('pointerdown', go, { once: true, capture: true });
         document.addEventListener('keydown', go, { once: true, capture: true });
     }
@@ -205,7 +210,7 @@
         open = true; window.__speakOpen = true; panel.hidden = false; btn.setAttribute('aria-pressed', 'true');
         syncUrl();
         if (fromUrl) unlockOnGesture();
-        try { AC = AC || new (window.AudioContext || window.webkitAudioContext)(); if (AC.state === 'suspended') AC.resume(); } catch (_) {}
+        try { AC = AC || new (window.AudioContext || window.webkitAudioContext)(); if (AC.state === 'suspended') AC.resume().catch(() => {}); } catch (_) {}
         relabel();
         load().then(() => drawRest()).catch(() => { elHint.textContent = 'Could not load the synthesizer.'; });
     }
@@ -242,6 +247,7 @@
         if (!ipa || ipa === '—') { elIpa.textContent = T('none'); stop(); return; }
         load().then(() => {
             if (lastEl !== el || !open) return;
+            if (!window.IPASynth || !window.VocalTract) return;
             stop();
             const S = window.IPASynth;
             const code = el.getAttribute('data-code') || (el.closest('[data-code]') && el.closest('[data-code]').getAttribute('data-code')) || '';
@@ -253,17 +259,19 @@
             buf.getChannelData(0).set(out.samples);
             src = AC.createBufferSource(); src.buffer = buf; src.connect(AC.destination);
             startAt = AC.currentTime + .02; src.start(startAt);
-            const me = src;
+            const me = src, wall = performance.now();
             src.onended = () => { if (src === me) src = null; };
             const loop = () => {
                 if (!open || plan == null) return;
+                // a context that never starts (iOS during a call) keeps its clock at 0: stop drawing
+                if (performance.now() - wall > plan.T + 2000) return;
                 const t = Math.max(0, (AC.currentTime - startAt) * 1000);
                 const st = S.sample(plan, Math.min(t, plan.T)), ph = st.phase;   // the segment tells the drawing where the friction is
                 window.VocalTract.draw(canvas, st, { time: performance.now(), seg: ph && ph.seg >= 0 ? plan.segs[ph.seg] : null, phase: ph, labels: {} });
                 if (t < plan.T && src === me) raf = requestAnimationFrame(loop);
             };
             cancelAnimationFrame(raf); raf = requestAnimationFrame(loop);
-        });
+        }).catch(() => { elHint.textContent = 'Could not load the synthesizer.'; });
     }
 
     function boot() {

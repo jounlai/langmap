@@ -481,10 +481,23 @@
     // ------------------------------------------------------------------ language intonation
     // Only features that hold for the language as a whole are used; a row with no profile gets
     // the generic one. stress: where an unmarked word is stressed (the IPA's own ˈ always wins).
-    const STRESS_INITIAL = new Set('fi hu cs sk is lv et se smn sms sma smj sju krl olo vep liv mns kca ga gd hsb dsb'.split(' '));
-    const STRESS_PENULT = new Set('pl sw qu quz ay cy br eo szl csb'.split(' '));
+    // (2026-11-11 additions: Faroese, Manx, Georgian, Chechen, Ingush, Bengali and the Dravidian
+    // languages initial; Cornish, Nguni and Nahuatl penultimate; the other Turkic languages,
+    // Udmurt, Tajik, Dari, Kurdish and Guarani final; Arabic by syllable weight; Polynesian by mora;
+    // Malay/Indonesian/Javanese penult unless it has ə.)
+    const STRESS_INITIAL = new Set('fi hu cs sk is lv et se smn sms sma smj sju krl olo vep liv mns kca ga gd hsb dsb fo gv ka ce inh bn ta te kn ml'.split(' '));
+    const STRESS_PENULT = new Set('pl sw qu quz ay cy br eo szl csb kw zu xh ssw nr nd nhe'.split(' '));
     const STRESS_ANTEPENULT = new Set(['mk']);
-    const STRESS_FINAL = new Set('tr az uz kk ky tt ba sah tk ug crh hy fa he'.split(' '));
+    const STRESS_FINAL = new Set('tr az uz kk ky tt ba sah tk ug crh hy fa he udm nog kaa kum gag krc tyv kjh alt tg prs ku ckb kmr sdh gn'.split(' '));
+    // Polynesian and Fijian: the syllable holding the second-to-last mora (a long vowel is two)
+    // (Māori is left out: its long first syllables take the stress, which the generic rule gives)
+    const STRESS_MORA = new Set('haw sm to fj ty'.split(' '));
+    // Malay/Indonesian and Javanese: the penult, or the last syllable when the penult has ə
+    const STRESS_MALAY = new Set('id ms jv'.split(' '));
+    // Prenuclear accents peak late, on the syllable after the stressed one; the last accent is low
+    const INTO_LATE = new Set('es ca el'.split(' '));
+    // South Asia: each word (accentual phrase) rises to its end; the utterance falls at its end
+    const INTO_RISE = new Set('hi ur bn pa mr gu ne as or mai bho awa hif sd ta te kn ml'.split(' '));
     function langProfile(code) {
         const c = String(code || ''), b = c.split('_')[0];
         if (c === 'ja' || c === 'ja_tokyo') return { type: 'ja' };       // Tokyo: unaccented (heiban) shape
@@ -492,15 +505,20 @@
         if (c === 'ko' || c === 'ko_seoul') return { type: 'ko', passiveVoicing: true, unreleasedFinal: true };   // Seoul accentual phrase
         if (b === 'ko') return { type: 'flat', passiveVoicing: true, unreleasedFinal: true };
         if (b === 'yue') return { type: 'stress', passiveVoicing: true, unreleasedFinal: true };
-        if (['vi', 'th', 'lo', 'km', 'my', 'ms', 'id', 'nan', 'hak'].includes(b)) return { type: 'stress', unreleasedFinal: true };
+        if (['vi', 'th', 'lo', 'km', 'my', 'nan', 'hak'].includes(b)) return { type: 'stress', unreleasedFinal: true };
         if (b === 'fr') return { type: 'fr', uvularR: true };
         if (['de', 'da', 'nl', 'lb'].includes(b)) return { type: 'stress', uvularR: true };   // r as an approximant ʁ (as in French)
         if (b === 'zh' || b === 'cmn') return { type: 'stress', sandhi3: true, passiveVoicing: true, mandarin: true };
-        if (STRESS_INITIAL.has(b)) return { type: 'stress', stress: 'initial' };
+        // Arabic (not Maghrebi): a final superheavy syllable, else a heavy penult, else the antepenult
+        if (b === 'ar' && c !== 'ar_ma' && c !== 'ar_tn') return { type: 'stress', stress: 'weight' };
+        const into = INTO_LATE.has(b) && c !== 'el_grc' ? 'late' : INTO_RISE.has(b) ? 'rise' : undefined;
+        if (STRESS_MORA.has(b)) return { type: 'stress', stress: 'mora' };
+        if (STRESS_MALAY.has(b)) return { type: 'stress', stress: 'malay', unreleasedFinal: b !== 'jv' || undefined };
+        if (STRESS_INITIAL.has(b)) return { type: 'stress', stress: 'initial', into };
         if (STRESS_PENULT.has(b)) return { type: 'stress', stress: 'penult' };
         if (STRESS_ANTEPENULT.has(b)) return { type: 'stress', stress: 'antepenult' };
         if (STRESS_FINAL.has(b)) return { type: 'stress', stress: 'final' };
-        return { type: 'stress' };
+        return { type: 'stress', into };
     }
 
     // ------------------------------------------------------------------ plan
@@ -579,11 +597,23 @@
         segs.forEach(s => { s.prom = s.stress || 0; });
         if (!markedStress && !tonal && (prof.type === 'stress' || prof.type === 'fr')) {
             const byWord = {};
-            segs.forEach(s => { if (isNucleus(s)) (byWord[s.word] = byWord[s.word] || []).push(s); });
+            segs.forEach((s, i) => { if (isNucleus(s)) { s._i = i; (byWord[s.word] = byWord[s.word] || []).push(s); } });
+            // consonants after a nucleus before the next one in its word (a long consonant counts twice)
+            const coda = s => { let k = 0; for (let j = s._i + 1; j < segs.length && segs[j].word === s.word && !isNucleus(segs[j]); j++) if (segs[j].type === 'C') k += segs[j].long ? 2 : 1; return k; };
             for (const list of Object.values(byWord)) {
                 const n = list.length;
                 let v;
-                if (prof.type === 'fr' || prof.stress === 'final') v = list[n - 1];
+                if (prof.stress === 'weight') {
+                    const last = list[n - 1], lc = coda(last);
+                    const heavy = x => x.long || coda(x) >= 2;
+                    if (n === 1 || (last.long && lc >= 1) || lc >= 2) v = last;
+                    else if (heavy(list[n - 2]) || n === 2) v = list[n - 2];
+                    else v = list[n - 3];
+                } else if (prof.stress === 'mora') {
+                    const moras = []; list.forEach(x => { moras.push(x); if (x.long) moras.push(x); });
+                    v = moras[Math.max(0, moras.length - 2)];
+                } else if (prof.stress === 'malay') v = n >= 2 && !REDUCED.has(list[n - 2].base) ? list[n - 2] : list[n - 1];
+                else if (prof.type === 'fr' || prof.stress === 'final') v = list[n - 1];
                 else if (prof.stress === 'initial') v = list[0];
                 else if (prof.stress === 'penult') v = list[Math.max(0, n - 2)];
                 else if (prof.stress === 'antepenult') v = list[Math.max(0, n - 3)];
@@ -1076,6 +1106,45 @@
                         if (n < L.length - 1) pitch.push([(a + b) / 2, 3.0]);
                         else if (w !== lastWord) pitch.push([a + (b - a) * .2, 3.2], [b, 4.3]);
                         else pitch.push([a + (b - a) * .2, 3.7], [b, 1.8]);
+                    });
+                }
+            } else if (prof.into === 'late' && anyProm) {
+                // Spanish, Catalan, Greek: a prenuclear accent rises through the stressed syllable
+                // and peaks on the next one; the last accent of the utterance is low and falls
+                const lastProm = (() => { for (let i = segs.length - 1; i >= 0; i--) if (isNucleus(segs[i]) && segs[i].prom === 1) return i; return -1; })();
+                let afterPeak = false;
+                const peakAt = new Set();
+                segs.forEach((s, i) => {
+                    if (!isNucleus(s)) return;
+                    const [a, b] = segSpan(i);
+                    if (s.prom === 1 && i === lastProm) { pitch.push([a + (b - a) * .15, afterPeak ? 3.4 : 3.8], [b, 2.4]); afterPeak = true; }
+                    else if (s.prom === 1) {
+                        let nx = -1; for (let j = i + 1; j < segs.length && segs[j].word === s.word; j++) if (isNucleus(segs[j])) { nx = j; break; }
+                        pitch.push([a + (b - a) * .1, 3.1]);
+                        if (nx >= 0) { const [c, d] = segSpan(nx); pitch.push([(c + d) / 2, 5.0]); peakAt.add(nx); }
+                        else pitch.push([b, 4.8]);
+                        afterPeak = true;
+                    } else if (!peakAt.has(i)) pitch.push([(a + b) / 2, i > lastProm ? 2.2 : afterPeak ? 3.0 : 3.1]);
+                    if (i === lastNucleus) pitch.push([b, 1.5]);
+                });
+            } else if (prof.into === 'rise') {
+                // South Asian accentual phrases: each word starts low and rises to its end; the
+                // last word peaks on its second-to-last syllable and falls
+                for (const w of words) {
+                    const L = nucByWord[w];
+                    L.forEach((i, n) => {
+                        const [a, b] = segSpan(i);
+                        if (w !== lastWord) {
+                            if (n === 0) pitch.push([(a + b) / 2, 2.8]);
+                            if (n === L.length - 1) pitch.push([b, 4.2]);
+                            else if (n > 0) pitch.push([(a + b) / 2, 2.8 + 1.2 * n / (L.length - 1)]);
+                        } else {
+                            const pk = Math.max(0, L.length - 2);
+                            if (L.length === 1) pitch.push([a + (b - a) * .3, 3.9], [b, 1.8]);
+                            else if (n < pk) pitch.push([(a + b) / 2, 2.9]);
+                            else if (n === pk) pitch.push([a + (b - a) * .2, 3.1], [b, 4.0]);
+                            else pitch.push([a + (b - a) * .4, 3.0], [b, 1.6]);
+                        }
                     });
                 }
             } else if (prof.type === 'flat') {

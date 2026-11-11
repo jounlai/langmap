@@ -35,6 +35,22 @@ const CHECK = {
     into_ko: p => p.pitch[0][1] >= 3.5,
     into_zh: p => { const t = p.segs.find(s => s.base === 'i').sylTone; return t[0] === 3 && t[1] === 5; },
     into_tr: p => { const v = p.segs.filter(s => s.type === 'V'); return v[v.length - 1].prom === 1 && !v[0].prom; },
+    // 2026-11-11 intonation profiles: stress by syllable weight (Arabic), mora (Hawaiian), Malay
+    // penult unless ə; Spanish prenuclear peak on the post-tonic syllable and a low nuclear accent;
+    // Hindi word rising to its end; more fixed-stress languages (Tajik final, Tamil initial)
+    into_more: () => {
+        const prom = (ipa, lang) => S.plan(ipa, { lang }).segs.filter(s => s.type === 'V').map(s => s.prom ? 1 : 0).join('');
+        if (prom('madrasa', 'ar') !== '100' || prom('muʕallim', 'ar') !== '010' || prom('kitaːb', 'ar') !== '01') return false;
+        if (prom('aloha', 'haw') !== '010' || prom('bəsar', 'id') !== '01' || prom('rumah', 'id') !== '10') return false;
+        if (prom('kitap', 'tg') !== '01' || prom('kamala', 'ta') !== '100') return false;
+        const es = S.plan('ˈkasa ˈblanka', { lang: 'es' }), v = es.segs.map((s, i) => [s, i]).filter(([s]) => s.type === 'V');
+        const at = t => { const P = es.pitch; let k = 0; while (k + 1 < P.length && P[k + 1][0] <= t) k++; return P[k][1]; };
+        const mid = i => { const ph = es.phases.filter(q => q.seg === i); return (ph[0].t0 + ph[ph.length - 1].t1) / 2; };
+        if (!(at(mid(v[1][1])) > at(mid(v[0][1])) + 1)) return false;   // peak after the stressed ka
+        if (!(at(mid(v[2][1])) < at(mid(v[1][1])) - 1)) return false;   // nuclear bla low
+        const hi = S.plan('meraː naːm', { lang: 'hi' }), p0 = hi.pitch.map(x => x[1]);
+        return p0[1] > p0[0] + .8 && p0[p0.length - 1] < 2;
+    },
     natural: p => p.micro.length > 0 && p.phases.filter(ph => ph.kind === 'vowel').pop().P.BR >= .25 && Object.values(S.VOICES).every(v => v.asp > 0 && v.fl > 0 && v.rd > 0),
     // k: burst through the velar pinch, longer than t's (plain k 14 ms vs t 9; aspirated kʰ 22)
     velar: p => { const b = p.phases.filter(ph => ph.kind === 'burst'); return b[0].P.PW === 1 && !b[0].P.RG && b[0].dur > b[1].dur && S.plan('kʰa').phases.find(q => q.kind === 'burst').dur >= 20; },

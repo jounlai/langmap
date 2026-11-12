@@ -95,7 +95,7 @@ WORDS.twenty = {
     ceb: "other",
     ce: "base",
     ny: "tens",
-    cic: "unknown",
+    cic: "tens",
     cv: "plain",
     kw: "base",
     crh: "plain",
@@ -155,7 +155,7 @@ WORDS.twenty = {
     ms: "tens",
     ml: "tens",
     mt: "plural",
-    mdr: "unknown",
+    mdr: "tens",
     gv: "base",
     mi: "tens",
     mfe: "base",
@@ -205,11 +205,11 @@ WORDS.twenty = {
     tet: "tens",
     th: "tens",
     bo: "fused",
-    tig: "unknown",
+    tig: "plural",
     ti: "plural",
     tpi: "fused",
     to: "tens",
-    tn: "unknown",
+    tn: "tens",
     tr: "plain",
     tk: "plain",
     tyv: "plain",
@@ -261,7 +261,7 @@ WORDS.twenty = {
     kum: "plain",
     nog: "plain",
     rmy: "fused",
-    jam: "unknown",
+    jam: "fused",
     fud: "tens",
     rtm: "tens",
     arn: "tens",
@@ -580,7 +580,7 @@ WORDS.twenty = {
     ceb: ["kaluhaan", "kaluˈhaʔan"],  // Built on the word for two, with no ten in it.
     ce: ["ткъа", "tʼqʼa"],
     ny: ["makumi awiri", "makumi awiɾi"],
-    cic: ["pokoli toklo", "pokoli toklo"],  // No opened source supports the route.
+    cic: ["pokoli toklo", "pokoli toklo"],  // Pokoli "ten" + toklo "two" (Wiktionary pokkóꞌli, toklo), the same build as Choctaw pokoli tuklo.
     cv: ["ҫирӗм", "ˈɕirɘm"],
     kw: ["ugens", "ʏɡənz"],
     crh: ["yigirmi", "jiɡirˈmi"],
@@ -640,7 +640,7 @@ WORDS.twenty = {
     ms: ["dua puluh", "ˌdua ˈpuluh"],
     ml: ["ഇരുപത്", "iɾubad̪ɨ"],
     mt: ["għoxrin", "ɔʃˈriːn"],  // The plural of għaxra 'ten'.
-    mdr: ["duappulo", "duapːulo"],  // No opened source supports the route.
+    mdr: ["duappulo", "duapːulo"],  // Dua "two" + pulo, the ten of sappulo "ten" (from Proto-Austronesian *sa-puluq, Wiktionary); the same word as Buginese duappulo.
     gv: ["feed", "fiːdʲ"],
     mi: ["rua tekau", "rua tekau"],
     mfe: ["vin", "vɛ̃"],
@@ -690,11 +690,11 @@ WORDS.twenty = {
     tet: ["ruanulu", "ruanulu"],
     th: ["ยี่สิบ", "jiː˥˩ sip˨˩"],
     bo: ["ཉི་ཤུ", "ɲi˩˨ ɕu˥˥"],
-    tig: ["ዕስራ", "ʕɨsra"],  // No opened source supports the route.
+    tig: ["ዕስራ", "ʕɨsra"],  // Built on the root of ዐስር "ten" (Wiktionary translation tables). Route by resemblance to the neighbouring forms (ti(ዕስራ)); no etymology of its own.
     ti: ["ዕስራ", "ʕɨsra"],  // From the root of 'ten'.
     tpi: ["twenti", "twenti"],
     to: ["uofulu", "uofulu"],
-    tn: ["somamabedi", "somamabedi"],  // No opened source supports the route.
+    tn: ["somamabedi", "somamabedi"],  // Masome a mabedi "tens, two" run into one word; some is the ten of lesomê "ten" (Wiktionary), as in the row's 99, masome a robongwe robongwe.
     tr: ["yirmi", "jiɾˈmi"],
     tk: ["ýigrimi", "jiɡriˈmi"],
     tyv: ["чээрби", "tʃeːrˈbi"],
@@ -746,7 +746,7 @@ WORDS.twenty = {
     kum: ["йигирма", "jiɡirˈma"],
     nog: ["йырма", "jɯrˈma"],
     rmy: ["biš", "biʃ"],
-    jam: ["twɛntɩ", "twɛnti"],  // No opened source supports the route.
+    jam: ["twɛntɩ", "twɛnti"],  // From English twenty. Route by resemblance to the neighbouring forms (en_jam(twenty) bi(twante) tpi(twenti)); no etymology of its own.
     fud: ["kaulua", "kaulua"],
     rtm: ["ruaŋhulu", "ruaŋhulu"],
     arn: ["epu mari", "epu maɾi"],

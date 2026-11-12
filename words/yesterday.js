@@ -631,7 +631,7 @@ WORDS.yesterday = {
     nan_xm: "distinct",
     nan_zz: "distinct",
     mhy: "unknown",
-    roo: "unknown",
+    roo: "distinct",
     tab: "distinct",
     xal: "distinct",
     olo: "distinct",
@@ -651,7 +651,7 @@ WORDS.yesterday = {
     mwl: "distinct",
     cnh: "distinct",
     tdh: "distinct",
-    ame: "unknown",
+    ame: "distinct",
     nog: "distinct",
     hch: "distinct",
     nhx: "distinct",
@@ -1477,7 +1477,7 @@ WORDS.yesterday = {
     nan_xm: ["昨昏", "tsa˨˨ hŋ̍˦˦"],  // tomorrow: 明仔日; 昨日 is also used.
     nan_zz: ["昨昏", "tsã˨˨ huĩ˦˦"],  // tomorrow: 明仔日; also 明仔载.
     mhy: ["hangkariwe", "haŋkariwe"],  // Used for 'yesterday' in two verses of the Ma'anyan Bible; the tomorrow word was not established.
-    roo: ["aruvea", "aɾuβea"],  // Used for 'yesterday' in two verses of the Rotokas Bible; the tomorrow word was not established.
+    roo: ["aruvea", "aɾuβea"],  // tomorrow: vokipavira; aruvea is used for yesterday in two verses of the Rotokas Bible.
     tab: ["накь", "naqʼ"],  // tomorrow: закур; накь is used for yesterday in Hebrews 13:8, John 4:52 and Acts 7:28 of the Tabasaran Bible.
     xal: ["өцклдүр", "øtskldyr"],  // tomorrow: маңһдур; the Kalmyk Bible uses өцклдүр for yesterday in Hebrews 13:8, John 4:52 and Acts 7:28.
     olo: ["egläi", "ˈeɡlæi"],  // tomorrow: huomei; egläi is the yesterday of Hebrews 13:8, John 4:52 and Acts 7:28 in the Livvi translation.
@@ -1497,7 +1497,7 @@ WORDS.yesterday = {
     mwl: ["onte", "ˈõtɨ"],  // tomorrow: manhana; onte is the yesterday of John 4:52 in the Mirandese Gospels.
     cnh: ["nizan", "nizan"],  // tomorrow: thaizing; nizan is yesterday in Hebrews 13:8, John 4:52 and Acts 7:28 of the Hakha Chin Bible.
     tdh: ["बास्ता", "basta"],  // tomorrow: दिका; बास्ता is yesterday in Hebrews 13:8, John 4:52 and Acts 7:28 of the Thulung New Testament.
-    ame: ["ellerro", "eʎeɻo"],  // ellerro is yesterday in John 4:52 and Acts 7:28 of the Yanesha' New Testament.
+    ame: ["ellerro", "eʎeɻo"],  // tomorrow: tsapat̃; ellerro is yesterday in John 4:52 and Acts 7:28 of the Yanesha' New Testament.
     nog: ["туьнегуьн", "tyneɡyn"],  // tomorrow: эртен; туьнегуьн is yesterday in Hebrews 13:8, John 4:52 and Acts 7:28 of the Nogai Bible.
     hch: ["takai", "takai"],  // tomorrow: 'uxa'a; takai is yesterday in John 4:52 and Acts 7:28 of the Huichol New Testament.
     nhx: ["ya̱lwa", "jaːlwa"],  // tomorrow: mo̱sta; ya̱lwa is yesterday in John 4:52 and Acts 7:28 of the Mecayapan Nahuatl New Testament.

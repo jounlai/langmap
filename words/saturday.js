@@ -390,11 +390,11 @@ WORDS.saturday = {
     min: "sabbath",
     got: "sabbath",
     su: "sabbath",
-    ve: "unknown",
+    ve: "other",
     pam: "sabbath",
     dv: "saturn",
     tum: "other",
-    uby: "unknown",
+    uby: "sabbath",
     wal: "plain",
     vot: "wash",
     mni: "plain",
@@ -414,7 +414,7 @@ WORDS.saturday = {
     yrl: "sabbath",
     stq: "eve",
     gor: "sabbath",
-    pwo: "unknown",
+    pwo: "saturn",
     obr: "saturn",
     co: "sabbath",
     lij: "sabbath",
@@ -756,11 +756,11 @@ WORDS.saturday = {
     min: ["Satu", "satu"],  // Borrowed from Javanese Setu, ultimately from Arabic as-sabt, the Sabbath.
     got: ["𐍃𐌰𐌱𐌱𐌰𐍄𐍉", "ˈsabbatoː"],  // Borrowed from Greek σάββατον, from Hebrew, the Sabbath.
     su: ["Saptu", "saptu"],  // From Arabic as-sabt, the Sabbath.
-    ve: ["Mugivhela", "muɡiβela"],  // The Venda name for Saturday; the source gives no etymology.
+    ve: ["Mugivhela", "muɡiβela"],  // The Venda name for Saturday; the source gives no etymology. Route by resemblance to the neighbouring forms (nso(Mokibelo) zu(uMgqibelo)); no etymology of its own.
     pam: ["Sabadu", "ˈsabədu"],  // Borrowed from Spanish sábado, the Sabbath.
     dv: ["ހޮނިހިރު", "honihiɾu"],  // From Sanskrit śanivāra, 'Saturn's day'.
     tum: ["Cisulo", "tʃisulo"],  // From -sula 'rest': in colonial times workers were let off early on that day.
-    uby: ["ɕaba", "ɕaba"],  // The source gives no origin for the name.
+    uby: ["ɕaba", "ɕaba"],  // The source gives no origin for the name. Route by resemblance to the neighbouring forms (kbd(щэбэт) ady(шэмбэт)); no etymology of its own.
     wal: ["Qeeraa", "kʼeːraː"],  // No image is recorded for it, so it counts as a word of its own.
     vot: ["laukopäive", "ˈlaukopæivæ"],  // Lauko- + päive 'day', a partial calque of Old Norse laugardagr 'washing day'; compare Estonian laupäev.
     mni: ["ꯊꯥꯡꯖ", "tʰaŋdʒə"],  // Inherited from Old Manipuri thāngca; no image is recorded for it, so it counts as a word of its own.
@@ -780,7 +780,7 @@ WORDS.saturday = {
     yrl: ["saurú", "sauˈɾu"],  // From Portuguese sábado, ultimately from Hebrew šabbāṯ 'Sabbath'.
     stq: ["Snäivende", "ˈsnɛɪ̯vəndə"],  // From Old Frisian sunna-evend 'Sunday eve', like German Sonnabend.
     gor: ["Sahutu", "sahutu"],  // Borrowed from Malay Sabtu, from Arabic as-sabt 'the Sabbath'.
-    pwo: ["ၥံၭၥီၫ", "θeiʔ θauɴ"],  // Borrowed from Mon သ္ၚိသဝ်.
+    pwo: ["ၥံၭၥီၫ", "θeiʔ θauɴ"],  // Borrowed from Mon သ္ၚိသဝ်, the day of Saturn (the same Mon word names the planet).
     obr: ["စနိယ်", "tsanij"],  // A learned loan of Sanskrit शनि 'Saturn'.
     co: ["sabbatu", "ˈsabadu"],
     lij: ["sàbbo", "ˈsabbu"],

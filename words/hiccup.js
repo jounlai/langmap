@@ -70,14 +70,14 @@ WORDS.hiccup = {
     bn: "imitative",
     ru: "imitative",
     de: "other",
-    ja: "unknown",
+    ja: "plain",
     sw: "imitative",
-    vi: "unknown",
+    vi: "plain",
     tr: "imitative",
     mr: "imitative",
-    tl: "unknown",
+    tl: "plain",
     ko: "imitative",
-    ta: "unknown",
+    ta: "plain",
     it: "plain",
     es: "imitative",
     pl: "imitative",
@@ -118,15 +118,15 @@ WORDS.hiccup = {
     no: "imitative",
     uz: "imitative",
     ckb: "unknown",
-    kn: "unknown",
+    kn: "plain",
     si: "imitative",
-    te: "unknown",
+    te: "plain",
     om: "imitative",
-    ki: "unknown",
-    bik: "unknown",
+    ki: "plain",
+    bik: "plain",
     th: "unknown",
     fa: "imitative",
-    ml: "unknown",
+    ml: "plain",
     as: "imitative",
     hy: "unknown",
     zh: "imitative",
@@ -171,7 +171,7 @@ WORDS.hiccup = {
     hr: "imitative",
     sk: "imitative",
     qu: "imitative",
-    min: "unknown",
+    min: "plain",
     tg: "imitative",
     ky: "imitative",
     lo: "unknown",
@@ -187,15 +187,15 @@ WORDS.hiccup = {
     brh: "unknown",
     lt: "unknown",
     ban: "imitative",
-    bjn: "unknown",
+    bjn: "imitative",
     bs: "imitative",
     zza: "imitative",
     lmo: "plain",
     ga: "unknown",
     pms: "plain",
-    ngl: "unknown",
+    ngl: "plain",
     rhg: "unknown",
-    ce: "unknown",
+    ce: "plain",
     kbd: "unknown",
     cgg: "unknown",
     kde: "unknown",
@@ -208,14 +208,14 @@ WORDS.hiccup = {
     quz: "unknown",
     mas: "unknown",
     ach: "unknown",
-    srr: "unknown",
+    srr: "plain",
     li: "imitative",
     cy: "imitative",
     yi: "other",
     nn: "imitative",
     os: "imitative",
     kek: "other",
-    new: "unknown",
+    new: "imitative",
     tll: "unknown",
     tzh: "unknown",
     cbk: "unknown",
@@ -223,7 +223,7 @@ WORDS.hiccup = {
     tet: "unknown",
     dtp: "plain",
     oc: "plain",
-    sm: "unknown",
+    sm: "plain",
     fy: "imitative",
     wa: "unknown",
     xmf: "unknown",
@@ -237,12 +237,12 @@ WORDS.hiccup = {
     arn: "unknown",
     pap: "imitative",
     gcf: "imitative",
-    fj: "unknown",
+    fj: "plain",
     nhe: "unknown",
     mev: "unknown",
     ami: "unknown",
     ast: "plain",
-    to: "unknown",
+    to: "plain",
     cnh: "unknown",
     la: "plain",
     el_grc: "plain",
@@ -254,10 +254,10 @@ WORDS.hiccup = {
     nci: "plain",
     ar_qur: "unknown",
     syc: "unknown",
-    ja_heian: "unknown",
+    ja_heian: "plain",
     ko_kp: "imitative",
-    vi_c: "unknown",
-    vi_s: "unknown",
+    vi_c: "plain",
+    vi_s: "plain",
     ja_chu: "plain",
     ja_edo: "plain",
     shn: "unknown",
@@ -394,14 +394,14 @@ WORDS.hiccup = {
     bn: ["হেঁচকি", "hẽtʃki"],  // Inherited through Old Bengali from a Prakrit *hicc-. Route by resemblance to the neighbouring forms (pnb(ہچکی)); no etymology of its own.
     ru: ["икота", "ɪˈkotə"],  // From икать 'to hiccup', built on an onomatopoeic и.
     de: ["Schluckauf", "ˈʃlʊkˌʔaʊ̯f"],  // Schluck(en) 'swallow' + auf 'up'.
-    ja: ["しゃっくり", "ɕakːɯɾi"],  // A geminated form of shakuri, from the verb shakuru 'to hiccup'.
+    ja: ["しゃっくり", "ɕakːɯɾi"],  // A geminated form of shakuri, from the verb shakuru 'to hiccup'. Route by resemblance to the neighbouring forms (ja_edo(噦) ja_kanbun(噦)); no etymology of its own.
     sw: ["kwikwi", "ˈkwikwi"],  // Chechevu and kekevu are synonyms. A reduplicated imitation of the sound.
-    vi: ["nấc cụt", "nək˧˥ kut˧˨ʔ"],  // Nấc is cognate with Khmer ត្អើក 'to hiccup', from Proto-Mon-Khmer.
+    vi: ["nấc cụt", "nək˧˥ kut˧˨ʔ"],  // Nấc is cognate with Khmer ត្អើក 'to hiccup', from Proto-Mon-Khmer. No image is recorded for nấc, so the word counts as a word of its own.
     tr: ["hıçkırık", "hɯtʃkɯˈɾɯk"],  // Ultimately onomatopoeic; the same word means 'sob'.
     mr: ["उचकी", "utɕkiː"],  // Wiktionary calls it possibly onomatopoeic.
-    tl: ["sinok", "siˈnok"],  // Compare Cebuano sid-ok and Ilocano saiddek.
+    tl: ["sinok", "siˈnok"],  // Compare Cebuano sid-ok and Ilocano saiddek. Route by resemblance to the neighbouring forms (h_tagalog(ᜐᜒᜈᜓᜃ᜔)); no etymology of its own.
     ko: ["딸꾹질", "t͈alk͈uk̚t͈ɕil"],  // 딸꾹, the sound of a hiccup, + -질 'act of doing'.
-    ta: ["விக்கல்", "ʋikːal"],  // From விக்கு 'to choke, to hiccup'; cognate with Kannada bikkaḷu and Malayalam ikkiḷ.
+    ta: ["விக்கல்", "ʋikːal"],  // From விக்கு 'to choke, to hiccup'; cognate with Kannada bikkaḷu and Malayalam ikkiḷ. Wiktionary takes விக்கு back to Proto-Dravidian *wekk- "to hiccup" and records no image, so it counts as a word of its own.
     it: ["singhiozzo", "sinˈɡjottso"],  // From Latin singultus via Vulgar Latin *singluttium; it also means 'sob'.
     es: ["hipo", "ˈipo"],  // An imitative word.
     pl: ["czkawka", "ˈtʂkafka"],  // From czkać 'to hiccup'. Czkać imitates the sound.
@@ -442,15 +442,15 @@ WORDS.hiccup = {
     no: ["hikke", "ˈhɪkːə"],  // The same word as Danish hikke. Route by resemblance to the neighbouring forms (nl(hik) or(ହିକ୍କା)); no etymology of its own.
     uz: ["hiqichoq", "hiqiˈtʃɒq"],  // Hiqichoq tutmoq 'to be seized by hiccups'. Built on the sound hiq.
     ckb: ["نزگەرە", "nɪzɡaɾa"],  // Compare Laki نِزگیرە.
-    kn: ["ಬಿಕ್ಕಳಿಕೆ", "bikːaɭike"],  // Related to ಬಿಕ್ಕು 'to sob, to hiccough' (Kittel); cognate with Tamil விக்கல்.
+    kn: ["ಬಿಕ್ಕಳಿಕೆ", "bikːaɭike"],  // Related to ಬಿಕ್ಕು 'to sob, to hiccough' (Kittel); cognate with Tamil விக்கல். Inherited from Proto-Dravidian *wekk- "to hiccup", like Tamil விக்கு (Wiktionary); no image is recorded for it, so it counts as a word of its own.
     si: ["ඉක්කාව", "ikːaːʋə"],  // Carter glosses the learned හික්කාව hikkāva with this everyday form. From Sanskrit hikkā, an imitative word like Hindi हिचकी.
-    te: ["ఎక్కిళ్ళు", "ekːiɭːu"],  // The plural of ఎక్కిలి, the usual way to name the condition.
+    te: ["ఎక్కిళ్ళు", "ekːiɭːu"],  // The plural of ఎక్కిలి, the usual way to name the condition. Inherited from Proto-Dravidian *wekk- "to hiccup", like Tamil விக்கு (Wiktionary); no image is recorded for it, so it counts as a word of its own.
     om: ["hirqinfuu", "hirkʼinfuː"],  // Of onomatopoeic origin; cognate with Kambaata hiqqe and Sidamo heqqo.
-    ki: ["mwegetho", "mwɛɣɛðɔ"],  // From kwegetha 'to hiccup'.
-    bik: ["sinok", "siʔˈnok"],  // The same word as Tagalog sinok.
+    ki: ["mwegetho", "mwɛɣɛðɔ"],  // From kwegetha 'to hiccup'. No image is recorded for it, so it counts as a word of its own.
+    bik: ["sinok", "siʔˈnok"],  // The same word as Tagalog sinok. Route by resemblance to the neighbouring forms (h_tagalog(ᜐᜒᜈᜓᜃ᜔)); no etymology of its own.
     th: ["สะอึก", "sa˨˩ʔɯk˨˩"],  // Thai Wiktionary calls it possibly imitative and cognate with Zhuang saek.
     fa: ["سکسکه", "sekseˈke"],  // Moein gives it as from Arabic; هکه hokke is a synonym. A reduplicated imitation of the sound, like synonym hokke.
-    ml: ["ഇക്കിൾ", "ikːiɭ"],  // എക്കിൾ ekkiḷ is a synonym; cognate with Tamil விக்கல்.
+    ml: ["ഇക്കിൾ", "ikːiɭ"],  // എക്കിൾ ekkiḷ is a synonym; cognate with Tamil விக்கல். Inherited from Proto-Dravidian *wekk- "to hiccup", like Tamil விக்கு (Wiktionary); no image is recorded for it, so it counts as a word of its own.
     as: ["হিঁকটি", "ɦikɔti"],  // Inherited from Sanskrit hikkā, built on an onomatopoeic root; also spelled হেঁকটি.
     hy: ["զկռտոց", "zəkərˈtotsʰ"],  // A noun from զկռտալ 'to hiccup'.
     zh: ["打嗝", "ta˧˩˧ kɤ˧˥"],  // 打 'to do, strike' + 嗝, a sound-word for the hiccup; strictly a verb phrase, it is also the everyday name of the condition, and 呃逆 is the technical term.
@@ -495,7 +495,7 @@ WORDS.hiccup = {
     hr: ["štucavica", "ʃtûtsaʋitsa"],  // From štucati 'to hiccup'; Hrvatski jezični portal defines it as an attack of hiccupping, and štucanje is the verbal noun. Štucati imitates the sound.
     sk: ["štikútka", "ˈʃcikuːtka"],  // From štikútať 'to hiccup'; čkavka and čkanie are synonyms. Štikútať imitates the sound.
     qu: ["hikʼi", "ˈhikʼi"],  // The root of the verb hik'iy 'to hiccup'; Quechua Wikipedia describes the sound as hik - hik - hik.
-    min: ["sadu-sadu", "sadu sadu"],  // A reduplicated word; compare Malay sedu.
+    min: ["sadu-sadu", "sadu sadu"],  // A reduplicated word; compare Malay sedu. Route by resemblance to the neighbouring forms (ms(sedu) dtp(soduʼ)); no etymology of its own.
     tg: ["ҳиқақ", "hiˈqaq"],  // Also spelled ҳикак and ҳиққак. Built on the sound hiq.
     ky: ["ыктытуу", "ɯqtɯˈtuː"],  // A verbal noun 'hiccupping', the title Kyrgyz Wikipedia gives the reflex; ык этүү is a synonym verb. Built on the sound ык.
     lo: ["ສະອຶກ", "sa˧˥ ʔɯk˧˥"],  // The same word as Thai สะอึก; Kerr also lists ສະເອິ for the noun.
@@ -511,15 +511,15 @@ WORDS.hiccup = {
     brh: ["ہکنگ", "hikːinɡ"],  // The verb 'to hiccup' (Bray: hikking); Wiktionary gives it either as inherited Dravidian or as a loan from Indo-Aryan, compare Sanskrit hikkā.
     lt: ["žagsulys", "ʒɐksʊˈlʲiːs"],  // Žagsėjimas, the verbal noun of žagsėti 'to hiccup', is a synonym.
     ban: ["cekutan", "tʃekutan"],  // Balinese cekutan corresponds to Indonesian cegukan. Route by resemblance to the neighbouring forms (id(cegukan)); no etymology of its own.
-    bjn: ["mancigu", "mantʃiɡu"],  // The verb 'to hiccup', formed with the verb prefix man- on cigu, which the dictionary glosses with Indonesian ceguk.
+    bjn: ["mancigu", "mantʃiɡu"],  // The verb 'to hiccup', formed with the verb prefix man- on cigu, which the dictionary glosses with Indonesian ceguk. Route by resemblance to the neighbouring forms (id(cegukan) jv(ceguken)); no etymology of its own.
     bs: ["štucanje", "ˈʃtutsaːɲɛ"],  // The verbal noun of štucati 'to hiccup'. Štucati imitates the sound.
     zza: ["zıqık", "zɨˈqɨk"],  // Regional synonyms are zıhrık, zınıkı and hiskık, and to hiccup is zıqık vero amayayış.
     lmo: ["sajuter", "saˈjyter"],  // Milanese; the Lombard Wiktionary also lists sangot (sangut, sangiut) as a synonym, and to have hiccups is havégh i sajuter. From Latin singultus, like Venetian sangiuto.
     ga: ["snag", "sˠn̪ˠaɡ"],  // Tá snag orm 'I have the hiccups'; fail is a synonym, and snag on its own also means a gasp or sob.
     pms: ["sangiut", "saŋˈdʒyt"],  // From Latin singultus, like Italian singhiozzo; the verb is sangiuté or sangiutì.
-    ngl: ["naatekhume", "naːtekʰume"],  // The SIL Lomwe dictionary glosses it 'hiccup' and gives neetekhume as a synonym.
+    ngl: ["naatekhume", "naːtekʰume"],  // The SIL Lomwe dictionary glosses it 'hiccup' and gives neetekhume as a synonym. No image is recorded for it, so it counts as a word of its own.
     rhg: ["kekúta", "kekuta"],  // The Rohingya dictionary enters it as the verb 'to hiccup'.
-    ce: ["хьуьнкӏаш", "ʜynkʼaʃ"],  // Хьуьнкӏаш йан is the verb 'to hiccup'; хьуьнкӏ is a single hiccup.
+    ce: ["хьуьнкӏаш", "ʜynkʼaʃ"],  // Хьуьнкӏаш йан is the verb 'to hiccup'; хьуьнкӏ is a single hiccup. Route by resemblance to the neighbouring forms (agx(гьинкӏ йирхӏас) tab(гьинкӏар апӏуб) kum(гьынкъ этмек)); no etymology of its own.
     kbd: ["хьэкӏэ", "ħatʃʼa"],  // The verb is хьэкӏэн 'to hiccup'; хьэкӏэныгъэ is a synonym.
     cgg: ["akasikina", "akasikina"],  // The UNESCO Runyankore-Rukiga dictionary defines it as the sharp repeated throat sound caused by a sudden movement of the diaphragm; akaisikonda is a variant.
     kde: ["inyekunyeku", "iɲekuɲeku"],  // A reduplicated noun; Rugemalira's dictionary gives the Swahili equivalent kwikwi.
@@ -532,14 +532,14 @@ WORDS.hiccup = {
     quz: ["hikʼi", "ˈhikʼi"],  // The verb is hik'iy 'to hiccup', and hik'ipakuy means 'to sob'.
     mas: ["ayiog", "ajioɡ"],  // Strictly the verb 'to hiccup' (eyiogíto ɛnkɛráí 'the child is hiccupping'); the noun nkɨnyɨgata is recorded only for northern Maa.
     ach: ["gik", "ɡik"],  // The Acholi noun for a hiccup; the dictionary also lists ogik and gek as variants.
-    srr: ["lukiy", "lukij"],  // Merrill derives it from a Proto-Fula–Sereer *lakiy 'hiccough', with Fula likkiya 'to hiccup' as its cognate; lukuy is a variant.
+    srr: ["lukiy", "lukij"],  // Merrill derives it from a Proto-Fula–Sereer *lakiy 'hiccough', with Fula likkiya 'to hiccup' as its cognate; lukuy is a variant. No image is recorded for it, so it counts as a word of its own.
     li: ["hik", "hɪk"],  // The same word as Dutch hik; the verb is hikke. Route by resemblance to the neighbouring forms (nl(hik) br(hik) af(hik) pap(hik)); no etymology of its own.
     cy: ["ig", "iːɡ"],  // An onomatopoeic word; Welsh says Mae'r ig arna i, 'the hiccup is on me', and rhic is a synonym.
     yi: ["שלוקערץ", "ˈʃlʊkərts"],  // Related to the verb שלוקערצן 'to hiccup'; Wiktionary compares German Schluckauf but leaves the ending unexplained.
     nn: ["hikke", "ˈhɪkːə"],  // A masculine noun in Nynorsk (ha hikke 'to have the hiccups'), the same word as the verb hikke 'to hiccup'. Route by resemblance to the neighbouring forms (no(hikke) nl(hik) sv(hicka) fi(hikka)); no etymology of its own.
     os: ["хӕкъуырцц", "xækʷʼɨrtsː"],  // Хӕкъуырцц кӕнын 'to do a hiccup' is the verb; the noun also means a broken, jerky sound.
     kek: ["chuqʼubʼ", "tʃuqʼuɓ"],  // Built on a root meaning 'shake'; kʼehok chuqʼubʼ is 'to have the hiccups', and the verb chuqʼubʼak covers both hiccupping and belching.
-    new: ["हिकु", "hiku"],  // हिकु वये is 'to have the hiccups'.
+    new: ["हिकु", "hiku"],  // हिकु वये is 'to have the hiccups'. Route by resemblance to the neighbouring forms (sa(हिक्का) pi(हिक्का)); no etymology of its own.
     tll: ["shikusiku", "ʃikusiku"],  // Plural tusikusiku; the verb sikuma means 'to have hiccoughs'.
     tzh: ["jukʼubajel", "hukʼuɓahel"],  // The verbal noun of jukʼubaj 'to have the hiccups' (Cancuc, Petalcingo, Tenejapa); Bachajón says xuhkʼubajel.
     cbk: ["siru", "siˈɾuʔ"],  // Both the noun and the verb 'to hiccup' in Zamboanga Chavacano, a word of local Philippine origin; Caviteño and Ternateño say sinuk.
@@ -547,7 +547,7 @@ WORDS.hiccup = {
     tet: ["motok", "ˈmotok"],  // The Dili Tetun dictionary also lists arota, from Portuguese arrotar, but its main sense is "to burp".
     dtp: ["soduʼ", "soduʔ"],  // Listed as the root *sodu', glossed "hiccup" (Malay sedu); the verb soduon is "to have hiccups", as in Soduon isido "He has hiccups". Route by resemblance to the neighbouring forms (ms(sedu)); no etymology of its own.
     oc: ["sanglòt", "saŋˈɡlɔt"],  // From Vulgar Latin *singluttus, from Latin singultus, the source of Italian singhiozzo; it also means "sob".
-    sm: ["lona", "lona"],  // Milner's Samoan dictionary glosses lona (loga in colloquial speech) as "hiccup"; the older Pratt dictionary gives toʻomaunu.
+    sm: ["lona", "lona"],  // Milner's Samoan dictionary glosses lona (loga in colloquial speech) as "hiccup"; the older Pratt dictionary gives toʻomaunu. No image is recorded for it, so it counts as a word of its own.
     fy: ["hik", "hɪk"],  // The same word as Dutch hik; the Wurdboek fan de Fryske taal also lists the rhyming hikkebik, and hikje "to hiccup". Route by resemblance to the neighbouring forms (nl(hik) br(hik) af(hik) pap(hik)); no etymology of its own.
     wa: ["licote", "liˈkɔt"],  // The Walloon Wiktionary defines licote as the hikete, the jolt of the diaphragm, and also the noise it makes; hikete is the other common word, as in hicter "to have the hikete".
     xmf: ["შიკინი", "ʃikʼini"],  // Kajaia's Megrelian–Georgian dictionary glosses it as Georgian სლოკინი "hiccup", with the example "drink water and the hiccup will leave you".
@@ -561,12 +561,12 @@ WORDS.hiccup = {
     arn: ["ütrorün", "ɨʈʂoɾɨn"],  // The verb 'to hiccup', cited in the -n form like this row's other verbs; the Ranquel dialect has the stem itror-.
     pap: ["hik", "hik"],  // Borrowed from Dutch hik, an imitative word; Jansen's dictionary gives it for Dutch hikken 'to hiccup'.
     gcf: ["hokèt", "hokɛt"],  // From French hoquet, itself from an onomatopoeia; Tourneux and Barbotin's dictionary also gives vokèt.
-    fj: ["macedru", "maðendru"],  // Capell's New Fijian Dictionary glosses it 'hiccough'.
+    fj: ["macedru", "maðendru"],  // Capell's New Fijian Dictionary glosses it 'hiccough'. No image is recorded for it, so it counts as a word of its own.
     nhe: ["tzihcuinoa", "tsihkʷiˈnoa"],  // The verb 'to have hiccups' in the IDIEZ dictionary of Chicontepec Nahuatl, which explains it as breathing hard every little while.
     mev: ["síkòsíkò", "si˥ko˩si˥ko˩"],  // A reduplicated word; síkòsíkò kɛ̄ is 'to have the hiccups'.
     ami: ["telook", "təlook"],  // Glossed "to hiccup" in Fey's Amis dictionary; the Safolu dictionary gives it as 打嗝 with the variant tero'ok.
     ast: ["sollutu", "soˈʎutu"],  // The noun of sollutar "to hiccup", which the Academy dictionary also gives the sense "to sob"; relluezu and hipu are also used. From Latin singultus, like Portuguese soluço.
-    to: ["tokomohū", "tokomohuː"],  // A reflex of Proto-Polynesian *toko-mahuru, like Maori tokomauri and Samoan toʔomaunu; lonā means "to have hiccups".
+    to: ["tokomohū", "tokomohuː"],  // A reflex of Proto-Polynesian *toko-mahuru, like Maori tokomauri and Samoan toʔomaunu; lonā means "to have hiccups". No image is recorded for it, so it counts as a word of its own.
     cnh: ["chik ik", "tsʰik ʔik"],  // Given as the noun for hiccup in both directions of the online Hakha Chin dictionary.
     la: ["singultus", "siŋˈɡultus"],  // Also sobbing, and by extension a rattle in the throat.
     el_grc: ["λύγξ", "lýŋks"],  // Related to λύζω 'to hiccup, sob'; the same spelling is also the word for the lynx.
@@ -578,10 +578,10 @@ WORDS.hiccup = {
     nci: ["tziucnoliztli", "tsiuknolistɬi"],  // The noun of tziucnoa 'to hiccup'. No image is recorded for it, so it counts as a word of its own.
     ar_qur: ["فواق", "fuwaːq"],  // From the verb فاق 'to have a hiccup'; the sources do not say whether the root imitates the sound.
     syc: ["ܦܘܩܬܐ", "pwaːqtaː"],  // Pwāqtā, the same root as Arabic فواق fuwāq (Comprehensive Aramaic Lexicon); no source says whether it imitates the sound.
-    ja_heian: ["噦り", "sakuɾi"],  // さくり, cited from the Wamyō Ruijushō in Daijisen; the older form of しゃくり, from the verb sakuru 'to hiccup'.
+    ja_heian: ["噦り", "sakuɾi"],  // さくり, cited from the Wamyō Ruijushō in Daijisen; the older form of しゃくり, from the verb sakuru 'to hiccup'. Route by resemblance to the neighbouring forms (ja_kanbun(噦) ja_chu(噦)); no etymology of its own.
     ko_kp: ["딸꾹질", "t͈alk͈ukt͈ɕil"],  // 딸꾹, the sound of a hiccup, + -질 'act of doing', as in the South.
-    vi_c: ["nấc cụt", "nək˧˦ kuk˧˩"],  // The same word as standard Vietnamese; Huế has -k for final -t after u, as in its út.
-    vi_s: ["nấc cụt", "nək˧˥ kʊk͡p˨˩"],  // The same word as standard Vietnamese, with the Saigon -ʊk͡p of út in this row's 'little finger'.
+    vi_c: ["nấc cụt", "nək˧˦ kuk˧˩"],  // The same word as standard Vietnamese; Huế has -k for final -t after u, as in its út. Route by resemblance to the neighbouring forms (vi(nấc cụt)); no etymology of its own.
+    vi_s: ["nấc cụt", "nək˧˥ kʊk͡p˨˩"],  // The same word as standard Vietnamese, with the Saigon -ʊk͡p of út in this row's 'little finger'. Route by resemblance to the neighbouring forms (vi(nấc cụt)); no etymology of its own.
     ja_chu: ["噦", "ɕakuɾi"],  // From older sakuri. Example: Shōbōgenzō zuimonki (1235-38) 世間にしゃくりする人 'people who have the hiccups'.
     ja_edo: ["噦", "ɕakɯɾi"],  // Edo example: the zappai collection Nara miyage (1694) 'びっくりとさせて呃逆 (シャクリ) を留てやる' ('give him a fright to stop his hiccups').
     shn: ["ၶီႈဢိုၵ်ႉ", "kʰiː˧˨ ʔɯk˦˨ˀ"],  // Glossed 'hiccough' on Wiktionary (IPA /kʰiː˧˧˨.ʔɯk̚˦˨ˀ/, written here in the row's tone letters); it begins with ၶီႈ, which is also this row's poop.

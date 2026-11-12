@@ -460,7 +460,7 @@ WORDS.china = {
     iu: "cina",
     poh: "cina",
     jiv: "cina",
-    trv: "unknown",
+    trv: "zhongguo",
     krl: "cina",
     tvl: "cina",
     tok: "zhongguo",
@@ -939,7 +939,7 @@ WORDS.china = {
     iu: ["ᓴᐃᓇ", "saina"],  // The Inuktitut Wikipedia titles its article on the country ᓴᐃᓇ Saina.
     poh: ["China", "tʃina"],  // Poqomchi' uses the Spanish name China, as in Jehovah's Witnesses' Poqomchi' publications ('ar pan tinamit Pekín, ar China' 'in the city of Beijing, in China').
     jiv: ["China", "tʃina"],  // Shuar uses the Spanish name China, as in Jehovah's Witnesses' Shuar publications ('China nunkanmanka' 'in the land of China').
-    trv: ["Cikuku", "tsikuku"],  // The Truku/Seediq Wikipedia titles its article on the country Cikuku and calls the Chinese language Kari Cikuku.
+    trv: ["Cikuku", "tsikuku"],  // The Truku/Seediq Wikipedia titles its article on the country Cikuku and calls the Chinese language Kari Cikuku. Route by resemblance to the neighbouring forms (ja(中国 chūgoku) szy(Cong-kow)); no etymology of its own.
     krl: ["Kiina", "ˈkiːnɑ"],  // The same name as Finnish Kiina, which was borrowed from Swedish Kina and goes back to Sanskrit Cīna; Livvi Karelian says Kitai instead, from Russian.
     tvl: ["Saina", "saina"],  // Jehovah's Witnesses' Tuvaluan publications write ko latou mai i Saina 'those from China' and te ‵gana Saina 'the Chinese language'; the same form as Samoan Saina, borrowed from English China.
     tok: ["ma Sonko", "ma sonko"],  // Literally 'land Sonko'; Sonko is the Toki Pona adaptation of Mandarin 中国 Zhōngguó.

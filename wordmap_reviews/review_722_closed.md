@@ -88,3 +88,20 @@ Review 722 total: 756 of 1,854 routed.
 - Aligned after p2b's doubt: a tomorrow word that puts a future marker on the yesterday root is `other`, as ty ānānahi
   (Pollex) already was: ami anocila (inacila) unknown → other, pwn nutiaw (katiaw) plain → other. sel тялы and yrk тебтаʼ
   are not shown to be built that way and stay as they are.
+
+## Owner follow-up 2026-11-12: 「ドイツの未判定も、音からゲルマニアから来ていることが分かる」
+Germany ee Dzamanya, lg Girimane, kbp Caama → germania (resemblance to ak Gyaaman, sw Ujerumani, en Germany). Pinned in
+tools/owner_decisions_check.js (owner-pinned-cells) with India hyw/inh persian.
+The first pass had kept these (g5 "a form that matches English Germany" was left unknown): the agents applied resemblance too
+strictly. A sound-nearness tool (~/langmap-work/unk1112/snd/near.py: normalised IPA edit distance against every routed cell of
+the same word, structural words excluded) listed 173 unknown cells with a routed form ≥ 0.6 similar. Each was read by hand;
+only pairs with a plausible kinship or contact were applied, cross-family look-alikes dropped (my လင်းနို့ ≠ Min 日婆, niv
+лый ≠ 雷, lt boružė ≠ vi bọ rùa …). Applied 26 more:
+japan pyu Dripung (dru Dripungu, from Nippon) nihon; china trv Cikuku (ja 中国 chūgoku, szy Cong-kow) zhongguo;
+hiccup ceb/hil/pam plain (tl/bik sinok), gu/sd/skr imitative (ur ہچکی, bn হেঁচকি), srn plain (srm tekútekú);
+rainbow sgs bow (lt vaivorykštė), mev plain (kpe gbeimɛ̂lɛ), quy plain (shp chirápa), och 虹 plain (every later Sinitic row);
+thunder rim plain (ki/jmc/asu); tomorrow yue/yue_zs 聽日 morning (= yue_nn/yue_dg 听日), tl bukas plain (= pam, h_tagalog),
+ja_mvi morning (ja_oki), ddo plain (khv); turkey ar_ma local (Berber bibi), ml കൽക്കം india (nl kalkoen); whale kbd plain
+(abq); bat ts plain (nso/st), mch plain (car rere); potato pcd papa (nrf patate); saturday grt saturn (bn/as শনিবার).
+Not applied: ks پَگاہ (Persian 'dawn' vs Sanskrit 'day in front' disputed), hr/sl puran (peruano only tentative), tao Ipong
+(Nippon or Ji̍t-pún), ses Endu (Greek or Persian line), to fainā, lij bibìn, rm galdin, th/lo/yue_nn hiccup (held before).

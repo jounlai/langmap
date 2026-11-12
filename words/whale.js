@@ -234,7 +234,7 @@ WORDS.whale = {
     yur: "plain",
     kl: "plain",
     av: "plain",
-    kbd: "unknown",
+    kbd: "plain",
     tet: "plain",
     bi: "fish",
     yue_ts: "fish",
@@ -668,7 +668,7 @@ WORDS.whale = {
     yur: ["hekwsaʼ", "hekʷʂaʔ"],  // The Yurok word for the whale. No image is recorded for it, so it counts as a word of its own.
     kl: ["arfeq", "arfeq"],  // Inherited from Proto-Inuit *aʁvǝʁ, shared with Inuktitut arvik and Iñupiaq aġviq.
     av: ["кит", "kit"],  // Borrowed from Russian kit, ultimately Greek kêtos.
-    kbd: ["джей", "dʒej"],  // Its Adyghe cognate джае names the catfish instead.
+    kbd: ["джей", "dʒej"],  // Its Adyghe cognate джае names the catfish instead. Route by resemblance to the neighbouring forms (abq(гьей)); no etymology of its own.
     tet: ["baleia", "baˈleja"],  // Borrowed from Portuguese baleia.
     bi: ["welfis", "welfis"],  // From English 'whale fish'; fis is the row's word for fish.
     yue_ts: ["鲸鱼", "kʰen˨˨ ŋui˨˨"],  // Literally 'whale fish': 鲸 'whale' plus 鱼 'fish'.

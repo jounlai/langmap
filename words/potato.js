@@ -149,7 +149,7 @@ WORDS.potato = {
     win: "other",
     cv: "earth",
     ca_va: "other",
-    pcd: "unknown",
+    pcd: "papa",
     szl: "truffle",
     qu: "papa",
     zh_db: "earth",
@@ -673,7 +673,7 @@ WORDS.potato = {
     win: ["too", "toː"],  // An inherited Siouan word for a native ground tuber, carried over to the potato.
     cv: ["ҫӗр улми", "ɕɘr ulmi"],  // Literally "earth's apple" (ҫӗр "earth" + улма "apple").
     ca_va: ["creïlla", "kɾeˈiʎa"],  // The Valencian word, borrowed from Spanish criadilla; Central Catalan says patata.
-    pcd: ["pétote", "petɔt"],  // Picard also has pun-d'tière, "earth apple", like French pomme de terre.
+    pcd: ["pétote", "petɔt"],  // Picard also has pun-d'tière, "earth apple", like French pomme de terre. Route by resemblance to the neighbouring forms (nrf(patate), French patate); no etymology of its own.
     szl: ["kartofel", "karˈtɔfɛl"],  // From German Kartoffel; Silesian spelling also kartŏfel.
     qu: ["papa", "ˈpapa"],  // The original Andean word for the potato, which Spanish borrowed as papa.
     zh_db: ["土豆", "tʰu˧˩˧ tou˥˩"],  // Literally "earth bean"; the everyday word across Northeast China.

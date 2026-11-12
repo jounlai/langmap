@@ -94,12 +94,12 @@ WORDS.hiccup = {
     ca: "plain",
     ro: "plain",
     he: "other",
-    ceb: "unknown",
+    ceb: "plain",
     ilo: "unknown",
-    hil: "unknown",
-    pam: "unknown",
+    hil: "plain",
+    pam: "plain",
     mfe: "imitative",
-    srn: "unknown",
+    srn: "plain",
     kk: "imitative",
     az: "imitative",
     ka: "imitative",
@@ -154,9 +154,9 @@ WORDS.hiccup = {
     ms: "plain",
     pa: "imitative",
     pnb: "imitative",
-    gu: "unknown",
-    sd: "unknown",
-    skr: "unknown",
+    gu: "imitative",
+    sd: "imitative",
+    skr: "imitative",
     ne: "imitative",
     or: "imitative",
     ha: "unknown",
@@ -418,12 +418,12 @@ WORDS.hiccup = {
     ca: ["singlot", "siŋˈɡlot"],  // A back-formation from singlotar 'to hiccup', of the Latin singultus family.
     ro: ["sughiț", "suˈɡits"],  // From Latin singultus via Vulgar Latin suggluttium.
     he: ["שיהוק", "ʃiˈhuk"],  // A verbal noun of the root ש־ה־ק: Ben-Yehuda's dictionary says the old verb was used of a donkey's braying and took its modern sense 'to hiccup' after Arabic شهق; Hebrew Wiktionary compares Arabic شهيق 'inhaling'.
-    ceb: ["sid-ok", "ˈsidʔok"],  // Compare Tagalog sinok and Hiligaynon sid-o.
+    ceb: ["sid-ok", "ˈsidʔok"],  // Compare Tagalog sinok and Hiligaynon sid-o. Route by resemblance to the neighbouring forms (tl(sinok) bik(sinok)); no etymology of its own.
     ilo: ["saiddek", "sajdˈdek"],  // Spelled saiddëk in the Wiktionary entry.
-    hil: ["sid-o", "ˈsidʔo"],  // Sikdo is a synonym.
-    pam: ["siguk", "sɪˈɡuk"],  // Compare Tagalog sigok 'light hiccup'.
+    hil: ["sid-o", "ˈsidʔo"],  // Sikdo is a synonym. Route by resemblance to the neighbouring forms (ceb(sid-ok) tl(sinok)); no etymology of its own.
+    pam: ["siguk", "sɪˈɡuk"],  // Compare Tagalog sigok 'light hiccup'. Route by resemblance to the neighbouring forms (ceb(sid-ok) tl(sinok)); no etymology of its own.
     mfe: ["loke", "loke"],  // From French l'hoquet, with the article fused on; the French word is ultimately onomatopoeic.
-    srn: ["tikotiko", "tikotiko"],  // Possibly from Ga and Awutu tikòtikò.
+    srn: ["tikotiko", "tikotiko"],  // Possibly from Ga and Awutu tikòtikò. Route by resemblance to the neighbouring forms (srm(tekútekú)); no etymology of its own.
     kk: ["ықылық", "əqəˈləq"],  // Onomatopoeic; compare Turkish hıçkırık.
     az: ["hıçqırıq", "hɯtʃɡɯˈɾɯx"],  // Onomatopoeic; the same word means 'sobbing'.
     ka: ["სლოკინი", "slokʼini"],  // From a Georgian-Zan root with the onomatopoeic suffix -in-.
@@ -478,9 +478,9 @@ WORDS.hiccup = {
     ms: ["sedu", "sədu"],  // Inherited from Proto-Malayo-Polynesian *sədu 'hiccough'; the same word also means 'sob'.
     pa: ["ਹਿਚਕੀ", "ɦɪtʃkiː"],  // The same word as Hindi-Urdu hichkī, which the Hindi Shabdasagar derives from an imitation of the sound hich.
     pnb: ["ہچکی", "hɪtʃkiː"],  // The same word as Hindi-Urdu hichkī, which the Hindi Shabdasagar derives from an imitation of the sound hich.
-    gu: ["હેડકી", "heɖkiː"],  // The everyday Gujarati word; હીક, from Sanskrit hikkā, is a synonym.
-    sd: ["هڏڪي", "hɪɗɪkiː"],  // The Sindhi word; Turner's Nepali dictionary compares it with Nepali bāṛuli.
-    skr: ["ہݙکی", "hɪɗkiː"],  // Saraiki, from the verb ہݙکݨ; a Saraiki glossary equates it with Urdu ہچکی 'hiccup'.
+    gu: ["હેડકી", "heɖkiː"],  // The everyday Gujarati word; હીક, from Sanskrit hikkā, is a synonym. Route by resemblance to the neighbouring forms (bn(হেঁচকি) ur(ہچکی)); no etymology of its own.
+    sd: ["هڏڪي", "hɪɗɪkiː"],  // The Sindhi word; Turner's Nepali dictionary compares it with Nepali bāṛuli. Route by resemblance to the neighbouring forms (ur(ہچکی) skr(ہݙکی)); no etymology of its own.
+    skr: ["ہݙکی", "hɪɗkiː"],  // Saraiki, from the verb ہݙکݨ; a Saraiki glossary equates it with Urdu ہچکی 'hiccup'. Route by resemblance to the neighbouring forms (ur(ہچکی)); no etymology of its own.
     ne: ["बाडुली", "baːɖuliː"],  // Nepali dictionaries define it as the hiccupping sound and equate it with hikkā; Turner's Nepali dictionary (1931) marks it, with a query, as onomatopoeic.
     or: ["ହିକ୍କା", "hikːaː"],  // From Sanskrit hikkā, built on an onomatopoeic root.
     ha: ["shaƙuwa", "ʃakʼuwaː"],  // Used in yi shaƙuwa 'to do a hiccup', the usual way to say 'to hiccup'.

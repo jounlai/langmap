@@ -222,7 +222,7 @@ WORDS.rainbow = {
     sl: "plain",
     bg: "bow",
     lt: "bow",
-    sgs: "unknown",
+    sgs: "bow",
     lv: "bow",
     sq: "bow",
     et: "bow",
@@ -242,7 +242,7 @@ WORDS.rainbow = {
     wuu_sz: "plain",
     wuu_wz: "plain",
     hak_tw: "bow",
-    och: "unknown",
+    och: "plain",
     udm: "other",
     kpv: "other",
     koi: "other",
@@ -471,7 +471,7 @@ WORDS.rainbow = {
     sc: "bow",
     brh: "bow",
     nyo: "unknown",
-    quy: "unknown",
+    quy: "plain",
     gaa: "unknown",
     lue: "plain",
     kaa: "unknown",
@@ -679,7 +679,7 @@ WORDS.rainbow = {
     lij: "bow",
     tzo: "plain",
     cak: "plain",
-    mev: "unknown",
+    mev: "plain",
     zap: "bow",
     her: "bow",
     ssy: "plain",
@@ -981,7 +981,7 @@ WORDS.rainbow = {
     sl: ["mavrica", "ˈmaːʋritsa"],  // The Slovene word for the rainbow; Wiktionary gives no etymology. No image is recorded for it, so it counts as a word of its own.
     bg: ["дъга", "dɐˈɡa"],  // The same word means 'arc' in geometry, from Proto-Slavic *dǫga 'arc, arch'.
     lt: ["vaivorykštė", "vɐɪˈvoːrʲiːkʃʲtʲeː"],  // Cognate with Latvian varavīksne, built on a reduplicated root *war- 'to bend' whose original sense was probably 'arch' (LEV).
-    sgs: ["vandarīkštė", "vandariːkʃteː"],  // The Samogitian counterpart of Lithuanian vaivorykštė; Samogitian Wikipedia also gives voverīkštė.
+    sgs: ["vandarīkštė", "vandariːkʃteː"],  // The Samogitian counterpart of Lithuanian vaivorykštė; Samogitian Wikipedia also gives voverīkštė. Route by resemblance to the neighbouring forms (lt(vaivorykštė)); no etymology of its own.
     lv: ["varavīksne", "ˈvaraviːksnɛ"],  // Probably originally 'bending, arch', from a reduplicated root *war- 'to bend'; Latvian dialects keep several taboo-shaped variants.
     sq: ["ylber", "ylˈbɛr"],  // Its second half is an old word for 'bow'; the first is either 'forearm' or yll 'star' (Orel's DPEWA).
     et: ["vikerkaar", "ˈʋikerkɑːr"],  // Its second half is kaar 'arc', like Finnish sateenkaari 'rain arc'.
@@ -1001,7 +1001,7 @@ WORDS.rainbow = {
     wuu_sz: ["鲎", "høʏ˥˩˧"],  // Wu 鲎 'rainbow' is the old word 雩 'rainbow' written with the character for the horseshoe crab, which merely sounds alike.
     wuu_wz: ["鲎", "hau˦˨"],  // Wenzhou says 鲎, the old word 雩 'rainbow' written with the character for the horseshoe crab.
     hak_tw: ["天弓", "tʰien˨˦ kiuŋ˨˦"],  // Literally 'sky bow' (天 'sky' + 弓 'bow'), the Hakka word, unlike Mandarin 彩虹.
-    och: ["虹", "*m-kˤoŋ"],  // Attested on the oracle bones, where the rainbow is drawn as a two-headed dragon that 'drinks from the River'; the word's own origin is debated.
+    och: ["虹", "*m-kˤoŋ"],  // Attested on the oracle bones, where the rainbow is drawn as a two-headed dragon that 'drinks from the River'; the word's own origin is debated. Route by resemblance to the neighbouring forms (ltc(虹) and every later Sinitic row); no etymology of its own.
     udm: ["вуюись", "vujujisʲ"],  // Literally 'water drinker' (ву 'water' + юись 'one who drinks'), from the belief that the rainbow drinks water (Rakin 2017).
     kpv: ["ӧшкамӧшка", "ɘʃkamɘʃka"],  // Lytkin and Gulyaev's etymological dictionary of Komi traces it to ӧш and мӧс 'spring, source' with the diminutive -ка, 'little spring' (ӧшмӧс 'well'), as Panyukov (2024) reports; speakers also hear it as ӧшка-мӧска 'bull and cow', and Komi-Permyak says енӧшка.
     koi: ["енӧшка", "jeˈnɘʃka"],  // Literally 'God's little bull': ен 'god' + ӧшка 'bull, ox' (or ӧш + diminutive -ка, after Lytkin); the same word names the ladybird, as Russian божья коровка 'God's little cow' does.
@@ -1230,7 +1230,7 @@ WORDS.rainbow = {
     sc: ["arcu de chelu", "ˈarku de ˈkelu"],  // Literally 'arch of the sky' (arcu 'arch, bow' + de + chelu 'sky').
     brh: ["بلسم", "bilsum"],  // Built on بل bil 'bow', the Dravidian word seen in Tamil வில்; the same word also means 'bow and arrows'.
     nyo: ["omuhangazima", "omuhaŋɡazima"],  // The Runyoro-Rutooro word for the rainbow in both Bible translations; the 1964 version spells it omuhanganzima. IPA read from the spelling.
-    quy: ["chirapa", "ˈtʃiɾapa"],  // The Ayacucho Quechua word for the rainbow in both Ayacucho Bible translations; IPA read from the spelling.
+    quy: ["chirapa", "ˈtʃiɾapa"],  // The Ayacucho Quechua word for the rainbow in both Ayacucho Bible translations; IPA read from the spelling. Route by resemblance to the neighbouring forms (shp(chirápa)); no etymology of its own.
     gaa: ["kwaabuɛtɛ", "kwaːbuɛtɛ"],  // The Ga word for the rainbow, used in both Ga Bible translations; IPA read from the spelling, tone not shown.
     lue: ["kongolo", "koŋɡolo"],  // The Luvale word for the rainbow in both Luvale Bible translations; IPA read from the spelling. Route by resemblance to the neighbouring forms (umb(olukongolo)); no etymology of its own.
     kaa: ["ayqulaq", "ajqulaq"],  // The Karakalpak word for the rainbow, the title of the Karakalpak Wikipedia article and the word of the Karakalpak Bible; IPA read from the spelling.
@@ -1438,7 +1438,7 @@ WORDS.rainbow = {
     lij: ["arcobalén", "arkubaˈleŋ"],  // Begins with arco "arch, bow", like Italian arcobaleno; Ligurian also says archinçê, "arch in the sky".
     tzo: ["vaknabal", "vaknabal"],  // The Tzotzil word for the rainbow, in the Batsʼi kʼop Living Dictionary and the Chenalhó Bible ("ja' li vacnabal laj cac' ta vinajele", Genesis 9:13). No image is recorded for it, so it counts as a word of its own.
     cak: ["kotoqʼaʼ", "kotoqʼaʔ"],  // The Kaqchikel word for the rainbow in two Bible translations: "Ri kotoq'a' ri xinya' pa sutz'" (Genesis 9:13); IPA read from the spelling. No image is recorded for it, so it counts as a word of its own.
-    mev: ["gbèĩ́-ɓɛ̀lɛ̀", "ɡbèĩ́ɓɛ̀lɛ̀"],  // The word the Mano New Testament uses for the rainbow, "Gbèĩ́-ɓɛ̀lɛ̀ nìɛɛ̀ e kɛá à wũ-kèlè mɔ̀" (Revelation 10:1), also 4:3; its second part matches ɓɛ̀lɛ̀ "rope, vine".
+    mev: ["gbèĩ́-ɓɛ̀lɛ̀", "ɡbèĩ́ɓɛ̀lɛ̀"],  // The word the Mano New Testament uses for the rainbow, "Gbèĩ́-ɓɛ̀lɛ̀ nìɛɛ̀ e kɛá à wũ-kèlè mɔ̀" (Revelation 10:1), also 4:3; its second part matches ɓɛ̀lɛ̀ "rope, vine". Route by resemblance to the neighbouring forms (kpe(gbeimɛ̂lɛ)); no etymology of its own.
     zap: ["arcu iris", "aɾku iɾis"],  // Borrowed from Spanish arco iris, "arc of Iris"; used in the Isthmus Zapotec New Testament (Revelation 4:3, 10:1).
     her: ["outa wombura", "outa wombura"],  // Literally "bow of rain", used throughout the Herero Bible: "Me twa po outa wandje wombura movikamba" (Genesis 9:13) and "kwa ri nouta wombura kombanda yotjiuru tje" (Revelation 10:1).
     ssy: ["robraat", "ɾobɾaːt"],  // The Saho word for the rainbow in the Saho New Testament: "esmarandosti macdinhi xibar le robraat tine" (Revelation 4:3) and "Ishi amok robraat luuk yine" (Revelation 10:1). No image is recorded for it, so it counts as a word of its own.

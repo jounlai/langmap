@@ -139,7 +139,7 @@ WORDS.tomorrow = {
     ko_kp: "other",
     zh: "other",
     zh_tw: "other",
-    yue: "unknown",
+    yue: "morning",
     nan: "morning",
     wuu: "morning",
     hak_cn: "morning",
@@ -478,7 +478,7 @@ WORDS.tomorrow = {
     tab: "plain",
     udi: "unknown",
     aqc: "plain",
-    ddo: "unknown",
+    ddo: "plain",
     lez: "morning",
     kl: "plain",
     arn: "plain",
@@ -694,7 +694,7 @@ WORDS.tomorrow = {
     kac: "morning",
     pot: "morning",
     vi_nom: "morning",
-    tl: "unknown",
+    tl: "plain",
     ilo: "morning",
     ff: "plain",
     th_isan: "other",
@@ -749,7 +749,7 @@ WORDS.tomorrow = {
     yan: "unknown",
     jbo: "other",
     xkz: "plain",
-    ja_mvi: "unknown",
+    ja_mvi: "morning",
     bla: "plain",
     dzg: "plain",
     zag: "plain",
@@ -863,7 +863,7 @@ WORDS.tomorrow = {
     got: "unknown",
     ofs: "morning",
     ko_gor: "unknown",
-    yue_zs: "unknown",
+    yue_zs: "morning",
     nan_hai: "morning",
     cjy_lv: "other",
     cnp: "other",
@@ -1029,7 +1029,7 @@ WORDS.tomorrow = {
     ko_kp: ["래일", "ɾɛil"],  // The North Korean spelling of 내일 keeps the initial r of 來 'coming'; literally 'the coming day' (Wiktionary).
     zh: ["明天", "miŋ˧˥ tʰjɛn˥"],  // 明 here means 'next', so 明天 is 'the next day'.
     zh_tw: ["明天", "miŋ˧˥ tʰjɛn˥"],  // 明 here means 'next', so 明天 is 'the next day'.
-    yue: ["聽日", "tʰɪŋ˥ jɐt˨"],  // The characters are phonetic; the word may be a worn-down 天光日 'daybreak day' or 天日 (Wiktionary).
+    yue: ["聽日", "tʰɪŋ˥ jɐt˨"],  // The characters are phonetic; the word may be a worn-down 天光日 'daybreak day' or 天日 (Wiktionary). Route by resemblance to the neighbouring forms (yue_nn(听日) yue_dg(听日), the same word); no etymology of its own.
     nan: ["明仔載", "bin˨˦ a˥˧ tsai˩˩"],  // From 明旦 'tomorrow morning' plus a contracted 早起 'morning' (Wiktionary).
     wuu: ["明朝", "min˨˨ tsɔ˦˦"],  // Literally 'next morning' (朝 'morning'); in Classical Chinese it meant 'tomorrow morning' (Wiktionary).
     hak_cn: ["天光日", "tʰiɛn˦ kuoŋ˦ ŋit˩"],  // Literally 'daybreak day': 天光 means 'dawn' (Wiktionary).
@@ -1368,7 +1368,7 @@ WORDS.tomorrow = {
     tab: ["закур", "zakur"],  // Закур is the Tabasaran word for tomorrow. Unrelated to гачӏ кин 'morning' and йишв 'night' (IDS).
     udi: ["аьйчӏи", "æjtʃʼi"],  // Аьйчӏи is the Udi word for tomorrow.
     aqc: ["шутта", "ʃutːa"],  // Шутта is the Archi word for tomorrow. Unrelated to аккомис 'morning' and иш 'night' (IDS).
-    ddo: ["гъуде", "ʁude"],  // Гъуде is the Tsez word; the Mokok dialect says сасахъ.
+    ddo: ["гъуде", "ʁude"],  // Гъуде is the Tsez word; the Mokok dialect says сасахъ. Route by resemblance to the neighbouring forms (khv(гъваде)); no etymology of its own.
     lez: ["пака", "paka"],  // Пака is the Lezgian word for tomorrow. Пакама 'morning' is the same word with -ма (IDS; NorthEuraLex).
     kl: ["aqagu", "aqaɣu"],  // From Proto-Inuit *aqaɣu 'tomorrow, or in a while'.
     arn: ["wüle", "wɨle"],  // Wüle is the Mapudungun word for tomorrow. Unrelated to liwen 'morning' and pun 'night'.
@@ -1584,7 +1584,7 @@ WORDS.tomorrow = {
     kac: ["hpawtni", "pʰot˥˥ni˥˥"],  // Built on hpawt 'morning' (hpawtni 'tomorrow').
     pot: ["wabêk", "wapʊk"],  // Literally 'when it is morning': the conjunct of waben 'to be morning'.
     vi_nom: ["𣈜𣈕", "ŋaj˨˩ maːj˧"],  // Ngày mai in Chữ Nôm: 𣈜 ngày 'day' + 𣈕 mai 'early morning'.
-    tl: ["bukas", "ˈbukas"],  // Bukas is the Tagalog word for tomorrow; Wiktionary compares it with Ivatan and Sambal words for 'morning' but gives no etymology.
+    tl: ["bukas", "ˈbukas"],  // Bukas is the Tagalog word for tomorrow; Wiktionary compares it with Ivatan and Sambal words for 'morning' but gives no etymology. Route by resemblance to the neighbouring forms (pam(bukas) h_tagalog(ᜊᜓᜃᜐ᜔), the same word); no etymology of its own.
     ilo: ["inton bigat", "ʔinton biɡat"],  // Bigat means both 'morning' and 'tomorrow'; inton marks the future, so the phrase is 'when it is morning'.
     ff: ["janngo", "dʒaŋːɡo"],  // Janngo is the Pulaar word; other Fula Bibles write jaango (Burkina Faso) or jaŋngo (Adamawa Fulfulde). No image is recorded for it, so it counts as a word of its own.
     th_isan: ["มื้ออื่น", "mɯː˧˩ʔɯːn˦"],  // Mue uen is the Isan word for tomorrow. มื้อ 'day' + อื่น 'other', as in Lao ມື້ອື່ນ.
@@ -1639,7 +1639,7 @@ WORDS.tomorrow = {
     yan: ["yahan mani", "jahan mani"],  // Yahan mani is 'tomorrow' in the Mayangna Bible (Matthew 6:34, Luke 13:32).
     jbo: ["bavlamdei", "bavˈlamdej"],  // Bavlamdei is a compound of balvi 'future', lamli 'adjacent' and djedi 'day': 'the adjacent future day'.
     xkz: ["yangpa", "jaŋpa"],  // Yangpa is 'tomorrow' in Hyslop et al.'s Kurtöp dictionary. No image is recorded for it, so it counts as a word of its own.
-    ja_mvi: ["あつぁ", "atsa"],  // Atsa is 'tomorrow' (明日) in the Okinawa Center of Language Study's Miyako dictionary.
+    ja_mvi: ["あつぁ", "atsa"],  // Atsa is 'tomorrow' (明日) in the Okinawa Center of Language Study's Miyako dictionary. Route by resemblance to the neighbouring forms (ja_oki(あちゃー)); no etymology of its own.
     bla: ["aapinákos", "aːpinákos"],  // Aapinákos is 'tomorrow' in Frantz and Russell's Blackfoot dictionary. No image is recorded for it, so it counts as a word of its own.
     dzg: ["šiki", "ʃɪ̀kɪ́"],  // Not the word for 'morning' (belke); the dictionary gives no make-up for it. No image is recorded for it, so it counts as a word of its own.
     zag: ["kuri", "kʊɾɪ"],  // Not the word for 'morning' (îsîna); the dictionary gives no make-up for it. No image is recorded for it, so it counts as a word of its own.
@@ -1753,7 +1753,7 @@ WORDS.tomorrow = {
     got: ["𐌲𐌹𐍃𐍄𐍂𐌰𐌳𐌰𐌲𐌹𐍃", "ˈɡistraˌdaɣis"],  // Found once, in Matthew 6:30. Its first part is related to English yester-, but Gothic's own word for yesterday is not recorded, so 'the same word' cannot be checked.
     ofs: ["morgen", "ˈmorɣen"],  // The same word as 'morning', like German morgen; modern West Frisian moarn.
     ko_gor: ["轄載", "*holtsə"],  // Sun Mu's Gyerim yusa (1103) writes 明日曰轄載; Wiktionary reconstructs *holce, perhaps 'day' + 'time' + a locative, but marks the analysis as uncertain. Middle Korean instead has ᄂᆡ·ᅀᅵᆯ, from Chinese 來日.
-    yue_zs: ["聽日", "tʰɪŋ˥˥ jɐt˧"],  // The same word as Cantonese 聽日, whose first syllable has no agreed etymology; reading from MCPDict 中山.
+    yue_zs: ["聽日", "tʰɪŋ˥˥ jɐt˧"],  // The same word as Cantonese 聽日, whose first syllable has no agreed etymology; reading from MCPDict 中山. Route by resemblance to the neighbouring forms (yue_nn(听日) yue_dg(听日), the same word); no etymology of its own.
     nan_hai: ["现旦", "hin˧˩ na˨˧"],  // Built on 旦 'dawn'; MCPDict 海口 gives this reading of 現 for 現旦 'tomorrow', and Wiktionary's dialect table the word.
     cjy_lv: ["明天", "mɿ˦˦ tʰiɪ˨˦"],  // With the colloquial reading of 明; Lishi also says 明儿. Reading from MCPDict 離石.
     cnp: ["明日", "meŋ˨˩ ȵɐt˨˦"],  // Literally 'the bright (next) day'.

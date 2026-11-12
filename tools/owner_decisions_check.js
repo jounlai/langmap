@@ -113,7 +113,7 @@ const DECISIONS = [
     },
     {
         id: 'owner-pinned-cells',
-        what: 'Cells the owner ruled on stay as ruled: es_pr mai̯/pai̯ (dialect feature), vi_c/vi_s r = ɹ not ʐ (2026-08-31, c9d451e8), English "fire" has no ˈ (2026-07-21, 02846461)',
+        what: 'Cells the owner ruled on stay as ruled: es_pr mai̯/pai̯ (dialect feature), vi_c/vi_s r = ɹ not ʐ (2026-08-31, c9d451e8), English "fire" has no ˈ (2026-07-21, 02846461), India hyw/inh persian and Germany ee/lg/kbp germania by sound (2026-11-12)',
         check: () => {
             const bad = [];
             if (!/es_pr: \["madre", "mai̯"\]/.test(read('words/mother.js'))) bad.push('words/mother.js es_pr');
@@ -123,6 +123,10 @@ const DECISIONS = [
                 if (/^\s*["']?vi_[cs]["']?\s*:\s*\[[^\]]*ʐ/m.test(read('words/' + f))) bad.push('words/' + f + ' vi_c/vi_s ʐ');
             }
             if (/["']?en(_[a-z0-9]+)?["']?\s*:\s*\[\s*"fire",\s*"ˈ/.test(read('words/fire.js'))) bad.push('words/fire.js stress');
+            // Routes by sound (owner 2026-11-12): India hyw/inh on the Persian route; Germany ee/lg/kbp from Germania.
+            const fam = (w, c) => (read('words/' + w + '.js').match(new RegExp('^    ' + c + ': "([a-z_]+)",$', 'm')) || [])[1];
+            for (const [w, c, r] of [['india', 'hyw', 'persian'], ['india', 'inh', 'persian'], ['germany', 'ee', 'germania'], ['germany', 'lg', 'germania'], ['germany', 'kbp', 'germania']])
+                if (fam(w, c) !== r) bad.push(`words/${w}.js ${c} ≠ ${r}`);
             return bad;
         },
     },

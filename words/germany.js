@@ -176,14 +176,14 @@ WORDS.germany = {
     ki: "germania",
     kg: "alemanni",
     ks: "germania",
-    ee: "unknown",
+    ee: "germania",
     da: "deutsch",
     hy: "germania",
     gn: "alemanni",
     kab: "alemanni",
     luy: "germania",
     fi: "saxon",
-    lg: "unknown",
+    lg: "germania",
     min: "germania",
     hr: "nemets",
     sk: "nemets",
@@ -244,7 +244,7 @@ WORDS.germany = {
     pnt: "germania",
     ve: "germania",
     gor: "germania",
-    kbp: "unknown",
+    kbp: "germania",
     sm: "germania",
     szl: "nemets",
     oc: "alemanni",
@@ -624,14 +624,14 @@ WORDS.germany = {
     ki: ["Njĩrĩmani", "ndʒeɾemani"],  // The Kikuyu Wikipedia name for Germany, a form that matches English Germany. Route by resemblance to the neighbouring forms (ny(Jeremani) sw(Ujerumani)); no etymology of its own.
     kg: ["Alemanyi", "alemaɲi"],  // The Kikongo Wikipedia name for Germany, a form that matches French Allemagne. Route by resemblance to the neighbouring forms (tl(Alemanya) es(Alemania)); no etymology of its own.
     ks: ["جَرمَنی", "dʒarmaniː"],  // The Kashmiri Wikipedia name for Germany, the same form as Urdu جرمنی. Route by resemblance to the neighbouring forms (bn(জার্মানি) te(జర్మనీ)); no etymology of its own.
-    ee: ["Dzamanya", "dzamaɲa"],  // The Ewe Wikipedia name for Germany.
+    ee: ["Dzamanya", "dzamaɲa"],  // The Ewe Wikipedia name for Germany. Route by resemblance to the neighbouring forms (ak(Gyaaman) en(Germany)); no etymology of its own.
     da: ["Tyskland", "ˈtˢysɡ̊ˌlanˀ"],  // Literally "German land"; tysk has the same source as German deutsch.
     hy: ["Գերմանիա", "ɡeɾˈmɑniɑ"],  // From Old Armenian Գերմանիա, which came from Greek Γερμανία.
     gn: ["Alemáña", "aleˈmaɲa"],  // Borrowed from Spanish, named after the Alamanni.
     kab: ["Lalman", "lalman"],  // Germany in Kabyle, a form that matches French l'Allemagne with the article fused on. Route by resemblance to the neighbouring forms (fr(Allemagne) ps(آلمان)); no etymology of its own.
     luy: ["Jamani", "dʒamani"],  // Germany in Luhya, a form that matches English Germany. Route by resemblance to the neighbouring forms (bn(জার্মানি) te(జర్మనీ)); no etymology of its own.
     fi: ["Saksa", "ˈsɑksɑ"],  // From the Saxons: Finns first met Germans as Low German-speaking traders on the Baltic.
-    lg: ["Girimane", "ɡirimane"],  // Germany in Luganda, a form that matches English Germany.
+    lg: ["Girimane", "ɡirimane"],  // Germany in Luganda. Route by resemblance to the neighbouring forms (sw(Ujerumani) en(Germany)); no etymology of its own.
     min: ["Jerman", "dʒerman"],  // The Minangkabau Wikipedia name for Germany, the same form as Indonesian Jerman. Route by resemblance to the neighbouring forms (id(Jerman) ms(Jerman)); no etymology of its own.
     hr: ["Njemačka", "ɲěmatʃkaː"],  // From Nijemac "German", ultimately Proto-Slavic němьcь, "mute, foreigner".
     sk: ["Nemecko", "ˈɲemetsko"],  // From Nemec "German", ultimately Proto-Slavic němьcь, "mute, foreigner".
@@ -692,7 +692,7 @@ WORDS.germany = {
     pnt: ["Γερμανία", "ʝermaˈnia"],  // Germany in Pontic Greek, the same form as Standard Greek; no source found naming the donor. Route by resemblance to the neighbouring forms (el(Γερμανία) he(גרמניה)); no etymology of its own.
     ve: ["Dzheremane", "dʒeremane"],  // Germany in Venda, as in the German Foreign Office's official Venda rendering; no source found naming the donor. Route by resemblance to the neighbouring forms (ny(Jeremani) id(Jerman)); no etymology of its own.
     gor: ["Jerman", "ˈdʒerman"],  // Germany in Gorontalo Wikipedia, the same form as Indonesian Jerman; no source found naming the donor. Route by resemblance to the neighbouring forms (id(Jerman) ms(Jerman)); no etymology of its own.
-    kbp: ["Caama", "tʃaːma"],  // Germany in Kabiye Wikipedia; no source found for its origin.
+    kbp: ["Caama", "tʃaːma"],  // Germany in Kabiye Wikipedia. Route by resemblance to the neighbouring forms (ee(Dzamanya) ak(Gyaaman)); no etymology of its own.
     sm: ["Siamani", "siamani"],  // Borrowed from English Germany (Wiktionary).
     szl: ["Miymcy", "ˈmjɪmtsɪ"],  // A plural form like Polish Niemcy, from the Slavic word for the Germans, němьcь, first meaning a mute or foreign-speaking person.
     oc: ["Alemanha", "aleˈmaɲɔ"],  // Named after the Alamanni, a Germanic tribal confederation on the Upper Rhine.

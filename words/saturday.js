@@ -382,7 +382,7 @@ WORDS.saturday = {
     acw: "sabbath",
     ami: "other",
     szl: "sabbath",
-    grt: "unknown",
+    grt: "saturn",
     nso: "other",
     pag: "sabbath",
     ne: "saturn",
@@ -748,7 +748,7 @@ WORDS.saturday = {
     acw: ["السبت", "assabt"],  // Inherited from Arabic as-sabt, the Sabbath.
     ami: ["saseraan", "sasəraan"],  // Built on sera 'earth' with sa- -an.
     szl: ["sobota", "sɔˈbɔta"],  // From the Hebrew Sabbath, through Greek and Latin.
-    grt: ["sanicho", "sanitʃo"],  // The Garo name for Saturday; the source gives no etymology.
+    grt: ["sanicho", "sanitʃo"],  // The Garo name for Saturday. Route by resemblance to the neighbouring forms (bn(শনিবার) as(শনিবাৰ)); no etymology of its own.
     nso: ["Mokibelo", "mokiβelo"],  // No etymology is given; it is the same word as Sesotho Moqebele.
     pag: ["Sabado", "ˈsabado"],  // From Spanish sábado, the Sabbath.
     ne: ["शनिबार", "sʌnibaːɾ"],  // Built on शनि 'Saturn' and बार 'day'.

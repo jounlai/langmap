@@ -425,7 +425,7 @@ WORDS.japan = {
     tvl: "europe",
     mwl: "europe",
     tao: "unknown",
-    pyu: "unknown",
+    pyu: "nihon",
     jbo: "nihon",
     vep: "europe",
     smn: "europe",
@@ -844,7 +844,7 @@ WORDS.japan = {
     tvl: ["Tiapani", "tiapani"],  // Japan in Tuvaluan, as used in Jehovah's Witnesses' Tuvaluan publications ('i Nagoya i Tiapani').
     mwl: ["Japon", "ʒaˈpõŋ"],  // Used with the article, l Japon, in the Mirandese Wikipedia; Mirandese -on matches Portuguese -ão (Japão).
     tao: ["Ipong", "ipoŋ"],  // Japan in Tao (Yami), as in the ILRDF dictionary's example 'nimangay ko do Ipong' (I went to Japan).
-    pyu: ["Dripung", "ɖipuŋ"],  // Japan in Puyuma, glossed 'Dripung (日本)' in the ILRDF dictionary's examples.
+    pyu: ["Dripung", "ɖipuŋ"],  // Japan in Puyuma, glossed 'Dripung (日本)' in the ILRDF dictionary's examples. Route by resemblance to the neighbouring forms (dru(Dripungu), from Japanese Nippon); no etymology of its own.
     jbo: ["pongu'e", "ponˈɡuhe"],  // A compound of ponjo 'Japanese' and gugde 'country'; ponjo is a cultural root made from Japanese Nippon (Lojban reference grammar).
     vep: ["Japonii", "ˈjaponiː"],  // Borrowed from Russian Япония (Wiktionary); the title of the Veps Wikipedia article, officially Japonijan Valdkund.
     smn: ["Jaapaan", "ˈjaːpaːn"],  // Jaapaan is the title of the Inari Sámi Wikipedia article on Japan. Route by resemblance to the neighbouring forms (de(Japan) nl(Japan) sv(Japan) sr(Јапан)); no etymology of its own.

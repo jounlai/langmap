@@ -75,7 +75,7 @@ WORDS.turkey = {
     ar_gulf: "elsewhere",
     acw: "elsewhere",
     ar_iq: "india",
-    ar_ma: "unknown",
+    ar_ma: "local",
     ar_lev: "elsewhere",
     he: "india",
     tr: "india",
@@ -306,7 +306,7 @@ WORDS.turkey = {
     ps: "local",
     ig: "local",
     su: "india",
-    ml: "unknown",
+    ml: "india",
     sd: "turkey",
     ne: "turkey",
     si: "india",
@@ -456,7 +456,7 @@ WORDS.turkey = {
     ar_gulf: ["ديچ رومي", "diːtʃ ruːmi"],  // Literally "Roman (Byzantine) rooster", with the Gulf pronunciation of ديك as ديچ.
     acw: ["ديك رومي", "diːk ruːmi"],  // Literally "Roman (Byzantine) rooster".
     ar_iq: ["هندي", "hindi"],  // Literally "Indian", short for ديچ هندي "Indian rooster".
-    ar_ma: ["بيبي", "biːbi"],  // Moroccan Arabic bibi; the Standard Arabic "Roman rooster" is a synonym.
+    ar_ma: ["بيبي", "biːbi"],  // Moroccan Arabic bibi; the Standard Arabic "Roman rooster" is a synonym. Route by resemblance to the neighbouring forms (shi(ⴱⵉⴱⵉ) tzm(ⴱⵉⴱⵉ)); no etymology of its own.
     ar_lev: ["ديك حبش", "diːk ħabaʃ"],  // Literally "Abyssinian (Ethiopian) rooster"; Wiktionary also lists North Levantine حبشة ḥabše.
     he: ["תרנגול הודו", "taʁneɡol hodu"],  // Literally "rooster of India" (הודו = India).
     tr: ["hindi", "hinˈdi"],  // Literally "Indian", named after India.
@@ -687,7 +687,7 @@ WORDS.turkey = {
     ps: ["فيلمرغ", "filmorɣ"],  // Literally 'elephant fowl', as in Urdu فیل مرغ and Persian; Pashto Wikipedia uses the descriptive شونډکيز چرگ.
     ig: ["torotoro", "toɾotoɾo"],  // Related to Hausa tàlotàlo, whose name spread across Nigerian languages; the variant tòlótòló is marked as from Hausa.
     su: ["kalkun", "kalkun"],  // From Dutch kalkoen, named after the Indian port of Calicut, as with Indonesian kalkun.
-    ml: ["കൽക്കം", "kalkːam"],  // Also called ടർക്കി and വാങ്കോഴി, a cognate of Tamil வான்கோழி.
+    ml: ["കൽക്കം", "kalkːam"],  // Also called ടർക്കി and വാങ്കോഴി, a cognate of Tamil வான்கோழி. Route by resemblance to the neighbouring forms (nl(kalkoen) sv(kalkon)); no etymology of its own.
     sd: ["ٽرڪي", "ʈərkiː"],  // Borrowed from English turkey.
     ne: ["टर्की", "ʈʌɾkiː"],  // Borrowed from English turkey.
     si: ["කළුකුමා", "kalukumaː"],  // From Dutch kalkoen, named after the Indian port of Calicut.

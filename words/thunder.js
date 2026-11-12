@@ -643,7 +643,7 @@ WORDS.thunder = {
     spp: "god",
     bsq: "plain",
     inh: "unknown",
-    rim: "unknown",
+    rim: "plain",
     kqn: "plain",
     mam: "plain",
     pap: "unknown",
@@ -1404,7 +1404,7 @@ WORDS.thunder = {
     spp: ["kiletinni", "kiletinːi"],  // Kept apart from kileɲini, the lightning, in Revelation 4:5; in John 12:29 the crowd says "Kileŋ'à tîn", with Kile, the word for God, as the subject of the thundering. Its first part is that same Kile, so the word reads 'God's thundering', as Ga nyɔŋmɔshimɔ does.
     bsq: ["zɛ", "zɛ"],  // Thunder "cracks" (páná) in the Bassa Bible, which keeps it apart from wɛ́ɖɛ́-wɛ́ɖɛ́, the lightning, in Exodus 9:23 and explains Boanerges as men with a voice like zɛ. No image is recorded for it, so it counts as a word of its own.
     inh: ["ди", "di"],  // Spelled the same as ди 'day'; the roll of thunder is ди къовкъар, and the lightning is тӀоа.
-    rim: ["irunkumo", "iɾuŋkumo"],  // Kept apart from ufëto, the lightning, in Revelation 4:5 and 11:19; Mark 3:17 renders 'sons of thunder' differently, as anaa gëtetemo.
+    rim: ["irunkumo", "iɾuŋkumo"],  // Kept apart from ufëto, the lightning, in Revelation 4:5 and 11:19; Mark 3:17 renders 'sons of thunder' differently, as anaa gëtetemo. Route by resemblance to the neighbouring forms (ki(irurumĩ) jmc(iruruma) asu(mrurumo)); no etymology of its own.
     kqn: ["kilulumo", "kilulumo"],  // The noun of the verb -luluma 'to thunder' (John 12:29 'Waluluma'); the plural is bilulumo, and the lightning is kubeesha. No image is recorded for it, so it counts as a word of its own.
     mam: ["qʼankyaq", "qʼankʲaq"],  // Kept apart from xloqʼlin kyaʼj, the lightning, in Revelation 4:5; the Huehuetenango Bible spells it qʼankyoq. Route by resemblance to the neighbouring forms (ixl(qʼankoo)); no etymology of its own.
     pap: ["strena", "ˈstrena"],  // Kept apart from lamper, the lightning: Papiamentu Wikipedia calls Thor 'e dios di strena i lamper', the god of thunder and lightning.

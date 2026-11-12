@@ -335,7 +335,7 @@ WORDS.bat = {
     mnk: "plain",
     bsq: "unknown",
     tn: "plain",
-    ts: "unknown",
+    ts: "plain",
     oj: "unknown",
     nog: "other",
     ady: "bird",
@@ -452,7 +452,7 @@ WORDS.bat = {
     usp: "plain",
     cr: "plain",
     atj: "plain",
-    mch: "unknown",
+    mch: "plain",
     agr: "plain",
     car: "plain",
     crn: "plain",
@@ -972,7 +972,7 @@ WORDS.bat = {
     mnk: ["tonsoo", "tonsoː"],  // The Mandinka word for the bat, in the definite form the row uses. Unrelated to nyina 'rat' and kono 'bird'.
     bsq: ["zĩ́á-gã", "zĩ́áɡã"],  // The Bassa word, used for the bat in Leviticus 11:19 and Isaiah 2:20.
     tn: ["mmamathwane", "mːamatʰwane"],  // The Setswana word for the bat, spelled mmamathwane in the 2008 Bible. Brown's Secwana Dictionary glosses Mamathwane 'a bat' (plural bomamathwane) with no analysis, apart from peba 'mouse' and nonyane 'bird'. No image is recorded for it, so it counts as a word of its own.
-    ts: ["mangadyana", "maŋɡadʲana"],  // The Xitsonga word for the bat, plural vamangadyana.
+    ts: ["mangadyana", "maŋɡadʲana"],  // The Xitsonga word for the bat, plural vamangadyana. Route by resemblance to the neighbouring forms (nso(mmankgagane) st(mmankgane)); no etymology of its own.
     oj: ["apakwaanaajiinh", "apakwaːnaːdʒĩː"],  // The Ojibwe word, written ahpuhquahnahje in the older Bible spelling.
     nog: ["ярганат", "jarʁaˈnat"],  // The Kipchak Turkic bat word shared with Bashkir ярғанат and Tatar ярканат. Route by resemblance to the neighbouring forms (ba(ярғанат) tt(ярканат)); no etymology of its own.
     ady: ["чэщбзыу", "tʃaɕbzəw"],  // Literally 'night bird': чэщ 'night' plus бзыу 'bird'.
@@ -1089,7 +1089,7 @@ WORDS.bat = {
     usp: ["sootzʼ", "soːtsʼ"],  // Inherited from Proto-Mayan *sootzʼ 'bat' (Kaufman), keeping the long vowel.
     cr: ["ᐊᐸᐦᒁᒌᐢ", "apahkwaːtʃiːs"],  // The Plains Cree word for the bat, apahkwâcîs in Roman spelling; a variant pahkwâcîs is also listed. No image is recorded for it, so it counts as a word of its own.
     atj: ["apokwaratcic", "apokwaɾatʃiʃ"],  // The Atikamekw word for the bat, related to Plains Cree apahkwâcîs. Route by resemblance to the neighbouring forms (cr(ᐊᐸᐦᒁᒌᐢ)); no etymology of its own.
-    mch: ["dede", "deɾ̠e"],  // The Yeʼkwana word for bats in general, also the name of the greater bulldog bat and of a basket motif.
+    mch: ["dede", "deɾ̠e"],  // The Yeʼkwana word for bats in general, also the name of the greater bulldog bat and of a basket motif. Route by resemblance to the neighbouring forms (car(rere)); no etymology of its own.
     agr: ["jiincham", "hiːntʃam"],  // The Awajún word for the bat; stress is left unmarked. No image is recorded for it, so it counts as a word of its own.
     car: ["rere", "ɾeɾe"],  // The Kariʼna word for the bat, also spelled lele. The World Loanword Database (Courtz's Kariʼna data) gives lele 'the bat' as unanalysable, with no evidence of borrowing, and it is unrelated to tonolo 'bird'. No image is recorded for it, so it counts as a word of its own.
     crn: ["átziʼi", "ˈatsiʔi"],  // The Cora word for the bat, plural átziʼise; Wiktionary compares Huichol ʼási. Route by resemblance to the neighbouring forms (hch(ʼatsixi)); no etymology of its own.

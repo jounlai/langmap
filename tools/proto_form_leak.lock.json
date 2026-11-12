@@ -952,5 +952,47 @@
     "proto": "pmng",
     "ruling": "circular",
     "note": "Attested hapax in Phags-pa script (d-r-sun) per Wiktionary; Middle Mongol is a basis of the Proto-Mongolic reconstruction."
+  },
+  "cmg|gold": {
+    "form": "altan",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Classical Mongolian is, with Middle Mongol, the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
+  "cmg|mirror": {
+    "form": "toli",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Classical Mongolian is, with Middle Mongol, the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
+  "ojp|island": {
+    "form": "sima",
+    "proto": "p_jpk,p_jpn,p_ryu",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|left": {
+    "form": "pidari",
+    "proto": "p_ryu",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "xng|gold": {
+    "form": "altan",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol (the Secret History, hP'ags-pa material) is the primary witness FOR Proto-Mongolic. Row-level ruling on the structural relationship."
+  },
+  "xng|mirror": {
+    "form": "toli",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol (the Secret History, hP'ags-pa material) is the primary witness FOR Proto-Mongolic. Row-level ruling on the structural relationship."
+  },
+  "xqa|bread": {
+    "form": "etmek",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Karakhanid, i.e. the language of Kashgari's Diwan Lughat al-Turk, is with Old Turkic the primary witness for Proto-Turkic. Row-level ruling on the structural relationship; cells not individually re-verified."
   }
 }

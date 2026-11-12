@@ -333,6 +333,25 @@ WORDS.tuesday = {
     es_ec: "mars",
     es_uy: "mars",
     es_ve: "mars",
+    ar_qur: "count",
+    prg: "plain",
+    non: "god",
+    cu: "count",
+    syc: "count",
+    fa_clas: "count",
+    fro: "mars",
+    goh: "god",
+    osp: "mars",
+    hy_grab: "count",
+    xct: "mars",
+    kaw: "mars",
+    osn: "mars",
+    sa_edu: "mars",
+    ota: "count",
+    el_kath: "count",
+    xct_litpr: "mars",
+    ofs: "god",
+    orv: "count",
   },
   routes: {
     god: {"color":"#db2777","emoji":"⚔️","en":"a Germanic god's day (Tuesday, Dienstag, tisdag)","ja":"ゲルマンの神の日（Tuesday, Dienstag, tisdag）","ko":"게르만 신의 날 (Tuesday, Dienstag, tisdag)","zh":"日耳曼神之日（Tuesday、Dienstag、tisdag）","yue":"日耳曼神嘅日（Tuesday、Dienstag、tisdag）","vi":"ngày của một vị thần German (Tuesday, Dienstag, tisdag)","th":"วันของเทพเจอร์แมนิก (Tuesday, Dienstag, tisdag)","id":"hari dewa Jermanik (Tuesday, Dienstag, tisdag)","hi":"जर्मनिक देवता का दिन (Tuesday, Dienstag, tisdag)","de":"Tag eines germanischen Gottes (Tuesday, Dienstag, tisdag)","fr":"jour d'un dieu germanique (Tuesday, Dienstag, tisdag)","it":"giorno di un dio germanico (Tuesday, Dienstag, tisdag)","es":"día de un dios germánico (Tuesday, Dienstag, tisdag)","pt":"dia de um deus germânico (Tuesday, Dienstag, tisdag)","ru":"день германского бога (Tuesday, Dienstag, tisdag)","uk":"день германського бога (Tuesday, Dienstag, tisdag)","ar":"يوم إله جرماني (Tuesday, Dienstag, tisdag)","he":"יומו של אל גרמאני (Tuesday, Dienstag, tisdag)","sw":"siku ya mungu wa Kijerumani (Tuesday, Dienstag, tisdag)"},
@@ -605,5 +624,24 @@ WORDS.tuesday = {
     es_ec: ["martes", "ˈmaɾtes"],
     es_uy: ["martes", "ˈmaɾtes"],
     es_ve: ["martes", "ˈmaɾtes"],
+    ar_qur: ["الثلاثاء", "aθθulaːθaːʔ"],  // The third day.
+    prg: ["wissaseydis", "ˈwisaseidis"],
+    non: ["týsdagr", "ˈtyːsdɑɣr"],  // Týr's day, a calque of West Germanic *Tīwas dag.
+    cu: ["въторъкъ", "vŭtorŭkŭ"],  // From vŭtorŭ "second".
+    syc: ["ܬܠܬܒܫܒܐ", "tlaːθbəʃabbaː"],  // Three in the week.
+    fa_clas: ["سه‌شنبه", "seːʃamba"],  // Three (days after) Sabbath.
+    fro: ["marsdi", "marsˈdi"],  // From Latin diēs Martis.
+    goh: ["ziestag", "ˈtsiestaɡ"],  // Tiw's day, from West Germanic *Tīwas dag.
+    osp: ["martes", "ˈmaɾtes"],  // From Latin diēs Martis.
+    hy_grab: ["երեքշաբաթի", "eɾekʰʃabatʰi"],  // Third (day) of the week.
+    xct: ["གཟའ་མིག་དམར", "ɡzaʔmikdmar"],  // Planet Red-eye, Mars.
+    kaw: ["ꦄꦁꦒꦫ", "aŋɡara"],  // From Sanskrit aṅgāra, Mars.
+    osn: ["aṅgara", "aŋɡara"],  // From Sanskrit aṅgāra, Mars.
+    sa_edu: ["मङ्गलवारः", "mɐŋɡɐlɐʋaːɾɐh"],  // maṅgala "Mars" + vāra "day".
+    ota: ["صالی", "saˈlɯ"],  // From Persian se-šanbe "third (day)".
+    el_kath: ["Τρίτη", "ˈtriti"],  // Third (day).
+    xct_litpr: ["གཟའ་མིག་དམར", "samiːmaː"],  // Planet Red-eye, Mars.
+    ofs: ["tīesdei", "ˈtiːesdei"],  // Tiw's day.
+    orv: ["въторъкъ", "ˈvŭtorŭkŭ"],  // From vŭtorŭ "second".
   },
 };

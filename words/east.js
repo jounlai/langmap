@@ -338,6 +338,51 @@ WORDS.east = {
     es_ec: "dawn",
     es_uy: "dawn",
     es_ve: "dawn",
+    ar_qur: "rising",
+    el_grc: "rising",
+    non: "dawn",
+    cu: "rising",
+    cop: "other",
+    arc: "rising",
+    akk: "other",
+    p_tun: "other",
+    txb: "rising",
+    fa_clas: "rising",
+    fr_class: "dawn",
+    it_dan: "rising",
+    es_sgl: "rising",
+    de_lut: "dawn",
+    en_em: "dawn",
+    xct: "rising",
+    xct_litpr: "rising",
+    kaw: "plain",
+    hbo: "rising",
+    he_mis: "rising",
+    hy_grab: "rising",
+    sukh: "rising",
+    qwc: "plain",
+    sa_edu: "front",
+    h_vedic: "front",
+    otk: "front",
+    ota: "rising",
+    el_kath: "rising",
+    ofs: "dawn",
+    p_ine: "dawn",
+    pmng: "other",
+    xng: "other",
+    obr: "front",
+    zh_yuan: "dong",
+    zh_wenyan_edu: "dong",
+    zh_tang: "dong",
+    och: "dong",
+    vi_han: "dong",
+    ojp: "plain",
+    ja_heian: "rising",
+    ja_chu: "rising",
+    ja_edo: "rising",
+    ja_kanbun: "rising",
+    p_ryu: "rising",
+    vi_nom: "dong",
   },
   routes: {
     dawn: {"color":"#f59e0b","emoji":"🌄","en":"a word for dawn or morning (east, Osten, est)","ja":"夜明け・朝の語（east, Osten, est）","ko":"새벽·아침의 말 (east, Osten, est)","zh":"表示黎明或早晨的词（east、Osten、est）","yue":"解黎明或者朝早嘅詞（east、Osten、est）","vi":"từ chỉ bình minh, buổi sáng (east, Osten, est)","th":"คำสำหรับรุ่งอรุณหรือเช้า (east, Osten, est)","id":"kata untuk fajar atau pagi (east, Osten, est)","hi":"भोर या सुबह का शब्द (east, Osten, est)","de":"ein Wort für Morgenröte oder Morgen (east, Osten, est)","fr":"un mot pour l'aube ou le matin (east, Osten, est)","it":"una parola per l'alba o il mattino (east, Osten, est)","es":"una palabra para el alba o la mañana (east, Osten, est)","pt":"uma palavra para a aurora ou a manhã (east, Osten, est)","ru":"слово для зари или утра (east, Osten, est)","uk":"слово для світанку чи ранку (east, Osten, est)","ar":"كلمة للفجر أو الصباح (east, Osten, est)","he":"מילה לשחר או לבוקר (east, Osten, est)","sw":"neno la alfajiri au asubuhi (east, Osten, est)"},
@@ -614,5 +659,50 @@ WORDS.east = {
     es_ec: ["este", "ˈeste"],
     es_uy: ["este", "ˈeste"],
     es_ve: ["este", "ˈeste"],
+    ar_qur: ["مشرق", "maʃriq"],  // Place of rising; Quran 2:115 al-mašriq wa-l-maġrib.
+    el_grc: ["ἀνατολή", "anatolɛ̌ː"],  // Rising (of the sun), from ἀνατέλλω.
+    non: ["austr", "ˈɑustr"],  // From Proto-Germanic *austrą, related to *ausos "dawn".
+    cu: ["въстокъ", "vŭstokŭ"],  // vŭs- "up" + tokŭ "flow"; a calque of Greek ἀνατολή.
+    cop: ["ⲉⲓⲉⲃⲧ", "jebt"],  // From Egyptian jꜣbtj "eastern", the side of the left hand.
+    arc: ["ܡܕܢܚܐ", "maðnəħaː"],  // From dnḥ "to rise, dawn".
+    akk: ["𒆳", "ʃaduː"],  // Also "mountain land"; the mountains lay east of Mesopotamia.
+    p_tun: ["*ʒügün", "dʒyɡyn"],  // Also "left"; borrowed from Proto-Mongolic *ǰexün "left; east".
+    txb: ["𑀓𑁅𑀁𑀧𑀺𑀭𑁆𑀓𑁄", "kawnpirko"],  // kauṃ "sun" + pirko "rising".
+    fa_clas: ["مشرق", "maʃriq"],  // Borrowed from Arabic mašriq "place of rising".
+    fr_class: ["est", "ɛst"],  // From Old English ēast.
+    it_dan: ["oriente", "oˈrjɛnte"],  // Latin oriēns "rising"; Dante, Purgatorio 1.20 "l'oriente".
+    es_sgl: ["oriente", "oˈɾjente"],  // Latin oriēns "rising".
+    de_lut: ["Morgen", "ˈmɔrɡən"],  // Morning: Luther Genesis 2:8 "gegen dem Morgen".
+    en_em: ["east", "iːst"],  // From Proto-Germanic *austrą, related to *ausos "dawn".
+    xct: ["ཤར", "ɕar"],  // From Proto-Sino-Tibetan *sjar "to rise; east".
+    xct_litpr: ["ཤར", "ɕaː"],  // From Proto-Sino-Tibetan *sjar "to rise; east".
+    kaw: ["ꦠꦶꦩꦸꦂ", "timur"],  // From Proto-Austronesian *timuʀ.
+    hbo: ["מזרח", "mizˈrɔːħ"],  // From zāraḥ "to rise, shine".
+    he_mis: ["מזרח", "mizˈraħ"],  // From zāraḥ "to rise, shine".
+    hy_grab: ["արեւելք", "arewelkʰ"],  // arew "sun" + elkʻ "going out"; an Iranian calque.
+    sukh: ["ตะวันออก", "tawanʔɔːk"],  // Sun comes out; Ram Khamhaeng inscription "เบื้องตะวันออก".
+    qwc: ["anti", "anti"],  // As in Antisuyu, the eastern quarter of the Inca state.
+    sa_edu: ["प्राची", "pɾaːtɕiː"],  // Feminine of prāñc "turned forward".
+    h_vedic: ["प्राची", "pɾáːtɕiː"],  // Feminine of prā́ñc "turned forward".
+    otk: ["𐰃𐰠𐰏𐰼𐰇", "ilɡæry"],  // Forward; from Proto-Common Turkic *ilgärü.
+    ota: ["شرق", "ʃark"],  // Borrowed from Arabic šarq.
+    el_kath: ["ἀνατολή", "anatoˈli"],  // Rising (of the sun).
+    ofs: ["āst", "aːst"],  // From Proto-Germanic *austrą, related to *ausos "dawn".
+    p_ine: ["*h₂éwsteros", "h₂éwsteros"],  // In the direction of dawn; an adjective.
+    pmng: ["*jexün", "dʒexyn"],  // Also "left": facing south, the left hand is east.
+    xng: ["ᠵᠡᠭᠦᠨ", "dʒewyn"],  // Also "left".
+    obr: ["အရှိယ်", "ʔar̥ij"],  // Also "front", as in Burmese အရှေ့.
+    zh_yuan: ["東", "tuŋ"],
+    zh_wenyan_edu: ["東", "tʊŋ˥"],
+    zh_tang: ["東", "təwŋ"],
+    och: ["東", "*tˤoŋ"],
+    vi_han: ["東", "ɗoŋ͡m˧˧"],
+    ojp: ["東", "aduma"],  // Also the eastern provinces.
+    ja_heian: ["東", "ɸimuɡasi"],  // Literally "facing the sun".
+    ja_chu: ["東", "ɸiɡaɕi"],
+    ja_edo: ["東", "hiɡaɕi"],
+    ja_kanbun: ["東", "hiɡaɕi"],
+    p_ryu: ["*agaroe", "agaroe"],  // Where the sun rises: *agar- "to rise" + *pe "direction".
+    vi_nom: ["東", "ɗəwŋ˧"],
   },
 };

@@ -534,6 +534,67 @@ WORDS.snake = {
     es_ec: "crawl",
     es_uy: "crawl",
     es_ve: "crawl",
+    ar_qur: "plain",
+    el_grc: "plain",
+    egy: "plain",
+    en_em: "crawl",
+    pi: "crawl",
+    pi_edu: "crawl",
+    sa_edu: "crawl",
+    h_vedic: "plain",
+    arc: "plain",
+    sux: "plain",
+    p_ine: "plain",
+    p_jpn: "plain",
+    ptrk: "crawl",
+    p_tun: "plain",
+    p_aav: "plain",
+    p_viet: "plain",
+    ptai: "plain",
+    p_hmx: "plain",
+    pmay: "plain",
+    pban: "plain",
+    p_sit: "plain",
+    pura: "plain",
+    p_dra: "plain",
+    txb: "plain",
+    uga: "plain",
+    pal: "mar",
+    fa_clas: "mar",
+    ota: "crawl",
+    fr_class: "crawl",
+    it_dan: "crawl",
+    es_sgl: "colubra",
+    de_lut: "plain",
+    gez: "plain",
+    xct: "plain",
+    xct_litpr: "plain",
+    kaw: "plain",
+    hbo: "other",
+    he_mis: "other",
+    hy_grab: "plain",
+    sukh: "plain",
+    qwc: "plain",
+    xag: "plain",
+    el_kath: "plain",
+    obr: "plain",
+    pmng: "plain",
+    p_toc: "plain",
+    puaz: "plain",
+    zh_yuan: "plain",
+    zh_wenyan_edu: "plain",
+    zh_tang: "plain",
+    och: "plain",
+    vi_han: "plain",
+    ojp: "plain",
+    ja_heian: "plain",
+    ja_chu: "plain",
+    ja_edo: "plain",
+    ja_kanbun: "plain",
+    p_ryu: "plain",
+    p_jpk: "plain",
+    ko_mid: "plain",
+    vi_nom: "plain",
   },
   routes: {
     crawl: {"color":"#059669","emoji":"🐾","en":"a \"crawler\" (serpent, सर्प, yılan, snake)","ja":"「這うもの」 (serpent, सर्प, yılan, snake)","ko":"'기는 것' (serpent, सर्प, yılan, snake)","zh":"“爬行者” (serpent, सर्प, yılan, snake)","yue":"「爬嘅嘢」 (serpent, सर्प, yılan, snake)","vi":"\"kẻ bò\" (serpent, सर्प, yılan, snake)","th":"\"ตัวที่เลื้อย\" (serpent, सर्प, yılan, snake)","id":"\"si perayap\" (serpent, सर्प, yılan, snake)","hi":"\"रेंगने वाला\" (serpent, सर्प, yılan, snake)","de":"„der Kriechende“ (serpent, सर्प, yılan, snake)","fr":"« celui qui rampe » (serpent, सर्प, yılan, snake)","it":"«quello che striscia» (serpent, सर्प, yılan, snake)","es":"«el que se arrastra» (serpent, सर्प, yılan, snake)","pt":"«o que rasteja» (serpent, सर्प, yılan, snake)","ru":"«ползущий» (serpent, सर्प, yılan, snake)","uk":"«повзучий» (serpent, सर्प, yılan, snake)","ar":"«الزاحف» (serpent, सर्प, yılan, snake)","he":"\"הזוחל\" (serpent, सर्प, yılan, snake)","sw":"\"mtambaaji\" (serpent, सर्प, yılan, snake)"},
@@ -1007,5 +1068,66 @@ WORDS.snake = {
     es_ec: ["serpiente", "seɾˈpjente"],
     es_uy: ["serpiente", "seɾˈpjente"],
     es_ve: ["serpiente", "seɾˈpjente"],
+    ar_qur: ["حية", "ħajja"],  // Quran 20:20 (ḥayyatun tasʿā "a snake moving").
+    el_grc: ["ὄφις", "ópʰis"],  // From Proto-Indo-European *h₁ógʷʰis "snake".
+    egy: ["𓎛𓆑𓄫𓅱𓆙", "hefau"],  // Also "worm".
+    en_em: ["snake", "snɛːk"],  // From Old English snaca, from Germanic *snakan "to creep".
+    pi: ["सप्प", "sapːa"],  // From Sanskrit sarpa "the creeper".
+    pi_edu: ["sappa", "sapːa"],  // From Sanskrit sarpa "the creeper".
+    sa_edu: ["सर्पः", "sɐɾpɐh"],  // From sṛp "to creep".
+    h_vedic: ["अहिः", "ɐ́hiɦ"],  // Rigveda Ahi, the serpent slain by Indra; from Proto-Indo-European *h₁ógʷʰis.
+    arc: ["ܚܘܝܐ", "ħewjaː"],  // Compare Arabic ḥayya.
+    sux: ["𒈲", "muʃ"],
+    p_ine: ["*h₁ógʷʰis", "h₁ógʷʰis"],
+    p_jpn: ["*paimpi", "paimpi"],  // Possibly cognate with Middle Korean poyyam.
+    ptrk: ["*yï̄lan", "jɯːlan"],  // From *yï̄l- "to creep".
+    p_tun: ["*müikī", "myikiː"],
+    p_aav: ["*bsaɲ", "bsaɲ"],
+    p_viet: ["*p-səɲʔ", "p-səɲʔ"],  // From Proto-Mon-Khmer *(b)saɲʔ.
+    ptai: ["*ŋwɯː", "ŋwɯː"],
+    p_hmx: ["*ʔnaŋ", "ʔnaŋ"],
+    pmay: ["*kaan", "kaːn"],
+    pban: ["*njókà", "njókà"],
+    p_sit: ["*s-mrul", "s-mrul"],
+    pura: ["*kije", "kije"],  // Also "viper".
+    p_dra: ["*pāmpu", "paːmpu"],
+    txb: ["𑀒𑀓𑁆", "awk"],  // From Proto-Indo-European *h₁ógʷʰis, like Greek ὄφις.
+    uga: ["𐎐𐎈𐎌", "naħaʃu"],  // Compare Hebrew nāḥāš.
+    pal: ["𐭬𐭠𐭥", "maːr"],  // From Old Iranian *māra-.
+    fa_clas: ["مار", "maːr"],  // From Middle Persian mār.
+    ota: ["ییلان", "jɯˈlan"],  // From Proto-Turkic *yï̄lan, from *yï̄l- "to creep".
+    fr_class: ["serpent", "sɛrpɑ̃"],  // From Latin serpēns "creeping".
+    it_dan: ["serpente", "serˈpente"],  // Dante, Inferno 25. From Latin serpēns.
+    es_sgl: ["culebra", "kuˈleβɾa"],  // From Latin colubra.
+    de_lut: ["Schlange", "ˈʃlaŋə"],  // Luther Genesis 3:1 "die Schlange".
+    gez: ["ተመን", "taman"],  // Probably from Arabic tannīn.
+    xct: ["སྦྲུལ", "sbrul"],  // From Proto-Sino-Tibetan *s-mrul.
+    xct_litpr: ["སྦྲུལ", "ʈʂyː"],  // From Proto-Sino-Tibetan *s-mrul.
+    kaw: ["ꦈꦭ", "ula"],  // From Proto-Austronesian *Sulaʀ.
+    hbo: ["נחש", "nɔːˈħɔːʃ"],  // Genesis 3:1 (han-nāḥāš).
+    he_mis: ["נחש", "naˈħaʃ"],  // Mishnah Berakhot 5:1 "even if a snake is coiled around his heel".
+    hy_grab: ["օձ", "odz"],  // From Proto-Indo-European *h₂éngʷʰis "snake".
+    sukh: ["งู", "ŋuː"],  // From Proto-Tai *ŋwɯː.
+    qwc: ["machʼaqway", "matʃʼaqwaj"],
+    xag: ["båx̣", "bɔχ"],  // Possibly related to Avar борохь.
+    el_kath: ["ὄφις", "ˈofis"],  // The ancient form, kept in the learned language.
+    obr: ["မြုယ်", "mruj"],
+    pmng: ["*mogaï", "moɡaj"],
+    p_toc: ["*ewk", "ewk"],  // From Proto-Indo-European *h₁ógʷʰis.
+    puaz: ["*koLwa", "koLwa"],
+    zh_yuan: ["蛇", "ʂiɛ"],
+    zh_wenyan_edu: ["蛇", "sɛː˨˩"],
+    zh_tang: ["蛇", "ʑia"],
+    och: ["蛇", "*Cə.lAj"],
+    vi_han: ["蛇", "saː˨˩"],
+    ojp: ["蛇", "peymi"],
+    ja_heian: ["蛇", "ɸemi"],
+    ja_chu: ["蛇", "ɸebi"],
+    ja_edo: ["蛇", "hebi"],
+    ja_kanbun: ["蛇", "hebi"],
+    p_ryu: ["*pabu", "pabu"],
+    p_jpk: ["*paimpi", "paimpi"],  // Proto-Japonic form, compared with Middle Korean ᄇᆡ얌.
+    ko_mid: ["ᄇᆡ얌", "pʌjjam"],
+    vi_nom: ["𧋻", "zan˧˥"],
   },
 };

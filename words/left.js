@@ -335,6 +335,59 @@ WORDS.left = {
     es_ec: "loan",
     es_uy: "loan",
     es_ve: "loan",
+    ar_qur: "compass",
+    el_grc: "good",
+    cu: "plain",
+    cop: "plain",
+    arc: "plain",
+    sux: "plain",
+    akk: "plain",
+    p_ine: "plain",
+    p_jpn: "plain",
+    ptrk: "plain",
+    p_tun: "loan",
+    p_aav: "plain",
+    psem: "plain",
+    paus: "plain",
+    txb: "plain",
+    uga: "plain",
+    fa_clas: "bad",
+    fr_class: "bad",
+    it_dan: "sinister",
+    es_sgl: "loan",
+    de_lut: "plain",
+    en_em: "bad",
+    goh: "plain",
+    xct: "plain",
+    kaw: "plain",
+    hbo: "plain",
+    he_mis: "plain",
+    hy_grab: "plain",
+    sukh: "loan",
+    qwc: "plain",
+    sa_edu: "plain",
+    h_vedic: "plain",
+    ota: "plain",
+    el_kath: "good",
+    non: "plain",
+    gmh: "plain",
+    orv: "plain",
+    pmng: "compass",
+    cmg: "compass",
+    zh_yuan: "plain",
+    zh_wenyan_edu: "plain",
+    zh_tang: "plain",
+    och: "plain",
+    vi_han: "plain",
+    ojp: "plain",
+    ja_heian: "plain",
+    ja_chu: "plain",
+    ja_edo: "plain",
+    ja_kanbun: "plain",
+    p_ryu: "plain",
+    ko_mid: "bad",
+    ko_em: "bad",
+    vi_nom: "bad",
   },
   routes: {
     bad: {"color":"#dc2626","emoji":"↩️","en":"'crooked, bent, wrong, tired'","ja":"「曲がった、間違った、疲れた」","ko":"‘굽은, 틀린, 지친’","zh":"“弯曲、错误、疲惫”","yue":"「屈曲、錯、攰」","vi":"“cong, sai, mệt”","th":"“งอ ผิด เหนื่อย”","id":"“bengkok, salah, lelah”","hi":"‘टेढ़ा, ग़लत, थका’","de":"„krumm, falsch, müde“","fr":"« tordu, faux, fatigué »","it":"“storto, sbagliato, stanco”","es":"«torcido, equivocado, cansado»","pt":"«torto, errado, cansado»","ru":"«кривой, неправильный, усталый»","uk":"«кривий, хибний, втомлений»","ar":"«أعوج، خاطئ، متعب»","he":"״עקום, שגוי, עייף״","sw":"“iliyopinda, kosa, iliyochoka”"},
@@ -607,5 +660,58 @@ WORDS.left = {
     es_ec: ["izquierda", "isˈkjeɾda"],
     es_uy: ["izquierda", "isˈkjeɾda"],
     es_ve: ["izquierda", "isˈkjeɾda"],
+    ar_qur: ["شمال", "ʃimaːl"],  // Quran 50:17 "on the right and on the left (aš-šimāl)"; the same word also means "north".
+    el_grc: ["ἀριστερός", "aristerós"],  // A euphemism, "the better one", from ἄριστος "best".
+    cu: ["лѣвъ", "lævŭ"],  // From Proto-Slavic *lěvъ.
+    cop: ["ϩⲃⲟⲩⲣ", "hbuːr"],  // From Demotic gbyr "left".
+    arc: ["ܣܡܠܐ", "semmaːlaː"],  // Compare Arabic šimāl, Hebrew śəmōl.
+    sux: ["𒆏", "ɡub"],
+    akk: ["𒆏", "ʃumeːlu"],  // Written GÙB; from Proto-Semitic *śimaʔl-.
+    p_ine: ["*sewyós", "sewjós"],
+    p_jpn: ["*pintari", "pintari"],  // Of uncertain derivation.
+    ptrk: ["*sōl", "soːl"],
+    p_tun: ["*ʒügün", "dʒyɡyn"],  // Borrowed from Proto-Mongolic *ǰexün "left; east".
+    p_aav: ["*weːʔ", "weːʔ"],
+    psem: ["*śimaʔl-", "śimaʔl"],
+    paus: ["*wiRi", "wiRi"],
+    txb: ["𑀲𑁃𑀯𑁃", "sajwaj"],
+    uga: ["𐎌𐎎𐎀𐎍", "ʃamʔalu"],  // Compare Arabic šimāl, Hebrew śəmōl.
+    fa_clas: ["چپ", "tʃap"],  // From Proto-Indo-European *kep- "to bend, curve".
+    fr_class: ["gauche", "ɡoʃ"],  // From gauchir "to bend, warp".
+    it_dan: ["sinistro", "siˈnistro"],  // From Latin sinister; Dante "la sinistra".
+    es_sgl: ["izquierdo", "iθˈkjeɾðo"],  // From Basque ezker "left".
+    de_lut: ["linck", "lɪŋk"],  // Luther "zur Rechten und zur Lincken".
+    en_em: ["left", "lɛft"],  // From Old English lyft "weak, clumsy".
+    goh: ["winstar", "ˈwinstar"],  // From Proto-Germanic *winistraz.
+    xct: ["གཡོན་ཕྱོགས", "ɡjonpʰjoks"],  // g.yon "left" + phyogs "side".
+    kaw: ["ꦏꦶꦮ", "kiwa"],  // From Proto-Malayo-Polynesian *(ka-)wiʀi.
+    hbo: ["שמאל", "səˈmoːl"],  // From Proto-Semitic *śimaʔl-; Genesis 13:9.
+    he_mis: ["שמאל", "səˈmol"],  // From Proto-Semitic *śimaʔl-.
+    hy_grab: ["ձախ", "dzax"],  // Origin unknown.
+    sukh: ["ซ้าย", "zaːj"],  // Borrowed from Old Chinese 左.
+    qwc: ["lluqʼi", "ʎuqʼi"],
+    sa_edu: ["सव्यः", "sɐʋjɐh"],
+    h_vedic: ["सव्यः", "sɐʋjɐ́ɦ"],  // Rigveda savyá.
+    ota: ["صول", "sol"],  // From Proto-Turkic *sōl.
+    el_kath: ["ἀριστερός", "aristeˈros"],  // A euphemism, "the better one".
+    non: ["vinstri", "ˈvinstri"],  // From Proto-Germanic *winistraz.
+    gmh: ["linc", "lɪŋk"],
+    orv: ["лѣвъ", "ˈlʲevŭ"],  // Also "wrong, evil".
+    pmng: ["*jexün", "dʒexyn"],  // Also "east": facing south, the left hand is east.
+    cmg: ["ᠵᠡᠭᠦᠨ", "dʒeɡyn"],  // Also "east".
+    zh_yuan: ["左", "tsuɔ"],
+    zh_wenyan_edu: ["左", "tsɔː˧˥"],
+    zh_tang: ["左", "tsa"],
+    och: ["左", "*tsˤa[j]ʔ"],
+    vi_han: ["左", "taː˧˩˧"],
+    ojp: ["左", "pidari"],
+    ja_heian: ["左", "ɸidaɾi"],
+    ja_chu: ["左", "ɸidaɾi"],
+    ja_edo: ["左", "hidaɾi"],
+    ja_kanbun: ["左", "hidaɾi"],
+    p_ryu: ["*pidari", "pidari"],
+    ko_mid: ["왼", "ojn"],  // The old adjective for "wrong" (외다).
+    ko_em: ["왼", "wen"],
+    vi_nom: ["賴", "tɕaːj˧˥"],  // Also "reversed; wrong".
   },
 };

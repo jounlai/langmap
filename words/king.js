@@ -344,6 +344,72 @@ WORDS.king = {
     es_ec: "reg",
     es_uy: "reg",
     es_ve: "reg",
+    ar_qur: "malik",
+    el_grc: "other",
+    gmy: "plain",
+    egy: "plain",
+    ofs: "kin",
+    osx: "kin",
+    cu: "caesar",
+    pi: "reg",
+    pi_edu: "reg",
+    sa_edu: "reg",
+    h_vedic: "reg",
+    arc: "malik",
+    oar: "malik",
+    myz: "malik",
+    phn: "malik",
+    uga: "malik",
+    xsa: "malik",
+    psem: "malik",
+    sux: "other",
+    akk: "plain",
+    hit: "plain",
+    xlu: "plain",
+    nci: "other",
+    p_ine: "reg",
+    ptrk: "khan",
+    p_dra: "plain",
+    peo: "shah",
+    pal: "shah",
+    fa_clas: "shah",
+    xto: "plain",
+    txb: "plain",
+    fr_class: "reg",
+    it_dan: "reg",
+    es_sgl: "reg",
+    de_lut: "kin",
+    en_em: "kin",
+    gez: "plain",
+    xct: "other",
+    xct_litpr: "other",
+    kaw: "plain",
+    hbo: "malik",
+    he_mis: "malik",
+    hy_grab: "other",
+    xng: "khan",
+    cmg: "khan",
+    otk: "khan",
+    ota: "karl",
+    sukh: "other",
+    xmr: "plain",
+    onw: "other",
+    ett: "plain",
+    el_kath: "other",
+    gmh: "kin",
+    p_toc: "plain",
+    zh_yuan: "wang",
+    zh_wenyan_edu: "wang",
+    zh_tang: "wang",
+    och: "wang",
+    vi_han: "wang",
+    ojp: "wang",
+    ja_heian: "wang",
+    ja_chu: "wang",
+    ja_edo: "wang",
+    ja_kanbun: "wang",
+    ko_mid: "other",
+    vi_nom: "plain",
   },
   routes: {
     reg: {"color":"#7c3aed","emoji":"🏛️","en":"the old root of rēx and rājā (roi, rey, राजा, raja)","ja":"rēx・rājā の古い語根（roi, rey, राजा, raja）","ko":"rēx·rājā의 옛 어근 (roi, rey, राजा, raja)","zh":"rēx 与 rājā 的古老词根（roi、rey、राजा、raja）","yue":"rēx 同 rājā 嘅古老詞根（roi、rey、राजा、raja）","vi":"gốc cổ của rēx và rājā (roi, rey, राजा, raja)","th":"รากเก่าของ rēx และ rājā (roi, rey, राजा, raja)","id":"akar kuno rēx dan rājā (roi, rey, राजा, raja)","hi":"rēx और राजा का पुराना मूल (roi, rey, राजा, raja)","de":"die alte Wurzel von rēx und rājā (roi, rey, राजा, raja)","fr":"la vieille racine de rēx et rājā (roi, rey, राजा, raja)","it":"l’antica radice di rēx e rājā (roi, rey, राजा, raja)","es":"la vieja raíz de rēx y rājā (roi, rey, राजा, raja)","pt":"a velha raiz de rēx e rājā (roi, rey, राजा, raja)","ru":"древний корень rēx и rājā (roi, rey, राजा, raja)","uk":"давній корінь rēx і rājā (roi, rey, राजा, raja)","ar":"الجذر القديم لـ rēx وrājā (roi, rey, राजा, raja)","he":"השורש העתיק של rēx ו־rājā (roi, rey, राजा, raja)","sw":"mzizi wa kale wa rēx na rājā (roi, rey, राजा, raja)"},
@@ -627,5 +693,71 @@ WORDS.king = {
     es_ec: ["rey", "ˈrei"],
     es_uy: ["rey", "ˈrei"],
     es_ve: ["rey", "ˈrei"],
+    ar_qur: ["ملك", "malik"],  // Quran 12:43; from Proto-Semitic *malk-.
+    el_grc: ["βασιλεύς", "basilěu̯s"],  // Probably Pre-Greek; Mycenaean qa-si-re-u was a local chief.
+    gmy: ["𐀷𐀙𐀏", "wanaks"],  // Linear B wa-na-ka; later Greek ἄναξ "lord".
+    egy: ["𓇓𓏏𓈖", "nesut"],  // The king of Upper Egypt, and the king as a divine office.
+    ofs: ["kening", "ˈkeniŋ"],  // From Proto-Germanic *kuningaz.
+    osx: ["kuning", "ˈkuniŋɡ"],  // From Proto-Germanic *kuningaz.
+    cu: ["цѣсарь", "tsæsarĭ"],  // From Latin Caesar through Germanic *kaisaraz; translates Greek βασιλεύς in the Gospels.
+    pi: ["राजा", "raːdʒaː"],  // Stem rājan, from Sanskrit rājan.
+    pi_edu: ["rājā", "raːdʒaː"],  // Stem rājan, from Sanskrit rājan.
+    sa_edu: ["राजा", "ɾaːdʑaː"],  // From Proto-Indo-European *h₃rḗǵs.
+    h_vedic: ["राजा", "ɾáːdʑaː"],  // Rigveda rā́jan.
+    arc: ["ܡܠܟܐ", "malkaː"],  // From Proto-Semitic *malk-.
+    oar: ["מלכא", "malkaː"],  // From Proto-Semitic *malk-.
+    myz: ["ࡌࡀࡋࡊࡀ", "malka"],  // From Proto-Semitic *malk-.
+    phn: ["𐤌𐤋𐤊", "milk"],  // From Proto-Semitic *malk-.
+    uga: ["𐎎𐎍𐎋", "malku"],  // From Proto-Semitic *malk-.
+    xsa: ["𐩣𐩡𐩫", "malk"],  // From Proto-Semitic *malk-.
+    psem: ["*malk-", "malk"],
+    sux: ["𒈗", "luɡal"],  // lu₂ "person" + gal "big".
+    akk: ["𒈗", "ʃarru"],  // From Proto-Semitic *śarār- "to rule".
+    hit: ["𒈗𒍑", "xasːus"],  // Written with the Sumerogram LUGAL.
+    xlu: ["𔐑𔑣𔗔", "ˈhantawatːi"],  // From *hantawa- "to rule".
+    nci: ["tlahtoāni", "tɬaʔtoˈaːni"],  // One who speaks.
+    p_ine: ["*h₃rḗǵs", "h₃rḗǵs"],  // From *h₃reǵ- "to straighten, direct".
+    ptrk: ["*kagan", "kaɡan"],  // Of uncertain origin.
+    p_dra: ["*kō", "koː"],
+    peo: ["𐏋", "xʃaːjaθija"],  // The logogram XŠ for xšāyaθiya, the source of Persian šāh.
+    pal: ["𐭬𐭫𐭪𐭠", "ʃaːh"],  // Written with the Aramaic logogram MLKʾ, read šāh.
+    fa_clas: ["شاه", "ʃaːh"],  // From Old Persian xšāyaθiya.
+    xto: ["𑀯𑀮𑁆", "wəl"],  // Compare Tocharian B walo.
+    txb: ["𑀯𑀮𑁄", "walo"],  // From Proto-Indo-European *h₂wl̥h₁onts "ruling".
+    fr_class: ["roy", "rwɛ"],  // From Latin rēgem; spelled roy in the 17th century.
+    it_dan: ["re", "re"],  // From Latin rēx.
+    es_sgl: ["rey", "ˈrei"],  // From Latin rēgem.
+    de_lut: ["König", "ˈkøːnɪç"],  // From Old High German kuning.
+    en_em: ["king", "kɪŋ"],  // From Old English cyning.
+    gez: ["ንጉሥ", "nəɡuːs"],  // From nägśä "to rule".
+    xct: ["རྒྱལ་པོ", "rɡjalpo"],  // rgyal "to be victorious" + po.
+    xct_litpr: ["རྒྱལ་པོ", "ɟɛːpo"],  // rgyal "to be victorious" + po.
+    kaw: ["ꦫꦠꦸ", "ratu"],  // From Proto-Malayo-Polynesian *datu.
+    hbo: ["מלך", "ˈmɛlɛx"],  // From Proto-Semitic *malk-.
+    he_mis: ["מלך", "ˈmeleχ"],  // Mishnah Sanhedrin 2:2.
+    hy_grab: ["թագաւոր", "tʰaɡawor"],  // Crown-bearer, from Parthian *tag(a)-βar.
+    xng: ["ᠬᠠᠭᠠᠨ", "qaɣan"],  // Possibly borrowed from Turkic.
+    cmg: ["ᠬᠠᠭᠠᠨ", "qaɣan"],
+    otk: ["𐰴𐰍𐰣", "qaɣan"],  // From Proto-Turkic *kagan.
+    ota: ["قرال", "kɾal"],  // From South Slavic; compare Proto-Slavic *korľь, from the name Karl.
+    sukh: ["ขุน", "kʰun"],  // From Middle Chinese 君 "lord"; pʰɔː kʰun, the title of the Sukhothai kings.
+    xmr: ["𐦳𐦣𐦫𐦡", "qore"],  // Also the source of Old Nubian ⲟⲩⲣⲟⲩ.
+    onw: ["ⲟⲩⲣⲟⲩ", "uru"],  // From Meroitic qore.
+    ett: ["lucumu", "ˈlukumu"],  // Written 𐌋𐌖𐌂𐌖𐌌𐌖.
+    el_kath: ["βασιλεύς", "vasiˈlefs"],  // The ancient form, kept in the learned language.
+    gmh: ["künec", "ˈkynek"],  // From Old High German kuning.
+    p_toc: ["*wälõ", "wəlõ"],  // From Proto-Indo-European *h₂wl̥h₁onts "ruling".
+    zh_yuan: ["王", "uaŋ"],
+    zh_wenyan_edu: ["王", "wɔːŋ˨˩"],
+    zh_tang: ["王", "ɦuaŋ"],
+    och: ["王", "*ɢʷaŋ"],
+    vi_han: ["王", "vɨəŋ˧˧"],
+    ojp: ["王", "wau"],  // Loan of Chinese 王.
+    ja_heian: ["国王", "kokuwau"],
+    ja_chu: ["国王", "kokwɔː"],
+    ja_edo: ["国王", "kokɯoː"],
+    ja_kanbun: ["王", "oː"],
+    ko_mid: [":님·금", "nimkɨm"],  // 님 "lord" + an old royal title element 금.
+    vi_nom: ["𤤰", "vuə˧"],
   },
 };

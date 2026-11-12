@@ -408,6 +408,41 @@ WORDS.bread = {
     es_ec: "panis",
     es_uy: "panis",
     es_ve: "panis",
+    ar_qur: "khubz",
+    prg: "other",
+    egy: "plain",
+    non: "braud",
+    goh: "braud",
+    cu: "hlaib",
+    arc: "lahm",
+    myz: "lahm",
+    uga: "lahm",
+    hbo: "lahm",
+    he_mis: "lahm",
+    sux: "plain",
+    akk: "other",
+    txb: "plain",
+    pal: "nan",
+    fa_clas: "nan",
+    fro: "panis",
+    fr_class: "panis",
+    osp: "panis",
+    es_sgl: "panis",
+    it_dan: "panis",
+    de_lut: "braud",
+    en_em: "braud",
+    xqa: "etmek",
+    hy_grab: "plain",
+    qwc: "plain",
+    chb: "plain",
+    xpg: "plain",
+    sa_edu: "roti",
+    el_kath: "plain",
+    osx: "braud",
+    ptrk: "etmek",
+    ja_chu: "panis",
+    ja_edo: "panis",
+    vi_nom: "other",
   },
   routes: {
     panis: {"color":"#d97706","emoji":"🥖","en":"Latin pānis, and Portuguese pão abroad (pain, pan, パン, 빵)","ja":"ラテン語 pānis と、海を渡ったポルトガル語 pão（pain, pan, パン, 빵）","ko":"라틴어 pānis와 바다를 건넌 포르투갈어 pão (pain, pan, パン, 빵)","zh":"拉丁语 pānis，及远渡重洋的葡萄牙语 pão（pain、pan、パン、빵）","yue":"拉丁文 pānis，同漂洋過海嘅葡萄牙文 pão（pain、pan、パン、빵）","vi":"tiếng Latin pānis, và tiếng Bồ Đào Nha pão ra nước ngoài (pain, pan, パン, 빵)","th":"ละติน pānis และโปรตุเกส pão ที่ข้ามทะเล (pain, pan, パン, 빵)","id":"Latin pānis, dan Portugis pão di seberang laut (pain, pan, パン, 빵)","hi":"लैटिन pānis, और समुद्र पार पुर्तगाली pão (pain, pan, パン, 빵)","de":"lateinisch pānis und portugiesisch pão in Übersee (pain, pan, パン, 빵)","fr":"le latin pānis, et le portugais pão outre-mer (pain, pan, パン, 빵)","it":"il latino pānis, e il portoghese pão oltremare (pain, pan, パン, 빵)","es":"el latín pānis, y el portugués pão en ultramar (pain, pan, パン, 빵)","pt":"o latim pānis, e o português pão além-mar (pain, pan, パン, 빵)","ru":"латинское pānis и португальское pão за морем (pain, pan, パン, 빵)","uk":"латинське pānis і португальське pão за морем (pain, pan, パン, 빵)","ar":"اللاتينية pānis، والبرتغالية pão وراء البحار (pain, pan, パン, 빵)","he":"הלטינית pānis, והפורטוגזית pão מעבר לים (pain, pan, パン, 빵)","sw":"Kilatini pānis, na Kireno pão ng'ambo (pain, pan, パン, 빵)"},
@@ -754,5 +789,40 @@ WORDS.bread = {
     es_ec: ["pan", "pan"],
     es_uy: ["pan", "pan"],
     es_ve: ["pan", "pan"],
+    ar_qur: ["خبز", "xubz"],  // Quran 12:36 (ḫubzan).
+    prg: ["geits", "ɡeits"],  // From Proto-Balto-Slavic *géiˀtan "grain".
+    egy: ["𓏏𓏐𓏒𓏥", "te"],  // Written with loaf signs.
+    non: ["brauð", "brɑuð"],  // From Proto-Germanic *braudą.
+    goh: ["brot", "broːt"],  // From Proto-West Germanic *braud.
+    cu: ["хлѣбъ", "xlæbŭ"],  // From Proto-Germanic *hlaibaz.
+    arc: ["ܠܚܡܐ", "laħmaː"],  // Compare Hebrew leḥem, Arabic laḥm "meat".
+    myz: ["ࡋࡄࡀࡌࡀ", "lahma"],  // Compare Hebrew leḥem.
+    uga: ["𐎍𐎈𐎎", "laħmu"],  // Compare Hebrew leḥem.
+    hbo: ["לחם", "ˈlɛħɛm"],  // Genesis 3:19.
+    he_mis: ["לחם", "ˈleħem"],  // Mishnah Berakhot 6:1 "who brings forth bread from the earth".
+    sux: ["𒃻", "ninda"],
+    akk: ["𒃻", "akalu"],  // Written NINDA; from Proto-Semitic *ʔakal- "food".
+    txb: ["𑀓𑀦𑁆𑀢𑀺", "kanti"],
+    pal: ["𐭭𐭠𐭭", "naːn"],  // Book Pahlavi writes the Aramaic logogram LḤMʾ.
+    fa_clas: ["نان", "naːn"],  // From Middle Persian nān.
+    fro: ["pain", "pɛ̃j"],  // From Latin pānem.
+    fr_class: ["pain", "pɛ̃"],  // From Latin pānem.
+    osp: ["pan", "pan"],  // From Latin pānem.
+    es_sgl: ["pan", "pan"],  // From Latin pānem.
+    it_dan: ["pane", "ˈpane"],  // Dante, Paradiso 17.58 "lo pane altrui".
+    de_lut: ["Brot", "broːt"],  // Luther Genesis 3:19 "dein Brot essen".
+    en_em: ["bread", "brɛd"],  // From Old English brēad.
+    xqa: ["etmek", "etmek"],  // From Proto-Common Turkic *etmek.
+    hy_grab: ["հաց", "hatsʰ"],  // Origin uncertain.
+    qwc: ["tʼanta", "tʼanta"],
+    chb: ["bun", "ɡun"],  // Maize bread.
+    xpg: ["bekos", "ˈbekos"],  // Herodotus 2.2, βεκός.
+    sa_edu: ["रोटिका", "ɾoːʈikaː"],
+    el_kath: ["ἄρτος", "ˈartos"],  // The ancient word, kept in the learned language.
+    osx: ["brōd", "broːd"],  // Heliand brōd; the source of Low German Broot.
+    ptrk: ["*etmek", "etmek"],  // Also *ötmek.
+    ja_chu: ["パン", "paɴ"],  // First in Christian texts of the 1590s.
+    ja_edo: ["パン", "paɴ"],
+    vi_nom: ["餅西", "ɓaɲ˧˥ təj˧"],  // Western bánh.
   },
 };

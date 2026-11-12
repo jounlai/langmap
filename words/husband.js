@@ -374,6 +374,68 @@ WORDS.husband = {
     es_ec: "own",
     es_uy: "own",
     es_ve: "own",
+    ar_qur: "other",
+    el_grc: "man",
+    xpg: "man",
+    egy: "own",
+    non: "house",
+    got: "man",
+    cu: "man",
+    orv: "man",
+    pi: "lord",
+    sa_edu: "lord",
+    h_vedic: "lord",
+    arc: "lord",
+    syc: "lord",
+    phn: "lord",
+    psem: "lord",
+    gez: "lord",
+    he_mis: "lord",
+    hbo: "man",
+    akk: "own",
+    nci: "man",
+    p_ine: "lord",
+    p_jpn: "other",
+    pban: "man",
+    paus: "spouse",
+    txb: "own",
+    fa_clas: "own",
+    fro: "own",
+    fr_class: "own",
+    es_sgl: "own",
+    it_dan: "own",
+    de_lut: "man",
+    en_em: "house",
+    xct: "own",
+    kaw: "man",
+    sga: "man",
+    hy_grab: "man",
+    qwc: "own",
+    ota: "own",
+    xag: "other",
+    p_tun: "unknown",
+    puaz: "unknown",
+    el_kath: "man",
+    pi_edu: "lord",
+    goh: "man",
+    gmh: "man",
+    ofs: "man",
+    osx: "man",
+    ptrk: "man",
+    pmng: "man",
+    zh_yuan: "man",
+    zh_wenyan_edu: "man",
+    zh_tang: "man",
+    och: "man",
+    vi_han: "man",
+    ojp: "spouse",
+    ja_heian: "own",
+    ja_chu: "own",
+    ja_edo: "house",
+    ja_kanbun: "own",
+    p_ryu: "own",
+    ko_mid: "man",
+    vi_nom: "own",
   },
   routes: {
     man: {"color":"#2563eb","emoji":"👨","en":"the same word as man","ja":"「男」と同じ語","ko":"'남자'와 같은 낱말","zh":"与“男人”同一个词","yue":"同「男人」同一個詞","vi":"cùng một từ với 'đàn ông'","th":"คำเดียวกับ 'ผู้ชาย'","id":"kata yang sama dengan 'laki-laki'","hi":"'आदमी' वाला ही शब्द","de":"dasselbe Wort wie Mann","fr":"le même mot qu'homme","it":"la stessa parola di uomo","es":"la misma palabra que hombre","pt":"a mesma palavra que homem","ru":"то же слово, что «мужчина»","uk":"те саме слово, що «чоловік (мужчина)»","ar":"الكلمة نفسها لـ«رجل»","he":"אותה מילה כמו „גבר”","sw":"neno lile lile la 'mwanamume'"},
@@ -687,5 +749,67 @@ WORDS.husband = {
     es_ec: ["marido", "maˈɾido"],
     es_uy: ["marido", "maˈɾido"],
     es_ve: ["marido", "maˈɾido"],
+    ar_qur: ["زوج", "zawdʒ"],  // One of a pair, from Aramaic zawgā "yoke"; Quran 2:230. baʕl (Quran 11:72) is a synonym.
+    el_grc: ["ἀνήρ", "anɛ̌ːr"],  // Also "man".
+    xpg: ["anar", "ˈanar"],  // Also "man"; written αναρ, the same word as Greek ἀνήρ.
+    egy: ["𓉔𓇋𓂸𓀀", "hai"],  // A separate word from z "man".
+    non: ["bóndi", "ˈboːndi"],  // Householder, from búa "to reside"; also "farmer".
+    got: ["𐌰𐌱𐌰", "ˈaβa"],  // Also "man".
+    cu: ["мѫжь", "mɔ̃ʒĭ"],  // Also "man".
+    orv: ["мужь", "ˈmuʒĭ"],  // Also "man".
+    pi: ["पति", "pati"],  // Also "lord, master".
+    sa_edu: ["पतिः", "pɐtih"],  // Also "lord, master".
+    h_vedic: ["पतिः", "pɐ́tiɦ"],  // Also "lord, master"; from Proto-Indo-European *pótis.
+    arc: ["ܒܥܠܐ", "baʕlaː"],  // Also "lord, owner".
+    syc: ["ܒܥܠܐ", "baʕlaː"],  // Also "lord, owner".
+    phn: ["𐤁𐤏𐤋", "baʕl"],  // Also "lord, owner".
+    psem: ["*baʕl-", "baʕl"],  // Husband, master, lord.
+    gez: ["በዓል", "baʕal"],  // Also "owner, paterfamilias".
+    he_mis: ["בעל", "ˈbaʕal"],  // Also "owner, master".
+    hbo: ["איש", "ʔiːʃ"],  // Also "man"; Genesis 3:6 "she gave also to her husband".
+    akk: ["𒁮", "mutu"],  // Written DAM; from Proto-Semitic *mut- "person, man"; the everyday man is awīlu.
+    nci: ["oquichtli", "oˈkitʃtɬi"],  // Also "man".
+    p_ine: ["*pótis", "pótis"],  // Also "master, lord".
+    p_jpn: ["*wopitə", "wopitə"],  // *wo "man" + *pitə "person".
+    pban: ["*mʊ̀dʊ́mè", "mʊ̀dʊ́mè"],  // Also "male"; class 1 prefix + *-dʊ́mè "male".
+    paus: ["*qasawa", "qasawa"],  // Spouse, husband or wife.
+    txb: ["𑀧𑁂𑀘𑁆", "pets"],  // A separate word from eṅkwe "man".
+    fa_clas: ["شوی", "ʃuːj"],  // From the same root as šawhar.
+    fro: ["mari", "maˈri"],  // From Latin marītus.
+    fr_class: ["mary", "mari"],  // From Old French mari.
+    es_sgl: ["marido", "maˈɾiðo"],  // From Latin marītus.
+    it_dan: ["marito", "maˈrito"],  // From Latin marītus.
+    de_lut: ["Man", "man"],  // Also "man"; Luther Genesis 3:6 "gab jrem Man auch davon".
+    en_em: ["husband", "ˈhʊzbənd"],  // Old English hūsbonda "master of the house".
+    xct: ["ཁྱོ་ག", "kʰjoɡa"],
+    kaw: ["ꦗꦭꦸ", "dʒalu"],  // Also "man, male".
+    sga: ["fer", "fʲeɾ"],  // Also "man"; from Proto-Celtic *wiros.
+    hy_grab: ["այր", "ajɾ"],  // Also "man".
+    qwc: ["qusa", "qusa"],
+    ota: ["قوجه", "koˈdʒa"],  // Possibly a doublet of hoca "master".
+    xag: ["usbo", "usbo"],  // Probably a fossilized dative plural of *us "man".
+    p_tun: ["*edī", "ediː"],  // Married man, husband; no man word beside it in the source.
+    puaz: ["*kuNa", "kuNa"],  // No man word beside it in the source.
+    el_kath: ["ἀνήρ", "aˈnir"],  // Also "man".
+    pi_edu: ["pati", "pati"],  // Also "lord, master".
+    goh: ["man", "man"],  // Also "man".
+    gmh: ["man", "man"],  // Also "man".
+    ofs: ["man", "man"],  // Also "man".
+    osx: ["mann", "man"],  // Also "man".
+    ptrk: ["*ēr", "eːr"],  // Also "man".
+    pmng: ["*ere", "ere"],  // Also "man".
+    zh_yuan: ["夫", "fu"],
+    zh_wenyan_edu: ["夫", "fuː˥"],
+    zh_tang: ["夫", "puə̆"],
+    och: ["夫", "*p(r)a"],
+    vi_han: ["夫", "fu˧˧"],
+    ojp: ["夫", "tuma"],  // The same word as wife: "the one at one's side".
+    ja_heian: ["夫", "wouto"],
+    ja_chu: ["夫", "wotto"],
+    ja_edo: ["亭主", "teːɕɯ"],  // 亭 "house, inn" + 主 "master".
+    ja_kanbun: ["夫", "otto"],
+    p_ryu: ["*woto", "woto"],
+    ko_mid: ["남진", "namtsin"],
+    vi_nom: ["𫯳", "tɕəwŋ˨˩"],  // First meant "man, male".
   },
 };

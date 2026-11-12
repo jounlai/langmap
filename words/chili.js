@@ -242,6 +242,10 @@ WORDS.chili = {
     es_gt: "chilli",
     es_ec: "chilli",
     es_ve: "chilli",
+    es_sgl: "aji",
+    ja_edo: "foreign",
+    ko_em: "pepper",
+    vi_nom: "pepper",
   },
   routes: {
     chilli: {"color":"#dc2626","emoji":"🌶️","en":"Nahuatl chīlli (chile, chili, sili)","ja":"ナワトル語 chīlli（chile, chili, sili）","ko":"나와틀어 chīlli (chile, chili, sili)","zh":"纳瓦特尔语 chīlli（chile、chili、sili）","yue":"納瓦特爾語 chīlli（chile、chili、sili）","vi":"tiếng Nahuatl chīlli (chile, chili, sili)","th":"นาวัตล์ chīlli (chile, chili, sili)","id":"Nahuatl chīlli (chile, chili, sili)","hi":"नाहुआत्ल chīlli (chile, chili, sili)","de":"Nahuatl chīlli (chile, Chili, sili)","fr":"le nahuatl chīlli (chile, chili, sili)","it":"il nahuatl chīlli (chile, chili, sili)","es":"el náhuatl chīlli (chile, chili, sili)","pt":"o náuatle chīlli (chile, chili, sili)","ru":"науатль chīlli (chile, chili, sili)","uk":"науатль chīlli (chile, chili, sili)","ar":"الناواتل chīlli (chile, chili, sili)","he":"הנאוואטל chīlli (chile, chili, sili)","sw":"Kinahuatl chīlli (chile, chili, sili)"},
@@ -422,5 +426,9 @@ WORDS.chili = {
     es_gt: ["chile", "ˈtʃile"],
     es_ec: ["chile", "ˈtʃile"],
     es_ve: ["chile", "ˈtʃile"],
+    es_sgl: ["ají", "aˈʃi"],  // From Taíno; in Spanish since the first voyages to the Caribbean.
+    ja_edo: ["唐辛子", "toːɡaɾaɕi"],  // Chinese mustard, the new hot spice; it came in the Keichō years (1596–1615).
+    ko_em: ["고쵸", "kotɕʰjo"],  // First the name of black pepper; spelled 고초 from the 19th century.
+    vi_nom: ["乙", "əːt˧˥"],  // First the cubeb, a pepper.
   },
 };

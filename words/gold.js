@@ -374,6 +374,64 @@ WORDS.gold = {
     es_ec: "aurum",
     es_uy: "aurum",
     es_ve: "aurum",
+    ar_qur: "dahab",
+    el_grc: "other",
+    gmy: "other",
+    egy: "plain",
+    cop: "plain",
+    pi: "suvarna",
+    pi_edu: "suvarna",
+    sa_edu: "suvarna",
+    h_vedic: "yellow",
+    arc: "dahab",
+    sux: "yellow",
+    akk: "plain",
+    phn: "plain",
+    xpu: "plain",
+    uga: "plain",
+    p_ine: "aurum",
+    ptrk: "altun",
+    peo: "yellow",
+    xto: "plain",
+    txb: "plain",
+    fa_clas: "yellow",
+    fr_class: "aurum",
+    xct: "plain",
+    xct_litpr: "plain",
+    kaw: "plain",
+    xqa: "altun",
+    otk: "altun",
+    xng: "altun",
+    hbo: "dahab",
+    he_mis: "dahab",
+    hy_grab: "plain",
+    sukh: "other",
+    qwc: "plain",
+    obr: "plain",
+    ett: "plain",
+    el_kath: "other",
+    goh: "yellow",
+    gmh: "yellow",
+    ofs: "yellow",
+    osx: "yellow",
+    osp: "aurum",
+    pmng: "altun",
+    cmg: "altun",
+    p_hmx: "jin",
+    p_toc: "plain",
+    zh_yuan: "jin",
+    zh_wenyan_edu: "jin",
+    zh_tang: "jin",
+    och: "jin",
+    vi_han: "jin",
+    ojp: "yellow",
+    ja_heian: "yellow",
+    ja_chu: "yellow",
+    ja_edo: "jin",
+    ja_kanbun: "yellow",
+    ko_mid: "jin",
+    ko_em: "jin",
+    vi_nom: "yellow",
   },
   routes: {
     yellow: {"color":"#ca8a04","emoji":"💛","en":"from a \"yellow\" word (gold, золото, zar, vàng)","ja":"「黄色」の語から (gold, золото, zar, vàng)","ko":"'노랑'의 말에서 (gold, золото, zar, vàng)","zh":"来自表示“黄”的词 (gold, золото, zar, vàng)","yue":"嚟自解「黃」嘅詞 (gold, золото, zar, vàng)","vi":"từ một từ chỉ \"màu vàng\" (gold, золото, zar, vàng)","th":"จากคำว่า \"เหลือง\" (gold, золото, zar, vàng)","id":"dari kata \"kuning\" (gold, золото, zar, vàng)","hi":"\"पीले\" के शब्द से (gold, золото, zar, vàng)","de":"von einem Wort für „gelb“ (gold, золото, zar, vàng)","fr":"d'un mot pour « jaune » (gold, золото, zar, vàng)","it":"da una parola per «giallo» (gold, золото, zar, vàng)","es":"de una palabra para «amarillo» (gold, золото, zar, vàng)","pt":"de uma palavra para «amarelo» (gold, золото, zar, vàng)","ru":"от слова «жёлтый» (gold, золото, zar, vàng)","uk":"від слова «жовтий» (gold, золото, zar, vàng)","ar":"من كلمة «أصفر» (gold, золото, zar, vàng)","he":"ממילה ל\"צהוב\" (gold, золото, zar, vàng)","sw":"kutoka neno la \"manjano\" (gold, золото, zar, vàng)"},
@@ -687,5 +745,63 @@ WORDS.gold = {
     es_ec: ["oro", "ˈoɾo"],
     es_uy: ["oro", "ˈoɾo"],
     es_ve: ["oro", "ˈoɾo"],
+    ar_qur: ["ذهب", "ðahab"],  // Quran 3:14.
+    el_grc: ["χρυσός", "kʰryːsós"],  // Probably a Semitic loan (compare Akkadian ḫurāṣu).
+    gmy: ["𐀓𐀬𐀰", "kʰruːsos"],  // Linear B ku-ru-so; the same word as Greek χρυσός.
+    egy: ["𓋞", "nebuː"],
+    cop: ["ⲛⲟⲩⲃ", "nuːb"],  // From Egyptian nbw.
+    pi: ["सुवण्ण", "suvaɳːa"],  // From Sanskrit suvarṇa "of good colour".
+    pi_edu: ["suvaṇṇa", "suvaɳːa"],  // From Sanskrit suvarṇa "of good colour".
+    sa_edu: ["सुवर्णम्", "suʋɐrɳɐm"],  // Of good colour.
+    h_vedic: ["हिरण्यम्", "ɦírɐɳjɐm"],  // From Proto-Indo-European *ǵʰelh₃- "yellow".
+    arc: ["ܕܗܒܐ", "dahβaː"],  // A Central Semitic word; compare Arabic ḏahab.
+    sux: ["𒆬𒄀", "ɡuʃkin"],  // kug "metal" + sig₁₇ "green-yellow".
+    akk: ["𒆬𒄀", "χuraːsˤu"],  // Written KUG.GI; compare Hebrew ḥārûṣ.
+    phn: ["𐤇𐤓𐤑", "ħaruːsˤ"],  // Compare Akkadian ḫurāṣu.
+    xpu: ["𐤇𐤓𐤑", "ħaruːsˤ"],  // Compare Akkadian ḫurāṣu.
+    uga: ["𐎃𐎗𐎕", "χuraːsˤu"],  // Compare Akkadian ḫurāṣu.
+    p_ine: ["*h₂éh₂usom", "h₂éh₂usom"],  // The glowing one, from *h₂ews- "to dawn".
+    ptrk: ["*altūn", "altuːn"],  // Origin unknown.
+    peo: ["𐎭𐎼𐎴𐎡𐎹", "daranija"],  // From Proto-Indo-European *ǵʰelh₃- "yellow".
+    xto: ["𑀯𑀲𑁆", "wəs"],  // From Proto-Tocharian *wi̯äsā.
+    txb: ["𑀬𑀲𑀸", "jasaː"],  // From Proto-Tocharian *wi̯äsā.
+    fa_clas: ["زر", "zar"],  // From Middle Persian zarr; Iranian *zaranya-, root *ǵʰelh₃- "yellow".
+    fr_class: ["or", "ɔr"],  // From Latin aurum.
+    xct: ["གསེར", "ɡser"],  // From Proto-Bodish *(g)ser.
+    xct_litpr: ["གསེར", "seː"],  // From Proto-Bodish *(g)ser.
+    kaw: ["ꦩꦱ꧀", "mas"],
+    xqa: ["altun", "altun"],  // From Proto-Turkic *altun.
+    otk: ["𐰞𐱃𐰆𐰣", "altun"],  // From Proto-Turkic *altun.
+    xng: ["ᠠᠯᠲᠠᠨ", "altan"],  // From Proto-Mongolic *altan, from Turkic.
+    hbo: ["זהב", "zɔːˈhɔːv"],  // Genesis 2:11.
+    he_mis: ["זהב", "zaˈhav"],  // Mishnah Bava Metzia 4:1 "gold acquires silver".
+    hy_grab: ["ոսկի", "oski"],  // Origin unclear.
+    sukh: ["ทอง", "dɔːŋ"],  // From Old Chinese 銅 "copper"; Ram Khamhaeng inscription ("ค้าทอง").
+    qwc: ["quri", "quri"],
+    obr: ["ရှုယ်", "r̥uj"],  // From Proto-Sino-Tibetan *s-rwəj.
+    ett: ["zamathi", "ˈtsamatʰi"],  // Written 𐌆𐌀𐌌𐌀𐌈𐌉.
+    el_kath: ["χρυσός", "xriˈsos"],  // Probably a Semitic loan in Ancient Greek.
+    goh: ["gold", "ɡold"],  // From *ǵʰelh₃- "yellow".
+    gmh: ["golt", "ɡolt"],  // From *ǵʰelh₃- "yellow".
+    ofs: ["gold", "ɡold"],  // From *ǵʰelh₃- "yellow".
+    osx: ["gold", "ɡold"],  // From *ǵʰelh₃- "yellow".
+    osp: ["oro", "ˈoɾo"],  // From Latin aurum.
+    pmng: ["*altan", "altan"],  // From Proto-Turkic *altūn.
+    cmg: ["ᠠᠯᠲᠠᠨ", "altan"],  // From Proto-Mongolic *altan.
+    p_hmx: ["*kjeəm", "kjeəm"],  // A loan from Chinese 金.
+    p_toc: ["*wi̯äsā", "wjəsaː"],  // Of uncertain further origin.
+    zh_yuan: ["金", "kiəm"],
+    zh_wenyan_edu: ["金", "kɐm˥"],
+    zh_tang: ["金", "kjim"],
+    och: ["金", "*k(r)[ə]m"],  // In early texts 金 is metal in general, above all bronze; gold is 黃金 "yellow metal".
+    vi_han: ["金", "kim˧˧"],
+    ojp: ["黃金", "kuɡane"],  // From ku "yellow" + kane "metal".
+    ja_heian: ["黄金", "koɡane"],  // From ko "yellow" + kane "metal".
+    ja_chu: ["黄金", "koɡane"],
+    ja_edo: ["金", "kiɴ"],
+    ja_kanbun: ["金", "koɡane"],
+    ko_mid: ["금", "kɨm"],
+    ko_em: ["금", "kɯm"],
+    vi_nom: ["鐄", "vaːŋ˨˩"],  // The same word as vàng "yellow".
   },
 };

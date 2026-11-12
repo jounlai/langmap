@@ -35,6 +35,7 @@ const ALLOW = {
   'you:vi_nom': 'vi_nom writes 眉 mày, a different (familiar) pronoun from the vi cell bạn',
   'butterfly:vi_nom': '𧊉 spells the single syllable bướm of vi bươm bướm',
   'computer:vi_nom': '盤倂 bàn tính, the older word (abacus, reckoning board), kept for the Nôm row instead of the modern máy tính',
+  'bread:vi_nom': '餅西 bánh tây, the older Nôm-era word for Western bread; vi has bánh mì',
   'sushi:vi_nom': '𩻐 mắm, the fermented-fish counterpart chosen for the Nôm row; vi has the loan sushi',
 };
 

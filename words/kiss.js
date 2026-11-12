@@ -245,6 +245,36 @@ WORDS.kiss = {
     es_ec: "basium",
     es_uy: "basium",
     es_ve: "basium",
+    sa: "cumb",
+    sa_edu: "cumb",
+    ar_qur: "plain",
+    egy: "plain",
+    non: "kus",
+    got: "other",
+    goh: "kus",
+    osx: "kus",
+    cop: "plain",
+    arc: "plain",
+    psem: "plain",
+    fa_clas: "bosa",
+    fro: "basium",
+    fr_class: "basium",
+    xqa: "plain",
+    sga: "peace",
+    hbo: "plain",
+    hy_grab: "plain",
+    qwc: "plain",
+    ota: "plain",
+    en_em: "kus",
+    de_lut: "kus",
+    es_sgl: "basium",
+    it_dan: "basium",
+    gmh: "kus",
+    orv: "greet",
+    ptrk: "plain",
+    ptai: "plain",
+    ja_edo: "mouth",
+    vi_nom: "smell",
   },
   routes: {
     kus: {"color":"#dc2626","emoji":"💋","en":"Germanic kiss (kiss, Kuss, kyss, キス)","ja":"ゲルマン語の kiss（kiss, Kuss, kyss, キス）","ko":"게르만어 kiss (kiss, Kuss, kyss, キス)","zh":"日耳曼语 kiss（kiss、Kuss、kyss、キス）","yue":"日耳曼語 kiss（kiss、Kuss、kyss、キス）","vi":"tiếng German kiss (kiss, Kuss, kyss, キス)","th":"เจอร์แมนิก kiss (kiss, Kuss, kyss, キス)","id":"Jermanik kiss (kiss, Kuss, kyss, キス)","hi":"जर्मैनिक kiss (kiss, Kuss, kyss, キス)","de":"germanisch Kuss (kiss, Kuss, kyss, キス)","fr":"le germanique kiss (kiss, Kuss, kyss, キス)","it":"il germanico kiss (kiss, Kuss, kyss, キス)","es":"el germánico kiss (kiss, Kuss, kyss, キス)","pt":"o germânico kiss (kiss, Kuss, kyss, キス)","ru":"германское kiss (kiss, Kuss, kyss, キス)","uk":"германське kiss (kiss, Kuss, kyss, キス)","ar":"الجرمانية kiss (kiss, Kuss, kyss, キス)","he":"הגרמאנית kiss (kiss, Kuss, kyss, キス)","sw":"Kijerumani kiss (kiss, Kuss, kyss, キス)"},
@@ -427,5 +457,35 @@ WORDS.kiss = {
     es_ec: ["beso", "ˈbeso"],
     es_uy: ["beso", "ˈbeso"],
     es_ve: ["beso", "ˈbeso"],
+    sa: ["चुम्बनम्", "tɕumbɐnɐm"],  // From the root cumb "to kiss", likely onomatopoeic.
+    sa_edu: ["चुम्बनम्", "tɕumbɐnɐm"],  // From the root cumb "to kiss", likely onomatopoeic.
+    ar_qur: ["قبلة", "qubla"],  // Compare qabila "to receive hospitably".
+    egy: ["𓋴𓈖𓂉", "sen"],  // The verb "to kiss" (no separate noun); written with the nose sign.
+    non: ["koss", "kosː"],  // From Proto-Germanic *kussaz.
+    got: ["𐍆𐍂𐌹𐌾𐍉𐌽𐍃", "ˈfrijoːns"],  // From frijōn "to love".
+    goh: ["kus", "kus"],  // From Proto-West Germanic *koss.
+    osx: ["kus", "kus"],  // From Proto-West Germanic *koss.
+    cop: ["ⲡⲓ", "pi"],
+    arc: ["ܢܘܫܩܬܐ", "nuːʃqəθaː"],  // From the root nšq "to kiss".
+    psem: ["*našaḳ-", "naʃaqʼ"],  // The verb "to kiss" (no noun reconstructed).
+    fa_clas: ["بوسه", "boːsa"],
+    fro: ["baisier", "bajˈzjer"],  // The infinitive used as a noun; from Latin bāsiāre.
+    fr_class: ["baiser", "bɛze"],  // From Latin bāsiāre.
+    xqa: ["öpmäk", "øpmæk"],  // The verb "to kiss"; from Proto-Turkic *öp-.
+    sga: ["póc", "poːɡ"],  // From Latin (dare) pācem "to give peace", the kiss of peace.
+    hbo: ["נשיקה", "nəʃiːˈqɔː"],  // Song of Songs 1:2 (nəšîqôt "kisses").
+    hy_grab: ["համբոյր", "hambojr"],  // From Parthian *ham-bōδ.
+    qwc: ["muchʼa", "mutʃʼa"],  // Also muchʼay "to kiss, adore, worship".
+    ota: ["اوپش", "øˈpyʃ"],  // From the Turkic verb öp- "to kiss".
+    en_em: ["kiss", "kɪs"],  // From Old English coss.
+    de_lut: ["Kuss", "kʊs"],  // Luther Luke 22:48 "mit einem Kuß".
+    es_sgl: ["beso", "ˈbeso"],  // From Latin bāsium.
+    it_dan: ["bacio", "ˈbatʃo"],  // From Latin bāsium.
+    gmh: ["kus", "kus"],  // From Old High German kus.
+    orv: ["цѣловати", "tsʲelovati"],  // The verb "to greet; to kiss" (no separate noun); from *cělъ "whole".
+    ptrk: ["*öp-", "øp"],  // The verb "to kiss" (no noun reconstructed).
+    ptai: ["*cuːp", "cuːp"],  // The verb "to kiss" (no noun reconstructed).
+    ja_edo: ["口吸", "kɯtɕisɯi"],  // Mouth-sucking.
+    vi_nom: ["昏", "hon˧"],  // Related Austroasiatic words mean "to smell, sniff".
   },
 };

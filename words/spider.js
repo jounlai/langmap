@@ -419,6 +419,48 @@ WORDS.spider = {
     es_ec: "aranea",
     es_uy: "aranea",
     es_ve: "aranea",
+    ar_qur: "ankabut",
+    el_grc: "aranea",
+    en_em: "spin",
+    arc: "plain",
+    p_jpn: "plain",
+    pmay: "plain",
+    txb: "spin",
+    fa_clas: "ankabut",
+    gez: "plain",
+    xct: "plain",
+    xct_litpr: "plain",
+    hbo: "ankabut",
+    hy_grab: "spin",
+    qwc: "plain",
+    sa_edu: "spin",
+    h_vedic: "spin",
+    ota: "spin",
+    fr_class: "aranea",
+    es_sgl: "aranea",
+    de_lut: "spin",
+    el_kath: "aranea",
+    goh: "spin",
+    gmh: "spin",
+    fro: "aranea",
+    ptrk: "spin",
+    p_viet: "plain",
+    ptai: "plain",
+    paus: "plain",
+    zh_yuan: "plain",
+    zh_wenyan_edu: "plain",
+    zh_tang: "plain",
+    och: "plain",
+    vi_han: "plain",
+    ojp: "plain",
+    ja_heian: "plain",
+    ja_chu: "plain",
+    ja_edo: "plain",
+    ja_kanbun: "plain",
+    p_ryu: "plain",
+    p_jpk: "plain",
+    ko_mid: "plain",
+    vi_nom: "plain",
   },
   routes: {
     spin: {"color":"#059669","emoji":"🧶","en":"a spinner (Spinne, spider, örümcek)","ja":"「紡ぐもの」 (Spinne, spider, örümcek)","ko":"'잣는 것' (Spinne, spider, örümcek)","zh":"“纺丝者” (Spinne, spider, örümcek)","yue":"「紡絲嘅」 (Spinne, spider, örümcek)","vi":"\"kẻ kéo tơ\" (Spinne, spider, örümcek)","th":"\"ผู้ปั่นด้าย\" (Spinne, spider, örümcek)","id":"\"pemintal\" (Spinne, spider, örümcek)","hi":"\"कातने वाला\" (Spinne, spider, örümcek)","de":"„Spinner“ (Spinne, spider, örümcek)","fr":"« fileur » (Spinne, spider, örümcek)","it":"«filatore» (Spinne, spider, örümcek)","es":"«hilandero» (Spinne, spider, örümcek)","pt":"«fiandeiro» (Spinne, spider, örümcek)","ru":"«прядильщик» (Spinne, spider, örümcek)","uk":"«прядильник» (Spinne, spider, örümcek)","ar":"«الغازل» (Spinne, spider, örümcek)","he":"\"הטווה\" (Spinne, spider, örümcek)","sw":"\"msokotaji\" (Spinne, spider, örümcek)"},
@@ -778,5 +820,47 @@ WORDS.spider = {
     es_ec: ["araña", "aˈɾaɲa"],
     es_uy: ["araña", "aˈɾaɲa"],
     es_ve: ["araña", "aˈɾaɲa"],
+    ar_qur: ["عنكبوت", "ʕankabuːt"],  // Quran 29:41, the sura al-ʿAnkabūt.
+    el_grc: ["ἀράχνης", "arákʰnɛːs"],  // Also ἀράχνη.
+    en_em: ["spider", "ˈspəidər"],  // From Old English spīþra, from *spinnaną "to spin".
+    arc: ["ܓܘܓܝ", "ɡəwaːɣaj"],
+    p_jpn: ["*konpo", "konpo"],
+    pmay: ["*ʔam", "ʔam"],
+    txb: ["𑀬𑀧𑁂", "jape"],  // From Proto-Indo-European *webʰ- "to weave".
+    fa_clas: ["عنکبوت", "ʔankabuːt"],  // Borrowed from Arabic ʕankabūt.
+    gez: ["ሣሬት", "saːreːt"],  // Possibly of Cushitic origin.
+    xct: ["སྡོམ", "sdom"],
+    xct_litpr: ["སྡོམ", "tom"],
+    hbo: ["עכביש", "ʕakkɔːˈviːʃ"],  // Isaiah 59:5, Job 8:14.
+    hy_grab: ["սարդ", "sard"],  // From Proto-Indo-European *ḱer- "to weave, plait".
+    qwc: ["apasanka", "apasaŋka"],
+    sa_edu: ["तन्तुवायः", "tɐntuʋaːjɐh"],  // Thread-weaver: tantu + vāya.
+    h_vedic: ["ऊर्णवाभिः", "uːrɳɐʋáːbʱiɦ"],  // Wool-weaver; Śatapatha Brāhmaṇa.
+    ota: ["اورمجك", "øɾymˈdʒek"],  // From Proto-Turkic *ȫrmekči, from *ȫr- "to plait".
+    fr_class: ["araignée", "arɛɲe"],  // From Latin arānea.
+    es_sgl: ["araña", "aˈɾaɲa"],  // From Latin arānea.
+    de_lut: ["Spinne", "ˈʃpɪnə"],  // Luther Proverbs 30:28 "Die Spinne wirkt mit ihren Händen".
+    el_kath: ["ἀράχνη", "aˈraxni"],  // The ancient form, kept in the learned language.
+    goh: ["spinna", "ˈspinːa"],  // Spinner, from spinnan "to spin".
+    gmh: ["spinne", "ˈspinə"],  // Spinner.
+    fro: ["araigne", "aˈraiɲə"],  // From Latin arānea.
+    ptrk: ["*ȫrmekči", "øːrmektʃi"],  // From *ȫr- "to plait, spin".
+    p_viet: ["*ɲeːɲʔ", "ɲeːɲʔ"],
+    ptai: ["*krwaːw", "krwaːw"],
+    paus: ["*kakaCu", "kakaCu"],
+    zh_yuan: ["蜘蛛", "tʂi tʂiu"],
+    zh_wenyan_edu: ["蜘蛛", "tsiː˥ tsyː˥"],
+    zh_tang: ["蜘蛛", "ʈiə̆ ʈuə̆"],
+    och: ["蜘蛛", "*tre tro"],  // Written 鼅鼄 in the Erya and the Shuowen.
+    vi_han: ["蜘蛛", "tɕi˧˧ tʰu˨˩"],
+    ojp: ["蜘蛛", "kumo"],
+    ja_heian: ["蜘蛛", "kumo"],
+    ja_chu: ["蜘蛛", "kumo"],
+    ja_edo: ["蜘蛛", "kɯmo"],
+    ja_kanbun: ["蜘蛛", "kɯmo"],
+    p_ryu: ["*kobu", "kobu"],
+    p_jpk: ["*konpo", "konpo"],  // Proto-Japonic form, compared with Middle Korean 거믜.
+    ko_mid: ["거·믜", "kəmɨj"],
+    vi_nom: ["蝒", "ɲen˧˨ʔ"],
   },
 };

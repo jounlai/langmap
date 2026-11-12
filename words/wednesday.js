@@ -344,6 +344,24 @@ WORDS.wednesday = {
     es_ec: "mercury",
     es_uy: "mercury",
     es_ve: "mercury",
+    ar_qur: "count",
+    ofs: "god",
+    non: "god",
+    cu: "middle",
+    orv: "count",
+    syc: "count",
+    fa_clas: "count",
+    fro: "mercury",
+    goh: "middle",
+    hy_grab: "count",
+    xct: "mercury",
+    he_mis: "count",
+    sa_edu: "mercury",
+    ota: "count",
+    el_kath: "count",
+    xct_litpr: "mercury",
+    kaw: "mercury",
+    mga: "fast",
   },
   routes: {
     god: {"color":"#db2777","emoji":"🐦‍⬛","en":"Woden's day (Wednesday, woensdag, onsdag)","ja":"ウォーデンの日（Wednesday, woensdag, onsdag）","ko":"보탄의 날 (Wednesday, woensdag, onsdag)","zh":"沃登之日（Wednesday、woensdag、onsdag）","yue":"沃登嘅日（Wednesday、woensdag、onsdag）","vi":"ngày của thần Woden (Wednesday, woensdag, onsdag)","th":"วันของเทพโวเดน (Wednesday, woensdag, onsdag)","id":"hari Dewa Woden (Wednesday, woensdag, onsdag)","hi":"वोडेन का दिन (Wednesday, woensdag, onsdag)","de":"Wodans Tag (Wednesday, woensdag, onsdag)","fr":"jour de Wotan (Wednesday, woensdag, onsdag)","it":"giorno di Wotan (Wednesday, woensdag, onsdag)","es":"día de Wotan (Wednesday, woensdag, onsdag)","pt":"dia de Wotan (Wednesday, woensdag, onsdag)","ru":"день Вотана (Wednesday, woensdag, onsdag)","uk":"день Вотана (Wednesday, woensdag, onsdag)","ar":"يوم وودن (Wednesday, woensdag, onsdag)","he":"יומו של וודן (Wednesday, woensdag, onsdag)","sw":"siku ya Woden (Wednesday, woensdag, onsdag)"},
@@ -626,5 +644,23 @@ WORDS.wednesday = {
     es_ec: ["miércoles", "ˈmjeɾkoles"],
     es_uy: ["miércoles", "ˈmjeɾkoles"],
     es_ve: ["miércoles", "ˈmjeɾkoles"],
+    ar_qur: ["الأربعاء", "alʔarbiʕaːʔ"],  // The fourth day.
+    ofs: ["wedenesdei", "ˈwedenesdei"],  // Woden's day.
+    non: ["óðinsdagr", "ˈoːðinsdɑɣr"],  // Odin's day, a calque of West Germanic *Wōdanas dag.
+    cu: ["срѣда", "sræda"],  // Middle (of the week).
+    orv: ["третииникъ", "tretijnikŭ"],  // From tretii "third".
+    syc: ["ܐܪܒܥܒܫܒܐ", "ʔarbaʕbəʃabbaː"],  // Four in the week.
+    fa_clas: ["چهارشنبه", "tʃahaːrʃamba"],  // Four (days after) Sabbath.
+    fro: ["mescredi", "mɛskrəˈdi"],  // From Latin Mercuriī diēs.
+    goh: ["mittawehha", "ˈmitːaweːxa"],  // A calque of Church Latin media hebdomas "middle of the week".
+    hy_grab: ["չորեքշաբաթի", "tʃʰoɾekʰʃabatʰi"],  // Fourth (day) of the week.
+    xct: ["གཟའ་ལྷག་པ", "ɡzaʔl̥akpa"],  // Planet Lhagpa, Mercury.
+    he_mis: ["יום רביעי", "jom rəviˈʕi"],  // The fourth day; Mishnah Ketubot 1:1.
+    sa_edu: ["बुधवारः", "budʱɐʋaːɾɐh"],  // budha "Mercury" + vāra "day".
+    ota: ["چهارشنبه", "tʃaɾʃamˈba"],  // From Persian čahār-šanbe "fourth (day)".
+    el_kath: ["Τετάρτη", "teˈtarti"],  // Fourth (day).
+    xct_litpr: ["གཟའ་ལྷག་པ", "saɬakpa"],  // Planet Lhagpa, Mercury.
+    kaw: ["ꦧꦸꦣ", "buda"],  // From Sanskrit budha, Mercury.
+    mga: ["cétaín", "ˈkʲeːdaːinʲ"],  // First fast (of the week).
   },
 };

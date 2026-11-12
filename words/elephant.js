@@ -406,6 +406,49 @@ WORDS.elephant = {
     es_ec: "elephas",
     es_uy: "elephas",
     es_ve: "elephas",
+    ar_qur: "pil",
+    el_grc: "elephas",
+    egy: "plain",
+    en_em: "elephas",
+    pi: "hasti",
+    pi_edu: "hasti",
+    sa_edu: "gaja",
+    h_vedic: "hasti",
+    arc: "pil",
+    akk: "pil",
+    ptai: "xiang",
+    pban: "bantu",
+    p_dra: "yanai",
+    xto: "plain",
+    txb: "plain",
+    pal: "pil",
+    fa_clas: "pil",
+    hy_grab: "pil",
+    fro: "elephas",
+    fr_class: "elephas",
+    it_dan: "elephas",
+    es_sgl: "elephas",
+    de_lut: "elephas",
+    kaw: "gaja",
+    sukh: "xiang",
+    xct: "other",
+    xct_litpr: "other",
+    el_kath: "elephas",
+    gmh: "elephas",
+    p_viet: "plain",
+    p_toc: "plain",
+    pmng: "xiang",
+    zh_yuan: "xiang",
+    zh_wenyan_edu: "xiang",
+    zh_tang: "xiang",
+    och: "xiang",
+    vi_han: "xiang",
+    ja_heian: "plain",
+    ja_chu: "xiang",
+    ja_edo: "xiang",
+    ja_kanbun: "xiang",
+    ko_mid: "other",
+    vi_nom: "plain",
   },
   routes: {
     elephas: {"color":"#2563eb","emoji":"🏛️","en":"from Greek ἐλέφας, Latin elephantus (elephant, Elefant)","ja":"ギリシャ語 ἐλέφας、ラテン語 elephantus から (elephant, Elefant)","ko":"그리스어 ἐλέφας, 라틴어 elephantus에서 (elephant, Elefant)","zh":"来自希腊语 ἐλέφας、拉丁语 elephantus (elephant, Elefant)","yue":"嚟自希臘語 ἐλέφας、拉丁語 elephantus (elephant, Elefant)","vi":"từ tiếng Hy Lạp ἐλέφας, Latinh elephantus (elephant, Elefant)","th":"จากภาษากรีก ἐλέφας ละติน elephantus (elephant, Elefant)","id":"dari ἐλέφας Yunani, elephantus Latin (elephant, Elefant)","hi":"यूनानी ἐλέφας, लैटिन elephantus से (elephant, Elefant)","de":"aus griechisch ἐλέφας, lateinisch elephantus (elephant, Elefant)","fr":"du grec ἐλέφας, latin elephantus (elephant, Elefant)","it":"dal greco ἐλέφας, latino elephantus (elephant, Elefant)","es":"del griego ἐλέφας, latín elephantus (elephant, Elefant)","pt":"do grego ἐλέφας, latim elephantus (elephant, Elefant)","ru":"от греческого ἐλέφας, латинского elephantus (elephant, Elefant)","uk":"від грецького ἐλέφας, латинського elephantus (elephant, Elefant)","ar":"من اليونانية ἐλέφας واللاتينية elephantus (elephant, Elefant)","he":"מהיוונית ἐλέφας, מהלטינית elephantus (elephant, Elefant)","sw":"kutoka Kigiriki ἐλέφας, Kilatini elephantus (elephant, Elefant)"},
@@ -752,5 +795,48 @@ WORDS.elephant = {
     es_ec: ["elefante", "eleˈfante"],
     es_uy: ["elefante", "eleˈfante"],
     es_ve: ["elefante", "eleˈfante"],
+    ar_qur: ["فيل", "fiːl"],  // Quran 105:1 (aṣḥāb al-fīl). From Middle Persian pīl.
+    el_grc: ["ἐλέφας", "elépʰaːs"],  // Mycenaean e-re-pa; probably from Egyptian ꜣbw.
+    egy: ["𓍋𓃀𓅱𓃰", "abuː"],  // Also "ivory"; the name of Elephantine.
+    en_em: ["elephant", "ˈɛləfənt"],  // From Latin elephantus.
+    pi: ["हत्थी", "hatːʰiː"],  // With a hand (the trunk); stem hatthin, from Sanskrit hastin.
+    pi_edu: ["hatthī", "hatːʰiː"],  // With a hand (the trunk); stem hatthin, from Sanskrit hastin.
+    sa_edu: ["गजः", "ɡɐdʑɐh"],  // Of uncertain origin.
+    h_vedic: ["हस्ती", "ɦɐstíː"],  // Having a hand (the trunk), from hásta "hand"; Rigveda mṛgá hastín.
+    arc: ["ܦܝܠܐ", "piːlaː"],  // Shared across the ancient Near East; compare Akkadian pīru.
+    akk: ["𒄠𒋛", "piːru"],  // Written AM.SI; the source of Middle Persian pīl.
+    ptai: ["*ɟaːŋ", "ɟaːŋ"],  // From Early Middle Chinese 象 (Pittayaporn 2009).
+    pban: ["*njògù", "njòɡù"],  // Source of Swahili ndovu, Zulu indlovu.
+    p_dra: ["*yānay", "jaːnaj"],
+    xto: ["𑀑𑀗𑁆𑀓𑀮𑀫𑁆", "oŋkələm"],  // Probably from a non-Indo-European language.
+    txb: ["𑀑𑀗𑁆𑀓𑁄𑀮𑁆𑀫𑁄", "oŋkolmo"],  // From Proto-Tocharian *onkolmo.
+    pal: ["𐭯𐭩𐭫", "piːl"],  // From Akkadian pīru.
+    fa_clas: ["پیل", "piːl"],  // From Middle Persian pīl.
+    hy_grab: ["փիղ", "pʰiɫ"],  // From Middle Persian pīl.
+    fro: ["olifant", "oliˈfant"],  // Also "ivory, ivory horn". Learned borrowing from Latin elephantus.
+    fr_class: ["éléphant", "elefɑ̃"],  // From Latin elephantus.
+    it_dan: ["elefante", "eleˈfante"],  // Dante, Inferno 31.52 "d'elefanti e di balene".
+    es_sgl: ["elefante", "eleˈfante"],  // From Latin elephantus.
+    de_lut: ["Elephant", "eleˈfant"],  // Luther 1 Maccabees 6 "Elephanten".
+    kaw: ["ꦒꦗ", "ɡadʒa"],  // Borrowed from Sanskrit gaja.
+    sukh: ["ช้าง", "dʑaːŋ"],  // From Proto-Tai *ɟaːŋ, from Chinese 象.
+    xct: ["གླང་པོ་ཆེ", "ɡlaŋpotɕʰe"],  // Great ox: glang po "ox" + che "big".
+    xct_litpr: ["གླང་པོ་ཆེ", "laŋpotɕʰe"],  // Great ox: glang po "ox" + che "big".
+    el_kath: ["ἐλέφας", "eˈlefas"],  // The ancient form, kept in the learned language.
+    gmh: ["elefant", "ˈelefant"],  // From Latin elephantus.
+    p_viet: ["*vɔːj", "vɔːj"],
+    p_toc: ["*onkolmo", "oŋkolmo"],  // Probably from a non-Indo-European language.
+    pmng: ["*jaxan", "dʒaxan"],  // Through Turkic, ultimately from Chinese 象.
+    zh_yuan: ["象", "siaŋ"],
+    zh_wenyan_edu: ["象", "tsœːŋ˨"],
+    zh_tang: ["象", "zɨaŋ"],
+    och: ["象", "*s.[d]aŋʔ"],
+    vi_han: ["象", "tɨəŋ˨˩˨"],
+    ja_heian: ["象", "kisa"],  // The old name of the elephant; its origin is disputed (a word for wood grain, or an Austroasiatic loan).
+    ja_chu: ["象", "zɔː"],
+    ja_edo: ["象", "zoː"],
+    ja_kanbun: ["象", "zoː"],
+    ko_mid: ["·고키·리", "kokʰiɾi"],  // Long-noser: nose + long.
+    vi_nom: ["㺔", "vɔj˧"],
   },
 };

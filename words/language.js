@@ -388,6 +388,74 @@ WORDS.language = {
     es_ec: "tongue",
     es_uy: "tongue",
     es_ve: "tongue",
+    ar_qur: "tongue",
+    prg: "plain",
+    el_grc: "tongue",
+    egy: "mouth",
+    ofs: "tongue",
+    got: "speech",
+    cu: "tongue",
+    orv: "tongue",
+    pi: "speech",
+    pi_edu: "speech",
+    sa_edu: "speech",
+    h_vedic: "speech",
+    cop: "plain",
+    arc: "tongue",
+    syc: "tongue",
+    sux: "tongue",
+    akk: "tongue",
+    nci: "speech",
+    p_toc: "tongue",
+    p_jpn: "speech",
+    ptrk: "tongue",
+    pmng: "tongue",
+    psem: "tongue",
+    pura: "tongue",
+    pban: "tongue",
+    peo: "tongue",
+    xto: "tongue",
+    txb: "tongue",
+    uga: "tongue",
+    xsa: "tongue",
+    sog: "tongue",
+    fa_clas: "tongue",
+    ota: "tongue",
+    fr_class: "tongue",
+    it_dan: "tongue",
+    es_sgl: "tongue",
+    osp: "tongue",
+    de_lut: "speech",
+    en_em: "tongue",
+    goh: "tongue",
+    osx: "tongue",
+    xct: "mouth",
+    xct_litpr: "mouth",
+    kaw: "speech",
+    hbo: "tongue",
+    he_mis: "tongue",
+    hy_grab: "tongue",
+    qwc: "mouth",
+    xht: "tongue",
+    xag: "tongue",
+    osc: "tongue",
+    yug: "plain",
+    el_kath: "tongue",
+    gmh: "speech",
+    zh_yuan: "speech",
+    zh_wenyan_edu: "speech",
+    zh_tang: "speech",
+    och: "speech",
+    vi_han: "speech",
+    ojp: "speech",
+    ja_heian: "speech",
+    ja_chu: "speech",
+    ja_edo: "speech",
+    ja_kanbun: "speech",
+    p_ryu: "speech",
+    ko_mid: "speech",
+    ko_em: "speech",
+    vi_nom: "voice",
   },
   routes: {
     tongue: {"color":"#dc2626","emoji":"👅","en":"the tongue (langue, язык, dil)","ja":"舌（langue, язык, dil）","ko":"혀 (langue, язык, dil)","zh":"舌头（langue、язык、dil）","yue":"脷（langue、язык、dil）","vi":"cái lưỡi (langue, язык, dil)","th":"ลิ้น (langue, язык, dil)","id":"lidah (langue, язык, dil)","hi":"जीभ (langue, язык, dil)","de":"die Zunge (langue, язык, dil)","fr":"l'organe, la langue (langue, язык, dil)","it":"l'organo, la lingua (langue, язык, dil)","es":"el órgano, la lengua (langue, язык, dil)","pt":"o órgão, a língua (langue, язык, dil)","ru":"орган язык (langue, язык, dil)","uk":"орган язик (langue, язык, dil)","ar":"اللسان (langue, язык, dil)","he":"הלשון (langue, язык, dil)","sw":"ulimi (langue, язык, dil)"},
@@ -714,5 +782,73 @@ WORDS.language = {
     es_ec: ["lengua", "ˈlenɡwa"],
     es_uy: ["lengua", "ˈlenɡwa"],
     es_ve: ["lengua", "ˈlenɡwa"],
+    ar_qur: ["لسان", "lisaːn"],  // Also "tongue"; Quran 14:4 "in the language (lisān) of his people".
+    prg: ["bilā", "ˈbilaː"],
+    el_grc: ["γλῶσσα", "ɡlɔ̂ːssa"],  // Also "tongue".
+    egy: ["𓂋", "er"],  // The word for "mouth", also "language, manner of speech".
+    ofs: ["tunge", "ˈtuŋɡe"],  // Also "tongue".
+    got: ["𐍂𐌰𐌶𐌳𐌰", "ˈrazda"],  // Mark 14:70 "razda þeina"; from Proto-Germanic *razdō "voice, speech".
+    cu: ["ѩзꙑкъ", "jɛ̃zɨkŭ"],  // Also "tongue".
+    orv: ["ꙗзыкъ", "jazɨkŭ"],  // Also "tongue".
+    pi: ["भासा", "bʱaːsaː"],  // From Sanskrit bhāṣā, from bhāṣ "to speak".
+    pi_edu: ["bhāsā", "bʱaːsaː"],  // From Sanskrit bhāṣā, from bhāṣ "to speak".
+    sa_edu: ["भाषा", "bʱaːʂaː"],  // From bhāṣ "to speak".
+    h_vedic: ["वाक्", "ʋáːk"],  // vāc "speech, voice", the Vedic goddess of speech.
+    cop: ["ⲁⲥⲡⲉ", "ˈaspə"],  // From Egyptian jspt "language".
+    arc: ["ܠܫܢܐ", "leʃʃaːnaː"],  // Also "tongue".
+    syc: ["ܠܫܢܐ", "leʃʃaːnaː"],  // Also "tongue".
+    sux: ["𒅴", "eme"],  // Also "tongue".
+    akk: ["𒇷𒊭𒉡", "liʃaːnu"],  // Also "tongue".
+    nci: ["tlahtolli", "tɬaʔˈtoːlːi"],  // From ihtoa "to speak".
+    p_toc: ["*käntwo", "kəntwo"],  // Also "tongue".
+    p_jpn: ["*kətənpa", "kətənpa"],  // *kətə "word" + *pa "edge".
+    ptrk: ["*til", "til"],  // Also "tongue".
+    pmng: ["*kelen", "kelen"],  // Also "tongue".
+    psem: ["*lišān-", "liʃaːn"],  // Also "tongue".
+    pura: ["*kele", "kele"],  // Also "tongue"; Wiktionary writes *käle.
+    pban: ["*-dɪ́mì", "-dɪ́mì"],  // Also "tongue"; class 11 *dʊ̀-dɪ́mì.
+    peo: ["𐏃𐏀𐎠𐎴𐎶", "hizaːnam"],  // Also "tongue".
+    xto: ["𑀓𑀦𑁆𑀢𑀼", "kəntu"],  // Also "tongue".
+    txb: ["𑀓𑀦𑁆𑀢𑁆𑀯𑁄", "kantwo"],  // Also "tongue".
+    uga: ["𐎍𐎌𐎐", "laʃaːnu"],  // Also "tongue".
+    xsa: ["𐩡𐩪𐩬", "lisaːn"],  // Also "tongue".
+    sog: ["ʾzβʾk", "əzβaːk"],  // Also "tongue".
+    fa_clas: ["زبان", "zabaːn"],  // Also "tongue".
+    ota: ["دیل", "dil"],  // Also "tongue"; from Proto-Turkic *til.
+    fr_class: ["langue", "lɑ̃ɡ"],  // Also "tongue".
+    it_dan: ["lingua", "ˈliŋɡwa"],  // Also "tongue"; Paradiso 26.124 "La lingua ch'io parlai".
+    es_sgl: ["lengua", "ˈleŋɡwa"],  // Also "tongue".
+    osp: ["lengua", "ˈleŋɡwa"],  // Also "tongue".
+    de_lut: ["Sprache", "ˈʃpraːxə"],  // Luther Genesis 11:1 "einerley Zungen und Sprache".
+    en_em: ["language", "ˈlaŋɡwɪdʒ"],  // From Old French language, from langue "tongue".
+    goh: ["zunga", "ˈtsuŋɡa"],  // Also "tongue".
+    osx: ["tunga", "ˈtuŋɡa"],  // Also "tongue".
+    xct: ["སྐད", "skat"],  // Related to kha "mouth; word".
+    xct_litpr: ["སྐད", "kɛː"],  // Related to kha "mouth; word".
+    kaw: ["ꦨꦴꦰ", "basa"],  // Borrowed from Sanskrit bhāṣā.
+    hbo: ["לשון", "lɔːˈʃoːn"],  // Also "tongue"; Esther 1:22.
+    he_mis: ["לשון", "laˈʃon"],  // Also "tongue"; Mishnah Sotah 7:2 lǝšon haq-qodeš.
+    hy_grab: ["լեզու", "lezu"],  // Also "tongue".
+    qwc: ["simi", "simi"],  // Also "mouth" (runa simi "people's language").
+    xht: ["alip", "alip"],  // Also "tongue"; written 𒀀𒇷𒅁.
+    xag: ["muz", "muz"],  // Also "tongue".
+    osc: ["fangva", "faŋɡwa"],  // Also "tongue"; written 𐌚𐌀𐌍𐌂𐌖𐌀.
+    yug: ["каʼ", "kaʔ"],  // From Proto-Yeniseian *qäʔG.
+    el_kath: ["γλῶσσα", "ˈɣlosa"],  // Also "tongue".
+    gmh: ["sprāche", "ˈʃpraːxə"],  // From Old High German sprāhha.
+    zh_yuan: ["語", "iu"],
+    zh_wenyan_edu: ["語", "jyː˩˧"],
+    zh_tang: ["語", "ŋɨə̆"],
+    och: ["語", "*ŋ(r)aʔ"],
+    vi_han: ["語", "ŋɨ˧˧ˀ˥"],
+    ojp: ["言葉", "kətəba"],
+    ja_heian: ["言葉", "kotoba"],
+    ja_chu: ["言葉", "kotoba"],
+    ja_edo: ["言葉", "kotoba"],
+    ja_kanbun: ["語", "kotoba"],
+    p_ryu: ["*kotoba", "kotoba"],
+    ko_mid: [":말", "mal"],
+    ko_em: ["말", "mal"],
+    vi_nom: ["㗂", "tiəŋ˧˥"],  // Also "voice, sound".
   },
 };

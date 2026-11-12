@@ -363,6 +363,55 @@ WORDS.mirror = {
     es_ec: "speculum",
     es_uy: "speculum",
     es_ve: "speculum",
+    ar_qur: "look",
+    prg: "speculum",
+    el_grc: "look",
+    ang: "look",
+    non: "speculum",
+    got: "shadow",
+    cu: "look",
+    pi: "look",
+    pi_edu: "look",
+    sa_edu: "look",
+    h_vedic: "look",
+    arc: "look",
+    nci: "plain",
+    txb: "plain",
+    xto: "plain",
+    fa_clas: "ayna",
+    fro: "mirari",
+    fr_class: "mirari",
+    goh: "speculum",
+    es_sgl: "speculum",
+    it_dan: "speculum",
+    de_lut: "speculum",
+    xct: "plain",
+    xct_litpr: "plain",
+    hbo: "look",
+    hy_grab: "look",
+    qwc: "plain",
+    ota: "ayna",
+    ett: "plain",
+    el_kath: "look",
+    osx: "speculum",
+    pmng: "plain",
+    xng: "plain",
+    cmg: "plain",
+    ptrk: "eye",
+    p_jpn: "shadow",
+    mga: "shadow",
+    zh_yuan: "jing",
+    zh_wenyan_edu: "jing",
+    zh_tang: "jing",
+    och: "jing",
+    vi_han: "jing",
+    ojp: "shadow",
+    ja_heian: "shadow",
+    ja_chu: "shadow",
+    ja_edo: "shadow",
+    ja_kanbun: "shadow",
+    ko_mid: "plain",
+    vi_nom: "jing",
   },
   routes: {
     speculum: {"color":"#2563eb","emoji":"🏛️","en":"from Latin speculum (espejo, Spiegel)","ja":"ラテン語 speculum から (espejo, Spiegel)","ko":"라틴어 speculum에서 (espejo, Spiegel)","zh":"来自拉丁语 speculum (espejo, Spiegel)","yue":"嚟自拉丁語 speculum (espejo, Spiegel)","vi":"từ tiếng Latinh speculum (espejo, Spiegel)","th":"จากภาษาละติน speculum (espejo, Spiegel)","id":"dari speculum Latin (espejo, Spiegel)","hi":"लैटिन speculum से (espejo, Spiegel)","de":"aus lateinisch speculum (espejo, Spiegel)","fr":"du latin speculum (espejo, Spiegel)","it":"dal latino speculum (espejo, Spiegel)","es":"del latín speculum (espejo, Spiegel)","pt":"do latim speculum (espejo, Spiegel)","ru":"от латинского speculum (espejo, Spiegel)","uk":"від латинського speculum (espejo, Spiegel)","ar":"من اللاتينية speculum (espejo, Spiegel)","he":"מהלטינית speculum (espejo, Spiegel)","sw":"kutoka Kilatini speculum (espejo, Spiegel)"},
@@ -665,5 +714,54 @@ WORDS.mirror = {
     es_ec: ["espejo", "esˈpexo"],
     es_uy: ["espejo", "esˈpexo"],
     es_ve: ["espejo", "esˈpeho"],
+    ar_qur: ["مرآة", "mirʔaːh"],  // A tool noun from the root of raʔā "to see".
+    prg: ["spīgelis", "spiːɡelis"],  // Elbing Vocabulary; from German Spiegel.
+    el_grc: ["κάτοπτρον", "kátoptron"],  // From the stem of κατόψομαι "to look", root *h₃ekʷ- "to see".
+    ang: ["sċēawere", "ˈʃæːɑwere"],  // Watcher, from sċēawian "to look at".
+    non: ["spegill", "ˈspeɡilː"],  // Borrowed from Middle Low German spēgel.
+    got: ["𐍃𐌺𐌿𐌲𐌲𐍅𐌰", "ˈskuŋɡwa"],  // From Proto-Germanic *skuwwô "reflection"; 1 Corinthians 13:12.
+    cu: ["зрьцало", "zrĭtsalo"],  // From Proto-Slavic *zьrcadlo, from *zьrěti "to look".
+    pi: ["आदास", "aːdaːsa"],  // From Sanskrit ādarśa, from dṛś "to see".
+    pi_edu: ["ādāsa", "aːdaːsa"],  // From Sanskrit ādarśa, from dṛś "to see".
+    sa_edu: ["दर्पणः", "dɐrpɐɳɐh"],  // Traditionally from dṛp; alternatively from *derp- "to see".
+    h_vedic: ["आदर्शः", "aːdɐrɕɐ́ɦ"],  // ā- + dṛś "to see"; Bṛhadāraṇyaka Upaniṣad.
+    arc: ["ܡܚܙܝܬܐ", "maħziːθaː"],  // From the root ḥzy "to see".
+    nci: ["tezcatl", "ˈteskatɬ"],
+    txb: ["𑀢𑀧𑀸𑀓𑁆𑀬𑁂", "tapaːkje"],  // Compare Tocharian A tāpaki.
+    xto: ["𑀢𑀸𑀧𑀓𑀺", "taːpəki"],  // Compare Tocharian B tapākye.
+    fa_clas: ["آینه", "aːjiːna"],  // From Middle Persian ēwēnag.
+    fro: ["mireor", "mireˈor"],  // mirer "to look at" + -eor.
+    fr_class: ["miroir", "mirwar"],  // From Old French mireor.
+    goh: ["spiegal", "ˈspieɡal"],  // From Proto-West Germanic *spēgl, from Latin speculum.
+    es_sgl: ["espejo", "esˈpeʃo"],  // From Latin speculum.
+    it_dan: ["specchio", "ˈspekkjo"],  // Dante, Paradiso 15.62 "lo specchio". From Latin speculum.
+    de_lut: ["Spiegel", "ˈʃpiːɡəl"],  // Luther 1 Corinthians 13:12 "durch einen Spiegel".
+    xct: ["མེ་ལོང", "meloŋ"],
+    xct_litpr: ["མེ་ལོང", "meloŋ"],
+    hbo: ["מראה", "marˈʔɔː"],  // Exodus 38:8 (marʾōt "mirrors"); from rāʾāh "to see".
+    hy_grab: ["հայելի", "hajeli"],  // From hayel "to look" + -i.
+    qwc: ["rirpu", "rirpu"],  // Also "crystal".
+    ota: ["آینه", "ajˈna"],  // From Persian āyina.
+    ett: ["malena", "ˈmalena"],  // Written 𐌌𐌀𐌋𐌀𐌍𐌀 on engraved bronze mirrors.
+    el_kath: ["κάτοπτρον", "ˈkatoptron"],  // The ancient form, kept in the learned language; root *h₃ekʷ- "to see".
+    osx: ["spēgal", "ˈspeːɡal"],  // From Latin speculum.
+    pmng: ["*toli", "toli"],
+    xng: ["ᠲᠣᠯᠢ", "toli"],
+    cmg: ["ᠲᠣᠯᠢ", "toli"],
+    ptrk: ["*küzŋü", "kyzŋy"],  // Built on *köŕ "eye".
+    p_jpn: ["*kankami", "kankami"],  // The source of Japanese 鏡 kagami.
+    mga: ["scáthán", "ˈskaːθaːn"],  // From scáth "shadow".
+    zh_yuan: ["鏡", "kiəŋ"],
+    zh_wenyan_edu: ["鏡", "kɛːŋ˧"],
+    zh_tang: ["鏡", "kiajŋ"],
+    och: ["鏡", "*C.qraŋʔ-s"],
+    vi_han: ["鏡", "kiɲ˧˥"],
+    ojp: ["鏡", "kaɡami"],  // From kaga "shadow, image" + mi "seeing".
+    ja_heian: ["鏡", "kaɡami"],
+    ja_chu: ["鏡", "kaɡami"],
+    ja_edo: ["鏡", "kaɡami"],
+    ja_kanbun: ["鏡", "kaɡami"],
+    ko_mid: ["거·우루", "kəuɾu"],
+    vi_nom: ["𦎛", "ɣɨəŋ˧"],  // Old non-Sino reading of 鏡.
   },
 };

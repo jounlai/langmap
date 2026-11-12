@@ -389,6 +389,53 @@ WORDS.island = {
     es_ec: "insula",
     es_uy: "insula",
     es_ve: "insula",
+    sa: "dvipa",
+    sa_edu: "dvipa",
+    h_vedic: "dvipa",
+    ar_qur: "plain",
+    el_grc: "plain",
+    egy: "plain",
+    en_em: "water",
+    ofs: "water",
+    pi: "dvipa",
+    pi_edu: "dvipa",
+    arc: "plain",
+    p_jpn: "plain",
+    ptrk: "ada",
+    pmng: "aral",
+    p_tun: "plain",
+    txb: "other",
+    fa_clas: "jazira",
+    fro: "insula",
+    fr_class: "insula",
+    es_sgl: "insula",
+    it_dan: "insula",
+    de_lut: "insula",
+    xct: "water",
+    xct_litpr: "water",
+    kaw: "plain",
+    hbo: "plain",
+    hy_grab: "plain",
+    sukh: "plain",
+    onw: "plain",
+    qwc: "plain",
+    ota: "ada",
+    el_kath: "plain",
+    gmh: "insula",
+    osp: "insula",
+    zh_yuan: "dao",
+    zh_wenyan_edu: "dao",
+    zh_tang: "dao",
+    och: "dao",
+    vi_han: "dao",
+    ojp: "plain",
+    ja_heian: "plain",
+    ja_chu: "plain",
+    ja_edo: "plain",
+    ja_kanbun: "plain",
+    p_ryu: "plain",
+    p_jpk: "plain",
+    ko_mid: "plain",
   },
   routes: {
     insula: {"color":"#2563eb","emoji":"🏛️","en":"from Latin īnsula (isla, île, Insel)","ja":"ラテン語 īnsula から (isla, île, Insel)","ko":"라틴어 īnsula에서 (isla, île, Insel)","zh":"来自拉丁语 īnsula (isla, île, Insel)","yue":"嚟自拉丁語 īnsula (isla, île, Insel)","vi":"từ tiếng Latinh īnsula (isla, île, Insel)","th":"จากภาษาละติน īnsula (isla, île, Insel)","id":"dari īnsula Latin (isla, île, Insel)","hi":"लैटिन īnsula से (isla, île, Insel)","de":"aus lateinisch īnsula (isla, île, Insel)","fr":"du latin īnsula (isla, île, Insel)","it":"dal latino īnsula (isla, île, Insel)","es":"del latín īnsula (isla, île, Insel)","pt":"do latim īnsula (isla, île, Insel)","ru":"от латинского īnsula (isla, île, Insel)","uk":"від латинського īnsula (isla, île, Insel)","ar":"من اللاتينية īnsula (isla, île, Insel)","he":"מהלטינית īnsula (isla, île, Insel)","sw":"kutoka Kilatini īnsula (isla, île, Insel)"},
@@ -718,5 +765,52 @@ WORDS.island = {
     es_ec: ["isla", "ˈisla"],
     es_uy: ["isla", "ˈisla"],
     es_ve: ["isla", "ˈisla"],
+    sa: ["द्वीपम्", "dʋiːpɐm"],  // Two waters: water on both sides.
+    sa_edu: ["द्वीपम्", "dʋiːpɐm"],  // Two waters: water on both sides.
+    h_vedic: ["द्वीपम्", "dʋiːpɐ́m"],  // Two waters: water on both sides.
+    ar_qur: ["جزيرة", "dʒaziːra"],  // Likely an Aramaic topographic term.
+    el_grc: ["νῆσος", "nɛ̂ːsos"],  // Origin uncertain.
+    egy: ["𓈀𓈇𓏤", "iuː"],  // Compare Hebrew ʾī and Phoenician ʾy.
+    en_em: ["island", "ˈəilənd"],  // Old English īeġland "land in the water"; the s from isle.
+    ofs: ["aland", "ˈaland"],  // From Proto-Germanic *awjōlandą "land in the water".
+    pi: ["दीप", "diːpa"],  // From Sanskrit dvīpa.
+    pi_edu: ["dīpa", "diːpa"],  // From Sanskrit dvīpa.
+    arc: ["ܓܙܪܬܐ", "ɡaːzartaː"],  // Compare Arabic jazīra.
+    p_jpn: ["*sima", "sima"],  // Possibly related to Baekje *syema and Middle Korean syem.
+    ptrk: ["*ātag", "aːtaɡ"],
+    pmng: ["*aral", "aral"],
+    p_tun: ["*bukačān", "bukatʃaːn"],  // From *buka "island" with a diminutive suffix.
+    txb: ["𑀧𑁆𑀭𑁂𑀦𑁆𑀓𑁂", "prenke"],  // From Proto-Indo-European *bʰrenḱ- "to deviate, fall off".
+    fa_clas: ["جزیره", "dʒaziːra"],  // Borrowed from Arabic jazīra.
+    fro: ["isle", "ˈizlə"],  // From Latin īnsula.
+    fr_class: ["isle", "il"],  // Spelled isle until the 18th century.
+    es_sgl: ["isla", "ˈizla"],  // From Latin īnsula.
+    it_dan: ["isola", "ˈizola"],  // From Latin īnsula; Dante has isoletta, Purgatorio 1.100.
+    de_lut: ["Insel", "ˈɪnzəl"],  // Luther Isaiah 41:1 "die Inseln".
+    xct: ["མཚོ་གླིང", "mtsʰoɡliŋ"],  // Lake-land: mtsho "lake, sea" + gling "land".
+    xct_litpr: ["མཚོ་གླིང", "tsʰoliŋ"],  // Lake-land: mtsho "lake, sea" + gling "land".
+    kaw: ["ꦤꦹꦱ", "nusa"],  // From Proto-Malayo-Polynesian *nusa.
+    hbo: ["אי", "ʔiː"],  // Isaiah 41:1 ʾiyyîm "islands".
+    hy_grab: ["կղզի", "kɫzi"],  // Origin uncertain.
+    sukh: ["เกาะ", "kɔʔ"],  // Borrowed from Proto-Mon-Khmer *tkɔɔʔ.
+    onw: ["ⲁⲣⲧ", "art"],
+    qwc: ["watʼa", "watʼa"],
+    ota: ["آطه", "aˈda"],  // From Proto-Turkic *ātag.
+    el_kath: ["νῆσος", "ˈnisos"],  // The ancient form, kept in the learned language.
+    gmh: ["insel", "ˈinzəl"],  // From Latin īnsula.
+    osp: ["isla", "ˈizla"],  // From Latin īnsula.
+    zh_yuan: ["島", "tɑu"],
+    zh_wenyan_edu: ["島", "tou˧˥"],
+    zh_tang: ["島", "taw"],
+    och: ["島", "*tˤuʔ"],
+    vi_han: ["島", "ɗaːw˧˩˧"],
+    ojp: ["島", "sima"],
+    ja_heian: ["島", "sima"],
+    ja_chu: ["島", "ɕima"],
+    ja_edo: ["島", "ɕima"],
+    ja_kanbun: ["島", "ɕima"],
+    p_ryu: ["*sima", "sima"],
+    p_jpk: ["*sima", "sima"],  // Proto-Japonic form, compared with Middle Korean 셤 and Baekje 斯麻.
+    ko_mid: [":셤", "sjəm"],
   },
 };

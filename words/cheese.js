@@ -295,6 +295,31 @@ WORDS.cheese = {
     es_ec: "caseus",
     es_uy: "caseus",
     es_ve: "caseus",
+    ar_qur: "jubn",
+    non: "ost",
+    cu: "syr",
+    arc: "jubn",
+    hbo: "jubn",
+    he_mis: "jubn",
+    ptrk: "milk",
+    pal: "panir",
+    fa_clas: "panir",
+    hy_grab: "panir",
+    ota: "panir",
+    fr_class: "formaticum",
+    goh: "caseus",
+    gmh: "caseus",
+    sga: "caseus",
+    mga: "plain",
+    gmy: "tyros",
+    xct: "plain",
+    xct_litpr: "plain",
+    es_sgl: "caseus",
+    de_lut: "caseus",
+    en_em: "caseus",
+    el_kath: "tyros",
+    osx: "caseus",
+    ja_edo: "milk",
   },
   routes: {
     caseus: {"color":"#d97706","emoji":"🧀","en":"Latin cāseus (Käse, cheese, queso, keju, チーズ)","ja":"ラテン語 cāseus（Käse, cheese, queso, keju, チーズ）","ko":"라틴어 cāseus (Käse, cheese, queso, keju, チーズ)","zh":"拉丁语 cāseus（Käse、cheese、queso、keju、チーズ）","yue":"拉丁文 cāseus（Käse、cheese、queso、keju、チーズ）","vi":"tiếng Latin cāseus (Käse, cheese, queso, keju, チーズ)","th":"ละติน cāseus (Käse, cheese, queso, keju, チーズ)","id":"Latin cāseus (Käse, cheese, queso, keju, チーズ)","hi":"लैटिन cāseus (Käse, cheese, queso, keju, チーズ)","de":"lateinisch cāseus (Käse, cheese, queso, keju, チーズ)","fr":"le latin cāseus (Käse, cheese, queso, keju, チーズ)","it":"il latino cāseus (Käse, cheese, queso, keju, チーズ)","es":"el latín cāseus (Käse, cheese, queso, keju, チーズ)","pt":"o latim cāseus (Käse, cheese, queso, keju, チーズ)","ru":"латинское cāseus (Käse, cheese, queso, keju, チーズ)","uk":"латинське cāseus (Käse, cheese, queso, keju, チーズ)","ar":"اللاتينية cāseus (Käse, cheese, queso, keju, チーズ)","he":"הלטינית cāseus (Käse, cheese, queso, keju, チーズ)","sw":"Kilatini cāseus (Käse, cheese, queso, keju, チーズ)"},
@@ -529,5 +554,30 @@ WORDS.cheese = {
     es_ec: ["queso", "ˈkeso"],
     es_uy: ["queso", "ˈkeso"],
     es_ve: ["queso", "ˈkeso"],
+    ar_qur: ["جبن", "dʒubn"],
+    non: ["ostr", "ˈostr"],  // From Proto-Germanic *justaz.
+    cu: ["сꙑръ", "sɨrŭ"],  // From Proto-Slavic *syrъ.
+    arc: ["ܓܒܬܐ", "ɡəvettaː"],  // Compare Hebrew gəḇīnā.
+    hbo: ["גבינה", "ɡəviːˈnɔː"],  // Job 10:10.
+    he_mis: ["גבינה", "ɡəviˈna"],  // Mishnah Avodah Zarah 2:4.
+    ptrk: ["*irim", "irim"],  // From *iri- "to curdle".
+    pal: ["𐭯𐭭𐭩𐭫", "paniːr"],  // From Proto-Iranian *nayH- "to churn".
+    fa_clas: ["پنیر", "paniːr"],  // From Middle Persian panīr.
+    hy_grab: ["պանիր", "panir"],  // An Iranian borrowing.
+    ota: ["پنیر", "peˈniɾ"],  // From Persian panīr.
+    fr_class: ["fromage", "frɔmaʒ"],  // From Latin fōrmāticum "made in a mould".
+    goh: ["kāsi", "ˈkaːsi"],  // From Latin cāseus.
+    gmh: ["kæse", "ˈkæːsə"],  // From Old High German kāsi.
+    sga: ["cáise", "ˈkaːsʲe"],  // Borrowed from Latin cāseus.
+    mga: ["grús", "ɡruːs"],
+    gmy: ["𐀶𐀫", "tuːros"],  // Linear B tu-ro; the same word as Greek τυρός.
+    xct: ["ཕྱུ་ར", "pʰjura"],
+    xct_litpr: ["ཕྱུ་ར", "tɕʰura"],
+    es_sgl: ["queso", "ˈkeso"],  // From Latin cāseus.
+    de_lut: ["Käse", "ˈkɛːzə"],  // Luther Job 10:10 "wie Käse gerinnen lassen".
+    en_em: ["cheese", "tʃiːz"],  // From Old English ċīese, from Latin cāseus.
+    el_kath: ["τυρός", "tiˈros"],  // The ancient form, kept in the learned language.
+    osx: ["kāsi", "ˈkaːsi"],  // From Latin cāseus.
+    ja_edo: ["乾酪", "kaɴɾakɯ"],  // Dried curd.
   },
 };

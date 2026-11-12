@@ -328,6 +328,29 @@ WORDS.friday = {
     es_ec: "venus",
     es_uy: "venus",
     es_ve: "venus",
+    ar_qur: "assembly",
+    el_grc: "preparation",
+    ofs: "goddess",
+    non: "goddess",
+    goh: "goddess",
+    cu: "count",
+    arc: "preparation",
+    syc: "preparation",
+    gez: "preparation",
+    hy_grab: "preparation",
+    xag: "preparation",
+    he_mis: "preparation",
+    fa_clas: "assembly",
+    fro: "venus",
+    fr_class: "venus",
+    xct: "venus",
+    sga: "fast",
+    sa_edu: "venus",
+    ota: "assembly",
+    el_kath: "preparation",
+    xct_litpr: "venus",
+    kaw: "venus",
+    obr: "venus",
   },
   routes: {
     goddess: {"color":"#db2777","emoji":"👸","en":"the day of Frigg (Friday, Freitag, fredag)","ja":"女神フリッグの日（Friday, Freitag, fredag）","ko":"여신 프리그의 날 (Friday, Freitag, fredag)","zh":"女神弗丽嘉之日（Friday、Freitag、fredag）","yue":"女神弗麗嘉嘅日（Friday、Freitag、fredag）","vi":"ngày của nữ thần Frigg (Friday, Freitag, fredag)","th":"วันของเทพีฟริกก์ (Friday, Freitag, fredag)","id":"hari Dewi Frigg (Friday, Freitag, fredag)","hi":"देवी फ़्रिग का दिन (Friday, Freitag, fredag)","de":"Tag der Frigg (Friday, Freitag, fredag)","fr":"jour de Frigg (Friday, Freitag, fredag)","it":"giorno di Frigg (Friday, Freitag, fredag)","es":"día de Frigg (Friday, Freitag, fredag)","pt":"dia de Frigg (Friday, Freitag, fredag)","ru":"день Фригг (Friday, Freitag, fredag)","uk":"день Фріґґ (Friday, Freitag, fredag)","ar":"يوم فريغ (Friday, Freitag, fredag)","he":"יומה של פריג (Friday, Freitag, fredag)","sw":"siku ya Frigg (Friday, Freitag, fredag)"},
@@ -595,5 +618,28 @@ WORDS.friday = {
     es_ec: ["viernes", "ˈbjeɾnes"],
     es_uy: ["viernes", "ˈbjeɾnes"],
     es_ve: ["viernes", "ˈbjeɾnes"],
+    ar_qur: ["الجمعة", "aldʒumuʕa"],  // The gathering; Quran 62:9.
+    el_grc: ["Παρασκευή", "paraskeu̯ɛ̌ː"],  // The day of preparation for the Sabbath (Mark 15:42).
+    ofs: ["friadei", "ˈfriːadei"],  // From West Germanic *Frījā dag, Frigg's day.
+    non: ["frjádagr", "ˈfrjɑːdɑɣr"],  // Probably borrowed from Old Saxon *frīadag.
+    goh: ["friatag", "ˈfriːataɡ"],  // Frigg's day, a calque of Latin diēs Veneris.
+    cu: ["пѧтъкъ", "pɛ̃tŭkŭ"],  // From pętŭ "fifth".
+    arc: ["ܥܪܘܒܬܐ", "ʕaruvtaː"],  // Eve (of the Sabbath).
+    syc: ["ܥܪܘܒܬܐ", "ʕəruvtaː"],  // Eve (of the Sabbath).
+    gez: ["ዐርብ", "ʕarb"],  // Eve of the Sabbath; cognate with Aramaic ʿrūḇtā.
+    hy_grab: ["ուրբաթ", "uɾbatʰ"],  // From Syriac ʿrūḇtā "eve".
+    xag: ["ṗarasḳe", "pʼarasqʼe"],  // From Old Georgian ṗarasḳevi, from Greek παρασκευή.
+    he_mis: ["ערב שבת", "ʕerev ʃabat"],  // Eve of the Sabbath; Mishnah Shabbat 2:7.
+    fa_clas: ["جمعه", "dʒumʕa"],  // Borrowed from Arabic jumʕa "gathering".
+    fro: ["venresdi", "vɛnrəsˈdi"],  // From Latin diēs Veneris.
+    fr_class: ["vendredy", "vɑ̃drədi"],  // From Latin Veneris diēs.
+    xct: ["གཟའ་པ་སངས", "ɡzaʔpasaŋs"],  // Planet Pasang, Venus.
+    sga: ["aín dídine", "aːinʲ ˈdʲiːðʲinʲe"],  // The last fast (of the week).
+    sa_edu: ["शुक्रवारः", "ɕukɾɐʋaːɾɐh"],  // śukra "Venus" + vāra "day".
+    ota: ["جمعه", "dʒumˈʕa"],  // Borrowed from Arabic jumʕa "gathering".
+    el_kath: ["Παρασκευή", "paraskeˈvi"],  // The day of preparation for the Sabbath.
+    xct_litpr: ["གཟའ་པ་སངས", "sapasaŋ"],  // Planet Pasang, Venus.
+    kaw: ["ꦯꦸꦏꦿ", "sukra"],  // From Sanskrit śukra, Venus.
+    obr: ["သောက္ကြာ", "sokkraː"],  // The planet Venus.
   },
 };

@@ -331,6 +331,40 @@ WORDS.butter = {
     es_do: "manteca",
     es_ec: "manteca",
     es_ve: "manteca",
+    sa: "other",
+    sa_edu: "other",
+    h_vedic: "other",
+    pi: "other",
+    pi_edu: "other",
+    ar_qur: "zubda",
+    cu: "smear",
+    cop: "plain",
+    p_ine: "smear",
+    ptrk: "fat",
+    txb: "other",
+    hy_grab: "other",
+    fa_clas: "karag",
+    fro: "butyrum",
+    fr_class: "butyrum",
+    goh: "smear",
+    osp: "butyrum",
+    es_sgl: "manteca",
+    de_lut: "butyrum",
+    en_em: "butyrum",
+    hbo: "plain",
+    xct: "plain",
+    xct_litpr: "plain",
+    ota: "fat",
+    el_kath: "butyrum",
+    non: "smear",
+    ofs: "butyrum",
+    orv: "smear",
+    pura: "waje",
+    zh_yuan: "plain",
+    zh_wenyan_edu: "plain",
+    zh_tang: "plain",
+    vi_han: "plain",
+    ja_edo: "other",
   },
   routes: {
     butyrum: {"color":"#d97706","emoji":"🐄","en":"Greek βούτυρον 'cow cheese' (butter, beurre, バター)","ja":"ギリシャ語 βούτυρον「牛のチーズ」（butter, beurre, バター）","ko":"그리스어 βούτυρον '소의 치즈' (butter, beurre, バター)","zh":"希腊语 βούτυρον“牛的奶酪”（butter、beurre、バター）","yue":"希臘文 βούτυρον「牛嘅芝士」（butter、beurre、バター）","vi":"tiếng Hy Lạp βούτυρον 'pho mát bò' (butter, beurre, バター)","th":"กรีก βούτυρον 'ชีสวัว' (butter, beurre, バター)","id":"Yunani βούτυρον 'keju sapi' (butter, beurre, バター)","hi":"यूनानी βούτυρον 'गाय का पनीर' (butter, beurre, バター)","de":"griechisch βούτυρον „Kuhkäse“ (butter, beurre, バター)","fr":"le grec βούτυρον « fromage de vache » (butter, beurre, バター)","it":"il greco βούτυρον «formaggio di vacca» (butter, beurre, バター)","es":"el griego βούτυρον «queso de vaca» (butter, beurre, バター)","pt":"o grego βούτυρον «queijo de vaca» (butter, beurre, バター)","ru":"греческое βούτυρον «коровий сыр» (butter, beurre, バター)","uk":"грецьке βούτυρον «коров'ячий сир» (butter, beurre, バター)","ar":"اليونانية βούτυρον «جبن البقر» (butter, beurre, バター)","he":"היוונית βούτυρον „גבינת פרה” (butter, beurre, バター)","sw":"Kigiriki βούτυρον 'jibini la ng'ombe' (butter, beurre, バター)"},
@@ -599,5 +633,39 @@ WORDS.butter = {
     es_do: ["mantequilla", "manteˈkiʝa"],
     es_ec: ["mantequilla", "manteˈkiʝa"],
     es_ve: ["mantequilla", "manteˈkiʝa"],
+    sa: ["नवनीतम्", "nɐʋɐniːtɐm"],  // Fresh: nava "new" + nīta.
+    sa_edu: ["नवनीतम्", "nɐʋɐniːtɐm"],  // Fresh: nava "new" + nīta.
+    h_vedic: ["नवनीतम्", "nɐ́ʋɐniːtɐm"],  // Fresh: náva "new" + nīta; Taittirīya Saṃhitā.
+    pi: ["नवनीत", "navaniːta"],  // From Sanskrit navanīta "fresh butter".
+    pi_edu: ["navanīta", "navaniːta"],  // From Sanskrit navanīta "fresh butter".
+    ar_qur: ["زبدة", "zubda"],
+    cu: ["масло", "maslo"],  // From Proto-Slavic *maslo.
+    cop: ["ⲥⲁⲓⲣⲉ", "ˈsaire"],
+    p_ine: ["*h₃éngʷn̥", "h₃éŋɡʷn̩"],  // Also "fat"; from *h₃engʷ- "to smear, anoint".
+    ptrk: ["*yāg", "jaːɡ"],  // Also "fat, lard".
+    txb: ["𑀓𑁂𑀯𑀺𑀬𑁂", "kewije"],  // From Proto-Indo-European *gʷówyos "of cows".
+    hy_grab: ["կոգի", "koɡi"],  // From Proto-Indo-European *gʷówyos "of cows".
+    fa_clas: ["کره", "kara"],  // From Middle Persian *karag.
+    fro: ["bure", "ˈbyrə"],  // From Latin būtȳrum.
+    fr_class: ["beurre", "bœr"],  // From Latin būtȳrum.
+    goh: ["anco", "ˈaŋko"],  // From Proto-West Germanic *ankwō, root *h₃engʷ- "to smear".
+    osp: ["buturo", "buˈtuɾo"],  // From Latin būtȳrum.
+    es_sgl: ["manteca", "manˈteka"],
+    de_lut: ["Butter", "ˈbʊtər"],  // Luther Genesis 18:8 "Butter und Milch".
+    en_em: ["butter", "ˈbʊtər"],  // From Old English butere, from Latin būtȳrum.
+    hbo: ["חמאה", "ħɛmˈʔɔː"],  // Genesis 18:8; related to Akkadian ḫimētu.
+    xct: ["མར", "mar"],  // From Proto-Sino-Tibetan *s-mar.
+    xct_litpr: ["མར", "maː"],  // From Proto-Sino-Tibetan *s-mar.
+    ota: ["تره‌یاغی", "teɾejaˈʁɯ"],  // tere + yağ "oil, fat".
+    el_kath: ["βούτυρον", "ˈvutiron"],  // βοῦς "cow" + τυρός "cheese".
+    non: ["smjǫr", "smjɔr"],  // Related to smyrja "to smear, anoint".
+    ofs: ["butere", "ˈbutere"],  // From Latin būtȳrum.
+    orv: ["масло", "ˈmaslo"],  // From Proto-Slavic *maslo.
+    pura: ["*waje", "waje"],
+    zh_yuan: ["酥", "su"],
+    zh_wenyan_edu: ["酥", "sou˥"],
+    zh_tang: ["酥", "sɔ"],  // Butter or ghee made from milk, as in Buddhist texts.
+    vi_han: ["酥", "to˧˧"],
+    ja_edo: ["牛酪", "ɡʲɯːɾakɯ"],  // Cow curd.
   },
 };

@@ -365,6 +365,54 @@ WORDS.monkey = {
     es_ec: "maymun",
     es_uy: "maymun",
     es_ve: "maymun",
+    ar_qur: "plain",
+    el_grc: "plain",
+    enm: "ape",
+    en_em: "monkey",
+    non: "ape",
+    pi: "vanara",
+    pi_edu: "vanara",
+    sa_edu: "vanara",
+    h_vedic: "qof",
+    arc: "qof",
+    hbo: "qof",
+    hy_grab: "qof",
+    fa_clas: "buzina",
+    fro: "simia",
+    fr_class: "simia",
+    it_dan: "simia",
+    es_sgl: "maymun",
+    de_lut: "ape",
+    gmh: "ape",
+    osx: "ape",
+    txb: "plain",
+    otk: "plain",
+    ota: "maymun",
+    xng: "other",
+    sukh: "plain",
+    okz: "plain",
+    qwc: "plain",
+    xct: "plain",
+    p_viet: "plain",
+    pban: "nkima",
+    p_dra: "plain",
+    el_kath: "plain",
+    ptai: "plain",
+    ptrk: "plain",
+    paus: "plain",
+    zh_yuan: "plain",
+    zh_wenyan_edu: "plain",
+    zh_tang: "plain",
+    och: "plain",
+    vi_han: "plain",
+    ojp: "plain",
+    ja_heian: "plain",
+    ja_chu: "plain",
+    ja_edo: "plain",
+    ja_kanbun: "plain",
+    ko_mid: "plain",
+    ko_em: "plain",
+    vi_nom: "plain",
   },
   routes: {
     maymun: {"color":"#059669","emoji":"🌙","en":"from Arabic maymūn (maymun, majom, mono)","ja":"アラビア語 maymūn から (maymun, majom, mono)","ko":"아랍어 maymūn에서 (maymun, majom, mono)","zh":"来自阿拉伯语 maymūn (maymun, majom, mono)","yue":"嚟自阿拉伯語 maymūn (maymun, majom, mono)","vi":"từ tiếng Ả Rập maymūn (maymun, majom, mono)","th":"จากภาษาอาหรับ maymūn (maymun, majom, mono)","id":"dari maymūn Arab (maymun, majom, mono)","hi":"अरबी maymūn से (maymun, majom, mono)","de":"aus arabisch maymūn (maymun, majom, mono)","fr":"de l'arabe maymūn (maymun, majom, mono)","it":"dall'arabo maymūn (maymun, majom, mono)","es":"del árabe maymūn (maymun, majom, mono)","pt":"do árabe maymūn (maymun, majom, mono)","ru":"от арабского maymūn (maymun, majom, mono)","uk":"від арабського maymūn (maymun, majom, mono)","ar":"من العربية مَيْمُون (maymun, majom, mono)","he":"מהערבית maymūn (maymun, majom, mono)","sw":"kutoka Kiarabu maymūn (maymun, majom, mono)"},
@@ -669,5 +717,53 @@ WORDS.monkey = {
     es_ec: ["mono", "ˈmono"],
     es_uy: ["mono", "ˈmono"],
     es_ve: ["mono", "ˈmono"],
+    ar_qur: ["قرد", "qird"],  // Quran 2:65 and 7:166 (qiradatan "apes"). Compare Geʽez ḳərd.
+    el_grc: ["πίθηκος", "pítʰɛːkos"],  // Origin uncertain.
+    enm: ["ape", "ˈaːpə"],  // From Old English apa, from Proto-Germanic *apô.
+    en_em: ["monkey", "ˈmʊŋki"],  // First recorded in the 16th century; origin uncertain.
+    non: ["api", "ˈɑpi"],  // From Proto-Germanic *apô.
+    pi: ["वानर", "vaːnara"],  // The "forest one", like Sanskrit vānara.
+    pi_edu: ["vānara", "vaːnara"],  // The "forest one", like Sanskrit vānara.
+    sa_edu: ["वानर", "ʋaːnɐɾɐ"],  // The "forest one", from vana "forest".
+    h_vedic: ["कपि", "kɐpí"],  // A Wanderwort shared with Hebrew qōf; Rigveda 10.86 Vṛṣākapi.
+    arc: ["ܩܘܦܐ", "qoːfaː"],  // Compare Hebrew qōf.
+    hbo: ["קוף", "qoːf"],  // 1 Kings 10:22 (qōp̄îm "apes").
+    hy_grab: ["կապիկ", "kapik"],  // From Middle Iranian *kapīk.
+    fa_clas: ["بوزینه", "buːziːna"],  // Inherited Iranian word; Russian обезьяна comes from it.
+    fro: ["singe", "ˈsindʒə"],  // From Latin sīmius.
+    fr_class: ["singe", "sɛ̃ʒ"],  // From Latin sīmius through Old French.
+    it_dan: ["scimia", "ˈʃimja"],  // Dante, Inferno 29.139 "buona scimia". From Latin sīmia.
+    es_sgl: ["mono", "ˈmono"],  // Don Quijote II.25 "un mono". From Arabic maymūn.
+    de_lut: ["Affe", "ˈafə"],  // Luther 1 Kings 10:22 "Affen". From Old High German affo.
+    gmh: ["affe", "ˈafə"],  // From Old High German affo.
+    osx: ["apo", "ˈapo"],  // From Proto-Germanic *apô.
+    txb: ["𑀫𑁄𑀓𑁄𑀁𑀰𑁆𑀓𑁂", "mokonɕke"],  // Masculine form; feminine mokoṃśka.
+    otk: ["𐰋𐰃𐰲𐰃𐰤", "betʃin"],  // From Proto-Turkic *bẹ̄čin.
+    ota: ["میمون", "majˈmun"],  // From Arabic maymūn "lucky".
+    xng: ["ᠪᠡᠴᠢᠨ", "betʃin"],  // Shared with Turkic béčin.
+    sukh: ["ลิง", "liŋ"],  // Inherited from Proto-Tai *liːŋ.
+    okz: ["វក", "wak"],  // Old Khmer vak; the source of Thai วอก.
+    qwc: ["kʼusillu", "kʼusiʎu"],
+    xct: ["སྤྲེའུ", "spreu"],  // From Proto-Sino-Tibetan *s-pra.
+    p_viet: ["*vɔːk", "vɔːk"],
+    pban: ["*nkɪ́mà", "nkɪ́mà"],
+    p_dra: ["*korVnk-", "korVnk"],
+    el_kath: ["πίθηκος", "ˈpiθikos"],  // The ancient form, kept in the learned language.
+    ptai: ["*liːŋ", "liːŋ"],
+    ptrk: ["*bẹ̄čin", "beːtʃin"],
+    paus: ["*luCuŋ", "luCuŋ"],
+    zh_yuan: ["猴", "xəu"],
+    zh_wenyan_edu: ["猴", "hɐu˨˩"],
+    zh_tang: ["猴", "ɦəw"],
+    och: ["猴", "*mə-ɡˤ(r)o"],
+    vi_han: ["猴", "həw˨˩"],
+    ojp: ["猿", "saru"],
+    ja_heian: ["猿", "saɾu"],
+    ja_chu: ["猿", "saɾu"],
+    ja_edo: ["猿", "saɾɯ"],
+    ja_kanbun: ["猿", "saɾɯ"],
+    ko_mid: ["납", "nap"],
+    ko_em: ["잔나비", "tɕannabi"],
+    vi_nom: ["𤠲", "xi˧˩˧"],
   },
 };

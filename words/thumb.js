@@ -120,12 +120,12 @@ WORDS.thumb = {
     sah: "plain",
     my: "big",
     km: "mother",
-    yo: "unknown",
+    yo: "plain",
     nv: "big",
     haw: "big",
     mi: "big",
     ket: "plain",
-    orh: "unknown",
+    orh: "plain",
     ca_va: "plain",
     prs: "plain",
     zh_km: "big",
@@ -211,7 +211,7 @@ WORDS.thumb = {
     scn: "plain",
     be: "big",
     om: "plain",
-    ny: "unknown",
+    ny: "plain",
     fur: "plain",
     ast: "plain",
     rup: "plain",
@@ -321,11 +321,11 @@ WORDS.thumb = {
     mt: "big",
     ng: "plain",
     nij: "mother",
-    nyo: "unknown",
+    nyo: "other",
     pap: "plain",
     pis: "big",
     ses: "plain",
-    sm: "unknown",
+    sm: "big",
     urh: "unknown",
     fo: "plain",
     crs: "plain",
@@ -365,7 +365,7 @@ WORDS.thumb = {
     es_pa: "plain",
     en_my: "plain",
     fud: "big",
-    wls: "unknown",
+    wls: "big",
     dru: "unknown",
     gun: "big",
     lun: "unknown",
@@ -420,7 +420,7 @@ WORDS.thumb = {
     mnp: "unknown",
     dyu: "big",
     ti: "big",
-    hil: "unknown",
+    hil: "plain",
     ak: "unknown",
     qu: "mother",
     shi: "other",
@@ -434,7 +434,7 @@ WORDS.thumb = {
     suk: "unknown",
     nso: "big",
     sg: "big",
-    fon: "unknown",
+    fon: "other",
     mxc: "unknown",
     ay: "mother",
     bbc: "mother",
@@ -445,7 +445,7 @@ WORDS.thumb = {
     rhg: "other",
     tyz: "mother",
     kbd: "big",
-    pwo: "unknown",
+    pwo: "plain",
     kha: "mother",
     ndc: "unknown",
     ve: "unknown",
@@ -457,7 +457,7 @@ WORDS.thumb = {
     rki: "big",
     bug: "mother",
     bjn: "plain",
-    sas: "unknown",
+    sas: "plain",
     ace: "mother",
     yao: "unknown",
     kok: "plain",
@@ -474,7 +474,7 @@ WORDS.thumb = {
     kbp: "other",
     grt: "mother",
     tem: "big",
-    mnk: "unknown",
+    mnk: "big",
     lis: "mother",
     mrw: "mother",
     en_wls: "plain",
@@ -521,20 +521,20 @@ WORDS.thumb = {
     tzh: "mother",
     kac: "mother",
     ahk: "mother",
-    lhu: "unknown",
+    lhu: "mother",
     hwc: "plain",
     ja_oki: "big",
     lbe: "big",
     tab: "big",
     co: "big",
-    frp: "unknown",
+    frp: "plain",
     enq: "unknown",
     ami: "big",
     ctu: "mother",
     bru: "unknown",
     bdq: "unknown",
     cr: "big",
-    bnn: "unknown",
+    bnn: "mother",
     pwn: "unknown",
     tay: "unknown",
     emp: "mother",
@@ -565,21 +565,21 @@ WORDS.thumb = {
     hch: "unknown",
     ssf: "mother",
     tlh: "plain",
-    kwk: "unknown",
-    tsi: "unknown",
+    kwk: "plain",
+    tsi: "plain",
     sjd: "plain",
-    cay: "unknown",
+    cay: "plain",
     kgg: "other",
     koy: "plain",
-    mic: "unknown",
+    mic: "plain",
     tsu: "big",
     yap: "big",
-    atj: "unknown",
+    atj: "plain",
     niu: "mother",
     kca: "plain",
     car: "mother",
     mus: "mother",
-    aer: "unknown",
+    aer: "plain",
     tao: "unknown",
     pyu: "plain",
     vep: "plain",
@@ -601,7 +601,7 @@ WORDS.thumb = {
     cnp: "plain",
     wuu_jh: "big",
     dta: "plain",
-    blr: "unknown",
+    blr: "mother",
     kmc: "unknown",
     mlm: "unknown",
     mmd: "mother",
@@ -614,7 +614,7 @@ WORDS.thumb = {
     ja_kanbun: "mother",
     jup: "big",
     srm: "big",
-    crt: "unknown",
+    crt: "big",
     moc: "unknown",
     tob: "mother",
     es_gt: "plain",
@@ -630,8 +630,8 @@ WORDS.thumb = {
     nhw: "big",
     nhe: "big",
     agu: "unknown",
-    cuk: "unknown",
-    zdj: "unknown",
+    cuk: "big",
+    zdj: "big",
     hts: "plain",
     gld: "plain",
     eve: "plain",
@@ -729,12 +729,12 @@ WORDS.thumb = {
     sah: ["эрбэх", "erˈbex"],  // A word of its own; Sakha dictionaries gloss it as the 'big finger of the hand'.
     my: ["လက်မ", "lɛʔma̰"],  // Literally 'main (one) of the hand'; it also means 'inch'.
     km: ["មេដៃ", "mei ɗaj"],  // Literally 'mother of the hand' (មេ 'mother; chief').
-    yo: ["àtàǹpàkò", "àtàŋ̀kpàkò"],  // The same word also names the big toe.
+    yo: ["àtàǹpàkò", "àtàŋ̀kpàkò"],  // The same word also names the big toe. Wiktionary (atanpako) gives no etymology; it is unrelated to ńlá 'big', ìyá 'mother' and ìka 'finger'. No image is recorded for it, so it counts as a word of its own.
     nv: ["álátsoh", "ʔɑ́lɑ́tsʰòh"],  // Literally 'big finger'; compare akétsoh 'big toe'.
     haw: ["manamana lima nui", "manamana lima nui"],  // Literally 'big finger of the hand' (manamana 'finger', lima 'hand', nui 'big').
     mi: ["kōnui", "koːnui"],  // It also means the big toe; older synonyms include koromatua, which also means 'chief'. Kō plus nui 'big'.
     ket: ["ӄъъль", "qʌːlʲ"],  // Inherited from Proto-Yeniseian *qaɬ 'thumb', perhaps related to Ket ӄак 'five' (Vajda & Werner 2022).
-    orh: ["uruun", "uruun"],  // Recorded by Li & Whaley for the World Loanword Database; spelled uru:n there.
+    orh: ["uruun", "uruun"],  // Recorded by Li & Whaley for the World Loanword Database; spelled uru:n there. Route by resemblance to the neighbouring forms (gld(пӯруэн) mnc(ᡶᡝᡵᡥᡝ)); no etymology of its own.
     ca_va: ["polze", "ˈpolze"],  // From Latin pollex 'thumb'.
     prs: ["شست", "ʃast"],  // Short for angosht-e shast; the same word as in Iranian Persian.
     zh_km: ["大拇指", "tᴀ˨˩˨ mu˥˧ tʂʅ˥˧"],  // Literally 'big thumb-finger', from 大 'big' + 拇 'thumb' + 指 'finger'.
@@ -820,7 +820,7 @@ WORDS.thumb = {
     scn: ["puseri", "ˈpuseri"],  // Sicilian word for the thumb, 'the thickest finger of the hand'.
     be: ["вялікі палец", "vʲalʲikʲi palʲets"],  // Literally 'big finger'; палец alone means any finger.
     om: ["abbuudduu", "abːuːdːuː"],  // No image is recorded for it, so it counts as a word of its own.
-    ny: ["mphatakala", "mpʰatakala"],  // The same word also names the big toe.
+    ny: ["mphatakala", "mpʰatakala"],  // The same word also names the big toe. Wiktionary gives no etymology; it is unrelated to -kulu 'big', amai 'mother' and chala 'finger'. No image is recorded for it, so it counts as a word of its own.
     fur: ["poleâr", "poleˈaːr"],  // From Latin pollicaris, an adjective built on pollex 'thumb'.
     ast: ["pulgar", "pulˈɣaɾ"],  // From Latin pollicaris, built on pollex 'thumb'; dedón 'big finger' is also used.
     rup: ["pilicar", "piliˈkar"],  // From Latin pollicaris (from pollex 'thumb'); the same word also means the big toe, and the variant pulicar is common.
@@ -930,11 +930,11 @@ WORDS.thumb = {
     mt: ["saba' l-kbir", "saba lkbiːr"],  // Literally 'the big finger'; with sieq 'foot' it names the big toe.
     ng: ["omulumenwe", "omulumenwe"],  // A word for the thumb only: the Ndonga Bible calls the big toe omunwe omunene 'big finger' instead. No image is recorded for it, so it counts as a word of its own.
     nij: ["tunjok indu", "tundʒok indu"],  // Literally 'mother finger' (tunjok 'finger' + indu 'mother'), as in Malay ibu jari; with pai 'foot' it names the big toe.
-    nyo: ["ekyara ekisaija", "ekjara ekisaidʒa"],  // Contains ekisaija, the class-7 form of -saija 'male'; with ekigere 'foot' it names the big toe.
+    nyo: ["ekyara ekisaija", "ekjara ekisaidʒa"],  // Contains ekisaija, the class-7 form of -saija 'male'; with ekigere 'foot' it names the big toe. Like Luganda engalo ensajja, 'the male finger'.
     pap: ["dùim", "dʏim"],  // From Dutch duim 'thumb'.
     pis: ["bikfala fingga", "bikfala fiŋɡa"],  // Literally 'big finger'; with long lek 'of the foot' it names the big toe.
     ses: ["kobaaru", "kobaːru"],  // A word for the thumb only: the big toe is cew-ize beeri 'big foot-child'. No image is recorded for it, so it counts as a word of its own.
-    sm: ["lima matua", "lima matua"],  // lima 'hand' + matua, which Pollex (MATUQA.B 'main, principal; also in expressions for thumb and big toe') traces across Polynesian; vae matua is the big toe.
+    sm: ["lima matua", "lima matua"],  // lima 'hand' + matua, which Pollex (MATUQA.B 'main, principal; also in expressions for thumb and big toe') traces across Polynesian; vae matua is the big toe. Route by resemblance to the neighbouring forms (tkl(muamuālima matua) tvl(matikao matua) fud(maikao matua)); no etymology of its own.
     urh: ["urhiabọ rode", "uɾiabɔ rode"],  // Built on urhiabọ 'finger' (obọ 'hand'); the big toe is likewise urhiawọ rode (owọ 'foot').
     fo: ["tummil", "ˈtʰʊmːɪl"],  // A word of its own, related to English thumb and Danish tommel; the big toe is a separate word, stórutá.
     crs: ["pous", "pus"],  // From French pouce; with lipye 'foot' (pous lipye, gro pous lipye) it also names the big toe.
@@ -974,7 +974,7 @@ WORDS.thumb = {
     es_pa: ["pulgar", "pulˈɣaɾ"],  // From Latin pollicaris (from pollex 'thumb'), the general Spanish word, which also covers the big toe.
     en_my: ["thumb", "tam"],  // From Old English þūma; Malaysian English typically pronounces the th as t.
     fud: ["maikao matua", "maikao matua"],  // maikao 'finger' + matua, which Pollex glosses 'main, principal' across Polynesian; with o le vae 'of the foot' the same phrase names the big toe. Route by resemblance to the neighbouring forms (tvl(matikao matua)); no etymology of its own.
-    wls: ["tuhi matua", "tuhi matua"],  // tuhi 'finger' + matua 'main, principal' (Pollex); the Bible also writes kaui tuhi matua, and with o te vae 'of the foot' it names the big toe.
+    wls: ["tuhi matua", "tuhi matua"],  // tuhi 'finger' + matua 'main, principal' (Pollex); the Bible also writes kaui tuhi matua, and with o te vae 'of the foot' it names the big toe. Route by resemblance to the neighbouring forms (fud(maikao matua) tkl(muamuālima matua) tvl(matikao matua)); no etymology of its own.
     dru: ["dradrangalrane", "ɖaɖaŋaɭanə"],  // The same word names the thumb and the big toe, told apart by ki alrima 'of the hand' or ki drapale 'of the foot'.
     gun: ["kuã guaxu", "kuã ɡwaʃu"],  // Literally 'big finger' (kuã 'finger' + guaxu 'big'); the big toe is pyxã guaxu 'big toe'.
     lun: ["munu wedimbanu", "munu wedimbanu"],  // munu 'finger' + wa dimbanu; with wa ku mwendu 'of the foot' the same phrase names the big toe.
@@ -1029,7 +1029,7 @@ WORDS.thumb = {
     mnp: ["手嫲头", "siu˨˩ ma˨˩ tʰe˧˧"],  // Built on 手 'hand' and 头 'head'; in Northern Min 嫲 is a suffix marking female.
     dyu: ["bolokunnadenba", "bolokunnadenba"],  // Built on bolokunnaden 'finger' + -ba 'big'; the big toe is senkunnadenba.
     ti: ["ዓባይቶ", "ʕabajto"],  // Built on ዓባይ, a form of ዓቢ 'big', with the -ቶ ending of the other finger names; Tigrinya Wikipedia writes ዓባይ ዓባይቶ.
-    hil: ["kumalagko", "kumalaɡˈkoʔ"],  // The same word also serves for the big toe ('kumalagko sang tiil'); Kaufmann's 1934 dictionary also lists kamomóo.
+    hil: ["kumalagko", "kumalaɡˈkoʔ"],  // The same word also serves for the big toe ('kumalagko sang tiil'); Kaufmann's 1934 dictionary also lists kamomóo. Route by resemblance to the neighbouring forms (ceb(kumalagko)); no etymology of its own.
     ak: ["kokurobetie", "kokurobetie"],  // Akuapem Bibles spell it kokurobeti; LearnAkan's dictionary gives kokuromotie.
     qu: ["mama rukʼana", "ˈmama ɾuˈkʼana"],  // Literally 'mother finger', mama 'mother' + ruk'ana 'finger'; kuraq ruk'ana 'eldest finger' is also listed, and Quechua Bibles say mama dedo with the Spanish loan.
     shi: ["ⵉⴽⵎⵣ", "ikmz"],  // Inherited from Proto-Berber; Wiktionary links it synchronically to the verb kmz 'to scratch'.
@@ -1043,7 +1043,7 @@ WORDS.thumb = {
     suk: ["ikuulume", "ikuːlume"],  // The same word, with the prefix li-, also names the big toe in the Sukuma Bible.
     nso: ["monwana o mogolo", "monwana o moxolo"],  // Literally 'the big finger', monwana 'finger' + mogolo 'big'; the big toe is monwana o mogolo wa leoto.
     sg: ["kötä mabôko", "kota mabɔkɔ"],  // Literally 'big hand' (kötä 'big'); the Sango Bible says kötä li tî mabôko 'big tip of the hand'.
-    fon: ["alɔsú", "alɔsu"],  // Built on alɔ 'hand'; the big toe is afɔsú, built the same way on afɔ 'foot'.
+    fon: ["alɔsú", "alɔsu"],  // Built on alɔ 'hand'; the big toe is afɔsú, built the same way on afɔ 'foot'. sú is 'male' (Fon asú, listed with the cognates of Ewe atsu 'man, male' in Wiktionary), so the thumb is the hand's male, like Luganda engalo ensajja 'the male finger'; the big toe afɔsú is the foot's.
     mxc: ["chigunwe", "tʃiɡunwe"],  // Hannan marks this sense as Manyika and Zezuru; in Manyika the same word also names the big toe.
     ay: ["tayka lukʼana", "tajka lukʼana"],  // Literally 'mother finger' (tayka 'mother' + lukʼana 'finger'); with kayu 'foot' it also names the big toe.
     bbc: ["ina ni tangan", "ina ni taŋan"],  // Literally 'mother of the hand' (ina 'mother' + tangan 'hand').
@@ -1054,7 +1054,7 @@ WORDS.thumb = {
     rhg: ["buijjá ouñl", "buidʒa oũl"],  // Literally 'old-man finger' (buijjá 'old man'), like Bengali buṛo aṅgul.
     tyz: ["me mừ", "mɛ˧˧ mɨ˧˨"],  // Literally 'mother of the hand' (me 'mother' + mừ 'hand'); the big toe is me kha, and nịu me 'mother finger' is also used.
     kbd: ["ӏэпхъуамбэшхуэ", "ʔapχʷambaʃxʷa"],  // Literally 'big finger' (ӏэпхъуамбэ 'finger' + шхуэ 'big'); the big toe is likewise лъэпхъуамбэшхуэ.
-    pwo: ["စူၪမု", "sumu"],  // Built on စူၪ 'hand'; the big toe is ခၪ့မု, built the same way on ခၪ့ 'foot'.
+    pwo: ["စူၪမု", "sumu"],  // Built on စူၪ 'hand'; the big toe is ခၪ့မု, built the same way on ခၪ့ 'foot'. Route by resemblance to the neighbouring forms (ksw(စုမုၢ်ဒိၣ်)); no etymology of its own.
     kha: ["'tikmie", "tikmie"],  // Literally 'mother of the hand' ('ti, short for kti 'hand', + kmie 'mother'); the big toe is likewise 'jatkmie 'mother of the foot'.
     ndc: ["gunwe", "ɡunwe"],  // A class-5 noun on the stem of munwe 'finger', as in neighbouring Shona; with tsoka 'foot' it also names the big toe.
     ve: ["gunwe", "ɡunwe"],  // Shares its stem with munwe 'finger' in another noun class; with mulenzhe 'leg' it also names the big toe.
@@ -1066,7 +1066,7 @@ WORDS.thumb = {
     rki: ["လက်မ", "lɔʔma̰"],  // The same word as Burmese လက်မ, 'the main one of the hand'; it also means 'inch'.
     bug: ["indoʼ jari", "indoʔ dʒari"],  // Literally 'mother of the fingers' (indoʼ 'mother' + jari 'finger'), like Malay ibu jari; the big toe is indoʼ ajé.
     bjn: ["hibu", "hibu"],  // Also hibu tangan 'hibu of the hand' when set against hibu batis, the big toe; jempol and jumpul are also used. No image is recorded for it, so it counts as a word of its own.
-    sas: ["gempol", "ɡəmpol"],  // The Sasak word for the thumb, close to Javanese jempol.
+    sas: ["gempol", "ɡəmpol"],  // The Sasak word for the thumb, close to Javanese jempol. Route by resemblance to the neighbouring forms (jv(jempol) su(jempol)); no etymology of its own.
     ace: ["nang jaroe", "naŋ ɟaroe"],  // Literally 'mother of the hand' (nang 'mother (of animals)' + jaroe 'hand'); the big toe is nang gaki, and the dictionary also uses inong 'woman, mother' (inong gaki 'big toe').
     yao: ["chikongo", "tʃikoŋɡo"],  // The same word also names the big toe (chikongo cha lukongolo 'thumb of the foot').
     kok: ["आंगठो", "aːŋɡʈʰo"],  // The Konkani form of the old Indo-Aryan word for the thumb (Marathi अंगठा, Hindi अंगूठा); पांयाचो आंगठो is the big toe.
@@ -1083,7 +1083,7 @@ WORDS.thumb = {
     kbp: ["niye abalʋ", "nije abalʊ"],  // Literally 'male finger' (niye 'finger' + abalʋ 'man; male'); the plural is niwee abalaa.
     grt: ["jaksi ma·", "dʒaksi maʔ"],  // Literally 'mother finger' (jaksi 'finger' + ma· 'mother', as in ma·a 'mother').
     tem: ["a-səl abana", "asəl abana"],  // Literally 'big finger' (a-səl 'finger, toe' + bana 'big').
-    mnk: ["bulukumbaa", "bulukumbaː"],  // Built on bulu 'hand'; the big toe is sinkumbaa, built the same way on sin- 'foot'.
+    mnk: ["bulukumbaa", "bulukumbaː"],  // Built on bulu 'hand'; the big toe is sinkumbaa, built the same way on sin- 'foot'. The second part matches Bambara kunba 'big, thick'. Route by resemblance to the neighbouring forms (bm(bolokɔnikunba)); no etymology of its own.
     lis: ["la-ma", "lɛ˧˩mɑ˧˧"],  // Literally 'hand mother' (la 'hand' + ma, the Tibeto-Burman 'mother; female; principal part' element, as in a-ma 'mother').
     mrw: ["amaʼ a lima", "amaʔ a lima"],  // Literally 'father of the hand' (amaʼ 'father' + lima 'hand').
     en_wls: ["thumb", "θʌm"],  // From Old English þūma, the same word as everywhere in English.
@@ -1130,13 +1130,13 @@ WORDS.thumb = {
     tzh: ["meʼ kʼab", "meʔ kʼaɓ"],  // Literally 'mother of the hand' (meʼ 'mother' + kʼab 'hand'); the Tzeltal Bibles likewise call the big toe the 'mother of the foot'.
     kac: ["yungnu", "juŋ˧˩nu˧˩"],  // Built on yung 'finger' (as in yung sha 'the other fingers') and nu 'mother'; the Bible calls the thumb lata yungnu 'hand yungnu' and the big toe lagaw yungnu.
     ahk: ["laq ma", "la̰˨˩ma˧"],  // Literally 'hand mother' (laq 'hand' + ma 'mother'); the big toe is likewise kui ma 'foot mother'.
-    lhu: ["làʼ-ma-pə̄", "làʔmapə̏"],  // Built on làʼ 'hand'; the Lahu Bible says la ma peu for the thumb and hkui ma peu, on the word for foot, for the big toe.
+    lhu: ["làʼ-ma-pə̄", "làʔmapə̏"],  // Built on làʼ 'hand'; the Lahu Bible says la ma peu for the thumb and hkui ma peu, on the word for foot, for the big toe. Route by resemblance to the neighbouring forms (lis(la-ma) ahk(laq ma)); no etymology of its own.
     hwc: ["thumb", "tʌm"],  // The English word kept as it is; the Hawaii Pidgin Bible says 'da thumb a his right hand' and 'da big toe a his right foot'.
     ja_oki: ["大指", "ʔuɸuʔiːbi"],  // Literally 'big finger' (うふ 'big' + いーび 'finger'); the same word also names the big toe.
     lbe: ["хъумма кӏисса", "qumːa kʼisːa"],  // Literally 'big finger': кӏисса is 'finger', and хъумма is from the root of хъунмасса 'big'.
     tab: ["аьхюну тӏуб", "æχynu tʼub"],  // Literally 'big finger': тӏуб is 'finger' and аьхю- is 'big'.
     co: ["ditone", "diˈtɔne"],  // Built on ditu 'finger' with the augmentative -one, 'the big finger'; several villages say ditu grossu 'big finger' instead.
-    frp: ["pôjo", "poʒo"],  // The Arpitan counterpart of French pouce; Arpitan Wikipedia notes it is the finger with two phalanges instead of three.
+    frp: ["pôjo", "poʒo"],  // The Arpitan counterpart of French pouce; Arpitan Wikipedia notes it is the finger with two phalanges instead of three. Route by resemblance to the neighbouring forms (fr(pouce) wa(pôce)); no etymology of its own.
     enq: ["mange", "maŋɡe"],  // The same word also names the big toe; kingi kondenge 'hand finger' can also mean the thumb.
     ami: ["salitataʼang", "salitataʔaŋ"],  // Built on tataʼang 'big', so 'the big one' among the fingers.
     ctu: ["ñaʼkʼäb", "ɲaʔkʼɨɓ"],  // Literally 'mother of the hand' (ñaʼ 'mother' + kʼäb 'hand'); the big toe is likewise ñaʼok 'mother of the foot'.
@@ -1174,21 +1174,21 @@ WORDS.thumb = {
     hch: ["ʼitɨwame ʼemupá", "ʔitɨwame ʔemuˈpa"],  // Built on ʼitɨwame 'finger', like ʼitɨwame chimupé for the little finger; the Wixarika Bible writes the second word ʼamɨpa.
     ssf: ["rima wa ina", "rima wa ina"],  // Literally "mother of the hand": rima "hand" + wa (linker) + ina "mother".
     tlh: ["SenwI'", "ʂɛnwɪʔ"],  // Literally "thing that uses the thumb", from the verb Sen "use the thumb" + -wI'; small children say rIlwI' instead, and the big toe is a separate word, marwI'.
-    kwk: ["ḵuma", "quma"],  // The Kwak'wala word for the thumb, as in a̱lkwa'meda ḵuma? "is the thumb bleeding?".
-    tsi: ["moos", "moːs"],  // The Sm'algyax word for the thumb, as in Uks g̱oosa moosu "My thumb is out of joint".
+    kwk: ["ḵuma", "quma"],  // The Kwak'wala word for the thumb, as in a̱lkwa'meda ḵuma? "is the thumb bleeding?". Unrelated to walas 'big' and qʼwaqʼwaxtsʼane 'finger'. No image is recorded for it, so it counts as a word of its own.
+    tsi: ["moos", "moːs"],  // The Sm'algyax word for the thumb, as in Uks g̱oosa moosu "My thumb is out of joint". Unrelated to ʔwiileeks 'big', nay 'mother' and hadzeyx 'finger' (IDS). No image is recorded for it, so it counts as a word of its own.
     sjd: ["пе̄лльк", "peːʎːk"],  // A word of its own, unanalyzable and dating back to pre-Proto-Saami (WOLD).
-    cay: ["awę́ʼyǫ̱hga:ʼ", "awɛ̃́ʔjõ̥hɡaːʔ"],  // Built on the noun root -węˀyǫhga:- "thumb", which also measures length: niyowęyohgá:ge: means "it is so many inches" (literally "so many thumbs"); a variant is awę́ʼyuhga:ʼ.
+    cay: ["awę́ʼyǫ̱hga:ʼ", "awɛ̃́ʔjõ̥hɡaːʔ"],  // Built on the noun root -węˀyǫhga:- "thumb", which also measures length: niyowęyohgá:ge: means "it is so many inches" (literally "so many thumbs"); a variant is awę́ʼyuhga:ʼ. No image is recorded for it, so it counts as a word of its own.
     kgg: ["budi aõla", "budi aõla"],  // Borrowed from Nepali बूढी औंला, literally "old-woman finger"; the plain word for finger, aõla, is from Nepali too.
     koy: ["-ketl", "kʰetɬʰ"],  // A root of its own meaning "thumb", always worn with a possessor prefix, as in heketl-'etlkk@yh "he stubbed his thumb"; the Upper dialect says -lochetl.
-    mic: ["ugtijin", "uktidʒin"],  // His or her thumb, the possessed form this row uses for body parts; the big toe is a different word, umaqjigeweim.
+    mic: ["ugtijin", "uktidʒin"],  // His or her thumb, the possessed form this row uses for body parts; the big toe is a different word, umaqjigeweim. It continues Proto-Algonquian *-čihčin- 'thumb', the word the Maliseet-Passamaquoddy row's ʼcihcin inherits and whose note names Mi'kmaq mtijin as its cognate. No image is recorded for it, so it counts as a word of its own.
     tsu: ["lulkumeoisi", "lulkumeoisi"],  // Built on lulku 'finger' and meoisi 'big', so literally 'the big finger'.
     yap: ["bugul ni gaʼ u paʼ", "buɡul ni ɡaʔ u paʔ"],  // Literally 'the big digit of the hand' (bugul, the classifier for a finger or toe, + ni gaʼ 'that is big' + u paʼ 'of the hand'); the big toe is bugul ni gaʼ u ay, 'of the foot'.
-    atj: ["mitcitcin", "mitʃitʃinʷ"],  // The Atikamekw word for the thumb, recorded from a speaker in Manawan.
+    atj: ["mitcitcin", "mitʃitʃinʷ"],  // The Atikamekw word for the thumb, recorded from a speaker in Manawan. Route by resemblance to the neighbouring forms (pqm(ʼcihcin)); no etymology of its own.
     niu: ["matalima motua", "matalima motua"],  // Literally 'elder finger' (matalima 'finger' + motua 'elder'); the big toe is matahui motua, 'elder toe'.
     kca: ["паӈ", "paːŋ"],  // A word of its own for the thumb, recorded for Kazym; Eastern Khanty has the cognate паӈ 'thumb'.
     car: ["aina jumy", "aina jumɨ"],  // Literally 'father of the hand' (aina 'hand' + jumy 'father').
     mus: ["enk-ecke", "iŋkítʃki"],  // Literally 'mother of the hand' (enke 'his/her hand' + ecke 'his/her mother'); the big toe is ele-ecke, 'mother of the foot'.
-    aer: ["pwelpwele", "pʷəlpʷələ"],  // The Eastern Arrernte word for the thumb, a reduplicated form.
+    aer: ["pwelpwele", "pʷəlpʷələ"],  // The Eastern Arrernte word for the thumb, a reduplicated form. Wiktionary gives no etymology. No image is recorded for it, so it counts as a word of its own.
     tao: ["tararakeh", "tararakəh"],  // Glossed 'thumb' (大拇指) in the ILRDF Yami dictionary.
     pyu: ["atrengalran", "aʈəŋalan"],  // The Nanwang Puyuma word for the thumb in the ILRDF dictionary, which uses it in 'the thumb is shorter than the index finger'. No image is recorded for it, so it counts as a word of its own.
     vep: ["peigol", "ˈpeiɡol"],  // The same old Finnic word as Finnish peukalo and Estonian pöial, from Proto-Finnic *peikälo.
@@ -1210,7 +1210,7 @@ WORDS.thumb = {
     cnp: ["手拇头", "ʃɐu˧˧ mu˨˦ tɐu˨˩"],  // Built on 拇 'thumb'; Nanning Pinghua also says 大拇指 and 大手指.
     wuu_jh: ["大手拇执头", "duɤ˩˦ ɕiu˥˧˥ mɛ˧˩˧ tɕiəʔ˦ diu˧˩˧"],  // Literally 'big hand-finger'; the little finger is 小手拇执头.
     dta: ["xereg", "xereɡ"],  // Inherited from Proto-Mongolic *herekei; compare Mongolian эрхий.
-    blr: ["ti51 ma31", "ti˥˩ ma˧˩"],  // ti51 is 'hand' (this row's hand); the second part ma31 also begins the IDS words for 'parents', 'aunt' and 'stepmother', but the source does not gloss it alone.
+    blr: ["ti51 ma31", "ti˥˩ ma˧˩"],  // ti51 is 'hand' (this row's hand); the second part ma31 also begins the IDS words for 'parents', 'aunt' and 'stepmother', but the source does not gloss it alone. In that list ma31 ʔe51 'parents' pairs with kɨiŋ51 ʔe51 'father', so ma31 is the mother's half, and the thumb is the mother of the hand, as in Khmer មេដៃ and Khasi 'tikmie.
     kmc: ["məi31 mja212", "məi˧˩ mja˨˩˨"],  // mja212 is 'hand' (this row's hand); the first part is not glossed in the source.
     mlm: ["nja2 mai4", "nja˩˨˩ mai˨˦"],  // nja2 is 'hand' (this row's hand); mai4 is not glossed in the source.
     mmd: ["ni4 si:m3", "ni˨˦ siːm˥˩"],  // Literally 'mother of the hand': ni4 'mother' + si:m3 'hand', both glossed so in IDS Maonan and in this row.
@@ -1223,7 +1223,7 @@ WORDS.thumb = {
     ja_kanbun: ["拇", "ojajɯbi"],  // Classical Chinese 拇 'thumb', read with its kun oyayubi ('parent finger'), the 字訓 given by 字通; older kun オホオヨビ (名義抄), オホユビ (字鏡集).
     jup: ["cob popǒg", "cob popǒɡ"],  // Literally 'big finger': cǒb 'finger' + popǒg, from póg 'big' (both glossed so in the World Loanword Database, Hup).
     srm: ["gaánfínga", "ɡaánfíŋɡa"],  // Literally 'big finger': gaán 'big' + fínga 'finger' (World Loanword Database, Saramaccan), which also lists mamáfínga 'mother finger'.
-    crt: ["jesikiwu", "jesikiwu"],  // Built on -yesikiʔ 'finger' + -wu (IDS Chorote -yesiki-wu); the second part is not glossed.
+    crt: ["jesikiwu", "jesikiwu"],  // Built on -yesikiʔ 'finger' + -wu (IDS Chorote -yesiki-wu); the second part is not glossed. -wu matches wuj, wux 'big' (Chaco languages list; IDS), so it is 'the big finger'.
     moc: ["lpalaaqate lateʔogeʔ", "lpalaaqate lateʔoɡeʔ"],  // l-palaaḳate 'finger' + lateʔogeʔ (IDS Mocoví); the second word is not glossed in the source.
     tob: ["laʁaata lateʔe", "laʁaata lateʔe"],  // Literally 'mother of the fingers': l-[i]aʁaata 'finger' + l-ateʔe 'mother', both glossed so in IDS Toba (and lateʔe is this row's mother).
     es_gt: ["pulgar", "pulˈɣaɾ"],  // The same word as standard Spanish, from Latin pollicāris 'of the thumb'; Wiktionary gives it with no regional label.
@@ -1239,8 +1239,8 @@ WORDS.thumb = {
     nhw: ["hueyi macpil", "ˈweji ˈmakpil"],  // Literally 'big finger': Leviticus 8:23 and Exodus 29:20 of the Western Huasteca Nahuatl Bible have ihueyi macpil 'his big finger', and Judges 1:6-7 ihueyi macpilhua (plural); Classical Nahuatl huēyi mahpilli is the same make-up (Wiktionary).
     nhe: ["hueyi macpil", "ˈweji ˈmakpil"],  // Literally 'big finger': Leviticus 8:23 and Exodus 29:20 of the Eastern Huasteca Nahuatl Bible have ihueyi macpil 'his big finger', and Judges 1:6-7 ihueyi macpilhua (plural); Classical Nahuatl huēyi mahpilli is the same make-up (Wiktionary).
     agu: ["mamil wiʼ qʼabʼ", "mamil wiʔ qʼaɓ"],  // The phrase for the thumb in Judges 1:6-7, Exodus 29:20 and Leviticus 8:23 of the Aguacateco Bible (mamil wi' k'ab; k'ab is this row's qʼabʼ 'hand'); the first word is not glossed in the source.
-    cuk: ["goo dummad", "ɡoː dumːad"],  // The word for the thumb in Exodus 29:20, Leviticus 8:23 and 14:14 (e-goo-dummad-argan-nuedsikidgi 'on his right thumb') and Judges 1:6-7 (plural goo-dummagan) of the Kuna Bible; the parts are not glossed in the source.
-    zdj: ["shaya sha koo", "ʃaja ʃa koo"],  // The Ngazidja phrase for the thumb.
+    cuk: ["goo dummad", "ɡoː dumːad"],  // The word for the thumb in Exodus 29:20, Leviticus 8:23 and 14:14 (e-goo-dummad-argan-nuedsikidgi 'on his right thumb') and Judges 1:6-7 (plural goo-dummagan) of the Kuna Bible; the parts are not glossed in the source. dummad is 'big, great' (tumma 'big' in Constenla's Chibchan list; Wiktionary glosses dummad 'lord'), so it is 'the big finger'.
+    zdj: ["shaya sha koo", "ʃaja ʃa koo"],  // The Ngazidja phrase for the thumb. Ends in koo, the Comorian adjective -kúu 'big' (Grollemund's Bantu list), so it is 'the big finger'.
     hts: ["basluko", "baɬuko"],  // Wiktionary glosses it 'thumb, big toe, or its nail or claw': one word for the thumb and the big toe.
     gld: ["пӯруэн", "puːruən"],  // Nanai, glossed «большой палец» in Onenko 1989.
     eve: ["хөрэгэн", "hørəɡən"],  // Even, glossed «большой палец».

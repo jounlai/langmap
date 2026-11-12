@@ -174,23 +174,23 @@ WORDS.wife = {
     arn: "own",
     dsb: "woman",
     ban: "spouse",
-    gay: "unknown",
+    gay: "woman",
     jv: "spouse",
-    iba: "unknown",
+    iba: "own",
     pam: "spouse",
     bug: "own",
     mad: "unknown",
     mrw: "spouse",
-    sm: "unknown",
-    tet: "unknown",
-    min: "unknown",
+    sm: "own",
+    tet: "own",
+    min: "own",
     sas: "unknown",
-    ljp: "unknown",
-    sda: "unknown",
-    su: "unknown",
+    ljp: "own",
+    sda: "woman",
+    su: "own",
     ami: "woman",
     dtp: "spouse",
-    ty: "unknown",
+    ty: "woman",
     bs: "woman",
     es_cr: "own",
     es_hn: "own",
@@ -273,12 +273,12 @@ WORDS.wife = {
     rif: "woman",
     ug: "woman",
     tsg: "own",
-    cjy: "unknown",
-    si: "unknown",
-    lo: "unknown",
+    cjy: "other",
+    si: "own",
+    lo: "own",
     ki: "own",
     ms: "own",
-    blt: "unknown",
+    blt: "own",
     acw: "own",
     xmf: "woman",
     tl: "spouse",
@@ -311,7 +311,7 @@ WORDS.wife = {
     sl: "own",
     ks: "own",
     bo: "own",
-    ksw: "unknown",
+    ksw: "own",
     haw: "woman",
     gan: "other",
     lzz: "own",
@@ -320,9 +320,9 @@ WORDS.wife = {
     wa: "woman",
     vi: "own",
     tg: "woman",
-    blk: "unknown",
+    blk: "own",
     yue: "other",
-    yua: "unknown",
+    yua: "own",
     abs: "other",
     id: "own",
     pdt: "own",
@@ -332,11 +332,11 @@ WORDS.wife = {
     nv: "woman",
     rom: "woman",
     ckb: "woman",
-    wuu: "unknown",
+    wuu: "other",
     tyv: "woman",
     km: "own",
     fur: "woman",
-    yai: "unknown",
+    yai: "own",
     wo: "own",
     pa: "own",
     mt: "woman",
@@ -346,10 +346,10 @@ WORDS.wife = {
     akk: "own",
     yo: "unknown",
     tab: "unknown",
-    mnp: "unknown",
+    mnp: "other",
     tpn: "own",
     th: "own",
-    om: "unknown",
+    om: "own",
     ky: "woman",
     nmn: "woman",
     hai: "unknown",
@@ -363,8 +363,8 @@ WORDS.wife = {
     vi_c: "own",
     vi_s: "own",
     wuu_sz: "woman",
-    wuu_nb: "unknown",
-    wuu_jh: "unknown",
+    wuu_nb: "other",
+    wuu_jh: "other",
     wuu_wz: "unknown",
     cjy_lv: "unknown",
     cjy_xz: "woman",
@@ -410,7 +410,7 @@ WORDS.wife = {
     kum: "woman",
     prg: "woman",
     ppl: "woman",
-    iu: "unknown",
+    iu: "own",
     gag: "woman",
     csb: "woman",
     bm: "woman",
@@ -419,7 +419,7 @@ WORDS.wife = {
     mak: "woman",
     brx: "woman",
     xpu: "unknown",
-    tcs: "unknown",
+    tcs: "woman",
     st: "woman",
     kab: "woman",
     ht: "woman",
@@ -436,7 +436,7 @@ WORDS.wife = {
     mnw: "woman",
     grt: "own",
     ik: "own",
-    ium: "unknown",
+    ium: "own",
     nso: "woman",
     lij: "own",
     orh: "own",
@@ -453,26 +453,26 @@ WORDS.wife = {
     bej: "spouse",
     bgc: "woman",
     ny: "woman",
-    xmr: "unknown",
+    xmr: "own",
     wal: "unknown",
     ket: "woman",
-    egl: "unknown",
+    egl: "own",
     mag: "woman",
     mni: "unknown",
-    dv: "unknown",
-    lus: "unknown",
+    dv: "own",
+    lus: "own",
     kok: "woman",
     yux: "other",
     udi: "woman",
     sjo: "unknown",
     nag: "woman",
-    khw: "unknown",
+    khw: "own",
     eve: "woman",
     sd: "unknown",
     xkz: "unknown",
     txg: "own",
     ett: "unknown",
-    squ: "unknown",
+    squ: "own",
     bdq: "unknown",
     ibb: "woman",
     slr: "own",
@@ -488,10 +488,10 @@ WORDS.wife = {
     fax: "woman",
     dz: "woman",
     mfa: "unknown",
-    gd: "unknown",
-    shn: "unknown",
+    gd: "woman",
+    shn: "own",
     zza: "unknown",
-    mch: "unknown",
+    mch: "own",
     gmh: "woman",
     prs: "woman",
     lij_t: "own",
@@ -613,23 +613,23 @@ WORDS.wife = {
     arn: ["kure", "kuɾe"],
     dsb: ["žeńska", "ˈʒɛɲska"],
     ban: ["kurenan", "kurenan"],
-    gay: ["banan", "banan"],
+    gay: ["banan", "banan"],  // The same word means woman: the ABVD Gayo list gives banan for both wife and woman.
     jv: ["bojo", "bɔdʒɔ"],
-    iba: ["bini", "bini"],
+    iba: ["bini", "bini"],  // The ABVD Iban list gives indu' for woman and laki for husband.
     pam: ["asáwa", "asawa"],
     bug: ["baine", "baine"],
     mad: ["bine", "bine"],
     mrw: ["kawiŋ", "kawiŋ"],
-    sm: ["āvā", "aːvaː"],
-    tet: ["fen", "fen"],
-    min: ["bini", "bini"],
+    sm: ["āvā", "aːvaː"],  // The ABVD Samoan list gives fafine for woman and tāne for husband.
+    tet: ["fen", "fen"],  // The ABVD Tetun list gives feto for woman and la'en for husband.
+    min: ["bini", "bini"],  // The ABVD Minangkabau list gives padusi for woman and laki for husband.
     sas: ["səninə", "səninə"],
-    ljp: ["majəw", "majəw"],
-    sda: ["baine", "baine"],
-    su: ["pamajikan", "pamadʒikan"],
+    ljp: ["majəw", "majəw"],  // The ABVD Lampung list gives səbay for woman and lakəy for husband.
+    sda: ["baine", "baine"],  // The same word means woman: the ABVD Tae' (Sa'dan Toraja) list gives baine for both wife and woman.
+    su: ["pamajikan", "pamadʒikan"],  // The ABVD Sundanese list gives awéwé for woman and salaki for husband.
     ami: ["fafahi", "fafahi"],
     dtp: ["sao", "sao"],
-    ty: ["vahine", "vahine"],
+    ty: ["vahine", "vahine"],  // The same word means woman: ABVD's Tahitian lists give vahine for both wife and woman.
     bs: ["žena", "ˈʒena"],
     es_cr: ["esposa", "esˈposa"],
     es_hn: ["esposa", "esˈposa"],
@@ -712,12 +712,12 @@ WORDS.wife = {
     rif: ["ⵜⴰⵎⵖⴰⵔⵜ", "θamʁaθ"],  // The same word means woman (and mother-in-law); inherited from Proto-Berber *ta-mɣar-t.
     ug: ["خوتۇن", "xoˈtun"],  // The same word means woman; from Proto-Common Turkic *xātun 'queen'.
     tsg: ["asawa", "ʔasaˈwa"],  // Inherited from Proto-Austronesian *qasawa; the word for woman is babai and for husband bana.
-    cjy: ["老婆", "lau˥˧ pʰɤ˩"],  // The colloquial word for wife; no woman word from the same source is set beside it.
-    si: ["බිරිඳ", "biriⁿdə"],  // No word for woman from the same source is set beside it.
-    lo: ["ເມຍ", "miːə̯˧˥"],  // Inherited from Proto-Tai *miəᴬ 'wife'; no woman word from the same source is set beside it.
+    cjy: ["老婆", "lau˥˧ pʰɤ˩"],  // The colloquial word for wife, written 老 'old' plus 婆 'old woman', as in Cantonese and Gan.
+    si: ["බිරිඳ", "biriⁿdə"],  // The word for woman is ගෑනි gǣni (Wiktionary).
+    lo: ["ເມຍ", "miːə̯˧˥"],  // Inherited from Proto-Tai *miəᴬ 'wife'; the ABVD Lao lists give ຍິງ ying for woman.
     ki: ["mũka", "moka"],  // The word for woman is mũtumia, which can also mean a married woman or wife.
     ms: ["isteri", "istəˈri"],  // Borrowed from Sanskrit स्त्री 'woman', but the Malay word for woman is perempuan; bini is the plainer synonym.
-    blt: ["ꪣꪸ", "miə̯˥"],  // Inherited from Proto-Tai *miəᴬ 'wife'; no woman word from the same source is set beside it.
+    blt: ["ꪣꪸ", "miə̯˥"],  // Inherited from Proto-Tai *miəᴬ 'wife'; the ABVD Tai Dam lists give ɲiŋ for woman.
     acw: ["زوجة", "zoːdʒa"],  // The Hijazi pronunciation of Arabic زوجة, as in the Arabic row.
     xmf: ["ოსური", "osuri"],  // The same word means woman; from Proto-Kartvelian *asul-.
     tl: ["asawa", "ʔaˈsawa"],  // The same word means spouse and husband; the Spanish loan esposa is also used.
@@ -750,7 +750,7 @@ WORDS.wife = {
     sl: ["žena", "ˈʒɛːna"],  // The word for woman is ženska, derived from it.
     ks: ["آشَنؠ", "aːʃanʲ"],  // Inherited from Sanskrit āśraya; the word for woman is زَنانہٕ zanānụ, which can also mean wife.
     bo: ["སྐྱེ་དམན", "ce˥ mɛ̃˥"],  // The word for woman is བུད་མེད bud med.
-    ksw: ["မါ", "má"],  // From Proto-Karen *hmaᴬ 'wife'.
+    ksw: ["မါ", "má"],  // From Proto-Karen *hmaᴬ 'wife'; the word for woman is ပိာ်မုၣ် (Wiktionary), and Luangthongkum's Sgaw list gives mɨ for woman beside ma for wife.
     haw: ["wahine", "wahine"],  // The same word means woman; from Proto-Polynesian *fafine 'woman'.
     gan: ["老婆", "lau˨˩˧ pʰo˩˩"],  // Colloquial; written 老 'old' plus 婆 'old woman'.
     lzz: ["ჩილი", "tʃili"],  // From Proto-Kartvelian *c₁olʿ-; the word for woman is ოხორჯა oxorca.
@@ -759,9 +759,9 @@ WORDS.wife = {
     wa: ["feme", "fɛm"],  // The same word means woman.
     vi: ["vợ", "vəː˧˨ʔ"],  // From Proto-Vietic *-bəːʔ; the word for woman is đàn bà or phụ nữ.
     tg: ["зан", "zan"],  // The same word means woman, from Classical Persian zan.
-    blk: ["မာ", "ma̤˧˩"],  // From Proto-Karen *hmaᴬ 'wife', like S'gaw Karen မါ.
+    blk: ["မာ", "ma̤˧˩"],  // From Proto-Karen *hmaᴬ 'wife', like S'gaw Karen မါ; the word for woman is လိုမူႏ (Wiktionary).
     yue: ["老婆", "lou˩˧ pʰɔː˨˩"],  // The everyday colloquial word, written 老 'old' plus 婆 'old woman'; 妻子 cai1 zi2 is formal.
-    yua: ["atan", "atan"],  // One word for wife, with no woman word beside it in the source.
+    yua: ["atan", "atan"],  // The word for woman is koʼolel (Wiktionary).
     abs: ["maitua", "maitua"],  // mai plus tua 'old', compared with English 'old lady'; it also means girlfriend.
     id: ["istri", "ˈistri"],  // From Sanskrit strī through Malay, and the word for woman is perempuan.
     pdt: ["Wief", "viːf"],  // From Proto-West Germanic *wīb 'woman; wife'; the word for woman is Fru.
@@ -771,11 +771,11 @@ WORDS.wife = {
     nv: ["sheʼesdzáán", "ʃèʔèstsɑ́ːn"],  // 'My wife' is the possessed form of asdzáán 'woman'.
     rom: ["romni", "romni"],  // The same word means a Romani woman; it is rrom 'Romani man' with the feminine suffix -ni.
     ckb: ["ژن", "ʒɪn"],  // The same word means woman.
-    wuu: ["老婆", "lɔ˨˨ bu˦˦"],  // The everyday Shanghainese word; no woman word from the same source is set beside it.
+    wuu: ["老婆", "lɔ˨˨ bu˦˦"],  // The everyday Shanghainese word, written 老 'old' plus 婆 'old woman', as in Cantonese and Gan; the word for woman is 女人.
     tyv: ["кадай", "qaˈdaj"],  // The same word means woman; it comes from Proto-Turkic *xātun 'queen, lady'.
     km: ["ប្រពន្ធ", "prɑˈpŭən"],  // From Old Khmer prabandha 'bond, tie'; the word for woman is ស្រី.
     fur: ["femine", "ˈfɛmine"],  // The same word means woman; muîr is a synonym for wife.
-    yai: ["inč", "intʃ"],  // From Sogdian, ultimately from Proto-Iranian *ǰánHs 'woman'; no Yaghnobi word for woman is given beside it.
+    yai: ["inč", "intʃ"],  // From Sogdian, ultimately from Proto-Iranian *ǰánHs 'woman'; the CALS Yaghnobi lists give zaifa for woman and vir for husband.
     wo: ["jabar", "dʒabar"],  // The word for woman is jigéen; husband is jëkkër.
     pa: ["ਪਤਨੀ", "pətniː"],  // Borrowed from Sanskrit पत्नी; the word for woman is ਔਰਤ.
     mt: ["mara", "ˈmara"],  // The same word means woman, from Arabic imraʔa 'woman; wife'.
@@ -785,10 +785,10 @@ WORDS.wife = {
     akk: ["𒁮", "aʃʃatu"],  // The word for woman is sinništu; the sign DAM 'spouse' also writes mutu 'husband'.
     yo: ["aya", "aja"],  // Its husband counterpart is ọkọ; the source gives no woman word beside it.
     tab: ["хпиб", "χpib"],  // Glossed both 'female' and 'wife'; no word for woman is set beside it in the same source.
-    mnp: ["老妈", "se˥˥ ma˨˩"],  // In Northern Min this word means wife; elsewhere it means mum or an old woman.
+    mnp: ["老妈", "se˥˥ ma˨˩"],  // Literally 'old mother'; in Northern Min this word means wife, elsewhere mum or an old woman, as Eastern Min 老妈.
     tpn: ["emirekó", "ɛ̃miɾɛˈkɔ"],  // Literally 'what someone has with oneself'; the word for woman is kunhã.
     th: ["ภรรยา", "pʰan˧ jaː˧"],  // From Sanskrit भार्या 'wife'; it is the formal word, and the word for woman is ผู้หญิง.
-    om: ["niitii", "niːtiː"],  // The source gives no word for woman beside it.
+    om: ["niitii", "niːtiː"],  // The word for woman is dubartii (Wiktionary).
     ky: ["аял", "ɑˈjɑl"],  // The same word means woman; it comes through Persian from Arabic ʕayāl 'offspring'.
     nmn: ["tâa qáe", "taa qae"],  // The same phrase means woman: tâa 'person' plus qáe 'female'.
     hai: ["jáa", "dʒáː"],  // The source gives no word for woman beside it.
@@ -802,8 +802,8 @@ WORDS.wife = {
     vi_c: ["vợ", "vəː˧˩"],  // The same word as standard Vietnamese, with the Huế nặng tone.
     vi_s: ["vợ", "jəː˨˩˨"],  // The same word as standard Vietnamese, with Southern j- for v-.
     wuu_sz: ["女人", "ȵy˨˧˩ ȵiən˨˨˧"],  // The same word as 女人 'woman', listed first for Suzhou.
-    wuu_nb: ["老婆", "lɔ˩˩˧ bəu˧˩˧"],  // Literally 'old woman', the everyday word for a wife.
-    wuu_jh: ["老婆", "lɑu˥˧˥ bɤ˧˩˧"],  // Literally 'old woman', the everyday word for a wife.
+    wuu_nb: ["老婆", "lɔ˩˩˧ bəu˧˩˧"],  // Literally 'old woman', the everyday word for a wife; the word for woman is 女人.
+    wuu_jh: ["老婆", "lɑu˥˧˥ bɤ˧˩˧"],  // Literally 'old woman', the everyday word for a wife; the word for woman is 女人.
     wuu_wz: ["老安", "lɜ˧˦ ʔjy˧˧"],  // The everyday Wenzhou word for a wife.
     cjy_lv: ["婆姨", "pʰuo˦˦ zɿ˦˦"],  // A northern dialect word for a wife; Wiktionary glosses it wife, married woman.
     cjy_xz: ["女人", "ny˧˩˧ ʐəŋ˧˩"],  // The same word as 女人 'woman', listed first for Xinzhou.
@@ -849,7 +849,7 @@ WORDS.wife = {
     kum: ["къатын", "qaˈtɯn"],  // Qatın means both woman and wife.
     prg: ["genno", "ˈɡʲænoː"],  // From Proto-Balto-Slavic *génāˀ; genno means both woman and wife, like Russian жена once did.
     ppl: ["siwat", "ˈsiwaːt"],  // Siwat is woman, and possessed it means wife (nusiwaw 'my wife').
-    iu: ["ᓄᓕᐊᖅ", "nuliaq"],  // From Proto-Inuit *nuliaʁ; the source gives no woman word beside it.
+    iu: ["ᓄᓕᐊᖅ", "nuliaq"],  // From Proto-Inuit *nuliaʁ; the word for woman is ᐊᕐᓇᖅ arnaq (Wiktionary).
     gag: ["karı", "kaˈrɯ"],  // Karı is both woman and wife, from Old Anatolian Turkish qarı, 'old person'.
     csb: ["białka", "ˈbjawka"],  // Białka means both woman and wife.
     bm: ["muso", "mùso"],  // Muso means both woman and wife.
@@ -858,7 +858,7 @@ WORDS.wife = {
     mak: ["baine", "baˈine"],  // Baine means woman and also wife.
     brx: ["हिनजाव", "hindʒao"],  // Hinjao means both woman and wife.
     xpu: ["𐤀𐤎𐤕", "ʔist"],  // The source gives one word for wife and no woman word beside it.
-    tcs: ["oman", "oman"],  // From English woman; the source glosses it as wife or a married woman and gives no separate woman word.
+    tcs: ["oman", "oman"],  // From English woman; it is both 'wife' and the word for a (married) woman, with gel for an unmarried one (Wiktionary).
     st: ["mosadi", "mʊsadi"],  // Mosadi means both woman and wife.
     kab: ["tameṭṭut", "tamətˤːut"],  // Tameṭṭut means both woman and wife.
     ht: ["fanm", "fãm"],  // From French femme; fanm means both wife and woman.
@@ -875,7 +875,7 @@ WORDS.wife = {
     mnw: ["ဗြဴ", "prɛ̀a"],  // The same word means woman and female.
     grt: ["jik", "dʒik"],  // From Proto-Bodo-Garo jɯk 'wife'; the word for woman is me·chik.
     ik: ["nuliaq", "nuliaq"],  // From Proto-Eskimo nuLiaq; the word for woman is aġnaq.
-    ium: ["auv", "au˦"],  // From Chinese 媼.
+    ium: ["auv", "au˦"],  // From Chinese 媼; the ABVD Mien (Jiangdi) list gives mjen sje for woman and gu for husband.
     nso: ["mosadi", "mosadi"],  // The same word means woman.
     lij: ["mogê", "muˈdʒeː"],  // From Latin mulierem; the word for woman is dònna.
     orh: ["atɪrkan", "atɪrkan"],  // The word for woman is aʃɪ.
@@ -892,26 +892,26 @@ WORDS.wife = {
     bej: ["hiyu", "ˈhiju"],  // The same word means husband.
     bgc: ["बीर", "biːr"],  // The same word means woman.
     ny: ["mkazi", "m̩ˈkazi"],  // The same word means woman; from Proto-Bantu mʊ̀kádí.
-    xmr: ["𐦱𐦨", "səma"],  // No word for woman is given beside it.
+    xmr: ["𐦱𐦨", "səma"],  // The word for woman is a different one, 𐦲𐦷𐦢 (Wiktionary).
     wal: ["machchiyo", "matʃːijo"],  // The source gives this one word for wife; no word for woman is beside it, so the route is unknown.
     ket: ["ӄим", "qʲim"],  // One word for woman and wife, inherited from Proto-Yeniseian *qim 'woman'.
-    egl: ["mujêr", "muˈjeːr"],  // From Latin mulier; the source glosses it only as wife and gives no woman word beside it.
+    egl: ["mujêr", "muˈjeːr"],  // From Latin mulier; the word for woman is dòna (Wiktionary).
     mag: ["मेहरारू", "meːhraːruː"],  // One word for woman and wife.
     mni: ["ꯇꯥꯂꯣꯏ", "taloi"],  // The source gives this one word for wife; no word for woman is beside it, so the route is unknown.
-    dv: ["އަނބި", "aᵐbi"],  // Inherited from Sanskrit ambā; the source gives no word for woman beside it, so the route is unknown.
-    lus: ["nupui", "nupui"],  // Nu 'mother' + -pui, an augmentative suffix; the source gives no word for woman beside it, so the route is unknown.
+    dv: ["އަނބި", "aᵐbi"],  // Inherited from Sanskrit ambā; the word for woman is އަންހެނާ anhenā (Wiktionary).
+    lus: ["nupui", "nupui"],  // Nu 'mother' + -pui, an augmentative suffix; the word for woman is hmeichhia (Wiktionary).
     kok: ["बायल", "baːjl"],  // One word for woman and wife.
     yux: ["тэрикэ", "terɪkə"],  // The same word means old woman; borrowed from Russian старуха 'old woman'.
     udi: ["чугьух", "tʃuhuχ"],  // One word for woman and wife (Nij dialect), from Caucasian Albanian čibux̣.
     sjo: ["ᡨᠠᡞᡨᠠᡞ", "tʰɑitʰɑi"],  // Borrowed from Mandarin 太太 tàitai; the source gives no word for woman beside it, so the route is unknown.
     nag: ["maiki", "maiki"],  // One word for woman and wife, from Assamese মাইকী.
-    khw: ["بؤوک", "bɔˈʊk"],  // From Sanskrit vadhūkkā 'bride'; the source gives no word for woman beside it, so the route is unknown.
+    khw: ["بؤوک", "bɔˈʊk"],  // From Sanskrit vadhūkkā 'bride'; the word for woman is کمیری kimeri (Wiktionary).
     eve: ["аси", "asi"],  // One word for woman and wife, from Proto-Tungusic *asī.
     sd: ["جوءِ", "dʒoːi"],  // Inherited from Prakrit juvaï, from Sanskrit युवति yuvatí 'young woman'; the entry gives no word for woman beside it.
     xkz: ["’nêsang", "néːsaŋ"],  // Related to Dzongkha གནས་ཚང gnas tshang; the source gives no word for woman beside it.
     txg: ["𗪰", "ɡji˧˥"],  // A word of its own; the word for woman is 𗶈 *dẹ¹.
     ett: ["puia", "ˈpuia"],  // Perhaps related somehow to Ancient Greek ὀπυίω 'to marry'; no Etruscan word for woman stands beside it.
-    squ: ["chewásh", "tʃəwaʃ"],  // A married woman; the source gives no word for woman beside it.
+    squ: ["chewásh", "tʃəwaʃ"],  // A married woman; the word for woman is slhánay̓ (Wiktionary).
     bdq: ["akăn", "ʔakan"],  // From Proto-Bahnaric *ʔəkan 'wife', a prefixed form of *kan 'female'; the source gives no word for woman beside it.
     ibb: ["n̄n̄waan", "ŋ̍ŋwaːn"],  // The same word means woman and wife (and female).
     slr: ["kiyne", "kʰijni"],  // From Proto-Turkic *kẹlin; the word for woman is a different one, qadın.
@@ -927,10 +927,10 @@ WORDS.wife = {
     fax: ["mullel", "muˈʎel"],  // Inherited from Old Galician-Portuguese moller; the same word means woman and wife.
     dz: ["ཨམ་སྲུ", "amsu"],  // The same word means woman and wife.
     mfa: ["bining", "biniŋ"],  // Inherited from Proto-Malayic *bini.
-    gd: ["bean", "b̥ɛ̃n"],
-    shn: ["မေး", "meː˥"],
+    gd: ["bean", "b̥ɛ̃n"],  // The same word means woman and wife (Wiktionary); bean-phòsda and bean-chèile spell out 'married'.
+    shn: ["မေး", "meː˥"],  // The word for woman is ယိင်း ying, in the ABVD and IDS Shan lists alike.
     zza: ["veyve", "ˈvɛjvɘ"],
-    mch: ["jinñamo", "hʷinɲamo"],
+    mch: ["jinñamo", "hʷinɲamo"],  // The word for woman is wodi (Wiktionary).
     gmh: ["wip", "wiːp"],  // Also 'woman'.
     prs: ["زن", "zan"],
     lij_t: ["mogê", "muˈdʒeː"],

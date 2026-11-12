@@ -222,7 +222,7 @@ WORDS.goosebumps = {
     ota: "hair",
     jv: "plain",
     az: "hair",
-    so: "unknown",
+    so: "plain",
     gu: "hair",
     sd: "other",
     sq: "unknown",
@@ -416,7 +416,7 @@ WORDS.goosebumps = {
     ota: ["اورپرمك", "yɾpeɾˈmek"],  // A verb of its own, glossed by Redhouse (1890) 'for one's hair to stand on end'.
     jv: ["mrinding", "mrindiŋ"],  // A word of its own from prinding, a shiver that makes the skin contract and the small hairs rise; the same word as Indonesian merinding.
     az: ["ürpəşmək", "yɾpæʃˈmæc"],  // A verb for the skin and body hair bristling from cold or fear, from the Turkic root of Turkish ürpermek 'for one's hair to stand on end'; ürpərmək is a synonym.
-    so: ["jiriirico", "dʒiriːriʕo"],  // The Somali noun for goose-flesh; the verb jiriiricood means 'to get goosebumps'.
+    so: ["jiriirico", "dʒiriːriʕo"],  // The Somali noun for goose-flesh; the verb jiriiricood means 'to get goosebumps'. No image is recorded for it, so it counts as a word of its own.
     gu: ["રોમાંચ", "ɾomãːtʃ"],  // From Sanskrit romāñca, the body hair standing up; it also means 'a thrill', as in Kannada and Malayalam.
     sd: ["ڪانڊارجڻ", "kaːɳɖaːrɪdʒəɳʊ"],  // A verb built on the word for 'thorn' (Sanskrit kaṇṭaka): the body hair turns to thorns, as in Bengali and Marathi; one says لڱ ڪانڊارجڻ.
     sq: ["mornica", "mɔɾˈnitsa"],  // A plural-only noun; the Albanian dictionary defines its second sense as the tiny bumps, like a plucked fowl's skin, that rise on the skin with cold, and its first as a shiver.

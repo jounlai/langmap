@@ -220,9 +220,9 @@ WORDS.wisdomtooth = {
     bs: "wisdom",
     war: "unknown",
     lt: "wisdom",
-    ga: "unknown",
+    ga: "wisdom",
     mni: "age",
-    rhg: "unknown",
+    rhg: "wisdom",
     ii: "unknown",
     ba: "wisdom",
     mrw: "other",
@@ -418,9 +418,9 @@ WORDS.wisdomtooth = {
     bs: ["umnjak", "ˈumɲaːk"],  // Built on um 'mind', so literally 'the mind one'; zub mudrosti 'tooth of wisdom' is also used.
     war: ["sangko", "saŋˈkoʔ"],  // The Waray word for a wisdom tooth, sangkô.
     lt: ["protinis dantis", "ˈproːtʲɪnʲɪs dɐnˈtʲɪs"],  // Literally 'mind tooth', from protas 'mind, reason'.
-    ga: ["fiacail forais", "ˈfʲiəkəlʲ ˈfˠɔɾˠəʃ"],  // Literally 'tooth of foras', a word Ó Dónaill glosses as 'foundation, established principle, settled state'.
+    ga: ["fiacail forais", "ˈfʲiəkəlʲ ˈfˠɔɾˠəʃ"],  // Literally 'tooth of foras', a word Ó Dónaill glosses as 'foundation, established principle, settled state'. Ó Dónaill files the phrase under foras 2, 'established principle, basis' (foras feasa 'foundation of knowledge'; i bhfios agus i bhforas 'known and established'), so it is the tooth of settled knowledge.
     mni: ["ꯌꯥꯈꯩ", "jákʰəi"],  // Literally 'the farthest tooth' (yā 'tooth' + khei 'farthest point'), per Sharma's Learners' Manipuri-English Dictionary.
-    rhg: ["akuali dat", "akkuwali dat"],  // akuali dat, with dat 'tooth'; the Rohingya dictionary on Webonary glosses the phrase 'wisdom tooth' and Burmese အံဆုံး.
+    rhg: ["akuali dat", "akkuwali dat"],  // akuali dat, with dat 'tooth'; the Rohingya dictionary on Webonary glosses the phrase 'wisdom tooth' and Burmese အံဆုံး. akuali is the Bengali আক্কেল 'good sense' (Arabic ʿaql). Route by resemblance to the neighbouring forms (bn(আক্কেল দাঁত) syl(আকলদাত)); no etymology of its own.
     ii: ["ꎐꁥ", "dʐɿ˧˧bo˥˥"],  // rry bbot, from ꎐ 'tooth' and ꁥ, which the Nuosu dictionary glosses 'add, attached'; it defines the compound as the hindmost molar (Chinese 尽头牙 'tooth at the very end').
     ba: ["аҡыл теше", "ɑˈqɯl teˈʃe"],  // Literally 'tooth of reason' (аҡыл 'mind, reason' + теш 'tooth').
     mrw: ["pangasek", "paŋasək"],  // From the root asek 'to press (down)', the same root as panasek 'bicuspid', so roughly 'the presser'.

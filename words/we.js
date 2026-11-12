@@ -1,5 +1,5 @@
 /**
- * we — the map's first typological word: who counts as "us". Roughly a third of the world's languages do something English cannot: they split the first person plural into an INCLUSIVE "we" (me and you) and an EXCLUSIVE "we" (me and them, not you). Indonesian kita vs kami, Vietnamese chúng ta vs chúng tôi, Tok Pisin yumi vs mipela, Quechua ñuqanchik vs ñuqayku, Somali innaga vs annaga. Say the wrong one and you have either invited someone in or shut them out, grammatically, with no way to hedge. The colours here are that distinction rather than an etymology, and the split is not a neat map of families: Indo-European mostly lacks it, yet Gujarati આપણે/અમે and Marathi आपण/आम्ही have it outright; the Sinosphere mostly lacks it, yet northern Mandarin opposes 咱们 to 我们 and Hokkien opposes 咱 lán to 阮 goán. Tungusic — Evenki мит/бу, Manchu ᠮᡠᠰᡝ/ᠪᡝ — has it throughout. Two cautions the data forced. Where a language marks clusivity only on the verb and not in its free pronouns, as all six Iroquoian languages and the Siouan languages here do, this map counts it as one word, because one word is what a speaker says. And where a language has no dedicated plural pronoun at all, "we" is simply the same word as "I" — which is why 我 stands unchanged in Old, Middle and Classical Chinese, and why Cherokee and Ho-Chunk repeat their singular. Where a language has both forms, both are printed, inclusive first. A third colour marks the rows where nobody has yet sourced the answer — 45 of them, each needing one attested inclusive/exclusive pair — because a reader cannot otherwise tell an undecided language from one the map has no word for.
+ * we — the map's first typological word: who counts as "us". Roughly a third of the world's languages do something English cannot: they split the first person plural into an INCLUSIVE "we" (me and you) and an EXCLUSIVE "we" (me and them, not you). Indonesian kita vs kami, Vietnamese chúng ta vs chúng tôi, Tok Pisin yumi vs mipela, Quechua ñuqanchik vs ñuqayku, Somali innaga vs annaga. Say the wrong one and you have either invited someone in or shut them out, grammatically, with no way to hedge. The colours here are that distinction rather than an etymology, and the split is not a neat map of families: Indo-European mostly lacks it, yet Gujarati આપણે/અમે and Marathi आपण/आम्ही have it outright; the Sinosphere mostly lacks it, yet northern Mandarin opposes 咱们 to 我们 and Hokkien opposes 咱 lán to 阮 goán. Tungusic — Evenki мит/бу, Manchu ᠮᡠᠰᡝ/ᠪᡝ — has it throughout. Two cautions the data forced. Where a language marks clusivity only on the verb and not in its free pronouns, as all six Iroquoian languages and the Siouan languages here do, this map counts it as one word, because one word is what a speaker says. And where a language has no dedicated plural pronoun at all, "we" is simply the same word as "I" — which is why 我 stands unchanged in Old, Middle and Classical Chinese, and why Cherokee and Ho-Chunk repeat their singular. Where a language has both forms, both are printed, inclusive first. A third colour marks the rows where nobody has yet sourced the answer — 40 of them, each needing one attested inclusive/exclusive pair — because a reader cannot otherwise tell an undecided language from one the map has no word for.
  */
 WORDS.we = {
   emoji: "👥",
@@ -297,8 +297,8 @@ WORDS.we = {
     th_n: "single",
     th_s: "single",
     za: "clusive",
-    kmc: "unknown",
-    gqu: "unknown",
+    kmc: "clusive",
+    gqu: "single",
     shx: "single",
     peh: "unknown",
     orh: "clusive",
@@ -1172,7 +1172,7 @@ WORDS.we = {
     dsh: "unknown",
     bzh: "clusive",
     dnj: "clusive",
-    zts: "unknown",
+    zts: "single",
     maz: "clusive",
     jqr: "unknown",
     zh_tj: "unknown",
@@ -1209,9 +1209,9 @@ WORDS.we = {
     prk: "clusive",
     zag: "single",
     ttq: "single",
-    gha: "unknown",
+    gha: "single",
     auj: "single",
-    siz: "unknown",
+    siz: "single",
     zh_jiao: "unknown",
   },
   routes: {
@@ -1485,8 +1485,8 @@ WORDS.we = {
     mlm: ["hɣa:u6 / niu2", "hɣaːu˩˩ / niu˩˨˩"],
     swi: ["ȶən1 ⁿdaau1 / ȶən1 ⁿdiu1", "ȶən˩˩ ⁿdaːu˩˩ / ȶən˩˩ ⁿdiu˩˩"],
     lic: ["ga / fa1", "ɡa / fa˥˧"],
-    kmc: ["tau55 / tɕiu55", "tau˥˥ / tɕiu˥˥"],
-    gqu: ["su33 ta33", "su˧˧ ta˧˧"],
+    kmc: ["tau55 / tɕiu55", "tau˥˥ / tɕiu˥˥"],  // Inclusive tau⁵⁵, exclusive tɕiu⁵⁵, in the IDS Southern Kam list and in ABVD alike.
+    gqu: ["su33 ta33", "su˧˧ ta˧˧"],  // One word for both: Grambank records no inclusive/exclusive distinction in Gelao (He & Luo), and the IDS Qau Gelao list gives one pronoun for both.
     shx: ["le31 pa22", "le˧˩ pa˨˨"],
     hmn: ["peb", "pe˥"],
     jv: ["awaké dhéwé", "awaʔe ɖewe"],
@@ -1820,7 +1820,7 @@ WORDS.we = {
     tzh: ["joʼotik / joʼotikon", "hoʔotik / hoʔotikon"],
     mixtec: ["yóʼó / ruʼu", "jóʔó / ɾuʔu"],
     zap: ["laanu / laadu", "laːnu / laːdu"],
-    zts: ["nuʼ", "nuʔ"],
+    zts: ["nuʼ", "nuʔ"],  // Grambank records no inclusive/exclusive distinction in Tlacolula Valley Zapotec (from Lillehaugen's grammar).
     maz: ["nuzgöji / nuzgöjme", "nuzɣøhi / nuzɣøhme"],
     mix: ["yóʼó / ruʼu", "jóʔó / ɾuʔu"],
     mxv: ["yóʼó / yuʼu", "jóʔó / juʔu"],
@@ -2413,9 +2413,9 @@ WORDS.we = {
     dzg: ["—", "—"],
     zag: ["togoy", "tɔɡɔj"],  // ADESK also lists tow 'we'; Compes (2021) finds an inclusive/exclusive split only in Wagi verb forms, never in the independent pronouns.
     ttq: ["nakkanay", "nækːænæj"],  // Masculine; the feminine is năkkănăte. Tuareg splits 'we' by gender, not by clusivity (Grambank, from Sudlow 2001).
-    gha: ["nekkenịn", "nɐkːɐnen"],  // One form for both genders; Lanfry says nothing about inclusive and exclusive.
+    gha: ["nekkenịn", "nɐkːɐnen"],  // One form for both genders. Kossmann's grammar of Ghadamès records no inclusive/exclusive distinction (Grambank).
     auj: ["nəkkəní", "nəkːəˈni"],  // One word for both inclusive and exclusive 'we' (Grambank, from van Putten 2013).
-    siz: ["ənʃni", "ənʃni"],  // Also ənʧni and nəʃni; neither source says anything about inclusive and exclusive.
+    siz: ["ənʃni", "ənʃni"],  // Also ənʧni and nəʃni. Grambank records no inclusive/exclusive distinction in Siwi (from Vycichl's sketch).
     zh_jiao: ["我们", "və˥˥ mə̃˦˨"],  // The first form the Wiktionary 我們 module lists for Qingdao; Qingdao also says 俺. No Qingdao form for an inclusive "we" is recorded.
   },
 };

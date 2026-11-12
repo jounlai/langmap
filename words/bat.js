@@ -157,7 +157,7 @@ WORDS.bat = {
     qu: "plain",
     zh_db: "plain",
     zh_sc: "mouse",
-    za: "unknown",
+    za: "plain",
     jv: "plain",
     su: "plain",
     fj: "plain",
@@ -289,9 +289,9 @@ WORDS.bat = {
     cho: "plain",
     apw: "plain",
     abs: "mouse",
-    pcc: "unknown",
+    pcc: "plain",
     tyz: "plain",
-    hy_grab: "unknown",
+    hy_grab: "plain",
     mfe: "mouse",
     ban: "plain",
     it_dan: "other",
@@ -374,7 +374,7 @@ WORDS.bat = {
     bug: "plain",
     hmn: "plain",
     kam: "plain",
-    bem: "unknown",
+    bem: "plain",
     bs: "mouse",
     ssw: "plain",
     nd: "plain",
@@ -387,7 +387,7 @@ WORDS.bat = {
     drs: "plain",
     kha: "unknown",
     ndc: "unknown",
-    ve: "unknown",
+    ve: "plain",
     ach: "plain",
     dag: "plain",
     zne: "plain",
@@ -435,7 +435,7 @@ WORDS.bat = {
     tet: "plain",
     new: "unknown",
     lez: "unknown",
-    szl: "unknown",
+    szl: "other",
     fy: "mouse",
     ses: "unknown",
     ho: "plain",
@@ -443,7 +443,7 @@ WORDS.bat = {
     kjb: "plain",
     cuk: "plain",
     mzh: "plain",
-    rar: "unknown",
+    rar: "bird",
     yan: "plain",
     kos: "plain",
     yap: "plain",
@@ -451,11 +451,11 @@ WORDS.bat = {
     bsk: "plain",
     usp: "plain",
     cr: "plain",
-    atj: "unknown",
+    atj: "plain",
     mch: "unknown",
     agr: "plain",
     car: "unknown",
-    crn: "unknown",
+    crn: "plain",
     lkt: "unknown",
     aqc: "plain",
     stq: "mouse",
@@ -489,11 +489,11 @@ WORDS.bat = {
     moc: "unknown",
     cag: "plain",
     tue: "unknown",
-    dzg: "unknown",
+    dzg: "plain",
     zag: "unknown",
     ttq: "plain",
     gha: "plain",
-    siz: "unknown",
+    siz: "plain",
     cdo: "other",
     ceb: "plain",
     hil: "plain",
@@ -501,7 +501,7 @@ WORDS.bat = {
     mos: "plain",
     azb: "plain",
     st: "plain",
-    nso: "unknown",
+    nso: "plain",
     ki: "unknown",
     sn: "unknown",
     ku: "other",
@@ -539,22 +539,22 @@ WORDS.bat = {
     ar_gulf: "plain",
     ar_ye: "plain",
     crk: "plain",
-    ttj: "unknown",
-    laj: "unknown",
+    ttj: "plain",
+    laj: "plain",
     pdc: "mouse",
     pdt: "mouse",
     arn: "unknown",
     bxr: "unknown",
-    inh: "unknown",
+    inh: "plain",
     urh: "plain",
     pis: "other",
     zap: "other",
     naq: "unknown",
     kac: "plain",
-    tji: "unknown",
+    tji: "mouse",
     pcd: "mouse",
     fur: "other",
-    rue: "unknown",
+    rue: "other",
     nij: "plain",
     ksb: "plain",
     nia: "plain",
@@ -563,7 +563,7 @@ WORDS.bat = {
     co: "mouse",
     her: "plain",
     bru: "plain",
-    ab: "unknown",
+    ab: "bird",
     enq: "plain",
     tab: "plain",
     pwn: "unknown",
@@ -589,7 +589,7 @@ WORDS.bat = {
     ers: "plain",
     liv: "mouse",
     vot: "unknown",
-    ssf: "unknown",
+    ssf: "plain",
     smn: "other",
     tsi: "unknown",
     kwk: "plain",
@@ -598,7 +598,7 @@ WORDS.bat = {
     tsu: "plain",
     tao: "plain",
     pyu: "unknown",
-    vep: "unknown",
+    vep: "other",
     niu: "plain",
     moh: "unknown",
     ruq: "plain",
@@ -794,7 +794,7 @@ WORDS.bat = {
     qu: ["chiñi", "ˈtʃiɲi"],  // A Quechua word for the bat. Unrelated to ukucha 'mouse' and pisqu 'bird'.
     zh_db: ["蝙蝠", "pjɛn˥ fu˧˥"],  // Harbin uses 蝙蝠 alongside local 燕别咕 'eaves-bat' forms; 蝙蝠 expands Old Chinese 蝠 'bat'.
     zh_sc: ["檐老鼠儿", "iɛn˨˩ nau˥˧ suɚ˥˧"],  // Literally 'eaves mouse': 檐 'eaves' plus 老鼠 'mouse, rat'.
-    za: ["vumzvauz", "βum˧˩ βaːu˧˩"],  // The second syllable matches Bouyei waauz 'bat'.
+    za: ["vumzvauz", "βum˧˩ βaːu˧˩"],  // The second syllable matches Bouyei waauz 'bat'. Wiktionary gives only the Bouyei cognate, and it is unrelated to nou 'rat' and roeg 'bird'. No image is recorded for it, so it counts as a word of its own.
     jv: ["lawa", "lɔwɔ"],  // Inherited from Old Javanese lawā 'bat'; kalong is the large fruit bat and kampret a small bat.
     su: ["lalay", "lalaj"],  // The general Sundanese word for bat; kalong is the large fruit bat. Unrelated to beurit 'mouse' and manuk 'bird'.
     fj: ["beka", "mbeka"],  // Inherited from Proto-Oceanic *bʷeka 'flying fox'; by extension it also names a boil in the armpit.
@@ -926,9 +926,9 @@ WORDS.bat = {
     cho: ["hʋlambisha", "həlambiʃa"],  // The Choctaw word; its origin is not documented. No image is recorded for it, so it counts as a word of its own.
     apw: ["chʼabaané", "tʃʼabaːné"],  // The Western Apache word; its origin is not documented. No image is recorded for it, so it counts as a word of its own.
     abs: ["mursegu", "murseɡu"],  // Borrowed from Portuguese morcego, which goes back to Latin for 'blind mouse'.
-    pcc: ["waauz", "waːu˩˩"],  // Related to the second syllable of Zhuang vumzvauz and Thai ค้างคาว.
+    pcc: ["waauz", "waːu˩˩"],  // Related to the second syllable of Zhuang vumzvauz and Thai ค้างคาว. Wiktionary gives only the Zhuang cognate vumzvauz, and Thai ค้างคาว is coloured as a word of its own. No image is recorded for it, so it counts as a word of its own.
     tyz: ["ca cào", "kaː˧˧ kaːw˧˨"],  // Its second part is related to Bouyei waauz and Thai ค้างคาว; the word also names the flying fox. Route by resemblance to the neighbouring forms (th(ค้างคาว)); no etymology of its own.
-    hy_grab: ["չիղջ", "tʃʰiʁdʒ"],  // The Bible word for the bat (Leviticus 11:19), probably an ideophone; modern Armenian adds the diminutive to get չղջիկ.
+    hy_grab: ["չիղջ", "tʃʰiʁdʒ"],  // The Bible word for the bat (Leviticus 11:19), probably an ideophone; modern Armenian adds the diminutive to get չղջիկ. Wiktionary calls its origin uncertain; it is unrelated to մուկն 'mouse' and թռչուն 'bird', and the modern word built on it is coloured as a word of its own.
     mfe: ["sovsouri", "sovsuri"],  // From French chauve-souris, literally 'bald mouse'.
     ban: ["lawah", "lawah"],  // The same word as Javanese lawa 'bat', from an older Austronesian name for the flying squirrel.
     it_dan: ["vispistrello", "vispisˈtrɛllo"],  // Dante's form of pipistrello (Inferno XXXIV), from Latin vespertilio, the 'evening creature'.
@@ -1011,7 +1011,7 @@ WORDS.bat = {
     bug: ["panning", "panːiŋ"],  // The Buginese word for the bat; its origin is not established here. No image is recorded for it, so it counts as a word of its own.
     hmn: ["puav", "pua˨˦"],  // Probably borrowed from Middle Chinese 蝠 'bat', the second syllable of Chinese 蝙蝠.
     kam: ["ũvuvu", "oβuβu"],  // The Kamba word for the bat. Unrelated to mbia 'rat' and nyunyi 'bird'.
-    bem: ["kasusu", "kasusu"],  // The Bemba word for the bat; the plural is tususu.
+    bem: ["kasusu", "kasusu"],  // The Bemba word for the bat; the plural is tususu. Route by resemblance to the neighbouring forms (tum(kasuska)); no etymology of its own.
     bs: ["šišmiš", "ˈʃiʃmiʃ"],  // A 'fluttering mouse': the second element is miš 'mouse', as in Croatian šišmiš.
     ssw: ["lilulwane", "lilulwane"],  // The same word as Zulu and Xhosa ilulwane.
     nd: ["ululwane", "ululwane"],  // The same word as Zulu ilulwane.
@@ -1024,7 +1024,7 @@ WORDS.bat = {
     drs: ["cirrichcho", "tʃʼirːitʃːo"],  // The Gedeo word for the bat. No image is recorded for it, so it counts as a word of its own.
     kha: ["lymbit", "ləmbit"],  // The Khasi word for the bat, used in both Khasi Bible translations.
     ndc: ["chinyamuremwaremwa", "tʃiɲamuremwaremwa"],  // The Ndau word for the bat; compare Shona karemwaremwa.
-    ve: ["mulemalema", "mulemalema"],  // The Venda word for the bat; the plural is milemalema.
+    ve: ["mulemalema", "mulemalema"],  // The Venda word for the bat; the plural is milemalema. Route by resemblance to the neighbouring forms (ny(mleme) ksb(ndema)); no etymology of its own.
     ach: ["olik", "olik"],  // The Acholi word for the bat. No image is recorded for it, so it counts as a word of its own.
     dag: ["zɔŋ", "zɔŋ"],  // The Dagbani word for the bat; the plural is zɔna. No image is recorded for it, so it counts as a word of its own.
     zne: ["fura", "fura"],  // The Zande word for the bat; the plural is afura. No image is recorded for it, so it counts as a word of its own.
@@ -1072,7 +1072,7 @@ WORDS.bat = {
     tet: ["niki", "niki"],  // Inherited from Proto-Malayo-Polynesian *paniki 'fruit bat', the same word as Tagalog paniki.
     new: ["चिकंलापा", "tɕikə̃lapa"],  // The Newar word for both large and small bats.
     lez: ["кьаркьулув", "qʼarqʼuluv"],  // The common Lezgian word for the bat; some villages say хъархъаба instead.
-    szl: ["gacopjyrz", "ɡaˈtsɔpjɪʂ"],  // The Silesian word, related to dialectal Polish gacopierz.
+    szl: ["gacopjyrz", "ɡaˈtsɔpjɪʂ"],  // The Silesian word, related to dialectal Polish gacopierz. Polish dialect gacopierz is a blend of gacek and nietoperz (Wiktionary, which compares Silesian). Route by resemblance to the neighbouring forms (pl(nietoperz) csb(szãtopiérz)); no etymology of its own.
     fy: ["flearmûs", "ˈfliərmuːs"],  // Literally 'flutter-mouse', like Dutch vleermuis and German Fledermaus.
     ses: ["atafirfir", "atafirfir"],  // The Koyraboro Senni word for the bat.
     ho: ["mariboi", "mariboi"],  // The Hiri Motu word for the bat, as used in the Hiri Motu Bible. No image is recorded for it, so it counts as a word of its own.
@@ -1080,7 +1080,7 @@ WORDS.bat = {
     kjb: ["sotzʼ", "sotsʼ"],  // Inherited from Proto-Mayan *sootzʼ 'bat' (Kaufman), the word shared across the Mayan family.
     cuk: ["uksir", "uksir"],  // The Kuna word for the bat, as used in the Kuna Bible. No image is recorded for it, so it counts as a word of its own.
     mzh: ["asus", "asus"],  // The Wichí word for the bat, as used in the Wichí Bible. No image is recorded for it, so it counts as a word of its own.
-    rar: ["moa kirikiri", "moa kiɾikiɾi"],  // The Cook Islands Māori name for the bat, as used in both editions of the Cook Islands Bible.
+    rar: ["moa kirikiri", "moa kiɾikiɾi"],  // The Cook Islands Māori name for the bat, as used in both editions of the Cook Islands Bible. moa is 'fowl, chicken' (Proto-Polynesian *moa; Wiktionary s.v. Samoan and Rapa Nui moa), so the bat is named as a kind of fowl.
     yan: ["umis", "umis"],  // The Mayangna word for the bat, plural umis balna. No image is recorded for it, so it counts as a word of its own.
     kos: ["fak", "fak"],  // The Kosraean word for the bat, as used in the Kosraean Bible. No image is recorded for it, so it counts as a word of its own.
     yap: ["maglʼaw", "maɡlʼaw"],  // The Yapese word for the bat, as used in the Yapese Bible. No image is recorded for it, so it counts as a word of its own.
@@ -1088,11 +1088,11 @@ WORDS.bat = {
     bsk: ["gonoolanas", "ɡonoːlanas"],  // The Burushaski word for the bat, plural gonoolanasho; stress is left unmarked because the source does not give it. No image is recorded for it, so it counts as a word of its own.
     usp: ["sootzʼ", "soːtsʼ"],  // Inherited from Proto-Mayan *sootzʼ 'bat' (Kaufman), keeping the long vowel.
     cr: ["ᐊᐸᐦᒁᒌᐢ", "apahkwaːtʃiːs"],  // The Plains Cree word for the bat, apahkwâcîs in Roman spelling; a variant pahkwâcîs is also listed. No image is recorded for it, so it counts as a word of its own.
-    atj: ["apokwaratcic", "apokwaɾatʃiʃ"],  // The Atikamekw word for the bat, related to Plains Cree apahkwâcîs.
+    atj: ["apokwaratcic", "apokwaɾatʃiʃ"],  // The Atikamekw word for the bat, related to Plains Cree apahkwâcîs. Route by resemblance to the neighbouring forms (cr(ᐊᐸᐦᒁᒌᐢ)); no etymology of its own.
     mch: ["dede", "deɾ̠e"],  // The Yeʼkwana word for bats in general, also the name of the greater bulldog bat and of a basket motif.
     agr: ["jiincham", "hiːntʃam"],  // The Awajún word for the bat; stress is left unmarked. No image is recorded for it, so it counts as a word of its own.
     car: ["rere", "ɾeɾe"],  // The Kariʼna word for the bat, also spelled lele.
-    crn: ["átziʼi", "ˈatsiʔi"],  // The Cora word for the bat, plural átziʼise; Wiktionary compares Huichol ʼási.
+    crn: ["átziʼi", "ˈatsiʔi"],  // The Cora word for the bat, plural átziʼise; Wiktionary compares Huichol ʼási. Route by resemblance to the neighbouring forms (hch(ʼatsixi)); no etymology of its own.
     lkt: ["ȟupákiglake", "χupákiɡlake"],  // The Lakota word for the bat.
     aqc: ["къелълъибожо", "qʼeɬːiboʒo"],  // An Archi word of its own for the bat, which WOLD classes as unanalyzable.
     stq: ["Fledermúus", "ˈfleːdərmuːs"],  // Like its cousins German Fledermaus and West Frisian flearmûs, a 'flutter-mouse'.
@@ -1126,11 +1126,11 @@ WORDS.bat = {
     moc: ["naʔgaʁanaʁa", "naʔɡaʁanaʁa"],  // The Mocoví word for the bat, which IDS segments into several morphemes.
     cag: ["ʃejɔ", "ʃejɔ"],  // The Nivaclé word for the bat, the one the Nivaclé Bible uses (IDS also lists fakliʔs). No image is recorded for it, so it counts as a word of its own.
     tue: ["oso", "oˈso"],  // The Tuyuca word for the bat. [Both Huber's osó and IDS's o'so put the accent on the second syllable]
-    dzg: ["batata", "bàtàtá"],  // Marked ar. (Arabic loan); synonyms lebelebeti, mîri, wûruwuruma.
+    dzg: ["batata", "bàtàtá"],  // Marked ar. (Arabic loan); synonyms lebelebeti, mîri, wûruwuruma. Route by resemblance to the neighbouring forms (kr(batata)).
     zag: ["farfara", "faɾfaɾa"],
     ttq: ["afărtătta", "afærtætːa"],  // Also called ăḍaggal ən-təfuk, 'in-law of the sun' (Prasse: ăḍaggal 'father-in-law, son-in-law'). No image is recorded for it, so it counts as a word of its own.
     gha: ["abeddedar", "abɐdːɐdar"],  // Lanfry gives no make-up. No image is recorded for it, so it counts as a word of its own.
-    siz: ["əlwaṭwaṭ", "əlwatˤwatˤ"],  // Laoust also records ašəṭṭiṭ n irəlil, built on ašəṭṭiṭ 'little bird'.
+    siz: ["əlwaṭwaṭ", "əlwatˤwatˤ"],  // Laoust also records ašəṭṭiṭ n irəlil, built on ašəṭṭiṭ 'little bird'. Route by resemblance to the neighbouring forms (rif(ⵍⵡⴻⴹⵡⴰⴹ)); no etymology of its own.
     cdo: ["琵琶兜壁", "pi˥˧ pa˥˧ tau˥˥ pieʔ˨˦"],  // The Fuzhou everyday word, Bàng-uâ-cê bì-bà-dău-biék; the formal 蝙蝠 is also used. Literally 'the pipa clinging to the wall'.
     ceb: ["kwaknit", "ˈkwaknit"],  // The general Cebuano word for a bat; kabog is the large fruit bat (flying fox). Unrelated to ilaga 'rat' and langgam 'bird'.
     hil: ["kabog", "kaˈboɡ"],  // The Hiligaynon word for the bat. Route by resemblance to the neighbouring forms (Maranao kabeg); no etymology of its own.
@@ -1138,7 +1138,7 @@ WORDS.bat = {
     mos: ["zãnga", "zãŋɡa"],  // The Mooré word for the bat, plural zãmse; zãnkita is a small bat. No image is recorded for it, so it counts as a word of its own.
     azb: ["یاراسا", "jɑrɑˈsɑ"],  // The same word as Azerbaijani and Turkish yarasa, inherited from Proto-Turkic; گئجه قوشو night bird is a synonym.
     st: ["mmankgane", "mːaŋkxane"],  // The Sesotho word for the bat; the bat-eared fox is phokojwe e ditsebe tsa mankgane, the fox with bat ears. No image is recorded for it, so it counts as a word of its own.
-    nso: ["mmankgagane", "mːaŋkxʰaɣane"],  // The Northern Sotho word for the bat; Bibles also use the diminutive mmankgaganyane.
+    nso: ["mmankgagane", "mːaŋkxʰaɣane"],  // The Northern Sotho word for the bat; Bibles also use the diminutive mmankgaganyane. Route by resemblance to the neighbouring forms (st(mmankgane)); no etymology of its own.
     ki: ["rũhuhu", "ɾohuhu"],  // The Kikuyu word for the bat, plural mahuhu.
     sn: ["chiremwaremwa", "tʃiremwaremwa"],  // The Shona word for the bat, plural zviremwaremwa; some texts put the same stem in the mu- class, muremwaremwa.
     ku: ["şevşevok", "ʃɛvʃɛˈvok"],  // One of many Kurmanji names for the bat, the one used in the Kurmanji Bible; perçemk is another. Built on şev 'night'.
@@ -1176,13 +1176,13 @@ WORDS.bat = {
     ar_gulf: ["سحية", "siˈħijja"],  // The Gulf dialect word sḥiyya for the bat, also in the phrase سحية الليل; its origin is not given in the source. No image is recorded for it, so it counts as a word of its own.
     ar_ye: ["خواف", "xuˈwaːf"],  // The Yemeni word xuwāf, glossed in Arabic as الوطواط، الخفاش 'the bat'. No image is recorded for it, so it counts as a word of its own.
     crk: ["ᐊᐸᐦᒁᒌᐢ", "apahkwaːtʃiːs"],  // The Plains Cree word for the bat, apahkwâcîs in Roman spelling; a variant pahkwâcîs is also listed. No image is recorded for it, so it counts as a word of its own.
-    ttj: ["ekihuguhugu", "ekihuɡuhuɡu"],  // The Rutooro word for the bat, plural ebihuguhugu, the same word as in Runyoro.
-    laj: ["olik", "olik"],  // The Lango word for the bat, the same word as Acholi olik.
+    ttj: ["ekihuguhugu", "ekihuɡuhuɡu"],  // The Rutooro word for the bat, plural ebihuguhugu, the same word as in Runyoro. Route by resemblance to the neighbouring forms (nyo(ekihuguhugu)); no etymology of its own.
+    laj: ["olik", "olik"],  // The Lango word for the bat, the same word as Acholi olik. Route by resemblance to the neighbouring forms (ach(olik)); no etymology of its own.
     pdc: ["Fleddermaus", "ˈflɛdərmaʊs"],  // Like German Fledermaus, a 'flutter-mouse'; the same word can also mean a butterfly or moth.
     pdt: ["Flautamüss", "ˈflautamys"],  // Literally a 'flutter-mouse', built on Mus 'mouse'; the Plautdietsch Bible renders Isaiah 2:20 'de Mies un Flautamies' (the mice/moles and the bats).
     arn: ["püṉüyken", "pɨn̪ɨjken"],  // The Mapudungun word for the bat, also written pinüyke; its make-up is not explained in the sources.
     bxr: ["һарьһан эрбээхэй", "harʲhaŋ erbeːxej"],  // The Buryat name, the counterpart of Mongolian сарьсан багваахай; the Buryat Bible uses it in Isaiah 2:20 'мана һохорнууд, һарьһан эрбээхэйнүүд' (moles and bats).
-    inh: ["бурдолг", "burdolɡ"],  // The Ingush word for the bat, the counterpart of Chechen бирдолаг; its origin is not explained in the sources.
+    inh: ["бурдолг", "burdolɡ"],  // The Ingush word for the bat, the counterpart of Chechen бирдолаг; its origin is not explained in the sources. Route by resemblance to the neighbouring forms (ce(бирдолаг)); no etymology of its own.
     urh: ["adjan", "adʒã"],  // The Urhobo word for the bat; Ukere's dictionary also lists ehuhu 'bat', and the Bible names the bat adjan in Deuteronomy 14:18 ('evwu vwẹ adjan'). No image is recorded for it, so it counts as a word of its own.
     pis: ["flaefokis", "flaefokis"],  // From English 'flying fox', the large fruit bat of the Solomon Islands, which is the only bat word the Pijin dictionary gives.
     zap: ["biguidi beela", "biɡidi bḛla"],  // Literally a 'flesh butterfly': biguidi' is 'butterfly' and beela 'meat, flesh' in Pickett's Isthmus Zapotec vocabulary.
@@ -1191,7 +1191,7 @@ WORDS.bat = {
     tji: ["retasei", "zie˨˩tʰa˨˩sɯi˥˥"],  // Built from re 'mouse' and tasei 'butterfly', a mouse-butterfly, as Brassett's Tujia lexicon glosses the parts; tones follow Brassett (re3 ta3 sei1).
     pcd: ["cate seuris", "kat søʁi"],  // The same image as French chauve-souris, with seuris 'mouse'; an old Picard rhyme begins 'Cate seuris rapache par chi'.
     fur: ["gnotul", "ˈɲɔtul"],  // The Friulian word for the bat, with variants notul, gnutul and nuatol; figuratively it also means a dimwit. Built on gnot 'night'.
-    rue: ["пергач", "perˈhatʃ"],  // The Carpathian Rusyn word for the bat, cognate with Ukrainian dialect пергач; the Rusyn Wikipedia also uses the compound мышперхач.
+    rue: ["пергач", "perˈhatʃ"],  // The Carpathian Rusyn word for the bat, cognate with Ukrainian dialect пергач; the Rusyn Wikipedia also uses the compound мышперхач. Wiktionary traces it, with Ukrainian перга́ч, to earlier пирга́ч, whose пир- is the *pyřь 'flier' of Proto-Slavic *netopyřь (as in Polish nietoperz), and links -гач to *gaťę 'underpants'.
     nij: ["pandan", "pandan"],  // The Ngaju word for the bat in Hardeland's dictionary; pandan doho is a large reddish-brown species. No image is recorded for it, so it counts as a word of its own.
     ksb: ["ndema", "ndema"],  // The Shambala word for the bat in Seidel's 1895 handbook, a noun of the N- class. No image is recorded for it, so it counts as a word of its own.
     nia: ["bögi", "bɤɡi"],  // The Nias word for the bat; the Nias Wikipedia names kinds such as bögi lae, bögi helua and bögi mbanua. No image is recorded for it, so it counts as a word of its own.
@@ -1200,7 +1200,7 @@ WORDS.bat = {
     co: ["topu pinnutu", "ˈtɔpu pinˈnutu"],  // Built on topu, 'mouse': the 'winged mouse', the name of the Corsican Wikipedia article and of the island's bat group, Topi Pinnuti.
     her: ["ondiri", "ondiri"],  // The Herero word for the bat, given by Kolbe's 1883 dictionary; Isaiah 2:20 throws the idols 'ozohukuha nozondiri', to the moles and the bats. No image is recorded for it, so it counts as a word of its own.
     bru: ["asĩap", "ʔasiap"],  // The Bru word for the bat, used in Leviticus 11:19 and Isaiah 2:20 ('cunâi cớp asĩap', rats and bats); the SIL dictionary also lists a synonym, ayiel. No image is recorded for it, so it counts as a word of its own.
-    ab: ["ахәлԥҵыс", "aχʷlpʰtsʼəs"],  // The Abkhaz word for the bat, with the a- prefix Abkhaz nouns carry in their dictionary form.
+    ab: ["ахәлԥҵыс", "aχʷlpʰtsʼəs"],  // The Abkhaz word for the bat, with the a- prefix Abkhaz nouns carry in their dictionary form. It ends in ҵыс, the Abkhaz аҵыс 'bird' (Wiktionary), like Adyghe чэщбзыу 'night bird'.
     enq: ["saima", "saima"],  // The Enga word for the bat, as given by the SIL Enga dictionary. The same word names the flying fox, unrelated to yúi 'rat' and yáka 'bird' (TransNewGuinea).
     tab: ["чаппархил", "tʃapːarχil"],  // The Tabasaran word for the bat, glossed 'bat, летучая мышь' by the Webonary Tabasaran dictionary, which gives the mouse a different word, кьюл. No image is recorded for it, so it counts as a word of its own.
     pwn: ["qaqaljic", "qaqaʎits"],  // The Paiwan word for the bat in the indigenous-language dictionary of Taiwan, which also lists the variant 'a'aljic.
@@ -1226,7 +1226,7 @@ WORDS.bat = {
     ers: ["jisui", "ji˥˥sui˥˥"],  // The Ersu word for the bat, as recorded by Sun Hongkai. No image is recorded for it, so it counts as a word of its own.
     liv: ["īeīr", "ˈiːeiːr"],  // Literally 'night mouse': īe 'night' plus īr 'mouse'.
     vot: ["nahkatiiru", "ˈnahkatiːru"],  // The Votic word for the bat, with nahka 'leather' as its first part, like Estonian nahkhiir.
-    ssf: ["baprak", "baprak"],  // The Thao word for the bat, as in isa hulus a tanaraus ianan baprak latata 'there is a bat under the clothes'.
+    ssf: ["baprak", "baprak"],  // The Thao word for the bat, as in isa hulus a tanaraus ianan baprak latata 'there is a bat under the clothes'. Wiktionary gives no etymology; it is unrelated to mashmash 'rat' and rumfaz 'bird' (ABVD). No image is recorded for it, so it counts as a word of its own.
     smn: ["nähkisuájá", "ˈnæhkisuaja"],  // Literally 'skin wing': nähki 'skin, leather' plus suájá 'wing'.
     tsi: ["dza̱g̱a̱da̱xtxaaył", "dzʌɢʌdʌχtχaːjɬ"],  // The Sm'algyax word for the bat, from Dunn's Practical Dictionary of Coast Tsimshian; g̱a̱ba̱laas is also recorded.
     kwk: ["baḵ̕wa̱lawi", "baqʼʷəlawi"],  // The Kwak'wala word for the bat, recorded by Lorraine Hunt. No image is recorded for it, so it counts as a word of its own.
@@ -1235,7 +1235,7 @@ WORDS.bat = {
     tsu: ["kupica", "kupitsa"],  // The Tsou word for the bat. No image is recorded for it, so it counts as a word of its own.
     tao: ["panici", "panitɕi"],  // The Yami (Tao) word for the bat; the dictionary also lists peypeynget for a small bat species. No image is recorded for it, so it counts as a word of its own.
     pyu: ["balakenitr", "baɭakəniʈ"],  // The Puyuma word for the bat, which the dictionary also gives for a black umbrella.
-    vep: ["öläpäkaine", "ˈølæpækaine"],  // The Veps word for the bat, glossed 'bat (flying mouse)' in the VepKar dictionary.
+    vep: ["öläpäkaine", "ˈølæpækaine"],  // The Veps word for the bat, glossed 'bat (flying mouse)' in the VepKar dictionary. It begins with ö 'night' (NorthEuraLex) and continues the stem of Finnish lepakko, 'the flutterer' (Wiktionary: Proto-Finnic *lëpakkoi). Route by resemblance to the neighbouring forms (fi(lepakko) olo(yöliivoi)); no etymology of its own.
     niu: ["peka", "peka"],  // Inherited from Proto-Oceanic *bʷeka 'fruit bat, flying fox'; the flying fox is Niue's bat, and the Niue Bible uses peka for the bat.
     moh: ["tsikeraʼwíhstak", "dziɡeraʔwíhstak"],  // The Mohawk word for the bat; the Six Nations list also gives yakohónhtariks, and the Mohawk Bible ends the unclean birds of Leviticus 11:13-19 with the related form tsiʼkerawístiks.
     ruq: ["lilic", "liˈlik"],  // Borrowed from Turkish, like Aromanian liliac; Capidan's example is a folk cure: if you cough, catch a bat and spit three times into its mouth.

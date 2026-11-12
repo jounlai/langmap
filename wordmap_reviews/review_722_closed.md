@@ -25,3 +25,27 @@ akjan (forms not near-identical to the cited neighbours).
 
 Notes fixed after applying: 19 resemblance notes said "no etymology of its own" after giving one (fi meduusa from Swedish,
 mt qarnit from Arabic, ln tomáti from Bangi, …); that clause is dropped there and kept where the cell's own origin is untraced.
+
+## Group 1 — grandmother, uncle, olderbrother, wife, husband, we (structural)
+97 proposed, 97 applied: grandmother 18 (one 16, split 2 — mdf баба/щава, bxr хүгшэн эжы/нагаса эжы), uncle 14 (one 12,
+split 2 — lo follows Thai ลุง/อา, sah абаҕа/таай), olderbrother 2 (plain), wife 34 (own 24, woman 5, other 5), husband 24
+(own 17, other 3, spouse 2, man 2), we 5 (Grambank GB028 + IDS: kmc clusive; gqu, gha, siz, zts single).
+KinBank counted only where the source records both sides (lists that repeat one word in both slots don't count).
+Held (policy): a wife word BUILT ON the woman word (mad bine/bebini', sas, mdr, hai, lep, bdq, wal) — kept unknown.
+Cell fixes held for a later pass (g1_cellfix.json): we nan_hai/bft/lbj (clusive, one form in the cell); uncle prg/om/nn
+(cell holds the mother's-brother word); grandmother ml/xal (cell is the generic word).
+Doubts not changed: yo/sd/mni/zza wife and sd husband may not be the everyday word; ur भैया-type older brother; vro
+husband spelled as Estonian mees.
+
+## Group 4 — bat, thumb, littlefinger, foot, adamsapple, wisdomtooth, goosebumps, dragonfly, ladybird, bear
+101 proposed, 93 applied: bat 20, thumb 24 (big 6 — matua 'main' sm/wls, kunba mnk, -kuu zdj, tumma cuk; mother 3), littlefinger
+23 (hi कानी / or କାଣି small with the sa row, new कान्छी child with ne), dragonfly 7, ladybird 11 (other by the
+existing precedent), foot 2 (ets compound per Koelle 1854; wuu_jx distinct — Jiaxing leg 髈), adamsapple 3, wisdomtooth 2
+(ga fiacail forais, foras 'foundation of knowledge'), goosebumps 1. bear: all 21 kept.
+Held: tok bat (bird is the modifier, not the head), moc thumb (looks built on 'mother'), ee/gej thumb (first part
+unanalysed), agu thumb (no Awakateko gloss), bg кутре (no source names the puppy), yua turix (r unusual), oj bat (possible
+'roof covering' source).
+Note fixed: dzg batata keeps the resemblance route but no longer says "no etymology of its own" (the source marks it an
+Arabic loan). we.js header count 45 → 40 unknown.
+
+Total review 722: 637 cells routed (g3 85, g5 197 + xh, g2 165, g1 97, g4 93).

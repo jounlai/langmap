@@ -135,7 +135,7 @@ WORDS.littlefinger = {
     su: "plain",
     tl: "small",
     mi: "small",
-    hi: "unknown",
+    hi: "small",
     mr: "other",
     ta: "small",
     tr: "other",
@@ -144,11 +144,11 @@ WORDS.littlefinger = {
     kk: "plain",
     sah: "child",
     ckb: "plain",
-    ka: "unknown",
+    ka: "plain",
     lzz: "small",
     hy: "small",
     hyw: "small",
-    nv: "unknown",
+    nv: "small",
     sk: "small",
     sl: "child",
     hr: "small",
@@ -157,9 +157,9 @@ WORDS.littlefinger = {
     mk: "small",
     et: "small",
     se: "plain",
-    kpv: "unknown",
+    kpv: "plain",
     mrj: "small",
-    vep: "unknown",
+    vep: "plain",
     en_ie: "small",
     en_yk: "small",
     en_brum: "small",
@@ -191,7 +191,7 @@ WORDS.littlefinger = {
     vo: "plain",
     io: "small",
     nia: "child",
-    bik: "unknown",
+    bik: "plain",
     crh: "small",
     ba: "plain",
     srn: "small",
@@ -216,7 +216,7 @@ WORDS.littlefinger = {
     bn: "small",
     pa: "plain",
     pnb: "plain",
-    skr: "unknown",
+    skr: "plain",
     sd: "plain",
     ml: "small",
     kn: "small",
@@ -224,7 +224,7 @@ WORDS.littlefinger = {
     fa: "small",
     te: "unknown",
     gu: "unknown",
-    or: "unknown",
+    or: "small",
     mg: "small",
     ceb: "plain",
     ilo: "plain",
@@ -268,7 +268,7 @@ WORDS.littlefinger = {
     si: "small",
     hne: "small",
     awa: "small",
-    bgc: "unknown",
+    bgc: "plain",
     ny: "plain",
     tn: "small",
     st: "small",
@@ -284,25 +284,25 @@ WORDS.littlefinger = {
     mn: "plain",
     tt: "unknown",
     ky: "plain",
-    hil: "unknown",
+    hil: "plain",
     sat: "unknown",
     ak: "other",
     ti: "plain",
     kab: "small",
-    min: "unknown",
+    min: "plain",
     nso: "small",
-    lg: "unknown",
+    lg: "plain",
     kri: "other",
     ee: "other",
     scn: "small",
     hmn: "plain",
     tpi: "small",
     shn: "small",
-    din: "unknown",
+    din: "other",
     kam: "unknown",
     nyn: "other",
     tum: "plain",
-    ssw: "unknown",
+    ssw: "plain",
     kmb: "small",
     ace: "plain",
     bjn: "plain",
@@ -313,7 +313,7 @@ WORDS.littlefinger = {
     pag: "plain",
     pwo: "unknown",
     ce: "unknown",
-    nd: "unknown",
+    nd: "plain",
     kha: "other",
     teo: "small",
     efi: "small",
@@ -329,13 +329,13 @@ WORDS.littlefinger = {
     rgn: "small",
     quz: "child",
     nyo: "small",
-    aii: "unknown",
+    aii: "small",
     os: "child",
     lus: "small",
     tzh: "child",
     yua: "child",
     gaa: "unknown",
-    new: "unknown",
+    new: "child",
     dtp: "plain",
     mt: "small",
     kaa: "unknown",
@@ -347,7 +347,7 @@ WORDS.littlefinger = {
     xmf: "small",
     tyv: "small",
     inh: "unknown",
-    bxr: "unknown",
+    bxr: "plain",
     fj: "small",
     pap: "small",
     nxq: "plain",
@@ -363,13 +363,13 @@ WORDS.littlefinger = {
     gag: "small",
     ast: "plain",
     lbe: "unknown",
-    ami: "unknown",
+    ami: "small",
     cnh: "unknown",
     fo: "small",
     crs: "small",
     cr: "small",
     mh: "small",
-    pwn: "unknown",
+    pwn: "child",
     bnn: "plain",
     vro: "small",
     abq: "unknown",
@@ -382,7 +382,7 @@ WORDS.littlefinger = {
     frr: "small",
     krl: "plain",
     olo: "plain",
-    kmh: "unknown",
+    kmh: "plain",
     pau: "child",
     rtm: "small",
     oj: "other",
@@ -408,7 +408,7 @@ WORDS.littlefinger = {
     kw: "small",
     tkl: "child",
     pyu: "plain",
-    smn: "unknown",
+    smn: "plain",
     chr: "small",
     chy: "small",
     ia: "other",
@@ -420,7 +420,7 @@ WORDS.littlefinger = {
     tlh: "plain",
     sjd: "plain",
     yur: "small",
-    kwk: "unknown",
+    kwk: "plain",
     tsi: "small",
     koy: "unknown",
     zh_tang: "small",
@@ -587,7 +587,7 @@ WORDS.littlefinger = {
     su: ["cingir", "tʃiŋir"],  // The Sundanese everyday word; Indonesian says kelingking.
     tl: ["hinliliit", "hinliliˈʔit"],  // From liit 'small', built like hinlalaki for the thumb; kalingkingan is a synonym.
     mi: ["kōiti", "koːiti"],  // Built on iti 'small'; Te Aka also gives koroiti and tōiti.
-    hi: ["कानी उँगली", "kaːniː ʊŋɡliː"],  // Kānī alone also means the little finger; it is inherited from a Sanskrit word for it.
+    hi: ["कानी उँगली", "kaːniː ʊŋɡliː"],  // Kānī alone also means the little finger; it is inherited from a Sanskrit word for it. Wiktionary derives it from Sanskrit कनीनी kanīnī 'the little finger', of the family of कनिष्ठिका 'the smallest', which this map colours small.
     mr: ["करंगळी", "kəɾəŋɡɭiː"],  // Goes back to Sanskrit kara 'hand' + aṅguli 'finger', a 'hand-finger' that came to mean only the smallest one.
     ta: ["சுண்டுவிரல்", "suɳɖuʋiɾal"],  // Built on சுண்டு 'smallness'; the thumb is பெருவிரல்.
     tr: ["serçe parmak", "seɾˈtʃe paɾmak"],  // Literally the 'sparrow finger'; küçük parmak 'small finger' is a synonym.
@@ -596,11 +596,11 @@ WORDS.littlefinger = {
     kk: ["шынашақ", "ʃənɑʃɑq"],  // A word of its own, not a compound with бармақ 'finger'.
     sah: ["ылгын", "ɯlɡɯn"],  // The same word names the youngest, best-loved child of a family.
     ckb: ["تووتە", "tuːta"],  // The everyday Sorani word; it covers the little toe too. No image is recorded for it, so it counts as a word of its own.
-    ka: ["ნეკი", "nekʼi"],  // Also said in full as ნეკა თითი with თითი 'finger'.
+    ka: ["ნეკი", "nekʼi"],  // Also said in full as ნეკა თითი with თითი 'finger'. Wiktionary gives no etymology; it is unrelated to პატარა 'small' and ბავშვი 'child'. No image is recorded for it, so it counts as a word of its own.
     lzz: ["წულუ კითი", "tsʼulu kʼiti"],  // Literally 'small finger'; Armenian borrowed its word for the little finger from a Kartvelian form like this.
     hy: ["ճկույթ", "tʃəˈkujtʰ"],  // Borrowed long ago from a Kartvelian compound meaning 'small finger', compare Laz ǯulu ǩiti.
     hyw: ["ճկոյթ", "dʒəˈɡujtʰ"],  // Borrowed long ago from a Kartvelian compound meaning 'small finger', compare Laz ǯulu ǩiti.
-    nv: ["áláyáázh", "ʔɑ́lɑ́jɑ́ːʒ"],  // Starts like álaʼ 'hand' and álátsoh 'thumb'.
+    nv: ["áláyáázh", "ʔɑ́lɑ́jɑ́ːʒ"],  // Starts like álaʼ 'hand' and álátsoh 'thumb'. yáázh is 'little, small; young' (Wiktionary, from Proto-Athabaskan *-yažʷə), as the thumb álátsoh ends in tsoh 'big'.
     sk: ["malíček", "ˈmaliːtʃɛk"],  // A double diminutive built on malý 'small', the same word as in Czech.
     sl: ["mezinec", "mɛˈziːnəts"],  // From Proto-Slavic *mězinьcь, probably 'youngest son', the same word as Russian мизинец.
     hr: ["mali prst", "mâːliː pr̩̂st"],  // Simply the 'small finger'; often just mali 'the small one'.
@@ -609,9 +609,9 @@ WORDS.littlefinger = {
     mk: ["мал прст", "mal pr̩st"],  // Simply the 'small finger'.
     et: ["väike sõrm", "ˈʋæike sɤrm"],  // Simply the 'small finger'; also written väikesõrm or called pisisõrm.
     se: ["čelččen", "ˈtʃeːltʃːen"],  // A word of its own; čeŋkkeš is a synonym. No image is recorded for it, so it counts as a word of its own.
-    kpv: ["чаль", "tɕaʎ"],  // An old word inherited from Proto-Permic; it also names the little toe.
+    kpv: ["чаль", "tɕaʎ"],  // An old word inherited from Proto-Permic; it also names the little toe. Wiktionary: from Proto-Permic *ćäľ. No image is recorded for it, so it counts as a word of its own.
     mrj: ["изиварня", "izivɑrɲɑ"],  // Literally 'small finger': изи 'small' + парня 'finger'.
-    vep: ["čaksor'm", "ˈtʃaksorʲm"],  // The Veps word for the little finger; the sources give no etymology.
+    vep: ["čaksor'm", "ˈtʃaksorʲm"],  // The Veps word for the little finger; the sources give no etymology. Its first part matches Karelian and Livvi čagari, the little finger, and sor'm is 'finger'. Route by resemblance to the neighbouring forms (olo(čagari) krl(čagari)); no etymology of its own.
     en_ie: ["little finger", "ˈlɪtl̩ ˈfɪŋɡəɹ"],  // Simply the 'little' finger, a phrase going back to Old English lȳtel finger.
     en_yk: ["little finger", "ˈlɪtl̩ ˈfɪŋɡə"],  // Simply the 'little' finger, a phrase going back to Old English lȳtel finger.
     en_brum: ["little finger", "ˈlɪtl̩ ˈfɪŋɡə"],  // Simply the 'little' finger, a phrase going back to Old English lȳtel finger.
@@ -643,7 +643,7 @@ WORDS.littlefinger = {
     vo: ["rikül", "riˈkyl"],  // A root word of Schleyer's Volapük; the source gives no origin.
     io: ["mikrafingro", "mikraˈfinɡro"],  // Literally 'small finger'; orelofingro 'ear finger' is a synonym.
     nia: ["turu siakhi", "turu siaxi"],  // Literally the 'younger-sibling finger': akhi is a younger brother or sister, while the thumb is turu sebua 'big finger'.
-    bik: ["gigis", "ɡiˈɡis"],  // A word of its own; the thumb is tanggurang.
+    bik: ["gigis", "ɡiˈɡis"],  // A word of its own; the thumb is tanggurang. Wiktionary gives no etymology; it is unrelated to sadit 'small' and aki 'child' (ABVD). No image is recorded for it, so it counts as a word of its own.
     crh: ["kiçik parmaq", "kitʃik parmaq"],  // Simply the 'small finger', the partner of baş parmaq 'head finger' for the thumb.
     ba: ["сәтәкәй", "sætæˈkæj"],  // A word of its own, not a compound with бармаҡ 'finger'.
     srn: ["pikinfinga", "ˈpikinfiŋa"],  // Literally 'small finger' (pikin 'small' + finga 'finger').
@@ -668,7 +668,7 @@ WORDS.littlefinger = {
     bn: ["কড়ে আঙ্গুল", "kɔɽe aŋɡul"],  // Literally 'little finger' (কড়ে 'little, small' + আঙ্গুল 'finger'); কানি আঙ্গুল is an alternative form.
     pa: ["ਚੀਚੀ", "ˈtʃiːtʃiː"],  // A word of its own for the little finger, also used for the little toe.
     pnb: ["چیچی", "tʃiːtʃiː"],  // A word of its own for the little finger, also used for the little toe.
-    skr: ["چیچی", "tʃiːtʃiː"],  // A word of its own for the little finger, shared with Punjabi.
+    skr: ["چیچی", "tʃiːtʃiː"],  // A word of its own for the little finger, shared with Punjabi. Route by resemblance to the neighbouring forms (pa(ਚੀਚੀ) pnb(چیچی)); no etymology of its own.
     sd: ["چيچ", "tʃiːtʃə"],  // A word of its own for the little finger, which also names the little toe.
     ml: ["ചെറുവിരൽ", "tʃeɾuʋiɾal"],  // Literally 'small finger' (ചെറു 'small' + വിരൽ 'finger'), the partner of തള്ളവിരൽ 'thumb'.
     kn: ["ಕಿರುಬೆರಳು", "kiɾubeɾaɭu"],  // Literally 'small finger' (ಕಿರು 'small' + ಬೆರಳು 'finger'), the partner of ಹೆಬ್ಬೆರಳು 'thumb'.
@@ -676,7 +676,7 @@ WORDS.littlefinger = {
     fa: ["انگشت کوچک", "ʔæŋɡoʃte kutʃæk"],  // Literally 'small finger' (انگشت 'finger' + کوچک 'small').
     te: ["చిటికెనవేలు", "tʃiʈikenaʋeːlu"],  // చిటికెన + వేలు 'finger'; చిటికెన alone also names the little finger or toe.
     gu: ["ટચલી આંગળી", "ʈətʃliː aːŋɡəɭiː"],  // ટચલી + આંગળી 'finger'; ટચલી alone is also used.
-    or: ["କାଣି ଆଙ୍ଗୁଠି", "kaːɳi aːŋɡuʈʰi"],  // କାଣି + ଆଙ୍ଗୁଠି 'finger'; Praharaj derives it from Sanskrit kaniṣṭha 'least, youngest'.
+    or: ["କାଣି ଆଙ୍ଗୁଠି", "kaːɳi aːŋɡuʈʰi"],  // କାଣି + ଆଙ୍ଗୁଠି 'finger'; Praharaj derives it from Sanskrit kaniṣṭha 'least, youngest'. Its source word is the one behind Sanskrit कनिष्ठिका 'the smallest', which this map colours small.
     mg: ["ankihikely", "aŋkihiˈkeli"],  // Literally 'small finger' (ankihy 'finger' + kely 'small'), the partner of ankibe 'thumb'.
     ceb: ["kumingking", "kuˈmiŋkiŋ"],  // Short for kumalingking; Wolff files it under the root kingking 'do gingerly with the thumb and forefinger'. Route by resemblance to the neighbouring forms (mak(kaningking)); no etymology of its own.
     ilo: ["kikit", "kiˈkit"],  // A word of its own for the little finger; Ibatan uses the same word. Route by resemblance to the neighbouring forms (pag(kiking)); no etymology of its own.
@@ -720,7 +720,7 @@ WORDS.littlefinger = {
     si: ["සුළැඟිල්ල", "sulæŋɡilːə"],  // The everyday word for the little finger, beside ඇඟිල්ල 'finger'. Suḷu 'small' plus ängilla 'finger'.
     hne: ["छोटे अंगरी", "tʃʰoʈe əŋɡəɾiː"],  // Literally 'small finger' (छोटे 'small' + अंगरी 'finger').
     awa: ["नान्ह उँगरी", "naːnʱ ʊ̃ɡəri"],  // Literally 'small finger' (नान्ह 'small' + उँगरी 'finger').
-    bgc: ["छिंगुलिया", "tʃʰɪŋɡʊlijaː"],  // A word of its own for the little finger, the same word as Hindustani chhungliyā.
+    bgc: ["छिंगुलिया", "tʃʰɪŋɡʊlijaː"],  // A word of its own for the little finger, the same word as Hindustani chhungliyā. Route by resemblance to the neighbouring forms (ur(چھنگلیا)); no etymology of its own.
     ny: ["kanense", "kanense"],  // A word of its own for the little finger. No image is recorded for it, so it counts as a word of its own.
     tn: ["monwana o monnye", "monwana o moɲːe"],  // Literally 'the small finger' (monwana 'finger' + monnye 'small').
     st: ["monwana o monyenyane", "monwana o moɲeɲane"],  // Literally 'the small finger' (monwana 'finger' + monyenyane 'small').
@@ -736,14 +736,14 @@ WORDS.littlefinger = {
     mn: ["чигчий хуруу", "ˈtʃʰixtʃʰiː ˈxʊrʊː"],  // Чигчий alone is the word for the smallest finger or toe; хуруу means 'finger'.
     tt: ["чәнти бармак", "tɕænˈti bɑrˈmɑq"],  // Бармак means 'finger'; чәнчә бармак is a synonym.
     ky: ["чыпалак", "tʃɯpɑˈlɑq"],  // A word of its own for the little finger; sucking blood from each other's little fingers was an old form of oath.
-    hil: ["kamalingking", "kamaˈliŋkiŋ"],  // Kaufmann also lists kumalingking and tingayon; compare Cebuano kumingking and Tagalog kalingkingan.
+    hil: ["kamalingking", "kamaˈliŋkiŋ"],  // Kaufmann also lists kumalingking and tingayon; compare Cebuano kumingking and Tagalog kalingkingan. Route by resemblance to the neighbouring forms (bjn(kalingking) ceb(kumingking) mak(kaningking)); no etymology of its own.
     sat: ["ᱥᱤᱡ ᱠᱟᱹᱴᱩᱵ", "sitʃ kəʈup"],  // ᱠᱟᱹᱴᱩᱵ is 'finger'; the Santali Wikipedia also gives the spelling ᱥᱤᱵ ᱠᱟᱹᱴᱩᱵ.
     ak: ["kokɔbɛto", "kokɔbɛto"],  // Literally 'the fowl will lay': Christaller says it was the finger used to feel a hen and tell whether an egg was coming.
     ti: ["ሕንጥሊቶ", "ħɨntʼɨlito"],  // A word of its own, like the other Tigrinya finger names ending in -ቶ, such as ማእከለይቶ for the middle finger and ቀለቤቶ for the ring finger.
     kab: ["aḍad ameẓyan", "adˤad aməzˤjan"],  // Literally 'the small finger', the counterpart of aḍad ameqran 'the big finger', the thumb.
-    min: ["jari kalingkiang", "dʒari kaliŋkiaŋ"],  // The Minangkabau form of Indonesian jari kelingking; jari means 'finger'.
+    min: ["jari kalingkiang", "dʒari kaliŋkiaŋ"],  // The Minangkabau form of Indonesian jari kelingking; jari means 'finger'. Route by resemblance to the neighbouring forms (id(jari kelingking)); no etymology of its own.
     nso: ["monwana o monyenyane", "monwana o moɲeɲane"],  // Literally 'the small finger' (monwana 'finger'); the same phrase with wa leoto 'of the foot' is the little toe.
-    lg: ["nasswi", "nasːwi"],  // A word of its own for the little finger, also said in full as akagalo aka nasswi 'the little finger called nasswi'.
+    lg: ["nasswi", "nasːwi"],  // A word of its own for the little finger, also said in full as akagalo aka nasswi 'the little finger called nasswi'. Unrelated to -tono 'small' and mwana 'child'. No image is recorded for it, so it counts as a word of its own.
     kri: ["las fiŋa", "las ˈfiŋa"],  // Literally 'last finger', the one at the end of the hand.
     ee: ["asibidɛ kɔtoetɔ", "asibidɛ kɔtoetɔ"],  // Literally 'the end-of-the-line finger': Westermann glosses kɔtoetɔ as German Flügelmann, the man at the end of a row.
     scn: ["jiditeddu", "jidiˈtɛɖɖu"],  // Diminutive of jìditu 'finger', so the 'little finger'; it can also mean a small finger in general.
@@ -754,7 +754,7 @@ WORDS.littlefinger = {
     kam: ["kyaa kya mwela", "kjaː kja mwela"],  // kyaa 'finger' + kya mwela; both Kamba Bible translations use this phrase for the little finger.
     nyn: ["akahera", "akahera"],  // Literally 'the small last one', the class-12 diminutive used especially for the fifth finger (Kaji's Rukiga vocabulary); compare Kinyarwanda agahera.
     tum: ["kamunwe", "kamunwe"],  // The Tumbuka word for the little finger, plural tumunwe; the thumb is chigunwe. No image is recorded for it, so it counts as a word of its own.
-    ssw: ["cikilicane", "ǀikiliǀane"],  // The Swazi counterpart of Zulu and Xhosa ucikicane, a word of its own for the little finger.
+    ssw: ["cikilicane", "ǀikiliǀane"],  // The Swazi counterpart of Zulu and Xhosa ucikicane, a word of its own for the little finger. Route by resemblance to the neighbouring forms (zu(ucikicane) xh(ucikicane)); no etymology of its own.
     kmb: ["mulembu ua teketeke", "mulembu wa teketeke"],  // Literally 'finger of the tiny one' (mulembu 'finger' + teketeke 'tiny'), against mulembu ua kikota 'finger of the elder' for the thumb.
     ace: ["giték", "ɡiteʔ"],  // The Acehnese word for the little finger; in a saying the five fingers stand for the Prophet and the four caliphs, and giték is Ali. No image is recorded for it, so it counts as a word of its own.
     bjn: ["kalingking", "kaliŋkiŋ"],  // The Banjar form of Indonesian kelingking. Route by resemblance to the neighbouring forms (mak(kaningking) pam(kalingkingan) ceb(kumingking) tsg(kingking)); no etymology of its own.
@@ -765,7 +765,7 @@ WORDS.littlefinger = {
     pag: ["kiking", "kiˈkiŋ"],  // A word of its own, continuing Proto-Malayo-Polynesian *kiŋkiŋ 'little finger'; Benton's 1971 dictionary writes it kekéng.
     pwo: ["စူၪဒ့ၭ", "su ɗeʔ"],  // Built on စူၪ 'hand', like စူၪမု for the thumb; the second element is not explained in the sources.
     ce: ["цӏазапӏелг", "tsʼazapʼelɡ"],  // Ends in пӏелг 'finger', like нана-пӏелг 'mother finger' for the thumb; the first element is not explained in the sources.
-    nd: ["ucikilicane", "uǀikiliǀane"],  // The Northern Ndebele word, close to Zulu ucikicane; c is the dental click.
+    nd: ["ucikilicane", "uǀikiliǀane"],  // The Northern Ndebele word, close to Zulu ucikicane; c is the dental click. Route by resemblance to the neighbouring forms (zu(ucikicane) xh(ucikicane)); no etymology of its own.
     kha: ["'tiduh", "tiduʔ"],  // Literally 'the last finger' ('ti, short for kti 'hand'), as Singh's 1906 dictionary glosses it; 'tikhun is given as a synonym.
     teo: ["ibokorit", "ibokorit"],  // The diminutive of ebokorit 'finger' (diminutive nouns take i-, as ekinok 'dog' becomes ikin'ok 'puppy'); Ongodia defines it as the small finger at the end.
     efi: ["ekpri nnuenubọk", "ekpri n̩nuenubɔk"],  // Literally 'small finger' (ekpri 'small' + nnuenubọk 'finger').
@@ -781,13 +781,13 @@ WORDS.littlefinger = {
     rgn: ["did znìn", "did znin"],  // Literally 'small finger' (did 'finger' + znìn 'small'), the partner of did gròṣ 'big finger' for the thumb; Ercolani also lists mégnul, like Italian mignolo.
     quz: ["sullkʼa rukʼana", "suʎkʼa ɾukʼana"],  // Literally 'the younger finger' (sullkʼa 'younger, minor' + rukʼana 'finger'); the Cusco Academy also gives chana rukʼana, with chana 'the last-born child'.
     nyo: ["akaara", "akaːra"],  // A diminutive of ekyara 'finger' (class-12 prefix aka-), so literally the 'small finger'; the Runyoro-Rutooro Bible 2008 has 'Akaara kange akaheereera, nikakira ebibero bya isenyowe' ('my little finger is thicker than my father's loins', 1 Kings 12:10).
-    aii: ["ܚܨܪܐ", "xisˤra"],  // Built on the root ḥ-ṣ-r and related to Arabic خنصر; it also names the little toe, and the Assyrian Bible paraphrases with ܨܸܒܥܵܐ ܙܥܘܿܪܬܵܐ 'small finger' in 1 Kings 12:10.
+    aii: ["ܚܨܪܐ", "xisˤra"],  // Built on the root ḥ-ṣ-r and related to Arabic خنصر; it also names the little toe, and the Assyrian Bible paraphrases with ܨܸܒܥܵܐ ܙܥܘܿܪܬܵܐ 'small finger' in 1 Kings 12:10. Route by resemblance to the neighbouring forms (syc(ܚܨܪܐ) arc(ܚܨܪܐ)); no etymology of its own.
     os: ["кӕстӕр ӕнгуылдз", "kæstær ænɡʷɨldz"],  // Literally the 'youngest finger': кӕстӕр means 'younger, youngest', as in кӕстӕр лӕппу 'youngest son'; the Ossetian Bible has „Мӕ кӕстӕр ӕнгуылдз мӕ фыды агъдӕй ставддӕр у' (1 Kings 12:10).
     lus: ["kutzungtê", "kutzuŋte"],  // Literally 'hand-finger-small' (kut 'hand' + zung 'finger' + tê 'small'), and the ring finger is kutzungtê-u, the little finger's 'elder sibling'; the Mizo Bible has 'ka kutzungtê pawh hi ka pa kâwng ai chuan a khauh vang' (1 Kings 12:10).
     tzh: ["xutil kʼab", "ʃutil kʼaɓ"],  // Literally the 'youngest-child of the hand' (xut 'youngest son or daughter' + kʼab 'hand'); Cancuc and Oxchuc say chʼut instead, and the Bachajón Bible writes xutul yal jcʼab 'my hand's little youngest finger' (1 Kings 12:10).
     yua: ["tʼuup", "tʼuːp"],  // The same word means the youngest child of a family, so the little finger is the 'youngest one'.
     gaa: ["wao sɛɛkpelɔ", "wao sɛːkpelɔ"],  // Wao is 'finger'; both Ga Bibles use the phrase in 1 Kings 12:10, 'Miwao sɛɛkpelɔ ti fe mitsɛ hɛ' ('my little finger is thicker than my father's waist'), but the second element is not explained in the sources seen.
-    new: ["कान्छी पति", "kaːntɕʰi pəti"],  // Ends in पति 'finger'; the Newar Bible has 'जिमि बौया जँ स्‍वयाः जिगु कान्छी पतिं हे तःत्‍याः' ('my little finger is thicker than my father's waist', 1 Kings 12:10).
+    new: ["कान्छी पति", "kaːntɕʰi pəti"],  // Ends in पति 'finger'; the Newar Bible has 'जिमि बौया जँ स्‍वयाः जिगु कान्छी पतिं हे तःत्‍याः' ('my little finger is thicker than my father's waist', 1 Kings 12:10). Route by resemblance to the neighbouring forms (ne(कान्छी औंला)); no etymology of its own.
     dtp: ["gontikis", "ɡontikis"],  // A word of its own for the little finger; its make-up is not explained in the source. No image is recorded for it, so it counts as a word of its own.
     mt: ["suba' ż-żgħir", "suba zzɛjr"],  // Literally 'the small finger' (suba' 'finger' + żgħir 'small'); the Maltese Bible has 'Sebgħi ż-żgħir eħxen minn ġenbejn missieri' ('my little finger is thicker than my father's loins', 1 Kings 12:10).
     kaa: ["shunatay barmaq", "ʃunataj barmaq"],  // shunatay + barmaq 'finger'; the 2022 Karakalpak Bible has 'Meniń shunatay barmaǵım ákemniń belinen de juwanıraq' ('my little finger is thicker than my father's waist', 1 Kings 12:10); no dictionary entry was found.
@@ -799,7 +799,7 @@ WORDS.littlefinger = {
     xmf: ["ჭიჭე კითი", "tʃʼitʃʼe kʼitʰi"],  // Literally 'small finger' (ჭიჭე 'small' + კითი 'finger'), named alongside ჩანკითი for the thumb and შქა კითი 'middle finger'.
     tyv: ["биче-салаа", "bitɕe salaː"],  // Literally 'small finger' (биче 'small' + салаа 'finger'), the partner of улуг салаа 'big finger'; the Tuvan Bible has Мээң биче салаам ачамның белинден чоон at 1 Kings 12:10.
     inh: ["цӏаза пӏелг", "tsʼaza pʼelɡ"],  // Ends in пӏелг 'finger', as боккха пӏелг 'big finger' does for the thumb; the dictionaries seen do not explain цӏаза.
-    bxr: ["шэгшы хурган", "ʃeɡʃi xurɡaŋ"],  // шэгшы, the Buryat counterpart of Mongolian чигчий, followed by хурган 'finger'; the Buryat Bible has Минии шэгшы хурган эсэгымни бэлхүүһэнһээ бүдүүн юм at 1 Kings 12:10.
+    bxr: ["шэгшы хурган", "ʃeɡʃi xurɡaŋ"],  // шэгшы, the Buryat counterpart of Mongolian чигчий, followed by хурган 'finger'; the Buryat Bible has Минии шэгшы хурган эсэгымни бэлхүүһэнһээ бүдүүн юм at 1 Kings 12:10. Route by resemblance to the neighbouring forms (mn(чигчий хуруу)); no etymology of its own.
     fj: ["qaqalo lailai", "ŋɡaŋɡalo lailai"],  // Literally 'small finger' (qaqalo 'finger' + lailai 'small'), the partner of qaqalo levu 'big finger'; Fijian Bibles from 1864 on have A noqu i qaqalo lailai at 1 Kings 12:10.
     pap: ["dede chikí", "dede tʃiki"],  // Literally 'small finger' (dede 'finger' + chikí 'small', from Spanish chico); the 2013 Papiamentu Bible has Mi dede chikí ta mas diki ku mi tata su sintura at 1 Kings 12:10.
     nxq: ["alqersso", "ɑ˥tɕʰɚ˧zø˧"],  // A word of its own for the little finger in the Naxi Webonary dictionary, which also lists the variants ailqersseel and ailqerssif. No image is recorded for it, so it counts as a word of its own.
@@ -815,7 +815,7 @@ WORDS.littlefinger = {
     gag: ["küçük parmak", "kytʃyk parmak"],  // Literally 'small finger' (küçük 'small' + parmak 'finger'), like Turkish küçük parmak, the partner of baş parmak for the thumb.
     ast: ["moñín", "moˈɲin"],  // DALLA's main headword for the little finger (also deu moñín); meñín and pequeñín 'the tiny one' are synonyms. No image is recorded for it, so it counts as a word of its own.
     lbe: ["битӏя кӏисса", "bitʼja kʼisːa"],  // Ends in кӏисса 'finger'; the meaning of битӏя is not given in the source.
-    ami: ["salikikiʼ", "salikikiʔ"],  // Built with sali-, like salitataʼang 'thumb' from tataʼang 'big'; the dictionary does not gloss kikiʼ.
+    ami: ["salikikiʼ", "salikikiʔ"],  // Built with sali-, like salitataʼang 'thumb' from tataʼang 'big'; the dictionary does not gloss kikiʼ. ABVD gives kiʔkiʔ, kiqkiq for 'small' in Amis, so the little finger is the small one, as salitataʼang the thumb is the big one.
     cnh: ["hngete", "hŋete"],  // The word the 2019 Lai Bible uses in 1 Kings 12:10: 'Ka hngete cu ka pa tai nakin a chah deuh' (my little finger is thicker than my father's waist).
     fo: ["lítlifingur", "ˈlʊihtlɪfɪŋkʊɹ"],  // Literally 'little finger' (lítli 'little' + fingur 'finger'); the Faroese Bible has 'Lítlifingur mín er tjúkri enn mjadnir faðirs míns!' (1 Kings 12:10).
     crs: ["pti ledwa", "pti ledwa"],  // Literally 'little finger' (pti 'little' + ledwa 'finger', from French le doigt); the Kreol Bible has 'Mon pti ledwa i pli gro ki leren mon papa' (1 Kings 12:10).
@@ -834,7 +834,7 @@ WORDS.littlefinger = {
     frr: ["latjfainger", "ˈlatʲfaiŋɐ"],  // Literally 'little finger' (latj 'little' + fainger 'finger'); it is also written as two words, di latje fainger.
     krl: ["čagari", "ˈtʃɑɡɑri"],  // Karelian's own word for the little finger, the same word as Livvi and Ludian čagari.
     olo: ["čagari", "ˈtʃaɡari"],  // Livvi's own word for the little finger (genitive čagarin), shared with Karelian Proper and Ludian; VepKar also lists the variant čagoi. No image is recorded for it, so it counts as a word of its own.
-    kmh: ["sabdaŋ", "sabədaŋ"],  // Kalam's own word for the little finger, which is also 'one' in the body-part counting system that starts from it; saglaŋ is a synonym.
+    kmh: ["sabdaŋ", "sabədaŋ"],  // Kalam's own word for the little finger, which is also 'one' in the body-part counting system that starts from it; saglaŋ is a synonym. No image is recorded for it, so it counts as a word of its own.
     pau: ["ngalek", "ˈŋalək"],  // The same word as ngalek 'child, baby', so the little finger is the 'child' of the hand.
     rtm: ["käkäʻ meaʻmeaʻ he ta", "kækæʔ meaʔmeaʔ he ta"],  // Literally 'the one small finger' (käkäʻ 'finger' + meaʻmeaʻ 'small' + he ta 'the one'), the counterpart of käkäʻ mafua he ta for the thumb.
     oj: ["ishkweninj", "iʃkwenindʒ"],  // The 'end finger': built on ishkwe- 'at the end', with the same -ninj 'finger' ending as midechininj 'thumb'.
@@ -860,7 +860,7 @@ WORDS.littlefinger = {
     kw: ["bys byghan", "bɪz ˈbɪxən"],  // Literally 'small finger' (bys 'finger' + byghan 'small'); the Kernewek Bible has 'Ow bys byghan yw tewa ages diwglun ow thas' (1 Kings 12:10).
     tkl: ["muamuālima tama", "muamuaːlima tama"],  // muamuālima 'finger' + tama, which Simona's dictionary gives both as 'child' and, before a noun, as 'small'; the Tokelau Bible has 'Ko toku muamuālima tama e fuaefa atu i lo te puimanava o toku tamana!' (1 Kings 12:10). Route by resemblance to the neighbouring forms (niu(matalima tama)); no etymology of its own.
     pyu: ["kalringisan", "kaliŋisan"],  // The Puyuma (Nanwang) word for the little finger, glossed 小指 in the ILRDF online dictionary, beside atrengalran for the thumb. Route by resemblance to the neighbouring forms (pam(kalingkingan)); no etymology of its own.
-    smn: ["čeelhišm", "ˈtʃeːlhiʃm"],  // The Inari Sámi word for the little finger, related to Northern Sámi čelččen; the Giellatekno dictionary also lists the variant čeelhišn.
+    smn: ["čeelhišm", "ˈtʃeːlhiʃm"],  // The Inari Sámi word for the little finger, related to Northern Sámi čelččen; the Giellatekno dictionary also lists the variant čeelhišn. Route by resemblance to the neighbouring forms (se(čelččen) sjd(черькешне)); no etymology of its own.
     chr: ["ᎤᏍᏗ ᎦᏰᏌᏛ", "usdi ɡajesatə̃"],  // Literally 'small finger' (ᎤᏍᏗ usdi 'small' + ᎦᏰᏌᏛ 'finger'), the partner of ᎤᏔᏂ ᎦᏰᏌᏛ utani gayesatv 'big finger' for the thumb.
     chy: ["tšėškeʼemoʼēško", "tʃeʃkeʔemoʔeʃko"],  // Literally 'small finger' (tšėške'- 'small' + mo'ēško 'finger'); the Cheyenne Dictionary calls it probably a loan translation by the missionary Petter.
     ia: ["digito auricular", "ˈdiɡito auriˈkular"],  // The 'ear finger', from auricula 'ear'; the Interlingua-English Dictionary allows plain auricular for short.
@@ -872,7 +872,7 @@ WORDS.littlefinger = {
     tlh: ["qanwI'", "qʰɑnwɪʔ"],  // Literally 'thing that uses the pinkie', from the verb qan 'use the little finger' plus -wI'; each Klingon finger has such a name (SenwI' 'thumb', SIqwI' 'index finger').
     sjd: ["черькешне", "tʃerʲkʲeʃnʲe"],  // Kildin Sámi's own word for the little finger; Kert and Antonova also list the variant черкешна (черькешнаа). No image is recorded for it, so it counts as a word of its own.
     yur: ["cheyketew", "tʃejketew"],  // Made of cheyk- 'small' and -etew 'finger'; the dictionary also records kerrmerterw and, from Georgiana Trull, sketew.
-    kwk: ["sa̱lt̓a", "səltʼa"],  // Kwak'wala's own word for the little finger; with the finger suffix it becomes sa̱lt̓axt̕sane' 'baby finger, pinky'.
+    kwk: ["sa̱lt̓a", "səltʼa"],  // Kwak'wala's own word for the little finger; with the finger suffix it becomes sa̱lt̓axt̕sane' 'baby finger, pinky'. No image is recorded for it, so it counts as a word of its own.
     tsi: ["łgusgay", "ɬɡusɡaːj"],  // Made of łgu- 'small, little' and sgay 'little finger', which can also be said alone.
     koy: ["-nlotsʼeelaʼ", "nlotsʼiːlaʔ"],  // Always said with an owner, as in binlotsʼeelaʼ 'his little finger', the same nlo- as in binlokuh 'his index finger'; Lower Koyukon says mineelotsʼeemaay.
     zh_tang: ["小指", "siaw tɕi"],  // 'Small finger'; it also means the little toe.

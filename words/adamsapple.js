@@ -227,7 +227,7 @@ WORDS.adamsapple = {
     sl: "adam",
     lt: "adam",
     din: "other",
-    ban: "unknown",
+    ban: "other",
     kmb: "adam",
     cpx: "other",
     ace: "unknown",
@@ -237,7 +237,7 @@ WORDS.adamsapple = {
     rhg: "plain",
     snk: "unknown",
     ce: "other",
-    kde: "unknown",
+    kde: "plain",
     kbd: "plain",
     sco: "other",
     cy: "other",
@@ -248,7 +248,7 @@ WORDS.adamsapple = {
     lus: "unknown",
     lhu: "unknown",
     tll: "plain",
-    new: "unknown",
+    new: "other",
     wa: "plain",
     xmf: "adam",
     fy: "adam",
@@ -477,7 +477,7 @@ WORDS.adamsapple = {
     sl: ["adamovo jabolko", "ˈaːdamɔʋɔ ˈjaːbɔu̯kɔ"],  // Literally 'Adam's apple'; in speech jabolko 'apple' alone is also used for it.
     lt: ["Adomo obuolys", "ɐˈdoːmoː oːbuɔˈlʲiːs"],  // Literally 'Adam's apple', from Adomas 'Adam' + obuolys 'apple'.
     din: ["guak rol", "ɡuak rol"],  // Built on guak 'goitre' and röl 'throat', so a throat swelling (Brisco & Blench 2006).
-    ban: ["batun salak", "batun salak"],  // The word the Balai Bahasa Bali dictionary gives for Indonesian jakun, the bump on a man's neck; salak is the snakefruit.
+    ban: ["batun salak", "batun salak"],  // The word the Balai Bahasa Bali dictionary gives for Indonesian jakun, the bump on a man's neck; salak is the snakefruit. The bump is named after the snakefruit, an image of its own like Czech ohryzek 'apple core'.
     kmb: ["masã ia Adãu", "masã ja adãu"],  // Literally 'Adam's apple', modelled on Portuguese maçã de Adão; Maia also lists dikelengu, a word for the throat and gullet.
     cpx: ["咙喉蝉", "le˩˧ au˩˧ ɬɛŋ˩˧"],  // Literally 'throat cicada': 咙喉 'throat' + 蝉 'cicada'; Xianyou says 颔下蝉 'cicada under the chin'.
     ace: ["aneuk tôk", "anɯʔ toʔ"],  // The Acehnese name, defined as the bump at the top of the windpipe on a grown man's neck.
@@ -487,7 +487,7 @@ WORDS.adamsapple = {
     rhg: ["thuñçala", "ʈũɽala"],  // The Rohingya Dictionary gives it first as 'Adam's apple' and also for the throat and windpipe. No image is recorded for it, so it counts as a word of its own.
     snk: ["yugosirinfuxo", "juɡosirinfuxo"],  // Begins with yugo 'man'; the SIL Soninke lexicon gives selinsondonme as a synonym.
     ce: ["логан шад", "loɡan ʃad"],  // Literally 'throat knot', from лагӀ 'front of the neck, throat' + шад 'knot' (Matsiev 1961).
-    kde: ["lukolongo", "lukoloŋɡo"],  // Rugemalira's dictionary glosses it as both the Adam's apple and the oesophagus, like Swahili koromeo.
+    kde: ["lukolongo", "lukoloŋɡo"],  // Rugemalira's dictionary glosses it as both the Adam's apple and the oesophagus, like Swahili koromeo. No image is recorded for it, so it counts as a word of its own.
     kbd: ["къыртӏ", "qərtʼ"],  // The Kabardian word given for Russian кадык in the school Russian-Kabardian dictionary. No image is recorded for it, so it counts as a word of its own.
     sco: ["knot o' the thrapple", "not ə ðə ˈθrɑpəl"],  // Literally 'knot of the windpipe'; thrapple-bow is a northern synonym (Scottish National Dictionary).
     cy: ["afal breuant", "aval breɨant"],  // Literally 'windpipe apple', from afal 'apple' + breuant 'windpipe'.
@@ -498,7 +498,7 @@ WORDS.adamsapple = {
     lus: ["hrawk bawk", "hrɔk bɔk"],  // Built on hrawk 'throat'; Lorrain and Savidge's 1898 dictionary already lists it as hrok bawk.
     lhu: ["qá-qə̂ʼ-lə̂ʼ", "qáqə̂ʔlə̂ʔ"],  // The Black Lahu name, which Matisoff also glosses as the larynx.
     tll: ["dikele", "dikele"],  // The Otetela name; the same dictionary also gives 'continual anger, quick temper' for it. No image is recorded for it, so it counts as a word of its own.
-    new: ["रुद्रघण्टी", "rudrəɡʱəɳʈi"],  // A Sanskrit-derived word that Nepali shares; the same dictionary also lists रुद्रकण्ठी for it.
+    new: ["रुद्रघण्टी", "rudrəɡʱəɳʈi"],  // A Sanskrit-derived word that Nepali shares; the same dictionary also lists रुद्रकण्ठी for it. Route by resemblance to the neighbouring forms (ne(रुद्रघन्टी)); no etymology of its own.
     wa: ["gaviote", "ɡaˈvjɔt"],  // Formed from gavêye "throat" with the diminutive -ote; moirsea and peme d'Adan "Adam's apple" are synonyms.
     xmf: ["ადამიშ უშქური", "adamiʃ uʃkʰuri"],  // Literally "Adam's apple", with უშქური "apple".
     fy: ["adamsappel", "ˈaːdamsapəl"],  // Literally "Adam's apple", with appel "apple"; apel is an alternative spelling of the second part.

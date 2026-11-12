@@ -93,7 +93,7 @@ WORDS.dragonfly = {
     es: "plain",
     yo: "unknown",
     pl: "plain",
-    su: "unknown",
+    su: "other",
     uk: "other",
     ml: "plain",
     or: "plain",
@@ -130,7 +130,7 @@ WORDS.dragonfly = {
     et: "plain",
     cy: "creature",
     nn: "other",
-    mt: "unknown",
+    mt: "other",
     is: "dragon",
     bdq: "unknown",
     nv: "other",
@@ -169,7 +169,7 @@ WORDS.dragonfly = {
     lt: "creature",
     gl: "creature",
     ky: "other",
-    tt: "unknown",
+    tt: "other",
     mn: "plain",
     lg: "unknown",
     ace: "unknown",
@@ -235,13 +235,13 @@ WORDS.dragonfly = {
     oc: "other",
     fur: "other",
     zap: "plain",
-    nhw: "unknown",
+    nhw: "other",
     maw: "plain",
     pdt: "other",
     nxq: "plain",
     br: "other",
-    nhe: "unknown",
-    nch: "unknown",
+    nhe: "other",
+    nch: "other",
     gcf: "plain",
     to: "plain",
     co: "plain",
@@ -384,7 +384,7 @@ WORDS.dragonfly = {
     krl: "creature",
     mtq: "other",
     kw: "creature",
-    ti: "unknown",
+    ti: "other",
     lkt: "plain",
     sah: "other",
     prk: "plain",
@@ -430,7 +430,7 @@ WORDS.dragonfly = {
     es: ["libélula", "liˈbelula"],  // From New Latin libellula; regional words include aguacil (Río de la Plata) and pipilacha (Nicaragua).
     yo: ["lámilámi", "lámilámi"],  // Etymology not given by the sources.
     pl: ["ważka", "ˈvaʂka"],  // Waga 'scale, balance' + -ka: a calque of New Latin libellula 'little level'.
-    su: ["papatong", "papatɔŋ"],  // A partial reduplication of patong.
+    su: ["papatong", "papatɔŋ"],  // A partial reduplication of patong. Route by resemblance to the neighbouring forms (ms(pepatung)); no etymology of its own.
     uk: ["бабка", "ˈbabkɐ"],  // The same word as бабка 'grandmother, old woman'; the sources suggest a 'witch' image or a belief that souls of the dead possess insects.
     ml: ["തുമ്പി", "t̪umbi"],  // A Dravidian word shared with Tamil தும்பி, where cognates mean 'bee' or 'wasp'.
     or: ["କଙ୍କି", "kɔŋki"],  // A native (deśya) word; regional names in Balasore and Sambalpur are defined by it.
@@ -506,7 +506,7 @@ WORDS.dragonfly = {
     lt: ["laumžirgis", "ˈlɒʊmʲʒʲɪrʲɡʲɪs"],  // Literally 'the laumė's horse': laumė is a fairy or witch of Lithuanian folklore and žirgas a steed; žirgelis 'little horse' is a common synonym.
     gl: ["cabalo do demo", "kaβalo ðo ðemo"],  // Literally 'the devil's horse' (cabalo 'horse' + demo 'demon'); the Royal Galician Academy lists libélula as a synonym.
     ky: ["ийнелик", "ijneˈlik"],  // Built on ийне 'needle' with the suffix -лик.
-    tt: ["энә карагы", "enæ qɑrɑʁɯ"],  // The Tatar word for the dragonfly; neighbouring Bashkir says энәғараҡ.
+    tt: ["энә карагы", "enæ qɑrɑʁɯ"],  // The Tatar word for the dragonfly; neighbouring Bashkir says энәғараҡ. Built from энә 'needle' and карак 'thief', a needle-thief, like Bashkir энәғараҡ and Chuvash йӗп вӑрри.
     mn: ["соно", "sɔn"],  // Mongolian Odonata literature uses соно as the name of the order and its members. No image is recorded for it, so it counts as a word of its own.
     lg: ["nnamunkanga", "nːamuŋkaŋɡa"],  // The same word names the helicopter: ennyonyi nnamunkanga, literally 'dragonfly bird'.
     ace: ["dén-dén", "denden"],  // A reduplicated form.
@@ -572,13 +572,13 @@ WORDS.dragonfly = {
     oc: ["domaisèla", "dumajˈzɛlɔ"],  // The 'young lady' word, cognate with French demoiselle; Papazian (1994), working from Mistral, calls it the generic name across the Occitan-speaking lands.
     fur: ["svuarbecjavai", "zvwarbecaˈvaj"],  // Literally 'blind-the-horses', from svuarbâ 'to blind' and cjavai 'horses'; the ARLeF bilingual dictionary also gives svuarbevoi, 'blind-the-eyes'.
     zap: ["xhumpirinisa", "ʃumpiɾinisa"],  // Pickett's Isthmus Zapotec vocabulary uses it for both dragonflies and damselflies; sumpirinisa is a variant spelling. No image is recorded for it, so it counts as a word of its own.
-    nhw: ["apipiyalotl", "apipiˈjalotɬ"],  // Inherited from Classical Nahuatl apipiyollotl; the same word is recorded for Central and Eastern Huasteca Nahuatl.
+    nhw: ["apipiyalotl", "apipiˈjalotɬ"],  // Inherited from Classical Nahuatl apipiyollotl; the same word is recorded for Central and Eastern Huasteca Nahuatl. Classical Nahuatl apipiyollotl is built from atl 'water' and pipiyolin 'bee' (Wiktionary).
     maw: ["kɔliliiya", "kɔliliːja"],  // The Mampruli dictionary's word for the dragonfly; the related Dagbani name is kulilia. No image is recorded for it, so it counts as a word of its own.
     pdt: ["Migjenfräta", "ˈmɪɡʲənfɾeta"],  // Literally the 'mosquito-eater', from Migj 'mosquito' and Fräta 'eater', like German dialect Mückenfresser.
     nxq: ["nilbberq", "ɲi˥bɚ˨˩"],  // The common Naxi word in the Naxi dictionary, which lists jjimulrhuq as a dialect synonym. No image is recorded for it, so it counts as a word of its own.
     br: ["nadoz-aer", "nadoˈzɛːr"],  // The 'air needle', from nadoz 'needle' and aer 'air'; marc'h-aer 'air horse' is a synonym.
-    nhe: ["apipiyalotl", "apipiˈjalotɬ"],  // Inherited from Classical Nahuatl apipiyollotl; recorded in the IDIEZ Chicontepec dictionary.
-    nch: ["apipiyalotl", "apipiˈjalotɬ"],  // The same word as in the other Huasteca Nahuatl varieties, from Classical Nahuatl apipiyollotl.
+    nhe: ["apipiyalotl", "apipiˈjalotɬ"],  // Inherited from Classical Nahuatl apipiyollotl; recorded in the IDIEZ Chicontepec dictionary. Classical Nahuatl apipiyollotl is built from atl 'water' and pipiyolin 'bee' (Wiktionary).
+    nch: ["apipiyalotl", "apipiˈjalotɬ"],  // The same word as in the other Huasteca Nahuatl varieties, from Classical Nahuatl apipiyollotl. Classical Nahuatl apipiyollotl is built from atl 'water' and pipiyolin 'bee' (Wiktionary).
     gcf: ["zingzing", "ziŋziŋ"],  // A sound word imitating the buzz of its flight, also used in Guadeloupean French; marisosé is a synonym.
     to: ["kisikisi", "kisikisi"],  // Inherited from Proto-Polynesian *kisikisi; Tongan Wikipedia also gives kisikisivai, citing Churchward's Tongan Dictionary.
     co: ["filangrocca", "filanˈɡrokka"],  // The INFCOR Corsican dictionary defines filangrocca as the four-winged insect whose larva lives in water, with libellula as a synonym. No image is recorded for it, so it counts as a word of its own.
@@ -721,7 +721,7 @@ WORDS.dragonfly = {
     krl: ["hukankorenda", "ˈhukɑŋkorendɑ"],  // Hukan 'of a wolf' + korenda 'cowlstaff', like Finnish sudenkorento.
     mtq: ["còng cun", "kɔŋ kun"],  // Còng 'dragonfly, damselfly' + cun 'Muong lord'.
     kw: ["nader margh", "ˈnaːdɛr marx"],  // Literally 'adder horse'; compare archaic English adder fly.
-    ti: ["ፈረሰኛ", "fɐrɐsɐɲa"],  // The source gives no analysis of the word.
+    ti: ["ፈረሰኛ", "fɐrɐsɐɲa"],  // The Tigrinya word for the dragonfly (Wiktionary); the same word is Amharic ፈረሰኛ 'horseman', from ፈረስ 'horse' + -ኛ (Wiktionary), so the insect is the horseman.
     lkt: ["thuswéčha", "tʰuswétʃʰa"],  // No image is recorded for it, so it counts as a word of its own.
     sah: ["тоҥолоччу", "toŋolotʃːu"],  // From тоҥ toŋ plus the agent suffix -аачы; compare Turkish donmak 'to freeze'.
     prk: ["ag yóng", "ʔakʑɔ̤ŋ"],  // The same word names a black water bird. No image is recorded for it, so it counts as a word of its own.

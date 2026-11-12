@@ -116,7 +116,7 @@ WORDS.ladybird = {
     hyw: "holy",
     nv: "other",
     mi: "other",
-    za: "unknown",
+    za: "other",
     kk: "other",
     uz: "other",
     ug: "other",
@@ -144,7 +144,7 @@ WORDS.ladybird = {
     ca: "holy",
     gl: "other",
     cs: "sun",
-    sk: "unknown",
+    sk: "other",
     sl: "unknown",
     sr: "holy",
     hr: "holy",
@@ -173,7 +173,7 @@ WORDS.ladybird = {
     ast: "holy",
     yi: "holy",
     ota: "other",
-    kl: "unknown",
+    kl: "other",
     kea: "other",
     es_cr: "holy",
     es_hn: "holy",
@@ -213,15 +213,15 @@ WORDS.ladybird = {
     cdo: "other",
     cjy: "other",
     nds: "sun",
-    tt: "unknown",
+    tt: "other",
     ku: "other",
     ckb: "other",
     cnp: "other",
     tl: "holy",
-    sw: "unknown",
-    su: "unknown",
+    sw: "other",
+    su: "other",
     jv: "other",
-    or: "unknown",
+    or: "other",
     scn: "unknown",
     shi: "holy",
     qu: "unknown",
@@ -231,7 +231,7 @@ WORDS.ladybird = {
     bs: "holy",
     zza: "other",
     cv: "other",
-    ba: "unknown",
+    ba: "other",
     egl: "other",
     sco: "holy",
     wuu_jh: "other",
@@ -239,9 +239,9 @@ WORDS.ladybird = {
     nan_xm: "other",
     nan_zz: "other",
     nan_te: "other",
-    tao: "unknown",
-    tay: "unknown",
-    pwn: "unknown",
+    tao: "other",
+    tay: "other",
+    pwn: "other",
     chy: "other",
     pyu: "other",
     ceb: "holy",
@@ -314,7 +314,7 @@ WORDS.ladybird = {
     hyw: ["զատիկ", "zɑˈdiɡ"],  // The same word as "Easter".
     nv: ["chʼosh łitsxooí", "tʃʼòʃ ɬìtsʰxòːí"],  // Literally "orange bug".
     mi: ["mumutawa", "mumutawa"],  // A native word of its own; ngoikura is another name.
-    za: ["nengzgoemj", "neːŋ˧˩kom˥"],  // Built on nengz "insect"; the meaning of the second part is not given.
+    za: ["nengzgoemj", "neːŋ˧˩kom˥"],  // Built on nengz "insect"; the meaning of the second part is not given. Wiktionary gives no etymology for it, so it goes with the names that are neither holy nor the sun.
     kk: ["ханқызы", "χɑnqɯˈzɯ"],  // Literally "the khan's daughter", like Uzbek xonqizi and Uyghur خانقىز.
     uz: ["xonqizi", "χɒnqiˈzi"],  // Literally "the khan's daughter".
     ug: ["خانقىز", "χɑnˈqiz"],  // Literally "khan girl", "the khan's daughter".
@@ -342,7 +342,7 @@ WORDS.ladybird = {
     ca: ["marieta", "məɾiˈɛtə"],  // Literally "little Maria" (Maria + -eta).
     gl: ["xoaniña", "ʃoaˈniɲa"],  // Literally "little Jane" (Xoana + diminutive), like Portuguese joaninha.
     cs: ["slunéčko", "ˈslunɛːtʃko"],  // Literally "little sun", a diminutive of slunce "sun"; beruška is the colloquial name.
-    sk: ["lienka", "ˈʎɪ̯eŋka"],  // The standard Slovak name; pánbožkova kravička "the Lord God's little cow" is a folk alternative.
+    sk: ["lienka", "ˈʎɪ̯eŋka"],  // The standard Slovak name; pánbožkova kravička "the Lord God's little cow" is a folk alternative. Wiktionary records no image for it, so it goes with the names that are neither holy nor the sun, as Romanian buburuză does.
     sl: ["pikapolonica", "pikapɔˈloːnitsa"],  // Pika is "dot"; the family as a whole is called polonice.
     sr: ["бубамара", "bubamǎːra"],  // Literally "bug-Mary", buba "bug" + Mara, a form of Mary.
     hr: ["bubamara", "bubamǎːra"],  // Literally "bug-Mary", buba "bug" + Mara, a form of Mary.
@@ -371,7 +371,7 @@ WORDS.ladybird = {
     ast: ["perrín de Dios", "peˈrin de ˈdjos"],  // Literally "God's little dog".
     yi: ["משה־רבנוס קיִעלע", "mɔɪ̯ʃə rabɛɪ̯nəs kiələ"],  // Literally "Moses our Teacher's little cow"; Hebrew parat Moshe Rabbenu is the same name.
     ota: ["قفتان بوجكی", "kaftan bødʒeji"],  // Literally "kaftan bug".
-    kl: ["aamanganiaq", "aːmaŋaniaq"],  // Greenland's ladybird is the transverse ladybird, Coccinella transversoguttata.
+    kl: ["aamanganiaq", "aːmaŋaniaq"],  // Greenland's ladybird is the transverse ladybird, Coccinella transversoguttata. Wiktionary records no image for it, so it goes with the names that are neither holy nor the sun.
     kea: ["juaninha", "ʒwaˈniɲa"],  // From Portuguese joaninha, "little Joana".
     es_cr: ["mariquita", "maɾiˈkita"],  // "Little Mary", a pet form of María, after the Virgin Mary.
     es_hn: ["mariquita", "maɾiˈkita"],  // "Little Mary", a pet form of María, after the Virgin Mary.
@@ -411,15 +411,15 @@ WORDS.ladybird = {
     cdo: ["涂虼蚤", "tu˥˧ ka˥˥ tsau˥˥"],  // Literally 'earth flea', 塗 'earth' + 虼蚤 'flea' (Feng Aizhen 1998, Fuzhou Dialect Dictionary).
     cjy: ["花大姐", "xua˩ ta˦˥ tɕiɛ˥˧"],  // Literally 'flowery big sister', the same name used in Beijing, Harbin and Jinan.
     nds: ["Sünnenküken", "ˈzʏnənkyːkən"],  // Literally 'little sun-chick', from Sünn 'sun' + Küken 'chick'; Low German also has many regional names such as Herrgottskauh 'Lord God's cow'.
-    tt: ["камка", "qɑmˈqɑ"],  // The Tatar name for the ladybird; Tatar also says чуар таракан 'speckled cockroach'.
+    tt: ["камка", "qɑmˈqɑ"],  // The Tatar name for the ladybird; Tatar also says чуар таракан 'speckled cockroach'. The same word as камка 'damask, a satin-like silk' (Wiktionary, s.v. Russian камка, from Tatar), neither holy nor the sun.
     ku: ["xalxalok", "xɑːlxɑːˈloːk"],  // Literally 'little spotty-spotty', from doubled xal 'spot, dot' + diminutive -ok; Kurmanji also says kêzxatûn 'lady beetle'.
     ckb: ["خاڵخاڵۆکە", "xaːɫxaːɫoːka"],  // Literally 'little spotty-spotty', the Sorani counterpart of Kurmanji xalxalok, from doubled خاڵ 'spot'.
     cnp: ["瓢虫", "piu˨˩ tʃœŋ˨˩"],  // 瓢 'gourd ladle' + 虫 'insect', for the beetle's half-gourd shape; the same word as standard Chinese.
     tl: ["marikita", "maɾiˈkita"],  // Borrowed from Spanish mariquita, 'little Mary', after the Virgin Mary; pagong-pagungan 'little turtle' is a synonym.
-    sw: ["mdudu-kibibi", "mˈdudu kiˈbibi"],  // Literally 'little-lady insect'; no source gives where the image comes from.
-    su: ["kukuyaan", "kukujaʔan"],  // The Sundanese name of the ladybird; breum is another name.
+    sw: ["mdudu-kibibi", "mˈdudu kiˈbibi"],  // Literally 'little-lady insect'; no source gives where the image comes from. kibibi is 'young lady' (Wiktionary, diminutive of bibi 'lady, mistress'), a lady but no saint.
+    su: ["kukuyaan", "kukujaʔan"],  // The Sundanese name of the ladybird; breum is another name. Built on kuya 'tortoise' (Wiktionary), like Malay kumbang kura-kura 'tortoise beetle'.
     jv: ["kepik", "kəpɪʔ"],  // The everyday name, as in Indonesian; the Javanese Wikipedia notes it is properly a beetle, kumbang koksi, not a true bug. Route by resemblance to the neighbouring forms (id(kepik)); no etymology of its own.
-    or: ["ପାରୁଡ଼ା ପୋକ", "paːɾuɽaː pokɔ"],  // Built on ପୋକ 'insect'; Praharaj's dictionary describes it as red or yellow with black spots, often seen on pumpkin flowers, and smelly when rubbed.
+    or: ["ପାରୁଡ଼ା ପୋକ", "paːɾuɽaː pokɔ"],  // Built on ପୋକ 'insect'; Praharaj's dictionary describes it as red or yellow with black spots, often seen on pumpkin flowers, and smelly when rubbed. No image is recorded for ପାରୁଡ଼ା, so it goes with the names that are neither holy nor the sun.
     scn: ["papuzzedda", "paputˈtsɛɖɖa"],  // A diminutive in -edda of papuzza; the origin of the base is not given.
     shi: ["ⵎⵔⵉⵢⵎ ⵏ ⵢⵉⴳⵔⴰⵏ", "mrijm n jiɡran"],  // Literally "Mary of the fields", after the Virgin Mary, like Spanish mariquita.
     qu: ["kʼuslulu", "kʼusˈlulu"],  // The Quechua Wikipedia's name for the ladybird family; Ecuadorian Kichwa says muruysa or muruysi.
@@ -429,7 +429,7 @@ WORDS.ladybird = {
     bs: ["bubamara", "bubaˈmaːra"],  // Literally 'bug-Mary', buba 'bug' + Mara, a form of Mary, as in Croatian and Serbian.
     zza: ["xalxalok", "xalxaˈlok"],  // The Zaza name of the ladybird family, the same word as Kurmanji xalxalok 'little spotty-spotty'; route by resemblance to the Kurmanji form, as no Zaza etymology was found.
     cv: ["вирвитса", "virvitˈsa"],  // Built from вир with the diminutive suffix -итса; the Chuvash Wikipedia uses it as its headword and lists many folk synonyms such as уяр кайӑк and хир кукамайӗ.
-    ba: ["ҡамҡа", "qɑmˈqɑ"],  // The Bashkir name of the ladybird, the same word as Tatar камка; the Bashkir Wikipedia names the species with it, e.g. ете нөктәле ҡамҡа 'seven-spot ladybird'.
+    ba: ["ҡамҡа", "qɑmˈqɑ"],  // The Bashkir name of the ladybird, the same word as Tatar камка; the Bashkir Wikipedia names the species with it, e.g. ете нөктәле ҡамҡа 'seven-spot ladybird'. Route by resemblance to the neighbouring forms (tt(камка)); no etymology of its own.
     egl: ["viôla", "ˈvjoːla"],  // In Bolognese the ladybird shares its name with viôla 'violet', from Latin viola.
     sco: ["clockleddy", "ˈklɔkledi"],  // Literally 'beetle-lady', from Scots clock 'beetle' (recorded since c.1550) and leddy 'lady'; it is the word in the Scots edition of Julia Donaldson's ladybird book, Whit the Clockleddy Heard. Like English ladybird, the 'lady' of the beetle.
     wuu_jh: ["花乌龟儿", "xuɑ˧˧˦ u˧˧˦ tɕy˧˧˦ ŋ̍˧˩˧"],  // Literally 'little flowery tortoise'; 硬壳虫 'hard-shell bug' is also used.
@@ -437,9 +437,9 @@ WORDS.ladybird = {
     nan_xm: ["乌龟仔", "ɔ˦˦ ku˦˦ a˥˧"],  // Literally 'little tortoise'.
     nan_zz: ["乌龟仔", "ɔ˦˦ ku˦˦ a˥˧"],  // Literally 'little tortoise'; in Zhangzhou it can also mean a black beetle.
     nan_te: ["红先生", "aŋ˥˥ siŋ˧˧ sẽ˧˧"],  // Literally 'Mr Red'.
-    tao: ["koto no karam", "koto no karam"],  // Yami (Tao) name for the ladybird.
-    tay: ["kbingah", "kbiŋah"],  // Squliq Atayal word for the ladybird.
-    pwn: ["ʼuljimazingay", "ʔuʎimaziŋaj"],  // North Paiwan word for the ladybird.
+    tao: ["koto no karam", "koto no karam"],  // Yami (Tao) name for the ladybird. Literally 'the mouse's louse': koto 'louse' + no + karam 'mouse' (Wiktionary, Yami).
+    tay: ["kbingah", "kbiŋah"],  // Squliq Atayal word for the ladybird. No image is recorded for it, so it goes with the names that are neither holy nor the sun.
+    pwn: ["ʼuljimazingay", "ʔuʎimaziŋaj"],  // North Paiwan word for the ladybird. No image is recorded for it, so it goes with the names that are neither holy nor the sun.
     chy: ["mȯhenėšēmo", "moheneʃemo"],
     pyu: ["tawtawyan", "tawtawjan"],  // Also 'scarab'.
     ceb: ["lidibag", "lidiˈbaɡ"],  // Wolff: "lidibag n k.o. ladybug commonly found on squash plants"; loan from English

@@ -12,8 +12,8 @@
     "hash": "fc22450a1081a1e4"
   },
   "hanmap_trivia_rt/base.js": {
-    "version": 69,
-    "hash": "4ee07a0adcb83841"
+    "version": 70,
+    "hash": "00394f00a9632a70"
   },
   "ipa_synth/speak.js": {
     "version": 54,
@@ -68,8 +68,8 @@
     "hash": "82cf850e71e05108"
   },
   "namemap_trivia_rt/base.js": {
-    "version": 47,
-    "hash": "575f58ae265a782f"
+    "version": 48,
+    "hash": "7bd825254821148d"
   },
   "nav-short.js": {
     "version": 55,

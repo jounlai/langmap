@@ -551,7 +551,10 @@
             }
         });
         // Vietnamese ư (and Thai/Lao/Khmer ɯ written ɨ) sits further back than a central ɨ: a clear [ɨ~ɯ]
-        if (prof.centering) segs.forEach(x => { if (x.type === 'V' && x.base === 'ɨ') x.b = Math.max(x.b, .82); });
+        if (prof.centering) segs.forEach(x => { if (x.type === 'V' && x.base === 'ɨ') { x.b = Math.max(x.b, .82); x.h = Math.min(x.h, .8); } });
+        // …and the ə that ends ưa / ua is pulled back with it (≈ [ɤ̞]), not a central-front ə heard as e;
+        // after i (ia) it stays central
+        if (prof.centering) segs.forEach((x, k) => { const p = segs[k - 1]; if (x.type === 'V' && x.base === 'ə' && p && p.type === 'V' && ['ɨ', 'ɯ', 'u'].includes(p.base)) { x.b = .78; x.h = .45; } });
         if (prof.unreleasedFinal) {
             // syllable-final stops are unreleased in these languages (Vietnamese Đức ɗɨk, Cantonese,
             // Thai, Korean …), whether or not the cell writes ̚
@@ -581,7 +584,7 @@
                         let nuc = run[0];
                         for (const v of run) if (v.h < nuc.h - .01) nuc = v;
                         // centering diphthong iə / ɨə / ɯə / uə: the first, close vowel carries the syllable
-                        if (prof.centering && run.length === 2 && run[1].base === 'ə' && run[0].h >= .85) nuc = run[0];
+                        if (prof.centering && run.length === 2 && run[1].base === 'ə' && ['i', 'ɨ', 'ɯ', 'u', 'y'].includes(run[0].base)) nuc = run[0];
                         for (const v of run) if (v !== nuc) { v.nonsyl = true; v.autoGlide = true; }
                     }
                 }
@@ -702,7 +705,7 @@
                 if (!s.nonsyl && nx && nx.type === 'V' && nx.nonsyl && nx.syl === s.syl) {
                     const total = d + 65;
                     // centering diphthong (Vietnamese ưa, ia, ua): the close vowel is the long, clear part
-                    const cen = prof.centering && nx.base === 'ə' && s.h >= .85;
+                    const cen = prof.centering && nx.base === 'ə' && ['i', 'ɨ', 'ɯ', 'u', 'y'].includes(s.base);
                     d = total * (cen ? .62 : .38); nx._glide = total * (cen ? .38 : .62);
                 } else if (s.nonsyl && s._glide) {
                     d = s._glide; edgeF = d * .95;
@@ -725,6 +728,13 @@
                 }
                 const afterFric = phases.length && phases[phases.length - 1].kind === 'fricative';   // the friction fades under the voice
                 const afterRelease = phases.length && ['short lag', 'aspiration', 'burst', 'breathy release', 'release'].includes(phases[phases.length - 1].kind);
+                // hiatus (Dutch USB y.ɛs, a vowel written after a syllable break): the voice dips between
+                // the two vowels, or the first is heard as a glide/lateral ("les")
+                {
+                    const pv = segs[i - 1];
+                    if (pv && pv.type === 'V' && !pv.nonsyl && !s.nonsyl && pv.syl !== s.syl && !pv.apical && !s.apical && isNucleus(s))
+                        push(32, Object.assign({}, vtarget[i - 1], { AV: .25, CR: .6 }), Object.assign({ kind: 'hiatus', edgeA: 8 }, info));
+                }
                 if (s._implosiveOnset) push(25, Object.assign({}, P, { CR: .6, AV: 1 }), Object.assign({ kind: 'creaky onset', edgeA: 1, edgeF: 10 }, info));
                 if (s.sylBreak != null && isNucleus(s) && tone) {
                     // broken tone (ngã ˧ˀ˥): vowel, creak into a short glottal stop, creaky restart, rise

@@ -144,17 +144,17 @@ WORDS.usbstick = {
   },
   data: {
     de: ["USB-Stick", "uːʔɛsˈbeːˌstɪk"],  // From English USB stick; stick means "rod".
-    nl: ["USB-stick", "yɛsˈbeːˌstɪk"],  // From USB + English stick; Dutch also says geheugenstick "memory stick".
+    nl: ["USB-stick", "y ɛsˈbeːˌstɪk"],  // From USB + English stick; Dutch also says geheugenstick "memory stick".
     no: ["minnepinne", "ˈmɪnːəˌpɪnːə"],  // minne "memory" + pinne "stick", a calque of English memory stick.
     nn: ["minnepinne", "ˈmɪnːəˌpɪnːə"],  // minne "memory" + pinne "stick"; the article says it is named for its long shape.
     fi: ["muistitikku", "ˈmuistiˌtikːu"],  // muisti "memory" + tikku "stick".
     et: ["mälupulk", "ˈmæluˌpulk"],  // mälu "memory" + pulk "stick"; the article says the first drives were stick-shaped.
-    sv: ["USB-minne", "ʉːɛsˈbeːˌmɪnːɛ"],  // USB + minne "memory"; minnessticka and minnespinne "memory stick" are also used.
+    sv: ["USB-minne", "ʉː ɛsˈbeːˌmɪnːɛ"],  // USB + minne "memory"; minnessticka and minnespinne "memory stick" are also used.
     is: ["minnislykill", "ˈmɪnːɪsˌlɪːcɪtl̥"],  // minnis- "memory" + lykill "key".
     pl: ["pendrive", "ˈpɛndrajf"],  // Borrowed from English pen drive, a genericized trademark.
     cs: ["fleška", "ˈflɛʃka"],  // The colloquial word, from English flash (memory) with a Czech suffix.
     hu: ["pendrive", "ˈpɛndraːjv"],  // From English pen drive.
-    mk: ["уесбе", "ˈuɛzbɛ"],  // The letters USB, read the Macedonian way; стик "stick" is also used.
+    mk: ["уесбе", "ˈu ɛzbɛ"],  // The letters USB, read the Macedonian way; стик "stick" is also used.
     bg: ["флашка", "ˈflaʃkɐ"],  // From English flash (memory) with the Bulgarian suffix -ка.
     ru: ["флешка", "ˈfɫeʂkə"],  // From English flash (as in flash memory) + -ка.
     uk: ["флешка", "ˈflɛʃkɐ"],  // From English flash (memory) with the suffix -ка, as in Russian.
@@ -172,12 +172,12 @@ WORDS.usbstick = {
     ta: ["விரலி", "ʋiɾali"],  // From விரல் "finger", like English thumb drive.
     ug: ["بارماق دىسكا", "barmaq diska"],  // "Finger disk": بارماق "finger" + دىسكا "disk".
     ja: ["USBメモリ", "jɯːesɯbiːmemoɾi"],  // USB + メモリ "memory", from English memory.
-    ko: ["USB 메모리", "juesɯbi memoɾi"],  // USB + 메모리 "memory"; it is often called just USB.
+    ko: ["USB 메모리", "ju esɯbi memoɾi"],  // USB + 메모리 "memory"; it is often called just USB.
     zh: ["U盘", "joʊ̯˥ pʰän˧˥"],  // U from English USB + 盘 "disc, drive".
     zh_tw: ["隨身碟", "sweɪ̯˧˥ ʂən˥ tjɛ˧˥"],  // 隨身 "carried on you" + 碟 "disc".
     yue: ["手指", "sɐu˧˥ tsiː˧˥"],  // 手指 "finger", like English thumb drive.
     wuu: ["U盘", "ɦiɤ˨˨ bø˦˦"],  // U from English USB + 盘 "disc, drive".
-    fr: ["clé USB", "kle yɛsbe"],  // clé "key" + USB.
+    fr: ["clé USB", "kle y ɛs be"],  // clé "key" + USB.
     it: ["chiavetta USB", "kjavetta u ɛsse bi"],  // chiavetta "little key" + USB, a calque of English USB stick according to Wiktionary.
     es: ["pendrive", "penˈdɾaib"],  // Borrowed from English pen drive; memoria USB is the formal name.
     es_cr: ["llave maya", "ʝaβe maʝa"],  // llave "key"; the Costa Rican name (Sánchez Corrales 2013, Revista Káñina 37:1, suggests Maya was a brand).

@@ -16,8 +16,8 @@
     "hash": "4ee07a0adcb83841"
   },
   "ipa_synth/speak.js": {
-    "version": 50,
-    "hash": "1659078ec755ceea"
+    "version": 52,
+    "hash": "0947786f98017196"
   },
   "lang-filter.js": {
     "version": 65,
@@ -88,8 +88,8 @@
     "hash": "86181f3bf041494a"
   },
   "progress_data.js": {
-    "version": 679,
-    "hash": "bdfc51df930e5ad3"
+    "version": 680,
+    "hash": "c0a20c53e5e6e869"
   },
   "pwa.js": {
     "version": 2,
@@ -116,12 +116,12 @@
     "hash": "8e0e635d02653c30"
   },
   "word_labels.js": {
-    "version": 144,
-    "hash": "526d99eaf94123c0"
+    "version": 145,
+    "hash": "cf13bf0f0b2c0735"
   },
   "word_manifest.js": {
-    "version": 1592,
-    "hash": "0beefd9ca4e3e5da"
+    "version": 1594,
+    "hash": "7b200fd368c81349"
   },
   "wordmap_data.js": {
     "version": 361,

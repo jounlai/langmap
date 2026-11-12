@@ -551,10 +551,10 @@
             }
         });
         // Vietnamese ư (and Thai/Lao/Khmer ɯ written ɨ) sits further back than a central ɨ: a clear [ɨ~ɯ]
-        if (prof.centering) segs.forEach(x => { if (x.type === 'V' && x.base === 'ɨ') { x.b = Math.max(x.b, .82); x.h = Math.min(x.h, .8); } });
+        if (prof.centering) segs.forEach(x => { if (x.type === 'V' && x.base === 'ɨ') { x.b = Math.max(x.b, .95); x.h = Math.min(x.h, .85); } });
         // …and the ə that ends ưa / ua is pulled back with it (≈ [ɤ̞]), not a central-front ə heard as e;
         // after i (ia) it stays central
-        if (prof.centering) segs.forEach((x, k) => { const p = segs[k - 1]; if (x.type === 'V' && x.base === 'ə' && p && p.type === 'V' && ['ɨ', 'ɯ', 'u'].includes(p.base)) { x.b = .78; x.h = .45; } });
+        if (prof.centering) segs.forEach((x, k) => { const p = segs[k - 1]; if (x.type === 'V' && x.base === 'ə' && p && p.type === 'V' && ['ɨ', 'ɯ', 'u'].includes(p.base)) { x.b = .85; x.h = .45; } else if (x.type === 'V' && x.base === 'ə' && !x.long) { x.b = .72; x.h = .5; } });
         if (prof.unreleasedFinal) {
             // syllable-final stops are unreleased in these languages (Vietnamese Đức ɗɨk, Cantonese,
             // Thai, Korean …), whether or not the cell writes ̚
@@ -697,6 +697,13 @@
                     if (coda && coda.type === 'C' && coda.manner === 'stop' && coda.noRelease && (!segs[k + 1] || coda.wordEnd || segs[k + 1].type === 'C')) { d = Math.min(d, 105); s._checked = true; }
                 }
                 if (s.apical) d = Math.max(d, 150);
+                // Vietnamese â [ə] and ă [a] (Thai/Lao/Khmer short vowels, written without ː) before a final
+                // consonant or glide are short; the coda takes the time so the tone still carries (sấm səm, đất ɗət)
+                if (prof.centering && isNucleus(s) && !s.long && ['ə', 'a'].includes(s.base)) {
+                    const nx2 = segs[i + 1];
+                    const codaNext = nx2 && nx2.syl === s.syl && ((nx2.type === 'C' && !nx2.syllabic) || (nx2.type === 'V' && nx2.nonsyl) || GLIDES.has(nx2.base));
+                    if (codaNext) { const nd = Math.max(s._checked ? 60 : 75, d * .42); nx2._codaBonus = (nx2._codaBonus || 0) + (d - nd) * .7; d = nd; }
+                }
                 // falling diphthong (eɪ̯, aʊ̯): the nucleus keeps only half of the syllable's vowel time
                 // and the formants glide across the whole second half, instead of a long steady
                 // vowel with a 65 ms jump at the end
@@ -866,7 +873,7 @@
                         if (prevV) push(30, Object.assign({}, P, { AV: .22 }), Object.assign({ kind: 'syllable break', edgeA: 8 }, info));
                         P.AV = Math.max(P.AV, .85);
                         push(Math.max(190, 68 * gem * syl), P, Object.assign({ kind: 'nasal', edgeA: prevV ? 12 : undefined }, info));
-                    } else push((coda ? 80 : 68) * gem * syl, P, Object.assign({ kind: 'nasal' }, info));
+                    } else push((coda ? 80 : 68) * gem * syl + (s._codaBonus || 0), P, Object.assign({ kind: 'nasal' }, info));
                 } else if (m === 'fric' || m === 'latfric') {
                     const P = consTarget(s, V, m);
                     if (s.place === 'GL') {

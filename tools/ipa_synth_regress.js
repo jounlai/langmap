@@ -22,6 +22,7 @@ const CHECK = {
     hiatus: p => p.phases.some(ph => ph.kind === 'hiatus'),
     cua2: p => { const v = vowels(p); return v[0].P.F1 >= 360 && v[0].dur > v[1].dur; },
     cua3: p => { const v = vowels(p); return v[1].P.F2 <= 1450; },
+    vi_short: p => { const v = vowels(p)[0]; const n = p.phases.filter(ph => ph.kind === 'nasal').pop(); const d = S.plan('ɗət˧˥', { lang: 'vi' }); const dv = d.phases.find(ph => ph.kind === 'vowel'); const m = S.plan('mɨə˧', { lang: 'vi' }).phases.find(ph => ph.kind === 'vowel'); return v.dur <= 110 && n.dur >= 150 && v.P.F2 <= 1500 && dv.dur <= 70 && m.P.F2 <= 1400; },
     siang: p => { const v = vowels(p); return v.length === 2 && v[0].dur <= 70; },
     lei: p => { const v = vowels(p); return v.length === 2 && v[0].dur / (v[0].dur + v[1].dur) <= .45; },
     neutral: p => p.pitch[p.pitch.length - 1][1] <= 1.5 && vowels(p)[1].dur < vowels(p)[0].dur,

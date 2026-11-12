@@ -14566,6 +14566,430 @@ const TRIVIA_ARTICLES = [
         "url": "https://en.wiktionary.org/wiki/buibui"
       }
     ]
+  },
+  {
+    "id": "bubbletea-pearls-bubbles-and-boba",
+    "icon": "🧋",
+    "tags": [
+      "food",
+      "modern",
+      "names"
+    ],
+    "title": {
+      "en": "Bubble Tea: Pearls, Bubbles and Boba",
+      "ja": "タピオカティー：真珠と泡とボバ"
+    },
+    "summary": {
+      "en": "Taiwan named the drink after pearls, and English turned it into bubbles. In the United States it is boba, a Hong Kong nickname with an English ball inside it.",
+      "ja": "台湾はこの飲み物を真珠にちなんで名づけ、英語はそれを泡に変えた。アメリカでは boba と呼ぶ。英語の ball が入った香港のあだ名である。"
+    },
+    "body": {
+      "en": "<p>In the United States, bubble tea is usually <strong>boba</strong>. The word goes back to Hong Kong Cantonese 波霸, and Wiktionary gives it two senses: the big tapioca pearls, and a slang word for a busty woman. Wikipedia traces the name to a nickname of the Hong Kong actress Amy Yip, and says the drink reached the United States in the 1990s. The first half of 波霸 is English. Cantonese 波, “ball”, was borrowed from English <em>ball</em>, and 霸 means “chief, top”, so the word is literally “big balls”. An American who orders boba is using a word that left English as ball and came back from Hong Kong. The boba route is small, with 4 cells, and Indonesian <strong>boba</strong> and Czech <strong>boba čaj</strong> are on it too.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"bubbletea\" data-code=\"en_us\">🗺️ Show bubble tea on the map</button><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en_us,id,jv,cs\" data-word=\"bubbletea\">🗣 Compare boba</button></div><h3>Pearls</h3><p>The drink itself comes from Taiwan in the 1980s. Two teahouses claim it, Chun Shui Tang in Taichung and Hanlin Tea Room in Tainan, with the dates 1987 and 1986. In 2019 a Taiwanese court ruled that bubble tea could not be patented and gave the credit to neither. The tapioca balls had other names before, such as 粉圓, but Wikipedia says that pearls, 珍珠, quickly replaced them. The drink is <strong>珍珠奶茶</strong> (ʈʂən˥ ʈʂu˥ naɪ˨˩˦ ʈʂʰa˧˥), “pearl milk tea”, often shortened to 珍奶. The pearl route has 8 cells. Vietnamese <strong>trà sữa trân châu</strong> uses the same pearls, since <em>trân châu</em> is the Sino-Vietnamese reading of 珍珠. Thai <strong>ชานมไข่มุก</strong> (tɕʰaː˧nom˧kʰaj˨˩muk˦˥), Turkish <strong>inci çayı</strong>, French <strong>thé aux perles</strong> and Malay <strong>teh susu mutiara</strong> put the pearl into their own words.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh_tw,zh,yue,vi,th,tr,fr,ms\" data-word=\"bubbletea\">🗣 Compare pearl</button></div><h3>Bubbles</h3><p>The bubble route is the biggest, with 20 cells, and its name may have started as a sound. According to Wiktionary, English <strong>bubble tea</strong> is a phono-semantic match for boba tea: it keeps the sound of boba, and it fits the pearls, which supposedly look like bubbles. Korean <strong>버블티</strong> (pʌbɯltʰi), Hindi <strong>बबल टी</strong> (bəbəl ʈiː), Russian <strong>бабл-ти</strong> (babl tʲi) and German <strong>Bubble Tea</strong> took the English name as it was. Other languages translated it word for word. Spanish <strong>té de burbujas</strong>, Portuguese <strong>chá de bolhas</strong>, Dutch <strong>bubbelthee</strong>, Hungarian <strong>buboréktea</strong>, Welsh <strong>te swigod</strong> and Hebrew <strong>תה בועות</strong> (te buot) all mean bubble tea, and Uyghur <strong>كۆپۈك سۈت چاي</strong> (køpyk syt tʃɑj) is “bubble milk tea”. If Wiktionary is right, all of them faithfully translated a word that began as a sound-alike. Taiwan does have real bubbles in its tea history. Wikipedia describes an older drink, 泡沫紅茶, “foam black tea”, shaken with ice until it foamed, which at first had no tapioca balls in it. Wikipedia does not connect that drink with the English name. Singapore calls bubble tea 泡泡茶 in Chinese.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,ko,hi,ru,de,es,pt,nl,hu,cy,he,ug\" data-word=\"bubbletea\">🗣 Compare bubble</button></div><h3>Tapioca and little balls</h3><p>Japan named the starch. <strong>タピオカティー</strong> (tapʲiokatiː) is “tapioca tea”, and plain タピオカ can mean the drink too. The word tapioca goes back to Old Tupi, a language of Brazil, so the Japanese name of a Taiwanese drink came from South America. Wikipedia reports that Japanese teenage girls made a verb out of it, タピる, “to drink tapioca tea”, and that it came first in a 2018 survey of slang among middle-school girls. Three cells see little balls. Finnish <strong>pallerotee</strong> is “little-ball tea”, Sakha <strong>шариктаах чэй</strong> (ʃariktaːx tʃej) is “tea with little balls”, and Armenian <strong>Գնդիկներով թեյ</strong> (ɡəndikneɾov tʰej) says the same. Finnish Wikipedia gives two more names in its first line, <em>kuplatee</em> and <em>helmitee</em>, bubble tea and pearl tea, so that one Finnish sentence covers three routes of this map.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja,fi,sah,hy\" data-word=\"bubbletea\">🗣 Compare tapioca and little balls</button></div><p><em>A cell is one language's or dialect's entry on the map.</em></p>",
+      "ja": "<p>アメリカでは、タピオカティーはたいてい<strong>boba</strong>と呼ばれる。もとは香港の広東語の「波霸」で、ウィクショナリーはこの語に二つの意味を挙げている。大粒のタピオカと、胸の大きな女性を指す俗語だ。ウィキペディアはこの名を、香港の女優エイミー・イップのあだ名にさかのぼるとし、この飲み物がアメリカに入ったのは1990年代だとしている。「波霸」の一字目は英語から来ている。広東語の「波」は「ボール」のことで、英語の<em>ball</em>を借りたものだ。「霸」は「かしら、いちばん」なので、文字どおりには「大きなボール」になる。アメリカでbobaを注文する人は、英語から香港へ渡り、また戻ってきた言葉を口にしていることになる。bobaの系統は4セルと小さく、インドネシア語<strong>boba</strong>やチェコ語<strong>boba čaj</strong>もここに入る。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"bubbletea\" data-code=\"en_us\">🗺️ 地図でタピオカティーを見る</button><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en_us,id,jv,cs\" data-word=\"bubbletea\">🗣 bobaを比べる</button></div><h3>真珠</h3><p>飲み物そのものは1980年代の台湾生まれだ。台中の春水堂と台南の翰林茶館が発祥を名乗っていて、それぞれ1987年、1986年としている。2019年には台湾の裁判所が、この飲み物は特許の対象にならないと判断し、どちらの手柄とも認めなかった。タピオカの粒には「粉圓」などの古い呼び名もあったが、ウィキペディアによれば、「珍珠」つまり真珠がすぐにそれに取って代わった。飲み物は<strong>珍珠奶茶</strong>（ʈʂən˥ ʈʂu˥ naɪ˨˩˦ ʈʂʰa˧˥）「真珠ミルクティー」、略して「珍奶」である。真珠の系統は8セルある。ベトナム語<strong>trà sữa trân châu</strong>の<em>trân châu</em>は「珍珠」の漢越音で、同じ真珠をそのまま使っている。タイ語<strong>ชานมไข่มุก</strong>（tɕʰaː˧nom˧kʰaj˨˩muk˦˥）、トルコ語<strong>inci çayı</strong>、フランス語<strong>thé aux perles</strong>、マレー語<strong>teh susu mutiara</strong>は、真珠を自分の言葉で言い表した。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh_tw,zh,yue,vi,th,tr,fr,ms\" data-word=\"bubbletea\">🗣 真珠を比べる</button></div><h3>泡</h3><p>いちばん大きいのは泡の系統で、20セルある。しかもこの名前は、音から始まったのかもしれない。ウィクショナリーによれば、英語<strong>bubble tea</strong>はboba teaの音に合わせて意味の通る語をあてたもので、タピオカの粒が泡に似ているとされたことも理由だという。韓国語<strong>버블티</strong>（pʌbɯltʰi）、ヒンディー語<strong>बबल टी</strong>（bəbəl ʈiː）、ロシア語<strong>бабл-ти</strong>（babl tʲi）、ドイツ語<strong>Bubble Tea</strong>は英語の名前をそのまま取り入れた。きちんと訳した言語もある。スペイン語<strong>té de burbujas</strong>、ポルトガル語<strong>chá de bolhas</strong>、オランダ語<strong>bubbelthee</strong>、ハンガリー語<strong>buboréktea</strong>、ウェールズ語<strong>te swigod</strong>、ヘブライ語<strong>תה בועות</strong>（te buot）はどれも「泡の茶」で、ウイグル語<strong>كۆپۈك سۈت چاي</strong>（køpyk syt tʃɑj）は「泡のミルクティー」だ。ウィクショナリーの説明が正しければ、これらの言語は、もとは音合わせだった語を律儀に訳したことになる。ただ、台湾のお茶の歴史には本物の泡もある。ウィキペディアは、氷と一緒にシェイクして細かい泡を立てる、もっと古い飲み物「泡沫紅茶」を紹介していて、これには最初タピオカが入っていなかったという。ただし英語の名前との関係には触れていない。シンガポールでは、タピオカティーを中国語で「泡泡茶」と呼ぶ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,ko,hi,ru,de,es,pt,nl,hu,cy,he,ug\" data-word=\"bubbletea\">🗣 泡を比べる</button></div><h3>タピオカと小さな玉</h3><p>日本語はでんぷんの名前で呼んだ。<strong>タピオカティー</strong>は文字どおり「タピオカの茶」で、「タピオカ」だけで飲み物を指すこともある。タピオカという語はブラジルの言語、古トゥピ語にさかのぼるので、台湾の飲み物の日本語名は南米から来たことになる。ウィキペディアによると、日本の十代の女の子たちはこれを動詞にして「タピる」と言い、この語は2018年の女子中学生の流行語調査で1位になった。小さな玉と見たのは3セルだ。フィンランド語<strong>pallerotee</strong>は「小さな玉の茶」、サハ語<strong>шариктаах чэй</strong>（ʃariktaːx tʃej）は「小さな玉の入った茶」で、アルメニア語<strong>Գնդիկներով թեյ</strong>（ɡəndikneɾov tʰej）も同じ意味である。フィンランド語版ウィキペディアは冒頭の一文で<em>kuplatee</em>「泡の茶」と<em>helmitee</em>「真珠の茶」も挙げていて、フィンランド語の一文だけでこの地図の三つの系統がそろう。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ja,fi,sah,hy\" data-word=\"bubbletea\">🗣 タピオカと小さな玉を比べる</button></div><p><em>セルとは、地図上の1言語または1方言の欄のことです。</em></p>"
+    },
+    "sources": [
+      {
+        "text": "\"Bubble tea\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Bubble_tea"
+      },
+      {
+        "text": "\"Pallerotee\". Finnish Wikipedia, accessed 2026.",
+        "url": "https://fi.wikipedia.org/wiki/Pallerotee"
+      },
+      {
+        "text": "\"Шариктаах чэй\". Sakha Wikipedia, accessed 2026.",
+        "url": "https://sah.wikipedia.org/wiki/Шариктаах_чэй"
+      },
+      {
+        "text": "\"boba\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/boba"
+      },
+      {
+        "text": "\"波霸\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/波霸"
+      },
+      {
+        "text": "\"boba tea\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/boba_tea"
+      },
+      {
+        "text": "\"bubble tea\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/bubble_tea"
+      },
+      {
+        "text": "\"珍珠奶茶\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/珍珠奶茶"
+      },
+      {
+        "text": "\"珍奶\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/珍奶"
+      },
+      {
+        "text": "\"tapioca pearl\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/tapioca_pearl"
+      },
+      {
+        "text": "\"ชานมไข่มุก\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ชานมไข่มุก"
+      },
+      {
+        "text": "\"inci çayı\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/inci_çayı"
+      },
+      {
+        "text": "\"버블티\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/버블티"
+      },
+      {
+        "text": "\"タピオカ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/タピオカ"
+      },
+      {
+        "text": "\"タピる\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/タピる"
+      }
+    ]
+  },
+  {
+    "id": "cottoncandy-daddys-beard",
+    "icon": "🍬",
+    "tags": [
+      "food",
+      "modern",
+      "names"
+    ],
+    "title": {
+      "en": "Cotton Candy: Daddy’s Beard and an Old Woman’s Hair",
+      "ja": "綿あめ：パパのひげとおばあさんの髪"
+    },
+    "summary": {
+      "en": "French calls cotton candy daddy’s beard, and Greek and Hindi call it an old woman’s hair. Every language needed a name for the new fairground sweet, and nearly all of them named it after what it looked like.",
+      "ja": "フランス語では綿あめを「パパのひげ」、ギリシャ語とヒンディー語では「おばあさんの髪」と呼ぶ。縁日の新しいお菓子に名前が必要になったとき、ほとんどの言語は見た目から名前をつけた。"
+    },
+    "body": {
+      "en": "<p>In France cotton candy is <strong>barbe à papa</strong>, “daddy’s beard”. In Greece it is <strong>μαλλί της γριάς</strong> (mali tis ɣɾias), “the old woman’s hair”, and Hindi has the same picture in <strong>बुड्ढी के बाल</strong> (bʊɖɖʱiː keː bɑːl). Spun sugar was known in Europe long before the machine, but it took a lot of work and few people ever tasted it. The fairground sweet came from a machine. According to Wikipedia, machine-spun cotton candy was invented in 1897 by a dentist, William Morrison, and a confectioner, John C. Wharton. After that every language needed a word for a pink cloud on a stick, and nearly all of them named it after what it looked like. On this map they saw five things: cotton, thread, hair, wool and air.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"cottoncandy\" data-code=\"fr\">🗺️ Show cotton candy on the map</button></div><h3>Cotton and cotton wool</h3><p>Cotton is the favourite, and its route has 68 cells. Chinese <strong>棉花糖</strong> (mjɛn˧˥ xwa˥ tʰɑŋ˧˥), Korean <strong>솜사탕</strong> (somsatʰaŋ) and Japanese <strong>綿菓子</strong> (wataɡaɕi) all begin with cotton, and so do Spanish <strong>algodón de azúcar</strong>, “sugar cotton”, and Turkish <strong>pamuk şeker</strong>. The Chinese word also means a marshmallow. Many European languages chose a more particular cotton, the cotton wool from the medicine cabinet. German <strong>Zuckerwatte</strong> is <em>Zucker</em>, “sugar”, plus <em>Watte</em>, “cotton wool”, and Russian <strong>сахарная вата</strong> (saxərnəjə vatə), Polish <strong>wata cukrowa</strong>, Hungarian <strong>vattacukor</strong> and Swedish <strong>sockervadd</strong> combine the same two words. Georgian <strong>ბამბის ნაყინი</strong> (bɑmbis nɑqʼini) has its own idea and calls it “cotton ice cream”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,ko,ja,es,tr,de,ru,pl,hu,sv,ka\" data-word=\"cottoncandy\">🗣 Compare cotton and cotton wool</button></div><p>English cannot agree with itself. The machine-made sweet reached a wide public at the 1904 World’s Fair, sold as Fairy Floss. Wikipedia says that a 1921 patent by Joseph Lascaux, another dentist, from New Orleans, called it cotton candy, and that this name eventually overtook fairy floss, which survives in Australia. So American English says <strong>cotton candy</strong>, Australian English <strong>fairy floss</strong> and British English <strong>candyfloss</strong>, where <em>floss</em> means raw silk fibre. The names are older than the machines, though. Wiktionary dates fairy floss to the 1850s and cotton candy to the 1880s.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en_us,en_au,en\" data-word=\"cottoncandy\">🗣 Compare the three English names</button></div><h3>Spun thread</h3><p>The second route sees spun thread, and it has 20 cells. Italian <strong>zucchero filato</strong> is “spun sugar”. Arabic <strong>غزل البنات</strong> (ɣazl albanaːt) is “the girls’ yarn”, the name used in Egypt and the Levant. Thai <strong>สายไหม</strong> (saːj˩˩˦maj˩˩˦) is <em>sai</em>, “string”, plus <em>mai</em>, “silk”, and it is also the name of a district of Bangkok. In Thailand the floss is also rolled up in a thin sweet roti as <em>roti sai mai</em>, which Wikipedia says Indian Muslim traders brought to the Ayutthaya kingdom. Urdu <strong>لچھا</strong> (ləttʃʰɑː) is “a skein of thread”, and Telugu <strong>పీచుమిఠాయి</strong> (piːtʃumiʈʰaːji) is a “fibre sweet”. Dutch <strong>suikerspin</strong> has the best picture. It ends in <em>spin</em>, the Dutch word for a spider, and the spider got that name from spinning.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"it,ar,th,ur,te,nl\" data-word=\"cottoncandy\">🗣 Compare spun thread</button></div><h3>Hair, wool and air</h3><p>The hair route has 13 cells. Ten of them are French, from Quebec to Senegal, and the other three are Greek, Hindi and Hebrew. Hebrew Wikipedia gives <strong>שערות סבתא</strong> (saʔaʁot savta), “grandma’s hair”, as the name in Israel, though <em>צמר גפן מתוק</em>, “sweet cotton wool”, is also used.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,fr_qc,fr_sn,el,hi\" data-word=\"cottoncandy\">🗣 Compare hair and beard</button></div><p>The wool route has 5 cells. Persian <strong>پشمک</strong> (pæʃˈmæk) is <em>pašm</em>, “wool”, with a diminutive ending, so roughly “little wool”. It is also the name of a traditional sweet from Yazd made with sugar and sesame, and Wikipedia says its texture is like cotton candy although the method and ingredients are different. Turkish has the same wool in <em>pişmaniye</em>, a floss sweet on a base of flour and butter, whose name comes from Persian <em>pašmīna</em>, “woolstuff”. For the fairground sweet, though, Turkish says <strong>pamuk şeker</strong>, which is cotton. Macedonian <strong>шеќерна волна</strong> (ʃɛcɛrna vɔɫna) is “sugar wool”.</p><p>The air route has 5 cells too. Finnish <strong>hattara</strong> also means a small cloud. According to Wiktionary it first meant a rag or tatter, and in Finnic mythology it is also a race of giants living in the sky. Irish <strong>scamall siúcra</strong> is “sugar cloud”, Mongolian <strong>хөөсөн чихэр</strong> (xɵːsəŋ tʃʰixer) is “foam candy”, and Bengali <strong>হাওয়াই মিঠাই</strong> (hawai̯ miʈʰai̯) is an “airy sweet”. Afrikaans <strong>spookasem</strong> is <em>spook</em>, “ghost”, plus <em>asem</em>, “breath”. The one cell that saw none of these things is Kannada <strong>ಬೊಂಬಾಯಿ ಮಿಠಾಯಿ</strong> (bombaːji miʈʰaːji), “Bombay sweet”, which is named after a city instead of a look.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fa,mk,fi,ga,mn,bn,af,kn\" data-word=\"cottoncandy\">🗣 Compare wool and air</button></div><p><em>A cell is one language's or dialect's entry on the map.</em></p>",
+      "ja": "<p>フランスでは綿あめを<strong>barbe à papa</strong>「パパのひげ」と呼ぶ。ギリシャでは<strong>μαλλί της γριάς</strong>（mali tis ɣɾias）「おばあさんの髪」で、ヒンディー語の<strong>बुड्ढी के बाल</strong>（bʊɖɖʱiː keː bɑːl）も同じ見立てだ。砂糖を糸にする技術はヨーロッパでずっと前から知られていたが、手間がかかり、口にできる人はほとんどいなかった。縁日の綿あめは機械から生まれた。ウィキペディアによると、機械で紡ぐ綿あめを1897年に発明したのは、歯科医のウィリアム・モリソンと菓子職人のジョン・C・ウォートンである。それ以来、どの言語も棒に巻きついたピンクの雲に名前をつける必要に迫られ、ほとんどが見た目から名づけた。この地図で見ると、人々がそこに見たものは綿、糸、髪、羊毛、空気の五つに分かれる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"cottoncandy\" data-code=\"fr\">🗺️ 地図で綿あめを見る</button></div><h3>綿と脱脂綿</h3><p>いちばん人気は綿で、この系統は68セルある。中国語<strong>棉花糖</strong>（mjɛn˧˥ xwa˥ tʰɑŋ˧˥）、韓国語<strong>솜사탕</strong>（somsatʰaŋ）、日本語<strong>綿菓子</strong>はどれも綿から始まり、スペイン語<strong>algodón de azúcar</strong>「砂糖の綿」やトルコ語<strong>pamuk şeker</strong>も同じだ。中国語のこの語はマシュマロも指す。ヨーロッパの多くの言語は、もう少し限られた綿、つまり救急箱の脱脂綿を選んだ。ドイツ語<strong>Zuckerwatte</strong>は<em>Zucker</em>「砂糖」と<em>Watte</em>「脱脂綿」を合わせた語で、ロシア語<strong>сахарная вата</strong>（saxərnəjə vatə）、ポーランド語<strong>wata cukrowa</strong>、ハンガリー語<strong>vattacukor</strong>、スウェーデン語<strong>sockervadd</strong>も同じ作りである。ジョージア語<strong>ბამბის ნაყინი</strong>（bɑmbis nɑqʼini）は独自の発想で、「綿のアイスクリーム」と呼ぶ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"zh,ko,ja,es,tr,de,ru,pl,hu,sv,ka\" data-word=\"cottoncandy\">🗣 綿と脱脂綿を比べる</button></div><p>英語は国によって呼び名がそろわない。機械で作る綿あめが広く知られたのは1904年の万国博覧会で、そのときはFairy Flossの名で売られた。ウィキペディアによれば、1921年にニューオーリンズの歯科医ジョゼフ・ラスコーが取った特許がこれをcotton candyと呼び、この名がやがてfairy flossを追い越した。ただしオーストラリアにはfairy flossが残っている。こうしてアメリカ英語は<strong>cotton candy</strong>、オーストラリア英語は<strong>fairy floss</strong>、イギリス英語は<strong>candyfloss</strong>と言う。<em>floss</em>は生糸の繊維のことだ。もっとも、名前そのものは機械より古い。ウィクショナリーは、fairy flossの初出を1850年代、cotton candyを1880年代としている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en_us,en_au,en\" data-word=\"cottoncandy\">🗣 英語の三つの名前を比べる</button></div><h3>紡いだ糸</h3><p>二つ目の系統は紡いだ糸を見ていて、20セルある。イタリア語<strong>zucchero filato</strong>は「紡いだ砂糖」だ。アラビア語<strong>غزل البنات</strong>（ɣazl albanaːt）は「娘たちの紡ぎ糸」で、エジプトやレバント地方の呼び名である。タイ語<strong>สายไหม</strong>（saːj˩˩˦maj˩˩˦）は<em>sai</em>「ひも」と<em>mai</em>「絹」を合わせた語で、バンコクの区の名前でもある。タイではこの綿あめを甘い薄焼きのロティで巻いた<em>roti sai mai</em>も食べられていて、ウィキペディアによれば、インド系ムスリムの商人がアユタヤ王朝の時代に伝えたものだという。ウルドゥー語<strong>لچھا</strong>（ləttʃʰɑː）は「糸のかせ」、テルグ語<strong>పీచుమిఠాయి</strong>（piːtʃumiʈʰaːji）は「繊維の菓子」である。いちばん楽しい絵を描いたのはオランダ語<strong>suikerspin</strong>だろう。語末の<em>spin</em>はオランダ語でクモのことで、クモは糸を紡ぐことからこの名で呼ばれるようになった。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"it,ar,th,ur,te,nl\" data-word=\"cottoncandy\">🗣 紡いだ糸を比べる</button></div><h3>髪、羊毛、空気</h3><p>髪の系統は13セルある。そのうち10セルはケベックからセネガルまでのフランス語で、残りの三つがギリシャ語、ヒンディー語、ヘブライ語だ。ヘブライ語版ウィキペディアによれば、イスラエルではこのお菓子は<strong>שערות סבתא</strong>（saʔaʁot savta）「おばあちゃんの髪」の名で知られている。<em>צמר גפן מתוק</em>「甘い脱脂綿」とも言う。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,fr_qc,fr_sn,el,hi\" data-word=\"cottoncandy\">🗣 髪とひげを比べる</button></div><p>羊毛の系統は5セルだ。ペルシャ語<strong>پشمک</strong>（pæʃˈmæk）は<em>pašm</em>「羊毛」に指小辞をつけた語で、「小さな羊毛」といったところである。ヤズドの伝統菓子の名前でもあり、こちらは砂糖とゴマで作る。ウィキペディアによると、口当たりは綿あめに似ているが、作り方も材料も違う。トルコ語にも同じ羊毛を名前に持つ<em>pişmaniye</em>がある。小麦粉とバターを土台にした綿あめのようなお菓子で、名前はペルシャ語<em>pašmīna</em>「毛織物」から来ている。それでも縁日の綿あめのほうは、トルコ語では<strong>pamuk şeker</strong>、つまり綿である。マケドニア語<strong>шеќерна волна</strong>（ʃɛcɛrna vɔɫna）は「砂糖の羊毛」だ。</p><p>空気の系統も5セルある。フィンランド語<strong>hattara</strong>は小さな雲の意味にもなる。ウィクショナリーによれば、もとは「ぼろ切れ」を指す語で、フィン系の神話では空に住む巨人の一族の名でもある。アイルランド語<strong>scamall siúcra</strong>は「砂糖の雲」、モンゴル語<strong>хөөсөн чихэр</strong>（xɵːsəŋ tʃʰixer）は「泡のキャンディー」、ベンガル語<strong>হাওয়াই মিঠাই</strong>（hawai̯ miʈʰai̯）は「空気のような菓子」である。アフリカーンス語<strong>spookasem</strong>は<em>spook</em>「幽霊」と<em>asem</em>「息」を合わせた語だ。このどれにも当てはまらないセルは一つだけで、カンナダ語<strong>ಬೊಂಬಾಯಿ ಮಿಠಾಯಿ</strong>（bombaːji miʈʰaːji）「ボンベイの菓子」は、見た目ではなく都市の名前を背負っている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fa,mk,fi,ga,mn,bn,af,kn\" data-word=\"cottoncandy\">🗣 羊毛と空気を比べる</button></div><p><em>セルとは、地図上の1言語または1方言の欄のことです。</em></p>"
+    },
+    "sources": [
+      {
+        "text": "\"Cotton candy\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Cotton_candy"
+      },
+      {
+        "text": "\"Pashmak\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Pashmak"
+      },
+      {
+        "text": "\"Roti sai mai\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Roti_sai_mai"
+      },
+      {
+        "text": "\"צמר גפן מתוק\". Hebrew Wikipedia, accessed 2026.",
+        "url": "https://he.wikipedia.org/wiki/צמר_גפן_מתוק"
+      },
+      {
+        "text": "\"ბამბის ნაყინი\". Georgian Wikipedia, accessed 2026.",
+        "url": "https://ka.wikipedia.org/wiki/ბამბის_ნაყინი"
+      },
+      {
+        "text": "\"Spookasem\". Afrikaans Wikipedia, accessed 2026.",
+        "url": "https://af.wikipedia.org/wiki/Spookasem"
+      },
+      {
+        "text": "\"barbe à papa\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/barbe_à_papa"
+      },
+      {
+        "text": "\"μαλλί της γριάς\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/μαλλί_της_γριάς"
+      },
+      {
+        "text": "\"बुड्ढी के बाल\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/बुड्ढी_के_बाल"
+      },
+      {
+        "text": "\"cotton candy\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/cotton_candy"
+      },
+      {
+        "text": "\"fairy floss\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/fairy_floss"
+      },
+      {
+        "text": "\"candy floss\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/candy_floss"
+      },
+      {
+        "text": "\"floss\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/floss"
+      },
+      {
+        "text": "\"棉花糖\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/棉花糖"
+      },
+      {
+        "text": "\"綿菓子\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/綿菓子"
+      },
+      {
+        "text": "\"솜사탕\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/솜사탕"
+      },
+      {
+        "text": "\"algodón de azúcar\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/algodón_de_azúcar"
+      },
+      {
+        "text": "\"Zuckerwatte\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/Zuckerwatte"
+      },
+      {
+        "text": "\"сахарная вата\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/сахарная_вата"
+      },
+      {
+        "text": "\"zucchero filato\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/zucchero_filato"
+      },
+      {
+        "text": "\"غزل البنات\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/غزل_البنات"
+      },
+      {
+        "text": "\"สายไหม\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/สายไหม"
+      },
+      {
+        "text": "\"suikerspin\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/suikerspin"
+      },
+      {
+        "text": "\"spin\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/spin"
+      },
+      {
+        "text": "\"پشمک\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/پشمک"
+      },
+      {
+        "text": "\"pişmaniye\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/pişmaniye"
+      },
+      {
+        "text": "\"шеќерна волна\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/шеќерна_волна"
+      },
+      {
+        "text": "\"hattara\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/hattara"
+      }
+    ]
+  },
+  {
+    "id": "jetlag-blame-the-jet-or-the-clock",
+    "icon": "✈️",
+    "tags": [
+      "travel",
+      "modern",
+      "names"
+    ],
+    "title": {
+      "en": "Jet Lag: Blame the Jet or the Clock",
+      "ja": "時差ぼけ：悪いのはジェット機か時計か"
+    },
+    "summary": {
+      "en": "Hebrew built its word for jet lag like the name of a disease, from “tired” and “fly”. Most of the map borrowed the English name, and the rest blames the time difference.",
+      "ja": "ヘブライ語は時差ぼけを表す語を「疲れた」と「飛ぶ」から、病名と同じ形に作った。地図の多くは英語の jet lag を借り、残りは時差そのものを名前にした。"
+    },
+    "body": {
+      "en": "<p>Hebrew turned jet lag into an illness. According to Hebrew Wikipedia, <strong>יעפת</strong> (jaˈefet) combines two roots, <em>y-ʻ-f</em>, “tired”, and <em>ʻ-w-f</em>, “to fly”. It is also shaped like a Hebrew disease name. Hebrew Wikipedia says that its word pattern usually names diseases, such as <em>חצבת</em>, measles, and <em>אדמת</em>, rubella, and Wiktionary adds that the word for flu, <em>שפעת</em>, was coined in the same pattern as a copy of Italian <em>influenza</em>. So the Hebrew word sounds like something you could catch. Even so, Hebrew Wikipedia notes that the English name, <em>ג׳ט לג</em>, is also used. Hebrew is the only cell on its route, and the rest of the map did something much simpler.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"jetlag\" data-code=\"he\">🗺️ Show jet lag on the map</button></div><h3>The English name</h3><p>The English name came first. Wikipedia finds the earliest use of jet lag in the Los Angeles Times of 13 February 1966, in an article by Horace Sutton, who explained that jets travel so fast that they leave your body’s rhythms behind. Before jet aircraft, Wikipedia notes, travel was rarely fast or far enough to cause the condition, but it is still older than the word. The pilot Wiley Post wrote about the effects of flying across time zones in <em>Around the World in Eight Days</em>, a book he co-wrote in 1931. English <strong>jet lag</strong> pairs <em>jet</em>, from French <em>jet</em>, “a throw”, with <em>lag</em>, a word that Wiktionary calls of unknown origin, possibly North Germanic.</p><p>The borrowed name is the bigger route, with 56 cells, although many of them are varieties of English and Spanish. German <strong>Jetlag</strong> and Swedish <strong>jetlag</strong> write it as one word. Russian <strong>джетлаг</strong> (dʐʐɨtˈɫak), Greek <strong>τζετ λαγκ</strong> (dzet laɡ), Armenian <strong>ջեթլագ</strong> (dʒetʰˈlɑɡ), Hindi <strong>जेट लैग</strong> (dʒeːʈ lɛːɡ) and Bengali <strong>জেট ল্যাগ</strong> (dʒeʈ læɡ) spell it in their own scripts. Spanish and Portuguese keep it unchanged as <strong>jet lag</strong>, even though Spanish has a term of its own, <em>desfase horario</em>, which Wiktionary defines both as jet lag and as a time offset.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,sv,ru,el,hy,hi,bn,es,pt\" data-word=\"jetlag\">🗣 Compare English jet lag and its borrowings</button></div><h3>The time difference</h3><p>The other route, with 26 cells, names the time difference itself. French <strong>décalage horaire</strong> is also the phrase for the time difference between two zones, so one phrase covers both the cause and the complaint. Chinese <strong>时差</strong> (ʂʐ̩˧˥ ʈʂʰä˥) and Korean <strong>시차</strong> (ɕitɕʰa) simply say “time difference”. In Korean the same sound, written 視差 instead of 時差, is also the word for parallax. Chinese has a verb as well, <em>倒时差</em>, which Wiktionary defines both as getting used to the time difference and as suffering from jet lag. Its first character, 倒, means “to upset, to turn over”. Japanese adds a diagnosis. <strong>時差ぼけ</strong> (dʑisaboke) is 時差, “time difference”, plus ぼけ, which Wiktionary glosses as senility.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,zh,ko,ja\" data-word=\"jetlag\">🗣 Compare the time difference</button></div><p>A few languages on this route called it an illness, as Hebrew did. Czech <strong>pásmová nemoc</strong> and Slovak <strong>pásmová choroba</strong> are “time-zone illness”. Czech Wikipedia translates the English name as <em>tryskáčové zpoždění</em>, “jet delay”, but uses the Czech term as its title, and adds that the condition usually follows a fast crossing of at least three time zones. Esperanto <strong>horzonozo</strong> joins <em>horzono</em>, “time zone”, to <em>-ozo</em>, the ending of <em>tuberkulozo</em>, tuberculosis. Finnish <strong>aikaerorasitus</strong> is milder, “time-difference stress”. Medicine has its own names, desynchronosis and circadian dysrhythmia. Recovery, according to Wikipedia, takes about one day for each hour of time difference, and most travellers find flying east harder.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"cs,sk,eo,fi,he\" data-word=\"jetlag\">🗣 Compare illness and stress</button></div><p><em>A cell is one language's or dialect's entry on the map.</em></p>",
+      "ja": "<p>ヘブライ語は、時差ぼけを病気にしてしまった。ヘブライ語版ウィキペディアによると、<strong>יעפת</strong>（jaˈefet）は二つの語根を組み合わせた語で、「疲れた」を意味する<em>y-ʻ-f</em>と「飛ぶ」の<em>ʻ-w-f</em>からできている。形のほうは、ヘブライ語で病名に使われる型だ。同じウィキペディアは、この語形の型がたいてい<em>חצבת</em>「はしか」や<em>אדמת</em>「風疹」のような病気を表すと説明していて、ウィクショナリーによれば、インフルエンザを指す<em>שפעת</em>もイタリア語<em>influenza</em>をなぞってこの型で作られた。だからヘブライ語の時差ぼけは、人からうつされそうな名前に聞こえる。それでも、ヘブライ語版ウィキペディアによれば、英語をそのまま写した<em>ג׳ט לג</em>も使われている。この系統のセルはヘブライ語だけで、地図のほかの言語はずっと単純なやり方をとった。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"jetlag\" data-code=\"he\">🗺️ 地図で時差ぼけを見る</button></div><h3>英語の名前</h3><p>先にできたのは英語の名前だ。ウィキペディアによれば、jet lagのいちばん古い用例は1966年2月13日のロサンゼルス・タイムズに載ったホレス・サットンの記事で、サットンは、ジェット機はとても速いので体のリズムを置き去りにしてしまうと説明した。また、ジェット機以前の旅は、この症状を起こすほど速くも遠くもないのがふつうだったという。それでも症状そのものは言葉より古い。飛行士のワイリー・ポストは、1931年に共著で出した<em>Around the World in Eight Days</em>（8日間世界一周）で、時間帯をまたいで飛ぶことの影響について書いている。英語の<strong>jet lag</strong>は、フランス語<em>jet</em>「投げること」から来た<em>jet</em>に<em>lag</em>を組み合わせた語で、ウィクショナリーは<em>lag</em>の由来を不明、北ゲルマン語から来た可能性があるとしている。</p><p>大きいのは借りた名前の系統で、56セルある。ただしその多くは英語とスペイン語の変種だ。ドイツ語<strong>Jetlag</strong>とスウェーデン語<strong>jetlag</strong>は一語につなげて書く。ロシア語<strong>джетлаг</strong>（dʐʐɨtˈɫak）、ギリシャ語<strong>τζετ λαγκ</strong>（dzet laɡ）、アルメニア語<strong>ջեթլագ</strong>（dʒetʰˈlɑɡ）、ヒンディー語<strong>जेट लैग</strong>（dʒeːʈ lɛːɡ）、ベンガル語<strong>জেট ল্যাগ</strong>（dʒeʈ læɡ）は、それぞれ自分の文字で書き写した。スペイン語とポルトガル語は<strong>jet lag</strong>をそのまま使う。スペイン語には<em>desfase horario</em>という自前の言い方もあるのに、である。ウィクショナリーによると、こちらは時差ぼけと時間のずれの両方を指す。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en,de,sv,ru,el,hy,hi,bn,es,pt\" data-word=\"jetlag\">🗣 英語の jet lag と借用を比べる</button></div><h3>時差そのもの</h3><p>もう一つの系統は26セルで、時差そのものを名前にしている。フランス語<strong>décalage horaire</strong>は二つの時間帯のあいだの時差も指すので、原因と症状が一つの言い方に収まっている。中国語<strong>时差</strong>（ʂʐ̩˧˥ ʈʂʰä˥）と韓国語<strong>시차</strong>（ɕitɕʰa）も、ただ「時差」と言うだけだ。韓国語では同じ音でも、「時差」ではなく「視差」と書けば天文学などの視差になる。中国語には<em>倒时差</em>という動詞もあり、ウィクショナリーは「時差に慣れる」と「時差ぼけになる」の両方の意味を挙げている。一字目の「倒」は「ひっくり返す」という意味だ。日本語は診断名までつけた。<strong>時差ぼけ</strong>は「時差」に「ぼけ」を足した語で、英語版ウィクショナリーはこの「ぼけ」を senility、つまり老いによるぼけと訳している。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,zh,ko,ja\" data-word=\"jetlag\">🗣 時差・時間帯を比べる</button></div><p>この系統の中には、ヘブライ語と同じように病気と呼んだ言語もある。チェコ語<strong>pásmová nemoc</strong>とスロバキア語<strong>pásmová choroba</strong>は「時間帯病」だ。チェコ語版ウィキペディアは英語の名前を<em>tryskáčové zpoždění</em>「ジェット機の遅れ」と訳しながらも、記事の題にはチェコ語の名前を使い、ふつうは三つ以上の時間帯を短時間で越えたあとに起こると書いている。エスペラント<strong>horzonozo</strong>は<em>horzono</em>「時間帯」に、<em>tuberkulozo</em>「結核」の語尾<em>-ozo</em>をつけた語である。フィンランド語<strong>aikaerorasitus</strong>はもう少し穏やかで、「時差のストレス」だ。医学にはdesynchronosisやcircadian dysrhythmiaという専門の呼び名がある。ウィキペディアによると、回復には時差1時間につきおよそ1日かかり、多くの旅行者は東へ飛ぶほうがつらいと感じる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"cs,sk,eo,fi,he\" data-word=\"jetlag\">🗣 病気とストレスを比べる</button></div><p><em>セルとは、地図上の1言語または1方言の欄のことです。</em></p>"
+    },
+    "sources": [
+      {
+        "text": "\"Jet lag\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Jet_lag"
+      },
+      {
+        "text": "\"יעפת\". Hebrew Wikipedia, accessed 2026.",
+        "url": "https://he.wikipedia.org/wiki/יעפת"
+      },
+      {
+        "text": "\"משקל (בלשנות)\". Hebrew Wikipedia, accessed 2026.",
+        "url": "https://he.wikipedia.org/wiki/משקל_(בלשנות)"
+      },
+      {
+        "text": "\"Pásmová nemoc\". Czech Wikipedia, accessed 2026.",
+        "url": "https://cs.wikipedia.org/wiki/Pásmová_nemoc"
+      },
+      {
+        "text": "\"jet lag\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/jet_lag"
+      },
+      {
+        "text": "\"jet\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/jet"
+      },
+      {
+        "text": "\"lag\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/lag"
+      },
+      {
+        "text": "\"שפעת\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/שפעת"
+      },
+      {
+        "text": "\"desfase horario\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/desfase_horario"
+      },
+      {
+        "text": "\"décalage horaire\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/décalage_horaire"
+      },
+      {
+        "text": "\"시차\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/시차"
+      },
+      {
+        "text": "\"时差\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/时差"
+      },
+      {
+        "text": "\"倒時差\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/倒時差"
+      },
+      {
+        "text": "\"時差ぼけ\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/時差ぼけ"
+      },
+      {
+        "text": "\"horzono\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/horzono"
+      },
+      {
+        "text": "\"tuberkulozo\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/tuberkulozo"
+      },
+      {
+        "text": "\"aikaerorasitus\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/aikaerorasitus"
+      }
+    ]
+  },
+  {
+    "id": "usbstick-a-key-a-pen-a-finger",
+    "icon": "💾",
+    "tags": [
+      "technology",
+      "modern",
+      "names"
+    ],
+    "title": {
+      "en": "USB Stick: A Key, a Pen and a Finger",
+      "ja": "USBメモリ：鍵とペンと指"
+    },
+    "summary": {
+      "en": "Hebrew calls every USB stick by an early brand name, DiskOnKey. Elsewhere it became a stick, a key, a pen or a finger, depending on what people saw in it.",
+      "ja": "ヘブライ語では、どの USB メモリも初期の製品名 DiskOnKey で呼ぶ。ほかの言語では、見る人しだいで棒にも鍵にもペンにも指にもなった。"
+    },
+    "body": {
+      "en": "<p>In Hebrew every USB stick is a <strong>דיסק און קי</strong> (disk on ki), “disk on key”. That was the brand name of M-Systems’ first USB drive. According to Wikipedia, M-Systems, a company from Kfar Saba in Israel, introduced DiskOnKey with IBM in 2000, and it held 8 MB. Mainland Chinese <strong>U盘</strong> (joʊ̯˥ pʰän˧˥) has a similar start. Netac, a company in Shenzhen, applied for a Chinese patent in 1999 and called its first drive, also 8 MB, the U disk, with U short for USB. The rest of the world got the same small object at about the same time and named it after what it looked like or what was inside. The map sorts the answers into eight routes.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"usbstick\" data-code=\"he\">🗺️ Show USB stick on the map</button><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"he,zh,wuu\" data-word=\"usbstick\">🗣 Compare the two brand names</button></div><h3>A stick, a key, a pen</h3><p>The stick route has 12 cells. German <strong>USB-Stick</strong> took the English word, and English itself says <strong>USB stick</strong>. Finnish <strong>muistitikku</strong>, Estonian <strong>mälupulk</strong> and Norwegian <strong>minnepinne</strong> all mean “memory stick”. Wiktionary calls the Norwegian word a calque of English <em>memory stick</em>, which began as a Sony brand name. Welsh <strong>ffon gof</strong> is <em>ffon</em>, “stick”, plus <em>cof</em>, “memory”, which becomes <em>gof</em> after the noun.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"de,en,fi,et,no,cy\" data-word=\"usbstick\">🗣 Compare a stick</button></div><p>Five cells see a key. French <strong>clé USB</strong> is “USB key”, and Italian <strong>chiavetta USB</strong> is “little USB key”, although Wiktionary describes the Italian word as a calque of English <em>USB stick</em>. Icelandic <strong>minnislykill</strong> is “memory key”. Costa Rica has the strangest key, <strong>llave maya</strong>. In a 2013 article on brand names that became ordinary words in Costa Rican Spanish, the linguist Víctor Sánchez Corrales suggests, with a question mark, that Maya was a brand. The audio maker Audiotrak sold a small rectangular USB device called MAYA 44 USB, which he describes as a portable recorder, and it looked like a memory stick. The key, he writes, is there because people hung the stick around their necks so as not to lose it, as some people do with their keys.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,it,is,es_cr\" data-word=\"usbstick\">🗣 Compare a key</button></div><p>The pen route has 9 cells. Pen drive is a trademark, and Wiktionary names its owner as Phison Electronics. Polish and Hungarian say <strong>pendrive</strong>, and so does Spanish. Brazil says <strong>pen drive</strong>, and Portugal shortens it to plain <strong>pen</strong>. It is the everyday word in India as well, in Indian English <strong>pen drive</strong>, Marathi <strong>पेन ड्राईव्ह</strong> (peːn ɖɾaːiʋʱ) and Gujarati <strong>પેન ડ્રાઈવ</strong> (peːn ɖraːiʋ).</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"pl,hu,es,pt_br,pt,en_in,mr,gu\" data-word=\"usbstick\">🗣 Compare a pen</button></div><h3>A finger and a flash</h3><p>The finger route is small, with 3 cells, but it has a famous ancestor. Wikipedia names Trek 2000 of Singapore as the first company known to have sold a USB flash drive, and its trademark was ThumbDrive. English still says <em>thumb drive</em>. Hong Kong Cantonese calls the stick <strong>手指</strong> (sɐu˧˥ tsiː˧˥), simply “finger”. Tamil <strong>விரலி</strong> (ʋiɾali) is built on <em>viral</em>, “finger”, and Uyghur <strong>بارماق دىسكا</strong> (barmaq diska) is “finger disk”.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"yue,ta,ug\" data-word=\"usbstick\">🗣 Compare a finger or thumb</button></div><p>Russian looked inside instead. Its <strong>флешка</strong> (ˈfɫeʂkə) is English <em>flash</em>, as in flash memory, plus the suffix <em>-ка</em>, and the flash route has 8 cells. Ukrainian <strong>флешка</strong>, Belarusian <strong>флэшка</strong> (ˈflɛʂka), Bulgarian <strong>флашка</strong> (ˈflaʃkɐ) and Czech <strong>fleška</strong> are made from the same two pieces, and Georgian <strong>ფლეშკა</strong> (fleʃkʼa) has the same ending. Arabic <strong>فلاشة</strong> (fiˈlaːʃa) also comes from English flash.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ru,uk,be,bg,cs,ka,ar\" data-word=\"usbstick\">🗣 Compare flash memory, named alone</button></div><h3>A drive, memory, or just the plug</h3><p>Eleven cells call it a disk or a drive. American English says <strong>flash drive</strong>, Taiwan says <strong>隨身碟</strong> (sweɪ̯˧˥ ʂən˥ tjɛ˧˥), “a disc carried on you”, and Malay <strong>pemacu kilat</strong>, “lightning drive”, translates English flash drive word for word. Three cells name the memory: Japanese <strong>USBメモリ</strong> (juːesɯbiːmemoɾi), Korean <strong>USB 메모리</strong> (juesɯbi memoɾi) and Swedish <strong>USB-minne</strong>. The last three do not describe the thing at all. Vietnamese says <strong>USB</strong>, letter by letter, Urdu says <strong>یو ایس بی</strong> (juː eːs biː), and Macedonian <strong>уесбе</strong> (ˈuɛzbɛ) is the three letters as Macedonian reads them. These languages call the device by the name of its plug.</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en_us,zh_tw,ms,ja,ko,sv,vi,ur,mk\" data-word=\"usbstick\">🗣 Compare a disk or drive, memory, and USB</button></div><p><em>A cell is one language's or dialect's entry on the map.</em></p>",
+      "ja": "<p>ヘブライ語では、どんなUSBメモリも<strong>דיסק און קי</strong>（disk on ki）「ディスク・オン・キー」と呼ばれる。これはM-システムズ社が最初に出したUSBメモリの製品名だ。ウィキペディアによると、イスラエルのクファル・サバにあるこの会社は2000年にIBMと組んでDiskOnKeyを発売し、その容量は8MBだった。中国本土の<strong>U盘</strong>（joʊ̯˥ pʰän˧˥）も似たような生まれである。深圳の会社ネタックが1999年に中国で特許を出願し、同じく8MBだった最初の製品を「Uディスク」と名づけた。UはUSBを縮めたものだ。世界のほかの地域にもほぼ同じころに同じ小さな道具が届き、人々はそれを見た目か中身にちなんで名づけた。地図ではその答えが八つの系統に分かれている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"setword\" data-word=\"usbstick\" data-code=\"he\">🗺️ 地図でUSBメモリを見る</button><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"he,zh,wuu\" data-word=\"usbstick\">🗣 二つの製品名を比べる</button></div><h3>棒、鍵、ペン</h3><p>棒の系統は12セルある。ドイツ語<strong>USB-Stick</strong>は英語の<em>stick</em>をそのまま取り入れ、英語自身も<strong>USB stick</strong>と言う。フィンランド語<strong>muistitikku</strong>、エストニア語<strong>mälupulk</strong>、ノルウェー語<strong>minnepinne</strong>はどれも「記憶の棒」である。ウィクショナリーはノルウェー語のこの語を英語<em>memory stick</em>のなぞりとしていて、その<em>memory stick</em>はもともとソニーの商標だった。ウェールズ語<strong>ffon gof</strong>は<em>ffon</em>「棒」と<em>cof</em>「記憶」の組み合わせで、<em>cof</em>は名詞のあとで<em>gof</em>に変わる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"de,en,fi,et,no,cy\" data-word=\"usbstick\">🗣 棒を比べる</button></div><p>鍵と見たのは5セルだ。フランス語<strong>clé USB</strong>は「USBの鍵」、イタリア語<strong>chiavetta USB</strong>は「USBの小さな鍵」である。ただしウィクショナリーは、イタリア語のこの語を英語<em>USB stick</em>のなぞりと説明している。アイスランド語<strong>minnislykill</strong>は「記憶の鍵」だ。いちばん不思議な鍵はコスタリカの<strong>llave maya</strong>である。言語学者ビクトル・サンチェス・コラレスは、コスタリカのスペイン語で普通名詞になった商標名を扱った2013年の論文で、疑問符をつけながらも、マヤは商標名だったと推測している。音響機器メーカーのオーディオトラックがMAYA 44 USBという小さな長方形のUSB機器を出していて、論文はこれを携帯用の録音機と説明している。それがUSBメモリに似ていたというのだ。「鍵」のほうは、なくさないように首から下げていたからだと論文は書いている。鍵をそうして持ち歩く人がいるのと同じである。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"fr,it,is,es_cr\" data-word=\"usbstick\">🗣 鍵を比べる</button></div><p>ペンの系統は9セルある。pen driveは商標で、ウィクショナリーによると持ち主はファイソン・エレクトロニクスである。ポーランド語とハンガリー語は<strong>pendrive</strong>と言い、スペイン語も同じだ。ブラジルは<strong>pen drive</strong>、ポルトガルは縮めてただの<strong>pen</strong>で済ませる。インドでもこれが普段の言葉で、インド英語<strong>pen drive</strong>、マラーティー語<strong>पेन ड्राईव्ह</strong>（peːn ɖɾaːiʋʱ）、グジャラート語<strong>પેન ડ્રાઈવ</strong>（peːn ɖraːiʋ）と並ぶ。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"pl,hu,es,pt_br,pt,en_in,mr,gu\" data-word=\"usbstick\">🗣 ペンを比べる</button></div><h3>指とフラッシュ</h3><p>指の系統は3セルと小さいが、有名な先祖がいる。ウィキペディアによれば、USBメモリを売った最初の会社として知られるのはシンガポールのトレック2000で、その商標はThumbDrive、「親指ドライブ」だった。英語では今も<em>thumb drive</em>と言う。香港の広東語は<strong>手指</strong>（sɐu˧˥ tsiː˧˥）、そのまま「指」と呼ぶ。タミル語<strong>விரலி</strong>（ʋiɾali）は<em>viral</em>「指」から作られた語で、ウイグル語<strong>بارماق دىسكا</strong>（barmaq diska）は「指のディスク」である。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"yue,ta,ug\" data-word=\"usbstick\">🗣 指を比べる</button></div><p>ロシア語は中身のほうに目をつけた。<strong>флешка</strong>（ˈfɫeʂkə）は、フラッシュメモリの<em>flash</em>に接尾辞<em>-ка</em>をつけた語で、このフラッシュの系統は8セルある。ウクライナ語<strong>флешка</strong>、ベラルーシ語<strong>флэшка</strong>（ˈflɛʂka）、ブルガリア語<strong>флашка</strong>（ˈflaʃkɐ）、チェコ語<strong>fleška</strong>も同じ作りで、ジョージア語<strong>ფლეშკა</strong>（fleʃkʼa）にも同じ語尾がついている。アラビア語<strong>فلاشة</strong>（fiˈlaːʃa）も英語の<em>flash</em>から来ている。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"ru,uk,be,bg,cs,ka,ar\" data-word=\"usbstick\">🗣 フラッシュメモリの名を比べる</button></div><h3>ドライブ、メモリ、そして端子の名</h3><p>ディスクやドライブと呼ぶのは11セルだ。アメリカ英語は<strong>flash drive</strong>、台湾は<strong>隨身碟</strong>（sweɪ̯˧˥ ʂən˥ tjɛ˧˥）「身につけて持ち歩くディスク」と言い、マレー語<strong>pemacu kilat</strong>「稲妻のドライブ」は英語のflash driveを一語ずつ訳したものである。メモリと呼ぶのは3セルで、日本語<strong>USBメモリ</strong>、韓国語<strong>USB 메모리</strong>（juesɯbi memoɾi）、スウェーデン語<strong>USB-minne</strong>がそうだ。残る3セルは、どんな物かを言うことさえしない。ベトナム語は<strong>USB</strong>とアルファベットを読み上げ、ウルドゥー語は<strong>یو ایس بی</strong>（juː eːs biː）と言い、マケドニア語<strong>уесбе</strong>（ˈuɛzbɛ）はUSBの3文字をマケドニア語式に読んだものだ。どれも端子の名前で道具を呼んでいる。</p><div class=\"trivia-actions\"><button type=\"button\" class=\"trivia-action\" data-action=\"compare\" data-codes=\"en_us,zh_tw,ms,ja,ko,sv,vi,ur,mk\" data-word=\"usbstick\">🗣 ディスク・メモリ・USBを比べる</button></div><p><em>セルとは、地図上の1言語または1方言の欄のことです。</em></p>"
+    },
+    "sources": [
+      {
+        "text": "\"USB flash drive\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/USB_flash_drive"
+      },
+      {
+        "text": "\"M-Systems\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/M-Systems"
+      },
+      {
+        "text": "\"Netac\". Wikipedia, accessed 2026.",
+        "url": "https://en.wikipedia.org/wiki/Netac"
+      },
+      {
+        "text": "\"விரலி\". Tamil Wikipedia, accessed 2026.",
+        "url": "https://ta.wikipedia.org/wiki/விரலி"
+      },
+      {
+        "text": "Sánchez Corrales, Víctor Ml. 2013. \"Del Jeep Willys a la llave Maya: marcas lexicalizadas en el español de Costa Rica\". Revista Káñina 37(1): 145–152.",
+        "url": "https://www.redalyc.org/pdf/442/44249256008.pdf"
+      },
+      {
+        "text": "\"דיסק און קי\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/דיסק_און_קי"
+      },
+      {
+        "text": "\"U盤\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/U盤"
+      },
+      {
+        "text": "\"USB stick\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/USB_stick"
+      },
+      {
+        "text": "\"muistitikku\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/muistitikku"
+      },
+      {
+        "text": "\"minnepinne\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/minnepinne"
+      },
+      {
+        "text": "\"memory stick\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/memory_stick"
+      },
+      {
+        "text": "\"ffon gof\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/ffon_gof"
+      },
+      {
+        "text": "\"clé USB\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/clé_USB"
+      },
+      {
+        "text": "\"chiavetta USB\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/chiavetta_USB"
+      },
+      {
+        "text": "\"llave maya\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/llave_maya"
+      },
+      {
+        "text": "\"pen drive\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/pen_drive"
+      },
+      {
+        "text": "\"pendrive\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/pendrive"
+      },
+      {
+        "text": "\"thumb drive\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/thumb_drive"
+      },
+      {
+        "text": "\"手指\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/手指"
+      },
+      {
+        "text": "\"флешка\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/флешка"
+      },
+      {
+        "text": "\"fleška\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/fleška"
+      },
+      {
+        "text": "\"flash drive\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/flash_drive"
+      },
+      {
+        "text": "\"隨身碟\". Wiktionary, accessed 2026.",
+        "url": "https://en.wiktionary.org/wiki/隨身碟"
+      }
+    ]
   }
 ];
 

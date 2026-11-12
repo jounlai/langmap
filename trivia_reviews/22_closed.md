@@ -23,3 +23,6 @@ of the routes sentence; usbstick p5 flash count in its own sentence; ar «كاد
 Round 5: en 0, ja 1, ko 2, zh 0, yue 1, vi 1, th 1 (jetlag p0 "this route" with no antecedent; タピる vs タピオカ), id 2, hi 2, sw 3, de 3,
 fr 3, it 2 (job before the name, no comma-wrapped appositions), es 1, pt 2, ru 1, uk 1, ar 1, he 1 (usbstick p3 pen drive as subject;
 pt "disco na chave" so the key route makes sense).
+
+Round 6: en 0, ja 1, ko 1, zh 1, yue 1, vi 2, th 0 ("a more particular cotton" copied word for word), id 1, hi 1, sw 0, de 2, fr 0,
+it 1, es 0, pt 0, ru 0, uk 0, ar 0, he 0.

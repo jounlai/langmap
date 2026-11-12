@@ -87,7 +87,7 @@ WORDS.octopus = {
     pl: "eight",
     su: "plain",
     uk: "eight",
-    ml: "unknown",
+    ml: "other",
     my: "plain",
     ku: "eight",
     ceb: "plain",
@@ -124,7 +124,7 @@ WORDS.octopus = {
     ady: "unknown",
     mt: "other",
     sm: "plain",
-    gcf: "unknown",
+    gcf: "plain",
     is: "other",
     fj: "plain",
     to: "plain",
@@ -366,7 +366,7 @@ WORDS.octopus = {
     pl: ["ośmiornica", "ɔɕmjɔrˈɲitsa"],  // Built on ośmioro 'a set of eight', for its eight arms.
     su: ["gurita", "ɡurita"],  // The same word as Malay and Indonesian gurita.
     uk: ["восьминіг", "wɔsʲmeˈnʲiɦ"],  // Literally 'eight-legs': восьми- 'eight' + -ніг '-legged'.
-    ml: ["നീരാളി", "n̪iːɾaːɭi"],  // A compound of നീർ 'water, juice' and ആളി, whose sense here is not explained.
+    ml: ["നീരാളി", "n̪iːɾaːɭi"],  // A compound of നീർ 'water, juice' and ആളി (Wiktionary), a 'water' name that counts neither eight feet nor many.
     my: ["ဘဝဲ", "bəwɛ́"],  // The Burmese name; my.wikipedia titles its article ရေဘဝဲ, with ရေ 'water'. No image is recorded for it, so it counts as a word of its own.
     ku: ["heştpê", "hɛʃtˈpeː"],  // Literally 'eight-foot': heşt 'eight' + pê 'foot'.
     ceb: ["kugita", "kuˈɡita"],  // Inherited from Proto-Austronesian *guʀiCa 'octopus' (Blust & Trussel, ACD).
@@ -401,9 +401,9 @@ WORDS.octopus = {
     mrw: ["kogita", "koɡita"],  // Inherited from Proto-Austronesian *guʀiCa 'octopus' (ACD).
     eu: ["olagarro", "olaɡaro"],  // The Basque name; its origin is not given in the sources. No image is recorded for it, so it counts as a word of its own.
     ady: ["псылъэхъу", "psəɬaχʷ"],  // The Adyghe name; its parts are not explained in the source.
-    mt: ["qarnit", "ʔarˈniːt"],  // Inherited from Arabic qarnīṭ, which Tunisian Arabic shares. Route by resemblance to the neighbouring forms (ar_tn(قرنيط)); no etymology of its own.
+    mt: ["qarnit", "ʔarˈniːt"],  // Inherited from Arabic qarnīṭ, which Tunisian Arabic shares. Route by resemblance to the neighbouring forms (ar_tn(قرنيط)).
     sm: ["feʻe", "feʔe"],  // Inherited from Proto-Polynesian *feke 'octopus' (POLLEX).
-    gcf: ["chatou", "ʃatu"],  // From a Norman French word satrouille 'cuttlefish, octopus'.
+    gcf: ["chatou", "ʃatu"],  // From a Norman French word satrouille 'cuttlefish, octopus'. No image is recorded for it, so it counts as a word of its own.
     is: ["kolkrabbi", "ˈkʰɔlkʰrapɪ"],  // Literally 'coal crab': kol 'coal' + krabbi 'crab'.
     fj: ["kuita", "kuita"],  // Inherited from Proto-Austronesian *guʀiCa 'octopus' (ACD).
     to: ["feke", "feke"],  // Inherited from Proto-Polynesian *feke 'octopus' (POLLEX).

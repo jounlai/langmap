@@ -110,7 +110,7 @@ WORDS.rainbow = {
     sv: "bow",
     no: "bow",
     da: "bow",
-    ro: "unknown",
+    ro: "bow",
     ga: "other",
     eu: "other",
     fi: "bow",
@@ -157,7 +157,7 @@ WORDS.rainbow = {
     cy: "unknown",
     ka: "other",
     sva: "other",
-    hy: "unknown",
+    hy: "plain",
     hyw: "plain",
     haw: "plain",
     mi: "plain",
@@ -171,8 +171,8 @@ WORDS.rainbow = {
     lic: "plain",
     orh: "plain",
     za: "unknown",
-    jv: "unknown",
-    su: "unknown",
+    jv: "plain",
+    su: "plain",
     ceb: "plain",
     fj: "other",
     sm: "plain",
@@ -197,7 +197,7 @@ WORDS.rainbow = {
     mt: "bow",
     ha: "bow",
     so: "bow",
-    om: "unknown",
+    om: "other",
     xh: "plain",
     sn: "plain",
     ny: "bow",
@@ -245,7 +245,7 @@ WORDS.rainbow = {
     och: "unknown",
     udm: "other",
     kpv: "unknown",
-    koi: "unknown",
+    koi: "other",
     myv: "bow",
     mdf: "bow",
     krl: "bow",
@@ -256,7 +256,7 @@ WORDS.rainbow = {
     fur: "bow",
     ast: "bow",
     an: "bow",
-    rup: "unknown",
+    rup: "bow",
     mhr: "unknown",
     mrj: "unknown",
     vep: "unknown",
@@ -283,14 +283,14 @@ WORDS.rainbow = {
     mfe: "bow",
     crs: "bow",
     srn: "bow",
-    srm: "unknown",
+    srm: "plain",
     shp: "plain",
     pam: "other",
-    mak: "unknown",
+    mak: "plain",
     orv: "bow",
     ami: "unknown",
     pwn: "unknown",
-    ssf: "unknown",
+    ssf: "plain",
     tpi: "bow",
     se: "bow",
     sjd: "bow",
@@ -347,7 +347,7 @@ WORDS.rainbow = {
     arn: "plain",
     cr: "unknown",
     oj: "other",
-    pqm: "unknown",
+    pqm: "plain",
     crk: "unknown",
     ce: "bow",
     inh: "bow",
@@ -362,7 +362,7 @@ WORDS.rainbow = {
     ty: "plain",
     rap: "plain",
     mh: "plain",
-    tet: "unknown",
+    tet: "plain",
     bi: "bow",
     new: "plain",
     lif: "unknown",
@@ -399,14 +399,14 @@ WORDS.rainbow = {
     rw: "unknown",
     rn: "other",
     zu: "unknown",
-    st: "unknown",
+    st: "plain",
     nso: "unknown",
     ts: "unknown",
     ak: "plain",
     tk: "unknown",
     kk: "unknown",
     ug: "unknown",
-    ky: "unknown",
+    ky: "other",
     kab: "other",
     sat: "bow",
     sg: "unknown",
@@ -420,12 +420,12 @@ WORDS.rainbow = {
     ig: "serpent",
     bm: "other",
     nds: "bow",
-    bug: "unknown",
+    bug: "plain",
     kam: "unknown",
     bem: "unknown",
-    luo: "unknown",
+    luo: "plain",
     ace: "other",
-    ban: "unknown",
+    ban: "plain",
     bjn: "unknown",
     jam: "bow",
     xog: "unknown",
@@ -434,18 +434,18 @@ WORDS.rainbow = {
     sid: "other",
     bs: "bow",
     yao: "bow",
-    myx: "unknown",
+    myx: "plain",
     tum: "unknown",
     nyn: "unknown",
-    kmb: "unknown",
-    ssw: "unknown",
-    efi: "unknown",
+    kmb: "plain",
+    ssw: "other",
+    efi: "plain",
     mer: "other",
-    kde: "unknown",
+    kde: "plain",
     pag: "other",
-    teo: "unknown",
-    wal: "unknown",
-    drs: "unknown",
+    teo: "plain",
+    wal: "plain",
+    drs: "plain",
     abs: "other",
     toi: "unknown",
     kha: "unknown",
@@ -453,17 +453,17 @@ WORDS.rainbow = {
     ve: "unknown",
     mnk: "unknown",
     quz: "plain",
-    ach: "unknown",
+    ach: "plain",
     srr: "unknown",
     seh: "unknown",
-    sus: "unknown",
+    sus: "plain",
     dag: "unknown",
-    zne: "unknown",
+    zne: "plain",
     nbl: "unknown",
-    bxk: "unknown",
-    ada: "unknown",
+    bxk: "plain",
+    ada: "plain",
     hmn: "serpent",
-    din: "unknown",
+    din: "plain",
     ay: "plain",
     bbc: "unknown",
     bts: "unknown",
@@ -473,17 +473,17 @@ WORDS.rainbow = {
     nyo: "unknown",
     quy: "unknown",
     gaa: "unknown",
-    lue: "unknown",
+    lue: "plain",
     kaa: "unknown",
     jmc: "unknown",
-    lol: "unknown",
-    cab: "unknown",
+    lol: "plain",
+    cab: "plain",
     pdt: "bow",
     pap: "bow",
     krc: "other",
     tyv: "unknown",
     bxr: "plain",
-    tab: "unknown",
+    tab: "bow",
     ab: "unknown",
     sbp: "unknown",
     tru: "bow",
@@ -491,7 +491,7 @@ WORDS.rainbow = {
     ixl: "plain",
     pbb: "plain",
     cuk: "plain",
-    alt: "unknown",
+    alt: "plain",
     hch: "unknown",
     cni: "plain",
     jiv: "plain",
@@ -508,7 +508,7 @@ WORDS.rainbow = {
     yan: "plain",
     tvl: "plain",
     rar: "plain",
-    cho: "unknown",
+    cho: "plain",
     esu: "plain",
     kos: "plain",
     yrl: "bow",
@@ -535,20 +535,20 @@ WORDS.rainbow = {
     kfa: "bow",
     aln: "bow",
     dru: "unknown",
-    plg: "unknown",
-    moc: "unknown",
+    plg: "plain",
+    moc: "plain",
     tob: "unknown",
-    bew: "unknown",
+    bew: "plain",
     kpe: "plain",
-    wbp: "unknown",
-    pyu: "unknown",
+    wbp: "plain",
+    pyu: "plain",
     tkl: "plain",
-    ess: "unknown",
+    ess: "plain",
     kw: "bow",
     acf: "bow",
     gun: "unknown",
     swb: "plain",
-    agt: "unknown",
+    agt: "plain",
     cjy_lv: "plain",
     hsn_hy: "plain",
     czh_wy: "plain",
@@ -565,8 +565,8 @@ WORDS.rainbow = {
     en_ng2: "bow",
     en_my: "bow",
     pt_mo: "bow",
-    chy: "unknown",
-    tsz: "unknown",
+    chy: "other",
+    tsz: "plain",
     zh_tang: "plain",
     zh_han: "plain",
     zh_yuan: "plain",
@@ -575,7 +575,7 @@ WORDS.rainbow = {
     ojp: "plain",
     ja_heian: "plain",
     non: "bow",
-    hy_grab: "unknown",
+    hy_grab: "plain",
     pi_edu: "bow",
     hbo: "bow",
     he_mis: "bow",
@@ -603,14 +603,14 @@ WORDS.rainbow = {
     bar: "bow",
     tn: "unknown",
     bgc: "bow",
-    wo: "unknown",
+    wo: "plain",
     ilo: "other",
     dyu: "other",
     ti: "bow",
     mad: "plain",
     mos: "unknown",
     kri: "bow",
-    gn: "unknown",
+    gn: "plain",
     min: "other",
     suk: "unknown",
     tiv: "plain",
@@ -634,9 +634,9 @@ WORDS.rainbow = {
     sco: "bow",
     kbd: "unknown",
     mtq: "unknown",
-    laj: "unknown",
+    laj: "plain",
     ttj: "unknown",
-    jvn: "unknown",
+    jvn: "plain",
     ext: "bow",
     loz: "unknown",
     akb: "unknown",
@@ -657,28 +657,28 @@ WORDS.rainbow = {
     lhu: "unknown",
     tji: "plain",
     dtp: "plain",
-    urh: "unknown",
+    urh: "plain",
     asu: "unknown",
     nhw: "unknown",
     nhe: "unknown",
     gej: "unknown",
-    sgw: "unknown",
-    kum: "unknown",
+    sgw: "plain",
+    kum: "bow",
     ebu: "other",
     ses: "serpent",
-    kqn: "unknown",
+    kqn: "plain",
     pis: "bow",
     dv: "bow",
-    nzi: "unknown",
+    nzi: "plain",
     maw: "unknown",
-    ote: "unknown",
+    ote: "plain",
     kj: "bow",
     kxc: "unknown",
-    anu: "unknown",
+    anu: "plain",
     naq: "unknown",
     lij: "bow",
     tzo: "plain",
-    cak: "unknown",
+    cak: "plain",
     mev: "unknown",
     zap: "bow",
     her: "bow",
@@ -705,7 +705,7 @@ WORDS.rainbow = {
     ch: "plain",
     bnn: "unknown",
     poh: "plain",
-    mzh: "unknown",
+    mzh: "plain",
     nzm: "plain",
     iu: "plain",
     tkr: "plain",
@@ -714,7 +714,7 @@ WORDS.rainbow = {
     meu: "plain",
     kmh: "plain",
     kwk: "unknown",
-    tsi: "unknown",
+    tsi: "plain",
     szy: "other",
     smn: "bow",
     nys: "plain",
@@ -727,11 +727,11 @@ WORDS.rainbow = {
     kca: "unknown",
     jbo: "bow",
     chr: "unknown",
-    ame: "unknown",
+    ame: "plain",
     aqc: "bow",
     tiw: "serpent",
-    acu: "unknown",
-    ruq: "unknown",
+    acu: "plain",
+    ruq: "bow",
     zts: "plain",
     mpt: "plain",
     mic: "plain",
@@ -869,7 +869,7 @@ WORDS.rainbow = {
     sv: ["regnbåge", "ˈrɛŋnboːɡɛ"],  // Regn "rain" + båge "bow, arc".
     no: ["regnbue", "ˈræɪnbʉːə"],  // Regn "rain" + bue "bow, arc".
     da: ["regnbue", "ˈʁɑjnbuːə"],  // Regn "rain" + bue "bow".
-    ro: ["curcubeu", "kurkuˈbew"],  // Its origin is disputed: either Latin circus bibit "the ring that drinks" or a word for "bent".
+    ro: ["curcubeu", "kurkuˈbew"],  // Wiktionary derives it from Vulgar Latin *circus bibit 'the ring that drinks', a late variant of arcus bibit 'rainbow', like Venetian arconbè; the other proposal, a word for 'bent', also names the curve.
     ga: ["tuar ceatha", "t̪ˠuəɾˠ cahə"],  // Literally "omen of a shower"; the synonym bogha báistí is "rain bow".
     eu: ["ostadar", "os̺taðar"],  // Literally "sky horn" (or "sky branch"): ortzi "sky" + adar "horn, branch".
     fi: ["sateenkaari", "ˈsɑteːnkɑːri"],  // Literally "arc of rain", coined by the philologist Gustaf Renvall in 1826.
@@ -916,7 +916,7 @@ WORDS.rainbow = {
     cy: ["enfys", "ˈɛnvɨs"],  // The everyday Welsh word; its origin is uncertain (perhaps en- + bys 'finger'), while descriptive synonyms such as bwa'r arch 'the arch's bow' also exist.
     ka: ["ცისარტყელა", "tsʰisartʼqʼela"],  // Literally 'belt of the sky' (ცა 'sky' + სარტყელი 'belt').
     sva: ["დეცა̈ლა̈̄რტყ", "detsʰælæːrtʼqʼ"],  // Literally 'sky belt', a calque of Georgian ცისარტყელა.
-    hy: ["ծիածան", "tsiɑˈtsɑn"],  // Inherited from Old Armenian ծիածան, whose origin is unknown; Martirosyan proposes 'sign of the Sky-god', Petrosyan 'belt of the Sky-god'.
+    hy: ["ծիածան", "tsiɑˈtsɑn"],  // Inherited from Old Armenian ծիածան, whose origin is unknown; Martirosyan proposes 'sign of the Sky-god', Petrosyan 'belt of the Sky-god'. Route by resemblance to the neighbouring forms (hyw(ծիածան)); no etymology of its own.
     hyw: ["ծիածան", "dziɑˈdzɑn"],  // The same inherited word as Eastern Armenian, with Western Armenian ծ pronounced dz; its origin is unknown. No image is recorded for it, so it counts as a word of its own.
     haw: ["ānuenue", "aːnuenue"],  // Inherited Polynesian rainbow word (Proto-Polynesian *aanuanua), cognate with Māori āniwaniwa and Samoan nuanua.
     mi: ["āniwaniwa", "aːniwaniwa"],  // Inherited Polynesian rainbow word (Proto-Nuclear-Polynesian *nuanua), cognate with Hawaiian ānuenue.
@@ -930,8 +930,8 @@ WORDS.rainbow = {
     lic: ["tshop7 tshun1", "tsʰop˥˥ tsʰun˥˧"],  // Hlai copcun joins two old words that each meant 'rainbow' (Proto-Hlai *tɕʰomʔ + *tʃʰun).
     orh: ["ʃəərun", "ʃəərun"],  // Inherited from Proto-Tungusic *sēru.
     za: ["duzdoengz", "tu˧˩toŋ˧˩"],  // Built on doengz 'rainbow', which Wiktionary compares with Thai รุ้ง and Chinese 虹; the Zhuang Wikipedia also uses the Mandarin loan saihoengz (彩虹).
-    jv: ["kluwung", "kluwuŋ"],  // The Javanese word for the rainbow; the literary synonym éndracapa means 'the bow of Batara Indra'.
-    su: ["katumbiri", "katumbiri"],  // The usual Sundanese word, alongside the inherited synonym kuwung-kuwung (from Old Javanese kuwuṅ-kuwuṅ).
+    jv: ["kluwung", "kluwuŋ"],  // The Javanese word for the rainbow; the literary synonym éndracapa means 'the bow of Batara Indra'. No image is recorded for it, so it counts as a word of its own.
+    su: ["katumbiri", "katumbiri"],  // The usual Sundanese word, alongside the inherited synonym kuwung-kuwung (from Old Javanese kuwuṅ-kuwuṅ). No image is recorded for it, so it counts as a word of its own.
     ceb: ["bangaw", "ˈbaŋaw"],  // Inherited from Proto-Central Philippine *balaŋaw 'rainbow', cognate with Hiligaynon and Waray balangaw.
     fj: ["drodrolagi", "ndrondrolaŋi"],  // Literally '[it] flows with the sky' (drodro 'to flow' + lagi 'sky'), per Gatty's Fijian dictionary.
     sm: ["nuanua", "nuanua"],  // The inherited Polynesian rainbow word (Proto-Nuclear-Polynesian *nuanua), cognate with Hawaiian ānuenue and Māori āniwaniwa.
@@ -956,7 +956,7 @@ WORDS.rainbow = {
     mt: ["qawsalla", "ʔawˈsalla"],  // Literally 'God's bow' (qaws Alla), a pious replacement for Arabic qaws quzaḥ, which was named after a pre-Islamic god.
     ha: ["bakan gizo", "bakan ɡizoː"],  // Literally 'the bow of Gizo' (baka 'bow' + -n 'of' + gizo).
     so: ["qaanso roobaad", "qaːnso roːbaːd"],  // Literally 'rain bow' (qaanso 'bow' + roob 'rain').
-    om: ["sabbata waaqaa", "sabːata waːqaː"],  // Waaqaa means 'of God' or 'of the sky'; the gloss of sabbata was not confirmed.
+    om: ["sabbata waaqaa", "sabːata waːqaː"],  // Literally 'the belt of Waaqa': sabbata is the long band tied round the waist to hold up the trousers, waaqaa means 'of God' or 'of the sky', and Oromo tradition calls the rainbow Waaqa's belt.
     xh: ["umnyama", "umɲaːma"],  // The Xhosa word for the rainbow (noun class 3, plural iminyama). No image is recorded for it, so it counts as a word of its own.
     sn: ["murarabungu", "murarabuŋɡu"],  // The usual Shona word; Shona Wikipedia notes regional alternatives chongwe, muchekawaramba and mutsiwemvura. No image is recorded for it, so it counts as a word of its own.
     ny: ["utawaleza", "utawaˈleza"],  // The Chichewa word for the rainbow. Begins with uta 'bow' + wa 'of'.
@@ -1004,7 +1004,7 @@ WORDS.rainbow = {
     och: ["虹", "*m-kˤoŋ"],  // Attested on the oracle bones, where the rainbow is drawn as a two-headed dragon that 'drinks from the River'; the word's own origin is debated.
     udm: ["вуюись", "vujujisʲ"],  // Literally 'water drinker' (ву 'water' + юись 'one who drinks'), from the belief that the rainbow drinks water (Rakin 2017).
     kpv: ["ӧшкамӧшка", "ɘʃkamɘʃka"],  // The Komi-Zyrian word for the rainbow; its formation is not explained in the sources consulted.
-    koi: ["енӧшка", "jeˈnɘʃka"],  // Begins with ен 'god'; the rest is disputed, and the same word also means 'ladybird'.
+    koi: ["енӧшка", "jeˈnɘʃka"],  // Literally 'God's little bull': ен 'god' + ӧшка 'bull, ox' (or ӧш + diminutive -ка, after Lytkin); the same word names the ladybird, as Russian божья коровка 'God's little cow' does.
     myv: ["пурьгинечирьке", "purʲɡʲinʲetʃirʲke"],  // Literally 'thunder bow' (пурьгине 'thunder' + чирьке 'arc'); Erzya also says пиземечирьке 'rain bow'.
     mdf: ["атямъёнга", "atʲamjoŋɡa"],  // Literally 'thunder bow' (атям 'thunder' + ёнга 'arc'), like Erzya пурьгинечирьке.
     krl: ["ukonkuari", "ˈukoŋkuɑri"],  // Literally 'Ukko's bow': Ukko, the thunder god, + kuari 'arc, bow'.
@@ -1015,7 +1015,7 @@ WORDS.rainbow = {
     fur: ["arc di Sant Marc", "ark di sant mark"],  // Literally 'Saint Mark's arc'.
     ast: ["arcu la vieya", "ˈarku la ˈβjeʝa"],  // Literally 'the old woman's arc', like Galician arco da vella; Asturian also says arcu iris.
     an: ["arco de San Chuan", "ˈarko de san ˈtʃwan"],  // Literally 'Saint John's arc' (Chuan is Aragonese for John).
-    rup: ["curcubeu", "kurkuˈbeu"],  // Shared with Romanian curcubeu; traced to Latin circus bibit 'the ring that drinks', though for Romanian this origin is disputed.
+    rup: ["curcubeu", "kurkuˈbeu"],  // Shared with Romanian curcubeu; Wiktionary traces it to Vulgar Latin *circus bibit 'the ring that drinks', a late variant of arcus bibit 'rainbow', like Venetian arconbè.
     mhr: ["шонанпыл", "ʃonanpəl"],  // The Meadow Mari word for the rainbow; its formation is not explained in the sources consulted.
     mrj: ["шанавӹл", "ʃanavɯl"],  // The Hill Mari word for the rainbow, the counterpart of Meadow Mari шонанпыл.
     vep: ["jumalanbembel'", "ˈjumalanbembelʲ"],  // Begins with jumalan 'God's'; the second part was not checked in a dictionary.
@@ -1042,14 +1042,14 @@ WORDS.rainbow = {
     mfe: ["larkansiel", "larkɑ̃sjɛl"],  // From French l'arc-en-ciel 'the arc in the sky', with the article fused on.
     crs: ["larkansyel", "larkɑ̃sjɛl"],  // From French l'arc-en-ciel 'the arc in the sky', with the article fused on.
     srn: ["alenbo", "alenbo"],  // From English rainbow, remade as alen 'rain' + bo 'bow'; Sranan also says mutyama, from Kikongo.
-    srm: ["mutjáma", "mutʃáma"],  // Probably from Kikongo mukiama 'rainbow', like Sranan mutyama.
+    srm: ["mutjáma", "mutʃáma"],  // Probably from Kikongo mukiama 'rainbow', like Sranan mutyama. Route by resemblance to the neighbouring forms (djk(mutyama) kg(mukiama)); no etymology of its own.
     shp: ["chirápa", "tʃiɻapa"],  // The Shipibo-Conibo word for the rainbow; IDS also records the phrase nawã βai. Unrelated to kanoti 'bow' and rono 'snake'.
     pam: ["pinanari", "pinaˈnaɾiʔ"],  // Explained as 'the king's loincloth' (pinan 'loincloth' + ari 'king'), like Tagalog bahaghari; the second part may instead be 'day'.
-    mak: ["tarawe", "taˈrawe"],  // Shared with Bugis tarau and Toraja taraue; the same spelling also names the Ramadan night prayer tarawih.
+    mak: ["tarawe", "taˈrawe"],  // Shared with Bugis tarau and Toraja taraue; the same spelling also names the Ramadan night prayer tarawih. No image is recorded for it, so it counts as a word of its own.
     orv: ["дуга", "duɡa"],  // From Proto-Slavic *dǫga 'arc'; Russian later built радуга on the same word.
     ami: ["teker ni idek", "təkər ni idək"],  // One Amis name for the rainbow; Amis Wikipedia uses another dialect's Talakal ni Idek.
     pwn: ["quljivangraw", "quʎivaŋraw"],  // The Paiwan word for the rainbow.
-    ssf: ["qariwazwaz", "qariwaðwað"],  // Related to Pazeh oliwowah, another Formosan word for the rainbow.
+    ssf: ["qariwazwaz", "qariwaðwað"],  // Related to Pazeh oliwowah, another Formosan word for the rainbow. Route by resemblance to the neighbouring forms (ckv(qeliwaRwaR)); no etymology of its own.
     tpi: ["renbo", "renbo"],  // Borrowed from English rainbow, "rain bow".
     se: ["arvedávgi", "ˈɑrveˌtaːvki"],  // Literally "rain bow" (arvi "rain" + dávgi "bow"); bajándávgi "thunder bow" is a synonym.
     sjd: ["тӣрьмесью̄ккс", "tʲiːrmʲeɕʲuːkːs"],  // Literally "thunder bow" (тӣрьмесь "thunder" + ю̄ккс "arc, bow"); аббьрю̄ккс "rain bow" is a synonym.
@@ -1106,7 +1106,7 @@ WORDS.rainbow = {
     arn: ["relmu", "ʐelmu"],  // The Mapudungun word for the rainbow. Unrelated to the words for 'bow' and filu 'snake' (IDS).
     cr: ["ᐲᓯᒧᔮᐱᕀ", "piːsimojaːpij"],  // Begins with pîsim "sun"; kimiwanêyâpiy, built on kimiwan "it rains", is a synonym.
     oj: ["gimiwaneyaab", "ɡimiwanejaːb"],  // Literally "rain cord": gimiwan "it rains" + -eyaab "cord, band-like thing"; nagweyaab is another word.
-    pqm: ["monoqan", "monokʷan"],  // Cognate with Abenaki mánakʷan.
+    pqm: ["monoqan", "monokʷan"],  // Cognate with Abenaki mánakʷan. Route by resemblance to the neighbouring forms (abe(managuôn)); no etymology of its own.
     crk: ["ᐲᓯᒧᔮᐱᕀ", "piːsimojaːpij"],  // Begins with pîsim "sun"; kimiwanêyâpiy, built on kimiwan "it rains", is a synonym.
     ce: ["стелаӏад", "ˈstelaʕad"],  // Ends in ӏад "bow"; the first part is not analysed here.
     inh: ["селаӏад", "ˈselaʕad"],  // Ends in ӏад "bow", like Chechen стелаӏад; the first part is not analysed here.
@@ -1121,7 +1121,7 @@ WORDS.rainbow = {
     ty: ["ānuanua", "aːnuanua"],  // The inherited Polynesian rainbow word (East Polynesian *aanuanua), cognate with Hawaiian ānuenue.
     rap: ["hanuanua mea", "hanuanua mea"],  // The inherited Polynesian rainbow word plus mea "red": literally "red rainbow".
     mh: ["iia", "jijjæɰ"],  // Inherited from Proto-Micronesian *iyaa "rainbow".
-    tet: ["baur", "baur"],  // The native Tetum word; the Portuguese loan arkuiris is also used.
+    tet: ["baur", "baur"],  // The native Tetum word; the Portuguese loan arkuiris is also used. No image is recorded for it, so it counts as a word of its own.
     bi: ["renbo", "renbo"],  // Borrowed from English rainbow, "rain bow".
     new: ["लायेलामा", "lajelama"],  // The Newar word for the rainbow; कपं is a synonym. No image is recorded for it, so it counts as a word of its own.
     lif: ["ᤏᤠᤶᤎᤡᤱᤃᤥ", "namdʱiŋɡo"],  // Begins with nam, the Limbu word for the sun; the rest is not analysed here.
@@ -1158,14 +1158,14 @@ WORDS.rainbow = {
     rw: ["umukororombya", "umukoɾoɾombja"],  // The Kinyarwanda word for the rainbow, used in the Kinyarwanda Bible; Kirundi instead says umunywamazi 'water-drinker'.
     rn: ["umunywamazi", "umuɲwamaːzi"],  // Literally 'water-drinker' (umu- person/agent prefix + -nywa 'drink' + amazi 'water'), the rainbow pictured as drinking water.
     zu: ["uthingo", "uˈtʰiŋɡo"],  // The Zulu word for the rainbow, used alone in the Zulu Bible; the fuller name is uthingo lwenkosazana, 'the princess's uthingo'.
-    st: ["mookodi", "mookodi"],  // The Sesotho word for the rainbow, used in every Sesotho Bible translation from 1909 to 2024.
+    st: ["mookodi", "mookodi"],  // The Sesotho word for the rainbow, used in every Sesotho Bible translation from 1909 to 2024. No image is recorded for it, so it counts as a word of its own.
     nso: ["molalatladi", "molalatɬadi"],  // The Northern Sotho word for the rainbow, used in Sepedi Bible translations old and new.
     ts: ["nkwangulatilo", "ŋkwaŋɡulatilo"],  // The Xitsonga word for the rainbow, used in all Xitsonga Bible translations.
     ak: ["nyankontɔn", "ɲaŋkontɔn"],  // The Twi word for the rainbow, the same in Asante and Akuapem Bibles. No image is recorded for it, so it counts as a word of its own.
     tk: ["älemgoşar", "ælemɡoʃaɾ"],  // The Turkmen word for the rainbow, used in the Turkmen Bible.
     kk: ["кемпірқосақ", "kempɪɾqoˈsɑq"],  // Kazakh speakers hear it as 'the old woman's tether' (кемпір 'old woman' + қосақ), but Kazakh etymologists derive it from a Persian-Arabic name, so the image is disputed.
     ug: ["ھەسەن-ھۈسەن", "hæsæn hysæn"],  // The Uyghur word for the rainbow, hesen-hüsen, used in the Uyghur Bible; Kyrgyz has the matching асан-үсөн.
-    ky: ["көк желе", "køk dʒeˈle"],  // Begins with көк 'blue, sky'; Kyrgyz also calls the rainbow асан-үсөн and асман жаасы 'sky bow'.
+    ky: ["көк желе", "køk dʒeˈle"],  // Literally 'the sky tether': көк 'blue, sky' + желе, the rope stretched between pegs to tie foals; Kyrgyz also calls the rainbow асан-үсөн and асман жаасы 'sky bow'.
     kab: ["tislit n wenẓar", "tislit n wənzˤar"],  // Literally 'bride of the rain' (tislit 'bride' + n 'of' + anẓar 'rain'), the image shared across Berber; the Kabyle Wikipedia also gives tameɣra wuccen.
     sat: ["ᱞᱤᱴᱟᱹ ᱟᱜ", "liʈə aʔ"],  // Literally 'Lita's bow' (akʼ 'bow'), named, as the Santali Wikipedia puts it, because it appears bent like a bow.
     sg: ["kongö", "koŋɡo"],  // The Sango word for the rainbow, also listed with the senses 'flower' and 'bush'.
@@ -1179,12 +1179,12 @@ WORDS.rainbow = {
     ig: ["ekeneegwurugwu", "ekeneeɡʷuɾuɡʷu"],  // Begins with éké 'python' (the Igbo Bible writes it eke na egwurugwu, 'python and egwurugwu'); the second part has no gloss of its own in the dictionary.
     bm: ["alakamuru", "álákámùru"],  // Literally 'God's knife' (Ala 'God' + ka possessive + muru 'knife'), per the Bamadaba dictionary; synonyms include sanmurubilen 'red sky-knife'.
     nds: ["Regenbagen", "ˈreːɡn̩bɔːɡn̩"],  // Literally 'rain bow' (Regen 'rain' + Bagen 'bow'), like German Regenbogen.
-    bug: ["tarawu", "tarawu"],  // The Buginese word for the rainbow, as used in the Buginese Bible (Genesis 9:13, Revelation 10:1); IPA read from the spelling.
+    bug: ["tarawu", "tarawu"],  // The Buginese word for the rainbow, as used in the Buginese Bible (Genesis 9:13, Revelation 10:1); IPA read from the spelling. No image is recorded for it, so it counts as a word of its own.
     kam: ["ũtaathi", "otaːði"],  // The Kamba word for the rainbow, used in both Kamba Bible translations (Genesis 9:13, Revelation 10:1); IPA read from the spelling.
     bem: ["umukolamfula", "umukolamfula"],  // The Bemba word for the rainbow as used in the Bemba Bible; it ends in mfula 'rain', but the first part is not analysed here.
-    luo: ["lihudu", "lihudu"],  // The Dholuo word for the rainbow, used in both Dholuo Bible versions; IPA read from the spelling.
+    luo: ["lihudu", "lihudu"],  // The Dholuo word for the rainbow, used in both Dholuo Bible versions; IPA read from the spelling. No image is recorded for it, so it counts as a word of its own.
     ace: ["peulangi", "pɯlaŋi"],  // The Acehnese word for the rainbow, used throughout the Acehnese Bible, related to Malay pelangi, whose own origin is disputed. Route by resemblance to the neighbouring forms (ms(pelangi) id(pelangi)); no etymology of its own.
-    ban: ["bianglalah", "bijaŋlalah"],  // The Balinese word for the rainbow, the source of the old Jakarta and Indonesian word bianglala; IPA read from the spelling.
+    ban: ["bianglalah", "bijaŋlalah"],  // The Balinese word for the rainbow, the source of the old Jakarta and Indonesian word bianglala; IPA read from the spelling. Route by resemblance to the neighbouring forms (kaw(ꦧꦶꦪꦁꦭꦭ)); no etymology of its own.
     bjn: ["balahindang", "balahindaŋ"],  // The Banjar word for the rainbow, also called tija; IPA read from the spelling.
     jam: ["rienbuo", "ɹienbuo"],  // Rain + bow, the English word rainbow in Jamaican spelling, as in the Jamaican New Testament.
     xog: ["musoke", "musoke"],  // The Lusoga word for the rainbow, the same as Luganda musoke; IPA read from the spelling.
@@ -1193,18 +1193,18 @@ WORDS.rainbow = {
     sid: ["magani-seemo", "maɡani seːmo"],  // Literally 'God's maiden' (magano 'God' + seemo 'girl, virgin'), the word used throughout the Sidamo Bible.
     bs: ["duga", "dǔːɡa"],  // From Proto-Slavic *dǫga 'arc, arch', the same root as Russian радуга.
     yao: ["ukunje wa ula", "ukundʒe wa ula"],  // Literally 'ukunje of rain' (ula 'rain'), the phrase both Yao Bibles use. Ukunje is 'bow' (Bantu lexical databases), so the phrase is 'bow of rain'.
-    myx: ["lufutu", "lufutu"],  // The Lumasaaba word for the rainbow as used in the Lumasaaba Bible; IPA read from the spelling.
+    myx: ["lufutu", "lufutu"],  // The Lumasaaba word for the rainbow as used in the Lumasaaba Bible; IPA read from the spelling. No image is recorded for it, so it counts as a word of its own.
     tum: ["chiŵingavura", "tʃiβiŋɡavuɾa"],  // The Tumbuka word for the rainbow, used in all three Tumbuka Bibles; it ends in vura 'rain', but the first part is not analysed here.
     nyn: ["omuhanganzima", "omuhaŋɡanzima"],  // The Runyankore word for the rainbow, used in both Runyankore Bibles; IPA read from the spelling.
-    kmb: ["hongolo", "hoŋɡolo"],  // The Kimbundu word for the rainbow as used in the Kimbundu Bible; IPA read from the spelling.
-    ssw: ["umushi wenkosazana", "umuʃi weŋkosazana"],  // The siSwati word for the rainbow, used throughout the Siswati Bible; the second part looks like 'of the princess', as in Zulu uthingo lwenkosazana, but umushi was not glossed.
-    efi: ["akpara", "akpara"],  // The Efik word for the rainbow, used in both Efik Bibles; IPA read from the spelling.
+    kmb: ["hongolo", "hoŋɡolo"],  // The Kimbundu word for the rainbow as used in the Kimbundu Bible; IPA read from the spelling. Route by resemblance to the neighbouring forms (umb(olukongolo)); no etymology of its own.
+    ssw: ["umushi wenkosazana", "umuʃi weŋkosazana"],  // Literally 'the princess's stripe': umushi 'stripe' + wenkosazana 'of the princess', like Zulu uthingo lwenkosazana; used throughout the Siswati Bible.
+    efi: ["akpara", "akpara"],  // The Efik word for the rainbow, used in both Efik Bibles; IPA read from the spelling. No image is recorded for it, so it counts as a word of its own.
     mer: ["mûkûngambura", "mokoŋɡambuɾa"],  // The Kimeru word for the rainbow, used throughout the Kimeru Bible; it matches Kikuyu mũkũnga-mbura, but the parts were not checked for Meru. Route by resemblance to the neighbouring forms (ki(mũkũnga-mbura)); no etymology of its own.
-    kde: ["inyingamu", "iɲiŋɡamu"],  // The Makonde word for the rainbow as used in the Makonde Bible; IPA read from the spelling.
+    kde: ["inyingamu", "iɲiŋɡamu"],  // The Makonde word for the rainbow as used in the Makonde Bible; IPA read from the spelling. No image is recorded for it, so it counts as a word of its own.
     pag: ["bunlalakaw", "bunlalakaw"],  // The Pangasinan word for the rainbow; IPA read from the spelling, with stress unmarked for lack of a source. Route by resemblance to the neighbouring forms (Ilocano bullalayaw); no etymology of its own.
-    teo: ["etaluka", "etaluka"],  // The Ateso word for the rainbow, used in the Ateso Bible; IPA read from the spelling.
-    wal: ["zuullaa", "zuːlːaː"],  // The Wolaytta word for the rainbow; IPA read from the spelling (double letters long).
-    drs: ["dowwichcho", "dowːitʃːo"],  // The Gedeo word for the rainbow, used throughout the Gedeo Bible; IPA read from the spelling.
+    teo: ["etaluka", "etaluka"],  // The Ateso word for the rainbow, used in the Ateso Bible; IPA read from the spelling. No image is recorded for it, so it counts as a word of its own.
+    wal: ["zuullaa", "zuːlːaː"],  // The Wolaytta word for the rainbow; IPA read from the spelling (double letters long). No image is recorded for it, so it counts as a word of its own.
+    drs: ["dowwichcho", "dowːitʃːo"],  // The Gedeo word for the rainbow, used throughout the Gedeo Bible; IPA read from the spelling. No image is recorded for it, so it counts as a word of its own.
     abs: ["banang raja", "banaŋ radʒa"],  // Literally 'the king's thread', the same as Malay benang raja 'rainbow'.
     toi: ["fulicoongo", "fulitʃoːŋɡo"],  // The Zambian Tonga word for the rainbow, used in both Tonga Bibles; IPA read from the spelling.
     kha: ["simpyllieng", "simpəlːieŋ"],  // The Khasi word for the rainbow, used in both Khasi Bibles; IPA read from the spelling, as in this row's thylliej.
@@ -1212,17 +1212,17 @@ WORDS.rainbow = {
     ve: ["musingavhadzimu", "musiŋavʱadzimu"],  // The Venda word for the rainbow as used in the Venda Bible; IPA read from the spelling.
     mnk: ["kullimaaroo", "kulːimaːroː"],  // The Mandinka word for the rainbow (with the -o ending this row's nouns carry), used throughout the Mandinka Bible; IPA read from the spelling.
     quz: ["kʼuychi", "ˈkʼujtʃi"],  // The Southern Quechua word for the rainbow, used in both Cusco Quechua Bibles. Route by resemblance to the neighbouring forms (qwc(kuychi)); no etymology of its own.
-    ach: ["danyu", "daɲu"],  // The Acholi word for the rainbow, used in both Acholi Bibles; IPA read from the spelling.
+    ach: ["danyu", "daɲu"],  // The Acholi word for the rainbow, used in both Acholi Bibles; IPA read from the spelling. No image is recorded for it, so it counts as a word of its own.
     srr: ["ñang-ee-ñang", "ɲaŋeːɲaŋ"],  // The Serer word for the rainbow, a reduplicated form, used throughout the Serer Bible; IPA read from the spelling.
     seh: ["utazimu", "utazimu"],  // The Sena word for the rainbow as used in the Sena New Testament; IPA read from the spelling.
-    sus: ["senkui", "seŋkui"],  // The Susu word for the rainbow, used throughout the Susu Bible; IPA read from the spelling.
+    sus: ["senkui", "seŋkui"],  // The Susu word for the rainbow, used throughout the Susu Bible; IPA read from the spelling. No image is recorded for it, so it counts as a word of its own.
     dag: ["sagani", "saɡani"],  // The Dagbani word for the rainbow, used in both Dagbani Bibles; IPA read from the spelling.
-    zne: ["wangu", "waŋɡu"],  // The Zande word for the rainbow as used in the Zande Bible; IPA read from the spelling.
+    zne: ["wangu", "waŋɡu"],  // The Zande word for the rainbow as used in the Zande Bible; IPA read from the spelling. No image is recorded for it, so it counts as a word of its own.
     nbl: ["izungu leKosi", "izuŋɡu lekosi"],  // The Southern Ndebele name for the rainbow in the Ndebele Bible, apparently 'the izungu of the King'; izungu itself was not glossed.
-    bxk: ["lufutu", "lufutu"],  // The Lubukusu word for the rainbow, the same as Lumasaaba lufutu; IPA read from the spelling.
-    ada: ["alale", "alale"],  // The Dangme word for the rainbow, used in both Dangme Bibles; IPA read from the spelling.
+    bxk: ["lufutu", "lufutu"],  // The Lubukusu word for the rainbow, the same as Lumasaaba lufutu; IPA read from the spelling. No image is recorded for it, so it counts as a word of its own.
+    ada: ["alale", "alale"],  // The Dangme word for the rainbow, used in both Dangme Bibles; IPA read from the spelling. No image is recorded for it, so it counts as a word of its own.
     hmn: ["zaj sawv", "ʐa˥˨ ʂaɨ˨˦"],  // Literally 'the dragon rises' (zaj 'dragon' + sawv 'to rise'), per Heimbach's White Hmong dictionary; the newer Hmong Bible also says duab nag 'rain image'.
-    din: ["mïït", "miːt"],  // The Dinka word for the rainbow, the same in Padang and southwestern Dinka Bibles; IPA read from the spelling, with breathy voice not marked, as in this row.
+    din: ["mïït", "miːt"],  // The Dinka word for the rainbow, the same in Padang and southwestern Dinka Bibles; IPA read from the spelling, with breathy voice not marked, as in this row. No image is recorded for it, so it counts as a word of its own.
     ay: ["kurmi", "ˈkuɾmi"],  // The Aymara word for the rainbow, spelled cürmi in the older Bible orthography. No image is recorded for it, so it counts as a word of its own.
     bbc: ["halibutongan", "halibutoŋan"],  // The Toba Batak word for the rainbow, as used in the Toba Batak Bible; IPA read from the spelling.
     bts: ["halibitongan", "halibitoŋan"],  // The Simalungun word for the rainbow, close to Toba Batak halibutongan; IPA read from the spelling.
@@ -1232,17 +1232,17 @@ WORDS.rainbow = {
     nyo: ["omuhangazima", "omuhaŋɡazima"],  // The Runyoro-Rutooro word for the rainbow in both Bible translations; the 1964 version spells it omuhanganzima. IPA read from the spelling.
     quy: ["chirapa", "ˈtʃiɾapa"],  // The Ayacucho Quechua word for the rainbow in both Ayacucho Bible translations; IPA read from the spelling.
     gaa: ["kwaabuɛtɛ", "kwaːbuɛtɛ"],  // The Ga word for the rainbow, used in both Ga Bible translations; IPA read from the spelling, tone not shown.
-    lue: ["kongolo", "koŋɡolo"],  // The Luvale word for the rainbow in both Luvale Bible translations; IPA read from the spelling.
+    lue: ["kongolo", "koŋɡolo"],  // The Luvale word for the rainbow in both Luvale Bible translations; IPA read from the spelling. Route by resemblance to the neighbouring forms (umb(olukongolo)); no etymology of its own.
     kaa: ["ayqulaq", "ajqulaq"],  // The Karakalpak word for the rainbow, the title of the Karakalpak Wikipedia article and the word of the Karakalpak Bible; IPA read from the spelling.
     jmc: ["ukova lwa mmbwa", "ukova lwa mːbwa"],  // The Machame phrase for the rainbow in the Machame Bible and New Testament; mmbwa is this row's word for rain, and ukova is not analysed here.
-    lol: ["ngolo", "ŋɡolo"],  // The Lomongo word for the rainbow in both Lomongo Bible versions; IPA read from the spelling, tone not shown.
-    cab: ["heremuru", "heremuru"],  // The Garifuna word for the rainbow, used in both Garifuna Bible translations; IPA read from the spelling.
+    lol: ["ngolo", "ŋɡolo"],  // The Lomongo word for the rainbow in both Lomongo Bible versions; IPA read from the spelling, tone not shown. No image is recorded for it, so it counts as a word of its own.
+    cab: ["heremuru", "heremuru"],  // The Garifuna word for the rainbow, used in both Garifuna Bible translations; IPA read from the spelling. No image is recorded for it, so it counts as a word of its own.
     pdt: ["Räajenboagen", "ˈɾɛːajənboaɣən"],  // Literally 'rain bow' (Räajen 'rain' + Boagen 'bow'), like German Regenbogen; IPA read from the spelling.
     pap: ["regenbog", "reɡənbox"],  // From Dutch regenboog, literally 'rain bow'; IPA read from the official spelling rules.
     krc: ["тейри къылыч", "tejri qɯlɯtʃ"],  // Literally 'тейри sword': the second word, къылыч, means 'sword'; IPA read from the spelling.
     tyv: ["челээш", "tɕeleːʃ"],  // The Tuvan word for the rainbow used in the Tuvan Bible; Tuvan also has солаңгы, cognate with Mongolian солонго. IPA read from the spelling.
     bxr: ["һолонго", "hɔlɔŋɡɔ"],  // Inherited from Proto-Mongolic *solaŋga 'rainbow', the same word as Mongolian солонго; IPA read from the spelling.
-    tab: ["дерккучӏимир", "derkːutʃʼimir"],  // The Tabasaran word for the rainbow; the Tabasaran Bible spells it with and without the first р. IPA read from the spelling.
+    tab: ["дерккучӏимир", "derkːutʃʼimir"],  // Built on дерккю, the Tabasaran word for the bow (IDS also gives деккю, matching the Bible's spellings with and without the first р); the ending чӏимир is not analysed here. IPA read from the spelling.
     ab: ["ацәаҟәа", "atɕʷʰaqʷʼa"],  // The Abkhaz word for the rainbow, with the article prefix а- that this row keeps on its nouns; IPA read from the spelling.
     sbp: ["ilipingangʼombe lya noonya", "ilipiŋɡaŋombe lja noːɲa"],  // The Sangu Bible's phrase for the rainbow, ending in lya noonya 'of rain'.
     tru: ["ܩܫܬܐ ܕܥܝܡܐ", "qeʃto daʕajme"],  // Literally 'bow of the clouds'.
@@ -1250,7 +1250,7 @@ WORDS.rainbow = {
     ixl: ["txakmanchʼel", "ʈʂakmantʃʼel"],  // The Ixil word for the rainbow; the Cotzal Bible has txakbʼanchʼel. No image is recorded for it, so it counts as a word of its own.
     pbb: ["kxthũus", "kʲtʰũːs"],  // The Nasa Yuwe word for the rainbow. No image is recorded for it, so it counts as a word of its own.
     cuk: ["sue", "swe"],  // The Guna word for the rainbow as used in the Bible. No image is recorded for it, so it counts as a word of its own.
-    alt: ["солоҥы", "soloˈŋɯ"],  // The Altai word for the rainbow; compare Mongolian солонго.
+    alt: ["солоҥы", "soloˈŋɯ"],  // The Altai word for the rainbow; compare Mongolian солонго. Route by resemblance to the neighbouring forms (mn(солонго) xal(солңһ) bxr(һолонго)); no etymology of its own.
     hch: ["kuwiwi", "kuwiwi"],  // The Wixárika word for the rainbow.
     cni: ["savirentsi", "saβiɾentsi"],  // The Asháninka word for the rainbow as used in the New Testament. No image is recorded for it, so it counts as a word of its own.
     jiv: ["tuntíak", "tunˈtiak"],  // The Shuar word for the rainbow. No image is recorded for it, so it counts as a word of its own.
@@ -1267,7 +1267,7 @@ WORDS.rainbow = {
     yan: ["wayauli", "wajauli"],  // The Mayangna word for the rainbow. No image is recorded for it, so it counts as a word of its own.
     tvl: ["nuanua", "nuanua"],  // The Tuvaluan word for the rainbow, the same as Samoan nuanua. Route by resemblance to the neighbouring forms (sm(nuanua) wls(nuanua)); no etymology of its own.
     rar: ["ānuanua", "aːnuanua"],  // The Cook Islands Māori word for the rainbow. Route by resemblance to the neighbouring forms (ty(ānuanua) sm(nuanua)); no etymology of its own.
-    cho: ["hinak bitepuli", "hinak bitepoli"],  // The Choctaw word for the rainbow.
+    cho: ["hinak bitepuli", "hinak bitepoli"],  // The Choctaw word for the rainbow. Route by resemblance to the neighbouring forms (cic(nakbatiipoliʼ)); no etymology of its own.
     esu: ["agluryaq", "aɣluʁjaq"],  // The Yup'ik word for the rainbow. No image is recorded for it, so it counts as a word of its own.
     kos: ["lelakem", "lelakem"],  // The Kosraean word for the rainbow. No image is recorded for it, so it counts as a word of its own.
     yrl: ["waimi mirapara", "wajmi miɾapaɾa"],  // The Nheengatu phrase for the rainbow used in the Bible. Mirapara is the Nheengatu word for 'bow'.
@@ -1294,20 +1294,20 @@ WORDS.rainbow = {
     kfa: ["ಮಳೆಬಿಲ್ಲ್", "maɭebillɨ"],  // Literally 'rain bow' (ಮಳೆ 'rain' + ಬಿಲ್ಲ್ 'bow'), built like Kannada ಮಳೆಬಿಲ್ಲು and English rainbow.
     aln: ["ylber", "ylˈbɛɾ"],  // The same word as standard Albanian ylber, whose second half is an old word for 'bow'; the first is either 'forearm' or yll 'star'.
     dru: ["balrilawlau", "baɭilaulau"],  // The Rukai word for the rainbow in the Rukai Bible (spelled balrilawlaw in Wiktionary); IPA is read from the spelling, lr = ɭ.
-    plg: ["wosak", "wosak"],  // The Pilagá word for the rainbow, spelled huosac in the Pilagá New Testament; IPA is read from the spelling (hu = w, c = k).
-    moc: ["qoɲiʔɡe", "qoɲiʔɡe"],  // The Mocoví word for the rainbow, spelled qoñi'gue in the Mocoví Bible; IPA is read from the spelling.
+    plg: ["wosak", "wosak"],  // The Pilagá word for the rainbow, spelled huosac in the Pilagá New Testament; IPA is read from the spelling (hu = w, c = k). No image is recorded for it, so it counts as a word of its own.
+    moc: ["qoɲiʔɡe", "qoɲiʔɡe"],  // The Mocoví word for the rainbow, spelled qoñi'gue in the Mocoví Bible; IPA is read from the spelling. No image is recorded for it, so it counts as a word of its own.
     tob: ["qomoʁonalo", "qomoʁonalo"],  // The Toba (Qom) word for the rainbow, spelled qomoxonalo in the Toba Bibles; IPA is read from the spelling (x = ʁ, as in this row's water).
-    bew: ["bianglala", "biaŋˈlala"],  // The Betawi word for the rainbow, also used in Indonesian; Grijns (1991) records many synonyms, among them kuwung-kuwung, ketumbiri and selèndang 'scarf'.
+    bew: ["bianglala", "biaŋˈlala"],  // The Betawi word for the rainbow, also used in Indonesian; Grijns (1991) records many synonyms, among them kuwung-kuwung, ketumbiri and selèndang 'scarf'. Wiktionary: borrowed from Balinese bianglalah; the old analysis biang 'mother' + laler 'fly' is probably an eggcorn. No image is recorded for it, so it counts as a word of its own.
     kpe: ["gbeimɛ̂lɛ", "ɡbeimɛ̂lɛ"],  // The Kpelle word for the rainbow in the Liberian Kpelle Bible; Guinea Kpelle has the related gbəimiliin. No image is recorded for it, so it counts as a word of its own.
-    wbp: ["pararri", "parari"],  // The Warlpiri word for the rainbow, used in the Warlpiri Bible and in Bowern's Pama-Nyungan word list; IPA read from the spelling.
-    pyu: ["'aliwanes", "ʔaliwanəs"],  // The Puyuma word for the rainbow in the Puyuma New Testament; IPA read from the spelling.
+    wbp: ["pararri", "parari"],  // The Warlpiri word for the rainbow, used in the Warlpiri Bible and in Bowern's Pama-Nyungan word list; IPA read from the spelling. No image is recorded for it, so it counts as a word of its own.
+    pyu: ["'aliwanes", "ʔaliwanəs"],  // The Puyuma word for the rainbow in the Puyuma New Testament; IPA read from the spelling. No image is recorded for it, so it counts as a word of its own.
     tkl: ["nuanua", "nuanua"],  // The Tokelauan word for the rainbow, the same as Samoan nuanua. Route by resemblance to the neighbouring forms (sm(nuanua) wls(nuanua)); no etymology of its own.
-    ess: ["аглюк", "aɡljuk"],  // The Central Siberian Yupik word for the rainbow in the Yupik New Testament; IPA from NorthEuraLex.
+    ess: ["аглюк", "aɡljuk"],  // The Central Siberian Yupik word for the rainbow in the Yupik New Testament; IPA from NorthEuraLex. Route by resemblance to the neighbouring forms (esu(agluryaq)); no etymology of its own.
     kw: ["kammneves", "kamˈnɛvɛs"],  // Built on kamm 'bent, crooked', the bent thing of the sky (nev 'heaven'), like Welsh enfys; IPA read from the Kernewek Kemmyn spelling.
     acf: ["lakansyèl", "lakɑ̃sjɛl"],  // From French l'arc-en-ciel 'the arc in the sky', with the article fused on, as in Haitian Creole lakansyèl.
     gun: ["karugua", "kaɾuˈɡʷa"],  // The Mbyá Guaraní word for the rainbow in the Mbyá Bible; IPA read from the spelling with final stress as in the row's other words.
     swb: ["mukakamba", "mukakamba"],  // The Shimaore word for the rainbow, used in the Shimaore New Testament. No image is recorded for it, so it counts as a word of its own.
-    agt: ["hunglun", "huŋlun"],  // The Central Cagayan Agta New Testament's word for the rainbow round the throne and over the angel's head; IPA read from the spelling.
+    agt: ["hunglun", "huŋlun"],  // The Central Cagayan Agta New Testament's word for the rainbow round the throne and over the angel's head; IPA read from the spelling. No image is recorded for it, so it counts as a word of its own.
     cjy_lv: ["虹", "tɕiɔ˧˩˨"],  // Lishi says the single character 虹 with the colloquial reading tɕiɔ, beside the book reading xuʌŋ.
     hsn_hy: ["虹", "kan˧˨˦"],  // Hengyang says the single character 虹 with the colloquial reading kan, like Changsha gan.
     czh_wy: ["虹", "kɑ̃˧˥"],  // Wuyuan says the single character 虹, read kɑ̃ with the old velar initial.
@@ -1324,8 +1324,8 @@ WORDS.rainbow = {
     en_ng2: ["rainbow", "ˈɹeːnboː"],  // Literally 'rain bow', the general English word.
     en_my: ["rainbow", "ˈɹeːnboː"],  // Literally 'rain bow', the general English word.
     pt_mo: ["arco-íris", "aɾkuˈiɾiʃ"],  // Literally 'arc of Iris', the general Portuguese word, with no regional replacement recorded.
-    chy: ["nonónóóʼe", "nonónóóʔe"],  // The same Cheyenne word also means a fishing line, a trap or a snare; the dictionary traces it to Proto-Algonquian *nakwa·kani 'a kind of trap'.
-    tsz: ["xupakata", "ʃuˈpakata"],  // The Purépecha word for the rainbow in both Purépecha Bible translations; IPA read from the spelling, with x = ʃ and stress on the second syllable as unmarked words take.
+    chy: ["nonónóóʼe", "nonónóóʔe"],  // The same Cheyenne word also means a fishing line, a trap or a snare, and the dictionary traces it to Proto-Algonquian *nakwa·kani 'a kind of trap': the rainbow is the snare, as Ojibwe ngwaagan is both 'rainbow' and 'trap'.
+    tsz: ["xupakata", "ʃuˈpakata"],  // The Purépecha word for the rainbow in both Purépecha Bible translations; IPA read from the spelling, with x = ʃ and stress on the second syllable as unmarked words take. No image is recorded for it, so it counts as a word of its own.
     zh_tang: ["虹", "ɦəwŋ"],  // 虹 is the old single-character word for the rainbow, glossed 螮蝀 in the Guangyun rhyme dictionary.
     zh_han: ["虹", "ɡōŋ"],  // 虹 is the old single-character Chinese word for the rainbow.
     zh_yuan: ["虹", "xuŋ"],  // 虹 is listed in the 1324 Zhongyuan Yinyun rhyme book in the same homophone group as 紅 'red'.
@@ -1334,7 +1334,7 @@ WORDS.rainbow = {
     ojp: ["虹", "nizi"],  // First attested in the Kojiki of 712; eastern dialect poems also have nuzi.
     ja_heian: ["虹", "nizi"],  // The c. 934 Wamyō Ruijushō gives the native name of 虹 as 爾之 nizi.
     non: ["regnbogi", "ˈreɣnboɣi"],  // Literally 'rain-bow', the same compound as English rainbow.
-    hy_grab: ["ծիածան", "tsiaˈtsan"],  // Translates Greek ἶρις in the Bible (Revelation 10:1); its origin is unknown, though some read it as 'the sign' or 'the belt' of the sky god.
+    hy_grab: ["ծիածան", "tsiaˈtsan"],  // Translates Greek ἶρις in the Bible (Revelation 10:1); its origin is unknown, though some read it as 'the sign' or 'the belt' of the sky god. Route by resemblance to the neighbouring forms (hyw(ծիածան)); no etymology of its own.
     pi_edu: ["indadhanu", "indadʱanu"],  // Literally 'Indra's bow' (inda + dhanu), cited by the PTS dictionary from Buddhaghosa's Dīgha commentary.
     hbo: ["קשת", "ˈqɛʃɛθ"],  // The ordinary word for a bow; in Genesis 9:13 God sets 'my bow in the cloud' after the Flood.
     he_mis: ["קשת", "ˈqeʃet"],  // The same word as 'bow'; the rabbinic blessing is for 'one who sees the bow in the cloud'.
@@ -1362,14 +1362,14 @@ WORDS.rainbow = {
     bar: ["Regnbogn", "ˈreːŋboːŋ"],  // Literally 'rain bow', the Bavarian form of German Regenbogen.
     tn: ["motshe wa godimo", "motsʰe wa χodimo"],  // Godimo is 'above, the heavens'; the dictionaries list the variant motshe wa badimo, with badimo 'the ancestors'.
     bgc: ["मेघ-धनुष", "meːɡʱ dʱənuʂ"],  // Literally 'cloud bow' (मेघ 'cloud' + धनुष 'bow'), the word of the Haryanvi Bible.
-    wo: ["xon", "xɔn"],  // The word both Wolof Bible translations use; Wiktionary also lists ngirwi.
+    wo: ["xon", "xɔn"],  // The word both Wolof Bible translations use; Wiktionary also lists ngirwi. No image is recorded for it, so it counts as a word of its own.
     ilo: ["bullalayaw", "bullaˈlajaw"],  // Shares its root with Philippine names for the spirit of the shooting star (Proto-Philippine *bulalákaw, ACD).
     dyu: ["sanmuru", "sanmuru"],  // Literally 'sky knife' (san 'sky' + muru 'knife'), like Bambara sánmùrubílen 'red sky-knife'.
     ti: ["ቀስተ ደመና", "kʼɐstɐ dɐmmɐna"],  // Literally 'bow of the cloud', as in Amharic ቀስተ ደመና; Wiktionary also lists ቀስተ ደበና, with the Tigrinya word ደበና for cloud.
     mad: ["andhâng", "anɖʱɤŋ"],  // The Madurese word for the rainbow; Kiliaan's dictionary adds that some call a rainbow in the west kokobung. No image is recorded for it, so it counts as a word of its own.
     mos: ["saag-gomtɩʋʋg", "saːɡɡomtɪʊːɡ"],  // The Mooré word for the rainbow, used in every Mooré Bible translation.
     kri: ["rembo", "ˈrembo"],  // From English rainbow, 'rain bow'.
-    gn: ["jýi", "ˈdʒɨi"],  // Guarani Wikipedia uses the coinage ararokái instead, and older Bibles borrow Spanish arco iris.
+    gn: ["jýi", "ˈdʒɨi"],  // Guarani Wikipedia uses the coinage ararokái instead, and older Bibles borrow Spanish arco iris. No image is recorded for it, so it counts as a word of its own.
     min: ["palangi", "palaŋi"],  // The Minangkabau form of Malay pelangi, related to pelang 'striped': the striped one.
     suk: ["ita lya baashi", "ita lja baːʃi"],  // The phrase every Sukuma Bible uses for the rainbow.
     tiv: ["ikume", "ikume"],  // In Revelation it is ikume i sha aôndo, 'the ikume of the sky'; Glosbe spells it ikyume. No image is recorded for it, so it counts as a word of its own.
@@ -1393,9 +1393,9 @@ WORDS.rainbow = {
     sco: ["rainbow", "ˈrenbʌu"],  // Rain + bow, as in English, but the Scottish National Dictionary notes that bow is said [bʌu] here.
     kbd: ["лэгъупыкъу", "ɮaʁʷəpəqʷ"],  // The Kabardian word for the rainbow, cognate with Adyghe лэгъупэкъопс.
     mtq: ["tòng tẫm", "tɔŋ təm"],  // The Mường New Testament's word for the rainbow, in both Revelation passages.
-    laj: ["etaloka", "etaloka"],  // The Lango word for the rainbow, unlike Acholi danyu; the Lango Bible uses it in Genesis 9:13, Ezekiel 1:28 and Revelation 4:3 and 10:1. IPA read from the spelling.
+    laj: ["etaloka", "etaloka"],  // The Lango word for the rainbow, unlike Acholi danyu; the Lango Bible uses it in Genesis 9:13, Ezekiel 1:28 and Revelation 4:3 and 10:1. IPA read from the spelling. No image is recorded for it, so it counts as a word of its own.
     ttj: ["omuhangazima", "omuhaŋɡazima"],  // The rainbow word of the joint Runyoro-Rutooro Bible, which serves Tooro speakers too (Ezekiel 1:28; the 1964 version spells it omuhanganzima). IPA read from the spelling.
-    jvn: ["kluwung", "kluwuŋ"],  // Suriname Javanese keeps the Javanese word kluwung, as in the Kitab Jawa Suriname Bible (Genesis 9:13, Ezekiel 1:28).
+    jvn: ["kluwung", "kluwuŋ"],  // Suriname Javanese keeps the Javanese word kluwung, as in the Kitab Jawa Suriname Bible (Genesis 9:13, Ezekiel 1:28). No image is recorded for it, so it counts as a word of its own.
     ext: ["arcu iris", "aɾku iɾis"],  // The Extremaduran form of Spanish arco iris, with the dialect's final -u: arcu "arc, bow" + iris.
     loz: ["nambwamutalati", "nambwamutalati"],  // The Lozi word for the rainbow, used in the Lozi Bible: "Ni beya nambwamutalati wa ka mwa malu" (Genesis 9:13) and "lubona lo ne lu potolohilwe ki nambwamutalati" (Revelation 4:3).
     akb: ["halibutongan", "halibutoŋan"],  // The Angkola word for the rainbow, used in the Angkola Bible: "gabe Hubaen ma di ombun i halibutongan" (Genesis 9:13) and "Adong muse do halibutongan humaliang habangsa i" (Revelation 4:3).
@@ -1416,28 +1416,28 @@ WORDS.rainbow = {
     lhu: ["á-lâ-mì-ší-jɔ", "álâmìʃídʑɔ"],  // The Lahu word for the rainbow; the Lahu Bible writes it aˉlaˇmiˬshiˉjaw in Genesis 9:13-16 and Revelation 4:3 and 10:1.
     tji: ["pu", "pʰu˧˥"],  // The Tujia word for the rainbow, a single syllable phu³⁵ in both Chinese survey sources. No image is recorded for it, so it counts as a word of its own.
     dtp: ["buluntung", "buluntuŋ"],  // The Dusun word for the rainbow, used in the Dusun Bible: "i buluntung do polotingon ku do hilo'd tawan" (Genesis 9:13). No image is recorded for it, so it counts as a word of its own.
-    urh: ["aphoro", "aɸoɾo"],  // The word the Urhobo Bible uses for the rainbow: "Me cha vwẹ aphoro mẹ vwo mu vwẹ enu rẹ ikoro na" (Genesis 9:13), also Revelation 10:1; IPA read from the spelling.
+    urh: ["aphoro", "aɸoɾo"],  // The word the Urhobo Bible uses for the rainbow: "Me cha vwẹ aphoro mẹ vwo mu vwẹ enu rẹ ikoro na" (Genesis 9:13), also Revelation 10:1; IPA read from the spelling. No image is recorded for it, so it counts as a word of its own.
     asu: ["mkindikindi", "mkindikindi"],  // The word the Chasu New Testament uses for the rainbow round the throne, "na mkindikindi wejunguluke kila kichumbi" (Revelation 4:3), and over the angel's head (10:1); IPA read from the spelling.
     nhw: ["acosamalotl", "akosaˈmalotɬ"],  // The word the Huasteca Nahuatl Bible uses for the rainbow, "Nijtlalijtoc noacosamalo ipan mixtli" (Genesis 9:13); it matches Classical Nahuatl cōzamālōtl, whose origin Wiktionary calls uncertain.
     nhe: ["acosamalotl", "akosaˈmalotɬ"],  // The word the Eastern Huasteca Nahuatl New Testament uses for the rainbow, "huan quipixqui nopa acosamalotl ipan itzonteco" (Revelation 10:1); it matches Classical Nahuatl cōzamālōtl.
     gej: ["ànyiɖohùɛɖo", "àɲiɖohùɛɖo"],  // The Gen Bible's word for the rainbow: "Mù sɔ àpe ànyiɖohùɛɖo dà ɖo lilikpoa mè" (Genesis 9:13).
-    sgw: ["ወወካ", "wəwəka"],  // The word the Gurage Bible uses for the rainbow, "ወወካና በዳበራ ር አወራንቴ" (Genesis 9:13), also Revelation 10:1; IPA read from the spelling.
-    kum: ["энемжая", "enemdʒaja"],  // The Kumyk word for the rainbow, used in the Kumyk New Testament ("башыны уьстюнде энемжая бар эди", Revelation 10:1); солтанжая and тенгрижая are synonyms.
+    sgw: ["ወወካ", "wəwəka"],  // The word the Gurage Bible uses for the rainbow, "ወወካና በዳበራ ር አወራንቴ" (Genesis 9:13), also Revelation 10:1; IPA read from the spelling. No image is recorded for it, so it counts as a word of its own.
+    kum: ["энемжая", "enemdʒaja"],  // The Kumyk word for the rainbow, used in the Kumyk New Testament ("башыны уьстюнде энемжая бар эди", Revelation 10:1). It ends in жая 'bow' (Proto-Turkic *yā), as do its synonyms солтанжая 'the sultan's bow' and тенгрижая 'Tengri's bow'; the first part is not analysed here.
     ebu: ["mũkũngambura", "mokoŋɡambuɾa"],  // The word the Embu Bible uses for the rainbow, "nîngwiga mûkûngambura wakwa matuurî" (Genesis 9:13); it ends in mbura "rain" and matches Kikuyu mũkũnga-mbura "eel of the rain". Route by resemblance to the neighbouring forms (ki(mũkũnga-mbura), mer(mûkûngambura)); no etymology of its own.
     ses: ["beenegondi", "beːneɡondi"],  // Literally "sky snake" (beene "sky" + gondi "snake", both so used in the same Bible); "ay nʼay beenegondoo daŋ duulawey ra" (Genesis 9:13).
-    kqn: ["kakongolo", "kakoŋɡolo"],  // The word the Kaonde New Testament uses for the rainbow, "ku jitanda kwazhokolokele ne kakongolo" (Revelation 4:3) and "ne kakongolo pa mutwe wanji" (10:1); IPA read from the spelling.
+    kqn: ["kakongolo", "kakoŋɡolo"],  // The word the Kaonde New Testament uses for the rainbow, "ku jitanda kwazhokolokele ne kakongolo" (Revelation 4:3) and "ne kakongolo pa mutwe wanji" (10:1); IPA read from the spelling. Route by resemblance to the neighbouring forms (umb(olukongolo)); no etymology of its own.
     pis: ["renbo", "renbo"],  // Borrowed from English rainbow, "rain bow"; Jourdan's dictionary also lists the spelling renbou.
     dv: ["ވިއްސާރަދުނި", "visːaːɾaduni"],  // Ends in ދުނި "bow"; ވިއްސާރަ is glossed "storm" by Wiktionary, which also lists ވާރެޑުނި, built on ވާރޭ "rain".
-    nzi: ["nyangondonle", "ɲaŋɡondonle"],  // The word the Nzema Bible uses for the rainbow, "mebado me nyangondonle ne wɔ anwomanyunlu" (Genesis 9:13); it resembles Twi nyankontɔn. IPA read from the spelling.
+    nzi: ["nyangondonle", "ɲaŋɡondonle"],  // The word the Nzema Bible uses for the rainbow, "mebado me nyangondonle ne wɔ anwomanyunlu" (Genesis 9:13); it resembles Twi nyankontɔn. IPA read from the spelling. Route by resemblance to the neighbouring forms (ak(nyankontɔn)); no etymology of its own.
     maw: ["sasuu", "sasuː"],  // The word the Mampruli New Testament uses for the rainbow round the throne, "Ka sasuu veelim daa gyiligi naam zizii maa" (Revelation 4:3), and over the angel (10:1); IPA read from the spelling.
-    ote: ["ʼbɛjri", "ʔbɛhɾi"],  // The word the Mezquital Otomi New Testament uses for the rainbow, "ne mi ja ꞌnara ꞌbɛjri ja rá ña̱xu" (Revelation 10:1), also 4:3; IPA read from the spelling.
+    ote: ["ʼbɛjri", "ʔbɛhɾi"],  // The word the Mezquital Otomi New Testament uses for the rainbow, "ne mi ja ꞌnara ꞌbɛjri ja rá ña̱xu" (Revelation 10:1), also 4:3; IPA read from the spelling. Route by resemblance to the neighbouring forms (otq(ꞌbe̱jni)); no etymology of its own.
     kj: ["outa wodula", "outa wodula"],  // Literally "bow of the rain" (outa "bow", as in Genesis 27:3, + odula "rain"); "a djalekwa oshilemo nouta wodula komutwe waye" (Revelation 10:1).
     kxc: ["pankaallata", "pankaːlːata"],  // The word the Konso Bible uses for the rainbow, "Moonta quda'en pankaallata koda" (Genesis 9:13); IPA read from the spelling.
-    anu: ["daanø", "daːnø"],  // The word the Anuak Bible uses for the rainbow, "Aani daanø mara acïba yi pöölö maal" (Genesis 9:13); IPA read from the spelling.
+    anu: ["daanø", "daːnø"],  // The word the Anuak Bible uses for the rainbow, "Aani daanø mara acïba yi pöölö maal" (Genesis 9:13); IPA read from the spelling. No image is recorded for it, so it counts as a word of its own.
     naq: ["ǀapiǃhanab", "ǀapiǃhanab"],  // The word the Khoekhoegowab Bible uses for the rainbow, "ǃâudi ǃnâ ǀapiǃhanaba ra dī" (Genesis 9:13); IPA read from the spelling.
     lij: ["arcobalén", "arkubaˈleŋ"],  // Begins with arco "arch, bow", like Italian arcobaleno; Ligurian also says archinçê, "arch in the sky".
     tzo: ["vaknabal", "vaknabal"],  // The Tzotzil word for the rainbow, in the Batsʼi kʼop Living Dictionary and the Chenalhó Bible ("ja' li vacnabal laj cac' ta vinajele", Genesis 9:13). No image is recorded for it, so it counts as a word of its own.
-    cak: ["kotoqʼaʼ", "kotoqʼaʔ"],  // The Kaqchikel word for the rainbow in two Bible translations: "Ri kotoq'a' ri xinya' pa sutz'" (Genesis 9:13); IPA read from the spelling.
+    cak: ["kotoqʼaʼ", "kotoqʼaʔ"],  // The Kaqchikel word for the rainbow in two Bible translations: "Ri kotoq'a' ri xinya' pa sutz'" (Genesis 9:13); IPA read from the spelling. No image is recorded for it, so it counts as a word of its own.
     mev: ["gbèĩ́-ɓɛ̀lɛ̀", "ɡbèĩ́ɓɛ̀lɛ̀"],  // The word the Mano New Testament uses for the rainbow, "Gbèĩ́-ɓɛ̀lɛ̀ nìɛɛ̀ e kɛá à wũ-kèlè mɔ̀" (Revelation 10:1), also 4:3; its second part matches ɓɛ̀lɛ̀ "rope, vine".
     zap: ["arcu iris", "aɾku iɾis"],  // Borrowed from Spanish arco iris, "arc of Iris"; used in the Isthmus Zapotec New Testament (Revelation 4:3, 10:1).
     her: ["outa wombura", "outa wombura"],  // Literally "bow of rain", used throughout the Herero Bible: "Me twa po outa wandje wombura movikamba" (Genesis 9:13) and "kwa ri nouta wombura kombanda yotjiuru tje" (Revelation 10:1).
@@ -1464,7 +1464,7 @@ WORDS.rainbow = {
     ch: ["isa", "ˈisa"],  // The Chamorro word for the rainbow, listed in Sandra Chung's English-Chamorro finder list for the revised Chamorro-English Dictionary. No image is recorded for it, so it counts as a word of its own.
     bnn: ["hanivalval", "hanivalval"],  // The Isbukun Bunun word for the rainbow; the ILRDF dictionary's examples include the old taboo against pointing at it.
     poh: ["raxkojl", "raʃkoxl"],  // The Poqomchi' Bible's word for the rainbow throughout, as at Genesis 9:13 "Re' re' raxkojl xnukoj pan suutz'" ("my rainbow I have set in the cloud"). No image is recorded for it, so it counts as a word of its own.
-    mzh: ["lawo", "lawo"],  // The Wichí Bible's word for the rainbow (Revelation 4:3 "iche lawo", 10:1 "lawo i'pe lhetek" "a rainbow was on his head"); IDS records the same word as la-'wuʔ.
+    mzh: ["lawo", "lawo"],  // The Wichí Bible's word for the rainbow (Revelation 4:3 "iche lawo", 10:1 "lawo i'pe lhetek" "a rainbow was on his head"); IDS records the same word as la-'wuʔ. No image is recorded for it, so it counts as a word of its own.
     nzm: ["ngkitplei", "ŋkitplei"],  // The Zeme Bible's word for the rainbow, as at Revelation 10:1 "pe peireige 'ngkitplei ne gûm lu" ("a rainbow was on his head"). No image is recorded for it, so it counts as a word of its own.
     iu: ["ᐊᔭᒍᑕᖅ", "ajaɡutaq"],  // The Inuktitut word for the rainbow, used in the Eastern Arctic Inuktitut Bible: 'ᐊᔭᒍᑕᖅ ᑕᑯᒃᓴᐅᕙᖕᓂᐊᕐᐳᖅ ᓄᕗᔭᓂ' 'the rainbow will be seen in the clouds' (Genesis 9:14). No image is recorded for it, so it counts as a word of its own.
     tkr: ["ханевур", "χanewur"],  // The Tsakhur word for the rainbow, a class IV noun in the Tsakhur dictionary (Latin xənevur), also used in the Tsakhur Bible: 'buludıka sacigee xənevur g'yavaales' 'the rainbow will appear in the clouds' (Genesis 9:14). No image is recorded for it, so it counts as a word of its own.
@@ -1473,7 +1473,7 @@ WORDS.rainbow = {
     meu: ["kevau", "kevau"],  // The Motu word for the rainbow, used throughout the Motu Bible: 'egu kevau dagadaga ai na atoamu' 'I have set my rainbow in the cloud' (Genesis 9:13). No image is recorded for it, so it counts as a word of its own.
     kmh: ["tibeñ", "tibeɲ"],  // The Kalam word for the rainbow (Pawley & Bulmer's Kalam dictionary); a rainbow 'forms' with the phrase tibeñ wati-tek g-. No image is recorded for it, so it counts as a word of its own.
     kwk: ["wag̱alus", "waɢalus"],  // The Kwak'wala word for the rainbow, as recorded from speaker Lorraine Hunt in the FirstVoices Kwak'wala dictionary (syllabified wa-ǥa-lus).
-    tsi: ["maaxii", "maːχiː"],  // The Sm'algyax word for the rainbow, from Dunn's Practical Dictionary of Coast Tsimshian; a striped 'rainbow blanket' is gwistgima̱xmaaxi.
+    tsi: ["maaxii", "maːχiː"],  // The Sm'algyax word for the rainbow, from Dunn's Practical Dictionary of Coast Tsimshian; a striped 'rainbow blanket' is gwistgima̱xmaaxi. No image is recorded for it, so it counts as a word of its own.
     szy: ["bihkac ni Edek", "bihkats ni ədək"],  // Literally 'Edek's bird snare': the same ILRDF Sakizaya dictionary glosses bihkac as a noose trap for catching birds.
     smn: ["äijihtävgi", "ˈæijihtævɡi"],  // Literally 'thunder bow': äijih 'thunder' + tävgi 'bow', both so glossed in the same Inari Sámi dictionary.
     nys: ["walken", "walken"],  // The Noongar word for the rainbow, as taught in the Noongar first-words book Noongar Boodja Waangkan. No image is recorded for it, so it counts as a word of its own.
@@ -1486,11 +1486,11 @@ WORDS.rainbow = {
     kca: ["нўԓ йўх", "nuɬ jux"],  // The Khanty word for the rainbow, used in Genesis 9:13, 9:14 and 9:16 of the Khanty Bible ('Ма нўԓ йўхем ԓощԓэм', 'I set my rainbow'); the second word looks like йўх 'tree, wood', but no source analyses the compound.
     jbo: ["tanbargu", "tanˈbarɡu"],  // A Lojban compound of tsani 'sky' (rafsi tan) and bargu 'arch', defined in jbovlaste as 'b1 is a rainbow at location b2'.
     chr: ["ᎤᏅᏉᎳᏛ", "uhnə̃kʷolatʰə̃"],  // The Cherokee word for the rainbow, from Feeling's Cherokee-English Dictionary (headword ᎤᏅᏉᎳᏛᎢ, example 'ᎤᏅᏉᎳᏛ ᎤᏍᎪᎸᏨ ᎤᎶᎩᎸ ᎤᎵᎦᎵᏴᎭ' 'the rainbow faded when the cloud cleared up'); the Bible spells it ᎤᏅᎪᎳᏛ.
-    ame: ["ayon", "ajon"],  // The Yanesha' word for the rainbow, the one word the Yanesha' New Testament shares between the rainbow around the throne (Revelation 4:3) and the rainbow over the angel's head (10:1 'Poñothñapaꞌ añ arkaꞌtampesneneꞌ ayon').
+    ame: ["ayon", "ajon"],  // The Yanesha' word for the rainbow, the one word the Yanesha' New Testament shares between the rainbow around the throne (Revelation 4:3) and the rainbow over the angel's head (10:1 'Poñothñapaꞌ añ arkaꞌtampesneneꞌ ayon'). No image is recorded for it, so it counts as a word of its own.
     aqc: ["хьхьӏолош гертти", "χːˤoloʃ ɡertːi"],  // Literally 'arch from the sky': the Archi dictionary glosses it 'радуга (букв. "с неба дуга")', and WOLD analyses it as above-ELATIVE-bow.
     tiw: ["puntaninga", "puntaniŋa"],  // The Tiwi Lexicon glosses puntaninga 'rainbow, Rainbow serpent', the same mythical being as its masculine synonyms ampiji and marriji, and uses it in 'Puntaninga ampi-ji-rr-ikirapulimpa' ('the rainbow is across the sky').
-    acu: ["tungkiang", "tuŋkiaŋ"],  // The Achuar word for the rainbow, as the Achuar Bible uses it in Genesis 9:13 'tungkiang jiisrum' and 9:16 'Tungkiang yurangminam pujamtaikia' ('when the rainbow is in the sky'), and in Revelation 4:3 and 10:1 (tungkiangkua tumau 'like a rainbow').
-    ruq: ["curcubeai", "kurkuˈbe̯aj"],  // The Megleno-Romanian word for the rainbow, the counterpart of Romanian curcubeu, whose origin is disputed; Capidan also records a shortened form bei.
+    acu: ["tungkiang", "tuŋkiaŋ"],  // The Achuar word for the rainbow, as the Achuar Bible uses it in Genesis 9:13 'tungkiang jiisrum' and 9:16 'Tungkiang yurangminam pujamtaikia' ('when the rainbow is in the sky'), and in Revelation 4:3 and 10:1 (tungkiangkua tumau 'like a rainbow'). No image is recorded for it, so it counts as a word of its own.
+    ruq: ["curcubeai", "kurkuˈbe̯aj"],  // The Megleno-Romanian counterpart of Romanian curcubeu, which Wiktionary derives from Vulgar Latin *circus bibit 'the ring that drinks', a late variant of arcus bibit 'rainbow', like Venetian arconbè; Capidan also records a shortened form bei.
     zts: ["liadzɨ́ny", "liadzɨɲ"],  // The Valley Zapotec word for the rainbow as the San Juan Guelavía New Testament uses it for the rainbow around the throne (Revelation 4:3 'cá tuby liadzɨ́ny') and over the angel's head (10:1 'nez quiany nuu tuby liadzɨ́ny'). No image is recorded for it, so it counts as a word of its own.
     mpt: ["kwese", "kwese"],  // The Mian word for the rainbow as the Mian New Testament uses it for the rainbow around the throne (Revelation 4:3 'Kwese ele itanasitobe') and on the angel's head (10:1 'kwese e gabam oub'). No image is recorded for it, so it counts as a word of its own.
     mic: ["walqwan", "walɣʷan"],  // The Mi'kmaq word for the rainbow, an animate noun ('Gi's gi'l nemi't walqwan?' 'Have you seen a rainbow?'), also used in Revelation 4:3 and 10:1 of the Mi'kmaq New Testament. No image is recorded for it, so it counts as a word of its own.

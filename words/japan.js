@@ -134,7 +134,7 @@ WORDS.japan = {
     hu: "europe",
     sv: "europe",
     ug: "europe",
-    rw: "unknown",
+    rw: "europe",
     sn: "europe",
     sr: "europe",
     ht: "europe",
@@ -142,7 +142,7 @@ WORDS.japan = {
     pt: "europe",
     cdo: "nihon",
     ilo: "europe",
-    rn: "unknown",
+    rn: "europe",
     ca: "europe",
     mnp: "nihon",
     he: "europe",
@@ -172,7 +172,7 @@ WORDS.japan = {
     tpi: "europe",
     vec: "europe",
     ka: "europe",
-    ace: "unknown",
+    ace: "hokkien",
     czh: "nihon",
     mzn: "hokkien",
     lmo: "europe",
@@ -215,7 +215,7 @@ WORDS.japan = {
     dng: "nihon",
     co: "europe",
     gag: "europe",
-    ty: "unknown",
+    ty: "europe",
     ast: "europe",
     csb: "europe",
     eo: "europe",
@@ -227,7 +227,7 @@ WORDS.japan = {
     ja_rys: "other",
     rm: "europe",
     haw: "europe",
-    pau: "unknown",
+    pau: "europe",
     rar: "europe",
     hsb: "europe",
     an: "europe",
@@ -354,15 +354,15 @@ WORDS.japan = {
     hak_hl: "nihon",
     zh_hf: "nihon",
     zh_jiao: "nihon",
-    bbc: "unknown",
-    mak: "unknown",
+    bbc: "hokkien",
+    mak: "hokkien",
     tcy: "europe",
     mni: "europe",
     iba: "hokkien",
     tsg: "hokkien",
     mrw: "europe",
     tig: "europe",
-    gor: "unknown",
+    gor: "hokkien",
     li: "europe",
     dag: "europe",
     bs: "europe",
@@ -421,21 +421,21 @@ WORDS.japan = {
     djk: "europe",
     pon: "europe",
     olo: "europe",
-    tok: "unknown",
+    tok: "nihon",
     tvl: "europe",
     mwl: "europe",
     tao: "unknown",
     pyu: "unknown",
-    jbo: "unknown",
+    jbo: "nihon",
     vep: "europe",
     smn: "europe",
     dsb: "europe",
     niu: "europe",
     yap: "europe",
-    tsu: "unknown",
+    tsu: "other",
     liv: "europe",
     ssf: "hokkien",
-    tlh: "unknown",
+    tlh: "nihon",
     zh_tang: "nihon",
     zh_yuan: "nihon",
     zh_wenyan_edu: "nihon",
@@ -553,7 +553,7 @@ WORDS.japan = {
     hu: ["Japán", "ˈjɒpaːn"],  // Probably from German Japan, which came through Dutch from Malay and ultimately Hokkien Ji̍t-pún.
     sv: ["Japan", "ˈjɑːpan"],  // From Dutch Japan, from Malay Jepang, ultimately Hokkien Ji̍t-pún.
     ug: ["ياپونىيە", "jɑponiˈjɛ"],  // Borrowed from Russian Япония.
-    rw: ["Ubuyapani", "ubujapani"],  // Japan in Kinyarwanda, with the country-name prefix ubu-.
+    rw: ["Ubuyapani", "ubujapani"],  // Japan in Kinyarwanda, with the country-name prefix ubu-. Route by resemblance to the neighbouring forms (sw(Japani) sn(Japani)); no etymology of its own.
     sn: ["Japani", "dʒapani"],  // Japan in Shona. Route by resemblance to the neighbouring forms (hi(जापान) bn(জাপান)); no etymology of its own.
     sr: ["Јапан", "jǎpaːn"],  // From German Japan, from Dutch, from Malay Jepang, ultimately Hokkien Ji̍t-pún.
     ht: ["Japon", "ʒaˈpɔ̃"],  // From French Japon.
@@ -561,7 +561,7 @@ WORDS.japan = {
     pt: ["Japão", "ʒɐˈpɐ̃w̃"],  // Portuguese took the name from Malay Jepang in the 1500s; English and French Japan/Japon come from it.
     cdo: ["日本", "niʔ˥ puoŋ˧˧"],  // The characters 日本 'sun origin' read in Fuzhou.
     ilo: ["Hapon", "haˈpon"],  // Japan in Ilocano; the Wiktionary translation table gives Japon instead. Route by resemblance to the neighbouring forms (tl(Hapon) es(Japón)); no etymology of its own.
-    rn: ["Ubuyapani", "ubujapani"],  // Japan in Kirundi, with the country-name prefix ubu-.
+    rn: ["Ubuyapani", "ubujapani"],  // Japan in Kirundi, with the country-name prefix ubu-. Route by resemblance to the neighbouring forms (sw(Japani) sn(Japani)); no etymology of its own.
     ca: ["Japó", "ʒəˈpo"],  // The Catalan form of the European name Japan.
     mnp: ["日本", "ni˦˨ pɔŋ˨˩"],  // The characters 日本 'sun origin' read in Jian'ou.
     he: ["יפן", "jaˈpan"],  // Came through European languages, possibly German or Yiddish, from Dutch Japan.
@@ -591,7 +591,7 @@ WORDS.japan = {
     tpi: ["Siapan", "siapan"],  // From English Japan.
     vec: ["Giapòn", "dʒaˈpɔn"],  // Borrowed from French Japon, which came via Portuguese and Malay from Hokkien Ji̍t-pún.
     ka: ["იაპონია", "iapʼonia"],  // Borrowed from Russian Япония.
-    ace: ["Jeupun", "ɟɯpun"],  // Acehnese name for Japan; Jeupang and Japang are also used.
+    ace: ["Jeupun", "ɟɯpun"],  // Acehnese name for Japan; Jeupang and Japang are also used. Route by resemblance to the neighbouring forms (ms(Jepun) min(Japang)); no etymology of its own.
     czh: ["日本", "ȵie˩˩ pɛ˧˩"],  // The characters 日本 read in Tunxi Hui.
     mzn: ["جاپون", "dʒɒːpuːn"],  // Mazandarani name for Japan, with j where Persian has ž. Route by resemblance to the neighbouring forms (ms(Jepun)); no etymology of its own.
     lmo: ["Gjapon", "dʒaˈpuːŋ"],  // From French Japon, which goes back via Malay to Hokkien Ji̍t-pún.
@@ -604,7 +604,7 @@ WORDS.japan = {
     tum: ["Japan", "dʒapan"],  // Tumbuka name for Japan, spelled as in English. Route by resemblance to the neighbouring forms (hi(जापान) bn(জাপান)); no etymology of its own.
     sl: ["Japonska", "jaˈpoːnska"],  // Slovene name for Japan, formed with the adjective suffix -ska like other country names. Route by resemblance to the neighbouring forms (cs(Japonsko) sk(Japonsko)); no etymology of its own.
     gl: ["Xapón", "ʃaˈpoŋ"],  // Galician name for Japan. Route by resemblance to the neighbouring forms (mn(Япон) es_pa(Japón)); no etymology of its own.
-    ay: ["Nihun", "ˈnihun"],  // Aymara name taken from Japanese Nihon; Hapun from Spanish is also used. Route by resemblance to the neighbouring forms (lo(ຍີ່ປຸ່ນ)); no etymology of its own.
+    ay: ["Nihun", "ˈnihun"],  // Aymara name taken from Japanese Nihon; Hapun from Spanish is also used. Route by resemblance to the neighbouring forms (lo(ຍີ່ປຸ່ນ)).
     pms: ["Giapon", "dʒaˈpuŋ"],  // From French Japon, which goes back via Malay to Hokkien Ji̍t-pún.
     ga: ["an tSeapáin", "ən̪ˠ ˈtʲapˠɑːnʲ"],  // Borrowed from English Japan; it is always cited with the article, which turns s- into t-.
     lv: ["Japāna", "ˈjapaːna"],  // Probably from German Japan, made a feminine noun like most Latvian country names.
@@ -634,19 +634,19 @@ WORDS.japan = {
     dng: ["Жыбын", "ɻ̩˦ pəŋ˥˩"],  // The Dungan reading of 日本.
     co: ["Giappone", "dʒapˈpɔnɛ"],  // Corsican name for Japan; also spelled Ghjappone. Route by resemblance to the neighbouring forms (it(Giappone) scn(Giappuni)); no etymology of its own.
     gag: ["Yaponiya", "japoniˈja"],  // Borrowed from Russian Япония, from Latin Iaponia.
-    ty: ["Tāpōnē", "taːpoːneː"],  // Japan in Tahitian.
+    ty: ["Tāpōnē", "taːpoːneː"],  // Japan in Tahitian. Route by resemblance to the neighbouring forms (rar(Tiapāni) sm(Iapani)); no etymology of its own.
     ast: ["Xapón", "ʃaˈpon"],  // Japan in Asturian, spelled with x for the sh sound. Route by resemblance to the neighbouring forms (tl(Hapon) es(Japón)); no etymology of its own.
     csb: ["Japóńskô", "jaˈpwoɲskɞ"],  // Japan in Kashubian, shaped like Czech Japonsko. Route by resemblance to the neighbouring forms (cs(Japonsko) sk(Japonsko)); no etymology of its own.
     eo: ["Japanio", "japaˈnio"],  // Built from japano "a Japanese person" plus the country suffix -io; Japanujo and Nipono are also used. Route by resemblance to the neighbouring forms (fi(Japani) sm(Iapani)); no etymology of its own.
     ja_oki: ["大和", "jamatu"],  // Yamatu, the native Okinawan name for Japan, used especially for mainland Japan as opposed to Okinawa.
     fo: ["Japan", "ˈjaːpan"],  // From Danish Japan, via Dutch and Malay, ultimately Hokkien Ji̍t-pún.
     alt: ["Јопон", "joˈpon"],  // Japan in Altai. Route by resemblance to the neighbouring forms (fa(ژاپن) hu(Japán)); no etymology of its own.
-    mi: ["Hapani", "hapani"],  // A loanword for Japan in Māori; Tiapana and Nipono are also used. Route by resemblance to the neighbouring forms (fi(Japani) sm(Iapani)); no etymology of its own.
+    mi: ["Hapani", "hapani"],  // A loanword for Japan in Māori; Tiapana and Nipono are also used. Route by resemblance to the neighbouring forms (fi(Japani) sm(Iapani)).
     nrf: ["Japon", "ʒapɔ̃"],  // Borrowed from French Japon.
     ja_rys: ["大和", "jamatu"],  // Yamatu, the native Ryukyuan name for Japan, cognate with Japanese Yamato.
     rm: ["Giapun", "dʒaˈpun"],  // Japan in Romansh. Route by resemblance to the neighbouring forms (hi europe bn europe); no etymology of its own.
     haw: ["Iāpana", "iaːpana"],  // Japan in Hawaiian. Route by resemblance to the neighbouring forms (lv(Japāna) de(Japan)); no etymology of its own.
-    pau: ["Siabal", "siabal"],  // Japan in Palauan.
+    pau: ["Siabal", "siabal"],  // Japan in Palauan. Route by resemblance to the neighbouring forms (yap(Sapan) tpi(Siapan)); no etymology of its own.
     rar: ["Tiapāni", "tiapaːni"],  // Borrowed from English Japan.
     hsb: ["Japanska", "ˈjapanska"],  // Japan in Upper Sorbian, with the country suffix -ska. Route by resemblance to the neighbouring forms (cs(Japonsko) sk(Japonsko)); no etymology of its own.
     an: ["Chapón", "tʃaˈpon"],  // Japan in Aragonese. Route by resemblance to the neighbouring forms (hy(Ճապոնիա)); no etymology of its own.
@@ -773,15 +773,15 @@ WORDS.japan = {
     hak_hl: ["日本", "ŋit˥ pun˨˦"],  // Literally 'sun origin'; Hailu Hakka Ngit-bún, with 本 on the rising tone where Sixian has a falling one.
     zh_hf: ["日本", "ʐəʔ˦ pən˨˦"],  // Literally 'sun origin'; Hefei keeps 日 as a checked (glottal-stop) syllable.
     zh_jiao: ["日本", "i˦˨ pə̃˥˥"],  // Literally 'sun origin'; same word as Standard Mandarin.
-    bbc: ["Japang", "dʒapaŋ"],  // Japang is the title of the Toba Batak Wikipedia article on Japan, which gives Indonesian Jepang beside it.
-    mak: ["Japang", "dʒaˈpaŋ"],  // Japang in the Makassarese Wikipedia (Incubator), whose article title writes Japàng with the accent marking final stress; Nippong is given as an alternative.
+    bbc: ["Japang", "dʒapaŋ"],  // Japang is the title of the Toba Batak Wikipedia article on Japan, which gives Indonesian Jepang beside it. Route by resemblance to the neighbouring forms (min(Japang) nia(Jepang)); no etymology of its own.
+    mak: ["Japang", "dʒaˈpaŋ"],  // Japang in the Makassarese Wikipedia (Incubator), whose article title writes Japàng with the accent marking final stress; Nippong is given as an alternative. Route by resemblance to the neighbouring forms (bug(Jepang) bjn(Japang)); no etymology of its own.
     tcy: ["ಜಪಾನ್", "dʒapaːn"],  // ಜಪಾನ್ is the title of the Tulu Wikipedia article on Japan, the same form as Kannada ಜಪಾನ್.
     mni: ["ꯖꯄꯥꯟ", "dʒəpan"],  // ꯖꯄꯥꯟ is the title of the Manipuri Wikipedia article on Japan, and Unicode CLDR gives the same name, জাপান, in Bengali script.
     iba: ["Jipun", "dʒipun"],  // Borrowed from Hokkien 日本 Ji̍t-pún (Wiktionary); Iban Wikipedia's article on Japan is titled Jipun.
     tsg: ["Jipun", "dʒiˈpun"],  // Borrowed from Malay Jepun, from Hokkien 日本 Ji̍t-pún (Wiktionary); also Hula' Jipun 'land of Japan'.
     mrw: ["Diyapan", "dijapan"],  // Glossed 'Japan' in the Maranao dictionary; the Japanese people are Apon, and Japan is also called inged o Apon 'country of the Apon'.
     tig: ["ጃፓን", "dʒapan"],  // Tigre Wikipedia's name for Japan, ደውለት ጃፓን 'State of Japan'.
-    gor: ["Japangi", "dʒaˈpaŋi"],  // Gorontalo Wikipedia's name for Japan; Japanese is bahasa Japangi.
+    gor: ["Japangi", "dʒaˈpaŋi"],  // Gorontalo Wikipedia's name for Japan; Japanese is bahasa Japangi. Route by resemblance to the neighbouring forms (bjn(Japang) bug(Jepang)); no etymology of its own.
     li: ["Japan", "jaˈpan"],  // Limburgish name for Japan, spelled as in Dutch; the Limburgish Wiktionary records it for the Mheer (Mofers) dialect with stress on the second syllable.
     dag: ["Japan", "dʒapan"],  // Dagbani name for Japan, the same spelling as English.
     bs: ["Japan", "ˈjapaːn"],  // Borrowed from German Japan, from Dutch, from Malay Jepang, ultimately Hokkien Ji̍t-pún (Wiktionary).
@@ -845,16 +845,16 @@ WORDS.japan = {
     mwl: ["Japon", "ʒaˈpõŋ"],  // Used with the article, l Japon, in the Mirandese Wikipedia; Mirandese -on matches Portuguese -ão (Japão).
     tao: ["Ipong", "ipoŋ"],  // Japan in Tao (Yami), as in the ILRDF dictionary's example 'nimangay ko do Ipong' (I went to Japan).
     pyu: ["Dripung", "ɖipuŋ"],  // Japan in Puyuma, glossed 'Dripung (日本)' in the ILRDF dictionary's examples.
-    jbo: ["pongu'e", "ponˈɡuhe"],  // A compound of ponjo 'Japanese' and gugde 'country'; ponjo is a cultural root made from Japanese Nippon.
+    jbo: ["pongu'e", "ponˈɡuhe"],  // A compound of ponjo 'Japanese' and gugde 'country'; ponjo is a cultural root made from Japanese Nippon (Lojban reference grammar).
     vep: ["Japonii", "ˈjaponiː"],  // Borrowed from Russian Япония (Wiktionary); the title of the Veps Wikipedia article, officially Japonijan Valdkund.
     smn: ["Jaapaan", "ˈjaːpaːn"],  // Jaapaan is the title of the Inari Sámi Wikipedia article on Japan. Route by resemblance to the neighbouring forms (de(Japan) nl(Japan) sv(Japan) sr(Јапан)); no etymology of its own.
     dsb: ["Japańska", "ˈjapaɲska"],  // Japan in Lower Sorbian, with the country suffix -ska, as given by the German-Lower Sorbian Dictionary (DNW) and Lower Sorbian Wikipedia.
     niu: ["Sapanī", "sapaniː"],  // Japan in Niuean, used in Niuean Jehovah's Witness publications (fonua Sapanī 'the country of Japan').
     yap: ["Sapan", "sapan"],  // Japan in Yapese, as written in recent Yapese Jehovah's Witness publications (older ones keep the English spelling Japan).
-    tsu: ["maaya", "maaja"],  // Tsou maaya means both Japan and the Japanese; the ILRDF dictionary example 'mi'ocu i'nʉskʉ uhne maaya' means 'I have been to Japan once'.
+    tsu: ["maaya", "maaja"],  // Tsou maaya means both Japan and the Japanese; the ILRDF dictionary example 'mi'ocu i'nʉskʉ uhne maaya' means 'I have been to Japan once'. A name of its own, unrelated to 日本 and to Japan.
     liv: ["Japān", "ˈjɑpɑːn"],  // Livonian name for Japan, listed as a place name in the Livonian–Latvian–Estonian dictionary (livonian.tech).
     ssf: ["Litpuun", "litpuun"],  // Borrowed from Taiwanese Hokkien 日本 Li̍t-pún (Wiktionary); the ILRDF Thao dictionary glosses Litpuun as 日本.
-    tlh: ["nIpon", "nɪpʰon"],  // Klingon nIpon 'Japan', made canon in the TalkNow Klingon course (2011).
+    tlh: ["nIpon", "nɪpʰon"],  // Klingon nIpon 'Japan', made canon in the TalkNow Klingon course (2011), from Japanese Nippon.
     zh_tang: ["日本", "ȵit pən"],  // 'Origin of the sun', the name Japan asked the Tang court to use in place of 倭 in 702–703 (Shoku Nihongi, Old Book of Tang).
     zh_yuan: ["日本", "ɽi pən"],  // The characters 日本 'origin of the sun' in the 中原音韻 readings.
     zh_wenyan_edu: ["日本", "jɐt˨ puːn˧˥"],  // 日本 'origin of the sun' in the Cantonese literary reading.

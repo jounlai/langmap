@@ -112,8 +112,8 @@ WORDS.jellyfish = {
     eo: "medusa",
     yi: "medusa",
     is: "other",
-    mic: "unknown",
-    pon: "unknown",
+    mic: "plain",
+    pon: "plain",
     gl: "medusa",
     es_cr: "other",
     es_ni: "other",
@@ -200,16 +200,16 @@ WORDS.jellyfish = {
     tg: "medusa",
     tk: "medusa",
     ht: "medusa",
-    lo: "unknown",
+    lo: "plain",
     ti: "unknown",
     es_ec: "other",
     es_ve: "other",
     es_uy: "other",
     es_pr: "other",
     pt_br: "other",
-    de_at: "unknown",
-    de_ch: "unknown",
-    nl_be: "unknown",
+    de_at: "other",
+    de_ch: "other",
+    nl_be: "other",
     en_au: "jelly",
     en_ie: "jelly",
     en_in: "jelly",
@@ -222,15 +222,15 @@ WORDS.jellyfish = {
     sl: "medusa",
     bs: "medusa",
     war: "plain",
-    bjn: "unknown",
-    ace: "unknown",
+    bjn: "plain",
+    ace: "plain",
     et: "medusa",
-    li: "unknown",
+    li: "other",
     mrw: "other",
     nn: "other",
     cy: "jelly",
     eu: "plain",
-    cbk: "unknown",
+    cbk: "plain",
     os: "medusa",
     mt: "other",
     oc: "medusa",
@@ -241,10 +241,10 @@ WORDS.jellyfish = {
     dtp: "plain",
     br: "jelly",
     nv: "jelly",
-    ami: "unknown",
+    ami: "plain",
     to: "plain",
     ast: "other",
-    ty: "unknown",
+    ty: "plain",
     la: "other",
     el_grc: "other",
     yue_dg: "plain",
@@ -323,7 +323,7 @@ WORDS.jellyfish = {
     sq: ["meduzë", "mɛˈduzə"],  // The same word names the mythological Medusa; kandil deti "sea lamp" is also listed. Route by resemblance to the neighbouring forms (ro(meduză) yi(מעדוזע)); no etymology of its own.
     bg: ["медуза", "mɛˈduzɐ"],  // From Latin Medusa, the meaning transferred from the Gorgon.
     hy: ["մեդուզա", "meduˈzɑ"],  // Via Russian медуза, after Medusa.
-    fi: ["meduusa", "ˈmeduːsɑ"],  // Borrowed from Swedish medusa. Route by resemblance to the neighbouring forms (it(medusa) es(medusa)); no etymology of its own.
+    fi: ["meduusa", "ˈmeduːsɑ"],  // Borrowed from Swedish medusa. Route by resemblance to the neighbouring forms (it(medusa) es(medusa)).
     sk: ["medúza", "ˈmeduːza"],  // Route by resemblance to the neighbouring forms (it(medusa) pl(meduza)); no etymology of its own.
     no: ["manet", "mɑˈneːt"],  // From Old Norse *marnæta, "sea nettle".
     ka: ["მედუზა", "meduza"],  // Route by resemblance to the neighbouring forms (it(medusa) pl(meduza)); no etymology of its own.
@@ -334,8 +334,8 @@ WORDS.jellyfish = {
     eo: ["meduzo", "meˈduzo"],  // Route by resemblance to the neighbouring forms (it(medusa) pl(meduza)); no etymology of its own.
     yi: ["מעדוזע", "mɛˈdʊzə"],  // From German, Polish or Russian, ultimately after Medusa.
     is: ["marglytta", "ˈmarklɪhta"],  // "Sea" plus glytta, thought to mean "something that glints".
-    mic: ["sasap", "sazap"],  // Cognate with Passamaquoddy-Maliseet sahsap.
-    pon: ["liht", "liːt"],  // Cognate with Mokilese lihs.
+    mic: ["sasap", "sazap"],  // Cognate with Passamaquoddy-Maliseet sahsap (Wiktionary). No image is recorded for it, so it counts as a word of its own.
+    pon: ["liht", "liːt"],  // Cognate with Mokilese lihs (Wiktionary). No image is recorded for it, so it counts as a word of its own.
     gl: ["medusa", "meˈðusa"],  // Augamar "sea water" is a native synonym. Route by resemblance to the neighbouring forms (es(medusa) el(μέδουσα)); no etymology of its own.
     es_cr: ["aguamala", "aɣwaˈmala"],  // Literally 'bad water'; the usual regional word here, beside standard medusa.
     es_ni: ["aguamala", "aɣwaˈmala"],  // Literally 'bad water'; the usual regional word here, beside standard medusa.
@@ -422,16 +422,16 @@ WORDS.jellyfish = {
     tg: ["медуза", "meˈduza"],  // Borrowed from Russian медуза, named after the Gorgon Medusa.
     tk: ["meduza", "meˈduza"],  // Borrowed from Russian медуза, named after the Gorgon Medusa.
     ht: ["mediz", "mediz"],  // From French méduse, named after the Gorgon Medusa.
-    lo: ["ແມງກະພຸນ", "mɛːŋ˧˥ ka˧˥ pʰun˧˥"],  // The same word as Thai แมงกะพรุน, with ແມງ, the prefix for small creatures; Kerr's dictionary marks ກະພຸນ as from Thai.
+    lo: ["ແມງກະພຸນ", "mɛːŋ˧˥ ka˧˥ pʰun˧˥"],  // The same word as Thai แมงกะพรุน, with ແມງ, the prefix for small creatures; Kerr's dictionary marks ກະພຸນ as from Thai. Route by resemblance to the neighbouring forms (th(แมงกะพรุน)); no etymology of its own.
     ti: ["ዓሳ ለግለግ", "ʕasa lɐɡlɐɡ"],  // Begins with ዓሳ 'fish'.
     es_ec: ["aguamala", "aɣwaˈmala"],  // Literally 'bad water'; listed as the Ecuadorian word beside standard medusa.
     es_ve: ["aguamala", "aɣwaˈmala"],  // Literally 'bad water'; listed as the Venezuelan word beside standard medusa.
     es_uy: ["aguaviva", "aɣwaˈβiβa"],  // Literally 'living water'; the Uruguayan word (also spelled agua viva), beside standard medusa.
     es_pr: ["aguaviva", "aɣwaˈβiβa"],  // Literally 'living water'; the RAE dictionary marks it for Puerto Rico, unlike the aguamala of Mexico and Cuba.
     pt_br: ["água-viva", "aɡwɐˈvivɐ"],  // Literally 'living water'; the Brazilian word, where Portugal says alforreca.
-    de_at: ["Qualle", "ˈkvalə"],  // The same word as in Germany, used by Austrian broadcaster ORF; from Low German, probably related to quellen 'to swell'.
-    de_ch: ["Qualle", "ˈkvalə"],  // The same word as in Germany, used by Swiss broadcaster SRF; from Low German, probably related to quellen 'to swell'.
-    nl_be: ["kwal", "kwɑl"],  // The same word as in the Netherlands, used by the Flanders Marine Institute; probably related to kwellen 'to well up'.
+    de_at: ["Qualle", "ˈkvalə"],  // The same word as in Germany, used by Austrian broadcaster ORF; from Low German, probably related to quellen 'to swell'. Route by resemblance to the neighbouring forms (de(Qualle)); no etymology of its own.
+    de_ch: ["Qualle", "ˈkvalə"],  // The same word as in Germany, used by Swiss broadcaster SRF; from Low German, probably related to quellen 'to swell'. Route by resemblance to the neighbouring forms (de(Qualle)); no etymology of its own.
+    nl_be: ["kwal", "kwɑl"],  // The same word as in the Netherlands, used by the Flanders Marine Institute; probably related to kwellen 'to well up'. Route by resemblance to the neighbouring forms (nl(kwal)); no etymology of its own.
     en_au: ["jellyfish", "ˈdʒelifɪʃ"],  // Jelly + fish, for its gelatinous body; it is not a fish.
     en_ie: ["jellyfish", "ˈdʒɛlifɪʃ"],  // Jelly + fish, for its gelatinous body; it is not a fish.
     en_in: ["jellyfish", "ˈdʒɛlifɪʃ"],  // Jelly + fish, for its gelatinous body; it is not a fish.
@@ -444,10 +444,10 @@ WORDS.jellyfish = {
     sl: ["meduza", "mɛˈduːza"],  // Borrowed from Italian medusa or French méduse, after the Gorgon Medusa.
     bs: ["meduza", "meˈduːza"],  // From New Latin medusa, after the Gorgon Medusa.
     war: ["bantol", "banˈtol"],  // Waray Wikipedia lists salabay, bokya, budol and bantól as names for the jellyfish; the origin is not given. No image is recorded for it, so it counts as a word of its own.
-    bjn: ["ubur-ubur", "ubur ubur"],  // A reduplication of ubur, the same word as Indonesian ubur-ubur; its origin is not given.
-    ace: ["bôbô", "bobo"],  // The Balai Bahasa Aceh dictionary also lists abô-abô; the origin is not given.
+    bjn: ["ubur-ubur", "ubur ubur"],  // A reduplication of ubur, the same word as Indonesian ubur-ubur; its origin is not given. Route by resemblance to the neighbouring forms (id(ubur-ubur)); no etymology of its own.
+    ace: ["bôbô", "bobo"],  // The Balai Bahasa Aceh dictionary also lists abô-abô; the origin is not given. No image is recorded for it, so it counts as a word of its own.
     et: ["meduus", "meˈduːs"],  // Borrowed from German Meduse, named after the Gorgon Medusa; millimallikas is the other common name.
-    li: ["kwal", "kʋal"],  // The same word as Dutch kwal and German Qualle; also used of an unpleasant person.
+    li: ["kwal", "kʋal"],  // The same word as Dutch kwal and German Qualle; also used of an unpleasant person. Route by resemblance to the neighbouring forms (nl(kwal)); no etymology of its own.
     mrw: ["kapayompayong sa ragat", "kapajompajoŋ sa raɡat"],  // Built on payong 'umbrella' plus sa ragat 'of the sea'.
     nn: ["manet", "mɑˈneːt"],  // Inherited from Old Norse *marnæta, 'sea nettle'.
     cy: ["slefren fôr", "ˈslɛvrɛn voːr"],  // Literally 'slobbery thing of the sea': slefren, from slafr 'slaver, spit', plus môr 'sea'.
@@ -463,10 +463,10 @@ WORDS.jellyfish = {
     dtp: ["bohung", "bohuŋ"],  // Glossed 'jellyfish' (Malay obor-obor) in the Kadazan dictionaries, which also list tampai; the Central Dusun form is balung. Its origin is not given. No image is recorded for it, so it counts as a word of its own.
     br: ["morgaoulenn", "morˈɡɔwlɛn"],  // Singulative of morgaoul, from mor 'sea' + kaoul, formerly 'jelly'; bloneg-mor 'sea lard' is a synonym.
     nv: ["jélii łóóʼ", "tʃélìː ɬóːʔ"],  // A calque of English jellyfish: jélii 'jelly' + łóóʼ 'fish'; it is also the title of the Navajo Wikipedia article on jellyfish (Medusozoa).
-    ami: ["fofor", "fofor"],  // The Amis word for jellyfish, glossed 水母 in both the Safolu (蔡中涵) and Poinsot (潘世光) dictionaries; its origin is not given.
+    ami: ["fofor", "fofor"],  // The Amis word for jellyfish, glossed 水母 in both the Safolu (蔡中涵) and Poinsot (潘世光) dictionaries; its origin is not given. Route by resemblance to the neighbouring forms (ckv(bubur)); no etymology of its own.
     to: ["kolukalu", "kolukalu"],  // The Tongan word for jellyfish, inherited from Proto-Polynesian *kalukalu 'jellyfish' (cf. Samoan ʔaluʔalu, Pukapuka kalukalu).
     ast: ["aguamala", "aɣwaˈmala"],  // Literally 'bad water', for the wounds its tentacles cause; it is also the title of the Asturian Wikipedia article on jellyfish, which lists marmoca as a synonym.
-    ty: ["paʻipaʻi", "paʔipaʔi"],  // The Tahitian word for jellyfish, as listed in Lemaître's Lexique du tahitien contemporain; its origin is not given there.
+    ty: ["paʻipaʻi", "paʔipaʔi"],  // The Tahitian word for jellyfish, as listed in Lemaître's Lexique du tahitien contemporain; its origin is not given there. No image is recorded for it, so it counts as a word of its own.
     la: ["pulmō marīnus", "ˈpulmoː maˈriːnus"],  // Literally 'sea lung', from pulmō 'lung'.
     el_grc: ["πλεύμων", "pleúmɔːn"],  // The 'lung': the same word as πλεύμων 'lung', used for the 'sea-lung'.
     yue_dg: ["海蜇", "fi˧˥ tʃit˧"],  // Written 海蟄 in the Dongguan source; the same word as Standard Chinese 海蜇.

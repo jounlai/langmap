@@ -124,7 +124,7 @@ WORDS.potato = {
     lo: "other",
     zu: "other",
     am: "other",
-    mg: "unknown",
+    mg: "other",
     fi: "earth",
     hu: "earth",
     el: "papa",
@@ -222,8 +222,8 @@ WORDS.potato = {
     et: "truffle",
     jam: "papa",
     se: "papa",
-    smn: "unknown",
-    sms: "unknown",
+    smn: "papa",
+    sms: "papa",
     vro: "truffle",
     as: "other",
     or: "other",
@@ -273,7 +273,7 @@ WORDS.potato = {
     mdf: "earth",
     olo: "truffle",
     vep: "truffle",
-    krc: "unknown",
+    krc: "truffle",
     ab: "truffle",
     ban: "other",
     ast: "papa",
@@ -281,7 +281,7 @@ WORDS.potato = {
     tet: "other",
     nog: "earth",
     arn: "other",
-    tzo: "unknown",
+    tzo: "other",
     agr: "papa",
     pbb: "unknown",
     ki: "unknown",
@@ -433,7 +433,7 @@ WORDS.potato = {
     yo: "other",
     ks: "other",
     bo: "unknown",
-    ig: "unknown",
+    ig: "other",
     st: "earth",
     ny: "papa",
     lg: "other",
@@ -466,7 +466,7 @@ WORDS.potato = {
     tly: "earth",
     new: "other",
     kek: "other",
-    tzh: "unknown",
+    tzh: "other",
     inh: "truffle",
     dv: "other",
     pdt: "unknown",
@@ -478,9 +478,9 @@ WORDS.potato = {
     lij: "papa",
     kaa: "truffle",
     xmf: "truffle",
-    mhr: "unknown",
+    mhr: "other",
     rcf: "earth",
-    mam: "unknown",
+    mam: "other",
     bi: "papa",
     csb: "other",
     bsk: "other",
@@ -490,11 +490,11 @@ WORDS.potato = {
     co: "earth",
     bnn: "other",
     mh: "papa",
-    cr: "unknown",
+    cr: "other",
     abq: "truffle",
-    kjb: "unknown",
+    kjb: "other",
     toj: "unknown",
-    ixl: "unknown",
+    ixl: "other",
     crs: "earth",
     mzh: "papa",
     sip: "other",
@@ -515,10 +515,10 @@ WORDS.potato = {
     jbo: "unknown",
     lkt: "other",
     chy: "other",
-    arp: "unknown",
-    pqm: "unknown",
+    arp: "other",
+    pqm: "papa",
     aqc: "other",
-    dak: "unknown",
+    dak: "other",
     tsi: "unknown",
     kwk: "unknown",
     thp: "unknown",
@@ -538,8 +538,8 @@ WORDS.potato = {
     ja_edo: "place",
     fur: "papa",
     umb: "unknown",
-    ssw: "unknown",
-    kim: "unknown",
+    ssw: "other",
+    kim: "truffle",
     osa: "other",
     djr: "papa",
     pot: "other",
@@ -557,14 +557,14 @@ WORDS.potato = {
     cng: "other",
     kac: "other",
     kmc: "other",
-    mmd: "unknown",
-    mlm: "unknown",
-    lic: "unknown",
+    mmd: "other",
+    mlm: "other",
+    lic: "other",
     grt: "other",
     twm: "unknown",
     clk: "unknown",
     nij: "other",
-    kr: "unknown",
+    kr: "other",
     rut: "truffle",
     bdk: "truffle",
     tkr: "truffle",
@@ -573,7 +573,7 @@ WORDS.potato = {
     udi: "truffle",
     kjj: "truffle",
     chb: "other",
-    srm: "unknown",
+    srm: "earth",
     mdh: "papa",
     esu: "papa",
     bew: "earth",
@@ -648,7 +648,7 @@ WORDS.potato = {
     lo: ["ມັນຝະລັ່ງ", "man˧˥ fa˧˥ laŋ˧"],  // Literally "foreign (French) root vegetable".
     zu: ["izambane", "izaˈmbaːne"],  // Also names the native "Zulu potato" (Coleus rotundifolius).
     am: ["ድንች", "ˈdɨnːɨtʃː"],  // Borrowed from Oromo dinnicha.
-    mg: ["ovy", "ˈuvi"],  // The sweet potato is a different word, vomanga.
+    mg: ["ovy", "ˈuvi"],  // Inherited from Proto-Malayo-Polynesian *qubi 'yam': the ACD lists Malagasy óvy 'generic term for yams and potatoes'. The sweet potato is a different word, vomanga.
     fi: ["peruna", "ˈperunɑ"],  // Originally "pear", short for maaperuna "earth pear"; informally pottu.
     hu: ["krumpli", "ˈkrumpli"],  // From Bavarian German Grundbirne "ground pear"; the formal word is burgonya.
     el: ["πατάτα", "paˈtata"],  // Borrowed from Spanish patata; γεώμηλο "earth apple" is rare.
@@ -746,8 +746,8 @@ WORDS.potato = {
     et: ["kartul", "ˈkɑrtul"],  // From German Kartoffel, ultimately Italian tartufolo "truffle".
     jam: ["pitieta", "pitieta"],  // From English potato.
     se: ["buđet", "ˈpuðeht"],  // Borrowed from Norwegian potet / Swedish potät; buđeita is also used.
-    smn: ["potás", "ˈpotaːs"],
-    sms: ["pååttaǩ", "ˈpɔːtːɑcç"],
+    smn: ["potás", "ˈpotaːs"],  // Route by resemblance to the neighbouring forms (sv(potatis) se(buđet)); no etymology of its own.
+    sms: ["pååttaǩ", "ˈpɔːtːɑcç"],  // Route by resemblance to the neighbouring forms (sv(potatis) se(buđet)); no etymology of its own.
     vro: ["kardohkas", "ˈkɑrdohkɑs"],  // Cognate with Estonian kartul, from German Kartoffel.
     as: ["আলু", "alu"],  // An old Sanskrit word for an edible tuber, re-used for the potato.
     or: ["ଆଳୁ", "aːɭu"],  // An old Sanskrit word for an edible tuber, re-used for the potato.
@@ -797,7 +797,7 @@ WORDS.potato = {
     mdf: ["модамарь", "ˈmodamarʲ"],  // Literally "earth apple" (мода "earth" + марь "apple"), the same word as in Erzya.
     olo: ["kartohku", "ˈkartohku"],  // From Russian картошка, ultimately from Italian tartufolo "truffle".
     vep: ["kartohk", "ˈkartohk"],  // From Russian картошка, ultimately from Italian tartufolo "truffle".
-    krc: ["гардош", "ɡarˈdoʃ"],  // Apparently an adaptation of Russian картошка.
+    krc: ["гардош", "ɡarˈdoʃ"],  // Apparently an adaptation of Russian картошка. Route by resemblance to the neighbouring forms (ru(картошка) ab(акартош)); no etymology of its own.
     ab: ["акартош", "akartoʃ"],  // Russian картошка with the Abkhaz article а-; ultimately from Italian tartufolo "truffle".
     ban: ["kentang", "kentaŋ"],  // The same word as Indonesian and Malay kentang. Route by resemblance to the neighbouring forms (id(kentang) ms(kentang)); no etymology of its own.
     ast: ["pataca", "paˈtaka"],  // From the Spanish patata / Taíno batata family; western Asturian says indina "the Indian one".
@@ -805,7 +805,7 @@ WORDS.potato = {
     tet: ["fehuk-ropa", "ˈfehuk ˈropa"],  // Literally "foreign yam"; fehuk-malae, also "foreigner's yam", is a synonym.
     nog: ["ералма", "jeralma"],  // Literally "earth apple" (ер + алма).
     arn: ["poñü", "poɲɨ"],  // A native Mapuche word (WOLD finds no evidence of borrowing); southern Chile is one of the potato's homelands.
-    tzo: ["isakʼ", "ʔisakʼ"],  // The Tzotzil word for the potato; batzʼi isakʼ "true potato" sets it apart from other tubers.
+    tzo: ["isakʼ", "ʔisakʼ"],  // Built on the Mayan sweet-potato word is (Proto-Mayan *iihs); batzʼi isakʼ 'true potato' sets it apart from other tubers.
     agr: ["papa", "papa"],  // A loan of Quechua/Spanish papa.
     pbb: ["kaʼka", "kaʔka"],  // The Nasa Yuwe word for the potato.
     ki: ["waru", "waɾu"],  // The (Irish) potato, as opposed to ngwacĩ, the sweet potato.
@@ -817,7 +817,7 @@ WORDS.potato = {
     gor: ["artape", "arˈtape"],  // Borrowed from Dutch aardappel, literally "earth apple".
     mfe: ["pomdeter", "pomdetɛʁ"],  // From French pomme de terre, literally "apple of the earth".
     quy: ["papa", "ˈpapa"],  // The Quechua word itself, the source of Spanish papa; the sweet potato is apichu.
-    tig: ["ድንሽ", "dɨnnɨʃ"],  // Borrowed from Tigrinya; a synonym is በጣጢስ (bäṭaṭis). Route by resemblance to the neighbouring forms (ti(ድንሽ)); no etymology of its own.
+    tig: ["ድንሽ", "dɨnnɨʃ"],  // Borrowed from Tigrinya; a synonym is በጣጢስ (bäṭaṭis). Route by resemblance to the neighbouring forms (ti(ድንሽ)).
     nrf_gg: ["patate", "patat"],  // From French patate, ultimately Spanish patata and Taíno batata.
     fra_jer: ["patate", "patat"],  // From French patate, ultimately Spanish patata and Taíno batata.
     gsw_als: ["Grumbeer", "krʊmber"],  // Literally "ground pear" (alternative form Grundbeer).
@@ -957,7 +957,7 @@ WORDS.potato = {
     yo: ["ọ̀dùnkún", "ɔ̀dũ̀kṹ"],  // Borrowed from Hausa kūdaku "sweet potato"; the same word covers the sweet potato, and ànàmọ́ is a synonym.
     ks: ["اولُو", "oːluv"],  // From Sanskrit ālu, an edible root (CDIAL 1388); the plural olav gives the dish dum olav.
     bo: ["ཞོ་ཁོག", "ɕo˩˧ kʰoʔ˥˧"],  // Also spelt ཞོག་ཁོག / ཞོག་གོག.
-    ig: ["nduku", "nduku"],  // The sweet potato is a different word, èkòmékò.
+    ig: ["nduku", "nduku"],  // The sweet potato is a different word, èkòmékò. Route by resemblance to the neighbouring forms (yo(ọ̀dùnkún)); no etymology of its own.
     st: ["tapole", "tapole"],  // Plural litapole. Route by resemblance to the neighbouring forms (Northern Sotho tapola); no etymology of its own.
     ny: ["mbatatesi", "mbatatesi"],  // The sweet potato is mbatata; kachere is another name for the potato. Route by resemblance to the neighbouring forms (Shona mbatatisi, Egyptian Arabic بطاطس); no etymology of its own.
     lg: ["akammonde", "akamːoːnde"],  // Built on the stem of lumonde "sweet potato" with the ka- prefix of small things; usually heard in the plural obummonde.
@@ -973,7 +973,7 @@ WORDS.potato = {
     bug: ["lame-lame", "lamelame"],  // A reduplication of lame, the native word for a tuber such as cassava or yam.
     czh: ["马铃芋", "muːə˨˦ lɛ˦˦ y˨˦"],  // Literally "horse-bell taro", the Tunxi form of the 马铃薯 "horse-bell tuber" name; Jixi and Shexian say 洋芋 "foreign taro" instead.
     rhg: ["alu", "alu"],  // From Sanskrit ālu, an old word for an edible root that passed to the potato, as in Hindi and Bengali ālu.
-    kbd: ["кӏэртӏоф", "tʃʼartʼawf"],  // A loan of Russian картофель, ultimately from Italian tartufolo 'truffle'. Route by resemblance to the neighbouring forms (Russian картофель, Chechen картол); no etymology of its own.
+    kbd: ["кӏэртӏоф", "tʃʼartʼawf"],  // A loan of Russian картофель, ultimately from Italian tartufolo 'truffle'. Route by resemblance to the neighbouring forms (Russian картофель, Chechen картол).
     shy: ["baṭaṭa", "batˤatˤa"],  // The batata word shared with Algerian Arabic and Kabyle lbaṭaṭa, which goes back through Spanish to Taíno batata. Route by resemblance to the neighbouring forms (Kabyle lbaṭaṭa, Moroccan Arabic baṭāṭa); no etymology of its own.
     tyz: ["mằn fan", "man˧˨ faːn˧˧"],  // Built on mằn, the Tày cover word for a tuber; the sweet potato is mằn bủng.
     li: ["aerpel", "ɛːrpəl"],  // A contraction of eer(ap)pel 'earth apple', the same compound as Dutch aardappel; kartoffel is a younger synonym.
@@ -990,7 +990,7 @@ WORDS.potato = {
     tly: ["büməsef", "byməsef"],  // Literally "earth apple" (büm "earth, soil" + sef "apple"), probably a calque of Azerbaijani yer alması; kərtof and yeralmə are synonyms.
     new: ["आलु", "aːlu"],  // The South Asian potato word, from Sanskrit ālu, an edible root; the sweet potato is a different word, चाकुहि.
     kek: ["kaxlan is", "kaʃlan is"],  // Literally "Castilian sweet potato": kaxlan "Spanish, foreign" (from castellano) plus the native Mayan word is "sweet potato"; the Spanish loan paaps is also used.
-    tzh: ["isʼakʼ", "isʔakʼ"],  // The Tseltal word for the potato, segmented is + ʼakʼ in the multidialectal dictionary; some villages instead use chiʼin, which elsewhere means the sweet potato.
+    tzh: ["isʼakʼ", "isʔakʼ"],  // Segmented is + ʼakʼ in the multidialectal dictionary, built on the Mayan sweet-potato word is (Proto-Mayan *iihs); some villages instead use chiʼin, which elsewhere means the sweet potato.
     inh: ["коартол", "kɔ̯artol"],  // Borrowed from Russian картофель (ultimately Italian tartufolo "truffle"), like Chechen картол.
     dv: ["އަލުވި", "aluʋi"],  // Inherited from Sanskrit ālu, the same tuber word as Hindi आलू; cognate with Sinhala අල ala 'tuber'.
     pdt: ["Ieedschock", "ˈiːtʃɔk"],  // A compound built on Ieed 'ground, earth'; the meaning of the second element Schock is not given in the source.
@@ -1002,9 +1002,9 @@ WORDS.potato = {
     lij: ["patàtta", "paˈtatta"],  // From Spanish patata, the Quechua papa blended with Taíno batata; Monaco says patata and Novi patòta.
     kaa: ["kartoshka", "karˈtoʃka"],  // Borrowed from Russian картошка, which goes back through German Kartoffel to Italian tartufolo "truffle".
     xmf: ["კარტოფილი", "kʼartʼopʰili"],  // The same word as Georgian კარტოფილი, borrowed from Russian картофель, ultimately Italian tartufolo "truffle".
-    mhr: ["пареҥге", "pareŋɡe"],  // The everyday Meadow Mari word; tamle pareŋge "sweet potato" is built on it.
+    mhr: ["пареҥге", "pareŋɡe"],  // The everyday Meadow Mari word; tamle pareŋge 'sweet potato' is built on it. Route by resemblance to the neighbouring forms (tt(бәрәңге) ba(бәрәңге)); no etymology of its own.
     rcf: ["pom de tèr", "pɔm də tɛr"],  // From French pomme de terre, literally "apple of the earth".
-    mam: ["is", "is"],  // The Mam word for the potato; the sweet potato is saq is "white is" or xkamot.
+    mam: ["is", "is"],  // The Mayan sweet-potato word is (Proto-Mayan *iihs), carried over to the potato; the sweet potato itself is saq is 'white is' or xkamot.
     bi: ["poteto", "poteto"],  // From English potato; the sweet potato is kumala.
     csb: ["bùlwa", "ˈbwulva"],  // Borrowed from Polish bulwa "tuber".
     bsk: ["aaluu", "aːluː"],  // Borrowed from Urdu ālū, the South Asian word for the potato.
@@ -1014,11 +1014,11 @@ WORDS.potato = {
     co: ["pomu", "ˈpomu"],  // The Corsican Wikipedia article on the plant is titled U pomu; the plural is poma. Pomu 'apple', short for an 'apple of the earth' as in French pomme de terre.
     bnn: ["utan", "utan"],  // The Bunun tuber word: the ILRDF dictionary glosses utan as sweet potato and potato alike (甘薯；地瓜；馬鈴薯).
     mh: ["piteto", "pʲitˠɛjtˠɛw"],  // Borrowed from English potato; the same word also covers the sweet potato.
-    cr: ["ᐊᐢᑭᑇᐏ", "askipwaːwi"],  // Plains Cree askipwâwi, glossed 'potato, wild potato' by Wolvengrey's Cree: Words and 'potato' by the Alberta Elders' Cree Dictionary; napatâk is also listed for potato.
+    cr: ["ᐊᐢᑭᑇᐏ", "askipwaːwi"],  // Plains Cree askipwâwi, glossed 'potato, wild potato' by Wolvengrey's Cree: Words and 'potato' by the Alberta Elders' Cree Dictionary; napatâk is also listed for potato. Route by resemblance to the neighbouring forms (crk(ᐊᐢᑭᑇᐏ)); no etymology of its own.
     abq: ["кӏартӏоф", "kʼartʼof"],  // A loan of Russian картофель, ultimately from Italian tartufolo 'truffle' (the dictionary prints the palochka as I).
-    kjb: ["is", "is"],  // The Q'anjob'al word for the potato, glossed 'papa' by the Mayan Languages Academy vocabulary.
+    kjb: ["is", "is"],  // The Mayan sweet-potato word is (Proto-Mayan *iihs), glossed 'papa' by the Mayan Languages Academy vocabulary.
     toj: ["kamutiyo", "kamutijo"],  // Glossed 'papa' (potato) by the Tojol-ab'al vocabulary, also spelt kamotiyo; the sweet potato is isak'.
-    ixl: ["is", "is"],  // The Ixil word for the potato; the sweet potato is kaq is 'red is' (Chajul dictionary).
+    ixl: ["is", "is"],  // The Mayan sweet-potato word is (Proto-Mayan *iihs), carried over to the potato; the sweet potato is kaq is 'red is' (Chajul dictionary).
     crs: ["ponmdeter", "pɔ̃mdetɛr"],  // From French pomme de terre, literally 'apple of the earth'; patat is the sweet potato.
     mzh: ["papa", "papa"],  // Borrowed from Spanish papa.
     sip: ["ཨ་ལུ་ཀེའུ", "alukiu"],  // Literally 'alu-root': Nepali alu 'potato' plus the Denjongke word for root (Yliniemi 2021).
@@ -1039,10 +1039,10 @@ WORDS.potato = {
     jbo: ["patlu", "ˈpatlu"],  // A root word (gismu) of Lojban: 'x1 is a potato of variety x2'.
     lkt: ["bló", "bló"],  // An inherited Siouan word that historically named the wild Indian potato (groundnut) before the potato.
     chy: ["mésėhestȯtse", "mésehestotse"],  // Sounds the same as mésėhestȯtse 'food', literally 'eating thing'; some speakers say aéstomemésėhestȯtse instead.
-    arp: ["ceeʼééʼ", "tʃeːʔéːʔ"],  // Plural ceeʼeiʼi; an Arapaho text uses the same word for wild potatoes dug for food.
-    pqm: ["pocetes", "potʃetes"],  // The dictionary suggests it is perhaps from English potato; the Indian potato (groundnut) is skicinuwi-pocetes or ktahkitom.
+    arp: ["ceeʼééʼ", "tʃeːʔéːʔ"],  // Plural ceeʼeiʼi; an Arapaho text uses the same word for wild potatoes dug for food, a native tuber word carried over to the potato.
+    pqm: ["pocetes", "potʃetes"],  // The dictionary suggests it is perhaps from English potato; the Indian potato (groundnut) is skicinuwi-pocetes or ktahkitom. Route by resemblance to the neighbouring forms (en_ca(potato)).
     aqc: ["хъӏвиб", "qˤʷib"],  // The word first names the tuber of the native chervil (Chaerophyllum); the full form оӏроӏс хъӏвиб means 'Russian chervil'.
-    dak: ["bdo", "bdo"],  // The Dakota word for the potato, as in bdo yupaŋpi 'mashed potatoes'; Riggs also records mdo, and Lakota says blo.
+    dak: ["bdo", "bdo"],  // The Dakota word for the potato, as in bdo yupaŋpi 'mashed potatoes'; Riggs also records mdo, and Lakota says blo. Route by resemblance to the neighbouring forms (lkt(bló)); no etymology of its own.
     tsi: ["sgusiit", "sɡusiːt"],  // The Sm'algyax word for potatoes, as in 'Dm dzemu sgusiit dm ga̱bm' (I'm going to boil potatoes for us to eat); a second recorded sentence is 'Heelda 'wa'na̱m siguusiidm' (we planted lots of potatoes).
     kwk: ["kwuʼsi", "kʷuʔsi"],  // The Kwak'wala word for potatoes; kwu'sila is 'cooking potatoes', and neighbouring Heiltsuk says gwu'si.
     thp: ["pəték", "pətek"],  // The Thompson word for the potato, distinct from tetúwn̓ 'Indian potato', the wild tuber.
@@ -1062,8 +1062,8 @@ WORDS.potato = {
     ja_edo: ["ジャガタライモ", "dʑaɡataɾaimo"],  // 'Jagatara (Jakarta) tuber': the potato reached Nagasaki from Jakarta in the late 16th century; Butsuhin shikimei (1809) has ジャガタライモ 馬鈴薯.
     fur: ["patate", "paˈtate"],  // Friulian patate 'potato'; IPA from the row's spelling rules (penultimate stress, as cjocolate /cokoˈlate/).
     umb: ["ekapa", "ekapa"],  // The Umbundu word for the potato.
-    ssw: ["lizambane", "lizambane"],  // The Swazi word for the potato (tones lízámbane); it also means a sock with a hole.
-    kim: ["һортооӄа", "hortoːqa"],  // Tofa, glossed «картофель» in Rassadin's dictionary.
+    ssw: ["lizambane", "lizambane"],  // The Swazi word for the potato (tones lízámbane); it also means a sock with a hole. Route by resemblance to the neighbouring forms (zu(izambane)); no etymology of its own.
+    kim: ["һортооӄа", "hortoːqa"],  // Tofa, glossed «картофель» in Rassadin's dictionary. Route by resemblance to the neighbouring forms (sah(хортуоппуй) tyv(картофель)); no etymology of its own.
     osa: ["tóoska", "tóːska"],  // White or Irish potato.
     djr: ["bitata", "bitata"],  // From English potato; European potato.
     pot: ["pen", "pən"],
@@ -1081,14 +1081,14 @@ WORDS.potato = {
     cng: ["jajuŋ", "jajuŋ"],  // Sun 1991 (Mawo Qiang) jajuŋ. Resembles Chinese 洋芋. Surface and tone letters follow the row's pattern.
     kac: ["yangyi", "jaŋ˧˩ji˥˥"],  // Sun 1991 (Jingpho) jaŋ³¹ji⁵⁵. Resembles Chinese 洋芋. Latin spelling follows the row's pairs.
     kmc: ["jaŋ212 jui55", "jaŋ˨˩˨ jui˥˥"],  // IDS Southern Kam, the row's list (48 of 76 cells match): jaŋ.212 jui.55, beside mân.212. Resembles Chinese 洋芋.
-    mmd: ["la:ʔ8 man3", "laːʔ˨˦ man˥˩"],  // IDS Maonan la:ʔ.8 man.3. Tone letters from the row's pairs.
-    mlm: ["man2", "man˩˨˩"],  // IDS Mulam man.2, the row's list. Tone letters from the row's pairs.
-    lic: ["man1", "man˥˧"],  // IDS Hlai (Baoting) man.1. Tone letters from the row's pairs.
+    mmd: ["la:ʔ8 man3", "laːʔ˨˦ man˥˩"],  // IDS Maonan la:ʔ.8 man.3. Tone letters from the row's pairs. Built on man, the Kam-Tai word for a tuber. Route by resemblance to the neighbouring forms (tyz(mằn fan) th(มันฝรั่ง)); no etymology of its own.
+    mlm: ["man2", "man˩˨˩"],  // IDS Mulam man.2, the row's list. Tone letters from the row's pairs. The Kam-Tai word for a tuber. Route by resemblance to the neighbouring forms (tyz(mằn fan) th(มันฝรั่ง)); no etymology of its own.
+    lic: ["man1", "man˥˧"],  // IDS Hlai (Baoting) man.1. Tone letters from the row's pairs. The Kam-Tai word for a tuber. Route by resemblance to the neighbouring forms (tyz(mằn fan) th(มันฝรั่ง)); no etymology of its own.
     grt: ["alu", "alu"],  // 1905: "Potato, n. Alu"
     twm: ["che53", "che˥˧"],  // Sun 1991 (Mama Tshona) che⁵³, the row's list. Tone letters from the row's pairs.
     clk: ["gɯ55lu35", "ɡɯ˥˥lu˧˥"],  // Sun 1991 (Idu) gɯ⁵⁵lu³⁵, the row's list. Tone letters from the row's pairs.
     nij: ["kentang", "kəntaŋ"],  // Hardeland: "KANTANG, kentang, Kartoffeln (wachsen auf Borneo nicht)"; both scans
-    kr: ["kunduwu", "kunduwu"],  // WOLD Kanuri kùndúwù, the row's list (71 of 73). Tone marks left out as the row does.
+    kr: ["kunduwu", "kunduwu"],  // Borrowed from Hausa kūdaku 'sweet potato' (Wiktionary), like Yoruba ọ̀dùnkún. WOLD Kanuri kùndúwù, the row's list (71 of 73); tone marks left out as the row does.
     rut: ["картышка", "kartɨʃka"],  // IDS Rutul картышка, the row's list (59 of 70). Russian loan, route as lez, av, ce. Palochka and IPA from the row's pairs.
     bdk: ["кьартӏушкке", "qʼartʼuʃkːe"],  // IDS Budukh, the row's list. Route as its neighbours. Palochka and IPA from the row's pairs.
     tkr: ["кӏартӏуф", "kʼartʼuf"],  // IDS Tsakhur, the row's list. Route as its neighbours. Palochka and IPA from the row's pairs.
@@ -1097,7 +1097,7 @@ WORDS.potato = {
     udi: ["кӏартӏопӏи", "kʼartʼopʼi"],  // IDS Udi, the row's list. Route as its neighbours. Palochka and IPA from the row's pairs.
     kjj: ["картышкка", "kʰartʰɨʃkːa"],  // IDS Khinalug, the row's list. Route as its neighbours. Palochka and IPA from the row's pairs.
     chb: ["iomza", "iomsa"],  // Uricoechea: "Papa, turma de tierra, iomza : iomuy"; two scans; IPA z as s is my reading
-    srm: ["pomtë́", "pomtë́"],  // WOLD Saramaccan, the list this row matches. Tie bars removed and spaces restored, as the row.
+    srm: ["pomtë́", "pomtë́"],  // WOLD Saramaccan, the list this row matches. Tie bars removed and spaces restored, as the row. Route by resemblance to the neighbouring forms (gcr(ponmtè)); no etymology of its own.
     mdh: ["patatas", "patatas"],  // Maguindanao patatas 'potato' (SEAlang), the Spanish word.
     esu: ["patitussaaq", "patitusaːq"],  // Borrowed from English potatoes; kantuuvvilaq, from Russian картофель, is also used.
     bew: ["artapel", "artapəl"],  // Borrowed from Dutch aardappel, literally 'earth apple'.

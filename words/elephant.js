@@ -110,7 +110,7 @@ WORDS.elephant = {
     ceb: "elephas",
     cgg: "bantu",
     ckb: "pil",
-    cng: "unknown",
+    cng: "other",
     co: "elephas",
     crh: "pil",
     cs: "slon",
@@ -554,7 +554,7 @@ WORDS.elephant = {
     ceb: ["elepante", "ʔeleˈpante"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
     cgg: ["enjojo", "enjojo"],  // An old Bantu word (Proto-Bantu *njògù or *ntémbó).
     ckb: ["فیل", "fiːl"],  // From Persian pīl (ultimately Akkadian pīru), often through Arabic fīl.
-    cng: ["ʁlɑŋ bu tɕi", "ʁlɑŋ bu tɕi"],
+    cng: ["ʁlɑŋ bu tɕi", "ʁlɑŋ bu tɕi"],  // Route by resemblance to the neighbouring forms (xct(གླང་པོ་ཆེ)); no etymology of its own.
     co: ["elefante", "eleˈfante"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
     crh: ["pil", "pil"],  // From Persian pīl (ultimately Akkadian pīru), often through Arabic fīl.
     cs: ["slon", "slon"],  // Slavic slon.

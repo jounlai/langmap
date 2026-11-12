@@ -225,7 +225,7 @@ WORDS.shootingstar = {
     am: "moving",
     da: "moving",
     no: "moving",
-    hy: "unknown",
+    hy: "plain",
     hil: "plain",
     hr: "falling",
     sr: "falling",
@@ -506,7 +506,7 @@ WORDS.shootingstar = {
     am: ["ተወርዋሪ ኮከብ", "təwərwari kokəb"],  // Literally 'hurled star', from ወረወረ 'to throw'; Amharic Wikipedia uses the same adjective for thrown grenades and flying discs.
     da: ["stjerneskud", "ˈsdjɛɐ̯nəˌsɡuð"],  // Literally 'star-shot', from stjerne 'star' + skud 'shot'; meteor is the scientific word.
     no: ["stjerneskudd", "ˈstjæːɳəˌskʉdː"],  // Literally 'star-shot', from stjerne 'star' + skudd 'shot'; Norwegian Wikipedia calls it the popular name for a meteor.
-    hy: ["ասուպ", "ɑˈsup"],  // The Armenian word for a meteor; the sources disagree on its origin.
+    hy: ["ասուպ", "ɑˈsup"],  // The Armenian word for a meteor, a learned borrowing that Wiktionary traces through Medieval Latin asub to Arabic ʔašhub, the plural of šihāb 'meteor', the word Persian also borrowed. Route by resemblance to the neighbouring forms (hyw(ասուպ) fa(شهاب)).
     hil: ["bulalakaw", "bulaˈlakaw"],  // Inherited from a Proto-Philippine word for a shooting star or a kind of spirit; it also names a Visayan deity pictured as a shining bird.
     hr: ["zvijezda padalica", "zʋijěːzda pâdalitsa"],  // Literally 'falling star', padalica being 'something that falls'.
     sr: ["звезда падалица", "zʋěːzda pâdalitsa"],  // Literally 'falling star'; Serbian Wikipedia says this is the folk name for meteors.

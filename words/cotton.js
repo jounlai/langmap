@@ -70,13 +70,13 @@ WORDS.cotton = {
     aa: "plain",
     acw: "qutn",
     afb: "qutn",
-    agx: "unknown",
+    agx: "pambak",
     aii: "qutn",
     ar: "qutn",
     as: "karpasa",
     ast: "qutn",
-    av: "unknown",
-    bdk: "unknown",
+    av: "pambak",
+    bdk: "pambak",
     be: "treewool",
     bg: "pambak",
     bm: "plain",
@@ -85,7 +85,7 @@ WORDS.cotton = {
     ca: "qutn",
     car: "plain",
     cbk: "qutn",
-    ce: "unknown",
+    ce: "pambak",
     ceb: "karpasa",
     cho: "plain",
     ckb: "plain",
@@ -94,12 +94,12 @@ WORDS.cotton = {
     crh: "pambak",
     crt: "plain",
     cs: "treewool",
-    csb: "unknown",
-    cv: "unknown",
+    csb: "treewool",
+    cv: "pambak",
     cy: "qutn",
     da: "treewool",
     de: "treewool",
-    dsb: "unknown",
+    dsb: "treewool",
     dv: "karpasa",
     egl: "qutn",
     el: "pambak",
@@ -120,7 +120,7 @@ WORDS.cotton = {
     hy: "pambak",
     id: "karpasa",
     ilo: "karpasa",
-    io: "unknown",
+    io: "qutn",
     is: "treewool",
     it: "qutn",
     ja: "other",
@@ -132,7 +132,7 @@ WORDS.cotton = {
     ko: "other",
     kpj: "plain",
     ku: "pambak",
-    lb: "unknown",
+    lb: "qutn",
     lo: "plain",
     lus: "plain",
     lv: "treewool",
@@ -155,7 +155,7 @@ WORDS.cotton = {
     nl: "qutn",
     nmf: "plain",
     nzm: "plain",
-    olo: "unknown",
+    olo: "treewool",
     or: "karpasa",
     os: "pambak",
     osp: "qutn",
@@ -177,12 +177,12 @@ WORDS.cotton = {
     slr: "plain",
     sq: "pambak",
     ssw: "qutn",
-    sv: "unknown",
+    sv: "treewool",
     sw: "pambak",
     szl: "treewool",
     ta: "plain",
     te: "plain",
-    tet: "unknown",
+    tet: "karpasa",
     tg: "plain",
     th: "plain",
     tl: "plain",
@@ -198,7 +198,7 @@ WORDS.cotton = {
     uk: "treewool",
     ur: "karpasa",
     vec: "plain",
-    vep: "unknown",
+    vep: "treewool",
     vi: "other",
     vot: "treewool",
     war: "karpasa",
@@ -347,13 +347,13 @@ WORDS.cotton = {
     aa: ["tuut", "tuːt"],
     acw: ["قطن", "ɡutˤun"],  // From Arabic qutn.
     afb: ["قطن", "ˈɡɪtˤɪn"],  // From Arabic qutn.
-    agx: ["бамбег", "bambeɡ"],
+    agx: ["бамбег", "bambeɡ"],  // Route by resemblance to the neighbouring forms (udi(памбакӏ) os(бӕмбӕг)); no etymology of its own.
     aii: ["ܟܬܢܐ", "kɪtˈtɑːnɑː"],  // From Arabic qutn.
     ar: ["قطن", "qutˤn"],  // From Arabic qutn.
     as: ["কপাহ", "kɔpɑɦ"],  // From Sanskrit karpāsa.
     ast: ["algodón", "alɣoˈdon"],  // From Arabic qutn.
-    av: ["пампа", "pampa"],
-    bdk: ["помбу", "pombu"],
+    av: ["пампа", "pampa"],  // Route by resemblance to the neighbouring forms (udi(памбакӏ) ka(ბამბა)); no etymology of its own.
+    bdk: ["помбу", "pombu"],  // Route by resemblance to the neighbouring forms (udi(памбакӏ) az(pambıq)); no etymology of its own.
     be: ["бавоўна", "baˈvou̯na"],  // Literally 'tree wool', or borrowed from such a word.
     bg: ["памук", "pɐˈmuk"],  // From Persian pambak (panbe).
     bm: ["kɔɔri", "kɔɔri"],
@@ -362,7 +362,7 @@ WORDS.cotton = {
     ca: ["cotó", "kuˈtu"],  // From Arabic qutn.
     car: ["mauru", "mauɾu"],
     cbk: ["algodon", "alɡoˈdon"],  // From Arabic qutn.
-    ce: ["бамба", "ˈbamba"],
+    ce: ["бамба", "ˈbamba"],  // Borrowed from Georgian ბამბა (Wiktionary).
     ceb: ["gapas", "ˈɡapas"],  // From Sanskrit karpāsa.
     cho: ["pokpo", "pokpo"],
     ckb: ["لۆکە", "loka"],
@@ -371,12 +371,12 @@ WORDS.cotton = {
     crh: ["pamuq", "pamuq"],  // From Persian pambak (panbe).
     crt: ["walek", "walek"],
     cs: ["bavlna", "ˈbavlna"],  // Literally 'tree wool', or borrowed from such a word.
-    csb: ["bawôłna", "baˈvɞwna"],
-    cv: ["мамӑк", "mamək"],
+    csb: ["bawôłna", "baˈvɞwna"],  // Borrowed from Polish bawełna (Wiktionary).
+    cv: ["мамӑк", "mamək"],  // Route by resemblance to the neighbouring forms (ba(мамыҡ) tr(pamuk)); no etymology of its own.
     cy: ["cotwm", "ˈkɔtʊm"],  // From Arabic qutn.
     da: ["bomuld", "ˈb̥ʌˌmulˀ"],  // Literally 'tree wool', or borrowed from such a word.
     de: ["Baumwolle", "ˈbaʊ̯mˌvɔlə"],  // Literally 'tree wool', or borrowed from such a word.
-    dsb: ["bałma", "bawma"],
+    dsb: ["bałma", "bawma"],  // Route by resemblance to the neighbouring forms (cs(bavlna) pl(bawełna) de(Baumwolle)); no etymology of its own.
     dv: ["ކަފަ", "kafa"],  // From Sanskrit karpāsa.
     egl: ["cutån", "kuˈtʌŋ"],  // From Arabic qutn.
     el: ["βαμβάκι", "vamˈvaci"],  // From Persian pambak (panbe).
@@ -397,7 +397,7 @@ WORDS.cotton = {
     hy: ["բամբակ", "bɑmˈbɑk"],  // From Persian pambak (panbe).
     id: ["kapas", "ˈkapas"],  // From Sanskrit karpāsa.
     ilo: ["kapas", "ˈkapas"],  // From Sanskrit karpāsa.
-    io: ["kotono", "kotono"],
+    io: ["kotono", "kotono"],  // Route by resemblance to the neighbouring forms (eo(kotono) fr(coton)); no etymology of its own.
     is: ["baðmull", "ˈpaðmʏtl̥"],  // Literally 'tree wool', or borrowed from such a word.
     it: ["cotone", "koˈtone"],  // From Arabic qutn.
     ja: ["綿", "wata"],  // From Chinese 棉 or another word for floss.
@@ -409,7 +409,7 @@ WORDS.cotton = {
     ko: ["면화", "mjʌnhwa"],  // From Chinese 棉 or another word for floss.
     kpj: ["esõde", "esõde"],
     ku: ["pembû", "pɛmˈbuː"],  // From Persian pambak (panbe).
-    lb: ["Kotteng", "ˈkoteŋ"],
+    lb: ["Kotteng", "ˈkoteŋ"],  // Route by resemblance to the neighbouring forms (fr_lu(coton) fr(coton)); no etymology of its own.
     lo: ["ຝ້າຍ", "faːj˧˩"],
     lus: ["la", "la"],
     lv: ["kokvilna", "kɔkvilna"],  // Literally 'tree wool', or borrowed from such a word.
@@ -432,7 +432,7 @@ WORDS.cotton = {
     nl: ["katoen", "kaːˈtun"],  // From Arabic qutn.
     nmf: ["vat", "vat"],
     nzm: ["kelang", "kelanɡ"],
-    olo: ["puuvillu", "ˈpuuvillu"],
+    olo: ["puuvillu", "ˈpuuvillu"],  // Route by resemblance to the neighbouring forms (fi(puuvilla) vot(puuvillõ)); no etymology of its own.
     or: ["କପା", "kɔpa"],  // From Sanskrit karpāsa.
     os: ["бӕмбӕг", "bæmbæɡ"],  // From Persian pambak (panbe).
     osp: ["algodon", "alɡoˈdon"],  // From Arabic qutn.
@@ -454,12 +454,12 @@ WORDS.cotton = {
     slr: ["çiyik", "tɕijix"],
     sq: ["pambuk", "pamˈbuk"],  // From Persian pambak (panbe).
     ssw: ["kotini", "kotini"],  // From Arabic qutn.
-    sv: ["bomull", "ˈbuːmɵlː"],
+    sv: ["bomull", "ˈbuːmɵlː"],  // Route by resemblance to the neighbouring forms (nn(bomull) da(bomuld)); no etymology of its own.
     sw: ["pamba", "ˈpamba"],  // From Persian pambak (panbe).
     szl: ["bawołna", "baˈvɔwna"],  // Literally 'tree wool', or borrowed from such a word.
     ta: ["பருத்தி", "pɐɾʊt̪ːiː"],
     te: ["ప్రత్తి", "pɾat̪ːi"],
-    tet: ["kabas", "kabas"],
+    tet: ["kabas", "kabas"],  // Route by resemblance to the neighbouring forms (id(kapas) jv(kapas)); no etymology of its own.
     tg: ["пахта", "paxta"],
     th: ["ฝ้าย", "faːj˥˩"],
     tl: ["bulak", "ˈbulak"],
@@ -475,7 +475,7 @@ WORDS.cotton = {
     uk: ["бавовна", "bɐˈwɔu̯nɐ"],  // Literally 'tree wool', or borrowed from such a word.
     ur: ["کپاس", "kəpɑːs"],  // From Sanskrit karpāsa.
     vec: ["bombàxo", "bombazo"],
-    vep: ["puvill", "puvill"],
+    vep: ["puvill", "puvill"],  // Route by resemblance to the neighbouring forms (fi(puuvilla) vot(puuvillõ)); no etymology of its own.
     vi: ["bông", "ɓəwŋ˧"],
     vot: ["puuvillõ", "ˈpuːˌvilːɑ"],  // Literally 'tree wool', or borrowed from such a word.
     war: ["gapas", "ɡapas"],  // From Sanskrit karpāsa.

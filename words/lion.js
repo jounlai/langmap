@@ -113,7 +113,7 @@ WORDS.lion = {
     en: "leo",
     eo: "leo",
     es: "leo",
-    et: "unknown",
+    et: "leo",
     ett: "leo",
     eu: "leo",
     fa: "shir",
@@ -137,7 +137,7 @@ WORDS.lion = {
     id: "simha",
     inh: "plain",
     io: "leo",
-    is: "unknown",
+    is: "leo",
     iso: "plain",
     it: "leo",
     ja: "leo",
@@ -150,7 +150,7 @@ WORDS.lion = {
     ko: "shi",
     kok: "simha",
     kqn: "plain",
-    ks: "unknown",
+    ks: "simha",
     ksb: "plain",
     ku: "shir",
     kum: "arslan",
@@ -166,7 +166,7 @@ WORDS.lion = {
     loz: "plain",
     lt: "other",
     lv: "leo",
-    mg: "unknown",
+    mg: "leo",
     mh: "leo",
     mi: "leo",
     mk: "leo",
@@ -184,7 +184,7 @@ WORDS.lion = {
     no: "leo",
     nog: "arslan",
     oc: "leo",
-    ofs: "unknown",
+    ofs: "leo",
     om: "plain",
     or: "simha",
     os: "plain",
@@ -197,13 +197,13 @@ WORDS.lion = {
     ps: "plain",
     pt: "leo",
     quc: "plain",
-    rgn: "unknown",
+    rgn: "leo",
     rn: "plain",
     ro: "leo",
-    rom: "unknown",
-    rtm: "unknown",
+    rom: "leo",
+    rtm: "leo",
     ru: "leo",
-    rue: "unknown",
+    rue: "leo",
     rup: "arslan",
     rw: "plain",
     sa: "plain",
@@ -211,8 +211,8 @@ WORDS.lion = {
     sc: "leo",
     scn: "leo",
     sd: "simha",
-    se: "unknown",
-    shn: "unknown",
+    se: "leo",
+    shn: "plain",
     si: "simha",
     sk: "leo",
     sm: "leo",
@@ -235,13 +235,13 @@ WORDS.lion = {
     tkr: "arslan",
     tl: "leo",
     tn: "plain",
-    to: "unknown",
+    to: "leo",
     tob: "plain",
     toj: "plain",
     tr: "arslan",
     tzm: "plain",
     udi: "arslan",
-    udm: "unknown",
+    udm: "leo",
     ug: "arslan",
     uk: "leo",
     umb: "plain",
@@ -359,7 +359,7 @@ WORDS.lion = {
     tsg: "simha",
     bra: "other",
     yo: "plain",
-    pwo: "unknown",
+    pwo: "plain",
     es_cr: "leo",
     es_hn: "leo",
     es_ni: "leo",
@@ -388,7 +388,7 @@ WORDS.lion = {
     pt_br: "leo",
     en_aave: "leo",
     en_au: "leo",
-    rmy: "unknown",
+    rmy: "leo",
     en_south: "leo",
     en_in: "leo",
     en_ie: "leo",
@@ -478,7 +478,7 @@ WORDS.lion = {
     en: ["lion", "ˈlaɪən"],  // From Latin leo or Greek leon, directly or through a later language.
     eo: ["leono", "leˈono"],  // From Latin leo or Greek leon, directly or through a later language.
     es: ["león", "leˈon"],  // From Latin leo or Greek leon, directly or through a later language.
-    et: ["lõvi", "ˈlɤvi"],
+    et: ["lõvi", "ˈlɤvi"],  // Route by resemblance to the neighbouring forms (liv(louv) lv(lauva) vep(lev)); no etymology of its own.
     ett: ["leu", "leu"],  // From Latin leo or Greek leon, directly or through a later language.
     eu: ["lehoi", "lehoi̯"],  // From Latin leo or Greek leon, directly or through a later language.
     fa: ["شیر", "ˈʃeːr"],  // From Persian šēr.
@@ -502,7 +502,7 @@ WORDS.lion = {
     id: ["singa", "ˈsiŋa"],  // From Sanskrit siṃha.
     inh: ["лом", "lom"],
     io: ["leono", "leono"],  // From Latin leo or Greek leon, directly or through a later language.
-    is: ["ljón", "ˈljouːn"],
+    is: ["ljón", "ˈljouːn"],  // Route by resemblance to the neighbouring forms (fo(ljón) non(león)); no etymology of its own.
     iso: ["okpolokpo", "okpolokpo"],
     it: ["leone", "leˈone"],  // From Latin leo or Greek leon, directly or through a later language.
     ja: ["ライオン", "ɾaioɴ"],  // From Latin leo or Greek leon, directly or through a later language.
@@ -515,7 +515,7 @@ WORDS.lion = {
     ko: ["사자", "sadʑa"],  // From Chinese 獅, the shi word.
     kok: ["शींव", "ʃĩːw"],  // From Sanskrit siṃha.
     kqn: ["bokwe", "bokwe"],
-    ks: ["پادَر سٕہہ", "paːdar sɨh"],
+    ks: ["پادَر سٕہہ", "paːdar sɨh"],  // sɨh is the Kashmiri reflex of Sanskrit siṃha (Turner, CDIAL 13384: K. sᵃh 'tiger, leopard'), here with pādar in front.
     ksb: ["shimba", "shimba"],
     ku: ["şêr", "ʃeːɾ"],  // From Persian šēr.
     kum: ["арслан", "arslan"],  // From Turkic arslan.
@@ -531,7 +531,7 @@ WORDS.lion = {
     loz: ["tau", "tau"],
     lt: ["liūtas", "ˈlʲuːtɐs"],  // From Latin leo or Greek leon, directly or through a later language.
     lv: ["lauva", "lauva"],  // From Latin leo or Greek leon, directly or through a later language.
-    mg: ["liona", "liuna"],
+    mg: ["liona", "liuna"],  // Route by resemblance to the neighbouring forms (haw(liona) mfe(lion)); no etymology of its own.
     mh: ["ļaiōōn", "lˠɑːiʌːnʲ"],  // From Latin leo or Greek leon, directly or through a later language.
     mi: ["raiona", "raiona"],  // From Latin leo or Greek leon, directly or through a later language.
     mk: ["лав", "ɫaf"],  // From Latin leo or Greek leon, directly or through a later language.
@@ -549,7 +549,7 @@ WORDS.lion = {
     no: ["løve", "ˈløːʋə"],  // From Latin leo or Greek leon, directly or through a later language.
     nog: ["арыслан", "arɯslan"],  // From Turkic arslan.
     oc: ["leon", "leˈu"],  // From Latin leo or Greek leon, directly or through a later language.
-    ofs: ["lawa", "lawa"],
+    ofs: ["lawa", "lawa"],  // Route by resemblance to the neighbouring forms (fy(liuw) got(𐌻𐌰𐌹𐍅𐌰) nl(leeuw)); no etymology of its own.
     om: ["leenca", "ˈleːntʃʼɐ"],
     or: ["ସିଂହ", "sĩhɔ"],  // From Sanskrit siṃha.
     os: ["домбай", "dombaj"],
@@ -562,13 +562,13 @@ WORDS.lion = {
     ps: ["زمری", "zmaˈraɪ"],
     pt: ["leão", "leˈɐ̃w̃"],  // From Latin leo or Greek leon, directly or through a later language.
     quc: ["koj", "kox"],
-    rgn: ["liôn", "liˈõː"],
+    rgn: ["liôn", "liˈõː"],  // Route by resemblance to the neighbouring forms (egl(leån) fr(lion) it(leone)); no etymology of its own.
     rn: ["intare", "intaɾe"],
     ro: ["leu", "lew"],  // From Latin leo or Greek leon, directly or through a later language.
-    rom: ["levo", "levo"],
-    rtm: ["læeana", "læeana"],
+    rom: ["levo", "levo"],  // Route by resemblance to the neighbouring forms (bg(лев) ro(leu)); no etymology of its own.
+    rtm: ["læeana", "læeana"],  // Route by resemblance to the neighbouring forms (sm(leona) fj(laione)); no etymology of its own.
     ru: ["лев", "lʲef"],  // From Latin leo or Greek leon, directly or through a later language.
-    rue: ["лев", "lev"],
+    rue: ["лев", "lev"],  // Route by resemblance to the neighbouring forms (ru(лев) sk(lev) pl(lew)); no etymology of its own.
     rup: ["aslan", "aslan"],  // From Turkic arslan.
     rw: ["intare", "intaɾe"],
     sa: ["हरि", "ɦɾi"],
@@ -576,8 +576,8 @@ WORDS.lion = {
     sc: ["leone", "leone"],  // From Latin leo or Greek leon, directly or through a later language.
     scn: ["liuni", "liˈuni"],  // From Latin leo or Greek leon, directly or through a later language.
     sd: ["شينهن", "ʂĩːɦɯ̃"],  // From Sanskrit siṃha.
-    se: ["ledjon", "ˈleːɟɟon"],
-    shn: ["သၢင်ႇသီႈ", "sʰaːŋ˩ sʰiː˧˧˨"],
+    se: ["ledjon", "ˈleːɟɟon"],  // Route by resemblance to the neighbouring forms (sv(lejon) fi(leijona)); no etymology of its own.
+    shn: ["သၢင်ႇသီႈ", "sʰaːŋ˩ sʰiː˧˧˨"],  // Wiktionary compares Burmese ခြင်္သေ့. Route by resemblance to the neighbouring forms (my(ခြင်္သေ့)); no etymology of its own.
     si: ["සිංහයා", "siŋhəjaː"],  // From Sanskrit siṃha.
     sk: ["lev", "ʎev"],  // From Latin leo or Greek leon, directly or through a later language.
     sm: ["leona", "leona"],  // From Latin leo or Greek leon, directly or through a later language.
@@ -600,13 +600,13 @@ WORDS.lion = {
     tkr: ["аслан", "aslan"],  // From Turkic arslan.
     tl: ["leon", "leˈon"],  // From Latin leo or Greek leon, directly or through a later language.
     tn: ["tau", "tau"],
-    to: ["laione", "laione"],
+    to: ["laione", "laione"],  // Route by resemblance to the neighbouring forms (fj(laione) sm(leona)); no etymology of its own.
     tob: ["sawaʁaik", "sawaʁaik"],
     toj: ["chojal", "tʃohal"],
     tr: ["aslan", "asˈlan"],  // From Turkic arslan.
     tzm: ["ⵉⵣⵎ", "izm"],
     udi: ["аслан", "aslan"],  // From Turkic arslan.
-    udm: ["лев", "lev"],
+    udm: ["лев", "lev"],  // Route by resemblance to the neighbouring forms (kpv(лев) ru(лев)); no etymology of its own.
     ug: ["ئارسلان", "ʔɑrslɑn"],  // From Turkic arslan.
     uk: ["лев", "ɫɛu̯"],  // From Latin leo or Greek leon, directly or through a later language.
     umb: ["hosi", "hosi"],
@@ -724,7 +724,7 @@ WORDS.lion = {
     tsg: ["singaꞌ", "siŋaʔ"],  // Borrowed from Malay singa, from Sanskrit सिंह.
     bra: ["केहरी", "keːɦriː"],  // Likely borrowed from Punjabi ਕੇਹਰੀ, ultimately from Prakrit kesari.
     yo: ["kiniun", "kìnĩ̀ṹ"],
-    pwo: ["ဆၬလၥၧၫ့", "sʰaʔ lə θəɴ"],  // Borrowed from Mon ဇာဒိသိုၚ်.
+    pwo: ["ဆၬလၥၧၫ့", "sʰaʔ lə θəɴ"],  // Borrowed from Mon ဇာဒိသိုၚ် (Wiktionary), which has no recorded origin; cognate with Eastern Pwo ဇာဒီသိုင့်.
     es_cr: ["león", "leˈon"],
     es_hn: ["león", "leˈon"],
     es_ni: ["león", "leˈon"],
@@ -753,7 +753,7 @@ WORDS.lion = {
     pt_br: ["leão", "leˈɐ̃w̃"],
     en_aave: ["lion", "ˈlaɪən"],
     en_au: ["lion", "ˈlɑɪən"],
-    rmy: ["levo", "levo"],
+    rmy: ["levo", "levo"],  // Route by resemblance to the neighbouring forms (ro(leu) bg(лев)); no etymology of its own.
     en_south: ["lion", "ˈlaɪən"],
     en_in: ["lion", "ˈlaɪən"],
     en_ie: ["lion", "ˈlaɪən"],

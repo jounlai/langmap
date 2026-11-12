@@ -354,7 +354,7 @@ WORDS.milkyway = {
     fr_ch: "milk",
     fr_lu: "milk",
     ayl: "straw",
-    tum: "unknown",
+    tum: "milk",
     yao: "unknown",
     djr: "other",
     chy: "road",
@@ -668,7 +668,7 @@ WORDS.milkyway = {
     fr_ch: ["Voie lactée", "vwa lakte"],  // Same word as standard French.
     fr_lu: ["Voie lactée", "vwa lakte"],  // Same word as standard French.
     ayl: ["طريق خانب التبن", "tˤriːɡ χɑːnəb ətːəbən"],  // Literally 'the road of the hay thief'.
-    tum: ["Nthowa ya Lukama", "ntʰowa ja lukama"],  // The Tumbuka name of the Milky Way.
+    tum: ["Nthowa ya Lukama", "ntʰowa ja lukama"],  // Literally 'the path of milk': nthowa 'path, road' and lukama 'milk', 'that which has been squeezed (from a cow)' (Wiktionary).
     yao: ["Lichinga-usiku", "litʃiŋɡa usiku"],  // Recorded by Hetherwick (1902, p. 185); usiku is not a Yao word and looks borrowed.
     djr: ["baḏurru", "baɖuru"],  // Also 'mist, fog'.
     chy: ["heʼameméóʼo", "heʔameméóʔo"],  // With méó 'road', as in Hotóhkeméóná'e 'Star Road Woman'.

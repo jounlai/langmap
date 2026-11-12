@@ -283,8 +283,8 @@ WORDS.mobilephone = {
     tn: "cell",
     st: "cell",
     sn: "unknown",
-    rw: "unknown",
-    rn: "unknown",
+    rw: "carry",
+    rn: "carry",
     bm: "carry",
     nso: "unknown",
     sr: "carry",
@@ -440,7 +440,7 @@ WORDS.mobilephone = {
     zh_jiao: "hand",
     ta: "hand",
     si: "carry",
-    ig: "unknown",
+    ig: "other",
     so: "hand",
     ilo: "cell",
     ti: "carry",
@@ -483,9 +483,9 @@ WORDS.mobilephone = {
     ctu: "cell",
     maz: "cell",
     bzj: "other",
-    ami: "unknown",
+    ami: "hand",
     cr: "other",
-    bnn: "unknown",
+    bnn: "other",
     ja_kg: "carry",
     vi_nom: "carry",
     afb: "carry",
@@ -723,8 +723,8 @@ WORDS.mobilephone = {
     tn: ["founo ya selula", "founo ja selula"],  // Literally 'cellular phone', from English; mogala 'telephone (line)' is the general word.
     st: ["selefouno", "selefouno"],  // Borrowed from South African English 'cellphone'.
     sn: ["nharembozha", "n̤aremboʒa"],  // Built on nhare 'telephone'; Shona Wikipedia lists nhareyamado and nharemado as synonyms, and some say just nhare.
-    rw: ["terefone igendanwa", "teɾefone iɡendanwa"],  // Literally a terefone 'telephone' that is igendanwa, the word used for mobile services; in speech often just terefone.
-    rn: ["terefone igendanwa", "teɾefone iɡendanwa"],  // A terefone 'telephone' that is igendanwa, the same phrase as in Kinyarwanda.
+    rw: ["terefone igendanwa", "teɾefone iɡendanwa"],  // Literally a terefone 'telephone' that is igendanwa, 'walked with', the passive of kugendana 'to walk with' (Matana dictionary); in speech often just terefone.
+    rn: ["terefone igendanwa", "teɾefone iɡendanwa"],  // A terefone 'telephone' that is igendanwa, 'walked with', the passive of kugendana 'to walk with' (Matana Kirundi dictionary); the same phrase as in Kinyarwanda.
     bm: ["telefɔni yaalata", "telefɔni jaːlata"],  // Literally 'roaming telephone' (yaala 'travel about'); Bambara Wikipedia also uses telefɔni mobili.
     nso: ["sellathekeng", "selːatʰekeŋ"],  // The Northern Sotho word for a mobile phone, distinct from mogala 'telephone'; its makeup was not confirmed by a source.
     sr: ["мобилни телефон", "môbiːlniː telěfoːn"],  // Literally 'mobile telephone', in speech usually just мобилни; Croatian prefers mobitel.
@@ -923,9 +923,9 @@ WORDS.mobilephone = {
     ctu: ["celular", "selulaɾ"],  // Borrowed from Mexican Spanish celular 'cellular (phone)', used as is in Chol running text.
     maz: ["celular", "selulaɾ"],  // Borrowed from Mexican Spanish celular 'cellular (phone)', used as is in Mazahua running text.
     bzj: ["foan", "foːn"],  // The plain word for 'phone' from English, used for the mobile with its apps, texts and silent mode.
-    ami: ["soci", "sotsi"],  // The device word used beside pingpan 'tablet' and distinct from tingwa 'telephone, call'; its origin is not stated in the source.
+    ami: ["soci", "sotsi"],  // The device word used beside pingpan 'tablet' (Mandarin 平板) and distinct from tingwa 'telephone, call'; its origin is not stated in the source. Route by resemblance to the neighbouring forms (zh_tw(手機) hak_tw(手機仔)); no etymology of its own.
     cr: ["ᐊᔭᒫᑲᓂᐢ", "ajamaːkanis"],  // Literally 'little telephone': ayamâkan 'telephone' with the diminutive -is; Wolvengrey's Cree: Words also gives sêwêpicikanis 'little ringer'.
-    bnn: ["takuta", "takuta"],  // The ILRDF Bunun dictionary glosses takuta as 大哥大；手機 'mobile phone'; its make-up is not given.
+    bnn: ["takuta", "takuta"],  // The ILRDF Bunun dictionary glosses takuta as 大哥大；手機 'mobile phone': the word is 大哥大 (Taiwanese tuā-ko-tuā, Mandarin dàgēdà), the 'big brother' name of the first brick phones.
     ja_kg: ["携帯", "keːtai"],  // The standard Japanese word, used in Kagoshima as everywhere in Japan.
     vi_nom: ["電話移動", "ɗiən˧˨ʔ tʰwaːj˧˨ʔ zi˧ ɗəwŋ͡m˧˨ʔ"],  // The Hán spelling of điện thoại di động that Wiktionary gives: điện thoại 電話 'telephone' + di động 移動 'mobile'.
     afb: ["موبايل", "moːbaːjl"],  // From English mobile.

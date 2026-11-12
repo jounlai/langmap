@@ -106,7 +106,7 @@ WORDS.sunflower = {
     pt: "turn",
     cdo: "turn",
     ca: "turn",
-    ckb: "unknown",
+    ckb: "turn",
     af: "sun",
     bg: "turn",
     hy: "sun",
@@ -337,7 +337,7 @@ WORDS.sunflower = {
     lkt: "other",
     ota: "other",
     lb: "sun",
-    xh: "plain",
+    xh: "turn",
     ceb: "turn",
     kha: "sun",
     hil: "turn",
@@ -400,7 +400,7 @@ WORDS.sunflower = {
     pt: ["girassol", "ʒiɾɐˈsɔɫ"],  // Gira 'turns' + sol 'sun'; possibly via French from Italian girasole.
     cdo: ["向日葵", "hyoŋ˨˩˧ niʔ˥ ki˥˧"],  // 向 'to face' + 日 'sun' + 葵 'kui plant'; 葵花 is also used.
     ca: ["gira-sol", "ʒiɾəˈsɔl"],  // Gira 'turns' + sol 'sun'.
-    ckb: ["گوڵەبەڕۆژە", "ɡʊɫabaroːʒa"],  // Contains گوڵ 'flower' and ڕۆژ 'sun'; the sources do not state the full meaning.
+    ckb: ["گوڵەبەڕۆژە", "ɡʊɫabaroːʒa"],  // Contains گوڵ 'flower' and ڕۆژ 'sun', the same compound as Kurmanji gulberoj 'flower facing the sun'. Route by resemblance to the neighbouring forms (ku(gulberoj)); no etymology of its own.
     af: ["sonneblom", "ˈsɔnəblɔm"],  // Son 'sun' + blom 'flower', from Dutch zonnebloem.
     bg: ["слънчоглед", "slɐntʃoˈɡlɛt"],  // Слънце 'sun' + глед 'look': 'sun-looker', because the head turns toward the sun.
     hy: ["արևածաղիկ", "ɑɾevɑtsɑˈʁik"],  // Արև 'sun' + ծաղիկ 'flower'.
@@ -631,7 +631,7 @@ WORDS.sunflower = {
     lkt: ["waȟčázi", "waχtʃázi"],  // Literally 'yellow flower': waȟčá 'flower' + zí 'yellow' (Wiktionary).
     ota: ["دوه طبانی", "deve tabanɯ"],  // Ottoman Turkish deve tabanı, literally 'camel's sole'.
     lb: ["Sonneblumm", "ˈzonəblum"],  // Luxembourgish Sonn 'sun' + Blumm 'flower'.
-    xh: ["ujongilanga", "udʒoŋɡilaŋɡa"],  // The Xhosa word for the sunflower (class 11, plural iinjongilanga); Wiktionary gives no etymology.
+    xh: ["ujongilanga", "udʒoŋɡilaŋɡa"],  // jonga 'look at' + ilanga 'sun': the flower that looks at the sun.
     ceb: ["mirasol", "miɾaˈsol"],  // Wolff: "mirasul n sunflower"; Wolff u = row o in the last syllable; from Spanish
     kha: ["u tiew-sngi", "u tieu sŋi"],  // 1920: "Sunflower, U tiew-sngi"; sngi = sun
     hil: ["mirasol", "miɾaˈsol"],  // Hiligaynon mirasól 'the sunflower', from Spanish mirasol (Kaufmann).

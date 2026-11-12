@@ -4,7 +4,8 @@
  * PARTIAL WORD (🧪). Beside the other colours on this map, yellow is the one people
  * most often name after a thing. Across South and Southeast Asia and East Africa it
  * is turmeric: Tagalog dilaw, Tamil மஞ்சள், Bengali হলদে, Swahili manjano. Vietnamese
- * vàng and Persian زرد go with gold. Greek κίτρινος is the citron. Welsh melyn is
+ * vàng goes with gold, and Persian زرد shares the old yellow-green root with its
+ * relative زر 'gold'. Greek κίτρινος is the citron. Welsh melyn is
  * honey. Spanish amarillo goes back to a word for bitter. French jaune and Italian
  * giallo come from Latin galbinus, of unknown origin and unrelated to English yellow.
  * Germanic, Slavic and Baltic keep one old root for yellow and green: yellow, gelb,
@@ -186,7 +187,7 @@ WORDS.yellow = {
     su: "turmeric",
     sv: "ghel",
     tl: "turmeric",
-    tg: "gold",
+    tg: "ghel",
     ta: "turmeric",
     tt: "sari",
     te: "turmeric",
@@ -220,7 +221,7 @@ WORDS.yellow = {
     mhr: "plain",
     koi: "plain",
     kpv: "plain",
-    fa: "gold",
+    fa: "ghel",
     ku: "ghel",
     hyw: "plain",
     aln: "other",
@@ -326,7 +327,7 @@ WORDS.yellow = {
     ko_bus: "plain",
     ko_yb: "plain",
     es_mx: "bitter",
-    prs: "gold",
+    prs: "ghel",
     en_aave: "ghel",
     de_at: "ghel",
     en_south: "ghel",
@@ -367,7 +368,7 @@ WORDS.yellow = {
     goh: "ghel",
     apw: "plain",
     lus: "plain",
-    sd: "gold",
+    sd: "ghel",
     egl: "galbinus",
     pdc: "ghel",
     nrf: "galbinus",
@@ -597,7 +598,7 @@ WORDS.yellow = {
     su: ["konéng", "koneŋ"],  // From the word for turmeric.
     sv: ["gul", "ɡʉːl"],
     tl: ["dilaw", "diˈlaw"],  // Proto-Philippine *dilaw meant both.
-    tg: ["зард", "zard"],  // From Persian zard, related to zar 'gold'.
+    tg: ["зард", "zard"],  // From Persian zard, from the old root for yellow and green; related to zar 'gold'.
     ta: ["மஞ்சள்", "maɲdʒaɭ"],  // Also 'turmeric'.
     tt: ["сары", "saˈrɤ"],
     te: ["పసుపు", "pasupu"],  // Also 'turmeric'.
@@ -631,7 +632,7 @@ WORDS.yellow = {
     mhr: ["сар", "sar"],
     koi: ["веж", "vʲeʒ"],
     kpv: ["веж", "vʲeʒ"],
-    fa: ["زرد", "zæɾd"],  // Related to زر 'gold'.
+    fa: ["زرد", "zæɾd"],  // From Proto-Iranian *zr̥Hdás, from the old root for yellow and green (*ǵʰelh₃-); related to زر 'gold'.
     ku: ["zer", "zɛr"],
     hyw: ["դեղին", "dɛʁin"],
     aln: ["verdhë", "vɛɾðə"],  // From Latin viridis 'green'.
@@ -778,7 +779,7 @@ WORDS.yellow = {
     goh: ["gelo", "ˈɡelo"],  // From Proto-West Germanic *gelu, the old root for yellow and green; cognate with Old English geolu.
     apw: ["łitsog", "ɬitsoɡ"],  // Ultimately from Proto-Athabaskan *tsu̓ɢ 'yellow'; compare Navajo łitso.
     lus: ["eng", "eŋ"],  // From Proto-Kuki-Chin *ʔeŋ.
-    sd: ["زرد", "zərdu"],  // Borrowed from Persian زرد zard, related to زر 'gold'.
+    sd: ["زرد", "zərdu"],  // Borrowed from Persian زرد zard (the old yellow-green root; related to زر 'gold').
     egl: ["śal", "zal"],  // From Old French jalne, from Latin galbinus; compare Italian giallo.
     pdc: ["gehl", "ɡeːl"],  // Compare German gelb, Dutch geel, English yellow.
     nrf: ["jaûne", "ʒoːn"],  // From Latin galbinus 'yellowish', through Old French jaune.

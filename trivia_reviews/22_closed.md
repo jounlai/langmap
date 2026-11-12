@@ -29,3 +29,10 @@ it 1, es 0, pt 0, ru 0, uk 0, ar 0, he 0.
 
 Round 7: titles, summaries, buttons — en 0, ja 3, ko 4, zh 2, yue 1, vi 4, th 2, id 0, hi 1, sw 3, de 1, fr 3, it 0, es 2, pt 0, ru 0,
 uk 1, ar 1, he 1 (the USB "finger" button says just finger where the legend does; summaries' "English turned it into" → "in English").
+
+Round 8: consistency across the four articles and with the published stories — en 0, ja 3, ko 6, zh 1, yue 17 (X文/X話 → X語 as the
+published yue stories write language names), vi 0, th 2, sw 2, id/hi/de/fr/it 0, es 1, pt 1, ru/uk/ar/he 0.
+Round 9 (read aloud): ja 1, vi 1, th 2, hi 1, sw 1, it 1, others 0.
+Also: lang_names — 242 site names aligned with the stories and Wikipedia (~/langmap-work/names1112/proposals.json; he geresh ׳ kept,
+2 left: he cv, uk koi); uk cell footnote на карті → на мапі in all uk stories; usbstick uk legend apostrophes ’, pt "um drive".
+Story-side name replacements (259 strings) wait until round 10 is done.

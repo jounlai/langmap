@@ -429,10 +429,10 @@ WORDS.tobacco = {
     en: ["tobacco", "təˈbækəʊ"],
     zh: ["烟草", "jɛn˥ tsʰɑʊ̯˨˩˦"],  // 'Smoke grass.'
     yue: ["煙草", "jiːn˥ tsʰou˧˥"],  // 'Smoke grass.'
-    nan: ["煙草", "iɛn˦˦ tsʰau˥˧"],  // 'Smoke grass.'
-    nan_xm: ["烟草", "iɛn˦˦ tsʰau˥˧"],
-    nan_qz: ["烟草", "iɛn˧˧ tsʰau˥˥˦"],
-    nan_zz: ["烟草", "iɛn˦˦ tsʰau˥˧"],
+    nan: ["薰箬", "hun˦˦ hioʔ˦"],  // 薰箬 hun-hio̍h 'smoke leaf', the Hokkien word for tobacco (Wiktionary dialect table); 煙草 is the written-Chinese word.
+    nan_xm: ["薰箬", "hun˦˦ hioʔ˦"],  // 薰箬 hun-hio̍h 'smoke leaf', the Hokkien word for tobacco (Wiktionary dialect table); 煙草 is the written-Chinese word.
+    nan_qz: ["薰箬", "hun˧˧ hioʔ˨˦"],  // 薰箬 hun-hio̍h 'smoke leaf', the Hokkien word for tobacco (Wiktionary dialect table); 煙草 is the written-Chinese word.
+    nan_zz: ["薰箬", "hun˦˦ hioʔ˩˨˩"],  // 薰箬 hun-hio̍h 'smoke leaf', the Hokkien word for tobacco (Wiktionary dialect table); 煙草 is the written-Chinese word.
     wuu: ["烟草", "i˥˥ tsʰɔ˨˩"],
     es_cr: ["tabaco", "taˈbako"],
     es_hn: ["tabaco", "taˈbako"],

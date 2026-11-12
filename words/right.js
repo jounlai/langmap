@@ -595,11 +595,11 @@ WORDS.right = {
     cjy: ["右", "iəu˦˥"],
     mnp: ["右", "iu˥˥"],
     cdo: ["右", "iɛu˨˦˨"],
-    nan: ["右", "iu˧˧"],
-    nan_xm: ["右", "iu˨˨"],
-    nan_qz: ["右", "iu˦˩"],
-    nan_zz: ["右", "iu˨˨"],
-    nan_te: ["右", "iu˧˥"],
+    nan: ["正", "tsiã˩˩"],  // The everyday word chiàⁿ, written 正 'upright, proper' (Wiktionary dialect table for this town); 右 is the literary word.
+    nan_xm: ["正", "tsiã˨˩"],  // The everyday word chiàⁿ, written 正 'upright, proper' (Wiktionary dialect table for this town); 右 is the literary word.
+    nan_qz: ["正", "tsiã˦˩"],  // The everyday word chiàⁿ, written 正 'upright, proper' (Wiktionary dialect table for this town); 右 is the literary word.
+    nan_zz: ["正", "tsiã˨˩"],  // The everyday word chiàⁿ, written 正 'upright, proper' (Wiktionary dialect table for this town); 右 is the literary word.
+    nan_te: ["正", "tsiã˨˩˧"],  // The everyday word tsiàⁿ, written 正 'upright, proper' (Wiktionary dialect table for this town); 右 is the literary word.
     cnp: ["右", "jəu˨˨"],
     wuu: ["右", "ɦiɤ˨˧"],
     wuu_sz: ["右", "ɦʏ˨˧˩"],

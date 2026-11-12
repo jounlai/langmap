@@ -85,7 +85,7 @@ WORDS.moon = {
       gan_ja: ["月光", "yɛ˧˧˦ kuɔŋ˧˧˦"],
       gan_fz: ["月光", "ȵyɔt˥ kuɔŋ˩˩"],
       cjy_lv: ["月明", "yəʔ˨˧ mɿ˦˦"],
-      cjy_xz: ["月", "yɔʔ˦˧"],
+      cjy_xz: ["月明", "yɔʔ˦˧ mi˧˩"],  // Xinzhou Jin 月明 'moon-bright', the everyday word (Wiktionary dialect table); cjy_lv has the same word.
       hsn_hy: ["月光", "ye˩˩˨ kuan˦˦˥"],
       hsn_yz: ["月亮", "ye˩˩˨ liã˨˦"],
       czh_wy: ["月光", "ȵiø˥˩ kuɑ̃˦˦"],

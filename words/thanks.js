@@ -683,8 +683,8 @@ WORDS.thanks = {
     tlh: ["qatlho'", "qʰɑtɬoʔ"],
     jbo: ["ki'e", "kihe"],
     cjy: ["谢谢", "ɕiɛ˦˥ ɕiɛ"],
-    hsn: ["谢谢", "sie˦˥ sie"],
-    gan: ["谢谢", "ɕia˨˩ ɕia"],
+    hsn: ["多谢", "to˧˧ sie˦˥"],  // Changsha says 多谢 'many thanks' (Wiktionary dialect table).
+    gan: ["多谢", "to˦˨ ɕia˨˩"],  // Nanchang says 多谢 'many thanks' (Wiktionary dialect table).
     mai: ["धन्यवाद", "dʱənjəbaːd"],
     anp: ["धन्यवाद", "dʱənjəbaːd"],
     awa: ["धन्यवाद", "dʱənjəbaːd"],

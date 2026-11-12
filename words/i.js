@@ -498,7 +498,7 @@ WORDS.i = {
       pzh: ["yaku", "jaku"],
       wic: ["nacʔih", "natsʔih"],
       wuu_jh: ["我", "ɑ˥˧˥"],
-      wuu_jx: ["我", "ŋ̍˨˩˨"],
+      wuu_jx: ["我奴", "ŋ̍˨˩˨ nəuᵝ˧˩"],  // Jiaxing 我奴 ŋ-nu 'I' (Wiktionary dialect table).
       yue_zs: ["我", "ŋɔ˨˩˧"],
       zh_cd: ["我", "ŋo˥˧"],
       zh_hf: ["我", "u˨˦"],

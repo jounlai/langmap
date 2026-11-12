@@ -243,7 +243,7 @@ WORDS.week = {
     zh_tw: "stars",
     yue: "stars",
     yue_ts: "stars",
-    hak_tw: "stars",
+    hak_tw: "other",
     hak_hl: "stars",
     hak_cn: "stars",
     nan: "other",
@@ -616,7 +616,7 @@ WORDS.week = {
     zh_tw: ["星期", "ɕiŋ˥ tɕʰi˧˥"],
     yue: ["星期", "sɪŋ˥ kʰei˨˩"],
     yue_ts: ["星期", "ɬen˧˧ kʰei˨˨"],
-    hak_tw: ["星期", "sen˨˦ kʰi˩˩"],
+    hak_tw: ["禮拜", "li˨˦ pai˥˥"],  // 禮拜 'worship (day)', the Taiwanese Hakka word for week (Wiktionary dialect table for Miaoli); the row's weekdays are 拜一 … already.
     hak_hl: ["星期", "sen˥˧ kʰi˥˥"],
     hak_cn: ["星期", "sen˦ kʰi˩˩"],
     nan: ["禮拜", "le˥˧ pai˩˩"],  // 'Worship.'

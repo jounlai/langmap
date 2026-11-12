@@ -217,7 +217,7 @@ WORDS.soap = {
     nan_xm: "sabun",
     nan_qz: "sabun",
     nan_zz: "sabun",
-    nan_te: "sabun",
+    nan_te: "other",
     es_cr: "sapo",
     es_hn: "sapo",
     es_ni: "sapo",
@@ -521,8 +521,8 @@ WORDS.soap = {
     fa: ["صابون", "sɒːˈbun"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     zh: ["肥皂", "fei˧˥ tsɑʊ̯˥˩"],  // Named after the honey locust.
     zh_tw: ["肥皂", "fei˧˥ tsɑʊ̯˥˩"],  // Named after the honey locust.
-    yue: ["肥皂", "fei˨˩ tsou˨"],  // Named after the honey locust.
-    yue_ts: ["肥皂", "fei˨˨ tau˧˨"],
+    yue: ["番梘", "faːn˥ kaːn˧˥"],  // 番梘 'foreign soap(-alkali)', the everyday Cantonese word (Wiktionary dialect table for Guangzhou and Hong Kong); 肥皂 is the written-Chinese word.
+    yue_ts: ["番碱", "fan˧˧ kan˥˥"],  // 番碱 'foreign alkali', the Taishanese word for soap (Wiktionary dialect table for Taishan).
     gan: ["肥皂", "fɨi˧˥ tsʰau˩˩"],
     wuu: ["肥皂", "bi˨˨ zɔ˦˦"],
     wuu_sz: ["肥皂", "bi˨˨ zæ˧˧"],
@@ -531,7 +531,7 @@ WORDS.soap = {
     nan_xm: ["雪文", "sap˧˨ bun˨˦"],  // From Malay sabun, or from Portuguese sabão.
     nan_qz: ["雪文", "sap˥ bun˨˦"],  // From Malay sabun, or from Portuguese sabão.
     nan_zz: ["雪文", "sap˧˨ bun˩˧"],  // From Malay sabun, or from Portuguese sabão.
-    nan_te: ["雪文", "sap˨ buŋ˥˥"],  // From Malay sabun, or from Portuguese sabão.
+    nan_te: ["饼药", "piã˥˨ ioʔ˦"],  // 饼药 'cake medicine', the Teochew word for soap (Wiktionary dialect table for Shantou and Chaozhou).
     es_cr: ["jabón", "haˈbon"],
     es_hn: ["jabón", "haˈbon"],
     es_ni: ["jabón", "haˈbon"],

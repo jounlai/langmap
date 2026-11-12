@@ -1302,7 +1302,7 @@ WORDS.orange = {
     war: ["kahel", "kaˈhel"],
     bik: ["kahel", "kaˈhel"],
     ks: ["نارنگی", "naːrəŋɡiː"],
-    nan_te: ["柑", "kã˧˧"], // was ["柑仔", "kam˥˥ ma˥˧"] (vi dialect rules 2026-10-06)
+    nan_te: ["橙", "tsʰeŋ˥˥"],  // The sweet orange; 柑 is the mandarin (Wiktionary dialect table for Shantou).
     yue_ts: ["橙", "tsʰaŋ˨˨"], // was ["橙", "tsʰaːŋ˩˧"] (vi dialect rules 2026-10-06)
     zh_jh: ["橙", "tsʰəŋ˩˧"], // was ["橙", "tʂʰɤŋ˧˥"] (vi dialect rules 2026-10-06)
     zh_tj: ["橙", "tʂʰəŋ˦˥"], // was ["橙", "tʂʰɤŋ˦˥"] (vi dialect rules 2026-10-06)

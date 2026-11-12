@@ -1104,7 +1104,7 @@ WORDS.dog = {
     ko_jl: ["개", "kɛ"],
     nan_pn: ["狗", "kau˦˦˥"],
     mra: ["braɲ", "braɲ"],
-    wuu_nb: ["狗", "kœʏ˧˨˥"],
+    wuu_nb: ["黄狗", "ɦu˧˩˧ kœʏ˧˨˥"],  // Ningbo calls any dog 黄狗 'yellow dog' (Wiktionary dialect table; MCPDict 寧波 has a reading of 黄 used only in 黄狗).
     yue_gz: ["—", "—"],
     khb: ["ᦖᦱ", "maː˥"],
     blt: ["ꪢꪱ", "maː˨"],

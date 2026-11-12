@@ -195,7 +195,7 @@ WORDS.eye = {
     yue: ["眼", "ŋaːn˩˧"],
     nan: ["目睭", "bak˦ tsiu˦˦"],
     wuu: ["眼睛", "ŋɛ˨˨ tɕin˦˦"],
-    hak_cn: ["目", "muk˩"],
+    hak_cn: ["目珠", "muk˩ tsu˦"],  // Meixian Hakka 目珠 'eye-bead', the everyday noun (Wiktionary dialect table for Meixian); 目 alone is bound.
     vi: ["mắt", "mat˧˥"],
     vi_c: ["mắt", "mak˧˦"],
     vi_s: ["mắt", "mak˧˥"],

@@ -498,7 +498,7 @@ WORDS.eat = {
     wic: ["kaʔac", "kaʔats"],
     wuu_jh: ["吃", "tɕʰiəʔ˦"],
     wuu_jx: ["吃", "tɕʰieʔ˥"],
-    yue_zs: ["食", "sɪk˧"],
+    yue_zs: ["吃", "jak˧"],  // Shiqi (Zhongshan) says jak for 'eat', written 吃/喫 (Wiktionary dialect table; MCPDict 中山 吃 jak '吃飯').
     zh_cd: ['吃', 'tsʰɿ˨˩'],
     zh_hf: ['吃', 'tʂʰəʔ˦'],
     zh_kf: ['吃', 'tʂʰʅ˨˦'],
@@ -867,7 +867,7 @@ WORDS.eat = {
     nan_te: ["食", "tsiaʔ˦"],
     yue_ts: ["吃", "hiak˧˧"],
     czh: ["吃", "tɕʰi˥"],
-    cnp: ["食", "ʃek˨"],
+    cnp: ["吃", "hiɐk˧"],  // Nanning Pinghua (Tingzi) says hiɐk, written 吃 (Wiktionary dialect table for Nanning-P).
     zh_jh: ["吃", "tʂʰʅʔ˥˥"],
     zh_tj: ["吃", "tʂʰʅ˨˩"],
     zh_lz: ["吃", "tʂʰɨ˩˧"],

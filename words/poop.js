@@ -123,7 +123,7 @@ WORDS.poop = {
     yue: ["屎", "siː˧˥"],
     nan: ["屎", "sai˥˧"],
     zh_tw: ["便便", "pjɛn˥˩ pjɛn"],
-    wuu: ["屎", "sz̩˧˥"],
+    wuu: ["恶", "oʔ˥"],  // Northern Wu oq 'poo', written 恶 (Wiktionary dialect table for Shanghai); 屎 is the written-Chinese word.
     hak_cn: ["屎", "sɨ˧˩"],
     vi: ["cứt", "kɨt˧˥"],
     vi_c: ["phân", "fəŋ˥"],
@@ -399,7 +399,7 @@ WORDS.poop = {
     zh_zz: ["屎", "ʂʅ˥˧"],
     hak_hl: ["屎", "ʃi˨˦"],
     cpx: ["屎", "ɬai˦˥˧"],
-    wuu_hz: ["屎", "sɿ˥˧"],
+    wuu_hz: ["恶", "ʔoʔ˥"],  // Northern Wu oq 'poo', written 恶 (Wiktionary dialect table for Hangzhou).
     yue_dg: ["屎", "ʃi˧˥"],
     yue_nn: ["屎", "ʃi˧˥"],
     zh_cq: ["屎", "sɿ˦˨"],

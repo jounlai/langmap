@@ -26,3 +26,6 @@ pt "disco na chave" so the key route makes sense).
 
 Round 6: en 0, ja 1, ko 1, zh 1, yue 1, vi 2, th 0 ("a more particular cotton" copied word for word), id 1, hi 1, sw 0, de 2, fr 0,
 it 1, es 0, pt 0, ru 0, uk 0, ar 0, he 0.
+
+Round 7: titles, summaries, buttons — en 0, ja 3, ko 4, zh 2, yue 1, vi 4, th 2, id 0, hi 1, sw 3, de 1, fr 3, it 0, es 2, pt 0, ru 0,
+uk 1, ar 1, he 1 (the USB "finger" button says just finger where the legend does; summaries' "English turned it into" → "in English").

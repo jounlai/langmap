@@ -379,7 +379,7 @@ WORDS.salt = {
     zh_km: ["盐", "iɛ̃˧˩"],
     zh_xa: ["盐", "iã˨˦"],
     cjy: ["盐", "iɛ˩"],
-    cjy_lv: ["盐", "iɪ˦˦"],
+    cjy_lv: ["咸盐", "xæ˦˦ iɪ˦˦"],  // Lishi Jin 咸盐 'salty salt', the everyday word (Wiktionary dialect table); zh_jiao has 咸盐 too.
     cjy_xz: ["盐", "iɛ̃˧˩"],
     hsn: ["盐", "iẽ˩˧"],
     hsn_hy: ["盐", "ien˩˩˨"],

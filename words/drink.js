@@ -687,7 +687,7 @@ WORDS.drink = {
     jbo: ["pinxe", "ˈpinxe"],
     cjy: ["喝", "xəʔ˨"],
     hsn: ["吃", "tɕʰia˨˦"],
-    gan: ["喝", "hot˥"],
+    gan: ["吃", "tɕʰiaʔ˥"],  // Gan uses one verb for eating and drinking: 吃茶 'drink tea' (Wiktionary dialect table for Nanchang).
     mai: ["पीयब", "piːjəb"],
     anp: ["पीयक", "piːjək"],
     awa: ["पीई", "piːiː"],

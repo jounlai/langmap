@@ -25,6 +25,7 @@ const CHECK = {
     cua3: p => { const v = vowels(p); return v[1].P.F2 <= 1450; },
     vi_short: p => { const v = vowels(p)[0]; const n = p.phases.filter(ph => ph.kind === 'nasal').pop(); const d = S.plan('ɗət˧˥', { lang: 'vi' }); const dv = d.phases.find(ph => ph.kind === 'vowel'); const m = S.plan('mɨə˧', { lang: 'vi' }).phases.find(ph => ph.kind === 'vowel'); return v.dur <= 110 && n.dur >= 150 && v.P.F2 <= 1500 && dv.dur <= 70 && m.P.F2 <= 1400; },
     implosive2: p => { const k = p.phases.findIndex(ph => ph.kind === 'implosion'); return k > 0 && p.phases[k].P.AV <= .7 && !p.phases.some(ph => (ph.P.CR || 0) > .3); },
+    nasal_v: p => { const v = vowels(p); return v[0].dur >= 65 && v[1].P.vel <= .5; },
     siang: p => { const v = vowels(p); return v.length === 2 && v[0].dur <= 70; },
     lei: p => { const v = vowels(p); return v.length === 2 && v[0].dur / (v[0].dur + v[1].dur) <= .45; },
     neutral: p => p.pitch[p.pitch.length - 1][1] <= 1.5 && vowels(p)[1].dur < vowels(p)[0].dur,

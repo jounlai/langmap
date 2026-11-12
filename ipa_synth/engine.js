@@ -361,7 +361,8 @@
         P.pro = round ? 1 : 0;
         P.vel = 0;
         P.curl = seg.rhotic ? .5 : 0;
-        if (seg.nasalized) { P.FNZ = 470; P.B1 *= 1.6; P.vel = .75; P.AV = .85; }
+        // a nasal vowel keeps its oral resonances: lighter coupling (heavy coupling turned Qingdao iə̃ into "il")
+        if (seg.nasalized) { P.FNZ = 520; P.B1 *= 1.3; P.vel = .5; P.AV = .9; }
         if (seg.breathy) { P.AH = .3; P.AV = .75; P.glot = .45; }
         if (seg.creaky) { P.CR = 1; P.AV = .8; }
         if (seg.voiced === 0) { P.AV = 0; P.AH = .55; P.glot = 1; }
@@ -721,7 +722,7 @@
                     // after a consonant (ɕi̯ɑʊ̯) it is a medial: pass through it without holding, or its
                     // low F1 hold sounded like a nasal ("snau")
                     const afterC = i > 0 && segs[i - 1].type === 'C' && !segs[i - 1].pause;
-                    d = afterC ? 40 : 55; edgeF = afterC ? d * .65 : 18; nx._onglide = true;
+                    d = afterC ? 40 : 70; edgeF = afterC ? d * .65 : 22; nx._onglide = true;   // word-initial i̯ə̃: long enough to be heard as i
                 }
                 if (s._onglide) edgeF = Math.min(70, d * .4);   // keep most of the vowel steady
                 if (s._glideIn) edgeF = Math.max(edgeF, Math.min(s._glideIn, d * .8));

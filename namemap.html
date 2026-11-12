@@ -682,7 +682,7 @@
 
     <script src="map_boot.js?v=1"></script>
     <script src="/vendor/leaflet-1.9.4/leaflet.js"></script>
-    <script src="namemap_data.js?v=15"></script>
+    <script src="namemap_data.js?v=16"></script>
     <script src="namemap_i18n.js?v=4"></script>
     <script src="namemap_names_ext.js?v=15"></script>
     <!-- NameMap content strings (country/language names, each name's meaning and
@@ -835,6 +835,8 @@
             ids.sort((a,b)=>{
                 const ca=CATS.indexOf(NAMES[a].category), cb=CATS.indexOf(NAMES[b].category);
                 if(ca!==cb) return ca-cb;
+                const O=window.NM_NAME_ORDER||[], oa=O.indexOf(a), ob=O.indexOf(b);
+                if(oa!==ob) return (oa<0?1e4:oa)-(ob<0?1e4:ob);
                 return loc(NAMES[a].display).localeCompare(loc(NAMES[b].display));
             });
             return ids;

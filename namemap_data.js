@@ -111,6 +111,9 @@ const NM_UI = {
 };
 
 const NM_CATEGORY_ORDER = ['biblical','quran','greco-roman','germanic','hindu','indigenous'];
+// Within each category: Bible names in biblical order (Old Testament, angels, New Testament); the Islamic set from the
+// Prophet's father through his family; Greek before Roman; then by era. Names missing here sort after, alphabetically.
+const NM_NAME_ORDER = ["adam", "eve", "noah", "abraham", "sarah", "isaac", "jacob", "benjamin", "joseph", "moses", "anna", "david", "solomon", "elijah", "daniel", "gabriel", "michael", "elizabeth", "mary", "jesus", "john", "peter", "andrew", "matthew", "thomas", "simon", "stephen", "paul", "abdullah", "muhammad", "khadija", "aisha", "fatima", "ali", "omar", "hassan", "husayn", "zaynab", "alexander", "philip", "helen", "sophia", "julia", "anthony", "theodore", "george", "nicholas", "gregory", "constantine", "catherine", "margaret", "charles", "louis", "henry", "william", "rama", "sita", "krishna", "arjun", "lakshmi", "ganesh", "priya"];
 
 /* ---------------------------------------------------------------------------
  * NAMES — the dataset. The four entries below are hand-authored and act as the
@@ -713,6 +716,7 @@ if (typeof window !== 'undefined') {
   window.NM_LANGS = NM_LANGS;
   window.NM_UI = NM_UI;
   window.NM_CATEGORY_ORDER = NM_CATEGORY_ORDER;
+  window.NM_NAME_ORDER = NM_NAME_ORDER;
   window.NAMES = NAMES;
   window.COUNTRY_PALETTE = COUNTRY_PALETTE;
 }

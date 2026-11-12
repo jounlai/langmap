@@ -505,7 +505,9 @@
         if (c === 'ko' || c === 'ko_seoul') return { type: 'ko', passiveVoicing: true, unreleasedFinal: true };   // Seoul accentual phrase
         if (b === 'ko') return { type: 'flat', passiveVoicing: true, unreleasedFinal: true };
         if (b === 'yue') return { type: 'stress', passiveVoicing: true, unreleasedFinal: true };
-        if (['vi', 'th', 'lo', 'km', 'my', 'nan', 'hak'].includes(b)) return { type: 'stress', unreleasedFinal: true };
+        // vi/th/lo/km centering diphthongs (ia ưa ua, เอีย เอือ อัว): the close vowel is the nucleus, ə the off-glide
+        if (['vi', 'th', 'lo', 'km'].includes(b)) return { type: 'stress', unreleasedFinal: true, centering: true };
+        if (['my', 'nan', 'hak'].includes(b)) return { type: 'stress', unreleasedFinal: true };
         if (b === 'fr') return { type: 'fr', uvularR: true };
         if (['de', 'da', 'nl', 'lb'].includes(b)) return { type: 'stress', uvularR: true };   // r as an approximant ʁ (as in French)
         if (b === 'zh' || b === 'cmn') return { type: 'stress', sandhi3: true, passiveVoicing: true, mandarin: true };
@@ -540,6 +542,16 @@
                 }
             });
         }
+        // a syllabic voiced sibilant (Wu/Mandarin-dialect z̩, ʐ̩: 名字 min zz̩, 屎 sz̩) is the apical vowel
+        // [ɿ]/[ʅ]: voiced, with vowel resonances, so after z it is heard as a vowel, not a longer z
+        segs.forEach(x => {
+            if (x.type === 'C' && x.syllabic && ['z', 'ʐ', 'ɹ', 'ɻ'].includes(x.base)) {
+                const ap = x.base === 'z' || x.base === 'ɹ' ? 'AL' : 'RE';
+                Object.assign(x, { type: 'V', apical: ap, h: .9, b: .5, round: 0, voiced: 1, syllabic: false, base: ap === 'AL' ? 'ɿ' : 'ʅ' });
+            }
+        });
+        // Vietnamese ư (and Thai/Lao/Khmer ɯ written ɨ) sits further back than a central ɨ: a clear [ɨ~ɯ]
+        if (prof.centering) segs.forEach(x => { if (x.type === 'V' && x.base === 'ɨ') x.b = Math.max(x.b, .82); });
         if (prof.unreleasedFinal) {
             // syllable-final stops are unreleased in these languages (Vietnamese Đức ɗɨk, Cantonese,
             // Thai, Korean …), whether or not the cell writes ̚
@@ -568,6 +580,8 @@
                     if (run.length > 1) {
                         let nuc = run[0];
                         for (const v of run) if (v.h < nuc.h - .01) nuc = v;
+                        // centering diphthong iə / ɨə / ɯə / uə: the first, close vowel carries the syllable
+                        if (prof.centering && run.length === 2 && run[1].base === 'ə' && run[0].h >= .85) nuc = run[0];
                         for (const v of run) if (v !== nuc) { v.nonsyl = true; v.autoGlide = true; }
                     }
                 }
@@ -687,7 +701,9 @@
                 let edgeF = 45;
                 if (!s.nonsyl && nx && nx.type === 'V' && nx.nonsyl && nx.syl === s.syl) {
                     const total = d + 65;
-                    d = total * .38; nx._glide = total * .62;
+                    // centering diphthong (Vietnamese ưa, ia, ua): the close vowel is the long, clear part
+                    const cen = prof.centering && nx.base === 'ə' && s.h >= .85;
+                    d = total * (cen ? .62 : .38); nx._glide = total * (cen ? .38 : .62);
                 } else if (s.nonsyl && s._glide) {
                     d = s._glide; edgeF = d * .95;
                 } else if (s.nonsyl && nx && nx.type === 'V' && !nx.nonsyl && nx.syl === s.syl) {
@@ -832,7 +848,15 @@
                     const P = consTarget(s, V, 'nasal');
                     Object.assign(P, { AV: s.voiced ? .6 : 0, AH: s.voiced ? 0 : .35, F1: 260, B1: 110, FNZ: NASAL_ZERO[s.place] || 1600, glot: s.voiced ? 0 : 1 });
                     const coda = !beforeVowel;
-                    push((coda ? 80 : 68) * gem * syl, P, Object.assign({ kind: 'nasal' }, info));
+                    if (s.syllabic) {
+                        // a syllabic nasal (Wu/Cantonese ŋ̍ 'fish, five', Wu 囡儿 nø ŋ̍) is a syllable of its own:
+                        // after a vowel the voice dips briefly so it is not heard as that vowel's coda (nøŋ),
+                        // and it is held long and full-voiced, carrying its tone
+                        const prevV = i > 0 && segs[i - 1].type === 'V';
+                        if (prevV) push(30, Object.assign({}, P, { AV: .22 }), Object.assign({ kind: 'syllable break', edgeA: 8 }, info));
+                        P.AV = Math.max(P.AV, .85);
+                        push(Math.max(190, 68 * gem * syl), P, Object.assign({ kind: 'nasal', edgeA: prevV ? 12 : undefined }, info));
+                    } else push((coda ? 80 : 68) * gem * syl, P, Object.assign({ kind: 'nasal' }, info));
                 } else if (m === 'fric' || m === 'latfric') {
                     const P = consTarget(s, V, m);
                     if (s.place === 'GL') {

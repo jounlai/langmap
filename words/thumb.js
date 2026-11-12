@@ -283,7 +283,7 @@ WORDS.thumb = {
     ilo: "plain",
     sn: "plain",
     rw: "plain",
-    am: "unknown",
+    am: "other",
     sat: "other",
     gn: "big",
     bs: "plain",
@@ -892,7 +892,7 @@ WORDS.thumb = {
     ilo: ["tangan", "taˈŋan"],  // Also names the big toe; it is the same word as Malay tangan 'hand', narrowed to the thumb.
     sn: ["chara", "tʃara"],  // The short, thick finger that closes against all the others, as Shona Wikipedia describes it.
     rw: ["igikumwe", "iɡikumwe"],  // Kinyarwanda Wikipedia describes it as the biggest of the fingers (urutoki).
-    am: ["አውራ ጣት", "awra tʼat"],  // ጣት is 'finger'; the first element አውራ was not checked in a dictionary.
+    am: ["አውራ ጣት", "awra tʼat"],  // ጣት is 'finger'; አውራ is 'male', said of animals, as in አውራ ዶሮ 'rooster' (Wiktionary), so 'the male finger', as Luganda engalo ensajja.
     sat: ["ᱦᱟᱲᱟᱢ ᱠᱟᱹᱴᱩᱵ", "haɽam kəʈub"],  // Literally 'old finger' (haṛam 'old' + kaṭub 'finger'), like Bengali buṛo aṅul and Odia buṛhā āṅguṭhi.
     gn: ["kuãngusu", "kʷãŋɡuˈsu"],  // Literally 'big finger' (kuã 'finger' + guasu 'big').
     bs: ["palac", "ˈpalats"],  // Inherited from Proto-Slavic *pàlьcь, a diminutive of the word for 'finger'; it was also an old unit of measure about an inch long.

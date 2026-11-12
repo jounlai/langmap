@@ -49,3 +49,16 @@ Note fixed: dzg batata keeps the resemblance route but no longer says "no etymol
 Arabic loan). we.js header count 45 → 40 unknown.
 
 Total review 722: 637 cells routed (g3 85, g5 197 + xh, g2 165, g1 97, g4 93).
+
+## Follow-ups (same day)
+- Policy decided (held by g1): a wife word built on, or beside, a different woman word is `own` — the precedent is
+  is eiginkona (kona 'woman'), ga bean chéile, sl žena/ženska, all `own`. Applied to 9 cells whose dictionary gives both
+  words: mad bine (bebini'), sas səninə (nina), lep ᰣᰦᰚᰪ (taʔyu), kgp mré nĩ fi (ũn tỹtá), hai jáa (jáadaa), mdr baine
+  (tobaine), gor binggele (taa bua), wal machchiyo (maccaasiyo), bdq akăn (drŏ-kăn).
+- Cell fixes from g1_cellfix.json: uncle nn onkel → farbror (morbror in the note, as no), prg awis → tēwis (KinBank after
+  Schmalstieg; awis 'Oheim' in the note), both split; we bft ང་ཏང → ང་ཏང / ང་ཡ (Backstrom, six Balti varieties), clusive.
+  Held: nan_hai (IPA of 咱侬 not sourced), lbj (inclusive not sourced for Ladakhi), om (wasiila unverified; adeera is the
+  usual paternal word), ml and xal grandmother (the other side's word not sourced).
+- Leads from g4: hy փշաքաղվել goosebumps → other (Old Armenian փշաքաղ, under both փուշ 'thorn' and քաղեմ 'to pick'; the
+  thorn image of bn/ne); am አውራ ጣት thumb → other (አውራ 'male', as in አውራ ዶሮ 'rooster'; 'male finger' as lg/nyo/fon).
+  os хистӕր (no gloss source found), rn, ii, ng/kj kept.

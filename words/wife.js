@@ -179,12 +179,12 @@ WORDS.wife = {
     iba: "own",
     pam: "spouse",
     bug: "own",
-    mad: "unknown",
+    mad: "own",
     mrw: "spouse",
     sm: "own",
     tet: "own",
     min: "own",
-    sas: "unknown",
+    sas: "own",
     ljp: "own",
     sda: "woman",
     su: "own",
@@ -284,9 +284,9 @@ WORDS.wife = {
     tl: "spouse",
     mr: "own",
     sw: "woman",
-    lep: "unknown",
+    lep: "own",
     bew: "own",
-    kgp: "unknown",
+    kgp: "own",
     eo: "other",
     cu: "woman",
     rm: "woman",
@@ -352,9 +352,9 @@ WORDS.wife = {
     om: "own",
     ky: "woman",
     nmn: "woman",
-    hai: "unknown",
+    hai: "own",
     gl: "own",
-    mdr: "unknown",
+    mdr: "own",
     gu: "own",
     mk: "woman",
     blc: "woman",
@@ -447,14 +447,14 @@ WORDS.wife = {
     nlc: "woman",
     vot: "woman",
     djk: "woman",
-    gor: "unknown",
+    gor: "own",
     tar: "unknown",
     dlg: "woman",
     bej: "spouse",
     bgc: "woman",
     ny: "woman",
     xmr: "own",
-    wal: "unknown",
+    wal: "own",
     ket: "woman",
     egl: "own",
     mag: "woman",
@@ -473,7 +473,7 @@ WORDS.wife = {
     txg: "own",
     ett: "unknown",
     squ: "own",
-    bdq: "unknown",
+    bdq: "own",
     ibb: "woman",
     slr: "own",
     ykg: "own",
@@ -618,12 +618,12 @@ WORDS.wife = {
     iba: ["bini", "bini"],  // The ABVD Iban list gives indu' for woman and laki for husband.
     pam: ["asáwa", "asawa"],
     bug: ["baine", "baine"],
-    mad: ["bine", "bine"],
+    mad: ["bine", "bine"],  // A different word from bebini' 'woman' (Wiktionary), so wife has a word of its own, as Icelandic eiginkona beside kona does.
     mrw: ["kawiŋ", "kawiŋ"],
     sm: ["āvā", "aːvaː"],  // The ABVD Samoan list gives fafine for woman and tāne for husband.
     tet: ["fen", "fen"],  // The ABVD Tetun list gives feto for woman and la'en for husband.
     min: ["bini", "bini"],  // The ABVD Minangkabau list gives padusi for woman and laki for husband.
-    sas: ["səninə", "səninə"],
+    sas: ["səninə", "səninə"],  // A different word from nina 'woman, female' (Wiktionary), so wife has a word of its own.
     ljp: ["majəw", "majəw"],  // The ABVD Lampung list gives səbay for woman and lakəy for husband.
     sda: ["baine", "baine"],  // The same word means woman: the ABVD Tae' (Sa'dan Toraja) list gives baine for both wife and woman.
     su: ["pamajikan", "pamadʒikan"],  // The ABVD Sundanese list gives awéwé for woman and salaki for husband.
@@ -723,9 +723,9 @@ WORDS.wife = {
     tl: ["asawa", "ʔaˈsawa"],  // The same word means spouse and husband; the Spanish loan esposa is also used.
     mr: ["बायको", "bajko"],  // An older use of the word also meant woman, but today's words for woman are बाई and स्त्री.
     sw: ["mke", "ˈm̩ke"],  // Also a contraction of mwanamke 'woman'.
-    lep: ["ᰣᰦᰚᰪ", "ʔajɯ"],  // No word for woman from the same source is set beside it.
+    lep: ["ᰣᰦᰚᰪ", "ʔajɯ"],  // Wiktionary gives ᰊᰣᰤᰪ taʔyu for woman, a different word from this one.
     bew: ["bini", "bini"],  // Inherited from Malay bini; the entry's own quotation uses prempuan for woman.
-    kgp: ["mré nĩ fi", "mɾɛnĩˈɸi"],  // No woman word from the same source is set beside it, and the parts are not glossed.
+    kgp: ["mré nĩ fi", "mɾɛnĩˈɸi"],  // Wiktionary gives ũn tỹtá for woman, a different word; the parts of mré nĩ fi are not glossed.
     eo: ["edzino", "eˈdzino"],  // Read as edzo 'husband, spouse' with the feminine ending -ino; its real origin is uncertain.
     cu: ["жена", "ʒena"],  // The same word means woman.
     rm: ["dunna", "ˈduna"],  // The same word means woman; it comes from Latin domina 'lady of the house'.
@@ -791,9 +791,9 @@ WORDS.wife = {
     om: ["niitii", "niːtiː"],  // The word for woman is dubartii (Wiktionary).
     ky: ["аял", "ɑˈjɑl"],  // The same word means woman; it comes through Persian from Arabic ʕayāl 'offspring'.
     nmn: ["tâa qáe", "taa qae"],  // The same phrase means woman: tâa 'person' plus qáe 'female'.
-    hai: ["jáa", "dʒáː"],  // The source gives no word for woman beside it.
+    hai: ["jáa", "dʒáː"],  // Wiktionary gives jáadaa for woman, a different word from jáa.
     gl: ["esposa", "esˈposa"],  // From Latin spōnsa; muller, the word for woman, is also used for wife.
-    mdr: ["baine", "bainɛ"],  // From Proto-Malayo-Polynesian *babinahi; the source gives no woman word beside it.
+    mdr: ["baine", "bainɛ"],  // From Proto-Malayo-Polynesian *babinahi; Wiktionary gives tobaine for woman, a different word.
     gu: ["પત્ની", "ˈpətniː"],  // A learned borrowing from Sanskrit पत्नी; the word for woman is નારી, though several woman words can also mean wife.
     mk: ["жена", "ˈʒɛna"],  // The same word means woman; сопруга is a formal synonym.
     blc: ["cnas", "çnas"],  // The same word means woman.
@@ -886,14 +886,14 @@ WORDS.wife = {
     nlc: ["gel", "ɡel"],  // The same word means woman.
     vot: ["nain", "nain"],  // The same word means woman; from Proto-Finnic nainën.
     djk: ["uman", "uman"],  // The same word means woman; from English woman.
-    gor: ["binggele", "biŋɡele"],  // No word for woman is given beside it, so the route is not known.
+    gor: ["binggele", "biŋɡele"],  // Wiktionary gives taa bua for woman, a different word.
     tar: ["upí", "upi"],  // Cognate with Mayo juubi 'wife'; no word for woman is given beside it.
     dlg: ["дьактар", "dʲaktar"],  // The same word means woman; cognate with Yakut дьахтар.
     bej: ["hiyu", "ˈhiju"],  // The same word means husband.
     bgc: ["बीर", "biːr"],  // The same word means woman.
     ny: ["mkazi", "m̩ˈkazi"],  // The same word means woman; from Proto-Bantu mʊ̀kádí.
     xmr: ["𐦱𐦨", "səma"],  // The word for woman is a different one, 𐦲𐦷𐦢 (Wiktionary).
-    wal: ["machchiyo", "matʃːijo"],  // The source gives this one word for wife; no word for woman is beside it, so the route is unknown.
+    wal: ["machchiyo", "matʃːijo"],  // Wiktionary gives maccaasiyo for woman, a different word.
     ket: ["ӄим", "qʲim"],  // One word for woman and wife, inherited from Proto-Yeniseian *qim 'woman'.
     egl: ["mujêr", "muˈjeːr"],  // From Latin mulier; the word for woman is dòna (Wiktionary).
     mag: ["मेहरारू", "meːhraːruː"],  // One word for woman and wife.
@@ -912,7 +912,7 @@ WORDS.wife = {
     txg: ["𗪰", "ɡji˧˥"],  // A word of its own; the word for woman is 𗶈 *dẹ¹.
     ett: ["puia", "ˈpuia"],  // Perhaps related somehow to Ancient Greek ὀπυίω 'to marry'; no Etruscan word for woman stands beside it.
     squ: ["chewásh", "tʃəwaʃ"],  // A married woman; the word for woman is slhánay̓ (Wiktionary).
-    bdq: ["akăn", "ʔakan"],  // From Proto-Bahnaric *ʔəkan 'wife', a prefixed form of *kan 'female'; the source gives no word for woman beside it.
+    bdq: ["akăn", "ʔakan"],  // From Proto-Bahnaric *ʔəkan 'wife', a prefixed form of *kan 'female'; Wiktionary gives drŏ-kăn for woman, a different word.
     ibb: ["n̄n̄waan", "ŋ̍ŋwaːn"],  // The same word means woman and wife (and female).
     slr: ["kiyne", "kʰijni"],  // From Proto-Turkic *kẹlin; the word for woman is a different one, qadın.
     ykg: ["мирийэ", "mirije"],  // From Proto-Yukaghir *mirijə; the word for woman is a different one, пайпэ.

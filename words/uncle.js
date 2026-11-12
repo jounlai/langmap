@@ -164,7 +164,7 @@ WORDS.uncle = {
     nci: "one",
     ne: "split",
     nl: "one",
-    nn: "unknown",
+    nn: "split",
     no: "split",
     olo: "unknown",
     om: "unknown",
@@ -175,7 +175,7 @@ WORDS.uncle = {
     pjt: "split",
     pl: "split",
     pms: "unknown",
-    prg: "unknown",
+    prg: "split",
     pt: "one",
     rgn: "unknown",
     rmy: "one",
@@ -465,7 +465,7 @@ WORDS.uncle = {
     nci: ["tlahtli", "ˈtɬaʔtɬi"],
     ne: ["काका", "käkä"],  // Father's brother; mother's brother is मामा.
     nl: ["oom", "oːm"],
-    nn: ["onkel", "ˈɔŋkəl"],
+    nn: ["farbror", "ˈfɑrbrʊr"],  // Father's brother; mother's brother is morbror (Wiktionary, Nynorsk), as in Bokmål.
     no: ["farbror", "ˈfɑrbrʊr"],  // Father's brother; mother's brother is morbror.
     olo: ["diädö", "ˈdʲiæ̯dʲø"],
     om: ["eessuma", "eːsːʊmɐ"],
@@ -476,7 +476,7 @@ WORDS.uncle = {
     pjt: ["mama", "ˈmɐmɐ"],  // Father's brother; mother's brother is kamuṟu.
     pl: ["stryj", "strɘj"],  // Father's brother; mother's brother is wuj.
     pms: ["barba", "barba"],
-    prg: ["awis", "awis"],
+    prg: ["tēwis", "teːwis"],  // Father's brother (tēvis in KinBank, after Schmalstieg); the mother's brother is awis, glossed 'Oheim' in the Elbing Vocabulary.
     pt: ["tio", "ˈtiu"],
     rgn: ["dàdo", "dado"],
     rmy: ["kak", "kak"],  // One word for both sides: KinBank gives kak for the father's and the mother's brother, with dako pral 'mother's brother' as a descriptive alternative.

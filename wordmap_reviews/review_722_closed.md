@@ -85,3 +85,6 @@ Leads left: Swahili nyanya origin would settle ~15 East African tomato cells; os
 koi енӧшка note says 'God's little bull' after Lytkin, Panyukov 2024 reports Lytkin–Gulyaev as 'heavenly spring' (route
 other either way; note unverified); et kõu possibly 'ancestor' (god?).
 Review 722 total: 756 of 1,854 routed.
+- Aligned after p2b's doubt: a tomorrow word that puts a future marker on the yesterday root is `other`, as ty ānānahi
+  (Pollex) already was: ami anocila (inacila) unknown → other, pwn nutiaw (katiaw) plain → other. sel тялы and yrk тебтаʼ
+  are not shown to be built that way and stay as they are.

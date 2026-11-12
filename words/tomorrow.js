@@ -632,7 +632,7 @@ WORDS.tomorrow = {
     ndc: "plain",
     ote: "morning",
     otq: "morning",
-    ami: "unknown",
+    ami: "other",
     trv: "plain",
     tsu: "same",
     tao: "plain",
@@ -810,7 +810,7 @@ WORDS.tomorrow = {
     gcf: "morning",
     frp: "morning",
     lhu: "unknown",
-    pwn: "plain",
+    pwn: "other",
     tay: "plain",
     bnn: "plain",
     dsh: "plain",
@@ -1522,7 +1522,7 @@ WORDS.tomorrow = {
     ndc: ["mangwana", "maŋɡwana"],  // Mangwana is 'tomorrow' in Ndau, as in Shona, paired with nyamasi 'today'. Route by resemblance to the neighbouring forms (sn(mangwana)); no etymology of its own.
     ote: ["xudi", "ʃudi"],  // Xudi means 'morning'; with the article (ar xudi) it means 'tomorrow'.
     otq: ["xudi", "ʃudi"],  // Xudi is 'tomorrow' in Querétaro Otomi, paired with nupya 'today'; in Mezquital Otomi the same word means 'morning'. Route by resemblance to the neighbouring forms (ote(xudi)); no etymology of its own.
-    ami: ["anocila", "anotsila"],  // Anocila is 'tomorrow' in Amis, a mirror of inacila 'yesterday'.
+    ami: ["anocila", "anotsila"],  // Anocila is 'tomorrow' and inacila 'yesterday': one day root with a future and a past marker, filed with Tahitian ānānahi.
     trv: ["kusun", "kusun"],  // Kusun is 'tomorrow' in Truku Seediq. No image is recorded for it, so it counts as a word of its own.
     tsu: ["hucma", "hutsma"],  // Hucma is both 'yesterday' and 'tomorrow' in Tsou: the particle before it (ne for past, ho for future) tells which.
     tao: ["simaraw", "simaraw"],  // Simaraw is 'tomorrow' in Tao, paired with sicyaraw 'today'. No image is recorded for it, so it counts as a word of its own.
@@ -1700,7 +1700,7 @@ WORDS.tomorrow = {
     gcf: ["dèmen", "dɛmɛ̃"],  // Dèmen is 'tomorrow' in Guadeloupean Creole ('I ka vini dèmen', he is coming tomorrow, APiCS). From French demain. Route by resemblance to the neighbouring forms (ht(demen) acf(denmen)); no etymology of its own.
     frp: ["deman", "dəˈmã"],  // Deman comes from Latin dē māne 'from the morning', like French demain (Wiktionary).
     lhu: ["šɔ́-pɔ̄", "ʃɔ́pɔ̏"],  // Lahu šɔ́-pɔ̄ is 'tomorrow' (Matisoff); yesterday is a different word, a-nyi (Hebrews 13:8 'aˉ nyi, ya‸ nyi' — yesterday, today).
-    pwn: ["nutiaw", "nutiaw"],  // Nutiaw is 'tomorrow' and katiaw 'yesterday': the ILRDF dictionary glosses the shared root tiaw- as 'yesterday', and many villages say nutiav / katiav. No image is recorded for it, so it counts as a word of its own.
+    pwn: ["nutiaw", "nutiaw"],  // Nutiaw is 'tomorrow' and katiaw 'yesterday': the ILRDF dictionary glosses the shared root tiaw- as 'yesterday', and many villages say nutiav / katiav. The future nu- on that root is filed with Tahitian ānānahi.
     tay: ["suxan", "suxan"],  // Suxan is the Squliq Atayal word for tomorrow; yesterday is a different word, sheraʼ (also hira). No image is recorded for it, so it counts as a word of its own.
     bnn: ["kutun", "kutun"],  // Kutun (also kutunin) is the Bunun word for tomorrow; yesterday is a different word, takna. No image is recorded for it, so it counts as a word of its own.
     dsh: ["beríka", "bɛɾika"],  // Beríka is the Daasanach word for tomorrow (James 4:13 'beríka yíekaʼ'); yesterday is gefere and the day after tomorrow burgalia. No image is recorded for it, so it counts as a word of its own.

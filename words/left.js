@@ -665,11 +665,11 @@ WORDS.left = {
     hak_cn: ["左", "tso˧˩"],
     mnp: ["左", "tsɔ˨˩"],
     cdo: ["左", "tso˧˧"],
-    nan: ["左", "tso˥˧"],
-    nan_xm: ["左", "tso˥˧"],
-    nan_qz: ["左", "tsɔ˥˥˦"],
-    nan_zz: ["左", "tso˥˧"],
-    nan_te: ["左", "tso˥˨"],
+    nan: ["倒", "to˩˩"],  // The everyday word tò, written with 倒 'to reverse' (Wiktionary dialect table for this town); 左 is the literary word.
+    nan_xm: ["倒", "to˨˩"],  // The everyday word tò, written with 倒 'to reverse' (Wiktionary dialect table for this town); 左 is the literary word.
+    nan_qz: ["倒", "tɤ˦˩"],  // The everyday word tò, written with 倒 'to reverse' (Wiktionary dialect table for this town); 左 is the literary word.
+    nan_zz: ["倒", "to˨˩"],  // The everyday word tò, written with 倒 'to reverse' (Wiktionary dialect table for this town); 左 is the literary word.
+    nan_te: ["倒", "to˨˩˧"],  // The everyday word tò, written with 倒 'to reverse' (Wiktionary dialect table for this town); 左 is the literary word.
     wuu: ["左", "tsu˧˥"],
     hsn: ["左", "tso˦˩"],
     wuu_hz: ["左", "tso˥˧"],

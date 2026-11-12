@@ -10,3 +10,8 @@ Map labels changed for natural wording: fr jet-lag route « écart horaire », s
 Round 2: en 5 (teahouse dates paired one by one; jetlag "biggest" of three routes, "second route"; later the route, not a name,
 is the biggest, and the condition is "named after the time difference"), ja 8, ko 3, zh 6, yue 10, vi 9, th 7, id 11, hi 7, sw 7,
 de 9, fr 18, it 10, es 8, pt 8, ru 6, uk 6, ar 5, he 5. Legend: zh/yue USB stick route 棍子/棍 (a club) → 棒.
+
+Round 3: en 1 (foam-tea relative clause), ja 8, ko 7, zh 4, yue 4, vi 7, th 3 (the map no longer "borrows" or "sorts"), id 11, hi 9,
+sw 6, de 5, fr 8, it 8 ("une balle anglaise" read as a bullet; 波霸 not 霸 means big balls; bubble tea plays on sound AND meaning),
+es 11, pt 8, ru 9, uk 9, ar 2, he 8 (jetlag "second route" everywhere; words that "say" → "mean").
+Site: pt Armenian Arménio → Armênio (Brazilian).

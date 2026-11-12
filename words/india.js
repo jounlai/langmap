@@ -191,7 +191,7 @@ WORDS.india = {
     lmo: "greek",
     bjn: "greek",
     ban: "greek",
-    shn: "unknown",
+    shn: "greek",
     lt: "greek",
     tum: "greek",
     zza: "persian",
@@ -297,7 +297,7 @@ WORDS.india = {
     vi_c: "yindu",
     vi_s: "yindu",
     prs: "persian",
-    hyw: "unknown",
+    hyw: "persian",
     th_isan: "greek",
     en_aave: "greek",
     en_nz: "greek",
@@ -427,11 +427,11 @@ WORDS.india = {
     pis: "greek",
     kj: "greek",
     bxr: "other",
-    nzi: "unknown",
+    nzi: "greek",
     adi: "greek",
     anu: "greek",
     ctu: "greek",
-    inh: "unknown",
+    inh: "persian",
     fur: "greek",
     wa: "greek",
     bsq: "greek",
@@ -493,7 +493,7 @@ WORDS.india = {
     smn: "greek",
     niu: "greek",
     yap: "greek",
-    vo: "unknown",
+    vo: "greek",
     liv: "greek",
     tlh: "bharat",
     la: "greek",
@@ -676,7 +676,7 @@ WORDS.india = {
     lmo: ["India", "ˈindja"],  // Lombard Wikipedia name for the country, used with the article, l'India; no source found naming the donor. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     bjn: ["Hindia", "hindia"],  // Banjar Wikipedia name for the country, with an initial h; no source found giving its path. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     ban: ["India", "india"],  // Balinese Wikipedia name for the country, the same form as Indonesian India; no source found naming the donor. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
-    shn: ["မိူင်းဢိၼ်းတီးယႃး", "mɤŋ˥ ʔin˥ tiː˥ jaː˥"],  // Literally "country of India", မိူင်း "country" plus ဢိၼ်းတီးယႃး; Wiktionary gives no donor for the second part.
+    shn: ["မိူင်းဢိၼ်းတီးယႃး", "mɤŋ˥ ʔin˥ tiː˥ jaː˥"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     lt: ["Indija", "ˈɪnʲdʲɪjɛ"],  // Lithuanian name of the country, officially Indijos Respublika; no source found giving its etymology. Route by resemblance to the neighbouring forms (ru(Индия) cs(Indie)); no etymology of its own.
     tum: ["India", "india"],  // Tumbuka Wikipedia name for the country, spelled as in English; no source found naming the donor. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     zza: ["Hindıstan", "hindɨsˈtan"],  // Zaza name for India, shaped like Turkish Hindistan with the -stan ending; no source found that names the donor. Route by resemblance to the neighbouring forms (tr(Hindistan) ug(ھىندىستان)); no etymology of its own.
@@ -912,11 +912,11 @@ WORDS.india = {
     pis: ["India", "india"],  // Pijin uses the English name India ("kantri blong India", Esther 1:1-2, 8:9). Route by resemblance to Tok Pisin India; no etymology of its own.
     kj: ["India", "india"],  // Kuanyama uses the name India ("okudja kuIndia fiyo okuEtiopia", Esther 1:1, 8:9). Route by resemblance to the international India; no etymology of its own.
     bxr: ["Энэдхэг", "enetxek"],  // The Buryat counterpart of Mongolian Энэтхэг, from Old Uyghur enetkek; Инди is also used (Wiktionary). Route by resemblance to Mongolian.
-    nzi: ["Yendea", "jendea"],  // Yendea, the name the Nzema Bible uses for India in Esther 1:1 and 8:9.
+    nzi: ["Yendea", "jendea"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     adi: ["India", "india"],  // Adi uses the name India ("India lokke ilangala Ethiopia", Esther 1:1, 8:9). Route by resemblance to the international India; no etymology of its own.
     anu: ["India", "india"],  // Anuak uses the name India ("mana täge India këël Ithiöpia", Esther 1:1, 8:9). Route by resemblance to the international India; no etymology of its own.
     ctu: ["India", "india"],  // Chol uses the Spanish name India ("cʼäläl ti India cʼäläl ti Etiopía", Esther 1:1, 8:9). Route by resemblance to Spanish India; no etymology of its own.
-    inh: ["ХӀиндиче", "hinditʃe"],  // ХӀиндиче, the title of the Ingush Wikipedia article on India.
+    inh: ["ХӀиндиче", "hinditʃe"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     fur: ["Indie", "ˈindie"],  // Indie, the title of the Friulian Wikipedia article on India ("La Indie e je un stât de Asie").
     wa: ["Inde", "ɛ̃t"],  // Inde, as in French, with the final d said as t (Walloon Wiktionary); the title of the Walloon Wikipedia article.
     bsq: ["Índìà", "índìà"],  // Índìà, as in the Bassa Bible, which says Índìà-ɓòɖòɔ̀ "the land of India".
@@ -978,7 +978,7 @@ WORDS.india = {
     smn: ["India", "ˈindia"],  // India, the Inari Sámi name of the country, officially India täsiväldi (Inari Sámi Wikipedia).
     niu: ["Initia", "initia"],  // Initia, the Niuean name used in the Niue Standard Bible, which writes "mai i Initia ti hoko atu ki Aitiope" (from India to Ethiopia).
     yap: ["India", "india"],  // India, the same as English, as in the Yapese Bible Ni Thothup, Esther 1:1 "nu India nge mada' nga Ethiopia" and 8:9 "u India me yan i mada' nga Sudan".
-    vo: ["Lindän", "linˈdɛn"],  // Lindän, formed with the Volapük country suffix -än; the Volapük Wikipedia titles its article on India Lindän.
+    vo: ["Lindän", "linˈdɛn"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     liv: ["Indij", "ˈindij"],  // Indij, the Livonian name of the country, listed in the Livonian–Latvian–Estonian dictionary at livonian.tech alongside Indij okeān 'Indian Ocean'.
     tlh: ["barat", "bɑrɑtʰ"],  // barat, borrowed from Hindi भारत Bhārat according to Wiktionary.
     la: ["India", "ˈindia"],  // Borrowed from Greek Ἰνδία, the land of the Indus.

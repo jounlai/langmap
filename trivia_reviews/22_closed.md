@@ -36,3 +36,8 @@ Round 9 (read aloud): ja 1, vi 1, th 2, hi 1, sw 1, it 1, others 0.
 Also: lang_names — 242 site names aligned with the stories and Wikipedia (~/langmap-work/names1112/proposals.json; he geresh ׳ kept,
 2 left: he cv, uk koi); uk cell footnote на карті → на мапі in all uk stories; usbstick uk legend apostrophes ’, pt "um drive".
 Story-side name replacements (259 strings) wait until round 10 is done.
+
+Round 9 (G3): uk 3 (гонконзьк- as lang_names), he 3 (שנוער read as נוער "youth"), others 0.
+Round 10: recount against the final map — only cottoncandy changed (wool route 5 → 8 after the Serbo-Croatian fill; Serbian, Croatian
+and Bosnian šećerna vuna added beside Macedonian шеќерна волна; the air route's "too" dropped), carried into all 19 languages; last
+look found nothing else. Ten rounds closed.

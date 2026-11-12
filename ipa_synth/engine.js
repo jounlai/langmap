@@ -739,8 +739,16 @@
                 // the two vowels, or the first is heard as a glide/lateral ("les")
                 {
                     const pv = segs[i - 1];
-                    if (pv && pv.type === 'V' && !pv.nonsyl && !s.nonsyl && pv.syl !== s.syl && !pv.apical && !s.apical && isNucleus(s))
+                    const wordStart = pv && pv.word !== s.word;
+                    const pvVoiced = pv && !pv.pause && (pv.type === 'V' || ['nasal', 'approx', 'lat', 'trill', 'tap'].includes(pv.manner) || GLIDES.has(pv.base));
+                    if (pv && pv.type === 'V' && !pv.nonsyl && !s.nonsyl && pv.syl !== s.syl && !pv.apical && !s.apical && isNucleus(s) && !wordStart)
                         push(32, Object.assign({}, vtarget[i - 1], { AV: .25, CR: .6 }), Object.assign({ kind: 'hiatus', edgeA: 8 }, info));
+                    // a word that begins with a vowel after a word ending in a vowel, glide or sonorant: a short
+                    // break with a hard (glottal) onset, as Vietnamese út, ăn are said [ʔut], [ʔan] — else
+                    // taj ut runs together as tajut
+                    // (other languages link a consonant into the next word — French enchaînement — so there only vowel + vowel)
+                    else if (wordStart && isNucleus(s) && !s.nonsyl && ((prof.centering || tonal) ? pvVoiced : (pv.type === 'V' && !pv.nonsyl)))
+                        push(prof.centering || tonal ? 45 : 32, Object.assign({}, s.type === 'V' ? vtarget[i] : P, { AV: .12, CR: .7 }), Object.assign({ kind: 'word break', edgeA: 6 }, info));
                 }
                 if (s._implosiveOnset) push(25, Object.assign({}, P, { CR: .6, AV: 1 }), Object.assign({ kind: 'creaky onset', edgeA: 1, edgeF: 10 }, info));
                 if (s.sylBreak != null && isNucleus(s) && tone) {

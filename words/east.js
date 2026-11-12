@@ -433,6 +433,48 @@ WORDS.east = {
     bs: "rising",
     lij_t: "dawn",
     jvn: "plain",
+    cdo: "dong",
+    cjy: "dong",
+    cjy_lv: "dong",
+    cjy_xz: "dong",
+    cnp: "dong",
+    cpx: "dong",
+    czh: "dong",
+    czh_wy: "dong",
+    gan_fz: "dong",
+    gan_ja: "dong",
+    gan_yc: "dong",
+    hsn_hy: "dong",
+    hsn_yz: "dong",
+    nan_hai: "dong",
+    nan_ph: "dong",
+    nan_pn: "dong",
+    nan_qz: "dong",
+    nan_xm: "dong",
+    nan_zz: "dong",
+    wuu_hz: "dong",
+    wuu_jx: "dong",
+    wuu_nb: "dong",
+    wuu_sz: "dong",
+    wuu_wz: "dong",
+    yue_gz: "dong",
+    yue_nn: "dong",
+    yue_ts: "dong",
+    yue_zs: "dong",
+    zh_cq: "dong",
+    zh_db: "dong",
+    zh_hf: "dong",
+    zh_jh: "dong",
+    zh_jiao: "dong",
+    zh_jn: "dong",
+    zh_kf: "dong",
+    zh_km: "dong",
+    zh_lz: "dong",
+    zh_nj: "dong",
+    zh_sc: "dong",
+    zh_tj: "dong",
+    zh_wh: "dong",
+    zh_zz: "dong",
   },
   routes: {
     dawn: {"color":"#f59e0b","emoji":"🌄","en":"a word for dawn or morning (east, Osten, est)","ja":"夜明け・朝の語（east, Osten, est）","ko":"새벽·아침의 말 (east, Osten, est)","zh":"表示黎明或早晨的词（east、Osten、est）","yue":"解黎明或者朝早嘅詞（east、Osten、est）","vi":"từ chỉ bình minh, buổi sáng (east, Osten, est)","th":"คำสำหรับรุ่งอรุณหรือเช้า (east, Osten, est)","id":"kata untuk fajar atau pagi (east, Osten, est)","hi":"भोर या सुबह का शब्द (east, Osten, est)","de":"ein Wort für Morgenröte oder Morgen (east, Osten, est)","fr":"un mot pour l'aube ou le matin (east, Osten, est)","it":"una parola per l'alba o il mattino (east, Osten, est)","es":"una palabra para el alba o la mañana (east, Osten, est)","pt":"uma palavra para a aurora ou a manhã (east, Osten, est)","ru":"слово для зари или утра (east, Osten, est)","uk":"слово для світанку чи ранку (east, Osten, est)","ar":"كلمة للفجر أو الصباح (east, Osten, est)","he":"מילה לשחר או לבוקר (east, Osten, est)","sw":"neno la alfajiri au asubuhi (east, Osten, est)"},
@@ -804,5 +846,47 @@ WORDS.east = {
     bs: ["istok", "ˈistok"],
     lij_t: ["est", "ɛst"],
     jvn: ["wétan", "wetan"],
+    cdo: ["东", "tøyŋ˥˥"],  // 东, 'east'. Reading from MCPDict 福州 (colloquial reading) and Wiktionary.
+    cjy: ["东", "tuŋ˩"],  // 东, 'east'. Reading from MCPDict 太原.
+    cjy_lv: ["东", "tuʌŋ˨˦"],  // 东, 'east'. Reading from MCPDict 離石.
+    cjy_xz: ["东", "tuəŋ˧˩˧"],  // 东, 'east'. Reading from MCPDict 忻州秀容.
+    cnp: ["东", "tœŋ˥˧"],  // 东, 'east'. Reading from MCPDict 南寧亭子.
+    cpx: ["东", "taŋ˥˧˧"],  // 东, 'east'. Reading from Wiktionary (Putian, colloquial reading).
+    czh: ["东", "tan˩˩"],  // 东, 'east'. Reading from MCPDict 屯溪.
+    czh_wy: ["东", "tɔm˦˦"],  // 东, 'east'. Reading from MCPDict 婺源.
+    gan_fz: ["东", "tuŋ˩˩"],  // 东, 'east'. Reading from MCPDict 臨川.
+    gan_ja: ["东", "tuŋ˧˧˦"],  // 东, 'east'. Reading from MCPDict 吉安.
+    gan_yc: ["东", "tɤŋ˧˥"],  // 东, 'east'. Reading from MCPDict 宜春.
+    hsn_hy: ["东", "təŋ˦˦˥"],  // 东, 'east'. Reading from MCPDict 衡陽.
+    hsn_yz: ["东", "toŋ˧˧"],  // 东, 'east'. Reading from MCPDict 冷水灘.
+    nan_hai: ["东", "ɗaŋ˨˧"],  // 东, 'east'. Reading from MCPDict 海口.
+    nan_ph: ["東", "taŋ˧˧"],  // 東, 'east'. Reading from Wiktionary (Quanzhou).
+    nan_pn: ["東", "taŋ˧˧"],  // 東, 'east'. Reading from Wiktionary (Zhangzhou).
+    nan_qz: ["东", "taŋ˧˧"],  // 东, 'east'. Reading from Wiktionary (Quanzhou).
+    nan_xm: ["东", "taŋ˦˦"],  // 东, 'east'. Reading from Wiktionary (Xiamen).
+    nan_zz: ["东", "taŋ˦˦"],  // 东, 'east'. Reading from Wiktionary (Zhangzhou).
+    wuu_hz: ["东", "toŋ˧˧"],  // 东, 'east'. Reading from MCPDict 杭州.
+    wuu_jx: ["东", "toŋ˥˩"],  // 东, 'east'. Reading from MCPDict 嘉興.
+    wuu_nb: ["东", "toŋ˥˨"],  // 东, 'east'. Reading from MCPDict 寧波.
+    wuu_sz: ["东", "toŋ˦˦"],  // 东, 'east'. Reading from MCPDict 蘇州.
+    wuu_wz: ["东", "toŋ˧˧"],  // 东, 'east'. Reading from MCPDict 溫州.
+    yue_gz: ["东", "ɗuŋʷ˥˨"],  // 东, 'east'. Reading from MCPDict 化州.
+    yue_nn: ["东", "tʊŋ˥˥"],  // 东, 'east'. Reading from MCPDict 南寧.
+    yue_ts: ["东", "ʔəɯŋ˧˧"],  // 东, 'east'. Reading from MCPDict 台山.
+    yue_zs: ["東", "tʊŋ˥˥"],  // 東, 'east'. Reading from MCPDict 中山.
+    zh_cq: ["东", "toŋ˥"],  // 东, 'east'. Reading from MCPDict 重慶.
+    zh_db: ["东", "tʊŋ˥"],  // 东, 'east'. Reading as the zh row's own cell.
+    zh_hf: ["东", "təŋ˨˩˨"],  // 东, 'east'. Reading from MCPDict 合肥.
+    zh_jh: ["东", "toŋ˧˩"],  // 东, 'east'. Reading from MCPDict 揚州.
+    zh_jiao: ["东", "təŋ˨˩˧"],  // 东, 'east'. Reading from MCPDict 青島.
+    zh_jn: ["东", "tuŋ˨˩˧"],  // 东, 'east'. Reading from MCPDict 濟南.
+    zh_kf: ["东", "tuəŋ˨˦"],  // 东, 'east'. Reading from MCPDict 開封.
+    zh_km: ["东", "toŋ˦˦"],  // 东, 'east'. Reading from MCPDict 昆明.
+    zh_lz: ["东", "tuə̃˧˩"],  // 东, 'east'. Reading from MCPDict 蘭州.
+    zh_nj: ["东", "toŋ˧˩"],  // 东, 'east'. Reading from MCPDict 南京.
+    zh_sc: ["东", "toŋ˥"],  // 东, 'east'. Reading from MCPDict 成都.
+    zh_tj: ["东", "tuŋ˨˩"],  // 东, 'east'. Reading from MCPDict 天津.
+    zh_wh: ["东", "toŋ˥˥"],  // 东, 'east'. Reading from MCPDict 武漢.
+    zh_zz: ["东", "tuŋ˨˦"],  // 东, 'east'. Reading from MCPDict 開封 (no Zhengzhou table).
   },
 };

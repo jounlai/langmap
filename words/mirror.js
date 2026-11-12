@@ -449,6 +449,42 @@ WORDS.mirror = {
     nhx: "plain",
     wym: "speculum",
     mns: "look",
+    cdo: "jing",
+    cjy: "jing",
+    cnp: "jing",
+    cpx: "jing",
+    dng: "jing",
+    gan: "jing",
+    hak_cn: "jing",
+    hak_tw: "jing",
+    hsn: "jing",
+    mnp: "jing",
+    nan: "jing",
+    nan_hai: "jing",
+    nan_ph: "jing",
+    nan_pn: "jing",
+    nan_qz: "jing",
+    nan_te: "jing",
+    nan_xm: "jing",
+    nan_zz: "jing",
+    wuu: "jing",
+    wuu_hz: "jing",
+    wuu_jh: "jing",
+    wuu_nb: "jing",
+    wuu_sz: "jing",
+    wuu_wz: "jing",
+    yue_dg: "jing",
+    yue_ts: "jing",
+    yue_zs: "jing",
+    zh_cd: "jing",
+    zh_hf: "jing",
+    zh_jh: "jing",
+    zh_jn: "jing",
+    zh_lz: "jing",
+    zh_nj: "jing",
+    zh_sc: "jing",
+    zh_tw: "jing",
+    zh_wh: "jing",
   },
   routes: {
     speculum: {"color":"#2563eb","emoji":"🏛️","en":"from Latin speculum (espejo, Spiegel)","ja":"ラテン語 speculum から (espejo, Spiegel)","ko":"라틴어 speculum에서 (espejo, Spiegel)","zh":"来自拉丁语 speculum (espejo, Spiegel)","yue":"嚟自拉丁語 speculum (espejo, Spiegel)","vi":"từ tiếng Latinh speculum (espejo, Spiegel)","th":"จากภาษาละติน speculum (espejo, Spiegel)","id":"dari speculum Latin (espejo, Spiegel)","hi":"लैटिन speculum से (espejo, Spiegel)","de":"aus lateinisch speculum (espejo, Spiegel)","fr":"du latin speculum (espejo, Spiegel)","it":"dal latino speculum (espejo, Spiegel)","es":"del latín speculum (espejo, Spiegel)","pt":"do latim speculum (espejo, Spiegel)","ru":"от латинского speculum (espejo, Spiegel)","uk":"від латинського speculum (espejo, Spiegel)","ar":"من اللاتينية speculum (espejo, Spiegel)","he":"מהלטינית speculum (espejo, Spiegel)","sw":"kutoka Kilatini speculum (espejo, Spiegel)"},
@@ -837,5 +873,41 @@ WORDS.mirror = {
     nhx: ["te̱scaꞌ", "teːskaʔ"],
     wym: ["śpigel", "ˈɕpiɡɛl"],
     mns: ["вӣльтсуснэ ке̄р", "ˈwiːlʲtsusne keːr"],  // вӣльт 'face' + суснэ 'looking' + ке̄р 'iron'.
+    cdo: ["镜", "kiaŋ˨˩˧"],  // 镜 'mirror', written with 金 'metal'. Word from Wiktionary's dialect table for Fuzhou; reading from MCPDict 福州.
+    cjy: ["镜子", "tɕiŋ˦˥ tsəʔ˨"],  // 镜 'mirror' with the noun suffix 子. Word from Wiktionary's dialect table for Taiyuan; reading from MCPDict 太原 and Wiktionary (Taiyuan), with 子 as in the row's own cells.
+    cnp: ["镜", "keŋ˥˥"],  // 镜 'mirror', written with 金 'metal'. Word from Wiktionary's dialect table for Nanning-P; reading from MCPDict 南寧亭子.
+    cpx: ["镜", "kia˦˨"],  // 镜 'mirror', written with 金 'metal'. Word from Wiktionary's dialect table for Putian; reading from MCPDict 莆田.
+    dng: ["җинзы", "tɕiŋ˦ tsɹ̩˨˦"],  // Cognate with Mandarin 镜子. Dungan reading from Wiktionary's Chinese entry 鏡子.
+    gan: ["镜子", "tɕiaŋ˧˥ tsɿ˨"],  // 镜 'mirror' with the noun suffix 子. Word from Wiktionary's dialect table for Nanchang; reading from Wiktionary (Nanchang).
+    hak_cn: ["镜仔", "kiaŋ˥˧ e˧˩"],  // 镜 'mirror' with the noun suffix 仔. Word from Wiktionary's dialect table for Meixian; reading from MCPDict 梅縣.
+    hak_tw: ["鏡仔", "kiaŋ˥˥ e˧˩"],  // 鏡 'mirror' with the noun suffix 仔. Word from Wiktionary's dialect table for Miaoli; reading from Wiktionary (Sixian).
+    hsn: ["镜子", "tɕin˦˥ tsɿ"],  // 镜 'mirror' with the noun suffix 子. Word from Wiktionary's dialect table for Changsha; reading from MCPDict 長沙.
+    mnp: ["镜", "kiaŋ˧˧"],  // 镜 'mirror', written with 金 'metal'. Word from Wiktionary's dialect table for Jian'ou; reading from Wiktionary (Jian'ou).
+    nan: ["鏡", "kiã˩˩"],  // 鏡 'mirror', written with 金 'metal'. Word from Wiktionary's dialect table for Kaohsiung; reading from Wiktionary (General Taiwanese).
+    nan_hai: ["镜", "kia˧˥"],  // 镜 'mirror', written with 金 'metal'. Word from Wiktionary's dialect table for Haikou; reading from MCPDict 海口.
+    nan_ph: ["鏡", "kiã˦˩"],  // 鏡 'mirror', written with 金 'metal'. Word from Wiktionary's dialect table for Philippine-MN (Manila); reading from Wiktionary (Quanzhou).
+    nan_pn: ["鏡", "kiã˨˩"],  // 鏡 'mirror', written with 金 'metal'. Word from Wiktionary's dialect table for Malaysia-MN (Penang); reading from Wiktionary (Zhangzhou).
+    nan_qz: ["镜", "kiã˦˩"],  // 镜 'mirror', written with 金 'metal'. Word from Wiktionary's dialect table for Quanzhou; reading from Wiktionary (Quanzhou).
+    nan_te: ["镜", "kiã˨˩˧"],  // 镜 'mirror', written with 金 'metal'. Word from Wiktionary's dialect table for Shantou; reading from Wiktionary (Teochew).
+    nan_xm: ["镜", "kiã˨˩"],  // 镜 'mirror', written with 金 'metal'. Word from Wiktionary's dialect table for Xiamen; reading from Wiktionary (Xiamen).
+    nan_zz: ["镜", "kiã˨˩"],  // 镜 'mirror', written with 金 'metal'. Word from Wiktionary's dialect table for Zhangzhou; reading from Wiktionary (Zhangzhou).
+    wuu: ["镜子", "tɕin˧˧ tsz̩˦˦"],  // 镜 'mirror' with the noun suffix 子. Word from Wiktionary's dialect table for Shanghai; reading from Wiktionary (Shanghai).
+    wuu_hz: ["镜子", "tɕiŋ˦˦˥ tsɿ˥˧"],  // 镜 'mirror' with the noun suffix 子. Word from Wiktionary's dialect table for Hangzhou; reading from MCPDict 杭州.
+    wuu_jh: ["镜", "tɕiŋ˥˥"],  // 镜 'mirror', written with 金 'metal'. Word from Wiktionary's dialect table for Jinhua; reading from MCPDict 金華.
+    wuu_nb: ["镜子", "tɕiŋ˥˥ tsɿ˧˨˥"],  // 镜 'mirror' with the noun suffix 子. Word from Wiktionary's dialect table for Ningbo; reading from MCPDict 寧波.
+    wuu_sz: ["镜子", "tɕin˥˩˧ tsɿ˥˩"],  // 镜 'mirror' with the noun suffix 子. Word from Wiktionary's dialect table for Suzhou; reading from MCPDict 蘇州.
+    wuu_wz: ["镜", "tɕaŋ˦˨"],  // 镜 'mirror', written with 金 'metal'. Word from Wiktionary's dialect table for Wenzhou; reading from MCPDict 溫州.
+    yue_dg: ["镜", "kœŋ˦˦˧"],  // 镜 'mirror', written with 金 'metal'. Word from Wiktionary's dialect table for Dongguan; reading from MCPDict 東莞 (colloquial reading).
+    yue_ts: ["镜", "kiaŋ˧˧"],  // 镜 'mirror', written with 金 'metal'. Word from Wiktionary's dialect table for Taishan; reading from MCPDict 台山.
+    yue_zs: ["鏡", "kiaŋ˧˧"],  // 鏡 'mirror', written with 金 'metal'. Word from Wiktionary's dialect table for Zhongshan; reading from MCPDict 中山.
+    zh_cd: ["镜子", "tɕin˨˩˧ tsɿ˥˧"],  // 镜 'mirror' with the noun suffix 子. Word from Wiktionary's dialect table for Chengdu; reading from MCPDict 成都.
+    zh_hf: ["镜子", "tɕiən˥˩ tə"],  // 镜 'mirror' with the noun suffix 子. Word from Wiktionary's dialect table for Hefei; reading from MCPDict 合肥.
+    zh_jh: ["镜子", "tɕiŋ˦˦ tsɿ"],  // 镜 'mirror' with the noun suffix 子. Word from Wiktionary's dialect table for Yangzhou; reading from MCPDict 揚州.
+    zh_jn: ["镜子", "tɕiŋ˨˩ tsɿ"],  // 镜 'mirror' with the noun suffix 子. Word from Wiktionary's dialect table for Jinan; reading from MCPDict 濟南.
+    zh_lz: ["镜子", "tɕiŋ˩˧ tsɨ"],  // 镜 'mirror' with the noun suffix 子. Word from Wiktionary's dialect table for Lanzhou; reading from MCPDict 蘭州.
+    zh_nj: ["镜子", "tɕiŋ˦ tsɿ"],  // 镜 'mirror' with the noun suffix 子. Word from Wiktionary's dialect table for Nanjing; reading from MCPDict 南京.
+    zh_sc: ["镜子", "tɕin˨˩˧ tsɹ̩˥˧"],  // 镜 'mirror' with the noun suffix 子. Word from Wiktionary's dialect table for Chengdu; reading from MCPDict 成都.
+    zh_tw: ["鏡子", "tɕiŋ˥˩ tsɨ"],  // 鏡 'mirror' with the noun suffix 子. Word from Wiktionary's dialect table for Taiwan; reading in the row's notation, syllables as in the row's and the zh row's own cells.
+    zh_wh: ["镜子", "tɕin˧˥ tsɿ"],  // 镜 'mirror' with the noun suffix 子. Word from Wiktionary's dialect table for Wuhan; reading from MCPDict 武漢.
   },
 };

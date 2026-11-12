@@ -449,6 +449,47 @@ WORDS.tuesday = {
     bs: "count",
     gn: "count",
     rmy: "mars",
+    cdo: "count",
+    cjy: "count",
+    cjy_xz: "count",
+    cnp: "count",
+    cpx: "count",
+    gan: "count",
+    hak_cn: "count",
+    hak_hl: "count",
+    hak_tw: "count",
+    mnp: "count",
+    nan: "count",
+    nan_hai: "count",
+    nan_ph: "count",
+    nan_pn: "count",
+    nan_qz: "count",
+    nan_te: "count",
+    nan_xm: "count",
+    nan_zz: "count",
+    wuu: "count",
+    wuu_hz: "count",
+    wuu_jh: "count",
+    wuu_nb: "count",
+    wuu_sz: "count",
+    wuu_wz: "count",
+    yue_dg: "count",
+    yue_nn: "count",
+    yue_ts: "count",
+    zh_cd: "count",
+    zh_cq: "count",
+    zh_db: "count",
+    zh_jh: "count",
+    zh_jiao: "count",
+    zh_jn: "count",
+    zh_kf: "count",
+    zh_km: "count",
+    zh_lz: "count",
+    zh_nj: "count",
+    zh_sc: "count",
+    zh_tj: "count",
+    zh_wh: "count",
+    zh_xa: "count",
   },
   routes: {
     god: {"color":"#db2777","emoji":"⚔️","en":"a Germanic god's day (Tuesday, Dienstag, tisdag)","ja":"ゲルマンの神の日（Tuesday, Dienstag, tisdag）","ko":"게르만 신의 날 (Tuesday, Dienstag, tisdag)","zh":"日耳曼神之日（Tuesday、Dienstag、tisdag）","yue":"日耳曼神嘅日（Tuesday、Dienstag、tisdag）","vi":"ngày của một vị thần German (Tuesday, Dienstag, tisdag)","th":"วันของเทพเจอร์แมนิก (Tuesday, Dienstag, tisdag)","id":"hari dewa Jermanik (Tuesday, Dienstag, tisdag)","hi":"जर्मनिक देवता का दिन (Tuesday, Dienstag, tisdag)","de":"Tag eines germanischen Gottes (Tuesday, Dienstag, tisdag)","fr":"jour d'un dieu germanique (Tuesday, Dienstag, tisdag)","it":"giorno di un dio germanico (Tuesday, Dienstag, tisdag)","es":"día de un dios germánico (Tuesday, Dienstag, tisdag)","pt":"dia de um deus germânico (Tuesday, Dienstag, tisdag)","ru":"день германского бога (Tuesday, Dienstag, tisdag)","uk":"день германського бога (Tuesday, Dienstag, tisdag)","ar":"يوم إله جرماني (Tuesday, Dienstag, tisdag)","he":"יומו של אל גרמאני (Tuesday, Dienstag, tisdag)","sw":"siku ya mungu wa Kijerumani (Tuesday, Dienstag, tisdag)"},
@@ -837,5 +878,46 @@ WORDS.tuesday = {
     bs: ["utorak", "ˈutorak"],  // From Proto-Slavic *vъtorъkъ, 'the second'.
     gn: ["araapy", "aɾaaˈpɨ"],  // ára 'day' + mbohapy 'three'.
     rmy: ["martǐ", "marti"],
+    cdo: ["礼拜二", "lɛ˧˧ pai˨˩˧ nɛi˨˦˨"],  // 礼拜 'week (lit. worship)' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    cjy: ["礼拜二", "li˥˧ pai˦˥ ɚ˦˥"],  // 礼拜 'week (lit. worship)' + 二 'two', built on the row's word for week. Reading from the row's own cells for the week word and the numeral.
+    cjy_xz: ["星期二", "ɕiəŋ˧˩˧ tɕʰi˧˩˧ ɚ˥˨"],  // 星期 'week' + 二 'two'. Week word from Wiktionary's dialect table for Xinzhou; reading from MCPDict 忻州秀容.
+    cnp: ["礼拜二", "lɐi˨˦ pai˥˥ ȵi˨˨"],  // 礼拜 'week (lit. worship)' + 二 'two'. Week word from Wiktionary's dialect table for Nanning-P; reading from MCPDict 南寧亭子.
+    cpx: ["拜二", "pai˦˨ ti˩˩"],  // 拜, short for 礼拜 'week (lit. worship)', + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    gan: ["礼拜二", "li˨˩˧ pai˧˥ ɵ˨˩"],  // 礼拜 'week (lit. worship)' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    hak_cn: ["礼拜二", "li˦ pai˥˧ ŋi˥˧"],  // 礼拜 'week (lit. worship)' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    hak_hl: ["拜二", "pai˩˩ ŋi˧˧"],  // 拜, short for 禮拜 'week (lit. worship)', + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    hak_tw: ["拜二", "pai˥˥ ŋi˥˥"],  // 拜, short for 禮拜 'week (lit. worship)', + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    mnp: ["礼拜二", "li˨˩ pai˧˧ ni˥˥"],  // 礼拜 'week (lit. worship)' + 二 'two', built on the row's word for week. Reading from the row's own cells for the week word and the numeral.
+    nan: ["拜二", "pai˩˩ dʑi˧˧"],  // 拜, short for 禮拜 'week (lit. worship)', + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    nan_hai: ["礼拜二", "li˨˩˧ ɓai˧˥ zi˨˧"],  // 礼拜 'week (lit. worship)' + 二 'two'. Week word from Wiktionary's dialect table for Haikou; reading from MCPDict 海口.
+    nan_ph: ["拜二", "pai˦˩ li˦˩"],  // 拜, short for 禮拜 'week (lit. worship)', + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    nan_pn: ["拜二", "pai˨˩ dzi˨˩"],  // 拜, short for 禮拜 'week (lit. worship)', + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    nan_qz: ["拜二", "pai˦˩ li˦˩"],  // 拜, short for 礼拜 'week (lit. worship)', + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    nan_te: ["拜二", "pai˨˩˧ dzi˧˥"],  // 拜, short for 礼拜 'week (lit. worship)', + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    nan_xm: ["拜二", "pai˨˩ li˨˨"],  // 拜, short for 礼拜 'week (lit. worship)', + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    nan_zz: ["拜二", "pai˨˩ dzi˨˨"],  // 拜, short for 礼拜 'week (lit. worship)', + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    wuu: ["礼拜两", "li˨˨ pa˥ liã˨˩"],  // 礼拜 'week (lit. worship)' + 两 'two'. Word from Wiktionary's dialect table for Shanghai; reading from Wiktionary (Shanghai).
+    wuu_hz: ["礼拜二", "li˥˧ pᴇ˦˦˥ əl˦˦˥"],  // 礼拜 'week (lit. worship)' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    wuu_jh: ["星期二", "siŋ˧˧˦ dʑi˧˩˧ ŋ̍˩˦"],  // 星期 'week' + 二 'two'. Week word from Wiktionary's dialect table for Jinhua; reading from MCPDict 金華.
+    wuu_nb: ["礼拜二", "li˨˩˧ pa˦˦ ȵi˩˩˧"],  // 礼拜 'week (lit. worship)' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    wuu_sz: ["礼拜二", "li˨˧˩ pɑ˥˨˧ ȵi˨˧˩"],  // 礼拜 'week (lit. worship)' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    wuu_wz: ["礼拜二", "lei˧˥ pa˥˨ ŋ̍˨˨"],  // 礼拜 'week (lit. worship)' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    yue_dg: ["礼拜二", "lɔi˧˦ pai˦˦˧ ji˦˦˧"],  // 礼拜 'week (lit. worship)' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    yue_nn: ["礼拜二", "lɐi˨˦ pai˧˧ ji˨˨"],  // 礼拜 'week (lit. worship)' + 二 'two', as in the row's Sunday cell. Reading from the row's own cells for the week word and the numeral.
+    yue_ts: ["星期二", "ɬen˧˧ kʰei˨˨ ŋei˧˨"],  // 星期 'week' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    zh_cd: ["星期二", "ɕin˥˥ tɕʰi˨˩ ɚ˨˩˧"],  // 星期 'week' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    zh_cq: ["星期二", "ɕin˥ tɕʰi˥ ɚ˨˩˧"],  // 星期 'week' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    zh_db: ["星期二", "ɕiŋ˥ tɕʰi˥ ɚ˥˩"],  // 星期 'week' + 二 'two', as in the row's Monday cell. Reading from the row's own Monday cell and the zh row's numeral.
+    zh_jh: ["星期二", "ɕiŋ˧˩ tɕʰi˧˩ ɚ˦˦"],  // 星期 'week' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    zh_jiao: ["星期二", "siəŋ˨˩˧ tɕʰi˨˩˧ ɭə˦˨"],  // 星期 'week' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    zh_jn: ["星期二", "ɕiŋ˨˩˧ tɕʰi˨˩˧ ɚ˨˩"],  // 星期 'week' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    zh_kf: ["星期二", "ɕiəŋ˨˦ tɕʰi˨˦ ɚ˧˩˨"],  // 星期 'week' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    zh_km: ["星期二", "ɕĩ˦˦ tɕʰi˦˦ ᴀ˨˩˨"],  // 星期 'week' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    zh_lz: ["星期二", "ɕiŋ˧˩ tɕʰi˥˧ ɚ˩˧"],  // 星期 'week' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    zh_nj: ["星期二", "ɕiŋ˧˩ tɕʰi˧˩ ɚ˦"],  // 星期 'week' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    zh_sc: ["星期二", "ɕin˥ tɕʰi˨˩ ɚ˨˩˧"],  // 星期 'week' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    zh_tj: ["星期二", "ɕiŋ˨˩ tɕʰi˨˩ ər˥˧"],  // 星期 'week' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    zh_wh: ["星期二", "ɕin˥˥ tɕʰi˥˥ ɯ˧˥"],  // 星期 'week' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    zh_xa: ["星期二", "ɕiŋ˨˩ tɕʰi˨˩ əɻ˥˥"],  // 星期 'week' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
   },
 };

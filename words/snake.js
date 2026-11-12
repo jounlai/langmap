@@ -642,6 +642,56 @@ WORDS.snake = {
     gn: "plain",
     hmn: "plain",
     jvn: "plain",
+    cdo: "plain",
+    cjy: "plain",
+    cjy_lv: "plain",
+    cjy_xz: "plain",
+    cnp: "plain",
+    cpx: "plain",
+    czh: "plain",
+    czh_wy: "plain",
+    gan: "plain",
+    hak_cn: "plain",
+    hak_hl: "plain",
+    hak_tw: "plain",
+    hsn: "plain",
+    hsn_hy: "plain",
+    mnp: "plain",
+    nan: "plain",
+    nan_hai: "plain",
+    nan_ph: "plain",
+    nan_pn: "plain",
+    nan_qz: "plain",
+    nan_te: "plain",
+    nan_xm: "plain",
+    nan_zz: "plain",
+    wuu: "plain",
+    wuu_hz: "plain",
+    wuu_jh: "plain",
+    wuu_jx: "plain",
+    wuu_nb: "plain",
+    wuu_sz: "plain",
+    wuu_wz: "plain",
+    yue_dg: "plain",
+    yue_gz: "plain",
+    yue_nn: "plain",
+    yue_ts: "plain",
+    yue_zs: "plain",
+    zh_cd: "plain",
+    zh_cq: "plain",
+    zh_db: "plain",
+    zh_hf: "plain",
+    zh_jh: "plain",
+    zh_jiao: "other",
+    zh_jn: "other",
+    zh_lz: "plain",
+    zh_nj: "plain",
+    zh_sc: "plain",
+    zh_tj: "other",
+    zh_tw: "plain",
+    zh_wh: "plain",
+    zh_xa: "plain",
+    zh_zz: "other",
   },
   routes: {
     crawl: {"color":"#059669","emoji":"🐾","en":"a \"crawler\" (serpent, सर्प, yılan, snake)","ja":"「這うもの」 (serpent, सर्प, yılan, snake)","ko":"'기는 것' (serpent, सर्प, yılan, snake)","zh":"“爬行者” (serpent, सर्प, yılan, snake)","yue":"「爬嘅嘢」 (serpent, सर्प, yılan, snake)","vi":"\"kẻ bò\" (serpent, सर्प, yılan, snake)","th":"\"ตัวที่เลื้อย\" (serpent, सर्प, yılan, snake)","id":"\"si perayap\" (serpent, सर्प, yılan, snake)","hi":"\"रेंगने वाला\" (serpent, सर्प, yılan, snake)","de":"„der Kriechende“ (serpent, सर्प, yılan, snake)","fr":"« celui qui rampe » (serpent, सर्प, yılan, snake)","it":"«quello che striscia» (serpent, सर्प, yılan, snake)","es":"«el que se arrastra» (serpent, सर्प, yılan, snake)","pt":"«o que rasteja» (serpent, सर्प, yılan, snake)","ru":"«ползущий» (serpent, सर्प, yılan, snake)","uk":"«повзучий» (serpent, सर्प, yılan, snake)","ar":"«الزاحف» (serpent, सर्प, yılan, snake)","he":"\"הזוחל\" (serpent, सर्प, yılan, snake)","sw":"\"mtambaaji\" (serpent, सर्प, yılan, snake)"},
@@ -1223,5 +1273,55 @@ WORDS.snake = {
     gn: ["mbói", "ˈmboj"],
     hmn: ["nab", "na˥"],
     jvn: ["ula", "ulɔ"],
+    cdo: ["老蛇", "lau˨˦˨ sie˥˧"],  // 蛇 'snake' with the familiar prefix 老. Word from Wiktionary's dialect table for Fuzhou; reading from MCPDict 福州.
+    cjy: ["蛇", "sɤ˩"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Taiyuan; reading from MCPDict 太原.
+    cjy_lv: ["蛇", "ɕiɛ˦˦"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Lishi; reading from MCPDict 離石.
+    cjy_xz: ["蛇", "ʂɛ˧˩"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Xinzhou; reading from MCPDict 忻州秀容.
+    cnp: ["蛇", "ʃe˨˩"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Nanning-P; reading from MCPDict 南寧亭子.
+    cpx: ["大蛇", "tua˩˩ ɬyɒ˩˧"],  // 'Big snake'; 蛇 alone is also said. Word from Wiktionary's dialect table for Putian; reading from MCPDict 莆田.
+    czh: ["蛇", "ɕia˦˦"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Tunxi; reading from MCPDict 屯溪.
+    czh_wy: ["蛇", "sɛ˩˩"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Wuyuan; reading from MCPDict 婺源.
+    gan: ["蛇", "sa˦˥"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Nanchang; reading from MCPDict 南昌.
+    hak_cn: ["蛇哥", "sa˩˩ ko˦"],  // 蛇 'snake' with 哥, a familiar suffix for animals. Word from Wiktionary's dialect table for Meixian; reading from MCPDict 梅縣.
+    hak_hl: ["蛇", "ʃa˥˥"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Hsinchu; reading from Wiktionary (Hailu).
+    hak_tw: ["蛇哥", "sa˩˩ ko˨˦"],  // 蛇 'snake' with 哥, a familiar suffix for animals. Word from Wiktionary's dialect table for Miaoli; reading from Wiktionary (Sixian).
+    hsn: ["蛇", "ʂa˩˧"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Changsha; reading from MCPDict 長沙.
+    hsn_hy: ["蛇", "ɕia˩˩˨"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Hengyang; reading from MCPDict 衡陽.
+    mnp: ["蛇", "yɛ˧˧"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Jian'ou; reading from Wiktionary (Jian'ou).
+    nan: ["蛇", "tsua˨˦"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Tainan; reading from Wiktionary (General Taiwanese).
+    nan_hai: ["蛇", "tua˧˩"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Haikou; reading from MCPDict 海口.
+    nan_ph: ["蛇", "tsua˨˦"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Philippine-MN (Manila); reading from Wiktionary (Philippines).
+    nan_pn: ["蛇", "tsua˨˧"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Malaysia-MN (Penang); reading from Wiktionary (Zhangzhou).
+    nan_qz: ["蛇", "tsua˨˦"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Quanzhou; reading from Wiktionary (Quanzhou).
+    nan_te: ["蛇", "tsua˥˥"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Shantou; reading from Wiktionary (Teochew).
+    nan_xm: ["蛇", "tsua˨˦"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Xiamen; reading from Wiktionary (Xiamen).
+    nan_zz: ["蛇", "tsua˩˧"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Zhangzhou; reading from Wiktionary (Zhangzhou).
+    wuu: ["蛇", "zo˨˧"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Shanghai; reading from Wiktionary (Shanghai).
+    wuu_hz: ["蛇", "dzʮei˨˩˧"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Hangzhou; reading from MCPDict 杭州.
+    wuu_jh: ["蛇", "ʑia˧˩˧"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Jinhua; reading from MCPDict 金華.
+    wuu_jx: ["蛇", "zo˧˩"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Jiaxing; reading from MCPDict 嘉興.
+    wuu_nb: ["蛇", "dzo˧˩˧"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Ningbo; reading from MCPDict 寧波.
+    wuu_sz: ["蛇", "zu˨˨˧"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Suzhou; reading from MCPDict 蘇州.
+    wuu_wz: ["蛇", "zei˧˩"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Wenzhou; reading from MCPDict 溫州.
+    yue_dg: ["蛇", "ʃœ˧˩"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Dongguan; reading from MCPDict 東莞.
+    yue_gz: ["蛇", "tsʰɛ˨˩˦"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Gaozhou; reading from MCPDict 化州.
+    yue_nn: ["蛇", "ʃɛ˨˩"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Nanning; reading from MCPDict 南寧.
+    yue_ts: ["蛇", "siɛ˨˨"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Taishan; reading from MCPDict 台山 and Wiktionary (Taishanese).
+    yue_zs: ["蛇", "sɛ˥˩"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Zhongshan; reading from MCPDict 中山.
+    zh_cd: ["蛇", "se˨˩"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Chengdu; reading from MCPDict 成都.
+    zh_cq: ["蛇", "se˨˩"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Chongqing; reading from MCPDict 重慶.
+    zh_db: ["蛇", "ʂɤ˧˥"],  // 蛇, the Chinese word for the snake; 长虫 is also said. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
+    zh_hf: ["蛇", "ʂi˦˥"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Hefei; reading from MCPDict 合肥.
+    zh_jh: ["蛇", "ɕie˩˧"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Yangzhou; reading from MCPDict 揚州.
+    zh_jiao: ["长虫", "tʃʰaŋ˦˨ tʂʰəŋ˦˨"],  // Literally 'long creature'; 虫 is any small creature, worm or insect. Word from Wiktionary's dialect table for Qingdao; reading from MCPDict 青島.
+    zh_jn: ["长虫", "tʂʰɑŋ˦˨ tʂʰuŋ˦˨"],  // Literally 'long creature'; 虫 is any small creature, worm or insect. Word from Wiktionary's dialect table for Jinan; reading from MCPDict 濟南.
+    zh_lz: ["蛇", "ʂə˥˧"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Lanzhou; reading from MCPDict 蘭州.
+    zh_nj: ["蛇", "ʂie˨˦"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Nanjing; reading from MCPDict 南京.
+    zh_sc: ["蛇", "sɛ˨˩"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Chengdu; reading from MCPDict 成都.
+    zh_tj: ["长虫", "tʂʰɑŋ˦˥ tsʰuŋ˦˥"],  // Literally 'long creature'; 虫 is any small creature, worm or insect. Word from Wiktionary's dialect table for Tianjin; reading from MCPDict 天津.
+    zh_tw: ["蛇", "ʂɤ˧˥"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Taiwan; reading in the row's notation, syllables as in the row's and the zh row's own cells.
+    zh_wh: ["蛇", "sɤ˨˩˧"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Wuhan; reading from MCPDict 武漢.
+    zh_xa: ["蛇", "ʂɤ˨˦"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Xi'an; reading from MCPDict 西安.
+    zh_zz: ["长虫", "tʂʰaŋ˦˨ tʂʰuŋ˦˨"],  // Literally 'long creature'; 虫 is any small creature, worm or insect. Word from Wiktionary's dialect table for Zhengzhou; reading from MCPDict 開封 (no Zhengzhou table).
   },
 };

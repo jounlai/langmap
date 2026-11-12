@@ -581,6 +581,50 @@ WORDS.language = {
     gn: "speech",
     hmn: "plain",
     dtp_kzj: "speech",
+    cjy: "speech",
+    cjy_lv: "speech",
+    cjy_xz: "speech",
+    cnp: "speech",
+    cpx: "speech",
+    czh: "speech",
+    czh_wy: "speech",
+    gan: "speech",
+    gan_fz: "speech",
+    gan_ja: "speech",
+    hsn: "speech",
+    hsn_hy: "speech",
+    hsn_yz: "speech",
+    nan_hai: "speech",
+    nan_ph: "speech",
+    nan_qz: "speech",
+    nan_zz: "speech",
+    wuu: "speech",
+    wuu_hz: "speech",
+    wuu_jh: "speech",
+    wuu_jx: "speech",
+    wuu_nb: "speech",
+    wuu_sz: "speech",
+    wuu_wz: "speech",
+    yue_dg: "speech",
+    yue_gz: "speech",
+    yue_nn: "speech",
+    yue_ts: "speech",
+    yue_zs: "speech",
+    zh_cd: "speech",
+    zh_cq: "speech",
+    zh_db: "speech",
+    zh_hf: "speech",
+    zh_jh: "speech",
+    zh_jiao: "speech",
+    zh_jn: "speech",
+    zh_kf: "speech",
+    zh_lz: "speech",
+    zh_nj: "speech",
+    zh_sc: "speech",
+    zh_tj: "speech",
+    zh_wh: "speech",
+    zh_xa: "speech",
+    zh_zz: "speech",
   },
   routes: {
     tongue: {"color":"#dc2626","emoji":"👅","en":"the tongue (langue, язык, dil)","ja":"舌（langue, язык, dil）","ko":"혀 (langue, язык, dil)","zh":"舌头（langue、язык、dil）","yue":"脷（langue、язык、dil）","vi":"cái lưỡi (langue, язык, dil)","th":"ลิ้น (langue, язык, dil)","id":"lidah (langue, язык, dil)","hi":"जीभ (langue, язык, dil)","de":"die Zunge (langue, язык, dil)","fr":"l'organe, la langue (langue, язык, dil)","it":"l'organo, la lingua (langue, язык, dil)","es":"el órgano, la lengua (langue, язык, dil)","pt":"o órgão, a língua (langue, язык, dil)","ru":"орган язык (langue, язык, dil)","uk":"орган язик (langue, язык, dil)","ar":"اللسان (langue, язык, dil)","he":"הלשון (langue, язык, dil)","sw":"ulimi (langue, язык, dil)"},
@@ -1100,5 +1144,49 @@ WORDS.language = {
     gn: ["ñeʼẽ", "ɲẽˈʔẽ"],  // ñe'ẽ is also 'word, speech'.
     hmn: ["lus", "lu˨˩"],
     dtp_kzj: ["boros", "boros"],
+    cjy: ["语言", "y˥˧ iɛ˩"],  // 语 'speech' + 言 'words'. Reading from MCPDict 太原.
+    cjy_lv: ["语言", "zu˧˩˨ iɪ˦˦"],  // 语 'speech' + 言 'words'. Reading from MCPDict 離石.
+    cjy_xz: ["语言", "y˧˩˧ iɛ̃˧˩"],  // 语 'speech' + 言 'words'. Reading from MCPDict 忻州秀容.
+    cnp: ["语言", "ȵy˨˦ ȵyn˨˩"],  // 语 'speech' + 言 'words'. Reading from MCPDict 南寧亭子.
+    cpx: ["语言", "ky˦˥˧ ŋœŋ˩˧"],  // 语 'speech' + 言 'words'. Reading from MCPDict 莆田.
+    czh: ["语言", "ȵy˨˦ iɛ˦˦"],  // 语 'speech' + 言 'words'. Reading from MCPDict 屯溪.
+    czh_wy: ["语言", "ȵy˨ ȵĩ˩˩"],  // 语 'speech' + 言 'words'. Reading from MCPDict 婺源.
+    gan: ["语言", "ȵy˨˩˧ ȵiɛn˦˥"],  // 语 'speech' + 言 'words'. Reading from MCPDict 南昌.
+    gan_fz: ["语言", "ȵi˧˥ ȵiɛn˨˦"],  // 语 'speech' + 言 'words'. Reading from MCPDict 臨川.
+    gan_ja: ["语言", "ȵy˥˧ ȵiɛn˩˩"],  // 语 'speech' + 言 'words'. Reading from MCPDict 吉安.
+    hsn: ["语言", "y˦˩ iẽ˩˧"],  // 语 'speech' + 言 'words'. Reading from MCPDict 長沙.
+    hsn_hy: ["语言", "ny˧˧ nien˩˩˨"],  // 语 'speech' + 言 'words'. Reading from MCPDict 衡陽.
+    hsn_yz: ["语言", "y˥˥ iẽ˩˩˨"],  // 语 'speech' + 言 'words'. Reading from MCPDict 冷水灘.
+    nan_hai: ["语言", "zi˨˩˧ ŋin˧˩"],  // 语 'speech' + 言 'words'. Reading from MCPDict 海口.
+    nan_ph: ["語言", "ɡi˥˥˦ ɡiɛn˨˦"],  // 語 'speech' + 言 'words'. Reading from Wiktionary (Philippines).
+    nan_qz: ["语言", "ɡɯ˥˥˦ ɡiɛn˨˦"],  // 语 'speech' + 言 'words'. Reading from Wiktionary (Quanzhou).
+    nan_zz: ["语言", "ɡi˥˧ ɡan˩˧"],  // 语 'speech' + 言 'words'. Reading from Wiktionary (Zhangzhou).
+    wuu: ["语言", "ɲy˨˨ ɦi˦˦"],  // 语 'speech' + 言 'words'. Reading from Wiktionary (Shanghai).
+    wuu_hz: ["语言", "ʔʮ˥˧ ɦiᴇ̃˨˩˧"],  // 语 'speech' + 言 'words'. Reading from MCPDict 杭州.
+    wuu_jh: ["语言", "ȵy˥˧˥ ȵie˧˩˧"],  // 语 'speech' + 言 'words'. Reading from MCPDict 金華.
+    wuu_jx: ["语言", "ȵy˨˩˨ ɦie˧˩"],  // 语 'speech' + 言 'words'. Reading from MCPDict 嘉興.
+    wuu_nb: ["语言", "ȵy˩˩˧ ɦi˧˩˧"],  // 语 'speech' + 言 'words'. Reading from MCPDict 寧波.
+    wuu_sz: ["语言", "ȵy˨˧˩ ɦi˨˨˧"],  // 语 'speech' + 言 'words'. Reading from MCPDict 蘇州.
+    wuu_wz: ["语言", "ȵy˧˦ ȵi˧˩"],  // 语 'speech' + 言 'words'. Reading from MCPDict 溫州.
+    yue_dg: ["语言", "jy˧˦ jin˧˩"],  // 语 'speech' + 言 'words'. Reading from MCPDict 東莞.
+    yue_gz: ["语言", "ȵi˨˩˦ ȵin˨˩˦"],  // 语 'speech' + 言 'words'. Reading from MCPDict 化州.
+    yue_nn: ["语言", "jy˨˦ jin˨˩"],  // 语 'speech' + 言 'words'. Reading from MCPDict 南寧.
+    yue_ts: ["语言", "ŋui˨˩ ŋun˨˨"],  // 语 'speech' + 言 'words'. Reading from MCPDict 台山.
+    yue_zs: ["語言", "ŋy˨˩˧ ŋyn˥˩"],  // 語 'speech' + 言 'words'. Reading from MCPDict 中山.
+    zh_cd: ["语言", "y˥˧ iɛn˨˩"],  // 语 'speech' + 言 'words'. Reading from MCPDict 成都.
+    zh_cq: ["语言", "y˦˨ iɛn˨˩"],  // 语 'speech' + 言 'words'. Reading from MCPDict 重慶.
+    zh_db: ["语言", "y˨˩˦ jɛn˧˥"],  // 语 'speech' + 言 'words'. Reading as the zh row's own cell.
+    zh_hf: ["语言", "jy˨˦ jĩ˦˥"],  // 语 'speech' + 言 'words'. Reading from MCPDict 合肥 (city reading of 語).
+    zh_jh: ["语言", "y˨˩˨ ian˩˧"],  // 语 'speech' + 言 'words'. Reading from MCPDict 揚州.
+    zh_jiao: ["语言", "y˥˥ iã˦˨"],  // 语 'speech' + 言 'words'. Reading from MCPDict 青島.
+    zh_jn: ["语言", "y˥˥ iɛ̃˦˨"],  // 语 'speech' + 言 'words'. Reading from MCPDict 濟南.
+    zh_kf: ["语言", "y˦˦ ian˥˧"],  // 语 'speech' + 言 'words'. Reading from MCPDict 開封.
+    zh_lz: ["语言", "y˩˧ jɛn˥˧"],  // 语 'speech' + 言 'words'. Reading from MCPDict 蘭州.
+    zh_nj: ["语言", "y˨˩˨ iɛn˨˦"],  // 语 'speech' + 言 'words'. Reading from MCPDict 南京.
+    zh_sc: ["语言", "y˥˧ iɛn˨˩"],  // 语 'speech' + 言 'words'. Reading from MCPDict 成都.
+    zh_tj: ["语言", "y˩˧ ian˦˥"],  // 语 'speech' + 言 'words'. Reading from MCPDict 天津.
+    zh_wh: ["语言", "y˦˨ iɛn˨˩˧"],  // 语 'speech' + 言 'words'. Reading from MCPDict 武漢.
+    zh_xa: ["语言", "y˥˧ iã˨˦"],  // 语 'speech' + 言 'words'. Reading from MCPDict 西安.
+    zh_zz: ["语言", "y˥˧ ian˦˨"],  // 语 'speech' + 言 'words'. Reading from MCPDict 開封 (no Zhengzhou table; the row matches Kaifeng).
   },
 };

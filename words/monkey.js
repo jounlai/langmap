@@ -449,6 +449,49 @@ WORDS.monkey = {
     huv: "plain",
     gn: "plain",
     hmn: "plain",
+    cdo: "plain",
+    cjy: "plain",
+    cjy_lv: "plain",
+    cnp: "plain",
+    cpx: "plain",
+    czh: "plain",
+    czh_wy: "plain",
+    dng: "plain",
+    gan: "plain",
+    hak_cn: "plain",
+    hak_hl: "plain",
+    hak_tw: "plain",
+    hsn: "plain",
+    mnp: "plain",
+    nan: "plain",
+    nan_hai: "plain",
+    nan_ph: "plain",
+    nan_pn: "plain",
+    nan_qz: "plain",
+    nan_te: "plain",
+    nan_xm: "plain",
+    nan_zz: "plain",
+    wuu: "plain",
+    wuu_hz: "plain",
+    wuu_jh: "plain",
+    wuu_nb: "plain",
+    wuu_sz: "plain",
+    yue_nn: "plain",
+    yue_ts: "plain",
+    zh_cd: "plain",
+    zh_cq: "plain",
+    zh_db: "plain",
+    zh_hf: "plain",
+    zh_jh: "plain",
+    zh_jiao: "plain",
+    zh_jn: "plain",
+    zh_km: "plain",
+    zh_lz: "plain",
+    zh_nj: "plain",
+    zh_sc: "plain",
+    zh_tw: "plain",
+    zh_wh: "plain",
+    zh_xa: "plain",
   },
   routes: {
     maymun: {"color":"#059669","emoji":"🌙","en":"from Arabic maymūn (maymun, majom, mono)","ja":"アラビア語 maymūn から (maymun, majom, mono)","ko":"아랍어 maymūn에서 (maymun, majom, mono)","zh":"来自阿拉伯语 maymūn (maymun, majom, mono)","yue":"嚟自阿拉伯語 maymūn (maymun, majom, mono)","vi":"từ tiếng Ả Rập maymūn (maymun, majom, mono)","th":"จากภาษาอาหรับ maymūn (maymun, majom, mono)","id":"dari maymūn Arab (maymun, majom, mono)","hi":"अरबी maymūn से (maymun, majom, mono)","de":"aus arabisch maymūn (maymun, majom, mono)","fr":"de l'arabe maymūn (maymun, majom, mono)","it":"dall'arabo maymūn (maymun, majom, mono)","es":"del árabe maymūn (maymun, majom, mono)","pt":"do árabe maymūn (maymun, majom, mono)","ru":"от арабского maymūn (maymun, majom, mono)","uk":"від арабського maymūn (maymun, majom, mono)","ar":"من العربية مَيْمُون (maymun, majom, mono)","he":"מהערבית maymūn (maymun, majom, mono)","sw":"kutoka Kiarabu maymūn (maymun, majom, mono)"},
@@ -837,5 +880,48 @@ WORDS.monkey = {
     huv: ["maching", "matʃiŋ"],  // Borrowed from Spanish machín.
     gn: ["kaʼi", "kaˈʔi"],
     hmn: ["liab", "lia˥"],
+    cdo: ["猴", "kau˥˧"],  // 猴, the Chinese word for the monkey. Word from Wiktionary's dialect table for Fuzhou; reading from MCPDict 福州.
+    cjy: ["毛猴", "mau˩ xəu˩"],  // 'Hairy monkey'. Word from Wiktionary's dialect table for Taiyuan; reading from MCPDict 太原.
+    cjy_lv: ["猴子", "xʌu˦˦ tsəʔ˦"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Lishi; reading from MCPDict 離石.
+    cnp: ["马骝", "ma˨˦ lɐu˨˩"],  // Origin unknown; Wiktionary lists a Tai-Kadai substrate word or a Sino-Tibetan root as possibilities. Word from Wiktionary's dialect table for Nanning-P; reading from MCPDict 南寧亭子 (the reading it gives for 馬騮).
+    cpx: ["红猴", "aŋ˩˧ kau˩˧"],  // 'Red monkey'; 猴 alone is also said. Word from Wiktionary's dialect table for Putian; reading from MCPDict 莆田.
+    czh: ["猴狲", "siu˦˦ suːə˩˩"],  // 猴 with 狲, as in 猢狲 'macaque'. Word from Wiktionary's dialect table for Tunxi; reading from MCPDict 屯溪.
+    czh_wy: ["猴狲", "ɕiɑ˩˩ sɐin˦˦"],  // 猴 with 狲, as in 猢狲 'macaque'. Word from Wiktionary's dialect table for Wuyuan; reading from MCPDict 婺源.
+    dng: ["хузы", "xou˨˦ tsɹ̩˥˩"],  // Cognate with Mandarin 猴子. Dungan reading from Wiktionary's Chinese entry 猴子.
+    gan: ["猴子", "hɛu˨˦ tsɿ˨"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Nanchang; reading from MCPDict 南昌.
+    hak_cn: ["猴哥", "heu˩˩ ko˦"],  // 猴 'monkey' with 哥, a familiar suffix for animals. Word from Wiktionary's dialect table for Meixian; reading from MCPDict 梅縣.
+    hak_hl: ["猴哥", "heu˥˥ ko˥˧"],  // 猴 'monkey' with 哥, a familiar suffix for animals. Word from Wiktionary's dialect table for Hsinchu; reading from Wiktionary (Hailu).
+    hak_tw: ["猴仔", "heu˩˩ e˧˩"],  // 猴 'monkey' with the noun suffix 仔. Word from Wiktionary's dialect table for Miaoli; reading from Wiktionary (Sixian).
+    hsn: ["猴子", "xəu˩˧ tsɿ"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Changsha; reading from MCPDict 長沙.
+    mnp: ["猴", "ke˨˩"],  // 猴, the Chinese word for the monkey. Word from Wiktionary's dialect table for Jian'ou; reading from Wiktionary (Jian'ou).
+    nan: ["猴", "kau˨˦"],  // 猴, the Chinese word for the monkey. Word from Wiktionary's dialect table for Tainan; reading from Wiktionary (General Taiwanese).
+    nan_hai: ["猴狲", "kau˧˩ tui˨˧"],  // 猴 with 狲, as in 猢狲 'macaque'. Word from Wiktionary's dialect table for Haikou; reading from MCPDict 海口.
+    nan_ph: ["猴", "kau˨˦"],  // 猴, the Chinese word for the monkey. Word from Wiktionary's dialect table for Philippine-MN (Manila); reading from Wiktionary (Quanzhou).
+    nan_pn: ["猴", "kau˨˧"],  // 猴, the Chinese word for the monkey. Word from Wiktionary's dialect table for Malaysia-MN (Penang); reading from Wiktionary (Zhangzhou).
+    nan_qz: ["猴", "kau˨˦"],  // 猴, the Chinese word for the monkey. Word from Wiktionary's dialect table for Quanzhou; reading from Wiktionary (Quanzhou).
+    nan_te: ["猴", "kau˥˥"],  // 猴, the Chinese word for the monkey. Word from Wiktionary's dialect table for Shantou; reading from Wiktionary (Teochew).
+    nan_xm: ["猴", "kau˨˦"],  // 猴, the Chinese word for the monkey. Word from Wiktionary's dialect table for Xiamen; reading from Wiktionary (Xiamen).
+    nan_zz: ["猴", "kau˩˧"],  // 猴, the Chinese word for the monkey. Word from Wiktionary's dialect table for Zhangzhou; reading from Wiktionary (Zhangzhou).
+    wuu: ["活狲", "ɦuəʔ˩˩ sən˨˧"],  // From 猢狲 'macaque' (Wiktionary). Word from Wiktionary's dialect table for Shanghai; reading from Wiktionary (Shanghai).
+    wuu_hz: ["活狲", "ɦuaʔ˨ sʮəŋ˧˧"],  // From 猢狲 'macaque' (Wiktionary). Word from Wiktionary's dialect table for Hangzhou; reading from MCPDict 杭州.
+    wuu_jh: ["活狲", "uɑ˩˦ səŋ˧˧˦"],  // From 猢狲 'macaque' (Wiktionary). Word from Wiktionary's dialect table for Jinhua; reading from MCPDict 金華.
+    wuu_nb: ["活狲", "ɦuɐʔ˩˨ səŋ˥˨"],  // From 猢狲 'macaque' (Wiktionary). Word from Wiktionary's dialect table for Ningbo; reading from MCPDict 寧波.
+    wuu_sz: ["活狲", "ɦuəʔ˧ sən˦˦"],  // From 猢狲 'macaque' (Wiktionary). Word from Wiktionary's dialect table for Suzhou; reading from MCPDict 蘇州.
+    yue_nn: ["马骝", "ma˥˥ lɐu˥˥"],  // Origin unknown; Wiktionary lists a Tai-Kadai substrate word or a Sino-Tibetan root as possibilities. Word from Wiktionary's dialect table for Nanning; reading from MCPDict 南寧 (the reading it gives for 馬騮).
+    yue_ts: ["马骝", "ma˥˥ leu˥˥"],  // Origin unknown; Wiktionary lists a Tai-Kadai substrate word or a Sino-Tibetan root as possibilities. Word from Wiktionary's dialect table for Taishan; reading from MCPDict 台山 (the reading it gives for 馬騮) and Wiktionary.
+    zh_cd: ["猴子", "xəu˨˩ tsɿ˥˧"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Chengdu; reading from MCPDict 成都.
+    zh_cq: ["猴子", "xəu˨˩ tsɿ˦˨"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Chongqing; reading from MCPDict 重慶.
+    zh_db: ["猴子", "xoʊ̯˧˥ tsɨ"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
+    zh_hf: ["猴子", "xɤɯ˦˥ tə"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Hefei; reading from MCPDict 合肥.
+    zh_jh: ["猴子", "xəu˩˧ tsɿ"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Yangzhou; reading from MCPDict 揚州.
+    zh_jiao: ["猴子", "xou˦˨ tsɿ˥˥"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Qingdao; reading from MCPDict 青島.
+    zh_jn: ["猴子", "xou˦˨ tsɿ"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Jinan; reading from MCPDict 濟南.
+    zh_km: ["猴子", "xəu˧˩ tsɿ"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Kunming; reading from MCPDict 昆明.
+    zh_lz: ["猴子", "xəu˥˧ tsɨ"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Lanzhou; reading from MCPDict 蘭州.
+    zh_nj: ["猴子", "xəu˨˦ tsɿ"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Nanjing; reading from MCPDict 南京.
+    zh_sc: ["猴子", "xəu˨˩ tsɹ̩˥˧"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Chengdu; reading from MCPDict 成都.
+    zh_tw: ["猴子", "xoʊ̯˧˥ tsɨ"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Taiwan; reading in the row's notation, syllables as in the row's and the zh row's own cells.
+    zh_wh: ["猴子", "xou˨˩˧ tsɿ"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Wuhan; reading from MCPDict 武漢.
+    zh_xa: ["猴", "xɤu˨˦"],  // 猴, the Chinese word for the monkey. Word from Wiktionary's dialect table for Xi'an; reading from MCPDict 西安.
   },
 };

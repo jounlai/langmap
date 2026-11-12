@@ -527,6 +527,35 @@ WORDS.bread = {
     gn: "plain",
     ja_hak: "panis",
     ja_hir: "panis",
+    cdo: "plain",
+    cjy: "plain",
+    cjy_lv: "plain",
+    cjy_xz: "plain",
+    hak_hl: "plain",
+    hak_tw: "plain",
+    nan: "panis",
+    nan_ph: "plain",
+    nan_pn: "roti",
+    nan_qz: "plain",
+    nan_xm: "plain",
+    nan_zz: "plain",
+    wuu: "plain",
+    yue_ts: "plain",
+    zh_cd: "plain",
+    zh_cq: "plain",
+    zh_db: "plain",
+    zh_hf: "plain",
+    zh_jh: "plain",
+    zh_jiao: "plain",
+    zh_jn: "plain",
+    zh_km: "plain",
+    zh_lz: "plain",
+    zh_nj: "plain",
+    zh_sc: "plain",
+    zh_tj: "plain",
+    zh_wh: "plain",
+    zh_xa: "plain",
+    zh_zz: "plain",
   },
   routes: {
     panis: {"color":"#d97706","emoji":"🥖","en":"Latin pānis, and Portuguese pão abroad (pain, pan, パン, 빵)","ja":"ラテン語 pānis と、海を渡ったポルトガル語 pão（pain, pan, パン, 빵）","ko":"라틴어 pānis와 바다를 건넌 포르투갈어 pão (pain, pan, パン, 빵)","zh":"拉丁语 pānis，及远渡重洋的葡萄牙语 pão（pain、pan、パン、빵）","yue":"拉丁文 pānis，同漂洋過海嘅葡萄牙文 pão（pain、pan、パン、빵）","vi":"tiếng Latin pānis, và tiếng Bồ Đào Nha pão ra nước ngoài (pain, pan, パン, 빵)","th":"ละติน pānis และโปรตุเกส pão ที่ข้ามทะเล (pain, pan, パン, 빵)","id":"Latin pānis, dan Portugis pão di seberang laut (pain, pan, パン, 빵)","hi":"लैटिन pānis, और समुद्र पार पुर्तगाली pão (pain, pan, パン, 빵)","de":"lateinisch pānis und portugiesisch pão in Übersee (pain, pan, パン, 빵)","fr":"le latin pānis, et le portugais pão outre-mer (pain, pan, パン, 빵)","it":"il latino pānis, e il portoghese pão oltremare (pain, pan, パン, 빵)","es":"el latín pānis, y el portugués pão en ultramar (pain, pan, パン, 빵)","pt":"o latim pānis, e o português pão além-mar (pain, pan, パン, 빵)","ru":"латинское pānis и португальское pão за морем (pain, pan, パン, 빵)","uk":"латинське pānis і португальське pão за морем (pain, pan, パン, 빵)","ar":"اللاتينية pānis، والبرتغالية pão وراء البحار (pain, pan, パン, 빵)","he":"הלטינית pānis, והפורטוגזית pão מעבר לים (pain, pan, パン, 빵)","sw":"Kilatini pānis, na Kireno pão ng'ambo (pain, pan, パン, 빵)"},
@@ -992,5 +1021,34 @@ WORDS.bread = {
     gn: ["mbujape", "mbudʒaˈpe"],
     ja_hak: ["パン", "paɴ"],
     ja_hir: ["パン", "paɴ"],
+    cdo: ["面包", "mieŋ˨˦˨ pau˥˥"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Fuzhou; reading from MCPDict 福州.
+    cjy: ["面包", "miɛ˦˥ pau˩"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Taiyuan; reading from MCPDict 太原.
+    cjy_lv: ["面包", "miɪ˥˨ pou˨˦"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Lishi; reading from MCPDict 離石.
+    cjy_xz: ["面包", "miɛ̃˥˨ pɔ˧˩˧"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Xinzhou; reading from MCPDict 忻州秀容.
+    hak_hl: ["麵包", "mien˧˧ pau˥˧"],  // 麵 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Hsinchu; reading from Wiktionary (Hailu).
+    hak_tw: ["麵包", "mien˥˥ pau˨˦"],  // 麵 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Miaoli; reading from Wiktionary (Sixian).
+    nan: ["麭", "pʰaŋ˥˧"],  // Borrowed from Japanese パン, from Portuguese pão (Wiktionary). Word from Wiktionary's dialect table for Tainan; reading from Wiktionary (General Taiwanese).
+    nan_ph: ["麵包", "mĩ˦˩ pau˧˧"],  // 麵 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Philippine-MN (Manila); reading from Wiktionary (Philippines).
+    nan_pn: ["羅啲", "lo˨˧ ti˧˧"],  // From Malay roti (Wiktionary). Word from Wiktionary's dialect table for Malaysia-MN (Penang); reading from Wiktionary (Penang).
+    nan_qz: ["面包", "mĩ˦˩ pau˧˧"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Quanzhou; reading from Wiktionary (Quanzhou).
+    nan_xm: ["面包", "mĩ˨˨ pau˦˦"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Xiamen; reading from Wiktionary (Xiamen).
+    nan_zz: ["面包", "mĩ˨˨ pau˦˦"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Zhangzhou; reading from Wiktionary (Zhangzhou).
+    wuu: ["面包", "mi˨˨ pɔ˦˦"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Shanghai; reading from Wiktionary (Shanghai).
+    yue_ts: ["面包", "men˧˨ pɑu˧˧"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Taishan; reading from MCPDict 台山.
+    zh_cd: ["面包", "miɛn˨˩˧ pau˥˥"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Chengdu; reading from MCPDict 成都.
+    zh_cq: ["面包", "miɛn˨˩˧ pau˥"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Chongqing; reading from MCPDict 重慶.
+    zh_db: ["面包", "mjɛn˥˩ pau˥"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
+    zh_hf: ["面包", "mĩ˥˩ pɔ˨˩˨"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Hefei; reading from MCPDict 合肥.
+    zh_jh: ["面包", "mian˦˦ paɔ˧˩"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Yangzhou; reading from MCPDict 揚州.
+    zh_jiao: ["面包", "miã˦˨ pɔ˨˩˧"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Qingdao; reading from MCPDict 青島.
+    zh_jn: ["面包", "miɛ̃˨˩ pɔ˨˩˧"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Jinan; reading from MCPDict 濟南.
+    zh_km: ["面包", "miɛ̃˨˩˨ pʌo˦˦"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Kunming; reading from MCPDict 昆明.
+    zh_lz: ["面包", "miɛ̃˩˧ pau˧˩"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Lanzhou; reading from MCPDict 蘭州.
+    zh_nj: ["面包", "mẽ˦ pɔ˧˩"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Nanjing; reading from MCPDict 南京.
+    zh_sc: ["面包", "miɛn˨˩˧ pau˥"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Chengdu; reading from MCPDict 成都.
+    zh_tj: ["面包", "mian˥˧ pɑu˨˩"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Tianjin; reading from MCPDict 天津.
+    zh_wh: ["面包", "miɛn˧˥ pau˥˥"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Wuhan; reading from MCPDict 武漢.
+    zh_xa: ["面包", "miã˥˥ pau˨˩"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Xi'an; reading from MCPDict 西安.
+    zh_zz: ["面包", "mian˧˩˨ pau˨˦"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Zhengzhou; reading from MCPDict 開封 (no Zhengzhou table; the row matches Kaifeng).
   },
 };

@@ -474,6 +474,36 @@ WORDS.elephant = {
     gn: "other",
     hmn: "plain",
     jvn: "gaja",
+    cdo: "xiang",
+    cjy: "xiang",
+    cnp: "xiang",
+    cpx: "xiang",
+    dng: "xiang",
+    gan: "xiang",
+    hak_cn: "xiang",
+    hak_hl: "xiang",
+    hak_tw: "xiang",
+    mnp: "xiang",
+    nan: "xiang",
+    nan_hai: "xiang",
+    nan_ph: "xiang",
+    nan_pn: "xiang",
+    nan_qz: "xiang",
+    nan_te: "xiang",
+    nan_xm: "xiang",
+    nan_zz: "xiang",
+    wuu: "xiang",
+    wuu_hz: "xiang",
+    wuu_sz: "xiang",
+    yue_dg: "xiang",
+    yue_nn: "xiang",
+    yue_ts: "xiang",
+    yue_zs: "xiang",
+    zh_cd: "xiang",
+    zh_sc: "xiang",
+    zh_tw: "xiang",
+    zh_wh: "xiang",
+    zh_xa: "xiang",
   },
   routes: {
     elephas: {"color":"#2563eb","emoji":"🏛️","en":"from Greek ἐλέφας, Latin elephantus (elephant, Elefant)","ja":"ギリシャ語 ἐλέφας、ラテン語 elephantus から (elephant, Elefant)","ko":"그리스어 ἐλέφας, 라틴어 elephantus에서 (elephant, Elefant)","zh":"来自希腊语 ἐλέφας、拉丁语 elephantus (elephant, Elefant)","yue":"嚟自希臘語 ἐλέφας、拉丁語 elephantus (elephant, Elefant)","vi":"từ tiếng Hy Lạp ἐλέφας, Latinh elephantus (elephant, Elefant)","th":"จากภาษากรีก ἐλέφας ละติน elephantus (elephant, Elefant)","id":"dari ἐλέφας Yunani, elephantus Latin (elephant, Elefant)","hi":"यूनानी ἐλέφας, लैटिन elephantus से (elephant, Elefant)","de":"aus griechisch ἐλέφας, lateinisch elephantus (elephant, Elefant)","fr":"du grec ἐλέφας, latin elephantus (elephant, Elefant)","it":"dal greco ἐλέφας, latino elephantus (elephant, Elefant)","es":"del griego ἐλέφας, latín elephantus (elephant, Elefant)","pt":"do grego ἐλέφας, latim elephantus (elephant, Elefant)","ru":"от греческого ἐλέφας, латинского elephantus (elephant, Elefant)","uk":"від грецького ἐλέφας, латинського elephantus (elephant, Elefant)","ar":"من اليونانية ἐλέφας واللاتينية elephantus (elephant, Elefant)","he":"מהיוונית ἐλέφας, מהלטינית elephantus (elephant, Elefant)","sw":"kutoka Kigiriki ἐλέφας, Kilatini elephantus (elephant, Elefant)"},
@@ -888,5 +918,35 @@ WORDS.elephant = {
     gn: ["tĩmbuku", "tĩmbuˈku"],  // tĩ 'nose' + puku 'long'.
     hmn: ["ntxhw", "ⁿtsʰɨ˧"],
     jvn: ["gajah", "ɡadʒah"],
+    cdo: ["象", "tsʰuoŋ˨˦˨"],  // 象, the old Chinese word for the elephant. Word from Wiktionary's dialect table for Fuzhou; reading from MCPDict 福州.
+    cjy: ["象", "ɕiɒ̃˦˥"],  // 象, the old Chinese word for the elephant. Word from Wiktionary's dialect table for Taiyuan; reading from MCPDict 太原.
+    cnp: ["大象", "tai˨˨ tʃiɐŋ˨˨"],  // 象 'elephant' with 大 'big'. Word from Wiktionary's dialect table for Nanning-P; reading from MCPDict 南寧亭子.
+    cpx: ["象", "tsʰieu˩˩"],  // 象, the old Chinese word for the elephant. Word from Wiktionary's dialect table for Putian; reading from MCPDict 莆田.
+    dng: ["щён", "ɕiɑŋ˦"],  // Cognate with Chinese 象, the old word for the elephant. Dungan reading from Wiktionary's Chinese entry 象.
+    gan: ["象", "ɕiɔŋ˨˩"],  // 象, the old Chinese word for the elephant. Word from Wiktionary's dialect table for Nanchang; reading from MCPDict 南昌.
+    hak_cn: ["象", "siɔŋ˧˩"],  // 象, the old Chinese word for the elephant. Word from Wiktionary's dialect table for Meixian; reading from MCPDict 梅縣.
+    hak_hl: ["象", "sioŋ˧˧"],  // 象, the old Chinese word for the elephant. Word from Wiktionary's dialect table for Hsinchu; reading from Wiktionary (Hailu).
+    hak_tw: ["象仔", "sioŋ˥˥ e˧˩"],  // 象 'elephant' with the noun suffix 仔. Word from Wiktionary's dialect table for Miaoli; reading from Wiktionary (Sixian).
+    mnp: ["象", "siɔŋ˥˥"],  // 象, the old Chinese word for the elephant. Word from Wiktionary's dialect table for Jian'ou; reading from Wiktionary (Jian'ou).
+    nan: ["象", "tsʰiũ˧˧"],  // 象, the old Chinese word for the elephant. Word from Wiktionary's dialect table for Tainan; reading from Wiktionary (Taipei).
+    nan_hai: ["象", "sio˧˧"],  // 象, the old Chinese word for the elephant. Word from Wiktionary's dialect table for Haikou; reading from MCPDict 海口.
+    nan_ph: ["象", "tsʰiũ˧˧"],  // 象, the old Chinese word for the elephant. Word from Wiktionary's dialect table for Philippine-MN (Manila); reading from Wiktionary (Philippines).
+    nan_pn: ["象", "tsʰiãu˨˩"],  // 象, the old Chinese word for the elephant. Word from Wiktionary's dialect table for Malaysia-MN (Penang); reading from Wiktionary (Penang).
+    nan_qz: ["象", "tsʰiũ˨˨"],  // 象, the old Chinese word for the elephant. Word from Wiktionary's dialect table for Quanzhou; reading from Wiktionary (Quanzhou).
+    nan_te: ["象", "tsʰiõ˧˥"],  // 象, the old Chinese word for the elephant. Word from Wiktionary's dialect table for Shantou; reading from Wiktionary (Teochew) and MCPDict 汕頭, which agree.
+    nan_xm: ["象", "tsʰiũ˨˨"],  // 象, the old Chinese word for the elephant. Word from Wiktionary's dialect table for Xiamen; reading from Wiktionary (Xiamen).
+    nan_zz: ["象", "tsʰiɔ̃˨˨"],  // 象, the old Chinese word for the elephant. Word from Wiktionary's dialect table for Zhangzhou; reading from Wiktionary (Zhangzhou).
+    wuu: ["象", "ʑiã˨˧"],  // 象, the old Chinese word for the elephant. Word from Wiktionary's dialect table for Shanghai; reading from Wiktionary (Shanghai).
+    wuu_hz: ["象", "dʑiæ̃˩˧"],  // 象, the old Chinese word for the elephant. Word from Wiktionary's dialect table for Hangzhou; reading from MCPDict 杭州.
+    wuu_sz: ["象", "ziã˨˧˩"],  // 象, the old Chinese word for the elephant. Word from Wiktionary's dialect table for Suzhou; reading from MCPDict 蘇州.
+    yue_dg: ["大笨象", "tai˦˦˧ pɐn˦˦˧ tʃœŋ˦˦˧"],  // 'Big clumsy elephant', the usual Cantonese-area word; 象 is the old Chinese word for the elephant. Word from Wiktionary's dialect table for Dongguan; reading from MCPDict 東莞.
+    yue_nn: ["大笨象", "tai˨˨ pɐn˨˨ tʃœŋ˨˨"],  // 'Big clumsy elephant', the usual Cantonese-area word; 象 is the old Chinese word for the elephant. Word from Wiktionary's dialect table for Nanning; reading from MCPDict 南寧.
+    yue_ts: ["象", "tiaŋ˧˨"],  // 象, the old Chinese word for the elephant. Word from Wiktionary's dialect table for Taishan; reading from MCPDict 台山.
+    yue_zs: ["大笨象", "tai˧˧ pɐn˧˧ tsœŋ˧˧"],  // 'Big clumsy elephant', the usual Cantonese-area word; 象 is the old Chinese word for the elephant. Word from Wiktionary's dialect table for Zhongshan; reading from MCPDict 中山.
+    zh_cd: ["象", "ɕiaŋ˨˩˧"],  // 象, the old Chinese word for the elephant. Word from Wiktionary's dialect table for Chengdu; reading from Wiktionary (Chengdu) and MCPDict 成都.
+    zh_sc: ["象", "ɕiaŋ˨˩˧"],  // 象, the old Chinese word for the elephant. Word from Wiktionary's dialect table for Chengdu; reading from Wiktionary (Chengdu) and MCPDict 成都.
+    zh_tw: ["大象", "ta˥˩ ɕjɑŋ˥˩"],  // 象 'elephant' with 大 'big'. Word from Wiktionary's dialect table for Taiwan; reading in the row's notation, syllables as in the row's and the zh row's own cells.
+    zh_wh: ["象", "ɕiaŋ˧˥"],  // 象, the old Chinese word for the elephant. Word from Wiktionary's dialect table for Wuhan; reading from MCPDict 武漢.
+    zh_xa: ["象", "ɕiaŋ˥˥"],  // 象, the old Chinese word for the elephant. Word from Wiktionary's dialect table for Xi'an; reading from MCPDict 西安.
   },
 };

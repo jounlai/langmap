@@ -458,6 +458,26 @@ WORDS.left = {
     rmy: "plain",
     dtp_kzj: "plain",
     jvn: "plain",
+    cjy: "plain",
+    cjy_lv: "plain",
+    cjy_xz: "plain",
+    czh: "plain",
+    dng: "plain",
+    nan_ph: "plain",
+    nan_pn: "plain",
+    zh_cq: "plain",
+    zh_db: "plain",
+    zh_hf: "plain",
+    zh_jh: "plain",
+    zh_jiao: "plain",
+    zh_jn: "plain",
+    zh_km: "plain",
+    zh_lz: "plain",
+    zh_nj: "plain",
+    zh_sc: "plain",
+    zh_tj: "plain",
+    zh_wh: "plain",
+    zh_zz: "plain",
   },
   routes: {
     bad: {"color":"#dc2626","emoji":"↩️","en":"'crooked, bent, wrong, tired'","ja":"「曲がった、間違った、疲れた」","ko":"‘굽은, 틀린, 지친’","zh":"“弯曲、错误、疲惫”","yue":"「屈曲、錯、攰」","vi":"“cong, sai, mệt”","th":"“งอ ผิด เหนื่อย”","id":"“bengkok, salah, lelah”","hi":"‘टेढ़ा, ग़लत, थका’","de":"„krumm, falsch, müde“","fr":"« tordu, faux, fatigué »","it":"“storto, sbagliato, stanco”","es":"«torcido, equivocado, cansado»","pt":"«torto, errado, cansado»","ru":"«кривой, неправильный, усталый»","uk":"«кривий, хибний, втомлений»","ar":"«أعوج، خاطئ، متعب»","he":"״עקום, שגוי, עייף״","sw":"“iliyopinda, kosa, iliyochoka”"},
@@ -853,5 +873,25 @@ WORDS.left = {
     rmy: ["bongo", "bonɡo"],
     dtp_kzj: ["gibang", "ɡibaŋ"],
     jvn: ["kiwa", "kiwɔ"],
+    cjy: ["左", "tsɤ˥˧"],  // 左, 'left'. Word from Wiktionary's dialect table for Taiyuan; reading from MCPDict 太原.
+    cjy_lv: ["左", "tsɔ˧˩˨"],  // 左, 'left'. Word from Wiktionary's dialect table for Lishi; reading from MCPDict 離石.
+    cjy_xz: ["左", "tsuɛ˧˩˧"],  // 左, 'left'. Word from Wiktionary's dialect table for Xinzhou; reading from MCPDict 忻州秀容.
+    czh: ["左", "tso˧˩"],  // 左, 'left'. Word from Wiktionary's dialect table for Shexian; reading from MCPDict 屯溪.
+    dng: ["зуә", "tsuə˥˩"],  // Cognate with Chinese 左 'left'. Dungan reading from Wiktionary's Chinese entry 左.
+    nan_ph: ["倒", "tɤ˦˩"],  // The Hokkien word tò, written with 倒 'to reverse'. Word from Wiktionary's dialect table for Philippine-MN (Manila); reading from Wiktionary (Philippines).
+    nan_pn: ["倒", "to˨˩"],  // The Hokkien word tò, written with 倒 'to reverse'. Word from Wiktionary's dialect table for Malaysia-MN (Penang); reading from Wiktionary (Zhangzhou).
+    zh_cq: ["左", "tso˦˨"],  // 左, 'left'. Word from Wiktionary's dialect table for Chongqing; reading from MCPDict 重慶.
+    zh_db: ["左", "tswo˨˩˦"],  // 左, 'left'. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
+    zh_hf: ["左", "tsu˨˦"],  // 左, 'left'. Word from Wiktionary's dialect table for Hefei; reading from MCPDict 合肥.
+    zh_jh: ["左", "tso˨˩˨"],  // 左, 'left'. Word from Wiktionary's dialect table for Yangzhou; reading from MCPDict 揚州.
+    zh_jiao: ["左", "tsuə˨˩˧"],  // 左, 'left'. Word from Wiktionary's dialect table for Qingdao; reading from MCPDict 青島.
+    zh_jn: ["左", "tsuə˨˩"],  // 左, 'left'. Word from Wiktionary's dialect table for Jinan; reading from MCPDict 濟南.
+    zh_km: ["左", "tso˥˧"],  // 左, 'left'. Word from Wiktionary's dialect table for Kunming; reading from MCPDict 昆明.
+    zh_lz: ["左", "tsuɤ˦˦˨"],  // 左, 'left'. Word from Wiktionary's dialect table for Lanzhou; reading from MCPDict 蘭州.
+    zh_nj: ["左", "tso˨˩˨"],  // 左, 'left'. Word from Wiktionary's dialect table for Nanjing; reading from MCPDict 南京.
+    zh_sc: ["左", "tso˥˧"],  // 左, 'left'. Word from Wiktionary's dialect table for Chengdu; reading from MCPDict 成都.
+    zh_tj: ["左", "tsuo˩˧"],  // 左, 'left'. Word from Wiktionary's dialect table for Tianjin; reading from MCPDict 天津.
+    zh_wh: ["左", "tso˦˨"],  // 左, 'left'. Word from Wiktionary's dialect table for Wuhan; reading from MCPDict 武漢.
+    zh_zz: ["左", "tsuo˥˧"],  // 左, 'left'. Word from Wiktionary's dialect table for Zhengzhou; reading from MCPDict 開封 (no Zhengzhou table; the row matches Kaifeng).
   },
 };

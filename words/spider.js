@@ -489,6 +489,47 @@ WORDS.spider = {
     crn: "plain",
     gn: "plain",
     mns: "plain",
+    cdo: "plain",
+    cjy: "plain",
+    cjy_lv: "plain",
+    cnp: "plain",
+    cpx: "other",
+    czh: "plain",
+    gan: "plain",
+    hak_cn: "plain",
+    hak_hl: "plain",
+    hak_tw: "plain",
+    hsn: "plain",
+    hsn_hy: "plain",
+    mnp: "plain",
+    nan: "plain",
+    nan_ph: "plain",
+    nan_pn: "plain",
+    nan_qz: "plain",
+    nan_te: "plain",
+    nan_xm: "plain",
+    nan_zz: "plain",
+    wuu: "plain",
+    wuu_hz: "plain",
+    wuu_nb: "plain",
+    wuu_sz: "plain",
+    wuu_wz: "plain",
+    yue_nn: "plain",
+    yue_ts: "other",
+    zh_cd: "plain",
+    zh_cq: "plain",
+    zh_db: "plain",
+    zh_hf: "plain",
+    zh_jiao: "plain",
+    zh_jn: "plain",
+    zh_lz: "plain",
+    zh_nj: "plain",
+    zh_sc: "plain",
+    zh_tj: "plain",
+    zh_tw: "plain",
+    zh_wh: "plain",
+    zh_xa: "plain",
+    zh_zz: "plain",
   },
   routes: {
     spin: {"color":"#059669","emoji":"🧶","en":"a spinner (Spinne, spider, örümcek)","ja":"「紡ぐもの」 (Spinne, spider, örümcek)","ko":"'잣는 것' (Spinne, spider, örümcek)","zh":"“纺丝者” (Spinne, spider, örümcek)","yue":"「紡絲嘅」 (Spinne, spider, örümcek)","vi":"\"kẻ kéo tơ\" (Spinne, spider, örümcek)","th":"\"ผู้ปั่นด้าย\" (Spinne, spider, örümcek)","id":"\"pemintal\" (Spinne, spider, örümcek)","hi":"\"कातने वाला\" (Spinne, spider, örümcek)","de":"„Spinner“ (Spinne, spider, örümcek)","fr":"« fileur » (Spinne, spider, örümcek)","it":"«filatore» (Spinne, spider, örümcek)","es":"«hilandero» (Spinne, spider, örümcek)","pt":"«fiandeiro» (Spinne, spider, örümcek)","ru":"«прядильщик» (Spinne, spider, örümcek)","uk":"«прядильник» (Spinne, spider, örümcek)","ar":"«الغازل» (Spinne, spider, örümcek)","he":"\"הטווה\" (Spinne, spider, örümcek)","sw":"\"msokotaji\" (Spinne, spider, örümcek)"},
@@ -918,5 +959,46 @@ WORDS.spider = {
     crn: ["tuʼucá", "tuʔuka"],
     gn: ["ñandu", "ɲãˈndu"],
     mns: ["нимсарэ̄ква", "ˈnʲimsareːkʷa"],
+    cdo: ["蜘蛛", "tʰi˥˥ tʰy˥˥"],  // 蜘蛛, the Chinese word for the spider. Word from Wiktionary's dialect table for Fuzhou; reading from MCPDict 福州.
+    cjy: ["蛛蛛", "tsu˩ tsu˩"],  // Reduplicated 蛛 'spider'. Word from Wiktionary's dialect table for Taiyuan; reading from MCPDict 太原.
+    cjy_lv: ["蜘蛛", "tsɘr˨˦ tsu˨˦"],  // 蜘蛛, the Chinese word for the spider. Word from Wiktionary's dialect table for Lishi; reading from MCPDict 離石.
+    cnp: ["爪揸", "ȵau˧˧ ȵa˥˧"],  // The Pinghua word, literally 'claw-grabber'. Word from Wiktionary's dialect table for Nanning-P; reading from MCPDict 南寧亭子.
+    cpx: ["八蜡爷", "paʔ˨˩ laʔ˦ ia˩˧"],  // Named after 八蜡, the harvest god who rids the fields of insects. Word from Wiktionary's dialect table for Putian; reading from Wiktionary (Putian).
+    czh: ["蛛蛛", "tɕy˩˩ tɕy˩˩"],  // Reduplicated 蛛 'spider'. Word from Wiktionary's dialect table for Tunxi; reading from MCPDict 屯溪.
+    gan: ["蝃蛛", "tsɛt˥ tɕy˦˨"],  // 蛛 'spider' with the local first syllable 蝃. Word from Wiktionary's dialect table for Nanchang; reading from Wiktionary (Nanchang).
+    hak_cn: ["蝲䗁", "la˩˩ kʰia˩˩"],  // The Hakka word; compare Hokkien lâ-giâ (Wiktionary). Word from Wiktionary's dialect table for Meixian; reading from Wiktionary (Meixian).
+    hak_hl: ["蝲䗁", "la˥˥ kʰia˥˥"],  // The Hakka word; compare Hokkien lâ-giâ (Wiktionary). Word from Wiktionary's dialect table for Hsinchu; reading from Wiktionary (Hailu).
+    hak_tw: ["蝲䗁", "la˩˩ kʰia˩˩"],  // The Hakka word; compare Hokkien lâ-giâ (Wiktionary). Word from Wiktionary's dialect table for Miaoli; reading from Wiktionary (Sixian).
+    hsn: ["蜘蛛子", "tʂʅ˨˦ tɕy˧˧ tsɿ"],  // 蜘蛛 'spider' with the noun suffix 子. Word from Wiktionary's dialect table for Changsha; reading from MCPDict 長沙.
+    hsn_hy: ["蜾蛛子", "lo˧˧ tɕy˦˦˥ tsɿ"],  // Word from Wiktionary's dialect table for Hengyang; reading from Wiktionary (Hengyang).
+    mnp: ["吊蛛", "tiau˧˧ ty˥˦"],  // 'Hanging spider'. Word from Wiktionary's dialect table for Jian'ou; reading from Wiktionary (Jian'ou).
+    nan: ["蜘蛛", "ti˦˦ tu˦˦"],  // 蜘蛛, the Chinese word for the spider. Word from Wiktionary's dialect table for Tainan; reading from Wiktionary (POJ ti-tu).
+    nan_ph: ["蜘蛛", "ti˧˧ tu˧˧"],  // 蜘蛛, the Chinese word for the spider. Word from Wiktionary's dialect table for Philippine-MN (Manila); reading from Wiktionary (POJ ti-tu).
+    nan_pn: ["蜘蛛", "ti˧˧ tu˧˧"],  // 蜘蛛, the Chinese word for the spider. Word from Wiktionary's dialect table for Malaysia-MN (Penang); reading from Wiktionary (POJ ti-tu).
+    nan_qz: ["蜘蛛", "ti˧˧ tu˧˧"],  // 蜘蛛, the Chinese word for the spider. Word from Wiktionary's dialect table for Quanzhou; reading from MCPDict 泉州.
+    nan_te: ["蜘蛛", "ti˧˧ tu˧˧"],  // 蜘蛛, the Chinese word for the spider. Word from Wiktionary's dialect table for Shantou; reading from Wiktionary (Teochew).
+    nan_xm: ["蜘蛛", "ti˦˦ tu˦˦"],  // 蜘蛛, the Chinese word for the spider. Word from Wiktionary's dialect table for Xiamen; reading from Wiktionary (POJ ti-tu).
+    nan_zz: ["蜘蛛", "ti˦˦ tu˦˦"],  // 蜘蛛, the Chinese word for the spider. Word from Wiktionary's dialect table for Zhangzhou; reading from MCPDict 漳州.
+    wuu: ["蜘蛛", "tsz̩˥ tsz̩˨˩"],  // 蜘蛛, the Chinese word for the spider. Word from Wiktionary's dialect table for Shanghai; reading from Wiktionary (Shanghai).
+    wuu_hz: ["结蛛", "tɕieʔ˥ tsʮ˧˧"],  // 蛛 'spider' with 结 'to knot, to weave'. Word from Wiktionary's dialect table for Hangzhou; reading from MCPDict 杭州.
+    wuu_nb: ["蛛蛛", "tsɿ˥˨ tsɿ˥˨"],  // Reduplicated 蛛 'spider'. Word from Wiktionary's dialect table for Ningbo; reading from MCPDict 寧波.
+    wuu_sz: ["结蛛", "tɕiəʔ˥ tsʮ˦˦"],  // 蛛 'spider' with 结 'to knot, to weave'. Word from Wiktionary's dialect table for Suzhou; reading from MCPDict 蘇州.
+    wuu_wz: ["丝网蜘蛛", "sɿ˧˧ muɔ˧˦ tsɿ˧˧ tsɿ˧˧"],  // 'Silk-web spider'. Word from Wiktionary's dialect table for Wenzhou; reading from MCPDict 溫州.
+    yue_nn: ["蜘蛛", "tʃi˥˥ tʃy˥˥"],  // 蜘蛛, the Chinese word for the spider. Word from Wiktionary's dialect table for Nanning; reading from MCPDict 南寧.
+    yue_ts: ["蠄蟧", "kʰa˨˨ lɑu˨˩"],  // Borrowed from a Tai language; compare Proto-Tai *krwaːw 'spider' (Wiktionary). Word from Wiktionary's dialect table for Taishan; reading from MCPDict 台山 and Wiktionary (Taishanese).
+    zh_cd: ["蜘蛛", "tsɿ˥˥ tsu˥˥"],  // 蜘蛛, the Chinese word for the spider. Word from Wiktionary's dialect table for Chengdu; reading from MCPDict 成都.
+    zh_cq: ["蜘蛛", "tse˨˩ tsu˥"],  // Written 蜘蛛 but said as if 蜇蛛, with 蜇 tse (Wiktionary's dialect table for Chongqing); reading from MCPDict 重慶.
+    zh_db: ["蜘蛛", "ʈʂʅ˥ ʈʂu˥"],  // 蜘蛛, the Chinese word for the spider. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
+    zh_hf: ["蜘蛛", "tʂi˨˩˨ tʂʉ˨˩˨"],  // 蜘蛛, the Chinese word for the spider. Word from Wiktionary's dialect table for Hefei; reading from MCPDict 合肥.
+    zh_jiao: ["癞癞蛛", "lɛ˦˨ lɛ˦˨ tʃu˨˩˧"],  // Literally 'scabby spider'. Word from Wiktionary's dialect table for Qingdao; reading from MCPDict 青島.
+    zh_jn: ["阿郎蛛子", "a˨˩˧ lɑŋ˦˨ tʂu˨˩˧ tsɿ"],  // Word from Wiktionary's dialect table for Jinan; reading from MCPDict 濟南.
+    zh_lz: ["蛛蛛", "pfu˧˩ pfu˧˩"],  // Reduplicated 蛛 'spider'. Word from Wiktionary's dialect table for Lanzhou; reading from MCPDict 蘭州.
+    zh_nj: ["蜘蛛", "tʂʅ˧˩ tʂu˧˩"],  // 蜘蛛, the Chinese word for the spider. Word from Wiktionary's dialect table for Nanjing; reading from Wiktionary (Nanjing).
+    zh_sc: ["蜘蛛", "tsɹ̩˥ tsu˥"],  // 蜘蛛, the Chinese word for the spider. Word from Wiktionary's dialect table for Chengdu; reading from MCPDict 成都.
+    zh_tj: ["蛛蛛", "tʂu˨˩ tʂu˨˩"],  // Reduplicated 蛛 'spider'. Word from Wiktionary's dialect table for Tianjin; reading from MCPDict 天津.
+    zh_tw: ["蜘蛛", "ʈʂɨ˥ ʈʂu˥"],  // 蜘蛛, the Chinese word for the spider. Word from Wiktionary's dialect table for Taiwan; reading in the row's notation, syllables as in the row's and the zh row's own cells.
+    zh_wh: ["蜘蛛", "tsɿ˥˥ tɕy˥˥"],  // 蜘蛛, the Chinese word for the spider. Word from Wiktionary's dialect table for Wuhan; reading from MCPDict 武漢.
+    zh_xa: ["蜘蛛", "tʂʅ˨˩ pfu˨˩"],  // 蜘蛛, the Chinese word for the spider. Word from Wiktionary's dialect table for Xi'an; reading from MCPDict 西安.
+    zh_zz: ["蛛蛛", "tʂu˨˦ tʂu˨˦"],  // Reduplicated 蛛 'spider'. Word from Wiktionary's dialect table for Zhengzhou; reading from MCPDict 開封 (no Zhengzhou table; the row matches Kaifeng).
   },
 };

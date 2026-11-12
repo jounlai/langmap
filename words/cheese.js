@@ -411,6 +411,14 @@ WORDS.cheese = {
     sr: "syr",
     gn: "caseus",
     jvn: "caseus",
+    dng: "plain",
+    hak_tw: "caseus",
+    nan_xm: "plain",
+    wuu: "caseus",
+    wuu_nb: "caseus",
+    wuu_sz: "caseus",
+    zh_tj: "plain",
+    zh_tw: "caseus",
   },
   routes: {
     caseus: {"color":"#d97706","emoji":"🧀","en":"Latin cāseus (Käse, cheese, queso, keju, チーズ)","ja":"ラテン語 cāseus（Käse, cheese, queso, keju, チーズ）","ko":"라틴어 cāseus (Käse, cheese, queso, keju, チーズ)","zh":"拉丁语 cāseus（Käse、cheese、queso、keju、チーズ）","yue":"拉丁文 cāseus（Käse、cheese、queso、keju、チーズ）","vi":"tiếng Latin cāseus (Käse, cheese, queso, keju, チーズ)","th":"ละติน cāseus (Käse, cheese, queso, keju, チーズ)","id":"Latin cāseus (Käse, cheese, queso, keju, チーズ)","hi":"लैटिन cāseus (Käse, cheese, queso, keju, チーズ)","de":"lateinisch cāseus (Käse, cheese, queso, keju, チーズ)","fr":"le latin cāseus (Käse, cheese, queso, keju, チーズ)","it":"il latino cāseus (Käse, cheese, queso, keju, チーズ)","es":"el latín cāseus (Käse, cheese, queso, keju, チーズ)","pt":"o latim cāseus (Käse, cheese, queso, keju, チーズ)","ru":"латинское cāseus (Käse, cheese, queso, keju, チーズ)","uk":"латинське cāseus (Käse, cheese, queso, keju, チーズ)","ar":"اللاتينية cāseus (Käse, cheese, queso, keju, チーズ)","he":"הלטינית cāseus (Käse, cheese, queso, keju, チーズ)","sw":"Kilatini cāseus (Käse, cheese, queso, keju, チーズ)"},
@@ -761,5 +769,13 @@ WORDS.cheese = {
     sr: ["сир", "sîr"],
     gn: ["kesu", "keˈsu"],  // Borrowed from Spanish queso.
     jvn: ["kèju", "kɛdʒu"],
+    dng: ["нэло", "nɛ˥˩ lɔ˦"],  // Cognate with Mandarin 奶酪. Dungan reading from Wiktionary's Chinese entry 奶酪.
+    hak_tw: ["起士", "tsʰi˧˩ sɨ˩˩"],  // Borrowed from English cheese (Wiktionary). Word from Wiktionary's dialect table for Miaoli; reading from Wiktionary (Sixian).
+    nan_xm: ["奶酪", "nĩ˦˦ lɔk̚˦"],  // 奶 'milk' + 酪 'curd'. Word from Wiktionary's dialect table for Xiamen; reading from Wiktionary (Xiamen).
+    wuu: ["起司", "tɕʰi˥ sz̩˨˩"],  // Borrowed from English cheese, via Shanghainese (Wiktionary). Word from Wiktionary's dialect table for Shanghai; reading from Wiktionary (Shanghai).
+    wuu_nb: ["起司", "tɕʰi˧˨˥ sɿ˥˨"],  // Borrowed from English cheese, via Shanghainese (Wiktionary). Word from Wiktionary's dialect table for Ningbo; reading from MCPDict 寧波.
+    wuu_sz: ["起司", "tɕʰi˥˩ sɿ˦˦"],  // Borrowed from English cheese, via Shanghainese (Wiktionary). Word from Wiktionary's dialect table for Suzhou; reading from MCPDict 蘇州.
+    zh_tj: ["奶酪", "nai˩˧ lɑu˥˧"],  // 奶 'milk' + 酪 'curd'. Word from Wiktionary's dialect table for Tianjin; reading from MCPDict 天津.
+    zh_tw: ["起司", "tɕʰi˨˩˦ sɿ˥"],  // Borrowed from English cheese, via Shanghainese (Wiktionary). Word from Wiktionary's dialect table for Taiwan; reading in the row's notation, syllables as in the row's and the zh row's own cells.
   },
 };

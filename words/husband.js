@@ -535,6 +535,55 @@ WORDS.husband = {
     sr: "own",
     hmn: "own",
     jvn: "own",
+    cdo: "own",
+    cjy: "house",
+    cjy_lv: "house",
+    cjy_xz: "man",
+    cnp: "own",
+    cpx: "own",
+    czh: "own",
+    dng: "own",
+    gan: "own",
+    hak_cn: "own",
+    hak_hl: "own",
+    hak_tw: "own",
+    hsn: "man",
+    hsn_hy: "own",
+    mnp: "own",
+    nan: "own",
+    nan_hai: "own",
+    nan_ph: "own",
+    nan_pn: "own",
+    nan_qz: "own",
+    nan_te: "own",
+    nan_xm: "own",
+    nan_zz: "own",
+    wuu: "man",
+    wuu_hz: "own",
+    wuu_jh: "own",
+    wuu_nb: "own",
+    wuu_sz: "man",
+    wuu_wz: "own",
+    yue_dg: "own",
+    yue_nn: "own",
+    yue_ts: "own",
+    yue_zs: "own",
+    zh_cd: "man",
+    zh_cq: "man",
+    zh_db: "own",
+    zh_hf: "own",
+    zh_jiao: "other",
+    zh_jn: "man",
+    zh_kf: "man",
+    zh_km: "house",
+    zh_lz: "own",
+    zh_nj: "own",
+    zh_sc: "man",
+    zh_tj: "own",
+    zh_tw: "own",
+    zh_wh: "own",
+    zh_xa: "own",
+    zh_zz: "man",
   },
   routes: {
     man: {"color":"#2563eb","emoji":"👨","en":"the same word as man","ja":"「男」と同じ語","ko":"'남자'와 같은 낱말","zh":"与“男人”同一个词","yue":"同「男人」同一個詞","vi":"cùng một từ với 'đàn ông'","th":"คำเดียวกับ 'ผู้ชาย'","id":"kata yang sama dengan 'laki-laki'","hi":"'आदमी' वाला ही शब्द","de":"dasselbe Wort wie Mann","fr":"le même mot qu'homme","it":"la stessa parola di uomo","es":"la misma palabra que hombre","pt":"a mesma palavra que homem","ru":"то же слово, что «мужчина»","uk":"те саме слово, що «чоловік (мужчина)»","ar":"الكلمة نفسها لـ«رجل»","he":"אותה מילה כמו „גבר”","sw":"neno lile lile la 'mwanamume'"},
@@ -1009,5 +1058,54 @@ WORDS.husband = {
     sr: ["муж", "mûːʒ"],
     hmn: ["txiv", "tsi˨˦"],
     jvn: ["laki", "laki"],
+    cdo: ["丈夫", "tɑuŋ˨˦˨ puɔ˥˥"],  // 丈夫, 'husband'. Word from Wiktionary's dialect table for Fuzhou; reading from MCPDict 福州 (colloquial readings).
+    cjy: ["当家的", "tɒ̃˩ tɕia˩ təʔ˨"],  // Literally 'the one who runs the household'. Word from Wiktionary's dialect table for Taiyuan; reading from MCPDict 太原 and Wiktionary (Taiyuan).
+    cjy_lv: ["当家的", "tɔ˨˦ tɕia˨˦ təʔ˦"],  // Literally 'the one who runs the household'. Word from Wiktionary's dialect table for Lishi; reading from MCPDict 離石.
+    cjy_xz: ["男人", "nɑ̃˧˩ ʐəŋ˧˩"],  // Literally 'man'. Word from Wiktionary's dialect table for Xinzhou; reading from MCPDict 忻州秀容.
+    cnp: ["老公", "lau˨˦ kœŋ˥˧"],  // 老公, the everyday word for husband. Word from Wiktionary's dialect table for Nanning-P; reading from MCPDict 南寧亭子.
+    cpx: ["老公", "lau˩˩ kɒŋ˥˧˧"],  // 老公, the everyday word for husband. Word from Wiktionary's dialect table for Putian; reading from MCPDict 莆田.
+    czh: ["老公", "lə˨˦ kan˩˩"],  // 老公, the everyday word for husband. Word from Wiktionary's dialect table for Tunxi; reading from MCPDict 屯溪.
+    dng: ["җонфу", "tʂɑŋ˦ fu˨˦"],  // Cognate with Mandarin 丈夫 'husband'. Dungan reading from Wiktionary's Chinese entry 丈夫.
+    gan: ["老公", "lau˨˩˧ kuŋ˦˨"],  // 老公, the everyday word for husband. Word from Wiktionary's dialect table for Nanchang; reading from MCPDict 南昌.
+    hak_cn: ["老公", "lau˧˩ kuŋ˦"],  // 老公, the everyday word for husband. Word from Wiktionary's dialect table for Meixian; reading from MCPDict 梅縣.
+    hak_hl: ["老公", "lo˨˦ kuŋ˥˧"],  // 老公, the everyday word for husband. Word from Wiktionary's dialect table for Hsinchu; reading from Wiktionary (Hailu).
+    hak_tw: ["老公", "lo˧˩ kuŋ˨˦"],  // 老公, the everyday word for husband. Word from Wiktionary's dialect table for Miaoli; reading from Wiktionary (Sixian).
+    hsn: ["男人", "lan˩˧ ɻən˩˧"],  // Literally 'man'. Word from Wiktionary's dialect table for Changsha; reading from MCPDict 長沙 (人 written ɹ̠ there; ɻ to match the row, which writes that table's postalveolars as retroflex).
+    hsn_hy: ["老公", "lau˧˧ kəŋ˦˦˥"],  // 老公, the everyday word for husband. Word from Wiktionary's dialect table for Hengyang; reading from MCPDict 衡陽.
+    mnp: ["老公", "se˥˥ œyŋ˥˦"],  // 老公, the everyday word for husband. Word from Wiktionary's dialect table for Jian'ou; reading from Wiktionary (Jian'ou) and MCPDict 建甌.
+    nan: ["翁", "aŋ˦˦"],  // The Hokkien word for husband, ang. Word from Wiktionary's dialect table for Tainan; reading from Wiktionary (General Taiwanese).
+    nan_hai: ["老公", "lau˧˧ kaŋ˨˧"],  // 老公, the everyday word for husband. Word from Wiktionary's dialect table for Haikou; reading from MCPDict 海口.
+    nan_ph: ["翁", "aŋ˧˧"],  // The Hokkien word for husband, ang. Word from Wiktionary's dialect table for Philippine-MN (Manila); reading from Wiktionary (Philippines).
+    nan_pn: ["翁", "aŋ˧˧"],  // The Hokkien word for husband, ang. Word from Wiktionary's dialect table for Malaysia-MN (Penang); reading from Wiktionary (Zhangzhou).
+    nan_qz: ["翁", "aŋ˧˧"],  // The Hokkien word for husband, ang. Word from Wiktionary's dialect table for Quanzhou; reading from Wiktionary (Quanzhou).
+    nan_te: ["翁", "aŋ˧˧"],  // The Hokkien word for husband, ang. Word from Wiktionary's dialect table for Shantou; reading from Wiktionary (Teochew).
+    nan_xm: ["翁", "aŋ˦˦"],  // The Hokkien word for husband, ang. Word from Wiktionary's dialect table for Xiamen; reading from Wiktionary (Xiamen).
+    nan_zz: ["翁", "aŋ˦˦"],  // The Hokkien word for husband, ang. Word from Wiktionary's dialect table for Zhangzhou; reading from Wiktionary (Zhangzhou).
+    wuu: ["男人", "nø˨˨ ɲin˦˦"],  // Literally 'man'. Word from Wiktionary's dialect table for Shanghai; reading from Wiktionary (Shanghai).
+    wuu_hz: ["老公", "lɔ˥˧ koŋ˧˧"],  // 老公, the everyday word for husband. Word from Wiktionary's dialect table for Hangzhou; reading from MCPDict 杭州.
+    wuu_jh: ["老公", "lɑu˥˧˥ koŋ˧˧˦"],  // 老公, the everyday word for husband. Word from Wiktionary's dialect table for Jinhua; reading from MCPDict 金華.
+    wuu_nb: ["老公", "lɔ˩˩˧ koŋ˥˨"],  // 老公, the everyday word for husband. Word from Wiktionary's dialect table for Ningbo; reading from MCPDict 寧波.
+    wuu_sz: ["男人", "nø˨˨˧ ȵin˨˨˧"],  // Literally 'man'. Word from Wiktionary's dialect table for Suzhou; reading from MCPDict 蘇州.
+    wuu_wz: ["老公", "lɜ˧˦ koŋ˧˧"],  // 老公, the everyday word for husband. Word from Wiktionary's dialect table for Wenzhou; reading from MCPDict 溫州.
+    yue_dg: ["老公", "lɐu˧˦ koŋ˨˧"],  // 老公, the everyday word for husband. Word from Wiktionary's dialect table for Dongguan; reading from MCPDict 東莞.
+    yue_nn: ["老公", "lu˨˦ kʊŋ˥˥"],  // 老公, the everyday word for husband. Word from Wiktionary's dialect table for Nanning; reading from MCPDict 南寧 (the reading of 老 in 老竇, 老乸).
+    yue_ts: ["老公", "lɑu˥˥ kəɯŋ˨˩"],  // 老公, the everyday word for husband. Word from Wiktionary's dialect table for Taishan; reading from MCPDict 台山.
+    yue_zs: ["老公", "lou˨˩˧ kʊŋ˥˥"],  // 老公, the everyday word for husband. Word from Wiktionary's dialect table for Zhongshan; reading from MCPDict 中山.
+    zh_cd: ["男的", "nan˨˩ ni˥˥"],  // Literally 'the male one'. Word from Wiktionary's dialect table for Chengdu; reading from MCPDict 成都.
+    zh_cq: ["男人", "lan˨˩ zən˨˩"],  // Literally 'man'. Word from Wiktionary's dialect table for Chongqing; reading from MCPDict 重慶.
+    zh_db: ["丈夫", "tʂaŋ˥˩ fu"],  // 丈夫, 'husband'. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
+    zh_hf: ["丈夫", "tʂɑ̃˥˩ fʉ"],  // 丈夫, 'husband'. Word from Wiktionary's dialect table for Hefei; reading from MCPDict 合肥.
+    zh_jiao: ["外头人", "vɛ˦˨ tʰou˦˨ iə̃˦˨"],  // Literally 'the person outside', the one who works outside the home; 当家的 is also said. Word from Wiktionary's dialect table for Qingdao; reading from MCPDict 青島.
+    zh_jn: ["男的", "nã˦˨ ti"],  // Literally 'the male one'. Word from Wiktionary's dialect table for Jinan; reading from MCPDict 濟南.
+    zh_kf: ["男人", "nan˥˧ ʐən˥˧"],  // Literally 'man'. Word from Wiktionary's dialect table for Kaifeng; reading from MCPDict 開封.
+    zh_km: ["当家的", "tᴀ̃˦˦ tɕiᴀ˦˦ ti"],  // Literally 'the one who runs the household'. Word from Wiktionary's dialect table for Kunming; reading from MCPDict 昆明.
+    zh_lz: ["丈夫", "tʂaŋ˩˧ fu"],  // 丈夫, 'husband'. Word from Wiktionary's dialect table for Lanzhou; reading from MCPDict 蘭州.
+    zh_nj: ["丈夫", "tʂã˦ fu"],  // 丈夫, 'husband'. Word from Wiktionary's dialect table for Nanjing; reading from MCPDict 南京.
+    zh_sc: ["男的", "nan˨˩ ni˥"],  // Literally 'the male one'. Word from Wiktionary's dialect table for Chengdu; reading from MCPDict 成都.
+    zh_tj: ["丈夫", "tʂɑŋ˥˧ fu"],  // 丈夫, 'husband'. Word from Wiktionary's dialect table for Tianjin; reading from MCPDict 天津.
+    zh_tw: ["老公", "lɑʊ̯˨˩˦ kʊŋ˥"],  // 老公, the everyday word for husband; 先生 is also said. Word from Wiktionary's dialect table for Taiwan; reading in the row's notation, syllables as in the row's and the zh row's own cells.
+    zh_wh: ["丈夫", "tsaŋ˧˥ fu"],  // 丈夫, 'husband'. Word from Wiktionary's dialect table for Wuhan; reading from MCPDict 武漢.
+    zh_xa: ["丈夫", "tʂaŋ˥˥ fu"],  // 丈夫, 'husband'. Word from Wiktionary's dialect table for Xi'an; reading from MCPDict 西安.
+    zh_zz: ["男人", "nan˦˨ ʐən˦˨"],  // Literally 'man'. Word from Wiktionary's dialect table for Zhengzhou; reading from MCPDict 開封 (no Zhengzhou table; the row matches Kaifeng).
   },
 };

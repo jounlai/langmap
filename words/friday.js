@@ -447,6 +447,48 @@ WORDS.friday = {
     gn: "count",
     rmy: "preparation",
     jvn: "assembly",
+    cdo: "count",
+    cjy: "count",
+    cjy_xz: "count",
+    cnp: "count",
+    cpx: "count",
+    dng: "count",
+    gan: "count",
+    hak_cn: "count",
+    hak_hl: "count",
+    hak_tw: "count",
+    mnp: "count",
+    nan: "count",
+    nan_hai: "count",
+    nan_ph: "count",
+    nan_pn: "count",
+    nan_qz: "count",
+    nan_te: "count",
+    nan_xm: "count",
+    nan_zz: "count",
+    wuu: "count",
+    wuu_hz: "count",
+    wuu_jh: "count",
+    wuu_nb: "count",
+    wuu_sz: "count",
+    wuu_wz: "count",
+    yue_dg: "count",
+    yue_nn: "count",
+    yue_ts: "count",
+    zh_cd: "count",
+    zh_cq: "count",
+    zh_db: "count",
+    zh_jh: "count",
+    zh_jiao: "count",
+    zh_jn: "count",
+    zh_kf: "count",
+    zh_km: "count",
+    zh_lz: "count",
+    zh_nj: "count",
+    zh_sc: "count",
+    zh_tj: "count",
+    zh_wh: "count",
+    zh_xa: "count",
   },
   routes: {
     goddess: {"color":"#db2777","emoji":"👸","en":"the day of Frigg (Friday, Freitag, fredag)","ja":"女神フリッグの日（Friday, Freitag, fredag）","ko":"여신 프리그의 날 (Friday, Freitag, fredag)","zh":"女神弗丽嘉之日（Friday、Freitag、fredag）","yue":"女神弗麗嘉嘅日（Friday、Freitag、fredag）","vi":"ngày của nữ thần Frigg (Friday, Freitag, fredag)","th":"วันของเทพีฟริกก์ (Friday, Freitag, fredag)","id":"hari Dewi Frigg (Friday, Freitag, fredag)","hi":"देवी फ़्रिग का दिन (Friday, Freitag, fredag)","de":"Tag der Frigg (Friday, Freitag, fredag)","fr":"jour de Frigg (Friday, Freitag, fredag)","it":"giorno di Frigg (Friday, Freitag, fredag)","es":"día de Frigg (Friday, Freitag, fredag)","pt":"dia de Frigg (Friday, Freitag, fredag)","ru":"день Фригг (Friday, Freitag, fredag)","uk":"день Фріґґ (Friday, Freitag, fredag)","ar":"يوم فريغ (Friday, Freitag, fredag)","he":"יומה של פריג (Friday, Freitag, fredag)","sw":"siku ya Frigg (Friday, Freitag, fredag)"},
@@ -833,5 +875,47 @@ WORDS.friday = {
     gn: ["arapoteĩ", "aɾapoteˈĩ"],  // ára 'day' + poteĩ 'six'.
     rmy: ["paraśtuj", "paraʃtuj"],
     jvn: ["Jumuwah", "dʒumuwah"],
+    cdo: ["礼拜五", "lɛ˧˧ pai˨˩˧ ŋou˨˦˨"],  // 礼拜 'week (lit. worship)' + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    cjy: ["礼拜五", "li˥˧ pai˦˥ vu˥˧"],  // 礼拜 'week (lit. worship)' + 五 'five', built on the row's word for week. Reading from the row's own cells for the week word and the numeral.
+    cjy_xz: ["星期五", "ɕiəŋ˧˩˧ tɕʰi˧˩˧ u˧˩˧"],  // 星期 'week' + 五 'five'. Week word from Wiktionary's dialect table for Xinzhou; reading from MCPDict 忻州秀容.
+    cnp: ["礼拜五", "lɐi˨˦ pai˥˥ ŋ̍˨˦"],  // 礼拜 'week (lit. worship)' + 五 'five'. Week word from Wiktionary's dialect table for Nanning-P; reading from MCPDict 南寧亭子.
+    cpx: ["拜五", "pai˦˨ ŋɔu˩˩"],  // 拜, short for 礼拜 'week (lit. worship)', + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    dng: ["щинчиву", "ɕiŋ˨˦ tɕʰi˨˦ vu˥˩"],  // Cognate with Mandarin 星期五, 'week five'. Dungan reading from Wiktionary's Chinese entry 星期五.
+    gan: ["礼拜五", "li˨˩˧ pai˧˥ ŋ̍˨˩˧"],  // 礼拜 'week (lit. worship)' + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    hak_cn: ["礼拜五", "li˦ pai˥˧ ŋ̍˧˩"],  // 礼拜 'week (lit. worship)' + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    hak_hl: ["拜五", "pai˩˩ ŋ̍˨˦"],  // 拜, short for 禮拜 'week (lit. worship)', + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    hak_tw: ["拜五", "pai˥˥ ŋ̍˧˩"],  // 拜, short for 禮拜 'week (lit. worship)', + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    mnp: ["礼拜五", "li˨˩ pai˧˧ ŋu˦˨"],  // 礼拜 'week (lit. worship)' + 五 'five', built on the row's word for week. Reading from the row's own cells for the week word and the numeral.
+    nan: ["拜五", "pai˩˩ ɡɔ˧˧"],  // 拜, short for 禮拜 'week (lit. worship)', + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    nan_hai: ["礼拜五", "li˨˩˧ ɓai˧˥ ŋɔu˧˧"],  // 礼拜 'week (lit. worship)' + 五 'five'. Week word from Wiktionary's dialect table for Haikou; reading from MCPDict 海口.
+    nan_ph: ["拜五", "pai˦˩ ɡɔ˧˧"],  // 拜, short for 禮拜 'week (lit. worship)', + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    nan_pn: ["拜五", "pai˨˩ ɡɔ˨˩"],  // 拜, short for 禮拜 'week (lit. worship)', + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    nan_qz: ["拜五", "pai˦˩ ɡɔ˨˨"],  // 拜, short for 礼拜 'week (lit. worship)', + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    nan_te: ["拜五", "pai˨˩˧ ŋou˧˥"],  // 拜, short for 礼拜 'week (lit. worship)', + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    nan_xm: ["拜五", "pai˨˩ ɡɔ˨˨"],  // 拜, short for 礼拜 'week (lit. worship)', + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    nan_zz: ["拜五", "pai˨˩ ɡɔ˨˨"],  // 拜, short for 礼拜 'week (lit. worship)', + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    wuu: ["礼拜五", "li˨˨ pa˥ ŋ̍˨˩"],  // 礼拜 'week (lit. worship)' + 五 'five', as in the row's Monday cell. Reading from Wiktionary (Shanghai), which gives the whole word with its sandhi like the row's Monday cell.
+    wuu_hz: ["礼拜五", "li˥˧ pᴇ˦˦˥ ʔu˥˧"],  // 礼拜 'week (lit. worship)' + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    wuu_jh: ["星期五", "siŋ˧˧˦ dʑi˧˩˧ ŋ̍˥˧˥"],  // 星期 'week' + 五 'five'. Week word from Wiktionary's dialect table for Jinhua; reading from MCPDict 金華.
+    wuu_nb: ["礼拜五", "li˨˩˧ pa˦˦ ŋ̩˩˩˧"],  // 礼拜 'week (lit. worship)' + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    wuu_sz: ["礼拜五", "li˨˧˩ pɑ˥˨˧ ŋ̍˨˧˩"],  // 礼拜 'week (lit. worship)' + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    wuu_wz: ["礼拜五", "lei˧˥ pa˥˨ ŋ̍˧˦"],  // 礼拜 'week (lit. worship)' + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    yue_dg: ["礼拜五", "lɔi˧˦ pai˦˦˧ ʔm̩˧˦"],  // 礼拜 'week (lit. worship)' + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    yue_nn: ["礼拜五", "lɐi˨˦ pai˧˧ ŋ̍˨˦"],  // 礼拜 'week (lit. worship)' + 五 'five', as in the row's Sunday cell. Reading from the row's own cells for the week word and the numeral.
+    yue_ts: ["星期五", "ɬen˧˧ kʰei˨˨ m̩˥˥"],  // 星期 'week' + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    zh_cd: ["星期五", "ɕin˥˥ tɕʰi˨˩ u˥˧"],  // 星期 'week' + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    zh_cq: ["星期五", "ɕin˥ tɕʰi˥ vu˦˨"],  // 星期 'week' + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    zh_db: ["星期五", "ɕiŋ˥ tɕʰi˥ u˨˩˦"],  // 星期 'week' + 五 'five', as in the row's Monday cell. Reading from the row's own Monday cell and the zh row's numeral.
+    zh_jh: ["星期五", "ɕiŋ˧˩ tɕʰi˧˩ u˨˩˨"],  // 星期 'week' + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    zh_jiao: ["星期五", "siəŋ˨˩˧ tɕʰi˨˩˧ vu˥˥"],  // 星期 'week' + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    zh_jn: ["星期五", "ɕiŋ˨˩˧ tɕʰi˨˩˧ u˥˥"],  // 星期 'week' + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    zh_kf: ["星期五", "ɕiəŋ˨˦ tɕʰi˨˦ u˦˦"],  // 星期 'week' + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    zh_km: ["星期五", "ɕĩ˦˦ tɕʰi˦˦ u˥˧"],  // 星期 'week' + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    zh_lz: ["星期五", "ɕiŋ˧˩ tɕʰi˥˧ vu˦˦˨"],  // 星期 'week' + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    zh_nj: ["星期五", "ɕiŋ˧˩ tɕʰi˧˩ u˨˩˨"],  // 星期 'week' + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    zh_sc: ["星期五", "ɕin˥ tɕʰi˨˩ vu˥˧"],  // 星期 'week' + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    zh_tj: ["星期五", "ɕiŋ˨˩ tɕʰi˨˩ u˩˧"],  // 星期 'week' + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    zh_wh: ["星期五", "ɕin˥˥ tɕʰi˥˥ u˦˨"],  // 星期 'week' + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    zh_xa: ["星期五", "ɕiŋ˨˩ tɕʰi˨˩ u˥˧"],  // 星期 'week' + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
   },
 };

@@ -474,6 +474,50 @@ WORDS.gold = {
     gn: "yellow",
     hmn: "jin",
     jvn: "plain",
+    cdo: "jin",
+    cjy: "jin",
+    cjy_xz: "jin",
+    cnp: "jin",
+    gan: "jin",
+    hak_cn: "jin",
+    hak_hl: "jin",
+    hak_tw: "jin",
+    hsn: "jin",
+    hsn_hy: "jin",
+    mnp: "jin",
+    nan: "jin",
+    nan_hai: "jin",
+    nan_ph: "jin",
+    nan_pn: "jin",
+    nan_qz: "jin",
+    nan_xm: "jin",
+    nan_zz: "jin",
+    wuu: "jin",
+    wuu_hz: "jin",
+    wuu_jh: "jin",
+    wuu_nb: "jin",
+    wuu_sz: "jin",
+    wuu_wz: "jin",
+    yue_dg: "jin",
+    yue_nn: "jin",
+    yue_ts: "jin",
+    yue_zs: "jin",
+    zh_cd: "jin",
+    zh_cq: "jin",
+    zh_db: "jin",
+    zh_hf: "jin",
+    zh_jh: "jin",
+    zh_jiao: "jin",
+    zh_jn: "jin",
+    zh_km: "jin",
+    zh_lz: "jin",
+    zh_nj: "jin",
+    zh_sc: "jin",
+    zh_tj: "jin",
+    zh_tw: "jin",
+    zh_wh: "jin",
+    zh_xa: "jin",
+    zh_zz: "jin",
   },
   routes: {
     yellow: {"color":"#ca8a04","emoji":"💛","en":"from a \"yellow\" word (gold, золото, zar, vàng)","ja":"「黄色」の語から (gold, золото, zar, vàng)","ko":"'노랑'의 말에서 (gold, золото, zar, vàng)","zh":"来自表示“黄”的词 (gold, золото, zar, vàng)","yue":"嚟自解「黃」嘅詞 (gold, золото, zar, vàng)","vi":"từ một từ chỉ \"màu vàng\" (gold, золото, zar, vàng)","th":"จากคำว่า \"เหลือง\" (gold, золото, zar, vàng)","id":"dari kata \"kuning\" (gold, золото, zar, vàng)","hi":"\"पीले\" के शब्द से (gold, золото, zar, vàng)","de":"von einem Wort für „gelb“ (gold, золото, zar, vàng)","fr":"d'un mot pour « jaune » (gold, золото, zar, vàng)","it":"da una parola per «giallo» (gold, золото, zar, vàng)","es":"de una palabra para «amarillo» (gold, золото, zar, vàng)","pt":"de uma palavra para «amarelo» (gold, золото, zar, vàng)","ru":"от слова «жёлтый» (gold, золото, zar, vàng)","uk":"від слова «жовтий» (gold, золото, zar, vàng)","ar":"من كلمة «أصفر» (gold, золото, zar, vàng)","he":"ממילה ל\"צהוב\" (gold, золото, zar, vàng)","sw":"kutoka neno la \"manjano\" (gold, золото, zar, vàng)"},
@@ -887,5 +931,49 @@ WORDS.gold = {
     gn: ["itaju", "itaˈdʒu"],  // ita 'stone' + ju 'yellow'.
     hmn: ["kub", "ku˥"],  // Borrowed from Old Chinese 金.
     jvn: ["emas", "əmas"],
+    cdo: ["金", "kiŋ˥˥"],  // 金, 'metal, gold'. Word from Wiktionary's dialect table for Fuzhou; reading from MCPDict 福州.
+    cjy: ["金子", "tɕiŋ˩ tsəʔ˨"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Taiyuan; reading from MCPDict 太原, with 子 as in the row's own cells.
+    cjy_xz: ["金子", "tɕiəŋ˧˩˧ tsɿ˧˩˧"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Xinzhou; reading from MCPDict 忻州秀容.
+    cnp: ["金", "kɐm˥˧"],  // 金, 'metal, gold'. Word from Wiktionary's dialect table for Nanning-P; reading from MCPDict 南寧亭子.
+    gan: ["金子", "tɕin˦˨ tsɿ˨"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Nanchang; reading from MCPDict 南昌.
+    hak_cn: ["金仔", "kim˦ e˧˩"],  // 金 'gold' with the noun suffix 仔. Word from Wiktionary's dialect table for Meixian; reading from MCPDict 梅縣.
+    hak_hl: ["金仔", "kim˥˧ ɤ˥˥"],  // 金 'gold' with the noun suffix 仔. Word from Wiktionary's dialect table for Hsinchu; reading from Wiktionary (Hailu).
+    hak_tw: ["金仔", "kim˨˦ e˧˩"],  // 金 'gold' with the noun suffix 仔. Word from Wiktionary's dialect table for Miaoli; reading from Wiktionary (Sixian).
+    hsn: ["金子", "tɕin˧˧ tsɿ"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Changsha; reading from MCPDict 長沙.
+    hsn_hy: ["金子", "tɕin˦˦˥ tsɿ"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Hengyang; reading from MCPDict 衡陽.
+    mnp: ["金", "keiŋ˥˦"],  // 金, 'metal, gold'. Word from Wiktionary's dialect table for Jian'ou; reading from Wiktionary (Jian'ou).
+    nan: ["金", "kim˦˦"],  // 金, 'metal, gold'. Word from Wiktionary's dialect table for Tainan; reading from Wiktionary (General Taiwanese).
+    nan_hai: ["金", "kim˨˧"],  // 金, 'metal, gold'. Word from Wiktionary's dialect table for Haikou; reading from MCPDict 海口.
+    nan_ph: ["金", "kim˧˧"],  // 金, 'metal, gold'. Word from Wiktionary's dialect table for Philippine-MN (Manila); reading from Wiktionary (Quanzhou).
+    nan_pn: ["金", "kim˧˧"],  // 金, 'metal, gold'. Word from Wiktionary's dialect table for Malaysia-MN (Penang); reading from Wiktionary (Penang).
+    nan_qz: ["金仔", "kim˧˧ a˥˥˦"],  // 金 'gold' with the noun suffix 仔. Word from Wiktionary's dialect table for Quanzhou; reading from Wiktionary (Quanzhou).
+    nan_xm: ["金仔", "kim˦˦ a˥˧"],  // 金 'gold' with the noun suffix 仔. Word from Wiktionary's dialect table for Xiamen; reading from Wiktionary (Xiamen).
+    nan_zz: ["金仔", "kim˦˦ a˥˧"],  // 金 'gold' with the noun suffix 仔. Word from Wiktionary's dialect table for Zhangzhou; reading from Wiktionary (Zhangzhou).
+    wuu: ["金子", "tɕin˥ tsz̩˨˩"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Shanghai; reading from Wiktionary (Shanghai).
+    wuu_hz: ["金子", "tɕiŋ˧˧ tsɿ˥˧"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Hangzhou; reading from MCPDict 杭州.
+    wuu_jh: ["金", "tɕiŋ˧˧˦"],  // 金, 'metal, gold'. Word from Wiktionary's dialect table for Jinhua; reading from MCPDict 金華.
+    wuu_nb: ["金", "tɕiŋ˥˨"],  // 金, 'metal, gold'. Word from Wiktionary's dialect table for Ningbo; reading from MCPDict 寧波.
+    wuu_sz: ["金子", "tɕin˦˦ tsɿ˥˩"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Suzhou; reading from MCPDict 蘇州.
+    wuu_wz: ["金", "tɕaŋ˧˧"],  // 金, 'metal, gold'. Word from Wiktionary's dialect table for Wenzhou; reading from MCPDict 溫州.
+    yue_dg: ["金", "kɐm˨˧"],  // 金, 'metal, gold'. Word from Wiktionary's dialect table for Dongguan; reading from MCPDict 東莞.
+    yue_nn: ["金", "kɐm˥˥"],  // 金, 'metal, gold'. Word from Wiktionary's dialect table for Nanning; reading from MCPDict 南寧.
+    yue_ts: ["金", "kim˧˧"],  // 金, 'metal, gold'. Word from Wiktionary's dialect table for Taishan; reading from MCPDict 台山.
+    yue_zs: ["金", "kɐm˥˥"],  // 金, 'metal, gold'. Word from Wiktionary's dialect table for Zhongshan; reading from MCPDict 中山.
+    zh_cd: ["金子", "tɕin˥˥ tsɿ˥˧"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Chengdu; reading from MCPDict 成都.
+    zh_cq: ["金子", "tɕin˥ tsɿ˦˨"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Chongqing; reading from MCPDict 重慶.
+    zh_db: ["金子", "tɕin˥ tsɨ"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
+    zh_hf: ["金子", "tɕiən˨˩˨ tə"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Hefei; reading from MCPDict 合肥.
+    zh_jh: ["金子", "tɕiŋ˧˩ tsɿ"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Yangzhou; reading from MCPDict 揚州.
+    zh_jiao: ["金子", "tɕiə̃˨˩˧ tsɿ˥˥"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Qingdao; reading from MCPDict 青島.
+    zh_jn: ["金子", "tɕiɪ̃˨˩˧ tsɿ"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Jinan; reading from MCPDict 濟南.
+    zh_km: ["金子", "tɕĩ˦˦ tsɿ"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Kunming; reading from MCPDict 昆明.
+    zh_lz: ["金子", "tɕiŋ˧˩ tsɨ"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Lanzhou; reading from MCPDict 蘭州.
+    zh_nj: ["金子", "tɕiŋ˧˩ tsɿ"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Nanjing; reading from MCPDict 南京.
+    zh_sc: ["金子", "tɕin˥ tsɹ̩˥˧"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Chengdu; reading from MCPDict 成都.
+    zh_tj: ["金子", "tɕin˨˩ tsɿ"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Tianjin; reading from MCPDict 天津.
+    zh_tw: ["金子", "tɕin˥ tsɨ"],  // 金 'gold' with the noun suffix 子; 黃金 is also said. Word from Wiktionary's dialect table for Taiwan; reading in the row's notation, syllables as in the row's and the zh row's own cells.
+    zh_wh: ["金子", "tɕin˥˥ tsɿ"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Wuhan; reading from MCPDict 武漢.
+    zh_xa: ["金子", "tɕiẽ˨˩ tsɿ"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Xi'an; reading from MCPDict 西安.
+    zh_zz: ["黄金", "xuaŋ˦˨ tɕin˨˦"],  // 黄 'yellow' + 金 'metal, gold'. Word from Wiktionary's dialect table for Zhengzhou; reading from MCPDict 開封 (no Zhengzhou table; the row matches Kaifeng).
   },
 };

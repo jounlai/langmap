@@ -293,6 +293,54 @@ WORDS.chili = {
     ngu: "chilli",
     hmn: "pepper",
     jvn: "plain",
+    cdo: "foreign",
+    cjy: "plain",
+    cjy_lv: "plain",
+    cjy_xz: "plain",
+    cpx: "plain",
+    czh: "plain",
+    czh_wy: "plain",
+    dng: "plain",
+    gan: "plain",
+    hak_cn: "plain",
+    hak_hl: "plain",
+    hak_tw: "plain",
+    hsn: "plain",
+    hsn_hy: "plain",
+    mnp: "foreign",
+    nan: "foreign",
+    nan_hai: "foreign",
+    nan_ph: "plain",
+    nan_pn: "foreign",
+    nan_qz: "foreign",
+    nan_te: "plain",
+    nan_xm: "foreign",
+    nan_zz: "foreign",
+    wuu: "plain",
+    wuu_hz: "plain",
+    wuu_jh: "plain",
+    wuu_nb: "plain",
+    wuu_sz: "plain",
+    wuu_wz: "foreign",
+    yue_dg: "plain",
+    yue_nn: "plain",
+    yue_ts: "plain",
+    yue_zs: "plain",
+    zh_cd: "foreign",
+    zh_cq: "foreign",
+    zh_db: "plain",
+    zh_hf: "plain",
+    zh_jiao: "plain",
+    zh_jn: "plain",
+    zh_km: "plain",
+    zh_lz: "plain",
+    zh_nj: "plain",
+    zh_sc: "foreign",
+    zh_tj: "plain",
+    zh_tw: "plain",
+    zh_wh: "plain",
+    zh_xa: "plain",
+    zh_zz: "plain",
   },
   routes: {
     chilli: {"color":"#dc2626","emoji":"🌶️","en":"Nahuatl chīlli (chile, chili, sili)","ja":"ナワトル語 chīlli（chile, chili, sili）","ko":"나와틀어 chīlli (chile, chili, sili)","zh":"纳瓦特尔语 chīlli（chile、chili、sili）","yue":"納瓦特爾語 chīlli（chile、chili、sili）","vi":"tiếng Nahuatl chīlli (chile, chili, sili)","th":"นาวัตล์ chīlli (chile, chili, sili)","id":"Nahuatl chīlli (chile, chili, sili)","hi":"नाहुआत्ल chīlli (chile, chili, sili)","de":"Nahuatl chīlli (chile, Chili, sili)","fr":"le nahuatl chīlli (chile, chili, sili)","it":"il nahuatl chīlli (chile, chili, sili)","es":"el náhuatl chīlli (chile, chili, sili)","pt":"o náuatle chīlli (chile, chili, sili)","ru":"науатль chīlli (chile, chili, sili)","uk":"науатль chīlli (chile, chili, sili)","ar":"الناواتل chīlli (chile, chili, sili)","he":"הנאוואטל chīlli (chile, chili, sili)","sw":"Kinahuatl chīlli (chile, chili, sili)"},
@@ -524,5 +572,53 @@ WORDS.chili = {
     ngu: ["chijli", "ˈtʃihli"],
     hmn: ["kua txob", "kua˧ tsɔ˥"],  // txob 'pepper'.
     jvn: ["lombok", "lɔmbɔʔ"],
+    cdo: ["番椒", "huaŋ˥˥ tsieu˥˥"],  // 'Foreign pepper': 番 marks things brought from abroad. Word from Wiktionary's dialect table for Fuzhou; reading from MCPDict 福州.
+    cjy: ["辣角子", "ləʔ˨ tɕyəʔ˨ tsəʔ˥˧"],  // 'Hot horn', with the noun suffix 子. Word from Wiktionary's dialect table for Taiyuan; reading from MCPDict 太原.
+    cjy_lv: ["辣子", "laʔ˨˧ tsəʔ˦"],  // 辣 'hot, spicy' with the noun suffix 子. Word from Wiktionary's dialect table for Lishi; reading from MCPDict 離石.
+    cjy_xz: ["辣角子", "lɑʔ˦˧ tɕiɔ˧˩˧ tsɿ˧˩˧"],  // 'Hot horn', with the noun suffix 子. Word from Wiktionary's dialect table for Xinzhou; reading from MCPDict 忻州秀容.
+    cpx: ["辣椒", "luaʔ˦ tsieu˥˧˧"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Putian; reading from Wiktionary (Putian).
+    czh: ["辣椒", "lɔ˩˩ tsiu˩˩"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Tunxi; reading from MCPDict 屯溪.
+    czh_wy: ["辣椒", "lo˥˩ tsiɔ˦˦"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Wuyuan; reading from MCPDict 婺源.
+    dng: ["лазы", "la˨˦ tsɹ̩˨˦"],  // Cognate with Mandarin 辣子 'chili', from 辣 'hot'. Dungan reading from Wiktionary's Chinese entry 辣子.
+    gan: ["辣椒", "lat˨ tɕiɛu˦˨"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Nanchang; reading from MCPDict 南昌.
+    hak_cn: ["辣椒", "lat˥ tsiau˦"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Meixian; reading from MCPDict 梅縣.
+    hak_hl: ["辣椒仔", "lat˨ tsiau˥˧ ɤ˥˥"],  // 辣椒 'chili' with the noun suffix 仔. Word from Wiktionary's dialect table for Hsinchu; reading from Wiktionary (Hailu).
+    hak_tw: ["辣椒仔", "lat˥ tseu˨˦ e˧˩"],  // 辣椒 'chili' with the noun suffix 仔. Word from Wiktionary's dialect table for Miaoli; reading from Wiktionary (Sixian).
+    hsn: ["辣椒", "la˨˦ tsiau˧˧"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Changsha; reading from MCPDict 長沙.
+    hsn_hy: ["辣椒", "la˩˩˨ tɕiau˦˦˥"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Hengyang; reading from MCPDict 衡陽.
+    mnp: ["番椒", "xuaiŋ˥˦ tsiau˥˦"],  // 'Foreign pepper': 番 marks things brought from abroad. Word from Wiktionary's dialect table for Jian'ou; reading from Wiktionary (Jian'ou).
+    nan: ["番仔薑", "huan˦˦ a˥˧ kiũ˦˦"],  // 'Foreigners' ginger': 番仔 'foreigner'. Word from Wiktionary's dialect table for Tainan; reading from Wiktionary (Kaohsiung).
+    nan_hai: ["番椒", "huaŋ˨˧ tsio˨˧"],  // 'Foreign pepper': 番 marks things brought from abroad. Word from Wiktionary's dialect table for Haikou; reading from MCPDict 海口.
+    nan_ph: ["辣椒", "luaʔ˨˦ tsio˧˧"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Philippine-MN (Manila); reading from Wiktionary (Quanzhou).
+    nan_pn: ["番椒", "huan˧˧ tsio˧˧"],  // 'Foreign pepper': 番 marks things brought from abroad. Word from Wiktionary's dialect table for Malaysia-MN (Penang); reading from Wiktionary (Penang).
+    nan_qz: ["番姜", "huan˧˧ kiũ˧˧"],  // 'Foreign ginger': 番 marks things brought from abroad. Word from Wiktionary's dialect table for Quanzhou; reading from Wiktionary (Quanzhou).
+    nan_te: ["莶椒", "hiam˧˧ tsio˧˧"],  // 莶 'pungent' + 椒 'pepper'. Word from Wiktionary's dialect table for Shantou; reading from Wiktionary (Teochew), the form MCPDict 汕頭 also gives for 椒.
+    nan_xm: ["番姜", "huan˦˦ kiũ˦˦"],  // 'Foreign ginger': 番 marks things brought from abroad. Word from Wiktionary's dialect table for Xiamen; reading from Wiktionary (Xiamen).
+    nan_zz: ["番姜", "huan˦˦ kiɔ̃˦˦"],  // 'Foreign ginger': 番 marks things brought from abroad. Word from Wiktionary's dialect table for Zhangzhou; reading from Wiktionary (Zhangzhou).
+    wuu: ["辣椒", "laʔ˩˩ tɕiɔ˨˧"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Shanghai; reading from Wiktionary (Shanghai).
+    wuu_hz: ["辣茄儿", "laʔ˨ dʑi˨˩˧ əl˨˩˧"],  // 'Hot eggplant', with the suffix 儿. Word from Wiktionary's dialect table for Hangzhou; reading from MCPDict 杭州.
+    wuu_jh: ["辣虎", "luɑ˩˦ xu˥˧˥"],  // 'Hot tiger'. Word from Wiktionary's dialect table for Jinhua; reading from MCPDict 金華.
+    wuu_nb: ["辣茄", "lɐʔ˩˨ ɡa˧˩˧"],  // 'Hot eggplant'. Word from Wiktionary's dialect table for Ningbo; reading from MCPDict 寧波.
+    wuu_sz: ["辣火", "laʔ˧ həu˥˩"],  // 'Hot fire'. Word from Wiktionary's dialect table for Suzhou; reading from MCPDict 蘇州.
+    wuu_wz: ["番姜", "fa˧˧ tɕi˧˧"],  // 'Foreign ginger': 番 marks things brought from abroad. Word from Wiktionary's dialect table for Wenzhou; reading from MCPDict 溫州.
+    yue_dg: ["辣椒", "lɛk˧ tʃiu˨˧"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Dongguan; reading from MCPDict 東莞.
+    yue_nn: ["辣椒", "lat˨ tʃiu˥˥"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Nanning; reading from MCPDict 南寧.
+    yue_ts: ["辣椒", "lat˧˨ tieu˧˧"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Taishan; reading from MCPDict 台山.
+    yue_zs: ["辣椒", "lat˧ tsiu˥˥"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Zhongshan; reading from MCPDict 中山.
+    zh_cd: ["海椒", "xai˥˧ tɕiau˥˥"],  // 'Sea pepper': the chili came from overseas (Wiktionary). Word from Wiktionary's dialect table for Chengdu; reading from MCPDict 成都.
+    zh_cq: ["海椒", "xai˦˨ tɕiau˥"],  // 'Sea pepper': the chili came from overseas (Wiktionary). Word from Wiktionary's dialect table for Chongqing; reading from MCPDict 重慶.
+    zh_db: ["辣椒", "la˥˩ tɕjau˥"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
+    zh_hf: ["辣椒", "lɐʔ˦ tɕiɔ˨˩˨"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Hefei; reading from MCPDict 合肥.
+    zh_jiao: ["辣椒", "la˦˨ tsiɔ˨˩˧"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Qingdao; reading from MCPDict 青島.
+    zh_jn: ["辣椒", "la˨˩ tɕiɔ˨˩˧"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Jinan; reading from MCPDict 濟南.
+    zh_km: ["辣椒", "lᴀ˧˩ tɕiʌo˦˦"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Kunming; reading from MCPDict 昆明.
+    zh_lz: ["辣椒", "na˩˧ tɕiau˧˩"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Lanzhou; reading from MCPDict 蘭州.
+    zh_nj: ["辣椒", "laʔ˥ tsiɔ˧˩"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Nanjing; reading from Wiktionary (Nanjing).
+    zh_sc: ["海椒", "xai˥˧ tɕiau˥"],  // 'Sea pepper': the chili came from overseas (Wiktionary). Word from Wiktionary's dialect table for Chengdu; reading from MCPDict 成都.
+    zh_tj: ["辣子", "lɑ˥˧ tsɿ"],  // 辣 'hot, spicy' with the noun suffix 子. Word from Wiktionary's dialect table for Tianjin; reading from MCPDict 天津.
+    zh_tw: ["辣椒", "la˥˩ tɕjau˥"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Taiwan; reading in the row's notation, syllables as in the row's and the zh row's own cells.
+    zh_wh: ["辣椒", "na˨˩˧ tɕiau˥˥"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Wuhan; reading from MCPDict 武漢.
+    zh_xa: ["辣椒", "la˨˩ tɕiau˨˩"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Xi'an; reading from MCPDict 西安.
+    zh_zz: ["辣椒", "la˨˦ tɕiau˨˦"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Zhengzhou; reading from MCPDict 開封 (no Zhengzhou table; the row matches Kaifeng).
   },
 };

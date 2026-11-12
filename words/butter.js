@@ -441,6 +441,20 @@ WORDS.butter = {
     ja_hak: "butyrum",
     ja_hir: "butyrum",
     jvn: "manteca",
+    cdo: "fat",
+    cjy: "fat",
+    hak_hl: "butyrum",
+    hak_tw: "butyrum",
+    nan_ph: "fat",
+    nan_pn: "fat",
+    nan_qz: "fat",
+    nan_xm: "fat",
+    nan_zz: "fat",
+    wuu: "butyrum",
+    wuu_nb: "butyrum",
+    yue_dg: "fat",
+    zh_tw: "fat",
+    zh_wh: "butyrum",
   },
   routes: {
     butyrum: {"color":"#d97706","emoji":"🐄","en":"Greek βούτυρον 'cow cheese' (butter, beurre, バター)","ja":"ギリシャ語 βούτυρον「牛のチーズ」（butter, beurre, バター）","ko":"그리스어 βούτυρον '소의 치즈' (butter, beurre, バター)","zh":"希腊语 βούτυρον“牛的奶酪”（butter、beurre、バター）","yue":"希臘文 βούτυρον「牛嘅芝士」（butter、beurre、バター）","vi":"tiếng Hy Lạp βούτυρον 'pho mát bò' (butter, beurre, バター)","th":"กรีก βούτυρον 'ชีสวัว' (butter, beurre, バター)","id":"Yunani βούτυρον 'keju sapi' (butter, beurre, バター)","hi":"यूनानी βούτυρον 'गाय का पनीर' (butter, beurre, バター)","de":"griechisch βούτυρον „Kuhkäse“ (butter, beurre, バター)","fr":"le grec βούτυρον « fromage de vache » (butter, beurre, バター)","it":"il greco βούτυρον «formaggio di vacca» (butter, beurre, バター)","es":"el griego βούτυρον «queso de vaca» (butter, beurre, バター)","pt":"o grego βούτυρον «queijo de vaca» (butter, beurre, バター)","ru":"греческое βούτυρον «коровий сыр» (butter, beurre, バター)","uk":"грецьке βούτυρον «коров'ячий сир» (butter, beurre, バター)","ar":"اليونانية βούτυρον «جبن البقر» (butter, beurre, バター)","he":"היוונית βούτυρον „גבינת פרה” (butter, beurre, バター)","sw":"Kigiriki βούτυρον 'jibini la ng'ombe' (butter, beurre, バター)"},
@@ -819,5 +833,19 @@ WORDS.butter = {
     ja_hak: ["バター", "bataː"],
     ja_hir: ["バター", "bataː"],
     jvn: ["mertéga", "mərteɡɔ"],
+    cdo: ["牛奶油", "ŋu˥˧ nɛiŋ˥˧ ieu˥˧"],  // Literally 'cow-milk oil'. Word from Wiktionary's dialect table for Fuzhou; reading from Wiktionary (Fuzhou), with 奶 as in the row's own 牛奶.
+    cjy: ["黄油", "xuɒ̃˩ iəu˩"],  // Literally 'yellow oil'. Word from Wiktionary's dialect table for Taiyuan; reading from MCPDict 太原.
+    hak_hl: ["白塔", "pʰak˨ tʰap˥"],  // A loan of English butter, like Shanghainese 白脫. Word from Wiktionary's dialect table for Hsinchu; reading from MCPDict 臺灣海陸腔.
+    hak_tw: ["白塔", "pʰak˥ tʰap˨"],  // A loan of English butter, like Shanghainese 白脫. Word from Wiktionary's dialect table for Miaoli; reading from MCPDict 臺灣四縣腔.
+    nan_ph: ["牛油", "ɡu˨˦ iu˨˦"],  // Literally 'cow oil'. Word from Wiktionary's dialect table for Philippine-MN (Manila); reading from Wiktionary (Quanzhou).
+    nan_pn: ["牛油", "ɡu˨˧ iu˨˧"],  // Literally 'cow oil'. Word from Wiktionary's dialect table for Malaysia-MN (Penang); reading from Wiktionary (Zhangzhou).
+    nan_qz: ["牛油", "ɡu˨˦ iu˨˦"],  // Literally 'cow oil'. Word from Wiktionary's dialect table for Quanzhou; reading from Wiktionary (Quanzhou).
+    nan_xm: ["牛油", "ɡu˨˦ iu˨˦"],  // Literally 'cow oil'. Word from Wiktionary's dialect table for Xiamen; reading from Wiktionary (Xiamen).
+    nan_zz: ["牛油", "ɡu˩˧ iu˩˧"],  // Literally 'cow oil'. Word from Wiktionary's dialect table for Zhangzhou; reading from Wiktionary (Zhangzhou).
+    wuu: ["白脱油", "baʔ˩˩ tʰəʔ˨˨ ɦiɤ˨˧"],  // 白脱 is borrowed from English butter, via Shanghainese (Wiktionary), with 油 'oil'. Word from Wiktionary's dialect table for Shanghai; reading from Wiktionary (Shanghai).
+    wuu_nb: ["白脱", "bɐʔ˩˨ tʰɐʔ˥˥"],  // Borrowed from English butter, via Shanghainese (Wiktionary). Word from Wiktionary's dialect table for Ningbo; reading from MCPDict 寧波.
+    yue_dg: ["牛油", "ŋau˧˩ jau˧˩"],  // Literally 'cow oil'. Word from Wiktionary's dialect table for Dongguan; reading from MCPDict 東莞.
+    zh_tw: ["奶油", "naɪ˨˩˦ joʊ̯˧˥"],  // Literally 'milk oil'; in Taiwan 奶油 is butter. Word from Wiktionary's dialect table for Taiwan; reading in the row's notation, syllables as in the row's and the zh row's own cells.
+    zh_wh: ["巴得油", "pa˥˥ tɤ˨˩˧ iou˨˩˧"],  // A loan of English butter, with 油 'oil'. Word from Wiktionary's dialect table for Wuhan; reading from MCPDict 武漢.
   },
 };

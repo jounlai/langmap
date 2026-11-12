@@ -513,6 +513,46 @@ WORDS.king = {
     laj: "plain",
     lij_t: "reg",
     jvn: "reg",
+    cjy: "wang",
+    cjy_lv: "wang",
+    cjy_xz: "wang",
+    cnp: "wang",
+    cpx: "wang",
+    czh: "wang",
+    czh_wy: "wang",
+    gan_fz: "wang",
+    gan_ja: "wang",
+    gan_yc: "wang",
+    hsn_hy: "wang",
+    hsn_yz: "wang",
+    nan_hai: "wang",
+    nan_ph: "wang",
+    nan_pn: "wang",
+    nan_qz: "wang",
+    nan_xm: "wang",
+    nan_zz: "wang",
+    wuu_jx: "wang",
+    wuu_nb: "wang",
+    wuu_sz: "wang",
+    wuu_wz: "wang",
+    yue_dg: "wang",
+    yue_gz: "wang",
+    yue_nn: "wang",
+    yue_ts: "wang",
+    yue_zs: "wang",
+    zh_cq: "wang",
+    zh_db: "wang",
+    zh_hf: "wang",
+    zh_jh: "wang",
+    zh_jn: "wang",
+    zh_kf: "wang",
+    zh_km: "wang",
+    zh_lz: "wang",
+    zh_nj: "wang",
+    zh_sc: "wang",
+    zh_tj: "wang",
+    zh_wh: "wang",
+    zh_zz: "wang",
   },
   routes: {
     reg: {"color":"#7c3aed","emoji":"🏛️","en":"the old root of rēx and rājā (roi, rey, राजा, raja)","ja":"rēx・rājā の古い語根（roi, rey, राजा, raja）","ko":"rēx·rājā의 옛 어근 (roi, rey, राजा, raja)","zh":"rēx 与 rājā 的古老词根（roi、rey、राजा、raja）","yue":"rēx 同 rājā 嘅古老詞根（roi、rey、राजा、raja）","vi":"gốc cổ của rēx và rājā (roi, rey, राजा, raja)","th":"รากเก่าของ rēx และ rājā (roi, rey, राजा, raja)","id":"akar kuno rēx dan rājā (roi, rey, राजा, raja)","hi":"rēx और राजा का पुराना मूल (roi, rey, राजा, raja)","de":"die alte Wurzel von rēx und rājā (roi, rey, राजा, raja)","fr":"la vieille racine de rēx et rājā (roi, rey, राजा, raja)","it":"l’antica radice di rēx e rājā (roi, rey, राजा, raja)","es":"la vieja raíz de rēx y rājā (roi, rey, राजा, raja)","pt":"a velha raiz de rēx e rājā (roi, rey, राजा, raja)","ru":"древний корень rēx и rājā (roi, rey, राजा, raja)","uk":"давній корінь rēx і rājā (roi, rey, राजा, raja)","ar":"الجذر القديم لـ rēx وrājā (roi, rey, राजा, raja)","he":"השורש העתיק של rēx ו־rājā (roi, rey, राजा, raja)","sw":"mzizi wa kale wa rēx na rājā (roi, rey, राजा, raja)"},
@@ -965,5 +1005,45 @@ WORDS.king = {
     laj: ["rwot", "rwot"],
     lij_t: ["re", "re"],
     jvn: ["raja", "rɔdʒɔ"],
+    cjy: ["王", "vɒ̃˩"],  // 王, 'king'. Reading from MCPDict 太原.
+    cjy_lv: ["王", "uo˦˦"],  // 王, 'king'. Reading from MCPDict 離石.
+    cjy_xz: ["王", "vɑ̃˧˩"],  // 王, 'king'. Reading from MCPDict 忻州秀容.
+    cnp: ["王", "hoŋ˨˩"],  // 王, 'king'. Reading from MCPDict 南寧亭子.
+    cpx: ["王", "ɒŋ˩˧"],  // 王, 'king'. Reading from MCPDict 莆田.
+    czh: ["王", "au˦˦"],  // 王, 'king'. Reading from MCPDict 屯溪.
+    czh_wy: ["王", "vɑ̃˩˩"],  // 王, 'king'. Reading from MCPDict 婺源.
+    gan_fz: ["王", "uɔŋ˨˦"],  // 王, 'king'. Reading from MCPDict 臨川.
+    gan_ja: ["王", "uɔŋ˩˩"],  // 王, 'king'. Reading from MCPDict 吉安.
+    gan_yc: ["王", "uoŋ˧˧"],  // 王, 'king'. Reading from MCPDict 宜春.
+    hsn_hy: ["王", "uan˩˩˨"],  // 王, 'king'. Reading from MCPDict 衡陽.
+    hsn_yz: ["王", "ɣuã˩˩˨"],  // 王, 'king'. Reading from MCPDict 冷水灘.
+    nan_hai: ["王", "huaŋ˧˩"],  // 王, 'king'. Reading from MCPDict 海口 (literary reading, as in 王朝).
+    nan_ph: ["王", "ɔŋ˨˦"],  // 王, 'king'. Reading from Wiktionary (Quanzhou).
+    nan_pn: ["王", "ɔŋ˨˧"],  // 王, 'king'. Reading from Wiktionary (Zhangzhou).
+    nan_qz: ["王", "ɔŋ˨˦"],  // 王, 'king'. Reading from Wiktionary (Quanzhou).
+    nan_xm: ["王", "ɔŋ˨˦"],  // 王, 'king'. Reading from Wiktionary (Xiamen).
+    nan_zz: ["王", "ɔŋ˩˧"],  // 王, 'king'. Reading from Wiktionary (Zhangzhou).
+    wuu_jx: ["王", "ɦuɑ̃˧˩"],  // 王, 'king'. Reading from MCPDict 嘉興.
+    wuu_nb: ["王", "ɦuɔ̃˧˩˧"],  // 王, 'king'. Reading from MCPDict 寧波.
+    wuu_sz: ["王", "ɦuɑ̃˨˨˧"],  // 王, 'king'. Reading from MCPDict 蘇州.
+    wuu_wz: ["王", "ɦyɔ˧˩"],  // 王, 'king'. Reading from MCPDict 溫州.
+    yue_dg: ["王", "wɔŋ˧˩"],  // 王, 'king'. Reading from MCPDict 東莞.
+    yue_gz: ["王", "ʋu̯ɔŋʷ˨˩"],  // 王, 'king'. Reading from MCPDict 化州.
+    yue_nn: ["王", "wɔŋ˨˩"],  // 王, 'king'. Reading from MCPDict 南寧.
+    yue_ts: ["王", "ʋɔŋ˨˨"],  // 王, 'king'. Reading from MCPDict 台山.
+    yue_zs: ["王", "wɔŋ˥˩"],  // 王, 'king'. Reading from MCPDict 中山.
+    zh_cq: ["王", "waŋ˨˩"],  // 王, 'king'. Reading from MCPDict 重慶.
+    zh_db: ["王", "wɑŋ˧˥"],  // 王, 'king'. Reading as the zh row's own cell.
+    zh_hf: ["王", "uɑ̃˦˥"],  // 王, 'king'. Reading from MCPDict 合肥.
+    zh_jh: ["王", "uaŋ˩˧"],  // 王, 'king'. Reading from MCPDict 揚州.
+    zh_jn: ["王", "vɑŋ˦˨"],  // 王, 'king'. Reading from MCPDict 濟南.
+    zh_kf: ["王", "uaŋ˥˧"],  // 王, 'king'. Reading from MCPDict 開封.
+    zh_km: ["王", "uᴀ̃˧˩"],  // 王, 'king'. Reading from MCPDict 昆明.
+    zh_lz: ["王", "vaŋ˥˧"],  // 王, 'king'. Reading from MCPDict 蘭州.
+    zh_nj: ["王", "uaŋ˨˦"],  // 王, 'king'. Reading from MCPDict 南京.
+    zh_sc: ["王", "uaŋ˨˩"],  // 王, 'king'. Reading from MCPDict 成都.
+    zh_tj: ["王", "vɑŋ˦˥"],  // 王, 'king'. Reading from MCPDict 天津.
+    zh_wh: ["王", "uaŋ˨˩˧"],  // 王, 'king'. Reading from MCPDict 武漢.
+    zh_zz: ["王", "uaŋ˦˨"],  // 王, 'king'. Reading from MCPDict 開封 (no Zhengzhou table; the row matches Kaifeng).
   },
 };

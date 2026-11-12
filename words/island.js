@@ -472,6 +472,31 @@ WORDS.island = {
     gn: "plain",
     yrk: "plain",
     mns: "plain",
+    cjy: "dao",
+    cjy_lv: "dao",
+    cjy_xz: "dao",
+    dng: "dao",
+    hak_hl: "dao",
+    hak_tw: "dao",
+    nan_pn: "dao",
+    wuu: "dao",
+    wuu_hz: "dao",
+    yue_ts: "dao",
+    zh_cd: "dao",
+    zh_cq: "dao",
+    zh_db: "dao",
+    zh_hf: "dao",
+    zh_jh: "dao",
+    zh_jiao: "dao",
+    zh_jn: "dao",
+    zh_km: "dao",
+    zh_lz: "dao",
+    zh_nj: "dao",
+    zh_sc: "dao",
+    zh_tj: "dao",
+    zh_tw: "dao",
+    zh_xa: "dao",
+    zh_zz: "dao",
   },
   routes: {
     insula: {"color":"#2563eb","emoji":"🏛️","en":"from Latin īnsula (isla, île, Insel)","ja":"ラテン語 īnsula から (isla, île, Insel)","ko":"라틴어 īnsula에서 (isla, île, Insel)","zh":"来自拉丁语 īnsula (isla, île, Insel)","yue":"嚟自拉丁語 īnsula (isla, île, Insel)","vi":"từ tiếng Latinh īnsula (isla, île, Insel)","th":"จากภาษาละติน īnsula (isla, île, Insel)","id":"dari īnsula Latin (isla, île, Insel)","hi":"लैटिन īnsula से (isla, île, Insel)","de":"aus lateinisch īnsula (isla, île, Insel)","fr":"du latin īnsula (isla, île, Insel)","it":"dal latino īnsula (isla, île, Insel)","es":"del latín īnsula (isla, île, Insel)","pt":"do latim īnsula (isla, île, Insel)","ru":"от латинского īnsula (isla, île, Insel)","uk":"від латинського īnsula (isla, île, Insel)","ar":"من اللاتينية īnsula (isla, île, Insel)","he":"מהלטינית īnsula (isla, île, Insel)","sw":"kutoka Kilatini īnsula (isla, île, Insel)"},
@@ -884,5 +909,30 @@ WORDS.island = {
     gn: ["ypaʼũ", "ɨpaˈʔũ"],
     yrk: ["ӈо", "ŋo"],
     mns: ["тумп", "tump"],
+    cjy: ["岛", "tau˥˧"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Taiyuan; reading from MCPDict 太原.
+    cjy_lv: ["岛", "tou˧˩˨"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Lishi; reading from MCPDict 離石.
+    cjy_xz: ["岛", "tɔ˧˩˧"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Xinzhou; reading from MCPDict 忻州秀容.
+    dng: ["до", "tɔ˦"],  // Cognate with Chinese 島 'island'. Dungan reading from Wiktionary's Chinese entry 島.
+    hak_hl: ["島", "to˨˦"],  // 島, the Chinese word for an island. Word from Wiktionary's dialect table for Hsinchu; reading from Wiktionary (Hailu).
+    hak_tw: ["島", "to˧˩"],  // 島, the Chinese word for an island. Word from Wiktionary's dialect table for Miaoli; reading from Wiktionary (Sixian).
+    nan_pn: ["島", "to˦˦˥"],  // 島, the Chinese word for an island. Word from Wiktionary's dialect table for Malaysia-MN (Penang); reading from Wiktionary (Zhangzhou).
+    wuu: ["岛", "tɔ˧˥"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Shanghai; reading from Wiktionary (Shanghai).
+    wuu_hz: ["岛", "tɔ˥˧"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Hangzhou; reading from MCPDict 杭州.
+    yue_ts: ["岛", "ʔɑu˥˥"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Taishan; reading from MCPDict 台山.
+    zh_cd: ["岛子", "tau˥˧ tsɿ˥˧"],  // 岛 'island' with the noun suffix 子. Word from Wiktionary's dialect table for Chengdu; reading from MCPDict 成都.
+    zh_cq: ["岛", "tau˦˨"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Chongqing; reading from MCPDict 重慶.
+    zh_db: ["岛", "tau˨˩˦"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
+    zh_hf: ["岛", "tɔ˨˦"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Hefei; reading from MCPDict 合肥.
+    zh_jh: ["岛", "taɔ˨˩˨"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Yangzhou; reading from MCPDict 揚州.
+    zh_jiao: ["岛子", "tɔ˥˥ tsɿ˥˥"],  // 岛 'island' with the noun suffix 子. Word from Wiktionary's dialect table for Qingdao; reading from MCPDict 青島.
+    zh_jn: ["岛", "tɔ˥˥"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Jinan; reading from MCPDict 濟南.
+    zh_km: ["岛", "tʌo˥˧"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Kunming; reading from MCPDict 昆明.
+    zh_lz: ["岛", "tau˦˦˨"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Lanzhou; reading from MCPDict 蘭州.
+    zh_nj: ["岛", "tɔ˨˩˨"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Nanjing; reading from MCPDict 南京.
+    zh_sc: ["岛子", "tau˥˧ tsɹ̩˥˧"],  // 岛 'island' with the noun suffix 子. Word from Wiktionary's dialect table for Chengdu; reading from MCPDict 成都.
+    zh_tj: ["岛", "tɑu˩˧"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Tianjin; reading from MCPDict 天津.
+    zh_tw: ["島", "tɑʊ̯˨˩˦"],  // 島, the Chinese word for an island. Word from Wiktionary's dialect table for Taiwan; reading in the row's notation, syllables as in the row's and the zh row's own cells.
+    zh_xa: ["岛", "tau˥˧"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Xi'an; reading from MCPDict 西安.
+    zh_zz: ["岛", "tau˥˧"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Zhengzhou; reading from MCPDict 開封 (no Zhengzhou table; the row matches Kaifeng).
   },
 };

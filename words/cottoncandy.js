@@ -116,7 +116,7 @@ WORDS.cottoncandy = {
     ar: "thread",
     acw: "cotton",
     ar_ma: "wool",
-    he: "cotton",
+    he: "hair",
     hi: "hair",
     ur: "thread",
     bn: "air",
@@ -240,7 +240,7 @@ WORDS.cottoncandy = {
     ar: ["غزل البنات", "ɣazl albanaːt"],  // Literally 'the girls' spun yarn'; the Egyptian and Levantine name.
     acw: ["حلاوة قطن", "ħalaːwa ɡutˤun"],  // Literally 'cotton sweet', a calque of English cotton candy.
     ar_ma: ["صوف", "sˤuːf"],  // Literally 'wool'.
-    he: ["צמר גפן מתוק", "tsemeʁ ɡefen matok"],  // Literally 'sweet cotton wool'; also called שערות סבתא 'grandma's hair'.
+    he: ["שערות סבתא", "saʔaʁot savta"],  // Literally 'grandma's hair', the name Hebrew Wikipedia gives for it in Israel; צמר גפן מתוק 'sweet cotton wool' is also used.
     hi: ["बुड्ढी के बाल", "bʊɖɖʱiː keː bɑːl"],  // Literally 'old woman's hair'; हवा मिठाई 'air sweet' is also used.
     ur: ["لچھا", "ləttʃʰɑː"],  // Literally 'a skein of thread'.
     bn: ["হাওয়াই মিঠাই", "hawai̯ miʈʰai̯"],  // Literally 'airy sweet', because it melts away in the mouth.

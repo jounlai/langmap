@@ -40,3 +40,7 @@ A picture (stick, key, pen, finger) wins over a plain label (memory, drive, flas
 - Guard flags left in: nl yɛsˈbeːˌstɪk and fr kle yɛsbe ("y in IPA": the letter U is [y]); cy fɔŋ ɡoːv (ŋ not in row; Wiktionary nasal assimilation).
 - ja USBメモリ and ko USB 메모리 mix Latin letters with kana/Hangul (written that way); ko WP notes it is often just "USB".
 - de USB-Stick IPA follows Wiktionary [stɪk]; [ʃtɪk] is also heard.
+
+## Story-writer findings (2026-11-12)
+- he note: DiskOnKey was M-Systems' first USB drive, not "the first USB drive" (Wikipedia names Trek 2000); unsourced "disk on a key
+  ring" gloss removed. zh note: unverified "first a trademark of Netac" removed. es_cr note cites Sánchez Corrales 2013.

@@ -166,7 +166,7 @@ WORDS.jetlag = {
     en: ["jet lag", "ˈdʒɛt læɡ"],  // From jet, the jet aircraft, and lag, a delay: the body clock lags behind the new time zone.
     de: ["Jetlag", "ˈdʒɛtlɛk"],  // Borrowed from English jet lag.
     sv: ["jetlag", "ˈjɛtlɛk"],  // Borrowed from English jet lag.
-    hu: ["jetlag", "ˈdʒɛtlɛɡ"],  // Borrowed from English jet lag; Hungarian has no settled native term.
+    hu: ["jetlag", "ˈdʒɛtlɛɡ"],  // Borrowed from English jet lag.
     es: ["jet lag", "ˈʝet laɣ"],  // An unadapted borrowing from English; desfase horario 'time offset' is the native alternative.
     pt: ["jet lag", "dʒɛtɨˈlɛɡɨ"],  // An unadapted borrowing from English.
     pt_br: ["jet lag", "ʒɛtʃiˈlɛɡi"],  // An unadapted borrowing from English.

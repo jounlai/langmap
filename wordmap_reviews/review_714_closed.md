@@ -60,3 +60,6 @@ All other rows: no source found (partial modern word; ancient/historical rows le
 
 
 Sources: kaikki raw dump (wikt1108/raw) — English translation tables and the entries themselves, cited as en.wiktionary /wiki/ URLs; Wikipedia /wiki/ articles per language (title + first line, saved in new1112b/web/html); de/nl/sv/ru Wiktionary /wiki/ pages for loanword IPA. Tools: new1112b/lib (scanA.py, candA.py, scan2.py, finb.py, mkmeta.py), per-word build.py; guard.py/vfill from new1112/language/lib.
+
+## Story-writer findings (2026-11-12)
+- hu note: unsourced "Hungarian has no settled native term" removed.

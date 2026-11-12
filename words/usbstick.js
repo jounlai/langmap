@@ -162,7 +162,7 @@ WORDS.usbstick = {
     ka: ["ფლეშკა", "fleʃkʼa"],  // Borrowed from Russian флешка; Wiktionary marks it informal.
     ar: ["فلاشة", "fiˈlaːʃa"],  // From English flash.
     ckb: ["فلاش", "flaʃ"],  // From English flash.
-    he: ["דיסק און קי", "disk on ki"],  // A genericized trademark: DiskOnKey, the first USB drive, made in 2000 by M-Systems; the name means a disk on a key ring.
+    he: ["דיסק און קי", "disk on ki"],  // A genericized trademark: DiskOnKey, M-Systems' first USB drive (2000).
     ur: ["یو ایس بی", "juː eːs biː"],  // The device is called by the letters of its plug, USB.
     vi: ["USB", "u˧ ɛt˧˥ ɓe˧"],  // Usually just called USB, read "u ét bê".
     hi: ["फ़्लैश ड्राइव", "flɛːʃ ɖraːɪʋ"],  // From English flash drive.
@@ -173,14 +173,14 @@ WORDS.usbstick = {
     ug: ["بارماق دىسكا", "barmaq diska"],  // "Finger disk": بارماق "finger" + دىسكا "disk".
     ja: ["USBメモリ", "juːesɯbiːmemoɾi"],  // USB + メモリ "memory", from English memory.
     ko: ["USB 메모리", "juesɯbi memoɾi"],  // USB + 메모리 "memory"; it is often called just USB.
-    zh: ["U盘", "joʊ̯˥ pʰän˧˥"],  // U from English USB + 盘 "disc, drive"; first a trademark of Netac.
+    zh: ["U盘", "joʊ̯˥ pʰän˧˥"],  // U from English USB + 盘 "disc, drive".
     zh_tw: ["隨身碟", "sweɪ̯˧˥ ʂən˥ tjɛ˧˥"],  // 隨身 "carried on you" + 碟 "disc".
     yue: ["手指", "sɐu˧˥ tsiː˧˥"],  // 手指 "finger", like English thumb drive.
     wuu: ["U盘", "ɦiɤ˨˨ bø˦˦"],  // U from English USB + 盘 "disc, drive".
     fr: ["clé USB", "kle yɛsbe"],  // clé "key" + USB.
     it: ["chiavetta USB", "kjavetta u ɛsse bi"],  // chiavetta "little key" + USB, a calque of English USB stick according to Wiktionary.
     es: ["pendrive", "penˈdɾaib"],  // Borrowed from English pen drive; memoria USB is the formal name.
-    es_cr: ["llave maya", "ʝaβe maʝa"],  // llave "key"; the Costa Rican name.
+    es_cr: ["llave maya", "ʝaβe maʝa"],  // llave "key"; the Costa Rican name (Sánchez Corrales 2013, Revista Káñina 37:1, suggests Maya was a brand).
     pt: ["pen", "pɛn"],  // Short for English pen drive, a pseudo-anglicism of Portugal.
     pt_br: ["pen drive", "pẽˈdɾajvi"],  // Borrowed from English pen drive.
     ro: ["stick de memorie", "stik de memorie"],  // English stick + de memorie "of memory".

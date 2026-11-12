@@ -443,6 +443,88 @@ WORDS.bread = {
     ja_chu: "panis",
     ja_edo: "panis",
     vi_nom: "other",
+    az: "other",
+    kk: "nan",
+    pa: "roti",
+    ky: "nan",
+    oc: "panis",
+    km: "panis",
+    ug: "nan",
+    si: "panis",
+    am: "plain",
+    jv: "roti",
+    ha: "plain",
+    crh: "etmek",
+    so: "roti",
+    xh: "plain",
+    mg: "plain",
+    kpv: "nan",
+    sc: "panis",
+    war: "other",
+    ti: "panis",
+    ia: "panis",
+    sn: "plain",
+    hsb: "hlaib",
+    co: "panis",
+    rm: "panis",
+    kum: "etmek",
+    mfe: "panis",
+    rw: "mkate",
+    pdt: "braud",
+    ami: "panis",
+    wo: "plain",
+    crs: "panis",
+    gld: "plain",
+    kab: "plain",
+    st: "plain",
+    vro: "hlaib",
+    arn: "plain",
+    kek: "other",
+    lus: "plain",
+    tzo: "other",
+    pdc: "braud",
+    lad: "panis",
+    nog: "etmek",
+    oj: "other",
+    gv: "other",
+    nrf: "panis",
+    ts: "plain",
+    sma: "hlaib",
+    ssw: "plain",
+    alt: "etmek",
+    ff: "plain",
+    xmf: "other",
+    nch: "panis",
+    ain: "panis",
+    ket: "nan",
+    krc: "etmek",
+    rhg: "roti",
+    bal: "nan",
+    lkt: "other",
+    tly: "nan",
+    rom: "other",
+    ltg: "other",
+    ykg: "hlaib",
+    nhe: "panis",
+    bdk: "plain",
+    nd: "plain",
+    frp: "panis",
+    esu: "hlaib",
+    abs: "braud",
+    arq: "khubz",
+    djk: "braud",
+    kjj: "plain",
+    abe: "other",
+    wym: "braud",
+    dak: "other",
+    ses: "plain",
+    nag: "roti",
+    ruq: "panis",
+    dje: "plain",
+    nlc: "roti",
+    umu: "other",
+    sr: "hlaib",
+    gn: "plain",
   },
   routes: {
     panis: {"color":"#d97706","emoji":"🥖","en":"Latin pānis, and Portuguese pão abroad (pain, pan, パン, 빵)","ja":"ラテン語 pānis と、海を渡ったポルトガル語 pão（pain, pan, パン, 빵）","ko":"라틴어 pānis와 바다를 건넌 포르투갈어 pão (pain, pan, パン, 빵)","zh":"拉丁语 pānis，及远渡重洋的葡萄牙语 pão（pain、pan、パン、빵）","yue":"拉丁文 pānis，同漂洋過海嘅葡萄牙文 pão（pain、pan、パン、빵）","vi":"tiếng Latin pānis, và tiếng Bồ Đào Nha pão ra nước ngoài (pain, pan, パン, 빵)","th":"ละติน pānis และโปรตุเกส pão ที่ข้ามทะเล (pain, pan, パン, 빵)","id":"Latin pānis, dan Portugis pão di seberang laut (pain, pan, パン, 빵)","hi":"लैटिन pānis, और समुद्र पार पुर्तगाली pão (pain, pan, パン, 빵)","de":"lateinisch pānis und portugiesisch pão in Übersee (pain, pan, パン, 빵)","fr":"le latin pānis, et le portugais pão outre-mer (pain, pan, パン, 빵)","it":"il latino pānis, e il portoghese pão oltremare (pain, pan, パン, 빵)","es":"el latín pānis, y el portugués pão en ultramar (pain, pan, パン, 빵)","pt":"o latim pānis, e o português pão além-mar (pain, pan, パン, 빵)","ru":"латинское pānis и португальское pão за морем (pain, pan, パン, 빵)","uk":"латинське pānis і португальське pão за морем (pain, pan, パン, 빵)","ar":"اللاتينية pānis، والبرتغالية pão وراء البحار (pain, pan, パン, 빵)","he":"הלטינית pānis, והפורטוגזית pão מעבר לים (pain, pan, パン, 빵)","sw":"Kilatini pānis, na Kireno pão ng'ambo (pain, pan, パン, 빵)"},
@@ -824,5 +906,87 @@ WORDS.bread = {
     ja_chu: ["パン", "paɴ"],  // First in Christian texts of the 1590s.
     ja_edo: ["パン", "paɴ"],
     vi_nom: ["餅西", "ɓaɲ˧˥ təj˧"],  // Western bánh.
+    az: ["çörək", "tʃœˈɾæc"],  // From Proto-Turkic *čebir- 'to turn'.
+    kk: ["нан", "nɑn"],
+    pa: ["ਰੋਟੀ", "ɾoːʈiː"],
+    ky: ["нан", "nɑn"],
+    oc: ["pan", "pa"],
+    km: ["នំប៉័ង", "num paŋ"],  // នំ 'cake' + French pain.
+    ug: ["نان", "nɑn"],
+    si: ["පාන්", "paːn"],  // From Portuguese pão.
+    am: ["ዳቦ", "dabo"],  // Borrowed from Oromo daabboo.
+    jv: ["roti", "roti"],
+    ha: ["gurasa", "ɡuraːsaː"],
+    crh: ["ötmek", "øtˈmek"],
+    so: ["rooti", "roːti"],
+    xh: ["isonka", "isoːᵑka"],
+    mg: ["mofo", "ˈmufu"],
+    kpv: ["нянь", "ɲaɲ"],
+    sc: ["pane", "ˈpane"],
+    war: ["tinapay", "tiˈnapaj"],  // As Tagalog tinapay.
+    ti: ["ባኒ", "bani"],  // From Italian pane.
+    ia: ["pan", "pan"],
+    sn: ["chingwa", "tʃiŋɡwa"],
+    hsb: ["chlěb", "kʰlɪp"],
+    co: ["pane", "ˈpane"],
+    rm: ["paun", "paun"],
+    kum: ["экмек", "ekˈmek"],
+    mfe: ["dipin", "dipɛ̃"],  // From French du pain.
+    rw: ["umugati", "umuɡati"],  // From Swahili mkate.
+    pdt: ["Broot", "bɾoːt"],
+    ami: ["epang", "əpaŋ"],  // Borrowed from Japanese パン.
+    wo: ["mburu", "mburu"],
+    crs: ["dipen", "dipɛ̃"],  // From French du pain.
+    gld: ["эпэн", "əpən"],
+    kab: ["aɣrum", "aɣrum"],
+    st: ["bohobe", "bohobe"],
+    vro: ["leib", "leip"],
+    arn: ["kofke", "kofke"],
+    kek: ["kaxlan wa", "kaʃlan wa"],  // kaxlan 'Spanish' + wa 'tortilla'.
+    lus: ["chhang", "tʃʰaŋ"],
+    tzo: ["kaxlan vaj", "kʰaʃlan vah"],  // 'Castilian tortilla'.
+    pdc: ["Brot", "broːt"],
+    lad: ["pan", "pan"],
+    nog: ["оьтпек", "øtˈpek"],
+    oj: ["bakwezhigan", "bakweʒiɡan"],  // From bakwezh- 'cut a piece off'.
+    gv: ["arran", "ˈaran"],  // As Irish arán.
+    nrf: ["pain", "pɛ̃"],
+    ts: ["xinkwa", "ʃiŋkwa"],
+    sma: ["laejpie", "ˈlæːjpiɛ"],  // From Proto-Sami *lājpē, from Proto-Germanic *hlaibaz.
+    ssw: ["sinkhwa", "siŋkʰwa"],
+    alt: ["ӧтпӧк", "øtˈpøk"],
+    ff: ["buuru", "buːɾu"],
+    xmf: ["ქობალი", "kʰobali"],  // Cognate with Georgian ხორბალი 'wheat'.
+    nch: ["pantsij", "ˈpantsih"],
+    ain: ["パン", "pan"],  // Borrowed from Japanese パン, from Portuguese pão.
+    ket: ["няʼнь", "nʲaʔanʲ"],  // A widespread loanword, ultimately from Iranian nān.
+    krc: ["ётмек", "jøtˈmek"],
+    rhg: ["ruti", "ruti"],  // From Bengali রুটি.
+    bal: ["نان", "naːn"],
+    lkt: ["aǧúyapi", "aɣújapi"],  // Literally 'they scorch it on the surface'.
+    tly: ["nun", "nun"],
+    rom: ["manro", "manro"],  // From Sanskrit maṇḍa or maṇḍaka.
+    ltg: ["maize", "ˈmai̯zʲæ"],  // As Latvian maize.
+    ykg: ["кильиэп", "kilʲiep"],  // Borrowed from Russian хлеб.
+    nhe: ["pantzi", "ˈpantsi"],
+    bdk: ["фу", "fu"],
+    nd: ["isinkwa", "isiŋkwa"],
+    frp: ["pan", "pã"],
+    esu: ["kelipaq", "kəlipaq"],  // Borrowed from Russian хлеб.
+    abs: ["brot", "brot"],  // Borrowed from Dutch brood.
+    arq: ["خبز", "xubz"],
+    djk: ["beele", "beːle"],  // From Sranan Tongo brede, from English bread.
+    kjj: ["баба", "baba"],
+    abe: ["abôn", "abɔ̃"],  // From Proto-Algonquian *apwa·n 'thing baked or roasted'.
+    wym: ["brut", "brut"],
+    dak: ["aǧúyapi", "aɣújapi"],  // As Lakota aǧúyapi, 'they scorch it on the surface'.
+    ses: ["buuru", "buːru"],
+    nag: ["roti", "roti"],
+    ruq: ["pǫini", "ˈpɔini"],
+    dje: ["buru", "buru"],
+    nlc: ["roti", "roti"],  // From Indonesian roti.
+    umu: ["apwaan", "apwaːn"],  // From Proto-Algonquian *apwa·n 'thing baked or roasted'.
+    sr: ["хлеб", "xlêb"],  // From Proto-Slavic *xlěbъ, from Proto-Germanic *hlaibaz.
+    gn: ["mbujape", "mbudʒaˈpe"],
   },
 };

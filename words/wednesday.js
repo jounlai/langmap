@@ -362,6 +362,92 @@ WORDS.wednesday = {
     xct_litpr: "mercury",
     kaw: "mercury",
     mga: "fast",
+    te: "mercury",
+    sw: "count",
+    lt: "count",
+    mr: "mercury",
+    yi: "middle",
+    km: "mercury",
+    cv: "other",
+    si: "mercury",
+    ckb: "count",
+    su: "count",
+    os: "count",
+    kw: "mercury",
+    an: "mercury",
+    crh: "count",
+    so: "count",
+    mg: "count",
+    fur: "mercury",
+    sm: "plain",
+    to: "plain",
+    iba: "count",
+    vep: "count",
+    qu: "other",
+    ti: "count",
+    sn: "count",
+    zza: "count",
+    bar: "middle",
+    sco: "god",
+    fj: "plain",
+    vec: "mercury",
+    rm: "middle",
+    kum: "count",
+    mfe: "mercury",
+    rw: "count",
+    nds: "middle",
+    pdt: "middle",
+    min: "count",
+    ami: "mercury",
+    wo: "count",
+    crs: "mercury",
+    krl: "count",
+    ty: "count",
+    st: "count",
+    rup: "mercury",
+    vro: "count",
+    nap: "mercury",
+    tn: "count",
+    lg: "count",
+    lus: "middle",
+    pdc: "middle",
+    lad: "mercury",
+    oj: "middle",
+    nso: "count",
+    kg: "count",
+    nrf: "mercury",
+    lzz: "plain",
+    tab: "count",
+    bho: "mercury",
+    cho: "god",
+    jam: "god",
+    ssw: "count",
+    kea: "count",
+    ff: "count",
+    xmf: "plain",
+    ch: "mercury",
+    mwl: "count",
+    ve: "count",
+    lkt: "count",
+    lld: "mercury",
+    niu: "other",
+    rap: "count",
+    rom: "count",
+    chk: "count",
+    gor: "count",
+    bug: "count",
+    bew: "count",
+    frp: "mercury",
+    nbl: "count",
+    esu: "count",
+    hif: "mercury",
+    wym: "middle",
+    sva: "plain",
+    dje: "count",
+    sr: "middle",
+    bs: "middle",
+    gn: "count",
+    rmy: "count",
   },
   routes: {
     god: {"color":"#db2777","emoji":"🐦‍⬛","en":"Woden's day (Wednesday, woensdag, onsdag)","ja":"ウォーデンの日（Wednesday, woensdag, onsdag）","ko":"보탄의 날 (Wednesday, woensdag, onsdag)","zh":"沃登之日（Wednesday、woensdag、onsdag）","yue":"沃登嘅日（Wednesday、woensdag、onsdag）","vi":"ngày của thần Woden (Wednesday, woensdag, onsdag)","th":"วันของเทพโวเดน (Wednesday, woensdag, onsdag)","id":"hari Dewa Woden (Wednesday, woensdag, onsdag)","hi":"वोडेन का दिन (Wednesday, woensdag, onsdag)","de":"Wodans Tag (Wednesday, woensdag, onsdag)","fr":"jour de Wotan (Wednesday, woensdag, onsdag)","it":"giorno di Wotan (Wednesday, woensdag, onsdag)","es":"día de Wotan (Wednesday, woensdag, onsdag)","pt":"dia de Wotan (Wednesday, woensdag, onsdag)","ru":"день Вотана (Wednesday, woensdag, onsdag)","uk":"день Вотана (Wednesday, woensdag, onsdag)","ar":"يوم وودن (Wednesday, woensdag, onsdag)","he":"יומו של וודן (Wednesday, woensdag, onsdag)","sw":"siku ya Woden (Wednesday, woensdag, onsdag)"},
@@ -662,5 +748,91 @@ WORDS.wednesday = {
     xct_litpr: ["གཟའ་ལྷག་པ", "saɬakpa"],  // Planet Lhagpa, Mercury.
     kaw: ["ꦧꦸꦣ", "buda"],  // From Sanskrit budha, Mercury.
     mga: ["cétaín", "ˈkʲeːdaːinʲ"],  // First fast (of the week).
+    te: ["బుధవారము", "budʱaʋaːɾamu"],
+    sw: ["Jumatano", "dʒumaˈtano"],  // juma 'week' + tano 'five'.
+    lt: ["trečiadienis", "tʲrʲɛˈtʃʲæːdʲiɛnʲɪs"],  // trečias 'third' + diena 'day'.
+    mr: ["बुधवार", "budʱʋaːɾ"],
+    yi: ["מיטוואך", "ˈmɪtvɔχ"],
+    km: ["ថ្ងៃពុធ", "tʰŋaj put"],
+    cv: ["юнкун", "junˈkun"],  // From Volga Bulgar, literally 'blood day'.
+    si: ["බදාදා", "badaːdaː"],
+    ckb: ["چوارشەممە", "tʃwaːɾʃamˈma"],
+    su: ["Rebo", "rebo"],  // From Arabic الأربعاء 'the fourth'.
+    os: ["ӕртыццӕг", "ærtɨtsːæɡ"],  // 'Third'.
+    kw: ["dy'Mergher", "dɪˈmɛrxər"],
+    an: ["miércols", "ˈmjeɾkols"],
+    crh: ["çarşenbe", "tʃarʃenˈbe"],  // From Persian چهارشنبه 'fourth day'.
+    so: ["arbaco", "arbaʕo"],  // From Arabic الأربعاء 'the fourth'.
+    mg: ["alarobia", "alaˈrubia"],  // From Arabic الأربعاء 'the fourth'.
+    fur: ["miercus", "ˈmjerkus"],
+    sm: ["Aso Lulu", "aso lulu"],
+    to: ["Pulelulu", "pulelulu"],
+    iba: ["Hari Tiga", "hari tiɡa"],  // From Malay Hari Tiga 'day three'.
+    vep: ["koumanzʹpäiv", "ˈkoumanzʲpæiv"],  // 'Third day'.
+    qu: ["quyllurchaw", "qujˈʎuɾtʃaw"],  // quyllur 'star' + p'unchaw 'day'.
+    ti: ["ረቡዕ", "rɐbuʕ"],
+    sn: ["Chitatu", "tʃitatu"],  // 'Third'.
+    zza: ["çarşeme", "tʃaɾʃɛme"],  // From Persian چهارشنبه 'fourth day'.
+    bar: ["Migga", "ˈmɪɡɐ"],
+    sco: ["Wadensday", "ˈwɑdənzde"],
+    fj: ["Siga Vukelulu", "siŋa βukelulu"],
+    vec: ["mèrcore", "ˈmɛrkore"],
+    rm: ["mesemna", "mɛˈzɛmna"],
+    kum: ["арбагюн", "arbaˈɡyn"],
+    mfe: ["merkredi", "mɛʁkʁedi"],  // From French mercredi.
+    rw: ["Kwagatatu", "kwaɡatatu"],  // 'Third'.
+    nds: ["Middeweek", "ˈmɪdəveːk"],
+    pdt: ["Medwäakj", "ˈmɛdvɛːac"],
+    min: ["Raba'a", "rabaʔa"],
+    ami: ["sananoman", "sananoman"],  // From nanom 'water', as Japanese 水曜日.
+    wo: ["àllarba", "alːarba"],  // From Arabic الأربعاء 'the fourth'.
+    crs: ["merkredi", "mɛrkredi"],  // From French mercredi.
+    krl: ["kolmaspäivy", "ˈkolmɑspæivy"],  // 'Third day'.
+    ty: ["Mahana toru", "mahana toɾu"],  // mahana 'day' + toru 'three'.
+    st: ["Laboraro", "laboraro"],  // Contraction of letsatsi la boraro 'the third day'.
+    rup: ["Njercuri", "ˈɲerkuri"],
+    vro: ["kolmapäiv", "ˈkolmɑpæiv"],  // 'Third day'.
+    nap: ["miercurì", "mjɛrkuˈri"],
+    tn: ["laboraro", "laboraro"],  // 'The third day'.
+    lg: ["Lwakusatu", "lwakusatu"],  // 'The third'.
+    lus: ["Nilaini", "nilaini"],  // ni 'day' + lai 'middle' + ni 'day'.
+    pdc: ["Mittwoch", "ˈmɪtvɔx"],
+    lad: ["mierkoles", "ˈmjeɾkoles"],
+    oj: ["aabitoose", "aːbitoːse"],  // Literally 'midweek'.
+    nso: ["laboraro", "laboraro"],  // 'The third day'.
+    kg: ["Lumbu kia ntatu", "lumbu kia ntatu"],  // 'Day three'.
+    nrf: ["Mêcrédi", "mɛkredi"],
+    lzz: ["ჯუმაჩხა", "dʒumatʃxa"],
+    tab: ["гьербе", "herbe"],  // From Arabic الأربعاء 'the fourth'.
+    bho: ["बुध", "budʱ"],
+    cho: ["Winsti", "winsti"],  // Borrowed from English Wednesday.
+    jam: ["Wenzde", "wenzde"],  // From English Wednesday.
+    ssw: ["Lesitsatfu", "lesitsatfu"],  // 'The third'.
+    kea: ["kuarta fera", "ˈkwaɾta ˈfɛɾa"],  // From Portuguese quarta-feira 'fourth weekday'.
+    ff: ["alarba", "alarba"],  // From Arabic الأربعاء 'the fourth'.
+    xmf: ["ჯუმაშხა", "dʒumaʃxa"],
+    ch: ["Metkoles", "metˈkoles"],  // Borrowed from Spanish miércoles.
+    mwl: ["quarta-feira", "ˈkwaɾtɐ ˈfɐjɾɐ"],  // 'Fourth weekday'.
+    ve: ["Ḽavhuraru", "l̪avʱuraru"],  // 'The third'.
+    lkt: ["Aŋpétu Yámni", "ãpétu jámni"],  // 'Day three'.
+    lld: ["mercol", "ˈmerkol"],
+    niu: ["Aho Lotu", "aho lotu"],  // aho 'day' + lotu 'prayer'.
+    rap: ["mahana toru", "mahana toɾu"],  // mahana 'day' + toru 'three'.
+    rom: ["tetradǐ", "tetradi"],  // Borrowed from Medieval Greek Τετάρτη 'fourth'.
+    chk: ["Eunungat", "eunuŋat"],  // Compare unungat 'three'.
+    gor: ["Arabaʼa", "arabaʔa"],  // From Arabic الأربعاء 'the fourth'.
+    bug: ["araba", "araba"],
+    bew: ["Rebo", "rebo"],
+    frp: ["demécro", "dəˈmekro"],
+    nbl: ["uLesithathu", "ulesitʰatʰu"],  // 'The third'.
+    esu: ["Pingayirin", "piŋajiʁin"],  // From pingayun 'three'.
+    hif: ["budh", "budʱ"],
+    wym: ["mejtwaoch", "ˈmejtvaɔx"],
+    sva: ["ჯჷმა̈შ", "dʒəmæʃ"],
+    dje: ["alarba", "alarba"],  // From Arabic الأربعاء 'the fourth'.
+    sr: ["среда", "srěːda"],  // From Proto-Slavic *serda 'middle'.
+    bs: ["srijeda", "ˈsrijɛda"],  // From Proto-Slavic *serda 'middle'.
+    gn: ["ararundy", "aɾaɾuˈndɨ"],  // ára 'day' + irundy 'four'.
+    rmy: ["tetradǐ", "tetradi"],
   },
 };

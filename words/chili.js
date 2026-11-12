@@ -246,6 +246,52 @@ WORDS.chili = {
     ja_edo: "foreign",
     ko_em: "pepper",
     vi_nom: "pepper",
+    ar: "pepper",
+    ro: "hot",
+    cs: "chilli",
+    eo: "other",
+    sv: "chilli",
+    he: "pepper",
+    eu: "pepper",
+    mk: "pepper",
+    be: "pepper",
+    ur: "pepper",
+    af: "plain",
+    no: "chilli",
+    nn: "chilli",
+    kk: "pepper",
+    kn: "pepper",
+    pa: "pepper",
+    ceb: "chilli",
+    mn: "plain",
+    or: "pepper",
+    km: "pepper",
+    haw: "other",
+    ug: "plain",
+    jv: "plain",
+    hil: "other",
+    qu: "plain",
+    mnc: "plain",
+    ki: "pepper",
+    mfe: "spice",
+    ami: "plain",
+    wo: "plain",
+    crs: "spice",
+    ty: "plain",
+    khb: "pepper",
+    pon: "chilli",
+    nrf: "spice",
+    ckv: "chilli",
+    nch: "chilli",
+    grt: "plain",
+    rhg: "pepper",
+    rcf: "spice",
+    nhe: "chilli",
+    sg: "pepper",
+    gcr: "spice",
+    nhw: "chilli",
+    ngu: "chilli",
+    hmn: "pepper",
   },
   routes: {
     chilli: {"color":"#dc2626","emoji":"🌶️","en":"Nahuatl chīlli (chile, chili, sili)","ja":"ナワトル語 chīlli（chile, chili, sili）","ko":"나와틀어 chīlli (chile, chili, sili)","zh":"纳瓦特尔语 chīlli（chile、chili、sili）","yue":"納瓦特爾語 chīlli（chile、chili、sili）","vi":"tiếng Nahuatl chīlli (chile, chili, sili)","th":"นาวัตล์ chīlli (chile, chili, sili)","id":"Nahuatl chīlli (chile, chili, sili)","hi":"नाहुआत्ल chīlli (chile, chili, sili)","de":"Nahuatl chīlli (chile, Chili, sili)","fr":"le nahuatl chīlli (chile, chili, sili)","it":"il nahuatl chīlli (chile, chili, sili)","es":"el náhuatl chīlli (chile, chili, sili)","pt":"o náuatle chīlli (chile, chili, sili)","ru":"науатль chīlli (chile, chili, sili)","uk":"науатль chīlli (chile, chili, sili)","ar":"الناواتل chīlli (chile, chili, sili)","he":"הנאוואטל chīlli (chile, chili, sili)","sw":"Kinahuatl chīlli (chile, chili, sili)"},
@@ -430,5 +476,51 @@ WORDS.chili = {
     ja_edo: ["唐辛子", "toːɡaɾaɕi"],  // Chinese mustard, the new hot spice; it came in the Keichō years (1596–1615).
     ko_em: ["고쵸", "kotɕʰjo"],  // First the name of black pepper; spelled 고초 from the 19th century.
     vi_nom: ["乙", "əːt˧˥"],  // First the cubeb, a pepper.
+    ar: ["فلفل حار", "filfil ħaːrr"],  // 'Hot pepper'; فلفل is the older pepper.
+    ro: ["ardei iute", "arˈdej ˈjute"],  // Probably from a arde 'to burn' + -ei.
+    cs: ["chilli paprička", "ˈtʃɪlɪ ˈpaprɪtʃka"],
+    eo: ["kapsiketo", "kapsiˈketo"],  // A diminutive of kapsiko 'capsicum'.
+    sv: ["chili", "ˈɕiːli"],
+    he: ["פלפל חריף", "pilˈpel χaˈʁif"],  // 'Hot pepper'.
+    eu: ["pipermin", "pipeɾmin"],  // piper 'pepper' + min 'pain', originally 'bitter'.
+    mk: ["феферонка", "fɛfɛˈrɔnka"],  // From Italian peperone, from pepe 'pepper'.
+    be: ["чырвоны перац", "tʂɨrˈvonɨ ˈpʲerats"],  // 'Red pepper'.
+    ur: ["مرچ", "mɪɾtʃ"],
+    af: ["rissie", "ˈrəsi"],
+    no: ["chili", "ˈçiːli"],
+    nn: ["chili", "ˈçiːli"],
+    kk: ["қызыл бұрыш", "qɯˈzɯl bʊˈrɯʃ"],  // 'Red pepper'.
+    kn: ["ಮೆಣಸಿನಕಾಯಿ", "meɳasinakaːji"],  // meṇasu 'pepper' + kāyi 'fruit'.
+    pa: ["ਮਿਰਚ", "mɪɾtʃ"],
+    ceb: ["sili", "ˈsili"],
+    mn: ["улаан чинжүү", "ʊɮaːŋ tʃʰindʒuː"],
+    or: ["ଲଙ୍କାମରିଚ", "lɔŋkamɔritʃɔ"],  // marica 'black pepper'.
+    km: ["ម្ទេស", "mteːh"],  // ម្រេច 'black pepper' + ទេស 'foreign'.
+    haw: ["nīoi", "niːoi"],  // The name of a native plant (Eugenia), from Proto-Polynesian *unuoi.
+    ug: ["لازا", "lɑzɑ"],  // Borrowed from Mandarin 辣子.
+    jv: ["lombok", "lɔmbɔʔ"],
+    hil: ["katumbal", "kaˈtumbal"],  // From Malay ketumbar 'coriander'.
+    qu: ["uchu", "ˈutʃu"],
+    mnc: ["ᡴᠠᡴᡳᡵᡳ", "kʰakʰiri"],
+    ki: ["biribiri", "βiɾiβiɾi"],  // Borrowed from Swahili pilipili, from Persian pilpil 'pepper'.
+    mfe: ["piman", "pimã"],  // From French piment.
+    ami: ["damidam", "ðamiðam"],
+    wo: ["kaani", "kaːni"],
+    crs: ["piman", "pimã"],  // From French piment.
+    ty: ["ʻōporo", "ʔoːpoɾo"],
+    khb: ["ᦖᦱᧅᦘᦲᧅ", "maːk˧˥ pʰik˧"],  // ᦖᦱᧅ 'fruit' + ᦘᦲᧅ 'pepper'.
+    pon: ["sele", "sɛlɛ"],  // Borrowed from English chili.
+    nrf: ["piment", "pimɑ̃"],  // Borrowed from French piment.
+    ckv: ["sili", "sili"],
+    nch: ["chili", "ˈtʃili"],
+    grt: ["jal·ik", "dʒalʔik"],
+    rhg: ["mouris", "mouris"],
+    rcf: ["piman", "pimã"],  // From French piment.
+    nhe: ["chilli", "ˈtʃilːi"],
+    sg: ["piripiri", "piripiri"],
+    gcr: ["piman", "pimã"],  // From French piment.
+    nhw: ["chili", "ˈtʃili"],
+    ngu: ["chijli", "ˈtʃihli"],
+    hmn: ["kua txob", "kua˧ tsɔ˥"],  // txob 'pepper'.
   },
 };

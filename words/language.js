@@ -456,6 +456,131 @@ WORDS.language = {
     ko_mid: "speech",
     ko_em: "speech",
     vi_nom: "voice",
+    km: "speech",
+    sd: "speech",
+    cv: "tongue",
+    si: "speech",
+    scn: "tongue",
+    fy: "speech",
+    su: "speech",
+    shn: "speech",
+    crh: "tongue",
+    mg: "voice",
+    csb: "speech",
+    szl: "speech",
+    vep: "tongue",
+    ban: "speech",
+    qu: "mouth",
+    ti: "plain",
+    ln: "plain",
+    mrw: "speech",
+    sn: "speech",
+    hsb: "speech",
+    co: "tongue",
+    zza: "plain",
+    smn: "tongue",
+    sco: "other",
+    fj: "speech",
+    vec: "tongue",
+    rm: "tongue",
+    ki: "plain",
+    kum: "tongue",
+    mfe: "tongue",
+    rw: "tongue",
+    ny: "plain",
+    nds: "speech",
+    pdt: "speech",
+    ab: "plain",
+    min: "speech",
+    mnw: "speech",
+    sat: "other",
+    rar: "voice",
+    dtp: "speech",
+    st: "speech",
+    vro: "tongue",
+    arn: "voice",
+    skr: "tongue",
+    lg: "tongue",
+    pdc: "speech",
+    lad: "tongue",
+    nog: "tongue",
+    bi: "tongue",
+    mni: "plain",
+    nso: "plain",
+    pon: "plain",
+    nrf: "tongue",
+    lzz: "tongue",
+    ts: "tongue",
+    tab: "plain",
+    bho: "speech",
+    cho: "speech",
+    alt: "tongue",
+    kea: "tongue",
+    mad: "speech",
+    ff: "plain",
+    yua: "speech",
+    xmf: "tongue",
+    ch: "plain",
+    kaa: "tongue",
+    nch: "speech",
+    ay: "plain",
+    grt: "mouth",
+    pot: "plain",
+    evn: "plain",
+    mdh: "speech",
+    kjh: "tongue",
+    ain: "speech",
+    gil: "plain",
+    krc: "tongue",
+    kha: "voice",
+    dng: "speech",
+    bal: "tongue",
+    ve: "speech",
+    tly: "tongue",
+    lld: "tongue",
+    rap: "voice",
+    bug: "speech",
+    kr: "tongue",
+    bdk: "tongue",
+    pcd: "tongue",
+    frp: "tongue",
+    mzn: "tongue",
+    sg: "plain",
+    rut: "plain",
+    esu: "speech",
+    abq: "plain",
+    hif: "speech",
+    tru: "tongue",
+    jiv: "speech",
+    cjs: "tongue",
+    nio: "tongue",
+    glk: "tongue",
+    vls: "speech",
+    sva: "tongue",
+    bdq: "plain",
+    pmt: "voice",
+    bqi: "tongue",
+    ruq: "tongue",
+    doi: "speech",
+    zgh: "plain",
+    mey: "other",
+    kfa: "plain",
+    sce: "tongue",
+    shy: "plain",
+    brh: "tongue",
+    tji: "speech",
+    tiw: "tongue",
+    bpy: "plain",
+    cia: "speech",
+    lep: "plain",
+    kfr: "speech",
+    squ: "plain",
+    wbl: "plain",
+    sr: "tongue",
+    bs: "tongue",
+    gn: "speech",
+    hmn: "plain",
+    dtp_kzj: "speech",
   },
   routes: {
     tongue: {"color":"#dc2626","emoji":"👅","en":"the tongue (langue, язык, dil)","ja":"舌（langue, язык, dil）","ko":"혀 (langue, язык, dil)","zh":"舌头（langue、язык、dil）","yue":"脷（langue、язык、dil）","vi":"cái lưỡi (langue, язык, dil)","th":"ลิ้น (langue, язык, dil)","id":"lidah (langue, язык, dil)","hi":"जीभ (langue, язык, dil)","de":"die Zunge (langue, язык, dil)","fr":"l'organe, la langue (langue, язык, dil)","it":"l'organo, la lingua (langue, язык, dil)","es":"el órgano, la lengua (langue, язык, dil)","pt":"o órgão, a língua (langue, язык, dil)","ru":"орган язык (langue, язык, dil)","uk":"орган язик (langue, язык, dil)","ar":"اللسان (langue, язык, dil)","he":"הלשון (langue, язык, dil)","sw":"ulimi (langue, язык, dil)"},
@@ -850,5 +975,130 @@ WORDS.language = {
     ko_mid: [":말", "mal"],
     ko_em: ["말", "mal"],
     vi_nom: ["㗂", "tiəŋ˧˥"],  // Also "voice, sound".
+    km: ["ភាសា", "pʰiəsaː"],
+    sd: ["ٻولي", "ɓoːliː"],  // From ٻولڻ 'to speak'.
+    cv: ["чӗлхе", "tɕɘlˈxe"],  // From Proto-Turkic *til 'tongue'.
+    si: ["භාෂාව", "baːʃaːʋə"],
+    scn: ["lingua", "ˈlinɡwa"],
+    fy: ["taal", "taːl"],  // From Proto-Germanic *talō 'tale, speech'.
+    su: ["basa", "basa"],
+    shn: ["ၽႃႇသႃႇ", "pʰaː˩sʰaː˩"],  // Borrowed from Pali bhāsā 'speech'.
+    crh: ["til", "til"],
+    mg: ["fiteny", "fiˈteni"],  // From teny, from Proto-Malayo-Polynesian *tənəʀ 'sound; voice'.
+    csb: ["mòwa", "ˈmwɛva"],
+    szl: ["gŏdka", "ˈɡɔtka"],
+    vep: ["kelʹ", "kelʲ"],
+    ban: ["basa", "basə"],
+    qu: ["simi", "ˈsimi"],  // simi is also 'mouth'.
+    ti: ["ቋንቋ", "kʷʼankʷʼa"],
+    ln: ["lokota", "lokóta"],  // Borrowed from Bangi lokota.
+    mrw: ["basa", "basa"],  // From Sanskrit bhāṣā.
+    sn: ["mutauro", "mutauro"],  // From -taura 'to speak'.
+    hsb: ["rěč", "rɪtʃ"],
+    co: ["lingua", "ˈliŋɡwa"],
+    zza: ["zon", "zon"],
+    smn: ["kielâ", "ˈkie̯lɐ"],  // From Proto-Uralic *käle, as Finnish kieli 'tongue'.
+    sco: ["leed", "liːd"],  // From Old English lēoden 'people; language'.
+    fj: ["vosa", "βosa"],  // vosa is also 'word'.
+    vec: ["łéngua", "ˈeŋɡwa"],
+    rm: ["linguatg", "liŋˈɡwatɕ"],  // From Vulgar Latin *linguāticum, from lingua 'tongue'.
+    ki: ["rũthiomi", "ɾoðiɔmi"],
+    kum: ["тил", "til"],
+    mfe: ["lang", "lãɡ"],  // From French langue.
+    rw: ["ururimi", "uɾuɾimi"],  // ururimi is also 'tongue'.
+    ny: ["chinenero", "tʃineneɾo"],
+    nds: ["Spraak", "spraːk"],
+    pdt: ["Sproak", "ʃpɾoak"],
+    ab: ["абызшәа", "abəzʃʷa"],
+    min: ["baso", "baso"],  // From Sanskrit bhāṣā.
+    mnw: ["ဘာသာ", "pʰɛ̤asaː"],  // Borrowed from Pali bhāsā.
+    sat: ["ᱯᱟᱹᱨᱥᱤ", "pərsi"],  // Perhaps from Hindi पारसी 'Persian'.
+    rar: ["reo", "ɾeo"],  // reo is also 'voice'.
+    dtp: ["boros", "boros"],  // boros is also 'word, speech'.
+    st: ["puo", "puo"],  // From bua 'to speak'.
+    vro: ["kiil'", "kiːlʲ"],  // From Proto-Finnic *keeli, as Finnish kieli 'tongue'.
+    arn: ["zugun", "ðuɣun"],  // zugun is also 'voice'.
+    skr: ["زبان", "zəbaːn"],
+    lg: ["olurimi", "olurimi"],
+    pdc: ["Schprooch", "ʃproːx"],
+    lad: ["lingua", "ˈliŋɡwa"],
+    nog: ["тил", "til"],
+    bi: ["langwis", "laŋwis"],  // From English language.
+    mni: ["ꯂꯣꯟ", "lon"],
+    nso: ["polelo", "polelo"],
+    pon: ["lokaia", "lokaia"],
+    nrf: ["langue", "lɑ̃ɡ"],
+    lzz: ["ნენა", "nena"],  // ნენა is also 'tongue'.
+    ts: ["ririmi", "ririmi"],
+    tab: ["чӏал", "tʃʼal"],
+    bho: ["भाषा", "bʱaːsaː"],
+    cho: ["anumpa", "anompa"],
+    alt: ["тил", "til"],
+    kea: ["lingua", "ˈliŋɡwa"],
+    mad: ["bhâsa", "bʱɤsa"],
+    ff: ["haala", "haːla"],
+    yua: ["tʼaan", "tʼaːn"],
+    xmf: ["ნინა", "nina"],  // As Laz ნენა 'tongue'.
+    ch: ["finoʼ", "ˈfinoʔ"],
+    kaa: ["til", "til"],
+    nch: ["tlajtoli", "tɬahˈtoli"],  // tlajtoli is also 'word'.
+    ay: ["aru", "ˈaɾu"],
+    grt: ["ku·sik", "kuʔsik"],  // From Proto-Sino-Tibetan *ku(w) 'mouth'.
+    pot: ["nwewen", "nwəwən"],
+    evn: ["турэн", "turən"],
+    mdh: ["bahasah", "bahasah"],  // From Sanskrit bhāṣā.
+    kjh: ["тіл", "til"],
+    ain: ["イタㇰ", "itak"],  // Proto-Ainu *itak 'language; word; to speak'.
+    gil: ["taetae", "taetae"],
+    krc: ["тил", "til"],
+    kha: ["ktien", "ktien"],  // ktien is also 'voice'; from Proto-Pnar-Khasi-Lyngngam *ktəːɲ 'word, mouth'.
+    dng: ["йүян", "y˥˩ iæ̃˨˦"],  // Cognate with Mandarin 语言.
+    bal: ["زوان", "zawaːn"],
+    ve: ["luambo", "luambo"],  // From amba 'to speak'.
+    tly: ["zıvon", "zɨvon"],
+    lld: ["lingaz", "liŋˈɡats"],  // From Vulgar Latin *linguāticum, from lingua 'tongue'.
+    rap: ["reo", "ɾeo"],  // reo is also 'voice'.
+    bug: ["basa", "basa"],
+    kr: ["tǝlam", "təlam"],  // tǝlam is also 'tongue'.
+    bdk: ["мез", "mez"],
+    pcd: ["lingue", "lɛ̃ɡ"],
+    frp: ["lengâjo", "lɛ̃ˈɡaʒo"],  // From Vulgar Latin *linguāticum, from lingua 'tongue'.
+    mzn: ["زوون", "zəvun"],
+    sg: ["yângâ", "jaŋɡa"],
+    rut: ["чӏел", "tʃʼel"],
+    esu: ["qaneryaraq", "qanəʁjaʁaq"],  // qaner- 'to speak' + -yarak 'way of doing'.
+    abq: ["абызшва", "abəzʃʷa"],
+    hif: ["bhasa", "bʱaːsaː"],
+    tru: ["ܠܝܫܢܐ", "liʃono"],  // Inherited from Aramaic liššānā 'tongue'.
+    jiv: ["chicham", "tʃitʃam"],
+    cjs: ["тил", "til"],
+    nio: ["сиәде", "sʲiədʲe"],  // From Proto-Uralic *käle 'tongue'.
+    glk: ["زوون", "zəvun"],
+    vls: ["toale", "ˈtoːlə"],  // From Proto-Germanic *talō 'tale, speech'.
+    sva: ["ნინ", "nin"],  // ნინ is also 'tongue'.
+    bdq: ["nơ̆r", "nər"],
+    pmt: ["re'o", "reo"],
+    bqi: ["زوان", "zuwɒːn"],
+    ruq: ["limbă", "ˈlimbə"],
+    doi: ["भाशा", "bʱaːʃaː"],
+    zgh: ["ⵜⵓⵜⵍⴰⵢⵜ", "tutlajt"],
+    mey: ["لوقة", "luːɡa"],  // From Arabic لغة.
+    kfa: ["ತಕ್ಕ್", "takkɨ"],
+    sce: ["kielien", "kʰjəˈljən"],  // From Proto-Mongolic *kelen 'tongue'.
+    shy: ["tutlayt", "tutlajt"],
+    brh: ["زبان", "zabaːn"],  // Borrowed from Classical Persian زبان 'tongue'.
+    tji: ["sar", "sa˨˩"],  // sar is also 'speech; word'.
+    tiw: ["langwiji", "laŋwidʒi"],  // From English language.
+    bpy: ["ঠার", "tʰar"],
+    cia: ["bahasa", "bahasa"],  // From Indonesian bahasa.
+    lep: ["ᰣᰦᰛᰧᰵᰶ", "ʔariŋ"],
+    kfr: ["ભાષા", "bʱaːʃaː"],
+    squ: ["sníchim", "snitʃim"],
+    wbl: ["зик", "zik"],
+    sr: ["језик", "jězik"],  // језик is also 'tongue'.
+    bs: ["jezik", "ˈjɛzik"],  // jezik is also 'tongue'.
+    gn: ["ñeʼẽ", "ɲẽˈʔẽ"],  // ñe'ẽ is also 'word, speech'.
+    hmn: ["lus", "lu˨˩"],
+    dtp_kzj: ["boros", "boros"],
   },
 };

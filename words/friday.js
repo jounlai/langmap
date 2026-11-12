@@ -351,6 +351,101 @@ WORDS.friday = {
     xct_litpr: "venus",
     kaw: "venus",
     obr: "venus",
+    he: "count",
+    az: "assembly",
+    te: "venus",
+    ast: "venus",
+    sw: "assembly",
+    lt: "count",
+    mr: "venus",
+    yi: "goddess",
+    km: "venus",
+    cv: "other",
+    si: "venus",
+    fy: "goddess",
+    ckb: "plain",
+    am: "plain",
+    jv: "assembly",
+    su: "assembly",
+    tk: "plain",
+    os: "other",
+    kw: "venus",
+    so: "assembly",
+    mg: "assembly",
+    om: "assembly",
+    fur: "venus",
+    sm: "goddess",
+    to: "goddess",
+    lez: "assembly",
+    vep: "count",
+    li: "goddess",
+    qu: "venus",
+    ti: "plain",
+    sn: "count",
+    zza: "plain",
+    fj: "plain",
+    vec: "venus",
+    rm: "venus",
+    kum: "assembly",
+    mfe: "venus",
+    rw: "count",
+    nds: "goddess",
+    pdt: "goddess",
+    ab: "plain",
+    min: "assembly",
+    ami: "venus",
+    wo: "assembly",
+    lmo: "venus",
+    crs: "venus",
+    pms: "venus",
+    krl: "count",
+    ty: "count",
+    st: "count",
+    rup: "venus",
+    vro: "goddess",
+    arn: "venus",
+    nap: "venus",
+    tn: "count",
+    lg: "count",
+    lus: "other",
+    pdc: "goddess",
+    oj: "count",
+    nso: "count",
+    kg: "count",
+    nrf: "venus",
+    lzz: "plain",
+    tab: "assembly",
+    afb: "assembly",
+    cho: "goddess",
+    jam: "goddess",
+    ssw: "count",
+    kea: "count",
+    ff: "assembly",
+    xmf: "plain",
+    ch: "venus",
+    kaa: "assembly",
+    mwl: "count",
+    rhg: "assembly",
+    ve: "count",
+    lkt: "count",
+    lld: "venus",
+    udi: "preparation",
+    niu: "goddess",
+    rap: "count",
+    rom: "preparation",
+    chk: "count",
+    gor: "assembly",
+    bug: "assembly",
+    mos: "assembly",
+    frp: "venus",
+    nbl: "count",
+    gcr: "venus",
+    esu: "count",
+    wym: "goddess",
+    sr: "count",
+    bs: "count",
+    gn: "count",
+    rmy: "preparation",
   },
   routes: {
     goddess: {"color":"#db2777","emoji":"👸","en":"the day of Frigg (Friday, Freitag, fredag)","ja":"女神フリッグの日（Friday, Freitag, fredag）","ko":"여신 프리그의 날 (Friday, Freitag, fredag)","zh":"女神弗丽嘉之日（Friday、Freitag、fredag）","yue":"女神弗麗嘉嘅日（Friday、Freitag、fredag）","vi":"ngày của nữ thần Frigg (Friday, Freitag, fredag)","th":"วันของเทพีฟริกก์ (Friday, Freitag, fredag)","id":"hari Dewi Frigg (Friday, Freitag, fredag)","hi":"देवी फ़्रिग का दिन (Friday, Freitag, fredag)","de":"Tag der Frigg (Friday, Freitag, fredag)","fr":"jour de Frigg (Friday, Freitag, fredag)","it":"giorno di Frigg (Friday, Freitag, fredag)","es":"día de Frigg (Friday, Freitag, fredag)","pt":"dia de Frigg (Friday, Freitag, fredag)","ru":"день Фригг (Friday, Freitag, fredag)","uk":"день Фріґґ (Friday, Freitag, fredag)","ar":"يوم فريغ (Friday, Freitag, fredag)","he":"יומה של פריג (Friday, Freitag, fredag)","sw":"siku ya Frigg (Friday, Freitag, fredag)"},
@@ -641,5 +736,100 @@ WORDS.friday = {
     xct_litpr: ["གཟའ་པ་སངས", "sapasaŋ"],  // Planet Pasang, Venus.
     kaw: ["ꦯꦸꦏꦿ", "sukra"],  // From Sanskrit śukra, Venus.
     obr: ["သောက္ကြာ", "sokkraː"],  // The planet Venus.
+    he: ["יום שישי", "jom ʃiˈʃi"],  // 'Sixth day'.
+    az: ["cümə", "dʒyˈmæ"],
+    te: ["శుక్రవారము", "ʃukɾaʋaːɾamu"],
+    ast: ["vienres", "ˈbjenɾes"],
+    sw: ["Ijumaa", "idʒuˈmaa"],
+    lt: ["penktadienis", "pʲɛŋkˈtɑːdʲiɛnʲɪs"],  // penktas 'fifth' + diena 'day'.
+    mr: ["शुक्रवार", "ʃukɾəʋaːɾ"],
+    yi: ["פרײטיק", "ˈfraɪ̯tɪk"],
+    km: ["ថ្ងៃសុក្រ", "tʰŋaj sok"],
+    cv: ["эрнекун", "erneˈɡun"],  // эрне 'week' + кун 'day'.
+    si: ["සිකුරාදා", "sikuraːdaː"],
+    fy: ["freed", "freːt"],
+    ckb: ["ھەینی", "hajniː"],
+    am: ["ዓርብ", "arb"],
+    jv: ["Jumuwah", "dʒumuwah"],
+    su: ["Jumaah", "dʒumaʔah"],
+    tk: ["anna", "anˈna"],
+    os: ["майрӕмбон", "majræmbon"],  // Майрӕм 'Mary' + бон 'day'.
+    kw: ["dy'Gwener", "dɪˈɡwɛnər"],
+    so: ["jimco", "dʒimʕo"],
+    mg: ["zomà", "zuˈma"],
+    om: ["Jimmata", "dʒimːata"],
+    fur: ["vinars", "viˈnars"],
+    sm: ["Aso Faraile", "aso faraile"],  // Faraile is from English Friday.
+    to: ["Falaite", "falaite"],  // From English Friday.
+    lez: ["жумя", "ʒumja"],
+    vep: ["videnzʹpäiv", "ˈvidenzʲpæiv"],  // 'Fifth day'.
+    li: ["vriedig", "ˈvriːdəx"],
+    qu: ["chʼaskachaw", "tʃʼasˈkatʃaw"],  // ch'aska 'Venus' + p'unchaw 'day'.
+    ti: ["ዓርቢ", "ʕarbi"],
+    sn: ["Chishanu", "tʃiʃanu"],  // 'Fifth'.
+    zza: ["ine", "inɛ"],
+    fj: ["Siga Vakaraubuka", "siŋa βakaraumbuka"],
+    vec: ["vènere", "ˈvɛnere"],
+    rm: ["venderdi", "vɛnˈdɛrdi"],
+    kum: ["жумагюн", "dʒumaˈɡyn"],
+    mfe: ["vandredi", "vãdʁedi"],  // From French vendredi.
+    rw: ["Kwagatanu", "kwaɡatanu"],  // 'Fifth'.
+    nds: ["Freedag", "ˈfreːdax"],
+    pdt: ["Friedach", "ˈfɾiːdax"],
+    ab: ["ахәаша", "aχʷaʃa"],
+    min: ["Jumaik", "dʒumaiʔ"],
+    ami: ["safudawan", "safuðawan"],
+    wo: ["àjjuma", "adʒːuma"],
+    lmo: ["venerdí", "venerˈdi"],
+    crs: ["vandredi", "vãdredi"],  // From French vendredi.
+    pms: ["vënner", "ˈvəner"],
+    krl: ["pietenisä", "ˈpietenisæ"],  // Borrowed from Russian пятница 'fifth'.
+    ty: ["mahana pae", "mahana pae"],  // mahana 'day' + pae 'five'.
+    st: ["Labohlano", "laboɬano"],  // Contraction of letsatsi la bohlano 'the fifth day'.
+    rup: ["Vinjiri", "ˈviɲiri"],
+    vro: ["riidi", "ˈriːdi"],  // As Estonian reede.
+    arn: ["fiernes antü", "fieɾnes antɨ"],  // From Spanish viernes.
+    nap: ["viernarì", "vjɛrnaˈri"],
+    tn: ["Labotlhano", "labotɬʰano"],  // 'The fifth day'.
+    lg: ["Lwakutaano", "lwakutaːno"],  // 'The fifth'.
+    lus: ["Zirtâwpni", "zirtɔːpni"],  // zir 'to learn' + tâwp 'to end' + ni 'day'.
+    pdc: ["Freidaag", "ˈfraɪdaːk"],
+    oj: ["naanogiizhigad", "naːnoɡiːʒiɡad"],  // Literally 'five-day'.
+    nso: ["labohlano", "laboɬano"],  // 'The fifth day'.
+    kg: ["Lumbu kia ntanu", "lumbu kia ntanu"],  // 'Day five'.
+    nrf: ["Véndrédi", "vɛ̃dredi"],
+    lzz: ["ობიჩხა", "obitʃxa"],
+    tab: ["жвуми", "ʒvumi"],
+    afb: ["اليمعة", "ɪlˈjɪmʕə"],
+    cho: ["Flaiti", "flaiti"],  // Borrowed from English Friday.
+    jam: ["Fraide", "fraide"],  // From English Friday.
+    ssw: ["Lesihlanu", "lesiɬanu"],  // 'The fifth'.
+    kea: ["sesta fera", "ˈsɛsta ˈfɛɾa"],  // From Portuguese sexta-feira 'sixth weekday'.
+    ff: ["juma", "dʒuma"],
+    xmf: ["ობიშხა", "obiʃxa"],
+    ch: ["Betnes", "ˈbetnes"],  // Borrowed from Spanish viernes.
+    kaa: ["juma", "ʒuˈma"],
+    mwl: ["sesta-feira", "ˈsestɐ ˈfɐjɾɐ"],  // 'Sixth weekday'.
+    rhg: ["jumá", "dʒuma"],
+    ve: ["Ḽavhuṱanu", "l̪avʱut̪anu"],  // 'The fifth'.
+    lkt: ["Aŋpétu Záptaŋ", "ãpétu záptã"],  // 'Day five'.
+    lld: ["vender", "ˈvender"],
+    udi: ["пӏараскӏи", "pʼaraskʼi"],  // Ultimately from Greek Παρασκευή 'preparation'.
+    niu: ["Aho Falaile", "aho falaile"],  // From English Friday.
+    rap: ["mahana pae", "mahana pae"],  // mahana 'day' + pae 'five'.
+    rom: ["paraśtuj", "paraʃtuj"],  // Borrowed from Medieval Greek Παρασκευή 'preparation'.
+    chk: ["Enimu", "enimu"],  // Compare nimu 'five'.
+    gor: ["Jumaʼati", "dʒumaʔati"],
+    bug: ["juma", "dʒuma"],
+    mos: ["Arzũma", "arzũma"],
+    frp: ["devendro", "dəˈvɛ̃dro"],
+    nbl: ["uLesihlanu", "ulesiɬanu"],  // 'The fifth'.
+    gcr: ["vandrédi", "vãdʁedi"],  // From French vendredi.
+    esu: ["Tallimirin", "taɬimiʁin"],  // From talliman 'five'.
+    wym: ["fretaog", "ˈfrɛtaɔk"],
+    sr: ["петак", "pětaːk"],  // From Proto-Slavic *pętъkъ, 'the fifth'.
+    bs: ["petak", "ˈpɛtak"],  // From Proto-Slavic *pętъkъ, 'the fifth'.
+    gn: ["arapoteĩ", "aɾapoteˈĩ"],  // ára 'day' + poteĩ 'six'.
+    rmy: ["paraśtuj", "paraʃtuj"],
   },
 };

@@ -320,6 +320,96 @@ WORDS.cheese = {
     el_kath: "tyros",
     osx: "caseus",
     ja_edo: "milk",
+    bg: "syr",
+    et: "ost",
+    te: "caseus",
+    kk: "other",
+    pa: "panir",
+    uz: "plain",
+    mr: "caseus",
+    mn: "plain",
+    as: "panir",
+    ky: "other",
+    br: "caseus",
+    tt: "syr",
+    km: "formaticum",
+    cv: "plain",
+    si: "caseus",
+    scn: "formaticum",
+    am: "plain",
+    jv: "caseus",
+    tk: "panir",
+    os: "plain",
+    an: "caseus",
+    crh: "panir",
+    so: "formaticum",
+    xh: "caseus",
+    udm: "syr",
+    mg: "formaticum",
+    ilo: "caseus",
+    fur: "formaticum",
+    to: "caseus",
+    lez: "plain",
+    vep: "plain",
+    av: "plain",
+    war: "caseus",
+    li: "caseus",
+    liv: "syr",
+    qu: "caseus",
+    ti: "jubn",
+    mrw: "caseus",
+    ia: "caseus",
+    sn: "caseus",
+    co: "caseus",
+    smn: "plain",
+    sco: "caseus",
+    vec: "formaticum",
+    kum: "plain",
+    mfe: "formaticum",
+    nds: "caseus",
+    pdt: "caseus",
+    min: "caseus",
+    lmo: "formaticum",
+    crs: "formaticum",
+    gag: "panir",
+    mhr: "syr",
+    pms: "formaticum",
+    kab: "formaticum",
+    st: "caseus",
+    vro: "ost",
+    tn: "caseus",
+    rue: "syr",
+    pdc: "caseus",
+    lad: "caseus",
+    bi: "caseus",
+    sjd: "syr",
+    gv: "caseus",
+    nrf: "formaticum",
+    lzz: "plain",
+    tab: "plain",
+    jam: "caseus",
+    alt: "other",
+    yua: "caseus",
+    xmf: "plain",
+    mwl: "caseus",
+    ay: "caseus",
+    ig: "caseus",
+    krc: "plain",
+    bal: "panir",
+    lld: "caseus",
+    rom: "plain",
+    ltg: "syr",
+    rcf: "formaticum",
+    rgn: "formaticum",
+    frp: "formaticum",
+    gcr: "formaticum",
+    tru: "plain",
+    abe: "caseus",
+    wym: "caseus",
+    hop: "caseus",
+    cay: "caseus",
+    sr: "syr",
+    gn: "caseus",
   },
   routes: {
     caseus: {"color":"#d97706","emoji":"🧀","en":"Latin cāseus (Käse, cheese, queso, keju, チーズ)","ja":"ラテン語 cāseus（Käse, cheese, queso, keju, チーズ）","ko":"라틴어 cāseus (Käse, cheese, queso, keju, チーズ)","zh":"拉丁语 cāseus（Käse、cheese、queso、keju、チーズ）","yue":"拉丁文 cāseus（Käse、cheese、queso、keju、チーズ）","vi":"tiếng Latin cāseus (Käse, cheese, queso, keju, チーズ)","th":"ละติน cāseus (Käse, cheese, queso, keju, チーズ)","id":"Latin cāseus (Käse, cheese, queso, keju, チーズ)","hi":"लैटिन cāseus (Käse, cheese, queso, keju, チーズ)","de":"lateinisch cāseus (Käse, cheese, queso, keju, チーズ)","fr":"le latin cāseus (Käse, cheese, queso, keju, チーズ)","it":"il latino cāseus (Käse, cheese, queso, keju, チーズ)","es":"el latín cāseus (Käse, cheese, queso, keju, チーズ)","pt":"o latim cāseus (Käse, cheese, queso, keju, チーズ)","ru":"латинское cāseus (Käse, cheese, queso, keju, チーズ)","uk":"латинське cāseus (Käse, cheese, queso, keju, チーズ)","ar":"اللاتينية cāseus (Käse, cheese, queso, keju, チーズ)","he":"הלטינית cāseus (Käse, cheese, queso, keju, チーズ)","sw":"Kilatini cāseus (Käse, cheese, queso, keju, チーズ)"},
@@ -579,5 +669,95 @@ WORDS.cheese = {
     el_kath: ["τυρός", "tiˈros"],  // The ancient form, kept in the learned language.
     osx: ["kāsi", "ˈkaːsi"],  // From Latin cāseus.
     ja_edo: ["乾酪", "kaɴɾakɯ"],  // Dried curd.
+    bg: ["сирене", "ˈsirɛnɛ"],
+    et: ["juust", "juːst"],
+    te: ["చీజ్", "tʃiːdʒ"],  // From English cheese.
+    kk: ["ірімшік", "ɪrɪmˈʃɪk"],  // From іру 'to curdle'.
+    pa: ["ਪਨੀਰ", "pəniːɾ"],
+    uz: ["pishloq", "piʃˈlɒq"],
+    mr: ["चीझ", "tʃiːz"],  // From English cheese.
+    mn: ["бяслаг", "pʲasɮəɡ"],
+    as: ["পনিৰ", "pɔniɹ"],
+    ky: ["иримчик", "irimˈtʃik"],  // From ири- 'to curdle'.
+    br: ["keuz", "køːs"],
+    tt: ["сыр", "sɯr"],  // From Russian сыр.
+    km: ["ហ្វ្រូម៉ាហ្ស", "froːmaːh"],  // From French fromage.
+    cv: ["чӑкӑт", "tɕəˈɡət"],
+    si: ["චීස්", "tʃiːs"],  // From English cheese.
+    scn: ["furmaggiu", "furˈmaddʒu"],
+    am: ["አይብ", "ajɨb"],
+    jv: ["kèju", "kɛdʒu"],
+    tk: ["peýnir", "pejˈniɾ"],
+    os: ["цыхт", "tsɨxt"],
+    an: ["queso", "ˈkeso"],
+    crh: ["penir", "peˈnir"],
+    so: ["farmaajo", "farmaːdʒo"],  // From Italian formaggio.
+    xh: ["itshizi", "itʃʰiːzi"],  // From English cheese.
+    udm: ["сыр", "sɨr"],  // From Russian сыр.
+    mg: ["foromazy", "furuˈmazi"],  // From French fromage.
+    ilo: ["keso", "ˈkeso"],
+    fur: ["formadi", "forˈmadi"],
+    to: ["siisi", "siːsi"],  // From English cheese.
+    lez: ["ниси", "nisi"],
+    vep: ["sagud", "ˈsaɡud"],
+    av: ["хӏан", "ħan"],
+    war: ["keso", "ˈkeso"],
+    li: ["kieës", "kiəs"],
+    liv: ["sȭira", "ˈsɨːirɑ"],  // From Old East Slavic сꙑръ.
+    qu: ["kisu", "ˈkisu"],  // Borrowed from Spanish queso.
+    ti: ["ጅብና", "dʒɨbna"],
+    mrw: ["kiso", "kiso"],  // From Spanish queso.
+    ia: ["caseo", "ˈkaseo"],
+    sn: ["chizi", "tʃizi"],  // From English cheese.
+    co: ["casgiu", "ˈkazdʒu"],
+    smn: ["vuástá", "ˈvuastaː"],
+    sco: ["cheese", "tʃiːz"],
+    vec: ["formai", "forˈmai"],
+    kum: ["бишлакъ", "biʃˈlaq"],
+    mfe: ["fromaz", "fʁomaz"],  // From French fromage.
+    nds: ["Kääs", "kɛːs"],
+    pdt: ["Kjees", "ceːs"],
+    min: ["keju", "kedʒu"],
+    lmo: ["formai", "furˈmai"],
+    crs: ["fromaz", "fromaz"],  // From French fromage.
+    gag: ["piinir", "piːˈnir"],
+    mhr: ["сыр", "sər"],  // From Russian сыр.
+    pms: ["formagg", "furˈmadʒ"],
+    kab: ["afermaj", "afərmaʒ"],  // From French fromage.
+    st: ["kase", "kase"],
+    vro: ["juust", "juːst"],
+    tn: ["kase", "kase"],
+    rue: ["сыр", "sɨr"],
+    pdc: ["Kaes", "kɛːs"],
+    lad: ["kézo", "ˈkezo"],
+    bi: ["jis", "dʒis"],  // From English cheese.
+    sjd: ["сырр", "sɨrː"],  // From Russian сыр.
+    gv: ["caashey", "ˈkɛːʃə"],
+    nrf: ["fronmage", "frɔ̃maʒ"],
+    lzz: ["ყვალი", "qʼvali"],
+    tab: ["нис", "nis"],
+    jam: ["chiiz", "tʃiːz"],
+    alt: ["быштак", "bɯʃˈtak"],  // From Proto-Turkic *biĺči- 'to become boiled, ripe'.
+    yua: ["keex", "keːʃ"],  // Borrowed from Spanish queso.
+    xmf: ["ჸვალი", "ʔvali"],
+    mwl: ["queiso", "ˈkɐjsu"],
+    ay: ["kisu", "ˈkisu"],
+    ig: ["chiz", "tʃiz"],  // From English cheese.
+    krc: ["бишлакъ", "biʃˈlaq"],
+    bal: ["پنیر", "paniːr"],
+    lld: ["ciajó", "tʃaˈʒo"],
+    rom: ["kiral", "kiral"],
+    ltg: ["sīrs", "sʲiːrs"],
+    rcf: ["fromaz", "fromaz"],  // From French fromage.
+    rgn: ["furmài", "furˈmaj"],
+    frp: ["fromâjo", "frɔˈmaʒo"],
+    gcr: ["fronmaj", "fʁɔ̃maʒ"],  // From French fromage.
+    tru: ["ܓܘܬܐ", "ɡweto"],
+    abe: ["chiz", "tʃiz"],  // From English cheese.
+    wym: ["kȳz", "kyːs"],
+    hop: ["kyeeso", "kjeːso"],  // Borrowed from Spanish queso.
+    cay: ["ó꞉ji꞉s", "óːdʒiːs"],  // From English cheese.
+    sr: ["сир", "sîr"],
+    gn: ["kesu", "keˈsu"],  // Borrowed from Spanish queso.
   },
 };

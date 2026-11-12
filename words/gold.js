@@ -432,6 +432,47 @@ WORDS.gold = {
     ko_mid: "jin",
     ko_em: "jin",
     vi_nom: "yellow",
+    sah: "other",
+    sd: "suvarna",
+    fur: "aurum",
+    lez: "other",
+    av: "plain",
+    ks: "suvarna",
+    ia: "aurum",
+    co: "aurum",
+    smn: "plain",
+    rm: "aurum",
+    nds: "yellow",
+    pdt: "yellow",
+    myv: "yellow",
+    ami: "plain",
+    sat: "suvarna",
+    dar: "plain",
+    lbe: "plain",
+    vro: "yellow",
+    pdc: "yellow",
+    nog: "altun",
+    mni: "suvarna",
+    kg: "aurum",
+    lzz: "altun",
+    tab: "other",
+    tkl: "plain",
+    jam: "yellow",
+    ckv: "plain",
+    nch: "other",
+    ain: "yellow",
+    krc: "altun",
+    lkt: "yellow",
+    tly: "other",
+    frr: "yellow",
+    nd: "yellow",
+    esu: "yellow",
+    wym: "yellow",
+    dak: "yellow",
+    mtq: "yellow",
+    khw: "suvarna",
+    gn: "yellow",
+    hmn: "jin",
   },
   routes: {
     yellow: {"color":"#ca8a04","emoji":"💛","en":"from a \"yellow\" word (gold, золото, zar, vàng)","ja":"「黄色」の語から (gold, золото, zar, vàng)","ko":"'노랑'의 말에서 (gold, золото, zar, vàng)","zh":"来自表示“黄”的词 (gold, золото, zar, vàng)","yue":"嚟自解「黃」嘅詞 (gold, золото, zar, vàng)","vi":"từ một từ chỉ \"màu vàng\" (gold, золото, zar, vàng)","th":"จากคำว่า \"เหลือง\" (gold, золото, zar, vàng)","id":"dari kata \"kuning\" (gold, золото, zar, vàng)","hi":"\"पीले\" के शब्द से (gold, золото, zar, vàng)","de":"von einem Wort für „gelb“ (gold, золото, zar, vàng)","fr":"d'un mot pour « jaune » (gold, золото, zar, vàng)","it":"da una parola per «giallo» (gold, золото, zar, vàng)","es":"de una palabra para «amarillo» (gold, золото, zar, vàng)","pt":"de uma palavra para «amarelo» (gold, золото, zar, vàng)","ru":"от слова «жёлтый» (gold, золото, zar, vàng)","uk":"від слова «жовтий» (gold, золото, zar, vàng)","ar":"من كلمة «أصفر» (gold, золото, zar, vàng)","he":"ממילה ל\"צהוב\" (gold, золото, zar, vàng)","sw":"kutoka neno la \"manjano\" (gold, золото, zar, vàng)"},
@@ -803,5 +844,46 @@ WORDS.gold = {
     ko_mid: ["금", "kɨm"],
     ko_em: ["금", "kɯm"],
     vi_nom: ["鐄", "vaːŋ˨˩"],  // The same word as vàng "yellow".
+    sah: ["кыһыл көмүс", "kɯhɯl kømys"],  // 'Red silver'.
+    sd: ["سون", "soːnu"],
+    fur: ["aur", "aur"],
+    lez: ["къизил", "qizil"],  // From Turkic qızıl 'red'.
+    av: ["месед", "mesed"],
+    ks: ["سۄن", "sɔn"],
+    ia: ["auro", "ˈauro"],
+    co: ["oru", "ˈɔru"],
+    smn: ["kolle", "ˈkolːe"],
+    rm: ["aur", "aur"],
+    nds: ["Gold", "ɡɔlt"],
+    pdt: ["Golt", "ɡɔlt"],
+    myv: ["сырне", "sɨrnʲe"],  // Borrowed from an Indo-Iranian language (compare Avestan zaranya).
+    ami: ["fodawan", "foðawan"],
+    sat: ["ᱥᱳᱱᱚ", "sonɔ"],
+    dar: ["мургьи", "murhi"],
+    lbe: ["муси", "musi"],
+    vro: ["kuld", "kuld"],  // As Estonian kuld.
+    pdc: ["Gold", "ɡɔlt"],
+    nog: ["алтын", "alˈtɯn"],
+    mni: ["ꯁꯅꯥ", "səna"],
+    kg: ["wólo", "wolo"],  // Borrowed from French or.
+    lzz: ["ალთუნი", "altʰuni"],  // Borrowed from Ottoman Turkish altın.
+    tab: ["гъизил", "ʁizil"],  // From Turkic qızıl 'red'.
+    tkl: ["aulo", "aulo"],
+    jam: ["guol", "ɡuol"],  // From English gold.
+    ckv: ["brawan", "bʁawan"],
+    nch: ["teokuitlatl", "teoˈkwitɬatɬ"],  // teotl 'god' + kuitlatl 'excrement'.
+    ain: ["コンカニ", "konkani"],  // Borrowed from Japanese 黄金 kogane 'yellow metal'.
+    krc: ["алтын", "alˈtɯn"],
+    lkt: ["mázaskazi", "mázaskazi"],  // mázaska 'money' + zí 'to be yellow'.
+    tly: ["ğızıl", "ʁɨzɨl"],  // Borrowed from Azerbaijani qızıl 'red'.
+    frr: ["gul", "ɡul"],
+    nd: ["igolide", "iɡolide"],  // Borrowed from English gold.
+    esu: ["suulutaaq", "suːlutaːq"],  // Borrowed from Russian золото.
+    wym: ["gułd", "ɡuwt"],
+    dak: ["mázaskazi", "mázaskazi"],  // As Lakota, 'yellow money'.
+    mtq: ["wàng", "waːŋ"],  // From Chinese 黃 'yellow', as Vietnamese vàng.
+    khw: ["سورم", "soˈrum"],
+    gn: ["itaju", "itaˈdʒu"],  // ita 'stone' + ju 'yellow'.
+    hmn: ["kub", "ku˥"],  // Borrowed from Old Chinese 金.
   },
 };

@@ -352,6 +352,103 @@ WORDS.tuesday = {
     xct_litpr: "mars",
     ofs: "god",
     orv: "count",
+    ur: "mars",
+    af: "god",
+    te: "mars",
+    sw: "count",
+    lt: "count",
+    nn: "god",
+    mr: "mars",
+    yi: "god",
+    km: "mars",
+    ku: "count",
+    cv: "other",
+    si: "mars",
+    ckb: "count",
+    am: "plain",
+    su: "count",
+    tk: "count",
+    os: "count",
+    kw: "mars",
+    crh: "count",
+    so: "count",
+    om: "plain",
+    fur: "mars",
+    sm: "count",
+    to: "god",
+    sc: "mars",
+    iba: "count",
+    li: "god",
+    qu: "other",
+    ti: "count",
+    sn: "count",
+    zza: "count",
+    sco: "god",
+    fj: "god",
+    vec: "mars",
+    rm: "mars",
+    kum: "count",
+    mfe: "mars",
+    rw: "count",
+    nds: "god",
+    pdt: "god",
+    min: "count",
+    myv: "other",
+    ami: "mars",
+    wo: "count",
+    lmo: "mars",
+    crs: "mars",
+    krl: "count",
+    ty: "count",
+    st: "count",
+    rup: "mars",
+    vro: "count",
+    arn: "mars",
+    nap: "mars",
+    tn: "count",
+    lg: "count",
+    lus: "other",
+    pdc: "god",
+    lad: "mars",
+    nog: "count",
+    oj: "count",
+    nso: "count",
+    kg: "count",
+    nrf: "mars",
+    tab: "count",
+    cho: "god",
+    jam: "god",
+    ssw: "count",
+    kea: "count",
+    ff: "count",
+    xmf: "plain",
+    ch: "mars",
+    mwl: "count",
+    mdh: "count",
+    dng: "count",
+    ve: "count",
+    lkt: "count",
+    tly: "count",
+    lld: "mars",
+    niu: "count",
+    rap: "count",
+    rom: "mars",
+    chk: "count",
+    rcf: "mars",
+    gor: "count",
+    bug: "count",
+    mos: "count",
+    frp: "mars",
+    nbl: "count",
+    esu: "other",
+    hif: "mars",
+    wym: "god",
+    vls: "god",
+    sva: "plain",
+    sr: "count",
+    bs: "count",
+    gn: "count",
+    rmy: "mars",
   },
   routes: {
     god: {"color":"#db2777","emoji":"⚔️","en":"a Germanic god's day (Tuesday, Dienstag, tisdag)","ja":"ゲルマンの神の日（Tuesday, Dienstag, tisdag）","ko":"게르만 신의 날 (Tuesday, Dienstag, tisdag)","zh":"日耳曼神之日（Tuesday、Dienstag、tisdag）","yue":"日耳曼神嘅日（Tuesday、Dienstag、tisdag）","vi":"ngày của một vị thần German (Tuesday, Dienstag, tisdag)","th":"วันของเทพเจอร์แมนิก (Tuesday, Dienstag, tisdag)","id":"hari dewa Jermanik (Tuesday, Dienstag, tisdag)","hi":"जर्मनिक देवता का दिन (Tuesday, Dienstag, tisdag)","de":"Tag eines germanischen Gottes (Tuesday, Dienstag, tisdag)","fr":"jour d'un dieu germanique (Tuesday, Dienstag, tisdag)","it":"giorno di un dio germanico (Tuesday, Dienstag, tisdag)","es":"día de un dios germánico (Tuesday, Dienstag, tisdag)","pt":"dia de um deus germânico (Tuesday, Dienstag, tisdag)","ru":"день германского бога (Tuesday, Dienstag, tisdag)","uk":"день германського бога (Tuesday, Dienstag, tisdag)","ar":"يوم إله جرماني (Tuesday, Dienstag, tisdag)","he":"יומו של אל גרמאני (Tuesday, Dienstag, tisdag)","sw":"siku ya mungu wa Kijerumani (Tuesday, Dienstag, tisdag)"},
@@ -643,5 +740,102 @@ WORDS.tuesday = {
     xct_litpr: ["གཟའ་མིག་དམར", "samiːmaː"],  // Planet Red-eye, Mars.
     ofs: ["tīesdei", "ˈtiːesdei"],  // Tiw's day.
     orv: ["въторъкъ", "ˈvŭtorŭkŭ"],  // From vŭtorŭ "second".
+    ur: ["منگل", "məŋɡəl"],
+    af: ["Dinsdag", "ˈdənsdaχ"],
+    te: ["మంగళవారము", "maŋɡaɭaʋaːɾamu"],
+    sw: ["Jumanne", "dʒuˈmanne"],  // juma 'week' + nne 'four': the fourth day from Saturday.
+    lt: ["antradienis", "ɐnˈtrɑːdʲiɛnʲɪs"],  // antra 'second' + diena 'day'.
+    nn: ["tysdag", "ˈtyːsdaɡ"],
+    mr: ["मंगळवार", "məŋɡəɭʋaːɾ"],
+    yi: ["דינסטיק", "ˈdɪnstɪk"],
+    km: ["ថ្ងៃអង្គារ", "tʰŋaj ʔɑŋkiə"],
+    ku: ["sêşem", "seːˈʃɛm"],  // 'Third day', as Persian سه‌شنبه.
+    cv: ["ытларикун", "ɯtlariˈɡun"],  // Related to утлан 'to ride a horse'.
+    si: ["අඟහරුවාදා", "aŋɡəharuʋaːdaː"],  // අඟහරු 'Mars' + වාදා 'day'.
+    ckb: ["سێشەممە", "seːʃamˈma"],
+    am: ["ማክሰኞ", "maksəɲːo"],
+    su: ["Salasa", "salasa"],  // From Arabic الثلاثاء 'the third'.
+    tk: ["sişenbe", "siʃenˈbe"],
+    os: ["дыццӕг", "dɨtsːæɡ"],  // 'Second'.
+    kw: ["dy'Meurth", "dɪˈmœrθ"],
+    crh: ["salı", "saˈlɯ"],
+    so: ["talaado", "talaːdo"],  // From Arabic الثلاثاء 'the third'.
+    om: ["Kibxata", "kibtʼata"],
+    fur: ["martars", "marˈtars"],
+    sm: ["Aso Lua", "aso lua"],  // aso 'day' + lua 'two, second'.
+    to: ["Tusite", "tusite"],  // From English Tuesday.
+    sc: ["martis", "ˈmartis"],
+    iba: ["Hari Dua", "hari dua"],  // From Malay Hari Dua 'day two'.
+    li: ["dinsdig", "ˈdinsdəx"],
+    qu: ["atipachaw", "atiˈpatʃaw"],  // atipa 'victory' + p'unchaw 'day'.
+    ti: ["ሰሉስ", "sɐlus"],
+    sn: ["Chipiri", "tʃipiri"],  // 'Second'.
+    zza: ["sêşeme", "seːʃɛme"],  // From Persian سه‌شنبه 'third day'.
+    sco: ["Tysday", "ˈtəizde"],
+    fj: ["Siga Tusite", "siŋa tusite"],  // siga 'day' + English Tuesday.
+    vec: ["marti", "ˈmarti"],
+    rm: ["mardi", "ˈmardi"],
+    kum: ["талатгюн", "talatˈɡyn"],
+    mfe: ["mardi", "maʁdi"],  // From French mardi.
+    rw: ["Kwakabiri", "kwakabiɾi"],  // 'Second'.
+    nds: ["Dingsdag", "ˈdɪŋsdax"],
+    pdt: ["Dinjsdach", "ˈdɪnʲsdax"],
+    min: ["Salasa", "salasa"],  // From Arabic الثلاثاء 'the third'.
+    myv: ["вастаньчи", "vastanʲtʃi"],  // вастань 'spouse's' + чи 'day'.
+    ami: ["sanamalan", "sanamalan"],  // From namal, a form of lamal 'fire'.
+    wo: ["talaata", "talaːta"],  // From Arabic ثلاثاء 'the third'.
+    lmo: ["martedí", "marteˈdi"],
+    crs: ["mardi", "mardi"],  // From French mardi.
+    krl: ["toinargi", "ˈtoinɑrɡi"],  // 'Second weekday'.
+    ty: ["Mahana piti", "mahana piti"],  // mahana 'day' + piti 'two'.
+    st: ["Labobedi", "labobedi"],  // Contraction of letsatsi la bobedi 'the second day'.
+    rup: ["Martsã", "ˈmartsə"],
+    vro: ["tõõsõpäiv", "ˈtɤːsɤpæiv"],  // 'Second day'.
+    arn: ["marte antü", "maɾte antɨ"],  // From Spanish martes.
+    nap: ["marterì", "martəˈri"],
+    tn: ["Labobedi", "labobedi"],  // 'The second day'.
+    lg: ["Lwakubiri", "lwakubiri"],  // 'The second'.
+    lus: ["Thawhlehni", "tʰɔʔleʔni"],  // thawk 'work' + leh 'again' + ni 'day'.
+    pdc: ["Dinschdaag", "ˈdɪnʃdaːk"],
+    lad: ["martes", "ˈmaɾtes"],
+    nog: ["сали", "saˈli"],
+    oj: ["niizhogiizhigad", "niːʒoɡiːʒiɡad"],  // Literally 'two-day'.
+    nso: ["labobedi", "labobedi"],  // 'The second day'.
+    kg: ["Lumbu kia nzole", "lumbu kia nzole"],  // 'Day two'.
+    nrf: ["mardi", "mardi"],
+    tab: ["талат", "talat"],
+    cho: ["Tusti", "tosti"],  // Borrowed from English Tuesday.
+    jam: ["Chuuzde", "tʃuːzde"],  // From English Tuesday.
+    ssw: ["Lesibili", "lesiɓili"],  // 'The second'.
+    kea: ["tersa fera", "ˈtɛɾsa ˈfɛɾa"],  // From Portuguese terça-feira 'third weekday'.
+    ff: ["talaata", "talaːta"],  // From Arabic الثلاثاء 'the third'.
+    xmf: ["თახაშხა", "tʰaxaʃxa"],
+    ch: ["Måttes", "ˈmɑttes"],  // Borrowed from Spanish martes.
+    mwl: ["terça-feira", "ˈteɾsɐ ˈfɐjɾɐ"],  // 'Third weekday'.
+    mdh: ["Salasa", "salasa"],  // From Arabic الثلاثاء 'the third'.
+    dng: ["щинчиэр", "ɕiŋ˨˦ tɕʰi˨˦ ɛɻ˦"],  // Cognate with Mandarin 星期二.
+    ve: ["Ḽavhuvhili", "l̪avʱuvʱili"],  // 'The second'.
+    lkt: ["Aŋpétu Núŋpa", "ãpétu nṹpa"],  // 'Day two'.
+    tly: ["dıminci rüj", "dɨmindʒi ryʒ"],  // 'Second day'.
+    lld: ["mertesc", "merˈteʃ"],
+    niu: ["Aho Ua", "aho ua"],  // aho 'day' + ua 'two'.
+    rap: ["mahana piti", "mahana piti"],  // mahana 'day' + piti 'two'.
+    rom: ["martǐ", "marti"],  // Borrowed from Romanian marți.
+    chk: ["Orru", "orːu"],  // Compare ru 'two'.
+    rcf: ["mardi", "mardi"],  // From French mardi.
+    gor: ["Salasa", "salasa"],  // Ultimately from Arabic الثلاثاء 'the third'.
+    bug: ["salasa", "salasa"],
+    mos: ["talaat", "talaːt"],  // From Arabic الثلاثاء 'the third'.
+    frp: ["demârs", "dəˈmar"],
+    nbl: ["uLesibili", "ulesiɓili"],  // 'The second'.
+    esu: ["Aipirin", "aipiʁin"],  // From aipaq 'companion'.
+    hif: ["mangar", "mənɡər"],
+    wym: ["dynstaog", "ˈdɪnʃtaɔk"],
+    vls: ["disndag", "ˈdɪsndɑx"],
+    sva: ["თახა̈შ", "tʰaxæʃ"],
+    sr: ["уторак", "ǔːtorak"],  // From Proto-Slavic *vъtorъkъ, 'the second'.
+    bs: ["utorak", "ˈutorak"],  // From Proto-Slavic *vъtorъkъ, 'the second'.
+    gn: ["araapy", "aɾaaˈpɨ"],  // ára 'day' + mbohapy 'three'.
+    rmy: ["martǐ", "marti"],
   },
 };

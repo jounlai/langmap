@@ -383,6 +383,55 @@ WORDS.east = {
     ja_kanbun: "rising",
     p_ryu: "rising",
     vi_nom: "dong",
+    af: "dawn",
+    sw: "rising",
+    pa: "front",
+    as: "front",
+    oc: "dawn",
+    km: "rising",
+    gd: "front",
+    sd: "rising",
+    scn: "rising",
+    fy: "dawn",
+    am: "plain",
+    jv: "plain",
+    su: "plain",
+    kw: "dawn",
+    tpi: "dawn",
+    crh: "rising",
+    mg: "plain",
+    ban: "other",
+    ti: "other",
+    ia: "dawn",
+    lij: "dawn",
+    ace: "plain",
+    rm: "dawn",
+    kum: "rising",
+    mfe: "dawn",
+    pdt: "dawn",
+    ami: "other",
+    sat: "plain",
+    pms: "dawn",
+    tyv: "plain",
+    arn: "plain",
+    stq: "dawn",
+    rue: "rising",
+    pdc: "dawn",
+    nrf: "dawn",
+    alt: "rising",
+    bm: "plain",
+    mad: "plain",
+    ff: "rising",
+    ckv: "other",
+    grt: "other",
+    kjh: "plain",
+    dng: "dong",
+    frr: "dawn",
+    ltg: "plain",
+    nbl: "rising",
+    sr: "rising",
+    bs: "rising",
+    lij_t: "dawn",
   },
   routes: {
     dawn: {"color":"#f59e0b","emoji":"🌄","en":"a word for dawn or morning (east, Osten, est)","ja":"夜明け・朝の語（east, Osten, est）","ko":"새벽·아침의 말 (east, Osten, est)","zh":"表示黎明或早晨的词（east、Osten、est）","yue":"解黎明或者朝早嘅詞（east、Osten、est）","vi":"từ chỉ bình minh, buổi sáng (east, Osten, est)","th":"คำสำหรับรุ่งอรุณหรือเช้า (east, Osten, est)","id":"kata untuk fajar atau pagi (east, Osten, est)","hi":"भोर या सुबह का शब्द (east, Osten, est)","de":"ein Wort für Morgenröte oder Morgen (east, Osten, est)","fr":"un mot pour l'aube ou le matin (east, Osten, est)","it":"una parola per l'alba o il mattino (east, Osten, est)","es":"una palabra para el alba o la mañana (east, Osten, est)","pt":"uma palavra para a aurora ou a manhã (east, Osten, est)","ru":"слово для зари или утра (east, Osten, est)","uk":"слово для світанку чи ранку (east, Osten, est)","ar":"كلمة للفجر أو الصباح (east, Osten, est)","he":"מילה לשחר או לבוקר (east, Osten, est)","sw":"neno la alfajiri au asubuhi (east, Osten, est)"},
@@ -704,5 +753,54 @@ WORDS.east = {
     ja_kanbun: ["東", "hiɡaɕi"],
     p_ryu: ["*agaroe", "agaroe"],  // Where the sun rises: *agar- "to rise" + *pe "direction".
     vi_nom: ["東", "ɗəwŋ˧"],
+    af: ["oos", "ʊə̯s"],
+    sw: ["mashariki", "maʃaˈriki"],  // Borrowed from Arabic مشرق 'sunrise'.
+    pa: ["ਪੂਰਬ", "puːɾəb"],  // From Sanskrit pūrva 'in front, before'.
+    as: ["পূব", "pub"],  // From Sanskrit pūrva 'in front, before'.
+    oc: ["èst", "ɛst"],
+    km: ["ខាងកើត", "kʰaːŋ kaət"],  // ខាង 'side' + កើត 'to arise, be born'.
+    gd: ["ear", "ɛɾ"],  // From Old Irish an air 'from before'.
+    sd: ["اوڀر", "ubʱəɾ"],  // From اڀرڻ 'to rise, emerge'.
+    scn: ["livanti", "liˈvanti"],
+    fy: ["east", "iəst"],
+    am: ["ምሥራቅ", "mɨsrakʼ"],
+    jv: ["wétan", "wetan"],
+    su: ["wétan", "wetan"],
+    kw: ["est", "ɛst"],  // From English east.
+    tpi: ["is", "is"],  // From English east.
+    crh: ["şarq", "ʃarq"],  // Borrowed from Arabic شرق.
+    mg: ["atsinanana", "atsiˈnanana"],
+    ban: ["kangin", "kaŋin"],  // Probably ka- + angin 'wind'.
+    ti: ["ምብራቕ", "mɨbraxʼ"],  // Verbal noun of በረቐ 'to glow, shine'.
+    ia: ["est", "est"],
+    lij: ["est", "ɛst"],
+    ace: ["timu", "timu"],
+    rm: ["ost", "ɔst"],
+    kum: ["гюнтувуш", "ɡyntuˈwuʃ"],  // гюн 'sun' + тувуш 'birth'.
+    mfe: ["les", "lɛs"],  // From French l'est.
+    pdt: ["Oosten", "ˈoːstən"],
+    ami: ["wali", "wali"],  // From Proto-Austronesian *waʀi 'day; sun'.
+    sat: ["ᱥᱟᱢᱟᱝ", "samaŋ"],
+    pms: ["est", "ɛst"],
+    tyv: ["чөөн чүк", "tʃøːn tʃyk"],
+    arn: ["puel", "puel"],
+    stq: ["Aaste", "ˈaːstə"],
+    rue: ["восток", "voˈstok"],
+    pdc: ["Oscht", "ɔʃt"],
+    nrf: ["êt", "ɛt"],  // From Old English ēast.
+    alt: ["кӱнчыгыш", "kyntʃɯˈɣɯʃ"],  // 'Sun coming out'.
+    bm: ["kɔrɔn", "kɔrɔn"],
+    mad: ["tèmor", "tɛmɔr"],
+    ff: ["funnaange", "funːaːŋɡe"],  // fuɗ- 'to rise, begin' + -naange 'sun'.
+    ckv: ["waRi", "waʁi"],  // From Proto-Austronesian *waʀi 'day; sun'.
+    grt: ["salaram", "salaram"],  // sal 'sun, day' + aram.
+    kjh: ["іскер", "isˈker"],
+    dng: ["дун", "tuŋ˨˦"],  // Cognate with Mandarin 东.
+    frr: ["uast", "uast"],
+    ltg: ["reiti", "ˈrʲæi̯tʲi"],
+    nbl: ["ipumalanga", "ipumalaŋɡa"],  // As Zulu impumalanga 'where the sun rises'.
+    sr: ["исток", "ǐstok"],
+    bs: ["istok", "ˈistok"],
+    lij_t: ["est", "ɛst"],
   },
 };

@@ -436,6 +436,104 @@ WORDS.husband = {
     p_ryu: "own",
     ko_mid: "man",
     vi_nom: "own",
+    hu: "own",
+    uz: "man",
+    ky: "own",
+    yi: "man",
+    oc: "own",
+    km: "lord",
+    ht: "own",
+    gd: "own",
+    ug: "man",
+    yo: "own",
+    aii: "man",
+    cv: "own",
+    si: "lord",
+    fy: "man",
+    jv: "own",
+    su: "own",
+    tk: "man",
+    zu: "own",
+    dv: "own",
+    crh: "own",
+    vo: "own",
+    csb: "man",
+    iba: "man",
+    mak: "man",
+    cbk: "own",
+    tet: "own",
+    hil: "own",
+    qu: "own",
+    ti: "house",
+    xal: "man",
+    zza: "own",
+    bar: "man",
+    sco: "other",
+    fj: "own",
+    rm: "man",
+    kum: "man",
+    rw: "man",
+    nds: "man",
+    pdt: "man",
+    ab: "own",
+    mnw: "man",
+    ami: "own",
+    wo: "own",
+    sat: "man",
+    stq: "man",
+    rue: "man",
+    lus: "other",
+    pdc: "man",
+    lad: "own",
+    aa: "lord",
+    lzz: "own",
+    tkl: "man",
+    bho: "own",
+    cho: "man",
+    jam: "house",
+    ssw: "own",
+    alt: "man",
+    bm: "man",
+    kea: "own",
+    yua: "own",
+    xmf: "own",
+    kaa: "own",
+    mwl: "man",
+    grt: "own",
+    ig: "own",
+    kjh: "man",
+    ain: "own",
+    frr: "man",
+    rap: "own",
+    tao: "man",
+    quc: "own",
+    rom: "man",
+    bug: "own",
+    rgn: "own",
+    mwr: "lord",
+    tzm: "man",
+    nhe: "other",
+    nd: "own",
+    luo: "unknown",
+    nyn: "man",
+    eve: "own",
+    iso: "man",
+    gun: "own",
+    wym: "man",
+    cjs: "man",
+    ppl: "man",
+    bgc: "own",
+    toi: "own",
+    pjt: "man",
+    win: "unknown",
+    kgp: "own",
+    hop: "own",
+    bor: "own",
+    wrh: "own",
+    blk: "own",
+    kfr: "own",
+    sr: "own",
+    hmn: "own",
   },
   routes: {
     man: {"color":"#2563eb","emoji":"👨","en":"the same word as man","ja":"「男」と同じ語","ko":"'남자'와 같은 낱말","zh":"与“男人”同一个词","yue":"同「男人」同一個詞","vi":"cùng một từ với 'đàn ông'","th":"คำเดียวกับ 'ผู้ชาย'","id":"kata yang sama dengan 'laki-laki'","hi":"'आदमी' वाला ही शब्द","de":"dasselbe Wort wie Mann","fr":"le même mot qu'homme","it":"la stessa parola di uomo","es":"la misma palabra que hombre","pt":"a mesma palavra que homem","ru":"то же слово, что «мужчина»","uk":"те саме слово, що «чоловік (мужчина)»","ar":"الكلمة نفسها لـ«رجل»","he":"אותה מילה כמו „גבר”","sw":"neno lile lile la 'mwanamume'"},
@@ -811,5 +909,103 @@ WORDS.husband = {
     p_ryu: ["*woto", "woto"],
     ko_mid: ["남진", "namtsin"],
     vi_nom: ["𫯳", "tɕəwŋ˨˩"],  // First meant "man, male".
+    hu: ["férj", "feːrj"],
+    uz: ["er", "eɾ"],
+    ky: ["күйөө", "kyˈjøː"],
+    yi: ["מאן", "man"],
+    oc: ["marit", "maˈrit"],
+    km: ["ប្ដី", "pɗəj"],  // From Sanskrit pati 'master'.
+    ht: ["mari", "maɣi"],
+    gd: ["fear-pòsda", "fɛɾ ˈpɔːs̪t̪ə"],  // fear 'man' + pòsda 'married'.
+    ug: ["ئەر", "ɛr"],  // ئەر is also 'man'.
+    yo: ["ọkọ", "ɔkɔ"],
+    aii: ["ܓܒܪܐ", "ɡawra"],  // ܓܒܪܐ is also 'man'.
+    cv: ["упӑшка", "upəʃˈka"],
+    si: ["සැමියා", "sæmijaː"],  // From Sanskrit svāmin 'lord, master'.
+    fy: ["man", "mɔn"],
+    jv: ["laki", "laki"],
+    su: ["salaki", "salaki"],
+    tk: ["är", "æɾ"],  // är is also 'man'.
+    zu: ["umyeni", "umˈjeːni"],
+    dv: ["ފިރި", "fiɾi"],
+    crh: ["qoca", "qoˈdʒa"],
+    vo: ["himatan", "himaˈtan"],  // hi- 'male' + matan 'spouse'.
+    csb: ["chłop", "xwɔp"],  // chłop is also 'man'.
+    iba: ["laki", "laki"],  // laki is also 'man, male'.
+    mak: ["buraʼne", "buˈraʔne"],  // buraʼne is also 'man'.
+    cbk: ["marido", "maˈɾido"],
+    tet: ["laʼen", "laʔen"],
+    hil: ["bana", "ˈbana"],
+    qu: ["qusa", "ˈqusa"],
+    ti: ["በዓል ቤት", "bɐʕal bet"],  // 'Master of the house'.
+    xal: ["залу", "zaˈlu"],  // залу is also 'man'.
+    zza: ["mêrde", "meːɾdɛ"],
+    bar: ["Mo", "moː"],  // Mo is also 'man'.
+    sco: ["guidman", "ˈɡɪdmən"],  // guid 'good' + man.
+    fj: ["wati", "wati"],
+    rm: ["um", "um"],  // um is also 'man'.
+    kum: ["эр", "er"],  // эр is also 'man'.
+    rw: ["umugabo", "umuɡabo"],  // umugabo is also 'man'.
+    nds: ["Mann", "man"],  // Mann is also 'man'.
+    pdt: ["Maun", "maun"],  // Maun is also 'man'.
+    ab: ["аԥшәма", "apʰʃʷma"],
+    mnw: ["တြုံ", "kraoh"],  // တြုံ is also 'man'.
+    ami: ["faʼinay", "faʔinaj"],
+    wo: ["jëkkër", "dʒəkːər"],
+    sat: ["ᱦᱮᱨᱮᱞ", "herel"],  // ᱦᱮᱨᱮᱞ is also 'man'.
+    stq: ["Mon", "mɔn"],  // Mon is also 'man'.
+    rue: ["муж", "muʒ"],  // муж is also 'man'.
+    lus: ["pasal", "pasal"],  // pa 'father' + sal 'man of the household'.
+    pdc: ["Mann", "man"],  // Mann is also 'man'.
+    lad: ["marido", "maˈɾido"],
+    aa: ["baqla", "ˈbaʕla"],  // baqla is also 'owner'.
+    lzz: ["ქომოჯი", "kʰomodʒi"],
+    tkl: ["tāne", "taːne"],  // tāne is also 'man'.
+    bho: ["भतार", "bʱətaːr"],
+    cho: ["hatak", "hatak"],  // hatak is also 'man'.
+    jam: ["ozban", "ozban"],  // From English husband.
+    ssw: ["umyeni", "umjeni"],
+    alt: ["эр", "er"],  // эр is also 'man'.
+    bm: ["cɛ", "tʃɛ"],  // cɛ is also 'man'.
+    kea: ["maridu", "maˈɾidu"],
+    yua: ["íicham", "iːtʃam"],
+    xmf: ["ქომონჯი", "kʰomondʒi"],
+    kaa: ["kúyew", "kyˈjew"],
+    mwl: ["home", "ˈomɨ"],  // home is also 'man'.
+    grt: ["se", "se"],
+    ig: ["di", "di"],
+    kjh: ["ир", "ir"],  // ир is also 'man'.
+    ain: ["ホク", "hoku"],
+    frr: ["man", "man"],  // man is also 'man'.
+    rap: ["kenu", "kenu"],
+    tao: ["mehakay", "məhakaj"],  // mehakay is also 'man'.
+    quc: ["achajil", "atʃaxil"],
+    rom: ["rrom", "rom"],  // rrom is also 'Romani man'.
+    bug: ["lakkai", "lakkai"],
+    rgn: ["marè", "maˈrɛ"],
+    mwr: ["धणी", "dʱəɳiː"],  // From Sanskrit dhanika 'wealthy, owner'.
+    tzm: ["ⴰⵔⴳⴰⵣ", "arɡaz"],  // ⴰⵔⴳⴰⵣ is also 'man'.
+    nhe: ["huehue", "ˈwewe"],  // huehue is also 'old man'.
+    nd: ["umyeni", "umjeni"],
+    luo: ["chuora", "tʃuora"],
+    nyn: ["omushaija", "omuʃiːdʒa"],  // omushaija is also 'man'.
+    eve: ["эди", "ədi"],
+    iso: ["ọzaị", "ɔzai"],  // ọzaị is also 'man'.
+    gun: ["me", "me"],
+    wym: ["mon", "mon"],  // mon is also 'man'.
+    cjs: ["эр", "er"],
+    ppl: ["tacat", "ˈtakat"],  // tacat is also 'man'.
+    bgc: ["भरतार", "bʱərtaːr"],
+    toi: ["mwaalumi", "mwaːlumi"],
+    pjt: ["wati", "ˈwati"],  // wati is also 'man'.
+    win: ["hikąną", "hikãnã"],
+    kgp: ["mén", "mɛn"],
+    hop: ["koongya", "koːŋja"],
+    bor: ["oredu", "oɾedu"],
+    wrh: ["nguban", "ˈŋuban"],
+    blk: ["ဝါ", "wa˧˧"],
+    kfr: ["વર", "ʋər"],
+    sr: ["муж", "mûːʒ"],
+    hmn: ["txiv", "tsi˨˦"],
   },
 };

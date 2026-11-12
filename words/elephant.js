@@ -449,6 +449,30 @@ WORDS.elephant = {
     ja_kanbun: "xiang",
     ko_mid: "other",
     vi_nom: "plain",
+    nv: "other",
+    vo: "elephas",
+    kok: "hasti",
+    mh: "elephas",
+    pdt: "elephas",
+    sat: "hasti",
+    vro: "elephas",
+    nrf: "elephas",
+    bm: "plain",
+    tcy: "gaja",
+    mwl: "elephas",
+    ckv: "plain",
+    nch: "elephas",
+    rhg: "hasti",
+    rgn: "elephas",
+    mwr: "gaja",
+    din: "plain",
+    wym: "elephas",
+    mnk: "plain",
+    ppl: "other",
+    ibb: "plain",
+    luy: "bantu",
+    gn: "other",
+    hmn: "plain",
   },
   routes: {
     elephas: {"color":"#2563eb","emoji":"🏛️","en":"from Greek ἐλέφας, Latin elephantus (elephant, Elefant)","ja":"ギリシャ語 ἐλέφας、ラテン語 elephantus から (elephant, Elefant)","ko":"그리스어 ἐλέφας, 라틴어 elephantus에서 (elephant, Elefant)","zh":"来自希腊语 ἐλέφας、拉丁语 elephantus (elephant, Elefant)","yue":"嚟自希臘語 ἐλέφας、拉丁語 elephantus (elephant, Elefant)","vi":"từ tiếng Hy Lạp ἐλέφας, Latinh elephantus (elephant, Elefant)","th":"จากภาษากรีก ἐλέφας ละติน elephantus (elephant, Elefant)","id":"dari ἐλέφας Yunani, elephantus Latin (elephant, Elefant)","hi":"यूनानी ἐλέφας, लैटिन elephantus से (elephant, Elefant)","de":"aus griechisch ἐλέφας, lateinisch elephantus (elephant, Elefant)","fr":"du grec ἐλέφας, latin elephantus (elephant, Elefant)","it":"dal greco ἐλέφας, latino elephantus (elephant, Elefant)","es":"del griego ἐλέφας, latín elephantus (elephant, Elefant)","pt":"do grego ἐλέφας, latim elephantus (elephant, Elefant)","ru":"от греческого ἐλέφας, латинского elephantus (elephant, Elefant)","uk":"від грецького ἐλέφας, латинського elephantus (elephant, Elefant)","ar":"من اليونانية ἐλέφας واللاتينية elephantus (elephant, Elefant)","he":"מהיוונית ἐλέφας, מהלטינית elephantus (elephant, Elefant)","sw":"kutoka Kigiriki ἐλέφας, Kilatini elephantus (elephant, Elefant)"},
@@ -838,5 +862,29 @@ WORDS.elephant = {
     ja_kanbun: ["象", "zoː"],
     ko_mid: ["·고키·리", "kokʰiɾi"],  // Long-noser: nose + long.
     vi_nom: ["㺔", "vɔj˧"],
+    nv: ["chį́į́h yee adilohii", "tʃʰĩ́ːh jèː ʔɑ̀tɪ̀lòhìː"],  // 'The one that ropes with its nose'.
+    vo: ["leefad", "leeˈfad"],
+    kok: ["हत्ती", "hətːiː"],
+    mh: ["eļbōn", "ɛlˠʌbˠʌnʲ"],  // Borrowed from English elephant.
+    pdt: ["Eelefaunt", "ˈeːləfaunt"],
+    sat: ["ᱦᱟᱹᱛᱤ", "həti"],  // Borrowed from Bengali হাতি, from Sanskrit hastin.
+    vro: ["elevant'", "ˈelevɑntʲ"],
+    nrf: ["êléphant", "ɛlefɑ̃"],
+    bm: ["sama", "sama"],
+    tcy: ["ಗಜ", "ɡadʒa"],
+    mwl: ["eilefante", "ɐjlɨˈfɐ̃tɨ"],
+    ckv: ["zuʼ", "zuʔ"],
+    nch: ["elefante", "eleˈfante"],  // Borrowed from Spanish elefante.
+    rhg: ["háñti", "hãti"],
+    rgn: ["elefãnt", "eleˈfãːt"],
+    mwr: ["गज", "ɡədʒ"],
+    din: ["akɔ̈ɔ̈n", "akɔːn"],
+    wym: ["elefaont", "ˈelefaɔnt"],
+    mnk: ["samoo", "samoː"],
+    ppl: ["yakaweyak", "jakaˈweːjak"],  // 'Long nose'.
+    ibb: ["eniin", "eniːn"],
+    luy: ["enjofu", "endʒofu"],  // From Proto-Bantu *njògù.
+    gn: ["tĩmbuku", "tĩmbuˈku"],  // tĩ 'nose' + puku 'long'.
+    hmn: ["ntxhw", "ⁿtsʰɨ˧"],
   },
 };

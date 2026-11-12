@@ -412,6 +412,43 @@ WORDS.mirror = {
     ja_kanbun: "shadow",
     ko_mid: "plain",
     vi_nom: "jing",
+    fy: "speculum",
+    tk: "ayna",
+    zu: "look",
+    dsb: "look",
+    ce: "look",
+    ilo: "cermin",
+    li: "speculum",
+    ia: "speculum",
+    sn: "plain",
+    co: "speculum",
+    kok: "look",
+    vec: "speculum",
+    kum: "look",
+    mfe: "mirari",
+    bjn: "cermin",
+    nds: "speculum",
+    pdt: "speculum",
+    inh: "look",
+    sat: "look",
+    nap: "speculum",
+    pdc: "speculum",
+    nrf: "mirari",
+    tab: "look",
+    ssw: "look",
+    slr: "look",
+    alt: "look",
+    ff: "look",
+    ay: "plain",
+    ig: "plain",
+    krc: "look",
+    lld: "speculum",
+    frr: "speculum",
+    nhe: "plain",
+    kmb: "look",
+    nhx: "plain",
+    wym: "speculum",
+    mns: "look",
   },
   routes: {
     speculum: {"color":"#2563eb","emoji":"🏛️","en":"from Latin speculum (espejo, Spiegel)","ja":"ラテン語 speculum から (espejo, Spiegel)","ko":"라틴어 speculum에서 (espejo, Spiegel)","zh":"来自拉丁语 speculum (espejo, Spiegel)","yue":"嚟自拉丁語 speculum (espejo, Spiegel)","vi":"từ tiếng Latinh speculum (espejo, Spiegel)","th":"จากภาษาละติน speculum (espejo, Spiegel)","id":"dari speculum Latin (espejo, Spiegel)","hi":"लैटिन speculum से (espejo, Spiegel)","de":"aus lateinisch speculum (espejo, Spiegel)","fr":"du latin speculum (espejo, Spiegel)","it":"dal latino speculum (espejo, Spiegel)","es":"del latín speculum (espejo, Spiegel)","pt":"do latim speculum (espejo, Spiegel)","ru":"от латинского speculum (espejo, Spiegel)","uk":"від латинського speculum (espejo, Spiegel)","ar":"من اللاتينية speculum (espejo, Spiegel)","he":"מהלטינית speculum (espejo, Spiegel)","sw":"kutoka Kilatini speculum (espejo, Spiegel)"},
@@ -763,5 +800,42 @@ WORDS.mirror = {
     ja_kanbun: ["鏡", "kaɡami"],
     ko_mid: ["거·우루", "kəuɾu"],
     vi_nom: ["𦎛", "ɣɨəŋ˧"],  // Old non-Sino reading of 鏡.
+    fy: ["spegel", "ˈspeːɣəl"],
+    tk: ["aýna", "ajˈna"],
+    zu: ["isibuko", "isiˈɓuːko"],  // From -buka 'to look'.
+    dsb: ["glědałko", "ˈɡlɪdawkɔ"],  // From glědaś 'to look'.
+    ce: ["куьзга", "kyzɡa"],  // As Azerbaijani güzgü.
+    ilo: ["sarming", "sarˈmiŋ"],
+    li: ["sjpegel", "ˈʃpeːɣəl"],
+    ia: ["speculo", "ˈspekulo"],
+    sn: ["chiringiro", "tʃiriŋɡiro"],
+    co: ["spechju", "ˈspɛcu"],
+    kok: ["आरसो", "aːɾso"],  // From Sanskrit ādarśa, as Marathi आरसा.
+    vec: ["specio", "ˈspɛtʃo"],
+    kum: ["гюзгю", "ɡyzˈɡy"],  // As Azerbaijani güzgü.
+    mfe: ["mirwar", "miʁwaʁ"],  // From French miroir.
+    bjn: ["caramin", "tʃaramin"],
+    nds: ["Spegel", "ˈspeːɡəl"],
+    pdt: ["Spieejel", "ˈʃpiːjəl"],
+    inh: ["кизга", "kizɡa"],  // As Azerbaijani güzgü.
+    sat: ["ᱟᱹᱨᱥᱤ", "ərsi"],  // Borrowed from Bengali আরশি, from Sanskrit ādarśa.
+    nap: ["specchio", "ˈspekkjə"],
+    pdc: ["Schpiggel", "ˈʃpɪɡəl"],
+    nrf: ["mitheux", "miðø"],  // From Old French mireor, from mirer 'to look at'.
+    tab: ["гюзги", "ɡyzɡi"],  // As Azerbaijani güzgü.
+    ssw: ["sibuko", "sibuko"],  // From -buka 'to look'.
+    slr: ["kozgo", "kozɡo"],  // From Proto-Turkic *köŕ- 'to see'.
+    alt: ["кӱскӱ", "kysˈky"],  // From Proto-Turkic *köŕ 'eye; to see'.
+    ff: ["ndaarorgal", "ndaːɾoɾɡal"],  // From ndaar- 'to look'.
+    ay: ["lirpu", "ˈliɾpu"],
+    ig: ["enyo", "eɲo"],
+    krc: ["кюзгю", "kyzˈɡy"],  // As Azerbaijani güzgü.
+    lld: ["spidl", "ʃpidl"],
+    frr: ["späägel", "ˈspɛːɡəl"],
+    nhe: ["tezcatl", "ˈteskatɬ"],
+    kmb: ["lumwenu", "lumwenu"],  // From mwena 'to sight, glimpse'.
+    nhx: ["te̱scaꞌ", "teːskaʔ"],
+    wym: ["śpigel", "ˈɕpiɡɛl"],
+    mns: ["вӣльтсуснэ ке̄р", "ˈwiːlʲtsusne keːr"],  // вӣльт 'face' + суснэ 'looking' + ке̄р 'iron'.
   },
 };

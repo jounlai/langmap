@@ -365,6 +365,79 @@ WORDS.butter = {
     zh_tang: "plain",
     vi_han: "plain",
     ja_edo: "other",
+    lt: "smear",
+    ne: "plain",
+    mr: "plain",
+    mn: "fat",
+    mi: "butyrum",
+    oc: "butyrum",
+    km: "butyrum",
+    sah: "fat",
+    ug: "fat",
+    si: "butyrum",
+    scn: "butyrum",
+    am: "plain",
+    jv: "manteca",
+    su: "manteca",
+    tk: "other",
+    zu: "butyrum",
+    an: "manteca",
+    shn: "plain",
+    crh: "fat",
+    so: "plain",
+    xh: "butyrum",
+    mg: "butyrum",
+    om: "plain",
+    fur: "butyrum",
+    csb: "smear",
+    kpv: "waje",
+    sm: "butyrum",
+    cbk: "manteca",
+    szl: "smear",
+    war: "manteca",
+    liv: "smear",
+    qu: "manteca",
+    ti: "plain",
+    mrw: "manteca",
+    hsb: "butyrum",
+    kok: "plain",
+    sco: "butyrum",
+    fj: "butyrum",
+    mfe: "butyrum",
+    nds: "butyrum",
+    pdt: "butyrum",
+    mrj: "waje",
+    crs: "butyrum",
+    mhr: "waje",
+    pms: "butyrum",
+    rup: "smear",
+    vro: "waje",
+    stq: "butyrum",
+    nap: "butyrum",
+    pdc: "butyrum",
+    oj: "fat",
+    nrf: "butyrum",
+    ssw: "butyrum",
+    alt: "fat",
+    mwl: "manteca",
+    tly: "fat",
+    lld: "fat",
+    udi: "karag",
+    frr: "butyrum",
+    rom: "plain",
+    ltg: "smear",
+    rcf: "butyrum",
+    gcf: "butyrum",
+    frp: "butyrum",
+    gcr: "butyrum",
+    djk: "butyrum",
+    wym: "butyrum",
+    tig: "zubda",
+    vls: "butyrum",
+    ruq: "smear",
+    cro: "fat",
+    kfr: "smear",
+    sr: "butyrum",
   },
   routes: {
     butyrum: {"color":"#d97706","emoji":"🐄","en":"Greek βούτυρον 'cow cheese' (butter, beurre, バター)","ja":"ギリシャ語 βούτυρον「牛のチーズ」（butter, beurre, バター）","ko":"그리스어 βούτυρον '소의 치즈' (butter, beurre, バター)","zh":"希腊语 βούτυρον“牛的奶酪”（butter、beurre、バター）","yue":"希臘文 βούτυρον「牛嘅芝士」（butter、beurre、バター）","vi":"tiếng Hy Lạp βούτυρον 'pho mát bò' (butter, beurre, バター)","th":"กรีก βούτυρον 'ชีสวัว' (butter, beurre, バター)","id":"Yunani βούτυρον 'keju sapi' (butter, beurre, バター)","hi":"यूनानी βούτυρον 'गाय का पनीर' (butter, beurre, バター)","de":"griechisch βούτυρον „Kuhkäse“ (butter, beurre, バター)","fr":"le grec βούτυρον « fromage de vache » (butter, beurre, バター)","it":"il greco βούτυρον «formaggio di vacca» (butter, beurre, バター)","es":"el griego βούτυρον «queso de vaca» (butter, beurre, バター)","pt":"o grego βούτυρον «queijo de vaca» (butter, beurre, バター)","ru":"греческое βούτυρον «коровий сыр» (butter, beurre, バター)","uk":"грецьке βούτυρον «коров'ячий сир» (butter, beurre, バター)","ar":"اليونانية βούτυρον «جبن البقر» (butter, beurre, バター)","he":"היוונית βούτυρον „גבינת פרה” (butter, beurre, バター)","sw":"Kigiriki βούτυρον 'jibini la ng'ombe' (butter, beurre, バター)"},
@@ -667,5 +740,78 @@ WORDS.butter = {
     zh_tang: ["酥", "sɔ"],  // Butter or ghee made from milk, as in Buddhist texts.
     vi_han: ["酥", "to˧˧"],
     ja_edo: ["牛酪", "ɡʲɯːɾakɯ"],  // Cow curd.
+    lt: ["sviestas", "ˈsʲvʲiɛstɐs"],  // As Latvian sviests.
+    ne: ["नौनी", "nʌuni"],
+    mr: ["लोणी", "loːɳiː"],
+    mn: ["цөцгийн тос", "tsʰɵtsʰɡiːŋ tʰɔs"],  // 'Cream fat'.
+    mi: ["pata", "pata"],  // From English butter.
+    oc: ["burre", "ˈbyre"],
+    km: ["បឺរ", "ɓəː"],  // From French beurre.
+    sah: ["арыы", "arɯː"],  // From Proto-Turkic *sārïg 'yellow'; also 'oil, grease'.
+    ug: ["سېرىق ماي", "seriq mɑj"],  // 'Yellow fat'.
+    si: ["බටර්", "bəʈər"],  // From English butter.
+    scn: ["bùtiru", "ˈbutiru"],
+    am: ["ቅቤ", "kʼɨbe"],
+    jv: ["mertéga", "mərteɡɔ"],
+    su: ["mantéga", "manteɡa"],
+    tk: ["mesge", "mesˈɡe"],  // Borrowed from Persian مسکه.
+    zu: ["ibhotela", "iboˈteːla"],
+    an: ["manteca", "manˈteka"],
+    shn: ["ထေႃးပၢတ်ႈ", "tʰɔː˥paːt̚˧˧˨"],  // From Burmese ထောပတ်.
+    crh: ["sarı yağ", "saˈrɯ jaɣ"],  // 'Yellow fat'.
+    so: ["subag", "subaɡ"],
+    xh: ["ibhotolo", "iboːtoːlo"],  // Borrowed from Afrikaans botter.
+    mg: ["dibera", "diˈbera"],  // From French du beurre.
+    om: ["dhadhaa", "ɗaɗaː"],
+    fur: ["butîr", "buˈtiːr"],
+    csb: ["masło", "ˈmaswɔ"],
+    kpv: ["вый", "vɨj"],
+    sm: ["pata", "pata"],  // From English butter.
+    cbk: ["mantequilla", "manteˈkiʎa"],
+    szl: ["masło", "ˈmaswɔ"],
+    war: ["mantikilya", "mantiˈkilja"],
+    liv: ["vȭidag", "ˈvɨːidɑɡ"],  // From võidõ 'to oil, grease'.
+    qu: ["mantikilla", "mantiˈkiʎa"],
+    ti: ["ጠስሚ", "tʼɐsmi"],
+    mrw: ["mantikiliya", "mantikilija"],  // From Spanish mantequilla.
+    hsb: ["butra", "ˈbutra"],
+    kok: ["लोणी", "loːɳiː"],
+    sco: ["butter", "ˈbʌtər"],
+    fj: ["bata", "mbata"],  // Borrowed from English butter.
+    mfe: ["diber", "dibɛʁ"],  // From French du beurre.
+    nds: ["Botter", "ˈbɔtɐ"],
+    pdt: ["Botta", "ˈbɔta"],
+    mrj: ["ӱ", "y"],
+    crs: ["diber", "dibɛr"],  // From French du beurre.
+    mhr: ["ӱй", "yj"],
+    pms: ["bur", "byr"],
+    rup: ["umtu", "ˈumtu"],  // From Latin ūnctum 'ointment'.
+    vro: ["võid", "vɤid"],
+    stq: ["Buutere", "ˈbuːtərə"],
+    nap: ["butirro", "buˈtirrə"],
+    pdc: ["Budder", "ˈbʊdər"],
+    oj: ["bimide", "bimide"],  // bimide is also 'fat, grease, oil'.
+    nrf: ["beurre", "bœr"],
+    ssw: ["libhotela", "libʱotela"],
+    alt: ["сары май", "sarɯ maj"],  // 'Yellow fat'.
+    mwl: ["manteiga", "mɐ̃ˈtɐjɣɐ"],
+    tly: ["ruyən", "ruʁən"],  // Cognate with Persian روغن 'oil'.
+    lld: ["smauz", "ʒmauts"],  // From Middle High German smalz 'lard'.
+    udi: ["кӏаракӏ", "kʼarakʼ"],  // From Armenian կարագ.
+    frr: ["bööder", "ˈbøːdər"],
+    rom: ["khil", "kʰil"],
+    ltg: ["svīsts", "svʲiːsts"],  // As Latvian sviests.
+    rcf: ["bèr", "bɛr"],  // From French beurre.
+    gcf: ["bè", "bɛ"],  // From French beurre.
+    frp: ["burro", "ˈburo"],
+    gcr: ["dibè", "dibɛ"],  // From French du beurre.
+    djk: ["botoo", "botoː"],  // From Sranan Tongo botro, from Dutch boter.
+    wym: ["putter", "ˈputɐ"],
+    tig: ["ዝበድ", "zɨbad"],  // Borrowed from Arabic زبدة.
+    vls: ["beuter", "ˈbøːtər"],
+    ruq: ["unt", "unt"],  // From Latin ūnctum 'ointment'.
+    cro: ["taláashiili", "taláːʃiːli"],  // taláa 'grease' + shíili 'yellow'.
+    kfr: ["મખણ", "məkʰəɳ"],  // As Hindi मक्खन.
+    sr: ["путер", "pûter"],  // Borrowed from German Butter.
   },
 };

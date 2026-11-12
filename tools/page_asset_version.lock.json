@@ -52,8 +52,8 @@
     "hash": "5ded554300e8c6ee"
   },
   "namemap_data.js": {
-    "version": 16,
-    "hash": "a3f4bd46309b4060"
+    "version": 17,
+    "hash": "1f75bfc7da91d65f"
   },
   "namemap_i18n.js": {
     "version": 4,
@@ -64,8 +64,8 @@
     "hash": "1725c7a21734a986"
   },
   "namemap_names_ext.js": {
-    "version": 15,
-    "hash": "82cf850e71e05108"
+    "version": 16,
+    "hash": "fdbfc485273f03de"
   },
   "namemap_trivia_rt/base.js": {
     "version": 48,

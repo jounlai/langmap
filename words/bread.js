@@ -525,6 +525,8 @@ WORDS.bread = {
     umu: "other",
     sr: "hlaib",
     gn: "plain",
+    ja_hak: "panis",
+    ja_hir: "panis",
   },
   routes: {
     panis: {"color":"#d97706","emoji":"🥖","en":"Latin pānis, and Portuguese pão abroad (pain, pan, パン, 빵)","ja":"ラテン語 pānis と、海を渡ったポルトガル語 pão（pain, pan, パン, 빵）","ko":"라틴어 pānis와 바다를 건넌 포르투갈어 pão (pain, pan, パン, 빵)","zh":"拉丁语 pānis，及远渡重洋的葡萄牙语 pão（pain、pan、パン、빵）","yue":"拉丁文 pānis，同漂洋過海嘅葡萄牙文 pão（pain、pan、パン、빵）","vi":"tiếng Latin pānis, và tiếng Bồ Đào Nha pão ra nước ngoài (pain, pan, パン, 빵)","th":"ละติน pānis และโปรตุเกส pão ที่ข้ามทะเล (pain, pan, パン, 빵)","id":"Latin pānis, dan Portugis pão di seberang laut (pain, pan, パン, 빵)","hi":"लैटिन pānis, और समुद्र पार पुर्तगाली pão (pain, pan, パン, 빵)","de":"lateinisch pānis und portugiesisch pão in Übersee (pain, pan, パン, 빵)","fr":"le latin pānis, et le portugais pão outre-mer (pain, pan, パン, 빵)","it":"il latino pānis, e il portoghese pão oltremare (pain, pan, パン, 빵)","es":"el latín pānis, y el portugués pão en ultramar (pain, pan, パン, 빵)","pt":"o latim pānis, e o português pão além-mar (pain, pan, パン, 빵)","ru":"латинское pānis и португальское pão за морем (pain, pan, パン, 빵)","uk":"латинське pānis і португальське pão за морем (pain, pan, パン, 빵)","ar":"اللاتينية pānis، والبرتغالية pão وراء البحار (pain, pan, パン, 빵)","he":"הלטינית pānis, והפורטוגזית pão מעבר לים (pain, pan, パン, 빵)","sw":"Kilatini pānis, na Kireno pão ng'ambo (pain, pan, パン, 빵)"},
@@ -988,5 +990,7 @@ WORDS.bread = {
     umu: ["apwaan", "apwaːn"],  // From Proto-Algonquian *apwa·n 'thing baked or roasted'.
     sr: ["хлеб", "xlêb"],  // From Proto-Slavic *xlěbъ, from Proto-Germanic *hlaibaz.
     gn: ["mbujape", "mbudʒaˈpe"],
+    ja_hak: ["パン", "paɴ"],
+    ja_hir: ["パン", "paɴ"],
   },
 };

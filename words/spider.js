@@ -246,7 +246,7 @@ WORDS.spider = {
     njo: "plain",
     nl: "spin",
     nmf: "plain",
-    no: "plain",
+    no: "cup",
     nog: "plain",
     oc: "aranea",
     oj: "plain",
@@ -475,7 +475,7 @@ WORDS.spider = {
     lad: "aranea",
     bho: "markata",
     cho: "plain",
-    alt: "plain",
+    alt: "spin",
     kea: "aranea",
     frp: "aranea",
     mzn: "plain",
@@ -716,7 +716,7 @@ WORDS.spider = {
     njo: ["sorak", "soɹak"],
     nl: ["spin", "spɪn"],  // An agent noun from spinnen "to spin", for the webs.
     nmf: ["karkao", "karkao"],
-    no: ["edderkopp", "ˈɛdərkɔp"],
+    no: ["edderkopp", "ˈɛdərkɔp"],  // From Danish edderkop, the "poison cup" (Wiktionary).
     nog: ["бий", "bij"],
     oc: ["aranha", "aˈraɲɔ"],  // From Latin arānea or Greek ἀράχνη.
     oj: ["asabikeshiinh", "asabikeːʃĩː"],
@@ -945,7 +945,7 @@ WORDS.spider = {
     lad: ["tiralanya", "tiɾaˈlaɲa"],  // From Old Spanish tela de aranna 'spider's web'.
     bho: ["मकड़ी", "məkɽiː"],
     cho: ["chulhkʋn", "tʃoɬkən"],
-    alt: ["јӧргӧмӧш", "dʲørɡøˈmøʃ"],
+    alt: ["јӧргӧмӧш", "dʲørɡøˈmøʃ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     kea: ["aranha", "aˈɾaɲa"],
     frp: ["aragne", "aˈraɲe"],
     mzn: ["وند", "vend"],

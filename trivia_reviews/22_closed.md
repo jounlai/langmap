@@ -15,3 +15,7 @@ Round 3: en 1 (foam-tea relative clause), ja 8, ko 7, zh 4, yue 4, vi 7, th 3 (t
 sw 6, de 5, fr 8, it 8 ("une balle anglaise" read as a bullet; 波霸 not 霸 means big balls; bubble tea plays on sound AND meaning),
 es 11, pt 8, ru 9, uk 9, ar 2, he 8 (jetlag "second route" everywhere; words that "say" → "mean").
 Site: pt Armenian Arménio → Armênio (Brazilian).
+
+Round 4: en 1 (usbstick p3 "Pen drive is the everyday word in India" — "It" read as plain "pen"), ja 6, ko 2, zh 3, yue 3, vi 2, th 6
+(digits for counts, th style), id 3, hi 7, sw 4, de 4, fr 5, it 3, es 4, pt 4, ru 3, uk 2, ar 3, he 5 (the map no longer the subject
+of the routes sentence; usbstick p5 flash count in its own sentence; ar «كادت … تسميها» read as "almost named it").

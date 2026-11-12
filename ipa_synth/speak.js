@@ -11,7 +11,7 @@
  */
 (function () {
     'use strict';
-    const V = '?v=52';
+    const V = '?v=53';
     const BASE = '/ipa_synth/';
     const STR = {
         en: { open: 'Pronunciation', close: 'Close', hintHover: 'Point at a word on the map, or in a language panel, to hear it.', hintTap: 'Tap a word on the map to hear it; tap it again to open its language.',

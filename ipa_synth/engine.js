@@ -792,9 +792,12 @@
                         // Implosive: the larynx drops during the closure, so the voice swells instead of
                         // fading (crescendo), then the release is almost noiseless and the vowel starts
                         // loud with a touch of creak.
-                        push(30 * gem, Object.assign({}, closure, { AV: .3, F1: 230, B1: 80 }), Object.assign({ kind: 'closure', edgeA: 8 }, info));
-                        push(28 * gem, Object.assign({}, closure, { AV: .95, F1: 240, B1: 80 }), Object.assign({ kind: 'implosion', edgeA: 22 }, info));
-                        if (nextV) segs[i + 1]._implosiveOnset = true;
+                        // Vietnamese ɗ ɓ are close to [ʔd ʔb]: a mild swell and no creak (the creak and a loud
+                        // voice bar under the closure were heard as the throat trembling in đất)
+                        const mild = !!prof.centering;
+                        push(30 * gem, Object.assign({}, closure, { AV: mild ? .35 : .3, F1: 230, B1: 80 }), Object.assign({ kind: 'closure', edgeA: 8 }, info));
+                        push((mild ? 20 : 28) * gem, Object.assign({}, closure, { AV: mild ? .6 : .95, F1: 240, B1: 80 }), Object.assign({ kind: 'implosion', edgeA: mild ? 12 : 22 }, info));
+                        if (nextV && !mild) segs[i + 1]._implosiveOnset = true;
                     } else if (s.noRelease && prevVoiced && !nextV) {
                         // an unreleased final stop is a catch: the voice stops dead and the glottis closes
                         push(70 * gem, Object.assign({}, closure, { AV: 0, glot: -0.5 }), Object.assign({ kind: 'closure', edgeA: 3, edgeF: 12 }, info));

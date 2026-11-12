@@ -19,3 +19,7 @@ Site: pt Armenian Arménio → Armênio (Brazilian).
 Round 4: en 1 (usbstick p3 "Pen drive is the everyday word in India" — "It" read as plain "pen"), ja 6, ko 2, zh 3, yue 3, vi 2, th 6
 (digits for counts, th style), id 3, hi 7, sw 4, de 4, fr 5, it 3, es 4, pt 4, ru 3, uk 2, ar 3, he 5 (the map no longer the subject
 of the routes sentence; usbstick p5 flash count in its own sentence; ar «كادت … تسميها» read as "almost named it").
+
+Round 5: en 0, ja 1, ko 2, zh 0, yue 1, vi 1, th 1 (jetlag p0 "this route" with no antecedent; タピる vs タピオカ), id 2, hi 2, sw 3, de 3,
+fr 3, it 2 (job before the name, no comma-wrapped appositions), es 1, pt 2, ru 1, uk 1, ar 1, he 1 (usbstick p3 pen drive as subject;
+pt "disco na chave" so the key route makes sense).

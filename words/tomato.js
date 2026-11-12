@@ -165,7 +165,7 @@ WORDS.tomato = {
     kbd: "other",
     ady: "unknown",
     mi: "nahuatl",
-    ks: "unknown",
+    ks: "other",
     om: "nahuatl",
     so: "unknown",
     jv: "nahuatl",
@@ -274,7 +274,7 @@ WORDS.tomato = {
     am: "nahuatl",
     ne: "other",
     ku: "other",
-    mg: "unknown",
+    mg: "other",
     xh: "nahuatl",
     kk: "unknown",
     azb: "apple",
@@ -654,7 +654,7 @@ WORDS.tomato = {
     kbd: ["бэдрэжан", "badraʒaːn"],  // Etymology not given by the sources; it matches Chechen бадарж, which is traced to Persian bādinjān 'eggplant'. Route by resemblance to the neighbouring forms (ce(бадарж)); no etymology of its own.
     ady: ["цугу", "tsʷəɡʷ"],  // Etymology not given by the source; also spelled чугу.
     mi: ["tōmato", "toːmato"],  // Etymology not given by the source. Route by resemblance to the neighbouring forms (ja(トマト) ko(토마토)); no etymology of its own.
-    ks: ["رُوانٛگُن", "ruʋãːɡun"],  // Etymology not given by the source; the English loan ṭamāṭar is a synonym.
+    ks: ["رُوانٛگُن", "ruʋãːɡun"],  // The English loan ṭamāṭar is a synonym. Grierson's Dictionary of the Kashmiri Language (1932) gives ru-wāgan 'tomatoes' as a compound of wāṅgan 'egg-plant, brinjal', beside bōṭa-wāgun, the 'Ladakhi eggplant', another tomato name; so the tomato is a kind of eggplant, as Romanian roșie and Kurdish bacansor.
     om: ["timaatima", "timaːtima"],  // Etymology not given by the sources. Route by resemblance to the neighbouring forms (am(ቲማቲም) ar(طماطم)); no etymology of its own.
     so: ["yaanyo", "jaːɲo"],  // Borrowed from Swahili nyanya.
     jv: ["tomat", "tomat"],  // The same word in ngoko and krama speech levels. Route by resemblance to the neighbouring forms (fr(tomate) id(tomat)); no etymology of its own.
@@ -763,7 +763,7 @@ WORDS.tomato = {
     am: ["ቲማቲም", "timatim"],  // Borrowed from Arabic ṭamāṭim, which goes back through Spanish tomate to Nahuatl tomatl.
     ne: ["गोलभेंडा", "ɡolbʱẽɽaː"],  // gol 'round' + bheṛā, a small kind of eggplant (Turner, CDIAL 9369 bhaṇṭākī 'egg-plant': N. bhĩṛā, bhẽṛā 'a small variety'): the 'round eggplant'. Schmidt's dictionary calls it the usual hill word; टमाटर is used mainly in the Terai.
     ku: ["bacansor", "bɑːdʒɑːnˈsoːɾ"],  // Literally 'red eggplant' (bacan + sor); by region people also say firingî, originally 'European', or tomate.
-    mg: ["voatabia", "vuataˈbia"],  // The voa- at the front is the same element seen in other fruit names, like voasary 'orange'.
+    mg: ["voatabia", "vuataˈbia"],  // The voa- at the front is the same element seen in other fruit names, like voasary 'orange'. The Malagasy Dictionary and Encyclopedia of Madagascar explains it as voa 'fruit' + tabiha 'glory, honour', a nod to the prestige of the fruit, so the tomato is the 'fruit of glory' (also spelled voatabiha).
     xh: ["itumato", "itumato"],  // Route by resemblance to the neighbouring forms (oc(tomata)); no etymology of its own.
     kk: ["қызанақ", "qɯzɑˈnɑq"],  // Kazakh Wikipedia also gives the Russian loans томат and помидор, which are common in speech.
     azb: ["پامادور", "pɑmɑˈdoɾ"],  // South Azerbaijani Wikipedia also lists قیزاناق and قیرمیزی بادیمجان, 'red eggplant'. Route by resemblance to the neighbouring forms (tk(pomidor) uz(pomidor)); no etymology of its own.

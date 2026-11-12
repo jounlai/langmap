@@ -269,7 +269,7 @@ WORDS.monday = {
     ksh: "moon",
     sco: "moon",
     gsw: "moon",
-    ak: "unknown",
+    ak: "other",
     tn: "unknown",
     lg: "unknown",
     rw: "count",
@@ -398,7 +398,7 @@ WORDS.monday = {
     ki: "count",
     rn: "count",
     ts: "other",
-    ee: "unknown",
+    ee: "other",
     sat: "unknown",
     nso: "unknown",
     wuu_nb: "count",
@@ -857,7 +857,7 @@ WORDS.monday = {
     ksh: ["Mondaach", "ˈmɔːndaːx"],  // Inherited "moon's day", from Old High German *māndag.
     sco: ["Monanday", "ˈmʌnəndɪ"],  // From Old English mōnandæġ, "day of the Moon".
     gsw: ["Mäntig", "ˈmæntiɡ"],  // From Old High German mānintag, "moon's day".
-    ak: ["ɛdwoada", "ɛdʑʷoada"],  // Twi name of Monday, the day that gives the day-names Kwadwo and Adwoa.
+    ak: ["ɛdwoada", "ɛdʑʷoada"],  // Twi name of Monday, the day of Adwo: Christaller's Twi dictionary (1881) explains the day names Kwasida, Dwoda, Benada ... as named after seven personal beings or genii, Ayisi, Adwo, Bena ..., which also give the day-names Kwadwo and Adwoa.
     tn: ["Mosupologo", "mosupoloχo"],  // Setswana name of Monday; the following days are counted as working days (Labobedi "second").
     lg: ["Bbalaza", "bːalaza"],  // Luganda name of Monday; Olwokusooka "the first day" is also used.
     rw: ["kuwa mbere", "kuwa mbeɾe"],  // "The first day": the week is counted from Monday, with Sunday as Ku cyumweru.
@@ -986,7 +986,7 @@ WORDS.monday = {
     ki: ["Njumatatũ", "ɲdʒumatato"],  // From Swahili Jumatatu: juma "week" + tatu "three".
     rn: ["ku wa mbere", "ku wa mbeɾe"],  // "The first (day)": the week is counted from Monday, as in Kinyarwanda kuwa mbere.
     ts: ["Musumbhunuku", "musumbʱunuku"],  // Tuesday to Friday are numbered (Ravumbirhi "second"), but Monday has its own name; spellings vary (Musumbuluku, Musumbunuku). Route by resemblance to the neighbouring forms (zu(uMsombuluko) ssw(uMsombuluko)); no etymology of its own.
-    ee: ["Dzoɖagbe", "dzoɖaɡbe"],  // Also written dzoɖa; Ewe Wikipedia matches it with Twi Ɛdwoada, and the sources do not give its meaning.
+    ee: ["Dzoɖagbe", "dzoɖaɡbe"],  // Also written dzoɖa; Ewe Wikipedia matches it with Twi Ɛdwoada, the day Christaller's Twi dictionary names after the genius Adwo. Route by resemblance to the neighbouring forms (ak(ɛdwoada)); no etymology of its own.
     sat: ["ᱚᱛᱮ ᱢᱟᱦᱟᱸ", "ɔte mahã"],  // mahã is "day"; Wiktionary gives no etymology for ote.
     nso: ["Mošupologo", "moʃupoloɣo"],  // Northern Sotho name for Monday, like Setswana Mosupologo; the meaning is not given in the sources.
     wuu_nb: ["礼拜一", "li˨˩˧ pa˦˦ iɪʔ˥˥"],  // 礼拜 "worship, week" + 一 "one": week-day one. 一 is written with the tone this row uses for 'one'.

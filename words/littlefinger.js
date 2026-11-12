@@ -79,11 +79,11 @@ WORDS.littlefinger = {
     fr_sn: "small",
     fr_ci: "small",
     fr_ht: "small",
-    pt: "unknown",
-    pt_mz: "unknown",
-    pt_ao: "unknown",
-    pt_cv: "unknown",
-    pt_br: "unknown",
+    pt: "small",
+    pt_mz: "small",
+    pt_ao: "small",
+    pt_cv: "small",
+    pt_br: "small",
     es: "other",
     es_mx: "other",
     it: "other",
@@ -238,7 +238,7 @@ WORDS.littlefinger = {
     lv: "small",
     bs: "small",
     zza: "small",
-    ban: "unknown",
+    ban: "plain",
     war: "plain",
     lmo: "small",
     av: "small",
@@ -307,7 +307,7 @@ WORDS.littlefinger = {
     ace: "plain",
     bjn: "plain",
     sas: "plain",
-    mui: "unknown",
+    mui: "plain",
     rki: "unknown",
     haz: "plain",
     pag: "plain",
@@ -531,11 +531,11 @@ WORDS.littlefinger = {
     fr_sn: ["petit doigt", "pəti dwa"],  // Literally 'little finger'; the formal auriculaire comes from Latin auriculāris 'of the ear'.
     fr_ci: ["petit doigt", "pəti dwa"],  // Literally 'little finger'; the formal auriculaire comes from Latin auriculāris 'of the ear'.
     fr_ht: ["petit doigt", "pəti dwa"],  // Literally 'little finger'; the formal auriculaire comes from Latin auriculāris 'of the ear'.
-    pt: ["mindinho", "mĩˈdiɲu"],  // The everyday word; the more formal dedo mínimo means 'smallest finger'.
-    pt_mz: ["mindinho", "mĩˈdiɲu"],  // The everyday word; the more formal dedo mínimo means 'smallest finger'.
-    pt_ao: ["mindinho", "mĩˈdiɲu"],  // The everyday word; the more formal dedo mínimo means 'smallest finger'.
-    pt_cv: ["mindinho", "mĩˈdiɲu"],  // The everyday word; the more formal dedo mínimo means 'smallest finger'.
-    pt_br: ["mindinho", "mĩˈdʒĩɲu"],  // The everyday word; the more formal dedo mínimo means 'smallest finger'.
+    pt: ["mindinho", "mĩˈdiɲu"],  // The everyday word; the more formal dedo mínimo means 'smallest finger'. Aulete calls mindinho a corruption of mínimo 'smallest', and Michaelis an alteration of Vulgar Latin *minutinum, from minutus 'small'; either way it is the small one (Priberam calls the origin doubtful).
+    pt_mz: ["mindinho", "mĩˈdiɲu"],  // The everyday word; the more formal dedo mínimo means 'smallest finger'. Aulete calls mindinho a corruption of mínimo 'smallest', and Michaelis an alteration of Vulgar Latin *minutinum, from minutus 'small'; either way it is the small one.
+    pt_ao: ["mindinho", "mĩˈdiɲu"],  // The everyday word; the more formal dedo mínimo means 'smallest finger'. Aulete calls mindinho a corruption of mínimo 'smallest', and Michaelis an alteration of Vulgar Latin *minutinum, from minutus 'small'; either way it is the small one.
+    pt_cv: ["mindinho", "mĩˈdiɲu"],  // The everyday word; the more formal dedo mínimo means 'smallest finger'. Aulete calls mindinho a corruption of mínimo 'smallest', and Michaelis an alteration of Vulgar Latin *minutinum, from minutus 'small'; either way it is the small one.
+    pt_br: ["mindinho", "mĩˈdʒĩɲu"],  // The everyday word; the more formal dedo mínimo means 'smallest finger'. Aulete calls mindinho a corruption of mínimo 'smallest', and Michaelis an alteration of Vulgar Latin *minutinum, from minutus 'small'; either way it is the small one.
     es: ["meñique", "meˈɲike"],  // As an adjective meñique also means 'tiny' colloquially; the formal synonym dedo auricular means 'ear finger'. Treccani groups it with Italian mignolo and French mignon 'darling' as pet words.
     es_mx: ["meñique", "meˈɲike"],  // As an adjective meñique also means 'tiny' colloquially; the formal synonym dedo auricular means 'ear finger'. Treccani groups it with Italian mignolo and French mignon 'darling' as pet words.
     it: ["mignolo", "ˈmiɲɲolo"],  // Treccani groups it with Spanish meñique and French mignon 'darling' as pet words; the anatomical dito auricolare is the 'ear finger'.
@@ -690,7 +690,7 @@ WORDS.littlefinger = {
     lv: ["mazais pirkstiņš", "mazais pirkstiɲʃ"],  // Literally 'the small little-finger': the definite form of mazs 'small' with pirkstiņš, a diminutive of pirksts 'finger'.
     bs: ["mali prst", "maːliː prst"],  // Literally 'small finger' (mali 'small' + prst 'finger'); peti prst 'fifth finger' is also used.
     zza: ["engışta qıce", "ɛŋɡɨʃta qɨdʒɛ"],  // Literally 'small finger' (engışte 'finger' + qıc 'small'), as Filippone notes for the Iranian languages generally.
-    ban: ["kacing", "katʃiŋ"],  // The ordinary Balinese name; kelingking, as in Indonesian, is also heard, and calilingan is the high-register word.
+    ban: ["kacing", "katʃiŋ"],  // The ordinary Balinese name; kelingking, as in Indonesian, is also heard, and calilingan is the high-register word. The BASAbali Wiki dictionary glosses kacing 'little finger' (also a cock's matching toe and the length of a little finger) and records no origin; it is unrelated to cenik 'small' and pianak 'child'. No image is recorded for it, so it counts as a word of its own.
     war: ["tamuyingking", "tamujiŋˈkiŋ"],  // A word of its own, paired with tamuragko 'thumb'; kamuyingking is a variant.
     lmo: ["didin", "diˈdiŋ"],  // A diminutive of dit 'finger', so 'the little finger', in the Milanese spelling.
     av: ["гьитӏинкилищ", "hitʼinkiliʃː"],  // Literally 'little finger' (гьитӀин 'little' + килищ 'finger'), built like буртӏинкилищ 'thumb'.
@@ -759,7 +759,7 @@ WORDS.littlefinger = {
     ace: ["giték", "ɡiteʔ"],  // The Acehnese word for the little finger; in a saying the five fingers stand for the Prophet and the four caliphs, and giték is Ali. No image is recorded for it, so it counts as a word of its own.
     bjn: ["kalingking", "kaliŋkiŋ"],  // The Banjar form of Indonesian kelingking. Route by resemblance to the neighbouring forms (mak(kaningking) pam(kalingkingan) ceb(kumingking) tsg(kingking)); no etymology of its own.
     sas: ["kerigiq", "kəriɡiʔ"],  // Glossed by the Kamus Sasak-Indonesia as 'the outermost finger of the hand; little finger'; entik is a synonym. No image is recorded for it, so it counts as a word of its own.
-    mui: ["entikan", "əntikan"],  // Glossed 'kelingking' in the Kamus Sederhana Bahasa Palembang; the Musi of the interior says kalengkeng. Initial e read as schwa, as in the row's empat.
+    mui: ["entikan", "əntikan"],  // Glossed 'kelingking' in the Kamus Sederhana Bahasa Palembang, which records no make-up; the Musi of the interior says kalengkeng, like Indonesian kelingking. Initial e read as schwa, as in the row's empat. No image is recorded for it, so it counts as a word of its own.
     rki: ["လက်သန်း", "lɔʔθáɴ"],  // The same word as Burmese လက်သန်း, built on လက် 'hand' like လက်မ for the thumb.
     haz: ["کلکک", "kilkak"],  // Glossed 'the small finger of the human hand and foot' in Shahristani's Hazaragi-Persian dictionary, which also gives the variant چلکک čilkak. No image is recorded for it, so it counts as a word of its own.
     pag: ["kiking", "kiˈkiŋ"],  // A word of its own, continuing Proto-Malayo-Polynesian *kiŋkiŋ 'little finger'; Benton's 1971 dictionary writes it kekéng.

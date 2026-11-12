@@ -149,7 +149,7 @@ WORDS.dragonfly = {
     nuf: "plain",
     awa: "plain",
     sd: "plain",
-    gu: "unknown",
+    gu: "other",
     ps: "other",
     mg: "plain",
     kk: "other",
@@ -202,7 +202,7 @@ WORDS.dragonfly = {
     kg: "unknown",
     bm: "unknown",
     bal: "unknown",
-    ig: "unknown",
+    ig: "plain",
     so: "plain",
     ht: "plain",
     din: "plain",
@@ -223,13 +223,13 @@ WORDS.dragonfly = {
     eu: "other",
     cbk: "plain",
     khb: "unknown",
-    ets: "unknown",
+    ets: "plain",
     yua: "unknown",
     aii: "unknown",
     tzh: "plain",
     kek: "plain",
     rue: "plain",
-    tet: "unknown",
+    tet: "plain",
     dtp: "unknown",
     wa: "other",
     oc: "other",
@@ -486,7 +486,7 @@ WORDS.dragonfly = {
     nuf: ["ɹi35liɯ31liɯ31ɑ31", "ɹi˧˥liɯ˧˩liɯ˧˩ɑ˧˩"],  // Etymology not given by the source. No image is recorded for it, so it counts as a word of its own.
     awa: ["भँभीरी", "bʱə̃bʱiːriː"],  // McGregor marks the word as Braj and Awadhi; it also names a butterfly and a child's spinning top. Route by resemblance to the neighbouring forms (ur بھنبھیری); no etymology of its own.
     sd: ["ڀنڀوري", "bʱənbʱuːɾiː"],  // Mewaram (1910) records it with a variant ڀۇنڀۇريِ; it is related to Hindi-Urdu bhaṅbhīrī. Route by resemblance to the neighbouring forms (ur بھنبھیری); no etymology of its own.
-    gu: ["વાણિયો", "ˈʋaːɳijo"],  // The same word means a member of the Bania merchant caste, or a merchant; no source says how the insect got the name.
+    gu: ["વાણિયો", "ˈʋaːɳijo"],  // The same word means a member of the Bania merchant caste, or a merchant; no source says how the insect got the name. Since the insect is called by the word for a person, it is filed with the other person and creature images, like Rioplatense aguacil 'bailiff' and Tigrinya ፈረሰኛ 'horseman'.
     ps: ["ستن", "stən"],  // The word for 'needle' (also 'pin', 'pillar'), used for the dragonfly's long thin body.
     mg: ["angidina", "aŋˈɡidina"],  // The ordinary Malagasy name, used for the adult of the water nymph called ondrindrano. No image is recorded for it, so it counts as a word of its own.
     kk: ["инелік", "ɪjneˈlɪk"],  // The Kazakh word for dragonflies and damselflies (Odonata); Kyrgyz has the similar ийнелик. Route by resemblance to the neighbouring forms (ky(ийнелик)); no etymology of its own.
@@ -539,7 +539,7 @@ WORDS.dragonfly = {
     kg: ["lumpungumpungu", "lumpuŋɡumpuŋɡu"],  // Both standard Kikongo dictionaries give this word; Kikongo Wikipedia titles its article kimpungunzala, which looks built on the same mpungu stem.
     bm: ["maama", "maːma"],  // Bamadaba also gives súrukubòcɛkalama, literally 'stick for picking up hyena dung'; máama can also mean a winged termite, and no source traces the word.
     bal: ["پرک", "pirrik"],  // The same word also means 'helicopter'; no source traces it.
-    ig: ["tatambeleke", "tatambeleke"],  // The Standard Igbo word in the Nkọwa okwu dictionary; dialects have other names, several built on mmiri 'water', and no source traces tatambeleke itself.
+    ig: ["tatambeleke", "tatambeleke"],  // The Standard Igbo word in the Nkọwa okwu dictionary; dialects have other names, several built on mmiri 'water', but the dictionary records no make-up for tatambeleke itself. No image is recorded for it, so it counts as a word of its own.
     so: ["xareedeeye", "ħareːdeːje"],  // Zorc and Osman's Somali-English dictionary gives it as a masculine noun; it gives no etymology, though it is listed next to xareed 'rainwater'. No image is recorded for it, so it counts as a word of its own.
     ht: ["demwazèl", "demwazɛl"],  // Two English-Haitian dictionaries give demwazèl, and a picture dictionary spells it madmwazel; the sources do not trace the word. No image is recorded for it, so it counts as a word of its own.
     din: ["akɔlmagar", "akɔlmaɡar"],  // The SIL draft Dinka-English dictionary glosses akɔlmagar as 'dragonfly' and marks it for the Rek dialect; it is also the title of the Dinka Wikipedia article. No image is recorded for it, so it counts as a word of its own.
@@ -560,13 +560,13 @@ WORDS.dragonfly = {
     eu: ["burruntzi", "buruntsi"],  // Also the word for a roasting spit or skewer; sorgin-orratz 'witch's needle' and mariorratz are other names.
     cbk: ["apan", "aˈpan"],  // Borrowed from Hiligaynon apán 'adult locust'; Wiktionary marks it Cotabateño and Zamboangueño, with tutubi in Caviteño and Ternateño.
     khb: ["ᦀᦲᦰᦢᦲᧉ", "ʔi biː˩˧"],  // The animal prefix ʔi- plus bii, tone 3; a variant ᦀᦲᦰ ᦥᦲ is also listed.
-    ets: ["anene", "anene"],  // Glossed 'dragonfly' in the University of Benin Etsako (Yekhee) dictionary.
+    ets: ["anene", "anene"],  // Glossed 'dragonfly' in the University of Benin Etsako (Yekhee) dictionary, which records no make-up. No image is recorded for it, so it counts as a word of its own.
     yua: ["turix", "tuɾiʃ"],  // Also borrowed into the Spanish of Yucatán as turix 'dragonfly'.
     aii: ["ܥܵܙܠܵܐ ܟܘܼܫܵܐ", "azla kuʃa"],  // The Sureth dictionary's Eastern Syriac entry; it lists ܫܵܕܵܝܵܐ as the Aradhin-dialect word.
     tzh: ["tultux", "tultuʃ"],  // Glossed 'libélula (insecto)' in the SIL Tzeltal dictionary of Bachajón. No image is recorded for it, so it counts as a word of its own.
     kek: ["tuulux", "tuːluʃ"],  // The Academy's Q'eqchi' vocabulary gives it with the example Xiikileb' tuulux chi re nima', 'there are many dragonflies on the riverbank'. No image is recorded for it, so it counts as a word of its own.
     rue: ["водянка", "voˈdʲanka"],  // Kercha's dictionary gives водя́нка first, with лібе́ла as an alternative, and водянкы for the dragonflies as an order. No image is recorded for it, so it counts as a word of its own.
-    tet: ["tekilili", "tekilili"],  // The Tetun Dili dictionary glosses tekilili as the dragonfly, an odonate insect.
+    tet: ["tekilili", "tekilili"],  // The Tetun Dili dictionary glosses tekilili as the dragonfly, an odonate insect, and records no make-up. No image is recorded for it, so it counts as a word of its own.
     dtp: ["tompokiukiu", "tompokiukiu"],  // The Kadazandusun Wikipedia's name for the dragonfly; the Kadazandusun dictionary gives it as the Central Dusun form beside Kadazan tongkokizu'.
     wa: ["damjhele", "damˈʒɛl"],  // The word for a 'young lady', as in French demoiselle; Walloon Wikipedia notes that the big dragonflies are also called monsieus, 'gentlemen'.
     oc: ["domaisèla", "dumajˈzɛlɔ"],  // The 'young lady' word, cognate with French demoiselle; Papazian (1994), working from Mistral, calls it the generic name across the Occitan-speaking lands.

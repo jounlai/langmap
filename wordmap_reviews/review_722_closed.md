@@ -62,3 +62,26 @@ Total review 722: 637 cells routed (g3 85, g5 197 + xh, g2 165, g1 97, g4 93).
 - Leads from g4: hy փշաքաղվել goosebumps → other (Old Armenian փշաքաղ, under both փուշ 'thorn' and քաղեմ 'to pick'; the
   thorn image of bn/ne); am አውራ ጣት thumb → other (አውራ 'male', as in አውራ ዶሮ 'rooster'; 'male finger' as lg/nyo/fon).
   os хистӕր (no gloss source found), rn, ii, ng/kj kept.
+
+## Second pass — sources other than Wiktionary (~/langmap-work/unk1112/p2/BRIEF2.md)
+Three draft agents on the largest remaining buckets; dictionaries and grammars (archive.org scans, WOLD, IDS, ACD, ILRDF,
+SEAlang, Kittel, Christaller, Hangin, Kropf, Raverty, Shirt, Riggs, Westermann, Torrend, EES …). 118 proposed, 105 applied.
+- p2a rainbow 21 (other 10, plain 9, bow 1 — seh 'bow of the chief of the spirits', serpent 1 — ee ʋɔ 'python'), thunder 18
+  (plain 11, sky 3 — kac mu, tt kökre- from kök, xal оһтрһу; other 2 — liv/vro pikne from pikk 'long'; god 1 — fo tora;
+  imitative 1 — kn guḍu). Held: lg/xog musoke (also the god's name; which came first is unsourced), yua (sky or god),
+  lus khawpui (weather = sky is a reading), gej (no Gen dictionary).
+- p2b tomorrow 10 (morning 5 — xh ngomso 'on the coming morning', sd, ps, ny, crt; plain 5), yesterday 5 (distinct, each
+  with its tomorrow word sourced), hiccup 12 (imitative 7 incl. et EES 'sound-motivated', kn-type hedged precedents; other 2 —
+  el blend with κλώζω 'caw', he 'braying', as sq lemzë; plain 3), monday 2 (ak/ee after the genius Adwo, Christaller).
+  Held: ami/sel tomorrow (built on the yesterday root; pwn and yrk with the same structure are plain — align first),
+  syc hiccup (only a shared Semitic root).
+- p2c bat 16 (vot nahk-iiri 'leather mouse'; mn/bxr 'membrane' + bat word; ckb 'blind'; pwn doubled 'hide'), littlefinger 7
+  (pt/pt_br/pt_mz/pt_ao/pt_cv mindinho → small, Aulete/Michaelis), thumb 5 (kab 'club', esu 'device for supporting'),
+  dragonfly 4, potato 3 (mn төмс 'bulbs', bxr by resemblance), tomato 2 (ks 'eggplant' compound, mg voatabia).
+  Held: thumb tao/lif (own segmentations), ak thumb and potato (half unglossed), aqc thumb (WOLD vs IDS 'big finger').
+  Not applied (policy): 16 native tomato/potato words with no image → `other`. tomato `other` is labelled "another image",
+  which a native Mesoamerican or Formosan name is not, so they stay unknown; potato kha/ki/mi likewise.
+Leads left: Swahili nyanya origin would settle ~15 East African tomato cells; os хистӕр 'elder' (no reachable dictionary);
+koi енӧшка note says 'God's little bull' after Lytkin, Panyukov 2024 reports Lytkin–Gulyaev as 'heavenly spring' (route
+other either way; note unverified); et kõu possibly 'ancestor' (god?).
+Review 722 total: 756 of 1,854 routed.

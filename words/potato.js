@@ -116,7 +116,7 @@ WORDS.potato = {
     prs: "other",
     sw: "other",
     tl: "papa",
-    mn: "unknown",
+    mn: "other",
     sah: "truffle",
     kjh: "unknown",
     my: "other",
@@ -472,7 +472,7 @@ WORDS.potato = {
     pdt: "unknown",
     pap: "papa",
     tyv: "truffle",
-    bxr: "unknown",
+    bxr: "other",
     pis: "papa",
     wa: "earth",
     lij: "papa",
@@ -512,7 +512,7 @@ WORDS.potato = {
     rtm: "papa",
     ers: "unknown",
     ia: "papa",
-    jbo: "unknown",
+    jbo: "papa",
     lkt: "other",
     chy: "other",
     arp: "other",
@@ -640,7 +640,7 @@ WORDS.potato = {
     prs: ["کچالو", "katʃɑːluː"],  // Borrowed from Hindustani kachalu, a name for taro; Iranian Persian says sib-zamini "earth apple" instead.
     sw: ["kiazi", "kiˈazi"],  // The general word for an edible tuber; kiazi kitamu is the sweet potato and kiazi kikuu the yam.
     tl: ["patatas", "paˈtatas"],  // From Spanish patatas, the plural of patata.
-    mn: ["төмс", "tʰɵms"],  // A Mongolian word distinct from the Russian loans used by many neighbours.
+    mn: ["төмс", "tʰɵms"],  // A Mongolian word distinct from the Russian loans used by many neighbours. Hangin's Modern Mongolian-English Dictionary glosses төмс(өн) 'bulbous plants, bulbs; potatoes', so an old word for bulbs and bulbous roots was carried over to the potato, as Belarusian бульба and Lithuanian bulvė were.
     sah: ["хортуоппуй", "xortuopˈpuj"],  // Borrowed from Russian kartofel, adapted to Sakha sound patterns.
     kjh: ["яблах", "jablax"],  // The everyday Khakas word for the potato.
     my: ["အာလူး", "ʔàlú"],  // Borrowed from Hindi ālū, originally a word for the elephant foot yam.
@@ -996,7 +996,7 @@ WORDS.potato = {
     pdt: ["Ieedschock", "ˈiːtʃɔk"],  // A compound built on Ieed 'ground, earth'; the meaning of the second element Schock is not given in the source.
     pap: ["batata", "baˈtata"],  // From Spanish and Portuguese batata, ultimately Taíno batata.
     tyv: ["картофель", "karˈtofelʲ"],  // Borrowed from Russian картофель (ultimately Italian tartufolo "truffle"); the Tuvan Wikipedia says it spread in Tuva from 1930.
-    bxr: ["түмһэн", "tymheŋ"],  // The counterpart of Mongolian төмс; the Buryat Wikipedia also gives the Russian loan хартаабха.
+    bxr: ["түмһэн", "tymheŋ"],  // The counterpart of Mongolian төмс, which Hangin glosses 'bulbous plants, bulbs; potatoes' (Buryat h for Mongolian s); the Buryat Wikipedia also gives the Russian loan хартаабха. Route by resemblance to the neighbouring forms (mn(төмс)); no etymology of its own.
     pis: ["Ingglis puteto", "iŋɡlis puteto"],  // Literally 'English potato': plain puteto (from English potato) means the sweet potato in Pijin, so the potato proper is marked as English.
     wa: ["crompire", "kʁɔ̃ˈpiːʁ"],  // From Germanic *grund-pehr "ground pear", like German Grundbirne; Walloon also says canada, truke and cartoxhe.
     lij: ["patàtta", "paˈtatta"],  // From Spanish patata, the Quechua papa blended with Taíno batata; Monaco says patata and Novi patòta.
@@ -1036,7 +1036,7 @@ WORDS.potato = {
     rtm: ["pitete", "pitete"],  // The Rotuman word for the potato; the sweet potato is kumara.
     ers: ["pu", "pu˥˥"],  // Unlike most of its Qiangic neighbours, whose words resemble Chinese 洋芋 (Pumi jã y, Guiqiong jɑ̃ y), Ersu has a short word of its own; the sweet potato is hũ˧˧ʂɑu˥˥.
     ia: ["patata", "paˈtata"],  // Taken from Spanish patata, itself from Taíno batata.
-    jbo: ["patlu", "ˈpatlu"],  // A root word (gismu) of Lojban: 'x1 is a potato of variety x2'.
+    jbo: ["patlu", "ˈpatlu"],  // A root word (gismu) of Lojban: 'x1 is a potato of variety x2'. Lojban roots are blended from the words of six large languages, and patlu takes its shape from English potato and Spanish patata. It keeps their route.
     lkt: ["bló", "bló"],  // An inherited Siouan word that historically named the wild Indian potato (groundnut) before the potato.
     chy: ["mésėhestȯtse", "mésehestotse"],  // Sounds the same as mésėhestȯtse 'food', literally 'eating thing'; some speakers say aéstomemésėhestȯtse instead.
     arp: ["ceeʼééʼ", "tʃeːʔéːʔ"],  // Plural ceeʼeiʼi; an Arapaho text uses the same word for wild potatoes dug for food, a native tuber word carried over to the potato.

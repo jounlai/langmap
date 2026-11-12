@@ -307,7 +307,7 @@ WORDS.yesterday = {
     bm: "distinct",
     hil: "distinct",
     bal: "distinct",
-    car: "unknown",
+    car: "distinct",
     chr: "distinct",
     oj: "distinct",
     kl: "distinct",
@@ -372,7 +372,7 @@ WORDS.yesterday = {
     xct: "distinct",
     xct_litpr: "distinct",
     ota: "distinct",
-    fra_jer: "unknown",
+    fra_jer: "distinct",
     lld: "distinct",
     och: "distinct",
     tue: "distinct",
@@ -504,7 +504,7 @@ WORDS.yesterday = {
     czh: "distinct",
     cpx: "distinct",
     mnw: "distinct",
-    tig: "unknown",
+    tig: "distinct",
     dje: "distinct",
     nyo: "same",
     quy: "distinct",
@@ -802,7 +802,7 @@ WORDS.yesterday = {
     yur: "distinct",
     kwk: "distinct",
     tsi: "distinct",
-    umu: "unknown",
+    umu: "distinct",
     cay: "distinct",
     fai: "same",
     kca: "distinct",
@@ -845,7 +845,7 @@ WORDS.yesterday = {
     tob: "distinct",
     kpj: "unknown",
     wba: "unknown",
-    cag: "unknown",
+    cag: "distinct",
     adt: "distinct",
     wbt: "distinct",
     dbl: "distinct",
@@ -1153,7 +1153,7 @@ WORDS.yesterday = {
     bm: ["kunun", "kunũ"],  // tomorrow: sini; kunun 'yesterday' differs only in tone from kunun 'to wake up'.
     hil: ["kahapon", "kaˈhapon"],  // tomorrow: buas; Motus (1971) writes the word kahápun.
     bal: ["زی", "ziː"],  // Romanized zí. Tomorrow is باندا bāndā.
-    car: ["koinaro", "kojɲaɾo"],  // Synchronically it looks derived from koine 'in the afternoon'.
+    car: ["koinaro", "kojɲaɾo"],  // tomorrow: kolopo; WOLD's Kali'na list has koinalo 'yesterday' against kolopo 'tomorrow'. Synchronically koinaro looks derived from koine 'in the afternoon'.
     chr: ["ᏒᎯ", "səhi"],  // tomorrow: ᏑᎾᎴᎢ; the phrase ᏒᎯ ᏑᎾᎴᎢ means 'yesterday morning'.
     oj: ["bijiinaago", "bidʒiːnaːɡo"],  // tomorrow: waabang; waabang is literally a form of the verb waaban 'it is dawn'.
     kl: ["ippassaq", "ipːasːaq"],  // tomorrow: aqagu; ippassaq goes back to Proto-Inuit *ikpakra- 'yesterday, recently'.
@@ -1218,7 +1218,7 @@ WORDS.yesterday = {
     xct: ["ཁ་སང", "kʰasaŋ"],  // tomorrow: སང་ཉིན; Old Tibetan also wrote ཁར་སང.
     xct_litpr: ["ཁ་སང", "kʰasaŋ"],  // tomorrow: སང་ཉིན.
     ota: ["دون", "dyn"],  // tomorrow: یارین (yarın); دون also meant 'the past'.
-    fra_jer: ["hièr", "jɛr"],  // from Latin herī.
+    fra_jer: ["hièr", "jɛr"],  // tomorrow: d'main, as in ch'est d'main Dînmanche 'tomorrow is Sunday', among the example phrases of Le Maistre's Dictionnaire Jersiais-Français listed on the Jèrriais site; hièr is from Latin herī.
     lld: ["inier", "iˈnjer"],  // tomorrow: doman, from Latin dē māne 'early in the morning'.
     och: ["昨", "*[dz]ˤak"],  // tomorrow: 明 *mraŋ, literally 'bright'; 昨 is related to 昔 'the past'.
     tue: ["yãbĩka", "jãˈbĩka"],  // tomorrow: yãbĩgã; both are built on yãbĩ 'night' with different suffixes.
@@ -1350,7 +1350,7 @@ WORDS.yesterday = {
     czh: ["昨日", "tsʰo˩˩ ȵie˩˩"],  // tomorrow: 明日; Tunxi keeps the old pair 昨日 and 明日, while Jixi says 頭朝 and 明朝.
     cpx: ["顶日", "tɛŋ˦˥˧ tiʔ˦"],  // tomorrow: 逢早; 顶日 literally 'the top (previous) day', and in Southern Min the same word means 'the day before yesterday'.
     mnw: ["နူကနေံတေံ", "nṳ kəneʔ teʔ"],  // tomorrow: တ္ၚဲ ယး; in Thailand the word is shortened to နူကၞေံ.
-    tig: ["ማሌ", "male"],  // Compare ማሌ-ላሊ "last night", built with ላሊ "night".
+    tig: ["ማሌ", "male"],  // tomorrow: fejr; the VCU Tigre lessons ask 'fejr ma fejr laha? male ma male laha?' (tomorrow or after tomorrow? yesterday or before yesterday?), and Feleke's Ethiosemitic list gives fǝnguħ for tomorrow. Compare ማሌ-ላሊ 'last night', built with ላሊ 'night'.
     dje: ["bi", "bi"],  // tomorrow: suba; bifo 'the day before yesterday' is built on bi.
     nyo: ["ijo", "idʒo"],  // Ijo means both 'yesterday' (Hebrews 13:8, John 4:52) and 'tomorrow' (Matthew 6:34, Luke 13:32) in the Runyoro Bible; nyenkya is also used for 'tomorrow'.
     quy: ["qayna", "ˈqajna"],  // tomorrow: paqarin; also said qayna punchaw 'the past day'.
@@ -1648,7 +1648,7 @@ WORDS.yesterday = {
     yur: ["chmeyaan", "tʃmejaːn"],  // Tomorrow is ʼowook; the related chmey means 'yesterday, late', and heechmey is the day before yesterday.
     kwk: ["ła̱nsʼwa̱ł", "ɬənsʔwəɬ"],  // Tomorrow is ła̱nstła; the two words share their first syllable, and hiʼlux̱wsuʼł is the day before yesterday.
     tsi: ["gyitsʼiipda", "ɡʲitsʼiːpda"],  // Tomorrow is dzigyitsʼiip, the same root gyitsʼiip 'day since' with a future dzi-.
-    umu: ["wŭláakwe", "wəlaːkwe"],  // Wŭláakwe is the Munsee word for yesterday, recorded in John O'Meara's Munsee Delaware dictionary.
+    umu: ["wŭláakwe", "wəlaːkwe"],  // tomorrow: waapange (Munsee, recorded by Glen Jacobs, Mukurtu Midwest dictionary); wŭláakwe is the Munsee word for yesterday, recorded in John O'Meara's Munsee Delaware dictionary.
     cay: ["té:dę:ʼ", "téːdɛ̃ːʔ"],  // Tomorrow is ęyó:hęʼ 'it will be tomorrow'; té:dę:ʼ is built on a root for 'past day', which also gives gyoté:dęhk 'the day before yesterday'.
     fai: ["amsino", "amsino"],  // tomorrow: amsino; the Faiwol New Testament uses amsino for yesterday (John 4:52, Acts 7:28) and for tomorrow (Matthew 6:34, James 4:13).
     kca: ["мо̆ԓхатәԓ", "ˈmoɬxatəɬ"],  // tomorrow: хӑԓэвәт; Acts 7:28 of the Khanty Bible reads 'хо̆ты мо̆ԓхатәԓ Египет ху веԓсэн' (as you killed the Egyptian yesterday).
@@ -1691,7 +1691,7 @@ WORDS.yesterday = {
     tob: ["ʃikait", "ʃikait"],  // Different from tomorrow, qodʒiʔoʁoɲi (IDS Toba šik-ait).
     kpj: ["kau", "kau"],  // From the IDS Karajá list. No word for tomorrow was found in the same source to compare, so whether the two are distinct is not recorded here.
     wba: ["kahe", "kahe"],  // From Johansson's sound-symbolism list (Warao), which this row's cells match; Joo's list also has kahe. No word for tomorrow was found in the same source to compare, so whether the two are distinct is not recorded here.
-    cag: ["kanʔut", "kanʔut"],  // From Johansson's sound-symbolism list (Nivaclé), which this row's cells match. No word for tomorrow was found in the same source to compare, so whether the two are distinct is not recorded here.
+    cag: ["kanʔut", "kanʔut"],  // tomorrow: ɬumʔaši; from Johansson's sound-symbolism list (Nivaclé), which this row's cells match; the IDS Nivaclé list also has kanʔut for yesterday, against ɬumʔaši for tomorrow.
     adt: ["allanga", "allaŋa"],  // Adnyamathanha allanga 'yesterday'.
     wbt: ["karrpungka", "karpuŋka"],  // Warnman karrpungka 'yesterday'.
     dbl: ["ngumbungga", "ˈŋumbuŋɡa"],  // Dyirbal ŋumbuŋga 'yesterday' (Dixon), in the row's practical spelling.

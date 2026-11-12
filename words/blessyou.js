@@ -205,6 +205,9 @@ WORDS.blessyou = {
     ja_oki: "other",
     fr_ch: "other",
     ykg: "god",
+    sr: "health",
+    hr: "health",
+    bs: "health",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"🙏","en":"God · blessing · mercy","ja":"神・祝福・慈悲","ko":"신 · 축복 · 자비","zh":"神・祝福・怜悯","yue":"神 · 祝福 · 憐憫","vi":"Chúa · phúc lành · lòng thương xót","th":"พระเจ้า · พร · ความเมตตา","id":"Tuhan · berkat · rahmat","hi":"ईश्वर · आशीर्वाद · रहम","de":"Gott · Segen · Erbarmen","fr":"Dieu · bénédiction · miséricorde","it":"Dio · benedizione · misericordia","es":"Dios · bendición · misericordia","pt":"Deus · bênção · misericórdia","ru":"Бог · благословение · милость","uk":"Бог · благословення · милість","ar":"الله · البركة · الرحمة","he":"האל · ברכה · רחמים","sw":"Mungu · baraka · rehema"},
@@ -354,5 +357,8 @@ WORDS.blessyou = {
     ja_oki: ["糞くぇー", "kusukʷeː"],  // Said when someone sneezes: literally 'eat shit' (kusu 'feces' + kwee, imperative of 'to eat'), to curse away evil spirits.
     fr_ch: ["à tes souhaits", "a te swɛ"],  // Same expression as standard French (as in the fr_be and fr_lu rows).
     ykg: ["буостэвэй", "buostewej"],  // From Russian бог с тобой 'God be with you'.
+    sr: ["на здравље", "na zdrâːʋʎe"],  // Literally 'to health'; also written наздравље.
+    hr: ["na zdravlje", "na zdrâːʋʎe"],  // Literally 'to health'; also written nazdravlje.
+    bs: ["na zdravlje", "na zdraːʋʎe"],  // Literally 'to health'; also written nazdravlje.
   },
 };

@@ -306,6 +306,8 @@ WORDS.earthquake = {
     es_ec: "earth",
     es_uy: "earth",
     es_ve: "earth",
+    hr: "shake",
+    bs: "earth",
   },
   routes: {
     earth: {"color":"#b45309","emoji":"🌍","en":"earth + shaking (Erdbeben, terremoto, भूकंप, 地震)","ja":"大地＋揺れ (Erdbeben, terremoto, भूकंप, 地震)","ko":"땅 + 흔들림 (Erdbeben, terremoto, भूकंप, 地震)","zh":"地 + 震 (Erdbeben, terremoto, भूकंप, 地震)","yue":"地 + 震 (Erdbeben, terremoto, भूकंप, 地震)","vi":"đất + rung (Erdbeben, terremoto, भूकंप, 地震)","th":"ดิน + สั่น (Erdbeben, terremoto, भूकंप, 地震)","id":"bumi + guncang (Erdbeben, terremoto, भूकंप, 地震)","hi":"धरती + कंपन (Erdbeben, terremoto, भूकंप, 地震)","de":"Erde + Beben (Erdbeben, terremoto, भूकंप, 地震)","fr":"terre + tremblement (Erdbeben, terremoto, भूकंप, 地震)","it":"terra + tremore (Erdbeben, terremoto, भूकंप, 地震)","es":"tierra + temblor (Erdbeben, terremoto, भूकंप, 地震)","pt":"terra + tremor (Erdbeben, terremoto, भूकंप, 地震)","ru":"земля + тряска (Erdbeben, terremoto, भूकंप, 地震)","uk":"земля + трус (Erdbeben, terremoto, भूकंप, 地震)","ar":"أرض + اهتزاز (Erdbeben, terremoto, भूकंप, 地震)","he":"אדמה + רעד (Erdbeben, terremoto, भूकंप, 地震)","sw":"ardhi + tikisa (Erdbeben, terremoto, भूकंप, 地震)"},
@@ -429,7 +431,7 @@ WORDS.earthquake = {
     sl: ["potres", "ˈpɔtrɛs"],  // A word for shaking, with no earth in it.
     so: ["dhulgariir", "ɖulɡariːr"],  // Built on the word for earth or land.
     sq: ["tërmet", "təɾˈmet"],  // Built on the word for earth or land.
-    sr: ["земљотрес", "zɛmʎɔtrɛs"],  // Built on the word for earth or land.
+    sr: ["земљотрес", "zêmʎotreːs"],  // Built on the word for earth or land.
     sv: ["jordbävning", "ˈjuːɖbɛːvnɪŋ"],  // Built on the word for earth or land.
     sw: ["tetemeko la ardhi", "teteˈmeko la ˈarði"],  // Literally 'tremor of the earth'; the Arabic loan zilizala also exists.
     syc: ["ܪܥܠܐ", "rɛʕlɑ"],
@@ -555,5 +557,7 @@ WORDS.earthquake = {
     es_ec: ["terremoto", "tereˈmoto"],
     es_uy: ["terremoto", "tereˈmoto"],
     es_ve: ["terremoto", "tereˈmoto"],
+    hr: ["potres", "pǒtres"],  // A word for shaking, with no earth in it; zemljotres is the usual word in Serbian and Bosnian.
+    bs: ["zemljotres", "ˈzemʎotreːs"],  // Built on the word for earth or land (zemlja + tresti 'shake'); Croatian says potres.
   },
 };

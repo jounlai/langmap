@@ -423,6 +423,8 @@ WORDS.paper = {
     fr_ch: "papyrus",
     ko_hg: "plain",
     ko_jl: "plain",
+    sr: "papyrus",
+    bs: "papyrus",
   },
   routes: {
     papyrus: {"color":"#2563eb","emoji":"📜","en":"from Latin papyrus (papier, papel, Papier)","ja":"ラテン語 papyrus から（papier, papel, Papier）","ko":"라틴어 papyrus에서 (papier, papel, Papier)","zh":"源自拉丁语 papyrus（papier, papel, Papier）","yue":"源自拉丁文 papyrus（papier, papel, Papier）","vi":"từ tiếng Latinh papyrus (papier, papel, Papier)","th":"จากภาษาละติน papyrus (papier, papel, Papier)","id":"dari bahasa Latin papyrus (papier, papel, Papier)","hi":"लातिन papyrus से (papier, papel, Papier)","de":"aus lateinisch papyrus (papier, papel, Papier)","fr":"du latin papyrus (papier, papel, Papier)","it":"dal latino papyrus (papier, papel, Papier)","es":"del latín papyrus (papier, papel, Papier)","pt":"do latim papyrus (papier, papel, Papier)","ru":"из латинского papyrus (papier, papel, Papier)","uk":"з латинського papyrus (papier, papel, Papier)","ar":"من اللاتينية papyrus (papier, papel, Papier)","he":"מ-papyrus הלטינית (papier, papel, Papier)","sw":"kutoka Kilatini papyrus (papier, papel, Papier)"},
@@ -477,7 +479,7 @@ WORDS.paper = {
     gv: ["pabyr", "ˈpabər"],  // Route by resemblance to the neighbouring forms (br,kw,sv); no etymology of its own.
     ha: ["takarda", "takarda"],
     he: ["נייר", "neˈjaʁ"],
-    hr: ["papir", "papir"],
+    hr: ["papir", "pǎpiːr"],
     ht: ["papye", "papje"],
     ia: ["papiro", "paˈpiro"],
     inh: ["каьхат", "kæxat"],  // Route by resemblance to the neighbouring forms (ddo,av,rut); no etymology of its own.
@@ -786,5 +788,7 @@ WORDS.paper = {
     fr_ch: ["papier", "papje"],
     ko_hg: ["종이", "tɕoŋi"],
     ko_jl: ["종이", "tɕoŋi"],
+    sr: ["папир", "pǎpiːr"],  // Borrowed from German Papier.
+    bs: ["papir", "ˈpapiːr"],  // Borrowed from German Papier.
   },
 };

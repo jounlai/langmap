@@ -168,6 +168,8 @@ const MIXED_OK = {
   ja_hir: "Hiroshima Japanese: 1 Latin among the Han/kana row — the Wi-Fi loan, written \"Wi-Fi\" as in Japanese text (read ワイファイ); added 2026-10-03 for dialect parity with ja.",
   ja_kg: "Kagoshima Japanese: 1 Latin among the Han/kana row — the Wi-Fi loan, written \"Wi-Fi\" as in Japanese text (read ワイファイ); added 2026-10-03 for dialect parity with ja.",
   ja_sd: "Sendai Japanese: 1 Latin among the Han/kana row — the Wi-Fi loan, written \"Wi-Fi\" as in Japanese text (read ワイファイ); added 2026-10-03 for dialect parity with ja.",
+  ko: "Korean: USB 메모리 (usbstick, 2026-11-12) keeps the letters USB in Latin, as Korean text writes it (read 유에스비).",
+  wuu: "Shanghainese: U盘 (usbstick, 2026-11-12), the Mandarin word with the Latin letter U, as written in Chinese text.",
   zh_tw: "Taiwan Mandarin: 1 Latin among the Han row — the Wi-Fi loan, written in Latin in Chinese text (read wāi-fài), as zh.",
   el: "Greek: 1 Latin among the Greek row — Wi-Fi, usually written in Latin in Greek text (read γουάι-φάι).",
   be: "Belarusian: 1 Latin among the Cyrillic row — Wi-Fi, usually written in Latin, as in Russian (read вайфай).",

@@ -44,7 +44,7 @@ const WORD_CATEGORIES = [
         label: {
             en: "Body & feeling", ja: "からだと心", ko: "몸과 마음", zh: "身体与情感", yue: "身體同感情", vi: "Cơ thể và cảm xúc", th: "ร่างกายและความรู้สึก", id: "Tubuh & perasaan", hi: "शरीर और भाव", de: "Körper & Gefühl", fr: "Corps et sentiment", it: "Corpo e sentimento", es: "Cuerpo y sentimiento", pt: "Corpo e sentimento", ru: "Тело и чувства", uk: "Тіло і почуття", ar: "الجسد والشعور", he: "גוף ורגש", sw: "Mwili na hisia"
         },
-        words: ["head", "eye", "tear", "ear", "nose", "mouth", "tooth", "tongue", "language", "hand", "right", "left", "thumb", "littlefinger", "foot", "heart", "bone", "blood", "poop", "love", "kiss", "wisdomtooth", "goosebumps", "adamsapple", "hangover", "dopamine"],
+        words: ["head", "eye", "tear", "ear", "nose", "mouth", "tooth", "tongue", "language", "hand", "right", "left", "thumb", "littlefinger", "foot", "heart", "bone", "blood", "poop", "love", "kiss", "wisdomtooth", "goosebumps", "adamsapple", "hangover", "jetlag", "dopamine"],
     },
     {
         key: "nature",
@@ -58,14 +58,14 @@ const WORD_CATEGORIES = [
         label: {
             en: "Home, food & drink", ja: "家と食べもの", ko: "집과 먹거리", zh: "家与饮食", yue: "屋企同飲食", vi: "Nhà cửa và ăn uống", th: "บ้านและอาหาร", id: "Rumah, makanan & minuman", hi: "घर और खान-पान", de: "Haus, Essen & Trinken", fr: "Maison, nourriture et boisson", it: "Casa, cibo e bevande", es: "Casa, comida y bebida", pt: "Casa, comida e bebida", ru: "Дом, еда и питьё", uk: "Дім, їжа і напої", ar: "البيت والطعام والشراب", he: "בית, מאכל ומשקה", sw: "Nyumba, chakula na kinywaji"
         },
-        words: ["house", "window", "mirror", "milk", "cheese", "butter", "honey", "salt", "soap", "wine", "rice", "bread", "chocolate", "sushi", "tea", "coffee", "tobacco", "sugar", "orange", "potato", "tomato", "chili", "maize", "pineapple"],
+        words: ["house", "window", "mirror", "milk", "cheese", "butter", "honey", "salt", "soap", "wine", "rice", "bread", "chocolate", "sushi", "tea", "bubbletea", "coffee", "tobacco", "sugar", "cottoncandy", "orange", "potato", "tomato", "chili", "maize", "pineapple"],
     },
     {
         key: "made",
         label: {
             en: "Things people made", ja: "人のつくったもの", ko: "사람이 만든 것", zh: "人造之物", yue: "人整嘅嘢", vi: "Đồ người làm ra", th: "สิ่งที่มนุษย์สร้าง", id: "Buatan manusia", hi: "मानव-निर्मित वस्तुएँ", de: "Von Menschen Gemachtes", fr: "Objets fabriqués", it: "Cose fatte dall'uomo", es: "Cosas hechas por el hombre", pt: "Coisas feitas pelo homem", ru: "Сделанное людьми", uk: "Зроблене людьми", ar: "مصنوعات البشر", he: "דברים מעשה ידי אדם", sw: "Vitu vilivyotengenezwa"
         },
-        words: ["iron", "gold", "wheel", "silk", "cotton", "money", "book", "paper", "computer", "wifi", "mobilephone", "atsign"],
+        words: ["iron", "gold", "wheel", "silk", "cotton", "money", "book", "paper", "computer", "usbstick", "wifi", "mobilephone", "atsign"],
     },
     {
         key: "actions",

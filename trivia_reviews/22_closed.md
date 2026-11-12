@@ -6,3 +6,7 @@ finger names' "ancestor"; "Three more do not…"; routes that "see"), ja 10, ko 
 fr 29, it 18, es 27, pt 15, ru 20, uk 19, ar 13, he 18 — route names now the map legend's labels.
 Map labels changed for natural wording: fr jet-lag route « écart horaire », sw bubble-tea "mipira midogo" (vidonge = pills), id USB
 "batang", it "connettore"; yue legend text 細波波 → 小球 (beside 波霸 it read as a breast joke).
+
+Round 2: en 5 (teahouse dates paired one by one; jetlag "biggest" of three routes, "second route"; later the route, not a name,
+is the biggest, and the condition is "named after the time difference"), ja 8, ko 3, zh 6, yue 10, vi 9, th 7, id 11, hi 7, sw 7,
+de 9, fr 18, it 10, es 8, pt 8, ru 6, uk 6, ar 5, he 5. Legend: zh/yue USB stick route 棍子/棍 (a club) → 棒.

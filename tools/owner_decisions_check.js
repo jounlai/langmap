@@ -113,7 +113,7 @@ const DECISIONS = [
     },
     {
         id: 'owner-pinned-cells',
-        what: 'Cells the owner ruled on stay as ruled: es_pr mai̯/pai̯ (dialect feature), vi_c/vi_s r = ɹ not ʐ (2026-08-31, c9d451e8), English "fire" has no ˈ (2026-07-21, 02846461), India hyw/inh persian and Germany ee/lg/kbp germania by sound (2026-11-12)',
+        what: 'Cells the owner ruled on stay as ruled: es_pr mai̯/pai̯ (dialect feature), vi_c/vi_s r = ɹ not ʐ (2026-08-31, c9d451e8), English "fire" has no ˈ (2026-07-21, 02846461), India hyw/inh persian and Germany ee/lg/kbp germania by sound (2026-11-12), Thai wisdom tooth ฟันคุด, the everyday word (Thai reader 2026-11-13)',
         check: () => {
             const bad = [];
             if (!/es_pr: \["madre", "mai̯"\]/.test(read('words/mother.js'))) bad.push('words/mother.js es_pr');
@@ -123,6 +123,8 @@ const DECISIONS = [
                 if (/^\s*["']?vi_[cs]["']?\s*:\s*\[[^\]]*ʐ/m.test(read('words/' + f))) bad.push('words/' + f + ' vi_c/vi_s ʐ');
             }
             if (/["']?en(_[a-z0-9]+)?["']?\s*:\s*\[\s*"fire",\s*"ˈ/.test(read('words/fire.js'))) bad.push('words/fire.js stress');
+            // Thai wisdom tooth (Thai reader via the owner, 2026-11-13): ฟันคุด is the everyday word; ฟันกรามซี่สุดท้าย is not said.
+            { const t = read('words/wisdomtooth.js'); if (!/^    th: \["ฟันคุด", /m.test(t) || !/^    th: "ฟันคุด",$/m.test(t)) bad.push('words/wisdomtooth.js th ≠ ฟันคุด'); }
             // Routes by sound (owner 2026-11-12): India hyw/inh on the Persian route; Germany ee/lg/kbp from Germania.
             const fam = (w, c) => (read('words/' + w + '.js').match(new RegExp('^    ' + c + ': "([a-z_]+)",$', 'm')) || [])[1];
             for (const [w, c, r] of [['india', 'hyw', 'persian'], ['india', 'inh', 'persian'], ['germany', 'ee', 'germania'], ['germany', 'lg', 'germania'], ['germany', 'kbp', 'germania']])
@@ -230,7 +232,7 @@ const DECISIONS = [
             // 2026-11-09: maize 68 → 69 — Wiktionary gap fill pass 2b (review 676): new parent cells expose dtp_kzj; no variety-level source yet.
             // 2026-11-09: soap 82 → 83 — Wiktionary gap fill pass 2b (review 676): new parent cells expose jvn; no variety-level source yet.
             // 2026-11-09: week 63 → 65 — Wiktionary gap fill pass 2b (review 676): new parent cells expose wae gsw_w gsw_als lij_t; no variety-level source yet.
-            // 2026-11-13: wisdomtooth 54 → 57 — the new th ฟันกรามซี่สุดท้าย cell (native report: ฟันคุด is 'impacted tooth') exposes th_isan, th_n, th_s; no variety-level source.
+            // 2026-11-13: wisdomtooth 54 → 57 — the new th ฟันคุด cell exposes th_isan, th_n, th_s; no variety-level source.
             // 2026-11-13: kiss 27 → 50 — the new zh 吻, yue 吻 and th การจูบ cells (site-language gaps, review 725) expose 20 Sinitic variety rows and th_isan, th_n, th_s; no variety-level source for the noun.
             // 2026-11-13: jetlag 40 → 53 — the new ar, th, it, uk, id cells (review 725) expose the Arabic dialect rows, th_isan/th_n/th_s and it_dan; no variety-level source (vi_c and vi_s filled by the dialect rules).
             // 2026-11-13: bubbletea 99 → 109 — the new ar, it, uk cells (review 725) expose the Arabic dialect rows and it_dan; no variety-level source.

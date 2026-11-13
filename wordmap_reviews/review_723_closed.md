@@ -13,3 +13,10 @@
 - Parity budget wisdomtooth 54 → 57: th_isan, th_n, th_s have no variety-level source.
 
 No native has checked the new Thai wording beyond the reader's definition.
+
+## Reversed the same day (owner relays a second Thai reader, 12:42)
+"No, it should be ฟันคุด. No one uses ฟันกรามซี่สุดท้าย. I know Chinese and 智齿 refers to ฟันคุด definitely."
+The first report was a definition of ฟันคุด, not a request to replace it; I read it as a correction. Restored: label, Thai
+definition, trivia title/body/button = ฟันคุด. The th cell stays, now ["ฟันคุด", "fan˧kʰut˦˥"], route other ('stunted
+tooth'), note: everyday name; strictly any impacted tooth; ฟันกรามซี่สุดท้าย is descriptive and not said. Pinned in
+tools/owner_decisions_check.js owner-pinned-cells.

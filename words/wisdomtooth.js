@@ -21,7 +21,7 @@ WORDS.wisdomtooth = {
     zh: "智齿",
     yue: "智慧齒",
     vi: "Răng khôn",
-    th: "ฟันกรามซี่สุดท้าย",
+    th: "ฟันคุด",
     id: "Gigi bungsu",
     hi: "अक़्ल दाढ़",
     de: "Weisheitszahn",
@@ -46,7 +46,7 @@ WORDS.wisdomtooth = {
     zh: "智齿——二十岁左右长出的第三颗大臼齿。多数语言说它带来智慧（wisdom tooth、Weisheitszahn、dent de sagesse、ضرس العقل、智齿、印地语 अक़्ल दाढ़）。也有语言把它和年龄联系起来，还有完全不同的说法：日语 親知らず 是\"父母不知道\"，因为它在孩子长大离家后才长出；韩语 사랑니 是\"爱情牙\"，因为它在初恋的年纪长出。",
     yue: "智慧齒——二十歲左右先生出嚟嘅第三隻大牙。大部分語言話佢帶嚟智慧（wisdom tooth、Weisheitszahn、dent de sagesse、ضرس العقل、智齒、印地文 अक़्ल दाढ़）。亦有語言同年紀連埋，仲有完全唔同嘅講法：日文 親知らず 係「父母唔知」，因為佢喺仔女大咗離家之後先生；韓文 사랑니 係「愛情牙」，因為佢喺初戀嘅年紀生出嚟。",
     vi: "Răng khôn — chiếc răng hàm thứ ba, mọc vào khoảng tuổi hai mươi. Phần lớn ngôn ngữ nói nó mang lại sự khôn ngoan (wisdom tooth, Weisheitszahn, dent de sagesse, ضرس العقل, 智齿, tiếng Việt răng khôn). Có ngôn ngữ gắn với tuổi tác, và có cách gọi khác hẳn: tiếng Nhật 親知らず \"cha mẹ không biết\", vì nó mọc khi con đã trưởng thành rời nhà; tiếng Hàn 사랑니 \"răng tình yêu\", vì nó mọc vào tuổi mối tình đầu.",
-    th: "ฟันกรามซี่สุดท้าย — ฟันกรามซี่ที่สามที่ขึ้นราวอายุยี่สิบ ภาษาส่วนใหญ่บอกว่ามันนำปัญญามาด้วย (wisdom tooth, Weisheitszahn, dent de sagesse, ضرس العقل, 智齿) บางภาษาผูกกับวัย และบางภาษามองต่างไปเลย ญี่ปุ่น 親知らず \"พ่อแม่ไม่รู้\" เพราะขึ้นหลังลูกโตออกจากบ้านแล้ว เกาหลี 사랑니 \"ฟันแห่งความรัก\" เพราะขึ้นในวัยรักแรก",
+    th: "ฟันคุด — ฟันกรามซี่ที่สามที่ขึ้นราวอายุยี่สิบ ภาษาส่วนใหญ่บอกว่ามันนำปัญญามาด้วย (wisdom tooth, Weisheitszahn, dent de sagesse, ضرس العقل, 智齿) บางภาษาผูกกับวัย และบางภาษามองต่างไปเลย ญี่ปุ่น 親知らず \"พ่อแม่ไม่รู้\" เพราะขึ้นหลังลูกโตออกจากบ้านแล้ว เกาหลี 사랑니 \"ฟันแห่งความรัก\" เพราะขึ้นในวัยรักแรก",
     id: "Gigi bungsu — geraham ketiga yang tumbuh sekitar usia dua puluh. Kebanyakan bahasa menyebutnya gigi yang membawa kebijaksanaan (wisdom tooth, Weisheitszahn, dent de sagesse, ضرس العقل, 智齿). Ada yang mengaitkannya dengan usia, seperti Indonesia gigi bungsu \"gigi si bungsu\", dan ada yang lain sama sekali: Jepang 親知らず \"orang tua tidak tahu\", karena tumbuh setelah anak dewasa, dan Korea 사랑니 \"gigi cinta\", karena tumbuh di usia cinta pertama.",
     hi: "अक़्ल दाढ़ — तीसरी दाढ़, जो लगभग बीस की उम्र में निकलती है। ज़्यादातर भाषाएँ कहती हैं कि यह बुद्धि लाती है (wisdom tooth, Weisheitszahn, dent de sagesse, ضرس العقل, 智齿, हिन्दी अक़्ल दाढ़)। कुछ इसे उम्र से जोड़ती हैं, और कुछ बिल्कुल अलग: जापानी 親知らず \"माता-पिता को पता नहीं\", क्योंकि यह बच्चे के बड़े होकर घर छोड़ने के बाद आती है, और कोरियाई 사랑니 \"प्रेम का दाँत\", क्योंकि यह पहले प्यार की उम्र में आती है।",
     de: "Weisheitszahn — der dritte Backenzahn, der um das zwanzigste Jahr durchbricht. Die meisten Sprachen sagen, er bringe Weisheit (wisdom tooth, Weisheitszahn, dent de sagesse, ضرس العقل, 智齿). Andere verbinden ihn mit dem Alter, manche mit etwas ganz anderem: japanisch 親知らず „die Eltern wissen es nicht“, weil er erst kommt, wenn das Kind aus dem Haus ist, und koreanisch 사랑니 „Liebeszahn“, weil er im Alter der ersten Liebe kommt.",
@@ -73,7 +73,7 @@ WORDS.wisdomtooth = {
     zh_cd: "age",
     zh_nj: "age",
     vi: "wisdom",
-    th: "age",
+    th: "other",
     id: "age",
     ms: "age",
     de: "wisdom",
@@ -273,7 +273,7 @@ WORDS.wisdomtooth = {
     zh_cd: ["尽头牙", "tɕin˨˩˧ tʰəu˨˩ ia˨˩"],  // Literally 'the tooth at the end' (of the row); Chengdu also uses 智齿 'wisdom tooth'.
     zh_nj: ["尽根牙", "tɕiŋ˦ kəŋ˧˩ ia˨˦"],  // Literally 'the tooth at the very root/end' of the row, a positional name.
     vi: ["răng khôn", "zaŋ˧ xon˧"],  // Literally 'clever tooth'.
-    th: ["ฟันกรามซี่สุดท้าย", "fan˧kraːm˧siː˥˩sut˨˩tʰaːj˦˥"],  // Literally 'the last molar', the name Wiktionary and Thai Wikipedia give. The everyday ฟันคุด means an impacted tooth, any tooth that cannot come through (คุด 'stunted'), not the wisdom tooth itself.
+    th: ["ฟันคุด", "fan˧kʰut˦˥"],  // Literally 'stunted tooth': คุด is to stay shrunk and fail to grow out, because the wisdom tooth so often stays impacted. In the strict dental sense ฟันคุด is any impacted tooth (Thai Wikipedia), but it is the everyday Thai name for the wisdom tooth; the descriptive ฟันกรามซี่สุดท้าย 'the last molar' (Wiktionary) is not what people say.
     id: ["gigi bungsu", "ɡiɡi buŋsu"],  // Literally 'youngest tooth', the last-born of the teeth.
     ms: ["gigi bongsu", "ɡiɡi boŋsu"],  // Literally 'youngest tooth', the last-born of the teeth.
     de: ["Weisheitszahn", "ˈvaɪ̯shaɪ̯tstsaːn"],  // Literally 'wisdom tooth', a calque of Latin dens sapientiae, itself from Greek sōphronistēres.

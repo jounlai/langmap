@@ -69,7 +69,7 @@ WORDS.wisdomtooth = {
     ko: "other",
     zh: "wisdom",
     yue: "wisdom",
-    nan: "wisdom",
+    nan: "age",
     zh_cd: "age",
     zh_nj: "age",
     vi: "wisdom",
@@ -257,6 +257,7 @@ WORDS.wisdomtooth = {
     kw: "other",
     an: "other",
     sw: "age",
+    cdo: "other",
   },
   routes: {
     wisdom: {"color":"#7c3aed","emoji":"🦉","en":"wisdom · sense","ja":"知恵・分別","ko":"지혜 · 분별","zh":"智慧・理智","yue":"智慧 · 理智","vi":"trí khôn · sự hiểu biết","th":"ปัญญา · ความรู้คิด","id":"kebijaksanaan · akal","hi":"बुद्धि · अक़्ल","de":"Weisheit · Verstand","fr":"sagesse · raison","it":"saggezza · giudizio","es":"sabiduría · juicio","pt":"sabedoria · siso","ru":"мудрость · разум","uk":"мудрість · розум","ar":"الحكمة · العقل","he":"חוכמה · בינה","sw":"busara · akili"},
@@ -269,7 +270,7 @@ WORDS.wisdomtooth = {
     ko: ["사랑니", "saɾaŋni"],  // Literally 'love tooth', said to come in at the age of first love; Wiktionary notes it may originally be 'flesh-inside tooth'.
     zh: ["智齿", "ʈʂɨ˥˩ ʈʂʰɨ˨˩˦"],  // Literally 'wisdom tooth'; the Book of Northern Qi tells of a physician flattering an emperor that 智牙 'wisdom teeth' mean a wise, long life.
     yue: ["智慧齒", "tsiː˧ wɐi˨ tsʰiː˧˥"],  // Literally 'wisdom tooth' (智慧 'wisdom' + 齒 'tooth'); also read zi3 wai3 ci2.
-    nan: ["智齒", "ti˩˩ kʰi˥˧"],  // Literally 'wisdom tooth'; Tainan also calls it 後層 āu-chan, the back molar.
+    nan: ["後齻", "au˧˧ tsan˦˦"],  // Literally 'back molar', a positional name like the 'tooth at the end' of Mandarin and Wu dialects; 後齻齒 āu-tsan-khí adds 齒 'tooth'. Taiwan's Ministry of Education dictionary gives 後齻 for the molars in general and for the wisdom tooth, and a Taiwanese reader gave it as the word (Wiktionary writes it 後層). 智齒 tì-khí is also used.
     zh_cd: ["尽头牙", "tɕin˨˩˧ tʰəu˨˩ ia˨˩"],  // Literally 'the tooth at the end' (of the row); Chengdu also uses 智齿 'wisdom tooth'.
     zh_nj: ["尽根牙", "tɕiŋ˦ kəŋ˧˩ ia˨˦"],  // Literally 'the tooth at the very root/end' of the row, a positional name.
     vi: ["răng khôn", "zaŋ˧ xon˧"],  // Literally 'clever tooth'.
@@ -457,5 +458,6 @@ WORDS.wisdomtooth = {
     kw: ["dans keyn", "danz kɛɪn"],  // Dans 'tooth' + keyn 'back': the back tooth.
     an: ["caixal abellaner", "kaʃal abeʎaˈne"],  // The 'hazelnut molar': caixal 'molar' plus abellaner, from abellana 'hazelnut'.
     sw: ["gego la mwisho", "ɡeɡo la mwiʃo"],  // Literally 'the last molar' (gego 'molar').
+    cdo: ["添子牙", "tʰieŋ˥˥ tsi˧˧ ŋa˥˧"],  // Written 添子 'add a child' + 牙 'tooth'. Word from a Fuzhou dialect dictionary (thieŋ¹ tsi³ ŋa² '智齿'), sent by a reader; readings from MCPDict 福州 (子 in its colloquial tsi) in the row's tone values.
   },
 };

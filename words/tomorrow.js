@@ -340,10 +340,10 @@ WORDS.tomorrow = {
     pis: "morning",
     hwc: "morning",
     se: "unknown",
-    sma: "unknown",
+    sma: "morning",
     smn: "unknown",
-    sms: "unknown",
-    sjd: "unknown",
+    sms: "morning",
+    sjd: "morning",
     gn: "morning",
     chr: "morning",
     as: "same",
@@ -420,8 +420,8 @@ WORDS.tomorrow = {
     lol: "same",
     lg: "same",
     cbk: "morning",
-    hil: "unknown",
-    war: "unknown",
+    hil: "plain",
+    war: "plain",
     bik: "morning",
     bal: "morning",
     ak: "plain",
@@ -458,7 +458,7 @@ WORDS.tomorrow = {
     luo: "plain",
     saq: "plain",
     aa: "plain",
-    kok: "unknown",
+    kok: "morning",
     ks: "unknown",
     ace: "plain",
     dz: "morning",
@@ -937,7 +937,7 @@ WORDS.tomorrow = {
     kjj: "plain",
     abe: "plain",
     enf: "plain",
-    smj: "plain",
+    smj: "morning",
     itl: "plain",
     ckt: "plain",
     bsk: "plain",
@@ -1230,10 +1230,10 @@ WORDS.tomorrow = {
     pis: ["tumoro", "tumoro"],  // From English tomorrow, itself from Old English tō morgne 'on the morning' (Wiktionary).
     hwc: ["tomorra", "təmɑɹə"],  // From English tomorrow, itself from Old English tō morgne 'on the morning' (Wiktionary).
     se: ["ihttin", "ˈihːtiːn"],  // Ihttin is the Northern Sámi word for 'tomorrow'; Wiktionary gives no etymology.
-    sma: ["jirreden", "ˈjirːɛdɛn"],  // Jirreden is the Southern Sámi word for 'tomorrow' (Giellatekno dictionary; NorthEuraLex).
+    sma: ["jirreden", "ˈjirːɛdɛn"],  // Jirreden is the Southern Sámi word for 'tomorrow' (Giellatekno dictionary; NorthEuraLex). It is built on jirrede 'morning' (Wiktionary), from Proto-Sami *iδēntē 'morning', the word that became 'tomorrow' itself in Skolt (jâđđa) and Kildin (ента).
     smn: ["itten", "ˈitːen"],  // Itten is the Inari Sámi word for 'tomorrow' (Giellatekno dictionary; NorthEuraLex).
-    sms: ["jâđđa", "ˈjɐðːɒ"],  // Jâđđa is the Skolt Sámi word for 'tomorrow' (Giellatekno dictionary; NorthEuraLex).
-    sjd: ["янта", "janta"],  // Янта is the Kildin Sámi word for 'tomorrow' (Kuruch 1985; NorthEuraLex).
+    sms: ["jâđđa", "ˈjɐðːɒ"],  // Jâđđa is the Skolt Sámi word for 'tomorrow' (Giellatekno dictionary; NorthEuraLex). Wiktionary derives it from Proto-Sami *iδēntē 'morning', the source of Northern Sámi iđit 'morning'; Skolt now uses other words for the morning itself.
+    sjd: ["янта", "janta"],  // Янта (also ента) is the Kildin Sámi word for 'tomorrow' (Kuruch 1985; NorthEuraLex). Wiktionary derives it from Proto-Sami *iδēntē 'morning', with Northern Sámi iđit 'morning' and Skolt jâđđa as cognates.
     gn: ["koʼẽrõ", "koʔẽɾõ"],  // Ko'ẽrõ is built on ko'ẽ 'dawn, morning' (Wiktionary).
     chr: ["ᏑᎾᎴᎢ", "sunaːleːʔi"],  // ᏑᎾᎴᎢ sunalei means both 'morning' and 'tomorrow' (Cherokee-English Dictionary; Dictionary of Semantic Shifts).
     as: ["কালি", "kali"],  // The same word means 'yesterday'; অহাকালি 'the coming kali' makes 'tomorrow' explicit (Wiktionary).
@@ -1310,8 +1310,8 @@ WORDS.tomorrow = {
     lol: ["lobi", "lobi"],  // One word for both tomorrow and yesterday, as in Lingala lobi.
     lg: ["jjo", "ɟːo"],  // One word for both yesterday and tomorrow; Pilkington (1892) says context decides.
     cbk: ["mañana", "maˈɲana"],  // From Spanish mañana, ultimately Latin māne 'morning'.
-    hil: ["buas", "buˈas"],  // Buás is the Hiligaynon word, cognate of Waray buwás.
-    war: ["buwas", "buˈas"],  // Buwás is the Waray word, cognate of Hiligaynon buás.
+    hil: ["buas", "buˈas"],  // Buás is the Hiligaynon word, cognate of Waray buwás; both continue Proto-Philippine *buás 'tomorrow' (Blust's Austronesian Comparative Dictionary, which also lists Aklanon buás and Pangasinan buás 'morrow'). No image is recorded for it, so it counts as a word of its own.
+    war: ["buwas", "buˈas"],  // Buwás is the Waray word, cognate of Hiligaynon buás, which the Austronesian Comparative Dictionary sets under Proto-Philippine *buás 'tomorrow'. No image is recorded for it, so it counts as a word of its own.
     bik: ["sa aga", "sa ˈʔaɡa"],  // Literally 'in the morning': aga means 'morning'.
     bal: ["باندا", "baːndaː"],  // Bāndā is the Balochi word for tomorrow; Wiktionary compares Balochi bāndāt "tomorrow" with Persian bāmdād "dawn, morning", from Middle Persian bāmdād.
     ak: ["ɔkyena", "ɔtɕena"],  // Ɔkyena is the Twi word for tomorrow. No image is recorded for it, so it counts as a word of its own.
@@ -1348,7 +1348,7 @@ WORDS.tomorrow = {
     luo: ["kiny", "kiɲ"],  // Kiny is the Dholuo word for tomorrow. No image is recorded for it, so it counts as a word of its own.
     saq: ["teisiere", "teisiere"],  // Teisiere is the Samburu word for tomorrow. No image is recorded for it, so it counts as a word of its own.
     aa: ["beera", "beːra"],  // Related to Somali berri, Oromo boruu and Saho béera 'tomorrow' (Wiktionary, whose Afar entry glosses beera only 'tomorrow'). No image is recorded for it, so it counts as a word of its own.
-    kok: ["फाल्यां", "faːljãː"],  // फाल्यां is the Konkani word; unlike Hindi कल it does not also mean yesterday.
+    kok: ["फाल्यां", "faːljãː"],  // फाल्यां is the Konkani word; unlike Hindi कल it does not also mean yesterday. Dalgado's Konkani–Portuguese dictionary (1893) lists it as phâlyâ 'tomorrow' beside phâlem 'morning' (ph. jâvumka 'to dawn'), with the same -em to -yâ change as phâmtem 'dawn', phâmtyâra 'at dawn': tomorrow is built on the morning word, as Finnish huomenna is on huomen.
     ks: ["پَگاہ", "paɡaːh"],  // Either from Persian pagāh 'dawn' or from Sanskrit 'the day in front'; the origin is disputed (Wiktionary).
     ace: ["singoh", "siŋɔh"],  // Singoh is the Acehnese word; singoh beungöh is 'tomorrow morning'. No image is recorded for it, so it counts as a word of its own.
     dz: ["ནངས་པ", "naːpa"],  // ནངས་པ is the Dzongkha word for tomorrow. Built on Tibetan nangs 'daybreak, morning', as in nangs par 'the next morning'.
@@ -1826,11 +1826,11 @@ WORDS.tomorrow = {
     khv: ["гъваде", "ʁʷade"],  // IDS Khwarshi, the row's list. Palochka and IPA from the row's pairs.
     kjj: ["пага", "pʰaɡa"],  // IDS Khinalug, the row's list. Beside ппогочу. Palochka and IPA from the row's pairs.
     abe: ["saba", "saba"],  // Laurent p.20: "Saba. To-morrow."
-    enf: ["cheta", "tʃʲɛta"],  // NorthEuraLex Forest Enets, the list this row matches. Tie bars removed and spaces restored, as the row. Latin spelling follows the row's pairs; the list prints Cyrillic.
-    smj: ["idet", "ˈidɛt"],  // NorthEuraLex Lule Sami, the list this row matches. Tie bars removed and spaces restored, as the row.
-    itl: ["азоск", "azosk"],  // NorthEuraLex Itelmen, the list this row matches. Tie bars removed and spaces restored, as the row.
-    ckt: ["эргатык", "eɹɣatək"],  // NorthEuraLex Chukchi, the list this row matches. Tie bars removed and spaces restored, as the row.
-    bsk: ["jímale", "ˈdʑimalʉ"],  // NorthEuraLex Burushaski, the list this row matches. Tie bars removed and spaces restored, as the row.
+    enf: ["cheta", "tʃʲɛta"],  // NorthEuraLex Forest Enets, the list this row matches. Latin spelling follows the row's pairs; the list prints Cyrillic.
+    smj: ["idet", "ˈidɛt"],  // Idet is also the Lule Sami word for 'morning' (Wiktionary, from Proto-Sami *iδēntē 'morning'), and NorthEuraLex Lule Sami, the list this row matches, gives idet for both 'morning' and 'tomorrow'.
+    itl: ["азоск", "azosk"],  // NorthEuraLex Itelmen, the list this row matches.
+    ckt: ["эргатык", "eɹɣatək"],  // NorthEuraLex Chukchi, the list this row matches.
+    bsk: ["jímale", "ˈdʑimalʉ"],  // NorthEuraLex Burushaski, the list this row matches.
     dta: ["buni", "buni"],  // Robbeets Altaic list Dagur, the list this row matches. IPA from the row's pairs.
     tue: ["yãʼbĩ-gã", "jãʔbĩɡã"],  // IDS Tuyuca, the list this row matches. IPA from the row's pairs.
     tpy: ["kodaka-ki", "kodakaki"],  // IDS Trumai, the list this row matches. IPA from the row's pairs.

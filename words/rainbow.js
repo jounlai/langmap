@@ -661,7 +661,7 @@ WORDS.rainbow = {
     asu: "unknown",
     nhw: "unknown",
     nhe: "unknown",
-    gej: "unknown",
+    gej: "serpent",
     sgw: "plain",
     kum: "bow",
     ebu: "other",
@@ -1004,7 +1004,7 @@ WORDS.rainbow = {
     och: ["虹", "*m-kˤoŋ"],  // Attested on the oracle bones, where the rainbow is drawn as a two-headed dragon that 'drinks from the River'; the word's own origin is debated. Route by resemblance to the neighbouring forms (ltc(虹) and every later Sinitic row); no etymology of its own.
     udm: ["вуюись", "vujujisʲ"],  // Literally 'water drinker' (ву 'water' + юись 'one who drinks'), from the belief that the rainbow drinks water (Rakin 2017).
     kpv: ["ӧшкамӧшка", "ɘʃkamɘʃka"],  // Lytkin and Gulyaev's etymological dictionary of Komi traces it to ӧш and мӧс 'spring, source' with the diminutive -ка, 'little spring' (ӧшмӧс 'well'), as Panyukov (2024) reports; speakers also hear it as ӧшка-мӧска 'bull and cow', and Komi-Permyak says енӧшка.
-    koi: ["енӧшка", "jeˈnɘʃka"],  // Literally 'God's little bull': ен 'god' + ӧшка 'bull, ox' (or ӧш + diminutive -ка, after Lytkin); the same word names the ladybird, as Russian божья коровка 'God's little cow' does.
+    koi: ["енӧшка", "jeˈnɘʃka"],  // Lytkin derives it from ен 'God, sky' + ӧш- (as in ӧшмӧс 'well') + -ка (Wiktionary), and Panyukov (2024), after Lytkin and Gulyaev's etymological dictionary, reads енӧш, енӧшка as the 'heavenly spring'. The reading 'God's little bull' (ӧшка 'bull'), which also made it a ladybird name like Russian божья коровка, is a folk etymology.
     myv: ["пурьгинечирьке", "purʲɡʲinʲetʃirʲke"],  // Literally 'thunder bow' (пурьгине 'thunder' + чирьке 'arc'); Erzya also says пиземечирьке 'rain bow'.
     mdf: ["атямъёнга", "atʲamjoŋɡa"],  // Literally 'thunder bow' (атям 'thunder' + ёнга 'arc'), like Erzya пурьгинечирьке.
     krl: ["ukonkuari", "ˈukoŋkuɑri"],  // Literally 'Ukko's bow': Ukko, the thunder god, + kuari 'arc, bow'.
@@ -1420,7 +1420,7 @@ WORDS.rainbow = {
     asu: ["mkindikindi", "mkindikindi"],  // The word the Chasu New Testament uses for the rainbow round the throne, "na mkindikindi wejunguluke kila kichumbi" (Revelation 4:3), and over the angel's head (10:1); IPA read from the spelling.
     nhw: ["acosamalotl", "akosaˈmalotɬ"],  // The word the Huasteca Nahuatl Bible uses for the rainbow, "Nijtlalijtoc noacosamalo ipan mixtli" (Genesis 9:13); it matches Classical Nahuatl cōzamālōtl, whose origin Wiktionary calls uncertain.
     nhe: ["acosamalotl", "akosaˈmalotɬ"],  // The word the Eastern Huasteca Nahuatl New Testament uses for the rainbow, "huan quipixqui nopa acosamalotl ipan itzonteco" (Revelation 10:1); it matches Classical Nahuatl cōzamālōtl.
-    gej: ["ànyiɖohùɛɖo", "àɲiɖohùɛɖo"],  // The Gen Bible's word for the rainbow: "Mù sɔ àpe ànyiɖohùɛɖo dà ɖo lilikpoa mè" (Genesis 9:13).
+    gej: ["ànyiɖohùɛɖo", "àɲiɖohùɛɖo"],  // The Gen Bible's word for the rainbow (Genesis 9:13, "Mù sɔ àpe ànyiɖohùɛɖo dà ɖo lilikpoa mè") is the name of the Gbe rainbow serpent: Westermann's Ewe dictionary (1905) lists Ayidowedo, from Dahomey, as 'the deity of the rainbow', and Wikipedia describes Ayida Wedo (Aido Hwedo), revered in Benin, Togo and south-eastern Ghana, as at once a rainbow and a serpent god. So the word names the rainbow serpent, as Tiwi puntaninga does.
     sgw: ["ወወካ", "wəwəka"],  // The word the Gurage Bible uses for the rainbow, "ወወካና በዳበራ ር አወራንቴ" (Genesis 9:13), also Revelation 10:1; IPA read from the spelling. No image is recorded for it, so it counts as a word of its own.
     kum: ["энемжая", "enemdʒaja"],  // The Kumyk word for the rainbow, used in the Kumyk New Testament ("башыны уьстюнде энемжая бар эди", Revelation 10:1). It ends in жая 'bow' (Proto-Turkic *yā), as do its synonyms солтанжая 'the sultan's bow' and тенгрижая 'Tengri's bow'; the first part is not analysed here.
     ebu: ["mũkũngambura", "mokoŋɡambuɾa"],  // The word the Embu Bible uses for the rainbow, "nîngwiga mûkûngambura wakwa matuurî" (Genesis 9:13); it ends in mbura "rain" and matches Kikuyu mũkũnga-mbura "eel of the rain". Route by resemblance to the neighbouring forms (ki(mũkũnga-mbura), mer(mûkûngambura)); no etymology of its own.
@@ -1557,17 +1557,17 @@ WORDS.rainbow = {
     khv: ["зарес ашу", "zares aʃu"],  // IDS Khwarshi, the row's list. Palochka and IPA from the row's pairs.
     kjj: ["там", "tʰam"],  // IDS Khinalug, the row's list. Palochka and IPA from the row's pairs.
     abe: ["managuôn", "manaɡʷɔ̃n"],  // Laurent p.14: "Managuôn. A rainbow."
-    nio: ["ӈуо хонтә", "ŋʷo xontə"],  // NorthEuraLex Nganasan, the list this row matches. Tie bars removed and spaces restored, as the row.
-    enf: ["mensi pya", "mʲɛnsi pʲa"],  // NorthEuraLex Forest Enets, the list this row matches. Tie bars removed and spaces restored, as the row. Latin spelling follows the row's pairs; the list prints Cyrillic.
-    smj: ["ádjájuoksa", "ˈadʒajʊuɔksɑ"],  // NorthEuraLex Lule Sami, the list this row matches. Tie bars removed and spaces restored, as the row.
-    sel: ["ӄөттаӈкы", "qøtːaŋkɨ"],  // NorthEuraLex Northern Selkup, the list this row matches. Tie bars removed and spaces restored, as the row.
-    itl: ["тэӄʼәм", "teqʔəm"],  // NorthEuraLex Itelmen, the list this row matches. Tie bars removed and spaces restored, as the row.
-    ckt: ["йынʼэттэткʼымчучьын", "jəŋetːetqəmtɕutɕˀən"],  // NorthEuraLex Chukchi, the list this row matches. Tie bars removed and spaces restored, as the row.
-    yrk: ["нувʼ пан", "nuwʔ pɑn"],  // NorthEuraLex Tundra Nenets, the list this row matches. Tie bars removed and spaces restored, as the row.
-    ykg: ["хуруун унумэдьуо", "xuruːn unumedʲuo"],  // NorthEuraLex Northern Yukaghir, the list this row matches. Tie bars removed and spaces restored, as the row.
-    sms: ["teârmmazjohss", "ˈtɛɐrmːɒzʝoxsː"],  // NorthEuraLex Skolt Sami, the list this row matches. Tie bars removed and spaces restored, as the row.
-    liv: ["õvātõks", "ˈɨvɑːtɨks"],  // NorthEuraLex Livonian, the list this row matches. Tie bars removed and spaces restored, as the row.
-    evn: ["серун", "sjerun"],  // NorthEuraLex Evenki, the list this row matches. Tie bars removed and spaces restored, as the row.
+    nio: ["ӈуо хонтә", "ŋʷo xontə"],  // NorthEuraLex Nganasan, the list this row matches.
+    enf: ["mensi pya", "mʲɛnsi pʲa"],  // NorthEuraLex Forest Enets, the list this row matches. Latin spelling follows the row's pairs; the list prints Cyrillic.
+    smj: ["ádjájuoksa", "ˈadʒajʊuɔksɑ"],  // NorthEuraLex Lule Sami, the list this row matches.
+    sel: ["ӄөттаӈкы", "qøtːaŋkɨ"],  // NorthEuraLex Northern Selkup, the list this row matches.
+    itl: ["тэӄʼәм", "teqʔəm"],  // NorthEuraLex Itelmen, the list this row matches.
+    ckt: ["йынʼэттэткʼымчучьын", "jəŋetːetqəmtɕutɕˀən"],  // NorthEuraLex Chukchi, the list this row matches.
+    yrk: ["нувʼ пан", "nuwʔ pɑn"],  // NorthEuraLex Tundra Nenets, the list this row matches.
+    ykg: ["хуруун унумэдьуо", "xuruːn unumedʲuo"],  // NorthEuraLex Northern Yukaghir, the list this row matches.
+    sms: ["teârmmazjohss", "ˈtɛɐrmːɒzʝoxsː"],  // NorthEuraLex Skolt Sami, the list this row matches.
+    liv: ["õvātõks", "ˈɨvɑːtɨks"],  // NorthEuraLex Livonian, the list this row matches.
+    evn: ["серун", "sjerun"],  // NorthEuraLex Evenki, the list this row matches.
     tue: ["buʼe-da", "buʔeda"],  // IDS Tuyuca, the list this row matches. IPA from the row's pairs.
     ksw: ["တၢၢ်ကွဲၤ", "tɛkwɛ"],  // S'gaw Karen 'rainbow' (SEAlang). No image is recorded for it, so it counts as a word of its own. IPA read from the script; the dictionary prints none.
     mdh: ["pagayaw", "paɡajaw"],  // Maguindanao pagayaw 'rainbow' (SEAlang); Maranao has the same word. No image is recorded for it, so it counts as a word of its own.

@@ -558,7 +558,7 @@ WORDS.olderbrother = {
     auj: "age",
     siz: "plain",
     hi: "age",
-    ur: "unknown",
+    ur: "plain",
     pa: "unknown",
     sw: "plain",
     pcm: "plain",
@@ -571,7 +571,7 @@ WORDS.olderbrother = {
     sd: "age",
     ku: "age",
     so: "plain",
-    az: "unknown",
+    az: "plain",
     azb: "unknown",
     bar: "plain",
     tn: "age",
@@ -991,7 +991,7 @@ WORDS.olderbrother = {
     lbe: ["уссу", "usːu"],  // Lak says хъунама уссу 'big brother' for an older brother; there is no separate word.
     aqc: ["ушду", "uʃdu"],  // An older brother is доІзу ушду 'big brother', a younger one тІитту ушду 'little brother' (WOLD).
     kum: ["агъа", "aʁa"],  // From Proto-Turkic *āka 'elder brother', like Turkish ağa; younger: ини.
-    os: ["ӕфсымӕр", "æfsɨmær"],  // An older brother is хистӕр ӕфсымӕр 'elder brother'; there is no separate word (IDS).
+    os: ["ӕфсымӕр", "æfsɨmær"],  // An older brother is хистӕр ӕфсымӕр 'elder brother', with хистӕр the general word for 'elder, senior' (хистӕр фырт 'eldest son' in Guriev's Ossetic–Russian–English dictionary); there is no separate word (IDS).
     ady: ["шы", "ʃə"],  // Older and younger brothers are both шы.
     tet: ["maun", "maun"],  // Maun boot, 'big older brother', was an affectionate name for Xanana Gusmão.
     ban: ["beli", "bəli"],  // Beli is also used for a husband, boyfriend or any close older man; younger: adi (younger sibling).
@@ -1296,7 +1296,7 @@ WORDS.olderbrother = {
     sd: ["دادو", "daːdoː"],  // Sindhi دادو is an elder brother, a word of affection and respect; ڀاءُ is 'brother' in general and a younger brother in particular.
     ku: ["kek", "kɛk"],  // Kurmanji kek, also kak, is an older brother and a respectful 'sir'; a younger brother is birak, birayê biçûk.
     so: ["walaal", "walaːl"],  // Somali walaal is a sibling, masculine for a brother and feminine for a sister, with no age in the word.
-    az: ["qardaş", "ɡɑɾˈdɑʃ"],  // Azerbaijani qardaş, literally 'sharer of the womb', is 'brother'; a younger brother is kiçik qardaş, and ağa is a colloquial way to address an older brother.
+    az: ["qardaş", "ɡɑɾˈdɑʃ"],  // Azerbaijani qardaş, literally 'sharer of the womb', is 'brother'; an older brother is böyük qardaş 'big brother', a younger one kiçik qardaş, and ağa is only a colloquial way to address a father or an older brother.
     azb: ["قارداش", "ɡɑɾˈdɑʃ"],  // South Azerbaijani قارداش is 'brother', the same word as northern qardaş.
     bar: ["Bruada", "ˈbruɐdɐ"],  // Bavarian Bruada is 'brother', of any age.
     tn: ["mogolole", "moχolole"],  // Tswana kin terms split siblings of the same sex by age: mogolole is the older brother and nnake the younger one.

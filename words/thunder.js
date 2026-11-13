@@ -211,7 +211,7 @@ WORDS.thunder = {
     lv: "god",
     prg: "god",
     sq: "imitative",
-    et: "plain",
+    et: "god",
     se: "god",
     yrl: "other",
     or: "imitative",
@@ -606,7 +606,7 @@ WORDS.thunder = {
     bbc: "plain",
     grt: "plain",
     mas: "plain",
-    hoc: "unknown",
+    hoc: "sky",
     tcy: "plain",
     kfy: "plain",
     toi: "plain",
@@ -639,7 +639,7 @@ WORDS.thunder = {
     lue: "unknown",
     khb: "sky",
     tly: "imitative",
-    yua: "unknown",
+    yua: "god",
     spp: "god",
     bsq: "plain",
     inh: "unknown",
@@ -972,7 +972,7 @@ WORDS.thunder = {
     lv: ["pērkons", "ˈpæːrkuɔns"],  // The same word as Pērkons, the Baltic thunder god.
     prg: ["percunis", "perkunis"],  // Glossed Donner in the 14th-century Elbing Vocabulary; the same name as the thunder god Perkūns.
     sq: ["bubullimë", "bubuˈɫimə"],  // NorthEuraLex also gives gjëmim, 'rumbling'. Bubullimë is built on bubullon 'it thunders', an imitative verb.
-    et: ["kõu", "kɤu"],  // IDS also lists pikne and müristamine; äike is the thunderstorm. No image is recorded for it, so it counts as a word of its own.
+    et: ["kõu", "kɤu"],  // A shortened form of kõuk, which in the old dialects meant 'thunder'. The Estonian etymological dictionary (EES) traces the stem to 'spirit, ghost' (Finnish dialect kouko 'bogey'), whose sense shifted to 'thunder god' and then to 'thunder'; written Estonian later gave kõuk the new sense '(distant) ancestor'. IDS also lists pikne and müristamine; äike is the thunderstorm.
     se: ["baján", "ˈpajaːn"],  // The same word as Baján, the Northern Sámi name of the thunder god.
     yrl: ["trovã", "tɾoˈvã"],  // A loan of Portuguese trovão, as the Hunter-Gatherer database marks it. Route by resemblance to the neighbouring forms (Brazilian Portuguese trovão).
     or: ["ଘଡ଼ଘଡ଼ି", "ɡʱɔɽɔɡʱɔɽi"],  // Praharaj's dictionary uses it as the everyday gloss for thunder; ଗର୍ଜନ, in the Wiktionary table, is a more general 'roar'. A doubled ghaṛ, imitating the rumble.
@@ -1367,7 +1367,7 @@ WORDS.thunder = {
     bbc: ["ronggur", "roŋɡur"],  // The Toba Batak word for thunder, glossed geledek and petir in Indonesian. No image is recorded for it, so it counts as a word of its own.
     grt: ["kimpretani", "kimpretani"],  // A noun made from the verb kimpreta 'to thunder'. No image is recorded for it, so it counts as a word of its own.
     mas: ["ɛndarata", "ɛndarata"],  // A noun from the verb a-dár 'to make a loud noise, to thunder'; enkurrukurroto 'rumbling' is also used.
-    hoc: ["rimil saɽi", "rimil saɽi"],  // Its first part rimil is the Munda word for cloud (Santali rimil 'cloud').
+    hoc: ["rimil saɽi", "rimil saɽi"],  // Literally 'cloud sound': rimil is the Munda word for cloud (Santali rimil 'cloud'), and Bhaduri's Mundari–English Dictionary (1931) has the same compound, rimbil-sari 'thunder-clap', with sari 'sound; to make a sound'. So thunder is the clouds' noise.
     tcy: ["ತೆಡಿಲ್", "teɖilɯ"],  // An old Dravidian word, cognate with Kannada siḍil 'thunderbolt' and Kodava tëḍï 'thunder'.
     kfy: ["गर्जन", "ɡərdʒən"],  // From Sanskrit garjana 'roaring, thunder', the same source as Hindi garaj.
     toi: ["muzumo", "muzumo"],  // The 1963 Tonga Bible calls James and John basimuzumo, 'sons of thunder'; the related verb zuma means 'to thunder'. No image is recorded for it, so it counts as a word of its own.
@@ -1400,7 +1400,7 @@ WORDS.thunder = {
     lue: ["mikalateta", "mikalateta"],  // Used in the plural: the Luvale Bible calls James and John "Vana vamikalateta", "sons of thunder", and keeps it apart from miveso, the lightnings.
     khb: ["ᦝᦱᧉᦣᦸᧂᧉ", "faː˩ hɔŋ˩"],  // Literally "the sky cries out", like Thai ฟ้าร้อง, of which Wiktionary lists it as the cognate.
     tly: ["qürrə", "ɡyrrə"],  // Wiktionary marks it as onomatopoeic; the fuller avəqürrə is a synonym, and the Iranian Talysh Bible calls James and John "the sons of gərr" (Mark 3:17).
-    yua: ["kíilbal cháak", "kiːlbal tʃaːk"],  // Literally "the rumbling of cháak", this row's word for rain; the Maya Bible calls James and John "u Paalal u Quíilbal Cháac", "sons of thunder" (Mark 3:17).
+    yua: ["kíilbal cháak", "kiːlbal tʃaːk"],  // Literally 'the thundering of cháak': kíilbal is 'tremor; to tremble; to thunder' (Spanish Wiktionary, which gives kíilbal cháak 'trueno'), and cháak is both this row's word for rain and the Chaacs, the spirits who bring it (English Wiktionary). Chaac is the Maya god of rain, thunder and lightning, whose axe strikes the clouds to make thunder (Wikipedia), so thunder is the rain god's, as Ga nyɔŋmɔshimɔ is Nyɔŋmɔ's. The Maya Bible calls James and John "u Paalal u Quíilbal Cháac", "sons of thunder" (Mark 3:17).
     spp: ["kiletinni", "kiletinːi"],  // Kept apart from kileɲini, the lightning, in Revelation 4:5; in John 12:29 the crowd says "Kileŋ'à tîn", with Kile, the word for God, as the subject of the thundering. Its first part is that same Kile, so the word reads 'God's thundering', as Ga nyɔŋmɔshimɔ does.
     bsq: ["zɛ", "zɛ"],  // Thunder "cracks" (páná) in the Bassa Bible, which keeps it apart from wɛ́ɖɛ́-wɛ́ɖɛ́, the lightning, in Exodus 9:23 and explains Boanerges as men with a voice like zɛ. No image is recorded for it, so it counts as a word of its own.
     inh: ["ди", "di"],  // Spelled the same as ди 'day'; the roll of thunder is ди къовкъар, and the lightning is тӀоа.
@@ -1562,16 +1562,16 @@ WORDS.thunder = {
     kjj: ["ттокъуд", "tːoqud"],  // IDS Khinalug, the row's list. Palochka and IPA from the row's pairs.
     nci: ["quaqualachtli", "kʷakʷaˈlatʃtɬi"],  // Siméon: "QUAQUALACHTLI ou QUAQUALACTLI, s. v. Tonnerre, bruit de la foudre"; no length marks
     abe: ["padôgi", "padɔ̃ɡi"],  // Laurent p.17: "Padôgi. Thunder."
-    nio: ["кадюа", "kɐdʲuɐ"],  // NorthEuraLex Nganasan, the list this row matches. Tie bars removed and spaces restored, as the row.
-    enf: ["kihu", "kihu"],  // NorthEuraLex Forest Enets, the list this row matches. Tie bars removed and spaces restored, as the row. Latin spelling follows the row's pairs; the list prints Cyrillic.
-    smj: ["átjek", "ˈatʃɛk"],  // NorthEuraLex Lule Sami, the list this row matches. Tie bars removed and spaces restored, as the row.
-    ckt: ["йъилкээв", "jʔiɬkeːβ"],  // NorthEuraLex Chukchi, the list this row matches. Tie bars removed and spaces restored, as the row.
-    yrk: ["мунота", "munoːtɑ"],  // NorthEuraLex Tundra Nenets, the list this row matches. Tie bars removed and spaces restored, as the row.
-    bsk: ["ġaráo", "ɡ̇aˈraɔ"],  // NorthEuraLex Burushaski, the list this row matches. Tie bars removed and spaces restored, as the row.
-    ykg: ["мөнэр", "møner"],  // NorthEuraLex Northern Yukaghir, the list this row matches. Tie bars removed and spaces restored, as the row.
-    sms: ["tie´rmes", "ˈtiɛrʲmʲɛs"],  // NorthEuraLex Skolt Sami, the list this row matches. Tie bars removed and spaces restored, as the row.
-    smn: ["juuṛâ", "ˈjuːrɐ"],  // NorthEuraLex Inari Sami, the list this row matches. Tie bars removed and spaces restored, as the row.
-    mns: ["сяхыл кургил", "sʲaχɪl kurɣil"],  // NorthEuraLex Northern Mansi, the list this row matches. Tie bars removed and spaces restored, as the row.
+    nio: ["кадюа", "kɐdʲuɐ"],  // NorthEuraLex Nganasan, the list this row matches.
+    enf: ["kihu", "kihu"],  // NorthEuraLex Forest Enets, the list this row matches. Latin spelling follows the row's pairs; the list prints Cyrillic.
+    smj: ["átjek", "ˈatʃɛk"],  // NorthEuraLex Lule Sami, the list this row matches.
+    ckt: ["йъилкээв", "jʔiɬkeːβ"],  // NorthEuraLex Chukchi, the list this row matches.
+    yrk: ["мунота", "munoːtɑ"],  // NorthEuraLex Tundra Nenets, the list this row matches.
+    bsk: ["ġaráo", "ɡ̇aˈraɔ"],  // NorthEuraLex Burushaski, the list this row matches.
+    ykg: ["мөнэр", "møner"],  // NorthEuraLex Northern Yukaghir, the list this row matches.
+    sms: ["tie´rmes", "ˈtiɛrʲmʲɛs"],  // NorthEuraLex Skolt Sami, the list this row matches.
+    smn: ["juuṛâ", "ˈjuːrɐ"],  // NorthEuraLex Inari Sami, the list this row matches.
+    mns: ["сяхыл кургил", "sʲaχɪl kurɣil"],  // NorthEuraLex Northern Mansi, the list this row matches.
     ksw: ["လီသီၣ်", "lɔθɔ"],  // S'gaw Karen 'thunder' (SEAlang). No image is recorded for it, so it counts as a word of its own. IPA read from the script; the dictionary prints none.
     osx: ["thuner", "ˈθuner"],  // From Proto-West Germanic *þunr, the same word as Old English þunor.
     dak: ["waŋkíŋyaŋ", "wãkĩ́jã"],  // Route by resemblance to Lakota wakíŋyaŋ, the thunderbirds whose voice is thunder.

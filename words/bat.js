@@ -583,7 +583,7 @@ WORDS.bat = {
     olo: "other",
     xkz: "unknown",
     pau: "plain",
-    tok: "unknown",
+    tok: "other",
     agu: "plain",
     mix: "plain",
     ers: "plain",
@@ -1220,7 +1220,7 @@ WORDS.bat = {
     olo: ["yöliivoi", "ˈyøliːvoi"],  // The Livvi word for the bat, beginning with yö 'night'; dialect variants include yölievoi and yöläpoi, and the Livvi Bible uses it in Isaiah 2:20.
     xkz: ["gomcinphawang", "ɡomtɕinpʰawaŋ"],  // The Kurtöp word for the bat; its last part matches Tibetan pha wang 'bat'.
     pau: ["olik", "oˈlik"],  // Inherited from Proto-Austronesian *paniki 'fruit bat, flying fox', like Tagalog paniki; it names the Palau fruit bat.
-    tok: ["soweli waso", "soweli waso"],  // Literally 'bird mammal': soweli 'land mammal' plus waso 'bird'; Toki Pona has no word of its own for the bat.
+    tok: ["soweli waso", "soweli waso"],  // Literally 'bird mammal': soweli 'land mammal' plus waso 'bird'; Toki Pona has no word of its own for the bat. Toki Pona puts the head first, so this is a mammal described as bird-like, not a kind of bird or mouse: another image.
     agu: ["sotzʼ", "sotsʼ"],  // Inherited from Proto-Mayan *sootzʼ 'bat', like Kʼicheʼ and Mam sotzʼ.
     mix: ["tikuchi", "t̪ikùtʃí"],  // The Mixtepec Mixtec word for the bat; an older record by Pike and Ibach (1978) begins it with tsi-. No image is recorded for it, so it counts as a word of its own.
     ers: ["jisui", "ji˥˥sui˥˥"],  // The Ersu word for the bat, as recorded by Sun Hongkai. No image is recorded for it, so it counts as a word of its own.
@@ -1324,7 +1324,7 @@ WORDS.bat = {
     agx: ["чапрахил", "tʃapraχil"],  // IDS Aghul, the row's list. Palochka and IPA from the row's pairs.
     kjj: ["цӏвакьунур", "tsʼʷaqʼunur"],  // IDS Khinalug, the row's list. Palochka and IPA from the row's pairs.
     abe: ["madagenilhas", "madaɡenilhas"],  // Laurent page image p.37: "Madagenilhas. A bat."
-    srm: ["pukusu", "pukusu"],  // WOLD Saramaccan, the list this row matches. Tie bars removed and spaces restored, as the row.
+    srm: ["pukusu", "pukusu"],  // WOLD Saramaccan, the list this row matches.
     bor: ["ke", "kʰee̥"],  // No image is recorded for it, so it counts as a word of its own; the same form also means food.
     vec: ["barbastréjo", "barbasˈtrejo"],  // From Latin vespertiliōnem, an 'evening' creature, reshaped in Vulgar Latin.
     cic: ["hala̱ʼboshaʼ", "halãːʔboʃaʔ"],  // Its origin is unknown; compare Choctaw hʋlambashi and Alabama halaawosa.

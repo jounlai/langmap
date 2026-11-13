@@ -634,7 +634,7 @@ WORDS.tomato = {
     fa: ["گوجه‌فرنگی", "ɡowdʒefæɾæŋˈɡiː"],  // 'European plum': گوجه 'plum' + فرنگی 'Frankish, European'.
     ceb: ["kamatis", "kaˈmatis"],  // From Spanish tomate(s), with the first t changed to k.
     ms: ["tomato", "tomato"],  // Borrowed from English tomato; rangam is the older Malay word.
-    sw: ["nyanya", "ˈɲaɲa"],  // Also means 'grandmother' in Kenya; etymology not established by the sources.
+    sw: ["nyanya", "ˈɲaɲa"],  // Also means 'grandmother' in Kenya. Bantu Lexical Reconstructions 3 lists *nyaanya 'tomato' (no. 9663, zones G and J) with the remark 'origin unknown, perhaps spread from Swahili'; no source traces the word further.
     ta: ["தக்காளி", "t̪akːaːɭi"],  // A Dravidian name for native nightshades carried over to the tomato: DEDR 3009 glosses Tamil takkāḷi 'Indian winter cherry, tomato' and Malayalam takkāḷi 'Physalis'. Shared with Kannada and Malayalam; Telugu and Sinhala borrowed it.
     ml: ["തക്കാളി", "t̪akːaːɭi"],  // A Dravidian name for native nightshades carried over to the tomato: DEDR 3009 glosses Malayalam takkāḷi 'Physalis' and Tamil takkāḷi 'Indian winter cherry, tomato'.
     si: ["තක්කාලි", "takːaːli"],  // Borrowed from Tamil takkāḷi, a name for the native winter cherry carried over to the tomato; Sinhala still uses it for Withania somnifera too (Wiktionary).

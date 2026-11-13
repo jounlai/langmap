@@ -1,5 +1,5 @@
 /**
- * we — the map's first typological word: who counts as "us". Roughly a third of the world's languages do something English cannot: they split the first person plural into an INCLUSIVE "we" (me and you) and an EXCLUSIVE "we" (me and them, not you). Indonesian kita vs kami, Vietnamese chúng ta vs chúng tôi, Tok Pisin yumi vs mipela, Quechua ñuqanchik vs ñuqayku, Somali innaga vs annaga. Say the wrong one and you have either invited someone in or shut them out, grammatically, with no way to hedge. The colours here are that distinction rather than an etymology, and the split is not a neat map of families: Indo-European mostly lacks it, yet Gujarati આપણે/અમે and Marathi आपण/आम्ही have it outright; the Sinosphere mostly lacks it, yet northern Mandarin opposes 咱们 to 我们 and Hokkien opposes 咱 lán to 阮 goán. Tungusic — Evenki мит/бу, Manchu ᠮᡠᠰᡝ/ᠪᡝ — has it throughout. Two cautions the data forced. Where a language marks clusivity only on the verb and not in its free pronouns, as all six Iroquoian languages and the Siouan languages here do, this map counts it as one word, because one word is what a speaker says. And where a language has no dedicated plural pronoun at all, "we" is simply the same word as "I" — which is why 我 stands unchanged in Old, Middle and Classical Chinese, and why Cherokee and Ho-Chunk repeat their singular. Where a language has both forms, both are printed, inclusive first. A third colour marks the rows where nobody has yet sourced the answer — 39 of them, each needing one attested inclusive/exclusive pair — because a reader cannot otherwise tell an undecided language from one the map has no word for.
+ * we — the map's first typological word: who counts as "us". Roughly a third of the world's languages do something English cannot: they split the first person plural into an INCLUSIVE "we" (me and you) and an EXCLUSIVE "we" (me and them, not you). Indonesian kita vs kami, Vietnamese chúng ta vs chúng tôi, Tok Pisin yumi vs mipela, Quechua ñuqanchik vs ñuqayku, Somali innaga vs annaga. Say the wrong one and you have either invited someone in or shut them out, grammatically, with no way to hedge. The colours here are that distinction rather than an etymology, and the split is not a neat map of families: Indo-European mostly lacks it, yet Gujarati આપણે/અમે and Marathi आपण/आम्ही have it outright; the Sinosphere mostly lacks it, yet northern Mandarin opposes 咱们 to 我们 and Hokkien opposes 咱 lán to 阮 goán. Tungusic — Evenki мит/бу, Manchu ᠮᡠᠰᡝ/ᠪᡝ — has it throughout. Two cautions the data forced. Where a language marks clusivity only on the verb and not in its free pronouns, as all six Iroquoian languages and the Siouan languages here do, this map counts it as one word, because one word is what a speaker says. And where a language has no dedicated plural pronoun at all, "we" is simply the same word as "I" — which is why 我 stands unchanged in Old, Middle and Classical Chinese, and why Cherokee and Ho-Chunk repeat their singular. Where a language has both forms, both are printed, inclusive first. A third colour marks the rows where nobody has yet sourced the answer — 35 of them, each needing one attested inclusive/exclusive pair — because a reader cannot otherwise tell an undecided language from one the map has no word for.
  */
 WORDS.we = {
   emoji: "👥",
@@ -1158,14 +1158,14 @@ WORDS.we = {
     // out, so the map says "not determined" instead of showing nothing — see
     // docs/dev-handoff.md #51 for the list and the method.
     adx: "unknown",
-    jya: "unknown",
+    jya: "clusive",
     bca: "clusive", // route was unknown (vi dialect rules 2026-10-06)
     atb: "clusive",
     blk: "unknown",
     bfq: "unknown",
     iru: "unknown",
     bft: "clusive",
-    lbj: "unknown",
+    lbj: "clusive",
     khg: "unknown",
     ker: "clusive",
     dbq: "clusive", // route was unknown (vi dialect rules 2026-10-06)
@@ -1194,11 +1194,11 @@ WORDS.we = {
     pcc: "clusive",
     mpt: "clusive",
     roo: "clusive",
-    nan_hai: "unknown",
+    nan_hai: "clusive",
     mfa: "unknown",
     mtq: "unknown",
     tyz: "unknown",
-    wbm: "unknown",
+    wbm: "clusive",
     pll: "clusive",
     nut: "unknown",
     mam: "unknown",
@@ -1282,7 +1282,7 @@ WORDS.we = {
     adx: ["ང་ཚོ", "ŋatsʰo"],
     qxs: ["tsuətʰyɑ / qɑtʰyɑ", "tsuə˧˩tʰyɑ˥˥ / qɑ˧˩tʰyɑ˥˥"],
     duu: ["ɹɑŋ / iŋ", "ɹɑŋ / iŋ"], // was ["rvng / ing", "ɹɯŋ / iŋ"] (vi dialect rules 2026-10-06)
-    jya: ["ŋəɲe", "ŋəɲe"],
+    jya: ["jo / ŋəɲe", "jo / ŋəɲe"],  // Inclusive jo, exclusive ŋəɲe in Maerkang rGyalrong; the cell had only the exclusive.
     ers: ["jorɿ / ɑrɿ", "jo˥˥rɿ˥˥ / ɑ˥˥rɿ˥˥"],
     bca: ["jã / ŋa", "jã˥˥ / ŋa˥˥"], // was ["nga", "ŋa"] (vi dialect rules 2026-10-06)
     atb: ["nga-nhung / ngamoq", "ŋa˥˥n̥uŋ˥˥ / ŋa˥˥moʔ˥˥"],
@@ -1471,7 +1471,7 @@ WORDS.we = {
     cdo: ["我各侬", "ŋuai˧˧ koʔ˨˦ nøyŋ˥˧"], // was ["我各侬", "ŋuai˧˧ kɔʔ˨˦ nøyŋ˥˧"] (vi dialect rules 2026-10-06)
     bo: ["ང་ཚོ", "ŋa˩˧tsʰo˥"],
     bft: ["ང་ཏང / ང་ཡ", "ŋataŋ / ŋaja"],  // Inclusive ŋataŋ, exclusive ŋaya, in all six Balti varieties of Backstrom's northern Pakistan survey (Lexibank).
-    lbj: ["ང་ཞ", "ŋaʒa"],
+    lbj: ["ང་ཏང / ང་ཞ", "ŋataŋ / ŋaʒa"],  // Inclusive ŋataŋ, exclusive ŋaʒa: LaPolla's survey of clusivity in Tibeto-Burman (2005), after Koshal's Ladakhi Grammar (1979), gives ŋə-təŋ and ŋə-zə, the difference carried by the plural suffix, as in Balti. The source gives transcriptions only; the Tibetan spelling ང་ཏང follows the Balti row.
     khg: ["ང་ཚོ", "ŋatsʰo"],
     cng: ["tɕile", "tɕile"],
     ii: ["ꉪꊇ", "ŋo˨˩ɣo˧˦"],
@@ -2262,7 +2262,7 @@ WORDS.we = {
     wuu_sz: ["伲", "ȵi˨˧˩"],
     wuu_wz: ["我俫", "ŋ̍˧˦ le˧˩"], // was ["我倈", "ŋ˧˩ lai˧˩"] (vi dialect rules 2026-10-06)
     nan_qz: ["咱 / 阮", "lan˥˥˦ / ɡuan˥˥˦"],
-    nan_hai: ["我侬", "va˨˩˧ naŋ˧˩"],
+    nan_hai: ["咱侬 / 我侬", "tsa˨˩˧ naŋ˧˩ / va˨˩˧ naŋ˧˩"],  // Inclusive 咱侬, exclusive 我侬: Wiktionary's dialect synonyms give Haikou 咱儂 for 咱們 and 我儂 for 我們; readings from MCPDict 海口 (咱 tsa3, 我 va3, 侬 naŋ2).
     zh_wh: ["我们", "ŋo˦˨ mən"],
     zh_zz: ["咱 / 俺", "tsan˦˨ / an˥˧"],
     hak_hl: ["𫣆兜 / 𠊎兜", "en˥˧teu˥˧ / ŋai˥˥teu˥˧"],
@@ -2272,7 +2272,7 @@ WORDS.we = {
     tyz: ["rầu", "rəw˧˨"], // was ["rầu", "rəw˨˩"] (vi dialect rules 2026-10-06)
     kjp: ["ပ်ု", "hə̀"], // was ["ပ", "hə̀"] (vi dialect rules 2026-10-06)
     kac: ["anhte", "an˥˥tʰe˧"],
-    wbm: ["ix", "ʔiʔ"],
+    wbm: ["ex / ix", "ʔeʔ / ʔiʔ"],  // Inclusive ex, exclusive ix, in Watkins's Dictionary of Wa (Bible spelling); the cell had only the exclusive.
     blr: ["ʔet33 ti31", "ʔet˧˧ ti˧˩"],
     srh: ["—", "—"],
     rbb: ["—", "—"],

@@ -124,7 +124,7 @@ WORDS.hiccup = {
     om: "imitative",
     ki: "plain",
     bik: "plain",
-    th: "unknown",
+    th: "other",
     fa: "imitative",
     ml: "plain",
     as: "imitative",
@@ -174,7 +174,7 @@ WORDS.hiccup = {
     min: "plain",
     tg: "imitative",
     ky: "imitative",
-    lo: "unknown",
+    lo: "other",
     nds: "other",
     gn: "unknown",
     ee: "unknown",
@@ -253,7 +253,7 @@ WORDS.hiccup = {
     pi: "imitative",
     nci: "plain",
     ar_qur: "imitative",
-    syc: "unknown",
+    syc: "imitative",
     ja_heian: "plain",
     ko_kp: "imitative",
     vi_c: "plain",
@@ -448,7 +448,7 @@ WORDS.hiccup = {
     om: ["hirqinfuu", "hirkʼinfuː"],  // Of onomatopoeic origin; cognate with Kambaata hiqqe and Sidamo heqqo.
     ki: ["mwegetho", "mwɛɣɛðɔ"],  // From kwegetha 'to hiccup'. No image is recorded for it, so it counts as a word of its own.
     bik: ["sinok", "siʔˈnok"],  // The same word as Tagalog sinok. Route by resemblance to the neighbouring forms (h_tagalog(ᜐᜒᜈᜓᜃ᜔)); no etymology of its own.
-    th: ["สะอึก", "sa˨˩ʔɯk˨˩"],  // Thai Wiktionary calls it possibly imitative and cognate with Zhuang saek.
+    th: ["สะอึก", "sa˨˩ʔɯk˨˩"],  // สะ is Proto-Tai *sak 'plugged', which Pittayaporn's Phonology of Proto-Tai (2009, after Kullavanijaya 1992) finds preserved in this word, and English Wiktionary takes อึก as the cognate of อก 'chest': a 'plugged chest'. Thai Wiktionary calls it possibly imitative.
     fa: ["سکسکه", "sekseˈke"],  // Moein gives it as from Arabic; هکه hokke is a synonym. A reduplicated imitation of the sound, like synonym hokke.
     ml: ["ഇക്കിൾ", "ikːiɭ"],  // എക്കിൾ ekkiḷ is a synonym; cognate with Tamil விக்கல். Inherited from Proto-Dravidian *wekk- "to hiccup", like Tamil விக்கு (Wiktionary); no image is recorded for it, so it counts as a word of its own.
     as: ["হিঁকটি", "ɦikɔti"],  // Inherited from Sanskrit hikkā, built on an onomatopoeic root; also spelled হেঁকটি.
@@ -498,7 +498,7 @@ WORDS.hiccup = {
     min: ["sadu-sadu", "sadu sadu"],  // A reduplicated word; compare Malay sedu. Route by resemblance to the neighbouring forms (ms(sedu) dtp(soduʼ)); no etymology of its own.
     tg: ["ҳиқақ", "hiˈqaq"],  // Also spelled ҳикак and ҳиққак. Built on the sound hiq.
     ky: ["ыктытуу", "ɯqtɯˈtuː"],  // A verbal noun 'hiccupping', the title Kyrgyz Wikipedia gives the reflex; ык этүү is a synonym verb. Built on the sound ык.
-    lo: ["ສະອຶກ", "sa˧˥ ʔɯk˧˥"],  // The same word as Thai สะอึก; Kerr also lists ສະເອິ for the noun.
+    lo: ["ສະອຶກ", "sa˧˥ ʔɯk˧˥"],  // The same word as Thai สะอึก, whose first syllable is Proto-Tai *sak 'plugged' (Pittayaporn 2009); Kerr also lists ສະເອິ for the noun. Route by resemblance to the neighbouring forms (th(สะอึก)).
     nds: ["Sluckop", "ˈslʊkɔp"],  // Slucken 'swallow' + op 'up', the same image as German Schluckauf; Hickop is also heard.
     gn: ["jojói", "dʒoˈdʒoi"],  // Jojói also serves as the verb 'to have the hiccups'.
     ee: ["hedzehedze", "hedzehedze"],  // A reduplicated noun; Westermann also gives dzedze.
@@ -577,7 +577,7 @@ WORDS.hiccup = {
     pi: ["हिक्का", "hikkaː"],  // The same word as Sanskrit हिक्का, whose root is called onomatopoeic.
     nci: ["tziucnoliztli", "tsiuknolistɬi"],  // The noun of tziucnoa 'to hiccup'. No image is recorded for it, so it counts as a word of its own.
     ar_qur: ["فواق", "fuwaːq"],  // From the verb فاق 'to have a hiccup'; Wiktionary (under Najdi Arabic فهاق) takes fuwāq as probably from an onomatopoeic فِق fiq.
-    syc: ["ܦܘܩܬܐ", "pwaːqtaː"],  // Pwāqtā, the same root as Arabic فواق fuwāq (Comprehensive Aramaic Lexicon); no source says whether it imitates the sound.
+    syc: ["ܦܘܩܬܐ", "pwaːqtaː"],  // Pwāqtā, the same root as Arabic فواق fuwāq (Comprehensive Aramaic Lexicon), which Wiktionary takes as probably from an onomatopoeic fiq. Route by resemblance to the neighbouring forms (ar(فواق)).
     ja_heian: ["噦り", "sakuɾi"],  // さくり, cited from the Wamyō Ruijushō in Daijisen; the older form of しゃくり, from the verb sakuru 'to hiccup'. Route by resemblance to the neighbouring forms (ja_kanbun(噦) ja_chu(噦)); no etymology of its own.
     ko_kp: ["딸꾹질", "t͈alk͈ukt͈ɕil"],  // 딸꾹, the sound of a hiccup, + -질 'act of doing', as in the South.
     vi_c: ["nấc cụt", "nək˧˦ kuk˧˩"],  // The same word as standard Vietnamese; Huế has -k for final -t after u, as in its út. Route by resemblance to the neighbouring forms (vi(nấc cụt)); no etymology of its own.
@@ -689,8 +689,8 @@ WORDS.hiccup = {
     udi: ["бекӏтӏосун", "bekʼtʼosun"],  // IDS Udi, the row's list. Palochka and IPA from the row's pairs.
     kjj: ["гаьгирмишкувал", "ɡæɡirmiʃkʰuval"],  // IDS Khinalug, the row's list. Palochka and IPA from the row's pairs.
     abe: ["chachapsolowôgan", "tʃatʃapsolowɔ̃ɡan"],  // Laurent p.23: "Chachapsolowôgan. The hiccough, hiccup."
-    srm: ["tekútekú", "tekútekú"],  // WOLD Saramaccan, the list this row matches. Tie bars removed and spaces restored, as the row.
-    crs: ["loke", "loke"],  // WOLD Seychelles Creole, the list this row matches. Tie bars removed and spaces restored, as the row.
+    srm: ["tekútekú", "tekútekú"],  // WOLD Saramaccan, the list this row matches.
+    crs: ["loke", "loke"],  // WOLD Seychelles Creole, the list this row matches.
     kum: ["гьынкъ этмек", "hɨnq etmek"],  // IDS Kumyk, the list this row matches. IPA from the row's pairs.
     nog: ["сыкылдав", "sɨqɨlˈdaw"],  // IDS Nogai, the list this row matches. IPA from the row's pairs.
     gmh: ["roffezen", "ˈrɔfətsən"],  // IDS Middle High German, the list this row matches. IPA from the row's pairs.

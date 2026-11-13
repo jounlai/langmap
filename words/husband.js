@@ -74,7 +74,7 @@ WORDS.husband = {
   family: {
     lb: "man",
     cic: "man",
-    bin: "unknown",
+    bin: "own",
     trn: "own",
     ayl: "own",
     abv: "own",
@@ -161,7 +161,7 @@ WORDS.husband = {
     ar_gulf: "own",
     mey: "own",
     mt: "man",
-    ha: "unknown",
+    ha: "own",
     xh: "own",
     ln: "own",
     af: "own",
@@ -196,7 +196,7 @@ WORDS.husband = {
     sms: "own",
     sjd: "own",
     vro: "man",
-    gn: "unknown",
+    gn: "own",
     yrl: "own",
     as: "lord",
     or: "own",
@@ -216,8 +216,8 @@ WORDS.husband = {
     ff: "man",
     dds: "own",
     tzo: "own",
-    jiv: "unknown",
-    acu: "unknown",
+    jiv: "own",
+    acu: "own",
     arn: "own",
     kl: "own",
     ce: "own",
@@ -231,7 +231,7 @@ WORDS.husband = {
     kbd: "man",
     os: "own",
     mni: "unknown",
-    new: "unknown",
+    new: "own",
     mdr: "own",
     war: "own",
     ks: "house",
@@ -258,15 +258,15 @@ WORDS.husband = {
     ba: "man",
     ksw: "own",
     ee: "unknown",
-    kr: "unknown",
+    kr: "man",
     ess: "own",
     dsb: "own",
     kw: "own",
     mch: "own",
     tob: "spouse",
-    plg: "unknown",
+    plg: "spouse",
     moc: "spouse",
-    crt: "unknown",
+    crt: "own",
     jup: "other",
     mns: "man",
     tsg: "own",
@@ -276,17 +276,17 @@ WORDS.husband = {
     mfe: "own",
     crs: "own",
     gcf: "own",
-    mnk: "unknown",
+    mnk: "man",
     bqi: "own",
     bsk: "own",
     srn: "man",
     srm: "own",
     blc: "own",
     quz: "own",
-    quy: "unknown",
+    quy: "own",
     khb: "own",
     bej: "spouse",
-    bdq: "unknown",
+    bdq: "own",
     bbl: "own",
     qxq: "own",
     bew: "lord",
@@ -413,8 +413,8 @@ WORDS.husband = {
     qwc: "own",
     ota: "own",
     xag: "other",
-    p_tun: "unknown",
-    puaz: "unknown",
+    p_tun: "own",
+    puaz: "own",
     el_kath: "man",
     pi_edu: "lord",
     goh: "man",
@@ -514,7 +514,7 @@ WORDS.husband = {
     tzm: "man",
     nhe: "other",
     nd: "own",
-    luo: "unknown",
+    luo: "man",
     nyn: "man",
     eve: "own",
     iso: "man",
@@ -525,7 +525,7 @@ WORDS.husband = {
     bgc: "own",
     toi: "own",
     pjt: "man",
-    win: "unknown",
+    win: "own",
     kgp: "own",
     hop: "own",
     bor: "own",
@@ -597,7 +597,7 @@ WORDS.husband = {
   data: {
     lb: ["Mann", "mɑn"],
     cic: ["i̱hattak", "ĩːhattak"],  // i- 'his/her' + hattak 'man, person' (Wiktionary).
-    bin: ["ọdafẹn", "ɔdafɛ̃"],
+    bin: ["ọdafẹn", "ɔdafɛ̃"],  // The word for man is okpia (Melzian's Bini dictionary, which gives odafe for husband).
     trn: ["-ima", "ima"],  // The IDS Trinitario list gives oʔʸono for man and -yeno for wife.
     ayl: ["زوج", "zaudʒ"],
     abv: ["زوج", "zaudʒ"],
@@ -684,7 +684,7 @@ WORDS.husband = {
     ar_gulf: ["ريل", "ˈrəjɪl"],
     mey: ["زوج", "zaudʒ"],
     mt: ["raġel", "ˈraːdʒɛl"],
-    ha: ["miji", "midʒiː"],
+    ha: ["miji", "midʒiː"],  // The IDS and WOLD Hausa lists give namiji for man beside miji for husband.
     xh: ["umyeni", "um̩jeːni"],
     ln: ["mobali", "mobali"],
     af: ["eggenoot", "ˈɛχəˌnuə̯t"],
@@ -719,7 +719,7 @@ WORDS.husband = {
     sms: ["kuõjj", "kuəʝːɐ"],
     sjd: ["кӯйй", "kuːjː"],
     vro: ["mees", "mees"],  // The same word means man (Wiktionary: miiś 'man; husband').
-    gn: ["ména", "mena"],
+    gn: ["ména", "mena"],  // The word for man is kuimba'e or ava (Ñe'ẽryru dictionary).
     yrl: ["mena", "ˈmẽna"],  // The word for man is apigawa (Wiktionary).
     as: ["স্বামী", "sɑmi"],
     or: ["ସ୍ୱାମୀ", "swami"],
@@ -739,8 +739,8 @@ WORDS.husband = {
     ff: ["gorko", "ɡorko"],
     dds: ["ígɛ̀", "iɡɛ"],  // Heath's Donno So list gives ánná for man and yà:ná for wife.
     tzo: ["malalil", "malalil"],
-    jiv: ["áishri", "aishɾi"],
-    acu: ["áishri", "aishɾi"],
+    jiv: ["áishri", "aishɾi"],  // The word for man is aishmank (Wiktionary); NorthPeruLex gives áish for husband.
+    acu: ["áishri", "aishɾi"],  // The word for man is aishmang (Wiktionary); NorthPeruLex gives áishri for husband.
     arn: ["füta", "futa"],
     kl: ["ui", "ui"],
     ce: ["мар", "ˈmaːr"],
@@ -754,7 +754,7 @@ WORDS.husband = {
     kbd: ["лӏы", "ɬʼə"],  // Also 'man' (Wiktionary).
     os: ["мой", "moj"],
     mni: ["ꯁꯥꯕꯤ", "sabi"],
-    new: ["भातः", "bʱatəː"],
+    new: ["भातः", "bʱatəː"],  // The word for man is mijaṃ (Hale's Newar list); भातः is likely from Sanskrit भर्ता.
     mdr: ["muwane", "muwane"],
     war: ["bana", "ˈbana"],  // The word for man is lalaki (Wiktionary); asawa means spouse of either sex.
     ks: ["خانہٕ دار", "kʰaːnɨdaːr"],
@@ -781,15 +781,15 @@ WORDS.husband = {
     ba: ["ир", "ir"],
     ksw: ["ဝၤ", "wà"],  // The word for man is ပိာ်ခွါ (Wiktionary); Luangthongkum's Sgaw list gives khwa for man beside wa for husband.
     ee: ["srɔ̃ŋutsu", "srɔ̃ŋutsu"],
-    kr: ["kwâ", "kwa"],
+    kr: ["kwâ", "kwa"],  // The same word means man: the WOLD Kanuri list gives kwâ for both man and husband.
     ess: ["уги", "uɡi"],
     dsb: ["cłowjek", "ˈtswɔvʲɛk"],
     kw: ["gour", "ɡuːr"],  // The word for man is den (Wiktionary); gour has 'man' only as a second sense.
     mch: ["inño", "inɲo"],  // The word for man is yanwaa (Wiktionary).
     tob: ["l-wa", "lwa"],  // The same word means wife: the IDS Toba list gives l-wa for both, as does the Chaco languages list (lhua).
-    plg: ["l-owa", "lowa"],
+    plg: ["l-owa", "lowa"],  // The same word means wife: the IDS Pilagá list gives l-owa for both, as does KinBank.
     moc: ["l-owa", "lowa"],  // The same word means wife: the IDS Mocoví list gives l-owa for both, as does the Chaco languages list (loua).
-    crt: ["-kilwaʔ ~ -c̷ilwaʔ ~ -ilwaʔ", "kilwaʔ"],
+    crt: ["-kilwaʔ ~ -c̷ilwaʔ ~ -ilwaʔ", "kilwaʔ"],  // The IDS Chorote list gives ayinye for man and -kilfʷaʔ for wife.
     jup: ["tæ̃hʔíp", "tæ̃hʔíp"],  // Literally 'child's father': the WOLD Hup list gives tæ̃h 'son, offspring' and ʔíp 'father', and the wife is tæ̃hʔín, 'child's mother'.
     mns: ["о̄йка", "oːjka"],
     tsg: ["bana", "bana"],
@@ -799,17 +799,17 @@ WORDS.husband = {
     mfe: ["mari", "mari"],
     crs: ["mari", "mari"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     gcf: ["mahwi", "mahwi"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
-    mnk: ["kee", "keː"],
+    mnk: ["kee", "keː"],  // The same word means man: Macbrair's Mandingo grammar lists keo for both man and husband, as muso is woman and wife.
     bqi: ["میره", "mejre"],
     bsk: ["-úyar", "ˈujer"],
     srn: ["man", "man"],
     srm: ["mánu", "mánu"],  // The WOLD Saramaccan list gives wómi for man and koósuma for wife.
     blc: ["kwtmts", "kʷtmts"],  // The word for man is imlk (Wiktionary).
     quz: ["wosa", "wosa"],  // The word for man is qhari (Cross-Andean list).
-    quy: ["qari", "qari"],
+    quy: ["qusa", "qusa"],  // Qusa is the husband; qari, which the cell held before, is 'man' (Wiktionary qusa 'husband'; the Cross-Andean list gives qosa for husband).
     khb: ["ᦷᦕ", "pʰoː˥"],
     bej: ["hiyu", "hiju"],
-    bdq: ["klo", "klɔː"],
+    bdq: ["klo", "klɔː"],  // A different word from drŏ-nglo 'man' (Wiktionary), as the wife akăn differs from drŏ-kăn 'woman'.
     bbl: ["მარ", "mar"],  // The IDS Tsova-Tush list gives стIакI for man and пстIуйн for wife.
     qxq: ["ər", "ær"],
     bew: ["suami", "suami"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
@@ -936,8 +936,8 @@ WORDS.husband = {
     qwc: ["qusa", "qusa"],
     ota: ["قوجه", "koˈdʒa"],  // Possibly a doublet of hoca "master".
     xag: ["usbo", "usbo"],  // Probably a fossilized dative plural of *us "man".
-    p_tun: ["*edī", "ediː"],  // Married man, husband; no man word beside it in the source.
-    puaz: ["*kuNa", "kuNa"],  // No man word beside it in the source.
+    p_tun: ["*edī", "ediː"],  // Married man, husband; the word for man is *ńārī (Wiktionary), and Benzing derives *edī from an affectionate form of *edē 'man'.
+    puaz: ["*kuNa", "kuNa"],  // The word for man is *takaC (Wiktionary).
     el_kath: ["ἀνήρ", "aˈnir"],  // Also "man".
     pi_edu: ["pati", "pati"],  // Also "lord, master".
     goh: ["man", "man"],  // Also "man".
@@ -1037,7 +1037,7 @@ WORDS.husband = {
     tzm: ["ⴰⵔⴳⴰⵣ", "arɡaz"],  // ⴰⵔⴳⴰⵣ is also 'man'.
     nhe: ["huehue", "ˈwewe"],  // huehue is also 'old man'.
     nd: ["umyeni", "umjeni"],
-    luo: ["chuora", "tʃuora"],
+    luo: ["chuora", "tʃuora"],  // The same word means man: Odaga's English–Dholuo dictionary gives dichwo for husband and dichuo (plural chuo) for man; chuora is a possessed form of the same stem.
     nyn: ["omushaija", "omuʃiːdʒa"],  // omushaija is also 'man'.
     eve: ["эди", "ədi"],
     iso: ["ọzaị", "ɔzai"],  // ọzaị is also 'man'.
@@ -1048,7 +1048,7 @@ WORDS.husband = {
     bgc: ["भरतार", "bʱərtaːr"],
     toi: ["mwaalumi", "mwaːlumi"],
     pjt: ["wati", "ˈwati"],  // wati is also 'man'.
-    win: ["hikąną", "hikãnã"],
+    win: ["hikąną", "hikãnã"],  // The word for man is wąąk (Comparative Siouan Dictionary, which gives hikąną́ for husband).
     kgp: ["mén", "mɛn"],
     hop: ["koongya", "koːŋja"],
     bor: ["oredu", "oɾedu"],

@@ -136,7 +136,7 @@ const DEBT = {};
 // one form, and no source says whether Siwi splits inclusive and exclusive.
 // 2026-10-25: we 44 -> 45 — zh_jiao 我们 (Wiktionary dial-syn, new Qingdao row): the
 // 咱們 module has no Qingdao line, so no source says Qingdao has an inclusive form.
-const UNDECIDED = { we: { route: 'unknown', max: 45 }, bear: { route: 'unknown', max: 22 }, foot: { route: 'unknown', max: 24 } };
+const UNDECIDED = { we: { route: 'unknown', max: 35 }, bear: { route: 'unknown', max: 21 }, foot: { route: 'unknown', max: 22 } };
 
 let violations = 0;
 const notes = [];

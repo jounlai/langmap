@@ -295,7 +295,7 @@ WORDS.wife = {
     hsb: "woman",
     as: "own",
     tk: "own",
-    lld: "unknown",
+    lld: "own",
     rgn: "own",
     cdo: "other",
     nap: "own",
@@ -344,7 +344,7 @@ WORDS.wife = {
     hsn: "woman",
     fro: "woman",
     akk: "own",
-    yo: "unknown",
+    yo: "own",
     tab: "unknown",
     mnp: "other",
     tpn: "own",
@@ -365,7 +365,7 @@ WORDS.wife = {
     wuu_sz: "woman",
     wuu_nb: "other",
     wuu_jh: "other",
-    wuu_wz: "unknown",
+    wuu_wz: "own",
     cjy_lv: "unknown",
     cjy_xz: "woman",
     hsn_hy: "woman",
@@ -389,7 +389,7 @@ WORDS.wife = {
     mnk: "woman",
     mwl: "woman",
     naq: "woman",
-    new: "unknown",
+    new: "own",
     nhx: "woman",
     osp: "woman",
     pap: "spouse",
@@ -448,7 +448,7 @@ WORDS.wife = {
     vot: "woman",
     djk: "woman",
     gor: "own",
-    tar: "unknown",
+    tar: "own",
     dlg: "woman",
     bej: "spouse",
     bgc: "woman",
@@ -469,7 +469,7 @@ WORDS.wife = {
     khw: "own",
     eve: "woman",
     sd: "unknown",
-    xkz: "unknown",
+    xkz: "own",
     txg: "own",
     ett: "unknown",
     squ: "own",
@@ -483,7 +483,7 @@ WORDS.wife = {
     tzm: "woman",
     xpg: "woman",
     tay: "woman",
-    obr: "unknown",
+    obr: "own",
     pms: "woman",
     fax: "woman",
     dz: "woman",
@@ -734,7 +734,7 @@ WORDS.wife = {
     hsb: ["žona", "ˈʒɔna"],  // The same word means woman.
     as: ["ঘৈণী", "ɡʱoini"],  // From Sanskrit gṛhiṇī 'housewife'; the word for woman is মহিলা mohila.
     tk: ["aýal", "aˈjal"],  // Also 'married woman'; the word for woman is zenan, and gyz is an unmarried woman.
-    lld: ["fëna", "ˈfəna"],  // Gherdëina; the entry also gives 'lady' but no separate word for woman.
+    lld: ["fëna", "ˈfəna"],  // The word for woman is ëila; fëna is the 'Ehefrau' sense (Forni's German–Gardenese dictionary).
     rgn: ["mój", "moj"],  // Inherited from Latin mulierem 'woman, wife'; the word for woman is dòna, and mujéṟ is a synonym.
     cdo: ["老妈", "lau˨˦˨ ma˧˧"],  // Literally 'old mother'; the same word means mum and old woman, and is 'wife' in Eastern Min.
     nap: ["mugliera", "muʎˈʎɛrə"],  // From Latin mulierem 'woman'; the word for woman is femmena, which can also mean wife.
@@ -783,7 +783,7 @@ WORDS.wife = {
     hsn: ["堂客", "tan˩˧ kʰɤ˨˦"],  // In Xiang the same word also means a (married) woman.
     fro: ["fame", "ˈfãmə"],  // The same word means woman, especially of lower rank; dame was the word for a lady.
     akk: ["𒁮", "aʃʃatu"],  // The word for woman is sinništu; the sign DAM 'spouse' also writes mutu 'husband'.
-    yo: ["aya", "aja"],  // Its husband counterpart is ọkọ; the source gives no woman word beside it.
+    yo: ["aya", "aja"],  // The word for woman is obìnrin, which can also mean wife; ìyàwó is another word for wife.
     tab: ["хпиб", "χpib"],  // Glossed both 'female' and 'wife'; no word for woman is set beside it in the same source.
     mnp: ["老妈", "se˥˥ ma˨˩"],  // Literally 'old mother'; in Northern Min this word means wife, elsewhere mum or an old woman, as Eastern Min 老妈.
     tpn: ["emirekó", "ɛ̃miɾɛˈkɔ"],  // Literally 'what someone has with oneself'; the word for woman is kunhã.
@@ -804,7 +804,7 @@ WORDS.wife = {
     wuu_sz: ["女人", "ȵy˨˧˩ ȵiən˨˨˧"],  // The same word as 女人 'woman', listed first for Suzhou.
     wuu_nb: ["老婆", "lɔ˩˩˧ bəu˧˩˧"],  // Literally 'old woman', the everyday word for a wife; the word for woman is 女人.
     wuu_jh: ["老婆", "lɑu˥˧˥ bɤ˧˩˧"],  // Literally 'old woman', the everyday word for a wife; the word for woman is 女人.
-    wuu_wz: ["老安", "lɜ˧˦ ʔjy˧˧"],  // The everyday Wenzhou word for a wife.
+    wuu_wz: ["老安", "lɜ˧˦ ʔjy˧˧"],  // A word of its own: Wiktionary's dialect tables give 女個 and 老人客 for a Wenzhou woman.
     cjy_lv: ["婆姨", "pʰuo˦˦ zɿ˦˦"],  // A northern dialect word for a wife; Wiktionary glosses it wife, married woman.
     cjy_xz: ["女人", "ny˧˩˧ ʐəŋ˧˩"],  // The same word as 女人 'woman', listed first for Xinzhou.
     hsn_hy: ["堂客", "tan˩˩˨ kʰa˨˨"],  // The same word as 堂客 'woman' in Hengyang.
@@ -828,7 +828,7 @@ WORDS.wife = {
     mnk: ["muso", "muso"],  // The same word means woman and wife.
     mwl: ["mulhier", "muˈʎjeɾ"],  // The same word means woman and wife; from Latin mulier.
     naq: ["taras", "taras"],  // The same word means female, woman and wife.
-    new: ["कलाः", "kəlaː"],  // The entry gives this one form, with no woman word beside it to compare.
+    new: ["कलाः", "kəlaː"],  // The word for woman is misā (Hale's Newar list).
     nhx: ["sihua̱ꞌ", "siwaːʔ"],  // The same word means woman and wife; cognate with Classical Nahuatl cihuātl.
     osp: ["mugier", "muˈʒeɾ"],  // From Latin mulierem; the same word means woman and wife.
     pap: ["kasá", "kaˈsa"],  // The same word means wife and husband; from Portuguese dona de casa and Spanish ama de casa.
@@ -887,7 +887,7 @@ WORDS.wife = {
     vot: ["nain", "nain"],  // The same word means woman; from Proto-Finnic nainën.
     djk: ["uman", "uman"],  // The same word means woman; from English woman.
     gor: ["binggele", "biŋɡele"],  // Wiktionary gives taa bua for woman, a different word.
-    tar: ["upí", "upi"],  // Cognate with Mayo juubi 'wife'; no word for woman is given beside it.
+    tar: ["upí", "upi"],  // Hilton's Tarahumara dictionary gives muqui for woman and cuna for husband.
     dlg: ["дьактар", "dʲaktar"],  // The same word means woman; cognate with Yakut дьахтар.
     bej: ["hiyu", "ˈhiju"],  // The same word means husband.
     bgc: ["बीर", "biːr"],  // The same word means woman.
@@ -908,7 +908,7 @@ WORDS.wife = {
     khw: ["بؤوک", "bɔˈʊk"],  // From Sanskrit vadhūkkā 'bride'; the word for woman is کمیری kimeri (Wiktionary).
     eve: ["аси", "asi"],  // One word for woman and wife, from Proto-Tungusic *asī.
     sd: ["جوءِ", "dʒoːi"],  // Inherited from Prakrit juvaï, from Sanskrit युवति yuvatí 'young woman'; the entry gives no word for woman beside it.
-    xkz: ["’nêsang", "néːsaŋ"],  // Related to Dzongkha གནས་ཚང gnas tshang; the source gives no word for woman beside it.
+    xkz: ["’nêsang", "néːsaŋ"],  // Hyslop's Kurtöp grammar gives nésaŋ for wife and 'ama or moja for woman.
     txg: ["𗪰", "ɡji˧˥"],  // A word of its own; the word for woman is 𗶈 *dẹ¹.
     ett: ["puia", "ˈpuia"],  // Perhaps related somehow to Ancient Greek ὀπυίω 'to marry'; no Etruscan word for woman stands beside it.
     squ: ["chewásh", "tʃəwaʃ"],  // A married woman; the word for woman is slhánay̓ (Wiktionary).
@@ -922,7 +922,7 @@ WORDS.wife = {
     tzm: ["ⵜⴰⵎⵟⵟⵓⵜⵜ", "tamtˤːutː"],  // Inherited from Proto-Berber; the same word means woman and wife.
     xpg: ["knais", "knais"],  // From Proto-Indo-European *gʷneh₂- 'woman'; the same word means woman and wife.
     tay: ["kneril", "kəneril"],  // The same word means woman and wife.
-    obr: ["မိယဟ်", "mijah"],  // From Proto-Lolo-Burmese *m-ja² 'wife'.
+    obr: ["မိယဟ်", "mijah"],  // The Old Burmese word for woman is minḥ-ma (Sagart's and Lai's Old Burmese lists).
     pms: ["fomna", "ˈfumnɐ"],  // From Latin fēmina; the same word means woman and wife.
     fax: ["mullel", "muˈʎel"],  // Inherited from Old Galician-Portuguese moller; the same word means woman and wife.
     dz: ["ཨམ་སྲུ", "amsu"],  // The same word means woman and wife.

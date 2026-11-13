@@ -493,7 +493,7 @@ WORDS.potato = {
     cr: "other",
     abq: "truffle",
     kjb: "other",
-    toj: "unknown",
+    toj: "other",
     ixl: "other",
     crs: "earth",
     mzh: "papa",
@@ -1017,7 +1017,7 @@ WORDS.potato = {
     cr: ["ᐊᐢᑭᑇᐏ", "askipwaːwi"],  // Plains Cree askipwâwi, glossed 'potato, wild potato' by Wolvengrey's Cree: Words and 'potato' by the Alberta Elders' Cree Dictionary; napatâk is also listed for potato. Route by resemblance to the neighbouring forms (crk(ᐊᐢᑭᑇᐏ)); no etymology of its own.
     abq: ["кӏартӏоф", "kʼartʼof"],  // A loan of Russian картофель, ultimately from Italian tartufolo 'truffle' (the dictionary prints the palochka as I).
     kjb: ["is", "is"],  // The Mayan sweet-potato word is (Proto-Mayan *iihs), glossed 'papa' by the Mayan Languages Academy vocabulary.
-    toj: ["kamutiyo", "kamutijo"],  // Glossed 'papa' (potato) by the Tojol-ab'al vocabulary, also spelt kamotiyo; the sweet potato is isak'.
+    toj: ["kamutiyo", "kamutijo"],  // Glossed 'papa' (potato) by the Tojol-ab'al vocabulary, also spelt kamotiyo: it is Spanish camotillo, 'little camote' (camote 'sweet potato' + -illo, Wiktionary), so the potato is named as a small sweet potato; the San Cristóbal Tsotsil dictionary likewise glosses isak' 'papa; camotillo, camote'. The sweet potato itself is isak'.
     ixl: ["is", "is"],  // The Mayan sweet-potato word is (Proto-Mayan *iihs), carried over to the potato; the sweet potato is kaq is 'red is' (Chajul dictionary).
     crs: ["ponmdeter", "pɔ̃mdetɛr"],  // From French pomme de terre, literally 'apple of the earth'; patat is the sweet potato.
     mzh: ["papa", "papa"],  // Borrowed from Spanish papa.
@@ -1097,7 +1097,7 @@ WORDS.potato = {
     udi: ["кӏартӏопӏи", "kʼartʼopʼi"],  // IDS Udi, the row's list. Route as its neighbours. Palochka and IPA from the row's pairs.
     kjj: ["картышкка", "kʰartʰɨʃkːa"],  // IDS Khinalug, the row's list. Route as its neighbours. Palochka and IPA from the row's pairs.
     chb: ["iomza", "iomsa"],  // Uricoechea: "Papa, turma de tierra, iomza : iomuy"; two scans; IPA z as s is my reading
-    srm: ["pomtë́", "pomtë́"],  // WOLD Saramaccan, the list this row matches. Tie bars removed and spaces restored, as the row. Route by resemblance to the neighbouring forms (gcr(ponmtè)); no etymology of its own.
+    srm: ["pomtë́", "pomtë́"],  // WOLD Saramaccan, the list this row matches. Route by resemblance to the neighbouring forms (gcr(ponmtè)); no etymology of its own.
     mdh: ["patatas", "patatas"],  // Maguindanao patatas 'potato' (SEAlang), the Spanish word.
     esu: ["patitussaaq", "patitusaːq"],  // Borrowed from English potatoes; kantuuvvilaq, from Russian картофель, is also used.
     bew: ["artapel", "artapəl"],  // Borrowed from Dutch aardappel, literally 'earth apple'.

@@ -246,7 +246,7 @@ WORDS.thumb = {
     nia: "big",
     nog: "other",
     av: "unknown",
-    os: "unknown",
+    os: "other",
     arn: "big",
     ur: "plain",
     ta: "big",
@@ -580,10 +580,10 @@ WORDS.thumb = {
     car: "mother",
     mus: "mother",
     aer: "plain",
-    tao: "unknown",
+    tao: "other",
     pyu: "plain",
     vep: "plain",
-    aqc: "unknown",
+    aqc: "plain",
     ia: "plain",
     stq: "plain",
     chy: "big",
@@ -615,7 +615,7 @@ WORDS.thumb = {
     jup: "big",
     srm: "big",
     crt: "big",
-    moc: "unknown",
+    moc: "mother",
     tob: "mother",
     es_gt: "plain",
     es_do: "plain",
@@ -855,7 +855,7 @@ WORDS.thumb = {
     nia: ["turu sebua", "turu sebua"],  // turu means 'finger'. Sebua is the Nias word for 'big', so the phrase is 'big finger'.
     nog: ["бас бармак", "bas barmaq"],  // Literally 'head finger', бас 'head' + бармак 'finger', the Nogai form of Turkish başparmak.
     av: ["буртӏинкилищ", "burtʼinkiliʃː"],  // Ends in килищ 'finger'; the first element is not explained in the sources, and dialects say кӏудаб гилищ 'big finger'.
-    os: ["хистӕр ӕнгуылдз", "xistær ænɡʷɨldz"],  // The second word is ӕнгуылдз 'finger'; the sense of хистӕр here was not checked in a dictionary.
+    os: ["хистӕр ӕнгуылдз", "xistær ænɡʷɨldz"],  // Literally 'elder finger': хистӕр 'elder, senior' + ӕнгуылдз 'finger'. Guriev's Ossetic–Russian–English dictionary gives хистӕр ӕнгуылдз 'thumb' under хистӕр, beside хистӕр фырт 'eldest son', so the thumb is the senior finger, like Bengali বুড়ো আঙ্গুল 'old finger'.
     arn: ["fütra changüll kuwü", "fɨʈʂa tʃaŋɨʎ kuwɨ"],  // Literally 'big finger of the hand', fütra 'big' + changüll 'finger' + kuwü 'hand' (WOLD).
     ur: ["انگوٹھا", "əŋɡuːʈʰaː"],  // Inherited from Sanskrit aṅguṣṭha 'thumb, big toe'; the same word also names the big toe.
     ta: ["பெருவிரல்", "peɾuʋiɾal"],  // Literally 'big finger' (peru 'big' + viral 'finger'); it also names the big toe, and kaṭṭaiviral is a common synonym.
@@ -923,7 +923,7 @@ WORDS.thumb = {
     kaa: ["bas barmaq", "bas barmaq"],  // Literally 'head finger' (bas 'head' + barmaq 'finger'); with ayaq 'foot' it names the big toe.
     kj: ["omunwe wakula", "omunwe wakula"],  // omunwe 'finger' + wakula; with omhadi 'foot' the same phrase names the big toe.
     krc: ["баш бармакъ", "baʃ barmaq"],  // Literally 'head finger' (баш 'head' + бармакъ 'finger'); with аякъ 'foot' it names the big toe.
-    lif: ["ᤜᤢᤰᤔᤠ", "hukma"],  // Built on ᤜᤢᤰ 'hand' (with the possessive prefix ku- in the Bible); the big toe is likewise built on ᤗᤠᤱ 'foot'.
+    lif: ["ᤜᤢᤰᤔᤠ", "hukma"],  // Built on ᤜᤢᤰ 'hand' (with the possessive prefix ku- in the Bible); the big toe is likewise built on ᤗᤠᤱ 'foot'. Van Driem's Limbu grammar (1987) derives hukma from huk 'hand', as laŋma 'big toe' from laŋ 'foot' and hama 'molars' from ha 'teeth', but does not say what -ma adds.
     loz: ["munwana o mutuna", "munwana o mutuna"],  // Literally 'the big finger'; with lihutu 'foot' it names the big toe.
     lus: ["kutzungpui", "kutzuŋpui"],  // kut 'hand' + zungpui 'thumb; big toe'; Lorrain's dictionary gives pui as both 'mother' and 'big', so the image is open.
     mhr: ["кугыварня", "kuɡəvarɲa"],  // Literally 'big finger' (кугу 'big' + парня 'finger'); with йол 'foot' it names the big toe.
@@ -1030,7 +1030,7 @@ WORDS.thumb = {
     dyu: ["bolokunnadenba", "bolokunnadenba"],  // Built on bolokunnaden 'finger' + -ba 'big'; the big toe is senkunnadenba.
     ti: ["ዓባይቶ", "ʕabajto"],  // Built on ዓባይ, a form of ዓቢ 'big', with the -ቶ ending of the other finger names; Tigrinya Wikipedia writes ዓባይ ዓባይቶ.
     hil: ["kumalagko", "kumalaɡˈkoʔ"],  // The same word also serves for the big toe ('kumalagko sang tiil'); Kaufmann's 1934 dictionary also lists kamomóo. Route by resemblance to the neighbouring forms (ceb(kumalagko)); no etymology of its own.
-    ak: ["kokurobetie", "kokurobetie"],  // Akuapem Bibles spell it kokurobeti; LearnAkan's dictionary gives kokuromotie.
+    ak: ["kokurobetie", "kokurobetie"],  // Akuapem Bibles spell it kokurobeti; LearnAkan's dictionary gives kokuromotie. Christaller's Twi dictionary glosses kokurobeti 'the thumb' (and, with nan 'foot', the large toe) beside kokuro 'great, large, big', but does not gloss the -beti part.
     qu: ["mama rukʼana", "ˈmama ɾuˈkʼana"],  // Literally 'mother finger', mama 'mother' + ruk'ana 'finger'; kuraq ruk'ana 'eldest finger' is also listed, and Quechua Bibles say mama dedo with the Spanish loan.
     shi: ["ⵉⴽⵎⵣ", "ikmz"],  // Inherited from Proto-Berber; Wiktionary links it synchronically to the verb kmz 'to scratch'.
     ks: ["نۄٹھ", "noʈʰ"],  // From Sanskrit aṅguṣṭha 'thumb', the source of Hindi aṅgūṭhā; khōra-nyŏṭh 'foot-thumb' is the big toe.
@@ -1189,10 +1189,10 @@ WORDS.thumb = {
     car: ["aina jumy", "aina jumɨ"],  // Literally 'father of the hand' (aina 'hand' + jumy 'father').
     mus: ["enk-ecke", "iŋkítʃki"],  // Literally 'mother of the hand' (enke 'his/her hand' + ecke 'his/her mother'); the big toe is ele-ecke, 'mother of the foot'.
     aer: ["pwelpwele", "pʷəlpʷələ"],  // The Eastern Arrernte word for the thumb, a reduplicated form. Wiktionary gives no etymology. No image is recorded for it, so it counts as a word of its own.
-    tao: ["tararakeh", "tararakəh"],  // Glossed 'thumb' (大拇指) in the ILRDF Yami dictionary.
+    tao: ["tararakeh", "tararakəh"],  // Glossed 'thumb' (大拇指, 拇指) in the ILRDF Yami dictionary. It contains rarakeh 'old person, elder' (老人；年長者；長輩) and rakeh 'eldest' (最年長的), both in the same dictionary, so the thumb is the eldest of the fingers, like Bengali বুড়ো আঙ্গুল 'old finger'; the dictionary does not segment it.
     pyu: ["atrengalran", "aʈəŋalan"],  // The Nanwang Puyuma word for the thumb in the ILRDF dictionary, which uses it in 'the thumb is shorter than the index finger'. No image is recorded for it, so it counts as a word of its own.
     vep: ["peigol", "ˈpeiɡol"],  // The same old Finnic word as Finnish peukalo and Estonian pöial, from Proto-Finnic *peikälo.
-    aqc: ["беӏкӏырттен гон", "beˤkʼərtːen ɡon"],  // Built on гон 'finger'; the Surrey Archi dictionary gives it as the word for the thumb.
+    aqc: ["беӏкӏырттен гон", "beˤkʼərtːen ɡon"],  // Built on гон 'finger'; the Surrey Archi dictionary gives it as the word for the thumb. The World Loanword Database's Archi list (Chumakina) calls беӏкӏырттен гон unanalysable, with no evidence of borrowing; IDS also has доӏзуб гон 'big finger'. No image is recorded for it, so it counts as a word of its own.
     ia: ["pollice", "ˈpolitse"],  // From Latin pollex, pollicis 'thumb', like Italian pollice; the Interlingua-English Dictionary marks the stress on the first syllable (pól-) and also gives the sense 'inch'.
     stq: ["Tume", "ˈtumə"],  // Inherited from Old Frisian thūma, the same Germanic word as German Daumen and West Frisian tomme.
     chy: ["maʼxemoʼēško", "maʔxemoʔeʃko"],  // Literally 'big finger', per the Cheyenne Dictionary of Chief Dull Knife College; ma'haa'émo'ēško is a synonym.
@@ -1224,7 +1224,7 @@ WORDS.thumb = {
     jup: ["cob popǒg", "cob popǒɡ"],  // Literally 'big finger': cǒb 'finger' + popǒg, from póg 'big' (both glossed so in the World Loanword Database, Hup).
     srm: ["gaánfínga", "ɡaánfíŋɡa"],  // Literally 'big finger': gaán 'big' + fínga 'finger' (World Loanword Database, Saramaccan), which also lists mamáfínga 'mother finger'.
     crt: ["jesikiwu", "jesikiwu"],  // Built on -yesikiʔ 'finger' + -wu (IDS Chorote -yesiki-wu); the second part is not glossed. -wu matches wuj, wux 'big' (Chaco languages list; IDS), so it is 'the big finger'.
-    moc: ["lpalaaqate lateʔogeʔ", "lpalaaqate lateʔoɡeʔ"],  // l-palaaḳate 'finger' + lateʔogeʔ (IDS Mocoví); the second word is not glossed in the source.
+    moc: ["lpalaaqate lateʔogeʔ", "lpalaaqate lateʔoɡeʔ"],  // l-palaaḳate 'finger' + lateʔogeʔ, which begins with l-ateʔe 'mother' (both glossed so in IDS Mocoví); the sister languages say 'finger mother' outright, Toba l-[i]aʁaata l-ateʔe and Pilagá l-iaʁata l-atʔe. The ending -ogeʔ is not glossed.
     tob: ["laʁaata lateʔe", "laʁaata lateʔe"],  // Literally 'mother of the fingers': l-[i]aʁaata 'finger' + l-ateʔe 'mother', both glossed so in IDS Toba (and lateʔe is this row's mother).
     es_gt: ["pulgar", "pulˈɣaɾ"],  // The same word as standard Spanish, from Latin pollicāris 'of the thumb'; Wiktionary gives it with no regional label.
     es_do: ["pulgar", "pulˈɣaɾ"],  // The same word as standard Spanish, from Latin pollicāris 'of the thumb'; Wiktionary gives it with no regional label.

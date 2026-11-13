@@ -218,6 +218,8 @@ const pairs = Object.entries(byPair).sort((x, y) => y[1].length - x[1].length);
 // ('I (first person singular)' / 'iron'), homophones.
 // 2026-10-23: cho hashi = sun + sunflower: Wiktionary's Choctaw hashi lists
 // 'sun; luminary; sunflower; moon'. One word, several senses.
+// 2026-11-13: wo baay = father + uncle: Wolof calls the father's brother 'father'
+// (Kobès–Abiven 1923: bây father's brother, nidây mother's brother). Classificatory, one word.
 const LOCK = path.join(__dirname, 'intra_row_dup.lock.json');
 const sig = (h) => `${h.code}|${[h.a, h.b].sort().join('|')}`;
 const current = new Set(hits.map(sig));

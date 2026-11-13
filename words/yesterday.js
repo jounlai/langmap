@@ -630,7 +630,7 @@ WORDS.yesterday = {
     nan_ph: "distinct",
     nan_xm: "distinct",
     nan_zz: "distinct",
-    mhy: "unknown",
+    mhy: "distinct",
     roo: "distinct",
     tab: "distinct",
     xal: "distinct",
@@ -676,7 +676,7 @@ WORDS.yesterday = {
     ch: "distinct",
     ja_oki: "distinct",
     niu: "distinct",
-    mrq: "unknown",
+    mrq: "distinct",
     p_ine: "unknown",
     p_jpn: "distinct",
     p_ryu: "distinct",
@@ -834,7 +834,7 @@ WORDS.yesterday = {
     ckv: "distinct",
     pag: "distinct",
     pam: "distinct",
-    lep: "unknown",
+    lep: "distinct",
     adx: "distinct",
     kim: "distinct",
     tay: "distinct",
@@ -896,10 +896,10 @@ WORDS.yesterday = {
     yrk: "distinct",
     dta: "distinct",
     ksw: "distinct",
-    pao: "unknown",
+    pao: "distinct",
     slr: "distinct",
     chk: "distinct",
-    khw: "unknown",
+    khw: "distinct",
     ono: "unknown",
   },
   routes: {
@@ -1476,7 +1476,7 @@ WORDS.yesterday = {
     nan_ph: ["昨日", "tsa˧˧ lit˨˦"],  // tomorrow: 明仔日; Manila Hokkien uses 昨日, where Xiamen and Taiwan prefer 昨昏.
     nan_xm: ["昨昏", "tsa˨˨ hŋ̍˦˦"],  // tomorrow: 明仔日; 昨日 is also used.
     nan_zz: ["昨昏", "tsã˨˨ huĩ˦˦"],  // tomorrow: 明仔日; also 明仔载.
-    mhy: ["hangkariwe", "haŋkariwe"],  // Used for 'yesterday' in two verses of the Ma'anyan Bible; the tomorrow word was not established.
+    mhy: ["hangkariwe", "haŋkariwe"],  // The word for tomorrow is kequni (Gudai's Maanyan grammar, which gives hingkariweq for yesterday).
     roo: ["aruvea", "aɾuβea"],  // tomorrow: vokipavira; aruvea is used for yesterday in two verses of the Rotokas Bible.
     tab: ["накь", "naqʼ"],  // tomorrow: закур; накь is used for yesterday in Hebrews 13:8, John 4:52 and Acts 7:28 of the Tabasaran Bible.
     xal: ["өцклдүр", "øtskldyr"],  // tomorrow: маңһдур; the Kalmyk Bible uses өцклдүр for yesterday in Hebrews 13:8, John 4:52 and Acts 7:28.
@@ -1522,7 +1522,7 @@ WORDS.yesterday = {
     ch: ["nigap", "ˈniɡap"],  // tomorrow: agupa; nigap is yesterday in John 4:52 and Acts 7:28 of the Chamorro Gospels and Acts.
     ja_oki: ["ちぬー", "tɕinuː"],  // tomorrow: あちゃー; cognate with Japanese きのう, it was spelled ちぬふ in the 1896 Okinawan dictionary, per JLect.
     niu: ["ne afi", "ne afi"],  // tomorrow: pogipogi; ne afi continues Proto-Oceanic *qana-(n)afi, the source of Tongan ʔaneafi.
-    mrq: ["tinahi", "tinahi"],  // tinahi is listed as "hier, yesterday" in Charpentier and François' Marquesan wordlist, cited by POLLEX under East Polynesian *tai-nafi.
+    mrq: ["tinahi", "tinahi"],  // The word for tomorrow is apopo, written abobo in Buschmann's 1843 Marquesan vocabulary, which gives enenahe for yesterday.
     p_ine: ["*dʰǵʰyés", "dʰǵʰjés"],  // Source of Latin herī, Greek χθές, Sanskrit hyás and English yester-; no common PIE word for 'tomorrow' is reconstructed.
     p_jpn: ["*kinəpu", "kinəpu"],  // tomorrow: *asita; *kinəpu ends in *pu 'day', the ancestor of Japanese kinō.
     p_ryu: ["*kinou", "kinou"],  // tomorrow: *asita; recorded as kʰi.ri.u in the Korean Haedong chegukki of 1501.
@@ -1680,7 +1680,7 @@ WORDS.yesterday = {
     ckv: ["siRab", "siʁab"],  // Kavalan word for 'yesterday'; 'tomorrow' is the different word temawaR.
     pag: ["karuman", "kaɾuman"],  // Pangasinan word for yesterday (Hebrews 13:8 karuman, natan 'yesterday, today'); tomorrow is the different word nabwas.
     pam: ["napun", "napun"],  // Kapampangan word for yesterday (Hebrews 13:8; John 4:52); tomorrow is the different word bukas.
-    lep: ["ᰊᰠᰩ", "təsɔ"],  // Glossed 'yesterday' on Wiktionary (IPA /tə.sɔ/, after the Lepcha–English Encyclopedic Dictionary); no word for tomorrow was found to compare, so whether the two are distinct is not recorded here.
+    lep: ["ᰊᰠᰩ", "təsɔ"],  // The word for tomorrow is luk-kăl, from luk 'morning' (Mainwaring's Lepcha dictionary, which gives tă-sŏ for yesterday).
     adx: ["ཁ་རྩང", "kʰahtsaŋ"],  // Written Tibetan kha rtsang, defined in the Dag yig gsar bsgrigs as 'the name of the previous day, the same as kha sang'; Xiahe kha htsaŋ.
     kim: ["дүүн", "dyːn"],  // Not related to the word for 'tomorrow'; Robbeets et al. also record Tofa düün.
     tay: ["hira", "hira"],  // Squliq Atayal word for yesterday; the dictionary also lists hera, shera(ʼ), shiraʼ. Tomorrow is the different word suxan.
@@ -1734,18 +1734,18 @@ WORDS.yesterday = {
     kjj: ["лагъын", "laʁɨn"],  // IDS Khinalug, the row's list. Palochka and IPA from the row's pairs.
     chb: ["muyhica suasa", "mɨhɨka suasa"],  // Uricoechea: "Ayer, muyhica suasa"; two scans; row IPA of muyhy-
     abe: ["wlôgwa", "wlɔ̃ɡʷa"],  // Laurent p.20: "Wlôgwa. Yesterday."
-    nio: ["талу", "tɐlu"],  // NorthEuraLex Nganasan, the list this row matches. Tie bars removed and spaces restored, as the row.
-    enf: ["chenoyu", "tʃʲɛnɔju"],  // NorthEuraLex Forest Enets, the list this row matches. Tie bars removed and spaces restored, as the row. Latin spelling follows the row's pairs; the list prints Cyrillic.
-    smj: ["iektu", "ˈiɛktʊ"],  // NorthEuraLex Lule Sami, the list this row matches. Tie bars removed and spaces restored, as the row.
-    sel: ["тял челы", "tʲal tɕelɨ"],  // NorthEuraLex Northern Selkup, the list this row matches. Tie bars removed and spaces restored, as the row.
-    itl: ["ачињчк", "atʃiɲtʃk"],  // NorthEuraLex Itelmen, the list this row matches. Tie bars removed and spaces restored, as the row.
-    yrk: ["теняна", "tʲeːɲɑnɑ"],  // NorthEuraLex Tundra Nenets, the list this row matches. Tie bars removed and spaces restored, as the row.
+    nio: ["талу", "tɐlu"],  // NorthEuraLex Nganasan, the list this row matches.
+    enf: ["chenoyu", "tʃʲɛnɔju"],  // NorthEuraLex Forest Enets, the list this row matches. Latin spelling follows the row's pairs; the list prints Cyrillic.
+    smj: ["iektu", "ˈiɛktʊ"],  // NorthEuraLex Lule Sami, the list this row matches.
+    sel: ["тял челы", "tʲal tɕelɨ"],  // NorthEuraLex Northern Selkup, the list this row matches.
+    itl: ["ачињчк", "atʃiɲtʃk"],  // NorthEuraLex Itelmen, the list this row matches.
+    yrk: ["теняна", "tʲeːɲɑnɑ"],  // NorthEuraLex Tundra Nenets, the list this row matches.
     dta: ["udeši udur", "udeʃi udur"],  // Robbeets Altaic list Dagur, the list this row matches. IPA from the row's pairs.
     ksw: ["မဟါတနံၤ", "mahatani"],  // S'gaw Karen 'yesterday' (SEAlang), which also lists မဟါကၢာ်. Not the word for tomorrow. IPA read from the script; the dictionary prints none.
-    pao: ["iʐiʼi", "iʐiʔi"],  // The row has no word for tomorrow to compare.
+    pao: ["iʐiʼi", "iʐiʔi"],  // The word for tomorrow is mu'a (Northern Paiute Language Project dictionary, Bridgeport, which gives idzi'i for yesterday).
     slr: ["gece", "keʝe"],  // The same word as gece, 'night'; tomorrow is a different word, ette.
     chk: ["naneu", "naneu"],  // Tomorrow is a different word, neesor.
-    khw: ["دوݰ", "doʂ"],  // From Sanskrit doṣā, 'darkness, night', like Persian duš 'last night'; the source gives no tomorrow word to compare.
+    khw: ["دوݰ", "doʂ"],  // The word for tomorrow is čhúči 'in the morning, tomorrow' or pingačhúy (A Grammar of Khowar, which gives doṣ for yesterday).
     ono: ["ahsedéh", "ahsedéh"],  // The source gives no word for tomorrow to set beside it.
   },
 };

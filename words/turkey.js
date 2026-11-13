@@ -533,7 +533,7 @@ WORDS.turkey = {
     gl: ["pavo", "ˈpaβo"],  // From Latin pāvō "peacock": the peacock's name was extended to the turkey, as in Spanish pavo.
     cs: ["krůta", "ˈkruːta"],  // krůta is the turkey hen; the cock is krocan. Route by resemblance to the neighbouring forms (Lower Sorbian truta); no etymology of its own.
     sk: ["moriak", "ˈmɔrɪ̯ak"],  // moriak is the turkey cock; the hen is morka.
-    sl: ["puran", "puˈraːn"],  // Slovene puran (hen: pura) is the turkey.
+    sl: ["puran", "puˈraːn"],  // Slovene puran (hen: pura) is the turkey. Bezlaj's Slovene etymological dictionary leaves its origin open between a p- variant of the kurka word (Bulgarian курка, Romanian curcă), Italian peruano 'Peruvian' (both after Skok) and the call pur… pur used for turkeys.
     sr: ["ћурка", "tɕûːrka"],  // The turkey hen, used for the live bird only; the cock is ћуран and the meat ћуретина. Wiktionary lists it as a cognate of Bulgarian курка 'turkey hen', from Proto-Slavic *kurъka, the word Romanian borrowed as curcă.
     bg: ["пуйка", "ˈpujkɐ"],  // Literally "the perking/swanking (bird)", from dialectal пу́я се "to strut"; the cock is пуяк.
     lt: ["kalakutas", "kɐlɐˈkʊtɐs"],  // Probably named after Calicut (Kozhikode) in India, like Dutch kalkoen.
@@ -563,7 +563,7 @@ WORDS.turkey = {
     zh_tj: ["外国鸡", "vai˥˧ kuo˦˥ tɕi˨˩"],  // Literally "foreign-country chicken"; standard Mandarin says 火鸡 "fire chicken".
     yue_dg: ["火鸡", "fɔ˧˥ kɔi˨˧"],  // Literally "fire chicken", as in Cantonese 火雞.
     dng: ["ёнҗи", "iɑŋ˨˦tɕi˨˦"],  // Literally "foreign chicken" (洋 "overseas/foreign"), naming no specific country.
-    hr: ["puran", "pǔraːn"],  // Croatian puran (hen: purica); the Hrvatski jezični portal tentatively derives it from Italian peruano "Peruvian".
+    hr: ["puran", "pǔraːn"],  // Croatian puran (hen: purica); the Hrvatski jezični portal tentatively derives it from Italian peruano 'Peruvian', while Bezlaj's etymological dictionary, after Skok, also weighs a p- variant of the kurka word and the call pur… pur used for turkeys.
     lv: ["tītars", "ˈtiːtars"],  // Latvian tītars is the turkey.
     be: ["індычка", "inˈdɨtʂka"],  // Like Russian индейка, built on the name of India.
     oj: ["mizise", "mizise"],  // Ojibwe mizise is the turkey; turkey meat is mizise-wiiyaas. Route by resemblance to the neighbouring forms (pot(msezé) atj(micirew)); no etymology of its own.

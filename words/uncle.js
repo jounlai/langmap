@@ -128,7 +128,7 @@ WORDS.uncle = {
     id: "one",
     ik: "split",
     ilo: "one",
-    io: "unknown",
+    io: "one",
     is: "split",
     it: "one",
     ja: "one",
@@ -144,7 +144,7 @@ WORDS.uncle = {
     kw: "one",
     lb: "unknown",
     lez: "split",
-    lij: "unknown",
+    lij: "one",
     liv: "split",
     lt: "one",
     ltg: "unknown",
@@ -167,14 +167,14 @@ WORDS.uncle = {
     nn: "split",
     no: "split",
     olo: "unknown",
-    om: "unknown",
+    om: "split",
     or: "split",
     pam: "one",
     pbb: "split",
     pdc: "unknown",
     pjt: "split",
     pl: "split",
-    pms: "unknown",
+    pms: "one",
     prg: "split",
     pt: "one",
     rgn: "unknown",
@@ -187,7 +187,7 @@ WORDS.uncle = {
     rw: "split",
     sa: "split",
     sc: "unknown",
-    scn: "unknown",
+    scn: "one",
     sd: "split",
     se: "split",
     sid: "split",
@@ -217,9 +217,9 @@ WORDS.uncle = {
     ur: "split",
     vi: "split",
     vo: "unknown",
-    vot: "unknown",
+    vot: "one",
     wa: "one",
-    yrl: "unknown",
+    yrl: "one",
     yue: "split",
     yur: "one",
     zh: "split",
@@ -252,19 +252,19 @@ WORDS.uncle = {
     mn: "split",
     mi: "one",
     fur: "unknown",
-    fro: "unknown",
+    fro: "one",
     pap: "unknown",
     my: "split",
     th: "split",
-    shn: "unknown",
+    shn: "split",
     gld: "split",
     hu: "one",
     nrf_gg: "one",
     osp: "one",
-    roo: "unknown",
+    roo: "split",
     koi: "unknown",
     jv: "one",
-    wo: "unknown",
+    wo: "split",
     nio: "one",
     mnw: "one",
     kok: "split",
@@ -276,10 +276,10 @@ WORDS.uncle = {
     ket: "one",
     szl: "one",
     yux: "one",
-    km: "unknown",
+    km: "one",
     gu: "split",
     sah: "split",
-    lzz: "unknown",
+    lzz: "one",
     ykg: "unknown",
     brh: "one",
     mdr: "unknown",
@@ -348,14 +348,14 @@ WORDS.uncle = {
     es_an: "one",
     ko_hg: "split",
     ko_jl: "split",
-    lij_t: "unknown",
+    lij_t: "one",
     es_pr: "one",
     es_do: "one",
     es_gt: "one",
     es_ec: "one",
     es_uy: "one",
     es_ve: "one",
-    ms: "unknown",
+    ms: "one",
     sr: "split",
     hr: "split",
     bs: "split",
@@ -429,7 +429,7 @@ WORDS.uncle = {
     id: ["paman", "ˈpaman"],
     ik: ["akkak", "akkak"],  // Father's brother; mother's brother is aŋatchiaq.
     ilo: ["tio", "ˈtijo"],
-    io: ["onklulo", "onklulo"],
+    io: ["onklulo", "onklulo"],  // Defined as 'fratulo di onua genitoro', a brother of one's parent (Ido Wiktionary); onklo is an uncle or aunt.
     is: ["föðurbróðir", "ˈfœːðʏrˌprouːðɪr"],  // Father's brother; mother's brother is móðurbróðir.
     it: ["zio", "ˈtsio"],
     ja: ["叔父", "odʑi"],
@@ -445,7 +445,7 @@ WORDS.uncle = {
     kw: ["ewnter", "ˈɛʊntɛr"],
     lb: ["Monni", "ˈmoni"],
     lez: ["ими", "imi"],  // Father's brother; mother's brother is халу.
-    lij: ["bàrba", "ˈbarba"],
+    lij: ["bàrba", "ˈbarba"],  // The brother of either parent: Casaccia's Genoese dictionary defines it as 'fratello del padre o della madre'.
     liv: ["izāveļ", "ˈizɑːˌveˀʎ"],  // Father's brother; mother's brother is jemāveļ.
     lt: ["dėdė", "ˈdʲeːdʲeː"],
     ltg: ["dzjadze", "ˈdzjadzʲæ"],
@@ -468,14 +468,14 @@ WORDS.uncle = {
     nn: ["farbror", "ˈfɑrbrʊr"],  // Father's brother; mother's brother is morbror (Wiktionary, Nynorsk), as in Bokmål.
     no: ["farbror", "ˈfɑrbrʊr"],  // Father's brother; mother's brother is morbror.
     olo: ["diädö", "ˈdʲiæ̯dʲø"],
-    om: ["eessuma", "eːsːʊmɐ"],
+    om: ["wasiila", "wasiːla"],  // Father's brother; mother's brother is eessuma. The Comprehensive Oromo–English Dictionary (2004) enters the father's brother as wasiila, with adeera and abbeera as synonyms, and the Oromo Newspaper Reader lexicon (1996) glosses all three 'uncle (paternal), father's brother'.
     or: ["କକେଇ", "kɔkei"],  // Father's brother; mother's brother is ମାମୁଁ.
     pam: ["bapa", "bapa"],
     pbb: ["yũũkwe", "jũːkwe"],  // Father's brother; mother's brother is kahka.
     pdc: ["Onkel", "ˈɔŋkəl"],
     pjt: ["mama", "ˈmɐmɐ"],  // Father's brother; mother's brother is kamuṟu.
     pl: ["stryj", "strɘj"],  // Father's brother; mother's brother is wuj.
-    pms: ["barba", "barba"],
+    pms: ["barba", "barba"],  // The brother of either parent: Sant'Albino defines it as 'fratello del padre o della madre', and Zalli gives it for both sides.
     prg: ["tēwis", "teːwis"],  // Father's brother (tēvis in KinBank, after Schmalstieg); the mother's brother is awis, glossed 'Oheim' in the Elbing Vocabulary.
     pt: ["tio", "ˈtiu"],
     rgn: ["dàdo", "dado"],
@@ -488,7 +488,7 @@ WORDS.uncle = {
     rw: ["so", "so"],  // Father's brother; mother's brother is marume.
     sa: ["पितृव्य", "pitr̩ʋjɐ"],  // Father's brother; mother's brother is मातुल.
     sc: ["tziu", "ˈθiu"],
-    scn: ["ziu", "ˈtsiʊ"],
+    scn: ["ziu", "ˈtsiʊ"],  // The brother of either parent: Mortillaro's Sicilian dictionary defines it as 'fratello del padre, o della madre'.
     sd: ["چاچو", "tʃaːtʃoː"],  // Father's brother; mother's brother is مامو.
     se: ["eahki", "ˈea̯hkiː"],  // Father's brother; mother's brother is eanu.
     sid: ["wosiila", "woˈsiːla"],  // Father's brother; mother's brother is abbo.
@@ -518,9 +518,9 @@ WORDS.uncle = {
     ur: ["چچا", "tʃətʃɑː"],  // Father's brother; mother's brother is ماموں.
     vi: ["chú", "tɕu˧˥"],  // Father's brother; mother's brother is cậu.
     vo: ["ziom", "tsiˈom"],
-    vot: ["ono", "ˈono"],
+    vot: ["ono", "ˈono"],  // The brother of either parent: in the Votic dictionary a speaker says the mother's and the father's brother were both called ono alike.
     wa: ["mononke", "mɔnɔ̃k"],
-    yrl: ["tutira", "tuˈtiɾa"],
+    yrl: ["tutira", "tuˈtiɾa"],  // Glossed 'brother of one's parent' (Wiktionary); the Tupi-Guarani comparative lists record it for the mother's brother.
     yue: ["叔叔", "sʊk˥ sʊk˥"],  // Father's brother; mother's brother is 舅父.
     yur: ["cheemos", "tʃimɔʂ"],
     zh: ["叔叔", "ʂu˥ ʂu"],  // Father's brother; mother's brother is 舅舅.
@@ -553,19 +553,19 @@ WORDS.uncle = {
     mn: ["авга ах", "awk ax"],  // The father's brother; авга on its own means a paternal relative.
     mi: ["matua kēkē", "matua keːkeː"],  // Any sibling of a parent; kēkē, from kē 'different', marks the other line.
     fur: ["barbe", "ˈbarbe"],  // From barbe 'beard', since a beard marks a grown man, like Ligurian bàrba.
-    fro: ["oncle", "ˈõnklə"],  // From Latin avunculus, which meant the mother's brother.
+    fro: ["oncle", "ˈõnklə"],  // From Latin avunculus, which meant only the mother's brother; in Old French oncle is the brother of either parent (Anglo-Norman Dictionary).
     pap: ["tio", "ˈtio"],  // From Portuguese tio and Spanish tío; the source gives one word without saying which side.
     my: ["ဘကြီး", "ba̰dʑí"],  // The father's elder brother; the father's youngest brother is ဘထွေး and the mother's younger brother ဦးလေး.
     th: ["ลุง", "luŋ˧"],  // The older brother of either parent; the father's younger brother is อา and the mother's younger brother น้า.
-    shn: ["လုင်း", "luŋ˥"],  // A parent's older brother, from Proto-Tai *luŋ; the source gives no separate words for younger uncles to settle the side.
+    shn: ["လုင်း", "luŋ˥"],  // A parent's older brother, from Proto-Tai *luŋ; the father's younger brother is ʔaa and the mother's younger brother naa (IDS), so the two sides are told apart, as in Thai.
     gld: ["эчэкэ", "ətʃəkə"],  // The father's younger brother; the mother's younger brother is гусин.
     hu: ["nagybácsi", "ˈnɒɟbaːtʃi"],  // Literally 'big uncle'; it covers the brother of either parent.
     nrf_gg: ["aonclle", "ɔ̃kʎ"],  // From Latin avunculus 'mother's brother', now used for any uncle.
     osp: ["tio", "ˈtio"],  // From Late Latin thīus, from Greek theîos; the entry gives the one word, as in Spanish tío.
-    roo: ["aite", "aite"],  // The same word as aite, 'father'; it also covers the mother's sister's husband, and the source gives no word for the mother's brother.
+    roo: ["aite", "aite"],  // The same word as aite, 'father', which also covers the mother's sister's husband; the mother's brother is papa (Firchow and Firchow, in KinBank), whose nephews and nieces are paparito and papariva.
     koi: ["чож", "tɕoʒ"],  // From Proto-Uralic *śečä; the source gives only 'uncle' and does not say which side.
     jv: ["paklik", "paʔliʔ"],  // Short for pak cilik, 'little father': a parent's younger brother on either side (an older one is pakdhe).
-    wo: ["nijjaay", "nidʒːaːj"],  // The source glosses it only as 'uncle' and does not say which side.
+    wo: ["baay", "baːj"],  // The same word as baay, 'father'; an older one is baay bu mag and a younger baay bu ndaw. The mother's brother is nijjaay.
     nio: ["иси", "ˈisʲi"],  // A parent's older brother on either side (also a parent's older sister's husband).
     mnw: ["မူ", "mao"],  // A parent's younger brother on either side; borrowed from Burmese မူး.
     kok: ["काका", "kaːkaː"],  // Mother's brother is मामा.
@@ -577,10 +577,10 @@ WORDS.uncle = {
     ket: ["беʼп", "bɛʔp"],  // One word for an elder sibling of either parent, uncle or aunt.
     szl: ["ujek", "ˈujɛk"],  // One word for the brother or brother-in-law of either parent, inherited from Old Polish ujek.
     yux: ["чаачаа", "tɕaːtɕaː"],  // One word for an elder brother of either parent; it also means elder brother.
-    km: ["ពូ", "puː"],  // The source gives one word for uncle (also a pronoun for a man younger than one's parents) and does not say whether the two sides are told apart.
+    km: ["ពូ", "puː"],  // The younger brother of either parent (Headley; Chuon Nath), also a pronoun for a man younger than one's parents; an older uncle on either side is ធំ or អ៊ំ.
     gu: ["કાકો", "ˈkaːko"],  // The father's brother; the mother's brother is મામો māmo.
     sah: ["абаҕа", "abaɣa"],  // Borrowed from Middle Mongol abaqa; the mother's brother is таай (Wiktionary: 'maternal uncle').
-    lzz: ["ჯუმადი", "dʒumadi"],  // Inherited from Proto-Georgian-Zan 'big brother' and glossed 'mother or father's brother'; Laz has also borrowed Turkish emuca and dayi, which keep the two sides apart.
+    lzz: ["ჯუმადი", "dʒumadi"],  // Inherited from Proto-Georgian-Zan 'big brother' and glossed 'mother or father's brother' (Wiktionary); Laz has also borrowed Turkish emuca and dayi.
     ykg: ["чумуочиэ", "tʃumuotʃeː"],  // The father's older brother; the father's younger brother is өчидиэ, and the source gives no word for the mother's brother.
     brh: ["الہ", "ilːa"],  // One word for the mother's and the father's brother.
     mdr: ["amanaure", "amanaure"],  // The source does not say which side it covers.
@@ -649,14 +649,14 @@ WORDS.uncle = {
     es_an: ["tío", "ˈtio"],
     ko_hg: ["삼촌", "samtɕʰon"],
     ko_jl: ["삼촌", "samtɕʰon"],
-    lij_t: ["bàrba", "ˈbarba"],
+    lij_t: ["bàrba", "ˈbarba"],  // The brother of either parent, as in Genoese, where Casaccia's dictionary defines it as 'fratello del padre o della madre'.
     es_pr: ["tío", "ˈtio"],
     es_do: ["tío", "ˈtio"],
     es_gt: ["tío", "ˈtio"],
     es_ec: ["tío", "ˈtio"],
     es_uy: ["tío", "ˈtio"],
     es_ve: ["tío", "ˈtio"],
-    ms: ["pak cik", "pak tʃik"],  // Wiktionary: 'uncle (parent's brother)'.
+    ms: ["pak cik", "pak tʃik"],  // Glossed 'uncle (parent's brother)' (Wiktionary); bapa likewise covers a male sibling of either parent.
     sr: ["стриц", "strîːts"],  // Father's brother; mother's brother is ујак.
     hr: ["stric", "strîːts"],  // Father's brother; mother's brother is ujak.
     bs: ["stric", "striːts"],  // Father's brother; mother's brother is ujak (regionally amidža and daidža).

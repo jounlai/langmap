@@ -563,9 +563,9 @@ WORDS.cuckoo = {
     trv: ["pupuk", "pupuk"],
     kha: ["ka khap-snem", "ka kʰap snem"],  // English-Khasi 1920: "Cuckoo, n. Ka khap-snem; ka khap-tod"; OCR b for h
     mrw: ["tikoko", "tikoko"],  // Page image p.507: "TIKOKO  CUCKOO /red bird with black tail/"
-    nio: ["коті", "koti"],  // NorthEuraLex Nganasan, the list this row matches. Tie bars removed and spaces restored, as the row.
-    enf: ["huchi", "hutʃi"],  // NorthEuraLex Forest Enets, the list this row matches. Tie bars removed and spaces restored, as the row. Latin spelling follows the row's pairs; the list prints Cyrillic.
-    ess: ["ӄау̌агым атӽа", "qaǔaɡɨm atχa"],  // NorthEuraLex Central Siberian Yupik, the list this row matches. Tie bars removed and spaces restored, as the row.
+    nio: ["коті", "koti"],  // NorthEuraLex Nganasan, the list this row matches.
+    enf: ["huchi", "hutʃi"],  // NorthEuraLex Forest Enets, the list this row matches. Latin spelling follows the row's pairs; the list prints Cyrillic.
+    ess: ["ӄау̌агым атӽа", "qaǔaɡɨm atχa"],  // NorthEuraLex Central Siberian Yupik, the list this row matches.
     new: ["कुलांझंगः", "kulãːdʑʱə̃ːɡəː"],  // The second part is झंगः, the row's word for bird.
     pqm: ["petolanuhket", "petolanuhket"],  // The source gives no etymology.
   },

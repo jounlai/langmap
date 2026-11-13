@@ -12417,8 +12417,12 @@
                         const styleAttr = bg ? ' style="background-color:' + bg.color + '"' : '';
                         const classAttr = bg ? ' class="cmp-cluster' + (bg.exact ? '' : ' cmp-cluster-approx') + '"' : '';
                         html += '<td' + classAttr + styleAttr + '>';
+                        const _cmpCode = _compareList[ci], _cmpLang = LANG_DATA[_cmpCode];
+                        const _cmpName = (_cmpLang && (names[_cmpCode] || hanReadingName(_cmpCode) || _cmpLang.name)) || _cmpCode;
                         for (const r of cellRows) {
-                            html += '<div class="cmp-reading">';
+                            // data-ipa …: the pronunciation panel (ipa_synth/speak.js) speaks each reading of a compare cell (owner 2026-11-13)
+                            const _say = (r.ipa && r.ipa !== '—') ? ' data-ipa="' + escapeHtml(r.ipa) + '" data-word="' + escapeHtml(r.surface || _rowBaseChar) + '" data-code="' + escapeHtml(_cmpCode) + '" data-name="' + escapeHtml(_cmpName) + '"' : '';
+                            html += '<div class="cmp-reading"' + _say + '>';
                             if (r.surface) html += '<span class="surface" dir="auto">' + escapeHtml(r.surface) + '</span>';
                             if (r.ipa && r.ipa !== '—') html += '<span class="ipa"><bdi dir="ltr">' + escapeHtml(r.ipa) + '</bdi></span>';
                             if (r.label) html += '<span class="cmp-label">' + escapeHtml(r.label) + '</span>';
@@ -14379,6 +14383,6 @@
         }).observe(p, { attributes: true, attributeFilter: ['class'] });
     })();
     </script>
-<script src="ipa_synth/speak.js?v=56" defer></script>
+<script src="ipa_synth/speak.js?v=58" defer></script>
 </body>
 </html>

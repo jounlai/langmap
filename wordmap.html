@@ -10754,7 +10754,9 @@
                     } else {
                         const surface = cell[0] || '';
                         const ipa = cell[1] || '';
-                        html += '<td><span class="surface" dir="auto">' + escapeHtml(surface) + '</span>'
+                        // data-ipa / data-word / data-code / data-name: the pronunciation panel (ipa_synth/speak.js) speaks a compare cell like a map label (owner 2026-11-13)
+                        const sayAttr = (ipa && ipa !== '—') ? ' data-ipa="' + escapeHtml(ipa) + '" data-word="' + escapeHtml(surface) + '" data-code="' + escapeHtml(code) + '" data-name="' + escapeHtml(getDisplayName(code, LANG_DATA[code])) + '"' : '';
+                        html += '<td' + sayAttr + '><span class="surface" dir="auto">' + escapeHtml(surface) + '</span>'
                              + (ipa && ipa !== '—' ? '<span class="ipa"><bdi dir="ltr">' + escapeHtml(ipa) + '</bdi></span>' : (surface && surface !== '—' && !ipa ? '<span class="ipa ipa-unknown" title="' + escapeHtml(wt('ipaUnknown')) + '">?</span>' : ''))
                              + '</td>';
                     }
@@ -13453,6 +13455,6 @@
             open: function () { if (window.__wmCompareReopen) return window.__wmCompareReopen(); var f = document.querySelector('.compare-fab'); if (f && f.getClientRects().length) f.click(); else return false; } });
     })();
     </script>
-<script src="ipa_synth/speak.js?v=56" defer></script>
+<script src="ipa_synth/speak.js?v=58" defer></script>
 </body>
 </html>

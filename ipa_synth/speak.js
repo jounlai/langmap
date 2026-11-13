@@ -11,16 +11,16 @@
  */
 (function () {
     'use strict';
-    const V = '?v=55';
+    const V = '?v=56';
     const BASE = '/ipa_synth/';
     const STR = {
-        en: { open: 'Pronunciation', close: 'Close', hintHover: 'Point at a word on the map, or in a language panel, to hear it.', hintTap: 'Tap a word on the map to hear it; tap it again to open its language.',
+        en: { open: 'Pronunciation', close: 'Close', hintHover: 'Point at a word on the map, in a language panel or in the comparison table, to hear it.', hintTap: 'Tap a word on the map to hear it; tap it again to open its language.',
               note: 'Synthesized from the IPA by rule: an approximation, not checked by native speakers.', unlock: 'Click anywhere once to turn the sound on.', none: 'No IPA for this word.', male: 'male', female: 'female', child: 'child', replay: 'Replay', spec: 'Left: loudness by pitch band. Right: spectrogram 0-5 kHz (bands are formants), pitch in red, sounds below.' },
-        ja: { open: '発音', close: '閉じる', hintHover: '地図や言語の詳細の単語にマウスを重ねると読み上げます。', hintTap: '地図の単語をタップすると読み上げ、もう一度タップすると言語の詳細が開きます。',
+        ja: { open: '発音', close: '閉じる', hintHover: '地図・言語の詳細・言語比較の単語にマウスを重ねると読み上げます。', hintTap: '地図の単語をタップすると読み上げ、もう一度タップすると言語の詳細が開きます。',
               note: 'IPAから規則で合成した近似音です。ネイティブによる確認はしていません。', unlock: '音を出すには、まず画面を一度クリックしてください。', none: 'この単語にはIPAがありません。', male: '男声', female: '女声', child: '子ども', replay: 'もう一度', spec: '左：周波数ごとの強さ。右：スペクトログラム 0〜5 kHz（横の帯がフォルマント）、赤線は声の高さ、下は音の並び。' },
-        ko: { open: '발음', close: '닫기', hintHover: '지도나 언어 정보의 단어에 마우스를 올리면 읽어 줍니다.', hintTap: '지도의 단어를 누르면 읽어 주고, 한 번 더 누르면 언어 정보가 열립니다.',
+        ko: { open: '발음', close: '닫기', hintHover: '지도, 언어 정보, 언어 비교의 단어에 마우스를 올리면 읽어 줍니다.', hintTap: '지도의 단어를 누르면 읽어 주고, 한 번 더 누르면 언어 정보가 열립니다.',
               note: 'IPA를 규칙으로 합성한 근사음입니다. 원어민 확인은 거치지 않았습니다.', unlock: '소리를 켜려면 화면을 한 번 클릭하세요.', none: '이 단어에는 IPA가 없습니다.', male: '남성', female: '여성', child: '어린이', replay: '다시 듣기', spec: '왼쪽: 주파수별 세기. 오른쪽: 스펙트로그램 0~5 kHz(가로 띠가 포먼트), 빨간 선은 음높이, 아래는 소리 순서.' },
-        zh: { open: '发音', close: '关闭', hintHover: '将鼠标移到地图或语言详情中的词语上即可朗读。', hintTap: '点按地图上的词语即可朗读，再点一次打开该语言的详情。',
+        zh: { open: '发音', close: '关闭', hintHover: '将鼠标移到地图、语言详情或语言比较中的词语上即可朗读。', hintTap: '点按地图上的词语即可朗读，再点一次打开该语言的详情。',
               note: '根据 IPA 按规则合成的近似音，未经母语者核对。', unlock: '请先点击一下页面以开启声音。', none: '这个词没有 IPA。', male: '男声', female: '女声', child: '童声', replay: '重播', spec: '左：各频段的强度。右：语谱图 0–5 kHz（横带为共振峰），红线为音高，下方为音段。' },
     };
     const lang = () => {
@@ -341,6 +341,7 @@
     }
 
     function nameOf(el) {
+        if (el.getAttribute('data-name')) return el.getAttribute('data-name');   // a compare-table cell
         const n = el.querySelector('.name') || (el.closest('.lang-label, .globe-label') || el).querySelector('.name');
         if (n) return n.textContent.trim();
         const panelH = el.closest('[data-code]') && el.closest('[data-code]').querySelector('h2');   // a row in the language panel

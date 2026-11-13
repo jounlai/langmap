@@ -126,7 +126,7 @@ NAMES.peter = {
     ja:'イエスが漁師シモンに与えた名で、ギリシャ語ペトロス「岩」はアラム語のあだ名ケファの訳であり、教会が建てられる岩とされた。初代教皇・聖ペトロを通じてキリスト教圏全体に広がり、ラテン語ペトルス、フランス語ピエール、スペイン語ペドロ、イタリア語ピエトロ、ロシア語ピョートルとなった。東方教会はギリシャ語ペトロスを保ち、アラビア語圏のキリスト教徒はブトルスと呼ぶ。',
   },
   forms:{
-    en:  { form:'Peter',   rom:'Peter',   ipa:'ˈpitɚ',    freq:'common', note:{en:'Pete dim.',ja:'愛称ピート'}, people:['Peter Sellers','Peter OʼToole'] },
+    en:  { form:'Peter',   rom:'Peter',   ipa:'ˈpiɾɚ',    freq:'common', note:{en:'Pete dim.',ja:'愛称ピート'}, people:['Peter Sellers','Peter OʼToole'] },
     gb:  { form:'Peter',   rom:'Peter',   ipa:'ˈpiːtə',    freq:'very-common', people:['Peter Ustinov','Sir Peter Hall'] },
     fr:  { form:'Pierre',  rom:'Pierre',  ipa:'pjɛʁ',      freq:'very-common',      people:['Pierre-Auguste Renoir','Pierre Curie'] },
     es:  { form:'Pedro',   rom:'Pedro',   ipa:'ˈpeðɾo',    freq:'very-common', people:['Pedro Almodóvar','Pedro Sánchez'] },
@@ -1653,7 +1653,7 @@ NAMES.sita = {
     ja:'シーターは叙事詩『ラーマーヤナ』の女主人公でラーマの妻。ラクシュミーの化身であり、貞節・献身・不変の理想像そのものとされる。サンスクリットの名は「畝（うね）」を意味し、ジャナカ王が耕された畑で見いだした、大地の女神ブーミの娘であるという。叙事詩とともにその名は東南アジア全域へ広がり、タイの『ラーマキエン』ではナーン・シーダー（นางสีดา）、ジャワのワヤンではシンタ／シンター、カンボジアの『リアムケー』ではニアン・セダーと呼ばれる。',
   },
   forms:{
-    en:  { form:'Sita', rom:'Sita', ipa:'ˈsiːtə', freq:'rare', note:{en:'international / diaspora form; also spelled Seeta',ja:'国際・ディアスポラの形。Seetaの綴りも'} },
+    en:  { form:'Sita', rom:'Sita', ipa:'ˈsiːɾə', freq:'rare', note:{en:'international / diaspora form; also spelled Seeta',ja:'国際・ディアスポラの形。Seetaの綴りも'} },
     gb:  { form:'Sita', rom:'Sita', ipa:'ˈsiːtə', freq:'rare', note:{en:'Hindu communities',ja:'ヒンドゥー系社会'} },
     hi:  { form:'सीता', rom:'Sītā', ipa:'ˈsiːt̪aː', freq:'very-common', note:{en:'the original; the ideal of wifely virtue',ja:'原形。妻の徳の理想像'}, people:['Sita Devi'] },
     bn:  { form:'সীতা', rom:'Sita', ipa:'ˈʃita', freq:'common' },

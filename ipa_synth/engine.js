@@ -961,6 +961,9 @@
                     if (codaGlide) { push(110 * gem, P, Object.assign({ kind: 'approximant', edgeF: 45, edgeCap: .45, codaGlide: true }, info)); return; }
                     push((glideSV ? (medial ? 35 : 65) : beforeVowel ? 58 : 72) * gem * syl, P, Object.assign({ kind: m === 'lat' ? 'lateral' : 'approximant', edgeF: glideSV ? 45 : 22, edgeCap: glideSV ? .75 : .5 }, info));
                 } else if (m === 'tap' || m === 'ltap') {
+                    // one quick tongue contact. Measured 2026-11-13 against Commons en-us butter,
+                    // matter, pretty: the real flap dips 17-19 dB for ~35 ms; this dips 15-17 dB for
+                    // ~30 ms, so it is left as it is (AV .15 overshot to 22-24 dB).
                     const P = consTarget(s, V, m);
                     P.AV = .35; P.glot = 0;
                     push(24 * gem, P, Object.assign({ kind: 'tap', edgeF: 8, edgeR: 8 }, info));

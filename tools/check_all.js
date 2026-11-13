@@ -782,6 +782,8 @@ s = run('trivia_style_check.js --check');
 line('trivia style slips', num(s, /over budget: (\d+)/));
 s = run('ipa_synth_regress.js --check');
 line('IPA synth fixes kept', num(s, /regressed: (\d+)/));
+s = run('flap_check.js --check');
+line('American English flap written ɾ', num(s, /violations: (\d+)/));
 s = run('implausible_polysemy_check.js --check');
 line('a shared form that is a claim', num(s, /violations: (\d+)/));
 

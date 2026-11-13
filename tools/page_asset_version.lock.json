@@ -64,8 +64,8 @@
     "hash": "1725c7a21734a986"
   },
   "namemap_names_ext.js": {
-    "version": 17,
-    "hash": "3bb38613e338c84f"
+    "version": 18,
+    "hash": "da25b783604ce014"
   },
   "namemap_trivia_rt/base.js": {
     "version": 48,
@@ -120,7 +120,7 @@
     "hash": "cf13bf0f0b2c0735"
   },
   "word_manifest.js": {
-    "version": 1613,
+    "version": 1614,
     "hash": "7b200fd368c81349"
   },
   "wordmap_data.js": {

@@ -34,3 +34,9 @@ Intra-row duplicate accepted: wo baay = father + uncle (classificatory).
 Cleanup: the internal remark "Tie bars removed and spaces restored, as the row." deleted from 43 published notes.
 Spotted, not yet handled: pmh yesterday hijjo (Sheth glosses it 'tomorrow' — probably Hindi kal, check), nap uncle
 vuònculo archaic, mjg we routed single without a source, ha wife mata (= women/wife; own kept).
+
+## Follow-ups (same day)
+- pmh yesterday हिज्जो: English Wiktionary 'yesterday' vs Sheth's Pāia-sadda-mahaṇṇavo 'tomorrow' (āgāmī kal, after Deśīnāmamālā
+  8.67; yesterday = हिओ, हिज्जा). Note now states the conflict; route stays unknown.
+- mjg we buda: 'single' was unsourced on one unlabelled form → unknown (the mvf precedent); ratchet 35 → 36, header 36.
+- nap uncle vuònculo: "archaic" is unsourced; left as is (route already unknown).

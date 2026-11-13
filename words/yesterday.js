@@ -1532,7 +1532,7 @@ WORDS.yesterday = {
     egy: ["𓋴𓆑𓇳", "sef"],  // tomorrow: dwꜣw ('early morning'); sf is written with the sun sign as determinative and survives as Coptic ⲥⲁϥ.
     cop: ["ⲥⲁϥ", "saf"],  // tomorrow: ⲣⲁⲥⲧⲉ; ⲥⲁϥ continues Egyptian sf 'yesterday' (Akhmimic/Fayyumic ⲥⲉϥ).
     h_vedic: ["ह्यः", "ɦjɐ́ɦ"],  // tomorrow: श्वः (śvás); hyás is a direct cognate of Greek χθές and English yester-.
-    pmh: ["हिज्जो", "ɦidʒːo"],  // From Sanskrit hyáḥ 'yesterday'; the Prakrit word for 'tomorrow' was not confirmed here.
+    pmh: ["हिज्जो", "ɦidʒːo"],  // From Sanskrit hyáḥ 'yesterday' (English Wiktionary). Sheth's Pāia-sadda-mahaṇṇavo disagrees: after Hemacandra's Deśīnāmamālā (8.67) it glosses हिज्जो 'tomorrow' and gives हिओ and हिज्जा for 'yesterday'. Until a source settles it, the route stays open.
     mga: ["indé", "inʲˈdʲeː"],  // tomorrow: i mbárach; indé gives Irish inné and Scottish Gaelic an-dè, its in- copied from indiu 'today'.
     goh: ["gesteron", "ˈɡesteron"],  // tomorrow: morgane; gesteron is the ancestor of German gestern (Köbler).
     orv: ["вьчера", "vĭtʃera"],  // tomorrow: заутра; вьчера is the ancestor of Russian вчера and Ukrainian учора.

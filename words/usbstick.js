@@ -129,6 +129,9 @@ WORDS.usbstick = {
     de_lu: "stick",
     de_ch: "stick",
     de_at: "stick",
+    th: "drive",
+    hr: "stick",
+    bs: "stick",
   },
   routes: {
     stick: {"color":"#2563eb","emoji":"🪵","en":"a stick (USB-Stick, muistitikku, minnepinne)","ja":"棒 (USB-Stick, muistitikku, minnepinne)","ko":"막대 (USB-Stick, muistitikku, minnepinne)","zh":"棒 (USB-Stick, muistitikku, minnepinne)","yue":"棒 (USB-Stick, muistitikku, minnepinne)","vi":"cái que (USB-Stick, muistitikku, minnepinne)","th":"แท่ง (USB-Stick, muistitikku, minnepinne)","id":"batang (USB-Stick, muistitikku, minnepinne)","hi":"छड़ी (USB-Stick, muistitikku, minnepinne)","de":"ein Stab (USB-Stick, muistitikku, minnepinne)","fr":"un bâton (USB-Stick, muistitikku, minnepinne)","it":"un bastoncino (USB-Stick, muistitikku, minnepinne)","es":"un palo (USB-Stick, muistitikku, minnepinne)","pt":"um bastão (USB-Stick, muistitikku, minnepinne)","ru":"палочка (USB-Stick, muistitikku, minnepinne)","uk":"паличка (USB-Stick, muistitikku, minnepinne)","ar":"عصا (USB-Stick, muistitikku, minnepinne)","he":"מקל (USB-Stick, muistitikku, minnepinne)","sw":"fimbo (USB-Stick, muistitikku, minnepinne)"},
@@ -197,5 +200,8 @@ WORDS.usbstick = {
     de_lu: ["USB-Stick", "uːʔɛsˈbeːˌstɪk"],  // The same word as in German.
     de_ch: ["USB-Stick", "uːʔɛsˈbeːˌstɪk"],  // The same word as in German.
     de_at: ["USB-Stick", "uːʔɛsˈbeːˌstɪk"],  // The same word as in German.
+    th: ["แฟลชไดรฟ์", "flɛːt˥˩draj˦˥"],  // From English flash drive; ทัมบ์ไดรฟ์ 'thumb drive' is also listed.
+    hr: ["USB stick", "u es bêː stîk"],  // USB + English stick; Croatian Wikipedia also gives the native USB štapić 'little stick'.
+    bs: ["USB stick", "u es ˈbeː ˈstik"],  // USB + English stick, also spelled USB stik; USB memorija is the Bosnian Wikipedia title.
   },
 };

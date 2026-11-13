@@ -278,6 +278,7 @@ WORDS.jellyfish = {
     bal: "other",
     pqm: "plain",
     blc: "plain",
+    sw: "other",
   },
   routes: {
     medusa: {"color":"#7c3aed","emoji":"🐍","en":"named after Medusa","ja":"メドゥーサにちなむ","ko":"메두사에서","zh":"源自美杜莎","yue":"源自美杜莎","vi":"theo tên Medusa","th":"ตั้งตามเมดูซา","id":"dari nama Medusa","hi":"मेडूसा के नाम पर","de":"nach Medusa","fr":"d'après Méduse","it":"da Medusa","es":"por Medusa","pt":"por Medusa","ru":"по имени Медузы","uk":"за ім'ям Медузи","ar":"على اسم ميدوسا","he":"על שם מדוזה","sw":"kwa jina la Medusa"},
@@ -500,5 +501,6 @@ WORDS.jellyfish = {
     bal: ["آپو", "aːpoː"],  // From آپ áp 'water' plus -o.
     pqm: ["sahsap", "sahsap"],  // Cognate with Mi'kmaq sasap; no image is recorded for it.
     blc: ["stlkwʼa", "stlkʷʼa"],  // No image is recorded for it, so it counts as a word of its own.
+    sw: ["kiwavi wa baharini", "kiwavi wa baharini"],  // 'The kiwavi of the sea': kiwavi is both a hairy caterpillar and a climbing plant with itching hairs. Madan (1903) gave upupu wa bahari, 'sea cow-itch', the same picture.
   },
 };

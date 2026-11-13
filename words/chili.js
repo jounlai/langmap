@@ -341,6 +341,9 @@ WORDS.chili = {
     zh_wh: "plain",
     zh_xa: "plain",
     zh_zz: "plain",
+    hr: "chilli",
+    sr: "pepper",
+    bs: "pepper",
   },
   routes: {
     chilli: {"color":"#dc2626","emoji":"🌶️","en":"Nahuatl chīlli (chile, chili, sili)","ja":"ナワトル語 chīlli（chile, chili, sili）","ko":"나와틀어 chīlli (chile, chili, sili)","zh":"纳瓦特尔语 chīlli（chile、chili、sili）","yue":"納瓦特爾語 chīlli（chile、chili、sili）","vi":"tiếng Nahuatl chīlli (chile, chili, sili)","th":"นาวัตล์ chīlli (chile, chili, sili)","id":"Nahuatl chīlli (chile, chili, sili)","hi":"नाहुआत्ल chīlli (chile, chili, sili)","de":"Nahuatl chīlli (chile, Chili, sili)","fr":"le nahuatl chīlli (chile, chili, sili)","it":"il nahuatl chīlli (chile, chili, sili)","es":"el náhuatl chīlli (chile, chili, sili)","pt":"o náuatle chīlli (chile, chili, sili)","ru":"науатль chīlli (chile, chili, sili)","uk":"науатль chīlli (chile, chili, sili)","ar":"الناواتل chīlli (chile, chili, sili)","he":"הנאוואטל chīlli (chile, chili, sili)","sw":"Kinahuatl chīlli (chile, chili, sili)"},
@@ -620,5 +623,8 @@ WORDS.chili = {
     zh_wh: ["辣椒", "na˨˩˧ tɕiau˥˥"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Wuhan; reading from MCPDict 武漢.
     zh_xa: ["辣椒", "la˨˩ tɕiau˨˩"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Xi'an; reading from MCPDict 西安.
     zh_zz: ["辣椒", "la˨˦ tɕiau˨˦"],  // 辣 'hot, spicy' + 椒 'pepper'. Word from Wiktionary's dialect table for Zhengzhou; reading from MCPDict 開封 (no Zhengzhou table; the row matches Kaifeng).
+    hr: ["čili", "tʃîli"],  // From English chili, ultimately Nahuatl chīlli; ljuta papričica 'hot little pepper' and feferon are also said.
+    sr: ["љута паприка", "ˈʎuːta ˈpaprika"],  // Literally 'hot pepper'; паприка comes from папар 'pepper'. Чили is also used, mostly for the spice and in чили папричица.
+    bs: ["ljuta paprika", "ˈʎuːta ˈpaprika"],  // Literally 'hot pepper', as in Serbian; čili is nearly as common, mostly for the spice and in čili papričica.
   },
 };

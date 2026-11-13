@@ -109,6 +109,12 @@ WORDS.bubbletea = {
     nl_be: "bubble",
     de_ch: "bubble",
     de_at: "bubble",
+    it: "bubble",
+    uk: "bubble",
+    ar: "bubble",
+    hr: "bubble",
+    sr: "bubble",
+    bs: "bubble",
   },
   routes: {
     pearl: {"color":"#db2777","emoji":"🦪","en":"pearl (珍珠奶茶, trà sữa trân châu, inci çayı)","ja":"真珠 (珍珠奶茶, trà sữa trân châu, inci çayı)","ko":"진주 (珍珠奶茶, trà sữa trân châu, inci çayı)","zh":"珍珠 (珍珠奶茶, trà sữa trân châu, inci çayı)","yue":"珍珠 (珍珠奶茶, trà sữa trân châu, inci çayı)","vi":"ngọc trai (珍珠奶茶, trà sữa trân châu, inci çayı)","th":"ไข่มุก (珍珠奶茶, trà sữa trân châu, inci çayı)","id":"mutiara (珍珠奶茶, trà sữa trân châu, inci çayı)","hi":"मोती (珍珠奶茶, trà sữa trân châu, inci çayı)","de":"Perle (珍珠奶茶, trà sữa trân châu, inci çayı)","fr":"perle (珍珠奶茶, trà sữa trân châu, inci çayı)","it":"perla (珍珠奶茶, trà sữa trân châu, inci çayı)","es":"perla (珍珠奶茶, trà sữa trân châu, inci çayı)","pt":"pérola (珍珠奶茶, trà sữa trân châu, inci çayı)","ru":"жемчуг (珍珠奶茶, trà sữa trân châu, inci çayı)","uk":"перли (珍珠奶茶, trà sữa trân châu, inci çayı)","ar":"لؤلؤ (珍珠奶茶, trà sữa trân châu, inci çayı)","he":"פנינה (珍珠奶茶, trà sữa trân châu, inci çayı)","sw":"lulu (珍珠奶茶, trà sữa trân châu, inci çayı)"},
@@ -156,5 +162,11 @@ WORDS.bubbletea = {
     nl_be: ["bubbelthee", "ˈbʏbəlteː"],  // The same word as in Dutch.
     de_ch: ["Bubble Tea", "babl̩ tiː"],  // The same word as in German.
     de_at: ["Bubble Tea", "babl̩ tiː"],  // The same word as in German.
+    it: ["bubble tea", "babl ti"],  // Borrowed from English; also called boba.
+    uk: ["бабл-ті", "babɫ tʲi"],  // From English bubble tea; the translated бульбашковий чай 'bubble tea' is the Wikipedia title.
+    ar: ["شاي الفقاعات", "ʃaːj alfuqaːʕaːt"],  // 'Tea of the bubbles', translated from English bubble tea; also شاي الحليب اللؤلؤي 'pearl milk tea' and شاي حليب البوبا.
+    hr: ["bubble tea", "ˈbabl ti"],  // Unadapted borrowing from English bubble tea; čaj s mjehurićima 'tea with bubbles' and boba are also said.
+    sr: ["бабл ти", "ˈbabl ti"],  // From English bubble tea; Serbian Wikipedia titles the article with the calque чај са мехурићима 'tea with bubbles'.
+    bs: ["bubble tea", "ˈbabl ti"],  // Unadapted borrowing from English bubble tea; čaj s mjehurićima 'tea with bubbles' is used as a gloss.
   },
 };

@@ -601,7 +601,7 @@ WORDS.paper = {
     bg: ["хартия", "xɐrˈtijɐ"],
     my: ["စက္ကူ", "sɛʔkù"],
     cs: ["papír", "ˈpapiːr"],
-    da: ["papir", "papiːr"],
+    da: ["papir", "paˈpiːr"],
     nl: ["papier", "paːˈpiːr"],
     eo: ["papero", "paˈpero"],
     fo: ["pappír", "ˈpʰaʰpːʊiːɹ"],

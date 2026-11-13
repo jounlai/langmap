@@ -509,7 +509,7 @@ WORDS.east = {
     ar: ["شرق", "ʃarq"],  // Wiktionary compares Hebrew זָרַח 'to shine, to rise'.
     he: ["מזרח", "mizˈʁaχ"],  // From the root ז־ר־ח 'to rise, shine': where the sun rises.
     tr: ["doğu", "doˈu"],  // From doğ- 'to be born, to rise' + -u.
-    fa: ["مشرق", "maʃɾiq"],  // Borrowed from Arabic مَشْرِق.
+    fa: ["مشرق", "maʃˈɾiq"],  // Borrowed from Arabic مَشْرِق.
     tl: ["silangan", "siˈlaŋan"],  // Literally 'place of rising (of the sun)'.
     mn: ["зүүн", "dʒuːn"],  // Also 'left'.
     sah: ["илин", "ilin"],  // From Proto-Turkic *il 'front side'.

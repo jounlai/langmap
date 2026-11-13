@@ -551,7 +551,7 @@ WORDS.tuesday = {
     uk: ["вівторок", "ʋʲiu̯ˈtɔrɔk"],
     sv: ["tisdag", "ˈtiːsdɑːɡ"],  // From Old Norse týsdagr, 'Tyr's day'.
     no: ["tirsdag", "ˈtiːrsdaːɡ"],  // From Old Norse týsdagr, 'Tyr's day'.
-    da: ["tirsdag", "tiːrsda"],  // From Old Norse tý(r)sdagr, 'Tyr's day'.
+    da: ["tirsdag", "ˈtiːrsda"],  // From Old Norse tý(r)sdagr, 'Tyr's day'.
     ro: ["marți", "martsʲ"],  // From Latin (diēs) Martis.
     ga: ["Máirt", "mˠɑːɾˠtʲ"],
     eu: ["astearte", "as̺tearte"],  // aste 'week' + arte 'between', 'middle of the week'.

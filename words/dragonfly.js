@@ -421,7 +421,7 @@ WORDS.dragonfly = {
     ko: ["잠자리", "tɕamdʑaɾi"],  // Attested since 1481 as Middle Korean cancali; unrelated to its homograph 잠자리 'bed'.
     wuu: ["蜻蜓", "ɕin˥˧ din˨˧"],  // The same word as Standard Chinese 蜻蜓; Shanghainese also says it with chin- in the first syllable.
     ta: ["தட்டான்", "t̪aʈːaːn"],  // From தட்டு 'to tap, knock' + -ஆன், the same word as 'smith'; தும்பி is a synonym.
-    ms: ["pepatung", "pəpatuŋ"],  // A partial reduplication of patung 'doll, statue'.
+    ms: ["pepatung", "pəˈpatuŋ"],  // A partial reduplication of patung 'doll, statue'.
     it: ["libellula", "liˈbɛllula"],  // From Linnaeus's New Latin libellula, after libella 'carpenter's level'.
     cjy: ["儿蜻", "ɚ˩ tɕʰiŋ˩"],  // 儿 (a diminutive) + 蜻 'dragonfly'.
     th: ["แมลงปอ", "ma˦˥lɛːŋ˧pɔː˧"],  // แมลง 'insect' + ปอ.

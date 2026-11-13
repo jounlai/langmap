@@ -575,7 +575,7 @@ WORDS.king = {
     vi: ["vua", "vuə˧"],  // Also 'monarch'.
     th: ["ราชา", "raː˧tɕʰaː˧"],  // Borrowed from Pali or Sanskrit rāja.
     id: ["raja", "ˈradʒa"],  // From Malay raja, from Sanskrit rājan.
-    ms: ["raja", "radʒa"],  // From Sanskrit rājan.
+    ms: ["raja", "ˈradʒa"],  // From Sanskrit rājan.
     hi: ["राजा", "ɾɑːdʒɑː"],  // Sanskrit rājā, nominative of rājan; the same root as Latin rēx.
     sa: ["राजन्", "ɾaːdʑɐn"],
     bn: ["রাজা", "ˈradʒa"],
@@ -615,7 +615,7 @@ WORDS.king = {
     uk: ["король", "kɔˈrɔlʲ"],
     sv: ["kung", "kɵŋː"],
     no: ["konge", "kɔŋə"],
-    da: ["konge", "kɔnɡə"],
+    da: ["konge", "ˈkɔnɡə"],
     ro: ["rege", "ˈredʒe"],
     ga: ["rí", "ɾˠiː"],  // From Proto-Celtic *rīxs, cognate with Latin rēx.
     eu: ["errege", "ereɡe"],  // From Latin rēgem.

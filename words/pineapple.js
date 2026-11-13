@@ -481,7 +481,7 @@ WORDS.pineapple = {
     pa: ["ਅਨਾਨਾਸ", "ənaːnaːs"],  // The same word as Hindi अनानास; no Punjabi source states its route. Route by resemblance to the neighbouring forms (hi(अनानास) am(አናናስ)); no etymology of its own.
     de: ["Ananas", "ˈananas"],  // From French or Dutch ananas, ultimately Old Tupi naná.
     ja: ["パイナップル", "painapːɯɾɯ"],  // Borrowed from English pineapple; 鳳梨 hōri, from Chinese, is archaic.
-    fa: ["آناناس", "ʔɒːnɒːnɒːs"],  // Via French from Portuguese ananás, ultimately Old Tupi naná.
+    fa: ["آناناس", "ʔɒːnɒːˈnɒːs"],  // Via French from Portuguese ananás, ultimately Old Tupi naná.
     sw: ["nanasi", "naˈnasi"],  // From Portuguese ananás; the first syllable was dropped.
     jv: ["nanas", "nanas"],  // From Dutch ananas, ultimately Old Tupi naná; kanas is a variant.
     yue: ["菠蘿", "pɔː˥ lɔː˨˩"],  // Clipped from 菠蘿蜜, the jackfruit (originally a Buddhist word, paramita).

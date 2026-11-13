@@ -958,7 +958,7 @@ WORDS.grandmother = {
     gu: ["દાદી", "ˈdaːdiː"],  // Father's mother; mother's mother: નાની nānī (બા bā is also a common word for grandmother).
     sd: ["ڏاڏي", "ɗaːɗiː"],  // Father's mother; mother's mother: ناني nānī.
     ta: ["பாட்டி", "paːʈːi"],  // One word for either grandmother; regional words such as அம்மாச்சி ammācci (mother's mother) also exist.
-    fa: ["مادربزرگ", "mɒːdæɾbozoɾɡ"],  // Literally 'big mother', used for either grandmother (ننه nane is the homely word).
+    fa: ["مادربزرگ", "mɒːdæɾboˈzoɾɡ"],  // Literally 'big mother', used for either grandmother (ننه nane is the homely word).
     si: ["ආච්චි", "aːtʃːi"],  // One word for either grandmother; ආත්තම්මා āttammā and කිරිඅම්මා kiriammā are synonyms.
     mwr: ["दादी", "daːdiː"],  // Father's mother; mother's mother: नांनी nānī.
     gn: ["jarýi", "dʒaˈɾɨi"],  // One word for either grandmother; sy guasu, literally 'big mother', is also used.

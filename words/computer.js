@@ -175,7 +175,7 @@ WORDS.computer = {
     "es_ve": ["computadora", "komputaˈðoɾa"],
     "et": ["arvuti", "ˈɑrʋuti"],
     "eu": ["ordenagailu", "ordenaˈɣai̯lu"],
-    "fa": ["کامپیوتر", "kɒːmpijuːteɾ"],
+    "fa": ["کامپیوتر", "kɒːmpijuːˈteɾ"],
     "fi": ["tietokone", "ˈtietoˌkone"],
     "fj": ["kompiuta", "kompiuta"],
     "fo": ["telda", "ˈtʰɛlta"],

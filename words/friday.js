@@ -552,7 +552,7 @@ WORDS.friday = {
     uk: ["п'ятниця", "ˈpjatnetsʲɐ"],
     sv: ["fredag", "ˈfreːdɑːɡ"],  // From Old Norse frjádagr, 'day of Frigg'.
     no: ["fredag", "ˈfreːdaːɡ"],
-    da: ["fredag", "freːda"],
+    da: ["fredag", "ˈfreːda"],
     ro: ["vineri", "ˈvinerʲ"],  // From Latin (diēs) Veneris.
     ga: ["Aoine", "ˈiːnʲə"],  // From aoine 'fasting'.
     eu: ["ostiral", "os̺tiɾal"],

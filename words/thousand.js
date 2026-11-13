@@ -491,7 +491,7 @@ WORDS.thousand = {
     cv: ["пин", "pin"],
     crh: ["miñ", "miŋ"],
     cs: ["tisíc", "ˈtɪsiːts"],
-    da: ["tusind", "tuːsənə"],
+    da: ["tusind", "ˈtuːsənə"],
     dar: ["азир", "azir"],  // No opened source supports the route.
     nl: ["duizend", "ˈdœy̯zənt"],
     krl: ["tuhat", "ˈtuhɑt"],

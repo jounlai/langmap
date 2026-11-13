@@ -556,7 +556,7 @@ WORDS.wednesday = {
     uk: ["середа", "sereˈda"],
     sv: ["onsdag", "ˈʊnsdɑːɡ"],  // Originally a short form of Odens dag, 'Odin's day'.
     no: ["onsdag", "ˈɔnsdaːɡ"],  // From Old Norse óðinsdagr, 'Odin's day'.
-    da: ["onsdag", "onsda"],  // From Old Norse óðinsdagr, 'Odin's day'.
+    da: ["onsdag", "ˈonsda"],  // From Old Norse óðinsdagr, 'Odin's day'.
     ro: ["miercuri", "ˈmjerkurʲ"],  // From Latin (diēs) Mercuriī.
     ga: ["Céadaoin", "ˈceːd̪ˠiːnʲ"],  // From Old Irish cétaín, 'first fast'.
     eu: ["asteazken", "as̺teas̻ken"],  // aste 'week' + azken 'last', 'end of the week'.

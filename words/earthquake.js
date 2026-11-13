@@ -345,7 +345,7 @@ WORDS.earthquake = {
     crt: ["axnat-tiwesi", "axnat-tiwesi"],  // Built on the word for earth or land.
     cs: ["zemětřesení", "ˈzɛmɲɛtr̝̊ɛsɛɲiː"],  // Built on the word for earth or land.
     cy: ["daeargryn", "deɨ̯ˈarɡrɨ̞n"],  // Built on the word for earth or land.
-    da: ["jordskælv", "jorskɛlv"],  // Built on the word for earth or land.
+    da: ["jordskælv", "ˈjorskɛlv"],  // Built on the word for earth or land.
     dar: ["мерс", "mers"],
     de: ["Erdbeben", "ˈeːɐ̯tˌbeːbn̩"],  // Built on the word for earth or land.
     el: ["σεισμός", "seismos"],  // A word for shaking, with no earth in it.

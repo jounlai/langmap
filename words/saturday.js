@@ -463,7 +463,7 @@ WORDS.saturday = {
     cv: ["шӑматкун", "ʃəmatkun"],  // No opened source supports the route.
     crh: ["cumaertesi", "dʒumaertesi"],  // Route by resemblance to the neighbouring forms (tr); no etymology of its own.
     cs: ["sobota", "ˈsobota"],
-    da: ["lørdag", "lørda"],  // From a word for 'bath'.
+    da: ["lørdag", "ˈlørda"],  // From a word for 'bath'.
     nl: ["zaterdag", "ˈzaːtərˌdɑx"],
     egl: ["sâbet", "ˈsaːbet"],
     myv: ["субута", "subuta"],  // Route by resemblance to the neighbouring forms (be,uk,hr); no etymology of its own.

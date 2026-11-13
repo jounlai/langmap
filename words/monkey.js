@@ -542,9 +542,9 @@ WORDS.monkey = {
     cs: ["opice", "ˈopɪtsɛ"],  // From Proto-Germanic *apô "ape", directly or through a neighbour.
     cv: ["упӑте", "upəte"],
     cy: ["mwnci", "ˈmʊŋki"],  // Borrowed from English monkey.
-    da: ["abe", "aːbə"],  // From Proto-Germanic *apô "ape", directly or through a neighbour.
+    da: ["abe", "ˈaːbə"],  // From Proto-Germanic *apô "ape", directly or through a neighbour.
     dar: ["маймун", "majmun"],  // From Arabic maymūn, directly or through Turkish or Persian.
-    de: ["Affe", "afə"],  // From Old High German affo, from Proto-Germanic *apô.
+    de: ["Affe", "ˈafə"],  // From Old High German affo, from Proto-Germanic *apô.
     dsb: ["nałpa", "ˈnawpa"],  // From Low German Mulape, compare German Maulaffe.
     dv: ["ރާމާމަކުނު", "ɾəːməːməkunu"],
     egl: ["sémmia", "ˈsemja"],  // From Latin sīmia, from Greek σιμός "snub-nosed".

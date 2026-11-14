@@ -422,14 +422,14 @@ window.TM_I18N["it"] = {
    "type": "Solare",
    "epoch": "Anno Domini",
    "used": "Dal 14 settembre 1752 (i giorni 3–13 settembre 1752 non sono mai esistiti)",
-   "note": "La Gran Bretagna e le sue colonie lo adottarono 170 anni dopo Roma; la stessa legge spostò il Capodanno dal 25 marzo al 1º gennaio."
+   "note": "La Gran Bretagna e le sue colonie lo adottarono 170 anni dopo Roma. La stessa legge spostò il Capodanno dal 25 marzo al 1º gennaio in Inghilterra, Galles, Irlanda e nelle colonie; la Scozia lo aveva già fatto nel 1600."
   },
   "greg_us": {
    "name": "Calendario gregoriano",
    "region": "Stati Uniti",
    "type": "Solare",
    "epoch": "Anno Domini",
-   "used": "Dal 1752, come colonie britanniche",
+   "used": "Dal 1752 nelle colonie britanniche; i territori spagnoli e francesi lo usavano dal 1582 (o dalla loro fondazione), l’Alaska dal 1867",
    "note": "Lo stesso calendario della Gran Bretagna, ma con il mese scritto per primo: 10/5 è il 5 ottobre negli Stati Uniti e il 10 maggio nel Regno Unito."
   },
   "greg_jp": {
@@ -455,7 +455,7 @@ window.TM_I18N["it"] = {
    "type": "Mesi gregoriani, anni della Repubblica",
    "epoch": "Fondazione della Repubblica di Cina, 1912",
    "used": "Dal 1912; ufficiale a Taiwan",
-   "note": "Anno = anno occidentale − 1911. Procede di pari passo con l’anno Juche della Corea del Nord.",
+   "note": "Anno = anno occidentale − 1911. Gli anni Juche della Corea del Nord, contati fino al 2024 a partire dallo stesso inizio (1912), avevano gli stessi numeri.",
    "year": "Minguo {n}"
   },
   "juche": {
@@ -464,7 +464,7 @@ window.TM_I18N["it"] = {
    "type": "Mesi gregoriani, anni Juche",
    "epoch": "Nascita di Kim Il-sung, 1912",
    "used": "1997–2024: la Corea del Nord ha smesso di stampare l’anno Juche nell’ottobre 2024",
-   "note": "Si scrive con l’anno occidentale tra parentesi: 주체115(2026)년.",
+   "note": "Le date si scrivevano con l’anno occidentale tra parentesi, come in 주체113(2024)년.",
    "year": "Juche {n}"
   },
   "buddhist": {
@@ -472,7 +472,7 @@ window.TM_I18N["it"] = {
    "region": "Thailandia",
    "type": "Solare, anni dell’era buddhista",
    "epoch": "Era buddhista: il parinirvana del Buddha, 543 a.C. secondo il computo thailandese",
-   "used": "Ufficiale dal 1912 (anno EB), con il 1º gennaio come Capodanno dal 1941",
+   "used": "Ufficiale dal 1º aprile 1913 (anno EB), con il 1º gennaio come Capodanno dal 1941",
    "note": "Anno = anno occidentale + 543. Sri Lanka, Myanmar e Cambogia contano l’era buddhista con un anno di scarto rispetto alla Thailandia.",
    "year": "{n} EB"
   },
@@ -482,7 +482,7 @@ window.TM_I18N["it"] = {
    "type": "Lunisolare",
    "epoch": "Nessun conteggio continuo degli anni; gli anni ruotano in un ciclo di 60 nomi (tronchi celesti e rami terrestri)",
    "used": "Fissa la Festa di Primavera, la Festa di metà autunno e altre festività",
-   "note": "I mesi seguono la luna nuova a Pechino; un mese intercalare viene aggiunto circa 7 volte in 19 anni.",
+   "note": "Ogni mese inizia il giorno della luna nuova secondo l’ora di Pechino (UTC+8, meridiano 120° E); un mese intercalare viene aggiunto circa 7 volte in 19 anni.",
    "year": "anno {gzPy} ({animal})"
   },
   "dangi": {
@@ -491,7 +491,7 @@ window.TM_I18N["it"] = {
    "type": "Lunisolare",
    "epoch": "Nessun conteggio continuo degli anni; ciclo di 60 anni",
    "used": "Fissa Seollal e Chuseok",
-   "note": "Stesse regole del calendario cinese, ma calcolato sull’ora coreana: una luna nuova vicina alla mezzanotte può far iniziare un mese con un giorno di differenza.",
+   "note": "Stesse regole del calendario cinese, ma calcolato sull’ora coreana: una luna nuova vicina alla mezzanotte può far iniziare un mese con un giorno di differenza, e talvolta il mese intercalare cade altrove (2012: mese intercalare 3 in Corea, mese intercalare 4 in Cina).",
    "year": "anno {gzPy} ({animal})"
   },
   "hebrew": {
@@ -507,8 +507,8 @@ window.TM_I18N["it"] = {
    "region": "Arabia Saudita",
    "type": "Lunare (senza mese intercalare)",
    "epoch": "L’Egira, il trasferimento di Maometto a Medina, 622 d.C.",
-   "used": "Uso religioso in tutto il mondo; civile in Arabia Saudita (tavole Umm al-Qura)",
-   "note": "Un anno dura circa 354 giorni, quindi il Ramadan anticipa di circa 11 giorni ogni anno occidentale e percorre tutte le stagioni in 33 anni.",
+   "used": "Uso religioso in tutto il mondo; ufficiale in Arabia Saudita (tavole Umm al-Qura), anche se dal 2016 gli stipendi pubblici vi sono pagati secondo il calendario gregoriano",
+   "note": "Un anno dura circa 354 giorni, quindi il Ramadan anticipa di circa 11 giorni ogni anno occidentale e percorre tutte le stagioni in 33 anni. Le date dal 1937 al 2077 seguono il calendario Umm al-Qura, che l’Arabia Saudita calcola in anticipo invece di attendere l’avvistamento della luna nuova, anche se le autorità possono ancora spostare di un giorno l’inizio di Muharram, Ramadan, Shawwal o Dhu l-Hijja dopo un avvistamento. Le date anteriori al 1937 sono approssimative.",
    "year": "{n} dell’Egira"
   },
   "persian": {
@@ -517,7 +517,7 @@ window.TM_I18N["it"] = {
    "type": "Solare (astronomico)",
    "epoch": "L’Egira, 622 d.C., contata in anni solari",
    "used": "Ufficiale in Iran dal 1925. L’Afghanistan lo ha usato ufficialmente fino al 2022, quando il governo è passato all’Egira lunare; la popolazione lo usa ancora",
-   "note": "L’anno inizia nell’istante esatto dell’equinozio di marzo (Nowruz), il che lo rende uno dei calendari in uso più precisi.",
+   "note": "L’anno inizia il giorno dell’equinozio di marzo (Nowruz): se l’equinozio cade prima di mezzogiorno, ora di Teheran, quel giorno è il 1º farvardin, altrimenti lo è il giorno dopo. Legare l’anno all’equinozio reale lo rende uno dei calendari in uso più precisi.",
    "year": "{n} dell’Egira solare"
   },
   "indian": {
@@ -535,7 +535,7 @@ window.TM_I18N["it"] = {
    "type": "Solare (regole fisse)",
    "epoch": "Bangabda, 593 d.C.",
    "used": "Ufficiale in Bangladesh; è mostrata la revisione del 2019",
-   "note": "Il Capodanno, Pohela Boishakh, è fissato al 14 aprile. Il Bengala Occidentale, in India, mantiene una versione astronomica più antica, quindi lì le date possono differire di un giorno.",
+   "note": "Il Capodanno, Pohela Boishakh, è fissato al 14 aprile. Il Bengala Occidentale, in India, mantiene una versione astronomica più antica, quindi lì le date possono differire di qualche giorno.",
    "year": "{n} BS"
   },
   "ethiopic": {
@@ -544,7 +544,7 @@ window.TM_I18N["it"] = {
    "type": "Solare: 12 mesi di 30 giorni + un 13º di 5–6",
    "epoch": "Era dell’Incarnazione, 8 d.C. secondo il computo gregoriano",
    "used": "Ufficiale in Etiopia",
-   "note": "Sette o otto anni indietro rispetto al computo occidentale; il Capodanno (Enkutatash) cade l’11 settembre.",
+   "note": "Sette o otto anni indietro rispetto al computo occidentale; il Capodanno (Enkutatash) cade l’11 settembre, o il 12 settembre nell’anno che precede un anno bisestile gregoriano.",
    "year": "{n} (etiope)"
   },
   "coptic": {
@@ -656,8 +656,8 @@ window.TM_I18N["it"] = {
    "region": "Dawoodi Bohra, Surat",
    "type": "Lunare, tabulare: mesi di 30 e 29 giorni, 11 anni bisestili su 30",
    "epoch": "L’Egira, 622 d.C.",
-   "used": "La comunità dawoodi bohra nel mondo (circa un milione di fedeli), per il Ramadan, l’Eid e tutte le date religiose",
-   "note": "Un calendario aritmetico fisso ereditato dai Fatimidi, perciò l’Eid dei Bohra può cadere un giorno prima di quello stabilito con l’avvistamento della luna — l’Eid al-Fitr 1445 fu il 9 aprile 2024.",
+   "used": "La comunità dawoodi bohra nel mondo (circa da un milione a un milione e mezzo di fedeli), per il Ramadan, l’Eid e tutte le date religiose",
+   "note": "Un calendario aritmetico fisso ereditato dai Fatimidi, perciò l’Eid dei Bohra può cadere uno o due giorni prima di quello stabilito con l’avvistamento della luna — l’Eid al-Fitr 1445 fu il 9 aprile 2024, contro il 10 aprile in Arabia Saudita e Pakistan e l’11 aprile in gran parte dell’India.",
    "year": "{n} dell’Egira"
   },
   "kiche": {
@@ -666,7 +666,7 @@ window.TM_I18N["it"] = {
    "type": "Computo di 260 giorni: 13 numeri × 20 nomi di giorni",
    "epoch": "Nessun anno 1: il computo prosegue ininterrotto dai Maya del periodo classico",
    "used": "I custodi dei giorni maya (ajq’ijab’), per cerimonie, divinazione e imposizione del nome; Wajxaqib’ B’atz’ (8 B’atz’) apre il loro nuovo ciclo",
-   "note": "Il computo vivente è quello antico, senza interruzioni: cade nello stesso giorno dello tzolk’in classico secondo la correlazione del Lungo computo usata qui. Wajxaqib’ B’atz’ è caduto il 18 gennaio 2025 e il 22 giugno 2026."
+   "note": "Il computo vivente è quello antico, senza interruzioni: cade nello stesso giorno dello tzolk’in classico secondo la correlazione del Lungo computo usata qui. Wajxaqib’ B’atz’ cade ogni 260 giorni: 18 gennaio 2025, 5 ottobre 2025, 22 giugno 2026, 9 marzo 2027."
   },
   "tibetan": {
    "name": "Calendario tibetano (Phugpa)",
@@ -683,7 +683,7 @@ window.TM_I18N["it"] = {
    "type": "Lunisolare, con giorni saltati e raddoppiati (tipo tibetano)",
    "epoch": "Nessun conteggio continuo degli anni; gli anni prendono nome da un elemento e un animale in un ciclo di 60 anni",
    "used": "Non è il calendario dello Stato (lo è il gregoriano), ma fissa lo Tsagaan Sar, il capodanno, e il compleanno di Gengis Khan, entrambi festività nazionali",
-   "note": "La versione Nuovo Genden (Tögs Buyant) del calendario tibetano, creata nel 1786; può iniziare l’anno con un giorno o un mese di differenza rispetto al Tibet: lo Tsagaan Sar 2025 cadde il 1º marzo, il Losar il 28 febbraio.",
+   "note": "La versione Nuovo Genden (Tögs Buyant) del calendario tibetano, elaborata nel XVIII secolo dal monaco Sümbe Khambo Ishbaljir (nel 1747 secondo la maggior parte delle fonti; Berzin indica il 1786); può iniziare l’anno con un giorno o un mese di differenza rispetto al Tibet: lo Tsagaan Sar 2025 cadde il 1º marzo, il Losar il 28 febbraio.",
    "year": "anno {gzPy} ({animal})"
   },
   "bhutanese": {
@@ -708,9 +708,9 @@ window.TM_I18N["it"] = {
    "name": "Calendario lunare khmer (chhankitek)",
    "region": "Cambogia",
    "type": "Lunisolare, con un mese o un giorno intercalare in alcuni anni",
-   "epoch": "Era buddhista: l’anno cambia il giorno dopo il Visak Bochea, un anno avanti rispetto al computo thailandese",
+   "epoch": "Era buddhista: l’anno cambia il giorno dopo il Visak Bochea, quindi da allora fino al 31 dicembre è un anno avanti rispetto al computo thailandese",
    "used": "Fissa il Visak Bochea, il Pchum Ben, la Festa dell’acqua e altre festività nazionali",
-   "note": "I giorni si contano da 1 a 15 nella metà crescente (កើត) e da 1 a 15 nella metà calante (រោច). Calcolato con l’aritmetica del chhankitek, come la libreria momentkh."
+   "note": "I giorni si contano da 1 a 15 nella metà crescente (កើត) e da 1 a 14 o a 15 nella metà calante (រោច), perché un mese ha 29 o 30 giorni. Calcolato con l’aritmetica del chhankitek, come la libreria momentkh."
   },
   "yuan": {
    "name": "Era della dinastia Yuan: Zhizheng",
@@ -735,7 +735,7 @@ window.TM_I18N["it"] = {
    "region": "Cina Qing",
    "type": "Lunisolare, anni delle ere imperiali",
    "epoch": "Xuantong 1 = 1909, regno di Puyi",
-   "used": "1909–1912, l’ultima era imperiale della Cina",
+   "used": "1909–1912, l’ultima era dell’ultima dinastia cinese",
    "note": "Puyi abdicò nell’anno Xuantong 3; la corte all’interno della Città Proibita continuò a usare l’era fino al 1924.",
    "year": "Xuantong {n}"
   },
@@ -763,7 +763,7 @@ window.TM_I18N["it"] = {
    "type": "Lunisolare, anni dalla fondazione della dinastia",
    "epoch": "Fondazione di Joseon, 1392 = Gaeguk 1",
    "used": "Ufficiale nel 1894–1895 (riforma Gabo); prima, Joseon datava secondo i nomi di era dei Ming, poi dei Qing",
-   "note": "Joseon mantenne il calendario lunisolare di tipo cinese (Siheon-ryeok) finché la Corea non passò al calendario solare il 1º gennaio 1896.",
+   "note": "Joseon mantenne un calendario lunisolare di tipo cinese (il calendario Datong dei Ming, poi dal 1653 il Siheon-ryeok dei Qing) finché la Corea non passò al calendario solare il 1º gennaio 1896.",
    "year": "Gaeguk {n}"
   },
   "nguyen": {
@@ -789,7 +789,7 @@ window.TM_I18N["it"] = {
    "region": "Siam (Thailandia)",
    "type": "Solare, anni dalla fondazione di Bangkok",
    "epoch": "Fondazione di Bangkok, 1782",
-   "used": "1889–1912, sotto i re Chulalongkorn e Vajiravudh",
+   "used": "1º aprile 1889 – 31 marzo 1913 (R.S. 108–131), sotto i re Chulalongkorn e Vajiravudh",
    "note": "L’anno iniziava il 1º aprile, come gli anni thailandesi fino al 1941.",
    "year": "R.S. {n}"
   },
@@ -808,7 +808,7 @@ window.TM_I18N["it"] = {
    "type": "Solare: 12 mesi di tre decadi + 5–6 giorni festivi",
    "epoch": "Proclamazione della Repubblica, 22 settembre 1792",
    "used": "1793–1805, e 18 giorni durante la Comune di Parigi del 1871",
-   "note": "I mesi prendono il nome dal clima (brumaio = nebbia, termidoro = calore). Gli anni bisestili dopo l’anno 20 seguono la regola proposta da Romme.",
+   "note": "I mesi prendono il nome dal clima, dalle piante e dai raccolti della loro stagione (brumaio = nebbia, termidoro = calura estiva, vendemmiaio = vendemmia). Dall’anno 20 in poi gli anni bisestili seguono la regola di tipo gregoriano che Romme propose nel 1795 e che non fu mai adottata.",
    "year": "anno {n} della Repubblica"
   },
   "egyptian": {
@@ -816,7 +816,7 @@ window.TM_I18N["it"] = {
    "region": "Egitto (Tebe)",
    "type": "Solare, 365 giorni senza giorno bisestile: 3 stagioni × 4 mesi di 30 giorni + 5 giorni aggiuntivi",
    "epoch": "Era di Nabonassar, 747 a.C., come nell’astronomia di Tolomeo",
-   "used": "Dall’inizio del III millennio a.C.; gli Egizi stessi contavano gli anni secondo il regno del sovrano",
+   "used": "Certamente in uso nel XXV secolo a.C., probabilmente già prima; gli Egizi stessi contavano gli anni secondo il regno del sovrano",
    "note": "Senza giorno bisestile slitta di un giorno ogni quattro anni rispetto alle stagioni e torna al punto di partenza dopo circa 1460 anni (il ciclo sotiaco). Le stagioni sono Akhet (inondazione), Peret (crescita) e Shemu (raccolto).",
    "year": "Nabonassar {n}"
   },

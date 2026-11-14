@@ -422,14 +422,14 @@ window.TM_I18N["vi"] = {
    "type": "Dương lịch",
    "epoch": "Công nguyên",
    "used": "Từ ngày 14 tháng 9 năm 1752 (các ngày 3–13 tháng 9 năm 1752 chưa từng tồn tại)",
-   "note": "Anh và các thuộc địa chuyển đổi muộn hơn Roma 170 năm; cùng đạo luật đó dời ngày đầu năm từ 25 tháng 3 sang 1 tháng 1."
+   "note": "Anh và các thuộc địa chuyển đổi muộn hơn Roma 170 năm. Cùng đạo luật đó dời ngày đầu năm từ 25 tháng 3 sang 1 tháng 1 ở xứ Anh, xứ Wales, Ireland và các thuộc địa; Scotland đã đổi như vậy từ năm 1600."
   },
   "greg_us": {
    "name": "Lịch Gregory",
    "region": "Hoa Kỳ",
    "type": "Dương lịch",
    "epoch": "Công nguyên",
-   "used": "Từ năm 1752, khi còn là thuộc địa Anh",
+   "used": "Từ năm 1752 ở các thuộc địa Anh; các vùng đất của Tây Ban Nha và Pháp dùng từ năm 1582 (hoặc từ khi được lập), Alaska từ năm 1867",
    "note": "Cùng bộ lịch với Anh, nhưng viết tháng trước: 10/5 là ngày 5 tháng 10 ở Mỹ và ngày 10 tháng 5 ở Anh."
   },
   "greg_jp": {
@@ -455,7 +455,7 @@ window.TM_I18N["vi"] = {
    "type": "Tháng dương lịch, năm Dân Quốc",
    "epoch": "Thành lập Trung Hoa Dân Quốc, 1912",
    "used": "Từ năm 1912; chính thức tại Đài Loan",
-   "note": "Năm = năm dương lịch − 1911. Trùng với năm Chủ thể của Triều Tiên.",
+   "note": "Năm = năm dương lịch − 1911. Năm Chủ thể của Triều Tiên, cũng tính từ năm 1912 và dùng đến năm 2024, mang cùng con số.",
    "year": "Dân Quốc {n}"
   },
   "juche": {
@@ -464,7 +464,7 @@ window.TM_I18N["vi"] = {
    "type": "Tháng dương lịch, năm Chủ thể",
    "epoch": "Năm sinh của Kim Nhật Thành, 1912",
    "used": "1997–2024: Triều Tiên ngừng in năm Chủ thể từ tháng 10 năm 2024",
-   "note": "Viết kèm năm dương lịch trong ngoặc: 주체115(2026)년.",
+   "note": "Ngày tháng từng được viết kèm năm dương lịch trong ngoặc, như 주체113(2024)년.",
    "year": "Chủ thể {n}"
   },
   "buddhist": {
@@ -472,7 +472,7 @@ window.TM_I18N["vi"] = {
    "region": "Thái Lan",
    "type": "Dương lịch, năm Phật lịch",
    "epoch": "Phật lịch: năm Đức Phật nhập Niết-bàn, 543 TCN theo cách tính của Thái Lan",
-   "used": "Chính thức từ năm 1912 (năm Phật lịch), lấy 1 tháng 1 làm ngày đầu năm từ năm 1941",
+   "used": "Chính thức từ ngày 1 tháng 4 năm 1913 (năm Phật lịch), lấy 1 tháng 1 làm ngày đầu năm từ năm 1941",
    "note": "Năm = năm dương lịch + 543. Sri Lanka, Myanmar và Campuchia tính Phật lịch lệch một năm so với Thái Lan.",
    "year": "Phật lịch {n}"
   },
@@ -482,7 +482,7 @@ window.TM_I18N["vi"] = {
    "type": "Âm dương lịch",
    "epoch": "Không đếm năm liên tục; năm xoay vòng theo 60 tên can chi",
    "used": "Xác định Tết Nguyên đán, Tết Trung thu và các ngày lễ khác",
-   "note": "Tháng bắt đầu theo ngày sóc tại Bắc Kinh; khoảng 7 lần trong 19 năm có thêm một tháng nhuận.",
+   "note": "Mỗi tháng bắt đầu vào ngày sóc theo giờ Bắc Kinh (UTC+8, kinh tuyến 120° Đông); khoảng 7 lần trong 19 năm có thêm một tháng nhuận.",
    "year": "{gzVi}"
   },
   "dangi": {
@@ -491,7 +491,7 @@ window.TM_I18N["vi"] = {
    "type": "Âm dương lịch",
    "epoch": "Không đếm năm liên tục; chu kỳ 60 năm",
    "used": "Xác định Tết Seollal và Chuseok",
-   "note": "Cùng quy tắc với âm lịch Trung Quốc nhưng tính theo giờ Hàn Quốc, nên khi ngày sóc rơi gần nửa đêm, tháng có thể bắt đầu lệch một ngày.",
+   "note": "Cùng quy tắc với âm lịch Trung Quốc nhưng tính theo giờ Hàn Quốc, nên khi ngày sóc rơi gần nửa đêm, tháng có thể bắt đầu lệch một ngày, và đôi khi tháng nhuận rơi vào chỗ khác (năm 2012: Hàn Quốc nhuận tháng 3, Trung Quốc nhuận tháng 4).",
    "year": "{gzVi}"
   },
   "hebrew": {
@@ -507,8 +507,8 @@ window.TM_I18N["vi"] = {
    "region": "Ả Rập Xê Út",
    "type": "Âm lịch (không có tháng nhuận)",
    "epoch": "Hijra, cuộc di cư của Muhammad đến Medina, năm 622",
-   "used": "Dùng cho tôn giáo trên toàn thế giới; dân sự tại Ả Rập Xê Út (bảng Umm al-Qura)",
-   "note": "Một năm khoảng 354 ngày, nên tháng Ramadan sớm hơn khoảng 11 ngày mỗi năm dương lịch và đi hết một vòng các mùa trong 33 năm.",
+   "used": "Dùng cho tôn giáo trên toàn thế giới; chính thức tại Ả Rập Xê Út (bảng Umm al-Qura), dù từ năm 2016 lương nhà nước ở đó được trả theo lịch Gregory",
+   "note": "Một năm khoảng 354 ngày, nên tháng Ramadan sớm hơn khoảng 11 ngày mỗi năm dương lịch và đi hết một vòng các mùa trong 33 năm. Các ngày từ năm 1937 đến 2077 theo lịch Umm al-Qura, do Ả Rập Xê Út tính trước thay vì chờ nhìn thấy trăng non, dù nhà chức trách vẫn có thể dời ngày bắt đầu tháng Muharram, Ramadan, Shawwal hoặc Dhu al-Hijjah một ngày sau khi quan sát trăng. Các ngày trước năm 1937 chỉ là gần đúng.",
    "year": "{n} Hijri"
   },
   "persian": {
@@ -517,7 +517,7 @@ window.TM_I18N["vi"] = {
    "type": "Dương lịch (thiên văn)",
    "epoch": "Hijra, năm 622, tính theo năm dương lịch",
    "used": "Chính thức tại Iran từ năm 1925. Afghanistan dùng chính thức đến năm 2022, khi chính quyền chuyển sang lịch Hijri âm lịch; người dân ở đó vẫn dùng lịch này",
-   "note": "Năm bắt đầu đúng vào thời khắc xuân phân tháng 3 (Nowruz), khiến đây là một trong những bộ lịch chính xác nhất đang được dùng.",
+   "note": "Năm bắt đầu vào ngày xuân phân tháng 3 (Nowruz): nếu xuân phân rơi vào trước giữa trưa giờ Tehran thì ngày đó là 1 tháng Farvardin, nếu không thì là ngày hôm sau. Việc gắn năm với điểm xuân phân thật khiến đây là một trong những bộ lịch chính xác nhất đang được dùng.",
    "year": "{n} Hijri dương lịch"
   },
   "indian": {
@@ -535,7 +535,7 @@ window.TM_I18N["vi"] = {
    "type": "Dương lịch (quy tắc cố định)",
    "epoch": "Bangabda, năm 593",
    "used": "Chính thức tại Bangladesh; hiển thị theo bản sửa đổi năm 2019",
-   "note": "Năm mới, Pohela Boishakh, cố định vào ngày 14 tháng 4. Bang Tây Bengal của Ấn Độ giữ một phiên bản thiên văn cũ hơn, nên ngày ở đó có thể lệch một ngày.",
+   "note": "Năm mới, Pohela Boishakh, cố định vào ngày 14 tháng 4. Bang Tây Bengal của Ấn Độ giữ một phiên bản thiên văn cũ hơn, nên ngày ở đó có thể lệch vài ngày.",
    "year": "{n} Bangabda"
   },
   "ethiopic": {
@@ -544,7 +544,7 @@ window.TM_I18N["vi"] = {
    "type": "Dương lịch: 12 tháng 30 ngày + tháng thứ 13 có 5–6 ngày",
    "epoch": "Kỷ nguyên Nhập thể, năm 8 theo lịch Gregory",
    "used": "Chính thức tại Ethiopia",
-   "note": "Chậm hơn năm dương lịch bảy hoặc tám năm; năm mới (Enkutatash) rơi vào ngày 11 tháng 9.",
+   "note": "Chậm hơn năm dương lịch bảy hoặc tám năm; năm mới (Enkutatash) rơi vào ngày 11 tháng 9, hoặc ngày 12 tháng 9 vào năm liền trước một năm nhuận của lịch Gregory.",
    "year": "{n} lịch Ethiopia"
   },
   "coptic": {
@@ -656,8 +656,8 @@ window.TM_I18N["vi"] = {
    "region": "Người Dawoodi Bohra, Surat",
    "type": "Âm lịch, theo bảng: tháng 30 và 29 ngày, 11 năm nhuận trong 30 năm",
    "epoch": "Hijra, năm 622",
-   "used": "Cộng đồng Dawoodi Bohra trên toàn thế giới (khoảng một triệu người), cho Ramadan, Eid và mọi ngày tôn giáo",
-   "note": "Một bộ lịch số học cố định thừa hưởng từ nhà Fatimid, nên Eid của người Bohra có thể sớm hơn một ngày so với Eid định theo trăng — Eid al-Fitr năm 1445 rơi vào 9 tháng 4 năm 2024.",
+   "used": "Cộng đồng Dawoodi Bohra trên toàn thế giới (khoảng từ một triệu đến một triệu rưỡi người), cho Ramadan, Eid và mọi ngày tôn giáo",
+   "note": "Một bộ lịch số học cố định thừa hưởng từ nhà Fatimid, nên Eid của người Bohra có thể sớm hơn một hai ngày so với Eid định theo trăng — Eid al-Fitr năm 1445 rơi vào 9 tháng 4 năm 2024, trong khi ở Ả Rập Xê Út và Pakistan là 10 tháng 4, còn ở phần lớn Ấn Độ là 11 tháng 4.",
    "year": "{n} Hijri"
   },
   "kiche": {
@@ -666,7 +666,7 @@ window.TM_I18N["vi"] = {
    "type": "Đếm 260 ngày: 13 con số × 20 tên ngày",
    "epoch": "Không có năm 1: phép đếm chạy liên tục từ thời Maya cổ điển",
    "used": "Các thầy giữ ngày Maya (ajq’ijab’) dùng cho nghi lễ, bói toán và đặt tên; Wajxaqib’ B’atz’ (8 B’atz’) mở đầu chu kỳ mới của họ",
-   "note": "Phép đếm còn sống chính là phép đếm cổ, không hề gián đoạn: nó trùng ngày với Tzolk’in cổ điển theo cách quy đổi Long Count dùng ở đây. Wajxaqib’ B’atz’ rơi vào 18 tháng 1 năm 2025 và 22 tháng 6 năm 2026."
+   "note": "Phép đếm còn sống chính là phép đếm cổ, không hề gián đoạn: nó trùng ngày với Tzolk’in cổ điển theo cách quy đổi Long Count dùng ở đây. Wajxaqib’ B’atz’ cứ 260 ngày lại rơi vào một lần: 18 tháng 1 năm 2025, 5 tháng 10 năm 2025, 22 tháng 6 năm 2026, 9 tháng 3 năm 2027."
   },
   "tibetan": {
    "name": "Lịch Tạng (phái Phugpa)",
@@ -683,7 +683,7 @@ window.TM_I18N["vi"] = {
    "type": "Âm dương lịch, có ngày bị bỏ qua và ngày lặp lại (kiểu lịch Tạng)",
    "epoch": "Không đếm năm liên tục; năm được gọi theo ngũ hành và con giáp trong chu kỳ 60 năm",
    "used": "Không phải lịch nhà nước (lịch Gregory là lịch chính thức), nhưng dùng để định Tsagaan Sar (Tết) và ngày sinh Thành Cát Tư Hãn, cả hai đều là ngày nghỉ lễ",
-   "note": "Là bản Tân Genden (Tögs Buyant) của lịch Tạng, soạn năm 1786; năm mới có thể lệch một ngày hoặc một tháng so với Tây Tạng — Tsagaan Sar năm 2025 rơi vào 1 tháng 3, còn Losar vào 28 tháng 2.",
+   "note": "Là bản Tân Genden (Tögs Buyant) của lịch Tạng, do nhà sư Sümbe Khambo Ishbaljir soạn vào thế kỷ 18 (năm 1747 theo phần lớn tài liệu; Berzin ghi năm 1786); năm mới có thể lệch một ngày hoặc một tháng so với Tây Tạng — Tsagaan Sar năm 2025 rơi vào 1 tháng 3, còn Losar vào 28 tháng 2.",
    "year": "{gzVi}"
   },
   "bhutanese": {
@@ -708,9 +708,9 @@ window.TM_I18N["vi"] = {
    "name": "Âm lịch Khmer (chhankitek)",
    "region": "Campuchia",
    "type": "Âm dương lịch, có năm thêm tháng nhuận hoặc ngày nhuận",
-   "epoch": "Phật lịch: năm mới bắt đầu vào ngày sau lễ Visak Bochea, đi trước cách tính của Thái Lan một năm",
+   "epoch": "Phật lịch: năm mới bắt đầu vào ngày sau lễ Visak Bochea, nên từ đó đến hết ngày 31 tháng 12 đi trước cách tính của Thái Lan một năm",
    "used": "Xác định lễ Visak Bochea, Pchum Ben, Lễ hội nước và các ngày nghỉ lễ khác",
-   "note": "Ngày được đếm 1–15 trong nửa trăng lên (កើត) và 1–15 trong nửa trăng xuống (រោច). Tính bằng thuật toán chhankitek, giống thư viện momentkh."
+   "note": "Ngày được đếm 1–15 trong nửa trăng lên (កើត) và 1–14 hoặc 1–15 trong nửa trăng xuống (រោច), vì một tháng có 29 hoặc 30 ngày. Tính bằng thuật toán chhankitek, giống thư viện momentkh."
   },
   "yuan": {
    "name": "Niên hiệu nhà Nguyên: Chí Chính",
@@ -735,7 +735,7 @@ window.TM_I18N["vi"] = {
    "region": "Trung Quốc thời Thanh",
    "type": "Âm dương lịch, năm theo niên hiệu",
    "epoch": "Tuyên Thống 1 = 1909, triều Phổ Nghi",
-   "used": "1909–1912, niên hiệu hoàng đế cuối cùng của Trung Quốc",
+   "used": "1909–1912, niên hiệu cuối cùng của triều đại cuối cùng ở Trung Quốc",
    "note": "Phổ Nghi thoái vị năm Tuyên Thống thứ 3; triều đình trong Tử Cấm Thành vẫn dùng niên hiệu này đến năm 1924.",
    "year": "Tuyên Thống thứ {n}"
   },
@@ -763,7 +763,7 @@ window.TM_I18N["vi"] = {
    "type": "Âm dương lịch, năm tính từ khi lập triều",
    "epoch": "Lập nước Triều Tiên, 1392 = Khai quốc 1",
    "used": "Chính thức 1894–1895 (Cải cách Giáp Ngọ); trước đó Triều Tiên dùng niên hiệu nhà Minh, rồi nhà Thanh",
-   "note": "Triều Tiên dùng âm dương lịch kiểu Trung Quốc (lịch Thời Hiến) cho đến khi chuyển sang dương lịch ngày 1 tháng 1 năm 1896.",
+   "note": "Triều Tiên dùng âm dương lịch kiểu Trung Quốc (lịch Đại Thống của nhà Minh, rồi từ năm 1653 là lịch Thời Hiến của nhà Thanh) cho đến khi chuyển sang dương lịch ngày 1 tháng 1 năm 1896.",
    "year": "Khai quốc thứ {n}"
   },
   "nguyen": {
@@ -789,7 +789,7 @@ window.TM_I18N["vi"] = {
    "region": "Xiêm (Thái Lan)",
    "type": "Dương lịch, năm tính từ khi lập Bangkok",
    "epoch": "Thành lập Bangkok, 1782",
-   "used": "1889–1912, dưới triều vua Chulalongkorn và Vajiravudh",
+   "used": "1 tháng 4 năm 1889 – 31 tháng 3 năm 1913 (Rattanakosin 108–131), dưới triều vua Chulalongkorn và Vajiravudh",
    "note": "Năm bắt đầu vào ngày 1 tháng 4, như năm của Thái Lan cho đến năm 1941.",
    "year": "Rattanakosin {n}"
   },
@@ -808,7 +808,7 @@ window.TM_I18N["vi"] = {
    "type": "Dương lịch: 12 tháng gồm ba tuần 10 ngày + 5–6 ngày lễ",
    "epoch": "Tuyên bố thành lập nền Cộng hòa, 22 tháng 9 năm 1792",
    "used": "1793–1805, và 18 ngày thời Công xã Paris năm 1871",
-   "note": "Tên tháng đặt theo thời tiết (Brumaire = sương mù, Thermidor = nóng). Năm nhuận sau năm thứ 20 theo quy tắc do Romme đề xuất.",
+   "note": "Tên tháng đặt theo thời tiết, cây cỏ và mùa màng của mùa đó (Brumaire = sương mù, Thermidor = nóng mùa hè, Vendémiaire = mùa hái nho). Từ năm thứ 20, năm nhuận theo quy tắc kiểu lịch Gregory do Romme đề xuất năm 1795, nhưng quy tắc này chưa bao giờ được áp dụng.",
    "year": "thứ {n} của nền Cộng hòa"
   },
   "egyptian": {
@@ -816,7 +816,7 @@ window.TM_I18N["vi"] = {
    "region": "Ai Cập (Thebes)",
    "type": "Dương lịch, 365 ngày không có ngày nhuận: 3 mùa × 4 tháng 30 ngày + 5 ngày bổ sung",
    "epoch": "Kỷ nguyên Nabonassar, 747 TCN, như trong thiên văn học của Ptolemy",
-   "used": "Từ đầu thiên niên kỷ 3 TCN; người Ai Cập tự đếm năm theo triều vua",
+   "used": "Chắc chắn đã được dùng vào thế kỷ 25 TCN, có lẽ còn sớm hơn; người Ai Cập tự đếm năm theo triều vua",
    "note": "Vì không có ngày nhuận, lịch lệch một ngày so với các mùa sau mỗi bốn năm, và trở lại sau khoảng 1.460 năm (chu kỳ Sothis). Ba mùa là Akhet (lũ), Peret (sinh trưởng) và Shemu (thu hoạch).",
    "year": "Nabonassar {n}"
   },

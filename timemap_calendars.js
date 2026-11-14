@@ -1057,7 +1057,7 @@
           year: 'Gaeguk {n}',
           from: { y: 1392, m: 8, d: 13 }, endYear: 1895,
           fmt: (g, D) => { const c = lunar('dangi', D), n = c.relatedYear - 1391;
-              return { native: '開國' + han(n) + '年' + (c.leap ? '閏' : '') + lunarMonthHan(c.month) + '月' + han(c.day) + '日',
+              return { native: '開國' + han(n).replace(/零/g, '') + '年' + (c.leap ? '閏' : '') + lunarMonthHan(c.month) + '月' + han(c.day) + '日',
                        latin: 'Gaeguk ' + n + ', ' + (c.leap ? 'leap ' : '') + 'month ' + c.month + ', day ' + c.day,
                        tr: { kind: 'lunar', n, m: c.month, leap: c.leap, d: c.day } }; } },
         { id: 'nguyen', status: 'historical', lat: 16.5, lng: 107.6,

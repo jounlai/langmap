@@ -2222,7 +2222,7 @@ WORDS.foot = {
     toc: ["tantún", "tantún"],  // 1 Corinthians 12:15 gives the bare tantú̠n for the foot and Revelation 19:16 builds the thigh on it as xaklhtantú̠n, and Aschmann's Papantla dictionary glosses tantún 'la pata, el pie y pierna' while the Sierra vocabulary answers pierna with tantün; no other lower-limb noun appears anywhere in the Coyutla NT.
     toi: ["cituta", "tʃituta"],  // Tonga splits them: Harris's dictionary has cituta for the foot, beside itende and tende, against kuulu for the leg.
     toj: ["ok", "ok"],  // PMED glosses TOJ ok 'pie, pierna' — one word, and the shin is built on it as sat yok, 'face of the foot'.
-    tok: ["noka", "noka"],  // Sonja Lang's word list glosses noka 'foot, leg, organ of locomotion', one word, from Serbo-Croatian noga.
+    tok: ["noka", "ˈnoka"],  // Sonja Lang's word list glosses noka 'foot, leg, organ of locomotion', one word, from Serbo-Croatian noga.
     tpi: ["lek", "lek"],  // English leg has been generalised to the whole lower limb; fut is the narrower borrowing. han does the same on the arm in this row's hand cell.
     tpn: ["py", "pɨ"],  // Navarro 412 s.v. py 'pé (de pessoa), pata (de animal)', against (t)etymã 'perna' at 122 — Old Tupi splits them, and the derivatives (pysã 'toe', pytá 'heel' vs etymã-kanga 'shin') split with them.
     tpy: ["pitsʔ", "pitsʔ"],  // IDS gives Trumai pitsʔ for the foot against dak for the leg, and this row's hand cell kat is IDS's (ha) kat.

@@ -371,6 +371,33 @@ WORDS.milkyway = {
     pjt: "other",
     dak: "road",
     swi: "river",
+    en_au: "milk",
+    en_nz: "milk",
+    en_sg: "milk",
+    en_my: "milk",
+    en_za: "milk",
+    en_ke: "milk",
+    en_ng: "milk",
+    en_ng2: "milk",
+    en_ph: "milk",
+    en_in: "milk",
+    fr_cm: "milk",
+    fr_sn: "milk",
+    fr_ci: "milk",
+    fr_ht: "milk",
+    fr_af: "milk",
+    es_an: "milk",
+    pt_ao: "milk",
+    pt_mz: "milk",
+    pt_cv: "milk",
+    pt_mo: "milk",
+    ja_aom: "river",
+    ja_kg: "river",
+    ja_sd: "river",
+    ko_bus: "river",
+    ko_yb: "river",
+    ko_hg: "river",
+    ko_jl: "river",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -649,7 +676,7 @@ WORDS.milkyway = {
     en_south: ["Milky Way", "ˈmɪlki weɪ"],  // The same name as general English, a calque of Latin Via Lactea 'milky road' (Wiktionary).
     en_app: ["Milky Way", "ˈmɪlki weɪ"],  // The same name as general English, a calque of Latin Via Lactea 'milky road' (Wiktionary).
     en_aave: ["Milky Way", "ˈmɪlki weɪ"],  // The same name as general English, a calque of Latin Via Lactea 'milky road' (Wiktionary).
-    en_jam: ["Milky Way", "ˈmɪlki weɪ"],  // The same name as general English, a calque of Latin Via Lactea 'milky road' (Wiktionary).
+    en_jam: ["Milky Way", "ˈmɪlki weː"],  // The same name as general English, a calque of Latin Via Lactea 'milky road' (Wiktionary).
     fr_qc: ["Voie lactée", "vwa lakte"],  // The same name as in France, literally 'milky way' from Latin Via Lactea.
     en_ck: ["Milky Way", "ˈmɪwki wæɪ"],  // Same word as standard English; the IPA is built from the row's own cells (milk, final -y as in coffee, FACE vowel as in rain).
     en_scouse: ["Milky Way", "ˈmɪlki weɪ"],  // Same word as standard English; the IPA is built from the row's own cells (milk, final -y as in coffee, FACE vowel as in rain).
@@ -685,5 +712,32 @@ WORDS.milkyway = {
     pjt: ["tjukalpa", "ˈcukalpa"],  // Built on tjukal with -pa; the same word means a makeshift ladder.
     dak: ["wanáǧithačhaŋku", "wanáɣitʰatʃʰãku"],  // Literally 'ghost road'.
     swi: ["ʔnja:ŋ1 ʔbən1", "ʔnjaːŋ˩˧ ʔbən˩˧"],  // The 'channel of the sky': qnyaangl 'ditch, channel' plus qbenl 'sky'.
+    en_au: ["Milky Way", "ˈmɪlki wæɪ"],  // Same word as standard English; IPA from the row's own cells (rain ɹæɪn, Monday ˈmɐndæɪ, coffee ˈkɔfi).
+    en_nz: ["Milky Way", "ˈmɪlki wæe"],  // Same word as standard English; IPA from the row's own cells (rain ɹæen, Monday ˈmɐndæe, coffee ˈkɔfi).
+    en_sg: ["Milky Way", "ˈmɪlki weː"],  // Same word as standard English; IPA from the row's own cells (rain ɹeːn, Monday ˈmandeː).
+    en_my: ["Milky Way", "ˈmɪlki weː"],  // Same word as standard English; IPA from the row's own cells (rain ɹeːn, name neːm).
+    en_za: ["Milky Way", "ˈmɪlki weː"],  // Same word as standard English; IPA from the row's own cells (rain ɹeːn, Monday ˈmʌndeː).
+    en_ke: ["Milky Way", "ˈmɪlki weː"],  // Same word as standard English; IPA from the row's own cells (rain ɹeːn, Monday ˈmʌndeː).
+    en_ng: ["Milky Way", "ˈmɪlki weː"],  // Same word as standard English; IPA from the row's own cells (rain ɹeːn, Monday ˈmɔndeː).
+    en_ng2: ["Milky Way", "ˈmɪlki weː"],  // Same word as standard English; IPA from the row's own cells (rain ɹeːn, name neːm).
+    en_ph: ["Milky Way", "ˈmɪlki weɪ"],  // Same word as standard English; IPA from the row's own cells (rain ɹeɪn, Monday ˈmʌndeɪ).
+    en_in: ["Milky Way", "ˈmɪlki ʋeː"],  // Same word as standard English; IPA from the row's own cells (rain reːn, wheel ʋiːl, water ˈʋɔːʈər).
+    fr_cm: ["Voie lactée", "vwa lakte"],  // Same word as standard French.
+    fr_sn: ["Voie lactée", "vwa lakte"],  // Same word as standard French.
+    fr_ci: ["Voie lactée", "vwa lakte"],  // Same word as standard French.
+    fr_ht: ["Voie lactée", "vwa lakte"],  // Same word as standard French.
+    fr_af: ["Voie lactée", "vwa lakte"],  // Same word as standard French.
+    es_an: ["Vía Láctea", "ˈbia ˈlaɣtea"],  // The same learned name as standard Spanish, from Latin Via Lactea 'milky way'.
+    pt_ao: ["Via Láctea", "ˈviɐ ˈlaktjɐ"],  // From Latin Via Lactea 'milky way'.
+    pt_mz: ["Via Láctea", "ˈviɐ ˈlaktjɐ"],  // From Latin Via Lactea 'milky way'.
+    pt_cv: ["Via Láctea", "ˈviɐ ˈlaktjɐ"],  // From Latin Via Lactea 'milky way'.
+    pt_mo: ["Via Láctea", "ˈviɐ ˈlaktjɐ"],  // From Latin Via Lactea 'milky way'.
+    ja_aom: ["天の川", "amanoɡawa"],  // Literally 'river of heaven'; the national word.
+    ja_kg: ["天の川", "amanoɡawa"],  // Literally 'river of heaven'; the national word.
+    ja_sd: ["天の川", "amanoɡawa"],  // Literally 'river of heaven'; the national word.
+    ko_bus: ["은하수", "ɯnhasu"],  // Sino-Korean 銀河水 'silver river water', the national word.
+    ko_yb: ["은하수", "ɯnhasu"],  // Sino-Korean 銀河水 'silver river water', the national word.
+    ko_hg: ["은하수", "ɯnhasu"],  // Sino-Korean 銀河水 'silver river water', the national word.
+    ko_jl: ["은하수", "ɯnhasu"],  // Sino-Korean 銀河水 'silver river water', the national word.
   },
 };

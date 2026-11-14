@@ -278,7 +278,7 @@ WORDS.earthquake = {
     ko_bus: "earth",
     ko_yb: "earth",
     es_mx: "earth",
-    pt_br: "shake",
+    pt_br: "earth",
     en_au: "earth",
     de_at: "earth",
     en_ie: "earth",
@@ -308,6 +308,25 @@ WORDS.earthquake = {
     es_ve: "earth",
     hr: "shake",
     bs: "earth",
+    en_us: "earth",
+    en_ca: "earth",
+    en_aave: "earth",
+    en_app: "earth",
+    en_wc: "earth",
+    en_south: "earth",
+    en_nz: "earth",
+    en_sco: "earth",
+    en_ck: "earth",
+    en_scouse: "earth",
+    en_ph: "earth",
+    de_ch: "earth",
+    zh_tw: "earth",
+    vi_c: "earth",
+    vi_s: "earth",
+    pt_cv: "shake",
+    pt_mo: "shake",
+    ja_kg: "earth",
+    ja_sd: "earth",
   },
   routes: {
     earth: {"color":"#b45309","emoji":"🌍","en":"earth + shaking (Erdbeben, terremoto, भूकंप, 地震)","ja":"大地＋揺れ (Erdbeben, terremoto, भूकंप, 地震)","ko":"땅 + 흔들림 (Erdbeben, terremoto, भूकंप, 地震)","zh":"地 + 震 (Erdbeben, terremoto, भूकंप, 地震)","yue":"地 + 震 (Erdbeben, terremoto, भूकंप, 地震)","vi":"đất + rung (Erdbeben, terremoto, भूकंप, 地震)","th":"ดิน + สั่น (Erdbeben, terremoto, भूकंप, 地震)","id":"bumi + guncang (Erdbeben, terremoto, भूकंप, 地震)","hi":"धरती + कंपन (Erdbeben, terremoto, भूकंप, 地震)","de":"Erde + Beben (Erdbeben, terremoto, भूकंप, 地震)","fr":"terre + tremblement (Erdbeben, terremoto, भूकंप, 地震)","it":"terra + tremore (Erdbeben, terremoto, भूकंप, 地震)","es":"tierra + temblor (Erdbeben, terremoto, भूकंप, 地震)","pt":"terra + tremor (Erdbeben, terremoto, भूकंप, 地震)","ru":"земля + тряска (Erdbeben, terremoto, भूकंप, 地震)","uk":"земля + трус (Erdbeben, terremoto, भूकंप, 地震)","ar":"أرض + اهتزاز (Erdbeben, terremoto, भूकंप, 地震)","he":"אדמה + רעד (Erdbeben, terremoto, भूकंप, 地震)","sw":"ardhi + tikisa (Erdbeben, terremoto, भूकंप, 地震)"},
@@ -336,7 +355,7 @@ WORDS.earthquake = {
     bto: ["linog", "linoɡ"],
     bxr: ["газар хүдэлэлгэ", "ɡazarxydelelɡe"],  // Built on the word for earth or land.
     ca: ["terratrèmol", "ˌtɛrəˈtɾɛmul"],  // Built on the word for earth or land.
-    cbk: ["temblor", "tembloɾ"],  // A word for shaking, with no earth in it.
+    cbk: ["temblor", "temˈbloɾ"],  // A word for shaking, with no earth in it.
     ceb: ["linog", "ˈlinoɡ"],
     ckb: ["بوومەلەرزە", "buːmalaɾza"],  // Built on the word for earth or land.
     ckv: ["utuz", "utuz"],
@@ -348,7 +367,7 @@ WORDS.earthquake = {
     da: ["jordskælv", "ˈjorskɛlv"],  // Built on the word for earth or land.
     dar: ["мерс", "mers"],
     de: ["Erdbeben", "ˈeːɐ̯tˌbeːbn̩"],  // Built on the word for earth or land.
-    el: ["σεισμός", "seismos"],  // A word for shaking, with no earth in it.
+    el: ["σεισμός", "siˈzmos"],  // A word for shaking, with no earth in it.
     en: ["earthquake", "ˈɜːθkweɪk"],  // Built on the word for earth or land.
     enm: ["erthequake", "ˈeːrðəˌkwaːkə"],  // Built on the word for earth or land.
     eo: ["tertremo", "terˈtremo"],  // Built on the word for earth or land.
@@ -415,16 +434,16 @@ WORDS.earthquake = {
     pam: ["ayun", "əˈjun"],
     pap: ["temblor", "temblor"],  // A word for shaking, with no earth in it.
     pl: ["trzęsienie ziemi", "tʂɛ̃ˈɕɛɲɛ ˈʑɛmi"],  // Built on the word for earth or land.
-    pt: ["sismo", "ˈsizmu"],  // A word for shaking, with no earth in it.
-    rgn: ["taramòt", "taramɔt"],  // Built on the word for earth or land.
+    pt: ["sismo", "ˈsiʒmu"],  // A word for shaking, with no earth in it.
+    rgn: ["taramòt", "taraˈmɔt"],  // Built on the word for earth or land.
     rhg: ["búsal", "busal"],
-    ro: ["cutremur", "kutremur"],  // A word for shaking, with no earth in it.
+    ro: ["cutremur", "kuˈtremur"],  // A word for shaking, with no earth in it.
     roo: ["ravurike", "ɾaβuɾike"],
     rtm: ["rue", "rue"],
     ru: ["землетрясение", "zʲɪmlʲɪtrʲɪˈsʲenʲɪjə"],  // Built on the word for earth or land.
     rw: ["umutingito", "umutinɡito"],
     sa: ["भूकम्प", "bʱuːkɐmpɐ"],  // Built on the word for earth or land.
-    scn: ["tirrimotu", "tirrimɔtu"],  // Built on the word for earth or land.
+    scn: ["tirrimotu", "tirriˈmɔtu"],  // Built on the word for earth or land.
     sd: ["زلزلو", "zəlzəloː"],  // From Arabic زلزلة zalzala.
     shn: ["ဢိင်ႇသၼ်ႇ", "ʔiŋ˩sʰan˩"],
     sk: ["zemetrasenie", "ˈzemetraseɲɪ̯e"],  // Built on the word for earth or land.
@@ -454,7 +473,7 @@ WORDS.earthquake = {
     ur: ["زلزلہ", "zəlzəlɑː"],  // From Arabic زلزلة zalzala.
     uz: ["zilzila", "zilzila"],  // From Arabic زلزلة zalzala.
     vi: ["động đất", "ɗəwŋ˧˨ʔ ɗət˧˥"],  // Built on the word for earth or land.
-    vo: ["taladrem", "taladrem"],
+    vo: ["taladrem", "talaˈdrem"],
     vro: ["maavärrin", "mɑɑværrin"],  // Built on the word for earth or land.
     war: ["linog", "ˈlinoɡ"],
     xal: ["һазр догдллһн", "ɣazrdoɡdllɣn"],  // Built on the word for earth or land.
@@ -504,22 +523,22 @@ WORDS.earthquake = {
     fr_lu: ["tremblement de terre", "tʁɑ̃bləmɑ̃ də tɛʁ"],
     fr_cm: ["tremblement de terre", "tʁɑ̃bləmɑ̃ də tɛʁ"],
     de_lu: ["Erdbeben", "ˈeːɐ̯tˌbeːbn̩"],
-    en_ng2: ["earthquake", "ˈɜːtkweɪk"],
+    en_ng2: ["earthquake", "ˈɜːtkweːk"],
     es_bo: ["terremoto", "tereˈmoto"],
     es_py: ["terremoto", "tereˈmoto"],
     es_pa: ["terremoto", "tereˈmoto"],
-    en_my: ["earthquake", "ˈɜːtkweɪk"],
+    en_my: ["earthquake", "ˈɜːtkweːk"],
     en_wls: ["earthquake", "ˈɜːθkweɪk"],
-    en_jam: ["earthquake", "ˈɜːtkweɪk"],
-    en_ng: ["earthquake", "ˈɜːtkweɪk"],
-    en_ke: ["earthquake", "ˈɜːθkweɪk"],
+    en_jam: ["earthquake", "ˈɜːtkweːk"],
+    en_ng: ["earthquake", "ˈɜːtkweːk"],
+    en_ke: ["earthquake", "ˈɜːθkweːk"],
     fr_sn: ["tremblement de terre", "tʁɑ̃bləmɑ̃ də tɛʁ"],
     fr_ci: ["tremblement de terre", "tʁɑ̃bləmɑ̃ də tɛʁ"],
     fr_ht: ["tremblement de terre", "tʁɑ̃bləmɑ̃ də tɛʁ"],
-    pt_mz: ["sismo", "ˈsizmu"],
+    pt_mz: ["sismo", "ˈsiʒmu"],
     nl_be: ["aardbeving", "ˈaːrtbeːvɪŋ"],
-    en_za: ["earthquake", "ˈɜːθkweɪk"],
-    pt_ao: ["sismo", "ˈsizmu"],
+    en_za: ["earthquake", "ˈɜːθkweːk"],
+    pt_ao: ["sismo", "ˈsiʒmu"],
     ja_osa: ["地震", "dʑiɕiɴ"],
     ja_aom: ["地震", "dʑiɕiɴ"],
     ja_hak: ["地震", "dʑiɕiɴ"],
@@ -529,16 +548,16 @@ WORDS.earthquake = {
     ko_bus: ["지진", "tɕidʑin"],
     ko_yb: ["지진", "tɕidʑin"],
     es_mx: ["terremoto", "tereˈmoto"],
-    pt_br: ["sismo", "ˈsizmu"],
+    pt_br: ["terremoto", "teʁeˈmɔtu"],  // Brazilian Portuguese says terremoto, 'earth' + 'movement'; sismo is the technical word, and Portugal has terramoto beside sismo (Wiktionary).
     en_au: ["earthquake", "ˈɜːθkwæɪk"],
     de_at: ["Erdbeben", "ˈeːɐ̯tˌbeːbn̩"],
-    en_ie: ["earthquake", "ˈɜːθkweɪk"],
-    en_yk: ["earthquake", "ˈɜːθkweɪk"],
-    en_geordie: ["earthquake", "ˈøːθkweɪk"],
+    en_ie: ["earthquake", "ˈɜːɹθkweːk"],
+    en_yk: ["earthquake", "ˈɜːθkweːk"],
+    en_geordie: ["earthquake", "ˈøːθkweːk"],
     en_brum: ["earthquake", "ˈɜːθkwʌɪk"],
     en_manc: ["earthquake", "ˈɜːθkweɪk"],
     en_est: ["earthquake", "ˈɜːθkwɛɪk"],
-    en_sg: ["earthquake", "ˈɜːtkweɪk"],
+    en_sg: ["earthquake", "ˈɜːtkweːk"],
     fr_qc: ["tremblement de terre", "tʁɑ̃bləmɑ̃ də tɛʁ"],
     fr_af: ["tremblement de terre", "tʁɑ̃bləmɑ̃ də tɛʁ"],
     fr_be: ["tremblement de terre", "tʁɑ̃bləmɑ̃ də tɛʁ"],
@@ -559,5 +578,24 @@ WORDS.earthquake = {
     es_ve: ["terremoto", "tereˈmoto"],
     hr: ["potres", "pǒtres"],  // A word for shaking, with no earth in it; zemljotres is the usual word in Serbian and Bosnian.
     bs: ["zemljotres", "ˈzemʎotreːs"],  // Built on the word for earth or land (zemlja + tresti 'shake'); Croatian says potres.
+    en_us: ["earthquake", "ˈɝθkweɪk"],  // Same word as standard English; IPA from the row's own cells (earth ɝθ, snake sneɪk).
+    en_ca: ["earthquake", "ˈɝθkweɪk"],  // Same word as standard English; IPA from the row's own cells (earth ɝθ, snake sneɪk).
+    en_aave: ["earthquake", "ˈɝθkweɪk"],  // Same word as standard English; IPA from the row's own cells (earth ɝθ, snake sneɪk).
+    en_app: ["earthquake", "ˈɝθkweɪk"],  // Same word as standard English; IPA from the row's own cells (earth ɝθ, snake sneɪk).
+    en_wc: ["earthquake", "ˈɝθkweɪk"],  // Same word as standard English; IPA from the row's own cells (earth ɝθ, snake sneɪk).
+    en_south: ["earthquake", "ˈɝθkwæɪk"],  // Same word as standard English; IPA from the row's own cells (earth ɝθ, snake snæɪk).
+    en_nz: ["earthquake", "ˈøːθkwæek"],  // Same word as standard English; IPA from the row's own cells (earth øːθ, snake snæek).
+    en_sco: ["earthquake", "ˈɛɹθkwek"],  // Same word as standard English; IPA from the row's own cells (earth ɛɹθ, snake snek).
+    en_ck: ["earthquake", "ˈɜːfkwæɪk"],  // Same word as standard English; IPA from the row's own cells (earth ɜːf, snake snæɪk).
+    en_scouse: ["earthquake", "ˈeːθkweɪk"],  // Same word as standard English; IPA from the row's own cells (earth eːθ, snake sneɪk).
+    en_ph: ["earthquake", "ˈɝtkweɪk"],  // Same word as standard English; IPA from the row's own cells (earth ɝt, snake sneɪk).
+    de_ch: ["Erdbeben", "ˈeːrtˌbeːbən"],  // Same word as standard German; r and -en as in the row's Erde ˈeːrdə and Regen ˈreːɡən.
+    zh_tw: ["地震", "ti˥˩ ʈʂən˥˩"],  // Same word as the mainland row; both characters are the same in traditional script.
+    vi_c: ["động đất", "ɗəwŋ͡m˧˩ ɗək˧˦"],  // Same word as standard Vietnamese, both syllables as the row writes them in its mobile phone and earth cells.
+    vi_s: ["động đất", "ɗəwŋ͡m˨˩˨ ɗək˧˥"],  // Same word as standard Vietnamese, both syllables as the row writes them in its mobile phone and earth cells.
+    pt_cv: ["sismo", "ˈsiʒmu"],  // Same word as European Portuguese; coda s as the row's três tɾeʃ.
+    pt_mo: ["sismo", "ˈsiʒmu"],  // Same word as European Portuguese; coda s as the row's três tɾeʃ.
+    ja_kg: ["地震", "dʑiɕiɴ"],  // The standard word, used here as everywhere in Japan.
+    ja_sd: ["地震", "dʑiɕiɴ"],  // The standard word, used here as everywhere in Japan.
   },
 };

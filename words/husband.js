@@ -76,8 +76,8 @@ WORDS.husband = {
     cic: "man",
     bin: "own",
     trn: "own",
-    ayl: "own",
-    abv: "own",
+    ayl: "other",
+    abv: "other",
     afb: "own",
     acw: "other",
     slr: "own",
@@ -120,7 +120,7 @@ WORDS.husband = {
     lo: "own",
     am: "lord",
     fi: "man",
-    el: "own",
+    el: "spouse",
     nl: "man",
     pl: "own",
     szl: "own",
@@ -156,10 +156,10 @@ WORDS.husband = {
     gag: "own",
     kk: "man",
     mnc: "own",
-    ar_eg: "own",
-    ar_lev: "own",
+    ar_eg: "other",
+    ar_lev: "other",
     ar_gulf: "own",
-    mey: "own",
+    mey: "other",
     mt: "man",
     ha: "own",
     xh: "own",
@@ -584,6 +584,21 @@ WORDS.husband = {
     zh_wh: "own",
     zh_xa: "own",
     zh_zz: "man",
+    en_us: "house",
+    en_ca: "house",
+    en_app: "house",
+    en_ph: "house",
+    en_ng: "house",
+    en_scouse: "house",
+    en_geordie: "house",
+    en_manc: "house",
+    pt_br: "own",
+    pt_cv: "own",
+    pt_mo: "own",
+    vi_c: "own",
+    vi_s: "own",
+    ja_kg: "own",
+    ja_sd: "own",
   },
   routes: {
     man: {"color":"#2563eb","emoji":"👨","en":"the same word as man","ja":"「男」と同じ語","ko":"'남자'와 같은 낱말","zh":"与“男人”同一个词","yue":"同「男人」同一個詞","vi":"cùng một từ với 'đàn ông'","th":"คำเดียวกับ 'ผู้ชาย'","id":"kata yang sama dengan 'laki-laki'","hi":"'आदमी' वाला ही शब्द","de":"dasselbe Wort wie Mann","fr":"le même mot qu'homme","it":"la stessa parola di uomo","es":"la misma palabra que hombre","pt":"a mesma palavra que homem","ru":"то же слово, что «мужчина»","uk":"те саме слово, що «чоловік (мужчина)»","ar":"الكلمة نفسها لـ«رجل»","he":"אותה מילה כמו „גבר”","sw":"neno lile lile la 'mwanamume'"},
@@ -634,7 +649,7 @@ WORDS.husband = {
     yrk: ["хасава", "xɑsɑwɑ"],
     nio: ["бәйкаˮа", "bəjˈkaʔa"],
     sel: ["ираты", "jiratɨ"],
-    kca: ["ики", "iki"],
+    kca: ["ики", "ˈiki"],
     ckt: ["ыʼвэкʼуч", "əʔβequtɕ"],
     itl: ["ӄамзан", "qamzan"],
     ykg: ["көнги", "kønɡi"],
@@ -643,7 +658,7 @@ WORDS.husband = {
     lo: ["ຜົວ", "pʰuːə̯˩˧"],
     am: ["ባል", "bal"],  // Also 'master'; from Proto-Semitic *baʕl-.
     fi: ["mies", "ˈmie̯s"],
-    el: ["παντρεμένος", "pandɾeˈmenos"],
+    el: ["σύζυγος", "ˈsiziɣos"],  // σύζυγος is the common-gender word for spouse, the same word as this row's wife; everyday speech also says ο άντρας μου 'my man'.
     nl: ["man", "mɑn"],
     pl: ["mąż", "mɔw̃ʂ"],
     szl: ["ślubny", "ˈɕlubnɪ"],
@@ -676,11 +691,11 @@ WORDS.husband = {
     ckb: ["مێرد", "me̞ːɾd"],
     ps: ["سړی", "saɽaˈɪ"],
     az: ["ər", "æɾ"],
-    gag: ["koca", "kodʒa"],
+    gag: ["koca", "koˈdʒa"],
     kk: ["ер", "er"],
     mnc: ["ᡝᡳᡤᡝᠨ", "əikən"],
-    ar_eg: ["جوز", "ɡoːz"],
-    ar_lev: ["جوز", "ʒoːz"],
+    ar_eg: ["جوز", "ɡoːz"],  // جوز is Arabic زوج with metathesis, and still also means 'pair' (Wiktionary).
+    ar_lev: ["جوز", "ʒoːz"],  // جوز is Arabic زوج with metathesis, and still also means 'pair' (Wiktionary).
     ar_gulf: ["ريل", "ˈrəjɪl"],
     mey: ["زوج", "zaudʒ"],
     mt: ["raġel", "ˈraːdʒɛl"],
@@ -699,10 +714,10 @@ WORDS.husband = {
     gl: ["esposo", "esˈposo"],
     be: ["муж", "muʂ"],
     cs: ["manžel", "ˈmanʒɛl"],
-    sk: ["manžel", "manʒel"],
-    sl: ["soprog", "sɔproːk"],
+    sk: ["manžel", "ˈmanʒel"],
+    sl: ["soprog", "sɔˈproːk"],
     bg: ["мъж", "mɤʃ"],
-    lt: ["vyras", "ˈʋʲiːrɐs"],
+    lt: ["vyras", "ˈvʲiːrɐs"],
     lv: ["vīrs", "viːrs"],
     sq: ["burrë", "ˈburə"],
     aae: ["burrë", "burə"],
@@ -713,10 +728,10 @@ WORDS.husband = {
     tcs: ["man", "man"],  // Also 'a married man; any man' (Wiktionary), from English man.
     hwc: ["husband", "hʌzbənd"],
     se: ["boadnji", "ˈpoɑ̯dːɲiː"],
-    sma: ["ålma", "ɔlma"],
-    smj: ["boaddnje", "buɔɑdːnjɛ"],
-    smn: ["kääḷis", "kæːlis"],
-    sms: ["kuõjj", "kuəʝːɐ"],
+    sma: ["ålma", "ˈɔlma"],
+    smj: ["boaddnje", "ˈbuɔɑdːnjɛ"],
+    smn: ["kääḷis", "ˈkæːlis"],
+    sms: ["kuõjj", "ˈkuəʝːɐ"],
     sjd: ["кӯйй", "kuːjː"],
     vro: ["mees", "mees"],  // The same word means man (Wiktionary: miiś 'man; husband').
     gn: ["ména", "mena"],  // The word for man is kuimba'e or ava (Ñe'ẽryru dictionary).
@@ -759,14 +774,14 @@ WORDS.husband = {
     war: ["bana", "ˈbana"],  // The word for man is lalaki (Wiktionary); asawa means spouse of either sex.
     ks: ["خانہٕ دار", "kʰaːnɨdaːr"],
     kok: ["घोव", "ɡʰoʋ"],  // The word for man is दादलो (Wiktionary).
-    hsb: ["muz", "muz"],
+    hsb: ["muž", "mujʃ"],
     fur: ["om", "ɔm"],
     ast: ["home", "ˈome"],
     fax: ["homi", "ˈomi"],
     an: ["mariu", "maˈɾiu"],
     rup: ["bãrbat", "bərˈbat"],
     wa: ["ome", "ɔm"],
-    kpv: ["верӧс", "ˈʋerɘs"],
+    kpv: ["верӧс", "ˈverɘs"],
     koi: ["айка", "ajˈka"],
     udm: ["пиосмурт", "piosˈmurt"],
     mhr: ["мари́й", "marij"],
@@ -774,7 +789,7 @@ WORDS.husband = {
     myv: ["мирде", "mʲirdʲe"],
     mdf: ["мирде", "mʲirdʲe"],
     krl: ["mies", "mie̯s"],
-    olo: ["ukko", "ukːo"],
+    olo: ["ukko", "ˈukːo"],
     vep: ["mužik", "muʒik"],
     liv: ["mīez", "miːɛz"],
     tt: ["ир", "ir"],
@@ -791,7 +806,7 @@ WORDS.husband = {
     moc: ["l-owa", "lowa"],  // The same word means wife: the IDS Mocoví list gives l-owa for both, as does the Chaco languages list (loua).
     crt: ["-kilwaʔ ~ -c̷ilwaʔ ~ -ilwaʔ", "kilwaʔ"],  // The IDS Chorote list gives ayinye for man and -kilfʷaʔ for wife.
     jup: ["tæ̃hʔíp", "tæ̃hʔíp"],  // Literally 'child's father': the WOLD Hup list gives tæ̃h 'son, offspring' and ʔíp 'father', and the wife is tæ̃hʔín, 'child's mother'.
-    mns: ["о̄йка", "oːjka"],
+    mns: ["о̄йка", "ˈoːjka"],
     tsg: ["bana", "bana"],
     hr: ["muž", "mûːʒ"],
     bs: ["muž", "muːʒ"],
@@ -805,7 +820,7 @@ WORDS.husband = {
     srn: ["man", "man"],
     srm: ["mánu", "mánu"],  // The WOLD Saramaccan list gives wómi for man and koósuma for wife.
     blc: ["kwtmts", "kʷtmts"],  // The word for man is imlk (Wiktionary).
-    quz: ["wosa", "wosa"],  // The word for man is qhari (Cross-Andean list).
+    quz: ["wosa", "ˈwosa"],  // The word for man is qhari (Cross-Andean list).
     quy: ["qusa", "qusa"],  // Qusa is the husband; qari, which the cell held before, is 'man' (Wiktionary qusa 'husband'; the Cross-Andean list gives qosa for husband).
     khb: ["ᦷᦕ", "pʰoː˥"],
     bej: ["hiyu", "hiju"],
@@ -814,8 +829,8 @@ WORDS.husband = {
     qxq: ["ər", "ær"],
     bew: ["suami", "suami"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     ltg: ["veirs", "ˈvʲæi̯rsʲ"],  // From Proto-Balto-Slavic *wī́ˀras 'man', as Latvian vīrs (routed own there).
-    io: ["spozulo", "spozulo"],
-    vls: ["echtgenoot", "ɛxtxeːnoːt"],
+    io: ["spozulo", "spoˈzulo"],
+    vls: ["echtgenoot", "ˈɛxtxeːnoːt"],
     fkv: ["mies", "mies"],
     fit: ["mies", "mies"],
     aln: ["burrë", "burə"],
@@ -1107,5 +1122,20 @@ WORDS.husband = {
     zh_wh: ["丈夫", "tsaŋ˧˥ fu"],  // 丈夫, 'husband'. Word from Wiktionary's dialect table for Wuhan; reading from MCPDict 武漢.
     zh_xa: ["丈夫", "tʂaŋ˥˥ fu"],  // 丈夫, 'husband'. Word from Wiktionary's dialect table for Xi'an; reading from MCPDict 西安.
     zh_zz: ["男人", "nan˦˨ ʐən˦˨"],  // Literally 'man'. Word from Wiktionary's dialect table for Zhengzhou; reading from MCPDict 開封 (no Zhengzhou table; the row matches Kaifeng).
+    en_us: ["husband", "ˈhʌzbənd"],  // Same word as standard English; IPA from the row's own cells (butter ˈbʌɾɚ, Monday ˈmʌndeɪ).
+    en_ca: ["husband", "ˈhʌzbənd"],  // Same word as standard English; IPA from the row's own cells (butter ˈbʌɾɚ, Monday ˈmʌndeɪ).
+    en_app: ["husband", "ˈhʌzbənd"],  // Same word as standard English; IPA from the row's own cells (butter ˈbʌɾɚ, Monday ˈmʌndeɪ).
+    en_ph: ["husband", "ˈhʌzbənd"],  // Same word as standard English; IPA from the row's own cells (butter ˈbʌtɚ, Monday ˈmʌndeɪ).
+    en_ng: ["husband", "ˈhɔzbənd"],  // Same word as standard English; IPA from the row's own cells (butter ˈbɔtə, Monday ˈmɔndeː, honey ˈhɔni).
+    en_scouse: ["husband", "ˈhʊzbənd"],  // Same word as standard English; IPA from the row's own cells (butter ˈbʊt̪sə, honey ˈhʊni, hand hand).
+    en_geordie: ["husband", "ˈhʊzbənd"],  // Same word as standard English; IPA from the row's own cells (butter ˈbʊtɐ, honey ˈhʊni, hand hand).
+    en_manc: ["husband", "ˈhʊzbənd"],  // Same word as standard English; IPA from the row's own cells (butter ˈbʊtɐ, hundred ˈhʊndɹəd, hand hand).
+    pt_br: ["marido", "maˈɾidu"],  // Same word as Portuguese; d before final -o is not palatalised.
+    pt_cv: ["marido", "maˈɾidu"],  // Same word as Portuguese.
+    pt_mo: ["marido", "maˈɾiðu"],  // Same word as Portuguese, with the row's lenition between vowels.
+    vi_c: ["chồng", "cəwŋ͡m˦˨"],  // Same word as standard Vietnamese, in the row's Central tone and spelling of ch and -ông.
+    vi_s: ["chồng", "cəwŋ͡m˨˩"],  // Same word as standard Vietnamese, in the row's Southern tone and spelling of ch and -ông.
+    ja_kg: ["夫", "otːo"],  // The standard word, used here as everywhere in Japan.
+    ja_sd: ["夫", "otːo"],  // The standard word, used here as everywhere in Japan.
   },
 };

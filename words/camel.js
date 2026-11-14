@@ -396,6 +396,23 @@ WORDS.camel = {
     ko_jl: "luotuo",
     sr: "gamal",
     bs: "tebe",
+    en_us: "gamal",
+    en_ca: "gamal",
+    en_app: "gamal",
+    en_ph: "gamal",
+    en_ng: "gamal",
+    en_ie: "gamal",
+    en_scouse: "gamal",
+    en_geordie: "gamal",
+    en_manc: "gamal",
+    zh_tw: "luotuo",
+    vi_c: "luotuo",
+    vi_s: "luotuo",
+    es_gt: "gamal",
+    es_uy: "gamal",
+    pt_cv: "gamal",
+    pt_mo: "gamal",
+    ja_kg: "luotuo",
   },
   routes: {
     gamal: {"color":"#d97706","emoji":"🐫","en":"from Semitic gamal (جمل, camel, ngamia)","ja":"セム語 gamal から（جمل, camel, ngamia）","ko":"셈어 gamal에서 (جمل, camel, ngamia)","zh":"源自闪米特语 gamal（جمل, camel, ngamia）","yue":"源自閃米特語 gamal（جمل, camel, ngamia）","vi":"từ tiếng Semit gamal (جمل, camel, ngamia)","th":"จากภาษาเซมิติก gamal (جمل, camel, ngamia)","id":"dari bahasa Semit gamal (جمل, camel, ngamia)","hi":"सामी gamal से (جمل, camel, ngamia)","de":"aus semitisch gamal (جمل, camel, ngamia)","fr":"du sémitique gamal (جمل, camel, ngamia)","it":"dal semitico gamal (جمل, camel, ngamia)","es":"del semítico gamal (جمل, camel, ngamia)","pt":"do semítico gamal (جمل, camel, ngamia)","ru":"из семитского gamal (جمل, camel, ngamia)","uk":"із семітського gamal (جمل, camel, ngamia)","ar":"من السامية gamal (جمل, camel, ngamia)","he":"מ-gamal השמית (جمل, camel, ngamia)","sw":"kutoka Kisemiti gamal (جمل, camel, ngamia)"},
@@ -439,14 +456,14 @@ WORDS.camel = {
     evn: ["тэве̄н", "təweːn"],  // Route by resemblance to the neighbouring forms (gld); no etymology of its own.
     fo: ["kamelur", "kaˈmeːlʊɹ"],
     fur: ["camęl", "kaˈmɛl"],
-    gag: ["devä", "devæ"],
+    gag: ["devä", "deˈvæ"],
     gld: ["тэмэн", "temen"],
     haw: ["kāmelo", "kaːmelo"],  // Route by resemblance to the neighbouring forms (an,csb,cy); no etymology of its own.
     hr: ["kamila", "kǎmila"],
     ja: ["駱駝", "ɾakɯda"],  // From Middle Chinese 駱駝.
     kek: ["kameey", "kameːj"],  // Route by resemblance to the neighbouring forms (csb,cy,de); no etymology of its own.
     kjh: ["тибе", "tibe"],
-    krc: ["тюе", "tyje"],
+    krc: ["тюе", "tyˈje"],
     kum: ["тюе", "tyje"],
     ky: ["төө", "tøː"],
     kr: ["kàlímò", "kàlímò"],
@@ -458,7 +475,7 @@ WORDS.camel = {
     mrw: ["onta", "onta"],
     tsg: ["onta", "onta"],  // Route by resemblance to the neighbouring forms (ace,mrw,jv); no etymology of its own.
     jv: ["onta", "ontɔ"],
-    mg: ["ramèva", "rameva"],
+    mg: ["ramèva", "raˈmeva"],
     myv: ["ишем", "iʃem"],
     ne: ["ऊँट", "ũʈ"],  // Route by resemblance to the neighbouring forms (pa,sat,bn); no etymology of its own.
     nog: ["туье", "tyje"],
@@ -553,7 +570,7 @@ WORDS.camel = {
     hi: ["ऊँट", "ũːʈ"],  // From Sanskrit उष्ट्र through Prakrit.
     hu: ["teve", "ˈtɛvɛ"],  // Borrowed from a Turkic language; first attested around 1395.
     is: ["úlfaldi", "ˈulvaltɪ"],  // From Old Norse úlfaldi, from Proto-Germanic *ulbanduz.
-    io: ["kamelo", "kamelo"],
+    io: ["kamelo", "kaˈmelo"],
     id: ["unta", "ˈunta"],  // From Malay unta, from Prakrit उट्ट, from Sanskrit.
     ga: ["camall", "ˈkamˠəlˠ"],
     it: ["cammello", "kamˈmɛllo"],
@@ -583,7 +600,7 @@ WORDS.camel = {
     szl: ["kamela", "kaˈmɛla"],
     sd: ["اٺ", "ʊʈʰʊ"],
     sk: ["ťava", "ˈcava"],  // Borrowed from Hungarian teve, from Turkic.
-    sl: ["kamela", "kameːla"],
+    sl: ["kamela", "kaˈmeːla"],
     so: ["geel", "ɡeːl"],  // An old borrowing from an undetermined Semitic source.
     es: ["camello", "kaˈmeʝo"],
     sw: ["ngamia", "ŋɡaˈmia"],  // An old borrowing, ultimately from Arabic جمل.
@@ -731,5 +748,22 @@ WORDS.camel = {
     ko_jl: ["낙타", "naktʰa"],
     sr: ["камила", "kǎmila"],  // From Latin camēlus, from Greek, ultimately from Semitic *gamal.
     bs: ["deva", "ˈdeːʋa"],  // Borrowed from Ottoman Turkish deve; kamila is also used.
+    en_us: ["camel", "ˈkæməl"],  // Same word as standard English; IPA from the row's own cells (cat kæt).
+    en_ca: ["camel", "ˈkæməl"],  // Same word as standard English; IPA from the row's own cells (cat kæt).
+    en_app: ["camel", "ˈkæməl"],  // Same word as standard English; IPA from the row's own cells (cat kæt).
+    en_ph: ["camel", "ˈkæməl"],  // Same word as standard English; IPA from the row's own cells (cat kæt).
+    en_ng: ["camel", "ˈkæməl"],  // Same word as standard English; IPA from the row's own cells (cat kæt).
+    en_ie: ["camel", "ˈkaməl"],  // Same word as standard English; IPA from the row's own cells (cat kat).
+    en_scouse: ["camel", "ˈkaməl"],  // Same word as standard English; IPA from the row's own cells (cat kat̪s).
+    en_geordie: ["camel", "ˈkaməl"],  // Same word as standard English; IPA from the row's own cells (cat kat).
+    en_manc: ["camel", "ˈkaməl"],  // Same word as standard English; IPA from the row's own cells (cat kat).
+    zh_tw: ["駱駝", "lwo˥˩ tʰwo˧˥"],  // Same word as the mainland row, written traditionally per this row's convention.
+    vi_c: ["lạc đà", "laːk˧˩ ɗaː˦˨"],  // Same word as standard Vietnamese, in the row's Central tones.
+    vi_s: ["lạc đà", "laːk˨˩ ɗaː˨˩"],  // Same word as standard Vietnamese, in the row's Southern tones.
+    es_gt: ["camello", "kaˈmejo"],  // Same word as Spanish; ll as the row's y in ayer aˈjeɾ.
+    es_uy: ["camello", "kaˈmeʒo"],  // Same word as Spanish; ll as the row's y in ayer aˈʒeɾ.
+    pt_cv: ["camelo", "kaˈmelu"],  // Same word as Portuguese.
+    pt_mo: ["camelo", "kaˈmelu"],  // Same word as Portuguese.
+    ja_kg: ["駱駝", "ɾakɯda"],  // The standard word, used in Kagoshima as everywhere in Japan.
   },
 };

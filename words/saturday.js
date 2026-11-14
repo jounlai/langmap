@@ -424,6 +424,26 @@ WORDS.saturday = {
     tkl: "other",
     mak: "sabbath",
     lij_t: "sabbath",
+    en_us: "saturn",
+    en_ca: "saturn",
+    en_app: "saturn",
+    en_ph: "saturn",
+    en_ng: "saturn",
+    en_nz: "saturn",
+    en_ie: "saturn",
+    en_scouse: "saturn",
+    en_geordie: "saturn",
+    en_manc: "saturn",
+    de_ch: "sabbath",
+    de_at: "sabbath",
+    zh_tw: "count",
+    zh_db: "count",
+    vi_c: "count",
+    vi_s: "count",
+    ja_kg: "saturn",
+    ja_sd: "saturn",
+    pt_cv: "sabbath",
+    pt_mo: "sabbath",
   },
   routes: {
     saturn: {"color":"#7c3aed","emoji":"🪐","en":"Saturn's day","ja":"土星の日","ko":"토성의 날","zh":"土星之日","yue":"土星嘅日","vi":"ngày sao Thổ","th":"วันของดาวเสาร์","id":"hari Saturnus","hi":"शनि का दिन","de":"Saturns Tag","fr":"le jour de Saturne","it":"il giorno di Saturno","es":"el día de Saturno","pt":"o dia de Saturno","ru":"день Сатурна","uk":"день Сатурна","ar":"يوم زحل","he":"יום שבתאי","sw":"siku ya Zohali"},
@@ -502,7 +522,7 @@ WORDS.saturday = {
     ky: ["ишемби", "iʃemˈbi"],
     lo: ["ວັນເສົາ", "ʋan˧˥ saw˩˧"],
     la: ["sabbatum", "ˈsabbatum"],
-    lv: ["sestdiena", "sɛsddiɛna"],
+    lv: ["sestdiena", "ˈsɛzddiɛna"],
     lzz: ["საბატონი", "sabatʼoni"],
     lez: ["киш", "kiʃ"],
     ln: ["sabala", "sabala"],  // No opened source supports the route.
@@ -512,7 +532,7 @@ WORDS.saturday = {
     mk: ["сабота", "ˈsabɔta"],
     ms: ["Sabtu", "ˈsabtu"],
     ml: ["ശനിയാഴ്ച", "ʃanijaːɻtʃa"],
-    mt: ["is-Sibt", "sɪpt"],
+    mt: ["is-Sibt", "ɪsˈsɪpt"],
     gv: ["Jesarn", "dʒeˈsaːrn"],
     mi: ["Hātarei", "haːtarei"],
     mr: ["शनिवार", "ɕəniʋaɾ"],
@@ -591,7 +611,7 @@ WORDS.saturday = {
     kca: ["ӆапат хутмет хатӆ", "ɬapat xutmet xatɬ"],  // No opened source supports the route.
     mns: ["суббота", "ˈsubbota"],
     ku: ["şemî", "ʃɛmi"],  // Route by resemblance to the neighbouring forms (zza); no etymology of its own.
-    hyw: ["շաբաթ", "ʃɑpʰɑtʰ"],
+    hyw: ["շաբաթ", "ʃɑˈpʰɑtʰ"],
     aln: ["shtunë", "ʃtunə"],  // Page gives the origin as unknown.
     hr: ["subota", "sǔbota"],
     no: ["lørdag", "ˈløːrdaːɡ"],  // From a word for 'bath'.
@@ -633,14 +653,14 @@ WORDS.saturday = {
     es_pa: ["sábado", "ˈsabado"],
     en_my: ["Saturday", "ˈsætədeɪ"],
     en_wls: ["Saturday", "ˈsatədeɪ"],
-    en_jam: ["Saturday", "ˈsatədeɪ"],
-    en_ke: ["Saturday", "ˈsætədeɪ"],
+    en_jam: ["Saturday", "ˈsatədeː"],
+    en_ke: ["Saturday", "ˈsætədeː"],
     fr_sn: ["samedi", "samdi"],
     fr_ci: ["samedi", "samdi"],
     fr_ht: ["samedi", "samdi"],
     pt_mz: ["sábado", "ˈsabadu"],
     nl_be: ["zaterdag", "ˈzaːtərˌdɑx"],
-    en_za: ["Saturday", "ˈsætədeɪ"],
+    en_za: ["Saturday", "ˈsætədeː"],
     pt_ao: ["sábado", "ˈsabadu"],
     ca_va: ["dissabte", "diˈsapta"],
     ja_osa: ["土曜日", "dojoːbi"],
@@ -656,15 +676,15 @@ WORDS.saturday = {
     en_aave: ["Saturday", "ˈsæɾədeɪ"],
     en_au: ["Saturday", "ˈsæɾədæɪ"],
     rmy: ["sàvato", "ˈsavato"],
-    en_south: ["Saturday", "ˈsæɾədeɪ"],
-    en_in: ["Saturday", "ˈsæʈəɖeɪ"],
-    en_sco: ["Saturday", "ˈsatədeɪ"],
-    en_yk: ["Saturday", "ˈsatədeɪ"],
-    en_ck: ["Saturday", "ˈsætədeɪ"],
+    en_south: ["Saturday", "ˈsæɾɚdæɪ"],
+    en_in: ["Saturday", "ˈsæʈərɖeː"],
+    en_sco: ["Saturday", "ˈsatəɹde"],
+    en_yk: ["Saturday", "ˈsatədeː"],
+    en_ck: ["Saturday", "ˈsæʔədæɪ"],
     en_brum: ["Saturday", "ˈsatədʌɪ"],
-    en_wc: ["Saturday", "ˈsatədeɪ"],
+    en_wc: ["Saturday", "ˈsatɚdeɪ"],
     en_est: ["Saturday", "ˈsætədɛɪ"],
-    en_sg: ["Saturday", "ˈsɛtədeɪ"],
+    en_sg: ["Saturday", "ˈsɛtədeː"],
     fr_qc: ["samedi", "samdi"],
     fr_af: ["samedi", "samdi"],
     fr_be: ["samedi", "samdi"],
@@ -790,5 +810,25 @@ WORDS.saturday = {
     tkl: ["Aho Tōnai", "ahʲo toːnai"],  // A calque of Samoan Aso Toʻanaʻi, 'day of preparation'.
     mak: ["Sattu", "ˈsattu"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     lij_t: ["sàbbo", "ˈsabbu"],
+    en_us: ["Saturday", "ˈsæɾɚdeɪ"],  // Same word as standard English; IPA from the row's own cells (yesterday ˈjɛstɚdeɪ, butter ˈbʌɾɚ, Monday ˈmʌndeɪ).
+    en_ca: ["Saturday", "ˈsæɾɚdeɪ"],  // Same word as standard English; IPA from the row's own cells (yesterday ˈjɛstɚdeɪ, butter ˈbʌɾɚ, Monday ˈmʌndeɪ).
+    en_app: ["Saturday", "ˈsæɾɚdeɪ"],  // Same word as standard English; IPA from the row's own cells (yesterday ˈjɛstɚdeɪ, butter ˈbʌɾɚ, Monday ˈmʌndeɪ).
+    en_ph: ["Saturday", "ˈsætɚdeɪ"],  // Same word as standard English; IPA from the row's own cells (yesterday ˈjɛstɚdeɪ, butter ˈbʌtɚ, cat kæt).
+    en_ng: ["Saturday", "ˈsætədeː"],  // Same word as standard English; IPA from the row's own cells (yesterday ˈjɛstədeː, Monday ˈmɔndeː, cat kæt).
+    en_nz: ["Saturday", "ˈsætədæe"],  // Same word as standard English; IPA from the row's own cells (yesterday ˈjestədæe, Monday ˈmɐndæe, butter ˈbɐtə).
+    en_ie: ["Saturday", "ˈsatəɹdeː"],  // Same word as standard English; IPA from the row's own cells (yesterday ˈjɛstəɹdeː, Monday ˈmʊndeː, cat kat).
+    en_scouse: ["Saturday", "ˈsat̪sədeɪ"],  // Same word as standard English; IPA from the row's own cells (butter ˈbʊt̪sə, cat kat̪s, yesterday ˈjɛstədeɪ).
+    en_geordie: ["Saturday", "ˈsatədə"],  // Same word as standard English; IPA from the row's own cells (yesterday ˈjɪstədə, Monday ˈmʊndə, cat kat).
+    en_manc: ["Saturday", "ˈsatədeɪ"],  // Same word as standard English; IPA from the row's own cells (yesterday ˈjɛstədeɪ, Monday ˈmʊndeɪ, cat kat).
+    de_ch: ["Samstag", "ˈsamstaːk"],  // Same word as standard German; initial s as in the row's Sonntag ˈsɔntaːk.
+    de_at: ["Samstag", "ˈsamstaːk"],  // Same word as standard German; initial s as in the row's Sonntag ˈsɔntaːk.
+    zh_tw: ["星期六", "ɕiŋ˥ tɕʰi˧˥ ljoʊ̯˥˩"],  // Same word as the mainland row; Taiwan reads 期 in the second tone, as in the row's 星期一 ɕiŋ˥ tɕʰi˧˥ i˥.
+    zh_db: ["星期六", "ɕiŋ˥ tɕʰi˥ ljoʊ̯˥˩"],  // Same word as the standard row; the row's 星期一 to 星期四 are read as in zh.
+    vi_c: ["thứ bảy", "tʰɨ˨˦ ɓaj˧˩˨"],  // Same word as standard Vietnamese, in the row's Central tones (thứ tʰɨ˨˦ as in its Monday).
+    vi_s: ["thứ bảy", "tʰɨ˧˥ ɓaj˨˩˦"],  // Same word as standard Vietnamese, in the row's Southern tones (thứ tʰɨ˧˥ as in its Monday).
+    ja_kg: ["土曜日", "dojoːbi"],  // The standard word, read as in Tokyo, like the row's 月曜日 ɡetsɯjoːbi.
+    ja_sd: ["土曜日", "dojoːbi"],  // The standard word, read as in Tokyo, like the row's 月曜日 ɡetsɯjoːbi.
+    pt_cv: ["sábado", "ˈsabadu"],  // Same word as Portuguese.
+    pt_mo: ["sábado", "ˈsaβaðu"],  // Same word as Portuguese, with the row's lenition between vowels.
   },
 };

@@ -901,6 +901,10 @@ WORDS.yesterday = {
     chk: "distinct",
     khw: "distinct",
     ono: "unknown",
+    ko_bus: "distinct",
+    ko_yb: "distinct",
+    ko_hg: "distinct",
+    ko_jl: "distinct",
   },
   routes: {
     same: {"color":"#db2777","emoji":"🔁","en":"one word for yesterday and tomorrow","ja":"昨日と明日が同じ語","ko":"어제와 내일이 한 낱말","zh":"昨天和明天同一个词","yue":"尋日同聽日同一個詞","vi":"một từ cho hôm qua và ngày mai","th":"คำเดียวทั้งเมื่อวานและพรุ่งนี้","id":"satu kata untuk kemarin dan besok","hi":"बीते और आने वाले कल का एक शब्द","de":"ein Wort für gestern und morgen","fr":"un mot pour hier et demain","it":"una parola per ieri e domani","es":"una palabra para ayer y mañana","pt":"uma palavra para ontem e amanhã","ru":"одно слово для вчера и завтра","uk":"одне слово для учора й завтра","ar":"كلمة واحدة لأمس وغد","he":"מילה אחת לאתמול ולמחר","sw":"neno moja kwa jana na kesho"},
@@ -1393,7 +1397,7 @@ WORDS.yesterday = {
     pis: ["yestade", "jestade"],  // tomorrow: tumoro; from English yesterday.
     dv: ["އިއްޔެ", "ijje"],  // tomorrow: މާދަމާ; from Sanskrit hyas, cognate with Sinhala ඊයේ.
     nzi: ["anoma", "anoma"],  // tomorrow: ɛhyema
-    krc: ["тюнене", "tynene"],  // tomorrow: тамбла
+    krc: ["тюнене", "tyneˈne"],  // tomorrow: тамбла
     ote: ["mande", "mande"],  // tomorrow: xudi
     kj: ["onghela", "oŋ̊ela"],  // tomorrow: mongula
     pdc: ["geschder", "ɡeʃtər"],  // tomorrow: meiya (spelling of the Pennsylvania Dutch Bible, which writes yesterday geshtah); cognate with German gestern.
@@ -1713,7 +1717,7 @@ WORDS.yesterday = {
     osa: ["sitǫ́", "sitṍ"],
     pot: ["nago", "naɡo"],  // wnago up north.
     yuy: ["tʃygdur", "tʃyɡdur"],
-    ja_chu: ["昨日", "kinoː"],  // きのふ in 不審条々 (1403) as quoted in 日本国語大辞典. IPA read from the spelling., contracted as the row's /kɔːmoɾi/; ja_heian has kinoɸu.
+    ja_chu: ["昨日", "kinoː"],  // きのふ in 不審条々 (1403), as quoted in 日本国語大辞典; -ofu is contracted to -oː as in the row's /kɔːmoɾi/, where ja_heian keeps kinoɸu.
     rtm: ["asa", "asa"],  // wordlist asa 2; homonyms name, sun
     pmt: ["inanahi", "inanahi"],  // Tregear INANAHI; head and gloss columns aligned by count, confirmed by his Maori comparison
     zh_han: ["昨日", "ʒ(h)āk ńǝt"],  // 史記 魏其武安侯列傳 (灌夫 passage), also 莊子 山木; found on ctext. StarLing Western Han; 日 as the row's sun cell.
@@ -1747,5 +1751,9 @@ WORDS.yesterday = {
     chk: ["naneu", "naneu"],  // Tomorrow is a different word, neesor.
     khw: ["دوݰ", "doʂ"],  // The word for tomorrow is čhúči 'in the morning, tomorrow' or pingačhúy (A Grammar of Khowar, which gives doṣ for yesterday).
     ono: ["ahsedéh", "ahsedéh"],  // The source gives no word for tomorrow to set beside it.
+    ko_bus: ["어제", "ʌdʑe"],  // tomorrow: 내일; 어제 is the national word.
+    ko_yb: ["어제", "ʌdʑe"],  // tomorrow: 내일; 어제 is the national word.
+    ko_hg: ["어제", "ʌdʑe"],  // tomorrow: 내일; 어제 is the national word.
+    ko_jl: ["어제", "ədʑe"],  // tomorrow: 내일; 어제 is the national word.
   },
 };

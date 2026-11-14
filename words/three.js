@@ -1034,7 +1034,7 @@ WORDS.three = {
     ja_kg: ["三", "saɴ"],
     ja_sd: ["三", "saɴ"],
     ko_hg: ["셋", "set̚"],
-    ko_jl: ["싯", "sit̚"],
+    ko_jl: ["싯", "ɕit̚"],
     nan_pn: ["三", "sã˧˧"],
     mra: ["pɛʔ", "pɛʔ"],
     wuu_nb: ["三", "sɛ˥˨"],

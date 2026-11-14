@@ -332,8 +332,8 @@ WORDS.black = {
 
     // --- Austronesian (Philippine / Indonesian / Oceanic) --------------
     ilo: ["nangisit", "naŋiˈsit"],
-    hil: ["itom", "iˈtom"],
-    war: ["itom", "iˈtom"],
+    hil: ["itom", "ʔiˈtom"],
+    war: ["itom", "ʔiˈtom"],
     bik: ["itom", "ʔiˈtom"],
     pam: ["matuling", "matuˈliŋ"],
     pag: ["andeket", "andeˈket"],

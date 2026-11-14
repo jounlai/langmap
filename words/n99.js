@@ -1177,7 +1177,7 @@ WORDS.n99 = {
     de_lu: ["neunundneunzig", "ˈnɔʏ̯nʊntˌnɔʏ̯ntsɪç"], // was ["neunundneunzig", "ˈnɔʏnʊntˌnɔʏntsɪç"] (vi dialect rules 2026-10-06)
     jvn: ["sangang puluh sanga", "saŋaŋ puluh sɔŋɔ"],
     ja_kg: ["九十九", "kʲɯːdʑɯːkʲɯː"],
-    ja_kyo: ["九十九", "kʲɯːdʑɯːkʲɯː"],
+    ja_kyo: ["九十九", "kʲɯːʑɯːkʲɯː"],
     zh_tw: ["九十九", "tɕjoʊ̯˧˩˧ ʂʐ̩˧˥ tɕjoʊ̯˧˩˧"],
     zh_nj: ["九十九", "tɕiəu˨˩˨ ʂʅʔ˥ tɕiəu˨˩˨"],
     wuu_jh: ["九十九", "tɕiu˥˧˥ ʑiəʔ˨˩˨ tɕiu˥˧˥"], // was ["九十九", "tɕiu˥˧˥ ʑiəʔ˩˨ tɕiu˥˧˥"] (r48 fix 2026-10-03)
@@ -1256,7 +1256,7 @@ WORDS.n99 = {
     ja_sd: ["九十九", "kʲɯːdʑɯːkʲɯː"],
     ja_hak: ["九十九", "kʲɯːʑɯːkʲɯː"], // was ["九十九", "kʲɯːdʑɯːkʲɯː"] (vi dialect rules 2026-10-06)
     ja_hir: ["九十九", "kʲɯːʑɯːkʲɯː"], // was ["九十九", "kʲɯːdʑɯːkʲɯː"] (vi dialect rules 2026-10-06)
-    ja_osa: ["九十九", "kʲɯːdʑɯːkʲɯː"],
+    ja_osa: ["九十九", "kʲɯːʑɯːkʲɯː"],
     kab: ["tesɛa u tesɛin", "təsʕa u təsʕin"],
     ti: ["ተስዓን ትሽዓተን", "tɐsʕan tɨʃʕatɐn"], // was ["ተስዓን ትሽዓተን", "təsʕan tɨʃʕatən"] (vi dialect rules 2026-10-06)
     azb: ["دوخسان دوققوز", "doxˈsɑn doɡˈɡuz"],
@@ -1571,12 +1571,12 @@ WORDS.n99 = {
     arq: ["تسعة وتسعين", "tasʕa w tasʕiːn"], // was ["تسعة وتسعون", "tisʕa wa tisʕuːn"] (vi dialect rules 2026-10-06)
     en_us: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
     en_ca: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
-    en_au: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
+    en_au: ["ninety-nine", "ˈnɑɪnti ˈnɑɪn"],
     en_nz: ["ninety-nine", "ˈnɑɪnti ˈnɑɪn"], // was ["ninety-nine", "ˈnaɪnti ˈnaɪn"] (vi dialect rules 2026-10-06)
     en_za: ["ninety-nine", "ˈnɑɪnti ˈnɑɪn"],
     en_in: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
     en_ie: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
-    en_sco: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
+    en_sco: ["ninety-nine", "ˈnəɪnti ˈnəɪn"],
     en_scouse: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
     en_geordie: ["ninety-nine", "ˈnɛɪnti ˈnɛɪn"], // was ["ninety-nine", "ˈnaɪnti ˈnaɪn"] (vi dialect rules 2026-10-06)
     en_brum: ["ninety-nine", "ˈnɔɪnti ˈnɔɪn"], // was ["ninety-nine", "ˈnaɪnti ˈnaɪn"] (vi dialect rules 2026-10-06)
@@ -1585,7 +1585,7 @@ WORDS.n99 = {
     en_est: ["ninety-nine", "ˈnɑɪnti ˈnɑɪn"], // was ["ninety-nine", "ˈnaɪnti ˈnaɪn"] (vi dialect rules 2026-10-06)
     en_app: ["ninety-nine", "ˈnaːnti ˈnaːn"], // was ["ninety-nine", "ˈnaɪnti ˈnaɪn"] (vi dialect rules 2026-10-06)
     en_south: ["ninety-nine", "ˈnaːnti ˈnaːn"],
-    en_aave: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
+    en_aave: ["ninety-nine", "ˈnaːnti ˈnaːn"],
     en_ng: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
     en_ng2: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
     en_ke: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],

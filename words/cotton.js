@@ -333,6 +333,17 @@ WORDS.cotton = {
     sr: "pambak",
     hr: "pambak",
     bs: "pambak",
+    en_us: "qutn",
+    en_ca: "qutn",
+    en_app: "qutn",
+    en_south: "qutn",
+    en_in: "qutn",
+    en_geordie: "qutn",
+    en_ph: "qutn",
+    en_ng: "qutn",
+    zh_tw: "other",
+    pt_cv: "qutn",
+    ja_kg: "other",
   },
   routes: {
     qutn: {"color":"#059669","emoji":"🐪","en":"from Arabic qutn (coton, cotton, algodón)","ja":"アラビア語 qutn から (coton, cotton, algodón)","ko":"아랍어 qutn에서 (coton, cotton, algodón)","zh":"来自阿拉伯语 qutn (coton, cotton, algodón)","yue":"嚟自阿拉伯語 qutn (coton, cotton, algodón)","vi":"từ tiếng Ả Rập qutn (coton, cotton, algodón)","th":"จากภาษาอาหรับ qutn (coton, cotton, algodón)","id":"dari qutn Arab (coton, cotton, algodón)","hi":"अरबी qutn से (coton, cotton, algodón)","de":"aus Arabisch qutn (coton, cotton, algodón)","fr":"de l'arabe qutn (coton, cotton, algodón)","it":"dall'arabo qutn (coton, cotton, algodón)","es":"del árabe qutn (coton, cotton, algodón)","pt":"do árabe qutn (coton, cotton, algodón)","ru":"от арабского qutn (coton, cotton, algodón)","uk":"від арабського qutn (coton, cotton, algodón)","ar":"من العربية قطن (coton, cotton, algodón)","he":"מהערבית qutn (coton, cotton, algodón)","sw":"kutoka Kiarabu qutn (coton, cotton, algodón)"},
@@ -376,7 +387,7 @@ WORDS.cotton = {
     cy: ["cotwm", "ˈkɔtʊm"],  // From Arabic qutn.
     da: ["bomuld", "ˈb̥ʌˌmulˀ"],  // Literally 'tree wool', or borrowed from such a word.
     de: ["Baumwolle", "ˈbaʊ̯mˌvɔlə"],  // Literally 'tree wool', or borrowed from such a word.
-    dsb: ["bałma", "bawma"],  // Route by resemblance to the neighbouring forms (cs(bavlna) pl(bawełna) de(Baumwolle)); no etymology of its own.
+    dsb: ["bałma", "ˈbawma"],  // Route by resemblance to the neighbouring forms (cs(bavlna) pl(bawełna) de(Baumwolle)); no etymology of its own.
     dv: ["ކަފަ", "kafa"],  // From Sanskrit karpāsa.
     egl: ["cutån", "kuˈtʌŋ"],  // From Arabic qutn.
     el: ["βαμβάκι", "vamˈvaci"],  // From Persian pambak (panbe).
@@ -397,7 +408,7 @@ WORDS.cotton = {
     hy: ["բամբակ", "bɑmˈbɑk"],  // From Persian pambak (panbe).
     id: ["kapas", "ˈkapas"],  // From Sanskrit karpāsa.
     ilo: ["kapas", "ˈkapas"],  // From Sanskrit karpāsa.
-    io: ["kotono", "kotono"],  // Route by resemblance to the neighbouring forms (eo(kotono) fr(coton)); no etymology of its own.
+    io: ["kotono", "koˈtono"],  // Route by resemblance to the neighbouring forms (eo(kotono) fr(coton)); no etymology of its own.
     is: ["baðmull", "ˈpaðmʏtl̥"],  // Literally 'tree wool', or borrowed from such a word.
     it: ["cotone", "koˈtone"],  // From Arabic qutn.
     ja: ["綿", "wata"],  // From Chinese 棉 or another word for floss.
@@ -412,7 +423,7 @@ WORDS.cotton = {
     lb: ["Kotteng", "ˈkoteŋ"],  // Route by resemblance to the neighbouring forms (fr_lu(coton) fr(coton)); no etymology of its own.
     lo: ["ຝ້າຍ", "faːj˧˩"],
     lus: ["la", "la"],
-    lv: ["kokvilna", "kɔkvilna"],  // Literally 'tree wool', or borrowed from such a word.
+    lv: ["kokvilna", "ˈkɔkvilna"],  // Literally 'tree wool', or borrowed from such a word.
     mch: ["wadeku", "waɾ̠eːku"],
     mh: ["kotin", "kʷɔdˠinʲ"],  // From Arabic qutn.
     mk: ["памук", "ˈpamuk"],  // From Persian pambak (panbe).
@@ -440,7 +451,7 @@ WORDS.cotton = {
     pap: ["katuna", "katuna"],  // From Arabic qutn.
     pbb: ["wawa", "wawa"],
     pl: ["bawełna", "baˈvɛwna"],  // Literally 'tree wool', or borrowed from such a word.
-    pt: ["algodão", "awɡuˈdɐ̃w̃"],  // From Arabic qutn.
+    pt: ["algodão", "alɡuˈdɐ̃w̃"],  // From Arabic qutn.
     qu: ["utku", "ˈutku"],
     quy: ["utku", "utku"],
     rap: ["vavai", "vavai"],
@@ -474,13 +485,13 @@ WORDS.cotton = {
     ug: ["پاختا", "pɑχtɑ"],
     uk: ["бавовна", "bɐˈwɔu̯nɐ"],  // Literally 'tree wool', or borrowed from such a word.
     ur: ["کپاس", "kəpɑːs"],  // From Sanskrit karpāsa.
-    vec: ["bombàxo", "bombazo"],
+    vec: ["bombàxo", "bomˈbazo"],
     vep: ["puvill", "puvill"],  // Route by resemblance to the neighbouring forms (fi(puuvilla) vot(puuvillõ)); no etymology of its own.
     vi: ["bông", "ɓəwŋ˧"],
     vot: ["puuvillõ", "ˈpuːˌvilːɑ"],  // Literally 'tree wool', or borrowed from such a word.
     war: ["gapas", "ɡapas"],  // From Sanskrit karpāsa.
     yo: ["owu", "owu"],
-    yue: ["棉花", "miːn˩ faː˥"],  // From Chinese 棉 or another word for floss.
+    yue: ["棉花", "miːn˨˩ faː˥"],  // From Chinese 棉 or another word for floss.
     zh: ["棉花", "mjɛn˧˥ xwa"],  // From Chinese 棉 or another word for floss.
     ar_eg: ["قطن", "ʔutˤn"],  // From Arabic qutn.
     ar_gulf: ["قطن", "ɡɪtˤɪn"],  // From Arabic qutn.
@@ -523,7 +534,7 @@ WORDS.cotton = {
     ky: ["пахта", "pɑχˈtɑ"],  // Borrowed from Classical Persian پخته 'cotton', like Uzbek paxta and Kazakh мақта.
     uz: ["paxta", "paxˈta"],  // From Classical Persian پخته 'cotton', like Tajik пахта.
     gl: ["algodón", "alɣoˈðoŋ"],  // From Andalusian Arabic quṭun, from Arabic قُطْن.
-    lt: ["medvilnė", "ˈmʲæːdʲʋʲɪlʲnʲeː"],  // Built like Latvian kokvilna, 'tree wool'.
+    lt: ["medvilnė", "ˈmʲæːdʲvʲɪlʲnʲeː"],  // Built like Latvian kokvilna, 'tree wool'.
     gcr: ["koton", "kotɔ̃"],  // From French coton, from Arabic qutn.
     ti: ["ጡጥ", "tʼutʼ"],  // No image is recorded for it; it means cotton and cotton wool.
     sat: ["ᱛᱩᱞᱟᱹᱢ", "tuləm"],  // No image is recorded for it, so it counts as a word of its own.
@@ -558,11 +569,11 @@ WORDS.cotton = {
     fr_sn: ["coton", "kɔtɔ̃"],
     fr_ci: ["coton", "kɔtɔ̃"],
     fr_ht: ["coton", "kɔtɔ̃"],
-    pt_mz: ["algodão", "awɡuˈdɐ̃w̃"],
+    pt_mz: ["algodão", "alɡuˈdɐ̃w̃"],
     nl_be: ["katoen", "kaːˈtun"],
     en_za: ["cotton", "ˈkɒtən"],
     de_ch: ["Baumwolle", "ˈbaʊ̯mˌvɔlə"],
-    pt_ao: ["algodão", "awɡuˈdɐ̃w̃"],
+    pt_ao: ["algodão", "alɡuˈdɐ̃w̃"],
     ca_va: ["cotó", "kuˈtu"],
     ja_osa: ["綿", "wata"],
     ja_aom: ["綿", "wata"],
@@ -573,7 +584,7 @@ WORDS.cotton = {
     ko_bus: ["면화", "mjʌnhwa"],
     ko_yb: ["면화", "mjʌnhwa"],
     es_mx: ["algodón", "alɡoˈdon"],
-    pt_br: ["algodão", "awɡuˈdɐ̃w̃"],
+    pt_br: ["algodão", "awɡoˈdɐ̃w̃"],
     prs: ["پنبه", "panˈba"],
     en_aave: ["cotton", "ˈkɔtən"],
     en_nz: ["cotton", "ˈkɔtən"],
@@ -610,5 +621,16 @@ WORDS.cotton = {
     sr: ["памук", "pǎmuk"],  // Borrowed from Ottoman Turkish pamuk.
     hr: ["pamuk", "pǎmuk"],  // Borrowed from Ottoman Turkish pamuk.
     bs: ["pamuk", "ˈpamuk"],  // Borrowed from Ottoman Turkish pamuk.
+    en_us: ["cotton", "ˈkɑtn̩"],  // Same word as standard English; IPA from the row's own cells (its own cotton candy ˈkɑtn̩ kændi).
+    en_ca: ["cotton", "ˈkɑtn"],  // Same word as standard English; IPA from the row's own cells (its own cotton candy ˈkɑtn kændi).
+    en_app: ["cotton", "ˈkɑːtn̩"],  // Same word as standard English; IPA from the row's own cells (octopus ˈɑːktəpəs, lol lɑːl, person ˈpɝsn̩).
+    en_south: ["cotton", "ˈkɑːtən"],  // Same word as standard English; IPA from the row's own cells (octopus ˈɑːktəpəs, lol lɑːl, person ˈpɝsən).
+    en_in: ["cotton", "ˈkɔʈən"],  // Same word as standard English; IPA from the row's own cells (octopus ˈɔkʈəpəs, lol lɔl, every t as ʈ).
+    en_geordie: ["cotton", "ˈkɒtən"],  // Same word as standard English; IPA from the row's own cells (octopus ˈɒktəpəs, lol lɒl, butter ˈbʊtɐ).
+    en_ph: ["cotton", "ˈkɔtɔn"],  // Same word as standard English; IPA from the row's own cells (octopus ˈɔktəpəs, person ˈpɛɹsɔn).
+    en_ng: ["cotton", "ˈkɔtɔn"],  // Same word as standard English; IPA from the row's own cells (octopus ˈɔktəpəs, person ˈpɜːsɔn).
+    zh_tw: ["棉花", "mjɛn˧˥ xwa˥"],  // Same word as the mainland row; Taiwan keeps 花 in full tone, as the row's 棉花糖 mjɛn˧˥ xwa˥ tʰɑŋ˧˥ does.
+    pt_cv: ["algodão", "alɡuˈdɐ̃w̃"],  // Same word as Portuguese.
+    ja_kg: ["綿", "wata"],  // The standard word, used in Kagoshima as everywhere in Japan.
   },
 };

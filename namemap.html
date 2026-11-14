@@ -72,7 +72,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=173">
+    <link rel="stylesheet" href="styles.css?v=174">
     <link rel="stylesheet" href="/vendor/leaflet-1.9.4/leaflet.css" />
     <!-- Webfonts for the scripts that name forms appear in. Without these,
          Arabic / Hebrew / Devanagari / Bengali / Ethiopic / Georgian /
@@ -593,7 +593,7 @@
 
         .leaflet-popup-close-button { width: 40px !important; height: 40px !important; font-size: 24px !important; line-height: 38px !important; }   /* 24px was hard to tap (r27) */
 </style>
-    <script src="nav-short.js?v=57"></script>
+    <script src="nav-short.js?v=58"></script>
 </head>
 <body>
     <div id="pg-live" role="status" aria-live="polite" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap"></div>
@@ -648,6 +648,9 @@
                 <!-- rendered by JS -->
             </div>
         </aside>
+        <!-- ar/he: the panel reads right to left from the first paint (nav-short.js sets <html lang>
+             from its early guess); applyUILang() sets dir for real once the language is known. -->
+        <script>if(/^(ar|he)/.test(document.documentElement.lang)) document.getElementById('nm-panel').dir='rtl';</script>
         <div id="map"></div>
         <!-- Selected-name label, shown only in simple-display mode so the name
              stays visible while the panels are hidden (like WordMap). -->
@@ -1257,6 +1260,10 @@
                 const pp=map._popup, ap=pp.options.autoPan; pp.options.autoPan=false; pp.update(); pp.options.autoPan=ap;
                 const _c=pp.getElement&&pp.getElement()&&pp.getElement().querySelector('.leaflet-popup-close-button');
                 if(_c && window.__nmA11){ _c.setAttribute('aria-label', window.__nmA11('close')); _c.title=window.__nmA11('close'); }
+                // Its dialog name too (taken from the marker on popupopen): it kept the old
+                // language ("John — United Kingdom" over a German popup).
+                const _pe=pp.getElement&&pp.getElement(), _se=pp._source&&pp._source.getElement&&pp._source.getElement();
+                if(_pe && _se && _se.getAttribute('aria-label')) _pe.setAttribute('aria-label', _se.getAttribute('aria-label'));
             }
             updateFabLabel();
         }

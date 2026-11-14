@@ -220,7 +220,10 @@ body {
     .site-header-bar .header-url { display: inline !important; }
 }
 .site-header-bar .header-url {
-    margin-left: auto;
+    /* logical: in ar/he the URL waits at the far left end, where it ends up once
+       share-button.js has come; margin-left:auto held it beside the nav until
+       then, and it jumped ~740px (rally 2026-11-14) */
+    margin-inline-start: auto;
     font-size: 11px; color: #666; text-decoration: none; white-space: nowrap;
     /* Faint frosted pill so the URL stays legible over light/busy map
        areas (the header floats over the map on wordmap/hanmap). */
@@ -365,7 +368,7 @@ body {
         background: #f9fafb; color: #374151; cursor: pointer;
     }
     .header-collapse .header-url {
-        margin-left: 0;
+        margin-inline-start: 0;
         padding-top: 6px; border-top: 1px solid #eee;
     }
     /* Semi-transparent black backdrop behind the open drawer. Lives
@@ -1819,7 +1822,7 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
     /* Neutralize .header-url's own auto-margin once Share precedes it, else the
        two auto-margins split the free space and re-open a gap before the URL.
        (chrome-hidden mode re-asserts url's auto with !important — unaffected.) */
-    .site-header-bar .share-icon-btn ~ .header-url { margin-left: 0; }
+    .site-header-bar .share-icon-btn ~ .header-url { margin-inline-start: 0; }
 }
 .lang-picker-btn {
     display: inline-flex; align-items: center; gap: 5px;

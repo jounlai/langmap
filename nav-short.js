@@ -112,6 +112,22 @@
         var file = (href || location.pathname).split(/[?#]/)[0].split('/').pop() || 'index.html';
         return PAGE[file] || null;
     }
+    // Arabic and Hebrew pages were drawn left to right and flipped when the page's
+    // own script ran (CLS 0.74 on Word Order, 0.21 on the Name and Time Maps).
+    // Set <html lang> (the header's direction, styles.css) during parse from the
+    // pages' early guess: the link's ui= (also l= on the Name and Time Maps), the
+    // cookie, the browser. Word Order and the tree turn the whole page: <html dir>
+    // too. Only for ar/he; each page sets both for real once it has decided.
+    (function () {
+        var key = PAGE[location.pathname.split('/').pop() || 'index.html'];
+        if (!key) return;
+        var m = (key === 'name' || key === 'time' ? /[?#&](?:l|ui)=([A-Za-z_-]+)/ : /[?#&]ui=([A-Za-z_-]+)/).exec(location.search + '&' + location.hash);
+        var g = (m && norm(m[1])) || fromCookie() || fromBrowser();
+        if (g !== 'ar' && g !== 'he') return;
+        document.documentElement.lang = g;
+        htmlLangSet = true;
+        if (key === 'order' || key === 'tree') document.documentElement.dir = 'rtl';
+    })();
     // The hamburger's name: Name Map and Time Map never translated it.
     var MENU = { en: 'Menu', ja: 'メニュー', ko: '메뉴', zh: '菜单', yue: '選單', vi: 'Menu', th: 'เมนู',
         id: 'Menu', hi: 'मेन्यू', de: 'Menü', fr: 'Menu', it: 'Menu', es: 'Menú', pt: 'Menu', ru: 'Меню',

@@ -67,7 +67,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=173">
+    <link rel="stylesheet" href="styles.css?v=174">
     <link rel="stylesheet" href="/vendor/leaflet-1.9.4/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -453,7 +453,7 @@
 
         .leaflet-popup-close-button { width: 40px !important; height: 40px !important; font-size: 24px !important; line-height: 38px !important; }   /* 24px was hard to tap (r27) */
 </style>
-    <script src="nav-short.js?v=57"></script>
+    <script src="nav-short.js?v=58"></script>
 </head>
 <body>
     <header class="site-header-bar">
@@ -507,6 +507,9 @@
                 <div id="tm-info-body"></div>
             </div>
         </aside>
+        <!-- ar/he: the panel reads right to left from the first paint (nav-short.js sets <html lang>
+             from its early guess); applyUILang() sets dir for real once the language is known. -->
+        <script>if(/^(ar|he)/.test(document.documentElement.lang)) document.getElementById('tm-panel').dir='rtl';</script>
         <div id="map"></div>
         <div id="tm-simple-date" class="tm-simple-date"></div>
         <div id="tm-live" role="status" aria-live="polite" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap"></div>
@@ -790,6 +793,10 @@
                     if(pp){ const ap=pp.options.autoPan; pp.options.autoPan=false; pp.update(); pp.options.autoPan=ap; }
                     const kel=kept.getElement&&kept.getElement();
                     if(kel) kel.setAttribute('aria-label', label);
+                    // The open popup's dialog name follows (set from the marker on popupopen):
+                    // it kept the date and the language it was opened with.
+                    const kpe=pp&&pp.isOpen&&pp.isOpen()&&pp.getElement&&pp.getElement();
+                    if(kpe) kpe.setAttribute('aria-label', label);
                     return;
                 }
                 const mk=L.marker([cal.lat, cal.lng], { icon, riseOnHover:true });

@@ -106,7 +106,7 @@
                 var langs = navigator.languages || [navigator.language || 'en'];
                 for (var i = 0; i < langs.length; i++) {
                     var l = String(langs[i]).replace('-', '_').toLowerCase();
-                    if (l.indexOf('zh') === 0 && (l.indexOf('hk') !== -1 || l.indexOf('tw') !== -1 || l.indexOf('hant') !== -1)) { ui = 'yue'; break; }
+                    if (l.indexOf('zh') === 0 && l.indexOf('hk') !== -1) { ui = 'yue'; break; }
                     var b = l.split('_')[0];
                     if (UIS.indexOf(b) !== -1) { ui = b; break; }
                 }

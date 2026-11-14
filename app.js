@@ -865,6 +865,9 @@ function applyUILang() {
     }
     // Set RTL on body for Arabic/Hebrew UI
     document.body.dir = (currentUILang === 'ar' || currentUILang === 'he') ? 'rtl' : 'ltr';
+    // <html dir> too: nav-short.js sets it during parse from its early guess, so the
+    // page is not drawn left to right first; keep the two the same.
+    document.documentElement.dir = document.body.dir;
     // Update sentence select labels
     updateSampleSelectLabels();
     // Update language summary pills and modal button

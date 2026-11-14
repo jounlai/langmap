@@ -127,7 +127,7 @@ WORDS.tomorrow = {
     cv: "morning",
     tyv: "morning",
     alt: "morning",
-    kjh: "plain",
+    kjh: "morning",
     mn: "plain",
     bxr: "morning",
     gld: "morning",
@@ -509,10 +509,10 @@ WORDS.tomorrow = {
     krl: "morning",
     olo: "morning",
     vep: "morning",
-    crh: "plain",
+    crh: "morning",
     tt: "morning",
     ba: "morning",
-    krc: "plain",
+    krc: "morning",
     kbp: "plain",
     ee: "same",
     nyn: "plain",
@@ -552,7 +552,7 @@ WORDS.tomorrow = {
     iba: "plain",
     ljp: "plain",
     ng: "morning",
-    kj: "plain",
+    kj: "morning",
     kmb: "plain",
     lue: "plain",
     her: "plain",
@@ -563,7 +563,7 @@ WORDS.tomorrow = {
     crs: "morning",
     mfe: "morning",
     enq: "plain",
-    srn: "plain",
+    srn: "morning",
     djk: "plain",
     hui: "plain",
     rue: "morning",
@@ -743,7 +743,7 @@ WORDS.tomorrow = {
     fax: "morning",
     stq: "morning",
     slr: "morning",
-    szy: "plain",
+    szy: "other",
     esu: "plain",
     acu: "other",
     yan: "unknown",
@@ -906,7 +906,7 @@ WORDS.tomorrow = {
     zdj: "plain",
     luy: "plain",
     eve: "plain",
-    ude: "plain",
+    ude: "morning",
     ja_kg: "morning",
     ja_osa: "morning",
     emk: "plain",
@@ -916,7 +916,7 @@ WORDS.tomorrow = {
     h_tagalog: "plain",
     zh_han: "other",
     ja_chu: "other",
-    pmt: "plain",
+    pmt: "morning",
     zh_yuan: "other",
     hni: "plain",
     nxq: "plain",
@@ -1017,7 +1017,7 @@ WORDS.tomorrow = {
     cv: ["ыран", "ɯˈran"],  // From Proto-Turkic *yarïn 'morning, tomorrow', like Turkish yarın (Wiktionary).
     tyv: ["даарта", "daːrta"],  // A compound of даң 'dawn' and эртен 'morning' (Wiktionary).
     alt: ["эртен", "erˈten"],  // The same word means 'morning' (Wiktionary).
-    kjh: ["таңда", "taŋˈda"],  // Used for 'tomorrow' throughout the Khakas New Testament, e.g. Luke 13:32 'Пӱӱн паза таңда' (today and tomorrow). No image is recorded for it, so it counts as a word of its own.
+    kjh: ["таңда", "taŋˈda"],  // Built on таң 'dawn' (Proto-Turkic *taŋ) with the locative -да, 'at dawn', like Kumyk тангала. Used for 'tomorrow' throughout the Khakas New Testament, e.g. Luke 13:32 'Пӱӱн паза таңда' (today and tomorrow).
     mn: ["маргааш", "marɢaːʃ"],  // Written ᠮᠠᠷᠭᠠᠰᠢ in the traditional script (Wiktionary). No image is recorded for it, so it counts as a word of its own.
     bxr: ["үглөөдэр", "yɡløːder"],  // Literally 'morning day', from үглөө 'morning' and үдэр 'day' (Wiktionary).
     gld: ["чимана", "tʃimana"],  // From Proto-Tungusic *tima 'morning' (Wiktionary).
@@ -1399,10 +1399,10 @@ WORDS.tomorrow = {
     krl: ["huomena", "ˈhuo̯menɑ"],  // The locative of Proto-Finnic *hoomën 'morning', so literally 'in the morning', like Finnish huomenna.
     olo: ["huomei", "ˈhuomei"],  // Derived from Proto-Finnic *hoomën 'morning', which also gives Livvi huondes 'morning'.
     vep: ["homen", "ˈhomen"],  // From Proto-Finnic *hoomën 'morning'.
-    crh: ["yarın", "jaˈrɯn"],  // Inherited from Proto-Turkic *yarïn, the same word as Turkish yarın.
+    crh: ["yarın", "jaˈrɯn"],  // Inherited from Proto-Turkic *yarïn 'morning, tomorrow', the same word as Turkish yarın (Wiktionary).
     tt: ["иртәгә", "irtæˈɡæ"],  // Originally the dative of иртә 'morning', so literally 'to the morning'.
     ba: ["иртәгә", "irtæˈɡæ"],  // Originally the dative of иртә 'morning', so literally 'to the morning'.
-    krc: ["тамбла", "tambla"],  // Тамбла is 'tomorrow' in the Karachay-Balkar Bible (Luke 13:32, James 4:13). No image is recorded for it, so it counts as a word of its own.
+    krc: ["тамбла", "tambla"],  // Probably тан 'dawn' (Proto-Turkic *taŋ) with -бла 'with', like Kumyk тангала. Тамбла is 'tomorrow' in the Karachay-Balkar Bible (Luke 13:32, James 4:13).
     kbp: ["cee", "tʃeː"],  // Cee is 'tomorrow' in the Kabiye New Testament, paired with sɔnɔ 'today'. No image is recorded for it, so it counts as a word of its own.
     ee: ["etsɔ", "etsɔ"],  // Etsɔ means both 'tomorrow' and 'yesterday'; tense and context tell them apart.
     nyn: ["nyencakare", "ɲentʃakare"],  // Nyencakare is 'tomorrow' in the Runyankore Bible and the Tervuren word list. No image is recorded for it, so it counts as a word of its own.
@@ -1442,7 +1442,7 @@ WORDS.tomorrow = {
     iba: ["pagila", "paɡila"],  // Pagila is 'tomorrow' in the Iban Bible, set against sehari tu 'today'. No image is recorded for it, so it counts as a word of its own.
     ljp: ["jemoh", "dʒəmoh"],  // Jemoh is 'tomorrow' in the Lampung New Testament, set against rani inji 'today'. No image is recorded for it, so it counts as a word of its own.
     ng: ["ngula", "ŋɡula"],  // The same stem as ongula 'morning' (Tirronen 1986).
-    kj: ["mongula", "moŋɡula"],  // Mongula is 'tomorrow' in the Kwanyama Bible, set against nena 'today'. No image is recorded for it, so it counts as a word of its own.
+    kj: ["mongula", "moŋɡula"],  // Mo- 'in' + ngula, the same stem as Ndonga ngula 'tomorrow' and ongula 'morning' (Tirronen 1986). Mongula is 'tomorrow' in the Kwanyama Bible, set against nena 'today'.
     kmb: ["mungu", "muŋɡu"],  // Mungu is 'tomorrow' in the Kimbundu Bible, set against lelu 'today'. No image is recorded for it, so it counts as a word of its own.
     lue: ["hamene", "hamene"],  // Hamene is 'tomorrow' in the Luvale Bible, set against lelo 'today'. No image is recorded for it, so it counts as a word of its own.
     her: ["muhuka", "muhuka"],  // Muhuka is 'tomorrow' in the Herero Bible, set against ndino 'today'. No image is recorded for it, so it counts as a word of its own.
@@ -1453,7 +1453,7 @@ WORDS.tomorrow = {
     crs: ["demen", "demɛ̃"],  // From French demain, itself from Late Latin dē māne 'early in the morning'.
     mfe: ["demin", "demɛ̃"],  // From French demain, itself from Late Latin dē māne 'early in the morning'.
     enq: ["taita", "taita"],  // Taita is 'tomorrow' in the Enga Bible, set against indupa 'today'. No image is recorded for it, so it counts as a word of its own.
-    srn: ["tamara", "tamara"],  // Tamara is 'tomorrow' in the Sranan Bible, set against tide 'today'. No image is recorded for it, so it counts as a word of its own.
+    srn: ["tamara", "tamara"],  // From English tomorrow, originally Old English tō morgne 'in the morning', like Krio tumara. Tamara is 'tomorrow' in the Sranan Bible, set against tide 'today'.
     djk: ["tamaa", "tamaː"],  // Tamaa is 'tomorrow' in the Ndyuka New Testament, set against tide 'today'. No image is recorded for it, so it counts as a word of its own.
     hui: ["yawi", "jawi"],  // Yawi is 'tomorrow' in the Huli Bible and TransNewGuinea.org. Unrelated to the words for 'morning' and 'night' (TransNewGuinea).
     rue: ["завтра", "ˈzau̯tra"],  // From Proto-Slavic *za utra 'after the morning', like Ukrainian and Russian завтра.
@@ -1633,7 +1633,7 @@ WORDS.tomorrow = {
     fax: ["amañán", "amaˈɲan"],  // Amañán is 'at morning' (a + mañán 'morning'); Valverdeñu, the dialect of Valverde del Fresno, says amiñán (Valeš 2021).
     stq: ["mäiden", "ˈmɛɪ̯dən"],  // Mäiden 'tomorrow' is the same word as Mäiden 'morning', cognate with German morgen.
     slr: ["ette", "eʰtæ"],  // Ette goes back to Proto-Turkic *ẹ̄rte 'early', the source of Kazakh ерте 'early'.
-    szy: ["anucila", "anutsila"],  // Anucila is 'tomorrow' in Sakizaya. No image is recorded for it, so it counts as a word of its own.
+    szy: ["anucila", "anutsila"],  // Anucila is 'tomorrow' in Sakizaya, the cognate of Amis anocila: one day root with a future marker, filed with Amis.
     esu: ["unuaqu", "unuaqu"],  // Unuaqu is 'tomorrow' in the Yup'ik Bible (Luke 13:32, 'today and tomorrow'). No image is recorded for it, so it counts as a word of its own.
     acu: ["kashin", "kaʃin"],  // Kashin is 'tomorrow' in the Achuar Bible (Luke 13:32, 'today and tomorrow'). Built on káshi 'night', as in Awajún and Shuar.
     yan: ["yahan mani", "jahan mani"],  // Yahan mani is 'tomorrow' in the Mayangna Bible (Matthew 6:34, Luke 13:32).
@@ -1796,7 +1796,7 @@ WORDS.tomorrow = {
     zdj: ["mauɗu", "mauɗu"],  // The Ngazidja word for tomorrow.
     luy: ["muchuli", "mutʃuli"],  // The Luhya word for tomorrow.
     eve: ["тиминак", "timinak"],  // Even, glossed «завтра».
-    ude: ["тимана", "timana"],  // Udege, glossed «завтра».
+    ude: ["тимана", "timana"],  // Udege, glossed «завтра»; the same word as Even тимана and Nanai чимана, from Proto-Tungusic *tima 'morning' (Wiktionary, under Nanai).
     ja_kg: ["あいた", "aita"],  // Kagoshima あいた 'tomorrow' (JLect: Kagoshima, Koshikijima). The 大阪弁 dictionary lists あいた as a variant of あした in Kawachi, so it keeps the 'morning' route.
     ja_osa: ["明日", "aɕita"],  // Osaka headword あした (大阪弁 dictionary).
     emk: ["sinin", "sinin"],  // Cognate with Bambara sinin; Wiktionary marks the tone as sínin.
@@ -1806,7 +1806,7 @@ WORDS.tomorrow = {
     h_tagalog: ["ᜊᜓᜃᜐ᜔", "buˈkas"],  // Noceda & Sanlucar 1754: Bucas, 'mañana'. The source is Latin; the Baybayin spelling is a transliteration. Stress follows the modern Wiktionary entry.
     zh_han: ["明日", "mraŋ ńǝt"],  // StarLing Western Han for each character; 日 spelled as the row's sun cell. Same word as zh_tang. Guliangzhuan example on Wiktionary, not re-dated by me.
     ja_chu: ["明日", "mjɔːnitɕi"],  // ミャウニチ, 高野本平家 (13C) as quoted in 日本国語大辞典. IPA in the row's style, mine.
-    pmt: ["ongiongi", "oŋioŋi"],  // Tregear OGIOGI to-morrow (g = ng); he compares Maori pongipongi dawn; no length marks
+    pmt: ["ongiongi", "oŋioŋi"],  // Tregear OGIOGI to-morrow (g = ng); he compares Maori pongipongi dawn; no length marks. Route by resemblance to the neighbouring forms (niu(pogipogi) to(ʻapongipongi)); no etymology of its own.
     zh_yuan: ["明日", "miəŋ ɽi"],  // 關漢卿 竇娥冤: 明日殺了竇娥. Wikisource text is a later edition of the play. IPA built from the row's 名 and 日.
     hni: ["neesoq", "nɯ˧˧so˧˩"],  // Sun 1991 (Dazhai Hani) nɯ³³so³¹. Row is Sun's Dazhai (46 of 65 cells match). Haqniqdoq spelling is derived; the source is IPA.
     nxq: ["soqni", "so˨˩ɲi˧"],  // Sun 1991 (Lijiang Naxi) so³¹ȵi³³. Row is Sun's Lijiang (36 of 65 match, rest notation). Naxi spelling is derived; the source is IPA.

@@ -432,7 +432,7 @@ WORDS.monkey = {
     nrf: "simia",
     bho: "vanara",
     alt: "plain",
-    tcy: "plain",
+    tcy: "qof",
     bnn: "plain",
     kea: "macaco",
     yua: "plain",
@@ -445,7 +445,7 @@ WORDS.monkey = {
     frp: "simia",
     nbl: "plain",
     ssf: "plain",
-    wym: "plain",
+    wym: "ape",
     huv: "plain",
     gn: "plain",
     hmn: "plain",
@@ -492,6 +492,9 @@ WORDS.monkey = {
     zh_tw: "plain",
     zh_wh: "plain",
     zh_xa: "plain",
+    en_ck: "monkey",
+    en_manc: "monkey",
+    en_scouse: "monkey",
   },
   routes: {
     maymun: {"color":"#059669","emoji":"🌙","en":"from Arabic maymūn (maymun, majom, mono)","ja":"アラビア語 maymūn から (maymun, majom, mono)","ko":"아랍어 maymūn에서 (maymun, majom, mono)","zh":"来自阿拉伯语 maymūn (maymun, majom, mono)","yue":"嚟自阿拉伯語 maymūn (maymun, majom, mono)","vi":"từ tiếng Ả Rập maymūn (maymun, majom, mono)","th":"จากภาษาอาหรับ maymūn (maymun, majom, mono)","id":"dari maymūn Arab (maymun, majom, mono)","hi":"अरबी maymūn से (maymun, majom, mono)","de":"aus arabisch maymūn (maymun, majom, mono)","fr":"de l'arabe maymūn (maymun, majom, mono)","it":"dall'arabo maymūn (maymun, majom, mono)","es":"del árabe maymūn (maymun, majom, mono)","pt":"do árabe maymūn (maymun, majom, mono)","ru":"от арабского maymūn (maymun, majom, mono)","uk":"від арабського maymūn (maymun, majom, mono)","ar":"من العربية مَيْمُون (maymun, majom, mono)","he":"מהערבית maymūn (maymun, majom, mono)","sw":"kutoka Kiarabu maymūn (maymun, majom, mono)"},
@@ -515,7 +518,7 @@ WORDS.monkey = {
     aii: ["ܩܘܦܐ", "qoːpɑː"],  // The old Near Eastern qof / kapi word (Hebrew קוף, Middle Persian kabīg).
     ak: ["adoe", "adoe"],
     am: ["ዝንጀሮ", "zɨndʒəro"],
-    an: ["mono", "mono"],  // Route by resemblance to the neighbouring forms (Spanish mono); no etymology of its own.
+    an: ["mono", "ˈmono"],  // Route by resemblance to the neighbouring forms (Spanish mono); no etymology of its own.
     ar: ["قرد", "qird"],  // Compare Geʽez ḳərd.
     as: ["বান্দৰ", "bandɔɹ"],  // From Sanskrit vānara, the "forest one".
     ast: ["simiu", "ˈsimju"],  // From Latin sīmius.
@@ -549,7 +552,7 @@ WORDS.monkey = {
     dv: ["ރާމާމަކުނު", "ɾəːməːməkunu"],
     egl: ["sémmia", "ˈsemja"],  // From Latin sīmia, from Greek σιμός "snub-nosed".
     el: ["μαϊμού", "maiˈmu"],  // From Arabic maymūn, directly or through Turkish or Persian.
-    en: ["monkey", "mʌŋki"],  // Origin uncertain; perhaps from Middle Low German Moneke, the ape's son in Reynard the Fox.
+    en: ["monkey", "ˈmʌŋki"],  // Origin uncertain; perhaps from Middle Low German Moneke, the ape's son in Reynard the Fox.
     eo: ["simio", "siˈmio"],  // From Latin sīmia, from Greek σιμός "snub-nosed".
     es: ["mono", "ˈmono"],  // From Arabic maymūn, directly or through Turkish or Persian.
     et: ["pärdik", "ˈpærdik"],  // Probably from Pärt, a folk form of the apostle Bartholomew.
@@ -565,7 +568,7 @@ WORDS.monkey = {
     gag: ["maymun", "majmun"],  // From Arabic maymūn, directly or through Turkish or Persian.
     gd: ["muncaidh", "ˈmuŋkɪ"],  // From English monkey.
     gl: ["mono", "ˈmono"],  // From Arabic maymūn, directly or through Turkish or Persian.
-    goh: ["affo", "affo"],  // From Proto-Germanic *apô "ape", directly or through a neighbour.
+    goh: ["affo", "ˈaffo"],  // From Proto-Germanic *apô "ape", directly or through a neighbour.
     grt: ["makre", "makre"],
     gsw: ["Aff", "ɑfː"],  // From Proto-Germanic *apô "ape", directly or through a neighbour.
     gu: ["વાંદર", "ˈʋandəɾ"],  // From Sanskrit vānara, the "forest one".
@@ -579,7 +582,7 @@ WORDS.monkey = {
     ht: ["makak", "maˈkak"],  // From Portuguese macaco, itself thought to come from a Bantu language.
     hu: ["majom", "ˈmɒjom"],  // From Arabic maymūn, directly or through Turkish or Persian.
     hy: ["կապիկ", "kɑˈpik"],  // From Old Armenian kapik.
-    ia: ["simia", "simia"],  // From Latin sīmia, from Greek σιμός "snub-nosed".
+    ia: ["simia", "ˈsimia"],  // From Latin sīmia, from Greek σιμός "snub-nosed".
     id: ["monyet", "ˈmoɲet"],  // From Javanese monyèt "a kind of monkey".
     io: ["simio", "ˈsimi̯o"],  // From Latin sīmia, from Greek σιμός "snub-nosed".
     is: ["api", "ˈaːpɪ"],  // From Proto-Germanic *apô "ape", directly or through a neighbour.
@@ -657,16 +660,16 @@ WORDS.monkey = {
     rut: ["маймын", "majmɨn"],  // From Arabic maymūn, directly or through Turkish or Persian.
     sa: ["वानर", "ʋaːnɐɾɐ"],  // From Sanskrit vānara, the "forest one".
     sah: ["эбисийээнэ", "ebisijeene"],  // From Persian (a)buzina "simian".
-    sc: ["moninca", "moninka"],
+    sc: ["moninca", "moˈninka"],
     scn: ["scìmia", "ˈʃːimia"],  // From Latin sīmia, from Greek σιμός "snub-nosed".
     sd: ["باندر", "baːndər"],  // From Sanskrit vānara, the "forest one".
     se: ["ábegáhttu", "ˈaːpeˌkaːhːtuː"],
     shn: ["လိင်း", "liŋ˥"],  // Inherited from Proto-Tai *liːŋ.
-    sk: ["opica", "ɔpitsa"],  // From Proto-Germanic *apô "ape", directly or through a neighbour.
-    sl: ["opica", "oːpitsa"],  // From Proto-Slavic *opica.
+    sk: ["opica", "ˈɔpitsa"],  // From Proto-Germanic *apô "ape", directly or through a neighbour.
+    sl: ["opica", "ˈoːpitsa"],  // From Proto-Slavic *opica.
     slr: ["bicin", "piʝin"],  // From Proto-Turkic *bẹ̄čin.
     sm: ["manukī", "manukiː"],  // From English monkey.
-    sq: ["majmun", "majmun"],  // From Arabic maymūn, directly or through Turkish or Persian.
+    sq: ["majmun", "majˈmun"],  // From Arabic maymūn, directly or through Turkish or Persian.
     sr: ["мајмун", "mǎjmun"],  // From Arabic maymūn, directly or through Turkish or Persian.
     srb: ["karu", "karu"],
     srm: ["makáku", "makáku"],  // From Portuguese macaco, itself thought to come from a Bantu language.
@@ -731,26 +734,26 @@ WORDS.monkey = {
     es_sv: ["mono", "ˈmono"],
     fr_lu: ["singe", "sɛ̃ʒ"],
     fr_cm: ["singe", "sɛ̃ʒ"],
-    de_lu: ["Affe", "afə"],
-    en_ng2: ["monkey", "mʌŋki"],
+    de_lu: ["Affe", "ˈafə"],
+    en_ng2: ["monkey", "ˈmʌŋki"],
     es_bo: ["mono", "ˈmono"],
     es_py: ["mono", "ˈmono"],
     es_pa: ["mono", "ˈmono"],
-    en_my: ["monkey", "maŋki"],
-    en_wls: ["monkey", "mʌŋki"],
-    en_jam: ["monkey", "mɵŋki"],
-    en_ng: ["monkey", "mɔŋki"],
-    en_ph: ["monkey", "mʌŋki"],
-    en_ke: ["monkey", "mʌŋki"],
+    en_my: ["monkey", "ˈmaŋki"],
+    en_wls: ["monkey", "ˈmʌŋki"],
+    en_jam: ["monkey", "ˈmɵŋki"],
+    en_ng: ["monkey", "ˈmɔŋki"],
+    en_ph: ["monkey", "ˈmʌŋki"],
+    en_ke: ["monkey", "ˈmʌŋki"],
     fr_sn: ["singe", "sɛ̃ʒ"],
     fr_ci: ["singe", "sɛ̃ʒ"],
     fr_ht: ["singe", "sɛ̃ʒ"],
     pt_mz: ["macaco", "maˈkaku"],
     nl_be: ["aap", "aːp"],
-    en_us: ["monkey", "mʌŋki"],
-    en_ca: ["monkey", "mʌŋki"],
-    en_za: ["monkey", "mʌŋki"],
-    de_ch: ["Affe", "afə"],
+    en_us: ["monkey", "ˈmʌŋki"],
+    en_ca: ["monkey", "ˈmʌŋki"],
+    en_za: ["monkey", "ˈmʌŋki"],
+    de_ch: ["Affe", "ˈafə"],
     pt_ao: ["macaco", "maˈkaku"],
     ca_va: ["mico", "ˈmiku"],
     ja_osa: ["猿", "saɾɯ"],
@@ -763,21 +766,21 @@ WORDS.monkey = {
     ko_yb: ["원숭이", "wʌnsuŋi"],
     es_mx: ["mono", "ˈmono"],
     pt_br: ["macaco", "maˈkaku"],
-    en_aave: ["monkey", "mʌŋki"],
-    en_nz: ["monkey", "mɐŋki"],
-    en_au: ["monkey", "mɐŋki"],
-    de_at: ["Affe", "afə"],
-    en_south: ["monkey", "mʌŋki"],
-    en_app: ["monkey", "mʌŋki"],
-    en_in: ["monkey", "mʌŋki"],
-    en_ie: ["monkey", "mʌŋki"],
-    en_sco: ["monkey", "mʌŋki"],
-    en_yk: ["monkey", "mʊŋki"],
-    en_geordie: ["monkey", "mʊŋki"],
-    en_brum: ["monkey", "mʊŋki"],
-    en_wc: ["monkey", "mʌŋki"],
-    en_est: ["monkey", "mʌŋki"],
-    en_sg: ["monkey", "maŋki"],
+    en_aave: ["monkey", "ˈmʌŋki"],
+    en_nz: ["monkey", "ˈmɐŋki"],
+    en_au: ["monkey", "ˈmɐŋki"],
+    de_at: ["Affe", "ˈafə"],
+    en_south: ["monkey", "ˈmʌŋki"],
+    en_app: ["monkey", "ˈmʌŋki"],
+    en_in: ["monkey", "ˈmʌŋki"],
+    en_ie: ["monkey", "ˈmʌŋki"],
+    en_sco: ["monkey", "ˈmʌŋki"],
+    en_yk: ["monkey", "ˈmʊŋki"],
+    en_geordie: ["monkey", "ˈmʊŋki"],
+    en_brum: ["monkey", "ˈmʊŋki"],
+    en_wc: ["monkey", "ˈmʌŋki"],
+    en_est: ["monkey", "ˈmʌŋki"],
+    en_sg: ["monkey", "ˈmaŋki"],
     fr_qc: ["singe", "sɛ̃ʒ"],
     fr_af: ["singe", "sɛ̃ʒ"],
     fr_be: ["singe", "sɛ̃ʒ"],
@@ -863,7 +866,7 @@ WORDS.monkey = {
     nrf: ["sînge", "sɛ̃ʒ"],
     bho: ["बानर", "baːnər"],
     alt: ["мечин", "meˈtʃin"],
-    tcy: ["ಕಪಿ", "kapi"],
+    tcy: ["ಕಪಿ", "kapi"],  // Borrowed from Sanskrit kapi (Wiktionary), like Kannada ಕಪಿ.
     bnn: ["utung", "utuŋ"],
     kea: ["makaku", "maˈkaku"],
     yua: ["maʼax", "maʔaʃ"],
@@ -876,7 +879,7 @@ WORDS.monkey = {
     frp: ["sinjo", "ˈsɛ̃ʒo"],
     nbl: ["ikawu", "ikawu"],
     ssf: ["ruthun", "ɾuθun"],
-    wym: ["małp", "mawp"],
+    wym: ["małp", "mawp"],  // Borrowed from Polish małpa. Route by resemblance to the neighbouring forms (pl(małpa)); no etymology of its own.
     huv: ["maching", "matʃiŋ"],  // Borrowed from Spanish machín.
     gn: ["kaʼi", "kaˈʔi"],
     hmn: ["liab", "lia˥"],
@@ -923,5 +926,8 @@ WORDS.monkey = {
     zh_tw: ["猴子", "xoʊ̯˧˥ tsɨ"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Taiwan; reading in the row's notation, syllables as in the row's and the zh row's own cells.
     zh_wh: ["猴子", "xou˨˩˧ tsɿ"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Wuhan; reading from MCPDict 武漢.
     zh_xa: ["猴", "xɤu˨˦"],  // 猴, the Chinese word for the monkey. Word from Wiktionary's dialect table for Xi'an; reading from MCPDict 西安.
+    en_ck: ["monkey", "ˈmɐŋki"],  // Same word as standard English; IPA with the row's STRUT ɐ (honey ˈhɐni, blood blɐd).
+    en_manc: ["monkey", "ˈmʊŋkɛ"],  // Same word as standard English; IPA with the row's STRUT ʊ and final ɛ (honey ˈhʊnɛ, turkey ˈtɜːkɛ).
+    en_scouse: ["monkey", "ˈmʊŋki"],  // Same word as standard English; IPA with the row's STRUT ʊ (honey ˈhʊni, blood blʊd).
   },
 };

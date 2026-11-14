@@ -1,6 +1,6 @@
 /**
  * dopamine — see docs/words/CONTRIBUTING.md.
- * PARTIAL WORD: a 20th-century scientific term (isolated 1957). Almost every
+ * PARTIAL WORD: a 20th-century scientific term (first made in 1910, named in 1952, found in the brain in 1957). Almost every
  * language uses the international loanword "dopamine" in its own script and
  * pronunciation; a few use a native transliteration (Chinese 多巴胺, a
  * phono-semantic rendering 多巴 dopa + 胺 amine). Historical/ancient languages
@@ -262,7 +262,7 @@ WORDS.dopamine = {
     en_jam: ["dopamine", "ˈdoːpəmiːn"],
     en_wls: ["dopamine", "ˈdəʊpəmiːn"],
     en_yk: ["dopamine", "ˈdəʊpəmiːn"],
-    en_ck: ["dopamine", "ˈdəʊpəmiːn"],
+    en_ck: ["dopamine", "ˈdæʊpəmiːn"],
     ko_yb: ["도파민", "topʰamin"],
     ko_hg: ["도파민", "topʰamin"],
     ko_bus: ["도파민", "topʰamin"],

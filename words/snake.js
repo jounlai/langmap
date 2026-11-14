@@ -84,7 +84,7 @@ WORDS.snake = {
     acw: "plain",
     ady: "plain",
     af: "plain",
-    agx: "plain",
+    agx: "crawl",
     aii: "plain",
     ak: "plain",
     akb: "plain",
@@ -214,7 +214,7 @@ WORDS.snake = {
     juc: "plain",
     jv: "plain",
     ka: "plain",
-    kaa: "plain",
+    kaa: "crawl",
     kbd: "plain",
     kea: "colubra",
     kfr: "crawl",
@@ -241,7 +241,7 @@ WORDS.snake = {
     ks: "crawl",
     ksb: "plain",
     ku: "plain",
-    kum: "plain",
+    kum: "crawl",
     kw: "crawl",
     ky: "crawl",
     la: "plain",
@@ -306,15 +306,15 @@ WORDS.snake = {
     njo: "plain",
     nl: "plain",
     nn: "worm",
-    no: "plain",
+    no: "worm",
     non: "worm",
     nso: "plain",
     ny: "plain",
     nym: "plain",
     oc: "crawl",
-    ofs: "plain",
+    ofs: "worm",
     oj: "plain",
-    olo: "plain",
+    olo: "worm",
     om: "plain",
     or: "crawl",
     orh: "plain",
@@ -601,7 +601,7 @@ WORDS.snake = {
     pdt: "plain",
     crs: "crawl",
     pms: "crawl",
-    tyv: "plain",
+    tyv: "crawl",
     chr: "plain",
     rup: "crawl",
     nap: "crawl",
@@ -612,11 +612,11 @@ WORDS.snake = {
     lzz: "plain",
     jam: "crawl",
     tum: "plain",
-    alt: "plain",
+    alt: "crawl",
     tcy: "plain",
     ff: "plain",
-    kjh: "plain",
-    krc: "plain",
+    kjh: "crawl",
+    krc: "crawl",
     rhg: "crawl",
     dng: "plain",
     cic: "plain",
@@ -630,7 +630,7 @@ WORDS.snake = {
     nhw: "plain",
     umb: "plain",
     ngu: "plain",
-    cjs: "plain",
+    cjs: "crawl",
     lua: "plain",
     apw: "plain",
     toi: "plain",
@@ -692,6 +692,7 @@ WORDS.snake = {
     zh_wh: "plain",
     zh_xa: "plain",
     zh_zz: "other",
+    en_nz: "crawl",
   },
   routes: {
     crawl: {"color":"#059669","emoji":"🐾","en":"a \"crawler\" (serpent, सर्प, yılan, snake)","ja":"「這うもの」 (serpent, सर्प, yılan, snake)","ko":"'기는 것' (serpent, सर्प, yılan, snake)","zh":"“爬行者” (serpent, सर्प, yılan, snake)","yue":"「爬嘅嘢」 (serpent, सर्प, yılan, snake)","vi":"\"kẻ bò\" (serpent, सर्प, yılan, snake)","th":"\"ตัวที่เลื้อย\" (serpent, सर्प, yılan, snake)","id":"\"si perayap\" (serpent, सर्प, yılan, snake)","hi":"\"रेंगने वाला\" (serpent, सर्प, yılan, snake)","de":"„der Kriechende“ (serpent, सर्प, yılan, snake)","fr":"« celui qui rampe » (serpent, सर्प, yılan, snake)","it":"«quello che striscia» (serpent, सर्प, yılan, snake)","es":"«el que se arrastra» (serpent, सर्प, yılan, snake)","pt":"«o que rasteja» (serpent, सर्प, yılan, snake)","ru":"«ползущий» (serpent, सर्प, yılan, snake)","uk":"«повзучий» (serpent, सर्प, yılan, snake)","ar":"«الزاحف» (serpent, सर्प, yılan, snake)","he":"\"הזוחל\" (serpent, सर्प, yılan, snake)","sw":"\"mtambaaji\" (serpent, सर्प, yılan, snake)"},
@@ -715,7 +716,7 @@ WORDS.snake = {
     acw: ["ثعبان", "tuʕbaːn"],
     ady: ["блэ", "bla"],
     af: ["slang", "slaŋ"],
-    agx: ["илан", "ilan"],
+    agx: ["илан", "ilan"],  // The same Turkic loan as Lezgian илан, from Azerbaijani ilan (Turkic *yï̄lan, from *yï̄l- 'to creep'). Route by resemblance to the neighbouring forms (lez(илан)); no etymology of its own.
     aii: ["ܚܘܘܐ", "ˈxuwːweː"],
     ak: ["aboateaa", "aboateaa"],
     akb: ["ulok", "ulok"],
@@ -781,7 +782,7 @@ WORDS.snake = {
     dtp: ["tulanut", "tulanut"],
     duu: ["beu", "beu"],
     dv: ["ހަރުފަ", "həɾufə"],  // An early borrowing from Sanskrit sarpa.
-    egl: ["bìsa", "bisa"],  // Route by resemblance to the neighbouring forms (Venetian bisa "beast"); no etymology of its own.
+    egl: ["bìsa", "ˈbisa"],  // Route by resemblance to the neighbouring forms (Venetian bisa "beast"); no etymology of its own.
     el: ["φίδι", "ˈfiði"],
     emi: ["otuana", "otuana"],
     en: ["snake", "sneɪk"],  // Old English snaca, from Proto-West Germanic *snakō "slider", from *snakan "to creep, slide".
@@ -830,7 +831,7 @@ WORDS.snake = {
     ht: ["koulèv", "kuˈlɛv"],  // From Latin colubra, through Vulgar Latin *colŏbra.
     hu: ["kígyó", "ˈkiːɟoː"],
     hy: ["օձ", "otsʰ"],
-    ia: ["serpente", "serpente"],  // Route by resemblance to the neighbouring forms (Italian serpente); no etymology of its own.
+    ia: ["serpente", "serˈpente"],  // Route by resemblance to the neighbouring forms (Italian serpente); no etymology of its own.
     iba: ["ular", "ular"],
     id: ["ular", "ˈular"],
     ig: ["agwọ", "aɡwɔ"],
@@ -845,7 +846,7 @@ WORDS.snake = {
     juc: ["məixə", "məixə"],
     jv: ["ula", "ulɔ"],  // From Proto-Austronesian *SulaR.
     ka: ["გველი", "ɡveli"],
-    kaa: ["ʒɯlan", "ʒɯlan"],
+    kaa: ["ʒɯlan", "ʒɯlan"],  // From Proto-Turkic *yï̄lan, from *yï̄l- 'to creep' (Wiktionary), like Kazakh жылан.
     kbd: ["блэ", "bɮa"],
     kea: ["kóbra", "ˈkɔbrɐ"],  // From Latin colubra, through Vulgar Latin *colŏbra.
     kfr: ["સપ", "səp"],  // A "crawler": from the root *serp- "to creep" (Latin serpēns, Sanskrit sarpa), Turkic *yï̄l- "to creep", or Germanic *snakan "to creep".
@@ -872,7 +873,7 @@ WORDS.snake = {
     ks: ["سَرُپھ", "sarupʰ"],  // A "crawler": from the root *serp- "to creep" (Latin serpēns, Sanskrit sarpa), Turkic *yï̄l- "to creep", or Germanic *snakan "to creep".
     ksb: ["nyoka", "njoka"],
     ku: ["ejdeha", "ɛʒdɛˈhɑː"],
-    kum: ["йылан", "jɯlan"],
+    kum: ["йылан", "jɯlan"],  // From Proto-Turkic *yï̄lan, from *yï̄l- 'to creep' (Wiktionary), like Kazakh жылан.
     kw: ["sarf", "sarf"],  // A "crawler": from the root *serp- "to creep" (Latin serpēns, Sanskrit sarpa), Turkic *yï̄l- "to creep", or Germanic *snakan "to creep".
     ky: ["жылан", "dʒɯˈlɑn"],  // A "crawler": from the root *serp- "to creep" (Latin serpēns, Sanskrit sarpa), Turkic *yï̄l- "to creep", or Germanic *snakan "to creep".
     la: ["anguis", "ˈaŋɡʷɪs"],
@@ -929,7 +930,7 @@ WORDS.snake = {
     nd: ["inyoka", "iɲoka"],
     nds: ["Slang", "slaŋk"],
     ne: ["साँप", "sãp"],  // A "crawler": from the root *serp- "to creep" (Latin serpēns, Sanskrit sarpa), Turkic *yï̄l- "to creep", or Germanic *snakan "to creep".
-    nhe: ["kowatl", "koːwatɬ"],
+    nhe: ["kowatl", "ˈkoːwatɬ"],
     nia: ["ulö", "ˈulɤ"],  // From Proto-Malayo-Polynesian *quləj "maggot, caterpillar".
     nij: ["handipe", "handipe"],
     niu: ["gata", "ŋata"],
@@ -937,15 +938,15 @@ WORDS.snake = {
     njo: ["per", "peɹ"],
     nl: ["slang", "slɑŋ"],
     nn: ["orm", "ɔrm"],  // The same old word as "worm".
-    no: ["orm", "ɔrm"],
+    no: ["orm", "ɔrm"],  // The same old word as "worm".
     non: ["ormr", "ormr"],  // From Proto-Germanic *wurmiz "worm".
     nso: ["noga", "nɔɣa"],
     ny: ["njoka", "ˈndʒoka"],
     nym: ["nzoka", "nzoka"],
     oc: ["sèrp", "sɛrp"],  // A "crawler": from the root *serp- "to creep" (Latin serpēns, Sanskrit sarpa), Turkic *yï̄l- "to creep", or Germanic *snakan "to creep".
-    ofs: ["wirm", "wirm"],
+    ofs: ["wirm", "wirm"],  // The same old word as "worm", like Old Saxon and Old High German wurm.
     oj: ["ginebig", "ɡinebiɡ"],
-    olo: ["mado", "mado"],
+    olo: ["mado", "ˈmado"],  // The same old word as "worm", like Karelian mado 'snake, worm' (Wiktionary, from Proto-Finnic *mato).
     om: ["bofa", "bofa"],
     or: ["ସାପ", "sapɔ"],  // A "crawler": from the root *serp- "to creep" (Latin serpēns, Sanskrit sarpa), Turkic *yï̄l- "to creep", or Germanic *snakan "to creep".
     orh: ["kʊlɪn", "kʊlɪn"],
@@ -970,10 +971,10 @@ WORDS.snake = {
     pt: ["cobra", "ˈkɔbɾɐ"],  // From Latin colubra, through Vulgar Latin *colŏbra.
     pyu: ["unan", "unan"],
     pzh: ["ezet", "əzət"],
-    qu: ["amaru", "amaɾu"],
+    qu: ["amaru", "aˈmaɾu"],
     quc: ["kumatz", "kumats"],
     rbb: ["han", "han"],
-    rgn: ["bìssa", "bissa"],  // Route by resemblance to the neighbouring forms (Venetian bisa "beast"); no etymology of its own.
+    rgn: ["bìssa", "ˈbissa"],  // Route by resemblance to the neighbouring forms (Venetian bisa "beast"); no etymology of its own.
     rm: ["serp", "sɛrp"],  // A "crawler": from the root *serp- "to creep" (Latin serpēns, Sanskrit sarpa), Turkic *yï̄l- "to creep", or Germanic *snakan "to creep".
     rn: ["ingoka", "inɡoka"],
     ro: ["șarpe", "ˈʃarpe"],  // A "crawler": from the root *serp- "to creep" (Latin serpēns, Sanskrit sarpa), Turkic *yï̄l- "to creep", or Germanic *snakan "to creep".
@@ -989,7 +990,7 @@ WORDS.snake = {
     sbp: ["njokha", "njokha"],
     sc: ["colovra", "koˈlobra"],  // From Latin colubra, through Vulgar Latin *colŏbra.
     sce: ["mogvei", "moˈʁəj"],
-    scn: ["serpenti", "sɛrpɛnti"],  // A "crawler": from the root *serp- "to creep" (Latin serpēns, Sanskrit sarpa), Turkic *yï̄l- "to creep", or Germanic *snakan "to creep".
+    scn: ["serpenti", "sɛrˈpɛnti"],  // A "crawler": from the root *serp- "to creep" (Latin serpēns, Sanskrit sarpa), Turkic *yï̄l- "to creep", or Germanic *snakan "to creep".
     sd: ["نانگ", "naːŋɡ"],  // From Sanskrit nāga.
     sda: ["ulaʔ", "ulaʔ"],
     se: ["gearpmaš", "ˈkea̯rpmaʃ"],  // The same old word as "worm".
@@ -1001,7 +1002,7 @@ WORDS.snake = {
     sjo: ["ᠮᡝᡞᡥᡝ", "məix"],
     sk: ["had", "ɦat"],
     skr: ["نانگ", "nãːɡ"],  // From Sanskrit nāga.
-    sl: ["kača", "kaːtʃa"],
+    sl: ["kača", "ˈkaːtʃa"],
     slr: ["yilen", "jilæn"],  // A "crawler": from the root *serp- "to creep" (Latin serpēns, Sanskrit sarpa), Turkic *yï̄l- "to creep", or Germanic *snakan "to creep".
     sm: ["gata", "ŋata"],
     sn: ["nyoka", "ɲoka"],
@@ -1097,16 +1098,16 @@ WORDS.snake = {
     fr_lu: ["serpent", "sɛʁpɑ̃"],
     fr_cm: ["serpent", "sɛʁpɑ̃"],
     de_lu: ["Schlange", "ˈʃlaŋə"],
-    en_ng2: ["snake", "sneɪk"],
+    en_ng2: ["snake", "sneːk"],
     es_bo: ["serpiente", "seɾˈpjente"],
     es_py: ["serpiente", "seɾˈpjente"],
     es_pa: ["serpiente", "seɾˈpjente"],
-    en_my: ["snake", "sneɪk"],
+    en_my: ["snake", "sneːk"],
     en_wls: ["snake", "sneɪk"],
-    en_jam: ["snake", "sneɪk"],
-    en_ng: ["snake", "sneɪk"],
+    en_jam: ["snake", "sneːk"],
+    en_ng: ["snake", "sneːk"],
     en_ph: ["snake", "sneɪk"],
-    en_ke: ["snake", "sneɪk"],
+    en_ke: ["snake", "sneːk"],
     fr_sn: ["serpent", "sɛʁpɑ̃"],
     fr_ci: ["serpent", "sɛʁpɑ̃"],
     fr_ht: ["serpent", "sɛʁpɑ̃"],
@@ -1114,7 +1115,7 @@ WORDS.snake = {
     nl_be: ["slang", "slɑŋ"],
     en_us: ["snake", "sneɪk"],
     en_ca: ["snake", "sneɪk"],
-    en_za: ["snake", "sneɪk"],
+    en_za: ["snake", "sneːk"],
     de_ch: ["Schlange", "ˈʃlaŋə"],
     pt_ao: ["cobra", "ˈkɔbɾɐ"],
     ca_va: ["serp", "seɾp"],
@@ -1132,20 +1133,20 @@ WORDS.snake = {
     en_au: ["snake", "snæɪk"],
     de_at: ["Schlange", "ˈʃlaŋə"],
     rmy: ["sap", "sap"],
-    en_south: ["snake", "sneɪk"],
+    en_south: ["snake", "snæɪk"],
     en_app: ["snake", "sneɪk"],
-    en_in: ["snake", "sneɪk"],
-    en_ie: ["snake", "sneɪk"],
-    en_sco: ["snake", "sneɪk"],
-    en_yk: ["snake", "sneɪk"],
-    en_ck: ["snake", "sneɪk"],
+    en_in: ["snake", "sneːk"],
+    en_ie: ["snake", "sneːk"],
+    en_sco: ["snake", "snek"],
+    en_yk: ["snake", "sneːk"],
+    en_ck: ["snake", "snæɪk"],
     en_scouse: ["snake", "sneɪk"],
-    en_geordie: ["snake", "sneɪk"],
+    en_geordie: ["snake", "sneːk"],
     en_brum: ["snake", "snʌɪk"],
     en_manc: ["snake", "sneɪk"],
     en_wc: ["snake", "sneɪk"],
     en_est: ["snake", "snɛɪk"],
-    en_sg: ["snake", "sneɪk"],
+    en_sg: ["snake", "sneːk"],
     fr_qc: ["serpent", "sɛʁpɑ̃"],
     fr_af: ["serpent", "sɛʁpɑ̃"],
     fr_be: ["serpent", "sɛʁpɑ̃"],
@@ -1232,7 +1233,7 @@ WORDS.snake = {
     pdt: ["Schlang", "ʃlaŋ"],
     crs: ["serpan", "sɛrpã"],  // From French serpent.
     pms: ["serpent", "serˈpɛŋt"],
-    tyv: ["чылан", "tʃɯˈlan"],
+    tyv: ["чылан", "tʃɯˈlan"],  // From Proto-Turkic *yï̄lan, from *yï̄l- 'to creep' (Wiktionary), like Kazakh жылан.
     chr: ["ᎢᎾᏓ", "iːnata"],
     rup: ["sharpi", "ˈʃarpi"],
     nap: ["serpe", "ˈsɛrpə"],
@@ -1243,11 +1244,11 @@ WORDS.snake = {
     lzz: ["წიწილა", "tsʼitsʼila"],
     jam: ["siniek", "siniek"],  // From English snake.
     tum: ["njoka", "ndʒoka"],
-    alt: ["јылан", "dʲɯˈlan"],
+    alt: ["јылан", "dʲɯˈlan"],  // From Proto-Turkic *yï̄lan, from *yï̄l- 'to creep' (Wiktionary), like Kazakh жылан.
     tcy: ["ಪಾವು", "paːvu"],
     ff: ["mboddi", "mbodːi"],
-    kjh: ["чылан", "tʃɯˈlan"],
-    krc: ["джылан", "dʒɯˈlan"],
+    kjh: ["чылан", "tʃɯˈlan"],  // From Proto-Turkic *yï̄lan, from *yï̄l- 'to creep' (Wiktionary), like Kazakh жылан.
+    krc: ["джылан", "dʒɯˈlan"],  // From Proto-Turkic *yï̄lan, from *yï̄l- 'to creep' (Wiktionary), like Kazakh жылан.
     rhg: ["háf", "haf"],  // From Sanskrit sarpa.
     dng: ["шә", "ʂə˨˦"],  // Cognate with Mandarin 蛇.
     cic: ["sinti", "sinti"],
@@ -1261,7 +1262,7 @@ WORDS.snake = {
     nhw: ["koatl", "ˈkoatɬ"],
     umb: ["nyoka", "ɲoka"],
     ngu: ["kouatl", "ˈkoatɬ"],
-    cjs: ["чылан", "tʃɯlan"],
+    cjs: ["чылан", "tʃɯlan"],  // From Proto-Turkic *yï̄lan, from *yï̄l- 'to creep' (Wiktionary), like Kazakh жылан.
     lua: ["nyoka", "ɲoka"],
     apw: ["tłʼiish", "tɬʼiːʃ"],
     toi: ["inzoka", "inzoka"],
@@ -1323,5 +1324,6 @@ WORDS.snake = {
     zh_wh: ["蛇", "sɤ˨˩˧"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Wuhan; reading from MCPDict 武漢.
     zh_xa: ["蛇", "ʂɤ˨˦"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Xi'an; reading from MCPDict 西安.
     zh_zz: ["长虫", "tʂʰaŋ˦˨ tʂʰuŋ˦˨"],  // Literally 'long creature'; 虫 is any small creature, worm or insect. Word from Wiktionary's dialect table for Zhengzhou; reading from MCPDict 開封 (no Zhengzhou table).
+    en_nz: ["snake", "snæek"],  // Same word as standard English; IPA with the row's FACE vowel æe (rain ɹæen, name næem).
   },
 };

@@ -524,7 +524,7 @@ WORDS.thousand = {
     ku: ["hezar", "hɛzar"],
     os: ["мин", "min"],
     hyw: ["հազար", "hɑzɑɾ"],
-    el: ["χίλιοι", "çilii"],
+    el: ["χίλιοι", "ˈçiʎi"],
     aln: ["mijë", "mijə"],
     sr: ["хиљада", "xǐʎada"],
     bs: ["hiljada", "ˈxiʎada"],

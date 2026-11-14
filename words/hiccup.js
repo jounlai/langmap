@@ -248,7 +248,7 @@ WORDS.hiccup = {
     el_grc: "plain",
     sa: "imitative",
     ang: "plain",
-    non: "plain",
+    non: "imitative",
     zh_tang: "plain",
     pi: "imitative",
     nci: "plain",
@@ -366,7 +366,7 @@ WORDS.hiccup = {
     kjj: "plain",
     abe: "plain",
     srm: "plain",
-    crs: "plain",
+    crs: "imitative",
     kum: "plain",
     nog: "plain",
     gmh: "plain",
@@ -472,7 +472,7 @@ WORDS.hiccup = {
     yue_ts: ["打噎", "ʔa˥˥ ʔəɯk˨˩"],  // 打 'to do' + 噎, the hiccup word of Cantonese 打思噎; the Taishan table cites it as 打个噎.
     yue_nn: ["打呃", "ta˧˥ ɐk˥"],  // 打 'to do' + 呃; the Nanning table glosses 打呃 and the fuller 打閡呃 as 打嗝 and derives 呃 from 餩.
     cnp: ["打呃", "ta˧˧ ɐk˥"],  // 打 'to do' + 呃; the Nanning Tingzi table glosses 打呃 and 打塞呃 as 打嗝 and derives 呃 from 餩.
-    id: ["cegukan", "tʃəɡukan"],  // From ceguk, which the KBBI defines as an imitation of the sound 'guk' made when air catches in the throat.
+    id: ["cegukan", "tʃəˈɡukan"],  // From ceguk, which the KBBI defines as an imitation of the sound 'guk' made when air catches in the throat.
     jv: ["ceguken", "tʃəɡukən"],  // Built on ceguk, which the KBBI, listing it as a Javanese word, defines as an imitation of the sound 'guk'; the -en ending marks being afflicted by it.
     su: ["sisidueun", "sisiduɯn"],  // The everyday (loma) Sundanese word, glossed in the Sundanese Wiktionary with Indonesian cegukan.
     ms: ["sedu", "sədu"],  // Inherited from Proto-Malayo-Polynesian *sədu 'hiccough'; the same word also means 'sob'.
@@ -572,10 +572,10 @@ WORDS.hiccup = {
     el_grc: ["λύγξ", "lýŋks"],  // Related to λύζω 'to hiccup, sob'; the same spelling is also the word for the lynx.
     sa: ["हिक्का", "ɦikkaː"],  // The Hindi Shabdasagar, deriving Hindi हिचकी from it, calls its root onomatopoeic.
     ang: ["ġeocsa", "ˈjeoksɑ"],  // Both 'sobbing' and 'hiccup'; Middle English yexen 'to hiccup' continues the verb.
-    non: ["hixti", "ˈhixti"],  // Both 'hiccough' and 'sobbing', with the verb hixta.
+    non: ["hixti", "ˈhixti"],  // Both 'hiccough' and 'sobbing', with the verb hixta; the same word as Icelandic hiksti, which Wiktionary calls of imitative origin.
     zh_tang: ["噦", "ʔuat"],  // The Book of Rites already forbids it in front of one's parents (不敢噦噫); the same character also means 'to retch'. No image is recorded for it, so it counts as a word of its own.
     pi: ["हिक्का", "hikkaː"],  // The same word as Sanskrit हिक्का, whose root is called onomatopoeic.
-    nci: ["tziucnoliztli", "tsiuknolistɬi"],  // The noun of tziucnoa 'to hiccup'. No image is recorded for it, so it counts as a word of its own.
+    nci: ["tziucnoliztli", "tsiuknoˈlistɬi"],  // The noun of tziucnoa 'to hiccup'. No image is recorded for it, so it counts as a word of its own.
     ar_qur: ["فواق", "fuwaːq"],  // From the verb فاق 'to have a hiccup'; Wiktionary (under Najdi Arabic فهاق) takes fuwāq as probably from an onomatopoeic فِق fiq.
     syc: ["ܦܘܩܬܐ", "pwaːqtaː"],  // Pwāqtā, the same root as Arabic فواق fuwāq (Comprehensive Aramaic Lexicon), which Wiktionary takes as probably from an onomatopoeic fiq. Route by resemblance to the neighbouring forms (ar(فواق)).
     ja_heian: ["噦り", "sakuɾi"],  // さくり, cited from the Wamyō Ruijushō in Daijisen; the older form of しゃくり, from the verb sakuru 'to hiccup'. Route by resemblance to the neighbouring forms (ja_kanbun(噦) ja_chu(噦)); no etymology of its own.
@@ -690,7 +690,7 @@ WORDS.hiccup = {
     kjj: ["гаьгирмишкувал", "ɡæɡirmiʃkʰuval"],  // IDS Khinalug, the row's list. Palochka and IPA from the row's pairs.
     abe: ["chachapsolowôgan", "tʃatʃapsolowɔ̃ɡan"],  // Laurent p.23: "Chachapsolowôgan. The hiccough, hiccup."
     srm: ["tekútekú", "tekútekú"],  // WOLD Saramaccan, the list this row matches.
-    crs: ["loke", "loke"],  // WOLD Seychelles Creole, the list this row matches.
+    crs: ["loke", "loke"],  // WOLD Seychelles Creole, the list this row matches. The same word as Mauritian loke, from French l'hoquet, ultimately onomatopoeic. Route by resemblance to the neighbouring forms (mfe(loke)); no etymology of its own.
     kum: ["гьынкъ этмек", "hɨnq etmek"],  // IDS Kumyk, the list this row matches. IPA from the row's pairs.
     nog: ["сыкылдав", "sɨqɨlˈdaw"],  // IDS Nogai, the list this row matches. IPA from the row's pairs.
     gmh: ["roffezen", "ˈrɔfətsən"],  // IDS Middle High German, the list this row matches. IPA from the row's pairs.

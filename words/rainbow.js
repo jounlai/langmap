@@ -1059,7 +1059,7 @@ WORDS.rainbow = {
     en_app: ["rainbow", "ˈɹeɪnboʊ"],  // Rain + bow "arch", the one English word for it.
     en_in: ["rainbow", "ˈreːnboː"],  // Rain + bow "arch", the one English word for it.
     en_ie: ["rainbow", "ˈɹeːnboː"],  // Rain + bow "arch", the one English word for it.
-    en_sco: ["rainbow", "ˈɹenbəʊ"],  // Rain + bow "arch", the one English word for it.
+    en_sco: ["rainbow", "ˈɹenbo"],  // Rain + bow "arch", the one English word for it.
     en_yk: ["rainbow", "ˈɹeɪnbəʊ"],  // Rain + bow "arch", the one English word for it.
     en_ck: ["rainbow", "ˈɹæɪnbæʊ"],  // Rain + bow "arch", the one English word for it.
     en_scouse: ["rainbow", "ˈɹeɪnbəʊ"],  // Rain + bow "arch", the one English word for it.

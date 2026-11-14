@@ -573,7 +573,7 @@ WORDS.germany = {
     ku: ["Almanya", "ɑːlmɑːnˈjɑː"],  // Likely borrowed from Turkish Almanya; Elmanya is an alternative form (Wiktionary).
     zu: ["iJalimani", "idʒalimani"],  // Borrowed from English Germany (Wiktionary, citing Doke and Vilakazi's Zulu-English Dictionary).
     ff: ["Almaanya", "almaːɲa"],  // Fula Wikipedia's name for Germany; no source found that names the donor. Route by resemblance to the neighbouring forms (pms(Almagna) tr(Almanya)); no etymology of its own.
-    ceb: ["Alemanya", "ʔaleˈmanja"],  // Cebuano Wikipedia's name for Germany, the same form as Tagalog Alemanya; no source found that names the donor. Route by resemblance to the neighbouring forms (tl alemanni es alemanni); no etymology of its own.
+    ceb: ["Alemanya", "ʔaleˈmanja"],  // Cebuano Wikipedia's name for Germany, the same form as Tagalog Alemanya; no source found that names the donor. Route by resemblance to the neighbouring forms (tl Alemanya, es Alemania); no etymology of its own.
     ro: ["Germania", "dʒerˈmania"],  // From Latin Germania.
     skr: ["جرمنی", "dʒərməniː"],  // Saraiki Wikipedia's name for Germany; no source found that names the donor. Route by resemblance to the neighbouring forms (hi(जर्मनी) ur(جرمنی)); no etymology of its own.
     mg: ["Alemaina", "aleˈmajna"],  // Borrowed from French Allemagne, after the Alamanni tribe (Wiktionary).
@@ -604,7 +604,7 @@ WORDS.germany = {
     cs: ["Německo", "ˈɲɛmɛtsko"],  // From Němec "German", ultimately Proto-Slavic němьcь, "mute, foreigner".
     pt: ["Alemanha", "ɐlɨˈmɐɲɐ"],  // Named after the Alamanni, a Germanic tribal confederation on the upper Rhine.
     cdo: ["德国", "tɛiʔ˨˦ kuɔʔ˨˦"],  // 德 abbreviates 德意志, a transcription of German Deutsch, plus 国 "country".
-    ilo: ["Alemania", "ʔaleˈmanja"],  // Germany in Ilocano, a form that matches Spanish Alemania; stress assumed to follow Spanish. Route by resemblance to the neighbouring forms (tl alemanni es alemanni); no etymology of its own.
+    ilo: ["Alemania", "ʔaleˈmanja"],  // Germany in Ilocano, a form that matches Spanish Alemania; stress assumed to follow Spanish. Route by resemblance to the neighbouring forms (tl Alemanya, es Alemania); no etymology of its own.
     rn: ["Ubudagi", "ubudaɡi"],  // From the class-14 prefix ubu- and German Deutsch; a folk etymology instead links it to the greeting "guten Tag".
     ca: ["Alemanya", "ələˈmaɲə"],  // Named after the Alamanni, a Germanic tribal confederation on the upper Rhine.
     ts: ["Jarimani", "dʒarimani"],  // Borrowed from English Germany, from Latin Germania.

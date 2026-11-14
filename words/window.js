@@ -111,12 +111,12 @@ WORDS.window = {
     lad: "wind",
     lg: "door",
     mdh: "plain",
-    mwr: "plain",
+    mwr: "door",
     mzh: "wind",
     nap: "fenestra",
     nrf: "fenestra",
     oj: "plain",
-    pag: "plain",
+    pag: "other",
     pap: "wind",
     pms: "fenestra",
     qu: "wind",
@@ -149,7 +149,7 @@ WORDS.window = {
     vi: "door",
     lb: "fenestra",
     et: "eye",
-    tl: "plain",
+    tl: "other",
     ar: "plain",
     he: "plain",
     fa: "panjara",
@@ -257,7 +257,7 @@ WORDS.window = {
     ps: "plain",
     pl: "eye",
     pt: "door",
-    pa: "plain",
+    pa: "door",
     ro: "fenestra",
     ru: "eye",
     sco: "wind",
@@ -409,7 +409,7 @@ WORDS.window = {
     sat: "plain",
     afb: "door",
     kfr: "door",
-    skr: "plain",
+    skr: "door",
     mrw: "plain",
     trv: "plain",
     rgn: "fenestra",
@@ -420,7 +420,7 @@ WORDS.window = {
     acw: "other",
     kok: "plain",
     ik: "plain",
-    lij: "plain",
+    lij: "other",
     ofs: "plain",
     tao: "eye",
     dng: "plain",
@@ -459,9 +459,24 @@ WORDS.window = {
     fr_ch: "fenestra",
     ko_hg: "plain",
     ko_jl: "plain",
-    lij_t: "plain",
+    lij_t: "other",
     sr: "other",
     bs: "other",
+    en_us: "wind",
+    en_ca: "wind",
+    en_app: "wind",
+    en_ph: "wind",
+    en_au: "wind",
+    en_nz: "wind",
+    en_geordie: "wind",
+    en_jam: "wind",
+    en_ke: "wind",
+    en_my: "wind",
+    en_ng: "wind",
+    en_ng2: "wind",
+    en_sg: "wind",
+    en_in: "wind",
+    en_sco: "wind",
   },
   routes: {
     wind: {"color":"#0891b2","emoji":"🌬️","en":"built on the wind (window, vindue, ventana)","ja":"風からできた語（window, vindue, ventana）","ko":"바람에서 나온 말 (window, vindue, ventana)","zh":"由“风”构成（window, vindue, ventana）","yue":"由「風」構成（window, vindue, ventana）","vi":"tạo từ chữ gió (window, vindue, ventana)","th":"สร้างจากคำว่าลม (window, vindue, ventana)","id":"dibentuk dari kata angin (window, vindue, ventana)","hi":"हवा के शब्द से बना (window, vindue, ventana)","de":"vom Wind gebildet (window, vindue, ventana)","fr":"construit sur le vent (window, vindue, ventana)","it":"costruito sul vento (window, vindue, ventana)","es":"formado sobre el viento (window, vindue, ventana)","pt":"formado sobre o vento (window, vindue, ventana)","ru":"построено на слове для ветра (window, vindue, ventana)","uk":"побудоване на слові для вітру (window, vindue, ventana)","ar":"مبني على الريح (window, vindue, ventana)","he":"בנוי על הרוח (window, vindue, ventana)","sw":"limejengwa juu ya upepo (window, vindue, ventana)"},
@@ -512,12 +527,12 @@ WORDS.window = {
     lad: ["ventana", "venˈtana"],
     lg: ["eddirisa", "edːirisa"],  // Route by resemblance to the neighbouring forms (sw); no etymology of its own.
     mdh: ["paliwangan", "paliwaŋan"],
-    mwr: ["बारी", "baːri"],
+    mwr: ["बारी", "baːri"],  // Cognate with Gujarati બારી, from Sanskrit द्वार dvāra 'door' (Wiktionary, under Gujarati).
     mzh: ["wentana", "wentana"],  // Route by resemblance to the neighbouring forms (arn,lad,pap); no etymology of its own.
     nap: ["fenesta", "feˈnɛstə"],
     nrf: ["f'nêtre", "fnɛtr"],
     oj: ["waasechigan", "waːsetʃiɡan"],
-    pag: ["dorongawen", "doɾoŋawen"],
+    pag: ["dorongawen", "doɾoŋawen"],  // Cognate with Tagalog durungawan, from dungaw 'to look out'. Route by resemblance to the neighbouring forms (tl(durungawan)); no etymology of its own.
     pap: ["bentana", "benˈtana"],
     pms: ["fnestra", "ˈfnɛstra"],
     qu: ["wintana", "winˈtana"],  // Route by resemblance to the neighbouring forms (ceb); no etymology of its own.
@@ -550,7 +565,7 @@ WORDS.window = {
     vi: ["cửa sổ", "kɨə˧˩˧ so˧˩˧"],  // cửa 'door' and sổ 'to escape, slip away'.
     lb: ["Fënster", "ˈfənstɐ"],
     et: ["aken", "ˈɑken"],
-    tl: ["durungawan", "duɾuˈŋawan"],
+    tl: ["durungawan", "duɾuˈŋawan"],  // From dungaw 'to look out' + -an (Wiktionary): the place to look out from, like Tausug tandawan.
     ar: ["نافذة", "naːfiða"],
     he: ["חלון", "χaˈlon"],
     fa: ["پنجره", "pændʒeˈɾe"],
@@ -658,14 +673,14 @@ WORDS.window = {
     ps: ["کړکۍ", "kəɹˈkəj"],
     pl: ["okno", "ˈɔknɔ"],
     pt: ["janela", "ʒaˈnɛlɐ"],  // From Vulgar Latin, a 'little door'.
-    pa: ["ਬਾਰੀ", "baːɾiː"],
+    pa: ["ਬਾਰੀ", "baːɾiː"],  // Feminine of ਬਾਰ bār 'door', from Sanskrit द्वार dvāra 'door' (Wiktionary).
     ro: ["fereastră", "feˈre̯astrə"],
     ru: ["окно", "ɐkˈno"],  // From Proto-Slavic *okъno, related to the word for an eye.
     sco: ["windae", "ˈwɪndə"],
     gd: ["uinneag", "ˈɯɲak"],
     scn: ["finestra", "fiˈnɛʃːɽa"],
     sk: ["okno", "ˈɔknɔ"],
-    sl: ["okno", "ɔːknɔ"],
+    sl: ["okno", "ˈɔːknɔ"],
     es: ["ventana", "benˈtana"],  // From Vulgar Latin *ventāna, from Latin ventus 'wind'.
     srn: ["fensre", "fensre"],
     tg: ["тиреза", "tireˈza"],
@@ -703,7 +718,7 @@ WORDS.window = {
     sel: ["окошка", "okoʃka"],  // Route by resemblance to the neighbouring forms (ru); no etymology of its own.
     yrk: ["сидерˮ", "sʲidʲeːrʔ"],
     nio: ["сиәз̌ыр", "sʲiəðɨr"],
-    hyw: ["պատուհան", "pɑtuhɑn"],
+    hyw: ["պատուհան", "pɑtuˈhɑn"],
     aln: ["dritare", "dɾitaɾɛ"],
     nn: ["vindu", "ˈvɪndʉː"],
     no: ["vindu", "ˈvɪndʉː"],
@@ -740,12 +755,12 @@ WORDS.window = {
     ca_va: ["finestra", "fiˈnestɾa"],
     es_mx: ["ventana", "benˈtana"],
     pt_br: ["janela", "ʒaˈnɛlɐ"],
-    en_aave: ["window", "ˈwɪndəʊ"],
+    en_aave: ["window", "ˈwɪndoʊ"],
     de_at: ["Fenster", "ˈfɛnstɐ"],
     ksh: ["Fenster", "ˈfɛnstɐ"],
     en_yk: ["window", "ˈwɪndəʊ"],
-    en_ck: ["window", "ˈwɪndəʊ"],
-    en_brum: ["window", "ˈwɪndəʊ"],
+    en_ck: ["window", "ˈwɪndæʊ"],
+    en_brum: ["window", "ˈwɪndʌʊ"],
     en_wc: ["window", "ˈwɪndəʊ"],
     en_est: ["window", "ˈwɪndəʊ"],
     fr_af: ["fenêtre", "fənɛtʁ"],
@@ -810,7 +825,7 @@ WORDS.window = {
     sat: ["ᱠᱷᱤᱲᱠᱤ", "kʰiɽki"],  // The same word as Hindi खिड़की; no image is recorded for it, so it counts as a word of its own.
     afb: ["دريشة", "dəˈriʃə"],  // Borrowed from Persian دریچه, 'small window', from در 'door' plus a diminutive.
     kfr: ["બારી", "baːriː"],  // From Prakrit bāra, from Sanskrit द्वार, 'door'.
-    skr: ["دری", "dəɾiː"],  // No origin is recorded for it, so it counts as a word of its own.
+    skr: ["دری", "dəɾiː"],  // The same word as Sindhi دري, from Sanskrit द्वार dvāra 'door', like Kashmiri دٲر. Route by resemblance to the neighbouring forms (sd(دري) ks(دٲر)); no etymology of its own.
     mrw: ["rowasan", "rowasan"],  // No image is recorded for it, so it counts as a word of its own.
     trv: ["bling", "bliŋ"],  // No image is recorded for it, so it counts as a word of its own.
     rgn: ["fnèstra", "ˈfnɛstra"],  // The Romagnol form of Latin fenestra.
@@ -821,7 +836,7 @@ WORDS.window = {
     acw: ["شباك", "ʃuˈbbaːk"],  // Inherited from Arabic šubbāk.
     kok: ["खिडकी", "kʰiɖkiː"],  // Inherited from Sanskrit khaṭakkikā; no image is recorded for it.
     ik: ["igaliq", "iɣaliq"],  // No image is recorded for it, so it counts as a word of its own.
-    lij: ["barcun", "barˈkyŋ"],  // No etymology is given, so it counts as a word of its own.
+    lij: ["barcun", "barˈkyŋ"],  // The same word as Venetian and Friulian balcon, from Lombardic balko 'beam' (Wiktionary, under Venetian). Route by resemblance to the neighbouring forms (vec(balcon) fur(balcon)); no etymology of its own.
     ofs: ["andern", "ˈandern"],  // No etymology is given, so it counts as a word of its own.
     tao: ["mado", "mado"],  // Borrowed from Japanese 窓 mado, a compound of 'eye' and 'door'.
     dng: ["чуонхў", "tʂʰuɑŋ˨˦ xu˥˩"],  // Cognate to Mandarin 窗户; no image is recorded for it, as for Mandarin.
@@ -851,17 +866,32 @@ WORDS.window = {
     ko_kp: ["창문", "tɕʰaŋmun"],
     ko_bus: ["창문", "tɕʰaŋmun"],
     ko_yb: ["창문", "tɕʰaŋmun"],
-    en_south: ["window", "ˈwɪndəʊ"],
-    en_ie: ["window", "ˈwɪndəʊ"],
+    en_south: ["window", "ˈwɪndoʊ"],
+    en_ie: ["window", "ˈwɪndoː"],
     en_scouse: ["window", "ˈwɪndəʊ"],
-    en_manc: ["window", "ˈwɪndəʊ"],
+    en_manc: ["window", "ˈwɪndɔʊ"],
     fr_qc: ["fenêtre", "fənɛtʁ"],
     fr_be: ["fenêtre", "fənɛtʁ"],
     fr_ch: ["fenêtre", "fənɛtʁ"],
     ko_hg: ["창문", "tɕʰaŋmun"],
     ko_jl: ["창문", "tɕʰaŋmun"],
-    lij_t: ["barcun", "barˈkyŋ"],
+    lij_t: ["barcun", "barˈkyŋ"],  // The same word as Venetian and Friulian balcon, from Lombardic balko 'beam' (Wiktionary, under Venetian). Route by resemblance to the neighbouring forms (vec(balcon) fur(balcon)); no etymology of its own.
     sr: ["прозор", "prǒːzor"],  // From pro- + zreti 'to look through'.
     bs: ["prozor", "ˈproːzor"],  // From pro- + zrijeti 'to look through'.
+    en_us: ["window", "ˈwɪndoʊ"],  // From Old Norse vindauga, from vindr 'wind' and auga 'eye', as in all English; IPA with the row's own GOAT vowel.
+    en_ca: ["window", "ˈwɪndoʊ"],  // From Old Norse vindauga, from vindr 'wind' and auga 'eye', as in all English; IPA with the row's own GOAT vowel.
+    en_app: ["window", "ˈwɪndoʊ"],  // From Old Norse vindauga, from vindr 'wind' and auga 'eye', as in all English; IPA with the row's own GOAT vowel.
+    en_ph: ["window", "ˈwɪndoʊ"],  // From Old Norse vindauga, from vindr 'wind' and auga 'eye', as in all English; IPA with the row's own GOAT vowel.
+    en_au: ["window", "ˈwɪndəʉ"],  // From Old Norse vindauga, from vindr 'wind' and auga 'eye', as in all English; IPA with the row's own GOAT vowel.
+    en_nz: ["window", "ˈwɪndɐʉ"],  // From Old Norse vindauga, from vindr 'wind' and auga 'eye', as in all English; IPA with the row's own GOAT vowel.
+    en_geordie: ["window", "ˈwɪndoː"],  // From Old Norse vindauga, from vindr 'wind' and auga 'eye', as in all English; IPA with the row's own GOAT vowel.
+    en_jam: ["window", "ˈwɪndoː"],  // From Old Norse vindauga, from vindr 'wind' and auga 'eye', as in all English; IPA with the row's own GOAT vowel.
+    en_ke: ["window", "ˈwɪndoː"],  // From Old Norse vindauga, from vindr 'wind' and auga 'eye', as in all English; IPA with the row's own GOAT vowel.
+    en_my: ["window", "ˈwɪndoː"],  // From Old Norse vindauga, from vindr 'wind' and auga 'eye', as in all English; IPA with the row's own GOAT vowel.
+    en_ng: ["window", "ˈwɪndoː"],  // From Old Norse vindauga, from vindr 'wind' and auga 'eye', as in all English; IPA with the row's own GOAT vowel.
+    en_ng2: ["window", "ˈwɪndoː"],  // From Old Norse vindauga, from vindr 'wind' and auga 'eye', as in all English; IPA with the row's own GOAT vowel.
+    en_sg: ["window", "ˈwɪndoː"],  // From Old Norse vindauga, from vindr 'wind' and auga 'eye', as in all English; IPA with the row's own GOAT vowel.
+    en_in: ["window", "ˈʋɪnɖoː"],  // From Old Norse vindauga, from vindr 'wind' and auga 'eye', as in all English; IPA with the row's own GOAT vowel.
+    en_sco: ["window", "ˈwɪndo"],  // From Old Norse vindauga, from vindr 'wind' and auga 'eye', as in all English; IPA with the row's own GOAT vowel.
   },
 };

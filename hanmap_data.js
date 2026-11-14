@@ -18079,7 +18079,7 @@ const HAN_DATA = {
       "hak_mz": "siáu",
       "hak_cn": "siáu",
       "yue_zs": "siu2",
-      "yue_ts": "lhieu2",
+      "yue_ts": "lhiau2",
       "yue_nn": "sliu2",
       "yue_dg": "siu2",
       "yue_mo": "siu2",
@@ -18176,7 +18176,7 @@ const HAN_DATA = {
       "hak_mz": "siau˧˩",
       "hak_cn": "siau˧˩",
       "yue_zs": "siu˨˩˧",
-      "yue_ts": "ɬieu˥˥",
+      "yue_ts": "ɬiau˥˥",
       "yue_nn": "ɬiu˧˥",
       "yue_dg": "ʃiu˧˥",
       "yue_mo": "siːu˧˥",
@@ -24086,7 +24086,7 @@ const HAN_DATA = {
       "zh_cq": "uan˨˩˦",
       "zh_db": "uan˥˧",
       "zh_gl": "uã˨˦",
-      "zh_hf": "uɐ̃˥˧",
+      "zh_hf": "uæ̃˥˧",
       "zh_jiao": "vã˦˨",
       "zh_jn": "vã˨˩",
       "zh_kf": "uan˧˩˨",
@@ -28150,7 +28150,7 @@ const HAN_DATA = {
       "zh_yuan": "xia4",
       "zh_phagspa": "ɦya",
       "zh_tang": "ɣæ⁵¹",
-      "och": "*[ɢ]ˤraʔ",
+      "och": "*[g]ˤraʔ",
       "dng": "shya²",
       "nan_hai": "hia5",
       "mnz": "hɔ",
@@ -28241,7 +28241,7 @@ const HAN_DATA = {
       "zh_yuan": "xia˥˩",
       "zh_phagspa": "ɣja",
       "zh_tang": "ɣæ˥˩",
-      "och": "*[ɢ]ˤraʔ",
+      "och": "*[g]ˤraʔ",
       "dng": "ɕia˥˩",
       "nan_hai": "hia˧˥",
       "mnz": "hɔ˨˦",
@@ -35649,6 +35649,12 @@ const HAN_VARIANTS = {
         "surface": "wan",
         "ipa": "waɴ",
         "label": "唐音 / Tō-on"
+      },
+      {
+        "native": "マン",
+        "surface": "man",
+        "ipa": "maɴ",
+        "label": "慣用音 / Kan'yō-on"
       }
     ]
   },
@@ -37141,6 +37147,48 @@ const HAN_VARIANTS = {
         "surface": "go",
         "ipa": "ɡo",
         "label": "唐音 / Tō-on"
+      }
+    ],
+    "hak_cn": [
+      {
+        "native": "",
+        "surface": "hêu",
+        "ipa": "heu˦˦",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "heu",
+        "ipa": "heu˥˧",
+        "label": "文讀"
+      }
+    ],
+    "hak_mz": [
+      {
+        "native": "",
+        "surface": "hêu",
+        "ipa": "heu˦˦",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "hèu",
+        "ipa": "heu˥˧",
+        "label": "文讀"
+      }
+    ],
+    "hak_tw": [
+      {
+        "native": "",
+        "surface": "heu1",
+        "ipa": "heu˨˦",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "heu4",
+        "ipa": "heu˥˥",
+        "label": "文讀"
       }
     ]
   },
@@ -38933,7 +38981,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "she¹³",
-        "ipa": "ʂe˩˧",
+        "ipa": "ʂɤ˩˧",
         "label": "文讀"
       }
     ],
@@ -42833,7 +42881,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "fan¹³",
-        "ipa": "fan˩˧",
+        "ipa": "ɸan˩˧",
         "label": "文讀"
       }
     ],
@@ -49516,20 +49564,6 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "jîn",
         "ipa": "dzin˩˧",
-        "label": "文讀"
-      }
-    ],
-    "hak_cn": [
-      {
-        "native": "",
-        "surface": "ngin",
-        "ipa": "ŋin˨˦",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "yin",
-        "ipa": "jin˨˦",
         "label": "文讀"
       }
     ],

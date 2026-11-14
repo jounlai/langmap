@@ -1,5 +1,5 @@
 /**
- * little_finger — the small one, the child, or the finger for the ear.
+ * littlefinger — the small one, the child, or the finger for the ear.
  * 
  * Most languages call the fifth finger 'the small one' (little finger, 小指,
  * kleiner Finger, petit doigt); Korean 새끼손가락 is the 'young-one finger' and

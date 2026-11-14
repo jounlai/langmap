@@ -1,15 +1,15 @@
 {
   "app.js": {
-    "version": 113,
-    "hash": "6df87d602794890f"
+    "version": 114,
+    "hash": "8a6e137ebbcaaf59"
   },
   "data.js": {
-    "version": 92,
-    "hash": "af605212ac66624c"
+    "version": 94,
+    "hash": "84da2b74fca9da64"
   },
   "hanmap_data.js": {
-    "version": 220,
-    "hash": "fc22450a1081a1e4"
+    "version": 221,
+    "hash": "df2902ec91c78d72"
   },
   "hanmap_trivia_rt/base.js": {
     "version": 70,
@@ -88,8 +88,8 @@
     "hash": "86181f3bf041494a"
   },
   "progress_data.js": {
-    "version": 684,
-    "hash": "a47cdd3c79e37dc0"
+    "version": 685,
+    "hash": "f4001a293d1d335c"
   },
   "pwa.js": {
     "version": 2,
@@ -120,7 +120,7 @@
     "hash": "cf13bf0f0b2c0735"
   },
   "word_manifest.js": {
-    "version": 1615,
+    "version": 1616,
     "hash": "7b200fd368c81349"
   },
   "wordmap_data.js": {

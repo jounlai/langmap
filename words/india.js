@@ -664,7 +664,7 @@ WORDS.india = {
     scn: ["Ìnnia", "ˈinnia"],  // From Latin India, with the Sicilian change of nd to nn.
     tt: ["Һиндстан", "hindˈstɑn"],  // Hindstan, "land of the Hind", built like Persian Hindustan. Route by resemblance to the neighbouring forms (tr(Hindistan) ug(ھىندىستان)); no etymology of its own.
     nso: ["India", "india"],  // Sesotho sa Leboa uses the international name India. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
-    sg: ["Indïi", "indiː"],  // Indïi is the title of the Sango Wikipedia article on India. Route by resemblance to the neighbouring forms (en greek id greek); no etymology of its own.
+    sg: ["Indïi", "indiː"],  // Indïi is the title of the Sango Wikipedia article on India. Route by resemblance to the neighbouring forms (en India, id India); no etymology of its own.
     tpi: ["India", "india"],  // Tok Pisin uses the English name India. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     kam: ["India", "india"],  // Kamba uses the international name India. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     din: ["Indiɛn", "indiɛn"],  // Indiɛn; Wiktionary suggests, without certainty, a borrowing from German Indien. Route by resemblance to the neighbouring forms (de(Indien) lb(Indien)); no etymology of its own.
@@ -691,7 +691,7 @@ WORDS.india = {
     lv: ["Indija", "ˈindija"],  // Via other European languages from Latin India and Greek Ἰνδία, named after the Indus river (Wiktionary).
     mni: ["ꯚꯥꯔꯠ", "bʱaɾət"],  // Borrowed from Sanskrit Bhārata; the Manipuri Wikipedia titles its article ꯏꯟꯗꯤꯌꯥ, borrowed from English India (Wiktionary).
     mk: ["Индија", "ˈindija"],  // Named after the Indus river, whose name came through Old Persian Hindu from Sanskrit Sindhu (Macedonian Wikipedia).
-    sco: ["Indie", "ˈɪndi"],  // Scots name for the country, as in the Indie subcontinent; no source found giving its etymology. Route by resemblance to the neighbouring forms (en greek id greek); no etymology of its own.
+    sco: ["Indie", "ˈɪndi"],  // Scots name for the country, as in the Indie subcontinent; no source found giving its etymology. Route by resemblance to the neighbouring forms (en India, id India); no etymology of its own.
     ba: ["Һиндостан", "hindosˈtan"],  // Bashkir name for India, a Hindustan-type name; no source found that names the donor. Route by resemblance to the neighbouring forms (ks(ہِندوستان) tr(Hindistan)); no etymology of its own.
     et: ["India", "ˈindiɑ"],  // Estonian name for the country, officially India Vabariik; no source found giving its etymology. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     cy: ["India", "ˈɪndja"],  // Welsh name for the country; older formal Welsh puts the article yr before it (Wiktionary). Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
@@ -699,12 +699,12 @@ WORDS.india = {
     eu: ["India", "india"],  // Named after the Indus river, whose name came through Persian Hindu from Sanskrit Sindhu (Basque Wikipedia).
     aii: ["ܗܸܢܕܘܼ", "ˈhɪnduː"],  // From Old Persian hindūš, the Persian name of the Indus land (Wiktionary).
     rue: ["Індія", "ˈindija"],  // Rusyn name for the country, stressed on the first syllable; no source found giving its etymology. Route by resemblance to the neighbouring forms (tl(Indiya) ta(இந்தியா)); no etymology of its own.
-    os: ["Инди", "indi"],  // Ossetian name for the country, officially Индийы Республикæ; no source found naming the donor. Route by resemblance to the neighbouring forms (en greek id greek); no etymology of its own.
+    os: ["Инди", "indi"],  // Ossetian name for the country, officially Индийы Республикæ; no source found naming the donor. Route by resemblance to the neighbouring forms (en India, id India); no etymology of its own.
     yi: ["אינדיע", "ˈɪndjə"],  // Yiddish name for the country; no source found giving its etymology. Route by resemblance to the neighbouring forms (en(India) pl(Indie)); no etymology of its own.
     mt: ["Indja", "ˈɪndja"],  // Usually used with the article, l-Indja; officially Repubblika tal-Indja (Wiktionary). Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     szl: ["Indyje", "ˈindɪjɛ"],  // Silesian name for the country; no source found giving its etymology. Route by resemblance to the neighbouring forms (ru(Индия) cs(Indie)); no etymology of its own.
     oc: ["Índia", "ˈindjɔ"],  // Named after the Indus river, whose name came through Old Persian Hindu from Sanskrit Sindhu (Occitan Wikipedia).
-    crh: ["İndistan", "indisˈtan"],  // Crimean Tatar name for India, with the -stan ending; Hindístan is also listed (Wiktionary). Route by resemblance to the neighbouring forms (kk persian tr persian); no etymology of its own.
+    crh: ["İndistan", "indisˈtan"],  // Crimean Tatar name for India, with the -stan ending; Hindístan is also listed (Wiktionary). Route by resemblance to the neighbouring forms (kk Үндістан, tr Hindistan); no etymology of its own.
     sah: ["Ииндийэ", "iːndiˈje"],  // The Sakha Wikipedia name for the country; Wiktionary lists the form Үүндүйэ. Route by resemblance to the neighbouring forms (ru(Индия) cs(Indie)); no etymology of its own.
     kum: ["Гьиндистан", "hindistan"],  // Kumyk name for India, with the -stan ending; no source found that names the donor. Route by resemblance to the neighbouring forms (tr(Hindistan) ug(ھىندىستان)); no etymology of its own.
     is: ["Indland", "ˈɪntlant"],  // Latin India plus land; it was once called Indíaland in Icelandic (Icelandic Wikipedia).
@@ -725,7 +725,7 @@ WORDS.india = {
     rar: ["Īnītia", "iːniːtia"],  // Borrowed from English India; it also names the Indian subcontinent (Wiktionary).
     hsb: ["Indiska", "ˈindiska"],  // The European name, from the Indus river; in Hindi the country is called Bhārat (Upper Sorbian Wikipedia).
     an: ["India", "ˈindja"],  // Named after the Indus river, whose name came through Old Persian Hindu from Sanskrit Sindhu (Aragonese Wikipedia).
-    dsb: ["Indiska", "ˈindiska"],  // Lower Sorbian name for the country, the same form as Upper Sorbian; no source found giving its etymology. Route by resemblance to the neighbouring forms (hsb greek kk persian); no etymology of its own.
+    dsb: ["Indiska", "ˈindiska"],  // Lower Sorbian name for the country, the same form as Upper Sorbian; no source found giving its etymology. Route by resemblance to the neighbouring forms (hsb Indiska); no etymology of its own.
     ia: ["India", "ˈindja"],  // Interlingua name for the country, officially Republica de India; no source found giving its etymology. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     kw: ["Eynda", "ˈɛɪndə"],  // From Latin and Greek Ἰνδία, after the Indus river (Wiktionary).
     mnc: ["ᠶᡝᠨ ᡩᡠ", "jən du"],  // Manchu name for India, yen du; Wiktionary leaves its origin open, asking whether it comes from Chinese 身毒. Route by resemblance to the neighbouring forms (wuu(印度) zh_kf(印度)); no etymology of its own.

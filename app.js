@@ -479,7 +479,8 @@ function loadFromKeyValue(hash) {
         if (idx >= 0 && idx < SENTENCES.length) currentSentenceIdx = idx;
     }
     if (params.has('l')) {
-        const codes = params.get('l').split(',').filter(c => DEFAULT_ORDER.includes(c));
+        // Once each: #l=ja,ja,en drew Japanese twice (rally 2026-11-14).
+        const codes = [...new Set(params.get('l').split(','))].filter(c => DEFAULT_ORDER.includes(c));
         if (codes.length > 0) {
             enabledLangs = new Set(codes);
             // Restore language order from l= parameter order
@@ -635,10 +636,18 @@ document.addEventListener('DOMContentLoaded', () => {
     // Handle browser back/forward
     window.addEventListener('popstate', () => {
         if (window.__lmPopSkip && window.__lmPopSkip()) return;   // an overlay (language picker, About …) closed: keep the live state (r28)
+        const _ui0 = currentUILang;
         suppressHashUpdate = true;
         loadFromHash();
         syncUIFromState();
-        render();
+        // A shared link pasted into a tab already on the map differs only in the
+        // fragment, so it does not reload: with another ui= the rows changed
+        // language and the page around them did not (rally 2026-11-14).
+        if (currentUILang !== _ui0) {
+            applyUILang();   // ends in render()
+            window.dispatchEvent(new CustomEvent('langmap:uichange'));
+            if (typeof window.__ensureLangNames === 'function') window.__ensureLangNames(currentUILang).then(applyUILang);
+        } else render();
         suppressHashUpdate = false;
     });
 });
@@ -889,15 +898,25 @@ function toggleAllLangs(on) {
     render();
 }
 
+// The reader's own row for the picker and the share text. The Spanish and
+// Portuguese interfaces have no row of their own (the map's rows are es_mx /
+// pt_br), so both fell back to Japanese (rally 2026-11-14).
+const UI_SENTENCE_ROW = { es: 'es_mx', pt: 'pt_br' };
+function uiSentenceRow(s) {
+    const ui = String(currentUILang || 'en');
+    return [ui, UI_SENTENCE_ROW[ui], 'en', 'ja'].find((c) => c && s.langs[c]) || null;
+}
+
+// Written the way Copy writes it (buildFullText): joined with plain spaces,
+// ja/zh/yue/th sentences came apart word by word and glued pieces stood
+// loose (ko 가게 에서) (rally 2026-11-14).
+function uiSentenceText(s) {
+    const code = uiSentenceRow(s);
+    return code ? buildFullText(s.langs[code], code) : s.title;
+}
+
 function sentenceLabel(s) {
-    // Build label from the current UI language's data, fallback to ja, then title
-    const lang = currentUILang;
-    const data = s.langs[lang] || s.langs.ja;
-    if (data) {
-        const text = data.map(([, t]) => t).join(' ');
-        return `${s.id}. ${text}`;
-    }
-    return `${s.id}. ${s.title}`;
+    return `${s.id}. ${uiSentenceText(s)}`;
 }
 
 function updateSampleSelectLabels() {
@@ -970,12 +989,16 @@ function createModalToggle(lang) {
     const _SEO_UI = ['en','ja','ko','zh','yue','vi','th','id','hi','de','fr','it','es','pt','ru','uk','ar','he','sw'];
     const _uiBase = (typeof currentUILang === 'string' ? currentUILang : 'en').split('_')[0];
     const _seoUi = _SEO_UI.indexOf(_uiBase) !== -1 ? _uiBase : 'en';
-    const _seoCode = String(lang.code).replace(/[^a-z0-9_]/gi, '');
+    // Rows whose Word Map page has another code: de_gsw / de_by / en_ang were
+    // 404s, and myn (Yucatec Maya here) was redirected to Classical Maya (emy)
+    // by the Word Map's old-code table (rally 2026-11-14).
+    const _SEO_CODE = { de_gsw: 'gsw', de_by: 'bar', en_ang: 'ang', myn: 'yua' };
+    const _seoCode = String(_SEO_CODE[lang.code] || lang.code).replace(/[^a-z0-9_]/gi, '');
     const _seoHref = '/' + _seoUi + '/wordmap/' + _seoCode;
     label.innerHTML = `
         <span class="dot"></span>
-        <input type="checkbox" ${isOn ? 'checked' : ''} data-lang="${lang.code}" aria-labelledby="lmn-${_seoCode}">
-        <span id="lmn-${_seoCode}">${langName(lang.code)}</span>${badge}
+        <input type="checkbox" ${isOn ? 'checked' : ''} data-lang="${lang.code}" aria-labelledby="lmn-${lang.code}">
+        <span id="lmn-${lang.code}">${langName(lang.code)}</span>${badge}
         <a class="lang-seo-link" href="${_seoHref}" target="_blank" rel="noopener" title="${edT('bigTextPage')} (${edT('opensNewTab')})" aria-label="${edT('bigTextPage')}: ${langName(lang.code)} (${edT('opensNewTab')})" style="margin:-6px -6px -6px 2px;padding:6px;display:inline-flex;vertical-align:-8px;text-decoration:none;color:#4a6cf7"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg></a>
     `;
     // The SEO link must navigate, not toggle the checkbox: stop the click
@@ -1214,17 +1237,19 @@ function closeLangModal(confirm) {
 
 function modalToggleAll(on) {
     const body = document.getElementById('langModalBody');
-    if (on) {
-        modalPendingLangs = new Set(DEFAULT_ORDER);
-    } else {
-        modalPendingLangs = new Set();
-    }
+    // With a search typed, All ON / All OFF act on the languages it lists:
+    // "German" + All ON switched on all 223 rows (rally 2026-11-14). Only the
+    // listed toggles count, so the 19 rows without sentences stay out too.
+    const box = body.querySelector('.lang-modal-search');
+    const filtered = !!(box && box.value.trim());
     body.querySelectorAll('.lang-toggle').forEach(label => {
         const cb = label.querySelector('input');
         if (!cb) return;
+        if (filtered && label.style.display === 'none') return;
         const code = cb.dataset.lang;
-        cb.checked = modalPendingLangs.has(code);
-        label.classList.toggle('active', modalPendingLangs.has(code));
+        if (on) modalPendingLangs.add(code); else modalPendingLangs.delete(code);
+        cb.checked = on;
+        label.classList.toggle('active', on);
     });
     _modalSyncers.forEach((f) => f());
 }
@@ -1702,12 +1727,12 @@ function render() {
         mEditBtn.addEventListener('click', (e) => { e.stopPropagation(); enterEditMode(row, code); });
         const mCopyBtn = document.createElement('button');
         mCopyBtn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>' + t('copyText');
+        // Same text as the desktop Copy button (question mark included). It
+        // passed the sentence object instead of the row's segments and threw
+        // "langData is not iterable": phones copied nothing (rally 2026-11-14).
         mCopyBtn.addEventListener('click', (e) => {
             e.stopPropagation();
-            const text = buildFullText(sentence, code);
-            _copyText(text).then(() => {
-                showToast(t('copiedText'));
-            });
+            copyBtn.click();
         });
         mobileBar.appendChild(mkMove(-1, ''));
         mobileBar.appendChild(mkMove(1, ''));
@@ -1941,8 +1966,14 @@ async function buildExportSVG() {
     if (!isFinite(contentLeft)) contentLeft = padding;
     // Mirror the left margin on the right so the image has symmetric horizontal padding
     // (user request: "一番広い言語の幅で左右同じマージンになるように").
-    const leftMargin = Math.max(contentLeft, 12);
-    const w = Math.ceil(contentRight + leftMargin);
+    // Arabic/Hebrew interface: the rows run from the right edge, so the margin is
+    // the label's gap to that edge, and the empty strip on the left is cut off
+    // (dx) instead of being kept and mirrored: the images came out ~700px too
+    // wide with the map in the middle (rally 2026-11-14).
+    const rtlBox = getComputedStyle(container).direction === 'rtl';
+    const leftMargin = rtlBox ? Math.max(containerRect.width - contentRight, 12) : Math.max(contentLeft, 12);
+    const dx = rtlBox ? Math.max(0, contentLeft - leftMargin) : 0;
+    const w = Math.ceil(contentRight - dx + leftMargin);
     // For height, also use the deepest rendered element (covers connector curves
     // that extend below the last row's text baseline) plus matching bottom padding.
     let h;
@@ -1987,6 +2018,7 @@ async function buildExportSVG() {
     svgContent = `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">`;
     svgContent += fontStyle;
     svgContent += `<rect width="${w}" height="${h}" fill="white"/>`;
+    if (dx) svgContent += `<g transform="translate(${-dx} 0)">`;
 
     // Copy the SVG lines
     const linesSvg = document.getElementById('linesSvg');
@@ -2014,10 +2046,11 @@ async function buildExportSVG() {
             // Render the lang name text (excluding badge)
             const nameOnly = badge ? label.textContent.replace(badge.textContent, '').trim() : label.textContent;
             const r = label.getBoundingClientRect();
-            const x = r.left - containerRect.left;
+            // RTL: the name sits at the right end of its label box, as on screen.
+            const x = (rtlBox ? r.right : r.left) - containerRect.left;
             const y = r.top - containerRect.top + r.height * 0.75;
             const a = getSvgTextAttrs(label);
-            svgContent += `<text x="${x}" y="${y}" font-family="${a.fontFamily}" font-size="${a.fontSize}" font-weight="${a.fontWeight}" fill="#333">${escapeXml(nameOnly)}</text>`;
+            svgContent += `<text x="${x}" y="${y}" font-family="${a.fontFamily}" font-size="${a.fontSize}" font-weight="${a.fontWeight}" fill="#333"${rtlBox ? ' text-anchor="end"' : ''}>${escapeXml(nameOnly)}</text>`;
             // Render badge as a bordered rounded rect + gray text (matching .lang-label style)
             if (badge) {
                 const br = badge.getBoundingClientRect();
@@ -2073,6 +2106,7 @@ async function buildExportSVG() {
         });
     });
 
+    if (dx) svgContent += `</g>`;
     // Watermark: site URL in the bottom-right corner
     const watermark = 'https://langmaps.com';
     svgContent += `<text x="${w - 12}" y="${h - 12}" font-family="sans-serif" font-size="12" font-weight="500" fill="#999" text-anchor="end">${watermark}</text>`;
@@ -2161,7 +2195,9 @@ function initCSVLangSelect() {
     sel.innerHTML = '';
     let currentGroup = '';
     let optgroup = null;
-    LANGUAGES.forEach(lang => {
+    // Only rows with sentences, as in the language picker: the 19 without
+    // (Kanbun, Quranic Arabic, Tongan …) downloaded a header-only CSV.
+    LANGUAGES.filter(lang => hasLangData(lang.code)).forEach(lang => {
         if (lang.group !== currentGroup) {
             currentGroup = lang.group;
             optgroup = document.createElement('optgroup');
@@ -2205,6 +2241,9 @@ function downloadAsCSV() {
         const enText = s.langs.en ? buildFullText(s.langs.en, 'en') : (s.title || '');
         const row = [idx + 1, csvQuote(enText), csvQuote(fullText)];
         langData.forEach(([segId, segText]) => {
+            // The join mark (GLUE, an invisible U+200C) is for buildFullText,
+            // not a character of the segment (ko "\u200C에서").
+            if (segText.startsWith(GLUE)) segText = segText.slice(1);
             row.push(segId);
             if (segText.includes('|')) {
                 const [text, translit] = segText.split('|');
@@ -2275,6 +2314,7 @@ function downloadViewAsCSV() {
         const fullText = buildFullText(langData, code);
         const row = [csvQuote(langName(code)), csvQuote(fullText)];
         langData.forEach(([segId, segText]) => {
+            if (segText.startsWith(GLUE)) segText = segText.slice(1);   // join mark, not text
             row.push(segId);
             if (segText.includes('|')) {
                 const [text, translit] = segText.split('|');
@@ -2314,9 +2354,7 @@ function getShareText() {
     // sharing handed every reader one of two languages neither of them chose.
     // The sentence itself exists in all 223 rows — quote the reader's own, the
     // way sentenceLabel() already does for the picker.
-    const data = sentence.langs[currentUILang] || sentence.langs.ja;
-    const text = data ? data.map(([, s]) => s).join(' ') : sentence.title;
-    return `LangMap: ${text}`;
+    return `LangMap: ${uiSentenceText(sentence)}`;
 }
 
 // The toast is a live region: set its text on every show (a change is what
@@ -2796,12 +2834,14 @@ function showAddSegmentMenu(anchorBtn, textDiv, langCode, sentence) {
     });
     menu.appendChild(newItem);
 
-    // Position below the button
+    // Position below the button, kept inside the window like the change-type
+    // menu (a + near the right edge of a phone put the menu partly off screen).
     const rect = anchorBtn.getBoundingClientRect();
     menu.style.position = 'fixed';
     menu.style.left = rect.left + 'px';
     menu.style.top = rect.bottom + 4 + 'px';
     document.body.appendChild(menu);
+    menu.style.left = Math.max(4, Math.min(rect.left, window.innerWidth - menu.offsetWidth - 4)) + 'px';
     menuKeyboard(menu, anchorBtn);
 
     // Close on outside click
@@ -3167,6 +3207,9 @@ document.addEventListener('keydown', (e) => {
     // under it left the page inert with an orphan editor).
     if (editingRow || document.querySelector('body > .lang-row.editing')) return;
     if (e.target.tagName === 'SELECT' || e.target.tagName === 'INPUT') return;
+    // The map itself is focusable so the keyboard can scroll it sideways (r14):
+    // while it is wider than its box the arrows scroll it, not change the sentence.
+    if ((e.key === 'ArrowLeft' || e.key === 'ArrowRight') && e.target.classList && e.target.classList.contains('map-wrapper') && e.target.scrollWidth > e.target.clientWidth + 1) return;
     if (document.getElementById('langModalOverlay')?.classList.contains('open')) return;
     // Share dialog / UI-language menu / any header overlay: not behind it.
     if (typeof window.__navOverlayOpen === 'function' && window.__navOverlayOpen()) return;
@@ -3175,8 +3218,11 @@ document.addEventListener('keydown', (e) => {
     // A focused row button is re-rendered away: put focus back on its twin.
     const _row = e.target.closest && e.target.closest('.lang-row[data-lang]');
     const _cls = _row && [...e.target.classList].find(c => c.endsWith('-btn'));
-    if (e.key === 'ArrowLeft') prevSentence();
-    if (e.key === 'ArrowRight') nextSentence();
+    // Arabic/Hebrew interface: the ‹ › buttons are mirrored (Next on the left),
+    // so are the keys; ← went back while pointing at Next (rally 2026-11-14).
+    const _rtl = document.body.dir === 'rtl';
+    if (e.key === (_rtl ? 'ArrowRight' : 'ArrowLeft')) prevSentence();
+    if (e.key === (_rtl ? 'ArrowLeft' : 'ArrowRight')) nextSentence();
     if (e.key === 'r') randomSentence();
     if (_row && _cls && !e.target.isConnected) {
         const b = document.querySelector('.lang-row[data-lang="' + CSS.escape(_row.dataset.lang) + '"] .' + CSS.escape(_cls));

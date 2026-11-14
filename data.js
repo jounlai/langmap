@@ -4057,11 +4057,11 @@ const SENTENCES = [
         ],
         [
           "I",
-          "stua"
+          "stoa"
         ],
         [
           "J",
-          "long het bilong"
+          "long hapsait bilong"
         ],
         [
           "K",
@@ -6447,7 +6447,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "‌in"
+          "in"
         ],
         [
           "G",
@@ -7061,7 +7061,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "try on"
+          "chrai aan"
         ],
         [
           "D",
@@ -7069,7 +7069,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "weh"
+          "we"
         ],
         [
           "F",
@@ -7085,7 +7085,7 @@ const SENTENCES = [
         ],
         [
           "I",
-          "di shop"
+          "di shap"
         ],
         [
           "J",
@@ -11805,11 +11805,11 @@ const SENTENCES = [
       "nci": [
         [
           "A",
-          "no-"
+          "no"
         ],
         [
           "B",
-          "tōcā"
+          "‌tōcā"
         ],
         [
           "D",
@@ -15916,7 +15916,7 @@ const SENTENCES = [
       "tlh": [
         [
           "B",
-          "nIQ tIj"
+          "nIQ"
         ],
         [
           "C",
@@ -15932,7 +15932,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "cha'maH loS rep"
+          "Soch rep"
         ]
       ],
       "jbo": [
@@ -19554,11 +19554,7 @@ const SENTENCES = [
       "pcm": [
         [
           "C",
-          "Wetin"
-        ],
-        [
-          "D",
-          "be"
+          "Where"
         ],
         [
           "A",
@@ -19567,6 +19563,10 @@ const SENTENCES = [
         [
           "B",
           "station"
+        ],
+        [
+          "D",
+          "dey"
         ]
       ],
       "tpi": [
@@ -19579,11 +19579,11 @@ const SENTENCES = [
           "stesen"
         ],
         [
-          "C",
+          "D",
           "i stap"
         ],
         [
-          "D",
+          "C",
           "we"
         ]
       ],
@@ -19909,8 +19909,12 @@ const SENTENCES = [
           "Ki kote"
         ],
         [
+          "B",
+          "estasyon"
+        ],
+        [
           "A",
-          "estasyon ki pi pre a"
+          "ki pi pre a"
         ],
         [
           "D",
@@ -20879,16 +20883,16 @@ const SENTENCES = [
           "We"
         ],
         [
-          "D",
-          "di"
-        ],
-        [
           "A",
-          "niiris"
+          "di niiris"
         ],
         [
           "B",
-          "stieshan deh"
+          "stieshan"
+        ],
+        [
+          "D",
+          "deh"
         ]
       ],
       "pap": [
@@ -21073,15 +21077,19 @@ const SENTENCES = [
       ],
       "gn": [
         [
-          "A",
-          "Mba'éichapa oĩ"
+          "C",
+          "Moõpa"
+        ],
+        [
+          "D",
+          "oĩ"
         ],
         [
           "B",
           "estación"
         ],
         [
-          "C",
+          "A",
           "oĩvéva ko'ápe"
         ]
       ],
@@ -24037,24 +24045,20 @@ const SENTENCES = [
       ],
       "tok": [
         [
-          "A",
-          "‌ni"
-        ],
-        [
           "B",
           "telo pimeja"
         ],
         [
+          "A",
+          "ni"
+        ],
+        [
           "D",
-          "li"
+          "li pona"
         ],
         [
           "C",
           "mute"
-        ],
-        [
-          "D",
-          "pona"
         ]
       ],
       "ht": [
@@ -24429,20 +24433,20 @@ const SENTENCES = [
       ],
       "tlh": [
         [
-          "A",
-          "vay'"
-        ],
-        [
           "B",
           "qa'vIn"
         ],
         [
-          "C",
-          "motlh"
+          "A",
+          "‌vam"
         ],
         [
           "D",
           "'ey"
+        ],
+        [
+          "C",
+          "‌qu'"
         ]
       ],
       "jbo": [
@@ -29418,7 +29422,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ambo'e"
+          "añembo'e"
         ]
       ],
       "iu": [
@@ -41087,11 +41091,11 @@ const SENTENCES = [
           "Japan"
         ],
         [
-          "F",
+          "G",
           "long yia"
         ],
         [
-          "G",
+          "F",
           "bihain"
         ]
       ],
@@ -41604,11 +41608,11 @@ const SENTENCES = [
         ],
         [
           "G",
-          "tenpo suno"
+          "tenpo sike"
         ],
         [
           "F",
-          "pi kama"
+          "kama"
         ]
       ],
       "ht": [
@@ -41633,11 +41637,11 @@ const SENTENCES = [
           "Japon"
         ],
         [
-          "F",
+          "G",
           "ane"
         ],
         [
-          "G",
+          "F",
           "pwochen"
         ]
       ],
@@ -42151,12 +42155,8 @@ const SENTENCES = [
       ],
       "tlh": [
         [
-          "A",
-          "jIH"
-        ],
-        [
           "E",
-          "Japan"
+          "nIpon"
         ],
         [
           "C",
@@ -42167,12 +42167,16 @@ const SENTENCES = [
           "vIneH"
         ],
         [
-          "F",
-          "qaSbogh"
+          "A",
+          "jIH"
         ],
         [
           "G",
           "DIS"
+        ],
+        [
+          "F",
+          "veb"
         ]
       ],
       "jbo": [
@@ -42190,7 +42194,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌la"
+          "la"
         ],
         [
           "E",
@@ -43196,7 +43200,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "waan"
+          "waahn"
         ],
         [
           "C",
@@ -43212,11 +43216,11 @@ const SENTENCES = [
         ],
         [
           "F",
-          "nex"
+          "neks"
         ],
         [
           "G",
-          "year"
+          "yier"
         ]
       ],
       "pap": [
@@ -43537,11 +43541,11 @@ const SENTENCES = [
           "Japón-pe"
         ],
         [
-          "F",
+          "G",
           "ary"
         ],
         [
-          "G",
+          "F",
           "ou vavépe"
         ]
       ],
@@ -43564,7 +43568,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ᒧᑦ"
+          "‌ᒧᑦ"
         ],
         [
           "C",
@@ -46840,7 +46844,7 @@ const SENTENCES = [
       ],
       "eo": [
         [
-          "D",
+          "E",
           "Ĉu"
         ],
         [
@@ -46848,8 +46852,12 @@ const SENTENCES = [
           "vi"
         ],
         [
+          "D",
+          "povas"
+        ],
+        [
           "C",
-          "povas paroli"
+          "paroli"
         ],
         [
           "B",
@@ -46876,12 +46884,16 @@ const SENTENCES = [
       ],
       "ht": [
         [
-          "D",
+          "E",
           "Èske"
         ],
         [
           "A",
           "ou"
+        ],
+        [
+          "D",
+          "ka"
         ],
         [
           "C",
@@ -47236,7 +47248,7 @@ const SENTENCES = [
       ],
       "jbo": [
         [
-          "D",
+          "E",
           "xu"
         ],
         [
@@ -51883,12 +51895,12 @@ const SENTENCES = [
           "esun e"
         ],
         [
-          "D",
-          "‌sin"
-        ],
-        [
           "E",
           "lipu"
+        ],
+        [
+          "D",
+          "sin"
         ],
         [
           "B",
@@ -52391,12 +52403,12 @@ const SENTENCES = [
       ],
       "tlh": [
         [
-          "D",
-          "chu'"
-        ],
-        [
           "E",
           "paq"
+        ],
+        [
+          "D",
+          "chu'"
         ],
         [
           "C",
@@ -53621,12 +53633,12 @@ const SENTENCES = [
           "aranduka joguahakuépe"
         ],
         [
-          "D",
-          "pyahu"
-        ],
-        [
           "E",
           "aranduka"
+        ],
+        [
+          "D",
+          "pyahu"
         ],
         [
           "C",
@@ -56754,11 +56766,15 @@ const SENTENCES = [
         ],
         [
           "A",
-          "lon ni"
+          "lon"
         ],
         [
           "B",
           "ma kasi"
+        ],
+        [
+          "A",
+          "ni"
         ],
         [
           "D",
@@ -57118,7 +57134,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "cherry por"
+          "cherry 'InSong"
         ],
         [
           "D",
@@ -70237,7 +70253,7 @@ const SENTENCES = [
       "eo": [
         [
           "A",
-          "Mia fratino"
+          "Mia pli juna fratino"
         ],
         [
           "D",
@@ -77996,19 +78012,7 @@ const SENTENCES = [
       "qu": [
         [
           "A",
-          "Ñuqa"
-        ],
-        [
-          "B",
-          "kapuwani"
-        ],
-        [
-          "C",
-          "huñunakuy"
-        ],
-        [
-          "D|E",
-          "kimsa pachapi"
+          "Ñuqam"
         ],
         [
           "F",
@@ -78016,7 +78020,19 @@ const SENTENCES = [
         ],
         [
           "G",
-          "chisi"
+          "ch'isipi"
+        ],
+        [
+          "D|E",
+          "kimsa horaspi"
+        ],
+        [
+          "C",
+          "huk huñunakuyta"
+        ],
+        [
+          "B",
+          "kapuwanmi"
         ]
       ],
       "ja_kyo": [
@@ -78528,7 +78544,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "3 klok"
+          "tri kilok"
         ],
         [
           "F",
@@ -79018,7 +79034,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "la 3a"
+          "la tria"
         ],
         [
           "F",
@@ -79026,7 +79042,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "posttagmeze"
+          "‌-posttagmeze"
         ]
       ],
       "tok": [
@@ -79036,7 +79052,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "jo"
+          "jo e"
         ],
         [
           "C",
@@ -79048,7 +79064,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "tenpo nanpa 3"
+          "tenpo nanpa tu wan"
         ],
         [
           "F",
@@ -79078,15 +79094,15 @@ const SENTENCES = [
         ],
         [
           "E",
-          "3 è"
-        ],
-        [
-          "F",
-          "aprè"
+          "twa zè"
         ],
         [
           "G",
-          "midi a"
+          "aprèmidi"
+        ],
+        [
+          "F",
+          "sa a"
         ]
       ],
       "ml": [
@@ -79603,16 +79619,16 @@ const SENTENCES = [
       ],
       "tlh": [
         [
-          "A",
-          "jIH"
-        ],
-        [
           "C",
           "qep"
         ],
         [
           "B",
           "vIghaj"
+        ],
+        [
+          "A",
+          "jIH"
         ],
         [
           "D|E",
@@ -80660,15 +80676,15 @@ const SENTENCES = [
         ],
         [
           "C",
-          "a meeting"
+          "wan miitin"
         ],
         [
           "D",
-          "at"
+          "a"
         ],
         [
           "E",
-          "3"
+          "chrii aklak"
         ],
         [
           "F",
@@ -80676,7 +80692,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "evening"
+          "aafitnuun"
         ]
       ],
       "pap": [
@@ -80999,24 +81015,20 @@ const SENTENCES = [
           "ᐅᕙᖓ"
         ],
         [
-          "C",
-          "ᑲᑎᒪᓂᖅ"
-        ],
-        [
-          "B",
-          "ᐱᔭᕋ"
-        ],
-        [
-          "D|E",
-          "3-ᒥ"
-        ],
-        [
           "F",
           "ᐅᓪᓗᒥ"
         ],
         [
           "G",
           "ᐅᓐᓄᓴᒃᑯᑦ"
+        ],
+        [
+          "D|E",
+          "3−ᒥ"
+        ],
+        [
+          "B|C",
+          "ᑲᑎᒪᓂᖃᕐᓂᐊᖅᑐᖓ"
         ]
       ],
       "ky": [
@@ -84359,12 +84371,12 @@ const SENTENCES = [
       ],
       "tok": [
         [
-          "A",
-          "‌ni"
-        ],
-        [
           "B",
           "poki"
+        ],
+        [
+          "A",
+          "ni"
         ],
         [
           "D",
@@ -84751,16 +84763,20 @@ const SENTENCES = [
       ],
       "tlh": [
         [
-          "A",
-          "vay'"
+          "B",
+          "buq"
         ],
         [
-          "B",
-          "buqjaj"
+          "A",
+          "‌vam"
+        ],
+        [
+          "D",
+          "wagh"
         ],
         [
           "C",
-          "'ugh law'"
+          "‌qu'"
         ]
       ],
       "jbo": [
@@ -89768,7 +89784,7 @@ const SENTENCES = [
           "ᓂᔾᔭᐅᓯᐊᕐᓂᕐᒥᒃ"
         ],
         [
-          "C",
+          "C|D",
           "ᑐᓵᔪᒪᕙᒃᑐᖓ"
         ]
       ],
@@ -101377,12 +101393,12 @@ const SENTENCES = [
           "kama sona e"
         ],
         [
-          "F",
-          "‌sin"
-        ],
-        [
           "C",
           "toki"
+        ],
+        [
+          "F",
+          "sin"
         ]
       ],
       "ht": [
@@ -101813,12 +101829,12 @@ const SENTENCES = [
       ],
       "tlh": [
         [
-          "F",
-          "chu'"
-        ],
-        [
           "C",
           "Hol"
+        ],
+        [
+          "F",
+          "chu'"
         ],
         [
           "D",
@@ -102907,16 +102923,16 @@ const SENTENCES = [
           "Che"
         ],
         [
-          "F",
+          "C",
           "ñe'ẽ"
         ],
         [
-          "C",
+          "F",
           "pyahu"
         ],
         [
           "D",
-          "ambo'e"
+          "añembo'e"
         ],
         [
           "E",
@@ -102937,7 +102953,7 @@ const SENTENCES = [
           "ᐅᖃᐅᓯᕐᒥᒃ"
         ],
         [
-          "D",
+          "D|E",
           "ᐃᓕᑦᑎᔪᒪᔪᖓ"
         ]
       ],
@@ -107128,15 +107144,15 @@ const SENTENCES = [
           "Mba'ekuatia rendápe"
         ],
         [
-          "B",
+          "C",
           "hospital"
         ],
         [
-          "D",
+          "B",
           "ykére"
         ],
         [
-          "C",
+          "D",
           "oĩ"
         ]
       ],
@@ -107146,11 +107162,11 @@ const SENTENCES = [
           "ᐅᖃᓕᒫᒐᕐᓂᐊᕐᕕᒃ"
         ],
         [
-          "B",
+          "C",
           "ᐋᓐᓂᐊᕐᕕᖕᒧᑦ"
         ],
         [
-          "C",
+          "B",
           "ᖃᓂᒌᒃᑐᖅ"
         ],
         [
@@ -113590,7 +113606,7 @@ const SENTENCES = [
           "Taytaymi"
         ],
         [
-          "B",
+          "C",
           "huk"
         ],
         [
@@ -113598,7 +113614,7 @@ const SENTENCES = [
           "hatun"
         ],
         [
-          "D",
+          "B|D",
           "empresapi"
         ],
         [
@@ -114858,16 +114874,16 @@ const SENTENCES = [
       ],
       "tlh": [
         [
-          "F",
-          "tIn"
-        ],
-        [
           "D",
           "yejHaD"
         ],
         [
+          "F",
+          "tIn"
+        ],
+        [
           "B",
-          "Daq"
+          "‌Daq"
         ],
         [
           "E",
@@ -115924,12 +115940,16 @@ const SENTENCES = [
           "Che ru"
         ],
         [
-          "B",
+          "C",
           "peteĩ"
         ],
         [
-          "F",
-          "empresa guasu-pe"
+          "D",
+          "empresa"
+        ],
+        [
+          "B|F",
+          "guasu-pe"
         ],
         [
           "E",
@@ -118904,7 +118924,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "‌in"
+          "in"
         ],
         [
           "E",
@@ -119700,11 +119720,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "Daq"
+          "‌Daq"
         ],
         [
           "C",
-          "Suq"
+          "Quj"
         ],
         [
           "A",
@@ -120138,7 +120158,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "calli"
+          "‌calli"
         ],
         [
           "C",
@@ -120924,7 +120944,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "Ꮧ"
+          "‌Ꮧ"
         ],
         [
           "C",
@@ -127440,12 +127460,8 @@ const SENTENCES = [
       ],
       "qu": [
         [
-          "A",
-          "Atiy"
-        ],
-        [
-          "C",
-          "willayta"
+          "B",
+          "Qam"
         ],
         [
           "F",
@@ -127454,6 +127470,14 @@ const SENTENCES = [
         [
           "E",
           "mikhuna wasita"
+        ],
+        [
+          "C",
+          "willariyta"
+        ],
+        [
+          "A",
+          "atiwaqchu"
         ]
       ],
       "ja_kyo": [
@@ -128216,17 +128240,17 @@ const SENTENCES = [
           "ken toki e"
         ],
         [
-          "F",
-          "pona"
-        ],
-        [
           "E",
           "tomo moku"
+        ],
+        [
+          "F",
+          "pona"
         ]
       ],
       "ht": [
         [
-          "D",
+          "G",
           "Èske"
         ],
         [
@@ -128644,16 +128668,16 @@ const SENTENCES = [
       ],
       "tlh": [
         [
-          "A",
-          "DachuplaH'a'"
+          "E",
+          "Qe'"
         ],
         [
           "F",
           "QaQ"
         ],
         [
-          "E",
-          "Qe'"
+          "A",
+          "DachuplaH'a'"
         ]
       ],
       "jbo": [
@@ -129433,23 +129457,23 @@ const SENTENCES = [
       "jam": [
         [
           "A",
-          "Yuh can"
+          "Yu kuda"
         ],
         [
           "C",
-          "recommend"
+          "rekomend"
         ],
         [
           "D",
-          "a"
+          "wan"
         ],
         [
           "F",
-          "good"
+          "gud"
         ],
         [
           "E",
-          "restaurant"
+          "restorant"
         ]
       ],
       "pap": [
@@ -137579,7 +137603,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "laH"
+          "‌laH"
         ],
         [
           "A",
@@ -140853,7 +140877,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "hamuq killapunchawpi"
+          "hamuq"
+        ],
+        [
+          "D",
+          "killapunchawpi"
         ],
         [
           "C",
@@ -141157,7 +141185,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "neks Mande"
+          "neks"
+        ],
+        [
+          "D",
+          "Mande"
         ]
       ],
       "el_grc": [
@@ -141459,7 +141491,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "venontan lundon"
+          "venontan"
+        ],
+        [
+          "D",
+          "lundon"
         ]
       ],
       "tok": [
@@ -141486,8 +141522,12 @@ const SENTENCES = [
           "se"
         ],
         [
+          "D",
+          "lendi"
+        ],
+        [
           "B",
-          "lendi pwochen"
+          "pwochen"
         ]
       ],
       "ml": [
@@ -141816,8 +141856,12 @@ const SENTENCES = [
       ],
       "tlh": [
         [
+          "D",
+          "DaSjaj"
+        ],
+        [
           "B",
-          "wa'Hu' jaj wa'DIch"
+          "veb"
         ],
         [
           "C",
@@ -142171,7 +142215,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "in huallauh lūnes"
+          "in huallauh"
+        ],
+        [
+          "D",
+          "lūnes"
         ]
       ],
       "myn": [
@@ -142405,7 +142453,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "neks Monde"
+          "neks"
+        ],
+        [
+          "D",
+          "Monde"
         ]
       ],
       "pap": [
@@ -142418,8 +142470,12 @@ const SENTENCES = [
           "ta"
         ],
         [
+          "D",
+          "djáluna"
+        ],
+        [
           "B",
-          "djáluna ku ta bini"
+          "ku ta bini"
         ]
       ],
       "ko_yb": [
@@ -142574,8 +142630,12 @@ const SENTENCES = [
           "Examen"
         ],
         [
+          "D",
+          "lunes"
+        ],
+        [
           "B",
-          "lunes ou jave-pe"
+          "ou jave-pe"
         ],
         [
           "C",
@@ -142588,8 +142648,12 @@ const SENTENCES = [
           "ᖃᐅᔨᓴᕐᓂᖅ"
         ],
         [
+          "D",
+          "ᓇᒡᒐᔾᔭᐅᒥ"
+        ],
+        [
           "B",
-          "ᓇᒡᒐᔾᔭᐅᒥ ᑭᖑᓪᓕᕐᒥ"
+          "ᑭᖑᓪᓕᕐᒥ"
         ],
         [
           "C",
@@ -147261,7 +147325,7 @@ const SENTENCES = [
           "ᓲᓯᒥᒃ"
         ],
         [
-          "C",
+          "C|E",
           "ᓂᕆᔪᒪᔪᖓ"
         ]
       ],
@@ -149762,7 +149826,11 @@ const SENTENCES = [
       "qu": [
         [
           "A",
-          "Hotelpa cuarton"
+          "Hotelpa"
+        ],
+        [
+          "E",
+          "cuarton"
         ],
         [
           "C",
@@ -150094,7 +150162,11 @@ const SENTENCES = [
       "hwc": [
         [
           "A",
-          "Da hotel room"
+          "Da hotel"
+        ],
+        [
+          "E",
+          "room"
         ],
         [
           "B",
@@ -150129,8 +150201,12 @@ const SENTENCES = [
       ],
       "tpi": [
         [
+          "E",
+          "Rum"
+        ],
+        [
           "A",
-          "Rum bilong hotel"
+          "bilong hotel"
         ],
         [
           "B",
@@ -150511,8 +150587,12 @@ const SENTENCES = [
       ],
       "ht": [
         [
+          "E",
+          "Chanm"
+        ],
+        [
           "A",
-          "Chanm otèl la"
+          "otèl la"
         ],
         [
           "B",
@@ -150918,21 +150998,29 @@ const SENTENCES = [
       "tlh": [
         [
           "A",
-          "qach juHqo' pa'"
+          "qach juHqo'"
         ],
         [
-          "C",
-          "motlh"
+          "E",
+          "pa'"
         ],
         [
           "D",
-          "lam"
+          "Say'"
+        ],
+        [
+          "C",
+          "‌qu'"
         ]
       ],
       "jbo": [
         [
           "A",
-          "lo xotli kumfa"
+          "lo xotli"
+        ],
+        [
+          "E",
+          "kumfa"
         ],
         [
           "B",
@@ -151638,7 +151726,11 @@ const SENTENCES = [
       "jam": [
         [
           "A",
-          "Di hotel ruum"
+          "Di hotel"
+        ],
+        [
+          "E",
+          "ruum"
         ],
         [
           "B",
@@ -151655,8 +151747,12 @@ const SENTENCES = [
       ],
       "pap": [
         [
+          "E",
+          "E kamber"
+        ],
+        [
           "A",
-          "E kamber di hotel"
+          "di hotel"
         ],
         [
           "B",
@@ -158338,7 +158434,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "bradda"
+          "big bradda"
         ],
         [
           "B",
@@ -158360,7 +158456,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "broda"
+          "big broda"
         ],
         [
           "B",
@@ -158390,11 +158486,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "las"
+          "long las"
         ],
         [
           "D",
-          "long mun"
+          "mun"
         ]
       ],
       "el_grc": [
@@ -158740,7 +158836,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "frato"
+          "pli aĝa frato"
         ],
         [
           "B",
@@ -158753,24 +158849,24 @@ const SENTENCES = [
       ],
       "tok": [
         [
-          "A",
-          "mi"
-        ],
-        [
           "E",
           "jan sama suli"
+        ],
+        [
+          "A",
+          "mi"
         ],
         [
           "B",
           "li wan"
         ],
         [
-          "C",
-          "lon tenpo pini"
+          "D",
+          "lon tenpo mun"
         ],
         [
-          "D",
-          "mun"
+          "C",
+          "pini"
         ]
       ],
       "ht": [
@@ -158788,11 +158884,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "mwa a"
+          "mwa"
         ],
         [
           "C",
-          "pase"
+          "pase a"
         ]
       ],
       "ml": [
@@ -159174,25 +159270,25 @@ const SENTENCES = [
         ],
         [
           "B",
-          "nay"
-        ],
-        [
-          "C",
-          "vorgh"
+          "Saw"
         ],
         [
           "D",
           "jar"
+        ],
+        [
+          "C",
+          "vorgh"
         ]
       ],
       "jbo": [
         [
-          "A",
-          "be mi"
-        ],
-        [
           "E",
           "lo bruna"
+        ],
+        [
+          "A",
+          "be mi"
         ],
         [
           "B",
@@ -159910,7 +160006,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "laas mont"
+          "laas"
+        ],
+        [
+          "D",
+          "mont"
         ]
       ],
       "pap": [
@@ -163379,12 +163479,12 @@ const SENTENCES = [
       ],
       "tlh": [
         [
-          "A",
-          "law'"
-        ],
-        [
           "B",
           "nuvpu'"
+        ],
+        [
+          "A",
+          "law'"
         ],
         [
           "C",
@@ -167554,11 +167654,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "yon"
+          "yon kado"
         ],
         [
           "C",
-          "kado anivèsè"
+          "anivèsè"
         ]
       ],
       "ml": [
@@ -171929,7 +172029,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌ni"
+          "ni"
         ],
         [
           "C",
@@ -171942,12 +172042,8 @@ const SENTENCES = [
           "Kouchè solèy la"
         ],
         [
-          "A",
-          "isit"
-        ],
-        [
           "D",
-          "‌la"
+          "isit la"
         ],
         [
           "C",
@@ -176766,11 +176862,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "vem"
+          "jIvem"
         ],
         [
           "E",
-          "vInIS"
+          "‌nIS"
         ],
         [
           "A",
@@ -177813,7 +177909,7 @@ const SENTENCES = [
           "ᐅᓪᓛᒃᑯᑦ ᐱᕐᕈᓗᐊᕐᓗᖓ"
         ],
         [
-          "D",
+          "D|E",
           "ᑐᐸᒃᑕᕆᐊᖃᖅᑐᖓ"
         ]
       ],
@@ -181229,8 +181325,16 @@ const SENTENCES = [
       ],
       "ht": [
         [
+          "F",
+          "Èske"
+        ],
+        [
+          "A",
+          "ou"
+        ],
+        [
           "E",
-          "Èske ou konnen"
+          "konnen"
         ],
         [
           "C",
@@ -186314,12 +186418,16 @@ const SENTENCES = [
           "ap li"
         ],
         [
-          "F",
+          "D",
           "yon"
         ],
         [
+          "F",
+          "liv"
+        ],
+        [
           "C",
-          "liv enteresan"
+          "enteresan"
         ],
         [
           "B",
@@ -187610,8 +187718,12 @@ const SENTENCES = [
           "ta lesa"
         ],
         [
+          "D",
+          "un"
+        ],
+        [
           "F",
-          "un buki"
+          "buki"
         ],
         [
           "C",
@@ -191428,11 +191540,11 @@ const SENTENCES = [
         ],
         [
           "E",
-          "yon"
+          "yon wòb"
         ],
         [
           "D",
-          "wòb wouj"
+          "wouj"
         ]
       ],
       "ml": [
@@ -191837,12 +191949,12 @@ const SENTENCES = [
       ],
       "tlh": [
         [
-          "D",
-          "Doq"
-        ],
-        [
           "E",
           "Sut"
+        ],
+        [
+          "D",
+          "Doq"
         ],
         [
           "C",
@@ -196177,12 +196289,12 @@ const SENTENCES = [
           "lon"
         ],
         [
-          "D",
-          "ni"
-        ],
-        [
           "E",
           "tomo moku"
+        ],
+        [
+          "D",
+          "ni"
         ],
         [
           "C",
@@ -205667,7 +205779,7 @@ const SENTENCES = [
         ],
         [
           "F",
-          "vam"
+          "‌vam"
         ]
       ],
       "jbo": [
@@ -221287,7 +221399,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "vetlh"
+          "‌vetlh"
         ],
         [
           "C",
@@ -222330,7 +222442,7 @@ const SENTENCES = [
           "ᑕᐃᒃᓱᒥᙵ"
         ],
         [
-          "C",
+          "C|D",
           "ᑕᑯᔪᒪᔪᖓ"
         ]
       ],
@@ -225172,7 +225284,7 @@ const SENTENCES = [
           "nuqaman"
         ],
         [
-          "F",
+          "F|G",
           "aeropuerto-man"
         ],
         [
@@ -227046,12 +227158,8 @@ const SENTENCES = [
           "māximōpan"
         ],
         [
-          "B",
-          "nēch"
-        ],
-        [
-          "D",
-          "xilhui"
+          "B|D",
+          "xinēchilhui"
         ],
         [
           "E",
@@ -227716,7 +227824,7 @@ const SENTENCES = [
           "ᐅᕙᓐᓄᑦ"
         ],
         [
-          "F",
+          "F|G",
           "ᒥᑦᑕᕐᕕᖕᒧᑦ"
         ],
         [
@@ -231914,7 +232022,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ᐱᓱᒃᑐᒥᒃ ᐱᔪᒪᕙᒃᑐᖅ"
+          "ᐱᓱᒃᑐᒥᒃ"
+        ],
+        [
+          "D",
+          "ᐱᔪᒪᕙᒃᑐᖅ"
         ]
       ],
       "ky": [
@@ -235108,8 +235220,12 @@ const SENTENCES = [
           "rakonte"
         ],
         [
+          "C",
+          "istwa"
+        ],
+        [
           "B",
-          "istwa enteresan"
+          "enteresan"
         ]
       ],
       "ml": [
@@ -235506,12 +235622,12 @@ const SENTENCES = [
       ],
       "tlh": [
         [
-          "B",
-          "Daj"
-        ],
-        [
           "C",
           "lut"
+        ],
+        [
+          "B",
+          "Daj"
         ],
         [
           "D",
@@ -235519,7 +235635,7 @@ const SENTENCES = [
         ],
         [
           "A|E",
-          "SoSna'wI'"
+          "SoSnI'wI'"
         ]
       ],
       "jbo": [
@@ -236496,11 +236612,11 @@ const SENTENCES = [
           "jarýi"
         ],
         [
-          "B",
+          "C",
           "ñemombe'u"
         ],
         [
-          "C",
+          "B",
           "iporãva"
         ],
         [
@@ -245243,7 +245359,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "por"
+          "'InSong"
         ],
         [
           "C|E",
@@ -249321,7 +249437,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "nIS"
+          "‌nIS"
         ],
         [
           "A",
@@ -250166,11 +250282,11 @@ const SENTENCES = [
           "tekoha"
         ],
         [
-          "D",
+          "C",
           "roñangareko"
         ],
         [
-          "C",
+          "D",
           "vaerã"
         ]
       ],
@@ -250184,7 +250300,7 @@ const SENTENCES = [
           "ᐊᕙᑎᒥᒃ"
         ],
         [
-          "D",
+          "C|D",
           "ᓴᐳᒻᒥᔭᕆᐊᖃᖅᑐᒍᑦ"
         ]
       ],
@@ -267620,7 +267736,7 @@ const SENTENCES = [
       "tlh": [
         [
           "B",
-          "chIrgh vam"
+          "chIrghvam"
         ],
         [
           "C",
@@ -268675,7 +268791,7 @@ const SENTENCES = [
           "ᐅᓇᙵᑦ ᑐᒃᓯᐊᕐᕕᖕᒥᑦ"
         ],
         [
-          "C",
+          "C|D|E",
           "ᐊᔾᔨᓕᐅᕈᒪᔪᖓ"
         ]
       ],
@@ -275911,7 +276027,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ambo'e"
+          "añembo'e"
         ]
       ],
       "iu": [
@@ -280914,7 +281030,7 @@ const SENTENCES = [
       "chr": [
         [
           "A",
-          "ᏒᏃᏱ"
+          "ᎾᏍᎩ"
         ],
         [
           "B",
@@ -284522,7 +284638,7 @@ const SENTENCES = [
       "tlh": [
         [
           "B",
-          "paq vam"
+          "paqvam"
         ],
         [
           "D",
@@ -285586,7 +285702,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ᐅᖃᓕᒫᕐᓂᕐᒥᒃ ᐃᓱᓕᑎᕆᔪᒪᔪᖓ"
+          "ᐅᖃᓕᒫᕐᓂᕐᒥᒃ"
+        ],
+        [
+          "E",
+          "ᐃᓱᓕᑎᕆᔪᒪᔪᖓ"
         ]
       ],
       "ky": [
@@ -288963,7 +289083,7 @@ const SENTENCES = [
       "gn": [
         [
           "A",
-          "yvyra-pe"
+          "Yvyra-pe"
         ],
         [
           "B",
@@ -292822,7 +292942,7 @@ const SENTENCES = [
           "ᐅᖄᓚᐅᑎᒐᓂᒃ"
         ],
         [
-          "C",
+          "C|D",
           "ᐃᑯᒻᒪᖅᑎᕆᔭᕆᐊᖃᖅᑐᖓ"
         ]
       ],
@@ -296045,12 +296165,12 @@ const SENTENCES = [
           "pana e"
         ],
         [
-          "C",
-          "pona"
-        ],
-        [
           "D",
           "pana"
+        ],
+        [
+          "C",
+          "pona"
         ],
         [
           "B",
@@ -296469,20 +296589,20 @@ const SENTENCES = [
       ],
       "tlh": [
         [
-          "C",
-          "'IH"
-        ],
-        [
           "D",
           "nob"
         ],
         [
-          "A",
-          "ghaH"
+          "C",
+          "'IH"
         ],
         [
-          "B",
-          "jIH"
+          "B|E",
+          "munob"
+        ],
+        [
+          "A",
+          "ghaH"
         ]
       ],
       "jbo": [
@@ -296923,12 +297043,8 @@ const SENTENCES = [
           "yēhuātl"
         ],
         [
-          "B",
-          "nēch"
-        ],
-        [
-          "E",
-          "ōmacac"
+          "B|E",
+          "ōnēchmacac"
         ],
         [
           "C",
@@ -308584,7 +308700,7 @@ const SENTENCES = [
       ],
       "eo": [
         [
-          "D",
+          "E",
           "Ĉu"
         ],
         [
@@ -308592,8 +308708,12 @@ const SENTENCES = [
           "mi"
         ],
         [
+          "D",
+          "povas"
+        ],
+        [
           "C",
-          "povas sidi"
+          "sidi"
         ],
         [
           "B",
@@ -308620,7 +308740,7 @@ const SENTENCES = [
       ],
       "ht": [
         [
-          "D",
+          "E",
           "Èske"
         ],
         [
@@ -308628,8 +308748,12 @@ const SENTENCES = [
           "mwen"
         ],
         [
+          "D",
+          "ka"
+        ],
+        [
           "C",
-          "ka chita"
+          "chita"
         ],
         [
           "B",
@@ -308975,11 +309099,15 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ba'"
+          "jIba'"
         ],
         [
           "D",
-          "vIlaHa'"
+          "‌laH"
+        ],
+        [
+          "E",
+          "‌'a'"
         ],
         [
           "A",
@@ -308988,7 +309116,7 @@ const SENTENCES = [
       ],
       "jbo": [
         [
-          "D",
+          "E",
           "xu"
         ],
         [
@@ -309363,7 +309491,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "‌in"
+          "in"
         ],
         [
           "B",
@@ -309628,8 +309756,12 @@ const SENTENCES = [
       ],
       "pap": [
         [
+          "A",
+          "Mi"
+        ],
+        [
           "D",
-          "Mi por"
+          "por"
         ],
         [
           "C",
@@ -313237,11 +313369,11 @@ const SENTENCES = [
           "He"
         ],
         [
-          "D",
+          "E",
           "wen"
         ],
         [
-          "E",
+          "D",
           "write"
         ],
         [
@@ -324661,7 +324793,7 @@ const SENTENCES = [
           "ᐅᖃᐅᓯᕆᔭᕐᓂᒃ"
         ],
         [
-          "C",
+          "C|D",
           "ᐱᐅᓯᒋᐊᕈᒪᔪᖓ"
         ]
       ],
@@ -327428,7 +327560,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "sin nasin"
+          "nasin sin"
         ],
         [
           "C",
@@ -327776,7 +327908,7 @@ const SENTENCES = [
       "tlh": [
         [
           "B",
-          "chu' QI"
+          "QI chu'"
         ],
         [
           "D",
@@ -331670,7 +331802,7 @@ const SENTENCES = [
       ],
       "qu": [
         [
-          "A",
+          "A|E",
           "Misiymi"
         ],
         [
@@ -340840,7 +340972,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ghojmoH"
+          "ghoj"
         ],
         [
           "A",
@@ -344387,30 +344519,42 @@ const SENTENCES = [
       ],
       "tok": [
         [
-          "D",
-          "pilin pona"
+          "B",
+          "mi kute e kalama musi"
         ],
         [
           "C",
-          "‌la"
+          "la"
         ],
         [
-          "B",
-          "mi kute e kalama musi"
+          "E",
+          "mi"
+        ],
+        [
+          "D",
+          "pilin pona"
         ]
       ],
       "ht": [
         [
+          "E",
+          "Mwen"
+        ],
+        [
           "D",
-          "Mwen santi m kontan"
+          "santi m kontan"
         ],
         [
           "C",
           "lè"
         ],
         [
+          "E",
+          "mwen"
+        ],
+        [
           "B",
-          "mwen koute"
+          "koute"
         ],
         [
           "A",
@@ -344752,7 +344896,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "net"
+          "‌DI'"
         ],
         [
           "D",
@@ -345533,8 +345677,12 @@ const SENTENCES = [
           "ora"
         ],
         [
+          "E",
+          "mi"
+        ],
+        [
           "B",
-          "mi ta skucha"
+          "ta skucha"
         ],
         [
           "A",
@@ -348604,20 +348752,20 @@ const SENTENCES = [
           "He"
         ],
         [
-          "E",
-          "da test"
-        ],
-        [
-          "B",
-          "results"
+          "C",
+          "wen' stay shock"
         ],
         [
           "D",
           "by"
         ],
         [
-          "C",
-          "wen' stay shock"
+          "E",
+          "da test"
+        ],
+        [
+          "B",
+          "results"
         ]
       ],
       "pcm": [
@@ -350593,7 +350741,7 @@ const SENTENCES = [
       "chr": [
         [
           "A",
-          "ᏒᏃᏱ"
+          "ᎾᏍᎩ"
         ],
         [
           "C",
@@ -353302,12 +353450,12 @@ const SENTENCES = [
           "mi pilin e ni:"
         ],
         [
-          "A",
-          "‌ni"
-        ],
-        [
           "B",
           "nasin"
+        ],
+        [
+          "A",
+          "ni"
         ],
         [
           "C",
@@ -353658,12 +353806,12 @@ const SENTENCES = [
       ],
       "tlh": [
         [
-          "A",
-          "vam"
-        ],
-        [
           "B",
           "nab"
+        ],
+        [
+          "A",
+          "‌vam"
         ],
         [
           "C",
@@ -354325,15 +354473,15 @@ const SENTENCES = [
       "pap": [
         [
           "D",
-          "Mi ta kere"
-        ],
-        [
-          "A",
-          "ku e"
+          "Mi ta kere ku"
         ],
         [
           "B",
-          "plan aki"
+          "e plan"
+        ],
+        [
+          "A",
+          "aki"
         ],
         [
           "C",
@@ -358307,7 +358455,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "mo'"
+          "‌mo'"
         ],
         [
           "B",
@@ -373954,12 +374102,8 @@ const SENTENCES = [
           "in tīcitl"
         ],
         [
-          "B",
-          "nēch"
-        ],
-        [
-          "D",
-          "ōilhui"
+          "B|D",
+          "ōnēchilhui"
         ],
         [
           "C",
@@ -387875,7 +388019,7 @@ const SENTENCES = [
           "ᐊᒥᓱᓂᒃ"
         ],
         [
-          "C",
+          "C|D",
           "ᐃᒥᕆᐊᖃᖅᑐᑎᑦ"
         ]
       ],
@@ -394394,8 +394538,12 @@ const SENTENCES = [
           "app"
         ],
         [
+          "D",
+          "stay"
+        ],
+        [
           "C",
-          "stay real"
+          "real"
         ],
         [
           "D",
@@ -394412,8 +394560,12 @@ const SENTENCES = [
           "app"
         ],
         [
+          "D",
+          "dey"
+        ],
+        [
           "C",
-          "dey very"
+          "very"
         ],
         [
           "D",
@@ -394790,20 +394942,20 @@ const SENTENCES = [
       ],
       "tok": [
         [
-          "A",
-          "‌ni"
-        ],
-        [
           "B",
           "ilo"
         ],
         [
-          "C",
-          "li mute"
+          "A",
+          "ni"
         ],
         [
           "D",
-          "pona"
+          "li pona"
+        ],
+        [
+          "C",
+          "mute"
         ]
       ],
       "ht": [
@@ -395178,20 +395330,20 @@ const SENTENCES = [
       ],
       "tlh": [
         [
-          "A",
-          "vam"
-        ],
-        [
           "B",
           "De'wI' pat"
         ],
         [
-          "C",
-          "motlh"
+          "A",
+          "‌vam"
         ],
         [
           "D",
           "lI'"
+        ],
+        [
+          "C",
+          "‌qu'"
         ]
       ],
       "jbo": [
@@ -395888,8 +396040,12 @@ const SENTENCES = [
           "app aki"
         ],
         [
+          "D",
+          "ta"
+        ],
+        [
           "C",
-          "ta masha"
+          "masha"
         ],
         [
           "D",
@@ -402392,7 +402548,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "‌da"
+          "da"
         ],
         [
           "F",
@@ -402409,11 +402565,11 @@ const SENTENCES = [
           "I"
         ],
         [
-          "B",
+          "C",
           "no"
         ],
         [
-          "C",
+          "B",
           "fit"
         ],
         [
@@ -402882,7 +403038,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "‌la"
+          "la"
         ],
         [
           "G",
@@ -402925,11 +403081,11 @@ const SENTENCES = [
           "Mwen"
         ],
         [
-          "B",
+          "C",
           "pa"
         ],
         [
-          "C",
+          "B",
           "ka"
         ],
         [
@@ -403368,7 +403524,7 @@ const SENTENCES = [
         ],
         [
           "B|C",
-          "laHbe'"
+          "‌laHbe'"
         ]
       ],
       "jbo": [
@@ -404240,11 +404396,11 @@ const SENTENCES = [
         ],
         [
           "B|C",
-          "cyaan"
+          "kyaahn"
         ],
         [
           "D",
-          "find"
+          "fain"
         ],
         [
           "E",
@@ -404256,7 +404412,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "password"
+          "paswod"
         ]
       ],
       "pap": [
@@ -404505,24 +404661,20 @@ const SENTENCES = [
       ],
       "gn": [
         [
-          "C",
-          "Ndai"
-        ],
-        [
-          "D",
-          "juhu'i"
-        ],
-        [
-          "E",
-          "pe"
-        ],
-        [
-          "G",
-          "ñe'ẽ ñemiguáva"
+          "A",
+          "Che"
         ],
         [
           "F",
           "Wi-Fi"
+        ],
+        [
+          "G",
+          "ñe'ẽñemi"
+        ],
+        [
+          "C|D",
+          "ndajuhúi"
         ]
       ],
       "iu": [
@@ -409022,7 +409174,7 @@ const SENTENCES = [
       "chr": [
         [
           "A",
-          "ᏒᏃᏱ"
+          "ᎾᏍᎩ"
         ],
         [
           "B",
@@ -411558,8 +411710,12 @@ const SENTENCES = [
           "li"
         ],
         [
+          "C",
+          "nasin"
+        ],
+        [
           "B",
-          "nasin Nijon"
+          "Nijon"
         ]
       ],
       "ht": [
@@ -411915,7 +412071,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "cherry por legh"
+          "cherry 'InSong legh"
         ]
       ],
       "jbo": [
@@ -420851,24 +421007,24 @@ const SENTENCES = [
           "lon"
         ],
         [
-          "B",
-          "‌ni"
-        ],
-        [
           "C",
           "ma"
+        ],
+        [
+          "B",
+          "ni"
         ],
         [
           "D",
           "lon tenpo seli"
         ],
         [
-          "E",
-          "mute"
-        ],
-        [
           "F",
           "pali musi"
+        ],
+        [
+          "E",
+          "mute"
         ],
         [
           "G",
@@ -421411,24 +421567,24 @@ const SENTENCES = [
       ],
       "tlh": [
         [
-          "B",
-          "naDev"
-        ],
-        [
           "C",
           "Sep"
+        ],
+        [
+          "B",
+          "‌vam"
         ],
         [
           "D",
           "bov tuj"
         ],
         [
-          "E",
-          "law'"
-        ],
-        [
           "F",
           "lopno"
+        ],
+        [
+          "E",
+          "law'"
         ],
         [
           "G",
@@ -421438,11 +421594,11 @@ const SENTENCES = [
       "jbo": [
         [
           "A",
-          "ne"
+          "bu'u"
         ],
         [
           "B",
-          "ti"
+          "le vi"
         ],
         [
           "C",
@@ -421450,7 +421606,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "cu'o crisa"
+          "ca lo crisa"
         ],
         [
           "E",
@@ -422492,15 +422648,15 @@ const SENTENCES = [
         ],
         [
           "C",
-          "country"
+          "konchri"
         ],
         [
           "D",
-          "inna summa"
+          "inna soma"
         ],
         [
           "E",
-          "nuff"
+          "nuf"
         ],
         [
           "F",
@@ -426168,15 +426324,15 @@ const SENTENCES = [
       "tpi": [
         [
           "B",
-          "Lanim"
+          "Lainim"
         ],
         [
           "A",
-          "tokples"
+          "tok ples"
         ],
         [
           "C",
-          "openim"
+          "opim"
         ],
         [
           "D",
@@ -426184,7 +426340,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "doa"
+          "dua"
         ]
       ],
       "el_grc": [
@@ -426546,7 +426702,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "lernado"
+          "‌lernado"
         ],
         [
           "C",
@@ -426575,12 +426731,12 @@ const SENTENCES = [
           "li open e"
         ],
         [
-          "D",
-          "‌sin"
-        ],
-        [
           "E",
           "lupa"
+        ],
+        [
+          "D",
+          "sin"
         ]
       ],
       "ht": [
@@ -427011,12 +427167,12 @@ const SENTENCES = [
           "ghojmeH"
         ],
         [
-          "D",
-          "chu'"
-        ],
-        [
           "E",
           "lojmIt"
+        ],
+        [
+          "D",
+          "chu'"
         ],
         [
           "C",
@@ -427796,23 +427952,23 @@ const SENTENCES = [
       "jam": [
         [
           "B",
-          "Learnin"
+          "Lornin"
         ],
         [
           "A",
-          "language"
+          "langwij"
         ],
         [
           "C",
-          "open"
+          "uopn"
         ],
         [
           "D",
-          "new"
+          "nyuu"
         ],
         [
           "E",
-          "door"
+          "duor"
         ]
       ],
       "pap": [
@@ -427829,12 +427985,12 @@ const SENTENCES = [
           "ta habri"
         ],
         [
-          "D",
-          "nobo"
-        ],
-        [
           "E",
           "porta"
+        ],
+        [
+          "D",
+          "nobo"
         ]
       ],
       "ko_yb": [
@@ -428042,19 +428198,19 @@ const SENTENCES = [
         ],
         [
           "B",
-          "mbo'e"
+          "ñembo'e"
         ],
         [
-          "C",
-          "oipe'a"
+          "E",
+          "okẽ"
         ],
         [
           "D",
           "pyahu"
         ],
         [
-          "E",
-          "okẽ"
+          "C",
+          "oipe'a"
         ]
       ],
       "iu": [
@@ -430514,8 +430670,12 @@ const SENTENCES = [
       ],
       "pcm": [
         [
+          "D",
+          "I"
+        ],
+        [
           "C",
-          "I dey go"
+          "dey go"
         ],
         [
           "B",
@@ -430528,8 +430688,12 @@ const SENTENCES = [
       ],
       "tpi": [
         [
+          "D",
+          "Mi"
+        ],
+        [
           "C",
-          "Mi go"
+          "go"
         ],
         [
           "B",
@@ -430786,8 +430950,12 @@ const SENTENCES = [
       ],
       "eo": [
         [
+          "D",
+          "Mi"
+        ],
+        [
           "C",
-          "Mi iras"
+          "iras"
         ],
         [
           "B",
@@ -430800,8 +430968,12 @@ const SENTENCES = [
       ],
       "tok": [
         [
+          "D",
+          "mi"
+        ],
+        [
           "C",
-          "mi tawa"
+          "tawa"
         ],
         [
           "B",
@@ -430814,8 +430986,12 @@ const SENTENCES = [
       ],
       "ht": [
         [
+          "D",
+          "Mwen"
+        ],
+        [
           "C",
-          "Mwen ale"
+          "ale"
         ],
         [
           "B",
@@ -431138,8 +431314,12 @@ const SENTENCES = [
       ],
       "jbo": [
         [
+          "D",
+          "mi"
+        ],
+        [
           "C",
-          "mi klama"
+          "klama"
         ],
         [
           "B",
@@ -434773,7 +434953,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌da"
+          "da"
         ],
         [
           "E",
@@ -435207,7 +435387,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌la"
+          "la"
         ],
         [
           "E",
@@ -435233,7 +435413,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "‌sin"
+          "sin"
         ],
         [
           "F",
@@ -436473,11 +436653,11 @@ const SENTENCES = [
       "jam": [
         [
           "A",
-          "Please"
+          "Beg yu"
         ],
         [
           "B",
-          "tun right"
+          "ton rait"
         ],
         [
           "C",
@@ -436489,11 +436669,11 @@ const SENTENCES = [
         ],
         [
           "E",
-          "nex"
+          "neks"
         ],
         [
           "F",
-          "junction"
+          "krasruod"
         ]
       ],
       "pap": [
@@ -440892,11 +441072,11 @@ const SENTENCES = [
           "Supermercado"
         ],
         [
-          "B",
+          "C",
           "estación"
         ],
         [
-          "C",
+          "B",
           "kupépe"
         ],
         [
@@ -440910,11 +441090,11 @@ const SENTENCES = [
           "ᓂᐅᕕᕐᕕᒃ ᐊᖏᔪᖅ"
         ],
         [
-          "B",
+          "C",
           "ᓄᓇᓯᐅᑎᓕᕆᕝᕕᖕᒧᑦ"
         ],
         [
-          "C",
+          "B",
           "ᑐᓄᐊᓂ"
         ],
         [
@@ -444192,15 +444372,15 @@ const SENTENCES = [
         ],
         [
           "C",
-          "kama jo"
-        ],
-        [
-          "D",
-          "‌ni"
+          "kama jo e"
         ],
         [
           "E",
           "moku"
+        ],
+        [
+          "D",
+          "ni"
         ]
       ],
       "ht": [
@@ -444217,11 +444397,11 @@ const SENTENCES = [
           "kòmande"
         ],
         [
-          "D",
+          "E",
           "plat"
         ],
         [
-          "E",
+          "D",
           "sa a"
         ]
       ],
@@ -444619,24 +444799,24 @@ const SENTENCES = [
       ],
       "tlh": [
         [
-          "A",
-          "jIH"
+          "E",
+          "nay'"
+        ],
+        [
+          "D",
+          "‌vam"
+        ],
+        [
+          "C",
+          "vIra'"
         ],
         [
           "B",
           "vIneH"
         ],
         [
-          "D",
-          "Dochvam"
-        ],
-        [
-          "E",
-          "nay'"
-        ],
-        [
-          "C",
-          "vIraD"
+          "A",
+          "jIH"
         ]
       ],
       "jbo": [
@@ -445416,11 +445596,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "waan"
+          "waahn"
         ],
         [
           "C",
-          "order"
+          "aada"
         ],
         [
           "D",
@@ -445428,7 +445608,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "food"
+          "dish"
         ]
       ],
       "pap": [
@@ -445445,12 +445625,12 @@ const SENTENCES = [
           "pidi"
         ],
         [
-          "D",
-          "e"
+          "E",
+          "e plato"
         ],
         [
-          "E",
-          "plato aki"
+          "D",
+          "aki"
         ]
       ],
       "ko_yb": [
@@ -445657,20 +445837,20 @@ const SENTENCES = [
           "Che"
         ],
         [
-          "B",
-          "aipota"
-        ],
-        [
-          "C",
-          "ajerure"
-        ],
-        [
           "D",
           "ko"
         ],
         [
           "E",
           "tembi'u"
+        ],
+        [
+          "C",
+          "ajerure"
+        ],
+        [
+          "B",
+          "aipota"
         ]
       ],
       "iu": [
@@ -445692,7 +445872,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ᕈᒪᔪᖓ"
+          "‌ᕈᒪᔪᖓ"
         ]
       ],
       "ky": [
@@ -448532,12 +448712,12 @@ const SENTENCES = [
       ],
       "tok": [
         [
-          "A",
-          "‌ni"
-        ],
-        [
           "B",
           "ijo awen"
+        ],
+        [
+          "A",
+          "ni"
         ],
         [
           "C",
@@ -452734,7 +452914,7 @@ const SENTENCES = [
       "gn": [
         [
           "A",
-          "opaite-gui"
+          "Opaite-gui"
         ],
         [
           "B",

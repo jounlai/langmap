@@ -597,7 +597,7 @@ WORDS.butter = {
     nn: ["smør", "smœr"],
     fo: ["smør", "smøːɹ"],
     sc: ["butirru", "buˈtirru"],
-    la: ["butyrum", "buːˈtyːruː"],  // From Ancient Greek βούτυρον.
+    la: ["butyrum", "buːˈtyːrum"],  // From Ancient Greek βούτυρον.
     el_grc: ["βούτυρον", "bǔːtyːron"],  // βοῦς 'cow' plus τυρός 'cheese'.
     enm: ["buter", "ˈbutərə"],
     ang: ["butere", "ˈbutere"],

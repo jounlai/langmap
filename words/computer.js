@@ -283,7 +283,7 @@ WORDS.computer = {
     "mr": ["कॉम्प्युटर", "kɔmpjuʈəɾ"],
     "mrj": ["компьютер", "kɐmˈpjuter"],
     "mrw": ["kompyuter", "komˈpjutɛr"],
-    "ms": ["komputer", "kɔmˈputə(r)"],
+    "ms": ["komputer", "komˈputər"],
     "mt": ["kompjuter", "kɔmˈpjuːtɛr"],
     "mui": ["komputer", "komˈputər"],
     "my": ["ကွန်ပျူတာ", "kʊ̀ɴpjùtà"],

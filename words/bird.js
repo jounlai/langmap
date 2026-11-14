@@ -392,7 +392,7 @@ WORDS.bird = {
     es_co: ["pájaro", "ˈpaxaɾo"],
     es_cl: ["pájaro", "ˈpahaɾo"],
     es_ar: ["pájaro", "ˈpaxaɾo"],
-    es_cu: ["pájaro", "ˈpaxaɾo"],
+    es_cu: ["pájaro", "ˈpahaɾo"],
     es_pe: ["pájaro", "ˈpaxaɾo"],
     es_an: ["pájaro", "ˈpahaɾo"],
     lad: ["pásharo", "paʃaɾo"],

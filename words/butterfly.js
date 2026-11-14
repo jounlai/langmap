@@ -296,7 +296,7 @@ WORDS.butterfly = {
     cng: ["khɕam tɕhi", "kʰɕam tɕʰi"],
     sw: ["kipepeo", "kipeˈpeo"],  // Noun-class prefix ki- on a reduplicative pepe- stem; WOLD glosses it '< -pepea, fan, flutter'.
     vi: ["bươm bướm", "ɓɨəm˧ ɓɨəm˧˥"],  // Reduplicated, with a tone change between the two halves.
-    id: ["kupu-kupu", "kupukupu"],  // Reduplicated kupu-kupu; WOLD also records the likewise reduplicated rama-rama.
+    id: ["kupu-kupu", "ˌkupuˈkupu"],  // Reduplicated kupu-kupu; WOLD also records the likewise reduplicated rama-rama.
     mg: ["lolo", "ˈlulu"],  // Reduplicated lo-lo. WOLD classes it as clearly borrowed.
     kr: ["fatafatama", "fátáfátámà"],  // WOLD glosses it '[reduplication of fata + -ma]'; the row's orthography does not write tone.
     kek: ["peepem", "peːpem"],  // Reduplicated pee-pem. WOLD cites Sam Juárez et al. (1997).

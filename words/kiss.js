@@ -350,11 +350,11 @@ WORDS.kiss = {
     fr: ["baiser", "bɛze"],  // From Latin bāsiāre.
     it: ["bacio", "ˈbatʃo"],  // From Latin bāsium.
     es: ["beso", "ˈbeso"],  // From Latin bāsium.
-    pt: ["beijo", "ˈbejʒu"],  // From Latin bāsium.
+    pt: ["beijo", "ˈbɐjʒu"],  // From Latin bāsium.
     ru: ["поцелуй", "pətsɨˈɫuj"],  // From целовать, Old East Slavic 'to greet; to kiss', from *cělъ 'whole'.
     ar: ["بوسة", "bawsa"],  // From Classical Persian بوسه bōsa; the formal word is قبلة qubla.
     tr: ["öpücük", "øpyˈdʒyk"],  // From öpüş + -cük; öpmek is 'to kiss'.
-    fa: ["بوسه", "boːˈsa"],
+    fa: ["بوسه", "buːˈse"],
     tl: ["halik", "haˈlik"],  // From Proto-Malayo-Polynesian *hajək 'smell, sniff, kiss'.
     fi: ["suukko", "ˈsuːkːo"],  // From suu 'mouth'.
     hu: ["csók", "tʃoːk"],
@@ -393,7 +393,7 @@ WORDS.kiss = {
     be: ["пацалунак", "patsaˈlunak"],  // From Polish pocałunek.
     cs: ["polibek", "ˈpolɪbɛk"],
     sk: ["bozk", "bɔsk"],
-    sl: ["poljub", "pɔljuːp"],
+    sl: ["poljub", "pɔˈljuːp"],
     bg: ["целувка", "tsɛˈɫufkɐ"],  // From целувам 'to kiss', Proto-Slavic *cělovati 'to greet; to kiss'.
     lt: ["bučinys", "bʊtʃʲɪˈnʲiːs"],
     lv: ["skūpsts", "skuːpsts"],
@@ -402,7 +402,7 @@ WORDS.kiss = {
     se: ["cummá", "ˈtsumːmaː"],
     fy: ["tút", "tyt"],  // From Old Frisian tūte 'nose, snout'.
     fo: ["kossur", "ˈkʰɔsːʊɹ"],
-    la: ["basium", "ˈbaːsiuː"],
+    la: ["basium", "ˈbaːsium"],
     el_grc: ["φίλημα", "pʰílɛːma"],
     enm: ["cos", "kɔs"],
     ang: ["coss", "koss"],

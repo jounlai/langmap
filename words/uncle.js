@@ -409,7 +409,7 @@ WORDS.uncle = {
     et: ["onu", "ˈonu"],  // The brother of either parent (EKSS: ema v. isa vend); lell is a separate word for the father's brother only.
     eu: ["osaba", "os̺aba"],
     eve: ["этэ", "ətə"],  // Wiktionary glosses it 'father's or mother's elder brother': one word for both sides.
-    fa: ["عمو", "ʔaˈmoː"],  // Father's brother; mother's brother is دایی.
+    fa: ["عمو", "ʔæˈmuː"],  // Father's brother; mother's brother is دایی.
     fi: ["setä", "ˈsetæ"],  // Father's brother; mother's brother is eno.
     fr: ["oncle", "ɔ̃kl"],
     frr: ["Oom", "oːm"],

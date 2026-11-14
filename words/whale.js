@@ -466,7 +466,7 @@ WORDS.whale = {
     yo: "other",
     djr: "plain",
     pot: "plain",
-    crk: "plain",
+    crk: "fish",
     cmg: "plain",
     rtm: "plain",
     pmt: "plain",
@@ -537,7 +537,7 @@ WORDS.whale = {
     th: ["ปลาวาฬ", "plaː˧waːn˧"],  // Literally 'whale fish': ปลา 'fish' plus วาฬ 'whale'; วาฬ alone is the more formal, scientific term.
     id: ["paus", "ˈpaus"],  // An old Malay word of unknown origin; in speech it is often ikan paus, with ikan 'fish' in front.
     ms: ["paus", "ˈpaus"],  // An old Malay word of unknown origin; often ikan paus, with ikan 'fish' in front.
-    hi: ["ह्वेल", "ʋeːl"],  // Borrowed from English whale; the Sanskrit-derived तिमि also exists.
+    hi: ["ह्वेल", "ɦʋeːl"],  // Borrowed from English whale; the Sanskrit-derived तिमि also exists.
     bn: ["তিমি", "timi"],  // From Sanskrit timi, a name for a huge sea creature.
     ur: ["وہیل", "ʋeːl"],  // Borrowed from English whale.
     ta: ["திமிங்கிலம்", "t̪imiŋɡilam"],  // From Sanskrit timiṅgila, 'swallower of the timi', a mythical giant fish.
@@ -658,7 +658,7 @@ WORDS.whale = {
     es_cu: ["ballena", "baˈʝena"],  // From Latin ballaena, a form of balaena 'whale', from Greek phálaina.
     es_pe: ["ballena", "baˈʝena"],  // From Latin ballaena, a form of balaena 'whale', from Greek phálaina.
     es_an: ["ballena", "baˈʝena"],  // From Latin ballaena, a form of balaena 'whale', from Greek phálaina.
-    iu: ["ᐊᕐᕕᒃ", "arvik"],  // Inherited from Proto-Inuit *aʁvǝʁ, shared with Greenlandic arfeq.
+    iu: ["ᐊᕐᕕᒃ", "aʁvik"],  // Inherited from Proto-Inuit *aʁvǝʁ, shared with Greenlandic arfeq.
     eo: ["baleno", "baˈleno"],  // Built from the Romance whale words baleine, balena, ballena.
     cbk: ["ballena", "baˈjena"],  // Inherited from Spanish ballena.
     mk: ["кит", "kit"],  // From Greek kêtos 'sea monster'.
@@ -874,7 +874,7 @@ WORDS.whale = {
     ota: ["قیطس", "kiːˈtus"],  // From Greek κῆτος 'sea monster'; it is also the constellation Cetus.
     arc: ["ܬܢܝܢܐ", "tanniːnaː"],  // Also 'dragon, sea monster'; Targum Onkelos uses it for the great whales of Genesis 1:21.
     hbo: ["תנין", "tanˈniːn"],  // A sea monster or dragon; the King James Bible renders the תנינם of Genesis 1:21 as 'great whales'.
-    fa_clas: ["نهنگ", "nihang"],  // From Middle Persian nihang, which meant the crocodile; the word also covered the crocodile and other great water beasts.
+    fa_clas: ["نهنگ", "nihaŋɡ"],  // From Middle Persian nihang, which meant the crocodile; the word also covered the crocodile and other great water beasts.
     osp: ["ballena", "baˈʎena"],  // From Latin ballaena, from Greek φάλλαινα.
     zh_wenyan_edu: ["鯨", "kʰɪŋ˨˩"],  // A word of its own that also meant 'great, huge', in the Cantonese literary reading.
     vi_han: ["鯨", "kiɲ˨˩"],  // Read kình in Sino-Vietnamese, as in cá kình.
@@ -900,7 +900,7 @@ WORDS.whale = {
     yo: ["àbùùbùtán", "àbùùbùtã́"],  // Literally 'scooping out without finishing', hence also 'endlessness'.
     djr: ["wuymirri", "wujmiri"],
     pot: ["mshinmégwé", "mʃinmeɡwe"],
-    crk: ["ᒥᓯ ᐚᐸᒣᐠ", "misi waːpameːk"],
+    crk: ["ᒥᓯ ᐚᐸᒣᐠ", "misi waːpameːk"],  // Literally 'big white-fish': misi- 'big' plus wâpamêk, which Wolvengrey's Plains Cree dictionary glosses 'beluga, porpoise, whale, fish'.
     cmg: ["ᠬᠠᠯᠢᠮᠤ", "qalimu"],  // Traditional spelling from Wiktionary's Mongolian entry; no dated Classical citation opened, so this is the written-standard form, not proof of period. IPA in the row's style, mine.
     rtm: ["tolo", "tolo"],  // wordlist
     pmt: ["paraoa", "paraoa"],  // Tregear PARAOA a whale; no length marks in source

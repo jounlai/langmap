@@ -148,7 +148,7 @@ WORDS.yellow = {
     lb: "ghel",
     mk: "ghel",
     mad: "plain",
-    mak: "plain",
+    mak: "turmeric",
     ms: "plain",
     ml: "turmeric",
     mt: "plain",
@@ -210,7 +210,7 @@ WORDS.yellow = {
     sah: "sari",
     yi: "ghel",
     zza: "ghel",
-    fkv: "plain",
+    fkv: "ghel",
     olo: "plain",
     sma: "plain",
     smj: "plain",
@@ -472,6 +472,26 @@ WORDS.yellow = {
     mni: "plain",
     dtp_kzj: "plain",
     yo: "plain",
+    en_us: "ghel",
+    en_ca: "ghel",
+    en_app: "ghel",
+    en_ph: "ghel",
+    en_au: "ghel",
+    en_nz: "ghel",
+    en_in: "ghel",
+    en_sco: "ghel",
+    en_geordie: "ghel",
+    en_sg: "ghel",
+    en_my: "ghel",
+    en_jam: "ghel",
+    en_ng: "ghel",
+    en_ng2: "ghel",
+    en_ke: "ghel",
+    es_gt: "bitter",
+    es_uy: "bitter",
+    pt_br: "bitter",
+    pt_cv: "bitter",
+    pt_mo: "bitter",
   },
   routes: {
     turmeric: {"color":"#d97706","emoji":"🫚","en":"turmeric","ja":"ウコン","ko":"강황","zh":"姜黄","yue":"黃薑","vi":"nghệ","th":"ขมิ้น","id":"kunyit","hi":"हल्दी","de":"Kurkuma","fr":"le curcuma","it":"la curcuma","es":"la cúrcuma","pt":"a curcuma","ru":"куркума","uk":"куркума","ar":"الكركم","he":"כורכום","sw":"manjano"},
@@ -521,7 +541,7 @@ WORDS.yellow = {
     et: ["kollane", "ˈkolːɑne"],  // From Baltic.
     fo: ["gulur", "ˈkuːlʊɹ"],
     fi: ["keltainen", "ˈkeltɑinen"],  // From Baltic.
-    fr: ["jaune", "ʒon"],  // Origin unknown.
+    fr: ["jaune", "ʒon"],  // From Latin galbinus, itself of unknown origin.
     gl: ["amarelo", "amaˈɾɛlo"],
     ka: ["ყვითელი", "qʼvitʰeli"],
     de: ["gelb", "ɡɛlp"],
@@ -559,7 +579,7 @@ WORDS.yellow = {
     lb: ["giel", "ɡie̯l"],
     mk: ["жолт", "ʒɔɫt"],
     mad: ["koneŋ", "kɔneŋ"],
-    mak: ["kuŋ̃iʔ", "kuɲiʔ"],
+    mak: ["kunyiʼ", "ˈkuɲiʔ"],  // Also 'turmeric': from Proto-Malayo-Polynesian *kunij 'turmeric' (Wiktionary).
     ms: ["kuning", "ˈkuneŋ"],  // Perhaps from a word for turmeric.
     ml: ["മഞ്ഞ", "maɲːa"],  // From മഞ്ഞൾ, 'turmeric'.
     mt: ["isfar", "ˈɪsfar"],
@@ -574,9 +594,9 @@ WORDS.yellow = {
     oc: ["jaune", "ˈʒawne"],
     om: ["kelloo", "kelːoː"],
     os: ["бур", "bur"],
-    ps: ["ژېړ", "ʒeɻ"],
+    ps: ["ژېړ", "ʒeɽ"],
     pl: ["żółty", "ˈʐuwtɨ"],
-    pt: ["amarelo", "amaˈɾɛlu"],  // From Latin amarus 'bitter'.
+    pt: ["amarelo", "ɐmɐˈɾɛlu"],  // From Latin amarus 'bitter'.
     qu: ["qʼillu", "ˈqʼiʎu"],
     rcf: ["zone", "zon"],  // From French.
     ro: ["galben", "ˈɡalben"],
@@ -610,7 +630,7 @@ WORDS.yellow = {
     tk: ["sary", "saˈrɯ"],
     tyv: ["сарыг", "saˈrɯɣ"],
     udm: ["ӵуж", "tʃuʒ"],
-    uk: ["жовтий", "ˈʒɔu̯tɪj"],
+    uk: ["жовтий", "ˈʒɔu̯tei̯"],
     ur: ["پیلا", "piːlaː"],
     ug: ["سېرىق", "seˈriq"],
     uz: ["sariq", "saˈriq"],
@@ -621,7 +641,7 @@ WORDS.yellow = {
     sah: ["араҕас", "araˈɣas"],
     yi: ["געל", "ɡɛl"],
     zza: ["zerd", "zerd"],
-    fkv: ["keltainen", "ˈkeltɑinen"],
+    fkv: ["keltainen", "ˈkeltɑinen"],  // From Baltic, as Finnish keltainen.
     olo: ["keldaine", "ˈkeldaine"],
     sma: ["viskes", "ˈβiskɛs"],
     smj: ["visská", "ˈvisːka"],
@@ -631,10 +651,10 @@ WORDS.yellow = {
     mrj: ["сар", "sɑr"],
     mhr: ["сар", "sar"],
     koi: ["веж", "vʲeʒ"],
-    kpv: ["веж", "vʲeʒ"],
+    kpv: ["виж", "viʒ"],  // Literary Komi separates виж 'yellow' from веж 'green'; the two were once one word (Wiktionary).
     fa: ["زرد", "zæɾd"],  // From Proto-Iranian *zr̥Hdás, from the old root for yellow and green (*ǵʰelh₃-); related to زر 'gold'.
     ku: ["zer", "zɛr"],
-    hyw: ["դեղին", "dɛʁin"],
+    hyw: ["դեղին", "dɛˈʁin"],
     aln: ["verdhë", "vɛɾðə"],  // From Latin viridis 'green'.
     bs: ["žut", "ʒuːt"],
     sr: ["жут", "ʒûːt"],
@@ -671,7 +691,7 @@ WORDS.yellow = {
     zh_sc: ["黄", "xuaŋ˨˩"],
     cdo: ["黄", "uoŋ˥˧"],
     zh_yuan: ["黃", "xuaŋ"],
-    zh_tang: ["黄", "ɦwaŋ"],
+    zh_tang: ["黃", "ɦwaŋ"],
     cjy: ["黄", "xuɒ̃˩"],
     hsn: ["黄", "ɸan˩˧"],
     gan: ["黄", "uɔŋ˦˥"],
@@ -716,8 +736,8 @@ WORDS.yellow = {
     fr_lu: ["jaune", "ʒon"],
     fr_cm: ["jaune", "ʒon"],
     de_lu: ["gelb", "ɡɛlp"],
-    es_bo: ["amarillo", "amaˈɾiʝo"],
-    es_py: ["amarillo", "amaˈɾiʝo"],
+    es_bo: ["amarillo", "amaˈɾiʎo"],
+    es_py: ["amarillo", "amaˈɾiʎo"],
     es_pa: ["amarillo", "amaˈɾiʝo"],
     en_wls: ["yellow", "ˈjɛləʊ"],
     fr_sn: ["jaune", "ʒon"],
@@ -739,15 +759,15 @@ WORDS.yellow = {
     ko_yb: ["노랗다", "noɾatʰa"],
     es_mx: ["amarillo", "amaˈɾiʝo"],
     prs: ["زرد", "zard"],
-    en_aave: ["yellow", "ˈjɛləʊ"],
+    en_aave: ["yellow", "ˈjɛloʊ"],
     de_at: ["gelb", "ɡɛlp"],
-    en_south: ["yellow", "ˈjɛləʊ"],
-    en_ie: ["yellow", "ˈjɛləʊ"],
+    en_south: ["yellow", "ˈjɛloʊ"],
+    en_ie: ["yellow", "ˈjɛloː"],
     en_yk: ["yellow", "ˈjɛləʊ"],
-    en_ck: ["yellow", "ˈjɛləʊ"],
+    en_ck: ["yellow", "ˈjɛlæʊ"],
     en_scouse: ["yellow", "ˈjɛləʊ"],
-    en_brum: ["yellow", "ˈjɛləʊ"],
-    en_manc: ["yellow", "ˈjɛləʊ"],
+    en_brum: ["yellow", "ˈjɛlʌʊ"],
+    en_manc: ["yellow", "ˈjɛlɔʊ"],
     en_wc: ["yellow", "ˈjɛləʊ"],
     en_est: ["yellow", "ˈjeləʊ"],
     fr_qc: ["jaune", "ʒon"],
@@ -883,5 +903,25 @@ WORDS.yellow = {
     mni: ["ꯍꯡꯒꯥꯝꯄꯥꯜ", "haŋɡampal"],
     dtp_kzj: ["osilou", "osilou"],
     yo: ["ofefee", "òféfèé"],
+    en_us: ["yellow", "ˈjɛloʊ"],  // Same word as the parent row; IPA from the row's own cells (window ˈwɪndoʊ, red ɹɛd).
+    en_ca: ["yellow", "ˈjɛloʊ"],  // Same word as the parent row; IPA from the row's own cells (window ˈwɪndoʊ, red ɹɛd).
+    en_app: ["yellow", "ˈjɛloʊ"],  // Same word as the parent row; IPA from the row's own cells (window ˈwɪndoʊ, red ɹɛd).
+    en_ph: ["yellow", "ˈjɛloʊ"],  // Same word as the parent row; IPA from the row's own cells (window ˈwɪndoʊ, red ɹɛd).
+    en_au: ["yellow", "ˈjeləʉ"],  // Same word as the parent row; IPA from the row's own cells (window ˈwɪndəʉ, red ɹed).
+    en_nz: ["yellow", "ˈjelɐʉ"],  // Same word as the parent row; IPA from the row's own cells (window ˈwɪndɐʉ, red ɹed).
+    en_in: ["yellow", "ˈjɛloː"],  // Same word as the parent row; IPA from the row's own cells (window ˈʋɪnɖoː, red rɛɖ).
+    en_sco: ["yellow", "ˈjɛlo"],  // Same word as the parent row; IPA from the row's own cells (window ˈwɪndo, red ɹɛd).
+    en_geordie: ["yellow", "ˈjɛloː"],  // Same word as the parent row; IPA from the row's own cells (window ˈwɪndoː, red ɹɛd).
+    en_sg: ["yellow", "ˈjɛloː"],  // Same word as the parent row; IPA from the row's own cells (window ˈwɪndoː, red ɹɛd).
+    en_my: ["yellow", "ˈjɛloː"],  // Same word as the parent row; IPA from the row's own cells (window ˈwɪndoː, red ɹɛd).
+    en_jam: ["yellow", "ˈjɛloː"],  // Same word as the parent row; IPA from the row's own cells (window ˈwɪndoː, red ɹɛd).
+    en_ng: ["yellow", "ˈjɛloː"],  // Same word as the parent row; IPA from the row's own cells (window ˈwɪndoː, red ɹɛd).
+    en_ng2: ["yellow", "ˈjɛloː"],  // Same word as the parent row; IPA from the row's own cells (window ˈwɪndoː, red ɹɛd).
+    en_ke: ["yellow", "ˈjɛloː"],  // Same word as the parent row; IPA from the row's own cells (window ˈwɪndoː, red ɹɛd).
+    es_gt: ["amarillo", "amaˈɾijo"],  // Same word as the parent row; IPA from the row's own cells (caballo kaˈβajo, ballena baˈjena, gallina ɣajina).
+    es_uy: ["amarillo", "amaˈɾiʒo"],  // Same word as the parent row; IPA from the row's own cells (estrella esˈtɾeʒa, ballena baˈʒena, caballo kaˈβaʒo).
+    pt_br: ["amarelo", "amaˈɾɛlu"],  // Same word as the parent row; IPA from the row's own cells (borboleta boʁboˈletɐ, unreduced pretonic a; Wiktionary Brazil /a.maˈɾɛ.lu/).
+    pt_cv: ["amarelo", "ɐmɐˈɾɛlu"],  // Same word as the parent row; IPA from the row's own cells (estrela ʃˈtɾelɐ, leite ˈlejtɨ: European-type reduction; Wiktionary Portugal /ɐ.mɐˈɾɛ.lu/).
+    pt_mo: ["amarelo", "ɐmɐˈɾɛlu"],  // Same word as the parent row; IPA from the row's own cells (borboleta buɾβuˈletɐ, leite ˈlɐjtɨ: European-type reduction; Wiktionary Portugal /ɐ.mɐˈɾɛ.lu/).
   },
 };

@@ -365,7 +365,7 @@ WORDS.hundred = {
     en_ca: ["hundred", "ˈhʌndɹəd"],
     en_za: ["hundred", "ˈhʌndɹəd"],
     en_in: ["hundred", "ˈhʌnɖrəɖ"],
-    en_ie: ["hundred", "ˈhʌndɹəd"],
+    en_ie: ["hundred", "ˈhʊndɹəd"],
     en_sco: ["hundred", "ˈhʌndɹəd"],
     en_wc: ["hundred", "ˈhʌndɹəd"],
     en_est: ["hundred", "ˈhʌndɹəd"],

@@ -490,6 +490,13 @@ WORDS.tuesday = {
     zh_tj: "count",
     zh_wh: "count",
     zh_xa: "count",
+    en_us: "god",
+    en_ca: "god",
+    en_nz: "god",
+    en_ph: "god",
+    en_ng: "god",
+    pt_cv: "count",
+    pt_mo: "count",
   },
   routes: {
     god: {"color":"#db2777","emoji":"⚔️","en":"a Germanic god's day (Tuesday, Dienstag, tisdag)","ja":"ゲルマンの神の日（Tuesday, Dienstag, tisdag）","ko":"게르만 신의 날 (Tuesday, Dienstag, tisdag)","zh":"日耳曼神之日（Tuesday、Dienstag、tisdag）","yue":"日耳曼神嘅日（Tuesday、Dienstag、tisdag）","vi":"ngày của một vị thần German (Tuesday, Dienstag, tisdag)","th":"วันของเทพเจอร์แมนิก (Tuesday, Dienstag, tisdag)","id":"hari dewa Jermanik (Tuesday, Dienstag, tisdag)","hi":"जर्मनिक देवता का दिन (Tuesday, Dienstag, tisdag)","de":"Tag eines germanischen Gottes (Tuesday, Dienstag, tisdag)","fr":"jour d'un dieu germanique (Tuesday, Dienstag, tisdag)","it":"giorno di un dio germanico (Tuesday, Dienstag, tisdag)","es":"día de un dios germánico (Tuesday, Dienstag, tisdag)","pt":"dia de um deus germânico (Tuesday, Dienstag, tisdag)","ru":"день германского бога (Tuesday, Dienstag, tisdag)","uk":"день германського бога (Tuesday, Dienstag, tisdag)","ar":"يوم إله جرماني (Tuesday, Dienstag, tisdag)","he":"יומו של אל גרמאני (Tuesday, Dienstag, tisdag)","sw":"siku ya mungu wa Kijerumani (Tuesday, Dienstag, tisdag)"},
@@ -506,7 +513,7 @@ WORDS.tuesday = {
     ja: ["火曜日", "kajoːbi"],  // 火曜 'Mars (the planet)' + 日 'day'.
     ko: ["화요일", "hwajoil"],  // Sino-Korean 火曜日, 'Mars' + 'day'.
     vi: ["thứ ba", "tʰɨ˧˥ ɓaː˧"],  // thứ + ba 'three'.
-    th: ["อังคาร", "ʔaŋ˧kʰaːn˧"],  // Borrowed from Sanskrit aṅgāra 'charcoal'; also 'Mars'.
+    th: ["วันอังคาร", "wan˧ʔaŋ˧kʰaːn˧"],  // วัน 'day' + อังคาร, borrowed from Sanskrit aṅgāra 'charcoal'; อังคาร alone is also the planet Mars.
     id: ["Selasa", "səˈlasa"],  // From Arabic al-ṯalāṯāʔ 'the third'.
     ms: ["Selasa", "səˈlasa"],
     hi: ["मंगलवार", "məŋɡəlʋɑːɾ"],  // Sanskrit maṅgala, the planet Mars, + vāra 'day'.
@@ -514,7 +521,7 @@ WORDS.tuesday = {
     bn: ["মঙ্গলবার", "moŋɡolbaɾ"],
     ta: ["செவ்வாய்", "tʃɛʋːɑːj"],  // செவ் 'red' + வாய், 'the red one', the planet Mars.
     en: ["Tuesday", "ˈtjuːzdeɪ"],  // From Old English tīwesdæġ, 'Tiw's day'.
-    de: ["Dienstag", "ˈdiːnsˌtax"],  // Probably from 'day of Thingsus', a Germanic god identified with Mars.
+    de: ["Dienstag", "ˈdiːnstaːk"],  // Probably from 'day of Thingsus', a Germanic god identified with Mars.
     fr: ["mardi", "maʁdi"],  // From Latin Mārtis diēs, 'day of Mars'.
     it: ["martedì", "marteˈdi"],  // From Latin Martis diēs, 'day of Mars'.
     es: ["martes", "ˈmaɾtes"],  // From Latin Mārtis diēs, 'day of Mars'.
@@ -590,23 +597,23 @@ WORDS.tuesday = {
     co: ["marti", "ˈmarti"],
     lij: ["martedì", "marteˈdi"],
     egl: ["martedé", "marteˈde"],
-    ca: ["dimarts", "diˈmals"],
+    ca: ["dimarts", "diˈmars"],
     gl: ["martes", "ˈmaɾtes"],
     oc: ["dimars", "diˈmars"],
     be: ["аўторак", "au̯ˈtorak"],
     cs: ["úterý", "ˈuːtɛriː"],
-    sk: ["utorok", "utɔrɔk"],
-    sl: ["torek", "tɔːrək"],
+    sk: ["utorok", "ˈutɔrɔk"],
+    sl: ["torek", "ˈtɔːrək"],
     bg: ["вторник", "ˈftɔrnik"],
-    lv: ["otrdiena", "uɔdrdiɛna"],
+    lv: ["otrdiena", "ˈuɔtrdiɛna"],
     sq: ["martë", "ˈmaɾtə"],
     et: ["teisipäev", "ˈteisiˌbæev"],
     ht: ["madi", "madi"],
     pap: ["djamars", "djamars"],
     tpi: ["Tunde", "tunde"],  // From English Tuesday, or two + day; Wiktionary gives both.
     se: ["disdat", "ˈtisːtaht"],
-    sma: ["dæjsta", "tæjsta"],
-    smn: ["majebargâ", "mɑjebɑrɡɐ"],
+    sma: ["dæjsta", "ˈtæjsta"],
+    smn: ["majebargâ", "ˈmɑjebɑrɡɐ"],
     sjd: ["ныммьпоаррк", "nɨmʲːpʲɒrːk"],
     yrl: ["murakimukũi", "muraˌkimuˈkũj"],
     as: ["মঙলবাৰ", "mɔŋɔlbɑɹ"],
@@ -619,7 +626,7 @@ WORDS.tuesday = {
     aii: ["ܬܠܬܒܫܒܐ", "tˤlaːˈθoːʃeːba"],
     nci: ["ic eyilhuitl semana", "ikeːˈjiɬwitɬ ʃiˈmaːnaʔ"],
     eo: ["mardo", "ˈmardo"],
-    vo: ["tudel", "tudel"],
+    vo: ["tudel", "tuˈdel"],
     ia: ["martedi", "marteˈdi"],
     sat: ["ᱵᱟᱞᱮ ᱢᱟᱦᱟᱸ", "bale mahã"],
     hil: ["Martes", "ˈmaɾtes"],
@@ -655,7 +662,7 @@ WORDS.tuesday = {
     udm: ["пуксён", "pukˈɕon"],
     mhr: ["кушкыжмо", "ˈkuʃkəʒmo"],
     mrj: ["кышкыжмы", "kəʃkəʒmə"],
-    olo: ["toinargi", "toinarɡi"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    olo: ["toinargi", "ˈtoinarɡi"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     vep: ["tožnarg", "toʒnarɡ"],
     vot: ["tõinpäive", "ˈtɤimˌpæivæ"],
     liv: ["tūoiznapǟva", "ˈtuːoiznɑˌpæːvɑ"],
@@ -669,7 +676,7 @@ WORDS.tuesday = {
     dsb: ["wałtora", "ˈwawtɔra"],
     gv: ["Mayrt", "maːrt"],
     bjn: ["Salasa", "salasa"],
-    mns: ["вто̄рник", "wtoːrnik"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    mns: ["вто̄рник", "ˈwtoːrnik"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     tsg: ["Salasa", "salasa"],
     hr: ["utorak", "ǔːtorak"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     tzm: ["ⴰⵔⴰⵎ", "aram"],
@@ -687,7 +694,7 @@ WORDS.tuesday = {
     bbl: ["შინა", "ʃinaː"],
     pot: ["nishgizhêk", "niʃkiʃʊk"],
     io: ["mardio", "ˈmardi̯o"],
-    fkv: ["tiistai", "tiːstɑi"],  // Borrowed from Old Swedish tisdagher (as Finnish tiistai).
+    fkv: ["tiistai", "ˈtiːstɑi"],  // Borrowed from Old Swedish tisdagher (as Finnish tiistai).
     pt_br: ["terça-feira", "teʁsɐˈfejɾɐ"],
     zh: ["星期二", "ɕiŋ˥ tɕʰi˥ ɚ˥˩"],  // 星期 'week' + 二 'two'.
     zh_tw: ["星期二", "ɕiŋ˥ tɕʰi˧˥ ɚ˥˩"],  // 星期 'week' + 二 'two'.
@@ -698,23 +705,23 @@ WORDS.tuesday = {
     es_sv: ["martes", "ˈmaɾtes"],
     fr_lu: ["mardi", "maʁdi"],
     fr_cm: ["mardi", "maʁdi"],
-    de_lu: ["Dienstag", "ˈdiːnsˌtax"],
+    de_lu: ["Dienstag", "ˈdiːnstaːk"],
     en_ng2: ["Tuesday", "ˈtjuːzdeɪ"],
     es_bo: ["martes", "ˈmaɾtes"],
     es_py: ["martes", "ˈmaɾtes"],
-    es_pa: ["martes", "ˈmaɾtes"],
+    es_pa: ["martes", "ˈmaɾteh"],
     en_my: ["Tuesday", "ˈtjuːzdeɪ"],
-    en_wls: ["Tuesday", "ˈtjuːzdeɪ"],
-    en_jam: ["Tuesday", "ˈtjuːzdeɪ"],
-    en_ke: ["Tuesday", "ˈtjuːzdeɪ"],
+    en_wls: ["Tuesday", "ˈtɪʊzdeɪ"],
+    en_jam: ["Tuesday", "ˈtjuːzdeː"],
+    en_ke: ["Tuesday", "ˈtjuːzdeː"],
     fr_sn: ["mardi", "maʁdi"],
     fr_ci: ["mardi", "maʁdi"],
     fr_ht: ["mardi", "maʁdi"],
-    pt_mz: ["terça-feira", "teɾsɐˈfɐjɾɐ"],
+    pt_mz: ["terça-feira", "teɾsɐˈfejɾɐ"],
     nl_be: ["dinsdag", "ˈdɪnsdɑx"],
-    en_za: ["Tuesday", "ˈtjʉːzdeɪ"],
-    de_ch: ["Dienstag", "ˈdiːnsˌtax"],
-    pt_ao: ["terça-feira", "teɾsɐˈfɐjɾɐ"],
+    en_za: ["Tuesday", "ˈtjʉːzdeː"],
+    de_ch: ["Dienstag", "ˈdiːnstaːk"],
+    pt_ao: ["terça-feira", "teɾsɐˈfejɾɐ"],
     ca_va: ["dimarts", "diˈmals"],
     ja_osa: ["火曜日", "kajoːbi"],
     ja_aom: ["火曜日", "kajoːbi"],
@@ -725,43 +732,43 @@ WORDS.tuesday = {
     ko_bus: ["화요일", "hwajoil"],
     ko_yb: ["화요일", "hwajoil"],
     es_mx: ["martes", "ˈmaɾtes"],
-    en_aave: ["Tuesday", "ˈtjuːzdeɪ"],
+    en_aave: ["Tuesday", "ˈtuːzdeɪ"],
     en_au: ["Tuesday", "ˈtjʉːzdæɪ"],
-    de_at: ["Dienstag", "ˈdiːnsˌtax"],
+    de_at: ["Dienstag", "ˈdiːnstaːk"],
     smj: ["disdat", "ˈtisːtaht"],
-    en_south: ["Tuesday", "ˈtjuːzdeɪ"],
-    en_app: ["Tuesday", "ˈtjuːzdeɪ"],
-    en_in: ["Tuesday", "ˈʈjuːzɖeɪ"],
-    en_ie: ["Tuesday", "ˈtjuːzdeɪ"],
-    en_sco: ["Tuesday", "ˈtjuːzdeɪ"],
-    en_yk: ["Tuesday", "ˈtjuːzdeɪ"],
-    en_ck: ["Tuesday", "ˈtjuːzdeɪ"],
+    en_south: ["Tuesday", "ˈtuːzdæɪ"],
+    en_app: ["Tuesday", "ˈtuːzdeɪ"],
+    en_in: ["Tuesday", "ˈʈjuːzɖeː"],
+    en_ie: ["Tuesday", "ˈtjuːzdeː"],
+    en_sco: ["Tuesday", "ˈtjuːzde"],
+    en_yk: ["Tuesday", "ˈtjuːzdeː"],
+    en_ck: ["Tuesday", "ˈtjuːzdæɪ"],
     en_scouse: ["Tuesday", "ˈtjuːzdeɪ"],
-    en_geordie: ["Tuesday", "ˈtjuːzdeɪ"],
+    en_geordie: ["Tuesday", "ˈtjuːzdə"],
     en_brum: ["Tuesday", "ˈtjuːzdʌɪ"],
     en_manc: ["Tuesday", "ˈtjuːzdeɪ"],
     en_wc: ["Tuesday", "ˈtjuːzdeɪ"],
     en_est: ["Tuesday", "ˈtjuːzdɛɪ"],
-    en_sg: ["Tuesday", "ˈtjuːzdeɪ"],
+    en_sg: ["Tuesday", "ˈtjuːzdeː"],
     fr_qc: ["mardi", "maʁdi"],
     fr_af: ["mardi", "maʁdi"],
     fr_be: ["mardi", "maʁdi"],
     fr_ch: ["mardi", "maʁdi"],
     es_co: ["martes", "ˈmaɾtes"],
-    es_cl: ["martes", "ˈmaɾtes"],
+    es_cl: ["martes", "ˈmaɾteh"],
     es_ar: ["martes", "ˈmaɾtes"],
-    es_cu: ["martes", "ˈmaɾtes"],
+    es_cu: ["martes", "ˈmaɾteh"],
     es_pe: ["martes", "ˈmaɾtes"],
-    es_an: ["martes", "ˈmaɾtes"],
+    es_an: ["martes", "ˈmaɾteh"],
     ko_hg: ["화요일", "hwajoil"],
     ko_jl: ["화요일", "hwajoil"],
     lij_t: ["martedì", "marteˈdi"],
-    es_pr: ["martes", "ˈmaɾtes"],
-    es_do: ["martes", "ˈmaɾtes"],
+    es_pr: ["martes", "ˈmaɾteh"],
+    es_do: ["martes", "ˈmaɾte"],
     es_gt: ["martes", "ˈmaɾtes"],
     es_ec: ["martes", "ˈmaɾtes"],
     es_uy: ["martes", "ˈmaɾtes"],
-    es_ve: ["martes", "ˈmaɾtes"],
+    es_ve: ["martes", "ˈmaɾteh"],
     ar_qur: ["الثلاثاء", "aθθulaːθaːʔ"],  // The third day.
     prg: ["wissaseydis", "ˈwisaseidis"],
     non: ["týsdagr", "ˈtyːsdɑɣr"],  // Týr's day, a calque of West Germanic *Tīwas dag.
@@ -919,5 +926,12 @@ WORDS.tuesday = {
     zh_tj: ["星期二", "ɕiŋ˨˩ tɕʰi˨˩ ər˥˧"],  // 星期 'week' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
     zh_wh: ["星期二", "ɕin˥˥ tɕʰi˥˥ ɯ˧˥"],  // 星期 'week' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
     zh_xa: ["星期二", "ɕiŋ˨˩ tɕʰi˨˩ əɻ˥˥"],  // 星期 'week' + 二 'two', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    en_us: ["Tuesday", "ˈtuzdeɪ"],  // Same word as the parent row; IPA from the row's own cells (new nu, Monday ˈmʌndeɪ).
+    en_ca: ["Tuesday", "ˈtjuːzdeɪ"],  // Same word as the parent row; IPA from the row's own cells (new njuː, Monday ˈmʌndeɪ).
+    en_nz: ["Tuesday", "ˈtjʉːzdæe"],  // Same word as the parent row; IPA from the row's own cells (new njʉː, Monday ˈmɐndæe).
+    en_ph: ["Tuesday", "ˈtjuzdeɪ"],  // Same word as the parent row; IPA from the row's own cells (new nju, Monday ˈmʌndeɪ).
+    en_ng: ["Tuesday", "ˈtjuːzdeː"],  // Same word as the parent row; IPA from the row's own cells (new njuː, Monday ˈmɔndeː).
+    pt_cv: ["terça-feira", "teɾsɐˈfɐjɾɐ"],  // Same word as the parent row; IPA from the row's own cells (Monday segunda-feira sɨɡũdɐˈfɐjɾɐ).
+    pt_mo: ["terça-feira", "teɾsɐˈfɐjɾɐ"],  // Same word as the parent row; IPA from the row's own cells (Monday segunda-feira sɨɡũdɐˈfɐjɾɐ).
   },
 };

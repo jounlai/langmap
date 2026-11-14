@@ -245,7 +245,7 @@ WORDS.earth = {
     ar: ["تراب", "turaːb"],
     ar_eg: ["تراب", "turaːb"],
     ar_lev: ["تراب", "traːb"],
-    ar_gulf: ["تراب", "tʰraːb"],
+    ar_gulf: ["تراب", "traːb"],
     ar_iq: ["تراب", "traːb"],
     ar_ma: ["تراب", "tˤrab"],
     ar_tn: ["تراب", "traːb"],

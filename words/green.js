@@ -317,7 +317,7 @@ WORDS.green = {
     km: ["បៃតង", "ɓajˈtɑːŋ"],
     kmh: ["kmab", "kmab"],
     kn: ["ಹಸಿರು", "hasiru"],
-    ko_em: ["푸르다", "puɾɯda"],
+    ko_em: ["푸르다", "pʰuɾɯda"],
     ko_mid: ["프르다", "pʰɨɾɨta"],
     koi: ["веж", "veʒ"],
     kok: ["पाचवो", "paːtʃʋo"],

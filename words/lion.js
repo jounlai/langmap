@@ -481,7 +481,7 @@ WORDS.lion = {
     et: ["lõvi", "ˈlɤvi"],  // Route by resemblance to the neighbouring forms (liv(louv) lv(lauva) vep(lev)); no etymology of its own.
     ett: ["leu", "leu"],  // From Latin leo or Greek leon, directly or through a later language.
     eu: ["lehoi", "lehoi̯"],  // From Latin leo or Greek leon, directly or through a later language.
-    fa: ["شیر", "ˈʃeːr"],  // From Persian šēr.
+    fa: ["شیر", "ʃiːɾ"],  // From Persian šēr.
     fi: ["leijona", "ˈlei̯jonɑ"],  // From Latin leo or Greek leon, directly or through a later language.
     fr: ["lion", "ljɔ̃"],  // From Latin leo or Greek leon, directly or through a later language.
     fy: ["liuw", "ljyu̯"],  // From Latin leo or Greek leon, directly or through a later language.

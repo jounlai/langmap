@@ -323,7 +323,7 @@ WORDS.thousand = {
     mnc: "plain",
     aii: "alf",
     khb: "plain",
-    vo: "plain",
+    vo: "mille",
     got: "strong",
     dng: "qian",
     oj: "tenhund",
@@ -449,6 +449,26 @@ WORDS.thousand = {
     sc: "mille",
     ksw: "plain",
     mnw: "plain",
+    en_us: "strong",
+    en_ca: "strong",
+    en_aave: "strong",
+    en_app: "strong",
+    en_au: "strong",
+    en_nz: "strong",
+    en_ck: "strong",
+    en_geordie: "strong",
+    en_sco: "strong",
+    en_in: "strong",
+    en_ke: "strong",
+    en_jam: "strong",
+    en_ng2: "strong",
+    en_my: "strong",
+    en_sg: "strong",
+    en_ph: "strong",
+    de_at: "strong",
+    de_ch: "strong",
+    pt_cv: "mille",
+    pt_mo: "mille",
   },
   routes: {
     strong: {"color":"#2563eb","emoji":"🔢","en":"the Germanic and Slavic thousand","ja":"ゲルマン語とスラヴ語の「千」","ko":"게르만어와 슬라브어의 ‘천’","zh":"日耳曼语和斯拉夫语的“千”","yue":"日耳曼語同斯拉夫語嘅「千」","vi":"“nghìn” của các tiếng German và Slav","th":"คำว่า “พัน” ของภาษาเจอร์แมนิกและสลาฟ","id":"kata “ribu” rumpun Jermanik dan Slavia","hi":"जर्मनिक और स्लाव भाषाओं का ‘हज़ार’","de":"das germanische und slawische Tausend","fr":"le « mille » germanique et slave","it":"il “mille” germanico e slavo","es":"el «mil» germánico y eslavo","pt":"o «mil» germânico e eslavo","ru":"«тысяча» германских и славянских языков","uk":"«тисяча» германських і слов’янських мов","ar":"«الألف» في الجرمانية والسلافية","he":"„אלף” הגרמאני והסלאבי","sw":"“elfu” ya lugha za Kijerumani na Kislavu"},
@@ -500,7 +520,7 @@ WORDS.thousand = {
     olo: ["tuhat", "ˈtuhat"],
     vep: ["tuha", "tuha"],
     et: ["tuhat", "ˈtuhɑt"],  // From Baltic.
-    liv: ["tū’ontõ", "tuːˀontə"],  // No opened source supports the route.
+    liv: ["tū’ontõ", "ˈtuːˀontə"],  // No opened source supports the route.
     sma: ["tåvsene", "ˈtʰɔβsɛnɛ"],  // No opened source supports the route.
     smj: ["tuvsán", "ˈtʊvsan"],  // No opened source supports the route.
     se: ["duhát", "ˈtuhaːh"],
@@ -519,11 +539,11 @@ WORDS.thousand = {
     mns: ["со̄ты̄р", "ˈsoːtɪːr"],  // From Indo-Iranian.
     hi: ["हज़ार", "həzaːɾ"],
     ur: ["ہزار", "həzaːɾ"],
-    ps: ["زر", "zer"],  // A cognate of Persian hazār.
+    ps: ["زر", "zər"],  // A cognate of Persian hazār.
     fa: ["هزار", "hæˈzɒːɾ"],
-    ku: ["hezar", "hɛzar"],
+    ku: ["hezar", "hɛˈzar"],
     os: ["мин", "min"],
-    hyw: ["հազար", "hɑzɑɾ"],
+    hyw: ["հազար", "hɑˈzɑɾ"],
     el: ["χίλιοι", "ˈçiʎi"],
     aln: ["mijë", "mijə"],
     sr: ["хиљада", "xǐʎada"],
@@ -532,7 +552,7 @@ WORDS.thousand = {
     sl: ["tisoč", "ˈtiːsɔtʃ"],
     sk: ["tisíc", "ˈtisiːts"],
     pl: ["tysiąc", "ˈtɨɕɔnts"],
-    uk: ["тисяча", "ˈtɪsʲatʃa"],
+    uk: ["тисяча", "ˈtɪsʲɐtʃɐ"],
     ru: ["тысяча", "ˈtɨsʲɪtɕə"],
     lt: ["tūkstantis", "ˈtuːkstantʲɪs"],
     lv: ["tūkstoš", "ˈtuːkstuɔʃ"],
@@ -550,7 +570,7 @@ WORDS.thousand = {
     es: ["mil", "mil"],
     pt: ["mil", "miɫ"],
     it: ["mille", "ˈmille"],
-    ro: ["mie", "mje"],
+    ro: ["mie", "ˈmie"],
     tr: ["bin", "bin"],
     uz: ["ming", "miŋ"],
     kk: ["мың", "məŋ"],
@@ -666,7 +686,7 @@ WORDS.thousand = {
     fr_ci: ["mille", "mil"],
     fr_ht: ["mille", "mil"],
     pt_mz: ["mil", "mil"],
-    en_za: ["thousand", "ˈθɑʊzənd"],
+    en_za: ["thousand", "ˈθaʊzənd"],
     pt_ao: ["mil", "mil"],
     ca_va: ["mil", "mil"],
     ja_osa: ["千", "seɴ"],
@@ -680,14 +700,14 @@ WORDS.thousand = {
     es_mx: ["mil", "mil"],
     pt_br: ["mil", "miw"],
     prs: ["هزار", "haˈzɑːr"],
-    en_south: ["thousand", "ˈθaʊzənd"],
+    en_south: ["thousand", "ˈθæʊzənd"],
     en_ie: ["thousand", "ˈθaʊzənd"],
     en_yk: ["thousand", "ˈθaʊzənd"],
     en_scouse: ["thousand", "ˈθaʊzənd"],
-    en_brum: ["thousand", "ˈθɔʊzənd"],
+    en_brum: ["thousand", "ˈθæʊzənd"],
     en_manc: ["thousand", "ˈθaʊzənd"],
     en_wc: ["thousand", "ˈθaʊzənd"],
-    en_est: ["thousand", "ˈθɑʊzənd"],
+    en_est: ["thousand", "ˈθæʊzənd"],
     fr_qc: ["mille", "mil"],
     fr_af: ["mille", "mil"],
     fr_be: ["mille", "mil"],
@@ -713,7 +733,7 @@ WORDS.thousand = {
     mnc: ["ᠮᡳᠩᡤᠠᠨ", "miŋɡan"],  // From Jurchen mingan, with cognates across Tungusic.
     aii: ["ܐܲܠܦܵܐ", "ʔalpa"],  // A cognate of Arabic alf, from Aramaic ʾalpā.
     khb: ["ᦗᧃ", "pan˥˩"],  // Cognate with Thai พัน and Lao ພັນ.
-    vo: ["mil", "mil"],  // No origin is recorded on the entry, so it counts as a word of its own.
+    vo: ["mil", "mil"],  // Route by resemblance to the neighbouring forms (eo(mil), io(mil)); no etymology of its own.
     got: ["𐌸𐌿𐍃𐌿𐌽𐌳𐌹", "ˈθuːsundi"],  // Inherited from Proto-Germanic *þūsundī.
     dng: ["чян", "tɕʰiæ̃˨˦"],  // Cognate with Mandarin 千 qiān.
     oj: ["midaaswaak", "midaːswaːk"],  // Ten hundreds: midaasw- 'ten' with the hundred ending -aakw- of ingodwaak.
@@ -839,5 +859,25 @@ WORDS.thousand = {
     sc: ["mille", "ˈmille"],
     ksw: ["မၢ", "mo̰"],
     mnw: ["လ္ၚီ", "ŋi̤m"],
+    en_us: ["thousand", "ˈθaʊzənd"],  // Same word as the parent row; IPA from the row's own cells (three θɹi, house haʊs, hundred ˈhʌndɹəd).
+    en_ca: ["thousand", "ˈθaʊzənd"],  // Same word as the parent row; IPA from the row's own cells (three θɹi, hundred ˈhʌndɹəd; house hʌʊs is raised only before voiceless s, and thousand has z).
+    en_aave: ["thousand", "ˈθaʊzənd"],  // Same word as the parent row; IPA from the row's own cells (thanks θæŋks, house haʊs, husband ˈhʌzbənd).
+    en_app: ["thousand", "ˈθaːʊzənd"],  // Same word as the parent row; IPA from the row's own cells (three θɹiː, house haːʊs).
+    en_au: ["thousand", "ˈθæʊzənd"],  // Same word as the parent row; IPA from the row's own cells (three θɹiː, house hæʊs).
+    en_nz: ["thousand", "ˈθæʊzənd"],  // Same word as the parent row; IPA from the row's own cells (three θɹiː, house hæʊs, hundred ˈhɐndɹəd).
+    en_ck: ["thousand", "ˈfæːzənd"],  // Same word as the parent row; IPA from the row's own cells (three fɹiː, thanks fæŋks, house æːs, mouth mæːf).
+    en_geordie: ["thousand", "ˈθuːzənd"],  // Same word as the parent row; IPA from the row's own cells (three θɹiː, house huːs, mouth muːθ).
+    en_sco: ["thousand", "ˈθʌuzənd"],  // Same word as the parent row; IPA from the row's own cells (three θɹiː, house hʌus, mouth mʌuθ).
+    en_in: ["thousand", "ˈt̪aʊzənɖ"],  // Same word as the parent row; IPA from the row's own cells (three t̪riː, house haʊs, husband ˈhʌzbənɖ).
+    en_ke: ["thousand", "ˈθaʊzənd"],  // Same word as the parent row; IPA from the row's own cells (three θɹi, house haʊs, husband ˈhʌzbənd).
+    en_jam: ["thousand", "ˈtɵʊzənd"],  // Same word as the parent row; IPA from the row's own cells (three tɹiː, house hɵʊs, husband ˈhɵzbənd).
+    en_ng2: ["thousand", "ˈtaʊzənd"],  // Same word as the parent row; IPA from the row's own cells (three tɹiː, thanks taŋks, house haʊs, husband ˈhʌzbənd).
+    en_my: ["thousand", "ˈtaʊzənd"],  // Same word as the parent row; IPA from the row's own cells (three tɹiː, thanks tɛŋks, house haʊs, husband ˈhazbənd).
+    en_sg: ["thousand", "ˈtaʊzənd"],  // Same word as the parent row; IPA from the row's own cells (three tɹiː, thanks tɛŋks, house haʊs, husband ˈhazbənd).
+    en_ph: ["thousand", "ˈtaʊsənd"],  // Same word as the parent row; IPA from the row's own cells (three tɹi, thanks tæŋks, house haʊs, nose noʊs).
+    de_at: ["tausend", "ˈtaʊ̯sn̩t"],  // Same word as the parent row; IPA from the row's own cells (Salz salts: voiceless s).
+    de_ch: ["tausend", "ˈtaʊ̯sənt"],  // Same word as the parent row; IPA from the row's own cells (Salz salts, hundert ˈhʊndərt).
+    pt_cv: ["mil", "mil"],  // Same word as the parent row; IPA from the row's own cells (sal sal: plain coda l).
+    pt_mo: ["mil", "mil"],  // Same word as the parent row; IPA from the row's own cells (sal sal: plain coda l).
   },
 };

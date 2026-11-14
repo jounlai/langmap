@@ -198,7 +198,7 @@ WORDS.mouth = {
     vi_s: ["miệng", "miəŋ˨˩˨"],
     tr: ["ağız", "aˈɯz"],
     fa: ["دهان", "dæˈhɒːn"],
-    sw: ["mdomo", "mˈɗomo"],  // Kept over kinywa, which Wiktionary glosses 'mouth' and nothing else, while mdomo is 'lip, mouth; beak'. mdomo is the everyday word and it does cover the mouth, so it does not fall foul of this concept's "not the lips alone" — but kinywa is the unambiguous body-part term, and it is the one to switch to if the everyday reading is ever disputed. The sw label and definition here use mdomo too, so the three move together.
+    sw: ["mdomo", "mˈdomo"],  // Kept over kinywa, which Wiktionary glosses 'mouth' and nothing else, while mdomo is 'lip, mouth; beak'. mdomo is the everyday word and it does cover the mouth, so it does not fall foul of this concept's "not the lips alone" — but kinywa is the unambiguous body-part term, and it is the one to switch to if the everyday reading is ever disputed. The sw label and definition here use mdomo too, so the three move together.
     da: ["mund", "mɔnˀ"],
     no: ["munn", "mʉnː"],
     is: ["munnur", "ˈmʏnːʏr"],
@@ -1247,5 +1247,6 @@ WORDS.mouth = {
     adt: ["yaya", "jaja"],  // Adnyamathanha yaya 'mouth'.
     osa: ["íhaa", "íhaː"],
     moh: ["óhsaʼ", "óhsaʔ"],  // The same word means lip.
+    en_jam: ["mouth", "mɵʊt"],  // Same word as the parent row; IPA from the row's own cells (house hɵʊs, earth ɜːt, three tɹiː).
   }
 };

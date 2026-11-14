@@ -7,8 +7,8 @@
  * Italian carta and Greek χαρτί, and through Aramaic it reached Malay kertas and
  * Swahili karatasi; Portuguese cartaz gave Malayalam കടലാസ്. Persian کاغذ kāġaz,
  * from Sogdian and perhaps from Chinese, spread from the Balkans to Bengal:
- * kâğıt, कागज़, қағаз. Chinese 紙 stayed in Japanese, Vietnamese giấy, Lao and
- * Shan. Arabic ورق is 'leaf', and it went to Ethiopia and Somalia. Russian бумага
+ * kâğıt, कागज़, қағаз. Chinese 紙 stayed in Vietnamese giấy, Lao and Shan;
+ * Japanese kami is its own word. Arabic ورق is 'leaf', and it went to Ethiopia and Somalia. Russian бумага
  * has an uncertain history. Chains from Wiktionary. Routes:
  *   papyrus  from Latin papȳrus (papier, papel, Papier)
  *   charta   from Greek χάρτης (χαρτί, carta, kertas, karatasi)
@@ -158,7 +158,7 @@ WORDS.paper = {
     yo: "plain",
     zh: "chinese",
     yue: "chinese",
-    ja: "chinese",
+    ja: "plain",
     ko: "plain",
     ko_jeju: "plain",
     tr: "kaghaz",
@@ -262,7 +262,7 @@ WORDS.paper = {
     mi: "papyrus",
     or: "kaghaz",
     pau: "papyrus",
-    ppl: "plain",
+    ppl: "other",
     pl: "papyrus",
     pt: "papyrus",
     ro: "charta",
@@ -281,7 +281,7 @@ WORDS.paper = {
     ug: "kaghaz",
     wls: "papyrus",
     wa: "papyrus",
-    yi: "plain",
+    yi: "papyrus",
     mra: "plain",
     es_cr: "papyrus",
     es_hn: "papyrus",
@@ -339,7 +339,7 @@ WORDS.paper = {
     ota: "kaghaz",
     mnc: "plain",
     aii: "leaf",
-    esu: "plain",
+    esu: "other",
     apw: "plain",
     lv: "papyrus",
     bo: "plain",
@@ -406,11 +406,11 @@ WORDS.paper = {
     pwo: "unknown",
     syc: "leaf",
     crx: "plain",
-    ja_osa: "chinese",
-    ja_aom: "chinese",
-    ja_hak: "chinese",
-    ja_kyo: "chinese",
-    ja_hir: "chinese",
+    ja_osa: "plain",
+    ja_aom: "plain",
+    ja_hak: "plain",
+    ja_kyo: "plain",
+    ja_hir: "plain",
     ko_kp: "plain",
     ko_bus: "plain",
     ko_yb: "plain",
@@ -425,6 +425,16 @@ WORDS.paper = {
     ko_jl: "plain",
     sr: "papyrus",
     bs: "papyrus",
+    en_us: "papyrus",
+    en_ca: "papyrus",
+    en_app: "papyrus",
+    en_ph: "papyrus",
+    en_nz: "papyrus",
+    en_ng: "papyrus",
+    en_geordie: "papyrus",
+    de_ch: "papyrus",
+    pt_cv: "papyrus",
+    pt_mo: "papyrus",
   },
   routes: {
     papyrus: {"color":"#2563eb","emoji":"📜","en":"from Latin papyrus (papier, papel, Papier)","ja":"ラテン語 papyrus から（papier, papel, Papier）","ko":"라틴어 papyrus에서 (papier, papel, Papier)","zh":"源自拉丁语 papyrus（papier, papel, Papier）","yue":"源自拉丁文 papyrus（papier, papel, Papier）","vi":"từ tiếng Latinh papyrus (papier, papel, Papier)","th":"จากภาษาละติน papyrus (papier, papel, Papier)","id":"dari bahasa Latin papyrus (papier, papel, Papier)","hi":"लातिन papyrus से (papier, papel, Papier)","de":"aus lateinisch papyrus (papier, papel, Papier)","fr":"du latin papyrus (papier, papel, Papier)","it":"dal latino papyrus (papier, papel, Papier)","es":"del latín papyrus (papier, papel, Papier)","pt":"do latim papyrus (papier, papel, Papier)","ru":"из латинского papyrus (papier, papel, Papier)","uk":"з латинського papyrus (papier, papel, Papier)","ar":"من اللاتينية papyrus (papier, papel, Papier)","he":"מ-papyrus הלטינית (papier, papel, Papier)","sw":"kutoka Kilatini papyrus (papier, papel, Papier)"},
@@ -455,7 +465,7 @@ WORDS.paper = {
     rut: ["кагъат", "kaʁat"],
     tkr: ["кагъыз", "kaʁɨz"],  // Route by resemblance to the neighbouring forms (bdk,lez,tab); no etymology of its own.
     udi: ["кагъыз", "kaʁɨz"],  // Route by resemblance to the neighbouring forms (bdk,lez,tab); no etymology of its own.
-    krc: ["къагъыт", "qaʁɨt"],
+    krc: ["къагъыт", "qaˈʁɯt"],
     nog: ["кагыт", "kaɡɨt"],  // Route by resemblance to the neighbouring forms (tr,kk); no etymology of its own.
     arn: ["papel", "papel"],
     ast: ["papel", "paˈpel"],
@@ -487,7 +497,7 @@ WORDS.paper = {
     kab: ["lkaɣeḍ", "lkaɣədˤ"],
     kek: ["hu", "hu"],
     tzo: ["vun", "vun"],
-    cak: ["wuj", "wuχ"],
+    cak: ["wuj", "wux"],
     krl: ["bumuagu", "ˈbumuaɡu"],
     ks: ["کاغذ", "kaːɣaz"],
     ky: ["кагаз", "kɑˈɡɑz"],
@@ -510,7 +520,7 @@ WORDS.paper = {
     rom: ["lil", "lil"],
     rue: ["папірь", "paˈpʲirʲ"],  // Route by resemblance to the neighbouring forms (br,hr,ia); no etymology of its own.
     rup: ["hãrtii", "hərˈtii"],
-    sah: ["кумааҕы", "kumaːɣɨ"],
+    sah: ["кумааҕы", "kumaːɣɯ"],
     shp: ["kirika", "kirika"],
     si: ["කඩදාසිය", "kaɖadaːsijə"],  // Route by resemblance to the neighbouring forms (ml); no etymology of its own.
     sk: ["papier", "ˈpapjɛr"],
@@ -521,9 +531,9 @@ WORDS.paper = {
     uz: ["qogʻoz", "qoʁoz"],
     xmf: ["ქაღარდი", "kʰaɣardi"],
     yo: ["ìwé", "ìwé"],
-    zh: ["纸", "tʂɨ˨˩˦"],  // Route by resemblance to the neighbouring forms (lo); no etymology of its own.
+    zh: ["纸", "tʂɨ˨˩˦"],  // The Chinese word 紙 itself, the source of this route.
     yue: ["紙", "tsiː˧˥"],
-    ja: ["紙", "kami"],  // From Middle Chinese 紙, according to Wiktionary.
+    ja: ["紙", "kami"],  // From Proto-Japonic *kanpi (Wiktionary); another view borrows it from Middle Chinese 簡 'bamboo slip', not from 紙.
     ko: ["종이", "tɕoŋi"],  // First attested in Late Old Korean as 捶.
     ko_jeju: ["종이", "tɕoŋi"],
     tr: ["kâğıt", "caːˈɯt"],  // From Persian کاغذ.
@@ -580,7 +590,7 @@ WORDS.paper = {
     sw: ["karatasi", "karaˈtasi"],  // Through Aramaic from Greek χάρτης.
     sv: ["papper", "ˈpapːɛr"],
     ta: ["காகிதம்", "kaːɡidam"],
-    th: ["กระดาษ", "kra˨˩ daːt˨˩"],  // Page says the origin is uncertain and only compares cartaz and kertas.
+    th: ["กระดาษ", "kra˨˩ daːt˨˩"],  // Of uncertain origin; Wiktionary compares Portuguese cartas, cartaz and Malay kertas.
     tk: ["kagyz", "kaːˈɣɯz"],
     udm: ["кагаз", "kaˈɡaz"],
     ur: ["کاغذ", "kaːɣəz"],  // From Persian, from Sogdian; Wiktionary's chain queries an origin in Old Chinese 紙.
@@ -627,9 +637,9 @@ WORDS.paper = {
     mi: ["pepa", "pepa"],
     or: ["କାଗଜ", "kaɡɔdʒɔ"],
     pau: ["babier", "babiɛɾ"],
-    ppl: ["amat", "ˈamat"],
+    ppl: ["amat", "ˈamat"],  // From Proto-Nahuan *aama-tl, a species of fig and the bark paper made from it, as Nahuatl āmatl.
     pl: ["papier", "ˈpapjɛr"],
-    pt: ["papel", "paˈpɛw"],
+    pt: ["papel", "pɐˈpɛɫ"],
     ro: ["hârtie", "hɨrˈtije"],
     ru: ["бумага", "bʊˈmaɡə"],  // Of uncertain origin; Vasmer proposes a source in a word for cotton.
     gd: ["pàipear", "ˈpʰɛːʰpəɾ"],
@@ -646,7 +656,7 @@ WORDS.paper = {
     ug: ["قەغەز", "qɛʁɛz"],
     wls: ["pepa", "pepa"],
     wa: ["papî", "papiː"],
-    yi: ["פאפיר", "paˈpir"],
+    yi: ["פאפיר", "paˈpir"],  // From Middle High German papier, from Old French papier.
     mra: ["kra dat", "kra dat"],  // No opened source supports the route.
     es_cr: ["papel", "paˈpel"],
     es_hn: ["papel", "paˈpel"],
@@ -655,21 +665,21 @@ WORDS.paper = {
     fr_lu: ["papier", "papje"],
     fr_cm: ["papier", "papje"],
     de_lu: ["Papier", "paˈpiːɐ̯"],
-    en_ng2: ["paper", "ˈpeɪpə"],
+    en_ng2: ["paper", "ˈpeːpə"],
     es_bo: ["papel", "paˈpel"],
     es_py: ["papel", "paˈpel"],
     es_pa: ["papel", "paˈpel"],
-    en_my: ["paper", "ˈpeɪpə"],
-    en_wls: ["paper", "ˈpeɪpə"],
-    en_jam: ["paper", "ˈpeɪpə"],
-    en_ke: ["paper", "ˈpeɪpə"],
+    en_my: ["paper", "ˈpeːpə"],
+    en_wls: ["paper", "ˈpeːpə"],
+    en_jam: ["paper", "ˈpeːpə"],
+    en_ke: ["paper", "ˈpeːpə"],
     fr_sn: ["papier", "papje"],
     fr_ci: ["papier", "papje"],
     fr_ht: ["papier", "papje"],
-    pt_mz: ["papel", "paˈpɛw"],
+    pt_mz: ["papel", "paˈpɛl"],
     nl_be: ["papier", "paːˈpiːr"],
-    en_za: ["paper", "ˈpeɪpə"],
-    pt_ao: ["papel", "paˈpɛw"],
+    en_za: ["paper", "ˈpeːpə"],
+    pt_ao: ["papel", "paˈpɛl"],
     ca_va: ["paper", "paˈpe"],
     es_mx: ["papel", "paˈpel"],
     pt_br: ["papel", "paˈpɛw"],
@@ -678,14 +688,14 @@ WORDS.paper = {
     en_aave: ["paper", "ˈpeɪpə"],
     en_au: ["paper", "ˈpæɪpə"],
     de_at: ["Papier", "paˈpiːɐ̯"],
-    en_in: ["paper", "ˈpeɪpə"],
-    en_sco: ["paper", "ˈpeɪpə"],
-    en_yk: ["paper", "ˈpeɪpə"],
+    en_in: ["paper", "ˈpeːpər"],
+    en_sco: ["paper", "ˈpepəɹ"],
+    en_yk: ["paper", "ˈpeːpə"],
     en_ck: ["paper", "ˈpæɪpə"],
     en_brum: ["paper", "ˈpʌɪpə"],
-    en_wc: ["paper", "ˈpeɪpə"],
+    en_wc: ["paper", "ˈpeɪpɚ"],
     en_est: ["paper", "ˈpɛɪpə"],
-    en_sg: ["paper", "ˈpeɪpə"],
+    en_sg: ["paper", "ˈpeːpə"],
     fr_af: ["papier", "papje"],
     es_co: ["papel", "paˈpel"],
     es_cl: ["papel", "paˈpel"],
@@ -704,7 +714,7 @@ WORDS.paper = {
     ota: ["كاغد", "caːˈʁɯd"],  // Borrowed from Persian کاغذ kāġaz, from Sogdian.
     mnc: ["ᡥᠣᠣᡧᠠᠨ", "xoːʃan"],  // No origin is recorded for it, so it counts as a word of its own.
     aii: ["ܘܲܪܲܩܬܵܐ", "warraːqta"],  // Borrowed from Arabic وَرَقَة, from Proto-Semitic *waraḳ- 'leaf'.
-    esu: ["kalikaq", "kalikaq"],  // No origin is recorded for it, so it counts as a word of its own.
+    esu: ["kalikaq", "kalikaq"],  // Route by resemblance to the neighbouring forms (ik(kaliikkaq)); no etymology of its own.
     apw: ["nałtsoos", "naɬtsoːs"],  // The same word means book; compare Navajo naaltsoos 'paper, book'.
     lv: ["papīrs", "ˈpapiːrs"],  // From Polish papier.
     bo: ["ཤོག་བུ", "ɕu˥ ku˥"],  // No image is recorded for it, so it counts as a word of its own.
@@ -779,10 +789,10 @@ WORDS.paper = {
     ko_kp: ["종이", "tɕoŋi"],
     ko_bus: ["종이", "tɕoŋi"],
     ko_yb: ["종이", "tɕoŋi"],
-    en_south: ["paper", "ˈpeɪpə"],
-    en_ie: ["paper", "ˈpeɪpə"],
+    en_south: ["paper", "ˈpæɪpɚ"],
+    en_ie: ["paper", "ˈpeːpəɹ"],
     en_scouse: ["paper", "ˈpeɪpə"],
-    en_manc: ["paper", "ˈpeɪpə"],
+    en_manc: ["paper", "ˈpeɪpɐ"],
     fr_qc: ["papier", "papje"],
     fr_be: ["papier", "papje"],
     fr_ch: ["papier", "papje"],
@@ -790,5 +800,15 @@ WORDS.paper = {
     ko_jl: ["종이", "tɕoŋi"],
     sr: ["папир", "pǎpiːr"],  // Borrowed from German Papier.
     bs: ["papir", "ˈpapiːr"],  // Borrowed from German Papier.
+    en_us: ["paper", "ˈpeɪpɚ"],  // Same word as the parent row; IPA from the row's own cells (name neɪm, water ˈwɔɾɚ, computer kəmˈpjuɾɚ).
+    en_ca: ["paper", "ˈpeɪpɚ"],  // Same word as the parent row; IPA from the row's own cells (name neɪm, water ˈwɑɾɚ, computer kəmˈpjuːɾɚ).
+    en_app: ["paper", "ˈpeɪpɚ"],  // Same word as the parent row; IPA from the row's own cells (name neɪm, water ˈwɔːɾɚ, computer kəmˈpjuːɾɚ).
+    en_ph: ["paper", "ˈpeɪpɚ"],  // Same word as the parent row; IPA from the row's own cells (name neɪm, water ˈwɔtɚ).
+    en_nz: ["paper", "ˈpæepə"],  // Same word as the parent row; IPA from the row's own cells (name næem, rain ɹæen, water ˈwoːtə).
+    en_ng: ["paper", "ˈpeːpə"],  // Same word as the parent row; IPA from the row's own cells (rain ɹeːn, snake sneːk, water ˈwɔːtə).
+    en_geordie: ["paper", "ˈpeːpɐ"],  // Same word as the parent row; IPA from the row's own cells (name neːm, water ˈwɔːtɐ, computer kəmˈpjuːtɐ).
+    de_ch: ["Papier", "paˈpiːr"],  // Same word as the parent row; IPA from the row's own cells (Stern ʃtɛrn, hundert ˈhʊndərt: r pronounced).
+    pt_cv: ["papel", "pɐˈpɛl"],  // Same word as the parent row; IPA from the row's own cells (sal sal: plain coda l; European-type reduction (estrela ʃˈtɾelɐ); Wiktionary Portugal /pɐˈpɛl/).
+    pt_mo: ["papel", "pɐˈpɛl"],  // Same word as the parent row; IPA from the row's own cells (sal sal: plain coda l; European-type reduction (borboleta buɾβuˈletɐ); Wiktionary Portugal /pɐˈpɛl/).
   },
 };

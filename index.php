@@ -151,8 +151,8 @@ seo_404('No SEO page for: ' . $path, $seo_ui);
 function seo_render_hub(string $ui): void
 {
     seo_head([
-        'title' => seo_t($ui, 'hub_title'),
-        'description' => seo_t($ui, 'hub_desc'),
+        'title' => seo_t($ui, 'hub_title', ['n' => seo_int(seo_counts()['langs'], $ui)]),
+        'description' => seo_t($ui, 'hub_desc', ['n' => seo_int(seo_counts()['langs'], $ui)]),
         'canonical' => SEO_SITE . seo_path($ui, ''),
         'ui' => $ui,
         'altpath' => '/',

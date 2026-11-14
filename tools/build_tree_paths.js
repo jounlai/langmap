@@ -89,7 +89,8 @@ const RENAME = {
     'Italo-Western Romance': null, 'Middle-Modern Aramaic': null, 'Imperial-Middle-Modern Aramaic': null,
     'Middle-Modern Persian': null, 'Modern Southwestern Iranian': null, 'Western Middle Arabic': null,
     'Ni-Li-Kazhouish': null, 'Eastern Samur': null, 'Tabasaran-Aghul-Lezgi': null, 'Farsic': 'Persian',
-    'Tamil-Irula': null, 'Tamil-Kodagu': null, 'Bisayan': 'Visayan', 'Oil': 'Oïl' };
+    'Tamil-Irula': null, 'Tamil-Kodagu': null, 'Bisayan': 'Visayan', 'Oil': 'Oïl',
+    'Latino-Faliscan': null };
 
 const read = (p) => fs.readFileSync(p, 'utf8');
 function loadRows() {

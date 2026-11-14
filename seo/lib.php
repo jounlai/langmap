@@ -3434,6 +3434,10 @@ function seo_404(string $msg = 'Page not found', string $ui = 'en'): void
         // The detail line is an English developer message: mark it as such.
         . "</head><body><main><h1>404</h1><p>" . e(seo_t($ui, 'nf_title')) . "</p><p style=\"color:#5c5c72;font-size:.9rem;overflow-wrap:anywhere\"><bdi lang=\"en\" dir=\"ltr\">" . e($msg) . "</bdi></p>"
         . "<p><a href=\"/" . e($ui) . "/wordmap/\">" . e(seo_t($ui, 'nf_wm')) . "</a> · <a href=\"/" . e($ui) . "/hanmap/\">" . e(seo_t($ui, 'nf_hm')) . "</a></p>"
+        // The maps themselves, as in every SEO page's footer: a mistyped map
+        // address (/tree.htm, /wordmap.htm) ends here, and only the text
+        // indexes were offered (r05).
+        . "<p><strong>" . e(seo_t($ui, 'open_map')) . ":</strong> <span lang=\"en\" dir=\"ltr\"><a href=\"/wordmap.html\">Word Map</a> · <a href=\"/hanmap.html\">Han Map</a> · <a href=\"/namemap.html\">Name Map</a> · <a href=\"/timemap.html\">Time Map</a> · <a href=\"/index.html\">Word Order</a> · <a href=\"/tree.html\">Tree</a></span></p>"
         . "</main></body></html>";
 }
 

@@ -19,6 +19,6 @@
   "shortcuts": [
     { "name": "Word Map", "url": "/wordmap.html" },
     { "name": "Han Map", "url": "/hanmap.html" },
-    { "name": "Daily Langle", "url": "/wordmap.html#langle" }
+    { "name": "Daily Langle", "url": "/wordmap.html?play=langle" }
   ]
 }

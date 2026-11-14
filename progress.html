@@ -6,7 +6,7 @@
     <meta http-equiv="Pragma" content="no-cache">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LangMap - Word coverage</title>
-    <meta name="description" content="How many of LangMap's 1,190 languages have each of the 87 words, counted separately for living and historical languages, and which languages are still missing.">
+    <meta name="description" content="How many of LangMap's languages have each Word Map word, counted separately for living and historical languages, and which languages are still missing.">
     <!-- Project-status page, like changelog.html — publicly reachable but kept
          out of search indexes; the canonical content is the maps themselves. -->
     <meta name="robots" content="noindex, follow">
@@ -131,13 +131,25 @@
         .mlist a small { color: #666; margin-left: 5px; }
         .more { color: #666; font-size: 12.5px; align-self: center; }
         .done { color: #2a7a4b; font-size: 12.5px; }
+        /* The four phone columns were 369px wide: at 390px the Missing column
+           sat past the edge ("1,0") behind a scroll nobody sees (r05). Fits down
+           to 360px; narrower screens still scroll the table. Selectors outrank
+           the 760px block below. */
+        @media (max-width: 480px) {
+            main.prog { padding-inline: 10px; }
+            table.wp th, table.wp tr.row > td { padding-inline: 4px; }
+            .cell { gap: 4px; }
+            .cell .bar { min-width: 22px; }
+            .cell u { width: 30px; }
+        }
 
         @media (max-width: 760px) {
             .prog { padding: 16px 14px 48px; }
             table.wp .hide-s { display: none; }
             .bar { min-width: 34px; }
         }
-            .prog .back { display: inline-block; margin: 0 0 12px; color: #1a73e8; text-decoration: none; font-size: 14px; }
+        /* #1a73e8 on the #f0f2f5 page was 4.0:1 (axe, r05); the changelog's link colour is 4.8:1. */
+        .prog .back { display: inline-block; margin: 0 0 12px; color: #0366d6; text-decoration: none; font-size: 14px; }
         .prog .back:hover { text-decoration: underline; }
 </style>
 </head>
@@ -349,7 +361,9 @@
                 tr.setAttribute('aria-expanded', state.open === w ? 'true' : 'false');
                 tr.innerHTML =
                       '<td><span class="wname">' + WORDS[w][1] + '</span>'
-                        + (WORDS[w][2] ? '<span class="wja">' + WORDS[w][2] + '</span>' : '') + '</td>'
+                        // Japanese gloss on an English page: lang="ja" so a screen reader
+                        // reads it in Japanese and kanji take Japanese glyph forms (r05).
+                        + (WORDS[w][2] ? '<span class="wja" lang="ja">' + WORDS[w][2] + '</span>' : '') + '</td>'
                     + '<td class="hide-s"><span class="badge b-' + tier + '">' + TIER_LABEL[tier] + '</span></td>'
                     + '<td>' + barCell(lv, p.living.length, false) + '</td>'
                     + '<td class="hist">' + barCell(hs, p.hist.length, true) + '</td>'
@@ -378,13 +392,18 @@
                 } else {
                     var m = missing(w, idx), CAP = 120;
                     var links = m.slice(0, CAP).map(function (j) {
+                        // To that language on the word's map (its panel, centred on it),
+                        // not to the word alone: every chip in the list led to the same
+                        // page and "Bengali" never showed Bengali (r05).
                         return '<a class="' + (LANGS[j][5] ? 'h' : '') + '" href="wordmap.html?w='
-                            + encodeURIComponent(WORDS[w][0]) + '">' + LANGS[j][1]
+                            + encodeURIComponent(WORDS[w][0]) + '&amp;lang=' + encodeURIComponent(LANGS[j][0]) + '">' + LANGS[j][1]
                             + (LANGS[j][2] ? '<small>' + speakers(LANGS[j][2]) + '</small>' : '') + '</a>';
                     }).join('');
                     td.innerHTML = '<div class="mhdr" id="mh' + w + '">' + fmt(miss)
                             + ' missing, largest first</div>'
-                        + '<div class="mlist" role="list" aria-labelledby="mh' + w + '">' + links
+                        // A labelled group of links: role=list may own list items only,
+                        // and its bare <a> children failed axe aria-required-children (r05).
+                        + '<div class="mlist" role="group" aria-labelledby="mh' + w + '">' + links
                         + (m.length > CAP ? '<span class="more">+' + fmt(m.length - CAP) + ' more</span>' : '')
                         + '</div>';
                 }

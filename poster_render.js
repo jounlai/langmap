@@ -48,7 +48,43 @@
 
   // Natural Earth stamps ISO_A3 as "-99" for a few sovereign states (a known
   // quirk); recover their alpha-3 from the country name so their labels resolve.
-  const NAME_TO_ISO = { France: 'FRA', Norway: 'NOR', Kosovo: 'XKX' };
+  // The self-hosted borders (countries.geojson since 2026-09-04, countries_lite.js
+  // since 2026-11-07) carry the name only, so every POSTER_LANGS country needs its
+  // name here: without it only France and Norway were labelled and Antarctica
+  // came back (r05). Names as in countries.geojson; codes from ISO 3166-1.
+  const NAME_TO_ISO = {
+    Afghanistan: 'AFG', Albania: 'ALB', Algeria: 'DZA', Andorra: 'AND', Angola: 'AGO', Antarctica: 'ATA',
+    Argentina: 'ARG', Armenia: 'ARM', Australia: 'AUS', Austria: 'AUT', Azerbaijan: 'AZE', Bahrain: 'BHR',
+    Bangladesh: 'BGD', Belarus: 'BLR', Belgium: 'BEL', Belize: 'BLZ', Benin: 'BEN', Bhutan: 'BTN', Bolivia: 'BOL',
+    'Bosnia and Herzegovina': 'BIH', Botswana: 'BWA', Brazil: 'BRA', Brunei: 'BRN', Bulgaria: 'BGR',
+    'Burkina Faso': 'BFA', Burundi: 'BDI', Cambodia: 'KHM', Cameroon: 'CMR', Canada: 'CAN',
+    'Central African Republic': 'CAF', Chad: 'TCD', Chile: 'CHL', China: 'CHN', Colombia: 'COL', 'Costa Rica': 'CRI',
+    Croatia: 'HRV', Cuba: 'CUB', Cyprus: 'CYP', Czechia: 'CZE', 'Democratic Republic of the Congo': 'COD',
+    Denmark: 'DNK', Djibouti: 'DJI', 'Dominican Republic': 'DOM', 'East Timor': 'TLS', Ecuador: 'ECU', Egypt: 'EGY',
+    'El Salvador': 'SLV', 'Equatorial Guinea': 'GNQ', Eritrea: 'ERI', Estonia: 'EST', eSwatini: 'SWZ',
+    Ethiopia: 'ETH', Fiji: 'FJI', Finland: 'FIN', France: 'FRA', Gabon: 'GAB', Gambia: 'GMB', Georgia: 'GEO',
+    Germany: 'DEU', Ghana: 'GHA', Greece: 'GRC', Greenland: 'GRL', Guatemala: 'GTM', Guinea: 'GIN',
+    'Guinea-Bissau': 'GNB', Guyana: 'GUY', Haiti: 'HTI', Honduras: 'HND', 'Hong Kong S.A.R.': 'HKG', Hungary: 'HUN',
+    Iceland: 'ISL', India: 'IND', Indonesia: 'IDN', Iran: 'IRN', Iraq: 'IRQ', Ireland: 'IRL', Israel: 'ISR',
+    Italy: 'ITA', 'Ivory Coast': 'CIV', Jamaica: 'JAM', Japan: 'JPN', Jordan: 'JOR', Kazakhstan: 'KAZ', Kenya: 'KEN',
+    Kosovo: 'XKX', Kuwait: 'KWT', Kyrgyzstan: 'KGZ', Laos: 'LAO', Latvia: 'LVA', Lebanon: 'LBN', Lesotho: 'LSO',
+    Liberia: 'LBR', Libya: 'LBY', Liechtenstein: 'LIE', Lithuania: 'LTU', Luxembourg: 'LUX', Madagascar: 'MDG',
+    Malawi: 'MWI', Malaysia: 'MYS', Mali: 'MLI', Malta: 'MLT', Mauritania: 'MRT', Mexico: 'MEX', Moldova: 'MDA',
+    Mongolia: 'MNG', Montenegro: 'MNE', Morocco: 'MAR', Mozambique: 'MOZ', Myanmar: 'MMR', Namibia: 'NAM',
+    Nepal: 'NPL', Netherlands: 'NLD', 'New Zealand': 'NZL', Nicaragua: 'NIC', Niger: 'NER', Nigeria: 'NGA',
+    'North Korea': 'PRK', 'North Macedonia': 'MKD', Norway: 'NOR', Oman: 'OMN', Pakistan: 'PAK', Palestine: 'PSE',
+    Panama: 'PAN', 'Papua New Guinea': 'PNG', Paraguay: 'PRY', Peru: 'PER', Philippines: 'PHL', Poland: 'POL',
+    Portugal: 'PRT', Qatar: 'QAT', 'Republic of Serbia': 'SRB', 'Republic of the Congo': 'COG', Romania: 'ROU',
+    Russia: 'RUS', Rwanda: 'RWA', Samoa: 'WSM', 'San Marino': 'SMR', 'Saudi Arabia': 'SAU', Senegal: 'SEN',
+    'Sierra Leone': 'SLE', Singapore: 'SGP', Slovakia: 'SVK', Slovenia: 'SVN', 'Solomon Islands': 'SLB',
+    Somalia: 'SOM', 'South Africa': 'ZAF', 'South Korea': 'KOR', 'South Sudan': 'SSD', Spain: 'ESP',
+    'Sri Lanka': 'LKA', Sudan: 'SDN', Suriname: 'SUR', Sweden: 'SWE', Switzerland: 'CHE', Syria: 'SYR', Taiwan: 'TWN',
+    Tajikistan: 'TJK', Thailand: 'THA', 'The Bahamas': 'BHS', Togo: 'TGO', Tonga: 'TON', 'Trinidad and Tobago': 'TTO',
+    Tunisia: 'TUN', Turkey: 'TUR', Turkmenistan: 'TKM', Uganda: 'UGA', Ukraine: 'UKR', 'United Arab Emirates': 'ARE',
+    'United Kingdom': 'GBR', 'United Republic of Tanzania': 'TZA', 'United States of America': 'USA', Uruguay: 'URY',
+    Uzbekistan: 'UZB', Vanuatu: 'VUT', Venezuela: 'VEN', Vietnam: 'VNM', 'Western Sahara': 'ESH', Yemen: 'YEM',
+    Zambia: 'ZMB', Zimbabwe: 'ZWE'
+  };
   function isoOf(feature) {
     const p = feature.properties || {};
     const iso = p['ISO3166-1-Alpha-3'];

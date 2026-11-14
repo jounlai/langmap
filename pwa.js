@@ -22,8 +22,14 @@
   });
 
   var FB = 'en';
+  // The page's UI language, which every page writes into <html lang>. No page
+  // has a global uiLang (theirs live inside closures), so the hint spoke the
+  // browser's language: Japanese on a page set to German (r05).
   function lang() {
-    try { if (typeof uiLang !== 'undefined' && uiLang) return uiLang.split('_')[0]; } catch (_) {}
+    var h = String(document.documentElement.lang || '').toLowerCase();
+    if (/^(yue|zh-(hk|mo))/.test(h)) return 'yue';   // Time Map writes zh-HK
+    h = h.split('-')[0];
+    if (h && S.title[h]) return h;
     return (navigator.language || FB).slice(0, 2);
   }
   var S = {

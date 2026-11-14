@@ -84,16 +84,16 @@
     "hash": "495ff333e7265867"
   },
   "poster_render.js": {
-    "version": 12,
-    "hash": "86181f3bf041494a"
+    "version": 13,
+    "hash": "687382022957af9c"
   },
   "progress_data.js": {
     "version": 691,
     "hash": "37ddcafb05249598"
   },
   "pwa.js": {
-    "version": 2,
-    "hash": "ceda6c52e92f0f39"
+    "version": 3,
+    "hash": "1355f57288eb363d"
   },
   "share-button.js": {
     "version": 6,

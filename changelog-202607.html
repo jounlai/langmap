@@ -48,6 +48,10 @@
             padding: 24px 20px 60px;
             font-size: 14px;
             line-height: 1.7;
+            /* A long URL hash in <code> (2026-07, 590px) or a slash-joined list
+               (2026-05) widened the page past a phone, which then zoomed the
+               whole page out to fit (r05). */
+            overflow-wrap: anywhere;
         }
         .changelog h1 {
             font-size: 24px;

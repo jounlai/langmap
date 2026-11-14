@@ -27,7 +27,7 @@
   <script src="map_boot.js?v=1"></script>
   <script src="poster_geo.js?v=12"></script>
   <script src="poster_langs.js?v=12"></script>
-  <script src="poster_render.js?v=12"></script>
+  <script src="poster_render.js?v=13"></script>
   <script>
     (function () {
       // Google Fonts subsets are lazy-loaded per script and NOT covered by
@@ -74,7 +74,8 @@
         if (document.fonts && document.fonts.ready) {
           document.fonts.ready.then(function () { setTimeout(function () { draw(geojson); }, 300); });
         }
-        sel.addEventListener('change', function () { currentWord = sel.value; draw(geojson); });
+        // The tab title named the first word ("— water") whatever was picked (r05).
+        sel.addEventListener('change', function () { currentWord = sel.value; document.title = 'WordMap Poster — ' + currentWord; draw(geojson); });
       }).catch(err => {
         document.getElementById('poster-root').textContent = 'Could not load country data: ' + err;
       });

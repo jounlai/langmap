@@ -986,8 +986,14 @@
         g.font = '800 33px ' + CARD_FONT; g.fillStyle = ORANGE;
         g.fillText(T('title'), pad, 78);
         drawSparkle(g, pad + g.measureText(T('title')).width + 24, 58, 15, GOLD);
+        // The heading shrinks to fit before it is cut: with no name given,
+        // "My Language Passport" was cut to "My Lang…" (15 of 19 UI
+        // languages), and a long name lost most of its letters.
+        var head = uiName || T('card_my'), HEAD_W = 600;
         g.fillStyle = INK; g.font = '800 90px ' + CARD_FONT;
-        g.fillText(clip(g, uiName || T('card_my'), 540), pad, 178);
+        var headW = g.measureText(head).width;
+        if (headW > HEAD_W) g.font = '800 ' + Math.max(36, Math.floor(90 * HEAD_W / headW)) + 'px ' + CARD_FONT;
+        g.fillText(clip(g, head, HEAD_W), pad, 178);
         if (res) {
             drawPin(g, pad + 11, 206, 21, '#e0574b');
             g.fillStyle = MUTE; g.font = '600 34px ' + CARD_FONT; g.textAlign = 'left'; g.textBaseline = 'alphabetic';
@@ -1208,14 +1214,29 @@
         g.beginPath(); g.moveTo(cx - w / 2, cy + h * 0.06); g.lineTo(cx + w / 2, cy + h * 0.06); g.stroke();
     }
     // Wrap text into up to 2 lines (char-based; fine for CJK + short latin), centred on cy.
+    // Lines break at spaces; a run with no space (Japanese, Chinese…) or one
+    // too long for a line breaks between characters. Broken character by
+    // character, the tagline was cut inside words in 8 UI languages
+    // ("Et m / aintenant") and German's second line began with a space.
     function wrapText(g, text, x, cy, maxW, lineH) {
+        var fits = function (s) { return g.measureText(s).width <= maxW; };
+        var chars = function (s) {
+            if (typeof Intl !== 'undefined' && Intl.Segmenter) return Array.from(new Intl.Segmenter(undefined, { granularity: 'grapheme' }).segment(s), function (p) { return p.segment; });
+            return Array.from(s);
+        };
         var lines = [], cur = '';
-        for (var i = 0; i < text.length; i++) {
-            var t = cur + text[i];
-            if (g.measureText(t).width > maxW && cur) { lines.push(cur); cur = text[i]; } else cur = t;
-        }
+        String(text).split(/\s+/).filter(Boolean).forEach(function (w) {
+            var t = cur ? cur + ' ' + w : w;
+            if (fits(t)) { cur = t; return; }
+            if (cur) { lines.push(cur); cur = ''; }
+            if (fits(w)) { cur = w; return; }
+            chars(w).forEach(function (ch) {
+                if (cur && !fits(cur + ch)) { lines.push(cur); cur = ch; } else cur += ch;
+            });
+        });
         if (cur) lines.push(cur);
-        lines = lines.slice(0, 2);
+        // Two lines at most; what does not fit ends in an ellipsis, not silently.
+        if (lines.length > 2) { var l2 = lines[1]; while (l2 && !fits(l2 + '…')) l2 = l2.slice(0, -1); lines = [lines[0], l2 + '…']; }
         var startY = cy - (lines.length - 1) * lineH / 2;
         for (var k = 0; k < lines.length; k++) g.fillText(lines[k], x, startY + k * lineH);
     }

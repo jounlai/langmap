@@ -67,7 +67,7 @@
     .speak-panel .sp-row button { width: auto; flex: 0 0 auto; white-space: nowrap; }
     .speak-panel .sp-note { color: #8a8a8a; font-size: 10.5px; margin-top: 6px; }
     .lang-label.sp-speaking, .globe-label.sp-speaking { outline: 2px solid #1a73e8; outline-offset: 2px; border-radius: 4px; }
-    tr.sp-speaking > td { background: rgba(26,115,232,.1); }
+    tr.sp-speaking > td, td.sp-speaking, .cmp-reading.sp-speaking { background: rgba(26,115,232,.1); }   /* panel rows; Word Map / Han Map compare cells */
     .speak-panel .sp-word, .speak-panel .sp-ipa { cursor: pointer; }
     @media (max-width: 600px) {
         .speak-panel { left: 8px; right: auto; width: min(232px, calc(100vw - 16px)); bottom: max(28px, env(safe-area-inset-bottom)); padding: 6px 8px; font-size: 12px; }

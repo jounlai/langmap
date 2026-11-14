@@ -15,9 +15,25 @@
     "version": 71,
     "hash": "e4461f7136237ca4"
   },
+  "ipa_synth/engine.js": {
+    "version": 56,
+    "hash": "063b6e80b08e9a61"
+  },
+  "ipa_synth/index_data.js": {
+    "version": 1,
+    "hash": "489727dc1f1d0a3d"
+  },
+  "ipa_synth/regress_cases.js": {
+    "version": 1,
+    "hash": "afbb9716fa94f6ad"
+  },
   "ipa_synth/speak.js": {
-    "version": 61,
-    "hash": "93f44d9169a96f1a"
+    "version": 62,
+    "hash": "3a8f5db34ba41082"
+  },
+  "ipa_synth/tract.js": {
+    "version": 56,
+    "hash": "1692d50f55e126e8"
   },
   "lang-filter.js": {
     "version": 65,
@@ -46,6 +62,10 @@
   "master.js": {
     "version": 31,
     "hash": "7b1a7f5ef57fec4c"
+  },
+  "meta_i18n_engine.js": {
+    "version": 1,
+    "hash": "7047e26878a28fcd"
   },
   "my-languages.js": {
     "version": 43,
@@ -111,6 +131,14 @@
     "version": 41,
     "hash": "94e4f889af2d5919"
   },
+  "tree_names_i18n.js": {
+    "version": 2,
+    "hash": "8afb66665c84d3bf"
+  },
+  "tree_paths.js": {
+    "version": 3,
+    "hash": "21577a6e15c0cf92"
+  },
   "trivia_reader.js": {
     "version": 4,
     "hash": "8e0e635d02653c30"
@@ -126,5 +154,9 @@
   "wordmap_data.js": {
     "version": 362,
     "hash": "6262bc6452400389"
+  },
+  "wordmap_meta_lite.js": {
+    "version": 457,
+    "hash": "45b3a39c1b73e197"
   }
 }

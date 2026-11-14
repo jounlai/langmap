@@ -96,9 +96,12 @@ label { font-size: 13px; color: var(--muted); }
         <div class="note" data-i18n="timelineNote">Spectrogram 0–5 kHz (the horizontal bands are formants), pitch in red, segments below. Drag to look at any moment.</div>
     </section>
 </main>
-<script src="ipa_synth/engine.js"></script>
-<script src="ipa_synth/tract.js"></script>
-<script src="ipa_synth/index_data.js"></script>
+<!-- ?v= on every script: *.js is served immutable for a year. engine.js and
+     tract.js share their numbers with ipa_synth/speak.js and check.html, and
+     tools/page_asset_version_check.js holds all three to the files. -->
+<script src="ipa_synth/engine.js?v=56"></script>
+<script src="ipa_synth/tract.js?v=56"></script>
+<script src="ipa_synth/index_data.js?v=1"></script>
 <script>
 (function () {
     'use strict';
@@ -307,7 +310,14 @@ label { font-size: 13px; color: var(--muted); }
     function loadConcept(id, then) {
         if (!id) return;
         if (window.WORDS[id]) return then();
-        const s = document.createElement('script'); s.src = 'words/' + id + '.js'; s.onload = then; document.head.append(s);
+        // words/<id>.js is served immutable for a year and this page has no
+        // WM_ASSET_VERSION to put a ?v= on it, so a plain <script src> kept the
+        // first copy for good: a cell corrected after the first visit went on
+        // playing its old IPA here (r09). no-cache revalidates — a 304 when
+        // nothing changed.
+        fetch('words/' + id + '.js', { cache: 'no-cache' }).then(r => r.ok ? r.text() : Promise.reject(r.status)).then(t => {
+            const s = document.createElement('script'); s.textContent = t; document.head.append(s); then();
+        }).catch(() => {});
     }
     cSel.onchange = () => loadConcept(cSel.value, () => {
         const d = window.WORDS[cSel.value].data, keep = lSel.value;

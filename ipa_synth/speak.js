@@ -11,7 +11,6 @@
  */
 (function () {
     'use strict';
-    const V = '?v=56';
     const BASE = '/ipa_synth/';
     const STR = {
         en: { open: 'Pronunciation', close: 'Close', hintHover: 'Point at a word on the map, in a language panel or in the comparison table, to hear it.', hintTap: 'Tap a word on the map to hear it; tap it again to open its language.',
@@ -91,8 +90,10 @@
 
     function load() {
         if (loaded) return loaded;
-        const add = f => new Promise((res, rej) => { const s = document.createElement('script'); s.src = BASE + f + V; s.onload = res; s.onerror = rej; document.head.appendChild(s); });
-        loaded = (window.IPASynth ? Promise.resolve() : add('engine.js')).then(() => window.VocalTract ? null : add('tract.js'));
+        // The ?v= are literals so tools/page_asset_version_check.js can hold them to
+        // the files and to ipa_synth.html / check.html, which load the same two.
+        const add = f => new Promise((res, rej) => { const s = document.createElement('script'); s.src = BASE + f; s.onload = res; s.onerror = rej; document.head.appendChild(s); });
+        loaded = (window.IPASynth ? Promise.resolve() : add('engine.js?v=56')).then(() => window.VocalTract ? null : add('tract.js?v=56'));
         loaded.catch(() => { loaded = null; });   // a failed download is retried on the next word, not remembered
         return loaded;
     }

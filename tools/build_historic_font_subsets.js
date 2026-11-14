@@ -20,6 +20,7 @@
  */
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 const { execFileSync } = require('child_process');
 
 const ROOT = path.join(__dirname, '..');
@@ -163,7 +164,8 @@ for (const s of SCRIPTS) {
   css.push(
     `        @font-face {\n` +
     `            font-family: '${s.family || 'Historic Script Subset'}'; font-style: normal; font-weight: 400; font-display: swap;\n` +
-    `            src: url('fonts/${s.repo}-subset.woff2') format('woff2');\n` +
+    // ?v= = sha256 of the new cut: fonts/ is immutable for a year (font_url_version_check.js).
+    `            src: url('fonts/${s.repo}-subset.woff2?v=${crypto.createHash('sha256').update(fs.readFileSync(out)).digest('hex').slice(0, 10)}') format('woff2');\n` +
     `            unicode-range: ${s.range};\n` +
     `        }`);
 }

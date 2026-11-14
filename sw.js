@@ -41,10 +41,19 @@ self.addEventListener('fetch', (e) => {
     // WM_ASSET_VERSION, so it asks for the OLD ?v= of every data file and the
     // site silently shows yesterday's data. Force a revalidation: "network-first"
     // has to mean the network.
-    const fresh = new Request(req.url, { cache: 'reload', credentials: 'same-origin' });
+    //
+    // redirect: 'manual', because a navigation's own redirect mode is manual: a
+    // response that fetch() had already FOLLOWED through a 301 is refused by the
+    // browser as a network error, so every renamed-code URL (/en/wordmap/som ->
+    // /so, /en/hanmap/zh_han -> /och, seo/lib.php SEO_RENAMED_CODES) opened as
+    // "This site can't be reached" for anyone who had ever loaded one of the maps.
+    // The opaque redirect goes back to the browser, which follows it like any 301.
+    // Only a 200 is kept for offline use: an opaque redirect has no body, and a
+    // 502 during a deploy must not replace the last good copy.
+    const fresh = new Request(req.url, { cache: 'reload', credentials: 'same-origin', redirect: 'manual' });
     e.respondWith(
       fetch(fresh)
-        .then((res) => { const copy = res.clone(); caches.open(SHELL).then((c) => c.put(req, copy)).catch(() => {}); return res; })
+        .then((res) => { if (res.ok) { const copy = res.clone(); caches.open(SHELL).then((c) => c.put(req, copy)).catch(() => {}); } return res; })
         .catch(() => caches.match(req).then((r) => r || caches.match('/wordmap.html').then((r2) => r2 || caches.match('/'))))
     );
   }

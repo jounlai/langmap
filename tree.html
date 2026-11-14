@@ -91,7 +91,7 @@
         font-style: normal;
         font-weight: 400;
         font-display: swap;
-        src: url('fonts/NomNaTong-subset.woff2') format('woff2');
+        src: url('fonts/NomNaTong-subset.woff2?v=e78800a6ee') format('woff2');
         unicode-range:
             
                 U+3575, U+35C2, U+3E65, U+5400, U+6E03, U+20027,
@@ -621,11 +621,11 @@ generates lang_names/<ui>.js from lang_names.js. -->
     // The tree only reads structured fields (family / parentCode / speakers) +
     // the base META_I18N table — all in wordmap_meta_lite.js (~1.1 MB), so it
     // no longer pulls the 19 MB wordmap_meta.js (descriptions/sources unused).
-    _loadJS('wordmap_meta_lite.js?v=417')
+    _loadJS('wordmap_meta_lite.js?v=457')
         .then(() => Promise.all([
             // Branches from Glottolog (tools/build_tree_paths.js), and their ko/zh/yue names.
-            _loadJS('tree_paths.js?v=2'),
-            (['ko', 'zh', 'yue'].includes(uiLang) ? _loadJS('tree_names_i18n.js?v=1') : null),
+            _loadJS('tree_paths.js?v=3'),
+            (['ko', 'zh', 'yue'].includes(uiLang) ? _loadJS('tree_names_i18n.js?v=2') : null),
             loadMetaI18nForUi(uiLang),   // lite defines META_I18N before the per-UI slice fills it
             // A ?ui= / #ui= link picks the UI without the cookie the name table's
             // boot reads, so language names stayed English (r24).

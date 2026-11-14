@@ -420,6 +420,12 @@ line('page ?v= cache-buster freshness', num(s, /violations: (\d+)/));
 s = run('build_historic_font_subsets.js --check');
 line('historic font subset coverage', num(s, /missing: (\d+)/));
 
+// ...and the browser must be told to fetch the new cut. fonts/ is served
+// immutable for a year, so a re-cut subset under an unchanged ?v= reaches no
+// returning reader: 35 url()s on three pages named an older cut (rally r09).
+s = run('font_url_version_check.js --check');
+line('font url ?v= freshness', num(s, /violations: (\d+)/));
+
 // Pre-compressed .br siblings for the seven biggest shipped files. nginx has
 // `brotli_static on`, and it serves <file>.br WITHOUT checking that it is
 // newer than <file> — a stale one would serve the previous version of the

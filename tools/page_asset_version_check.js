@@ -51,17 +51,50 @@ const BUMP = argv.includes('--bump');
 // deliberately frozen and must not be dragged along by a later bump.
 const SKIP_PAGES = new Set(['_buildertest.html', '_cardtest.html']);
 
+// Files outside the site root that load site assets: a served page, and the
+// pronunciation panel's loader, which asks for engine.js and tract.js itself.
+// *.js is sent immutable for a year, so a ?v= that is not held to the file
+// keeps the first copy a browser ever got: ipa_synth/check.html — the page for
+// re-listening to every reported word — had no ?v= at all and played the
+// engine from the day it was first opened (r09). Reading speak.js here puts
+// its numbers under the same INCONSISTENT check as the two synth pages, which
+// load the same two files — one counter per file, so two hand-kept counters
+// can never hand out one URL for two different engines.
+const SUB_PAGES = ['ipa_synth/check.html', 'ipa_synth/speak.js'];
+function pageList() {
+  return fs.readdirSync(ROOT).filter(f => f.endsWith('.html')).sort()
+    .concat(SUB_PAGES.filter(p => fs.existsSync(path.join(ROOT, p))));
+}
+// The asset as written in a page -> its path from the repo root. A leading
+// slash is site-root, which is the repo root here; anything else is relative
+// to the page's own folder.
+const assetOf = (page, ref) => ref.startsWith('/') ? ref.slice(1)
+  : path.posix.normalize(path.posix.join(path.posix.dirname(page), ref));
+// Every spelling of `asset` that `page` could use, for the --bump rewrite.
+const spellings = (page, asset) => {
+  const rel = path.posix.relative(path.posix.dirname(page), asset);
+  return [...new Set(['/' + asset, rel])];
+};
+// Two forms: a tag, src="x.js?v=N", and a script loaded from a JS string,
+// _loadJS('x.js?v=N'). Only the tag form was read, so tree.html asked for
+// wordmap_meta_lite.js?v=417 and tree_paths.js?v=2 long after both files had
+// changed — the 13 tree branch fixes of review 740 never reached a returning
+// visitor (r09). The string must start like a path and name a script, style or
+// data file: '.js?v=' + v halves of a concatenation do not, and neither do the
+// font url('…woff2?v=<content hash>') faces, whose tools write their own hash.
+const REF_RES = [/(?:src|href)="([^"?]+)\?v=(\d+)"/g, /'(\/?[A-Za-z0-9_][^'"?\s]*\.(?:js|css|json))\?v=(\d+)'/g];
+
 function scan() {
   const refs = new Map(); // asset -> [{page, version}]
   const missing = [];
-  for (const page of fs.readdirSync(ROOT).filter(f => f.endsWith('.html')).sort()) {
+  for (const page of pageList()) {
     if (SKIP_PAGES.has(page)) continue;
     const src = fs.readFileSync(path.join(ROOT, page), 'utf8');
-    const re = /(?:src|href)="([^"?]+)\?v=(\d+)"/g;
+    for (const re of REF_RES) {
+    re.lastIndex = 0;
     let m;
     while ((m = re.exec(src))) {
-      // A leading slash is site-root, which is the repo root here.
-      const asset = m[1].replace(/^\//, '');
+      const asset = assetOf(page, m[1]);
       // wordmap.html builds some tags by concatenation
       // (src="lang_names/' + ui + '.js?v=133"). Those are not real paths; the
       // generated tags they produce are covered by validate_wordmap_data.js.
@@ -70,6 +103,7 @@ function scan() {
       if (!fs.existsSync(path.join(ROOT, asset))) { missing.push({ page, asset }); continue; }
       if (!refs.has(asset)) refs.set(asset, []);
       refs.get(asset).push({ page, version: Number(m[2]) });
+    }
     }
   }
   return { refs, missing };
@@ -137,21 +171,25 @@ if (BUMP) {
       if (pagesOff.length || contentChanged) bumped.push({ asset, from: versions, to: target, contentChanged: !!contentChanged });
     }
   }
-  // Apply the rewrites, one page at a time. Match the asset with an optional
-  // leading slash (site-root form like "/pwa.js?v=2") and any ?v=<digits>.
+  // Apply the rewrites, one page at a time. Match the asset in every spelling
+  // the page could use (site-root "/pwa.js?v=2" or relative), in a tag or in a
+  // quoted loader string, and any ?v=<digits>.
   let filesTouched = 0;
-  for (const page of fs.readdirSync(ROOT).filter(f => f.endsWith('.html')).sort()) {
+  for (const page of pageList()) {
     if (SKIP_PAGES.has(page)) continue;
     const p = path.join(ROOT, page);
     let src = fs.readFileSync(p, 'utf8');
     let changed = false;
     for (const [asset, target] of Object.entries(targets)) {
-      const esc = asset.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-      const re = new RegExp(`((?:src|href)="/?${esc})\\?v=(\\d+)"`, 'g');
-      src = src.replace(re, (m, head, oldV) => {
+      for (const spelt of spellings(page, asset)) {
+      const esc = spelt.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      for (const re of [new RegExp(`((?:src|href)="${esc})\\?v=(\\d+)(")`, 'g'), new RegExp(`('${esc})\\?v=(\\d+)(')`, 'g')]) {
+      src = src.replace(re, (m, head, oldV, tail) => {
         if (Number(oldV) === target) return m;   // already on target — leave byte-identical
-        changed = true; return `${head}?v=${target}"`;
+        changed = true; return `${head}?v=${target}${tail}`;
       });
+      }
+      }
     }
     if (changed) { fs.writeFileSync(p, src); filesTouched++; }
   }

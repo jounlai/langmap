@@ -373,6 +373,21 @@ WORDS.soap = {
     sr: "sapo",
     hr: "sapo",
     bs: "sapo",
+    en_us: "sapo",
+    en_ca: "sapo",
+    en_app: "sapo",
+    en_au: "sapo",
+    en_nz: "sapo",
+    en_in: "sapo",
+    en_jam: "sapo",
+    en_ng: "sapo",
+    en_ng2: "sapo",
+    en_ke: "sapo",
+    en_my: "sapo",
+    en_sg: "sapo",
+    en_ph: "sapo",
+    de_ch: "sapo",
+    de_at: "sapo",
   },
   routes: {
     sapo: {"color":"#2563eb","emoji":"🏛️","en":"Latin sapo","ja":"ラテン語 sapo","ko":"라틴어 sapo","zh":"拉丁语 sapo","yue":"拉丁語 sapo","vi":"tiếng Latinh sapo","th":"ละติน sapo","id":"Latin sapo","hi":"लैटिन sapo","de":"lateinisch sapo","fr":"le latin sapo","it":"il latino sapo","es":"el latín sapo","pt":"o latim sapo","ru":"латинское sapo","uk":"латинське sapo","ar":"اللاتينية sapo","he":"הלטינית sapo","sw":"Kilatini sapo"},
@@ -409,7 +424,7 @@ WORDS.soap = {
     cv: ["супӑнь", "supənʲ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     crh: ["sabun", "sabun"],
     cs: ["mýdlo", "ˈmiːdlo"],  // From mýt 'to wash'.
-    da: ["sæbe", "sɛːbə"],
+    da: ["sæbe", "ˈsɛːbə"],
     dar: ["сапун", "sapun"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     dv: ["ސައިބޯނި", "saiboːni"],
     nl: ["zeep", "zeːp"],
@@ -542,7 +557,7 @@ WORDS.soap = {
     es_bo: ["jabón", "xaˈbon"],
     es_py: ["jabón", "xaˈbon"],
     es_pa: ["jabón", "haˈbon"],
-    en_wls: ["soap", "səʊp"],
+    en_wls: ["soap", "soːp"],
     fr_sn: ["savon", "savɔ̃"],
     fr_ci: ["savon", "savɔ̃"],
     fr_ht: ["savon", "savɔ̃"],
@@ -559,16 +574,16 @@ WORDS.soap = {
     ko_bus: ["비누", "pinu"],
     ko_yb: ["비누", "pinu"],
     es_mx: ["jabón", "xaˈbon"],
-    pt_br: ["sabão", "sɐˈbɐ̃w̃"],
+    pt_br: ["sabão", "saˈbɐ̃w̃"],
     prs: ["صابون", "sɑːˈbun"],
-    en_aave: ["soap", "səʊp"],
-    en_south: ["soap", "səʊp"],
-    en_ie: ["soap", "səʊp"],
-    en_yk: ["soap", "səʊp"],
-    en_ck: ["soap", "səʊp"],
+    en_aave: ["soap", "soʊp"],
+    en_south: ["soap", "soʊp"],
+    en_ie: ["soap", "soːp"],
+    en_yk: ["soap", "soːp"],
+    en_ck: ["soap", "sæʊp"],
     en_scouse: ["soap", "səʊp"],
-    en_brum: ["soap", "səʊp"],
-    en_manc: ["soap", "səʊp"],
+    en_brum: ["soap", "sʌʊp"],
+    en_manc: ["soap", "sɔʊp"],
     en_wc: ["soap", "səʊp"],
     en_est: ["soap", "səʊp"],
     fr_qc: ["savon", "savɔ̃"],
@@ -687,5 +702,20 @@ WORDS.soap = {
     sr: ["сапун", "sǎpuːn"],  // From Latin sapo, probably through Medieval Greek σαπούνιον.
     hr: ["sapun", "sǎpuːn"],  // From Latin sapo, probably through Medieval Greek σαπούνιον.
     bs: ["sapun", "ˈsapuːn"],  // From Latin sapo, probably through Medieval Greek σαπούνιον.
+    en_us: ["soap", "soʊp"],  // Same word as standard English; IPA with the row's GOAT vowel (snow snoʊ, stone stoʊn, bone boʊn).
+    en_ca: ["soap", "soʊp"],  // Same word as standard English; IPA with the row's GOAT vowel (snow snoʊ, stone stoʊn, bone boʊn).
+    en_app: ["soap", "soʊp"],  // Same word as standard English; IPA with the row's GOAT vowel (snow snoʊ, stone stoʊn, bone boʊn).
+    en_au: ["soap", "səʉp"],  // Same word as standard English; IPA with the row's GOAT vowel (snow snəʉ, stone stəʉn, bone bəʉn).
+    en_nz: ["soap", "sɐʉp"],  // Same word as standard English; IPA with the row's GOAT vowel (snow snɐʉ, stone stɐʉn, bone bɐʉn).
+    en_in: ["soap", "soːp"],  // Same word as standard English; IPA with the row's GOAT vowel (snow snoː, stone stoːn, bone boːn).
+    en_jam: ["soap", "soːp"],  // Same word as standard English; IPA with the row's GOAT vowel (snow snoː, stone stoːn, bone boːn).
+    en_ng: ["soap", "soːp"],  // Same word as standard English; IPA with the row's GOAT vowel (snow snoː, stone stoːn).
+    en_ng2: ["soap", "soːp"],  // Same word as standard English; IPA with the row's GOAT vowel (snow snoː, stone stoːn, bone boːn).
+    en_ke: ["soap", "soːp"],  // Same word as standard English; IPA with the row's GOAT vowel (snow snoː, stone stoːn).
+    en_my: ["soap", "soːp"],  // Same word as standard English; IPA with the row's GOAT vowel (snow snoː, stone stoːn, bone boːn).
+    en_sg: ["soap", "soːp"],  // Same word as standard English; IPA with the row's GOAT vowel (snow snoː, stone stoːn, bone boːn).
+    en_ph: ["soap", "sop"],  // Same word as standard English; IPA with the row's GOAT vowel (stone ston, bone bon).
+    de_ch: ["Seife", "ˈsaɪfə"],
+    de_at: ["Seife", "ˈsaɪ̯fə"],
   },
 };

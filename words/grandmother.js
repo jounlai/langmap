@@ -1367,7 +1367,7 @@ WORDS.grandmother = {
     rtm: ["maʻkiga", "maʔkiŋa"],  // wordlist 'grandparent or grandchild'
     pmt: ["tupuna morire", "tupuna morire"],  // Tregear TUPUNA-MORIRE a grandmother; no maternal/paternal split given
     och: ["祖母", "*[ts]ˤaʔ məʔ"],  // 禮記 喪服小記 祖父卒，而后為祖母後者三年 (via 萌典). Readings Baxter-Sagart on Wiktionary.
-    zh_han: ["大母", "dhāś mǝ̄́"],  // 以宣帝大母家封為侯 as found on ctext. 大 from StarLing, 母 as the row's mother cell. 祖母 is also pre-Han, your choice.
+    zh_han: ["大母", "dhāś mǝ̄́"],  // Han-period 大母 'grandmother', as in 以宣帝大母家封為侯, said of the family of Emperor Xuan's grandmother Lady Shi, his father's mother; 祖母 is also attested before the Han.
     meu: ["tubu hahine", "tubu hahine"],  // Lawes "Grandmother, Tubu hahine"
     nxq: ["eqzzeeq", "ə˨˩dzɯ˨˩"],  // Sun 1991 (Lijiang Naxi) ə³¹dzɯ³¹. The dataset also has a garbled second form, so side is unknown. Row is Sun's Lijiang (36 of 65 match, rest notation). Naxi spelling is derived; the source is IPA.
     lis: ["a-zhe", "ɑ˥˥ʒɛ˧˩"],  // Sun 1991 (Lisu) ɑ⁵⁵ʒɛ³¹. Row matches Sun's Lisu 30 of 61. Latin spelling is derived, after the row. KinBank's four Lisu lists (Yu 2007) each give one word for both the father's and the mother's mother, one of them ajɛ.

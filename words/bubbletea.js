@@ -157,7 +157,7 @@ WORDS.bubbletea = {
     cs: ["boba čaj", "boba tʃaj"],  // boba + čaj "tea".
     fi: ["pallerotee", "ˈpɑlːeroˌteː"],  // pallero "little ball" + tee "tea"; kuplatee "bubble tea" and helmitee "pearl tea" are also used.
     sah: ["шариктаах чэй", "ʃariktaːx tʃej"],  // "Tea with little balls": from шарик "ball" + чэй "tea".
-    hy: ["Գնդիկներով թեյ", "ɡəndikneɾov tʰej"],  // "Tea with little balls"; մարգարտյա թեյ "pearl tea" is also used.
+    hy: ["գնդիկներով թեյ", "ɡəndikneɾov tʰej"],  // "Tea with little balls"; մարգարտյա թեյ "pearl tea" is also used.
     de_lu: ["Bubble Tea", "babl̩ tiː"],  // The same word as in German.
     nl_be: ["bubbelthee", "ˈbʏbəlteː"],  // The same word as in Dutch.
     de_ch: ["Bubble Tea", "babl̩ tiː"],  // The same word as in German.

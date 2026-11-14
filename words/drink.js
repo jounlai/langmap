@@ -104,7 +104,7 @@ WORDS.drink = {
       es_py: ["beber", "beˈβeɾ"],
       es_pa: ["beber", "beˈβeɾ"],
       en_my: ["drink", "dɹɪŋk"],
-      pt_gw: ["bibi", "bibi"],
+      pt_gw: ["bibi", "biˈbi"],
       tsz: ["itsïmani", "itsɨmani"],
       nez: ["ʼinéekuuse", "ʔinéːkuːse"],
       woe: ["iul", "ʉlʉ"],

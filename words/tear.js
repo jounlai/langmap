@@ -275,7 +275,7 @@ WORDS.tear = {
     ug: "plain",
     uk: "plain",
     ur: "plain",
-    uz: "plain",
+    uz: "eye",
     vep: "plain",
     vi: "eyewater",
     vot: "plain",
@@ -404,6 +404,15 @@ WORDS.tear = {
     es_ve: "plain",
     hr: "plain",
     bs: "plain",
+    en_us: "plain",
+    en_ca: "plain",
+    en_app: "plain",
+    en_nz: "plain",
+    en_ng: "plain",
+    en_ph: "plain",
+    en_geordie: "plain",
+    zh_tw: "eye",
+    pt_br: "plain",
   },
   routes: {
     eyewater: {"color":"#0891b2","emoji":"💧","en":"eye + water (air mata, 눈물, nước mắt)","ja":"目＋水（air mata, 눈물, nước mắt）","ko":"눈 + 물 (air mata, 눈물, nước mắt)","zh":"眼＋水（air mata、눈물、nước mắt）","yue":"眼＋水（air mata、눈물、nước mắt）","vi":"mắt + nước (air mata, 눈물, nước mắt)","th":"ตา + น้ำ (air mata, 눈물, nước mắt)","id":"mata + air (air mata, 눈물, nước mắt)","hi":"आँख + पानी (air mata, 눈물, nước mắt)","de":"Auge + Wasser (air mata, 눈물, nước mắt)","fr":"œil + eau (air mata, 눈물, nước mắt)","it":"occhio + acqua (air mata, 눈물, nước mắt)","es":"ojo + agua (air mata, 눈물, nước mắt)","pt":"olho + água (air mata, 눈물, nước mắt)","ru":"глаз + вода (air mata, 눈물, nước mắt)","uk":"око + вода (air mata, 눈물, nước mắt)","ar":"عين + ماء (air mata, 눈물, nước mắt)","he":"עין + מים (air mata, 눈물, nước mắt)","sw":"jicho + maji (air mata, 눈물, nước mắt)"},
@@ -423,7 +432,7 @@ WORDS.tear = {
     alt: ["јаш", "dʲɑʃ"],
     am: ["እንባ", "ɨnba"],
     ami: ["losaʼ", "losaʔ"],
-    ar: ["دمع", "damʕ"],
+    ar: ["دمعة", "damʕa"],  // The singular 'a tear'; دمع damʕ is the collective 'tears'.
     as: ["চকুপানী", "sɔkupɑni"],  // Built from the words for eye and water or liquid. Compare চকু 'eye', পানী 'water'.
     ast: ["llárima", "ˈʎaɾima"],
     av: ["магӏу", "maʕu"],
@@ -523,7 +532,7 @@ WORDS.tear = {
     lez: ["вилин нагъв", "wilin naʁʷ"],  // Built on the word for eye (вил).
     liv: ["kīņḑõl", "ˈkiːɲɟəl"],
     lt: ["ašara", "ˈɐʃɐrɐ"],
-    ltg: ["osora", "ɔsɔra"],
+    ltg: ["osora", "ˈɔsɔra"],
     lus: ["mittui", "mittui"],  // Built from the words for eye and water or liquid. Compare mit 'eye', tui 'water'.
     lv: ["asara", "asara"],
     mbc: ["enmusukuru", "enmusukuru"],
@@ -575,12 +584,12 @@ WORDS.tear = {
     rom: ["aswin", "aˈsvin"],
     rtm: ["sui ne mafa", "sui ne mafa"],  // Built on the word for eye (mafa).
     ru: ["слеза", "slʲɪˈza"],
-    rue: ["слыза", "slɨza"],
+    rue: ["слыза", "ˈslɨza"],
     rup: ["lacrimã", "ˈlakrimə"],
     sa: ["अश्रु", "ɐɕɾu"],
     sah: ["харах уута", "xaraxuuta"],  // Built from the words for eye and water or liquid. Compare харах 'eye', уу 'water'.
-    sc: ["làcrima", "lakrima"],
-    scn: ["làcrima", "lakrima"],
+    sc: ["làcrima", "ˈlakrima"],
+    scn: ["làcrima", "ˈlakrima"],
     se: ["ganjal", "ˈkaɲal"],
     sel: ["саит ӱт", "sajit yt"],  // Built from the words for eye and water or liquid. Compare сайы 'eye', ӱт 'water'.
     sg: ["ngûlê", "ŋɡulɛ"],  // Built from the words for eye and water or liquid. Compare lê 'eye', ngu 'water'.
@@ -623,7 +632,7 @@ WORDS.tear = {
     ug: ["ياش", "jɑʃ"],
     uk: ["сльоза", "sʲlʲɔˈza"],
     ur: ["آنسو", "ãːsuː"],
-    uz: ["jola", "dʒɒˈlæ"],
+    uz: ["koʻz yoshi", "koz jɒˈʃi"],  // Built on the word for eye (koʻz) with yosh 'tear', like Turkish gözyaşı; the title of the Uzbek Wikipedia article. Dictionaries also list jola, from Persian ژاله.
     vep: ["kündal'", "kyndalʲ"],
     vi: ["nước mắt", "nɨək˧˥ mat˧˥"],  // Built from the words for eye and water or liquid. Compare mắt 'eye', nước 'water'.
     vot: ["čüünel", "ˈtʃyːnel"],
@@ -690,14 +699,14 @@ WORDS.tear = {
     fr_lu: ["larme", "laʁm"],
     fr_cm: ["larme", "laʁm"],
     de_lu: ["Träne", "ˈtrɛːnə"],
-    en_ng2: ["tear", "tɪə"],
+    en_ng2: ["tear", "tia"],
     es_bo: ["lágrima", "ˈlaɡɾima"],
     es_py: ["lágrima", "ˈlaɡɾima"],
     es_pa: ["lágrima", "ˈlaɡɾima"],
-    en_my: ["tear", "tɪə"],
-    en_wls: ["tear", "tɪə"],
-    en_jam: ["tear", "tɪə"],
-    en_ke: ["tear", "tɪə"],
+    en_my: ["tear", "tiə"],
+    en_wls: ["tear", "tiːə"],
+    en_jam: ["tear", "tiːa"],
+    en_ke: ["tear", "tia"],
     fr_sn: ["larme", "laʁm"],
     fr_ci: ["larme", "laʁm"],
     fr_ht: ["larme", "laʁm"],
@@ -716,22 +725,22 @@ WORDS.tear = {
     ko_bus: ["눈물", "nunmul"],
     ko_yb: ["눈물", "nunmul"],
     es_mx: ["lágrima", "ˈlaɡɾima"],
-    en_aave: ["tear", "tɪə"],
+    en_aave: ["tear", "tiə"],
     en_au: ["tear", "tɪə"],
     de_at: ["Träne", "ˈtrɛːnə"],
     rmy: ["aswin", "aˈsvin"],
-    en_south: ["tear", "tɪə"],
-    en_in: ["tear", "ʈɪə"],
-    en_ie: ["tear", "tɪə"],
-    en_sco: ["tear", "tɪə"],
+    en_south: ["tear", "tɪɚ"],
+    en_in: ["tear", "ʈiːr"],
+    en_ie: ["tear", "tiːɹ"],
+    en_sco: ["tear", "tiɹ"],
     en_yk: ["tear", "tɪə"],
     en_ck: ["tear", "tɪə"],
-    en_scouse: ["tear", "tɪə"],
+    en_scouse: ["tear", "tiɛ"],
     en_brum: ["tear", "tɪə"],
     en_manc: ["tear", "tɪə"],
-    en_wc: ["tear", "tɪə"],
+    en_wc: ["tear", "tɪɚ"],
     en_est: ["tear", "tɪə"],
-    en_sg: ["tear", "tɪə"],
+    en_sg: ["tear", "tiə"],
     fr_qc: ["larme", "laʁm"],
     fr_af: ["larme", "laʁm"],
     fr_be: ["larme", "laʁm"],
@@ -752,5 +761,14 @@ WORDS.tear = {
     es_ve: ["lágrima", "ˈlaɡɾima"],
     hr: ["suza", "sûza"],  // Inherited from Proto-Slavic *slьza.
     bs: ["suza", "ˈsuza"],  // Inherited from Proto-Slavic *slьza.
+    en_us: ["tear", "tɪɹ"],  // Same word as standard English; IPA from the row's ear (ɪɹ).
+    en_ca: ["tear", "tɪɹ"],  // Same word as standard English; IPA from the row's ear (ɪɹ).
+    en_app: ["tear", "tɪɚ"],  // Same word as standard English; IPA from the row's ear (ɪɚ).
+    en_nz: ["tear", "tiə"],  // Same word as standard English; IPA from the row's ear (iə).
+    en_ng: ["tear", "tia"],  // Same word as standard English; IPA from the row's ear (ia).
+    en_ph: ["tear", "tiɹ"],  // Same word as standard English; IPA from the row's ear (iɹ).
+    en_geordie: ["tear", "tɪə"],  // Same word as standard English; IPA from the row's ear (ɪə).
+    zh_tw: ["眼淚", "jɛn˧˩˧ leɪ̯˥˩"],  // Built on the word for eye (眼).
+    pt_br: ["lágrima", "ˈlaɡɾimɐ"],
   },
 };

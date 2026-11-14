@@ -185,7 +185,7 @@ WORDS.wednesday = {
     tpi: "count",
     se: "middle",
     sma: "middle",
-    smn: "plain",
+    smn: "middle",
     sjd: "middle",
     yrl: "count",
     as: "mercury",
@@ -509,7 +509,7 @@ WORDS.wednesday = {
     ja: ["水曜日", "sɯijoːbi"],  // 水曜 'Mercury (the planet)' + 日 'day'.
     ko: ["수요일", "sujoil"],  // Sino-Korean 水曜日, 'Mercury' + 'day'.
     vi: ["thứ tư", "tʰɨ˧˥ tɨ˧"],  // thứ + tư 'four'.
-    th: ["พุธ", "pʰut˦˥"],  // Borrowed from Sanskrit budha; also 'Mercury'.
+    th: ["วันพุธ", "wan˧pʰut˦˥"],  // วัน 'day' + พุธ, borrowed from Sanskrit budha; พุธ alone is also the planet Mercury.
     id: ["Rabu", "ˈrabu"],  // From Malay Rabu, from Arabic al-ʔarbaʕāʔ 'the fourth'.
     ms: ["Rabu", "rabu"],  // From Arabic al-ʔarbaʕāʔ 'the fourth'.
     hi: ["बुधवार", "bʊdʱʋɑːɾ"],  // Sanskrit budha, the planet Mercury, + vāra 'day'.
@@ -517,7 +517,7 @@ WORDS.wednesday = {
     bn: ["বুধবার", "bud̪ʱbaɾ"],
     ur: ["بدھ", "bʊdʱ"],
     ta: ["புதன்", "bʊd̪ɐn"],
-    en: ["Wednesday", "ˈwenzdeɪ"],  // From Old English wōdnesdæġ, 'Woden's day'.
+    en: ["Wednesday", "ˈwɛnzdeɪ"],  // From Old English wōdnesdæġ, 'Woden's day'.
     de: ["Mittwoch", "ˈmɪtvɔx"],  // From Old High German mittawehha, 'middle of the week'.
     fr: ["mercredi", "mɛʁkʁədi"],  // From Latin Mercuriī diēs, 'day of Mercury'.
     it: ["mercoledì", "ˌmɛrkoleˈdi"],  // From Latin Mercuriī diēs, 'day of Mercury'.
@@ -589,7 +589,7 @@ WORDS.wednesday = {
     om: ["Roobbii", "roːbːiː"],
     xh: ["uLwesithathu", "ulʷesitʰaːtʰu"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     ny: ["Lachitatu", "ɽatʃiˈtatu"],
-    af: ["Woensdag", "vunsdaχ"],
+    af: ["Woensdag", "ˈvunsdaχ"],
     is: ["miðvikudagur", "ˈmɪðvɪːkʏˌtaːɣʏr"],  // mið 'middle' + vika 'week' + dagur 'day'.
     gd: ["Diciadain", "d̥ʲəˈkʲʰiət̪iɲ"],  // From Old Irish 'first' and 'fast'.
     br: ["Merc'her", "ˈmɛʁxɛʁ"],
@@ -603,24 +603,24 @@ WORDS.wednesday = {
     be: ["серада", "sʲeraˈda"],
     cs: ["středa", "ˈstr̝̊ɛda"],
     sk: ["streda", "ˈstreda"],
-    sl: ["sreda", "sreːda"],
+    sl: ["sreda", "ˈsreːda"],
     bg: ["сряда", "ˈsrʲa̟dɐ"],
-    lv: ["trešdiena", "drɛʒdiɛna"],
+    lv: ["trešdiena", "ˈtrɛʒdiɛna"],
     sq: ["e mërkurë", "ɛmərˈkurə"],
     et: ["kolmapäev", "ˈkolmɑˌbæev"],
     ht: ["mèkredi", "mɛkɣedi"],
     pap: ["djarason", "djarason"],  // dia 'day' + ração 'ration'.
     tpi: ["Trinde", "trinde"],
     se: ["gaskavahkku", "ˈkasːkaˌvahːkuː"],
-    sma: ["gaskevåhkoe", "kaskɛβɔhkuʌ"],
-    smn: ["koskokko", "koskokːo"],
+    sma: ["gaskevåhkoe", "ˈkaskɛβɔhkuʌ"],
+    smn: ["koskokko", "ˈkoskokːo"],  // 'Middle' + okko 'week', the same make-up as Northern Sámi gaskavahkku (gaska 'middle' + vahkku 'week').
     sjd: ["ся̄рэдт", "ɕaːredt"],
     yrl: ["murakimusapiri", "muraˌkimusaˈpiri"],
     as: ["বুধবাৰ", "budbɑɹ"],
     or: ["ବୁଧବାର", "budʱɔbaɾɔ"],
     fy: ["woansdei", "ˈvaːnzdi"],
     li: ["Goustech", "ˈɣɔustəç"],
-    nn: ["onsdag", "ɔnːsdaɡ"],
+    nn: ["onsdag", "ˈɔnːsdaɡ"],
     fo: ["mikudagur", "ˈmiːkʊˌtɛaːvʊɹ"],
     la: ["diēs Mercuriī", "ˈdiːeːs merˈkuriiː"],
     enm: ["Wednesday", "ˈwɛdnəzˌdæi̯"],
@@ -628,7 +628,7 @@ WORDS.wednesday = {
     aii: ["ܐܪܒܥܒܫܒܐ", "ʔarˈboːʃeːba"],
     nci: ["ic nahuilhuitl semana", "inaːˈwiɬwitɬ ʃiˈmaːnaʔ"],
     eo: ["merkredo", "merˈkredo"],
-    vo: ["vedel", "vedel"],
+    vo: ["vedel", "veˈdel"],
     ia: ["mercuridi", "merkuriˈdi"],
     cbk: ["Miercoles", "ˈmjeɾkoles"],
     ak: ["Wukuada", "wukuada"],
@@ -654,7 +654,7 @@ WORDS.wednesday = {
     kok: ["बुधवार", "budʱʋɑːɾ"],
     hsb: ["srjeda", "ˈsʀʲɛda"],
     csb: ["strzoda", "ˈstr̝ɔda"],
-    ast: ["miércoles", "mjeɾkoles"],
+    ast: ["miércoles", "ˈmjeɾkoles"],
     fax: ["mérculis", "ˈmeɾkulis"],
     wa: ["mierkidi", "mjɛʀkiˈdi"],
     kpv: ["середа", "ˈɕereda"],
@@ -662,7 +662,7 @@ WORDS.wednesday = {
     mhr: ["вӱргече", "vyrˈɡetɕe"],  // вӱр 'blood' + кече 'day', a calque of Tatar.
     mrj: ["вӹрчегӹ", "vɯrtʃeɣɯ"],
     myv: ["серёда", "sʲerʲoda"],
-    olo: ["kolmaspäivy", "kolmaspæivy"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    olo: ["kolmaspäivy", "ˈkolmasˌpæivy"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     vot: ["kõlmõzpäive", "ˈkɤlmɑzˌpæivæ"],
     liv: ["kuolmõndpǟva", "ˈkuolməndˌpæːvɑ"],
     tt: ["чәршәмбе", "tʃærʃæmbe"],
@@ -675,7 +675,7 @@ WORDS.wednesday = {
     dsb: ["srjoda", "ˈsrʲɔda"],
     gv: ["Jecrean", "dʒeˈkrəːnʲ"],  // From Old Irish día cétaíne, 'day of the first fast'.
     bjn: ["Arba", "arba"],
-    mns: ["среда", "sreda"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    mns: ["среда", "ˈsreda"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     tsg: ["Albaa", "ʔalbaʔa"],
     hr: ["srijeda", "srijěda"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     tzm: ["ⴰⵀⴰⴷ", "ahad"],
@@ -695,7 +695,7 @@ WORDS.wednesday = {
     pot: ["aptë-gizhêk", "aptʌ kiʃʊk"],
     io: ["merkurdio", "merˈkurdio"],
     vls: ["woensdag", "ˈvunsdɑx"],
-    fkv: ["keskiviikko", "keskiʋiːkːo"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    fkv: ["keskiviikko", "ˈkeskiˌʋiːkːo"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     pt_br: ["quarta-feira", "kwaʁtɐˈfejɾɐ"],
     zh: ["星期三", "ɕiŋ˥ tɕʰi˥ san˥"],  // 星期 'week' + 三 'three'.
     zh_tw: ["星期三", "ɕiŋ˥ tɕʰi˧˥ san˥"],  // 星期 'week' + 三 'three'.
@@ -707,22 +707,22 @@ WORDS.wednesday = {
     fr_lu: ["mercredi", "mɛʁkʁədi"],
     fr_cm: ["mercredi", "mɛʁkʁədi"],
     de_lu: ["Mittwoch", "ˈmɪtvɔx"],
-    en_ng2: ["Wednesday", "ˈwenzdeɪ"],
+    en_ng2: ["Wednesday", "ˈwɛnzdeɪ"],
     es_bo: ["miércoles", "ˈmjeɾkoles"],
     es_py: ["miércoles", "ˈmjeɾkoles"],
-    es_pa: ["miércoles", "ˈmjeɾkoles"],
-    en_my: ["Wednesday", "ˈwenzdeɪ"],
-    en_wls: ["Wednesday", "ˈwenzdeɪ"],
-    en_jam: ["Wednesday", "ˈwenzdeɪ"],
-    en_ke: ["Wednesday", "ˈwenzdeɪ"],
+    es_pa: ["miércoles", "ˈmjeɾkoleh"],
+    en_my: ["Wednesday", "ˈwɛnzdeɪ"],
+    en_wls: ["Wednesday", "ˈwɛnzdeɪ"],
+    en_jam: ["Wednesday", "ˈwɛnzdeː"],
+    en_ke: ["Wednesday", "ˈwɛnzdeː"],
     fr_sn: ["mercredi", "mɛʁkʁədi"],
     fr_ci: ["mercredi", "mɛʁkʁədi"],
     fr_ht: ["mercredi", "mɛʁkʁədi"],
     pt_mz: ["quarta-feira", "kwaɾtɐˈfɐjɾɐ"],
     nl_be: ["woensdag", "ˈwunsdɑx"],
-    en_us: ["Wednesday", "ˈwenzdeɪ"],
-    en_ca: ["Wednesday", "ˈwenzdeɪ"],
-    en_za: ["Wednesday", "ˈwenzdeɪ"],
+    en_us: ["Wednesday", "ˈwɛnzdeɪ"],
+    en_ca: ["Wednesday", "ˈwɛnzdeɪ"],
+    en_za: ["Wednesday", "ˈwenzdeː"],
     de_ch: ["Mittwoch", "ˈmɪtvɔx"],
     pt_ao: ["quarta-feira", "kwaɾtɐˈfɐjɾɐ"],
     ca_va: ["dimecres", "diˈmekɾas"],
@@ -735,43 +735,43 @@ WORDS.wednesday = {
     ko_bus: ["수요일", "sujoil"],
     ko_yb: ["수요일", "sujoil"],
     es_mx: ["miércoles", "ˈmjeɾkoles"],
-    en_aave: ["Wednesday", "ˈwenzdeɪ"],
-    en_au: ["Wednesday", "ˈwænzdæɪ"],
+    en_aave: ["Wednesday", "ˈwɛnzdeɪ"],
+    en_au: ["Wednesday", "ˈwenzdæɪ"],
     de_at: ["Mittwoch", "ˈmɪtvɔx"],
     smj: ["gaskavahkku", "ˈkasːkaˌvahːkuː"],
-    en_south: ["Wednesday", "ˈwenzdeɪ"],
-    en_app: ["Wednesday", "ˈwenzdeɪ"],
-    en_in: ["Wednesday", "ˈʋenzɖeɪ"],
-    en_ie: ["Wednesday", "ˈwenzdeɪ"],
-    en_sco: ["Wednesday", "ˈwenzdeɪ"],
-    en_yk: ["Wednesday", "ˈwenzdeɪ"],
-    en_ck: ["Wednesday", "ˈwenzdeɪ"],
-    en_scouse: ["Wednesday", "ˈwenzdeɪ"],
-    en_geordie: ["Wednesday", "ˈwenzdeɪ"],
-    en_brum: ["Wednesday", "ˈwʌnzdʌɪ"],
-    en_manc: ["Wednesday", "ˈwenzdeɪ"],
-    en_wc: ["Wednesday", "ˈwenzdeɪ"],
-    en_est: ["Wednesday", "ˈwɛnzdɛɪ"],
-    en_sg: ["Wednesday", "ˈwenzdeɪ"],
+    en_south: ["Wednesday", "ˈwɛnzdæɪ"],
+    en_app: ["Wednesday", "ˈwɛnzdeɪ"],
+    en_in: ["Wednesday", "ˈʋɛnzɖeː"],
+    en_ie: ["Wednesday", "ˈwɛnzdeː"],
+    en_sco: ["Wednesday", "ˈwɛnzde"],
+    en_yk: ["Wednesday", "ˈwɛnzdeː"],
+    en_ck: ["Wednesday", "ˈwenzdæɪ"],
+    en_scouse: ["Wednesday", "ˈwɛnzdeɪ"],
+    en_geordie: ["Wednesday", "ˈwɛnzdə"],
+    en_brum: ["Wednesday", "ˈwɛnzdʌɪ"],
+    en_manc: ["Wednesday", "ˈwɛnzdeɪ"],
+    en_wc: ["Wednesday", "ˈwɛnzdeɪ"],
+    en_est: ["Wednesday", "ˈwenzdɛɪ"],
+    en_sg: ["Wednesday", "ˈwɛnzdeː"],
     fr_qc: ["mercredi", "mɛʁkʁədi"],
     fr_af: ["mercredi", "mɛʁkʁədi"],
     fr_be: ["mercredi", "mɛʁkʁədi"],
     fr_ch: ["mercredi", "mɛʁkʁədi"],
     es_co: ["miércoles", "ˈmjeɾkoles"],
-    es_cl: ["miércoles", "ˈmjeɾkoles"],
+    es_cl: ["miércoles", "ˈmjeɾkoleh"],
     es_ar: ["miércoles", "ˈmjeɾkoles"],
-    es_cu: ["miércoles", "ˈmjeɾkoles"],
+    es_cu: ["miércoles", "ˈmjeɾkoleh"],
     es_pe: ["miércoles", "ˈmjeɾkoles"],
-    es_an: ["miércoles", "ˈmjeɾkoles"],
+    es_an: ["miércoles", "ˈmjeɾkoleh"],
     ko_hg: ["수요일", "sujoil"],
     ko_jl: ["수요일", "sujoil"],
     lij_t: ["mèrcoledì", "mɛrkoleˈdi"],
-    es_pr: ["miércoles", "ˈmjeɾkoles"],
-    es_do: ["miércoles", "ˈmjeɾkoles"],
+    es_pr: ["miércoles", "ˈmjeɾkoleh"],
+    es_do: ["miércoles", "ˈmjeɾkole"],
     es_gt: ["miércoles", "ˈmjeɾkoles"],
     es_ec: ["miércoles", "ˈmjeɾkoles"],
     es_uy: ["miércoles", "ˈmjeɾkoles"],
-    es_ve: ["miércoles", "ˈmjeɾkoles"],
+    es_ve: ["miércoles", "ˈmjeɾkoleh"],
     ar_qur: ["الأربعاء", "alʔarbiʕaːʔ"],  // The fourth day.
     ofs: ["wedenesdei", "ˈwedenesdei"],  // Woden's day.
     non: ["óðinsdagr", "ˈoːðinsdɑɣr"],  // Odin's day, a calque of West Germanic *Wōdanas dag.

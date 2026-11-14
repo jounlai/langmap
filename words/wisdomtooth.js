@@ -37,7 +37,7 @@ WORDS.wisdomtooth = {
     uk: "Зуб мудрості",
     ar: "ضرس العقل",
     he: "שן בינה",
-    sw: "Wisdom tooth",
+    sw: "Gego la mwisho",
   },
   definition: {
     en: "Wisdom tooth — the third molar, which comes in around twenty. Most languages say it brings wisdom (wisdom tooth, Weisheitszahn, dent de sagesse, ضرس العقل, 智齿, Hindi अक़्ल दाढ़). Others tie it to age, and some to something else: Japanese 親知らず \"the parents don't know\", because it arrives after a child has grown up, and Korean 사랑니 \"love tooth\", because it comes at the age of first love.",
@@ -62,7 +62,7 @@ WORDS.wisdomtooth = {
     uk: "Зуб мудрості — третій кутній зуб, що прорізується близько двадцяти років. Більшість мов каже, що він приносить мудрість (wisdom tooth, Weisheitszahn, dent de sagesse, ضرس العقل, 智齿). Інші пов'язують його з віком, а деякі — з чимось зовсім іншим: японське 親知らず «батьки не знають», бо він з'являється, коли дитина вже доросла, і корейське 사랑니 «зуб кохання», бо приходить у віці першого кохання.",
     ar: "ضرس العقل — الضرس الثالث الذي يظهر نحو العشرين. تقول معظم اللغات إنه يأتي بالحكمة أو العقل (wisdom tooth وWeisheitszahn وdent de sagesse وضرس العقل و智齿). وتربطه لغات أخرى بالعمر، وبعضها بشيء آخر تمامًا: اليابانية 親知らず «الوالدان لا يعلمان» لأنه يظهر بعد أن يكبر الولد ويغادر البيت، والكورية 사랑니 «سن الحب» لأنه يظهر في سن الحب الأول.",
     he: "שן בינה — הטוחנת השלישית, שבוקעת סביב גיל עשרים. רוב השפות אומרות שהיא מביאה חוכמה (wisdom tooth, Weisheitszahn, dent de sagesse, ضرس العقل, 智齿, שן בינה). אחרות קושרות אותה לגיל, ויש שקושרות אותה לדבר אחר לגמרי: ביפנית 親知らず \"ההורים לא יודעים\", כי היא בוקעת אחרי שהילד כבר עזב את הבית, ובקוריאנית 사랑니 \"שן אהבה\", כי היא בוקעת בגיל האהבה הראשונה.",
-    sw: "Wisdom tooth — gego la tatu linalochomoza karibu na umri wa miaka ishirini. Lugha nyingi husema huleta busara (wisdom tooth, Weisheitszahn, dent de sagesse, ضرس العقل, 智齿). Nyingine hulihusisha na umri, na baadhi na jambo jingine kabisa: Kijapani 親知らず \"wazazi hawajui\", kwa sababu huota mtoto akiisha kukua na kuondoka nyumbani, na Kikorea 사랑니 \"jino la mapenzi\", kwa sababu huota katika umri wa mapenzi ya kwanza.",
+    sw: "Gego la mwisho — gego la tatu linalochomoza karibu na umri wa miaka ishirini. Lugha nyingi husema huleta busara (wisdom tooth, Weisheitszahn, dent de sagesse, ضرس العقل, 智齿). Nyingine hulihusisha na umri, na baadhi na jambo jingine kabisa: Kijapani 親知らず \"wazazi hawajui\", kwa sababu huota mtoto akiisha kukua na kuondoka nyumbani, na Kikorea 사랑니 \"jino la mapenzi\", kwa sababu huota katika umri wa mapenzi ya kwanza.",
   },
   family: {
     ja: "other",

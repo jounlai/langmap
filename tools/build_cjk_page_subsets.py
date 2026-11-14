@@ -91,12 +91,15 @@ def fname(page, fam, w, i):
 
 
 def covered(path, chunk):
-    """The chunk's characters that the saved file really has, and its hash."""
+    """The chunk's characters that the saved file really has, and its hash.
+    No file (Google answered 400: the face has no glyph in this chunk, e.g. a JP
+    face and a chunk of Hangul) means no characters, so no @font-face: the old
+    'missing' entry made the pages request six woff2 files that 404."""
     try:
         data = open(path, 'rb').read()
         cmap = TTFont(path).getBestCmap()
     except OSError:
-        return chunk, 'missing'
+        return '', 'missing'
     return ''.join(c for c in chunk if ord(c) in cmap), hashlib.sha256(data).hexdigest()[:10]
 
 

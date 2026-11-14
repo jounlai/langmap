@@ -36,7 +36,10 @@
             var langs = navigator.languages || [navigator.language || 'en'];
             for (var i = 0; i < langs.length; i++) {
                 var l = String(langs[i]).replace('-', '_').toLowerCase();
-                if (l.indexOf('zh') === 0 && (l.indexOf('hk') !== -1 || l.indexOf('tw') !== -1 || l.indexOf('hant') !== -1)) return 'yue';
+                // The page's detectLang: Hong Kong / Macau Chinese is Cantonese, Taiwan
+                // stays Mandarin (zh). Guessing yue for zh-TW fetched a slice the page
+                // then dropped, and the zh one only after first paint.
+                if (/^(yue|zh-(hk|mo)|zh-hant-(hk|mo))\b/.test(String(langs[i]).toLowerCase())) return 'yue';
                 var b = l.split('_')[0];
                 if (UIS.indexOf(b) !== -1) return b;
             }

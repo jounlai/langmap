@@ -916,7 +916,7 @@ WORDS.monkey = {
     zh_cq: ["猴子", "xəu˨˩ tsɿ˦˨"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Chongqing; reading from MCPDict 重慶.
     zh_db: ["猴子", "xoʊ̯˧˥ tsɨ"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
     zh_hf: ["猴子", "xɤɯ˦˥ tə"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Hefei; reading from MCPDict 合肥.
-    zh_jh: ["猴子", "xəu˩˧ tsɿ"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Yangzhou; reading from MCPDict 揚州.
+    zh_jh: ["猴子", "xəu˩˧ tsɿ"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Yangzhou; reading in the row's Nanjing tone values, 陽平 ˩˧ (MCPDict 南京 猴 xəu2 = 13; 揚州 xɤɯ ˧˥).
     zh_jiao: ["猴子", "xou˦˨ tsɿ˥˥"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Qingdao; reading from MCPDict 青島.
     zh_jn: ["猴子", "xou˦˨ tsɿ"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Jinan; reading from MCPDict 濟南.
     zh_km: ["猴子", "xəu˧˩ tsɿ"],  // 猴 'monkey' with the noun suffix 子. Word from Wiktionary's dialect table for Kunming; reading from MCPDict 昆明.

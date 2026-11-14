@@ -512,7 +512,7 @@ WORDS.wednesday = {
     th: ["วันพุธ", "wan˧pʰut˦˥"],  // วัน 'day' + พุธ, borrowed from Sanskrit budha; พุธ alone is also the planet Mercury.
     id: ["Rabu", "ˈrabu"],  // From Malay Rabu, from Arabic al-ʔarbaʕāʔ 'the fourth'.
     ms: ["Rabu", "rabu"],  // From Arabic al-ʔarbaʕāʔ 'the fourth'.
-    hi: ["बुधवार", "bʊdʱʋɑːɾ"],  // Sanskrit budha, the planet Mercury, + vāra 'day'.
+    hi: ["बुधवार", "bʊdʱʋaːɾ"],  // Sanskrit budha, the planet Mercury, + vāra 'day'.
     sa: ["बुधवार", "budʱɐʋaːɾɐ"],
     bn: ["বুধবার", "bud̪ʱbaɾ"],
     ur: ["بدھ", "bʊdʱ"],
@@ -569,9 +569,9 @@ WORDS.wednesday = {
     ceb: ["Miyerkoles", "miˌjeɾkoˈles"],
     ilo: ["Mierkoles", "mjeɾˈkoles"],
     sd: ["اربع", "əɾbaː"],
-    pa: ["ਬੁੱਧਵਾਰ", "bʊ˦d̪ːʋäɾ"],
-    ne: ["बुधबार", "budʌbär"],
-    gu: ["બુધવાર", "ˈbudʱʋɑɾ"],
+    pa: ["ਬੁੱਧਵਾਰ", "bʊ˦d̪ːʋaːɾ"],
+    ne: ["बुधबार", "budʌbaːr"],
+    gu: ["બુધવાર", "ˈbudʱʋaːɾ"],
     dv: ["ބުދަ ދުވަސް", "bud̪ə d̪uʋəs̺"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     kn: ["ಬುಧವಾರ", "bud̪ʰəʋɑːɾə"],
     ml: ["ബുധനാഴ്ച", "bud̪ʱɐnaːɻtʃɐ"],
@@ -651,7 +651,7 @@ WORDS.wednesday = {
     ban: ["buda", "budə"],
     aa: ["arbaq", "arˈbaʕ"],
     ks: ["بۄدوار", "bɔdʋaːr"],
-    kok: ["बुधवार", "budʱʋɑːɾ"],
+    kok: ["बुधवार", "budʱʋaːɾ"],
     hsb: ["srjeda", "ˈsʀʲɛda"],
     csb: ["strzoda", "ˈstr̝ɔda"],
     ast: ["miércoles", "ˈmjeɾkoles"],
@@ -725,7 +725,7 @@ WORDS.wednesday = {
     en_za: ["Wednesday", "ˈwenzdeː"],
     de_ch: ["Mittwoch", "ˈmɪtvɔx"],
     pt_ao: ["quarta-feira", "kwaɾtɐˈfɐjɾɐ"],
-    ca_va: ["dimecres", "diˈmekɾas"],
+    ca_va: ["dimecres", "diˈmekɾes"],
     ja_osa: ["水曜日", "sɯijoːbi"],
     ja_aom: ["水曜日", "sɯijoːbi"],
     ja_hak: ["水曜日", "sɯijoːbi"],

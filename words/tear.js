@@ -487,11 +487,11 @@ WORDS.tear = {
     gld: ["нимокта", "ni̟mɔkta"],
     gmh: ["zaher", "ˈtsahər"],
     grt: ["mikchi", "miktʃi"],  // Built from the words for eye and water or liquid.
-    gu: ["આંસુ", "ˈɑ̃su"],
+    gu: ["આંસુ", "ˈãːsu"],
     gv: ["jeir", "dʒeːr"],
     haw: ["waimaka", "waimaka"],  // Built from the words for eye and water or liquid. Compare maka 'eye', wai 'water'.
     he: ["דמעה", "dimˈa"],
-    hi: ["आँसू", "ɑ̃ːsuː"],
+    hi: ["आँसू", "ãːsuː"],
     hil: ["luha", "luha"],
     hsb: ["sylza", "ˈsɨlza"],
     ht: ["dlo je", "dlo ʒe"],  // Built from the words for eye and water or liquid. Compare je 'eye', dlo 'water'.

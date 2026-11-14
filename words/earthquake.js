@@ -430,7 +430,7 @@ WORDS.earthquake = {
     nzm: ["kagetei", "kaɡetei"],
     or: ["ଭୂମିକମ୍ପ", "bʱumikɔmpɔ"],  // Built on the word for earth or land.
     ote: ["hmämhai", "hmãmhai"],  // Built on the word for earth or land.
-    pa: ["ਜ਼ਲਜ਼ਲਾ", "ˈzəlzəläː"],  // From Arabic زلزلة zalzala.
+    pa: ["ਜ਼ਲਜ਼ਲਾ", "ˈzəlzəlaː"],  // From Arabic زلزلة zalzala.
     pam: ["ayun", "əˈjun"],
     pap: ["temblor", "temblor"],  // A word for shaking, with no earth in it.
     pl: ["trzęsienie ziemi", "tʂɛ̃ˈɕɛɲɛ ˈʑɛmi"],  // Built on the word for earth or land.
@@ -470,7 +470,7 @@ WORDS.earthquake = {
     tt: ["зилзилә", "zilzilæ"],  // From Arabic زلزلة zalzala.
     ug: ["زىلزىلە", "zilzilɛ"],  // From Arabic زلزلة zalzala.
     uk: ["землетрус", "zemɫeˈtrus"],  // Built on the word for earth or land.
-    ur: ["زلزلہ", "zəlzəlɑː"],  // From Arabic زلزلة zalzala.
+    ur: ["زلزلہ", "zəlzəlaː"],  // From Arabic زلزلة zalzala.
     uz: ["zilzila", "zilzila"],  // From Arabic زلزلة zalzala.
     vi: ["động đất", "ɗəwŋ˧˨ʔ ɗət˧˥"],  // Built on the word for earth or land.
     vo: ["taladrem", "talaˈdrem"],

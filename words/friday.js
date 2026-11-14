@@ -521,7 +521,7 @@ WORDS.friday = {
     th: ["วันศุกร์", "wan˧suk˨˩"],  // วัน 'day' + ศุกร์, borrowed from Sanskrit śukra 'the planet Venus'.
     id: ["Jumat", "ˈdʒumʔat"],  // From Arabic al-jumʿa.
     ms: ["Jumaat", "dʒumaʔat"],  // From Arabic al-jumʿa.
-    hi: ["शुक्रवार", "ʃʊkɾəʋɑːɾ"],  // Sanskrit śukra, the planet Venus, + vāra 'day'.
+    hi: ["शुक्रवार", "ʃʊkɾəʋaːɾ"],  // Sanskrit śukra, the planet Venus, + vāra 'day'.
     sa: ["शुक्रवार", "ɕukɾɐʋaːɾɐ"],
     bn: ["শুক্রবার", "ʃukɾobaɾ"],
     ur: ["جمعہ", "dʒʊmʔaː"],  // From Arabic jumʿa via Persian.
@@ -575,9 +575,9 @@ WORDS.friday = {
     ceb: ["Biyernes", "biˈjeɾnes"],
     ilo: ["Biernes", "ˈbjeɾnes"],
     sd: ["جمعو", "dʒʊmoː"],
-    pa: ["ਸ਼ੁੱਕਰਵਾਰ", "ʃʊkkəɾʋäːɾ"],
-    ne: ["शुक्रबार", "sukrʌbär"],
-    gu: ["શુક્રવાર", "ˈʃukɾəʋɑɾ"],
+    pa: ["ਸ਼ੁੱਕਰਵਾਰ", "ʃʊkkəɾʋaːɾ"],
+    ne: ["शुक्रबार", "sukrʌbaːr"],
+    gu: ["શુક્રવાર", "ˈʃukɾəʋaːɾ"],
     dv: ["ހުކުރު ދުވަސް", "hukuɾu d̪uʋəs̺"],
     kn: ["ಶುಕ್ರವಾರ", "ʃukɾəʋɑːɾə"],
     ml: ["വെള്ളിയാഴ്ച", "ʋeɭɭijaːɻtʃɐ"],  // വെള്ളി 'Venus' + ആഴ്ച.
@@ -650,7 +650,7 @@ WORDS.friday = {
     new: ["शुक्रबाः", "sukɾəbaː"],
     aa: ["gumqat", "ɡumˈʕat"],
     ks: ["جمعہ", "dʒumaːh"],
-    kok: ["शुक्रार", "ʃukɾɑːɾ"],
+    kok: ["शुक्रार", "ʃukɾaːɾ"],
     hsb: ["pjatk", "pjatk"],
     csb: ["piątk", "pjɔ̃tk"],
     fax: ["vernis", "ˈbeɾnis"],
@@ -705,11 +705,11 @@ WORDS.friday = {
     fr_lu: ["vendredi", "vɑ̃dʁədi"],
     fr_cm: ["vendredi", "vɑ̃dʁədi"],
     de_lu: ["Freitag", "ˈfʁaɪ̯taːk"],
-    en_ng2: ["Friday", "ˈfɹaɪdeɪ"],
+    en_ng2: ["Friday", "ˈfɹaɪdeː"],
     es_bo: ["viernes", "ˈbjeɾnes"],
     es_py: ["viernes", "ˈbjeɾnes"],
     es_pa: ["viernes", "ˈbjeɾneh"],
-    en_my: ["Friday", "ˈfɹaɪdeɪ"],
+    en_my: ["Friday", "ˈfɹaɪdeː"],
     en_wls: ["Friday", "ˈfɾaɪdeɪ"],
     en_jam: ["Friday", "ˈfɹaɪdeː"],
     en_ng: ["Friday", "ˈfɹaɪdeː"],

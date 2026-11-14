@@ -891,7 +891,7 @@ WORDS.sunday = {
     hil: ["Dominggo", "doˈmiŋɡo"],
     pwo: ["အတုၬ", "ʔə təɯʔ"],  // Borrowed from Mon အဒိုတ်, which also means 'sun'.
     shn: ["တၼင်းၼူၺ်ႇ", "ta˨˦naŋ˥noj˩"],  // From Burmese တနင်္ဂနွေ.
-    ca_va: ["diumenge", "diwˈmeɲʒa"],
+    ca_va: ["diumenge", "diwˈmeɲdʒe"],
     ja_osa: ["日曜日", "nitɕijoːbi"],
     ja_aom: ["日曜日", "nitɕijoːbi"],
     ja_hak: ["日曜日", "nitɕijoːbi"],

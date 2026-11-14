@@ -540,7 +540,7 @@ WORDS.butter = {
     haw: ["paka", "paka"],
     sd: ["مکڻ", "məkʰəɳʊ"],  // From Sanskrit mrakṣaṇa.
     pa: ["ਮੱਖਣ", "məkːʰəɳə"],  // From Sanskrit mrakṣaṇa.
-    gu: ["માખણ", "ˈmɑkʰəɳ"],  // From Sanskrit mrakṣaṇa 'rubbing, ointment, oil'.
+    gu: ["માખણ", "ˈmaːkʰəɳ"],  // From Sanskrit mrakṣaṇa 'rubbing, ointment, oil'.
     te: ["వెన్న", "ʋenːa"],  // Cognate with Tamil வெண்ணெய் 'white ghee'.
     kn: ["ಬೆಣ್ಣೆ", "beɳːe"],  // Cognate with Tamil வெண்ணெய் 'white ghee'.
     ml: ["വെണ്ണ", "ʋeɳɳɐ"],  // വെൺ 'white' plus 'ghee'.

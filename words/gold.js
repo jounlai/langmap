@@ -270,7 +270,7 @@ WORDS.gold = {
     syc: "dahab",
     ta: "other",
     tcy: "plain",
-    te: "plain",
+    te: "other",
     tg: "yellow",
     th: "jin",
     tk: "altun",
@@ -518,6 +518,39 @@ WORDS.gold = {
     zh_wh: "jin",
     zh_xa: "jin",
     zh_zz: "jin",
+    en_us: "yellow",
+    en_ca: "yellow",
+    en_app: "yellow",
+    en_nz: "yellow",
+    en_au: "yellow",
+    en_sco: "yellow",
+    en_ng2: "yellow",
+    en_my: "yellow",
+    en_jam: "yellow",
+    en_sg: "yellow",
+    en_in: "yellow",
+    en_ng: "yellow",
+    en_ph: "yellow",
+    en_ke: "yellow",
+    en_geordie: "yellow",
+    pt_br: "yellow",
+    pt_cv: "yellow",
+    pt_mo: "yellow",
+    ja_kg: "jin",
+    ja_sd: "jin",
+    vi_c: "yellow",
+    vi_s: "yellow",
+    ar_eg: "dahab",
+    ar_jo: "dahab",
+    ar_ps: "dahab",
+    ar_lev: "dahab",
+    ar_sy: "dahab",
+    ar_lb: "dahab",
+    ar_sd: "dahab",
+    ar_gulf: "dahab",
+    ar_sa: "dahab",
+    ar_iq: "dahab",
+    ar_ye: "dahab",
   },
   routes: {
     yellow: {"color":"#ca8a04","emoji":"💛","en":"from a \"yellow\" word (gold, золото, zar, vàng)","ja":"「黄色」の語から (gold, золото, zar, vàng)","ko":"'노랑'의 말에서 (gold, золото, zar, vàng)","zh":"来自表示“黄”的词 (gold, золото, zar, vàng)","yue":"嚟自解「黃」嘅詞 (gold, золото, zar, vàng)","vi":"từ một từ chỉ \"màu vàng\" (gold, золото, zar, vàng)","th":"จากคำว่า \"เหลือง\" (gold, золото, zar, vàng)","id":"dari kata \"kuning\" (gold, золото, zar, vàng)","hi":"\"पीले\" के शब्द से (gold, золото, zar, vàng)","de":"von einem Wort für „gelb“ (gold, золото, zar, vàng)","fr":"d'un mot pour « jaune » (gold, золото, zar, vàng)","it":"da una parola per «giallo» (gold, золото, zar, vàng)","es":"de una palabra para «amarillo» (gold, золото, zar, vàng)","pt":"de uma palavra para «amarelo» (gold, золото, zar, vàng)","ru":"от слова «жёлтый» (gold, золото, zar, vàng)","uk":"від слова «жовтий» (gold, золото, zar, vàng)","ar":"من كلمة «أصفر» (gold, золото, zar, vàng)","he":"ממילה ל\"צהוב\" (gold, золото, zar, vàng)","sw":"kutoka neno la \"manjano\" (gold, золото, zar, vàng)"},
@@ -548,7 +581,7 @@ WORDS.gold = {
     ar: ["ذهب", "ðahab"],  // From Semitic ḏahab, Arabic ذَهَب.
     as: ["সোণ", "xʊn"],  // From Sanskrit suvarṇa "of a good colour".
     ast: ["oru", "ˈoɾu"],  // From Latin aurum (Proto-Indo-European *h₂ews- "glow, dawn") or its kin.
-    az: ["tila", "tilɑ"],  // Borrowed from Arabic ṭilāʔ.
+    az: ["tila", "tiˈlɑ"],  // Borrowed from Arabic ṭilāʔ.
     ba: ["алтын", "ɑɫˈtɯ̞n"],  // Turkic *altun / Mongolic *altan.
     bal: ["زر", "zərː"],  // From the Indo-European root *ǵʰelh₃- "yellow, green, shine" (gold, золото, zar), directly or by loan.
     ban: ["gora", "ɡorə"],
@@ -578,7 +611,7 @@ WORDS.gold = {
     dsb: ["złoto", "ˈzwɔtɔ"],  // From the Indo-European root *ǵʰelh₃- "yellow, green, shine" (gold, золото, zar), directly or by loan.
     dta: ["alt", "alt"],
     dv: ["ރަން", "ɾan"],  // From Sanskrit hiraṇya.
-    egl: ["ôr", "ˈoːr"],  // From Latin aurum (Proto-Indo-European *h₂ews- "glow, dawn") or its kin.
+    egl: ["ôr", "oːr"],  // From Latin aurum (Proto-Indo-European *h₂ews- "glow, dawn") or its kin.
     el: ["χρυσός", "xɾiˈsos"],  // From Ancient Greek χρυσός, a Semitic loan.
     en: ["gold", "ɡəʊld"],  // From Proto-Germanic *gulþą, from Proto-Indo-European *ǵʰelh₃- "green, yellow".
     enm: ["gold", "ɡɔld"],  // From the Indo-European root *ǵʰelh₃- "yellow, green, shine" (gold, золото, zar), directly or by loan.
@@ -615,8 +648,8 @@ WORDS.gold = {
     id: ["emas", "əˈmas"],
     ilo: ["balitok", "balitok"],
     inh: ["дошув", "ˈdoʃuː"],
-    io: ["oro", "oro"],  // Route by resemblance to the neighbouring forms (Italian, Spanish oro); no etymology of its own.
-    is: ["gull", "ˈkʏtl̥"],  // From the Indo-European root *ǵʰelh₃- "yellow, green, shine" (gold, золото, zar), directly or by loan.
+    io: ["oro", "ˈoro"],  // Route by resemblance to the neighbouring forms (Italian, Spanish oro); no etymology of its own.
+    is: ["gull", "kʏtl̥"],  // From the Indo-European root *ǵʰelh₃- "yellow, green, shine" (gold, золото, zar), directly or by loan.
     it: ["oro", "ˈɔro"],  // From Latin aurum (Proto-Indo-European *h₂ews- "glow, dawn") or its kin.
     ja: ["金", "kiɴ"],  // From Middle Chinese 金 kim.
     jqr: ["quri", "quɾi"],
@@ -634,7 +667,7 @@ WORDS.gold = {
     kn: ["ಚಿನ್ನ", "tʃin̪n̪a"],
     ko: ["금", "kɯm"],  // From Chinese 金.
     koi: ["зарни", "ˈzarɲi"],  // From the Indo-European root *ǵʰelh₃- "yellow, green, shine" (gold, золото, zar), directly or by loan.
-    kok: ["भांगर", "bʱɑːŋəɾ"],  // From Sanskrit bhṛṅgāra.
+    kok: ["भांगर", "bʱaːŋəɾ"],  // From Sanskrit bhṛṅgāra.
     kpv: ["зарни", "ˈzarɲi"],  // From the Indo-European root *ǵʰelh₃- "yellow, green, shine" (gold, золото, zar), directly or by loan.
     ku: ["zêr", "zeːɾ"],  // From the Indo-European root *ǵʰelh₃- "yellow, green, shine" (gold, золото, zar), directly or by loan.
     kum: ["алтын", "altɯn"],  // Turkic *altun / Mongolic *altan.
@@ -670,7 +703,7 @@ WORDS.gold = {
     my: ["ရွှေ", "ʃwè"],
     myz: ["ࡃࡀࡄࡁࡀ", "dahba"],  // From Semitic ḏahab, Arabic ذَهَب.
     nag: ["suna", "suna"],  // Inherited from Assamese সোণ, from Sanskrit suvarṇa.
-    nci: ["teocuitlatl", "teoːkʷitɬatɬ"],  // teōtl "god" + cuitlatl "excrement".
+    nci: ["teocuitlatl", "teoːkʷiˈtɬatɬ"],  // teōtl "god" + cuitlatl "excrement".
     ne: ["सुन", "sun"],  // From Sanskrit suvarṇa "of a good colour".
     new: ["लुँ", "lũ"],
     niv: ["айс", "ajs"],  // From Tungusic, compare Manchu aisin.
@@ -679,7 +712,7 @@ WORDS.gold = {
     no: ["gull", "ɡʉl"],  // Route by resemblance to the neighbouring forms (Nynorsk gull, from Old Norse gull); no etymology of its own.
     non: ["gull", "ɡulː"],  // From the Indo-European root *ǵʰelh₃- "yellow, green, shine" (gold, золото, zar), directly or by loan.
     ny: ["golide", "ɡolide"],  // From the Indo-European root *ǵʰelh₃- "yellow, green, shine" (gold, золото, zar), directly or by loan.
-    olo: ["kuldu", "kuldu"],  // Route by resemblance to the neighbouring forms (Finnish kulta, Veps kuld); no etymology of its own.
+    olo: ["kuldu", "ˈkuldu"],  // Route by resemblance to the neighbouring forms (Finnish kulta, Veps kuld); no etymology of its own.
     om: ["warqee", "warkʼeː"],
     omx: ["ထရ်", "tʰɔ"],
     onw: ["ⳟⲁⲡ", "ŋap"],
@@ -694,9 +727,9 @@ WORDS.gold = {
     pl: ["złoto", "ˈzwɔtɔ"],  // From the Indo-European root *ǵʰelh₃- "yellow, green, shine" (gold, золото, zar), directly or by loan.
     pms: ["òr", "ɔr"],  // From Latin aurum (Proto-Indo-European *h₂ews- "glow, dawn") or its kin.
     pt: ["ouro", "ˈowɾu"],  // From Latin aurum (Proto-Indo-European *h₂ews- "glow, dawn") or its kin.
-    qu: ["quri", "quɾi"],
+    qu: ["quri", "ˈquɾi"],
     quy: ["qori", "qoɾi"],
-    quz: ["quri", "quɾi"],
+    quz: ["quri", "ˈquɾi"],
     rgn: ["ör", "or"],  // From Latin aurum (Proto-Indo-European *h₂ews- "glow, dawn") or its kin.
     ro: ["aur", "ˈaur"],  // From Latin aurum (Proto-Indo-European *h₂ews- "glow, dawn") or its kin.
     rom: ["sumnakaj", "sumnakaj"],  // Ultimately from Sanskrit suvarṇa.
@@ -705,15 +738,15 @@ WORDS.gold = {
     sa: ["सुवर्ण", "suʋɐrɳɐ"],  // su- "good" + varṇa "colour": "of a good, bright colour".
     sc: ["oro", "ˈɔro"],  // From Latin aurum (Proto-Indo-European *h₂ews- "glow, dawn") or its kin.
     sce: ["antan", "ɑnˈtʰɑn"],  // Turkic *altun / Mongolic *altan.
-    scn: ["oru", "ɔru"],  // Route by resemblance to the neighbouring forms (Italian oro); no etymology of its own.
+    scn: ["oru", "ˈɔru"],  // Route by resemblance to the neighbouring forms (Italian oro); no etymology of its own.
     sco: ["gowd", "ɡʌud"],  // From the Indo-European root *ǵʰelh₃- "yellow, green, shine" (gold, золото, zar), directly or by loan.
     se: ["golli", "ˈkolːliː"],
     sga: ["ór", "oːɾ"],  // From Latin aurum (Proto-Indo-European *h₂ews- "glow, dawn") or its kin.
     shn: ["ၶမ်း", "kʰam˥"],  // From Chinese 金.
     si: ["රන්", "ran"],  // Cognate with Dhivehi ran, from Sanskrit hiraṇya.
     sid: ["worqe", "workʼe"],  // Borrowed from Amharic ወርቅ.
-    sk: ["zlato", "zlatɔ"],  // From the Indo-European root *ǵʰelh₃- "yellow, green, shine" (gold, золото, zar), directly or by loan.
-    sl: ["zlato", "zlatoː"],  // From the Indo-European root *ǵʰelh₃- "yellow, green, shine" (gold, золото, zar), directly or by loan.
+    sk: ["zlato", "ˈzlatɔ"],  // From the Indo-European root *ǵʰelh₃- "yellow, green, shine" (gold, золото, zar), directly or by loan.
+    sl: ["zlato", "zlaˈtoː"],  // From the Indo-European root *ǵʰelh₃- "yellow, green, shine" (gold, золото, zar), directly or by loan.
     slr: ["altun", "ɑltun"],  // Turkic *altun / Mongolic *altan.
     sn: ["ndarama", "ndarama"],
     so: ["dahab", "dahab"],  // From Semitic ḏahab, Arabic ذَهَب.
@@ -723,11 +756,11 @@ WORDS.gold = {
     stq: ["Gould", "ɣoːu̯ld"],  // From the Indo-European root *ǵʰelh₃- "yellow, green, shine" (gold, золото, zar), directly or by loan.
     su: ["emas", "ɯmas"],
     sv: ["gull", "ɡɵlː"],  // From the Indo-European root *ǵʰelh₃- "yellow, green, shine" (gold, золото, zar), directly or by loan.
-    sw: ["dhahabu", "ðahabu"],  // Borrowed from Arabic ḏahab.
+    sw: ["dhahabu", "ðaˈhabu"],  // Borrowed from Arabic ḏahab.
     syc: ["ܕܗܒܐ", "dahəwa"],  // From Semitic ḏahab, Arabic ذَهَب.
     ta: ["தங்கம்", "t̪aŋɡam"],  // Of uncertain origin, probably borrowed from Sanskrit ṭaṅka.
     tcy: ["ಪೊನ್ನು", "ponnu"],
-    te: ["పొన్ను", "ponːu"],
+    te: ["బంగారం", "baŋɡaːɾam"],  // From Sanskrit bhṛṅgāra, as Konkani भांगर; పొన్ను is the old Dravidian word (Tamil பொன்).
     tg: ["зар", "zar"],  // Inherited from Classical Persian zar.
     th: ["ทองคำ", "tʰɔːŋ˧kʰam˧"],  // ทอง "gold" + คำ "gold", the latter from Old Chinese 金.
     tk: ["altyn", "ɑːlˈtɯːn"],  // Turkic *altun / Mongolic *altan.
@@ -780,7 +813,7 @@ WORDS.gold = {
     es_bo: ["oro", "ˈoɾo"],
     es_py: ["oro", "ˈoɾo"],
     es_pa: ["oro", "ˈoɾo"],
-    en_wls: ["gold", "ɡəʊld"],
+    en_wls: ["gold", "ɡoʊld"],
     fr_sn: ["or", "ɔʁ"],
     fr_ci: ["or", "ɔʁ"],
     fr_ht: ["or", "ɔʁ"],
@@ -799,17 +832,17 @@ WORDS.gold = {
     ko_yb: ["금", "kɯm"],
     es_mx: ["oro", "ˈoɾo"],
     prs: ["طلا", "taˈlɑː"],
-    en_aave: ["gold", "ɡəʊld"],
+    en_aave: ["gold", "ɡoʊld"],
     de_at: ["Gold", "ɡɔlt"],
     rmy: ["sumnakaj", "sumnakaj"],
     smj: ["golli", "ˈkɔlːliː"],
-    en_south: ["gold", "ɡəʊld"],
-    en_ie: ["gold", "ɡəʊld"],
-    en_yk: ["gold", "ɡəʊld"],
-    en_ck: ["gold", "ɡəʊld"],
+    en_south: ["gold", "ɡoʊld"],
+    en_ie: ["gold", "ɡoːld"],
+    en_yk: ["gold", "ɡoːld"],
+    en_ck: ["gold", "ɡɒʊld"],
     en_scouse: ["gold", "ɡəʊld"],
-    en_brum: ["gold", "ɡəʊld"],
-    en_manc: ["gold", "ɡəʊld"],
+    en_brum: ["gold", "ɡʌʊld"],
+    en_manc: ["gold", "ɡɔʊld"],
     en_wc: ["gold", "ɡəʊld"],
     en_est: ["gold", "ɡəʊld"],
     fr_qc: ["or", "ɔʁ"],
@@ -963,7 +996,7 @@ WORDS.gold = {
     zh_cq: ["金子", "tɕin˥ tsɿ˦˨"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Chongqing; reading from MCPDict 重慶.
     zh_db: ["金子", "tɕin˥ tsɨ"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
     zh_hf: ["金子", "tɕiən˨˩˨ tə"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Hefei; reading from MCPDict 合肥.
-    zh_jh: ["金子", "tɕiŋ˧˩ tsɿ"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Yangzhou; reading from MCPDict 揚州.
+    zh_jh: ["金子", "tɕiŋ˧˩ tsɿ"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Yangzhou; reading in the row's Nanjing tone values, 陰平 ˧˩ (MCPDict 南京 金 tɕiŋ1 = 31; 揚州 has ˨˩).
     zh_jiao: ["金子", "tɕiə̃˨˩˧ tsɿ˥˥"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Qingdao; reading from MCPDict 青島.
     zh_jn: ["金子", "tɕiɪ̃˨˩˧ tsɿ"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Jinan; reading from MCPDict 濟南.
     zh_km: ["金子", "tɕĩ˦˦ tsɿ"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Kunming; reading from MCPDict 昆明.
@@ -975,5 +1008,38 @@ WORDS.gold = {
     zh_wh: ["金子", "tɕin˥˥ tsɿ"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Wuhan; reading from MCPDict 武漢.
     zh_xa: ["金子", "tɕiẽ˨˩ tsɿ"],  // 金 'gold' with the noun suffix 子. Word from Wiktionary's dialect table for Xi'an; reading from MCPDict 西安.
     zh_zz: ["黄金", "xuaŋ˦˨ tɕin˨˦"],  // 黄 'yellow' + 金 'metal, gold'. Word from Wiktionary's dialect table for Zhengzhou; reading from MCPDict 開封 (no Zhengzhou table; the row matches Kaifeng).
+    en_us: ["gold", "ɡoʊld"],  // The same word as standard English.
+    en_ca: ["gold", "ɡoʊld"],  // The same word as standard English.
+    en_app: ["gold", "ɡoʊld"],  // The same word as standard English.
+    en_nz: ["gold", "ɡɐʉld"],  // The same word as standard English.
+    en_au: ["gold", "ɡəʉld"],  // The same word as standard English.
+    en_sco: ["gold", "ɡold"],  // The same word as standard English.
+    en_ng2: ["gold", "ɡoːld"],  // The same word as standard English.
+    en_my: ["gold", "ɡoːld"],  // The same word as standard English.
+    en_jam: ["gold", "ɡoːld"],  // The same word as standard English.
+    en_sg: ["gold", "ɡoːld"],  // The same word as standard English.
+    en_in: ["gold", "ɡoːld"],  // The same word as standard English.
+    en_ng: ["gold", "ɡold"],  // The same word as standard English.
+    en_ph: ["gold", "ɡold"],  // The same word as standard English.
+    en_ke: ["gold", "ɡold"],  // The same word as standard English.
+    en_geordie: ["gold", "ɡɔːld"],  // The same word as standard English.
+    pt_br: ["ouro", "ˈowɾu"],  // The same word as European Portuguese.
+    pt_cv: ["ouro", "ˈowɾu"],  // The same word as European Portuguese.
+    pt_mo: ["ouro", "ˈowɾu"],  // The same word as European Portuguese.
+    ja_kg: ["金", "kiɴ"],  // From Middle Chinese 金 kim; the national word, which Kagoshima speech uses as well.
+    ja_sd: ["金", "kiɴ"],  // From Middle Chinese 金 kim; the national word, which Sendai speech uses as well.
+    vi_c: ["vàng", "vaːŋ˦˨"],  // The same word as standard Vietnamese.
+    vi_s: ["vàng", "jaːŋ˨˩"],  // The same word as standard Vietnamese.
+    ar_eg: ["دهب", "dahab"],  // From Semitic ḏahab, Arabic ذَهَب.
+    ar_jo: ["دهب", "dahab"],  // From Semitic ḏahab, Arabic ذَهَب.
+    ar_ps: ["دهب", "dahab"],  // From Semitic ḏahab, Arabic ذَهَب.
+    ar_lev: ["دهب", "dahab"],  // From Semitic ḏahab, Arabic ذَهَب.
+    ar_sy: ["دهب", "dahab"],  // From Semitic ḏahab, Arabic ذَهَب.
+    ar_lb: ["دهب", "dahab"],  // From Semitic ḏahab, Arabic ذَهَب.
+    ar_sd: ["دهب", "dahab"],  // From Semitic ḏahab, Arabic ذَهَب.
+    ar_gulf: ["ذهب", "ðahab"],  // From Semitic ḏahab, Arabic ذَهَب.
+    ar_sa: ["ذهب", "ðahab"],  // From Semitic ḏahab, Arabic ذَهَب.
+    ar_iq: ["ذهب", "ðahab"],  // From Semitic ḏahab, Arabic ذَهَب.
+    ar_ye: ["ذهب", "ðahab"],  // From Semitic ḏahab, Arabic ذَهَب.
   },
 };

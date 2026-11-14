@@ -616,7 +616,7 @@ WORDS.cheese = {
     nl_be: ["kaas", "kaːs"],
     en_za: ["cheese", "tʃiːz"],
     pt_ao: ["queijo", "ˈkejʒu"],
-    ca_va: ["formatge", "fuɾˈmadʒa"],
+    ca_va: ["formatge", "foɾˈmadʒe"],
     ko_kp: ["치즈", "tɕʰidʑɯ"],
     ko_bus: ["치즈", "tɕʰidʑɯ"],
     ko_yb: ["치즈", "tɕʰidʑɯ"],

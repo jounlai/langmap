@@ -47,7 +47,7 @@ WORDS.lion = {
   },
   definition: {
     en: "Lion — a big cat, named far beyond where it lives. Latin leo gave Löwe, лев and león; Sanskrit siṃha gave Marathi सिंह and Malay singa; Persian šēr gave Urdu شیر; Turkic arslan reached Hungarian as oroszlán; Chinese 獅 gave Korean 사자. Swahili simba looks like singa but is an inherited Bantu word.",
-    ja: "ライオン — 大型のネコ科の動物。その名は生息地のはるか先まで届いた。ラテン語 leo から Löwe、лев、león が生まれ、サンスクリット語 siṃha から マラーティー語 सिंह とマレー語 singa が、ペルシャ語 šēr からウルドゥー語 شیر が生まれた。テュルク語 arslan はハンガリー語に oroszlán として入り、中国語 獅 は韓国語 사자 になった。スワヒリ語 simba は singa に似ているが、バントゥー語から受け継いだ語である。",
+    ja: "ライオン — 大型のネコ科の動物。その名は生息地のはるか先まで届いた。ラテン語 leo から Löwe、лев、león が生まれ、サンスクリット語 siṃha からマラーティー語 सिंह とマレー語 singa が、ペルシャ語 šēr からウルドゥー語 شیر が生まれた。テュルク語 arslan はハンガリー語に oroszlán として入り、中国語 獅 は韓国語 사자 になった。スワヒリ語 simba は singa に似ているが、バントゥー語から受け継いだ語である。",
     ko: "사자 — 몸집이 큰 고양잇과 동물. 이름은 사는 곳보다 훨씬 멀리까지 갔다. 라틴어 leo에서 Löwe, лев, león이, 산스크리트어 siṃha에서 마라티어 सिंह과 말레이어 singa가, 페르시아어 šēr에서 우르두어 شیر가 나왔다. 튀르크어 arslan은 헝가리어 oroszlán까지 갔고, 중국어 獅에서 한국어 사자가 나왔다. 스와힐리어 simba는 singa와 닮았지만 반투어에서 물려받은 말이다.",
     zh: "狮子——一种大型猫科动物，名字传到了远离它栖息地的地方。拉丁语 leo 产生了 Löwe、лев 和 león，梵语 siṃha 产生了马拉地语 सिंह 和马来语 singa，波斯语 šēr 产生了乌尔都语 شیر，突厥语 arslan 到了匈牙利语，成为 oroszlán，汉语 獅 产生了韩语 사자。斯瓦希里语 simba 看上去像 singa，其实是班图语传下来的词。",
     yue: "獅子——一種大型貓科動物，個名傳到遠離佢棲息地嘅地方。拉丁語 leo 生出 Löwe、лев 同 león，梵語 siṃha 生出馬拉地語 सिंह 同馬來語 singa，波斯語 šēr 生出烏爾都語 شیر，突厥語 arslan 去到匈牙利語，變成 oroszlán，漢語 獅 生出韓語 사자。斯瓦希里語 simba 睇落似 singa，其實係班圖語傳落嚟嘅詞。",
@@ -206,7 +206,7 @@ WORDS.lion = {
     rue: "leo",
     rup: "arslan",
     rw: "plain",
-    sa: "plain",
+    sa: "simha",
     sah: "other",
     sc: "leo",
     scn: "leo",
@@ -423,6 +423,37 @@ WORDS.lion = {
     sr: "leo",
     hr: "leo",
     bs: "leo",
+    en_us: "leo",
+    en_ca: "leo",
+    en_nz: "leo",
+    en_ng: "leo",
+    en_ph: "leo",
+    en_app: "leo",
+    en_geordie: "leo",
+    pt_cv: "leo",
+    pt_mo: "leo",
+    de_at: "leo",
+    de_ch: "leo",
+    de_lu: "leo",
+    ja_osa: "leo",
+    ja_aom: "leo",
+    ja_hak: "leo",
+    ja_kyo: "leo",
+    ja_hir: "leo",
+    ja_kg: "leo",
+    ja_sd: "leo",
+    zh_tw: "shi",
+    zh_db: "shi",
+    vi_c: "shi",
+    vi_s: "shi",
+    ar_jo: "asad",
+    ar_ps: "asad",
+    ar_lev: "asad",
+    ar_sy: "asad",
+    ar_lb: "asad",
+    ar_gulf: "asad",
+    ar_sa: "asad",
+    ar_iq: "asad",
   },
   routes: {
     leo: {"color":"#2563eb","emoji":"🏛️","en":"from Latin leo, Greek leon (Löwe, лев, león)","ja":"ラテン語 leo、ギリシャ語 leon から (Löwe, лев, león)","ko":"라틴어 leo, 그리스어 leon에서 (Löwe, лев, león)","zh":"来自拉丁语 leo、希腊语 leon (Löwe, лев, león)","yue":"嚟自拉丁語 leo、希臘語 leon (Löwe, лев, león)","vi":"từ tiếng Latinh leo, tiếng Hy Lạp leon (Löwe, лев, león)","th":"จากภาษาละติน leo ภาษากรีก leon (Löwe, лев, león)","id":"dari leo Latin, leon Yunani (Löwe, лев, león)","hi":"लैटिन leo, यूनानी leon से (Löwe, лев, león)","de":"aus Lateinisch leo, Griechisch leon (Löwe, лев, león)","fr":"du latin leo, du grec leon (Löwe, лев, león)","it":"dal latino leo, dal greco leon (Löwe, лев, león)","es":"del latín leo, del griego leon (Löwe, лев, león)","pt":"do latim leo, do grego leon (Löwe, лев, león)","ru":"от латинского leo, греческого leon (Löwe, лев, león)","uk":"від латинського leo, грецького leon (Löwe, лев, león)","ar":"من اللاتينية leo واليونانية leon (Löwe, лев, león)","he":"מהלטינית leo, מהיוונית leon (Löwe, лев, león)","sw":"kutoka Kilatini leo, Kigiriki leon (Löwe, лев, león)"},
@@ -438,7 +469,7 @@ WORDS.lion = {
   data: {
     ab: ["алым", "aləm"],
     ady: ["аслъан", "ʔasɬaːn"],  // From Turkic arslan.
-    af: ["leeu", "ˈliu"],  // From Latin leo or Greek leon, directly or through a later language.
+    af: ["leeu", "liu"],  // From Latin leo or Greek leon, directly or through a later language.
     agx: ["аслан", "aslan"],  // From Turkic arslan.
     aii: ["ܐܪܝܐ", "ʔarjɑː"],
     am: ["አንበሳ", "anbəsa"],
@@ -447,7 +478,7 @@ WORDS.lion = {
     as: ["সিংহ", "xiŋɦɔ"],  // From Sanskrit siṃha.
     ast: ["lleón", "lleon"],  // From Latin leo or Greek leon, directly or through a later language.
     ayl: ["صيد", "sˤeːd"],
-    az: ["aslan", "ɑslɑn"],  // From Turkic arslan.
+    az: ["aslan", "ɑsˈlɑn"],  // From Turkic arslan.
     ba: ["арыҫлан", "ɑrɯ̞θˈɫɑn"],  // From Turkic arslan.
     bdk: ["арслан", "arslan"],  // From Turkic arslan.
     be: ["леў", "lʲeu̯"],  // From Latin leo or Greek leon, directly or through a later language.
@@ -501,8 +532,8 @@ WORDS.lion = {
     ia: ["leon", "leon"],  // From Latin leo or Greek leon, directly or through a later language.
     id: ["singa", "ˈsiŋa"],  // From Sanskrit siṃha.
     inh: ["лом", "lom"],
-    io: ["leono", "leono"],  // From Latin leo or Greek leon, directly or through a later language.
-    is: ["ljón", "ˈljouːn"],  // Route by resemblance to the neighbouring forms (fo(ljón) non(león)); no etymology of its own.
+    io: ["leono", "leˈono"],  // From Latin leo or Greek leon, directly or through a later language.
+    is: ["ljón", "ljouːn"],  // Route by resemblance to the neighbouring forms (fo(ljón) non(león)); no etymology of its own.
     iso: ["okpolokpo", "okpolokpo"],
     it: ["leone", "leˈone"],  // From Latin leo or Greek leon, directly or through a later language.
     ja: ["ライオン", "ɾaioɴ"],  // From Latin leo or Greek leon, directly or through a later language.
@@ -524,13 +555,13 @@ WORDS.lion = {
     la: ["leo", "ˈlɛoː"],  // From Latin leo or Greek leon, directly or through a later language.
     lb: ["Léiw", "lei̯f"],  // From Latin leo or Greek leon, directly or through a later language.
     lez: ["аслан", "aslan"],  // From Turkic arslan.
-    liv: ["louv", "ˈlouv"],  // From Latin leo or Greek leon, directly or through a later language.
+    liv: ["louv", "louv"],  // From Latin leo or Greek leon, directly or through a later language.
     lmo: ["leon", "leˈun"],  // From Latin leo or Greek leon, directly or through a later language.
     ln: ["simba", "simba"],
     lo: ["ສິງ", "siŋ˩˧"],  // From Sanskrit siṃha.
     loz: ["tau", "tau"],
-    lt: ["liūtas", "ˈlʲuːtɐs"],  // From Latin leo or Greek leon, directly or through a later language.
-    lv: ["lauva", "lauva"],  // From Latin leo or Greek leon, directly or through a later language.
+    lt: ["liūtas", "ˈlʲuːtɐs"],  // Originally an adjective, liū̃tas 'fierce', from phrases like liū̃tas lẽvas 'fierce lion'; the 'lion' sense passed to it from lẽvas (Wiktionary).
+    lv: ["lauva", "ˈlauva"],  // From Latin leo or Greek leon, directly or through a later language.
     mg: ["liona", "liuna"],  // Route by resemblance to the neighbouring forms (haw(liona) mfe(lion)); no etymology of its own.
     mh: ["ļaiōōn", "lˠɑːiʌːnʲ"],  // From Latin leo or Greek leon, directly or through a later language.
     mi: ["raiona", "raiona"],  // From Latin leo or Greek leon, directly or through a later language.
@@ -560,7 +591,7 @@ WORDS.lion = {
     pl: ["lew", "lɛf"],  // From Latin leo or Greek leon, directly or through a later language.
     pms: ["leon", "leˈuŋ"],  // From Latin leo or Greek leon, directly or through a later language.
     ps: ["زمری", "zmaˈraɪ"],
-    pt: ["leão", "leˈɐ̃w̃"],  // From Latin leo or Greek leon, directly or through a later language.
+    pt: ["leão", "ˈljɐ̃w̃"],  // From Latin leo or Greek leon, directly or through a later language.
     quc: ["koj", "kox"],
     rgn: ["liôn", "liˈõː"],  // Route by resemblance to the neighbouring forms (egl(leån) fr(lion) it(leone)); no etymology of its own.
     rn: ["intare", "intaɾe"],
@@ -571,9 +602,9 @@ WORDS.lion = {
     rue: ["лев", "lev"],  // Route by resemblance to the neighbouring forms (ru(лев) sk(lev) pl(lew)); no etymology of its own.
     rup: ["aslan", "aslan"],  // From Turkic arslan.
     rw: ["intare", "intaɾe"],
-    sa: ["हरि", "ɦɾi"],
+    sa: ["सिंह", "sĩɦɐ"],  // Sanskrit siṃha, the source of Hindi सिंह, Malay singa and Thai สิงโต; हरि 'tawny one' is a poetic name of the lion among its many senses.
     sah: ["хахай", "xaxaj"],
-    sc: ["leone", "leone"],  // From Latin leo or Greek leon, directly or through a later language.
+    sc: ["leone", "leˈone"],  // From Latin leo or Greek leon, directly or through a later language.
     scn: ["liuni", "liˈuni"],  // From Latin leo or Greek leon, directly or through a later language.
     sd: ["شينهن", "ʂĩːɦɯ̃"],  // From Sanskrit siṃha.
     se: ["ledjon", "ˈleːɟɟon"],  // Route by resemblance to the neighbouring forms (sv(lejon) fi(leijona)); no etymology of its own.
@@ -589,7 +620,7 @@ WORDS.lion = {
     st: ["tau", "tau"],
     suk: ["shimba", "shimba"],
     sv: ["lejon", "ˈlɛjːɔn"],  // From Latin leo or Greek leon, directly or through a later language.
-    sw: ["simba", "ˈsiᵐbɑ"],
+    sw: ["simba", "ˈsimba"],
     syc: ["ܐܪܝܐ", "ʔarjɑ"],
     szy: ["layung", "lajuŋ"],  // From Latin leo or Greek leon, directly or through a later language.
     ta: ["சிங்கம்", "tʃɪŋɡɐm"],  // From Sanskrit siṃha.
@@ -745,7 +776,7 @@ WORDS.lion = {
     pt_mz: ["leão", "leˈɐ̃w̃"],
     en_za: ["lion", "ˈlɑɪən"],
     pt_ao: ["leão", "leˈɐ̃w̃"],
-    ca_va: ["lleó", "ʎaˈo"],
+    ca_va: ["lleó", "ʎeˈo"],
     ko_kp: ["사자", "sadʑa"],
     ko_bus: ["사자", "sadʑa"],
     ko_yb: ["사자", "sadʑa"],
@@ -788,5 +819,36 @@ WORDS.lion = {
     sr: ["лав", "lâʋ"],  // Inherited from Proto-Slavic *lьvъ, from a Germanic language.
     hr: ["lav", "lâʋ"],  // Inherited from Proto-Slavic *lьvъ, from a Germanic language.
     bs: ["lav", "laʋ"],  // Inherited from Proto-Slavic *lьvъ, from a Germanic language.
+    en_us: ["lion", "ˈlaɪən"],  // The same word as standard English.
+    en_ca: ["lion", "ˈlaɪən"],  // The same word as standard English.
+    en_nz: ["lion", "ˈlɑɪən"],  // The same word as standard English.
+    en_ng: ["lion", "ˈlaɪən"],  // The same word as standard English.
+    en_ph: ["lion", "ˈlaɪən"],  // The same word as standard English.
+    en_app: ["lion", "ˈlaːən"],  // The same word as standard English.
+    en_geordie: ["lion", "ˈlaɪən"],  // The same word as standard English.
+    pt_cv: ["leão", "ˈljɐ̃w̃"],  // The same word as European Portuguese.
+    pt_mo: ["leão", "ˈljɐ̃w̃"],  // The same word as European Portuguese.
+    de_at: ["Löwe", "ˈløːvə"],  // The same word as standard German.
+    de_ch: ["Löwe", "ˈløːvə"],  // The same word as standard German.
+    de_lu: ["Löwe", "ˈløːvə"],  // The same word as standard German.
+    ja_osa: ["ライオン", "ɾaioɴ"],  // ライオン, from English lion; the national word, which Osaka speech uses as well.
+    ja_aom: ["ライオン", "ɾaioɴ"],  // ライオン, from English lion; the national word, which Tsugaru speech uses as well.
+    ja_hak: ["ライオン", "ɾaioɴ"],  // ライオン, from English lion; the national word, which Hakata speech uses as well.
+    ja_kyo: ["ライオン", "ɾaioɴ"],  // ライオン, from English lion; the national word, which Kyoto speech uses as well.
+    ja_hir: ["ライオン", "ɾaioɴ"],  // ライオン, from English lion; the national word, which Hiroshima speech uses as well.
+    ja_kg: ["ライオン", "ɾaioɴ"],  // ライオン, from English lion; the national word, which Kagoshima speech uses as well.
+    ja_sd: ["ライオン", "ɾaioɴ"],  // ライオン, from English lion; the national word, which Sendai speech uses as well.
+    zh_tw: ["獅子", "ʂʅ˥ tsɨ"],  // From Chinese 獅, the shi word. The standard word, used in Taiwan as well; reading as the zh row's own cell (子 neutral, as the row's 金子 tɕin˥ tsɨ).
+    zh_db: ["狮子", "ʂʅ˥ tsɨ"],  // From Chinese 獅, the shi word. The standard word, which Northeastern Mandarin uses as well; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
+    vi_c: ["sư tử", "ʂɨ˥ tɨ˧˩˨"],  // The same word as standard Vietnamese.
+    vi_s: ["sư tử", "ʂɨ˧ tɨ˨˩˦"],  // The same word as standard Vietnamese.
+    ar_jo: ["أسد", "ʔasad"],  // Arabic asad.
+    ar_ps: ["أسد", "ʔasad"],  // Arabic asad.
+    ar_lev: ["أسد", "ʔasad"],  // Arabic asad.
+    ar_sy: ["أسد", "ʔasad"],  // Arabic asad.
+    ar_lb: ["أسد", "ʔasad"],  // Arabic asad.
+    ar_gulf: ["أسد", "ʔasad"],  // Arabic asad.
+    ar_sa: ["أسد", "ʔasad"],  // Arabic asad.
+    ar_iq: ["أسد", "ʔasad"],  // Arabic asad.
   },
 };

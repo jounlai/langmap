@@ -662,7 +662,7 @@ WORDS.saturday = {
     nl_be: ["zaterdag", "ˈzaːtərˌdɑx"],
     en_za: ["Saturday", "ˈsætədeː"],
     pt_ao: ["sábado", "ˈsabadu"],
-    ca_va: ["dissabte", "diˈsapta"],
+    ca_va: ["dissabte", "diˈsapte"],
     ja_osa: ["土曜日", "dojoːbi"],
     ja_aom: ["土曜日", "dojoːbi"],
     ja_hak: ["土曜日", "dojoːbi"],

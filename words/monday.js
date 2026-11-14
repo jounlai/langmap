@@ -1012,7 +1012,7 @@ WORDS.monday = {
     mdh: ["Isnin", "ʔisˈnin"],  // Via Malay Isnin from Arabic al-ithnayn, "the two": the second day, counting from Sunday.
     tsg: ["Isnin", "isnin"],  // Via Malay Isnin from Arabic al-ithnayn, "the two": the second day, counting from Sunday.
     bs: ["ponedjeljak", "poˈnɛdjɛʎak"],  // From Proto-Slavic *ponedělъkъ, "after Sunday" (po + nedjelja).
-    kok: ["सोमार", "soːmɑːɾ"],  // From Sanskrit somavāra, "moon day" (soma "moon").
+    kok: ["सोमार", "soːmaːɾ"],  // From Sanskrit somavāra, "moon day" (soma "moon").
     mnw: ["တ္ၚဲစန်", "ŋoa cɔn"],  // "Moon day": tngai "day" + can, the astrological moon (from Sanskrit candra).
     kbd: ["блыщхьэ", "bɮəɕħa"],  // The Kabardian name for Monday, compared with West Circassian bləpɛ; its literal meaning is not given in the source.
     mni: ["ꯅꯤꯡꯊꯧꯀꯥꯕ", "niŋtʰəwkabə"],  // Ningthoukaba, the second day of the Meitei week; it begins with ningthou "king", but the meaning of the whole name is not sourced.

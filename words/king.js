@@ -586,7 +586,7 @@ WORDS.king = {
     hi: ["राजा", "ɾaːdʒaː"],  // Sanskrit rājā, nominative of rājan; the same root as Latin rēx.
     sa: ["राजन्", "ɾaːdʑɐn"],
     bn: ["রাজা", "ˈradʒa"],
-    ur: ["راجا", "ɾɑːdʒɑː"],
+    ur: ["راجا", "ɾaːdʒaː"],
     ta: ["மன்னன்", "mɐnːɐn"],
     en: ["king", "kɪŋ"],  // From Old English cyning, from Proto-Germanic *kuningaz.
     de: ["König", "ˈkøːnɪç"],  // From Old High German kuning, from Proto-Germanic *kuningaz.
@@ -633,10 +633,10 @@ WORDS.king = {
     ceb: ["hari", "ˈhaɾiʔ"],  // Borrowed from Old Javanese haji.
     ilo: ["ari", "ˈʔaɾi"],  // From Tagalog hari, from Old Javanese haji.
     sm: ["tupu", "tupu"],
-    pa: ["ਰਾਜਾ", "ɾäːdʒäː"],
-    ne: ["राजा", "rädzä"],
+    pa: ["ਰਾਜਾ", "ɾaːdʒaː"],
+    ne: ["राजा", "raːdzaː"],
     mr: ["राजा", "ɾadʑa"],
-    gu: ["રાજા", "ˈɾɑdʒɑ"],
+    gu: ["રાજા", "ˈɾaːdʒaː"],
     dv: ["ރަދުން", "ɾəd̪un̪"],
     te: ["రాజు", "ɾaːdʑu"],
     kn: ["ರಾಜ", "ɾɑːdʒɑ"],
@@ -1042,7 +1042,7 @@ WORDS.king = {
     zh_cq: ["王", "waŋ˨˩"],  // 王, 'king'. Reading from MCPDict 重慶.
     zh_db: ["王", "wɑŋ˧˥"],  // 王, 'king'. Reading as the zh row's own cell.
     zh_hf: ["王", "uɑ̃˦˥"],  // 王, 'king'. Reading from MCPDict 合肥.
-    zh_jh: ["王", "uaŋ˩˧"],  // 王, 'king'. Reading from MCPDict 揚州.
+    zh_jh: ["王", "uaŋ˩˧"],  // 王, 'king'. Reading in the row's Nanjing tone value, 陽平 ˩˧ (MCPDict 南京 王 ˩˧; 揚州 has ˧˥).
     zh_jn: ["王", "vɑŋ˦˨"],  // 王, 'king'. Reading from MCPDict 濟南.
     zh_kf: ["王", "uaŋ˥˧"],  // 王, 'king'. Reading from MCPDict 開封.
     zh_km: ["王", "uᴀ̃˧˩"],  // 王, 'king'. Reading from MCPDict 昆明.

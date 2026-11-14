@@ -503,6 +503,33 @@ WORDS.money = {
     lij_t: "coin",
     sr: "coin",
     bs: "coin",
+    en_nz: "coin",
+    en_scouse: "coin",
+    pt_br: "coin",
+    pt_cv: "coin",
+    pt_mo: "coin",
+    ja_osa: "silver",
+    ja_hak: "silver",
+    ja_kyo: "silver",
+    ja_hir: "silver",
+    ja_kg: "silver",
+    ja_sd: "silver",
+    zh_tw: "coin",
+    zh_db: "coin",
+    vi_c: "coin",
+    vi_s: "coin",
+    ar_eg: "coin",
+    ar_gulf: "coin",
+    ar_sa: "coin",
+    ar_iq: "coin",
+    ar_ma: "coin",
+    ar_tn: "coin",
+    ar_jo: "coin",
+    ar_ps: "coin",
+    ar_lev: "coin",
+    ar_sy: "coin",
+    ar_lb: "coin",
+    ar_sd: "coin",
   },
   routes: {
     silver: {"color":"#64748b","emoji":"🥈","en":"a word for silver or gold (argent, כסף, เงิน)","ja":"銀や金を指す語（argent, כסף, เงิน）","ko":"은이나 금을 뜻하는 말 (argent, כסף, เงิน)","zh":"指银或金的词（argent, כסף, เงิน）","yue":"指銀或者金嘅詞（argent, כסף, เงิน）","vi":"từ chỉ bạc hoặc vàng (argent, כסף, เงิน)","th":"คำที่หมายถึงเงินหรือทอง (argent, כסף, เงิน)","id":"kata untuk perak atau emas (argent, כסף, เงิน)","hi":"चाँदी या सोने का शब्द (argent, כסף, เงิน)","de":"ein Wort für Silber oder Gold (argent, כסף, เงิน)","fr":"un mot pour l'argent métal ou l'or (argent, כסף, เงิน)","it":"una parola per l'argento o l'oro (argent, כסף, เงิน)","es":"una palabra para la plata o el oro (argent, כסף, เงิน)","pt":"uma palavra para a prata ou o ouro (argent, כסף, เงิน)","ru":"слово для серебра или золота (argent, כסף, เงิน)","uk":"слово для срібла чи золота (argent, כסף, เงิน)","ar":"كلمة للفضة أو الذهب (argent, כסף, เงิน)","he":"מילה לכסף המתכת או לזהב (argent, כסף, เงิน)","sw":"neno la fedha au dhahabu (argent, כסף, เงิน)"},
@@ -554,7 +581,7 @@ WORDS.money = {
     kum: ["акъча", "aqˈtʃa"],  // Route by resemblance to the neighbouring forms (kk,ky); no etymology of its own.
     lg: ["ssente", "sːente"],
     lld: ["muneida", "muˈnɛida"],
-    mg: ["vola", "vula"],  // No opened source supports the route.
+    mg: ["vola", "ˈvula"],  // No opened source supports the route.
     nog: ["акша", "aqˈʃa"],  // Route by resemblance to the neighbouring forms (kk,ba,ky); no etymology of its own.
     om: ["qarshii", "qarʃiː"],
     pap: ["plaka", "plaka"],  // No opened source supports the route.
@@ -599,7 +626,7 @@ WORDS.money = {
     hr: ["novac", "nǒʋats"],  // Named after a new coinage (novi denarii); archaic sense "coin" (Wiktionary).
     mn: ["мөнгө", "møŋɡ"],
     lv: ["nauda", "ˈnauda"],
-    ltg: ["nauda", "nauda"],
+    ltg: ["nauda", "ˈnauda"],
     bg: ["пари", "ˈpari"],
     de: ["Geld", "ɡɛlt"],  // From Old High German gelt 'payment'.
     fr: ["argent", "aʁʒɑ̃"],  // Inherited from the word for silver.
@@ -648,7 +675,7 @@ WORDS.money = {
     eu: ["diru", "diɾu"],
     br: ["arc'hant", "ˈarɣãnt"],
     my: ["ပိုက်ဆံ", "paɪʔsʰàɴ"],  // Borrowed from Hindi पैसा.
-    rue: ["гроші", "hroʃji"],
+    rue: ["гроші", "ˈhroʃji"],
     ca: ["diners", "diˈnes"],  // Route by resemblance to the neighbouring forms (an); no etymology of its own.
     ce: ["ахча", "ˈaːxtʃa"],  // Route by resemblance to the neighbouring forms (ky); no etymology of its own.
     ny: ["ndalama", "daˈɽama"],  // Ultimately from Arabic دراهم 'dirhams'.
@@ -663,13 +690,13 @@ WORDS.money = {
     et: ["raha", "ˈrɑhɑ"],  // From Proto-Finnic *raha.
     fj: ["ilavo", "ilaβo"],  // Borrowed from Tongan lafo; originally a round playing piece.
     fi: ["raha", "ˈrɑhɑ"],  // From Proto-Finnic *raha, borrowed from Germanic *skrahā 'squirrel skin'.
-    gag: ["para", "para"],
+    gag: ["para", "paˈra"],
     gl: ["diñeiro", "diˈɲejɾo"],
     ka: ["ფული", "pʰuli"],  // From Old Georgian ფოლი.
     el: ["χρήματα", "ˈxɾimata"],
     ht: ["lajan", "laʒã"],
     ha: ["kuɗi", "kuɗiː"],
-    hu: ["pénz", "ˈpeːnz"],
+    hu: ["pénz", "peːnz"],
     is: ["fé", "fjɛː"],
     io: ["pekunio", "pekunio"],
     id: ["uang", "ˈuaŋ"],
@@ -699,9 +726,9 @@ WORDS.money = {
     os: ["ӕхца", "əxtsa"],  // Route by resemblance to the neighbouring forms (cv,tt); no etymology of its own.
     ps: ["پيسې", "paiˈse"],
     pis: ["selen", "selen"],
-    pt: ["dinheiro", "dʒĩˈɲejɾu"],  // From a coin of little value, from Vulgar Latin.
+    pt: ["dinheiro", "diˈɲɐjɾu"],  // From a coin of little value, from Vulgar Latin.
     pa: ["ਪੈਸਾ", "ˈpɛːsaː"],  // Route by resemblance to the neighbouring forms (crs,ur,hi); no etymology of its own.
-    ro: ["ban", "ban"],
+    ro: ["bani", "banʲ"],
     sm: ["tupe", "tupe"],  // A word broadened from 'toy'.
     sat: ["ᱠᱟᱹᱣᱰᱤ", "kəwɖi"],
     gd: ["airgead", "ˈaˈɾakʲit"],
@@ -744,7 +771,7 @@ WORDS.money = {
     sel: ["ӄөмта", "qømta"],
     yrk: ["еся", "jeːsʲɑ"],
     nio: ["бадяˮ", "bɐdʲɐʔ"],
-    ku: ["pere", "pɛrɛ"],
+    ku: ["pere", "pɛˈrɛ"],
     hyw: ["փող", "pʰoʁ"],
     aln: ["para", "paɾa"],
     no: ["penger", "ˈpɛŋər"],
@@ -784,13 +811,13 @@ WORDS.money = {
     fr_sn: ["argent", "aʁʒɑ̃"],
     fr_ci: ["argent", "aʁʒɑ̃"],
     fr_ht: ["argent", "aʁʒɑ̃"],
-    pt_mz: ["dinheiro", "dʒĩˈɲejɾu"],
+    pt_mz: ["dinheiro", "diˈɲejɾu"],
     nl_be: ["geld", "ɣɛlt"],
     en_us: ["money", "ˈmʌnɪ"],
     en_ca: ["money", "ˈmʌnɪ"],
     en_za: ["money", "ˈmʌnɪ"],
     de_ch: ["Geld", "ɡɛlt"],
-    pt_ao: ["dinheiro", "dʒĩˈɲejɾu"],
+    pt_ao: ["dinheiro", "diˈɲejɾu"],
     ca_va: ["diners", "diˈnes"],  // Route by resemblance to the neighbouring forms (an); no etymology of its own.
     es_mx: ["dinero", "diˈneɾo"],
     prs: ["پول", "puːl"],
@@ -946,5 +973,32 @@ WORDS.money = {
     lij_t: ["palanche", "paˈlaŋke"],
     sr: ["новац", "nǒʋats"],  // From nov 'new', after a new coinage; паре is the informal word.
     bs: ["novac", "ˈnoʋats"],  // From nov 'new', after a new coinage; pare is the informal word.
+    en_nz: ["money", "ˈmɐni"],  // The same word as standard English.
+    en_scouse: ["money", "ˈmʊnɪ"],  // The same word as standard English.
+    pt_br: ["dinheiro", "dʒĩˈɲejɾu"],  // The same word as European Portuguese.
+    pt_cv: ["dinheiro", "diˈɲejɾu"],  // The same word as European Portuguese.
+    pt_mo: ["dinheiro", "diˈɲɐjɾu"],  // The same word as European Portuguese.
+    ja_osa: ["お金", "okane"],  // O- + kane 'metal'; the national word, which Osaka speech uses as well.
+    ja_hak: ["お金", "okane"],  // O- + kane 'metal'; the national word, which Hakata speech uses as well.
+    ja_kyo: ["お金", "okane"],  // O- + kane 'metal'; the national word, which Kyoto speech uses as well.
+    ja_hir: ["お金", "okane"],  // O- + kane 'metal'; the national word, which Hiroshima speech uses as well.
+    ja_kg: ["お金", "okane"],  // O- + kane 'metal'; the national word, which Kagoshima speech uses as well.
+    ja_sd: ["お金", "oɡane"],  // O- + kane 'metal'; the national word, which Sendai speech uses as well, with the Tohoku voicing of k.
+    zh_tw: ["錢", "tɕʰjɛn˧˥"],  // 錢, first the name of a coin. The standard word, used in Taiwan as well; reading as the zh row's own cell.
+    zh_db: ["钱", "tɕʰjɛn˧˥"],  // 钱, first the name of a coin. The standard word, which Northeastern Mandarin uses as well; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
+    vi_c: ["tiền", "tiəŋ˦˨"],  // The same word as standard Vietnamese.
+    vi_s: ["tiền", "tiəŋ˨˩"],  // The same word as standard Vietnamese.
+    ar_eg: ["فلوس", "filuːs"],  // Plural of fils, a small coin, from Byzantine Greek follis.
+    ar_gulf: ["فلوس", "fluːs"],  // Plural of fils, a small coin, from Byzantine Greek follis.
+    ar_sa: ["فلوس", "fluːs"],  // Plural of fils, a small coin, from Byzantine Greek follis.
+    ar_iq: ["فلوس", "fluːs"],  // Plural of fils, a small coin, from Byzantine Greek follis.
+    ar_ma: ["فلوس", "fluːs"],  // Plural of fals, a small coin, from Byzantine Greek follis.
+    ar_tn: ["فلوس", "fluːs"],  // Plural of fals, a small coin, from Byzantine Greek follis.
+    ar_jo: ["مصاري", "masˤaːri"],  // Plural of maṣri 'Egyptian': first the Egyptian coins.
+    ar_ps: ["مصاري", "masˤaːri"],  // Plural of maṣri 'Egyptian': first the Egyptian coins.
+    ar_lev: ["مصاري", "masˤaːɾi"],  // Plural of maṣri 'Egyptian': first the Egyptian coins.
+    ar_sy: ["مصاري", "masˤaːɾi"],  // Plural of maṣri 'Egyptian': first the Egyptian coins.
+    ar_lb: ["مصاري", "masˤaːɾi"],  // Plural of maṣri 'Egyptian': first the Egyptian coins.
+    ar_sd: ["قروش", "ɡuruːʃ"],  // Plural of qirš 'piastre', from Ottoman Turkish.
   },
 };

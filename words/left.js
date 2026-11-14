@@ -616,7 +616,7 @@ WORDS.left = {
     ace: ["wië", "wiə"],
     mdr: ["kiri", "kiri"],
     aa: ["gura", "ˈɡura"],  // Borrowed from Amharic ግራ.
-    kok: ["दावें", "dɑːʋẽ"],
+    kok: ["दावें", "daːʋẽ"],
     csb: ["lewi", "ˈlɛvi"],
     ast: ["izquierdu", "iθˈkjeɾdu"],  // From Basque ezker 'left'.
     wa: ["hintche", "hɛ̃tʃ"],

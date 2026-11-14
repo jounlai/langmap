@@ -504,6 +504,34 @@ WORDS.elephant = {
     zh_tw: "xiang",
     zh_wh: "xiang",
     zh_xa: "xiang",
+    en_us: "elephas",
+    en_ca: "elephas",
+    en_app: "elephas",
+    en_nz: "elephas",
+    en_ng: "elephas",
+    en_ph: "elephas",
+    en_geordie: "elephas",
+    pt_br: "elephas",
+    pt_cv: "elephas",
+    pt_mo: "elephas",
+    ja_kg: "xiang",
+    ja_sd: "xiang",
+    zh_db: "xiang",
+    vi_c: "plain",
+    vi_s: "plain",
+    ar_eg: "pil",
+    ar_jo: "pil",
+    ar_ps: "pil",
+    ar_lev: "pil",
+    ar_sy: "pil",
+    ar_lb: "pil",
+    ar_gulf: "pil",
+    ar_sa: "pil",
+    ar_iq: "pil",
+    ar_ma: "pil",
+    ar_tn: "pil",
+    ar_sd: "pil",
+    ar_ye: "pil",
   },
   routes: {
     elephas: {"color":"#2563eb","emoji":"🏛️","en":"from Greek ἐλέφας, Latin elephantus (elephant, Elefant)","ja":"ギリシャ語 ἐλέφας、ラテン語 elephantus から (elephant, Elefant)","ko":"그리스어 ἐλέφας, 라틴어 elephantus에서 (elephant, Elefant)","zh":"来自希腊语 ἐλέφας、拉丁语 elephantus (elephant, Elefant)","yue":"嚟自希臘語 ἐλέφας、拉丁語 elephantus (elephant, Elefant)","vi":"từ tiếng Hy Lạp ἐλέφας, Latinh elephantus (elephant, Elefant)","th":"จากภาษากรีก ἐλέφας ละติน elephantus (elephant, Elefant)","id":"dari ἐλέφας Yunani, elephantus Latin (elephant, Elefant)","hi":"यूनानी ἐλέφας, लैटिन elephantus से (elephant, Elefant)","de":"aus griechisch ἐλέφας, lateinisch elephantus (elephant, Elefant)","fr":"du grec ἐλέφας, latin elephantus (elephant, Elefant)","it":"dal greco ἐλέφας, latino elephantus (elephant, Elefant)","es":"del griego ἐλέφας, latín elephantus (elephant, Elefant)","pt":"do grego ἐλέφας, latim elephantus (elephant, Elefant)","ru":"от греческого ἐλέφας, латинского elephantus (elephant, Elefant)","uk":"від грецького ἐλέφας, латинського elephantus (elephant, Elefant)","ar":"من اليونانية ἐλέφας واللاتينية elephantus (elephant, Elefant)","he":"מהיוונית ἐλέφας, מהלטינית elephantus (elephant, Elefant)","sw":"kutoka Kigiriki ἐλέφας, Kilatini elephantus (elephant, Elefant)"},
@@ -570,15 +598,15 @@ WORDS.elephant = {
     dv: ["އެތް", "et"],  // From Sanskrit hastin, the animal "with a hand" (the trunk), through Prakrit.
     dyu: ["sogoba", "soɡoba"],
     egl: ["elefànt", "eleˈfaŋt"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
-    el: ["ελέφαντας", "elefantas"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
+    el: ["ελέφαντας", "eˈlefantas"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
     emk: ["sàma", "sama"],
-    en: ["elephant", "ɛlɪfənt"],  // Through Old French and Latin elephantus from Greek ἐλέφας.
+    en: ["elephant", "ˈɛlɪfənt"],  // Through Old French and Latin elephantus from Greek ἐλέφας.
     enm: ["olifant", "ˈolifant"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
     eo: ["elefanto", "eleˈfanto"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
     es: ["elefante", "eleˈfante"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
     et: ["elevant", "ˈelevɑnt"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
     eu: ["elefante", "elefante"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
-    fa: ["فیل", "ˈfiːl"],  // From Persian pīl (ultimately Akkadian pīru), often through Arabic fīl.
+    fa: ["فیل", "fiːl"],  // From Persian pīl (ultimately Akkadian pīru), often through Arabic fīl.
     fan: ["zɔk", "zɔk"],  // An old Bantu word (Proto-Bantu *njògù or *ntémbó).
     fax: ["elefanti", "eleˈfanti"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
     ff: ["mawba", "mawba"],  // Probably related to maw- "big".
@@ -612,7 +640,7 @@ WORDS.elephant = {
     ilo: ["gadia", "ˈɡadja"],  // Borrowed from Malay gajah, from Sanskrit gaja.
     inh: ["пилл", "pill"],  // From Persian pīl (ultimately Akkadian pīru), often through Arabic fīl.
     io: ["elefanto", "eleˈfanto"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
-    is: ["fíll", "ˈfitl̥"],  // From Persian pīl (ultimately Akkadian pīru), often through Arabic fīl.
+    is: ["fíll", "fitl̥"],  // From Persian pīl (ultimately Akkadian pīru), often through Arabic fīl.
     iso: ["eni", "eni"],
     it: ["elefante", "eleˈfante"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
     ja: ["象", "zoː"],  // Sino-Japanese reading of 象, from Middle Chinese.
@@ -649,7 +677,7 @@ WORDS.elephant = {
     loz: ["tou", "tou"],  // An old Bantu word (Proto-Bantu *njògù or *ntémbó).
     lt: ["dramblys", "drɐmʲˈbʲlʲiːs"],  // Fraenkel (1960) thought it related to Greek θρόμβος "lump".
     lus: ["sai", "sai"],
-    lv: ["zilonis", "zilɔnis"],  // Borrowed from Russian слон.
+    lv: ["zilonis", "ˈzilɔnis"],  // Borrowed from Russian слон.
     mdf: ["слан", "slan"],  // Slavic slon.
     mfa: ["gajoh", "ɡaɟɔh"],  // From Sanskrit gaja.
     mg: ["elefanta", "eleˈfanta"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
@@ -694,7 +722,7 @@ WORDS.elephant = {
     pl: ["słoń", "swɔɲ"],  // Slavic slon.
     pms: ["elefant", "eleˈfaŋt"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
     ps: ["پيل", "pil"],  // From Persian pīl (ultimately Akkadian pīru), often through Arabic fīl.
-    pt: ["elefante", "eleˈfɐ̃tʃi"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
+    pt: ["elefante", "ilɨˈfɐ̃tɨ"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
     rar: ["ʻerepani", "ʔeɾepani"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
     rm: ["elefant", "eleˈfant"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
     rn: ["inzovu", "inzovu"],  // An old Bantu word (Proto-Bantu *njògù or *ntémbó).
@@ -706,7 +734,7 @@ WORDS.elephant = {
     sa: ["गज", "ɡɐdʑɐ"],  // From Sanskrit gaja.
     sah: ["слон", "slon"],  // Slavic slon.
     sbp: ["ijungwa", "ijunɡwa"],  // An old Bantu word (Proto-Bantu *njògù or *ntémbó).
-    sc: ["elefante", "elefante"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
+    sc: ["elefante", "eleˈfante"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
     scn: ["liafanti", "ˌliaˈfanti"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
     sd: ["هاٿي", "haːt̪ʰiː"],  // From Sanskrit hastin, the animal "with a hand" (the trunk), through Prakrit.
     se: ["elefánta", "ˈelefaːnta"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
@@ -719,7 +747,7 @@ WORDS.elephant = {
     sn: ["nzou", "nzou"],  // From Proto-Bantu *njògù.
     snk: ["tuure", "tuːre"],
     so: ["maroodi", "maroodi"],
-    sq: ["elefant", "ɛlɛfant"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
+    sq: ["elefant", "ɛlɛˈfant"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
     sr: ["слон", "slôn"],  // Serbian also uses фил.
     srn: ["asaw", "aˈsau"],  // From Kongo nzau, from Proto-Bantu *njògù.
     ssw: ["indlovu", "indlovu"],  // An old Bantu word (Proto-Bantu *njògù or *ntémbó).
@@ -729,7 +757,7 @@ WORDS.elephant = {
     suk: ["mhuli", "mhuli"],  // An old Bantu word (Proto-Bantu *njògù or *ntémbó).
     sux: ["𒄠𒋛", "amsi"],
     sv: ["elefant", "ɛlɛˈfanːt"],  // From Greek ἐλέφας through Latin elephantus, directly or through a later language.
-    sw: ["tembo", "tembo"],  // Inherited from Proto-Bantu *ntémbó; Swahili also has ndovu.
+    sw: ["tembo", "ˈtembo"],  // Inherited from Proto-Bantu *ntémbó; Swahili also has ndovu.
     syc: ["ܦܝܠܐ", "pila"],  // From Persian pīl (ultimately Akkadian pīru), often through Arabic fīl.
     ta: ["யானை", "jaːnaɪ"],  // From Proto-Dravidian *yānay.
     tab: ["фил", "fil"],  // From Persian pīl (ultimately Akkadian pīru), often through Arabic fīl.
@@ -787,23 +815,23 @@ WORDS.elephant = {
     fr_lu: ["éléphant", "elefɑ̃"],
     fr_cm: ["éléphant", "elefɑ̃"],
     de_lu: ["Elefant", "eləˈfant"],
-    en_ng2: ["elephant", "ɛlɪfənt"],
+    en_ng2: ["elephant", "ˈɛlɪfənt"],
     es_bo: ["elefante", "eleˈfante"],
     es_py: ["elefante", "eleˈfante"],
     es_pa: ["elefante", "eleˈfante"],
-    en_my: ["elephant", "ɛlɪfənt"],
-    en_wls: ["elephant", "ɛlɪfənt"],
-    en_jam: ["elephant", "ɛlɪfənt"],
-    en_ke: ["elephant", "ɛlɪfənt"],
+    en_my: ["elephant", "ˈɛlɪfənt"],
+    en_wls: ["elephant", "ˈɛlɪfənt"],
+    en_jam: ["elephant", "ˈɛlɪfənt"],
+    en_ke: ["elephant", "ˈɛlɪfənt"],
     fr_sn: ["éléphant", "elefɑ̃"],
     fr_ci: ["éléphant", "elefɑ̃"],
     fr_ht: ["éléphant", "elefɑ̃"],
-    pt_mz: ["elefante", "eleˈfɐ̃tʃi"],
+    pt_mz: ["elefante", "eleˈfɐ̃te"],
     nl_be: ["olifant", "ˈoːliˌfɑnt"],
-    en_za: ["elephant", "elɪfənt"],
+    en_za: ["elephant", "ˈelɪfənt"],
     de_ch: ["Elefant", "eləˈfant"],
-    pt_ao: ["elefante", "eleˈfɐ̃tʃi"],
-    ca_va: ["elefant", "alaˈfan"],
+    pt_ao: ["elefante", "eleˈfɐ̃te"],
+    ca_va: ["elefant", "eleˈfant"],
     ja_osa: ["象", "zoː"],
     ja_aom: ["象", "zoː"],
     ja_hak: ["象", "zoː"],
@@ -813,24 +841,24 @@ WORDS.elephant = {
     ko_bus: ["코끼리", "kʰok͈iɾi"],
     ko_yb: ["코끼리", "kʰok͈iɾi"],
     es_mx: ["elefante", "eleˈfante"],
-    prs: ["فیل", "ˈfiːl"],
+    prs: ["فیل", "fiːl"],
     hyw: ["փիղ", "pʰiʁ"],
-    en_aave: ["elephant", "ɛlɪfənt"],
-    en_au: ["elephant", "elɪfənt"],
+    en_aave: ["elephant", "ˈɛlɪfənt"],
+    en_au: ["elephant", "ˈelɪfənt"],
     de_at: ["Elefant", "eləˈfant"],
     smj: ["elefánta", "ˈelefaːnta"],
-    en_south: ["elephant", "ɛlɪfənt"],
-    en_in: ["elephant", "ɛlɪfənʈ"],
-    en_ie: ["elephant", "ɛlɪfənt"],
-    en_sco: ["elephant", "ɛlɪfənt"],
-    en_yk: ["elephant", "ɛlɪfənt"],
-    en_ck: ["elephant", "ɛlɪfənt"],
-    en_scouse: ["elephant", "ɛlɪfənt"],
-    en_brum: ["elephant", "ɛlɪfənt"],
-    en_manc: ["elephant", "ɛlɪfənt"],
-    en_wc: ["elephant", "ɛlɪfənt"],
-    en_est: ["elephant", "elɪfənt"],
-    en_sg: ["elephant", "ɛlɪfənt"],
+    en_south: ["elephant", "ˈɛlɪfənt"],
+    en_in: ["elephant", "ˈɛlɪfənʈ"],
+    en_ie: ["elephant", "ˈɛlɪfənt"],
+    en_sco: ["elephant", "ˈɛlɪfənt"],
+    en_yk: ["elephant", "ˈɛlɪfənt"],
+    en_ck: ["elephant", "ˈɛlɪfənt"],
+    en_scouse: ["elephant", "ˈɛlɪfənt"],
+    en_brum: ["elephant", "ˈɛlɪfənt"],
+    en_manc: ["elephant", "ˈɛlɪfənt"],
+    en_wc: ["elephant", "ˈɛlɪfənt"],
+    en_est: ["elephant", "ˈelɪfənt"],
+    en_sg: ["elephant", "ˈɛlɪfənt"],
     fr_qc: ["éléphant", "elefɑ̃"],
     fr_af: ["éléphant", "elefɑ̃"],
     fr_be: ["éléphant", "elefɑ̃"],
@@ -948,5 +976,33 @@ WORDS.elephant = {
     zh_tw: ["大象", "ta˥˩ ɕjɑŋ˥˩"],  // 象 'elephant' with 大 'big'. Word from Wiktionary's dialect table for Taiwan; reading in the row's notation, syllables as in the row's and the zh row's own cells.
     zh_wh: ["象", "ɕiaŋ˧˥"],  // 象, the old Chinese word for the elephant. Word from Wiktionary's dialect table for Wuhan; reading from MCPDict 武漢.
     zh_xa: ["象", "ɕiaŋ˥˥"],  // 象, the old Chinese word for the elephant. Word from Wiktionary's dialect table for Xi'an; reading from MCPDict 西安.
+    en_us: ["elephant", "ˈɛləfənt"],  // The same word as standard English.
+    en_ca: ["elephant", "ˈɛləfənt"],  // The same word as standard English.
+    en_app: ["elephant", "ˈɛləfənt"],  // The same word as standard English.
+    en_nz: ["elephant", "ˈeləfənt"],  // The same word as standard English.
+    en_ng: ["elephant", "ˈɛlɪfənt"],  // The same word as standard English.
+    en_ph: ["elephant", "ˈɛlɛfant"],  // The same word as standard English.
+    en_geordie: ["elephant", "ˈɛlɪfənt"],  // The same word as standard English.
+    pt_br: ["elefante", "eleˈfɐ̃tʃi"],  // The same word as European Portuguese.
+    pt_cv: ["elefante", "ilɨˈfɐ̃tɨ"],  // The same word as European Portuguese.
+    pt_mo: ["elefante", "ilɨˈfɐ̃tɨ"],  // The same word as European Portuguese.
+    ja_kg: ["象", "zoː"],  // Sino-Japanese reading of 象; the national word, which Kagoshima speech uses as well.
+    ja_sd: ["象", "zoː"],  // Sino-Japanese reading of 象; the national word, which Sendai speech uses as well.
+    zh_db: ["大象", "ta˥˩ ɕjɑŋ˥˩"],  // 象 is the old Chinese word for the elephant; 大 means big. The standard word, which Northeastern Mandarin uses as well; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
+    vi_c: ["voi", "vɔj˥"],  // The same word as standard Vietnamese.
+    vi_s: ["voi", "jɔj˧"],  // The same word as standard Vietnamese.
+    ar_eg: ["فيل", "fiːl"],  // From Persian pīl through Arabic fīl; the same word across the dialects.
+    ar_jo: ["فيل", "fiːl"],  // From Persian pīl through Arabic fīl; the same word across the dialects.
+    ar_ps: ["فيل", "fiːl"],  // From Persian pīl through Arabic fīl; the same word across the dialects.
+    ar_lev: ["فيل", "fiːl"],  // From Persian pīl through Arabic fīl; the same word across the dialects.
+    ar_sy: ["فيل", "fiːl"],  // From Persian pīl through Arabic fīl; the same word across the dialects.
+    ar_lb: ["فيل", "fiːl"],  // From Persian pīl through Arabic fīl; the same word across the dialects.
+    ar_gulf: ["فيل", "fiːl"],  // From Persian pīl through Arabic fīl; the same word across the dialects.
+    ar_sa: ["فيل", "fiːl"],  // From Persian pīl through Arabic fīl; the same word across the dialects.
+    ar_iq: ["فيل", "fiːl"],  // From Persian pīl through Arabic fīl; the same word across the dialects.
+    ar_ma: ["فيل", "fiːl"],  // From Persian pīl through Arabic fīl; the same word across the dialects.
+    ar_tn: ["فيل", "fiːl"],  // From Persian pīl through Arabic fīl; the same word across the dialects.
+    ar_sd: ["فيل", "fiːl"],  // From Persian pīl through Arabic fīl; the same word across the dialects.
+    ar_ye: ["فيل", "fiːl"],  // From Persian pīl through Arabic fīl; the same word across the dialects.
   },
 };

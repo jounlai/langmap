@@ -586,7 +586,7 @@ WORDS.rain = {
     sga: ["bráen", "ˈbraːen"],
     egy: ["𓎛𓅱𓏏𓇲", "huːt"],
     vi_nom: ["𩄎", "mɨə˧"],
-    vep: ["vihm", "ˈvihm"],
+    vep: ["vihm", "vihm"],
     krl: ["vihma", "ˈvihmɑ"],
     olo: ["vihmu", "ˈvihmu"],
     liv: ["vī’mõ", "ˈviːˀmə"],

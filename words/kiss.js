@@ -345,7 +345,7 @@ WORDS.kiss = {
     acw: ["بوسة", "ˈboːsa"],  // From Classical Persian بوسه bōsa.
     ko: ["입맞춤", "immat̚tɕʰum"],  // 입 'mouth' + 맞춤 'fitting together'.
     bn: ["চুম্বন", "tʃumbɔn"],  // A learned word, from Sanskrit cumbana.
-    ur: ["بوسہ", "boːsɑː"],  // From Classical Persian بوسه bōsa.
+    ur: ["بوسہ", "boːsaː"],  // From Classical Persian بوسه bōsa.
     ta: ["முத்து", "mʊt̪ːɯ"],
     fr: ["baiser", "bɛze"],  // From Latin bāsiāre.
     it: ["bacio", "ˈbatʃo"],  // From Latin bāsium.
@@ -372,7 +372,7 @@ WORDS.kiss = {
     ceb: ["halok", "haˈlok"],  // From Proto-Austronesian *Sajək 'to smell'.
     ilo: ["agek", "ʔaˈɡɛk"],  // From Proto-Malayo-Polynesian *hajək, the 'smell, sniff, kiss' word.
     pa: ["ਮਿੱਠੀ", "mɪʈʈʰiː"],
-    ne: ["म्वाइँ", "mwäĩ"],  // Origin unknown; possibly Sanskrit mukham 'mouth', or onomatopoeic.
+    ne: ["म्वाइँ", "mwaːĩ"],  // Origin unknown; possibly Sanskrit mukham 'mouth', or onomatopoeic.
     mr: ["चुंबन", "tɕumbən"],  // A learned word, from Sanskrit cumbana.
     gu: ["બોસો", "ˈboso"],  // From Classical Persian بوسه bōsa.
     te: ["ముద్దు", "mud̪ːu"],
@@ -457,7 +457,7 @@ WORDS.kiss = {
     en_za: ["kiss", "kɪs"],
     de_ch: ["Kuss", "kʊs"],
     pt_ao: ["beijo", "ˈbejʒu"],
-    ca_va: ["petó", "paˈtu"],
+    ca_va: ["petó", "peˈto"],
     ko_kp: ["입맞춤", "immat̚tɕʰum"],
     ko_bus: ["입맞춤", "immat̚tɕʰum"],
     ko_yb: ["입맞춤", "immat̚tɕʰum"],

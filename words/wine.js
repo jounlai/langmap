@@ -1340,7 +1340,7 @@ WORDS.wine = {
     tl: ["alak", "ˈʔalak"],
     h_tagalog: ["ᜀᜎᜃ᜔", "ˈalak"], // was ["ᜀᜎᜃ᜔", "ˈʔalak"] (vi dialect rules 2026-10-06)
     am: ["ወይን", "wəjn"], // was ["ወይን", "wɐjn"] (vi dialect rules 2026-10-06)
-    ha: ["ruwan inabi", "ɾuwan inabiː"], // was ["giya", "ɡija"] (r29 fix 2026-10-02) // was ["ruwan inabi", "ɾuwan inabi"] (vi dialect rules 2026-10-06)
+    ha: ["ruwan inabi", "ɽuwan inabiː"], // was ["giya", "ɡija"] (r29 fix 2026-10-02) // was ["ruwan inabi", "ɾuwan inabi"] (vi dialect rules 2026-10-06)
     zu: ["iwayini", "iwaˈjini"],
     mg: ["divay", "diˈvaj"], // was ["divay", "divaj"] (vi dialect rules 2026-10-06)
 

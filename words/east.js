@@ -880,7 +880,7 @@ WORDS.east = {
     zh_cq: ["东", "toŋ˥"],  // 东, 'east'. Reading from MCPDict 重慶.
     zh_db: ["东", "tʊŋ˥"],  // 东, 'east'. Reading as the zh row's own cell.
     zh_hf: ["东", "təŋ˨˩˨"],  // 东, 'east'. Reading from MCPDict 合肥.
-    zh_jh: ["东", "toŋ˧˩"],  // 东, 'east'. Reading from MCPDict 揚州.
+    zh_jh: ["东", "toŋ˧˩"],  // 东, 'east'. Reading in the row's Nanjing tone value, 陰平 ˧˩ (MCPDict 南京 東 toŋ1 = 31; 揚州 has ˨˩).
     zh_jiao: ["东", "təŋ˨˩˧"],  // 东, 'east'. Reading from MCPDict 青島.
     zh_jn: ["东", "tuŋ˨˩˧"],  // 东, 'east'. Reading from MCPDict 濟南.
     zh_kf: ["东", "tuəŋ˨˦"],  // 东, 'east'. Reading from MCPDict 開封.

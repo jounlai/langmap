@@ -899,7 +899,7 @@ WORDS.bone = {
     mbc: ["yeʔpɨ", "jeʔpɨ"],
     kpj: ["ti", "ti"],
     guu: ["ũ", "ũ"],
-    bwi: ["áapi", "áapi"],
+    bwi: ["api", "api"],
     cag: ["nuʔ", "nuʔ"],
     crt: ["weʔlak", "weʔlak"],
     tpy: ["daʃ", "daʃ"],

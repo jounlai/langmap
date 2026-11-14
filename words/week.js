@@ -656,7 +656,7 @@ WORDS.week = {
     en_za: ["week", "wiːk"],
     de_ch: ["Woche", "ˈvɔxə"],
     pt_ao: ["semana", "seˈmɐ̃nɐ"],
-    ca_va: ["setmana", "samˈmana"],
+    ca_va: ["setmana", "seˈmana"],
     ja_osa: ["週", "ɕɯː"],
     ja_aom: ["週", "ɕɯː"],
     ja_hak: ["週", "ɕɯː"],

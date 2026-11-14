@@ -173,7 +173,7 @@ WORDS.usbstick = {
     gu: ["પેન ડ્રાઈવ", "peːn ɖraːiʋ"],  // From English pen drive.
     bho: ["पेन ड्राइव", "peːn ɖraːɪʋ"],  // From English pen drive.
     ta: ["விரலி", "ʋiɾali"],  // From விரல் "finger", like English thumb drive.
-    ug: ["بارماق دىسكا", "barmaq diska"],  // "Finger disk": بارماق "finger" + دىسكا "disk".
+    ug: ["بارماق دىسكا", "bɑrmɑq diskɑ"],  // "Finger disk": بارماق "finger" + دىسكا "disk".
     ja: ["USBメモリ", "jɯːesɯbiːmemoɾi"],  // USB + メモリ "memory", from English memory.
     ko: ["USB 메모리", "ju esɯbi memoɾi"],  // USB + 메모리 "memory"; it is often called just USB.
     zh: ["U盘", "joʊ̯˥ pʰän˧˥"],  // U from English USB + 盘 "disc, drive".

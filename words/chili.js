@@ -159,10 +159,10 @@ WORDS.chili = {
     en: "chilli",
     th: "pepper",
     vi: "pepper",
-    zh: "plain",
-    yue: "plain",
+    zh: "hot",
+    yue: "hot",
     sw: "pepper",
-    pt: "spice",
+    pt: "pepper",
     lo: "hot",
     es_cr: "chilli",
     es_hn: "chilli",
@@ -172,9 +172,9 @@ WORDS.chili = {
     fr_cm: "spice",
     de_lu: "chilli",
     en_ng2: "chilli",
-    es_bo: "chilli",
-    es_py: "chilli",
-    es_pa: "chilli",
+    es_bo: "aji",
+    es_py: "aji",
+    es_pa: "aji",
     en_my: "chilli",
     en_wls: "chilli",
     en_jam: "chilli",
@@ -226,22 +226,22 @@ WORDS.chili = {
     fr_af: "spice",
     fr_be: "spice",
     fr_ch: "spice",
-    es_co: "chilli",
-    es_cl: "chilli",
-    es_ar: "chilli",
-    es_cu: "chilli",
-    es_pe: "chilli",
+    es_co: "aji",
+    es_cl: "aji",
+    es_ar: "aji",
+    es_cu: "aji",
+    es_pe: "aji",
     es_an: "chilli",
     ext: "chilli",
     ko_hg: "pepper",
     ko_jl: "pepper",
     gsw_w: "chilli",
     gsw_als: "chilli",
-    es_pr: "chilli",
-    es_do: "chilli",
+    es_pr: "aji",
+    es_do: "aji",
     es_gt: "chilli",
-    es_ec: "chilli",
-    es_ve: "chilli",
+    es_ec: "aji",
+    es_ve: "aji",
     es_sgl: "aji",
     ja_edo: "foreign",
     ko_em: "pepper",
@@ -267,7 +267,7 @@ WORDS.chili = {
     or: "pepper",
     km: "pepper",
     haw: "other",
-    ug: "plain",
+    ug: "hot",
     jv: "plain",
     hil: "other",
     qu: "plain",
@@ -294,56 +294,60 @@ WORDS.chili = {
     hmn: "pepper",
     jvn: "plain",
     cdo: "foreign",
-    cjy: "plain",
-    cjy_lv: "plain",
-    cjy_xz: "plain",
-    cpx: "plain",
-    czh: "plain",
-    czh_wy: "plain",
-    dng: "plain",
-    gan: "plain",
-    hak_cn: "plain",
-    hak_hl: "plain",
-    hak_tw: "plain",
-    hsn: "plain",
-    hsn_hy: "plain",
+    cjy: "hot",
+    cjy_lv: "hot",
+    cjy_xz: "hot",
+    cpx: "hot",
+    czh: "hot",
+    czh_wy: "hot",
+    dng: "hot",
+    gan: "hot",
+    hak_cn: "hot",
+    hak_hl: "hot",
+    hak_tw: "hot",
+    hsn: "hot",
+    hsn_hy: "hot",
     mnp: "foreign",
     nan: "foreign",
     nan_hai: "foreign",
-    nan_ph: "plain",
+    nan_ph: "hot",
     nan_pn: "foreign",
     nan_qz: "foreign",
-    nan_te: "plain",
+    nan_te: "hot",
     nan_xm: "foreign",
     nan_zz: "foreign",
-    wuu: "plain",
-    wuu_hz: "plain",
-    wuu_jh: "plain",
-    wuu_nb: "plain",
-    wuu_sz: "plain",
+    wuu: "hot",
+    wuu_hz: "hot",
+    wuu_jh: "hot",
+    wuu_nb: "hot",
+    wuu_sz: "hot",
     wuu_wz: "foreign",
-    yue_dg: "plain",
-    yue_nn: "plain",
-    yue_ts: "plain",
-    yue_zs: "plain",
+    yue_dg: "hot",
+    yue_nn: "hot",
+    yue_ts: "hot",
+    yue_zs: "hot",
     zh_cd: "foreign",
     zh_cq: "foreign",
-    zh_db: "plain",
-    zh_hf: "plain",
-    zh_jiao: "plain",
-    zh_jn: "plain",
-    zh_km: "plain",
-    zh_lz: "plain",
-    zh_nj: "plain",
+    zh_db: "hot",
+    zh_hf: "hot",
+    zh_jiao: "hot",
+    zh_jn: "hot",
+    zh_km: "hot",
+    zh_lz: "hot",
+    zh_nj: "hot",
     zh_sc: "foreign",
-    zh_tj: "plain",
-    zh_tw: "plain",
-    zh_wh: "plain",
-    zh_xa: "plain",
-    zh_zz: "plain",
+    zh_tj: "hot",
+    zh_tw: "hot",
+    zh_wh: "hot",
+    zh_xa: "hot",
+    zh_zz: "hot",
     hr: "chilli",
     sr: "pepper",
     bs: "pepper",
+    es_uy: "aji",
+    en_nz: "chilli",
+    vi_c: "pepper",
+    vi_s: "pepper",
   },
   routes: {
     chilli: {"color":"#dc2626","emoji":"🌶️","en":"Nahuatl chīlli (chile, chili, sili)","ja":"ナワトル語 chīlli（chile, chili, sili）","ko":"나우아틀어 chīlli (chile, chili, sili)","zh":"纳瓦特尔语 chīlli（chile、chili、sili）","yue":"納瓦特爾語 chīlli（chile、chili、sili）","vi":"tiếng Nahuatl chīlli (chile, chili, sili)","th":"นาวาตล์ chīlli (chile, chili, sili)","id":"Nahuatl chīlli (chile, chili, sili)","hi":"नाहुआत्ल chīlli (chile, chili, sili)","de":"Nahuatl chīlli (chile, Chili, sili)","fr":"le nahuatl chīlli (chile, chili, sili)","it":"il nahuatl chīlli (chile, chili, sili)","es":"el náhuatl chīlli (chile, chili, sili)","pt":"o náuatle chīlli (chile, chili, sili)","ru":"науатль chīlli (chile, chili, sili)","uk":"науатль chīlli (chile, chili, sili)","ar":"الناواتل chīlli (chile, chili, sili)","he":"הנאוואטל chīlli (chile, chili, sili)","sw":"Kinahuatl chīlli (chile, chili, sili)"},
@@ -379,14 +383,14 @@ WORDS.chili = {
     el: ["καυτερή πιπεριά", "kafteˈri pipeˈrʝa"],  // Literally 'hot pepper'; μπούκοβο is the word for chili flakes.
     nl: ["chilipeper", "ˈtʃiliˌpeːpər"],  // chili + peper.
     pl: ["chilli", "ˈtʂili"],  // From English chilli.
-    uk: ["червоний перець", "tʃerˈwɔnɪj ˈpɛrɛtsʲ"],  // Literally 'red pepper', as Russian красный перец.
+    uk: ["червоний перець", "tʃerˈwɔnei̯ ˈpɛretsʲ"],  // Literally 'red pepper', as Russian красный перец.
     da: ["chili", "ˈtɕiːli"],  // The everyday word; peber is the black-pepper word.
     cy: ["tsili", "ˈtʃɪlɪ"],  // From English chili.
     ka: ["წიწაკა", "tsʼitsʼäkʼä"],
     hy: ["ծիծակ", "tsiˈtsɑk"],  // From Georgian წიწაკა.
     nv: ["azeedíchʼííʼ", "ʔɑ̀zèːtɪ́tʃʼíːʔ"],  // azeeʼ 'medicine' plus díchʼííʼ 'hot, piquant'.
     orh: ["tʃiŋdʒu", "tʃiŋdʒu"],
-    ne: ["खुर्सानी", "kʰursäni"],
+    ne: ["खुर्सानी", "kʰursaːni"],
     mr: ["मिरची", "miɾtɕi"],  // From Sanskrit marica 'black pepper'.
     gu: ["મરચું", "ˈməɾtʃũ"],  // From Sanskrit *maricca; related to મરી 'black pepper'.
     dv: ["މިރުސް", "miɾus̺"],  // From Sanskrit marica 'black pepper'.
@@ -397,7 +401,7 @@ WORDS.chili = {
     is: ["eldpipar", "ˈɛltpʰɪːpar"],  // eldur 'fire' + pipar 'pepper'.
     ca: ["bitxo", "ˈbitʃu"],  // From vit 'penis'.
     gl: ["pemento", "peˈmento"],  // From Latin pigmentum 'pigment, colour'.
-    sk: ["paprika", "paprika"],  // From Hungarian paprika, ultimately Latin piper 'pepper'.
+    sk: ["paprika", "ˈpaprika"],  // From Hungarian paprika, ultimately Latin piper 'pepper'.
     lv: ["čili", "ˈtʃili"],
     sq: ["spec", "spɛts"],  // From Italian spezie 'spices'.
     et: ["tšiili pipar̃", "tsiilipipar"],  // tšiili + pipar 'pepper'.
@@ -421,7 +425,7 @@ WORDS.chili = {
     liv: ["paprik", "ˈpɑprik"],
     pwo: ["ဆၧဂဲၪၥၪ", "sʰə ɣai θa"],  // 'Thing' + 'spicy' + 'fruit'.
     kr: ["bàrwùnó", "bàrwùnó"],
-    dsb: ["paprika", "paprika"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    dsb: ["paprika", "ˈpaprika"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     mch: ["jomi", "hʷomi"],
     mbc: ["pimi", "pimi"],
     guu: ["praki", "pɾaki"],
@@ -441,10 +445,10 @@ WORDS.chili = {
     en: ["chili", "ˈtʃɪli"],  // From Spanish chile, from Classical Nahuatl chīlli.
     th: ["พริก", "pʰrik˦˥"],  // Ultimately from Pali or Sanskrit marica 'black pepper'.
     vi: ["ớt", "əːt˧˥"],  // Also the name of the cubeb pepper (Piper cubeba).
-    zh: ["辣椒", "la˥˩ tɕjau˥"],
-    yue: ["辣椒", "laːt̚˨ tsiːu˥"],
+    zh: ["辣椒", "la˥˩ tɕjau˥"],  // 辣 'hot, spicy' + 椒 'pepper': named for the burn.
+    yue: ["辣椒", "laːt̚˨ tsiːu˥"],  // 辣 'hot, spicy' + 椒 'pepper': named for the burn.
     sw: ["pilipili", "piliˈpili"],  // From Persian pilpil, from Sanskrit pippali 'long pepper'.
-    pt: ["pimenta", "piˈmẽtɐ"],  // From Latin pigmentum 'pigment'; also used for black pepper.
+    pt: ["malagueta", "mɐlɐˈɡetɐ"],  // Malagueta first named the Guinea pepper (grains of paradise, Aframomum melegueta), from Italian meleghetta; in Portugal it is the everyday word for the hot chili, while pimenta is black pepper.
     lo: ["ໝາກເຜັດ", "maːk˧˩pʰet˧˥"],
     es_cr: ["chile", "ˈtʃile"],
     es_hn: ["chile", "ˈtʃile"],
@@ -454,9 +458,9 @@ WORDS.chili = {
     fr_cm: ["piment", "pimɑ̃"],
     de_lu: ["Chili", "ˈʃɪli"],
     en_ng2: ["chili", "ˈtʃɪli"],
-    es_bo: ["chile", "ˈtʃile"],
-    es_py: ["chile", "ˈtʃile"],
-    es_pa: ["chile", "ˈtʃile"],
+    es_bo: ["ají", "aˈxi"],  // From Taíno; ají is the chili's name in South America and the Caribbean, where Mexican chile is not the everyday word.
+    es_py: ["ají", "aˈxi"],  // From Taíno; ají is the chili's name in South America and the Caribbean, where Mexican chile is not the everyday word.
+    es_pa: ["ají", "aˈhi"],  // From Taíno; ají is the chili's name in South America and the Caribbean, where Mexican chile is not the everyday word.
     en_my: ["chili", "ˈtʃɪli"],
     en_wls: ["chili", "ˈtʃɪli"],
     en_jam: ["chili", "ˈtʃɪli"],
@@ -508,22 +512,22 @@ WORDS.chili = {
     fr_af: ["piment", "pimɑ̃"],
     fr_be: ["piment", "pimɑ̃"],
     fr_ch: ["piment", "pimɑ̃"],
-    es_co: ["chile", "ˈtʃile"],
-    es_cl: ["chile", "ˈtʃile"],
-    es_ar: ["chile", "ˈtʃile"],
-    es_cu: ["chile", "ˈtʃile"],
-    es_pe: ["chile", "ˈtʃile"],
+    es_co: ["ají", "aˈxi"],  // From Taíno; ají is the chili's name in South America and the Caribbean, where Mexican chile is not the everyday word.
+    es_cl: ["ají", "aˈhi"],  // From Taíno; ají is the chili's name in South America and the Caribbean, where Mexican chile is not the everyday word.
+    es_ar: ["ají", "aˈxi"],  // From Taíno; ají is the chili's name in South America and the Caribbean, where Mexican chile is not the everyday word.
+    es_cu: ["ají", "aˈhi"],  // From Taíno; ají is the chili's name in South America and the Caribbean, where Mexican chile is not the everyday word.
+    es_pe: ["ají", "aˈxi"],  // From Taíno; ají is the chili's name in South America and the Caribbean, where Mexican chile is not the everyday word.
     es_an: ["chile", "ˈtʃile"],
     ext: ["chile", "ˈtʃile"],
     ko_hg: ["고추", "kotɕʰu"],
     ko_jl: ["고추", "kotɕʰu"],
     gsw_w: ["Chili", "ˈʃɪli"],
     gsw_als: ["Chili", "ʃɪli"],
-    es_pr: ["chile", "ˈtʃile"],
-    es_do: ["chile", "ˈtʃile"],
+    es_pr: ["ají", "aˈhi"],  // From Taíno; ají is the chili's name in South America and the Caribbean, where Mexican chile is not the everyday word.
+    es_do: ["ají", "aˈhi"],  // From Taíno; ají is the chili's name in South America and the Caribbean, where Mexican chile is not the everyday word.
     es_gt: ["chile", "ˈtʃile"],
-    es_ec: ["chile", "ˈtʃile"],
-    es_ve: ["chile", "ˈtʃile"],
+    es_ec: ["ají", "aˈxi"],  // From Taíno; ají is the chili's name in South America and the Caribbean, where Mexican chile is not the everyday word.
+    es_ve: ["ají", "aˈhi"],  // From Taíno; ají is the chili's name in South America and the Caribbean, where Mexican chile is not the everyday word.
     es_sgl: ["ají", "aˈʃi"],  // From Taíno; in Spanish since the first voyages to the Caribbean.
     ja_edo: ["唐辛子", "toːɡaɾaɕi"],  // Chinese mustard, the new hot spice; it came in the Keichō years (1596–1615).
     ko_em: ["고쵸", "kotɕʰjo"],  // First the name of black pepper; spelled 고초 from the 19th century.
@@ -626,5 +630,9 @@ WORDS.chili = {
     hr: ["čili", "tʃîli"],  // From English chili, ultimately Nahuatl chīlli; ljuta papričica 'hot little pepper' and feferon are also said.
     sr: ["љута паприка", "ˈʎuːta ˈpaprika"],  // Literally 'hot pepper'; паприка comes from папар 'pepper'. Чили is also used, mostly for the spice and in чили папричица.
     bs: ["ljuta paprika", "ˈʎuːta ˈpaprika"],  // Literally 'hot pepper', as in Serbian; čili is nearly as common, mostly for the spice and in čili papričica.
+    es_uy: ["ají", "aˈxi"],  // From Taíno; ají is the chili's name in South America and the Caribbean, where Mexican chile is not the everyday word.
+    en_nz: ["chili", "ˈtʃəli"],  // The same word as standard English.
+    vi_c: ["ớt", "əːk˧˦"],  // The same word as standard Vietnamese.
+    vi_s: ["ớt", "əːk˧˥"],  // The same word as standard Vietnamese.
   },
 };

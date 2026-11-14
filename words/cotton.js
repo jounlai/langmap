@@ -401,9 +401,9 @@ WORDS.cotton = {
     fr: ["coton", "kɔtɔ̃"],  // From Arabic qutn.
     ga: ["cadás", "kəˈd̪ˠɑːsˠ"],  // From Arabic qutn.
     grt: ["kil", "kil"],
-    gu: ["કપાસ", "ˈkəpɑs"],  // From Sanskrit karpāsa.
+    gu: ["કપાસ", "ˈkəpaːs"],  // From Sanskrit karpāsa.
     he: ["כותנה", "kutˈna"],  // From Arabic qutn.
-    hi: ["कपास", "kəpɑːs"],  // From Sanskrit karpāsa.
+    hi: ["कपास", "kəpaːs"],  // From Sanskrit karpāsa.
     hu: ["gyapot", "ˈɟɒpot"],
     hy: ["բամբակ", "bɑmˈbɑk"],  // From Persian pambak (panbe).
     id: ["kapas", "ˈkapas"],  // From Sanskrit karpāsa.
@@ -484,7 +484,7 @@ WORDS.cotton = {
     tyz: ["bông", "ɓəwŋ˧˥"],
     ug: ["پاختا", "pɑχtɑ"],
     uk: ["бавовна", "bɐˈwɔu̯nɐ"],  // Literally 'tree wool', or borrowed from such a word.
-    ur: ["کپاس", "kəpɑːs"],  // From Sanskrit karpāsa.
+    ur: ["کپاس", "kəpaːs"],  // From Sanskrit karpāsa.
     vec: ["bombàxo", "bomˈbazo"],
     vep: ["puvill", "puvill"],  // Route by resemblance to the neighbouring forms (fi(puuvilla) vot(puuvillõ)); no etymology of its own.
     vi: ["bông", "ɓəwŋ˧"],

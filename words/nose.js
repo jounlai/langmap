@@ -84,7 +84,7 @@ WORDS.nose = {
     dlg: ["мунну", "munnu"],
     bfq: ["muːkə", "muːkə"],
     es_pr: ["nariz", "naˈɾih"],
-    es_do: ["nariz", "naˈɾis"],
+    es_do: ["nariz", "naˈɾi"],
     es_gt: ["nariz", "naˈɾis"],
     es_ec: ["nariz", "naˈɾis"],
     es_uy: ["nariz", "naˈɾis"],

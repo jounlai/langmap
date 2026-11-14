@@ -559,7 +559,7 @@ WORDS.paper = {
     kw: ["paper", "ˈpapər"],
     liv: ["papīer", "ˈpapiːer"],
     mak: ["karattasaʼ", "kaˈratːasaʔ"],  // Route by resemblance to the neighbouring forms (mdh,mrw,mg); no etymology of its own.
-    mh: ["peba", "peba"],
+    mh: ["peba", "pʲeːbˠɑ"],
     mn: ["цаас", "tsʰaːs"],
     om: ["waraqaa", "waraqaː"],  // Route by resemblance to the neighbouring forms (ar); no etymology of its own.
     rw: ["urupapuro", "urupapuɾo"],  // Route by resemblance to the neighbouring forms (en,fr); no etymology of its own.
@@ -680,7 +680,7 @@ WORDS.paper = {
     nl_be: ["papier", "paːˈpiːr"],
     en_za: ["paper", "ˈpeːpə"],
     pt_ao: ["papel", "paˈpɛl"],
-    ca_va: ["paper", "paˈpe"],
+    ca_va: ["paper", "paˈpeɾ"],
     es_mx: ["papel", "paˈpel"],
     pt_br: ["papel", "paˈpɛw"],
     prs: ["کاغذ", "kɑːˈɣaz"],

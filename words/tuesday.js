@@ -516,7 +516,7 @@ WORDS.tuesday = {
     th: ["วันอังคาร", "wan˧ʔaŋ˧kʰaːn˧"],  // วัน 'day' + อังคาร, borrowed from Sanskrit aṅgāra 'charcoal'; อังคาร alone is also the planet Mars.
     id: ["Selasa", "səˈlasa"],  // From Arabic al-ṯalāṯāʔ 'the third'.
     ms: ["Selasa", "səˈlasa"],
-    hi: ["मंगलवार", "məŋɡəlʋɑːɾ"],  // Sanskrit maṅgala, the planet Mars, + vāra 'day'.
+    hi: ["मंगलवार", "məŋɡəlʋaːɾ"],  // Sanskrit maṅgala, the planet Mars, + vāra 'day'.
     sa: ["मङ्गलवार", "mɐŋɡɐlɐʋaːɾɐ"],
     bn: ["মঙ্গলবার", "moŋɡolbaɾ"],
     ta: ["செவ்வாய்", "tʃɛʋːɑːj"],  // செவ் 'red' + வாய், 'the red one', the planet Mars.
@@ -573,8 +573,8 @@ WORDS.tuesday = {
     ilo: ["Martes", "ˈmaɾtes"],
     sd: ["اڱارو", "əŋaːroː"],
     pa: ["ਮੰਗਲਵਾਰ", "məŋɡələʋaːɾə"],
-    ne: ["मङ्गलबार", "mʌŋɡʌlbär"],
-    gu: ["મંગળવાર", "ˈməŋɡəlʋɑɾ"],
+    ne: ["मङ्गलबार", "mʌŋɡʌlbaːr"],
+    gu: ["મંગળવાર", "ˈməŋɡəlʋaːɾ"],
     dv: ["އަންގާރަ ދުވަސް", "ən̪ɡəːɾəd̪uʋəs̺"],
     kn: ["ಮಂಗಳವಾರ", "məɡəɭəʋɑːɾə"],
     ml: ["ചൊവ്വാഴ്ച", "tʃoʋʋaːɻtʃɐ"],
@@ -651,7 +651,7 @@ WORDS.tuesday = {
     ban: ["Anggara", "aŋɡarə"],
     aa: ["talaata", "talaːˈta"],
     ks: ["بۄنٛوار", "bɔ̃ʋaːr"],
-    kok: ["मंगळार", "məŋɭɑːɾ"],
+    kok: ["मंगळार", "məŋɭaːɾ"],
     hsb: ["wutora", "ˈwutɔʀa"],
     csb: ["wtórk", "ftork"],
     ast: ["martes", "ˈmaɾtes"],

@@ -497,6 +497,27 @@ WORDS.island = {
     zh_tw: "dao",
     zh_xa: "dao",
     zh_zz: "dao",
+    en_us: "water",
+    en_ca: "water",
+    en_nz: "water",
+    en_ng: "water",
+    en_ph: "water",
+    en_app: "water",
+    en_geordie: "water",
+    pt_cv: "water",
+    pt_mo: "water",
+    de_at: "insula",
+    de_ch: "insula",
+    ja_kg: "plain",
+    ja_sd: "plain",
+    vi_c: "dao",
+    vi_s: "dao",
+    ar_eg: "plain",
+    ar_jo: "plain",
+    ar_ps: "plain",
+    ar_lev: "plain",
+    ar_sy: "plain",
+    ar_lb: "plain",
   },
   routes: {
     insula: {"color":"#2563eb","emoji":"🏛️","en":"from Latin īnsula (isla, île, Insel)","ja":"ラテン語 īnsula から (isla, île, Insel)","ko":"라틴어 īnsula에서 (isla, île, Insel)","zh":"来自拉丁语 īnsula (isla, île, Insel)","yue":"嚟自拉丁語 īnsula (isla, île, Insel)","vi":"từ tiếng Latinh īnsula (isla, île, Insel)","th":"จากภาษาละติน īnsula (isla, île, Insel)","id":"dari īnsula Latin (isla, île, Insel)","hi":"लैटिन īnsula से (isla, île, Insel)","de":"aus lateinisch īnsula (isla, île, Insel)","fr":"du latin īnsula (isla, île, Insel)","it":"dal latino īnsula (isla, île, Insel)","es":"del latín īnsula (isla, île, Insel)","pt":"do latim īnsula (isla, île, Insel)","ru":"от латинского īnsula (isla, île, Insel)","uk":"від латинського īnsula (isla, île, Insel)","ar":"من اللاتينية īnsula (isla, île, Insel)","he":"מהלטינית īnsula (isla, île, Insel)","sw":"kutoka Kilatini īnsula (isla, île, Insel)"},
@@ -557,13 +578,13 @@ WORDS.island = {
     cy: ["ynys", "ˈənɨs"],  // "Land in the water": Germanic *awjō(landą) from a word for water, or Celtic *enistī "standing in (the water)".
     da: ["ø", "øˀ"],  // "Land in the water": Germanic *awjō(landą) from a word for water, or Celtic *enistī "standing in (the water)".
     de: ["Insel", "ˈɪnzəl"],  // From Latin īnsula, directly or through a later language.
-    dsb: ["kupa", "kupa"],  // From Proto-Slavic *kupa "pile, heap".
+    dsb: ["kupa", "ˈkupa"],  // From Proto-Slavic *kupa "pile, heap".
     dtp: ["pulou", "pulou"],
     dv: ["ދޫ", "duː"],  // From Sanskrit dvīpa.
     ee: ["ƒukpo", "ɸukpo"],
     egl: ["îṡla", "ˈiːzla"],  // From Latin īnsula, directly or through a later language.
-    el: ["νησί", "nisi"],
-    en: ["island", "aɪlənd"],  // Old English īeġland, from Proto-Germanic *awjōlandą "land in the water"; the s was added under the influence of isle.
+    el: ["νησί", "niˈsi"],
+    en: ["island", "ˈaɪlənd"],  // Old English īeġland, from Proto-Germanic *awjōlandą "land in the water"; the s was added under the influence of isle.
     enm: ["yle", "ˈiːlə"],  // From Latin īnsula, directly or through a later language.
     eo: ["insulo", "inˈsulo"],  // From Latin īnsula, directly or through a later language.
     es: ["isla", "ˈisla"],  // From Latin īnsula, directly or through a later language.
@@ -597,7 +618,7 @@ WORDS.island = {
     id: ["pulau", "ˈpulau"],  // From Proto-Malayo-Polynesian *pulaw.
     ik: ["qikiqtaq", "qikiqtaq"],
     ilo: ["puro", "puˈɾoʔ"],
-    io: ["insulo", "insulo"],
+    io: ["insulo", "inˈsulo"],
     is: ["eyja", "ˈeija"],  // "Land in the water": Germanic *awjō(landą) from a word for water, or Celtic *enistī "standing in (the water)".
     it: ["isola", "ˈizola"],  // From Latin īnsula, directly or through a later language.
     itl: ["°ԓэмч", "ʷɬemtʃ"],
@@ -620,12 +641,12 @@ WORDS.island = {
     la: ["insula", "ˈiːnsula"],  // Wiktionary leaves its relation to Greek νῆσος and Celtic *enistī open.
     lb: ["Insel", "ˈinzel"],
     lij: ["îzoa", "ˈiːzua"],  // From Latin īnsula, directly or through a later language.
-    liv: ["sala", "sɑlɑ"],
+    liv: ["sala", "ˈsɑlɑ"],
     ln: ["esanga", "esaŋɡa"],
     lo: ["ເກາະ", "kɔʔ˧˥"],
     lt: ["sala", "sɐˈlɐ"],
-    ltg: ["azarsola", "azarsɔla"],
-    lv: ["sala", "sala"],
+    ltg: ["azarsola", "ˈazarsɔla"],
+    lv: ["sala", "ˈsala"],
     lzz: ["ადა", "ada"],  // From Proto-Turkic *ātag.
     mak: ["pulo", "ˈpulo"],
     mbc: ["wonoʔ", "wonoʔ"],
@@ -661,7 +682,7 @@ WORDS.island = {
     nyo: ["ekirwa", "ekirwa"],
     oc: ["illa", "ˈillɔ"],  // From Latin īnsula, directly or through a later language.
     oj: ["minis", "minis"],
-    olo: ["suari", "suari"],
+    olo: ["suari", "ˈsuari"],
     or: ["ଟାପୁ", "ʈapu"],
     orh: ["ʃigdəmki", "ʃiɡdəmki"],
     orv: ["островъ", "ˈostrovu"],  // Slavic: land around the stream (*ostrovъ, akin to "stream"; otok, o- "around" + tok "flow").
@@ -687,7 +708,7 @@ WORDS.island = {
     rtm: ["ʻạtmotu", "ʔɔtmotu"],  // Borrowed from Samoan atumotu "chain of islands" (atu "row" + motu "island").
     ru: ["остров", "ˈostrəf"],  // Inherited from Old East Slavic островъ; akin to струя "stream".
     sah: ["арыы", "arɯː"],
-    sc: ["isula", "isula"],  // From Latin īnsula, directly or through a later language.
+    sc: ["isula", "ˈisula"],  // From Latin īnsula, directly or through a later language.
     scn: ["ìsula", "ˈisula"],  // From Latin īnsula, directly or through a later language.
     sd: ["ٻيٽ", "ɓeʈu"],
     se: ["suolu", "ˈsuo̯luː"],
@@ -695,8 +716,8 @@ WORDS.island = {
     sga: ["inis", "ˈinʲəsʲ"],  // "Land in the water": Germanic *awjō(landą) from a word for water, or Celtic *enistī "standing in (the water)".
     shn: ["ၵုၼ်", "kun˨˦"],
     sjd: ["суэл", "suel"],
-    sk: ["ostrov", "ɔstrɔv"],  // Slavic: land around the stream (*ostrovъ, akin to "stream"; otok, o- "around" + tok "flow").
-    sl: ["otok", "ɔtɔk"],  // o- "around" + tok "flow, stream".
+    sk: ["ostrov", "ˈɔstrɔv"],  // Slavic: land around the stream (*ostrovъ, akin to "stream"; otok, o- "around" + tok "flow").
+    sl: ["otok", "ˈɔtɔk"],  // o- "around" + tok "flow, stream".
     sm: ["motu", "motu"],  // From Proto-Polynesian *motu, from Proto-Oceanic *motus "broken off, detached" (per the Tongan entry).
     sma: ["sååle", "ˈsoːle"],
     sn: ["chitsuwa", "tʃitsuwa"],
@@ -707,7 +728,7 @@ WORDS.island = {
     su: ["pulo", "pulo"],
     suk: ["izinga_", "izinɡa"],
     sv: ["ö", "øː"],  // "Land in the water": Germanic *awjō(landą) from a word for water, or Celtic *enistī "standing in (the water)".
-    sw: ["kisiwa", "kisiwa"],
+    sw: ["kisiwa", "kiˈsiwa"],
     syc: ["ܓܙܪܬܐ", "ɡazarta"],  // From Arabic jazīra.
     szy: ["subal", "subal"],
     ta: ["தீவு", "t̪iːʋɯ"],  // From Sanskrit dvīpa.
@@ -721,7 +742,7 @@ WORDS.island = {
     tl: ["pulo", "puˈloʔ"],
     to: ["motu", "motu"],  // From Proto-Oceanic *motus "broken off, detached".
     tpi: ["ailan", "ailan"],  // "Land in the water": Germanic *awjō(landą) from a word for water, or Celtic *enistī "standing in (the water)".
-    tr: ["ada", "ada"],  // From Proto-Turkic *ātag.
+    tr: ["ada", "aˈda"],  // From Proto-Turkic *ātag.
     tsg: ["pūꞌ", "puːʔ"],
     tt: ["утрау", "utraw"],
     tum: ["cilwa", "tilwa"],
@@ -765,19 +786,19 @@ WORDS.island = {
     fr_lu: ["île", "il"],
     fr_cm: ["île", "il"],
     de_lu: ["Insel", "ˈɪnzəl"],
-    en_ng2: ["island", "aɪlənd"],
+    en_ng2: ["island", "ˈaɪlənd"],
     es_bo: ["isla", "ˈisla"],
     es_py: ["isla", "ˈisla"],
     es_pa: ["isla", "ˈihla"],
-    en_my: ["island", "aɪlənd"],
-    en_wls: ["island", "aɪlənd"],
-    en_jam: ["island", "aɪlənd"],
-    en_ke: ["island", "aɪlənd"],
+    en_my: ["island", "ˈaɪlənd"],
+    en_wls: ["island", "ˈaɪlənd"],
+    en_jam: ["island", "ˈaɪlənd"],
+    en_ke: ["island", "ˈaɪlənd"],
     fr_sn: ["île", "il"],
     fr_ci: ["île", "il"],
     fr_ht: ["île", "il"],
     pt_mz: ["ilha", "ˈiʎɐ"],
-    en_za: ["island", "ɑɪlənd"],
+    en_za: ["island", "ˈɑɪlənd"],
     pt_ao: ["ilha", "ˈiʎɐ"],
     ca_va: ["illa", "ˈiʎa"],
     ja_osa: ["島", "ɕima"],
@@ -790,22 +811,22 @@ WORDS.island = {
     ko_yb: ["섬", "sʌːm"],
     es_mx: ["isla", "ˈisla"],
     pt_br: ["ilha", "ˈiʎɐ"],
-    en_aave: ["island", "aɪlənd"],
-    en_au: ["island", "ɑɪlənd"],
+    en_aave: ["island", "ˈaɪlənd"],
+    en_au: ["island", "ˈɑɪlənd"],
     rmy: ["dvip", "dvip"],
     smj: ["suolu", "ˈsuɔ̯luː"],
-    en_south: ["island", "aɪlənd"],
-    en_in: ["island", "aɪlənɖ"],
-    en_ie: ["island", "aɪlənd"],
-    en_sco: ["island", "aɪlənd"],
-    en_yk: ["island", "aɪlənd"],
-    en_ck: ["island", "aɪlənd"],
-    en_scouse: ["island", "aɪlənd"],
-    en_brum: ["island", "ɔɪlənd"],
-    en_manc: ["island", "aɪlənd"],
-    en_wc: ["island", "aɪlənd"],
-    en_est: ["island", "ɑɪlənd"],
-    en_sg: ["island", "aɪlənd"],
+    en_south: ["island", "ˈaɪlənd"],
+    en_in: ["island", "ˈaɪlənɖ"],
+    en_ie: ["island", "ˈaɪlənd"],
+    en_sco: ["island", "ˈaɪlənd"],
+    en_yk: ["island", "ˈaɪlənd"],
+    en_ck: ["island", "ˈaɪlənd"],
+    en_scouse: ["island", "ˈaɪlənd"],
+    en_brum: ["island", "ˈɔɪlənd"],
+    en_manc: ["island", "ˈaɪlənd"],
+    en_wc: ["island", "ˈaɪlənd"],
+    en_est: ["island", "ˈɑɪlənd"],
+    en_sg: ["island", "ˈaɪlənd"],
     fr_qc: ["île", "il"],
     fr_af: ["île", "il"],
     fr_be: ["île", "il"],
@@ -923,7 +944,7 @@ WORDS.island = {
     zh_cq: ["岛", "tau˦˨"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Chongqing; reading from MCPDict 重慶.
     zh_db: ["岛", "tau˨˩˦"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
     zh_hf: ["岛", "tɔ˨˦"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Hefei; reading from MCPDict 合肥.
-    zh_jh: ["岛", "taɔ˨˩˨"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Yangzhou; reading from MCPDict 揚州.
+    zh_jh: ["岛", "taɔ˨˩˨"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Yangzhou; reading in the row's Nanjing tone values, 上声 ˨˩˨ (MCPDict 南京 島 tɔo3 = 212; 揚州 has ˦˨), rime as the row's 好 xaɔ˨˩˨.
     zh_jiao: ["岛子", "tɔ˥˥ tsɿ˥˥"],  // 岛 'island' with the noun suffix 子. Word from Wiktionary's dialect table for Qingdao; reading from MCPDict 青島.
     zh_jn: ["岛", "tɔ˥˥"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Jinan; reading from MCPDict 濟南.
     zh_km: ["岛", "tʌo˥˧"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Kunming; reading from MCPDict 昆明.
@@ -934,5 +955,26 @@ WORDS.island = {
     zh_tw: ["島", "tɑʊ̯˨˩˦"],  // 島, the Chinese word for an island. Word from Wiktionary's dialect table for Taiwan; reading in the row's notation, syllables as in the row's and the zh row's own cells.
     zh_xa: ["岛", "tau˥˧"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Xi'an; reading from MCPDict 西安.
     zh_zz: ["岛", "tau˥˧"],  // 岛, the Chinese word for an island. Word from Wiktionary's dialect table for Zhengzhou; reading from MCPDict 開封 (no Zhengzhou table; the row matches Kaifeng).
+    en_us: ["island", "ˈaɪlənd"],  // The same word as standard English.
+    en_ca: ["island", "ˈaɪlənd"],  // The same word as standard English.
+    en_nz: ["island", "ˈɑɪlənd"],  // The same word as standard English.
+    en_ng: ["island", "ˈaɪlənd"],  // The same word as standard English.
+    en_ph: ["island", "ˈaɪlənd"],  // The same word as standard English.
+    en_app: ["island", "ˈaːlənd"],  // The same word as standard English.
+    en_geordie: ["island", "ˈaɪlənd"],  // The same word as standard English.
+    pt_cv: ["ilha", "ˈiʎɐ"],  // The same word as European Portuguese.
+    pt_mo: ["ilha", "ˈiʎɐ"],  // The same word as European Portuguese.
+    de_at: ["Insel", "ˈɪnsəl"],  // The same word as standard German.
+    de_ch: ["Insel", "ˈɪnsəl"],  // The same word as standard German.
+    ja_kg: ["島", "ɕima"],  // Native Japanese shima; the national word, which Kagoshima speech uses as well.
+    ja_sd: ["島", "ɕima"],  // Native Japanese shima; the national word, which Sendai speech uses as well.
+    vi_c: ["đảo", "ɗaːw˧˩˨"],  // The same word as standard Vietnamese.
+    vi_s: ["đảo", "ɗaːw˨˩˦"],  // The same word as standard Vietnamese.
+    ar_eg: ["جزيرة", "ɡeziːɾa"],  // Arabic jazīra; the same word across the dialects.
+    ar_jo: ["جزيرة", "ʒaziːre"],  // Arabic jazīra; the same word across the dialects.
+    ar_ps: ["جزيرة", "ʒaziːre"],  // Arabic jazīra; the same word across the dialects.
+    ar_lev: ["جزيرة", "ʒaziːɾe"],  // Arabic jazīra; the same word across the dialects.
+    ar_sy: ["جزيرة", "ʒaziːɾe"],  // Arabic jazīra; the same word across the dialects.
+    ar_lb: ["جزيرة", "ʒaziːɾe"],  // Arabic jazīra; the same word across the dialects.
   },
 };

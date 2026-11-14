@@ -641,7 +641,7 @@ WORDS.bread = {
     sd: ["ماني", "maːniː"],  // From Sanskrit मण्ड 'scum of boiled rice'.
     ne: ["रोटी", "roʈi"],
     mr: ["पाव", "paʋ"],
-    gu: ["પાઉં", "ˈpɑũ"],
+    gu: ["પાઉં", "ˈpaːũ"],
     dv: ["ޕާން", "paːn̪"],
     te: ["రొట్టె", "roʈːe"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     kn: ["ರೊಟ್ಟಿ", "roʈːi"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
@@ -749,7 +749,7 @@ WORDS.bread = {
     aa: ["gaqambo", "ɡaʕamˈbo"],
     bgc: ["रोटी", "roːʈiː"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     ks: ["ژۆٹ", "tsoʈ"],
-    kok: ["पाव", "pɑːʋ"],
+    kok: ["पाव", "paːʋ"],
     csb: ["chléb", "xlep"],
     rue: ["хлїб", "xlʲib"],
     fur: ["pan", "pan"],
@@ -1039,7 +1039,7 @@ WORDS.bread = {
     zh_cq: ["面包", "miɛn˨˩˧ pau˥"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Chongqing; reading from MCPDict 重慶.
     zh_db: ["面包", "mjɛn˥˩ pau˥"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
     zh_hf: ["面包", "mĩ˥˩ pɔ˨˩˨"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Hefei; reading from MCPDict 合肥.
-    zh_jh: ["面包", "mian˦˦ paɔ˧˩"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Yangzhou; reading from MCPDict 揚州.
+    zh_jh: ["面包", "mian˦˦ paɔ˧˩"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Yangzhou; reading in the row's Nanjing tone values, 去声 ˦˦ and 陰平 ˧˩ (MCPDict 南京 面 ˦˦, 包 ˧˩; 揚州 has ˥˥, ˨˩).
     zh_jiao: ["面包", "miã˦˨ pɔ˨˩˧"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Qingdao; reading from MCPDict 青島.
     zh_jn: ["面包", "miɛ̃˨˩ pɔ˨˩˧"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Jinan; reading from MCPDict 濟南.
     zh_km: ["面包", "miɛ̃˨˩˨ pʌo˦˦"],  // 面 'flour, noodles' + 包 'bun'. Word from Wiktionary's dialect table for Kunming; reading from MCPDict 昆明.

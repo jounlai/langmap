@@ -247,7 +247,7 @@ WORDS.cottoncandy = {
     ar_ma: ["صوف", "sˤuːf"],  // Literally 'wool'.
     he: ["שערות סבתא", "saʔaʁot savta"],  // Literally 'grandma's hair', the name Hebrew Wikipedia gives for it in Israel; צמר גפן מתוק 'sweet cotton wool' is also used.
     hi: ["बुड्ढी के बाल", "bʊɖɖʱiː keː baːl"],  // Literally 'old woman's hair'; हवा मिठाई 'air sweet' is also used.
-    ur: ["لچھا", "ləttʃʰɑː"],  // Literally 'a skein of thread'.
+    ur: ["لچھا", "ləttʃʰaː"],  // Literally 'a skein of thread'.
     bn: ["হাওয়াই মিঠাই", "hawai̯ miʈʰai̯"],  // Literally 'airy sweet', because it melts away in the mouth.
     kn: ["ಬೊಂಬಾಯಿ ಮಿಠಾಯಿ", "bombaːji miʈʰaːji"],  // Literally 'Bombay sweet'.
     te: ["పీచుమిఠాయి", "piːtʃumiʈʰaːji"],  // Literally 'fibre sweet' (పీచు 'plant fibre').
@@ -280,7 +280,7 @@ WORDS.cottoncandy = {
     fr_sn: ["barbe à papa", "baʁb a papa"],
     fr_ci: ["barbe à papa", "baʁb a papa"],
     fr_ht: ["barbe à papa", "baʁb a papa"],
-    ca_va: ["cotó fluix de sucre", "kutu fluʃ da sukɾa"],
+    ca_va: ["cotó fluix de sucre", "koto fluʃ de sukɾe"],
     ja_aom: ["綿菓子", "wataɡaɕi"],
     ja_hak: ["綿菓子", "wataɡaɕi"],
     ja_hir: ["綿菓子", "wataɡaɕi"],

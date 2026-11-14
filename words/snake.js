@@ -1313,7 +1313,7 @@ WORDS.snake = {
     zh_cq: ["蛇", "se˨˩"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Chongqing; reading from MCPDict 重慶.
     zh_db: ["蛇", "ʂɤ˧˥"],  // 蛇, the Chinese word for the snake; 长虫 is also said. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
     zh_hf: ["蛇", "ʂi˦˥"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Hefei; reading from MCPDict 合肥.
-    zh_jh: ["蛇", "ɕie˩˧"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Yangzhou; reading from MCPDict 揚州.
+    zh_jh: ["蛇", "ɕie˩˧"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Yangzhou; reading in the row's Nanjing tone value, 陽平 ˩˧ (MCPDict 南京 蛇 ˩˧; 揚州 has ˧˥).
     zh_jiao: ["长虫", "tʃʰaŋ˦˨ tʂʰəŋ˦˨"],  // Literally 'long creature'; 虫 is any small creature, worm or insect. Word from Wiktionary's dialect table for Qingdao; reading from MCPDict 青島.
     zh_jn: ["长虫", "tʂʰɑŋ˦˨ tʂʰuŋ˦˨"],  // Literally 'long creature'; 虫 is any small creature, worm or insect. Word from Wiktionary's dialect table for Jinan; reading from MCPDict 濟南.
     zh_lz: ["蛇", "ʂə˥˧"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Lanzhou; reading from MCPDict 蘭州.

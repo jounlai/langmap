@@ -256,7 +256,7 @@ WORDS.sunflower = {
     lo: "sun",
     kab: "unknown",
     nds: "sun",
-    he: "unknown",
+    he: "sun",
     tt: "turn",
     qu: "sun",
     scn: "turn",
@@ -348,6 +348,12 @@ WORDS.sunflower = {
     dak: "other",
     slr: "sun",
     shi: "sun",
+    ja_kg: "turn",
+    ja_sd: "turn",
+    ja_aom: "turn",
+    ko_kp: "turn",
+    ko_yb: "turn",
+    ko_hg: "turn",
   },
   routes: {
     turn: {"color":"#ea580c","emoji":"🔄","en":"turns to the sun","ja":"太陽に向く","ko":"해를 향함","zh":"朝向太阳","yue":"向住太陽","vi":"hướng về mặt trời","th":"หันตามดวงอาทิตย์","id":"menghadap matahari","hi":"सूरज की ओर मुड़ता","de":"dreht sich zur Sonne","fr":"se tourne vers le soleil","it":"si volta verso il sole","es":"se gira al sol","pt":"volta-se para o sol","ru":"поворачивается к солнцу","uk":"повертається до сонця","ar":"يتّجه نحو الشمس","he":"פונה אל השמש","sw":"hugeuka kuelekea jua"},
@@ -368,7 +374,7 @@ WORDS.sunflower = {
     id: ["bunga matahari", "buŋa matahari"],  // Literally 'sun flower': bunga 'flower' + matahari 'sun'.
     de: ["Sonnenblume", "ˈzɔnənbluːmə"],  // Sonne 'sun' + Blume 'flower'.
     ja: ["向日葵", "çimawaɾi"],  // Himawari is 日 'sun' + 回り 'turning'; the kanji are borrowed from Chinese 向日葵 'facing the sun'.
-    fa: ["آفتاب‌گردان", "ʔɒːftɒːbɡæɾdɒːn"],  // آفتاب 'sun' + گردان 'turning': 'sun-turner'.
+    fa: ["آفتاب‌گردان", "ʔɒːftɒːbɡæɾˈdɒːn"],  // آفتاب 'sun' + گردان 'turning': 'sun-turner'.
     sw: ["alizeti", "aliˈzeti"],  // Etymology not given by the sources; ua la jua 'flower of the sun' is a synonym.
     yue: ["向日葵", "hœːŋ˧ jɐt˨ kʷʰɐi˨˩"],  // 向 'to face' + 日 'sun' + 葵 'kui plant'.
     vi: ["hướng dương", "hɨəŋ˧˥ zɨəŋ˧"],  // Sino-Vietnamese 向陽 'facing the sun'.
@@ -550,7 +556,7 @@ WORDS.sunflower = {
     lo: ["ດອກຕາເວັນ", "dɔːk˧˩ taː˩˧ ʋen˧˥"],  // Literally 'sun flower': ດອກ 'flower' + ຕາເວັນ 'sun'.
     kab: ["magriṭij", "maɡritˤiʒ"],  // The second part is iṭij 'sun'; the sources do not explain the first part.
     nds: ["Sünnbloom", "ˈzʏnbloːm"],  // Sünn 'sun' + Bloom 'flower', like German Sonnenblume.
-    he: ["חמנית", "χamaˈnit"],  // A name revived by Bialik; the sources disagree on its origin (Hebrew Wikipedia cites Rosenthal deriving it from the biblical place name Hamon).
+    he: ["חמנית", "χamaˈnit"],  // Coined by Mendele Mocher Sforim from חמה 'sun' (root ח־מ־ם), a loan translation of the European name: the flower always faces the sun (Hebrew Wiktionary).
     tt: ["көнбагыш", "kønbaˈʁɯʃ"],  // Begins with көн 'sun, day'; айбагар and көнбакты are also given as names, but the sources do not explain the second part. Route by resemblance to the neighbouring forms (kk(күнбағыс)); no etymology of its own.
     qu: ["inti wayta", "inti ˈwajta"],  // Inti 'sun' + wayta 'flower': the sun flower; inti t'ika is also used.
     scn: ["girasuli", "dʒiraˈsuli"],  // Gira 'turns' + suli 'sun', like Italian girasole.
@@ -642,5 +648,11 @@ WORDS.sunflower = {
     dak: ["waȟčázi", "waxtʃázi"],  // Route by resemblance to Lakota waȟčázi, 'yellow flower'.
     slr: ["gün cicek", "kyn ʝiʝex"],  // Literally 'sun flower'.
     shi: ["ⴰⵊⴷⴷⵉⴳ ⵏ ⵜⴰⴼⵓⴽⵜ", "aʒdːiɡ n tafukt"],  // Literally 'flower of the sun'.
+    ja_kg: ["向日葵", "çimawaɾi"],  // Himawari is 日 'sun' + 回り 'turning'; the national word, which Kagoshima speech uses as well.
+    ja_sd: ["向日葵", "çimawaɾi"],  // Himawari is 日 'sun' + 回り 'turning'; the national word, which Sendai speech uses as well.
+    ja_aom: ["向日葵", "çimawaɾi"],  // Himawari is 日 'sun' + 回り 'turning'; the national word, which Tsugaru speech uses as well.
+    ko_kp: ["해바라기", "hɛbaɾaɡi"],  // 해 'sun' + 바라- 'look toward' + -기: 'sun-gazer'. The national word, which North Korea speech uses as well.
+    ko_yb: ["해바라기", "hɛbaɾaɡi"],  // 해 'sun' + 바라- 'look toward' + -기: 'sun-gazer'. The national word, which Yanbian speech uses as well.
+    ko_hg: ["해바라기", "hɛbaɾaɡi"],  // 해 'sun' + 바라- 'look toward' + -기: 'sun-gazer'. The national word, which Hamgyong speech uses as well.
   },
 };

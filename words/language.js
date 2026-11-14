@@ -659,7 +659,7 @@ WORDS.language = {
     th: ["ภาษา", "pʰaː˧saː˩˩˦"],  // Borrowed from Pali bhāsā, from Sanskrit bhāṣā 'speech, language'.
     id: ["bahasa", "baˈhasa"],  // From Malay bahasa, from Sanskrit bhāṣā 'speech, language'.
     ms: ["bahasa", "bahəsa"],  // Borrowed from Sanskrit bhāṣā 'speech, language'.
-    hi: ["भाषा", "bʱɑːʂɑː"],  // Borrowed from Sanskrit bhāṣā 'speech, language', from bhāṣ 'to speak'.
+    hi: ["भाषा", "bʱaːʂaː"],  // Borrowed from Sanskrit bhāṣā 'speech, language', from bhāṣ 'to speak'.
     sa: ["भाषा", "bʱaːʂaː"],
     bn: ["ভাষা", "bʱaʃa"],
     ur: ["زبان", "zəbaːn"],  // Also 'tongue'; borrowed from Persian zabān.
@@ -719,7 +719,7 @@ WORDS.language = {
     pa: ["ਭਾਸ਼ਾ", "paː˩ʃaː"],
     ne: ["भाषा", "bʱaːsaː"],
     mr: ["भाषा", "bʱaʂa"],
-    gu: ["ભાષા", "ˈbʱɑʃɑ"],
+    gu: ["ભાષા", "ˈbʱaːʃaː"],
     dv: ["ބަސް", "bas̺"],
     te: ["భాష", "bʱaːʂa"],
     kn: ["ಭಾಷೆ", "bʱaːʂe"],
@@ -1188,7 +1188,7 @@ WORDS.language = {
     zh_cq: ["语言", "y˦˨ iɛn˨˩"],  // 语 'speech' + 言 'words'. Reading from MCPDict 重慶.
     zh_db: ["语言", "y˨˩˦ jɛn˧˥"],  // 语 'speech' + 言 'words'. Reading as the zh row's own cell.
     zh_hf: ["语言", "jy˨˦ jĩ˦˥"],  // 语 'speech' + 言 'words'. Reading from MCPDict 合肥 (city reading of 語).
-    zh_jh: ["语言", "y˨˩˨ ian˩˧"],  // 语 'speech' + 言 'words'. Reading from MCPDict 揚州.
+    zh_jh: ["语言", "y˨˩˨ ian˩˧"],  // 语 'speech' + 言 'words'. Reading in the row's Nanjing tone values, 上声 ˨˩˨ and 陽平 ˩˧ (MCPDict 南京 語 ˨˩˨, 言 ˩˧; 揚州 has ˦˨, ˧˥).
     zh_jiao: ["语言", "y˥˥ iã˦˨"],  // 语 'speech' + 言 'words'. Reading from MCPDict 青島.
     zh_jn: ["语言", "y˥˥ iɛ̃˦˨"],  // 语 'speech' + 言 'words'. Reading from MCPDict 濟南.
     zh_kf: ["语言", "y˦˦ ian˥˧"],  // 语 'speech' + 言 'words'. Reading from MCPDict 開封.

@@ -255,6 +255,13 @@ WORDS.ladybird = {
     nn: "holy",
     tly: "other",
     koi: "other",
+    es_uy: "holy",
+    ja_osa: "sun",
+    ja_kyo: "sun",
+    ja_hak: "sun",
+    ja_hir: "sun",
+    ko_bus: "other",
+    ko_jl: "other",
   },
   routes: {
     holy: {"color":"#7c3aed","emoji":"😇","en":"Mary · God · a saint","ja":"聖母・神・聖人","ko":"성모 · 하느님 · 성인","zh":"圣母・上帝・圣人","yue":"聖母 · 上帝 · 聖人","vi":"Đức Mẹ · Chúa · thánh","th":"พระแม่ · พระเจ้า · นักบุญ","id":"Bunda Maria · Tuhan · santo","hi":"मरियम · ईश्वर · संत","de":"Maria · Gott · Heilige","fr":"Marie · Dieu · un saint","it":"Maria · Dio · un santo","es":"María · Dios · un santo","pt":"Maria · Deus · um santo","ru":"Богородица · Бог · святой","uk":"Богородиця · Бог · святий","ar":"مريم · الله · قديس","he":"מרים · האל · קדוש","sw":"Maria · Mungu · mtakatifu"},
@@ -296,7 +303,7 @@ WORDS.ladybird = {
     id: ["kepik", "kəpiʔ"],  // The everyday name; entomologists point out that kepik properly means a true bug and prefer kumbang koksi.
     he: ["פרת משה רבינו", "paʁat moʃe rabenu"],  // Literally "the cow of Moses our teacher"; the formal name is מושית.
     tr: ["uğur böceği", "uːɾ bødʒei"],  // Literally "luck bug", from the belief that it brings good luck.
-    fa: ["کفشدوزک", "kæfʃduzæk"],  // Read today as "little shoemaker", though Wiktionary calls that etymology debunked and the true origin disputed.
+    fa: ["کفشدوزک", "kæfʃduˈzæk"],  // Read today as "little shoemaker", though Wiktionary calls that etymology debunked and the true origin disputed.
     fi: ["leppäkerttu", "ˈlepːækertːu"],  // From archaic leppä "blood" and the woman's name Kerttu (Gertrude), after its red colour.
     hu: ["katicabogár", "ˈkɒtitsɒboɡaːr"],  // Literally "Kitty bug", from Katica, a pet form of Katalin (Catherine); often just katica.
     el: ["πασχαλίτσα", "pasxaˈlitsa"],  // "Little Easter one", named after Easter (Πάσχα).
@@ -453,5 +460,12 @@ WORDS.ladybird = {
     nn: ["marihøne", "ˈmɑːriˌhøːnə"],  // Mari 'Mary, the mother of Jesus' + høne 'hen'.
     tly: ["donəjən", "donəʒən"],  // Probably donə 'single grain or berry' plus jən, a stem of je.
     koi: ["енӧшка", "jeˈnɘʃka"],  // Also the Komi-Permyak word for the rainbow. Lytkin derives it from ен 'God, sky' + ӧш- (as in ӧшмӧс 'well') + -ка (Wiktionary), and Panyukov (2024), after Lytkin and Gulyaev, reads it as the 'heavenly spring'; he explains the ladybird sense as the word re-read as ен 'God' + ӧшка 'bull', a 'God's bull' to match Russian божья коровка 'God's little cow'.
+    es_uy: ["San Antonio", "san anˈtonjo"],  // Uruguay calls the ladybird San Antonio, after Saint Anthony, as Argentina says vaquita de San Antonio.
+    ja_osa: ["天道虫", "tentoːmɯɕi"],  // Literally "sun bug". The national word, which Osaka speech uses as well.
+    ja_kyo: ["天道虫", "tentoːmɯɕi"],  // Literally "sun bug". The national word, which Kyoto speech uses as well.
+    ja_hak: ["天道虫", "tentoːmɯɕi"],  // Literally "sun bug". The national word, which Hakata speech uses as well.
+    ja_hir: ["天道虫", "tentoːmɯɕi"],  // Literally "sun bug". The national word, which Hiroshima speech uses as well.
+    ko_bus: ["무당벌레", "mudaŋbʌlle"],  // Literally "shaman bug". The national word, which Busan speech uses as well.
+    ko_jl: ["무당벌레", "mudaŋbəlle"],  // Literally "shaman bug". The national word, which Jeolla speech uses as well.
   },
 };

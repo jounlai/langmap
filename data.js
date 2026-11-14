@@ -2633,7 +2633,7 @@ const SENTENCES = [
         ],
         [
           "H",
-          "‌in"
+          "in"
         ],
         [
           "I",
@@ -7019,7 +7019,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ein klæðnadrátt"
+          "ein búna"
         ],
         [
           "E",
@@ -7401,7 +7401,7 @@ const SENTENCES = [
         ],
         [
           "H",
-          "‌in"
+          "in"
         ],
         [
           "I",
@@ -7689,47 +7689,47 @@ const SENTENCES = [
       "got": [
         [
           "A",
-          "Ik"
+          "𐌹𐌺"
         ],
         [
           "B",
-          "wiljau"
+          "𐍅𐌹𐌻𐌾𐌰𐌿"
         ],
         [
           "C",
-          "fandjan"
+          "𐍆𐌰𐌽𐌳𐌾𐌰𐌽"
         ],
         [
           "D",
-          "wastja"
+          "𐍅𐌰𐍃𐍄𐌾𐌰"
         ],
         [
           "E",
-          "þoei"
+          "𐌸𐍉𐌴𐌹"
         ],
         [
           "F",
-          "ik"
+          "𐌹𐌺"
         ],
         [
           "G",
-          "gasahv"
+          "𐌲𐌰𐍃𐌰𐍈"
         ],
         [
           "H",
-          "‌in"
+          "𐌹𐌽"
         ],
         [
           "I",
-          "makljai"
+          "𐌼𐌰𐌺𐌻𐌾𐌰𐌹"
         ],
         [
           "J",
-          "andwairþis"
+          "𐌰𐌽𐌳𐍅𐌰𐌹𐍂𐌸𐌹𐍃"
         ],
         [
           "K",
-          "salithwos"
+          "𐍃𐌰𐌻𐌹𐌸𐍅𐍉𐍃"
         ]
       ],
       "cu": [
@@ -8887,7 +8887,7 @@ const SENTENCES = [
         ],
         [
           "H",
-          "‌in"
+          "in"
         ],
         [
           "I",
@@ -11550,8 +11550,12 @@ const SENTENCES = [
       ],
       "br": [
         [
+          "D",
+          "Tanaka"
+        ],
+        [
           "C",
-          "Eo"
+          "eo"
         ],
         [
           "A",
@@ -11560,10 +11564,6 @@ const SENTENCES = [
         [
           "B",
           "anv"
-        ],
-        [
-          "D",
-          "Tanaka"
         ]
       ],
       "ps": [
@@ -12359,7 +12359,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "𐌸𐌰𐌽𐌰𐌺𐌰"
+          "𐍄𐌰𐌽𐌰𐌺𐌰"
         ]
       ],
       "cu": [
@@ -16682,7 +16682,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "hvørt morgun"
+          "hvønn morgun"
         ],
         [
           "E",
@@ -22746,7 +22746,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "an-bhlasta"
+          "an-"
+        ],
+        [
+          "D",
+          "‌bhlasta"
         ]
       ],
       "eu": [
@@ -24517,12 +24521,12 @@ const SENTENCES = [
           "eo"
         ],
         [
-          "A",
-          "ar"
+          "B",
+          "ar kafe"
         ],
         [
-          "B",
-          "kafe-mañ"
+          "A",
+          "‌-mañ"
         ]
       ],
       "ps": [
@@ -32066,8 +32070,12 @@ const SENTENCES = [
       ],
       "is": [
         [
+          "B",
+          "Veðrið"
+        ],
+        [
           "A",
-          "Veður á morgun"
+          "á morgun"
         ],
         [
           "C",
@@ -33574,8 +33582,12 @@ const SENTENCES = [
           "Moarn"
         ],
         [
+          "C",
+          "wurdt"
+        ],
+        [
           "B",
-          "wurdt it waar"
+          "it waar"
         ],
         [
           "D",
@@ -35200,8 +35212,12 @@ const SENTENCES = [
           "fy mam"
         ],
         [
+          "C",
+          "yn coginio"
+        ],
+        [
           "B",
-          "yn coginio swper"
+          "swper"
         ],
         [
           "D",
@@ -39647,7 +39663,7 @@ const SENTENCES = [
       ],
       "ga": [
         [
-          "A",
+          "B|A",
           "Ba mhaith liom"
         ],
         [
@@ -39656,18 +39672,18 @@ const SENTENCES = [
         ],
         [
           "D",
-          "go"
+          "go dtí"
         ],
         [
           "E",
-          "dtí an tSeapáin"
-        ],
-        [
-          "F",
-          "an bhliain"
+          "an tSeapáin"
         ],
         [
           "G",
+          "an bhliain"
+        ],
+        [
+          "F",
           "seo chugainn"
         ]
       ],
@@ -39891,11 +39907,11 @@ const SENTENCES = [
           "Japan"
         ],
         [
-          "F",
+          "G",
           "y flwyddyn"
         ],
         [
-          "G",
+          "F",
           "nesaf"
         ]
       ],
@@ -40004,7 +40020,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌in"
+          "in"
         ],
         [
           "E",
@@ -42284,18 +42300,18 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌da"
+          "da"
         ],
         [
           "E",
           "Japan"
         ],
         [
-          "F",
+          "G",
           "ar bloaz"
         ],
         [
-          "G",
+          "F",
           "a zeu"
         ]
       ],
@@ -43608,31 +43624,31 @@ const SENTENCES = [
       "got": [
         [
           "A",
-          "Ik"
+          "𐌹𐌺"
         ],
         [
           "B",
-          "wiljau"
+          "𐍅𐌹𐌻𐌾𐌰𐌿"
         ],
         [
           "C",
-          "galeiþan"
+          "𐌲𐌰𐌻𐌴𐌹𐌸𐌰𐌽"
         ],
         [
           "D",
-          "du"
+          "𐌳𐌿"
         ],
         [
           "E",
-          "Iapan"
+          "𐌹𐌰𐍀𐌰𐌽"
         ],
         [
           "F",
-          "þamma nehvista"
+          "𐌸𐌰𐌼𐌼𐌰 𐌽𐌴𐍈𐌹𐍃𐍄𐌰"
         ],
         [
           "G",
-          "jera"
+          "𐌾𐌴𐍂𐌰"
         ]
       ],
       "cu": [
@@ -46539,7 +46555,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "‌ni"
+          "ni"
         ],
         [
           "C",
@@ -47259,7 +47275,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "te"
+          "c'hwi"
         ],
         [
           "C",
@@ -48174,16 +48190,16 @@ const SENTENCES = [
       ],
       "fy": [
         [
-          "D",
+          "D|A",
           "Kinsto"
-        ],
-        [
-          "C",
-          "prate"
         ],
         [
           "B",
           "Ingelsk"
+        ],
+        [
+          "C",
+          "prate"
         ]
       ],
       "sc": [
@@ -51188,7 +51204,11 @@ const SENTENCES = [
         ],
         [
           "E",
-          "Buech chauft"
+          "Buech"
+        ],
+        [
+          "C",
+          "chauft"
         ]
       ],
       "fr_qc": [
@@ -51444,7 +51464,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "æt þǣre bōchūse"
+          "æt þǣm bōchūse"
         ],
         [
           "F",
@@ -52476,7 +52496,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "el levraoueg"
+          "er stal-levrioù"
         ],
         [
           "F",
@@ -53230,7 +53250,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "í bókhandlinum"
+          "í bókahandlinum"
         ],
         [
           "F",
@@ -53760,7 +53780,15 @@ const SENTENCES = [
         ],
         [
           "C",
-          "haw kocht"
+          "haw"
+        ],
+        [
+          "F",
+          "juster"
+        ],
+        [
+          "B",
+          "yn de boekhannel"
         ],
         [
           "D",
@@ -53771,12 +53799,8 @@ const SENTENCES = [
           "boek"
         ],
         [
-          "B",
-          "yn de boekhannel"
-        ],
-        [
-          "F",
-          "juster"
+          "C",
+          "kocht"
         ]
       ],
       "sc": [
@@ -54066,7 +54090,11 @@ const SENTENCES = [
         ],
         [
           "E",
-          "Buach kauft"
+          "Buach"
+        ],
+        [
+          "C",
+          "kauft"
         ]
       ],
       "nds": [
@@ -54092,7 +54120,11 @@ const SENTENCES = [
         ],
         [
           "E",
-          "Book köfft"
+          "Book"
+        ],
+        [
+          "C",
+          "köfft"
         ]
       ],
       "vec": [
@@ -57652,7 +57684,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "eru vakur"
+          "eru vøkur"
         ]
       ],
       "jam": [
@@ -57958,7 +57990,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "𐌹𐍃𐍄 𐍃𐌺𐌰𐌿𐌽𐍃"
+          "𐍃𐌹𐌽𐌳 𐍃𐌺𐌰𐌿𐌽𐌰𐌹"
         ]
       ],
       "cu": [
@@ -59054,7 +59086,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "acqua"
+          "‌acqua"
         ]
       ],
       "ru": [
@@ -59870,7 +59902,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌da"
+          "da"
         ]
       ],
       "egy": [
@@ -62454,23 +62486,23 @@ const SENTENCES = [
       "got": [
         [
           "A",
-          "Bidja"
+          "𐌱𐌹𐌳𐌾𐌰"
         ],
         [
           "D",
-          "gif"
+          "𐌲𐌹𐍆"
         ],
         [
           "B",
-          "mis"
+          "𐌼𐌹𐍃"
         ],
         [
           "F",
-          "stikl"
+          "𐍃𐍄𐌹𐌺𐌻"
         ],
         [
           "C",
-          "watins"
+          "𐍅𐌰𐍄𐌹𐌽𐍃"
         ]
       ],
       "cu": [
@@ -70655,7 +70687,7 @@ const SENTENCES = [
       "yi": [
         [
           "A",
-          "מײַן שוועסטער"
+          "מײַן ייִנגערע שוועסטער"
         ],
         [
           "D",
@@ -71109,7 +71141,7 @@ const SENTENCES = [
       "fo": [
         [
           "A",
-          "Systir mín"
+          "Yngri systir mín"
         ],
         [
           "D",
@@ -74312,7 +74344,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "e krogas"
+          "e krog"
         ],
         [
           "B",
@@ -77271,8 +77303,12 @@ const SENTENCES = [
       ],
       "cy": [
         [
+          "B",
+          "Mae gen"
+        ],
+        [
           "A",
-          "Mae gen i"
+          "i"
         ],
         [
           "C",
@@ -77287,11 +77323,11 @@ const SENTENCES = [
           "3"
         ],
         [
-          "F",
+          "G",
           "y prynhawn"
         ],
         [
-          "G",
+          "F",
           "yma"
         ]
       ],
@@ -78719,12 +78755,12 @@ const SENTENCES = [
           "3"
         ],
         [
-          "F",
-          "í"
-        ],
-        [
           "G",
           "síðdegis"
+        ],
+        [
+          "F",
+          "í dag"
         ]
       ],
       "lt": [
@@ -79667,12 +79703,8 @@ const SENTENCES = [
       ],
       "br": [
         [
-          "A",
-          "Ur"
-        ],
-        [
           "C",
-          "emvod"
+          "Un emvod"
         ],
         [
           "B",
@@ -79680,7 +79712,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌da"
+          "da"
         ],
         [
           "E",
@@ -80787,7 +80819,7 @@ const SENTENCES = [
           "het"
         ],
         [
-          "F",
+          "F|G",
           "vanmiddag"
         ],
         [
@@ -81008,31 +81040,31 @@ const SENTENCES = [
       "got": [
         [
           "A",
-          "Ik"
+          "𐌹𐌺"
         ],
         [
           "B",
-          "haba"
+          "𐌷𐌰𐌱𐌰"
         ],
         [
           "C",
-          "gakunþi"
+          "𐌲𐌰𐌺𐌿𐌽𐌸𐌹"
         ],
         [
           "D",
-          "ƕeila"
+          "𐍈𐌴𐌹𐌻𐌰"
         ],
         [
           "E",
-          "þridjo"
+          "𐌸𐍂𐌹𐌳𐌾𐍉"
         ],
         [
           "F",
-          "himma"
+          "𐌷𐌹𐌼𐌼𐌰"
         ],
         [
           "G",
-          "undaurni"
+          "𐌿𐌽𐌳𐌰𐌿𐍂𐌽𐌹"
         ]
       ],
       "cu": [
@@ -81131,7 +81163,7 @@ const SENTENCES = [
           "ha"
         ],
         [
-          "F",
+          "F|G",
           "fanmiddei"
         ],
         [
@@ -82959,12 +82991,12 @@ const SENTENCES = [
           "Tá"
         ],
         [
-          "A",
-          "an"
+          "B",
+          "an mála"
         ],
         [
-          "B",
-          "mála seo"
+          "A",
+          "seo"
         ],
         [
           "C",
@@ -84711,8 +84743,12 @@ const SENTENCES = [
           "re"
         ],
         [
+          "B",
+          "ar sac'h"
+        ],
+        [
           "A",
-          "ar sac'h-mañ"
+          "‌-mañ"
         ]
       ],
       "ps": [
@@ -89363,19 +89399,19 @@ const SENTENCES = [
       "fo": [
         [
           "A",
-          "Eg"
+          "Mær"
         ],
         [
           "D",
-          "dámi at"
+          "dámar at"
         ],
         [
           "C",
-          "lurta á"
+          "lurta eftir"
         ],
         [
           "B",
-          "tónleik"
+          "tónleiki"
         ]
       ],
       "jam": [
@@ -94761,16 +94797,16 @@ const SENTENCES = [
           "dinnéar"
         ],
         [
+          "A",
+          "agam"
+        ],
+        [
           "C",
           "le cairde"
         ],
         [
           "B",
           "anocht"
-        ],
-        [
-          "A",
-          "agam"
         ]
       ],
       "eu": [
@@ -97806,19 +97842,23 @@ const SENTENCES = [
         ],
         [
           "E",
-          "sil ite"
+          "sil"
         ],
         [
-          "D",
-          "jûnsiten"
+          "B",
+          "fan 'e jûn"
         ],
         [
           "C",
           "mei freonen"
         ],
         [
-          "B",
-          "fan 'e jûn"
+          "D",
+          "jûnsiten"
+        ],
+        [
+          "E",
+          "ite"
         ]
       ],
       "sc": [
@@ -101789,11 +101829,11 @@ const SENTENCES = [
           "ur"
         ],
         [
-          "F",
+          "C",
           "yezh"
         ],
         [
-          "C",
+          "F",
           "nevez"
         ]
       ],
@@ -102937,12 +102977,8 @@ const SENTENCES = [
           "wol"
         ],
         [
-          "D",
-          "leare"
-        ],
-        [
           "B",
-          "‌in"
+          "in"
         ],
         [
           "F",
@@ -102951,6 +102987,10 @@ const SENTENCES = [
         [
           "C",
           "taal"
+        ],
+        [
+          "D",
+          "leare"
         ]
       ],
       "sc": [
@@ -105487,7 +105527,7 @@ const SENTENCES = [
       "en_ang": [
         [
           "A",
-          "Sēo bōchord"
+          "Þæt bōchord"
         ],
         [
           "D",
@@ -106725,7 +106765,7 @@ const SENTENCES = [
       "fo": [
         [
           "A",
-          "Bókaravnin"
+          "Bókasavnið"
         ],
         [
           "D",
@@ -110735,7 +110775,7 @@ const SENTENCES = [
       ],
       "af": [
         [
-          "A",
+          "D",
           "Wys"
         ],
         [
@@ -110743,7 +110783,7 @@ const SENTENCES = [
           "my"
         ],
         [
-          "D",
+          "A",
           "asseblief"
         ],
         [
@@ -112886,8 +112926,12 @@ const SENTENCES = [
           "fy nhad"
         ],
         [
+          "E",
+          "yn gweithio"
+        ],
+        [
           "B",
-          "yn gweithio mewn"
+          "mewn"
         ],
         [
           "D",
@@ -112975,7 +113019,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "‌in"
+          "in"
         ],
         [
           "F",
@@ -115445,7 +115489,7 @@ const SENTENCES = [
         ],
         [
           "F",
-          "einum stórum"
+          "einari stórari"
         ],
         [
           "D",
@@ -117976,7 +118020,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "‌in"
+          "in"
         ],
         [
           "E",
@@ -118600,7 +118644,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "‌im"
+          "im"
         ],
         [
           "E",
@@ -120428,7 +120472,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "‌in"
+          "in"
         ],
         [
           "E",
@@ -120880,7 +120924,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "‌im"
+          "im"
         ],
         [
           "E",
@@ -120902,7 +120946,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "‌im"
+          "im"
         ],
         [
           "E",
@@ -121190,7 +121234,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "‌in"
+          "in"
         ],
         [
           "E",
@@ -123105,8 +123149,12 @@ const SENTENCES = [
           "redan tre gånger"
         ],
         [
+          "D",
+          "varit"
+        ],
+        [
           "B",
-          "varit i Tokyo"
+          "i Tokyo"
         ]
       ],
       "no": [
@@ -123123,8 +123171,12 @@ const SENTENCES = [
           "allerede tre ganger"
         ],
         [
+          "D",
+          "vært"
+        ],
+        [
           "B",
-          "vært i Tokyo"
+          "i Tokyo"
         ]
       ],
       "en_ang": [
@@ -123936,7 +123988,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "hefr"
+          "hef"
         ],
         [
           "A",
@@ -124742,15 +124794,19 @@ const SENTENCES = [
         ],
         [
           "D",
-          "haw west"
+          "haw"
+        ],
+        [
+          "C",
+          "trije kear"
         ],
         [
           "B",
           "yn Tokio"
         ],
         [
-          "C",
-          "trije kear"
+          "D",
+          "west"
         ]
       ],
       "sc": [
@@ -126556,8 +126612,12 @@ const SENTENCES = [
           "leat"
         ],
         [
+          "E",
+          "bialann"
+        ],
+        [
           "F",
-          "bialann mhaith"
+          "mhaith"
         ],
         [
           "C",
@@ -126709,15 +126769,23 @@ const SENTENCES = [
       "cy": [
         [
           "A",
-          "Allech chi"
+          "Allech"
+        ],
+        [
+          "B",
+          "chi"
         ],
         [
           "C",
           "argymell"
         ],
         [
+          "E",
+          "bwyty"
+        ],
+        [
           "F",
-          "bwyty da"
+          "da"
         ]
       ],
       "en_yk": [
@@ -128488,8 +128556,12 @@ const SENTENCES = [
           "kinnig"
         ],
         [
+          "E",
+          "ur preti-debriñ"
+        ],
+        [
           "F",
-          "ur preti-debriñ mat"
+          "mat"
         ]
       ],
       "ps": [
@@ -128599,7 +128671,7 @@ const SENTENCES = [
       "non": [
         [
           "A",
-          "Kantu"
+          "Kant"
         ],
         [
           "B",
@@ -129127,7 +129199,7 @@ const SENTENCES = [
         ],
         [
           "F",
-          "eitt gott"
+          "eina góða"
         ],
         [
           "E",
@@ -129493,23 +129565,23 @@ const SENTENCES = [
       "got": [
         [
           "A",
-          "Magtu"
+          "𐌼𐌰𐌲𐍄"
         ],
         [
           "B",
-          "þu"
+          "𐌸𐌿"
         ],
         [
           "C",
-          "anabiudan"
+          "𐌰𐌽𐌰𐌱𐌹𐌿𐌳𐌰𐌽"
         ],
         [
           "F",
-          "godana"
+          "𐌲𐍉𐌳𐌰𐌽𐌰"
         ],
         [
           "E",
-          "matistadj"
+          "𐌼𐌰𐍄𐌹𐍃𐍄𐌰𐌳𐌾"
         ]
       ],
       "cu": [
@@ -133356,11 +133428,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "glømdi"
+          "gloymdi"
         ],
         [
           "B",
-          "regnhlífina"
+          "regnskjólið"
         ],
         [
           "D",
@@ -138518,16 +138590,16 @@ const SENTENCES = [
           "kin"
         ],
         [
-          "C",
-          "spylje"
-        ],
-        [
           "B",
           "piano"
         ],
         [
           "D",
           "hiel goed"
+        ],
+        [
+          "C",
+          "spylje"
         ]
       ],
       "sc": [
@@ -140072,8 +140144,12 @@ const SENTENCES = [
           "an scrúdú"
         ],
         [
+          "D",
+          "Dé Luain"
+        ],
+        [
           "B",
-          "Dé Luain seo chugainn"
+          "seo chugainn"
         ]
       ],
       "eu": [
@@ -140188,8 +140264,12 @@ const SENTENCES = [
           "arholiad"
         ],
         [
+          "D",
+          "ddydd Llun"
+        ],
+        [
           "B",
-          "ddydd Llun nesaf"
+          "nesaf"
         ]
       ],
       "en_yk": [
@@ -140249,7 +140329,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "proximo die Lunae"
+          "proximo"
+        ],
+        [
+          "D",
+          "die Lunae"
         ],
         [
           "C",
@@ -140713,7 +140797,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "nöchschte Mäntig"
+          "nöchschte"
+        ],
+        [
+          "D",
+          "Mäntig"
         ]
       ],
       "fr_qc": [
@@ -140881,7 +140969,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "tōweardum Mōnandæge"
+          "tōweardum"
+        ],
+        [
+          "D",
+          "Mōnandæge"
         ]
       ],
       "si": [
@@ -140973,7 +141065,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "næsta mánudag"
+          "næsta"
+        ],
+        [
+          "D",
+          "mánudag"
         ]
       ],
       "lt": [
@@ -141508,15 +141604,19 @@ const SENTENCES = [
       ],
       "br": [
         [
-          "C",
-          "D'al lun a zeu"
+          "D",
+          "D'al lun"
+        ],
+        [
+          "B",
+          "a zeu"
         ],
         [
           "A",
           "an arnodenn"
         ],
         [
-          "B",
+          "C",
           "a vo"
         ]
       ],
@@ -141581,13 +141681,21 @@ const SENTENCES = [
         ],
         [
           "B",
-          "קומענדיקן מאָנטיק"
+          "קומענדיקן"
+        ],
+        [
+          "D",
+          "מאָנטיק"
         ]
       ],
       "non": [
         [
           "B",
-          "Á næsta mánudag"
+          "Á næsta"
+        ],
+        [
+          "D",
+          "mánudag"
         ],
         [
           "C",
@@ -141959,7 +142067,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "næsta mánadag"
+          "næsta"
+        ],
+        [
+          "D",
+          "mánadag"
         ]
       ],
       "jam": [
@@ -142211,7 +142323,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "neste måndag"
+          "neste"
+        ],
+        [
+          "D",
+          "måndag"
         ]
       ],
       "got": [
@@ -142225,7 +142341,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "𐌸𐌰𐌽𐌰 𐌽𐌴𐍈𐌹𐍃𐍄𐌰𐌽 𐌼𐌰𐌽𐌰𐌳𐌰𐌲𐌰"
+          "𐌸𐌰𐌽𐌰 𐌽𐌴𐍈𐌹𐍃𐍄𐌰𐌽"
+        ],
+        [
+          "D",
+          "𐌼𐌰𐌽𐌰𐌳𐌰𐌲𐌰"
         ]
       ],
       "cu": [
@@ -142281,7 +142401,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "oankommende moandei"
+          "oankommende"
+        ],
+        [
+          "D",
+          "moandei"
         ]
       ],
       "sc": [
@@ -142437,7 +142561,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "am Montag"
+          "nächsten"
+        ],
+        [
+          "D",
+          "Montag"
         ]
       ],
       "de_by": [
@@ -146500,7 +146628,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "til middagsmatur"
+          "til døgurða"
         ]
       ],
       "jam": [
@@ -146945,16 +147073,16 @@ const SENTENCES = [
           "wol"
         ],
         [
-          "C",
-          "ite"
+          "D",
+          "foar it middeisiten"
         ],
         [
           "B",
           "sushi"
         ],
         [
-          "D",
-          "foar it middeisiten"
+          "C",
+          "ite"
         ]
       ],
       "sc": [
@@ -148669,8 +148797,12 @@ const SENTENCES = [
           "Bhí"
         ],
         [
+          "E",
+          "seomra"
+        ],
+        [
           "A",
-          "seomra an óstáin"
+          "an óstáin"
         ],
         [
           "C",
@@ -148678,7 +148810,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ghlan"
+          "‌ghlan"
         ]
       ],
       "eu": [
@@ -148817,16 +148949,20 @@ const SENTENCES = [
           "Roedd"
         ],
         [
-          "A",
-          "ystafell y gwesty"
+          "E",
+          "ystafell"
         ],
         [
-          "C",
-          "yn"
+          "A",
+          "y gwesty"
         ],
         [
           "D",
-          "lân iawn"
+          "yn lân"
+        ],
+        [
+          "C",
+          "iawn"
         ]
       ],
       "en_yk": [
@@ -148893,8 +149029,12 @@ const SENTENCES = [
       ],
       "la": [
         [
+          "E",
+          "Conclave"
+        ],
+        [
           "A",
-          "Conclave deversorii"
+          "deversorii"
         ],
         [
           "B",
@@ -149494,7 +149634,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "isch gsi"
+          "isch"
         ],
         [
           "C",
@@ -149503,6 +149643,10 @@ const SENTENCES = [
         [
           "D",
           "suuber"
+        ],
+        [
+          "B",
+          "gsi"
         ]
       ],
       "fr_qc": [
@@ -150473,8 +150617,12 @@ const SENTENCES = [
           "Oa"
         ],
         [
+          "E",
+          "kambr"
+        ],
+        [
           "A",
-          "kambr al leti"
+          "al leti"
         ],
         [
           "C",
@@ -150554,7 +150702,11 @@ const SENTENCES = [
       "yi": [
         [
           "A",
-          "דער האָטעל צימער"
+          "דער האָטעל"
+        ],
+        [
+          "E",
+          "צימער"
         ],
         [
           "B",
@@ -151385,8 +151537,12 @@ const SENTENCES = [
       ],
       "got": [
         [
+          "E",
+          "𐍃𐍄𐌰𐌳𐍃"
+        ],
+        [
           "A",
-          "𐍃𐍄𐌰𐌳𐍃 𐌹𐌽 𐌲𐌰𐍃𐍄𐌹𐌽"
+          "𐌹𐌽 𐌲𐌰𐍃𐍄𐌹𐌽"
         ],
         [
           "C",
@@ -151669,20 +151825,24 @@ const SENTENCES = [
       ],
       "de_at": [
         [
-          "A",
+          "E",
           "Des Zimmer"
         ],
         [
-          "B",
+          "A",
           "im Hotel"
         ],
         [
-          "C",
+          "B",
           "war"
         ],
         [
+          "C",
+          "sehr"
+        ],
+        [
           "D",
-          "sehr sauber"
+          "sauber"
         ]
       ],
       "de_by": [
@@ -151976,7 +152136,11 @@ const SENTENCES = [
       "enm": [
         [
           "A",
-          "The hostelries chambre"
+          "The hostelries"
+        ],
+        [
+          "E",
+          "chambre"
         ],
         [
           "B",
@@ -154442,7 +154606,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "gouzoutoc'h"
+          "goustatoc'h"
         ]
       ],
       "ps": [
@@ -155025,8 +155189,12 @@ const SENTENCES = [
       ],
       "af": [
         [
+          "C",
+          "Praat"
+        ],
+        [
           "A",
-          "Praat asseblief"
+          "asseblief"
         ],
         [
           "B|D",
@@ -156801,12 +156969,12 @@ const SENTENCES = [
           "dheartháir mór"
         ],
         [
-          "C",
-          "seo caite"
-        ],
-        [
           "D",
           "an mhí"
+        ],
+        [
+          "C",
+          "seo caite"
         ]
       ],
       "eu": [
@@ -156983,12 +157151,12 @@ const SENTENCES = [
           "mrawd hŷn"
         ],
         [
-          "C",
-          "diwethaf"
-        ],
-        [
           "D",
           "y mis"
+        ],
+        [
+          "C",
+          "diwethaf"
         ]
       ],
       "en_yk": [
@@ -158701,12 +158869,12 @@ const SENTENCES = [
           "breur kozh"
         ],
         [
-          "C",
-          "diaraok"
-        ],
-        [
           "D",
           "ar miz"
+        ],
+        [
+          "C",
+          "diaraok"
         ]
       ],
       "ps": [
@@ -158778,7 +158946,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "ברודער"
+          "עלטערער ברודער"
         ],
         [
           "B",
@@ -159272,7 +159440,7 @@ const SENTENCES = [
       "fo": [
         [
           "E",
-          "Bróðir"
+          "Eldri bróðir"
         ],
         [
           "A",
@@ -166726,7 +166894,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "gave"
+          "‌gave"
         ]
       ],
       "is": [
@@ -166748,7 +166916,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "gjöf"
+          "‌gjöf"
         ]
       ],
       "lt": [
@@ -167463,11 +167631,11 @@ const SENTENCES = [
           "prenañ"
         ],
         [
-          "C",
+          "D",
           "ur prof"
         ],
         [
-          "D",
+          "C",
           "gouel-vloaz"
         ]
       ],
@@ -167578,7 +167746,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "gjǫf"
+          "‌gjǫf"
         ]
       ],
       "arc": [
@@ -168110,11 +168278,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "føðingardags-"
+          "føðingardags"
         ],
         [
           "D",
-          "gávu"
+          "‌gávu"
         ]
       ],
       "jam": [
@@ -168308,7 +168476,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "geskenk"
+          "‌geskenk"
         ],
         [
           "E",
@@ -168462,11 +168630,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "bursdags-"
+          "bursdags"
         ],
         [
           "D",
-          "gåve"
+          "‌gåve"
         ]
       ],
       "got": [
@@ -168567,20 +168735,20 @@ const SENTENCES = [
           "moat"
         ],
         [
-          "E",
-          "keapje"
-        ],
-        [
           "D",
-          "‌in"
+          "in"
         ],
         [
           "C",
-          "jierdeis-"
+          "jierdeis"
         ],
         [
           "D",
-          "kado"
+          "‌kado"
+        ],
+        [
+          "E",
+          "keapje"
         ]
       ],
       "sc": [
@@ -170905,7 +171073,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌da"
+          "da"
         ],
         [
           "C",
@@ -171054,11 +171222,11 @@ const SENTENCES = [
           "Solnedgangen"
         ],
         [
-          "A",
+          "D",
           "her"
         ],
         [
-          "D",
+          "A",
           "‌fra"
         ],
         [
@@ -171154,11 +171322,11 @@ const SENTENCES = [
           "Solnedgangen"
         ],
         [
-          "A",
+          "D",
           "her"
         ],
         [
-          "D",
+          "A",
           "‌fra"
         ],
         [
@@ -172797,7 +172965,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌da"
+          "da"
         ],
         [
           "C",
@@ -177365,16 +177533,16 @@ const SENTENCES = [
           "moat"
         ],
         [
-          "D",
-          "wekker wurde"
+          "C",
+          "moarn"
         ],
         [
           "B",
           "ier"
         ],
         [
-          "C",
-          "moarn"
+          "D",
+          "wekker wurde"
         ]
       ],
       "sc": [
@@ -180260,7 +180428,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "‌ni"
+          "ni"
         ],
         [
           "C",
@@ -182203,12 +182371,12 @@ const SENTENCES = [
       ],
       "fy": [
         [
-          "E",
+          "E|A",
           "Witsto"
         ],
         [
           "C",
-          "wêr 't"
+          "wêr't"
         ],
         [
           "B",
@@ -186208,8 +186376,12 @@ const SENTENCES = [
           "me"
         ],
         [
+          "F",
+          "ul levr"
+        ],
+        [
           "C",
-          "ul levr dedennus"
+          "dedennus"
         ],
         [
           "B",
@@ -192149,8 +192321,12 @@ const SENTENCES = [
           "Sy"
         ],
         [
+          "C",
+          "dra"
+        ],
+        [
           "B",
-          "dra altyd"
+          "altyd"
         ],
         [
           "D",
@@ -192299,8 +192475,16 @@ const SENTENCES = [
           "Ho"
         ],
         [
+          "C",
+          "har"
+        ],
+        [
           "B",
-          "har alltid på seg"
+          "alltid"
+        ],
+        [
+          "C",
+          "på seg"
         ],
         [
           "D",
@@ -192405,8 +192589,12 @@ const SENTENCES = [
           "Hja"
         ],
         [
+          "C",
+          "draacht"
+        ],
+        [
           "B",
-          "draacht altyd"
+          "altyd"
         ],
         [
           "D",
@@ -192622,15 +192810,15 @@ const SENTENCES = [
         ],
         [
           "C",
-          "tragt immer"
+          "tragt"
         ],
         [
           "B",
-          "a"
+          "immer"
         ],
         [
           "D",
-          "rotes"
+          "a rotes"
         ],
         [
           "E",
@@ -192644,15 +192832,15 @@ const SENTENCES = [
         ],
         [
           "C",
-          "trogt oiwei"
+          "trogt"
         ],
         [
           "B",
-          "a"
+          "oiwei"
         ],
         [
           "D",
-          "roats"
+          "a roats"
         ],
         [
           "E",
@@ -192666,15 +192854,15 @@ const SENTENCES = [
         ],
         [
           "C",
-          "dröggt ümmer"
+          "dröggt"
         ],
         [
           "B",
-          "een"
+          "ümmer"
         ],
         [
           "D",
-          "root"
+          "een root"
         ],
         [
           "E",
@@ -196592,7 +196780,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "hesum"
+          "hesi"
         ],
         [
           "E",
@@ -200859,11 +201047,11 @@ const SENTENCES = [
           "wil"
         ],
         [
-          "C",
+          "B",
           "deur die wêreld"
         ],
         [
-          "B",
+          "C",
           "reis"
         ]
       ],
@@ -212086,7 +212274,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "eina tíma"
+          "ein tíma"
         ]
       ],
       "jam": [
@@ -212679,8 +212867,8 @@ const SENTENCES = [
           "haw"
         ],
         [
-          "E",
-          "praat"
+          "D",
+          "in oere"
         ],
         [
           "F",
@@ -212699,8 +212887,8 @@ const SENTENCES = [
           "oan de telefoan"
         ],
         [
-          "D",
-          "in oere"
+          "E",
+          "praat"
         ]
       ],
       "sc": [
@@ -213018,7 +213206,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "'n"
+          "meim"
         ],
         [
           "B",
@@ -215246,7 +215434,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "hät erklärt"
+          "hät"
         ],
         [
           "B",
@@ -215255,6 +215443,10 @@ const SENTENCES = [
         [
           "C",
           "dütlich"
+        ],
+        [
+          "D",
+          "erklärt"
         ]
       ],
       "fr_qc": [
@@ -216142,7 +216334,7 @@ const SENTENCES = [
       "br": [
         [
           "D",
-          "Displegañ en deus"
+          "Displeget en deus"
         ],
         [
           "A",
@@ -216672,7 +216864,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "trupulleiðið"
+          "trupulleikan"
         ],
         [
           "C",
@@ -217050,7 +217242,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "hat útlein"
+          "hat"
         ],
         [
           "B",
@@ -217059,6 +217251,10 @@ const SENTENCES = [
         [
           "C",
           "dúdlik"
+        ],
+        [
+          "D",
+          "útlein"
         ]
       ],
       "sc": [
@@ -221349,11 +221545,11 @@ const SENTENCES = [
         ],
         [
           "E",
-          "hesa"
+          "henda"
         ],
         [
           "B",
-          "filmina"
+          "filmin"
         ]
       ],
       "jam": [
@@ -222993,7 +223189,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "aeroporto"
+          "‌aeroporto"
         ]
       ],
       "ru": [
@@ -223947,11 +224143,11 @@ const SENTENCES = [
       "cy": [
         [
           "D",
-          "Dywedwch wrth"
+          "Dywedwch"
         ],
         [
           "B",
-          "i"
+          "wrtha i"
         ],
         [
           "C|E",
@@ -226695,7 +226891,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "flogvøllins"
+          "flogvallarins"
         ]
       ],
       "jam": [
@@ -226896,7 +227092,7 @@ const SENTENCES = [
       ],
       "af": [
         [
-          "A",
+          "D",
           "Wys"
         ],
         [
@@ -226904,7 +227100,7 @@ const SENTENCES = [
           "my"
         ],
         [
-          "D",
+          "A",
           "asseblief"
         ],
         [
@@ -227447,7 +227643,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "mir den Weg"
+          "mir"
+        ],
+        [
+          "E",
+          "den Weg"
         ],
         [
           "F",
@@ -227469,7 +227669,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "mi den Weg"
+          "mi"
+        ],
+        [
+          "E",
+          "den Weg"
         ],
         [
           "F",
@@ -238164,7 +238368,7 @@ const SENTENCES = [
         ],
         [
           "F",
-          "‌in"
+          "in"
         ],
         [
           "D",
@@ -239242,7 +239446,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "veskinu minni"
+          "veskinu mínu"
         ],
         [
           "F",
@@ -240656,7 +240860,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "pungina mína"
+          "pungin mín"
         ],
         [
           "F",
@@ -241165,10 +241369,6 @@ const SENTENCES = [
           "bin"
         ],
         [
-          "C",
-          "kwyt"
-        ],
-        [
           "B",
           "myn beurs"
         ],
@@ -241179,6 +241379,10 @@ const SENTENCES = [
         [
           "D",
           "de merk"
+        ],
+        [
+          "C",
+          "kwyt"
         ]
       ],
       "sc": [
@@ -243691,7 +243895,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌im"
+          "im"
         ],
         [
           "A",
@@ -245177,7 +245381,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "garsinum"
+          "garðinum"
         ],
         [
           "C|E",
@@ -245763,7 +245967,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌im"
+          "im"
         ],
         [
           "A",
@@ -245781,7 +245985,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌im"
+          "im"
         ],
         [
           "A",
@@ -245803,7 +246007,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌in'n"
+          "in'n"
         ],
         [
           "A",
@@ -247235,7 +247439,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "‌ni"
+          "ni"
         ],
         [
           "C",
@@ -248697,7 +248901,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "‌ni"
+          "ni"
         ],
         [
           "C",
@@ -249596,12 +249800,12 @@ const SENTENCES = [
           "moatte"
         ],
         [
-          "C",
-          "beskermje"
-        ],
-        [
           "B",
           "it miljeu"
+        ],
+        [
+          "C",
+          "beskermje"
         ]
       ],
       "sc": [
@@ -252940,7 +253144,7 @@ const SENTENCES = [
         ],
         [
           "B|F",
-          "kaffibolli"
+          "kaffibolla"
         ],
         [
           "D",
@@ -254546,7 +254750,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "tvær"
+          "tveir"
         ],
         [
           "F",
@@ -257529,7 +257733,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "um 8 Uhr aa"
+          "um 8 Uhr"
+        ],
+        [
+          "D",
+          "aa"
         ]
       ],
       "fr_qc": [
@@ -257805,7 +258013,7 @@ const SENTENCES = [
       "is": [
         [
           "A",
-          "Tónleikar"
+          "Tónleikarnir"
         ],
         [
           "D",
@@ -266123,8 +266331,12 @@ const SENTENCES = [
           "vill"
         ],
         [
+          "D",
+          "ta"
+        ],
+        [
           "C",
-          "ta ett foto"
+          "ett foto"
         ],
         [
           "B",
@@ -266141,8 +266353,12 @@ const SENTENCES = [
           "vil"
         ],
         [
+          "D",
+          "ta"
+        ],
+        [
           "C",
-          "ta et bilde"
+          "et bilde"
         ],
         [
           "B",
@@ -267028,7 +267244,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "eus an iliz-mañ"
+          "eus an templ-mañ"
         ]
       ],
       "ps": [
@@ -268103,16 +268319,16 @@ const SENTENCES = [
           "wol"
         ],
         [
-          "D",
-          "nimme"
-        ],
-        [
           "C",
           "in foto"
         ],
         [
           "B",
           "fan dizze timpel"
+        ],
+        [
+          "D",
+          "nimme"
         ]
       ],
       "sc": [
@@ -272781,11 +272997,15 @@ const SENTENCES = [
         ],
         [
           "C",
-          "conas bia"
+          "conas"
         ],
         [
           "B",
-          "Cóiréach a chócaráil"
+          "bia Cóiréach"
+        ],
+        [
+          "C",
+          "a chócaráil"
         ]
       ],
       "eu": [
@@ -279861,8 +280081,12 @@ const SENTENCES = [
           "Hy"
         ],
         [
+          "E",
+          "kom"
+        ],
+        [
           "B",
-          "kom altyd"
+          "altyd"
         ],
         [
           "C",
@@ -280015,8 +280239,12 @@ const SENTENCES = [
           "Han"
         ],
         [
+          "E",
+          "kjem"
+        ],
+        [
           "B",
-          "kjem alltid"
+          "alltid"
         ],
         [
           "C",
@@ -280117,8 +280345,12 @@ const SENTENCES = [
           "Hy"
         ],
         [
+          "E",
+          "komt"
+        ],
+        [
           "B",
-          "komt altyd"
+          "altyd"
         ],
         [
           "C",
@@ -280330,19 +280562,19 @@ const SENTENCES = [
         ],
         [
           "E",
-          "kommt immer"
+          "kommt"
         ],
         [
           "B",
-          "z'spät"
+          "immer"
         ],
         [
           "C",
-          "zur"
+          "z'spät"
         ],
         [
           "D",
-          "Besprechung"
+          "zur Besprechung"
         ]
       ],
       "de_by": [
@@ -280352,19 +280584,19 @@ const SENTENCES = [
         ],
         [
           "E",
-          "kimmt oiwei"
+          "kimmt"
         ],
         [
           "B",
-          "z'spat"
+          "oiwei"
         ],
         [
           "C",
-          "zua"
+          "z'spat"
         ],
         [
           "D",
-          "Besprechung"
+          "zua Besprechung"
         ]
       ],
       "nds": [
@@ -280374,19 +280606,19 @@ const SENTENCES = [
         ],
         [
           "E",
-          "kümmt ümmer"
+          "kümmt"
         ],
         [
           "B",
-          "to laat"
+          "ümmer"
         ],
         [
           "C",
-          "to de"
+          "to laat"
         ],
         [
           "D",
-          "Versammlunk"
+          "to de Versammlunk"
         ]
       ],
       "vec": [
@@ -284985,16 +285217,16 @@ const SENTENCES = [
           "wol"
         ],
         [
-          "D",
-          "útlêze"
-        ],
-        [
           "B",
           "dit boek"
         ],
         [
           "C",
           "foar it ein fan de moanne"
+        ],
+        [
+          "D",
+          "útlêze"
         ]
       ],
       "sc": [
@@ -291307,7 +291539,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ma bellgomz"
+          "ma fellgomz"
         ]
       ],
       "ps": [
@@ -292347,11 +292579,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "muss mei"
+          "muss"
         ],
         [
           "B",
-          "Handy"
+          "mei Handy"
         ],
         [
           "C",
@@ -292365,11 +292597,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "muaß mei"
+          "muaß"
         ],
         [
           "B",
-          "Handy"
+          "mei Handy"
         ],
         [
           "C",
@@ -292383,11 +292615,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "mutt mien"
+          "mutt"
         ],
         [
           "B",
-          "Handy"
+          "mien Handy"
         ],
         [
           "C",
@@ -294948,7 +295180,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "‌ga"
+          "ga"
         ],
         [
           "B",
@@ -298306,7 +298538,7 @@ const SENTENCES = [
           "an sliabh"
         ],
         [
-          "D",
+          "C",
           "clúdaithe"
         ],
         [
@@ -298915,7 +299147,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "mit Schnee bedeckt"
+          "mit Schnee"
+        ],
+        [
+          "C",
+          "bedeckt"
         ]
       ],
       "fr_qc": [
@@ -304546,11 +304782,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ævi"
+          "venji"
         ],
         [
           "B",
-          "í ræktini"
+          "í venjingarhølinum"
         ],
         [
           "C",
@@ -307399,7 +307635,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "‌da"
+          "da"
         ],
         [
           "C",
@@ -309291,7 +309527,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "‌da"
+          "da"
         ],
         [
           "C",
@@ -312281,10 +312517,6 @@ const SENTENCES = [
           "hät"
         ],
         [
-          "E",
-          "gschribe"
-        ],
-        [
           "F",
           "en"
         ],
@@ -312303,6 +312535,10 @@ const SENTENCES = [
         [
           "C",
           "sini Eltere"
+        ],
+        [
+          "E",
+          "gschribe"
         ]
       ],
       "fr_qc": [
@@ -313634,7 +313870,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "e dud"
+          "‌e dud"
         ]
       ],
       "ps": [
@@ -316272,12 +316508,8 @@ const SENTENCES = [
           "um"
         ],
         [
-          "E",
-          "21"
-        ],
-        [
-          "F",
-          "Uhr"
+          "E|F",
+          "21 Uhr"
         ]
       ],
       "fr": [
@@ -317800,12 +318032,8 @@ const SENTENCES = [
           "um"
         ],
         [
-          "E",
-          "21"
-        ],
-        [
-          "F",
-          "Uhr"
+          "E|F",
+          "21 Uhr"
         ]
       ],
       "fr_qc": [
@@ -317968,7 +318196,7 @@ const SENTENCES = [
           "klockan"
         ],
         [
-          "E",
+          "E|F",
           "21"
         ]
       ],
@@ -317986,7 +318214,7 @@ const SENTENCES = [
           "klokken"
         ],
         [
-          "E",
+          "E|F",
           "21"
         ]
       ],
@@ -318106,7 +318334,7 @@ const SENTENCES = [
           "klokken"
         ],
         [
-          "E",
+          "E|F",
           "21"
         ]
       ],
@@ -318124,7 +318352,7 @@ const SENTENCES = [
           "klukkan"
         ],
         [
-          "E",
+          "E|F",
           "21"
         ]
       ],
@@ -319446,7 +319674,7 @@ const SENTENCES = [
           "klokkan"
         ],
         [
-          "E",
+          "E|F",
           "21"
         ]
       ],
@@ -324134,11 +324362,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "möcht mei"
+          "möcht"
         ],
         [
           "B",
-          "Aussprach"
+          "mei Aussprach"
         ],
         [
           "C",
@@ -324152,11 +324380,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "mecht mei"
+          "mecht"
         ],
         [
           "B",
-          "Aussproch"
+          "mei Aussproch"
         ],
         [
           "C",
@@ -324170,11 +324398,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "will mien"
+          "will"
         ],
         [
           "B",
-          "Uutspraak"
+          "mien Uutspraak"
         ],
         [
           "C",
@@ -326164,7 +326392,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "händ baut"
+          "händ"
         ],
         [
           "B",
@@ -326173,6 +326401,10 @@ const SENTENCES = [
         [
           "C",
           "über de Fluss"
+        ],
+        [
+          "D",
+          "baut"
         ]
       ],
       "fr_qc": [
@@ -327952,7 +328184,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "hawwe boud"
+          "hawwe"
         ],
         [
           "B",
@@ -327961,6 +328193,10 @@ const SENTENCES = [
         [
           "C",
           "oer de rivier"
+        ],
+        [
+          "D",
+          "boud"
         ]
       ],
       "sc": [
@@ -334346,11 +334582,11 @@ const SENTENCES = [
       ],
       "de_at": [
         [
-          "A",
+          "E",
           "Mei"
         ],
         [
-          "E",
+          "A",
           "Katz"
         ],
         [
@@ -337011,7 +337247,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "hefr"
+          "hef"
         ],
         [
           "A",
@@ -343385,8 +343621,12 @@ const SENTENCES = [
           "når"
         ],
         [
+          "E",
+          "jeg"
+        ],
+        [
           "B",
-          "jeg lytter til"
+          "lytter til"
         ],
         [
           "A",
@@ -343407,8 +343647,12 @@ const SENTENCES = [
           "þegar"
         ],
         [
+          "E",
+          "ég"
+        ],
+        [
           "B",
-          "ég hlusta á"
+          "hlusta á"
         ],
         [
           "A",
@@ -344638,15 +344882,19 @@ const SENTENCES = [
         ],
         [
           "D",
-          "verði glad"
+          "verði glaður"
         ],
         [
           "C",
           "tá"
         ],
         [
+          "E",
+          "eg"
+        ],
+        [
           "B",
-          "eg lurta á"
+          "lurta á"
         ],
         [
           "A",
@@ -345284,11 +345532,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "fühl i mi"
+          "fühl"
         ],
         [
           "E",
-          "glücklich"
+          "i"
+        ],
+        [
+          "D",
+          "mi glücklich"
         ]
       ],
       "de_by": [
@@ -345310,11 +345562,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "fühl i mi"
+          "fühl"
         ],
         [
           "E",
-          "glücklich"
+          "i"
+        ],
+        [
+          "D",
+          "mi glücklich"
         ]
       ],
       "nds": [
@@ -345336,11 +345592,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "föhl ik mi"
+          "föhl"
         ],
         [
           "E",
-          "glücklich"
+          "ik"
+        ],
+        [
+          "D",
+          "mi glücklich"
         ]
       ],
       "vec": [
@@ -346145,7 +346405,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ergebnissen"
+          "‌ergebnissen"
         ]
       ],
       "fr": [
@@ -346813,11 +347073,11 @@ const SENTENCES = [
       "ga": [
         [
           "C",
-          "Bhí iontas ar"
+          "Bhí iontas"
         ],
         [
           "A",
-          "sé"
+          "air"
         ],
         [
           "D",
@@ -348783,7 +349043,7 @@ const SENTENCES = [
         ],
         [
           "B|E",
-          "prófúrslitiinum"
+          "prófúrslitunum"
         ],
         [
           "C",
@@ -349468,7 +349728,7 @@ const SENTENCES = [
           "oor die"
         ],
         [
-          "B",
+          "B|E",
           "toetsresultate"
         ]
       ],
@@ -349708,7 +349968,7 @@ const SENTENCES = [
           "troch de"
         ],
         [
-          "B",
+          "B|E",
           "toetsresultaten"
         ]
       ],
@@ -352914,12 +353174,12 @@ const SENTENCES = [
           "Soñjal a ran"
         ],
         [
-          "A",
-          "an"
+          "B",
+          "an raktres"
         ],
         [
-          "B",
-          "raktres-mañ"
+          "A",
+          "‌-mañ"
         ],
         [
           "C",
@@ -353441,7 +353701,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "áætlan"
+          "ætlan"
         ],
         [
           "C",
@@ -353995,15 +354255,15 @@ const SENTENCES = [
         ],
         [
           "A",
-          "den Plan"
+          "den"
         ],
         [
           "B",
-          "is"
+          "Plan"
         ],
         [
           "C",
-          "guat"
+          "is guat"
         ]
       ],
       "de_by": [
@@ -354013,15 +354273,15 @@ const SENTENCES = [
         ],
         [
           "A",
-          "den Plan"
+          "den"
         ],
         [
           "B",
-          "is"
+          "Plan"
         ],
         [
           "C",
-          "guat"
+          "is guat"
         ]
       ],
       "nds": [
@@ -354031,15 +354291,15 @@ const SENTENCES = [
         ],
         [
           "A",
-          "den Plan"
+          "den"
         ],
         [
           "B",
-          "is"
+          "Plan"
         ],
         [
           "C",
-          "goot"
+          "is goot"
         ]
       ],
       "vec": [
@@ -355535,11 +355795,15 @@ const SENTENCES = [
         ],
         [
           "C",
-          "mar"
+          "mar gur"
+        ],
+        [
+          "E",
+          "bhog"
         ],
         [
           "D",
-          "gur bhog a cara"
+          "a cara"
         ],
         [
           "E",
@@ -360007,12 +360271,12 @@ const SENTENCES = [
           "dass"
         ],
         [
-          "B",
+          "F",
           "ein Auslands"
         ],
         [
-          "F",
-          "studium"
+          "B",
+          "‌studium"
         ],
         [
           "I",
@@ -360100,7 +360364,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "esperienza"
+          "‌esperienza"
         ],
         [
           "G",
@@ -362275,12 +362539,12 @@ const SENTENCES = [
           "dass"
         ],
         [
-          "B",
-          "es Uslands"
+          "F",
+          "es Usland"
         ],
         [
-          "F",
-          "‌tudium"
+          "B",
+          "‌studium"
         ],
         [
           "I",
@@ -364806,7 +365070,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "royndin"
+          "roynd"
         ]
       ],
       "jam": [
@@ -365755,11 +366019,11 @@ const SENTENCES = [
           "glaub"
         ],
         [
-          "B",
+          "F",
           "Auslands"
         ],
         [
-          "F",
+          "B",
           "‌studium"
         ],
         [
@@ -368961,7 +369225,7 @@ const SENTENCES = [
         ],
         [
           "F",
-          "hefr"
+          "hef"
         ],
         [
           "A",
@@ -371329,15 +371593,15 @@ const SENTENCES = [
         ],
         [
           "A",
-          "y meddyg wrth"
+          "y meddyg"
         ],
         [
           "B",
-          "i"
+          "wrtha i"
         ],
         [
           "C",
-          "orffwys"
+          "am orffwys"
         ]
       ],
       "en_yk": [
@@ -371925,11 +372189,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "hät gseit"
+          "hät"
         ],
         [
           "B",
           "mir"
+        ],
+        [
+          "D",
+          "gseit"
         ],
         [
           "C",
@@ -372817,7 +373085,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "e poueziñ"
+          "diskuizhañ"
         ]
       ],
       "ps": [
@@ -373496,8 +373764,12 @@ const SENTENCES = [
           "vir my"
         ],
         [
+          "D",
+          "gesê"
+        ],
+        [
           "C",
-          "gesê om te rus"
+          "om te rus"
         ]
       ],
       "az": [
@@ -373876,12 +374148,8 @@ const SENTENCES = [
           "hat gsagt"
         ],
         [
-          "B",
-          "i soll mich ausrasten"
-        ],
-        [
           "C",
-          "a bissl"
+          "i soll mich ausrasten a bissl"
         ]
       ],
       "de_by": [
@@ -373894,12 +374162,8 @@ const SENTENCES = [
           "hot gsogt"
         ],
         [
-          "B",
-          "i soi mi ausrastn"
-        ],
-        [
           "C",
-          "a bisserl"
+          "i soi mi ausrastn a bisserl"
         ]
       ],
       "nds": [
@@ -373912,12 +374176,8 @@ const SENTENCES = [
           "hett seggt"
         ],
         [
-          "B",
-          "ik schall mi utruh'n"
-        ],
-        [
           "C",
-          "een beten"
+          "ik schall mi utruh'n een beten"
         ]
       ],
       "vec": [
@@ -377293,15 +377553,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "roynist"
+          "royni"
         ],
         [
           "C",
-          "at æva"
+          "at venja"
         ],
         [
           "B",
-          "hvørt morgun"
+          "hvønn morgun"
         ]
       ],
       "jam": [
@@ -377674,12 +377934,12 @@ const SENTENCES = [
           "besykje"
         ],
         [
-          "C",
-          "te trainen"
-        ],
-        [
           "B",
           "alle moarnen"
+        ],
+        [
+          "C",
+          "te trainen"
         ]
       ],
       "sc": [
@@ -390246,7 +390506,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ma pellgomz"
+          "ma fellgomz"
         ],
         [
           "A",
@@ -391285,56 +391545,56 @@ const SENTENCES = [
       ],
       "de_at": [
         [
-          "D",
+          "A",
           "Jeden Tag"
         ],
         [
           "C",
-          "verwend i"
+          "verwend"
+        ],
+        [
+          "D",
+          "i"
         ],
         [
           "B",
-          "mei"
-        ],
-        [
-          "A",
-          "Handy"
+          "mei Handy"
         ]
       ],
       "de_by": [
         [
-          "D",
+          "A",
           "Jed'n Dog"
         ],
         [
           "C",
-          "verwend i"
+          "verwend"
+        ],
+        [
+          "D",
+          "i"
         ],
         [
           "B",
-          "mei"
-        ],
-        [
-          "A",
-          "Handy"
+          "mei Handy"
         ]
       ],
       "nds": [
         [
-          "D",
+          "A",
           "Jed'n Dag"
         ],
         [
           "C",
-          "bruuk ik"
+          "bruuk"
+        ],
+        [
+          "D",
+          "ik"
         ],
         [
           "B",
-          "mien"
-        ],
-        [
-          "A",
-          "Handy"
+          "mien Handy"
         ]
       ],
       "vec": [
@@ -392026,8 +392286,12 @@ const SENTENCES = [
           "App"
         ],
         [
+          "D",
+          "ist"
+        ],
+        [
           "C",
-          "ist sehr"
+          "sehr"
         ],
         [
           "D",
@@ -392059,11 +392323,15 @@ const SENTENCES = [
         ],
         [
           "B",
-          "app"
+          "‌app"
+        ],
+        [
+          "D",
+          "è"
         ],
         [
           "C",
-          "è molto"
+          "molto"
         ],
         [
           "D",
@@ -392598,12 +392866,12 @@ const SENTENCES = [
           "Tá"
         ],
         [
-          "A",
-          "an"
+          "B",
+          "an aip"
         ],
         [
-          "B",
-          "aip seo"
+          "A",
+          "seo"
         ],
         [
           "C",
@@ -392738,7 +393006,7 @@ const SENTENCES = [
       ],
       "cy": [
         [
-          "C",
+          "D",
           "Mae'r"
         ],
         [
@@ -392750,12 +393018,12 @@ const SENTENCES = [
           "hwn"
         ],
         [
-          "C",
-          "yn"
+          "D",
+          "yn gyfleus"
         ],
         [
-          "D",
-          "gyfleus iawn"
+          "C",
+          "iawn"
         ]
       ],
       "en_yk": [
@@ -393378,8 +393646,12 @@ const SENTENCES = [
           "App"
         ],
         [
+          "D",
+          "isch"
+        ],
+        [
           "C",
-          "isch sehr"
+          "sehr"
         ],
         [
           "D",
@@ -393526,8 +393798,12 @@ const SENTENCES = [
           "appen"
         ],
         [
+          "D",
+          "är"
+        ],
+        [
           "C",
-          "är mycket"
+          "mycket"
         ],
         [
           "D",
@@ -393544,8 +393820,12 @@ const SENTENCES = [
           "appen"
         ],
         [
+          "D",
+          "er"
+        ],
+        [
           "C",
-          "er veldig"
+          "veldig"
         ],
         [
           "D",
@@ -393562,8 +393842,12 @@ const SENTENCES = [
           "sēarowundor"
         ],
         [
+          "D",
+          "is"
+        ],
+        [
           "C",
-          "is swīðe"
+          "swīðe"
         ],
         [
           "D",
@@ -393648,8 +393932,12 @@ const SENTENCES = [
           "app"
         ],
         [
+          "D",
+          "er"
+        ],
+        [
           "C",
-          "er meget"
+          "meget"
         ],
         [
           "D",
@@ -393666,8 +393954,12 @@ const SENTENCES = [
           "app"
         ],
         [
+          "D",
+          "er"
+        ],
+        [
           "C",
-          "er mjög"
+          "mjög"
         ],
         [
           "D",
@@ -394338,8 +394630,12 @@ const SENTENCES = [
           "אַפּ"
         ],
         [
+          "D",
+          "איז"
+        ],
+        [
           "C",
-          "איז זייער"
+          "זייער"
         ],
         [
           "D",
@@ -394356,8 +394652,12 @@ const SENTENCES = [
           "forrit"
         ],
         [
+          "D",
+          "er"
+        ],
+        [
           "C",
-          "er mjǫk"
+          "mjǫk"
         ],
         [
           "D",
@@ -394800,8 +395100,12 @@ const SENTENCES = [
           "app"
         ],
         [
+          "D",
+          "er"
+        ],
+        [
           "C",
-          "er sera"
+          "sera"
         ],
         [
           "D",
@@ -394962,8 +395266,12 @@ const SENTENCES = [
           "app"
         ],
         [
+          "D",
+          "is"
+        ],
+        [
           "C",
-          "is baie"
+          "baie"
         ],
         [
           "D",
@@ -395088,8 +395396,12 @@ const SENTENCES = [
           "appen"
         ],
         [
+          "D",
+          "er"
+        ],
+        [
           "C",
-          "er svært"
+          "svært"
         ],
         [
           "D",
@@ -395178,8 +395490,12 @@ const SENTENCES = [
           "app"
         ],
         [
+          "D",
+          "is"
+        ],
+        [
           "C",
-          "is hiel"
+          "hiel"
         ],
         [
           "D",
@@ -395354,8 +395670,12 @@ const SENTENCES = [
           "App"
         ],
         [
+          "D",
+          "is"
+        ],
+        [
           "C",
-          "is echt"
+          "echt"
         ],
         [
           "D",
@@ -395372,8 +395692,12 @@ const SENTENCES = [
           "App"
         ],
         [
+          "D",
+          "is"
+        ],
+        [
           "C",
-          "is echt"
+          "echt"
         ],
         [
           "D",
@@ -395390,8 +395714,12 @@ const SENTENCES = [
           "App"
         ],
         [
+          "D",
+          "is"
+        ],
+        [
           "C",
-          "is echt"
+          "echt"
         ],
         [
           "D",
@@ -395624,8 +395952,12 @@ const SENTENCES = [
           "litel engyn"
         ],
         [
+          "D",
+          "is"
+        ],
+        [
           "C",
-          "is ful"
+          "ful"
         ],
         [
           "D",
@@ -398147,7 +398479,7 @@ const SENTENCES = [
       "fo": [
         [
           "A",
-          "Gervigreindin"
+          "Vitlíki"
         ],
         [
           "C",
@@ -399380,7 +399712,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "-Passwort"
+          "‌-Passwort"
         ],
         [
           "C",
@@ -400340,7 +400672,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "'r"
+          "y"
         ],
         [
           "F",
@@ -401152,7 +401484,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "-Passwort"
+          "‌-Passwort"
         ],
         [
           "C",
@@ -401384,7 +401716,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "-lösenordet"
+          "‌-lösenordet"
         ]
       ],
       "no": [
@@ -401410,7 +401742,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "-passordet"
+          "‌-passordet"
         ]
       ],
       "en_ang": [
@@ -401419,11 +401751,11 @@ const SENTENCES = [
           "Ic"
         ],
         [
-          "B",
+          "C",
           "ne"
         ],
         [
-          "C",
+          "B",
           "mæg"
         ],
         [
@@ -401570,7 +401902,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "-adgangskoden"
+          "‌-adgangskoden"
         ]
       ],
       "is": [
@@ -401592,7 +401924,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "-lykilorðið"
+          "‌-lykilorðið"
         ]
       ],
       "lt": [
@@ -402376,7 +402708,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "hellan"
+          "‌hellan"
+        ],
+        [
+          "C",
+          "ket"
         ],
         [
           "D",
@@ -402514,7 +402850,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "-lykilorðit"
+          "‌-lykilorðit"
         ]
       ],
       "arc": [
@@ -403098,7 +403434,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "-loyniorðið"
+          "‌-loyniorðið"
         ]
       ],
       "jam": [
@@ -403308,7 +403644,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "-wagwoord"
+          "‌-wagwoord"
         ],
         [
           "C",
@@ -403478,25 +403814,25 @@ const SENTENCES = [
         ],
         [
           "G",
-          "-passordet"
+          "‌-passordet"
         ]
       ],
       "got": [
         [
           "A",
-          "Ik"
+          "𐌹𐌺"
         ],
         [
           "C",
-          "‌ni"
+          "𐌽𐌹"
         ],
         [
           "B",
-          "mag"
+          "𐌼𐌰𐌲"
         ],
         [
           "D",
-          "bigitan"
+          "𐌱𐌹𐌲𐌹𐍄𐌰𐌽"
         ],
         [
           "F",
@@ -403504,7 +403840,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "rūna"
+          "𐍂𐌿𐌽𐌰"
         ]
       ],
       "cu": [
@@ -403604,7 +403940,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "-wachtwurd"
+          "‌-wachtwurd"
         ],
         [
           "C",
@@ -403868,7 +404204,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "-Passwort"
+          "‌-Passwort"
         ],
         [
           "C",
@@ -403898,7 +404234,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "-Passwort"
+          "‌-Passwort"
         ],
         [
           "C",
@@ -403928,7 +404264,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "-Passwort"
+          "‌-Passwort"
         ],
         [
           "C",
@@ -407854,15 +408190,19 @@ const SENTENCES = [
         ],
         [
           "D",
-          "hat leard"
+          "hat"
+        ],
+        [
+          "C",
+          "op eigen hân"
         ],
         [
           "B",
           "programmearjen"
         ],
         [
-          "C",
-          "op eigen hân"
+          "D",
+          "leard"
         ]
       ],
       "sc": [
@@ -411381,11 +411721,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "japansk"
+          "japanskur"
         ],
         [
           "C",
-          "hefð"
+          "siður"
         ]
       ],
       "jam": [
@@ -411907,11 +412247,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "is a"
+          "is"
         ],
         [
           "B",
-          "japanische"
+          "a japanische"
         ],
         [
           "C",
@@ -411925,11 +412265,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "is a"
+          "is"
         ],
         [
           "B",
-          "japanische"
+          "a japanische"
         ],
         [
           "C",
@@ -411943,11 +412283,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "is een"
+          "is"
         ],
         [
           "B",
-          "japaansche"
+          "een japaansche"
         ],
         [
           "C",
@@ -414837,7 +415177,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "‌ni"
+          "ni"
         ],
         [
           "B",
@@ -415889,55 +416229,55 @@ const SENTENCES = [
       "de_at": [
         [
           "A",
-          "Ma isst"
+          "Ma"
         ],
         [
           "C",
-          "Gyoza"
+          "isst"
         ],
         [
           "B",
-          "zum"
+          "Gyoza"
         ],
         [
           "D",
-          "Chinesischen Neujahr"
+          "zum Chinesischen Neujahr"
         ]
       ],
       "de_by": [
         [
           "A",
-          "Ma isst"
+          "Ma"
         ],
         [
           "C",
-          "Gyoza"
+          "isst"
         ],
         [
           "B",
-          "zum"
+          "Gyoza"
         ],
         [
           "D",
-          "Chinesischen Neujahr"
+          "zum Chinesischen Neujahr"
         ]
       ],
       "nds": [
         [
           "A",
-          "Wi eet"
+          "Wi"
         ],
         [
           "C",
-          "Gyoza"
+          "eet"
         ],
         [
           "B",
-          "to"
+          "Gyoza"
         ],
         [
           "D",
-          "Chineesch Neejohr"
+          "to Chineesch Neejohr"
         ]
       ],
       "vec": [
@@ -416847,12 +417187,12 @@ const SENTENCES = [
           "Land"
         ],
         [
-          "D",
-          "im Sommer"
-        ],
-        [
           "G",
           "werden"
+        ],
+        [
+          "D",
+          "im Sommer"
         ],
         [
           "E",
@@ -419007,12 +419347,12 @@ const SENTENCES = [
           "Land"
         ],
         [
-          "D",
-          "im Summer"
-        ],
-        [
           "G",
           "wärde"
+        ],
+        [
+          "D",
+          "im Summer"
         ],
         [
           "E",
@@ -419251,12 +419591,12 @@ const SENTENCES = [
           "landet"
         ],
         [
-          "D",
-          "på sommaren"
-        ],
-        [
           "G",
           "hålls"
+        ],
+        [
+          "D",
+          "på sommaren"
         ],
         [
           "E",
@@ -419281,12 +419621,12 @@ const SENTENCES = [
           "landet"
         ],
         [
-          "D",
-          "om sommeren"
-        ],
-        [
           "G",
           "holdes"
+        ],
+        [
+          "D",
+          "om sommeren"
         ],
         [
           "E",
@@ -419457,12 +419797,12 @@ const SENTENCES = [
           "land"
         ],
         [
-          "D",
-          "om sommeren"
-        ],
-        [
           "G",
           "afholdes"
+        ],
+        [
+          "D",
+          "om sommeren"
         ],
         [
           "E",
@@ -419487,16 +419827,16 @@ const SENTENCES = [
           "landi"
         ],
         [
-          "D",
-          "á sumrin"
-        ],
-        [
           "G",
           "eru"
         ],
         [
+          "D",
+          "á sumrin"
+        ],
+        [
           "E",
-          "margir"
+          "margar"
         ],
         [
           "F",
@@ -419504,7 +419844,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "haldnir"
+          "haldnar"
         ]
       ],
       "lt": [
@@ -420460,7 +420800,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "-mañ"
+          "‌-mañ"
         ],
         [
           "D",
@@ -420575,12 +420915,12 @@ const SENTENCES = [
           "לאַנד"
         ],
         [
-          "D",
-          "אין זומער"
-        ],
-        [
           "G",
           "ווערן"
+        ],
+        [
+          "D",
+          "אין זומער"
         ],
         [
           "E",
@@ -420609,12 +420949,16 @@ const SENTENCES = [
           "landi"
         ],
         [
+          "G",
+          "eru"
+        ],
+        [
           "D",
           "á sumri"
         ],
         [
           "E",
-          "margir"
+          "margar"
         ],
         [
           "F",
@@ -420622,7 +420966,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "eru haldnir"
+          "haldnar"
         ]
       ],
       "arc": [
@@ -421321,12 +421665,12 @@ const SENTENCES = [
           "landi"
         ],
         [
-          "D",
-          "um summarið"
-        ],
-        [
           "G",
           "verða"
+        ],
+        [
+          "D",
+          "um summarið"
         ],
         [
           "E",
@@ -421587,12 +421931,12 @@ const SENTENCES = [
           "land"
         ],
         [
-          "D",
-          "in die somer"
-        ],
-        [
           "G",
           "word"
+        ],
+        [
+          "D",
+          "in die somer"
         ],
         [
           "E",
@@ -421785,12 +422129,12 @@ const SENTENCES = [
           "landet"
         ],
         [
-          "D",
-          "om sommaren"
-        ],
-        [
           "G",
           "vert"
+        ],
+        [
+          "D",
+          "om sommaren"
         ],
         [
           "E",
@@ -421808,31 +422152,31 @@ const SENTENCES = [
       "got": [
         [
           "A",
-          "In"
+          "𐌹𐌽"
         ],
         [
           "B",
-          "þamma"
+          "𐌸𐌰𐌼𐌼𐌰"
         ],
         [
           "C",
-          "landa"
+          "𐌻𐌰𐌽𐌳𐌰"
         ],
         [
           "D",
-          "in asana"
+          "𐌹𐌽 𐌰𐍃𐌰𐌽𐌰"
         ],
         [
           "E",
-          "managai"
+          "𐌼𐌰𐌽𐌰𐌲𐌰𐌹"
         ],
         [
           "F",
-          "dulþeis"
+          "𐌳𐌿𐌻𐌸𐌴𐌹𐍃"
         ],
         [
           "G",
-          "sind haldanos"
+          "𐍃𐌹𐌽𐌳 𐌷𐌰𐌻𐌳𐌰𐌽𐍉𐍃"
         ]
       ],
       "cu": [
@@ -421939,12 +422283,12 @@ const SENTENCES = [
           "lân"
         ],
         [
-          "D",
-          "yn 'e simmer"
-        ],
-        [
           "G",
           "wurde"
+        ],
+        [
+          "D",
+          "yn 'e simmer"
         ],
         [
           "E",
@@ -422235,12 +422579,12 @@ const SENTENCES = [
           "Land"
         ],
         [
-          "D",
-          "im Sommer"
-        ],
-        [
           "G",
           "werden"
+        ],
+        [
+          "D",
+          "im Sommer"
         ],
         [
           "E",
@@ -422269,12 +422613,12 @@ const SENTENCES = [
           "Land"
         ],
         [
-          "D",
-          "im Summa"
-        ],
-        [
           "G",
           "werdn"
+        ],
+        [
+          "D",
+          "im Summa"
         ],
         [
           "E",
@@ -422303,12 +422647,12 @@ const SENTENCES = [
           "Land"
         ],
         [
-          "D",
-          "in'n Sommer"
-        ],
-        [
           "G",
           "ward"
+        ],
+        [
+          "D",
+          "in'n Sommer"
         ],
         [
           "E",
@@ -423967,23 +424311,23 @@ const SENTENCES = [
       ],
       "ga": [
         [
+          "C",
+          "Osclaíonn"
+        ],
+        [
           "B",
-          "Foghlaim"
+          "foghlaim"
         ],
         [
           "A",
           "teangacha"
         ],
         [
-          "C",
-          "a osclaíonn"
-        ],
-        [
-          "D",
+          "E",
           "doirse"
         ],
         [
-          "E",
+          "D",
           "nua"
         ]
       ],
@@ -424908,7 +425252,11 @@ const SENTENCES = [
         ],
         [
           "E",
-          "Türe uf"
+          "Türe"
+        ],
+        [
+          "C",
+          "uf"
         ]
       ],
       "fr_qc": [
@@ -425072,7 +425420,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "inlärning"
+          "‌inlärning"
         ],
         [
           "C",
@@ -425094,7 +425442,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "læring"
+          "‌læring"
         ],
         [
           "C",
@@ -425226,7 +425574,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "indlæring"
+          "‌indlæring"
         ],
         [
           "C",
@@ -425248,7 +425596,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "nám"
+          "‌nám"
         ],
         [
           "C",
@@ -426106,7 +426454,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "nám"
+          "‌nám"
         ],
         [
           "C",
@@ -426986,7 +427334,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "læring"
+          "‌læring"
         ],
         [
           "C",
@@ -427004,23 +427352,23 @@ const SENTENCES = [
       "got": [
         [
           "A",
-          "Razda"
+          "𐍂𐌰𐌶𐌳𐌰"
         ],
         [
           "B",
-          "laisjan"
+          "𐌻𐌰𐌹𐍃𐌾𐌰𐌽"
         ],
         [
           "C",
-          "uslukiþ"
+          "𐌿𐍃𐌻𐌿𐌺𐌹𐌸"
         ],
         [
           "D",
-          "niuja"
+          "𐌽𐌹𐌿𐌾𐌰"
         ],
         [
           "E",
-          "daura"
+          "𐌳𐌰𐌿𐍂𐌰"
         ]
       ],
       "cu": [
@@ -427350,7 +427698,11 @@ const SENTENCES = [
         ],
         [
           "E",
-          "Türn auf"
+          "Türn"
+        ],
+        [
+          "C",
+          "auf"
         ]
       ],
       "nds": [
@@ -427372,7 +427724,11 @@ const SENTENCES = [
         ],
         [
           "E",
-          "Döören op"
+          "Döören"
+        ],
+        [
+          "C",
+          "op"
         ]
       ],
       "vec": [
@@ -430146,8 +430502,12 @@ const SENTENCES = [
           "fer"
         ],
         [
+          "D",
+          "ek"
+        ],
+        [
           "B",
-          "ek til skrifstofunnar"
+          "til skrifstofunnar"
         ]
       ],
       "arc": [
@@ -432753,7 +433113,7 @@ const SENTENCES = [
       "cy": [
         [
           "B",
-          "trowch i'r dde"
+          "Trowch i'r dde"
         ],
         [
           "C",
@@ -432764,16 +433124,16 @@ const SENTENCES = [
           "y"
         ],
         [
-          "E",
-          "nesaf"
-        ],
-        [
           "F",
           "groesffordd"
         ],
         [
+          "E",
+          "nesaf"
+        ],
+        [
           "A",
-          "Os gwelwch yn dda"
+          "os gwelwch yn dda"
         ]
       ],
       "en_yk": [
@@ -435287,7 +435647,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "beygd til høgru"
+          "vend til høgru"
         ],
         [
           "C",
@@ -435653,27 +436013,27 @@ const SENTENCES = [
       "got": [
         [
           "A",
-          "Bidja"
+          "𐌱𐌹𐌳𐌾𐌰"
         ],
         [
           "B",
-          "wandei taihswo"
+          "𐍅𐌰𐌽𐌳𐌴𐌹 𐍄𐌰𐌹𐌷𐍃𐍅𐍉"
         ],
         [
           "C",
-          "at"
+          "𐌰𐍄"
         ],
         [
           "D",
-          "þamma"
+          "𐌸𐌰𐌼𐌼𐌰"
         ],
         [
           "E",
-          "nehvista"
+          "𐌽𐌴𐍈𐌹𐍃𐍄𐌰"
         ],
         [
           "F",
-          "gagga"
+          "𐌲𐌰𐌲𐌲𐌰"
         ]
       ],
       "cu": [
@@ -436011,7 +436371,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌da"
+          "da"
         ],
         [
           "E",
@@ -441571,16 +441931,16 @@ const SENTENCES = [
       ],
       "ga": [
         [
-          "A",
+          "B|A",
           "Ba mhaith liom"
         ],
         [
-          "D",
-          "an"
+          "E",
+          "an mias"
         ],
         [
-          "E",
-          "mias seo"
+          "D",
+          "seo"
         ],
         [
           "C",
@@ -441743,20 +442103,24 @@ const SENTENCES = [
       ],
       "cy": [
         [
+          "B",
+          "Hoffwn"
+        ],
+        [
           "A",
-          "Hoffwn i"
+          "i"
         ],
         [
           "C",
           "archebu"
         ],
         [
-          "D",
-          "y"
+          "E",
+          "y pryd"
         ],
         [
-          "E",
-          "pryd hwn"
+          "D",
+          "hwn"
         ]
       ],
       "en_yk": [
@@ -443580,19 +443944,23 @@ const SENTENCES = [
       "br": [
         [
           "A",
-          "Me garfe"
+          "Me"
+        ],
+        [
+          "B",
+          "garfe"
         ],
         [
           "C",
           "urzhiañ"
         ],
         [
-          "D",
-          "ar"
+          "E",
+          "ar meuz"
         ],
         [
-          "E",
-          "meuz-mañ"
+          "D",
+          "‌-mañ"
         ]
       ],
       "ps": [
@@ -444588,23 +444956,23 @@ const SENTENCES = [
       "got": [
         [
           "A",
-          "Ik"
+          "𐌹𐌺"
         ],
         [
           "B",
-          "wiljau"
+          "𐍅𐌹𐌻𐌾𐌰𐌿"
         ],
         [
           "C",
-          "anabiudan"
+          "𐌰𐌽𐌰𐌱𐌹𐌿𐌳𐌰𐌽"
         ],
         [
           "D",
-          "þata"
+          "𐌸𐌰𐍄𐌰"
         ],
         [
           "E",
-          "matj"
+          "𐌼𐌰𐍄𐌾"
         ]
       ],
       "cu": [
@@ -446228,12 +446596,12 @@ const SENTENCES = [
           "atá"
         ],
         [
-          "A",
-          "an"
+          "B",
+          "an cuimhneachán"
         ],
         [
-          "B",
-          "cuimhneachán seo"
+          "A",
+          "seo"
         ]
       ],
       "eu": [
@@ -446373,7 +446741,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "sŵfenir hwn"
+          "sŵfenir"
+        ],
+        [
+          "A",
+          "hwn"
         ]
       ],
       "en_yk": [
@@ -447800,8 +448172,12 @@ const SENTENCES = [
           "eo"
         ],
         [
+          "B",
+          "ar souvenir"
+        ],
+        [
           "A",
-          "ar souvenir-mañ"
+          "‌-mañ"
         ]
       ],
       "ps": [
@@ -448267,11 +448643,11 @@ const SENTENCES = [
         ],
         [
           "A",
-          "henda"
+          "hetta"
         ],
         [
           "B",
-          "minnisvarðið"
+          "minnið"
         ]
       ],
       "jam": [
@@ -451607,8 +451983,12 @@ const SENTENCES = [
       ],
       "got": [
         [
+          "C",
+          "𐍆𐌰𐌿𐍂"
+        ],
+        [
           "A",
-          "𐍆𐌰𐌿𐍂 𐌰𐌻𐌻"
+          "𐌰𐌻𐌻"
         ],
         [
           "B",

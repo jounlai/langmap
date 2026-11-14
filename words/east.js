@@ -40,7 +40,7 @@ WORDS.east = {
     es_mx: "Este",
     pt: "Este",
     pt_eu: "Este",
-    pt_br: "Este",
+    pt_br: "Leste",
     ru: "Восток",
     uk: "Схід",
     ar: "شرق",
@@ -75,7 +75,7 @@ WORDS.east = {
   family: {
     lb: "dawn",
     acw: "rising",
-    ja: "plain",
+    ja: "rising",
     ko: "dong",
     vi: "dong",
     th: "rising",
@@ -197,7 +197,7 @@ WORDS.east = {
     skr: "rising",
     hil: "rising",
     cbk: "dawn",
-    mk: "other",
+    mk: "rising",
     ki: "rising",
     kab: "other",
     mic: "dawn",
@@ -236,7 +236,7 @@ WORDS.east = {
     bbc: "front",
     mns: "plain",
     tsg: "plain",
-    hr: "other",
+    hr: "rising",
     iba: "plain",
     xal: "other",
     syc: "rising",
@@ -291,11 +291,11 @@ WORDS.east = {
     en_za: "dawn",
     de_ch: "dawn",
     ca_va: "dawn",
-    ja_osa: "plain",
-    ja_aom: "plain",
-    ja_hak: "plain",
-    ja_kyo: "plain",
-    ja_hir: "plain",
+    ja_osa: "rising",
+    ja_aom: "rising",
+    ja_hak: "rising",
+    ja_kyo: "rising",
+    ja_hir: "rising",
     ko_kp: "dong",
     ko_bus: "dong",
     ko_yb: "dong",
@@ -475,6 +475,9 @@ WORDS.east = {
     zh_tj: "dong",
     zh_wh: "dong",
     zh_zz: "dong",
+    en_us: "dawn",
+    en_ca: "dawn",
+    en_ph: "dawn",
   },
   routes: {
     dawn: {"color":"#f59e0b","emoji":"🌄","en":"a word for dawn or morning (east, Osten, est)","ja":"夜明け・朝の語（east, Osten, est）","ko":"새벽·아침의 말 (east, Osten, est)","zh":"表示黎明或早晨的词（east、Osten、est）","yue":"解黎明或者朝早嘅詞（east、Osten、est）","vi":"từ chỉ bình minh, buổi sáng (east, Osten, est)","th":"คำสำหรับรุ่งอรุณหรือเช้า (east, Osten, est)","id":"kata untuk fajar atau pagi (east, Osten, est)","hi":"भोर या सुबह का शब्द (east, Osten, est)","de":"ein Wort für Morgenröte oder Morgen (east, Osten, est)","fr":"un mot pour l'aube ou le matin (east, Osten, est)","it":"una parola per l'alba o il mattino (east, Osten, est)","es":"una palabra para el alba o la mañana (east, Osten, est)","pt":"uma palavra para a aurora ou a manhã (east, Osten, est)","ru":"слово для зари или утра (east, Osten, est)","uk":"слово для світанку чи ранку (east, Osten, est)","ar":"كلمة للفجر أو الصباح (east, Osten, est)","he":"מילה לשחר או לבוקר (east, Osten, est)","sw":"neno la alfajiri au asubuhi (east, Osten, est)"},
@@ -488,7 +491,7 @@ WORDS.east = {
   data: {
     lb: ["Osten", "ˈostən"],
     acw: ["شرق", "ʃarɡ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
-    ja: ["東", "hiɡaɕi"],  // Now the standard word for east; from Old Japanese *pi₁mukasi.
+    ja: ["東", "hiɡaɕi"],  // From Old Japanese *pi₁mukasi, 日 'sun' + 向か 'facing' (Wiktionary), the 'facing the sun' of the ja_heian row; now the standard word for east.
     ko: ["동", "toŋ"],  // Sino-Korean, from 東.
     vi: ["đông", "ɗəwŋ˧"],  // Sino-Vietnamese, from 東.
     th: ["ตะวันออก", "ta˨˩wan˧ʔɔːk̚˨˩"],  // ตะวัน 'sun' + ออก 'to come out'.
@@ -585,17 +588,17 @@ WORDS.east = {
     gl: ["leste", "ˈlɛste"],
     be: ["усход", "uˈsxot"],
     cs: ["východ", "ˈviːxot"],  // Also 'exit'; from vychodit 'to go out'.
-    sk: ["východ", "viːxɔt"],
+    sk: ["východ", "ˈviːxɔt"],
     sl: ["vzhod", "ʋzxɔt"],
     bg: ["изток", "ˈistok"],  // из- 'out' + ток 'flow'.
     lt: ["rytai", "rʲiːˈtɐɪ"],  // Plural of rytas 'morning'.
-    lv: ["austrumi", "awstrumi"],  // From the stem of aust 'to dawn'.
+    lv: ["austrumi", "ˈawstrumi"],  // From the stem of aust 'to dawn'.
     sq: ["lindje", "ˈlindje"],  // From lind 'to give birth', as in 'the sun is born'.
-    et: ["ida", "idɑ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    et: ["ida", "ˈidɑ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     pap: ["ost", "ost"],
     se: ["nuorta", "ˈnuo̯rːta"],  // From Proto-Sami *nuorttē, borrowed from Proto-Norse 'north'.
-    sma: ["luvlie", "lʉβliɛ"],
-    smn: ["nuor'ttâ", "nuortːɐ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    sma: ["luvlie", "ˈlʉβliɛ"],
+    smn: ["nuor'ttâ", "ˈnuortːɐ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     sjd: ["нӯҏҏьт", "nuːrʲːtʲ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     or: ["ପୂରୁବ", "puɾubɔ"],
     nn: ["aust", "œʊst"],
@@ -609,8 +612,8 @@ WORDS.east = {
     vo: ["lofüd", "loˈfyd"],
     skr: ["ݙبھار", "ɗɪbʰaːɾ"],  // 'sun' + 'to rise'.
     hil: ["sidlangan", "sidˈlaŋan"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
-    cbk: ["este", "este"],
-    mk: ["исток", "ˈistɔk"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    cbk: ["este", "ˈeste"],
+    mk: ["исток", "ˈistɔk"],  // Route by resemblance to the neighbouring forms (sr исток, bs istok); no etymology of its own.
     ki: ["irathĩro", "iɾaðeɾɔꜜ"],  // From kũratha 'to rise (of the sun)'.
     kab: ["lqebla", "lqəbla"],  // Also 'qibla'; from Arabic qibla.
     mic: ["ugjipen", "uktʃipen"],  // From Proto-Algonquian 'it dawns from there'.
@@ -637,7 +640,7 @@ WORDS.east = {
     mhr: ["эрвел", "ervel"],
     mrj: ["ирвел", "irvel"],
     myv: ["чилисема", "tɕʲilʲisʲema"],
-    olo: ["päivännouzu", "pæivænːouzu"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    olo: ["päivännouzu", "ˈpæivænːouzu"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     vep: ["päivnouzm", "pæivnouzm"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     vot: ["itä", "ˈitæ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     liv: ["mōgõr", "ˈmɒːɡər"],
@@ -649,7 +652,7 @@ WORDS.east = {
     bbc: ["purba", "purba"],
     mns: ["хо̄тал нэ̄глын е̄р", "χoːtal nɤːɣlɪn jeːr"],
     tsg: ["subangan", "subaŋan"],
-    hr: ["istok", "îstok"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    hr: ["istok", "îstok"],  // Route by resemblance to the neighbouring forms (sr исток, bs istok); no etymology of its own.
     iba: ["timur", "timʊr"],
     xal: ["зүн", "zyn"],  // Also 'left'.
     syc: ["ܡܕܢܚܐ", "maðnəħɑ"],
@@ -663,8 +666,8 @@ WORDS.east = {
     wls: ["hahake", "hahake"],
     bew: ["wètan", "wɛˈtan"],
     io: ["esto", "ˈesto"],
-    fkv: ["itä", "itæ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
-    pt_br: ["este", "ˈɛstʃi"],
+    fkv: ["itä", "ˈitæ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    pt_br: ["leste", "ˈlɛstʃi"],  // Brazil says leste, from French l'est with the article fused (Wiktionary); este is also used, as in Portugal.
     zh: ["东", "tʊŋ˥"],  // 东, 'east'.
     zh_tw: ["東", "tʊŋ˥"],
     zh_cd: ["东", "toŋ˥˥"],
@@ -691,7 +694,7 @@ WORDS.east = {
     en_ng2: ["east", "iːst"],
     es_bo: ["este", "ˈeste"],
     es_py: ["este", "ˈeste"],
-    es_pa: ["este", "ˈeste"],
+    es_pa: ["este", "ˈehte"],
     en_my: ["east", "iːst"],
     en_wls: ["east", "iːst"],
     en_jam: ["east", "iːst"],
@@ -738,19 +741,19 @@ WORDS.east = {
     fr_be: ["est", "ɛst"],
     fr_ch: ["est", "ɛst"],
     es_co: ["este", "ˈeste"],
-    es_cl: ["este", "ˈeste"],
+    es_cl: ["este", "ˈehte"],
     es_ar: ["este", "ˈeste"],
-    es_cu: ["este", "ˈeste"],
+    es_cu: ["este", "ˈehte"],
     es_pe: ["este", "ˈeste"],
-    es_an: ["este", "ˈeste"],
+    es_an: ["este", "ˈehte"],
     ko_hg: ["동", "toŋ"],
     ko_jl: ["동", "toŋ"],
-    es_pr: ["este", "ˈeste"],
-    es_do: ["este", "ˈeste"],
+    es_pr: ["este", "ˈehte"],
+    es_do: ["este", "ˈehte"],
     es_gt: ["este", "ˈeste"],
     es_ec: ["este", "ˈeste"],
     es_uy: ["este", "ˈeste"],
-    es_ve: ["este", "ˈeste"],
+    es_ve: ["este", "ˈehte"],
     ar_qur: ["مشرق", "maʃriq"],  // Place of rising; Quran 2:115 al-mašriq wa-l-maġrib.
     el_grc: ["ἀνατολή", "anatolɛ̌ː"],  // Rising (of the sun), from ἀνατέλλω.
     non: ["austr", "ˈɑustr"],  // From Proto-Germanic *austrą, related to *ausos "dawn".
@@ -888,5 +891,8 @@ WORDS.east = {
     zh_tj: ["东", "tuŋ˨˩"],  // 东, 'east'. Reading from MCPDict 天津.
     zh_wh: ["东", "toŋ˥˥"],  // 东, 'east'. Reading from MCPDict 武漢.
     zh_zz: ["东", "tuŋ˨˦"],  // 东, 'east'. Reading from MCPDict 開封 (no Zhengzhou table).
+    en_us: ["east", "ist"],  // Same word as standard English; IPA from the row's own cells (sea si, you ju (the row writes no length)).
+    en_ca: ["east", "iːst"],  // Same word as standard English; IPA from the row's own cells (sea siː).
+    en_ph: ["east", "ist"],  // Same word as standard English; IPA from the row's own cells (sea si, you ju (the row writes no length)).
   },
 };

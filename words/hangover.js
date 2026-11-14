@@ -204,10 +204,16 @@ WORDS.hangover = {
     el_grc: ["κραιπάλη", "krai̯pálɛː"],  // Ancient Greek kraipálē: drinking bout; intoxication; hangover (source of Latin crāpula).
     ota: ["مخمورلق", "mahmurˈluk"],  // Ottoman Turkish mahmurluk, from مخمور mahmur 'drunk' + -lık.
     pot: ["mankago", "mankaɡo"],  // 'He or she has a hangover.'
-    kl: ["aqagutaarpoq", "aqaɣutaːʁpoq"],  // 'Is hung over.'
+    kl: ["aqagutaarneq", "aqaɣutaːɴeq"],  // The noun (Wiktionary's translation table for hangover); aqagutaarpoq is the verb 'is hung over'.
     ja_chu: ["二日酔", "ɸutsukajoi"],  // 両足院本山谷抄 (1500頃) 二日(フツカ)酔, as quoted in 日本国語大辞典.
     bik: ["kahingawan", "kahiŋaˈwan"],  // Central Bikol kahingawán 'sobriety; hangover' (Wiktionary).
     sw: ["chelewa", "tʃeˈlewa"],  // The same root as the verb -chelewa 'to be late'.
     yi: ["אויפֿצומאָרגנס", "ɔɪ̯ftsʊˈmɔrɡn̩s"],  // Literally 'the next morning' (אויפֿ־ plus צו plus מאָרגן 'morning'); as an adverb it means 'the next day'.
+    ja_osa: ["二日酔い", "ɸɯtsɯkajoi"],  // Literally "two-day drunkenness". The national word, which Osaka speech uses as well.
+    ja_kyo: ["二日酔い", "ɸɯtsɯkajoi"],  // Literally "two-day drunkenness". The national word, which Kyoto speech uses as well.
+    ja_hak: ["二日酔い", "ɸɯtsɯkajoi"],  // Literally "two-day drunkenness". The national word, which Hakata speech uses as well.
+    ja_hir: ["二日酔い", "ɸɯtsɯkajoi"],  // Literally "two-day drunkenness". The national word, which Hiroshima speech uses as well.
+    ko_bus: ["숙취", "suktɕʰwi"],  // Sino-Korean 宿醉, literally "overnight drunkenness". The national word, which Busan speech uses as well.
+    ko_jl: ["숙취", "suktɕʰwi"],  // Sino-Korean 宿醉, literally "overnight drunkenness". The national word, which Jeolla speech uses as well.
   },
 };

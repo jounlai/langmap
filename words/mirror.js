@@ -148,7 +148,7 @@ WORDS.mirror = {
     hsb: "speculum",
     ht: "glass",
     hu: "other",
-    hy: "plain",
+    hy: "look",
     iba: "cermin",
     id: "cermin",
     ik: "plain",
@@ -188,7 +188,7 @@ WORDS.mirror = {
     mdh: "cermin",
     mg: "plain",
     mh: "glass",
-    mi: "plain",
+    mi: "glass",
     mk: "look",
     ml: "eye",
     mn: "plain",
@@ -260,7 +260,7 @@ WORDS.mirror = {
     tr: "ayna",
     tsg: "cermin",
     tt: "look",
-    ty: "plain",
+    ty: "look",
     tyv: "plain",
     udm: "plain",
     ug: "look",
@@ -328,7 +328,7 @@ WORDS.mirror = {
     ko_yb: "plain",
     es_mx: "speculum",
     pt_br: "speculum",
-    hyw: "plain",
+    hyw: "look",
     en_aave: "mirari",
     en_au: "mirari",
     de_at: "speculum",
@@ -485,6 +485,13 @@ WORDS.mirror = {
     zh_sc: "jing",
     zh_tw: "jing",
     zh_wh: "jing",
+    en_us: "mirari",
+    en_ca: "mirari",
+    en_app: "mirari",
+    en_ph: "mirari",
+    en_nz: "mirari",
+    en_ng: "mirari",
+    en_geordie: "mirari",
   },
   routes: {
     speculum: {"color":"#2563eb","emoji":"🏛️","en":"from Latin speculum (espejo, Spiegel)","ja":"ラテン語 speculum から (espejo, Spiegel)","ko":"라틴어 speculum에서 (espejo, Spiegel)","zh":"来自拉丁语 speculum (espejo, Spiegel)","yue":"嚟自拉丁語 speculum (espejo, Spiegel)","vi":"từ tiếng Latinh speculum (espejo, Spiegel)","th":"จากภาษาละติน speculum (espejo, Spiegel)","id":"dari speculum Latin (espejo, Spiegel)","hi":"लैटिन speculum से (espejo, Spiegel)","de":"aus lateinisch speculum (espejo, Spiegel)","fr":"du latin speculum (espejo, Spiegel)","it":"dal latino speculum (espejo, Spiegel)","es":"del latín speculum (espejo, Spiegel)","pt":"do latim speculum (espejo, Spiegel)","ru":"от латинского speculum (espejo, Spiegel)","uk":"від латинського speculum (espejo, Spiegel)","ar":"من اللاتينية speculum (espejo, Spiegel)","he":"מהלטינית speculum (espejo, Spiegel)","sw":"kutoka Kilatini speculum (espejo, Spiegel)"},
@@ -513,7 +520,7 @@ WORDS.mirror = {
     as: ["দাপোণ", "dapʊn"],  // From Sanskrit darpaṇa, from Proto-Indo-European *derp- "to see".
     ast: ["espeyu", "esˈpeʝu"],  // From Latin speculum, from the root *speḱ- "to look", directly or through German or Low German spiegel.
     av: ["матӏу", "matʼu"],
-    az: ["güzgü", "ɟyzɟy"],  // göz "eye" + -gü.
+    az: ["güzgü", "ɟyzˈɟy"],  // göz "eye" + -gü.
     ba: ["көҙгө", "kʏ̞ðˈɡʏ̞"],  // From Proto-Turkic *köŕ- "to see".
     bar: ["Spiagl", "ˈʃbiɐɡl̩"],  // From Latin speculum, from the root *speḱ- "to look", directly or through German or Low German spiegel.
     be: ["люстэрка", "lʲuˈstɛrka"],  // A diminutive of люстра.
@@ -525,7 +532,7 @@ WORDS.mirror = {
     bs: ["ogledalo", "oɡledalo"],  // Route by resemblance to the neighbouring forms (Romanian oglindă, from Old Church Slavonic oględati "to glance"); no etymology of its own.
     bsk: ["aíina", "aiina"],
     ca: ["espill", "əsˈpiʎ"],  // From Latin speculum, from the root *speḱ- "to look", directly or through German or Low German spiegel.
-    cbk: ["espejo", "espeho"],  // Inherited from Spanish espejo.
+    cbk: ["espejo", "esˈpeho"],  // Inherited from Spanish espejo.
     ceb: ["samin", "saˈmin"],  // Borrowed from Malay cermin.
     cho: ["apisa", "apisa"],  // a- "place" + pisa "to look".
     chy: ["amȯhóomȧhtsestȯtse", "amohóomahtsestotse"],
@@ -542,7 +549,7 @@ WORDS.mirror = {
     de: ["Spiegel", "ˈʃpiːɡl̩"],  // From Latin speculum, from the root *speḱ- "to look", directly or through German or Low German spiegel.
     egl: ["spèc'", "spɛːtʃ"],  // From Latin speculum, from the root *speḱ- "to look", directly or through German or Low German spiegel.
     el: ["καθρέφτης", "kaθˈɾeftis"],  // From Ancient Greek κάτοπτρον, a "looking" instrument.
-    en: ["mirror", "mɪɹə"],  // From Old French mireor "looker", from mirer "to look at", from Latin mīror "to wonder at"; it displaced Old English scēawere "watcher".
+    en: ["mirror", "ˈmɪɹə"],  // From Old French mireor "looker", from mirer "to look at", from Latin mīror "to wonder at"; it displaced Old English scēawere "watcher".
     enf: ["zʲɛrkaɫ", "zʲɛrkaɫ"],  // Route by resemblance to the neighbouring forms (Russian зеркало); no etymology of its own.
     enm: ["mirour", "miˈruːr"],  // From Latin mīrārī "to wonder at, gaze at".
     eo: ["spegulo", "speˈɡulo"],  // From Latin speculum, from the root *speḱ- "to look", directly or through German or Low German spiegel.
@@ -569,14 +576,14 @@ WORDS.mirror = {
     hi: ["आईना", "aːiːnaː"],  // Borrowed from Classical Persian ā'īna.
     hil: ["espeho", "ʔesˈpeho"],  // From Latin speculum, from the root *speḱ- "to look", directly or through German or Low German spiegel.
     hr: ["zrcalo", "zř̩tsalo"],  // Route by resemblance to the neighbouring forms (Czech zrcadlo, from *zьrěti "to look at"); no etymology of its own.
-    hsb: ["špihel", "ʃpiɦɛl"],  // Route by resemblance to the neighbouring forms (German Spiegel); no etymology of its own.
+    hsb: ["špihel", "ˈʃpiɦɛl"],  // Route by resemblance to the neighbouring forms (German Spiegel); no etymology of its own.
     ht: ["glas", "ɡlas"],  // Same as glas "glass".
     hu: ["tükör", "ˈtykør"],  // Borrowed from an Oghur (Turkic) language before the Hungarian conquest.
-    hy: ["հայելի", "hɑjeˈli"],
+    hy: ["հայելի", "hɑjeˈli"],  // Inherited from Old Armenian հայելի, from հայել 'to look' + -i, as in the hy_grab row.
     iba: ["cheremin", "tʃərəmin"],  // Malay cermin.
     id: ["cermin", "tʃərˈmin"],  // Malay cermin.
     ik: ["taġġaqtuun", "taʁʁaqtuun"],
-    io: ["spegulo", "speɡulo"],  // From Latin speculum, from the root *speḱ- "to look", directly or through German or Low German spiegel.
+    io: ["spegulo", "speˈɡulo"],  // From Latin speculum, from the root *speḱ- "to look", directly or through German or Low German spiegel.
     is: ["spegill", "ˈspeijɪtl̥"],  // From Latin speculum, from the root *speḱ- "to look", directly or through German or Low German spiegel.
     iso: ["ughẹgbe", "uɡhɛɡbe"],
     it: ["specchio", "ˈspɛkkjo"],  // From Latin speculum, from the root *speḱ- "to look", directly or through German or Low German spiegel.
@@ -593,8 +600,8 @@ WORDS.mirror = {
     ko: ["거울", "kʌul"],
     koi: ["зеркало", "ʑerkalo"],  // Route by resemblance to the neighbouring forms (Russian зеркало); no etymology of its own.
     kpv: ["рӧмпӧштан", "rɨmpɨʃtan"],
-    ku: ["neynik", "nɛjnɪk"],  // From Persian āyina.
-    ky: ["күзгү", "kyzɡy"],  // Cognate with Azerbaijani güzgü, from göz "eye".
+    ku: ["neynik", "nɛjˈnɪk"],  // From Persian āyina.
+    ky: ["күзгү", "kyzˈɡy"],  // Cognate with Azerbaijani güzgü, from göz "eye".
     la: ["speculum", "ˈspekulum"],  // From Latin speculum, from the root *speḱ- "to look", directly or through German or Low German spiegel.
     lad: ["espejo", "esˈpeʒo"],  // From Latin speculum, from the root *speḱ- "to look", directly or through German or Low German spiegel.
     lb: ["Spigel", "ˈʃpiʁel"],  // From Latin speculum, from the root *speḱ- "to look", directly or through German or Low German spiegel.
@@ -612,7 +619,7 @@ WORDS.mirror = {
     mdh: ["sermin", "səɾˈmin"],  // Malay cermin.
     mg: ["fitaratra", "fiˈtaratra"],
     mh: ["kilaj", "kilʲɑːtʲ"],  // Borrowed from English glass.
-    mi: ["karaehe", "kaɾaehe"],
+    mi: ["karaehe", "kaɾaehe"],  // Borrowed from English glass; the same word means glass (Wiktionary karāhe 'glass, mirror'). whakaata 'reflection' is also used.
     mk: ["огледало", "ɔˈɡlɛdaɫɔ"],  // Route by resemblance to the neighbouring forms (Romanian oglindă, from Old Church Slavonic oględati "to glance"); no etymology of its own.
     ml: ["കണ്ണാടി", "kaɳːaːɖi"],  // From കണ്ണ് "eye".
     mn: ["толь", "tʰɔli"],
@@ -628,8 +635,8 @@ WORDS.mirror = {
     nn: ["spegel", "ˈspeːɡəl"],  // From Latin speculum, from the root *speḱ- "to look", directly or through German or Low German spiegel.
     no: ["speil", "spæjl"],  // Route by resemblance to the neighbouring forms (Swedish spegel, Danish spejl); no etymology of its own.
     nog: ["бийала", "bijala"],
-    oc: ["espelh", "espelʃ"],  // Route by resemblance to the neighbouring forms (Catalan espill); no etymology of its own.
-    olo: ["zirkalo", "zirkalo"],  // Route by resemblance to the neighbouring forms (Russian зеркало); no etymology of its own.
+    oc: ["espelh", "esˈpelʃ"],  // Route by resemblance to the neighbouring forms (Catalan espill); no etymology of its own.
+    olo: ["zirkalo", "ˈzirkalo"],  // Route by resemblance to the neighbouring forms (Russian зеркало); no etymology of its own.
     or: ["ଆଇନା", "aina"],  // From Persian āyina.
     os: ["айдӕн", "ajdæn"],  // From Persian āyina.
     osp: ["espeio", "esˈpeʒo"],  // From Latin speculum, from the root *speḱ- "to look", directly or through German or Low German spiegel.
@@ -640,7 +647,7 @@ WORDS.mirror = {
     pms: ["miraj", "miˈrɑi̯"],  // From Latin mīrārī "to wonder at, gaze at".
     ps: ["هنداره", "henˈdaːra"],
     pt: ["espelho", "isˈpeʎu"],  // From Latin speculum, from the root *speḱ- "to look", directly or through German or Low German spiegel.
-    qu: ["rirpu", "ɾiɾpu"],
+    qu: ["rirpu", "ˈɾiɾpu"],
     rap: ["hiʔo uʔi ʔariŋa", "hiʔo uʔi ʔariŋa"],
     rhg: ["aina", "aina"],  // From Persian āyina.
     rm: ["spievel", "ˈʃpiəvəl"],  // From Latin speculum, from the root *speḱ- "to look", directly or through German or Low German spiegel.
@@ -652,15 +659,15 @@ WORDS.mirror = {
     rut: ["гуьзги", "ɡuʼzɡi"],  // Route by resemblance to the neighbouring forms (Azerbaijani güzgü); no etymology of its own.
     sa: ["दर्पण", "dɐrpɐɳɐ"],  // Traditionally from dṛp; alternatively from Proto-Indo-European *derp- "to see".
     sah: ["сиэркилэ", "sierkile"],  // Borrowed from Russian зеркало, from *zьrěti "to look at".
-    sc: ["ispregu", "ispreɡu"],  // Route by resemblance to the neighbouring forms (Italian specchio); no etymology of its own.
+    sc: ["ispregu", "isˈpreɡu"],  // Route by resemblance to the neighbouring forms (Italian specchio); no etymology of its own.
     sce: ["jinzi", "ˈtɕintsi"],  // From Chinese 鏡子.
     scn: ["specchiu", "ˈʃpɛkkju"],  // From Latin speculum, from the root *speḱ- "to look", directly or through German or Low German spiegel.
     sd: ["آئينو", "aːiːnoː"],  // From Persian āyina.
     sg: ["tatala", "tatala"],
     si: ["කණ්ණාඩිය", "kənnaːɖijə"],  // Borrowed from Tamil kaṇṇāṭi, "eye" + "mirror".
     sid: ["hincilallo", "hintʃʼilalːo"],
-    sk: ["zrkadlo", "zr̩kadlɔ"],  // From Proto-Slavic *zьrkadlo, from *zьrěti "to look at".
-    sl: ["ogledalo", "ɔɡlɛdaːlɔ"],  // Route by resemblance to the neighbouring forms (Romanian oglindă, from Old Church Slavonic oględati "to glance"); no etymology of its own.
+    sk: ["zrkadlo", "ˈzr̩kadlɔ"],  // From Proto-Slavic *zьrkadlo, from *zьrěti "to look at".
+    sl: ["ogledalo", "ɔɡlɛˈdaːlɔ"],  // Route by resemblance to the neighbouring forms (Romanian oglindă, from Old Church Slavonic oględati "to glance"); no etymology of its own.
     sm: ["aisa", "aisa"],
     so: ["muraayad", "muraːjad"],
     sq: ["pasqyrë", "pasˈcyɾə"],  // pas "behind" + qyr "to look".
@@ -684,7 +691,7 @@ WORDS.mirror = {
     tr: ["ayna", "ajˈna"],  // From Persian āyina.
     tsg: ["samin", "samin"],  // Malay cermin.
     tt: ["көзге", "køzɡe"],  // Route by resemblance to the neighbouring forms (Bashkir көҙгө, from *köŕ- "to see"); no etymology of its own.
-    ty: ["hiʻo", "hiʔo"],
+    ty: ["hiʻo", "hiʔo"],  // Also the verb 'to see, to look' (Wiktionary hiʻo); the mirror is named as the thing you look into.
     tyv: ["көрүнчүк", "kørynˈtʃyq"],  // Route by resemblance to the neighbouring forms (x); no etymology of its own.
     udm: ["синучкон", "sʲinutɕkon"],
     ug: ["كۆزگۈ", "køzɡy"],  // Cognate with Turkish gözgü, from göz "eye".
@@ -725,20 +732,20 @@ WORDS.mirror = {
     fr_lu: ["miroir", "miʁwaʁ"],
     fr_cm: ["miroir", "miʁwaʁ"],
     de_lu: ["Spiegel", "ˈʃpiːɡl̩"],
-    en_ng2: ["mirror", "mɪɹə"],
+    en_ng2: ["mirror", "ˈmɪɹə"],
     es_bo: ["espejo", "esˈpexo"],
     es_py: ["espejo", "esˈpexo"],
-    es_pa: ["espejo", "esˈpeho"],
-    en_my: ["mirror", "mɪɹə"],
-    en_wls: ["mirror", "mɪɾə"],
-    en_jam: ["mirror", "mɪɹə"],
-    en_ke: ["mirror", "mɪɹə"],
+    es_pa: ["espejo", "ehˈpeho"],
+    en_my: ["mirror", "ˈmɪɹə"],
+    en_wls: ["mirror", "ˈmɪɾə"],
+    en_jam: ["mirror", "ˈmɪɹə"],
+    en_ke: ["mirror", "ˈmɪɹə"],
     fr_sn: ["miroir", "miʁwaʁ"],
     fr_ci: ["miroir", "miʁwaʁ"],
     fr_ht: ["miroir", "miʁwaʁ"],
     pt_mz: ["espelho", "isˈpeʎu"],
     nl_be: ["spiegel", "ˈspiɣəl"],
-    en_za: ["mirror", "mɪɹə"],
+    en_za: ["mirror", "ˈmɪɹə"],
     de_ch: ["Spiegel", "ˈʃpiːɡl̩"],
     pt_ao: ["espelho", "isˈpeʎu"],
     ca_va: ["espill", "asˈpiʎ"],
@@ -752,41 +759,41 @@ WORDS.mirror = {
     ko_yb: ["거울", "kʌul"],
     es_mx: ["espejo", "esˈpexo"],
     pt_br: ["espelho", "isˈpeʎu"],
-    hyw: ["հայելի", "hɑjɛˈli"],
-    en_aave: ["mirror", "mɪɹə"],
-    en_au: ["mirror", "mɪɹə"],
+    hyw: ["հայելի", "hɑjɛˈli"],  // Inherited from Old Armenian հայելի, from հայել 'to look' + -i, as in the hy_grab row.
+    en_aave: ["mirror", "ˈmɪɹə"],
+    en_au: ["mirror", "ˈmɪɹə"],
     de_at: ["Spiegel", "ˈʃpiːɡl̩"],
-    en_south: ["mirror", "mɪɹə"],
-    en_in: ["mirror", "mɪrə"],
-    en_ie: ["mirror", "mɪɹə"],
-    en_sco: ["mirror", "mɪɹə"],
-    en_yk: ["mirror", "mɪɹə"],
-    en_ck: ["mirror", "mɪɹə"],
-    en_scouse: ["mirror", "mɪɹə"],
-    en_brum: ["mirror", "mɪɹə"],
-    en_manc: ["mirror", "mɪɹə"],
-    en_wc: ["mirror", "mɪɹə"],
-    en_est: ["mirror", "mɪɹə"],
-    en_sg: ["mirror", "mɪɹə"],
+    en_south: ["mirror", "ˈmɪɹɚ"],
+    en_in: ["mirror", "ˈmɪrər"],
+    en_ie: ["mirror", "ˈmɪɹəɹ"],
+    en_sco: ["mirror", "ˈmɪɹəɹ"],
+    en_yk: ["mirror", "ˈmɪɹə"],
+    en_ck: ["mirror", "ˈmɪɹə"],
+    en_scouse: ["mirror", "ˈmɪɹə"],
+    en_brum: ["mirror", "ˈmɪɹə"],
+    en_manc: ["mirror", "ˈmɪɹɐ"],
+    en_wc: ["mirror", "ˈmɪɹɚ"],
+    en_est: ["mirror", "ˈmɪɹə"],
+    en_sg: ["mirror", "ˈmɪɹə"],
     fr_qc: ["miroir", "miʁwaʁ"],
     fr_af: ["miroir", "miʁwaʁ"],
     fr_be: ["miroir", "miʁwaʁ"],
     fr_ch: ["miroir", "miʁwaʁ"],
     es_co: ["espejo", "esˈpexo"],
-    es_cl: ["espejo", "esˈpeho"],
+    es_cl: ["espejo", "ehˈpeho"],
     es_ar: ["espejo", "esˈpexo"],
-    es_cu: ["espejo", "esˈpeho"],
+    es_cu: ["espejo", "ehˈpeho"],
     es_pe: ["espejo", "esˈpexo"],
-    es_an: ["espejo", "esˈpeho"],
+    es_an: ["espejo", "ehˈpeho"],
     ko_hg: ["거울", "kʌul"],
     ko_jl: ["거울", "kəul"],
     lij_t: ["spêgio", "ˈspeːdʒu"],
-    es_pr: ["espejo", "esˈpeho"],
-    es_do: ["espejo", "esˈpeho"],
+    es_pr: ["espejo", "ehˈpeho"],
+    es_do: ["espejo", "ehˈpeho"],
     es_gt: ["espejo", "esˈpeho"],
     es_ec: ["espejo", "esˈpexo"],
     es_uy: ["espejo", "esˈpexo"],
-    es_ve: ["espejo", "esˈpeho"],
+    es_ve: ["espejo", "ehˈpeho"],
     ar_qur: ["مرآة", "mirʔaːh"],  // A tool noun from the root of raʔā "to see".
     prg: ["spīgelis", "spiːɡelis"],  // Elbing Vocabulary; from German Spiegel.
     el_grc: ["κάτοπτρον", "kátoptron"],  // From the stem of κατόψομαι "to look", root *h₃ekʷ- "to see".
@@ -909,5 +916,12 @@ WORDS.mirror = {
     zh_sc: ["镜子", "tɕin˨˩˧ tsɹ̩˥˧"],  // 镜 'mirror' with the noun suffix 子. Word from Wiktionary's dialect table for Chengdu; reading from MCPDict 成都.
     zh_tw: ["鏡子", "tɕiŋ˥˩ tsɨ"],  // 鏡 'mirror' with the noun suffix 子. Word from Wiktionary's dialect table for Taiwan; reading in the row's notation, syllables as in the row's and the zh row's own cells.
     zh_wh: ["镜子", "tɕin˧˥ tsɿ"],  // 镜 'mirror' with the noun suffix 子. Word from Wiktionary's dialect table for Wuhan; reading from MCPDict 武漢.
+    en_us: ["mirror", "ˈmɪɹɚ"],  // Same word as standard English; IPA from the row's own cells (sugar ˈʃʊɡɚ, spider ˈspaɪdɚ, fish fɪʃ).
+    en_ca: ["mirror", "ˈmɪɹɚ"],  // Same word as standard English; IPA from the row's own cells (sugar ˈʃʊɡɚ, spider ˈspaɪdɚ, fish fɪʃ).
+    en_app: ["mirror", "ˈmɪɹɚ"],  // Same word as standard English; IPA from the row's own cells (sugar ˈʃʊɡɚ, spider ˈspaɪdɚ, fish fɪʃ).
+    en_ph: ["mirror", "ˈmɪɹɚ"],  // Same word as standard English; IPA from the row's own cells (sugar ˈʃʊɡɚ, butter ˈbʌtɚ, fish fɪʃ).
+    en_nz: ["mirror", "ˈmɪɹə"],  // Same word as standard English; IPA from the row's own cells (sugar ˈʃʊɡə, spider ˈspɑɪdə, window ˈwɪndɐʉ).
+    en_ng: ["mirror", "ˈmɪɹə"],  // Same word as standard English; IPA from the row's own cells (sugar ˈʃʊɡə, fish fɪʃ, milk mɪlk).
+    en_geordie: ["mirror", "ˈmɪɹɐ"],  // Same word as standard English; IPA from the row's own cells (sugar ˈʃʊɡɐ, water ˈwɔːtɐ, fish fɪʃ).
   },
 };

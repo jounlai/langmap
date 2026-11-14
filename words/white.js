@@ -352,7 +352,7 @@ WORDS.white = {
     mnc: ["ᡧᠠᠩᡤᡳᠶᠠᠨ", "ʃaŋɡijan"],
     ar_eg: ["أبيض", "ʔabjadˤ"],
     ar_lev: ["أبيض", "ʔabjadˤ"],
-    ar_gulf: ["أبيض", "ʔabjadˤ"],
+    ar_gulf: ["أبيض", "ʔabjaðˤ"],
     ar_iq: ["أبيض", "ʔabjaðˤ"],
     ar_ma: ["بيض", "bjadˤ"],
     arq: ["بيض", "bjədˤ"],

@@ -1227,8 +1227,8 @@ WORDS.thumb = {
     moc: ["lpalaaqate lateʔogeʔ", "lpalaaqate lateʔoɡeʔ"],  // l-palaaḳate 'finger' + lateʔogeʔ, which begins with l-ateʔe 'mother' (both glossed so in IDS Mocoví); the sister languages say 'finger mother' outright, Toba l-[i]aʁaata l-ateʔe and Pilagá l-iaʁata l-atʔe. The ending -ogeʔ is not glossed.
     tob: ["laʁaata lateʔe", "laʁaata lateʔe"],  // Literally 'mother of the fingers': l-[i]aʁaata 'finger' + l-ateʔe 'mother', both glossed so in IDS Toba (and lateʔe is this row's mother).
     es_gt: ["pulgar", "pulˈɣaɾ"],  // The same word as standard Spanish, from Latin pollicāris 'of the thumb'; Wiktionary gives it with no regional label.
-    es_do: ["pulgar", "pulˈɣaɾ"],  // The same word as standard Spanish, from Latin pollicāris 'of the thumb'; Wiktionary gives it with no regional label.
-    es_pr: ["pulgar", "pulˈɣaɾ"],  // The same word as standard Spanish, from Latin pollicāris 'of the thumb'; Wiktionary gives it with no regional label.
+    es_do: ["pulgar", "pulˈɣa"],  // The same word as standard Spanish, from Latin pollicāris 'of the thumb'; Wiktionary gives it with no regional label.
+    es_pr: ["pulgar", "pulˈɣal"],  // The same word as standard Spanish, from Latin pollicāris 'of the thumb'; Wiktionary gives it with no regional label.
     es_ec: ["pulgar", "pulˈɣaɾ"],  // The same word as standard Spanish, from Latin pollicāris 'of the thumb'; Wiktionary gives it with no regional label.
     es_ve: ["pulgar", "pulˈɣaɾ"],  // The same word as standard Spanish, from Latin pollicāris 'of the thumb'; Wiktionary gives it with no regional label.
     kos: ["kuf lulap", "kuf lulap"],  // Kosraean Bible, Judges 1:6: they cut off his kuf lulap ke paol ac ke nial — the thumbs and big toes are named with the same kuf lulap, on hands (paol) and feet (nial).

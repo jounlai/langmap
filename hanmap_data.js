@@ -6552,11 +6552,11 @@ const HAN_DATA = {
       "wuu": "mau1",
       "wuu_nb": "mau6",
       "wuu_sz": "mau2",
-      "wuu_wz": "mau³³",
+      "wuu_wz": "muo³³",
       "wuu_hz": "mau2",
       "wuu_jx": "mau2",
       "wuu_jh": "mau³³⁴",
-      "hak_cn": "mêu",
+      "hak_cn": "meu",
       "hak_tw": "meu4",
       "hak_hl": "ngiàu",
       "och": "*C.mˤraw",
@@ -6669,11 +6669,11 @@ const HAN_DATA = {
       "wuu": "mɔ˥˧",
       "wuu_nb": "mɔ˨˩˧",
       "wuu_sz": "mæ˨˨˧",
-      "wuu_wz": "mɔ˧˧",
+      "wuu_wz": "muɔ˧˧",
       "wuu_hz": "mɔ˨˩˧",
       "wuu_jx": "mɔ˧˩",
       "wuu_jh": "mɑu˧˧˦",
-      "hak_cn": "meu˦˦",
+      "hak_cn": "meu˥˧",
       "hak_tw": "meu˥˥",
       "hak_hl": "ŋiau˩˩",
       "cjy": "mau˩˩",
@@ -48305,13 +48305,13 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "thinn",
-        "ipa": "tʰĩ˧˧",
+        "ipa": "tʰĩ˦˦",
         "label": "白讀"
       },
       {
         "native": "",
         "surface": "thian",
-        "ipa": "tʰiɛn˧˧",
+        "ipa": "tʰiɛn˦˦",
         "label": "文讀"
       }
     ],
@@ -52025,14 +52025,6 @@ const HAN_VARIANTS = {
         "label": "文讀"
       }
     ],
-    "hak_cn": [
-      {
-        "native": "",
-        "surface": "hang",
-        "ipa": "haŋ˨˦",
-        "label": "白讀"
-      }
-    ],
     "ja": [
       {
         "native": "コウ",
@@ -53073,34 +53065,6 @@ const HAN_VARIANTS = {
     ]
   },
   "北": {
-    "hak_cn": [
-      {
-        "native": "",
-        "surface": "pet",
-        "ipa": "pet̚˨",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "pak",
-        "ipa": "pak̚˨",
-        "label": "文讀"
-      }
-    ],
-    "hak_mz": [
-      {
-        "native": "",
-        "surface": "pet",
-        "ipa": "pet̚˩",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "pak",
-        "ipa": "pak̚˩",
-        "label": "文讀"
-      }
-    ],
     "ja": [
       {
         "native": "ホク",

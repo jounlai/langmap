@@ -2200,7 +2200,7 @@ const SENTENCES = [
       ],
       "hu": [
         [
-          "A",
+          "C",
           "Fel"
         ],
         [
@@ -2220,24 +2220,24 @@ const SENTENCES = [
           "amelyet"
         ],
         [
-          "H",
-          "egy"
+          "I",
+          "egy bolt"
         ],
         [
-          "I",
-          "boltban"
+          "H",
+          "‌ban"
         ],
         [
           "G",
           "láttam"
         ],
         [
-          "J",
-          "a szálloda"
+          "K",
+          "a szállodával"
         ],
         [
-          "K",
-          "előtt"
+          "J",
+          "szemben"
         ]
       ],
       "nl": [
@@ -2434,11 +2434,11 @@ const SENTENCES = [
           "kaupassa"
         ],
         [
-          "J",
+          "K",
           "hotellin"
         ],
         [
-          "K",
+          "J",
           "vastapäätä"
         ]
       ],
@@ -3244,7 +3244,7 @@ const SENTENCES = [
           "տեսա"
         ],
         [
-          "H",
+          "H|I",
           "խանութում"
         ],
         [
@@ -4526,7 +4526,7 @@ const SENTENCES = [
           "mačiau"
         ],
         [
-          "H",
+          "H|I",
           "parduotuvėje"
         ],
         [
@@ -5208,7 +5208,7 @@ const SENTENCES = [
           "redzēju"
         ],
         [
-          "H",
+          "H|I",
           "veikalā"
         ],
         [
@@ -5254,11 +5254,11 @@ const SENTENCES = [
           "‌s"
         ],
         [
-          "J",
+          "K",
           "hotelli"
         ],
         [
-          "K",
+          "J",
           "vastas"
         ]
       ],
@@ -7923,7 +7923,7 @@ const SENTENCES = [
         ],
         [
           "H",
-          "‌in"
+          "in"
         ],
         [
           "I",
@@ -10005,7 +10005,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "‌da"
+          "da"
         ]
       ],
       "hu": [
@@ -10318,12 +10318,12 @@ const SENTENCES = [
       ],
       "el": [
         [
-          "A",
-          "Το"
+          "B",
+          "Το όνομά"
         ],
         [
-          "B",
-          "όνομά μου"
+          "A",
+          "μου"
         ],
         [
           "C",
@@ -10481,7 +10481,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "zhiʼ"
+          "‌zhiʼ"
         ],
         [
           "D",
@@ -11011,7 +11011,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "‌im"
+          "im"
         ],
         [
           "C",
@@ -12436,12 +12436,12 @@ const SENTENCES = [
       ],
       "sc": [
         [
-          "A",
-          "Su"
+          "B",
+          "Su nòmine"
         ],
         [
-          "B",
-          "nòmine meu"
+          "A",
+          "meu"
         ],
         [
           "C",
@@ -19602,7 +19602,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "σταθμός;"
+          "σταθμός"
         ]
       ],
       "sv": [
@@ -19795,8 +19795,12 @@ const SENTENCES = [
           "është"
         ],
         [
+          "B",
+          "stacioni"
+        ],
+        [
           "A",
-          "stacioni më i afërt"
+          "më i afërt"
         ]
       ],
       "mt": [
@@ -23812,7 +23816,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "je velmi chutná"
+          "je"
+        ],
+        [
+          "C",
+          "velmi"
+        ],
+        [
+          "D",
+          "chutná"
         ]
       ],
       "ca": [
@@ -24164,7 +24176,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "је веома укусна"
+          "је"
+        ],
+        [
+          "C",
+          "веома"
+        ],
+        [
+          "D",
+          "укусна"
         ]
       ],
       "bg": [
@@ -24200,7 +24220,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "je veľmi chutná"
+          "je"
+        ],
+        [
+          "C",
+          "veľmi"
+        ],
+        [
+          "D",
+          "chutná"
         ]
       ],
       "lv": [
@@ -26016,7 +26044,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "je zelo okusna"
+          "je"
+        ],
+        [
+          "C",
+          "zelo"
+        ],
+        [
+          "D",
+          "okusna"
         ]
       ],
       "pau": [
@@ -32107,11 +32143,11 @@ const SENTENCES = [
       "sq": [
         [
           "B",
-          "Moti i"
+          "Moti"
         ],
         [
           "A",
-          "nesërm"
+          "i nesërm"
         ],
         [
           "C",
@@ -32341,11 +32377,11 @@ const SENTENCES = [
       "sr": [
         [
           "A",
-          "Сутрашња"
+          "Сутрашње"
         ],
         [
           "B",
-          "временска прогноза"
+          "време"
         ],
         [
           "C",
@@ -32353,7 +32389,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "сунчана"
+          "сунчано"
         ]
       ],
       "bg": [
@@ -39723,7 +39759,7 @@ const SENTENCES = [
           "Én"
         ],
         [
-          "F",
+          "F|G",
           "jövőre"
         ],
         [
@@ -39865,7 +39901,7 @@ const SENTENCES = [
       ],
       "fi": [
         [
-          "A",
+          "A|B",
           "Haluan"
         ],
         [
@@ -40255,7 +40291,7 @@ const SENTENCES = [
           "Ιαπωνία"
         ],
         [
-          "F",
+          "F|G",
           "του χρόνου"
         ]
       ],
@@ -41878,7 +41914,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "sse"
+          "‌sse"
         ],
         [
           "F",
@@ -43733,11 +43769,11 @@ const SENTENCES = [
           "Giapun"
         ],
         [
-          "F",
+          "G",
           "l'onn"
         ],
         [
-          "G",
+          "F",
           "proxim"
         ]
       ],
@@ -43786,19 +43822,19 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌in"
+          "in"
         ],
         [
           "E",
           "Giapone"
         ],
         [
-          "F",
+          "G",
           "s'annu"
         ],
         [
-          "G",
-          "chi bene"
+          "F",
+          "chi benit"
         ]
       ],
       "chr": [
@@ -45686,7 +45722,7 @@ const SENTENCES = [
       ],
       "pl": [
         [
-          "D",
+          "E",
           "Czy"
         ],
         [
@@ -46172,7 +46208,7 @@ const SENTENCES = [
           "yáníłtʼiʼ"
         ],
         [
-          "D",
+          "E",
           "daʼ"
         ]
       ],
@@ -46536,7 +46572,7 @@ const SENTENCES = [
       ],
       "el_grc": [
         [
-          "D",
+          "E",
           "ἆρα"
         ],
         [
@@ -46549,7 +46585,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "λέγειν δύνασαι;"
+          "λέγειν"
+        ],
+        [
+          "D",
+          "δύνασαι"
         ]
       ],
       "sv": [
@@ -46704,7 +46744,7 @@ const SENTENCES = [
       ],
       "lt": [
         [
-          "D",
+          "E",
           "Ar"
         ],
         [
@@ -46722,7 +46762,7 @@ const SENTENCES = [
       ],
       "sq": [
         [
-          "D",
+          "E",
           "A"
         ],
         [
@@ -46949,7 +46989,11 @@ const SENTENCES = [
       "sr": [
         [
           "D",
-          "Можете ли"
+          "Можете"
+        ],
+        [
+          "E",
+          "ли"
         ],
         [
           "C",
@@ -46963,7 +47007,11 @@ const SENTENCES = [
       "bg": [
         [
           "D",
-          "Можете ли"
+          "Можете"
+        ],
+        [
+          "E",
+          "ли"
         ],
         [
           "C",
@@ -46990,7 +47038,7 @@ const SENTENCES = [
       ],
       "lv": [
         [
-          "D",
+          "E",
           "Vai"
         ],
         [
@@ -47008,7 +47056,7 @@ const SENTENCES = [
       ],
       "et": [
         [
-          "D",
+          "E",
           "Kas"
         ],
         [
@@ -47026,7 +47074,7 @@ const SENTENCES = [
       ],
       "be": [
         [
-          "D",
+          "E",
           "Ці"
         ],
         [
@@ -48141,7 +48189,11 @@ const SENTENCES = [
       "cu": [
         [
           "D",
-          "Можеши ли"
+          "Можеши"
+        ],
+        [
+          "E",
+          "ли"
         ],
         [
           "A",
@@ -51537,6 +51589,10 @@ const SENTENCES = [
           "Já"
         ],
         [
+          "C",
+          "jsem"
+        ],
+        [
           "F",
           "včera"
         ],
@@ -51676,7 +51732,11 @@ const SENTENCES = [
         ],
         [
           "E",
-          "libër të ri"
+          "libër"
+        ],
+        [
+          "D",
+          "të ri"
         ],
         [
           "B",
@@ -55577,16 +55637,16 @@ const SENTENCES = [
       ],
       "pl": [
         [
-          "A",
-          "Te"
+          "C",
+          "Kwiaty wiśni"
         ],
         [
-          "C",
-          "kwiaty wiśni"
+          "A",
+          "w tym"
         ],
         [
           "B",
-          "w parku"
+          "parku"
         ],
         [
           "D",
@@ -56028,7 +56088,7 @@ const SENTENCES = [
       "nv": [
         [
           "A",
-          "díí"
+          "Díí"
         ],
         [
           "B",
@@ -56582,7 +56642,7 @@ const SENTENCES = [
       "sq": [
         [
           "C",
-          "Lulëkuqet e vishnjës"
+          "Lulet e qershisë"
         ],
         [
           "A",
@@ -59675,8 +59735,12 @@ const SENTENCES = [
           "niri"
         ],
         [
+          "C",
+          "ur"
+        ],
+        [
           "F",
-          "ur baso bat"
+          "baso bat"
         ],
         [
           "D",
@@ -60236,7 +60300,7 @@ const SENTENCES = [
       "nv": [
         [
           "A",
-          "Tʼáá shoodí"
+          "Tʼáá shǫǫdí"
         ],
         [
           "B",
@@ -62564,7 +62628,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "-m"
+          "‌-m"
         ],
         [
           "F",
@@ -72942,7 +73006,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌da"
+          "da"
         ]
       ],
       "hu": [
@@ -73710,7 +73774,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ἄρχεται;"
+          "ἄρχεται"
         ]
       ],
       "sv": [
@@ -77196,7 +77260,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "Mam"
+          "mam"
         ],
         [
           "C",
@@ -83017,12 +83081,12 @@ const SENTENCES = [
           "hau"
         ],
         [
-          "C",
+          "C|D",
           "garestiegia"
         ],
         [
           "D",
-          "‌da"
+          "da"
         ]
       ],
       "hu": [
@@ -83035,8 +83099,12 @@ const SENTENCES = [
           "táska"
         ],
         [
+          "C",
+          "túl"
+        ],
+        [
           "D",
-          "túl drága"
+          "drága"
         ]
       ],
       "nl": [
@@ -83072,7 +83140,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "jest za droga"
+          "jest"
+        ],
+        [
+          "C",
+          "za"
+        ],
+        [
+          "D",
+          "droga"
         ]
       ],
       "mg": [
@@ -83122,7 +83198,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "on liian kallis"
+          "on"
+        ],
+        [
+          "C",
+          "liian"
+        ],
+        [
+          "D",
+          "kallis"
         ]
       ],
       "cy": [
@@ -84050,7 +84134,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "je příliš drahá"
+          "je"
+        ],
+        [
+          "C",
+          "příliš"
+        ],
+        [
+          "D",
+          "drahá"
         ]
       ],
       "ca": [
@@ -84406,7 +84498,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "је превише скупа"
+          "је"
+        ],
+        [
+          "C",
+          "превише"
+        ],
+        [
+          "D",
+          "скупа"
         ]
       ],
       "bg": [
@@ -84420,7 +84520,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "е твърде скъпа"
+          "е"
+        ],
+        [
+          "C",
+          "твърде"
+        ],
+        [
+          "D",
+          "скъпа"
         ]
       ],
       "sk": [
@@ -84434,7 +84542,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "je príliš drahá"
+          "je"
+        ],
+        [
+          "C",
+          "príliš"
+        ],
+        [
+          "D",
+          "drahá"
         ]
       ],
       "lv": [
@@ -86246,7 +86362,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "je preveč draga"
+          "je"
+        ],
+        [
+          "C",
+          "preveč"
+        ],
+        [
+          "D",
+          "draga"
         ]
       ],
       "pau": [
@@ -87755,7 +87879,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "‌sin"
+          "sin"
         ],
         [
           "C",
@@ -91577,7 +91701,7 @@ const SENTENCES = [
       "hy": [
         [
           "A",
-          "այս առավոտվանից"
+          "Այս առավոտվանից"
         ],
         [
           "D",
@@ -99751,11 +99875,11 @@ const SENTENCES = [
           "hizkuntza"
         ],
         [
-          "B",
+          "F",
           "berri"
         ],
         [
-          "F",
+          "B",
           "bat"
         ],
         [
@@ -100400,7 +100524,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "nissin"
+          "nisin"
         ]
       ],
       "qu": [
@@ -101000,7 +101124,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "Chci se"
+          "se chci"
         ],
         [
           "D",
@@ -101460,11 +101584,11 @@ const SENTENCES = [
         ],
         [
           "E",
-          "chcem"
+          "sa chcem"
         ],
         [
           "D",
-          "sa naučiť"
+          "naučiť"
         ],
         [
           "F",
@@ -103019,11 +103143,15 @@ const SENTENCES = [
           "imparare"
         ],
         [
-          "F",
-          "una limba"
+          "B",
+          "una"
         ],
         [
           "C",
+          "limba"
+        ],
+        [
+          "F",
           "noa"
         ]
       ],
@@ -104662,12 +104790,16 @@ const SENTENCES = [
           "A könyvtár"
         ],
         [
-          "B",
-          "mellett van"
+          "C",
+          "a kórház"
         ],
         [
-          "C",
-          "a kórháznak"
+          "B",
+          "mellett"
+        ],
+        [
+          "D",
+          "van"
         ]
       ],
       "nl": [
@@ -105988,12 +106120,12 @@ const SENTENCES = [
           "on"
         ],
         [
-          "B",
-          "kõrval"
-        ],
-        [
           "C",
           "haigla"
+        ],
+        [
+          "B",
+          "kõrval"
         ]
       ],
       "be": [
@@ -109078,7 +109210,7 @@ const SENTENCES = [
       "nv": [
         [
           "A",
-          "Tʼáá shǫodí"
+          "Tʼáá shǫǫdí"
         ],
         [
           "C",
@@ -112839,7 +112971,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "nél"
+          "‌nél"
         ],
         [
           "E",
@@ -116009,7 +116141,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "‌in"
+          "in"
         ],
         [
           "F",
@@ -117195,10 +117327,6 @@ const SENTENCES = [
         [
           "E",
           "парке"
-        ],
-        [
-          "D",
-          "сейчас"
         ]
       ],
       "uk": [
@@ -117217,10 +117345,6 @@ const SENTENCES = [
         [
           "E",
           "парку"
-        ],
-        [
-          "D",
-          "зараз"
         ]
       ],
       "ar": [
@@ -117842,7 +117966,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "an"
+          "‌an"
         ],
         [
           "C",
@@ -118384,7 +118508,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ում"
+          "‌ում"
         ],
         [
           "C",
@@ -120782,7 +120906,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "‌in"
+          "in"
         ],
         [
           "E",
@@ -121313,12 +121437,8 @@ const SENTENCES = [
           "Otroci"
         ],
         [
-          "D",
-          "se"
-        ],
-        [
           "C",
-          "igrajo"
+          "se igrajo"
         ],
         [
           "B",
@@ -126012,8 +126132,12 @@ const SENTENCES = [
       ],
       "uk": [
         [
+          "G",
+          "Чи"
+        ],
+        [
           "A",
-          "Чи могли б"
+          "могли б"
         ],
         [
           "B",
@@ -126670,11 +126794,15 @@ const SENTENCES = [
       ],
       "eu": [
         [
-          "F",
-          "Jatetxe on"
+          "E",
+          "Jatetxe"
         ],
         [
-          "E",
+          "F",
+          "on"
+        ],
+        [
+          "D",
           "bat"
         ],
         [
@@ -126682,8 +126810,12 @@ const SENTENCES = [
           "gomendatu"
         ],
         [
+          "G",
+          "al"
+        ],
+        [
           "A",
-          "al didazu"
+          "didazu"
         ]
       ],
       "hu": [
@@ -126732,12 +126864,16 @@ const SENTENCES = [
       ],
       "pl": [
         [
+          "G",
+          "Czy"
+        ],
+        [
           "A",
-          "Czy mógłby"
+          "mógłby"
         ],
         [
           "B",
-          "Pan"
+          "pan"
         ],
         [
           "C",
@@ -127295,11 +127431,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "baa shił hólne'"
+          "baa shił hólneʼ"
         ],
         [
           "A",
-          "ya'"
+          "yaʼ"
         ]
       ],
       "qu": [
@@ -127719,7 +127855,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "ἑστιατόριον;"
+          "ἑστιατόριον"
         ]
       ],
       "sv": [
@@ -127922,8 +128058,12 @@ const SENTENCES = [
       ],
       "lt": [
         [
+          "G",
+          "Ar"
+        ],
+        [
           "A",
-          "Ar galėtumėte"
+          "galėtumėte"
         ],
         [
           "C",
@@ -127940,20 +128080,28 @@ const SENTENCES = [
       ],
       "sq": [
         [
+          "G",
+          "A"
+        ],
+        [
           "A",
-          "A mund të"
+          "mund të"
         ],
         [
           "C",
           "rekomandoni"
         ],
         [
-          "F",
+          "D",
           "një"
         ],
         [
           "E",
-          "restorant të mirë"
+          "restorant"
+        ],
+        [
+          "F",
+          "të mirë"
         ]
       ],
       "mt": [
@@ -128218,8 +128366,12 @@ const SENTENCES = [
       ],
       "sr": [
         [
+          "G",
+          "Да ли"
+        ],
+        [
           "A",
-          "Да ли бисте"
+          "бисте"
         ],
         [
           "C",
@@ -128237,7 +128389,11 @@ const SENTENCES = [
       "bg": [
         [
           "A",
-          "Бихте ли"
+          "Бихте"
+        ],
+        [
+          "G",
+          "ли"
         ],
         [
           "C",
@@ -128272,8 +128428,16 @@ const SENTENCES = [
       ],
       "lv": [
         [
+          "G",
+          "Vai"
+        ],
+        [
+          "B",
+          "jūs"
+        ],
+        [
           "A",
-          "Vai jūs varētu"
+          "varētu"
         ],
         [
           "C",
@@ -128290,8 +128454,16 @@ const SENTENCES = [
       ],
       "et": [
         [
+          "G",
+          "Kas"
+        ],
+        [
+          "B",
+          "te"
+        ],
+        [
           "A",
-          "Kas te saaksite"
+          "saaksite"
         ],
         [
           "C",
@@ -128308,8 +128480,12 @@ const SENTENCES = [
       ],
       "be": [
         [
+          "G",
+          "Ці"
+        ],
+        [
           "A",
-          "Ці маглі б"
+          "маглі б"
         ],
         [
           "B",
@@ -129635,7 +129811,11 @@ const SENTENCES = [
       "cu": [
         [
           "A",
-          "Можеши ли"
+          "Можеши"
+        ],
+        [
+          "G",
+          "ли"
         ],
         [
           "C",
@@ -131324,7 +131504,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "nire aterki"
+          "nire aterkia"
         ],
         [
           "C",
@@ -132296,7 +132476,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "zapomněl"
+          "jsem zapomněl"
         ],
         [
           "B",
@@ -135549,7 +135729,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "jakin du"
+          "daki"
         ]
       ],
       "hu": [
@@ -140199,11 +140379,15 @@ const SENTENCES = [
         ],
         [
           "B",
-          "datorren astelehena"
+          "datorren"
+        ],
+        [
+          "D",
+          "astelehena"
         ],
         [
           "C",
-          "‌da"
+          "da"
         ]
       ],
       "hu": [
@@ -140213,7 +140397,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "jövő hétfőn"
+          "jövő"
+        ],
+        [
+          "D",
+          "hétfőn"
         ],
         [
           "C",
@@ -140249,7 +140437,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "w przyszły poniedziałek"
+          "w przyszły"
+        ],
+        [
+          "D",
+          "poniedziałek"
         ]
       ],
       "mg": [
@@ -140291,7 +140483,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ensi maanantaina"
+          "ensi"
+        ],
+        [
+          "D",
+          "maanantaina"
         ]
       ],
       "cy": [
@@ -140501,7 +140697,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "την επόμενη Δευτέρα"
+          "την επόμενη"
+        ],
+        [
+          "D",
+          "Δευτέρα"
         ]
       ],
       "ka": [
@@ -140621,7 +140821,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "հաջորդ երկուշաբթի"
+          "հաջորդ"
+        ],
+        [
+          "D",
+          "երկուշաբթի"
         ],
         [
           "C",
@@ -140963,7 +141167,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "τῇ ἐπιούσῃ δευτέρᾳ ἡμέρᾳ"
+          "τῇ ἐπιούσῃ"
+        ],
+        [
+          "D",
+          "δευτέρᾳ ἡμέρᾳ"
         ],
         [
           "C",
@@ -141071,7 +141279,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "příští pondělí"
+          "příští"
+        ],
+        [
+          "D",
+          "pondělí"
         ]
       ],
       "ca": [
@@ -141139,7 +141351,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "kitą pirmadienį"
+          "kitą"
+        ],
+        [
+          "D",
+          "pirmadienį"
         ]
       ],
       "sq": [
@@ -141152,8 +141368,12 @@ const SENTENCES = [
           "është"
         ],
         [
+          "D",
+          "të hënën"
+        ],
+        [
           "B",
-          "të hënën e ardhshme"
+          "e ardhshme"
         ]
       ],
       "mt": [
@@ -141371,7 +141591,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "следећег понедељка"
+          "следећег"
+        ],
+        [
+          "D",
+          "понедељка"
         ]
       ],
       "bg": [
@@ -141385,7 +141609,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "следващия понеделник"
+          "следващия"
+        ],
+        [
+          "D",
+          "понеделник"
         ]
       ],
       "sk": [
@@ -141399,7 +141627,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "budúci pondelok"
+          "budúci"
+        ],
+        [
+          "D",
+          "pondelok"
         ]
       ],
       "lv": [
@@ -141413,7 +141645,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "nākamajā pirmdienā"
+          "nākamajā"
+        ],
+        [
+          "D",
+          "pirmdienā"
         ]
       ],
       "et": [
@@ -141427,7 +141663,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "järgmisel esmaspäeval"
+          "järgmisel"
+        ],
+        [
+          "D",
+          "esmaspäeval"
         ]
       ],
       "be": [
@@ -141441,7 +141681,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "у наступны панядзелак"
+          "у наступны"
+        ],
+        [
+          "D",
+          "панядзелак"
         ]
       ],
       "om": [
@@ -142435,7 +142679,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "въ грѧдѫщии понедѣльникъ"
+          "въ грѧдѫщии"
+        ],
+        [
+          "D",
+          "понедѣльникъ"
         ]
       ],
       "pi": [
@@ -142462,8 +142710,12 @@ const SENTENCES = [
           "è"
         ],
         [
+          "D",
+          "glindesdi"
+        ],
+        [
           "B",
-          "glindesdi che vegn"
+          "che vegn"
         ]
       ],
       "fy": [
@@ -142494,8 +142746,12 @@ const SENTENCES = [
           "est"
         ],
         [
+          "D",
+          "lunis"
+        ],
+        [
           "B",
-          "lunis chi benit"
+          "chi benit"
         ]
       ],
       "chr": [
@@ -142915,7 +143171,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "prihodnji ponedeljek"
+          "prihodnji"
+        ],
+        [
+          "D",
+          "ponedeljek"
         ]
       ],
       "pau": [
@@ -144124,7 +144384,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "jan nahi dut"
+          "jan"
+        ],
+        [
+          "E",
+          "nahi dut"
         ]
       ],
       "hu": [
@@ -144728,7 +144992,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "nissin"
+          "nisin"
         ]
       ],
       "qu": [
@@ -148908,7 +149172,11 @@ const SENTENCES = [
       "eu": [
         [
           "A",
-          "Hoteleko gela"
+          "Hoteleko"
+        ],
+        [
+          "E",
+          "gela"
         ],
         [
           "C",
@@ -148961,8 +149229,12 @@ const SENTENCES = [
       ],
       "pl": [
         [
+          "E",
+          "Pokój"
+        ],
+        [
           "A",
-          "Pokój hotelowy"
+          "hotelowy"
         ],
         [
           "B",
@@ -149289,8 +149561,12 @@ const SENTENCES = [
       ],
       "el": [
         [
+          "E",
+          "Το δωμάτιο"
+        ],
+        [
           "A",
-          "Το δωμάτιο του ξενοδοχείου"
+          "του ξενοδοχείου"
         ],
         [
           "B",
@@ -149446,7 +149722,11 @@ const SENTENCES = [
       "hy": [
         [
           "A",
-          "Հյուրանոցի սենյակը"
+          "Հյուրանոցի"
+        ],
+        [
+          "E",
+          "սենյակը"
         ],
         [
           "C",
@@ -149867,8 +150147,12 @@ const SENTENCES = [
       ],
       "el_grc": [
         [
+          "E",
+          "τὸ δωμάτιον"
+        ],
+        [
           "A",
-          "τὸ δωμάτιον τοῦ πανδοχείου"
+          "τοῦ πανδοχείου"
         ],
         [
           "C",
@@ -149984,7 +150268,11 @@ const SENTENCES = [
       "cs": [
         [
           "A",
-          "Hotelový pokoj"
+          "Hotelový"
+        ],
+        [
+          "E",
+          "pokoj"
         ],
         [
           "B",
@@ -150060,7 +150348,11 @@ const SENTENCES = [
       "lt": [
         [
           "A",
-          "Viešbučio kambarys"
+          "Viešbučio"
+        ],
+        [
+          "E",
+          "kambarys"
         ],
         [
           "B",
@@ -150077,8 +150369,12 @@ const SENTENCES = [
       ],
       "sq": [
         [
+          "E",
+          "Dhoma"
+        ],
+        [
           "A",
-          "Dhoma e hotelit"
+          "e hotelit"
         ],
         [
           "B",
@@ -150340,7 +150636,11 @@ const SENTENCES = [
       "sr": [
         [
           "A",
-          "Хотелска соба"
+          "Хотелска"
+        ],
+        [
+          "E",
+          "соба"
         ],
         [
           "B",
@@ -150358,7 +150658,11 @@ const SENTENCES = [
       "bg": [
         [
           "A",
-          "Хотелската стая"
+          "Хотелската"
+        ],
+        [
+          "E",
+          "стая"
         ],
         [
           "B",
@@ -150376,7 +150680,11 @@ const SENTENCES = [
       "sk": [
         [
           "A",
-          "Hotelová izba"
+          "Hotelová"
+        ],
+        [
+          "E",
+          "izba"
         ],
         [
           "B",
@@ -150394,7 +150702,11 @@ const SENTENCES = [
       "lv": [
         [
           "A",
-          "Viesnīcas istaba"
+          "Viesnīcas"
+        ],
+        [
+          "E",
+          "istaba"
         ],
         [
           "B",
@@ -150430,7 +150742,11 @@ const SENTENCES = [
       "be": [
         [
           "A",
-          "Гатэльны нумар"
+          "Гатэльны"
+        ],
+        [
+          "E",
+          "нумар"
         ],
         [
           "B",
@@ -151667,8 +151983,12 @@ const SENTENCES = [
       ],
       "cu": [
         [
+          "E",
+          "Хлѣвина"
+        ],
+        [
           "A",
-          "Хлѣвина въ гостиньници"
+          "въ гостиньници"
         ],
         [
           "C",
@@ -152288,7 +152608,11 @@ const SENTENCES = [
       "sl": [
         [
           "A",
-          "Hotelska soba"
+          "Hotelska"
+        ],
+        [
+          "E",
+          "soba"
         ],
         [
           "B",
@@ -153728,7 +154052,7 @@ const SENTENCES = [
       "nv": [
         [
           "A",
-          "Tʼáá shǫodí"
+          "Tʼáá shǫǫdí"
         ],
         [
           "B",
@@ -157153,11 +157477,11 @@ const SENTENCES = [
       ],
       "pl": [
         [
-          "E",
+          "A",
           "Mój"
         ],
         [
-          "A",
+          "E",
           "starszy brat"
         ],
         [
@@ -158203,11 +158527,11 @@ const SENTENCES = [
       ],
       "cs": [
         [
-          "E",
+          "A",
           "Můj"
         ],
         [
-          "A",
+          "E",
           "starší bratr"
         ],
         [
@@ -158575,11 +158899,11 @@ const SENTENCES = [
       ],
       "sr": [
         [
-          "E",
+          "A",
           "Мој"
         ],
         [
-          "A",
+          "E",
           "старији брат"
         ],
         [
@@ -158615,11 +158939,11 @@ const SENTENCES = [
       ],
       "sk": [
         [
-          "E",
+          "A",
           "Môj"
         ],
         [
-          "A",
+          "E",
           "starší brat"
         ],
         [
@@ -158659,11 +158983,11 @@ const SENTENCES = [
       ],
       "et": [
         [
-          "E",
+          "A",
           "Minu"
         ],
         [
-          "A",
+          "E",
           "vanem vend"
         ],
         [
@@ -158681,11 +159005,11 @@ const SENTENCES = [
       ],
       "be": [
         [
-          "E",
+          "A",
           "Мой"
         ],
         [
-          "A",
+          "E",
           "старэйшы брат"
         ],
         [
@@ -159904,7 +160228,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "въ минѫвъшии мѣсѧць"
+          "въ минѫвъшии"
+        ],
+        [
+          "D",
+          "мѣсѧць"
         ]
       ],
       "pi": [
@@ -160527,11 +160855,11 @@ const SENTENCES = [
       ],
       "sl": [
         [
-          "E",
+          "A",
           "Moj"
         ],
         [
-          "A",
+          "E",
           "starejši brat"
         ],
         [
@@ -165778,7 +166106,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "oparria"
+          "opari bat"
         ],
         [
           "E",
@@ -165932,7 +166260,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "lahja"
+          "‌lahja"
         ]
       ],
       "cy": [
@@ -166196,11 +166524,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ένα"
+          "ένα δώρο"
         ],
         [
           "C",
-          "δώρο γενεθλίων"
+          "γενεθλίων"
         ]
       ],
       "ka": [
@@ -167076,11 +167404,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "një"
+          "një dhuratë"
         ],
         [
           "C",
-          "dhuratë ditëlindjeje"
+          "ditëlindjeje"
         ]
       ],
       "mt": [
@@ -167375,12 +167703,12 @@ const SENTENCES = [
           "да купя"
         ],
         [
-          "C",
-          "рожден ден"
-        ],
-        [
           "D",
           "подарък"
+        ],
+        [
+          "C",
+          "за рожден ден"
         ]
       ],
       "sk": [
@@ -167411,7 +167739,7 @@ const SENTENCES = [
           "Man"
         ],
         [
-          "B",
+          "B|E",
           "jānopērk"
         ],
         [
@@ -168886,11 +169214,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "unu"
+          "unu regalu"
         ],
         [
           "C",
-          "regalu de anniversàriu"
+          "de anniversàriu"
         ]
       ],
       "chr": [
@@ -172883,7 +173211,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "dad"
+          "da"
         ],
         [
           "D",
@@ -176225,7 +176553,7 @@ const SENTENCES = [
           "rīt"
         ],
         [
-          "E",
+          "D|E",
           "jāceļas"
         ],
         [
@@ -179543,8 +179871,12 @@ const SENTENCES = [
       ],
       "pl": [
         [
+          "F",
+          "Czy"
+        ],
+        [
           "E",
-          "Czy wie"
+          "wie"
         ],
         [
           "A",
@@ -180106,7 +180438,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "‌ni"
+          "ni"
         ],
         [
           "E",
@@ -180525,8 +180857,12 @@ const SENTENCES = [
       ],
       "el_grc": [
         [
+          "F",
+          "ἆρα"
+        ],
+        [
           "E",
-          "ἆρα οἶσθα"
+          "οἶσθα"
         ],
         [
           "A",
@@ -180542,7 +180878,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ἐστίν;"
+          "ἐστίν"
         ]
       ],
       "sv": [
@@ -180733,8 +181069,12 @@ const SENTENCES = [
       ],
       "lt": [
         [
+          "F",
+          "Ar"
+        ],
+        [
           "E",
-          "Ar žinote"
+          "žinote"
         ],
         [
           "C",
@@ -180751,8 +181091,12 @@ const SENTENCES = [
       ],
       "sq": [
         [
+          "F",
+          "A"
+        ],
+        [
           "E",
-          "A e dini"
+          "e dini"
         ],
         [
           "C",
@@ -181022,7 +181366,11 @@ const SENTENCES = [
       "sr": [
         [
           "E",
-          "Знате ли"
+          "Знате"
+        ],
+        [
+          "F",
+          "ли"
         ],
         [
           "C",
@@ -181040,7 +181388,11 @@ const SENTENCES = [
       "bg": [
         [
           "E",
-          "Знаете ли"
+          "Знаете"
+        ],
+        [
+          "F",
+          "ли"
         ],
         [
           "C",
@@ -181075,8 +181427,16 @@ const SENTENCES = [
       ],
       "lv": [
         [
+          "F",
+          "Vai"
+        ],
+        [
+          "A",
+          "jūs"
+        ],
+        [
           "E",
-          "Vai jūs zināt"
+          "zināt"
         ],
         [
           "C",
@@ -181093,8 +181453,16 @@ const SENTENCES = [
       ],
       "et": [
         [
+          "F",
+          "Kas"
+        ],
+        [
+          "A",
+          "te"
+        ],
+        [
           "E",
-          "Kas te teate"
+          "teate"
         ],
         [
           "C",
@@ -181111,8 +181479,12 @@ const SENTENCES = [
       ],
       "be": [
         [
+          "F",
+          "Ці"
+        ],
+        [
           "E",
-          "Ці ведаеце"
+          "ведаеце"
         ],
         [
           "A",
@@ -182434,7 +182806,11 @@ const SENTENCES = [
         ],
         [
           "E",
-          "вѣси ли"
+          "вѣси"
+        ],
+        [
+          "F",
+          "ли"
         ],
         [
           "C",
@@ -184473,7 +184849,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "Teraz"
+          "teraz"
         ],
         [
           "E",
@@ -185788,12 +186164,16 @@ const SENTENCES = [
           "po lexoj"
         ],
         [
-          "F",
+          "D",
           "një"
         ],
         [
+          "F",
+          "libër"
+        ],
+        [
           "C",
-          "libër interesant"
+          "interesant"
         ]
       ],
       "mt": [
@@ -190184,7 +190564,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "éé'"
+          "ééʼ"
         ],
         [
           "C",
@@ -192707,12 +193087,12 @@ const SENTENCES = [
           "adina"
         ],
         [
-          "D",
-          "ina cotschna"
+          "E",
+          "ina vesta"
         ],
         [
-          "E",
-          "vesta"
+          "D",
+          "cotschna"
         ]
       ],
       "fy": [
@@ -192751,12 +193131,12 @@ const SENTENCES = [
           "semper"
         ],
         [
-          "D",
-          "unu rùbiu"
+          "E",
+          "unu bestire"
         ],
         [
-          "E",
-          "bestire"
+          "D",
+          "rùbiu"
         ]
       ],
       "chr": [
@@ -194463,11 +194843,11 @@ const SENTENCES = [
       ],
       "eu": [
         [
-          "A|E",
+          "E",
           "Jatetxe"
         ],
         [
-          "D",
+          "A|D",
           "honetako"
         ],
         [
@@ -199394,7 +199774,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "nissin"
+          "nisin"
         ]
       ],
       "qu": [
@@ -199842,7 +200222,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "Chci"
+          "chci"
         ],
         [
           "C",
@@ -203210,12 +203590,8 @@ const SENTENCES = [
       ],
       "hu": [
         [
-          "E",
-          "Ebben"
-        ],
-        [
-          "F",
-          "az"
+          "E|F",
+          "Ebben az"
         ],
         [
           "A",
@@ -209027,7 +209403,7 @@ const SENTENCES = [
       ],
       "pl": [
         [
-          "E",
+          "E|H",
           "Rozmawiałem"
         ],
         [
@@ -212961,11 +213337,11 @@ const SENTENCES = [
           "Jau"
         ],
         [
-          "E",
+          "H",
           "hai"
         ],
         [
-          "H",
+          "E",
           "discurrì"
         ],
         [
@@ -213029,11 +213405,11 @@ const SENTENCES = [
           "Deo"
         ],
         [
-          "E",
+          "H",
           "apo"
         ],
         [
-          "H",
+          "E",
           "chistionadu"
         ],
         [
@@ -219705,7 +220081,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "nissin"
+          "nisin"
         ]
       ],
       "qu": [
@@ -224124,7 +224500,7 @@ const SENTENCES = [
           "nekem"
         ],
         [
-          "F",
+          "F|G",
           "a reptérre"
         ],
         [
@@ -224272,7 +224648,7 @@ const SENTENCES = [
           "tie"
         ],
         [
-          "F",
+          "F|G",
           "lentokentälle"
         ]
       ],
@@ -224767,7 +225143,7 @@ const SENTENCES = [
       "nv": [
         [
           "A",
-          "Tʼáá shǫodí"
+          "Tʼáá shǫǫdí"
         ],
         [
           "F",
@@ -225970,7 +226346,7 @@ const SENTENCES = [
           "tee"
         ],
         [
-          "F",
+          "F|G",
           "lennujaama"
         ]
       ],
@@ -229213,12 +229589,8 @@ const SENTENCES = [
       ],
       "hu": [
         [
-          "E",
-          "A"
-        ],
-        [
-          "A",
-          "kutyám"
+          "A|E",
+          "A kutyám"
         ],
         [
           "D",
@@ -233358,12 +233730,8 @@ const SENTENCES = [
       ],
       "hu": [
         [
-          "E",
-          "A"
-        ],
-        [
-          "A",
-          "nagymamám"
+          "A|E",
+          "A nagymamám"
         ],
         [
           "B",
@@ -236304,11 +236672,11 @@ const SENTENCES = [
           "quinta"
         ],
         [
-          "B",
+          "C",
           "istorgias"
         ],
         [
-          "C",
+          "B",
           "interessantas"
         ]
       ],
@@ -236348,11 +236716,11 @@ const SENTENCES = [
           "contat"
         ],
         [
-          "B",
+          "C",
           "istòrias"
         ],
         [
-          "C",
+          "B",
           "interessantes"
         ]
       ],
@@ -238265,12 +238633,12 @@ const SENTENCES = [
           "Én"
         ],
         [
-          "F",
-          "a"
+          "D",
+          "a piac"
         ],
         [
-          "D",
-          "piacon"
+          "F",
+          "‌on"
         ],
         [
           "C",
@@ -240040,7 +240408,7 @@ const SENTENCES = [
         ],
         [
           "F",
-          "l"
+          "‌l"
         ]
       ],
       "be": [
@@ -241560,7 +241928,7 @@ const SENTENCES = [
         ],
         [
           "F",
-          "‌in"
+          "in"
         ],
         [
           "D",
@@ -248776,7 +249144,7 @@ const SENTENCES = [
           "Mums"
         ],
         [
-          "D",
+          "C|D",
           "jāaizsargā"
         ],
         [
@@ -257127,7 +257495,7 @@ const SENTENCES = [
       "eu": [
         [
           "A",
-          "Kontzertuak"
+          "Kontzertua"
         ],
         [
           "C",
@@ -266046,7 +266414,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "nissin"
+          "nisin"
         ]
       ],
       "qu": [
@@ -266598,7 +266966,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "vyfotit"
+          "udělat"
         ],
         [
           "C",
@@ -266686,7 +267054,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "nufotografuoti"
+          "padaryti"
         ],
         [
           "C",
@@ -266986,7 +267354,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "да сликам"
+          "да направим"
         ],
         [
           "C",
@@ -267030,7 +267398,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "odfotiť"
+          "urobiť"
         ],
         [
           "C",
@@ -270207,7 +270575,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ամեն 15 րոպեը"
+          "ամեն 15 րոպեն մեկ"
         ],
         [
           "C",
@@ -280483,8 +280851,12 @@ const SENTENCES = [
           "El"
         ],
         [
+          "E",
+          "arriva"
+        ],
+        [
           "B",
-          "arriva adina"
+          "adina"
         ],
         [
           "C",
@@ -280523,8 +280895,12 @@ const SENTENCES = [
           "Issu"
         ],
         [
+          "E",
+          "arribat"
+        ],
+        [
           "B",
-          "arribat semper"
+          "semper"
         ],
         [
           "C",
@@ -282936,7 +283312,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "nissin"
+          "nisin"
         ]
       ],
       "qu": [
@@ -306550,8 +306926,12 @@ const SENTENCES = [
       ],
       "uk": [
         [
+          "E",
+          "Чи"
+        ],
+        [
           "D",
-          "Чи можна"
+          "можна"
         ],
         [
           "A",
@@ -307065,7 +307445,7 @@ const SENTENCES = [
       "eu": [
         [
           "A",
-          "Nik"
+          "Ni"
         ],
         [
           "B",
@@ -307077,7 +307457,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "dezaket"
+          "naiteke"
         ]
       ],
       "hu": [
@@ -307114,11 +307494,11 @@ const SENTENCES = [
       ],
       "pl": [
         [
-          "D",
+          "E",
           "Czy"
         ],
         [
-          "E",
+          "D",
           "mogę"
         ],
         [
@@ -307932,7 +308312,7 @@ const SENTENCES = [
       ],
       "el_grc": [
         [
-          "D",
+          "E",
           "ἆρα"
         ],
         [
@@ -307945,7 +308325,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "καθίζεσθαι δύναμαι;"
+          "καθίζεσθαι"
+        ],
+        [
+          "D",
+          "δύναμαι"
         ]
       ],
       "sv": [
@@ -308104,8 +308488,12 @@ const SENTENCES = [
       ],
       "lt": [
         [
+          "E",
+          "Ar"
+        ],
+        [
           "D",
-          "Ar galiu"
+          "galiu"
         ],
         [
           "C",
@@ -308118,8 +308506,12 @@ const SENTENCES = [
       ],
       "sq": [
         [
+          "E",
+          "A"
+        ],
+        [
           "D",
-          "A mund të"
+          "mund të"
         ],
         [
           "C",
@@ -308341,7 +308733,11 @@ const SENTENCES = [
       "sr": [
         [
           "D",
-          "Могу ли"
+          "Могу"
+        ],
+        [
+          "E",
+          "ли"
         ],
         [
           "C",
@@ -308355,7 +308751,11 @@ const SENTENCES = [
       "bg": [
         [
           "D",
-          "Мога ли"
+          "Мога"
+        ],
+        [
+          "E",
+          "ли"
         ],
         [
           "C",
@@ -308382,7 +308782,7 @@ const SENTENCES = [
       ],
       "lv": [
         [
-          "D",
+          "E",
           "Vai"
         ],
         [
@@ -308390,8 +308790,12 @@ const SENTENCES = [
           "es"
         ],
         [
+          "D",
+          "varu"
+        ],
+        [
           "C",
-          "varu apsēsties"
+          "apsēsties"
         ],
         [
           "B",
@@ -308400,7 +308804,7 @@ const SENTENCES = [
       ],
       "et": [
         [
-          "D",
+          "E",
           "Kas"
         ],
         [
@@ -308408,8 +308812,12 @@ const SENTENCES = [
           "ma"
         ],
         [
+          "D",
+          "võin"
+        ],
+        [
           "C",
-          "võin istuda"
+          "istuda"
         ],
         [
           "B",
@@ -308418,8 +308826,12 @@ const SENTENCES = [
       ],
       "be": [
         [
+          "E",
+          "Ці"
+        ],
+        [
           "D",
-          "Ці магу"
+          "магу"
         ],
         [
           "A",
@@ -309485,7 +309897,11 @@ const SENTENCES = [
       "cu": [
         [
           "D",
-          "Могѫ ли"
+          "Могѫ"
+        ],
+        [
+          "E",
+          "ли"
         ],
         [
           "A",
@@ -322384,7 +322800,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "nissin"
+          "nisin"
         ]
       ],
       "qu": [
@@ -347652,8 +348068,12 @@ const SENTENCES = [
           "από"
         ],
         [
-          "B|E",
+          "B",
           "τα αποτελέσματα"
+        ],
+        [
+          "E",
+          "του τεστ"
         ]
       ],
       "ka": [
@@ -351771,7 +352191,7 @@ const SENTENCES = [
       "pl": [
         [
           "D",
-          "Myślę że"
+          "Myślę, że"
         ],
         [
           "A",
@@ -354733,11 +355153,15 @@ const SENTENCES = [
       "sl": [
         [
           "D",
-          "Mislim"
+          "Mislim da"
+        ],
+        [
+          "C",
+          "je"
         ],
         [
           "A",
-          "da je ta"
+          "ta"
         ],
         [
           "B",
@@ -365934,7 +366358,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "esperiència"
+          "‌esperiència"
         ],
         [
           "G",
@@ -374183,7 +374607,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "at nadu"
+          "‌at nadu"
         ],
         [
           "C",
@@ -379826,7 +380250,7 @@ const SENTENCES = [
           "héten"
         ],
         [
-          "B",
+          "B|C",
           "megfázott"
         ]
       ],
@@ -393163,7 +393587,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "jest bardzo wygodna"
+          "jest"
+        ],
+        [
+          "C",
+          "bardzo"
+        ],
+        [
+          "D",
+          "wygodna"
         ]
       ],
       "mg": [
@@ -393212,8 +393644,12 @@ const SENTENCES = [
           "sovellus"
         ],
         [
+          "D",
+          "on"
+        ],
+        [
           "C",
-          "on todella"
+          "todella"
         ],
         [
           "D",
@@ -393458,8 +393894,12 @@ const SENTENCES = [
           "η εφαρμογή"
         ],
         [
+          "D",
+          "είναι"
+        ],
+        [
           "C",
-          "είναι πολύ"
+          "πολύ"
         ],
         [
           "D",
@@ -394133,7 +394573,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "je velmi praktická"
+          "je"
+        ],
+        [
+          "C",
+          "velmi"
+        ],
+        [
+          "D",
+          "praktická"
         ]
       ],
       "ca": [
@@ -394212,8 +394660,12 @@ const SENTENCES = [
           "programėlė"
         ],
         [
+          "D",
+          "yra"
+        ],
+        [
           "C",
-          "yra labai"
+          "labai"
         ],
         [
           "D",
@@ -394230,8 +394682,12 @@ const SENTENCES = [
           "aplikacion"
         ],
         [
+          "D",
+          "është"
+        ],
+        [
           "C",
-          "është shumë"
+          "shumë"
         ],
         [
           "D",
@@ -394469,7 +394925,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "је веома згодна"
+          "је"
+        ],
+        [
+          "C",
+          "веома"
+        ],
+        [
+          "D",
+          "згодна"
         ]
       ],
       "bg": [
@@ -394483,7 +394947,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "е много удобно"
+          "е"
+        ],
+        [
+          "C",
+          "много"
+        ],
+        [
+          "D",
+          "удобно"
         ]
       ],
       "sk": [
@@ -394497,7 +394969,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "je veľmi praktická"
+          "je"
+        ],
+        [
+          "C",
+          "veľmi"
+        ],
+        [
+          "D",
+          "praktická"
         ]
       ],
       "lv": [
@@ -394510,8 +394990,12 @@ const SENTENCES = [
           "lietotne"
         ],
         [
+          "D",
+          "ir"
+        ],
+        [
           "C",
-          "ir ļoti"
+          "ļoti"
         ],
         [
           "D",
@@ -394528,8 +395012,12 @@ const SENTENCES = [
           "rakendus"
         ],
         [
+          "D",
+          "on"
+        ],
+        [
           "C",
-          "on väga"
+          "väga"
         ],
         [
           "D",
@@ -395732,8 +396220,12 @@ const SENTENCES = [
           "app"
         ],
         [
+          "D",
+          "è"
+        ],
+        [
           "C",
-          "è fitg"
+          "fitg"
         ],
         [
           "D",
@@ -395772,8 +396264,12 @@ const SENTENCES = [
           "app"
         ],
         [
+          "D",
+          "est"
+        ],
+        [
           "C",
-          "est meda"
+          "meda"
         ],
         [
           "D",
@@ -396281,7 +396777,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "je zelo uporabna"
+          "je"
+        ],
+        [
+          "C",
+          "zelo"
+        ],
+        [
+          "D",
+          "uporabna"
         ]
       ],
       "pau": [
@@ -400820,7 +401324,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "-jelszót"
+          "‌-jelszót"
         ]
       ],
       "nl": [
@@ -400925,7 +401429,7 @@ const SENTENCES = [
       ],
       "fi": [
         [
-          "A",
+          "A|C",
           "En"
         ],
         [
@@ -400938,7 +401442,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "-salasanaa"
+          "‌-salasanaa"
         ]
       ],
       "cy": [
@@ -409953,7 +410457,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌da"
+          "da"
         ]
       ],
       "hu": [
@@ -410951,18 +411455,18 @@ const SENTENCES = [
       "sq": [
         [
           "A",
-          "Shikimi i lulëkuqeve"
+          "Shikimi i luleve të qershisë"
         ],
         [
           "D",
           "është"
         ],
         [
-          "B",
+          "C",
           "një traditë"
         ],
         [
-          "C",
+          "B",
           "japoneze"
         ]
       ],
@@ -418471,7 +418975,7 @@ const SENTENCES = [
       ],
       "hu": [
         [
-          "A",
+          "A|B",
           "Ebben az"
         ],
         [
@@ -419227,7 +419731,7 @@ const SENTENCES = [
           "Այս"
         ],
         [
-          "C",
+          "A|C",
           "երկրում"
         ],
         [
@@ -419270,7 +419774,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "ádaat'é"
+          "ádaatʼé"
         ]
       ],
       "qu": [
@@ -420141,11 +420645,11 @@ const SENTENCES = [
       ],
       "lt": [
         [
-          "A",
+          "B",
           "Šioje"
         ],
         [
-          "C",
+          "A|C",
           "šalyje"
         ],
         [
@@ -420627,11 +421131,11 @@ const SENTENCES = [
       ],
       "lv": [
         [
-          "A",
+          "B",
           "Šajā"
         ],
         [
-          "C",
+          "A|C",
           "valstī"
         ],
         [
@@ -424633,11 +425137,11 @@ const SENTENCES = [
           "ikaskuntza"
         ],
         [
-          "D",
+          "E",
           "ate"
         ],
         [
-          "E",
+          "D",
           "berriak"
         ],
         [
@@ -424648,11 +425152,11 @@ const SENTENCES = [
       "hu": [
         [
           "A",
-          "Nyelv"
+          "A nyelv"
         ],
         [
           "B",
-          "tanulás"
+          "‌tanulás"
         ],
         [
           "D",
@@ -425928,11 +426432,11 @@ const SENTENCES = [
       "sq": [
         [
           "B",
-          "Mësimi i"
+          "Mësimi"
         ],
         [
           "A",
-          "gjuhëve"
+          "i gjuhëve"
         ],
         [
           "C",
@@ -427666,7 +428170,7 @@ const SENTENCES = [
       "cu": [
         [
           "A",
-          "ѧзыкъ"
+          "Ѧзыкъ"
         ],
         [
           "B",
@@ -429709,7 +430213,7 @@ const SENTENCES = [
       "hy": [
         [
           "A",
-          "հեծանիվով"
+          "Հեծանիվով"
         ],
         [
           "B",
@@ -430456,8 +430960,12 @@ const SENTENCES = [
       ],
       "lv": [
         [
+          "D",
+          "Es"
+        ],
+        [
           "C",
-          "Es braucu"
+          "braucu"
         ],
         [
           "B",
@@ -430470,8 +430978,12 @@ const SENTENCES = [
       ],
       "et": [
         [
+          "D",
+          "Ma"
+        ],
+        [
           "C",
-          "Ma sõidan"
+          "sõidan"
         ],
         [
           "B",
@@ -433871,7 +434383,7 @@ const SENTENCES = [
       "nv": [
         [
           "A",
-          "Tʼáá shoodí"
+          "Tʼáá shǫǫdí"
         ],
         [
           "B",
@@ -434584,11 +435096,11 @@ const SENTENCES = [
           "në"
         ],
         [
-          "E",
+          "F",
           "kryqëzimin"
         ],
         [
-          "F",
+          "E",
           "tjetër"
         ]
       ],
@@ -442249,11 +442761,11 @@ const SENTENCES = [
           "Nik"
         ],
         [
-          "D",
+          "E",
           "plater"
         ],
         [
-          "E",
+          "D",
           "hau"
         ],
         [
@@ -446915,7 +447427,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌da"
+          "da"
         ]
       ],
       "hu": [
@@ -447735,7 +448247,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ἐστίν;"
+          "ἐστίν"
         ]
       ],
       "sv": [
@@ -447929,7 +448441,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "kjo"
+          "ky"
         ],
         [
           "B",
@@ -449255,7 +449767,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "сиꙗ"
+          "сии"
         ],
         [
           "B",
@@ -450828,7 +451340,7 @@ const SENTENCES = [
       "hy": [
         [
           "A",
-          "ամեն ինչի"
+          "Ամեն ինչի"
         ],
         [
           "C",
@@ -452301,16 +452813,16 @@ const SENTENCES = [
       ],
       "cu": [
         [
+          "C",
+          "За"
+        ],
+        [
           "A",
-          "За вьсе"
+          "вьсе"
         ],
         [
           "B",
-          "благодарѭ"
-        ],
-        [
-          "C",
-          "тѧ"
+          "благодарѭ тѧ"
         ]
       ],
       "pi": [

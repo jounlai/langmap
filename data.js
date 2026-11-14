@@ -2799,7 +2799,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "pengen"
+          "pengin"
         ],
         [
           "C",
@@ -2815,7 +2815,7 @@ const SENTENCES = [
         ],
         [
           "F",
-          "aku"
+          "tak"
         ],
         [
           "G",
@@ -14434,11 +14434,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "setiap esuk"
+          "saben ésuk"
         ],
         [
           "E",
-          "jam tujuh"
+          "jam pitu"
         ]
       ],
       "bn": [
@@ -19030,15 +19030,15 @@ const SENTENCES = [
         ],
         [
           "A",
-          "terdekat"
+          "sing paling cedhak"
         ],
         [
           "D",
-          "ing"
+          "ana"
         ],
         [
           "C",
-          "mana"
+          "ing ngendi"
         ]
       ],
       "bn": [
@@ -27342,7 +27342,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "bahasa Jepang"
+          "basa Jepang"
         ],
         [
           "B",
@@ -31369,7 +31369,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "sesuk"
+          "sésuk"
         ],
         [
           "C",
@@ -31377,7 +31377,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "cerah"
+          "terang"
         ]
       ],
       "bn": [
@@ -40198,7 +40198,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "pengen"
+          "pengin"
         ],
         [
           "C",
@@ -45969,7 +45969,7 @@ const SENTENCES = [
       "jv": [
         [
           "E",
-          "Apakah"
+          "Apa"
         ],
         [
           "A",
@@ -45985,7 +45985,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "bahasa Inggris"
+          "basa Inggris"
         ]
       ],
       "bn": [
@@ -55888,7 +55888,7 @@ const SENTENCES = [
       "jv": [
         [
           "C",
-          "Bunga sakura"
+          "Kembang sakura"
         ],
         [
           "A",
@@ -64812,7 +64812,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "kerja"
+          "nyambut gawé"
         ],
         [
           "D",
@@ -64820,7 +64820,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "setiap dina"
+          "saben dina"
         ]
       ],
       "bn": [
@@ -69413,7 +69413,7 @@ const SENTENCES = [
       "jv": [
         [
           "A",
-          "Adhik perempuan aku"
+          "Adhiku wédok"
         ],
         [
           "D",
@@ -69421,7 +69421,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "belajar ing luar negeri"
+          "sinau ing mancanegara"
         ],
         [
           "B",
@@ -83402,11 +83402,15 @@ const SENTENCES = [
         ],
         [
           "C",
-          "terlalu"
+          "ke"
         ],
         [
           "D",
-          "mahal"
+          "‌larang"
+        ],
+        [
+          "C",
+          "‌en"
         ]
       ],
       "bn": [
@@ -87683,7 +87687,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "suka"
+          "seneng"
         ],
         [
           "C",
@@ -91567,19 +91571,15 @@ const SENTENCES = [
       "jv": [
         [
           "B",
-          "Hujan"
+          "Udan"
         ],
         [
           "C",
           "terus"
         ],
         [
-          "D",
-          "turun"
-        ],
-        [
           "A",
-          "sejak esuk iki"
+          "wiwit mau ésuk"
         ]
       ],
       "bn": [
@@ -100268,7 +100268,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "bahasa"
+          "basa"
         ],
         [
           "F",
@@ -105081,7 +105081,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ing samping"
+          "ing sandhingé"
         ],
         [
           "C",
@@ -113321,11 +113321,11 @@ const SENTENCES = [
       "jv": [
         [
           "A",
-          "Ayah aku"
+          "Bapakku"
         ],
         [
           "E",
-          "bekerja"
+          "nyambut gawé"
         ],
         [
           "B",
@@ -118310,7 +118310,7 @@ const SENTENCES = [
       "jv": [
         [
           "A",
-          "Anak-anak"
+          "Bocah-bocah"
         ],
         [
           "D",
@@ -118318,7 +118318,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "bermain"
+          "dolanan"
         ],
         [
           "B",
@@ -122744,7 +122744,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "pernah lunga menyang"
+          "wis tau lunga menyang"
         ],
         [
           "B",
@@ -122752,7 +122752,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "tiga kali"
+          "ping telu"
         ]
       ],
       "bn": [
@@ -127174,16 +127174,20 @@ const SENTENCES = [
       ],
       "jv": [
         [
-          "A",
-          "Saged"
+          "G",
+          "Apa"
         ],
         [
           "B",
           "sampeyan"
         ],
         [
+          "A",
+          "bisa"
+        ],
+        [
           "C",
-          "nyaranke"
+          "nyaranaké"
         ],
         [
           "E",
@@ -131812,11 +131816,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "lupa"
+          "lali"
         ],
         [
           "B",
-          "payung aku"
+          "payungku"
         ],
         [
           "D",
@@ -136105,7 +136109,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "karo banget apik"
+          "apik banget"
         ]
       ],
       "bn": [
@@ -140675,11 +140679,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "Senin"
+          "Senèn"
         ],
         [
           "B",
-          "depan"
+          "ngarep"
         ]
       ],
       "bn": [
@@ -144800,7 +144804,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "kanggo mangan siang"
+          "kanggo mangan awan"
         ]
       ],
       "bn": [
@@ -153944,7 +153948,7 @@ const SENTENCES = [
       "jv": [
         [
           "A",
-          "Tolong"
+          "Tulung"
         ],
         [
           "C",
@@ -153952,11 +153956,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "lebih"
+          "luwih"
         ],
         [
           "D",
-          "pelan"
+          "alon"
         ]
       ],
       "bn": [
@@ -157832,23 +157836,23 @@ const SENTENCES = [
       "jv": [
         [
           "E",
-          "Kakak laki-laki"
+          "Kangmas"
         ],
         [
           "A",
-          "aku"
+          "‌ku"
         ],
         [
           "B",
-          "menikah"
+          "rabi"
         ],
         [
           "D",
-          "bulan"
+          "sasi"
         ],
         [
           "C",
-          "lalu"
+          "kepungkur"
         ]
       ],
       "bn": [
@@ -162250,15 +162254,15 @@ const SENTENCES = [
       "jv": [
         [
           "D",
-          "Ada"
+          "Ana"
         ],
         [
           "A",
-          "banyak"
+          "akèh"
         ],
         [
           "B",
-          "orang"
+          "wong"
         ],
         [
           "C",
@@ -175376,15 +175380,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "bangun"
+          "tangi"
         ],
         [
           "B",
-          "lebih awal"
+          "gasik"
         ],
         [
           "C",
-          "besok"
+          "sésuk"
         ]
       ],
       "bn": [
@@ -180254,7 +180258,7 @@ const SENTENCES = [
       "jv": [
         [
           "E",
-          "Apakah"
+          "Apa"
         ],
         [
           "A",
@@ -180265,16 +180269,16 @@ const SENTENCES = [
           "ngerti"
         ],
         [
-          "C",
-          "ing mana"
-        ],
-        [
           "B",
           "kantor pos"
         ],
         [
           "D",
           "ana"
+        ],
+        [
+          "C",
+          "ing ngendi"
         ]
       ],
       "bn": [
@@ -185259,7 +185263,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "sing menarik"
+          "sing nyenengaké"
         ],
         [
           "B",
@@ -190400,15 +190404,15 @@ const SENTENCES = [
         ],
         [
           "B",
-          "selalu"
+          "tansah"
         ],
         [
           "C",
-          "memakai"
+          "nganggo"
         ],
         [
           "E",
-          "gaun"
+          "klambi"
         ],
         [
           "D",
@@ -199674,7 +199678,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "dunia"
+          "donya"
         ]
       ],
       "bn": [
@@ -204061,7 +204065,7 @@ const SENTENCES = [
       "jv": [
         [
           "E",
-          "Di"
+          "Ing"
         ],
         [
           "A",
@@ -209889,12 +209893,16 @@ const SENTENCES = [
           "kanca"
         ],
         [
+          "G",
+          "‌ku"
+        ],
+        [
           "C",
-          "ing telepon"
+          "liwat tilpun"
         ],
         [
           "D",
-          "suwene satu jam"
+          "suwene sajam"
         ]
       ],
       "bn": [
@@ -224967,7 +224975,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "kandakno"
+          "tuduhana"
         ],
         [
           "B",
@@ -229960,15 +229968,15 @@ const SENTENCES = [
       "jv": [
         [
           "A",
-          "Anjing"
+          "Asu"
         ],
         [
           "E",
-          "aku"
+          "‌ku"
         ],
         [
           "D",
-          "suka"
+          "seneng"
         ],
         [
           "C",
@@ -239104,7 +239112,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "dompet aku"
+          "dhompèt"
+        ],
+        [
+          "E",
+          "‌ku"
         ],
         [
           "F",
@@ -244065,7 +244077,7 @@ const SENTENCES = [
       "jv": [
         [
           "B",
-          "Bunga-bunga"
+          "Kembang-kembang"
         ],
         [
           "D",
@@ -248219,7 +248231,7 @@ const SENTENCES = [
       "jv": [
         [
           "A",
-          "Kita"
+          "Awaké dhéwé"
         ],
         [
           "D",
@@ -248227,7 +248239,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "melindungi"
+          "njaga"
         ],
         [
           "B",
@@ -252722,7 +252734,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "dua"
+          "rong"
         ],
         [
           "F",
@@ -252734,7 +252746,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "setiap dina"
+          "saben dina"
         ]
       ],
       "bn": [
@@ -261965,7 +261977,7 @@ const SENTENCES = [
       "jv": [
         [
           "A",
-          "Dheweke"
+          "Dhèwèké"
         ],
         [
           "D",
@@ -270533,15 +270545,15 @@ const SENTENCES = [
       "jv": [
         [
           "A",
-          "Bus"
+          "Bis"
         ],
         [
           "C",
-          "tiba"
+          "teka"
         ],
         [
           "B",
-          "setiap 15 menit"
+          "saben 15 menit"
         ]
       ],
       "bn": [
@@ -278232,11 +278244,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "selalu"
+          "tansah"
         ],
         [
           "C",
-          "terlambat"
+          "telat"
         ],
         [
           "E",
@@ -283156,7 +283168,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "pengin"
+          "pengin rampung"
         ],
         [
           "D",
@@ -283168,7 +283180,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "sedurung akhir bulan"
+          "sadurungé akir sasi"
         ]
       ],
       "bn": [
@@ -287459,15 +287471,15 @@ const SENTENCES = [
       "jv": [
         [
           "B",
-          "Burung-burung"
+          "Manuk-manuk"
         ],
         [
           "C",
-          "bernyanyi"
+          "padha ngocèh"
         ],
         [
           "A",
-          "ing pohon"
+          "ing wit-witan"
         ]
       ],
       "bn": [
@@ -290877,7 +290889,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ponsel aku"
+          "HP-ku"
         ]
       ],
       "bn": [
@@ -295096,7 +295108,7 @@ const SENTENCES = [
       "jv": [
         [
           "A",
-          "Dheweke"
+          "Dhèwèké"
         ],
         [
           "E",
@@ -299453,11 +299465,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "tertutup"
+          "ketutupan"
         ],
         [
           "B",
-          "salju"
+          "ing salju"
         ]
       ],
       "bn": [
@@ -303170,7 +303182,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "berolahraga"
+          "olahraga"
         ],
         [
           "B",
@@ -303178,7 +303190,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "tiga kali"
+          "ping telu"
         ],
         [
           "E",
@@ -318227,7 +318239,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "pukul"
+          "jam"
         ],
         [
           "E",
@@ -322716,7 +322728,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "pengucapan aku"
+          "ucapanku"
         ]
       ],
       "bn": [
@@ -326670,19 +326682,19 @@ const SENTENCES = [
       "jv": [
         [
           "A",
-          "Mereka"
+          "Wong-wong mau"
         ],
         [
           "D",
-          "membangun"
+          "mbangun"
         ],
         [
           "B",
-          "jembatan anyar"
+          "kreteg anyar"
         ],
         [
           "C",
-          "ing atas sungai"
+          "ing ndhuwur kali"
         ]
       ],
       "bn": [
@@ -331449,7 +331461,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "aku"
+          "‌ku"
         ],
         [
           "D",
@@ -331461,11 +331473,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "tempat tidur aku"
+          "kasurku"
         ],
         [
           "G",
-          "setiap"
+          "saben"
         ],
         [
           "C",
@@ -340002,15 +340014,15 @@ const SENTENCES = [
       "jv": [
         [
           "A",
-          "Anak-anak"
+          "Bocah-bocah"
         ],
         [
           "C",
-          "lagi belajar"
+          "lagi sinau"
         ],
         [
           "B",
-          "berenang"
+          "nglangi"
         ]
       ],
       "bn": [
@@ -343534,7 +343546,7 @@ const SENTENCES = [
       "jv": [
         [
           "C",
-          "Ketika"
+          "Yèn"
         ],
         [
           "B",
@@ -343550,7 +343562,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "merasa bahagia"
+          "rumangsa seneng"
         ]
       ],
       "bn": [
@@ -352577,7 +352589,7 @@ const SENTENCES = [
       "jv": [
         [
           "D",
-          "Aku pikir"
+          "Kiraku"
         ],
         [
           "B",
@@ -352589,7 +352601,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "bagus"
+          "apik"
         ]
       ],
       "bn": [
@@ -356929,15 +356941,15 @@ const SENTENCES = [
         ],
         [
           "C",
-          "karena"
+          "amarga"
         ],
         [
           "D",
-          "kancanya"
+          "kancané"
         ],
         [
           "E",
-          "pindah"
+          "pindhah"
         ]
       ],
       "bn": [
@@ -362554,11 +362566,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "belajar"
+          "sinau"
         ],
         [
           "F",
-          "ing luar negeri"
+          "ing mancanegara"
         ],
         [
           "D",
@@ -362570,7 +362582,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "berharga"
+          "sing aji"
         ]
       ],
       "bn": [
@@ -368576,16 +368588,16 @@ const SENTENCES = [
           "Dina iki"
         ],
         [
+          "B",
+          "sirah"
+        ],
+        [
           "A",
-          "aku"
+          "‌ku"
         ],
         [
           "D",
-          "sakit"
-        ],
-        [
-          "B",
-          "sirah"
+          "lara"
         ]
       ],
       "bn": [
@@ -372515,7 +372527,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "kongkon"
+          "ngongkon"
         ],
         [
           "B",
@@ -376461,15 +376473,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "berusaha"
+          "usaha"
         ],
         [
           "C",
-          "berolahraga"
+          "olahraga"
         ],
         [
           "B",
-          "setiap esuk"
+          "saben ésuk"
         ]
       ],
       "bn": [
@@ -385514,19 +385526,19 @@ const SENTENCES = [
         ],
         [
           "D",
-          "sekudunya"
+          "kuduné"
         ],
         [
           "C",
           "ngombe"
         ],
         [
-          "E",
-          "luwih akeh"
-        ],
-        [
           "B",
           "banyu"
+        ],
+        [
+          "E",
+          "luwih akèh"
         ]
       ],
       "bn": [
@@ -389952,11 +389964,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "smartphone aku"
+          "HP-ku"
         ],
         [
           "A",
-          "setiap dina"
+          "saben dina"
         ]
       ],
       "bn": [
@@ -393984,12 +393996,12 @@ const SENTENCES = [
           "iki"
         ],
         [
-          "C",
-          "banget"
-        ],
-        [
           "D",
           "praktis"
+        ],
+        [
+          "C",
+          "banget"
         ]
       ],
       "bn": [
@@ -397967,7 +397979,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "dunia"
+          "donya"
         ]
       ],
       "bn": [
@@ -401838,7 +401850,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "nemokne"
+          "nemokaké"
         ],
         [
           "G",
@@ -406884,15 +406896,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "belajar"
+          "sinau"
         ],
         [
           "B",
-          "pemrograman"
+          "pamrograman"
         ],
         [
           "C",
-          "secara mandiri"
+          "dhéwé"
         ]
       ],
       "bn": [
@@ -410885,7 +410897,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "tradisi"
+          "tradhisi"
         ],
         [
           "B",
@@ -414795,7 +414807,7 @@ const SENTENCES = [
       "jv": [
         [
           "A",
-          "Kami"
+          "Awaké dhéwé"
         ],
         [
           "C",
@@ -414807,7 +414819,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "saat Tahun Baru China"
+          "yèn Imlèk"
         ]
       ],
       "bn": [
@@ -430203,7 +430215,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "karo sepeda"
+          "nyepédhah"
         ]
       ],
       "bn": [
@@ -434311,7 +434323,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "belok nengen"
+          "menggok nengen"
         ],
         [
           "C",
@@ -443294,7 +443306,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "pengen"
+          "pengin"
         ],
         [
           "C",

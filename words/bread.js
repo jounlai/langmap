@@ -53,7 +53,7 @@ WORDS.bread = {
     sw: "Mkate",
   },
   definition: {
-    en: "Bread — the baked dough of flour and water. Latin pānis is still pain, pan and pane, and Portuguese pão sailed to Japan as パン and on to Korea as 빵. Germanic had two words: bread and Brot, and an older one, the loaf, that Slavic borrowed as хлеб and Finnish as leipä. Persian nān spread across Central Asia, Hindustani roṭī reached Malay roti, and in Egyptian Arabic bread is simply 'living'.",
+    en: "Bread — the baked dough of flour and water. Latin pānis is still pain, pan and pane, and Portuguese pão sailed to Japan as パン and on to Korea as 빵. Germanic had two words: one gave English bread and German Brot, and an older one, the loaf, was borrowed by Slavic as хлеб and Finnish as leipä. Persian nān spread across Central Asia, Hindustani roṭī reached Malay roti, and in Egyptian Arabic bread is simply 'living'.",
     ja: "パン — 小麦粉と水をこねて焼いたもの。ラテン語 pānis はいまもフランス語 pain、スペイン語 pan、イタリア語 pane で、ポルトガル語 pão は船で日本に渡って「パン」となり、さらに韓国語 빵 になった。ゲルマン語には二つの語があった。英語 bread やドイツ語 Brot と、より古い loaf の語で、こちらはスラヴ語が хлеб、フィンランド語が leipä として借りた。ペルシア語 nān は中央アジアに広まり、ヒンドゥスターニー語 roṭī はマレー語 roti になった。エジプトのアラビア語では、パンはそのまま「暮らし」と呼ばれる。",
     ko: "빵 — 밀가루와 물을 반죽해 구운 음식. 라틴어 pānis는 지금도 프랑스어 pain, 스페인어 pan, 이탈리아어 pane이고, 포르투갈어 pão는 배를 타고 일본에 가서 パン이 되었다가 한국어 빵이 되었다. 게르만어에는 두 낱말이 있었다. 영어 bread와 독일어 Brot, 그리고 더 오래된 loaf의 낱말인데, 이것을 슬라브어가 хлеб로, 핀란드어가 leipä로 빌렸다. 페르시아어 nān은 중앙아시아로 퍼졌고, 힌두스타니어 roṭī는 말레이어 roti가 되었다. 이집트 아랍어에서는 빵을 그냥 '삶'이라고 부른다.",
     zh: "面包——用面粉和水揉成面团烤成的食物。拉丁语 pānis 至今仍是法语 pain、西班牙语 pan、意大利语 pane；葡萄牙语 pão 随船到了日本，成了 パン，又传到韩语成了 빵。日耳曼语有两个词：英语 bread、德语 Brot，以及更古老的 loaf 一词，斯拉夫语借成 хлеб，芬兰语借成 leipä。波斯语 nān 传遍中亚，印度斯坦语 roṭī 成了马来语 roti。在埃及阿拉伯语里，面包干脆就叫“生计”。",
@@ -158,7 +158,7 @@ WORDS.bread = {
     ps: "plain",
     gag: "etmek",
     uz: "nan",
-    tk: "plain",
+    tk: "other",
     mnc: "plain",
     ar_eg: "other",
     ar_lev: "khubz",
@@ -300,7 +300,7 @@ WORDS.bread = {
     srm: "braud",
     quz: "plain",
     quy: "plain",
-    khb: "other",
+    khb: "plain",
     blt: "plain",
     pam: "other",
     mdh: "panis",
@@ -315,7 +315,7 @@ WORDS.bread = {
     ota: "etmek",
     uln: "braud",
     bbl: "plain",
-    qxq: "plain",
+    qxq: "other",
     bew: "roti",
     io: "panis",
     vls: "braud",
@@ -584,7 +584,7 @@ WORDS.bread = {
     ko: ["빵", "p͈aŋ"],  // From Japanese パン, from Portuguese pão.
     th: ["ขนมปัง", "kʰa˨˩nom˩˩˦paŋ˧"],  // ขนม 'snack' plus ปัง, from Portuguese pão.
     id: ["roti", "ˈroti"],
-    ms: ["roti", "roti"],
+    ms: ["roti", "ˈroti"],
     bn: ["পাঁউরুটি", "pãuɾuʈi"],  // Portuguese pão plus রুটি 'roti'.
     ur: ["روٹی", "ɾoːʈiː"],
     ta: ["ரொட்டி", "ɾoʈːiː"],
@@ -596,11 +596,11 @@ WORDS.bread = {
     ru: ["хлеб", "xlʲep"],  // Borrowed early from Germanic *hlaibaz, the word behind English loaf.
     ar: ["خبز", "xubz"],
     tr: ["ekmek", "ecˈmec"],
-    fa: ["نان", "ˈnaːn"],
+    fa: ["نان", "nɒːn"],
     tl: ["tinapay", "tiˈnapaj"],  // Literally 'kneaded'.
     mn: ["талх", "tʰaɮx"],  // Probably from Proto-Turkic *talkān 'crushed parched grain'.
     sah: ["килиэп", "kiˈliep"],
-    kjh: ["іпек", "ɘpek"],
+    kjh: ["іпек", "ɘˈpek"],
     cv: ["ҫӑкӑр", "ˈɕəɡər"],
     bxr: ["хилээмэн", "xileːmeŋ"],
     evn: ["колобо", "kolobo"],
@@ -635,7 +635,7 @@ WORDS.bread = {
     nv: ["bááh", "pɑ́ːh"],  // From Spanish pan.
     haw: ["palaoa", "palaoa"],  // From English flour.
     mi: ["parāoa", "paraːoa"],  // From English flour.
-    qu: ["tʼanta", "tʼanta"],
+    qu: ["tʼanta", "ˈtʼanta"],
     ceb: ["tinapay", "tiˈnapaj"],  // From Tagalog tinapay, literally 'kneaded'.
     sm: ["falaoa", "falaoa"],  // From English flour.
     sd: ["ماني", "maːniː"],  // From Sanskrit मण्ड 'scum of boiled rice'.
@@ -652,7 +652,7 @@ WORDS.bread = {
     ps: ["ډوډۍ", "ɖoˈɖəɪ"],
     gag: ["ekmek", "jekˈmek"],
     uz: ["non", "nɒn"],
-    tk: ["çörek", "tʃøˈɾek"],
+    tk: ["çörek", "tʃøˈɾek"],  // The same word as Azerbaijani çörək, from Proto-Turkic *čebir- 'to turn'.
     mnc: ["ᡝᡶᡝᠨ", "əfən"],
     ar_eg: ["عيش", "ʕeːʃ"],  // From Arabic عيش 'living'.
     ar_lev: ["خبز", "xubz"],
@@ -666,14 +666,14 @@ WORDS.bread = {
     bar: ["Brod", "b̥rɔud̥"],
     nds: ["Broot", "broːt"],
     yi: ["ברויט", "brɔɪ̯t"],
-    is: ["brauð", "ˈprœiːð"],
+    is: ["brauð", "prœiːð"],
     gd: ["aran", "ˈaɾan"],  // From Old Irish arán, Proto-Celtic *aragnos, literally 'born of the plough'.
     br: ["bara", "ˈbɑːra"],
     nap: ["pane", "ˈpanə"],
     scn: ["pani", "ˈpani"],
     vec: ["pan", "paŋ"],
     lij: ["pan", "paŋː"],
-    rgn: ["pâ", "ˈpɤɤ̃"],
+    rgn: ["pâ", "pɤɤ̃"],
     egl: ["pan", "paŋ"],
     ca: ["pa", "pa"],
     gl: ["pan", "paŋ"],
@@ -683,10 +683,10 @@ WORDS.bread = {
     sl: ["kruh", "krux"],
     bg: ["хляб", "xlʲa̟p"],
     lt: ["duona", "ˈduɔnɐ"],
-    lv: ["maize", "majzɛ"],  // An ablaut variant of the root of mieži 'barley'.
-    sq: ["bukë", "bukə"],  // From Latin bucca 'mouth, mouthful'.
+    lv: ["maize", "ˈmajzɛ"],  // An ablaut variant of the root of mieži 'barley'.
+    sq: ["bukë", "ˈbukə"],  // From Latin bucca 'mouth, mouthful'.
     aae: ["bukë", "bukə"],  // The Albanian word, from Latin bucca 'mouth, mouthful'.
-    et: ["leib", "ˈleib"],
+    et: ["leib", "leib"],
     ht: ["pen", "pɛ̃"],  // From French pain.
     bah: ["bread", "bɹed"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     pap: ["pan", "pan"],
@@ -696,14 +696,14 @@ WORDS.bread = {
     pis: ["bred", "bred"],
     hwc: ["bread", "bɹed"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     se: ["láibi", "ˈlaːjːpiː"],
-    smj: ["lájbbe", "lajbːɛ"],
-    smn: ["leibi", "leibi"],
+    smj: ["lájbbe", "ˈlajbːɛ"],
+    smn: ["leibi", "ˈleibi"],
     sjd: ["ле̄ййп", "li̯ejːp"],
     yrl: ["pãu", "pãw"],
     or: ["ରୁଟି", "ɾuʈi"],
     fy: ["bôle", "ˈbɔːlə"],
     frr: ["Bruar", "brɔːɐ̯"],
-    li: ["Bruud", "ˈbruət"],
+    li: ["Bruud", "bruət"],
     nn: ["brød", "brøː"],
     fo: ["breyð", "pɹɛiː"],
     la: ["panis", "ˈpaːnɪs"],
@@ -733,7 +733,7 @@ WORDS.bread = {
     yur: ["popsew", "pɔpʂew"],
     kl: ["iffit", "ifːit"],
     ce: ["бепиг", "ˈbeːpiɡ"],
-    inh: ["маькх", "ˈmɛ̯aqχ"],
+    inh: ["маькх", "mɛ̯aqχ"],
     av: ["чед", "tʃjed"],
     lez: ["фу", "fu"],
     dar: ["кацӏ", "katsʼ"],
@@ -763,12 +763,12 @@ WORDS.bread = {
     mrj: ["киндӹ", "ˈkində"],
     myv: ["кши", "kʃi"],
     mdf: ["кши", "kʃi"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
-    krl: ["leipä", "lei̯pæ"],
-    olo: ["leiby", "leiby"],
+    krl: ["leipä", "ˈlei̯pæ"],
+    olo: ["leiby", "ˈleiby"],
     vep: ["leib", "leib"],
     vot: ["leipe", "ˈleipæ"],
     liv: ["lēba", "ˈleːbɑ"],
-    tt: ["икмәк", "ikmæk"],
+    tt: ["икмәк", "ikˈmæk"],
     ba: ["икмәк", "ikˈmæk"],
     shn: ["ၶဝ်ႈမုၼ်း", "kʰaw˧˧˨mun˥"],  // Built on ၶဝ်ႈ 'rice'.
     ttj: ["omugaate", "omuɡaːte"],  // From Swahili mkate.
@@ -792,9 +792,9 @@ WORDS.bread = {
     bsk: ["pháqo", "ˈpʰaqɔ"],
     srn: ["brede", "ˈbrede"],
     srm: ["bëë́ë", "bɛɛ́ɛ"],
-    quz: ["tanta", "tanta"],
+    quz: ["tanta", "ˈtanta"],
     quy: ["tanta", "tanta"],
-    khb: ["ᦶᦖᧃᧈᦗᧁᧈ", "mɛn˧˥paw˧"],  // From Mandarin 麵包.
+    khb: ["ᦶᦖᧃᧈᦗᧁᧈ", "mɛn˧˥paw˧"],  // From Mandarin 麵包 (Wiktionary), which is plain on this map; a loan of a plain word stays plain.
     blt: ["ꪵꪚ꪿ꪉꪼꪔ", "bɛŋ˦˥taj˨"],
     pam: ["tinape", "tɪˈnape"],  // Cognate of Tagalog tinapay 'kneaded'.
     mdh: ["pan", "pan"],
@@ -809,14 +809,14 @@ WORDS.bread = {
     ota: ["اكمك", "ecˈmec"],
     uln: ["Brot", "brot"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     bbl: ["მაჲჴი̆", "maiqi"],
-    qxq: ["çörək", "tʃøræk"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    qxq: ["çörək", "tʃøˈræk"],  // The same word as Azerbaijani çörək, from Proto-Turkic *čebir- 'to turn'.
     bew: ["roti", "roti"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
-    io: ["pano", "pano"],
+    io: ["pano", "ˈpano"],
     vls: ["brood", "broːt"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
-    fkv: ["leipä", "leipæ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
-    fit: ["leipä", "leipæ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    fkv: ["leipä", "ˈleipæ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    fit: ["leipä", "ˈleipæ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     hif: ["bareed", "bərɛːd"],
-    aln: ["bukë", "bukə"],  // The Albanian word, from Latin bucca 'mouth, mouthful'.
+    aln: ["bukë", "ˈbukə"],  // The Albanian word, from Latin bucca 'mouth, mouthful'.
     en: ["bread", "bɹɛd"],
     zh: ["面包", "mjɛn˥˩ pau˥"],
     zh_tw: ["麵包", "mjɛn˥˩ pɑʊ̯˥"],
@@ -858,7 +858,7 @@ WORDS.bread = {
     vi_s: ["bánh mì", "ɓan˧˥ mi˨˩"],
     es_mx: ["pan", "pan"],
     pt_br: ["pão", "pɐ̃w̃"],
-    prs: ["نان", "ˈnaːn"],
+    prs: ["نان", "nɑːn"],
     en_aave: ["bread", "bɹɛd"],
     en_nz: ["bread", "bɹed"],
     en_au: ["bread", "bɹed"],

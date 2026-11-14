@@ -430,8 +430,8 @@ WORDS.jellyfish = {
     es_uy: ["aguaviva", "aɣwaˈβiβa"],  // Literally 'living water'; the Uruguayan word (also spelled agua viva), beside standard medusa.
     es_pr: ["aguaviva", "aɣwaˈβiβa"],  // Literally 'living water'; the RAE dictionary marks it for Puerto Rico, unlike the aguamala of Mexico and Cuba.
     pt_br: ["água-viva", "aɡwɐˈvivɐ"],  // Literally 'living water'; the Brazilian word, where Portugal says alforreca.
-    de_at: ["Qualle", "ˈkvalə"],  // The same word as in Germany, used by Austrian broadcaster ORF; from Low German, probably related to quellen 'to swell'. Route by resemblance to the neighbouring forms (de(Qualle)); no etymology of its own.
-    de_ch: ["Qualle", "ˈkvalə"],  // The same word as in Germany, used by Swiss broadcaster SRF; from Low German, probably related to quellen 'to swell'. Route by resemblance to the neighbouring forms (de(Qualle)); no etymology of its own.
+    de_at: ["Qualle", "ˈkvalə"],  // The same word as in Germany, used by Austrian broadcaster ORF; from Low German, probably related to quellen 'to swell'.
+    de_ch: ["Qualle", "ˈkvalə"],  // The same word as in Germany, used by Swiss broadcaster SRF; from Low German, probably related to quellen 'to swell'.
     nl_be: ["kwal", "kwɑl"],  // The same word as in the Netherlands, used by the Flanders Marine Institute; probably related to kwellen 'to well up'. Route by resemblance to the neighbouring forms (nl(kwal)); no etymology of its own.
     en_au: ["jellyfish", "ˈdʒelifɪʃ"],  // Jelly + fish, for its gelatinous body; it is not a fish.
     en_ie: ["jellyfish", "ˈdʒɛlifɪʃ"],  // Jelly + fish, for its gelatinous body; it is not a fish.

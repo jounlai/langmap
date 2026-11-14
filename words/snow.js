@@ -392,7 +392,7 @@ WORDS.snow = {
     en_app: ["snow", "snoʊ"],
     en_in: ["snow", "snoː"],
     en_ie: ["snow", "snoː"],
-    en_sco: ["snow", "snəʊ"],
+    en_sco: ["snow", "sno"],
     en_yk: ["snow", "snəʊ"],
     en_ck: ["snow", "snæʊ"],
     en_scouse: ["snow", "snəʊ"],

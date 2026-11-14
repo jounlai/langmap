@@ -616,7 +616,7 @@ WORDS.tongue = {
     h_goguryeo: ["—", "—"],
     ko_gor: ["蝎", "*hjəl"],
     ko_em: ["혀", "hjə"],
-    vi_han: ["舌", "tʰiət˨˩˨"],
+    vi_han: ["舌", "tʰiət˨˩"],
     vi_nom: ["𦧜", "lɨəj˧ˀ˥"],
     eo: ["lango", "ˈlanɡo"],
     vo: ["lineg", "liˈneɡ"],

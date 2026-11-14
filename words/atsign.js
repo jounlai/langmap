@@ -378,7 +378,7 @@ WORDS.atsign = {
     th_n: ["แอท", "ʔɛːt̚˨˩"],
     th_s: ["แอท", "ʔɛːt˨˩"],
     ar_lev: ["آت", "ʔaːt"],
-    de_at: ["Klammeraffe", "ˈklamɐʔˌafə"],
+    de_at: ["Klammeraffe", "ˈklamɐˌʔafə"],
     ca_va: ["arrova", "aˈrɔva"],
     ext: ["arroba", "aˈroβa"],
     nn: ["krøllalfa", "ˈkrœlːɑlfɑ"],

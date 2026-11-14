@@ -2115,7 +2115,7 @@ WORDS.we = {
     fa_clas: ["ما", "maː"],
     syc: ["ܚܢܢ", "ħnan"],
     fro: ["nos", "nos"], // was ["nos", "nɔs"] (vi dialect rules 2026-10-06)
-    fr_class: ["nous", "nus"],
+    fr_class: ["nous", "nu"],
     it_dan: ["noi", "ˈnoi"],
     goh: ["wir", "wir"],
     gez: ["ንሕነ", "nəħna"],
@@ -2265,7 +2265,7 @@ WORDS.we = {
     nan_hai: ["咱侬 / 我侬", "tsa˨˩˧ naŋ˧˩ / va˨˩˧ naŋ˧˩"],  // Inclusive 咱侬, exclusive 我侬: Wiktionary's dialect synonyms give Haikou 咱儂 for 咱們 and 我儂 for 我們; readings from MCPDict 海口 (咱 tsa3, 我 va3, 侬 naŋ2).
     zh_wh: ["我们", "ŋo˦˨ mən"],
     zh_zz: ["咱 / 俺", "tsan˦˨ / an˥˧"],
-    hak_hl: ["𫣆兜 / 𠊎兜", "en˥˧teu˥˧ / ŋai˥˥teu˥˧"],
+    hak_hl: ["𫣆兜 / 𠊎兜", "en˥˧ teu˥˧ / ŋai˥˥ teu˥˧"],
     cpx: ["㑚 / 我辈", "naʔ˦ / kuaʔ˦ puei˦˨"],
     mfa: ["kito", "kitɔ"], // was ["kito", "kito"] (vi dialect rules 2026-10-06)
     mtq: ["chúng tôi", "cuŋ toj"],
@@ -2304,7 +2304,7 @@ WORDS.we = {
     tji: ["angni", "aŋ˧˥ȵi˥˥"], // was ["angni", "aŋ˧˥ȵi˧˥"] (vi dialect rules 2026-10-06) // was ["angni", "aŋ˧˥ȵi˥˥"] (vi dialect rules 2026-10-06)
     nij: ["itah / ikei", "itah / ikei"],
     sda: ["kita / kami", "kita / kami"],
-    lld: ["nëus", "ˈnəus"],
+    lld: ["nëus", "nəus"],
     stq: ["wie", "vi"], // was ["wie", "viː"] (vi dialect rules 2026-10-06)
     wym: ["wir", "vir"],
     yuc: ["ʼõdi / nõdi", "ʔõdi / nõdi"],

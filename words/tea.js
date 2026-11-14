@@ -675,7 +675,7 @@ WORDS.tea = {
     ur: "cha",
     uz: "cha",
     vi: "cha",
-    wo: "cha",
+    wo: "te",
     wuu: "cha",
     wuu_sz: "cha",
     wuu_wz: "cha",
@@ -1344,7 +1344,7 @@ WORDS.tea = {
     ur: ["چائے", "tʃaːeː"],
     uz: ["choy", "tʃɒj"],
     vi: ["trà", "tɕaː˨˩"],
-    wo: ["àttaaya", "atːaːja"], // was ["àttaaya", "attaːja"] (vi dialect rules 2026-10-06)
+    wo: ["àttaaya", "atːaːja"],  // Borrowed through Maghrebi Arabic atay, the sea-route tê word. Route by resemblance to the neighbouring forms (snk(attaaye) dje(attayi) ses(attay)). was ["àttaaya", "attaːja"] (vi dialect rules 2026-10-06)
     wuu: ["茶", "zo˨˧"],
     wuu_sz: ["茶", "zu˨˨˧"],
     wuu_wz: ["茶", "dzo˧˩"],

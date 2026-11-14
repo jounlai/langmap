@@ -309,10 +309,10 @@ WORDS.wine = {
     hbo: "sem",
     he_mis: "sem",
     uga: "sem",
-    arc: "sem",
-    ar_qur: "sem",
+    arc: "other",
+    ar_qur: "other",
     gez: "sem",
-    akk: "sem",
+    akk: "other",
     cop: "other",
     pkar: "kart",
     ka: "kart",
@@ -539,7 +539,7 @@ WORDS.wine = {
     vo: "ie",
     jbo: "ie",
     phn: "sem",
-    syc: "sem",
+    syc: "other",
     ti: "sem",
     lzz: "kart",
     aae: "ie",
@@ -817,8 +817,8 @@ WORDS.wine = {
     liv: "ie",
     vep: "ie",
     vro: "ie",
-    aii: "sem",
-    tru: "sem",
+    aii: "other",
+    tru: "other",
     myz: "sem",
     oar: "sem",
     xpu: "sem",
@@ -1275,10 +1275,10 @@ WORDS.wine = {
     hbo: ["יין", "ˈjajin"],
     he_mis: ["יין", "ˈjajin"],
     uga: ["𐎊𐎐", "jeːnu"], // was ["𐎊𐎐", "jenu"] (vi dialect rules 2026-10-06)
-    arc: ["ܚܡܪܐ", "ħamraː"],
-    ar_qur: ["خمر", "xamr"],
+    arc: ["ܚܡܪܐ", "ħamraː"],  // Aramaic ḥamrā, from the root ḥ-m-r, the cognate of Arabic ḵamr (Wiktionary); not *wayn-.
+    ar_qur: ["خمر", "xamr"],  // Arabic ḵamr, the verbal noun of ḵamara 'to ferment, to cover' (Wiktionary); a native Semitic root, not *wayn-.
     gez: ["ወይን", "wajn"], // was ["ወይን", "wɐjn"] (vi dialect rules 2026-10-06)
-    akk: ["𒅗𒊏𒉡", "karaːnu"],
+    akk: ["𒅗𒊏𒉡", "karaːnu"],  // Akkadian karānu 'wine, grapevine', a word of its own; not a reflex of *wayn-.
     cop: ["ⲏⲣⲡ", "eːrp"],
 
     // --- Kartvelian ɣvino ----------------------------------------------
@@ -1517,7 +1517,7 @@ WORDS.wine = {
 
     // --- Semitic and Kartvelian, more of them -------------------------------
     phn: ["𐤉𐤍", "jeːn"],
-    syc: ["ܚܡܪܐ", "ħamraː"], // was ["ܚܡܪܐ", "ħamrɔ"] (vi dialect rules 2026-10-06)
+    syc: ["ܚܡܪܐ", "ħamraː"],  // Classical Syriac ḥamrā, from the root ḥ-m-r (Wiktionary), cognate with Arabic ḵamr; not *wayn-. was ["ܚܡܪܐ", "ħamrɔ"] (vi dialect rules 2026-10-06)
     ti: ["ወይኒ", "wɐjni"],
     lzz: ["ღვინი", "ɣvini"],
     mt: ["inbid", "ɪmˈbiːt"], // was ["inbid", "ɪnˈbiːt"] (vi dialect rules 2026-10-06)
@@ -1584,7 +1584,7 @@ WORDS.wine = {
     ja_hak: ["ワイン", "waiɴ"],
     ja_kg: ["ワイン", "waiɴ"],
     ja_sd: ["ワイン", "waiɴ"],
-    ko_kp: ["포도주", "pododʑu"],
+    ko_kp: ["포도주", "pʰododʑu"],
     ko_bus: ["포도주", "pʰododʑu"], // was ["포도주", "pododʑu"] (vi dialect rules 2026-10-06)
     ko_yb: ["포도주", "pʰododʑu"], // was ["포도주", "pododʑu"] (vi dialect rules 2026-10-06)
 
@@ -1676,9 +1676,9 @@ WORDS.wine = {
     ja_oki: ["ワイン", "waiɴ"],
     ja_mvi: ["ワイン", "waiɴ"],
     ja_rys: ["ワイン", "waiɴ"],
-    ko_jeju: ["포도주", "pododʑu"],
-    ko_hg: ["포도주", "pododʑu"],
-    ko_jl: ["포도주", "pododʑu"],
+    ko_jeju: ["포도주", "pʰododʑu"],
+    ko_hg: ["포도주", "pʰododʑu"],
+    ko_jl: ["포도주", "pʰododʑu"],
     vi_c: ["rượu vang", "ɹɨəw˧˩ vaːŋ˥"], // r is ɹ, not ʐ (owner 2026-08-31, c9d451e8); tones per vi dialect rules 2026-10-06
     vi_s: ["rượu vang", "ɹɨw˨˩˨ jaːŋ˧"], // was ["rượu vang", "ɹɨəw˨˩˨ vaŋ˧"] (vi dialect rules 2026-10-06)
     my: ["ဝိုင်", "wàɪɴ"], // was ["ဝိုင်", "wàiɴ"] (vi dialect rules 2026-10-06)
@@ -1840,8 +1840,8 @@ WORDS.wine = {
     liv: ["vīnõ", "ˈviːnə"],
     vep: ["vin", "vin"],
     vro: ["vein", "vein"],
-    aii: ["ܚܡܪܐ", "ˈxamraː"],
-    tru: ["ܚܡܪܐ", "ħamro"],
+    aii: ["ܚܡܪܐ", "ˈxamraː"],  // Inherited from Aramaic ḥamrā, compare Arabic ḵamr (Wiktionary); not *wayn-.
+    tru: ["ܚܡܪܐ", "ħamro"],  // Aramaic ḥamrā, the same word as Syriac and Assyrian ܚܡܪܐ (compare Arabic ḵamr); not *wayn-.
     myz: ["ࡄࡀࡌࡓࡀ", "hamra"],
     oar: ["חמרא", "ħamraː"],
     xpu: ["𐤉𐤍", "jeːn"],

@@ -266,7 +266,7 @@ WORDS.goosebumps = {
     ar: ["قشعريرة", "quʃaʕriːra"],  // A word of its own, from the root of shuddering; it also means "a shiver".
     fr: ["chair de poule", "ʃɛʁ də pul"],  // Literally "hen flesh".
     ru: ["мурашки", "mʊˈraʂkʲɪ"],  // Literally "little ants", from the crawling feeling; the bookish synonym is гусиная кожа "goose skin".
-    id: ["merinding", "mərindiŋ"],  // A word of its own meaning "to feel the hair on the nape rise"; it names both the feeling and the bumps.
+    id: ["merinding", "məˈrindiŋ"],  // A word of its own meaning "to feel the hair on the nape rise"; it names both the feeling and the bumps.
     de: ["Gänsehaut", "ˈɡɛnzəhaʊ̯t"],  // Literally "goose skin".
     ja: ["鳥肌", "toɾihada"],  // Literally "bird skin".
     yue: ["雞皮", "kɐi˥ pʰei˨˩"],  // Literally "chicken skin"; "to get goosebumps" is 起雞皮.

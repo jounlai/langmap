@@ -864,7 +864,7 @@ WORDS.olderbrother = {
     com: ["pabi", "pabi"],  // Comanche has separate words: pabi older brother, tami younger brother.
     sah: ["убай", "ubaj"],  // Sakha убай (also бии) is an older brother; younger: быраат or ини.
     dlg: ["убай", "ubaj"],  // Dolgan убай is an older brother, as in Sakha; younger: балыс.
-    tyv: ["акы", "akkɯ"],  // Tuvan акы is an older brother; younger siblings of either sex are дуңма.
+    tyv: ["акы", "akˈkɯ"],  // Tuvan акы is an older brother; younger siblings of either sex are дуңма.
     alt: ["ага", "aɡa"],  // From Proto-Turkic *āka; ака is also recorded, and a younger brother is ини.
     evn: ["акӣн", "akiːn"],  // Evenki акӣн is an older brother; younger: нэкӯн.
     eve: ["акан", "akan"],  // Even акан is an older brother; younger siblings of either sex are нө.

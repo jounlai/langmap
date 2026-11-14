@@ -36,7 +36,7 @@ WORDS.dragonfly = {
     uk: "Бабка",
     ar: "يعسوب",
     he: "שפירית",
-    sw: "Dragonfly",
+    sw: "Kereng'ende",
   },
   definition: {
     en: "Dragonfly — the long-bodied insect with four glassy wings that hunts over water. English dragonfly and Icelandic drekafluga see a dragon; Welsh gwas y neidr is \"the snake's servant\" and Slovene kačji pastir \"the snake's shepherd\". Hungarian szitakötő is the \"sieve-knitter\", Georgian ნემსიყლაპია the \"needle-swallower\", Persian سنجاقک a \"little pin\", and French libellule a carpenter's \"little level\", after the way it hovers flat.",
@@ -61,7 +61,7 @@ WORDS.dragonfly = {
     uk: "Бабка — комаха з довгим тілом і чотирма прозорими крилами, що полює над водою. Англійське dragonfly та ісландське drekafluga бачать у ній дракона; валлійське gwas y neidr — «слуга змії», словенське kačji pastir — «зміїний пастух». Угорське szitakötő — «плетільниця сит», грузинське ნემსიყლაპია — «ковтальниця голок», перське سنجاقک — «шпилечка», а французьке libellule — теслярський «маленький рівень», бо вона зависає рівно. Українське бабка — те саме слово, що «бабуся, стара жінка».",
     ar: "اليعسوب — الحشرة الطويلة الجسم ذات الأجنحة الشفافة الأربعة التي تصطاد فوق الماء. ترى فيها الإنجليزية dragonfly والآيسلندية drekafluga تنّيناً؛ والويلزية gwas y neidr «خادم الأفعى»، والسلوفينية kačji pastir «راعي الأفاعي». والمجرية szitakötő «حائكة الغرابيل»، والجورجية ნემსიყლაპია «بالعة الإبر»، والفارسية سنجاقک «دبّوس صغير»، والفرنسية libellule «ميزان النجّار الصغير» لأنها تحوم مستوية. أما العربية يعسوب فكانت تعني أيضاً ملكة النحل.",
     he: "שפירית — החרק ארוך הגוף בעל ארבע הכנפיים השקופות הצד מעל המים. באנגלית dragonfly ובאיסלנדית drekafluga רואים בה דרקון; בוולשית gwas y neidr היא \"משרתו של הנחש\", בסלובנית kačji pastir \"רועה הנחשים\". בהונגרית szitakötő היא \"סורגת הנפות\", בגאורגית ნემსიყლაპია \"בולעת המחטים\", בפרסית سنجاقک \"סיכה קטנה\", ובצרפתית libellule \"פלס קטן\" של נגר, על שם ריחופה המאוזן. העברית שפירית חודשה מן \"שפיר\", יפה.",
-    sw: "Dragonfly — mdudu mwenye mwili mrefu na mabawa manne angavu anayewinda juu ya maji. Kiingereza dragonfly na Kiaislandi drekafluga humwona joka; Kiwelisi gwas y neidr ni \"mtumishi wa nyoka\", Kislovenia kačji pastir \"mchungaji wa nyoka\". Kihungari szitakötő ni \"msuka chekeche\", Kijojia ნემსიყლაპია \"mmeza sindano\", Kiajemi سنجاقک \"pini ndogo\", na Kifaransa libellule ni \"kipimo kidogo cha usawa\" cha seremala, kwa jinsi anavyoelea sawasawa.",
+    sw: "Kereng'ende — mdudu mwenye mwili mrefu na mabawa manne angavu anayewinda juu ya maji. Kiingereza dragonfly na Kiaislandi drekafluga humwona joka; Kiwelisi gwas y neidr ni \"mtumishi wa nyoka\", Kislovenia kačji pastir \"mchungaji wa nyoka\". Kihungari szitakötő ni \"msuka chekeche\", Kijojia ნემსიყლაპია \"mmeza sindano\", Kiajemi سنجاقک \"pini ndogo\", na Kifaransa libellule ni \"kipimo kidogo cha usawa\" cha seremala, kwa jinsi anavyoelea sawasawa.",
   },
   family: {
     en: "dragon",
@@ -395,7 +395,7 @@ WORDS.dragonfly = {
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
-    creature: {"color":"#7c3aed","emoji":"🐍","en":"a snake, wolf, fairy or witch","ja":"蛇・狼・妖精・魔女","ko":"뱀·늑대·요정·마녀","zh":"蛇、狼、仙女、女巫","yue":"蛇、狼、仙女、女巫","vi":"rắn, sói, tiên, phù thủy","th":"งู หมาป่า นางฟ้า แม่มด","id":"ular, serigala, peri, penyihir","hi":"साँप, भेड़िया, परी, डायन","de":"Schlange, Wolf, Fee, Hexe","fr":"serpent, loup, fée, sorcière","it":"serpente, lupo, fata, strega","es":"serpiente, lobo, hada, bruja","pt":"serpente, lobo, fada, bruxa","ru":"змея, волк, фея, ведьма","uk":"змія, вовк, фея, відьма","ar":"أفعى، ذئب، جنّية، ساحرة","he":"נחש, זאב, פיה, מכשפה","sw":"nyoka, mbwa mwitu, kichimbakazi, mchawi"},
+    creature: {"color":"#7c3aed","emoji":"🐍","en":"a snake, wolf, fairy, devil or witch","ja":"蛇・狼・妖精・悪魔・魔女","ko":"뱀·늑대·요정·악마·마녀","zh":"蛇、狼、仙女、魔鬼、女巫","yue":"蛇、狼、仙女、魔鬼、女巫","vi":"rắn, sói, tiên, quỷ, phù thủy","th":"งู หมาป่า นางฟ้า ปีศาจ แม่มด","id":"ular, serigala, peri, setan, penyihir","hi":"साँप, भेड़िया, परी, शैतान, डायन","de":"Schlange, Wolf, Fee, Teufel, Hexe","fr":"serpent, loup, fée, diable, sorcière","it":"serpente, lupo, fata, diavolo, strega","es":"serpiente, lobo, hada, diablo, bruja","pt":"serpente, lobo, fada, diabo, bruxa","ru":"змея, волк, фея, чёрт, ведьма","uk":"змія, вовк, фея, чорт, відьма","ar":"أفعى، ذئب، جنّية، شيطان، ساحرة","he":"נחש, זאב, פיה, שד, מכשפה","sw":"nyoka, mbwa mwitu, kichimbakazi, shetani, mchawi"},
     other: {"color":"#16a34a","emoji":"✨","en":"another image","ja":"ほかの見立て","ko":"다른 비유","zh":"其他意象","yue":"其他意象","vi":"hình ảnh khác","th":"ภาพอื่น","id":"citra lain","hi":"कोई और बिंब","de":"ein anderes Bild","fr":"une autre image","it":"un'altra immagine","es":"otra imagen","pt":"outra imagem","ru":"другой образ","uk":"інший образ","ar":"صورة أخرى","he":"דימוי אחר","sw":"taswira nyingine"},
     plain: {"color":"#6b7280","emoji":"🪰","en":"a word of its own","ja":"固有の語","ko":"고유어","zh":"自有的词","yue":"自己嘅詞","vi":"từ riêng","th":"คำเฉพาะของตัวเอง","id":"kata sendiri","hi":"अपना शब्द","de":"ein eigenes Wort","fr":"un mot propre","it":"una parola propria","es":"una palabra propia","pt":"uma palavra própria","ru":"своё слово","uk":"своє слово","ar":"كلمة خاصة","he":"מילה משלה","sw":"neno lake lenyewe"},
     unknown: {"color":"#b45309","emoji":"❓","en":"not yet determined · needs a source","ja":"未判定 · 出典待ち","ko":"미판정 · 출처 필요","zh":"尚未判定 · 待查证","yue":"重未判定 · 等考證","vi":"chưa xác định · cần nguồn","th":"ยังไม่ระบุ · รอแหล่งอ้างอิง","id":"belum ditentukan · perlu sumber","hi":"अनिर्धारित · स्रोत चाहिए","de":"noch offen · Beleg fehlt","fr":"non déterminé · source manquante","it":"non determinato · manca la fonte","es":"sin determinar · falta la fuente","pt":"por determinar · falta a fonte","ru":"не определено · нужен источник","uk":"не визначено · потрібне джерело","ar":"لم يُحدَّد بعد · بحاجة إلى مصدر","he":"טרם נקבע · דרוש מקור","sw":"haijabainishwa · chanzo kinahitajika"},
@@ -623,7 +623,7 @@ WORDS.dragonfly = {
     bew: ["capung", "tʃapuŋ"],  // Borrowed from Balinese capung 'dragonfly'.
     ssf: ["tambalawan", "tambalawan"],  // Thao word for the dragonfly.
     ojp: ["蜻蛉", "akidu"],  // Old Japanese akidu (later akitu): the Kojiki (712) glosses its 蜻蛉 'to be read 阿岐豆 a-ki-du'; the Man'yōshū also has the place name 秋津.
-    ja_heian: ["蜻蛉", "kaɡeɾoɸu"],  // Heian example: Ryōjin hishō (c. 1179) 居よ居よとうばうよ 'stay, stay, dragonfly'; NKD also lists kagerofu and enba as Heian words for the dragonfly, before tonbō.
+    ja_heian: ["蜻蛉", "kaɡeɾoɸu"],  // Heian kagerofu, the reading the Wamyōshō gives for 蜻蛉 (set in review 632); NKD also lists enba, and the later Ryōjin hishō (c. 1179) has とうばう, the ancestor of tonbō.
     tay: ["klosan", "klosan"],  // Squliq Atayal word for the dragonfly.
     bnn: ["salinhanuaz", "salinhanuað"],  // Isbukun Bunun (郡群) word for the dragonfly; also salinghanuaz.
     dru: ["sarukaabisi", "saɾukaabisi"],  // Budai (霧台) Rukai word for the dragonfly.
@@ -650,7 +650,7 @@ WORDS.dragonfly = {
     es_co: ["libélula", "liˈbelula"],  // The same word as standard Spanish, from New Latin libellula; Wiktionary gives it with no regional label.
     es_ar: ["aguacil", "aɣwaˈsil"],  // From alguacil 'bailiff, constable'; Wiktionary labels aguacil 'dragonfly' Rioplatense.
     es_pe: ["libélula", "liˈbelula"],  // The same word as standard Spanish, from New Latin libellula; Wiktionary gives it with no regional label.
-    es_cl: ["matapiojos", "mataˈpjoxos"],  // Literally 'lice-killer'; Wiktionary labels the dragonfly sense Chilean.
+    es_cl: ["matapiojos", "mataˈpjohos"],  // Literally 'lice-killer'; Wiktionary labels the dragonfly sense Chilean.
     en_us: ["dragonfly", "ˈdɹæɡənflaɪ"],  // The same word as general English, a compound of dragon + fly.
     en_ca: ["dragonfly", "ˈdɹæɡənflaɪ"],  // The same word as general English, a compound of dragon + fly.
     en_south: ["snake doctor", "ˈsneɪk ˌdɑktɚ"],  // Wiktionary labels snake doctor 'dragonfly' Southern US, from a folk belief that dragonflies follow snakes and stitch them back together when they are hurt.

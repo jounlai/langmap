@@ -286,7 +286,7 @@ WORDS.red = {
     km: ["ក្រហម", "krɑˈhɑːm"],
     lo: ["ແດງ", "dɛːŋ˩˧"],
     soa: ["แดง", "dɛːŋ˨˦"],
-    yo: ["pupa", "pupa"],
+    yo: ["pupa", "kpukpa"],
     zu: ["bomvu", "ɓoːmvu"],
     am: ["ቀይ", "kʼəj"],
     aiw: ["zeymi", "zejˈmi"],

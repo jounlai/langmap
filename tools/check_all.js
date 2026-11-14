@@ -780,6 +780,10 @@ line('no new intra-row duplicate', num(s, /violations: (\d+)/), num(s, /stale: (
 // set 2026-11-10 at the counts the rereads had not yet reached; only ever lower it.
 s = run('trivia_style_check.js --check');
 line('trivia style slips', num(s, /over budget: (\d+)/));
+// A repair that pastes back text already there prints it twice (4e305ae7f: 51 sentences in 14
+// languages, found by hand in rally review 31). Immediate repeats and duplicate blocks, all maps.
+s = run('trivia_dup_sentence_check.js --check');
+line('no sentence printed twice in trivia', num(s, /violations: (\d+)/));
 s = run('ipa_synth_regress.js --check');
 line('IPA synth fixes kept', num(s, /regressed: (\d+)/));
 s = run('flap_check.js --check');

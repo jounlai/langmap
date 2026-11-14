@@ -124,6 +124,11 @@
         try { voiceSel.value = localStorage.getItem('lm_speak_voice') || 'female'; } catch (_) {}
         voiceSel.addEventListener('change', () => { try { localStorage.setItem('lm_speak_voice', voiceSel.value); } catch (_) {} if (lastEl) say(lastEl); });
         panel.querySelector('.sp-close').addEventListener('click', close);
+        // One history entry while it is open, like every other panel over the map
+        // (nav-short.js __lmOverlay): Back closed nothing and left the page with
+        // the panel still open; now Back closes it and Forward reopens it.
+        if (window.__lmOverlay) window.__lmOverlay('speak', { el: panel, attrs: ['hidden'],
+            isOpen: () => !panel.hidden, close: () => { if (open) close(); }, open: () => { if (!open) show(); } });
         panel.querySelector('.sp-replay').addEventListener('click', () => { if (lastEl) say(lastEl); });
         for (const x of [elWord, elIpa]) x.addEventListener('click', () => { if (lastEl) say(lastEl); });   // the panel's own word replays
         document.addEventListener('keydown', e => { if (open && e.key === 'Escape') close(); });

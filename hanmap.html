@@ -39,7 +39,10 @@
     <meta property="og:title" content="HanMap — Han Character Pronunciation Atlas (134 chars × 110 languages)">
     <meta property="og:description" content="134 Han characters × 110 languages and variants — Mandarin, Cantonese, Min, Hakka, Wu, Japanese on/kun, Korean, Vietnamese, plus Old Chinese, Middle Chinese, Tang and Song reconstructions.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://langmaps.com/hanmap.html">
+    <!-- No og:url, as on the Word Map (owner 2026-09-21, 6f53eb79): this page's
+         content is chosen by ?w=<character>, and Facebook replaces a shared link
+         with a fixed og:url, so every character shared there opened 一.
+         <link rel="canonical"> below still serves search engines. -->
     <meta property="og:image" content="https://langmaps.com/ogp-hanmap.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -3269,11 +3272,17 @@
             if (!fab || !drawer) return;
             const r = fab.getBoundingClientRect();
             if (r.height === 0) return; // not yet rendered
+            // The pronunciation button (ipa_synth/speak.js) sits right under the
+            // gear in the same column: hang the drawer below it, or the open
+            // drawer covered it exactly.
+            const _sp = document.querySelector('.right-controls .speak-fab');
+            const _spR = _sp && _sp.getClientRects().length ? _sp.getBoundingClientRect() : null;
+            const _below = (_spR && _spR.top >= r.bottom - 1 && Math.abs(_spR.left - r.left) < 8) ? _spR.bottom : r.bottom;
             // Short landscape phone: nothing fits below the gear, so open the
             // drawer beside the control column, from just under the header (r20).
             const _need = drawer.scrollHeight || 0, _hdr = document.querySelector('.site-header-bar');
             if (_need && window.innerHeight < 500 && window.innerWidth > window.innerHeight && r.left > 160
-                && window.innerHeight - 24 - (r.bottom + 6) < _need) {
+                && window.innerHeight - 24 - (_below + 6) < _need) {
                 const t = (_hdr ? _hdr.getBoundingClientRect().bottom : 8) + 6;
                 drawer.style.top = t + 'px';
                 drawer.style.right = (window.innerWidth - r.left + 6) + 'px';
@@ -3293,7 +3302,7 @@
             const cmp = document.getElementById('compare-fab');
             const cmpR = cmp && cmp.classList.contains('visible') ? cmp.getBoundingClientRect() : null;
             const floor = (cmpR && cmpR.height > 0) ? cmpR.top - 8 : window.innerHeight - 24;
-            let top = r.bottom + GAP;
+            let top = _below + GAP;
             let avail = floor - top;
             if (avail < MIN_USABLE) {
                 const wanted = Math.min(MIN_USABLE, floor - CEILING);
@@ -3642,7 +3651,7 @@
     </script>
     <script src="wordmap_data.js?v=361"></script>
     <script src="lang_attention.js?v=5"></script>
-    <script src="hanmap_data.js?v=225"></script>
+    <script src="hanmap_data.js?v=226"></script>
     <script>
         // Hanmap stubs: replace the per-word loader. wordmap.html loads
         // ~20 individual JS files under words/<id>.js (one per concept) and
@@ -6494,6 +6503,13 @@
                 btn.innerHTML = escapeHtml(cChar);
                 btn.title = senseLabelOf(currentWord, uiLang) || currentWord;
             }
+            // The sense tabs too: a link or reload on 行:2 / 長:2 / 中:2 opened
+            // with no tabs (the boot-time call below the first render runs before
+            // this block and cannot see renderSenseTabs), so the reader had no
+            // way back to the other sense. loadHash() uses the hook on Back,
+            // Forward and hash edits, which left the previous character's tabs.
+            renderSenseTabs(currentWord);
+            window.__hmRenderSenseTabs = renderSenseTabs;
             // Expose for hash loader.
             window.__hanmapSetChar = setChar;
         }, 0);
@@ -8839,7 +8855,7 @@
                                 }
                                 return u * px;
                             };
-                            const _floor = 2 * (_bbHalfW + 2) - F.padX;
+                            const _floor = 2 * (_bbHalfW - 1) - F.padX;
                             let _cf = '';
                             const _mt = (f, s) => { if (f !== _cf) { ctx.font = f; _cf = f; } return ctx.measureText(s).width; };
                             roots.forEach((r, i) => {
@@ -8865,10 +8881,13 @@
                                     }
                                     w = Math.max(w, rw);
                                 }
-                                _hwCache.set(miss[i] + _hwKey, (w + F.padX) / 2 - 2);
+                                // + 1, not - 2: a label has no padding, so - 2 a side let two
+                                // neighbours' names print 4 px into each other ("Dongguan
+                                // YueHakka Chinese" at the default z5 view). + 1 keeps 2 px.
+                                _hwCache.set(miss[i] + _hwKey, (w + F.padX) / 2 + 1);
                             });
                             if (_nmW.size > 4000) _nmW.clear();
-                            if (dom.length) toDom(dom, (el, i) => _hwCache.set(miss[i] + _hwKey, el.offsetWidth / 2 - 2));
+                            if (dom.length) toDom(dom, (el, i) => _hwCache.set(miss[i] + _hwKey, el.offsetWidth / 2 + 1));
                             if (_hwCache.size > 4000) _hwCache.clear();
                         } catch (_) {}
                     }
@@ -9531,6 +9550,7 @@
                     _hbtn.innerHTML = escapeHtml(_hc);
                     _hbtn.title = senseLabelOf(w, uiLang) || w;
                     window.__hmCharLabel();
+                    if (window.__hmRenderSenseTabs) window.__hmRenderSenseTabs(w);
                 }
             }
             // Position: new combined `p=lat,lng,z`, falling back to the legacy
@@ -9796,6 +9816,20 @@
         // updateHash() is scoped to this block, but the chrome-toggle lives in
         // its own <script> and has to refresh the URL when it flips.
         window.__langmap.updateHash = updateHash;
+        // The header Share button (share-button.js) handed out location.href,
+        // whose whole view sits in the #fragment, which the server never sees
+        // and some clients drop. Hand out the same state as a query string,
+        // which the head script moves back into the hash on arrival (as the
+        // Word Map's shareHref, 6f53eb79).
+        window.__langmap.share = function () {
+            let url = location.href;
+            try {
+                const h = new URLSearchParams(location.hash.slice(1));
+                if (!h.has('w')) h.set('w', currentWord);
+                url = location.origin + location.pathname + '?' + h.toString().replace(/%2C/g, ',');
+            } catch (_) {}
+            return { title: document.title, url };
+        };
 
         // rAF-throttled connector update — keeps line glued to the label
         // during continuous map drag/zoom without re-layout thrashing.
@@ -12694,6 +12728,27 @@
         loadCompareList();
         updateCompareFab();
         refreshCompareMarkers();
+        // loadHash() runs ~3,000 lines earlier than this, while the comparison
+        // list is still empty, so it skipped only=1 and Only was off after every
+        // reload and on every shared link. Re-apply it here, now that the list
+        // exists (as the Word Map does).
+        {
+            const btn = document.getElementById('toggle-only-compare');
+            if (btn) {
+                const has = (window.__compareList || []).length > 0;
+                btn.disabled = !has;
+                const want = new URLSearchParams(location.hash.slice(1)).get('only') === '1' && has;
+                if (want !== onlyCompare) {
+                    onlyCompare = want;
+                    btn.classList.toggle('active', want);
+                    btn.setAttribute('aria-pressed', String(want));
+                    if (typeof updateOnOff === 'function') updateOnOff(btn, want);
+                    applyOnlyCompareClass();
+                    try { updateMarkers(currentWord); } catch (_) {}
+                    try { updateHash(); } catch (_) {}
+                }
+            }
+        }
         // Arriving via a compare deep-link (#cmp=...) opens the panel directly.
         // With lang= as well: the language panel first and Compare over it, the
         // order the site writes that URL in. Each gets its own entry (r31).
@@ -14383,6 +14438,39 @@
         }).observe(p, { attributes: true, attributeFilter: ['class'] });
     })();
     </script>
-<script src="ipa_synth/speak.js?v=59" defer></script>
+    <script>
+    // The pronunciation panel (ipa_synth/speak.js, z 1030) and the Dialect
+    // colours legend (#dialect-legend, z 1010) share the bottom-left corner:
+    // with the panel open, the legend's button and key were hidden under it.
+    // Lift the panel above the legend when it fits there, else move it beside
+    // the legend when there is room (landscape phones); else leave it be.
+    // Same as the Word Map's route legend (review 731).
+    (function () {
+        function sync() {
+            var p = document.querySelector('.speak-panel'), lg = document.getElementById('dialect-legend');
+            if (!p) return;
+            var b = '', l = '';
+            if (!p.hidden && lg && !lg.hidden && lg.getClientRects().length) {
+                var r = lg.getBoundingClientRect(), h = document.querySelector('.site-header-bar');
+                var top = h ? h.getBoundingClientRect().bottom : 0;
+                if (r.top - 8 - p.offsetHeight >= top + 8) b = Math.round(window.innerHeight - r.top + 8) + 'px';
+                else if (r.right + 12 + p.offsetWidth <= window.innerWidth - 72) l = Math.round(r.right + 12) + 'px';
+            }
+            if (p.style.bottom !== b) p.style.bottom = b;
+            if (p.style.left !== l) p.style.left = l;
+        }
+        function init() {
+            var p = document.querySelector('.speak-panel'), lg = document.getElementById('dialect-legend');
+            if (!p || !lg) return;
+            new MutationObserver(sync).observe(p, { attributes: true, attributeFilter: ['hidden'] });
+            new MutationObserver(sync).observe(lg, { attributes: true, attributeFilter: ['hidden'] });
+            if (window.ResizeObserver) { var ro = new ResizeObserver(sync); ro.observe(lg); ro.observe(p); }
+            window.addEventListener('resize', sync);
+            sync();
+        }
+        if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else setTimeout(init, 0);
+    })();
+    </script>
+<script src="ipa_synth/speak.js?v=60" defer></script>
 </body>
 </html>

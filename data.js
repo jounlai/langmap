@@ -1125,7 +1125,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "ראיתי"
+          "‌ראיתי"
         ],
         [
           "H",
@@ -1133,7 +1133,7 @@ const SENTENCES = [
         ],
         [
           "I",
-          "חנות"
+          "‌חנות"
         ],
         [
           "J",
@@ -1664,7 +1664,7 @@ const SENTENCES = [
       ],
       "sw": [
         [
-          "A",
+          "A|B",
           "Ninataka"
         ],
         [
@@ -2978,11 +2978,11 @@ const SENTENCES = [
           "მაღაზიაში"
         ],
         [
-          "J",
+          "K",
           "სასტუმროს"
         ],
         [
-          "K",
+          "J",
           "პირდაპირ"
         ]
       ],
@@ -3507,7 +3507,7 @@ const SENTENCES = [
         ],
         [
           "I",
-          "المحل"
+          "‌المحل"
         ],
         [
           "J",
@@ -4582,7 +4582,7 @@ const SENTENCES = [
       ],
       "mt": [
         [
-          "A",
+          "A|B",
           "Irrid"
         ],
         [
@@ -4607,7 +4607,7 @@ const SENTENCES = [
         ],
         [
           "I",
-          "ħanut"
+          "‌ħanut"
         ],
         [
           "J",
@@ -5420,7 +5420,7 @@ const SENTENCES = [
       ],
       "ln": [
         [
-          "A",
+          "A|B",
           "Nalingi"
         ],
         [
@@ -5458,7 +5458,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|B",
           "Ndinoda"
         ],
         [
@@ -5483,7 +5483,7 @@ const SENTENCES = [
         ],
         [
           "K",
-          "hoteru"
+          "‌hoteru"
         ]
       ],
       "xh": [
@@ -6077,7 +6077,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "חֲזֵית"
+          "‌חֲזֵית"
         ],
         [
           "H",
@@ -6085,7 +6085,7 @@ const SENTENCES = [
         ],
         [
           "I",
-          "חֲנוּתָא"
+          "‌חֲנוּתָא"
         ],
         [
           "J",
@@ -6253,7 +6253,7 @@ const SENTENCES = [
         ],
         [
           "I",
-          "المحل"
+          "‌المحل"
         ],
         [
           "J",
@@ -8029,7 +8029,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "شفتها"
+          "‌شفتها"
         ],
         [
           "H",
@@ -8706,7 +8706,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|B",
           "Ndashaka"
         ],
         [
@@ -8740,7 +8740,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "A",
+          "A|B",
           "Ndikufuna"
         ],
         [
@@ -8765,7 +8765,7 @@ const SENTENCES = [
         ],
         [
           "I",
-          "shopu"
+          "‌shopu"
         ],
         [
           "J",
@@ -9496,7 +9496,7 @@ const SENTENCES = [
       ],
       "ar": [
         [
-          "A",
+          "A|B",
           "اسمي"
         ],
         [
@@ -9758,8 +9758,12 @@ const SENTENCES = [
       ],
       "sw": [
         [
+          "B",
+          "Jina"
+        ],
+        [
           "A",
-          "Jina langu"
+          "langu"
         ],
         [
           "C",
@@ -9808,7 +9812,7 @@ const SENTENCES = [
       ],
       "ar_eg": [
         [
-          "A",
+          "A|B",
           "اسمي"
         ],
         [
@@ -10196,7 +10200,7 @@ const SENTENCES = [
       ],
       "egy": [
         [
-          "A",
+          "A|B",
           "𓂋𓈖𓇋|rn.j"
         ],
         [
@@ -10204,7 +10208,7 @@ const SENTENCES = [
           "𓊪𓅱|pw"
         ],
         [
-          "B",
+          "D",
           "𓏏𓈖𓎡|tnk"
         ]
       ],
@@ -10576,7 +10580,7 @@ const SENTENCES = [
       ],
       "ar_lev": [
         [
-          "A",
+          "A|B",
           "اسمي"
         ],
         [
@@ -10586,7 +10590,7 @@ const SENTENCES = [
       ],
       "ar_ma": [
         [
-          "A",
+          "A|B",
           "سميتي"
         ],
         [
@@ -10596,7 +10600,7 @@ const SENTENCES = [
       ],
       "ar_gulf": [
         [
-          "A",
+          "A|B",
           "اسمي"
         ],
         [
@@ -11370,11 +11374,11 @@ const SENTENCES = [
       ],
       "ln": [
         [
-          "A",
+          "B",
           "Nkombo"
         ],
         [
-          "B",
+          "A",
           "na ngai"
         ],
         [
@@ -11388,11 +11392,11 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "B",
           "Zita"
         ],
         [
-          "B",
+          "A",
           "rangu"
         ],
         [
@@ -11714,7 +11718,7 @@ const SENTENCES = [
       ],
       "ar_iq": [
         [
-          "A",
+          "A|B",
           "اسمي"
         ],
         [
@@ -12460,7 +12464,7 @@ const SENTENCES = [
       ],
       "ar_tn": [
         [
-          "A",
+          "A|B",
           "إسمي"
         ],
         [
@@ -12470,7 +12474,7 @@ const SENTENCES = [
       ],
       "ar_sd": [
         [
-          "A",
+          "A|B",
           "اسمي"
         ],
         [
@@ -12760,12 +12764,16 @@ const SENTENCES = [
       ],
       "rw": [
         [
+          "B",
+          "Izina"
+        ],
+        [
           "A",
-          "Izina ryanjye"
+          "ryanjye"
         ],
         [
           "C",
-          "‌ni"
+          "ni"
         ],
         [
           "D",
@@ -12774,8 +12782,12 @@ const SENTENCES = [
       ],
       "ny": [
         [
+          "B",
+          "Dzina"
+        ],
+        [
           "A",
-          "Dzina langa"
+          "langa"
         ],
         [
           "C",
@@ -15834,7 +15846,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "dya"
+          "‌dya"
         ],
         [
           "B",
@@ -17553,7 +17565,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|C",
           "Ndafata"
         ],
         [
@@ -18483,8 +18495,12 @@ const SENTENCES = [
       ],
       "sw": [
         [
+          "D",
+          "Iko"
+        ],
+        [
           "C",
-          "Iko wapi"
+          "wapi"
         ],
         [
           "B",
@@ -20151,8 +20167,12 @@ const SENTENCES = [
           "ya pene"
         ],
         [
+          "D",
+          "ezali"
+        ],
+        [
           "C",
-          "ezali wapi"
+          "wapi"
         ]
       ],
       "sn": [
@@ -20165,8 +20185,12 @@ const SENTENCES = [
           "chiri pedyo"
         ],
         [
+          "D",
+          "chiri"
+        ],
+        [
           "C",
-          "chiri kupi"
+          "kupi"
         ]
       ],
       "xh": [
@@ -21545,8 +21569,12 @@ const SENTENCES = [
       ],
       "rw": [
         [
+          "D",
+          "Iri"
+        ],
+        [
           "C",
-          "Iri hehe"
+          "hehe"
         ],
         [
           "B",
@@ -21559,8 +21587,12 @@ const SENTENCES = [
       ],
       "ny": [
         [
+          "D",
+          "Ili"
+        ],
+        [
           "C",
-          "Ili kuti"
+          "kuti"
         ],
         [
           "B",
@@ -23396,7 +23428,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "القهوة"
+          "‌القهوة"
         ],
         [
           "D",
@@ -24589,8 +24621,12 @@ const SENTENCES = [
           "קַהְוָא"
         ],
         [
+          "D",
+          "הוּא"
+        ],
+        [
           "C",
-          "הוּא לַחְדָא"
+          "לַחְדָא"
         ],
         [
           "D",
@@ -25501,11 +25537,11 @@ const SENTENCES = [
       ],
       "ar_sd": [
         [
-          "A",
+          "B",
           "القهوة"
         ],
         [
-          "B",
+          "A",
           "دي"
         ],
         [
@@ -28384,7 +28420,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ይመሃር"
+          "እመሃር"
         ]
       ],
       "wo": [
@@ -28425,7 +28461,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|D",
           "Ndinodzidza"
         ],
         [
@@ -29857,7 +29893,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|D",
           "Niga"
         ],
         [
@@ -32068,8 +32104,12 @@ const SENTENCES = [
       ],
       "mt": [
         [
+          "B",
+          "It-temp"
+        ],
+        [
           "A",
-          "It-temp ta' għada"
+          "ta' għada"
         ],
         [
           "C",
@@ -36103,7 +36143,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "l-ikla"
+          "iċ-ċena"
         ],
         [
           "D",
@@ -38856,7 +38896,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "יפן"
+          "‌יפן"
         ],
         [
           "G",
@@ -39989,11 +40029,11 @@ const SENTENCES = [
           "𓇌𓊪𓈖|jpn"
         ],
         [
-          "F",
+          "G",
           "𓂋𓈖𓊪𓏏|rnpt"
         ],
         [
-          "G",
+          "F",
           "𓇋𓅓𓇋𓏏|jmjt"
         ]
       ],
@@ -40627,12 +40667,8 @@ const SENTENCES = [
           "نمشي"
         ],
         [
-          "D",
-          "ل"
-        ],
-        [
-          "E",
-          "اليابان"
+          "D|E",
+          "لليابان"
         ],
         [
           "G",
@@ -41349,7 +41385,7 @@ const SENTENCES = [
       ],
       "mt": [
         [
-          "A",
+          "A|B",
           "Irrid"
         ],
         [
@@ -41365,11 +41401,11 @@ const SENTENCES = [
           "il-Ġappun"
         ],
         [
-          "F",
+          "G",
           "is-sena"
         ],
         [
-          "G",
+          "F",
           "d-dieħla"
         ]
       ],
@@ -41939,7 +41975,7 @@ const SENTENCES = [
       ],
       "ln": [
         [
-          "A",
+          "A|B",
           "Nalingi"
         ],
         [
@@ -41955,17 +41991,17 @@ const SENTENCES = [
           "Japon"
         ],
         [
-          "F",
+          "G",
           "mbula"
         ],
         [
-          "G",
+          "F",
           "ezali koya"
         ]
       ],
       "sn": [
         [
-          "A",
+          "A|B",
           "Ndinoda"
         ],
         [
@@ -41978,14 +42014,14 @@ const SENTENCES = [
         ],
         [
           "E",
-          "Japan"
-        ],
-        [
-          "F",
-          "gore"
+          "‌Japan"
         ],
         [
           "G",
+          "gore"
+        ],
+        [
+          "F",
           "rinouya"
         ]
       ],
@@ -42180,14 +42216,14 @@ const SENTENCES = [
         ],
         [
           "E",
-          "ⲓⲁⲡⲱⲛ"
-        ],
-        [
-          "F",
-          "ⲛⲧⲉⲣⲟⲙⲡⲉ"
+          "‌ⲓⲁⲡⲱⲛ"
         ],
         [
           "G",
+          "ⲛⲧⲉⲣⲟⲙⲡⲉ"
+        ],
+        [
+          "F",
           "ⲉⲑⲛⲏⲟⲩ"
         ]
       ],
@@ -42416,14 +42452,14 @@ const SENTENCES = [
         ],
         [
           "E",
-          "יָפָּן"
-        ],
-        [
-          "F",
-          "שַׁתָּא"
+          "‌יָפָּן"
         ],
         [
           "G",
+          "שַׁתָּא"
+        ],
+        [
+          "F",
           "דְאָתֵא"
         ]
       ],
@@ -42531,12 +42567,8 @@ const SENTENCES = [
           "أروح"
         ],
         [
-          "D",
-          "لـ"
-        ],
-        [
-          "E",
-          "اليابان"
+          "D|E",
+          "لليابان"
         ],
         [
           "G",
@@ -42617,11 +42649,11 @@ const SENTENCES = [
           "Yapān"
         ],
         [
-          "F",
+          "G",
           "šattam"
         ],
         [
-          "G",
+          "F",
           "âtiam"
         ]
       ],
@@ -43777,12 +43809,8 @@ const SENTENCES = [
           "نمشي"
         ],
         [
-          "D",
-          "ل"
-        ],
-        [
-          "E",
-          "اليابان"
+          "D|E",
+          "لليابان"
         ],
         [
           "G",
@@ -44277,7 +44305,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|B",
           "Ndashaka"
         ],
         [
@@ -44303,7 +44331,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "A",
+          "A|B",
           "Ndikufuna"
         ],
         [
@@ -44319,11 +44347,11 @@ const SENTENCES = [
           "Japan"
         ],
         [
-          "F",
+          "G",
           "chaka"
         ],
         [
-          "G",
+          "F",
           "chamawa"
         ]
       ],
@@ -56071,7 +56099,7 @@ const SENTENCES = [
           "ورد الكرز"
         ],
         [
-          "A",
+          "A|B",
           "في هالحديقة"
         ],
         [
@@ -56878,11 +56906,11 @@ const SENTENCES = [
         ],
         [
           "A",
-          "na parike"
+          "na"
         ],
         [
           "B",
-          "oyo"
+          "parike oyo"
         ],
         [
           "D",
@@ -56896,11 +56924,11 @@ const SENTENCES = [
         ],
         [
           "A",
-          "mupaki"
+          "mu"
         ],
         [
           "B",
-          "iyi"
+          "‌paki iyi"
         ],
         [
           "D",
@@ -58016,7 +58044,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "جردة"
+          "‌جردة"
         ],
         [
           "D",
@@ -61272,7 +61300,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "mvura"
+          "‌mvura"
         ]
       ],
       "xh": [
@@ -62932,7 +62960,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "amazi"
+          "‌amazi"
         ]
       ],
       "ny": [
@@ -66018,7 +66046,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ይኸይድ"
+          "እኸይድ"
         ]
       ],
       "wo": [
@@ -66067,7 +66095,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|C",
           "Ndinoenda"
         ],
         [
@@ -67819,7 +67847,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|C",
           "Njya"
         ],
         [
@@ -76213,18 +76241,22 @@ const SENTENCES = [
           "الثالثة"
         ],
         [
-          "F",
-          "هذا"
+          "G",
+          "بعد ظهر"
         ],
         [
-          "G",
-          "بعد الظهر"
+          "F",
+          "اليوم"
         ]
       ],
       "he": [
         [
+          "B",
+          "יש"
+        ],
+        [
           "A",
-          "יש לי"
+          "לי"
         ],
         [
           "C",
@@ -76239,12 +76271,12 @@ const SENTENCES = [
           "3"
         ],
         [
-          "F",
-          "אחר"
+          "G",
+          "אחר הצהריים"
         ],
         [
-          "G",
-          "הצהריים היום"
+          "F",
+          "היום"
         ]
       ],
       "vi_nom": [
@@ -76631,7 +76663,7 @@ const SENTENCES = [
       ],
       "sw": [
         [
-          "A",
+          "A|B",
           "Nina"
         ],
         [
@@ -76717,7 +76749,7 @@ const SENTENCES = [
       ],
       "ar_eg": [
         [
-          "A",
+          "A|B",
           "عندي"
         ],
         [
@@ -76846,7 +76878,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "3 ሰዓት"
+          "‌3 ሰዓት"
         ],
         [
           "C",
@@ -77965,7 +77997,7 @@ const SENTENCES = [
       ],
       "ar_lev": [
         [
-          "A",
+          "A|B",
           "عندي"
         ],
         [
@@ -77991,7 +78023,7 @@ const SENTENCES = [
       ],
       "ar_ma": [
         [
-          "A",
+          "A|B",
           "عندي"
         ],
         [
@@ -78017,7 +78049,7 @@ const SENTENCES = [
       ],
       "ar_gulf": [
         [
-          "A",
+          "A|B",
           "عندي"
         ],
         [
@@ -78717,7 +78749,7 @@ const SENTENCES = [
       ],
       "mt": [
         [
-          "A",
+          "A|B",
           "Għandi"
         ],
         [
@@ -78726,19 +78758,19 @@ const SENTENCES = [
         ],
         [
           "D",
-          "fis-"
+          "fit-"
         ],
         [
           "E",
-          "3"
-        ],
-        [
-          "F",
-          "wara"
+          "‌3"
         ],
         [
           "G",
-          "nofsinhar illum"
+          "wara nofsinhar"
+        ],
+        [
+          "F",
+          "illum"
         ]
       ],
       "so": [
@@ -79284,7 +79316,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "3 ሰዓት"
+          "‌3 ሰዓት"
         ],
         [
           "C",
@@ -79323,7 +79355,7 @@ const SENTENCES = [
       ],
       "ln": [
         [
-          "A",
+          "A|B",
           "Nazali na"
         ],
         [
@@ -79349,7 +79381,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|B",
           "Ndine"
         ],
         [
@@ -79556,7 +79588,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "ϣⲟⲙⲛⲧ"
+          "‌ϣⲟⲙⲛⲧ"
         ],
         [
           "F",
@@ -79775,8 +79807,12 @@ const SENTENCES = [
       ],
       "arc": [
         [
+          "B",
+          "אִית"
+        ],
+        [
           "A",
-          "אִית לִי"
+          "לִי"
         ],
         [
           "C",
@@ -79788,11 +79824,11 @@ const SENTENCES = [
         ],
         [
           "E",
-          "תלָתָא"
+          "תְּלָתָא"
         ],
         [
           "F",
-          "יַומָא דֵן"
+          "יוֹמָא דֵן"
         ],
         [
           "G",
@@ -79891,7 +79927,7 @@ const SENTENCES = [
       ],
       "ar_iq": [
         [
-          "A",
+          "A|B",
           "عندي"
         ],
         [
@@ -81133,7 +81169,7 @@ const SENTENCES = [
       ],
       "ar_tn": [
         [
-          "A",
+          "A|B",
           "عندي"
         ],
         [
@@ -81159,7 +81195,7 @@ const SENTENCES = [
       ],
       "ar_sd": [
         [
-          "A",
+          "A|B",
           "عندي"
         ],
         [
@@ -81645,7 +81681,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|B",
           "Mfite"
         ],
         [
@@ -81671,7 +81707,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "A",
+          "A|B",
           "Ndili ndi"
         ],
         [
@@ -83562,7 +83598,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "الشنطة"
+          "‌الشنطة"
         ],
         [
           "D",
@@ -84447,11 +84483,11 @@ const SENTENCES = [
       ],
       "ln": [
         [
-          "A",
+          "B",
           "Saki"
         ],
         [
-          "B",
+          "A",
           "oyo"
         ],
         [
@@ -84469,11 +84505,11 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "B",
           "Bhegi"
         ],
         [
-          "B",
+          "A",
           "iyi"
         ],
         [
@@ -84751,8 +84787,12 @@ const SENTENCES = [
           "כִּיסָא"
         ],
         [
+          "D",
+          "הוּא"
+        ],
+        [
           "C",
-          "הוּא יַתִּיר"
+          "יַתִּיר"
         ],
         [
           "D",
@@ -85663,11 +85703,11 @@ const SENTENCES = [
       ],
       "ar_sd": [
         [
-          "A",
+          "B",
           "الشنطة"
         ],
         [
-          "B",
+          "A",
           "دي"
         ],
         [
@@ -88561,7 +88601,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ይፈቱ"
+          "እፈቱ"
         ]
       ],
       "wo": [
@@ -88602,7 +88642,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|D",
           "Ndinoda"
         ],
         [
@@ -90034,7 +90074,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|D",
           "Nkunda"
         ],
         [
@@ -92225,7 +92265,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ይዘንብ አሎ"
+          "ይዘንብ ኣሎ"
         ]
       ],
       "wo": [
@@ -94421,7 +94461,7 @@ const SENTENCES = [
       ],
       "sw": [
         [
-          "A",
+          "A|E",
           "Nitakula"
         ],
         [
@@ -94488,7 +94528,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "اتعشى"
+          "‌اتعشى"
         ],
         [
           "C",
@@ -95472,7 +95512,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "تعشى"
+          "‌تعشى"
         ],
         [
           "C",
@@ -95980,7 +96020,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "l-ikla"
+          "iċ-ċena"
         ],
         [
           "C",
@@ -96431,7 +96471,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|E",
           "Ndichadya"
         ],
         [
@@ -97810,7 +97850,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "أتعشّا"
+          "‌أتعشّا"
         ],
         [
           "C",
@@ -98163,7 +98203,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|E",
           "Nzafata"
         ],
         [
@@ -98181,7 +98221,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "A",
+          "A|E",
           "Ndidya"
         ],
         [
@@ -99329,7 +99369,7 @@ const SENTENCES = [
       ],
       "sw": [
         [
-          "A",
+          "A|E",
           "Nataka"
         ],
         [
@@ -101019,8 +101059,12 @@ const SENTENCES = [
           "nitgħallem"
         ],
         [
+          "C",
+          "lingwa"
+        ],
+        [
           "F",
-          "lingwa ġdida"
+          "ġdida"
         ]
       ],
       "so": [
@@ -101495,7 +101539,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|E",
           "Ndinoda"
         ],
         [
@@ -103359,7 +103403,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|E",
           "Ndashaka"
         ],
         [
@@ -103377,7 +103421,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "A",
+          "A|E",
           "Ndikufuna"
         ],
         [
@@ -104397,7 +104441,7 @@ const SENTENCES = [
       "am": [
         [
           "A",
-          "ቤተ መጽሐፍ"
+          "ቤተ መጻሕፍት"
         ],
         [
           "C",
@@ -105961,7 +106005,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "chipatara"
+          "‌chipatara"
         ]
       ],
       "xh": [
@@ -112027,7 +112071,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "חברה"
+          "‌חברה"
         ],
         [
           "F",
@@ -112505,7 +112549,7 @@ const SENTENCES = [
         ],
         [
           "F",
-          "ትልቅ"
+          "‌ትልቅ"
         ],
         [
           "D",
@@ -113093,7 +113137,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ში"
+          "‌ში"
         ],
         [
           "E",
@@ -113397,7 +113441,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "شركة"
+          "‌شركة"
         ],
         [
           "F",
@@ -113993,7 +114037,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "kumpanija"
+          "‌kumpanija"
         ],
         [
           "F",
@@ -114481,7 +114525,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "kambani"
+          "‌kambani"
         ],
         [
           "F",
@@ -114819,7 +114863,7 @@ const SENTENCES = [
         ],
         [
           "F",
-          "רַבְּתָא"
+          "‌רַבְּתָא"
         ],
         [
           "D",
@@ -114919,7 +114963,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "شركة"
+          "‌شركة"
         ],
         [
           "F",
@@ -117072,7 +117116,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "פארק"
+          "‌פארק"
         ],
         [
           "D",
@@ -117526,7 +117570,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "ፓርክ"
+          "‌ፓርክ"
         ],
         [
           "C",
@@ -117902,11 +117946,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "𓅓"
+          "𓅓|m"
         ],
         [
           "E",
-          "𓈙𓂝|m šꜣ"
+          "𓈙𓂝|šꜣ"
         ]
       ],
       "ur": [
@@ -118062,7 +118106,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ში"
+          "‌ში"
         ],
         [
           "C",
@@ -118350,7 +118394,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "الحديقة"
+          "‌الحديقة"
         ],
         [
           "D",
@@ -118894,7 +118938,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "park"
+          "‌park"
         ]
       ],
       "so": [
@@ -119334,7 +119378,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "paki"
+          "‌paki"
         ]
       ],
       "xh": [
@@ -119648,7 +119692,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "גִנְתָא"
+          "‌גִנְתָא"
         ]
       ],
       "en_au": [
@@ -119732,7 +119776,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "الحديقة"
+          "‌الحديقة"
         ]
       ],
       "hak_cn": [
@@ -121032,7 +121076,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "paki"
+          "‌paki"
         ]
       ],
       "tk": [
@@ -123579,7 +123623,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|D",
           "Ndakamboenda"
         ],
         [
@@ -125015,7 +125059,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|D",
           "Nagiye"
         ],
         [
@@ -125029,7 +125073,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "A",
+          "A|D",
           "Ndinapita"
         ],
         [
@@ -125834,7 +125878,7 @@ const SENTENCES = [
           "هل"
         ],
         [
-          "D",
+          "A|B",
           "يمكنك"
         ],
         [
@@ -125842,11 +125886,11 @@ const SENTENCES = [
           "أن توصي"
         ],
         [
-          "F",
+          "E",
           "بمطعم"
         ],
         [
-          "E",
+          "F",
           "جيد"
         ]
       ],
@@ -126188,11 +126232,11 @@ const SENTENCES = [
           "unaweza kupendekeza"
         ],
         [
-          "F",
+          "E",
           "mkahawa"
         ],
         [
-          "E",
+          "F",
           "mzuri"
         ]
       ],
@@ -126242,11 +126286,11 @@ const SENTENCES = [
           "تقترح"
         ],
         [
-          "F",
+          "E",
           "مطعم"
         ],
         [
-          "E",
+          "F",
           "كويس"
         ]
       ],
@@ -126895,7 +126939,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "გირჩიოთ"
+          "მირჩიოთ"
         ],
         [
           "F",
@@ -127186,11 +127230,11 @@ const SENTENCES = [
           "توصي"
         ],
         [
-          "F",
+          "E",
           "بمطعم"
         ],
         [
-          "E",
+          "F",
           "منيح"
         ]
       ],
@@ -127208,11 +127252,11 @@ const SENTENCES = [
           "توصي"
         ],
         [
-          "F",
+          "E",
           "بمطعم"
         ],
         [
-          "E",
+          "F",
           "مزيان"
         ]
       ],
@@ -127226,11 +127270,11 @@ const SENTENCES = [
           "توصي"
         ],
         [
-          "F",
+          "E",
           "بمطعم"
         ],
         [
-          "E",
+          "F",
           "زين"
         ]
       ],
@@ -127738,11 +127782,11 @@ const SENTENCES = [
           "tirrakkomanda"
         ],
         [
-          "F",
+          "E",
           "ristorant"
         ],
         [
-          "E",
+          "F",
           "tajjeb"
         ]
       ],
@@ -128168,12 +128212,16 @@ const SENTENCES = [
           "kopesa ngai toli"
         ],
         [
-          "F",
+          "E",
           "ya esika"
         ],
         [
+          "F",
+          "ya malamu"
+        ],
+        [
           "E",
-          "ya malamu ya kolía"
+          "ya kolía"
         ]
       ],
       "sn": [
@@ -128182,15 +128230,15 @@ const SENTENCES = [
           "Mungandipa"
         ],
         [
-          "C",
+          "G",
           "here"
         ],
         [
-          "F",
+          "E",
           "imba yokudyira"
         ],
         [
-          "E",
+          "F",
           "yakanaka"
         ]
       ],
@@ -128504,12 +128552,12 @@ const SENTENCES = [
           "לְמַלָּכוּ"
         ],
         [
-          "F",
-          "עַל"
+          "E",
+          "עַל בֵּית מְשַׁתְּיָא"
         ],
         [
-          "E",
-          "בֵּית מְשַׁתְּיָא טָבָא"
+          "F",
+          "טָבָא"
         ]
       ],
       "en_au": [
@@ -128596,11 +128644,11 @@ const SENTENCES = [
           "توصي"
         ],
         [
-          "F",
+          "E",
           "بمطعم"
         ],
         [
-          "E",
+          "F",
           "زين"
         ]
       ],
@@ -129514,11 +129562,11 @@ const SENTENCES = [
           "توصي"
         ],
         [
-          "F",
+          "E",
           "بمطعم"
         ],
         [
-          "E",
+          "F",
           "باهي"
         ]
       ],
@@ -129532,11 +129580,11 @@ const SENTENCES = [
           "توصي"
         ],
         [
-          "F",
+          "E",
           "بمطعم"
         ],
         [
-          "E",
+          "F",
           "كويس"
         ]
       ],
@@ -129930,11 +129978,11 @@ const SENTENCES = [
           "gunsabira"
         ],
         [
-          "F",
+          "E",
           "iresitora"
         ],
         [
-          "E",
+          "F",
           "nziza"
         ]
       ],
@@ -129944,11 +129992,11 @@ const SENTENCES = [
           "Mungandipatsire"
         ],
         [
-          "F",
+          "E",
           "nyumba yodya"
         ],
         [
-          "E",
+          "F",
           "yabwino"
         ]
       ],
@@ -130849,7 +130897,7 @@ const SENTENCES = [
       ],
       "sw": [
         [
-          "A",
+          "A|C",
           "Nilisahau"
         ],
         [
@@ -132551,7 +132599,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|C",
           "Ndakanganwa"
         ],
         [
@@ -133975,7 +134023,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|C",
           "Nibagiwe"
         ],
         [
@@ -133989,7 +134037,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "A",
+          "A|C",
           "Ndinayiwala"
         ],
         [
@@ -135733,7 +135781,7 @@ const SENTENCES = [
       "ka": [
         [
           "A",
-          "ის"
+          "მას"
         ],
         [
           "B",
@@ -135745,7 +135793,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "უკრავს"
+          "დაკვრა"
+        ],
+        [
+          "E",
+          "შეუძლია"
         ]
       ],
       "km": [
@@ -137088,7 +137140,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|E",
           "Anogona"
         ],
         [
@@ -139478,8 +139530,12 @@ const SENTENCES = [
           "الامتحان"
         ],
         [
+          "D",
+          "يوم الاثنين"
+        ],
+        [
           "B",
-          "يوم الاثنين القادم"
+          "القادم"
         ]
       ],
       "he": [
@@ -139492,8 +139548,12 @@ const SENTENCES = [
           "הוא"
         ],
         [
+          "D",
+          "ביום שני"
+        ],
+        [
           "B",
-          "ביום שני הבא"
+          "הבא"
         ]
       ],
       "vi_nom": [
@@ -139740,8 +139800,12 @@ const SENTENCES = [
           "uko"
         ],
         [
+          "D",
+          "Jumatatu"
+        ],
+        [
           "B",
-          "Jumatatu ijayo"
+          "ijayo"
         ]
       ],
       "ja_edo": [
@@ -139778,8 +139842,12 @@ const SENTENCES = [
           "الامتحان"
         ],
         [
+          "D",
+          "يوم الاتنين"
+        ],
+        [
           "B",
-          "يوم الاتنين الجاي"
+          "الجاي"
         ]
       ],
       "tr": [
@@ -139843,7 +139911,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "በሚቀጥለው ሰኞ"
+          "በሚቀጥለው"
+        ],
+        [
+          "D",
+          "ሰኞ"
         ],
         [
           "C",
@@ -140235,7 +140307,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "მომავალ ორშაბათს"
+          "მომავალ"
+        ],
+        [
+          "D",
+          "ორშაბათს"
         ],
         [
           "C",
@@ -140434,8 +140510,12 @@ const SENTENCES = [
           "الامتحان"
         ],
         [
+          "D",
+          "يوم الاتنين"
+        ],
+        [
           "B",
-          "يوم الاتنين الجاي"
+          "الجاي"
         ]
       ],
       "ar_ma": [
@@ -140444,8 +140524,12 @@ const SENTENCES = [
           "الامتحان"
         ],
         [
+          "D",
+          "نهار الاتنين"
+        ],
+        [
           "B",
-          "نهار الاتنين الجاي"
+          "الجاي"
         ]
       ],
       "ar_gulf": [
@@ -140454,8 +140538,12 @@ const SENTENCES = [
           "الاختبار"
         ],
         [
+          "D",
+          "يوم الاثنين"
+        ],
+        [
           "B",
-          "يوم الاثنين الياي"
+          "الياي"
         ]
       ],
       "zh_sc": [
@@ -140830,8 +140918,12 @@ const SENTENCES = [
           "huwa"
         ],
         [
+          "D",
+          "it-Tnejn"
+        ],
+        [
           "B",
-          "it-Tnejn li ġej"
+          "li ġej"
         ]
       ],
       "so": [
@@ -141113,7 +141205,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ዝመጽእ ሰኑይ"
+          "ዝመጽእ"
+        ],
+        [
+          "D",
+          "ሰኑይ"
         ],
         [
           "C",
@@ -141144,8 +141240,12 @@ const SENTENCES = [
           "ezali"
         ],
         [
+          "D",
+          "Lundi"
+        ],
+        [
           "B",
-          "Lundi ezali koya"
+          "ezali koya"
         ]
       ],
       "sn": [
@@ -141158,8 +141258,12 @@ const SENTENCES = [
           "iri"
         ],
         [
+          "D",
+          "Muvhuro"
+        ],
+        [
           "B",
-          "Muvhuro unouya"
+          "unouya"
         ]
       ],
       "xh": [
@@ -141256,8 +141360,12 @@ const SENTENCES = [
           "ⲡⲉ"
         ],
         [
+          "D",
+          "ⲙⲡⲓⲡⲉⲥⲛⲁⲩ"
+        ],
+        [
           "B",
-          "ⲙⲡⲓⲡⲉⲥⲛⲁⲩ ⲉⲧⲛⲏⲟⲩ"
+          "ⲉⲧⲛⲏⲟⲩ"
         ]
       ],
       "rom": [
@@ -141380,8 +141488,12 @@ const SENTENCES = [
           "בְּחִינְתָּא"
         ],
         [
+          "D",
+          "יוֹם תְּרֵין"
+        ],
+        [
           "B",
-          "יוֹם תְּרֵין דְּאָתֵי"
+          "דְּאָתֵי"
         ]
       ],
       "en_au": [
@@ -141436,12 +141548,12 @@ const SENTENCES = [
           "الامتحان"
         ],
         [
-          "C",
-          "يوم"
+          "D",
+          "يوم الاثنين"
         ],
         [
           "B",
-          "الاثنين الجاي"
+          "الجاي"
         ]
       ],
       "hak_cn": [
@@ -142078,8 +142190,12 @@ const SENTENCES = [
           "الإمتحان"
         ],
         [
+          "D",
+          "النهار الإثنين"
+        ],
+        [
           "B",
-          "النهار الإثنين الجاي"
+          "الجاي"
         ],
         [
           "C",
@@ -142092,8 +142208,12 @@ const SENTENCES = [
           "الامتحان"
         ],
         [
+          "D",
+          "يوم الاثنين"
+        ],
+        [
           "B",
-          "يوم الاثنين الجاي"
+          "الجاي"
         ],
         [
           "C",
@@ -142339,11 +142459,15 @@ const SENTENCES = [
         ],
         [
           "C",
-          "‌ni"
+          "ni"
+        ],
+        [
+          "D",
+          "ku wa mbere"
         ],
         [
           "B",
-          "ku wa mbere w'icyumweru gitaha"
+          "w'icyumweru gitaha"
         ]
       ],
       "ny": [
@@ -142356,8 +142480,12 @@ const SENTENCES = [
           "ali"
         ],
         [
+          "D",
+          "Lolemba"
+        ],
+        [
           "B",
-          "Lolemba lotsatira"
+          "lotsatira"
         ]
       ],
       "tk": [
@@ -143357,7 +143485,7 @@ const SENTENCES = [
       ],
       "sw": [
         [
-          "A",
+          "A|E",
           "Nataka"
         ],
         [
@@ -145403,7 +145531,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|E",
           "Ndinoda"
         ],
         [
@@ -146747,7 +146875,7 @@ const SENTENCES = [
       ],
       "ar_tn": [
         [
-          "A",
+          "E",
           "نحب"
         ],
         [
@@ -146765,7 +146893,7 @@ const SENTENCES = [
       ],
       "ar_sd": [
         [
-          "A",
+          "E",
           "داير"
         ],
         [
@@ -147123,7 +147251,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|E",
           "Ndashaka"
         ],
         [
@@ -147141,7 +147269,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "A",
+          "A|E",
           "Ndikufuna"
         ],
         [
@@ -148149,8 +148277,12 @@ const SENTENCES = [
       ],
       "sw": [
         [
+          "E",
+          "Chumba"
+        ],
+        [
           "A",
-          "Chumba cha hoteli"
+          "cha hoteli"
         ],
         [
           "B",
@@ -148215,8 +148347,12 @@ const SENTENCES = [
           "كانت"
         ],
         [
+          "E",
+          "أوضة"
+        ],
+        [
           "A",
-          "أوضة الفندق"
+          "الفندق"
         ],
         [
           "D",
@@ -148296,7 +148432,11 @@ const SENTENCES = [
       "am": [
         [
           "A",
-          "የሆቴሉ ክፍል"
+          "የሆቴሉ"
+        ],
+        [
+          "E",
+          "ክፍል"
         ],
         [
           "C",
@@ -148639,8 +148779,12 @@ const SENTENCES = [
           "𓅱𓈖𓈖|wnn"
         ],
         [
+          "E",
+          "𓂝𓏏|ꜥt"
+        ],
+        [
           "A",
-          "𓂝𓏏 𓈖 𓉐|ꜥt n pr"
+          "𓈖 𓉐|n pr"
         ],
         [
           "C",
@@ -148796,7 +148940,11 @@ const SENTENCES = [
       "ka": [
         [
           "A",
-          "სასტუმროს ოთახი"
+          "სასტუმროს"
+        ],
+        [
+          "E",
+          "ოთახი"
         ],
         [
           "C",
@@ -149059,8 +149207,12 @@ const SENTENCES = [
           "كانت"
         ],
         [
+          "E",
+          "أوضة"
+        ],
+        [
           "A",
-          "أوضة الفندق"
+          "الفندق"
         ],
         [
           "D",
@@ -149077,8 +149229,12 @@ const SENTENCES = [
           "كانت"
         ],
         [
+          "E",
+          "البيت"
+        ],
+        [
           "A",
-          "البيت ديال الأوتيل"
+          "ديال الأوتيل"
         ],
         [
           "D",
@@ -149551,8 +149707,12 @@ const SENTENCES = [
       ],
       "mt": [
         [
+          "E",
+          "Il-kamra"
+        ],
+        [
           "A",
-          "Il-kamra tal-lukanda"
+          "tal-lukanda"
         ],
         [
           "B",
@@ -149909,8 +150069,12 @@ const SENTENCES = [
       ],
       "ti": [
         [
+          "E",
+          "ክፍሊ"
+        ],
+        [
           "A",
-          "ክፍሊ ሆቴል"
+          "ሆቴል"
         ],
         [
           "C",
@@ -149941,8 +150105,12 @@ const SENTENCES = [
       ],
       "ln": [
         [
+          "E",
+          "Shambre"
+        ],
+        [
           "A",
-          "Shambre ya otele"
+          "ya otele"
         ],
         [
           "B",
@@ -149959,8 +150127,12 @@ const SENTENCES = [
       ],
       "sn": [
         [
+          "E",
+          "Kamuri"
+        ],
+        [
           "A",
-          "Kamuri yehotero"
+          "yehotero"
         ],
         [
           "B",
@@ -150085,8 +150257,12 @@ const SENTENCES = [
       ],
       "cop": [
         [
+          "E",
+          "ⲡⲓⲙⲁ"
+        ],
+        [
           "A",
-          "ⲡⲓⲙⲁ ⲛⲧⲉ ⲡⲓⲝⲉⲛⲟⲇⲟⲭⲓⲟⲛ"
+          "ⲛⲧⲉ ⲡⲓⲝⲉⲛⲟⲇⲟⲭⲓⲟⲛ"
         ],
         [
           "B",
@@ -151201,6 +151377,10 @@ const SENTENCES = [
           "في الفندق"
         ],
         [
+          "B",
+          "كانت"
+        ],
+        [
           "D",
           "نظيفة"
         ],
@@ -151543,8 +151723,12 @@ const SENTENCES = [
       ],
       "rw": [
         [
+          "E",
+          "Icyumba"
+        ],
+        [
           "A",
-          "Icyumba cy'ihoteli"
+          "cy'ihoteli"
         ],
         [
           "B",
@@ -151561,8 +151745,12 @@ const SENTENCES = [
       ],
       "ny": [
         [
+          "E",
+          "Chipinda"
+        ],
+        [
           "A",
-          "Chipinda cha hotelo"
+          "cha hotelo"
         ],
         [
           "B",
@@ -152551,12 +152739,8 @@ const SENTENCES = [
           "እባክዎ"
         ],
         [
-          "B",
-          "ብለው"
-        ],
-        [
           "D",
-          "ቀስ"
+          "ቀስ ብለው"
         ],
         [
           "C",
@@ -156340,7 +156524,7 @@ const SENTENCES = [
       "am": [
         [
           "A|E",
-          "ወንድም"
+          "ታላቅ ወንድሜ"
         ],
         [
           "C",
@@ -158301,8 +158485,12 @@ const SENTENCES = [
           "ⲁϥϭⲓ ⲥϩⲓⲙⲓ"
         ],
         [
+          "D",
+          "ⲙⲡⲓⲁⲃⲟⲧ"
+        ],
+        [
           "C",
-          "ⲙⲡⲓⲁⲃⲟⲧ ⲉⲧⲁϥⲥⲓⲛⲓ"
+          "ⲉⲧⲁϥⲥⲓⲛⲓ"
         ]
       ],
       "rom": [
@@ -158599,8 +158787,12 @@ const SENTENCES = [
           "aḫī rabûm"
         ],
         [
+          "D",
+          "ina warḫim"
+        ],
+        [
           "C",
-          "ina warḫim pānim"
+          "pānim"
         ],
         [
           "B",
@@ -159781,8 +159973,12 @@ const SENTENCES = [
           "anakwatira"
         ],
         [
+          "D",
+          "mwezi"
+        ],
+        [
           "C",
-          "mwezi watha"
+          "watha"
         ]
       ],
       "tk": [
@@ -160701,8 +160897,12 @@ const SENTENCES = [
           "فيه"
         ],
         [
+          "B",
+          "ناس"
+        ],
+        [
           "A",
-          "ناس كتير"
+          "كتير"
         ],
         [
           "C",
@@ -161473,8 +161673,12 @@ const SENTENCES = [
           "في"
         ],
         [
+          "B",
+          "ناس"
+        ],
+        [
           "A",
-          "ناس كتير"
+          "كتير"
         ],
         [
           "C",
@@ -161487,8 +161691,12 @@ const SENTENCES = [
           "كاين"
         ],
         [
+          "B",
+          "ناس"
+        ],
+        [
           "A",
-          "ناس بزاف"
+          "بزاف"
         ],
         [
           "C",
@@ -161501,8 +161709,12 @@ const SENTENCES = [
           "في"
         ],
         [
+          "B",
+          "ناس"
+        ],
+        [
           "A",
-          "ناس وايد"
+          "وايد"
         ],
         [
           "C",
@@ -162659,8 +162871,12 @@ const SENTENCES = [
           "أكو"
         ],
         [
+          "B",
+          "ناس"
+        ],
+        [
           "A",
-          "ناس وايد"
+          "وايد"
         ],
         [
           "C",
@@ -166414,7 +166630,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "birthday"
+          "‌birthday"
         ]
       ],
       "so": [
@@ -166869,7 +167085,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|B",
           "Ndinoda"
         ],
         [
@@ -166882,7 +167098,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "zuva rekuzvarwa"
+          "‌zuva rekuzvarwa"
         ]
       ],
       "xh": [
@@ -168593,7 +168809,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|B",
           "Ngomba"
         ],
         [
@@ -168611,7 +168827,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "A",
+          "A|B",
           "Ndiyenera"
         ],
         [
@@ -172586,7 +172802,7 @@ const SENTENCES = [
           "Izuba rirenze"
         ],
         [
-          "A",
+          "E",
           "rikiboneka"
         ],
         [
@@ -173629,7 +173845,7 @@ const SENTENCES = [
       ],
       "sw": [
         [
-          "A",
+          "A|E",
           "Ninahitaji"
         ],
         [
@@ -175679,7 +175895,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|E",
           "Ndinofanira"
         ],
         [
@@ -177395,7 +177611,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|E",
           "Ngomba"
         ],
         [
@@ -177413,7 +177629,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "A",
+          "A|E",
           "Ndiyenera"
         ],
         [
@@ -178523,7 +178739,7 @@ const SENTENCES = [
       ],
       "sw": [
         [
-          "A",
+          "A|E",
           "Unajua"
         ],
         [
@@ -182237,7 +182453,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|E",
           "Uzi"
         ],
         [
@@ -182255,7 +182471,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "A",
+          "A|E",
           "Mukudziwa"
         ],
         [
@@ -193210,7 +193426,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "מסעדה"
+          "‌מסעדה"
         ],
         [
           "D",
@@ -194428,7 +194644,7 @@ const SENTENCES = [
         ],
         [
           "D|E",
-          "هالمطعم"
+          "‌هالمطعم"
         ],
         [
           "C",
@@ -194468,7 +194684,7 @@ const SENTENCES = [
         ],
         [
           "D|E",
-          "هالمطعم"
+          "‌هالمطعم"
         ],
         [
           "C",
@@ -194976,7 +195192,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "dan"
+          "‌dan"
         ],
         [
           "E",
@@ -195814,7 +196030,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "هاي"
+          "‌هاي"
         ],
         [
           "E",
@@ -197931,7 +198147,7 @@ const SENTENCES = [
       ],
       "sw": [
         [
-          "A",
+          "A|D",
           "Nataka"
         ],
         [
@@ -199609,7 +199825,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|D",
           "Ndinoda"
         ],
         [
@@ -201009,7 +201225,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|D",
           "Ndashaka"
         ],
         [
@@ -201023,7 +201239,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "A",
+          "A|D",
           "Ndikufuna"
         ],
         [
@@ -203273,11 +203489,11 @@ const SENTENCES = [
         ],
         [
           "F",
-          "هال"
+          "‌هال"
         ],
         [
           "A",
-          "بلد"
+          "‌بلد"
         ],
         [
           "D",
@@ -203329,7 +203545,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "بلد"
+          "‌بلد"
         ],
         [
           "D",
@@ -203941,7 +204157,7 @@ const SENTENCES = [
         ],
         [
           "F",
-          "dan"
+          "‌dan"
         ],
         [
           "A",
@@ -204943,7 +205159,7 @@ const SENTENCES = [
         ],
         [
           "F",
-          "هاي"
+          "‌هاي"
         ],
         [
           "A",
@@ -205977,7 +206193,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "بلاد"
+          "‌بلاد"
         ],
         [
           "B",
@@ -207433,7 +207649,7 @@ const SENTENCES = [
           "مع"
         ],
         [
-          "B",
+          "B|G",
           "صديقي"
         ],
         [
@@ -207455,7 +207671,7 @@ const SENTENCES = [
           "עם"
         ],
         [
-          "B",
+          "B|G",
           "חברי"
         ],
         [
@@ -207859,7 +208075,7 @@ const SENTENCES = [
       ],
       "sw": [
         [
-          "A",
+          "A|E|H",
           "Nilizungumza"
         ],
         [
@@ -207953,7 +208169,7 @@ const SENTENCES = [
           "مع"
         ],
         [
-          "B",
+          "B|G",
           "صاحبي"
         ],
         [
@@ -208065,7 +208281,7 @@ const SENTENCES = [
           "እኔ"
         ],
         [
-          "B|F",
+          "B|F|G",
           "ከጓደኛዬ ጋር"
         ],
         [
@@ -209173,7 +209389,7 @@ const SENTENCES = [
           "مع"
         ],
         [
-          "B",
+          "B|G",
           "صاحبي"
         ],
         [
@@ -209195,7 +209411,7 @@ const SENTENCES = [
           "مع"
         ],
         [
-          "B",
+          "B|G",
           "صاحبي"
         ],
         [
@@ -209217,7 +209433,7 @@ const SENTENCES = [
           "مع"
         ],
         [
-          "B",
+          "B|G",
           "صاحبي"
         ],
         [
@@ -210581,7 +210797,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|E|H",
           "Ndakataura"
         ],
         [
@@ -210590,7 +210806,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "shamwari"
+          "‌shamwari"
         ],
         [
           "G",
@@ -212369,7 +212585,7 @@ const SENTENCES = [
           "مع"
         ],
         [
-          "B",
+          "B|G",
           "صاحبي"
         ],
         [
@@ -212395,7 +212611,7 @@ const SENTENCES = [
           "مع"
         ],
         [
-          "B",
+          "B|G",
           "صاحبي"
         ],
         [
@@ -212889,7 +213105,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|E|H",
           "Navuganye"
         ],
         [
@@ -212915,7 +213131,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "A",
+          "A|E|H",
           "Ndinakamba"
         ],
         [
@@ -217774,12 +217990,12 @@ const SENTENCES = [
           "לראות"
         ],
         [
-          "E",
-          "ההוא"
-        ],
-        [
           "B",
           "את הסרט"
+        ],
+        [
+          "E",
+          "ההוא"
         ]
       ],
       "vi_nom": [
@@ -218070,7 +218286,7 @@ const SENTENCES = [
       ],
       "sw": [
         [
-          "A",
+          "A|D",
           "Nataka"
         ],
         [
@@ -220112,7 +220328,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|D",
           "Ndinoda"
         ],
         [
@@ -221804,7 +222020,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|D",
           "Ndashaka"
         ],
         [
@@ -221822,7 +222038,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "A",
+          "A|D",
           "Ndikufuna"
         ],
         [
@@ -222685,7 +222901,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "שדה התעופה"
+          "‌שדה התעופה"
         ]
       ],
       "vi_nom": [
@@ -223114,12 +223330,8 @@ const SENTENCES = [
           "الطريق"
         ],
         [
-          "F",
-          "لـ"
-        ],
-        [
-          "G",
-          "المطار"
+          "F|G",
+          "للمطار"
         ]
       ],
       "tr": [
@@ -224190,12 +224402,8 @@ const SENTENCES = [
           "عالطريق"
         ],
         [
-          "F",
-          "لـ"
-        ],
-        [
-          "G",
-          "المطار"
+          "F|G",
+          "للمطار"
         ]
       ],
       "ar_ma": [
@@ -224212,12 +224420,8 @@ const SENTENCES = [
           "الطريق"
         ],
         [
-          "F",
-          "لـ"
-        ],
-        [
-          "G",
-          "المطار"
+          "F|G",
+          "للمطار"
         ]
       ],
       "ar_gulf": [
@@ -224234,12 +224438,8 @@ const SENTENCES = [
           "الطريق"
         ],
         [
-          "F",
-          "لـ"
-        ],
-        [
-          "G",
-          "المطار"
+          "F|G",
+          "للمطار"
         ]
       ],
       "zh_sc": [
@@ -224851,7 +225051,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "ajruport"
+          "‌ajruport"
         ]
       ],
       "so": [
@@ -225832,12 +226032,8 @@ const SENTENCES = [
           "الطريق"
         ],
         [
-          "F",
-          "لـ"
-        ],
-        [
-          "G",
-          "المطار"
+          "F|G",
+          "للمطار"
         ]
       ],
       "hak_cn": [
@@ -226886,12 +227082,8 @@ const SENTENCES = [
           "الطريق"
         ],
         [
-          "F",
-          "لـ"
-        ],
-        [
-          "G",
-          "المطار"
+          "F|G",
+          "للمطار"
         ]
       ],
       "ar_sd": [
@@ -226908,12 +227100,8 @@ const SENTENCES = [
           "الطريق"
         ],
         [
-          "F",
-          "لـ"
-        ],
-        [
-          "G",
-          "المطار"
+          "F|G",
+          "للمطار"
         ]
       ],
       "es_cu": [
@@ -237205,7 +237393,7 @@ const SENTENCES = [
       ],
       "sw": [
         [
-          "A",
+          "A|C|H",
           "Nilipoteza"
         ],
         [
@@ -239411,7 +239599,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|C|H",
           "Ndakarasikirwa"
         ],
         [
@@ -241255,7 +241443,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|C|H",
           "Nabuze"
         ],
         [
@@ -241273,7 +241461,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "A",
+          "A|C|H",
           "Ndinataya"
         ],
         [
@@ -246476,7 +246664,7 @@ const SENTENCES = [
       ],
       "sw": [
         [
-          "A",
+          "A|D",
           "Tunahitaji"
         ],
         [
@@ -246530,12 +246718,8 @@ const SENTENCES = [
           "لازم"
         ],
         [
-          "A",
-          "نحافظ"
-        ],
-        [
-          "C",
-          "على"
+          "A|C",
+          "نحافظ على"
         ],
         [
           "B",
@@ -247346,12 +247530,8 @@ const SENTENCES = [
           "لازم"
         ],
         [
-          "A",
-          "نحافظ"
-        ],
-        [
-          "C",
-          "على"
+          "A|C",
+          "نحافظ على"
         ],
         [
           "B",
@@ -248154,7 +248334,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|D",
           "Tinofanira"
         ],
         [
@@ -249554,7 +249734,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|D",
           "Tugomba"
         ],
         [
@@ -249568,7 +249748,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "A",
+          "A|D",
           "Tiyenera"
         ],
         [
@@ -250759,7 +250939,7 @@ const SENTENCES = [
       ],
       "sw": [
         [
-          "A",
+          "A|C",
           "Ninakunywa"
         ],
         [
@@ -253132,7 +253312,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ይሰቲ"
+          "እሰቲ"
         ]
       ],
       "wo": [
@@ -253189,7 +253369,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|C",
           "Ndinonwa"
         ],
         [
@@ -255213,7 +255393,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|C",
           "Nywa"
         ],
         [
@@ -255235,7 +255415,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "A",
+          "A|C",
           "Ndimamwa"
         ],
         [
@@ -261920,7 +262100,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|D",
           "Anotaura"
         ],
         [
@@ -264399,7 +264579,7 @@ const SENTENCES = [
       ],
       "sw": [
         [
-          "A",
+          "A|E",
           "Nataka"
         ],
         [
@@ -264412,7 +264592,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ya hekalu"
+          "ya hekalu hili"
         ]
       ],
       "ja_edo": [
@@ -266441,7 +266621,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|E",
           "Ndinoda"
         ],
         [
@@ -268141,7 +268321,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|E",
           "Ndashaka"
         ],
         [
@@ -268159,7 +268339,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "A",
+          "A|E",
           "Ndikufuna"
         ],
         [
@@ -272184,7 +272364,7 @@ const SENTENCES = [
       ],
       "sw": [
         [
-          "A",
+          "A|D",
           "Ninajifunza"
         ],
         [
@@ -272771,7 +272951,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "კორეულ საჭმელის"
+          "კორეული საჭმლის"
         ],
         [
           "C",
@@ -273495,7 +273675,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ikel Korean"
+          "ikel Korejan"
         ]
       ],
       "so": [
@@ -273837,7 +274017,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ይመሃር ኣለኹ"
+          "እመሃር ኣለኹ"
         ]
       ],
       "wo": [
@@ -275320,7 +275500,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "A",
+          "A|D",
           "Ndikuphunzira"
         ],
         [
@@ -278443,7 +278623,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|E",
           "Anongosvika"
         ],
         [
@@ -281261,7 +281441,7 @@ const SENTENCES = [
       ],
       "sw": [
         [
-          "A",
+          "A|E",
           "Nataka"
         ],
         [
@@ -283315,7 +283495,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|E",
           "Ndinoda"
         ],
         [
@@ -285031,7 +285211,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|E",
           "Ndashaka"
         ],
         [
@@ -285049,7 +285229,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "A",
+          "A|E",
           "Ndikufuna"
         ],
         [
@@ -288239,7 +288419,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "mu bishyitsi"
+          "mu biti"
         ],
         [
           "C",
@@ -289082,12 +289262,12 @@ const SENTENCES = [
       ],
       "sw": [
         [
-          "A",
+          "A|D",
           "Ninahitaji"
         ],
         [
           "C",
-          "kucharji"
+          "kuchaji"
         ],
         [
           "B",
@@ -290764,7 +290944,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|D",
           "Ndinoda"
         ],
         [
@@ -292156,7 +292336,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|D",
           "Ngomba"
         ],
         [
@@ -292170,7 +292350,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "A",
+          "A|D",
           "Ndiyenera"
         ],
         [
@@ -293201,7 +293381,7 @@ const SENTENCES = [
       ],
       "sw": [
         [
-          "A",
+          "A|B|E",
           "Alinipatia"
         ],
         [
@@ -295259,7 +295439,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|B|E",
           "Akandipa"
         ],
         [
@@ -296975,7 +297155,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|B|E",
           "Yampeye"
         ],
         [
@@ -301247,7 +301427,7 @@ const SENTENCES = [
       ],
       "sw": [
         [
-          "A",
+          "A|D",
           "Ninafanya mazoezi"
         ],
         [
@@ -301614,19 +301794,19 @@ const SENTENCES = [
       "egy": [
         [
           "D",
-          "𓅴𓄐𓐍|sḫm"
+          "𓋴𓐍𓅓|sḫm"
         ],
         [
           "A",
-          "𓂇𓈖𓐭|jnk"
+          "𓇋𓈖𓎡|jnk"
         ],
         [
           "B",
-          "𓐍 𓉐 𓈖 𓅴𓄐𓐍|m pr n sḫm"
+          "𓅓 𓉐 𓈖 𓋴𓐍𓅓|m pr n sḫm"
         ],
         [
           "C",
-          "𓅴𓄪 𓏻|sp 3"
+          "𓋴𓊪 𓏻|sp 3"
         ],
         [
           "E",
@@ -305099,7 +305279,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "A",
+          "A|D",
           "Ndimachita masewero"
         ],
         [
@@ -310433,7 +310613,7 @@ const SENTENCES = [
       ],
       "sw": [
         [
-          "A",
+          "A|D|E",
           "Aliandika"
         ],
         [
@@ -312428,7 +312608,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ġenituri tiegħu"
+          "‌ġenituri tiegħu"
         ]
       ],
       "so": [
@@ -312967,7 +313147,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|D|E",
           "Akanyora"
         ],
         [
@@ -315175,7 +315355,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|D|E",
           "Yanditse"
         ],
         [
@@ -317779,7 +317959,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "9"
+          "‌9"
         ],
         [
           "F",
@@ -320833,7 +321013,7 @@ const SENTENCES = [
       ],
       "sw": [
         [
-          "A",
+          "A|D",
           "Nataka"
         ],
         [
@@ -322519,7 +322699,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|D",
           "Ndinoda"
         ],
         [
@@ -323915,7 +324095,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|D",
           "Ndashaka"
         ],
         [
@@ -323929,7 +324109,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "A",
+          "A|D",
           "Ndikufuna"
         ],
         [
@@ -324791,7 +324971,7 @@ const SENTENCES = [
       ],
       "sw": [
         [
-          "A",
+          "A|D",
           "Walijenga"
         ],
         [
@@ -326489,7 +326669,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|D",
           "Vakavaka"
         ],
         [
@@ -327929,7 +328109,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|D",
           "Bubatse"
         ],
         [
@@ -327943,7 +328123,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "A",
+          "A|D",
           "Anamanga"
         ],
         [
@@ -342237,12 +342417,8 @@ const SENTENCES = [
           "მუსიკის"
         ],
         [
-          "B",
+          "B|C",
           "მოსმენისას"
-        ],
-        [
-          "C",
-          "როცა"
         ],
         [
           "D",
@@ -345111,7 +345287,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "C",
+          "B|C",
           "Ndikamamva"
         ],
         [
@@ -345835,7 +346011,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "نتائج"
+          "‌نتائج"
         ],
         [
           "E",
@@ -346227,7 +346403,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "نتيجة"
+          "‌نتيجة"
         ],
         [
           "E",
@@ -347111,7 +347287,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "نتيجة"
+          "‌نتيجة"
         ],
         [
           "E",
@@ -347124,20 +347300,20 @@ const SENTENCES = [
           "هو"
         ],
         [
-          "E",
-          "ديال الإكزامن"
-        ],
-        [
-          "B",
-          "النتائج"
+          "C",
+          "تخلع"
         ],
         [
           "D",
           "بـ"
         ],
         [
-          "C",
-          "تخلع"
+          "B",
+          "‌النتائج"
+        ],
+        [
+          "E",
+          "ديال الإكزامن"
         ]
       ],
       "ar_gulf": [
@@ -347651,7 +347827,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "r-riżultati"
+          "‌r-riżultati"
         ],
         [
           "E",
@@ -348090,7 +348266,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|C",
           "Akashamisika"
         ],
         [
@@ -348489,7 +348665,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "نتائج"
+          "‌نتائج"
         ],
         [
           "E",
@@ -349359,7 +349535,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "نتيجة"
+          "‌نتيجة"
         ],
         [
           "E",
@@ -349731,7 +349907,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ibisubizo"
+          "‌ibisubizo"
         ],
         [
           "E",
@@ -350689,15 +350865,15 @@ const SENTENCES = [
       "ar_eg": [
         [
           "D",
-          "بفتكر"
-        ],
-        [
-          "A",
-          "إن"
+          "بفتكر إن"
         ],
         [
           "B",
-          "الخطة دي"
+          "الخطة"
+        ],
+        [
+          "A",
+          "دي"
         ],
         [
           "C",
@@ -351489,14 +351665,10 @@ const SENTENCES = [
       "ar_lev": [
         [
           "D",
-          "بعتقد"
+          "بعتقد إنه"
         ],
         [
-          "A",
-          "إنه"
-        ],
-        [
-          "B",
+          "A|B",
           "هالخطة"
         ],
         [
@@ -351507,15 +351679,15 @@ const SENTENCES = [
       "ar_ma": [
         [
           "D",
-          "كنضن"
+          "كنضن بلي"
         ],
         [
           "A",
-          "بلي"
+          "هاد"
         ],
         [
           "B",
-          "هاد الخطة"
+          "الخطة"
         ],
         [
           "C",
@@ -351525,14 +351697,10 @@ const SENTENCES = [
       "ar_gulf": [
         [
           "D",
-          "أظن"
+          "أظن إن"
         ],
         [
-          "A",
-          "إن"
-        ],
-        [
-          "B",
+          "A|B",
           "هالخطة"
         ],
         [
@@ -351961,7 +352129,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "‌dan"
+          "dan"
         ],
         [
           "B",
@@ -353810,11 +353978,11 @@ const SENTENCES = [
           "Ndikuganiza"
         ],
         [
-          "A",
+          "B",
           "dongosolo"
         ],
         [
-          "B",
+          "A",
           "ili"
         ],
         [
@@ -357311,7 +357479,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "חַבְרָתַהּ"
+          "‌חַבְרָתַהּ"
         ],
         [
           "E",
@@ -359820,11 +359988,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "לימודים"
+          "‌לימודים"
         ],
         [
           "F",
-          "בחול"
+          "בחו״ל"
         ],
         [
           "D",
@@ -360263,7 +360431,7 @@ const SENTENCES = [
       ],
       "sw": [
         [
-          "A",
+          "A|E",
           "Naamini"
         ],
         [
@@ -360494,6 +360662,10 @@ const SENTENCES = [
         ],
         [
           "D",
+          "ነው"
+        ],
+        [
+          "H",
           "ብዬ"
         ],
         [
@@ -363189,7 +363361,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|E",
           "Ndinotenda"
         ],
         [
@@ -363206,7 +363378,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ruzivo"
+          "‌ruzivo"
         ],
         [
           "G",
@@ -365701,7 +365873,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|E|H",
           "Nemera ko"
         ],
         [
@@ -365727,7 +365899,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "A",
+          "A|E",
           "Ndikukhulupirira"
         ],
         [
@@ -366662,7 +366834,7 @@ const SENTENCES = [
       ],
       "sw": [
         [
-          "A",
+          "A|F",
           "Nina"
         ],
         [
@@ -367456,11 +367628,11 @@ const SENTENCES = [
       ],
       "ar_lev": [
         [
-          "E",
+          "B",
           "راسي"
         ],
         [
-          "F",
+          "D",
           "عم يوجعني"
         ],
         [
@@ -367470,11 +367642,11 @@ const SENTENCES = [
       ],
       "ar_ma": [
         [
-          "E",
+          "B",
           "راسي"
         ],
         [
-          "F",
+          "D",
           "كيضرني"
         ],
         [
@@ -367484,11 +367656,11 @@ const SENTENCES = [
       ],
       "ar_gulf": [
         [
-          "E",
+          "B",
           "راسي"
         ],
         [
-          "F",
+          "D",
           "يعورني"
         ],
         [
@@ -374522,7 +374694,7 @@ const SENTENCES = [
       ],
       "sw": [
         [
-          "A",
+          "A|D",
           "Ninajaribu"
         ],
         [
@@ -376159,7 +376331,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ይፍትን"
+          "እፍትን"
         ]
       ],
       "wo": [
@@ -376200,7 +376372,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|D",
           "Ndinoedza"
         ],
         [
@@ -377620,7 +377792,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|D",
           "Ngerageza"
         ],
         [
@@ -377634,7 +377806,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "A",
+          "A|D",
           "Ndimayesetsa"
         ],
         [
@@ -378358,12 +378530,12 @@ const SENTENCES = [
           "הצטננות"
         ],
         [
-          "E",
-          "שעבר"
+          "D",
+          "בשבוע"
         ],
         [
-          "D",
-          "שבוע"
+          "E",
+          "שעבר"
         ]
       ],
       "vi_nom": [
@@ -379356,7 +379528,7 @@ const SENTENCES = [
           "კვირას"
         ],
         [
-          "B",
+          "B|C",
           "გაცივდა"
         ]
       ],
@@ -380636,7 +380808,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|C",
           "Akabatwa"
         ],
         [
@@ -383139,8 +383311,12 @@ const SENTENCES = [
       ],
       "he": [
         [
+          "A",
+          "אתה"
+        ],
+        [
           "D",
-          "אתה צריך"
+          "צריך"
         ],
         [
           "C",
@@ -383447,7 +383623,7 @@ const SENTENCES = [
       ],
       "sw": [
         [
-          "A",
+          "A|D",
           "Unapaswa"
         ],
         [
@@ -383605,8 +383781,12 @@ const SENTENCES = [
           "ውሃ"
         ],
         [
+          "C",
+          "መጠጣት"
+        ],
+        [
           "D",
-          "መጠጣት አለብህ"
+          "አለብህ"
         ]
       ],
       "ta": [
@@ -384165,8 +384345,12 @@ const SENTENCES = [
           "წყალი"
         ],
         [
+          "D",
+          "უნდა"
+        ],
+        [
           "C",
-          "უნდა სვა"
+          "სვა"
         ]
       ],
       "km": [
@@ -385485,7 +385669,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|D",
           "Unofanira"
         ],
         [
@@ -387153,7 +387337,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|D",
           "Ugomba"
         ],
         [
@@ -389610,7 +389794,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ይጥቀም"
+          "እጥቀም"
         ]
       ],
       "wo": [
@@ -389651,7 +389835,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "D",
+          "C|D",
           "Ndinoshandisa"
         ],
         [
@@ -391047,7 +391231,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "D",
+          "C|D",
           "Nkoresha"
         ],
         [
@@ -391942,12 +392126,12 @@ const SENTENCES = [
           "hii"
         ],
         [
-          "C",
-          "ni"
+          "D",
+          "ni ya manufaa"
         ],
         [
-          "D",
-          "ya manufaa sana"
+          "C",
+          "sana"
         ]
       ],
       "ja_edo": [
@@ -392785,7 +392969,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "الأبليكيشن"
+          "‌الأبليكيشن"
         ],
         [
           "D",
@@ -392821,7 +393005,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "التطبيق"
+          "‌التطبيق"
         ],
         [
           "D",
@@ -393256,8 +393440,12 @@ const SENTENCES = [
           "l-app"
         ],
         [
+          "D",
+          "hija"
+        ],
+        [
           "C",
-          "hija ħafna"
+          "ħafna"
         ],
         [
           "D",
@@ -393614,16 +393802,20 @@ const SENTENCES = [
       ],
       "ln": [
         [
-          "A",
+          "B",
           "Aplike"
         ],
         [
-          "B",
+          "A",
           "oyo"
         ],
         [
+          "D",
+          "ezali"
+        ],
+        [
           "C",
-          "ezali mingi"
+          "mingi"
         ],
         [
           "D",
@@ -393632,19 +393824,19 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "B",
           "Appu"
         ],
         [
-          "B",
+          "A",
           "iyi"
         ],
         [
-          "C",
+          "D",
           "inobatsira"
         ],
         [
-          "D",
+          "C",
           "zvikuru"
         ]
       ],
@@ -393766,11 +393958,11 @@ const SENTENCES = [
           "ⲡⲓⲙⲏⲭⲁⲛⲏ"
         ],
         [
-          "C",
+          "D",
           "ⲟⲩⲡⲉⲧⲛⲁⲛⲉϥ"
         ],
         [
-          "D",
+          "C",
           "ⲉⲙⲁϣⲱ"
         ]
       ],
@@ -393902,8 +394094,12 @@ const SENTENCES = [
           "יִישׁוּמָא"
         ],
         [
+          "D",
+          "הוּא"
+        ],
+        [
           "C",
-          "הוּא לַחְדָא"
+          "לַחְדָא"
         ],
         [
           "D",
@@ -394740,7 +394936,7 @@ const SENTENCES = [
       ],
       "ar_tn": [
         [
-          "A",
+          "A|B",
           "هالأبليكاسيون"
         ],
         [
@@ -395068,12 +395264,12 @@ const SENTENCES = [
           "iyi"
         ],
         [
-          "C",
-          "‌ni"
+          "D",
+          "ni nziza"
         ],
         [
-          "D",
-          "nziza cyane"
+          "C",
+          "cyane"
         ]
       ],
       "ny": [
@@ -395086,12 +395282,12 @@ const SENTENCES = [
           "iyi"
         ],
         [
-          "C",
-          "ndi"
+          "D",
+          "ndi yothandiza"
         ],
         [
-          "D",
-          "yothandiza kwambiri"
+          "C",
+          "kwambiri"
         ]
       ],
       "tk": [
@@ -401182,7 +401378,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "password"
+          "‌password"
         ],
         [
           "F",
@@ -401655,8 +401851,8 @@ const SENTENCES = [
           "Na"
         ],
         [
-          "B|C",
-          "kokí"
+          "B",
+          "‌kokí"
         ],
         [
           "D",
@@ -401669,11 +401865,15 @@ const SENTENCES = [
         [
           "F",
           "ya Wi-Fi"
+        ],
+        [
+          "C",
+          "te"
         ]
       ],
       "sn": [
         [
-          "A",
+          "A|C",
           "Handisi"
         ],
         [
@@ -403650,7 +403850,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "shobora"
+          "‌shobora"
         ],
         [
           "D",
@@ -403667,7 +403867,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "A",
+          "A|B|C",
           "Sinditha"
         ],
         [
@@ -406295,7 +406495,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|D",
           "Akadzidza"
         ],
         [
@@ -410229,7 +410429,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "tsika"
+          "‌tsika"
         ],
         [
           "B",
@@ -411613,7 +411813,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌ni"
+          "ni"
         ],
         [
           "C",
@@ -414182,7 +414382,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|C",
           "Tinodya"
         ],
         [
@@ -415594,7 +415794,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|C",
           "Turya"
         ],
         [
@@ -415608,7 +415808,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "A",
+          "A|C",
           "Timadya"
         ],
         [
@@ -416532,7 +416732,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "מדינה"
+          "‌מדינה"
         ],
         [
           "B",
@@ -417033,11 +417233,11 @@ const SENTENCES = [
           "في"
         ],
         [
-          "B",
+          "C",
           "البلد"
         ],
         [
-          "C",
+          "B",
           "دي"
         ],
         [
@@ -417146,7 +417346,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ዚህ"
+          "‌ዚህ"
         ],
         [
           "C",
@@ -418302,7 +418502,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "هاد"
+          "‌هاد"
         ],
         [
           "C",
@@ -418361,7 +418561,7 @@ const SENTENCES = [
           "في"
         ],
         [
-          "B",
+          "B|C",
           "هالبلد"
         ],
         [
@@ -419608,7 +419808,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ዚ"
+          "‌ዚ"
         ],
         [
           "C",
@@ -419616,7 +419816,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ኣብ ክረምቲ"
+          "ኣብ ሓጋይ"
         ],
         [
           "E",
@@ -419693,7 +419893,7 @@ const SENTENCES = [
       ],
       "sn": [
         [
-          "A",
+          "A|C",
           "Munyika"
         ],
         [
@@ -420132,7 +420332,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "הָדֵא"
+          "‌הָדֵא"
         ],
         [
           "C",
@@ -420252,7 +420452,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "هاي"
+          "‌هاي"
         ],
         [
           "C",
@@ -421521,7 +421721,7 @@ const SENTENCES = [
           "في"
         ],
         [
-          "B",
+          "B|C",
           "هالبلاد"
         ],
         [
@@ -421547,11 +421747,11 @@ const SENTENCES = [
           "في"
         ],
         [
-          "B",
+          "C",
           "البلد"
         ],
         [
-          "C",
+          "B",
           "دي"
         ],
         [
@@ -422084,7 +422284,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "dziko"
+          "‌dziko"
         ],
         [
           "B",
@@ -425283,12 +425483,12 @@ const SENTENCES = [
           "efungolaka"
         ],
         [
-          "D",
-          "ya sika"
+          "E",
+          "bikuke"
         ],
         [
-          "E",
-          "porte"
+          "D",
+          "ya sika"
         ]
       ],
       "sn": [
@@ -429385,7 +429585,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ይኸይድ"
+          "እኸይድ"
         ]
       ],
       "wo": [
@@ -429653,7 +429853,11 @@ const SENTENCES = [
       "arc": [
         [
           "C",
-          "אָזֵל אֲנָא"
+          "אָזֵל"
+        ],
+        [
+          "D",
+          "אֲנָא"
         ],
         [
           "B",
@@ -429770,8 +429974,12 @@ const SENTENCES = [
           "ana bīt šiprim"
         ],
         [
+          "D",
+          "anāku"
+        ],
+        [
           "C",
-          "anāku allak"
+          "allak"
         ]
       ],
       "hit": [
@@ -431490,12 +431698,12 @@ const SENTENCES = [
           "عند"
         ],
         [
-          "D|E",
-          "القادم"
-        ],
-        [
           "F",
           "التقاطع"
+        ],
+        [
+          "D|E",
+          "القادم"
         ]
       ],
       "he": [
@@ -431513,7 +431721,7 @@ const SENTENCES = [
         ],
         [
           "D|F",
-          "צומת"
+          "‌צומת"
         ],
         [
           "E",
@@ -431894,12 +432102,12 @@ const SENTENCES = [
           "عند"
         ],
         [
-          "E",
-          "اللي جاي"
-        ],
-        [
           "F",
           "التقاطع"
+        ],
+        [
+          "E",
+          "اللي جاي"
         ]
       ],
       "tr": [
@@ -431966,12 +432174,12 @@ const SENTENCES = [
           "እባክዎ"
         ],
         [
-          "C",
+          "C|E",
           "በሚቀጥለው"
         ],
         [
           "F",
-          "መንገድ መስቀለኛ"
+          "መስቀለኛ መንገድ"
         ],
         [
           "B",
@@ -432842,12 +433050,12 @@ const SENTENCES = [
           "عَ"
         ],
         [
-          "D|E",
-          "التاني"
-        ],
-        [
           "F",
           "التقاطع"
+        ],
+        [
+          "D|E",
+          "التاني"
         ]
       ],
       "ar_ma": [
@@ -432864,12 +433072,12 @@ const SENTENCES = [
           "فـ"
         ],
         [
-          "D|E",
-          "الجاي"
+          "F",
+          "‌التقاطع"
         ],
         [
-          "F",
-          "التقاطع"
+          "D|E",
+          "الجاي"
         ]
       ],
       "ar_gulf": [
@@ -432886,12 +433094,12 @@ const SENTENCES = [
           "عند"
         ],
         [
-          "D|E",
-          "الياي"
-        ],
-        [
           "F",
           "المفترق"
+        ],
+        [
+          "D|E",
+          "الياي"
         ]
       ],
       "zh_sc": [
@@ -433439,19 +433647,15 @@ const SENTENCES = [
         ],
         [
           "C",
-          "fi"
+          "f'"
         ],
         [
-          "D",
-          "l-"
+          "F",
+          "‌salib it-toroq"
         ],
         [
           "E",
           "li jmiss"
-        ],
-        [
-          "F",
-          "salib it-toroq"
         ]
       ],
       "so": [
@@ -434093,7 +434297,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "ⲉⲑⲛⲏⲟⲩ"
+          "‌ⲉⲑⲛⲏⲟⲩ"
         ],
         [
           "F",
@@ -434265,7 +434469,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "קַדמָיָא"
+          "‌קַדמָיָא"
         ],
         [
           "F",
@@ -434364,12 +434568,12 @@ const SENTENCES = [
           "عند"
         ],
         [
-          "D|E",
-          "الجاي"
-        ],
-        [
           "F",
           "المفترك"
+        ],
+        [
+          "D|E",
+          "الجاي"
         ]
       ],
       "hak_cn": [
@@ -435314,12 +435518,12 @@ const SENTENCES = [
           "في"
         ],
         [
-          "D|E",
-          "الجاي"
-        ],
-        [
           "F",
           "التقاطع"
+        ],
+        [
+          "D|E",
+          "الجاي"
         ]
       ],
       "ar_sd": [
@@ -435336,12 +435540,12 @@ const SENTENCES = [
           "في"
         ],
         [
-          "D|E",
-          "الجاي"
-        ],
-        [
           "F",
           "التقاطع"
+        ],
+        [
+          "D|E",
+          "الجاي"
         ]
       ],
       "es_cu": [
@@ -435741,19 +435945,19 @@ const SENTENCES = [
         ],
         [
           "B",
-          "tembenukani kudzanja"
+          "tembenukani kumanja"
         ],
         [
           "C",
           "pa"
         ],
         [
-          "E",
-          "yotsatira"
-        ],
-        [
           "F",
           "mphambano"
+        ],
+        [
+          "E",
+          "yotsatira"
         ]
       ],
       "tk": [
@@ -438325,7 +438529,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "chiteshi"
+          "‌chiteshi"
         ]
       ],
       "xh": [
@@ -440503,12 +440707,12 @@ const SENTENCES = [
           "להזמין"
         ],
         [
-          "D",
-          "את"
+          "E",
+          "את המנה"
         ],
         [
-          "E",
-          "המנה הזאת"
+          "D",
+          "הזאת"
         ]
       ],
       "vi_nom": [
@@ -440877,11 +441081,11 @@ const SENTENCES = [
           "أطلب"
         ],
         [
-          "D",
+          "E",
           "الأكلة"
         ],
         [
-          "E",
+          "D",
           "دي"
         ]
       ],
@@ -441886,7 +442090,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "أكلة"
+          "‌أكلة"
         ]
       ],
       "zh_sc": [
@@ -442410,7 +442614,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "din"
+          "dan"
         ],
         [
           "E",
@@ -442863,17 +443067,17 @@ const SENTENCES = [
           "kotinda"
         ],
         [
-          "D",
+          "E",
           "bilei"
         ],
         [
-          "E",
+          "D",
           "oyo"
         ]
       ],
       "sn": [
         [
-          "A",
+          "A|B",
           "Ndinoda"
         ],
         [
@@ -444263,11 +444467,11 @@ const SENTENCES = [
           "أطلب"
         ],
         [
-          "D",
+          "E",
           "الأكل"
         ],
         [
-          "E",
+          "D",
           "ده"
         ]
       ],
@@ -444625,7 +444829,7 @@ const SENTENCES = [
       ],
       "rw": [
         [
-          "A",
+          "A|B",
           "Ndashaka"
         ],
         [
@@ -444643,7 +444847,7 @@ const SENTENCES = [
       ],
       "ny": [
         [
-          "A",
+          "A|B",
           "Ndikufuna"
         ],
         [
@@ -445247,17 +445451,21 @@ const SENTENCES = [
         ],
         [
           "A",
-          "هذه"
+          "هذا"
         ],
         [
           "B",
-          "التذكارية"
+          "التذكار"
         ]
       ],
       "he": [
         [
           "C",
-          "כמה עולה"
+          "כמה"
+        ],
+        [
+          "D",
+          "עולה"
         ],
         [
           "B",
@@ -446315,7 +446523,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "التذكار"
+          "‌التذكار"
         ]
       ],
       "ar_ma": [
@@ -446343,7 +446551,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "التذكار"
+          "‌التذكار"
         ]
       ],
       "zh_sc": [
@@ -446763,7 +446971,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "‌dan"
+          "dan"
         ],
         [
           "B",
@@ -447120,8 +447328,12 @@ const SENTENCES = [
           "eloko ya kokanisa"
         ],
         [
+          "D",
+          "ezali"
+        ],
+        [
           "C",
-          "ezali ntalo boni"
+          "ntalo boni"
         ]
       ],
       "sn": [
@@ -447134,8 +447346,12 @@ const SENTENCES = [
           "ichi"
         ],
         [
+          "D",
+          "chinoita"
+        ],
+        [
           "C",
-          "chinoita marii ingani"
+          "marii ingani"
         ]
       ],
       "xh": [
@@ -448166,7 +448382,7 @@ const SENTENCES = [
           "هالسوفنير"
         ],
         [
-          "D",
+          "A",
           "هاذا"
         ]
       ],
@@ -448446,8 +448662,12 @@ const SENTENCES = [
           "icyitegererezo"
         ],
         [
+          "D",
+          "ni"
+        ],
+        [
           "C",
-          "ni angahe"
+          "angahe"
         ]
       ],
       "ny": [
@@ -448460,8 +448680,12 @@ const SENTENCES = [
           "chikumbutso"
         ],
         [
+          "D",
+          "ndi"
+        ],
+        [
           "C",
-          "ndi mtengo wanji"
+          "mtengo wanji"
         ]
       ],
       "tk": [
@@ -450366,7 +450590,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "zvese"
+          "‌zvese"
         ]
       ],
       "xh": [

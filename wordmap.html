@@ -3481,11 +3481,17 @@
             if (!fab || !drawer) return;
             const r = fab.getBoundingClientRect();
             if (r.height === 0) return; // not yet rendered
+            // The pronunciation button (ipa_synth/speak.js) sits right under the
+            // gear in the same column: hang the drawer below it, or the open
+            // drawer covered it exactly.
+            const _sp = document.querySelector('.right-controls .speak-fab');
+            const _spR = _sp && _sp.getClientRects().length ? _sp.getBoundingClientRect() : null;
+            const _below = (_spR && _spR.top >= r.bottom - 1 && Math.abs(_spR.left - r.left) < 8) ? _spR.bottom : r.bottom;
             // Short landscape phone: nothing fits below the gear, so open the
             // drawer beside the control column, from just under the header (r20).
             const _need = drawer.scrollHeight || 0, _hdr = document.querySelector('.site-header-bar');
             if (_need && window.innerHeight < 500 && window.innerWidth > window.innerHeight && r.left > 160
-                && window.innerHeight - 24 - (r.bottom + 6) < _need) {
+                && window.innerHeight - 24 - (_below + 6) < _need) {
                 const t = (_hdr ? _hdr.getBoundingClientRect().bottom : 8) + 6;
                 drawer.style.top = t + 'px';
                 drawer.style.right = (window.innerWidth - r.left + 6) + 'px';
@@ -3514,7 +3520,7 @@
             const cmp = document.getElementById('compare-fab');
             const cmpR = cmp && cmp.classList.contains('visible') ? cmp.getBoundingClientRect() : null;
             const floor = (cmpR && cmpR.height > 0) ? cmpR.top - 8 : window.innerHeight - 12;
-            let top = r.bottom + GAP;
+            let top = _below + GAP;
             let avail = floor - top;
             if (avail < MIN_USABLE) {
                 const wanted = Math.min(MIN_USABLE, floor - CEILING);
@@ -13497,6 +13503,6 @@
         if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else setTimeout(init, 0);
     })();
     </script>
-<script src="ipa_synth/speak.js?v=59" defer></script>
+<script src="ipa_synth/speak.js?v=60" defer></script>
 </body>
 </html>

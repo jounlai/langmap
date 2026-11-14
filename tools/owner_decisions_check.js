@@ -125,6 +125,9 @@ const DECISIONS = [
             if (/["']?en(_[a-z0-9]+)?["']?\s*:\s*\[\s*"fire",\s*"ˈ/.test(read('words/fire.js'))) bad.push('words/fire.js stress');
             // Thai wisdom tooth (Thai reader via the owner, 2026-11-13): ฟันคุด is the everyday word; ฟันกรามซี่สุดท้าย is not said.
             { const t = read('words/wisdomtooth.js'); if (!/^    th: \["ฟันคุด", /m.test(t) || !/^    th: "ฟันคุด",$/m.test(t)) bad.push('words/wisdomtooth.js th ≠ ฟันคุด'); }
+            // Han Map ja Go-on (owner OK'd 2026-05-31, 8eca8ca): 虎 ク, 走 ス, 魚 ゴ beside the Kan-on; an agent batch dropped ス and ク (restored 2026-11-14).
+            { const vm = require('vm'); const c = vm.createContext({ window: {} }); vm.runInContext(read('hanmap_data.js').replace(/^const /mg, 'var '), c);
+              for (const [k, g] of [['虎', 'ク'], ['走', 'ス'], ['魚', 'ゴ']]) { const v = ((c.HAN_VARIANTS[k] || {}).ja) || []; if (!v.some(x => x.native === g && /呉音/.test(x.label))) bad.push('hanmap_data.js ' + k + ' ja 呉音 ' + g); } }
             // Routes by sound (owner 2026-11-12): India hyw/inh on the Persian route; Germany ee/lg/kbp from Germania.
             const fam = (w, c) => (read('words/' + w + '.js').match(new RegExp('^    ' + c + ': "([a-z_]+)",$', 'm')) || [])[1];
             for (const [w, c, r] of [['india', 'hyw', 'persian'], ['india', 'inh', 'persian'], ['germany', 'ee', 'germania'], ['germany', 'lg', 'germania'], ['germany', 'kbp', 'germania']])

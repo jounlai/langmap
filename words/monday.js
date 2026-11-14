@@ -932,13 +932,13 @@ WORDS.monday = {
     fr_lu: ["lundi", "lœ̃di"],  // From Latin Lūnae diēs, "day of the Moon".
     fr_cm: ["lundi", "lœ̃di"],  // From Latin Lūnae diēs, "day of the Moon".
     de_lu: ["Montag", "ˈmoːntaːk"],  // Mond "moon" + Tag "day", a Germanic calque of Latin diēs Lūnae.
-    en_ng2: ["Monday", "ˈmʌndeɪ"],  // Old English mōnandæġ, "day of the Moon", a calque of Latin diēs Lūnae.
-    en_my: ["Monday", "ˈmandeɪ"],  // Old English mōnandæġ, "day of the Moon", a calque of Latin diēs Lūnae.
+    en_ng2: ["Monday", "ˈmʌndeː"],  // Old English mōnandæġ, "day of the Moon", a calque of Latin diēs Lūnae.
+    en_my: ["Monday", "ˈmandeː"],  // Old English mōnandæġ, "day of the Moon", a calque of Latin diēs Lūnae.
     pt_mo: ["segunda-feira", "sɨɡũdɐˈfɐjɾɐ"],  // Church Latin secunda fēria, "second weekday", counting Sunday as the first.
     ar_sy: ["التنين", "ttaneːn"],  // "The second (day)", from Arabic al-ithnayn "the two"; the initial a probably comes from التلاتا "Tuesday".
     ar_lb: ["التنين", "ttaneːn"],  // "The second (day)", from Arabic al-ithnayn "the two"; the initial a probably comes from التلاتا "Tuesday".
     ar_jo: ["الإتنين", "ilʔitneːn"],  // "The two": the second day, counting Sunday as day one.
-    ar_ps: ["الإتنين", "ilˈʔitneːn"],  // "The two": the second day, counting Sunday as day one.
+    ar_ps: ["الإتنين", "ilʔitˈneːn"],  // "The two": the second day, counting Sunday as day one.
     zh_db: ["星期一", "ɕiŋ˥ tɕʰi˥ i˥"],  // 星期一 'week one', the Mainland word.
     zh_sc: ["星期一", "ɕin˥ tɕʰi˨˩ i˨˩"],  // 星期一 'week one', the Mainland word.
     zh_cd: ["星期一", "ɕin˥˥ tɕʰi˨˩ i˨˩"],  // 星期一 'week one', the Mainland word.

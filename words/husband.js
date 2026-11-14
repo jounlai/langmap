@@ -637,7 +637,7 @@ WORDS.husband = {
     pt: ["marido", "maˈɾidu"],  // From Latin marītus, from mās 'male'.
     ru: ["муж", "muʂ"],
     tr: ["koca", "koˈdʒa"],
-    fa: ["شوهر", "ʃawˈhar"],  // From Proto-Iranian *fšau- 'to raise cattle'.
+    fa: ["شوهر", "ʃowˈhæɾ"],  // From Proto-Iranian *fšau- 'to raise cattle'.
     tl: ["asawa", "ʔaˈsawa"],
     mn: ["нөхөр", "nɵxur"],
     sah: ["эр", "er"],

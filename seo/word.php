@@ -520,9 +520,31 @@ function seo_render_word(array $data, array $word, string $ui): void
 }
 
 
+/**
+ * seo_word_rows()'s 'n' for every word in one pass over the languages, by the
+ * same test (a cell with a form, not a "—" placeholder). The index called
+ * seo_word_rows() once per word, building every word page's full grouping to
+ * read one number: 2.5-5 s to first byte for the page that is the crawl entry
+ * point to all the word pages, against 0.3 s for any other (rally 2026-11-14 r06).
+ */
+function seo_word_counts(array $data): array
+{
+    $n = [];
+    foreach ($data['langs'] as $l) {
+        foreach (($l['words'] ?? []) as $wid => $entry) {
+            if (!$entry) continue;
+            $s = (string) ($entry[0] ?? '');
+            if ($s === '' || preg_match('/^[\s\x{2014}\x{2013}\-?]*$/u', $s)) continue;
+            $n[$wid] = ($n[$wid] ?? 0) + 1;
+        }
+    }
+    return $n;
+}
+
 function seo_render_word_index(array $data, array $byId, string $ui): void
 {
     $wc = (string) count($data['words']);
+    $counts = seo_word_counts($data);
     seo_head([
         'title'       => seo_t($ui, 'wd_index_h1', ['w' => $wc]) . ' | Word Map',
         'description' => seo_t($ui, 'wd_index_meta', ['w' => $wc, 'n' => seo_int(count($data['langs']), $ui)]),
@@ -543,7 +565,7 @@ function seo_render_word_index(array $data, array $byId, string $ui): void
         $wid = (string) ($w['id'] ?? '');
         if ($wid === '') continue;
         $wl = seo_pick($w['label'] ?? [], $ui) ?: $wid;
-        $n = seo_word_rows($data, $wid, $ui)['n']; ?>
+        $n = $counts[$wid] ?? 0; ?>
     <div class="seo-word widx">
       <?php /* The word is the thing you click, so it is the big line. It used
                to borrow .label (0.8rem, grey, uppercase) while the language

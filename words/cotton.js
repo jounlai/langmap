@@ -395,7 +395,7 @@ WORDS.cotton = {
     eo: ["kotono", "koˈtono"],  // From Arabic qutn.
     es: ["algodón", "alɡoˈdon"],  // From Arabic qutn.
     esu: ["uataq", "uataq"],
-    fa: ["پنبه", "panˈba"],  // From Persian pambak (panbe).
+    fa: ["پنبه", "pæmˈbe"],  // From Persian pambak (panbe).
     ff: ["hottollo", "hottollo"],  // From Arabic qutn.
     fi: ["puuvilla", "ˈpuːˌvilːɑ"],  // Literally 'tree wool', or borrowed from such a word.
     fr: ["coton", "kɔtɔ̃"],  // From Arabic qutn.

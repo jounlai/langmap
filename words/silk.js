@@ -705,7 +705,7 @@ WORDS.silk = {
     ko_mid: [":깁", "kip"],
     ko_em: ["비단", "pidan"],
     fro: ["soie", "ˈsojə"],
-    he_mis: ["שיריים", "ʃiraˈjim"],
+    he_mis: ["שיראין", "ʃiraˈʔin"],  // Mishnah Kilayim 9:2 הַשִּׁירָאִין וְהַכָּלָךְ 'silk and floss-silk'; the same word as Aramaic שיראין / Syriac ܫܐܪܝܐ.
     xct: ["དར", "dar"],
     gan_yc: ["丝", "sɿ˧˥"],
     gan_fz: ["丝", "sɿ˩˩"],

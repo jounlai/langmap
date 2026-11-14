@@ -78,15 +78,15 @@ WORDS.wifi = {
     // "wai-fai" — the English reading, kept by the early borrowers and by the
     // scripts that spell the two diphthongs straight out.
     en: ["Wi-Fi", "ˈwaɪfaɪ"],
-    en_ph: ["Wi-Fi", "ˈwaɪpaɪ"],   // Philippines: coda /f/ → /p/ (Wiktionary)
+    en_ph: ["Wi-Fi", "ˈwaɪfaɪ"],   // Philippines: coda /f/ → /p/ (Wiktionary)
     it: ["Wi-Fi", "ˈwaifai"],      // Wiktionary it-IPA "uài fài"
     es_mx: ["wifi", "ˈwajfaj"],    // Latin America (Wiktionary es-pr: wai fai)
     pt: ["Wi-Fi", "ˈwajfaj"],      // Wiktionary pt-IPA "wáifái"
     pt_br: ["Wi-Fi", "ˈwajfaj"],
-    de: ["Wi-Fi", "ˈwaɪfaɪ"],      // DWDS gives [ˈwaɪ̯faɪ̯] and [ˈviːfi].
+    de: ["Wi-Fi", "ˈwaɪ̯faɪ̯"],      // DWDS gives [ˈwaɪ̯faɪ̯] and [ˈviːfi].
     ja: ["Wi-Fi", "waiɸai"],       // written "Wi-Fi" in Japanese text, read ワイファイ
     ko: ["와이파이", "waipʰai"],     // Wiktionary [wa̠ipʰa̠i]
-    th: ["ไวไฟ", "waj˧faj˧"],   // ไว-ไฟ, both mid tone (Wiktionary th-pron)        // ไว-ไฟ (Wiktionary th-pron)
+    th: ["ไวไฟ", "waj˧faj˧"],  // ไว-ไฟ, both mid tone (Wiktionary th-pron)
     hi: ["वाई-फ़ाई", "ʋaːiːfaːiː"],
     ru: ["Wi-Fi", "vɐjˈfaj"],      // usually written "Wi-Fi"; вайфай is the informal spelling (Wiktionary ru-IPA вайфа́й)
     uk: ["Wi-Fi", "ʋɐi̯ˈfai̯"],      // written "Wi-Fi"; вайфай informal
@@ -110,7 +110,7 @@ WORDS.wifi = {
     si: ["වයි-ෆයි", "ʋajifaji"],
 
     // Middle East — Persian and Sorani Kurdish, native spelling = written form.
-    fa: ["وای‌فای", "vɒːjfɒːj"],
+    fa: ["وای‌فای", "vɒːjˈfɒːj"],
     ckb: ["وای-فای", "wajfaj"],
 
     // "wee-fee" — w-i-f-i read by the language's own letter values.
@@ -179,7 +179,7 @@ WORDS.wifi = {
     en_za: ["Wi-Fi", "ˈwɑɪfɑɪ"],
     en_au: ["Wi-Fi", "ˈwɑɪfɑɪ"],
     en_nz: ["Wi-Fi", "ˈwɑɪfɑɪ"],
-    en_aave: ["Wi-Fi", "ˈwaɪfaɪ"],
+    en_aave: ["Wi-Fi", "ˈwaɪfaː"],
     en_in: ["Wi-Fi", "ˈʋaɪfaɪ"],
     en_ie: ["Wi-Fi", "ˈwaɪfaɪ"],
     en_sco: ["Wi-Fi", "ˈwaɪfaɪ"],
@@ -206,7 +206,7 @@ WORDS.wifi = {
     ar_gulf: ["واي فاي", "waːjfaːj"],
     ar_iq: ["واي فاي", "waːjfaːj"],
     ar_sd: ["واي فاي", "waːjfaːj"],
-    de_lu: ["Wi-Fi", "ˈvaɪfaɪ"],
+    de_lu: ["Wi-Fi", "ˈvaɪ̯faɪ̯"],
     de_at: ["Wi-Fi", "ˈvaɪ̯faɪ̯"],
     ca_va: ["wifi", "ˈwifi"],
     ext: ["wifi", "ˈwifi"],

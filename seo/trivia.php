@@ -127,7 +127,11 @@ function seo_tri_links(string $html, string $map, string $ui, array $names = [],
                 if ($action === 'setname' && preg_match('#^[a-z_]+$#', $get('data-name'))) {
                     $href = $app . '#n=' . $get('data-name') . '&' . $uiq;
                 } elseif ($action === 'setdate' && preg_match('#^\d{4}-\d{2}-\d{2}$#', $get('data-date'))) {
-                    $href = $app . '#d=' . $get('data-date') . '&' . $uiq;
+                    // A historical calendar is drawn only in the map's
+                    // Historical mode; the app's button switches to it, the
+                    // link has to ask for it (calHist: tools/export_trivia_seo.js).
+                    $hist = in_array($get('data-cal'), seo_data('trivia')['calHist'] ?? [], true);
+                    $href = $app . '#d=' . $get('data-date') . ($hist ? '&era=hist' : '') . '&' . $uiq;
                 } elseif ($action === 'panto' && is_numeric($get('data-lat')) && is_numeric($get('data-lng'))) {
                     $z = is_numeric($get('data-zoom')) ? $get('data-zoom') : '4';
                     $href = $app . '#c=' . $get('data-lat') . ',' . $get('data-lng') . '&z=' . $z . '&' . $uiq;
@@ -151,13 +155,23 @@ function seo_tri_links(string $html, string $map, string $ui, array $names = [],
                     $z = is_numeric($zoom) ? $zoom : '5';
                     // Literal commas, matching the hash the app writes itself
                     // (see the URLSearchParams %2C fix-up in hanmap.html).
-                    $href = $app . '#p=' . $lat . ',' . $lng . ',' . $z;
+                    // + the page language, as every other app link here
+                    // carries it: without it the map opened in English
+                    // under a Japanese article (rally 2026-11-14 r06).
+                    $href = $app . '#p=' . $lat . ',' . $lng . ',' . $z . '&ui=' . rawurlencode($ui);
                     if ($langs) {
                         $fig = seo_tri_minimap($lat, $lng, $z, $label, $langs, $articleCodes, $ui, $href);
                         if ($fig !== '') return $fig;
                     }
                     return '<span class="trivia-note"><a href="' . e($href) . '">' . $label . '</a></span>';
                 }
+            }
+            // "See 'mother' across languages" with no language named: that view
+            // is the word's own page, /{ui}/word/{id}. The fallback below only
+            // reopened this same article inside the app (rally 2026-11-14 r06).
+            $word = $get('data-word');
+            if ($action === 'setword' && !$targets && isset($wordLabels[$word])) {
+                return '<span class="trivia-note"><a href="' . e(seo_path($ui, 'word', $word)) . '">' . $label . '</a></span>';
             }
             if ($action === 'setchar' || !$targets) {
                 // No SSR page for a single character or a concept — but the

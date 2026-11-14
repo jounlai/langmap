@@ -583,6 +583,8 @@ WORDS.potato = {
     sma: "other",
     khw: "other",
     slr: "other",
+    ko_bus: "other",
+    ko_yb: "other",
   },
   routes: {
     papa: {"color":"#ca8a04","emoji":"🏔️","en":"Quechua papa · Taíno batata","ja":"ケチュア語 papa・タイノ語 batata","ko":"케추아어 papa · 타이노어 batata","zh":"克丘亚语 papa・泰诺语 batata","yue":"克丘亞語 papa · 泰諾語 batata","vi":"Quechua papa · Taíno batata","th":"เกชัว papa · ไตโน batata","id":"Quechua papa · Taíno batata","hi":"क्वेचुआ papa · ताइनो batata","de":"Quechua papa · Taíno batata","fr":"quechua papa · taïno batata","it":"quechua papa · taíno batata","es":"quechua papa · taíno batata","pt":"quéchua papa · taíno batata","ru":"кечуа papa · таино batata","uk":"кечуа papa · таїно batata","ar":"كيتشوا papa · تاينو batata","he":"קצ'ואה papa · טאינו batata","sw":"Kikechua papa · Kitaino batata"},
@@ -713,7 +715,7 @@ WORDS.potato = {
     om: ["dinnicha", "dinːitʃa"],  // The Ethiopian tuber word, also borrowed into Amharic ድንች; Wiktionary's taxon note points to the native Ethiopian potato (Coleus edulis), so check that it is the everyday word for Solanum tuberosum.
     xh: ["itapile", "itapiːle"],  // Borrowed from Afrikaans aartappel, "earth apple".
     en_aave: ["potato", "pəˈteɪɾoʊ"],  // From Spanish patata, a blend of Taíno batata and Quechua papa.
-    en_south: ["potato", "pəˈteɪɾoʊ"],  // From Spanish patata, a blend of Taíno batata and Quechua papa.
+    en_south: ["potato", "pəˈtæɪɾoʊ"],  // From Spanish patata, a blend of Taíno batata and Quechua papa.
     en_app: ["potato", "pəˈteɪɾoʊ"],  // From Spanish patata, a blend of Taíno batata and Quechua papa.
     en_au: ["potato", "pəˈtæɪɾəʉ"],  // From Spanish patata, a blend of Taíno batata and Quechua papa.
     en_nz: ["potato", "pəˈtæɪtɐʉ"],  // From Spanish patata, a blend of Taíno batata and Quechua papa.
@@ -1107,5 +1109,7 @@ WORDS.potato = {
     sma: ["peara", "ˈpeæra"],  // Borrowed from Swedish pära, a dialect word for both a pear and a potato.
     khw: ["الُو", "aˈlu"],  // Borrowed from Urdu آلُو ālū, the same word as Hindi आलू.
     slr: ["yañyü", "jɑŋjy"],  // Borrowed from Mandarin 洋芋 yángyù.
+    ko_bus: ["감자", "kamdʑa"],  // From Sino-Korean 甘藷 'sweet tuber', first used for the sweet potato and later shifted to the potato.
+    ko_yb: ["감자", "kamdʑa"],  // From Sino-Korean 甘藷 'sweet tuber', first used for the sweet potato and later shifted to the potato.
   },
 };

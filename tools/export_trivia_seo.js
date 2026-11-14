@@ -96,6 +96,21 @@ function articlesOf(file, overlays) {
   });
 }
 
+/**
+ * Time Map calendars that are drawn only under the Historical toggle. A "go to
+ * this date" button in an article about one of them (French Republican, Maya,
+ * Roman, Egyptian, Juche) switches the map to that mode in the app; the SSR
+ * link has to say era=hist itself, or the map it opens leaves out the very
+ * calendar the article is about (rally 2026-11-14 r06).
+ */
+function histCalendars() {
+  const ctx = vm.createContext({ window: {}, console });
+  vm.runInContext(read('timemap_calendars.js'), ctx);
+  const cals = (ctx.TIMEMAP && ctx.TIMEMAP.CALENDARS) || [];
+  if (!cals.length) throw new Error('timemap_calendars.js: CALENDARS not found');
+  return cals.filter((c) => c.status === 'historical').map((c) => c.id).sort();
+}
+
 function main() {
   const overlays = UI_LANGS
     .map((ui) => `wordmap_trivia_${ui}.js`)
@@ -130,8 +145,11 @@ function main() {
   for (const a of all) {
     for (const per of Object.values(a.i18n)) {
       const body = per.body || '';
-      for (const m of body.matchAll(/data-codes?\s*=\s*"([^"]*)"/g)) {
-        for (const c of m[1].split(/[,\s]+/)) if (c) referenced.add(c);
+      // Either quote: seo/trivia.php reads single-quoted attributes too, and a
+      // code seen only in one (vi_ohan, sino-vietnamese-han-viet) got no name,
+      // so its link read "vi_ohan" in all 19 languages (rally 2026-11-14 r06).
+      for (const m of body.matchAll(/data-codes?\s*=\s*(?:"([^"]*)"|'([^']*)')/g)) {
+        for (const c of (m[1] ?? m[2]).split(/[,\s]+/)) if (c) referenced.add(c);
       }
     }
   }
@@ -155,7 +173,7 @@ function main() {
   }
   const missing = [...referenced].filter((c) => !names[c]);
 
-  const out = { articles: all, tags, names, uiLangs: UI_LANGS };
+  const out = { articles: all, tags, names, calHist: histCalendars(), uiLangs: UI_LANGS };
   // --check: compare with the committed export instead of writing it. The SEO
   // trivia pages served a month-old text because nobody re-ran this (r26).
   if (process.argv.includes('--check')) {

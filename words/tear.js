@@ -474,7 +474,7 @@ WORDS.tear = {
     et: ["pisar", "ˈpisɑr"],
     eu: ["malko", "malko"],
     evn: ["инамукта", "inamukta"],
-    fa: ["اشک", "ʔaʃk"],
+    fa: ["اشک", "ʔæʃk"],
     fi: ["kyynel", "ˈkyːnel"],
     fj: ["wai ni mata", "wainimata"],  // Built from the words for eye and water or liquid. Compare mata 'eye', wai 'water'.
     fo: ["tár", "tʰɔaːɹ"],

@@ -478,6 +478,15 @@ WORDS.sunday = {
     lij_t: "lord",
     sr: "rest",
     bs: "rest",
+    ja_kg: "sun",
+    ja_sd: "sun",
+    vi_c: "lord",
+    vi_s: "lord",
+    ar_lev: "count",
+    ar_lb: "count",
+    ar_jo: "count",
+    ar_ps: "count",
+    ar_sy: "count",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -498,11 +507,11 @@ WORDS.sunday = {
     ak: ["Kwasiada", "kwasiada"],
     sq: ["e diel", "ɛˈdjɛl"],  // From diell 'sun'.
     am: ["እሑድ", "ʔɨhud"],  // No opened source supports the route.
-    ar: ["يوم الأحد", "jaum alʔaxad"],  // Literally 'the one', the first day.
+    ar: ["يوم الأحد", "jawm alʔaħad"],  // Literally 'the one', the first day.
     hy: ["կիրակի", "kiɾɑˈki"],
     ast: ["domingu", "doˈminɣu"],
     av: ["гьатӏан", "hatʼan"],  // Page ties it to a word for 'law, prayer', not a count.
-    az: ["bazar", "bɑzɑɾ"],
+    az: ["bazar", "bɑˈzɑɾ"],
     ban: ["redité", "rədite"],
     ba: ["йәкшәмбе", "jækˈʃæmbe"],
     eu: ["igande", "iɡande"],
@@ -538,11 +547,11 @@ WORDS.sunday = {
     el: ["Κυριακή", "ciɾʝaˈci"],  // From κύριος 'lord'.
     kl: ["sapaat", "sapaːt"],
     gcr: ["dimanch", "dimãʃ"],
-    gu: ["રવિવાર", "ˈɾəʋiʋaɾ"],
+    gu: ["રવિવાર", "ˈɾəʋiʋaːɾ"],
     ht: ["dimanch", "dimãʃ"],
     ha: ["Lahadi", "lahadi"],
     haw: ["Lāpule", "laːpule"],
-    he: ["יום ראשון", "jomʁiʃon"],  // Literally 'first day'.
+    he: ["יום ראשון", "jom ʁiʃon"],  // Literally 'first day'.
     hi: ["रविवार", "ɾəʋɪʋaːɾ"],
     hu: ["vasárnap", "ˈvɒʃaːrnɒp"],  // Literally 'market day'.
     is: ["sunnudagur", "ˈsʏnːʏˌtaːɣʏr"],
@@ -568,7 +577,7 @@ WORDS.sunday = {
     lad: ["alhad", "alˈxad"],
     lo: ["ວັນອາທິດ", "ʋan˧˥ ʔaː˩˧ tʰit˧"],
     la: ["diēs Sōlis", "ˈdiːeːs ˈsoːlis"],
-    lv: ["svētdiena", "zveːddiena"],
+    lv: ["svētdiena", "ˈsveːddiɛna"],
     lez: ["базар", "bazar"],
     lij: ["domenega", "doˈmeneɡa"],  // Route by resemblance to the neighbouring forms (co,it,lmo); no etymology of its own.
     ln: ["eyenga", "ejenɡa"],
@@ -578,16 +587,16 @@ WORDS.sunday = {
     lg: ["sande", "sande"],
     lb: ["Sonndeg", "ˈzondeχ"],
     mk: ["недела", "ˈnɛdɛɫa"],
-    mak: ["aha", "aha"],
+    mak: ["aha", "ˈaha"],
     ml: ["ഞായര്", "ɲaːjaɾ"],
     mt: ["il-Ħadd", "ħat"],
     gv: ["Jedoonee", "dʒeˈduːni"],
     mi: ["Rātapu", "raːtapu"],
-    mr: ["रविवार", "ɾəʋiʋaɾ"],
+    mr: ["रविवार", "ɾəʋiʋaːɾ"],
     mfe: ["dimans", "dimɑ̃s"],
     nv: ["Damį́įgo", "tɑ̀mĩ̂ːkò"],
     nap: ["dumméneca", "dumˈmenəkə"],  // No opened source supports the route.
-    ne: ["आइतबार", "aitʌbar"],
+    ne: ["आइतबार", "aitʌbaːɾ"],
     niu: ["Aho Tapu", "aho tapu"],
     oc: ["dimenge", "diˈmendʒe"],
     or: ["ରବିବାର", "ɾɔbibaɾɔ"],
@@ -606,7 +615,7 @@ WORDS.sunday = {
     rom: ["kurko", "kurko"],
     ro: ["duminică", "duˈminikə"],
     rm: ["dumengia", "duˈmɛɲdʒa"],
-    ru: ["воскресенье", "vəskrʲɪˈsʲenʲɪ"],  // Literally 'Resurrection'; the old word неделя moved to mean 'week'.
+    ru: ["воскресенье", "vəskrʲɪˈsʲenʲje"],  // Literally 'Resurrection'; the old word неделя moved to mean 'week'.
     sm: ["Aso Sa", "aso sa"],
     sa: ["रविवार", "ɾɐʋiʋaːɾɐ"],
     sc: ["domìniga", "doˈminiɡa"],
@@ -640,16 +649,16 @@ WORDS.sunday = {
     to: ["Sapate", "sapate"],  // Route by resemblance to the neighbouring forms (kl); no etymology of its own.
     tn: ["latshipi", "latsʰipi"],
     tum: ["Sabata", "sabata"],
-    tr: ["pazar", "pazaɾ"],  // Literally 'market'.
+    tr: ["pazar", "paˈzaɾ"],  // Literally 'market'.
     tk: ["ýekşenbe", "jekʃenˈbe"],
     udm: ["арнянунал", "arɲanuˈnal"],
-    uk: ["неділя", "nɛˈdʲilʲɐ"],
+    uk: ["неділя", "neˈdʲilʲɐ"],
     ur: ["اتوار", "ɪtʋaːɾ"],
     ug: ["يەكشەنبە", "jɛkʃɛnbɛ"],
     uz: ["yakshanba", "jakʃanba"],
     vec: ["doménega", "doˈmeneɡa"],
     vi: ["Chủ nhật", "tɕu˧˩˧ ɲət˧˨ʔ"],
-    vo: ["sudel", "sudel"],
+    vo: ["sudel", "suˈdel"],
     vro: ["pühäpäiv", "ˈpyhæpæiv"],
     wa: ["dimegne", "dimɛɲ"],
     cy: ["dydd Sul", "ˌdɨːð ˈsɨːl"],
@@ -673,15 +682,15 @@ WORDS.sunday = {
     koi: ["кресення", "krʲeɕeɲːa"],  // No opened source supports the route.
     kpv: ["кресення", "krʲeɕeɲːa"],  // No opened source supports the route.
     kca: ["сютсяты хатӆ", "sʲutsʲatɪ xatɬ"],
-    ku: ["yekşemb", "jɛkʃɛmb"],  // Route by resemblance to the neighbouring forms (ug,fa,tk); no etymology of its own.
+    ku: ["yekşemb", "jɛkˈʃɛmb"],  // Route by resemblance to the neighbouring forms (ug,fa,tk); no etymology of its own.
     hy_grab: ["կիրակի", "kiɾaki"],
-    hyw: ["կիրակի", "kiɾɑki"],
+    hyw: ["կիրակի", "kiɾɑˈki"],
     aln: ["diel", "diɛl"],
     hr: ["nedjelja", "nědjeʎa"],
     nn: ["søndag", "ˈsœndaːɡ"],
     no: ["søndag", "ˈsœndaːɡ"],
-    de_lu: ["Sonntag", "zɔntaːk"],
-    de_lut: ["Sonntag", "zɔntaːk"],
+    de_lu: ["Sonntag", "ˈzɔntaːk"],
+    de_lut: ["Sonntag", "ˈzɔntaːk"],
     de_at: ["Sonntag", "ˈsɔntaːk"],
     de_ch: ["Sonntag", "ˈsɔntaːk"],
     nl_be: ["zondag", "ˈzɔndɑx"],
@@ -699,10 +708,10 @@ WORDS.sunday = {
     en_ie: ["Sunday", "ˈsʊndeː"],
     en_ph: ["Sunday", "ˈsʌndeɪ"],
     en_sg: ["Sunday", "ˈsandeː"],
-    en_ng2: ["Sunday", "ˈsʌndeɪ"],
+    en_ng2: ["Sunday", "ˈsʌndeː"],
     en_app: ["Sunday", "ˈsʌndeɪ"],
     en_ng: ["Sunday", "ˈsɔndeː"],
-    en_my: ["Sunday", "ˈsandeɪ"],
+    en_my: ["Sunday", "ˈsandeː"],
     en_jam: ["Sunday", "ˈsɵndeː"],
     en_in: ["Sunday", "ˈsʌnɖeː"],
     en_wc: ["Sunday", "ˈsʌndeɪ"],
@@ -746,7 +755,7 @@ WORDS.sunday = {
     pt_mo: ["domingo", "duˈmĩɡu"],
     pt_br: ["domingo", "duˈmĩɡu"],
     pt_mz: ["domingo", "duˈmĩɡu"],
-    it_dan: ["domenica", "domenika"],
+    it_dan: ["domenica", "doˈmenika"],
     mn: ["ням", "nʲam"],
     bxr: ["воскресени", "voskrʲesʲeni"],
     ykg: ["боскирисиэннэ", "boskiriseːnne"],  // No opened source supports the route.
@@ -896,5 +905,14 @@ WORDS.sunday = {
     lij_t: ["domenega", "doˈmeneɡa"],
     sr: ["недеља", "nědeʎa"],
     bs: ["nedjelja", "ˈnedjeʎa"],
+    ja_kg: ["日曜日", "nitɕijoːbi"],  // The national word, used here as everywhere in Japan.
+    ja_sd: ["日曜日", "nitɕijoːbi"],  // The national word, used here as everywhere in Japan.
+    vi_c: ["Chủ nhật", "cu˧˩˨ ɲək˧˩"],  // The same word as standard Vietnamese.
+    vi_s: ["Chủ nhật", "cu˨˩˦ ɲək˨˩"],  // The same word as standard Vietnamese.
+    ar_lev: ["الأحد", "ilˈʔaħad"],  // From Arabic al-ʔaḥad 'the one': the first day, counting from Sunday.
+    ar_lb: ["الأحد", "ilˈʔaħad"],  // From Arabic al-ʔaḥad 'the one': the first day, counting from Sunday.
+    ar_jo: ["الأحد", "ilˈʔaħad"],  // From Arabic al-ʔaḥad 'the one': the first day, counting from Sunday.
+    ar_ps: ["الأحد", "ilˈʔaħad"],  // From Arabic al-ʔaḥad 'the one': the first day, counting from Sunday.
+    ar_sy: ["الأحد", "ɪlˈʔaħad"],  // From Arabic al-ʔaḥad 'the one': the first day, counting from Sunday.
   },
 };

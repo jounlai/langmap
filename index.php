@@ -16,7 +16,8 @@
  *     /                  -> /en/
  *     /wordmap/...       -> /en/wordmap/...
  *     /hanmap/...        -> /en/hanmap/...
- *     anything else      -> /en + original path
+ *     /word/..., /trivia/... -> /en/word/..., /en/trivia/...
+ *  Any other path without a UI prefix has no /en twin: 404, not 301.
  *
  * Run locally with PHP's built-in server:
  *     php -S localhost:8080 router.php
@@ -70,8 +71,15 @@ $first = $segs[0] ?? '';
 $ui = seo_ui_norm($first);
 
 if ($ui === null) {
-    // No valid UI prefix -> treat as legacy and 301 to /en + original path.
-    seo_redirect_to_en($path);
+    // A legacy SEO address (/, /wordmap/ja, /trivia/x) 301s to its /en/ twin.
+    // Anything else — a mistyped /wordmap.htm, /favicon.ico, /zh-Hans/ — has
+    // no page under /en/ either, and a permanent redirect that only lands on
+    // the 404 is cached by browsers and crawlers: 404 here (rally 2026-11-14 r06).
+    if ($path === '/' || in_array($first, ['wordmap', 'hanmap', 'word', 'trivia'], true)) {
+        seo_redirect_to_en($path);
+        return;
+    }
+    seo_404('No SEO page for: ' . $path, 'en');
     return;
 }
 

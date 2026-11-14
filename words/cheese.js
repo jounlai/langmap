@@ -220,7 +220,7 @@ WORDS.cheese = {
     tr: "panir",
     bn: "panir",
     sw: "jubn",
-    zh: "plain",
+    zh: "milk",
     yue: "caseus",
     es_cr: "caseus",
     es_hn: "caseus",
@@ -411,14 +411,28 @@ WORDS.cheese = {
     sr: "syr",
     gn: "caseus",
     jvn: "caseus",
-    dng: "plain",
+    dng: "milk",
     hak_tw: "caseus",
-    nan_xm: "plain",
+    nan_xm: "milk",
     wuu: "caseus",
     wuu_nb: "caseus",
     wuu_sz: "caseus",
-    zh_tj: "plain",
+    zh_tj: "milk",
     zh_tw: "caseus",
+    en_us: "caseus",
+    en_ca: "caseus",
+    en_ng: "caseus",
+    en_ph: "caseus",
+    de_at: "caseus",
+    de_ch: "caseus",
+    pt_cv: "caseus",
+    pt_mo: "caseus",
+    vi_c: "formaticum",
+    ar_lev: "jubn",
+    ar_lb: "jubn",
+    ar_jo: "jubn",
+    ar_ps: "jubn",
+    ar_sy: "jubn",
   },
   routes: {
     caseus: {"color":"#d97706","emoji":"🧀","en":"Latin cāseus (Käse, cheese, queso, keju, チーズ)","ja":"ラテン語 cāseus（Käse, cheese, queso, keju, チーズ）","ko":"라틴어 cāseus (Käse, cheese, queso, keju, チーズ)","zh":"拉丁语 cāseus（Käse、cheese、queso、keju、チーズ）","yue":"拉丁文 cāseus（Käse、cheese、queso、keju、チーズ）","vi":"tiếng Latin cāseus (Käse, cheese, queso, keju, チーズ)","th":"ละติน cāseus (Käse, cheese, queso, keju, チーズ)","id":"Latin cāseus (Käse, cheese, queso, keju, チーズ)","hi":"लैटिन cāseus (Käse, cheese, queso, keju, チーズ)","de":"lateinisch cāseus (Käse, cheese, queso, keju, チーズ)","fr":"le latin cāseus (Käse, cheese, queso, keju, チーズ)","it":"il latino cāseus (Käse, cheese, queso, keju, チーズ)","es":"el latín cāseus (Käse, cheese, queso, keju, チーズ)","pt":"o latim cāseus (Käse, cheese, queso, keju, チーズ)","ru":"латинское cāseus (Käse, cheese, queso, keju, チーズ)","uk":"латинське cāseus (Käse, cheese, queso, keju, チーズ)","ar":"اللاتينية cāseus (Käse, cheese, queso, keju, チーズ)","he":"הלטינית cāseus (Käse, cheese, queso, keju, チーズ)","sw":"Kilatini cāseus (Käse, cheese, queso, keju, チーズ)"},
@@ -449,13 +463,13 @@ WORDS.cheese = {
     fr: ["fromage", "fʁɔmaʒ"],  // From Early Medieval Latin fōrmāticum, from fōrma 'mould'.
     it: ["formaggio", "forˈmaddʒo"],  // From Early Medieval Latin fōrmāticum, from fōrma 'mould'.
     es: ["queso", "ˈkeso"],  // From Latin caseus.
-    pt: ["queijo", "ˈkejʒu"],
+    pt: ["queijo", "ˈkɐjʒu"],
     ru: ["сыр", "sɨr"],  // From Proto-Slavic *syrъ; Lithuanian sūris, from sūras 'salty', is related.
     ar: ["جبن", "dʒubn"],
     he: ["גבינה", "ɡviˈna"],  // The same root as Arabic جبن.
-    fa: ["پنیر", "paˈniːr"],  // From Middle Persian panīr.
+    fa: ["پنیر", "pæˈniːɾ"],  // From Middle Persian panīr.
     tl: ["keso", "ˈkeso"],
-    tyv: ["быштак", "bɯʃtak"],  // From Proto-Turkic *biĺči- 'to become boiled, ripe'.
+    tyv: ["быштак", "bɯʃˈtak"],  // From Proto-Turkic *biĺči- 'to become boiled, ripe'.
     my: ["ဒိန်ခဲ", "dèɪɴɡɛ́"],  // From Hindi दही 'curd' and ခဲ 'frozen'.
     lo: ["ເບີແຂງ", "bɤː˩˧kʰɛːŋ˩˧"],  // ແຂງ means 'hard, firm'.
     yo: ["warakaṣi", "wàɾàkàʃì"],  // From wàrà 'milk' and kàṣì 'to turn sour': 'sour milk'.
@@ -509,12 +523,12 @@ WORDS.cheese = {
     gl: ["queixo", "ˈkejʃo"],
     oc: ["formatge", "furˈmadʒe"],
     be: ["сыр", "sɨr"],
-    cs: ["sýr", "ˈsiːr"],
+    cs: ["sýr", "siːr"],
     sk: ["syr", "sir"],
     sl: ["sir", "sir"],
     lt: ["sūris", "ˈsuːrʲɪs"],
-    lv: ["siers", "ˈsiɛrs"],
-    sq: ["djathë", "djaθə"],  // From Proto-Indo-European *dʰédʰh₁i 'milk'; compare Sanskrit दधि 'sour milk'.
+    lv: ["siers", "siɛrs"],
+    sq: ["djathë", "ˈdjaθə"],  // From Proto-Indo-European *dʰédʰh₁i 'milk'; compare Sanskrit दधि 'sour milk'.
     ht: ["fwomaj", "fwomaʒ"],
     pap: ["keshi", "keshi"],
     rmy: ["šajto", "sajto"],
@@ -533,7 +547,7 @@ WORDS.cheese = {
     cop: ["ⲁⲗⲱⲙ", "aˈloːm"],  // From Demotic Egyptian ḥlm.
     aii: ["ܓܘܒܬܐ", "ɡubbəθɑː"],
     eo: ["fromaĝo", "froˈmadʒo"],
-    vo: ["fromad", "fromad"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    vo: ["fromad", "froˈmad"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     mk: ["кашкавал", "ˈkaʃkavaɫ"],  // From Italian caciocavallo, through Ottoman Turkish; сирење is white cheese.
     tzo: ["keshu", "keshu"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     arn: ["kesu", "kesu"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
@@ -574,11 +588,11 @@ WORDS.cheese = {
     io: ["fromajo", "froˈmaʒo"],
     en: ["cheese", "tʃiːz"],  // From Latin caseus, borrowed into West Germanic.
     ja: ["チーズ", "tɕiːzɯ"],  // From English cheese.
-    vi: ["phô mai", "fo˧ maj˧"],  // From French fromage.
+    vi: ["phô mai", "fo˧ maːj˧"],  // From French fromage.
     tr: ["peynir", "pejˈniɾ"],  // From Persian پنیر panīr.
     bn: ["পনির", "poniɾ"],  // From Persian پنیر panīr; also paneer.
     sw: ["jibini", "dʒiˈbini"],  // From a dialectal form of Arabic جُبْن jubn.
-    zh: ["奶酪", "nai˨˩˦ lau˥˩"],
+    zh: ["奶酪", "nai˨˩˦ lau˥˩"],  // 奶 'milk' + 酪 'curd': curdled milk.
     yue: ["芝士", "tsiː˥ siː˧˥"],  // From English cheese.
     es_cr: ["queso", "ˈkeso"],
     es_hn: ["queso", "ˈkeso"],
@@ -606,7 +620,7 @@ WORDS.cheese = {
     ko_kp: ["치즈", "tɕʰidʑɯ"],
     ko_bus: ["치즈", "tɕʰidʑɯ"],
     ko_yb: ["치즈", "tɕʰidʑɯ"],
-    vi_s: ["phô mai", "fo˧ maj˧"],
+    vi_s: ["phô mai", "fo˧ maːj˧"],
     es_mx: ["queso", "ˈkeso"],
     pt_br: ["queijo", "ˈkejʒu"],
     prs: ["پنیر", "paˈniːr"],
@@ -777,5 +791,19 @@ WORDS.cheese = {
     wuu_sz: ["起司", "tɕʰi˥˩ sɿ˦˦"],  // Borrowed from English cheese, via Shanghainese (Wiktionary). Word from Wiktionary's dialect table for Suzhou; reading from MCPDict 蘇州.
     zh_tj: ["奶酪", "nai˩˧ lɑu˥˧"],  // 奶 'milk' + 酪 'curd'. Word from Wiktionary's dialect table for Tianjin; reading from MCPDict 天津.
     zh_tw: ["起司", "tɕʰi˨˩˦ sɿ˥"],  // Borrowed from English cheese, via Shanghainese (Wiktionary). Word from Wiktionary's dialect table for Taiwan; reading in the row's notation, syllables as in the row's and the zh row's own cells.
+    en_us: ["cheese", "tʃiz"],  // The same word as standard English.
+    en_ca: ["cheese", "tʃiːz"],  // The same word as standard English.
+    en_ng: ["cheese", "tʃiːz"],  // The same word as standard English.
+    en_ph: ["cheese", "tʃiz"],  // The same word as standard English.
+    de_at: ["Käse", "ˈkɛːsə"],  // The same word as standard German.
+    de_ch: ["Käse", "ˈkɛːsə"],  // The same word as standard German.
+    pt_cv: ["queijo", "ˈkejʒu"],  // The same word as European Portuguese.
+    pt_mo: ["queijo", "ˈkɐjʒu"],  // The same word as European Portuguese.
+    vi_c: ["phô mai", "fo˥ maːj˥"],  // The same word as standard Vietnamese.
+    ar_lev: ["جبنة", "ˈʒibne"],  // The same word as the standard language.
+    ar_lb: ["جبنة", "ˈʒibne"],  // The same word as the standard language.
+    ar_jo: ["جبنة", "ˈʒibne"],  // The same word as the standard language.
+    ar_ps: ["جبنة", "ˈʒibne"],  // The same word as the standard language.
+    ar_sy: ["جبنة", "ˈʒɪbne"],  // The same word as the standard language.
   },
 };

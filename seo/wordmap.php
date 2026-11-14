@@ -329,9 +329,12 @@ function seo_render_wordmap_index(array $data, string $ui): void
     usort($hidden, $cmp);
 
     $wc = (string) count($data['words']);
+    // In the UI's number style (1,197 / 1.197 / 1 197), as the hub and the word
+    // index print the same count; this page alone printed "1197" (r06).
+    $nLangs = seo_int(count($langs), $ui);
     seo_head([
-        'title' => seo_t($ui, 'wm_index_title', ['n' => (string) count($langs), 'w' => $wc]) . ' | LangMap',
-        'description' => seo_t($ui, 'wm_index_desc', ['n' => (string) count($langs), 'w' => $wc]),
+        'title' => seo_t($ui, 'wm_index_title', ['n' => $nLangs, 'w' => $wc]) . ' | LangMap',
+        'description' => seo_t($ui, 'wm_index_desc', ['n' => $nLangs, 'w' => $wc]),
         'canonical' => SEO_SITE . seo_path($ui, 'wordmap'),
         'image' => SEO_SITE . '/ogp-wordmap.png',
         'ui' => $ui,
@@ -341,10 +344,10 @@ function seo_render_wordmap_index(array $data, string $ui): void
 <nav class="seo-crumbs" aria-label="<?= e(seo_t($ui, 'crumbs')) ?>"><a href="<?= e(seo_path($ui, '')) ?>">LangMap</a> <?= seo_crumb_sep($ui) ?> Word Map</nav>
 <header class="seo-hero">
   <h1>Word Map</h1>
-  <p class="sub"><?= e(seo_t($ui, 'wm_index_sub', ['n' => (string) count($langs), 'w' => $wc])) ?></p>
+  <p class="sub"><?= e(seo_t($ui, 'wm_index_sub', ['n' => $nLangs, 'w' => $wc])) ?></p>
 </header>
 <div class="seo-applink">
-  <a href="/wordmap.html"><?= e(seo_t($ui, 'open_app_wm')) ?></a>
+  <a href="/wordmap.html#ui=<?= e($ui) ?>"><?= e(seo_t($ui, 'open_app_wm')) ?></a>
 </div>
 <p class="seo-crumbs"><?= e(seo_t($ui, 'see_also')) ?>: <a href="<?= e(seo_path($ui, 'hanmap')) ?>"><?= e(seo_t($ui, 'hm_link')) ?></a> · <a href="<?= e(seo_path($ui, 'trivia')) ?>"><?= e(seo_t($ui, 'tri_link')) ?></a> · <a href="<?= e(seo_path($ui, '')) ?>"><?= e(seo_t($ui, 'home')) ?></a></p>
 

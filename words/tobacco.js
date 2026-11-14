@@ -153,7 +153,7 @@ WORDS.tobacco = {
     sl: "tabaco",
     so: "plain",
     es: "tabaco",
-    sw: "other",
+    sw: "tanbaku",
     sv: "tabaco",
     tab: "tanbaku",
     tg: "tanbaku",
@@ -234,7 +234,7 @@ WORDS.tobacco = {
     es_ve: "tabaco",
     ota: "smoke",
     cop: "smoke",
-    vo: "plain",
+    vo: "tabaco",
     oj: "plain",
     tl: "tabaco",
     sah: "tabaco",
@@ -313,6 +313,32 @@ WORDS.tobacco = {
     sr: "smoke",
     hr: "smoke",
     bs: "smoke",
+    en_us: "tabaco",
+    en_ca: "tabaco",
+    en_app: "tabaco",
+    en_au: "tabaco",
+    en_nz: "tabaco",
+    en_ie: "tabaco",
+    en_sco: "tabaco",
+    en_scouse: "tabaco",
+    en_geordie: "tabaco",
+    en_manc: "tabaco",
+    en_in: "tabaco",
+    en_jam: "tabaco",
+    en_ke: "tabaco",
+    en_ng: "tabaco",
+    en_ng2: "tabaco",
+    en_my: "tabaco",
+    en_sg: "tabaco",
+    en_ph: "tabaco",
+    pt_cv: "tabaco",
+    pt_mo: "tabaco",
+    ja_osa: "tabaco",
+    ja_kyo: "tabaco",
+    ja_hak: "tabaco",
+    ja_hir: "tabaco",
+    vi_c: "medicine",
+    vi_s: "medicine",
   },
   routes: {
     tabaco: {"color":"#b45309","emoji":"🌿","en":"Spanish and Portuguese tabaco","ja":"スペイン語・ポルトガル語の tabaco","ko":"스페인어·포르투갈어 tabaco","zh":"西班牙语和葡萄牙语的 tabaco","yue":"西班牙語同葡萄牙語嘅 tabaco","vi":"tabaco của tiếng Tây Ban Nha và Bồ Đào Nha","th":"tabaco ของสเปนและโปรตุเกส","id":"tabaco dari Spanyol dan Portugis","hi":"स्पेनिश और पुर्तगाली tabaco","de":"spanisch und portugiesisch tabaco","fr":"le tabaco espagnol et portugais","it":"il tabaco spagnolo e portoghese","es":"el tabaco español y portugués","pt":"o tabaco espanhol e português","ru":"испанское и португальское tabaco","uk":"іспанське й португальське tabaco","ar":"tabaco الإسبانية والبرتغالية","he":"tabaco הספרדית והפורטוגזית","sw":"tabaco ya Kihispania na Kireno"},
@@ -353,17 +379,17 @@ WORDS.tobacco = {
     nl: ["tabak", "taːˈbɑk"],
     eo: ["tabako", "taˈbako"],
     et: ["tubakas", "ˈtubakas"],  // Through Swedish or German.
-    fo: ["tubbak", "tʰʊpːak"],
+    fo: ["tubbak", "ˈtʰʊpːak"],
     fi: ["tupakka", "ˈtupɑkːɑ"],  // Through Swedish.
     fr: ["tabac", "taba"],
     fur: ["tabac", "taˈbak"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
-    gag: ["tütün", "tytyn"],
+    gag: ["tütün", "tyˈtyn"],
     gl: ["tabaco", "taˈbako"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     ka: ["თამბაქო", "tʰambakʰo"],
     de: ["Tabak", "ˈtabak"],
     el: ["καπνός", "kaˈpnos"],  // Literally 'smoke'.
     gu: ["તમાકુ", "təmaːku"],
-    he: ["טבק", "tabak"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    he: ["טבק", "taˈbak"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     hi: ["तम्बाकू", "təmbaːkuː"],
     hu: ["dohány", "ˈdohaːɲ"],  // From Arabic for 'smoke', through Ottoman.
     is: ["tóbak", "ˈtʰouːpak"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
@@ -387,17 +413,17 @@ WORDS.tobacco = {
     ms: ["tembakau", "təmˈbakau"],
     ml: ["പുകയില", "puɡajila"],  // 'Smoke leaf.'
     mt: ["tabakk", "taˈbak"],
-    mr: ["तंबाखू", "təmbakʰu"],
+    mr: ["तंबाखू", "təmbaːkʰuː"],
     mfe: ["taba", "taba"],
     gld: ["дамахи", "damaxi"],
     nv: ["nátʼoh", "nátʼoh"],  // From the verb 'to smoke it'.
-    ne: ["तमाखु", "tamakʰu"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    ne: ["तमाखु", "tʌmaːkʰu"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     oc: ["tabat", "taˈbat"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     or: ["ତମାଖୁ", "tɔmakʰu"],
     os: ["тамако", "tamako"],
     ps: ["تنباکو", "tanbaku"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     pl: ["tytoń", "ˈtɨtɔɲ"],
-    pt: ["tabaco", "taˈbaku"],
+    pt: ["tabaco", "tɐˈbaku"],
     ro: ["tutun", "tuˈtun"],
     ru: ["табак", "tɐˈbak"],
     gd: ["tombaca", "t̪ʰəˈmaʰkə"],
@@ -406,7 +432,7 @@ WORDS.tobacco = {
     sl: ["tobak", "toˈbak"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     so: ["buuri", "buːri"],
     es: ["tabaco", "taˈbako"],
-    sw: ["mtumbaku", "mtumˈbaku"],  // From Arabic tumbak.
+    sw: ["tumbaku", "tumˈbaku"],  // From Arabic تُمْبَك tumbak, itself from Persian tanbākū; mtumbaku is the tobacco plant.
     sv: ["tobak", "ˈtuːbak"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     tab: ["тембеку", "tembeku"],
     tg: ["тамоку", "tamoku"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
@@ -459,12 +485,12 @@ WORDS.tobacco = {
     es_mx: ["tabaco", "taˈbako"],
     pt_br: ["tabaco", "taˈbaku"],
     prs: ["تنباکو", "tanbɑːˈku"],
-    en_aave: ["tobacco", "təˈbækəʊ"],
-    de_at: ["Tabak", "ˈtabak"],
-    en_south: ["tobacco", "təˈbækəʊ"],
+    en_aave: ["tobacco", "təˈbækoʊ"],
+    de_at: ["Tabak", "taˈbak"],
+    en_south: ["tobacco", "təˈbækoʊ"],
     en_yk: ["tobacco", "təˈbakəʊ"],
-    en_ck: ["tobacco", "təˈbækəʊ"],
-    en_brum: ["tobacco", "təˈbakəʊ"],
+    en_ck: ["tobacco", "təˈbækæʊ"],
+    en_brum: ["tobacco", "təˈbakʌʊ"],
     en_wc: ["tobacco", "təˈbakəʊ"],
     en_est: ["tobacco", "təˈbækəʊ"],
     fr_qc: ["tabac", "taba"],
@@ -487,7 +513,7 @@ WORDS.tobacco = {
     es_ve: ["tabaco", "taˈbako"],
     ota: ["توتون", "tyˈtyn"],  // From Proto-Turkic *tütün 'smoke'; the word for pipe tobacco, while narghile tobacco is تنباكو.
     cop: ["ⲭⲣⲉⲙⲧⲥ", "xremts"],  // Bohairic 'smoke, mist', from Demotic qrmṱs 'obscurity'; the tobacco sense was coined by the Copts of Zeniya around 1600.
-    vo: ["tabak", "taˈbak"],  // No origin is recorded on the entry, so it counts as a word of its own.
+    vo: ["tabak", "taˈbak"],  // Route by resemblance to the neighbouring forms (de(Tabak) nl(tabak)); no etymology of its own.
     oj: ["asemaa", "asemaː"],  // Inherited from Proto-Algonquian *ahseᐧmaᐧwa 'tobacco', a word of the tobacco's own homeland.
     tl: ["tabako", "taˈbako"],  // Borrowed from Spanish tabaco; it also means a cigar.
     sah: ["табах", "tabax"],  // Borrowed from Russian табак.
@@ -528,7 +554,7 @@ WORDS.tobacco = {
     hop: ["piva", "piva"],  // From Proto-Uto-Aztecan *pipaC.
     hch: ["yá", "ja"],  // From Proto-Uto-Aztecan *pipaC.
     sid: ["araddo", "aɾadːo"],  // No origin is recorded for it, so it counts as a word of its own.
-    krc: ["тютюн", "tytyn"],  // From Proto-Turkic *tütün; the same word means smoke.
+    krc: ["тютюн", "tyˈtyn"],  // From Proto-Turkic *tütün; the same word means smoke.
     haw: ["paka", "paka"],  // From English tobacco.
     ami: ["tamako^", "tamakoʔ"],  // No etymology is given; it resembles Japanese tabako.
     szl: ["tabaka", "taˈbaka"],  // Borrowed from German Tabak.
@@ -566,5 +592,31 @@ WORDS.tobacco = {
     sr: ["дуван", "dǔʋaːn"],  // From Arabic for 'smoke', through Ottoman; Croatian and Bosnian say duhan.
     hr: ["duhan", "dǔxaːn"],  // From Arabic for 'smoke', through Ottoman.
     bs: ["duhan", "ˈduxaːn"],  // From Arabic for 'smoke', through Ottoman.
+    en_us: ["tobacco", "təˈbækoʊ"],  // The same word as standard English.
+    en_ca: ["tobacco", "təˈbækoʊ"],  // The same word as standard English.
+    en_app: ["tobacco", "təˈbækoʊ"],  // The same word as standard English.
+    en_au: ["tobacco", "təˈbækəʉ"],  // The same word as standard English.
+    en_nz: ["tobacco", "təˈbækɐʉ"],  // The same word as standard English.
+    en_ie: ["tobacco", "təˈbakoː"],  // The same word as standard English.
+    en_sco: ["tobacco", "təˈbako"],  // The same word as standard English.
+    en_scouse: ["tobacco", "təˈbakəʊ"],  // The same word as standard English.
+    en_geordie: ["tobacco", "təˈbakoː"],  // The same word as standard English.
+    en_manc: ["tobacco", "təˈbakɔʊ"],  // The same word as standard English.
+    en_in: ["tobacco", "ʈəˈbæko"],  // The same word as standard English.
+    en_jam: ["tobacco", "təˈbakoː"],  // The same word as standard English.
+    en_ke: ["tobacco", "təˈbækoː"],  // The same word as standard English.
+    en_ng: ["tobacco", "təˈbækoː"],  // The same word as standard English.
+    en_ng2: ["tobacco", "təˈbækoː"],  // The same word as standard English.
+    en_my: ["tobacco", "təˈbækoː"],  // The same word as standard English.
+    en_sg: ["tobacco", "təˈbɛkoː"],  // The same word as standard English.
+    en_ph: ["tobacco", "toˈbæko"],  // The same word as standard English.
+    pt_cv: ["tabaco", "tɐˈbaku"],  // The same word as European Portuguese.
+    pt_mo: ["tabaco", "tɐˈβaku"],  // The same word as European Portuguese.
+    ja_osa: ["タバコ", "tabako"],  // The national word, used here as everywhere in Japan.
+    ja_kyo: ["タバコ", "tabako"],  // The national word, used here as everywhere in Japan.
+    ja_hak: ["タバコ", "tabako"],  // The national word, used here as everywhere in Japan.
+    ja_hir: ["タバコ", "tabako"],  // The national word, used here as everywhere in Japan.
+    vi_c: ["thuốc lá", "tʰuək˧˦ laː˨˦"],  // The same word as standard Vietnamese.
+    vi_s: ["thuốc lá", "tʰuək˧˥ laː˧˥"],  // The same word as standard Vietnamese.
   },
 };

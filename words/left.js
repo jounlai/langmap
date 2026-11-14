@@ -78,7 +78,7 @@ WORDS.left = {
     lb: "plain",
     slr: "other",
     ja: "plain",
-    ko: "plain",
+    ko: "bad",
     vi: "other",
     th: "loan",
     id: "plain",
@@ -293,9 +293,9 @@ WORDS.left = {
     ja_hak: "plain",
     ja_kyo: "plain",
     ja_hir: "plain",
-    ko_kp: "plain",
-    ko_bus: "plain",
-    ko_yb: "plain",
+    ko_kp: "bad",
+    ko_bus: "bad",
+    ko_yb: "bad",
     es_mx: "loan",
     prs: "bad",
     en_aave: "bad",
@@ -327,8 +327,8 @@ WORDS.left = {
     es_cu: "loan",
     es_pe: "loan",
     es_an: "loan",
-    ko_hg: "plain",
-    ko_jl: "plain",
+    ko_hg: "bad",
+    ko_jl: "bad",
     es_pr: "loan",
     es_do: "loan",
     es_gt: "loan",
@@ -387,7 +387,7 @@ WORDS.left = {
     p_ryu: "plain",
     ko_mid: "bad",
     ko_em: "bad",
-    vi_nom: "bad",
+    vi_nom: "other",
     sl: "plain",
     af: "plain",
     te: "plain",
@@ -478,6 +478,10 @@ WORDS.left = {
     zh_tj: "plain",
     zh_wh: "plain",
     zh_zz: "plain",
+    pt_cv: "loan",
+    pt_mo: "loan",
+    vi_c: "other",
+    vi_s: "other",
   },
   routes: {
     bad: {"color":"#dc2626","emoji":"↩️","en":"'crooked, bent, wrong, tired'","ja":"「曲がった、間違った、疲れた」","ko":"‘굽은, 틀린, 지친’","zh":"“弯曲、错误、疲惫”","yue":"「屈曲、錯、攰」","vi":"“cong, sai, mệt”","th":"“งอ ผิด เหนื่อย”","id":"“bengkok, salah, lelah”","hi":"‘टेढ़ा, ग़लत, थका’","de":"„krumm, falsch, müde“","fr":"« tordu, faux, fatigué »","it":"“storto, sbagliato, stanco”","es":"«torcido, equivocado, cansado»","pt":"«torto, errado, cansado»","ru":"«кривой, неправильный, усталый»","uk":"«кривий, хибний, втомлений»","ar":"«أعوج، خاطئ، متعب»","he":"״עקום, שגוי, עייף״","sw":"“iliyopinda, kosa, iliyochoka”"},
@@ -493,17 +497,17 @@ WORDS.left = {
     lb: ["lénks", "leŋks"],
     slr: ["yolaq", "jolɑχ"],  // According to Tenishev, cognate with Turkish yolak 'path'.
     ja: ["左", "hidaɾi"],
-    ko: ["왼쪽", "wentɕ͈ok̚"],
+    ko: ["왼쪽", "wentɕ͈ok̚"],  // 왼 'left' + 쪽 'side'; 왼 was the adnominal form of Middle Korean 외다 'to be wrong' (Wiktionary).
     vi: ["trái", "tɕaːj˧˥"],  // From a Proto-Mon-Khmer root meaning 'to change'.
     th: ["ซ้าย", "saːj˦˥"],  // Borrowed from Old Chinese 左.
     id: ["kiri", "ˈkiri"],
     ms: ["kiri", "kiri"],
-    hi: ["बायाँ", "bɑːjɑ̃ː"],
+    hi: ["बायाँ", "baːjãː"],
     sa: ["सव्य", "sɐʋjɐ"],
     bn: ["বাঁ", "bã"],
-    ur: ["بایاں", "bɑːjɑ̃ː"],
+    ur: ["بایاں", "baːjãː"],
     ta: ["இடது", "ɪɖɐd̪ɯ"],
-    en: ["left", "left"],  // From Old English left, lyft 'weak, clumsy, foolish' (Wiktionary).
+    en: ["left", "lɛft"],  // From Old English left, lyft 'weak, clumsy, foolish' (Wiktionary).
     de: ["link", "lɪŋk"],
     fr: ["gauche", "ɡoʃ"],  // From gauchir 'to bend, warp'.
     it: ["sinistra", "siˈnistra"],  // Inherited from Latin sinister (Wiktionary).
@@ -513,7 +517,7 @@ WORDS.left = {
     ar: ["يسار", "jasaːr"],
     he: ["שמאל", "seˈmol"],
     tr: ["sol", "soɫ"],
-    fa: ["چپ", "tʃap"],  // From Proto-Indo-European *kep- 'to bend, curve'.
+    fa: ["چپ", "tʃæp"],  // From Proto-Indo-European *kep- 'to bend, curve'.
     tl: ["kaliwa", "kaliˈwaʔ"],
     mn: ["зүүн", "dʒuːn"],  // Also 'east'.
     sah: ["хаҥас", "xaŋas"],  // From Mongolic; Wiktionary compares Mongolian хагас.
@@ -522,7 +526,7 @@ WORDS.left = {
     yrk: ["вадисей", "wɑdʲisʲeːj"],
     nio: ["бәз̌иә", "bəðʲiə"],
     sel: ["кэтыкай", "kætɨkaj"],
-    kca: ["парта", "parta"],
+    kca: ["парта", "ˈparta"],
     ckt: ["нʼачынʼкэн", "ŋatɕəŋken"],
     itl: ["сичʼэӈʼан", "sitʃʔeŋʔan"],
     niv: ["тʼыир̌", "tʰɨir̥"],
@@ -551,7 +555,7 @@ WORDS.left = {
     ceb: ["wala", "waˈla"],
     ilo: ["kanigid", "kaniˈɡid"],
     sd: ["کٻو", "kʰəɓo"],
-    gu: ["ડાબું", "ˈɖɑbũ"],
+    gu: ["ડાબું", "ˈɖaːbũ"],
     si: ["වම", "ʋəmə"],
     kn: ["ಎಡ", "eɖɐ"],
     ml: ["ഇടത്", "iɖɐd̪ɨ"],
@@ -573,18 +577,18 @@ WORDS.left = {
     sk: ["ľavý", "ˈʎaʋiː"],
     bg: ["ляв", "lʲa̟f"],
     lv: ["kreiss", "krejs"],  // From a root meaning 'to turn, bend'.
-    sq: ["majtë", "majtə"],  // From Proto-Indo-European *mn̥tós 'hand'.
+    sq: ["majtë", "ˈmajtə"],  // From Proto-Indo-European *mn̥tós 'hand'.
     et: ["vasak", "ˈvɑsɑk"],
     pap: ["robes", "robes"],  // From Spanish revés 'wrong side'.
     tpi: ["kais", "kais"],  // From Patpatar.
     se: ["gurut", "ˈkuruːht"],
-    sma: ["gårroeh", "kɔrːuʌh"],
-    smn: ["čižet", "tʃidʒet"],
+    sma: ["gårroeh", "ˈkɔrːuʌh"],
+    smn: ["čižet", "ˈtʃidʒet"],
     sjd: ["чинч", "tɕintʃ"],
     as: ["বাওঁ", "bɑʊ̃"],
     or: ["ବାମ", "bamɔ"],
-    nn: ["venstre", "ʋɛnstrə"],
-    fo: ["vinstri", "vɪnstrɪ"],
+    nn: ["venstre", "ˈʋɛnstrə"],
+    fo: ["vinstri", "ˈvɪnstrɪ"],
     la: ["sinister", "ˈsinister"],  // Possibly a euphemism, 'the more favourable side'; also 'unlucky'.
     enm: ["lift", "lift"],
     ang: ["winestra", "ˈwinestrɑ"],
@@ -621,7 +625,7 @@ WORDS.left = {
     mhr: ["шола", "ʃoˈla"],
     mrj: ["шалахай", "ʃɑlɑxɑj"],
     myv: ["керш", "kerʃ"],  // Borrowed from Proto-Baltic *kreišas.
-    olo: ["hurai", "hurai"],
+    olo: ["hurai", "ˈhurai"],
     vep: ["hura", "hura"],
     vot: ["kurra", "ˈkurɑː"],
     liv: ["kurā", "ˈkurɑː"],
@@ -633,7 +637,7 @@ WORDS.left = {
     dsb: ["lěwy", "ˈlɪwɨ"],
     gv: ["kiare", "kʲɛːr"],  // From Old Irish cerr 'crooked, maimed'.
     bjn: ["kiwa", "kiwa"],  // Borrowed from Javanese kiwa.
-    mns: ["во̄ртыпал", "woːrtɪpal"],
+    mns: ["во̄ртыпал", "ˈwoːrtɪpal"],
     tsg: ["lawa", "lawa"],
     hr: ["lijevi", "lîjeʋiː"],
     tzm: ["ⴰⵥⵍⵎⴰⴹ", "azˤlmadˤ"],
@@ -651,7 +655,7 @@ WORDS.left = {
     bbl: ["არლიჼ", "arlĩ"],
     bew: ["bekiwa", "bəkiwa"],  // Borrowed from Sundanese or Javanese kiwa.
     io: ["sinistra", "siˈnistra"],
-    fkv: ["vasen", "ʋɑsen"],
+    fkv: ["vasen", "ˈʋɑsen"],
     hif: ["lef", "leːf"],  // Borrowed from English left.
     pt_br: ["esquerda", "isˈkeʁdɐ"],  // From Old Spanish exquerdo, from Basque ezker 'left'.
     zh_tw: ["左", "tswo˨˩˦"],
@@ -682,23 +686,23 @@ WORDS.left = {
     fr_lu: ["gauche", "ɡoʃ"],
     fr_cm: ["gauche", "ɡoʃ"],
     de_lu: ["link", "lɪŋk"],
-    en_ng2: ["left", "left"],
+    en_ng2: ["left", "lɛft"],
     es_bo: ["izquierda", "isˈkjeɾda"],
     es_py: ["izquierda", "isˈkjeɾda"],
-    es_pa: ["izquierda", "isˈkjeɾda"],
-    en_my: ["left", "left"],
-    en_wls: ["left", "left"],
-    en_jam: ["left", "left"],
-    en_ng: ["left", "left"],
-    en_ph: ["left", "left"],
-    en_ke: ["left", "left"],
+    es_pa: ["izquierda", "ihˈkjeɾda"],
+    en_my: ["left", "lɛft"],
+    en_wls: ["left", "lɛft"],
+    en_jam: ["left", "lɛft"],
+    en_ng: ["left", "lɛft"],
+    en_ph: ["left", "lɛft"],
+    en_ke: ["left", "lɛft"],
     fr_sn: ["gauche", "ɡoʃ"],
     fr_ci: ["gauche", "ɡoʃ"],
     fr_ht: ["gauche", "ɡoʃ"],
     pt_mz: ["esquerda", "iʃˈkeɾdɐ"],
     nl_be: ["links", "lɪŋks"],
-    en_us: ["left", "left"],
-    en_ca: ["left", "left"],
+    en_us: ["left", "lɛft"],
+    en_ca: ["left", "lɛft"],
     en_za: ["left", "left"],
     de_ch: ["link", "lɪŋk"],
     pt_ao: ["esquerda", "iʃˈkeɾdɐ"],
@@ -713,43 +717,43 @@ WORDS.left = {
     ko_yb: ["왼쪽", "wentɕ͈ok̚"],
     es_mx: ["izquierda", "isˈkjeɾda"],
     prs: ["چپ", "tʃap"],
-    en_aave: ["left", "left"],
+    en_aave: ["left", "lɛft"],
     en_nz: ["left", "left"],
-    en_au: ["left", "læft"],
+    en_au: ["left", "left"],
     de_at: ["link", "lɪŋk"],
     smj: ["gurut", "ˈkuruːht"],
-    en_south: ["left", "left"],
-    en_app: ["left", "left"],
-    en_in: ["left", "lefʈ"],
-    en_ie: ["left", "left"],
-    en_sco: ["left", "left"],
-    en_yk: ["left", "left"],
+    en_south: ["left", "lɛft"],
+    en_app: ["left", "lɛft"],
+    en_in: ["left", "lɛfʈ"],
+    en_ie: ["left", "lɛft"],
+    en_sco: ["left", "lɛft"],
+    en_yk: ["left", "lɛft"],
     en_ck: ["left", "left"],
-    en_scouse: ["left", "left"],
-    en_geordie: ["left", "left"],
-    en_brum: ["left", "lʌft"],
-    en_manc: ["left", "left"],
-    en_wc: ["left", "left"],
-    en_est: ["left", "lɛft"],
-    en_sg: ["left", "left"],
+    en_scouse: ["left", "lɛft"],
+    en_geordie: ["left", "lɛft"],
+    en_brum: ["left", "lɛft"],
+    en_manc: ["left", "lɛft"],
+    en_wc: ["left", "lɛft"],
+    en_est: ["left", "left"],
+    en_sg: ["left", "lɛft"],
     fr_qc: ["gauche", "ɡoʃ"],
     fr_af: ["gauche", "ɡoʃ"],
     fr_be: ["gauche", "ɡoʃ"],
     fr_ch: ["gauche", "ɡoʃ"],
     es_co: ["izquierda", "isˈkjeɾda"],
-    es_cl: ["izquierda", "isˈkjeɾda"],
+    es_cl: ["izquierda", "ihˈkjeɾda"],
     es_ar: ["izquierda", "isˈkjeɾda"],
-    es_cu: ["izquierda", "isˈkjeɾda"],
+    es_cu: ["izquierda", "ihˈkjeɾda"],
     es_pe: ["izquierda", "isˈkjeɾda"],
-    es_an: ["izquierda", "isˈkjeɾda"],
+    es_an: ["izquierda", "ihˈkjeɾda"],
     ko_hg: ["왼쪽", "wentɕ͈ok̚"],
     ko_jl: ["왼쪽", "wentɕ͈ok̚"],
-    es_pr: ["izquierda", "isˈkjeɾda"],
-    es_do: ["izquierda", "isˈkjeɾda"],
+    es_pr: ["izquierda", "ihˈkjeɾda"],
+    es_do: ["izquierda", "ihˈkjeɾda"],
     es_gt: ["izquierda", "isˈkjeɾda"],
     es_ec: ["izquierda", "isˈkjeɾda"],
     es_uy: ["izquierda", "isˈkjeɾda"],
-    es_ve: ["izquierda", "isˈkjeɾda"],
+    es_ve: ["izquierda", "ihˈkjeɾda"],
     ar_qur: ["شمال", "ʃimaːl"],  // Quran 50:17 "on the right and on the left (aš-šimāl)"; the same word also means "north".
     el_grc: ["ἀριστερός", "aristerós"],  // A euphemism, "the better one", from ἄριστος "best".
     cu: ["лѣвъ", "lævŭ"],  // From Proto-Slavic *lěvъ.
@@ -802,7 +806,7 @@ WORDS.left = {
     p_ryu: ["*pidari", "pidari"],
     ko_mid: ["왼", "ojn"],  // The old adjective for "wrong" (외다).
     ko_em: ["왼", "wen"],
-    vi_nom: ["賴", "tɕaːj˧˥"],  // Also "reversed; wrong".
+    vi_nom: ["賴", "tɕaːj˧˥"],  // The Nôm spelling of trái; from a Proto-Mon-Khmer root meaning 'to change'. The word also means 'reversed; wrong'.
     sl: ["levi", "ˈleːʋi"],
     af: ["links", "ləŋks"],
     te: ["ఎడమ", "eɖama"],
@@ -883,7 +887,7 @@ WORDS.left = {
     zh_cq: ["左", "tso˦˨"],  // 左, 'left'. Word from Wiktionary's dialect table for Chongqing; reading from MCPDict 重慶.
     zh_db: ["左", "tswo˨˩˦"],  // 左, 'left'. Word from Wiktionary's dialect table for Shenyang; reading as the zh row's own cell (Northeastern Mandarin reads these words as the standard does).
     zh_hf: ["左", "tsu˨˦"],  // 左, 'left'. Word from Wiktionary's dialect table for Hefei; reading from MCPDict 合肥.
-    zh_jh: ["左", "tso˨˩˨"],  // 左, 'left'. Word from Wiktionary's dialect table for Yangzhou; reading from MCPDict 揚州.
+    zh_jh: ["左", "tso˨˩˨"],  // 左, 'left'. Word from Wiktionary's dialect table (Yangzhou and Nanjing both have 左); reading in the row's Nanjing tone values, 上声 ˨˩˨ (as 女 ly˨˩˨, 晚 uan˨˩˨).
     zh_jiao: ["左", "tsuə˨˩˧"],  // 左, 'left'. Word from Wiktionary's dialect table for Qingdao; reading from MCPDict 青島.
     zh_jn: ["左", "tsuə˨˩"],  // 左, 'left'. Word from Wiktionary's dialect table for Jinan; reading from MCPDict 濟南.
     zh_km: ["左", "tso˥˧"],  // 左, 'left'. Word from Wiktionary's dialect table for Kunming; reading from MCPDict 昆明.
@@ -893,5 +897,9 @@ WORDS.left = {
     zh_tj: ["左", "tsuo˩˧"],  // 左, 'left'. Word from Wiktionary's dialect table for Tianjin; reading from MCPDict 天津.
     zh_wh: ["左", "tso˦˨"],  // 左, 'left'. Word from Wiktionary's dialect table for Wuhan; reading from MCPDict 武漢.
     zh_zz: ["左", "tsuo˥˧"],  // 左, 'left'. Word from Wiktionary's dialect table for Zhengzhou; reading from MCPDict 開封 (no Zhengzhou table; the row matches Kaifeng).
+    pt_cv: ["esquerda", "iʃˈkeɾdɐ"],  // The same word as European Portuguese.
+    pt_mo: ["esquerda", "iʃˈkeɾðɐ"],  // The same word as European Portuguese.
+    vi_c: ["trái", "ʈaːj˨˦"],  // The same word as standard Vietnamese.
+    vi_s: ["trái", "ʈaːj˧˥"],  // The same word as standard Vietnamese.
   },
 };

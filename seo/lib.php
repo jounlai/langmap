@@ -275,7 +275,14 @@ const SEO_RENAMED_CODES = [
 function seo_redirect_if_renamed(string $map, string $id, string $ui): bool
 {
     if ($id === '' || !isset(SEO_RENAMED_CODES[$id])) return false;
-    header('Location: ' . SEO_SITE . seo_path($ui, $map, SEO_RENAMED_CODES[$id]), true, 301);
+    // To the end of a chain in one hop (pkd -> p_kra -> ptai answered with two
+    // 301s), and only to a page THIS map has: the table is shared, so
+    // /hanmap/bvu was a 301 to /hanmap/sdo, which is a 404 (rally 2026-11-14 r06).
+    $langs = seo_data($map)['langs'] ?? [];
+    $to = SEO_RENAMED_CODES[$id];
+    for ($i = 0; !isset($langs[$to]) && isset(SEO_RENAMED_CODES[$to]) && $i < 8; $i++) $to = SEO_RENAMED_CODES[$to];
+    if (!isset($langs[$to])) return false;
+    header('Location: ' . SEO_SITE . seo_path($ui, $map, $to), true, 301);
     http_response_code(301);
     return true;
 }
@@ -3426,6 +3433,7 @@ function seo_404(string $msg = 'Page not found', string $ui = 'en'): void
     http_response_code(404);
     header('Content-Type: text/html; charset=utf-8');
     $rtl = seo_is_rtl($ui);
+    $uq = '#ui=' . e($ui);   // open the map in this page's language, as the other app links do (r06)
     echo "<!doctype html><html lang=\"" . e($ui) . "\"" . ($rtl ? ' dir="rtl"' : '') . "><head><meta charset=\"utf-8\">"
         . "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
         . "<title>404 — " . e(seo_t($ui, 'nf_title')) . "</title>"
@@ -3437,7 +3445,7 @@ function seo_404(string $msg = 'Page not found', string $ui = 'en'): void
         // The maps themselves, as in every SEO page's footer: a mistyped map
         // address (/tree.htm, /wordmap.htm) ends here, and only the text
         // indexes were offered (r05).
-        . "<p><strong>" . e(seo_t($ui, 'open_map')) . ":</strong> <span lang=\"en\" dir=\"ltr\"><a href=\"/wordmap.html\">Word Map</a> · <a href=\"/hanmap.html\">Han Map</a> · <a href=\"/namemap.html\">Name Map</a> · <a href=\"/timemap.html\">Time Map</a> · <a href=\"/index.html\">Word Order</a> · <a href=\"/tree.html\">Tree</a></span></p>"
+        . "<p><strong>" . e(seo_t($ui, 'open_map')) . ":</strong> <span lang=\"en\" dir=\"ltr\"><a href=\"/wordmap.html$uq\">Word Map</a> · <a href=\"/hanmap.html$uq\">Han Map</a> · <a href=\"/namemap.html$uq\">Name Map</a> · <a href=\"/timemap.html$uq\">Time Map</a> · <a href=\"/index.html$uq\">Word Order</a> · <a href=\"/tree.html$uq\">Tree</a></span></p>"
         . "</main></body></html>";
 }
 
@@ -5525,6 +5533,10 @@ function seo_foot(string $ui = 'en'): void
     // go — the only links were the see-also line far above. So the footer now
     // carries the way in (named, not a bare "home" link) and the byline.
     $home = seo_path($ui, '');
+    // The maps open in the page's language: every other link from these pages
+    // into an app carries ui=, these did not, so /ja/… opened the map in the
+    // browser's language instead (rally 2026-11-14 r06). All six read #ui=.
+    $uq = '#ui=' . e($ui);
     ?>
 <script>
 // Print: a closed <details> keeps its content in a slot CSS cannot open, so the
@@ -5541,12 +5553,12 @@ function seo_foot(string $ui = 'en'): void
 </script>
 <div class="seo-foot">
   <p class="seo-foot-cta"><strong><?= e(seo_t($ui, 'open_map')) ?>:</strong>
-    <span lang="en"><a href="/wordmap.html">Word Map</a> &middot;
-    <a href="/hanmap.html">Han Map</a> &middot;
-    <a href="/namemap.html">Name Map</a> &middot;
-    <a href="/timemap.html">Time Map</a> &middot;
-    <a href="/index.html">Word Order</a> &middot;
-    <a href="/tree.html">Tree</a></span></p>
+    <span lang="en"><a href="/wordmap.html<?= $uq ?>">Word Map</a> &middot;
+    <a href="/hanmap.html<?= $uq ?>">Han Map</a> &middot;
+    <a href="/namemap.html<?= $uq ?>">Name Map</a> &middot;
+    <a href="/timemap.html<?= $uq ?>">Time Map</a> &middot;
+    <a href="/index.html<?= $uq ?>">Word Order</a> &middot;
+    <a href="/tree.html<?= $uq ?>">Tree</a></span></p>
   <p><?= e(seo_t($ui, 'foot')) ?></p>
   <p class="seo-foot-credit"><?= e(seo_t($ui, 'made_by')) ?>
     <a href="https://heuron.com" rel="noopener">Heuron Inc.</a> &middot;

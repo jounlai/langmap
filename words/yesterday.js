@@ -1429,8 +1429,8 @@ WORDS.yesterday = {
     fr_lu: ["hier", "jɛʁ"],  // tomorrow: demain; hier is from Latin heri.
     fr_cm: ["hier", "jɛʁ"],  // tomorrow: demain; hier is from Latin heri.
     de_lu: ["gestern", "ˈɡɛstɐn"],  // tomorrow: morgen; the same word as in Germany.
-    en_ng2: ["yesterday", "ˈjɛstədeɪ"],  // tomorrow: tomorrow; from Old English ġiestrandæġ.
-    en_my: ["yesterday", "ˈjɛstədeɪ"],  // tomorrow: tomorrow; from Old English ġiestrandæġ.
+    en_ng2: ["yesterday", "ˈjɛstədeː"],  // tomorrow: tomorrow; from Old English ġiestrandæġ.
+    en_my: ["yesterday", "ˈjɛstədeː"],  // tomorrow: tomorrow; from Old English ġiestrandæġ.
     pt_mo: ["ontem", "ˈõtɐ̃j̃"],  // tomorrow: amanhã; ontem is from Latin ad noctem 'towards the night'.
     ar_ps: ["مبارح", "ˈmbaːreħ"],  // tomorrow: بكرة (bukra); مبارح is Arabic al-bāriḥ with the l assimilated.
     ar_jo: ["مبارح", "mbaːreħ"],  // tomorrow: بكرة (bukra); مبارح is Arabic al-bāriḥ with the l assimilated.

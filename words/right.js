@@ -106,7 +106,7 @@ WORDS.right = {
     el: "dexter",
     haw: "compass",
     he: "plain",
-    hil: "plain",
+    hil: "straight",
     hi: "dexter",
     hu: "good",
     is: "good",
@@ -121,7 +121,7 @@ WORDS.right = {
     kk: "plain",
     kjh: "plain",
     km: "plain",
-    ko: "plain",
+    ko: "straight",
     kum: "plain",
     ky: "plain",
     lo: "loan",
@@ -131,7 +131,7 @@ WORDS.right = {
     lb: "straight",
     mk: "dexter",
     ms: "plain",
-    ml: "plain",
+    ml: "good",
     mt: "loan",
     mdr: "plain",
     mdf: "plain",
@@ -173,12 +173,12 @@ WORDS.right = {
     ug: "plain",
     uz: "plain",
     vi: "straight",
-    war: "plain",
+    war: "straight",
     cy: "compass",
     sah: "plain",
     yi: "straight",
     fkv: "straight",
-    krl: "plain",
+    krl: "straight",
     olo: "straight",
     vep: "straight",
     liv: "good",
@@ -195,7 +195,7 @@ WORDS.right = {
     kpv: "plain",
     kca: "plain",
     mns: "plain",
-    ku: "plain",
+    ku: "straight",
     hyw: "plain",
     aln: "dexter",
     hr: "dexter",
@@ -221,7 +221,7 @@ WORDS.right = {
     fur: "straight",
     hsb: "straight",
     csb: "straight",
-    gv: "plain",
+    gv: "dexter",
     gay: "plain",
     iba: "plain",
     pam: "plain",
@@ -300,9 +300,9 @@ WORDS.right = {
     ja_hak: "plain",
     ja_kyo: "plain",
     ja_hir: "plain",
-    ko_kp: "plain",
-    ko_bus: "plain",
-    ko_yb: "plain",
+    ko_kp: "straight",
+    ko_bus: "straight",
+    ko_yb: "straight",
     es_mx: "straight",
     prs: "straight",
     en_aave: "straight",
@@ -330,8 +330,8 @@ WORDS.right = {
     es_cu: "straight",
     es_pe: "straight",
     es_an: "straight",
-    ko_hg: "plain",
-    ko_jl: "plain",
+    ko_hg: "straight",
+    ko_jl: "straight",
     es_pr: "straight",
     es_do: "straight",
     es_gt: "straight",
@@ -398,6 +398,11 @@ WORDS.right = {
     bbl: "plain",
     sr: "dexter",
     bs: "dexter",
+    en_nz: "straight",
+    en_geordie: "straight",
+    vi_s: "straight",
+    vi_c: "straight",
+    pt_cv: "straight",
   },
   routes: {
     straight: {"color":"#2563eb","emoji":"📏","en":"'straight, true, correct'","ja":"「まっすぐ、正しい」","ko":"‘곧은, 옳은’","zh":"“直、正确”","yue":"「直、啱」","vi":"“thẳng, đúng”","th":"“ตรง ถูกต้อง”","id":"“lurus, benar”","hi":"‘सीधा, सही’","de":"„gerade, richtig“","fr":"« droit, juste »","it":"“dritto, giusto”","es":"«recto, correcto»","pt":"«reto, certo»","ru":"«прямой, верный»","uk":"«прямий, правильний»","ar":"«مستقيم، صحيح»","he":"״ישר, נכון״","sw":"“nyoofu, sahihi”"},
@@ -413,7 +418,7 @@ WORDS.right = {
   data: {
     aa: ["migda", "miɡda"],
     af: ["regs", "rɛχs"],
-    sq: ["djathtë", "djaθtə"],
+    sq: ["djathtë", "ˈdjaθtə"],
     ar: ["يمين", "jamiːn"],
     an: ["dreito", "ˈdɾejto"],
     hy: ["աջ", "ɑtʃʰ"],
@@ -445,7 +450,7 @@ WORDS.right = {
     el: ["δεξιός", "ðeksiˈos"],
     haw: ["ʻākau", "ʔaːkau"],  // Also 'north'.
     he: ["ימין", "jaˈmin"],
-    hil: ["tuô", "tuʔo"],
+    hil: ["tuô", "tuʔo"],  // Route by resemblance to the neighbouring forms (ceb(tuo)); no etymology of its own.
     hi: ["दाहिना", "daːɦɪnaː"],
     hu: ["jobb", "jobː"],  // Literally 'better'.
     is: ["hægri", "ˈhaiɣrɪ"],  // Comparative of a word for 'handy'.
@@ -460,17 +465,17 @@ WORDS.right = {
     kk: ["оң", "oŋ"],
     kjh: ["оң", "oŋ"],
     km: ["ស្ដាំ", "sɗam"],
-    ko: ["오른쪽", "oɾɯntɕ͈ok̚"],  // No opened source supports the route.
+    ko: ["오른쪽", "oɾɯntɕ͈ok̚"],  // Middle Korean 올ᄒᆞᆫ, the ancestor of 오른 'right', was also the adnominal form of 옳다 'to be correct', the same shift as in English right; 쪽 is 'side' (Wiktionary).
     kum: ["онг", "oŋ"],
     ky: ["оң", "oŋ"],
     lo: ["ຂວາ", "kʰuːə̯˩˧"],  // Borrowed from Old Chinese 右.
     la: ["dexter", "ˈdekster"],
-    lv: ["labais", "labais"],  // From labs 'good'.
+    lv: ["labais", "ˈlabais"],  // From labs 'good'.
     lt: ["dešinys", "dʲɛʃʲɪˈnʲiːs"],
     lb: ["riets", "ʁiə̯ts"],
     mk: ["десно", "ˈdɛsnɔ"],  // Route by resemblance to the neighbouring forms (hr); no etymology of its own.
     ms: ["kanan", "kanan"],
-    ml: ["വലത്", "ʋalad̪ɨ"],
+    ml: ["വലത്", "ʋalad̪ɨ"],  // Cognate with Tamil வலது valatu and Kannada ಬಲ bala (Wiktionary).
     mt: ["lemin", "lɛˈmiːn"],
     mdr: ["kanang", "kanaŋ"],
     mdf: ["види", "vʲidʲi"],
@@ -496,7 +501,7 @@ WORDS.right = {
     so: ["midig", "midiɡ"],
     es: ["derecha", "deˈɾetʃa"],
     su: ["tengen", "təŋən"],
-    sv: ["höger", "høːɡər"],  // Comparative of a word for 'handy'.
+    sv: ["höger", "ˈhøːɡər"],  // Comparative of a word for 'handy'.
     tl: ["kanan", "ˈkanan"],
     tg: ["рост", "rost"],
     tly: ["rost", "rost"],
@@ -512,12 +517,12 @@ WORDS.right = {
     ug: ["ئوڭ", "oŋ"],
     uz: ["oʻng", "oŋ"],
     vi: ["phải", "faːj˧˩˧"],  // Also 'correct'.
-    war: ["tuo", "tuʔo"],
+    war: ["tuo", "tuʔo"],  // Route by resemblance to the neighbouring forms (ceb(tuo)); no etymology of its own.
     cy: ["de", "dɛ"],  // Also 'south'.
     sah: ["уҥа", "uˈŋa"],
     yi: ["רעכט", "rɛχt"],
     fkv: ["oikea", "ˈoikeɑ"],
-    krl: ["oikie", "ˈoikie"],  // No opened source supports the route.
+    krl: ["oikie", "ˈoikie"],  // Route by resemblance to the neighbouring forms (fi(oikea) olo(oigei) vep(oiged)); no etymology of its own.
     olo: ["oigei", "ˈoiɡei"],
     vep: ["oiged", "ˈoiɡed"],
     liv: ["jõvā", "ˈjɨvɑː"],
@@ -534,14 +539,14 @@ WORDS.right = {
     kpv: ["веськытланись", "vʲeɕkɨtlaɲiɕ"],  // No opened source supports the route.
     kca: ["ям", "jam"],
     mns: ["ёмаспал", "ˈjomaspal"],
-    ku: ["rastê", "raste"],  // No opened source supports the route.
+    ku: ["rastê", "rasˈte"],  // Kurdish rast is 'straight' and 'correct' as well as 'right (side)', the same Iranian word as Persian راست (Wiktionary, Kurmanji rast).
     hyw: ["աջ", "ɑtʃʰ"],
     aln: ["djathtë", "djaθtə"],
     hr: ["desni", "děsniː"],
     no: ["høyre", "ˈhœjrə"],  // Comparative of a word for 'handy'.
     nn: ["høyre", "ˈhœjrə"],  // Comparative of a word for 'handy'.
     en: ["right", "ɹaɪt"],
-    br: ["dehoù", "dɛhu"],  // Welsh de page gives Breton dehou as a cognate from *dexswos 'right'; no source for 'south' in Breton.
+    br: ["dehoù", "ˈdɛhu"],  // Welsh de page gives Breton dehou as a cognate from *dexswos 'right'; no source for 'south' in Breton.
     cv: ["сылтӑм", "ˈsɯltəm"],
     bxr: ["баруун", "baruːŋ"],  // Also 'west'.
     evn: ["анӈӯ", "anŋuː"],
@@ -560,10 +565,10 @@ WORDS.right = {
     fur: ["dret", "dret"],
     hsb: ["prawy", "ˈprawɨ"],
     csb: ["prawi", "ˈpravi"],
-    gv: ["jesh", "dʒɛʃ"],  // No opened source supports the route.
+    gv: ["jesh", "dʒɛʃ"],  // From Old Irish dess 'right-hand; south', the root of Latin dexter; in Manx the 'south' sense went to jiass (Wiktionary).
     gay: ["kuwən", "kuwən"],
     iba: ["kanan", "kanan"],
-    pam: ["wánan", "wanan"],
+    pam: ["wánan", "ˈwanan"],
     bug: ["atau", "atau"],
     mad: ["kaŋan", "kaŋan"],
     mrw: ["kawanan", "kawanan"],
@@ -639,9 +644,9 @@ WORDS.right = {
     ja_hak: ["右", "miɡi"],
     ja_kyo: ["右", "miɡi"],
     ja_hir: ["右", "miɡi"],
-    ko_kp: ["오른쪽", "oɾɯntɕ͈ok̚"],  // No opened source supports the route.
-    ko_bus: ["오른쪽", "oɾɯntɕ͈ok̚"],  // No opened source supports the route.
-    ko_yb: ["오른쪽", "oɾɯntɕ͈ok̚"],  // No opened source supports the route.
+    ko_kp: ["오른쪽", "oɾɯntɕ͈ok̚"],  // Middle Korean 올ᄒᆞᆫ, the ancestor of 오른 'right', was also the adnominal form of 옳다 'to be correct', the same shift as in English right; 쪽 is 'side' (Wiktionary).
+    ko_bus: ["오른쪽", "oɾɯntɕ͈ok̚"],  // Middle Korean 올ᄒᆞᆫ, the ancestor of 오른 'right', was also the adnominal form of 옳다 'to be correct', the same shift as in English right; 쪽 is 'side' (Wiktionary).
+    ko_yb: ["오른쪽", "oɾɯntɕ͈ok̚"],  // Middle Korean 올ᄒᆞᆫ, the ancestor of 오른 'right', was also the adnominal form of 옳다 'to be correct', the same shift as in English right; 쪽 is 'side' (Wiktionary).
     es_mx: ["derecha", "deˈɾetʃa"],
     prs: ["راست", "rɑːst"],
     en_aave: ["right", "ɹaɪt"],
@@ -669,8 +674,8 @@ WORDS.right = {
     es_cu: ["derecha", "deˈɾetʃa"],
     es_pe: ["derecha", "deˈɾetʃa"],
     es_an: ["derecha", "deˈɾetʃa"],
-    ko_hg: ["오른쪽", "oɾɯntɕ͈ok̚"],  // No opened source supports the route.
-    ko_jl: ["오른쪽", "oɾɯntɕ͈ok̚"],  // No opened source supports the route.
+    ko_hg: ["오른쪽", "oɾɯntɕ͈ok̚"],  // Middle Korean 올ᄒᆞᆫ, the ancestor of 오른 'right', was also the adnominal form of 옳다 'to be correct', the same shift as in English right; 쪽 is 'side' (Wiktionary).
+    ko_jl: ["오른쪽", "oɾɯntɕ͈ok̚"],  // Middle Korean 올ᄒᆞᆫ, the ancestor of 오른 'right', was also the adnominal form of 옳다 'to be correct', the same shift as in English right; 쪽 is 'side' (Wiktionary).
     es_pr: ["derecha", "deˈɾetʃa"],
     es_do: ["derecha", "deˈɾetʃa"],
     es_gt: ["derecha", "deˈɾetʃa"],
@@ -737,5 +742,10 @@ WORDS.right = {
     bbl: ["ატტიჼ", "atʼːĩ"],
     sr: ["десни", "děsniː"],
     bs: ["desni", "ˈdesniː"],
+    en_nz: ["right", "ɹɑɪt"],  // Same word as standard English; the row's PRICE vowel (night nɑɪt, white wɑɪt).
+    en_geordie: ["right", "ɹɛɪt"],  // Same word as standard English; the row's PRICE vowel before voiceless consonants (night nɛɪt, white wɛɪt).
+    vi_s: ["phải", "faːj˨˩˦"],  // Same word as standard Vietnamese; also 'correct'.
+    vi_c: ["phải", "faːj˧˩˨"],  // Same word as standard Vietnamese; also 'correct'.
+    pt_cv: ["direita", "diˈɾejtɐ"],  // Same word as European Portuguese; IPA from the row's own cells (ei = ej (peixe ˈpejʃɨ, leite ˈlejtɨ; pt has diˈɾɐjtɐ)).
   },
 };

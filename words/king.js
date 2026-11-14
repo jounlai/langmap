@@ -113,7 +113,7 @@ WORDS.king = {
     my: "other",
     yo: "plain",
     zu: "other",
-    am: "other",
+    am: "plain",
     fi: "kin",
     hu: "karl",
     el: "other",
@@ -204,7 +204,7 @@ WORDS.king = {
     new: "plain",
     dz: "other",
     ban: "reg",
-    war: "plain",
+    war: "other",
     aa: "other",
     hsb: "karl",
     csb: "karl",
@@ -451,7 +451,7 @@ WORDS.king = {
     ace: "reg",
     fj: "plain",
     rm: "reg",
-    kum: "plain",
+    kum: "shah",
     rw: "plain",
     ny: "plain",
     myv: "plain",
@@ -505,7 +505,7 @@ WORDS.king = {
     zgh: "plain",
     bra: "reg",
     bpy: "reg",
-    fia: "plain",
+    fia: "other",
     sr: "karl",
     bs: "karl",
     hmn: "wang",
@@ -553,6 +553,13 @@ WORDS.king = {
     zh_tj: "wang",
     zh_wh: "wang",
     zh_zz: "wang",
+    en_nz: "kin",
+    vi_s: "plain",
+    vi_c: "plain",
+    de_at: "kin",
+    de_ch: "kin",
+    de_lu: "kin",
+    pt_cv: "reg",
   },
   routes: {
     reg: {"color":"#7c3aed","emoji":"🏛️","en":"the old root of rēx and rājā (roi, rey, राजा, raja)","ja":"rēx・rājā の古い語根（roi, rey, राजा, raja）","ko":"rēx·rājā의 옛 어근 (roi, rey, राजा, raja)","zh":"rēx 与 rājā 的古老词根（roi、rey、राजा、raja）","yue":"rēx 同 rājā 嘅古老詞根（roi、rey、राजा、raja）","vi":"gốc cổ của rēx và rājā (roi, rey, राजा, raja)","th":"รากเก่าของ rēx และ rājā (roi, rey, राजा, raja)","id":"akar kuno rēx dan rājā (roi, rey, राजा, raja)","hi":"rēx और राजा का पुराना मूल (roi, rey, राजा, raja)","de":"die alte Wurzel von rēx und rājā (roi, rey, राजा, raja)","fr":"la vieille racine de rēx et rājā (roi, rey, राजा, raja)","it":"l’antica radice di rēx e rājā (roi, rey, राजा, raja)","es":"la vieja raíz de rēx y rājā (roi, rey, राजा, raja)","pt":"a velha raiz de rēx e rājā (roi, rey, राजा, raja)","ru":"древний корень rēx и rājā (roi, rey, राजा, raja)","uk":"давній корінь rēx і rājā (roi, rey, राजा, raja)","ar":"الجذر القديم لـ rēx وrājā (roi, rey, राजा, raja)","he":"השורש העתיק של rēx ו־rājā (roi, rey, राजा, raja)","sw":"mzizi wa kale wa rēx na rājā (roi, rey, राजा, raja)"},
@@ -576,7 +583,7 @@ WORDS.king = {
     th: ["ราชา", "raː˧tɕʰaː˧"],  // Borrowed from Pali or Sanskrit rāja.
     id: ["raja", "ˈradʒa"],  // From Malay raja, from Sanskrit rājan.
     ms: ["raja", "ˈradʒa"],  // From Sanskrit rājan.
-    hi: ["राजा", "ɾɑːdʒɑː"],  // Sanskrit rājā, nominative of rājan; the same root as Latin rēx.
+    hi: ["राजा", "ɾaːdʒaː"],  // Sanskrit rājā, nominative of rājan; the same root as Latin rēx.
     sa: ["राजन्", "ɾaːdʑɐn"],
     bn: ["রাজা", "ˈradʒa"],
     ur: ["راجا", "ɾɑːdʒɑː"],
@@ -614,7 +621,7 @@ WORDS.king = {
     szl: ["krōl", "krol"],
     uk: ["король", "kɔˈrɔlʲ"],
     sv: ["kung", "kɵŋː"],
-    no: ["konge", "kɔŋə"],
+    no: ["konge", "ˈkɔŋə"],
     da: ["konge", "ˈkɔnɡə"],
     ro: ["rege", "ˈredʒe"],
     ga: ["rí", "ɾˠiː"],  // From Proto-Celtic *rīxs, cognate with Latin rēx.
@@ -645,7 +652,7 @@ WORDS.king = {
     xh: ["inkosi", "iᵑkoːsi"],  // From Proto-Bantu *nkócì 'lion'.
     af: ["koning", "ˈkʊənəŋ"],
     bar: ["Kini", "kʰiːni"],
-    pdt: ["Kjennich", "çɛ̯ænɪç"],
+    pdt: ["Kjennich", "ˈçɛ̯ænɪç"],
     yi: ["מלך", "ˈmɛlɛχ"],  // From Hebrew מֶלֶךְ.
     is: ["konungur", "ˈkʰɔːnuŋkʏr"],
     gd: ["rìgh", "rˠiː"],
@@ -667,8 +674,8 @@ WORDS.king = {
     pap: ["rei", "rei"],
     tpi: ["king", "kinɡ"],
     se: ["gonagas", "ˈkonakas"],  // Borrowed from Proto-Germanic *kuningaz.
-    sma: ["gånka", "kɔnka"],
-    smn: ["kunâgâs", "kunɐɡɐs"],
+    sma: ["gånka", "ˈkɔnka"],
+    smn: ["kunâgâs", "ˈkunɐɡɐs"],
     as: ["ৰজা", "ɹɔzɑ"],
     or: ["ରାଜା", "ɾadʒa"],
     fy: ["kening", "ˈkeːnɪŋ"],
@@ -696,7 +703,7 @@ WORDS.king = {
     new: ["जुजु", "dʑudʑu"],
     dz: ["རྒྱལཔོ", "kɛːp˩"],  // Cognate with Tibetan རྒྱལ་པོ, from rgyal 'to be victorious'.
     ban: ["raja", "radʒə"],
-    war: ["hadi", "ˈhadiʔ"],
+    war: ["hadi", "ˈhadiʔ"],  // Route by resemblance to the neighbouring forms (ceb(hari) tl(hari)); no etymology of its own.
     aa: ["amoyta", "aˈmojta"],
     hsb: ["kral", "kʀal"],
     csb: ["król", "krol"],
@@ -707,8 +714,8 @@ WORDS.king = {
     udm: ["эксэй", "eksej"],
     mhr: ["кугыжа", "kuɡəˈʒa"],
     mrj: ["король", "korolʲ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
-    krl: ["kuninkas", "kuniŋkɑs"],
-    olo: ["kunigas", "kuniɡas"],
+    krl: ["kuninkas", "ˈkuniŋkɑs"],
+    olo: ["kunigas", "ˈkuniɡas"],
     vep: ["kunigaz", "kuniɡaz"],
     vot: ["kunikõz", "ˈkunikɑz"],
     liv: ["kēņig", "ˈkeːɲiɡ"],
@@ -731,7 +738,7 @@ WORDS.king = {
     ave: ["𐬑𐬱𐬀𐬚𐬭𐬌𐬌𐬀", "xʃaθrija"],
     syc: ["ܡܠܟܐ", "malkɑ"],
     fro: ["roi", "ˈroi̯"],
-    goh: ["kuning", "kuniŋɡ"],
+    goh: ["kuning", "ˈkuniŋɡ"],
     osp: ["rey", "ˈrei"],
     okz: ["រាជ", "raːc"],
     mfe: ["lerwa", "leɰwa"],
@@ -746,7 +753,7 @@ WORDS.king = {
     sid: ["nugusa", "nuɡusa"],
     stq: ["König", "ˈkøːnɪɣ"],
     kgg: ["moŋ", "moŋ"],
-    fkv: ["kuningas", "kuniŋːɑs"],
+    fkv: ["kuningas", "ˈkuniŋːɑs"],
     pt_br: ["rei", "ʁej"],
     zh: ["王", "wɑŋ˧˥"],  // 王, 'king'.
     zh_tw: ["王", "wɑŋ˧˥"],  // 王, 'king'.
@@ -790,7 +797,7 @@ WORDS.king = {
     en_ca: ["king", "kɪŋ"],
     en_za: ["king", "kɪŋ"],
     pt_ao: ["rei", "ʁɐj"],
-    ca_va: ["rei", "ɾej"],
+    ca_va: ["rei", "rej"],
     ja_osa: ["国王", "kokɯoː"],
     ja_aom: ["国王", "kokɯoː"],
     ja_hak: ["国王", "kokɯoː"],
@@ -943,7 +950,7 @@ WORDS.king = {
     ace: ["raja", "raɟa"],
     fj: ["tui", "tui"],  // Borrowed from Tongan tui 'king, chief'.
     rm: ["retg", "rɛtɕ"],
-    kum: ["пача", "paˈtʃa"],
+    kum: ["пача", "paˈtʃa"],  // Route by resemblance to the neighbouring forms (tt(патша) kk(патша) alt(бача)); no etymology of its own.
     rw: ["umwami", "umwami"],
     ny: ["mfumu", "mˈfumu"],
     myv: ["инязор", "inʲazor"],
@@ -997,7 +1004,7 @@ WORDS.king = {
     zgh: ["ⴰⴳⵍⵍⵉⴷ", "aɡlːid"],
     bra: ["राइ", "raːi"],
     bpy: ["রাজা", "radʒa"],
-    fia: ["ūru", "uːru"],
+    fia: ["ūru", "uːru"],  // From Old Nubian ⲟⲩⲣⲟⲩ ourou, from Meroitic qore (Wiktionary).
     sr: ["краљ", "krâːʎ"],
     bs: ["kralj", "kraʎ"],
     hmn: ["vaj", "va˥˨"],  // Borrowed from Chinese 王.
@@ -1045,5 +1052,12 @@ WORDS.king = {
     zh_tj: ["王", "vɑŋ˦˥"],  // 王, 'king'. Reading from MCPDict 天津.
     zh_wh: ["王", "uaŋ˨˩˧"],  // 王, 'king'. Reading from MCPDict 武漢.
     zh_zz: ["王", "uaŋ˦˨"],  // 王, 'king'. Reading from MCPDict 開封 (no Zhengzhou table; the row matches Kaifeng).
+    en_nz: ["king", "kəŋ"],  // Same word as standard English; the row's centralised KIT vowel (fish fəʃ, drink dɹəŋk, milk məlk).
+    vi_s: ["vua", "juə˧"],  // Same word as standard Vietnamese, with the Southern v → j (vợ jəː).
+    vi_c: ["vua", "vuə˥"],  // Same word as standard Vietnamese.
+    de_at: ["König", "ˈkøːnɪk"],  // Same word as standard German; IPA from the row's own cells (Honig ˈhoːnɪk, neunundneunzig …ntsɪk: the row writes -ig as ɪk).
+    de_ch: ["König", "ˈkøːnɪk"],  // Same word as standard German; IPA from the row's own cells (Honig ˈhoːnɪk, neunundneunzig …ntsɪk: the row writes -ig as ɪk).
+    de_lu: ["König", "ˈkøːnɪç"],  // Same word as standard German; IPA from the row's own cells (Honig ˈhoːnɪç: the row writes -ig as ɪç, like de).
+    pt_cv: ["rei", "ʁej"],  // Same word as European Portuguese; IPA from the row's own cells (initial r = ʁ (ressaca ʁɨˈsakɐ, arroz ɐˈʁoʃ), ei = ej (peixe ˈpejʃɨ, leite ˈlejtɨ)).
   },
 };

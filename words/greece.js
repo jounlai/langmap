@@ -659,13 +659,13 @@ WORDS.greece = {
     czh: ["希腊", "ɕi˩˩ lɔ˩˩"],  // The characters 希臘, a name ultimately from Greek Hellas, read in Tunxi Hui.
     ban: ["Yunani", "junani"],  // Yunani is the title of the Balinese Wikipedia article on Greece, the same form as Indonesian Yunani. Route by resemblance to the neighbouring forms (id(Yunani) ms(Yunani)); no etymology of its own.
     jam: ["Griis", "ɡriːs"],  // Griis is the title of the Jamaican Patois Wikipedia article on Greece. Route by resemblance to the neighbouring forms (en(Greece) bn(গ্রিস)); no etymology of its own.
-    lt: ["Graikija", "ˈɡrɐɪkʲɪjɛ"],  // Formed from graĩkas "a Greek" plus the country suffix -ija; officially Graikijos Respublika. Route by resemblance to the neighbouring forms (si(ග්‍රීසිය)); no etymology of its own.
+    lt: ["Graikija", "ˈɡrɐɪkʲɪjɛ"],  // Formed from graĩkas "a Greek" plus the country suffix -ija; officially Graikijos Respublika.
     tum: ["Grisi", "ɡɾisi"],  // Borrowed from English Greece, which goes back through Old French Grece to Latin Graecia.
     sl: ["Grčija", "ˈɡərtʃija"],  // Built on Grk "a Greek", from Proto-Slavic *grьkъ, ultimately from Latin Graecus.
     gl: ["Grecia", "ˈɡɾɛθja"],  // Borrowed from Latin Graecia; the reintegrationist spelling is Grécia.
     ce: ["Желтойчоь", "ˈʒeltojtʃø"],  // Желтойчоь, built with -чоь "land" like other Chechen country names, is the Chechen Wikipedia title; Гӏайрхойн is also listed by Wiktionary.
     ga: ["an Ghréig", "ən̪ˠ jɾʲeːɟ"],  // From Latin Graecia; always used with the article, an Ghréig.
-    lv: ["Grieķija", "ˈɡriɛcija"],  // Formed from grieķis "a Greek" plus the country suffix -ija; officially Grieķijas Republika. Route by resemblance to the neighbouring forms (sq(Greqia)); no etymology of its own.
+    lv: ["Grieķija", "ˈɡriɛcija"],  // Formed from grieķis "a Greek" plus the country suffix -ija; officially Grieķijas Republika.
     mk: ["Грција", "ˈɡr̩tsija"],  // Built on Грк "a Greek", from Proto-Slavic *grьkъ, ultimately from Latin Graecus.
     ba: ["Юнанстан", "junanˈstan"],  // Юнанстан, a Yunan-plus-stan name, is the Bashkir Wikipedia title; the Russian loan Греция is also used. Route by resemblance to the neighbouring forms (tr(Yunanistan) az(Yunanıstan)); no etymology of its own.
     et: ["Kreeka", "ˈkreːkɑ"],  // Kreeka is the Estonian name of the country; no source found giving its etymology. Route by resemblance to the neighbouring forms (fi(Kreikka)); no etymology of its own.
@@ -693,7 +693,7 @@ WORDS.greece = {
     ab: ["Бырзентәыла", "bərzentʼʷəla"],  // Built on абырзен 'Greek', which Wiktionary derives from Mingrelian ბერზენი, the same word as Georgian ბერძენი in საბერძნეთი.
     ast: ["Grecia", "ˈɡɾeθja"],  // Borrowed from Latin Graecia.
     csb: ["Greckô", "ˈɡrɛtskɞ"],  // Greckô is the Kashubian name of the country; no source found giving its etymology. Route by resemblance to the neighbouring forms (sk(Grécko)); no etymology of its own.
-    eo: ["Grekio", "ɡreˈkio"],  // Formed from greko "a Greek"; Grekujo is a synonym and Helenujo is also listed. Route by resemblance to the neighbouring forms (oc(Grècia)); no etymology of its own.
+    eo: ["Grekio", "ɡreˈkio"],  // Formed from greko "a Greek"; Grekujo is a synonym and Helenujo is also listed.
     fo: ["Grikkaland", "ˈkɹɪhkalant"],  // Literally "Greek land", from grikki "a Greek", from Latin Graecus.
     lad: ["Gresia", "ˈɡresja"],  // Gresia is the title of the Ladino Wikipedia article on Greece. Route by resemblance to the neighbouring forms (tl(Gresya) pt(Grécia)); no etymology of its own.
     mi: ["Kirihi", "kiɾihi"],  // Marked as a loanword by Te Aka Māori Dictionary, which quotes it from a 1906 newspaper. Route by resemblance to the neighbouring forms (fj(Kirisi) kxc(Kirikki)).
@@ -705,8 +705,8 @@ WORDS.greece = {
     dsb: ["Grichiska", "ˈɡrixiska"],  // Grichiska is the title of the Lower Sorbian Wikipedia article on Greece. Route by resemblance to the neighbouring forms (de(Griechenland) cs(Řecko)); no etymology of its own.
     chr: ["ᎪᎢᎯ", "ɡoihi"],  // Borrowed from English Greece.
     vep: ["Grekanma", "ˈɡrekanma"],  // Literally "land of the Greeks", from grek "a Greek", borrowed from Russian грек, which goes back to Latin Graecus.
-    liv: ["Grīekmǭ", "ˈɡriːekmɒː"],  // Literally 'Greek land', from grīek and mǭ 'land'; Grēkõmō is an alternative form. Route by resemblance to the neighbouring forms (lv(Grieķija) et(Kreeka)); no etymology of its own.
-    vo: ["Grikän", "ɡɾiˈkɛn"],  // Formed from Grik "Greek" plus the country suffix -än. Route by resemblance to the neighbouring forms (fy(Grikelân)); no etymology of its own.
+    liv: ["Grīekmǭ", "ˈɡriːekmɒː"],  // Literally 'Greek land', from grīek and mǭ 'land'; Grēkõmō is an alternative form.
+    vo: ["Grikän", "ɡɾiˈkɛn"],  // Formed from Grik "Greek" plus the country suffix -än.
     acw: ["اليونان", "aljuːˈnaːn"],  // Through Persian یونان from Greek Ἰωνία "Ionia"; always used with the article al-.
     io: ["Grekia", "ˈɡrekja"],  // Grekia is the title of the Ido Wikipedia article on Greece. Route by resemblance to the neighbouring forms (tl(Gresya) es(Grecia)); no etymology of its own.
     es_cr: ["Grecia", "ˈɡɾesja"],  // A learned borrowing from Latin Graecia, from Ancient Greek Γραικός (Wiktionary).

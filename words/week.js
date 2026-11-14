@@ -432,6 +432,10 @@ WORDS.week = {
     new: "other",
     aa: "other",
     lij_t: "seven",
+    en_us: "turn",
+    en_ca: "turn",
+    en_ph: "turn",
+    pt_cv: "seven",
   },
   routes: {
     seven: {"color":"#2563eb","emoji":"7️⃣","en":"the number seven","ja":"数の七","ko":"일곱이라는 수","zh":"数字七","yue":"數字七","vi":"con số bảy","th":"เลขเจ็ด","id":"angka tujuh","hi":"सात की संख्या","de":"die Zahl Sieben","fr":"le nombre sept","it":"il numero sette","es":"el número siete","pt":"o número sete","ru":"число семь","uk":"число сім","ar":"العدد سبعة","he":"המספר שבע","sw":"namba saba"},
@@ -449,7 +453,7 @@ WORDS.week = {
   data: {
     ab: ["амчыбжь", "amtʃʰɨbʒ"],
     af: ["week", "ʋɛːk"],
-    sq: ["javë", "javə"],
+    sq: ["javë", "ˈjavə"],
     am: ["ሳምንት", "ˈsamːɨnt"],
     ar: ["أسبوع", "ʔusbuːʕ"],
     an: ["semana", "seˈmana"],
@@ -520,11 +524,11 @@ WORDS.week = {
     liv: ["nädīļ", "ˈnædiːʎ"],
     lb: ["Woch", "voχ"],
     mk: ["седмица", "ˈsɛdmitsa"],
-    mg: ["herinandro", "herinandru"],
+    mg: ["herinandro", "heriˈnandru"],
     ms: ["minggu", "ˈmiŋɡu"],  // From Portuguese domingo.
     ml: ["ആഴ്ച", "aːɻtʃa"],  // From a root for 'to rule'.
     mt: ["ġimgħa", "ˈdʒɪma"],  // Also 'Friday'.
-    gv: ["shiaghtin", "ʃaxtənʲ"],
+    gv: ["shiaghtin", "ˈʃaxtənʲ"],
     mi: ["wiki", "wiki"],  // From English.
     mr: ["आठवडा", "aʈʰəʋɖa"],  // From Sanskrit aṣṭa-vāra, 'eight turns'.
     mfe: ["semenn", "semɛn"],
@@ -538,7 +542,7 @@ WORDS.week = {
     pap: ["siman", "siˈman"],
     ps: ["اونۍ", "uwaˈnəj"],
     pl: ["tydzień", "ˈtɨdʑɛɲ"],
-    pt: ["semana", "seˈmɐ̃nɐ"],
+    pt: ["semana", "sɨˈmɐnɐ"],
     qu: ["simana", "siˈmana"],
     rom: ["kurko", "ˈkurko"],
     ro: ["săptămână", "səptəˈmɨnə"],
@@ -595,8 +599,8 @@ WORDS.week = {
     kpv: ["неделя", "ɲeɟeʎa"],
     kca: ["ӆапат", "ˈɬapat"],  // No opened source supports the route.
     mns: ["са̄т", "saːt"],
-    ku: ["heftî", "hɛfti"],  // Route by resemblance to the neighbouring forms (zza); no etymology of its own.
-    hyw: ["շաբաթ", "ʃɑpʰɑtʰ"],
+    ku: ["heftî", "hɛfˈti"],  // Route by resemblance to the neighbouring forms (zza); no etymology of its own.
+    hyw: ["շաբաթ", "ʃɑˈpʰɑtʰ"],
     aln: ["javë", "javə"],
     hr: ["tjedan", "tjêdan"],  // 'The same day.'
     no: ["uke", "ˈʉːkə"],
@@ -805,5 +809,9 @@ WORDS.week = {
     new: ["बाः", "baː"],  // Perhaps ultimately from Sanskrit vāra 'day'.
     aa: ["ayyam", "ajˈjam"],  // Borrowed from Arabic أَيَّام 'days'.
     lij_t: ["settemaña", "seteˈmaŋa"],
+    en_us: ["week", "wik"],  // Same word as standard English; IPA from the row's own cells (tree tɹi, sea si, sleep slip, eat it).
+    en_ca: ["week", "wiːk"],  // Same word as standard English; IPA from the row's own cells (tree tɹiː, sea siː, eat iːt).
+    en_ph: ["week", "wik"],  // Same word as standard English; IPA from the row's own cells (tree tɹi, sea si, sleep slip, eat it).
+    pt_cv: ["semana", "sɨˈmɐnɐ"],  // Same word as European Portuguese; IPA from the row's own cells (pretonic e = ɨ: beber bɨˈbeɾ, pessoa pɨˈsoɐ, peru pɨˈɾu (as the corrected pt cell)).
   },
 };

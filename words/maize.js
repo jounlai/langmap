@@ -192,7 +192,7 @@ WORDS.maize = {
     st: "plain",
     su: "grain",
     sv: "mahiz",
-    sw: "plain",
+    sw: "place",
     tg: "makka",
     ti: "plain",
     tk: "makka",
@@ -348,14 +348,14 @@ WORDS.maize = {
     pt_br: "grain",
     prs: "grain",
     jvn: "grain",
-    en_aave: "mahiz",
+    en_aave: "grain",
     en_au: "mahiz",
     de_at: "mahiz",
     gsw: "mahiz",
     vmf: "mahiz",
     wae: "mahiz",
     ksh: "mahiz",
-    en_app: "mahiz",
+    en_app: "grain",
     en_in: "mahiz",
     en_sco: "mahiz",
     en_yk: "mahiz",
@@ -382,7 +382,7 @@ WORDS.maize = {
     es_uy: "mahiz",
     es_ve: "mahiz",
     mnc: "grain",
-    apw: "plain",
+    apw: "other",
     acw: "grain",
     crk: "plain",
     cdo: "plain",
@@ -407,7 +407,7 @@ WORDS.maize = {
     pdc: "grain",
     one: "plain",
     dak: "plain",
-    uby: "plain",
+    uby: "other",
     wal: "plain",
     egl: "grain",
     emk: "plain",
@@ -434,7 +434,7 @@ WORDS.maize = {
     ko_kp: "grain",
     ko_bus: "grain",
     ko_yb: "grain",
-    en_south: "mahiz",
+    en_south: "grain",
     en_ie: "mahiz",
     en_scouse: "mahiz",
     fr_qc: "mahiz",
@@ -445,6 +445,8 @@ WORDS.maize = {
     dtp_kzj: "plain",
     sr: "kukuruz",
     bs: "kukuruz",
+    en_ph: "grain",
+    pt_cv: "grain",
   },
   routes: {
     mahiz: {"color":"#eab308","emoji":"🌽","en":"from Taíno mahiz (maíz, Mais, maïs)","ja":"タイノ語 mahiz から（maíz, Mais, maïs）","ko":"타이노어 mahiz에서 (maíz, Mais, maïs)","zh":"源自泰诺语 mahiz（maíz, Mais, maïs）","yue":"源自泰諾語 mahiz（maíz, Mais, maïs）","vi":"từ tiếng Taíno mahiz (maíz, Mais, maïs)","th":"จากภาษาไตโน mahiz (maíz, Mais, maïs)","id":"dari bahasa Taíno mahiz (maíz, Mais, maïs)","hi":"ताइनो mahiz से (maíz, Mais, maïs)","de":"aus Taíno mahiz (maíz, Mais, maïs)","fr":"du taïno mahiz (maíz, Mais, maïs)","it":"dal taíno mahiz (maíz, Mais, maïs)","es":"del taíno mahiz (maíz, Mais, maïs)","pt":"do taíno mahiz (maíz, Mais, maïs)","ru":"из таино mahiz (maíz, Mais, maïs)","uk":"з таїно mahiz (maíz, Mais, maïs)","ar":"من mahiz في لغة التاينو (maíz, Mais, maïs)","he":"מ-mahiz בטאינו (maíz, Mais, maïs)","sw":"kutoka Kitaino mahiz (maíz, Mais, maïs)"},
@@ -568,14 +570,14 @@ WORDS.maize = {
     sah: ["кукурууза", "kukuruːza"],  // Route by resemblance to the neighbouring forms (be,hr,lv); no etymology of its own.
     sat: ["ᱡᱚᱸᱰᱨᱟ", "dʒɔ̃ɖra"],
     sc: ["trigumoriscu", "triɡumoˈrisku"],  // Literally 'Moorish wheat'.
-    scn: ["granuturcu", "ɡranuturku"],  // Literally 'Turkish grain'.
+    scn: ["granuturcu", "ɡranuˈturku"],  // Literally 'Turkish grain'.
     sd: ["مڪئي", "məkəiː"],  // Route by resemblance to the neighbouring forms (pa); no etymology of its own.
     si: ["බඩ ඉරිඟු", "baɖa iriⁿɡu"],
     so: ["galley", "ɡalej"],
     st: ["poone", "poːne"],
     su: ["jagong", "dʒaɡoŋ"],
     sv: ["majs", "majs"],
-    sw: ["mahindi", "maˈhindi"],  // From Hindi 'India', a name that came through Arabic al-hind.
+    sw: ["mahindi", "maˈhindi"],  // Plural of muhindi, borrowed from Arabic هِنْدِيّ hindiyy 'Indian' (Wiktionary).
     tg: ["ҷуворимакка", "dʒuvorimakka"],
     ti: ["ዕፉን", "ʕɨfun"],
     tk: ["mekgejöwen", "mekɡedʒøwen"],
@@ -673,7 +675,7 @@ WORDS.maize = {
     ba: ["кукуруз", "kukuˈruz"],
     car: ["awasi", "awasi"],
     chb: ["aba", "aba"],
-    cy: ["indrawn", "ɪndrau̯n"],  // From India and grawn 'grain'.
+    cy: ["indrawn", "ˈɪndrau̯n"],  // From India and grawn 'grain'.
     eo: ["maizo", "maˈizo"],
     io: ["maizo", "ˈmaizo"],
     ki: ["mbembe", "mbɛmbɛ"],
@@ -731,14 +733,14 @@ WORDS.maize = {
     pt_br: ["milho", "ˈmiʎu"],
     prs: ["ذرت", "zurˈrat"],
     jvn: ["jagung", "dʒaɡuŋ"],  // Route by resemblance to the neighbouring forms (ms,su,id); no etymology of its own.
-    en_aave: ["maize", "meɪz"],
+    en_aave: ["corn", "kɔːn"],  // The ordinary North American word; English corn meant any grain.
     en_au: ["maize", "mæɪz"],
     de_at: ["Mais", "maɪs"],
     gsw: ["Mais", "maɪs"],
     vmf: ["Mais", "maɪs"],
     wae: ["Mais", "mais"],
     ksh: ["Mais", "maɪs"],
-    en_app: ["maize", "meɪz"],
+    en_app: ["corn", "kɔːɹn"],  // The ordinary North American word; English corn meant any grain.
     en_in: ["maize", "meɪz"],
     en_sco: ["maize", "meɪz"],
     en_yk: ["maize", "meɪz"],
@@ -765,7 +767,7 @@ WORDS.maize = {
     es_uy: ["maíz", "maˈis"],
     es_ve: ["maíz", "maˈis"],
     mnc: ["ᠠᡳᡥᠠ ᡧᡠᡧᡠ", "aixa ʃuʃu"],  // Literally 'glaze sorghum': ᡧᡠᡧᡠ is sorghum, borrowed from Mandarin 蜀黍, and ᠠᡳᡥᠠ is coloured glaze.
-    apw: ["nadą́ʼ", "nadã́ʔ"],  // No image is recorded for it; compare Navajo dą́ą́ʼ 'corn, food'.
+    apw: ["nadą́ʼ", "nadã́ʔ"],  // Route by resemblance to the neighbouring forms (nv(naadą́ą́ʼ)); the Navajo word is from anaaʼ 'alien, enemy'.
     acw: ["ذرة", "dura"],  // Inherited from Arabic ذُرَة; حبش, literally 'Abyssinia', is a synonym.
     crk: ["ᒪᐦᑖᒥᐣ", "mahtaːmin"],  // Strictly a grain of maize (plural mahtâminak); cognate with Ojibwe mandaamin.
     cdo: ["油甜苞", "ieu˥˧ tieŋ˥˥ pɑu˨˩˧"],  // No image is recorded for it, so it counts as a word of its own.
@@ -790,7 +792,7 @@ WORDS.maize = {
     pdc: ["Welschkann", "ˈvɛlʃkan"],  // Literally 'foreign grain': welsch 'foreign' plus Kann, the word for rye.
     one: ["o:nʌ́steʼ", "oːnʌ̃́steʔ"],  // Inherited from Proto-North Iroquoian *-nẽhst-, like Mohawk ó꞉nenhste.
     dak: ["wagmíza", "waɡmíza"],  // No image is recorded for it, so it counts as a word of its own.
-    uby: ["naːtʰəf", "naːtʰəf"],  // No image is recorded for it, so it counts as a word of its own.
+    uby: ["naːtʰəf", "naːtʰəf"],  // Route by resemblance to the neighbouring forms (ady(натрыф) kbd(нартыху)); no etymology of its own.
     wal: ["badalaa", "badalaː"],  // No image is recorded for it, so it counts as a word of its own.
     egl: ["furmintån", "furmiŋˈtʌŋ"],  // From furmänt 'wheat'.
     emk: ["kaba", "kaba"],  // The same form also means sky; no image is recorded for the maize word.
@@ -817,7 +819,7 @@ WORDS.maize = {
     ko_kp: ["옥수수", "oks͈usu"],
     ko_bus: ["옥수수", "oks͈usu"],
     ko_yb: ["옥수수", "oks͈usu"],
-    en_south: ["maize", "meɪz"],
+    en_south: ["corn", "kɔɹn"],  // The ordinary North American word; English corn meant any grain.
     en_ie: ["maize", "meɪz"],
     en_scouse: ["maize", "meɪz"],
     fr_qc: ["maïs", "mais"],
@@ -828,5 +830,7 @@ WORDS.maize = {
     dtp_kzj: ["luong", "luoŋ"],
     sr: ["кукуруз", "kukǔruz"],
     bs: ["kukuruz", "kuˈkuruz"],
+    en_ph: ["corn", "kɔɹn"],  // The ordinary word in Philippine English, which follows American usage; English corn meant any grain.
+    pt_cv: ["milho", "ˈmiʎu"],  // Same word as European Portuguese; IPA from the row's own cells (as pt milho ˈmiʎu; ʎ as orelha oˈɾeʎɐ).
   },
 };

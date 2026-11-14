@@ -26,8 +26,7 @@
  * speakers have never seen; where the only candidate is a recent loan the cell is left empty rather
  * than filled with something unverifiable. Malay/Indonesian beruang is kept because the sun bear is
  * native, Swahili dubu and Xhosa ibhere because they are genuine established borrowings (from Arabic
- * دبّ and Afrikaans beer respectively) rather than dictionary calques. No vi_nom cell: the Chữ Nôm for
- * gấu is outside the self-hosted font subset and would render as tofu.
+ * دبّ and Afrikaans beer respectively) rather than dictionary calques. The vi_nom cell 𤠰 for gấu was added once the Nôm font subset covered it (927a7919e).
  */
 WORDS.bear = {
   emoji: "🐻",
@@ -111,7 +110,7 @@ WORDS.bear = {
     kmu: "loan",
     tsi: "inherited",
     prk: "inherited",
-    ie: "inherited",
+    ie: "loan",
     hsn_yz: "inherited",
     gcr: "loan",
     dyu: "loan",
@@ -392,7 +391,7 @@ WORDS.bear = {
     vi: "inherited",
     p_viet: "inherited",
     th: "inherited",
-    id: "loan",
+    id: "inherited",
     hi: "inherited",
     de: "taboo",
     fr: "inherited",
@@ -630,7 +629,7 @@ WORDS.bear = {
     km: "inherited",
     lo: "inherited",
     sukh: "inherited",
-    ms: "loan",
+    ms: "inherited",
     tl: "loan",
     cr: "inherited",
     crk: "inherited",
@@ -954,7 +953,7 @@ WORDS.bear = {
     mfe: "loan",
     crs: "loan",
     jbo: "inherited",
-    io: "inherited",
+    io: "loan",
     nso: "loan",
     shy: "inherited",
     ote: "inherited",
@@ -1317,7 +1316,7 @@ WORDS.bear = {
     yue: ["熊", "hʊŋ˨˩"],
     vi: ["gấu", "ɣəw˧˥"],
     th: ["หมี", "miː˩˩˦"],
-    id: ["beruang", "bəˈruaŋ"],
+    id: ["beruang", "bəˈruaŋ"],  // Inherited from Malay beruang, from Proto-Malayo-Polynesian *baʀuaŋ (Wiktionary).
     hi: ["भालू", "bʱaːluː"],
     de: ["Bär", "bɛːɐ̯"],
     fr: ["ours", "uʁs"],
@@ -1512,7 +1511,7 @@ WORDS.bear = {
     ky: ["аюу", "ɑˈjuː"], // was ["аюу", "ajuː"] (vi dialect rules 2026-10-06)
     kaa: ["ayıw", "aˈjɯw"],
     tt: ["аю", "aˈju"],
-    ba: ["айыу", "ajɯw"],
+    ba: ["айыу", "aˈjɯw"],
     kum: ["аюв", "aˈjuw"],
     nog: ["аюв", "aˈjuw"],
     krc: ["айыу", "aˈjɯw"],
@@ -1595,7 +1594,7 @@ WORDS.bear = {
     km: ["ខ្លាឃ្មុំ", "kʰlaː kʰmum"],
     lo: ["ໝີ", "miː˩˧"],
     sukh: ["หมี", "m̊iː"], // was ["หมี", "miː"] (vi dialect rules 2026-10-06)
-    ms: ["beruang", "bəruaŋ"],
+    ms: ["beruang", "bəruaŋ"],  // From Proto-Malayic *biruaŋ, from Proto-Malayo-Polynesian *baʀuaŋ (Wiktionary).
     kaw: ["ꦧꦂꦮꦁ", "barwaŋ"],
     tl: ["oso", "ˈʔoso"],
 

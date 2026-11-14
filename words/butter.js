@@ -83,7 +83,7 @@ WORDS.butter = {
     abv: "zubda",
     afb: "zubda",
     acw: "zubda",
-    dlg: "other",
+    dlg: "fat",
     ko: "butyrum",
     th: "ghee",
     id: "manteca",
@@ -455,6 +455,18 @@ WORDS.butter = {
     yue_dg: "fat",
     zh_tw: "fat",
     zh_wh: "butyrum",
+    en_us: "butyrum",
+    en_ca: "butyrum",
+    en_app: "butyrum",
+    en_ck: "butyrum",
+    en_geordie: "butyrum",
+    en_manc: "butyrum",
+    en_ng: "butyrum",
+    en_ph: "butyrum",
+    en_scouse: "butyrum",
+    es_uy: "manteca",
+    de_ch: "butyrum",
+    pt_cv: "manteca",
   },
   routes: {
     butyrum: {"color":"#d97706","emoji":"🐄","en":"Greek βούτυρον 'cow cheese' (butter, beurre, バター)","ja":"ギリシャ語 βούτυρον「牛のチーズ」（butter, beurre, バター）","ko":"그리스어 βούτυρον '소의 치즈' (butter, beurre, バター)","zh":"希腊语 βούτυρον“牛的奶酪”（butter、beurre、バター）","yue":"希臘文 βούτυρον「牛嘅芝士」（butter、beurre、バター）","vi":"tiếng Hy Lạp βούτυρον 'pho mát bò' (butter, beurre, バター)","th":"กรีก βούτυρον 'ชีสวัว' (butter, beurre, バター)","id":"Yunani βούτυρον 'keju sapi' (butter, beurre, バター)","hi":"यूनानी βούτυρον 'गाय का पनीर' (butter, beurre, バター)","de":"griechisch βούτυρον „Kuhkäse“ (butter, beurre, バター)","fr":"le grec βούτυρον « fromage de vache » (butter, beurre, バター)","it":"il greco βούτυρον «formaggio di vacca» (butter, beurre, バター)","es":"el griego βούτυρον «queso de vaca» (butter, beurre, バター)","pt":"o grego βούτυρον «queijo de vaca» (butter, beurre, バター)","ru":"греческое βούτυρον «коровий сыр» (butter, beurre, バター)","uk":"грецьке βούτυρον «коров'ячий сир» (butter, beurre, バター)","ar":"اليونانية βούτυρον «جبن البقر» (butter, beurre, バター)","he":"היוונית βούτυρον „גבינת פרה” (butter, beurre, バター)","sw":"Kigiriki βούτυρον 'jibini la ng'ombe' (butter, beurre, バター)"},
@@ -483,14 +495,14 @@ WORDS.butter = {
     bn: ["মাখন", "makʰon"],  // From Sanskrit mrakṣaṇa 'rubbing, ointment, oil'.
     ur: ["مکھن", "məkkʰən"],  // From Sanskrit mrakṣaṇa.
     ta: ["வெண்ணெய்", "ʋɛɳːɛj"],  // வெண் 'white' plus நெய் 'ghee'.
-    en: ["butter", "ˈbʌtə"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    en: ["butter", "ˈbʌtə"],  // From Old English butere, from Latin būtȳrum, from Greek βούτυρον 'cow cheese'.
     de: ["Butter", "ˈbʊtɐ"],
     fr: ["beurre", "bœʁ"],
     it: ["burro", "ˈburro"],
     es: ["mantequilla", "manteˈkiʝa"],  // A diminutive of manteca.
     pt: ["manteiga", "mɐ̃ˈtejɡɐ"],
     ru: ["масло", "ˈmasɫə"],  // Related to мазать 'to smear'.
-    ar: ["زبدة", "zubda"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    ar: ["زبدة", "zubda"],  // The Arabic word that gives this route its name.
     he: ["חמאה", "χemˈʔa"],
     tl: ["mantekilya", "manteˈkilja"],  // From Spanish mantequilla.
     cv: ["ҫу", "ɕu"],
@@ -523,7 +535,7 @@ WORDS.butter = {
     cy: ["menyn", "ˈmɛnɨ̞n"],  // From Proto-Celtic *amban; compare Latin unguen 'grease'.
     ka: ["კარაქი", "kʼäɾäkʰi"],  // From Armenian կարագ.
     hy: ["կարագ", "kɑˈɾɑkʰ"],  // Armenian borrowed it from Middle Persian *karag.
-    hyw: ["կարագ", "kɑɾɑɡ"],
+    hyw: ["կարագ", "kɑˈɾɑɡ"],
     nv: ["mandagíiya", "mɑ̀ntɑ̀kîːjɑ̀"],  // From Spanish mantequilla.
     haw: ["paka", "paka"],
     sd: ["مکڻ", "məkʰəɳʊ"],  // From Sanskrit mrakṣaṇa.
@@ -560,8 +572,8 @@ WORDS.butter = {
     gl: ["manteiga", "manˈtejɡa"],
     be: ["масла", "ˈmasla"],
     cs: ["máslo", "ˈmaːslo"],  // By surface analysis, mazat + -slo.
-    sk: ["maslo", "maslɔ"],
-    sl: ["maslo", "maːslɔ"],
+    sk: ["maslo", "ˈmaslɔ"],
+    sl: ["maslo", "ˈmaːslɔ"],
     bg: ["масло", "mɐˈsɫɔ"],
     lv: ["sviests", "sviɛsts"],  // Originally 'something smeared'.
     sq: ["gjalpë", "ɟalp"],  // From Proto-Indo-European *selp- 'fat, oil'.
@@ -573,10 +585,10 @@ WORDS.butter = {
     tpi: ["bata", "bata"],
     hwc: ["butter", "bʌtə"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     se: ["vuodja", "ˈvuo̯ɟɟa"],  // From Proto-Finno-Ugric *waje; cognate with Finnish voi.
-    sma: ["voeje", "βuʌjɛ"],  // From Proto-Finno-Ugric *waje; cognate with Finnish voi.
-    smj: ["vuodja", "vʊuɔdʒɑ"],  // From Proto-Finno-Ugric *waje; cognate with Finnish voi.
-    smn: ["vuojâ", "vuojɐ"],  // From Proto-Finno-Ugric *waje; cognate with Finnish voi.
-    sms: ["vuõjj", "vuəʝːɐ"],  // From Proto-Finno-Ugric *waje; cognate with Finnish voi.
+    sma: ["voeje", "ˈβuʌjɛ"],  // From Proto-Finno-Ugric *waje; cognate with Finnish voi.
+    smj: ["vuodja", "ˈvʊuɔdʒɑ"],  // From Proto-Finno-Ugric *waje; cognate with Finnish voi.
+    smn: ["vuojâ", "ˈvuojɐ"],  // From Proto-Finno-Ugric *waje; cognate with Finnish voi.
+    sms: ["vuõjj", "ˈvuəʝːɐ"],  // From Proto-Finno-Ugric *waje; cognate with Finnish voi.
     sjd: ["вӯйй", "vuːjː"],  // From Proto-Finno-Ugric *waje; cognate with Finnish voi.
     as: ["মাখন", "mɑkʰɔn"],  // From Sanskrit mrakṣaṇa 'rubbing, ointment, oil'.
     or: ["ମାଖନ", "makʰɔnɔ"],  // From Sanskrit mrakṣaṇa 'rubbing, ointment, oil'.
@@ -612,7 +624,7 @@ WORDS.butter = {
     dz: ["མར", "mɑː"],
     bgc: ["मक्खन", "məkʰːən"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     ks: ["تھٔنؠ", "tʰənʲ"],
-    rue: ["масло", "maslo"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    rue: ["масло", "ˈmaslo"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     ast: ["mantega", "manˈteɣa"],
     wa: ["boûre", "buːʀ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     koi: ["ви", "vi"],  // From Proto-Finno-Ugric *waje; cognate with Finnish voi.
@@ -670,7 +682,7 @@ WORDS.butter = {
     de_lu: ["Butter", "ˈbʊtɐ"],
     en_ng2: ["butter", "ˈbʌtə"],
     es_bo: ["mantequilla", "manteˈkiʝa"],
-    es_py: ["mantequilla", "manteˈkiʝa"],
+    es_py: ["manteca", "manˈteka"],  // In the Río de la Plata and Paraguay the everyday word for butter is manteca (Wiktionary: Rioplatense, Paraguay).
     es_pa: ["mantequilla", "manteˈkiʝa"],
     en_my: ["butter", "ˈbatə"],
     en_wls: ["butter", "ˈbʌtə"],
@@ -697,13 +709,13 @@ WORDS.butter = {
     en_au: ["butter", "ˈbɐɾə"],
     de_at: ["Butter", "ˈbʊtɐ"],
     ksh: ["Butter", "ˈbʊtɐ"],
-    en_south: ["butter", "ˈbʌɾə"],
-    en_in: ["butter", "ˈbʌʈə"],
-    en_ie: ["butter", "ˈbʌtə"],
-    en_sco: ["butter", "ˈbʌtə"],
+    en_south: ["butter", "ˈbʌɾɚ"],
+    en_in: ["butter", "ˈbʌʈər"],
+    en_ie: ["butter", "ˈbʌtəɹ"],
+    en_sco: ["butter", "ˈbʌtəɹ"],
     en_yk: ["butter", "ˈbʊtə"],
     en_brum: ["butter", "ˈbʊtə"],
-    en_wc: ["butter", "ˈbʌtə"],
+    en_wc: ["butter", "ˈbʌtɚ"],
     en_est: ["butter", "ˈbʌtə"],
     en_sg: ["butter", "ˈbatə"],
     fr_qc: ["beurre", "bœʁ"],
@@ -712,7 +724,7 @@ WORDS.butter = {
     fr_ch: ["beurre", "bœʁ"],
     es_co: ["mantequilla", "manteˈkiʝa"],
     es_cl: ["mantequilla", "manteˈkiʝa"],
-    es_ar: ["mantequilla", "manteˈkiʃa"],
+    es_ar: ["manteca", "manˈteka"],  // In the Río de la Plata and Paraguay the everyday word for butter is manteca (Wiktionary: Rioplatense, Paraguay).
     es_cu: ["mantequilla", "manteˈkiʝa"],
     es_pe: ["mantequilla", "manteˈkiʝa"],
     es_an: ["mantequilla", "manteˈkiʝa"],
@@ -847,5 +859,17 @@ WORDS.butter = {
     yue_dg: ["牛油", "ŋau˧˩ jau˧˩"],  // Literally 'cow oil'. Word from Wiktionary's dialect table for Dongguan; reading from MCPDict 東莞.
     zh_tw: ["奶油", "naɪ˨˩˦ joʊ̯˧˥"],  // Literally 'milk oil'; in Taiwan 奶油 is butter. Word from Wiktionary's dialect table for Taiwan; reading in the row's notation, syllables as in the row's and the zh row's own cells.
     zh_wh: ["巴得油", "pa˥˥ tɤ˨˩˧ iou˨˩˧"],  // A loan of English butter, with 油 'oil'. Word from Wiktionary's dialect table for Wuhan; reading from MCPDict 武漢.
+    en_us: ["butter", "ˈbʌɾɚ"],  // Same word as standard English; IPA from the row's own cells (water ˈwɔɾɚ, computer kəmˈpjuɾɚ, blood blʌd).
+    en_ca: ["butter", "ˈbʌɾɚ"],  // Same word as standard English; IPA from the row's own cells (water ˈwɑɾɚ, computer kəmˈpjuːɾɚ, blood blʌd).
+    en_app: ["butter", "ˈbʌɾɚ"],  // Same word as standard English; IPA from the row's own cells (water ˈwɔːɾɚ, daughter ˈdɔːɾɚ, blood blʌd).
+    en_ck: ["butter", "ˈbɐʔə"],  // Same word as standard English; IPA from the row's own cells (water ˈwoːʔə, computer kəmˈpjuːʔə, blood blɐd, honey ˈhɐni).
+    en_geordie: ["butter", "ˈbʊtɐ"],  // Same word as standard English; IPA from the row's own cells (water ˈwɔːtɐ, computer kəmˈpjuːtɐ, blood blʊd).
+    en_manc: ["butter", "ˈbʊtɐ"],  // Same word as standard English; IPA from the row's own cells (water ˈwɔːtɐ, computer kəmˈpjuːtɐ, blood blʊd).
+    en_ng: ["butter", "ˈbɔtə"],  // Same word as standard English; IPA from the row's own cells (water ˈwɔːtə, blood blɔd, mother ˈmɔðə).
+    en_ph: ["butter", "ˈbʌtɚ"],  // Same word as standard English; IPA from the row's own cells (water ˈwɔtɚ, daughter ˈdɔtɚ, blood blʌd).
+    en_scouse: ["butter", "ˈbʊt̪sə"],  // Same word as standard English; IPA from the row's own cells (water ˈwɔːt̪sə, daughter ˈdɔːt̪sə, blood blʊd).
+    es_uy: ["manteca", "manˈteka"],  // In the Río de la Plata and Paraguay the everyday word for butter is manteca (Wiktionary: Rioplatense, Paraguay).
+    de_ch: ["Butter", "ˈbʊtər"],  // Same word as standard German; the row's -er is ər (Mutter ˈmʊtər, Vater ˈfaːtər).
+    pt_cv: ["manteiga", "mɐ̃ˈtejɡɐ"],  // Same word as European Portuguese; IPA from the row's own cells (as pt manteiga mɐ̃ˈtejɡɐ; ei = ej (peixe ˈpejʃɨ)).
   },
 };

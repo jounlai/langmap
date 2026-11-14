@@ -141,7 +141,7 @@ WORDS.fish = {
     bca: ["ɤ̃", "ɤ̃˥˥"],
     atb: ["ngozo", "ŋŏ˨˩tso˨˩"],
     prk: ["gax", "kaʔ"],
-    slr: ["balux", "bɑˈluχ"],
+    slr: ["balux", "pɑˈluχ"],
     ybe: ["jür", "jyr"],
     yuy: ["dʒaʁasən", "dʒaʁasən"],
     mjg: ["jighasi", "tɕiʁasɿ"],

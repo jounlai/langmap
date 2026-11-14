@@ -417,7 +417,7 @@ WORDS.chili = {
     bi: ["smolpima", "smolpima"],  // smol 'small' + pima 'chilli pepper'.
     war: ["sili", "ˈsili"],  // From Spanish chile.
     fax: ["dxindxa", "ˈdʒindʒa"],
-    an: ["ají", "aji"],  // The same word as Spanish ají, from Taíno.
+    an: ["ají", "aˈxi"],  // The same word as Spanish ají, from Taíno.
     liv: ["paprik", "ˈpɑprik"],
     pwo: ["ဆၧဂဲၪၥၪ", "sʰə ɣai θa"],  // 'Thing' + 'spicy' + 'fruit'.
     kr: ["bàrwùnó", "bàrwùnó"],

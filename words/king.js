@@ -589,7 +589,7 @@ WORDS.king = {
     pt: ["rei", "ʁɐj"],
     ru: ["король", "kɐˈrolʲ"],  // From Proto-Slavic *korľь, from the name of Charlemagne (Karl).
     ar: ["ملك", "malik"],  // From Proto-Semitic *malk-.
-    he: ["מלך", "malk"],  // From Proto-Semitic *malk-.
+    he: ["מלך", "ˈmeleχ"],  // From Proto-Semitic *malk-.
     tr: ["kral", "kɾaɫ"],  // From a South Slavic language; compare Proto-Slavic *korľь.
     fa: ["شاه", "ʃɒːh"],  // Persian šāh, from Old Persian xšāyaθiya 'king'.
     tl: ["hari", "ˈhaɾiʔ"],  // Borrowed from Old Javanese haji.

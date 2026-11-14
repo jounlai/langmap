@@ -7309,7 +7309,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "sim"
+          "sim hnav"
         ],
         [
           "D",
@@ -7337,7 +7337,7 @@ const SENTENCES = [
         ],
         [
           "J",
-          "uas tig"
+          "uas nyob hla kev ntawm"
         ],
         [
           "K",
@@ -7351,19 +7351,23 @@ const SENTENCES = [
         ],
         [
           "K",
-          "ᠠᠨᡨᠠᡥᠠ ᡳ"
+          "ᡨᠠᡨᠠᡵᠠ ᠪᠣᠣ ᡳ"
         ],
         [
           "J",
-          "ᠵᡠᠯᡝᡵᡳ"
+          "ᠪᠠᡴᠴᡳᠨ ᡝᡵᡤᡳ ᡳ"
         ],
         [
           "I",
-          "ᡥᡡᡩᠠ ᡩᡝ"
+          "ᡦᡠᠰᡝᠯᡳ"
+        ],
+        [
+          "H",
+          "ᡩᡝ"
         ],
         [
           "G",
-          "ᠰᠠᠪᡠᡥᠠᠩᡤᡝ"
+          "ᠰᠠᠪᡠᡥᠠ"
         ],
         [
           "D",
@@ -7371,7 +7375,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ᡝᡨᡠᡴᡳ ᡨᡠᠸᠠᡴᡳ"
+          "ᡝᡨᡠᠮᡝ ᡨᡠᠸᠠᡴᡳ"
         ],
         [
           "B",
@@ -16831,20 +16835,20 @@ const SENTENCES = [
           "Kuv"
         ],
         [
-          "D",
-          "txhua tagkis"
-        ],
-        [
-          "E",
-          "thaum 7 teev"
-        ],
-        [
           "C",
           "noj"
         ],
         [
           "B",
           "tshais"
+        ],
+        [
+          "D",
+          "txhua tag kis"
+        ],
+        [
+          "E",
+          "thaum 7 teev"
         ]
       ],
       "mnc": [
@@ -20995,26 +20999,26 @@ const SENTENCES = [
       ],
       "hmn": [
         [
-          "A",
-          "Lub chaw nres tsheb"
-        ],
-        [
           "B",
-          "ze tshaj"
+          "Lub chaw nres tsheb ciav hlau"
         ],
         [
-          "C",
-          "nyob qhov twg"
+          "A",
+          "ze tshaj plaws"
         ],
         [
           "D",
-          "ne"
+          "nyob"
+        ],
+        [
+          "C",
+          "qhov twg"
         ]
       ],
       "mnc": [
         [
           "A",
-          "ᡥᠠᠨᠴᡳᡴᡳ"
+          "ᡠᠮᡝᠰᡳ ᡥᠠᠨᠴᡳ"
         ],
         [
           "B",
@@ -25249,19 +25253,19 @@ const SENTENCES = [
       ],
       "hmn": [
         [
-          "A",
-          "Cov"
-        ],
-        [
           "B",
-          "kas fes no"
+          "Cov kas fes"
         ],
         [
-          "C",
-          "qab"
+          "A",
+          "no"
         ],
         [
           "D",
+          "qab"
+        ],
+        [
+          "C",
           "heev"
         ]
       ],
@@ -25272,7 +25276,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ᡴᡳᡨᠠᠨ ᡳ ᠮᡠᡴᡝ"
+          "ᠺᠠᡶᡝᡳ"
         ],
         [
           "C",
@@ -25280,7 +25284,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ᠰᠠᡳᠨ"
+          "ᠠᠮᡨᠠᠩᡤᠠ"
         ]
       ],
       "af": [
@@ -29331,16 +29335,16 @@ const SENTENCES = [
           "Kuv"
         ],
         [
-          "B",
-          "nyob hauv tsev kawm ntawv qib siab"
-        ],
-        [
           "D",
           "kawm"
         ],
         [
           "C",
-          "lus Nyij Pooj"
+          "lus Nyiv Pooj"
+        ],
+        [
+          "B",
+          "nyob hauv tsev kawm ntawv qib siab"
         ]
       ],
       "mnc": [
@@ -29350,11 +29354,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ᡨᠠᠴᡳᡴᡡ ᡩᡝ"
+          "ᠠᠮᠪᠠ ᡨᠠᠴᡳᡴᡡ ᡩᡝ"
         ],
         [
           "C",
-          "ᠨᡳᡦᠣᠨ ᡳ ᡤᡳᠰᡠᠨ ᠪᡝ"
+          "ᡰᡳᠪᡝᠨ ᡤᡳᠰᡠᠨ ᠪᡝ"
         ],
         [
           "D",
@@ -33391,11 +33395,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "tshav ntuj"
+          "yuav"
         ],
         [
           "D",
-          "zoo"
+          "tshav ntuj"
         ]
       ],
       "mnc": [
@@ -33405,11 +33409,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ᠠᠪᡴᠠ ᠨᠠ ᡳ ᠪᠠᠨᠵᡳᠨ"
+          "ᠠᠪᡴᠠᡳ ᠰᡠᡴᡩᡠᠨ"
         ],
         [
           "D",
-          "ᡧᡠᠨ ᡩᡝᡴᡩᡝᡵᡝ"
+          "ᡤᠠᠯᡤᠠ"
         ],
         [
           "C",
@@ -37424,16 +37428,16 @@ const SENTENCES = [
           "Kuv niam"
         ],
         [
-          "D",
-          "txhua hnub"
-        ],
-        [
           "C",
           "ua"
         ],
         [
           "B",
-          "hmo mov"
+          "pluas hmo"
+        ],
+        [
+          "D",
+          "txhua hnub"
         ]
       ],
       "mnc": [
@@ -37443,7 +37447,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ᠢᠨᡝᠩᡤᡳ ᡩᠠᡵᡳ"
+          "ᡳᠨᡝᠩᡤᡳ ᡩᠠᡵᡳ"
         ],
         [
           "B",
@@ -43395,11 +43399,11 @@ const SENTENCES = [
           "Nyiv Pooj"
         ],
         [
-          "F",
+          "G",
           "xyoo"
         ],
         [
-          "G",
+          "F",
           "tom ntej"
         ]
       ],
@@ -43418,7 +43422,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "ᠨᡳᡦᠣᠨ"
+          "ᡰᡳᠪᡝᠨ"
         ],
         [
           "D",
@@ -48033,15 +48037,19 @@ const SENTENCES = [
       "mnc": [
         [
           "A",
-          "ᡝᡵᡝ ᠪᡳᡨᡥᡝ ᠪᡝ"
+          "ᠰᡳ"
         ],
         [
           "B",
-          "ᡥᡡᠯᠠᡥᠠᠪᡳ"
+          "ᡳᠩᡤᡳᠯᡳᡧᡳ ᡤᡳᠰᡠᠨ ᠪᡝ"
         ],
         [
           "C",
-          "ᡴᠠᡳ"
+          "ᡤᡳᠰᡠᡵᡝᠮᡝ"
+        ],
+        [
+          "D",
+          "ᠪᠠᡥᠠᠨᠠᠮᠪᡳᠣ"
         ]
       ],
       "af": [
@@ -53499,28 +53507,32 @@ const SENTENCES = [
       ],
       "hmn": [
         [
-          "A",
-          "Kuv"
-        ],
-        [
           "F",
-          "nag hmo"
+          "Nag hmo"
         ],
         [
-          "B",
-          "tom lub khw muag ntawv"
+          "A",
+          "kuv"
+        ],
+        [
+          "C",
+          "yuav tau"
         ],
         [
           "D",
-          "phau tshiab"
+          "ib phau"
         ],
         [
           "E",
           "ntawv"
         ],
         [
-          "C",
-          "yuav tau lawm"
+          "D",
+          "tshiab"
+        ],
+        [
+          "B",
+          "tom lub khw muag ntawv"
         ]
       ],
       "mnc": [
@@ -53538,7 +53550,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ᠢᠴᡝ"
+          "ᡳᠴᡝ"
         ],
         [
           "E",
@@ -57898,15 +57910,19 @@ const SENTENCES = [
       "hmn": [
         [
           "C",
-          "Paj ntoo"
+          "Cov paj ntoo"
         ],
         [
           "A",
-          "hauv lub"
+          "hauv"
         ],
         [
           "B",
-          "tiaj ua si no"
+          "lub tiaj ua si"
+        ],
+        [
+          "A",
+          "no"
         ],
         [
           "D",
@@ -57924,7 +57940,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ᡤᡠ ᡳᠯᡥᠠ"
+          "ᡳᠩᡨᠣᡵᡳ ᡳᠯᡥᠠ"
         ],
         [
           "D",
@@ -62403,28 +62419,28 @@ const SENTENCES = [
         [
           "C",
           "dej"
+        ],
+        [
+          "B",
+          "rau kuv"
         ]
       ],
       "mnc": [
-        [
-          "A",
-          "ᠪᠠᡳᠮᡝ"
-        ],
         [
           "B",
           "ᠮᡳᠨᡩᡝ"
         ],
         [
           "F",
-          "ᡝᠮᡠ ᠮᡠᡥᡝᠯᡳᠶᡝᠨ"
+          "ᡝᠮᡠ ᡥᡡᠨᡨᠠᡥᠠᠨ"
         ],
         [
           "C",
           "ᠮᡠᡴᡝ"
         ],
         [
-          "D",
-          "ᠪᡠ"
+          "A|D",
+          "ᠪᡠᡵᡝᠣ"
         ]
       ],
       "af": [
@@ -67269,10 +67285,6 @@ const SENTENCES = [
           "Kuv"
         ],
         [
-          "E",
-          "txhua hnub"
-        ],
-        [
           "D",
           "caij tsheb ciav hlau"
         ],
@@ -67283,6 +67295,10 @@ const SENTENCES = [
         [
           "B",
           "ua hauj lwm"
+        ],
+        [
+          "E",
+          "txhua hnub"
         ]
       ],
       "mnc": [
@@ -67296,11 +67312,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ᠵᡠᡤᡡᠨ ᡳ ᠰᡝᠵᡝᠨ ᡩᡝ"
+          "ᡨᡠᠸᠠ ᠰᡝᠵᡝᠨ ᡩᡝ ᡨᡝᡶᡳ"
         ],
         [
           "B",
-          "ᠸᡝᡳᠯᡝ ᡩᡝ"
+          "ᠸᡝᡳᠯᡝᠮᡝ"
         ],
         [
           "C",
@@ -71390,34 +71406,34 @@ const SENTENCES = [
           "Kuv tus muam"
         ],
         [
-          "B",
-          "nyob Fab Kis"
+          "D",
+          "tab tom"
         ],
         [
           "C",
           "kawm ntawv txawv teb chaws"
         ],
         [
-          "D",
-          "lawm"
+          "B",
+          "nyob Fab Kis"
         ]
       ],
       "mnc": [
         [
           "A",
-          "ᠨᠣᠨ"
+          "ᠮᡳᠨᡳ ᠨᠣᠨ"
         ],
         [
           "B",
-          "ᡶᠠᡵᠠᠨᠰᡳ ᡩᡝ"
+          "ᡶᠠ ᡤᡠᡵᡠᠨ ᡩᡝ"
         ],
         [
           "C",
-          "ᡨᡠᠯᡝᡵᡤᡳ ᡤᡠᡵᡠᠨ ᡩᡝ ᡨᠠᠴᡳᠮᠪᡳ"
+          "ᡤᡝᠨᡝᡶᡳ ᡨᠠᠴᡳᠮᡝ"
         ],
         [
           "D",
-          "ᡴᠠᡳ"
+          "ᠪᡳ"
         ]
       ],
       "af": [
@@ -75019,22 +75035,22 @@ const SENTENCES = [
           "Zaj yeeb yaj kiab"
         ],
         [
-          "A",
-          "pes tsawg teev"
-        ],
-        [
           "C",
           "pib"
         ],
         [
-          "D",
+          "A",
+          "thaum pes tsawg teev"
+        ],
+        [
+          "E",
           "ne"
         ]
       ],
       "mnc": [
         [
           "B",
-          "ᠨᡳᡵᡠᡤᠠᠨ ᠪᡝ ᡨᡠᠸᠠᠮᡝ"
+          "ᡥᡝᠯᠮᡝᡶᡳᠨ"
         ],
         [
           "A",
@@ -80880,7 +80896,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "kev sib tham"
+          "rooj sib tham"
         ],
         [
           "D",
@@ -80891,18 +80907,18 @@ const SENTENCES = [
           "3 teev"
         ],
         [
-          "F",
-          "hnub no"
-        ],
-        [
           "G",
           "tav su"
+        ],
+        [
+          "F",
+          "no"
         ]
       ],
       "mnc": [
         [
           "A",
-          "ᠮᡳᠨᡳ"
+          "ᠮᡳᠨᡩᡝ"
         ],
         [
           "F",
@@ -80910,7 +80926,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "ᠶᠠᠮᠵᡳ"
+          "ᡳᠨᡝᠩᡤᡳ ᡩᡠᠯᡳᠨ ᡳ ᠠᠮᠠᠯᠠ"
         ],
         [
           "E",
@@ -80918,7 +80934,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ᠠᠴᠠᡶᡳ"
+          "ᡳᠰᠠᠨ"
         ],
         [
           "B",
@@ -85603,19 +85619,19 @@ const SENTENCES = [
       ],
       "hmn": [
         [
-          "A",
-          "Lub"
-        ],
-        [
           "B",
-          "hnab no"
+          "Lub hnab"
         ],
         [
-          "C",
-          "kim"
+          "A",
+          "no"
         ],
         [
           "D",
+          "kim"
+        ],
+        [
+          "C",
           "dhau lawm"
         ]
       ],
@@ -85626,15 +85642,19 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ᡶᠠᡩᡠ"
-        ],
-        [
-          "C",
-          "ᡤᠣᡵᠣ"
+          "ᡶᠠᡩᡠ ᡳ"
         ],
         [
           "D",
-          "ᡥᡡᡩᠠ ᡩᡝᠨ"
+          "ᡥᡡᡩᠠ"
+        ],
+        [
+          "C",
+          "ᡩᠠᠪᠠᠯᡳ"
+        ],
+        [
+          "D",
+          "ᡩᡝᠨ"
         ]
       ],
       "af": [
@@ -89704,16 +89724,16 @@ const SENTENCES = [
           "Kuv"
         ],
         [
-          "B",
-          "nkauj"
+          "D",
+          "nyiam"
         ],
         [
           "C",
           "mloog"
         ],
         [
-          "D",
-          "nyiam"
+          "B",
+          "nkauj"
         ]
       ],
       "mnc": [
@@ -89727,7 +89747,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ᡩᠣᠨᠵᡳᡵᡝ ᠪᡝ"
+          "ᡩᠣᠨᠵᡳᡵᡝ ᡩᡝ"
         ],
         [
           "D",
@@ -93212,20 +93232,20 @@ const SENTENCES = [
       ],
       "hmn": [
         [
-          "A",
-          "Txij tagkis los"
+          "D",
+          "Los"
         ],
         [
           "B",
-          "tsis tu"
-        ],
-        [
-          "D",
           "nag"
         ],
         [
           "C",
-          "los"
+          "tsis tu ncua"
+        ],
+        [
+          "A",
+          "txij tag kis no los"
         ]
       ],
       "mnc": [
@@ -93235,7 +93255,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ᡳᠯᡝᡨᡠ"
+          "ᠯᠠᡴᠴᠠᠨ ᠠᡴᡡ"
         ],
         [
           "D",
@@ -97709,24 +97729,28 @@ const SENTENCES = [
       ],
       "hmn": [
         [
-          "A",
-          "Kuv"
-        ],
-        [
           "B",
-          "hmo no"
+          "Hmo no"
         ],
         [
-          "C",
-          "nrog cov phooj ywg"
-        ],
-        [
-          "D",
-          "noj hmo"
+          "A",
+          "kuv"
         ],
         [
           "E",
-          "tshais"
+          "yuav"
+        ],
+        [
+          "C",
+          "nrog kuv cov phooj ywg"
+        ],
+        [
+          "E",
+          "noj"
+        ],
+        [
+          "D",
+          "hmo"
         ]
       ],
       "mnc": [
@@ -97740,7 +97764,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ᡤᡠᠴᡠ ᠰᠠ ᡝᠮᡤᡳ"
+          "ᡤᡠᠴᡠᠰᡝ ᡳ ᡝᠮᡤᡳ"
         ],
         [
           "D",
@@ -97748,7 +97772,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "ᠵᡝᡴᡳ ᠰᡝᠮᠪᡳ"
+          "ᠵᡝᠮᠪᡳ"
         ]
       ],
       "af": [
@@ -102853,12 +102877,16 @@ const SENTENCES = [
           "kawm"
         ],
         [
-          "F",
+          "B",
           "ib hom"
         ],
         [
           "C",
-          "lus tshiab"
+          "lus"
+        ],
+        [
+          "F",
+          "tshiab"
         ]
       ],
       "mnc": [
@@ -107090,30 +107118,30 @@ const SENTENCES = [
           "Lub tsev khaws ntawv"
         ],
         [
+          "D",
+          "nyob"
+        ],
+        [
           "B",
-          "nyob ib sab"
+          "ib sab"
         ],
         [
           "C",
-          "tsev kho mob"
-        ],
-        [
-          "D",
-          "ntawd"
+          "lub tsev kho mob"
         ]
       ],
       "mnc": [
         [
           "A",
-          "ᠪᡳᡨᡥᡝ ᡳ ᠪᠣᠣ"
+          "ᠪᡳᡨᡥᡝᡳ ᡴᡠᡵᡝᠨ"
         ],
         [
           "C",
-          "ᠣᡴᡨᠣ ᡩᠠᠰᠠᡵᠠ ᠪᠣᠣ ᡳ"
+          "ᡩᠠᡳᡶᡠᡵᠠᠨ ᡳ"
         ],
         [
           "B",
-          "ᡝᡵᡤᡳ ᡩᡝ"
+          "ᡩᠠᠯᠪᠠ ᡩᡝ"
         ],
         [
           "D",
@@ -110975,16 +111003,20 @@ const SENTENCES = [
           "Thov"
         ],
         [
+          "D",
+          "muab"
+        ],
+        [
           "C",
           "daim ntawv teev zaub mov"
         ],
         [
-          "D",
-          "qhia"
-        ],
-        [
           "B",
           "rau kuv"
+        ],
+        [
+          "D",
+          "saib"
         ]
       ],
       "mnc": [
@@ -110997,12 +111029,8 @@ const SENTENCES = [
           "ᠮᡳᠨᡩᡝ"
         ],
         [
-          "D",
-          "ᡨᡠᠸᠠᠪᡠ"
-        ],
-        [
-          "A",
-          "ᡵᡝ"
+          "A|D",
+          "ᡨᡠᠸᠠᠪᡠᡵᡝᠣ"
         ]
       ],
       "af": [
@@ -115878,18 +115906,22 @@ const SENTENCES = [
           "hauv"
         ],
         [
-          "F",
+          "C",
           "ib lub"
         ],
         [
           "D",
-          "tuam txhab loj"
+          "tuam txhab"
+        ],
+        [
+          "F",
+          "loj"
         ]
       ],
       "mnc": [
         [
           "A",
-          "ᠠᠮᠠ"
+          "ᠮᡳᠨᡳ ᠠᠮᠠ"
         ],
         [
           "F",
@@ -115905,7 +115937,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "ᠪᠠᡳᡨᠠᡴᡡ"
+          "ᠸᡝᡳᠯᡝᠮᠪᡳ"
         ]
       ],
       "af": [
@@ -120651,26 +120683,26 @@ const SENTENCES = [
           "Cov me nyuam"
         ],
         [
-          "B",
-          "hauv"
-        ],
-        [
-          "E",
-          "lub tiaj ua si"
+          "D",
+          "tab tom"
         ],
         [
           "C",
           "ua si"
         ],
         [
-          "D",
-          "lawm"
+          "B",
+          "hauv"
+        ],
+        [
+          "E",
+          "lub tiaj ua si"
         ]
       ],
       "mnc": [
         [
           "A",
-          "ᠵᡠᡳ ᠰᡝ"
+          "ᠵᡠᠰᡝ"
         ],
         [
           "E",
@@ -120682,11 +120714,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ᡝᡶᡳᠮᠪᡳ"
+          "ᡝᡶᡳᠮᡝ"
         ],
         [
           "D",
-          "ᡴᠠᡳ"
+          "ᠪᡳ"
         ]
       ],
       "af": [
@@ -129652,20 +129684,32 @@ const SENTENCES = [
       ],
       "hmn": [
         [
+          "B",
+          "Koj"
+        ],
+        [
           "A",
-          "Koj puas"
+          "puas"
         ],
         [
           "C",
           "qhia"
         ],
         [
-          "F",
-          "ib lub zoo"
+          "A",
+          "tau"
+        ],
+        [
+          "D",
+          "ib lub"
         ],
         [
           "E",
           "tsev noj mov"
+        ],
+        [
+          "F",
+          "zoo"
         ]
       ],
       "mnc": [
@@ -129679,11 +129723,15 @@ const SENTENCES = [
         ],
         [
           "E",
-          "ᠵᡝᡴᡠ ᠪᠣᠣ ᠪᡝ"
+          "ᠪᡠᡩᠠᡳ ᠪᠣᠣ ᠪᡝ"
         ],
         [
           "C",
-          "ᡤᡳᠰᡠᡵᡝᡴᡳ ᠣᠮᠪᡳᠣ"
+          "ᠠᠯᠠᠮᡝ"
+        ],
+        [
+          "A",
+          "ᠮᡠᡨᡝᠮᠪᡳᠣ"
         ]
       ],
       "af": [
@@ -133865,16 +133913,20 @@ const SENTENCES = [
           "Kuv"
         ],
         [
+          "C",
+          "tsis nco qab"
+        ],
+        [
           "B",
-          "lub kaus"
+          "kuv lub kaus"
         ],
         [
           "D",
-          "hauv tsheb ciav hlau"
+          "rau hauv tsheb ciav hlau"
         ],
         [
           "C",
-          "tso tseg lawm"
+          "lawm"
         ]
       ],
       "mnc": [
@@ -133884,15 +133936,15 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ᡨᠠᠯᡴᡡ ᠪᡝ"
+          "ᠰᠠᡵᠠ ᠪᡝ"
         ],
         [
           "D",
-          "ᠰᡝᠵᡝᠨ ᡩᡝ"
+          "ᡨᡠᠸᠠ ᠰᡝᠵᡝᠨ ᡩᡝ"
         ],
         [
           "C",
-          "ᠣᠨᡨᠣᡥᠣᠯᠣ"
+          "ᠣᠩᡤᠣᡥᠣ"
         ]
       ],
       "af": [
@@ -138586,30 +138638,30 @@ const SENTENCES = [
           "Nws"
         ],
         [
-          "B",
-          "lub piano"
-        ],
-        [
-          "D",
-          "zoo heev"
+          "E",
+          "txawj"
         ],
         [
           "C",
           "ntaus"
         ],
         [
-          "E",
-          "tau"
+          "B",
+          "piano"
+        ],
+        [
+          "D",
+          "zoo heev"
         ]
       ],
       "mnc": [
         [
           "A",
-          "ᡨᡝᡵᡝ ᠰᠠᡵᡤᠠᠨ"
+          "ᡳ"
         ],
         [
           "B",
-          "ᡨᡠᠩᡴᡝᠨ ᠪᡝ"
+          "ᡤᠠᠩ ᡴᡳᠨ ᠪᡝ"
         ],
         [
           "D",
@@ -138617,11 +138669,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ᡨᠠᠨᡨᠠᠮᠪᡳ"
+          "ᡶᡳᡨᡥᡝᠮᡝ"
         ],
         [
           "E",
-          "ᡴᠠᡳ"
+          "ᠪᠠᡥᠠᠨᠠᠮᠪᡳ"
         ]
       ],
       "af": [
@@ -142616,26 +142668,34 @@ const SENTENCES = [
           "Kev xeem"
         ],
         [
-          "B",
-          "Monday tom ntej"
+          "C",
+          "yog"
         ],
         [
-          "C",
-          "ne"
+          "D",
+          "Hnub Ib"
+        ],
+        [
+          "B",
+          "lim tiam tom ntej"
         ]
       ],
       "mnc": [
         [
           "A",
-          "ᠰᡳᠮᠨᡝᡵᡝ"
+          "ᠰᡳᠮᠨᡝᠨ"
         ],
         [
           "B",
-          "ᠵᡳᡥᡝ ᡧᡠᠨ ᡝᠮᡠ ᡩᡝ"
+          "ᠵᡳᡩᡝᡵᡝ ᠪᠠᡵᡠᠨ ᡳ"
+        ],
+        [
+          "D",
+          "ᠪᡳᠶᠠ ᡠᠰᡳᠩᡤᡳ"
         ],
         [
           "C",
-          "ᠣᠮᠪᡳ"
+          "ᡳᠨᡠ"
         ]
       ],
       "af": [
@@ -147253,20 +147313,20 @@ const SENTENCES = [
           "Kuv"
         ],
         [
-          "D",
-          "thaum noj su"
-        ],
-        [
-          "B",
-          "sushi"
-        ],
-        [
           "E",
           "xav"
         ],
         [
           "C",
           "noj"
+        ],
+        [
+          "B",
+          "sushi"
+        ],
+        [
+          "D",
+          "thaum noj su"
         ]
       ],
       "mnc": [
@@ -147276,11 +147336,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ᡨᠣᠪ ᠪᡠᡩᠠ ᡩᡝ"
+          "ᡳᠨᡝᠩᡤᡳ ᡩᡠᠯᡳᠨ ᡳ ᠪᡠᡩᠠ ᡩᡝ"
         ],
         [
           "B",
-          "ᡧᡠᠰᡳ ᠪᡝ"
+          "ᠰᡠᠰᡳ ᠪᡝ"
         ],
         [
           "C",
@@ -151913,19 +151973,19 @@ const SENTENCES = [
       ],
       "hmn": [
         [
-          "A",
-          "Lub tsev so chav"
+          "E",
+          "Lub chav pw"
         ],
         [
-          "C",
-          "huv"
+          "A",
+          "hauv lub tsev so"
         ],
         [
           "D",
-          "si"
+          "huv"
         ],
         [
-          "B",
+          "C",
           "heev"
         ]
       ],
@@ -155761,30 +155821,34 @@ const SENTENCES = [
       ],
       "hmn": [
         [
-          "B",
-          "Qeeb zog"
+          "A",
+          "Thov"
         ],
         [
           "C",
           "hais"
         ],
         [
-          "A",
-          "thov"
+          "D",
+          "kom qeeb"
+        ],
+        [
+          "B",
+          "dua"
         ]
       ],
       "mnc": [
         [
           "B",
-          "ᠮᠠᠵᡳᡤᡝ ᠠᡥᡡᡵᠠ"
+          "ᠮᠠᠵᡳᡤᡝ"
         ],
         [
-          "C",
-          "ᡤᡳᠰᡠᡵᡝ"
+          "D",
+          "ᠮᠠᠨᡩᠠ"
         ],
         [
-          "A",
-          "ᡵᡝ"
+          "A|C",
+          "ᡤᡳᠰᡠᡵᡝᡵᡝᠣ"
         ]
       ],
       "af": [
@@ -160193,16 +160257,20 @@ const SENTENCES = [
       ],
       "hmn": [
         [
-          "E",
-          "Kuv"
-        ],
-        [
-          "A",
-          "tij laug"
+          "D",
+          "Lub hli"
         ],
         [
           "C",
-          "lub hli dhau los"
+          "dhau los"
+        ],
+        [
+          "A",
+          "kuv"
+        ],
+        [
+          "E",
+          "tij laug"
         ],
         [
           "B",
@@ -160224,7 +160292,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ᡥᡝᡥᡝ ᡤᠠᡳᡶᡳ"
+          "ᠰᠠᡵᡤᠠᠨ ᡤᠠᡳᡥᠠ"
         ]
       ],
       "af": [
@@ -164304,19 +164372,19 @@ const SENTENCES = [
       "hmn": [
         [
           "C",
-          "Ntawm chaw nres tsheb"
+          "Ntawm lub chaw nres tsheb ciav hlau"
         ],
         [
-          "A",
-          "coob"
+          "D",
+          "muaj"
         ],
         [
           "B",
           "neeg"
         ],
         [
-          "D",
-          "nyob"
+          "A",
+          "coob coob"
         ]
       ],
       "mnc": [
@@ -169051,12 +169119,12 @@ const SENTENCES = [
           "muas"
         ],
         [
-          "C",
-          "hnub yug"
+          "D",
+          "ib yam khoom plig"
         ],
         [
-          "D",
-          "khoom plig"
+          "C",
+          "hnub yug"
         ]
       ],
       "mnc": [
@@ -169074,7 +169142,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "ᡠᡩᠠᡴᡳ"
+          "ᡠᡩᠠᠴᡳ"
         ],
         [
           "B",
@@ -173186,16 +173254,16 @@ const SENTENCES = [
       ],
       "mnc": [
         [
-          "D",
-          "ᡠᠪᠠ"
-        ],
-        [
-          "A",
-          "‌ᠴᡳ"
+          "A|D",
+          "ᡠᠪᠠᠴᡳ"
         ],
         [
           "B",
-          "ᡧᡠᠨ ᡨᡠᡥᡝᡴᡝ ᠪᡝ ᡨᡠᠸᠠᠴᡳ"
+          "ᡧᡠᠨ ᡨᡠᡥᡝᡵᡝ ᠪᡝ"
+        ],
+        [
+          "E",
+          "ᡨᡠᠸᠠᠴᡳ"
         ],
         [
           "C",
@@ -177841,24 +177909,24 @@ const SENTENCES = [
       ],
       "hmn": [
         [
-          "A",
-          "Kuv"
-        ],
-        [
           "C",
-          "tag kis"
+          "Tag kis"
         ],
         [
-          "B",
-          "ntxov"
+          "A",
+          "kuv"
+        ],
+        [
+          "E",
+          "yuav tsum"
         ],
         [
           "D",
           "sawv"
         ],
         [
-          "E",
-          "yuav tsum"
+          "B",
+          "ntxov"
         ]
       ],
       "mnc": [
@@ -177876,7 +177944,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ᡳᠯᡳᡴᡳ"
+          "ᡳᠯᡳᠴᡳ"
         ],
         [
           "E",
@@ -182755,20 +182823,24 @@ const SENTENCES = [
       ],
       "hmn": [
         [
-          "B",
-          "Tsev xa ntawv"
-        ],
-        [
-          "C",
-          "nyob qhov twg"
-        ],
-        [
           "A",
-          "koj"
+          "Koj"
         ],
         [
           "E",
-          "paub los"
+          "puas paub"
+        ],
+        [
+          "B",
+          "lub tsev xa ntawv"
+        ],
+        [
+          "D",
+          "nyob"
+        ],
+        [
+          "C",
+          "qhov twg"
         ]
       ],
       "mnc": [
@@ -187916,24 +187988,28 @@ const SENTENCES = [
       ],
       "hmn": [
         [
-          "A",
-          "Kuv"
+          "B",
+          "Tam sim no"
         ],
         [
-          "B",
-          "tam sim no"
+          "A",
+          "kuv"
+        ],
+        [
+          "E",
+          "tab tom nyeem"
+        ],
+        [
+          "D",
+          "ib phau"
         ],
         [
           "F",
-          "ib phau ntawv"
+          "ntawv"
         ],
         [
           "C",
           "lom zem"
-        ],
-        [
-          "E",
-          "nyeem"
         ]
       ],
       "mnc": [
@@ -187947,7 +188023,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ᡶᡝᡵᡤᡠᠸᡝᠴᡠᡴᡝ"
+          "ᠠᠮᡨᠠᠩᡤᠠ"
         ],
         [
           "F",
@@ -192997,26 +193073,26 @@ const SENTENCES = [
           "ib txwm"
         ],
         [
-          "D",
-          "liab"
+          "C",
+          "hnav"
         ],
         [
           "E",
           "tiab"
         ],
         [
-          "C",
-          "hnav"
+          "D",
+          "liab"
         ]
       ],
       "mnc": [
         [
           "A",
-          "ᡨᡝᡵᡝ ᠰᠠᡵᡤᠠᠨ"
+          "ᡳ"
         ],
         [
           "B",
-          "ᡳᠨᡠ"
+          "ᡩᠠᡵᡠᡥᠠᡳ"
         ],
         [
           "D",
@@ -197629,16 +197705,20 @@ const SENTENCES = [
       ],
       "hmn": [
         [
-          "A|E",
-          "Lub tsev noj mov"
+          "B",
+          "Cov zaub mov"
+        ],
+        [
+          "A",
+          "hauv"
+        ],
+        [
+          "E",
+          "lub tsev noj mov"
         ],
         [
           "D",
           "no"
-        ],
-        [
-          "B",
-          "zaub mov"
         ],
         [
           "C",
@@ -197652,7 +197732,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "ᠪᡠᡩᠠ ᠵᡝᡵᡝ ᠪᠣᠣ"
+          "ᠪᡠᡩᠠᡳ ᠪᠣᠣ"
         ],
         [
           "A",
@@ -206870,12 +206950,12 @@ const SENTENCES = [
           "caij ntuj no"
         ],
         [
-          "C",
-          "txias"
+          "D",
+          "huab cua"
         ],
         [
-          "D",
-          "heev"
+          "C",
+          "txias"
         ]
       ],
       "mnc": [
@@ -213191,20 +213271,24 @@ const SENTENCES = [
           "nrog"
         ],
         [
-          "B|G",
-          "phooj ywg"
+          "G",
+          "kuv"
         ],
         [
-          "C",
-          "siv xov tooj"
-        ],
-        [
-          "D",
-          "ib teev"
+          "B",
+          "tus phooj ywg"
         ],
         [
           "E|H",
           "tham"
+        ],
+        [
+          "C",
+          "xov tooj"
+        ],
+        [
+          "D",
+          "ib teev"
         ]
       ],
       "mnc": [
@@ -213218,11 +213302,11 @@ const SENTENCES = [
         ],
         [
           "F",
-          "ᡝᠮᡤᡳ"
+          "ᡳ ᡝᠮᡤᡳ"
         ],
         [
           "C",
-          "ᡥᠠᠪᡧᠠᠨ ᠨᠣᠮᡠᠨ ᡳ ᡩᠣᡵᡤᡳᡩᡝ"
+          "ᡩᡳᠶᠠᠨ ᡥᡡᠸᠠ ᡩᡝ"
         ],
         [
           "D",
@@ -213230,7 +213314,7 @@ const SENTENCES = [
         ],
         [
           "E|H",
-          "ᡤᡳᠰᡠᡵᡝᡥᡝᠪᡳ"
+          "ᡤᡳᠰᡠᡵᡝᡥᡝ"
         ]
       ],
       "af": [
@@ -217709,16 +217793,16 @@ const SENTENCES = [
           "Xib fwb"
         ],
         [
+          "D",
+          "piav qhia"
+        ],
+        [
           "B",
           "qhov teeb meem"
         ],
         [
           "C",
-          "meej meej"
-        ],
-        [
-          "D",
-          "piav qhia"
+          "kom meej"
         ]
       ],
       "mnc": [
@@ -217728,15 +217812,15 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ᡥᠠᠴᡳᠨ ᠪᡝ"
+          "ᡶᠣᠨᠵᡳᠨ ᠪᡝ"
         ],
         [
           "C",
-          "ᡤᡝᡨᡠᡴᡝᠯᡝᠮᡝ"
+          "ᡤᡝᡨᡠᡴᡝᠨ ᡳ"
         ],
         [
           "D",
-          "ᡤᡳᠰᡠᡵᡝᡥᠠᠪᡳ"
+          "ᡥᡝᠨᡩᡠᡥᡝ"
         ]
       ],
       "af": [
@@ -222406,20 +222490,20 @@ const SENTENCES = [
           "Kuv"
         ],
         [
-          "B",
-          "zaj yeeb yaj kiab"
-        ],
-        [
-          "E",
-          "ntawd"
-        ],
-        [
           "D",
           "xav"
         ],
         [
           "C",
           "saib"
+        ],
+        [
+          "B",
+          "zaj yeeb yaj kiab"
+        ],
+        [
+          "E",
+          "ntawd"
         ]
       ],
       "mnc": [
@@ -222433,7 +222517,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ᠨᡳᡵᡠᡤᠠᠨ ᠪᡝ ᡨᡠᠸᠠᠮᡝ ᠪᡝ"
+          "ᡥᡝᠯᠮᡝᡶᡳᠨ ᠪᡝ"
         ],
         [
           "C",
@@ -227776,12 +227860,16 @@ const SENTENCES = [
           "Thov"
         ],
         [
+          "D",
+          "qhia"
+        ],
+        [
           "E",
           "txoj kev"
         ],
         [
           "F",
-          "mus rau"
+          "mus"
         ],
         [
           "G",
@@ -227789,20 +227877,20 @@ const SENTENCES = [
         ],
         [
           "B",
-          "qhia"
-        ],
-        [
-          "D",
           "rau kuv"
         ]
       ],
       "mnc": [
         [
           "G",
-          "ᡩᡝᠶᡝᡨᡝᡵᡝ ᠪᠠ ᡳ"
+          "ᡩᡝᠶᡝᡨᡠᠨ ᡳ ᡤᡳᠶᠠᠮᡠᠨ"
         ],
         [
-          "C|E",
+          "F",
+          "ᡩᡝ ᡤᡝᠨᡝᡵᡝ"
+        ],
+        [
+          "E",
           "ᠵᡠᡤᡡᠨ ᠪᡝ"
         ],
         [
@@ -227810,12 +227898,8 @@ const SENTENCES = [
           "ᠮᡳᠨᡩᡝ"
         ],
         [
-          "D",
-          "ᠠᠯᠠ"
-        ],
-        [
-          "A",
-          "ᡵᡝ"
+          "A|D",
+          "ᠠᠯᠠᡵᠠᠣ"
         ]
       ],
       "af": [
@@ -232021,12 +232105,12 @@ const SENTENCES = [
           "tus dev"
         ],
         [
-          "C",
-          "taug kev"
-        ],
-        [
           "D",
           "nyiam"
+        ],
+        [
+          "C",
+          "mus taug kev"
         ]
       ],
       "mnc": [
@@ -232040,7 +232124,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ᠶᠠᠪᡠᠮᡝ ᡝᡶᡳᠮᡝ"
+          "ᡧᠣᡩᠣᡵᠣ ᡩᡝ"
         ],
         [
           "D",
@@ -236610,16 +236694,16 @@ const SENTENCES = [
           "pog"
         ],
         [
-          "B",
-          "lom zem"
+          "D",
+          "piav"
         ],
         [
           "C",
-          "dab neeg"
+          "cov dab neeg"
         ],
         [
-          "D",
-          "piav"
+          "B",
+          "lom zem"
         ]
       ],
       "mnc": [
@@ -236629,7 +236713,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ᡶᡝᡵᡤᡠᠸᡝᠴᡠᡴᡝ"
+          "ᠠᠮᡨᠠᠩᡤᠠ"
         ],
         [
           "C",
@@ -241789,16 +241873,8 @@ const SENTENCES = [
       ],
       "hmn": [
         [
-          "A",
+          "E",
           "Kuv"
-        ],
-        [
-          "F",
-          "tom"
-        ],
-        [
-          "D",
-          "khw"
         ],
         [
           "B",
@@ -241807,6 +241883,14 @@ const SENTENCES = [
         [
           "C",
           "poob"
+        ],
+        [
+          "F",
+          "tom"
+        ],
+        [
+          "D",
+          "khw"
         ],
         [
           "H",
@@ -241820,23 +241904,19 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ᠠᠯᡳᠨ ᡳ"
+          "ᡥᡡᡩᠠᡳ ᠪᠠ"
         ],
         [
           "F",
-          "ᠪᠠᡩᡝ"
+          "ᡩᡝ"
         ],
         [
           "B",
           "ᠵᡳᡥᠠ ᡳ ᡶᠠᡩᡠ ᠪᡝ"
         ],
         [
-          "C",
-          "ᡠᡶᠠᡵᠠ"
-        ],
-        [
-          "H",
-          "‌ᡥᠠ"
+          "C|H",
+          "ᠸᠠᠯᡳᠶᠠᠪᡠᡥᠠ"
         ]
       ],
       "af": [
@@ -246317,7 +246397,7 @@ const SENTENCES = [
         ],
         [
           "C|E",
-          "ᡳᠯᡥᠠᠮᠪᡳ"
+          "ᡶᡳᡨᡥᡝᠨᡝᡥᡝᠪᡳ"
         ]
       ],
       "af": [
@@ -250308,16 +250388,16 @@ const SENTENCES = [
           "Peb"
         ],
         [
-          "B",
-          "ib puag ncig"
+          "D",
+          "yuav tsum"
         ],
         [
           "C",
           "tiv thaiv"
         ],
         [
-          "D",
-          "yuav tsum"
+          "B",
+          "ib puag ncig"
         ]
       ],
       "mnc": [
@@ -250331,7 +250411,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ᡴᠠᡵᠮᠠᠮᡝ ᡨᡠᠸᠠᡴᡳ"
+          "ᡴᠠᡵᠮᠠᠴᡳ"
         ],
         [
           "D",
@@ -255687,8 +255767,8 @@ const SENTENCES = [
           "Kuv"
         ],
         [
-          "D",
-          "txhua hnub"
+          "C",
+          "haus"
         ],
         [
           "E",
@@ -255703,8 +255783,8 @@ const SENTENCES = [
           "kas fes"
         ],
         [
-          "C",
-          "haus"
+          "D",
+          "txhua hnub"
         ]
       ],
       "mnc": [
@@ -255722,11 +255802,11 @@ const SENTENCES = [
         ],
         [
           "F",
-          "ᠮᠣᠶᠣᡥᠣ"
+          "ᡥᡡᠨᡨᠠᡥᠠᠨ"
         ],
         [
           "B",
-          "ᡴᡳᡨᠠᠨ ᡳ ᠮᡠᡴᡝ"
+          "ᠺᠠᡶᡝᡳ"
         ],
         [
           "C",
@@ -260036,22 +260116,22 @@ const SENTENCES = [
           "Kev ntaus suab paj nruag"
         ],
         [
-          "C",
-          "hmo no"
+          "D",
+          "pib"
         ],
         [
           "B",
-          "8 teev"
+          "thaum 8 teev"
         ],
         [
-          "D",
-          "pib"
+          "C",
+          "hmo no"
         ]
       ],
       "mnc": [
         [
           "A",
-          "ᡴᡠᠮᡠᠨ ᡳ ᠠᠴᠠᡵᠠ"
+          "ᡴᡠᠮᡠᠨ ᡳ ᡳᠰᠠᠨ"
         ],
         [
           "C",
@@ -264078,22 +264158,22 @@ const SENTENCES = [
           "Nws"
         ],
         [
+          "D",
+          "hais tau"
+        ],
+        [
           "B",
-          "peb yam lus"
+          "peb hom lus"
         ],
         [
           "C",
           "zoo zoo"
-        ],
-        [
-          "D",
-          "hais tau"
         ]
       ],
       "mnc": [
         [
           "A",
-          "ᡨᡝᡵᡝ ᠰᠠᡵᡤᠠᠨ"
+          "ᡳ"
         ],
         [
           "B",
@@ -264105,7 +264185,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ᡤᡳᠰᡠᡵᡝᠮᠪᡳ ᡴᠠᡳ"
+          "ᡤᡳᠰᡠᡵᡝᠮᠪᡳ"
         ]
       ],
       "af": [
@@ -268802,7 +268882,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ᠨᡳᡵᡠᡤᠠᠨ ᠪᡝ"
+          "ᡥᡝᠯᠮᡝᠰᡠ ᠪᡝ"
         ],
         [
           "D",
@@ -272207,15 +272287,15 @@ const SENTENCES = [
       "hmn": [
         [
           "A",
-          "Tsheb npav"
-        ],
-        [
-          "B",
-          "kaum tsib feeb"
+          "Lub tsheb npav"
         ],
         [
           "C",
           "tuaj"
+        ],
+        [
+          "B",
+          "kaum tsib feeb ib zaug"
         ]
       ],
       "mnc": [
@@ -272225,7 +272305,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ᡨᠣᡶᠣᡥᠣᠨ ᡶᡝᠨᡳᠶᡝᠨ ᡳ ᡩᠠᡵᡳ"
+          "ᡨᠣᡶᠣᡥᠣᠨ ᡶᡠᠸᡝᠨ ᡩᠠᡵᡳ"
         ],
         [
           "C",
@@ -276044,16 +276124,16 @@ const SENTENCES = [
           "Kuv"
         ],
         [
-          "B",
-          "zaub mov Kauslim"
+          "D",
+          "tab tom kawm"
         ],
         [
           "C",
           "ua"
         ],
         [
-          "D",
-          "kawm"
+          "B",
+          "zaub mov Kauslim"
         ]
       ],
       "mnc": [
@@ -280801,38 +280881,34 @@ const SENTENCES = [
           "ib txwm"
         ],
         [
+          "E",
+          "tuaj koom"
+        ],
+        [
           "D",
           "rooj sib tham"
         ],
         [
           "C",
           "lig"
-        ],
-        [
-          "E",
-          "tuaj"
         ]
       ],
       "mnc": [
         [
           "A",
-          "ᡨᡝᡵᡝ ᡥᠠᡥᠠ"
+          "ᡳ"
         ],
         [
           "B",
-          "ᡳᠨᡠ"
+          "ᡩᠠᡵᡠᡥᠠᡳ"
         ],
         [
           "D",
-          "ᠠᠴᠠᡵᠠ ᠪᠠᡩᡝ"
+          "ᡳᠰᠠᠨ ᡩᡝ"
         ],
         [
-          "C",
-          "ᠠᠮᠴᠠᠮᡝ"
-        ],
-        [
-          "E",
-          "ᠵᡳᠮᠪᡳ"
+          "C|E",
+          "ᠰᡳᡨᠠᠮᠪᡳ"
         ]
       ],
       "af": [
@@ -285685,16 +285761,20 @@ const SENTENCES = [
           "xav"
         ],
         [
-          "C",
-          "ua ntej lub hli xaus"
-        ],
-        [
           "D",
           "nyeem"
         ],
         [
           "B",
           "phau ntawv no"
+        ],
+        [
+          "D",
+          "tiav"
+        ],
+        [
+          "C",
+          "ua ntej lub hli xaus"
         ]
       ],
       "mnc": [
@@ -285712,7 +285792,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ᡥᡡᠯᠠᡶᡳ ᠸᠠᠵᡳᠪᡠᡶᡳ"
+          "ᡥᡡᠯᠠᠮᡝ ᠸᠠᠵᡳᡴᡳ"
         ],
         [
           "E",
@@ -289151,11 +289231,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ᡤᠠᡧᠠ"
+          "ᡤᠠᠰᡥᠠ"
         ],
         [
           "C",
-          "ᡴᡠᠮᡠᠨ ᡤᠠᠰᠠᠮᠪᡳ"
+          "ᠵᡳᡵ ᠵᡳᠶᠠᡵ ᠰᡝᠮᠪᡳ"
         ]
       ],
       "af": [
@@ -297625,22 +297705,26 @@ const SENTENCES = [
           "muab"
         ],
         [
-          "B",
-          "rau kuv"
+          "C",
+          "ib yam"
+        ],
+        [
+          "D",
+          "khoom plig"
         ],
         [
           "C",
           "zoo nkauj"
         ],
         [
-          "D",
-          "khoom plig"
+          "B",
+          "rau kuv"
         ]
       ],
       "mnc": [
         [
           "A",
-          "ᡨᡝᡵᡝ ᠰᠠᡵᡤᠠᠨ"
+          "ᡳ"
         ],
         [
           "B",
@@ -301177,7 +301261,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ᡩᠠᠯᠠᡥᠠ"
+          "ᡩᠠᠯᡩᠠᠪᡠᡥᠠᠪᡳ"
         ]
       ],
       "af": [
@@ -305727,6 +305811,10 @@ const SENTENCES = [
           "Kuv"
         ],
         [
+          "D",
+          "ua kis las"
+        ],
+        [
           "B",
           "hauv chav gym"
         ],
@@ -305737,10 +305825,6 @@ const SENTENCES = [
         [
           "C",
           "peb zaug"
-        ],
-        [
-          "D",
-          "ua kis las"
         ]
       ],
       "mnc": [
@@ -309974,16 +310058,20 @@ const SENTENCES = [
       ],
       "hmn": [
         [
-          "B",
-          "Ntawm no"
+          "A",
+          "Kuv"
         ],
         [
           "C",
           "zaum"
         ],
         [
+          "B",
+          "ntawm no"
+        ],
+        [
           "D",
-          "tau los"
+          "puas tau"
         ]
       ],
       "mnc": [
@@ -309993,11 +310081,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ᡨᡝᡶᡳ"
+          "ᡨᡝᠴᡳ"
         ],
         [
           "D",
-          "ᠣᠴᡳ ᡩᡝᡵᡝ"
+          "ᠣᠮᠪᡳᠣ"
         ]
       ],
       "af": [
@@ -315709,16 +315797,12 @@ const SENTENCES = [
           "Nws"
         ],
         [
-          "H",
-          "rau"
-        ],
-        [
-          "C",
-          "niam txiv"
+          "D|E",
+          "sau"
         ],
         [
           "F",
-          "tsab"
+          "ib tsab"
         ],
         [
           "B",
@@ -315729,14 +315813,18 @@ const SENTENCES = [
           "ntev"
         ],
         [
-          "D|E",
-          "sau"
+          "H",
+          "rau"
+        ],
+        [
+          "C",
+          "nws niam txiv"
         ]
       ],
       "mnc": [
         [
           "A",
-          "ᡨᡝᡵᡝ ᡥᠠᡥᠠ"
+          "ᡳ"
         ],
         [
           "C",
@@ -320680,22 +320768,26 @@ const SENTENCES = [
           "Lub khw"
         ],
         [
+          "C",
+          "kaw"
+        ],
+        [
+          "D",
+          "thaum"
+        ],
+        [
           "E",
           "9 teev"
         ],
         [
           "F",
           "tsaus ntuj"
-        ],
-        [
-          "C",
-          "kaw"
         ]
       ],
       "mnc": [
         [
           "A",
-          "ᡥᡡᡩᠠᡧᠠᡵᠠ ᡦᠣᠣ"
+          "ᡦᡠᠰᡝᠯᡳ"
         ],
         [
           "F",
@@ -320703,15 +320795,15 @@ const SENTENCES = [
         ],
         [
           "E",
-          "ᡠᠶᡠᠨ"
+          "ᡠᠶᡠᠨ ᡝᡵᡳᠨ"
         ],
         [
-          "B|D",
-          "ᡝᡵᡳᠨᡩᡝ"
+          "D",
+          "ᡩᡝ"
         ],
         [
           "C",
-          "ᡩᠠᡥᠠᠮᠪᡳ"
+          "ᠶᠠᡴᠰᡳᠮᠪᡳ"
         ]
       ],
       "af": [
@@ -324825,16 +324917,20 @@ const SENTENCES = [
           "Kuv"
         ],
         [
+          "D",
+          "xav"
+        ],
+        [
+          "C",
+          "ua kom"
+        ],
+        [
           "B",
-          "kev hais lus"
+          "kuv txoj kev hais lus"
         ],
         [
           "C",
           "zoo dua"
-        ],
-        [
-          "D",
-          "xav ua"
         ]
       ],
       "mnc": [
@@ -324844,7 +324940,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ᡤᡳᠰᡠᡵᡝᡵᡝ ᠮᡠᡩᠠᠨ ᠪᡝ"
+          "ᡤᡳᠰᡠᠨ ᠮᡠᡩᠠᠨ ᠪᡝ"
         ],
         [
           "C",
@@ -328795,16 +328891,16 @@ const SENTENCES = [
           "Lawv"
         ],
         [
-          "C",
-          "hla tus dej"
+          "D",
+          "ua"
         ],
         [
           "B",
           "ib tug choj tshiab"
         ],
         [
-          "D",
-          "ua"
+          "C",
+          "hla tus dej"
         ]
       ],
       "mnc": [
@@ -334770,12 +334866,8 @@ const SENTENCES = [
           "tus miv"
         ],
         [
-          "G",
-          "txhua"
-        ],
-        [
-          "C",
-          "hmo"
+          "D",
+          "pw"
         ],
         [
           "F",
@@ -334786,8 +334878,12 @@ const SENTENCES = [
           "kuv lub txaj"
         ],
         [
-          "D",
-          "pw"
+          "G",
+          "txhua"
+        ],
+        [
+          "C",
+          "hmo"
         ]
       ],
       "mnc": [
@@ -334809,7 +334905,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ᠮᡳᠨᡳ ᡩᡝᡵᡝ"
+          "ᠮᡳᠨᡳ ᠪᡝᠰᡝᡵᡤᡝᠨ"
         ],
         [
           "F",
@@ -338564,12 +338660,16 @@ const SENTENCES = [
           "Kuv"
         ],
         [
+          "C",
+          "tos"
+        ],
+        [
           "B",
           "peb caug feeb"
         ],
         [
           "C",
-          "tos lawm"
+          "lawm"
         ]
       ],
       "mnc": [
@@ -338579,11 +338679,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ᡤᡡᠰᡳᠨ ᡶᡝᠨᡳᠶᡝᠨ"
+          "ᡤᡡᠰᡳᠨ ᡶᡠᠸᡝᠨ"
         ],
         [
           "C",
-          "ᠠᠯᡳᠮᡝ ᡨᡝᡥᡝ"
+          "ᠠᠯᡳᠶᠠᠮᡝ ᠪᡳ"
         ]
       ],
       "af": [
@@ -341703,22 +341803,22 @@ const SENTENCES = [
           "Cov me nyuam"
         ],
         [
-          "B",
-          "ua luam dej"
+          "C",
+          "tab tom kawm"
         ],
         [
-          "C",
-          "kawm"
+          "B",
+          "ua luam dej"
         ]
       ],
       "mnc": [
         [
           "A",
-          "ᠵᡠᡳ ᠰᡝ"
+          "ᠵᡠᠰᡝ"
         ],
         [
           "B",
-          "ᡨᡠᡵᡳ ᠪᡝ"
+          "ᡝᠯᠪᡳᡧᡝᡵᡝ ᠪᡝ"
         ],
         [
           "C",
@@ -345915,20 +346015,28 @@ const SENTENCES = [
       ],
       "hmn": [
         [
-          "A",
-          "Nkauj"
+          "E",
+          "Kuv"
         ],
         [
-          "B",
-          "mloog"
+          "D",
+          "zoo siab"
         ],
         [
           "C",
           "thaum"
         ],
         [
-          "D",
-          "zoo siab"
+          "E",
+          "kuv"
+        ],
+        [
+          "B",
+          "mloog"
+        ],
+        [
+          "A",
+          "nkauj"
         ]
       ],
       "mnc": [
@@ -354719,15 +354827,15 @@ const SENTENCES = [
       "hmn": [
         [
           "D",
-          "Kuv xav"
-        ],
-        [
-          "A",
-          "txoj"
+          "Kuv xav tias"
         ],
         [
           "B",
-          "phiaj xwm no"
+          "txoj phiaj xwm"
+        ],
+        [
+          "A",
+          "no"
         ],
         [
           "C",
@@ -354737,7 +354845,7 @@ const SENTENCES = [
       "mnc": [
         [
           "D",
-          "ᠪᡳ ᠪᠣᡩᠣᡵᠣᠩᡤᡝ"
+          "ᠪᡳ"
         ],
         [
           "A",
@@ -354749,7 +354857,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ᠰᠠᡳᠨ"
+          "ᠰᠠᡳᠨ ᠰᡝᠮᡝ"
+        ],
+        [
+          "D",
+          "ᡤᡡᠨᡳᠮᠪᡳ"
         ]
       ],
       "af": [
@@ -359530,34 +359642,34 @@ const SENTENCES = [
           "Nws"
         ],
         [
-          "D",
-          "tus phooj ywg"
-        ],
-        [
-          "E",
-          "khiav mus lawm"
+          "B",
+          "tu siab"
         ],
         [
           "C",
           "vim"
         ],
         [
-          "B",
-          "tu siab"
+          "D",
+          "nws tus phooj ywg"
+        ],
+        [
+          "E",
+          "tsiv mus lawm"
         ]
       ],
       "mnc": [
         [
           "A",
-          "ᡨᡝᡵᡝ ᠰᠠᡵᡤᠠᠨ"
+          "ᡳ"
         ],
         [
           "D",
-          "ᡤᡠᠴᡠ"
+          "ᡳᠨᡳ ᡤᡠᠴᡠ"
         ],
         [
           "E",
-          "ᡤᡠᡵᡳᠪᡠᠮᡝ ᡤᡝᠨᡝᡶᡳ"
+          "ᡤᡠᡵᡳᡶᡳ ᡤᡝᠨᡝᡥᡝ"
         ],
         [
           "C",
@@ -359565,7 +359677,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ᡤᡡᠨᡳᠨ ᠵᠣᠪᠣᡵᠣ"
+          "ᠠᡴᠠᠮᠪᡳ"
         ]
       ],
       "af": [
@@ -366168,11 +366280,11 @@ const SENTENCES = [
         ],
         [
           "E",
-          "ntseeg"
+          "ntseeg tias"
         ],
         [
           "B",
-          "kawm"
+          "kev kawm ntawv"
         ],
         [
           "F",
@@ -366183,12 +366295,16 @@ const SENTENCES = [
           "yog"
         ],
         [
-          "G",
-          "ib qho kev paub"
+          "I",
+          "ib qho"
         ],
         [
           "C",
-          "zoo"
+          "kev paub"
+        ],
+        [
+          "G",
+          "muaj nqis"
         ]
       ],
       "mnc": [
@@ -366202,19 +366318,23 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ᡨᠠᠴᡳᡵᡝ"
+          "ᡨᠠᠴᡳᡵᡝᠩᡤᡝ"
         ],
         [
           "G",
-          "ᠣᠶᠣᠩᡤᠣ"
+          "ᠸᡝᠰᡳᡥᡠᠨ"
         ],
         [
           "C",
-          "ᡨᠠᠴᡳᠨ"
+          "ᡩᡠᠯᡝᠮᠪᡠᠨ"
+        ],
+        [
+          "D",
+          "ᡳᠨᡠ"
         ],
         [
           "H",
-          "ᠰᡝᡵᡝ ᡩᡝ"
+          "ᠰᡝᠮᡝ"
         ],
         [
           "E",
@@ -370678,20 +370798,20 @@ const SENTENCES = [
       ],
       "hmn": [
         [
-          "A",
-          "Kuv"
-        ],
-        [
           "C",
-          "hnub no"
+          "Hnub no"
         ],
         [
-          "E",
-          "mob taub hau"
+          "A",
+          "kuv"
         ],
         [
           "F",
-          "lawm"
+          "mob"
+        ],
+        [
+          "E",
+          "taub hau"
         ]
       ],
       "mnc": [
@@ -370704,12 +370824,12 @@ const SENTENCES = [
           "ᡝᠨᡝᠩᡤᡳ"
         ],
         [
-          "E",
-          "ᡠᠵᡠ ᠨᡳᠮᡝᠮᠪᡳ"
+          "B",
+          "ᡠᠵᡠ"
         ],
         [
-          "F",
-          "ᡴᠠᡳ"
+          "D",
+          "ᠨᡳᠮᡝᠮᠪᡳ"
         ]
       ],
       "af": [
@@ -374633,25 +374753,25 @@ const SENTENCES = [
       "hmn": [
         [
           "A",
-          "Kws kho mob"
+          "Tus kws kho mob"
+        ],
+        [
+          "D",
+          "hais kom"
         ],
         [
           "B",
-          "hais rau kuv"
+          "kuv"
         ],
         [
           "C",
           "so"
-        ],
-        [
-          "D",
-          "lawm"
         ]
       ],
       "mnc": [
         [
           "A",
-          "ᠣᡴᡨᠣ ᡩᠠᠰᠠᡵᠠ ᠨᡳᠶᠠᠯᠮᠠ"
+          "ᠣᡴᡨᠣᠰᡳ"
         ],
         [
           "B",
@@ -374659,7 +374779,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ᡝᡴᡝ ᠰᡝᠮᡝ"
+          "ᡝᡵᡤᡝ ᠰᡝᠮᡝ"
         ],
         [
           "D",
@@ -378594,16 +378714,16 @@ const SENTENCES = [
           "Kuv"
         ],
         [
-          "B",
-          "txhua tagkis"
+          "D",
+          "sim"
         ],
         [
           "C",
           "ua kis las"
         ],
         [
-          "D",
-          "sim ua"
+          "B",
+          "txhua tag kis"
         ]
       ],
       "mnc": [
@@ -383194,30 +383314,30 @@ const SENTENCES = [
       ],
       "hmn": [
         [
-          "A",
-          "Nws"
-        ],
-        [
           "D",
-          "lub lim tiam"
+          "Lub lim tiam"
         ],
         [
           "E",
           "dhau los"
         ],
         [
-          "B",
-          "mob khaub thuas"
+          "A",
+          "nws"
         ],
         [
           "C",
-          "lawm"
+          "mob"
+        ],
+        [
+          "B",
+          "khaub thuas"
         ]
       ],
       "mnc": [
         [
           "A",
-          "ᡨᡝᡵᡝ ᠰᠠᡵᡤᠠᠨ"
+          "ᡳ"
         ],
         [
           "E",
@@ -383225,15 +383345,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ᡧᡠᠨ ᡨᠠᡳ ᡩᡝ"
+          "ᠪᠠᡵᡠᠨ ᡩᡝ"
         ],
         [
-          "B",
-          "ᡧᠠᡥᡡᡵᡠᠨ ᠨᡳᠮᡝᡴᡠ ᡩᡝ"
-        ],
-        [
-          "C",
-          "ᡩᠣᠰᡳᡴᠠ"
+          "B|C",
+          "ᡧᠠᡥᡡᡵᠠᡥᠠ"
         ]
       ],
       "af": [
@@ -388059,26 +388175,34 @@ const SENTENCES = [
       ],
       "hmn": [
         [
-          "B",
-          "Dej"
+          "A",
+          "Koj"
         ],
         [
-          "E",
-          "ntxiv"
+          "D",
+          "yuav tsum"
         ],
         [
           "C",
           "haus"
         ],
         [
-          "D",
-          "zoo"
+          "B",
+          "dej"
+        ],
+        [
+          "E",
+          "ntau ntxiv"
         ]
       ],
       "mnc": [
         [
+          "A",
+          "ᠰᡳ"
+        ],
+        [
           "E",
-          "ᠠᠮᠪᠠ"
+          "ᠯᠠᠪᡩᡠᡴᠠᠨ"
         ],
         [
           "B",
@@ -388086,7 +388210,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ᠣᠮᡳᡴᡳ"
+          "ᠣᠮᡳᠴᡳ"
         ],
         [
           "D",
@@ -392081,16 +392205,16 @@ const SENTENCES = [
           "Kuv"
         ],
         [
-          "A",
-          "txhua hnub"
+          "C",
+          "siv"
         ],
         [
           "B",
-          "lub xov tooj"
+          "kuv lub xov tooj ntawm tes"
         ],
         [
-          "C",
-          "siv"
+          "A",
+          "txhua hnub"
         ]
       ],
       "mnc": [
@@ -392104,7 +392228,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ᡩᡝᡵᡝ ᠠᡵᠠᡵᠠ ᡨᡝᡨᡠᠨ ᠪᡝ"
+          "ᠰᡠᡵᡝ ᡩᡳᠶᠠᠨ ᡥᡡᠸᠠ ᠪᡝ"
         ],
         [
           "C",
@@ -396306,19 +396430,19 @@ const SENTENCES = [
       ],
       "hmn": [
         [
-          "A",
-          "Lub"
-        ],
-        [
           "B",
-          "app no"
+          "Lub app"
         ],
         [
-          "C",
-          "yooj yim"
+          "A",
+          "no"
         ],
         [
           "D",
+          "yooj yim"
+        ],
+        [
+          "C",
           "heev"
         ]
       ],
@@ -396337,7 +396461,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ᠵᠠ"
+          "ᡳᠯᡩᡠᠩᡤᠠ"
         ]
       ],
       "af": [
@@ -399708,12 +399832,12 @@ const SENTENCES = [
           "AI"
         ],
         [
-          "B",
-          "lub ntiaj teb"
+          "C",
+          "tab tom hloov"
         ],
         [
-          "C",
-          "hloov lawm"
+          "B",
+          "lub ntiaj teb"
         ]
       ],
       "mnc": [
@@ -404728,7 +404852,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "tsis tau"
+          "tsis"
+        ],
+        [
+          "B",
+          "tau"
         ],
         [
           "F",
@@ -404753,12 +404881,8 @@ const SENTENCES = [
           "ᠨᠠᡵᡥᡡᠨ ᡥᡝᡵᡤᡝᠨ ᠪᡝ"
         ],
         [
-          "D",
-          "ᠪᠠᡥᠠᠮᠪᡳ"
-        ],
-        [
-          "C",
-          "ᠠᡴᡡ"
+          "C|D",
+          "ᠪᠠᡥᠠᡵᠠᡴᡡ"
         ]
       ],
       "af": [
@@ -409065,16 +409189,16 @@ const SENTENCES = [
           "Nws"
         ],
         [
-          "C",
-          "ib leeg"
+          "D",
+          "kawm"
         ],
         [
           "B",
-          "kev sau ntawv"
+          "sau program"
         ],
         [
-          "D",
-          "kawm"
+          "C",
+          "ib leeg"
         ]
       ],
       "mnc": [
@@ -412971,29 +413095,41 @@ const SENTENCES = [
       "hmn": [
         [
           "A",
-          "Saib paj ntoo"
+          "Kev saib paj ntoo"
+        ],
+        [
+          "D",
+          "yog"
         ],
         [
           "B",
-          "yog Nyij Pooj"
+          "ib txoj"
         ],
         [
           "C",
-          "kev cai"
+          "kab lis kev cai"
+        ],
+        [
+          "B",
+          "Nyiv Pooj"
         ]
       ],
       "mnc": [
         [
           "A",
-          "ᡤᡠ ᡳᠯᡥᠠ ᡨᡠᠸᠠᠮᡝ"
+          "ᡳᠩᡨᠣᡵᡳ ᡳᠯᡥᠠ ᡨᡠᠸᠠᡵᠠᠩᡤᡝ"
         ],
         [
           "B",
-          "ᠨᡳᡦᠣᠨ ᡤᡠᡵᡠᠨ ᡳ"
+          "ᡰᡳᠪᡝᠨ ᡳ"
         ],
         [
           "C",
           "ᡴᠣᠣᠯᡳ"
+        ],
+        [
+          "D",
+          "ᡳᠨᡠ"
         ]
       ],
       "af": [
@@ -416964,16 +417100,16 @@ const SENTENCES = [
           "Peb"
         ],
         [
-          "D",
-          "xyoo tshiab Suav"
+          "C",
+          "noj"
         ],
         [
           "B",
           "ncuav"
         ],
         [
-          "C",
-          "noj"
+          "D",
+          "thaum xyoo tshiab Suav"
         ]
       ],
       "mnc": [
@@ -423011,28 +423147,28 @@ const SENTENCES = [
           "Hauv"
         ],
         [
-          "B",
-          "lub"
+          "C",
+          "lub teb chaws"
         ],
         [
-          "C",
-          "teb chaws no"
+          "B",
+          "no"
         ],
         [
           "D",
           "thaum caij ntuj sov"
         ],
         [
+          "G",
+          "muaj"
+        ],
+        [
           "E",
-          "muaj ntau"
+          "ntau"
         ],
         [
           "F",
-          "kev noj kev haus"
-        ],
-        [
-          "G",
-          "raug tuav"
+          "lub koob tsheej"
         ]
       ],
       "mnc": [
@@ -423042,7 +423178,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ᡤᡠᡵᡠᠨ ᡩᡝ"
+          "ᡤᡠᡵᡠᠨ"
+        ],
+        [
+          "A",
+          "ᡩᡝ"
         ],
         [
           "D",
@@ -423054,7 +423194,7 @@ const SENTENCES = [
         ],
         [
           "F",
-          "ᠠᠩᡤᠠᠯᠠ"
+          "ᡥᠠᠴᡳᠨ"
         ],
         [
           "G",
@@ -428276,7 +428416,7 @@ const SENTENCES = [
       "hmn": [
         [
           "B",
-          "Kawm"
+          "Kev kawm"
         ],
         [
           "A",
@@ -428287,12 +428427,12 @@ const SENTENCES = [
           "qhib"
         ],
         [
-          "D",
-          "tshiab"
+          "E",
+          "cov qhov rooj"
         ],
         [
-          "E",
-          "qhov rooj"
+          "D",
+          "tshiab"
         ]
       ],
       "mnc": [
@@ -428302,7 +428442,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ᡨᠠᠴᡳᡵᡝ"
+          "ᡨᠠᠴᡳᡵᡝᠩᡤᡝ"
         ],
         [
           "D",
@@ -428310,7 +428450,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "ᡩᡠᡴᠠ"
+          "ᡩᡠᡴᠠ ᠪᡝ"
         ],
         [
           "C",
@@ -432200,18 +432340,18 @@ const SENTENCES = [
           "caij tsheb kauj vab"
         ],
         [
-          "B",
-          "mus chaw ua hauj lwm"
-        ],
-        [
           "C",
           "mus"
+        ],
+        [
+          "B",
+          "chaw ua hauj lwm"
         ]
       ],
       "mnc": [
         [
           "A",
-          "ᠰᡝᠵᡝᠨ ᡩᡝ ᡨᡝᡶᡳ"
+          "ᠵᡠᠸᡝ ᠮᡠᡥᡝᡵᡝᠨ ᡳ ᠰᡝᠵᡝᠨ ᠶᠠᠯᡠᡶᡳ"
         ],
         [
           "D",
@@ -432219,7 +432359,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ᠸᡝᡳᠯᡝ ᠪᠣᠣ ᡩᡝ"
+          "ᠶᠠᠮᡠᠨ ᡩᡝ"
         ],
         [
           "C",
@@ -436989,7 +437129,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "tig sab"
+          "tig sab xis"
         ],
         [
           "C",
@@ -436997,15 +437137,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "tus"
-        ],
-        [
-          "E",
-          "tom ntej"
+          "txoj"
         ],
         [
           "F",
           "kev tshuam"
+        ],
+        [
+          "E",
+          "tom ntej"
         ]
       ],
       "mnc": [
@@ -441178,22 +441318,22 @@ const SENTENCES = [
           "Lub khw loj"
         ],
         [
-          "C",
-          "chaw nres tsheb"
+          "D",
+          "nyob"
         ],
         [
           "B",
           "tom qab"
         ],
         [
-          "D",
-          "nyob"
+          "C",
+          "lub chaw nres tsheb ciav hlau"
         ]
       ],
       "mnc": [
         [
           "A",
-          "ᠠᠮᠪᠠ ᡥᡡᡩᠠᡧᠠᡵᠠ ᡦᠣᠣ"
+          "ᠠᠮᠪᠠ ᡦᡠᠰᡝᠯᡳ"
         ],
         [
           "C",
@@ -445931,12 +446071,12 @@ const SENTENCES = [
           "xaj"
         ],
         [
-          "D",
-          "qhov"
+          "E",
+          "qhov zaub mov"
         ],
         [
-          "E",
-          "zaub mov no"
+          "D",
+          "no"
         ]
       ],
       "mnc": [
@@ -449944,12 +450084,12 @@ const SENTENCES = [
       ],
       "hmn": [
         [
-          "A",
-          "Lub"
+          "B",
+          "Lub khoom nco"
         ],
         [
-          "B",
-          "khoom nco no"
+          "A",
+          "no"
         ],
         [
           "C",
@@ -453051,18 +453191,22 @@ const SENTENCES = [
       ],
       "hmn": [
         [
-          "A",
-          "Txhua yam"
+          "B",
+          "Ua tsaug"
         ],
         [
-          "B",
-          "ua tsaug"
+          "C",
+          "rau"
+        ],
+        [
+          "A",
+          "txhua yam"
         ]
       ],
       "mnc": [
         [
           "A",
-          "ᡤᡝᠮᡠ ᡩᡝ"
+          "ᡝᡳᡨᡝᠨ ᡩᡝ"
         ],
         [
           "B",

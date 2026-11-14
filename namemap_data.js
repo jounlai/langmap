@@ -204,7 +204,7 @@ NAMES.mary = {
     ja:'イエスの母、そしてモーセの姉ミリアムの名。キリスト教世界全体で最も敬われる女性名の一つとなった。ギリシャ語・ラテン語のマリアを経て各言語へ広がり、コーランでは唯一名前で登場する女性マルヤムとして、イスラム世界でも中心的な名前である。',
   },
   forms:{
-    en:  { form:'Mary',   rom:'Mary',   ipa:'ˈmɛəri', freq:'very-common', note:{en:'also Maria, Marie',ja:'マリア・マリーとも'}, people:['Mary Shelley','Mary Cassatt'] },
+    en:  { form:'Mary',   rom:'Mary',   ipa:'ˈmɛəɹi', freq:'very-common', note:{en:'also Maria, Marie',ja:'マリア・マリーとも'}, people:['Mary Shelley','Mary Cassatt'] },
     fr:  { form:'Marie',  rom:'Marie',  ipa:'maˈʁi',       freq:'very-common', people:['Marie Curie','Marie Antoinette'] },
     ga:  { form:'Máire', rom:'Máire', ipa:'ˈmˠaːɾʲə', freq:'moderate', note:{en:'Muire is kept for the Virgin Mary',ja:'聖母マリアには別形 Muire を用いる'}, people:['Máire Mhac an tSaoi','Máire Geoghegan-Quinn'] },
     es:  { form:'María', rom:'María', ipa:'maˈɾi.a', freq:'very-common', people:['María Zambrano'] },
@@ -550,7 +550,7 @@ NAMES.george = {
     ja:'ギリシャ語ゲオルギオス、geōrgós「農夫・大地を耕す者」に由来する。竜を退治した殉教者・聖ゲオルギオスがキリスト教世界全体で崇敬され、イングランド・ジョージア・エチオピアの守護聖人となったことで広く普及した。ホルヘ、ジョルジョ、ゲオルク、イェジと各地に展開し、東スラヴ世界では改まったゲオルギー、日常的なユーリー、民衆形のエゴールの三つの名に分かれた。カフカスでは国民的人気を誇り、ジョージア語ギオルギ、アルメニア語ゲヴォルグとなる。',
   },
   forms:{
-    en:  { form:'George',   rom:'George',   ipa:'dʒɔːrdʒ', freq:'very-common', people:['George Washington','George Gershwin'] },
+    en:  { form:'George',   rom:'George',   ipa:'dʒɔːɹdʒ', freq:'very-common', people:['George Washington','George Gershwin'] },
     gb:  { form:'George',   rom:'George',   ipa:'dʒɔːdʒ',  freq:'very-common', people:['King George VI','George Harrison','George Orwell'] },
     fr:  { form:'Georges',  rom:'Georges',  ipa:'ʒɔʁʒ',    freq:'common',      people:['Georges Bizet','Georges Pompidou'] },
     es:  { form:'Jorge',    rom:'Jorge',    ipa:'ˈxoɾxe',  freq:'very-common', people:['Jorge Manrique','Jorge Semprún'] },
@@ -568,7 +568,7 @@ NAMES.george = {
     ro:  { form:'Gheorghe', rom:'Gheorghe', ipa:'ˈɟe̯orɡe', freq:'very-common',     note:{en:'Gigi, Gică dim.',ja:'愛称ジジ・ジカ'}, people:['Gheorghe Hagi','Gheorghe Zamfir'] },
     hr:  { form:'Juraj',    rom:'Juraj',    ipa:'ˈjurai̯',  freq:'common',      note:{en:'also Đuro',ja:'ジュロとも'}, people:['Juraj Dalmatinac'] },
     ru:  { form:'Юрий / Георгий', rom:'Yuri / Georgy', ipa:'ˈjurʲɪj / ɡʲɪˈorɡʲɪj', freq:'very-common', note:{en:'a living doublet — both descend from Georgios; Yegor too',ja:'ユーリーとゲオルギーはともにゲオルギオス由来の二重語。エゴールも'}, people:['Yuri Gagarin','Georgy Zhukov'] },
-    uk:  { form:'Юрій',     rom:'Yuriy',    ipa:'ˈjurʲij', freq:'very-common', note:{en:'learned form Heorhiy',ja:'学問的形ヘオルヒー'}, people:['Yuriy Andrukhovych'] },
+    uk:  { form:'Юрій',     rom:'Yurii',    ipa:'ˈjurʲij', freq:'very-common', note:{en:'learned form Heorhii',ja:'学問的形ヘオルヒー'}, people:['Yuriy Andrukhovych'] },
     el:  { form:'Γεώργιος', rom:'Geórgios', ipa:'ʝeˈorʝios', freq:'very-common', note:{en:'the original; familiar Giorgos',ja:'原形。愛称ヨルゴス'}, people:['Georgios Papanikolaou','Giorgos Seferis'] },
     ka:  { form:'გიორგი',   rom:'Giorgi',   ipa:'ɡiorɡi',  freq:'very-common', note:{en:'the most popular name in Georgia',ja:'ジョージアで最も多い名'}, people:['Giorgi Saakadze'] },
     hy:  { form:'Գևորգ',    rom:'Gevorg',   ipa:'ɡeˈvoɾkʰ',  freq:'very-common',      note:{en:'Western Armenian Kevork',ja:'西アルメニア語ケヴォルク'}, people:['Gevorg Chaush'] },
@@ -656,8 +656,8 @@ NAMES.krishna = {
     ja:'クリシュナはヴィシュヌ神の第八の化身で、ヒンドゥー教で最も愛される神格の一つ。ヴリンダーヴァンで笛を吹く牛飼いであり、『バガヴァッド・ギーター』でアルジュナの戦車を御し、彼を導く賢者でもある。サンスクリットのクリシュナは文字どおり「黒い・暗い」を意味し、その肌の色を表すとともに、カーナ（Kanha）やタミル語のカンナン（Kannan）といった親しみを込めた形を生んだ。人名としてインド全域とヒンドゥー系ディアスポラで広く使われ、東南アジアへはワヤン影絵劇とマハーバーラタを通じて広がった。',
   },
   forms:{
-    en:  { form:'Krishna', rom:'Krishna', ipa:'ˈkrɪʃnə', freq:'rare', note:{en:'international / diaspora romanization',ja:'国際・ディアスポラのローマ字形'}, people:['Krishna Das'] },
-    gb:  { form:'Krishna', rom:'Krishna', ipa:'ˈkrɪʃnə', freq:'moderate', note:{en:'Hindu communities; Hare Krishna movement',ja:'ヒンドゥー系社会。ハレ・クリシュナ運動'} },
+    en:  { form:'Krishna', rom:'Krishna', ipa:'ˈkɹɪʃnə', freq:'rare', note:{en:'international / diaspora romanization',ja:'国際・ディアスポラのローマ字形'}, people:['Krishna Das'] },
+    gb:  { form:'Krishna', rom:'Krishna', ipa:'ˈkɹɪʃnə', freq:'moderate', note:{en:'Hindu communities; Hare Krishna movement',ja:'ヒンドゥー系社会。ハレ・クリシュナ運動'} },
     hi:  { form:'कृष्ण', rom:'Kṛṣṇa', ipa:'kɾɪʂɳ', freq:'very-common', note:{en:'the original; pet-form Kanha कान्हा',ja:'原形。愛称カーナ कान्हा'}, people:['Krishna Sobti'] },
     bn:  { form:'কৃষ্ণ', rom:'Krishno', ipa:'ˈkriʃno', freq:'common' },
     ur:  { form:'کرشن', rom:'Krishan', ipa:'ˈkɪrʃən', freq:'moderate', note:{en:'Hindu name; Muslim contexts do not use it',ja:'ヒンドゥー教徒の名。ムスリム社会では使われない'} },
@@ -691,8 +691,8 @@ NAMES.rama = {
     ja:'ラーマはヴィシュヌ神の化身であり、叙事詩『ラーマーヤナ』の主人公。アヨーディヤーの理想の王で、その物語は世界で最も繰り返し語られる物語の一つである。サンスクリットのラーマは「快い・魅力的な」を意味する。とりわけこの叙事詩が名を東南アジア全域へ運んだ——タイのチャクリー朝の歴代王は英語では「ラーマ○世」と呼ばれ（ラーマ1世〜10世。ラーマ6世ワチラーウットが始めた呼び方で、タイ語では在位順の「第○代」で呼ぶ）、アユタヤという都名もラーマの生地アヨーディヤーに由来する。ラーマはカンボジアの『リアムケー』（プレア・リアム）、ジャワ・バリのワヤン、ラオスの『プラ・ラク・プラ・ラム』にも生き続けている。',
   },
   forms:{
-    en:  { form:'Rama', rom:'Rama', ipa:'ˈrɑːmə', freq:'rare', note:{en:'international / diaspora romanization',ja:'国際・ディアスポラのローマ字形'} },
-    gb:  { form:'Rama', rom:'Rama', ipa:'ˈrɑːmə', freq:'rare', note:{en:'Hindu communities',ja:'ヒンドゥー系社会'} },
+    en:  { form:'Rama', rom:'Rama', ipa:'ˈɹɑːmə', freq:'rare', note:{en:'international / diaspora romanization',ja:'国際・ディアスポラのローマ字形'} },
+    gb:  { form:'Rama', rom:'Rama', ipa:'ˈɹɑːmə', freq:'rare', note:{en:'Hindu communities',ja:'ヒンドゥー系社会'} },
     hi:  { form:'राम', rom:'Rām', ipa:'raːm', freq:'very-common', note:{en:'the original; countless compounds (Ramchandra, Ramkumar)',ja:'原形。複合名多数（ラームチャンドラ、ラームクマール）'}, people:['Ram Nath Kovind'] },
     bn:  { form:'রাম', rom:'Ram', ipa:'ram', freq:'common' },
     ur:  { form:'رام', rom:'Ram', ipa:'raːm', freq:'moderate', note:{en:'Hindu name; not used in Muslim contexts',ja:'ヒンドゥー教徒の名。ムスリム社会では使わない'} },

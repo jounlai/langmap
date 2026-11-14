@@ -6,7 +6,7 @@
  * that it is held in the hand (German Handy, Chinese 手机, Korean 핸드폰), that it
  * moves with you (English mobile, Spanish móvil, Japanese 携帯, Vietnamese di
  * động), or the radio cells the network is built from (American cell phone,
- * Latin American celular, Hebrew סלולרי, Russian сотовый 'honeycomb'). The routes:
+ * Latin American celular, Russian сотовый 'honeycomb'). The routes:
  *   hand   the hand
  *   carry  mobile / portable / carried
  *   cell   the network's cells
@@ -44,7 +44,7 @@ WORDS.mobilephone = {
     en: "Mobile phone — the everyday word for a mobile (cell) phone. The whole world acquired the object within twenty years, and the names split on which feature they picked out: the hand that holds it (German Handy, Chinese 手机), the fact that it moves (mobile, móvil, 携帯), or the radio cells of the network (cell phone, celular, Russian сотовый \"honeycomb\").",
     ja: "携帯電話 — 携帯電話（ケータイ）を指す日常語。世界中がほぼ同じ20年のうちにこの道具を手にし、名前はどの特徴をとらえたかで分かれた。手に持つこと（ドイツ語 Handy、中国語 手机）、持ち歩けること（英語 mobile、スペイン語 móvil、日本語 携帯）、そして通信網のセル（米語 cell phone、中南米 celular、ロシア語 сотовый「蜂の巣の」）。",
     ko: "휴대폰 — 휴대전화를 가리키는 일상어. 온 세계가 거의 같은 20년 사이에 이 물건을 손에 넣었고, 이름은 어떤 특징을 잡았느냐로 갈렸다. 손에 쥔다는 것(독일어 Handy, 중국어 手机), 들고 다닌다는 것(영어 mobile, 스페인어 móvil, 일본어 携帯), 통신망의 셀(미국 영어 cell phone, 중남미 celular, 러시아어 сотовый \"벌집의\").",
-    zh: "手机——指移动电话的日常用词。全世界几乎在同样的二十年里拿到了这件东西，名称则按抓住的特征分成三类：握在手里（德语 Handy、汉语 手机）、可以随身移动（英语 mobile、西班牙语 móvil、日语 携帯），或网络的蜂窝小区（美式英语 cell phone、拉美 celular、俄语 сотовый\"蜂窝的\"）。",
+    zh: "手机——指移动电话的日常用词。全世界几乎在同样的二十年里拿到了这件东西，名称则按抓住的特征分成三类：握在手里（德语 Handy、汉语 手机）、可以随身移动（英语 mobile、西班牙语 móvil、日语 携帯），或网络的蜂窝小区（美式英语 cell phone、拉美 celular、俄语 сотовый“蜂窝的”）。",
     yue: "手機——指流動電話嘅日常用詞。全世界差唔多喺同樣嘅二十年入面攞到呢樣嘢，名就按捉住邊個特徵分成三類：揸喺手度（德文 Handy、中文 手機）、可以周圍帶住行（英文 mobile、西班牙文 móvil、日文 携帯），或者網絡嘅蜂窩（美式英文 cell phone、拉美 celular、俄文 сотовый「蜂巢嘅」）。",
     vi: "Điện thoại di động — từ thường ngày chỉ chiếc điện thoại di động. Cả thế giới có được vật này trong cùng khoảng hai mươi năm, và tên gọi chia theo đặc điểm được chọn: cầm trong tay (tiếng Đức Handy, tiếng Trung 手机), mang đi được (mobile, móvil, 携帯, di động), hay các ô sóng của mạng (cell phone, celular, tiếng Nga сотовый \"tổ ong\").",
     th: "โทรศัพท์มือถือ — คำในชีวิตประจำวันสำหรับโทรศัพท์เคลื่อนที่ ทั้งโลกได้ของชิ้นนี้มาในราวยี่สิบปีเดียวกัน และชื่อแยกตามลักษณะที่เลือกจับ คือถือในมือ (เยอรมัน Handy จีน 手机 ไทย มือถือ) พกพาได้ (mobile, móvil, 携帯) หรือเซลล์ของเครือข่าย (cell phone, celular รัสเซีย сотовый \"รังผึ้ง\")",
@@ -497,6 +497,12 @@ WORDS.mobilephone = {
     xkz: "carry",
     pot: "other",
     fit: "carry",
+    ja_osa: "carry",
+    ja_kyo: "carry",
+    ja_hak: "carry",
+    ja_hir: "carry",
+    ko_bus: "carry",
+    ko_jl: "carry",
   },
   routes: {
     hand: {"color":"#ea580c","emoji":"✋","en":"the hand","ja":"手","ko":"손","zh":"手","yue":"手","vi":"bàn tay","th":"มือ","id":"tangan","hi":"हाथ","de":"die Hand","fr":"la main","it":"la mano","es":"la mano","pt":"a mão","ru":"рука","uk":"рука","ar":"اليد","he":"היד","sw":"mkono"},
@@ -521,7 +527,7 @@ WORDS.mobilephone = {
     cdo: ["手机", "tsʰieu˧˧ ki˥˥"],  // Literally 'hand machine'.
     vi: ["điện thoại di động", "ɗiən˧˨ʔ tʰwaːj˧˨ʔ zi˧ ɗəwŋ͡m˧˨ʔ"],  // Literally 'mobile telephone', a calque of Chinese 移動電話; often shortened to di động or just điện thoại.
     th: ["มือถือ", "mɯː˧tʰɯː˩˩˦"],  // Literally 'hand-held', clipped from โทรศัพท์มือถือ 'hand-held telephone'.
-    id: ["ponsel", "ponsɛl"],  // Contraction of telepon seluler 'cellular telephone'; in casual speech people very often say HP (hapé, from English 'hand phone').
+    id: ["ponsel", "ˈponsɛl"],  // Contraction of telepon seluler 'cellular telephone'; in casual speech people very often say HP (hapé, from English 'hand phone').
     ms: ["telefon bimbit", "telefon bimbit"],  // Literally 'dangling-carried telephone': bimbit is to carry something hanging from the fingers.
     hi: ["मोबाइल", "moːbaːɪl"],  // Borrowed from English 'mobile (phone)'.
     bn: ["মোবাইল", "mobai̯l"],  // Borrowed from English 'mobile', a clipping of 'mobile phone'.
@@ -633,7 +639,7 @@ WORDS.mobilephone = {
     lad: ["djep", "dʒep"],  // Literally 'pocket', after Turkish cep (telefonu) 'pocket (phone)'.
     es_cu: ["celular", "seluˈlaɾ"],  // Short for teléfono celular, the Latin American word.
     en: ["mobile", "ˈməʊbaɪl"],  // Short for mobile phone, the British word; Americans say cell phone.
-    en_us: ["cell phone", "ˈsɛl foʊn"],  // Short for cellular phone, after the radio cells of the network; often just cell.
+    en_us: ["cell phone", "sɛl foʊn"],  // Short for cellular phone, after the radio cells of the network; often just cell.
     es_cr: ["celular", "seluˈlaɾ"],  // Short for teléfono celular 'cellular telephone', the Latin American word (Spain says móvil).
     es_hn: ["celular", "seluˈlaɾ"],  // Short for teléfono celular 'cellular telephone', the Latin American word (Spain says móvil).
     es_ni: ["celular", "seluˈlaɾ"],  // Short for teléfono celular 'cellular telephone', the Latin American word (Spain says móvil).
@@ -937,5 +943,11 @@ WORDS.mobilephone = {
     xkz: ["mobail", "mobail"],  // Borrowed from English mobile.
     pot: ["biwapkos", "biwapkos"],  // A little metal: biwapêk 'piece of metal, iron' with the diminutive -os; it also means 'telephone' and 'wire'.
     fit: ["mupiili", "ˈmupiːli"],  // Borrowed from Swedish mobil(telefon).
+    ja_osa: ["携帯", "keːtai"],  // The standard Japanese word, used in Osaka as everywhere in Japan.
+    ja_kyo: ["携帯", "keːtai"],  // The standard Japanese word, used in Kyoto as everywhere in Japan.
+    ja_hak: ["携帯", "keːtai"],  // The standard Japanese word, used in Hakata as everywhere in Japan.
+    ja_hir: ["携帯", "keːtai"],  // The standard Japanese word, used in Hiroshima as everywhere in Japan.
+    ko_bus: ["휴대폰", "hjudɛpʰon"],  // The standard Korean word, used here as everywhere in South Korea.
+    ko_jl: ["휴대폰", "hjudɛpʰon"],  // The standard Korean word, used here as everywhere in South Korea.
   },
 };

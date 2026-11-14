@@ -52,9 +52,9 @@ WORDS.friday = {
     en: "Friday — the day before Saturday. Rome named it after Venus (vendredi, viernes), and Indian astrology after the same planet (शुक्रवार), which reached Japanese 金曜日. The Germanic peoples put their goddess Frigg in her place: Friday, Freitag, fredag. Islam made it the day of the gathering for prayer, Arabic الجمعة, Turkish cuma, Indonesian Jumat. Greek Παρασκευή is the preparation for the Sabbath, Irish Aoine the fast, and Russian пятница simply \"the fifth\".",
     ja: "金曜日 — 土曜日の前の日。ローマはウェヌス（金星）にちなんで名づけ（vendredi, viernes）、インドの占星術も同じ星にちなみ（शुक्रवार）、それが日本語の 金曜日 に届いた。ゲルマン人は女神フリッグをその位置に置いた（Friday, Freitag, fredag）。イスラームはこの日を礼拝に集まる日とし、アラビア語 الجمعة、トルコ語 cuma、インドネシア語 Jumat となった。ギリシャ語 Παρασκευή は安息日の「準備」、アイルランド語 Aoine は「断食」、ロシア語 пятница は単に「5番目」。",
     ko: "금요일 — 토요일 앞날. 로마는 베누스(금성)에서 이름을 땄고(vendredi, viernes), 인도 점성술도 같은 별에서 따서(शुक्रवार) 그것이 일본어 金曜日에 이르렀다. 게르만인은 그 자리에 여신 프리그를 넣었다(Friday, Freitag, fredag). 이슬람은 이날을 예배를 위해 모이는 날로 삼아 아랍어 الجمعة, 튀르키예어 cuma, 인도네시아어 Jumat가 되었다. 그리스어 Παρασκευή는 안식일 \"준비\", 아일랜드어 Aoine는 \"단식\", 러시아어 пятница는 그저 \"다섯째\"다.",
-    zh: "星期五——星期六的前一天。罗马人以维纳斯（金星）命名（vendredi、viernes），印度占星术也以同一颗星命名（शुक्रवार），并传到日语\"金曜日\"。日耳曼人换成了自己的女神弗丽嘉：Friday、Freitag、fredag。伊斯兰教把这一天定为聚礼日，阿拉伯语 الجمعة、土耳其语 cuma、印尼语 Jumat 都由此而来。希腊语 Παρασκευή 是安息日前的\"预备\"，爱尔兰语 Aoine 是\"斋戒\"，俄语 пятница 只是\"第五\"。",
+    zh: "星期五——星期六的前一天。罗马人以维纳斯（金星）命名（vendredi、viernes），印度占星术也以同一颗星命名（शुक्रवार），并传到日语“金曜日”。日耳曼人换成了自己的女神弗丽嘉：Friday、Freitag、fredag。伊斯兰教把这一天定为聚礼日，阿拉伯语 الجمعة、土耳其语 cuma、印尼语 Jumat 都由此而来。希腊语 Παρασκευή 是安息日前的“预备”，爱尔兰语 Aoine 是“斋戒”，俄语 пятница 只是“第五”。",
     yue: "星期五——星期六嘅前一日。羅馬人用維納斯（金星）命名（vendredi、viernes），印度占星術都用同一粒星命名（शुक्रवार），仲傳到日文「金曜日」。日耳曼人換咗自己嘅女神弗麗嘉：Friday、Freitag、fredag。伊斯蘭教將呢日定為聚禮日，阿拉伯文 الجمعة、土耳其文 cuma、印尼文 Jumat 都係咁嚟。希臘文 Παρασκευή 係安息日前嘅「預備」，愛爾蘭文 Aoine 係「齋戒」，俄文 пятница 就淨係「第五」。",
-    vi: "Thứ sáu — ngày trước thứ bảy. La Mã đặt tên theo thần Vệ Nữ, tức sao Kim (vendredi, viernes), chiêm tinh Ấn Độ cũng theo hành tinh ấy (शुक्रवार), rồi đến tiếng Nhật 金曜日. Người German thay bằng nữ thần Frigg của họ: Friday, Freitag, fredag. Hồi giáo lấy ngày này làm ngày tụ họp cầu nguyện, tiếng Ả Rập الجمعة, Thổ Nhĩ Kỳ cuma, Indonesia Jumat. Tiếng Hy Lạp Παρασκευή là \"chuẩn bị\" cho ngày Sa-bát, tiếng Ireland Aoine là \"nhịn ăn\", còn tiếng Nga пятница chỉ là \"thứ năm\".",
+    vi: "Thứ sáu — ngày trước thứ bảy. La Mã đặt tên theo thần Vệ Nữ, tức sao Kim (vendredi, viernes), chiêm tinh Ấn Độ cũng theo hành tinh ấy (शुक्रवार), rồi đến tiếng Nhật 金曜日. Người German thay bằng nữ thần Frigg của họ: Friday, Freitag, fredag. Hồi giáo lấy ngày này làm ngày tụ họp cầu nguyện, tiếng Ả Rập الجمعة, Thổ Nhĩ Kỳ cuma, Indonesia Jumat. Tiếng Hy Lạp Παρασκευή là \"chuẩn bị\" cho ngày Sa-bát, tiếng Ireland Aoine là \"nhịn ăn\", còn tiếng Nga пятница chỉ là \"ngày thứ năm\" tính từ thứ Hai.",
     th: "วันศุกร์ — วันก่อนวันเสาร์ โรมตั้งชื่อตามวีนัสหรือดาวศุกร์ (vendredi, viernes) โหราศาสตร์อินเดียก็ตั้งตามดาวดวงเดียวกัน (शुक्रवार) ซึ่งไปถึงไทย ศุกร์ และญี่ปุ่น 金曜日 ชาวเจอร์แมนิกใส่เทพีฟริกก์ของตนแทน: Friday, Freitag, fredag อิสลามให้เป็นวันชุมนุมละหมาด อาหรับ الجمعة ตุรกี cuma อินโดนีเซีย Jumat กรีก Παρασκευή คือ \"การเตรียม\" ก่อนวันสะบาโต ไอริช Aoine คือ \"การถือศีลอด\" ส่วนรัสเซีย пятница แปลแค่ว่า \"ที่ห้า\"",
     id: "Jumat — hari sebelum Sabtu. Roma menamainya menurut Venus (vendredi, viernes), dan astrologi India menurut planet yang sama (शुक्रवार), yang sampai ke Jepang 金曜日. Bangsa Jermanik menggantinya dengan dewi mereka, Frigg: Friday, Freitag, fredag. Islam menjadikannya hari berkumpul untuk salat, Arab الجمعة, Turki cuma, Indonesia Jumat. Yunani Παρασκευή adalah \"persiapan\" Sabat, Irlandia Aoine \"puasa\", dan Rusia пятница hanya \"yang kelima\".",
     hi: "शुक्रवार — शनिवार से पहले का दिन। रोम ने इसे वीनस (शुक्र ग्रह) के नाम पर रखा (vendredi, viernes), और भारतीय ज्योतिष ने उसी ग्रह के नाम पर (शुक्रवार), जो जापानी 金曜日 तक पहुँचा। जर्मैनिक लोगों ने उसकी जगह अपनी देवी फ़्रिग को रखा: Friday, Freitag, fredag। इस्लाम ने इसे नमाज़ के लिए जमा होने का दिन बनाया: अरबी الجمعة, तुर्की cuma, इंडोनेशियाई Jumat। यूनानी Παρασκευή सब्त की \"तैयारी\" है, आयरिश Aoine \"उपवास\", और रूसी пятница बस \"पाँचवाँ\"।",
@@ -364,7 +364,7 @@ WORDS.friday = {
     si: "venus",
     fy: "goddess",
     ckb: "plain",
-    am: "plain",
+    am: "preparation",
     jv: "assembly",
     su: "assembly",
     tk: "plain",
@@ -380,7 +380,7 @@ WORDS.friday = {
     vep: "count",
     li: "goddess",
     qu: "venus",
-    ti: "plain",
+    ti: "preparation",
     sn: "count",
     zza: "plain",
     fj: "plain",
@@ -489,6 +489,16 @@ WORDS.friday = {
     zh_tj: "count",
     zh_wh: "count",
     zh_xa: "count",
+    de_at: "goddess",
+    de_ch: "goddess",
+    nl_be: "goddess",
+    en_nz: "goddess",
+    pt_cv: "count",
+    pt_mo: "count",
+    vi_c: "count",
+    vi_s: "count",
+    ja_kg: "venus",
+    ja_sd: "venus",
   },
   routes: {
     goddess: {"color":"#db2777","emoji":"👸","en":"the day of Frigg (Friday, Freitag, fredag)","ja":"女神フリッグの日（Friday, Freitag, fredag）","ko":"여신 프리그의 날 (Friday, Freitag, fredag)","zh":"女神弗丽嘉之日（Friday、Freitag、fredag）","yue":"女神弗麗嘉嘅日（Friday、Freitag、fredag）","vi":"ngày của nữ thần Frigg (Friday, Freitag, fredag)","th":"วันของเทพีฟริกก์ (Friday, Freitag, fredag)","id":"hari Dewi Frigg (Friday, Freitag, fredag)","hi":"देवी फ़्रिग का दिन (Friday, Freitag, fredag)","de":"Tag der Frigg (Friday, Freitag, fredag)","fr":"jour de Frigg (Friday, Freitag, fredag)","it":"giorno di Frigg (Friday, Freitag, fredag)","es":"día de Frigg (Friday, Freitag, fredag)","pt":"dia de Frigg (Friday, Freitag, fredag)","ru":"день Фригг (Friday, Freitag, fredag)","uk":"день Фріґґ (Friday, Freitag, fredag)","ar":"يوم فريغ (Friday, Freitag, fredag)","he":"יומה של פריג (Friday, Freitag, fredag)","sw":"siku ya Frigg (Friday, Freitag, fredag)"},
@@ -508,16 +518,16 @@ WORDS.friday = {
     ja: ["金曜日", "kiɴjoːbi"],  // 金曜 'Venus (the planet)' + 日 'day'.
     ko: ["금요일", "kɯmjoil"],  // Sino-Korean 金曜日, 'Venus' + 'day'.
     vi: ["thứ sáu", "tʰɨ˧˥ saːw˧˥"],  // thứ + sáu 'six'.
-    th: ["ศุกร์", "suk˨˩"],  // Borrowed from Sanskrit śukra; also 'Venus'.
+    th: ["วันศุกร์", "wan˧suk˨˩"],  // วัน 'day' + ศุกร์, borrowed from Sanskrit śukra 'the planet Venus'.
     id: ["Jumat", "ˈdʒumʔat"],  // From Arabic al-jumʿa.
     ms: ["Jumaat", "dʒumaʔat"],  // From Arabic al-jumʿa.
     hi: ["शुक्रवार", "ʃʊkɾəʋɑːɾ"],  // Sanskrit śukra, the planet Venus, + vāra 'day'.
     sa: ["शुक्रवार", "ɕukɾɐʋaːɾɐ"],
     bn: ["শুক্রবার", "ʃukɾobaɾ"],
-    ur: ["جمعہ", "dʒʊmʔɑː"],  // From Arabic jumʿa via Persian.
+    ur: ["جمعہ", "dʒʊmʔaː"],  // From Arabic jumʿa via Persian.
     ta: ["வெள்ளிக்கிழமை", "ʋeɭːikːiɻamai"],  // வெள்ளி 'Venus' + கிழமை 'day'.
-    en: ["Friday", "ˈfraɪdeɪ"],  // From Old English frīġedæġ, 'day of Frigg'.
-    de: ["Freitag", "ˈfʁaɪ̯tax"],  // From Old High German frīatag, 'day of Frigg', a calque of Latin diēs Veneris.
+    en: ["Friday", "ˈfɹaɪdeɪ"],  // From Old English frīġedæġ, 'day of Frigg'.
+    de: ["Freitag", "ˈfʁaɪ̯taːk"],  // From Old High German frīatag, 'day of Frigg', a calque of Latin diēs Veneris.
     fr: ["vendredi", "vɑ̃dʁədi"],  // From Latin Veneris diēs, 'day of Venus'.
     it: ["venerdì", "venerˈdi"],  // From Latin Veneris diēs, 'day of Venus'.
     es: ["viernes", "ˈbjeɾnes"],  // From Latin Veneris diēs, 'day of Venus'.
@@ -540,7 +550,7 @@ WORDS.friday = {
     ykg: ["пиатниса", "piatnisa"],
     niv: ["пятница", "pjætnitsæ"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     my: ["သောကြာ", "θaʊʔtɕà"],
-    lo: ["ວັນສຸກ", "ʋan˧˥ suk˧˥"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    lo: ["ວັນສຸກ", "ʋan˧˥ suk˧˥"],  // ວັນ 'day' + ສຸກ, cognate with Thai วันศุกร์ (Wiktionary); ສຸກ is from Sanskrit śukra 'Venus'.
     yo: ["ọjọ Ẹti", "ɔdʒɔ́ ɛtì"],  // ọjọ́ 'day' + ẹtì 'impossibility, difficulty'.
     zu: ["uLwesihlanu", "ulwesiɬaːnu"],
     fi: ["perjantai", "ˈperjɑntɑi̯"],  // Borrowed from Old Swedish frēadagher, 'day of Frigg'.
@@ -557,7 +567,7 @@ WORDS.friday = {
     ga: ["Aoine", "ˈiːnʲə"],  // From aoine 'fasting'.
     eu: ["ostiral", "os̺tiɾal"],
     cy: ["dydd Gwener", "ˌdɨːð ˈɡwɛnɛr"],  // dydd 'day' + Gwener 'Venus', a calque of Latin diēs Veneris.
-    ka: ["პარასკევი", "pʼäɾäskʼe̞vi"],  // From Ancient Greek Παρασκευή 'preparation'.
+    ka: ["პარასკევი", "pʼaraskʼevi"],  // From Ancient Greek Παρασκευή 'preparation'.
     hy: ["ուրբաթ", "uɾˈpʰɑtʰ"],
     nv: ["Ndaʼiiníísh", "ǹtɑ̀ʔìːníːʃ"],  // From ndaʼiiníísh 'they are done working'.
     haw: ["Pōʻalima", "poːʔalima"],
@@ -596,21 +606,21 @@ WORDS.friday = {
     oc: ["divendres", "diˈβendres"],
     be: ["пятніца", "ˈpʲatnʲitsa"],
     cs: ["pátek", "ˈpaːtɛk"],
-    sk: ["piatok", "pɪ̯atɔk"],
-    sl: ["petek", "peːtək"],
+    sk: ["piatok", "ˈpɪ̯atɔk"],
+    sl: ["petek", "ˈpeːtək"],
     bg: ["петък", "ˈpɛtɐk"],
-    lv: ["piektdiena", "piɛkddiɛna"],
+    lv: ["piektdiena", "ˈpiɛɡdiɛna"],
     sq: ["e premte", "ɛˈprɛmtɛ"],  // From the name of Prenda, a goddess; probably a calque of Latin diēs Veneris.
     et: ["reede", "ˈreːde"],  // From Old Swedish frē(a)dagher, 'day of Frigg'.
     ht: ["vandredi", "vãdɣedi"],
     pap: ["djabièrnè", "djabierne"],
     tpi: ["Fraide", "fraide"],  // From English Friday.
     se: ["bearjadat", "ˈpea̯rːjaðaht"],
-    sma: ["bearjadahke", "peærjadahkɛ"],
-    smn: ["perjâdâh", "perjɐdɐh"],
+    sma: ["bearjadahke", "ˈpeærjadahkɛ"],
+    smn: ["perjâdâh", "ˈperjɐdɐh"],
     as: ["শুকুৰবাৰ", "xukuɹbɑɹ"],
     or: ["ଶୁକ୍ରବାର", "sukɾɔbaɾɔ"],
-    nn: ["fredag", "freːdaɡ"],
+    nn: ["fredag", "ˈfreːdaɡ"],
     fo: ["fríggjadagur", "ˈfɹʊtʃːaˌtɛaːvʊɹ"],
     sc: ["chenabura", "keˈnabura"],
     la: ["diēs Veneris", "ˈdiːeːs ˈweneris"],
@@ -619,7 +629,7 @@ WORDS.friday = {
     got: ["𐍀𐌰𐍂𐌰𐍃𐌺𐌰𐌹𐍅𐌴", "paraskɛweː"],
     aii: ["ܥܪܘܒܬܐ", "ʔruvːta"],
     eo: ["vendredo", "venˈdredo"],
-    vo: ["fridel", "fridel"],
+    vo: ["fridel", "friˈdel"],
     ia: ["venerdi", "venerˈdi"],
     hil: ["Biyernes", "biˈeɾnes"],
     cbk: ["Viernes", "ˈbjeɾnes"],
@@ -651,7 +661,7 @@ WORDS.friday = {
     mhr: ["кугарня", "kuɡarˈɲa"],  // кугу 'big' + арня 'week'.
     mrj: ["когарня", "koɣɑrnja"],
     myv: ["пеця", "petsʲa"],
-    olo: ["piätteniččy", "piætːenitʃːy"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    olo: ["piätteniččy", "ˈpiætːenitʃːy"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     vot: ["viijjezpäive", "ˈviːjːezˌpæivæ"],
     liv: ["brēḑig", "ˈbreːɟiɡ"],
     crh: ["cuma", "dʒuma"],
@@ -677,13 +687,13 @@ WORDS.friday = {
     pam: ["Biernis", "ˈbjeɾnis"],
     pag: ["Biernes", "ˈbjeɾnes"],
     mdh: ["Jamat", "dʒaˈmat"],
-    mak: ["Jumàʼ", "juˈmaʔ"],
+    mak: ["Jumàʼ", "dʒuˈmaʔ"],
     mnw: ["သိုက်", "sak"],
     stq: ["Fräindai", "ˈfrɛɪ̯ndaːi̯"],
     bbl: ["პარასკ", "pʼaraskʼ"],
     pot: ["nyanogizhêk", "nʲanokiʃʊk"],
     io: ["venerdio", "veˈnerdio"],
-    fkv: ["perjantai", "perjɑntɑi"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
+    fkv: ["perjantai", "ˈperjɑntɑi"],  // Route by resemblance to the neighbouring forms; no etymology of its own.
     pt_br: ["sexta-feira", "sestɐˈfejɾɐ"],
     zh: ["星期五", "ɕiŋ˥ tɕʰi˥ u˨˩˦"],  // 星期 'week' + 五 'five'.
     zh_tw: ["星期五", "ɕiŋ˥ tɕʰi˧˥ u˨˩˦"],  // 星期 'week' + 五 'five'.
@@ -694,24 +704,24 @@ WORDS.friday = {
     es_sv: ["viernes", "ˈbjeɾnes"],
     fr_lu: ["vendredi", "vɑ̃dʁədi"],
     fr_cm: ["vendredi", "vɑ̃dʁədi"],
-    de_lu: ["Freitag", "ˈfʁaɪ̯tax"],
-    en_ng2: ["Friday", "ˈfɹaɪdɪ"],
+    de_lu: ["Freitag", "ˈfʁaɪ̯taːk"],
+    en_ng2: ["Friday", "ˈfɹaɪdeɪ"],
     es_bo: ["viernes", "ˈbjeɾnes"],
     es_py: ["viernes", "ˈbjeɾnes"],
-    es_pa: ["viernes", "ˈbjeɾnes"],
-    en_my: ["Friday", "ˈfɹaɪdɪ"],
-    en_wls: ["Friday", "ˈfɾaɪdɪ"],
-    en_jam: ["Friday", "ˈfɹaɪdɪ"],
-    en_ng: ["Friday", "ˈfɹaɪdɪ"],
-    en_ph: ["Friday", "ˈfɹaɪdɪ"],
-    en_ke: ["Friday", "ˈfɹaɪdɪ"],
+    es_pa: ["viernes", "ˈbjeɾneh"],
+    en_my: ["Friday", "ˈfɹaɪdeɪ"],
+    en_wls: ["Friday", "ˈfɾaɪdeɪ"],
+    en_jam: ["Friday", "ˈfɹaɪdeː"],
+    en_ng: ["Friday", "ˈfɹaɪdeː"],
+    en_ph: ["Friday", "ˈfɹaɪdeɪ"],
+    en_ke: ["Friday", "ˈfɹaɪdeː"],
     fr_sn: ["vendredi", "vɑ̃dʁədi"],
     fr_ci: ["vendredi", "vɑ̃dʁədi"],
     fr_ht: ["vendredi", "vɑ̃dʁədi"],
     pt_mz: ["sexta-feira", "sɐjʃtɐˈfɐjɾɐ"],
-    en_us: ["Friday", "ˈfɹaɪdɪ"],
-    en_ca: ["Friday", "ˈfɹaɪdɪ"],
-    en_za: ["Friday", "ˈfɹɑɪdɪ"],
+    en_us: ["Friday", "ˈfɹaɪdeɪ"],
+    en_ca: ["Friday", "ˈfɹaɪdeɪ"],
+    en_za: ["Friday", "ˈfɹɑɪdeː"],
     pt_ao: ["sexta-feira", "sɐjʃtɐˈfɐjɾɐ"],
     ja_osa: ["金曜日", "kiɴjoːbi"],
     ja_aom: ["金曜日", "kiɴjoːbi"],
@@ -722,40 +732,40 @@ WORDS.friday = {
     ko_bus: ["금요일", "kɯmjoil"],
     ko_yb: ["금요일", "kɯmjoil"],
     es_mx: ["viernes", "ˈbjeɾnes"],
-    en_aave: ["Friday", "ˈfɹaɪdɪ"],
-    en_au: ["Friday", "ˈfɹɑɪdɪ"],
-    en_south: ["Friday", "ˈfɹaɪdɪ"],
-    en_app: ["Friday", "ˈfɹaɪdɪ"],
-    en_in: ["Friday", "ˈfraɪɖɪ"],
-    en_ie: ["Friday", "ˈfɹaɪdɪ"],
-    en_sco: ["Friday", "ˈfɹaɪdɪ"],
-    en_yk: ["Friday", "ˈfɹaɪdɪ"],
-    en_ck: ["Friday", "ˈfɹaɪdɪ"],
-    en_scouse: ["Friday", "ˈfɹaɪdɪ"],
-    en_brum: ["Friday", "ˈfɹɔɪdɪ"],
-    en_manc: ["Friday", "ˈfɹaɪdɪ"],
-    en_wc: ["Friday", "ˈfɹaɪdɪ"],
-    en_est: ["Friday", "ˈfɹɑɪdɪ"],
-    en_sg: ["Friday", "ˈfɹaɪdɪ"],
+    en_aave: ["Friday", "ˈfɹaɪdeɪ"],
+    en_au: ["Friday", "ˈfɹɑɪdæɪ"],
+    en_south: ["Friday", "ˈfɹaɪdæɪ"],
+    en_app: ["Friday", "ˈfɹaɪdeɪ"],
+    en_in: ["Friday", "ˈfraɪɖeː"],
+    en_ie: ["Friday", "ˈfɹaɪdeː"],
+    en_sco: ["Friday", "ˈfɹaɪde"],
+    en_yk: ["Friday", "ˈfɹaɪdeː"],
+    en_ck: ["Friday", "ˈfɹaɪdæɪ"],
+    en_scouse: ["Friday", "ˈfɹaɪdeɪ"],
+    en_brum: ["Friday", "ˈfɹɔɪdʌɪ"],
+    en_manc: ["Friday", "ˈfɹaɪdeɪ"],
+    en_wc: ["Friday", "ˈfɹaɪdeɪ"],
+    en_est: ["Friday", "ˈfɹɑɪdɛɪ"],
+    en_sg: ["Friday", "ˈfɹaɪdeː"],
     fr_qc: ["vendredi", "vɑ̃dʁədi"],
     fr_af: ["vendredi", "vɑ̃dʁədi"],
     fr_be: ["vendredi", "vɑ̃dʁədi"],
     fr_ch: ["vendredi", "vɑ̃dʁədi"],
     es_co: ["viernes", "ˈbjeɾnes"],
-    es_cl: ["viernes", "ˈbjeɾnes"],
+    es_cl: ["viernes", "ˈbjeɾneh"],
     es_ar: ["viernes", "ˈbjeɾnes"],
-    es_cu: ["viernes", "ˈbjeɾnes"],
+    es_cu: ["viernes", "ˈbjeɾneh"],
     es_pe: ["viernes", "ˈbjeɾnes"],
-    es_an: ["viernes", "ˈbjeɾnes"],
+    es_an: ["viernes", "ˈbjeɾneh"],
     ko_hg: ["금요일", "kɯmjoil"],
     ko_jl: ["금요일", "kɯmjoil"],
     lij_t: ["venerdì", "venerˈdi"],
-    es_pr: ["viernes", "ˈbjeɾnes"],
-    es_do: ["viernes", "ˈbjeɾnes"],
+    es_pr: ["viernes", "ˈbjeɾneh"],
+    es_do: ["viernes", "ˈbjeɾne"],
     es_gt: ["viernes", "ˈbjeɾnes"],
     es_ec: ["viernes", "ˈbjeɾnes"],
     es_uy: ["viernes", "ˈbjeɾnes"],
-    es_ve: ["viernes", "ˈbjeɾnes"],
+    es_ve: ["viernes", "ˈbjeɾneh"],
     ar_qur: ["الجمعة", "aldʒumuʕa"],  // The gathering; Quran 62:9.
     el_grc: ["Παρασκευή", "paraskeu̯ɛ̌ː"],  // The day of preparation for the Sabbath (Mark 15:42).
     ofs: ["friadei", "ˈfriːadei"],  // From West Germanic *Frījā dag, Frigg's day.
@@ -792,7 +802,7 @@ WORDS.friday = {
     si: ["සිකුරාදා", "sikuraːdaː"],
     fy: ["freed", "freːt"],
     ckb: ["ھەینی", "hajniː"],
-    am: ["ዓርብ", "arb"],
+    am: ["ዓርብ", "arb"],  // From Ge'ez ዐርብ ʿarb 'eve of the Sabbath', the gez row's word.
     jv: ["Jumuwah", "dʒumuwah"],
     su: ["Jumaah", "dʒumaʔah"],
     tk: ["anna", "anˈna"],
@@ -808,7 +818,7 @@ WORDS.friday = {
     vep: ["videnzʹpäiv", "ˈvidenzʲpæiv"],  // 'Fifth day'.
     li: ["vriedig", "ˈvriːdəx"],
     qu: ["chʼaskachaw", "tʃʼasˈkatʃaw"],  // ch'aska 'Venus' + p'unchaw 'day'.
-    ti: ["ዓርቢ", "ʕarbi"],
+    ti: ["ዓርቢ", "ʕarbi"],  // From Ge'ez ዐርብ ʿarb 'eve of the Sabbath', the gez row's word.
     sn: ["Chishanu", "tʃiʃanu"],  // 'Fifth'.
     zza: ["ine", "inɛ"],
     fj: ["Siga Vakaraubuka", "siŋa βakaraumbuka"],
@@ -917,5 +927,15 @@ WORDS.friday = {
     zh_tj: ["星期五", "ɕiŋ˨˩ tɕʰi˨˩ u˩˧"],  // 星期 'week' + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
     zh_wh: ["星期五", "ɕin˥˥ tɕʰi˥˥ u˦˨"],  // 星期 'week' + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
     zh_xa: ["星期五", "ɕiŋ˨˩ tɕʰi˨˩ u˥˧"],  // 星期 'week' + 五 'five', as in the row's Monday cell. Reading from the row's own cells for the week word and the numeral.
+    de_at: ["Freitag", "ˈfraɪ̯taːk"],  // The same word as standard German, 'day of Frigg'.
+    de_ch: ["Freitag", "ˈfraɪ̯taːk"],  // The same word as standard German, 'day of Frigg'.
+    nl_be: ["vrijdag", "ˈvrɛidɑx"],  // The same word as Dutch vrijdag, 'day of Frigg'.
+    en_nz: ["Friday", "ˈfɹɑɪdæe"],  // Same word as standard English; IPA from the row's own cells.
+    pt_cv: ["sexta-feira", "sɐjʃtɐˈfɐjɾɐ"],  // sexta-feira, 'sixth weekday', as in Portugal.
+    pt_mo: ["sexta-feira", "sɐjʃtɐˈfɐjɾɐ"],  // sexta-feira, 'sixth weekday', as in Portugal.
+    vi_c: ["thứ sáu", "tʰɨ˨˦ ʂaːw˨˦"],  // thứ + sáu 'six', with the Huế sắc tone.
+    vi_s: ["thứ sáu", "tʰɨ˧˥ ʂaːw˧˥"],  // thứ + sáu 'six', as in standard Vietnamese.
+    ja_kg: ["金曜日", "kiɴjoːbi"],  // The standard Japanese word, used in Kagoshima as everywhere in Japan.
+    ja_sd: ["金曜日", "kiɴjoːbi"],  // The standard Japanese word, used in Sendai as everywhere in Japan.
   },
 };

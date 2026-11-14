@@ -3,7 +3,7 @@
  * 
  * Japanese 雷 kaminari is kami 'god' + nari 'sounding'; Finnish ukkonen is named
  * after Ukko, the sky god; Latvian pērkons is the god Pērkons himself.
- * Many languages simply have an old word of its own (thunder, Donner, гром) or
+ * Many languages simply have an old word of their own (thunder, Donner, гром) or
  * describe it as the sky's noise. The routes:
  *   god        a thunder god or divine being
  *   sky        the sky's or the clouds' noise
@@ -42,7 +42,7 @@ WORDS.thunder = {
     en: "Thunder — the sound that follows lightning. In several languages it is a god: Japanese 雷 kaminari is \"the god's sounding\", Finnish ukkonen is named after the sky god Ukko, Latvian pērkons is the god Pērkons himself. Others call it the sky's noise, imitate it, or keep an old word of their own (thunder, Donner, гром).",
     ja: "雷 — 稲妻のあとに来る音。神そのものという言語がいくつもある。日本語の かみなり は「神が鳴る」、フィンランド語 ukkonen は天空神ウッコの名、ラトビア語 pērkons は雷神ペールコンスそのもの。空の音と呼ぶ言語、音をまねる言語、古い固有の語（thunder・Donner・гром）を保つ言語もある。",
     ko: "천둥 — 번개 뒤에 오는 소리. 신 그 자체인 언어가 여럿 있다. 일본어 かみなり는 \"신이 울림\", 핀란드어 ukkonen은 하늘신 우코의 이름, 라트비아어 pērkons는 천둥신 페르콘스 그 자체다. 하늘의 소리라 부르거나 소리를 흉내 내는 언어도 있고, 오래된 고유어(thunder·Donner·гром)를 지키는 언어도 있다.",
-    zh: "雷——闪电之后的声响。有好几种语言把它视为神：日语 かみなり 是\"神在鸣响\"，芬兰语 ukkonen 源自天神乌科，拉脱维亚语 pērkons 就是雷神佩尔孔斯本身。也有语言称之为天空的声音、模仿其声，或保留古老的固有词（thunder、Donner、гром）。",
+    zh: "雷——闪电之后的声响。有好几种语言把它视为神：日语 かみなり 是“神在鸣响”，芬兰语 ukkonen 源自天神乌科，拉脱维亚语 pērkons 就是雷神佩尔孔斯本身。也有语言称之为天空的声音、模仿其声，或保留古老的固有词（thunder、Donner、гром）。",
     yue: "行雷——閃電之後嘅聲響。有幾種語言當佢係神：日文 かみなり 係「神喺度響」，芬蘭文 ukkonen 嚟自天神烏科，拉脫維亞文 pērkons 就係雷神佩爾孔斯本身。亦有語言叫佢做天空嘅聲、模仿佢嘅聲，或者保留古老嘅固有詞（thunder、Donner、гром）。",
     vi: "Sấm — âm thanh theo sau tia chớp. Trong vài ngôn ngữ nó là một vị thần: tiếng Nhật かみなり là \"thần vang lên\", tiếng Phần Lan ukkonen mang tên thần bầu trời Ukko, tiếng Latvia pērkons chính là thần sấm Pērkons. Có ngôn ngữ gọi nó là tiếng của bầu trời, có ngôn ngữ mô phỏng âm thanh, có ngôn ngữ giữ một từ cổ riêng (thunder, Donner, гром).",
     th: "ฟ้าร้อง — เสียงที่ตามหลังฟ้าแลบ ในหลายภาษามันคือเทพ ญี่ปุ่น かみなり คือ \"เทพส่งเสียง\" ฟินแลนด์ ukkonen มาจากชื่อเทพแห่งฟ้า Ukko ลัตเวีย pērkons คือเทพสายฟ้า Pērkons เอง บางภาษาเรียกว่าเสียงของท้องฟ้า (อย่างไทย ฟ้าร้อง) เลียนเสียง หรือมีคำเก่าเฉพาะตัว (thunder, Donner, гром)",
@@ -915,7 +915,7 @@ WORDS.thunder = {
     ivv: ["adey", "adɨj"],  // Itbayat uses a different word, raagurug. No image is recorded for it, so it counts as a word of its own.
     hni: ["aoqjiq", "ɔ˧˩dʑi˧˩"],  // Starts with the same aoq- as this row's rain, aoqsseil.
     haw: ["hekili", "hekili"],  // Recorded as hekili in every Hawaiian wordlist. No image is recorded for it, so it counts as a word of its own.
-    mi: ["whatitiri", "fatitiɾi"],  // Also said whaitiri; inherited from the Polynesian thunder word seen in Walworth's lists.
+    mi: ["whatitiri", "ɸatitiɾi"],  // Also said whaitiri; inherited from the Polynesian thunder word seen in Walworth's lists.
     mg: ["kotroka", "ˈkuʈʂuka"],  // Inherited from Proto-Malagasy *kuDuk, matching Tagalog kulog.
     nv: ["iiʼniʼ", "ìːʔnìʔ"],  // One word for thunder and lightning, from a verb 'it strikes it'.
     kmc: ["pja323", "pja˧˨˧"],  // IDS writes it pjʰa323; it is the Kam-Tai thunder word of Zhuang byaj (Proto-Tai *praːC 'thunder'), and differs from this row's stone, pja55, only by tone. Route by resemblance to the neighbouring forms (za(byajraez)); no etymology of its own.

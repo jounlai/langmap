@@ -496,6 +496,17 @@ WORDS.wife = {
     prs: "woman",
     lij_t: "own",
     sr: "woman",
+    pt_br: "own",
+    pt_ao: "own",
+    pt_mz: "own",
+    pt_mo: "own",
+    pt_cv: "own",
+    zh_tw: "own",
+    de_at: "woman",
+    de_ch: "woman",
+    nl_be: "woman",
+    en_nz: "own",
+    en_geordie: "own",
   },
   routes: {
     woman: {"color":"#db2777","emoji":"👩","en":"the same word as woman","ja":"「女」と同じ語","ko":"‘여자’와 같은 말","zh":"与“女人”同词","yue":"同「女人」同一個詞","vi":"cùng một từ với “đàn bà”","th":"คำเดียวกับ “ผู้หญิง”","id":"sama dengan kata “perempuan”","hi":"‘औरत’ वाला ही शब्द","de":"dasselbe Wort wie Frau","fr":"le même mot que femme","it":"la stessa parola di donna","es":"la misma palabra que mujer","pt":"a mesma palavra que mulher","ru":"то же слово, что «женщина»","uk":"те саме слово, що «жінка»","ar":"الكلمة نفسها لـ«امرأة»","he":"אותה מילה כמו ״אישה״","sw":"neno sawa na mwanamke"},
@@ -514,7 +525,7 @@ WORDS.wife = {
     am: ["ሚስት", "mist"],
     ar: ["زوجة", "zawdʒa"],
     hy: ["կին", "kin"],
-    ast: ["esposa", "esposa"],
+    ast: ["esposa", "esˈposa"],
     av: ["лъади", "ɬːadi"],
     az: ["arvad", "ɑɾˈvɑd"],
     ba: ["ҡатын", "qɑˈtɯ̞n"],
@@ -558,10 +569,10 @@ WORDS.wife = {
     kca: ["ими", "ˈimi"],
     hi: ["बीवी", "biːʋiː"],
     ps: ["مېرمن", "merˈmən"],
-    ku: ["kulfet", "kʊlfɛt"],
+    ku: ["kulfet", "kʊlˈfɛt"],
     os: ["ус", "us"],
     hyw: ["կին", "kin"],
-    el: ["σύζυγος", "siziɣos"],
+    el: ["σύζυγος", "ˈsiziɣos"],
     aln: ["grua", "ɡɾua"],
     hr: ["žena", "ʒěna"],
     sk: ["žena", "ˈʒɛna"],
@@ -573,7 +584,7 @@ WORDS.wife = {
     is: ["eiginkona", "ˈɛijɪŋ̥kɔna"],  // A compound of kona 'woman'.
     nn: ["hustru", "ˈhʉstrʉː"],
     no: ["hustru", "ˈhʉstrʉː"],
-    sv: ["hustru", "hɵsːtrɵ"],
+    sv: ["hustru", "ˈhɵsːtrɵ"],
     de: ["Frau", "fʁaʊ̯"],
     en: ["wife", "waɪf"],
     ga: ["bean chéile", "bʲan̪ˠ ˈçeːlʲə"],  // A compound of bean 'woman'.
@@ -593,7 +604,7 @@ WORDS.wife = {
     mn: ["эхнэр", "ˈexner"],
     xal: ["гергн", "ɡerˈɡen"],
     evn: ["асӣ", "asiː"],
-    gld: ["аси", "azi"],
+    gld: ["аси", "asi"],
     ko: ["아내", "anɛ"],
     ja: ["妻", "tsɯma"],
     kn: ["ಹೆಂಡತಿ", "heŋɖət̪i"],
@@ -605,7 +616,7 @@ WORDS.wife = {
     lez: ["паб", "pab"],
     dar: ["хьунул", "xunul"],
     he: ["אישה", "iˈʃa"],
-    zh: ["妻子", "tɕʰi˥ tsɨ˨˩˦"],
+    zh: ["妻子", "tɕʰi˥ tsɨ"],
     ha: ["mata", "mata"],
     rap: ["vîʻe", "viʔe"],
     to: ["mali", "mali"],
@@ -616,7 +627,7 @@ WORDS.wife = {
     gay: ["banan", "banan"],  // The same word means woman: the ABVD Gayo list gives banan for both wife and woman.
     jv: ["bojo", "bɔdʒɔ"],
     iba: ["bini", "bini"],  // The ABVD Iban list gives indu' for woman and laki for husband.
-    pam: ["asáwa", "asawa"],
+    pam: ["asáwa", "aˈsawa"],
     bug: ["baine", "baine"],
     mad: ["bine", "bine"],  // A different word from bebini' 'woman' (Wiktionary), so wife has a word of its own, as Icelandic eiginkona beside kona does.
     mrw: ["kawiŋ", "kawiŋ"],
@@ -652,7 +663,7 @@ WORDS.wife = {
     fr_ci: ["femme", "fam"],
     fr_ht: ["femme", "fam"],
     en_us: ["wife", "waɪf"],
-    en_ca: ["wife", "waɪf"],
+    en_ca: ["wife", "wʌɪf"],
     en_za: ["wife", "wɑɪf"],
     ca_va: ["dona", "ˈdona"],
     ja_osa: ["妻", "tsɯma"],
@@ -670,7 +681,7 @@ WORDS.wife = {
     en_app: ["wife", "waɪf"],
     en_in: ["wife", "ʋaɪf"],
     en_ie: ["wife", "waɪf"],
-    en_sco: ["wife", "waɪf"],
+    en_sco: ["wife", "wəɪf"],
     en_yk: ["wife", "waɪf"],
     en_ck: ["wife", "waɪf"],
     en_scouse: ["wife", "waɪf"],
@@ -927,7 +938,7 @@ WORDS.wife = {
     fax: ["mullel", "muˈʎel"],  // Inherited from Old Galician-Portuguese moller; the same word means woman and wife.
     dz: ["ཨམ་སྲུ", "amsu"],  // The same word means woman and wife.
     mfa: ["bining", "biniŋ"],  // Inherited from Proto-Malayic *bini.
-    gd: ["bean", "b̥ɛ̃n"],  // The same word means woman and wife (Wiktionary); bean-phòsda and bean-chèile spell out 'married'.
+    gd: ["bean", "pɛ̃n"],  // The same word means woman and wife (Wiktionary); bean-phòsda and bean-chèile spell out 'married'.
     shn: ["မေး", "meː˥"],  // The word for woman is ယိင်း ying, in the ABVD and IDS Shan lists alike.
     zza: ["veyve", "ˈvɛjvɘ"],
     mch: ["jinñamo", "hʷinɲamo"],  // The word for woman is wodi (Wiktionary).
@@ -935,5 +946,16 @@ WORDS.wife = {
     prs: ["زن", "zan"],
     lij_t: ["mogê", "muˈdʒeː"],
     sr: ["жена", "ʒěna"],  // The same word means woman; супруга is also used.
+    pt_br: ["esposa", "isˈpozɐ"],  // As in Portugal; mulher is also used.
+    pt_ao: ["esposa", "ɨʃˈpozɐ"],  // As in Portugal; mulher is also used.
+    pt_mz: ["esposa", "ɨʃˈpozɐ"],  // As in Portugal; mulher is also used.
+    pt_mo: ["esposa", "ɨʃˈpozɐ"],  // As in Portugal; mulher is also used.
+    pt_cv: ["esposa", "ʃˈpozɐ"],  // As in Portugal; mulher is also used.
+    zh_tw: ["妻子", "tɕʰi˥ tsɨ˨˩˦"],  // The same word as Mainland Mandarin; Taiwan keeps the full tone on 子.
+    de_at: ["Frau", "fraʊ̯"],  // The same word as woman, as in standard German.
+    de_ch: ["Frau", "fraʊ̯"],  // The same word as woman, as in standard German.
+    nl_be: ["vrouw", "vrɑu̯"],  // The same word as woman, as in Dutch.
+    en_nz: ["wife", "wɑɪf"],  // Same word as standard English; IPA from the row's own cells.
+    en_geordie: ["wife", "wɛɪf"],  // Same word as standard English; IPA from the row's own cells.
   },
 };

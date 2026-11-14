@@ -919,7 +919,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "ai vu"
+          "‌ai vu"
         ],
         [
           "H",
@@ -3835,7 +3835,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "ai vu"
+          "‌ai vu"
         ],
         [
           "H",
@@ -8205,7 +8205,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "ai vu"
+          "‌ai vu"
         ],
         [
           "H",
@@ -8251,7 +8251,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "ai vu"
+          "‌ai vu"
         ],
         [
           "H",
@@ -8435,7 +8435,7 @@ const SENTENCES = [
         ],
         [
           "H",
-          "‌in"
+          "in"
         ],
         [
           "I",
@@ -8929,7 +8929,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "ai vu"
+          "‌ai vu"
         ],
         [
           "H",
@@ -17290,7 +17290,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "toh lo día"
+          "toh la mañanah"
         ],
         [
           "E",
@@ -26442,7 +26442,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "étudie"
+          "‌étudie"
         ],
         [
           "C",
@@ -27762,7 +27762,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "étudie"
+          "‌étudie"
         ],
         [
           "C",
@@ -29698,7 +29698,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "étudie"
+          "‌étudie"
         ],
         [
           "C",
@@ -30000,7 +30000,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "étudie"
+          "‌étudie"
         ],
         [
           "C",
@@ -30779,7 +30779,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ensolarado"
+          "soalheiro"
         ]
       ],
       "pt_br": [
@@ -32556,8 +32556,12 @@ const SENTENCES = [
       ],
       "lad": [
         [
+          "B",
+          "El tiempo"
+        ],
+        [
           "A",
-          "El tiempo de demanyana"
+          "de demanyana"
         ],
         [
           "C",
@@ -40800,7 +40804,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌in"
+          "in"
         ],
         [
           "E",
@@ -40830,18 +40834,18 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌in"
+          "in"
         ],
         [
           "E",
           "Giappone"
         ],
         [
-          "F",
+          "G",
           "l'annu"
         ],
         [
-          "G",
+          "F",
           "prossimu"
         ]
       ],
@@ -41223,11 +41227,11 @@ const SENTENCES = [
           "Japonia"
         ],
         [
-          "F",
+          "G",
           "anul"
         ],
         [
-          "G",
+          "F",
           "viitor"
         ]
       ],
@@ -41283,11 +41287,11 @@ const SENTENCES = [
           "Japó"
         ],
         [
-          "F",
+          "G",
           "l'any"
         ],
         [
-          "G",
+          "F",
           "que ve"
         ]
       ],
@@ -42101,12 +42105,12 @@ const SENTENCES = [
           "Japón"
         ],
         [
-          "F",
-          "el"
+          "G",
+          "el año"
         ],
         [
-          "G",
-          "año ke viene"
+          "F",
+          "ke viene"
         ]
       ],
       "tlh": [
@@ -43111,11 +43115,11 @@ const SENTENCES = [
           "Japon"
         ],
         [
-          "F",
+          "G",
           "l'an"
         ],
         [
-          "G",
+          "F",
           "que ven"
         ]
       ],
@@ -44130,7 +44134,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌in"
+          "in"
         ],
         [
           "E",
@@ -48340,12 +48344,16 @@ const SENTENCES = [
           "Vous"
         ],
         [
-          "C",
+          "D",
           "savez"
         ],
         [
+          "C",
+          "parler"
+        ],
+        [
           "B",
-          "parler anglais"
+          "anglais"
         ]
       ],
       "de_at": [
@@ -48667,7 +48675,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "-vous"
+          "‌-vous"
         ],
         [
           "C",
@@ -49290,7 +49298,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ai acheté"
+          "‌ai acheté"
         ],
         [
           "D",
@@ -51218,7 +51226,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ai acheté"
+          "‌ai acheté"
         ],
         [
           "D",
@@ -53992,7 +54000,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ai acheté"
+          "‌ai acheté"
         ],
         [
           "D",
@@ -54018,7 +54026,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ai acheté"
+          "‌ai acheté"
         ],
         [
           "D",
@@ -54464,7 +54472,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ai acheté"
+          "‌ai acheté"
         ],
         [
           "D",
@@ -59056,7 +59064,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "-moi"
+          "‌-moi"
         ],
         [
           "F",
@@ -59064,7 +59072,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "eau"
+          "‌eau"
         ]
       ],
       "it": [
@@ -59370,7 +59378,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "-me"
+          "‌-me"
         ],
         [
           "F",
@@ -60438,7 +60446,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "acqua"
+          "‌acqua"
         ]
       ],
       "scn": [
@@ -60460,7 +60468,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "acqua"
+          "‌acqua"
         ]
       ],
       "de_gsw": [
@@ -60500,7 +60508,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "-moi"
+          "‌-moi"
         ],
         [
           "F",
@@ -60508,7 +60516,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "eau"
+          "‌eau"
         ]
       ],
       "sco": [
@@ -60742,7 +60750,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "-mi"
+          "‌-mi"
         ],
         [
           "F",
@@ -60786,7 +60794,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "-me"
+          "‌-me"
         ],
         [
           "F",
@@ -60794,7 +60802,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "aigua"
+          "‌aigua"
         ]
       ],
       "da": [
@@ -61400,7 +61408,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "me"
+          "‌me"
         ],
         [
           "F",
@@ -62096,7 +62104,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "me"
+          "‌me"
         ],
         [
           "F",
@@ -62118,7 +62126,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "-me"
+          "‌-me"
         ],
         [
           "F",
@@ -62126,7 +62134,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "aiga"
+          "‌aiga"
         ]
       ],
       "fo": [
@@ -62734,7 +62742,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "-moi"
+          "‌-moi"
         ],
         [
           "F",
@@ -62742,7 +62750,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "eau"
+          "‌eau"
         ]
       ],
       "fr_be": [
@@ -62756,7 +62764,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "-moi"
+          "‌-moi"
         ],
         [
           "F",
@@ -62764,7 +62772,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "eau"
+          "‌eau"
         ]
       ],
       "de_at": [
@@ -62848,7 +62856,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "me"
+          "‌me"
         ],
         [
           "F",
@@ -63126,7 +63134,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "-moi"
+          "‌-moi"
         ],
         [
           "F",
@@ -63134,7 +63142,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "eau"
+          "‌eau"
         ]
       ],
       "sl": [
@@ -65222,7 +65230,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "vado"
+          "vaco"
         ],
         [
           "B",
@@ -65244,7 +65252,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "vado"
+          "vaiu"
         ],
         [
           "B",
@@ -68493,7 +68501,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "étudier à l'étranger"
+          "‌étudier à l'étranger"
         ],
         [
           "B",
@@ -69785,7 +69793,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "étudier à l'étranger"
+          "‌étudier à l'étranger"
         ],
         [
           "B",
@@ -71685,7 +71693,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "étudier à l'étranger"
+          "‌étudier à l'étranger"
         ],
         [
           "B",
@@ -71987,7 +71995,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "étudier à l'étranger"
+          "‌étudier à l'étranger"
         ],
         [
           "B",
@@ -76178,7 +76186,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ai"
+          "‌ai"
         ],
         [
           "C",
@@ -78208,11 +78216,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "na riunione"
+          "'na riunione"
         ],
         [
           "D",
-          "a le"
+          "a 'e"
         ],
         [
           "E",
@@ -78294,7 +78302,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ai"
+          "‌ai"
         ],
         [
           "C",
@@ -78628,7 +78636,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌la"
+          "la"
         ],
         [
           "E",
@@ -81384,7 +81392,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ai"
+          "‌ai"
         ],
         [
           "C",
@@ -81414,7 +81422,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ai"
+          "‌ai"
         ],
         [
           "C",
@@ -81892,7 +81900,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ai"
+          "‌ai"
         ],
         [
           "C",
@@ -82758,14 +82766,10 @@ const SENTENCES = [
         ],
         [
           "D",
-          "é"
+          "é cara"
         ],
         [
           "C",
-          "cara"
-        ],
-        [
-          "D",
           "demais"
         ]
       ],
@@ -86675,7 +86679,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "aime"
+          "‌aime"
         ],
         [
           "C",
@@ -88003,7 +88007,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "aime"
+          "‌aime"
         ],
         [
           "C",
@@ -88241,7 +88245,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "agrada"
+          "‌agrada"
         ],
         [
           "C",
@@ -88751,7 +88755,7 @@ const SENTENCES = [
       "lad": [
         [
           "A",
-          "Yo"
+          "A mi"
         ],
         [
           "D",
@@ -89921,7 +89925,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "aime"
+          "‌aime"
         ],
         [
           "C",
@@ -89939,7 +89943,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "aime"
+          "‌aime"
         ],
         [
           "C",
@@ -90241,7 +90245,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "aime"
+          "‌aime"
         ],
         [
           "C",
@@ -96592,7 +96596,11 @@ const SENTENCES = [
         ],
         [
           "E",
-          "vo senar"
+          "vo"
+        ],
+        [
+          "D",
+          "senar"
         ],
         [
           "C",
@@ -97326,7 +97334,11 @@ const SENTENCES = [
       "es_cl": [
         [
           "E",
-          "Voy a cenar"
+          "Voy a"
+        ],
+        [
+          "D",
+          "cenar"
         ],
         [
           "C",
@@ -100636,7 +100648,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "voglio"
+          "vògghiu"
         ],
         [
           "D",
@@ -106113,7 +106125,7 @@ const SENTENCES = [
       "lad": [
         [
           "A",
-          "La livreriya"
+          "La biblioteka"
         ],
         [
           "D",
@@ -108069,8 +108081,12 @@ const SENTENCES = [
           "Pouvez-vous"
         ],
         [
+          "B",
+          "me"
+        ],
+        [
           "D",
-          "me montrer"
+          "montrer"
         ],
         [
           "C",
@@ -108328,7 +108344,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "me"
+          "‌me"
         ],
         [
           "C",
@@ -108346,7 +108362,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "me"
+          "‌me"
         ],
         [
           "C",
@@ -108360,7 +108376,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "mostre-me"
+          "mostre"
+        ],
+        [
+          "B",
+          "‌-me"
         ],
         [
           "C",
@@ -108373,8 +108393,12 @@ const SENTENCES = [
           "Por favor"
         ],
         [
+          "B",
+          "me"
+        ],
+        [
           "D",
-          "me mostre"
+          "mostre"
         ],
         [
           "C",
@@ -109235,8 +109259,12 @@ const SENTENCES = [
           "Per favore"
         ],
         [
+          "B",
+          "me"
+        ],
+        [
           "D",
-          "me facite vedé"
+          "facite vedé"
         ],
         [
           "C",
@@ -109249,8 +109277,12 @@ const SENTENCES = [
           "Per favore"
         ],
         [
+          "B",
+          "mi"
+        ],
+        [
           "D",
-          "mi fati vìdiri"
+          "fati vìdiri"
         ],
         [
           "C",
@@ -109281,8 +109313,12 @@ const SENTENCES = [
           "Pouvez-vous"
         ],
         [
+          "B",
+          "me"
+        ],
+        [
           "D",
-          "me montrer"
+          "montrer"
         ],
         [
           "C",
@@ -109484,7 +109520,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "-mi"
+          "‌-mi"
         ],
         [
           "C",
@@ -109520,7 +109556,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "-me"
+          "‌-me"
         ],
         [
           "C",
@@ -110021,7 +110057,7 @@ const SENTENCES = [
           "Por favor"
         ],
         [
-          "D",
+          "B|D",
           "muestrame"
         ],
         [
@@ -110590,7 +110626,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ensíneme"
+          "ensíne"
+        ],
+        [
+          "B",
+          "‌me"
         ],
         [
           "C",
@@ -110604,11 +110644,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "mostrats"
+          "mostratz"
         ],
         [
           "B",
-          "-me"
+          "‌-me"
         ],
         [
           "C",
@@ -111123,11 +111163,11 @@ const SENTENCES = [
           "montre"
         ],
         [
-          "C",
-          "-moi"
+          "B",
+          "‌-moi"
         ],
         [
-          "A",
+          "C",
           "le menu"
         ]
       ],
@@ -111141,11 +111181,11 @@ const SENTENCES = [
           "montrez"
         ],
         [
-          "C",
-          "-moi"
+          "B",
+          "‌-moi"
         ],
         [
-          "A",
+          "C",
           "la carte"
         ]
       ],
@@ -111209,7 +111249,7 @@ const SENTENCES = [
           "Per piaser"
         ],
         [
-          "D",
+          "B|D",
           "mostreme"
         ],
         [
@@ -111431,8 +111471,12 @@ const SENTENCES = [
           "Pouvez-vous"
         ],
         [
+          "B",
+          "me"
+        ],
+        [
           "D",
-          "me montrer"
+          "montrer"
         ],
         [
           "C",
@@ -113975,7 +114019,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "‌la"
+          "la"
         ],
         [
           "C",
@@ -116249,7 +116293,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "‌in"
+          "in"
         ],
         [
           "F",
@@ -123016,7 +123060,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "suis allé"
+          "‌suis allé"
         ],
         [
           "B",
@@ -125903,7 +125947,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "-vous"
+          "‌-vous"
         ],
         [
           "C",
@@ -127531,7 +127575,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "-vous"
+          "‌-vous"
         ],
         [
           "C",
@@ -127780,12 +127824,16 @@ const SENTENCES = [
           "recomanda"
         ],
         [
-          "F",
+          "D",
           "un"
         ],
         [
           "E",
-          "restaurant bun"
+          "restaurant"
+        ],
+        [
+          "F",
+          "bun"
         ]
       ],
       "cs": [
@@ -129809,7 +129857,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "-tu"
+          "‌-tu"
         ],
         [
           "C",
@@ -129835,7 +129883,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "-vous"
+          "‌-vous"
         ],
         [
           "C",
@@ -130229,7 +130277,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "-vous"
+          "‌-vous"
         ],
         [
           "C",
@@ -130716,7 +130764,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ai oublié"
+          "‌ai oublié"
         ],
         [
           "B",
@@ -130991,12 +131039,8 @@ const SENTENCES = [
       ],
       "es_mx": [
         [
-          "A",
-          "Yo"
-        ],
-        [
           "C",
-          "se me olvidó"
+          "Se me olvidó"
         ],
         [
           "B",
@@ -132036,7 +132080,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ai oublié"
+          "‌ai oublié"
         ],
         [
           "B",
@@ -133934,7 +133978,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ai oublié"
+          "‌ai oublié"
         ],
         [
           "B",
@@ -133952,7 +133996,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ai oublié"
+          "‌ai oublié"
         ],
         [
           "B",
@@ -134031,12 +134075,8 @@ const SENTENCES = [
       ],
       "vec": [
         [
-          "A",
-          "Go"
-        ],
-        [
           "C",
-          "desmentegà"
+          "Go desmentegà"
         ],
         [
           "B",
@@ -134258,7 +134298,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ai oublié"
+          "‌ai oublié"
         ],
         [
           "B",
@@ -139912,12 +139952,12 @@ const SENTENCES = [
           "é"
         ],
         [
-          "B",
-          "na"
+          "D",
+          "na segunda-feira"
         ],
         [
-          "D",
-          "segunda-feira que vem"
+          "B",
+          "que vem"
         ]
       ],
       "pt_br": [
@@ -140768,8 +140808,12 @@ const SENTENCES = [
           "è"
         ],
         [
+          "D",
+          "lunedì"
+        ],
+        [
           "B",
-          "lunedì ca vene"
+          "ca vene"
         ]
       ],
       "scn": [
@@ -140782,8 +140826,12 @@ const SENTENCES = [
           "è"
         ],
         [
+          "D",
+          "lunidì"
+        ],
+        [
           "B",
-          "lunidì chi veni"
+          "chi veni"
         ]
       ],
       "de_gsw": [
@@ -141004,8 +141052,12 @@ const SENTENCES = [
           "este"
         ],
         [
+          "D",
+          "luni"
+        ],
+        [
           "B",
-          "luni viitoare"
+          "viitoare"
         ]
       ],
       "cs": [
@@ -141032,8 +141084,12 @@ const SENTENCES = [
           "és"
         ],
         [
+          "D",
+          "dilluns"
+        ],
+        [
           "B",
-          "dilluns que ve"
+          "que ve"
         ]
       ],
       "da": [
@@ -141506,8 +141562,12 @@ const SENTENCES = [
           "es"
         ],
         [
+          "D",
+          "el lunes"
+        ],
+        [
           "B",
-          "el lunes ke viene"
+          "ke viene"
         ]
       ],
       "tlh": [
@@ -141770,8 +141830,12 @@ const SENTENCES = [
           "es"
         ],
         [
+          "D",
+          "el lunes"
+        ],
+        [
           "B",
-          "el lunes que viene"
+          "que viene"
         ]
       ],
       "ar_iq": [
@@ -142024,8 +142088,12 @@ const SENTENCES = [
           "es"
         ],
         [
+          "D",
+          "el lunes"
+        ],
+        [
           "B",
-          "el lunes que viene"
+          "que viene"
         ]
       ],
       "gl": [
@@ -142039,7 +142107,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "o vindeiro luns"
+          "o vindeiro"
+        ],
+        [
+          "D",
+          "luns"
         ]
       ],
       "oc": [
@@ -142052,8 +142124,12 @@ const SENTENCES = [
           "es"
         ],
         [
+          "D",
+          "diluns"
+        ],
+        [
           "B",
-          "diluns que ven"
+          "que ven"
         ]
       ],
       "fo": [
@@ -142482,8 +142558,12 @@ const SENTENCES = [
           "e"
         ],
         [
+          "D",
+          "el lune"
+        ],
+        [
           "B",
-          "el lune que viene"
+          "que viene"
         ]
       ],
       "es_pe": [
@@ -142496,8 +142576,12 @@ const SENTENCES = [
           "es"
         ],
         [
+          "D",
+          "el lunes"
+        ],
+        [
           "B",
-          "el lunes que viene"
+          "que viene"
         ]
       ],
       "es_an": [
@@ -142510,8 +142594,12 @@ const SENTENCES = [
           "eh"
         ],
         [
+          "D",
+          "er luneh"
+        ],
+        [
           "B",
-          "er luneh que viene"
+          "que viene"
         ]
       ],
       "fr_af": [
@@ -142606,8 +142694,12 @@ const SENTENCES = [
           "xe"
         ],
         [
+          "D",
+          "el lunedì"
+        ],
+        [
           "B",
-          "el lunedì che vien"
+          "che vien"
         ]
       ],
       "th_n": [
@@ -147216,7 +147308,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "pa armortsá"
+          "pa armorsá"
         ]
       ],
       "fr_af": [
@@ -149593,8 +149685,12 @@ const SENTENCES = [
       ],
       "nap": [
         [
+          "E",
+          "'A stanza"
+        ],
+        [
           "A",
-          "'A stanza d'ô hotel"
+          "d'ô hotel"
         ],
         [
           "B",
@@ -149611,8 +149707,12 @@ const SENTENCES = [
       ],
       "scn": [
         [
+          "E",
+          "A stanza"
+        ],
+        [
           "A",
-          "A stanza dû hotel"
+          "dû hotel"
         ],
         [
           "B",
@@ -150479,8 +150579,12 @@ const SENTENCES = [
       ],
       "lad": [
         [
+          "E",
+          "La kamera"
+        ],
+        [
           "A",
-          "La kamera del otel"
+          "del otel"
         ],
         [
           "B",
@@ -151155,8 +151259,12 @@ const SENTENCES = [
       ],
       "gl": [
         [
+          "E",
+          "O cuarto"
+        ],
+        [
           "A",
-          "O cuarto do hotel"
+          "do hotel"
         ],
         [
           "B",
@@ -157778,11 +157886,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "mese"
+          "'o mese"
         ],
         [
           "C",
-          "'o passato"
+          "passato"
         ]
       ],
       "scn": [
@@ -157800,11 +157908,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "misi"
+          "u misi"
         ],
         [
           "C",
-          "u passatu"
+          "passatu"
         ]
       ],
       "de_gsw": [
@@ -157847,8 +157955,12 @@ const SENTENCES = [
           "s'est marié"
         ],
         [
+          "D",
+          "le mois"
+        ],
+        [
           "C",
-          "le mois passé"
+          "passé"
         ]
       ],
       "sco": [
@@ -158724,11 +158836,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "mez"
+          "el mez"
         ],
         [
           "C",
-          "el pasado"
+          "pasado"
         ]
       ],
       "tlh": [
@@ -159408,11 +159520,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "mes"
+          "o mes"
         ],
         [
           "C",
-          "o pasado"
+          "pasado"
         ]
       ],
       "oc": [
@@ -160009,8 +160121,12 @@ const SENTENCES = [
           "s'est marié"
         ],
         [
+          "D",
+          "le mois"
+        ],
+        [
           "C",
-          "le mois passé"
+          "passé"
         ]
       ],
       "fr_be": [
@@ -160027,8 +160143,12 @@ const SENTENCES = [
           "s'est marié"
         ],
         [
+          "D",
+          "le mois"
+        ],
+        [
           "C",
-          "le mois passé"
+          "passé"
         ]
       ],
       "de_at": [
@@ -160124,11 +160244,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "mese"
+          "el mese"
         ],
         [
           "C",
-          "el pasà"
+          "pasà"
         ]
       ],
       "th_n": [
@@ -166864,11 +166984,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "un"
+          "un regal"
         ],
         [
           "C",
-          "regal d'aniversari"
+          "d'aniversari"
         ]
       ],
       "da": [
@@ -167490,11 +167610,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "un"
+          "un regalo"
         ],
         [
           "C",
-          "regalo de kumpleanyos"
+          "de kumpleanyos"
         ]
       ],
       "tlh": [
@@ -169771,7 +169891,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ici"
+          "‌ici"
         ],
         [
           "C",
@@ -171033,7 +171153,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "‌da"
+          "da"
         ],
         [
           "D",
@@ -171091,7 +171211,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "icitte"
+          "‌icitte"
         ],
         [
           "C",
@@ -171309,7 +171429,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "aquí"
+          "‌aquí"
         ],
         [
           "C",
@@ -172409,7 +172529,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "aicí"
+          "‌aicí"
         ],
         [
           "C",
@@ -172929,7 +173049,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ici"
+          "‌ici"
         ],
         [
           "C",
@@ -172947,7 +173067,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ici"
+          "‌ici"
         ],
         [
           "C",
@@ -173253,7 +173373,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ici"
+          "‌ici"
         ],
         [
           "C",
@@ -177795,8 +177915,12 @@ const SENTENCES = [
           "Mi"
         ],
         [
+          "E",
+          "go da"
+        ],
+        [
           "D",
-          "go da alzarme"
+          "alzarme"
         ],
         [
           "B",
@@ -178678,7 +178802,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "-vous"
+          "‌-vous"
         ],
         [
           "C",
@@ -180274,7 +180398,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "-vous"
+          "‌-vous"
         ],
         [
           "C",
@@ -182554,7 +182678,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "-vous"
+          "‌-vous"
         ],
         [
           "C",
@@ -182637,7 +182761,7 @@ const SENTENCES = [
       ],
       "vec": [
         [
-          "A",
+          "A|E",
           "Savéo"
         ],
         [
@@ -182920,7 +183044,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "-vous"
+          "‌-vous"
         ],
         [
           "C",
@@ -185524,8 +185648,12 @@ const SENTENCES = [
           "o"
         ],
         [
+          "F",
+          "carte"
+        ],
+        [
           "C",
-          "carte interesantă"
+          "interesantă"
         ]
       ],
       "cs": [
@@ -185568,8 +185696,12 @@ const SENTENCES = [
           "un"
         ],
         [
+          "F",
+          "llibre"
+        ],
+        [
           "C",
-          "llibre interessant"
+          "interessant"
         ]
       ],
       "da": [
@@ -194033,7 +194165,7 @@ const SENTENCES = [
           "A comida"
         ],
         [
-          "A",
+          "A|D",
           "deste"
         ],
         [
@@ -194051,7 +194183,7 @@ const SENTENCES = [
           "A comida"
         ],
         [
-          "A",
+          "A|D",
           "deste"
         ],
         [
@@ -196735,7 +196867,7 @@ const SENTENCES = [
           "A comida"
         ],
         [
-          "A",
+          "A|D",
           "deste"
         ],
         [
@@ -202702,7 +202834,7 @@ const SENTENCES = [
       ],
       "pt_eu": [
         [
-          "E",
+          "E|F",
           "Neste"
         ],
         [
@@ -202724,7 +202856,7 @@ const SENTENCES = [
       ],
       "pt_br": [
         [
-          "E",
+          "E|F",
           "Neste"
         ],
         [
@@ -205928,7 +206060,7 @@ const SENTENCES = [
       ],
       "gl": [
         [
-          "E",
+          "E|F",
           "Neste"
         ],
         [
@@ -207901,11 +208033,11 @@ const SENTENCES = [
           "J'"
         ],
         [
-          "E",
-          "ai"
+          "H",
+          "‌ai"
         ],
         [
-          "H",
+          "E",
           "parlé"
         ],
         [
@@ -209887,11 +210019,11 @@ const SENTENCES = [
           "Io"
         ],
         [
-          "E",
+          "H",
           "aggio"
         ],
         [
-          "H",
+          "E",
           "parlato"
         ],
         [
@@ -209981,11 +210113,11 @@ const SENTENCES = [
           "J'"
         ],
         [
-          "E",
-          "ai"
+          "H",
+          "‌ai"
         ],
         [
-          "H",
+          "E",
           "parlé"
         ],
         [
@@ -210335,11 +210467,11 @@ const SENTENCES = [
           "Eu"
         ],
         [
-          "E",
+          "H",
           "am"
         ],
         [
-          "H",
+          "E",
           "vorbit"
         ],
         [
@@ -210399,11 +210531,11 @@ const SENTENCES = [
           "Jo"
         ],
         [
-          "E",
+          "H",
           "vaig"
         ],
         [
-          "H",
+          "E",
           "parlar"
         ],
         [
@@ -212219,11 +212351,11 @@ const SENTENCES = [
           "Ieu"
         ],
         [
-          "E",
+          "H",
           "ai"
         ],
         [
-          "H",
+          "E",
           "parlat"
         ],
         [
@@ -213066,7 +213198,7 @@ const SENTENCES = [
         ],
         [
           "E|H",
-          "ehtufe hablando"
+          "ehtuve hablando"
         ],
         [
           "F",
@@ -213095,11 +213227,11 @@ const SENTENCES = [
           "J'"
         ],
         [
-          "E",
-          "ai"
+          "H",
+          "‌ai"
         ],
         [
-          "H",
+          "E",
           "parlé"
         ],
         [
@@ -213129,11 +213261,11 @@ const SENTENCES = [
           "J'"
         ],
         [
-          "E",
-          "ai"
+          "H",
+          "‌ai"
         ],
         [
-          "H",
+          "E",
           "causé"
         ],
         [
@@ -213265,11 +213397,11 @@ const SENTENCES = [
           "Mi"
         ],
         [
-          "E",
+          "H",
           "go"
         ],
         [
-          "H",
+          "E",
           "parlà"
         ],
         [
@@ -213627,11 +213759,11 @@ const SENTENCES = [
           "J'"
         ],
         [
-          "E",
-          "ai"
+          "H",
+          "‌ai"
         ],
         [
-          "H",
+          "E",
           "parlé"
         ],
         [
@@ -223147,7 +223279,11 @@ const SENTENCES = [
       "fr": [
         [
           "D",
-          "Dites-moi"
+          "Dites"
+        ],
+        [
+          "B",
+          "‌-moi"
         ],
         [
           "A",
@@ -223537,7 +223673,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "me"
+          "‌me"
         ],
         [
           "E",
@@ -223563,7 +223699,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "me"
+          "‌me"
         ],
         [
           "E",
@@ -223589,7 +223725,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "-me"
+          "‌-me"
         ],
         [
           "E",
@@ -224967,7 +225103,11 @@ const SENTENCES = [
       "fr_qc": [
         [
           "D",
-          "Dites-moi"
+          "Dites"
+        ],
+        [
+          "B",
+          "‌-moi"
         ],
         [
           "A",
@@ -225249,7 +225389,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "-mi"
+          "‌-mi"
         ],
         [
           "E",
@@ -225301,7 +225441,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "-me"
+          "‌-me"
         ],
         [
           "E",
@@ -226015,7 +226155,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "me"
+          "‌me"
         ],
         [
           "E",
@@ -226827,7 +226967,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "me"
+          "‌me"
         ],
         [
           "E",
@@ -226839,7 +226979,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "aeropuerto"
+          "aeroporto"
         ]
       ],
       "oc": [
@@ -226853,7 +226993,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "-me"
+          "‌-me"
         ],
         [
           "E",
@@ -227561,11 +227701,15 @@ const SENTENCES = [
       "fr_af": [
         [
           "D",
-          "Montre-moi"
+          "Montre"
+        ],
+        [
+          "B",
+          "‌-moi"
         ],
         [
           "A",
-          "S'il te plaît"
+          "s'il te plaît"
         ],
         [
           "E",
@@ -227583,11 +227727,15 @@ const SENTENCES = [
       "fr_be": [
         [
           "D",
-          "Indiquez-moi"
+          "Indiquez"
+        ],
+        [
+          "B",
+          "‌-moi"
         ],
         [
           "A",
-          "S'il vous plaît"
+          "s'il vous plaît"
         ],
         [
           "E",
@@ -228001,7 +228149,11 @@ const SENTENCES = [
       "fr_ch": [
         [
           "D",
-          "Dites-moi"
+          "Dites"
+        ],
+        [
+          "B",
+          "‌-moi"
         ],
         [
           "A",
@@ -234310,8 +234462,12 @@ const SENTENCES = [
           "povestește"
         ],
         [
+          "C",
+          "povești"
+        ],
+        [
           "B",
-          "povești interesante"
+          "interesante"
         ]
       ],
       "cs": [
@@ -235304,11 +235460,11 @@ const SENTENCES = [
           "cuenta"
         ],
         [
-          "C",
+          "B",
           "interesantes"
         ],
         [
-          "B",
+          "C",
           "historias"
         ]
       ],
@@ -237348,7 +237504,7 @@ const SENTENCES = [
         ],
         [
           "H",
-          "ai"
+          "‌ai"
         ],
         [
           "C",
@@ -239056,7 +239212,7 @@ const SENTENCES = [
         ],
         [
           "H",
-          "ai"
+          "‌ai"
         ],
         [
           "C",
@@ -239354,7 +239510,7 @@ const SENTENCES = [
         ],
         [
           "F",
-          "‌la"
+          "la"
         ],
         [
           "D",
@@ -241530,7 +241686,7 @@ const SENTENCES = [
         ],
         [
           "H",
-          "ai"
+          "‌ai"
         ],
         [
           "C",
@@ -241560,7 +241716,7 @@ const SENTENCES = [
         ],
         [
           "H",
-          "ai"
+          "‌ai"
         ],
         [
           "C",
@@ -241663,11 +241819,11 @@ const SENTENCES = [
       ],
       "vec": [
         [
-          "A",
+          "H",
           "Go"
         ],
         [
-          "C|H",
+          "C",
           "perso"
         ],
         [
@@ -241958,7 +242114,7 @@ const SENTENCES = [
         ],
         [
           "H",
-          "ai"
+          "‌ai"
         ],
         [
           "C",
@@ -264916,7 +265072,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "del templo"
+          "de este templo"
         ]
       ],
       "es_mx": [
@@ -264938,7 +265094,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "del templo"
+          "de este templo"
         ]
       ],
       "pt_eu": [
@@ -264960,7 +265116,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "do templo"
+          "deste templo"
         ]
       ],
       "pt_br": [
@@ -264982,7 +265138,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "do templo"
+          "deste templo"
         ]
       ],
       "sw": [
@@ -272451,7 +272607,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "apprends"
+          "‌apprends"
         ],
         [
           "C",
@@ -273763,7 +273919,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "apprends"
+          "‌apprends"
         ],
         [
           "C",
@@ -275993,7 +276149,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "apprends"
+          "‌apprends"
         ],
         [
           "C",
@@ -280628,7 +280784,11 @@ const SENTENCES = [
         ],
         [
           "E",
-          "riva sempre"
+          "riva"
+        ],
+        [
+          "B",
+          "sempre"
         ],
         [
           "C",
@@ -295915,8 +296075,12 @@ const SENTENCES = [
           "Eya"
         ],
         [
+          "B",
+          "me"
+        ],
+        [
           "E",
-          "me dio"
+          "dio"
         ],
         [
           "C",
@@ -297321,8 +297485,12 @@ const SENTENCES = [
           "Elle"
         ],
         [
+          "B",
+          "m'"
+        ],
+        [
           "E",
-          "m'a donné"
+          "‌a donné"
         ],
         [
           "D",
@@ -297339,8 +297507,12 @@ const SENTENCES = [
           "Elle"
         ],
         [
+          "B",
+          "m'"
+        ],
+        [
           "E",
-          "m'a offert"
+          "‌a offert"
         ],
         [
           "C",
@@ -297697,8 +297869,12 @@ const SENTENCES = [
           "Elle"
         ],
         [
+          "B",
+          "m'"
+        ],
+        [
           "E",
-          "m'a donné"
+          "‌a donné"
         ],
         [
           "C",
@@ -306325,7 +306501,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "je"
+          "‌-je"
         ],
         [
           "C",
@@ -307649,7 +307825,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "peux-tu"
+          "‌peux-tu"
         ],
         [
           "C",
@@ -309486,8 +309662,12 @@ const SENTENCES = [
       ],
       "fr_af": [
         [
+          "A",
+          "Je"
+        ],
+        [
           "D",
-          "Je peux"
+          "peux"
         ],
         [
           "C",
@@ -309505,7 +309685,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "-je"
+          "‌-je"
         ],
         [
           "C",
@@ -309819,7 +309999,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "je"
+          "‌-je"
         ],
         [
           "C",
@@ -325082,11 +325262,11 @@ const SENTENCES = [
       "fr": [
         [
           "A",
-          "Ils ont"
+          "Ils"
         ],
         [
           "D",
-          "construit"
+          "ont construit"
         ],
         [
           "B",
@@ -326410,11 +326590,11 @@ const SENTENCES = [
       "fr_qc": [
         [
           "A",
-          "Y ont"
+          "Y"
         ],
         [
           "D",
-          "construit"
+          "ont construit"
         ],
         [
           "B",
@@ -327779,12 +327959,8 @@ const SENTENCES = [
       ],
       "oc": [
         [
-          "A",
-          "An"
-        ],
-        [
           "D",
-          "bastit"
+          "An bastit"
         ],
         [
           "B",
@@ -328656,11 +328832,11 @@ const SENTENCES = [
       "fr_ch": [
         [
           "A",
-          "Ils ont"
+          "Ils"
         ],
         [
           "D",
-          "construit"
+          "ont construit"
         ],
         [
           "B",
@@ -335455,7 +335631,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "attends"
+          "‌attends"
         ],
         [
           "B",
@@ -336495,7 +336671,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "attends"
+          "‌attends"
         ],
         [
           "B",
@@ -337566,7 +337742,7 @@ const SENTENCES = [
           "Eu"
         ],
         [
-          "C",
+          "D",
           "levo"
         ],
         [
@@ -338006,12 +338182,12 @@ const SENTENCES = [
           "Ça fait"
         ],
         [
-          "C",
-          "que j'attends"
-        ],
-        [
           "B",
           "une demi-heure"
+        ],
+        [
+          "C",
+          "que j'attends"
         ]
       ],
       "de_at": [
@@ -338249,7 +338425,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "attends"
+          "‌attends"
         ],
         [
           "B",
@@ -343290,7 +343466,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "me sens heureux"
+          "‌me sens heureux"
         ],
         [
           "C",
@@ -349507,7 +349683,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "os resultados"
+          "resultados"
         ],
         [
           "E",
@@ -349533,7 +349709,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "del examen"
+          "de l'examen"
         ]
       ],
       "fo": [
@@ -354309,15 +354485,15 @@ const SENTENCES = [
         ],
         [
           "A",
-          "che sto piano"
+          "che sto"
         ],
         [
           "B",
-          "xe"
+          "piano"
         ],
         [
           "C",
-          "bon"
+          "xe bon"
         ]
       ],
       "th_n": [
@@ -359137,7 +359313,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "parce qu'"
+          "parce que"
         ],
         [
           "D",
@@ -360310,7 +360486,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "étudier"
+          "‌étudier"
         ],
         [
           "F",
@@ -362480,7 +362656,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "esperienza"
+          "‌esperienza"
         ],
         [
           "G",
@@ -362518,7 +362694,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "esperiènza"
+          "‌esperiènza"
         ],
         [
           "G",
@@ -362578,7 +362754,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "étudier"
+          "‌étudier"
         ],
         [
           "F",
@@ -363918,7 +364094,11 @@ const SENTENCES = [
         ],
         [
           "E",
-          "kreo ke"
+          "kreo"
+        ],
+        [
+          "H",
+          "ke"
         ],
         [
           "B",
@@ -365016,7 +365196,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "estudiar"
+          "‌estudiar"
         ],
         [
           "F",
@@ -365948,7 +366128,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "étudier"
+          "‌étudier"
         ],
         [
           "F",
@@ -365986,7 +366166,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "étudier"
+          "‌étudier"
         ],
         [
           "F",
@@ -366146,7 +366326,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "esperienza"
+          "‌esperienza"
         ],
         [
           "G",
@@ -366524,7 +366704,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "étudier"
+          "‌étudier"
         ],
         [
           "F",
@@ -367025,7 +367205,7 @@ const SENTENCES = [
         ],
         [
           "F",
-          "ai"
+          "‌ai"
         ],
         [
           "E",
@@ -368247,7 +368427,7 @@ const SENTENCES = [
         ],
         [
           "F",
-          "ai"
+          "‌ai"
         ],
         [
           "E",
@@ -370134,8 +370314,12 @@ const SENTENCES = [
           "Aujourd'hui"
         ],
         [
+          "A",
+          "j'"
+        ],
+        [
           "F",
-          "j'ai"
+          "‌ai"
         ],
         [
           "E",
@@ -370148,8 +370332,12 @@ const SENTENCES = [
           "Aujourd'hui"
         ],
         [
+          "A",
+          "j'"
+        ],
+        [
           "F",
-          "j'ai"
+          "‌ai"
         ],
         [
           "E",
@@ -370447,7 +370635,7 @@ const SENTENCES = [
         ],
         [
           "F",
-          "ai"
+          "‌ai"
         ],
         [
           "E",
@@ -370903,7 +371091,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "a dit"
+          "‌a dit"
         ],
         [
           "C",
@@ -371205,7 +371393,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "-me"
+          "‌-me"
         ],
         [
           "C",
@@ -372215,7 +372403,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "a dit"
+          "‌a dit"
         ],
         [
           "C",
@@ -372409,7 +372597,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "a spus"
+          "‌a spus"
         ],
         [
           "C",
@@ -373563,7 +373751,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "me"
+          "‌me"
         ],
         [
           "C",
@@ -373581,7 +373769,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "a dich"
+          "‌a dich"
         ],
         [
           "C",
@@ -374113,7 +374301,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "a dit"
+          "‌a dit"
         ],
         [
           "C",
@@ -374131,7 +374319,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "a dit"
+          "‌a dit"
         ],
         [
           "C",
@@ -374413,7 +374601,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "a dit"
+          "‌a dit"
         ],
         [
           "C",
@@ -374861,7 +375049,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "essaie de"
+          "‌essaie de"
         ],
         [
           "C",
@@ -376157,7 +376345,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "essaie de"
+          "‌essaie de"
         ],
         [
           "C",
@@ -378063,7 +378251,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "essaie de"
+          "‌essaie de"
         ],
         [
           "C",
@@ -378081,7 +378269,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "essaie de"
+          "‌essaie de"
         ],
         [
           "C",
@@ -378379,7 +378567,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "essaie de"
+          "‌essaie de"
         ],
         [
           "C",
@@ -387682,10 +387870,14 @@ const SENTENCES = [
       "vec": [
         [
           "A",
-          "Ti dovarìa"
+          "Ti"
         ],
         [
           "D",
+          "dovarìa"
+        ],
+        [
+          "C",
           "bévar"
         ],
         [
@@ -388412,7 +388604,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "utilise"
+          "‌utilise"
         ],
         [
           "B",
@@ -389624,7 +389816,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "utilise"
+          "‌utilise"
         ],
         [
           "B",
@@ -391513,12 +391705,16 @@ const SENTENCES = [
       ],
       "fr_af": [
         [
-          "D",
+          "A",
           "Chaque jour"
         ],
         [
+          "D",
+          "j'"
+        ],
+        [
           "C",
-          "j'utilise"
+          "‌utilise"
         ],
         [
           "B",
@@ -391532,7 +391728,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "utilise"
+          "‌utilise"
         ],
         [
           "B",
@@ -391826,7 +392022,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "utilise"
+          "‌utilise"
         ],
         [
           "B",
@@ -392308,8 +392504,12 @@ const SENTENCES = [
           "application"
         ],
         [
+          "D",
+          "est"
+        ],
+        [
           "C",
-          "est très"
+          "très"
         ],
         [
           "D",
@@ -392582,8 +392782,12 @@ const SENTENCES = [
           "aplicación"
         ],
         [
+          "D",
+          "es"
+        ],
+        [
           "C",
-          "es muy"
+          "muy"
         ],
         [
           "D",
@@ -392600,8 +392804,12 @@ const SENTENCES = [
           "app"
         ],
         [
+          "D",
+          "es"
+        ],
+        [
           "C",
-          "es muy"
+          "muy"
         ],
         [
           "D",
@@ -392618,8 +392826,12 @@ const SENTENCES = [
           "aplicação"
         ],
         [
+          "D",
+          "é"
+        ],
+        [
           "C",
-          "é muito"
+          "muito"
         ],
         [
           "D",
@@ -392636,8 +392848,12 @@ const SENTENCES = [
           "aplicativo"
         ],
         [
+          "D",
+          "é"
+        ],
+        [
           "C",
-          "é muito"
+          "muito"
         ],
         [
           "D",
@@ -393607,11 +393823,15 @@ const SENTENCES = [
         ],
         [
           "B",
-          "app"
+          "‌app"
+        ],
+        [
+          "D",
+          "è"
         ],
         [
           "C",
-          "è assaje"
+          "assaje"
         ],
         [
           "D",
@@ -393625,11 +393845,15 @@ const SENTENCES = [
         ],
         [
           "B",
-          "app"
+          "‌app"
+        ],
+        [
+          "D",
+          "è"
         ],
         [
           "C",
-          "è assà"
+          "assà"
         ],
         [
           "D",
@@ -393668,8 +393892,12 @@ const SENTENCES = [
           "application"
         ],
         [
+          "D",
+          "est"
+        ],
+        [
           "C",
-          "est ben"
+          "ben"
         ],
         [
           "D",
@@ -393882,8 +394110,12 @@ const SENTENCES = [
           "aplicație"
         ],
         [
+          "D",
+          "este"
+        ],
+        [
           "C",
-          "este foarte"
+          "foarte"
         ],
         [
           "D",
@@ -393914,8 +394146,12 @@ const SENTENCES = [
           "aplicació"
         ],
         [
+          "D",
+          "és"
+        ],
+        [
           "C",
-          "és molt"
+          "molt"
         ],
         [
           "D",
@@ -394440,8 +394676,12 @@ const SENTENCES = [
           "aplikasyon"
         ],
         [
+          "D",
+          "es"
+        ],
+        [
           "C",
-          "es muy"
+          "muy"
         ],
         [
           "D",
@@ -394740,8 +394980,12 @@ const SENTENCES = [
           "app"
         ],
         [
+          "D",
+          "es"
+        ],
+        [
           "C",
-          "es muy"
+          "muy"
         ],
         [
           "D",
@@ -395028,8 +395272,12 @@ const SENTENCES = [
           "app"
         ],
         [
+          "D",
+          "es"
+        ],
+        [
           "C",
-          "es muy"
+          "muy"
         ],
         [
           "D",
@@ -395046,8 +395294,12 @@ const SENTENCES = [
           "app"
         ],
         [
+          "D",
+          "es"
+        ],
+        [
           "C",
-          "es muy"
+          "muy"
         ],
         [
           "D",
@@ -395064,8 +395316,12 @@ const SENTENCES = [
           "aplicación"
         ],
         [
+          "D",
+          "é"
+        ],
+        [
           "C",
-          "é moi"
+          "moi"
         ],
         [
           "D",
@@ -395082,8 +395338,12 @@ const SENTENCES = [
           "aplicacion"
         ],
         [
+          "D",
+          "es"
+        ],
+        [
           "C",
-          "es plan"
+          "plan"
         ],
         [
           "D",
@@ -395580,8 +395840,12 @@ const SENTENCES = [
           "aplicación"
         ],
         [
+          "D",
+          "e"
+        ],
+        [
           "C",
-          "e bien"
+          "bien"
         ],
         [
           "D",
@@ -395598,8 +395862,12 @@ const SENTENCES = [
           "aplicación"
         ],
         [
+          "D",
+          "es"
+        ],
+        [
           "C",
-          "es bien"
+          "bien"
         ],
         [
           "D",
@@ -395616,8 +395884,12 @@ const SENTENCES = [
           "aplicación"
         ],
         [
+          "D",
+          "eh"
+        ],
+        [
           "C",
-          "eh mu"
+          "mu"
         ],
         [
           "D",
@@ -395634,8 +395906,12 @@ const SENTENCES = [
           "application"
         ],
         [
+          "D",
+          "est"
+        ],
+        [
           "C",
-          "est vraiment"
+          "vraiment"
         ],
         [
           "D",
@@ -395652,8 +395928,12 @@ const SENTENCES = [
           "application"
         ],
         [
+          "D",
+          "est"
+        ],
+        [
           "C",
-          "est fort"
+          "fort"
         ],
         [
           "D",
@@ -395736,8 +396016,12 @@ const SENTENCES = [
           "app"
         ],
         [
+          "D",
+          "xe"
+        ],
+        [
           "C",
-          "xe proprio"
+          "proprio"
         ],
         [
           "D",
@@ -395974,8 +396258,12 @@ const SENTENCES = [
           "application"
         ],
         [
+          "D",
+          "est"
+        ],
+        [
           "C",
-          "est très"
+          "très"
         ],
         [
           "D",
@@ -400088,7 +400376,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "‌la"
+          "la"
         ],
         [
           "G",
@@ -401454,7 +401742,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "‌la"
+          "la"
         ],
         [
           "G",
@@ -401868,7 +402156,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "‌la"
+          "la"
         ],
         [
           "G",
@@ -402550,7 +402838,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "‌la"
+          "la"
         ],
         [
           "G",
@@ -402950,7 +403238,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "‌la"
+          "la"
         ],
         [
           "G",
@@ -403318,7 +403606,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "‌la"
+          "la"
         ],
         [
           "G",
@@ -403344,7 +403632,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "‌la"
+          "la"
         ],
         [
           "G",
@@ -403391,8 +403679,12 @@ const SENTENCES = [
           "Ieu"
         ],
         [
+          "B",
+          "pòdi"
+        ],
+        [
           "C",
-          "pòdi pas"
+          "pas"
         ],
         [
           "D",
@@ -404062,7 +404354,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "‌la"
+          "la"
         ],
         [
           "G",
@@ -404088,7 +404380,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "‌la"
+          "la"
         ],
         [
           "G",
@@ -404114,7 +404406,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "‌la"
+          "la"
         ],
         [
           "G",
@@ -404294,7 +404586,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "‌la"
+          "la"
         ],
         [
           "G",
@@ -417719,7 +418011,7 @@ const SENTENCES = [
       ],
       "pt_eu": [
         [
-          "A",
+          "A|B",
           "Neste"
         ],
         [
@@ -417745,7 +418037,7 @@ const SENTENCES = [
       ],
       "pt_br": [
         [
-          "A",
+          "A|B",
           "Neste"
         ],
         [
@@ -420606,11 +420898,11 @@ const SENTENCES = [
         ],
         [
           "E",
-          "mucho"
+          "muchas"
         ],
         [
           "F",
-          "festivales"
+          "fiestas"
         ]
       ],
       "tlh": [
@@ -421597,7 +421889,7 @@ const SENTENCES = [
       ],
       "gl": [
         [
-          "A",
+          "A|B",
           "Neste"
         ],
         [
@@ -427738,7 +428030,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "łe łengue"
+          "le lengue"
         ],
         [
           "C",
@@ -430302,8 +430594,12 @@ const SENTENCES = [
       ],
       "lad": [
         [
+          "D",
+          "Yo"
+        ],
+        [
           "C",
-          "Yo vo"
+          "vo"
         ],
         [
           "B",
@@ -431364,7 +431660,7 @@ const SENTENCES = [
           "a la oficina"
         ],
         [
-          "D",
+          "A",
           "en bicicleta"
         ]
       ],
@@ -431378,7 +431674,7 @@ const SENTENCES = [
           "a la ofisina"
         ],
         [
-          "D",
+          "A",
           "en bicicleta"
         ]
       ],
@@ -433817,7 +434113,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "o"
+          "ô"
         ],
         [
           "E",
@@ -434149,7 +434445,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "‌la"
+          "la"
         ],
         [
           "E",
@@ -434197,7 +434493,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌la"
+          "la"
         ],
         [
           "E",
@@ -434831,7 +435127,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌la"
+          "la"
         ],
         [
           "E",
@@ -435203,7 +435499,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌la"
+          "la"
         ],
         [
           "E",
@@ -435559,7 +435855,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌la"
+          "la"
         ],
         [
           "E",
@@ -435585,7 +435881,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌la"
+          "la"
         ],
         [
           "E",
@@ -435625,7 +435921,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "virats a drecha"
+          "viratz a drecha"
         ],
         [
           "C",
@@ -436223,7 +436519,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌la"
+          "la"
         ],
         [
           "E",
@@ -436249,7 +436545,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌la"
+          "la"
         ],
         [
           "E",
@@ -449158,8 +449454,12 @@ const SENTENCES = [
           "coûte"
         ],
         [
+          "A",
+          "ce"
+        ],
+        [
           "B",
-          "ce souvenir"
+          "souvenir"
         ]
       ],
       "de_at": [
@@ -449226,8 +449526,12 @@ const SENTENCES = [
           "costelo"
         ],
         [
+          "A",
+          "sto"
+        ],
+        [
           "B",
-          "sto souvenir"
+          "souvenir"
         ]
       ],
       "th_n": [

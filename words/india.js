@@ -47,7 +47,7 @@ WORDS.india = {
     en: "India — the country in South Asia. Almost all its names come from one river, the Indus, Sanskrit सिन्धु Sindhu, by four roads. Old Persian turned the s into h, and Persian Hind and Hindustan passed to Arabic الهند, Turkish Hindistan and Hindi हिंदुस्तान. Greek dropped the h altogether: Ἰνδία became Latin India and, from there, English India, French Inde and Russian Индия. Chinese pilgrims wrote 印度 Yìndù, which Japanese reads インド, Korean 인도 and Vietnamese Ấn Độ. India's own languages mostly say भारत Bhārat, after Bharata, the legendary king of the Mahābhārata.",
     ja: "インド — 南アジアの国。呼び名のほとんどは一本の川、インダス川（サンスクリット語 सिन्धु シンドゥ）から来ていて、伝わった道は四つある。古ペルシャ語は s を h に変え、ペルシャ語の Hind や Hindustan がアラビア語 الهند、トルコ語 Hindistan、ヒンディー語 हिंदुस्तान に渡った。ギリシャ語は h まで落とし、Ἰνδία がラテン語 India になり、そこから英語 India、フランス語 Inde、ロシア語 Индия へ広がった。中国の求法僧は 印度 と書き、日本語はこれを インド、韓国語は 인도、ベトナム語は Ấn Độ と読む。インド自身の言語の多くは、叙事詩『マハーバーラタ』の伝説の王バラタにちなむ भारत バーラトと言う。",
     ko: "인도 — 남아시아의 나라. 이름 대부분은 강 하나, 인더스강(산스크리트어 सिन्धु 신두)에서 나왔고, 전해진 길은 넷이다. 고대 페르시아어는 s를 h로 바꾸었고, 페르시아어 Hind와 Hindustan이 아랍어 الهند, 튀르키예어 Hindistan, 힌디어 हिंदुस्तान으로 건너갔다. 그리스어는 h마저 떨어뜨려 Ἰνδία가 라틴어 India가 되었고, 거기서 영어 India, 프랑스어 Inde, 러시아어 Индия로 퍼졌다. 중국의 구법승들은 印度라고 썼고, 일본어는 이를 インド, 한국어는 인도, 베트남어는 Ấn Độ로 읽는다. 인도 자신의 언어들은 대개 『마하바라타』의 전설적인 왕 바라타에서 온 भारत 바라트라고 한다.",
-    zh: "印度——南亚的国家。它的名称几乎都源自一条河，即印度河，梵语 सिन्धु Sindhu，传播的路线有四条。古波斯语把 s 变成 h，波斯语 Hind 和 Hindustan 又传入阿拉伯语 الهند、土耳其语 Hindistan 和印地语 हिंदुस्तान。希腊语干脆连 h 也去掉：Ἰνδία 成了拉丁语 India，再传到英语 India、法语 Inde、俄语 Индия。中国的求法僧写作\"印度\"，日语读作 インド，韩语读作 인도，越南语读作 Ấn Độ。印度本国的语言大多说 भारत Bhārat，得名于史诗《摩诃婆罗多》中的传说之王婆罗多。",
+    zh: "印度——南亚的国家。它的名称几乎都源自一条河，即印度河，梵语 सिन्धु Sindhu，传播的路线有四条。古波斯语把 s 变成 h，波斯语 Hind 和 Hindustan 又传入阿拉伯语 الهند、土耳其语 Hindistan 和印地语 हिंदुस्तान。希腊语干脆连 h 也去掉：Ἰνδία 成了拉丁语 India，再传到英语 India、法语 Inde、俄语 Индия。中国的求法僧写作“印度”，日语读作 インド，韩语读作 인도，越南语读作 Ấn Độ。印度本国的语言大多说 भारत Bhārat，得名于史诗《摩诃婆罗多》中的传说之王婆罗多。",
     yue: "印度——南亞嘅國家。佢嘅名稱差唔多全部源自一條河，即係印度河，梵文 सिन्धु Sindhu，傳播路線有四條。古波斯文將 s 變成 h，波斯文 Hind 同 Hindustan 再傳入阿拉伯文 الهند、土耳其文 Hindistan 同印地文 हिंदुस्तान。希臘文連 h 都唔要：Ἰνδία 變成拉丁文 India，再傳到英文 India、法文 Inde、俄文 Индия。中國嘅求法僧寫做「印度」，日文讀 インド，韓文讀 인도，越南文讀 Ấn Độ。印度本國嘅語言大多講 भारत Bhārat，得名於史詩《摩訶婆羅多》入面嘅傳說之王婆羅多。",
     vi: "Ấn Độ — quốc gia ở Nam Á. Hầu hết tên gọi của nó đều bắt nguồn từ một con sông, sông Ấn, tiếng Phạn सिन्धु Sindhu, theo bốn con đường. Tiếng Ba Tư cổ đổi s thành h, và tiếng Ba Tư Hind, Hindustan truyền sang tiếng Ả Rập الهند, Thổ Nhĩ Kỳ Hindistan và Hindi हिंदुस्तान. Tiếng Hy Lạp bỏ luôn h: Ἰνδία thành tiếng Latin India, rồi từ đó thành tiếng Anh India, Pháp Inde và Nga Индия. Các nhà sư Trung Hoa viết là 印度, tiếng Nhật đọc インド, tiếng Hàn đọc 인도 và tiếng Việt đọc Ấn Độ. Phần lớn các ngôn ngữ của chính Ấn Độ gọi là भारत Bhārat, theo tên vua Bharata huyền thoại trong sử thi Mahābhārata.",
     th: "อินเดีย — ประเทศในเอเชียใต้ ชื่อเกือบทั้งหมดมาจากแม่น้ำสายเดียว คือแม่น้ำสินธุ ภาษาสันสกฤต सिन्धु Sindhu โดยผ่านสี่เส้นทาง ภาษาเปอร์เซียโบราณเปลี่ยน s เป็น h และคำเปอร์เซีย Hind กับ Hindustan ก็ส่งต่อไปยังภาษาอาหรับ الهند ตุรกี Hindistan และฮินดี हिंदुस्तान ภาษากรีกทิ้ง h ไปเลย Ἰνδία กลายเป็นภาษาละติน India แล้วจากนั้นเป็นอังกฤษ India ฝรั่งเศส Inde และรัสเซีย Индия พระจีนที่ไปแสวงธรรมเขียนว่า 印度 ซึ่งภาษาญี่ปุ่นอ่าน インド เกาหลีอ่าน 인도 และเวียดนามอ่าน Ấn Độ ส่วนภาษาของอินเดียเองส่วนใหญ่เรียกว่า भारत ภารัต ตามชื่อพระเจ้าภรตในตำนานจากมหากาพย์มหาภารตะ",
@@ -544,6 +544,8 @@ WORDS.india = {
     nch: "greek",
     wal: "persian",
     hoc: "bharat",
+    ja_aom: "yindu",
+    ja_sd: "yindu",
   },
   routes: {
     greek: {"color":"#2563eb","emoji":"🏛️","en":"through Greek Ἰνδία, Latin India (India, Inde, Индия)","ja":"ギリシャ語 Ἰνδία、ラテン語 India 経由（India, Inde, Индия）","ko":"그리스어 Ἰνδία, 라틴어 India를 거쳐 (India, Inde, Индия)","zh":"经希腊语 Ἰνδία、拉丁语 India（India、Inde、Индия）","yue":"經希臘文 Ἰνδία、拉丁文 India（India、Inde、Индия）","vi":"qua tiếng Hy Lạp Ἰνδία, Latin India (India, Inde, Индия)","th":"ผ่านกรีก Ἰνδία ละติน India (India, Inde, Индия)","id":"lewat Yunani Ἰνδία, Latin India (India, Inde, Индия)","hi":"यूनानी Ἰνδία, लैटिन India से होकर (India, Inde, Индия)","de":"über griechisch Ἰνδία, lateinisch India (India, Inde, Индия)","fr":"par le grec Ἰνδία, le latin India (India, Inde, Индия)","it":"attraverso il greco Ἰνδία, il latino India (India, Inde, Индия)","es":"por el griego Ἰνδία, el latín India (India, Inde, Индия)","pt":"pelo grego Ἰνδία, o latim India (India, Inde, Индия)","ru":"через греческое Ἰνδία, латинское India (India, Inde, Индия)","uk":"через грецьке Ἰνδία, латинське India (India, Inde, Индия)","ar":"عبر اليونانية Ἰνδία واللاتينية India (India, Inde, Индия)","he":"דרך היוונית Ἰνδία והלטינית India (India, Inde, Индия)","sw":"kupitia Kigiriki Ἰνδία, Kilatini India (India, Inde, Индия)"},
@@ -595,7 +597,7 @@ WORDS.india = {
     kn: ["ಭಾರತ", "bʱaːɾat̪a"],  // Learned borrowing from Sanskrit Bhārata (Wiktionary).
     ig: ["Ndia", "ndia"],  // The Igbo Wikipedia name. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
     su: ["India", "india"],  // The Sundanese Wikipedia name. Route by resemblance to the neighbouring forms (id(India) it(India)); no etymology of its own.
-    uk: ["Індія", "ˈinʲdʲijɐ"],  // Ultimately from Old Persian hindu and Sanskrit Sindhu, the Indus (Ukrainian Wiktionary). Route by resemblance to the neighbouring forms (tl(Indiya) ta(இந்தியா)); no etymology of its own.
+    uk: ["Індія", "ˈinʲdʲijɐ"],  // Ultimately from Old Persian hindu and Sanskrit Sindhu, the Indus (Ukrainian Wiktionary); Індія is the Latin and Greek form India, as Russian Индия.
     mai: ["भारत", "bʱaːrət"],  // The Maithili Wikipedia name, the same Bhārat as Hindi.
     ml: ["ഇന്ത്യ", "ind̪ja"],  // Borrowed from English India; ഭാരതം Bhāratam is the Sanskrit-derived synonym (Wiktionary).
     or: ["ଭାରତ", "bʱaːɾɔtɔ"],  // Learned borrowing from Sanskrit Bhārata; ଭାରତବର୍ଷ and ହିନ୍ଦୁସ୍ତାନ are synonyms (Wiktionary).
@@ -1020,7 +1022,7 @@ WORDS.india = {
     kl: ["India", "india"],
     cmg: ["ᠡᠨᠡᠳᠬᠡᠭ", "enedkeɡ"],  // Traditional spelling from Wiktionary's Mongolian entry; no dated Classical citation opened, so this is the written-standard form, not proof of period. IPA in the row's style, mine.
     zh_han: ["身毒", "l̥jǝn dhǝ̄uk"],  // 史記 大宛列傳 (張騫 passages); found on ctext. StarLing Western Han.
-    ceb: ["Indiya", "inˈdija"],  // Wolff: "Indiya n India"
+    ceb: ["Indiya", "ʔinˈdija"],  // Wolff: "Indiya n India"
     mnw: ["အိန္ဒိယ", "intiʔjaʔ"],  // Mon အိန္ဒိယ 'India' (Shorto), the same spelling as Burmese.
     az: ["Hindistan", "hindisˈtɑn"],  // Hind 'India' with the Persian ending -istan 'land'.
     tk: ["Hindistan", "hindistan"],  // No etymology is recorded for it.
@@ -1029,5 +1031,7 @@ WORDS.india = {
     nch: ["India", "ˈindia"],  // From Latin India.
     wal: ["Hindde", "hindːe"],  // Route by resemblance to the neighbouring forms (am(ህንድ) ti(ህንዲ)); no etymology of its own.
     hoc: ["Bhart", "bʱart"],  // Derived from Sanskrit bhārata.
+    ja_aom: ["インド", "indo"],  // The standard Japanese word, used in Aomori as everywhere in Japan.
+    ja_sd: ["インド", "indo"],  // The standard Japanese word, used in Sendai as everywhere in Japan.
   },
 };

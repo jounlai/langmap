@@ -4,8 +4,8 @@
  * term like "feces" or "stool". A striking number of unrelated language
  * families converge on the same nursery-babble shape: a reduplicated or
  * near-reduplicated syllable built on a velar stop + low vowel — caca
- * (Romance), kaka (Slavic, Germanic, Greek, Turkic, Finnic, Armenian,
- * Celtic) — independently traceable in several families to the PIE root
+ * (Romance), kaka (Slavic, Germanic, Greek, Armenian, Celtic, and also
+ * Turkic and Finnic) — in Indo-European traced to the PIE root
  * *kakka- "to void excrement", likely onomatopoeic for the grunt of straining.
  */
 WORDS.poop = {
@@ -176,7 +176,7 @@ WORDS.poop = {
     eu: ["kaka", "kaka"],
     cy: ["cach", "kaːx"],
     ka: ["კაკა", "kʼakʼa"],
-    hy: ["քաքա", "kʰɑkʰɑ"],
+    hy: ["քաքա", "kʰɑˈkʰɑ"],
     nv: ["chąąʼ", "tʃʰɑ̃̀ːʔ"],
     haw: ["kūkae", "kuːkae"],
     mi: ["tūtae", "tuːtae"],

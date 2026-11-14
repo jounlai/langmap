@@ -51,7 +51,7 @@ WORDS.language = {
     en: "Language — a language, as in \"the Japanese language\". Most languages name it after the tongue or after speaking. French langue, Russian язык, Turkish dil and Persian zabān are the tongue, and so is English language, from Old French langue. German Sprache, Dutch taal and Sanskrit bhāṣā are speech, and bhāṣā travelled to Hindi, Thai and Indonesian bahasa; Chinese 语言 and Japanese 言語 are \"speech\" + \"words\". Somali af says mouth, Hebrew שפה lip, Vietnamese tiếng voice.",
     ja: "言語 — 「日本語」のような、ひとつの言語。多くの言語は、舌か、話すことにちなんで呼ぶ。フランス語 langue、ロシア語 язык、トルコ語 dil、ペルシャ語 zabān は「舌」で、英語 language も古フランス語の langue（舌）から来ている。ドイツ語 Sprache、オランダ語 taal、サンスクリット語 bhāṣā は「話すこと」で、bhāṣā はヒンディー語、タイ語、インドネシア語の bahasa にまで広がった。中国語の 语言 と日本語の 言語 は「ことば」＋「ことば」。ソマリ語 af は「口」、ヘブライ語 שפה は「唇」、ベトナム語 tiếng は「声」。",
     ko: "언어 — \"일본어\"처럼 하나의 언어. 대부분의 언어는 혀나 말하기에서 이름을 땄다. 프랑스어 langue, 러시아어 язык, 튀르키예어 dil, 페르시아어 zabān은 \"혀\"이고, 영어 language도 고대 프랑스어 langue(혀)에서 왔다. 독일어 Sprache, 네덜란드어 taal, 산스크리트어 bhāṣā는 \"말\"이며, bhāṣā는 힌디어, 태국어, 인도네시아어 bahasa까지 퍼졌다. 중국어 语言과 일본어 言語는 \"말\"+\"말씀\"이다. 소말리어 af는 \"입\", 히브리어 שפה는 \"입술\", 베트남어 tiếng은 \"소리\"다.",
-    zh: "语言——一种语言，比如\"日语\"。大多数语言用舌头或说话来称呼它。法语 langue、俄语 язык、土耳其语 dil、波斯语 zabān 都是\"舌头\"，英语 language 也来自古法语 langue（舌头）。德语 Sprache、荷兰语 taal、梵语 bhāṣā 是\"说话\"，bhāṣā 一路传到印地语、泰语和印尼语 bahasa。汉语\"语言\"和日语\"言語\"是\"话\"加\"言\"。索马里语 af 是\"嘴\"，希伯来语 שפה 是\"嘴唇\"，越南语 tiếng 是\"声音\"。",
+    zh: "语言——一种语言，比如“日语”。大多数语言用舌头或说话来称呼它。法语 langue、俄语 язык、土耳其语 dil、波斯语 zabān 都是“舌头”，英语 language 也来自古法语 langue（舌头）。德语 Sprache、荷兰语 taal、梵语 bhāṣā 是“说话”，bhāṣā 一路传到印地语、泰语和印尼语 bahasa。汉语“语言”和日语“言語”是“话”加“言”。索马里语 af 是“嘴”，希伯来语 שפה 是“嘴唇”，越南语 tiếng 是“声音”。",
     yue: "語言——一種語言，例如「日文」。大部分語言都用脷或者講嘢嚟叫佢。法文 langue、俄文 язык、土耳其文 dil、波斯文 zabān 都係「脷」，英文 language 都係嚟自古法文 langue（脷）。德文 Sprache、荷蘭文 taal、梵文 bhāṣā 係「講嘢」，bhāṣā 仲傳到印地文、泰文同印尼文 bahasa。中文「語言」同日文「言語」係「話」加「言」。索馬里文 af 係「口」，希伯來文 שפה 係「嘴唇」，越南文 tiếng 係「聲」。",
     vi: "Ngôn ngữ — một thứ tiếng, như \"tiếng Nhật\". Phần lớn các ngôn ngữ gọi nó theo cái lưỡi hoặc theo việc nói. Tiếng Pháp langue, Nga язык, Thổ Nhĩ Kỳ dil, Ba Tư zabān đều là \"lưỡi\", và tiếng Anh language cũng từ tiếng Pháp cổ langue (lưỡi). Tiếng Đức Sprache, Hà Lan taal, Phạn bhāṣā là \"lời nói\", và bhāṣā lan tới tiếng Hindi, tiếng Thái và tiếng Indonesia bahasa. Tiếng Trung 语言 và tiếng Nhật 言語 là \"lời\" + \"lời\". Tiếng Somali af là \"miệng\", Hebrew שפה là \"môi\", còn tiếng Việt tiếng là \"âm thanh\".",
     th: "ภาษา — ภาษาหนึ่ง ๆ เช่น \"ภาษาญี่ปุ่น\" ภาษาส่วนใหญ่ตั้งชื่อตามลิ้นหรือตามการพูด ฝรั่งเศส langue รัสเซีย язык ตุรกี dil และเปอร์เซีย zabān แปลว่า \"ลิ้น\" และอังกฤษ language ก็มาจากฝรั่งเศสโบราณ langue (ลิ้น) ส่วนเยอรมัน Sprache ดัตช์ taal และสันสกฤต bhāṣā แปลว่า \"การพูด\" และ bhāṣā แพร่ไปถึงฮินดี ไทย และอินโดนีเซีย bahasa จีน 语言 และญี่ปุ่น 言語 คือ \"คำพูด\" + \"ถ้อยคำ\" โซมาลี af แปลว่า \"ปาก\" ฮีบรู שפה แปลว่า \"ริมฝีปาก\" และเวียดนาม tiếng แปลว่า \"เสียง\"",
@@ -625,6 +625,17 @@ WORDS.language = {
     zh_wh: "speech",
     zh_xa: "speech",
     zh_zz: "speech",
+    de_at: "speech",
+    de_ch: "speech",
+    en_ie: "tongue",
+    en_manc: "tongue",
+    en_scouse: "tongue",
+    en_nz: "tongue",
+    pt_cv: "tongue",
+    pt_mo: "tongue",
+    vi_c: "voice",
+    vi_s: "voice",
+    ja_kg: "speech",
   },
   routes: {
     tongue: {"color":"#dc2626","emoji":"👅","en":"the tongue (langue, язык, dil)","ja":"舌（langue, язык, dil）","ko":"혀 (langue, язык, dil)","zh":"舌头（langue、язык、dil）","yue":"脷（langue、язык、dil）","vi":"cái lưỡi (langue, язык, dil)","th":"ลิ้น (langue, язык, dil)","id":"lidah (langue, язык, dil)","hi":"जीभ (langue, язык, dil)","de":"die Zunge (langue, язык, dil)","fr":"l'organe, la langue (langue, язык, dil)","it":"l'organo, la lingua (langue, язык, dil)","es":"el órgano, la lengua (langue, язык, dil)","pt":"o órgão, a língua (langue, язык, dil)","ru":"орган язык (langue, язык, dil)","uk":"орган язик (langue, язык, dil)","ar":"اللسان (langue, язык, dil)","he":"הלשון (langue, язык, dil)","sw":"ulimi (langue, язык, dil)"},
@@ -651,13 +662,13 @@ WORDS.language = {
     hi: ["भाषा", "bʱɑːʂɑː"],  // Borrowed from Sanskrit bhāṣā 'speech, language', from bhāṣ 'to speak'.
     sa: ["भाषा", "bʱaːʂaː"],
     bn: ["ভাষা", "bʱaʃa"],
-    ur: ["زبان", "zəbɑːn"],  // Also 'tongue'; borrowed from Persian zabān.
+    ur: ["زبان", "zəbaːn"],  // Also 'tongue'; borrowed from Persian zabān.
     ta: ["மொழி", "moɻiː"],  // From Proto-Dravidian *moẓV- 'to speak'.
     en: ["language", "ˈlæŋɡwɪdʒ"],  // From Old French language, a derivative of langue 'tongue'.
     de: ["Sprache", "ˈʃpʁaːxə"],  // From Old High German sprāhha; the same word as English speech.
     fr: ["langue", "lɑ̃ɡ"],  // Also 'tongue'.
-    it: ["lingua", "ˈlinɡwa"],  // Also 'tongue'.
-    es: ["lengua", "ˈlenɡwa"],  // Also 'tongue'; idioma is equally common.
+    it: ["lingua", "ˈliŋɡwa"],  // Also 'tongue'.
+    es: ["lengua", "ˈleŋɡwa"],  // Also 'tongue'; idioma is equally common.
     pt: ["língua", "ˈlĩɡwɐ"],  // Also 'tongue'; idioma is also used.
     ru: ["язык", "jɪˈzɨk"],  // Also 'tongue'.
     ar: ["لغة", "luɣa"],  // Wiktionary relates it to Hebrew לוע 'throat'.
@@ -668,20 +679,20 @@ WORDS.language = {
     tl: ["wika", "ˈwikaʔ"],  // Possibly native, possibly a Sanskrit loan; Wiktionary leaves it open.
     mn: ["хэл", "xeɮ"],
     sah: ["тыл", "tɯl"],
-    tyv: ["дыл", "tɯl"],
+    tyv: ["дыл", "dɯl"],
     bxr: ["хэлэн", "xeleŋ"],
     mvf: ["ugo", "uko"],
     gld: ["хэсэ", "həsə"],
     yrk: ["вада", "wɑdɑ"],
     sel: ["эты", "ætɨ"],
-    kca: ["ясаӈ", "jasaŋ"],
+    kca: ["ясаӈ", "ˈjasaŋ"],
     ykg: ["аруу", "aruː"],
     yux: ["ажуу", "aʒuː"],
     niv: ["тиф", "cif"],
     my: ["ဘာသာစကား", "bàθàzəɡá"],
     lo: ["ພາສາ", "pʰaː˧˥saː˩˧"],
     yo: ["ede", "èdè"],
-    zu: ["ulimi", "uːliːmi"],
+    zu: ["ulimi", "uliːmi"],
     am: ["ቋንቋ", "kʼwankʼwa"],
     fi: ["kieli", "ˈkieli"],  // Also 'tongue'.
     hu: ["nyelv", "ɲɛlv"],  // Also 'tongue'.
@@ -696,7 +707,7 @@ WORDS.language = {
     ga: ["teanga", "ˈtʲaŋə"],
     eu: ["hizkuntza", "his̻kunts̻a"],  // From hitz 'word'.
     cy: ["iaith", "jai̯θ"],
-    ka: ["ენა", "e̞nä"],
+    ka: ["ენა", "ena"],
     hy: ["լեզու", "leˈzu"],
     nv: ["saad", "sɑ̀ːt"],  // From Proto-Athabaskan *-za̓ˑd 'mouth'.
     haw: ["ʻōlelo", "ʔoːlelo"],  // Wiktionary gives two possible origins, one of them alelo 'tongue'.
@@ -729,36 +740,36 @@ WORDS.language = {
     ha: ["harshe", "haɽʃeː"],
     wo: ["làkk", "laːkː"],
     so: ["af", "af"],  // Also 'mouth'.
-    om: ["afaan", "ɐfaːn"],  // Also 'mouth'; from Proto-Cushitic *ʔaf- 'mouth'.
+    om: ["afaan", "afaːn"],  // Also 'mouth'; from Proto-Cushitic *ʔaf- 'mouth'.
     xh: ["ulwimi", "ulwiːmi"],
     af: ["taal", "tɑːl"],  // From Dutch taal; related to English tale and tell.
     bar: ["Språch", "ʃb̥rɔːx"],
     yi: ["שפּראַך", "ʃpʁaχ"],  // Cognate with German Sprache.
-    is: ["mál", "ˈmauːl"],  // From Old Norse mál 'language, speech, matter'.
+    is: ["mál", "mauːl"],  // From Old Norse mál 'language, speech, matter'.
     gd: ["cànan", "ˈkʰãːnan"],  // Derived from cainnt 'speech'.
     br: ["yezh", "jeːs"],
     nap: ["lengua", "ˈleŋɡwə"],
     lij: ["lengua", "ˈleŋɡwa"],
-    rgn: ["idiòma", "idjˈoma"],  // From Latin idioma, from Greek ἰδίωμα 'peculiarity'.
+    rgn: ["idiòma", "iˈdjoma"],  // From Latin idioma, from Greek ἰδίωμα 'peculiarity'.
     egl: ["langua", "ˈlaŋɡwa"],
     ca: ["llengua", "ˈʎeŋɡwə"],
     gl: ["lingua", "ˈliŋɡwa"],
     oc: ["lenga", "ˈleŋɡɔ"],
     be: ["мова", "ˈmova"],  // From Old East Slavic мълва 'speech, talk'.
     cs: ["jazyk", "ˈjazɪk"],
-    sk: ["jazyk", "jazik"],
+    sk: ["jazyk", "ˈjazik"],
     sl: ["jezik", "ˈjɛːzik"],
     bg: ["език", "ɛˈzik"],
     lt: ["kalba", "kɐlˈbɐ"],  // Probably from a root meaning 'to shout'.
-    lv: ["valoda", "valuoda"],
+    lv: ["valoda", "ˈvaluɔda"],
     sq: ["gjuhë", "ˈɟuhə"],
-    et: ["keel", "ˈkeːl"],
+    et: ["keel", "keːl"],
     ht: ["lang", "lãɡ"],
     pap: ["idioma", "idioma"],  // From Spanish idioma, from Greek ἰδίωμα 'peculiarity'.
     rom: ["ćhib", "tʃʰip"],
     rmf: ["tšimb", "tʃimp"],
     se: ["giella", "ˈkie̯lla"],
-    sma: ["gïele", "kɨɛlɛ"],
+    sma: ["gïele", "ˈkɨɛlɛ"],
     sjd: ["кӣлл", "kiːlː"],
     yrl: ["nheenga", "ɲeˈʔẽɡa"],
     as: ["ভাষা", "bʱɑxɑ"],
@@ -770,7 +781,7 @@ WORDS.language = {
     sc: ["limba", "ˈlimba"],
     la: ["lingua", "ˈliŋɡʷa"],
     enm: ["tonge", "ˈtunɡə"],
-    ang: ["tunge", "ˈtunɡe"],
+    ang: ["tunge", "ˈtuŋɡe"],
     non: ["mál", "mɑul"],
     aii: ["ܠܫܢܐ", "lɪʃˈʃoːna"],
     eo: ["lingvo", "ˈlinɡvo"],
@@ -795,12 +806,12 @@ WORDS.language = {
     udi: ["муз", "muz"],
     ady: ["бзэ", "bza"],
     kbd: ["бзэ", "bza"],
-    os: ["ӕвзаг", "avzaɡ"],
+    os: ["ӕвзаг", "ævzaɡ"],
     ty: ["reo", "ɾeo"],  // From Proto-Polynesian *leqo 'voice'.
     tvl: ["gagana", "ŋaŋana"],
     tet: ["lia", "lia"],
     aoz: ["uab", "uab"],
-    pjt: ["tjaa", "cɐː"],
+    pjt: ["tjaa", "caː"],
     new: ["भाय्", "bʱæː"],
     lus: ["ṭawng", "tɾɔŋ"],
     dz: ["ཁ", "kʰɑ˥"],  // Also 'mouth'.
@@ -809,27 +820,27 @@ WORDS.language = {
     ks: ["زبان", "zabaːn"],
     kok: ["भास", "bʰaːs"],
     rue: ["язык", "jaˈzɨk"],
-    fur: ["lenghe", "ˈlɛnɡe"],
-    ast: ["llingua", "ˈʎiŋɣwa"],
-    an: ["luenga", "ˈlwenɡa"],
-    rup: ["limbã", "ˈlimbɨ"],
+    fur: ["lenghe", "ˈlɛŋɡe"],
+    ast: ["llingua", "ˈʎiŋɡwa"],
+    an: ["luenga", "ˈlweŋɡa"],
+    rup: ["limbã", "ˈlimbə"],
     wa: ["lingaedje", "lɛ̃ɡatʃ"],
-    kpv: ["кыв", "kɨʋ"],
+    kpv: ["кыв", "kɨv"],
     udm: ["кыл", "kɨl"],
     mhr: ["йылме", "ˈjəlme"],
-    mrj: ["йӹлмӹ", "ˈjəlmə"],
-    myv: ["кель", "kʲelʲ"],
+    mrj: ["йӹлмӹ", "ˈjɯlmɯ"],
+    myv: ["кель", "kelʲ"],
     krl: ["kieli", "ˈkie̯lʲi"],
     olo: ["kieli", "ˈkie̯li"],
     vot: ["čeeli", "ˈtʃeːli"],
-    liv: ["kēļ", "ˈkeːʎ"],
+    liv: ["kēļ", "keːʎ"],
     tt: ["тел", "tel"],
-    ba: ["тел", "tɪ̞l"],
+    ba: ["тел", "tel"],
     ee: ["aɖe", "aɖe"],
     ess: ["улю", "ulju"],
     lmo: ["lengua", "ˈleːŋɡwa"],
     pms: ["lenga", "ˈlɛŋɡa"],
-    mwl: ["lhéngua", "ˈʎẽɡwa"],
+    mwl: ["lhéngua", "ˈʎẽɡwɐ"],
     dsb: ["rěc", "rʲɪts"],
     gv: ["çhengey", "ˈtʃaŋə"],
     kw: ["yeth", "jɛːθ"],
@@ -866,7 +877,7 @@ WORDS.language = {
     ltg: ["volūda", "ˈvɔluːda"],
     io: ["linguo", "ˈlinɡu̯o"],
     fkv: ["kieli", "ˈkieli"],
-    fit: ["kieli", "kieli"],
+    fit: ["kieli", "ˈkieli"],
     rmt: ["jib", "dʒib"],
     zh: ["语言", "y˨˩˦ jɛn˧˥"],  // 语 'speech' + 言 'words'.
     zh_tw: ["語言", "y˨˩˦ jɛn˧˥"],  // 語 'speech' + 言 'words'.
@@ -879,17 +890,17 @@ WORDS.language = {
     nan_te: ["语言", "ɡɯ˥˨ ŋaŋ˥˥"],
     cdo: ["语言", "ŋy˧˧ ŋyoŋ˥˧"],
     mnp: ["语言", "ŋy˨˩ ŋyiŋ˧˧"],
-    es_cr: ["lengua", "ˈlenɡwa"],
-    es_hn: ["lengua", "ˈlenɡwa"],
-    es_ni: ["lengua", "ˈlenɡwa"],
-    es_sv: ["lengua", "ˈlenɡwa"],
+    es_cr: ["lengua", "ˈleŋɡwa"],
+    es_hn: ["lengua", "ˈleŋɡwa"],
+    es_ni: ["lengua", "ˈleŋɡwa"],
+    es_sv: ["lengua", "ˈleŋɡwa"],
     fr_lu: ["langue", "lɑ̃ɡ"],
     fr_cm: ["langue", "lɑ̃ɡ"],
     de_lu: ["Sprache", "ˈʃpʁaːxə"],
     en_ng2: ["language", "ˈlæŋɡwɪdʒ"],
-    es_bo: ["lengua", "ˈlenɡwa"],
-    es_py: ["lengua", "ˈlenɡwa"],
-    es_pa: ["lengua", "ˈlenɡwa"],
+    es_bo: ["lengua", "ˈleŋɡwa"],
+    es_py: ["lengua", "ˈleŋɡwa"],
+    es_pa: ["lengua", "ˈleŋɡwa"],
     en_my: ["language", "ˈlæŋɡwɪdʒ"],
     en_wls: ["language", "ˈlaŋɡwɪdʒ"],
     en_jam: ["language", "ˈlaŋɡwɪdʒ"],
@@ -914,7 +925,7 @@ WORDS.language = {
     ko_kp: ["언어", "ʌnʌ"],
     ko_bus: ["언어", "ʌnʌ"],
     ko_yb: ["언어", "ʌnʌ"],
-    es_mx: ["lengua", "ˈlenɡwa"],
+    es_mx: ["lengua", "ˈleŋɡwa"],
     pt_br: ["língua", "ˈlĩɡwɐ"],
     prs: ["زبان", "zaˈbɑːn"],
     en_aave: ["language", "ˈlæŋɡwɪdʒ"],
@@ -932,29 +943,29 @@ WORDS.language = {
     en_wc: ["language", "ˈlaŋɡwɪdʒ"],
     en_est: ["language", "ˈlæŋɡwɪdʒ"],
     en_sg: ["language", "ˈlɛŋɡwɪdʒ"],
-    fr_qc: ["langue", "lɑ̃ɡ"],
+    fr_qc: ["langue", "lãːɡ"],
     fr_af: ["langue", "lɑ̃ɡ"],
-    fr_be: ["langue", "lɑ̃ɡ"],
-    fr_ch: ["langue", "lɑ̃ɡ"],
-    es_co: ["lengua", "ˈlenɡwa"],
-    es_cl: ["lengua", "ˈlenɡwa"],
-    es_ar: ["lengua", "ˈlenɡwa"],
-    es_cu: ["lengua", "ˈlenɡwa"],
-    es_pe: ["lengua", "ˈlenɡwa"],
-    es_an: ["lengua", "ˈlenɡwa"],
+    fr_be: ["langue", "lɑ̃ːɡ"],
+    fr_ch: ["langue", "lɑ̃ːɡ"],
+    es_co: ["lengua", "ˈleŋɡwa"],
+    es_cl: ["lengua", "ˈleŋɡwa"],
+    es_ar: ["lengua", "ˈleŋɡwa"],
+    es_cu: ["lengua", "ˈleŋɡwa"],
+    es_pe: ["lengua", "ˈleŋɡwa"],
+    es_an: ["lengua", "ˈleŋɡwa"],
     ko_hg: ["언어", "ʌnʌ"],
     ko_jl: ["언어", "ənə"],
     lij_t: ["lengua", "ˈleŋɡwa"],
-    es_pr: ["lengua", "ˈlenɡwa"],
-    es_do: ["lengua", "ˈlenɡwa"],
-    es_gt: ["lengua", "ˈlenɡwa"],
-    es_ec: ["lengua", "ˈlenɡwa"],
-    es_uy: ["lengua", "ˈlenɡwa"],
-    es_ve: ["lengua", "ˈlenɡwa"],
+    es_pr: ["lengua", "ˈleŋɡwa"],
+    es_do: ["lengua", "ˈleŋɡwa"],
+    es_gt: ["lengua", "ˈleŋɡwa"],
+    es_ec: ["lengua", "ˈleŋɡwa"],
+    es_uy: ["lengua", "ˈleŋɡwa"],
+    es_ve: ["lengua", "ˈleŋɡwa"],
     ar_qur: ["لسان", "lisaːn"],  // Also "tongue"; Quran 14:4 "in the language (lisān) of his people".
     prg: ["bilā", "ˈbilaː"],
     el_grc: ["γλῶσσα", "ɡlɔ̂ːssa"],  // Also "tongue".
-    egy: ["𓂋", "er"],  // The word for "mouth", also "language, manner of speech".
+    egy: ["𓂋", "ra"],  // The word for "mouth", also "language, manner of speech".
     ofs: ["tunge", "ˈtuŋɡe"],  // Also "tongue".
     got: ["𐍂𐌰𐌶𐌳𐌰", "ˈrazda"],  // Mark 14:70 "razda þeina"; from Proto-Germanic *razdō "voice, speech".
     cu: ["ѩзꙑкъ", "jɛ̃zɨkŭ"],  // Also "tongue".
@@ -1023,7 +1034,7 @@ WORDS.language = {
     sd: ["ٻولي", "ɓoːliː"],  // From ٻولڻ 'to speak'.
     cv: ["чӗлхе", "tɕɘlˈxe"],  // From Proto-Turkic *til 'tongue'.
     si: ["භාෂාව", "baːʃaːʋə"],
-    scn: ["lingua", "ˈlinɡwa"],
+    scn: ["lingua", "ˈliŋɡwa"],
     fy: ["taal", "taːl"],  // From Proto-Germanic *talō 'tale, speech'.
     su: ["basa", "basa"],
     shn: ["ၽႃႇသႃႇ", "pʰaː˩sʰaː˩"],  // Borrowed from Pali bhāsā 'speech'.
@@ -1188,5 +1199,16 @@ WORDS.language = {
     zh_wh: ["语言", "y˦˨ iɛn˨˩˧"],  // 语 'speech' + 言 'words'. Reading from MCPDict 武漢.
     zh_xa: ["语言", "y˥˧ iã˨˦"],  // 语 'speech' + 言 'words'. Reading from MCPDict 西安.
     zh_zz: ["语言", "y˥˧ ian˦˨"],  // 语 'speech' + 言 'words'. Reading from MCPDict 開封 (no Zhengzhou table; the row matches Kaifeng).
+    de_at: ["Sprache", "ˈʃpraːxə"],  // The same word as standard German.
+    de_ch: ["Sprache", "ˈʃpraːxə"],  // The same word as standard German.
+    en_ie: ["language", "ˈlaŋɡwɪdʒ"],  // Same word as standard English; IPA from the row's own cells.
+    en_manc: ["language", "ˈlaŋɡwɪdʒ"],  // Same word as standard English; IPA from the row's own cells.
+    en_scouse: ["language", "ˈlaŋɡwɪdʒ"],  // Same word as standard English; IPA from the row's own cells.
+    en_nz: ["language", "ˈlæŋɡwədʒ"],  // Same word as standard English; IPA from the row's own cells.
+    pt_cv: ["língua", "ˈlĩɡwɐ"],  // Also 'tongue', as in Portugal.
+    pt_mo: ["língua", "ˈlĩɡwɐ"],  // Also 'tongue', as in Portugal.
+    vi_c: ["tiếng", "tiəŋ˨˦"],  // The same word as standard Vietnamese, with the Huế sắc tone.
+    vi_s: ["tiếng", "tiəŋ˧˥"],  // The same word as standard Vietnamese.
+    ja_kg: ["言語", "ɡeŋɡo"],  // The standard Japanese word, used in Kagoshima as everywhere in Japan.
   },
 };

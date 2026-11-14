@@ -42,7 +42,7 @@ WORDS.shootingstar = {
     en: "Shooting star — the streak of light of a meteor burning up in the sky. Most languages see a star falling (Italian stella cadente, Russian падающая звезда, Thai ดาวตก) or flowing away (Japanese 流れ星, Chinese 流星, Spanish estrella fugaz \"fleeting star\"). German Sternschnuppe is a star's snuffed-off candle wick, Hindi टूटता तारा a \"breaking star\", and Korean 별똥별 and Malay tahi bintang are \"star droppings\".",
     ja: "流れ星 — 流星が燃え尽きるときに空を走る光の筋。多くの言語は「落ちる星」（イタリア語 stella cadente、ロシア語 падающая звезда、タイ語 ดาวตก）か「流れていく星」（日本語の流れ星、中国語 流星、スペイン語 estrella fugaz「はかない星」）と見る。ドイツ語 Sternschnuppe は星のろうそくの芯の燃えかす、ヒンディー語 टूटता तारा は「割れる星」、韓国語 별똥별 とマレー語 tahi bintang は「星のうんち」。",
     ko: "별똥별 — 유성이 타면서 하늘을 가르는 빛줄기. 많은 언어는 \"떨어지는 별\"(이탈리아어 stella cadente, 러시아어 падающая звезда, 태국어 ดาวตก)이나 \"흘러가는 별\"(일본어 流れ星, 중국어 流星, 스페인어 estrella fugaz \"덧없는 별\")로 본다. 독일어 Sternschnuppe는 별의 촛불 심지 그을음, 힌디어 टूटता तारा는 \"부서지는 별\", 한국어 별똥별과 말레이어 tahi bintang은 \"별의 똥\"이다.",
-    zh: "流星——流星体燃烧时划过天空的光痕。多数语言把它看作\"落下的星\"（意大利语 stella cadente、俄语 падающая звезда、泰语 ดาวตก）或\"流走的星\"（日语 流れ星、汉语 流星、西班牙语 estrella fugaz\"转瞬即逝的星\"）。德语 Sternschnuppe 是星星剪下的烛芯，印地语 टूटता तारा 是\"碎裂的星\"，韩语 별똥별 和马来语 tahi bintang 则是\"星星的屎\"。",
+    zh: "流星——流星体燃烧时划过天空的光痕。多数语言把它看作“落下的星”（意大利语 stella cadente、俄语 падающая звезда、泰语 ดาวตก）或“流走的星”（日语 流れ星、汉语 流星、西班牙语 estrella fugaz“转瞬即逝的星”）。德语 Sternschnuppe 是星星剪下的烛芯，印地语 टूटता तारा 是“碎裂的星”，韩语 별똥별 和马来语 tahi bintang 则是“星星的屎”。",
     yue: "流星——流星體燒嘅時候喺天空劃過嘅光痕。好多語言當佢係「跌落嚟嘅星」（意大利文 stella cadente、俄文 падающая звезда、泰文 ดาวตก）或者「流走嘅星」（日文 流れ星、中文 流星、西班牙文 estrella fugaz「轉眼即逝嘅星」）。德文 Sternschnuppe 係星星剪落嚟嘅蠟燭芯，印地文 टूटता तारा 係「爆開嘅星」，韓文 별똥별 同馬來文 tahi bintang 就係「星星嘅屎」。",
     vi: "Sao băng — vệt sáng của thiên thạch cháy trên bầu trời. Phần lớn ngôn ngữ thấy một ngôi sao rơi (tiếng Ý stella cadente, tiếng Nga падающая звезда, tiếng Thái ดาวตก, và tiếng Việt sao băng) hoặc trôi đi (tiếng Nhật 流れ星, tiếng Trung 流星, tiếng Tây Ban Nha estrella fugaz \"ngôi sao thoáng qua\"). Tiếng Đức Sternschnuppe là tàn bấc nến của ngôi sao, tiếng Hindi टूटता तारा là \"ngôi sao vỡ\", còn tiếng Hàn 별똥별 và tiếng Mã Lai tahi bintang là \"phân sao\".",
     th: "ดาวตก — แสงที่พาดผ่านท้องฟ้าเมื่ออุกกาบาตลุกไหม้ หลายภาษามองว่าเป็นดาวที่ตก (อิตาลี stella cadente รัสเซีย падающая звезда และไทย ดาวตก) หรือดาวที่ไหลไป (ญี่ปุ่น 流れ星 จีน 流星 สเปน estrella fugaz \"ดาวชั่วแวบ\") เยอรมัน Sternschnuppe คือเขม่าไส้เทียนของดวงดาว ฮินดี टूटता तारा คือ \"ดาวแตก\" ส่วนเกาหลี 별똥별 และมลายู tahi bintang คือ \"ขี้ดาว\"",
@@ -303,7 +303,7 @@ WORDS.shootingstar = {
     pi: "other",
     ota: "other",
     syc: "other",
-    non: "unknown",
+    non: "falling",
     el_grc: "moving",
     yue_dg: "moving",
     cjy_lv: "moving",
@@ -336,6 +336,7 @@ WORDS.shootingstar = {
     mic: "plain",
     nv: "moving",
     cho: "unknown",
+    ja_kg: "moving",
   },
   routes: {
     falling: {"color":"#2563eb","emoji":"⬇️","en":"a falling star","ja":"落ちる星","ko":"떨어지는 별","zh":"落下的星","yue":"跌落嘅星","vi":"sao rơi","th":"ดาวที่ตก","id":"bintang jatuh","hi":"गिरता तारा","de":"fallender Stern","fr":"étoile qui tombe","it":"stella che cade","es":"estrella que cae","pt":"estrela que cai","ru":"падающая звезда","uk":"зірка, що падає","ar":"نجم يسقط","he":"כוכב שנופל","sw":"nyota inayoanguka"},
@@ -584,7 +585,7 @@ WORDS.shootingstar = {
     pi: ["उक्का", "ukkaː"],  // Also 'torch': the same word as Sanskrit उल्का, a fiery brand in the sky.
     ota: ["شهاب", "ʃiˈhab"],  // From Arabic شهاب 'blazing firebrand'.
     syc: ["ܢܝܙܟܐ", "najzəxaː"],  // The 'spear': nayzəkā also means spear or javelin, a loan from Old Persian.
-    non: ["skarsl", "skarsl"],  // De Vries links it to skera 'to cut', but no source gives the image (Köbler).
+    non: ["stjǫrnuhrap", "ˈstjɔrnuˌhrɑp"],  // stjǫrnu 'of a star' + hrap 'a fall, ruin' (Cleasby-Vigfusson: stjörnu-hrap 'a shooting star').
     el_grc: ["διᾴττων ἀστήρ", "diǎːittɔːn astɛ̌ːr"],  // The 'darting star', from διαΐσσω 'to dart through'; the plural διᾴττοντες ἀστέρες is Anaxagoras's and Aristotle's term (LSJ).
     yue_dg: ["流星", "lau˧˩ ʃəŋ˨˧"],  // 'Flowing star'; reading from MCPDict 東莞.
     cjy_lv: ["走星", "tsʌu˧˩˨ sɿ˨˦"],  // 'Running star', with the colloquial reading of 星; from Wiktionary's dialect table, reading from MCPDict 離石.
@@ -617,5 +618,6 @@ WORDS.shootingstar = {
     mic: ["pugtewit", "puktewit"],  // The same word means a comet; no image is recorded for it.
     nv: ["sǫʼ yilwoł", "sõ̀ʔ jìlwòɬ"],  // sǫʼ 'star' plus yilwoł 'it is running along'.
     cho: ["fichik hela", "fitʃik hela"],  // Built on fichik 'star'; the source does not explain hela.
+    ja_kg: ["流れ星", "naɡaɾeboɕi"],  // Literally 'flowing star'. The national word, which Kagoshima speech uses as well.
   },
 };

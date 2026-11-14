@@ -72,7 +72,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=172">
+    <link rel="stylesheet" href="styles.css?v=173">
     <link rel="stylesheet" href="/vendor/leaflet-1.9.4/leaflet.css" />
     <!-- Webfonts for the scripts that name forms appear in. Without these,
          Arabic / Hebrew / Devanagari / Bengali / Ethiopic / Georgian /
@@ -799,6 +799,12 @@
                 maxBounds: [[-84, -1200], [84, 1200]], maxBoundsViscosity: 1.0,
             });
             map.on('zoomend', ()=>requestAnimationFrame(relaxLabels));
+            // At a zoom limit the button says so (aria-disabled, greyed): a press did nothing
+            // and gave no sign why. Not `disabled`, which drops keyboard focus to <body>.
+            const syncZoomButtons=()=>{ const z=map.getZoom();
+                document.getElementById('nm-zoom-in').setAttribute('aria-disabled', z>=map.getMaxZoom() ? 'true' : 'false');
+                document.getElementById('nm-zoom-out').setAttribute('aria-disabled', z<=map.getMinZoom() ? 'true' : 'false'); };
+            map.on('zoomend', syncZoomButtons); syncZoomButtons();
             // CARTO raster tiles need ?key=; basemap_key.js defines it and is not
             // in the repo. Undefined -> empty string -> the URL is what it was.
             const CARTO_KEY_QS = (typeof window.CARTO_BASEMAP_KEY === 'string' && window.CARTO_BASEMAP_KEY)
@@ -1368,6 +1374,10 @@
                 pp.update();
             });
             if(map && map.on) map.on('popupopen', e=>{ { const _c=e.popup.getElement && e.popup.getElement() && e.popup.getElement().querySelector('.leaflet-popup-close-button'); if(_c && window.__nmA11){ _c.setAttribute('aria-label', window.__nmA11('close')); _c.title=window.__nmA11('close'); } } const ae=document.activeElement; if(ae && ae.classList && ae.classList.contains('leaflet-marker-icon')){ const c=e.popup.getElement && e.popup.getElement().querySelector('.leaflet-popup-close-button'); if(c) setTimeout(()=>c.focus(),0); } });
+            // The popup is a small dialog named after its marker: focus moved to its × and a
+            // screen reader said only "Close, button", nothing of the name it was opened for.
+            if(map && map.on) map.on('popupopen', e=>{ const el=e.popup.getElement&&e.popup.getElement(), s=e.popup._source, se=s&&s.getElement&&s.getElement();
+                if(!el) return; el.setAttribute('role','dialog'); const n=se&&se.getAttribute('aria-label'); if(n) el.setAttribute('aria-label', n); });
             if(map && map.on){
             // Label popups get a history entry: the phone Back gesture closes the popup
             // instead of leaving the site; closing it by hand steps back (r27).
@@ -1431,7 +1441,7 @@
         if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', boot); else boot();
     })();
     </script>
-    <script src="/pwa.js?v=3"></script>
+    <script src="/pwa.js?v=4"></script>
     <script src="share-button.js?v=6"></script>
     <script src="lang-picker.js?v=9"></script>
     </main>

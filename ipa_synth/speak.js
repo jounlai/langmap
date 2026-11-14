@@ -115,7 +115,11 @@
             + '<canvas class="sp-spec" role="img" hidden></canvas>'
             + '<div class="sp-hint"></div>'
             + '<div class="sp-note"></div>';
-        document.body.appendChild(panel);
+        // In the Tab order right after the control column that holds its button, not at the end
+        // of the page: its ×, voice and Replay were 39 (Han Map) / 67 (Word Map) Tab stops away,
+        // after every map label. Fixed position, so where it draws does not change.
+        const col = btn.closest('.right-controls');
+        if (col && col.parentNode) col.parentNode.insertBefore(panel, col.nextSibling); else document.body.appendChild(panel);
         canvas = panel.querySelector('canvas');
         specCv = panel.querySelector('.sp-spec');
         specCv.addEventListener('click', () => { if (lastEl) say(lastEl); });
@@ -131,7 +135,15 @@
             isOpen: () => !panel.hidden, close: () => { if (open) close(); }, open: () => { if (!open) show(); } });
         panel.querySelector('.sp-replay').addEventListener('click', () => { if (lastEl) say(lastEl); });
         for (const x of [elWord, elIpa]) x.addEventListener('click', () => { if (lastEl) say(lastEl); });   // the panel's own word replays
-        document.addEventListener('keydown', e => { if (open && e.key === 'Escape') close(); });
+        // One Escape, one layer (the rule on every page): a language panel, picker or dialog
+        // opened over this panel owns the newer history entry and takes the key alone. One
+        // Escape closed both and stepped Back over two entries.
+        document.addEventListener('keydown', e => {
+            if (!open || e.key !== 'Escape' || e.defaultPrevented) return;
+            const H = window.__lmHistory, n = (history.state || {}).lmN;
+            if (H && H.ovN && H.ovN.speak != null && n != null && n > H.ovN.speak) return;
+            close();
+        });
         relabel();
         new MutationObserver(relabel).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
 
@@ -166,6 +178,16 @@
         document.addEventListener('mouseout', e => {
             const el = labelOf(e.target);
             if (el && !(e.relatedTarget && el.contains(e.relatedTarget))) clearTimeout(hoverTimer);
+        }, true);
+        // keyboard: a label reached with Tab speaks as a pointed one does (there was no way to
+        // hear a word without a mouse or a touch screen); Enter still opens its language.
+        // Focus from a click is left to the hover and tap paths above.
+        document.addEventListener('focusin', e => {
+            const t = e.target;
+            if (!open || !t || !t.matches || !t.matches(':focus-visible')) return;
+            const el = labelOf(t); if (!el || el === lastEl && src) return;
+            clearTimeout(hoverTimer);
+            hoverTimer = setTimeout(() => { if (open && document.activeElement === t) say(el); }, 120);
         }, true);
     }
 
@@ -229,9 +251,11 @@
         load().then(() => drawRest()).catch(() => { elHint.textContent = 'Could not load the synthesizer.'; });
     }
     function close() {
+        const had = panel.contains(document.activeElement);   // closed from its own ×, select or Escape
         open = false; window.__speakOpen = false; panel.hidden = true; btn.setAttribute('aria-pressed', 'false');
         syncUrl();
         stop(); mark(null);
+        if (had && btn.getClientRects().length) btn.focus();   // not lost to <body>
     }
     function stop() { if (src) { try { src.stop(); } catch (_) {} src = null; } cancelAnimationFrame(raf); }
     function mark(el) {
@@ -357,6 +381,10 @@
         lastEl = el;
         const ipa = (el.getAttribute('data-ipa') || '').trim();
         elWord.textContent = el.getAttribute('data-word') || '';
+        // the word in its own language, as on the map label (lang="ja", "zh"…): it inherited the
+        // page's "en", so a screen reader read 水 in English and CJK took the default glyph forms
+        const wl = el.querySelector && el.querySelector('.word[lang]');
+        if (wl) elWord.setAttribute('lang', wl.getAttribute('lang')); else elWord.removeAttribute('lang');
         elIpa.textContent = ipa && ipa !== '—' ? ipa : '';
         elName.textContent = nameOf(el);
         mark(el);

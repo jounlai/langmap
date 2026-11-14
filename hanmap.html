@@ -122,7 +122,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=172">
+    <link rel="stylesheet" href="styles.css?v=173">
     <link rel="stylesheet" href="/vendor/leaflet-1.9.4/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -6781,6 +6781,17 @@
                 map.zoomOut();
             }
         });
+
+        // At a zoom limit the button says so (aria-disabled, greyed): a press did
+        // nothing and gave no sign why. Not `disabled`, which drops a keyboard
+        // user's focus to <body>. The globe (3D) keeps both live.
+        function syncZoomButtons() {
+            const flat = !(is3D && globe), z = map.getZoom();
+            document.getElementById('map-zoom-in').setAttribute('aria-disabled', flat && z >= map.getMaxZoom() ? 'true' : 'false');
+            document.getElementById('map-zoom-out').setAttribute('aria-disabled', flat && z <= map.getMinZoom() ? 'true' : 'false');
+        }
+        map.on('zoomend', syncZoomButtons); syncZoomButtons();
+        { const t3 = document.getElementById('toggle-3d'); if (t3) t3.addEventListener('click', () => setTimeout(syncZoomButtons, 0)); }
 
         function zoomToAltitude(z) {
             // Map Leaflet zoom (2-10) to globe altitude (4.0-0.2)
@@ -14303,7 +14314,7 @@
     })();
     </script>
 
-    <script src="/pwa.js?v=3"></script>
+    <script src="/pwa.js?v=4"></script>
     <!-- Dialect-lineage colour legend (mirrors HAN_BRANCH_COLOR). -->
     <script>
     (function () {
@@ -14471,6 +14482,6 @@
         if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else setTimeout(init, 0);
     })();
     </script>
-<script src="ipa_synth/speak.js?v=60" defer></script>
+<script src="ipa_synth/speak.js?v=61" defer></script>
 </body>
 </html>

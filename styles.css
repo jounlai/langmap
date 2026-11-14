@@ -65,6 +65,8 @@
 /* inside clipping / scrolling boxes and full-bleed containers: draw the ring inside */
 :where(.map-zoom-controls, .tree-wrap, #nm-info, #tm-info, #char-modal, #word-modal-body, .header-nav) :focus-visible,
 :where(.leaflet-container, tr, .tm-row, .nm-form-row, #nm-info):focus-visible { outline-offset: -2px; }
+/* a map zoom button at its limit (aria-disabled, set by each map page) */
+.map-zoom-controls button[aria-disabled="true"] { color: #a0a0a0; cursor: default; }
 /* segmented control: overflow:hidden + accent-filled active option -> draw inside */
 .radio-switch .radio-opt:focus-visible { outline: 2px solid var(--accent, #2e6fb8); outline-offset: -2px; }
 /* Game answer buttons sit in a scrolling column that clips anything outside

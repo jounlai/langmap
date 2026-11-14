@@ -39,7 +39,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=172">
+    <link rel="stylesheet" href="styles.css?v=173">
     <style>
         .prog { max-width: 1080px; margin: 0 auto; padding: 24px 20px 60px; }
         .prog h1 { font-size: 24px; margin: 0 0 4px; }
@@ -98,6 +98,12 @@
         table.wp tr.row:hover td { background: var(--accent-tint); }
         table.wp tr.row:hover td.hist { background: #f3ece0; }
         .wname { font-weight: 600; }
+        /* The row's toggle: a real button in the Word cell, so the row stays a table row
+           (role=button on the <tr> flattened its six cells into one button name). */
+        .wtoggle { font: inherit; color: inherit; background: none; border: 0; padding: 0; margin: 0; text-align: start; cursor: pointer; }
+        .wtoggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+        table.wp tr.row:has(.wtoggle:focus-visible) td { background: var(--accent-tint); }   /* the row stays marked, as on hover */
+        table.wp tr.row:has(.wtoggle:focus-visible) td.hist { background: #f3ece0; }
         .wja { color: #666; font-weight: 400; margin-left: 6px; font-size: 12.5px; }
         .badge { font-size: 11px; padding: 1px 7px; border-radius: 999px; border: 1px solid; white-space: nowrap; }
         .b-core    { color: #2a7a4b; border-color: #b6ddc5; background: #f0faf4; }
@@ -354,16 +360,16 @@
 
                 var tr = document.createElement('tr');
                 tr.className = 'row';
-                tr.tabIndex = 0;
                 tr.dataset.w = w;
-                // A row is the toggle: say so (aria-expanded needs a role that allows it).
-                tr.setAttribute('role', 'button');
-                tr.setAttribute('aria-expanded', state.open === w ? 'true' : 'false');
+                // The whole row still opens on a click; the keyboard and screen-reader
+                // toggle is a button in the Word cell (role=button on the <tr> took the
+                // row out of the table and read all six cells as one button name).
                 tr.innerHTML =
-                      '<td><span class="wname">' + WORDS[w][1] + '</span>'
+                      '<td><button type="button" class="wtoggle" aria-expanded="' + (state.open === w ? 'true' : 'false') + '">'
+                        + '<span class="wname">' + WORDS[w][1] + '</span>'
                         // Japanese gloss on an English page: lang="ja" so a screen reader
                         // reads it in Japanese and kanji take Japanese glyph forms (r05).
-                        + (WORDS[w][2] ? '<span class="wja" lang="ja">' + WORDS[w][2] + '</span>' : '') + '</td>'
+                        + (WORDS[w][2] ? '<span class="wja" lang="ja">' + WORDS[w][2] + '</span>' : '') + '</button></td>'
                     + '<td class="hide-s"><span class="badge b-' + tier + '">' + TIER_LABEL[tier] + '</span></td>'
                     + '<td>' + barCell(lv, p.living.length, false) + '</td>'
                     + '<td class="hist">' + barCell(hs, p.hist.length, true) + '</td>'
@@ -373,12 +379,9 @@
                 function toggle() {
                     state.open = state.open === w ? -1 : w; draw();
                     // draw() rebuilt the rows: back onto the same word's row.
-                    var again = document.querySelector('#rows tr.row[data-w="' + w + '"]'); if (again) again.focus();
+                    var again = document.querySelector('#rows tr.row[data-w="' + w + '"] .wtoggle'); if (again) again.focus();
                 }
-                tr.addEventListener('click', toggle);
-                tr.addEventListener('keydown', function (e) {
-                    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }
-                });
+                tr.addEventListener('click', toggle);   // the button's click bubbles here too
                 tb.appendChild(tr);
 
                 if (state.open !== w) return;

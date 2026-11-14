@@ -16,8 +16,8 @@
     "hash": "e4461f7136237ca4"
   },
   "ipa_synth/speak.js": {
-    "version": 60,
-    "hash": "86afbd7bfc0a9852"
+    "version": 61,
+    "hash": "93f44d9169a96f1a"
   },
   "lang-filter.js": {
     "version": 65,
@@ -92,16 +92,16 @@
     "hash": "df112ae498cecea3"
   },
   "pwa.js": {
-    "version": 3,
-    "hash": "1355f57288eb363d"
+    "version": 4,
+    "hash": "cce4c722152e8eb9"
   },
   "share-button.js": {
     "version": 6,
     "hash": "a9a5ec0b06fdab27"
   },
   "styles.css": {
-    "version": 172,
-    "hash": "5870dc62724ebbaf"
+    "version": 173,
+    "hash": "c014cdf1aff3c00c"
   },
   "timemap_calendars.js": {
     "version": 24,

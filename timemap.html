@@ -67,7 +67,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=172">
+    <link rel="stylesheet" href="styles.css?v=173">
     <link rel="stylesheet" href="/vendor/leaflet-1.9.4/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -646,6 +646,12 @@
                 maxBounds: [[-84, -1200], [84, 1200]], maxBoundsViscosity: 1.0,
             });
             map.on('zoomend', ()=>requestAnimationFrame(relaxLabels));
+            // At a zoom limit the button says so (aria-disabled, greyed): a press did nothing
+            // and gave no sign why. Not `disabled`, which drops keyboard focus to <body>.
+            const syncZoomButtons=()=>{ const z=map.getZoom();
+                document.getElementById('tm-zoom-in').setAttribute('aria-disabled', z>=map.getMaxZoom() ? 'true' : 'false');
+                document.getElementById('tm-zoom-out').setAttribute('aria-disabled', z<=map.getMinZoom() ? 'true' : 'false'); };
+            map.on('zoomend', syncZoomButtons); syncZoomButtons();
             const CARTO_KEY_QS = (typeof window.CARTO_BASEMAP_KEY === 'string' && window.CARTO_BASEMAP_KEY)
                 ? '?key=' + encodeURIComponent(window.CARTO_BASEMAP_KEY) : '';
             L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png' + CARTO_KEY_QS, {
@@ -791,6 +797,12 @@
                 // Re-place labels: the open one goes first (relaxLabels), and
                 // on close the others get their spots back.
                 mk.on('popupopen', e=>{ { const _c=e.popup.getElement && e.popup.getElement() && e.popup.getElement().querySelector('.leaflet-popup-close-button'); if(_c && window.__tmA11){ _c.setAttribute('aria-label', window.__tmA11('close')); _c.title=window.__tmA11('close'); } } openId=cal.id; markActive(); requestAnimationFrame(relaxLabels); fitPopupPad(e.popup); });
+                // Opened from the keyboard: focus its × as the Name Map does (it sat after every
+                // marker in the Tab order and a screen reader heard nothing), and name the popup
+                // as a dialog after its marker. The popupclose below brings focus back.
+                mk.on('popupopen', e=>{ const el=e.popup.getElement&&e.popup.getElement(), me=mk.getElement&&mk.getElement(); if(!el) return;
+                    el.setAttribute('role','dialog'); const n=me&&me.getAttribute('aria-label'); if(n) el.setAttribute('aria-label', n);
+                    if(me && document.activeElement===me){ const c=el.querySelector('.leaflet-popup-close-button'); if(c) setTimeout(()=>c.focus(),0); } });
                 mk.on('popupclose', e=>{
                     // Focus was in the popup (or lost with it): back to the marker. Not
                     // when it sits in some other control (the date box, a menu).
@@ -949,7 +961,9 @@
             if(e.key!=='Escape' || !SHEET_MQ.matches || !document.getElementById('tm-panel').classList.contains('info-open')) return;
             // Something on top (settings popover, a share dialog) takes it first.
             const pop=document.getElementById('tm-settings-pop');
-            if((pop && !pop.hasAttribute('hidden')) || document.querySelector('[aria-modal="true"]:not(#tm-info)')) return;
+            // An open modal only: the closed trivia window keeps aria-modal="true" (a bare
+            // querySelector matched it always and Escape never closed the sheet).
+            if((pop && !pop.hasAttribute('hidden')) || [...document.querySelectorAll('[aria-modal="true"]:not(#tm-info)')].some(m=>m.getClientRects().length)) return;
             e.stopImmediatePropagation(); closeInfoSheet();
         }, true);
         // Escape closes an open calendar popup (Leaflet only listens when the map
@@ -957,7 +971,8 @@
         // the popover / sheet / dialogs above it take the key first.
         window.addEventListener('keydown', e=>{
             if(e.key!=='Escape' || e.defaultPrevented || !map || !openId || !markers[openId] || !markers[openId].isPopupOpen()) return;
-            if(document.querySelector('[aria-modal="true"]:not(#tm-info)') || (SHEET_MQ.matches && document.getElementById('tm-panel').classList.contains('info-open'))) return;
+            // An open modal only, as above (Escape never closed a calendar popup).
+            if([...document.querySelectorAll('[aria-modal="true"]:not(#tm-info)')].some(m=>m.getClientRects().length) || (SHEET_MQ.matches && document.getElementById('tm-panel').classList.contains('info-open'))) return;
             map.closePopup();   // popupclose hands focus back to the marker when it was in the popup
         });
         // A closed sheet is only moved off-screen: keep its 50 rows out of the Tab order.
@@ -1245,7 +1260,7 @@
         if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', boot); else boot();
     })();
     </script>
-    <script src="/pwa.js?v=3"></script>
+    <script src="/pwa.js?v=4"></script>
     <script src="share-button.js?v=6"></script>
     <script src="lang-picker.js?v=9"></script>
     </main>

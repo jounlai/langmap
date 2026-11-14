@@ -12,7 +12,7 @@
     --vt-skin: #f3d9c6; --vt-skin-line: #b98b6e; --vt-air: #fffaf4; --vt-bone: #ece6d8; --vt-bone-line: #a39780;
     --vt-tongue: #e07a7a; --vt-tongue-line: #a84848; --vt-tooth: #ffffff; --vt-velum: #d98f8f; --vt-flow: #2e6fb8;
     --vt-noise: #d0402f; --vt-text: #333; --vt-nasal: #cfe3f7; --vt-fold: #c46a6a; --vt-lip: #d88b84;
-    --spec-bg: #ffffff; --pitch: #d0402f;
+    --spec-bg: #ffffff; --pitch: #d0402f; --on-accent: #fff;
 }
 @media (prefers-color-scheme: dark) {
     :root {
@@ -21,6 +21,7 @@
         --vt-tongue: #b55a5a; --vt-tongue-line: #e09a9a; --vt-tooth: #d8d4cc; --vt-velum: #a86a6a; --vt-flow: #6ea8ec;
         --vt-noise: #ff7a5c; --vt-text: #ddd; --vt-nasal: #23415f; --vt-fold: #c46a6a; --vt-lip: #a5615b;
         --spec-bg: #111; --pitch: #ff7a5c;
+        --on-accent: #17191c;   /* white on the light dark-mode blue was 2.5:1; this is 7.2:1 */
     }
 }
 * { box-sizing: border-box; }
@@ -34,7 +35,7 @@ main { max-width: 1100px; margin: 0 auto; padding: 8px 16px 40px; display: grid;
 .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
 input[type=text] { flex: 1 1 220px; min-width: 0; font: 22px/1.3 "Doulos SIL", "Charis SIL", "Gentium Plus", "Noto Sans", system-ui, sans-serif; padding: 6px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--ink); }
 button, select { font: inherit; padding: 6px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); cursor: pointer; }
-button.primary { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+button.primary { background: var(--accent); border-color: var(--accent); color: var(--on-accent); font-weight: 600; }
 select { max-width: 100%; }
 .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
 .chips button { font: 14px "Doulos SIL", "Charis SIL", "Noto Sans", system-ui, sans-serif; padding: 3px 9px; }

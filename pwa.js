@@ -76,7 +76,7 @@
     text.innerHTML = '<b>' + t('title') + '</b>' + (iosMode ? '<br><span style="color:#667;font-size:12.5px">' + t('ios') + '</span>' : '');
     var close = document.createElement('button');
     close.type = 'button'; close.setAttribute('aria-label', t('later'));
-    close.style.cssText = 'border:0;background:none;color:#9aa;font-size:18px;cursor:pointer;padding:2px 6px;flex:none';
+    close.style.cssText = 'border:0;background:none;color:#667;font-size:18px;cursor:pointer;padding:2px 6px;flex:none';   // #9aa on white was 2.4:1; #667 as the hint line, 5.7:1
     close.textContent = '✕';
     close.addEventListener('click', function () { setDismissed(); bar.remove(); });
     bar.appendChild(iconSvg ? (function () { var s = document.createElement('span'); s.innerHTML = iconSvg(); return s.firstChild; })() : document.createTextNode(''));

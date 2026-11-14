@@ -121,6 +121,14 @@
         var mn = MENU[lang()] || MENU.en;
         if (hb && hb.getAttribute('aria-label') !== mn) hb.setAttribute('aria-label', mn);
         var L = LABELS[lang()] || LABELS.en;
+        // The logo's map badge (hover tooltip, part of the logo link's name) read
+        // "Wordmap" / "HanMap" / "NameMap" / "TimeMap" in every UI. Word Order
+        // (app.js) and the tree set their own.
+        var bd = document.querySelector('.site-header-bar .logo-badge-word, .site-header-bar .logo-badge-han, .site-header-bar .logo-badge-name, .site-header-bar .logo-badge-time');
+        if (bd) {
+            var bk = bd.className.match(/logo-badge-(word|han|name|time)\b/)[1], bl = L[bk] || LABELS.en[bk];
+            if (bd.getAttribute('title') !== bl) { bd.setAttribute('title', bl); bd.setAttribute('aria-label', bl); }
+        }
         var items = document.querySelectorAll('.site-header-bar .header-nav > a, .site-header-bar .header-nav > span:not(.nav-sep)');
         for (var i = 0; i < items.length; i++) {
             var k = keyOf(items[i]); if (!k || !L[k]) continue;

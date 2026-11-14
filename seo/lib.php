@@ -5261,7 +5261,9 @@ function seo_comparisons(string $map, string $code, string $ui,
             $sp = preg_match('/^(ja|zh|yue|th|lo|km|my)(_|$)/', $c) ? '' : ' ';
             return trim(implode($sp, $parts));
         };
-        $uiRow = ['zh_hant' => 'zh_tw'][$ui] ?? $ui;
+        // es / pt have no Word Order row of their own: label with es_mx / pt_br,
+        // as the app does (app.js UI_SENTENCE_ROW), not with English.
+        $uiRow = ['zh_hant' => 'zh_tw', 'es' => 'es_mx', 'pt' => 'pt_br'][$ui] ?? $ui;
         $sentIds = array_keys($sentIndex);
       ?>
       <?php foreach ($sentList as $si => $s): ?>

@@ -7221,19 +7221,19 @@ const SENTENCES = [
         ],
         [
           "B",
-          "aeu"
+          "siengj"
         ],
         [
           "C",
-          "si"
+          "sawq daenj"
         ],
         [
           "D",
-          "yiengh boux"
+          "dauq sihcangh"
         ],
         [
-          "G",
-          "daj ndaej raen"
+          "F",
+          "gou"
         ],
         [
           "H",
@@ -7241,15 +7241,23 @@ const SENTENCES = [
         ],
         [
           "I",
-          "lajmbanj"
+          "aen diemq"
         ],
         [
           "J",
-          "doiq"
+          "doiqmienh"
         ],
         [
           "K",
-          "bingzgvanh"
+          "lijgvanj"
+        ],
+        [
+          "G",
+          "raen"
+        ],
+        [
+          "E",
+          "haenx"
         ]
       ],
       "ii": [
@@ -12146,12 +12154,12 @@ const SENTENCES = [
       ],
       "za": [
         [
-          "A",
-          "Gou"
+          "B",
+          "Coh"
         ],
         [
-          "B",
-          "coh"
+          "A",
+          "gou"
         ],
         [
           "C",
@@ -16780,7 +16788,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ngoenz ngoenz gwnzhaet"
+          "moix haet"
         ],
         [
           "E",
@@ -16792,7 +16800,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "haeux gwnzhaet"
+          "haeuxhaet"
         ]
       ],
       "ii": [
@@ -20951,20 +20959,20 @@ const SENTENCES = [
       ],
       "za": [
         [
-          "A",
-          "Gaijgaenq ndeu"
-        ],
-        [
           "B",
-          "canhj"
+          "Aen camh"
         ],
         [
-          "C",
-          "youq gizlawz"
+          "A",
+          "ceiq gyawj"
         ],
         [
           "D",
-          "ne"
+          "youq"
+        ],
+        [
+          "C",
+          "gizlawz"
         ]
       ],
       "ii": [
@@ -25205,12 +25213,12 @@ const SENTENCES = [
       ],
       "za": [
         [
-          "A",
-          "Neix"
+          "B",
+          "Gahfeih"
         ],
         [
-          "B",
-          "gafeih"
+          "A",
+          "neix"
         ],
         [
           "C",
@@ -25218,7 +25226,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "van"
+          "ndei gwn"
         ]
       ],
       "ii": [
@@ -33339,19 +33347,19 @@ const SENTENCES = [
       "za": [
         [
           "A",
-          "Ndwen neix"
+          "Ngoenzcog"
         ],
         [
           "B",
-          "mbwn"
+          "dienheiq"
         ],
         [
           "C",
-          "ndei"
+          "yaek"
         ],
         [
           "D",
-          "le"
+          "miz ndit"
         ]
       ],
       "ii": [
@@ -37381,7 +37389,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "mbwn ngoenz"
+          "ngoenzngoenz"
         ],
         [
           "C",
@@ -37389,7 +37397,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "haeux haemh"
+          "haeuxcaeuz"
         ]
       ],
       "ii": [
@@ -43319,28 +43327,24 @@ const SENTENCES = [
           "Gou"
         ],
         [
+          "G",
+          "bi"
+        ],
+        [
+          "F",
+          "‌moq"
+        ],
+        [
           "B",
-          "aeu"
+          "siengj"
         ],
         [
           "C",
           "bae"
         ],
         [
-          "D",
-          "de"
-        ],
-        [
           "E",
           "Yizbwnj"
-        ],
-        [
-          "F",
-          "laeng"
-        ],
-        [
-          "G",
-          "nienz"
         ]
       ],
       "ii": [
@@ -47974,16 +47978,20 @@ const SENTENCES = [
           "Mwngz"
         ],
         [
+          "D",
+          "rox"
+        ],
+        [
           "C",
           "gangj"
         ],
         [
           "B",
-          "Yinghvah"
+          "Yinghyij"
         ],
         [
-          "D",
-          "ndaej mbouj"
+          "E",
+          "lwi"
         ]
       ],
       "ii": [
@@ -53452,23 +53460,23 @@ const SENTENCES = [
         ],
         [
           "F",
-          "mwzhaet"
+          "ngoenzlwenz"
         ],
         [
           "B",
-          "youq dih caiz su"
-        ],
-        [
-          "D",
-          "caiz ndeu"
-        ],
-        [
-          "E",
-          "su"
+          "youq diemqsaw"
         ],
         [
           "C",
-          "cawz le"
+          "cawx"
+        ],
+        [
+          "E",
+          "bonj saw"
+        ],
+        [
+          "D",
+          "moq ndeu"
         ]
       ],
       "ii": [
@@ -57854,15 +57862,19 @@ const SENTENCES = [
         ],
         [
           "A",
-          "youq neix"
+          "ndaw"
         ],
         [
           "B",
-          "hwenz"
+          "aen gunghyenz"
+        ],
+        [
+          "A",
+          "neix"
         ],
         [
           "D",
-          "ndenj"
+          "gig ndeiyawj"
         ]
       ],
       "ii": [
@@ -62338,11 +62350,15 @@ const SENTENCES = [
         ],
         [
           "F",
-          "it bae"
+          "cenj"
         ],
         [
           "C",
           "raemx"
+        ],
+        [
+          "F",
+          "ndeu"
         ]
       ],
       "ii": [
@@ -67210,11 +67226,11 @@ const SENTENCES = [
         ],
         [
           "E",
-          "ngoenz ngoenz"
+          "ngoenzngoenz"
         ],
         [
           "D",
-          "naemj hozceh"
+          "naengh hojceh"
         ],
         [
           "C",
@@ -67222,7 +67238,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "gungzcoih"
+          "guhhong"
         ]
       ],
       "ii": [
@@ -71335,19 +71351,19 @@ const SENTENCES = [
       "za": [
         [
           "A",
-          "Gou nuengx sou"
-        ],
-        [
-          "B",
-          "youq Fazguek"
-        ],
-        [
-          "C",
-          "hag youq gozvaih"
+          "Nuengxsau gou"
         ],
         [
           "D",
-          "ne"
+          "cingq"
+        ],
+        [
+          "B",
+          "youq Fazgoz"
+        ],
+        [
+          "C",
+          "liuzyoz"
         ]
       ],
       "ii": [
@@ -74964,7 +74980,7 @@ const SENTENCES = [
       "za": [
         [
           "B",
-          "denyingj"
+          "Denyingj"
         ],
         [
           "A",
@@ -74972,7 +74988,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "gaih"
+          "hainduj"
         ],
         [
           "D",
@@ -80803,28 +80819,24 @@ const SENTENCES = [
           "Gou"
         ],
         [
-          "B",
-          "miz"
+          "F",
+          "ngoenzneix"
         ],
         [
-          "C",
-          "ciet"
-        ],
-        [
-          "D",
-          "youq"
+          "G",
+          "banringzgvaq"
         ],
         [
           "E",
           "sam diemj"
         ],
         [
-          "F",
-          "gij"
+          "B",
+          "miz"
         ],
         [
-          "G",
-          "haet"
+          "C",
+          "aen hoih"
         ]
       ],
       "ii": [
@@ -85555,20 +85567,20 @@ const SENTENCES = [
       ],
       "za": [
         [
-          "A",
-          "Neix"
-        ],
-        [
           "B",
-          "duz doiq"
+          "Aen daeh"
         ],
         [
-          "C",
-          "gwig lai"
+          "A",
+          "neix"
         ],
         [
           "D",
-          "le"
+          "bengz"
+        ],
+        [
+          "C",
+          "lai"
         ]
       ],
       "ii": [
@@ -89656,16 +89668,16 @@ const SENTENCES = [
           "Gou"
         ],
         [
-          "B",
-          "yinzhagh"
+          "D",
+          "maij"
         ],
         [
           "C",
           "dingq"
         ],
         [
-          "D",
-          "gyaez"
+          "B",
+          "yinhyoz"
         ]
       ],
       "ii": [
@@ -93165,19 +93177,19 @@ const SENTENCES = [
       "za": [
         [
           "A",
-          "Gwnzhaet neix daeuj"
+          "Daj haet neix hwnj"
         ],
         [
           "B",
-          "youq ndaw"
+          "itcig"
         ],
         [
           "D",
-          "fwn"
+          "doekfwn"
         ],
         [
           "C",
-          "roeg ndeu"
+          "daengz seizneix"
         ]
       ],
       "ii": [
@@ -97658,11 +97670,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "haemh neix"
+          "haemhneix"
         ],
         [
           "C",
-          "daengj boux doengzcaemh"
+          "caeuq baengzyoux"
         ],
         [
           "E",
@@ -97670,7 +97682,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "haeux haemh"
+          "haeuxcaeuz"
         ]
       ],
       "ii": [
@@ -102789,12 +102801,20 @@ const SENTENCES = [
           "hag"
         ],
         [
-          "F",
-          "ndeu cungj"
+          "B",
+          "cungj"
         ],
         [
           "C",
-          "vah sien"
+          "vah"
+        ],
+        [
+          "F",
+          "moq"
+        ],
+        [
+          "B",
+          "ndeu"
         ]
       ],
       "ii": [
@@ -107031,19 +107051,19 @@ const SENTENCES = [
       "za": [
         [
           "A",
-          "Suzfangz"
+          "Duzsuhgvanj"
+        ],
+        [
+          "D",
+          "youq"
         ],
         [
           "B",
-          "youq gyaeuj"
+          "henz"
         ],
         [
           "C",
           "yihyen"
-        ],
-        [
-          "D",
-          "ne"
         ]
       ],
       "ii": [
@@ -110915,16 +110935,20 @@ const SENTENCES = [
           "Cingj"
         ],
         [
-          "C",
-          "caidanh"
-        ],
-        [
           "D",
           "hawj"
         ],
         [
           "B",
-          "gou raen"
+          "gou"
+        ],
+        [
+          "E",
+          "yawj"
+        ],
+        [
+          "C",
+          "caidanh"
         ]
       ],
       "ii": [
@@ -115795,23 +115819,27 @@ const SENTENCES = [
       "za": [
         [
           "A",
-          "Gou boh"
+          "Boh gou"
         ],
         [
           "B",
           "youq"
         ],
         [
-          "F",
-          "ndeu boux"
+          "D",
+          "aen gunghswh"
         ],
         [
-          "D",
-          "gunghswh"
+          "F",
+          "hung"
+        ],
+        [
+          "C",
+          "ndeu"
         ],
         [
           "E",
-          "guh gungzcoih"
+          "guhhong"
         ]
       ],
       "ii": [
@@ -120576,7 +120604,11 @@ const SENTENCES = [
       "za": [
         [
           "A",
-          "Lwgnyez doxgai"
+          "Gyoengq lwgnyez"
+        ],
+        [
+          "D",
+          "cingq"
         ],
         [
           "B",
@@ -120584,15 +120616,11 @@ const SENTENCES = [
         ],
         [
           "E",
-          "hwenz"
+          "gunghyenz"
         ],
         [
           "C",
-          "‌da"
-        ],
-        [
-          "D",
-          "ne"
+          "guhcaemz"
         ]
       ],
       "ii": [
@@ -124705,16 +124733,16 @@ const SENTENCES = [
           "Gou"
         ],
         [
+          "D",
+          "bae gvaq"
+        ],
+        [
           "B",
-          "bae Dunghgingh"
+          "Dunghgingh"
         ],
         [
           "C",
           "sam baez"
-        ],
-        [
-          "D",
-          "le"
         ]
       ],
       "ii": [
@@ -129576,20 +129604,32 @@ const SENTENCES = [
           "Mwngz"
         ],
         [
+          "A",
+          "ndaej"
+        ],
+        [
           "C",
-          "gyoengj"
+          "gaisau"
+        ],
+        [
+          "D",
+          "aen"
+        ],
+        [
+          "E",
+          "canhdingh"
         ],
         [
           "F",
           "ndei"
         ],
         [
-          "E",
-          "canhgvanh"
+          "D",
+          "ndeu"
         ],
         [
-          "A",
-          "ndaej mbouj"
+          "G",
+          "lwi"
         ]
       ],
       "ii": [
@@ -133789,16 +133829,16 @@ const SENTENCES = [
           "Gou"
         ],
         [
+          "C",
+          "lumz"
+        ],
+        [
           "B",
-          "gawz san"
+          "aen liengj gou"
         ],
         [
           "D",
-          "youq hozceh"
-        ],
-        [
-          "C",
-          "laeg le"
+          "youq gwnz hojceh"
         ]
       ],
       "ii": [
@@ -147173,20 +147213,20 @@ const SENTENCES = [
           "Gou"
         ],
         [
-          "D",
-          "gwn ndanghaet"
-        ],
-        [
-          "B",
-          "sousi"
-        ],
-        [
           "E",
           "siengj"
         ],
         [
           "C",
           "gwn"
+        ],
+        [
+          "B",
+          "sousi"
+        ],
+        [
+          "D",
+          "guh haeuxringz"
         ]
       ],
       "ii": [
@@ -151837,20 +151877,20 @@ const SENTENCES = [
       ],
       "za": [
         [
+          "E",
+          "Aen fuengz"
+        ],
+        [
           "A",
-          "Luzgvan fangz"
+          "lijgvanj"
         ],
         [
           "C",
-          "hung"
+          "gig"
         ],
         [
           "D",
-          "gingsez"
-        ],
-        [
-          "B",
-          "le"
+          "seuq"
         ]
       ],
       "ii": [
@@ -155685,16 +155725,20 @@ const SENTENCES = [
       ],
       "za": [
         [
-          "B",
-          "Manj ndeu"
+          "A",
+          "Cingj"
         ],
         [
           "C",
           "gangj"
         ],
         [
-          "A",
-          "cingj"
+          "D",
+          "menh"
+        ],
+        [
+          "B",
+          "di"
         ]
       ],
       "ii": [
@@ -160106,19 +160150,23 @@ const SENTENCES = [
       "za": [
         [
           "E",
-          "Gou"
+          "Go"
         ],
         [
           "A",
-          "go"
+          "gou"
+        ],
+        [
+          "D",
+          "ndwen"
         ],
         [
           "C",
-          "laeng ndeu nyied"
+          "gonq"
         ],
         [
           "B",
-          "gaeg gya le"
+          "aeu yah lo"
         ]
       ],
       "ii": [
@@ -164220,19 +164268,19 @@ const SENTENCES = [
       "za": [
         [
           "C",
-          "Youq canhj"
-        ],
-        [
-          "A",
-          "lai"
-        ],
-        [
-          "B",
-          "boux vunz"
+          "Youq camh"
         ],
         [
           "D",
           "miz"
+        ],
+        [
+          "A",
+          "haujlai"
+        ],
+        [
+          "B",
+          "vunz"
         ]
       ],
       "ii": [
@@ -168956,15 +169004,15 @@ const SENTENCES = [
         ],
         [
           "E",
-          "cawz"
-        ],
-        [
-          "C",
-          "ngoenz seng"
+          "cawx"
         ],
         [
           "D",
-          "laebmuengh"
+          "aen laex"
+        ],
+        [
+          "C",
+          "ngoenzseng"
         ]
       ],
       "ii": [
@@ -173081,19 +173129,23 @@ const SENTENCES = [
       "za": [
         [
           "A",
-          "Youq"
+          "Daj"
         ],
         [
           "D",
-          "neix"
+          "gizneix"
+        ],
+        [
+          "E",
+          "yawj"
         ],
         [
           "B",
-          "haetsaed roengz"
+          "daengngoenz roengz bya"
         ],
         [
           "C",
-          "ndenj"
+          "gig ndeiyawj"
         ]
       ],
       "ii": [
@@ -177749,24 +177801,24 @@ const SENTENCES = [
       ],
       "za": [
         [
-          "A",
-          "Gou"
-        ],
-        [
           "C",
-          "ndwen neix"
+          "Ngoenzcog"
         ],
         [
-          "B",
-          "haenaj"
-        ],
-        [
-          "D",
-          "daeqlwg"
+          "A",
+          "gou"
         ],
         [
           "E",
           "aeu"
+        ],
+        [
+          "D",
+          "hwnq"
+        ],
+        [
+          "B",
+          "caeux"
         ]
       ],
       "ii": [
@@ -182659,20 +182711,28 @@ const SENTENCES = [
       ],
       "za": [
         [
-          "B",
-          "Yozsingj"
-        ],
-        [
-          "C",
-          "youq gizlawz"
-        ],
-        [
           "A",
-          "mwngz"
+          "Mwngz"
         ],
         [
           "E",
-          "rox mbouj"
+          "rox"
+        ],
+        [
+          "B",
+          "youzgiz"
+        ],
+        [
+          "D",
+          "youq"
+        ],
+        [
+          "C",
+          "gizlawz"
+        ],
+        [
+          "F",
+          "lwi"
         ]
       ],
       "ii": [
@@ -187816,16 +187876,20 @@ const SENTENCES = [
           "seizneix"
         ],
         [
-          "C",
-          "ndeu bwn"
+          "E",
+          "cingq doeg"
         ],
         [
           "F",
-          "su ndei"
+          "bonj saw"
         ],
         [
-          "E",
-          "doeg ne"
+          "C",
+          "ndeiyawj"
+        ],
+        [
+          "D",
+          "ndeu"
         ]
       ],
       "ii": [
@@ -192886,19 +192950,19 @@ const SENTENCES = [
         ],
         [
           "B",
-          "baenz ngoenz"
-        ],
-        [
-          "D",
-          "daeng"
-        ],
-        [
-          "E",
-          "gij saenq"
+          "ciengzseiz"
         ],
         [
           "C",
-          "cawz"
+          "daenj"
+        ],
+        [
+          "E",
+          "diuz gunz"
+        ],
+        [
+          "D",
+          "nding"
         ]
       ],
       "ii": [
@@ -197529,20 +197593,24 @@ const SENTENCES = [
       ],
       "za": [
         [
-          "D",
-          "Neix"
-        ],
-        [
-          "A|E",
-          "gya haeux dien"
-        ],
-        [
           "B",
-          "haeux"
+          "Gij byaek"
+        ],
+        [
+          "A",
+          "ndaw"
+        ],
+        [
+          "E",
+          "aen canhdingh"
+        ],
+        [
+          "D",
+          "neix"
         ],
         [
           "C",
-          "ngaiz gwn"
+          "gig ndei gwn"
         ]
       ],
       "ii": [
@@ -201623,16 +201691,16 @@ const SENTENCES = [
           "Gou"
         ],
         [
-          "B",
-          "seiqgyaiq"
+          "D",
+          "siengj"
         ],
         [
           "C",
-          "youz"
+          "lijyouz"
         ],
         [
-          "D",
-          "siengj"
+          "B",
+          "daengx seiqgyaiq"
         ]
       ],
       "ii": [
@@ -206746,24 +206814,24 @@ const SENTENCES = [
           "Youq"
         ],
         [
+          "A",
+          "aen guek"
+        ],
+        [
           "F",
           "neix"
         ],
         [
-          "A",
-          "guek"
-        ],
-        [
           "B",
-          "mbwn nyinh"
-        ],
-        [
-          "C",
-          "nyinh bya"
+          "seizdoeng"
         ],
         [
           "D",
-          "le"
+          "bienq"
+        ],
+        [
+          "C",
+          "nit"
         ]
       ],
       "ii": [
@@ -213060,19 +213128,19 @@ const SENTENCES = [
         ],
         [
           "F",
-          "daengj"
+          "caeuq"
         ],
         [
-          "B|G",
-          "boux doengzcaemh"
+          "B",
+          "baengzyoux"
+        ],
+        [
+          "G",
+          "gou"
         ],
         [
           "C",
-          "da denhuah"
-        ],
-        [
-          "D",
-          "ndeu seiz"
+          "daj denva"
         ],
         [
           "E",
@@ -213081,6 +213149,10 @@ const SENTENCES = [
         [
           "H",
           "le"
+        ],
+        [
+          "D",
+          "aen cungdaeuz ndeu"
         ]
       ],
       "ii": [
@@ -217601,16 +217673,16 @@ const SENTENCES = [
           "Lauxsae"
         ],
         [
-          "B",
-          "daej mungz"
-        ],
-        [
           "C",
-          "gingsez"
+          "cingcuj dwk"
         ],
         [
           "D",
-          "gangj le"
+          "gangjgej"
+        ],
+        [
+          "B",
+          "aen vwndiz"
         ]
       ],
       "ii": [
@@ -222298,20 +222370,20 @@ const SENTENCES = [
           "Gou"
         ],
         [
-          "E",
-          "doengh"
-        ],
-        [
-          "B",
-          "boux yinghfanh"
-        ],
-        [
           "D",
           "siengj"
         ],
         [
           "C",
           "yawj"
+        ],
+        [
+          "B",
+          "bouh denyingj"
+        ],
+        [
+          "E",
+          "haenx"
         ]
       ],
       "ii": [
@@ -227660,24 +227732,24 @@ const SENTENCES = [
           "Cingj"
         ],
         [
+          "D",
+          "naeuz"
+        ],
+        [
+          "B",
+          "gou"
+        ],
+        [
+          "E",
+          "diuz roen"
+        ],
+        [
           "F",
           "bae"
         ],
         [
           "G",
-          "feihgihcangz"
-        ],
-        [
-          "E",
-          "daihloh"
-        ],
-        [
-          "B",
-          "gangj"
-        ],
-        [
-          "D",
-          "hawj gou dingz"
+          "gihcangz"
         ]
       ],
       "ii": [
@@ -231905,20 +231977,20 @@ const SENTENCES = [
       ],
       "za": [
         [
-          "E",
-          "Gou"
-        ],
-        [
           "A",
-          "duz ma"
+          "Duzma"
         ],
         [
-          "C",
-          "bae youz"
+          "E",
+          "gou"
         ],
         [
           "D",
-          "ngaiz"
+          "maij"
+        ],
+        [
+          "C",
+          "ok bae byaij"
         ]
       ],
       "ii": [
@@ -236486,24 +236558,24 @@ const SENTENCES = [
       ],
       "za": [
         [
-          "E",
-          "Gou"
-        ],
-        [
           "A",
-          "daiqmeh"
+          "Daxbuz"
         ],
         [
-          "B",
-          "ndei dingz"
+          "E",
+          "gou"
+        ],
+        [
+          "D",
+          "gangj"
         ],
         [
           "C",
           "gij goj"
         ],
         [
-          "D",
-          "gangj"
+          "B",
+          "miz eiqsei"
         ]
       ],
       "ii": [
@@ -241666,19 +241738,23 @@ const SENTENCES = [
         ],
         [
           "D",
-          "gaih"
-        ],
-        [
-          "B",
-          "bi gienz"
+          "haw"
         ],
         [
           "C",
-          "diuq"
+          "saw"
         ],
         [
           "H",
           "le"
+        ],
+        [
+          "B",
+          "aen ngaenzbau"
+        ],
+        [
+          "E",
+          "gou"
         ]
       ],
       "ii": [
@@ -246162,24 +246238,24 @@ const SENTENCES = [
       ],
       "za": [
         [
-          "A",
-          "Hwenz"
+          "B",
+          "Gij va"
         ],
         [
           "D",
           "ndaw"
         ],
         [
-          "B",
-          "va"
-        ],
-        [
-          "C",
-          "gaih"
+          "A",
+          "suen"
         ],
         [
           "E",
-          "le"
+          "cingq"
+        ],
+        [
+          "C",
+          "hai"
         ]
       ],
       "ii": [
@@ -250196,16 +250272,16 @@ const SENTENCES = [
           "Raeuz"
         ],
         [
-          "B",
-          "hwanjgingh"
+          "D",
+          "itdingh aeu"
         ],
         [
           "C",
           "baujhoh"
         ],
         [
-          "D",
-          "aeu"
+          "B",
+          "vanzging"
         ]
       ],
       "ii": [
@@ -255560,23 +255636,23 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ngoenz ngoenz"
-        ],
-        [
-          "E",
-          "ngeih"
-        ],
-        [
-          "F",
-          "boiz"
-        ],
-        [
-          "B",
-          "gafeih"
+          "ngoenzngoenz"
         ],
         [
           "C",
           "gwn"
+        ],
+        [
+          "E",
+          "song"
+        ],
+        [
+          "F",
+          "cenj"
+        ],
+        [
+          "B",
+          "gahfeih"
         ]
       ],
       "ii": [
@@ -259921,11 +259997,11 @@ const SENTENCES = [
       "za": [
         [
           "A",
-          "Yinzhagh huij"
+          "Yinhyozvei"
         ],
         [
           "C",
-          "haemh neix"
+          "haemhneix"
         ],
         [
           "B",
@@ -259933,7 +260009,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "gaih"
+          "hainduj"
         ]
       ],
       "ii": [
@@ -272103,15 +272179,15 @@ const SENTENCES = [
       "za": [
         [
           "A",
-          "Gihceh"
+          "Goenggungh giceh"
         ],
         [
           "B",
-          "cib haj faenzung ndeu baez"
+          "moix cib haj faencung"
         ],
         [
           "C",
-          "daeuj"
+          "daeuj baez ndeu"
         ]
       ],
       "ii": [
@@ -275932,16 +276008,16 @@ const SENTENCES = [
           "Gou"
         ],
         [
-          "B",
-          "Hanzguek haeux"
+          "D",
+          "cingq hag"
         ],
         [
           "C",
-          "guh"
+          "cawj"
         ],
         [
-          "D",
-          "hag ne"
+          "B",
+          "byaek Hanzgoz"
         ]
       ],
       "ii": [
@@ -289028,16 +289104,16 @@ const SENTENCES = [
       ],
       "za": [
         [
-          "A",
-          "Youq faex dingz"
+          "B",
+          "Gij roeg"
         ],
         [
-          "B",
-          "roeg"
+          "A",
+          "youq gwnz faex"
         ],
         [
           "C",
-          "hoenz ne"
+          "cingq ciengq"
         ]
       ],
       "ii": [
@@ -292838,16 +292914,16 @@ const SENTENCES = [
           "Gou"
         ],
         [
+          "D",
+          "aeu"
+        ],
+        [
           "B",
-          "gou soujgih"
+          "hawj soujgih gou"
         ],
         [
           "C",
-          "cunghdenh"
-        ],
-        [
-          "D",
-          "aeu"
+          "cunghden"
         ]
       ],
       "ii": [
@@ -297502,19 +297578,19 @@ const SENTENCES = [
         ],
         [
           "E",
-          "hawj"
+          "soengq hawj"
         ],
         [
           "B",
           "gou"
         ],
         [
-          "C",
-          "ndeu ndenj"
+          "D",
+          "aen laex"
         ],
         [
-          "D",
-          "laebmuengh"
+          "C",
+          "ndeiyawj ndeu"
         ]
       ],
       "ii": [
@@ -301050,12 +301126,16 @@ const SENTENCES = [
           "Bya"
         ],
         [
+          "C",
+          "deng"
+        ],
+        [
           "B",
-          "suet"
+          "nae"
         ],
         [
           "C",
-          "gaem le"
+          "goemq"
         ]
       ],
       "ii": [
@@ -309854,16 +309934,24 @@ const SENTENCES = [
       ],
       "za": [
         [
-          "B",
-          "Youq neix"
+          "A",
+          "Gou"
         ],
         [
           "C",
-          "naengz"
+          "naengh"
+        ],
+        [
+          "B",
+          "youq gizneix"
         ],
         [
           "D",
-          "ndaej mbouj"
+          "ndaej"
+        ],
+        [
+          "E",
+          "mbouj"
         ]
       ],
       "ii": [
@@ -315553,32 +315641,32 @@ const SENTENCES = [
           "De"
         ],
         [
-          "H",
-          "hawj"
-        ],
-        [
-          "C",
-          "bouxmeh"
+          "D|E",
+          "sij"
         ],
         [
           "F",
-          "ndeu"
+          "fung"
+        ],
+        [
+          "B",
+          "saenq"
         ],
         [
           "G",
           "raez"
         ],
         [
-          "B",
-          "saw"
+          "F",
+          "ndeu"
         ],
         [
-          "D",
-          "sij"
+          "H",
+          "hawj"
         ],
         [
-          "E",
-          "le"
+          "C",
+          "bohmeh de"
         ]
       ],
       "ii": [
@@ -320557,7 +320645,7 @@ const SENTENCES = [
       "za": [
         [
           "A",
-          "Dien"
+          "Aen diemq"
         ],
         [
           "F",
@@ -320569,7 +320657,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "gvan mwnz"
+          "haep dou"
         ]
       ],
       "ii": [
@@ -324701,16 +324789,16 @@ const SENTENCES = [
           "Gou"
         ],
         [
-          "B",
-          "fatyinh"
+          "D",
+          "siengj"
         ],
         [
           "C",
-          "ndei gvaq"
+          "daezswng"
         ],
         [
-          "D",
-          "siengj"
+          "B",
+          "fatyaem gou"
         ]
       ],
       "ii": [
@@ -328672,15 +328760,15 @@ const SENTENCES = [
         ],
         [
           "C",
-          "youq dah dingz"
-        ],
-        [
-          "B",
-          "ndeu diuz giuz sien"
+          "youq gwnz dah"
         ],
         [
           "D",
-          "guh le"
+          "hwnqguh le"
+        ],
+        [
+          "B",
+          "diuz giuz moq ndeu"
         ]
       ],
       "ii": [
@@ -334618,32 +334706,32 @@ const SENTENCES = [
       ],
       "za": [
         [
-          "E",
-          "Gou"
+          "A",
+          "Duzmeuz"
         ],
         [
-          "A",
-          "duz meuz"
+          "E",
+          "gou"
         ],
         [
           "G",
-          "haemh"
+          "moix"
         ],
         [
           "C",
           "haemh"
         ],
         [
+          "D",
+          "ninz"
+        ],
+        [
           "F",
-          "youq"
+          "youq gwnz"
         ],
         [
           "B",
-          "gou coengz"
-        ],
-        [
-          "D",
-          "nin"
+          "mbonq gou"
         ]
       ],
       "ii": [
@@ -338444,12 +338532,16 @@ const SENTENCES = [
           "Gou"
         ],
         [
+          "C",
+          "gaenq deq"
+        ],
+        [
           "B",
-          "sam cib faenzung"
+          "sam cib faencung"
         ],
         [
           "C",
-          "ndang le"
+          "lo"
         ]
       ],
       "ii": [
@@ -341580,15 +341672,15 @@ const SENTENCES = [
       "za": [
         [
           "A",
-          "Lwgnyez doxgai"
-        ],
-        [
-          "B",
-          "youh raemx"
+          "Gyoengq lwgnyez"
         ],
         [
           "C",
-          "hag ne"
+          "cingq hag"
+        ],
+        [
+          "B",
+          "youzraemx"
         ]
       ],
       "ii": [
@@ -345783,20 +345875,24 @@ const SENTENCES = [
       ],
       "za": [
         [
-          "A",
-          "Yinzhagh"
+          "E",
+          "Gou"
         ],
         [
           "B",
-          "dingz"
+          "dingq"
+        ],
+        [
+          "A",
+          "yinhyoz"
         ],
         [
           "C",
-          "seiq"
+          "seiz"
         ],
         [
           "D",
-          "gaeuq sim"
+          "roxnyinh gig angq"
         ]
       ],
       "ii": [
@@ -350448,16 +350544,20 @@ const SENTENCES = [
           "De"
         ],
         [
+          "D",
+          "doiq"
+        ],
+        [
+          "B",
+          "gezgoj"
+        ],
+        [
           "E",
           "gaujsi"
         ],
         [
-          "B",
-          "gij gyet guoj"
-        ],
-        [
           "C",
-          "gingh le"
+          "raen gig geizheih"
         ]
       ],
       "ii": [
@@ -354583,15 +354683,15 @@ const SENTENCES = [
       "za": [
         [
           "D",
-          "Gou gag"
+          "Gou nyinhnaeuz"
+        ],
+        [
+          "B",
+          "aen giva"
         ],
         [
           "A",
           "neix"
-        ],
-        [
-          "B",
-          "gyihhvaq"
         ],
         [
           "C",
@@ -359386,20 +359486,20 @@ const SENTENCES = [
           "De"
         ],
         [
-          "D",
-          "boux doengzcaemh"
-        ],
-        [
-          "E",
-          "ban ranz le"
+          "B",
+          "siengsim"
         ],
         [
           "C",
-          "soj"
+          "aenvih"
         ],
         [
-          "B",
-          "nanh sim"
+          "D",
+          "baengzyoux de"
+        ],
+        [
+          "E",
+          "buenranz bae lo"
         ]
       ],
       "ii": [
@@ -366012,27 +366112,31 @@ const SENTENCES = [
         ],
         [
           "E",
-          "sim"
+          "nyinhnaeuz"
         ],
         [
-          "B",
-          "hag"
-        ],
-        [
-          "F",
-          "youq gozvaih"
+          "B|F",
+          "liuzyoz"
         ],
         [
           "D",
           "dwg"
         ],
         [
-          "G",
-          "ndeu gij ginghyam"
+          "I",
+          "cungj"
         ],
         [
           "C",
-          "ndei"
+          "gingniemh"
+        ],
+        [
+          "G",
+          "dijbauj"
+        ],
+        [
+          "I",
+          "ndeu"
         ]
       ],
       "ii": [
@@ -370543,15 +370647,15 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ngoenz neix"
+          "ngoenzneix"
         ],
         [
-          "E",
-          "duz roz naet"
+          "B",
+          "gyaeuj"
         ],
         [
-          "F",
-          "ne"
+          "D",
+          "in"
         ]
       ],
       "ii": [
@@ -374493,19 +374597,19 @@ const SENTENCES = [
       "za": [
         [
           "A",
-          "Yihseng"
-        ],
-        [
-          "B",
-          "gangj gou"
-        ],
-        [
-          "C",
-          "youq"
+          "Canghyw"
         ],
         [
           "D",
-          "le"
+          "heuh"
+        ],
+        [
+          "B",
+          "gou"
+        ],
+        [
+          "C",
+          "yietbaeg"
         ]
       ],
       "ii": [
@@ -378455,15 +378559,15 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ngoenz ngoenz gwnzhaet"
-        ],
-        [
-          "C",
-          "yundungz"
+          "moix haet"
         ],
         [
           "D",
-          "siengj guh"
+          "roengzrengz"
+        ],
+        [
+          "C",
+          "guh yindung"
         ]
       ],
       "ii": [
@@ -383050,16 +383154,20 @@ const SENTENCES = [
           "De"
         ],
         [
-          "D|E",
-          "laeng ndeu baez ngoenz lai"
+          "D",
+          "singhgiz"
         ],
         [
-          "B",
-          "gam mauz"
+          "E",
+          "gonq"
         ],
         [
           "C",
-          "le"
+          "baenz"
+        ],
+        [
+          "B",
+          "dwgliengz"
         ]
       ],
       "ii": [
@@ -387907,20 +388015,24 @@ const SENTENCES = [
       ],
       "za": [
         [
-          "B",
-          "Raemx"
+          "A",
+          "Mwngz"
         ],
         [
-          "E",
-          "lai ndeu"
+          "D",
+          "aeu"
         ],
         [
           "C",
           "gwn"
         ],
         [
-          "D",
-          "ndei"
+          "B",
+          "raemx"
+        ],
+        [
+          "E",
+          "lai di"
         ]
       ],
       "ii": [
@@ -391934,15 +392046,15 @@ const SENTENCES = [
         ],
         [
           "A",
-          "ngoenz ngoenz"
-        ],
-        [
-          "B",
-          "soujgih"
+          "ngoenzngoenz"
         ],
         [
           "C",
           "yungh"
+        ],
+        [
+          "B",
+          "soujgih"
         ]
       ],
       "ii": [
@@ -396158,12 +396270,12 @@ const SENTENCES = [
       ],
       "za": [
         [
-          "A",
-          "Neix"
+          "B",
+          "Aen app"
         ],
         [
-          "B",
-          "duz app"
+          "A",
+          "neix"
         ],
         [
           "C",
@@ -396171,7 +396283,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "fuengzbienh"
+          "fuengbienh"
         ]
       ],
       "ii": [
@@ -399568,12 +399680,12 @@ const SENTENCES = [
           "AI"
         ],
         [
-          "B",
-          "seiqgyaiq"
+          "C",
+          "cingq gaijbienq"
         ],
         [
-          "C",
-          "bienq ne"
+          "B",
+          "seiqgyaiq"
         ]
       ],
       "ii": [
@@ -404571,16 +404683,20 @@ const SENTENCES = [
           "Gou"
         ],
         [
-          "D|C",
-          "cij ndaej ndaq"
+          "D",
+          "ra"
         ],
         [
-          "F",
-          "Wi-Fi"
+          "C",
+          "mbouj raen"
         ],
         [
           "G",
           "mimaz"
+        ],
+        [
+          "F",
+          "Wi-Fi"
         ]
       ],
       "ii": [
@@ -408914,15 +409030,15 @@ const SENTENCES = [
         ],
         [
           "C",
-          "geijdaej"
-        ],
-        [
-          "B",
-          "bienhcingz"
+          "gag"
         ],
         [
           "D",
-          "hag le"
+          "hag"
+        ],
+        [
+          "B",
+          "benhcwngz"
         ]
       ],
       "ii": [
@@ -412826,12 +412942,16 @@ const SENTENCES = [
           "Yawj va yinghva"
         ],
         [
-          "B",
-          "dwg Yizbwnj"
+          "D",
+          "dwg"
         ],
         [
           "C",
           "conzdungj"
+        ],
+        [
+          "B",
+          "Yizbwnj"
         ]
       ],
       "ii": [
@@ -416809,15 +416929,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "Cungj Goek Sien Nienz"
-        ],
-        [
-          "B",
-          "gyauzswj"
+          "gvaq cieng seiz"
         ],
         [
           "C",
           "gwn"
+        ],
+        [
+          "B",
+          "gyauzswj"
         ]
       ],
       "ii": [
@@ -422831,28 +422951,28 @@ const SENTENCES = [
           "Youq"
         ],
         [
-          "B",
-          "gij"
+          "C",
+          "aen guek"
         ],
         [
-          "C",
-          "guek"
+          "B",
+          "neix"
         ],
         [
           "D",
-          "haet"
+          "seizhah"
+        ],
+        [
+          "G",
+          "gawjbanh"
         ],
         [
           "E",
-          "lai"
+          "haujlai"
         ],
         [
           "F",
           "ciet"
-        ],
-        [
-          "G",
-          "guh"
         ]
       ],
       "ii": [
@@ -428112,7 +428232,7 @@ const SENTENCES = [
       "za": [
         [
           "B",
-          "Yiuq"
+          "Hag"
         ],
         [
           "A",
@@ -428120,15 +428240,15 @@ const SENTENCES = [
         ],
         [
           "C",
-          "gai"
+          "hai"
+        ],
+        [
+          "E",
+          "dou"
         ],
         [
           "D",
           "moq"
-        ],
-        [
-          "E",
-          "mwnz"
         ]
       ],
       "ii": [
@@ -432041,15 +432161,15 @@ const SENTENCES = [
         ],
         [
           "A",
-          "gij gihceh daengceh"
-        ],
-        [
-          "B",
-          "bae banggunghsiz"
+          "gwih danci"
         ],
         [
           "C",
-          "ne"
+          "bae"
+        ],
+        [
+          "B",
+          "banhgunghsiz"
         ]
       ],
       "ii": [
@@ -441019,19 +441139,19 @@ const SENTENCES = [
       "za": [
         [
           "A",
-          "Daihdinlaeng"
-        ],
-        [
-          "C",
-          "canhj"
-        ],
-        [
-          "B",
-          "laeng"
+          "Cauhsi"
         ],
         [
           "D",
           "youq"
+        ],
+        [
+          "B",
+          "baihlaeng"
+        ],
+        [
+          "C",
+          "camh"
         ]
       ],
       "ii": [
@@ -445760,19 +445880,19 @@ const SENTENCES = [
         ],
         [
           "B",
-          "aeu"
+          "siengj"
         ],
         [
           "C",
-          "dingj"
-        ],
-        [
-          "D",
-          "gij"
+          "aeu"
         ],
         [
           "E",
-          "haeux"
+          "byaek"
+        ],
+        [
+          "D",
+          "neix"
         ]
       ],
       "ii": [
@@ -449792,20 +449912,16 @@ const SENTENCES = [
       ],
       "za": [
         [
-          "A",
-          "Neix"
+          "B",
+          "Aen doxgaiq geiqniemh"
         ],
         [
-          "B",
-          "duz gijniemz"
+          "A",
+          "neix"
         ],
         [
           "C",
-          "geijlai"
-        ],
-        [
-          "D",
-          "gienz"
+          "geijlai cienz"
         ]
       ],
       "ii": [

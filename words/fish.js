@@ -8,7 +8,7 @@
  * everything with рыба. Uralic keeps *kala almost unchanged from
  * Finland to the Taimyr (kala, guolli, кол, кал, хуӆ, халя). Turkic keeps
  * balık across the whole steppe. Austronesian carries *Sikan from Taiwan to
- * Easter Island (ikan, isda, iʻa, ika). Tibeto-Burman is *ŋa (ငါး, ཉ, ꯉꯥ, nga).
+ * Easter Island (ikan, iʻa, ika); Tagalog isda is a Philippine word, *sidáq. Tibeto-Burman is *ŋa (ငါး, ཉ, ꯉꯥ, nga).
  * Japanese 魚 and Korean 물고기 ("water-meat") are unrelated to all of them.
  */
 WORDS.fish = {

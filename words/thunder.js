@@ -61,7 +61,7 @@ WORDS.thunder = {
     uk: "Грім — звук, що настає після блискавки. У кількох мовах це бог: японське かみなり — «бог гримить», фінське ukkonen назване за небесним богом Укко, латиське pērkons — сам громовержець Перконс (як слов'янський Перун). Інші мови називають його шумом неба, наслідують його або мають старе своє слово (thunder, Donner, грім).",
     ar: "الرعد — الصوت الذي يعقب البرق. في عدة لغات هو إله: اليابانية かみなり «الإله يدوّي»، والفنلندية ukkonen باسم إله السماء أوكو، واللاتفية pērkons هو إله الرعد بيركونس نفسه. وتسمّيه لغات أخرى صوت السماء، أو تحاكي صوته، أو تحتفظ بكلمة قديمة خاصة (thunder وDonner وгром).",
     he: "רעם — הקול שבא אחרי הברק. בכמה שפות הוא אל: ביפנית かみなり הוא \"האל משמיע קול\", בפינית ukkonen נקרא על שם אל השמיים אוקו, בלטבית pērkons הוא אל הרעם פרקונס עצמו. שפות אחרות קוראות לו קול השמיים, מחקות אותו, או שומרות מילה עתיקה משלהן (thunder, Donner, гром).",
-    sw: "Radi — sauti inayofuata umeme. Katika lugha kadhaa ni mungu: Kijapani かみなり ni \"mungu analia\", Kifini ukkonen kinaitwa kwa jina la mungu wa anga Ukko, Kilatvia pērkons ni mungu wa radi Pērkons mwenyewe. Lugha nyingine huiita sauti ya anga, huiga sauti yake, au hubaki na neno lao la zamani (thunder, Donner, гром).",
+    sw: "Radi — sauti inayofuata umeme. Katika lugha kadhaa ni mungu: Kijapani かみなり ni \"mungu analia\", Kifinlandi ukkonen kinaitwa kwa jina la mungu wa anga Ukko, Kilatvia pērkons ni mungu wa radi Pērkons mwenyewe. Lugha nyingine huiita sauti ya anga, huiga sauti yake, au hubaki na neno lao la zamani (thunder, Donner, гром).",
   },
   family: {
     lb: "plain",

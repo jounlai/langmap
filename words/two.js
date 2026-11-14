@@ -29,7 +29,7 @@ WORDS.two = {
     sw: "Mbili",
   },
   definition: {
-    en: "The cardinal NUMERAL 2 (\"two\"); counting number. Not the ordinal \"second\".",
+    en: "The cardinal numeral 2 (\"two\"); counting number. Not the ordinal \"second\".",
     ja: "基数の数詞「2（に／ふたつ）」；数を数える語。序数の「2番目」ではない。",
     ko: "기수 \"둘/2\"; 개수를 세는 수. 서수 \"둘째\"가 아님.",
     zh: "基数词“二/2”，用于计数；不是序数“第二”。",

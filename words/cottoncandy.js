@@ -51,7 +51,7 @@ WORDS.cottoncandy = {
   },
   definition: {
     en: "Cotton candy — sugar spun into fine threads around a stick, the sweet of fairs. Most languages call it cotton: 棉花糖, 솜사탕, algodón de azúcar, and Zuckerwatte and сахарная вата, 'sugar cotton wool'. Others hear spun thread (candyfloss, zucchero filato, Thai สายไหม 'silk thread'), wool (Persian پشمک), or a person's hair: French barbe à papa 'daddy's beard', Greek and Hindi 'the old woman's hair'.",
-    ja: "綿あめ — 溶かした砂糖を細い糸にして棒に巻きつけた、縁日のお菓子。多くの言語は綿にたとえる。棉花糖、솜사탕、algodón de azúcar、そして「砂糖の脱脂綿」Zuckerwatte や сахарная вата。紡いだ糸と見る言語（candyfloss、zucchero filato、タイ語 สายไหม「絹糸」）、羊毛と見る言語（ペルシア語 پشمک）もあり、人の髪にたとえる言語もある。フランス語 barbe à papa は「パパのひげ」、ギリシャ語とヒンディー語は「おばあさんの髪」。",
+    ja: "綿あめ — 溶かした砂糖を細い糸にして棒に巻きつけた、縁日のお菓子。多くの言語は綿にたとえる。棉花糖、솜사탕、algodón de azúcar、そして「砂糖の脱脂綿」Zuckerwatte や сахарная вата。紡いだ糸と見る言語（candyfloss、zucchero filato、タイ語 สายไหม「絹糸」）、羊毛と見る言語（ペルシャ語 پشمک）もあり、人の髪にたとえる言語もある。フランス語 barbe à papa は「パパのひげ」、ギリシャ語とヒンディー語は「おばあさんの髪」。",
     ko: "솜사탕 — 녹인 설탕을 가는 실로 뽑아 막대에 감은, 축제의 과자. 대부분의 언어는 솜에 빗댄다. 棉花糖, 솜사탕, algodón de azúcar, 그리고 '설탕 솜'인 Zuckerwatte와 сахарная вата. 자은 실로 보는 언어(candyfloss, zucchero filato, 태국어 สายไหม '명주실'), 양털로 보는 언어(페르시아어 پشمک)도 있고, 사람의 머리털에 빗대는 언어도 있다. 프랑스어 barbe à papa는 '아빠의 수염', 그리스어와 힌디어는 '할머니의 머리카락'이다.",
     zh: "棉花糖——把熔化的砂糖甩成细丝、缠在小棍上的庙会甜食。多数语言把它比作棉花：棉花糖、솜사탕、algodón de azúcar，还有“糖棉絮”Zuckerwatte 和 сахарная вата。有的语言看成纺出的丝线（candyfloss、zucchero filato、泰语 สายไหม“丝线”），有的看成羊毛（波斯语 پشمک），还有的比作人的头发：法语 barbe à papa 是“爸爸的胡子”，希腊语和印地语是“老婆婆的头发”。",
     yue: "棉花糖——將溶咗嘅砂糖甩成幼絲、捲喺棍仔上面嘅遊樂場甜食。大部分語言將佢比作棉花：棉花糖、솜사탕、algodón de azúcar，仲有「糖棉絮」Zuckerwatte 同 сахарная вата。有啲語言當佢係紡出嚟嘅絲線（candyfloss、zucchero filato、泰文 สายไหม「絲線」），有啲當佢係羊毛（波斯文 پشمک），仲有啲比作人嘅頭髮：法文 barbe à papa 係「爸爸嘅鬍鬚」，希臘文同印地文係「阿婆嘅頭髮」。",

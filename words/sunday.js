@@ -55,7 +55,7 @@ WORDS.sunday = {
     ko: "일요일 — 토요일 다음 날. 이름을 보면 한 주를 만든 힘이 보인다. Sonntag와 일요일은 해, domingo와 Κυριακή는 주님, 러시아어는 부활, 튀르키예어는 시장, 히브리어와 아랍어는 그저 숫자다.",
     zh: "星期日——星期六之后的一天。它的名字显示了谁塑造了一周：Sonntag 和日曜日是太阳，domingo 和 Κυριακή 是主，俄语是复活，土耳其语是集市，希伯来语和阿拉伯语只是数字。",
     yue: "星期日——星期六之後嗰日。佢嘅名顯示咗邊個塑造咗一個星期：Sonntag 同日曜日係太陽，domingo 同 Κυριακή 係主，俄文係復活，土耳其文係墟市，希伯來文同阿拉伯文就淨係數字。",
-    vi: "Chủ nhật — ngày sau thứ Bảy. Tên gọi cho thấy ai đã định hình tuần lễ: mặt trời trong Sonntag và 日曜日, Đức Chúa trong domingo và Κυριακή, sự Phục sinh trong tiếng Nga, phiên chợ trong tiếng Thổ Nhĩ Kỳ, và chỉ một con số trong tiếng Hebrew và tiếng Ả Rập.",
+    vi: "Chủ nhật — ngày sau thứ Bảy. Tên gọi cho thấy ai đã định hình tuần lễ: mặt trời trong Sonntag và 日曜日, Đức Chúa trong domingo và Κυριακή, sự Phục sinh trong tiếng Nga, phiên chợ trong tiếng Thổ Nhĩ Kỳ, và chỉ một con số trong tiếng Do Thái và tiếng Ả Rập.",
     th: "วันอาทิตย์ — วันถัดจากวันเสาร์ ชื่อของมันบอกว่าใครกำหนดสัปดาห์ ดวงอาทิตย์ใน Sonntag และ 日曜日 องค์พระผู้เป็นเจ้าใน domingo และ Κυριακή การคืนพระชนม์ในภาษารัสเซีย ตลาดในภาษาตุรกี และเป็นเพียงตัวเลขในภาษาฮีบรูกับอาหรับ",
     id: "Minggu — hari sesudah Sabtu. Namanya menunjukkan siapa yang membentuk pekan: matahari dalam Sonntag dan 日曜日, Tuhan dalam domingo dan Κυριακή, Kebangkitan dalam bahasa Rusia, pasar dalam bahasa Turki, dan sekadar angka dalam bahasa Ibrani dan Arab.",
     hi: "रविवार — शनिवार के बाद का दिन। इसके नाम बताते हैं कि सप्ताह को किसने गढ़ा: Sonntag और 日曜日 में सूर्य, domingo और Κυριακή में प्रभु, रूसी में पुनरुत्थान, तुर्की में बाज़ार, और हिब्रू व अरबी में केवल एक संख्या।",

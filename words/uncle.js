@@ -62,7 +62,7 @@ WORDS.uncle = {
     uk: "Дядько — брат батька чи матері. Багато мов питає, з якого боку: турецьке amca і dayı, арабське عم і خال, гінді चाचा і मामा, фінське setä і eno. В англійській, французькій і російській для обох одне слово. Де мова їх розрізняє, мапа показує брата батька, а в примітці подано брата матері.",
     ar: "العم والخال — أخو أحد الوالدين. تسأل لغات كثيرة من أي جهة: التركية amca وdayı، والعربية عم وخال، والهندية चाचा وमामा، والفنلندية setä وeno. وللإنجليزية والفرنسية والروسية كلمة واحدة لكليهما. وحيث تفرق اللغة بينهما تعرض الخريطة أخا الأب، وتذكر الحاشية أخا الأم.",
     he: "דוד — אח של אחד ההורים. שפות רבות שואלות מאיזה צד: הטורקית amca ו־dayı, הערבית عم ו־خال, ההינדית चाचा ו־मामा, הפינית setä ו־eno. באנגלית, בצרפתית וברוסית יש מילה אחת לשניהם. בשפה שמבחינה ביניהם, המפה מציגה את אחי האב, וההערה נותנת את אחי האם.",
-    sw: "Ami / mjomba — kaka wa mzazi. Lugha nyingi huuliza ni upande gani: Kituruki amca na dayı, Kiarabu عم na خال, Kihindi चाचा na मामा, Kifini setä na eno. Kiingereza, Kifaransa na Kirusi vina neno moja kwa wote wawili. Pale lugha inapowatenganisha, ramani inaonyesha kaka wa baba, na maelezo yanampa kaka wa mama.",
+    sw: "Ami / mjomba — kaka wa mzazi. Lugha nyingi huuliza ni upande gani: Kituruki amca na dayı, Kiarabu عم na خال, Kihindi चाचा na मामा, Kifinlandi setä na eno. Kiingereza, Kifaransa na Kirusi vina neno moja kwa wote wawili. Pale lugha inapowatenganisha, ramani inaonyesha kaka wa baba, na maelezo yanampa kaka wa mama.",
   },
   family: {
     aa: "split",

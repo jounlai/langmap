@@ -27,7 +27,7 @@ WORDS.salt = {
     vi: "Muối — khoáng chất dùng để nêm và bảo quản thức ăn. Tiếng Anh salary (tiền lương) đúng là bắt nguồn từ tiếng Latinh sal 'muối', nhưng chuyện lính La Mã được trả lương bằng muối thì không có căn cứ.",
     th: "เกลือ — แร่ที่ใช้ปรุงรสและถนอมอาหาร คำอังกฤษ salary (เงินเดือน) มาจากคำละติน sal ที่แปลว่าเกลือจริง แต่เรื่องที่ว่าทหารโรมันได้เงินเดือนเป็นเกลือนั้นไม่มีหลักฐาน",
     id: "Garam — mineral untuk membumbui dan mengawetkan makanan. Kata Inggris salary (gaji) memang berasal dari kata Latin sal 'garam', tetapi kisah bahwa prajurit Romawi digaji dengan garam tidak berdasar.",
-    hi: "नमक — भोजन में स्वाद और परिरक्षण के लिए प्रयुक्त खनिज। अंग्रेज़ी salary (वेतन) सचमुच लातिनी sal 'नमक' से आया है, पर यह कहानी कि रोमन सैनिकों को वेतन नमक में मिलता था, निराधार है।",
+    hi: "नमक — भोजन में स्वाद और परिरक्षण के लिए प्रयुक्त खनिज। अंग्रेज़ी salary (वेतन) सचमुच लैटिन sal 'नमक' से आया है, पर यह कहानी कि रोमन सैनिकों को वेतन नमक में मिलता था, निराधार है।",
     de: "Salz — das Mineral zum Würzen und Haltbarmachen. Englisch salary, „Gehalt“, kommt tatsächlich von lateinisch sal „Salz“, doch die Geschichte, römische Soldaten seien in Salz bezahlt worden, ist unbelegt.",
     fr: "Sel — le minéral qui assaisonne et conserve. L'anglais salary, « salaire », vient bien du latin sal, « sel », mais l'histoire des soldats romains payés en sel est sans fondement.",
     it: "Sale — il minerale che insaporisce e conserva. L'inglese salary, «stipendio», viene davvero dal latino sal, «sale», ma la storia dei soldati romani pagati in sale è infondata.",

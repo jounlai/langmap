@@ -67,8 +67,8 @@ WORDS.honey = {
     ru: "Мёд — густая сладкая пища, которую пчёлы делают из цветочного нектара. В праиндоевропейском было два слова для неё: одно дало латинское mel, другое — санскритское madhu и английское mead.",
     uk: "Мед — густа солодка їжа, яку бджоли роблять із квіткового нектару. У праіндоєвропейській було два слова для неї: одне дало латинське mel, друге — санскритське madhu й англійське mead.",
     ar: "عسل — الطعام الحلو الكثيف الذي يصنعه النحل من رحيق الأزهار. كان في الهندية الأوروبية الأم كلمتان له: إحداهما أعطت اللاتينية mel واليونانية méli، والأخرى السنسكريتية madhu والإنجليزية mead.",
-    he: "דבש — המזון המתוק והסמיך שהדבורים מייצרות מצוף פרחים. בפרוטו־הודו־אירופית היו לו שתי מילים: האחת נתנה את הלטינית mel והיוונית méli, והשנייה את הסנסקריט madhu ואת האנגלית mead.",
-    sw: "Asali — chakula kizito na kitamu ambacho nyuki hutengeneza kutokana na nekta ya maua. Lugha ya Proto-Indo-Ulaya ilikuwa na maneno mawili kwa ajili yake: moja likatoa mel ya Kilatini, jingine madhu ya Kisanskrit na mead ya Kiingereza.",
+    he: "דבש — המזון המתוק והסמיך שהדבורים מייצרות מצוף פרחים. בפרוטו-הודו-אירופית היו לו שתי מילים: האחת נתנה את הלטינית mel והיוונית méli, והשנייה את הסנסקריט madhu ואת האנגלית mead.",
+    sw: "Asali — chakula kizito na kitamu ambacho nyuki hutengeneza kutokana na nekta ya maua. Lugha ya Kihindi-Ulaya Asilia ilikuwa na maneno mawili kwa ajili yake: moja likatoa mel ya Kilatini, jingine madhu ya Kisanskriti na mead ya Kiingereza.",
   },
   data: {
     // --- UI languages -------------------------------------------------

@@ -55,7 +55,7 @@ WORDS.hundred = {
     uk: "Сто — число 100. Його початковий звук ділить індоєвропейські мови навпіл: латинське centum зберегло k, а авестійське satəm перетворило його на s.",
     ar: "مئة — العدد 100. صوتها الأول يشطر اللغات الهندية الأوروبية شطرين: اللاتينية centum حافظت على الكاف، والأفستية satəm حوّلتها إلى سين.",
     he: "מאה — המספר 100. העיצור הפותח שלה מחלק את המשפחה ההודו-אירופית לשניים: הלטינית centum שמרה על ה-k, והאווסטית satəm הפכה אותו ל-s.",
-    sw: "Mia — namba 100. Sauti yake ya kwanza inagawa familia ya lugha za Kihindi-Kiulaya mara mbili: Kilatini centum kilihifadhi k, na Kiavesta satəm kikaigeuza kuwa s.",
+    sw: "Mia — namba 100. Sauti yake ya kwanza inagawa familia ya lugha za Kihindi-Ulaya mara mbili: Kilatini centum kilihifadhi k, na Kiavesta satəm kikaigeuza kuwa s.",
   },
   data: {
     // --- UI languages -------------------------------------------------

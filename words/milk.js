@@ -21,7 +21,7 @@ WORDS.milk = {
   },
   definition: {
     en: "Milk — the drink from a cow or a mother. Indo-European has no single inherited word for it; the Greek one, gála, is why galaxies are named after it.",
-    ja: "牛乳 — 牛や母から出る飲み物。印欧語族に共通語はなく、ギリシア語 gála が galaxy（銀河）の語源になった。",
+    ja: "牛乳 — 牛や母から出る飲み物。印欧語族に共通語はなく、ギリシャ語 gála が galaxy（銀河）の語源になった。",
     ko: "우유 — 소나 어머니에게서 나오는 음료. 인도유럽어에는 공통 단어가 없고, 그리스어 gála가 galaxy(은하)의 어원이다.",
     zh: "牛奶——出自母牛或母亲的饮品。印欧语系没有共同的词，而希腊语 gála 正是 galaxy（银河）的词源。",
     yue: "牛奶——出自乳牛或者母親嘅飲品。印歐語系冇共同嘅詞，而希臘文 gála 正正就係 galaxy（銀河）嘅詞源。",

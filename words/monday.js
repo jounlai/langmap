@@ -22,7 +22,7 @@ WORDS.monday = {
     ko: "월요일",
     zh: "星期一",
     yue: "星期一",
-    vi: "Thứ Hai",
+    vi: "Thứ hai",
     th: "วันจันทร์",
     id: "Senin",
     hi: "सोमवार",
@@ -43,7 +43,7 @@ WORDS.monday = {
   },
   definition: {
     en: "Monday — the day after Sunday. Its name shows where a language got its week: the moon's day of the Roman planetary week (Monday, lundi, 月曜日, सोमवार), a number in the Jewish, Christian and Islamic counted week (Hebrew \"second day\", Arabic الاثنين, Portuguese segunda-feira, Chinese 星期一 \"week-one\", Swahili Jumatatu), or the Slavic \"day after Sunday\" (понедельник).",
-    ja: "月曜日 — 日曜日の次の日。その名は、言語が週をどこから受け取ったかを示す。ローマの惑星の週に由来する「月の日」（Monday・lundi・月曜日・सोमवार）、ユダヤ・キリスト教・イスラム圏の数える週に由来する番号（ヘブライ語「第二の日」、アラビア語 الاثنين、ポルトガル語 segunda-feira、中国語 星期一、スワヒリ語 Jumatatu）、スラブ語の「日曜の後」（понедельник）。",
+    ja: "月曜日 — 日曜日の次の日。その名は、言語が週をどこから受け取ったかを示す。ローマの惑星の週に由来する「月の日」（Monday・lundi・月曜日・सोमवार）、ユダヤ・キリスト教・イスラーム圏の数える週に由来する番号（ヘブライ語「第二の日」、アラビア語 الاثنين、ポルトガル語 segunda-feira、中国語 星期一、スワヒリ語 Jumatatu）、スラヴ語の「日曜の後」（понедельник）。",
     ko: "월요일 — 일요일 다음 날. 그 이름은 언어가 한 주를 어디서 받아들였는지를 보여 준다. 로마 행성 주간의 \"달의 날\"(Monday·lundi·月曜日·सोमवार), 유대교·그리스도교·이슬람의 세는 주간에서 온 번호(히브리어 \"둘째 날\", 아랍어 الاثنين, 포르투갈어 segunda-feira, 중국어 星期一, 스와힐리어 Jumatatu), 슬라브어의 \"일요일 다음\"(понедельник).",
     zh: "星期一——星期日的下一天。它的名字显示一种语言的星期从何而来：罗马行星周的\"月亮日\"（Monday、lundi、月曜日、सोमवार），犹太教、基督教和伊斯兰教计数周的序号（希伯来语\"第二日\"、阿拉伯语 الاثنين、葡萄牙语 segunda-feira、汉语 星期一、斯瓦希里语 Jumatatu），或斯拉夫语的\"星期日之后\"（понедельник）。",
     yue: "星期一——星期日嘅下一日。佢個名顯示一種語言嘅星期由邊度嚟：羅馬行星周嘅「月亮日」（Monday、lundi、月曜日、सोमवार），猶太教、基督教同伊斯蘭教數住嘅星期嘅序號（希伯來文「第二日」、阿拉伯文 الاثنين、葡萄牙文 segunda-feira、中文 星期一、斯瓦希里文 Jumatatu），或者斯拉夫語嘅「星期日之後」（понедельник）。",

@@ -63,7 +63,7 @@ WORDS.tear = {
     uk: "Сльоза — крапля, що падає з ока, коли ми плачемо. У багатьох мовах Азії й Тихого океану це просто «вода ока»: індонезійське air mata, тайське น้ำตา, корейське 눈물, в’єтнамське nước mắt. Китайське 眼淚 і турецьке gözyaşı теж виходять від слова «око», а більшість мов Європи має окреме слово, як-от Träne, larme і слеза.",
     ar: "دمعة — القطرة التي تسقط من العين عند البكاء. في لغات كثيرة في آسيا والمحيط الهادئ هي ببساطة «ماء العين»: الإندونيسية air mata، والتايلاندية น้ำตา، والكورية 눈물، والفيتنامية nước mắt. وتنطلق الصينية 眼淚 والتركية gözyaşı أيضًا من العين، بينما لمعظم لغات أوروبا كلمة خاصة، مثل Träne وlarme وслеза.",
     he: "דמעה — הטיפה שנופלת מהעין כשבוכים. בשפות רבות באסיה ובאוקיינוס השקט היא פשוט \"מי העין\": באינדונזית air mata, בתאית น้ำตา, בקוריאנית 눈물, בווייטנאמית nước mắt. גם הסינית 眼淚 והטורקית gözyaşı יוצאות מהמילה לעין, ואילו לרוב שפות אירופה יש מילה משלהן, כמו Träne, larme ו-слеза.",
-    sw: "Chozi — tone linaloanguka kutoka jichoni tunapolia. Katika lugha nyingi za Asia na Pasifiki ni \"maji ya jicho\" tu: Kiindonesia air mata, Kithai น้ำตา, Kikorea 눈물, Kivietnamu nước mắt. Kichina 眼淚 na Kituruki gözyaşı pia huanzia kwenye neno la jicho, huku lugha nyingi za Ulaya zikiwa na neno lake, kama Träne, larme na слеза.",
+    sw: "Chozi — tone linaloanguka kutoka jichoni tunapolia. Katika lugha nyingi za Asia na Pasifiki ni \"maji ya jicho\" tu: Kiindonesia air mata, Kithai น้ำตา, Kikorea 눈물, Kivietinamu nước mắt. Kichina 眼淚 na Kituruki gözyaşı pia huanzia kwenye neno la jicho, huku lugha nyingi za Ulaya zikiwa na neno lake, kama Träne, larme na слеза.",
   },
   family: {
     aa: "plain",

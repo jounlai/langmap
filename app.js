@@ -367,7 +367,7 @@ const HIST_BADGE = { en:'Hist', ja:'歴史', ko:'역사', zh:'历史', yue:'歷�
 const EXP_BADGE  = { en:'Exp', ja:'実験', ko:'실험', zh:'实验', yue:'實驗', vi:'Thử', th:'ทดลอง', id:'Uji', hi:'प्रयोग', de:'Exp.', fr:'Exp.', it:'Sper.', es:'Exp.', pt:'Exp.', ru:'Эксп.', uk:'Експ.', ar:'تجريبي', he:'ניסיוני', sw:'Jaribio' };
 function histBadge() { return HIST_BADGE[currentUILang] || HIST_BADGE[String(currentUILang || '').split('_')[0]] || HIST_BADGE.en; }
 function expBadge()  { return EXP_BADGE[currentUILang]  || EXP_BADGE[String(currentUILang || '').split('_')[0]]  || EXP_BADGE.en; }
-const NO_SPACE_LANGS = new Set(['ja', 'ja_kyo', 'ja_osa', 'ja_hir', 'ja_hak', 'ja_aom', 'ja_oki', 'ja_mvi', 'ja_rys', 'ja_edo', 'ja_heian', 'zh', 'zh_db', 'zh_sc', 'yue', 'nan', 'wuu', 'hak_cn', 'cdo', 'zh_song', 'zh_tang', 'zh_han', 'th', 'th_isan', 'th_n', 'th_s', 'lo', 'my', 'km', 'vi_nom', 'ii', 'egy']);
+const NO_SPACE_LANGS = new Set(['ja', 'ja_kyo', 'ja_osa', 'ja_hir', 'ja_hak', 'ja_aom', 'ja_oki', 'ja_mvi', 'ja_rys', 'ja_edo', 'ja_heian', 'zh', 'zh_db', 'zh_sc', 'yue', 'nan', 'wuu', 'hak_cn', 'cdo', 'zh_song', 'zh_tang', 'zh_han', 'th', 'th_isan', 'th_n', 'th_s', 'lo', 'my', 'km', 'vi_nom', 'ii', 'egy', 'bo']);  // bo: Tibetan separates syllables with the tsheg, not spaces (rally 2026-11-14)
 const GLUE = '\u200C'; // ZWNJ prefix = join to previous segment without space
 function buildFullText(langData, langCode) {
     const noSpace = NO_SPACE_LANGS.has(langCode);

@@ -8721,7 +8721,7 @@ const HAN_DATA = {
       "cnp": "hyt̚˧",
       "och": "*m̥ˤik",
       "zh_tang": "xwet̚",
-      "ko": "çjʌl",
+      "ko": "hjʌl",
       "vi": "hwiət˧˥",
       "vi_c": "hwiək˧˦",
       "vi_s": "wiək˧˥",
@@ -19988,6 +19988,7 @@ const HAN_DATA = {
   },
   "冷": {
     "surface": {
+      "och": "*[r]ˤeŋʔ",
       "za": "leːŋ³⁴",
       "yue_gz": "laang5",
       "zh_jh": "lən⁴²",
@@ -20084,6 +20085,7 @@ const HAN_DATA = {
       "zh": "lěng"
     },
     "ipa": {
+      "och": "*[r]ˤeŋʔ",
       "za": "leːŋ˧˦",
       "yue_gz": "laːŋ˨˩˦",
       "zh_jh": "lən˦˨",
@@ -21053,7 +21055,7 @@ const HAN_DATA = {
       "zh_kf": "fan˧˩˨",
       "zh_jn": "fã˨˩",
       "zh_jiao": "fã˦˨",
-      "zh_hf": "fɐ̃˥˧",
+      "zh_hf": "fæ̃˥˧",
       "zh_gl": "fã˨˦",
       "zh_db": "fan˥˧",
       "zh_cq": "fan˨˩˦",
@@ -36355,6 +36357,12 @@ const HAN_VARIANTS = {
         "surface": "mu",
         "ipa": "mɯ",
         "label": "呉音 / Go-on"
+      },
+      {
+        "native": "ボ",
+        "surface": "bo",
+        "ipa": "bo",
+        "label": "慣用音 / Kan'yō-on"
       }
     ]
   },
@@ -39857,13 +39865,13 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "fan²¹",
-        "ipa": "fan˨˩",
+        "ipa": "ɸan˨˩",
         "label": "白讀"
       },
       {
         "native": "",
         "surface": "fan⁴⁵",
-        "ipa": "fan˦˥",
+        "ipa": "ɸan˦˥",
         "label": "文讀"
       }
     ],
@@ -47568,7 +47576,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "gniuq8",
         "ipa": "ȵyɪʔ˩˨",
-        "label": "白讀 (moon/month)"
+        "label": "白讀"
       },
       {
         "native": "",
@@ -47799,13 +47807,13 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "suann",
-        "ipa": "suã˧˧",
+        "ipa": "suã˦˦",
         "label": "白讀"
       },
       {
         "native": "",
         "surface": "san",
-        "ipa": "san˧˧",
+        "ipa": "san˦˦",
         "label": "文讀"
       }
     ],
@@ -51492,7 +51500,13 @@ const HAN_VARIANTS = {
         "native": "トウ",
         "surface": "tō",
         "ipa": "toː",
-        "label": ""
+        "label": "漢音 / Kan-on"
+      },
+      {
+        "native": "ツウ",
+        "surface": "tsū",
+        "ipa": "tsɯː",
+        "label": "呉音 / Go-on"
       }
     ],
     "nan_my": [
@@ -51555,13 +51569,13 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tang",
-        "ipa": "taŋ˧˧",
+        "ipa": "taŋ˦˦",
         "label": "白讀"
       },
       {
         "native": "",
         "surface": "tong",
-        "ipa": "tɔŋ˧˧",
+        "ipa": "tɔŋ˦˦",
         "label": "文讀"
       }
     ],

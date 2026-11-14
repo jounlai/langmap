@@ -135,6 +135,62 @@
     "version": 2,
     "hash": "8afb66665c84d3bf"
   },
+  "tree_names_i18n/ar.js": {
+    "version": 1,
+    "hash": "a6eb2b90fd2303e2"
+  },
+  "tree_names_i18n/de.js": {
+    "version": 1,
+    "hash": "0b2de2fb59ecfa7b"
+  },
+  "tree_names_i18n/es.js": {
+    "version": 1,
+    "hash": "f623904a03251714"
+  },
+  "tree_names_i18n/fr.js": {
+    "version": 1,
+    "hash": "dbbb2f620eb0b18b"
+  },
+  "tree_names_i18n/he.js": {
+    "version": 1,
+    "hash": "2a84108c83c75148"
+  },
+  "tree_names_i18n/hi.js": {
+    "version": 1,
+    "hash": "b503a7f438d5cb39"
+  },
+  "tree_names_i18n/id.js": {
+    "version": 1,
+    "hash": "e48ca0e054e6c357"
+  },
+  "tree_names_i18n/it.js": {
+    "version": 1,
+    "hash": "dfa4fee2f40fcce8"
+  },
+  "tree_names_i18n/pt.js": {
+    "version": 1,
+    "hash": "b17af57a1564be5e"
+  },
+  "tree_names_i18n/ru.js": {
+    "version": 1,
+    "hash": "2df60bcf81f742ba"
+  },
+  "tree_names_i18n/sw.js": {
+    "version": 1,
+    "hash": "0ed1e2d5d90bfb8c"
+  },
+  "tree_names_i18n/th.js": {
+    "version": 1,
+    "hash": "f1aa947cfbbb5aac"
+  },
+  "tree_names_i18n/uk.js": {
+    "version": 1,
+    "hash": "741dec3e0a7ee631"
+  },
+  "tree_names_i18n/vi.js": {
+    "version": 1,
+    "hash": "6d8a1a925f46afae"
+  },
   "tree_paths.js": {
     "version": 3,
     "hash": "21577a6e15c0cf92"

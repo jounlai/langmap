@@ -6512,48 +6512,6 @@ const SENTENCES = [
           "le oteel o'"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "B",
-          "*welH-mi"
-        ],
-        [
-          "C",
-          "*temh₁-"
-        ],
-        [
-          "D",
-          "*wes-"
-        ],
-        [
-          "E",
-          "*yo-"
-        ],
-        [
-          "G",
-          "*weid-"
-        ],
-        [
-          "H",
-          "*h₁en"
-        ],
-        [
-          "I",
-          "*h₂ep-"
-        ],
-        [
-          "J",
-          "*h₂ent-"
-        ],
-        [
-          "K",
-          "*gʰos-ti-"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -16419,28 +16377,6 @@ const SENTENCES = [
           "waj"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "D",
-          "*h₂ews-r-yos kʷe-kʷe"
-        ],
-        [
-          "E",
-          "*septm̥-i"
-        ],
-        [
-          "B",
-          "*preh₂wom h₁édtrom"
-        ],
-        [
-          "C",
-          "*h₁édmi"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -20645,24 +20581,6 @@ const SENTENCES = [
         [
           "B",
           "u beel k'uchul"
-        ]
-      ],
-      "ine": [
-        [
-          "C",
-          "*kʷu"
-        ],
-        [
-          "A",
-          "*neḱistom"
-        ],
-        [
-          "B",
-          "*steh₂-tis"
-        ],
-        [
-          "D",
-          "*h₁ésti"
         ]
       ],
       "ko_mid": [
@@ -24881,24 +24799,6 @@ const SENTENCES = [
           "ki'imak"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*ḱe"
-        ],
-        [
-          "B",
-          "*kafeh"
-        ],
-        [
-          "C",
-          "*méǵh₂"
-        ],
-        [
-          "D",
-          "*sweh₂dús h₁ésti"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -28987,24 +28887,6 @@ const SENTENCES = [
           "ich na'at na"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "B",
-          "*widtōryeh₂i"
-        ],
-        [
-          "C",
-          "*Yamatu dn̥ǵʰwéh₂m"
-        ],
-        [
-          "D",
-          "*ǵn̥néh₃mi"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -33036,24 +32918,6 @@ const SENTENCES = [
         [
           "D",
           "k'iin-il"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*h₂ews-r-yom"
-        ],
-        [
-          "B",
-          "*dyḗws"
-        ],
-        [
-          "D",
-          "*sh₂wl̥-went-"
-        ],
-        [
-          "C",
-          "*bʰuHyéti"
         ]
       ],
       "ko_mid": [
@@ -42819,36 +42683,6 @@ const SENTENCES = [
           "jaab"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "B",
-          "*welH-mi"
-        ],
-        [
-          "C",
-          "*gʷem-"
-        ],
-        [
-          "D",
-          "*preti"
-        ],
-        [
-          "E",
-          "*Yapōn"
-        ],
-        [
-          "F",
-          "*newo-"
-        ],
-        [
-          "G",
-          "*yeh₁r-"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -47640,24 +47474,6 @@ const SENTENCES = [
         [
           "C",
           "t'àan"
-        ]
-      ],
-      "ine": [
-        [
-          "D",
-          "*mogʰ-éyesi"
-        ],
-        [
-          "A",
-          "*tuH"
-        ],
-        [
-          "B",
-          "*h₂enǵliskóm"
-        ],
-        [
-          "C",
-          "*bʰeh₂-"
         ]
       ],
       "ko_mid": [
@@ -53015,32 +52831,6 @@ const SENTENCES = [
           "in mān-ah"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "F",
-          "*dʰǵʰyési"
-        ],
-        [
-          "B",
-          "*libʰrodʰeh₁i"
-        ],
-        [
-          "D",
-          "*néwom"
-        ],
-        [
-          "E",
-          "*libʰrom"
-        ],
-        [
-          "C",
-          "*kʷri-neh₂-m"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -57553,24 +57343,6 @@ const SENTENCES = [
           "ki'ichkelem"
         ]
       ],
-      "ine": [
-        [
-          "C",
-          "*ḱerh₂-s-os bʰleh₃-men-"
-        ],
-        [
-          "A",
-          "*ḱe-smi"
-        ],
-        [
-          "B",
-          "*ǵʰordʰo-"
-        ],
-        [
-          "D",
-          "*keh₂lu-s h₁sénti"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -61999,28 +61771,6 @@ const SENTENCES = [
         [
           "C",
           "ha'"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*gʷʰédʰyoh₂"
-        ],
-        [
-          "C",
-          "*wódr̥"
-        ],
-        [
-          "B",
-          "*moy"
-        ],
-        [
-          "F",
-          "*kap-"
-        ],
-        [
-          "D",
-          "*dh₃dʰí"
         ]
       ],
       "ko_mid": [
@@ -66849,28 +66599,6 @@ const SENTENCES = [
           "in bin"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "E",
-          "*dyéwi dyéwi"
-        ],
-        [
-          "D",
-          "*treHǵʰ-mn̥-éh₁"
-        ],
-        [
-          "B",
-          "*wérǵom"
-        ],
-        [
-          "C",
-          "*h₁éymi"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -71038,24 +70766,6 @@ const SENTENCES = [
           "u k'ajóol naach"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*swésōr mene yéwn̥keh₂"
-        ],
-        [
-          "B",
-          "*Prankiyeh₂i"
-        ],
-        [
-          "D",
-          "*h₁ésti"
-        ],
-        [
-          "C",
-          "*ǵnéh₃-sḱeti h₂éliyos-trom"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -74713,20 +74423,6 @@ const SENTENCES = [
         [
           "C",
           "u káajal"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*kʷód-yeh₂m"
-        ],
-        [
-          "B",
-          "*weid-mn̥"
-        ],
-        [
-          "C",
-          "*h₂er-yéti"
         ]
       ],
       "ko_mid": [
@@ -80315,36 +80011,6 @@ const SENTENCES = [
           "chi'kin"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "B",
-          "*h₁es-"
-        ],
-        [
-          "C",
-          "*sem-"
-        ],
-        [
-          "D",
-          "*h₁en"
-        ],
-        [
-          "E",
-          "*tréyes"
-        ],
-        [
-          "F",
-          "*ḱe-"
-        ],
-        [
-          "G",
-          "*deyn-"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -85231,24 +84897,6 @@ const SENTENCES = [
           "ko'oh u tohol"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*ḱe"
-        ],
-        [
-          "B",
-          "*bʰors-éh₂"
-        ],
-        [
-          "C",
-          "*pérh₁"
-        ],
-        [
-          "D",
-          "*deh₃ro-s h₁ésti"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -89360,24 +89008,6 @@ const SENTENCES = [
           "in k'āt"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "B",
-          "*keh₂n-tum"
-        ],
-        [
-          "C",
-          "*ḱlewH-sḱéyeti"
-        ],
-        [
-          "D",
-          "*lubʰ-éyeti"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -92918,20 +92548,6 @@ const SENTENCES = [
         [
           "B",
           "hā'al"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*h₂ews-r-yom-bʰi ḱe"
-        ],
-        [
-          "C",
-          "*h₁esti"
-        ],
-        [
-          "B",
-          "*h₂wers-eti"
         ]
       ],
       "ko_mid": [
@@ -97295,28 +96911,6 @@ const SENTENCES = [
         [
           "E",
           "in janal"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "B",
-          "*noḱteh₂i ḱe"
-        ],
-        [
-          "C",
-          "*priH-yóh₁es-bʰi"
-        ],
-        [
-          "D",
-          "*dórpom"
-        ],
-        [
-          "E",
-          "*h₁éd-ti"
         ]
       ],
       "ko_mid": [
@@ -106746,24 +106340,6 @@ const SENTENCES = [
           "ts'aak na"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*libʰro-dʰeh₁"
-        ],
-        [
-          "D",
-          "*h₁ésti"
-        ],
-        [
-          "B",
-          "*h₂ed"
-        ],
-        [
-          "C",
-          "*leḱ-tro-dʰeh₁"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -110649,24 +110225,6 @@ const SENTENCES = [
         [
           "C",
           "u ts'ìib janal"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*priHyé"
-        ],
-        [
-          "D",
-          "*déyḱ-s"
-        ],
-        [
-          "B",
-          "*moi"
-        ],
-        [
-          "C",
-          "*h₁ed-mn̥ listh₂"
         ]
       ],
       "ko_mid": [
@@ -115446,28 +115004,6 @@ const SENTENCES = [
           "meyaj na"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*ph₂tḗr mene"
-        ],
-        [
-          "B",
-          "*h₁en"
-        ],
-        [
-          "F",
-          "*méǵh₂-i"
-        ],
-        [
-          "D",
-          "*werǵ-yeh₂"
-        ],
-        [
-          "E",
-          "*werǵ-yéti"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -120241,28 +119777,6 @@ const SENTENCES = [
         [
           "C",
           "u bàaxal"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*putlo-es"
-        ],
-        [
-          "E",
-          "*ǵʰordʰo-"
-        ],
-        [
-          "B",
-          "‌i"
-        ],
-        [
-          "D",
-          "*h₁sénti"
-        ],
-        [
-          "C",
-          "*leyǵ-ónt-es"
         ]
       ],
       "ko_mid": [
@@ -129228,28 +128742,6 @@ const SENTENCES = [
           "janal naj"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*moǵh-"
-        ],
-        [
-          "B",
-          "*tuH"
-        ],
-        [
-          "C",
-          "*men-"
-        ],
-        [
-          "F",
-          "*h₁su-"
-        ],
-        [
-          "E",
-          "*h₁ed-"
-        ]
-      ],
       "ko_mid": [
         [
           "F",
@@ -133543,24 +133035,6 @@ const SENTENCES = [
         [
           "C",
           "in tub-ah"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "B",
-          "*skeh₁-trom mene"
-        ],
-        [
-          "D",
-          "*treHǵʰ-mn̥-éh₁-i"
-        ],
-        [
-          "C",
-          "*gʷʰedʰ-om"
         ]
       ],
       "ko_mid": [
@@ -138194,28 +137668,6 @@ const SENTENCES = [
           "u ts'a"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*séh₂"
-        ],
-        [
-          "E",
-          "*mogʰ-éti"
-        ],
-        [
-          "B",
-          "*keh₂n-tlo-m"
-        ],
-        [
-          "D",
-          "*h₁su méǵh₂"
-        ],
-        [
-          "C",
-          "*krewH-éti"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -142334,20 +141786,6 @@ const SENTENCES = [
         [
           "B",
           "u k'iin lunes"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*h₂eḱ-mn̥"
-        ],
-        [
-          "C",
-          "*h₁ésti"
-        ],
-        [
-          "B",
-          "*néwo-meh₁n-os dyew"
         ]
       ],
       "ko_mid": [
@@ -146875,28 +146313,6 @@ const SENTENCES = [
         [
           "D",
           "ich chúumuk k'iin"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "E",
-          "*welH-mi"
-        ],
-        [
-          "C",
-          "*h₁ed-"
-        ],
-        [
-          "B",
-          "*h₁ōmo-dʰǵʰu-m"
-        ],
-        [
-          "D",
-          "*médʰyom dyew-i"
         ]
       ],
       "ko_mid": [
@@ -151565,24 +150981,6 @@ const SENTENCES = [
           "sáasil"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*gʰóstipotmos koylo-m"
-        ],
-        [
-          "B",
-          "*h₁ést"
-        ],
-        [
-          "C",
-          "*méǵh₂"
-        ],
-        [
-          "D",
-          "*pewH-ró-s"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -155479,20 +154877,6 @@ const SENTENCES = [
         [
           "C",
           "t'àan"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*priHyé"
-        ],
-        [
-          "B",
-          "*ml̥dú-teros"
-        ],
-        [
-          "C",
-          "*bʰéh₂-dʰi"
         ]
       ],
       "ko_mid": [
@@ -159833,20 +159217,6 @@ const SENTENCES = [
           "u ts'o'ok kul"
         ]
       ],
-      "ine": [
-        [
-          "A|E",
-          "*bʰréh₂tēr mene sénos"
-        ],
-        [
-          "C",
-          "*péruti meh₁n-s-i"
-        ],
-        [
-          "B",
-          "*gʷénh₂m h₂eǵ-éto"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -164013,24 +163383,6 @@ const SENTENCES = [
         [
           "B",
           "wíinik o'ob"
-        ]
-      ],
-      "ine": [
-        [
-          "C",
-          "*steh₂-tey-i"
-        ],
-        [
-          "D",
-          "*h₁sénti"
-        ],
-        [
-          "A",
-          "*polH-ú-es"
-        ],
-        [
-          "B",
-          "*h₂ner-es"
         ]
       ],
       "ko_mid": [
@@ -168671,28 +168023,6 @@ const SENTENCES = [
           "jun siib"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "B",
-          "*h₁ey-sḱ-"
-        ],
-        [
-          "E",
-          "*kʷri-néh₂-mi"
-        ],
-        [
-          "C",
-          "*ǵn̥h₁-ti dyew"
-        ],
-        [
-          "D",
-          "*déh₃-nom"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -172854,20 +172184,6 @@ const SENTENCES = [
         [
           "C",
           "ki'ichkelem"
-        ]
-      ],
-      "ine": [
-        [
-          "A|D",
-          "*ḱe-dʰi"
-        ],
-        [
-          "B",
-          "*sh₂wl̥ sedos"
-        ],
-        [
-          "C",
-          "*keh₂lu-s h₁ésti"
         ]
       ],
       "ko_mid": [
@@ -177475,28 +176791,6 @@ const SENTENCES = [
         [
           "D",
           "in wéenel"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "C",
-          "*h₂ews-r-yom"
-        ],
-        [
-          "B",
-          "*h₂eyu-"
-        ],
-        [
-          "E",
-          "*h₁ey-sḱ-"
-        ],
-        [
-          "D",
-          "*bʰudʰ-sḱéyeti"
         ]
       ],
       "ko_mid": [
@@ -182385,28 +181679,6 @@ const SENTENCES = [
         [
           "D",
           "yaan"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*tuH"
-        ],
-        [
-          "C",
-          "*kú"
-        ],
-        [
-          "B",
-          "*bʰér-trom"
-        ],
-        [
-          "D",
-          "*h₁ésti"
-        ],
-        [
-          "E",
-          "*wóydth₂e"
         ]
       ],
       "ko_mid": [
@@ -187514,28 +186786,6 @@ const SENTENCES = [
         [
           "E",
           "in xok"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "B",
-          "*nu"
-        ],
-        [
-          "C",
-          "*ḱerd-s-nom"
-        ],
-        [
-          "F",
-          "*libʰrom"
-        ],
-        [
-          "E",
-          "*h₂leyǵ-mi"
         ]
       ],
       "ko_mid": [
@@ -197305,24 +196555,6 @@ const SENTENCES = [
           "ki'imak"
         ]
       ],
-      "ine": [
-        [
-          "D",
-          "*ḱe"
-        ],
-        [
-          "E",
-          "*h₁ed-troi"
-        ],
-        [
-          "B",
-          "*h₁éd-trom"
-        ],
-        [
-          "C",
-          "*sweh₂dú-s h₁ésti"
-        ]
-      ],
       "ko_mid": [
         [
           "D",
@@ -201437,24 +200669,6 @@ const SENTENCES = [
         [
           "B",
           "yokol kab tulākal"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "D",
-          "*welH-mi"
-        ],
-        [
-          "C",
-          "*h₂eyH-"
-        ],
-        [
-          "B",
-          "*h₂erh₃-trom kʷe-kʷe"
         ]
       ],
       "ko_mid": [
@@ -206444,28 +205658,6 @@ const SENTENCES = [
         [
           "C",
           "kéehil"
-        ]
-      ],
-      "ine": [
-        [
-          "F",
-          "*ḱé-smi"
-        ],
-        [
-          "A",
-          "dn̥ǵʰú-i"
-        ],
-        [
-          "B",
-          "*ǵʰéym-eni"
-        ],
-        [
-          "C",
-          "*gél-us"
-        ],
-        [
-          "D",
-          "*bʰúH-yeti"
         ]
       ],
       "ko_mid": [
@@ -212679,32 +211871,6 @@ const SENTENCES = [
           "in t'àan-ah"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "B|F",
-          "*priH-yóh₁-bʰi"
-        ],
-        [
-          "G",
-          "*mene"
-        ],
-        [
-          "C",
-          "*ǵʰew-tlo-i"
-        ],
-        [
-          "D",
-          "*sém h₂eyu-"
-        ],
-        [
-          "E|H",
-          "*bʰéh₂-m"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -217413,24 +216579,6 @@ const SENTENCES = [
           "u tsol-ah"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*deḱ-s-tor"
-        ],
-        [
-          "B",
-          "*per-bʰléh₁-mn̥"
-        ],
-        [
-          "C",
-          "*ḱlewo-bʰi"
-        ],
-        [
-          "D",
-          "*bʰéh₂-t"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -222044,24 +221192,6 @@ const SENTENCES = [
         [
           "B",
           "bàabel"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "E",
-          "*tód"
-        ],
-        [
-          "B",
-          "*weid-mn̥"
-        ],
-        [
-          "C|D",
-          "*wéydsoh₂"
         ]
       ],
       "ko_mid": [
@@ -227342,28 +226472,6 @@ const SENTENCES = [
         [
           "G",
           "ch'ich' na"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*priHyé"
-        ],
-        [
-          "D",
-          "*ḱéns-dʰi"
-        ],
-        [
-          "B",
-          "*moi"
-        ],
-        [
-          "E",
-          "*póntoh₁m"
-        ],
-        [
-          "G",
-          "*h₂ewi-dʰeh₁"
         ]
       ],
       "ko_mid": [
@@ -236238,28 +235346,6 @@ const SENTENCES = [
           "tsikbal o'ob"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*h₂éwih₂"
-        ],
-        [
-          "E",
-          "*mene"
-        ],
-        [
-          "D",
-          "*ḱéns-ti"
-        ],
-        [
-          "B",
-          "*ḱerd-s-nom"
-        ],
-        [
-          "C",
-          "*wékʷ-os-eh₂"
-        ]
-      ],
       "ko_mid": [
         [
           "E",
@@ -241377,24 +240463,6 @@ const SENTENCES = [
           "in sáat-ah"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "B",
-          "*mársupi mene"
-        ],
-        [
-          "D|F",
-          "*h₁opi-wēsri"
-        ],
-        [
-          "C|H",
-          "*h₂eṕ olH-"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -245938,20 +245006,6 @@ const SENTENCES = [
           "u nikte'el"
         ]
       ],
-      "ine": [
-        [
-          "A|D",
-          "*ǵʰordʰo-i"
-        ],
-        [
-          "B",
-          "*bʰleh₃-men-es"
-        ],
-        [
-          "C|E",
-          "*bʰléh₃-n̥ti"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -250002,24 +249056,6 @@ const SENTENCES = [
         [
           "C",
           "k kanāant"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*wéy-es"
-        ],
-        [
-          "D",
-          "*h₁ey-sḱ-"
-        ],
-        [
-          "B",
-          "*h₂erbʰ-yom"
-        ],
-        [
-          "C",
-          "*peh₂-s-"
         ]
       ],
       "ko_mid": [
@@ -255239,32 +254275,6 @@ const SENTENCES = [
           "in uk'"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "D",
-          "*dyew-kʷe kʷe"
-        ],
-        [
-          "E",
-          "*dwóh₁"
-        ],
-        [
-          "F",
-          "*ḱelh₂-es"
-        ],
-        [
-          "B",
-          "*kafeh"
-        ],
-        [
-          "C",
-          "*péh₃-h₃mi"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -259730,24 +258740,6 @@ const SENTENCES = [
         [
           "D",
           "u káajal"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*keh₂n-tis"
-        ],
-        [
-          "C",
-          "*noḱteh₂i"
-        ],
-        [
-          "B",
-          "*h₃eḱteh₂ h₂eyu-"
-        ],
-        [
-          "D",
-          "*h₂er-yéti"
         ]
       ],
       "ko_mid": [
@@ -268403,28 +267395,6 @@ const SENTENCES = [
           "le la' k'uh na"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "E",
-          "*welH-mi"
-        ],
-        [
-          "D",
-          "*sem-"
-        ],
-        [
-          "C",
-          "*weid-mn̥"
-        ],
-        [
-          "B",
-          "*ḱe déywo-dʰeh₁"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -271980,20 +270950,6 @@ const SENTENCES = [
         [
           "C",
           "u k'uchul"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*wéǵʰ-trom méǵh₂"
-        ],
-        [
-          "B",
-          "*pénkʷe-déḱm̥ kʷe kʷe"
-        ],
-        [
-          "C",
-          "*gʷem-yéti"
         ]
       ],
       "ko_mid": [
@@ -275742,24 +274698,6 @@ const SENTENCES = [
         [
           "D",
           "in k'ajóol"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "B",
-          "*Koryeh₂ h₁éd-trom"
-        ],
-        [
-          "C",
-          "*pekʷ-"
-        ],
-        [
-          "D",
-          "*ǵn̥néh₃-sḱeti"
         ]
       ],
       "ko_mid": [
@@ -280411,28 +279349,6 @@ const SENTENCES = [
         [
           "E",
           "u k'uchul"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*só"
-        ],
-        [
-          "B",
-          "*h₂oyyu"
-        ],
-        [
-          "D",
-          "*tong-éh₂-s"
-        ],
-        [
-          "C",
-          "*pos-tero-"
-        ],
-        [
-          "E",
-          "*gʷém-ti"
         ]
       ],
       "ko_mid": [
@@ -285301,28 +284217,6 @@ const SENTENCES = [
           "u xúul u'"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "E",
-          "*welH-mi"
-        ],
-        [
-          "D",
-          "*h₂leyǵ-"
-        ],
-        [
-          "B",
-          "*ḱe libʰrom"
-        ],
-        [
-          "C",
-          "*meh₁n-s-os h₁en-dey"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -288906,20 +287800,6 @@ const SENTENCES = [
         [
           "C",
           "tāan u k'aay"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*dóru-ey-su"
-        ],
-        [
-          "B",
-          "*h₂éwi-es"
-        ],
-        [
-          "C",
-          "*keh₂n-n̥ti"
         ]
       ],
       "ko_mid": [
@@ -292648,24 +291528,6 @@ const SENTENCES = [
         [
           "C",
           "in ts'ak"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "D",
-          "*h₁ey-sḱ-"
-        ],
-        [
-          "B",
-          "*ǵʰew-tlo mene"
-        ],
-        [
-          "C",
-          "*pleh₁-dʰh₁-"
         ]
       ],
       "ko_mid": [
@@ -297241,28 +296103,6 @@ const SENTENCES = [
           "siib"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*séh₂"
-        ],
-        [
-          "B",
-          "*moy"
-        ],
-        [
-          "C",
-          "*keh₂lu-m"
-        ],
-        [
-          "D",
-          "*déh₃nom"
-        ],
-        [
-          "E",
-          "*déh₃t"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -300925,15 +299765,15 @@ const SENTENCES = [
       "ine": [
         [
           "A",
-          "*gʷérh₃-us"
+          "*pérwr̥"
         ],
         [
           "B",
-          "*snéygʷʰ-s-bʰi"
+          "*snóygʷʰoh₁"
         ],
         [
           "C",
-          "*h₂ep-to-s h₁ésti"
+          "*ḱéletor"
         ]
       ],
       "ko_mid": [
@@ -305353,28 +304193,6 @@ const SENTENCES = [
         [
           "D",
           "in meyaj"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "B",
-          "*werǵ-dʰeh₁i"
-        ],
-        [
-          "C",
-          "*tri-s"
-        ],
-        [
-          "E",
-          "*septm̥-dyew"
-        ],
-        [
-          "D",
-          "*werǵ-yémi"
         ]
       ],
       "ko_mid": [
@@ -315213,28 +314031,6 @@ const SENTENCES = [
           "u ts'ìib-ah"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*só"
-        ],
-        [
-          "C|H",
-          "*ph₂tér-bʰi méh₂ter-bʰi swe"
-        ],
-        [
-          "G",
-          "*dl̥h₁gʰóm"
-        ],
-        [
-          "B",
-          "*gʰer-mn̥"
-        ],
-        [
-          "D|E",
-          "*gʰer-t"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -320348,24 +319144,6 @@ const SENTENCES = [
           "u k'àal"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*wēsri-s"
-        ],
-        [
-          "E",
-          "*h₁néwn̥"
-        ],
-        [
-          "F",
-          "*noḱt-éh₂"
-        ],
-        [
-          "C",
-          "*dʰwer-yéti"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -324539,24 +323317,6 @@ const SENTENCES = [
         [
           "B",
           "in t'àan"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "D",
-          "*welH-mi"
-        ],
-        [
-          "C",
-          "*h₁su-dʰeh₁-"
-        ],
-        [
-          "B",
-          "*bʰéh₂-tis mene"
         ]
       ],
       "ko_mid": [
@@ -334262,36 +333022,6 @@ const SENTENCES = [
           "u wéenel"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*ḱattus"
-        ],
-        [
-          "E",
-          "*mene"
-        ],
-        [
-          "C",
-          "*noḱteh₂"
-        ],
-        [
-          "G",
-          "*kʷe kʷe"
-        ],
-        [
-          "B",
-          "*stróh₃-mn̥ mene"
-        ],
-        [
-          "F",
-          "*upéri"
-        ],
-        [
-          "D",
-          "*swep-ti"
-        ]
-      ],
       "ko_mid": [
         [
           "E",
@@ -338348,20 +337078,6 @@ const SENTENCES = [
           "tāan in pa'atik"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "B",
-          "*trih₁déḱm̥t"
-        ],
-        [
-          "C",
-          "*h₂ews-sḱéyoh₂"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -341501,20 +340217,6 @@ const SENTENCES = [
         [
           "B",
           "ba'al ha'"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*putlo-es"
-        ],
-        [
-          "C",
-          "*ǵn̥néh₃-sḱonti"
-        ],
-        [
-          "B",
-          "*(s)néh₂-"
         ]
       ],
       "ko_mid": [
@@ -345585,24 +344287,6 @@ const SENTENCES = [
         [
           "D",
           "in ki'imak"
-        ]
-      ],
-      "ine": [
-        [
-          "C",
-          "*yod"
-        ],
-        [
-          "B",
-          "*ḱléwH-oh₂"
-        ],
-        [
-          "A",
-          "*keh₂n-tum"
-        ],
-        [
-          "D",
-          "*priH-nó-s bʰéwH-oh₂"
         ]
       ],
       "ko_mid": [
@@ -350252,24 +348936,6 @@ const SENTENCES = [
           "u háak'ab"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*só"
-        ],
-        [
-          "B",
-          "*h₂eḱ-mn̥"
-        ],
-        [
-          "E",
-          "*h₁éḱ-s-bʰi"
-        ],
-        [
-          "C",
-          "*ǵʰews-tó-s h₁ést"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -354452,24 +353118,6 @@ const SENTENCES = [
         [
           "C",
           "ma'alob"
-        ]
-      ],
-      "ine": [
-        [
-          "D",
-          "*tong-éyoh₂"
-        ],
-        [
-          "A",
-          "*ḱe"
-        ],
-        [
-          "B",
-          "*men-tis"
-        ],
-        [
-          "C",
-          "*h₁su-s h₁ésti"
         ]
       ],
       "ko_mid": [
@@ -359188,28 +357836,6 @@ const SENTENCES = [
         [
           "E",
           "bin naach"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*séh₂"
-        ],
-        [
-          "B",
-          "*trew-s-neh₂"
-        ],
-        [
-          "C",
-          "*yod-kʷid"
-        ],
-        [
-          "D",
-          "*priH-yóh₁ sewe"
-        ],
-        [
-          "E",
-          "*h₂epo gʷém-t"
         ]
       ],
       "ko_mid": [
@@ -365639,36 +364265,6 @@ const SENTENCES = [
           "k'ajóolil"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "E",
-          "*ḱréd-dʰeh₁-mi"
-        ],
-        [
-          "B",
-          "*ǵnéh₃-sḱom"
-        ],
-        [
-          "F",
-          "*h₂éliyos"
-        ],
-        [
-          "D",
-          "*h₁ésti"
-        ],
-        [
-          "G",
-          "*h₁su-s"
-        ],
-        [
-          "C",
-          "*weid-tis"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -370434,24 +369030,6 @@ const SENTENCES = [
           "yaan ten"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "C",
-          "*ḱe dyew"
-        ],
-        [
-          "E",
-          "*ḱerh₂-sr̥ h₂elǵ-os"
-        ],
-        [
-          "F",
-          "*seǵʰ-mi"
-        ]
-      ],
       "ko_mid": [
         [
           "C",
@@ -374374,24 +372952,6 @@ const SENTENCES = [
         [
           "C",
           "hé'elel"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*h₂eḱ-tōr"
-        ],
-        [
-          "D",
-          "*ḱéns-t"
-        ],
-        [
-          "B",
-          "*moi"
-        ],
-        [
-          "C",
-          "*kʷyeh₁-sḱe-"
         ]
       ],
       "ko_mid": [
@@ -378336,24 +376896,6 @@ const SENTENCES = [
         [
           "C",
           "in meyaj paklan"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "B",
-          "*h₂ews-r-yos kʷe kʷe"
-        ],
-        [
-          "D",
-          "*per-h₃-"
-        ],
-        [
-          "C",
-          "*werǵ-yéti"
         ]
       ],
       "ko_mid": [
@@ -382876,28 +381418,6 @@ const SENTENCES = [
         [
           "C",
           "u ch'a-ah"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*séh₂"
-        ],
-        [
-          "E",
-          "*péruti"
-        ],
-        [
-          "D",
-          "*septm̥-dyew"
-        ],
-        [
-          "B",
-          "*srēw-mn̥"
-        ],
-        [
-          "C",
-          "*gʰe-gʰrebʰ-e"
         ]
       ],
       "ko_mid": [
@@ -387735,28 +386255,6 @@ const SENTENCES = [
           "a uk'"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*tuH"
-        ],
-        [
-          "D",
-          "*h₁ey-sḱ-"
-        ],
-        [
-          "B",
-          "*wódr̥"
-        ],
-        [
-          "E",
-          "*pléh₁yos"
-        ],
-        [
-          "C",
-          "*péh₃-dʰi"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -391831,24 +390329,6 @@ const SENTENCES = [
         [
           "C",
           "in k'àamik"
-        ]
-      ],
-      "ine": [
-        [
-          "D",
-          "*h₁eǵH"
-        ],
-        [
-          "A",
-          "*dyew-kʷe kʷe"
-        ],
-        [
-          "B",
-          "*ǵʰew-tlo lēlī mene"
-        ],
-        [
-          "C",
-          "*h₂eǵ-éyoh₂"
         ]
       ],
       "ko_mid": [
@@ -396030,24 +394510,6 @@ const SENTENCES = [
           "ma'alob"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*ḱe"
-        ],
-        [
-          "B",
-          "*h₂eǵ-trom"
-        ],
-        [
-          "C",
-          "*méǵh₂"
-        ],
-        [
-          "D",
-          "*dʰeh₁-trom h₁ésti"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -399526,20 +397988,6 @@ const SENTENCES = [
         [
           "C",
           "tāan u k'eex"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*men-tis dʰeh₁-tó-m"
-        ],
-        [
-          "B",
-          "*dʰéǵʰom"
-        ],
-        [
-          "C",
-          "*h₂ey-éy-eti"
         ]
       ],
       "ko_mid": [
@@ -404331,28 +402779,6 @@ const SENTENCES = [
           "ba'alche' áanalte'"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "C",
-          "*ne"
-        ],
-        [
-          "D",
-          "*weid-"
-        ],
-        [
-          "F",
-          "Wi-Fi"
-        ],
-        [
-          "G",
-          "*ḱléwos"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -408809,24 +407235,6 @@ const SENTENCES = [
           "u k'ajóol-ah"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*só"
-        ],
-        [
-          "C",
-          "*swe-tós"
-        ],
-        [
-          "B",
-          "*h₂eǵ-mn̥ lēlī"
-        ],
-        [
-          "D",
-          "*ǵn̥néh₃-t"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -412732,24 +411140,6 @@ const SENTENCES = [
         [
           "C",
           "úuchben bix"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*ḱerh₂-s-os bʰleh₃-mn̥ weid-tis"
-        ],
-        [
-          "D",
-          "*h₁ésti"
-        ],
-        [
-          "B",
-          "*Yamatu"
-        ],
-        [
-          "C",
-          "*dʰeh₁-mn̥"
         ]
       ],
       "ko_mid": [
@@ -416722,24 +415112,6 @@ const SENTENCES = [
         [
           "C",
           "k janal"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*wéy-es"
-        ],
-        [
-          "D",
-          "*néwo-yēri Ṣīna"
-        ],
-        [
-          "B",
-          "*pelH-mn̥"
-        ],
-        [
-          "C",
-          "*h₁éd-m̥es"
         ]
       ],
       "ko_mid": [
@@ -422543,36 +420915,6 @@ const SENTENCES = [
           "ku beetbil"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*h₁en"
-        ],
-        [
-          "B",
-          "*to-"
-        ],
-        [
-          "C",
-          "*dʰéǵʰom-"
-        ],
-        [
-          "D",
-          "*sm̥h₂ér-"
-        ],
-        [
-          "E",
-          "*polH-"
-        ],
-        [
-          "F",
-          "*gʷer-"
-        ],
-        [
-          "G",
-          "*dʰeh₁-"
-        ]
-      ],
       "ko_mid": [
         [
           "B",
@@ -427963,28 +426305,6 @@ const SENTENCES = [
           "joonaj"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*dn̥ǵʰwéh₂s"
-        ],
-        [
-          "B",
-          "*ǵneh₃-"
-        ],
-        [
-          "C",
-          "*h₃ep-"
-        ],
-        [
-          "D",
-          "*néwo-"
-        ],
-        [
-          "E",
-          "*dʰwer-"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -431974,20 +430294,6 @@ const SENTENCES = [
         [
           "A",
           "ich bicicleta"
-        ]
-      ],
-      "ine": [
-        [
-          "C",
-          "*h₁eǵH gʷém-mi"
-        ],
-        [
-          "B",
-          "*wérǵo-dʰeh₁m"
-        ],
-        [
-          "A",
-          "*kʷékʷlo-éḱwo-bʰi"
         ]
       ],
       "ko_mid": [
@@ -436660,28 +434966,6 @@ const SENTENCES = [
           "beel ku bin"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*gʷʰedʰ-"
-        ],
-        [
-          "B",
-          "*h₃reǵ- *deḱs-"
-        ],
-        [
-          "C",
-          "*h₁en"
-        ],
-        [
-          "E",
-          "*newo-"
-        ],
-        [
-          "F",
-          "*sem-"
-        ]
-      ],
       "ko_mid": [
         [
           "E",
@@ -440936,24 +439220,6 @@ const SENTENCES = [
         [
           "C",
           "beel k'uchul"
-        ]
-      ],
-      "ine": [
-        [
-          "A",
-          "*méǵh₂ wēsri-s"
-        ],
-        [
-          "D",
-          "*h₁ésti"
-        ],
-        [
-          "B",
-          "*h₂epo"
-        ],
-        [
-          "C",
-          "*steh₂-tey-os"
         ]
       ],
       "ko_mid": [
@@ -445607,28 +443873,6 @@ const SENTENCES = [
           "janal a'"
         ]
       ],
-      "ine": [
-        [
-          "A",
-          "*h₁eǵH"
-        ],
-        [
-          "B",
-          "*welH-mi"
-        ],
-        [
-          "C",
-          "*h₂eḱ-"
-        ],
-        [
-          "D",
-          "*to-"
-        ],
-        [
-          "E",
-          "*h₁ed-"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -449736,20 +447980,6 @@ const SENTENCES = [
           "siib"
         ]
       ],
-      "ine": [
-        [
-          "C",
-          "*kʷó-ti werh₁-"
-        ],
-        [
-          "A",
-          "*ḱe"
-        ],
-        [
-          "B",
-          "*mn̥h₁-mn̥"
-        ]
-      ],
       "ko_mid": [
         [
           "A",
@@ -452913,20 +451143,6 @@ const SENTENCES = [
         [
           "A",
           "tulākal"
-        ]
-      ],
-      "ine": [
-        [
-          "B",
-          "*gʷerH-tis"
-        ],
-        [
-          "C",
-          "*h₂enti"
-        ],
-        [
-          "A",
-          "*h₂ól-yo-m"
         ]
       ],
       "ko_mid": [

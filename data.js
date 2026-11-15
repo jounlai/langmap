@@ -6515,11 +6515,11 @@ const SENTENCES = [
       "ine": [
         [
           "A",
-          "*eǵh₂"
+          "*h₁eǵH"
         ],
         [
           "B",
-          "*welh₁-"
+          "*welH-mi"
         ],
         [
           "C",
@@ -11767,7 +11767,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "𒈬|-ĝu₁₀"
+          "‌𒈬|-ĝu₁₀"
         ],
         [
           "D",
@@ -11775,7 +11775,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "𒀀𒄠|-àm"
+          "‌𒀀𒀭|-àm"
         ]
       ],
       "akk": [
@@ -11804,10 +11804,6 @@ const SENTENCES = [
         [
           "B",
           "lāman"
-        ],
-        [
-          "A",
-          "‌-miš"
         ],
         [
           "D",
@@ -36997,15 +36993,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "𒌓𒁕𒋫|ud-da-ta"
+          "𒌓 𒋙𒍑|ud šú-uš"
         ],
         [
           "B",
-          "𒃵𒁺|ninda-gub₅"
+          "𒆥𒋝|kíĝ-sig"
         ],
         [
           "C",
-          "𒉌𒈬𒌦𒋧|ì-mu-un-šeĝ₆"
+          "𒅁𒉈𒂊|íb-šeĝ₆-e"
         ]
       ],
       "akk": [
@@ -37087,7 +37083,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "*dyew-kʷe kʷe"
+          "*dyéwi dyéwi"
         ],
         [
           "B",
@@ -37095,7 +37091,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "*pekʷ-éti"
+          "*pékʷeti"
         ]
       ],
       "ko_mid": [
@@ -42688,27 +42684,27 @@ const SENTENCES = [
       "sux": [
         [
           "A",
-          "𒈠|ma"
-        ],
-        [
-          "F",
-          "𒃻𒁀|ša-ba"
+          "𒂷𒂊|ĝe₂₆-e"
         ],
         [
           "G",
           "𒈬|mu"
         ],
         [
-          "D",
-          "𒆠|ki"
+          "F",
+          "𒍑𒊓𒀀|ús-sa-a"
         ],
         [
           "E",
-          "𒃻𒁀|ša-ba"
+          "𒆳 𒅀𒉺𒀭|kur ia-pa-an"
         ],
         [
-          "C",
-          "𒁺|du"
+          "D",
+          "‌𒂠|-šè"
+        ],
+        [
+          "B|C",
+          "𒂵𒁺|ga-ĝen"
         ]
       ],
       "akk": [
@@ -42747,28 +42743,24 @@ const SENTENCES = [
           "uk"
         ],
         [
-          "B",
-          "sakhi"
-        ],
-        [
-          "C",
-          "iya"
+          "F|G",
+          "MU-anni"
         ],
         [
           "D",
-          "anda"
+          "INA"
         ],
         [
           "E",
-          "Yapan"
+          "KUR Yapan"
         ],
         [
-          "G",
-          "MU-ti"
+          "C",
+          "paiwanzi"
         ],
         [
-          "F",
-          "appan"
+          "B",
+          "wekmi"
         ]
       ],
       "nci": [
@@ -42830,11 +42822,11 @@ const SENTENCES = [
       "ine": [
         [
           "A",
-          "*eǵh₂"
+          "*h₁eǵH"
         ],
         [
           "B",
-          "*welh₁-"
+          "*welH-mi"
         ],
         [
           "C",
@@ -47598,10 +47590,6 @@ const SENTENCES = [
       ],
       "hit": [
         [
-          "D",
-          "tarukkizzi"
-        ],
-        [
           "A",
           "zik"
         ],
@@ -47611,7 +47599,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "memiškezi"
+          "memiyawanzi"
+        ],
+        [
+          "D",
+          "tarḫti"
         ]
       ],
       "nci": [
@@ -47653,7 +47645,7 @@ const SENTENCES = [
       "ine": [
         [
           "D",
-          "*mogh-éyesi"
+          "*mogʰ-éyesi"
         ],
         [
           "A",
@@ -53034,7 +53026,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "*libʰrodheh₁i"
+          "*libʰrodʰeh₁i"
         ],
         [
           "D",
@@ -61917,24 +61909,20 @@ const SENTENCES = [
       ],
       "sux": [
         [
-          "A",
-          "𒀀𒃻|a-ša"
-        ],
-        [
-          "B",
-          "𒈠|ma"
-        ],
-        [
-          "F",
-          "𒆳|kur"
-        ],
-        [
           "C",
           "𒀀|a"
         ],
         [
+          "F",
+          "𒁹 𒋡|1 sìla"
+        ],
+        [
           "D",
-          "𒈬|mu"
+          "𒋧|šúm"
+        ],
+        [
+          "B",
+          "‌𒈠𒀊|-ma-ab"
         ]
       ],
       "akk": [
@@ -61957,14 +61945,6 @@ const SENTENCES = [
       ],
       "hit": [
         [
-          "A",
-          "eku"
-        ],
-        [
-          "D",
-          "pāi"
-        ],
-        [
           "B",
           "ammuk"
         ],
@@ -61975,6 +61955,10 @@ const SENTENCES = [
         [
           "C",
           "wātar"
+        ],
+        [
+          "D",
+          "pāi"
         ]
       ],
       "nci": [
@@ -62020,11 +62004,11 @@ const SENTENCES = [
       "ine": [
         [
           "A",
-          "*gʷʰedʰ-"
+          "*gʷʰédʰyoh₂"
         ],
         [
-          "D",
-          "*deh₃-"
+          "C",
+          "*wódr̥"
         ],
         [
           "B",
@@ -62035,8 +62019,8 @@ const SENTENCES = [
           "*kap-"
         ],
         [
-          "C",
-          "*wódr̥"
+          "D",
+          "*dh₃dʰí"
         ]
       ],
       "ko_mid": [
@@ -66872,7 +66856,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "*dyew-kʷe kʷe"
+          "*dyéwi dyéwi"
         ],
         [
           "D",
@@ -66884,7 +66868,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "*gʷém-mi"
+          "*h₁éymi"
         ]
       ],
       "ko_mid": [
@@ -80334,7 +80318,7 @@ const SENTENCES = [
       "ine": [
         [
           "A",
-          "*eǵh₂"
+          "*h₁eǵH"
         ],
         [
           "B",
@@ -85196,7 +85180,7 @@ const SENTENCES = [
       "hit": [
         [
           "A",
-          "kā"
+          "kāš"
         ],
         [
           "B",
@@ -85208,7 +85192,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "šalliš ḫandanza"
+          "nakkiš"
         ]
       ],
       "nci": [
@@ -89324,20 +89308,20 @@ const SENTENCES = [
       ],
       "hit": [
         [
-          "A",
-          "ammuk"
-        ],
-        [
           "B",
           "SÌR-an"
         ],
         [
           "C",
-          "ištamaškezzi"
+          "ištamaššuwar"
+        ],
+        [
+          "A",
+          "ammuk"
         ],
         [
           "D",
-          "šanḫiškemi"
+          "āššu"
         ]
       ],
       "nci": [
@@ -97210,19 +97194,19 @@ const SENTENCES = [
         ],
         [
           "B",
-          "𒈪𒉈|ĝi₆-nè"
+          "𒈪𒀀|ĝi₆-a"
         ],
         [
           "C",
-          "𒇽𒆪𒇷𒁕|lú-ku-li-da"
+          "𒆪𒇷𒈬𒉈𒁕|ku-li-ĝu₁₀-ne-da"
         ],
         [
           "D",
-          "𒃻𒁺𒂠|ninda-gub₅-šè"
+          "𒆥𒋝|kíĝ-sig"
         ],
         [
           "E",
-          "𒅗𒉈 𒂷𒈾|gu₇-dè ĝen-na"
+          "𒂵𒀊𒅥|ga-ab-gu₇"
         ]
       ],
       "akk": [
@@ -102305,20 +102289,16 @@ const SENTENCES = [
           "𒂷𒂊|ĝe₂₆-e"
         ],
         [
-          "F",
-          "𒅆𒁲|gibil"
-        ],
-        [
           "C",
           "𒅴|eme"
         ],
         [
-          "D",
-          "𒍪𒍪|zu-zu"
+          "F",
+          "𒉋|gibil"
         ],
         [
-          "E",
-          "𒉌𒅅𒆷|ì-ĝál-la"
+          "D|E",
+          "𒂵𒀊𒍪|ga-ab-zu"
         ]
       ],
       "akk": [
@@ -102415,20 +102395,20 @@ const SENTENCES = [
           "*h₁eǵH"
         ],
         [
-          "E",
-          "*welH-mi"
-        ],
-        [
-          "D",
-          "*ǵn̥néh₃-"
-        ],
-        [
           "F",
-          "*néwom"
+          "*néweh₂m"
         ],
         [
           "C",
           "*dn̥ǵʰwéh₂m"
+        ],
+        [
+          "D",
+          "*ǵnéh₃tum"
+        ],
+        [
+          "E",
+          "*welH-mi"
         ]
       ],
       "ko_mid": [
@@ -124410,11 +124390,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "URU Tōkyō"
+          "INA URU Tōkyō"
         ],
         [
           "C",
-          "tēriš"
+          "3-anki"
         ],
         [
           "D",
@@ -124468,11 +124448,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "*tri-s"
+          "*trís"
         ],
         [
           "D",
-          "*gʷem-h₂e"
+          "*gʷḗm"
         ]
       ],
       "ko_mid": [
@@ -138221,7 +138201,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "*mogh-éti"
+          "*mogʰ-éti"
         ],
         [
           "B",
@@ -182409,16 +182389,12 @@ const SENTENCES = [
       ],
       "ine": [
         [
-          "E",
-          "*wóyd-th₂e"
-        ],
-        [
           "A",
           "*tuH"
         ],
         [
           "C",
-          "*kʷu"
+          "*kú"
         ],
         [
           "B",
@@ -182427,6 +182403,10 @@ const SENTENCES = [
         [
           "D",
           "*h₁ésti"
+        ],
+        [
+          "E",
+          "*wóydth₂e"
         ]
       ],
       "ko_mid": [
@@ -192648,19 +192628,19 @@ const SENTENCES = [
         ],
         [
           "B",
-          "*h₂oyyu"
+          "*h₂óyu"
         ],
         [
           "D",
-          "*h₁rowdʰ-ó-m"
+          "*h₁rowdʰéh₂m"
         ],
         [
           "E",
-          "*wes-nom"
+          "*wéstim"
         ],
         [
           "C",
-          "*wes-yéti"
+          "*wéstor"
         ]
       ],
       "ko_mid": [
@@ -201380,15 +201360,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "𒆳𒆳 𒃽𒈾|kur-kur niĝin₂-na"
+          "𒆳𒆳𒊏|kur-kur-ra"
         ],
         [
-          "C",
-          "𒄜 𒁺|kaskal ĝen"
-        ],
-        [
-          "D",
-          "𒉌𒅅𒆷|ì-ĝál-la"
+          "C|D",
+          "𒂵𒆸|ga-niĝin₂"
         ]
       ],
       "akk": [
@@ -206371,19 +206347,15 @@ const SENTENCES = [
       "sux": [
         [
           "A|E|F",
-          "𒆳𒉈𒀀|kur-nè-a"
+          "𒈠𒁕𒁉𒀀|ma-da-bi-a"
         ],
         [
           "B",
-          "𒂗𒋼𒈾𒅗|en-te-na-ka"
+          "𒂗𒋼𒈾|en-te-na"
         ],
         [
-          "C",
-          "𒂠|sed₄"
-        ],
-        [
-          "D",
-          "𒉌𒀝𒂊|ì-ak-e"
+          "C|D",
+          "𒉌𒈹𒁲|ì-sed₄"
         ]
       ],
       "akk": [
@@ -206419,19 +206391,15 @@ const SENTENCES = [
         ],
         [
           "A",
-          "KUR-ti"
+          "KUR-e"
         ],
         [
           "B",
-          "gimni"
+          "gimmanti"
         ],
         [
-          "C",
-          "ēkuna"
-        ],
-        [
-          "D",
-          "ēšzi"
+          "C|D",
+          "ikunešzi"
         ]
       ],
       "nci": [
@@ -222084,20 +222052,16 @@ const SENTENCES = [
           "*h₁eǵH"
         ],
         [
-          "D",
-          "*welH-mi"
-        ],
-        [
-          "C",
-          "*weid-"
-        ],
-        [
           "E",
-          "*ḱe"
+          "*tód"
         ],
         [
           "B",
           "*weid-mn̥"
+        ],
+        [
+          "C|D",
+          "*wéydsoh₂"
         ]
       ],
       "ko_mid": [
@@ -227399,7 +227363,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "*h₂ewi-dheh₁"
+          "*h₂ewi-dʰeh₁"
         ]
       ],
       "ko_mid": [
@@ -231755,20 +231719,20 @@ const SENTENCES = [
       ],
       "ine": [
         [
-          "A",
-          "*ḱwōn"
-        ],
-        [
           "E",
           "*mene"
         ],
         [
-          "D",
-          "*lubʰ-éyeti"
+          "A",
+          "*ḱwṓ"
         ],
         [
           "C",
-          "*gʷem- *h₁i-trom"
+          "*h₁éytum"
+        ],
+        [
+          "D",
+          "*gʰr̥yéti"
         ]
       ],
       "ko_mid": [
@@ -263817,15 +263781,15 @@ const SENTENCES = [
         ],
         [
           "B",
-          "*tréyes dn̥ǵʰwéh₂-es"
+          "*tísrm̥s dn̥ǵʰwéh₂m̥s"
         ],
         [
           "C",
-          "*h₁su-"
+          "*h₁wésu"
         ],
         [
           "D",
-          "*bʰéh₂-ti"
+          "*bʰéh₂ti"
         ]
       ],
       "ko_mid": [
@@ -288905,7 +288869,7 @@ const SENTENCES = [
       "hit": [
         [
           "A",
-          "GIŠ-naš anda"
+          "GIŠ.ḪI.A-aš"
         ],
         [
           "B",
@@ -297174,23 +297138,23 @@ const SENTENCES = [
       "sux": [
         [
           "A",
-          "𒊩𒂊|munus-e"
+          "𒂊𒉈|e-ne"
         ],
         [
           "B",
-          "𒈬𒂠|-ĝu₁₀-šè"
-        ],
-        [
-          "C",
-          "𒊕𒂵|sa₆-ga"
+          "𒂷𒊏|ĝá-ra"
         ],
         [
           "D",
           "𒃻𒁀|níĝ-ba"
         ],
         [
+          "C",
+          "𒊷𒂵|sa₆-ga"
+        ],
+        [
           "E",
-          "𒈬𒌦𒈾𒋧|mu-un-na-šúm"
+          "𒈠𒀭𒋧|ma-an-šúm"
         ]
       ],
       "akk": [
@@ -297283,12 +297247,8 @@ const SENTENCES = [
           "*séh₂"
         ],
         [
-          "E",
-          "*dédeh₃-t"
-        ],
-        [
           "B",
-          "*moi"
+          "*moy"
         ],
         [
           "C",
@@ -297296,7 +297256,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "*déh₃-nom"
+          "*déh₃nom"
+        ],
+        [
+          "E",
+          "*déh₃t"
         ]
       ],
       "ko_mid": [
@@ -305398,7 +305362,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "*werǵ-dheh₁i"
+          "*werǵ-dʰeh₁i"
         ],
         [
           "C",
@@ -309712,20 +309676,20 @@ const SENTENCES = [
       ],
       "ine": [
         [
-          "D",
-          "*mogh-éyoh₂"
-        ],
-        [
           "A",
           "*h₁eǵH"
         ],
         [
           "B",
-          "*ḱe-dʰi"
+          "*ḱe"
         ],
         [
           "C",
-          "*sed-"
+          "*sédtum"
+        ],
+        [
+          "D",
+          "*mógʰh₂e"
         ]
       ],
       "ko_mid": [
@@ -315134,23 +315098,27 @@ const SENTENCES = [
       "sux": [
         [
           "A",
-          "𒇽𒂊|lú-e"
+          "𒂊𒉈|e-ne"
         ],
         [
-          "C|H",
-          "𒁹𒁕 𒂼𒉌𒂠|ad-da ama-ni-šè"
+          "C",
+          "𒀜𒁕 𒂼𒀀𒉌|ad-da ama-a-ni"
+        ],
+        [
+          "H",
+          "‌𒅕|-ir"
         ],
         [
           "B",
-          "𒁾|dub"
+          "𒅇𒈾𒀀𒅗|ù-na-a-dug₄"
         ],
         [
           "G",
-          "𒁺𒁕|gíd-da"
+          "𒁍𒁕|gíd-da"
         ],
         [
           "D|E",
-          "𒈬𒌦𒊬|mu-un-sar"
+          "𒈬𒉈𒊬|mu-ne-sar"
         ]
       ],
       "akk": [
@@ -315189,12 +315157,12 @@ const SENTENCES = [
           "attī-šši annī-šši"
         ],
         [
-          "B",
-          "ṭuppan"
-        ],
-        [
           "G",
           "daluki"
+        ],
+        [
+          "B",
+          "ṭuppi"
         ],
         [
           "D|E",
@@ -328504,15 +328472,15 @@ const SENTENCES = [
         ],
         [
           "C",
-          "ḫapā šēr"
+          "ÍD-i šēr"
         ],
         [
           "B",
-          "nēwan GIŠ.GÍD"
+          "nēwan GIŠ armizzi"
         ],
         [
           "D",
-          "iyannir"
+          "wetēr"
         ]
       ],
       "nci": [
@@ -328558,15 +328526,15 @@ const SENTENCES = [
         ],
         [
           "C",
-          "*upér h₂ep-"
+          "*upér déh₂nu"
         ],
         [
           "B",
-          "*néwom ponteh₂m"
+          "*néwom pértum"
         ],
         [
           "D",
-          "*dʰeh₁-n̥t"
+          "*démont"
         ]
       ],
       "ko_mid": [
@@ -334171,19 +334139,23 @@ const SENTENCES = [
       "sux": [
         [
           "A|E",
-          "𒊮𒌉𒈬|ša₃-tùr-ĝu₁₀"
+          "𒋢𒀀𒈬|su-a-ĝu₁₀"
         ],
         [
-          "C|G",
-          "𒈪𒋫|ĝi₆-ta"
+          "G",
+          "𒌓 𒋙𒍑|ud šú-uš"
+        ],
+        [
+          "C",
+          "𒈪𒀀|ĝi₆-a"
         ],
         [
           "B|F",
-          "𒆠𒈿𒈬𒂠|ki-ná-ĝu₁₀-šè"
+          "𒄑𒈿𒈬𒀀|ĝešnú-ĝu₁₀-a"
         ],
         [
           "D",
-          "𒉌𒉪|ì-nú"
+          "𒉌𒈿|ì-nú"
         ]
       ],
       "akk": [
@@ -345576,7 +345548,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "āššiyami"
+          "nu-za duškimi"
         ]
       ],
       "nci": [
@@ -370378,20 +370350,16 @@ const SENTENCES = [
       ],
       "sux": [
         [
-          "A",
-          "𒂷𒂊|ĝe₂₆-e"
-        ],
-        [
           "C",
-          "𒌓𒉈|ud-nè"
+          "𒌓𒁕|ud-da"
         ],
         [
-          "E",
-          "𒊕𒆠𒋃|saĝ-ki-gig"
+          "A|B",
+          "𒊕𒈬|saĝ-ĝu₁₀"
         ],
         [
-          "F",
-          "𒌅𒆪|tuku"
+          "D",
+          "𒉌𒍼|ì-gig"
         ]
       ],
       "akk": [
@@ -374361,19 +374329,19 @@ const SENTENCES = [
       "hit": [
         [
           "A",
-          "ḪAL-aš"
-        ],
-        [
-          "D",
-          "mēmišta"
+          "LÚ A.ZU-aš"
         ],
         [
           "B",
-          "ammuk"
+          "‌-mu"
+        ],
+        [
+          "D",
+          "kiššan mēmišta"
         ],
         [
           "C",
-          "šēškeškezzi"
+          "šēš-wa"
         ]
       ],
       "nci": [
@@ -404366,7 +404334,7 @@ const SENTENCES = [
       "ine": [
         [
           "A",
-          "*eǵh₂"
+          "*h₁eǵH"
         ],
         [
           "C",
@@ -445642,11 +445610,11 @@ const SENTENCES = [
       "ine": [
         [
           "A",
-          "*eǵh₂"
+          "*h₁eǵH"
         ],
         [
           "B",
-          "*welh₁-"
+          "*welH-mi"
         ],
         [
           "C",

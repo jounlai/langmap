@@ -6386,48 +6386,6 @@ const SENTENCES = [
           "bīt nubatti"
         ]
       ],
-      "hit": [
-        [
-          "A",
-          "uk"
-        ],
-        [
-          "B",
-          "sakhi"
-        ],
-        [
-          "C",
-          "washi"
-        ],
-        [
-          "D",
-          "wasippa"
-        ],
-        [
-          "E",
-          "kuin"
-        ],
-        [
-          "G",
-          "uskun"
-        ],
-        [
-          "H",
-          "anda"
-        ],
-        [
-          "I",
-          "happiriyati"
-        ],
-        [
-          "J",
-          "peran"
-        ],
-        [
-          "K",
-          "ašušanni"
-        ]
-      ],
       "nci": [
         [
           "A",
@@ -16318,15 +16276,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "lukkatta ḫūmandaz"
+          "UD-at UD-at"
         ],
         [
           "E",
-          "šiptamiya mēḫur"
+          "lukkatti"
         ],
         [
           "B",
-          "ēdri ezzan"
+          "NINDA-an"
         ],
         [
           "C",
@@ -20536,11 +20494,11 @@ const SENTENCES = [
         ],
         [
           "A",
-          "nēpišan"
+          "ḫūmandaš maninkuwan"
         ],
         [
           "B",
-          "palšaḫan"
+          "paḫḫuenaš ḫuluganniyaš pēdan"
         ],
         [
           "D",
@@ -24748,11 +24706,11 @@ const SENTENCES = [
       "hit": [
         [
           "A",
-          "kā"
+          "kī"
         ],
         [
           "B",
-          "kāppi"
+          "dankui wātar"
         ],
         [
           "C",
@@ -24760,7 +24718,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ašandu"
+          "šanezzi"
         ]
       ],
       "nci": [
@@ -28833,24 +28791,6 @@ const SENTENCES = [
           "almad"
         ]
       ],
-      "hit": [
-        [
-          "A",
-          "ammuk"
-        ],
-        [
-          "B",
-          "ḫalentuwi"
-        ],
-        [
-          "C",
-          "Yamatu uttar"
-        ],
-        [
-          "D",
-          "ḫatreškemi"
-        ]
-      ],
       "nci": [
         [
           "A",
@@ -32869,15 +32809,15 @@ const SENTENCES = [
       "hit": [
         [
           "A",
-          "lukkattaš"
+          "lukkatti"
         ],
         [
           "B",
-          "nepišaš"
+          "nepiš"
         ],
         [
           "D",
-          "d-UTU-uš"
+          "lalukkiwan"
         ],
         [
           "C",
@@ -36889,19 +36829,19 @@ const SENTENCES = [
       "hit": [
         [
           "A",
-          "annaš-maš"
+          "ammēl annaš"
         ],
         [
           "D",
-          "šiuatti ḫūmandaz"
+          "UD-at UD-at"
         ],
         [
           "B",
-          "adanna ezzan"
+          "nekuz meḫur NINDA-an"
         ],
         [
           "C",
-          "šipandanzzi"
+          "zanuzi"
         ]
       ],
       "nci": [
@@ -52753,32 +52693,6 @@ const SENTENCES = [
           "ašām"
         ]
       ],
-      "hit": [
-        [
-          "A",
-          "ammuk"
-        ],
-        [
-          "F",
-          "karuwariwar"
-        ],
-        [
-          "B",
-          "ḫalenti anda"
-        ],
-        [
-          "D",
-          "nēwan"
-        ],
-        [
-          "E",
-          "ṭuppan"
-        ],
-        [
-          "C",
-          "ušniyaun"
-        ]
-      ],
       "nci": [
         [
           "A",
@@ -57287,24 +57201,6 @@ const SENTENCES = [
         [
           "D",
           "banû"
-        ]
-      ],
-      "hit": [
-        [
-          "C",
-          "šakuwaššaraš"
-        ],
-        [
-          "A",
-          "kēdani"
-        ],
-        [
-          "B",
-          "GIŠ.SAR-ni"
-        ],
-        [
-          "D",
-          "ašandu"
         ]
       ],
       "nci": [
@@ -66540,11 +66436,11 @@ const SENTENCES = [
         ],
         [
           "E",
-          "šiuatti ḫūmandaz"
+          "UD-at UD-at"
         ],
         [
           "D",
-          "ḫulukannit"
+          "paḫḫuenaš ḫulugannit"
         ],
         [
           "B",
@@ -70712,24 +70608,6 @@ const SENTENCES = [
           "ittanallak"
         ]
       ],
-      "hit": [
-        [
-          "A",
-          "NEŠ-aš-maš"
-        ],
-        [
-          "B",
-          "KUR Paranzi"
-        ],
-        [
-          "D",
-          "ēšzi"
-        ],
-        [
-          "C",
-          "ḫatreškezzi"
-        ]
-      ],
       "nci": [
         [
           "A",
@@ -74381,20 +74259,6 @@ const SENTENCES = [
         [
           "C",
           "ittabši"
-        ]
-      ],
-      "hit": [
-        [
-          "A",
-          "mēḫur kuedani"
-        ],
-        [
-          "B",
-          "ḫurlili"
-        ],
-        [
-          "C",
-          "ārri"
         ]
       ],
       "nci": [
@@ -79919,36 +79783,6 @@ const SENTENCES = [
         [
           "G",
           "ina šēri"
-        ]
-      ],
-      "hit": [
-        [
-          "A",
-          "ammuk"
-        ],
-        [
-          "B",
-          "ešzi"
-        ],
-        [
-          "C",
-          "panku"
-        ],
-        [
-          "D",
-          "anda"
-        ],
-        [
-          "E",
-          "3 ḫuiš"
-        ],
-        [
-          "F",
-          "apē"
-        ],
-        [
-          "G",
-          "karuwariwar"
         ]
       ],
       "nci": [
@@ -92508,20 +92342,6 @@ const SENTENCES = [
           "zunnu"
         ]
       ],
-      "hit": [
-        [
-          "A",
-          "lukkattiaz"
-        ],
-        [
-          "C",
-          "ḫēuš"
-        ],
-        [
-          "B",
-          "ḫēuškezzi"
-        ]
-      ],
       "nci": [
         [
           "A",
@@ -96854,15 +96674,15 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ešpanti"
+          "kēdani GE₆-ti"
         ],
         [
           "C",
-          "ḫandanteš-šum-it"
+          "araš kattan"
         ],
         [
           "D",
-          "adannan"
+          "NINDA-an"
         ],
         [
           "E",
@@ -101917,28 +101737,6 @@ const SENTENCES = [
           "erriš"
         ]
       ],
-      "hit": [
-        [
-          "A",
-          "ammuk"
-        ],
-        [
-          "F",
-          "nēwan"
-        ],
-        [
-          "C",
-          "uttar"
-        ],
-        [
-          "D",
-          "ḫatreškemi"
-        ],
-        [
-          "E",
-          "šaknuwanzi"
-        ]
-      ],
       "nci": [
         [
           "A",
@@ -106289,15 +106087,15 @@ const SENTENCES = [
       "hit": [
         [
           "A",
-          "ḫalenti"
-        ],
-        [
-          "B",
-          "ištarna"
+          "ṭuppiyaš É-er"
         ],
         [
           "C",
-          "ašešnaš GIG"
+          "irmalantaš É-ri"
+        ],
+        [
+          "B",
+          "tapušza"
         ],
         [
           "D",
@@ -110179,20 +109977,16 @@ const SENTENCES = [
       ],
       "hit": [
         [
-          "A",
-          "tuk"
-        ],
-        [
-          "D",
-          "autten"
-        ],
-        [
           "B",
           "ammuk"
         ],
         [
           "C",
-          "adanna ṭuppan"
+          "NINDA-aš ṭuppi"
+        ],
+        [
+          "D",
+          "tekkuššanut"
         ]
       ],
       "nci": [
@@ -114936,28 +114730,6 @@ const SENTENCES = [
         [
           "E",
           "ippuš"
-        ]
-      ],
-      "hit": [
-        [
-          "A",
-          "attaš-maš"
-        ],
-        [
-          "B",
-          "anda"
-        ],
-        [
-          "F",
-          "šalli"
-        ],
-        [
-          "D",
-          "tarnaš"
-        ],
-        [
-          "E",
-          "aniyazzi"
         ]
       ],
       "nci": [
@@ -119719,24 +119491,6 @@ const SENTENCES = [
         [
           "C",
           "immelṣū"
-        ]
-      ],
-      "hit": [
-        [
-          "A",
-          "DUMU.MEŠ"
-        ],
-        [
-          "E",
-          "GIŠ.SAR-"
-        ],
-        [
-          "B",
-          "‌ni"
-        ],
-        [
-          "C",
-          "šaknuwanzi"
         ]
       ],
       "nci": [
@@ -128691,19 +128445,19 @@ const SENTENCES = [
       "hit": [
         [
           "A",
-          "kuitman"
-        ],
-        [
-          "C",
-          "memiyahhi"
+          "man-mu"
         ],
         [
           "F",
-          "aššu"
+          "āššu"
         ],
         [
           "E",
-          "ēšša"
+          "adannaš É-er"
+        ],
+        [
+          "C",
+          "tekkuššanuši"
         ]
       ],
       "nci": [
@@ -132981,24 +132735,6 @@ const SENTENCES = [
         [
           "C",
           "amšī"
-        ]
-      ],
-      "hit": [
-        [
-          "A",
-          "ammuk"
-        ],
-        [
-          "B",
-          "ḫalentu-ši"
-        ],
-        [
-          "D",
-          "ḫulukannit anda"
-        ],
-        [
-          "C",
-          "ḫāššiyanun"
         ]
       ],
       "nci": [
@@ -137602,28 +137338,6 @@ const SENTENCES = [
           "ilē'i"
         ]
       ],
-      "hit": [
-        [
-          "A",
-          "apāš"
-        ],
-        [
-          "E",
-          "tarukzi"
-        ],
-        [
-          "B",
-          "GIŠ.ZA.MÍ"
-        ],
-        [
-          "D",
-          "mekki EGIR-pa"
-        ],
-        [
-          "C",
-          "ḫazziyazzi"
-        ]
-      ],
       "nci": [
         [
           "A",
@@ -141736,24 +141450,6 @@ const SENTENCES = [
         [
           "B",
           "ina ūm Sîn ša šattê"
-        ]
-      ],
-      "hit": [
-        [
-          "A",
-          "ḫatrešnāš"
-        ],
-        [
-          "C",
-          "ēšzi"
-        ],
-        [
-          "B",
-          "nēwi"
-        ],
-        [
-          "D",
-          "UD.1.KAM"
         ]
       ],
       "nci": [
@@ -146247,28 +145943,6 @@ const SENTENCES = [
         [
           "C",
           "akālam"
-        ]
-      ],
-      "hit": [
-        [
-          "A",
-          "ammuk"
-        ],
-        [
-          "D",
-          "adanna mēḫur"
-        ],
-        [
-          "E",
-          "šaknuwanzi"
-        ],
-        [
-          "B",
-          "KU₆ šūši"
-        ],
-        [
-          "C",
-          "ēdmi"
         ]
       ],
       "nci": [
@@ -150927,24 +150601,6 @@ const SENTENCES = [
           "ebbu"
         ]
       ],
-      "hit": [
-        [
-          "A",
-          "ašešnaš É-er"
-        ],
-        [
-          "B",
-          "ēšta"
-        ],
-        [
-          "C",
-          "mekki"
-        ],
-        [
-          "D",
-          "parkuiš"
-        ]
-      ],
       "nci": [
         [
           "A",
@@ -154835,20 +154491,6 @@ const SENTENCES = [
         [
           "C",
           "dibba"
-        ]
-      ],
-      "hit": [
-        [
-          "A",
-          "tuk"
-        ],
-        [
-          "B",
-          "manninkuwandaš"
-        ],
-        [
-          "C",
-          "mēmi"
         ]
       ],
       "nci": [
@@ -159171,20 +158813,6 @@ const SENTENCES = [
           "aššatam īḫuz"
         ]
       ],
-      "hit": [
-        [
-          "A|E",
-          "NEŠ-aš-maš šalliš"
-        ],
-        [
-          "C",
-          "EGIR-pa ITU-ti"
-        ],
-        [
-          "B",
-          "DAM-an dāš"
-        ]
-      ],
       "nci": [
         [
           "A|E",
@@ -163334,15 +162962,15 @@ const SENTENCES = [
       "hit": [
         [
           "C",
-          "palšaḫani"
+          "paḫḫuenaš ḫuluganniyaš pēdi"
         ],
         [
           "A",
-          "mekki"
+          "mekkeš"
         ],
         [
           "B",
-          "antuhšeš"
+          "antuḫšeš"
         ],
         [
           "D",
@@ -167957,28 +167585,6 @@ const SENTENCES = [
           "šâmam"
         ]
       ],
-      "hit": [
-        [
-          "A",
-          "ammuk"
-        ],
-        [
-          "B",
-          "ēšḫa"
-        ],
-        [
-          "C",
-          "ḫaššuwaš UD.KAM"
-        ],
-        [
-          "D",
-          "pēdaš"
-        ],
-        [
-          "E",
-          "ušniyami"
-        ]
-      ],
       "nci": [
         [
           "A",
@@ -172142,20 +171748,6 @@ const SENTENCES = [
         [
           "C",
           "baniš"
-        ]
-      ],
-      "hit": [
-        [
-          "A|D",
-          "kēz"
-        ],
-        [
-          "B",
-          "d-UTU-uš šēr"
-        ],
-        [
-          "C",
-          "ašandu"
         ]
       ],
       "nci": [
@@ -176734,19 +176326,19 @@ const SENTENCES = [
         ],
         [
           "C",
-          "lukkatta"
+          "lukkatti"
         ],
         [
           "B",
-          "karū"
+          "karūariwar"
         ],
         [
           "D",
-          "šarā paimi"
+          "šarā tiyawanzi"
         ],
         [
           "E",
-          "ēšḫa"
+          "ēšmi"
         ]
       ],
       "nci": [
@@ -181617,10 +181209,6 @@ const SENTENCES = [
       ],
       "hit": [
         [
-          "E",
-          "šākti"
-        ],
-        [
           "A",
           "zik"
         ],
@@ -181630,11 +181218,15 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ḫalentu ḪA.LA"
+          "ḫalugatallaš É-er"
         ],
         [
           "D",
           "ēšzi"
+        ],
+        [
+          "E",
+          "šakti"
         ]
       ],
       "nci": [
@@ -186722,28 +186314,6 @@ const SENTENCES = [
           "ašaṭṭar"
         ]
       ],
-      "hit": [
-        [
-          "A",
-          "ammuk"
-        ],
-        [
-          "B",
-          "kēdani mēḫur"
-        ],
-        [
-          "C",
-          "maniyaḫḫan"
-        ],
-        [
-          "F",
-          "ṭuppan"
-        ],
-        [
-          "E",
-          "ḫatranun"
-        ]
-      ],
       "nci": [
         [
           "A",
@@ -191812,19 +191382,19 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ḫūmandaz"
+          "UD-at UD-at"
         ],
         [
           "D",
-          "miti-"
+          "mīti"
         ],
         [
           "E",
-          "waššiyatan"
+          "TÚG adupli"
         ],
         [
           "C",
-          "waškezzi"
+          "waššezzi"
         ]
       ],
       "nci": [
@@ -196508,15 +196078,15 @@ const SENTENCES = [
         ],
         [
           "E",
-          "adanna parn"
+          "adannaš É-ri"
         ],
         [
           "B",
-          "ezzan"
+          "NINDA-aš"
         ],
         [
           "C",
-          "ašandu"
+          "šanezziš"
         ]
       ],
       "nci": [
@@ -200623,16 +200193,16 @@ const SENTENCES = [
           "ammuk"
         ],
         [
-          "D",
-          "šaknuwanzi"
+          "B",
+          "ḫūmanti taknī"
         ],
         [
           "C",
-          "iyannai"
+          "laḫḫa paiwanzi"
         ],
         [
-          "B",
-          "dankui tekan ḫūmandan"
+          "D",
+          "wekmi"
         ]
       ],
       "nci": [
@@ -211799,16 +211369,24 @@ const SENTENCES = [
           "ammuk"
         ],
         [
-          "B|F|G",
-          "ḫandantiyaš-šum-it"
+          "G",
+          "ammēl"
+        ],
+        [
+          "B",
+          "ari"
+        ],
+        [
+          "F",
+          "kattan"
         ],
         [
           "C",
-          "ḫalziššan"
+          "tūwaz"
         ],
         [
           "D",
-          "1 mēḫur"
+          "1 lammar"
         ],
         [
           "E|H",
@@ -216525,24 +216103,6 @@ const SENTENCES = [
           "upattī"
         ]
       ],
-      "hit": [
-        [
-          "A",
-          "EN.SISKUR"
-        ],
-        [
-          "B",
-          "šālattar"
-        ],
-        [
-          "C",
-          "parkuiš"
-        ],
-        [
-          "D",
-          "ḫatranun"
-        ]
-      ],
       "nci": [
         [
           "A",
@@ -221126,28 +220686,6 @@ const SENTENCES = [
         [
           "E",
           "šuāti"
-        ]
-      ],
-      "hit": [
-        [
-          "A",
-          "ammuk"
-        ],
-        [
-          "D",
-          "šaknuwanzi"
-        ],
-        [
-          "C",
-          "aušmi"
-        ],
-        [
-          "B",
-          "ḫurlili"
-        ],
-        [
-          "E",
-          "apēdaš"
         ]
       ],
       "nci": [
@@ -226408,32 +225946,6 @@ const SENTENCES = [
           "bīt iṣṣūrī"
         ]
       ],
-      "hit": [
-        [
-          "A",
-          "tuk"
-        ],
-        [
-          "D",
-          "mēmi"
-        ],
-        [
-          "B",
-          "ammuk"
-        ],
-        [
-          "E",
-          "KASKAL"
-        ],
-        [
-          "F",
-          "ana"
-        ],
-        [
-          "G",
-          "bīt iṣṣūri"
-        ]
-      ],
       "nci": [
         [
           "A",
@@ -230777,20 +230289,6 @@ const SENTENCES = [
         [
           "D",
           "irâm"
-        ]
-      ],
-      "hit": [
-        [
-          "A|E",
-          "UR.GI₇-aš-maš"
-        ],
-        [
-          "C",
-          "iyattar paizzi"
-        ],
-        [
-          "D",
-          "šanḫiškezzi"
         ]
       ],
       "nci": [
@@ -235286,24 +234784,6 @@ const SENTENCES = [
         [
           "D",
           "iqabbi"
-        ]
-      ],
-      "hit": [
-        [
-          "A|E",
-          "ḫannaš-maš"
-        ],
-        [
-          "B",
-          "maniyaḫḫan"
-        ],
-        [
-          "C",
-          "uttār"
-        ],
-        [
-          "D",
-          "memiškezi"
         ]
       ],
       "nci": [
@@ -240405,24 +239885,6 @@ const SENTENCES = [
           "umtaššir"
         ]
       ],
-      "hit": [
-        [
-          "A",
-          "ammuk"
-        ],
-        [
-          "B",
-          "kuršī"
-        ],
-        [
-          "D|F",
-          "ḫappiri"
-        ],
-        [
-          "C|H",
-          "ḫarnikun"
-        ]
-      ],
       "nci": [
         [
           "A",
@@ -244956,20 +244418,6 @@ const SENTENCES = [
           "ippuḫū"
         ]
       ],
-      "hit": [
-        [
-          "A|D",
-          "GIŠ.SAR-ni"
-        ],
-        [
-          "B",
-          "alil-eš"
-        ],
-        [
-          "C|E",
-          "ḫarkanzi"
-        ]
-      ],
       "nci": [
         [
           "A|D",
@@ -249010,16 +248458,16 @@ const SENTENCES = [
           "wēš"
         ],
         [
-          "D",
-          "ēšḫa"
-        ],
-        [
           "B",
           "tekan"
         ],
         [
           "C",
-          "pāḫšanuwanzi"
+          "paḫšanumanzi"
+        ],
+        [
+          "D",
+          "ešweni"
         ]
       ],
       "nci": [
@@ -254204,23 +253652,23 @@ const SENTENCES = [
         ],
         [
           "D",
-          "šiuatti ḫūmandaz"
+          "UD-at UD-at"
         ],
         [
           "E",
-          "tān"
+          "2"
         ],
         [
           "F",
-          "ḫupparāš"
+          "GAL"
         ],
         [
           "B",
-          "kāppi"
+          "dankui wātar"
         ],
         [
           "C",
-          "ekumi"
+          "akkuškimi"
         ]
       ],
       "nci": [
@@ -258688,24 +258136,6 @@ const SENTENCES = [
           "ittabši"
         ]
       ],
-      "hit": [
-        [
-          "A",
-          "SÌR-aš šalliš"
-        ],
-        [
-          "C",
-          "ešpanti"
-        ],
-        [
-          "B",
-          "8 mēḫur"
-        ],
-        [
-          "D",
-          "ārri"
-        ]
-      ],
       "nci": [
         [
           "A",
@@ -262710,24 +262140,6 @@ const SENTENCES = [
         [
           "D",
           "idabbub"
-        ]
-      ],
-      "hit": [
-        [
-          "A",
-          "apāš"
-        ],
-        [
-          "B",
-          "tēri uttār"
-        ],
-        [
-          "C",
-          "ḫandanza"
-        ],
-        [
-          "D",
-          "memiškezi"
         ]
       ],
       "nci": [
@@ -267329,28 +266741,6 @@ const SENTENCES = [
           "ša bītim annîm"
         ]
       ],
-      "hit": [
-        [
-          "A",
-          "ammuk"
-        ],
-        [
-          "E",
-          "šaknuwanzi"
-        ],
-        [
-          "D",
-          "ēppun"
-        ],
-        [
-          "C",
-          "ešri"
-        ],
-        [
-          "B",
-          "šiunaš kēdaš"
-        ]
-      ],
       "nci": [
         [
           "A",
@@ -270908,20 +270298,6 @@ const SENTENCES = [
         [
           "C",
           "ikašša"
-        ]
-      ],
-      "hit": [
-        [
-          "A",
-          "ḫulukanni rabītu"
-        ],
-        [
-          "B",
-          "15 mēḫur-aš"
-        ],
-        [
-          "C",
-          "ārri"
         ]
       ],
       "nci": [
@@ -274644,24 +274020,6 @@ const SENTENCES = [
         [
           "D",
           "almad"
-        ]
-      ],
-      "hit": [
-        [
-          "A",
-          "ammuk"
-        ],
-        [
-          "B",
-          "adanna Kōrīya"
-        ],
-        [
-          "C",
-          "šipandanzi"
-        ],
-        [
-          "D",
-          "ḫatreškemi"
         ]
       ],
       "nci": [
@@ -279292,7 +278650,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "ḫūmandaz"
+          "UD-at UD-at"
         ],
         [
           "D",
@@ -279300,11 +278658,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "appizzian"
+          "appan"
         ],
         [
           "E",
-          "ārri"
+          "āri"
         ]
       ],
       "nci": [
@@ -284149,28 +283507,6 @@ const SENTENCES = [
         [
           "D",
           "šaṭāram"
-        ]
-      ],
-      "hit": [
-        [
-          "A",
-          "ammuk"
-        ],
-        [
-          "E",
-          "šaknuwanzi"
-        ],
-        [
-          "B",
-          "ṭuppan kēdan"
-        ],
-        [
-          "C",
-          "ITU-aš appizzian"
-        ],
-        [
-          "D",
-          "ḫatranun"
         ]
       ],
       "nci": [
@@ -291476,24 +290812,6 @@ const SENTENCES = [
           "mullûm"
         ]
       ],
-      "hit": [
-        [
-          "A",
-          "ammuk"
-        ],
-        [
-          "D",
-          "ēšḫa"
-        ],
-        [
-          "B",
-          "ḫalziššan lēlī"
-        ],
-        [
-          "C",
-          "wātar pāi"
-        ]
-      ],
       "nci": [
         [
           "A",
@@ -296047,20 +295365,20 @@ const SENTENCES = [
           "apāš"
         ],
         [
-          "E",
-          "pēšta"
-        ],
-        [
           "B",
           "ammuk"
         ],
         [
           "C",
-          "ašandu"
+          "lalukkiwan"
         ],
         [
           "D",
-          "pēdan"
+          "uppeššar"
+        ],
+        [
+          "E",
+          "pēšta"
         ]
       ],
       "nci": [
@@ -299718,20 +299036,6 @@ const SENTENCES = [
         [
           "C",
           "katmu"
-        ]
-      ],
-      "hit": [
-        [
-          "A",
-          "ḪUR.SAG-aš"
-        ],
-        [
-          "B",
-          "GIŠGAL-it"
-        ],
-        [
-          "C",
-          "kattanta"
         ]
       ],
       "nci": [
@@ -304129,28 +303433,6 @@ const SENTENCES = [
           "adūl"
         ]
       ],
-      "hit": [
-        [
-          "A",
-          "ammuk"
-        ],
-        [
-          "B",
-          "ḫūḫḫā-parna"
-        ],
-        [
-          "C",
-          "tēriš"
-        ],
-        [
-          "E",
-          "šiuatti-7-KAM"
-        ],
-        [
-          "D",
-          "aniyami"
-        ]
-      ],
       "nci": [
         [
           "A",
@@ -308436,24 +307718,6 @@ const SENTENCES = [
         [
           "C",
           "wašābam"
-        ]
-      ],
-      "hit": [
-        [
-          "D",
-          "tarukzi"
-        ],
-        [
-          "A",
-          "ammuk"
-        ],
-        [
-          "B",
-          "kēz"
-        ],
-        [
-          "C",
-          "ēšzi"
         ]
       ],
       "nci": [
@@ -319074,24 +318338,6 @@ const SENTENCES = [
           "iddīl"
         ]
       ],
-      "hit": [
-        [
-          "A",
-          "ḫappiraš"
-        ],
-        [
-          "E",
-          "9 mēḫur-az"
-        ],
-        [
-          "F",
-          "ešpanti"
-        ],
-        [
-          "C",
-          "ḫattanzi"
-        ]
-      ],
       "nci": [
         [
           "A",
@@ -323263,24 +322509,6 @@ const SENTENCES = [
         [
           "C",
           "šūtēšurum"
-        ]
-      ],
-      "hit": [
-        [
-          "A",
-          "ammuk"
-        ],
-        [
-          "D",
-          "šaknuwanzi"
-        ],
-        [
-          "B",
-          "memian-mi"
-        ],
-        [
-          "C",
-          "šarā dāi"
         ]
       ],
       "nci": [
@@ -332944,32 +332172,6 @@ const SENTENCES = [
           "iṣallal"
         ]
       ],
-      "hit": [
-        [
-          "A|E",
-          "ša-a-lu-wa-na-aš-maš"
-        ],
-        [
-          "C",
-          "ešpanti"
-        ],
-        [
-          "G",
-          "ḫūmandaz"
-        ],
-        [
-          "B",
-          "šešti-mi"
-        ],
-        [
-          "F",
-          "šēr"
-        ],
-        [
-          "D",
-          "šēšzi"
-        ]
-      ],
       "nci": [
         [
           "A",
@@ -337036,20 +336238,6 @@ const SENTENCES = [
           "uzuzzāku"
         ]
       ],
-      "hit": [
-        [
-          "A",
-          "ammuk"
-        ],
-        [
-          "B",
-          "30 mēḫur"
-        ],
-        [
-          "C",
-          "ārun"
-        ]
-      ],
       "nci": [
         [
           "A",
@@ -340175,20 +339363,6 @@ const SENTENCES = [
         [
           "C",
           "ilmadū"
-        ]
-      ],
-      "hit": [
-        [
-          "A",
-          "DUMU.MEŠ"
-        ],
-        [
-          "B",
-          "naḫšariyauwar"
-        ],
-        [
-          "C",
-          "ḫatranzi"
         ]
       ],
       "nci": [
@@ -348882,24 +348056,6 @@ const SENTENCES = [
           "iḫḫantaṭ"
         ]
       ],
-      "hit": [
-        [
-          "A",
-          "apāš"
-        ],
-        [
-          "E",
-          "ḫatrešnaš"
-        ],
-        [
-          "B",
-          "EGIR-an"
-        ],
-        [
-          "C",
-          "nakkiyaḫḫut"
-        ]
-      ],
       "nci": [
         [
           "A",
@@ -353064,24 +352220,6 @@ const SENTENCES = [
         [
           "C",
           "damqu"
-        ]
-      ],
-      "hit": [
-        [
-          "D",
-          "ḫatrami"
-        ],
-        [
-          "A",
-          "kā"
-        ],
-        [
-          "B",
-          "ḫatreštar"
-        ],
-        [
-          "C",
-          "ašandu"
         ]
       ],
       "nci": [
@@ -357770,28 +356908,6 @@ const SENTENCES = [
         [
           "E",
           "ittalkam"
-        ]
-      ],
-      "hit": [
-        [
-          "A",
-          "apāš"
-        ],
-        [
-          "B",
-          "šulli"
-        ],
-        [
-          "C",
-          "kuit"
-        ],
-        [
-          "D",
-          "ḫandantiyaš-ši"
-        ],
-        [
-          "E",
-          "arḫa paizzi"
         ]
       ],
       "nci": [
@@ -364183,36 +363299,6 @@ const SENTENCES = [
           "šūturat aqrat"
         ]
       ],
-      "hit": [
-        [
-          "A",
-          "ammuk"
-        ],
-        [
-          "E",
-          "ḫatrami"
-        ],
-        [
-          "B",
-          "ḫatreškezzi"
-        ],
-        [
-          "F",
-          "KUR-az"
-        ],
-        [
-          "D",
-          "ēšzi"
-        ],
-        [
-          "G",
-          "nakkiyaš"
-        ],
-        [
-          "C",
-          "iyattar"
-        ]
-      ],
       "nci": [
         [
           "A",
@@ -368974,24 +368060,6 @@ const SENTENCES = [
         [
           "F",
           "ību"
-        ]
-      ],
-      "hit": [
-        [
-          "A",
-          "ammuk"
-        ],
-        [
-          "C",
-          "kēdani UD-ti"
-        ],
-        [
-          "E",
-          "ḫarki-ši"
-        ],
-        [
-          "F",
-          "ḫarmi"
         ]
       ],
       "nci": [
@@ -376844,24 +375912,6 @@ const SENTENCES = [
           "uštēne'er"
         ]
       ],
-      "hit": [
-        [
-          "A",
-          "ammuk"
-        ],
-        [
-          "B",
-          "lukkatta ḫūmandaz"
-        ],
-        [
-          "C",
-          "aniyami"
-        ],
-        [
-          "D",
-          "ḫandāizzi"
-        ]
-      ],
       "nci": [
         [
           "A",
@@ -381352,28 +380402,6 @@ const SENTENCES = [
         [
           "C",
           "iṣbat"
-        ]
-      ],
-      "hit": [
-        [
-          "A",
-          "apāš"
-        ],
-        [
-          "E",
-          "karū"
-        ],
-        [
-          "D",
-          "UD.7.KAM"
-        ],
-        [
-          "B",
-          "GIG-an"
-        ],
-        [
-          "C",
-          "ēppta"
         ]
       ],
       "nci": [
@@ -386195,20 +385223,20 @@ const SENTENCES = [
           "zik"
         ],
         [
-          "D",
-          "ēšḫa"
+          "E",
+          "namma"
         ],
         [
           "B",
           "wātar"
         ],
         [
-          "E",
-          "māyān"
+          "C",
+          "akuwanna"
         ],
         [
-          "C",
-          "ekuzi"
+          "D",
+          "ēšši"
         ]
       ],
       "nci": [
@@ -390275,24 +389303,6 @@ const SENTENCES = [
         [
           "C",
           "ašappar"
-        ]
-      ],
-      "hit": [
-        [
-          "D",
-          "ammuk"
-        ],
-        [
-          "A",
-          "šiuatti ḫūmandaz"
-        ],
-        [
-          "B",
-          "lēlī ḫalziššan"
-        ],
-        [
-          "C",
-          "ēppanzi"
         ]
       ],
       "nci": [
@@ -394456,24 +393466,6 @@ const SENTENCES = [
           "ḫašḫu"
         ]
       ],
-      "hit": [
-        [
-          "A",
-          "kā"
-        ],
-        [
-          "B",
-          "lēlī ḫatreštar"
-        ],
-        [
-          "C",
-          "mekki"
-        ],
-        [
-          "D",
-          "ḫandanza"
-        ]
-      ],
       "nci": [
         [
           "A",
@@ -397946,20 +396938,6 @@ const SENTENCES = [
         [
           "C",
           "ušannâ"
-        ]
-      ],
-      "hit": [
-        [
-          "A",
-          "ḫatreštar ištanzanaš"
-        ],
-        [
-          "B",
-          "tekan"
-        ],
-        [
-          "C",
-          "naḫšariyawezzi"
         ]
       ],
       "nci": [
@@ -402721,28 +401699,6 @@ const SENTENCES = [
           "amur"
         ]
       ],
-      "hit": [
-        [
-          "A",
-          "uk"
-        ],
-        [
-          "G",
-          "išḫiul"
-        ],
-        [
-          "F",
-          "ša Wi-Fi"
-        ],
-        [
-          "C",
-          "natta"
-        ],
-        [
-          "D",
-          "uēmiyami"
-        ]
-      ],
       "nci": [
         [
           "C",
@@ -407181,24 +406137,6 @@ const SENTENCES = [
           "ilmad"
         ]
       ],
-      "hit": [
-        [
-          "A",
-          "apāš"
-        ],
-        [
-          "C",
-          "apēl-pat"
-        ],
-        [
-          "B",
-          "ḫatreštar lēlī"
-        ],
-        [
-          "D",
-          "ḫatreškezzi"
-        ]
-      ],
       "nci": [
         [
           "A",
@@ -411094,24 +410032,6 @@ const SENTENCES = [
         [
           "C",
           "parṣum"
-        ]
-      ],
-      "hit": [
-        [
-          "A",
-          "šakuwaššar aušzi"
-        ],
-        [
-          "D",
-          "ēšzi"
-        ],
-        [
-          "B",
-          "Yamatu"
-        ],
-        [
-          "C",
-          "tuzziyaš"
         ]
       ],
       "nci": [
@@ -415058,24 +413978,6 @@ const SENTENCES = [
         [
           "C",
           "nīkkal"
-        ]
-      ],
-      "hit": [
-        [
-          "A",
-          "wēš"
-        ],
-        [
-          "D",
-          "witti nēwi KUR Ṣīna"
-        ],
-        [
-          "B",
-          "NINDA ḫuppar"
-        ],
-        [
-          "C",
-          "ēdwani"
         ]
       ],
       "nci": [
@@ -420829,32 +419731,6 @@ const SENTENCES = [
           "ineppušū"
         ]
       ],
-      "hit": [
-        [
-          "A",
-          "kē"
-        ],
-        [
-          "C",
-          "udnē"
-        ],
-        [
-          "D",
-          "ḫamešḫi"
-        ],
-        [
-          "E",
-          "mekki"
-        ],
-        [
-          "F",
-          "EZEN.MEŠ"
-        ],
-        [
-          "G",
-          "iyantari"
-        ]
-      ],
       "nci": [
         [
           "A",
@@ -426239,28 +425115,6 @@ const SENTENCES = [
           "bābāti"
         ]
       ],
-      "hit": [
-        [
-          "A",
-          "lāla-"
-        ],
-        [
-          "B",
-          "ḫatrāi-"
-        ],
-        [
-          "C",
-          "ḫanteziyanzi"
-        ],
-        [
-          "D",
-          "newa-"
-        ],
-        [
-          "E",
-          "ḫilam-"
-        ]
-      ],
       "nci": [
         [
           "A",
@@ -430252,20 +429106,6 @@ const SENTENCES = [
         [
           "C",
           "allak"
-        ]
-      ],
-      "hit": [
-        [
-          "A",
-          "ḫulukanni-pet"
-        ],
-        [
-          "B",
-          "É aniyatti"
-        ],
-        [
-          "C",
-          "ammuk paimi"
         ]
       ],
       "nci": [
@@ -434900,28 +433740,6 @@ const SENTENCES = [
           "ribīti"
         ]
       ],
-      "hit": [
-        [
-          "A",
-          "eku"
-        ],
-        [
-          "B",
-          "kunna iya"
-        ],
-        [
-          "C",
-          "anda"
-        ],
-        [
-          "E",
-          "apiya"
-        ],
-        [
-          "F",
-          "palhasti"
-        ]
-      ],
       "nci": [
         [
           "A",
@@ -439166,24 +437984,6 @@ const SENTENCES = [
         [
           "C",
           "nēbertim"
-        ]
-      ],
-      "hit": [
-        [
-          "A",
-          "ḫappiraš šalliš"
-        ],
-        [
-          "D",
-          "ēšzi"
-        ],
-        [
-          "B",
-          "appizzian"
-        ],
-        [
-          "C",
-          "palšaḫanaš"
         ]
       ],
       "nci": [
@@ -443807,28 +442607,6 @@ const SENTENCES = [
           "erriš"
         ]
       ],
-      "hit": [
-        [
-          "A",
-          "uk"
-        ],
-        [
-          "D",
-          "kē"
-        ],
-        [
-          "E",
-          "adannaš"
-        ],
-        [
-          "C",
-          "arkuwar"
-        ],
-        [
-          "B",
-          "sakhi"
-        ]
-      ],
       "nci": [
         [
           "A",
@@ -447938,20 +446716,6 @@ const SENTENCES = [
           "šulmānum"
         ]
       ],
-      "hit": [
-        [
-          "C",
-          "maššan ḫandanza"
-        ],
-        [
-          "A",
-          "kā"
-        ],
-        [
-          "B",
-          "pēdan"
-        ]
-      ],
       "nci": [
         [
           "C",
@@ -451105,16 +449869,6 @@ const SENTENCES = [
         [
           "A",
           "kalāma"
-        ]
-      ],
-      "hit": [
-        [
-          "B",
-          "mukēškami"
-        ],
-        [
-          "A",
-          "ḫūmandaš"
         ]
       ],
       "nci": [

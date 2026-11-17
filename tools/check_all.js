@@ -678,7 +678,10 @@ line('slice-loader versions', num(s, /violations: (\d+)/));
 // (hello, thanks, we). njo/duu/ers: one old cell each tipped the same way.
 // r73 (2026-10-09): +2, tca — the r73 Ticuna rebuild/fill added cells toneless like
 // the row's other bare cells; the row still needs a tone pass.
-const TONE_POLICY_DEBT = 56;   // ratcheted down 2026-10-14 after rounds 97–101 (was 74)
+// gap rally R11 (2026-11-18): +1, spp — the Supyire Bible fill (tone-marked
+// cells) tipped the row, exposing the OLD n99 cell beecyɛɛre ná kɛ ná baacyɛɛre
+// that was written without tone marks; no new cell is toneless.
+const TONE_POLICY_DEBT = 57;   // ratcheted down 2026-10-14 after rounds 97–101 (was 74); +1 R11
 s = run('tone_policy_check.js --check');
 {
     const n = num(s, /violations: (\d+)/);

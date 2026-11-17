@@ -613,6 +613,18 @@ WORDS.right = {
     mga: "compass",
     ohu: "good",
     orv: "dexter",
+    ak: "plain",
+    dag: "compass",
+    deg: "plain",
+    dnj: "good",
+    ee: "eat",
+    ig: "eat",
+    kpe: "eat",
+    kri: "straight",
+    maw: "compass",
+    spp: "plain",
+    tem: "plain",
+    tiv: "eat",
   },
   routes: {
     straight: {"color":"#2563eb","emoji":"📏","en":"'straight, true, correct'","ja":"「まっすぐ、正しい」","ko":"‘곧은, 옳은’","zh":"“直、正确”","yue":"「直、啱」","vi":"“thẳng, đúng”","th":"“ตรง ถูกต้อง”","id":"“lurus, benar”","hi":"‘सीधा, सही’","de":"„gerade, richtig“","fr":"« droit, juste »","it":"“dritto, giusto”","es":"«recto, correcto»","pt":"«reto, certo»","ru":"«прямой, верный»","uk":"«прямий, правильний»","ar":"«مستقيم، صحيح»","he":"״ישר, נכון״","sw":"“nyoofu, sahihi”"},
@@ -1167,5 +1179,17 @@ WORDS.right = {
     mga: ["dess", "dʲes"],
     ohu: ["jobb", "jobː"],
     orv: ["десныи", "desnɨj"],
+    ak: ["nifa", "nifa"],
+    dag: ["nudirigu", "nudiriɡu"],  // The right hand; it also names the south.
+    deg: ["ụḅavi", "ʊɓəvi"],
+    dnj: ["kɔ̏sʌ̏", "kɔ̏sʌ̏"],  // Literally 'good hand'.
+    ee: ["ɖusime", "ɖusime"],
+    ig: ["aka nri", "aka nɾi"],
+    kpe: ["láa mii-yée mɛi-pere", "láː miː jée mɛi pere"],
+    kri: ["rayt", "rajt"],
+    maw: ["nudirigu", "nudiriɡu"],  // The right hand; facing the sunrise it also names the south.
+    spp: ["kàniŋke", "kàniŋke"],
+    tem: ["andiyɔ", "andijɔ"],  // No image is recorded for it, so it counts as a word of its own.
+    tiv: ["yanegh", "janeɣ"],
   },
 };

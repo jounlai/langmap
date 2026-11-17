@@ -304,5 +304,6 @@ WORDS.woof = {
     el_koi: ["αὖ αὖ", "aw aw"],
     bdq: ["kuh kuh", "kuh kuh"],
     ota: ["هاو هاو", "hav hav"],
+    dnj: ["wáȕu-wáȕu", "wáȕu wáȕu"],
   },
 };

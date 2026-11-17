@@ -613,6 +613,16 @@ WORDS.monkey = {
     snk: "plain",
     tzm: "plain",
     ohu: "maymun",
+    dag: "plain",
+    deg: "plain",
+    dnj: "plain",
+    dyu: "plain",
+    ee: "plain",
+    ig: "plain",
+    izz: "plain",
+    kbp: "plain",
+    maw: "plain",
+    sus: "plain",
   },
   routes: {
     maymun: {"color":"#059669","emoji":"🌙","en":"from Arabic maymūn (maymun, majom, mono)","ja":"アラビア語 maymūn から (maymun, majom, mono)","ko":"아랍어 maymūn에서 (maymun, majom, mono)","zh":"来自阿拉伯语 maymūn (maymun, majom, mono)","yue":"嚟自阿拉伯語 maymūn (maymun, majom, mono)","vi":"từ tiếng Ả Rập maymūn (maymun, majom, mono)","th":"จากภาษาอาหรับ maymūn (maymun, majom, mono)","id":"dari maymūn Arab (maymun, majom, mono)","hi":"अरबी maymūn से (maymun, majom, mono)","de":"aus arabisch maymūn (maymun, majom, mono)","fr":"de l'arabe maymūn (maymun, majom, mono)","it":"dall'arabo maymūn (maymun, majom, mono)","es":"del árabe maymūn (maymun, majom, mono)","pt":"do árabe maymūn (maymun, majom, mono)","ru":"от арабского maymūn (maymun, majom, mono)","uk":"від арабського maymūn (maymun, majom, mono)","ar":"من العربية مَيْمُون (maymun, majom, mono)","he":"מהערבית maymūn (maymun, majom, mono)","sw":"kutoka Kiarabu maymūn (maymun, majom, mono)"},
@@ -1165,5 +1175,15 @@ WORDS.monkey = {
     snk: ["fune", "fune"],
     tzm: ["ⴰⴱⴰⵖⵓⵙ", "abaɣus"],
     ohu: ["majom", "mɒjom"],
+    dag: ["jaŋa", "dʒaŋa"],  // No image is recorded for it, so it counts as a word of its own.
+    deg: ["enwen", "eŋʷen"],
+    dnj: ["wɔ̀ɔ", "wɔ̀ː"],
+    dyu: ["sula", "sula"],
+    ee: ["kese", "kese"],
+    ig: ["enwe", "eŋʷe"],
+    izz: ["enwe", "eŋwe"],
+    kbp: ["tɩgbayʋ", "tɪɡbajʊ"],
+    maw: ["ŋmaaŋŋa", "ŋmaːŋːa"],  // No image is recorded for it, so it counts as a word of its own.
+    sus: ["kule", "kule"],
   },
 };

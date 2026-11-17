@@ -976,5 +976,7 @@ WORDS.poop = {
     xng: ["ᠪᠠᠭᠠᠰᠤᠨ", "baasun"],
     auj: ["ẓẓan", "zˤːan"],
     gha: ["izzan", "izːan"],
+    kpe: ["kaâŋ-kau", "kaâŋ kau"],
+    maw: ["binni", "binːi"],
   },
 };

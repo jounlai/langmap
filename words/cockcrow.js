@@ -605,5 +605,7 @@ WORDS.cockcrow = {
     ms: ["kukurukuk", "kukuˈrukuʔ"],
     h_tagalog: ["ᜆᜒᜎᜂᜃ᜔", "tiˈlaʔok"],
     fr_class: ["coquericot", "kɔkəriko"],
+    dag: ["kokoolaakoo", "kokoːlaːkoː"],
+    ee: ["kɔkɔliakɔe", "kɔkɔliakɔe"],
   },
 };

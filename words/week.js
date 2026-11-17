@@ -549,6 +549,16 @@ WORDS.week = {
     mga: "seven",
     ohu: "seven",
     orv: "sunday",
+    ak: "eight",
+    dnj: "other",
+    dyu: "plain",
+    ig: "other",
+    izz: "plain",
+    kbp: "plain",
+    kpe: "plain",
+    kri: "turn",
+    spp: "plain",
+    sus: "plain",
   },
   routes: {
     seven: {"color":"#2563eb","emoji":"7️⃣","en":"the number seven","ja":"数の七","ko":"일곱이라는 수","zh":"数字七","yue":"數字七","vi":"con số bảy","th":"เลขเจ็ด","id":"angka tujuh","hi":"सात की संख्या","de":"die Zahl Sieben","fr":"le nombre sept","it":"il numero sette","es":"el número siete","pt":"o número sete","ru":"число семь","uk":"число сім","ar":"العدد سبعة","he":"המספר שבע","sw":"namba saba"},
@@ -1039,5 +1049,15 @@ WORDS.week = {
     mga: ["sechtmain", "ˈsʲextvənʲ"],
     ohu: ["hét", "heːt"],
     orv: ["недѣлꙗ", "nedʲelʲa"],
+    ak: ["nnawɔtwe", "nːawɔtɕᶣe"],  // Literally 'eight days'.
+    dnj: ["dhɔ̋ɔgɔ̏", "ɗɔ̋ːɡɔ̏"],  // Literally 'market head': the week follows the market cycle.
+    dyu: ["lɔgɔkun", "lɔɡɔkun"],
+    ig: ["izu ụka", "izu ʊka"],  // The seven-day 'church week'; izu alone is the old four-day market week.
+    izz: ["idzu", "idzu"],
+    kbp: ["kpɩtaʋ", "kpɪtaʊ"],
+    kpe: ["lɔ̂ku", "lɔ̂ku"],
+    kri: ["wik", "wik"],
+    spp: ["cibilaaga", "tʃibilaːɡa"],
+    sus: ["lɔxɔxun", "lɔxɔxun"],
   },
 };

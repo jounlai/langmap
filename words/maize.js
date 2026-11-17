@@ -508,6 +508,15 @@ WORDS.maize = {
     snk: "makka",
     es_sgl: "mahiz",
     fr_class: "place",
+    dag: "plain",
+    deg: "plain",
+    dnj: "plain",
+    ee: "plain",
+    ekp: "plain",
+    ibb: "plain",
+    ig: "plain",
+    kpe: "plain",
+    maw: "plain",
   },
   routes: {
     mahiz: {"color":"#eab308","emoji":"🌽","en":"from Taíno mahiz (maíz, Mais, maïs)","ja":"タイノ語 mahiz から（maíz, Mais, maïs）","ko":"타이노어 mahiz에서 (maíz, Mais, maïs)","zh":"源自泰诺语 mahiz（maíz, Mais, maïs）","yue":"源自泰諾語 mahiz（maíz, Mais, maïs）","vi":"từ tiếng Taíno mahiz (maíz, Mais, maïs)","th":"จากภาษาไตโน mahiz (maíz, Mais, maïs)","id":"dari bahasa Taíno mahiz (maíz, Mais, maïs)","hi":"ताइनो mahiz से (maíz, Mais, maïs)","de":"aus Taíno mahiz (maíz, Mais, maïs)","fr":"du taïno mahiz (maíz, Mais, maïs)","it":"dal taíno mahiz (maíz, Mais, maïs)","es":"del taíno mahiz (maíz, Mais, maïs)","pt":"do taíno mahiz (maíz, Mais, maïs)","ru":"из таино mahiz (maíz, Mais, maïs)","uk":"з таїно mahiz (maíz, Mais, maïs)","ar":"من mahiz في لغة التاينو (maíz, Mais, maïs)","he":"מ-mahiz בטאינו (maíz, Mais, maïs)","sw":"kutoka Kitaino mahiz (maíz, Mais, maïs)"},
@@ -954,5 +963,14 @@ WORDS.maize = {
     snk: ["makka", "makːa"],
     es_sgl: ["maíz", "maˈidz"],
     fr_class: ["blé de Turquie", "ble də tyrki"],
+    dag: ["kariwani", "kariwani"],  // No image is recorded for it, so it counts as a word of its own.
+    deg: ["ụmbiyakpa", "ʊmbɪjakpa"],
+    dnj: ["kɤ̄ŋ", "kɤ̄ŋ"],
+    ee: ["bli", "bli"],
+    ekp: ["ọka", "ɔka"],
+    ibb: ["akpakpa", "akpakpa"],
+    ig: ["ọka", "ɔka"],
+    kpe: ["gbai", "ɡbai"],
+    maw: ["kawanni", "kawanːi"],  // No image is recorded for it, so it counts as a word of its own.
   },
 };

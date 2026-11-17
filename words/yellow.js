@@ -658,6 +658,15 @@ WORDS.yellow = {
     mga: "plain",
     ohu: "sari",
     orv: "ghel",
+    ak: "other",
+    dag: "fruit",
+    dnj: "other",
+    ee: "fruit",
+    ekp: "plain",
+    ig: "other",
+    kpe: "plain",
+    maw: "fruit",
+    mev: "other",
   },
   routes: {
     turmeric: {"color":"#d97706","emoji":"🫚","en":"turmeric","ja":"ウコン","ko":"강황","zh":"姜黄","yue":"黃薑","vi":"nghệ","th":"ขมิ้น","id":"kunyit","hi":"हल्दी","de":"Kurkuma","fr":"le curcuma","it":"la curcuma","es":"la cúrcuma","pt":"a curcuma","ru":"куркума","uk":"куркума","ar":"الكركم","he":"כורכום","sw":"manjano"},
@@ -1255,5 +1264,14 @@ WORDS.yellow = {
     mga: ["buide", "ˈbuðʲe"],
     ohu: ["sárga", "ʃaːrɡɒ"],
     orv: ["жьлтыи", "ʒĭltɨj"],
+    ak: ["akokɔsradeɛ", "akokɔsradeɛ"],  // Literally 'chicken fat'.
+    dag: ["dɔzim", "dɔzim"],  // Named after the yellow powder inside the dawadawa pod.
+    dnj: ["sóŋ̏yi̋dhē", "sóŋ̏ji̋ɗē"],  // Built on the name of a tree and yi̋ 'water'.
+    ee: ["aŋutiɖiɖi", "aŋutiɖiɖi"],
+    ekp: ["odo", "odo"],
+    ig: ["edo edo", "edo edo"],
+    kpe: ["kpeleŋ", "kpeleŋ"],
+    maw: ["dɔzum", "dɔzum"],  // Named after the yellow powder inside the dawadawa pod.
+    mev: ["zóló", "zóló"],  // The same word as red.
   },
 };

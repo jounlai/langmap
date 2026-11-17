@@ -559,6 +559,12 @@ WORDS.paper = {
     ohu: "papyrus",
     orv: "charta",
     sga: "charta",
+    dag: "charta",
+    dnj: "other",
+    ig: "leaf",
+    kpe: "other",
+    maw: "charta",
+    sus: "kaghaz",
   },
   routes: {
     papyrus: {"color":"#2563eb","emoji":"📜","en":"from Latin papyrus (papier, papel, Papier)","ja":"ラテン語 papyrus から（papier, papel, Papier）","ko":"라틴어 papyrus에서 (papier, papel, Papier)","zh":"源自拉丁语 papyrus（papier, papel, Papier）","yue":"源自拉丁文 papyrus（papier, papel, Papier）","vi":"từ tiếng Latinh papyrus (papier, papel, Papier)","th":"จากภาษาละติน papyrus (papier, papel, Papier)","id":"dari bahasa Latin papyrus (papier, papel, Papier)","hi":"लैटिन papyrus से (papier, papel, Papier)","de":"aus lateinisch papyrus (papier, papel, Papier)","fr":"du latin papyrus (papier, papel, Papier)","it":"dal latino papyrus (papier, papel, Papier)","es":"del latín papyrus (papier, papel, Papier)","pt":"do latim papyrus (papier, papel, Papier)","ru":"из латинского papyrus (papier, papel, Papier)","uk":"з латинського papyrus (papier, papel, Papier)","ar":"من اللاتينية papyrus (papier, papel, Papier)","he":"מ-papyrus הלטינית (papier, papel, Papier)","sw":"kutoka Kilatini papyrus (papier, papel, Papier)"},
@@ -1058,5 +1064,11 @@ WORDS.paper = {
     ohu: ["papiros", "pɒpiroʃ"],
     orv: ["харатиꙗ", "xaratija"],  // There was no paper yet in early Rus'; харатья was the parchment the Primary Chronicle's treaties with Byzantium were written on.
     sga: ["cairt", "karʲtʲ"],  // There was no paper in early Ireland; cairt was the parchment people wrote on.
+    dag: ["takada", "takada"],  // Through Hausa takarda, from Latin charta.
+    dnj: ["sʌ́ʌdhɛ̋", "sʌ́ːɗɛ̋"],  // From Manding sɛ́bɛ́ 'paper' with dhɛ̋ 'leaf'.
+    ig: ["akwụkwọ", "akʷʊkʷɔ"],
+    kpe: ["kɔlɔ", "kɔlɔ"],
+    maw: ["takada", "takada"],  // Through Hausa takarda, from Latin charta.
+    sus: ["kɛɛdi", "kɛːdi"],
   },
 };

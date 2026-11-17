@@ -1208,5 +1208,6 @@ WORDS.nose = {
     bqi: ["نفت", "noft"],
     jpr: ["ביני", "biːniː"],
     gha: ["tənzār", "tənˈzar"],  // Plural of tənzart; Lanfry notes the plural is what is used for 'nose'.
+    spp: ["múnaani", "múnaːni"],
   },
 };

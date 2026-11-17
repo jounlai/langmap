@@ -976,5 +976,6 @@ WORDS.wheel = {
     ybe: ["kulu", "kulu"],  // Borrowed from Chinese 轱辘.
     mui: ["roda", "roda"],
     kxv: ["sagaḍa billa", "saɡaɖa billa"],
+    maw: ["gbari", "ɡbari"],  // The same word means 'leg'.
   }
 };

@@ -567,6 +567,11 @@ WORDS.sunday = {
     snk: "count",
     mga: "lord",
     ohu: "market",
+    dag: "count",
+    izz: "sun",
+    kpe: "sun",
+    maw: "count",
+    tem: "count",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -1074,5 +1079,10 @@ WORDS.sunday = {
     snk: ["alahadi", "alahadi"],
     mga: ["domnach", "ˈdovnəx"],
     ohu: ["vasárnap", "vɒʃaːrnɒp"],
+    dag: ["Alahari", "alahari"],  // From Arabic al-aḥad 'the first (day)', like Hausa Lahadi.
+    izz: ["Sonde", "sonde"],
+    kpe: ["Sɔnè", "sɔnè"],
+    maw: ["Alahari", "alahari"],  // From Arabic al-aḥad 'the first (day)', like Hausa Lahadi.
+    tem: ["alathi", "alat̪i"],  // From Arabic al-aḥad 'the first (day)'; the same list as Monday athɛnɛ.
   },
 };

@@ -450,6 +450,13 @@ WORDS.chili = {
     mga: "pepper",
     orv: "pepper",
     osp: "spice",
+    ak: "plain",
+    dag: "plain",
+    dnj: "plain",
+    ee: "plain",
+    ig: "plain",
+    kpe: "plain",
+    maw: "plain",
   },
   routes: {
     chilli: {"color":"#dc2626","emoji":"🌶️","en":"Nahuatl chīlli (chile, chili, sili)","ja":"ナワトル語 chīlli（chile, chili, sili）","ko":"나우아틀어 chīlli (chile, chili, sili)","zh":"纳瓦特尔语 chīlli（chile、chili、sili）","yue":"納瓦特爾語 chīlli（chile、chili、sili）","vi":"tiếng Nahuatl chīlli (chile, chili, sili)","th":"นาวาตล์ chīlli (chile, chili, sili)","id":"Nahuatl chīlli (chile, chili, sili)","hi":"नाहुआत्ल chīlli (chile, chili, sili)","de":"Nahuatl chīlli (chile, Chili, sili)","fr":"le nahuatl chīlli (chile, chili, sili)","it":"il nahuatl chīlli (chile, chili, sili)","es":"el náhuatl chīlli (chile, chili, sili)","pt":"o náuatle chīlli (chile, chili, sili)","ru":"науатль chīlli (chile, chili, sili)","uk":"науатль chīlli (chile, chili, sili)","ar":"الناواتل chīlli (chile, chili, sili)","he":"הנאוואטל chīlli (chile, chili, sili)","sw":"Kinahuatl chīlli (chile, chili, sili)"},
@@ -838,5 +845,12 @@ WORDS.chili = {
     mga: ["pipur", "ˈpʲibur"],  // There were no chili peppers; pipur is the black pepper that brought heat to medieval Irish food.
     orv: ["пьпьрь", "pĭpĭrĭ"],  // Chili had not reached Europe; пьпьрь is the black pepper imported from India.
     osp: ["pimienta", "piˈmjenta"],  // There were no chili peppers yet; pimienta was the black pepper that gave food its bite.
+    ak: ["mako", "mako"],
+    dag: ["naanzua", "naːnzua"],  // No image is recorded for it, so it counts as a word of its own.
+    dnj: ["slʌ̏ʌ", "slʌ̏ː"],
+    ee: ["atadi", "atadi"],
+    ig: ["ose", "ose"],
+    kpe: ["kiyɛ̂ŋ", "kijɛ̂ŋ"],
+    maw: ["naanzuuwa", "naːnzuːwa"],  // No image is recorded for it, so it counts as a word of its own.
   },
 };

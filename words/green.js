@@ -1085,5 +1085,6 @@ WORDS.green = {
     osn: ["hejo", "hedʒo"],
     jpr: ["סבז", "sæbz"],
     qxq: ["yaşıl", "jɑˈʃɯl"],
+    dag: ["baŋkom", "baŋkom"],
   }
 };

@@ -606,6 +606,16 @@ WORDS.spider = {
     pwo: "plain",
     unr: "plain",
     akk: "plain",
+    ain: "spin",
+    bxr: "plain",
+    cjs: "other",
+    ckt: "plain",
+    ja_oki: "plain",
+    kca: "plain",
+    ko_jeju: "plain",
+    koy: "plain",
+    orh: "plain",
+    ykg: "plain",
   },
   routes: {
     spin: {"color":"#059669","emoji":"🧶","en":"a spinner (Spinne, spider, örümcek)","ja":"「紡ぐもの」 (Spinne, spider, örümcek)","ko":"'잣는 것' (Spinne, spider, örümcek)","zh":"“纺丝者” (Spinne, spider, örümcek)","yue":"「紡絲嘅」 (Spinne, spider, örümcek)","vi":"\"kẻ kéo tơ\" (Spinne, spider, örümcek)","th":"\"ผู้ปั่นด้าย\" (Spinne, spider, örümcek)","id":"\"pemintal\" (Spinne, spider, örümcek)","hi":"\"कातने वाला\" (Spinne, spider, örümcek)","de":"„Spinner“ (Spinne, spider, örümcek)","fr":"« fileur » (Spinne, spider, örümcek)","it":"«filatore» (Spinne, spider, örümcek)","es":"«hilandero» (Spinne, spider, örümcek)","pt":"«fiandeiro» (Spinne, spider, örümcek)","ru":"«прядильщик» (Spinne, spider, örümcek)","uk":"«прядильник» (Spinne, spider, örümcek)","ar":"«الغازل» (Spinne, spider, örümcek)","he":"\"הטווה\" (Spinne, spider, örümcek)","sw":"\"msokotaji\" (Spinne, spider, örümcek)"},
@@ -1152,5 +1162,15 @@ WORDS.spider = {
     pwo: ["ခၩ့", "kʰaɴ"],
     unr: ["bindram", "bindram"],
     akk: ["𒀉𒌅𒌅", "ettuːtu"],
+    ain: ["ヤオㇱケㇷ゚", "jaoskep"],  // Literally 'the one that knits nets'.
+    bxr: ["абаахай", "abaːxaj"],
+    cjs: ["қорбалчық", "qorbaltʃɯq"],
+    ckt: ["апаапагԓыӈын", "apaːpaɣɬəŋən"],  // No image is recorded for it, so it counts as a word of its own.
+    ja_oki: ["くーばー", "kuːbaː"],
+    kca: ["ныпсар ими", "nɪpsar imi"],
+    ko_jeju: ["거여미", "kʌjʌmi"],
+    koy: ["taahoodzoy", "taːhoːtsoj"],
+    orh: ["ataakɛɛ", "ataakɛɛ"],
+    ykg: ["сисхай көдьэ", "sisxaj kødʲe"],
   },
 };

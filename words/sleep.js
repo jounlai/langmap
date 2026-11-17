@@ -1228,5 +1228,6 @@ WORDS.sleep = {
     vi_mid: ["ngủ", "ŋu˧˩˧"],
     tji: ["nie", "ȵie˧˥"],
     kho: ["𑀳𑀽𑀲𑁆", "huːs"],
+    koy: ["biłniltinh", "biɬniltinh"],
   },
 };

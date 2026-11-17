@@ -715,6 +715,18 @@ WORDS.language = {
     gez: "tongue",
     ave: "tongue",
     xpr: "tongue",
+    ckt: "tongue",
+    eve: "speech",
+    itl: "speech",
+    ja_mvi: "mouth",
+    ja_oki: "speech",
+    ja_rys: "speech",
+    jam: "tongue",
+    ket: "plain",
+    ko_jeju: "speech",
+    koy: "plain",
+    kpy: "tongue",
+    orh: "plain",
   },
   routes: {
     tongue: {"color":"#dc2626","emoji":"👅","en":"the tongue (langue, язык, dil)","ja":"舌（langue, язык, dil）","ko":"혀 (langue, язык, dil)","zh":"舌头（langue、язык、dil）","yue":"脷（langue、язык、dil）","vi":"cái lưỡi (langue, язык, dil)","th":"ลิ้น (langue, язык, dil)","id":"lidah (langue, язык, dil)","hi":"जीभ (langue, язык, dil)","de":"die Zunge (langue, язык, dil)","fr":"l'organe, la langue (langue, язык, dil)","it":"l'organo, la lingua (langue, язык, dil)","es":"el órgano, la lengua (langue, язык, dil)","pt":"o órgão, a língua (langue, язык, dil)","ru":"орган язык (langue, язык, dil)","uk":"орган язик (langue, язык, dil)","ar":"اللسان (langue, язык, dil)","he":"הלשון (langue, язык, dil)","sw":"ulimi (langue, язык, dil)"},
@@ -1368,5 +1380,17 @@ WORDS.language = {
     gez: ["ልሳን", "ləsaːn"],
     ave: ["𐬵𐬌𐬰𐬎𐬎𐬁", "hizvaː"],
     xpr: ["ʾzbʾn", "izβaːn"],
+    ckt: ["йиԓыйиԓ", "jiɬəjiɬ"],  // The same word as tongue.
+    eve: ["төрэн", "tørən"],  // The same word means 'word, speech'.
+    itl: ["крвэӆхатас", "krβeɬxatas"],
+    ja_mvi: ["口", "futsɨ"],
+    ja_oki: ["言葉", "kutuba"],
+    ja_rys: ["物言", "muni"],
+    jam: ["langwij", "laŋwɪdʒ"],
+    ket: ["ӄаʼ", "qaʔ"],
+    ko_jeju: ["말", "mal"],
+    koy: ["kkanaak", "kːanaːk"],
+    kpy: ["йилыйил", "jiləjil"],  // The same word as tongue.
+    orh: ["ulgur", "ulɡur"],
   },
 };

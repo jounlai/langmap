@@ -733,5 +733,6 @@ WORDS.computer = {
     la_late: ["calculator", "kalkoˈlator"],
     prk: ["jāg ndoung", "tɕa̤k doŋ"],
     wbm: ["cag dong", "tɕak doŋ"],
+    mns: ["ищхепыӈ ут", "iɕχepɪŋ ut"],
   },
 };

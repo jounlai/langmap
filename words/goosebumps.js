@@ -250,6 +250,7 @@ WORDS.goosebumps = {
     pt_mo: "bird",
     pam: "plain",
     ar_qur: "plain",
+    ko_jeju: "plain",
   },
   family2: {
     ko: "bird",
@@ -448,5 +449,6 @@ WORDS.goosebumps = {
     pt_mo: ["pele de galinha", "ˈpɛlɨ ðɨ ɣɐˈliɲɐ"],
     pam: ["kaligkig", "kaliɡkiɡ"],
     ar_qur: ["قشعريرة", "quʃaʕriːra"],
+    ko_jeju: ["소름", "soɾɯm"],
   },
 };

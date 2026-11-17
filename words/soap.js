@@ -433,6 +433,10 @@ WORDS.soap = {
     sux: "plain",
     fa_clas: "sabun",
     hy_grab: "plain",
+    ja_oki: "sabao",
+    ko_jeju: "sabao",
+    mns: "plain",
+    orh: "wash",
   },
   routes: {
     sapo: {"color":"#2563eb","emoji":"🏛️","en":"Latin sapo","ja":"ラテン語 sapo","ko":"라틴어 sapo","zh":"拉丁语 sapo","yue":"拉丁語 sapo","vi":"tiếng Latinh sapo","th":"ละติน sapo","id":"Latin sapo","hi":"लैटिन sapo","de":"lateinisch sapo","fr":"le latin sapo","it":"il latino sapo","es":"el latín sapo","pt":"o latim sapo","ru":"латинское sapo","uk":"латинське sapo","ar":"اللاتينية sapo","he":"הלטינית sapo","sw":"Kilatini sapo"},
@@ -807,5 +811,9 @@ WORDS.soap = {
     sux: ["𒉀", "naɡa"],  // There was no soap as we know it; Sumerians washed with naga, the ash of an alkaline plant.
     fa_clas: ["صابون", "saːbuːn"],
     hy_grab: ["աճառ", "atʃar"],
+    ja_oki: ["サフン", "saɸuɴ"],
+    ko_jeju: ["싸분", "s͈abun"],
+    mns: ["мо̄йтак", "ˈmoːjtak"],
+    orh: ["ʃilkiŋki", "ʃilkiŋki"],
   },
 };

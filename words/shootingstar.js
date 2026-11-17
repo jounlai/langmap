@@ -346,6 +346,8 @@ WORDS.shootingstar = {
     si: "falling",
     he_mis: "other",
     fa_clas: "plain",
+    ain: "other",
+    ko_jeju: "plain",
   },
   routes: {
     falling: {"color":"#2563eb","emoji":"⬇️","en":"a falling star","ja":"落ちる星","ko":"떨어지는 별","zh":"落下的星","yue":"跌落嘅星","vi":"sao rơi","th":"ดาวที่ตก","id":"bintang jatuh","hi":"गिरता तारा","de":"fallender Stern","fr":"étoile qui tombe","it":"stella che cade","es":"estrella que cae","pt":"estrela que cai","ru":"падающая звезда","uk":"зірка, що падає","ar":"نجم يسقط","he":"כוכב שנופל","sw":"nyota inayoanguka"},
@@ -637,5 +639,7 @@ WORDS.shootingstar = {
     si: ["උල්කාපාතය", "ulkaːpaːtəjə"],
     he_mis: ["זיק", "zeq"],  // The Mishnah names zīqīn, 'sparks', beside earthquakes and thunder as sights that call for a blessing.
     fa_clas: ["شهاب", "ʃahaːb"],
+    ain: ["マッコイワㇰノチウ", "matkoiwaknotɕiw"],  // Literally 'star that goes courting a wife'.
+    ko_jeju: ["벨장게", "peʎdʑaŋɡe"],
   },
 };

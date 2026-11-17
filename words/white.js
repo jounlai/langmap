@@ -1225,5 +1225,6 @@ WORDS.white = {
     la_late: ["albus", "ˈalβos"],
     egy_dem: ["wbḫ", "uoːbʃ"],
     vi_mid: ["tláng", "tlaŋ˧˥"],
+    ja_mvi: ["白", "sːu"],
   },
 };

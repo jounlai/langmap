@@ -593,6 +593,16 @@ WORDS.yellow = {
     hy_grab: "plain",
     kho: "ghel",
     sog: "ghel",
+    ckt: "plain",
+    dta: "sari",
+    itl: "ghel",
+    kca: "plain",
+    ko_jeju: "plain",
+    kos: "plain",
+    mns: "other",
+    nio: "plain",
+    sel: "plain",
+    ykg: "plain",
   },
   routes: {
     turmeric: {"color":"#d97706","emoji":"🫚","en":"turmeric","ja":"ウコン","ko":"강황","zh":"姜黄","yue":"黃薑","vi":"nghệ","th":"ขมิ้น","id":"kunyit","hi":"हल्दी","de":"Kurkuma","fr":"le curcuma","it":"la curcuma","es":"la cúrcuma","pt":"a curcuma","ru":"куркума","uk":"куркума","ar":"الكركم","he":"כורכום","sw":"manjano"},
@@ -1125,5 +1135,15 @@ WORDS.yellow = {
     hy_grab: ["դեղին", "deɫin"],
     kho: ["𑀬𑁆𑀲𑀻𑀤𑀅", "ziːdaa"],
     sog: ["zyrtʾk", "zeːrteː"],
+    ckt: ["черъыпэраԓьын", "tɕeɹʔəpeɹaɬʔən"],  // No image is recorded for it, so it counts as a word of its own.
+    dta: ["šara", "ʃara"],
+    itl: ["жолтой", "ʒoltoj"],  // Borrowed from Russian жёлтый.
+    kca: ["вусьлам", "wusʲˈlam"],
+    ko_jeju: ["노랑ᄒᆞ다", "noɾaŋhʌda"],
+    kos: ["rangrang", "raŋraŋ"],
+    mns: ["восьрамхарп", "ˈwosʲramχarp"],
+    nio: ["тодякуо", "todʲɐkʷo"],
+    sel: ["патый", "patɨj"],  // also "green"
+    ykg: ["ньоринэй", "nʲorinej"],
   },
 };

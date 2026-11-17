@@ -490,6 +490,14 @@ WORDS.week = {
     pal: "seven",
     sog: "seven",
     txb: "seven",
+    ckt: "sunday",
+    itl: "sunday",
+    jam: "turn",
+    ket: "sunday",
+    nio: "seven",
+    niv: "sunday",
+    sel: "sunday",
+    ykg: "sunday",
   },
   routes: {
     seven: {"color":"#2563eb","emoji":"7️⃣","en":"the number seven","ja":"数の七","ko":"일곱이라는 수","zh":"数字七","yue":"數字七","vi":"con số bảy","th":"เลขเจ็ด","id":"angka tujuh","hi":"सात की संख्या","de":"die Zahl Sieben","fr":"le nombre sept","it":"il numero sette","es":"el número siete","pt":"o número sete","ru":"число семь","uk":"число сім","ar":"العدد سبعة","he":"המספר שבע","sw":"namba saba"},
@@ -921,5 +929,13 @@ WORDS.week = {
     pal: ["𐭧𐭯𐭲𐭪", "haftaɡ"],
     sog: ["ʾβtmyδ", "aβdmeːθ"],
     txb: ["𑀱𑀼𑀓𑁆𑀓𑁅𑀁", "ʂukkau̯m"],
+    ckt: ["неделя", "nʲedʲeɬa"],
+    itl: ["нэдэљаʼ", "nedelʲaʔ"],  // Borrowed from Russian неделя.
+    jam: ["wiik", "wiːk"],
+    ket: ["нээля", "nɛːʎa"],  // Borrowed from Russian неделя.
+    nio: ["сяйбә дялы", "sʲɐjbə dʲɐlɨ"],  // “Seven days”.
+    niv: ["неделя", "niedieljæ"],  // Borrowed from Russian неделя.
+    sel: ["неделя", "ɲedʲeʎa"],
+    ykg: ["нидиэлиэ", "nideːleː"],  // From Russian неделя.
   },
 };

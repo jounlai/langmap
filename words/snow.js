@@ -1015,5 +1015,6 @@ WORDS.snow = {
     la_late: ["nix", "neks"],
     vi_mid: ["thuyết", "tʰwiət˧˥"],
     kxm: ["ព្រិល", "prɨl"],
+    ja_mvi: ["雪", "jutsɨ"],
   }
 };

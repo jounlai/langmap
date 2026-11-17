@@ -693,6 +693,8 @@ WORDS.snake = {
     zh_xa: "plain",
     zh_zz: "other",
     en_nz: "crawl",
+    el_koi: "plain",
+    la_late: "crawl",
   },
   routes: {
     crawl: {"color":"#059669","emoji":"🐾","en":"a \"crawler\" (serpent, सर्प, yılan, snake)","ja":"「這うもの」 (serpent, सर्प, yılan, snake)","ko":"'기는 것' (serpent, सर्प, yılan, snake)","zh":"“爬行者” (serpent, सर्प, yılan, snake)","yue":"「爬嘅嘢」 (serpent, सर्प, yılan, snake)","vi":"\"kẻ bò\" (serpent, सर्प, yılan, snake)","th":"\"ตัวที่เลื้อย\" (serpent, सर्प, yılan, snake)","id":"\"si perayap\" (serpent, सर्प, yılan, snake)","hi":"\"रेंगने वाला\" (serpent, सर्प, yılan, snake)","de":"„der Kriechende“ (serpent, सर्प, yılan, snake)","fr":"« celui qui rampe » (serpent, सर्प, yılan, snake)","it":"«quello che striscia» (serpent, सर्प, yılan, snake)","es":"«el que se arrastra» (serpent, सर्प, yılan, snake)","pt":"«o que rasteja» (serpent, सर्प, yılan, snake)","ru":"«ползущий» (serpent, सर्प, yılan, snake)","uk":"«повзучий» (serpent, सर्प, yılan, snake)","ar":"«الزاحف» (serpent, सर्प, yılan, snake)","he":"\"הזוחל\" (serpent, सर्प, yılan, snake)","sw":"\"mtambaaji\" (serpent, सर्प, yılan, snake)"},
@@ -1325,5 +1327,7 @@ WORDS.snake = {
     zh_xa: ["蛇", "ʂɤ˨˦"],  // 蛇, the Chinese word for the snake. Word from Wiktionary's dialect table for Xi'an; reading from MCPDict 西安.
     zh_zz: ["长虫", "tʂʰaŋ˦˨ tʂʰuŋ˦˨"],  // Literally 'long creature'; 虫 is any small creature, worm or insect. Word from Wiktionary's dialect table for Zhengzhou; reading from MCPDict 開封 (no Zhengzhou table).
     en_nz: ["snake", "snæek"],  // Same word as standard English; IPA with the row's FACE vowel æe (rain ɹæen, name næem).
+    el_koi: ["ὄφις", "ˈopʰis"],
+    la_late: ["serpens", "ˈsɛrpens"],
   },
 };

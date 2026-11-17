@@ -816,6 +816,8 @@ WORDS.rainbow = {
     afb: "bow",
     blc: "other",
     kky: "serpent",
+    el_koi: "plain",
+    la_late: "bow",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1575,5 +1577,7 @@ WORDS.rainbow = {
     afb: ["قز قزح", "qʊz qʊzəħ"],  // A semi-learned borrowing from Arabic qaws quzaḥ, 'the bow of Quzah'.
     blc: ["sʔilʔilayc", "sʔilʔilajç"],  // Built from il 'to go past or around', doubled, and -layc 'projection'.
     kky: ["yirmbal", "jirmbal"],  // The same word names a supernatural serpent.
+    el_koi: ["ἶρις", "ˈiris"],
+    la_late: ["arcus", "ˈarkos"],
   },
 };

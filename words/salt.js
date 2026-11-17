@@ -1283,5 +1283,7 @@ WORDS.salt = {
     adt: ["irkili", "iɹkili"],  // Adnyamathanha irkili 'salt'.
     wbt: ["jurlu", "ɟuɭu"],  // Warnman jurlu 'salt'.
     nio: ["сыр", "sɨr"],  // From Proto-Samoyedic *sër; the same word means ice.
+    el_koi: ["ἅλας", "ˈalas"],
+    la_late: ["sal", "sal"],
   },
 };

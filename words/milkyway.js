@@ -398,6 +398,8 @@ WORDS.milkyway = {
     ko_yb: "river",
     ko_hg: "river",
     ko_jl: "river",
+    el_koi: "milk",
+    la_late: "milk",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -739,5 +741,7 @@ WORDS.milkyway = {
     ko_yb: ["은하수", "ɯnhasu"],  // Sino-Korean 銀河水 'silver river water', the national word.
     ko_hg: ["은하수", "ɯnhasu"],  // Sino-Korean 銀河水 'silver river water', the national word.
     ko_jl: ["은하수", "ɯnhasu"],  // Sino-Korean 銀河水 'silver river water', the national word.
+    el_koi: ["γαλαξίας", "ɡalakˈsias"],
+    la_late: ["lacteus circulus", "ˈlaktjos ˈkʲerkolos"],
   },
 };

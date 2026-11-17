@@ -978,6 +978,8 @@ WORDS.bear = {
     juc: "inherited",
     omx: "inherited",
     ty: "loan",
+    el_koi: "inherited",
+    la_late: "inherited",
   },
   routes: {
     inherited: { color: "#0d9f6e", emoji: "🐻", en: "the old word, kept", ja: "古い語のまま", ko: "옛말 그대로", zh: "沿用固有词", yue: "沿用固有詞", vi: "giữ từ cũ", th: "ยังใช้คำเดิม", id: "kata lama, tetap", hi: "पुराना शब्द, बरकरार", de: "das alte Wort, behalten", fr: "le mot ancien, gardé", it: "la parola antica, mantenuta", es: "la palabra antigua, conservada", pt: "a palavra antiga, mantida", ru: "старое слово, сохранено", uk: "давнє слово, збережене", ar: "الكلمة القديمة، محفوظة", he: "המילה הישנה, נשמרה", sw: "neno la zamani, limebaki" },
@@ -1990,5 +1992,7 @@ WORDS.bear = {
     juc: ["lefu", "ləfu"],  // no. 145 Bär, le-fu, m. lefu. Grube 1896 glossary (Sino-Jurchen vocabulary, Chinese transcription); OCR is rough. Latin surface normalised by me after the row; low to medium.
     omx: ["ကၟဳ", "kmøm"],  // Shorto 1971 (Dictionary of the Mon Inscriptions) kmīm, 'bear', phonemic form as SEAlang prints it, respelled in the row's symbols. Surface copied from the mnw cell, as the row uses modern spelling.
     ty: ["pea", "pea"],  // Borrowed from English bear.
+    el_koi: ["ἄρκος", "ˈarkos"],
+    la_late: ["ursus", "ˈorsos"],
   },
 };

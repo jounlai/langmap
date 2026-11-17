@@ -1220,5 +1220,7 @@ WORDS.five = {
     siz: ["xamsa", "χamsa"],  // Borrowed from Arabic.
     zh_jiao: ["五", "vu˥˥"],
     xpg: ["pinke", "ˈpinke"],  // From Proto-Indo-European *pénkʷe.
+    el_koi: ["πέντε", "ˈpente"],
+    la_late: ["quinque", "ˈkʷinkʷe"],
   },
 };

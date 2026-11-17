@@ -1198,5 +1198,7 @@ WORDS.wind = {
     siz: ["əlăhawa", "əlăɦawa"],  // Borrowed from Arabic hawāʾ 'air'.
     zh_jiao: ["风", "fəŋ˨˩˧"],
     osa: ["htaacé", "htaːtsé"],
+    el_koi: ["ἄνεμος", "ˈanemos"],
+    la_late: ["ventus", "ˈβɛntos"],
   },
 };

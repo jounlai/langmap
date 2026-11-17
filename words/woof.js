@@ -301,5 +301,6 @@ WORDS.woof = {
     trv: ["gow", "ɡow"],  // Truku word glossed 狗叫聲（擬聲詞） 'sound of a dog'. The dictionary also lists qeyng with the same gloss.
     ja_chu: ["わんわん", "waɴwaɴ"],  // 虎明本狂言 犬山伏 (室町末-近世初) いぬ、わんわんといふて, as quoted in 日本国語大辞典.
     ja_edo: ["わんわん", "waɴwaɴ"],  // 浮世風呂 (1809-13) and a c.1700 quote, as in 日本国語大辞典.
+    el_koi: ["αὖ αὖ", "aw aw"],
   },
 };

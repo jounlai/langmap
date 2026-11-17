@@ -1262,5 +1262,7 @@ WORDS.sun = {
     auj: ["tafùt", "taˈfut"],  // It has lost the final k of the Berber word (Tuareg tə́fukk).
     siz: ["tfúkt", "tfukt"],
     zh_jiao: ["太阳", "tʰɛ˨˩˧ iaŋ˦˨"],  // Qingdao also says 日头 'sun-head'.
+    el_koi: ["ἥλιος", "ˈe̝lios"],
+    la_late: ["sol", "sol"],
   },
 };

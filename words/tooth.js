@@ -1288,5 +1288,7 @@ WORDS.tooth = {
     auj: ["asìn", "aˈsin"],
     siz: ["asén", "aˈsen"],
     zh_jiao: ["牙", "ia˦˨"],
+    el_koi: ["ὀδούς", "oˈdus"],
+    la_late: ["dens", "dens"],
   },
 };

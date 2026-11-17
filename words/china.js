@@ -533,6 +533,8 @@ WORDS.china = {
     tru: "cina",
     pdt: "cina",
     hni: "zhongguo",
+    el_koi: "cina",
+    la_late: "other",
   },
   family2: {
     bo: "zhongguo",
@@ -1012,5 +1014,7 @@ WORDS.china = {
     tru: ["ܨܝܢ", "sˤin"],  // Borrowed from Classical Syriac ܨܝܢ.
     pdt: ["Kjiena", "ˈkʲiːna"],  // Borrowed from German China.
     hni: ["Zaolgoq", "tsɔ˥˥ko˧˩"],  // Borrowed from Chinese 中國 Zhōngguó.
+    el_koi: ["Σῖναι", "ˈsinɛ"],
+    la_late: ["Serica", "ˈsereka"],
   },
 };

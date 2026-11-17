@@ -1264,5 +1264,7 @@ WORDS.hand = {
     auj: ["afùs", "aˈfus"],
     siz: ["fús", "fus"],  // In baby talk it is fafa (Laoust).
     zh_jiao: ["手", "ʃou˥˥"],
+    el_koi: ["χείρ", "kʰir"],
+    la_late: ["manus", "ˈmanos"],
   },
 };

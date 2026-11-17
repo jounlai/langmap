@@ -943,5 +943,7 @@ WORDS.butterfly = {
     khb: ["ᦂᦱᧇᦵᦢᦲᧉ", "kaːp˧˥ bɤː˩˧"],  // IDS 407 (Peiros, Tai Lü), the row's source: ka:p.9 bə:.3.  Tone numbers converted by the row's own pairs (1 ˥, 2 ˥˩, 3 ˩˧, 4 ˩, 5 ˧˥, 6 ˧, 7 ˧˥, 8 ˧, 9 ˧˥). New Tai Lue spelling is derived; the source is Latin.
     mrw: ["paroparo", "paroparo"],  // Page image p.364: "PAROPARO  BUTTERFLY"; also DANGKAG
     hop: ["masivie", "masivie"],  // No origin is recorded for it.
+    el_koi: ["ψυχή", "psyˈkʰe̝"],
+    la_late: ["papilio", "paˈpeljo"],
   },
 };

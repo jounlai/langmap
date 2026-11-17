@@ -729,5 +729,7 @@ WORDS.computer = {
     tsi: ["haʼlitʼmiism na̱xnox", "haʔlitʼmiːsm nʌxnox"],
     lkt: ["wóuŋspe omnáye", "wóũspe omnáje"],
     ady: ["компутер", "kʷomputer"],  // Borrowed through Russian компьютер, Turkish kompüter and Arabic كمبيوتر, ultimately from English computer; the coinage шӏэнгъэпс 'knowledge builder' is also used.
+    el_koi: ["ἄβαξ", "ˈabaks"],
+    la_late: ["calculator", "kalkoˈlator"],
   },
 };

@@ -1258,5 +1258,7 @@ WORDS.love = {
     gha: ["əb̆r", "əβr"],  // The verb means both "want" and "love".
     auj: ["aɣə́š", "aˈɣəʃ"],  // Cited as the imperative, as van Putten cites all verbs.
     siz: ["əxs", "əχs"],  // Also 'want'; Schiattarella's texts use the Arabic loan ħəbb for 'love each other'.
+    el_koi: ["ἀγάπη", "aˈɡape̝"],
+    la_late: ["amor", "ˈamor"],
   }
 };

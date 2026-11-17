@@ -1248,5 +1248,7 @@ WORDS.mouth = {
     osa: ["íhaa", "íhaː"],
     moh: ["óhsaʼ", "óhsaʔ"],  // The same word means lip.
     en_jam: ["mouth", "mɵʊt"],  // Same word as the parent row; IPA from the row's own cells (house hɵʊs, earth ɜːt, three tɹiː).
+    el_koi: ["στόμα", "ˈstoma"],
+    la_late: ["os", "os"],
   }
 };

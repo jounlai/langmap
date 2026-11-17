@@ -1165,5 +1165,7 @@ WORDS.mountain = {
     siz: ["adrár", "adˈrar"],  // Laoust notes Siwa has no high mountains; Souag says the adrar of Siwa are flat-topped hills.
     zh_jiao: ["山", "ʂã˨˩˧"],
     juc: ["alin", "alin"],  // Wiktionary Jurchen 'mountain'; Grube 1896 no. 39 has a-lin, m. alin.
+    el_koi: ["ὄρος", "ˈoros"],
+    la_late: ["mons", "mons"],
   }
 };

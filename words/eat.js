@@ -1258,5 +1258,7 @@ WORDS.eat = {
     auj: ["əčč", "ətʃː"],  // Cited as the imperative.
     siz: ["əʧʧ", "ətʃː"],  // The imperative, the form Berber dictionaries list.
     zh_jiao: ["吃", "tʃʰɿ˥˥"],
+    el_koi: ["ἐσθίειν", "esˈtʰiin"],
+    la_late: ["manducare", "manduˈkare"],
   }
 };

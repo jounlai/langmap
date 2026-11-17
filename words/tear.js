@@ -413,6 +413,8 @@ WORDS.tear = {
     en_geordie: "plain",
     zh_tw: "eye",
     pt_br: "plain",
+    el_koi: "plain",
+    la_late: "plain",
   },
   routes: {
     eyewater: {"color":"#0891b2","emoji":"💧","en":"eye + water (air mata, 눈물, nước mắt)","ja":"目＋水（air mata, 눈물, nước mắt）","ko":"눈 + 물 (air mata, 눈물, nước mắt)","zh":"眼＋水（air mata、눈물、nước mắt）","yue":"眼＋水（air mata、눈물、nước mắt）","vi":"mắt + nước (air mata, 눈물, nước mắt)","th":"ตา + น้ำ (air mata, 눈물, nước mắt)","id":"mata + air (air mata, 눈물, nước mắt)","hi":"आँख + पानी (air mata, 눈물, nước mắt)","de":"Auge + Wasser (air mata, 눈물, nước mắt)","fr":"œil + eau (air mata, 눈물, nước mắt)","it":"occhio + acqua (air mata, 눈물, nước mắt)","es":"ojo + agua (air mata, 눈물, nước mắt)","pt":"olho + água (air mata, 눈물, nước mắt)","ru":"глаз + вода (air mata, 눈물, nước mắt)","uk":"око + вода (air mata, 눈물, nước mắt)","ar":"عين + ماء (air mata, 눈물, nước mắt)","he":"עין + מים (air mata, 눈물, nước mắt)","sw":"jicho + maji (air mata, 눈물, nước mắt)"},
@@ -770,5 +772,7 @@ WORDS.tear = {
     en_geordie: ["tear", "tɪə"],  // Same word as standard English; IPA from the row's ear (ɪə).
     zh_tw: ["眼淚", "jɛn˧˩˧ leɪ̯˥˩"],  // Built on the word for eye (眼).
     pt_br: ["lágrima", "ˈlaɡɾimɐ"],
+    el_koi: ["δάκρυον", "ˈdakryon"],
+    la_late: ["lacrima", "ˈlakrema"],
   },
 };

@@ -1258,5 +1258,7 @@ WORDS.name = {
     gha: ["ism", "ism"],
     auj: ["—", "—"],
     siz: ["smijə́t", "smiˈjət"],  // Borrowed from Arabic.
+    el_koi: ["ὄνομα", "ˈonoma"],
+    la_late: ["nomen", "ˈnomen"],
   },
 };

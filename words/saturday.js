@@ -444,6 +444,8 @@ WORDS.saturday = {
     ja_sd: "saturn",
     pt_cv: "sabbath",
     pt_mo: "sabbath",
+    el_koi: "sabbath",
+    la_late: "sabbath",
   },
   routes: {
     saturn: {"color":"#7c3aed","emoji":"🪐","en":"Saturn's day","ja":"土星の日","ko":"토성의 날","zh":"土星之日","yue":"土星嘅日","vi":"ngày sao Thổ","th":"วันของดาวเสาร์","id":"hari Saturnus","hi":"शनि का दिन","de":"Saturns Tag","fr":"le jour de Saturne","it":"il giorno di Saturno","es":"el día de Saturno","pt":"o dia de Saturno","ru":"день Сатурна","uk":"день Сатурна","ar":"يوم زحل","he":"יום שבתאי","sw":"siku ya Zohali"},
@@ -830,5 +832,7 @@ WORDS.saturday = {
     ja_sd: ["土曜日", "dojoːbi"],  // The standard word, read as in Tokyo, like the row's 月曜日 ɡetsɯjoːbi.
     pt_cv: ["sábado", "ˈsabadu"],  // Same word as Portuguese.
     pt_mo: ["sábado", "ˈsaβaðu"],  // Same word as Portuguese, with the row's lenition between vowels.
+    el_koi: ["Σάββατον", "ˈsabbaton"],
+    la_late: ["sabbatum", "ˈsabbato"],
   },
 };

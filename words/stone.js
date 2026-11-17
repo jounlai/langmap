@@ -1211,5 +1211,7 @@ WORDS.stone = {
     siz: ["tɣoɣət", "tʁoʁət"],
     zh_jiao: ["石头", "ʃɿ˦˨ tʰou˦˨"],
     osa: ["į́į", "ĩ́ː"],
+    el_koi: ["λίθος", "ˈlitʰos"],
+    la_late: ["lapis", "ˈlapes"],
   },
 };

@@ -1265,5 +1265,7 @@ WORDS.red = {
     auj: ["zwàɣ", "zwaɣ"],
     siz: ["azəggaɣ", "azəɡːaʁ"],
     zh_jiao: ["红", "xəŋ˦˨"],
+    el_koi: ["ἐρυθρός", "eryˈtʰros"],
+    la_late: ["ruber", "ˈroβer"],
   },
 };

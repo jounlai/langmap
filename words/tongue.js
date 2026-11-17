@@ -1270,5 +1270,7 @@ WORDS.tongue = {
     auj: ["ìləs", "ˈiləs"],
     siz: ["ilə́s", "iˈləs"],
     zh_jiao: ["舌头", "ʃə˦˨ tʰou˦˨"],
+    el_koi: ["γλῶσσα", "ˈɡlossa"],
+    la_late: ["lingua", "ˈleŋɡʷa"],
   },
 };

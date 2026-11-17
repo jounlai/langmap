@@ -1221,5 +1221,7 @@ WORDS.ear = {
     auj: ["ìsəm", "ˈisəm"],  // Its only known Berber cognate is Ghadames ésəm (van Putten, after Bynon 1984).
     siz: ["taməzzuxt", "taməzːuχt"],
     osa: ["nąąhtą́", "nãːhtã́"],
+    el_koi: ["οὖς", "us"],
+    la_late: ["auricula", "au̯ˈrekola"],
   },
 };

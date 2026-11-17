@@ -1251,5 +1251,7 @@ WORDS.thanks = {
     gha: ["—", "—"],
     auj: ["—", "—"],
     siz: ["—", "—"],
+    el_koi: ["εὐχαριστῶ", "eʍkʰarisˈto"],
+    la_late: ["gratias", "ˈɡratsjas"],
   }
 };

@@ -1258,5 +1258,7 @@ WORDS.good = {
     auj: ["bàhi", "ˈbahi"],  // A stative verb ('it is good'), as Awjila adjectives often are; from Libyan Arabic bāhi.
     siz: ["kwajə́s", "kwaˈjəs"],  // Also 'beautiful'.
     zh_jiao: ["好", "xɔ˥˥"],
+    el_koi: ["ἀγαθόν", "aɡaˈtʰon"],
+    la_late: ["bonus", "ˈbɔnos"],
   },
 };

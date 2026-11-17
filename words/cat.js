@@ -1257,5 +1257,7 @@ WORDS.cat = {
     auj: ["aqəṭṭùš", "aqəˈtˤːuʃ"],  // The masculine form; ultimately from Latin cattus (van Putten).
     siz: ["jaṭṭós", "jaˈtˤːos"],  // Laoust, after G. S. Colin, traces it to Latin cattus.
     zh_jiao: ["猫", "mɔ˦˨"],
+    el_koi: ["αἴλουρος", "ˈɛluros"],
+    la_late: ["cattus", "ˈkattos"],
   }
 };

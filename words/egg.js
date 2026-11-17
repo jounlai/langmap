@@ -1182,5 +1182,7 @@ WORDS.egg = {
     auj: ["tisí", "tiˈsi"],
     siz: ["tabəṭaot", "tabətˤaot"],  // Basset took it for a reshaping of Arabic bayḍa (Laoust).
     zh_jiao: ["鸡蛋", "tɕi˨˩˧ tã˦˨"],
+    el_koi: ["ᾠόν", "oˈon"],
+    la_late: ["ovum", "ˈoβo"],
   },
 };

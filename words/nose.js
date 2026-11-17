@@ -1199,5 +1199,7 @@ WORDS.nose = {
     siz: ["tanzart", "tanzart"],
     zh_jiao: ["鼻子", "pi˦˨ tsɿ˥˥"],
     osa: ["hpá", "hpá"],
+    el_koi: ["ῥίς", "ris"],
+    la_late: ["nasus", "ˈnasos"],
   },
 };

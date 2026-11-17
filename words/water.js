@@ -1264,5 +1264,7 @@ WORDS.water = {
     auj: ["imìn", "iˈmin"],  // A plural noun, as across Berber; van Putten notes that imìn is unique to Awjila, where all other Berber languages have aman.
     siz: ["amán", "aˈman"],  // A plural noun, as across Berber.
     zh_jiao: ["水", "ʂue˥˥"],
+    el_koi: ["ὕδωρ", "ˈydor"],
+    la_late: ["aqua", "ˈakʷa"],
   },
 };

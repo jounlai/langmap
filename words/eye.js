@@ -1263,5 +1263,7 @@ WORDS.eye = {
     auj: ["tit", "tit"],  // Tears are imìn n əttiwìn, 'water of the eyes'.
     siz: ["təṭṭ", "tətˤː"],  // Also means 'spring (of water)'.
     zh_jiao: ["眼", "iã˥˥"],
+    el_koi: ["ὀφθαλμός", "opʰtʰalˈmos"],
+    la_late: ["oculus", "ˈɔkolos"],
   },
 };

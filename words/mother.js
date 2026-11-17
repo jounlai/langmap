@@ -1257,5 +1257,7 @@ WORDS.mother = {
     auj: ["mmá", "mːa"],  // A kinship noun that takes possessive suffixes (mmà-k 'your mother').
     siz: ["ə́ṃṃa", "ˈəmˤːa"],  // Kinship nouns always carry a possessor, so the bare word means 'my mother' (Schiattarella p. 146); Laoust wrote umma.
     zh_jiao: ["妈", "ma˨˩˧"],  // Qingdao also says 娘.
+    el_koi: ["μήτηρ", "ˈme̝te̝r"],
+    la_late: ["mater", "ˈmater"],
   },
 };

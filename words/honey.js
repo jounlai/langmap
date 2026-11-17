@@ -1173,5 +1173,7 @@ WORDS.honey = {
     siz: ["əlʕasəl", "əlʢasəl"],  // Borrowed from Arabic ʕasal, article and all.
     zh_jiao: ["蜂蜜", "fəŋ˨˩˧ mi˦˨"],
     abe: ["o'mwaimlases", "omwaimlases"],  // Laurent p.29: "O'mwaimlases. Honey."; next line "Mlases. Molasses."
+    el_koi: ["μέλι", "ˈmeli"],
+    la_late: ["mel", "mɛl"],
   },
 };

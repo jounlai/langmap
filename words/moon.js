@@ -1263,5 +1263,7 @@ WORDS.moon = {
     auj: ["təžə́r", "təˈʒər"],  // One of the few nouns with a lexical (unpredictable) accent; 'month' is a different word, ayùr.
     siz: ["taziri", "taziri"],  // Laoust also glosses it 'full moon, moonlight'.
     zh_jiao: ["月亮", "yə˦˨ liaŋ˦˨"],  // Neighbouring Jimo, Chengyang and Jiaozhou say 月明 instead.
+    el_koi: ["σελήνη", "seˈle̝ne̝"],
+    la_late: ["luna", "ˈluna"],
   },
 };

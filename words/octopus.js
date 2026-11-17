@@ -335,6 +335,8 @@ WORDS.octopus = {
     yur: "plain",
     dv: "plain",
     win: "plain",
+    el_koi: "many",
+    la_late: "many",
   },
   routes: {
     eight: {"color":"#2563eb","emoji":"8️⃣","en":"eight feet","ja":"8本の足","ko":"여덟 발","zh":"八条腿","yue":"八隻腳","vi":"tám chân","th":"แปดเท้า","id":"delapan kaki","hi":"आठ पैर","de":"acht Füße","fr":"huit pieds","it":"otto piedi","es":"ocho pies","pt":"oito pés","ru":"восемь ног","uk":"вісім ніг","ar":"ثماني أقدام","he":"שמונה רגליים","sw":"miguu minane"},
@@ -614,5 +616,7 @@ WORDS.octopus = {
     yur: ["paamew", "paːmew"],  // No image is recorded for it, so it counts as a word of its own.
     dv: ["ބޯވަ", "boːʋa"],  // No image is recorded for it, so it counts as a word of its own.
     win: ["hooʼarohą", "hoːʔaɾohã"],  // No image is recorded for it, so it counts as a word of its own.
+    el_koi: ["πολύπους", "poˈlypus"],
+    la_late: ["polypus", "ˈpolipos"],
   },
 };

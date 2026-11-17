@@ -215,5 +215,6 @@ WORDS.hangover = {
     ja_hir: ["二日酔い", "ɸɯtsɯkajoi"],  // Literally "two-day drunkenness". The national word, which Hiroshima speech uses as well.
     ko_bus: ["숙취", "suktɕʰwi"],  // Sino-Korean 宿醉, literally "overnight drunkenness". The national word, which Busan speech uses as well.
     ko_jl: ["숙취", "suktɕʰwi"],  // Sino-Korean 宿醉, literally "overnight drunkenness". The national word, which Jeolla speech uses as well.
+    el_koi: ["κραιπάλη", "krɛˈpale̝"],
   },
 };

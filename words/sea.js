@@ -1121,5 +1121,7 @@ WORDS.sea = {
     osa: ["níi htą́ka", "níː htã́ka"],  // Also the Mississippi River.
     ii: ["ꎿ", "ʂu̠˧˧"],  // Sun 1991 (Xide Yi) ʂu̱³³. Yi syllables chosen by me from Unicode names, using the sound-to-syllable pairs in the row (m̩ = MU, he = HXIE, 44 = X, 21 = P); no Yi-script source. Check font and spelling.
     xag: ["cʼa", "tsʼa"],  // Possibly from Old Armenian ծով 'sea'; it also means lake.
+    el_koi: ["θάλασσα", "ˈtʰalassa"],
+    la_late: ["mare", "ˈmare"],
   }
 };

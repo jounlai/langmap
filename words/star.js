@@ -1251,5 +1251,7 @@ WORDS.star = {
     auj: ["—", "—"],
     siz: ["iri", "iri"],
     zh_jiao: ["星星", "siəŋ˨˩˧ siəŋ˨˩˧"],  // Qingdao also says plain 星.
+    el_koi: ["ἀστήρ", "asˈte̝r"],
+    la_late: ["stella", "ˈstella"],
   },
 };

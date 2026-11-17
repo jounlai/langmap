@@ -1269,5 +1269,7 @@ WORDS.one = {
     auj: ["iwínan", "iˈwinan"],  // Masculine (feminine iwátan); the variants iwinàn and iwìn are also recorded.
     siz: ["ə́ʤʤən", "ˈədʒːən"],  // Masculine; the feminine is ə́ʤʤət. Arabic waḥəd competes with it in counting.
     zh_jiao: ["一", "i˥˥"],
+    el_koi: ["εἷς", "is"],
+    la_late: ["unus", "ˈunos"],
   },
 };

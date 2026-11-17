@@ -915,5 +915,7 @@ WORDS.rice = {
     omx: ["သ္ၚု", "sŋɯʔ"],  // Shorto 1971 (Dictionary of the Mon Inscriptions) sṅo', 'husked rice', phonemic form as SEAlang prints it, respelled in the row's symbols. Surface copied from the mnw cell, as the row uses modern spelling.
     ko_gor: ["菩薩", "*pʌsʌl"],  // 鷄林類事 (1103) 白米曰漢菩薩, 粟曰田菩薩; Wiktionary 쌀. Second element is the rice word, so 漢 'white' dropped. IPA fitted to the row.
     aoz: ["ane", "ane"],  // No origin is recorded for it.
+    el_koi: ["ὄρυζα", "ˈoryza"],
+    la_late: ["oryza", "oˈridza"],
   }
 };

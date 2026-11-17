@@ -498,6 +498,8 @@ WORDS.friday = {
     vi_s: "count",
     ja_kg: "venus",
     ja_sd: "venus",
+    el_koi: "preparation",
+    la_late: "venus",
   },
   routes: {
     goddess: {"color":"#db2777","emoji":"👸","en":"the day of Frigg (Friday, Freitag, fredag)","ja":"女神フリッグの日（Friday, Freitag, fredag）","ko":"여신 프리그의 날 (Friday, Freitag, fredag)","zh":"女神弗丽嘉之日（Friday、Freitag、fredag）","yue":"女神弗麗嘉嘅日（Friday、Freitag、fredag）","vi":"ngày của nữ thần Frigg (Friday, Freitag, fredag)","th":"วันของเทพีฟริกก์ (Friday, Freitag, fredag)","id":"hari Dewi Frigg (Friday, Freitag, fredag)","hi":"देवी फ़्रिग का दिन (Friday, Freitag, fredag)","de":"Tag der Frigg (Friday, Freitag, fredag)","fr":"jour de Frigg (Friday, Freitag, fredag)","it":"giorno di Frigg (Friday, Freitag, fredag)","es":"día de Frigg (Friday, Freitag, fredag)","pt":"dia de Frigg (Friday, Freitag, fredag)","ru":"день Фригг (Friday, Freitag, fredag)","uk":"день Фріґґ (Friday, Freitag, fredag)","ar":"يوم فريغ (Friday, Freitag, fredag)","he":"יומה של פריג (Friday, Freitag, fredag)","sw":"siku ya Frigg (Friday, Freitag, fredag)"},
@@ -935,5 +937,7 @@ WORDS.friday = {
     vi_s: ["thứ sáu", "tʰɨ˧˥ ʂaːw˧˥"],  // thứ + sáu 'six', as in standard Vietnamese.
     ja_kg: ["金曜日", "kiɴjoːbi"],  // The standard Japanese word, used in Kagoshima as everywhere in Japan.
     ja_sd: ["金曜日", "kiɴjoːbi"],  // The standard Japanese word, used in Sendai as everywhere in Japan.
+    el_koi: ["Παρασκευή", "paraskeˈwe̝"],
+    la_late: ["dies Veneris", "ˈdies ˈβɛneres"],
   },
 };

@@ -1270,5 +1270,7 @@ WORDS.dog = {
     auj: ["gzìn", "ɡzin"],  // In Ghadames and Nafusi the cognate means 'puppy'.
     siz: ["agʷəṛzní", "aɡʷərˤzˈni"],
     zh_jiao: ["狗", "kou˥˥"],
+    el_koi: ["κύων", "ˈkyon"],
+    la_late: ["canis", "ˈkanes"],
   },
 };

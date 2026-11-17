@@ -568,5 +568,7 @@ WORDS.cuckoo = {
     ess: ["ӄау̌агым атӽа", "qaǔaɡɨm atχa"],  // NorthEuraLex Central Siberian Yupik, the list this row matches.
     new: ["कुलांझंगः", "kulãːdʑʱə̃ːɡəː"],  // The second part is झंगः, the row's word for bird.
     pqm: ["petolanuhket", "petolanuhket"],  // The source gives no etymology.
+    el_koi: ["κόκκυξ", "ˈkokkyks"],
+    la_late: ["cuculus", "koˈkulos"],
   },
 };

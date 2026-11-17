@@ -1265,5 +1265,7 @@ WORDS.three = {
     auj: ["tlàta", "ˈtlata"],  // From Arabic.
     siz: ["tláta", "ˈtlata"],  // Borrowed from Arabic, like every Siwi numeral above two.
     zh_jiao: ["三", "sã˨˩˧"],
+    el_koi: ["τρεῖς", "tris"],
+    la_late: ["tres", "tres"],
   },
 };

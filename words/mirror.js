@@ -492,6 +492,8 @@ WORDS.mirror = {
     en_nz: "mirari",
     en_ng: "mirari",
     en_geordie: "mirari",
+    el_koi: "look",
+    la_late: "speculum",
   },
   routes: {
     speculum: {"color":"#2563eb","emoji":"🏛️","en":"from Latin speculum (espejo, Spiegel)","ja":"ラテン語 speculum から (espejo, Spiegel)","ko":"라틴어 speculum에서 (espejo, Spiegel)","zh":"来自拉丁语 speculum (espejo, Spiegel)","yue":"嚟自拉丁語 speculum (espejo, Spiegel)","vi":"từ tiếng Latinh speculum (espejo, Spiegel)","th":"จากภาษาละติน speculum (espejo, Spiegel)","id":"dari speculum Latin (espejo, Spiegel)","hi":"लैटिन speculum से (espejo, Spiegel)","de":"aus lateinisch speculum (espejo, Spiegel)","fr":"du latin speculum (espejo, Spiegel)","it":"dal latino speculum (espejo, Spiegel)","es":"del latín speculum (espejo, Spiegel)","pt":"do latim speculum (espejo, Spiegel)","ru":"от латинского speculum (espejo, Spiegel)","uk":"від латинського speculum (espejo, Spiegel)","ar":"من اللاتينية speculum (espejo, Spiegel)","he":"מהלטינית speculum (espejo, Spiegel)","sw":"kutoka Kilatini speculum (espejo, Spiegel)"},
@@ -923,5 +925,7 @@ WORDS.mirror = {
     en_nz: ["mirror", "ˈmɪɹə"],  // Same word as standard English; IPA from the row's own cells (sugar ˈʃʊɡə, spider ˈspɑɪdə, window ˈwɪndɐʉ).
     en_ng: ["mirror", "ˈmɪɹə"],  // Same word as standard English; IPA from the row's own cells (sugar ˈʃʊɡə, fish fɪʃ, milk mɪlk).
     en_geordie: ["mirror", "ˈmɪɹɐ"],  // Same word as standard English; IPA from the row's own cells (sugar ˈʃʊɡɐ, water ˈwɔːtɐ, fish fɪʃ).
+    el_koi: ["ἔσοπτρον", "ˈesoptron"],
+    la_late: ["speculum", "ˈspɛkolo"],
   },
 };

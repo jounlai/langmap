@@ -1265,5 +1265,7 @@ WORDS.tree = {
     auj: ["—", "—"],
     siz: ["tissəʒrət", "tisːəʒrət"],  // Borrowed from Arabic šajara.
     zh_jiao: ["树", "ʃu˦˨"],
+    el_koi: ["δένδρον", "ˈdendron"],
+    la_late: ["arbor", "ˈarβor"],
   },
 };

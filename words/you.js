@@ -1258,5 +1258,7 @@ WORDS.you = {
     auj: ["kú", "ku"],  // Masculine; to a woman it is kəm.
     siz: ["ʃək", "ʃək"],  // Masculine; the feminine is ʃəm.
     zh_jiao: ["你", "ni˥˥"],
+    el_koi: ["σύ", "sy"],
+    la_late: ["tu", "tu"],
   },
 };

@@ -1248,5 +1248,7 @@ WORDS.four = {
     auj: ["àrbʕa", "ˈarbʕa"],  // From Arabic.
     siz: ["arbaʕa", "arˤbˤəʢa"],  // Borrowed from Arabic; Laoust wrote arbaʕ.
     zh_jiao: ["四", "sɿ˦˨"],
+    el_koi: ["τέσσαρες", "ˈtessares"],
+    la_late: ["quattuor", "ˈkʷattuor"],
   },
 };

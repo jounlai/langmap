@@ -1174,5 +1174,7 @@ WORDS.person = {
     osa: ["níhka", "níhka"],
     juc: ["niarma", "niarma"],  // no. 273 Mensch, transcribed ni-rh-ma, m. niyalma. Grube 1896 glossary (Sino-Jurchen vocabulary, Chinese transcription); OCR is rough. Latin surface normalised by me after the row; low to medium.
     omy: ["uraṁ", "uraŋ"],  // Old Malay, Kota Kapur N.50 and Bukit Gombak N.96 (ūraṁ) in the DHARMA edition; N.50 has no translation there, sense from context and modern oraṅ. Row's surface is otherwise modern; coordinator may prefer orang.
+    el_koi: ["ἄνθρωπος", "ˈantʰropos"],
+    la_late: ["homo", "ˈɔmo"],
   }
 };

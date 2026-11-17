@@ -645,6 +645,8 @@ WORDS.monday = {
     mdf: "after",
     uby: "unknown",
     hif: "moon",
+    el_koi: "count",
+    la_late: "moon",
   },
   routes: {
     moon: {"color":"#7c3aed","emoji":"🌙","en":"the moon's day","ja":"月の日","ko":"달의 날","zh":"月亮之日","yue":"月亮嘅日","vi":"ngày mặt trăng","th":"วันของดวงจันทร์","id":"hari bulan","hi":"चंद्रमा का दिन","de":"Tag des Mondes","fr":"jour de la lune","it":"giorno della luna","es":"día de la luna","pt":"dia da lua","ru":"день луны","uk":"день місяця","ar":"يوم القمر","he":"יום הירח","sw":"siku ya mwezi"},
@@ -1232,5 +1234,7 @@ WORDS.monday = {
     mdf: ["понедельник", "pənʲəˈdʲelʲnʲək"],  // Borrowed from Russian понедельник, 'the day after Sunday'.
     uby: ["wətʼʷafaːqʼa", "wətʼʷafaːqʼa"],  // The source gives no origin for the name.
     hif: ["sombaar", "soːmbaːr"],  // From Sanskrit somavāra, the moon's day, probably through Awadhi.
+    el_koi: ["Δευτέρα σαββάτων", "deʍˈtera sabˈbaton"],
+    la_late: ["dies Lunae", "ˈdies ˈlune"],
   },
 };

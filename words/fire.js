@@ -1263,5 +1263,7 @@ WORDS.fire = {
     auj: ["afìw", "aˈfiw"],
     siz: ["təmsí", "təmˈsi"],  // In baby talk it is fufu (Laoust).
     zh_jiao: ["火", "xuə˥˥"],
+    el_koi: ["πῦρ", "pyr"],
+    la_late: ["focus", "ˈfɔkos"],
   }
 };

@@ -1199,5 +1199,7 @@ WORDS.new = {
     phn: ["𐤇𐤃𐤔", "ħadaʃ"],  // The Semitic ḥ-d-š, as in Hebrew חדש; its feminine is in 𐤒𐤓𐤕𐤇𐤃𐤔𐤕 Qart-ḥadašt, 'new city', the Punic name of Carthage, founded from Tyre.
     adx: ["སོ་མ", "sʰoma"],  // Written Tibetan so ma 'fresh, new' (Bialek: 'new'), read sho ma in Xiahe.
     osa: ["hcéka", "htséka"],
+    el_koi: ["καινός", "kɛˈnos"],
+    la_late: ["novus", "ˈnɔβos"],
   }
 };

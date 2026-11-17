@@ -1219,5 +1219,7 @@ WORDS.head = {
     zh_jiao: ["头", "tʰou˦˨"],  // Qingdao also says 脑袋.
     dbl: ["dinggal", "ˈdiŋɡal"],  // Dyirbal diŋgal 'head' (Dixon), in the row's practical spelling.
     omx: ["ဍိုပ်", "kɗøp"],  // Shorto 1971 (Dictionary of the Mon Inscriptions) kḍip, 'head', phonemic form as SEAlang prints it, respelled in the row's symbols. Surface copied from the mnw cell, as the row uses modern spelling.
+    el_koi: ["κεφαλή", "kepʰaˈle̝"],
+    la_late: ["caput", "ˈkapot"],
   },
 };

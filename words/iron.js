@@ -1168,5 +1168,7 @@ WORDS.iron = {
     omx: ["ဗသဲ", "bərsɔj"],  // Shorto 1971 (Dictionary of the Mon Inscriptions) birsey, bras(s)ey, 'iron', phonemic form as SEAlang prints it, respelled in the row's symbols. Surface copied from the mnw cell, as the row uses modern spelling.
     gqu: ["ce42", "ce˦˨"],  // IDS Qau Kelao, already the source of several cells in this row, though the row's base list is another variety. ce.42.
     cho: ["tali", "ˈtali"],  // The same word means rock, stone, iron and metal; it is inherited from Proto-Muskogean *taliCi.
+    el_koi: ["σίδηρος", "ˈside̝ros"],
+    la_late: ["ferrum", "ˈfɛrro"],
   },
 };

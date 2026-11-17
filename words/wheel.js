@@ -969,5 +969,7 @@ WORDS.wheel = {
     mev: ["gà̰", "ɡã˩"],
     dta: ["kurde", "kurde"],  // Related to Mongolian хүрд.
     osa: ["hcelį́", "htselĩ́"],
+    el_koi: ["τροχός", "troˈkʰos"],
+    la_late: ["rota", "ˈrɔta"],
   }
 };

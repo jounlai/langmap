@@ -1258,5 +1258,7 @@ WORDS.bone = {
     auj: ["aɣàst", "aˈɣast"],  // It has a final t that no other Berber language has (Kabyle iɣəss).
     siz: ["iɣəs", "iʁəs"],
     zh_jiao: ["骨头", "ku˥˥ tʰou˦˨"],
+    el_koi: ["ὀστέον", "osˈteon"],
+    la_late: ["os", "ɔs"],
   },
 };

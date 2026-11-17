@@ -1123,5 +1123,7 @@ WORDS.book = {
     umu: ["pámbiil", "pambiːl"],  // Animate noun, plural pambíilak.
     juc: ["bitehe", "bitəxə"],  // no. 216 Buch, pi-ti-he, m. bithe. Grube 1896 glossary (Sino-Jurchen vocabulary, Chinese transcription); OCR is rough. Latin surface normalised by me after the row; low to medium.
     ojp: ["書", "pumi"],  // ふみ: 日本書紀 (720) 推古一〇年 書生(フミまなふるひと), 岩崎本訓, as quoted in 日本国語大辞典. The kana is a later reading of the text, so medium.
+    el_koi: ["βιβλίον", "biˈblion"],
+    la_late: ["liber", "ˈleβer"],
   }
 };

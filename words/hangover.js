@@ -221,5 +221,6 @@ WORDS.hangover = {
     la_late: ["crapula", "ˈkrapola"],  // Crapula, from Greek κραιπάλη, is the heavy head after too much wine that one 'sleeps off' (edormire crapulam).
     ar_qur: ["خمار", "xumaːr"],
     syc: ["ܨܘܕܪܐ", "sˤuːðaːraː"],
+    fa_clas: ["خمار", "xumaːr"],  // From Arabic xumār, the heavy after-effect of wine.
   },
 };

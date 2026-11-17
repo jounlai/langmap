@@ -592,6 +592,9 @@ WORDS.left = {
     unr: "plain",
     egy: "compass",
     gez: "plain",
+    ave: "plain",
+    kho: "bad",
+    xpr: "plain",
   },
   routes: {
     bad: {"color":"#dc2626","emoji":"↩️","en":"'crooked, bent, wrong, tired'","ja":"「曲がった、間違った、疲れた」","ko":"‘굽은, 틀린, 지친’","zh":"“弯曲、错误、疲惫”","yue":"「屈曲、錯、攰」","vi":"“cong, sai, mệt”","th":"“งอ ผิด เหนื่อย”","id":"“bengkok, salah, lelah”","hi":"‘टेढ़ा, ग़लत, थका’","de":"„krumm, falsch, müde“","fr":"« tordu, faux, fatigué »","it":"“storto, sbagliato, stanco”","es":"«torcido, equivocado, cansado»","pt":"«torto, errado, cansado»","ru":"«кривой, неправильный, усталый»","uk":"«кривий, хибний, втомлений»","ar":"«أعوج، خاطئ، متعب»","he":"״עקום, שגוי, עייף״","sw":"“iliyopinda, kosa, iliyochoka”"},
@@ -1121,5 +1124,8 @@ WORDS.left = {
     unr: ["lenga", "leŋɡa"],
     egy: ["𓋁𓃀𓏭𓂢", "iabi"],  // jꜣbj means both 'left' and 'east': Egyptians took their bearings facing south, up the Nile.
     gez: ["ፀጋም", "sˤaɡaːm"],
+    ave: ["𐬵𐬀𐬎𐬎𐬌𐬌𐬀", "havja"],
+    kho: ["𑀲𑁆𑀬𑀦𑁆𑀤𑀅", "sjandaa"],
+    xpr: ["hōy", "hoːj"],
   },
 };

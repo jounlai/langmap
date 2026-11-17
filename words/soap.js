@@ -431,6 +431,8 @@ WORDS.soap = {
     hbo: "wash",
     he_mis: "plain",
     sux: "plain",
+    fa_clas: "sabun",
+    hy_grab: "plain",
   },
   routes: {
     sapo: {"color":"#2563eb","emoji":"🏛️","en":"Latin sapo","ja":"ラテン語 sapo","ko":"라틴어 sapo","zh":"拉丁语 sapo","yue":"拉丁語 sapo","vi":"tiếng Latinh sapo","th":"ละติน sapo","id":"Latin sapo","hi":"लैटिन sapo","de":"lateinisch sapo","fr":"le latin sapo","it":"il latino sapo","es":"el latín sapo","pt":"o latim sapo","ru":"латинское sapo","uk":"латинське sapo","ar":"اللاتينية sapo","he":"הלטינית sapo","sw":"Kilatini sapo"},
@@ -803,5 +805,7 @@ WORDS.soap = {
     hbo: ["בורית", "boːˈriːθ"],  // There was no soap as we know it; בֹּרִית was the plant-ash lye people washed with.
     he_mis: ["בורית", "boˈrit"],  // Before true soap, bōrīt was the plant-ash washing agent; the Mishnah lists it among cleaners that lift a stain.
     sux: ["𒉀", "naɡa"],  // There was no soap as we know it; Sumerians washed with naga, the ash of an alkaline plant.
+    fa_clas: ["صابون", "saːbuːn"],
+    hy_grab: ["աճառ", "atʃar"],
   },
 };

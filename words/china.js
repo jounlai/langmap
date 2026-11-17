@@ -547,6 +547,8 @@ WORDS.china = {
     war: "cina",
     el_kath: "cina",
     cnh: "other",
+    hy_grab: "cina",
+    sog: "cina",
   },
   family2: {
     bo: "zhongguo",
@@ -1040,5 +1042,7 @@ WORDS.china = {
     war: ["Tsina", "ˈtsina"],  // From Spanish.
     el_kath: ["Κίνα", "ˈcina"],
     cnh: ["Tuluk ram", "tuluk ram"],
+    hy_grab: ["Ճենք", "tʃenkʰ"],
+    sog: ["cynʾ", "tʃiːn"],
   },
 };

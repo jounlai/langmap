@@ -1202,5 +1202,6 @@ WORDS.new = {
     el_koi: ["καινός", "kɛˈnos"],
     la_late: ["novus", "ˈnɔβos"],
     vi_mid: ["mới", "məːj˧˥"],
+    kho: ["𑀦𑀽𑀯𑀭", "nuːwara"],
   }
 };

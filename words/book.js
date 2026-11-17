@@ -1133,5 +1133,7 @@ WORDS.book = {
     akk: ["𒁾", "tˤuppu"],  // There were no bound books; a text was written on a ṭuppu, a clay tablet.
     elx: ["𒁾", "tippi"],  // There were no books; tippi was an inscribed text, on clay or stone.
     oar: ["ספר", "səpar"],  // There were no books as such; spr was any written document, such as the Sefire treaty stone that uses the word for itself.
+    hit: ["𒁾𒉿", "tupːi"],  // There were no books; tuppi was the clay tablet Hittite scribes wrote on, borrowed from Akkadian ṭuppu.
+    peo: ["𐎮𐎡𐎱𐎡𐏁", "dipiʃ"],  // There were no books; dipi was a written text—an inscription, or a document on clay or leather.
   }
 };

@@ -1080,5 +1080,7 @@ WORDS.green = {
     vi_mid: ["xanh", "ɕaɲ˧"],
     kxv: ["ākupacca", "aːkupattʃa"],
     pwo: ["ယ့ၫ", "jɪ"],
+    hit: ["𒄩𒄴𒇷𒌋𒉿𒀭𒍝", "xaxliwants"],
+    kho: ["𑀬𑁆𑀲𑀭𑀽𑀦", "zaruːna"],
   }
 };

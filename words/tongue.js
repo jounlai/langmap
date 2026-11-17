@@ -978,7 +978,7 @@ WORDS.tongue = {
     elx: ["𒋾𒌓", "tit"],
     xsa: ["𐩡𐩪𐩬", "lisaːn"],
     kaw: ["ꦆꦭꦠ꧀", "ilat"],
-    kho: ["—", "—"],
+    kho: ["𑀩𑀺𑀰𑀸", "biɕaː"],
     de_lut: ["Zunge", "ˈtsʊŋə"],
     gmh: ["zunge", "ˈtsuŋɡə"],
     es_sgl: ["lengua", "ˈleŋɡwa"],

@@ -393,6 +393,11 @@ WORDS.chili = {
     cop: "pepper",
     he_mis: "pepper",
     syc: "pepper",
+    fa_clas: "pepper",
+    hy_grab: "pepper",
+    kho: "pepper",
+    ota: "pepper",
+    sog: "pepper",
   },
   routes: {
     chilli: {"color":"#dc2626","emoji":"🌶️","en":"Nahuatl chīlli (chile, chili, sili)","ja":"ナワトル語 chīlli（chile, chili, sili）","ko":"나우아틀어 chīlli (chile, chili, sili)","zh":"纳瓦特尔语 chīlli（chile、chili、sili）","yue":"納瓦特爾語 chīlli（chile、chili、sili）","vi":"tiếng Nahuatl chīlli (chile, chili, sili)","th":"นาวาตล์ chīlli (chile, chili, sili)","id":"Nahuatl chīlli (chile, chili, sili)","hi":"नाहुआत्ल chīlli (chile, chili, sili)","de":"Nahuatl chīlli (chile, Chili, sili)","fr":"le nahuatl chīlli (chile, chili, sili)","it":"il nahuatl chīlli (chile, chili, sili)","es":"el náhuatl chīlli (chile, chili, sili)","pt":"o náuatle chīlli (chile, chili, sili)","ru":"науатль chīlli (chile, chili, sili)","uk":"науатль chīlli (chile, chili, sili)","ar":"الناواتل chīlli (chile, chili, sili)","he":"הנאוואטל chīlli (chile, chili, sili)","sw":"Kinahuatl chīlli (chile, chili, sili)"},
@@ -724,5 +729,10 @@ WORDS.chili = {
     cop: ["ⲡⲓⲡⲉⲣ", "piper"],  // There were no chillies yet; ⲡⲓⲡⲉⲣ, black pepper from India, was the hot spice of the day.
     he_mis: ["פלפל", "pilˈpel"],  // There were no chillies yet; pepper from India was the hot spice of the day.
     syc: ["ܦܠܦܠܐ", "pelpelaː"],  // There were no chillies yet; ܦܠܦܠܐ, pepper from India, was the hot spice of the day.
+    fa_clas: ["پلپل", "pilpil"],  // There were no chili peppers before 1492; پلپل is the black pepper Persians already cooked with.
+    hy_grab: ["պղպեղ", "pɫpeɫ"],  // There were no chili peppers before 1492; պղպեղ is the black pepper that Armenians already knew.
+    kho: ["𑀩𑀁𑀤𑀭𑀸", "bandaraː"],  // Chili came from the Americas long after Khotan; baṃdarā is the pepper Khotanese doctors put in their remedies.
+    ota: ["ببر", "biˈbeɾ"],
+    sog: ["pδʾpδh", "paðpað"],  // There were no chilies; paδpaδ was the black pepper Sogdian merchants carried.
   },
 };

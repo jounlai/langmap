@@ -1254,5 +1254,6 @@ WORDS.mouth = {
     vi_mid: ["miệng", "miəŋ˧˨ʔ"],
     lis: ["mu-lu", "mɯ˧˩lɯ˧˥"],
     cia: ["bhobha", "ɓoɓa"],
+    txb: ["𑀓𑁄𑀬𑁆𑀦𑁆", "kojn"],
   }
 };

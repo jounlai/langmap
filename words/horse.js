@@ -1166,5 +1166,6 @@ WORDS.horse = {
     mui: ["kudo", "kudo"],
     oar: ["סוס", "suːs"],
     xpu: ["𐤎𐤎", "suːs"],
+    kho: ["𑀅𑀰𑁆𑀰", "aɕa"],
   }
 };

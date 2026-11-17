@@ -1201,5 +1201,6 @@ WORDS.rain = {
     pcc: ["wenl", "wɯn˨˦"],
     myz: ["ࡌࡉࡈࡓࡀ", "mitˤra"],
     xht: ["tūmin", "tuːmin"],
+    kho: ["𑀯𑀸𑀭", "waːra"],
   },
 };

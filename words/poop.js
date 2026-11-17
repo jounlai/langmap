@@ -969,5 +969,6 @@ WORDS.poop = {
     ybe: ["arq", "arq"],
     kxm: ["អាចម៍", "ʔac"],
     kxv: ["pīŋga", "piːŋɡa"],
+    kho: ["𑀕𑀽", "ɡuː"],
   },
 };

@@ -1227,5 +1227,6 @@ WORDS.sleep = {
     egy_dem: ["nqt", "ənkotək"],
     vi_mid: ["ngủ", "ŋu˧˩˧"],
     tji: ["nie", "ȵie˧˥"],
+    kho: ["𑀳𑀽𑀲𑁆", "huːs"],
   },
 };

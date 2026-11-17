@@ -303,5 +303,6 @@ WORDS.woof = {
     ja_edo: ["わんわん", "waɴwaɴ"],  // 浮世風呂 (1809-13) and a c.1700 quote, as in 日本国語大辞典.
     el_koi: ["αὖ αὖ", "aw aw"],
     bdq: ["kuh kuh", "kuh kuh"],
+    ota: ["هاو هاو", "hav hav"],
   },
 };

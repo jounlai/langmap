@@ -962,5 +962,10 @@ WORDS.poop = {
     el_koi: ["κόπρος", "ˈkopros"],
     la_late: ["merda", "ˈmɛrda"],
     egy_dem: ["ḥs", "hos"],
+    khg: ["སྐྱག་པ", "tɕa˥˧pa˥˧"],
+    peh: ["basuŋ", "basuŋ"],
+    sce: ["basun", "pɑˈsun"],
+    yuy: ["paasən", "paːsən"],
+    ybe: ["arq", "arq"],
   },
 };

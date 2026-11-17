@@ -798,6 +798,8 @@ WORDS.n99 = {
     la_late: "sub",
     vi_mid: "mult",
     arc: "plural",
+    mjg: "dec",
+    mvf: "dec",
   },
   routes: {
     dec: {
@@ -1609,5 +1611,7 @@ WORDS.n99 = {
     la_late: ["undecentum", "undeˈkʲɛnto"],
     vi_mid: ["chín mươi chín", "cin˧˥ mɨəj˧ cin˧˥"],
     arc: ["תִּשְׁעִין וּתְשַׁע", "tiʃʕiːn uθʃaʕ"],
+    mjg: ["yirin shzin", "jirin ʂtsin"],
+    mvf: ["yirin shzin", "jirin ʂdzən"],
   }
 };

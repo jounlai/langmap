@@ -1223,5 +1223,6 @@ WORDS.head = {
     la_late: ["caput", "ˈkapot"],
     egy_dem: ["ḏꜣḏꜣ", "tʃoː"],
     vi_mid: ["đầu", "ɗəw˨˩"],
+    mvf: ["tulighui", "tuləɢui"],
   },
 };

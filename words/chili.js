@@ -349,6 +349,9 @@ WORDS.chili = {
     vi_c: "pepper",
     vi_s: "pepper",
     mn_cn: "hot",
+    cng: "foreign",
+    jya: "foreign",
+    ybe: "hot",
   },
   routes: {
     chilli: {"color":"#dc2626","emoji":"🌶️","en":"Nahuatl chīlli (chile, chili, sili)","ja":"ナワトル語 chīlli（chile, chili, sili）","ko":"나우아틀어 chīlli (chile, chili, sili)","zh":"纳瓦特尔语 chīlli（chile、chili、sili）","yue":"納瓦特爾語 chīlli（chile、chili、sili）","vi":"tiếng Nahuatl chīlli (chile, chili, sili)","th":"นาวาตล์ chīlli (chile, chili, sili)","id":"Nahuatl chīlli (chile, chili, sili)","hi":"नाहुआत्ल chīlli (chile, chili, sili)","de":"Nahuatl chīlli (chile, Chili, sili)","fr":"le nahuatl chīlli (chile, chili, sili)","it":"il nahuatl chīlli (chile, chili, sili)","es":"el náhuatl chīlli (chile, chili, sili)","pt":"o náuatle chīlli (chile, chili, sili)","ru":"науатль chīlli (chile, chili, sili)","uk":"науатль chīlli (chile, chili, sili)","ar":"الناواتل chīlli (chile, chili, sili)","he":"הנאוואטל chīlli (chile, chili, sili)","sw":"Kinahuatl chīlli (chile, chili, sili)"},
@@ -636,5 +639,8 @@ WORDS.chili = {
     vi_c: ["ớt", "əːk˧˦"],  // The same word as standard Vietnamese.
     vi_s: ["ớt", "əːk˧˥"],  // The same word as standard Vietnamese.
     mn_cn: ["ᠯᠠᠵᠤᠤ", "lɑːdʒuː"],
+    cng: ["χai tshu", "χai tsʰu"],
+    jya: ["hɐi tso", "hɐitso"],
+    ybe: ["lazï", "lazɯ"],  // Borrowed from local Chinese 辣子.
   },
 };

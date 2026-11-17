@@ -647,7 +647,7 @@ generates lang_names/<ui>.js from lang_names.js. -->
     // The tree only reads structured fields (family / parentCode / speakers) +
     // the base META_I18N table — all in wordmap_meta_lite.js (~1.1 MB), so it
     // no longer pulls the 19 MB wordmap_meta.js (descriptions/sources unused).
-    _loadJS('wordmap_meta_lite.js?v=463')
+    _loadJS('wordmap_meta_lite.js?v=464')
         .then(() => Promise.all([
             // Branches from Glottolog (tools/build_tree_paths.js), and their names in this UI.
             _loadJS('tree_paths.js?v=3'),

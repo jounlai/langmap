@@ -1221,5 +1221,6 @@ WORDS.earth = {
     la_late: ["terra", "ˈtɛrra"],
     egy_dem: ["jtn", "itən"],
     vi_mid: ["đất", "ɗət˧˥"],
+    mvf: ["ghajari", "ɢaʥari"],
   }
 };

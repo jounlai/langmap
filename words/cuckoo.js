@@ -570,5 +570,8 @@ WORDS.cuckoo = {
     pqm: ["petolanuhket", "petolanuhket"],  // The source gives no etymology.
     el_koi: ["κόκκυξ", "ˈkokkyks"],
     la_late: ["cuculus", "koˈkulos"],
+    mjg: ["gugu xuu", "ɡuɡu ɕuː"],
+    peh: ["gugu", "ɡuɡu"],
+    sce: ["gugu", "kuˈku"],
   },
 };

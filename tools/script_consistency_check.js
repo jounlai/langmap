@@ -108,6 +108,11 @@ const CHECK=process.argv.includes("--check");
 // will tell you if you deleted one too early.
 const MIXED_OK = {
   // --- deliberate: the row's orthography really is mixed ---
+  // Qiang rows write Sun Hongkai's (1991) transcription, which uses IPA χ for the uvular fricative (bəχmu,
+  // χai tshu). A short word made only of χ and a vowel (yellow χaχa, χɑ) reads as Greek to the classifier.
+  // Gap rally R02, 2026-11-17.
+  qxs: 'Sun 1991 transcription uses IPA χ',
+  cng: 'Sun 1991 transcription uses IPA χ',
   // Sogdian is cited in the standard scholarly transliteration (Gharib, Sims-Williams), which
   // writes β γ δ θ with Greek letters inside Latin text. r108, 2026-10-15.
   sog: 'Sogdian transliteration uses Greek β γ δ θ by convention',

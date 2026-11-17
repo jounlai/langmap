@@ -1177,5 +1177,8 @@ WORDS.honey = {
     la_late: ["mel", "mɛl"],
     egy_dem: ["jby", "ebioː"],
     vi_mid: ["mật ao᷃", "mət˧˨ʔ awŋ͡m˧"],
+    mvf: ["zangna bali", "dzaŋna balə"],
+    peh: ["bal", "bal"],
+    yuy: ["bal", "bal"],
   },
 };

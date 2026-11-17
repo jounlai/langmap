@@ -972,5 +972,7 @@ WORDS.wheel = {
     el_koi: ["τροχός", "troˈkʰos"],
     la_late: ["rota", "ˈrɔta"],
     vi_mid: ["bánh xe", "ɓaɲ˧˥ ɕɛ˧"],
+    mvf: ["guli", "ɡulə"],
+    ybe: ["kulu", "kulu"],  // Borrowed from Chinese 轱辘.
   }
 };

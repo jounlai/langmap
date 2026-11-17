@@ -946,5 +946,7 @@ WORDS.butterfly = {
     el_koi: ["ψυχή", "psyˈkʰe̝"],
     la_late: ["papilio", "paˈpeljo"],
     vi_mid: ["bưâm bớâm", "ɓɨəm˧ ɓɨəm˧˥"],
+    mvf: ["xanbalaxji", "ɕanbalaɕʥi"],
+    sce: ["hebegvi", "xəpəˈʁi"],
   },
 };

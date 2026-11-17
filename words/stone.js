@@ -1215,5 +1215,6 @@ WORDS.stone = {
     la_late: ["lapis", "ˈlapes"],
     egy_dem: ["jny", "oːne"],
     vi_mid: ["đá", "ɗaː˧˥"],
+    peh: ["taɕiə", "taɕiə"],
   },
 };

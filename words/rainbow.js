@@ -820,6 +820,11 @@ WORDS.rainbow = {
     la_late: "bow",
     vi_mid: "other",
     mn_cn: "plain",
+    jya: "plain",
+    mjg: "plain",
+    peh: "plain",
+    yuy: "plain",
+    ybe: "plain",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1583,5 +1588,10 @@ WORDS.rainbow = {
     la_late: ["arcus", "ˈarkos"],
     vi_mid: ["sổ blời", "ʂo˧˩˧ bləːj˨˩"],
     mn_cn: ["ᠰᠣᠯᠤᠩᠭ᠎ᠠ", "sɔlɔŋɢ"],
+    jya: ["ndʒa", "ndʒa"],
+    mjg: ["snaghua", "snaʁwa"],
+    peh: ["gaŋ", "ɡaŋ"],
+    yuy: ["soloŋʁo", "soloŋʁo"],
+    ybe: ["qolaŋqe", "qolaŋqe"],  // Borrowed from Mongolic.
   },
 };

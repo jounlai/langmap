@@ -845,5 +845,9 @@ WORDS.silk = {
     el_koi: ["σηρικόν", "se̝riˈkon"],
     la_late: ["sericum", "ˈsereko"],
     vi_mid: ["lụa", "luə˧˨ʔ"],
+    mvf: ["tiriga", "təriɡa"],
+    slr: ["dori", "tori"],
+    yuy: ["torʁo", "torʁo"],
+    ybe: ["tavar", "taβar"],
   }
 };

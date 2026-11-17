@@ -1180,5 +1180,7 @@ WORDS.milk = {
     la_late: ["lac", "lak"],
     egy_dem: ["jrṱ.t", "eroːte"],
     vi_mid: ["sữa", "ʂɨə˧ˀ˥"],
+    peh: ["naiʣi", "naidzi"],
+    yuy: ["sun", "sun"],
   },
 };

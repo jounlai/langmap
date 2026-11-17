@@ -389,6 +389,9 @@ WORDS.soap = {
     de_at: "sapo",
     el_koi: "sapo",
     mn_cn: "sabun",
+    cng: "other",
+    jya: "other",
+    qxs: "other",
   },
   routes: {
     sapo: {"color":"#2563eb","emoji":"🏛️","en":"Latin sapo","ja":"ラテン語 sapo","ko":"라틴어 sapo","zh":"拉丁语 sapo","yue":"拉丁語 sapo","vi":"tiếng Latinh sapo","th":"ละติน sapo","id":"Latin sapo","hi":"लैटिन sapo","de":"lateinisch sapo","fr":"le latin sapo","it":"il latino sapo","es":"el latín sapo","pt":"o latim sapo","ru":"латинское sapo","uk":"латинське sapo","ar":"اللاتينية sapo","he":"הלטינית sapo","sw":"Kilatini sapo"},
@@ -719,5 +722,8 @@ WORDS.soap = {
     de_at: ["Seife", "ˈsaɪ̯fə"],
     el_koi: ["σάπων", "ˈsapon"],
     mn_cn: ["ᠰᠠᠪᠤᠩ", "sɑwɑŋ"],
+    cng: ["ɸei tsɑu", "ɸei tsɑu"],
+    jya: ["ji tsou", "jitsou"],
+    qxs: ["feitsɑu", "fei˧˩tsɑu˩˧"],  // Borrowed from Chinese 肥皂.
   },
 };

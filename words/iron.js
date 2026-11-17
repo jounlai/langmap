@@ -1172,5 +1172,7 @@ WORDS.iron = {
     la_late: ["ferrum", "ˈfɛrro"],
     egy_dem: ["bnpy", "benipe"],
     vi_mid: ["sắt", "ʂat˧˥"],
+    peh: ["təmər", "təmər"],
+    yuy: ["temər", "temər"],
   },
 };

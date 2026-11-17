@@ -535,6 +535,7 @@ WORDS.china = {
     hni: "zhongguo",
     el_koi: "cina",
     la_late: "other",
+    ybe: "zhongguo",
   },
   family2: {
     bo: "zhongguo",
@@ -1016,5 +1017,6 @@ WORDS.china = {
     hni: ["Zaolgoq", "tsɔ˥˥ko˧˩"],  // Borrowed from Chinese 中國 Zhōngguó.
     el_koi: ["Σῖναι", "ˈsinɛ"],
     la_late: ["Serica", "ˈsereka"],
+    ybe: ["čuŋkuo", "tʃuŋkuo"],  // Borrowed from Chinese 中国.
   },
 };

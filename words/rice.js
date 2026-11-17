@@ -918,5 +918,7 @@ WORDS.rice = {
     el_koi: ["ὄρυζα", "ˈoryza"],
     la_late: ["oryza", "oˈridza"],
     vi_mid: ["gạo", "ɣaːw˧˨ʔ"],
+    yuy: ["hdurʁan", "hdurʁan"],
+    ybe: ["tutïrqan", "tutɯrqan"],
   }
 };

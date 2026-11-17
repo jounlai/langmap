@@ -1157,5 +1157,8 @@ WORDS.horse = {
     la_late: ["caballus", "kaˈβallos"],
     egy_dem: ["ḥtr", "hto"],
     vi_mid: ["ngựa", "ŋɨə˧˨ʔ"],
+    peh: ["morə", "morə"],
+    yuy: ["moorə", "moːrə"],
+    ybe: ["at", "at"],
   }
 };

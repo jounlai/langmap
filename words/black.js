@@ -1311,5 +1311,6 @@ WORDS.black = {
     la_late: ["niger", "ˈneɡʲer"],
     egy_dem: ["km", "kame"],
     vi_mid: ["đen", "ɗɛn˧"],
+    lep: ["ᰣᰦᰍᰩᰭ", "ʔanɔk"],
   },
 };

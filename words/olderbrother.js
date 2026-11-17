@@ -804,6 +804,8 @@ WORDS.olderbrother = {
     cia: "age",
     mui: "age",
     pzh: "age",
+    njo: "age",
+    nmf: "age",
   },
   routes: {
     age: {"color":"#db2777","emoji":"👆","en":"a word just for an older brother","ja":"兄だけを指す語","ko":"형만 가리키는 낱말","zh":"专指哥哥的词","yue":"專指哥哥嘅詞","vi":"từ riêng cho anh","th":"คำเฉพาะสำหรับพี่ชาย","id":"kata khusus untuk kakak","hi":"बड़े भाई का अलग शब्द","de":"eigenes Wort für den älteren Bruder","fr":"un mot propre au frère aîné","it":"una parola solo per il fratello maggiore","es":"una palabra solo para el hermano mayor","pt":"uma palavra só para o irmão mais velho","ru":"отдельное слово для старшего брата","uk":"окреме слово для старшого брата","ar":"كلمة خاصة بالأخ الأكبر","he":"מילה מיוחדת לאח הגדול","sw":"neno maalum kwa kaka mkubwa"},
@@ -913,7 +915,7 @@ WORDS.olderbrother = {
     zh_db: ["哥哥", "kɤ˥ kɤ"],  // 哥 is thought to be a loan from Xianbei *aqa 'elder brother' (Mei 2015); younger: 弟弟.
     zh_sc: ["哥哥", "ko˥ ko˥"],  // Chengdu also says 哥老倌; younger: 弟弟.
     cdo: ["依哥", "i˥˥ ko˥˥"],  // With the same 依 kinship prefix as 依爸 'father'; 哥 is thought to come from Xianbei *aqa 'elder brother'.
-    bo: ["ཇོ་ཇོ", "tɕo˥˥tɕo˥˨"],  // Also used to address any man; younger: ནུ་བོ.
+    bo: ["ཇོ་ཇོ", "tɕo˥tɕo˥˨"],  // Also used to address any man; younger: ནུ་བོ.
     za: ["go", "ko˨˦"],  // go is the word for an elder brother (cf. Chinese 哥); beix covers any older sibling; younger: nuengx.
     swi: ["faai4", "faːi˥˩"],  // Sui 'brothers' is literally 'older-younger' (faai4 nu4); younger: nu4.
     lic: ["ɬau3", "ɬau˩˩"],  // Sounds the same as the Hlai word for 'two' (ɬau3) but has a separate origin (Norquest 2015); younger: ɡuːŋ1.
@@ -1549,5 +1551,7 @@ WORDS.olderbrother = {
     cia: ["aka", "aka"],
     mui: ["kakak", "kakak"],  // An older sibling of either sex.
     pzh: ["mamah", "mamah"],
+    njo: ["tedi", "tedi"],  // A younger brother or sister is tenu.
+    nmf: ["achei", "atʃei"],
   },
 };

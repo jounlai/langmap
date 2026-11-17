@@ -570,6 +570,17 @@ WORDS.elephant = {
     pyu: "xiang",
     szy: "xiang",
     tsu: "xiang",
+    acn: "xiang",
+    bo: "other",
+    clk: "plain",
+    dty: "hasti",
+    dz: "other",
+    kac: "plain",
+    mai: "hasti",
+    nmf: "plain",
+    rkt: "hasti",
+    twm: "other",
+    xkz: "other",
   },
   routes: {
     elephas: {"color":"#2563eb","emoji":"🏛️","en":"from Greek ἐλέφας, Latin elephantus (elephant, Elefant)","ja":"ギリシャ語 ἐλέφας、ラテン語 elephantus から (elephant, Elefant)","ko":"그리스어 ἐλέφας, 라틴어 elephantus에서 (elephant, Elefant)","zh":"来自希腊语 ἐλέφας、拉丁语 elephantus (elephant, Elefant)","yue":"嚟自希臘語 ἐλέφας、拉丁語 elephantus (elephant, Elefant)","vi":"từ tiếng Hy Lạp ἐλέφας, Latinh elephantus (elephant, Elefant)","th":"จากภาษากรีก ἐλέφας ละติน elephantus (elephant, Elefant)","id":"dari ἐλέφας Yunani, elephantus Latin (elephant, Elefant)","hi":"यूनानी ἐλέφας, लैटिन elephantus से (elephant, Elefant)","de":"aus griechisch ἐλέφας, lateinisch elephantus (elephant, Elefant)","fr":"du grec ἐλέφας, latin elephantus (elephant, Elefant)","it":"dal greco ἐλέφας, latino elephantus (elephant, Elefant)","es":"del griego ἐλέφας, latín elephantus (elephant, Elefant)","pt":"do grego ἐλέφας, latim elephantus (elephant, Elefant)","ru":"от греческого ἐλέφας, латинского elephantus (elephant, Elefant)","uk":"від грецького ἐλέφας, латинського elephantus (elephant, Elefant)","ar":"من اليونانية ἐλέφας واللاتينية elephantus (elephant, Elefant)","he":"מהיוונית ἐλέφας, מהלטינית elephantus (elephant, Elefant)","sw":"kutoka Kigiriki ἐλέφας, Kilatini elephantus (elephant, Elefant)"},
@@ -1080,5 +1091,16 @@ WORDS.elephant = {
     pyu: ["zo", "ʐo"],
     szy: ["zu", "zu"],  // from Japanese zō 象
     tsu: ["zoo", "zoo"],
+    acn: ["tɕhaŋ55", "tɕʰaŋ˥˥"],
+    bo: ["གླང་ཆེན", "laŋ˥ tɕʰẽ˥"],  // glang 'ox' + chen 'great'.
+    clk: ["ɑ55tɑŋ55", "ɑ˥˥tɑŋ˥˥"],
+    dty: ["हात्ती", "haːtːiː"],
+    dz: ["གླངམོ་ཆེ", "lamtɕʰe"],  // A 'big ox'.
+    kac: ["magwi", "məkui˧"],
+    mai: ["हाथी", "ɦaːtʰiː"],
+    nmf: ["mafu", "mafu"],
+    rkt: ["হাতী", "hati"],
+    twm: ["lᴀŋ55tɕen55", "lᴀŋ˥˥tɕen˥˥"],
+    xkz: ["’langpoche", "láŋpotɕʰe"],  // Related to Tibetan གླང་པོ་ཆེ glang po che, 'great ox'.
   },
 };

@@ -1182,5 +1182,6 @@ WORDS.honey = {
     yuy: ["bal", "bal"],
     lis: ["bya", "bjɑ˧˩"],
     mui: ["madu", "madu"],
+    lep: ["ᰋᰪ", "tʰɯ"],
   },
 };

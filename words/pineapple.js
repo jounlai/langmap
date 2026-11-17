@@ -467,6 +467,9 @@ WORDS.pineapple = {
     cia: "nanas",
     mui: "nanas",
     sas: "nanas",
+    bo: "other",
+    mni: "other",
+    syl: "nanas",
   },
   routes: {
     nanas: {"color":"#ea580c","emoji":"🌎","en":"from Tupi naná","ja":"トゥピ語 naná から","ko":"투피어 naná에서","zh":"源自图皮语 naná","yue":"源自圖皮語 naná","vi":"từ tiếng Tupi naná","th":"จากภาษาตูปี naná","id":"dari bahasa Tupi naná","hi":"तूपी naná से","de":"aus Tupi naná","fr":"du tupi naná","it":"dal tupi naná","es":"del tupí naná","pt":"do tupi naná","ru":"из тупи naná","uk":"з тупі naná","ar":"من التوبية naná","he":"מטופי naná","sw":"kutoka Kitupi naná"},
@@ -878,5 +881,8 @@ WORDS.pineapple = {
     cia: ["nanasi", "nanasi"],
     mui: ["nanas", "nanas"],
     sas: ["nanas", "nanas"],
+    bo: ["ཐང་འབྲས", "tʰaŋ˥ ʈʂɛː"],
+    mni: ["ꯀꯤꯍꯣꯝ", "kihom"],
+    syl: ["আনারশ", "anarɔʃ"],
   },
 };

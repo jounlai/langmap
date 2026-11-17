@@ -1169,5 +1169,6 @@ WORDS.mountain = {
     la_late: ["mons", "mons"],
     egy_dem: ["tw", "toːu"],
     vi_mid: ["núi", "nuj˧˥"],
+    bhb: ["डोंगोर", "ɖoːŋɡoɾ"],
   }
 };

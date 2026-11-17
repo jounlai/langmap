@@ -653,6 +653,9 @@ WORDS.monday = {
     bew: "count",
     mui: "count",
     war: "moon",
+    dty: "moon",
+    nmf: "other",
+    sip: "moon",
   },
   routes: {
     moon: {"color":"#7c3aed","emoji":"🌙","en":"the moon's day","ja":"月の日","ko":"달의 날","zh":"月亮之日","yue":"月亮嘅日","vi":"ngày mặt trăng","th":"วันของดวงจันทร์","id":"hari bulan","hi":"चंद्रमा का दिन","de":"Tag des Mondes","fr":"jour de la lune","it":"giorno della luna","es":"día de la luna","pt":"dia da lua","ru":"день луны","uk":"день місяця","ar":"يوم القمر","he":"יום הירח","sw":"siku ya mwezi"},
@@ -973,7 +976,7 @@ WORDS.monday = {
     fa: ["دوشنبه", "doʃæmˈbe"],  // do "two" + shanbe "Saturday": the second day after the Sabbath.
     ku: ["duşem", "dʊˈʃɛm"],  // du "two" + şem "Saturday", a cognate of Persian doshanbe "two (days after) Saturday".
     my: ["တနင်္လာ", "tənɪ́ɴlà"],  // From Old Burmese tan-hnin-la; Burmese Wikipedia explains the last syllable as an old form of la "moon", making it "the moon day".
-    bo: ["གཟའ་ཟླ་བ", "sa˩˨ta˩˨wa˥˥"],  // gza' "planet, weekday" + zla ba "moon": the moon's day.
+    bo: ["གཟའ་ཟླ་བ", "sa˩˨ta˩˨wa˥"],  // gza' "planet, weekday" + zla ba "moon": the moon's day.
     sr: ["понедељак", "ponědeʎak"],  // po "after" + nedelja "Sunday": the day after Sunday.
     ne: ["सोमबार", "sombaːɾ"],  // From Sanskrit somavāra, "moon day".
     ti: ["ሰኑይ", "sɐnuj"],  // From the Semitic root for "two", like Amharic säñño; colloquially also soni.
@@ -1248,5 +1251,8 @@ WORDS.monday = {
     bew: ["Senèn", "sənɛn"],
     mui: ["Senen", "sənen"],
     war: ["Lunes", "ˈlunes"],  // From Spanish.
+    dty: ["सौँबार", "sə̃ũbaːɾ"],
+    nmf: ["horthan", "hortʰan"],
+    sip: ["གཟའ་ཟླ་བོ", "zaː dou"],
   },
 };

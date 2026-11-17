@@ -462,6 +462,16 @@ WORDS.week = {
     pyu: "plain",
     su: "sunday",
     trv: "sabbath",
+    as: "seven",
+    bgc: "seven",
+    dty: "seven",
+    mag: "seven",
+    mai: "seven",
+    njo: "seven",
+    nmf: "seven",
+    sat: "seven",
+    sip: "seven",
+    thr: "seven",
   },
   routes: {
     seven: {"color":"#2563eb","emoji":"7️⃣","en":"the number seven","ja":"数の七","ko":"일곱이라는 수","zh":"数字七","yue":"數字七","vi":"con số bảy","th":"เลขเจ็ด","id":"angka tujuh","hi":"सात की संख्या","de":"die Zahl Sieben","fr":"le nombre sept","it":"il numero sette","es":"el número siete","pt":"o número sete","ru":"число семь","uk":"число сім","ar":"العدد سبعة","he":"המספר שבע","sw":"namba saba"},
@@ -865,5 +875,15 @@ WORDS.week = {
     pyu: ["liyusan", "ɭijusan"],
     su: ["minggu", "miŋɡu"],
     trv: ["sngayan", "sŋajan"],  // The same word as 'rest, sabbath'.
+    as: ["সপ্তাহ", "xɔptaɦ"],
+    bgc: ["हफ्ता", "ɦəftaː"],
+    dty: ["हप्ता", "ɦəptaː"],
+    mag: ["सप्ताह", "səptaːɦ"],
+    mai: ["सप्ताह", "səptaːɦ"],
+    njo: ["hapta", "hapta"],  // Route by resemblance to the neighbouring forms (Nepali हप्ता, Urdu ہفتہ); no etymology of its own.
+    nmf: ["hapta", "hapta"],
+    sat: ["ᱦᱟᱯᱛᱟ", "hapta"],
+    sip: ["བདུན་ཕྲག", "dyntʰaʔ"],
+    thr: ["सप्ताह", "səptaːɦ"],
   },
 };

@@ -690,6 +690,24 @@ WORDS.language = {
     trv: "speech",
     tsu: "speech",
     war: "speech",
+    acn: "voice",
+    bgc: "speech",
+    bgq: "speech",
+    bhb: "speech",
+    bo: "voice",
+    brx: "plain",
+    clk: "plain",
+    dty: "speech",
+    kac: "speech",
+    kgg: "speech",
+    lif: "speech",
+    mwr: "speech",
+    nag: "speech",
+    nmf: "speech",
+    nzm: "voice",
+    rkt: "speech",
+    sip: "voice",
+    thr: "speech",
   },
   routes: {
     tongue: {"color":"#dc2626","emoji":"👅","en":"the tongue (langue, язык, dil)","ja":"舌（langue, язык, dil）","ko":"혀 (langue, язык, dil)","zh":"舌头（langue、язык、dil）","yue":"脷（langue、язык、dil）","vi":"cái lưỡi (langue, язык, dil)","th":"ลิ้น (langue, язык, dil)","id":"lidah (langue, язык, dil)","hi":"जीभ (langue, язык, dil)","de":"die Zunge (langue, язык, dil)","fr":"l'organe, la langue (langue, язык, dil)","it":"l'organo, la lingua (langue, язык, dil)","es":"el órgano, la lengua (langue, язык, dil)","pt":"o órgão, a língua (langue, язык, dil)","ru":"орган язык (langue, язык, dil)","uk":"орган язик (langue, язык, dil)","ar":"اللسان (langue, язык, dil)","he":"הלשון (langue, язык, dil)","sw":"ulimi (langue, язык, dil)"},
@@ -1318,5 +1336,23 @@ WORDS.language = {
     trv: ["kari", "kaɾi"],
     tsu: ["eʼe", "eʔe"],
     war: ["yinaknan", "jinakˈnan"],  // The same word means word or speech.
+    acn: ["ŋ̊eŋ35", "ŋ̊eŋ˧˥"],  // The same root as ŋ̊eŋ35the55 'voice'.
+    bgc: ["भाषा", "bʱaːʃaː"],
+    bgq: ["बोली", "boːliː"],  // From bolṇo "to speak".
+    bhb: ["भासा", "bʱaːsaː"],
+    bo: ["སྐད", "kɛː˥˨"],  // Also 'speech, voice'.
+    brx: ["राव", "rao"],
+    clk: ["ɑ31ko55", "ɑ˧˩ko˥˥"],
+    dty: ["भाषा", "bʱaːsaː"],
+    kac: ["ga", "ka˧˩"],  // Also 'word'.
+    kgg: ["gepən", "ɡepən"],  // Also 'word'.
+    lif: ["ᤐᤠ᤺ᤴᤍᤠᤱ", "paːndaŋ"],
+    mwr: ["भासा", "bʱaːsaː"],
+    nag: ["bhasa", "bʱasa"],
+    nmf: ["tui", "tui"],
+    nzm: ["hekua", "hekua"],
+    rkt: ["ভাষা", "bʱasa"],
+    sip: ["སྐད", "kɛʔ"],
+    thr: ["भासा", "bʱaːsaː"],
   },
 };

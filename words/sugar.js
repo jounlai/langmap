@@ -907,6 +907,7 @@ WORDS.sugar = {
     bdq: "tang",
     tji: "tang",
     mui: "guda",
+    bo: "other",
   },
   routes: {
     sharkara: { color: "#b45309", emoji: "💎", en: "from Sanskrit śarkarā", ja: "サンスクリット śarkarā 由来", ko: "산스크리트 śarkarā 유래", zh: "源自梵语 śarkarā", yue: "源自梵文 śarkarā", vi: "từ tiếng Phạn śarkarā", th: "จากภาษาสันสกฤต śarkarā", id: "dari bahasa Sanskerta śarkarā", hi: "संस्कृत शर्करा से", de: "vom Sanskrit śarkarā", fr: "du sanskrit śarkarā", it: "dal sanscrito śarkarā", es: "del sánscrito śarkarā", pt: "do sânscrito śarkarā", ru: "от санскр. śarkarā", uk: "від санскр. śarkarā", ar: "من السنسكريتية śarkarā", he: "מסנסקריט śarkarā", sw: "kutoka Kisanskriti śarkarā" },
@@ -1735,5 +1736,6 @@ WORDS.sugar = {
     bdq: ["đơng", "ɗəːŋ"],
     tji: ["tan", "tʰan˨˩"],
     mui: ["gulo", "ɡulo"],
+    bo: ["ཀ་ར", "ka˥ ʐa˥"],
   },
 };

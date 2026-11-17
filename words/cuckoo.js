@@ -573,5 +573,6 @@ WORDS.cuckoo = {
     mjg: ["gugu xuu", "ɡuɡu ɕuː"],
     peh: ["gugu", "ɡuɡu"],
     sce: ["gugu", "kuˈku"],
+    nmf: ["koktui", "koktui"],
   },
 };

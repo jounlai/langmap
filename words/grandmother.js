@@ -743,6 +743,8 @@ WORDS.grandmother = {
     cia: "one",
     mui: "one",
     pzh: "one",
+    nmf: "one",
+    sip: "one",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's mother ≠ mother's mother","ja":"父方と母方で別の語","ko":"친할머니와 외할머니가 다른 낱말","zh":"父系与母系不同的词","yue":"父系同母系唔同嘅詞","vi":"bà nội và bà ngoại khác từ","th":"ย่ากับยายเป็นคนละคำ","id":"kata berbeda untuk pihak ayah dan ibu","hi":"दादी और नानी अलग शब्द","de":"väterlich ≠ mütterlich","fr":"côté paternel ≠ côté maternel","it":"paterna ≠ materna","es":"paterna ≠ materna","pt":"paterna ≠ materna","ru":"по отцу ≠ по матери","uk":"по батькові ≠ по матері","ar":"أم الأب ≠ أم الأم","he":"אם האב ≠ אם האם","sw":"mama wa baba ≠ mama wa mama"},
@@ -820,7 +822,7 @@ WORDS.grandmother = {
     en_us: ["grandmother", "ˈɡɹænmʌðɚ"],  // One word for either grandmother; grandma in family speech.
     de_ch: ["Grossmutter", "ˈɡroːsmʊtər"],  // Swiss spelling with ss for ß; one word for either grandmother.
     ca_va: ["àvia", "ˈavia"],  // One word for either grandmother; iaia is the everyday family word.
-    bo: ["རྨོ་མོ", "mo˥˥mo˥˥"],  // Also means 'mother-in-law'.
+    bo: ["རྨོ་མོ", "mo˥mo˥"],  // Also means 'mother-in-law'.
     suk: ["mama", "mama"],  // One word for either grandmother; in Sukuma 'mother' is a different word, mayu.
     nym: ["maama", "maːma"],  // In Nyamwezi 'mother' is a different word, mayu.
     asu: ["koko", "koko"],  // One word for either grandmother; Tanzania Language Survey lists kisima (South Pare) as another word.
@@ -1430,5 +1432,7 @@ WORDS.grandmother = {
     cia: ["ompu", "ompu"],
     mui: ["nyai", "ɲai"],
     pzh: ["apu", "apu"],
+    nmf: ["ayi", "aji"],
+    sip: ["ཨ་ཉོ", "aɲo"],
   },
 };

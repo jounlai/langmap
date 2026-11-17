@@ -571,6 +571,21 @@ WORDS.wife = {
     trv: "woman",
     tsu: "spouse",
     war: "spouse",
+    acn: "own",
+    bgq: "own",
+    clk: "own",
+    kac: "own",
+    kgg: "own",
+    kha: "spouse",
+    lif: "own",
+    njo: "own",
+    nzm: "own",
+    rkt: "own",
+    sat: "woman",
+    tdh: "own",
+    thr: "woman",
+    tsj: "spouse",
+    twm: "own",
   },
   routes: {
     woman: {"color":"#db2777","emoji":"👩","en":"the same word as woman","ja":"「女」と同じ語","ko":"‘여자’와 같은 말","zh":"与“女人”同词","yue":"同「女人」同一個詞","vi":"cùng một từ với “đàn bà”","th":"คำเดียวกับ “ผู้หญิง”","id":"sama dengan kata “perempuan”","hi":"‘औरत’ वाला ही शब्द","de":"dasselbe Wort wie Frau","fr":"le même mot que femme","it":"la stessa parola di donna","es":"la misma palabra que mujer","pt":"a mesma palavra que mulher","ru":"то же слово, что «женщина»","uk":"те саме слово, що «жінка»","ar":"الكلمة نفسها لـ«امرأة»","he":"אותה מילה כמו ״אישה״","sw":"neno sawa na mwanamke"},
@@ -1085,5 +1100,20 @@ WORDS.wife = {
     trv: ["kuyuh", "kujuh"],
     tsu: ["vcongʉ", "vtsoŋɨ"],
     war: ["asawa", "ʔaˈsawa"],  // The same word means husband; it is "spouse".
+    acn: ["nʲi31mɔʔ31", "nʲi˧˩mɔʔ˧˩"],
+    bgq: ["घराळी", "ɡʱəraːɭiː"],  // Bagri also uses लुगाई "woman" for a wife; the commonest wife word in this text is घराळी.
+    clk: ["e55jɑŋ55kɹu55", "e˥˥jɑŋ˥˥kɹu˥˥"],
+    kac: ["madu jan", "mətuʔ˧˩ tʃan˧"],  // Built on madu 'lord, master', like madu wa 'husband'.
+    kgg: ["ɲãɴʕdi", "ɲãɴʕdi"],  // The word for woman, ɲãɴʕdidze, is built on it.
+    kha: ["ka tnga", "ka tŋa"],
+    lif: ["ᤔᤣ᤺ᤳ", "meːt"],
+    njo: ["kinungtsü", "kinuŋtsə"],  // Ki "house", nung "in", tsü "mother": the mother in the house. The word for woman is tetsür.
+    nzm: ["hepui", "hepui"],
+    rkt: ["মাইয়া", "maija"],
+    sat: ["ᱮᱨᱟ", "era"],
+    tdh: ["नाइमे", "naime"],
+    thr: ["बईय्यर", "bəiːjːər"],  // The same word as woman.
+    tsj: ["tsʰeroʔ", "tsʰeɾoʔ"],
+    twm: ["pᴀk13ser55", "pᴀk˩˧ser˥˥"],
   },
 };

@@ -670,6 +670,24 @@ WORDS.husband = {
     tay: "man",
     trv: "man",
     tsu: "spouse",
+    acn: "own",
+    bgq: "house",
+    bhb: "man",
+    clk: "man",
+    dz: "own",
+    kac: "lord",
+    kgg: "own",
+    kha: "spouse",
+    lif: "own",
+    nag: "man",
+    njo: "house",
+    nzm: "own",
+    rkt: "own",
+    sip: "own",
+    thr: "own",
+    tsj: "spouse",
+    twm: "own",
+    xkz: "own",
   },
   routes: {
     man: {"color":"#2563eb","emoji":"👨","en":"the same word as man","ja":"「男」と同じ語","ko":"'남자'와 같은 낱말","zh":"与“男人”同一个词","yue":"同「男人」同一個詞","vi":"cùng một từ với 'đàn ông'","th":"คำเดียวกับ 'ผู้ชาย'","id":"kata yang sama dengan 'laki-laki'","hi":"'आदमी' वाला ही शब्द","de":"dasselbe Wort wie Mann","fr":"le même mot qu'homme","it":"la stessa parola di uomo","es":"la misma palabra que hombre","pt":"a mesma palavra que homem","ru":"то же слово, что «мужчина»","uk":"те саме слово, що «чоловік (мужчина)»","ar":"الكلمة نفسها لـ«رجل»","he":"אותה מילה כמו „גבר”","sw":"neno lile lile la 'mwanamume'"},
@@ -1279,5 +1297,23 @@ WORDS.husband = {
     tay: ["mlikuy", "mlikuj"],  // The same word means man.
     trv: ["snaw", "snaw"],
     tsu: ["vcongʉ", "vtsoŋɨ"],
+    acn: ["nʲi31ŋau55", "nʲi˧˩ŋau˥˥"],
+    bgq: ["घराळो", "ɡʱəraːɭo"],  // Ghar "house" with -āḷo "the one of it"; also written घर आळो.
+    bhb: ["आदमी", "aːdmiː"],  // The same word is man.
+    clk: ["me55jɑ55", "me˥˥jɑ˥˥"],  // The same word as man (me55jɑ55 in the same list).
+    dz: ["རྨགཔ", "map"],
+    kac: ["madu wa", "mətuʔ˧˩ wa˧"],  // Built on madu 'lord, master'.
+    kgg: ["dui", "dui"],  // The word for man, duidze, is built on it.
+    kha: ["u tnga", "u tŋa"],
+    lif: ["ᤕᤧᤶᤒᤠ᤹", "jɛmbaʔ"],
+    nag: ["mota", "mota"],  // The same word as man: mota aru maiki, man and woman.
+    njo: ["kinungpu", "kinuŋpu"],  // Ki "house", nung "in", pu "father": the father in the house.
+    nzm: ["napeu", "napeu"],
+    rkt: ["ভাতার", "bʱataɾ"],
+    sip: ["ཕོ་རྒྱག", "pʰoɡʲaʔ"],
+    thr: ["लोगा", "loːɡaː"],
+    tsj: ["tsʰeroʔ", "tsʰeɾoʔ"],
+    twm: ["mᴀk13pᴀ53", "mᴀk˩˧pᴀ˥˧"],
+    xkz: ["makpa", "makpa"],  // Related to Tibetan མག་པ mag pa 'son-in-law'.
   },
 };

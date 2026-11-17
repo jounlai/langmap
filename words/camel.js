@@ -446,6 +446,16 @@ WORDS.camel = {
     sda: "ushtra",
     su: "ushtra",
     war: "gamal",
+    bgc: "ushtra",
+    bgq: "ushtra",
+    grt: "ushtra",
+    mai: "ushtra",
+    nag: "ushtra",
+    njo: "ushtra",
+    nmf: "ushtra",
+    rkt: "ushtra",
+    syl: "ushtra",
+    thr: "ushtra",
   },
   routes: {
     gamal: {"color":"#d97706","emoji":"🐫","en":"from Semitic gamal (جمل, camel, ngamia)","ja":"セム語 gamal から（جمل, camel, ngamia）","ko":"셈어 gamal에서 (جمل, camel, ngamia)","zh":"源自闪米特语 gamal（جمل, camel, ngamia）","yue":"源自閃米特語 gamal（جمل, camel, ngamia）","vi":"từ tiếng Semit gamal (جمل, camel, ngamia)","th":"จากภาษาเซมิติก gamal (جمل, camel, ngamia)","id":"dari bahasa Semit gamal (جمل, camel, ngamia)","hi":"सामी gamal से (جمل, camel, ngamia)","de":"aus semitisch gamal (جمل, camel, ngamia)","fr":"du sémitique gamal (جمل, camel, ngamia)","it":"dal semitico gamal (جمل, camel, ngamia)","es":"del semítico gamal (جمل, camel, ngamia)","pt":"do semítico gamal (جمل, camel, ngamia)","ru":"из семитского gamal (جمل, camel, ngamia)","uk":"із семітського gamal (جمل, camel, ngamia)","ar":"من السامية gamal (جمل, camel, ngamia)","he":"מ-gamal השמית (جمل, camel, ngamia)","sw":"kutoka Kisemiti gamal (جمل, camel, ngamia)"},
@@ -831,5 +841,15 @@ WORDS.camel = {
     sda: ["unta", "unta"],
     su: ["onta", "onta"],
     war: ["kamelyo", "kaˈmeljo"],  // From Spanish.
+    bgc: ["ऊँट", "ũːʈ"],
+    bgq: ["ऊंट", "ũːʈ"],
+    grt: ["ut", "ut"],
+    mai: ["ऊँट", "ũːʈ"],
+    nag: ["uth", "utʰ"],
+    njo: ["ut", "ut"],  // Borrowed from Assamese উট.
+    nmf: ["ut", "ut"],
+    rkt: ["উট", "uʈ"],
+    syl: ["উট", "uʈ"],
+    thr: ["ऊँट", "ũːʈ"],
   },
 };

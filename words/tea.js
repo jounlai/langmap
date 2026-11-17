@@ -799,6 +799,8 @@ WORDS.tea = {
     bdq: "cha",
     lis: "cha",
     mui: "te",
+    kgg: "cha",
+    nmf: "cha",
   },
   // Route marker shown on each tea label (this concept only): which trade
   // route the word travelled. Localized; falls back to en.
@@ -1558,5 +1560,7 @@ WORDS.tea = {
     bdq: ["đak che", "ɗaːk cɛː"],
     lis: ["tsha-zi", "tsʰɑ˧˩zɿ˧˧"],
     mui: ["te", "te"],
+    kgg: ["tsya", "tsja"],  // Borrowed from Nepali चिया.
+    nmf: ["chah", "tʃah"],
   },
 };

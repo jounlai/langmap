@@ -1216,5 +1216,6 @@ WORDS.stone = {
     egy_dem: ["jny", "oːne"],
     vi_mid: ["đá", "ɗaː˧˥"],
     peh: ["taɕiə", "taɕiə"],
+    lep: ["ᰜᰴ", "ləŋ"],
   },
 };

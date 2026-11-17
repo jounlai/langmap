@@ -585,6 +585,23 @@ WORDS.money = {
     pzh: "plain",
     sda: "coin",
     trv: "plain",
+    acn: "silver",
+    bgq: "coin",
+    gu: "coin",
+    kac: "silver",
+    kgg: "other",
+    kha: "coin",
+    lif: "plain",
+    mwr: "coin",
+    nag: "coin",
+    njo: "plain",
+    nmf: "coin",
+    nzm: "coin",
+    rkt: "coin",
+    syl: "coin",
+    tdh: "plain",
+    thr: "coin",
+    twm: "silver",
   },
   routes: {
     silver: {"color":"#64748b","emoji":"🥈","en":"a word for silver or gold (argent, כסף, เงิน)","ja":"銀や金を指す語（argent, כסף, เงิน）","ko":"은이나 금을 뜻하는 말 (argent, כסף, เงิน)","zh":"指银或金的词（argent, כסף, เงิน）","yue":"指銀或者金嘅詞（argent, כסף, เงิน）","vi":"từ chỉ bạc hoặc vàng (argent, כסף, เงิน)","th":"คำที่หมายถึงเงินหรือทอง (argent, כסף, เงิน)","id":"kata untuk perak atau emas (argent, כסף, เงิน)","hi":"चाँदी या सोने का शब्द (argent, כסף, เงิน)","de":"ein Wort für Silber oder Gold (argent, כסף, เงิน)","fr":"un mot pour l'argent métal ou l'or (argent, כסף, เงิน)","it":"una parola per l'argento o l'oro (argent, כסף, เงิน)","es":"una palabra para la plata o el oro (argent, כסף, เงิน)","pt":"uma palavra para a prata ou o ouro (argent, כסף, เงิน)","ru":"слово для серебра или золота (argent, כסף, เงิน)","uk":"слово для срібла чи золота (argent, כסף, เงิน)","ar":"كلمة للفضة أو الذهب (argent, כסף, เงิน)","he":"מילה לכסף המתכת או לזהב (argent, כסף, เงิน)","sw":"neno la fedha au dhahabu (argent, כסף, เงิน)"},
@@ -1110,5 +1127,22 @@ WORDS.money = {
     pzh: ["paray", "paɾaj"],
     sda: ["doiʼ", "doiʔ"],  // From Dutch duit, a small coin.
     trv: ["pila", "pila"],
+    acn: ["ŋui55", "ŋui˥˥"],  // The same word as 'silver'.
+    bgq: ["पीसा", "piːsaː"],
+    gu: ["પૈસા", "ˈpəisaː"],
+    kac: ["gumhpraw", "kum˧˩pʰʒo˧˩"],  // Also 'silver'.
+    kgg: ["gimi", "ɡimi"],  // Watters traces it to gimi haq, 'female leaf'.
+    kha: ["ka tyngka", "ka təŋka"],
+    lif: ["ᤕᤠᤱ", "jaŋ"],
+    mwr: ["रूपिया", "ruːpijaː"],
+    nag: ["poisa", "poisa"],
+    njo: ["sen", "sen"],  // No image is recorded for it, so it counts as a word of its own.
+    nmf: ["lupa", "lupa"],
+    nzm: ["boisa", "boisa"],
+    rkt: ["টাকা", "ʈaka"],
+    syl: ["টেকা", "ʈexa"],
+    tdh: ["खउलुङ", "kʰauluŋ"],
+    thr: ["पैसा", "pɛːsaː"],
+    twm: ["ŋyː55", "ŋyː˥˥"],
   },
 };

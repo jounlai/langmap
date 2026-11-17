@@ -468,6 +468,22 @@ WORDS.tear = {
     pyu: "plain",
     sda: "eyewater",
     su: "eyewater",
+    acn: "eye",
+    bgc: "plain",
+    bgq: "plain",
+    clk: "plain",
+    kgg: "eyewater",
+    lif: "eyewater",
+    nag: "eyewater",
+    ne: "plain",
+    njo: "eyewater",
+    nmf: "plain",
+    rkt: "eyewater",
+    sat: "eyewater",
+    sd: "plain",
+    sip: "eyewater",
+    thr: "plain",
+    twm: "eyewater",
   },
   routes: {
     eyewater: {"color":"#0891b2","emoji":"💧","en":"eye + water (air mata, 눈물, nước mắt)","ja":"目＋水（air mata, 눈물, nước mắt）","ko":"눈 + 물 (air mata, 눈물, nước mắt)","zh":"眼＋水（air mata、눈물、nước mắt）","yue":"眼＋水（air mata、눈물、nước mắt）","vi":"mắt + nước (air mata, 눈물, nước mắt)","th":"ตา + น้ำ (air mata, 눈물, nước mắt)","id":"mata + air (air mata, 눈물, nước mắt)","hi":"आँख + पानी (air mata, 눈물, nước mắt)","de":"Auge + Wasser (air mata, 눈물, nước mắt)","fr":"œil + eau (air mata, 눈물, nước mắt)","it":"occhio + acqua (air mata, 눈물, nước mắt)","es":"ojo + agua (air mata, 눈물, nước mắt)","pt":"olho + água (air mata, 눈물, nước mắt)","ru":"глаз + вода (air mata, 눈물, nước mắt)","uk":"око + вода (air mata, 눈물, nước mắt)","ar":"عين + ماء (air mata, 눈물, nước mắt)","he":"עין + מים (air mata, 눈물, nước mắt)","sw":"jicho + maji (air mata, 눈물, nước mắt)"},
@@ -880,5 +896,21 @@ WORDS.tear = {
     pyu: ["elu", "əɭu"],
     sda: ["uai mata", "uai mata"],  // 'Eye water': uai 'water' and mata 'eye'.
     su: ["cipanon", "tʃipanon"],  // Cai 'water' + panon 'eye'.
+    acn: ["nʲɔʔ55pi55", "nʲɔʔ˥˥pi˥˥"],  // Built on nʲɔʔ 'eye'.
+    bgc: ["आँसू", "ãːsuː"],
+    bgq: ["आंसू", "ãːsuː"],
+    clk: ["ʔi55bɹi55bɹɑ55", "ʔi˥˥bɹi˥˥bɹɑ˥˥"],
+    kgg: ["iŋ gidaŋ", "iŋ ɡidaŋ"],  // Eye + water, as in ata gidaŋ 'mouth water', saliva.
+    lif: ["ᤔᤡᤰᤘᤠ᤺", "mikwaː"],
+    nag: ["suku pani", "suku pani"],  // suku 'eye' + pani 'water'.
+    ne: ["आँसु", "ãːsu"],
+    njo: ["nüktzü", "nəktsə"],  // Tenük "eye" and tzü "water".
+    nmf: ["chahru", "tʃahru"],
+    rkt: ["চোখুর জল", "tʃokʰuɾ dʒɔl"],
+    sat: ["ᱢᱮᱫ ᱫᱟᱜ", "met daʔ"],
+    sd: ["ڳوڙهو", "ɠoːɽʱo"],
+    sip: ["མིག་ཆུ", "miktɕʰu"],  // Literally 'eye-water'.
+    thr: ["आँसु", "ãːsu"],
+    twm: ["mik53tshi53", "mik˥˧tsʰi˥˧"],
   },
 };

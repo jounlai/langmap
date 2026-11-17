@@ -402,6 +402,7 @@ WORDS.milkyway = {
     la_late: "milk",
     mn_cn: "other",
     khb: "road",
+    sd: "milk",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -747,5 +748,6 @@ WORDS.milkyway = {
     la_late: ["lacteus circulus", "ˈlaktjos ˈkʲerkolos"],
     mn_cn: ["ᠲᠩᠷᠢ ᠶᠢᠨ ᠣᠶᠤᠳᠠᠯ", "təŋɡəriːn ɔjɔdɑl"],
     khb: ["ᦑᦱᧂᦋᦱᧂᧉ", "taːŋ˥˩ tsaːŋ˩"],  // Literally "elephant road", ᦑᦱᧂ "road" + ᦋᦱᧂᧉ "elephant".
+    sd: ["کيرائين واٽ", "kʰiːraːiːn ʋaːʈ"],  // Literally 'milky way'.
   },
 };

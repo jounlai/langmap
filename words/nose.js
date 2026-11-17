@@ -1204,5 +1204,6 @@ WORDS.nose = {
     egy_dem: ["šy", "ʃa"],
     vi_mid: ["mũi", "muj˧ˀ˥"],
     blt: ["ꪒꪰꪉ", "daŋ˨"],
+    lep: ["ᰊᰪᰭᰍᰩᰮ", "tɯknɔm"],
   },
 };

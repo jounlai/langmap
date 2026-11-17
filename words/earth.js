@@ -1223,5 +1223,6 @@ WORDS.earth = {
     vi_mid: ["đất", "ɗət˧˥"],
     mvf: ["ghajari", "ɢaʥari"],
     tji: ["peti", "pʰɯe˧˥tʰi˥˥"],
+    new: ["चा", "tɕa"],
   }
 };

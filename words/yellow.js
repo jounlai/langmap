@@ -667,6 +667,10 @@ WORDS.yellow = {
     kpe: "plain",
     maw: "fruit",
     mev: "other",
+    chb: "plain",
+    emy: "plain",
+    nci: "plain",
+    qwc: "plain",
   },
   routes: {
     turmeric: {"color":"#d97706","emoji":"🫚","en":"turmeric","ja":"ウコン","ko":"강황","zh":"姜黄","yue":"黃薑","vi":"nghệ","th":"ขมิ้น","id":"kunyit","hi":"हल्दी","de":"Kurkuma","fr":"le curcuma","it":"la curcuma","es":"la cúrcuma","pt":"a curcuma","ru":"куркума","uk":"куркума","ar":"الكركم","he":"כורכום","sw":"manjano"},
@@ -1273,5 +1277,9 @@ WORDS.yellow = {
     kpe: ["kpeleŋ", "kpeleŋ"],
     maw: ["dɔzum", "dɔzum"],  // Named after the yellow powder inside the dawadawa pod.
     mev: ["zóló", "zóló"],  // The same word as red.
+    chb: ["atiban mague", "atiban maɡwe"],
+    emy: ["kʼan", "kʼan"],
+    nci: ["cōztic", "ˈkoːstik"],
+    qwc: ["qʼillu", "qʼiʎu"],
   },
 };

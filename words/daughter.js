@@ -1186,5 +1186,6 @@ WORDS.daughter = {
     peh: ["agu", "aɡu"],
     ybe: ["qïz", "qɯz"],  // Also 'girl'.
     auj: ["wə̀lli", "ˈwəlːi"],
+    chb: ["chuta", "tʃuta"],
   },
 };

@@ -1186,5 +1186,6 @@ WORDS.honey = {
     ykg: ["сальӻарииньэл молльэ иисии", "salʲʁariːnʲel mollʲe iːsiː"],  // “Bumblebee milk”.
     xng: ["ᠪᠠᠯ", "bal"],
     jpr: ["עסל", "æsæl"],
+    emy: ["kab", "kaɓ"],  // The same word as kab, earth.
   },
 };

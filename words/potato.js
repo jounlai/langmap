@@ -610,6 +610,9 @@ WORDS.potato = {
     snk: "papa",
     tzm: "papa",
     es_sgl: "papa",
+    nci: "other",
+    qwc: "papa",
+    tpn: "other",
   },
   routes: {
     papa: {"color":"#ca8a04","emoji":"🏔️","en":"Quechua papa · Taíno batata","ja":"ケチュア語 papa・タイノ語 batata","ko":"케추아어 papa · 타이노어 batata","zh":"克丘亚语 papa・泰诺语 batata","yue":"克丘亞語 papa · 泰諾語 batata","vi":"Quechua papa · Taíno batata","th":"เกชัว papa · ไตโน batata","id":"Quechua papa · Taíno batata","hi":"क्वेचुआ papa · ताइनो batata","de":"Quechua papa · Taíno batata","fr":"quechua papa · taïno batata","it":"quechua papa · taíno batata","es":"quechua papa · taíno batata","pt":"quéchua papa · taíno batata","ru":"кечуа papa · таино batata","uk":"кечуа papa · таїно batata","ar":"كيتشوا papa · تاينو batata","he":"קצ'ואה papa · טאינו batata","sw":"Kikechua papa · Kitaino batata"},
@@ -1161,5 +1164,8 @@ WORDS.potato = {
     snk: ["faatata", "faːtata"],
     tzm: ["ⴱⴰⵟⴰⵟⴰ", "batˤatˤa"],
     es_sgl: ["papa", "ˈpapa"],
+    nci: ["camohtli", "kaˈmoʔtɬi"],  // There were no potatoes in Mexico yet; camohtli is the sweet potato.
+    qwc: ["papa", "papa"],
+    tpn: ["îetyka", "jeˈtɨka"],  // There were no potatoes on the Brazilian coast; îetyka is the sweet potato.
   },
 };

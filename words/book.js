@@ -1136,5 +1136,6 @@ WORDS.book = {
     hit: ["𒁾𒉿", "tupːi"],  // There were no books; tuppi was the clay tablet Hittite scribes wrote on, borrowed from Akkadian ṭuppu.
     peo: ["𐎮𐎡𐎱𐎡𐏁", "dipiʃ"],  // There were no books; dipi was a written text—an inscription, or a document on clay or leather.
     jpr: ["כתאב", "ketɒːb"],
+    onw: ["ϣⲟⲗ", "ʃol"],
   }
 };

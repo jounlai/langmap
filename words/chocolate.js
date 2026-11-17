@@ -630,5 +630,7 @@ WORDS.chocolate = {
     zza: ["çikolata", "tʃikolata"],
     ar_tn: ["شكلاطة", "ʃuklaːtˤa"],
     es_sgl: ["chocolate", "tʃokoˈlate"],
+    emy: ["kakaw", "kakaw"],  // Classic Maya vases are often labelled as cups for kakaw.
+    nci: ["chocolātl", "tʃokoˈlaːtɬ"],
   }
 };

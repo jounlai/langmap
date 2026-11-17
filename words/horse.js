@@ -1171,5 +1171,6 @@ WORDS.horse = {
     obr: ["မြင်", "mraŋh"],
     jpr: ["אסב", "æsb"],
     qxq: ["at", "ɑt"],
+    qwc: ["kawallu", "kawaʎu"],  // The horse came with the Spanish, and Quechua took their word caballo for it.
   }
 };

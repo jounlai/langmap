@@ -111,6 +111,13 @@ try { s = cp.execSync(`python3 ${path.join(__dirname, 'build_ipa_fonts.py')} --c
 catch (e) { s = String(e.stdout || ''); }
 line('Han/Word Map IPA fonts cover readings', num(s, /stale: (\d+)/));
 
+// The Word Order sentence validator CI runs (validate_data.py). Not wired in
+// before 2026-11-17, so removing sentences from the ancient rows passed here and
+// failed on GitHub.
+try { s = cp.execSync(`python3 ${path.join(__dirname, '..', 'validate_data.py')}`, { encoding: 'utf8', cwd: path.join(__dirname, '..') }); }
+catch (e) { s = String(e.stdout || '') + '\nTotal: x sentences, 1 errors'; }
+line('Word Order sentence validator', num(s, /Total: \S+ sentences, (\d+) errors/));
+
 s = run('korean_hist_font_check.js');
 line('Old Hangul font coverage', num(s, /problems: (\d+)/));
 

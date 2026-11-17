@@ -262,7 +262,22 @@ def validate(filepath='data.js', auto_fix=False):
     # Languages registered in app.js but with no data yet are pending and should
     # not make every sentence fail validation.
     required_langs = set().union(*(s.get('langs', {}).keys() for s in sentences))
+    # Ancient rows that deliberately carry only the sentences their sources can express
+    # (owner ruling 2026-11-15, langmap_reviews/128): they are not required in every
+    # sentence, but their sentence count is pinned so an accidental loss still fails.
+    PARTIAL_ROWS = {'ine': 10, 'hit': 35, 'sux': 59}
+    partial_errors = []
+    for code, want in PARTIAL_ROWS.items():
+        have = sum(1 for s in sentences if code in s.get('langs', {}))
+        if have != want:
+            partial_errors.append(f"  [{code}] partial row has {have} sentences, expected {want} (update PARTIAL_ROWS if intended)")
+    required_langs -= set(PARTIAL_ROWS)
     total_errors = 0
+    if partial_errors:
+        print("Partial rows:")
+        for e in partial_errors: print(e)
+        print()
+        total_errors += len(partial_errors)
     total_warnings = 0
 
     print(f"Validating {len(sentences)} sentences across {len(required_langs)} languages with data...\n")

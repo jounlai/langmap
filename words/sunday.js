@@ -558,6 +558,8 @@ WORDS.sunday = {
     kry: "market",
     tig: "sabbath",
     udi: "market",
+    ofs: "sun",
+    pmh: "sun",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -1056,5 +1058,7 @@ WORDS.sunday = {
     kry: ["bazar", "bazar"],
     tig: ["ሰምበት ዐቢይ", "sambat ʕabbij"],  // Literally 'the great sabbath'.
     udi: ["базарунгъи", "bazarunʁi"],  // Also беъингъ.
+    ofs: ["sunnandei", "ˈsunːandei"],
+    pmh: ["रविवार", "raʋiʋaːra"],
   },
 };

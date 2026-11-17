@@ -470,6 +470,10 @@ WORDS.soap = {
     tkr: "sabun",
     udi: "sabun",
     zza: "sabun",
+    de_lut: "sapo",
+    en_em: "sapo",
+    goh: "sapo",
+    non: "sapo",
   },
   routes: {
     sapo: {"color":"#2563eb","emoji":"🏛️","en":"Latin sapo","ja":"ラテン語 sapo","ko":"라틴어 sapo","zh":"拉丁语 sapo","yue":"拉丁語 sapo","vi":"tiếng Latinh sapo","th":"ละติน sapo","id":"Latin sapo","hi":"लैटिन sapo","de":"lateinisch sapo","fr":"le latin sapo","it":"il latino sapo","es":"el latín sapo","pt":"o latim sapo","ru":"латинское sapo","uk":"латинське sapo","ar":"اللاتينية sapo","he":"הלטינית sapo","sw":"Kilatini sapo"},
@@ -881,5 +885,9 @@ WORDS.soap = {
     tkr: ["сапып", "sapɨp"],
     udi: ["сапӏун", "sapʼun"],
     zza: ["sabun", "sabun"],
+    de_lut: ["Seiffe", "ˈzaɪ̯fə"],
+    en_em: ["sope", "soːp"],
+    goh: ["seifa", "ˈseifa"],
+    non: ["sápa", "ˈsɑːpɑ"],
   },
 };

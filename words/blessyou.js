@@ -220,6 +220,7 @@ WORDS.blessyou = {
     pi: "health",
     ja_chu: "other",
     aii: "god",
+    de_lut: "god",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"🙏","en":"God · blessing · mercy","ja":"神・祝福・慈悲","ko":"신 · 축복 · 자비","zh":"神・祝福・怜悯","yue":"神 · 祝福 · 憐憫","vi":"Chúa · phúc lành · lòng thương xót","th":"พระเจ้า · พร · ความเมตตา","id":"Tuhan · berkat · rahmat","hi":"ईश्वर · आशीर्वाद · रहम","de":"Gott · Segen · Erbarmen","fr":"Dieu · bénédiction · miséricorde","it":"Dio · benedizione · misericordia","es":"Dios · bendición · misericordia","pt":"Deus · bênção · misericórdia","ru":"Бог · благословение · милость","uk":"Бог · благословення · милість","ar":"الله · البركة · الرحمة","he":"האל · ברכה · רחמים","sw":"Mungu · baraka · rehema"},
@@ -384,5 +385,6 @@ WORDS.blessyou = {
     pi: ["जीव", "dʒiːva"],  // When the Buddha sneezed his monks cried jīva, 'live!'; the Vinaya then lets monks answer a layman's blessing with ciraṃ jīva, 'live long'.
     ja_chu: ["くさめ", "kusame"],  // Said as a charm when someone sneezed; Tsurezuregusa (c.1330) tells of a nun repeating it so that a sneeze would not bring death.
     aii: ["ܒܪܚܡܐ", "bəraxmeː"],  // Literally 'with mercies'.
+    de_lut: ["helf Gott", "hɛlf ɡɔt"],
   },
 };

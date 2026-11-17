@@ -317,6 +317,7 @@ WORDS.adamsapple = {
     h_tagalog: "other",
     lbe: "plain",
     zh_yuan: "other",
+    en_em: "adam",
   },
   routes: {
     adam: {"color":"#dc2626","emoji":"🍏","en":"Adam's apple","ja":"アダムのりんご","ko":"아담의 사과","zh":"亚当的苹果","yue":"亞當嘅蘋果","vi":"táo của Adam","th":"แอปเปิลของอาดัม","id":"apel Adam","hi":"आदम का सेब","de":"Adams Apfel","fr":"pomme d'Adam","it":"pomo d'Adamo","es":"fruto de Adán","pt":"maçã de Adão","ru":"яблоко Адама","uk":"яблуко Адама","ar":"تفاحة آدم","he":"תפוח אדם","sw":"tufaha la Adamu"},
@@ -578,5 +579,6 @@ WORDS.adamsapple = {
     h_tagalog: ["ᜎᜎᜄᜓᜃᜈ᜔", "lalaˈɡukan"],
     lbe: ["хьетӏ", "xetʼ"],  // No image is recorded for it, so it counts as a word of its own.
     zh_yuan: ["結喉", "kiɛ xəu"],
+    en_em: ["Adams apple", "ˈadəmz ˈapəl"],
   },
 };

@@ -803,6 +803,10 @@ WORDS.n99 = {
     el_kath: "dec",
     he_mis: "plural",
     pi: "sub",
+    de_lut: "unit",
+    en_em: "dec",
+    enm: "dec",
+    gmh: "unit",
   },
   routes: {
     dec: {
@@ -1619,5 +1623,9 @@ WORDS.n99 = {
     el_kath: ["ἐνενήκοντα ἐννέα", "eneˈnikonda eˈnea"],
     he_mis: ["תשעים ותשעה", "tiʃˈʕim vətiʃˈʕa"],
     pi: ["एकूनसत", "ekuːnasata"],
+    de_lut: ["neun vnd neunzig", "ˈnɔɪ̯n ʊnt ˈnɔɪ̯ntsɪç"],
+    en_em: ["ninety and nine", "ˈnəinti and nəin"],
+    enm: ["nynti and nyne", "ˈniːntiː and ˈniːnə"],
+    gmh: ["niunundeniunzec", "ˈnyːnundəˌnyːntsɛk"],
   }
 };

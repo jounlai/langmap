@@ -561,6 +561,9 @@ WORDS.china = {
     ko_em: "other",
     aii: "cina",
     qxq: "cina",
+    en_em: "cina",
+    enm: "khitan",
+    pmh: "cina",
   },
   family2: {
     bo: "zhongguo",
@@ -1068,5 +1071,8 @@ WORDS.china = {
     ko_em: ["청국", "tɕʰəŋɡuk"],  // Koreans of the time usually named China after its ruling Qing (淸) dynasty.
     aii: ["ܨܝܢ", "sˤiːn"],
     qxq: ["Çin", "tʃin"],
+    en_em: ["China", "ˈtʃəinə"],
+    enm: ["Cathay", "kaˈtæi̯"],  // Medieval English knew China as Cathay, the 'gretest kyngdom' of Mandeville's Travels.
+    pmh: ["चीण", "tʃiːɳa"],
   },
 };

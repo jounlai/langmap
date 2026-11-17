@@ -355,6 +355,9 @@ WORDS.shootingstar = {
     zh_yuan: "moving",
     ja_kanbun: "moving",
     aii: "other",
+    en_em: "moving",
+    gmh: "other",
+    pmh: "other",
   },
   routes: {
     falling: {"color":"#2563eb","emoji":"⬇️","en":"a falling star","ja":"落ちる星","ko":"떨어지는 별","zh":"落下的星","yue":"跌落嘅星","vi":"sao rơi","th":"ดาวที่ตก","id":"bintang jatuh","hi":"गिरता तारा","de":"fallender Stern","fr":"étoile qui tombe","it":"stella che cade","es":"estrella que cae","pt":"estrela que cai","ru":"падающая звезда","uk":"зірка, що падає","ar":"نجم يسقط","he":"כוכב שנופל","sw":"nyota inayoanguka"},
@@ -655,5 +658,8 @@ WORDS.shootingstar = {
     zh_yuan: ["流星", "liəu siəŋ"],
     ja_kanbun: ["流星", "ɾʲɯːseː"],
     aii: ["ܢܝܙܟܐ", "najzəxɑː"],  // Also a spear.
+    en_em: ["shooting star", "ˈʃuːtɪŋ staːr"],
+    gmh: ["sternschōz", "ˈstɛrnʃoːs"],  // 'Star shot': stern 'star' plus schōz 'a shot'.
+    pmh: ["उक्का", "ukːaː"],
   },
 };

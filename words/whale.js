@@ -511,6 +511,8 @@ WORDS.whale = {
     ko_em: "plain",
     kjj: "plain",
     kry: "plain",
+    de_lut: "fish",
+    en_em: "plain",
   },
   routes: {
     fish: {"color":"#2563eb","emoji":"🐟","en":"called a fish","ja":"「魚」と呼ぶ","ko":"\"물고기\"라 부름","zh":"称作\"鱼\"","yue":"叫做「魚」","vi":"gọi là cá","th":"เรียกว่าปลา","id":"disebut ikan","hi":"मछली कहा जाता है","de":"als Fisch bezeichnet","fr":"appelée poisson","it":"chiamata pesce","es":"llamada pez","pt":"chamada peixe","ru":"называют рыбой","uk":"називають рибою","ar":"تُسمّى سمكة","he":"נקרא דג","sw":"huitwa samaki"},
@@ -967,5 +969,7 @@ WORDS.whale = {
     ko_em: ["고래", "koɾɛ"],
     kjj: ["накъкъа", "naqːa"],
     kry: ["kit", "kit"],
+    de_lut: ["Walfisch", "ˈvaːlfɪʃ"],
+    en_em: ["whale", "ʍeːl"],
   },
 };

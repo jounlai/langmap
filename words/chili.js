@@ -434,6 +434,13 @@ WORDS.chili = {
     ckb: "pepper",
     tab: "pepper",
     zza: "plain",
+    ang: "pepper",
+    enm: "pepper",
+    gmh: "pepper",
+    goh: "pepper",
+    non: "pepper",
+    ofs: "pepper",
+    pmh: "pepper",
   },
   routes: {
     chilli: {"color":"#dc2626","emoji":"🌶️","en":"Nahuatl chīlli (chile, chili, sili)","ja":"ナワトル語 chīlli（chile, chili, sili）","ko":"나우아틀어 chīlli (chile, chili, sili)","zh":"纳瓦特尔语 chīlli（chile、chili、sili）","yue":"納瓦特爾語 chīlli（chile、chili、sili）","vi":"tiếng Nahuatl chīlli (chile, chili, sili)","th":"นาวาตล์ chīlli (chile, chili, sili)","id":"Nahuatl chīlli (chile, chili, sili)","hi":"नाहुआत्ल chīlli (chile, chili, sili)","de":"Nahuatl chīlli (chile, Chili, sili)","fr":"le nahuatl chīlli (chile, chili, sili)","it":"il nahuatl chīlli (chile, chili, sili)","es":"el náhuatl chīlli (chile, chili, sili)","pt":"o náuatle chīlli (chile, chili, sili)","ru":"науатль chīlli (chile, chili, sili)","uk":"науатль chīlli (chile, chili, sili)","ar":"الناواتل chīlli (chile, chili, sili)","he":"הנאוואטל chīlli (chile, chili, sili)","sw":"Kinahuatl chīlli (chile, chili, sili)"},
@@ -806,5 +813,12 @@ WORDS.chili = {
     ckb: ["بیبەری تیژ", "biːbaɾiː tiːʒ"],
     tab: ["ургру иставут", "urɡru istavut"],
     zza: ["isot", "isot"],  // Hot chili is isoto tûn.
+    ang: ["pipor", "ˈpipor"],  // There were no chillies in Anglo-Saxon England; pipor was black pepper, the hot spice they knew.
+    enm: ["peper", "ˈpɛpər"],  // There were no chili peppers; peper is the black pepper medieval cooks used for heat.
+    gmh: ["pfeffer", "ˈpfɛfər"],  // Chili came from the Americas much later; pfeffer, black pepper from India, was the hot spice of medieval kitchens.
+    goh: ["pfeffar", "ˈpfeffar"],  // Chili had not yet come from the Americas; pfeffar was the black pepper used as the hot spice.
+    non: ["piparr", "ˈpipɑrː"],  // There were no chili peppers; piparr is the black pepper that brought heat to Norse food.
+    ofs: ["piper", "ˈpiper"],  // Chili had not yet come from the Americas; piper was the black pepper Frisians knew as the hot spice.
+    pmh: ["मिरिअ", "miria"],  // There were no chillies in India yet; मिरिअ was black pepper, the hot spice of the day, and its descendant मिर्च later passed to the chilli.
   },
 };

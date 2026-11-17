@@ -254,6 +254,7 @@ WORDS.goosebumps = {
     sa_edu: "hair",
     kpv: "plain",
     myv: "plain",
+    pmh: "hair",
   },
   family2: {
     ko: "bird",
@@ -456,5 +457,6 @@ WORDS.goosebumps = {
     sa_edu: ["रोमाञ्चः", "ɾoːmaːɲtɕɐh"],
     kpv: ["пупыш", "ˈpupɨʃ"],
     myv: ["зуйть", "zujtʲ"],
+    pmh: ["रोमंच", "romaɲtʃa"],
   },
 };

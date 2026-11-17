@@ -516,7 +516,7 @@ WORDS.salt = {
     bjn: ["uyah", "ujah"],
     kaw: ["ꦈꦪꦃ", "ujah"],
     min: ["garam", "ɡaram"],
-    omy: ["garam", "ɡaram"],
+    omy: ["—", "—"],
     abs: ["garang", "ɡaraŋ"],
     max: ["garam", "ɡaram"],
     mui: ["garam", "ɡaram"],
@@ -1233,7 +1233,7 @@ WORDS.salt = {
     zh_yuan: ["鹽", "iɛm"],
     pura: ["—", "—"],
     juc: ["dabusun", "dabusun"],  // no. 527 Salz, tah-puh-sun, m. dabsun. Grube 1896 glossary, read from the scan 2026-11-06.
-    ohu: ["só", "ʃoː"],
+    ohu: ["sȍw", "ʃoːw"],
     xsa: ["𐩣𐩡𐩢", "milħ"],
     okz: ["អំប្យល", "ʔəmˈɓiːəl"],
     kho: ["𑀦𑀫𑁆𑀯", "namva"],

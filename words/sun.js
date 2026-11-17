@@ -1143,7 +1143,7 @@ WORDS.sun = {
     qwc: ["inti", "inti"],
     omc: ["xllang", "ɬaŋ"],
     chb: ["súa", "sua"],
-    omy: ["matari", "matari"],
+    omy: ["—", "—"],
     osn: ["panon poe", "panon poe"],
     h_tagalog: ["ᜀᜇᜏ᜔", "aɾaw"],
     zkt: {
@@ -1156,7 +1156,7 @@ WORDS.sun = {
     juc: ["inenggi", "ineŋɡi"],  // Grube 1896 #3 'Sonne, Tag' = yih-nöng-kih, m. inenggi — one Jurchen word for sun and day. The row's earlier šun is the Manchu sun word, which Grube's entry does not license; see the row comment on the invented 漢字音訳.
     omx: ["တ္ၚဲ", "tŋɔj"],
     pyx: ["—", "—"],
-    obr: ["နိ", "nij"],
+    obr: ["နိယ်", "nij"],
     ocm: ["huriy", "hurij"],
     och: ["日", "*C.nik"],
     ojp: ["日", "pi"],

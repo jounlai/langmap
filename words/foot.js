@@ -1979,12 +1979,12 @@ WORDS.foot = {
     obr: ["ခြိယ်", "kʰrij"],  // Old Burmese ခြိယ်, the ancestor of Burmese ခြေ — one word for the limb.
     oc: ["pè", "pɛ"],  // pè vs camba.
     och: ["足", "*[ts]ok"],  // Baxter-Sagart 足 *[ts]ok 'foot' against 脛 *m-kʰˤeŋ-s 'shank' and 股 *kʷˤaʔ 'thigh'.
-    ocm: ["takai", "takai"],  // Old Cham takai, one word for the limb, as its Austronesian ancestor *qaqay was.
+    ocm: ["kakai", "kakai"],
     ofs: ["fōt", "foːt"],  // Hofmann & Popkema s.v. fōt; OED s.v. shank cites Old Frisian skunka 'leg'.
     ohu: ["láb", "laːb"],  // ÚESz s.v. láb: the 1267 sense is glossed 'Bein, Fuß' — one word for the limb from the earliest Old Hungarian data, as the modern hu row still is; lábfej and lábszár are later compounds on it.
     oj: ["nizid", "nizid"],  // Ojibwe splits them. IPA is the plain reading of the orthography, following how this row's own hand cell writes ninij as ninidʒ.
     ojp: ["足", "asi"],  // PJ *asi runs the whole limb (日本国語大辞典: 股関節から足先まで), as the compounds 足占 a-ura and 足結 a-yupi show.
-    okz: ["ជើង", "ɟɤːŋ"],  // r60: IPA moved to Jenner's Angkorian value with the row's 16-cell switch (was cɤːŋ). Earlier note: Jenner's Angkorian Khmer A1040 glosses jeṅ 'Lower limb: foot (pāda), leg', passim over 254 inscriptional occurrences; IPA is Jenner's own modern-Khmer citation value, as this row's ភ្លើង pʰlɤːŋ already is.
+    okz: ["ជេង", "ɟɤːŋ"],
     olk: ["ebmal", "ebmal"],  // Hamilton's Kowanyama dictionary gives ebmal 'foot, toe' for both Olkola and Oykangand, with ebmal iba 'sole of foot' beside it, against odndo 'shin, lower leg' and ubman 'thigh'; amun and arrbmbun are the Uw Ilbmbanhdhiy respect forms, not the everyday word.
     olo: ["jalgu", "ˈjalɡu"],  // One word for the whole lower limb, the Uralic norm.
     om: ["miilla", "miːlːa"],  // Oromo splits them. IPA is the plain reading of the orthography, following how this row's own hand cell writes harka as haɾka.

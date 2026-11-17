@@ -712,7 +712,7 @@ WORDS.bird = {
     qwc: ["pisqu", "pisqu"],
     omc: ["ñaiñ", "ɲaiɲ"],
     chb: ["sue", "sue"],
-    omy: ["burung", "buruŋ"],
+    omy: ["—", "—"],
     osn: ["manuk", "manuk"],
     h_tagalog: ["ᜁᜊᜓᜈ᜔", "iˈbon"],
     omx: ["ဂစေံ", "kəncem"],

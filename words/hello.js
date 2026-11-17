@@ -1039,7 +1039,7 @@ WORDS.hello = {
     gmh: ["gegrüezet", "ɡəˈɡryːətsət"],
     es_sgl: ["Dios os guarde", "djos os ˈɡwaɾde"],
     osp: ["salud", "saˈlud"],
-    okz: ["សួស្តី", "swaˈsɗiː"],
+    okz: ["ស្វស្តិ", "swaˈsɗiː"],
     osx: ["heil", "heil"],
     mos: ["ne y yibeoogo", "ne i jibeoːɡo"],
     maw: ["n na ti bʋɔ", "n na ti bʊɔ"],

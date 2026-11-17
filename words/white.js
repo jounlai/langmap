@@ -977,7 +977,7 @@ WORDS.white = {
     onw: ["ⳟⲟⲩⲗⲟⲩ", "ŋulu"],
     qwc: ["yuraq", "juɾaq"],
     chb: ["apquyhyzyn mague", "apkɨhɨzɨn maɡwe"],
-    omy: ["putih", "putih"],
+    omy: ["—", "—"],
     osn: ["bodas", "bodas"],
     h_tagalog: ["ᜉᜓᜆᜒ", "puˈtiʔ"],
     juc: ["šanggia", "ʃaŋɡia"],

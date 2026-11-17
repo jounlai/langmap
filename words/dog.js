@@ -1045,7 +1045,7 @@ WORDS.dog = {
     gmh: ["hunt", "hunt"],
     es_sgl: ["perro", "ˈpero"],
     osp: ["can", "kan"],
-    okz: ["ឆ្កែ", "cʰkɛː"],
+    okz: ["ឆ្កេ", "cʰkɛː"],
     osx: ["hund", "hund"],
     mos: ["baaga", "baːɡa"],
     maw: ["baaga", "baːɡa"],

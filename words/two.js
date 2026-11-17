@@ -294,7 +294,7 @@ WORDS.two = {
       ain: ["トゥ", "tu"],
       fi: ["kaksi", "ˈkɑksi"],
       hu: ["kettő", "ˈkɛtːøː"],
-      ohu: ["kettő", "ˈketːøː"],
+      ohu: ["kettēw", "ˈketːeːw"],
       el: ["δύο", "ˈðio"],
       nl: ["twee", "tʋeː"],
       pl: ["dwa", "dva"],

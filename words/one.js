@@ -1163,7 +1163,7 @@ WORDS.one = {
     },
     omx: ["မွဲ", "moj"],
     pyx: ["taṁ", "tä(k)"],
-    obr: ["တ", "tac"],
+    obr: ["တစ်", "tac"],
     ocm: ["sa", "sa"],
     och: ["一", "*ʔi[t]"],
     ojp: ["比登都", "pitətu"],

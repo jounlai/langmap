@@ -2132,7 +2132,7 @@ WORDS.we = {
     gmh: ["wir", "wir"],
     es_sgl: ["nosotros", "noˈsotɾos"], // was ["nosotros", "nosˈotros"] (vi dialect rules 2026-10-06) // was ["nosotros", "noˈsotros"] (vi dialect rules 2026-10-06)
     osp: ["nós", "nos"],
-    okz: ["យើង", "jɤːŋ"], // r60: Angkorian value (Jenner), was jeːŋ
+    okz: ["យេង", "jɤːŋ"],
     osx: ["wī", "wiː"],
     mos: ["tõnd", "tõnd"],
     maw: ["tidima", "tidima"],

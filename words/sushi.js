@@ -291,7 +291,7 @@ WORDS.sushi = {
     "och": ["—", "—"],
     "ojp": ["鮓", "susi"],
     "okz": ["ប្រហុក", "prɑhok"],
-    "omy": ["pekasam", "pəkasam"],
+    "omy": ["—", "—"],
     "os": ["суши", "suʃi"],
     "osp": ["cecial", "tseˈtsjal"],
     "osn": ["tarasi", "tarasi"],

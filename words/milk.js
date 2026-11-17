@@ -533,7 +533,7 @@ WORDS.milk = {
     pmy: ["susu", "susu"],
     bew: ["susu", "susu"],
     mfa: ["susu", "susu"],
-    omy: ["susu", "susu"],
+    omy: ["—", "—"],
     kaw: ["ꦱꦸꦱꦸ", "susu"],
     sm: ["susu", "susu"],
     ilo: ["gatas", "ˈɡatas"],

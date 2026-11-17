@@ -550,7 +550,7 @@ WORDS.egg = {
     gmh: ["ei", "ei̯"],
     es_sgl: ["huevo", "ˈweβo"],
     osp: ["huevo", "ˈweβo"],
-    okz: ["ពង", "pɔːŋ"],
+    okz: ["—", "—"],
     osx: ["ei", "ɛi"],
     mfe: ["dizef", "dizef"],
     rcf: ["zèf", "zɛf"],

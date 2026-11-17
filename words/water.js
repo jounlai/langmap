@@ -1038,7 +1038,7 @@ WORDS.water = {
     gmh: ["wazzer", "ˈwasːər"],
     es_sgl: ["agua", "ˈaɣwa"],
     osp: ["agua", "ˈaɣwa"],
-    okz: ["ទឹក", "dɪk"],
+    okz: ["ទិក", "dɪk"],
     osx: ["watar", "ˈwatar"],
     mos: ["koom", "koːm"],
     maw: ["kuom", "kuom"],

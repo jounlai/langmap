@@ -647,7 +647,7 @@ WORDS.nose = {
     osn: ["irung", "iruŋ"],
     h_tagalog: ["ᜁᜎᜓᜅ᜔", "iˈloŋ"],
     obr: ["နှာ", "n̥aː"],
-    ocm: ["idung", "iduŋ"],
+    ocm: ["—", "—"],
     och: ["鼻", "*m-bi[t]-s"],
     ojp: ["鼻", "pana"],
     h_vedic: ["नासा", "náːsaː"],

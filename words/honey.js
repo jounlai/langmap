@@ -1184,5 +1184,6 @@ WORDS.honey = {
     mui: ["madu", "madu"],
     lep: ["ᰋᰪ", "tʰɯ"],
     ykg: ["сальӻарииньэл молльэ иисии", "salʲʁariːnʲel mollʲe iːsiː"],  // “Bumblebee milk”.
+    xng: ["ᠪᠠᠯ", "bal"],
   },
 };

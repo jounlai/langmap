@@ -610,6 +610,11 @@ WORDS.bread = {
     khv: "plain",
     skr: "roti",
     yai: "nan",
+    cmg: "other",
+    och: "plain",
+    zh_tang: "plain",
+    zh_wenyan_edu: "plain",
+    zh_yuan: "plain",
   },
   routes: {
     panis: {"color":"#d97706","emoji":"🥖","en":"Latin pānis, and Portuguese pão abroad (pain, pan, パン, 빵)","ja":"ラテン語 pānis と、海を渡ったポルトガル語 pão（pain, pan, パン, 빵）","ko":"라틴어 pānis와 바다를 건넌 포르투갈어 pão (pain, pan, パン, 빵)","zh":"拉丁语 pānis，及远渡重洋的葡萄牙语 pão（pain、pan、パン、빵）","yue":"拉丁文 pānis，同漂洋過海嘅葡萄牙文 pão（pain、pan、パン、빵）","vi":"tiếng Latin pānis, và tiếng Bồ Đào Nha pão ra nước ngoài (pain, pan, パン, 빵)","th":"ละติน pānis และโปรตุเกส pão ที่ข้ามทะเล (pain, pan, パン, 빵)","id":"Latin pānis, dan Portugis pão di seberang laut (pain, pan, パン, 빵)","hi":"लैटिन pānis, और समुद्र पार पुर्तगाली pão (pain, pan, パン, 빵)","de":"lateinisch pānis und portugiesisch pão in Übersee (pain, pan, パン, 빵)","fr":"le latin pānis, et le portugais pão outre-mer (pain, pan, パン, 빵)","it":"il latino pānis, e il portoghese pão oltremare (pain, pan, パン, 빵)","es":"el latín pānis, y el portugués pão en ultramar (pain, pan, パン, 빵)","pt":"o latim pānis, e o português pão além-mar (pain, pan, パン, 빵)","ru":"латинское pānis и португальское pão за морем (pain, pan, パン, 빵)","uk":"латинське pānis і португальське pão за морем (pain, pan, パン, 빵)","ar":"اللاتينية pānis، والبرتغالية pão وراء البحار (pain, pan, パン, 빵)","he":"הלטינית pānis, והפורטוגזית pão מעבר לים (pain, pan, パン, 빵)","sw":"Kilatini pānis, na Kireno pão ng'ambo (pain, pan, パン, 빵)"},
@@ -1158,5 +1163,10 @@ WORDS.bread = {
     khv: ["батаху", "bataχu"],
     skr: ["روٹی", "roːʈiː"],
     yai: ["non", "non"],
+    cmg: ["ᠲᠠᠯᠬ᠎ᠠ", "talqa"],
+    och: ["餅", "*peŋʔ"],  // There was no bread as such; 餅 was a flat cake made from wheat flour.
+    zh_tang: ["胡餅", "ɦɔ piajŋ"],  // The 'foreign cake', a baked sesame flatbread sold on Chang'an's streets.
+    zh_wenyan_edu: ["餅", "pɛːŋ˧˥"],  // There was no bread as such; 餅 was a flat cake made from wheat flour.
+    zh_yuan: ["饅頭", "muɔn tʰəu"],  // Oven bread was not everyday food; the steamed wheat bun 饅頭 was the north's daily loaf.
   },
 };

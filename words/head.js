@@ -1226,5 +1226,6 @@ WORDS.head = {
     mvf: ["tulighui", "tuləɢui"],
     oar: ["ראש", "reːʃ"],
     obr: ["ခေါင်", "kʰoŋh"],
+    xng: ["ᠲᠡᠷᠢᠭᠦᠨ", "teriyn"],
   },
 };

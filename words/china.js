@@ -556,6 +556,7 @@ WORDS.china = {
     xct_litpr: "other",
     av: "khitan",
     mhr: "khitan",
+    xng: "khitan",
   },
   family2: {
     bo: "zhongguo",
@@ -1058,5 +1059,6 @@ WORDS.china = {
     xct_litpr: ["རྒྱ་ནག", "ɟana"],
     av: ["Китай", "kitaj"],  // Route by resemblance to the neighbouring forms (lbe, cv, lez); no etymology of its own.
     mhr: ["Китай", "kiˈtaj"],
+    xng: ["ᠺᠢᠲᠠᠳ", "kitat"],  // Kitat named the Khitans and the North China they had ruled.
   },
 };

@@ -730,6 +730,9 @@ WORDS.language = {
     txg: "speech",
     pnb: "speech",
     yai: "tongue",
+    cmg: "tongue",
+    xng: "tongue",
+    xqa: "tongue",
   },
   routes: {
     tongue: {"color":"#dc2626","emoji":"👅","en":"the tongue (langue, язык, dil)","ja":"舌（langue, язык, dil）","ko":"혀 (langue, язык, dil)","zh":"舌头（langue、язык、dil）","yue":"脷（langue、язык、dil）","vi":"cái lưỡi (langue, язык, dil)","th":"ลิ้น (langue, язык, dil)","id":"lidah (langue, язык, dil)","hi":"जीभ (langue, язык, dil)","de":"die Zunge (langue, язык, dil)","fr":"l'organe, la langue (langue, язык, dil)","it":"l'organo, la lingua (langue, язык, dil)","es":"el órgano, la lengua (langue, язык, dil)","pt":"o órgão, a língua (langue, язык, dil)","ru":"орган язык (langue, язык, dil)","uk":"орган язик (langue, язык, dil)","ar":"اللسان (langue, язык, dil)","he":"הלשון (langue, язык, dil)","sw":"ulimi (langue, язык, dil)"},
@@ -1398,5 +1401,8 @@ WORDS.language = {
     txg: ["𘒣", "da˧˥"],
     pnb: ["بولی", "boːliː"],  // From بولݨا 'to speak'.
     yai: ["zivōk", "zivoːk"],
+    cmg: ["ᠬᠡᠯᠡ", "kele"],
+    xng: ["ᠬᠡᠯᠡᠨ", "kelen"],
+    xqa: ["til", "til"],  // The same word as tongue.
   },
 };

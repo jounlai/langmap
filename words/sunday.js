@@ -552,6 +552,8 @@ WORDS.sunday = {
     myv: "rest",
     pnb: "sun",
     yrk: "resurrection",
+    cmg: "sun",
+    vi_nom: "lord",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -1044,5 +1046,7 @@ WORDS.sunday = {
     myv: ["недлячи", "ɲedlʲatɕʲi"],  // Недля is Russian неделя, the old Slavic Sunday, 'no work', plus чи 'day'.
     pnb: ["ایتوار", "ɛːtʋaːɾ"],  // From Prakrit āittavāra, the sun's day.
     yrk: ["воскресенье", "woːskrʲeːsʲeːɲʲeː"],
+    cmg: ["ᠨᠢᠮ᠎ᠠ", "nima"],
+    vi_nom: ["主日", "tɕu˧˩˧ ɲət˧˨ʔ"],
   },
 };

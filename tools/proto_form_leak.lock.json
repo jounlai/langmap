@@ -1006,5 +1006,53 @@
     "proto": "p_sit",
     "ruling": "inherited",
     "note": "Attested Old Burmese: Hill 2017's Old Burmese list and the Pagan inscription corpus (gap rally A04). Burmese keeps the Sino-Tibetan form; the match is inheritance, not a copied reconstruction."
+  },
+  "cmg|husband": {
+    "form": "ere",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol (Secret History) and Classical Mongolian are the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
+  "cmg|island": {
+    "form": "aral",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol (Secret History) and Classical Mongolian are the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
+  "xng|butterfly": {
+    "form": "herbekei",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol (Secret History) and Classical Mongolian are the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
+  "xng|honey": {
+    "form": "bal",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol (Secret History) and Classical Mongolian are the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
+  "xng|husband": {
+    "form": "ere",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol (Secret History) and Classical Mongolian are the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
+  "xng|island": {
+    "form": "aral",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol (Secret History) and Classical Mongolian are the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
+  "xng|language": {
+    "form": "kelen",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol (Secret History) and Classical Mongolian are the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
+  "xqa|language": {
+    "form": "til",
+    "proto": "ptrk",
+    "ruling": "inherited",
+    "note": "Attested Karakhanid til 'tongue, language' (Kāšġarī, Clauson); Turkic kept the Proto-Turkic form."
   }
 }

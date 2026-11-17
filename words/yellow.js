@@ -624,6 +624,12 @@ WORDS.yellow = {
     srh: "ghel",
     sva: "plain",
     yrk: "plain",
+    cmg: "sari",
+    och: "plain",
+    vi_han: "plain",
+    vi_nom: "gold",
+    xqa: "sari",
+    zh_wenyan_edu: "plain",
   },
   routes: {
     turmeric: {"color":"#d97706","emoji":"🫚","en":"turmeric","ja":"ウコン","ko":"강황","zh":"姜黄","yue":"黃薑","vi":"nghệ","th":"ขมิ้น","id":"kunyit","hi":"हल्दी","de":"Kurkuma","fr":"le curcuma","it":"la curcuma","es":"la cúrcuma","pt":"a curcuma","ru":"куркума","uk":"куркума","ar":"الكركم","he":"כורכום","sw":"manjano"},
@@ -1187,5 +1193,11 @@ WORDS.yellow = {
     srh: ["zird", "ziɾd"],
     sva: ["ყუ̂ითელ", "qʼwitʰel"],
     yrk: ["тасехэй", "tɑsʲeːxæj"],  // No image is recorded for it, so it counts as a word of its own.
+    cmg: ["ᠰᠢᠷ᠎ᠠ", "ʃira"],
+    och: ["黃", "*N-kʷˤaŋ"],
+    vi_han: ["黃", "hwaːŋ˨˩"],
+    vi_nom: ["黃", "vaːŋ˨˩"],
+    xqa: ["sarığ", "sarɯɣ"],
+    zh_wenyan_edu: ["黃", "wɔːŋ˨˩"],
   },
 };

@@ -518,6 +518,9 @@ WORDS.week = {
     pnb: "seven",
     sva: "plain",
     yrk: "seven",
+    och: "other",
+    vi_nom: "other",
+    zh_wenyan_edu: "other",
   },
   routes: {
     seven: {"color":"#2563eb","emoji":"7️⃣","en":"the number seven","ja":"数の七","ko":"일곱이라는 수","zh":"数字七","yue":"數字七","vi":"con số bảy","th":"เลขเจ็ด","id":"angka tujuh","hi":"सात की संख्या","de":"die Zahl Sieben","fr":"le nombre sept","it":"il numero sette","es":"el número siete","pt":"o número sete","ru":"число семь","uk":"число сім","ar":"العدد سبعة","he":"המספר שבע","sw":"namba saba"},
@@ -977,5 +980,8 @@ WORDS.week = {
     pnb: ["ہفتہ", "ɦəftaː"],  // From Persian haft 'seven'; also Saturday.
     sva: ["ნაგზი", "naɡzi"],
     yrk: ["сиˮив", "sʲiʔiw"],  // The same word as seven.
+    och: ["旬", "*s-N-qʷi[n]"],  // There was no seven-day week; the Shang and Zhou counted days in tens, and 旬 is that ten-day period.
+    vi_nom: ["旬", "twən˨˩"],
+    zh_wenyan_edu: ["旬", "tsʰɵn˨˩"],  // Classical Chinese counted days in tens; 旬 is that ten-day period.
   },
 };

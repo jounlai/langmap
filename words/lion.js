@@ -529,6 +529,13 @@ WORDS.lion = {
     pnb: "shir",
     tt: "arslan",
     xmf: "plain",
+    vi_han: "shi",
+    vi_nom: "shi",
+    xng: "arslan",
+    xqa: "arslan",
+    zh_tang: "shi",
+    zh_wenyan_edu: "shi",
+    zh_yuan: "shi",
   },
   routes: {
     leo: {"color":"#2563eb","emoji":"🏛️","en":"from Latin leo, Greek leon (Löwe, лев, león)","ja":"ラテン語 leo、ギリシャ語 leon から (Löwe, лев, león)","ko":"라틴어 leo, 그리스어 leon에서 (Löwe, лев, león)","zh":"来自拉丁语 leo、希腊语 leon (Löwe, лев, león)","yue":"嚟自拉丁語 leo、希臘語 leon (Löwe, лев, león)","vi":"từ tiếng Latinh leo, tiếng Hy Lạp leon (Löwe, лев, león)","th":"จากภาษาละติน leo ภาษากรีก leon (Löwe, лев, león)","id":"dari leo Latin, leon Yunani (Löwe, лев, león)","hi":"लैटिन leo, यूनानी leon से (Löwe, лев, león)","de":"aus Lateinisch leo, Griechisch leon (Löwe, лев, león)","fr":"du latin leo, du grec leon (Löwe, лев, león)","it":"dal latino leo, dal greco leon (Löwe, лев, león)","es":"del latín leo, del griego leon (Löwe, лев, león)","pt":"do latim leo, do grego leon (Löwe, лев, león)","ru":"от латинского leo, греческого leon (Löwe, лев, león)","uk":"від латинського leo, грецького leon (Löwe, лев, león)","ar":"من اللاتينية leo واليونانية leon (Löwe, лев, león)","he":"מהלטינית leo, מהיוונית leon (Löwe, лев, león)","sw":"kutoka Kilatini leo, Kigiriki leon (Löwe, лев, león)"},
@@ -1000,5 +1007,12 @@ WORDS.lion = {
     pnb: ["شیر", "ʃeːɾ"],  // Also tiger.
     tt: ["арыслан", "ɑrɯsˈlɑn"],
     xmf: ["ნჯილო", "ndʒilo"],
+    vi_han: ["獅子", "sɨ˧˧ tɨ˧˩˧"],
+    vi_nom: ["獅子", "sɨ˧ tɨ˧˩˧"],
+    xng: ["ᠠᠷᠰᠯᠠᠨ", "arslan"],
+    xqa: ["arslan", "arslan"],
+    zh_tang: ["師子", "ʂi tsɨ"],  // Tang writers spelled the lion 師子; the 獅 character came later.
+    zh_wenyan_edu: ["獅子", "siː˥ tsiː˧˥"],
+    zh_yuan: ["獅子", "ʂʅ tsɿ"],
   },
 };

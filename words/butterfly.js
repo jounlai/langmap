@@ -951,5 +951,6 @@ WORDS.butterfly = {
     bdq: ["pơlai", "pəlaːj"],
     mui: ["kupu-kupu", "kupu kupu"],
     pwo: ["ဖံၫဒိၭခၩ", "pʰi ɗoʔ kʰa"],
+    xng: ["ᠡᠷᠪᠡᠬᠡᠢ", "herbekei"],
   },
 };

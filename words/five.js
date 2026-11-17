@@ -1224,5 +1224,6 @@ WORDS.five = {
     la_late: ["quinque", "ˈkʷinkʷe"],
     egy_dem: ["tyw", "tiu"],
     vi_mid: ["năm", "nam˧"],
+    p_jpk: ["*itu", "itu"],
   },
 };

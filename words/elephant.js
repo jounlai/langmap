@@ -631,6 +631,8 @@ WORDS.elephant = {
     maw: "plain",
     sus: "plain",
     nci: "elephas",
+    p_sit: "plain",
+    psem: "pil",
   },
   routes: {
     elephas: {"color":"#2563eb","emoji":"🏛️","en":"from Greek ἐλέφας, Latin elephantus (elephant, Elefant)","ja":"ギリシャ語 ἐλέφας、ラテン語 elephantus から (elephant, Elefant)","ko":"그리스어 ἐλέφας, 라틴어 elephantus에서 (elephant, Elefant)","zh":"来自希腊语 ἐλέφας、拉丁语 elephantus (elephant, Elefant)","yue":"嚟自希臘語 ἐλέφας、拉丁語 elephantus (elephant, Elefant)","vi":"từ tiếng Hy Lạp ἐλέφας, Latinh elephantus (elephant, Elefant)","th":"จากภาษากรีก ἐλέφας ละติน elephantus (elephant, Elefant)","id":"dari ἐλέφας Yunani, elephantus Latin (elephant, Elefant)","hi":"यूनानी ἐλέφας, लैटिन elephantus से (elephant, Elefant)","de":"aus griechisch ἐλέφας, lateinisch elephantus (elephant, Elefant)","fr":"du grec ἐλέφας, latin elephantus (elephant, Elefant)","it":"dal greco ἐλέφας, latino elephantus (elephant, Elefant)","es":"del griego ἐλέφας, latín elephantus (elephant, Elefant)","pt":"do grego ἐλέφας, latim elephantus (elephant, Elefant)","ru":"от греческого ἐλέφας, латинского elephantus (elephant, Elefant)","uk":"від грецького ἐλέφας, латинського elephantus (elephant, Elefant)","ar":"من اليونانية ἐλέφας واللاتينية elephantus (elephant, Elefant)","he":"מהיוונית ἐλέφας, מהלטינית elephantus (elephant, Elefant)","sw":"kutoka Kigiriki ἐλέφας, Kilatini elephantus (elephant, Elefant)"},
@@ -1202,5 +1204,7 @@ WORDS.elephant = {
     maw: ["wɔbgu", "wɔbɡu"],  // No image is recorded for it, so it counts as a word of its own.
     sus: ["sili", "sili"],
     nci: ["elefānte", "iliˈpaːnteʔ"],
+    p_sit: ["*m-gwi(y)", "m-ɡwi(j)"],
+    psem: ["*pīl-", "piːl"],
   },
 };

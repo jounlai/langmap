@@ -1178,5 +1178,6 @@ WORDS.mountain = {
     jpr: ["כוה", "kuːh"],
     qxq: ["dağ", "dɑʁ"],
     gha: ["adurar", "adurar"],  // Recorded from the Ayt Welid.
+    p_jpk: ["*yama", "jama"],
   }
 };

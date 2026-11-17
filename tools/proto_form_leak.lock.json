@@ -1054,5 +1054,23 @@
     "proto": "ptrk",
     "ruling": "inherited",
     "note": "Attested Karakhanid til 'tongue, language' (Kāšġarī, Clauson); Turkic kept the Proto-Turkic form."
+  },
+  "ojp|tear": {
+    "form": "namita",
+    "proto": "p_jpk p_jpn",
+    "ruling": "inherited",
+    "note": "Old Japanese namita 'tear' (Man'yōshū); Proto-Japonic *namita is reconstructed with it and Ryukyuan. Gap rally A10, 2026-11-18."
+  },
+  "ojp|thousand": {
+    "form": "ti",
+    "proto": "p_jpk p_jpn",
+    "ruling": "inherited",
+    "note": "Old Japanese ti 'thousand' kept the Proto-Japonic form. Gap rally A10, 2026-11-18."
+  },
+  "xng|thumb": {
+    "form": "herekei",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol is the basis of the Proto-Mongolic reconstruction (row-level ruling as xng|language). Gap rally A10, 2026-11-18."
   }
 }

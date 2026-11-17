@@ -1205,5 +1205,7 @@ WORDS.wind = {
     koy: ["ałtsʼeeyh", "aɬtsʼiːjh"],
     osn: ["angin", "aŋin"],
     qxq: ["yel", "jel"],
+    p_jpk: ["*kansai", "kansai"],
+    p_viet: ["*k-jɔːʔ ~ *kʰjɔːʔ", "k-jɔːʔ ~ kʰjɔːʔ"],
   },
 };

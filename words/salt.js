@@ -1288,5 +1288,6 @@ WORDS.salt = {
     egy_dem: ["ḥmꜣ", "hmu"],
     vi_mid: ["múôi", "muəj˧˥"],
     obr: ["ဆာ", "tsʰaːh"],
+    p_jpk: ["*sipo", "sipo"],
   },
 };

@@ -1219,5 +1219,7 @@ WORDS.stone = {
     lep: ["ᰜᰴ", "ləŋ"],
     kho: ["𑀲𑀁𑀕𑁆𑀕", "saŋɡa"],
     ani: ["гьинцӏо", "hintsʼo"],
+    p_jpk: ["*isoi", "isoi"],
+    p_viet: ["*l-taːʔ", "l-taːʔ"],
   },
 };

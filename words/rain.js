@@ -1205,5 +1205,6 @@ WORDS.rain = {
     jpr: ["באראן", "bɒːrɒːn"],
     qxq: ["yağış", "jɑˈʁɯʃ"],
     ekp: ["mini", "mini"],
+    p_jpk: ["*amai", "amai"],
   },
 };

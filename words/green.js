@@ -1086,5 +1086,8 @@ WORDS.green = {
     jpr: ["סבז", "sæbz"],
     qxq: ["yaşıl", "jɑˈʃɯl"],
     dag: ["baŋkom", "baŋkom"],
+    p_jpk: ["*awo", "awo"],
+    p_ryu: ["*ao", "ao"],
+    pafa: ["*waraḳ-", "warakʼ"],
   }
 };

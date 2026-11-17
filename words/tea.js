@@ -808,6 +808,7 @@ WORDS.tea = {
     qxq: "cha",
     gha: "cha",
     mev: "te",
+    p_ryu: "cha",
   },
   // Route marker shown on each tea label (this concept only): which trade
   // route the word travelled. Localized; falls back to en.
@@ -1576,5 +1577,6 @@ WORDS.tea = {
     qxq: ["çay", "tʃɑj"],
     gha: ["əššahi", "əʃːahi"],  // Also ātay.
     mev: ["tíì", "tíì"],
+    p_ryu: ["*tya", "tja"],
   },
 };

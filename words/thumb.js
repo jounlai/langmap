@@ -701,6 +701,8 @@ WORDS.thumb = {
     ohu: "plain",
     dnj: "other",
     tpn: "big",
+    pmng: "plain",
+    pura: "plain",
   },
   routes: {
     mother: {"color":"#db2777","emoji":"👪","en":"mother · parent · elder kin","ja":"母・親・年長の身内","ko":"어머니 · 어버이 · 웃어른","zh":"母亲・父母・长辈","yue":"阿媽 · 父母 · 長輩","vi":"mẹ · cha mẹ · bậc trên","th":"แม่ · พ่อแม่ · ญาติผู้ใหญ่","id":"ibu · orang tua · kerabat tua","hi":"माँ · माता-पिता · बड़े","de":"Mutter · Eltern · ältere Verwandte","fr":"mère · parent · aîné","it":"madre · genitore · parente anziano","es":"madre · padre · pariente mayor","pt":"mãe · pai · parente mais velho","ru":"мать · родитель · старший родич","uk":"мати · батько · старший родич","ar":"أم · والد · قريب أكبر","he":"אם · הורה · קרוב מבוגר","sw":"mama · mzazi · ndugu mkubwa"},
@@ -1346,5 +1348,7 @@ WORDS.thumb = {
     ohu: ["hüvelyk", "hyvɛʎk"],
     dnj: ["kœ̄œŋgā gɔ̄n", "kɒ̄ːŋɡā ɡɔ̃̄"],  // Literally 'male finger'.
     tpn: ["pûãgûasu", "pʷãɡʷaˈsu"],
+    pmng: ["*herekei", "herekei"],
+    pura: ["*pälkä", "pælkæ"],
   },
 };

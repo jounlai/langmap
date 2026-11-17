@@ -977,5 +977,6 @@ WORDS.wheel = {
     mui: ["roda", "roda"],
     kxv: ["sagaḍa billa", "saɡaɖa billa"],
     maw: ["gbari", "ɡbari"],  // The same word means 'leg'.
+    pura: ["*peŋärä", "peŋæræ"],
   }
 };

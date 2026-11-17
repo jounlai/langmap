@@ -1184,5 +1184,6 @@ WORDS.milk = {
     yuy: ["sun", "sun"],
     kho: ["𑀱𑁆𑀯𑀻𑀤", "ʂwiːda"],
     ja_mvi: ["乳", "tsɨː"],
+    p_ryu: ["*ti", "ti"],
   },
 };

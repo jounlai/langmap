@@ -1181,5 +1181,6 @@ WORDS.person = {
     elx: ["𒇽", "ruh"],
     kho: ["𑀳𑁆𑀯𑁂", "hwe"],
     jpr: ["אנסאן", "ensɒːn"],
+    p_jpk: ["*pitə", "pitə"],
   }
 };

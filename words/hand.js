@@ -659,7 +659,7 @@ WORDS.hand = {
     puaz: ["*man", "man"],
     pban: ["*-bókò", "-bókò"],
     p_sit: ["*lak", "lak"],
-    psem: ["*yad-", "yad"],
+    psem: ["*yad-", "jad"],
     pura: ["*käti", "kæti"],
     p_dra: ["*kay", "kaj"],
     paus: ["*lima", "lima"],

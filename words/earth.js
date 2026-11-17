@@ -1229,5 +1229,6 @@ WORDS.earth = {
     h_goguryeo: ["內", "*na"],  // The 'soil' element of place names such as 黑壤 'black soil' = 今勿奴 and 槐壤 = 仍斤內.
     jpr: ["כאך", "xɒːk"],
     qxq: ["yer", "jer"],
+    p_jpk: ["*mita", "mita"],
   }
 };

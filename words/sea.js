@@ -1131,5 +1131,7 @@ WORDS.sea = {
     xpu: ["𐤉𐤌", "jamm"],
     obr: ["ပင်လယ်", "paŋlaj"],
     jpr: ["דריא", "dærjɒː"],
+    p_jpk: ["*omi", "omi"],
+    p_viet: ["*peh ~ *pes", "peh ~ pes"],
   }
 };

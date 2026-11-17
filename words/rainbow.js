@@ -869,6 +869,11 @@ WORDS.rainbow = {
     dnj: "plain",
     ekp: "plain",
     chb: "plain",
+    p_aav: "plain",
+    p_jpk: "plain",
+    p_jpn: "plain",
+    p_ryu: "plain",
+    p_tun: "plain",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1681,5 +1686,10 @@ WORDS.rainbow = {
     dnj: ["kpɤ̀ŋ", "kpɤ̀ŋ"],  // Also dhā kpɤ̀ŋ, with dhā 'rain'.
     ekp: ["egwu", "eɡwu"],
     chb: ["chuquy", "tʃukɨ"],
+    p_aav: ["*briəŋ", "briəŋ"],
+    p_jpk: ["*nonsi", "nonsi"],
+    p_jpn: ["*nonsi", "nonsi"],
+    p_ryu: ["*nozi", "nozi"],
+    p_tun: ["*sēru", "seːru"],
   },
 };

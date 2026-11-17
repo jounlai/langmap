@@ -1018,5 +1018,6 @@ WORDS.snow = {
     ja_mvi: ["雪", "jutsɨ"],
     ssy: ["barad", "baɾad"],
     siz: ["əttəlʒ", "ətːəlʒ"],
+    p_jpk: ["*yoki", "joki"],
   }
 };

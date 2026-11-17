@@ -1231,5 +1231,6 @@ WORDS.sleep = {
     koy: ["biłniltinh", "biɬniltinh"],
     jpr: ["כואבידן", "xɒːbiːdæn"],
     kry: ["əxrucu", "æxrudʒu"],
+    p_jpk: ["*nenpur-", "nenpur-"],
   },
 };

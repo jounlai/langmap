@@ -1221,5 +1221,7 @@ WORDS.bird = {
     vi_mid: ["chim", "cim˧"],
     kxm: ["កូនចាប", "koːn caːp"],
     jpr: ["פרנדה", "pærænde"],
+    p_jpk: ["*təri", "təri"],
+    pafa: ["*c̣ir", "tsʼir"],
   },
 };

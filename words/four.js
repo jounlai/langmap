@@ -1255,5 +1255,6 @@ WORDS.four = {
     cja: ["ڤآء", "paʔ"],  // Wiktionary Cham Jawi spelling; Kvoeu-Hor & Friberg (1978) pak.
     xht: ["tūḫul", "tuːxul"],
     kho: ["𑀢𑁆𑀘𑀳𑁄𑀭", "tsahora"],
+    p_jpk: ["*yə", "jə"],
   },
 };

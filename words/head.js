@@ -1229,5 +1229,6 @@ WORDS.head = {
     xng: ["ᠲᠡᠷᠢᠭᠦᠨ", "teriyn"],
     jpr: ["סר", "sær"],
     qxq: ["baş", "bɑʃ"],
+    p_jpk: ["*kanpu", "kanpu"],
   },
 };

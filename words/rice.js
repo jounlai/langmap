@@ -928,5 +928,7 @@ WORDS.rice = {
     omy: ["barras", "bəras"],
     xng: ["ᠲᠤᠲᠤᠷᠭᠠᠨ", "tuturqan"],
     qxq: ["düge", "dyˈɟe"],
+    p_jpk: ["*kəmai", "kəmai"],
+    p_viet: ["*r-koːʔ", "r-koːʔ"],
   }
 };

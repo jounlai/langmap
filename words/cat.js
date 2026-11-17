@@ -505,7 +505,7 @@ WORDS.cat = {
     hup: ['—', '—'],
     kfa: ["ಪೂಞೆ", "puːɲe"],  // Cognate with Tamil பூஞை pūñai and Malayalam പൂച്ച pūcca (Wiktionary).
     kfr: ["મન્ની", "mənːiː"],  // Romanised mannī; compare Mehsani Gujarati મની manī (Wiktionary).
-    kry: ['—', '—'],
+    kry: ["gəç", "ɡætʃ"],  // IDS Kryz (Khalilov) 3-620 gäč.
     luz: ['gorbe', 'ɡoɾˈbe'],
     osc: ['—', '—'],
     pkp: ['pusi', 'pusi'],

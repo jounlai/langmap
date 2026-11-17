@@ -1229,5 +1229,7 @@ WORDS.sleep = {
     tji: ["nie", "ȵie˧˥"],
     kho: ["𑀳𑀽𑀲𑁆", "huːs"],
     koy: ["biłniltinh", "biɬniltinh"],
+    jpr: ["כואבידן", "xɒːbiːdæn"],
+    kry: ["əxrucu", "æxrudʒu"],
   },
 };

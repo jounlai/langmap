@@ -1169,5 +1169,7 @@ WORDS.horse = {
     kho: ["𑀅𑀰𑁆𑀰", "aɕa"],
     h_tagalog: ["ᜃᜊᜌᜓ", "kaˈbajo"],
     obr: ["မြင်", "mraŋh"],
+    jpr: ["אסב", "æsb"],
+    qxq: ["at", "ɑt"],
   }
 };

@@ -627,5 +627,6 @@ WORDS.chocolate = {
     ace: ["suklat", "suklat"],
     h_tagalog: ["ᜐᜒᜃᜓᜎᜆᜒ", "sikuˈlate"],
     doi: ["चाकलेट", "tʃaːkleːʈ"],
+    zza: ["çikolata", "tʃikolata"],
   }
 };

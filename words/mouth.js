@@ -1256,5 +1256,6 @@ WORDS.mouth = {
     cia: ["bhobha", "ɓoɓa"],
     txb: ["𑀓𑁄𑀬𑁆𑀦𑁆", "kojn"],
     osn: ["sungut", "suŋut"],
+    jpr: ["דהן", "dæhæn"],
   }
 };

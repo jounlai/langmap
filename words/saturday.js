@@ -500,6 +500,13 @@ WORDS.saturday = {
     pnb: "other",
     yrk: "sabbath",
     cmg: "saturn",
+    ar_jo: "sabbath",
+    ar_ps: "sabbath",
+    azb: "sabbath",
+    bdk: "sabbath",
+    kjj: "plain",
+    kry: "sabbath",
+    tig: "sabbath",
   },
   routes: {
     saturn: {"color":"#7c3aed","emoji":"🪐","en":"Saturn's day","ja":"土星の日","ko":"토성의 날","zh":"土星之日","yue":"土星嘅日","vi":"ngày sao Thổ","th":"วันของดาวเสาร์","id":"hari Saturnus","hi":"शनि का दिन","de":"Saturns Tag","fr":"le jour de Saturne","it":"il giorno di Saturno","es":"el día de Saturno","pt":"o dia de Saturno","ru":"день Сатурна","uk":"день Сатурна","ar":"يوم زحل","he":"יום שבתאי","sw":"siku ya Zohali"},
@@ -942,5 +949,12 @@ WORDS.saturday = {
     pnb: ["ہفتہ", "ɦəftaː"],  // The same word as week.
     yrk: ["суббота", "subboːtɑ"],
     cmg: ["ᠪᠢᠮᠪᠠ", "bimba"],
+    ar_jo: ["السبت", "isˈsabt"],
+    ar_ps: ["السبت", "isˈsabt"],
+    azb: ["شنبه", "ʃænˈbæ"],
+    bdk: ["шамат", "ʃamat"],
+    kjj: ["чӏинди", "tʃʼindi"],
+    kry: ["şembi", "ʃembi"],
+    tig: ["ሰምበት ንኢሽ", "sambat nəʔiʃ"],  // Literally 'the small sabbath'.
   },
 };

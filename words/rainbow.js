@@ -855,6 +855,9 @@ WORDS.rainbow = {
     xqa: "other",
     ja_chu: "plain",
     ko_em: "other",
+    ar_lev: "bow",
+    ar_sd: "plain",
+    kry: "plain",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1653,5 +1656,8 @@ WORDS.rainbow = {
     xqa: ["yel kögen", "jel køɡen"],
     ja_chu: ["虹", "niʑi"],
     ko_em: ["무지게", "mudʑiɡe"],
+    ar_lev: ["قوس", "ʔoːs"],  // The same word as 'bow, arch'.
+    ar_sd: ["هيم", "hiːm"],
+    kry: ["tʼəm", "tʼæm"],
   },
 };

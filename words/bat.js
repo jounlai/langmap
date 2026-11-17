@@ -724,6 +724,10 @@ WORDS.bat = {
     huz: "plain",
     sva: "plain",
     ko_em: "mouse",
+    ar_sd: "plain",
+    bqi: "other",
+    kry: "plain",
+    tig: "other",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1393,5 +1397,9 @@ WORDS.bat = {
     huz: ["пӏапӏи", "pʼapʼi"],
     sva: ["მეთა̈თხ", "metʰætʰx"],
     ko_em: ["박쥐", "pakt͈ɕwi"],
+    ar_sd: ["وطواط", "watˤwaːtˤ"],  // Sudanese also says أبو رقيعة abū rigēʿa.
+    bqi: ["شوکوره", "ʃawkure"],  // 'Night-blind', like Persian شب‌کور.
+    kry: ["tsʼoqʼunur", "tsʼoqʼunur"],
+    tig: ["ዕዊራ ላሊ", "ʕəwira lali"],  // Literally 'blind one of the night'.
   },
 };

@@ -559,6 +559,8 @@ WORDS.china = {
     xng: "khitan",
     ja_kanbun: "zhongguo",
     ko_em: "other",
+    aii: "cina",
+    qxq: "cina",
   },
   family2: {
     bo: "zhongguo",
@@ -1064,5 +1066,7 @@ WORDS.china = {
     xng: ["ᠺᠢᠲᠠᠳ", "kitat"],  // Kitat named the Khitans and the North China they had ruled.
     ja_kanbun: ["中國", "tɕɯːɡokɯ"],
     ko_em: ["청국", "tɕʰəŋɡuk"],  // Koreans of the time usually named China after its ruling Qing (淸) dynasty.
+    aii: ["ܨܝܢ", "sˤiːn"],
+    qxq: ["Çin", "tʃin"],
   },
 };

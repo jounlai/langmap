@@ -1130,5 +1130,6 @@ WORDS.sea = {
     xht: ["ḫan", "xan"],
     xpu: ["𐤉𐤌", "jamm"],
     obr: ["ပင်လယ်", "paŋlaj"],
+    jpr: ["דריא", "dærjɒː"],
   }
 };

@@ -1175,5 +1175,7 @@ WORDS.mountain = {
     ocm: ["cam̃k", "tʃək"],
     osn: ["gunung", "ɡunuŋ"],
     ani: ["бул", "bul"],
+    jpr: ["כוה", "kuːh"],
+    qxq: ["dağ", "dɑʁ"],
   }
 };

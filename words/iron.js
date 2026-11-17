@@ -1179,5 +1179,6 @@ WORDS.iron = {
     xht: ["ḫapalki", "xapalki"],  // Hittite borrowed this word as ḫapalki, the same form as on the Hittite row.
     kho: ["𑀳𑀻𑀰𑁆𑀰𑀦", "hiːɕana"],
     xto: ["𑀅𑀜𑁆𑀘𑀼", "aɲtsu"],
+    jpr: ["אהן", "ɒːhæn"],
   },
 };

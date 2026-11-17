@@ -1207,5 +1207,6 @@ WORDS.hundred = {
     vi_mid: ["tlăm", "tlam˧"],
     sux: ["𒐕𒐏", "ŋeʃ nimin"],  // Sumerian counted in sixties, so a hundred was 'sixty-forty'.
     osn: ["saratus", "saratus"],
+    jpr: ["צד", "sæd"],
   },
 };

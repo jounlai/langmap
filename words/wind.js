@@ -1204,5 +1204,6 @@ WORDS.wind = {
     vi_mid: ["gió", "ʝɔ˧˥"],
     koy: ["ałtsʼeeyh", "aɬtsʼiːjh"],
     osn: ["angin", "aŋin"],
+    qxq: ["yel", "jel"],
   },
 };

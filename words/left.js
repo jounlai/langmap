@@ -622,6 +622,20 @@ WORDS.left = {
     sva: "plain",
     yai: "bad",
     xqa: "plain",
+    acw: "compass",
+    agx: "plain",
+    ar_jo: "compass",
+    ar_ps: "compass",
+    azb: "plain",
+    bdk: "plain",
+    bqi: "bad",
+    kjj: "plain",
+    kry: "plain",
+    qxq: "bad",
+    rut: "plain",
+    ssy: "plain",
+    tig: "other",
+    tkr: "plain",
   },
   routes: {
     bad: {"color":"#dc2626","emoji":"↩️","en":"'crooked, bent, wrong, tired'","ja":"「曲がった、間違った、疲れた」","ko":"‘굽은, 틀린, 지친’","zh":"“弯曲、错误、疲惫”","yue":"「屈曲、錯、攰」","vi":"“cong, sai, mệt”","th":"“งอ ผิด เหนื่อย”","id":"“bengkok, salah, lelah”","hi":"‘टेढ़ा, ग़लत, थका’","de":"„krumm, falsch, müde“","fr":"« tordu, faux, fatigué »","it":"“storto, sbagliato, stanco”","es":"«torcido, equivocado, cansado»","pt":"«torto, errado, cansado»","ru":"«кривой, неправильный, усталый»","uk":"«кривий, хибний, втомлений»","ar":"«أعوج، خاطئ، متعب»","he":"״עקום, שגוי, עייף״","sw":"“iliyopinda, kosa, iliyochoka”"},
@@ -1181,5 +1195,19 @@ WORDS.left = {
     sva: ["ლერთენ", "lertʰen"],
     yai: ["čap", "tʃap"],
     xqa: ["sol", "sol"],
+    acw: ["شمال", "ʃimaːl"],
+    agx: ["чеппил", "tʃepːil"],
+    ar_jo: ["شمال", "ʃmaːl"],  // The same word means north.
+    ar_ps: ["شمال", "ʃmaːl"],  // The same root as شمال šamāl 'north'.
+    azb: ["سول", "sol"],
+    bdk: ["сул", "sul"],
+    bqi: ["چپ", "tʃap"],
+    kjj: ["салахей", "salaχej"],
+    kry: ["sıləqə", "sɨlæqæ"],
+    qxq: ["çep", "tʃep"],  // As Persian چپ.
+    rut: ["гадыхъды", "ɡadɨqdɨ"],
+    ssy: ["gura", "ɡuɾa"],
+    tig: ["ድጋለብ", "dəɡɡaləb"],  // From 'shield hand'.
+    tkr: ["солун", "solun"],
   },
 };

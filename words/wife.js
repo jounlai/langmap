@@ -664,6 +664,21 @@ WORDS.wife = {
     ko_em: "own",
     ko_mid: "woman",
     ojp: "spouse",
+    agx: "woman",
+    aii: "woman",
+    ar_jo: "woman",
+    ar_ps: "own",
+    azb: "woman",
+    bdk: "woman",
+    bqi: "woman",
+    jpr: "woman",
+    kjj: "own",
+    kry: "woman",
+    rut: "own",
+    sdh: "woman",
+    ssy: "woman",
+    tig: "woman",
+    tkr: "woman",
   },
   routes: {
     woman: {"color":"#db2777","emoji":"👩","en":"the same word as woman","ja":"「女」と同じ語","ko":"‘여자’와 같은 말","zh":"与“女人”同词","yue":"同「女人」同一個詞","vi":"cùng một từ với “đàn bà”","th":"คำเดียวกับ “ผู้หญิง”","id":"sama dengan kata “perempuan”","hi":"‘औरत’ वाला ही शब्द","de":"dasselbe Wort wie Frau","fr":"le même mot que femme","it":"la stessa parola di donna","es":"la misma palabra que mujer","pt":"a mesma palavra que mulher","ru":"то же слово, что «женщина»","uk":"те саме слово, що «жінка»","ar":"الكلمة نفسها لـ«امرأة»","he":"אותה מילה כמו ״אישה״","sw":"neno sawa na mwanamke"},
@@ -1271,5 +1286,20 @@ WORDS.wife = {
     ko_em: ["안ᄒᆡ", "anhɛ"],
     ko_mid: [":겨집", "kjətsip"],
     ojp: ["妻", "tuma"],
+    agx: ["хьир", "xir"],  // The same word means woman.
+    aii: ["ܒܟܬܐ", "baxtɑː"],  // Also the word for woman.
+    ar_jo: ["مرة", "ˈmara"],  // The same word means woman.
+    ar_ps: ["زوجة", "ˈzoːʒe"],  // Also مرة mara, the word for woman.
+    azb: ["آرواد", "ɑɾˈvɑd"],  // The same word as 'woman'.
+    bdk: ["гьедж", "hedʒ"],
+    bqi: ["زینه", "zejne"],  // The same word means woman.
+    jpr: ["זן", "zæn"],
+    kjj: ["инхъаьдаь", "inqʰædæ"],
+    kry: ["xınıb", "xɨnɨb"],  // The same word as 'woman'.
+    rut: ["къари", "qari"],  // The word for woman is хьыдылды.
+    sdh: ["ژن", "ʒɪn"],
+    ssy: ["numa", "numa"],  // The same word as 'woman'.
+    tig: ["እሲት", "ʔəsit"],  // Also the word for woman.
+    tkr: ["хьунаще", "xunaʃːe"],  // The same word as 'woman'.
   },
 };

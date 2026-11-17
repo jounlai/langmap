@@ -1205,5 +1205,7 @@ WORDS.nose = {
     vi_mid: ["mũi", "muj˧ˀ˥"],
     blt: ["ꪒꪰꪉ", "daŋ˨"],
     lep: ["ᰊᰪᰭᰍᰩᰮ", "tɯknɔm"],
+    bqi: ["نفت", "noft"],
+    jpr: ["ביני", "biːniː"],
   },
 };

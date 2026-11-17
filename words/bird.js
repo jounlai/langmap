@@ -1220,5 +1220,6 @@ WORDS.bird = {
     la_late: ["avis", "ˈaβes"],
     vi_mid: ["chim", "cim˧"],
     kxm: ["កូនចាប", "koːn caːp"],
+    jpr: ["פרנדה", "pærænde"],
   },
 };

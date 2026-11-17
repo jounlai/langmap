@@ -722,6 +722,21 @@ WORDS.husband = {
     xng: "man",
     xqa: "lord",
     ko_em: "own",
+    agx: "own",
+    ar_jo: "other",
+    ar_ps: "other",
+    azb: "man",
+    bdk: "man",
+    jpr: "other",
+    kjj: "own",
+    kry: "man",
+    sdh: "other",
+    ssy: "own",
+    tab: "own",
+    tig: "own",
+    tkr: "man",
+    tru: "man",
+    udi: "man",
   },
   routes: {
     man: {"color":"#2563eb","emoji":"👨","en":"the same word as man","ja":"「男」と同じ語","ko":"'남자'와 같은 낱말","zh":"与“男人”同一个词","yue":"同「男人」同一個詞","vi":"cùng một từ với 'đàn ông'","th":"คำเดียวกับ 'ผู้ชาย'","id":"kata yang sama dengan 'laki-laki'","hi":"'आदमी' वाला ही शब्द","de":"dasselbe Wort wie Mann","fr":"le même mot qu'homme","it":"la stessa parola di uomo","es":"la misma palabra que hombre","pt":"a mesma palavra que homem","ru":"то же слово, что «мужчина»","uk":"те саме слово, що «чоловік (мужчина)»","ar":"الكلمة نفسها لـ«رجل»","he":"אותה מילה כמו „גבר”","sw":"neno lile lile la 'mwanamume'"},
@@ -1383,5 +1398,20 @@ WORDS.husband = {
     xng: ["ᠡᠷ᠎ᠡ", "ere"],
     xqa: ["beg", "beɡ"],
     ko_em: ["남편", "nampʰjən"],
+    agx: ["шуй", "ʃuj"],
+    ar_jo: ["جوز", "ʒoːz"],
+    ar_ps: ["زوج", "zoːʒ"],
+    azb: ["ار", "æɾ"],  // The same word as 'man' (ər, 'man; husband').
+    bdk: ["фури", "furi"],
+    jpr: ["שוהר", "ʃowhær"],
+    kjj: ["инхъаьрду", "inqʰærdu"],
+    kry: ["firi", "firi"],  // The same word as 'man'.
+    sdh: ["شۊ", "ʃyː"],
+    ssy: ["bacla", "baʕla"],
+    tab: ["жилир", "ʒilir"],
+    tig: ["ብእሲ", "bəʔəsi"],  // Man is እናስ, a different word.
+    tkr: ["адамий", "adamij"],  // The same word as 'man'.
+    tru: ["ܓܘܪܐ", "ɡawro"],
+    udi: ["ишкъар", "iʃqʼar"],  // Also the word for man.
   },
 };

@@ -804,6 +804,8 @@ WORDS.tea = {
     el_kath: "te",
     yai: "cha",
     ko_em: "cha",
+    bqi: "cha",
+    qxq: "cha",
   },
   // Route marker shown on each tea label (this concept only): which trade
   // route the word travelled. Localized; falls back to en.
@@ -1568,5 +1570,7 @@ WORDS.tea = {
     el_kath: ["τέιον", "ˈteion"],
     yai: ["čoy", "tʃoj"],
     ko_em: ["차", "tɕʰa"],
+    bqi: ["چایی", "tʃɒːi"],
+    qxq: ["çay", "tʃɑj"],
   },
 };

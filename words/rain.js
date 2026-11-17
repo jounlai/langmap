@@ -1202,5 +1202,7 @@ WORDS.rain = {
     myz: ["ࡌࡉࡈࡓࡀ", "mitˤra"],
     xht: ["tūmin", "tuːmin"],
     kho: ["𑀯𑀸𑀭", "waːra"],
+    jpr: ["באראן", "bɒːrɒːn"],
+    qxq: ["yağış", "jɑˈʁɯʃ"],
   },
 };

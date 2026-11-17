@@ -1185,5 +1185,6 @@ WORDS.honey = {
     lep: ["ᰋᰪ", "tʰɯ"],
     ykg: ["сальӻарииньэл молльэ иисии", "salʲʁariːnʲel mollʲe iːsiː"],  // “Bumblebee milk”.
     xng: ["ᠪᠠᠯ", "bal"],
+    jpr: ["עסל", "æsæl"],
   },
 };

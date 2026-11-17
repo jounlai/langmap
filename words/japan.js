@@ -498,6 +498,11 @@ WORDS.japan = {
     tg: "europe",
     tt: "europe",
     ko_em: "nihon",
+    acw: "europe",
+    aii: "europe",
+    az: "europe",
+    lez: "europe",
+    zza: "europe",
   },
   routes: {
     nihon: {"color":"#dc2626","emoji":"☀️","en":"reads 日本 itself","ja":"漢字 日本 を自分で読む","ko":"한자 日本을 직접 읽음","zh":"自己读汉字\"日本\"","yue":"自己讀漢字「日本」","vi":"tự đọc chữ 日本","th":"อ่านอักษร 日本 เอง","id":"membaca aksara 日本 sendiri","hi":"日本 को ख़ुद पढ़ना","de":"liest 日本 selbst","fr":"lit 日本 lui-même","it":"legge 日本 da sé","es":"lee 日本 por sí mismo","pt":"lê 日本 por si","ru":"своё чтение 日本","uk":"власне читання 日本","ar":"يقرأ 日本 بنفسه","he":"קורא את 日本 בעצמו","sw":"husoma 日本 yenyewe"},
@@ -938,5 +943,10 @@ WORDS.japan = {
     tg: ["Ҷопон", "dʒopon"],
     tt: ["Япония", "jaˈponija"],
     ko_em: ["일본", "ilbon"],
+    acw: ["اليابان", "aljabaːn"],
+    aii: ["ܝܦܢ", "japan"],
+    az: ["Yaponiya", "jɑˈponijɑ"],
+    lez: ["Жапан", "ʒapan"],
+    zza: ["Japonya", "ʒaponja"],
   },
 };

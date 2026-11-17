@@ -400,6 +400,8 @@ WORDS.hiccup = {
     doi: "imitative",
     kpv: "plain",
     sva: "plain",
+    ar_sd: "other",
+    bqi: "plain",
   },
   routes: {
     imitative: {"color":"#ea580c","emoji":"🔊","en":"imitating the sound","ja":"音のまね","ko":"소리 흉내","zh":"模仿声音","yue":"模仿聲音","vi":"mô phỏng âm thanh","th":"เลียนเสียง","id":"tiruan bunyi","hi":"ध्वनि की नक़ल","de":"lautmalend","fr":"imitant le bruit","it":"onomatopeico","es":"imita el sonido","pt":"imita o som","ru":"звукоподражание","uk":"звуконаслідування","ar":"محاكاة الصوت","he":"חיקוי הקול","sw":"kuiga sauti"},
@@ -746,5 +748,7 @@ WORDS.hiccup = {
     doi: ["हिचकी", "ɦitʃkiː"],
     kpv: ["сутшик", "ˈsutʃik"],
     sva: ["ლიშდკუ̂იე̄ლ", "liʃdkʼwieːl"],
+    ar_sd: ["أبو شهيق", "ʔabuː ʃiheːɡ"],  // Literally 'the one of the gasp'; فاق fāg is also given.
+    bqi: ["سیکه", "sike"],
   },
 };

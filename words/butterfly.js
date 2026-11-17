@@ -953,5 +953,7 @@ WORDS.butterfly = {
     pwo: ["ဖံၫဒိၭခၩ", "pʰi ɗoʔ kʰa"],
     xng: ["ᠡᠷᠪᠡᠬᠡᠢ", "herbekei"],
     ko_em: ["나뷔", "nabwi"],
+    bqi: ["پاپروک", "pɒːperuk"],
+    tig: ["ጥምብልዔ", "tʼəmbəlʕe"],
   },
 };

@@ -1180,5 +1180,6 @@ WORDS.person = {
     vi_mid: ["người", "ŋɨəj˨˩"],
     elx: ["𒇽", "ruh"],
     kho: ["𑀳𑁆𑀯𑁂", "hwe"],
+    jpr: ["אנסאן", "ensɒːn"],
   }
 };

@@ -523,6 +523,19 @@ WORDS.week = {
     zh_wenyan_edu: "other",
     ko_em: "seven",
     ko_mid: "seven",
+    agx: "seven",
+    ar_jo: "seven",
+    ar_ps: "seven",
+    azb: "seven",
+    ckb: "seven",
+    jpr: "seven",
+    kjj: "seven",
+    kry: "seven",
+    rut: "seven",
+    ssy: "plain",
+    tab: "seven",
+    ti: "plain",
+    tkr: "friday",
   },
   routes: {
     seven: {"color":"#2563eb","emoji":"7️⃣","en":"the number seven","ja":"数の七","ko":"일곱이라는 수","zh":"数字七","yue":"數字七","vi":"con số bảy","th":"เลขเจ็ด","id":"angka tujuh","hi":"सात की संख्या","de":"die Zahl Sieben","fr":"le nombre sept","it":"il numero sette","es":"el número siete","pt":"o número sete","ru":"число семь","uk":"число сім","ar":"العدد سبعة","he":"המספר שבע","sw":"namba saba"},
@@ -987,5 +1000,18 @@ WORDS.week = {
     zh_wenyan_edu: ["旬", "tsʰɵn˨˩"],  // Classical Chinese counted days in tens; 旬 is that ten-day period.
     ko_em: ["닐헤", "nilhe"],
     ko_mid: ["닐·웨", "nilɦwəj"],  // Korea did not yet count weeks; nilGwey simply meant a span of seven days.
+    agx: ["хӏафтта", "ħaftːa"],
+    ar_jo: ["أسبوع", "ʔusˈbuːʕ"],
+    ar_ps: ["أسبوع", "ʔusˈbuːʕ"],
+    azb: ["هفته", "hæfˈdæ"],
+    ckb: ["هەفتە", "hafta"],
+    jpr: ["הפתה", "hæfte"],
+    kjj: ["гьаьфттаь", "hæftːæ"],
+    kry: ["hafta", "hafta"],
+    rut: ["гьаӏфте", "haˤfte"],
+    ssy: ["baxuuro", "baħuːɾo"],
+    tab: ["гьяфта", "hæfta"],
+    ti: ["ሰሙን", "sɐmun"],
+    tkr: ["уӏлʼджум", "uˤlʲdʒum"],  // The same word as juma, the 'Friday' in оӏлʼджуман йигъ.
   },
 };

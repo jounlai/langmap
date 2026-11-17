@@ -1083,5 +1083,7 @@ WORDS.green = {
     hit: ["𒄩𒄴𒇷𒌋𒉿𒀭𒍝", "xaxliwants"],
     kho: ["𑀬𑁆𑀲𑀭𑀽𑀦", "zaruːna"],
     osn: ["hejo", "hedʒo"],
+    jpr: ["סבז", "sæbz"],
+    qxq: ["yaşıl", "jɑˈʃɯl"],
   }
 };

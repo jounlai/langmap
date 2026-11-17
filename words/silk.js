@@ -853,5 +853,6 @@ WORDS.silk = {
     mui: ["sutro", "sutro"],
     osn: ["sutra", "sutra"],
     xng: ["ᠲᠣᠷᠭᠠᠨ", "torqan"],
+    tig: ["ሐሪር", "ħarir"],
   }
 };

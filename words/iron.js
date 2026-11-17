@@ -1175,5 +1175,6 @@ WORDS.iron = {
     peh: ["təmər", "təmər"],
     yuy: ["temər", "temər"],
     ii: ["ꎸꅍ", "ʂɯ˧˧du˧˧"],
+    bfq: ["கப்புணி", "kappuɳi"],
   },
 };

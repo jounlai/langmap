@@ -494,6 +494,16 @@ WORDS.right = {
     el_grc: "dexter",
     el_kath: "dexter",
     xum: "dexter",
+    hne: "eat",
+    hoc: "plain",
+    nia: "plain",
+    or: "dexter",
+    pll: "plain",
+    rhg: "dexter",
+    shn: "loan",
+    si: "compass",
+    tcy: "good",
+    unr: "eat",
   },
   routes: {
     straight: {"color":"#2563eb","emoji":"📏","en":"'straight, true, correct'","ja":"「まっすぐ、正しい」","ko":"‘곧은, 옳은’","zh":"“直、正确”","yue":"「直、啱」","vi":"“thẳng, đúng”","th":"“ตรง ถูกต้อง”","id":"“lurus, benar”","hi":"‘सीधा, सही’","de":"„gerade, richtig“","fr":"« droit, juste »","it":"“dritto, giusto”","es":"«recto, correcto»","pt":"«reto, certo»","ru":"«прямой, верный»","uk":"«прямий, правильний»","ar":"«مستقيم، صحيح»","he":"״ישר, נכון״","sw":"“nyoofu, sahihi”"},
@@ -929,5 +939,15 @@ WORDS.right = {
     el_grc: ["δεξιός", "deksiós"],
     el_kath: ["δεξιός", "ðeksiˈos"],
     xum: ["destre", "ˈdestre"],  // Attested on the Iguvine Tablets (Latin-alphabet destre, Umbrian-alphabet testru-), the cognate of Latin dexter.
+    hne: ["जेवनी", "dʒeːʋniː"],
+    hoc: ["etom", "etom"],  // jom ti 'the eating hand' is also given.
+    nia: ["kambölö", "kambɤlɤ"],
+    or: ["ଡାହାଣ", "ɖahaɳɔ"],  // Inherited from Sanskrit dakṣiṇa.
+    pll: ["khɔn ʔidam", "kʰɔn ʔidam"],
+    rhg: ["den", "den"],
+    shn: ["ၶႂႃ", "kʰwaː˨˦"],
+    si: ["දකුණ", "dakunə"],  // Also south.
+    tcy: ["ಬಲತ", "balata"],  // From ಬಲ 'strength', as Kannada ಬಲ.
+    unr: ["jom-sa", "dʒom sa"],
   },
 };

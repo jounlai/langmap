@@ -657,6 +657,10 @@ WORDS.monday = {
     nmf: "other",
     sip: "moon",
     el_kath: "count",
+    ace: "count",
+    cnh: "count",
+    kxv: "moon",
+    unr: "moon",
   },
   routes: {
     moon: {"color":"#7c3aed","emoji":"🌙","en":"the moon's day","ja":"月の日","ko":"달의 날","zh":"月亮之日","yue":"月亮嘅日","vi":"ngày mặt trăng","th":"วันของดวงจันทร์","id":"hari bulan","hi":"चंद्रमा का दिन","de":"Tag des Mondes","fr":"jour de la lune","it":"giorno della luna","es":"día de la luna","pt":"dia da lua","ru":"день луны","uk":"день місяця","ar":"يوم القمر","he":"יום הירח","sw":"siku ya mwezi"},
@@ -1256,5 +1260,9 @@ WORDS.monday = {
     nmf: ["horthan", "hortʰan"],
     sip: ["གཟའ་ཟླ་བོ", "zaː dou"],
     el_kath: ["Δευτέρα", "ðefˈtera"],
+    ace: ["Seunanyan", "sɯnaɲan"],
+    cnh: ["Cawnni khat ni", "tsawnni kʰat ni"],
+    kxv: ["sambara", "sambara"],
+    unr: ["somar", "somar"],
   },
 };

@@ -342,6 +342,8 @@ WORDS.shootingstar = {
     prk: "moving",
     wbm: "moving",
     el_kath: "moving",
+    cnh: "moving",
+    si: "falling",
   },
   routes: {
     falling: {"color":"#2563eb","emoji":"⬇️","en":"a falling star","ja":"落ちる星","ko":"떨어지는 별","zh":"落下的星","yue":"跌落嘅星","vi":"sao rơi","th":"ดาวที่ตก","id":"bintang jatuh","hi":"गिरता तारा","de":"fallender Stern","fr":"étoile qui tombe","it":"stella che cade","es":"estrella que cae","pt":"estrela que cai","ru":"падающая звезда","uk":"зірка, що падає","ar":"نجم يسقط","he":"כוכב שנופל","sw":"nyota inayoanguka"},
@@ -629,5 +631,7 @@ WORDS.shootingstar = {
     prk: ["sim uing bu", "sim ʔuɲ pu"],
     wbm: ["simuing pu", "sim ʔuɲ pu"],
     el_kath: ["διᾴττων ἀστήρ", "ðiˈaton asˈtir"],
+    cnh: ["arfi zuang", "ʔarfi zuaŋ"],
+    si: ["උල්කාපාතය", "ulkaːpaːtəjə"],
   },
 };

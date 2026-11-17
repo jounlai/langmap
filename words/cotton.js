@@ -394,6 +394,10 @@ WORDS.cotton = {
     kac: "plain",
     el_kath: "pambak",
     la: "plain",
+    ace: "karpasa",
+    cnh: "plain",
+    ksw: "plain",
+    pwo: "plain",
   },
   routes: {
     qutn: {"color":"#059669","emoji":"🐪","en":"from Arabic qutn (coton, cotton, algodón)","ja":"アラビア語 qutn から (coton, cotton, algodón)","ko":"아랍어 qutn에서 (coton, cotton, algodón)","zh":"来自阿拉伯语 qutn (coton, cotton, algodón)","yue":"嚟自阿拉伯語 qutn (coton, cotton, algodón)","vi":"từ tiếng Ả Rập qutn (coton, cotton, algodón)","th":"จากภาษาอาหรับ qutn (coton, cotton, algodón)","id":"dari qutn Arab (coton, cotton, algodón)","hi":"अरबी qutn से (coton, cotton, algodón)","de":"aus Arabisch qutn (coton, cotton, algodón)","fr":"de l'arabe qutn (coton, cotton, algodón)","it":"dall'arabo qutn (coton, cotton, algodón)","es":"del árabe qutn (coton, cotton, algodón)","pt":"do árabe qutn (coton, cotton, algodón)","ru":"от арабского qutn (coton, cotton, algodón)","uk":"від арабського qutn (coton, cotton, algodón)","ar":"من العربية قطن (coton, cotton, algodón)","he":"מהערבית qutn (coton, cotton, algodón)","sw":"kutoka Kiarabu qutn (coton, cotton, algodón)"},
@@ -732,5 +736,9 @@ WORDS.cotton = {
     kac: ["pasi", "pəsi˧"],
     el_kath: ["βάμβαξ", "ˈvamvaks"],
     la: ["gossypium", "ɡosˈsypium"],
+    ace: ["gapeueh", "ɡapɯəh"],
+    cnh: ["la", "la"],
+    ksw: ["ဘဲ", "bɛ"],
+    pwo: ["ဘွ့ၫ", "ɓwɪ"],
   },
 };

@@ -589,6 +589,16 @@ WORDS.wife = {
     el_grc: "woman",
     el_kath: "woman",
     xfa: "own",
+    ace: "other",
+    cnh: "own",
+    hne: "other",
+    hoc: "woman",
+    kxv: "own",
+    nia: "spouse",
+    or: "own",
+    pwo: "own",
+    rhg: "own",
+    tcy: "own",
   },
   routes: {
     woman: {"color":"#db2777","emoji":"👩","en":"the same word as woman","ja":"「女」と同じ語","ko":"‘여자’와 같은 말","zh":"与“女人”同词","yue":"同「女人」同一個詞","vi":"cùng một từ với “đàn bà”","th":"คำเดียวกับ “ผู้หญิง”","id":"sama dengan kata “perempuan”","hi":"‘औरत’ वाला ही शब्द","de":"dasselbe Wort wie Frau","fr":"le même mot que femme","it":"la stessa parola di donna","es":"la misma palabra que mujer","pt":"a mesma palavra que mulher","ru":"то же слово, что «женщина»","uk":"те саме слово, що «жінка»","ar":"الكلمة نفسها لـ«امرأة»","he":"אותה מילה כמו ״אישה״","sw":"neno sawa na mwanamke"},
@@ -614,7 +624,7 @@ WORDS.wife = {
     eu: ["emazte", "emaste"],
     bbl: ["ფსტუ", "pstʼu"],
     be: ["жонка", "ˈʐonka"],
-    bn: ["বেগম", "beɡom"],
+    bn: ["বউ", "bou̯"],  // The everyday word, which also means bride and daughter-in-law; বেগম is an honorific for a Muslim lady.
     br: ["gwreg", "ɡwreːk"],
     bg: ["жена", "ʒɛˈna"],
     my: ["မယား", "məjá"],
@@ -1121,5 +1131,15 @@ WORDS.wife = {
     el_grc: ["γυνή", "ɡynɛ̌ː"],
     el_kath: ["γυνή", "ʝiˈni"],
     xfa: ["uxor", "ˈuksor"],
+    ace: ["peurumoh", "pɯrumɔh"],
+    cnh: ["nupi", "nupi"],
+    hne: ["घरवाली", "ɡʱərʋaːliː"],
+    hoc: ["era", "era"],  // Burrows gives erá for both wife and woman.
+    kxv: ["ḍokri", "ɖokri"],  // The word for woman is ayya; ḍokri ḍokra is 'wife and husband'.
+    nia: ["foʼomo", "foʔomo"],
+    or: ["ପତ୍ନୀ", "pɔtni"],  // Colloquial ମାଇକିନା also means woman.
+    pwo: ["အမၫ", "ʔə ma"],  // The word for woman is ၦမုၪ.
+    rhg: ["bou", "bou"],
+    tcy: ["ಬೊಡೆದಿ", "boɖedi"],
   },
 };

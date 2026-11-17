@@ -1078,5 +1078,7 @@ WORDS.green = {
     la_late: ["viridis", "ˈβeredes"],
     egy_dem: ["wt", "uoːt"],
     vi_mid: ["xanh", "ɕaɲ˧"],
+    kxv: ["ākupacca", "aːkupattʃa"],
+    pwo: ["ယ့ၫ", "jɪ"],
   }
 };

@@ -600,6 +600,11 @@ WORDS.spider = {
     syl: "markata",
     tsj: "plain",
     twm: "plain",
+    kn: "spin",
+    ksw: "plain",
+    nia: "plain",
+    pwo: "plain",
+    unr: "plain",
   },
   routes: {
     spin: {"color":"#059669","emoji":"🧶","en":"a spinner (Spinne, spider, örümcek)","ja":"「紡ぐもの」 (Spinne, spider, örümcek)","ko":"'잣는 것' (Spinne, spider, örümcek)","zh":"“纺丝者” (Spinne, spider, örümcek)","yue":"「紡絲嘅」 (Spinne, spider, örümcek)","vi":"\"kẻ kéo tơ\" (Spinne, spider, örümcek)","th":"\"ผู้ปั่นด้าย\" (Spinne, spider, örümcek)","id":"\"pemintal\" (Spinne, spider, örümcek)","hi":"\"कातने वाला\" (Spinne, spider, örümcek)","de":"„Spinner“ (Spinne, spider, örümcek)","fr":"« fileur » (Spinne, spider, örümcek)","it":"«filatore» (Spinne, spider, örümcek)","es":"«hilandero» (Spinne, spider, örümcek)","pt":"«fiandeiro» (Spinne, spider, örümcek)","ru":"«прядильщик» (Spinne, spider, örümcek)","uk":"«прядильник» (Spinne, spider, örümcek)","ar":"«الغازل» (Spinne, spider, örümcek)","he":"\"הטווה\" (Spinne, spider, örümcek)","sw":"\"msokotaji\" (Spinne, spider, örümcek)"},
@@ -1140,5 +1145,10 @@ WORDS.spider = {
     syl: ["মাকড়", "maxɔɽ"],
     tsj: ["roŋɕambu", "ɾoŋɕambu"],
     twm: ["dʐe13tom55", "dʐe˩˧tom˥˥"],
+    kn: ["ಜೇಡ", "dʒeːɖa"],  // The same word means 'weaver'.
+    ksw: ["ကပီၤ", "ka̰pɔ̀"],
+    nia: ["kalawa", "kalawa"],
+    pwo: ["ခၩ့", "kʰaɴ"],
+    unr: ["bindram", "bindram"],
   },
 };

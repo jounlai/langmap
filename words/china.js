@@ -546,6 +546,7 @@ WORDS.china = {
     pam: "cina",
     war: "cina",
     el_kath: "cina",
+    cnh: "other",
   },
   family2: {
     bo: "zhongguo",
@@ -1038,5 +1039,6 @@ WORDS.china = {
     pam: ["Tsina", "ˈtsina"],
     war: ["Tsina", "ˈtsina"],  // From Spanish.
     el_kath: ["Κίνα", "ˈcina"],
+    cnh: ["Tuluk ram", "tuluk ram"],
   },
 };

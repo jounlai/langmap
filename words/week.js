@@ -473,6 +473,12 @@ WORDS.week = {
     sip: "seven",
     thr: "seven",
     el_kath: "seven",
+    hne: "seven",
+    kxv: "turn",
+    mnw: "sunday",
+    pwo: "seven",
+    rhg: "seven",
+    tcy: "turn",
   },
   routes: {
     seven: {"color":"#2563eb","emoji":"7️⃣","en":"the number seven","ja":"数の七","ko":"일곱이라는 수","zh":"数字七","yue":"數字七","vi":"con số bảy","th":"เลขเจ็ด","id":"angka tujuh","hi":"सात की संख्या","de":"die Zahl Sieben","fr":"le nombre sept","it":"il numero sette","es":"el número siete","pt":"o número sete","ru":"число семь","uk":"число сім","ar":"العدد سبعة","he":"המספר שבע","sw":"namba saba"},
@@ -887,5 +893,11 @@ WORDS.week = {
     sip: ["བདུན་ཕྲག", "dyntʰaʔ"],
     thr: ["सप्ताह", "səptaːɦ"],
     el_kath: ["ἑβδομάς", "evðoˈmas"],
+    hne: ["हप्ता", "ɦəptaː"],
+    kxv: ["vāra", "ʋaːra"],
+    mnw: ["အဒိုတ်", "ʔətɜ̀t"],
+    pwo: ["ကနွ့ၫ", "kə nwɪ"],  // Literally 'one seven'; seven is နွ့ၫ.
+    rhg: ["háfta", "hafta"],
+    tcy: ["ವಾರೊ", "vaːɾo"],
   },
 };

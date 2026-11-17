@@ -518,6 +518,10 @@ WORDS.sunday = {
     dty: "sun",
     nmf: "plain",
     el_kath: "lord",
+    kxv: "sun",
+    mnw: "sun",
+    tcy: "sun",
+    unr: "sun",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -976,5 +980,9 @@ WORDS.sunday = {
     dty: ["आइतबार", "aːitəbaːɾ"],
     nmf: ["mathang", "matʰaŋ"],
     el_kath: ["Κυριακή", "ciriaˈci"],
+    kxv: ["adi bāra", "adi baːra"],
+    mnw: ["အဒိုတ်", "ʔətɜ̀t"],
+    tcy: ["ಐತಾರೊ", "aitaːɾo"],
+    unr: ["etwar", "etwar"],
   },
 };

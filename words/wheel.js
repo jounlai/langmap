@@ -975,5 +975,6 @@ WORDS.wheel = {
     mvf: ["guli", "ɡulə"],
     ybe: ["kulu", "kulu"],  // Borrowed from Chinese 轱辘.
     mui: ["roda", "roda"],
+    kxv: ["sagaḍa billa", "saɡaɖa billa"],
   }
 };

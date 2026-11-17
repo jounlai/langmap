@@ -624,5 +624,6 @@ WORDS.chocolate = {
     hak_hl: ["巧克力", "kʰau˨˦ kʰiet˥ lit˨"],  // The Mandarin-style loan used in Hsinchu Hailu (Meixian says 朱古力); syllables read in Hailu.
     lkt: ["čhaŋmháŋska ǧí", "tʃʰãmhãska ɣí"],
     el_kath: ["σοκολάτα", "sokoˈlata"],
+    ace: ["suklat", "suklat"],
   }
 };

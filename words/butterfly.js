@@ -950,5 +950,6 @@ WORDS.butterfly = {
     sce: ["hebegvi", "xəpəˈʁi"],
     bdq: ["pơlai", "pəlaːj"],
     mui: ["kupu-kupu", "kupu kupu"],
+    pwo: ["ဖံၫဒိၭခၩ", "pʰi ɗoʔ kʰa"],
   },
 };

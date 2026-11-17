@@ -526,7 +526,7 @@ WORDS.cat = {
     kpf: ['—', '—'],
     kqz: ['—', '—'],
     ktz: ['ǃhòè', 'ᵑǃʰòè'],
-    kxv: ['—', '—'],
+    kxv: ["bilei", "bilei"],
     lhm: ['—', '—'],
     lij_t: ["gattu", "ˈɡatu"],
     mcf: ['—', '—'],

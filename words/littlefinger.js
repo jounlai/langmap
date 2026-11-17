@@ -424,7 +424,7 @@ WORDS.littlefinger = {
     tsi: "small",
     koy: "unknown",
     zh_tang: "small",
-    la: "other",
+    la: "small",
     ar_qur: "plain",
     hy_grab: "small",
     syc: "small",
@@ -876,7 +876,7 @@ WORDS.littlefinger = {
     tsi: ["łgusgay", "ɬɡusɡaːj"],  // Made of łgu- 'small, little' and sgay 'little finger', which can also be said alone.
     koy: ["-nlotsʼeelaʼ", "nlotsʼiːlaʔ"],  // Always said with an owner, as in binlotsʼeelaʼ 'his little finger', the same nlo- as in binlokuh 'his index finger'; Lower Koyukon says mineelotsʼeemaay.
     zh_tang: ["小指", "siaw tɕi"],  // 'Small finger'; it also means the little toe.
-    la: ["auriculāris", "aurikuˈlaːris"],  // Short for digitus auriculāris, the 'ear finger', the one small enough to clean the ear.
+    la: ["digitus minimus", "ˈdiɡitus ˈminimus"],  // 'The smallest finger' (Pliny 11.251); auriculāris, the 'ear finger', is Late Latin (Isidore).
     ar_qur: ["خنصر", "xinsˤir"],  // A word of its own, unchanged in modern Arabic.
     hy_grab: ["ճկոյթ", "tʃkojtʰ"],  // Borrowed from a Zan (Kartvelian) word; compare Laz ts'ulu k'iti, literally 'small finger'.
     syc: ["ܚܨܪܐ", "ħesˤraː"],  // From a root meaning 'to narrow'; it also means the little toe, and figuratively 'a small part'.

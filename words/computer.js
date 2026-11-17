@@ -337,7 +337,7 @@ WORDS.computer = {
     "ru": ["компьютер", "kɐm⁽ʲ⁾ˈp⁽ʲ⁾jutɨr"],
     "rue": ["компютер", "komˈpjuter"],
     "rw": ["mudasobwa", "mudasobwa"],
-    "sa": ["गणक", "ɡɐɳɐkɐ"],
+    "sa": ["—", "—"],
     "sa_edu": ["संगणकः", "sɐŋɡɐɳɐkɐh"],
     "sah": ["көмпүүтэр", "kømˈpyːter"],
     "sas": ["komputer", "komˈputər"],

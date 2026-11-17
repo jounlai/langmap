@@ -964,7 +964,7 @@ WORDS.language = {
     es_ve: ["lengua", "ˈleŋɡwa"],
     ar_qur: ["لسان", "lisaːn"],  // Also "tongue"; Quran 14:4 "in the language (lisān) of his people".
     prg: ["bilā", "ˈbilaː"],
-    el_grc: ["γλῶσσα", "ɡlɔ̂ːssa"],  // Also "tongue".
+    el_grc: ["γλῶττα", "ɡlɔ̂ːtta"],
     egy: ["𓂋", "ra"],  // The word for "mouth", also "language, manner of speech".
     ofs: ["tunge", "ˈtuŋɡe"],  // Also "tongue".
     got: ["𐍂𐌰𐌶𐌳𐌰", "ˈrazda"],  // Mark 14:70 "razda þeina"; from Proto-Germanic *razdō "voice, speech".

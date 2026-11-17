@@ -685,7 +685,7 @@ WORDS.silk = {
     toc: ["seda", "seda"],
     p_ryu: ["*ito", "ito"],
     ar_qur: ["حرير", "ħariːr"],
-    el_grc: ["σηρικόν", "sɛːrikón"],
+    el_grc: ["—", "—"],
     hy_grab: ["մետաքս", "metakʰs"],
     sa_edu: ["कौशेयम्", "kau̯ɕeːjɐm"],
     syc: ["ܩܙ", "qaz"],

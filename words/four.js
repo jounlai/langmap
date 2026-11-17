@@ -85,7 +85,7 @@ WORDS.four = {
     xto: ["𑀰𑁆𑀢𑁆𑀯𑀭𑁆", "ɕtwar"],
     p_toc: ["*ćätwerä", "tɕətwerə"],   // Wiktionary PT (Adams 2013); A śtwar, B śtwer
     la: ["quattuor", "ˈkʷattuor"],
-    el_grc: ["τέσσαρες", "téssares"],
+    el_grc: ["τέτταρες", "téttares"],
     el_kath: ["τέσσαρες", "ˈtesares"],
     el: ["τέσσερα", "ˈteseɾa"],
     cy: ["pedwar", "ˈpɛdwar"],

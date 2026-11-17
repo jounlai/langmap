@@ -550,7 +550,7 @@ WORDS.tongue = {
     sc: ["limba", "ˈlimba"],
     iu: ["ᐅᖃᖅ", "uqaq"],
     la: ["lingua", "ˈliŋɡwa"],
-    el_grc: ["γλῶσσα", "ɡlɔ̂ːssa"],
+    el_grc: ["γλῶττα", "ɡlɔ̂ːtta"],
     el_kath: ["γλῶσσα", "ˈɣlosa"],
     egy: ["𓄓", "nes"],
     enm: ["tonge", "ˈtɔŋɡə"],

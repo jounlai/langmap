@@ -470,7 +470,6 @@ WORDS.japan = {
     cbk: "europe",
     hil: "europe",
     mdh: "europe",
-    sa: "europe",
     pdt: "europe",
     se: "europe",
     uz: "europe",
@@ -889,7 +888,6 @@ WORDS.japan = {
     cbk: ["Hapon", "haˈpon"],  // Composite: "hapon n (Sp) Japan, the country", ZM same
     hil: ["Hapon", "haˈpon"],  // Hiligaynon hapón 'Japan, Japanese', from Spanish Japón (Kaufmann).
     mdh: ["Hapon", "hapon"],  // Maguindanao hapon 'Japanese; Japan' (SEAlang), the Spanish name; the same list also has japan.
-    sa: ["जापान", "dʑaːpaːnɐ"],  // New Sanskrit, borrowed from Hindi जापान, from English Japan.
     pdt: ["Jaupaun", "ˈjaʊpaʊn"],  // No origin is given; it matches German Japan.
     se: ["Japána", "ˈjapaːna"],  // No origin is given; it matches Finnish Japani, from German or Dutch Japan.
     uz: ["Yaponiya", "jaˈpɒnija"],  // From Russian Япония, from Latin Iaponia.

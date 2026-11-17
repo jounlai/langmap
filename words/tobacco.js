@@ -233,7 +233,6 @@ WORDS.tobacco = {
     es_uy: "tabaco",
     es_ve: "tabaco",
     ota: "smoke",
-    cop: "smoke",
     vo: "tabaco",
     oj: "plain",
     tl: "tabaco",
@@ -512,7 +511,6 @@ WORDS.tobacco = {
     es_uy: ["tabaco", "taˈbako"],
     es_ve: ["tabaco", "taˈbako"],
     ota: ["توتون", "tyˈtyn"],  // From Proto-Turkic *tütün 'smoke'; the word for pipe tobacco, while narghile tobacco is تنباكو.
-    cop: ["ⲭⲣⲉⲙⲧⲥ", "xremts"],  // Bohairic 'smoke, mist', from Demotic qrmṱs 'obscurity'; the tobacco sense was coined by the Copts of Zeniya around 1600.
     vo: ["tabak", "taˈbak"],  // Route by resemblance to the neighbouring forms (de(Tabak) nl(tabak)); no etymology of its own.
     oj: ["asemaa", "asemaː"],  // Inherited from Proto-Algonquian *ahseᐧmaᐧwa 'tobacco', a word of the tobacco's own homeland.
     tl: ["tabako", "taˈbako"],  // Borrowed from Spanish tabaco; it also means a cigar.

@@ -605,7 +605,7 @@ WORDS.love = {
     sc: ["amore", "aˈmore"],
     iu: ["ᓇᒡᓕᒍᓱᒃ-", "naɡliɡusuk"],
     la: ["amor", "ˈamor"],
-    el_grc: ["ἀγάπη", "aɡápɛː"],
+    el_grc: ["ἔρως", "érɔːs"],
     el_kath: ["ἀγάπη", "aˈɣapi"],
     egy: ["𓅓𓂋", "meri"],
     enm: ["love", "ˈluvə"],

@@ -270,7 +270,6 @@ WORDS.germany = {
     mi: "germania",
     chk: "deutsch",
     iu: "germania",
-    sa: "germania",
     se: "deutsch",
     haw: "germania",
     rar: "germania",
@@ -721,7 +720,6 @@ WORDS.germany = {
     mi: ["Tiamana", "tiamana"],  // Most likely borrowed from English Germany (Wiktionary).
     chk: ["Toowis", "toːwis"],  // Probably from German Deutsch (Wiktionary, after the Trukese-English Dictionary).
     iu: ["ᔮᒪᓂ", "jaːmani"],  // Inuktitut Wikipedia's name for Germany (jaamani); no source found that names the donor. Route by resemblance to the neighbouring forms (sm(Siamani) rar(Tiāmani)); no etymology of its own.
-    sa: ["शर्मण्यदेशः", "ɕɐɾmɐɳjɐdeːɕɐh"],  // A New Sanskrit coinage: शर्मण्य, from English Germany, plus देश 'country' (Wiktionary).
     se: ["Duiska", "ˈtujːska"],  // From North Germanic, compare Swedish tysk 'German' (Wiktionary).
     haw: ["Kelemānia", "kelemaːnia"],  // Most likely borrowed from English Germany (Wiktionary).
     rar: ["Tiāmani", "tiaːmani"],  // Borrowed from English Germany (Wiktionary).

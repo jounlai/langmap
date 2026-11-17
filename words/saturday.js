@@ -135,7 +135,7 @@ WORDS.saturday = {
     kum: "plain",
     ky: "sabbath",
     lo: "saturn",
-    la: "sabbath",
+    la: "saturn",
     lv: "count",
     lzz: "sabbath",
     lez: "plain",
@@ -521,7 +521,7 @@ WORDS.saturday = {
     kum: ["сонгугюн", "soŋuɡyn"],
     ky: ["ишемби", "iʃemˈbi"],
     lo: ["ວັນເສົາ", "ʋan˧˥ saw˩˧"],
-    la: ["sabbatum", "ˈsabbatum"],
+    la: ["diēs Sāturnī", "ˈdiːeːs saːˈturniː"],  // The day of Saturn (Tibullus 1.3.18); Christian Latin called it sabbatum.
     lv: ["sestdiena", "ˈsɛzddiɛna"],
     lzz: ["საბატონი", "sabatʼoni"],
     lez: ["киш", "kiʃ"],

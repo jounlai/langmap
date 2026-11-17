@@ -359,7 +359,6 @@ WORDS.yellow = {
     ota: "sari",
     ltg: "ghel",
     mnc: "plain",
-    cop: "plain",
     vo: "plain",
     na: "plain",
     cic: "plain",
@@ -790,7 +789,6 @@ WORDS.yellow = {
     ota: ["صاری", "saˈɾɯ"],  // Inherited from Proto-Turkic *sārïg 'yellow, white'.
     ltg: ["dzaltons", "ˈdzaltɔnts"],  // Cognate with Latvian dzeltens and Lithuanian geltonas.
     mnc: ["ᠰᡠᠸᠠᠶᠠᠨ", "suwajan"],  // No origin is recorded for it, so it counts as a word of its own.
-    cop: ["ⲁⲟⲩⲓⲛ", "aˈwiːn"],  // Bohairic; the noun also means jaundice. No origin is recorded.
     vo: ["yelovik", "jeloˈvik"],  // The noun yelov 'yellow' with the adjective ending -ik.
     na: ["ebabobo", "ebabobo"],  // No origin is recorded for it, so it counts as a word of its own; bababo is also given.
     cic: ["lakna", "lakna"],  // Inherited from Proto-Muskogean *lakna; the same word covers brown and gold.

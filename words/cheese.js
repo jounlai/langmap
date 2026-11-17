@@ -544,7 +544,7 @@ WORDS.cheese = {
     el_grc: ["τυρός", "tyːrós"],
     enm: ["chese", "ˈtʃeːzə"],
     ang: ["ciese", "ˈtʃiyːse"],
-    cop: ["ⲁⲗⲱⲙ", "aˈloːm"],  // From Demotic Egyptian ḥlm.
+    cop: ["ϩⲁⲗⲱⲙ", "haˈloːm"],  // From Demotic Egyptian ḥlm. Bohairic also ⲁⲗⲱⲙ.
     aii: ["ܓܘܒܬܐ", "ɡubbəθɑː"],
     eo: ["fromaĝo", "froˈmadʒo"],
     vo: ["fromad", "froˈmad"],  // Route by resemblance to the neighbouring forms; no etymology of its own.

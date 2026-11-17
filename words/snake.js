@@ -132,7 +132,7 @@ WORDS.snake = {
     ckb: "mar",
     ckv: "plain",
     cnh: "plain",
-    cop: "other",
+    cop: "plain",
     crh: "crawl",
     crt: "plain",
     cs: "plain",
@@ -764,7 +764,7 @@ WORDS.snake = {
     ckb: ["مار", "maːɾ"],  // Compare Middle Persian mār.
     ckv: ["siqqay", "siqqaj"],
     cnh: ["rul", "rul"],
-    cop: ["ⲟⲃⲓⲟⲛ", "ˈobjon"],  // From Ancient Greek ὄφις.
+    cop: ["ϩⲟϥ", "hof"],  // From Demotic ḥf, from Egyptian ḥfꜣw 'snake'.
     crh: ["yılan", "jɯlan"],  // A "crawler": from the root *serp- "to creep" (Latin serpēns, Sanskrit sarpa), Turkic *yï̄l- "to creep", or Germanic *snakan "to creep".
     crt: ["xuppa", "xuppa"],
     cs: ["had", "ɦat"],

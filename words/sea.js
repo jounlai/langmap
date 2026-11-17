@@ -211,7 +211,7 @@ WORDS.sea = {
     dsb: ["mórjo", "ˈmɨrʲɔ"],
     dv: ["މޫދު", "muːdu"],
     ee: ["atsiaƒu", "atsiaɸu"],
-    el_grc: ["θάλασσα", "tʰálassa"],
+    el_grc: ["θάλαττα", "tʰálatta"],
     enm: ["see", "sɛː"],
     esu: ["imarpik", "imaʁpik"],
     eve: ["нам", "nam"],
@@ -946,7 +946,7 @@ WORDS.sea = {
     xsr: ["རྒྱ་མཚུ", "ɡjamtsu"],
     chy: ["tséh-mȧhóomoēha", "tséhmahóːmoēha"],
     sva: ["ძუღუ̂ა", "dzuɣwa"],
-    egy: ["𓇋𓇋𓅖𓈗𓈘𓈇", "iːm"],
+    egy: ["𓇅𓅨𓂋𓈘", "wadʒ wer"],  // 'The Great Green'; yam, a Semitic loan, came in with the New Kingdom.
     uga: ["𐎊𐎎", "jammu"],
     syc: ["ܝܡܐ", "jammaː"],
     xsa: ["𐩨𐩢𐩧", "baħr"],

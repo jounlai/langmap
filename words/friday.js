@@ -329,7 +329,6 @@ WORDS.friday = {
     es_uy: "venus",
     es_ve: "venus",
     ar_qur: "assembly",
-    el_grc: "preparation",
     ofs: "goddess",
     non: "goddess",
     goh: "goddess",
@@ -767,7 +766,6 @@ WORDS.friday = {
     es_uy: ["viernes", "ˈbjeɾnes"],
     es_ve: ["viernes", "ˈbjeɾneh"],
     ar_qur: ["الجمعة", "aldʒumuʕa"],  // The gathering; Quran 62:9.
-    el_grc: ["Παρασκευή", "paraskeu̯ɛ̌ː"],  // The day of preparation for the Sabbath (Mark 15:42).
     ofs: ["friadei", "ˈfriːadei"],  // From West Germanic *Frījā dag, Frigg's day.
     non: ["frjádagr", "ˈfrjɑːdɑɣr"],  // Probably borrowed from Old Saxon *frīadag.
     goh: ["friatag", "ˈfriːataɡ"],  // Frigg's day, a calque of Latin diēs Veneris.

@@ -537,7 +537,6 @@ WORDS.tomato = {
     nrf: "nahuatl",
     se: "nahuatl",
     gcf: "nahuatl",
-    sa: "other",
     pdc: "nahuatl",
     ota: "nahuatl",
     afb: "nahuatl",
@@ -1028,7 +1027,6 @@ WORDS.tomato = {
     nrf: ["tonmate", "tɔ̃mat"],  // Borrowed from Spanish tomate, from Classical Nahuatl tomatl.
     se: ["tomáhtta", "ˈtomaːhtːa"],  // No origin is given; it matches Finnish tomaatti, ultimately from Nahuatl tomatl.
     gcf: ["tanmadòz", "tãmadɔz"],  // From English tomatoes.
-    sa: ["रक्तफल", "ɾɐktɐpʰɐlɐ"],  // A Modern Sanskrit name, literally 'red fruit', from रक्त 'red' and फल 'fruit'.
     pdc: ["Tomaet", "toˈmɛːt"],  // Borrowed from English tomato.
     ota: ["طوماتس", "toˈmates"],  // Borrowed from Greek τομάτες, which goes back through Spanish tomate to Nahuatl tomatl.
     afb: ["طماط", "tˤʊˈmɑːtˤ"],  // From a European language, ultimately from Nahuatl tomatl.

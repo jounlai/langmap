@@ -679,7 +679,7 @@ WORDS.camel = {
     sa: ["उष्ट्र", "uʂʈɾɐ"],  // Inherited from Proto-Indo-Iranian *úštras; in the Veda it can also mean a buffalo.
     mnc: ["ᡨᡝᠮᡝᠨ", "təmən"],  // From Proto-Mongolic *temexen; compare Mongolian тэмээ.
     aii: ["ܓܘܼܡܠܵܐ", "ɡumla"],  // Inherited from Aramaic gamlā, from Proto-Semitic *gamal-.
-    cop: ["ϫⲁⲙⲟⲩⲗ", "tʃaˈmuːl"],  // Bohairic; inherited from Demotic gmwl 'camel', itself borrowed from Semitic.
+    cop: ["ϭⲁⲙⲟⲩⲗ", "kʲaˈmuːl"],  // Sahidic; inherited from Demotic gmwl 'camel', itself borrowed from Semitic. Bohairic ϫⲁⲙⲟⲩⲗ.
     got: ["𐌿𐌻𐌱𐌰𐌽𐌳𐌿𐍃", "ˈulbandus"],  // Of uncertain origin, usually linked to Greek ἐλέφας 'elephant'.
     orv: ["вельблѫдъ", "vʲelʲĭbludŭ"],  // Inherited from Proto-Slavic, which took it from Gothic ulbandus.
     mhr: ["верблюд", "verˈbʎut"],  // Borrowed from Russian верблюд; тӱе is a synonym.

@@ -602,7 +602,6 @@ WORDS.monday = {
     crx: "after",
     pqm: "after",
     la: "moon",
-    el_grc: "moon",
     ang: "moon",
     enm: "moon",
     non: "moon",
@@ -1190,7 +1189,6 @@ WORDS.monday = {
     crx: ["jimosdzen hukwʼelhʼaz", "dʒimosdzen hʌkʷʼeɬʔaz"],  // Literally 'after Sunday' (jimosdzen 'Sunday'), in the Lheidli dialect of Carrier.
     pqm: ["kissonte", "kissonte"],  // Literally 'it has been Sunday', built on sonte 'Sunday'; amsqahs luhkan, literally 'first working', is also used.
     la: ["diēs Lūnae", "ˈdiːeːs ˈluːnae"],  // 'The Moon's day', the planetary week the Romans took over; Church Latin instead counted feria secunda.
-    el_grc: ["ἡμέρα Σελήνης", "hɛːméraː selɛ̌ːnɛːs"],  // 'Day of the Moon' in the astrological week; Christian Greek counted Δευτέρα 'second' instead.
     ang: ["mōnandæġ", "ˈmoːnɑndæj"],  // Mōna 'moon' + dæġ 'day', from West Germanic *mānini dag.
     enm: ["Monday", "ˈmoːndæi"],  // From Old English mōnandæġ, 'moon's day'.
     non: ["mánadagr", "ˈmɑːnɑdɑɣr"],  // A calque of Latin dies lunae, 'the moon's day'.

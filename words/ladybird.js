@@ -248,7 +248,6 @@ WORDS.ladybird = {
     aii: "other",
     lld: "holy",
     li: "holy",
-    la: "other",
     vot: "holy",
     cic: "other",
     krl: "holy",
@@ -453,7 +452,6 @@ WORDS.ladybird = {
     aii: ["ܒܵܛܝܼܒܵܛܘܿ", "baːtˤiːbaːtˤoː"],  // Related to ܒܸܛܵܐ 'spark', probably because the beetle looks like a spark; the word also means firefly.
     lld: ["chëifer dla Madona", "ˈkəifer dla maˈdona"],  // 'Beetle of the Madonna' (chëifer 'beetle', borrowed from German).
     li: ["slivvenhierebieske", "slɪvəˈniːrəbiskə"],  // 'Our God's little animal': Slivvenhier 'Our God' plus bieske 'little animal, little cow', like Dutch lieveheersbeestje.
-    la: ["coccinella", "kokkiˈnella"],  // Coined by Linnaeus in 1758 from coccinus 'scarlet' and a diminutive ending.
     vot: ["jumalõlintu", "ˈjumalɤlintu"],  // Jumalõ 'god' + lintu 'bird'.
     cic: ["loksiʼ", "loksiʔ"],  // The same word means tortoise or turtle.
     krl: ["spuassunlehmä", "ˈspuɑ̯sːunlehmæ"],  // Spuassu 'the Saviour, Christ' + lehmä 'cow': the Saviour's cow.

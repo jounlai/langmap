@@ -1217,7 +1217,7 @@ WORDS.star = {
       kgg: ["sam", "sam"],
       ota: ["یلدز", "jɯlˈdɯz"],
       cmg: ["ᠣᠳᠤᠨ", "odun"],
-      ett: ["—", "—"],
+      ett: ["pulumchva", "ˈpulumkʰwa"],  // Attested only in the plural, 'stars'.
       cms: ["—", "—"],
       xht: ["—", "—"],
       txr: ["—", "—"],

@@ -800,6 +800,7 @@ WORDS.n99 = {
     arc: "plural",
     mjg: "dec",
     mvf: "dec",
+    el_kath: "dec",
   },
   routes: {
     dec: {
@@ -1613,5 +1614,6 @@ WORDS.n99 = {
     arc: ["תִּשְׁעִין וּתְשַׁע", "tiʃʕiːn uθʃaʕ"],
     mjg: ["yirin shzin", "jirin ʂtsin"],
     mvf: ["yirin shzin", "jirin ʂdzən"],
+    el_kath: ["ἐνενήκοντα ἐννέα", "eneˈnikonda eˈnea"],
   }
 };

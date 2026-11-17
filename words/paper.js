@@ -484,6 +484,8 @@ WORDS.paper = {
     rkt: "kaghaz",
     thr: "kaghaz",
     twm: "plain",
+    el_grc: "charta",
+    el_kath: "charta",
   },
   routes: {
     papyrus: {"color":"#2563eb","emoji":"📜","en":"from Latin papyrus (papier, papel, Papier)","ja":"ラテン語 papyrus から（papier, papel, Papier）","ko":"라틴어 papyrus에서 (papier, papel, Papier)","zh":"源自拉丁语 papyrus（papier, papel, Papier）","yue":"源自拉丁文 papyrus（papier, papel, Papier）","vi":"từ tiếng Latinh papyrus (papier, papel, Papier)","th":"จากภาษาละติน papyrus (papier, papel, Papier)","id":"dari bahasa Latin papyrus (papier, papel, Papier)","hi":"लैटिन papyrus से (papier, papel, Papier)","de":"aus lateinisch papyrus (papier, papel, Papier)","fr":"du latin papyrus (papier, papel, Papier)","it":"dal latino papyrus (papier, papel, Papier)","es":"del latín papyrus (papier, papel, Papier)","pt":"do latim papyrus (papier, papel, Papier)","ru":"из латинского papyrus (papier, papel, Papier)","uk":"з латинського papyrus (papier, papel, Papier)","ar":"من اللاتينية papyrus (papier, papel, Papier)","he":"מ-papyrus הלטינית (papier, papel, Papier)","sw":"kutoka Kilatini papyrus (papier, papel, Papier)"},
@@ -908,5 +910,7 @@ WORDS.paper = {
     rkt: ["কাগজ", "kaɡodʒ"],
     thr: ["कागज", "kaːɡədʒ"],
     twm: ["ɕɔk55ɕo53", "ɕɔk˥˥ɕo˥˧"],
+    el_grc: ["χάρτης", "kʰártɛːs"],  // There was no paper yet; χάρτης was a sheet or roll of papyrus, which Athens bought for its public accounts.
+    el_kath: ["χάρτης", "ˈxartis"],
   },
 };

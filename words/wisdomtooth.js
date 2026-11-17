@@ -259,6 +259,8 @@ WORDS.wisdomtooth = {
     sw: "age",
     cdo: "other",
     el_koi: "wisdom",
+    el_grc: "other",
+    el_kath: "wisdom",
   },
   routes: {
     wisdom: {"color":"#7c3aed","emoji":"🦉","en":"wisdom · sense","ja":"知恵・分別","ko":"지혜 · 분별","zh":"智慧・理智","yue":"智慧 · 理智","vi":"trí khôn · sự hiểu biết","th":"ปัญญา · ความรู้คิด","id":"kebijaksanaan · akal","hi":"बुद्धि · अक़्ल","de":"Weisheit · Verstand","fr":"sagesse · raison","it":"saggezza · giudizio","es":"sabiduría · juicio","pt":"sabedoria · siso","ru":"мудрость · разум","uk":"мудрість · розум","ar":"الحكمة · العقل","he":"חוכמה · בינה","sw":"busara · akili"},
@@ -461,5 +463,7 @@ WORDS.wisdomtooth = {
     sw: ["gego la mwisho", "ɡeɡo la mwiʃo"],  // Literally 'the last molar' (gego 'molar').
     cdo: ["添子牙", "tʰieŋ˥˥ tsi˧˧ ŋa˥˧"],  // Written 添子 'add a child' + 牙 'tooth'. Word from a Fuzhou dialect dictionary (thieŋ¹ tsi³ ŋa² '智齿'), sent by a reader; readings from MCPDict 福州 (子 in its colloquial tsi) in the row's tone values.
     el_koi: ["σωφρονιστήρ", "sopʰronisˈte̝r"],
+    el_grc: ["κραντήρ", "krantɛ̌ːr"],  // Aristotle says the last molars were called κραντῆρες, "completers", because they finish the set.
+    el_kath: ["φρονιμίτης", "froniˈmitis"],
   },
 };

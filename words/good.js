@@ -1224,7 +1224,7 @@ WORDS.good = {
     kgg: ["wen", "wen"],
     ota: ["ایی", "iˈji"],
     cmg: ["ᠰᠠᠶᠢᠨ", "sajin"],
-    ett: ["—", "—"],
+    ett: ["mlach", "mlakʰ"],
     cms: ["—", "—"],
     xht: ["—", "—"],
     txr: ["—", "—"],

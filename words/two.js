@@ -512,7 +512,7 @@ WORDS.two = {
       kfr: ["બ", "ɓa"],
       kry: ["qʼʷad", "qʼʷad"],
       luz: ["do", "do"],
-      osc: ["—", "—"],
+      osc: ["duvo", "duwo"],
       pkp: ["lua", "lua"],
       qxq: ["iki", "iˈki"],
       wls: ["lua", "lua"],

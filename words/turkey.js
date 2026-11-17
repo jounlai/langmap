@@ -444,6 +444,8 @@ WORDS.turkey = {
     ko_yb: "local",
     ko_hg: "local",
     mn_cn: "local",
+    el_grc: "local",
+    el_koi: "local",
   },
   routes: {
     india: {"color":"#ea580c","emoji":"🐘","en":"named for India · the Indies","ja":"インドの名で","ko":"인도의 이름으로","zh":"以印度为名","yue":"以印度為名","vi":"theo tên Ấn Độ","th":"ตั้งตามอินเดีย","id":"dinamai India","hi":"भारत के नाम पर","de":"nach Indien benannt","fr":"nommé d'après l'Inde","it":"dal nome dell'India","es":"por la India","pt":"pelo nome da Índia","ru":"по Индии","uk":"за Індією","ar":"باسم الهند","he":"על שם הודו","sw":"kwa jina la India"},
@@ -829,5 +831,7 @@ WORDS.turkey = {
     ko_yb: ["칠면조", "tɕʰilmjʌndʑo"],  // Sino-Korean 七面鳥 "seven-faced bird", the same name as Japanese.
     ko_hg: ["칠면조", "tɕʰilmjʌndʑo"],  // Sino-Korean 七面鳥 "seven-faced bird", the same name as Japanese.
     mn_cn: ["ᠰᠠᠴᠤᠭᠲᠤ ᠬᠢᠷᠭᠤᠤᠯ", "sɑtʃʰʊɡt xirɢʊːl"],
+    el_grc: ["μελεαγρίς", "meleaɡrís"],  // There were no turkeys in the Old World; μελεαγρίς is the guinea fowl, which Linnaeus later lent to the turkey genus, Meleagris.
+    el_koi: ["μελεαγρίς", "meleaˈɡris"],  // There were no turkeys in the Old World; μελεαγρίς is the guinea fowl, the big spotted fowl the Greeks knew — Linnaeus later gave its name to the turkey genus, Meleagris.
   },
 };

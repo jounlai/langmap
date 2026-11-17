@@ -801,6 +801,7 @@ WORDS.tea = {
     mui: "te",
     kgg: "cha",
     nmf: "cha",
+    el_kath: "te",
   },
   // Route marker shown on each tea label (this concept only): which trade
   // route the word travelled. Localized; falls back to en.
@@ -1562,5 +1563,6 @@ WORDS.tea = {
     mui: ["te", "te"],
     kgg: ["tsya", "tsja"],  // Borrowed from Nepali चिया.
     nmf: ["chah", "tʃah"],
+    el_kath: ["τέιον", "ˈteion"],
   },
 };

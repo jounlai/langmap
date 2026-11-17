@@ -311,6 +311,7 @@ WORDS.lol = {
     wae: ["lol", "lɔl"],
     gsw_w: ["lol", "lɔl"],
     gsw_als: ["lol", "lɔl"],
-    zh_hf: ["233", "ʔa˥˩ sɐ̃˨˩˨ sɐ̃˨˩˨"]
+    zh_hf: ["233", "ʔa˥˩ sɐ̃˨˩˨ sɐ̃˨˩˨"],
+    la: ["hahahae", "ˈhahahae"],  // There was no texting; hahahae is how Roman comedy wrote out a laugh.
   },
 };

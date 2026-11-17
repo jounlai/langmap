@@ -358,6 +358,8 @@ WORDS.sunflower = {
     mjg: "sun",
     mvf: "sun",
     sat: "turn",
+    el_kath: "sun",
+    la: "turn",
   },
   routes: {
     turn: {"color":"#ea580c","emoji":"🔄","en":"turns to the sun","ja":"太陽に向く","ko":"해를 향함","zh":"朝向太阳","yue":"向住太陽","vi":"hướng về mặt trời","th":"หันตามดวงอาทิตย์","id":"menghadap matahari","hi":"सूरज की ओर मुड़ता","de":"dreht sich zur Sonne","fr":"se tourne vers le soleil","it":"si volta verso il sole","es":"se gira al sol","pt":"volta-se para o sol","ru":"поворачивается к солнцу","uk":"повертається до сонця","ar":"يتّجه نحو الشمس","he":"פונה אל השמש","sw":"hugeuka kuelekea jua"},
@@ -662,5 +664,7 @@ WORDS.sunflower = {
     mjg: ["nara qijiu", "nara tɕʰitɕiu"],  // 'Sun flower'.
     mvf: ["nara qijiu", "nara ʨiʥiu"],  // 'Sun flower'.
     sat: ["ᱪᱟᱸᱫᱚ ᱢᱩᱴᱷᱟᱹᱱ ᱵᱟᱦᱟ", "tʃãdɔ muʈʰən baha"],  // 'sun-facing flower'
+    el_kath: ["ἡλίανθος", "iˈlianθos"],
+    la: ["hēliotropium", "heːlioˈtropium"],  // Sunflowers came from the Americas; hēliotropium was the 'sun-turning' flower Pliny says follows the sun all day.
   },
 };

@@ -920,5 +920,7 @@ WORDS.rice = {
     vi_mid: ["gạo", "ɣaːw˧˨ʔ"],
     yuy: ["hdurʁan", "hdurʁan"],
     ybe: ["tutïrqan", "tutɯrqan"],
+    cia: ["bhae", "ɓae"],
+    pzh: ["lasu", "lasu"],
   }
 };

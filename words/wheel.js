@@ -974,5 +974,6 @@ WORDS.wheel = {
     vi_mid: ["bánh xe", "ɓaɲ˧˥ ɕɛ˧"],
     mvf: ["guli", "ɡulə"],
     ybe: ["kulu", "kulu"],  // Borrowed from Chinese 轱辘.
+    mui: ["roda", "roda"],
   }
 };

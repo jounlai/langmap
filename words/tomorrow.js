@@ -962,6 +962,8 @@ WORDS.tomorrow = {
     kxm: "plain",
     lwl: "plain",
     prk: "plain",
+    cia: "plain",
+    th_s: "morning",
   },
   routes: {
     morning: {"color":"#ea580c","emoji":"🌄","en":"the morning · dawn","ja":"朝・夜明け","ko":"아침 · 새벽","zh":"早晨・黎明","yue":"朝早 · 天光","vi":"buổi sáng · bình minh","th":"ยามเช้า · รุ่งอรุณ","id":"pagi · fajar","hi":"सुबह · भोर","de":"der Morgen · die Frühe","fr":"le matin · l'aube","it":"il mattino · l'alba","es":"la mañana · el alba","pt":"a manhã · a alvorada","ru":"утро · рассвет","uk":"ранок · світанок","ar":"الصباح · الفجر","he":"הבוקר · השחר","sw":"asubuhi · alfajiri"},
@@ -1868,5 +1870,7 @@ WORDS.tomorrow = {
     kxm: ["ស្អែក", "sʔɛːʔ"],
     lwl: ["sʼeh", "sᵊʔeh"],
     prk: ["ba sax", "pa saʔ"],
+    cia: ["nabhita", "naɓita"],
+    th_s: ["ตอเช้า", "tɔː˥ tɕʰaw˧˥"],
   },
 };

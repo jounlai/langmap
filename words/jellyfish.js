@@ -283,6 +283,8 @@ WORDS.jellyfish = {
     la_late: "other",
     vi_mid: "plain",
     pt_mo: "other",
+    ban: "plain",
+    iba: "plain",
   },
   routes: {
     medusa: {"color":"#7c3aed","emoji":"🐍","en":"named after Medusa","ja":"メドゥーサにちなむ","ko":"메두사에서","zh":"源自美杜莎","yue":"源自美杜莎","vi":"theo tên Medusa","th":"ตั้งตามเมดูซา","id":"dari nama Medusa","hi":"मेडूसा के नाम पर","de":"nach Medusa","fr":"d'après Méduse","it":"da Medusa","es":"por Medusa","pt":"por Medusa","ru":"по имени Медузы","uk":"за ім'ям Медузи","ar":"على اسم ميدوسا","he":"על שם מדוזה","sw":"kwa jina la Medusa"},
@@ -510,5 +512,7 @@ WORDS.jellyfish = {
     la_late: ["pulmo marinus", "ˈpolmo maˈrinos"],
     vi_mid: ["sứa", "ʂɨə˧˥"],
     pt_mo: ["alforreca", "alfuˈʁɛkɐ"],
+    ban: ["ubur-ubur", "uburubur"],
+    iba: ["bubur", "bubur"],
   },
 };

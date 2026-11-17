@@ -502,6 +502,18 @@ WORDS.sunday = {
     prk: "holy",
     wbm: "holy",
     za: "other",
+    agt: "lord",
+    bew: "lord",
+    bik: "lord",
+    dtp: "other",
+    ivv: "lord",
+    mad: "count",
+    mui: "lord",
+    pag: "other",
+    ssf: "rest",
+    trv: "rest",
+    tsu: "sun",
+    war: "lord",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -944,5 +956,17 @@ WORDS.sunday = {
     prk: ["ngāix dūah", "ŋa̤iʔ tṳah"],
     wbm: ["ngaix twah", "ŋaiʔ tuah"],
     za: ["ngoenzsinghgiz", "ŋon˧˩ θiŋ˧ ki˧˩"],
+    agt: ["Liggu", "liɡːu"],  // From Spanish domingo, like Tagalog Linggo.
+    bew: ["Minggu", "miŋɡu"],
+    bik: ["Domingo", "doˈmiŋɡo"],
+    dtp: ["Tadau Tiwang", "tadau tiwaŋ"],  // Tadau koturu or minggu is also listed.
+    ivv: ["Dominggo", "domiŋɡo"],
+    mad: ["Ahad", "ahad"],
+    mui: ["Minggu", "miŋɡu"],  // Ahad is also used.
+    pag: ["Simba", "simba"],  // From simba 'worship'; simbaan is 'church'.
+    ssf: ["pangqaiza wa qali", "paŋqaiða wa qali"],  // 'the day of rest'
+    trv: ["jiyax sngayan", "ɟijax sŋajan"],  // 'Day of rest'.
+    tsu: ["nicio", "nitsio"],
+    war: ["Dominggo", "doˈmiŋɡo"],  // From Spanish.
   },
 };

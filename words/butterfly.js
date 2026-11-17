@@ -949,5 +949,6 @@ WORDS.butterfly = {
     mvf: ["xanbalaxji", "ɕanbalaɕʥi"],
     sce: ["hebegvi", "xəpəˈʁi"],
     bdq: ["pơlai", "pəlaːj"],
+    mui: ["kupu-kupu", "kupu kupu"],
   },
 };

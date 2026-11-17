@@ -407,6 +407,16 @@ WORDS.uncle = {
     nxq: "split",
     pmi: "split",
     za: "split",
+    bbc: "split",
+    bik: "one",
+    bto: "one",
+    ckv: "one",
+    hil: "one",
+    mdh: "one",
+    min: "split",
+    pyu: "one",
+    tay: "one",
+    tsu: "one",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's brother ≠ mother's brother","ja":"父の兄弟と母の兄弟で別の語","ko":"아버지의 형제와 어머니의 형제가 다른 낱말","zh":"父亲的兄弟和母亲的兄弟用不同的词","yue":"老豆嘅兄弟同阿媽嘅兄弟用唔同嘅詞","vi":"anh em của cha ≠ anh em của mẹ","th":"พี่น้องชายของพ่อกับของแม่เป็นคนละคำ","id":"saudara ayah ≠ saudara ibu","hi":"पिता का भाई ≠ माँ का भाई","de":"Bruder des Vaters ≠ Bruder der Mutter","fr":"frère du père ≠ frère de la mère","it":"fratello del padre ≠ fratello della madre","es":"hermano del padre ≠ hermano de la madre","pt":"irmão do pai ≠ irmão da mãe","ru":"брат отца ≠ брат матери","uk":"брат батька ≠ брат матері","ar":"أخو الأب ≠ أخو الأم","he":"אחי האב ≠ אחי האם","sw":"kaka wa baba ≠ kaka wa mama"},
@@ -756,5 +766,15 @@ WORDS.uncle = {
     nxq: ["eqdal", "ə˨˩tɑ˥"],  // Sun 1991 (Lijiang Naxi) ə³¹tɑ⁵⁵. Naxi spelling is derived; the source is IPA. Father's elder brother; the mother's brother is ə³¹tɕy⁵⁵ (eqjiul).
     pmi: ["a55põ55", "a˥˥põ˥˥"],  // Father's elder brother; the mother's brother is a⁵⁵kio⁵³.
     za: ["lungz", "luŋ˧˩"],  // parent's elder brother; au is the father's younger brother
+    bbc: ["amangtua", "amaŋtua"],  // Father's elder brother; the father's younger brother is amanguda and the mother's brother tulang.
+    bik: ["tiyo", "ˈtijo"],
+    bto: ["tāta", "taːta"],
+    ckv: ["tama", "ˈtama"],  // The same word as father.
+    hil: ["tiyo", "ˈtijoʔ"],
+    mdh: ["bapa", "bapa"],
+    min: ["mamak", "mamaʔ"],  // The mother's brother, central in Minangkabau matrilineal kinship.
+    pyu: ["ama", "ama"],
+    tay: ["mamaʼ", "mamaʔ"],
+    tsu: ["amoconi", "amotsoni"],
   },
 };

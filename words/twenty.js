@@ -590,6 +590,20 @@ WORDS.twenty = {
     swi: "tens",
     th_isan: "plain",
     tyz: "tens",
+    ami: "tens",
+    bew: "tens",
+    bik: "tens",
+    bts: "tens",
+    cia: "tens",
+    ckv: "fused",
+    itb: "tens",
+    mdh: "tens",
+    mui: "tens",
+    pwn: "tens",
+    pyu: "plain",
+    pzh: "tens",
+    tay: "plain",
+    trv: "plain",
   },
   routes: {
     tens: {"color":"#2563eb","emoji":"🔟","en":"two and the free word for ten","ja":"二と「十」の語","ko":"둘과 ‘열’이라는 낱말","zh":"二加“十”这个词","yue":"二加「十」呢個詞","vi":"hai và từ “mười”","th":"สองกับคำว่าสิบ","id":"dua dan kata untuk sepuluh","hi":"दो और दस का शब्द","de":"zwei und das Wort für zehn","fr":"deux et le mot pour dix","it":"due e la parola per dieci","es":"dos y la palabra para diez","pt":"dois e a palavra para dez","ru":"два и слово «десять»","uk":"два і слово «десять»","ar":"اثنان وكلمة عشرة","he":"שתיים והמילה עשר","sw":"mbili na neno la kumi"},
@@ -1119,5 +1133,19 @@ WORDS.twenty = {
     swi: ["ȵi6 sup8", "ȵi˨˦ sup˧˩"],
     th_isan: ["ซาว", "saːw˧˥˨"],
     tyz: ["nhi̱ slíp", "ɲi˩˩ ɬip̚˧˥"],  // 'Two ten': slíp is 'ten'.
+    ami: ["tosa a poloʼ", "tosa a poloʔ"],
+    bew: ["dua puluh", "duwa puluh"],
+    bik: ["duwampulo", "duwamˈpuloʔ"],
+    bts: ["dua puluh", "dua puluh"],
+    cia: ["ruapulu", "ruapulu"],
+    ckv: ["uzusabetin", "uzusabətin"],  // Two tens.
+    itb: ["doha a poxo", "doha a poɣo"],  // Two (doha) tens (poxo).
+    mdh: ["duapulu", "duwapulu"],
+    mui: ["duo puluh", "duo puluh"],
+    pwn: ["drusapuluq", "ɖusapuɭuq"],  // Two (drusa) and ten (puluq).
+    pyu: ["makabetraan", "makabəʈaan"],
+    pzh: ["dusa isit", "dusa isit"],
+    tay: ["mpusal", "mpusal"],
+    trv: ["empusal", "əmpusal"],
   },
 };

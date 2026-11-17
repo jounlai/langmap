@@ -495,7 +495,7 @@ WORDS.good = {
     osa: ["tąhé", "tãhé"],
     pmy: ['bae', 'ˈbae'],
     pot: ['mno', 'mno'],
-    pzh: ['—', '—'],
+    pzh: ["riak", "ɾiak"],
     wic: ["acs", "atss"],
     wuu_jh: ["好", "xɑu˥˧˥"],
     wuu_jx: ["好", "hɔ˦˦"],

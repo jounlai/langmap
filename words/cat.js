@@ -490,7 +490,7 @@ WORDS.cat = {
     osa: ["ilǫ́eži", "ilṍeʒi"],
     pmy: ['kucing', 'ˈkutʃiŋ'],
     pot: ["kazho", "kaʒo"],
-    pzh: ['—', '—'],
+    pzh: ["balan", "balan"],
     wic: ['—', '—'],
     wuu_jh: ["猫", "mɑu˧˩˧"],
     wuu_jx: ["猫", "mɔ˧˩"],

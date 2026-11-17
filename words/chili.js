@@ -359,6 +359,18 @@ WORDS.chili = {
     pt_mo: "pepper",
     tyz: "hot",
     za: "hot",
+    ban: "pepper",
+    bik: "chilli",
+    bjn: "plain",
+    cia: "plain",
+    mfa: "pepper",
+    min: "pepper",
+    mui: "pepper",
+    pyu: "plain",
+    ssf: "hot",
+    su: "pepper",
+    trv: "plain",
+    tsu: "plain",
   },
   routes: {
     chilli: {"color":"#dc2626","emoji":"🌶️","en":"Nahuatl chīlli (chile, chili, sili)","ja":"ナワトル語 chīlli（chile, chili, sili）","ko":"나우아틀어 chīlli (chile, chili, sili)","zh":"纳瓦特尔语 chīlli（chile、chili、sili）","yue":"納瓦特爾語 chīlli（chile、chili、sili）","vi":"tiếng Nahuatl chīlli (chile, chili, sili)","th":"นาวาตล์ chīlli (chile, chili, sili)","id":"Nahuatl chīlli (chile, chili, sili)","hi":"नाहुआत्ल chīlli (chile, chili, sili)","de":"Nahuatl chīlli (chile, Chili, sili)","fr":"le nahuatl chīlli (chile, chili, sili)","it":"il nahuatl chīlli (chile, chili, sili)","es":"el náhuatl chīlli (chile, chili, sili)","pt":"o náuatle chīlli (chile, chili, sili)","ru":"науатль chīlli (chile, chili, sili)","uk":"науатль chīlli (chile, chili, sili)","ar":"الناواتل chīlli (chile, chili, sili)","he":"הנאוואטל chīlli (chile, chili, sili)","sw":"Kinahuatl chīlli (chile, chili, sili)"},
@@ -656,5 +668,17 @@ WORDS.chili = {
     pt_mo: ["malagueta", "mɐlɐˈɣetɐ"],
     tyz: ["mác phết", "maːk̚˧˥ pʰet̚˧˥"],  // 'Spicy fruit': phết is 'hot, spicy', as in Lao ໝາກເຜັດ.
     za: ["lwgmanh", "lɯk˧ maːn˧"],
+    ban: ["tabia", "tabiə"],
+    bik: ["sili", "ˈsili"],
+    bjn: ["lombok", "lombok"],  // Same word as Javanese lombok.
+    cia: ["saha", "saha"],
+    mfa: ["lado", "ladɔ"],  // The Malay word for pepper, lada, as in Minangkabau lado.
+    min: ["lado", "lado"],  // The Malay word for pepper, lada.
+    mui: ["cabi", "tʃabi"],
+    pyu: ["kamangulr", "kamaŋul"],
+    ssf: ["makamun", "makamun"],
+    su: ["cabé", "tʃabe"],
+    trv: ["usik", "usik"],
+    tsu: ["cucʼu", "tsutsʔu"],
   },
 };

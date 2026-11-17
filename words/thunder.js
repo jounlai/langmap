@@ -830,6 +830,9 @@ WORDS.thunder = {
     prk: "plain",
     th_n: "sky",
     tji: "sky",
+    bew: "plain",
+    bts: "plain",
+    cia: "plain",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1606,5 +1609,8 @@ WORDS.thunder = {
     prk: ["saih", "saih"],
     th_n: ["ฟ้าฮ้อง", "faː˦˥ hɔːŋ˦˥"],
     tji: ["metace", "mɯe˧˥tʰa˥˥tsʰie˨˩"],  // Built on mɯe 'sky', as rain meze is.
+    bew: ["geledek", "ɡələdek"],
+    bts: ["longgur", "loŋɡur"],
+    cia: ["rundu", "rundu"],
   },
 };

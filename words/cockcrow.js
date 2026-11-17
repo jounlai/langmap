@@ -602,5 +602,6 @@ WORDS.cockcrow = {
     ckv: ["temuku", "təmuku"],
     hil: ["toktorook", "toktoˈɾoʔok"],  // Hiligaynon toktoróok 'the crow of a cock; to crow' (Kaufmann).
     la: ["cocococo", "koˈkokoko"],  // An imitation of the cock's crow in Petronius, Satyricon 59: 'when you were a cockerel, cocococo'.
+    ms: ["kukurukuk", "kukuˈrukuʔ"],
   },
 };

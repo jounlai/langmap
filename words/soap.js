@@ -408,6 +408,11 @@ WORDS.soap = {
     pmi: "other",
     pt_mo: "sapo",
     th_isan: "sabao",
+    bew: "sabun",
+    bik: "sapo",
+    min: "sabun",
+    mui: "sabun",
+    su: "sabun",
   },
   routes: {
     sapo: {"color":"#2563eb","emoji":"🏛️","en":"Latin sapo","ja":"ラテン語 sapo","ko":"라틴어 sapo","zh":"拉丁语 sapo","yue":"拉丁語 sapo","vi":"tiếng Latinh sapo","th":"ละติน sapo","id":"Latin sapo","hi":"लैटिन sapo","de":"lateinisch sapo","fr":"le latin sapo","it":"il latino sapo","es":"el latín sapo","pt":"o latim sapo","ru":"латинское sapo","uk":"латинське sapo","ar":"اللاتينية sapo","he":"הלטינית sapo","sw":"Kilatini sapo"},
@@ -757,5 +762,10 @@ WORDS.soap = {
     pmi: ["jã35tɕa53", "jã˧˥tɕa˥˧"],
     pt_mo: ["sabão", "sɐˈβɐ̃w̃"],
     th_isan: ["สบู่", "sa˨˦buː˦"],
+    bew: ["sabun", "sabun"],
+    bik: ["sabon", "saˈbon"],
+    min: ["sabun", "sabun"],
+    mui: ["sabun", "sabun"],
+    su: ["sabun", "sabun"],
   },
 };

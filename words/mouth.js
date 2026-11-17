@@ -1253,5 +1253,6 @@ WORDS.mouth = {
     egy_dem: ["rꜣ", "ro"],
     vi_mid: ["miệng", "miəŋ˧˨ʔ"],
     lis: ["mu-lu", "mɯ˧˩lɯ˧˥"],
+    cia: ["bhobha", "ɓoɓa"],
   }
 };

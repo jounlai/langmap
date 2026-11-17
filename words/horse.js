@@ -1163,5 +1163,6 @@ WORDS.horse = {
     cja: ["اسايه", "asaih"],  // Wiktionary Cham Jawi spelling.
     cjm: ["ꨀꨔꨰꩍ", "ʔasɛh"],
     kjg: ["hmbraŋ", "hmbraŋ"],
+    mui: ["kudo", "kudo"],
   }
 };

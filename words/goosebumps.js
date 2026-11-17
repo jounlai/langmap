@@ -248,6 +248,7 @@ WORDS.goosebumps = {
     bs: "plain",
     sw: "plain",
     pt_mo: "bird",
+    pam: "plain",
   },
   family2: {
     ko: "bird",
@@ -444,5 +445,6 @@ WORDS.goosebumps = {
     bs: ["jeza", "ˈjeːza"],  // A word of its own, from Proto-Slavic *(j)ęza; it also means a shudder or horror.
     sw: ["kimbimbi", "kiˈmbimbi"],  // Goose pimples; also the shiver of fear (ILCAA: 'hair standing upright from cold or great fear').
     pt_mo: ["pele de galinha", "ˈpɛlɨ ðɨ ɣɐˈliɲɐ"],
+    pam: ["kaligkig", "kaliɡkiɡ"],
   },
 };

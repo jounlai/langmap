@@ -798,6 +798,7 @@ WORDS.tea = {
     ybe: "cha",
     bdq: "cha",
     lis: "cha",
+    mui: "te",
   },
   // Route marker shown on each tea label (this concept only): which trade
   // route the word travelled. Localized; falls back to en.
@@ -1556,5 +1557,6 @@ WORDS.tea = {
     ybe: ["ča", "tʃa"],  // Borrowed from Chinese 茶.
     bdq: ["đak che", "ɗaːk cɛː"],
     lis: ["tsha-zi", "tsʰɑ˧˩zɿ˧˧"],
+    mui: ["te", "te"],
   },
 };

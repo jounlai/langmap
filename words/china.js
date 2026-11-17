@@ -540,6 +540,11 @@ WORDS.china = {
     lis: "zhongguo",
     prk: "zhongguo",
     wbm: "zhongguo",
+    bbc: "cina",
+    mad: "zhongguo",
+    mui: "cina",
+    pam: "cina",
+    war: "cina",
   },
   family2: {
     bo: "zhongguo",
@@ -1026,5 +1031,10 @@ WORDS.china = {
     lis: ["cho-kuo", "tɕo˦˦kuə˧˩"],
     prk: ["Joung Gox", "tɕoŋ kɔʔ"],
     wbm: ["Congkawx", "tɕoŋ kɔʔ"],
+    bbc: ["Sina", "sina"],
+    mad: ["Tiongkok", "tiɔŋkɔʔ"],
+    mui: ["Cino", "tʃino"],
+    pam: ["Tsina", "ˈtsina"],
+    war: ["Tsina", "ˈtsina"],  // From Spanish.
   },
 };

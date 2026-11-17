@@ -669,6 +669,27 @@ WORDS.language = {
     wbm: "speech",
     yiz: "speech",
     za: "speech",
+    ami: "speech",
+    bbc: "speech",
+    bik: "speech",
+    bts: "speech",
+    cbk: "tongue",
+    ckv: "speech",
+    gor: "speech",
+    hil: "tongue",
+    ilo: "speech",
+    ivv: "speech",
+    jv: "speech",
+    mfa: "speech",
+    mui: "speech",
+    pzh: "speech",
+    sda: "speech",
+    ssf: "speech",
+    tao: "plain",
+    tay: "speech",
+    trv: "speech",
+    tsu: "speech",
+    war: "speech",
   },
   routes: {
     tongue: {"color":"#dc2626","emoji":"👅","en":"the tongue (langue, язык, dil)","ja":"舌（langue, язык, dil）","ko":"혀 (langue, язык, dil)","zh":"舌头（langue、язык、dil）","yue":"脷（langue、язык、dil）","vi":"cái lưỡi (langue, язык, dil)","th":"ลิ้น (langue, язык, dil)","id":"lidah (langue, язык, dil)","hi":"जीभ (langue, язык, dil)","de":"die Zunge (langue, язык, dil)","fr":"l'organe, la langue (langue, язык, dil)","it":"l'organo, la lingua (langue, язык, dil)","es":"el órgano, la lengua (langue, язык, dil)","pt":"o órgão, a língua (langue, язык, dil)","ru":"орган язык (langue, язык, dil)","uk":"орган язик (langue, язык, dil)","ar":"اللسان (langue, язык, dil)","he":"הלשון (langue, язык, dil)","sw":"ulimi (langue, язык, dil)"},
@@ -1276,5 +1297,26 @@ WORDS.language = {
     wbm: ["lox", "loʔ"],
     yiz: ["ȵɪʉ", "ȵɪ˨˩ʉ˨˨"],
     za: ["vah", "βa˧"],  // as in Vahcuengh, the Zhuang language
+    ami: ["sowal", "sowal"],
+    bbc: ["hata", "hata"],  // Also 'word, speech'; Hata Batak Toba is the Toba Batak language.
+    bik: ["tataramon", "tataˈɾamon"],
+    bts: ["sahap", "sahap"],
+    cbk: ["lenguaje", "leŋˈɡwahe"],
+    ckv: ["sikawman", "sikawman"],  // Also what one says.
+    gor: ["bahasa", "bahasa"],
+    hil: ["lingguahe", "liŋˈɡwahe"],
+    ilo: ["pagsasao", "paɡsasao"],  // From sao 'word, speech'.
+    ivv: ["chirin", "tʃirin"],
+    jv: ["basa", "bɔsɔ"],  // From Sanskrit bhāṣā "speech, language".
+    mfa: ["baso", "basɔ"],
+    mui: ["baso", "baso"],
+    pzh: ["kawas", "kawas"],
+    sda: ["basa", "basa"],
+    ssf: ["lalawa", "lalawa"],
+    tao: ["ciriciring", "tɕiritɕiriŋ"],
+    tay: ["keʼ", "kəʔ"],  // Also speech, words.
+    trv: ["kari", "kaɾi"],
+    tsu: ["eʼe", "eʔe"],
+    war: ["yinaknan", "jinakˈnan"],  // The same word means word or speech.
   },
 };

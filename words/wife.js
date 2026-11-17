@@ -548,6 +548,29 @@ WORDS.wife = {
     th_isan: "own",
     wbm: "own",
     za: "own",
+    agt: "spouse",
+    aoz: "woman",
+    bik: "spouse",
+    bjn: "own",
+    bto: "spouse",
+    bts: "own",
+    bzg: "spouse",
+    cia: "woman",
+    ckv: "spouse",
+    hil: "own",
+    ilo: "spouse",
+    ivv: "spouse",
+    mdh: "spouse",
+    mui: "own",
+    nij: "spouse",
+    pag: "spouse",
+    pyu: "spouse",
+    pzh: "woman",
+    szy: "spouse",
+    tao: "woman",
+    trv: "woman",
+    tsu: "spouse",
+    war: "spouse",
   },
   routes: {
     woman: {"color":"#db2777","emoji":"👩","en":"the same word as woman","ja":"「女」と同じ語","ko":"‘여자’와 같은 말","zh":"与“女人”同词","yue":"同「女人」同一個詞","vi":"cùng một từ với “đàn bà”","th":"คำเดียวกับ “ผู้หญิง”","id":"sama dengan kata “perempuan”","hi":"‘औरत’ वाला ही शब्द","de":"dasselbe Wort wie Frau","fr":"le même mot que femme","it":"la stessa parola di donna","es":"la misma palabra que mujer","pt":"a mesma palavra que mulher","ru":"то же слово, что «женщина»","uk":"те саме слово, що «жінка»","ar":"الكلمة نفسها لـ«امرأة»","he":"אותה מילה כמו ״אישה״","sw":"neno sawa na mwanamke"},
@@ -1039,5 +1062,28 @@ WORDS.wife = {
     th_isan: ["เมีย", "mia˧˥˨"],  // Woman is ญิง.
     wbm: ["moeng", "moɲ"],
     za: ["baz", "pa˧˩"],  // also yah
+    agt: ["atawa", "ʔatawa"],  // The same word means husband.
+    aoz: ["fel", "fel"],  // The word for woman is bifel.
+    bik: ["agom", "ʔaˈɡom"],
+    bjn: ["bini", "bini"],
+    bto: ["agom", "aˈɡom"],
+    bts: ["parinangon", "parinaŋon"],
+    bzg: ["roos", "roːs"],
+    cia: ["movine", "moβine"],
+    ckv: ["napawan", "napawan"],  // The same word means husband.
+    hil: ["asawa", "ʔaˈsawa"],
+    ilo: ["asawa", "ʔaˈsawa"],  // The word for a spouse of either sex, as in the row's husband cell.
+    ivv: ["kakovot", "kakovot"],  // Kakovot is either spouse; kakovot a mavakes 'female spouse' when it must be said.
+    mdh: ["kaluma", "kaˈluma"],
+    mui: ["bini", "bini"],
+    nij: ["sawa", "sawa"],
+    pag: ["asawa", "ʔaˈsawa"],  // Also 'husband': one word for the spouse.
+    pyu: ["kataguwin", "kataɡuwin"],
+    pzh: ["mamais", "mamais"],
+    szy: ["acawa", "atsawa"],
+    tao: ["mavakes", "mavakəs"],  // Also the word for woman; husband mehakay is also man.
+    trv: ["kuyuh", "kujuh"],
+    tsu: ["vcongʉ", "vtsoŋɨ"],
+    war: ["asawa", "ʔaˈsawa"],  // The same word means husband; it is "spouse".
   },
 };

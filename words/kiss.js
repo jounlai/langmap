@@ -343,6 +343,14 @@ WORDS.kiss = {
     pt_mo: "basium",
     wbm: "plain",
     za: "smell",
+    bik: "smell",
+    dtp: "plain",
+    ivv: "plain",
+    mdr: "plain",
+    mrw: "smell",
+    mui: "smell",
+    su: "smell",
+    trv: "other",
   },
   routes: {
     kus: {"color":"#dc2626","emoji":"💋","en":"Germanic kiss (kiss, Kuss, kyss, キス)","ja":"ゲルマン語の kiss（kiss, Kuss, kyss, キス）","ko":"게르만어 kiss (kiss, Kuss, kyss, キス)","zh":"日耳曼语 kiss（kiss、Kuss、kyss、キス）","yue":"日耳曼語 kiss（kiss、Kuss、kyss、キス）","vi":"tiếng German kiss (kiss, Kuss, kyss, キス)","th":"เจอร์แมนิก kiss (kiss, Kuss, kyss, キス)","id":"Jermanik kiss (kiss, Kuss, kyss, キス)","hi":"जर्मैनिक kiss (kiss, Kuss, kyss, キス)","de":"germanisch Kuss (kiss, Kuss, kyss, キス)","fr":"le germanique kiss (kiss, Kuss, kyss, キス)","it":"il germanico kiss (kiss, Kuss, kyss, キス)","es":"el germánico kiss (kiss, Kuss, kyss, キス)","pt":"o germânico kiss (kiss, Kuss, kyss, キス)","ru":"германское kiss (kiss, Kuss, kyss, キス)","uk":"германське kiss (kiss, Kuss, kyss, キス)","ar":"الجرمانية kiss (kiss, Kuss, kyss, キス)","he":"הגרמאנית kiss (kiss, Kuss, kyss, キス)","sw":"Kijerumani kiss (kiss, Kuss, kyss, キス)"},
@@ -623,5 +631,13 @@ WORDS.kiss = {
     pt_mo: ["beijo", "ˈbɐjʒu"],
     wbm: ["ngheut", "ŋ̊ɯt"],
     za: ["cup", "ɕup˥"],
+    bik: ["hadok", "haˈdok"],
+    dtp: ["tungub", "tuŋub"],
+    ivv: ["arek", "arɨk"],
+    mdr: ["udzung", "uðuŋ"],
+    mrw: ["arek", "arək"],  // From the old word for 'sniff, kiss'.
+    mui: ["cium", "tʃium"],
+    su: ["cium", "tʃium"],
+    trv: ["tunguh", "tuŋuh"],  // The same word as 'taste'.
   },
 };

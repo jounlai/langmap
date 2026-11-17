@@ -676,6 +676,7 @@ WORDS.hello = {
     ko_em: ["안녕하시오", "annjəŋhaɕio"],
     vi_han: ["萬福", "vaːn˨˩˨ fuk͡p˧˥"],
     vi_nom: ["吀嘲", "sin˧ tɕaːw˨˩"],
+    vi_mid: ["—", "—"],
     eo: ["saluton", "saˈluton"],
     vo: ["glidis", "ɡliˈdis"],
     ia: ["salute", "saˈlute"],

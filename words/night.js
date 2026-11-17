@@ -1265,5 +1265,6 @@ WORDS.night = {
     el_koi: ["νύξ", "nyks"],
     la_late: ["nox", "nɔks"],
     egy_dem: ["grḥ", "kʲoːrh"],
+    vi_mid: ["đêm", "ɗem˧"],
   },
 };

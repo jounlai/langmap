@@ -1261,5 +1261,6 @@ WORDS.eat = {
     el_koi: ["ἐσθίειν", "esˈtʰiin"],
     la_late: ["manducare", "manduˈkare"],
     egy_dem: ["wnm", "uoːm"],
+    vi_mid: ["ăn", "an˧"],
   }
 };

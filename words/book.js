@@ -1126,5 +1126,6 @@ WORDS.book = {
     el_koi: ["βιβλίον", "biˈblion"],
     la_late: ["liber", "ˈleβer"],
     egy_dem: ["ḏmꜥ", "tʃoːme"],
+    vi_mid: ["sách", "ʂac˧˥"],
   }
 };

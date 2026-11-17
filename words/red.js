@@ -1268,5 +1268,6 @@ WORDS.red = {
     el_koi: ["ἐρυθρός", "eryˈtʰros"],
     la_late: ["ruber", "ˈroβer"],
     egy_dem: ["tšr", "troʃ"],
+    vi_mid: ["đỏ", "ɗɔ˧˩˧"],
   },
 };

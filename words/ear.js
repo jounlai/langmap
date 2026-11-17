@@ -1224,5 +1224,6 @@ WORDS.ear = {
     el_koi: ["οὖς", "us"],
     la_late: ["auricula", "au̯ˈrekola"],
     egy_dem: ["msḏr", "maːtʃe"],
+    vi_mid: ["tai", "taːj˧"],
   },
 };

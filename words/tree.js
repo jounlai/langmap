@@ -1268,5 +1268,6 @@ WORDS.tree = {
     el_koi: ["δένδρον", "ˈdendron"],
     la_late: ["arbor", "ˈarβor"],
     egy_dem: ["šn", "ʃeːn"],
+    vi_mid: ["cây", "kəj˧"],
   },
 };

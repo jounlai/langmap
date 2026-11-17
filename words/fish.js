@@ -1276,5 +1276,6 @@ WORDS.fish = {
     zh_jiao: ["鱼", "y˦˨"],
     el_koi: ["ἰχθύς", "ikʰˈtʰys"],
     la_late: ["piscis", "ˈpeskʲes"],
+    vi_mid: ["cá", "kaː˧˥"],
   }
 };

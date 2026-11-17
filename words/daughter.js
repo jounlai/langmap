@@ -1182,5 +1182,6 @@ WORDS.daughter = {
     el_koi: ["θυγάτηρ", "tʰyˈɡate̝r"],
     la_late: ["filia", "ˈfilja"],
     egy_dem: ["šr.t", "ʃeːre"],
+    vi_mid: ["con gái", "kɔn˧ ɣaːj˧˥"],
   },
 };

@@ -1266,5 +1266,6 @@ WORDS.fire = {
     el_koi: ["πῦρ", "pyr"],
     la_late: ["focus", "ˈfɔkos"],
     egy_dem: ["sty.t", "sate"],
+    vi_mid: ["lửa", "lɨə˧˩˧"],
   }
 };

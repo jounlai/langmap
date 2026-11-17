@@ -1261,5 +1261,6 @@ WORDS.two = {
     el_koi: ["δύο", "ˈdyo"],
     la_late: ["duo", "ˈduo"],
     egy_dem: ["snw", "snau"],
+    vi_mid: ["hai", "haːj˧"],
   },
 };

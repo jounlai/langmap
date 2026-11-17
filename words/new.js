@@ -1201,5 +1201,6 @@ WORDS.new = {
     osa: ["hcéka", "htséka"],
     el_koi: ["καινός", "kɛˈnos"],
     la_late: ["novus", "ˈnɔβos"],
+    vi_mid: ["mới", "məːj˧˥"],
   }
 };

@@ -1124,5 +1124,6 @@ WORDS.sea = {
     el_koi: ["θάλασσα", "ˈtʰalassa"],
     la_late: ["mare", "ˈmare"],
     egy_dem: ["ym", "jom"],
+    vi_mid: ["bể", "ɓe˧˩˧"],
   }
 };

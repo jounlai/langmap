@@ -1265,5 +1265,6 @@ WORDS.sun = {
     el_koi: ["ἥλιος", "ˈe̝lios"],
     la_late: ["sol", "sol"],
     egy_dem: ["rꜥ", "reː"],
+    vi_mid: ["mặt blời", "mat˧˨ʔ bləːj˨˩"],
   },
 };

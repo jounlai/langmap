@@ -1273,5 +1273,6 @@ WORDS.dog = {
     el_koi: ["κύων", "ˈkyon"],
     la_late: ["canis", "ˈkanes"],
     egy_dem: ["whr", "uhoːr"],
+    vi_mid: ["chó", "cɔ˧˥"],
   },
 };

@@ -1261,5 +1261,6 @@ WORDS.you = {
     el_koi: ["σύ", "sy"],
     la_late: ["tu", "tu"],
     egy_dem: ["mtw=k", "ənˈtok"],
+    vi_mid: ["mầy", "məj˨˩"],
   },
 };

@@ -1260,5 +1260,6 @@ WORDS.mother = {
     el_koi: ["μήτηρ", "ˈme̝te̝r"],
     la_late: ["mater", "ˈmater"],
     egy_dem: ["mw.t", "maːu"],
+    vi_mid: ["mẹ", "mɛ˧˨ʔ"],
   },
 };

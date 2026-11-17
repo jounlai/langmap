@@ -1223,5 +1223,6 @@ WORDS.five = {
     el_koi: ["πέντε", "ˈpente"],
     la_late: ["quinque", "ˈkʷinkʷe"],
     egy_dem: ["tyw", "tiu"],
+    vi_mid: ["năm", "nam˧"],
   },
 };

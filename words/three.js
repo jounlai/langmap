@@ -1268,5 +1268,6 @@ WORDS.three = {
     el_koi: ["τρεῖς", "tris"],
     la_late: ["tres", "tres"],
     egy_dem: ["ḫmt", "ʃomənt"],
+    vi_mid: ["ba", "ɓaː˧"],
   },
 };

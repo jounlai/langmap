@@ -1261,5 +1261,6 @@ WORDS.drink = {
     el_koi: ["πίνειν", "ˈpinin"],
     la_late: ["bibere", "ˈbeβere"],
     egy_dem: ["swr", "soː"],
+    vi_mid: ["uống", "uəŋ˧˥"],
   }
 };

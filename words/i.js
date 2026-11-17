@@ -1261,5 +1261,6 @@ WORDS.i = {
     el_koi: ["ἐγώ", "eˈɡo"],
     la_late: ["ego", "ˈɛɡo"],
     egy_dem: ["jnk", "aˈnok"],
+    vi_mid: ["tôi", "toj˧"],
   },
 };

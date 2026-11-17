@@ -1261,5 +1261,6 @@ WORDS.father = {
     el_koi: ["πατήρ", "paˈte̝r"],
     la_late: ["pater", "ˈpater"],
     egy_dem: ["jt", "ejoːt"],
+    vi_mid: ["cha", "caː˧"],
   },
 };

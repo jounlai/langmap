@@ -1260,5 +1260,6 @@ WORDS.heart = {
     el_koi: ["καρδία", "karˈdia"],
     la_late: ["cor", "kɔr"],
     egy_dem: ["ḥꜣṱ", "heːt"],
+    vi_mid: ["blái tim", "blaːj˧˥ tim˧"],
   },
 };

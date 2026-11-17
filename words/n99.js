@@ -796,6 +796,7 @@ WORDS.n99 = {
     zh_wenyan_edu: "mult",
     el_koi: "dec",
     la_late: "sub",
+    vi_mid: "mult",
   },
   routes: {
     dec: {
@@ -1605,5 +1606,6 @@ WORDS.n99 = {
     zh_wenyan_edu: ["九十九", "kɐu˧˥ sɐp˨ kɐu˧˥"],  // Nine tens and nine, as in the other Classical rows; Cantonese gau2 sap6 gau2.
     el_koi: ["ἐνενήκοντα ἐννέα", "eneˈne̝konta enˈnea"],
     la_late: ["undecentum", "undeˈkʲɛnto"],
+    vi_mid: ["chín mươi chín", "cin˧˥ mɨəj˧ cin˧˥"],
   }
 };

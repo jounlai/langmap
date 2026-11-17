@@ -1224,5 +1224,6 @@ WORDS.white = {
     el_koi: ["λευκός", "leʍˈkos"],
     la_late: ["albus", "ˈalβos"],
     egy_dem: ["wbḫ", "uoːbʃ"],
+    vi_mid: ["tláng", "tlaŋ˧˥"],
   },
 };

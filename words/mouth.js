@@ -1251,5 +1251,6 @@ WORDS.mouth = {
     el_koi: ["στόμα", "ˈstoma"],
     la_late: ["os", "os"],
     egy_dem: ["rꜣ", "ro"],
+    vi_mid: ["miệng", "miəŋ˧˨ʔ"],
   }
 };

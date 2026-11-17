@@ -1222,5 +1222,6 @@ WORDS.head = {
     el_koi: ["κεφαλή", "kepʰaˈle̝"],
     la_late: ["caput", "ˈkapot"],
     egy_dem: ["ḏꜣḏꜣ", "tʃoː"],
+    vi_mid: ["đầu", "ɗəw˨˩"],
   },
 };

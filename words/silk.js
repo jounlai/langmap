@@ -844,5 +844,6 @@ WORDS.silk = {
     nv: ["naakʼaʼatʼą́hí disǫsígíí", "nɑ̀ːkʼɑ̀ʔɑ̀tʼɑ̃́hí tìsõ̀síkíː"],  // Literally 'cloth that glitters'.
     el_koi: ["σηρικόν", "se̝riˈkon"],
     la_late: ["sericum", "ˈsereko"],
+    vi_mid: ["lụa", "luə˧˨ʔ"],
   }
 };

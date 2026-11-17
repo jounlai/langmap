@@ -1218,5 +1218,6 @@ WORDS.bird = {
     ude: ["чиндʼа", "tʃindʔa"],  // Udege, glossed «птица».
     el_koi: ["πετεινόν", "petiˈnon"],
     la_late: ["avis", "ˈaβes"],
+    vi_mid: ["chim", "cim˧"],
   },
 };

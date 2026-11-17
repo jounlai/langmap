@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 86 word concepts × 1200 languages/varieties (incl. ~140 excluded from the default modern view)
+ * Word Map Data — 86 word concepts × 1201 languages/varieties (incl. ~140 excluded from the default modern view)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -17,7 +17,7 @@
 const EXCLUDED_CODES = new Set([
   'ja_edo','ja_heian','ja_kanbun','ko_mid','ko_em','la','egy','sux','akk','hit','nci','emy','p_ine','p_toc','p_jpn','p_kor','ptrk','pmng','p_tun','p_aav','p_viet','ptai','p_hmx','pafa','pkar','pmay','puaz','pban','p_sit','psem','pura','p_dra','paus',
   'non','enm','en_em','got','cu','pi','pi_edu','cop','arc','el_grc','el_koi','la_late','egy_dem','el_kath','zh_yuan','zh_han','zh_tang','zh_wenyan_edu',
-  'vi_nom','vi_han','sa','sa_edu','ar_qur',
+  'vi_nom','vi_mid','vi_han','sa','sa_edu','ar_qur',
   'de_lut','es_sgl','fr_class',
   // Phase 4: historical / ancient
   'peo','ave','xto','txb','phn','uga','xlu','pal','fa_clas','syc','fro','it_dan','goh','gez',
@@ -3634,6 +3634,8 @@ const LANG_DATA = {
 },
   tmh: { name: "Tamasheq", native: 'Tamaceq', lat: 22.78, lng: 5.52, // Tamanrasset (Tahaggart)
 },
+  vi_mid: { name: "Middle Vietnamese", native: "tiếng An Nam", lat: 21.1, lng: 105.8, // Kẻ Chợ (Thăng Long), where de Rhodes learned the language
+},
   egy_dem: { name: "Demotic Egyptian", native: "sẖ šꜥ.t", lat: 29.87, lng: 31.25, // Memphis
 },
   la_late: { name: "Late Latin", native: "Latina", lat: 44.42, lng: 12.2, // Ravenna: Western capital 402–751
@@ -5652,6 +5654,7 @@ const DATA_STATUS_OVERRIDES = {
     ja_chu:    'pedagogical',      // Middle Japanese — period reconstruction (Heike + Vocabulario)
     p_ryu:       'reconstructed',    // Proto-Ryukyuan — comparative reconstruction
     vi_nom:    'pedagogical',
+    vi_mid:    'attested',       // Middle Vietnamese — de Rhodes 1651 dictionary
     // Well-attested historical Sinitic:
     zh_yuan:   'attested',
     zh_han:    'attested',
@@ -5689,7 +5692,7 @@ const HIST_DESCENDANT = {
     got:'de', cu:'bg', pi:'si', cop:null, arc:'aii',
     sa:'hi', sux:null, akk:null, hit:'tr', nci:'es_mx', emy:'es_mx',
     p_ine:null, p_toc:null, p_jpk:null, p_jpn:null, p_kor:null, ptrk:null, pmng:null, p_tun:null, p_aav:null, p_viet:null, ptai:null, p_hmx:null, pafa:null, pkar:null, pmay:null, puaz:null, pban:null, p_sit:null, psem:null, pura:null, p_dra:null, paus:null, zh_yuan:'zh', zh_han:'zh', zh_tang:'zh',
-    ja_edo:'ja', ja_heian:'ja', ja_kanbun:'ja', ko_mid:'ko', ko_em:'ko', vi_nom:'vi',
+    ja_edo:'ja', ja_heian:'ja', ja_kanbun:'ja', ko_mid:'ko', ko_em:'ko', vi_nom:'vi', vi_mid:'vi',
     ar_qur:'ar', sa_edu:'hi', pi_edu:'si', xct_litpr:'bo', zh_wenyan_edu:'yue',
     vi_han:'vi', de_lut:'de', es_sgl:'es', fr_class:'fr',
     oko:'ko', h_goguryeo:null, ko_gor:'ko', ja_chu:'ja', p_ryu:'ja_oki',

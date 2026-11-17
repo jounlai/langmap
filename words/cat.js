@@ -1260,5 +1260,6 @@ WORDS.cat = {
     el_koi: ["αἴλουρος", "ˈɛluros"],
     la_late: ["cattus", "ˈkattos"],
     egy_dem: ["my", "emu"],
+    vi_mid: ["meò", "mɛw˨˩"],
   }
 };

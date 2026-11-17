@@ -1261,5 +1261,6 @@ WORDS.good = {
     el_koi: ["ἀγαθόν", "aɡaˈtʰon"],
     la_late: ["bonus", "ˈbɔnos"],
     egy_dem: ["nfr", "nuːfe"],
+    vi_mid: ["tốt", "tot˧˥"],
   },
 };

@@ -1225,5 +1225,6 @@ WORDS.sleep = {
     el_koi: ["καθεύδειν", "kaˈtʰewdin"],
     la_late: ["dormire", "dorˈmire"],
     egy_dem: ["nqt", "ənkotək"],
+    vi_mid: ["ngủ", "ŋu˧˩˧"],
   },
 };

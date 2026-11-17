@@ -1261,5 +1261,6 @@ WORDS.name = {
     el_koi: ["ὄνομα", "ˈonoma"],
     la_late: ["nomen", "ˈnomen"],
     egy_dem: ["rn", "ran"],
+    vi_mid: ["tên", "ten˧"],
   },
 };

@@ -1220,5 +1220,6 @@ WORDS.earth = {
     el_koi: ["γῆ", "ɡe̝"],
     la_late: ["terra", "ˈtɛrra"],
     egy_dem: ["jtn", "itən"],
+    vi_mid: ["đất", "ɗət˧˥"],
   }
 };

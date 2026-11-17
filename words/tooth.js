@@ -1291,5 +1291,6 @@ WORDS.tooth = {
     el_koi: ["ὀδούς", "oˈdus"],
     la_late: ["dens", "dens"],
     egy_dem: ["nḏḥy.t", "natʃhe"],
+    vi_mid: ["răng", "raŋ˧"],
   },
 };

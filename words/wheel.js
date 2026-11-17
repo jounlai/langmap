@@ -971,5 +971,6 @@ WORDS.wheel = {
     osa: ["hcelį́", "htselĩ́"],
     el_koi: ["τροχός", "troˈkʰos"],
     la_late: ["rota", "ˈrɔta"],
+    vi_mid: ["bánh xe", "ɓaɲ˧˥ ɕɛ˧"],
   }
 };

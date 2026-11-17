@@ -1286,5 +1286,6 @@ WORDS.salt = {
     el_koi: ["ἅλας", "ˈalas"],
     la_late: ["sal", "sal"],
     egy_dem: ["ḥmꜣ", "hmu"],
+    vi_mid: ["múôi", "muəj˧˥"],
   },
 };

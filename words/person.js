@@ -1177,5 +1177,6 @@ WORDS.person = {
     el_koi: ["ἄνθρωπος", "ˈantʰropos"],
     la_late: ["homo", "ˈɔmo"],
     egy_dem: ["rmṯ", "roːme"],
+    vi_mid: ["người", "ŋɨəj˨˩"],
   }
 };

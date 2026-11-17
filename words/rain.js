@@ -1197,5 +1197,6 @@ WORDS.rain = {
     el_koi: ["ὑετός", "yeˈtos"],
     la_late: ["pluvia", "ˈploβja"],
     egy_dem: ["ḥw", "hoːu"],
+    vi_mid: ["mưa", "mɨə˧"],
   },
 };

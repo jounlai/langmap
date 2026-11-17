@@ -1171,5 +1171,6 @@ WORDS.iron = {
     el_koi: ["σίδηρος", "ˈside̝ros"],
     la_late: ["ferrum", "ˈfɛrro"],
     egy_dem: ["bnpy", "benipe"],
+    vi_mid: ["sắt", "ʂat˧˥"],
   },
 };

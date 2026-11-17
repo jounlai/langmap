@@ -1266,5 +1266,6 @@ WORDS.moon = {
     el_koi: ["σελήνη", "seˈle̝ne̝"],
     la_late: ["luna", "ˈluna"],
     egy_dem: ["jꜥḥ", "oːh"],
+    vi_mid: ["mặt blang", "mat˧˨ʔ blaŋ˧"],
   },
 };

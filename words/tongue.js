@@ -1273,5 +1273,6 @@ WORDS.tongue = {
     el_koi: ["γλῶσσα", "ˈɡlossa"],
     la_late: ["lingua", "ˈleŋɡʷa"],
     egy_dem: ["ls", "las"],
+    vi_mid: ["lưỡi", "lɨəj˧ˀ˥"],
   },
 };

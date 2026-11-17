@@ -1185,5 +1185,6 @@ WORDS.egg = {
     el_koi: ["ᾠόν", "oˈon"],
     la_late: ["ovum", "ˈoβo"],
     egy_dem: ["swḥ.t", "soːuhe"],
+    vi_mid: ["tlứng", "tlɨŋ˧˥"],
   },
 };

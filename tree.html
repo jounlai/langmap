@@ -416,7 +416,7 @@
 })();
 </script>
 
-<script src="wordmap_data.js?v=366"></script>
+<script src="wordmap_data.js?v=367"></script>
 <!-- The meta-i18n layer (engine + the current UI's slice only) is loaded
      dynamically below, next to the meta file — see loadMetaI18nForUi(). The old
      eager meta_i18n_ext + coverage{,2,3} tags pulled ~5 MB of ALL 22 UIs. -->
@@ -426,8 +426,8 @@ Load the shim, then English, then whichever UI language this visitor
 will actually see (~12 KB gzipped). tools/build_lang_names.js
 generates lang_names/<ui>.js from lang_names.js. -->
 <script src="lang_names_shim.js?v=6"></script>
-<script src="lang_names/en.js?v=232"></script>
-<script>window.__langNamesVersion(232); window.__langNamesBoot();</script>
+<script src="lang_names/en.js?v=234"></script>
+<script>window.__langNamesVersion(234); window.__langNamesBoot();</script>
 <script>
 (function () {
     'use strict';
@@ -647,7 +647,7 @@ generates lang_names/<ui>.js from lang_names.js. -->
     // The tree only reads structured fields (family / parentCode / speakers) +
     // the base META_I18N table — all in wordmap_meta_lite.js (~1.1 MB), so it
     // no longer pulls the 19 MB wordmap_meta.js (descriptions/sources unused).
-    _loadJS('wordmap_meta_lite.js?v=461')
+    _loadJS('wordmap_meta_lite.js?v=462')
         .then(() => Promise.all([
             // Branches from Glottolog (tools/build_tree_paths.js), and their names in this UI.
             _loadJS('tree_paths.js?v=3'),

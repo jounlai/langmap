@@ -1168,5 +1168,6 @@ WORDS.mountain = {
     el_koi: ["ὄρος", "ˈoros"],
     la_late: ["mons", "mons"],
     egy_dem: ["tw", "toːu"],
+    vi_mid: ["núi", "nuj˧˥"],
   }
 };

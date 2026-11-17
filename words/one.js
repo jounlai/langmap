@@ -1272,5 +1272,6 @@ WORDS.one = {
     el_koi: ["εἷς", "is"],
     la_late: ["unus", "ˈunos"],
     egy_dem: ["wꜥ", "ua"],
+    vi_mid: ["một", "mot˧˨ʔ"],
   },
 };

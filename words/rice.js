@@ -917,5 +917,6 @@ WORDS.rice = {
     aoz: ["ane", "ane"],  // No origin is recorded for it.
     el_koi: ["ὄρυζα", "ˈoryza"],
     la_late: ["oryza", "oˈridza"],
+    vi_mid: ["gạo", "ɣaːw˧˨ʔ"],
   }
 };

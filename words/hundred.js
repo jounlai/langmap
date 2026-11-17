@@ -1204,5 +1204,6 @@ WORDS.hundred = {
     el_koi: ["ἑκατόν", "ekaˈton"],
     la_late: ["centum", "ˈkʲɛnto"],
     egy_dem: ["š", "ʃe"],
+    vi_mid: ["tlăm", "tlam˧"],
   },
 };

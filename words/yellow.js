@@ -492,6 +492,7 @@ WORDS.yellow = {
     pt_cv: "bitter",
     pt_mo: "bitter",
     la_late: "plain",
+    vi_mid: "gold",
   },
   routes: {
     turmeric: {"color":"#d97706","emoji":"🫚","en":"turmeric","ja":"ウコン","ko":"강황","zh":"姜黄","yue":"黃薑","vi":"nghệ","th":"ขมิ้น","id":"kunyit","hi":"हल्दी","de":"Kurkuma","fr":"le curcuma","it":"la curcuma","es":"la cúrcuma","pt":"a curcuma","ru":"куркума","uk":"куркума","ar":"الكركم","he":"כורכום","sw":"manjano"},
@@ -923,5 +924,6 @@ WORDS.yellow = {
     pt_cv: ["amarelo", "ɐmɐˈɾɛlu"],  // Same word as the parent row; IPA from the row's own cells (estrela ʃˈtɾelɐ, leite ˈlejtɨ: European-type reduction; Wiktionary Portugal /ɐ.mɐˈɾɛ.lu/).
     pt_mo: ["amarelo", "ɐmɐˈɾɛlu"],  // Same word as the parent row; IPA from the row's own cells (borboleta buɾβuˈletɐ, leite ˈlɐjtɨ: European-type reduction; Wiktionary Portugal /ɐ.mɐˈɾɛ.lu/).
     la_late: ["flavus", "ˈflaβos"],
+    vi_mid: ["vàng", "vaːŋ˨˩"],
   },
 };

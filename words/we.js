@@ -1757,6 +1757,7 @@ WORDS.we = {
     ko_em: ["우리", "uɾi"],
     vi_han: ["我等", "ŋaː˧˧ˀ˥ ɗaŋ˧˩˧"],
     vi_nom: ["眾些 / 眾碎", "tɕuŋ͡m˧˥ taː˧ / tɕuŋ͡m˧˥ toj˧"],
+    vi_mid: ["—", "—"],
     eo: ["ni", "ni"],
     vo: ["obs", "obs"],
     ia: ["nos", "nos"],

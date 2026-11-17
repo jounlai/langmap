@@ -1077,5 +1077,6 @@ WORDS.green = {
     el_koi: ["χλωρός", "kʰloˈros"],
     la_late: ["viridis", "ˈβeredes"],
     egy_dem: ["wt", "uoːt"],
+    vi_mid: ["xanh", "ɕaɲ˧"],
   }
 };

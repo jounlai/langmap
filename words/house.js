@@ -1261,5 +1261,6 @@ WORDS.house = {
     el_koi: ["οἶκος", "ˈykos"],
     la_late: ["domus", "ˈdɔmos"],
     egy_dem: ["ꜥ.wy", "eːj"],
+    vi_mid: ["nhà", "ɲaː˨˩"],
   }
 };

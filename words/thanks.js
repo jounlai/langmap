@@ -1141,7 +1141,7 @@ WORDS.thanks = {
     chb: ["ipqua", "ipkʷa"],
     omy: ["—", "—"],
     osn: ["nuhun", "nuhun"],
-    h_tagalog: ["ᜐᜎᜋᜆ᜔", "salamat"],
+    h_tagalog: ["ᜐᜎᜋᜆ᜔", "salamat"],  // salamat came through Malay selamat (from Arabic salāma) and is the everyday word. An older native word, nanghaw (ᜈᜅ᜔ᜑᜏ᜔), meant 'thank goodness, thanks'; it is now obsolete.
     zkt: ["—", "—"],
     juc: ["—", "—"],
     omx: ["—", "—"],

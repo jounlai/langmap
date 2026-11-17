@@ -216,5 +216,6 @@ WORDS.hangover = {
     ko_bus: ["숙취", "suktɕʰwi"],  // Sino-Korean 宿醉, literally "overnight drunkenness". The national word, which Busan speech uses as well.
     ko_jl: ["숙취", "suktɕʰwi"],  // Sino-Korean 宿醉, literally "overnight drunkenness". The national word, which Jeolla speech uses as well.
     el_koi: ["κραιπάλη", "krɛˈpale̝"],
+    mn_cn: ["ᠰᠢᠷᠠᠲᠤᠬᠤ", "ʃɑrtɑχ"],
   },
 };

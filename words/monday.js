@@ -956,7 +956,7 @@ WORDS.monday = {
     nan_zz: ["拜一", "pai˨˩ it̚˧˨"],  // Short for 禮拜一, "week (lit. worship) one".
     nan_ph: ["拜一", "pai˦˩ it˥"],  // Short for 禮拜一, "week (lit. worship) one".
     nan_te: ["拜一", "pai˨˩˧ ik˨"],  // Short for 禮拜一, "week (lit. worship) one"; 星期一 is also recorded for Teochew.
-    mn_cn: ["ᠭᠠᠷᠠᠭ ᠦᠨ ᠨᠢᠭᠡᠨ", "ɡɑrɑɡiŋ niɡen"],  // "One of the week": garag first meant 'planet' and now means 'week' in Inner Mongolia, where the Tibetan planetary name даваа used in Mongolia is not in general use.
+    mn_cn: ["ᠭᠠᠷᠠᠭ ᠤᠨ ᠨᠢᠭᠡᠨ", "ɡɑrɑɡiŋ niɡen"],  // "One of the week": garag first meant 'planet' and now means 'week' in Inner Mongolia, where the Tibetan planetary name даваа used in Mongolia is not in general use.
     koi: ["вильлун", "viʎlun"],  // Literally "new day" (viľ "new" + lun "day"), as in Komi-Zyrian.
     th_n: ["วันจันทร์", "wan˧tɕan˩˧"],  // "Moon day": jan is the Moon (Sanskrit candra).
     th_s: ["วันจันทร์", "wan˥tɕan˥"],  // "Moon day": jan is the Moon (Sanskrit candra).

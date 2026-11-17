@@ -354,6 +354,7 @@ WORDS.sunflower = {
     ko_kp: "turn",
     ko_yb: "turn",
     ko_hg: "turn",
+    mn_cn: "sun",
   },
   routes: {
     turn: {"color":"#ea580c","emoji":"🔄","en":"turns to the sun","ja":"太陽に向く","ko":"해를 향함","zh":"朝向太阳","yue":"向住太陽","vi":"hướng về mặt trời","th":"หันตามดวงอาทิตย์","id":"menghadap matahari","hi":"सूरज की ओर मुड़ता","de":"dreht sich zur Sonne","fr":"se tourne vers le soleil","it":"si volta verso il sole","es":"se gira al sol","pt":"volta-se para o sol","ru":"поворачивается к солнцу","uk":"повертається до сонця","ar":"يتّجه نحو الشمس","he":"פונה אל השמש","sw":"hugeuka kuelekea jua"},
@@ -654,5 +655,6 @@ WORDS.sunflower = {
     ko_kp: ["해바라기", "hɛbaɾaɡi"],  // 해 'sun' + 바라- 'look toward' + -기: 'sun-gazer'. The national word, which North Korea speech uses as well.
     ko_yb: ["해바라기", "hɛbaɾaɡi"],  // 해 'sun' + 바라- 'look toward' + -기: 'sun-gazer'. The national word, which Yanbian speech uses as well.
     ko_hg: ["해바라기", "hɛbaɾaɡi"],  // 해 'sun' + 바라- 'look toward' + -기: 'sun-gazer'. The national word, which Hamgyong speech uses as well.
+    mn_cn: ["ᠨᠠᠷᠠᠨ ᠬᠤᠸᠠᠷ", "nɑrɑn χuɑr"],
   },
 };

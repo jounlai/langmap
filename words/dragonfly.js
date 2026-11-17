@@ -392,6 +392,7 @@ WORDS.dragonfly = {
     blc: "plain",
     nci: "other",
     tkl: "plain",
+    mn_cn: "other",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -729,5 +730,6 @@ WORDS.dragonfly = {
     blc: ["xiku", "χikʷu"],  // No image is recorded for it, so it counts as a word of its own.
     nci: ["āpipiyōllōtl", "aːpipiˈjoːlːoːtɬ"],  // Built from ātl 'water' and pipiyōlin 'bee'.
     tkl: ["hēhēmū", "heːheːmuː"],  // From Proto-Polynesian *mu, which names insects in Hawaiian mū.
+    mn_cn: ["ᠥᠷᠦᠮᠡᠨ ᠬᠤᠯᠠᠭᠠᠢᠴᠢ", "ɵrmən χʊlɢɑitʃʰ"],
   },
 };

@@ -261,6 +261,7 @@ WORDS.ladybird = {
     ja_hir: "sun",
     ko_bus: "other",
     ko_jl: "other",
+    mn_cn: "other",
   },
   routes: {
     holy: {"color":"#7c3aed","emoji":"😇","en":"Mary · God · a saint","ja":"聖母・神・聖人","ko":"성모 · 하느님 · 성인","zh":"圣母・上帝・圣人","yue":"聖母 · 上帝 · 聖人","vi":"Đức Mẹ · Chúa · thánh","th":"พระแม่ · พระเจ้า · นักบุญ","id":"Bunda Maria · Tuhan · santo","hi":"मरियम · ईश्वर · संत","de":"Maria · Gott · Heilige","fr":"Marie · Dieu · un saint","it":"Maria · Dio · un santo","es":"María · Dios · un santo","pt":"Maria · Deus · um santo","ru":"Богородица · Бог · святой","uk":"Богородиця · Бог · святий","ar":"مريم · الله · قديس","he":"מרים · האל · קדוש","sw":"Maria · Mungu · mtakatifu"},
@@ -465,5 +466,6 @@ WORDS.ladybird = {
     ja_hir: ["天道虫", "tentoːmɯɕi"],  // Literally "sun bug". The national word, which Hiroshima speech uses as well.
     ko_bus: ["무당벌레", "mudaŋbʌlle"],  // Literally "shaman bug". The national word, which Busan speech uses as well.
     ko_jl: ["무당벌레", "mudaŋbəlle"],  // Literally "shaman bug". The national word, which Jeolla speech uses as well.
+    mn_cn: ["ᠰᠢᠬᠦᠷ ᠬᠣᠷᠤᠬᠠᠢ", "ʃuxər χɔrχɔi"],
   },
 };

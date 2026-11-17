@@ -585,6 +585,7 @@ WORDS.potato = {
     slr: "other",
     ko_bus: "other",
     ko_yb: "other",
+    mn_cn: "other",
   },
   routes: {
     papa: {"color":"#ca8a04","emoji":"🏔️","en":"Quechua papa · Taíno batata","ja":"ケチュア語 papa・タイノ語 batata","ko":"케추아어 papa · 타이노어 batata","zh":"克丘亚语 papa・泰诺语 batata","yue":"克丘亞語 papa · 泰諾語 batata","vi":"Quechua papa · Taíno batata","th":"เกชัว papa · ไตโน batata","id":"Quechua papa · Taíno batata","hi":"क्वेचुआ papa · ताइनो batata","de":"Quechua papa · Taíno batata","fr":"quechua papa · taïno batata","it":"quechua papa · taíno batata","es":"quechua papa · taíno batata","pt":"quéchua papa · taíno batata","ru":"кечуа papa · таино batata","uk":"кечуа papa · таїно batata","ar":"كيتشوا papa · تاينو batata","he":"קצ'ואה papa · טאינו batata","sw":"Kikechua papa · Kitaino batata"},
@@ -1111,5 +1112,6 @@ WORDS.potato = {
     slr: ["yañyü", "jɑŋjy"],  // Borrowed from Mandarin 洋芋 yángyù.
     ko_bus: ["감자", "kamdʑa"],  // From Sino-Korean 甘藷 'sweet tuber', first used for the sweet potato and later shifted to the potato.
     ko_yb: ["감자", "kamdʑa"],  // From Sino-Korean 甘藷 'sweet tuber', first used for the sweet potato and later shifted to the potato.
+    mn_cn: ["ᠲᠥᠮᠦᠰᠦ", "tɵms"],
   },
 };

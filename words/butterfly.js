@@ -601,7 +601,7 @@ WORDS.butterfly = {
     ia: ["papilion", "papiliˈon"],
     gd: ["dealan-dè", "tʲal̪ˠan tʲeː"],
     nrf: ["papillote", "papijɔt"],
-    sjo: ["ᡤᡝᡶᡝᡥᡝ", "ɡəfəxə"],
+    sjo: ["ᡤᡝᡫᡝᡥᡝ", "ɡəfəxə"],
     sad: ["karapupu", "karapupu"],
     poh: ["pehpem", "pehpem"],
     fo: ["firvaldur", "ˈfɪɹvaltʊɹ"],

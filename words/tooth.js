@@ -410,7 +410,7 @@ WORDS.tooth = {
     tk: ["diş", "diːʃ"],
     mn_cn: ["ᠰᠢᠳᠦ", "ʃyd"],
     mnc: ["ᠸᡝᡳᡥᡝ", "wəixə"],
-    sjo: ["ᠸᡝᡳᡥᡝ", "vix"],
+    sjo: ["ᠸᡝᡞᡥᡝ", "vix"],
     ar_eg: ["سن", "sinː"],
     ar_lev: ["سن", "sinː"],
     ar_gulf: ["سن", "sinː"],

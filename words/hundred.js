@@ -762,7 +762,7 @@ WORDS.hundred = {
     kim: ["чүс", "tʃys"],
     ude: ["таӈгу", "taŋɡu"],   // the Tungusic *taŋgū that Manchu writes ᡨᠠᠩᡤᡡ
     gld: ["таӈго", "taŋɡo"],
-    sjo: ["ᡨᠠᠩᡤᡡ", "taŋɡuː"],
+    sjo: ["ᡨᠠᡢᡤᡡ", "taŋɡuː"],
     eve: ["няма", "ɲama"],
     evn: ["нама", "nama"],
     yrk: ["юрˮ", "jurʔ"],

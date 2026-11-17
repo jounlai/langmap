@@ -385,7 +385,7 @@ WORDS.eat = {
     tk: ["iýmek", "iːjˈmek"],
     mn_cn: ["ᠢᠳᠡᠬᠦ", "ideχʉ"],
     mnc: ["ᠵᡝᠮᠪᡳ", "dʒəmbi"],
-    sjo: ["ᠵᡝᠮᠪᡞ", "dʒəmbi"],
+    sjo: ["ᡪᡝᠮᠪᡞ", "ʥim"],
     ar_eg: ["ياكل", "jaːkol"],
     ar_lev: ["ياكل", "jaːkol"],
     ar_gulf: ["ياكل", "jaːkil"],

@@ -381,7 +381,7 @@ WORDS.thanks = {
     tk: ["sagboluň", "sɑɡboluŋ"],
     mn_cn: ["ᠪᠠᠶᠠᠷᠯᠠᠯ᠎ᠠ", "bɑjɑrlɑlɑ"],
     mnc: ["ᠪᠠᠨᡳᡥᠠ", "banixa"],
-    sjo: ["ᠪᠠᠨᡳᡥᠠ", "banixa"],
+    sjo: ["ᠪᠠᠨᡞᡥᠠ", "banixa"],
     ar_eg: ["شكراً", "ʃokɾan"],
     ar_lev: ["شكراً", "ʃukɾan"],
     ar_gulf: ["مشكور", "maʃkuːɾ"],

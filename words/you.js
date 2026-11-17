@@ -386,7 +386,7 @@ WORDS.you = {
       tk: ["sen", "sen"],
       mn_cn: ["ᠴᠢ", "tʃʰi"],
       mnc: ["ᠰᡳ", "si"],
-      sjo: ["ᠰᡳ", "ɕi"],
+      sjo: ["ᠰᡞ", "ɕi"],
       ar_eg: ["إنت", "ˈenta"],
       ar_lev: ["إنت", "ˈʔinte"],
       ar_gulf: ["إنت", "ɪnt"],

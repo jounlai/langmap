@@ -379,7 +379,7 @@ WORDS.star = {
       tk: ["ýyldyz", "jɯlˈdɯz"],
       mn_cn: ["ᠣᠳᠤᠨ", "ɔtŋ̍"],
       mnc: ["ᡠᠰᡳᡥᠠ", "usixa"],
-      sjo: ["ᡠᠰᡳᡥᠠ", "usxɑ"],
+      sjo: ["ᡠᠰᡞᡥᠠ", "usxɑ"],
       ar_eg: ["نجمة", "ˈneɡma"],
       ar_lev: ["نجمة", "ˈneʒme"],
       ar_gulf: ["نجمة", "ˈnadʒma"],

@@ -649,7 +649,7 @@ WORDS.green = {
     kfx: ["हौरा", "hɔraː"],
     usp: ["rax", "raʃ"],
     yrl: ["suikiri", "suikiɾi"],
-    sjo: ["ᠨᡳᠣᠸᠠᠩᡤᡳᠶᠠᠨ", "nyŋɲiɑn"],
+    sjo: ["ᠨᡞᠣᠸᠠᡢᡤᡞᠶᠠᠨ", "nyŋɲiɑn"],
     ruq: ["veardi", "ˈve̯ardi"],
     tru: ["ܝܪܩܐ", "jaroqo"],
     poh: ["rax", "raʃ"],

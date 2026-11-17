@@ -385,7 +385,7 @@ WORDS.drink = {
     tk: ["içmek", "itʃˈmek"],
     mn_cn: ["ᠤᠤᠬᠤ", "uːχu"],
     mnc: ["ᠣᠮᡳᠮᠪᡳ", "omimbi"],
-    sjo: ["ᠣᠮᡳᠪᡞ", "omibi"],
+    sjo: ["ᠣᠮᡞᠮᠪᡞ", "œmim"],
     ar_eg: ["يشرب", "jiʃɾab"],
     ar_lev: ["يشرب", "jiʃɾab"],
     ar_gulf: ["يشرب", "jiʃɾab"],

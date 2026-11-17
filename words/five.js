@@ -310,7 +310,7 @@ WORDS.five = {
     tk: ["bäş", "bæːʃ"],
     mn_cn: ["ᠲᠠᠪᠤᠨ", "taβun"],
     mnc: ["ᠰᡠᠨᠵᠠ", "sundʒa"],
-    sjo: ["ᠰᡠᠨᠵᠠ", "sundʐɑ"],
+    sjo: ["ᠰᡠᠨᡪᠠ", "sundʐɑ"],
     ar_eg: ["خمسة", "xamsa"],
     ar_lev: ["خمسة", "xamse"],
     ar_gulf: ["خمسة", "xamsa"],

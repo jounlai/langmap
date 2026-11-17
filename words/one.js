@@ -378,7 +378,7 @@ WORDS.one = {
     tk: ["bir", "biːɾ"],
     mn_cn: ["ᠨᠢᠭᠡ", "niɡe"],
     mnc: ["ᡝᠮᡠ", "əmu"],
-    sjo: ["ᡝᠮᡠ", "əmu"],
+    sjo: ["ᡝᠮᡠ", "ɘm"],
     ar_eg: ["واحد", "waːħed"],
     ar_lev: ["واحد", "waːħad"],
     ar_gulf: ["واحد", "waːħid"],

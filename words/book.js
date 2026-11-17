@@ -729,7 +729,7 @@ WORDS.book = {
     pjt: ["nyiri", "ɲiri"],
     oj: ["mazinaʼigan", "mazinaʔiɡan"],
     yrl: ["papera", "paˈpeɾa"],
-    sjo: ["ᠪᡳᡨᡥᡝ", "bitʰə"],
+    sjo: ["ᠪᡞᡨᡥᡝ", "bitʰə"],
     ja_mvi: ["書物", "sɿmukusɿ"],
     toc: ["libro", "libro"],
     poh: ["huuj", "huːx"],

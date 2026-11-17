@@ -703,7 +703,7 @@ WORDS.mountain = {
     usp: ["wiitz", "wiːts"],
     oj: ["wajiw", "wadʒiw"],
     gld: ["хурэ̄н", "xurəːn"],
-    sjo: ["ᠠᠯᡳᠨ", "ɛlin"],
+    sjo: ["ᠠᠯᡞᠨ", "ɛlin"],
     ruq: ["munti", "ˈmunti"],
     ja_mvi: ["山", "jama"],
     rtm: ["solo", "solo"],

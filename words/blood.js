@@ -390,7 +390,7 @@ WORDS.blood = {
     tk: ["gan", "ɡaːn"],
     mn_cn: ["ᠴᠢᠰᠤ", "tʃʰʊs"],
     mnc: ["ᠰᡝᠩᡤᡳ", "səŋɡi"],
-    sjo: ["ᠰᡝᠩᡤᡳ", "ɕiŋ"],
+    sjo: ["ᠰᡝᡢᡤᡞ", "ɕiŋ"],
     ar_eg: ["دم", "damː"],
     ar_lev: ["دم", "damː"],
     ar_gulf: ["دم", "dam"],

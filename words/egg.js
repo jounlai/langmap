@@ -639,7 +639,7 @@ WORDS.egg = {
     eve: ["умта", "umta"],
     gld: ["омокта", "ɔmɔkta"],
     mnc: ["ᡠᠮᡥᠠᠨ", "umxan"],
-    sjo: ["ᡠᠮᡥᠠᠨ", "umxan"],
+    sjo: ["ᡠᠮᡥᠠᠨ", "umxɑn"],
     // --- Turkic — *jumurtga in the Kipchak west, a separate stem in the Siberian north
     nog: ["юмыртка", "jumɯrtˈqa"],
     tyv: ["чуурга", "tɕuːrˈɣa"],

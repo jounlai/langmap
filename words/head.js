@@ -880,7 +880,7 @@ WORDS.head = {
     ixl: ["viʼ", "viʔ"],
     usp: ["bʼaa", "ɓaː"],
     oj: ["oshtigwaan", "oʃtiɡwaːn"],
-    sjo: ["ᡠᠵᡠ", "udʐo"],
+    sjo: ["ᡠᡪᡠ", "udʐo"],
     nlc: ["huk", "huk"],
     sad: ["tsee", "tseː"],
     poh: ["nahis", "nahis"],

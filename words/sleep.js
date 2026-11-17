@@ -246,7 +246,7 @@ WORDS.sleep = {
     tk: ["uklamak", "uklaˈmak"],
     mn_cn: ["ᠤᠨᠲᠠᠬᠤ", "untax"],
     mnc: ["ᠠᠮᡤᠠᠮᠪᡳ", "amɡambi"],
-    sjo: ["ᠠᠮᡤᠠᠮᠪᡳ", "amɢambi"],
+    sjo: ["ᠠᠮᡤᠠᠮᠪᡞ", "ɑmxɘm"],
     ar_eg: ["نام", "naːm"],
     ar_lev: ["نام", "naːm"],
     ar_gulf: ["نام", "naːm"],

@@ -216,7 +216,7 @@ WORDS.earth = {
     bxr: ["шорой", "ʃoroj"],
     pmng: ["*gaǰar", "ɡadʒar"],
     mnc: ["ᠪᠣᡳᡥᠣᠨ", "boixon"],
-    sjo: ["ᠨᠠ", "na"],
+    sjo: ["ᠨᠠ", "nɑ"],
     fi: ["maa", "mɑː"],
     fkv: ["maa", "mɑː"],
     fit: ["maa", "mɑː"],

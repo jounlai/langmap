@@ -273,7 +273,7 @@ WORDS.bird = {
     tk: ["guş", "ɡuʃ"],
     mn_cn: ["ᠰᠢᠪᠠᠭᠤ", "ʃʊwuː"],
     mnc: ["ᡤᠠᠰᡥᠠ", "ɡasxa"],
-    sjo: ["ᡤᠠᠰᡥᠠ", "ɢasχa"],
+    sjo: ["ᠴᡝᠴᡞᡣᡝ", "ʨitʂkʰɘ"],
     ar_eg: ["عصفور", "ʕasˤfuːr"],
     ar_lev: ["عصفور", "ʕasˤfuːr"],
     ar_gulf: ["طير", "tˤeːr"],

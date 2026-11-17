@@ -767,7 +767,7 @@ WORDS.horse = {
     kmu: ["hosi", "hosi"],
     pjt: ["nyanytju", "ɲaɲcu"],
     yrl: ["kawarú", "kawaˈɾu"],
-    sjo: ["ᠮᠣᡵᡳᠨ", "morin"],
+    sjo: ["ᠮᠣᠷᡞᠨ", "morin"],
     ruq: ["cal", "kal"],
     poh: ["kawaay", "kawaːj"],
     jiv: ["kawai", "kawai"],

@@ -876,7 +876,7 @@ WORDS.new = {
     usp: ["aakʼ", "aːkʼ"],
     kmu: ["haegafa", "haeɡafa"],
     oj: ["oshki", "oʃki"],
-    sjo: ["ᡳᠴᡝ", "itʂʰɘ"],
+    sjo: ["ᡞᠴᡝ", "itʂʰɘ"],
     poh: ["akʼ", "akʼ"],
     cuk: ["binid", "pinid"],
     mic: ["pilei", "bilei"],

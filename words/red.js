@@ -387,7 +387,7 @@ WORDS.red = {
     tk: ["gyzyl", "ɡɯˈzɯl"],
     mn_cn: ["ᠤᠯᠠᠭᠠᠨ", "ʊɮaːn"],
     mnc: ["ᡶᡠᠯᡤᡳᠶᠠᠨ", "fulɡijan"],
-    sjo: ["ᡶᡠᠯᡤᡳᠶᠠᠨ", "fɘlɡiɑn"],
+    sjo: ["ᡫᡠᠯᡤᡞᠶᠠᠨ", "fɘlɡiɑn"],
     ar_eg: ["أحمر", "ˈʔaħmaɾ"],
     ar_lev: ["أحمر", "ˈʔaħmar"],
     ar_gulf: ["أحمر", "ˈʔaħmar"],

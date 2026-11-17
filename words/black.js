@@ -309,7 +309,7 @@ WORDS.black = {
     bxr: ["хара", "xara"],
     xal: ["хар", "xar"],
     mnc: ["ᠰᠠᡥᠠᠯᡳᠶᠠᠨ", "saxalijan"],
-    sjo: ["ᠰᠠᡥᠠᠯᡳᠶᠠᠨ", "saχalijan"],
+    sjo: ["ᠶᠠᠴᡞᠨ", "jɘʨin"],
     evn: ["коӈномо", "koŋnomo"],
     orh: ["kɔŋnɔrɪn", "kɔŋnɔrɪn"],
     acn: ["lɔk55", "lɔk˥˥"],

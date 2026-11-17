@@ -386,7 +386,7 @@ WORDS.dog = {
     tk: ["it", "it"],
     mn_cn: ["ᠨᠣᠬᠠᠢ", "nɔχɑi"],
     mnc: ["ᡳᠨᡩᠠᡥᡡᠨ", "indaxuːn"],
-    sjo: ["ᡳᠨᡩᠠᡥᡡᠨ", "jonxun"],
+    sjo: ["ᡞᠨᡩᠠᡥᡡᠨ", "jonxun"],
     ar_eg: ["كلب", "kalb"],
     ar_lev: ["كلب", "kalb"],
     ar_gulf: ["چلب", "tʃalb"],

@@ -386,7 +386,7 @@ WORDS.two = {
       tk: ["iki", "iˈki"],
       mn_cn: ["ᠬᠣᠶᠠᠷ", "xɔˈjɔr"],
       mnc: ["ᠵᡠᠸᡝ", "dʒuwə"],
-      sjo: ["ᠵᡠᠸᡝ", "dʐu"],
+      sjo: ["ᡪᡠᠸᡝ", "dʐu"],
       ar_eg: ["اتنين", "etˈneːn"],
       ar_lev: ["تنين", "tneːn"],
       ar_gulf: ["اثنين", "eθˈneːn"],

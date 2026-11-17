@@ -1176,7 +1176,7 @@ WORDS.white = {
     rwk: ["sheelwa", "ʃeːlwa"],
     adi: ["yalun", "jalun"],
     kfx: ["शेता", "ʃetaː"],
-    sjo: ["ᡧᠠᠨᠶᠠᠨ", "ʃanjan"],
+    sjo: ["ᡧᠠᠨᠶᠠᠨ", "sɑŋɘn"],
     ess: ["ӄатылӷи", "qatɨlɣi"],
     tiw: ["turtiyangini", "tuɾtijaŋini"],
     xkz: ["kharti", "kʰarti"],

@@ -699,7 +699,7 @@ WORDS.sea = {
     tay: ["bsilung", "bsiluŋ"],
     gld: ["намо", "namo"],
     yrl: ["paranawasú", "paɾanawaˈsu"],
-    sjo: ["ᠮᡝᡩᡝᡵᡳ", "mɘdɘrj"],
+    sjo: ["ᠮᡝᡩᡝᠷᡞ", "mɘdɘrj"],
     ruq: ["mari", "ˈmari"],
     toc: ["pupunú", "pupunú"],
     mch: ["dama", "dama"],

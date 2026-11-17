@@ -639,7 +639,7 @@ WORDS.honey = {
     wym: ["hung", "huŋ"],
     stq: ["Huunich", "ˈhuːnɪx"],
     frr: ["honning", "ˈhɔnɪŋ"],
-    sjo: ["ᡥᡳᠪᠰᡠ", "xibsu"],
+    sjo: ["ᡥᡞᠪᠰᡠ", "xibsu"],
     ff: ["njuumri", "ndʒuːmɾi"],
     ee: ["anyitsi", "aɲitsi"],
     gun: ["ei", "ei"],

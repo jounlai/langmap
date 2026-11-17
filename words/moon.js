@@ -378,7 +378,7 @@ WORDS.moon = {
     tk: ["aý", "ɑːj"],
     mn_cn: ["ᠰᠠᠷᠠ", "sɑrɑ"],
     mnc: ["ᠪᡳᠶᠠ", "bija"],
-    sjo: ["ᠪᡳᠶᠠ", "biɑ"],
+    sjo: ["ᠪᡞᠶᠠ", "biɑ"],
     ar_eg: ["قمر", "ʔamaɾ"],
     ar_lev: ["قمر", "ʔamaɾ"],
     ar_gulf: ["قمر", "ɡamaɾ"],

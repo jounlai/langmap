@@ -384,7 +384,7 @@ WORDS.night = {
     tk: ["gije", "ɡiˈdʒe"],
     mn_cn: ["ᠰᠥᠨᠢ", "ʃønø"],
     mnc: ["ᡩᠣᠪᠣᡵᡳ", "dobori"],
-    sjo: ["ᡩᠣᠪᠣᡵᡳ", "dœviri"],
+    sjo: ["ᡩᠣᠪᠣᠷᡞ", "dœviri"],
     ar_eg: ["ليل", "leːl"],
     ar_lev: ["ليل", "leːl"],
     ar_gulf: ["ليل", "leːl"],

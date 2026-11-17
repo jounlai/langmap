@@ -386,7 +386,7 @@ WORDS.i = {
       tk: ["men", "men"],
       mn_cn: ["ᠪᠢ", "bi"],
       mnc: ["ᠪᡳ", "bi"],
-      sjo: ["ᠪᡳ", "bi"],
+      sjo: ["ᠪᡞ", "bi"],
       ar_eg: ["أنا", "ˈana"],
       ar_lev: ["أنا", "ˈʔana"],
       ar_gulf: ["أنا", "ˈaːna"],

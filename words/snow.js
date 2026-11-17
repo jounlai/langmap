@@ -309,7 +309,7 @@ WORDS.snow = {
     tk: ["gar", "ɡaːɾ"],
     mn_cn: ["ᠴᠠᠰᠤ", "tsas"],
     mnc: ["ᠨᡳᠮᠠᠩᡤᡳ", "nimaŋɡi"],
-    sjo: ["ᠨᡳᠮᠠᠩᡤᡳ", "nimɑŋ"],
+    sjo: ["ᠨᡞᠮᠠᡢᡤᡞ", "nimɑŋ"],
     ar_eg: ["تلج", "talɡ"],
     ar_lev: ["تلج", "talʒ"],
     ar_gulf: ["ثلج", "θaldʒ"],

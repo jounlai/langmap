@@ -387,7 +387,7 @@ WORDS.three = {
     tk: ["üç", "ytʃ"],
     mn_cn: ["ᠭᠤᠷᠪᠠ", "ɡurwa"],
     mnc: ["ᡳᠯᠠᠨ", "ilan"],
-    sjo: ["ᡳᠯᠠᠨ", "ilɑn"],
+    sjo: ["ᡞᠯᠠᠨ", "ilɑn"],
     ar_eg: ["تلاتة", "talaːta"],
     ar_lev: ["تلاتة", "tlaːte"],
     ar_gulf: ["ثلاثة", "θalaːθa"],

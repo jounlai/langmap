@@ -389,7 +389,7 @@ WORDS.fish = {
     tk: ["balyk", "baːˈlɯk"],
     mn_cn: ["ᠵᠢᠭᠠᠰᠤ", "tɕaɢəs"],
     mnc: ["ᠨᡳᠮᠠᡥᠠ", "nimaxa"],
-    sjo: ["ᠨᡳᠮᠠᡥᠠ", "nimxa"],
+    sjo: ["ᠨᡞᠮᠠᡥᠠ", "nimxɑ"],
     ar_eg: ["سمكة", "ˈsamaka"],
     ar_lev: ["سمكة", "ˈsamake"],
     ar_gulf: ["سمچة", "ˈsimtʃa"],

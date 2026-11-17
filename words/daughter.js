@@ -1051,7 +1051,7 @@ WORDS.daughter = {
     bdq: ["kon adruh", "kɔːn ʔadruh"],
     bru: ["con mansễm", "kɔn mənsem"],
     lzz: ["ბოზომოთა", "bozomotʰa"],
-    sjo: ["ᠰᠠᡵᡤᠠᠨ ᠵᡠᡳ", "sarɢan dʒui"],
+    sjo: ["ᠰᠠᠷᡤᠠᠨ ᡪᡠᡞ", "sarɢan dʒui"],
     apw: ["shitsiʼ", "ʃitsiʔ"],
     abq: ["пхӏа", "pħa"],
     tcs: ["gel", "ɡel"],

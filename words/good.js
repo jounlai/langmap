@@ -386,7 +386,7 @@ WORDS.good = {
     tk: ["gowy", "ɡoˈwɯ"],
     mn_cn: ["ᠰᠠᠢᠨ", "sɑin"],
     mnc: ["ᠰᠠᡳᠨ", "sain"],
-    sjo: ["ᠰᠠᡳᠨ", "sɑn"],
+    sjo: ["ᠰᠠᡞᠨ", "sɑn"],
     ar_eg: ["كويّس", "kwajːes"],
     ar_lev: ["منيح", "mniːħ"],
     ar_gulf: ["زين", "zeːn"],

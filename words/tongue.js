@@ -392,7 +392,7 @@ WORDS.tongue = {
     tk: ["dil", "dil"],
     mn_cn: ["ᠬᠡᠯᠡ", "xəl"],
     mnc: ["ᡳᠯᡝᠩᡤᡠ", "iləŋɡu"],
-    sjo: ["ᡳᠯᡝᠩᡤᡠ", "iliŋ"],
+    sjo: ["ᡞᠯᡝᡢᡤᡠ", "iliŋ"],
     ar_eg: ["لسان", "lisaːn"],
     ar_lev: ["لسان", "lsaːn"],
     ar_gulf: ["لسان", "lsaːn"],

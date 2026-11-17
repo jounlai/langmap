@@ -496,7 +496,7 @@ WORDS.silk = {
     nrf: ["souaie", "swɛ"],
     tru: ["ܫܐܪܐ", "ʃiro"],
     oj: ["zenibaawegin", "zenibaːweɡin"],
-    sjo: ["ᠰᡳᡵᡤᡝ", "ɕirɡə"],
+    sjo: ["ᠰᡞᠷᡤᡝ", "ɕirɡə"],
     smj: ["silkki", "ˈsilkːi"],
     tkl: ["hilika", "hilika"],
     crs: ["laswa", "laswa"],

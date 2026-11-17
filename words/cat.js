@@ -381,7 +381,7 @@ WORDS.cat = {
     tk: ["pişik", "piˈʃik"],
     mn_cn: ["ᠮᠤᠤᠷ", "muːr"],
     mnc: ["ᡴᡝᠰᡳᡴᡝ", "kəsikə"],
-    sjo: ["ᡴᡝᠰᡳᡴᡝ", "kəsikə"],
+    sjo: ["ᡣᡝᠰᡞᡣᡝ", "kəsikə"],
     ar_eg: ["قطة", "ʔotˤtˤa"],
     ar_lev: ["بسّة", "bisse"],
     ar_gulf: ["بزّونة", "bazzuːna"],

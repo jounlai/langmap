@@ -270,7 +270,7 @@ WORDS.nose = {
     tk: ["burun", "buˈɾun"],
     mn_cn: ["ᠬᠠᠮᠠᠷ", "xamar"],
     mnc: ["ᠣᡶᠣᡵᠣ", "oforo"],
-    sjo: ["ᠣᡶᠣᡵᠣ", "ovur"],
+    sjo: ["ᠣᡫᠣᠷᠣ", "ovur"],
     ar_eg: ["مناخير", "manaːxiːr"],
     ar_lev: ["منخار", "minxaːr"],
     ar_gulf: ["خشم", "xaʃim"],

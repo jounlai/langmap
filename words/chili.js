@@ -401,6 +401,12 @@ WORDS.chili = {
     ja_oki: "foreign",
     ko_jeju: "pepper",
     kok: "pepper",
+    h_tagalog: "pepper",
+    h_vedic: "pepper",
+    obr: "pepper",
+    pi_edu: "pepper",
+    sa: "pepper",
+    xct: "pepper",
   },
   routes: {
     chilli: {"color":"#dc2626","emoji":"🌶️","en":"Nahuatl chīlli (chile, chili, sili)","ja":"ナワトル語 chīlli（chile, chili, sili）","ko":"나우아틀어 chīlli (chile, chili, sili)","zh":"纳瓦特尔语 chīlli（chile、chili、sili）","yue":"納瓦特爾語 chīlli（chile、chili、sili）","vi":"tiếng Nahuatl chīlli (chile, chili, sili)","th":"นาวาตล์ chīlli (chile, chili, sili)","id":"Nahuatl chīlli (chile, chili, sili)","hi":"नाहुआत्ल chīlli (chile, chili, sili)","de":"Nahuatl chīlli (chile, Chili, sili)","fr":"le nahuatl chīlli (chile, chili, sili)","it":"il nahuatl chīlli (chile, chili, sili)","es":"el náhuatl chīlli (chile, chili, sili)","pt":"o náuatle chīlli (chile, chili, sili)","ru":"науатль chīlli (chile, chili, sili)","uk":"науатль chīlli (chile, chili, sili)","ar":"الناواتل chīlli (chile, chili, sili)","he":"הנאוואטל chīlli (chile, chili, sili)","sw":"Kinahuatl chīlli (chile, chili, sili)"},
@@ -740,5 +746,11 @@ WORDS.chili = {
     ja_oki: ["高麗胡椒", "koːɾeːɡusu"],
     ko_jeju: ["고초", "kotɕʰo"],
     kok: ["मिरसांग", "miɾsaːŋɡ"],
+    h_tagalog: ["ᜎᜇ", "ˈlaɾaʔ"],
+    h_vedic: ["पिप्पलि", "pippɐli"],  // Chilli came from the Americas much later; pippali, long pepper, was the hot spice of Vedic India, praised in an Atharvaveda hymn.
+    obr: ["ငြုတ်", "ŋrut"],  // There were no chillies at Pagan; ငြုတ် is the pepper of the inscriptions, the word modern Burmese later gave to chilli.
+    pi_edu: ["marica", "maritʃa"],  // Chillies reached Asia only in the 1500s; marica is black pepper, which the English-Pali dictionary also gives for chilli.
+    sa: ["मरिच", "mɐɾitɕɐ"],  // Chili came from the Americas much later; marica is the black pepper that gave Indian food its heat.
+    xct: ["ཕོ་བ་རིས", "pʰobaris"],  // There were no chillies in classical Tibet; ཕོ་བ་རིས is black pepper, the hot spice of the time.
   },
 };

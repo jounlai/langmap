@@ -596,6 +596,9 @@ WORDS.potato = {
     cnh: "other",
     ota: "papa",
     cjs: "truffle",
+    omy: "other",
+    sa: "other",
+    sa_edu: "other",
   },
   routes: {
     papa: {"color":"#ca8a04","emoji":"🏔️","en":"Quechua papa · Taíno batata","ja":"ケチュア語 papa・タイノ語 batata","ko":"케추아어 papa · 타이노어 batata","zh":"克丘亚语 papa・泰诺语 batata","yue":"克丘亞語 papa · 泰諾語 batata","vi":"Quechua papa · Taíno batata","th":"เกชัว papa · ไตโน batata","id":"Quechua papa · Taíno batata","hi":"क्वेचुआ papa · ताइनो batata","de":"Quechua papa · Taíno batata","fr":"quechua papa · taïno batata","it":"quechua papa · taíno batata","es":"quechua papa · taíno batata","pt":"quéchua papa · taíno batata","ru":"кечуа papa · таино batata","uk":"кечуа papa · таїно batata","ar":"كيتشوا papa · تاينو batata","he":"קצ'ואה papa · טאינו batata","sw":"Kikechua papa · Kitaino batata"},
@@ -1133,5 +1136,8 @@ WORDS.potato = {
     cnh: ["alu", "ʔalu"],
     ota: ["پاتاتس", "pataˈtes"],
     cjs: ["картопке", "kartopke"],
+    omy: ["hubi", "hubi"],  // There were no potatoes yet; hubi is the yam, and Malay still calls the potato ubi kentang.
+    sa: ["आलुक", "aːlukɐ"],  // There were no potatoes yet; āluka was an edible yam, and Hindi आलू 'potato' comes from it.
+    sa_edu: ["आलुकम्", "aːlukɐm"],
   },
 };

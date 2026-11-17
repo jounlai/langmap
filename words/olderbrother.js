@@ -830,6 +830,9 @@ WORDS.olderbrother = {
     xpr: "plain",
     cjs: "age",
     ude: "age",
+    h_tagalog: "age",
+    osn: "age",
+    pi_edu: "age",
   },
   routes: {
     age: {"color":"#db2777","emoji":"👆","en":"a word just for an older brother","ja":"兄だけを指す語","ko":"형만 가리키는 낱말","zh":"专指哥哥的词","yue":"專指哥哥嘅詞","vi":"từ riêng cho anh","th":"คำเฉพาะสำหรับพี่ชาย","id":"kata khusus untuk kakak","hi":"बड़े भाई का अलग शब्द","de":"eigenes Wort für den älteren Bruder","fr":"un mot propre au frère aîné","it":"una parola solo per il fratello maggiore","es":"una palabra solo para el hermano mayor","pt":"uma palavra só para o irmão mais velho","ru":"отдельное слово для старшего брата","uk":"окреме слово для старшого брата","ar":"كلمة خاصة بالأخ الأكبر","he":"מילה מיוחדת לאח הגדול","sw":"neno maalum kwa kaka mkubwa"},
@@ -1601,5 +1604,8 @@ WORDS.olderbrother = {
     xpr: ["brād", "braːd"],
     cjs: ["ача", "atʃa"],
     ude: ["агʼа", "aɡʔa"],
+    h_tagalog: ["ᜃᜃ", "kaˈkaʔ"],
+    osn: ["lanceuk", "lantʃɯk"],
+    pi_edu: ["jeṭṭha", "dʒeʈːʰa"],
   },
 };

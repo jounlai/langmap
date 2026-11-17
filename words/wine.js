@@ -1006,6 +1006,7 @@ WORDS.wine = {
     xag: "other",
     cjs: "other",
     ket: "other",
+    omy: "other",
   },
   routes: {
     ie: { color: "#7c2d12", emoji: "🏺", en: "Indo-European *wóyh₁nom", ja: "印欧祖語 *wóyh₁nom", ko: "인도유럽조어 *wóyh₁nom", zh: "原始印欧语 *wóyh₁nom", yue: "原始印歐語 *wóyh₁nom", vi: "Ấn-Âu nguyên thủy *wóyh₁nom", th: "อินโด-ยูโรเปียนดั้งเดิม *wóyh₁nom", id: "Proto-Indo-Eropa *wóyh₁nom", hi: "आदि-भारोपीय *wóyh₁nom", de: "Urindogermanisch *wóyh₁nom", fr: "indo-européen commun *wóyh₁nom", it: "proto-indoeuropeo *wóyh₁nom", es: "protoindoeuropeo *wóyh₁nom", pt: "proto-indo-europeu *wóyh₁nom", ru: "праиндоевроп. *wóyh₁nom", uk: "праіндоєвроп. *wóyh₁nom", ar: "الهندية الأوروبية الأم *wóyh₁nom", he: "הודו-אירופית קדומה *wóyh₁nom", sw: "Kihindi-Ulaya cha kale *wóyh₁nom" },
@@ -2041,5 +2042,6 @@ WORDS.wine = {
     xag: ["fi", "fi"],
     cjs: ["араға", "araɣa"],
     ket: ["уль", "ʊʎ"],  // The same word as water.
+    omy: ["tuwak", "tuwak"],  // There was no grape wine; tuwak was the palm wine people drank.
   },
 };

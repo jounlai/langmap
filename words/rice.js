@@ -925,5 +925,6 @@ WORDS.rice = {
     akk: ["𒆪𒊏𒀭𒄖", "kuranɡu"],
     kho: ["𑀭𑁆𑀭𑀻𑀬𑁆𑀲𑀽", "riːzuː"],
     koy: ["aalaayis", "aːlaːjis"],
+    omy: ["barras", "bəras"],
   }
 };

@@ -498,6 +498,13 @@ WORDS.week = {
     niv: "sunday",
     sel: "sunday",
     ykg: "sunday",
+    h_tagalog: "sunday",
+    kaw: "other",
+    pi: "seven",
+    pi_edu: "seven",
+    sa_edu: "seven",
+    xct: "seven",
+    xct_litpr: "seven",
   },
   routes: {
     seven: {"color":"#2563eb","emoji":"7️⃣","en":"the number seven","ja":"数の七","ko":"일곱이라는 수","zh":"数字七","yue":"數字七","vi":"con số bảy","th":"เลขเจ็ด","id":"angka tujuh","hi":"सात की संख्या","de":"die Zahl Sieben","fr":"le nombre sept","it":"il numero sette","es":"el número siete","pt":"o número sete","ru":"число семь","uk":"число сім","ar":"العدد سبعة","he":"המספר שבע","sw":"namba saba"},
@@ -937,5 +944,12 @@ WORDS.week = {
     niv: ["неделя", "niedieljæ"],  // Borrowed from Russian неделя.
     sel: ["неделя", "ɲedʲeʎa"],
     ykg: ["нидиэлиэ", "nideːleː"],  // From Russian неделя.
+    h_tagalog: ["ᜎᜒᜅ᜔ᜄᜓ", "liŋˈɡo"],
+    kaw: ["ꦮꦸꦏꦸ", "wuku"],
+    pi: ["सत्ताह", "satːaːha"],
+    pi_edu: ["sattāha", "satːaːha"],
+    sa_edu: ["सप्ताहः", "sɐptaːɦɐh"],
+    xct: ["བདུན་ཕྲག", "bdunpʰrak"],
+    xct_litpr: ["བདུན་ཕྲག", "tỹʈʂʰa"],
   },
 };

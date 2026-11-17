@@ -536,6 +536,11 @@ WORDS.sunday = {
     mns: "other",
     sel: "resurrection",
     tyv: "other",
+    h_tagalog: "lord",
+    obr: "sun",
+    sa_edu: "sun",
+    xct: "sun",
+    xct_litpr: "sun",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -1012,5 +1017,10 @@ WORDS.sunday = {
     mns: ["са̄т пуӈк хо̄талэ", "saːt puŋk χoːtalə"],
     sel: ["воскресенье", "woskrʲesʲeɲʲe"],
     tyv: ["улуг-хүн", "uluɣ xyn"],
+    h_tagalog: ["ᜎᜒᜅ᜔ᜄᜓ", "liŋˈɡo"],
+    obr: ["တန်နှင်ကုနုယ်", "tann̥aŋkunuj"],
+    sa_edu: ["रविवारः", "ɾɐʋiʋaːɾɐh"],
+    xct: ["གཟའ་ཉི་མ", "ɡzaʔɲima"],
+    xct_litpr: ["གཟའ་ཉི་མ", "saɲimə"],
   },
 };

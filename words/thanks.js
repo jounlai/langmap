@@ -205,7 +205,7 @@ WORDS.thanks = {
     hi: ["धन्यवाद", "dʱənjəʋaːd"],
     hns: ["dhanyabaad", "dʱənjəbaːd"],
     sa_edu: ["धन्यवादाः", "dʱɐnjɐʋaːdaːh"],
-    sa: ["—", "—"],
+    sa: ["अनुगृहीतोऽस्मि", "ɐnuɡr̩ɦiːtoːsmi"],
     bn: ["ধন্যবাদ", "dʱonnobad"],
     rkt: ["ধইন্যা", "dʱoinɲa"],
     ur: ["شکریہ", "ʃʊkɾɪjaː"],

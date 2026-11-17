@@ -970,5 +970,7 @@ WORDS.poop = {
     kxm: ["អាចម៍", "ʔac"],
     kxv: ["pīŋga", "piːŋɡa"],
     kho: ["𑀕𑀽", "ɡuː"],
+    omy: ["tahi", "tahi"],
+    osn: ["tahi", "tahi"],
   },
 };

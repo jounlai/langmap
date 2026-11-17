@@ -549,6 +549,11 @@ WORDS.china = {
     cnh: "other",
     hy_grab: "cina",
     sog: "cina",
+    obr: "other",
+    pi: "cina",
+    pi_edu: "cina",
+    txg: "other",
+    xct_litpr: "other",
   },
   family2: {
     bo: "zhongguo",
@@ -1044,5 +1049,10 @@ WORDS.china = {
     cnh: ["Tuluk ram", "tuluk ram"],
     hy_grab: ["Ճենք", "tʃenkʰ"],
     sog: ["cynʾ", "tʃiːn"],
+    obr: ["တရုက်", "taruk"],
+    pi: ["चीनरट्ठ", "tʃiːnaraʈːʰa"],
+    pi_edu: ["Cīnaraṭṭha", "tʃiːnaraʈːʰa"],
+    txg: ["𘂜", "zar˧"],
+    xct_litpr: ["རྒྱ་ནག", "ɟana"],
   },
 };

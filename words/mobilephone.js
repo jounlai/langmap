@@ -504,6 +504,7 @@ WORDS.mobilephone = {
     ko_bus: "carry",
     ko_jl: "carry",
     mn_cn: "carry",
+    sa_edu: "other",
   },
   routes: {
     hand: {"color":"#ea580c","emoji":"✋","en":"the hand","ja":"手","ko":"손","zh":"手","yue":"手","vi":"bàn tay","th":"มือ","id":"tangan","hi":"हाथ","de":"die Hand","fr":"la main","it":"la mano","es":"la mano","pt":"a mão","ru":"рука","uk":"рука","ar":"اليد","he":"היד","sw":"mkono"},
@@ -951,5 +952,6 @@ WORDS.mobilephone = {
     ko_bus: ["휴대폰", "hjudɛpʰon"],  // The standard Korean word, used here as everywhere in South Korea.
     ko_jl: ["휴대폰", "hjudɛpʰon"],  // The standard Korean word, used here as everywhere in South Korea.
     mn_cn: ["ᠬᠠᠷᠮᠠᠨ ᠳ᠋ᠢᠶᠠᠩᠬᠤᠸᠠ", "χɑrmɑn diɛŋχuɑ"],
+    sa_edu: ["दूरवाणी", "duːɾɐʋaːɳiː"],
   },
 };

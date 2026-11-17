@@ -844,6 +844,10 @@ WORDS.thunder = {
     itl: "plain",
     ko_hg: "other",
     koy: "plain",
+    h_vedic: "plain",
+    pi: "plain",
+    pi_edu: "plain",
+    sa_edu: "plain",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1634,5 +1638,9 @@ WORDS.thunder = {
     itl: ["гром", "ɡrom"],  // Borrowed from Russian гром.
     ko_hg: ["소나기", "sonaɡi"],
     koy: ["niłtina", "niɬtina"],
+    h_vedic: ["तन्यतु", "tɐnjɐtú"],
+    pi: ["थनित", "tʰanita"],
+    pi_edu: ["thanita", "tʰanita"],
+    sa_edu: ["गर्जनम्", "ɡɐɾdʑɐnɐm"],
   },
 };

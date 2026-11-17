@@ -625,5 +625,6 @@ WORDS.chocolate = {
     lkt: ["čhaŋmháŋska ǧí", "tʃʰãmhãska ɣí"],
     el_kath: ["σοκολάτα", "sokoˈlata"],
     ace: ["suklat", "suklat"],
+    h_tagalog: ["ᜐᜒᜃᜓᜎᜆᜒ", "sikuˈlate"],
   }
 };

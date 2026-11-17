@@ -405,6 +405,7 @@ WORDS.milkyway = {
     sd: "milk",
     ota: "straw",
     mns: "road",
+    pi_edu: "river",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -753,5 +754,6 @@ WORDS.milkyway = {
     sd: ["کيرائين واٽ", "kʰiːraːiːn ʋaːʈ"],  // Literally 'milky way'.
     ota: ["صامان یولی", "saˈman jolu"],
     mns: ["Мо̄сьхум ёсаӈ лё̄х", "moːsʲχum josaŋ lʲoːχ"],
+    pi_edu: ["ākāsagaṅgā", "aːkaːsaɡaŋɡaː"],
   },
 };

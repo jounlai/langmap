@@ -851,5 +851,6 @@ WORDS.silk = {
     ybe: ["tavar", "taβar"],
     mtq: ["lúa", "luə"],
     mui: ["sutro", "sutro"],
+    osn: ["sutra", "sutra"],
   }
 };

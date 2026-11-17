@@ -802,6 +802,7 @@ WORDS.n99 = {
     mvf: "dec",
     el_kath: "dec",
     he_mis: "plural",
+    pi: "sub",
   },
   routes: {
     dec: {
@@ -1617,5 +1618,6 @@ WORDS.n99 = {
     mvf: ["yirin shzin", "jirin ʂdzən"],
     el_kath: ["ἐνενήκοντα ἐννέα", "eneˈnikonda eˈnea"],
     he_mis: ["תשעים ותשעה", "tiʃˈʕim vətiʃˈʕa"],
+    pi: ["एकूनसत", "ekuːnasata"],
   }
 };

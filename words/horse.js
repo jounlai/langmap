@@ -1167,5 +1167,7 @@ WORDS.horse = {
     oar: ["סוס", "suːs"],
     xpu: ["𐤎𐤎", "suːs"],
     kho: ["𑀅𑀰𑁆𑀰", "aɕa"],
+    h_tagalog: ["ᜃᜊᜌᜓ", "kaˈbajo"],
+    obr: ["မြင်", "mraŋh"],
   }
 };

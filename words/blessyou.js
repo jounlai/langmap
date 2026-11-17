@@ -217,6 +217,7 @@ WORDS.blessyou = {
     la: "health",
     ar_qur: "god",
     he_mis: "health",
+    pi: "health",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"🙏","en":"God · blessing · mercy","ja":"神・祝福・慈悲","ko":"신 · 축복 · 자비","zh":"神・祝福・怜悯","yue":"神 · 祝福 · 憐憫","vi":"Chúa · phúc lành · lòng thương xót","th":"พระเจ้า · พร · ความเมตตา","id":"Tuhan · berkat · rahmat","hi":"ईश्वर · आशीर्वाद · रहम","de":"Gott · Segen · Erbarmen","fr":"Dieu · bénédiction · miséricorde","it":"Dio · benedizione · misericordia","es":"Dios · bendición · misericordia","pt":"Deus · bênção · misericórdia","ru":"Бог · благословение · милость","uk":"Бог · благословення · милість","ar":"الله · البركة · الرحمة","he":"האל · ברכה · רחמים","sw":"Mungu · baraka · rehema"},
@@ -378,5 +379,6 @@ WORDS.blessyou = {
     la: ["salvē", "ˈsalweː"],  // Romans greeted a sneeze with salvē, 'be well'.
     ar_qur: ["يرحمك الله", "jarħamuka llaːh"],
     he_mis: ["מרפא", "marˈpe"],  // Said to someone who sneezed; Rabban Gamaliel's house skipped it in the study hall so as not to interrupt learning.
+    pi: ["जीव", "dʒiːva"],  // When the Buddha sneezed his monks cried jīva, 'live!'; the Vinaya then lets monks answer a layman's blessing with ciraṃ jīva, 'live long'.
   },
 };

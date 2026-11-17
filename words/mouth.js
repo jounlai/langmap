@@ -1255,5 +1255,6 @@ WORDS.mouth = {
     lis: ["mu-lu", "mɯ˧˩lɯ˧˥"],
     cia: ["bhobha", "ɓoɓa"],
     txb: ["𑀓𑁄𑀬𑁆𑀦𑁆", "kojn"],
+    osn: ["sungut", "suŋut"],
   }
 };

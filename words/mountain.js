@@ -1171,5 +1171,8 @@ WORDS.mountain = {
     vi_mid: ["núi", "nuj˧˥"],
     bhb: ["डोंगोर", "ɖoːŋɡoɾ"],
     xpu: ["𐤄𐤓", "har"],
+    obr: ["တောင်", "toŋ"],
+    ocm: ["cam̃k", "tʃək"],
+    osn: ["gunung", "ɡunuŋ"],
   }
 };

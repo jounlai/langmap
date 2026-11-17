@@ -994,5 +994,17 @@
     "proto": "ptrk",
     "ruling": "circular",
     "note": "Karakhanid, i.e. the language of Kashgari's Diwan Lughat al-Turk, is with Old Turkic the primary witness for Proto-Turkic. Row-level ruling on the structural relationship; cells not individually re-verified."
+  },
+  "obr|black": {
+    "form": "nak",
+    "proto": "p_sit",
+    "ruling": "inherited",
+    "note": "Attested Old Burmese: Hill 2017's Old Burmese list and the Pagan inscription corpus (gap rally A04). Burmese keeps the Sino-Tibetan form; the match is inheritance, not a copied reconstruction."
+  },
+  "obr|egg": {
+    "form": "ʔu",
+    "proto": "p_sit",
+    "ruling": "inherited",
+    "note": "Attested Old Burmese: Hill 2017's Old Burmese list and the Pagan inscription corpus (gap rally A04). Burmese keeps the Sino-Tibetan form; the match is inheritance, not a copied reconstruction."
   }
 }

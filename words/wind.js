@@ -1203,5 +1203,6 @@ WORDS.wind = {
     egy_dem: ["ṯꜣw", "teːu"],
     vi_mid: ["gió", "ʝɔ˧˥"],
     koy: ["ałtsʼeeyh", "aɬtsʼiːjh"],
+    osn: ["angin", "aŋin"],
   },
 };

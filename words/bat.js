@@ -715,6 +715,8 @@ WORDS.bat = {
     sux: "plain",
     txb: "plain",
     cjs: "other",
+    h_tagalog: "plain",
+    pi_edu: "other",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1375,5 +1377,7 @@ WORDS.bat = {
     sux: ["𒋢𒁷𒄷", "sudin"],
     txb: ["𑀅𑀭𑁆𑀰𑀓𑀭𑁆𑀰", "arɕakərɕa"],
     cjs: ["чарғанат", "tʃarɣanat"],
+    h_tagalog: ["ᜃᜊᜄ᜔", "kaˈbaɡ"],
+    pi_edu: ["vagguli", "vaɡːuli"],
   },
 };

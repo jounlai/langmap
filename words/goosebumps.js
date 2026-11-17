@@ -251,6 +251,7 @@ WORDS.goosebumps = {
     pam: "plain",
     ar_qur: "plain",
     ko_jeju: "plain",
+    sa_edu: "hair",
   },
   family2: {
     ko: "bird",
@@ -450,5 +451,6 @@ WORDS.goosebumps = {
     pam: ["kaligkig", "kaliɡkiɡ"],
     ar_qur: ["قشعريرة", "quʃaʕriːra"],
     ko_jeju: ["소름", "soɾɯm"],
+    sa_edu: ["रोमाञ्चः", "ɾoːmaːɲtɕɐh"],
   },
 };

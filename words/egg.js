@@ -1187,5 +1187,7 @@ WORDS.egg = {
     egy_dem: ["swḥ.t", "soːuhe"],
     vi_mid: ["tlứng", "tlɨŋ˧˥"],
     kho: ["𑀆𑀳𑀸", "aːhaː"],
+    obr: ["ဥ", "ʔu"],
+    omy: ["tallur", "təlur"],
   },
 };

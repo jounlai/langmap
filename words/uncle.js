@@ -439,6 +439,11 @@ WORDS.uncle = {
     kca: "split",
     orh: "split",
     sel: "split",
+    h_tagalog: "one",
+    osn: "one",
+    sa_edu: "split",
+    xct: "split",
+    xct_litpr: "split",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's brother ≠ mother's brother","ja":"父の兄弟と母の兄弟で別の語","ko":"아버지의 형제와 어머니의 형제가 다른 낱말","zh":"父亲的兄弟和母亲的兄弟用不同的词","yue":"老豆嘅兄弟同阿媽嘅兄弟用唔同嘅詞","vi":"anh em của cha ≠ anh em của mẹ","th":"พี่น้องชายของพ่อกับของแม่เป็นคนละคำ","id":"saudara ayah ≠ saudara ibu","hi":"पिता का भाई ≠ माँ का भाई","de":"Bruder des Vaters ≠ Bruder der Mutter","fr":"frère du père ≠ frère de la mère","it":"fratello del padre ≠ fratello della madre","es":"hermano del padre ≠ hermano de la madre","pt":"irmão do pai ≠ irmão da mãe","ru":"брат отца ≠ брат матери","uk":"брат батька ≠ брат матері","ar":"أخو الأب ≠ أخو الأم","he":"אחי האב ≠ אחי האם","sw":"kaka wa baba ≠ kaka wa mama"},
@@ -820,5 +825,10 @@ WORDS.uncle = {
     kca: ["аки", "ˈaki"],  // mother's younger brother: урты
     orh: ["amaaka", "amaaka"],  // Father's brother; the mother's brother is naatʃʊ.
     sel: ["илча", "jiltɕa"],
+    h_tagalog: ["ᜀᜋᜁᜈ᜔", "amaˈʔin"],
+    osn: ["toa", "toa"],
+    sa_edu: ["पितृव्यः", "pitr̩ʋjɐh"],
+    xct: ["ཁུ་བོ", "kʰubo"],  // The mother's brother is ཞང་པོ (zhang po).
+    xct_litpr: ["ཨ་ཁུ", "akʰu"],
   },
 };

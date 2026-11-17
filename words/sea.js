@@ -1129,5 +1129,6 @@ WORDS.sea = {
     myz: ["ࡉࡀࡌࡀ", "jama"],
     xht: ["ḫan", "xan"],
     xpu: ["𐤉𐤌", "jamm"],
+    obr: ["ပင်လယ်", "paŋlaj"],
   }
 };

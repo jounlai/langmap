@@ -512,6 +512,12 @@ WORDS.tear = {
     jam: "eyewater",
     kca: "eyewater",
     orh: "plain",
+    h_tagalog: "plain",
+    h_vedic: "plain",
+    kaw: "plain",
+    pi_edu: "plain",
+    sa_edu: "plain",
+    xct: "plain",
   },
   routes: {
     eyewater: {"color":"#0891b2","emoji":"💧","en":"eye + water (air mata, 눈물, nước mắt)","ja":"目＋水（air mata, 눈물, nước mắt）","ko":"눈 + 물 (air mata, 눈물, nước mắt)","zh":"眼＋水（air mata、눈물、nước mắt）","yue":"眼＋水（air mata、눈물、nước mắt）","vi":"mắt + nước (air mata, 눈물, nước mắt)","th":"ตา + น้ำ (air mata, 눈물, nước mắt)","id":"mata + air (air mata, 눈물, nước mắt)","hi":"आँख + पानी (air mata, 눈물, nước mắt)","de":"Auge + Wasser (air mata, 눈물, nước mắt)","fr":"œil + eau (air mata, 눈물, nước mắt)","it":"occhio + acqua (air mata, 눈물, nước mắt)","es":"ojo + agua (air mata, 눈물, nước mắt)","pt":"olho + água (air mata, 눈물, nước mắt)","ru":"глаз + вода (air mata, 눈물, nước mắt)","uk":"око + вода (air mata, 눈물, nước mắt)","ar":"عين + ماء (air mata, 눈물, nước mắt)","he":"עין + מים (air mata, 눈물, nước mắt)","sw":"jicho + maji (air mata, 눈물, nước mắt)"},
@@ -968,5 +974,11 @@ WORDS.tear = {
     jam: ["yai-waata", "jai waːta"],  // “Eye water”.
     kca: ["сэм йиӈк", "sɛm jiŋk"],
     orh: ["ɲamʊkta", "ɲamʊkta"],
+    h_tagalog: ["ᜎᜓᜑ", "ˈluhaʔ"],
+    h_vedic: ["अश्रु", "ɐ́ɕru"],
+    kaw: ["ꦭꦸꦃ", "luh"],
+    pi_edu: ["assu", "asːu"],
+    sa_edu: ["अश्रु", "ɐɕɾu"],
+    xct: ["མཆི་མ", "mtɕʰima"],
   },
 };

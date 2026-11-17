@@ -348,6 +348,10 @@ WORDS.shootingstar = {
     fa_clas: "plain",
     ain: "other",
     ko_jeju: "plain",
+    h_tagalog: "plain",
+    h_vedic: "other",
+    pi_edu: "other",
+    sa_edu: "other",
   },
   routes: {
     falling: {"color":"#2563eb","emoji":"⬇️","en":"a falling star","ja":"落ちる星","ko":"떨어지는 별","zh":"落下的星","yue":"跌落嘅星","vi":"sao rơi","th":"ดาวที่ตก","id":"bintang jatuh","hi":"गिरता तारा","de":"fallender Stern","fr":"étoile qui tombe","it":"stella che cade","es":"estrella que cae","pt":"estrela que cai","ru":"падающая звезда","uk":"зірка, що падає","ar":"نجم يسقط","he":"כוכב שנופל","sw":"nyota inayoanguka"},
@@ -641,5 +645,9 @@ WORDS.shootingstar = {
     fa_clas: ["شهاب", "ʃahaːb"],
     ain: ["マッコイワㇰノチウ", "matkoiwaknotɕiw"],  // Literally 'star that goes courting a wife'.
     ko_jeju: ["벨장게", "peʎdʑaŋɡe"],
+    h_tagalog: ["ᜊᜓᜎᜎᜃᜏ᜔", "bulaˈlakaw"],
+    h_vedic: ["उल्का", "ulkaː"],
+    pi_edu: ["ukkā", "ukːaː"],
+    sa_edu: ["उल्का", "ulkaː"],
   },
 };

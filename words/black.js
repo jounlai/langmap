@@ -1312,5 +1312,6 @@ WORDS.black = {
     egy_dem: ["km", "kame"],
     vi_mid: ["đen", "ɗɛn˧"],
     lep: ["ᰣᰦᰍᰩᰭ", "ʔanɔk"],
+    obr: ["နက်", "nak"],
   },
 };

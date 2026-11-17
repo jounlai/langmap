@@ -1225,5 +1225,6 @@ WORDS.earth = {
     tji: ["peti", "pʰɯe˧˥tʰi˥˥"],
     new: ["चा", "tɕa"],
     kho: ["𑀰𑁆𑀰𑀦𑁆𑀤𑀸", "ɕandaː"],
+    sukh: ["ดิน", "ʔdin"],
   }
 };

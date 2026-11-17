@@ -627,6 +627,15 @@ WORDS.money = {
     kim: "silver",
     koy: "coin",
     orh: "plain",
+    h_tagalog: "other",
+    h_vedic: "other",
+    obr: "silver",
+    pi: "coin",
+    sa: "other",
+    sa_edu: "other",
+    sukh: "silver",
+    xct: "silver",
+    xct_litpr: "silver",
   },
   routes: {
     silver: {"color":"#64748b","emoji":"🥈","en":"a word for silver or gold (argent, כסף, เงิน)","ja":"銀や金を指す語（argent, כסף, เงิน）","ko":"은이나 금을 뜻하는 말 (argent, כסף, เงิน)","zh":"指银或金的词（argent, כסף, เงิน）","yue":"指銀或者金嘅詞（argent, כסף, เงิน）","vi":"từ chỉ bạc hoặc vàng (argent, כסף, เงิน)","th":"คำที่หมายถึงเงินหรือทอง (argent, כסף, เงิน)","id":"kata untuk perak atau emas (argent, כסף, เงิน)","hi":"चाँदी या सोने का शब्द (argent, כסף, เงิน)","de":"ein Wort für Silber oder Gold (argent, כסף, เงิน)","fr":"un mot pour l'argent métal ou l'or (argent, כסף, เงิน)","it":"una parola per l'argento o l'oro (argent, כסף, เงิน)","es":"una palabra para la plata o el oro (argent, כסף, เงิน)","pt":"uma palavra para a prata ou o ouro (argent, כסף, เงิน)","ru":"слово для серебра или золота (argent, כסף, เงิน)","uk":"слово для срібла чи золота (argent, כסף, เงิน)","ar":"كلمة للفضة أو الذهب (argent, כסף, เงิน)","he":"מילה לכסף המתכת או לזהב (argent, כסף, เงิน)","sw":"neno la fedha au dhahabu (argent, כסף, เงิน)"},
@@ -1194,5 +1203,14 @@ WORDS.money = {
     kim: ["моӈгүн", "moŋɡyn"],  // The same word as silver.
     koy: ["deenga", "diːnɡa"],  // From Russian деньги.
     orh: ["dʒiɣa", "dʒiɣa"],
+    h_tagalog: ["ᜐᜎᜉᜒ", "salaˈpiʔ"],
+    h_vedic: ["निष्क", "niʂkɐ"],  // There were no coins yet; a niṣka, a gold neck-piece, was the Rigveda's measure of wealth and gift, and later the name of a coin.
+    obr: ["ငုယ်", "ŋuj"],  // Pagan reckoned prices in weighed silver; ငုယ် is that silver.
+    pi: ["कहापण", "kahaːpaɳa"],
+    sa: ["धन", "dʱɐnɐ"],
+    sa_edu: ["धनम्", "dʱɐnɐm"],
+    sukh: ["เงิน", "ŋɤn"],  // Sukhothai traders paid in silver; เงิน 'silver' is the word that later came to mean money.
+    xct: ["དངུལ", "dŋul"],
+    xct_litpr: ["དངུལ", "ŋyː"],
   },
 };

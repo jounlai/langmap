@@ -1225,5 +1225,6 @@ WORDS.head = {
     vi_mid: ["đầu", "ɗəw˨˩"],
     mvf: ["tulighui", "tuləɢui"],
     oar: ["ראש", "reːʃ"],
+    obr: ["ခေါင်", "kʰoŋh"],
   },
 };

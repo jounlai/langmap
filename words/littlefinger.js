@@ -533,6 +533,10 @@ WORDS.littlefinger = {
     ar_sd: "small",
     de_lut: "small",
     tzm: "small",
+    es_sgl: "other",
+    it_dan: "other",
+    mga: "plain",
+    osp: "other",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -1011,5 +1015,9 @@ WORDS.littlefinger = {
     ar_sd: ["صغير", "sˤuɣajjar"],  // Literally 'the little one'.
     de_lut: ["kleiner Finger", "ˈklaɪ̯nər ˈfɪŋər"],
     tzm: ["ⵜⴰⴹⴰⵜⵜ", "tadˤatː"],
+    es_sgl: ["dedo meñique", "ˈdeðo meˈɲike"],
+    it_dan: ["mignolo", "ˈmiɲɲolo"],
+    mga: ["lúta", "ˈluːda"],
+    osp: ["dedo meñique", "ˈdeðo meˈɲike"],
   },
 };

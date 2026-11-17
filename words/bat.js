@@ -728,6 +728,11 @@ WORDS.bat = {
     bqi: "other",
     kry: "plain",
     tig: "other",
+    cu: "other",
+    es_sgl: "mouse",
+    fro: "mouse",
+    ohu: "plain",
+    orv: "other",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1401,5 +1406,10 @@ WORDS.bat = {
     bqi: ["شوکوره", "ʃawkure"],  // 'Night-blind', like Persian شب‌کور.
     kry: ["tsʼoqʼunur", "tsʼoqʼunur"],
     tig: ["ዕዊራ ላሊ", "ʕəwira lali"],  // Literally 'blind one of the night'.
+    cu: ["нетопꙑрь", "netopɨrĭ"],
+    es_sgl: ["murciélago", "muɾˈtsjelaɣo"],
+    fro: ["chalve suriz", "ˈtʃalvə suˈrits"],
+    ohu: ["denevér", "dɛnɛveːr"],
+    orv: ["нетопырь", "netopɨrĭ"],
   },
 };

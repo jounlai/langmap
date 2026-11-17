@@ -860,6 +860,12 @@ WORDS.rainbow = {
     kry: "plain",
     ar_tn: "bow",
     tzm: "other",
+    cu: "bow",
+    es_sgl: "bow",
+    fro: "bow",
+    it_dan: "bow",
+    mga: "bow",
+    osp: "bow",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1663,5 +1669,11 @@ WORDS.rainbow = {
     kry: ["tʼəm", "tʼæm"],
     ar_tn: ["قوس قزح", "quːs quzaħ"],
     tzm: ["ⵜⵉⵙⵍⵉⵜ ⵏ ⵓⵏⵣⴰⵔ", "tislitː unzar"],  // 'The rain's bride.'
+    cu: ["дѫга", "dɔ̃ɡa"],
+    es_sgl: ["arco del cielo", "ˈaɾko ðel ˈtsjelo"],
+    fro: ["arc del ciel", "ˈark del ˈtsjɛl"],
+    it_dan: ["arco", "ˈarko"],  // Dante calls the rainbow simply l'arco, 'the bow'.
+    mga: ["stuag nime", "ˈstuaɣ ˈnʲivʲe"],
+    osp: ["arco del cielo", "ˈaɾko del ˈtsjelo"],
   },
 };

@@ -629,5 +629,6 @@ WORDS.chocolate = {
     doi: ["चाकलेट", "tʃaːkleːʈ"],
     zza: ["çikolata", "tʃikolata"],
     ar_tn: ["شكلاطة", "ʃuklaːtˤa"],
+    es_sgl: ["chocolate", "tʃokoˈlate"],
   }
 };

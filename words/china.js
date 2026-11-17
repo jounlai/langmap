@@ -564,6 +564,9 @@ WORDS.china = {
     en_em: "cina",
     enm: "khitan",
     pmh: "cina",
+    es_sgl: "cina",
+    fr_class: "cina",
+    it_dan: "khitan",
   },
   family2: {
     bo: "zhongguo",
@@ -1074,5 +1077,8 @@ WORDS.china = {
     en_em: ["China", "ˈtʃəinə"],
     enm: ["Cathay", "kaˈtæi̯"],  // Medieval English knew China as Cathay, the 'gretest kyngdom' of Mandeville's Travels.
     pmh: ["चीण", "tʃiːɳa"],
+    es_sgl: ["China", "ˈtʃina"],
+    fr_class: ["Chine", "ʃin"],
+    it_dan: ["Cattaio", "katˈtajo"],  // Boccaccio's name for (northern) China, Marco Polo's Cathay.
   },
 };

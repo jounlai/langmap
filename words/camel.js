@@ -511,6 +511,11 @@ WORDS.camel = {
     rif: "other",
     ses: "plain",
     snk: "plain",
+    es_sgl: "gamal",
+    fr_class: "gamal",
+    it_dan: "gamal",
+    mga: "gamal",
+    ohu: "tebe",
   },
   routes: {
     gamal: {"color":"#d97706","emoji":"🐫","en":"from Semitic gamal (جمل, camel, ngamia)","ja":"セム語 gamal から（جمل, camel, ngamia）","ko":"셈어 gamal에서 (جمل, camel, ngamia)","zh":"源自闪米特语 gamal（جمل, camel, ngamia）","yue":"源自閃米特語 gamal（جمل, camel, ngamia）","vi":"từ tiếng Semit gamal (جمل, camel, ngamia)","th":"จากภาษาเซมิติก gamal (جمل, camel, ngamia)","id":"dari bahasa Semit gamal (جمل, camel, ngamia)","hi":"सामी gamal से (جمل, camel, ngamia)","de":"aus semitisch gamal (جمل, camel, ngamia)","fr":"du sémitique gamal (جمل, camel, ngamia)","it":"dal semitico gamal (جمل, camel, ngamia)","es":"del semítico gamal (جمل, camel, ngamia)","pt":"do semítico gamal (جمل, camel, ngamia)","ru":"из семитского gamal (جمل, camel, ngamia)","uk":"із семітського gamal (جمل, camel, ngamia)","ar":"من السامية gamal (جمل, camel, ngamia)","he":"מ-gamal השמית (جمل, camel, ngamia)","sw":"kutoka Kisemiti gamal (جمل, camel, ngamia)"},
@@ -961,5 +966,10 @@ WORDS.camel = {
     rif: ["ⴰⵔⵖⴻⵎ", "ɛɾʁɐm"],
     ses: ["yoo", "joː"],
     snk: ["ñogome", "ɲoɡome"],
+    es_sgl: ["camello", "kaˈmeʎo"],
+    fr_class: ["chameau", "ʃamo"],
+    it_dan: ["cammello", "kamˈmɛllo"],
+    mga: ["cámall", "ˈkaːməl"],
+    ohu: ["teve", "tɛvɛ"],
   },
 };

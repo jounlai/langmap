@@ -604,5 +604,6 @@ WORDS.cockcrow = {
     la: ["cocococo", "koˈkokoko"],  // An imitation of the cock's crow in Petronius, Satyricon 59: 'when you were a cockerel, cocococo'.
     ms: ["kukurukuk", "kukuˈrukuʔ"],
     h_tagalog: ["ᜆᜒᜎᜂᜃ᜔", "tiˈlaʔok"],
+    fr_class: ["coquericot", "kɔkəriko"],
   },
 };

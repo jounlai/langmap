@@ -226,5 +226,6 @@ WORDS.hangover = {
     pa: ["ਖ਼ੁਮਾਰ", "xʊmaːɾ"],
     zh_yuan: ["酲", "tʂʰiəŋ"],
     ja_edo: ["二日酔", "ɸɯtsɯkajoi"],
+    orv: ["похмелиѥ", "poxmelije"],
   },
 };

@@ -346,6 +346,11 @@ WORDS.octopus = {
     kpv: "eight",
     ja_kanbun: "plain",
     zza: "eight",
+    es_sgl: "many",
+    fr_class: "many",
+    fro: "many",
+    it_dan: "many",
+    osp: "many",
   },
   routes: {
     eight: {"color":"#2563eb","emoji":"8️⃣","en":"eight feet","ja":"8本の足","ko":"여덟 발","zh":"八条腿","yue":"八隻腳","vi":"tám chân","th":"แปดเท้า","id":"delapan kaki","hi":"आठ पैर","de":"acht Füße","fr":"huit pieds","it":"otto piedi","es":"ocho pies","pt":"oito pés","ru":"восемь ног","uk":"вісім ніг","ar":"ثماني أقدام","he":"שמונה רגליים","sw":"miguu minane"},
@@ -636,5 +641,10 @@ WORDS.octopus = {
     kpv: ["осьминог", "oɕmiˈnoɡ"],
     ja_kanbun: ["章魚", "tako"],
     zza: ["ahtapot", "ahtapot"],  // Through Turkish from Greek oktapódi, 'eight feet'.
+    es_sgl: ["pulpo", "ˈpulpo"],
+    fr_class: ["polype", "pɔlip"],
+    fro: ["polipe", "poˈlipə"],
+    it_dan: ["polpo", "ˈpolpo"],
+    osp: ["pulpo", "ˈpulpo"],
   },
 };

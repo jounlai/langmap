@@ -264,6 +264,7 @@ WORDS.cheers = {
     la: "wish",
     la_late: "health",
     enm: "health",
+    fr_class: "health",
   },
   routes: {
     health: {"color":"#16a34a","emoji":"💪","en":"to health · to life","ja":"健康に・命に","ko":"건강을 위해 · 생명을 위해","zh":"为健康・为生命","yue":"為健康 · 為生命","vi":"vì sức khỏe · vì sự sống","th":"แด่สุขภาพ · แด่ชีวิต","id":"untuk kesehatan · kehidupan","hi":"सेहत के नाम · जीवन के नाम","de":"auf die Gesundheit · aufs Leben","fr":"à la santé · à la vie","it":"alla salute · alla vita","es":"por la salud · por la vida","pt":"à saúde · à vida","ru":"за здоровье · за жизнь","uk":"за здоров'я · за життя","ar":"للصحة · للحياة","he":"לבריאות · לחיים","sw":"kwa afya · kwa uhai"},
@@ -473,5 +474,6 @@ WORDS.cheers = {
     la: ["bene tē", "ˈbene teː"],
     la_late: ["vivas", "ˈβiβas"],  // Late Roman drinking glasses are inscribed vivas 'may you live!', the wish raised with the cup.
     enm: ["wassail", "ˈwasæi̯l"],
+    fr_class: ["à votre santé", "a vɔtr sɑ̃te"],
   },
 };

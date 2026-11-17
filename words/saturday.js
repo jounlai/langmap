@@ -516,6 +516,13 @@ WORDS.saturday = {
     mey: "sabbath",
     snk: "sabbath",
     wo: "plain",
+    es_sgl: "sabbath",
+    fr_class: "sabbath",
+    it_dan: "sabbath",
+    mga: "saturn",
+    ohu: "sabbath",
+    orv: "sabbath",
+    osp: "sabbath",
   },
   routes: {
     saturn: {"color":"#7c3aed","emoji":"🪐","en":"Saturn's day","ja":"土星の日","ko":"토성의 날","zh":"土星之日","yue":"土星嘅日","vi":"ngày sao Thổ","th":"วันของดาวเสาร์","id":"hari Saturnus","hi":"शनि का दिन","de":"Saturns Tag","fr":"le jour de Saturne","it":"il giorno di Saturno","es":"el día de Saturno","pt":"o dia de Saturno","ru":"день Сатурна","uk":"день Сатурна","ar":"يوم زحل","he":"יום שבתאי","sw":"siku ya Zohali"},
@@ -974,5 +981,12 @@ WORDS.saturday = {
     mey: ["السبت", "əssibt"],  // IPA from the dictionary's romanization.
     snk: ["sibiti", "sibiti"],
     wo: ["gaawu", "ɡaːwu"],
+    es_sgl: ["sábado", "ˈsaβaðo"],
+    fr_class: ["samedi", "samdi"],
+    it_dan: ["sabato", "ˈsabato"],
+    mga: ["Satharn", "ˈsaθərn"],
+    ohu: ["szombat", "sombɒt"],
+    orv: ["субота", "subota"],
+    osp: ["sabado", "ˈsabaðo"],
   },
 };

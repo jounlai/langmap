@@ -955,5 +955,6 @@ WORDS.butterfly = {
     ko_em: ["나뷔", "nabwi"],
     bqi: ["پاپروک", "pɒːperuk"],
     tig: ["ጥምብልዔ", "tʼəmbəlʕe"],
+    osp: ["mariposa", "maɾiˈpoza"],
   },
 };

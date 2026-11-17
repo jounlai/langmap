@@ -32875,7 +32875,7 @@ const HAN_LANG_META = {
   },
   "zkt": {
     "name": "Khitan",
-    "period": "4–13c",
+    "period": "10–13c",
     "native": "𘬱𘬻𘭟 𘬐𘭦𘬰",
     "lat": 43.97,
     "lng": 119.41,

@@ -4604,7 +4604,7 @@ const LANG_DATA = {
   // (Brahmic; ancestor of modern Sundanese script).
   osn: { name: 'Old Sundanese', native: 'basa Sunda buhun', lat: -6.59, lng: 106.80, // Pakuan Pajajaran
 },
-  // Old Tagalog (pre-Hispanic) — used Baybayin script (Tagalog block U+1700).
+  // Old Tagalog (Spanish-era records, 1593–18c) — Baybayin script (Tagalog block U+1700).
   // Vocabulary attested via early Spanish-era dictionaries (Pedro de San Buenaventura,
   // 1613). Many words still in modern Tagalog.
   h_tagalog: { name: 'Old Tagalog', native: 'ᜏᜒᜃᜅ᜔ ᜆᜄᜎᜓᜄ᜔', lat: 14.60, lng: 120.98, // Manila / Tondo
@@ -5577,7 +5577,7 @@ const DATA_STATUS_OVERRIDES = {
     ocm:       'attested',       // Old Cham — Champa kingdom inscriptions
     omy:       'attested',       // Old Malay — Srivijaya inscriptions (Kedukan Bukit 683)
     osn:       'attested',       // Old Sundanese — Sunda Kingdom / Pajajaran inscriptions
-    h_tagalog:       'attested',       // Old Tagalog — pre-Spanish Baybayin inscriptions
+    h_tagalog:       'attested',       // Old Tagalog — Spanish-era Baybayin/Latin records (1593–18c); no pre-1565 text
     onw:       'attested',       // Old Nubian — Christian Nubian Christian texts
     // East Asian / Inner Asian historical:
     och:       'attested',       // Old Chinese — pre-Han inscriptions + Shijing/Shujing

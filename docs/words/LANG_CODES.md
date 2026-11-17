@@ -400,7 +400,7 @@ Total: 1197 codes.
 | `gv` | Manx | マン島語 | Indo-European (Celtic, Goidelic) | ~2K (revived) |
 | `gym` | Ngäbere | ンガベレ語 | Chibchan | ~170K (largest Chibchan language by speakers) |
 | `h_goguryeo` | Goguryeo | 高句麗語 | Koreanic (debated; possible Japonic affinity) | Extinct (1c. BCE - 668 CE) |
-| `h_tagalog` | Old Tagalog | 古タガログ語 | Austronesian (Central Philippine) | Extinct as classical form (~16c. CE; modern Tagalog descends) |
+| `h_tagalog` | Old Tagalog | 古タガログ語 | Austronesian (Central Philippine) | Extinct (recorded 1593–18c; modern Tagalog descends) |
 | `h_vedic` | Vedic Sanskrit | ヴェーダ語 | Indo-European (Indo-Iranian, Indo-Aryan; Old Indo-Aryan) | Extinct (liturgical use, no native speakers) |
 | `ha` | Hausa | ハウサ語 | Afro-Asiatic (Chadic) | ~94M (~58M L1 + ~36M L2) |
 | `hai` | Haida | ハイダ語 | Language isolate | ~50–100 fluent + ~250–300 total |

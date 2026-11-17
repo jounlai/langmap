@@ -491,6 +491,7 @@ WORDS.sunday = {
     la_late: "lord",
     arc: "count",
     mn_cn: "other",
+    cdo: "other",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -922,5 +923,6 @@ WORDS.sunday = {
     la_late: ["dies dominica", "ˈdies doˈmenika"],
     arc: ["חַד בְּשַׁבָּא", "ħað bʃabbaː"],
     mn_cn: ["ᠭᠠᠷᠠᠭ ᠤᠨ ᠡᠳᠦᠷ", "ɡɑrɑɡiŋ ədur"],
+    cdo: ["礼拜日", "lɛ˧˧ pai˨˩˧ niʔ˥"],  // 禮拜 'week (lit. worship)' + 日 'day', as in the row's 禮拜六.
   },
 };

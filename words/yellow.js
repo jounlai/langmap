@@ -630,6 +630,9 @@ WORDS.yellow = {
     vi_nom: "gold",
     xqa: "sari",
     zh_wenyan_edu: "plain",
+    ja_heian: "plain",
+    ko_em: "plain",
+    ko_mid: "plain",
   },
   routes: {
     turmeric: {"color":"#d97706","emoji":"🫚","en":"turmeric","ja":"ウコン","ko":"강황","zh":"姜黄","yue":"黃薑","vi":"nghệ","th":"ขมิ้น","id":"kunyit","hi":"हल्दी","de":"Kurkuma","fr":"le curcuma","it":"la curcuma","es":"la cúrcuma","pt":"a curcuma","ru":"куркума","uk":"куркума","ar":"الكركم","he":"כורכום","sw":"manjano"},
@@ -1199,5 +1202,8 @@ WORDS.yellow = {
     vi_nom: ["黃", "vaːŋ˨˩"],
     xqa: ["sarığ", "sarɯɣ"],
     zh_wenyan_edu: ["黃", "wɔːŋ˨˩"],
+    ja_heian: ["黄", "ki"],
+    ko_em: ["누르다", "nuɾɯda"],
+    ko_mid: ["누·르·다", "nuɾɨta"],
   },
 };

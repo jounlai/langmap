@@ -675,7 +675,7 @@ WORDS.tree = {
     p_ryu: ["*kee", "keː"],
     ko_mid: ["나모", "namo"],
     oko: ["那木", "*namok"],
-    h_goguryeo: ["—", "—"],
+    h_goguryeo: ["斤乙", "*kur"],  // From a place-name gloss: 赤木 'red tree' county was also called 沙非斤乙.
     ko_gor: ["南記", "*namki"],
     ko_em: ["나모", "namo"],
     vi_han: ["木", "mok͡p˨˩"],

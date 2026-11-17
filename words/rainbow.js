@@ -853,6 +853,8 @@ WORDS.rainbow = {
     prs: "bow",
     xng: "plain",
     xqa: "other",
+    ja_chu: "plain",
+    ko_em: "other",
   },
   routes: {
     bow: {"color":"#2563eb","emoji":"🏹","en":"a bow or arc","ja":"弓・弧","ko":"활 · 호","zh":"弓・弧","yue":"弓 · 弧","vi":"cây cung · vòng cung","th":"คันธนู · ส่วนโค้ง","id":"busur","hi":"धनुष · चाप","de":"Bogen","fr":"un arc","it":"un arco","es":"un arco","pt":"um arco","ru":"лук · дуга","uk":"лук · дуга","ar":"قوس","he":"קשת · קשת מעוגלת","sw":"upinde · tao"},
@@ -1649,5 +1651,7 @@ WORDS.rainbow = {
     prs: ["قوس‌قزح", "qawsiqaˈzah"],
     xng: ["ᠰᠣᠯᠤᠩᠭ᠎ᠠ", "solaŋqa"],
     xqa: ["yel kögen", "jel køɡen"],
+    ja_chu: ["虹", "niʑi"],
+    ko_em: ["무지게", "mudʑiɡe"],
   },
 };

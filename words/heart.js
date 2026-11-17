@@ -675,7 +675,7 @@ WORDS.heart = {
     p_ryu: ["*kimo", "kimo"],
     ko_mid: ["ᄆᆞᅀᆞᆷ", "mʌzʌm"],
     oko: ["心音", "*mʌsʌm"],
-    h_goguryeo: ["—", "—"],
+    h_goguryeo: ["居尸", "*kəl"],  // From a place-name gloss: 心岳 'heart peak' castle was originally 居尸押.
     ko_gor: ["—", "—"],
     ko_em: ["마음", "maɯm"],
     vi_han: ["心", "təm˧˧"],

@@ -1205,5 +1205,6 @@ WORDS.new = {
     kho: ["𑀦𑀽𑀯𑀭", "nuːwara"],
     ocm: ["bharuv", "bʰaruw"],
     otk: ["𐰖𐰭𐰃", "jaŋɯ"],
+    ko_em: ["새", "sɛ"],
   }
 };

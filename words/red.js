@@ -608,7 +608,7 @@ WORDS.red = {
     p_ryu: ["*aka", "aka"],
     ko_mid: ["븕·다", "pɨlkta"],
     oko: ["—", "—"],
-    h_goguryeo: ["—", "—"],
+    h_goguryeo: ["沙伏", "*sapïk"],  // From place-name glosses: 赤城 'red castle' was 沙伏忽, and 赤木 'red tree' was 沙非斤乙.
     ko_gor: ["—", "—"],
     ko_em: ["붉다", "pulkta"],
     vi_han: ["赤", "sik˧˥"],

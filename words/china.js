@@ -557,6 +557,8 @@ WORDS.china = {
     av: "khitan",
     mhr: "khitan",
     xng: "khitan",
+    ja_kanbun: "zhongguo",
+    ko_em: "other",
   },
   family2: {
     bo: "zhongguo",
@@ -1060,5 +1062,7 @@ WORDS.china = {
     av: ["Китай", "kitaj"],  // Route by resemblance to the neighbouring forms (lbe, cv, lez); no etymology of its own.
     mhr: ["Китай", "kiˈtaj"],
     xng: ["ᠺᠢᠲᠠᠳ", "kitat"],  // Kitat named the Khitans and the North China they had ruled.
+    ja_kanbun: ["中國", "tɕɯːɡokɯ"],
+    ko_em: ["청국", "tɕʰəŋɡuk"],  // Koreans of the time usually named China after its ruling Qing (淸) dynasty.
   },
 };

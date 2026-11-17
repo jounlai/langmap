@@ -409,6 +409,7 @@ WORDS.milkyway = {
     abq: "road",
     doi: "river",
     krc: "road",
+    ja_chu: "river",
   },
   routes: {
     milk: {"color":"#2563eb","emoji":"🥛","en":"milk","ja":"乳","ko":"젖","zh":"乳汁","yue":"奶","vi":"sữa","th":"น้ำนม","id":"susu","hi":"दूध","de":"Milch","fr":"lait","it":"latte","es":"leche","pt":"leite","ru":"молоко","uk":"молоко","ar":"حليب","he":"חלב","sw":"maziwa"},
@@ -761,5 +762,6 @@ WORDS.milkyway = {
     abq: ["Уасахча мгӏва", "wasaχtɕa mʕʷa"],  // Ends in мгӏва 'road'.
     doi: ["अकाशगंगा", "əkaːʃɡəŋɡaː"],  // Literally 'the sky Ganges'.
     krc: ["Къой джол", "qoj dʒol"],  // A road: джол is 'road'.
+    ja_chu: ["天の川", "amanoɡawa"],
   },
 };

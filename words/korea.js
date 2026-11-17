@@ -456,6 +456,8 @@ WORDS.korea = {
     xng: "other",
     zh_tang: "other",
     zh_yuan: "goryeo",
+    ja_chu: "goryeo",
+    ja_kanbun: "joseon",
   },
   routes: {
     goryeo: {"color":"#16a34a","emoji":"🏺","en":"from Goryeo 高麗 (Korea, Corée, Корея)","ja":"高麗（コリョ）から（Korea, Corée, Корея）","ko":"고려(高麗)에서 (Korea, Corée, Корея)","zh":"源自高丽（Korea、Corée、Корея）","yue":"源自高麗（Korea、Corée、Корея）","vi":"từ Cao Ly 高麗 (Korea, Corée, Корея)","th":"จากโครยอ 高麗 (Korea, Corée, Корея)","id":"dari Goryeo 高麗 (Korea, Corée, Корея)","hi":"गोरियो 高麗 से (Korea, Corée, Корея)","de":"von Goryeo 高麗 (Korea, Corée, Корея)","fr":"de Goryeo 高麗 (Korea, Corée, Корея)","it":"da Goryeo 高麗 (Korea, Corée, Корея)","es":"de Goryeo 高麗 (Korea, Corée, Корея)","pt":"de Goryeo 高麗 (Korea, Corée, Корея)","ru":"от Корё 高麗 (Korea, Corée, Корея)","uk":"від Корьо 高麗 (Korea, Corée, Корея)","ar":"من كوريو 高麗 (Korea, Corée, Корея)","he":"מקוריו 高麗 (Korea, Corée, Корея)","sw":"kutoka Goryeo 高麗 (Korea, Corée, Корея)"},
@@ -851,5 +853,7 @@ WORDS.korea = {
     xng: ["ᠰᠣᠯᠤᠩᠭ᠋ᠤᠰ", "solaŋqas"],
     zh_tang: ["新羅", "sin la"],  // Silla, the kingdom that ruled most of Korea in Tang times.
     zh_yuan: ["高麗", "kɑu li"],
+    ja_chu: ["高麗", "kɔːɾai"],
+    ja_kanbun: ["朝鮮", "tɕoːseɴ"],
   },
 };

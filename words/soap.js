@@ -455,6 +455,8 @@ WORDS.soap = {
     zh_tang: "wash",
     zh_wenyan_edu: "other",
     zh_yuan: "other",
+    ja_edo: "sabao",
+    ko_em: "plain",
   },
   routes: {
     sapo: {"color":"#2563eb","emoji":"🏛️","en":"Latin sapo","ja":"ラテン語 sapo","ko":"라틴어 sapo","zh":"拉丁语 sapo","yue":"拉丁語 sapo","vi":"tiếng Latinh sapo","th":"ละติน sapo","id":"Latin sapo","hi":"लैटिन sapo","de":"lateinisch sapo","fr":"le latin sapo","it":"il latino sapo","es":"el latín sapo","pt":"o latim sapo","ru":"латинское sapo","uk":"латинське sapo","ar":"اللاتينية sapo","he":"הלטינית sapo","sw":"Kilatini sapo"},
@@ -851,5 +853,7 @@ WORDS.soap = {
     zh_tang: ["澡豆", "tsaw dəw"],  // There was no soap bar; 澡豆, a washing powder of ground beans and herbs, did its job.
     zh_wenyan_edu: ["肥皂", "fei˨˩ tsou˨"],  // Before modern soap, 肥皂 was a washing ball of pounded soap-pods such as honey locust.
     zh_yuan: ["肥皂", "fi tsɑu"],  // 肥皂 then meant balls of pounded honey-locust pods used for washing, the soap of the day.
+    ja_edo: ["シャボン", "ɕaboɴ"],
+    ko_em: ["비누", "pinu"],
   },
 };

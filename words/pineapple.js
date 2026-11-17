@@ -472,6 +472,8 @@ WORDS.pineapple = {
     syl: "nanas",
     el_kath: "nanas",
     cnh: "other",
+    doi: "nanas",
+    kpv: "nanas",
   },
   routes: {
     nanas: {"color":"#ea580c","emoji":"🌎","en":"from Tupi naná","ja":"トゥピ語 naná から","ko":"투피어 naná에서","zh":"源自图皮语 naná","yue":"源自圖皮語 naná","vi":"từ tiếng Tupi naná","th":"จากภาษาตูปี naná","id":"dari bahasa Tupi naná","hi":"तूपी naná से","de":"aus Tupi naná","fr":"du tupi naná","it":"dal tupi naná","es":"del tupí naná","pt":"do tupi naná","ru":"из тупи naná","uk":"з тупі naná","ar":"من التوبية naná","he":"מטופי naná","sw":"kutoka Kitupi naná"},
@@ -888,5 +890,7 @@ WORDS.pineapple = {
     syl: ["আনারশ", "anarɔʃ"],
     el_kath: ["ἀνανᾶς", "anaˈnas"],
     cnh: ["rungtaban", "ruŋtaban"],
+    doi: ["अनानास", "ənaːnaːs"],
+    kpv: ["ананас", "anaˈnas"],
   },
 };

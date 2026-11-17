@@ -505,6 +505,19 @@ WORDS.week = {
     sa_edu: "seven",
     xct: "seven",
     xct_litpr: "seven",
+    abq: "plain",
+    ani: "plain",
+    ddo: "seven",
+    doi: "seven",
+    huz: "plain",
+    kaa: "seven",
+    khv: "friday",
+    krc: "sunday",
+    kum: "friday",
+    lbe: "friday",
+    pnb: "seven",
+    sva: "plain",
+    yrk: "seven",
   },
   routes: {
     seven: {"color":"#2563eb","emoji":"7️⃣","en":"the number seven","ja":"数の七","ko":"일곱이라는 수","zh":"数字七","yue":"數字七","vi":"con số bảy","th":"เลขเจ็ด","id":"angka tujuh","hi":"सात की संख्या","de":"die Zahl Sieben","fr":"le nombre sept","it":"il numero sette","es":"el número siete","pt":"o número sete","ru":"число семь","uk":"число сім","ar":"العدد سبعة","he":"המספר שבע","sw":"namba saba"},
@@ -951,5 +964,18 @@ WORDS.week = {
     sa_edu: ["सप्ताहः", "sɐptaːɦɐh"],
     xct: ["བདུན་ཕྲག", "bdunpʰrak"],
     xct_litpr: ["བདུན་ཕྲག", "tỹʈʂʰa"],
+    abq: ["мчыбжьыкӏ", "mtɕəbʑəkʼ"],
+    ani: ["гьокьу", "hotɬʼu"],
+    ddo: ["анкьи", "antɬʼi"],
+    doi: ["हफ्ता", "həftaː"],
+    huz: ["анкьи", "antɬʼi"],
+    kaa: ["hápte", "hæpte"],
+    khv: ["рузма", "ruzma"],
+    krc: ["ыйыкъ", "ɯˈjɯq"],  // Made from ыйых кюн, the name of Sunday.
+    kum: ["жума", "dʒuˈma"],
+    lbe: ["нюжмар", "njuʒmar"],  // The same word as Friday on the map; Lak Wikipedia's week article explains it as the seven days of нюжмар.
+    pnb: ["ہفتہ", "ɦəftaː"],  // From Persian haft 'seven'; also Saturday.
+    sva: ["ნაგზი", "naɡzi"],
+    yrk: ["сиˮив", "sʲiʔiw"],  // The same word as seven.
   },
 };

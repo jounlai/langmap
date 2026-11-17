@@ -407,6 +407,21 @@ WORDS.chili = {
     pi_edu: "pepper",
     sa: "pepper",
     xct: "pepper",
+    abq: "plain",
+    ady: "pepper",
+    aqc: "plain",
+    av: "pepper",
+    ce: "pepper",
+    cv: "pepper",
+    doi: "pepper",
+    inh: "plain",
+    kum: "pepper",
+    lbe: "plain",
+    nog: "pepper",
+    os: "plain",
+    tt: "pepper",
+    udm: "hot",
+    xmf: "plain",
   },
   routes: {
     chilli: {"color":"#dc2626","emoji":"🌶️","en":"Nahuatl chīlli (chile, chili, sili)","ja":"ナワトル語 chīlli（chile, chili, sili）","ko":"나우아틀어 chīlli (chile, chili, sili)","zh":"纳瓦特尔语 chīlli（chile、chili、sili）","yue":"納瓦特爾語 chīlli（chile、chili、sili）","vi":"tiếng Nahuatl chīlli (chile, chili, sili)","th":"นาวาตล์ chīlli (chile, chili, sili)","id":"Nahuatl chīlli (chile, chili, sili)","hi":"नाहुआत्ल chīlli (chile, chili, sili)","de":"Nahuatl chīlli (chile, Chili, sili)","fr":"le nahuatl chīlli (chile, chili, sili)","it":"il nahuatl chīlli (chile, chili, sili)","es":"el náhuatl chīlli (chile, chili, sili)","pt":"o náuatle chīlli (chile, chili, sili)","ru":"науатль chīlli (chile, chili, sili)","uk":"науатль chīlli (chile, chili, sili)","ar":"الناواتل chīlli (chile, chili, sili)","he":"הנאוואטל chīlli (chile, chili, sili)","sw":"Kinahuatl chīlli (chile, chili, sili)"},
@@ -752,5 +767,20 @@ WORDS.chili = {
     pi_edu: ["marica", "maritʃa"],  // Chillies reached Asia only in the 1500s; marica is black pepper, which the English-Pali dictionary also gives for chilli.
     sa: ["मरिच", "mɐɾitɕɐ"],  // Chili came from the Americas much later; marica is the black pepper that gave Indian food its heat.
     xct: ["ཕོ་བ་རིས", "pʰobaris"],  // There were no chillies in classical Tibet; ཕོ་བ་རིས is black pepper, the hot spice of the time.
+    abq: ["чыбджьи", "tɕəbdʑi"],  // Black pepper is a different word, бурч.
+    ady: ["щыбжьый", "ɕəbʑəj"],
+    aqc: ["истигьоти", "istihoti"],
+    av: ["пилпил", "pilpil"],  // From Persian pilpil 'pepper'.
+    ce: ["кӏон бурч", "kʼoːn burtʃ"],  // Бурч is pepper, from Persian murč through Kumyk.
+    cv: ["хаяр хӗрлӗ пӑрӑҫ", "xaˈjar ˈxɘrlɘ ˈpərəɕ"],  // 'Hot red pepper': пӑрӑҫ is pepper.
+    doi: ["मर्च", "mərtʃ"],
+    inh: ["сибаз", "sibaz"],
+    kum: ["аччы бурч", "atʃːɯ burtʃ"],
+    lbe: ["мамаш", "mamaʃ"],  // No image is recorded for it, so it counts as a word of its own.
+    nog: ["бурыш", "buˈrɯʃ"],
+    os: ["цывзы", "tsɨvzɨ"],  // Black pepper is a different word, бырц.
+    tt: ["кызыл борыч", "qɯˈzɯl boˈrɯtɕ"],  // 'Red pepper'.
+    udm: ["пӧсьтурын", "pɘɕtuˈrɨn"],  // Literally 'hot grass': пӧсь 'hot' + турын 'grass'.
+    xmf: ["ზაფანა", "zapʰana"],
   },
 };

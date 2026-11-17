@@ -530,6 +530,14 @@ WORDS.friday = {
     ocm: "venus",
     pi_edu: "venus",
     sukh: "venus",
+    abq: "count",
+    ani: "plain",
+    aqc: "plain",
+    doi: "venus",
+    khv: "plain",
+    krc: "other",
+    pnb: "assembly",
+    sva: "plain",
   },
   routes: {
     goddess: {"color":"#db2777","emoji":"👸","en":"the day of Frigg (Friday, Freitag, fredag)","ja":"女神フリッグの日（Friday, Freitag, fredag）","ko":"여신 프리그의 날 (Friday, Freitag, fredag)","zh":"女神弗丽嘉之日（Friday、Freitag、fredag）","yue":"女神弗麗嘉嘅日（Friday、Freitag、fredag）","vi":"ngày của nữ thần Frigg (Friday, Freitag, fredag)","th":"วันของเทพีฟริกก์ (Friday, Freitag, fredag)","id":"hari Dewi Frigg (Friday, Freitag, fredag)","hi":"देवी फ़्रिग का दिन (Friday, Freitag, fredag)","de":"Tag der Frigg (Friday, Freitag, fredag)","fr":"jour de Frigg (Friday, Freitag, fredag)","it":"giorno di Frigg (Friday, Freitag, fredag)","es":"día de Frigg (Friday, Freitag, fredag)","pt":"dia de Frigg (Friday, Freitag, fredag)","ru":"день Фригг (Friday, Freitag, fredag)","uk":"день Фріґґ (Friday, Freitag, fredag)","ar":"يوم فريغ (Friday, Freitag, fredag)","he":"יומה של פריג (Friday, Freitag, fredag)","sw":"siku ya Frigg (Friday, Freitag, fredag)"},
@@ -999,5 +1007,13 @@ WORDS.friday = {
     ocm: ["śukravār", "ʃukrawaːr"],
     pi_edu: ["sukkavāra", "sukːavaːra"],
     sukh: ["วันศุกร", "wansuk"],
+    abq: ["хваша", "χʷaʃa"],  // Built on хв- 'five', as Tuesday гӏваша is on гӏв- 'two'.
+    ani: ["рузман", "ruzman"],
+    aqc: ["нуӏбжал ихъ", "nuˤbʒal iq"],
+    doi: ["शुक्करबार", "ʃukːərbaːr"],
+    khv: ["рузма-зебу", "ruzma-zebu"],
+    krc: ["байрым кюн", "bajrɯm kyn"],  // The Virgin Mary's day: Байрым is Mary.
+    pnb: ["جمعہ", "dʒʊmaː"],
+    sva: ["უ̂ებიშ", "webiʃ"],
   },
 };

@@ -554,6 +554,8 @@ WORDS.china = {
     pi_edu: "cina",
     txg: "other",
     xct_litpr: "other",
+    av: "khitan",
+    mhr: "khitan",
   },
   family2: {
     bo: "zhongguo",
@@ -1054,5 +1056,7 @@ WORDS.china = {
     pi_edu: ["Cīnaraṭṭha", "tʃiːnaraʈːʰa"],
     txg: ["𘂜", "zar˧"],
     xct_litpr: ["རྒྱ་ནག", "ɟana"],
+    av: ["Китай", "kitaj"],  // Route by resemblance to the neighbouring forms (lbe, cv, lez); no etymology of its own.
+    mhr: ["Китай", "kiˈtaj"],
   },
 };

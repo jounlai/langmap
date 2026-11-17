@@ -596,6 +596,16 @@ WORDS.thousand = {
     txg: "plain",
     xct: "plain",
     xct_litpr: "plain",
+    ani: "hazar",
+    ddo: "hazar",
+    huz: "hazar",
+    khv: "hazar",
+    krc: "plain",
+    lbe: "hazar",
+    pnb: "hazar",
+    skr: "hazar",
+    sva: "tenhund",
+    yrk: "plain",
   },
   routes: {
     strong: {"color":"#2563eb","emoji":"🔢","en":"the Germanic and Slavic thousand","ja":"ゲルマン語とスラヴ語の「千」","ko":"게르만어와 슬라브어의 ‘천’","zh":"日耳曼语和斯拉夫语的“千”","yue":"日耳曼語同斯拉夫語嘅「千」","vi":"“nghìn” của các tiếng German và Slav","th":"คำว่า “พัน” ของภาษาเจอร์แมนิกและสลาฟ","id":"kata “ribu” rumpun Jermanik dan Slavia","hi":"जर्मैनिक और स्लाव भाषाओं का ‘हज़ार’","de":"das germanische und slawische Tausend","fr":"le « mille » germanique et slave","it":"il “mille” germanico e slavo","es":"el «mil» germánico y eslavo","pt":"o «mil» germânico e eslavo","ru":"«тысяча» германских и славянских языков","uk":"«тисяча» германських і слов’янських мов","ar":"«الألف» في الجرمانية والسلافية","he":"„אלף” הגרמאני והסלאבי","sw":"“elfu” ya lugha za Kijerumani na Kislavu"},
@@ -1133,5 +1143,15 @@ WORDS.thousand = {
     txg: ["𗡞", "tu˧"],
     xct: ["སྟོང", "stoŋ"],
     xct_litpr: ["སྟོང", "toŋ"],
+    ani: ["озиругу", "oziruɡu"],
+    ddo: ["гӏазал", "ʕazal"],
+    huz: ["гьазар", "hazar"],
+    khv: ["азар", "azar"],
+    krc: ["минг", "miŋ"],  // No image is recorded for it, so it counts as a word of its own.
+    lbe: ["азарва", "azarwa"],  // From Persian hazār.
+    pnb: ["ہزار", "həzaːɾ"],
+    skr: ["ہزار", "həzaːɾ"],
+    sva: ["ათა̈ს", "atʰæs"],
+    yrk: ["ёнарˮ", "joːnɑrʔ"],  // No image is recorded for it, so it counts as a word of its own.
   },
 };

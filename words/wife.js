@@ -634,6 +634,20 @@ WORDS.wife = {
     sukh: "own",
     xct: "own",
     xct_litpr: "own",
+    abq: "woman",
+    ani: "own",
+    aqc: "woman",
+    bal: "woman",
+    ddo: "own",
+    huz: "woman",
+    inh: "own",
+    khv: "woman",
+    lbe: "woman",
+    nog: "woman",
+    pnb: "own",
+    skr: "woman",
+    sva: "own",
+    yrk: "woman",
   },
   routes: {
     woman: {"color":"#db2777","emoji":"👩","en":"the same word as woman","ja":"「女」と同じ語","ko":"‘여자’와 같은 말","zh":"与“女人”同词","yue":"同「女人」同一個詞","vi":"cùng một từ với “đàn bà”","th":"คำเดียวกับ “ผู้หญิง”","id":"sama dengan kata “perempuan”","hi":"‘औरत’ वाला ही शब्द","de":"dasselbe Wort wie Frau","fr":"le même mot que femme","it":"la stessa parola di donna","es":"la misma palabra que mujer","pt":"a mesma palavra que mulher","ru":"то же слово, что «женщина»","uk":"те саме слово, що «жінка»","ar":"الكلمة نفسها لـ«امرأة»","he":"אותה מילה כמו ״אישה״","sw":"neno sawa na mwanamke"},
@@ -1211,5 +1225,19 @@ WORDS.wife = {
     sukh: ["เมีย", "mia"],
     xct: ["ཆུང་མ", "tɕʰuŋma"],
     xct_litpr: ["ཆུང་མ", "tɕʰuŋma"],
+    abq: ["пхӏвыс", "pħʷəs"],  // Also the word for woman; тагвжва is also given.
+    ani: ["гьорчӏчӏи", "hortʃʼːi"],
+    aqc: ["лълъоннол", "ɬːonːol"],  // The same word as woman.
+    bal: ["جن", "dʒan"],
+    ddo: ["бару", "baru"],
+    huz: ["ахъе", "aqe"],  // Also the word for woman.
+    inh: ["сесаг", "sesaɡ"],
+    khv: ["гъини", "ʁini"],
+    lbe: ["щарсса", "ɕːarsːa"],  // Щарсса means both woman and wife.
+    nog: ["хатын", "χaˈtɯn"],
+    pnb: ["ووہٹی", "ʋɔ́ːʈiː"],  // Also 'bride'.
+    skr: ["زال", "zaːl"],  // Also the word for woman.
+    sva: ["ხეხუ̂", "xexw"],
+    yrk: ["не", "nʲe"],
   },
 };

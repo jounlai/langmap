@@ -972,5 +972,6 @@ WORDS.poop = {
     kho: ["𑀕𑀽", "ɡuː"],
     omy: ["tahi", "tahi"],
     osn: ["tahi", "tahi"],
+    ady: ["цӏы", "tsʼə"],
   },
 };

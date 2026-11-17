@@ -518,6 +518,13 @@ WORDS.tear = {
     pi_edu: "plain",
     sa_edu: "plain",
     xct: "plain",
+    abq: "eyewater",
+    ani: "plain",
+    bsk: "plain",
+    inh: "eye",
+    mhr: "eyewater",
+    os: "eye",
+    pnb: "plain",
   },
   routes: {
     eyewater: {"color":"#0891b2","emoji":"💧","en":"eye + water (air mata, 눈물, nước mắt)","ja":"目＋水（air mata, 눈물, nước mắt）","ko":"눈 + 물 (air mata, 눈물, nước mắt)","zh":"眼＋水（air mata、눈물、nước mắt）","yue":"眼＋水（air mata、눈물、nước mắt）","vi":"mắt + nước (air mata, 눈물, nước mắt)","th":"ตา + น้ำ (air mata, 눈물, nước mắt)","id":"mata + air (air mata, 눈물, nước mắt)","hi":"आँख + पानी (air mata, 눈물, nước mắt)","de":"Auge + Wasser (air mata, 눈물, nước mắt)","fr":"œil + eau (air mata, 눈물, nước mắt)","it":"occhio + acqua (air mata, 눈물, nước mắt)","es":"ojo + agua (air mata, 눈물, nước mắt)","pt":"olho + água (air mata, 눈물, nước mắt)","ru":"глаз + вода (air mata, 눈물, nước mắt)","uk":"око + вода (air mata, 눈물, nước mắt)","ar":"عين + ماء (air mata, 눈물, nước mắt)","he":"עין + מים (air mata, 눈물, nước mắt)","sw":"jicho + maji (air mata, 눈물, nước mắt)"},
@@ -980,5 +987,12 @@ WORDS.tear = {
     pi_edu: ["assu", "asːu"],
     sa_edu: ["अश्रु", "ɐɕɾu"],
     xct: ["མཆི་མ", "mtɕʰima"],
+    abq: ["ладзы", "ladzə"],  // Built from ла 'eye' and дзы 'water'.
+    ani: ["могъгъо", "moʁːo"],
+    bsk: ["-ú", "u"],
+    inh: ["бӏарга тӏадам", "bʕarɡa tʼadam"],
+    mhr: ["шинчавӱд", "ʃintʃaˈvyd"],
+    os: ["цӕссыг", "tsæsːɨɡ"],  // Also цӕстысыг, built on цӕст 'eye'.
+    pnb: ["ہنجھو", "ɦə́ɲdʒuː"],
   },
 };

@@ -717,6 +717,12 @@ WORDS.bat = {
     cjs: "other",
     h_tagalog: "plain",
     pi_edu: "other",
+    abq: "bird",
+    ani: "plain",
+    dar: "plain",
+    ddo: "plain",
+    huz: "plain",
+    sva: "plain",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1379,5 +1385,11 @@ WORDS.bat = {
     cjs: ["чарғанат", "tʃarɣanat"],
     h_tagalog: ["ᜃᜊᜄ᜔", "kaˈbaɡ"],
     pi_edu: ["vagguli", "vaɡːuli"],
+    abq: ["уахъынла цӏис", "waqənla tsʼis"],  // Literally 'night bird'.
+    ani: ["ххокер", "χːoker"],
+    dar: ["яри дукала", "jari dukala"],
+    ddo: ["лалӏухъӏи", "latɬuqˤi"],
+    huz: ["пӏапӏи", "pʼapʼi"],
+    sva: ["მეთა̈თხ", "metʰætʰx"],
   },
 };

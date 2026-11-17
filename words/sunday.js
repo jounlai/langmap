@@ -541,6 +541,17 @@ WORDS.sunday = {
     sa_edu: "sun",
     xct: "sun",
     xct_litpr: "sun",
+    abq: "plain",
+    ani: "plain",
+    aqc: "plain",
+    doi: "sun",
+    kaa: "count",
+    khv: "market",
+    khw: "count",
+    krc: "holy",
+    myv: "rest",
+    pnb: "sun",
+    yrk: "resurrection",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -1022,5 +1033,16 @@ WORDS.sunday = {
     sa_edu: ["रविवारः", "ɾɐʋiʋaːɾɐh"],
     xct: ["གཟའ་ཉི་མ", "ɡzaʔɲima"],
     xct_litpr: ["གཟའ་ཉི་མ", "saɲimə"],
+    abq: ["мтшаша", "mtʃaʃa"],
+    ani: ["гьатӏан", "hatʼan"],
+    aqc: ["алхӏат", "alħat"],
+    doi: ["ऐतबार", "ɛːtbaːr"],
+    kaa: ["ekshembi", "ekʃembi"],
+    khv: ["базар-зебу", "bazar-zebu"],
+    khw: ["یکشنبہ", "jakʃamˈbeh"],  // Route by resemblance to the neighbouring forms (fa); no etymology of its own.
+    krc: ["ыйых кюн", "ɯjɯx kyn"],  // 'Holy day': ыйых is Old Turkic ıyıq/ıdıq 'holy'.
+    myv: ["недлячи", "ɲedlʲatɕʲi"],  // Недля is Russian неделя, the old Slavic Sunday, 'no work', plus чи 'day'.
+    pnb: ["ایتوار", "ɛːtʋaːɾ"],  // From Prakrit āittavāra, the sun's day.
+    yrk: ["воскресенье", "woːskrʲeːsʲeːɲʲeː"],
   },
 };

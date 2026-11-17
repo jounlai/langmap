@@ -308,7 +308,7 @@ WORDS.love = {
     cy: ["cariad", "ˈkarjad"],
     ka: ["სიყვარული", "siqʼvaruli"],
     lzz: ["ოროფა", "oropʰa"],
-    sva: ["—", "—"],
+    sva: ["მალატ", "malatʼ"],
     hy: ["սեր", "seɾ"],
     hyw: ["սէր", "sɛɾ"],
     nv: ["ayóóʼánóshʼní", "ʔɑ̀jóːʔɑ́nóʃʔní"],

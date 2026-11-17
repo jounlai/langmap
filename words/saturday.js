@@ -489,6 +489,16 @@ WORDS.saturday = {
     sa_edu: "saturn",
     xct: "saturn",
     xct_litpr: "saturn",
+    aqc: "plain",
+    bsk: "plain",
+    ddo: "sabbath",
+    doi: "saturn",
+    kaa: "sabbath",
+    khv: "count",
+    khw: "sabbath",
+    krc: "sabbath",
+    pnb: "other",
+    yrk: "sabbath",
   },
   routes: {
     saturn: {"color":"#7c3aed","emoji":"🪐","en":"Saturn's day","ja":"土星の日","ko":"토성의 날","zh":"土星之日","yue":"土星嘅日","vi":"ngày sao Thổ","th":"วันของดาวเสาร์","id":"hari Saturnus","hi":"शनि का दिन","de":"Saturns Tag","fr":"le jour de Saturne","it":"il giorno di Saturno","es":"el día de Saturno","pt":"o dia de Saturno","ru":"день Сатурна","uk":"день Сатурна","ar":"يوم زحل","he":"יום שבתאי","sw":"siku ya Zohali"},
@@ -920,5 +930,15 @@ WORDS.saturday = {
     sa_edu: ["शनिवारः", "ɕɐniʋaːɾɐh"],
     xct: ["གཟའ་སྤེན་པ", "ɡzaʔspenpa"],
     xct_litpr: ["གཟའ་སྤེན་པ", "sapẽpa"],
+    aqc: ["декъӏлин-ихъ", "deqʼˤlin-iq"],
+    bsk: ["śimśér", "ɕimˈɕer"],
+    ddo: ["шамат", "ʃamat"],
+    doi: ["शनीबार", "ʃəniːbaːr"],
+    kaa: ["shembi", "ʃembi"],
+    khv: ["гьосилӏо", "hositɬo"],
+    khw: ["شنبہ", "ʃamˈbeh"],  // Route by resemblance to the neighbouring forms (fa); no etymology of its own.
+    krc: ["шабат кюн", "ʃabat kyn"],  // Шабат 'sabbath' + кюн 'day'.
+    pnb: ["ہفتہ", "ɦəftaː"],  // The same word as week.
+    yrk: ["суббота", "subboːtɑ"],
   },
 };

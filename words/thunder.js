@@ -848,6 +848,10 @@ WORDS.thunder = {
     pi: "plain",
     pi_edu: "plain",
     sa_edu: "plain",
+    ani: "plain",
+    doi: "plain",
+    huz: "sky",
+    xmf: "plain",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1642,5 +1646,9 @@ WORDS.thunder = {
     pi: ["थनित", "tʰanita"],
     pi_edu: ["thanita", "tʰanita"],
     sa_edu: ["गर्जनम्", "ɡɐɾdʑɐnɐm"],
+    ani: ["хухуй", "χuχuj"],
+    doi: ["गरज", "ɡərədʒ"],
+    huz: ["гьас хъалӏе", "has qatɬe"],  // Built on гьас 'sky'.
+    xmf: ["ტყვაცი", "tʼqʼvatsi"],  // The same word covers lightning.
   },
 };

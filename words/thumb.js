@@ -686,6 +686,11 @@ WORDS.thumb = {
     ain: "big",
     bxr: "plain",
     kjh: "plain",
+    ani: "mother",
+    dar: "big",
+    ddo: "plain",
+    huz: "big",
+    sva: "plain",
   },
   routes: {
     mother: {"color":"#db2777","emoji":"👪","en":"mother · parent · elder kin","ja":"母・親・年長の身内","ko":"어머니 · 어버이 · 웃어른","zh":"母亲・父母・长辈","yue":"阿媽 · 父母 · 長輩","vi":"mẹ · cha mẹ · bậc trên","th":"แม่ · พ่อแม่ · ญาติผู้ใหญ่","id":"ibu · orang tua · kerabat tua","hi":"माँ · माता-पिता · बड़े","de":"Mutter · Eltern · ältere Verwandte","fr":"mère · parent · aîné","it":"madre · genitore · parente anziano","es":"madre · padre · pariente mayor","pt":"mãe · pai · parente mais velho","ru":"мать · родитель · старший родич","uk":"мати · батько · старший родич","ar":"أم · والد · قريب أكبر","he":"אם · הורה · קרוב מבוגר","sw":"mama · mzazi · ndugu mkubwa"},
@@ -1316,5 +1321,10 @@ WORDS.thumb = {
     ain: ["ルウェアㇱケペッ", "ɾuweaskepet"],  // Ruwe 'thick' + askepet 'finger'.
     bxr: ["эрхы хурган", "erxi xurɡaŋ"],
     kjh: ["иргек", "irˈɡek"],
+    ani: ["илацӏцӏекӏа", "ilatsʼːekʼa"],
+    dar: ["хала тӏул", "χala tʼul"],
+    ddo: ["бӏовла", "bˤowla"],
+    huz: ["быкъу зәкьә", "bɨqʼu zətɬʼə"],  // Literally 'big finger', with зәкьә 'finger'; compare ыкъу ыс 'older brother'.
+    sva: ["ცერ", "tsʰer"],
   },
 };

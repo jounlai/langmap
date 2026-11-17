@@ -222,5 +222,7 @@ WORDS.hangover = {
     ar_qur: ["خمار", "xumaːr"],
     syc: ["ܨܘܕܪܐ", "sˤuːðaːraː"],
     fa_clas: ["خمار", "xumaːr"],  // From Arabic xumār, the heavy after-effect of wine.
+    cv: ["мухмӑр", "ˈmuxmər"],
+    pa: ["ਖ਼ੁਮਾਰ", "xʊmaːɾ"],
   },
 };

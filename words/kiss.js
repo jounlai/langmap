@@ -374,6 +374,12 @@ WORDS.kiss = {
     jam: "kus",
     h_tagalog: "smell",
     pi_edu: "cumb",
+    cv: "plain",
+    doi: "cumb",
+    kpv: "plain",
+    pnb: "plain",
+    sva: "plain",
+    ug: "plain",
   },
   routes: {
     kus: {"color":"#dc2626","emoji":"💋","en":"Germanic kiss (kiss, Kuss, kyss, キス)","ja":"ゲルマン語の kiss（kiss, Kuss, kyss, キス）","ko":"게르만어 kiss (kiss, Kuss, kyss, キス)","zh":"日耳曼语 kiss（kiss、Kuss、kyss、キス）","yue":"日耳曼語 kiss（kiss、Kuss、kyss、キス）","vi":"tiếng German kiss (kiss, Kuss, kyss, キス)","th":"เจอร์แมนิก kiss (kiss, Kuss, kyss, キス)","id":"Jermanik kiss (kiss, Kuss, kyss, キス)","hi":"जर्मैनिक kiss (kiss, Kuss, kyss, キス)","de":"germanisch Kuss (kiss, Kuss, kyss, キス)","fr":"le germanique kiss (kiss, Kuss, kyss, キス)","it":"il germanico kiss (kiss, Kuss, kyss, キス)","es":"el germánico kiss (kiss, Kuss, kyss, キス)","pt":"o germânico kiss (kiss, Kuss, kyss, キス)","ru":"германское kiss (kiss, Kuss, kyss, キス)","uk":"германське kiss (kiss, Kuss, kyss, キス)","ar":"الجرمانية kiss (kiss, Kuss, kyss, キス)","he":"הגרמאנית kiss (kiss, Kuss, kyss, キス)","sw":"Kijerumani kiss (kiss, Kuss, kyss, キス)"},
@@ -685,5 +691,11 @@ WORDS.kiss = {
     jam: ["kis", "kɪs"],
     h_tagalog: ["ᜑᜎᜒᜃ᜔", "haˈlik"],
     pi_edu: ["cumbana", "tʃumbana"],
+    cv: ["чуптӑву", "tɕuptəˈʋu"],  // No image is recorded for it, so it counts as a word of its own.
+    doi: ["चुम्मी", "tʃumːiː"],
+    kpv: ["ок", "ok"],
+    pnb: ["مِٹّھی", "mɪʈːʰiː"],
+    sva: ["ლიყჰა̈̄ლ", "liqʼhæːl"],
+    ug: ["سۆيۈش", "søjyʃ"],  // Route by resemblance to Kazakh сүйіс; no etymology of its own.
   },
 };

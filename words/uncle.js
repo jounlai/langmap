@@ -444,6 +444,24 @@ WORDS.uncle = {
     sa_edu: "split",
     xct: "split",
     xct_litpr: "split",
+    ab: "split",
+    abq: "split",
+    ani: "split",
+    bal: "split",
+    bsk: "split",
+    ce: "split",
+    ddo: "split",
+    doi: "split",
+    huz: "split",
+    inh: "one",
+    myv: "one",
+    os: "split",
+    pa: "split",
+    skr: "split",
+    sva: "one",
+    tt: "one",
+    xal: "split",
+    yai: "split",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's brother ≠ mother's brother","ja":"父の兄弟と母の兄弟で別の語","ko":"아버지의 형제와 어머니의 형제가 다른 낱말","zh":"父亲的兄弟和母亲的兄弟用不同的词","yue":"老豆嘅兄弟同阿媽嘅兄弟用唔同嘅詞","vi":"anh em của cha ≠ anh em của mẹ","th":"พี่น้องชายของพ่อกับของแม่เป็นคนละคำ","id":"saudara ayah ≠ saudara ibu","hi":"पिता का भाई ≠ माँ का भाई","de":"Bruder des Vaters ≠ Bruder der Mutter","fr":"frère du père ≠ frère de la mère","it":"fratello del padre ≠ fratello della madre","es":"hermano del padre ≠ hermano de la madre","pt":"irmão do pai ≠ irmão da mãe","ru":"брат отца ≠ брат матери","uk":"брат батька ≠ брат матері","ar":"أخو الأب ≠ أخو الأم","he":"אחי האב ≠ אחי האם","sw":"kaka wa baba ≠ kaka wa mama"},
@@ -830,5 +848,23 @@ WORDS.uncle = {
     sa_edu: ["पितृव्यः", "pitr̩ʋjɐh"],
     xct: ["ཁུ་བོ", "kʰubo"],  // The mother's brother is ཞང་པོ (zhang po).
     xct_litpr: ["ཨ་ཁུ", "akʰu"],
+    ab: ["абиашьа", "abiaʃa"],  // Father's brother; the mother's brother is аншьа.
+    abq: ["абаща", "abaɕa"],  // Father's brother; mother's brother is анща.
+    ani: ["имув воцци", "imuv wotsːi"],
+    bal: ["ناکو", "naːkoː"],  // Mother's brother: ماما
+    bsk: ["-uỵ", "oɻ"],  // Father's brother; the mother's brother is a different word.
+    ce: ["деваша", "devəʃə"],  // Father's brother; the mother's brother is ненан ваша.
+    ddo: ["бабйус эсйу", "babjus esju"],  // Literally "father's brother"; the mother's brother is named the same way from the mother.
+    doi: ["चाचा", "tʃaːtʃaː"],  // Father's brother; the mother's brother is मामा.
+    huz: ["а̇бус ыс", "ɑbus ɨs"],  // Literally 'father's brother'; mother's brother: ийус ыс.
+    inh: ["воти", "voti"],
+    myv: ["леля", "lʲelʲa"],  // The same word also means elder brother.
+    os: ["фыдыфсымӕр", "fɨdɨfsɨmær"],  // Father's brother; mother's brother is мадыфсымӕр.
+    pa: ["ਚਾਚਾ", "tʃaːtʃaː"],  // Father's brother; the mother's brother is ਮਾਮਾ.
+    skr: ["چاچا", "tʃaːtʃaː"],  // Father's brother; mother's brother is ماما.
+    sva: ["ბუბა", "buba"],  // The father's and the mother's brother alike.
+    tt: ["абзый", "ɑbˈzɯj"],
+    xal: ["авһ", "awɣ"],  // Mother's brother: наһцх
+    yai: ["amak", "aˈmak"],  // The mother's brother is xolak.
   },
 };

@@ -1218,5 +1218,6 @@ WORDS.stone = {
     peh: ["taɕiə", "taɕiə"],
     lep: ["ᰜᰴ", "ləŋ"],
     kho: ["𑀲𑀁𑀕𑁆𑀕", "saŋɡa"],
+    ani: ["гьинцӏо", "hintsʼo"],
   },
 };

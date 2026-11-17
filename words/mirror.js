@@ -809,7 +809,7 @@ WORDS.mirror = {
     pi_edu: ["ādāsa", "aːdaːsa"],  // From Sanskrit ādarśa, from dṛś "to see".
     sa_edu: ["दर्पणः", "dɐrpɐɳɐh"],  // Traditionally from dṛp; alternatively from *derp- "to see".
     h_vedic: ["आदर्शः", "aːdɐrɕɐ́ɦ"],  // ā- + dṛś "to see"; Bṛhadāraṇyaka Upaniṣad.
-    arc: ["ܡܚܙܝܬܐ", "maħziːθaː"],  // From the root ḥzy "to see".
+    arc: ["מַחְזִיתָא", "maħziːθaː"],
     nci: ["tezcatl", "ˈteskatɬ"],
     txb: ["𑀢𑀧𑀸𑀓𑁆𑀬𑁂", "tapaːkje"],  // Compare Tocharian A tāpaki.
     xto: ["𑀢𑀸𑀧𑀓𑀺", "taːpəki"],  // Compare Tocharian B tapākye.

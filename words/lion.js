@@ -720,7 +720,7 @@ WORDS.lion = {
     shi: ["ⵉⵣⵎ", "izm"],  // From Proto-Berber *e-zăm 'lion'.
     sux: ["𒊊", "piriŋ"],  // No analysis is recorded for it; the synonym 𒌨𒈤 urmaḫ means 'great beast of prey'.
     txb: ["𑀱𑁂𑀘𑀓𑁂", "ʂetɕake"],  // Tocharian B ṣecake; compare Tocharian A śiśäk (Wiktionary).
-    arc: ["ܐܪܝܐ", "ʔarjaː"],  // Classical Syriac ʾaryā, from Proto-Semitic *ʔarway-, like Hebrew אריה.
+    arc: ["אַרְיָא", "ʔarjaː"],
     wuu_sz: ["狮子", "sɿ˦˦ tsɿ˥˩"],  // The Chinese word for the lion, 獅子, built on 獅.
     wuu_nb: ["狮子", "sɿ˥˨ tsɿ˧˨˥"],  // The Chinese word for the lion, 獅子, built on 獅.
     wuu_hz: ["狮子", "sɿ˧˧ tsɿ˥˧"],  // The Chinese word for the lion, 獅子, built on 獅.

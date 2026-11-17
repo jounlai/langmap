@@ -703,7 +703,7 @@ WORDS.camel = {
     akk: ["𒃵𒂷", "ɡammalu"],  // Probably a loan from West Semitic gamal; it is Neo-Assyrian.
     aer: ["kamule", "kamulə"],  // Borrowed from English camel.
     os: ["теуа", "tewa"],  // From a Turkic language, ultimately from *täbe.
-    arc: ["ܓܡܠܐ", "ɡamlaː"],  // Classical Syriac gamlā 'camel, dromedary', inherited from Proto-Semitic *gamal-.
+    arc: ["גַּמְלָא", "ɡamlaː"],
     wuu_sz: ["骆驼", "loʔ˧ dəu˨˨˧"],  // The common Chinese word for the camel, 駱駝.
     wuu_nb: ["骆驼", "loʔ˩˨ dəu˧˩˧"],  // The common Chinese word for the camel, 駱駝.
     wuu_jh: ["骆驼", "loʔ˨˩˨ duɤ˧˩˧"],  // The common Chinese word for the camel, 駱駝.

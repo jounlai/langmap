@@ -1096,7 +1096,7 @@ WORDS.head = {
     onw: ["ⲟⲩⲣ", "ur"],
     xag: ["bul", "bul"],
     cu: ["глава", "ɡlava"],
-    arc: ["ܪܝܫܐ", "reːʃaː"],
+    arc: ["רֵישָׁא", "reːʃaː"],
     ota: ["باش", "baʃ"],
     otk: ["𐱈", "baʃ"],
     xqa: ["baš", "baʃ"],

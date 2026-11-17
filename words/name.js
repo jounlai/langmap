@@ -627,7 +627,7 @@ WORDS.name = {
       pi_edu: ["nāma", "naːma"],
       pmh: ["णाम", "ɳaːma"],
       cop: ["ⲣⲁⲛ", "ran"],
-      arc: ["ܫܡܐ", "ʃmaː"],
+      arc: ["שְׁמָא", "ʃmaː"],
       amw: ["ܐܫܡܐ", "eʃma"],
       aii: ["ܫܸܡܵܐ", "ˈʃɪmma"],
       tru: ["ܐܫܡܐ", "əʃmo"],

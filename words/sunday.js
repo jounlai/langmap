@@ -489,6 +489,7 @@ WORDS.sunday = {
     ar_sy: "count",
     el_koi: "lord",
     la_late: "lord",
+    arc: "count",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -918,5 +919,6 @@ WORDS.sunday = {
     ar_sy: ["الأحد", "ɪlˈʔaħad"],  // From Arabic al-ʔaḥad 'the one': the first day, counting from Sunday.
     el_koi: ["Κυριακή", "kyriaˈke̝"],
     la_late: ["dies dominica", "ˈdies doˈmenika"],
+    arc: ["חַד בְּשַׁבָּא", "ħað bʃabbaː"],
   },
 };

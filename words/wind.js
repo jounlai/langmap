@@ -101,7 +101,7 @@ WORDS.wind = {
     orv: ["вѣтръ", "vʲetrŭ"],
     hbo: ["רוח", "ˈruːaħ"],
     he_mis: ["רוח", "ˈruaħ"],
-    arc: ["ܪܘܚܐ", "ruːħaː"],
+    arc: ["רוּחָא", "ruːħaː"],
     syc: ["ܪܘܚܐ", "ruːħaː"],
     aii: ["ܦܲܘܚܵܐ", "ˈpawxa"],
     gez: ["ነፋስ", "nafaːs"],

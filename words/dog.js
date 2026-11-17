@@ -626,7 +626,7 @@ WORDS.dog = {
     pi_edu: ["sunakha", "sunakʰa"],
     pmh: ["सुणग", "suɳaɡa"],
     cop: ["ⲟⲩϩⲟⲣ", "uhor"],
-    arc: ["ܟܠܒܐ", "kalbaː"],
+    arc: ["כַּלְבָּא", "kalbaː"],
     amw: ["ܟܠܒܐ", "xalpa"],
     aii: ["ܟܠܒܐ", "kalba"],
     tru: ["ܟܠܒܐ", "kalbo"],

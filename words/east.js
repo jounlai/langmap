@@ -763,7 +763,7 @@ WORDS.east = {
     non: ["austr", "ˈɑustr"],  // From Proto-Germanic *austrą, related to *ausos "dawn".
     cu: ["въстокъ", "vŭstokŭ"],  // vŭs- "up" + tokŭ "flow"; a calque of Greek ἀνατολή.
     cop: ["ⲉⲓⲉⲃⲧ", "jebt"],  // From Egyptian jꜣbtj "eastern", the side of the left hand.
-    arc: ["ܡܕܢܚܐ", "maðnəħaː"],  // From dnḥ "to rise, dawn".
+    arc: ["מָדִינְחָא", "maːðiːnħaː"],
     akk: ["𒆳", "ʃaduː"],  // Also "mountain land"; the mountains lay east of Mesopotamia.
     p_tun: ["*ʒügün", "dʒyɡyn"],  // Also "left"; borrowed from Proto-Mongolic *ǰexün "left; east".
     txb: ["𑀓𑁅𑀁𑀧𑀺𑀭𑁆𑀓𑁄", "kawnpirko"],  // kauṃ "sun" + pirko "rising".

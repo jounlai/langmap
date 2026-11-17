@@ -402,7 +402,7 @@ WORDS.nose = {
     pi_edu: ["nāsā", "naːsaː"],
     pmh: ["णक्क", "ɳakːa"],
     cop: ["ϣⲁ", "ʃa"],
-    arc: ["ܢܚܝܪܐ", "nħiːraː"],
+    arc: ["אַפָּא", "ʔappaː"],
     aii: ["ܢܚܝܪܐ", "naxxiːra"],
     sux: ["𒅗", "kiri"],
     akk: ["𒀊𒁍", "appu"],

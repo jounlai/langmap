@@ -672,7 +672,7 @@ WORDS.cheese = {
     ar_qur: ["جبن", "dʒubn"],
     non: ["ostr", "ˈostr"],  // From Proto-Germanic *justaz.
     cu: ["сꙑръ", "sɨrŭ"],  // From Proto-Slavic *syrъ.
-    arc: ["ܓܒܬܐ", "ɡəvettaː"],  // Compare Hebrew gəḇīnā.
+    arc: ["גּוּבְנָא", "ɡuβnaː"],
     hbo: ["גבינה", "ɡəviːˈnɔː"],  // Job 10:10.
     he_mis: ["גבינה", "ɡəviˈna"],  // Mishnah Avodah Zarah 2:4.
     ptrk: ["*irim", "irim"],  // From *iri- "to curdle".

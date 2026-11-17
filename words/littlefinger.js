@@ -435,7 +435,6 @@ WORDS.littlefinger = {
     goh: "other",
     gmh: "other",
     sa: "small",
-    arc: "small",
     el_grc: "other",
     cop: "plain",
     ja_heian: "small",
@@ -891,7 +890,6 @@ WORDS.littlefinger = {
     goh: ["ōrfingar", "ˈoːrfiŋɡar"],  // Ōra 'ear' + fingar: the 'ear finger', probably a loan translation of Latin auriculāris; four glosses from the 11th century (Köbler).
     gmh: ["ōrvinger", "ˈoːrviŋər"],  // The 'ear finger', continuing Old High German ōrfingar; still listed as Ohrfinger in Grimm's dictionary (Köbler).
     sa: ["कनिष्ठिका", "kɐniʂʈʰikaː"],  // 'The smallest', the feminine of kaniṣṭhaka; used for the little finger from the Śatapatha Brāhmaṇa on (Monier-Williams).
-    arc: ["ܚܨܪܐ", "ħesˤraː"],  // Ḥeṣrā, from a root meaning 'to narrow', in the Targums and in Syriac (Comprehensive Aramaic Lexicon).
     el_grc: ["ἔσχατος δάκτυλος", "éskʰatos dáktylos"],  // 'The last finger': Aristotle (Parts of Animals 687b17) counts the fingers from the thumb, ὁ μέγας δάκτυλος 'the big finger', to ὁ ἔσχατος (LSJ).
     cop: ["ⲥⲉⲗⲉⲡⲓⲛ", "selepin"],  // Also the little toe; Bohairic ⲥⲉⲗⲟⲩⲡⲓⲛ (Coptic Dictionary Online, after Crum). No image is recorded for it, so it counts as a word of its own.
     ja_heian: ["小指", "kojubi"],  // 'Small finger': the Wamyō Ruijushō (c. 934) reads 季指 as 古於与比 ko-oyobi, and the Ochikubo Monogatari (late 10th century) already has こゆび (Nihon Kokugo Daijiten).

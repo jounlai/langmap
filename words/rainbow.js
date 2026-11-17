@@ -1092,7 +1092,7 @@ WORDS.rainbow = {
     en_em: ["rainbow", "ˈreːnboː"],  // Rain + bow "arch", unchanged from Middle English reynbowe.
     ang: ["reġnboga", "ˈrejnboɣɑ"],  // Reġn "rain" + boga "bow"; the poetic sċūrboga is "shower bow".
     pi: ["इन्दधनु", "indadʱanu"],  // Inda "Indra" + dhanu "bow": Indra's bow, as in Sanskrit.
-    arc: ["ܩܫܬܐ", "qeʃtaː"],  // The same word as "bow" (the weapon), like Hebrew קשת; fuller ܩܫܬܐ ܕܡܪܢ is "our Lord's bow".
+    arc: ["קַשְׁתָּא", "qaʃtaː"],
     nch: ["akasamalotl", "akasaˈmalotɬ"],  // The Huasteca form of the Nahuatl rainbow word, Classical cōzamālōtl.
     ja_kanbun: ["虹", "nidʑi"],  // Read with its native Japanese reading niji, an inherited Japonic word.
     eo: ["ĉielarko", "tʃielˈarko"],  // Literally "sky arc": ĉielo "sky" + arko "arc".

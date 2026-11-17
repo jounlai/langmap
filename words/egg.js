@@ -369,7 +369,7 @@ WORDS.egg = {
     pi_edu: ["aṇḍa", "aɳɖa"],
     pmh: ["अंड", "aɳɖa"],
     cop: ["ⲥⲟⲟⲩϩⲉ", "soːuhe"],
-    arc: ["ܒܝܥܬܐ", "beːʕtaː"],
+    arc: ["בֵּיעֲתָא", "beːʕaθaː"],
     aii: ["ܒܝܥܬܐ", "beːta"],
     sux: ["𒉭", "nunuz"],
     akk: ["𒉭", "peluː"],

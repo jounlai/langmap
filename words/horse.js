@@ -182,7 +182,7 @@ WORDS.horse = {
     el_kath: ["ἵππος", "ˈipos"],
     akk: ["𒀲𒆳𒊏", "siːsuː"],
     ave: ["𐬀𐬯𐬞𐬀", "aspa"],
-    arc: ["ܣܘܣܝܐ", "suːsjaː"],
+    arc: ["סוּסְיָא", "suːsjaː"],
     aii: ["ܣܘܼܣܹܐ", "suːse"],
     cop: ["ϩⲧⲟ", "hto"],
     ab: ["аҽы", "aʈʂʰə"],

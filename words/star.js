@@ -619,7 +619,7 @@ WORDS.star = {
       pi_edu: ["tārā", "taːraː"],
       pmh: ["तारा", "taːraː"],
       cop: ["ⲥⲓⲟⲩ", "siu"],
-      arc: ["ܟܘܟܒܐ", "koːχβaː"],
+      arc: ["כּוֹכְבָא", "koːχβaː"],
       amw: ["ܟܘܟܒܐ", "kawkba"],
       aii: ["ܟܵܘܟ݂ܒ݂ܵܐ", "kawxva"],
       tru: ["ܟܟܒܐ", "kəxwo"],

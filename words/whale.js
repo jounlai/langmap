@@ -874,7 +874,7 @@ WORDS.whale = {
     ko_mid: ["고래", "koɾaj"],  // A native word, continued unchanged as modern 고래; its further origin is unknown.
     hy_grab: ["կէտ", "ket"],  // Borrowed from Greek κῆτος 'sea monster', like Old Church Slavonic китъ.
     ota: ["قیطس", "kiːˈtus"],  // From Greek κῆτος 'sea monster'; it is also the constellation Cetus.
-    arc: ["ܬܢܝܢܐ", "tanniːnaː"],  // Also 'dragon, sea monster'; Targum Onkelos uses it for the great whales of Genesis 1:21.
+    arc: ["תַּנִּינָא", "tanniːnaː"],
     hbo: ["תנין", "tanˈniːn"],  // A sea monster or dragon; the King James Bible renders the תנינם of Genesis 1:21 as 'great whales'.
     fa_clas: ["نهنگ", "nihaŋɡ"],  // From Middle Persian nihang, which meant the crocodile; the word also covered the crocodile and other great water beasts.
     osp: ["ballena", "baˈʎena"],  // From Latin ballaena, from Greek φάλλαινα.

@@ -980,7 +980,7 @@ WORDS.green = {
     xct: ["ལྗང་ཁུ", "ldʑaŋkʰu"],
     xct_litpr: ["ལྗང་ཁུ", "tɕəŋku"],
     orv: ["зеленъ", "zelenŭ"],
-    arc: ["ܝܘܪܩܐ", "jaroːqaː"],
+    arc: ["יָרוֹק", "jaːroːq"],
     xqa: ["yašıl", "jaʃɯl"],
     tpn: ["oby", "oˈβɨ"],
     sga: ["glas", "ɡlas"],

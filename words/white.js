@@ -513,7 +513,7 @@ WORDS.white = {
     pi_edu: ["seta", "seta"],
     pmh: ["सुक्क", "sukːa"],
     cop: ["ⲟⲩⲱⲃϣ", "uoːbʃ"],
-    arc: ["ܚܘܪܐ", "ħewwaːraː"],
+    arc: ["חִוָּר", "ħiwwaːr"],
     aii: ["ܚܘܵܪܵܐ", "xəwaːra"],
     tru: ["ܚܘܪܐ", "ħeworo"],
     sux: ["𒌓", "babbar"],

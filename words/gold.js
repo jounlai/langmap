@@ -877,7 +877,7 @@ WORDS.gold = {
     pi_edu: ["suvaṇṇa", "suvaɳːa"],  // From Sanskrit suvarṇa "of good colour".
     sa_edu: ["सुवर्णम्", "suʋɐrɳɐm"],  // Of good colour.
     h_vedic: ["हिरण्यम्", "ɦírɐɳjɐm"],  // From Proto-Indo-European *ǵʰelh₃- "yellow".
-    arc: ["ܕܗܒܐ", "dahβaː"],  // A Central Semitic word; compare Arabic ḏahab.
+    arc: ["דַּהֲבָא", "dahaβaː"],
     sux: ["𒆬𒄀", "ɡuʃkin"],  // kug "metal" + sig₁₇ "green-yellow".
     akk: ["𒆬𒄀", "χuraːsˤu"],  // Written KUG.GI; compare Hebrew ḥārûṣ.
     phn: ["𐤇𐤓𐤑", "ħaruːsˤ"],  // Compare Akkadian ḫurāṣu.

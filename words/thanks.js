@@ -623,7 +623,7 @@ WORDS.thanks = {
     pi_edu: ["anumodanā", "anumodanaː"],
     pmh: ["—", "—"],
     cop: ["ϣⲡϩⲙⲟⲧ", "ʃəphmot"],
-    arc: ["ܬܘܕܝ", "tawdiː"],
+    arc: ["—", "—"],
     amw: ["ܬܘܕܝ", "tawdiː"],
     aii: ["ܒܣܝܡܐ", "basima"],
     tru: ["ܬܘܕܝ", "tawdi"],

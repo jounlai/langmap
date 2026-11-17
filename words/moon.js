@@ -618,7 +618,7 @@ WORDS.moon = {
     pi_edu: ["canda", "tʃanda"],
     pmh: ["चंद", "tʃanda"],
     cop: ["ⲟⲟϩ", "oːh"],
-    arc: ["ܣܗܪܐ", "sahraː"],
+    arc: ["סִהֲרָא", "siharaː"],
     amw: ["ܣܗܪܐ", "sahraː"],
     aii: ["ܣܗܪܐ", "sahra"],
     tru: ["ܣܗܪܐ", "sahro"],

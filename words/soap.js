@@ -308,7 +308,6 @@ WORDS.soap = {
     nn: "sapo",
     mnp: "plain",
     tao: "other",
-    arc: "sapo",
     ak: "plain",
     fj: "sapo",
     fy: "sapo",
@@ -638,7 +637,6 @@ WORDS.soap = {
     nn: ["såpe", "ˈsoːpə"],  // From late Old Norse sápa, from Old English sāpe, from Proto-Germanic *saipǭ.
     mnp: ["胰仔", "i˨˩ tsiɛ˨˩"],  // No image is recorded for it, so it counts as a word of its own.
     tao: ["siken", "siken"],  // Borrowed from Japanese 石鹸 sekken, 'stone and lye'.
-    arc: ["ܨܦܘܢܐ", "sˤappoːnaː"],  // Classical Syriac ṣappōnā, from Greek σάπων, from Latin sāpō.
     ak: ["samina", "samina"],  // No image is recorded for it, so it counts as a word of its own (Twi).
     fj: ["sovu", "soβu"],  // Borrowed from English soap.
     fy: ["sjippe", "ˈsjɪpə"],  // From Old Frisian *sēpe, from Proto-West Germanic *saipā.

@@ -539,7 +539,7 @@ WORDS.bone = {
     pi_edu: ["aṭṭhi", "aʈːʰi"],
     pmh: ["अट्ठि", "aʈːʰi"],
     cop: ["ⲕⲁⲥ", "kas"],
-    arc: ["ܓܪܡܐ", "ɡarmaː"],
+    arc: ["גַּרְמָא", "ɡarmaː"],
     amw: ["ܓܪܡܐ", "ɣerma"],
     aii: ["ܓܪܡܐ", "ɡarma"],
     tru: ["ܓܪܡܐ", "ɡarmo"],

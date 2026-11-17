@@ -1317,7 +1317,7 @@ WORDS.foot = {
     ar_sy: ["إجر", "ʔɪʒr"],  // Damascus writes this vowel ɪ where the generic Levantine row writes i — five cells in this row say so — though its own اسم ˈʔɪsem leaves open whether the final cluster takes an epenthetic vowel here too.
     ar_tn: ["ساق", "saːq"],  // The Peace Corps Tunisian dictionary puts sa:q on the FOOT line and on the LEG line and glosses it 'foot, leg', with رجل only for the leg; the Tunisian New Testament washes سَاقِين and breaks سَاقِين.
     ar_ye: ["رجل", "ˈrɪdʒɪl"],  // Sanaani uses the colloquial رجل, not the parent's قدم, and this row's own أذن ʔuðun and خشم xaʃim show the copy vowel that breaks the final cluster.
-    arc: ["ܪܓܠܐ", "reɡlaː"],  // Sokoloff 1434a-b glosses ܪܓܠܐ 'leg, foot' in one entry.
+    arc: ["רַגְלָא", "raɣlaː"],
     arn: ["ṉamuṉ", "n̪amun̪"],  // Mapudungun splits them. Surface is WOLD's orthography, IPA follows IDS's n̯amun̯.
     arp: ["wóʼoo3", "wóʔoːθ"],  // Cowell & Moss's body-part table gives wo-ʼoot as the independent noun on the 'foot' row and again on the 'leg' row, and their neutral-possessive paradigm — béecét 'one's hand', bénes 'one's arm', wonóʼ 'one's ankle' — is where wóʼoo3 'one's leg' belongs; the Arapaho Atlas speaker answers both 'my foot' and 'my leg' with nóʼoo3.
     arq: ["رجل", "rʒəl"],  // The Algerian New Testament washes feet with رَجلين at John 13:5 and breaks the crucified men's رْكايَب, their knees, at John 19:32 rather than reach for a leg word; Living Arabic's North African dictionary glosses رْجل both 'foot' and 'leg up to the knee'.

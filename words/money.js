@@ -887,7 +887,7 @@ WORDS.money = {
     ain: ["イチェン", "itɕen"],  // No image is recorded for it, so it counts as a word of its own.
     yap: ["salpiy", "salpij"],  // No image is recorded for it, so it counts as a word of its own.
     to: ["paʻanga", "paʔaŋa"],  // Also the name of a creeper bean whose flat seeds were used in a game, like Samoan tupe.
-    arc: ["ܟܣܦܐ", "kespaː"],  // Classical Syriac kespā means both silver and money, as Hebrew כסף does.
+    arc: ["כַּסְפָּא", "kaspaː"],
     wuu_sz: ["铜钿", "doŋ˨˨˧ di˨˨˧"],  // Literally 'copper coins', the Wu word for money.
     wuu_nb: ["铜钿", "doŋ˧˩˧ di˩˩˧"],  // Literally 'copper coins', the Wu word for money.
     wuu_jh: ["铜钿", "doŋ˧˩˧ die˧˩˧"],  // Literally 'copper coins', the Wu word for money.

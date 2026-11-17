@@ -621,7 +621,7 @@ WORDS.cat = {
     pi_edu: ["biḷāra", "biɭaːra"],
     pmh: ["मज्जार", "madʒːaːra"],
     cop: ["ⲉⲙⲟⲩ", "emu"],
-    arc: ["ܫܘܢܪܐ", "ʃunnaːraː"],
+    arc: ["שׁוּנָרָא", "ʃuːnaːraː"],
     amw: ["ܩܛܘܢܐ", "qatˤuna"],
     aii: ["ܩܛܘ", "qaːtˤo"],
     tru: ["ܫܘܢܪܐ", "ʃunoro"],

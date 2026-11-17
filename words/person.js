@@ -1026,7 +1026,7 @@ WORDS.person = {
     xct: ["མི", "mi"],
     xct_litpr: ["མི", "mi"],
     txg: ["𗢨", "dzjwo˧˥"],
-    arc: ["ܐܢܫܐ", "ʔnaːʃaː"],
+    arc: ["אֱנָשׁ", "ʔenaːʃ"],
     ota: ["انسان", "inˈsan"],
     otk: ["𐰚𐰃𐰾𐰃", "kiʃi"],
     xqa: ["kiši", "kiʃi"],

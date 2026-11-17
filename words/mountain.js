@@ -178,7 +178,7 @@ WORDS.mountain = {
     ar_ma: ["جبل", "ʒbəl"],
     ar_sy: ["جبل", "ˈʒabal"],
     ar_tn: ["جبل", "ʒbal"],
-    arc: ["ܛܘܪܐ", "tˤuːraː"],
+    arc: ["טוּרָא", "tˤuːraː"],
     arn: ["mawiza", "mawiða"],
     arq: ["جبل", "ʒbəl"],
     as: ["পাহাৰ", "paɦaɹ"],

@@ -582,7 +582,7 @@ WORDS.tooth = {
     pi_edu: ["danta", "danta"],
     pmh: ["दंत", "danta"],
     cop: ["ⲛⲁϫϩⲉ", "natʃhe"],
-    arc: ["ܫܢܐ", "ʃennaː"],
+    arc: ["שִׁנָּא", "ʃinnaː"],
     amw: ["ܫܢܐ", "ʃenːa"],
     aii: ["ܟܵܟܵܐ", "kaka"],
     tru: ["ܐܪܫܐ", "arʃo"],

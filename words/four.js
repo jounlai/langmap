@@ -115,7 +115,7 @@ WORDS.four = {
     sux: ["𒐉", "limmu"],
     akk: ["𒐉", "erbe"],
     psem: ["*ʔarbaʕ-", "ʔarbaʕ"],
-    arc: ["ܐܪܒܥ", "ʔarbaʕ"],
+    arc: ["אַרְבַּע", "ʔarbaʕ"],
     myz: ["ࡀࡓࡁࡀ", "arba"],
     ar_qur: ["أربعة", "ʔarbaʕa"],
     egy: ["𓏽", "ifeduː"],

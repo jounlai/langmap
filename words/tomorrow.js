@@ -1269,7 +1269,7 @@ WORDS.tomorrow = {
     pi: ["स्वे", "sve"],  // Sve is the Pali form of Sanskrit śvas 'tomorrow', from a word for 'morning' (PTS Dictionary; Wiktionary).
     pi_edu: ["sve", "sve"],  // Sve is the Pali form of Sanskrit śvas 'tomorrow', from a word for 'morning' (PTS Dictionary; Wiktionary).
     cop: ["ⲣⲁⲥⲧⲉ", "raste"],  // Ⲣⲁⲥⲧⲉ is the Sahidic word (Bohairic ⲣⲁⲥϯ); 'on the morrow' is ⲉⲣⲁⲥⲧⲉ or ⲛⲣⲁⲥⲧⲉ (Wiktionary). No image is recorded for it, so it counts as a word of its own.
-    arc: ["ܡܚܪ", "mħaːr"],  // Mḥār is the common Aramaic word for 'tomorrow', cognate with Hebrew māḥār (Wiktionary). Like Hebrew māḥār, probably built on the root of 'after'.
+    arc: ["מְחָר", "mħaːr"],
     aii: ["ܩܘܕܡܐ", "qudmeː"],  // Qudme is the word Iraqi Koine uses for 'tomorrow'; the literary word is ܡܚܵܪ, and some Urmian speakers use qudme for 'yesterday' too (Wiktionary). No image is recorded for it, so it counts as a word of its own.
     akk: ["𒌨𒊏𒄠", "urram"],  // Urram is the adverbial accusative of urrum 'daylight, daytime' (Wiktionary, CAD).
     nci: ["mōztla", "ˈmoːstɬa"],  // Molina's 1555 dictionary gives muztla for 'mañana después de hoy' (Wiktionary). No image is recorded for it, so it counts as a word of its own.

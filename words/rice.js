@@ -822,7 +822,7 @@ WORDS.rice = {
     txg: ["𘌐", "kʰie˧˥"],
     juc: ["bele", "bələ"],
     gez: ["ራዛ", "raːzaː"],
-    arc: ["ܪܘܙܐ", "ruzzaː"],
+    arc: ["אוּרְזָא", "ʔurzaː"],
     sog: ["ryzʾkh", "reːzaːk"],
     och: ["米", "*(C.)mˤ[e]jʔ"],
     sukh: ["ข้าว", "kʰaːw"],

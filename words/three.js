@@ -559,7 +559,7 @@ WORDS.three = {
     pi_edu: ["ti", "ti"],
     pmh: ["ति", "ti"],
     cop: ["ϣⲟⲙⲛⲧ", "ʃomənt"],
-    arc: ["ܬܠܬ", "tlaːθ"],
+    arc: ["תְּלָת", "tlaːθ"],
     amw: ["ܬܠܬܐ", "θlɒːθa"],
     aii: ["ܬܠܵܬܵܐ", "tˤlaːθa"],
     tru: ["ܬܠܬܐ", "tloθo"],

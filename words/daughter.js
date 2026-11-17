@@ -106,7 +106,7 @@ WORDS.daughter = {
     hbo: ["בת", "baθ"],
     he_mis: ["בת", "bat"],
     ar_qur: ["بنت", "bint"],
-    arc: ["ܒܪܬܐ", "bartaː"],
+    arc: ["בְּרַתָּא", "brattaː"],
     akk: ["𒈥𒌅", "maːrtu"],
     cop: ["ϣⲉⲉⲣⲉ", "ʃeːre"],
     p_dra: ["*makaḷ", "makaɭ"],

@@ -562,7 +562,7 @@ WORDS.blood = {
     pi_edu: ["lohita", "lohita"],
     pmh: ["रुहिर", "ruhira"],
     cop: ["ⲥⲛⲟϥ", "snof"],
-    arc: ["ܕܡܐ", "dmaː"],
+    arc: ["דְּמָא", "dmaː"],
     amw: ["ܐܙܡܐ", "ezma"],
     aii: ["ܕܡܵܐ", "dɪmma"],
     tru: ["ܐܕܡܐ", "admo"],

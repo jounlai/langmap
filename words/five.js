@@ -454,7 +454,7 @@ WORDS.five = {
     pi_edu: ["pañca", "paɲtʃa"],
     pmh: ["पंच", "paɲtʃa"],
     cop: ["ϯⲟⲩ", "tiu"],
-    arc: ["ܚܡܫ", "ħammeʃ"],
+    arc: ["חֲמֵשׁ", "ħameːʃ"],
     amw: ["ܚܡܫܐ", "ħamʃa"],
     aii: ["ܚܡܫܐ", "xamʃa"],
     tru: ["ܚܡܫܐ", "ħamʃo"],

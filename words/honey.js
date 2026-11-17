@@ -258,7 +258,7 @@ WORDS.honey = {
     akk: ["𒁲𒅖𒁍", "diʃpu"],
     hbo: ["דבש", "dəˈvaʃ"],
     he_mis: ["דבש", "dəvaʃ"],
-    arc: ["ܕܒܫܐ", "deβʃaː"],
+    arc: ["דִּבְשָׁא", "diβʃaː"],
     syc: ["ܕܒܫܐ", "deβʃaː"],
     ar_qur: ["عسل", "ʕasal"],
     mt: ["għasel", "ˈaːsɛl"],

@@ -414,7 +414,7 @@ WORDS.bird = {
     pi_edu: ["sakuṇa", "sakuɳa"],
     pmh: ["पक्खि", "pakːʰi"],
     cop: ["ϩⲁⲗⲏⲧ", "haˈleːt"],
-    arc: ["ܨܦܪܐ", "sˤefraː"],
+    arc: ["צִפְּרָא", "sˤippəraː"],
     aii: ["ܛܲܝܪܵܐ", "tˤajra"],
     sux: ["𒄷", "muʃen"],
     akk: ["𒅖𒍪𒊒", "isˤsˤuːru"],

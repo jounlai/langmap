@@ -629,7 +629,7 @@ WORDS.father = {
     pi_edu: ["pitā", "pitaː"],
     pmh: ["पिअर", "piara"],
     cop: ["ⲉⲓⲱⲧ", "ejoːt"],
-    arc: ["ܐܒܐ", "ʔabbaː"],
+    arc: ["אַבָּא", "ʔabbaː"],
     amw: ["ܒܒܐ", "babːaː"],
     aii: ["ܒܒܐ", "baba"],
     tru: ["ܒܒܐ", "babo"],

@@ -1467,7 +1467,7 @@ WORDS.bear = {
     hbo: ["דֹּב", "doːv"],
     cop: ["ⲗⲁⲃⲟⲓ", "laboj"], // was ["ⲗⲁⲃⲟⲓ", "laβɔj"] (vi dialect rules 2026-10-06)
     he_mis: ["דוב", "dov"],
-    arc: ["ܕܒܐ", "debbaː"], // was ["ܕܒܐ", "debaː"] (vi dialect rules 2026-10-06)
+    arc: ["דּוּבָּא", "dubbaː"],
     syc: ["ܕܒܐ", "debbaː"], // was ["ܕܒܐ", "debaː"] (vi dialect rules 2026-10-06)
     ar_qur: ["دب", "dubb"],
     gez: ["ድብ", "dəbb"],

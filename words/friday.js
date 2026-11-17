@@ -772,7 +772,7 @@ WORDS.friday = {
     non: ["frjádagr", "ˈfrjɑːdɑɣr"],  // Probably borrowed from Old Saxon *frīadag.
     goh: ["friatag", "ˈfriːataɡ"],  // Frigg's day, a calque of Latin diēs Veneris.
     cu: ["пѧтъкъ", "pɛ̃tŭkŭ"],  // From pętŭ "fifth".
-    arc: ["ܥܪܘܒܬܐ", "ʕaruvtaː"],  // Eve (of the Sabbath).
+    arc: ["עֲרוּבְתָּא", "ʕaruːβtaː"],
     syc: ["ܥܪܘܒܬܐ", "ʕəruvtaː"],  // Eve (of the Sabbath).
     gez: ["ዐርብ", "ʕarb"],  // Eve of the Sabbath; cognate with Aramaic ʿrūḇtā.
     hy_grab: ["ուրբաթ", "uɾbatʰ"],  // From Syriac ʿrūḇtā "eve".

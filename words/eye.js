@@ -625,7 +625,7 @@ WORDS.eye = {
     pi_edu: ["cakkhu", "tʃakːʰu"],
     pmh: ["अच्छि", "atʃːʰi"],
     cop: ["ⲃⲁⲗ", "bal"],
-    arc: ["ܥܝܢܐ", "ʕajnaː"],
+    arc: ["עֵינָא", "ʕeːnaː"],
     amw: ["ܥܝܢܐ", "ʕajna"],
     aii: ["ܥܝܢܐ", "ʕajna"],
     tru: ["ܥܝܢܐ", "ʕajno"],

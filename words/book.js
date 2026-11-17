@@ -191,7 +191,7 @@ WORDS.book = {
     ar_ma: ["كتاب", "ktab"],
     ar_tn: ["كتاب", "kteːb"],
     arq: ["كتاب", "ktaːb"],
-    arc: ["ܟܬܒܐ", "ktaːβaː"],
+    arc: ["סִפְרָא", "sifraː"],
     aii: ["ܟܬܵܒ݂ܵܐ", "kθaːwa"],
     cop: ["ϫⲱⲱⲙⲉ", "tʃoːme"],
     aa: ["kitab", "kitab"],

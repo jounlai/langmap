@@ -618,7 +618,7 @@ WORDS.house = {
     pi_edu: ["geha", "ɡeha"],
     pmh: ["घर", "ɡʱara"],
     cop: ["ⲏⲓ", "eːj"],
-    arc: ["ܒܝܬܐ", "bajtaː"],
+    arc: ["בֵּיתָא", "beːθaː"],
     amw: ["ܒܝܬܐ", "bajθa"],
     aii: ["ܒܝܬܐ", "ˈbeθa"],
     tru: ["ܒܝܬܐ", "bajto"],

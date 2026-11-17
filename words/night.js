@@ -556,7 +556,7 @@ WORDS.night = {
     pi_edu: ["ratti", "ratːi"],
     pmh: ["रत्ती", "ratːiː"],
     cop: ["ⲟⲩϣⲏ", "uʃeː"],
-    arc: ["ܠܠܝܐ", "leljaː"],
+    arc: ["לֵילְיָא", "leːljaː"],
     amw: ["ܠܠܝܐ", "lelja"],
     aii: ["ܠܸܠܝܵܐ", "lelja"],
     tru: ["ܠܠܝܐ", "laljo"],

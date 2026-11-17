@@ -1875,7 +1875,7 @@ const LANG_DATA = {
              note: "attested whole, in running text - the parable of the lost sheep. Written as one word, ⲡⲥⲧⲁⲓⲟⲩ 90 plus ⲯⲓⲥ 9 (Sahidic; Bohairic has ⲯⲓⲧ)" }
     },
 },
-  arc: { name: 'Aramaic', native: 'ܐܪܡܝܐ', lat: 33.51, lng: 36.29,
+  arc: { name: 'Aramaic', native: 'אֲרָמִית', lat: 32.79, lng: 35.53, // Tiberias (Jewish Aramaic, Targums)
 },
   // Western Neo-Aramaic (Maaloula Aramaic) — Afro-Asiatic Semitic Northwest Semitic Aramaic Western (the only surviving Western Aramaic variety; sister to Eastern Aramaic varieties such as Assyrian Neo-Aramaic aii, Chaldean Neo-Aramaic, Turoyo within the broader Aramaic continuum), ~3K (critically endangered — UNESCO critically endangered after the 2013-14 Syrian War battle of Maaloula displaced most speakers), Syria (Maaloula village, Bakhah, Jubb'adin in the Anti-Lebanon mountains north of Damascus); small post-2014 refugee diaspora (Lebanon, Germany, Sweden).
   // Sources: Ethnologue 27 'amw'; Glottolog west2466; Arnold (1989-91) Das Neuwestaramäische.

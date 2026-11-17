@@ -154,7 +154,6 @@ WORDS.sugar = {
     ja_kanbun: "tang",
     ota: "sharkara",
     sog: "sharkara",
-    arc: "sharkara",
     pal: "sharkara",
     hy_grab: "sharkara",
     es_sgl: "assukkar",
@@ -974,7 +973,7 @@ WORDS.sugar = {
     ja_kanbun: ["砂糖", "satoː"],
     ota: ["شكر", "ʃeˈkeɾ"],
     sog: ["skkry", "sakkareː"],
-    arc: ["ܫܟܪ", "ʃekkar"],
+    arc: ["—", "—"],
     pal: ["𐭱𐭪𐭥", "ʃakar"],
     hy_grab: ["շաքար", "ʃakʰaɾ"], // was ["շաքար", "ʃɑkʰɑr"] (vi dialect rules 2026-10-06)
     es_sgl: ["açúcar", "aˈtsukaɾ"],

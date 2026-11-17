@@ -858,7 +858,7 @@ WORDS.king = {
     pi_edu: ["rājā", "raːdʒaː"],  // Stem rājan, from Sanskrit rājan.
     sa_edu: ["राजा", "ɾaːdʑaː"],  // From Proto-Indo-European *h₃rḗǵs.
     h_vedic: ["राजा", "ɾáːdʑaː"],  // Rigveda rā́jan.
-    arc: ["ܡܠܟܐ", "malkaː"],  // From Proto-Semitic *malk-.
+    arc: ["מַלְכָּא", "malkaː"],
     oar: ["מלכא", "malkaː"],  // From Proto-Semitic *malk-.
     myz: ["ࡌࡀࡋࡊࡀ", "malka"],  // From Proto-Semitic *malk-.
     phn: ["𐤌𐤋𐤊", "milk"],  // From Proto-Semitic *malk-.

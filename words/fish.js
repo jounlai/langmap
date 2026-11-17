@@ -562,7 +562,7 @@ WORDS.fish = {
     pi_edu: ["maccha", "matʃːʰa"],
     pmh: ["मच्छ", "matʃːʰa"],
     cop: ["ⲧⲃⲧ", "təbt"],
-    arc: ["ܢܘܢܐ", "nuːnaː"],
+    arc: ["נוּנָא", "nuːnaː"],
     amw: ["—", "—"],
     aii: ["ܢܘܢܐ", "nuna"],
     tru: ["ܢܘܢܐ", "nuno"],

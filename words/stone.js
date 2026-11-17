@@ -426,7 +426,7 @@ WORDS.stone = {
     pi_edu: ["pāsāṇa", "paːsaːɳa"],
     pmh: ["पासाण", "paːsaːɳa"],
     cop: ["ⲱⲛⲉ", "oːne"],
-    arc: ["ܐܒܢܐ", "ʔaβnaː"],
+    arc: ["אַבְנָא", "ʔaβnaː"],
     aii: ["ܟܐܦܐ", "ˈkeːpa"],
     tru: ["ܟܐܦܐ", "kefo"],
     sux: ["𒎎", "na"],

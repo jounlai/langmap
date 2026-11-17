@@ -199,7 +199,7 @@ WORDS.hundred = {
     ar_qur: ["مائة", "miʔa"],
     hbo: ["מאה", "meːˈʔɔː"],
     he_mis: ["מאה", "meˈʔa"],
-    arc: ["ܡܐܐ", "maː"],
+    arc: ["מְאָה", "məʔaː"],
     syc: ["ܡܐܐ", "maː"],
     oar: ["מאה", "maː"],
     phn: ["𐤌𐤀𐤕", "miʔat"],

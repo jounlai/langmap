@@ -618,7 +618,7 @@ WORDS.fire = {
     pi_edu: ["aggi", "aɡːi"],
     pmh: ["अग्गि", "aɡːi"],
     cop: ["ⲕⲣⲱⲙ", "kroːm"],
-    arc: ["ܢܘܪܐ", "nuːraː"],
+    arc: ["אֶשָּׁתָא", "ʔeʃʃaːθaː"],
     amw: ["—", "—"],
     aii: ["ܢܘܪܐ", "nura"],
     tru: ["ܢܘܪܐ", "nuro"],

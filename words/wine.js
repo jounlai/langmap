@@ -1279,7 +1279,7 @@ WORDS.wine = {
     hbo: ["יין", "ˈjajin"],
     he_mis: ["יין", "ˈjajin"],
     uga: ["𐎊𐎐", "jeːnu"], // was ["𐎊𐎐", "jenu"] (vi dialect rules 2026-10-06)
-    arc: ["ܚܡܪܐ", "ħamraː"],  // Aramaic ḥamrā, from the root ḥ-m-r, the cognate of Arabic ḵamr (Wiktionary); not *wayn-.
+    arc: ["חַמְרָא", "ħamraː"],
     ar_qur: ["خمر", "xamr"],  // Arabic ḵamr, the verbal noun of ḵamara 'to ferment, to cover' (Wiktionary); a native Semitic root, not *wayn-.
     gez: ["ወይን", "wajn"], // was ["ወይን", "wɐjn"] (vi dialect rules 2026-10-06)
     akk: ["𒅗𒊏𒉡", "karaːnu"],  // Akkadian karānu 'wine, grapevine', a word of its own; not a reflex of *wayn-.

@@ -625,7 +625,7 @@ WORDS.drink = {
     pi_edu: ["pivati", "pivati"],
     pmh: ["पिब", "piba"],
     cop: ["ⲥⲱ", "soː"],
-    arc: ["ܫܬܐ", "ʃtaː"],
+    arc: ["שְׁתִי", "ʃtiː"],
     amw: ["ܫܬܐ", "ʃetaː"],
     aii: ["ܫܬܐ", "ʃate"],
     tru: ["ܫܬܐ", "ʃote"],

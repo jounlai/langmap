@@ -626,7 +626,7 @@ WORDS.tree = {
     pi_edu: ["rukkha", "rukːʰa"],
     pmh: ["रुक्ख", "rukːʰa"],
     cop: ["ϣⲏⲛ", "ʃeːn"],
-    arc: ["ܐܝܠܢܐ", "ʔiːlaːnaː"],
+    arc: ["אִילָנָא", "ʔiːlaːnaː"],
     amw: ["ܐܝܠܢܐ", "elona"],
     aii: ["ܐܝܠܢܐ", "ilana"],
     tru: ["ܐܝܠܢܐ", "ilono"],

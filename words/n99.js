@@ -797,6 +797,7 @@ WORDS.n99 = {
     el_koi: "dec",
     la_late: "sub",
     vi_mid: "mult",
+    arc: "plural",
   },
   routes: {
     dec: {
@@ -1607,5 +1608,6 @@ WORDS.n99 = {
     el_koi: ["ἐνενήκοντα ἐννέα", "eneˈne̝konta enˈnea"],
     la_late: ["undecentum", "undeˈkʲɛnto"],
     vi_mid: ["chín mươi chín", "cin˧˥ mɨəj˧ cin˧˥"],
+    arc: ["תִּשְׁעִין וּתְשַׁע", "tiʃʕiːn uθʃaʕ"],
   }
 };

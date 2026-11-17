@@ -979,7 +979,7 @@ WORDS.language = {
     sa_edu: ["भाषा", "bʱaːʂaː"],  // From bhāṣ "to speak".
     h_vedic: ["वाक्", "ʋáːk"],  // vāc "speech, voice", the Vedic goddess of speech.
     cop: ["ⲁⲥⲡⲉ", "ˈaspə"],  // From Egyptian jspt "language".
-    arc: ["ܠܫܢܐ", "leʃʃaːnaː"],  // Also "tongue".
+    arc: ["לִישָׁנָא", "liʃʃaːnaː"],
     syc: ["ܠܫܢܐ", "leʃʃaːnaː"],  // Also "tongue".
     sux: ["𒅴", "eme"],  // Also "tongue".
     akk: ["𒇷𒊭𒉡", "liʃaːnu"],  // Also "tongue".

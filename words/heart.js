@@ -626,7 +626,7 @@ WORDS.heart = {
     pi_edu: ["hadaya", "hadaja"],
     pmh: ["हिअय", "hiaja"],
     cop: ["ϩⲏⲧ", "heːt"],
-    arc: ["ܠܒܐ", "lebbaː"],
+    arc: ["לִבָּא", "libbaː"],
     amw: ["ܠܒܐ", "lebaː"],
     aii: ["ܠܒܐ", "libba"],
     tru: ["ܠܒܐ", "lebo"],

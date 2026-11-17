@@ -788,7 +788,7 @@ WORDS.thousand = {
     to: ["afe", "afe"],  // From Proto-Polynesian *afe, like Samoan afe.
     otk: ["𐰋𐰃𐰭", "biŋ"],  // Inherited from Proto-Turkic *bïŋ, like Turkish bin.
     txb: ["𑀬𑀮𑁆𑀢𑁆𑀲𑁂", "jaltse"],  // Tocharian B yaltse; compare Tocharian A wälts. No image is recorded for it, so it counts as a word of its own.
-    arc: ["ܐܠܦܐ", "ʔalpaː"],  // Classical Syriac ʾalpā, a cognate of Arabic alf and Hebrew elef.
+    arc: ["אַלְפָא", "ʔalpaː"],
     arn: ["waranka", "waɾaŋka"],  // No origin is recorded for it, so it counts as a word of its own.
     bpy: ["হাজার", "hadʒar"],  // The Persian loan hazār, as in Bengali হাজার.
     cop: ["ϣⲟ", "ʃoʔ"],  // From Demotic ḫꜣ, from Egyptian ḫꜣ 'thousand'.

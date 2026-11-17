@@ -626,7 +626,7 @@ WORDS.good = {
     pi_edu: ["kusala", "kusala"],
     pmh: ["साहु", "saːhu"],
     cop: ["ⲁⲅⲁⲑⲟⲥ", "aɡatʰos"],
-    arc: ["ܛܒܐ", "tˤaːβaː"],
+    arc: ["טָב", "tˤaːβ"],
     amw: ["ܛܒܐ", "tˤaːβa"],
     aii: ["ܛܒܐ", "tˤaːwa"],
     tru: ["ܛܒܐ", "tˤobo"],

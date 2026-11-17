@@ -625,7 +625,7 @@ WORDS.hand = {
     pi_edu: ["hattha", "hatːʰa"],
     pmh: ["हत्थ", "hatːʰa"],
     cop: ["ϭⲓϫ", "tʃitʃ"],
-    arc: ["ܐܝܕܐ", "ʔiːðaː"],
+    arc: ["יְדָא", "jəðaː"],
     amw: ["ܐܝܕܐ", "iða"],
     aii: ["ܐܝܕܐ", "iːða"],
     tru: ["ܐܝܕܐ", "iðo"],

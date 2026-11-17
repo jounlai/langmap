@@ -626,7 +626,7 @@ WORDS.i = {
       pi_edu: ["ahaṃ", "ahaŋ"],
       pmh: ["अहं", "ahan"],
       cop: ["ⲁⲛⲟⲕ", "aˈnok"],
-      arc: ["ܐܢܐ", "ʔanaː"],
+      arc: ["אֲנָא", "ʔanaː"],
       amw: ["ܐܢܐ", "ana"],
       aii: ["ܐܵܢܵܐ", "ˈʔaːna"],
       tru: ["ܐܢܐ", "ono"],

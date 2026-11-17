@@ -173,7 +173,7 @@ WORDS.sea = {
     ar_gulf: ["بحر", "ˈbaħar"],
     ar_ma: ["بحر", "bħar"],
     ar_tn: ["بحر", "bħar"],
-    arc: ["ܝܡܐ", "jammaː"],
+    arc: ["יַמָּא", "jammaː"],
     arn: ["ḻafkeṉ", "l̪afken̪"],
     arq: ["بحر", "bħar"],
     as: ["সাগৰ", "xaɡɔɹ"],

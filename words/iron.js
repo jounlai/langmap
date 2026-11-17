@@ -100,7 +100,7 @@ WORDS.iron = {
     hit: ["𒄩𒉺𒀠𒆠", "xapalki"],
     cop: ["ⲃⲉⲛⲓⲡⲉ", "benipe"],
     egy: ["𓃀𓇋𓄿𓈖𓊪𓏏𓇯", "bia en pet"],
-    arc: ["ܦܪܙܠܐ", "parzlaː"],
+    arc: ["פַּרְזְלָא", "parzəlaː"],
     hbo: ["ברזל", "barˈzɛl"],
     he_mis: ["ברזל", "barˈzel"],
     ar_qur: ["حديد", "ħadiːd"],

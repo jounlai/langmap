@@ -254,7 +254,6 @@ WORDS.kiss = {
     goh: "kus",
     osx: "kus",
     cop: "plain",
-    arc: "plain",
     psem: "plain",
     fa_clas: "bosa",
     fro: "basium",
@@ -520,7 +519,6 @@ WORDS.kiss = {
     goh: ["kus", "kus"],  // From Proto-West Germanic *koss.
     osx: ["kus", "kus"],  // From Proto-West Germanic *koss.
     cop: ["ⲡⲓ", "pi"],
-    arc: ["ܢܘܫܩܬܐ", "nuːʃqəθaː"],  // From the root nšq "to kiss".
     psem: ["*našaḳ-", "naʃaqʼ"],  // The verb "to kiss" (no noun reconstructed).
     fa_clas: ["بوسه", "boːsa"],
     fro: ["baisier", "bajˈzjer"],  // The infinitive used as a noun; from Latin bāsiāre.

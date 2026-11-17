@@ -809,7 +809,7 @@ WORDS.window = {
     vls: ["veister", "ˈveːstər"],  // From Middle Dutch veinster, from Latin fenestra.
     gcf: ["finèt", "finɛt"],  // From French fenêtre.
     txb: ["𑀧𑀢𑁆𑀲𑁆𑀢𑁆𑀲𑀸𑀗𑁆𑀓𑁆", "patstsaːŋk"],  // Tocharian B patstsāṅk 'window'. No image is recorded for it, so it counts as a word of its own.
-    arc: ["ܟܘܬܐ", "kawwəθaː"],  // Classical Syriac kawwəṯā 'window, opening'; compare Arabic كوة.
+    arc: ["כַּוְּתָא", "kawwəθaː"],
     wuu_sz: ["窗", "tsʰɑ̃˦˦"],  // The plain Chinese word for a window.
     wuu_nb: ["窗门", "tsʰɔ̃˥˨ məŋ˧˩˧"],  // 窗 'window' with 门 'door', the usual word in this dialect.
     wuu_hz: ["窗", "tsʰʮæ̃˧˧"],  // The plain Chinese word for a window.

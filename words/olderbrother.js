@@ -978,7 +978,7 @@ WORDS.olderbrother = {
     la: ["frāter", "ˈfraːter"],  // Latin frāter was any brother; an older one was frāter māior, 'the greater brother'.
     ang: ["brōþor", "ˈbroːθor"],  // Old English said ielder brōþor, 'elder brother', and geonger brōþor (IDS); there was no separate word.
     en_em: ["brother", "ˈbrʊðər"],  // Brother covered older and younger brothers alike; age was added with an adjective.
-    arc: ["ܐܚܐ", "ʔaħaː"],  // Aramaic said ʾaḥā rabbā, 'big brother', and ʾaḥā zʿērā, 'small brother'; there was no separate word.
+    arc: ["אֲחָא", "ʔaħaː"],
     ja_kanbun: ["兄", "ani"],  // In kanbun reading 兄 is read あに, the elder brother, as against 弟 おとうと, the younger.
     vi_nom: ["英", "aɲ˧"],  // Vietnamese anh, written 英 in Nôm, is an elder brother; a younger one is em trai, 'male younger sibling'.
     ce: ["ваша", "u̯aʃa"],  // Chechen has no separate word: an older brother is воккхаха волу ваша, 'the brother who is bigger'.

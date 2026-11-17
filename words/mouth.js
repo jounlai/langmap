@@ -294,7 +294,7 @@ WORDS.mouth = {
     ar_ma: ["فم", "fumː"],
     ar_ps: ["تم", "timm"],
     ar_sy: ["تم", "timː"],
-    arc: ["ܦܘܡܐ", "puːmaː"],
+    arc: ["פּוּמָא", "puːmaː"],
     arn: ["wüṉ", "wɨn̪"],
     as: ["মুখ", "mukʰ"],
     ast: ["boca", "ˈboka"],

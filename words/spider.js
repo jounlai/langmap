@@ -422,7 +422,7 @@ WORDS.spider = {
     ar_qur: "ankabut",
     el_grc: "aranea",
     en_em: "spin",
-    arc: "plain",
+    arc: "ankabut",
     p_jpn: "plain",
     pmay: "plain",
     txb: "spin",
@@ -903,7 +903,7 @@ WORDS.spider = {
     ar_qur: ["عنكبوت", "ʕankabuːt"],  // Quran 29:41, the sura al-ʿAnkabūt.
     el_grc: ["ἀράχνης", "arákʰnɛːs"],  // Also ἀράχνη.
     en_em: ["spider", "ˈspəidər"],  // From Old English spīþra, from *spinnaną "to spin".
-    arc: ["ܓܘܓܝ", "ɡəwaːɣaj"],
+    arc: ["עַכּוֹבִיתָא", "ʕakkoːβiːθaː"],
     p_jpn: ["*konpo", "konpo"],
     pmay: ["*ʔam", "ʔam"],
     txb: ["𑀬𑀧𑁂", "jape"],  // From Proto-Indo-European *webʰ- "to weave".

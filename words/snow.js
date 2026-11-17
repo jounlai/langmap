@@ -435,7 +435,7 @@ WORDS.snow = {
     pi: ["हिम", "hima"],
     pi_edu: ["hima", "hima"],
     pmh: ["हिम", "hima"],
-    arc: ["ܬܠܓܐ", "talɡaː"],
+    arc: ["תַּלְגָּא", "talɡaː"],
     aii: ["ܬܲܠܓܵܐ", "talɡa"],
     tru: ["ܬܠܓܐ", "talɡo"],
     akk: ["𒊭𒀠𒄖", "ʃalɡu"],

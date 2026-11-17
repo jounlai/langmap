@@ -619,7 +619,7 @@ WORDS.water = {
     pi_edu: ["udaka", "udaka"],
     pmh: ["उदग", "udaɡa"],
     cop: ["ⲙⲟⲟⲩ", "moːu"],
-    arc: ["ܡܝܐ", "majjaː"],
+    arc: ["מַיָּא", "majjaː"],
     amw: ["ܡܘܝܐ", "moːja"],
     aii: ["ܡܝܐ", "ˈmijja"],
     tru: ["ܡܝܐ", "maje"],

@@ -927,7 +927,7 @@ WORDS.husband = {
     pi: ["पति", "pati"],  // Also "lord, master".
     sa_edu: ["पतिः", "pɐtih"],  // Also "lord, master".
     h_vedic: ["पतिः", "pɐ́tiɦ"],  // Also "lord, master"; from Proto-Indo-European *pótis.
-    arc: ["ܒܥܠܐ", "baʕlaː"],  // Also "lord, owner".
+    arc: ["בַּעְלָא", "baʕlaː"],
     syc: ["ܒܥܠܐ", "baʕlaː"],  // Also "lord, owner".
     phn: ["𐤁𐤏𐤋", "baʕl"],  // Also "lord, owner".
     psem: ["*baʕl-", "baʕl"],  // Husband, master, lord.

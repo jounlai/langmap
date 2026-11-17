@@ -100,7 +100,7 @@ WORDS.salt = {
     psem: ["*milḥ-", "milħ"],
     hbo: ["מלח", "ˈmɛlaħ"],
     he_mis: ["מלח", "ˈmelaħ"],
-    arc: ["ܡܠܚܐ", "melħaː"],
+    arc: ["מִלְחָא", "milħaː"],
     ar_qur: ["ملح", "milħ"],
     gez: ["ጼው", "sˤeːw"],
     cop: ["ϩⲙⲟⲩ", "hmu"],

@@ -617,7 +617,7 @@ WORDS.sun = {
     pi_edu: ["suriya", "surija"],
     pmh: ["सूर", "suːra"],
     cop: ["ⲣⲏ", "reː"],
-    arc: ["ܫܡܫܐ", "ʃemʃaː"],
+    arc: ["שִׁמְשָׁא", "ʃimʃaː"],
     amw: ["ܫܡܫܐ", "ʃimʃa"],
     aii: ["ܫܡܫܐ", "ˈʃimʃa"],
     tru: ["ܫܡܫܐ", "ʃəmʃo"],

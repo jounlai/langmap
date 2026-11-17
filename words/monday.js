@@ -619,7 +619,6 @@ WORDS.monday = {
     ofs: "moon",
     osp: "moon",
     orv: "after",
-    arc: "count",
     cop: "count",
     kmc: "count",
     mlm: "count",
@@ -1208,7 +1207,6 @@ WORDS.monday = {
     ofs: ["mōnadei", "ˈmoːnadei"],  // 'The moon's day', from West Germanic *mānini dag, a calque of Latin diēs Lūnae; modern West Frisian moandei.
     osp: ["lunes", "ˈlunes"],  // From Latin Lūnae diēs, the Moon's day.
     orv: ["понедѣльникъ", "ponedælʲnikŭ"],  // Po- 'after' + nedělja, the old word for Sunday: 'the day after Sunday'.
-    arc: ["ܬܪܝܢ ܒܫܒܐ", "treːn bʃabbaː"],  // 'Two in the week': the days are counted from the Sabbath (Comprehensive Aramaic Lexicon).
     cop: ["ⲡⲉⲥⲛⲁⲩ", "pesnau"],  // 'The two', ⲥⲛⲁⲩ 'two' with the article: the second day of the week (Coptic Dictionary Online).
     kmc: ["ɕən33 tɕhi212 ji212", "ɕən˧˧ tɕʰi˨˩˨ ji˨˩˨"],  // Matches Chinese 星期一 xīngqīyī 'week-one'.
     mlm: ["li3 pa:i4 ji2", "li˥˧ paːi˨˦ ji˩˨˩"],  // Matches Chinese 禮拜一 lǐbàiyī 'week-one'.

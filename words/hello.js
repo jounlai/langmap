@@ -622,7 +622,7 @@ WORDS.hello = {
     pi_edu: ["namo", "namo"],
     pmh: ["—", "—"],
     cop: ["ⲭⲁⲓⲣⲉ", "xaire"],
-    arc: ["ܫܠܡܐ", "ʃlaːmaː"],
+    arc: ["שְׁלָם", "ʃlaːm"],
     amw: ["ܫܠܡܐ", "ʃloːma"],
     aii: ["ܫܠܡܐ", "ˈʃlaːma"],
     tru: ["ܫܠܡܐ", "ʃlomo"],

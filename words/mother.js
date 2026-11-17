@@ -618,7 +618,7 @@ WORDS.mother = {
     pi_edu: ["mātā", "maːtaː"],
     pmh: ["माया", "maːjaː"],
     cop: ["ⲙⲁⲁⲩ", "maːu"],
-    arc: ["ܐܡܐ", "ʔemmaː"],
+    arc: ["אִמָּא", "ʔimmaː"],
     amw: ["ܐܡܐ", "emːa"],
     aii: ["ܝܡܐ", "ˈjimma"],
     tru: ["ܐܡܐ", "emo"],

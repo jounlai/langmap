@@ -811,7 +811,7 @@ WORDS.monkey = {
     pi_edu: ["vānara", "vaːnara"],  // The "forest one", like Sanskrit vānara.
     sa_edu: ["वानर", "ʋaːnɐɾɐ"],  // The "forest one", from vana "forest".
     h_vedic: ["कपि", "kɐpí"],  // A Wanderwort shared with Hebrew qōf; Rigveda 10.86 Vṛṣākapi.
-    arc: ["ܩܘܦܐ", "qoːfaː"],  // Compare Hebrew qōf.
+    arc: ["קוֹפָא", "qoːfaː"],
     hbo: ["קוף", "qoːf"],  // 1 Kings 10:22 (qōp̄îm "apes").
     hy_grab: ["կապիկ", "kapik"],  // From Middle Iranian *kapīk.
     fa_clas: ["بوزینه", "buːziːna"],  // Inherited Iranian word; Russian обезьяна comes from it.

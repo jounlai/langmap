@@ -1703,7 +1703,7 @@ WORDS.we = {
     pi_edu: ["mayaṃ", "majaŋ"], // was ["mayaṃ", "mɐˈjɐŋ"] (vi dialect rules 2026-10-06)
     pmh: ["अम्हे", "amhe"],
     cop: ["ⲁⲛⲟⲛ", "aˈnon"],
-    arc: ["ܐܢܚܢܢ", "ʔanaħnan"],
+    arc: ["אֲנַחְנָא", "ʔanaħnaː"],
     amw: ["ܐܢܚ", "anaħ"],
     aii: ["ܐܲܚܢܲܢ", "ˈʔaxnan"],
     tru: ["ܐܚܢܐ", "aħna"],

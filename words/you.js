@@ -626,7 +626,7 @@ WORDS.you = {
       pi_edu: ["tvaṃ", "tvaŋ"],
       pmh: ["तुमं", "tuman"],
       cop: ["ⲛⲧⲟⲕ", "ənˈtok"],
-      arc: ["ܐܢܬ", "ʔatt"],
+      arc: ["אַתְּ", "ʔatt"],
       amw: ["ܚܐܟ", "ħatʃ"],
       aii: ["ܐܲܢ݉ܬ", "ʔat"],
       tru: ["ܗܬ", "hat"],

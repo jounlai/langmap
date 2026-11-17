@@ -833,7 +833,7 @@ WORDS.silk = {
     gha: ["elḫarir", "ɐlħarir"],  // From Arabic al-ḥarīr (Lanfry marks it ar.).
     siz: ["əlaħrir", "əlaʜrir"],  // Borrowed from Arabic ḥarīr.
     ofs: ["sīde", "ˈsiːde"],  // The ancestor of West Frisian side, from Proto-Germanic *sīdǭ.
-    arc: ["ܫܐܪܝܐ", "ʃeːʔraːjaː"],  // Šēʾrāyā, found in Babylonian and Samaritan Aramaic and in Syriac (Comprehensive Aramaic Lexicon).
+    arc: ["—", "—"],
     zdj: ["hariri", "hariri"],  // From Arabic ḥarīr 'silk', as in Swahili hariri.
     cop: ["ϣⲉⲛⲥ", "ʃens"],  // Coptic for silk.
     kim: ["торғу", "torɣu"],  // Tofa, glossed «шёлк, шёлковый» in Rassadin's dictionary.

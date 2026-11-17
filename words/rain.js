@@ -331,7 +331,7 @@ WORDS.rain = {
     hbo: ["גשם", "ˈɡɛʃɛm"],
     he_mis: ["גשם", "ˈɡeʃem"],
     mt: ["xita", "ˈʃɪta"],
-    arc: ["ܡܛܪܐ", "metˤraː"],
+    arc: ["מִטְרָא", "mitˤraː"],
     syc: ["ܡܛܪܐ", "metˤraː"],
     phn: ["𐤌𐤈𐤓", "matˤar"],
     uga: ["𐎎𐎉𐎗", "matˤaru"],

@@ -911,7 +911,7 @@ WORDS.bread = {
     non: ["brauð", "brɑuð"],  // From Proto-Germanic *braudą.
     goh: ["brot", "broːt"],  // From Proto-West Germanic *braud.
     cu: ["хлѣбъ", "xlæbŭ"],  // From Proto-Germanic *hlaibaz.
-    arc: ["ܠܚܡܐ", "laħmaː"],  // Compare Hebrew leḥem, Arabic laḥm "meat".
+    arc: ["לַחְמָא", "laħmaː"],
     myz: ["ࡋࡄࡀࡌࡀ", "lahma"],  // Compare Hebrew leḥem.
     uga: ["𐎍𐎈𐎎", "laħmu"],  // Compare Hebrew leḥem.
     hbo: ["לחם", "ˈlɛħɛm"],  // Genesis 3:19.

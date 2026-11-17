@@ -399,7 +399,6 @@ WORDS.island = {
     ofs: "water",
     pi: "dvipa",
     pi_edu: "dvipa",
-    arc: "plain",
     p_jpn: "plain",
     ptrk: "ada",
     pmng: "aral",
@@ -861,7 +860,6 @@ WORDS.island = {
     ofs: ["aland", "ˈaland"],  // From Proto-Germanic *awjōlandą "land in the water".
     pi: ["दीप", "diːpa"],  // From Sanskrit dvīpa.
     pi_edu: ["dīpa", "diːpa"],  // From Sanskrit dvīpa.
-    arc: ["ܓܙܪܬܐ", "ɡaːzartaː"],  // Compare Arabic jazīra.
     p_jpn: ["*sima", "sima"],  // Possibly related to Baekje *syema and Middle Korean syem.
     ptrk: ["*ātag", "aːtaɡ"],
     pmng: ["*aral", "aral"],

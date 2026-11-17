@@ -889,7 +889,7 @@ WORDS.elephant = {
     pi_edu: ["hatthī", "hatːʰiː"],  // With a hand (the trunk); stem hatthin, from Sanskrit hastin.
     sa_edu: ["गजः", "ɡɐdʑɐh"],  // Of uncertain origin.
     h_vedic: ["हस्ती", "ɦɐstíː"],  // Having a hand (the trunk), from hásta "hand"; Rigveda mṛgá hastín.
-    arc: ["ܦܝܠܐ", "piːlaː"],  // Shared across the ancient Near East; compare Akkadian pīru.
+    arc: ["פִּילָא", "piːlaː"],
     akk: ["𒄠𒋛", "piːru"],  // Written AM.SI; the source of Middle Persian pīl.
     ptai: ["*ɟaːŋ", "ɟaːŋ"],  // From Early Middle Chinese 象 (Pittayaporn 2009).
     pban: ["*njògù", "njòɡù"],  // Source of Swahili ndovu, Zulu indlovu.

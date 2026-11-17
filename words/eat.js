@@ -625,7 +625,7 @@ WORDS.eat = {
     pi_edu: ["bhuñjati", "bʱuɲdʒati"],
     pmh: ["खा", "kʰaː"],
     cop: ["ⲟⲩⲱⲙ", "uoːm"],
-    arc: ["ܐܟܠ", "ʔaːχel"],
+    arc: ["אֲכַל", "ʔaχal"],
     amw: ["ܐܟܠ", "iʔχel"],
     aii: ["ܐܟܠ", "axil"],
     tru: ["ܐܟܠ", "oxulo"],

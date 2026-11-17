@@ -559,7 +559,7 @@ WORDS.red = {
     pi_edu: ["ratta", "ratːa"],
     pmh: ["रत्त", "ratːa"],
     cop: ["ⲧⲣⲟϣⲣⲉϣ", "troʃreʃ"],
-    arc: ["ܣܘܡܩܐ", "sumqaː"],
+    arc: ["סִמּוֹק", "simmoːq"],
     amw: ["ܣܡܩܐ", "smaqa"],
     aii: ["ܣܡܘܩܐ", "smuqa"],
     tru: ["ܣܡܘܩܐ", "semoqo"],

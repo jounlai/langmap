@@ -109,7 +109,7 @@ WORDS.milk = {
     akk: ["𒅆𒅖𒁍", "ʃizbu"],
     hbo: ["חלב", "ħɔːˈlɔːv"],
     he_mis: ["חלב", "ħaˈlav"],
-    arc: ["ܚܠܒܐ", "ħalbaː"],
+    arc: ["חַלְבָּא", "ħalbaː"],
     ar_qur: ["لبن", "laban"],
     gez: ["ሐሊብ", "ħaliːb"],
     cop: ["ⲉⲣⲱⲧⲉ", "eroːte"],

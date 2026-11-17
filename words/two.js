@@ -626,7 +626,7 @@ WORDS.two = {
       pi_edu: ["dve", "dve"],
       pmh: ["दो", "do"],
       cop: ["ⲥⲛⲁⲩ", "snau"],
-      arc: ["ܬܪܝܢ", "treːn"],
+      arc: ["תְּרֵין", "treːn"],
       amw: ["ܐܬܪ", "ʔeθər"],
       aii: ["ܬܪܹܝܢ", "treːn"],
       tru: ["ܬܪܐ", "tre"],

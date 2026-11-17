@@ -741,7 +741,7 @@ WORDS.week = {
     nmn: ["bìikì", "biiki"],  // From English or Afrikaans week.
     lol: ["eyenga", "ejeŋɡa"],  // No image is recorded for it, so it counts as a word of its own.
     osx: ["wika", "ˈwika"],  // From Proto-Germanic *wikǭ 'turn, succession, change, week'.
-    arc: ["ܫܒܘܥܐ", "ʃaːβoːʕaː"],  // Classical Syriac, derived from ܫܒܥܐ šaḇʿā 'seven', like Hebrew שבוע.
+    arc: ["שְׁבוּעֲתָא", "ʃβuːʕaθaː"],
     nrf_gg: ["s'môine", "smɔin"],  // From Late Latin septimāna, from septimus 'seventh'.
     frr_amr: ["weg", "vɛç"],  // From Old Frisian wike, the old Germanic week word.
     ada: ["otsi", "otsi"],  // No image is recorded for it, so it counts as a word of its own.

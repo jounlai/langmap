@@ -1202,7 +1202,7 @@ WORDS.thumb = {
     zh_tang: ["拇指", "məw tɕi"],  // 拇 is itself 'thumb, big toe'; modern Mandarin adds 大 'big'.
     osp: ["pulgar", "pulˈɣaɾ"],  // From Latin pollicāris 'of the thumb', from pollex.
     syc: ["ܟܪܬܐ", "kraːtaː"],  // Krātā, a Syriac word for the thumb (Comprehensive Aramaic Lexicon). No image is recorded for it, so it counts as a word of its own.
-    arc: ["ܐܠܝܘܢܐ", "ʔiljoːnaː"],  // ʾIlyōnā, also the big toe; Targum Onkelos uses it for the thumb of the right hand in Exodus 29:20 (Comprehensive Aramaic Lexicon). No image is recorded for it, so it counts as a word of its own.
+    arc: ["אִלְיוֹנָא", "ʔiljoːnaː"],
     cop: ["ⲉⲓⲛⲉ", "iːne"],  // Also the big toe; Bohairic ⲓⲛⲓ (Coptic Dictionary Online, after Crum). No image is recorded for it, so it counts as a word of its own.
     ko_kp: ["엄지손가락", "ʌmdʑisonk͈aɾak̚"],  // 엄지 'thumb' + 손가락 'finger', as in the South; no source explains 엄지.
     ja_osa: ["親指", "ojajɯbi"],  // Literally 'parent finger'; the big toe is 足の親指, 'the foot's parent finger'. The national word, which Osaka speech uses as well.

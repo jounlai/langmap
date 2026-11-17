@@ -1178,7 +1178,7 @@ WORDS.snake = {
     pi_edu: ["sappa", "sapːa"],  // From Sanskrit sarpa "the creeper".
     sa_edu: ["सर्पः", "sɐɾpɐh"],  // From sṛp "to creep".
     h_vedic: ["अहिः", "ɐ́hiɦ"],  // Rigveda Ahi, the serpent slain by Indra; from Proto-Indo-European *h₁ógʷʰis.
-    arc: ["ܚܘܝܐ", "ħewjaː"],  // Compare Arabic ḥayya.
+    arc: ["חִוְיָא", "ħiwjaː"],
     sux: ["𒈲", "muʃ"],
     p_ine: ["*h₁ógʷʰis", "h₁ógʷʰis"],
     p_jpn: ["*paimpi", "paimpi"],  // Possibly cognate with Middle Korean poyyam.

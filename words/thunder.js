@@ -1468,7 +1468,7 @@ WORDS.thunder = {
     ofs: ["thuner", "ˈθuner"],  // Inherited from West Germanic *þunr, like Old English þunor.
     hy_grab: ["որոտ", "oɾot"],  // Of uncertain origin, perhaps from a root 'to hit' like Slavic Perun.
     osp: ["tronido", "tɾoˈnido"],  // Metathesised from earlier tonidro, from Latin tonitrus.
-    arc: ["ܪܥܡܐ", "raʕmaː"],  // From the Semitic root r-ʕ-m 'to thunder', like Hebrew רעם.
+    arc: ["רַעְמָא", "raʕmaː"],
     uga: ["𐎅𐎄", "haddu"],  // Haddu is also the storm god Hadad, the Baal of the Ugaritic myths; from Proto-Semitic *hadad- 'thunder'.
     fa_clas: ["تندر", "tundar"],  // Inherited from Proto-Iranian *tánHtā; the Arabic loan رعد later became the everyday word.
     mga: ["toirnech", "ˈtorʲnʲex"],  // A derivative of Old Irish torann 'thunder', from Proto-Celtic *toranos; the ancestor of Irish toirneach (eDIL).

@@ -73,7 +73,7 @@ Total: 1201 codes.
 | `ar_sy` | Syrian Arabic | シリア・アラビア語 | Semitic | ~5M |
 | `ar_tn` | Tunisian Arabic | チュニジア・アラビア語 | Semitic | ~12M |
 | `ar_ye` | Yemeni Arabic | イエメン・アラビア語 | Semitic | ~30–40M |
-| `arc` | Aramaic | アラム語 | Semitic | ~500K (modern dialects) |
+| `arc` | Aramaic | アラム語 | Semitic | Extinct |
 | `arn` | Mapudungun | マプチェ語 | Araucanian (isolate or small family) | ~400K |
 | `arp` | Arapaho | アラパホ語 | Algic (Algonquian) | ~1K (critically endangered) |
 | `arq` | Algerian Arabic | アルジェリア・アラビア語 | Semitic (Maghrebi Arabic) | ~40M |

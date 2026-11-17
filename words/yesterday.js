@@ -1535,7 +1535,7 @@ WORDS.yesterday = {
     p_jpn: ["*kinəpu", "kinəpu"],  // tomorrow: *asita; *kinəpu ends in *pu 'day', the ancestor of Japanese kinō.
     p_ryu: ["*kinou", "kinou"],  // tomorrow: *asita; recorded as kʰi.ri.u in the Korean Haedong chegukki of 1501.
     akk: ["𒄠𒊭𒇷", "amʃaːli"],  // tomorrow: urram (𒌨𒊏𒄠); amšāli comes from Proto-Semitic *ʔamšay- and is related to Arabic ams.
-    arc: ["ܐܬܡܠܝ", "ʔeθmaːl"],  // tomorrow: ܡܚܪ (mḥār); CAL records ʾeṯmāl from the 5th-c. BCE Elephantine letters onwards but not in Old or Biblical Aramaic.
+    arc: ["אִתְמָלֵי", "ʔiθmaːleː"],
     syc: ["ܐܬܡܠܝ", "ʔeθmaːl"],  // tomorrow: ܡܚܪ (mḥār); the final yodh of ܐܬܡܠܝ is written but not pronounced.
     egy: ["𓋴𓆑𓇳", "sef"],  // tomorrow: dwꜣw ('early morning'); sf is written with the sun sign as determinative and survives as Coptic ⲥⲁϥ.
     cop: ["ⲥⲁϥ", "saf"],  // tomorrow: ⲣⲁⲥⲧⲉ; ⲥⲁϥ continues Egyptian sf 'yesterday' (Akhmimic/Fayyumic ⲥⲉϥ).

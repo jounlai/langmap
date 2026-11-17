@@ -371,7 +371,7 @@ WORDS.sleep = {
     pi: ["सुपति", "supati"],
     pi_edu: ["supati", "supati"],
     cop: ["ⲛⲕⲟⲧⲕ", "ənkotək"],
-    arc: ["ܕܡܟ", "dmeχ"],
+    arc: ["דְּמֵךְ", "dmeːχ"],
     sux: ["𒅇𒆪", "uku"],
     akk: ["𒍝𒆷𒇻", "sˤalaːlu"],
     hit: ["𒊺𒌍𒍣", "sestsi"],

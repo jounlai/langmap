@@ -1183,7 +1183,7 @@ WORDS.black = {
     pban: ["*-jídʊ̀", "-jídʊ̀"],
     p_dra: ["*kār", "kaːr"],
     zh_wenyan_edu: ["黑", "hɐk˥"],
-    arc: ["ܐܘܟܡܐ", "ʔukkaːmaː"],
+    arc: ["אֻכָּם", "ʔukkaːm"],
     txg: ["𗰞", "nja˧"],
     paus: ["*qeCeŋeN", "qeCeŋeN"],
     gan_yc: ["黑", "xeʔ˦"],

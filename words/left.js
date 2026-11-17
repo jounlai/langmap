@@ -762,7 +762,7 @@ WORDS.left = {
     el_grc: ["ἀριστερός", "aristerós"],  // A euphemism, "the better one", from ἄριστος "best".
     cu: ["лѣвъ", "lævŭ"],  // From Proto-Slavic *lěvъ.
     cop: ["ϩⲃⲟⲩⲣ", "hbuːr"],  // From Demotic gbyr "left".
-    arc: ["ܣܡܠܐ", "semmaːlaː"],  // Compare Arabic šimāl, Hebrew śəmōl.
+    arc: ["סְמָאלָא", "smaːlaː"],
     sux: ["𒆏", "ɡub"],
     akk: ["𒆏", "ʃumeːlu"],  // Written GÙB; from Proto-Semitic *śimaʔl-.
     p_ine: ["*sewyós", "sewjós"],

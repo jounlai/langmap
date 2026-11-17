@@ -619,7 +619,7 @@ WORDS.love = {
     pi_edu: ["mettā", "metːaː"],
     pmh: ["पेम", "peːma"],
     cop: ["ⲙⲉ", "me"],
-    arc: ["ܚܘܒܐ", "ħubbaː"],
+    arc: ["רְחֵם", "rħeːm"],
     amw: ["ܚܘܒܐ", "ħubaː"],
     aii: ["ܚܘܒܐ", "ˈxubba"],
     tru: ["ܚܘܒܐ", "ħubo"],

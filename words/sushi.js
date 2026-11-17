@@ -498,5 +498,6 @@ WORDS.sushi = {
     zh_jiao: ["寿司","ʃou˦˨ sɿ˨˩˧"],  // Same word as Standard Mandarin.
     el_koi: ["τάριχος", "ˈtarikʰos"],
     la_late: ["salsamentum", "salsaˈmɛnto"],
+    khb: ["ᦌᦳᦌᦲ", "su˥˩ siː˥˩"],
   },
 };

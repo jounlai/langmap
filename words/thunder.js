@@ -821,6 +821,15 @@ WORDS.thunder = {
     mn_cn: "plain",
     jya: "plain",
     ybe: "other",
+    ium: "plain",
+    jio: "sky",
+    kdt: "plain",
+    kxm: "plain",
+    mtq: "plain",
+    pcc: "plain",
+    prk: "plain",
+    th_n: "sky",
+    tji: "sky",
   },
   routes: {
     god: {"color":"#7c3aed","emoji":"⚡","en":"a thunder god","ja":"雷の神","ko":"천둥의 신","zh":"雷神","yue":"雷神","vi":"thần sấm","th":"เทพแห่งสายฟ้า","id":"dewa petir","hi":"वज्र-देवता","de":"ein Donnergott","fr":"un dieu du tonnerre","it":"un dio del tuono","es":"un dios del trueno","pt":"um deus do trovão","ru":"бог грома","uk":"бог грому","ar":"إله الرعد","he":"אל הרעם","sw":"mungu wa radi"},
@@ -1588,5 +1597,14 @@ WORDS.thunder = {
     mn_cn: ["ᠠᠶᠤᠩᠭ᠎ᠠ", "ɑjʊŋɢ"],
     jya: ["ta-rmok", "tarmok"],
     ybe: ["ulï", "ulɯ"],  // Also 'dragon'.
+    ium: ["mbaʼong", "baʔoŋ˧"],
+    jio: ["huvuəi", "hu˥vuəi˥"],  // hu 'to say' + vuəi, as in vɔːn vuəi 'sky'.
+    kdt: ["krom", "krom"],
+    kxm: ["ផ្គរ", "pkuːər"],
+    mtq: ["khầm", "kʰəm"],
+    pcc: ["byac", "pja˥˧"],  // No image is recorded for it, so it counts as a word of its own.
+    prk: ["saih", "saih"],
+    th_n: ["ฟ้าฮ้อง", "faː˦˥ hɔːŋ˦˥"],
+    tji: ["metace", "mɯe˧˥tʰa˥˥tsʰie˨˩"],  // Built on mɯe 'sky', as rain meze is.
   },
 };

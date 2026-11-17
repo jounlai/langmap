@@ -1014,5 +1014,6 @@ WORDS.snow = {
     el_koi: ["χιών", "kʰiˈon"],
     la_late: ["nix", "neks"],
     vi_mid: ["thuyết", "tʰwiət˧˥"],
+    kxm: ["ព្រិល", "prɨl"],
   }
 };

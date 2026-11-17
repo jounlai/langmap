@@ -1180,5 +1180,6 @@ WORDS.honey = {
     mvf: ["zangna bali", "dzaŋna balə"],
     peh: ["bal", "bal"],
     yuy: ["bal", "bal"],
+    lis: ["bya", "bjɑ˧˩"],
   },
 };

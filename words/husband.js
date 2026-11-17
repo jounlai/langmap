@@ -610,6 +610,35 @@ WORDS.husband = {
     peh: "own",
     qxs: "own",
     sce: "own",
+    ahk: "man",
+    atb: "own",
+    bca: "own",
+    blt: "own",
+    bru: "own",
+    cja: "own",
+    duu: "man",
+    ers: "own",
+    gqu: "man",
+    ii: "own",
+    ium: "own",
+    jio: "own",
+    jiu: "man",
+    kdt: "own",
+    kjg: "own",
+    kmc: "own",
+    kxm: "lord",
+    lhu: "own",
+    lic: "man",
+    lis: "own",
+    mlm: "own",
+    mmd: "own",
+    mra: "own",
+    nuf: "own",
+    nxq: "own",
+    pmi: "own",
+    shx: "own",
+    swi: "own",
+    th_isan: "own",
   },
   routes: {
     man: {"color":"#2563eb","emoji":"👨","en":"the same word as man","ja":"「男」と同じ語","ko":"'남자'와 같은 낱말","zh":"与“男人”同一个词","yue":"同「男人」同一個詞","vi":"cùng một từ với 'đàn ông'","th":"คำเดียวกับ 'ผู้ชาย'","id":"kata yang sama dengan 'laki-laki'","hi":"'आदमी' वाला ही शब्द","de":"dasselbe Wort wie Mann","fr":"le même mot qu'homme","it":"la stessa parola di uomo","es":"la misma palabra que hombre","pt":"a mesma palavra que homem","ru":"то же слово, что «мужчина»","uk":"те саме слово, що «чоловік (мужчина)»","ar":"الكلمة نفسها لـ«رجل»","he":"אותה מילה כמו „גבר”","sw":"neno lile lile la 'mwanamume'"},
@@ -1159,5 +1188,34 @@ WORDS.husband = {
     peh: ["nokor", "nokor"],
     qxs: ["tshieme", "tsʰie˥˥me˧˩"],  // The word for man is tʃɿ.
     sce: ["nokie", "noˈkʰjə"],
+    ahk: ["ka dze za", "kʰa˨˩dze˥za˨˩"],  // The same word as man.
+    atb: ["làng", "laŋ˥˩"],
+    bca: ["pojɪ̃", "po˥˥jɪ̃˨˩"],  // Sun 1991 (Jianchuan Bai) po⁵⁵jɪ̃²¹. Surface follows the row: IPA without tones. Man is tsi³³jĩ²¹; the list also gives pɯ³³.
+    blt: ["ꪠꪺ", "pʰuə˨"],
+    bru: ["cayac", "kəjak"],
+    cja: ["ڤسآڠ", "pasaŋ"],  // Kvoeu-Hor & Friberg (1978) pasang; man is lakay, a different word.
+    duu: ["lɑŋlɑ", "lɑŋlɑ"],  // The same word as man.
+    ers: ["pʰozɑ", "pʰo˥˥zɑ˥˥"],  // Man is lioliozɿ in the same list, a different word.
+    gqu: ["qɒ33 tau55", "qɒ˧˧ tau˥˥"],
+    ii: ["ꌐꃶ", "sa˥vu˧˧"],
+    ium: ["nqox", "ɡɔ˨˧"],
+    jio: ["tʰa", "tʰa˩"],  // The word for a man is pʰɯ tsə.
+    jiu: ["khɔ44phɔ33", "kʰɔ˦˦pʰɔ˧˧"],  // The same word as man.
+    kdt: ["jaːʔ", "jaːʔ"],
+    kjg: ["gleʔ", "ɡleʔ"],
+    kmc: ["sau31", "sau˧˩"],  // Man is pan55 in the same list, a different word.
+    kxm: ["ប្ដី", "pɗɛj"],
+    lhu: ["ɔ̀-phɔ̂", "ɔ̀pʰɔ̂"],  // Sun 1991 (Black Lahu) ɔ³¹phɔ⁵³; man is hɔ³⁵qhᴀ⁵⁴. Spelling is derived: tone marks converted using the row's own pairs (53 ^, 54 ^ʼ, 31 grave, 35 acute, 21 grave with glottal, 11 macron).
+    lic: ["pha3 ma:n1", "pʰa˩˩ maːn˥˧"],  // The same word as man; also tho:ŋ3 ploŋ3.
+    lis: ["za-gu", "zɑ˧˩ɡu˧˧"],
+    mlm: ["kɣa:u4", "kɣaːu˨˦"],
+    mmd: ["ka6 la:u4", "ka˨˩˧ laːu˨˦"],  // ABVD gives la:k8 za:u4 for a husband who has children.
+    mra: ["ʔak laŋ", "ʔak laŋ"],
+    nuf: ["n̥ɔ̃55phɑ31", "n̥ɔ̃˥˥pʰɑ˧˩"],
+    nxq: ["aigaiqssee", "a˧ka˨˩zɯ˧"],  // Wiktionary Naxi aigaiqssee 'husband' [ʔa³³ka²¹zz̩³³]; Sun 1991 has ʑa³³ka³¹zɯ³³. Man is zo³³tɕʰy³³, a different word.
+    pmi: ["pu̵35tshɛ35", "pʉ˧˥tsʰɛ˧˥"],
+    shx: ["pɤ44", "pɤ˦˦"],  // Also a22 pɤ44; man is le31 pɤ44.
+    swi: ["ʔɣe1", "ʔɣe˩˩"],
+    th_isan: ["ผัว", "pʰua˨˦"],  // Woman is ญิง.
   },
 };

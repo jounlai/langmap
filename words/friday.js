@@ -502,6 +502,13 @@ WORDS.friday = {
     la_late: "venus",
     mn_cn: "count",
     slr: "assembly",
+    hmn: "venus",
+    khb: "venus",
+    kxm: "venus",
+    mmd: "count",
+    prk: "count",
+    wbm: "count",
+    za: "count",
   },
   routes: {
     goddess: {"color":"#db2777","emoji":"👸","en":"the day of Frigg (Friday, Freitag, fredag)","ja":"女神フリッグの日（Friday, Freitag, fredag）","ko":"여신 프리그의 날 (Friday, Freitag, fredag)","zh":"女神弗丽嘉之日（Friday、Freitag、fredag）","yue":"女神弗麗嘉嘅日（Friday、Freitag、fredag）","vi":"ngày của nữ thần Frigg (Friday, Freitag, fredag)","th":"วันของเทพีฟริกก์ (Friday, Freitag, fredag)","id":"hari Dewi Frigg (Friday, Freitag, fredag)","hi":"देवी फ़्रिग का दिन (Friday, Freitag, fredag)","de":"Tag der Frigg (Friday, Freitag, fredag)","fr":"jour de Frigg (Friday, Freitag, fredag)","it":"giorno di Frigg (Friday, Freitag, fredag)","es":"día de Frigg (Friday, Freitag, fredag)","pt":"dia de Frigg (Friday, Freitag, fredag)","ru":"день Фригг (Friday, Freitag, fredag)","uk":"день Фріґґ (Friday, Freitag, fredag)","ar":"يوم فريغ (Friday, Freitag, fredag)","he":"יומה של פריג (Friday, Freitag, fredag)","sw":"siku ya Frigg (Friday, Freitag, fredag)"},
@@ -943,5 +950,12 @@ WORDS.friday = {
     la_late: ["dies Veneris", "ˈdies ˈβɛneres"],
     mn_cn: ["ᠭᠠᠷᠠᠭ ᠤᠨ ᠲᠠᠪᠤᠨ", "ɡɑrɑɡiŋ tɑβun"],
     slr: ["cuma", "ʝumɑ"],
+    hmn: ["hnub vas xuv", "n̥u˥ va˨˩ su˨˦"],  // From Lao ວັນສຸກ, the day of Venus.
+    khb: ["ᦞᧃᦉᦳᧅ", "van˥˩ suk˧˥"],
+    kxm: ["ថ្ងៃសុក្រ", "ŋaj sɔʔ"],
+    mmd: ["siŋ5 khi2 u5", "siŋ˦˦ kʰi˨˧˩ u˦˦"],
+    prk: ["ngāix puan", "ŋa̤iʔ pʰuan"],
+    wbm: ["ngaix phwan", "ŋaiʔ pʰuan"],
+    za: ["singhgizhaj", "θiŋ˧ ki˧˩ ha˥"],
   },
 };

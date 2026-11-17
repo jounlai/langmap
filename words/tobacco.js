@@ -349,6 +349,18 @@ WORDS.tobacco = {
     qxs: "smoke",
     sce: "smoke",
     ybe: "smoke",
+    bca: "smoke",
+    duu: "smoke",
+    hmn: "smoke",
+    kjg: "medicine",
+    kmc: "smoke",
+    kxm: "medicine",
+    lhu: "plain",
+    lic: "medicine",
+    lis: "smoke",
+    mmd: "smoke",
+    mra: "plain",
+    tji: "smoke",
   },
   routes: {
     tabaco: {"color":"#b45309","emoji":"🌿","en":"Spanish and Portuguese tabaco","ja":"スペイン語・ポルトガル語の tabaco","ko":"스페인어·포르투갈어 tabaco","zh":"西班牙语和葡萄牙语的 tabaco","yue":"西班牙語同葡萄牙語嘅 tabaco","vi":"tabaco của tiếng Tây Ban Nha và Bồ Đào Nha","th":"tabaco ของสเปนและโปรตุเกส","id":"tabaco dari Spanyol dan Portugis","hi":"स्पेनिश और पुर्तगाली tabaco","de":"spanisch und portugiesisch tabaco","fr":"le tabaco espagnol et portugais","it":"il tabaco spagnolo e portoghese","es":"el tabaco español y portugués","pt":"o tabaco espanhol e português","ru":"испанское и португальское tabaco","uk":"іспанське й португальське tabaco","ar":"tabaco الإسبانية والبرتغالية","he":"tabaco הספרדית והפורטוגזית","sw":"tabaco ya Kihispania na Kireno"},
@@ -638,5 +650,17 @@ WORDS.tobacco = {
     qxs: ["ia", "ia˧˩"],  // Borrowed from Chinese 烟 'smoke'.
     sce: ["yen", "jən"],
     ybe: ["tutïn", "tutɯn"],  // Also 'smoke'.
+    bca: ["jɛ̃", "jɛ̃˧˧"],  // Sun 1991 (Jianchuan Bai) jɛ̃³³. Surface follows the row: IPA without tones. A loan of 烟 'smoke'.
+    duu: ["nɯt", "nɯt"],  // The same word as smoke.
+    hmn: ["luam yeeb", "lua˨˩ˀ jẽ˥"],  // yeeb is from Chinese 煙 'smoke'.
+    kjg: ["ʔjaː", "ʔjaː"],
+    kmc: ["jin55", "jin˥˥"],  // Borrowed from Chinese 烟 'smoke'.
+    kxm: ["ថ្នាំជក់", "tʰnam cuəʔ"],
+    lhu: ["sú", "sú"],  // Sun 1991 (Black Lahu) su³⁵. Spelling is derived: tone marks converted using the row's own pairs (53 ^, 54 ^ʼ, 31 grave, 35 acute, 21 grave with glottal, 11 macron).
+    lic: ["za1", "za˥˧"],  // The same word as medicine.
+    lis: ["mu-khu", "mu˧˩kʰu˧˩"],
+    mmd: ["ʔjen1", "ʔjen˦˨"],
+    mra: ["bə bliŋ", "bə bliŋ"],
+    tji: ["yan", "jian˥˥"],
   },
 };

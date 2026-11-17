@@ -450,6 +450,24 @@ WORDS.maize = {
     cng: "grain",
     jya: "grain",
     qxs: "grain",
+    ahk: "plain",
+    bca: "grain",
+    bdq: "plain",
+    blr: "grain",
+    duu: "plain",
+    hmn: "grain",
+    hni: "grain",
+    jiu: "plain",
+    kdt: "plain",
+    kxm: "plain",
+    lis: "plain",
+    mlm: "grain",
+    nuf: "plain",
+    nxq: "grain",
+    pmi: "plain",
+    prk: "plain",
+    pt_mo: "grain",
+    wbm: "plain",
   },
   routes: {
     mahiz: {"color":"#eab308","emoji":"🌽","en":"from Taíno mahiz (maíz, Mais, maïs)","ja":"タイノ語 mahiz から（maíz, Mais, maïs）","ko":"타이노어 mahiz에서 (maíz, Mais, maïs)","zh":"源自泰诺语 mahiz（maíz, Mais, maïs）","yue":"源自泰諾語 mahiz（maíz, Mais, maïs）","vi":"từ tiếng Taíno mahiz (maíz, Mais, maïs)","th":"จากภาษาไตโน mahiz (maíz, Mais, maïs)","id":"dari bahasa Taíno mahiz (maíz, Mais, maïs)","hi":"ताइनो mahiz से (maíz, Mais, maïs)","de":"aus Taíno mahiz (maíz, Mais, maïs)","fr":"du taïno mahiz (maíz, Mais, maïs)","it":"dal taíno mahiz (maíz, Mais, maïs)","es":"del taíno mahiz (maíz, Mais, maïs)","pt":"do taíno mahiz (maíz, Mais, maïs)","ru":"из таино mahiz (maíz, Mais, maïs)","uk":"з таїно mahiz (maíz, Mais, maïs)","ar":"من mahiz في لغة التاينو (maíz, Mais, maïs)","he":"מ-mahiz בטאינו (maíz, Mais, maïs)","sw":"kutoka Kitaino mahiz (maíz, Mais, maïs)"},
@@ -838,5 +856,23 @@ WORDS.maize = {
     cng: ["ji maʴ", "ji maʴ"],
     jya: ["ji mɛn", "jimɛn"],
     qxs: ["yme", "y˧˩me˧˧"],  // Borrowed from Chinese 玉米.
+    ahk: ["a du", "a˥du˧"],
+    bca: ["jimɯ", "ji˦˦mɯ˥˥"],  // Sun 1991 (Jianchuan Bai) ji⁴⁴mɯ⁵⁵. Surface follows the row: IPA without tones. mɯ⁴⁴ is wheat, as in Yunnan Chinese 玉麦.
+    bdq: ["hơʼbo", "həɓɔː"],
+    blr: ["sa33 li31", "sa˧˧ li˧˩"],  // IDS 801 Bulang (Peiros) sa.33 li.31, the doculect this row's other IDS cells come from. Like Lao ສາລີ saːliː.
+    duu: ["tɑmbɔŋ", "tɑmbɔŋ"],
+    hmn: ["pob kws", "pɔ˥ kɨ˨˩"],  // kws is from Chinese 穀 'grain'.
+    hni: ["ceildu", "tsʰe˥˥du˧˧"],
+    jiu: ["lo33to33", "lo˧˧to˧˧"],
+    kdt: ["pho̤ːt", "pʰoːt"],
+    kxm: ["ពោត", "poːt"],
+    lis: ["kho-sha", "kʰo˧˩ʃɑ˦˦"],
+    mlm: ["jau6 mɛ4", "jau˩˩ mɛ˨˦"],
+    nuf: ["ɑ31mɯ31", "ɑ˧˩mɯ˧˩"],
+    nxq: ["kaqzzei", "kʰɑ˨˩dze˧"],  // Sun 1991 (Lijiang Naxi) kʰɑ³¹dze³³. Naxi spelling is derived; the source is IPA. dze³³ is wheat in the same list.
+    pmi: ["kha35ʂə35", "kʰa˧˥ʂə˧˥"],
+    prk: ["si vōng", "sivɔ̤ŋ"],
+    pt_mo: ["milho", "ˈmiʎu"],
+    wbm: ["sivawng", "sivɔŋ"],
   },
 };

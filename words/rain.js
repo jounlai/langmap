@@ -1198,5 +1198,6 @@ WORDS.rain = {
     la_late: ["pluvia", "ˈploβja"],
     egy_dem: ["ḥw", "hoːu"],
     vi_mid: ["mưa", "mɨə˧"],
+    pcc: ["wenl", "wɯn˨˦"],
   },
 };

@@ -1160,5 +1160,8 @@ WORDS.horse = {
     peh: ["morə", "morə"],
     yuy: ["moorə", "moːrə"],
     ybe: ["at", "at"],
+    cja: ["اسايه", "asaih"],  // Wiktionary Cham Jawi spelling.
+    cjm: ["ꨀꨔꨰꩍ", "ʔasɛh"],
+    kjg: ["hmbraŋ", "hmbraŋ"],
   }
 };

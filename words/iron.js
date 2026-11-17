@@ -1174,5 +1174,6 @@ WORDS.iron = {
     vi_mid: ["sắt", "ʂat˧˥"],
     peh: ["təmər", "təmər"],
     yuy: ["temər", "temər"],
+    ii: ["ꎸꅍ", "ʂɯ˧˧du˧˧"],
   },
 };

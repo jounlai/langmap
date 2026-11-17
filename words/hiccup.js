@@ -382,6 +382,11 @@ WORDS.hiccup = {
     la_late: "plain",
     vi_mid: "plain",
     mn_cn: "unknown",
+    kjg: "plain",
+    kxm: "plain",
+    prk: "plain",
+    pt_mo: "plain",
+    wbm: "plain",
   },
   routes: {
     imitative: {"color":"#ea580c","emoji":"🔊","en":"imitating the sound","ja":"音のまね","ko":"소리 흉내","zh":"模仿声音","yue":"模仿聲音","vi":"mô phỏng âm thanh","th":"เลียนเสียง","id":"tiruan bunyi","hi":"ध्वनि की नक़ल","de":"lautmalend","fr":"imitant le bruit","it":"onomatopeico","es":"imita el sonido","pt":"imita o som","ru":"звукоподражание","uk":"звуконаслідування","ar":"محاكاة الصوت","he":"חיקוי הקול","sw":"kuiga sauti"},
@@ -710,5 +715,10 @@ WORDS.hiccup = {
     la_late: ["singultus", "seŋˈɡoltos"],
     vi_mid: ["nấc na", "nək˧˥ naː˧"],
     mn_cn: ["ᠵᠣᠭᠢᠰᠬᠤ", "dʒɔɡsɔχ"],
+    kjg: ["clək", "clək"],
+    kxm: ["ត្អើក", "tʔɤʔ"],
+    prk: ["si ex", "siʔɤʔ"],  // also a burp
+    pt_mo: ["soluço", "suˈlusu"],
+    wbm: ["si eux", "siʔɤʔ"],  // also a burp
   },
 };

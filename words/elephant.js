@@ -543,6 +543,24 @@ WORDS.elephant = {
     mvf: "other",
     qxs: "xiang",
     ybe: "plain",
+    ahk: "plain",
+    bca: "xiang",
+    bdq: "plain",
+    blr: "xiang",
+    ii: "plain",
+    ium: "xiang",
+    jiu: "plain",
+    kmc: "xiang",
+    kxm: "other",
+    lis: "plain",
+    mlm: "xiang",
+    mmd: "xiang",
+    nxq: "xiang",
+    pmi: "other",
+    th_isan: "xiang",
+    tji: "xiang",
+    tyz: "xiang",
+    za: "xiang",
   },
   routes: {
     elephas: {"color":"#2563eb","emoji":"🏛️","en":"from Greek ἐλέφας, Latin elephantus (elephant, Elefant)","ja":"ギリシャ語 ἐλέφας、ラテン語 elephantus から (elephant, Elefant)","ko":"그리스어 ἐλέφας, 라틴어 elephantus에서 (elephant, Elefant)","zh":"来自希腊语 ἐλέφας、拉丁语 elephantus (elephant, Elefant)","yue":"嚟自希臘語 ἐλέφας、拉丁語 elephantus (elephant, Elefant)","vi":"từ tiếng Hy Lạp ἐλέφας, Latinh elephantus (elephant, Elefant)","th":"จากภาษากรีก ἐλέφας ละติน elephantus (elephant, Elefant)","id":"dari ἐλέφας Yunani, elephantus Latin (elephant, Elefant)","hi":"यूनानी ἐλέφας, लैटिन elephantus से (elephant, Elefant)","de":"aus griechisch ἐλέφας, lateinisch elephantus (elephant, Elefant)","fr":"du grec ἐλέφας, latin elephantus (elephant, Elefant)","it":"dal greco ἐλέφας, latino elephantus (elephant, Elefant)","es":"del griego ἐλέφας, latín elephantus (elephant, Elefant)","pt":"do grego ἐλέφας, latim elephantus (elephant, Elefant)","ru":"от греческого ἐλέφας, латинского elephantus (elephant, Elefant)","uk":"від грецького ἐλέφας, латинського elephantus (elephant, Elefant)","ar":"من اليونانية ἐλέφας واللاتينية elephantus (elephant, Elefant)","he":"מהיוונית ἐλέφας, מהלטינית elephantus (elephant, Elefant)","sw":"kutoka Kigiriki ἐλέφας, Kilatini elephantus (elephant, Elefant)"},
@@ -1026,5 +1044,23 @@ WORDS.elephant = {
     mvf: ["langwuqii", "laŋvuʨii"],  // From Tibetan glang po che.
     qxs: ["siɑŋ", "siɑŋ˩˧"],  // Borrowed from Chinese 象.
     ybe: ["jaɣan", "jaɣan"],
+    ahk: ["ya ma", "ja˧ma˧"],
+    bca: ["ɕõ", "ɕõ˨˩"],  // Sun 1991 (Jianchuan Bai) ɕõ²¹. Surface follows the row: IPA without tones. Bai form of 象.
+    bdq: ["rôih", "rojh"],
+    blr: ["ka31 saŋ33", "ka˧˩ saŋ˧˧"],  // IDS 801 Bulang (Peiros) ka.31 saŋ.33, the doculect this row's other IDS cells come from. Like Tai Lue tsaːŋ, from Chinese 象.
+    ii: ["ꆺ", "li˨˩"],
+    ium: ["zaangz", "tsaːŋ˨˧"],
+    jiu: ["jɔ33", "jɔ˧˧"],
+    kmc: ["ɕaŋ53", "ɕaŋ˥˧"],  // Borrowed from Chinese 象.
+    kxm: ["ដំរី", "tamrɛj"],
+    lis: ["ha-ma", "hɑ˧˧mɑ˦˦"],
+    mlm: ["tja:ŋ4", "tjaːŋ˨˦"],
+    mmd: ["tsha:ŋ4", "tsʰaːŋ˨˦"],
+    nxq: ["coq", "tsʰo˨˩"],  // Sun 1991 (Lijiang Naxi) tsʰo³¹. Naxi spelling is derived; the source is IPA. Cognate with Burmese ဆင်, which the map routes to 象.
+    pmi: ["lõ55bo55tɕhi53", "lõ˥˥bo˥˥tɕʰi˥˧"],
+    th_isan: ["ซ้าง", "saːŋ˧˩"],  // Isan s- for Thai ช-, as in ช้าง.
+    tji: ["xian", "ɕian˧˥"],
+    tyz: ["chạng", "caːŋ˧˨ʔ"],  // Like Thai ช้าง and Lao ຊ້າງ.
+    za: ["ciengh", "ɕiːŋ˧"],
   },
 };

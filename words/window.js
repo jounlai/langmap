@@ -486,6 +486,24 @@ WORDS.window = {
     cng: "plain",
     jya: "plain",
     qxs: "plain",
+    atb: "plain",
+    bca: "plain",
+    blr: "plain",
+    ers: "plain",
+    ii: "eye",
+    ium: "plain",
+    khb: "plain",
+    kjg: "plain",
+    kmc: "door",
+    lis: "plain",
+    lwl: "plain",
+    mmd: "plain",
+    mra: "plain",
+    nuf: "plain",
+    nxq: "plain",
+    pmi: "plain",
+    pt_mo: "door",
+    tyz: "door",
   },
   routes: {
     wind: {"color":"#0891b2","emoji":"🌬️","en":"built on the wind (window, vindue, ventana)","ja":"風からできた語（window, vindue, ventana）","ko":"바람에서 나온 말 (window, vindue, ventana)","zh":"由“风”构成（window, vindue, ventana）","yue":"由「風」構成（window, vindue, ventana）","vi":"tạo từ chữ gió (window, vindue, ventana)","th":"สร้างจากคำว่าลม (window, vindue, ventana)","id":"dibentuk dari kata angin (window, vindue, ventana)","hi":"हवा के शब्द से बना (window, vindue, ventana)","de":"vom Wind gebildet (window, vindue, ventana)","fr":"construit sur le vent (window, vindue, ventana)","it":"costruito sul vento (window, vindue, ventana)","es":"formado sobre el viento (window, vindue, ventana)","pt":"formado sobre o vento (window, vindue, ventana)","ru":"построено на слове для ветра (window, vindue, ventana)","uk":"побудоване на слові для вітру (window, vindue, ventana)","ar":"مبني على الريح (window, vindue, ventana)","he":"בנוי על הרוח (window, vindue, ventana)","sw":"limejengwa juu ya upepo (window, vindue, ventana)"},
@@ -911,5 +929,23 @@ WORDS.window = {
     cng: ["tɕu gʑu", "tɕu ɡʑu"],
     jya: ["kam tsa", "kamtsa"],
     qxs: ["tshɑŋtsɿ", "tsʰɑŋ˥˥tsɿ˧˩"],  // Borrowed from Chinese 窗子.
+    atb: ["hkohot", "kʰŏ˨˩xot˥˥"],
+    bca: ["tsʰuãtsi", "tsʰuã˥˥tsi˧˧"],  // Sun 1991 (Jianchuan Bai) tsʰuɑ̃⁵⁵tsi³³. Surface follows the row: IPA without tones. A loan of 窗子.
+    blr: ["lɔt31", "lɔt˧˩"],  // IDS 801 Bulang (Peiros) lɔt.31, the doculect this row's other IDS cells come from.
+    ers: ["ndara", "nda˧˧ra˥˥"],  // No image is recorded for it, so it counts as a word of its own.
+    ii: ["ꌍꑓ", "sɛ˧˦ɲɔ˧˧"],  // Built on ꑓ 'eye'.
+    ium: ["fong muonh", "foŋ˧ muon˧˩"],
+    khb: ["ᦔᦸᧂᧈ", "pɔŋ˧˥"],
+    kjg: ["pɔːŋ ʔiəm", "pɔːŋ ʔiəm"],
+    kmc: ["to55 siŋ323", "to˥˥ siŋ˧˨˧"],  // to55 is 'door'.
+    lis: ["nyi-mo-khu", "ɲi˧˧mo˧˧kʰu˦˦"],
+    lwl: ["poung", "pɒŋ"],
+    mmd: ["tɔ1 tsoŋ1", "tɔ˦˨ tsoŋ˦˨"],
+    mra: ["pɨr jaŋ", "pɨr jaŋ"],
+    nuf: ["tʂhuɑ̃55tsɿ31", "tʂʰuɑ̃˥˥tsɿ˧˩"],  // Borrowed from Chinese 窗子 chuāngzi.
+    nxq: ["chuahu", "ʈʂʰwa˧xu˧"],  // Sun 1991 (Lijiang Naxi) tʂʰua³³xu³³. Naxi spelling is derived; the source is IPA. A loan of 窗户.
+    pmi: ["kiã35tsə53", "kiã˧˥tsə˥˧"],
+    pt_mo: ["janela", "ʒɐˈnɛlɐ"],
+    tyz: ["tu táng", "tu˧˧ taːŋ˧˥"],  // tu is 'door'.
   },
 };

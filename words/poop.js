@@ -967,5 +967,6 @@ WORDS.poop = {
     sce: ["basun", "pɑˈsun"],
     yuy: ["paasən", "paːsən"],
     ybe: ["arq", "arq"],
+    kxm: ["អាចម៍", "ʔac"],
   },
 };

@@ -500,6 +500,29 @@ WORDS.mirror = {
     khg: "other",
     mjg: "other",
     qxs: "jing",
+    atb: "eye",
+    bca: "jing",
+    blr: "glass",
+    bru: "jing",
+    duu: "look",
+    ers: "eye",
+    ium: "jing",
+    kdt: "glass",
+    khb: "glass",
+    kjg: "glass",
+    kxm: "glass",
+    lic: "jing",
+    lis: "plain",
+    mlm: "jing",
+    mmd: "jing",
+    mra: "plain",
+    nxq: "plain",
+    pmi: "plain",
+    prk: "plain",
+    pt_mo: "speculum",
+    tji: "jing",
+    wbm: "plain",
+    za: "jing",
   },
   routes: {
     speculum: {"color":"#2563eb","emoji":"🏛️","en":"from Latin speculum (espejo, Spiegel)","ja":"ラテン語 speculum から (espejo, Spiegel)","ko":"라틴어 speculum에서 (espejo, Spiegel)","zh":"来自拉丁语 speculum (espejo, Spiegel)","yue":"嚟自拉丁語 speculum (espejo, Spiegel)","vi":"từ tiếng Latinh speculum (espejo, Spiegel)","th":"จากภาษาละติน speculum (espejo, Spiegel)","id":"dari speculum Latin (espejo, Spiegel)","hi":"लैटिन speculum से (espejo, Spiegel)","de":"aus lateinisch speculum (espejo, Spiegel)","fr":"du latin speculum (espejo, Spiegel)","it":"dal latino speculum (espejo, Spiegel)","es":"del latín speculum (espejo, Spiegel)","pt":"do latim speculum (espejo, Spiegel)","ru":"от латинского speculum (espejo, Spiegel)","uk":"від латинського speculum (espejo, Spiegel)","ar":"من اللاتينية speculum (espejo, Spiegel)","he":"מהלטינית speculum (espejo, Spiegel)","sw":"kutoka Kilatini speculum (espejo, Spiegel)"},
@@ -939,5 +962,28 @@ WORDS.mirror = {
     khg: ["ཤེལ་སྒོ", "ɕʰe˥˥ɡo˥˧"],
     mjg: ["xal", "ɕal"],  // From Tibetan shel.
     qxs: ["tɕiŋtsɿ", "tɕiŋ˩˧tsɿ˧˩"],  // Borrowed from Chinese 镜子.
+    atb: ["myoqjàm", "mjoʔ˨˩tʃam˥˩"],
+    bca: ["kɛ̃mi", "kɛ̃˦˨mi˦˨"],  // Sun 1991 (Jianchuan Bai) kɛ̃⁴²mi⁴². Surface follows the row: IPA without tones. First syllable is 鏡.
+    blr: ["viɛn51", "viɛn˥˩"],  // IDS 801 Bulang (Peiros) viɛn.51, the doculect this row's other IDS cells come from. Like Lao ແວ່ນ wɛ̂n 'lens, glass'.
+    bru: ["kếng", "keŋ"],
+    duu: ["mɑɹɟɑŋ", "mɑɹɟɑŋ"],  // Ends in ɟɑŋ 'look'.
+    ers: ["miɑlo", "miɑ˥˥lo˥˥"],  // miɑ is 'eye'.
+    ium: ["gingx", "kiŋ˨˧"],
+    kdt: ["kɛːw ɲɛ̤ːɲ", "kɛːw ɲɛːɲ"],
+    khb: ["ᦶᦞᧃᧈ", "vɛn˧"],
+    kjg: ["wɛːn", "wɛːn"],
+    kxm: ["កញ្ចក់", "kcɑʔ"],
+    lic: ["ki:ŋ2", "kiːŋ˥˥"],  // From Chinese 鏡.
+    lis: ["mya-ba", "miɛ˦˦bɑ˧˧"],
+    mlm: ["keŋ5", "keŋ˦˦"],
+    mmd: ["tɕiŋ5", "tɕiŋ˦˦"],
+    mra: ["ka daŋ buk", "ka daŋ buk"],
+    nxq: ["ge", "kə˧"],  // Sun 1991 (Lijiang Naxi) kə³³. Naxi spelling is derived; the source is IPA.
+    pmi: ["ɕe55go53", "ɕe˥˥ɡo˥˧"],
+    prk: ["si līag", "sili̤ak"],
+    pt_mo: ["espelho", "ɨʃˈpɐʎu"],
+    tji: ["jinzi", "tɕin˧˥tsi˨˩"],
+    wbm: ["siliag", "siliak"],
+    za: ["gingq", "kiŋ˧˥"],
   },
 };

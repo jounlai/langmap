@@ -339,6 +339,8 @@ WORDS.shootingstar = {
     ja_kg: "moving",
     el_koi: "moving",
     mn_cn: "unknown",
+    prk: "moving",
+    wbm: "moving",
   },
   routes: {
     falling: {"color":"#2563eb","emoji":"⬇️","en":"a falling star","ja":"落ちる星","ko":"떨어지는 별","zh":"落下的星","yue":"跌落嘅星","vi":"sao rơi","th":"ดาวที่ตก","id":"bintang jatuh","hi":"गिरता तारा","de":"fallender Stern","fr":"étoile qui tombe","it":"stella che cade","es":"estrella que cae","pt":"estrela que cai","ru":"падающая звезда","uk":"зірка, що падає","ar":"نجم يسقط","he":"כוכב שנופל","sw":"nyota inayoanguka"},
@@ -623,5 +625,7 @@ WORDS.shootingstar = {
     ja_kg: ["流れ星", "naɡaɾeboɕi"],  // Literally 'flowing star'. The national word, which Kagoshima speech uses as well.
     el_koi: ["διᾴττων ἀστήρ", "diˈatton asˈte̝r"],
     mn_cn: ["ᠰᠤᠭᠤᠨᠠᠭ ᠣᠳᠤ", "sʊːnɑɡ ɔd"],
+    prk: ["sim uing bu", "sim ʔuɲ pu"],
+    wbm: ["simuing pu", "sim ʔuɲ pu"],
   },
 };

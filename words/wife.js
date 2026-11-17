@@ -519,6 +519,35 @@ WORDS.wife = {
     peh: "own",
     qxs: "own",
     ybe: "own",
+    bca: "own",
+    blr: "own",
+    bru: "own",
+    duu: "woman",
+    gqu: "own",
+    hmn: "woman",
+    ii: "other",
+    jio: "own",
+    jiu: "woman",
+    kdt: "own",
+    khb: "own",
+    kjg: "own",
+    kmc: "own",
+    kxm: "own",
+    lhu: "own",
+    lic: "woman",
+    lis: "own",
+    mlm: "own",
+    mmd: "own",
+    mra: "own",
+    nuf: "woman",
+    nxq: "own",
+    pmi: "own",
+    prk: "own",
+    shx: "own",
+    swi: "own",
+    th_isan: "own",
+    wbm: "own",
+    za: "own",
   },
   routes: {
     woman: {"color":"#db2777","emoji":"👩","en":"the same word as woman","ja":"「女」と同じ語","ko":"‘여자’와 같은 말","zh":"与“女人”同词","yue":"同「女人」同一個詞","vi":"cùng một từ với “đàn bà”","th":"คำเดียวกับ “ผู้หญิง”","id":"sama dengan kata “perempuan”","hi":"‘औरत’ वाला ही शब्द","de":"dasselbe Wort wie Frau","fr":"le même mot que femme","it":"la stessa parola di donna","es":"la misma palabra que mujer","pt":"a mesma palavra que mulher","ru":"то же слово, что «женщина»","uk":"те саме слово, що «жінка»","ar":"الكلمة نفسها لـ«امرأة»","he":"אותה מילה כמו ״אישה״","sw":"neno sawa na mwanamke"},
@@ -981,5 +1010,34 @@ WORDS.wife = {
     peh: ["uerə", "uerə"],
     qxs: ["tɕime", "tɕi˥˥me˧˩"],  // The word for woman is tɕi.
     ybe: ["kelin", "kelin"],  // The word for woman is kʰempiṣtïɣ (Roos).
+    bca: ["vujɪ̃", "vu˧˧jɪ̃˨˩"],  // Sun 1991 (Jianchuan Bai) vu³³jɪ̃²¹. Surface follows the row: IPA without tones. Woman is jṽ³³jɪ̃²¹; the list also gives tsʰe⁵⁵.
+    blr: ["ka31 muiŋ31 ʔɨ51", "ka˧˩ muiŋ˧˩ ʔɨ˥˩"],  // IDS 801 Bulang (Peiros) ka.31 muiŋ.31 ʔɨ.51, the doculect this row's other IDS cells come from. Woman is ka31 pən55, a different word.
+    bru: ["lacuoi", "ləkuoj"],
+    duu: ["pɯmɑ", "pɯmɑ"],  // The same word as woman.
+    gqu: ["lai44", "lai˦˦"],
+    hmn: ["poj niam", "pɔ˥˨ nia˨˩ˀ"],  // The same word as woman.
+    ii: ["ꑮꃀ", "ɕɿ˨˩mo˨˩"],  // ꑮ 'to marry' + ꃀ 'female'.
+    jio: ["naːu", "naːu˥˧"],  // The word for a woman is mɯ taːu.
+    jiu: ["khɔ44mɔ44", "kʰɔ˦˦mɔ˦˦"],  // The same word as woman.
+    kdt: ["nthɛ̤ːl", "ntʰɛːl"],
+    khb: ["ᦵᦙ", "meː˥˩"],
+    kjg: ["kmbraʔ", "kmbraʔ"],
+    kmc: ["mai31", "mai˧˩"],  // Woman is mjek323 in the same list, a different word.
+    kxm: ["ប្រពន្ធ", "ppuən"],
+    lhu: ["ɔ̀-mî-ma", "ɔ̀mîma"],  // Sun 1991 (Black Lahu) ɔ³¹mi⁵³mᴀ³³; woman is zᴀ⁵³mi⁵³mᴀ³⁵. Spelling is derived: tone marks converted using the row's own pairs (53 ^, 54 ^ʼ, 31 grave, 35 acute, 21 grave with glottal, 11 macron).
+    lic: ["pai3 khau2", "pai˩˩ kʰau˥˥"],  // The same word as woman; also tho:ŋ3 dun1.
+    lis: ["za-mu", "zɑ˧˩mɯ˧˧"],
+    mlm: ["ma:i4", "maːi˨˦"],
+    mmd: ["lja3", "lja˥˩"],
+    mra: ["ʔak mja", "ʔak mja"],
+    nuf: ["mi31ɑ31", "mi˧˩ɑ˧˩"],  // The same word as woman.
+    nxq: ["ninvq", "ɲi˧nv̩˨˩"],  // Sun 1991 (Lijiang Naxi) ȵi³³nv³¹. Naxi spelling is derived; the source is IPA. Woman is mi⁵⁵tɕʰy³³, a different word.
+    pmi: ["tʂhə35", "ʈʂʰə˧˥"],
+    prk: ["mōuing", "mo̤ɲ"],
+    shx: ["va44", "va˦˦"],  // Also a22 va44; woman is le31 va44.
+    swi: ["ɕa3", "ɕa˧˧"],
+    th_isan: ["เมีย", "mia˧˥˨"],  // Woman is ญิง.
+    wbm: ["moeng", "moɲ"],
+    za: ["baz", "pa˧˩"],  // also yah
   },
 };

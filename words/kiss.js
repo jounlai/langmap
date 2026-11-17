@@ -329,6 +329,20 @@ WORDS.kiss = {
     la_late: "basium",
     egy_dem: "plain",
     mn_cn: "plain",
+    blr: "plain",
+    bru: "smell",
+    cjm: "smell",
+    hmn: "smell",
+    km: "plain",
+    kmc: "plain",
+    lic: "other",
+    lo: "plain",
+    mmd: "plain",
+    mra: "smell",
+    prk: "plain",
+    pt_mo: "basium",
+    wbm: "plain",
+    za: "smell",
   },
   routes: {
     kus: {"color":"#dc2626","emoji":"💋","en":"Germanic kiss (kiss, Kuss, kyss, キス)","ja":"ゲルマン語の kiss（kiss, Kuss, kyss, キス）","ko":"게르만어 kiss (kiss, Kuss, kyss, キス)","zh":"日耳曼语 kiss（kiss、Kuss、kyss、キス）","yue":"日耳曼語 kiss（kiss、Kuss、kyss、キス）","vi":"tiếng German kiss (kiss, Kuss, kyss, キス)","th":"เจอร์แมนิก kiss (kiss, Kuss, kyss, キス)","id":"Jermanik kiss (kiss, Kuss, kyss, キス)","hi":"जर्मैनिक kiss (kiss, Kuss, kyss, キス)","de":"germanisch Kuss (kiss, Kuss, kyss, キス)","fr":"le germanique kiss (kiss, Kuss, kyss, キス)","it":"il germanico kiss (kiss, Kuss, kyss, キス)","es":"el germánico kiss (kiss, Kuss, kyss, キス)","pt":"o germânico kiss (kiss, Kuss, kyss, キス)","ru":"германское kiss (kiss, Kuss, kyss, キス)","uk":"германське kiss (kiss, Kuss, kyss, キス)","ar":"الجرمانية kiss (kiss, Kuss, kyss, キス)","he":"הגרמאנית kiss (kiss, Kuss, kyss, キス)","sw":"Kijerumani kiss (kiss, Kuss, kyss, キス)"},
@@ -595,5 +609,19 @@ WORDS.kiss = {
     la_late: ["basium", "ˈbasjo"],
     egy_dem: ["py.t", "pi"],
     mn_cn: ["ᠦᠨᠦᠰᠬᠦ", "unsəx"],
+    blr: ["hɨt33", "hɨt˧˧"],  // IDS 801 Bulang (Peiros) hɨt.33, the doculect this row's other IDS cells come from.
+    bru: ["hũn", "hun"],
+    cjm: ["ꨌꨭꩌ", "cum"],  // The same word means 'to smell'.
+    hmn: ["hnia", "n̥ia˧"],  // Also 'to sniff'.
+    km: ["ថើប", "tʰaəp"],
+    kmc: ["ɕut323", "ɕut˧˨˧"],  // No image is recorded for it, so it counts as a word of its own.
+    lic: ["ru:t7", "ruːt˥˥"],  // Also 'to suck', as in smoking.
+    lo: ["ການຈູບ", "kaːn˩˧ tɕuːp˧˩"],
+    mmd: ["ɕut7", "ɕut˥˥"],
+    mra: ["muk", "muk"],  // The same word as sniff.
+    prk: ["hngeed", "ŋʰɯt"],
+    pt_mo: ["beijo", "ˈbɐjʒu"],
+    wbm: ["ngheut", "ŋ̊ɯt"],
+    za: ["cup", "ɕup˥"],
   },
 };

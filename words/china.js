@@ -536,6 +536,10 @@ WORDS.china = {
     el_koi: "cina",
     la_late: "other",
     ybe: "zhongguo",
+    lic: "zhongguo",
+    lis: "zhongguo",
+    prk: "zhongguo",
+    wbm: "zhongguo",
   },
   family2: {
     bo: "zhongguo",
@@ -1018,5 +1022,9 @@ WORDS.china = {
     el_koi: ["Σῖναι", "ˈsinɛ"],
     la_late: ["Serica", "ˈsereka"],
     ybe: ["čuŋkuo", "tʃuŋkuo"],  // Borrowed from Chinese 中国.
+    lic: ["toŋ2 kok7", "toŋ˥˥ kok˥˥"],  // From Chinese 中國.
+    lis: ["cho-kuo", "tɕo˦˦kuə˧˩"],
+    prk: ["Joung Gox", "tɕoŋ kɔʔ"],
+    wbm: ["Congkawx", "tɕoŋ kɔʔ"],
   },
 };

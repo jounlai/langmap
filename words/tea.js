@@ -796,6 +796,8 @@ WORDS.tea = {
     uby: "cha",
     vi_mid: "cha",
     ybe: "cha",
+    bdq: "cha",
+    lis: "cha",
   },
   // Route marker shown on each tea label (this concept only): which trade
   // route the word travelled. Localized; falls back to en.
@@ -1552,5 +1554,7 @@ WORDS.tea = {
     uby: ["čaaj", "tʃaːj"],  // From Russian чай, from Chinese 茶 chá.
     vi_mid: ["tlà", "tlaː˨˩"],
     ybe: ["ča", "tʃa"],  // Borrowed from Chinese 茶.
+    bdq: ["đak che", "ɗaːk cɛː"],
+    lis: ["tsha-zi", "tsʰɑ˧˩zɿ˧˧"],
   },
 };

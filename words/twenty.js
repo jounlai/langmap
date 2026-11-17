@@ -560,6 +560,36 @@ WORDS.twenty = {
     mvf: "plain",
     peh: "plain",
     qxs: "fused",
+    atb: "tens",
+    bca: "tens",
+    bdq: "tens",
+    blr: "loan",
+    blt: "plain",
+    bru: "tens",
+    duu: "tens",
+    ers: "tens",
+    hmn: "tens",
+    hni: "tens",
+    ii: "tens",
+    ium: "tens",
+    jiu: "tens",
+    kdt: "plain",
+    kmc: "tens",
+    kxm: "plain",
+    lhu: "tens",
+    lic: "tens",
+    lis: "tens",
+    mlm: "tens",
+    mmd: "tens",
+    mra: "plain",
+    nuf: "tens",
+    nxq: "tens",
+    pmi: "fused",
+    pt_mo: "fused",
+    shx: "tens",
+    swi: "tens",
+    th_isan: "plain",
+    tyz: "tens",
   },
   routes: {
     tens: {"color":"#2563eb","emoji":"🔟","en":"two and the free word for ten","ja":"二と「十」の語","ko":"둘과 ‘열’이라는 낱말","zh":"二加“十”这个词","yue":"二加「十」呢個詞","vi":"hai và từ “mười”","th":"สองกับคำว่าสิบ","id":"dua dan kata untuk sepuluh","hi":"दो और दस का शब्द","de":"zwei und das Wort für zehn","fr":"deux et le mot pour dix","it":"due e la parola per dieci","es":"dos y la palabra para diez","pt":"dois e a palavra para dez","ru":"два и слово «десять»","uk":"два і слово «десять»","ar":"اثنان وكلمة عشرة","he":"שתיים והמילה עשר","sw":"mbili na neno la kumi"},
@@ -1059,5 +1089,35 @@ WORDS.twenty = {
     mvf: ["hurin", "xurin"],
     peh: ["χoroŋ", "χoroŋ"],
     qxs: ["nəsɑ", "nə˧˩sɑ˧˧"],
+    atb: ["í xê", "i˥˥tsʰe˥˩"],
+    bca: ["niɕi", "ni˧˩ɕi˧˩"],  // Sun 1991 (Jianchuan Bai) ni³¹ɕi³¹. Surface follows the row: IPA without tones. 二十.
+    bdq: ["ʼbar-jĭt", "ɓaːr ɟit"],
+    blr: ["sau51", "sau˥˩"],  // IDS 801 Bulang (Peiros) sau.51, the doculect this row's other IDS cells come from. Borrowed from Tai saːw; ten is kui51.
+    blt: ["ꪏꪱꪫ", "saːw˥"],
+    bru: ["bar chít", "ɓaːr tʃit"],
+    duu: ["ɑnisɑn", "ɑnisɑn"],  // 'Two tens': ɑni 'two' + sɑn, as ten is tiʔsɑn 'one ten'.
+    ers: ["nɛtsʰɿ", "nɛ˥˥tsʰɿ˥˥"],  // 'Two tens': nɛ 'two'.
+    hmn: ["nees nkaum", "nẽ˨˩ ᵑɡau˨˩ˀ"],  // 'Two tens', with the counting forms of two and ten.
+    hni: ["niqcei", "ȵi˧˩tsʰe˧˧"],
+    ii: ["ꑍꊰ", "ɲi˨˩tsʰi˧˧"],  // ꑍ 'two' + ꊰ 'ten'.
+    ium: ["nyic ziepc", "ɲi˨˩ tsiep˨˩"],
+    jiu: ["ni55tshɯ42", "ni˥˥tsʰɯ˦˨"],  // 'Two tens'.
+    kdt: ["chi̤aw", "cʰiaw"],
+    kmc: ["ɲi33 ɕəp212", "ɲi˧˧ ɕəp˨˩˨"],  // Chinese numerals 二十, 'two ten'.
+    kxm: ["ម្ភៃ", "maː pʰɪː"],
+    lhu: ["nî-chi", "nîtsʰi"],  // Sun 1991 (Black Lahu) ni⁵³tshi³³, 'two tens' (ten is te⁵³tshi³³). Spelling is derived: tone marks converted using the row's own pairs (53 ^, 54 ^ʼ, 31 grave, 35 acute, 21 grave with glottal, 11 macron).
+    lic: ["ɬau3 fu:t7", "ɬau˩˩ fuːt˥˥"],  // 'Two tens'.
+    lis: ["nyi-tshi", "ɲi˧˩tsʰɿ˦˦"],
+    mlm: ["ȵi6 səp8", "ȵi˩˩ səp˩˨"],
+    mmd: ["ȵi6 zəp8", "ȵi˨˩˧ zəp˨˧"],
+    mra: ["saw", "saw"],
+    nuf: ["m̩55tshe35", "m̩˥˥tsʰe˧˥"],  // 'Two tens': m̩55 'two' + tshe35 'ten'.
+    nxq: ["nizerq", "ɲi˧tsɚ˨˩"],  // Sun 1991 (Lijiang Naxi) ȵi³³tsəɹ³¹. Naxi spelling is derived; the source is IPA. Two (ȵi) and ten (tsəɹ).
+    pmi: ["nə35ɣa53", "nə˧˥ɣa˥˧"],
+    pt_mo: ["vinte", "ˈvĩtɨ"],
+    shx: ["ŋi54 se35", "ŋi˥˦ se˧˥"],  // Borrowed from Chinese 二十 'two tens'.
+    swi: ["ȵi6 sup8", "ȵi˨˦ sup˧˩"],
+    th_isan: ["ซาว", "saːw˧˥˨"],
+    tyz: ["nhi̱ slíp", "ɲi˩˩ ɬip̚˧˥"],  // 'Two ten': slíp is 'ten'.
   },
 };

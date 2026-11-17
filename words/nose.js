@@ -1203,5 +1203,6 @@ WORDS.nose = {
     la_late: ["nasus", "ˈnasos"],
     egy_dem: ["šy", "ʃa"],
     vi_mid: ["mũi", "muj˧ˀ˥"],
+    blt: ["ꪒꪰꪉ", "daŋ˨"],
   },
 };

@@ -1252,5 +1252,6 @@ WORDS.four = {
     la_late: ["quattuor", "ˈkʷattuor"],
     egy_dem: ["ftw", "ftoːu"],
     vi_mid: ["bốn", "ɓon˧˥"],
+    cja: ["ڤآء", "paʔ"],  // Wiktionary Cham Jawi spelling; Kvoeu-Hor & Friberg (1978) pak.
   },
 };

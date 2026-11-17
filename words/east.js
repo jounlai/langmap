@@ -491,6 +491,27 @@ WORDS.east = {
     qxs: "dong",
     sce: "dong",
     ybe: "front",
+    bca: "dong",
+    bdq: "rising",
+    bru: "rising",
+    hmn: "rising",
+    ii: "rising",
+    ium: "dong",
+    kdt: "plain",
+    khb: "rising",
+    kmc: "dong",
+    lhu: "rising",
+    lic: "rising",
+    mlm: "dong",
+    mmd: "dong",
+    mra: "rising",
+    nxq: "rising",
+    pmi: "plain",
+    prk: "rising",
+    pt_mo: "dawn",
+    tji: "dong",
+    wbm: "rising",
+    za: "dong",
   },
   routes: {
     dawn: {"color":"#f59e0b","emoji":"🌄","en":"a word for dawn or morning (east, Osten, est)","ja":"夜明け・朝の語（east, Osten, est）","ko":"새벽·아침의 말 (east, Osten, est)","zh":"表示黎明或早晨的词（east、Osten、est）","yue":"解黎明或者朝早嘅詞（east、Osten、est）","vi":"từ chỉ bình minh, buổi sáng (east, Osten, est)","th":"คำสำหรับรุ่งอรุณหรือเช้า (east, Osten, est)","id":"kata untuk fajar atau pagi (east, Osten, est)","hi":"भोर या सुबह का शब्द (east, Osten, est)","de":"ein Wort für Morgenröte oder Morgen (east, Osten, est)","fr":"un mot pour l'aube ou le matin (east, Osten, est)","it":"una parola per l'alba o il mattino (east, Osten, est)","es":"una palabra para el alba o la mañana (east, Osten, est)","pt":"uma palavra para a aurora ou a manhã (east, Osten, est)","ru":"слово для зари или утра (east, Osten, est)","uk":"слово для світанку чи ранку (east, Osten, est)","ar":"كلمة للفجر أو الصباح (east, Osten, est)","he":"מילה לשחר או לבוקר (east, Osten, est)","sw":"neno la alfajiri au asubuhi (east, Osten, est)"},
@@ -920,5 +941,26 @@ WORDS.east = {
     qxs: ["tuŋ", "tuŋ˥˥"],  // Borrowed from Chinese 东.
     sce: ["dun", "tun"],
     ybe: ["untïn", "untɯn"],  // From an old word for 'in front'.
+    bca: ["tɤ̃", "tɤ̃˥˥"],  // Sun 1991 (Jianchuan Bai) tṽ⁵⁵. Surface follows the row: IPA without tones. Bai form of 東.
+    bdq: ["hơlĕch", "həlɛc"],
+    bru: ["angia mandang loŏh", "ʔaŋia mandaŋ lɔh"],  // Where the sun comes out.
+    hmn: ["sab hnub tuaj", "ʂa˥ n̥u˥ tua˥˨"],  // 'The side where the sun comes'.
+    ii: ["ꁭꅐ", "bu˧˦du̠˧˧"],  // The sun comes out.
+    ium: ["dong bung", "toŋ˧ puŋ˧"],
+    kdt: ["ŋlɑ̤h", "ŋlɑh"],
+    khb: ["ᦠᦳᧃᦞᧃᦀᦸᧅ", "hun˥ van˥˩ ʔɔːk˧˥"],
+    kmc: ["toŋ55", "toŋ˥˥"],  // Borrowed from Chinese 东.
+    lhu: ["mû-ni-tɔ̂ʼ", "mûnitɔ̂ʔ"],  // Sun 1991 (Black Lahu) mu⁵³ni³³tɔ⁵⁴: mû-ni 'sun' + tɔ̂ʼ 'rise (of the sun)'. Spelling is derived: tone marks converted using the row's own pairs (53 ^, 54 ^ʼ, 31 grave, 35 acute, 21 grave with glottal, 11 macron).
+    lic: ["tsha1 hwan1 thɯ:n1", "tsʰa˥˧ hwan˥˧ tʰɯːn˥˧"],  // Where the sun (tsha1 hwan1) comes out.
+    mlm: ["tɔŋ1", "tɔŋ˦˨"],
+    mmd: ["toŋ5", "toŋ˦˦"],
+    mra: ["ki le", "ki le"],  // Where the day comes out.
+    nxq: ["nimeitv", "ɲi˧me˧tʰv̩˧"],  // Sun 1991 (Lijiang Naxi) ȵi³³me³³thv³³. Naxi spelling is derived; the source is IPA. 'Where the sun (ni-mei) rises (tʰv³³)'.
+    pmi: ["ɕɐ53", "ɕɐ˥˧"],
+    prk: ["blag līh", "plak li̤h"],
+    pt_mo: ["este", "ˈɛʃtɨ"],
+    tji: ["dong", "toŋ˥˥"],
+    wbm: ["plak lih", "plak lih"],
+    za: ["doeng", "toŋ˨˦"],
   },
 };

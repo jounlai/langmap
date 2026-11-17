@@ -1252,5 +1252,6 @@ WORDS.mouth = {
     la_late: ["os", "os"],
     egy_dem: ["rꜣ", "ro"],
     vi_mid: ["miệng", "miəŋ˧˨ʔ"],
+    lis: ["mu-lu", "mɯ˧˩lɯ˧˥"],
   }
 };

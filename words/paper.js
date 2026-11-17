@@ -448,6 +448,21 @@ WORDS.paper = {
     sce: "plain",
     ybe: "kaghaz",
     yuy: "plain",
+    bca: "chinese",
+    bdq: "leaf",
+    blr: "plain",
+    bru: "chinese",
+    duu: "plain",
+    hmn: "plain",
+    ii: "plain",
+    jiu: "other",
+    kmc: "chinese",
+    kxm: "charta",
+    lis: "plain",
+    mlm: "chinese",
+    mmd: "chinese",
+    nxq: "plain",
+    th_isan: "plain",
   },
   routes: {
     papyrus: {"color":"#2563eb","emoji":"📜","en":"from Latin papyrus (papier, papel, Papier)","ja":"ラテン語 papyrus から（papier, papel, Papier）","ko":"라틴어 papyrus에서 (papier, papel, Papier)","zh":"源自拉丁语 papyrus（papier, papel, Papier）","yue":"源自拉丁文 papyrus（papier, papel, Papier）","vi":"từ tiếng Latinh papyrus (papier, papel, Papier)","th":"จากภาษาละติน papyrus (papier, papel, Papier)","id":"dari bahasa Latin papyrus (papier, papel, Papier)","hi":"लैटिन papyrus से (papier, papel, Papier)","de":"aus lateinisch papyrus (papier, papel, Papier)","fr":"du latin papyrus (papier, papel, Papier)","it":"dal latino papyrus (papier, papel, Papier)","es":"del latín papyrus (papier, papel, Papier)","pt":"do latim papyrus (papier, papel, Papier)","ru":"из латинского papyrus (papier, papel, Papier)","uk":"з латинського papyrus (papier, papel, Papier)","ar":"من اللاتينية papyrus (papier, papel, Papier)","he":"מ-papyrus הלטינית (papier, papel, Papier)","sw":"kutoka Kilatini papyrus (papier, papel, Papier)"},
@@ -836,5 +851,20 @@ WORDS.paper = {
     sce: ["giejie", "kjəˈtɕjə"],
     ybe: ["kegte", "keɡte"],  // From Persian kāğad.
     yuy: ["tʃaasə", "tʃaːsə"],
+    bca: ["tsi", "tsi˧˧"],  // Sun 1991 (Jianchuan Bai) tsi³³. Surface follows the row: IPA without tones. Bai form of 紙.
+    bdq: ["hla bơar", "hlaː bəar"],
+    blr: ["ka31 nak33", "ka˧˩ nak˧˧"],  // IDS 801 Bulang (Peiros) ka.31 nak.33, the doculect this row's other IDS cells come from. The same word as book.
+    bru: ["choâiq", "tʃəjʔ"],
+    duu: ["ɕuɡu", "ɕuɡu"],  // Compare Tibetan ཤོག་བུ shog bu.
+    hmn: ["ntawv", "ⁿdaɨ˨˦"],  // Also 'book'.
+    ii: ["ꄯꒉ", "tʰɯ˨˩ʑɿ˧˧"],  // The same word as book.
+    jiu: ["a33pjo33", "a˧˧pjo˧˧"],  // The same word as book and letter, from pjo33 'to write'.
+    kmc: ["tɕhi13", "tɕʰi˩˧"],  // Borrowed from Chinese 纸.
+    kxm: ["ក្រដាស", "kɗaːh"],
+    lis: ["tho-uh", "tʰo˧˩ɣɯ˧˩"],
+    mlm: ["tsi3", "tsi˥˧"],
+    mmd: ["tsi3", "tsi˥˩"],
+    nxq: ["seiseel", "se˧sɿ˥"],  // Sun 1991 (Lijiang Naxi) se³³sɯ⁵⁵. Naxi spelling is derived; the source is IPA.
+    th_isan: ["กระดาษ", "ka˨˦daːt˨"],
   },
 };

@@ -523,6 +523,17 @@ WORDS.island = {
     vi_mid: "water",
     mn_cn: "aral",
     yuy: "aral",
+    bru: "plain",
+    hmn: "plain",
+    khb: "plain",
+    kmc: "dao",
+    lic: "dao",
+    mlm: "dao",
+    mmd: "dao",
+    mra: "plain",
+    mtq: "dao",
+    th_isan: "plain",
+    za: "dao",
   },
   routes: {
     insula: {"color":"#2563eb","emoji":"🏛️","en":"from Latin īnsula (isla, île, Insel)","ja":"ラテン語 īnsula から (isla, île, Insel)","ko":"라틴어 īnsula에서 (isla, île, Insel)","zh":"来自拉丁语 īnsula (isla, île, Insel)","yue":"嚟自拉丁語 īnsula (isla, île, Insel)","vi":"từ tiếng Latinh īnsula (isla, île, Insel)","th":"จากภาษาละติน īnsula (isla, île, Insel)","id":"dari īnsula Latin (isla, île, Insel)","hi":"लैटिन īnsula से (isla, île, Insel)","de":"aus lateinisch īnsula (isla, île, Insel)","fr":"du latin īnsula (isla, île, Insel)","it":"dal latino īnsula (isla, île, Insel)","es":"del latín īnsula (isla, île, Insel)","pt":"do latim īnsula (isla, île, Insel)","ru":"от латинского īnsula (isla, île, Insel)","uk":"від латинського īnsula (isla, île, Insel)","ar":"من اللاتينية īnsula (isla, île, Insel)","he":"מהלטינית īnsula (isla, île, Insel)","sw":"kutoka Kilatini īnsula (isla, île, Insel)"},
@@ -986,5 +997,16 @@ WORDS.island = {
     vi_mid: ["núi nước", "nuj˧˥ nɨək˧˥"],
     mn_cn: ["ᠠᠷᠠᠯ", "ɑrɑl"],
     yuy: ["aral", "aral"],
+    bru: ["cỗn", "kon"],
+    hmn: ["kob", "kɔ˥"],  // A loan word.
+    khb: ["ᦂᦸᦰᦡᦸᧃ", "kɔ˥ dɔn˥"],
+    kmc: ["tau31", "tau˧˩"],  // Borrowed from Chinese 岛.
+    lic: ["da:u3", "daːu˩˩"],  // From Chinese 島.
+    mlm: ["ta:u3", "taːu˥˧"],
+    mmd: ["ta:u3", "taːu˥˩"],
+    mra: ["kɔʔ", "kɔʔ"],
+    mtq: ["đảo", "ɗaːw"],
+    th_isan: ["เกาะ", "kɔ˨˦"],
+    za: ["dauj", "taːu˥"],
   },
 };

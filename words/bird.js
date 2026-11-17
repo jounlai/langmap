@@ -1219,5 +1219,6 @@ WORDS.bird = {
     el_koi: ["πετεινόν", "petiˈnon"],
     la_late: ["avis", "ˈaβes"],
     vi_mid: ["chim", "cim˧"],
+    kxm: ["កូនចាប", "koːn caːp"],
   },
 };

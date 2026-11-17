@@ -333,6 +333,18 @@ WORDS.earthquake = {
     arc: "shake",
     mn_cn: "earth",
     jya: "plain",
+    ahk: "earth",
+    bdq: "earth",
+    blr: "earth",
+    blt: "earth",
+    bru: "earth",
+    hmn: "earth",
+    ium: "earth",
+    khb: "earth",
+    kmc: "earth",
+    mlm: "earth",
+    mmd: "earth",
+    za: "earth",
   },
   routes: {
     earth: {"color":"#b45309","emoji":"🌍","en":"earth + shaking (Erdbeben, terremoto, भूकंप, 地震)","ja":"大地＋揺れ (Erdbeben, terremoto, भूकंप, 地震)","ko":"땅 + 흔들림 (Erdbeben, terremoto, भूकंप, 地震)","zh":"地 + 震 (Erdbeben, terremoto, भूकंप, 地震)","yue":"地 + 震 (Erdbeben, terremoto, भूकंप, 地震)","vi":"đất + rung (Erdbeben, terremoto, भूकंप, 地震)","th":"ดิน + สั่น (Erdbeben, terremoto, भूकंप, 地震)","id":"bumi + guncang (Erdbeben, terremoto, भूकंप, 地震)","hi":"धरती + कंपन (Erdbeben, terremoto, भूकंप, 地震)","de":"Erde + Beben (Erdbeben, terremoto, भूकंप, 地震)","fr":"terre + tremblement (Erdbeben, terremoto, भूकंप, 地震)","it":"terra + tremore (Erdbeben, terremoto, भूकंप, 地震)","es":"tierra + temblor (Erdbeben, terremoto, भूकंप, 地震)","pt":"terra + tremor (Erdbeben, terremoto, भूकंप, 地震)","ru":"земля + тряска (Erdbeben, terremoto, भूकंप, 地震)","uk":"земля + трус (Erdbeben, terremoto, भूकंप, 地震)","ar":"أرض + اهتزاز (Erdbeben, terremoto, भूकंप, 地震)","he":"אדמה + רעד (Erdbeben, terremoto, भूकंप, 地震)","sw":"ardhi + tikisa (Erdbeben, terremoto, भूकंप, 地震)"},
@@ -609,5 +621,17 @@ WORDS.earthquake = {
     arc: ["זִיעָא", "ziːʕaː"],
     mn_cn: ["ᠭᠠᠵᠠᠷ ᠬᠥᠳᠡᠯᠦᠯᠲᠡ", "ɢɑdʒɑr xɵdlɵlt"],
     jya: ["mbə lə", "mbələ"],
+    ahk: ["mi luq luq", "mi˥lṵ˧lṵ˧"],  // mi 'earth'.
+    bdq: ["teh tơdrŏ", "tɛh tədrɔʔ"],
+    blr: ["ka31 tɛ51 ka31 jɨh51", "ka˧˩ tɛ˥˩ ka˧˩ jɨh˥˩"],  // IDS 801 Bulang (Peiros) ka.31 tɛ.51 ka.31 jɨh.51, the doculect this row's other IDS cells come from. Earth (ka31 tɛ51) shaking (ka31 jɨh51).
+    blt: ["ꪵꪠ꪿ꪙꪒꪲꪙꪘꪳꪉ", "pʰɛn˦˥ din˨ nɯŋ˨"],
+    bru: ["cutễq cacưt", "kuteʔ kəkɨt"],  // Earth + shaking.
+    hmn: ["av qeeg", "a˨˦ qẽ˧˩"],  // av 'earth'.
+    ium: ["ndau dongz", "dau˧ toŋ˨˧"],
+    khb: ["ᦶᦕᧃᧈᦡᦲᧃᦺᦛ", "pʰɛn˧˥ din˥ vaj˥"],
+    kmc: ["ti55 tɕən55", "ti˥˥ tɕən˥˥"],  // Borrowed from Chinese 地震, 'earth shakes'.
+    mlm: ["ti4 tsən4", "ti˨˦ tsən˨˦"],
+    mmd: ["ti4 tsən4", "ti˨˦ tsən˨˦"],
+    za: ["deihdoengh", "tei˧ toŋ˧"],
   },
 };

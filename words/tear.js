@@ -429,6 +429,33 @@ WORDS.tear = {
     sce: "plain",
     yuy: "plain",
     ybe: "plain",
+    ahk: "eye",
+    bca: "plain",
+    bdq: "eyewater",
+    blr: "eyewater",
+    bru: "eye",
+    duu: "eye",
+    ers: "eye",
+    hmn: "eyewater",
+    hni: "eye",
+    ii: "eye",
+    ium: "eyewater",
+    jiu: "eyewater",
+    khb: "eyewater",
+    kmc: "eyewater",
+    kxm: "eyewater",
+    lhu: "eye",
+    lic: "eyewater",
+    lis: "plain",
+    lo: "eyewater",
+    mlm: "eyewater",
+    mmd: "eyewater",
+    nuf: "other",
+    nxq: "eye",
+    pmi: "eye",
+    prk: "eyewater",
+    pt_mo: "plain",
+    wbm: "eyewater",
   },
   routes: {
     eyewater: {"color":"#0891b2","emoji":"💧","en":"eye + water (air mata, 눈물, nước mắt)","ja":"目＋水（air mata, 눈물, nước mắt）","ko":"눈 + 물 (air mata, 눈물, nước mắt)","zh":"眼＋水（air mata、눈물、nước mắt）","yue":"眼＋水（air mata、눈물、nước mắt）","vi":"mắt + nước (air mata, 눈물, nước mắt)","th":"ตา + น้ำ (air mata, 눈물, nước mắt)","id":"mata + air (air mata, 눈물, nước mắt)","hi":"आँख + पानी (air mata, 눈물, nước mắt)","de":"Auge + Wasser (air mata, 눈물, nước mắt)","fr":"œil + eau (air mata, 눈물, nước mắt)","it":"occhio + acqua (air mata, 눈물, nước mắt)","es":"ojo + agua (air mata, 눈물, nước mắt)","pt":"olho + água (air mata, 눈물, nước mắt)","ru":"глаз + вода (air mata, 눈물, nước mắt)","uk":"око + вода (air mata, 눈물, nước mắt)","ar":"عين + ماء (air mata, 눈물, nước mắt)","he":"עין + מים (air mata, 눈물, nước mắt)","sw":"jicho + maji (air mata, 눈물, nước mắt)"},
@@ -802,5 +829,32 @@ WORDS.tear = {
     sce: ["nubusun", "nupuˈsun"],
     yuy: ["nuləsən", "nuləsən"],
     ybe: ["jas", "jas"],
+    ahk: ["myaq bi", "mja̰˧bi˥"],  // Eye (myaq) + bi.
+    bca: ["miɕĩ", "mi˦˨ɕĩ˦˨"],  // Sun 1991 (Jianchuan Bai) mi⁴²ɕĩ⁴². Surface follows the row: IPA without tones.
+    bdq: ["đak măt", "ɗaːk mat"],
+    blr: ["ʔum51 ŋai51", "ʔum˥˩ ŋai˥˩"],  // IDS 801 Bulang (Peiros) ʔum.51 ŋai.51, the doculect this row's other IDS cells come from. Water (ʔum) of the eye (ŋai).
+    bru: ["sarliang moat", "sarliaŋ mat"],  // Built on moat 'eye'.
+    duu: ["mepi", "mepi"],  // Begins with the word for eye.
+    ers: ["miɑbo", "miɑ˥˥bo˥˥"],  // miɑ is 'eye'.
+    hmn: ["kua muag", "kua˧ mua˧˩"],  // 'Liquid of the eye'.
+    hni: ["miavbil", "mja˧˧bi˥˥"],
+    ii: ["ꑓꁴ", "ɲɔ˧˧bɿ˧˧"],  // Built on ꑓ 'eye'.
+    ium: ["wuom-mueic", "wuom˧muei˨˩"],
+    jiu: ["mjɐ42ji33", "mjɐ˦˨ji˧˧"],  // Eye (mja42) + water (ji).
+    khb: ["ᦓᧄᧉᦎᦱ", "nam˩ taː˥"],
+    kmc: ["nɐm31 ta55", "nɐm˧˩ ta˥˥"],  // nɐm31 'water' + ta55 'eye'.
+    kxm: ["ទឹកភ្នែក", "tɨʔ pʰneːʔ"],
+    lhu: ["mɛ̂ʼ-g̈ə̀", "mɛ̂ʔɣə̀"],  // Sun 1991 (Black Lahu) mɛ⁵⁴ɣə³¹, built on mɛ̂ʼ 'eye'. Spelling is derived: tone marks converted using the row's own pairs (53 ^, 54 ^ʼ, 31 grave, 35 acute, 21 grave with glottal, 11 macron).
+    lic: ["nom3 tsha1", "nom˩˩ tsʰa˥˧"],  // 'Water of the eye'.
+    lis: ["mya-bi", "miɛ˦˦bi˦˦"],
+    lo: ["ນ້ຳຕາ", "nam˥˨ taː˩˧"],
+    mlm: ["nəm4 l̥a1", "nəm˨˦ l̥a˦˨"],
+    mmd: ["nam3 ⁿda1", "nam˥˩ ⁿda˦˨"],
+    nuf: ["ŋɯ35bɹi35ɑ55", "ŋɯ˧˥bɹi˧˥ɑ˥˥"],  // Begins with ŋɯ35 'weep'.
+    nxq: ["mieqnber", "miə˨˩mbɚ˧"],  // Sun 1991 (Lijiang Naxi) miə³¹mbəɹ³³. Naxi spelling is derived; the source is IPA. miə³¹ is the eye.
+    pmi: ["ȵɛ53bʐe35", "ɲɛ˥˧bʐe˧˥"],
+    prk: ["rom ngai", "rɔm ŋai"],
+    pt_mo: ["lágrima", "ˈlaɣɾimɐ"],
+    wbm: ["rawm ngai", "rɔm ŋai"],
   },
 };

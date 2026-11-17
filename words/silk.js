@@ -849,5 +849,6 @@ WORDS.silk = {
     slr: ["dori", "tori"],
     yuy: ["torʁo", "torʁo"],
     ybe: ["tavar", "taβar"],
+    mtq: ["lúa", "luə"],
   }
 };

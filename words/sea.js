@@ -1125,5 +1125,6 @@ WORDS.sea = {
     la_late: ["mare", "ˈmare"],
     egy_dem: ["ym", "jom"],
     vi_mid: ["bể", "ɓe˧˩˧"],
+    atb: ["wuì ming", "vui˥˩miŋ˨˩"],
   }
 };

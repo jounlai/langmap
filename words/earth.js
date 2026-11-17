@@ -1222,5 +1222,6 @@ WORDS.earth = {
     egy_dem: ["jtn", "itən"],
     vi_mid: ["đất", "ɗət˧˥"],
     mvf: ["ghajari", "ɢaʥari"],
+    tji: ["peti", "pʰɯe˧˥tʰi˥˥"],
   }
 };

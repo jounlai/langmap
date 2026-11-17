@@ -1128,5 +1128,7 @@ WORDS.book = {
     egy_dem: ["ḏmꜥ", "tʃoːme"],
     vi_mid: ["sách", "ʂac˧˥"],
     mvf: ["pujiu", "puʥiu"],
+    blt: ["ꪝꪚꪾ", "pap˦"],
+    kdt: ["sɤː", "sɤː"],
   }
 };

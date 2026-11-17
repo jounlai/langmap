@@ -352,6 +352,13 @@ WORDS.chili = {
     cng: "foreign",
     jya: "foreign",
     ybe: "hot",
+    bca: "hot",
+    blr: "pepper",
+    mra: "pepper",
+    nxq: "hot",
+    pt_mo: "pepper",
+    tyz: "hot",
+    za: "hot",
   },
   routes: {
     chilli: {"color":"#dc2626","emoji":"🌶️","en":"Nahuatl chīlli (chile, chili, sili)","ja":"ナワトル語 chīlli（chile, chili, sili）","ko":"나우아틀어 chīlli (chile, chili, sili)","zh":"纳瓦特尔语 chīlli（chile、chili、sili）","yue":"納瓦特爾語 chīlli（chile、chili、sili）","vi":"tiếng Nahuatl chīlli (chile, chili, sili)","th":"นาวาตล์ chīlli (chile, chili, sili)","id":"Nahuatl chīlli (chile, chili, sili)","hi":"नाहुआत्ल chīlli (chile, chili, sili)","de":"Nahuatl chīlli (chile, Chili, sili)","fr":"le nahuatl chīlli (chile, chili, sili)","it":"il nahuatl chīlli (chile, chili, sili)","es":"el náhuatl chīlli (chile, chili, sili)","pt":"o náuatle chīlli (chile, chili, sili)","ru":"науатль chīlli (chile, chili, sili)","uk":"науатль chīlli (chile, chili, sili)","ar":"الناواتل chīlli (chile, chili, sili)","he":"הנאוואטל chīlli (chile, chili, sili)","sw":"Kinahuatl chīlli (chile, chili, sili)"},
@@ -642,5 +649,12 @@ WORDS.chili = {
     cng: ["χai tshu", "χai tsʰu"],
     jya: ["hɐi tso", "hɐitso"],
     ybe: ["lazï", "lazɯ"],  // Borrowed from local Chinese 辣子.
+    bca: ["latsi", "la˧˥tsi˧˧"],  // Sun 1991 (Jianchuan Bai) lɑ³⁵tsi³³. Surface follows the row: IPA without tones. A loan of 辣子 'the hot one'.
+    blr: ["phik31 hɛ33", "pʰik˧˩ hɛ˧˧"],  // IDS 801 Bulang (Peiros) phik.31 hɛ.33, the doculect this row's other IDS cells come from. Built on Tai phik 'pepper', as Tai Lue maːk pʰik is.
+    mra: ["preʔ", "preʔ"],
+    nxq: ["lafzerq", "lɑ˩˧tsɚ˨˩"],  // Sun 1991 (Lijiang Naxi) lɑ¹³tsəɹ³¹. Naxi spelling is derived; the source is IPA. A loan of 辣子 'the hot one'.
+    pt_mo: ["malagueta", "mɐlɐˈɣetɐ"],
+    tyz: ["mác phết", "maːk̚˧˥ pʰet̚˧˥"],  // 'Spicy fruit': phết is 'hot, spicy', as in Lao ໝາກເຜັດ.
+    za: ["lwgmanh", "lɯk˧ maːn˧"],
   },
 };

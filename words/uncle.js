@@ -389,6 +389,24 @@ WORDS.uncle = {
     khg: "split",
     qxs: "split",
     ybe: "split",
+    ahk: "split",
+    bca: "split",
+    bdq: "one",
+    blr: "one",
+    bru: "split",
+    duu: "split",
+    ers: "split",
+    hmn: "split",
+    hni: "split",
+    jiu: "split",
+    kdt: "one",
+    kmc: "split",
+    lhu: "split",
+    lic: "one",
+    nuf: "split",
+    nxq: "split",
+    pmi: "split",
+    za: "split",
   },
   routes: {
     split: {"color":"#db2777","emoji":"↔️","en":"father's brother ≠ mother's brother","ja":"父の兄弟と母の兄弟で別の語","ko":"아버지의 형제와 어머니의 형제가 다른 낱말","zh":"父亲的兄弟和母亲的兄弟用不同的词","yue":"老豆嘅兄弟同阿媽嘅兄弟用唔同嘅詞","vi":"anh em của cha ≠ anh em của mẹ","th":"พี่น้องชายของพ่อกับของแม่เป็นคนละคำ","id":"saudara ayah ≠ saudara ibu","hi":"पिता का भाई ≠ माँ का भाई","de":"Bruder des Vaters ≠ Bruder der Mutter","fr":"frère du père ≠ frère de la mère","it":"fratello del padre ≠ fratello della madre","es":"hermano del padre ≠ hermano de la madre","pt":"irmão do pai ≠ irmão da mãe","ru":"брат отца ≠ брат матери","uk":"брат батька ≠ брат матері","ar":"أخو الأب ≠ أخو الأم","he":"אחי האב ≠ אחי האם","sw":"kaka wa baba ≠ kaka wa mama"},
@@ -720,5 +738,23 @@ WORDS.uncle = {
     khg: ["ཨ་ཁུ", "ʔa˥˧kʰu˥˧"],  // Mother's brother: ʔa˥˧ɣuŋ˥˥.
     qxs: ["pepe", "pe˧˧pe˧˧"],  // The father's elder brother; the mother's brother is tɕytɕy.
     ybe: ["aka", "aka"],  // The father's elder brother; the mother's brother is taqa.
+    ahk: ["a zaw", "a˨˩zɔ˥"],  // The father's younger brother; the mother's brother is a gʼoe.
+    bca: ["tata", "ta˥˥ta˥˥"],  // Sun 1991 (Jianchuan Bai) tɑ⁵⁵tɑ⁵⁵. Surface follows the row: IPA without tones. Father's elder brother; the mother's brother is ɑ³¹tɕo⁵⁵.
+    bdq: ["mih", "mih"],
+    blr: ["kɨiŋ51 pu51", "kɨiŋ˥˩ pu˥˩"],  // IDS 801 Bulang (Peiros) kɨiŋ.51 pu.51 for all three, the doculect this row's other IDS cells come from. The same word for the father's and the mother's brother.
+    bru: ["bac", "ɓak"],  // Father's brother; mother's brother is cũq.
+    duu: ["ɑwɑŋ", "ɑwɑŋ"],  // Father's brother; mother's brother is ɑkɯ.
+    ers: ["ɑkʰuɑ", "ɑ˥˥kʰuɑ˥˥"],  // Father's elder brother; the mother's brother is xəmo.
+    hmn: ["txiv hlob", "tsi˨˦ ɬɔ˥"],  // The father's elder brother; his younger brother is txiv ntxawm and the mother's brother dab laug.
+    hni: ["damoq", "da˧˧mo˧˩"],  // mother's brother: a˧˩ɣø˧˧
+    jiu: ["a33tɕy44", "a˧˧tɕy˦˦"],  // The father's elder brother, and also the mother's brother; the father's younger brother is a33tʃhi42.
+    kdt: ["lṳːŋ", "luːŋ"],  // One word for either parent's older brother; a parent's younger brother is ɲi̤ː.
+    kmc: ["pu31 mak323", "pu˧˩ mak˧˨˧"],  // Father's brother; the mother's brother is ljoŋ33.
+    lhu: ["a-pa-ló", "apaló"],  // Sun 1991 (Black Lahu) ᴀ³³pᴀ³³lo³⁵, father's elder brother; mother's brother is a-phâ (ᴀ³³phᴀ⁵³). Spelling is derived: tone marks converted using the row's own pairs (53 ^, 54 ^ʼ, 31 grave, 35 acute, 21 grave with glottal, 11 macron).
+    lic: ["tshai3", "tsʰai˩˩"],  // One word for the father's and the mother's brother.
+    nuf: ["iɑ31guɑ35mɔ53", "iɑ˧˩ɡuɑ˧˥mɔ˥˧"],  // Father's elder brother; mother's brother is iɑ31phɯ35.
+    nxq: ["eqdal", "ə˨˩tɑ˥"],  // Sun 1991 (Lijiang Naxi) ə³¹tɑ⁵⁵. Naxi spelling is derived; the source is IPA. Father's elder brother; the mother's brother is ə³¹tɕy⁵⁵ (eqjiul).
+    pmi: ["a55põ55", "a˥˥põ˥˥"],  // Father's elder brother; the mother's brother is a⁵⁵kio⁵³.
+    za: ["lungz", "luŋ˧˩"],  // parent's elder brother; au is the father's younger brother
   },
 };

@@ -393,6 +393,15 @@ WORDS.dragonfly = {
     nci: "other",
     tkl: "plain",
     mn_cn: "other",
+    ers: "plain",
+    kdt: "plain",
+    kjg: "plain",
+    kxm: "plain",
+    pcc: "plain",
+    pt_mo: "plain",
+    tji: "plain",
+    tyz: "plain",
+    wbm: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -731,5 +740,14 @@ WORDS.dragonfly = {
     nci: ["āpipiyōllōtl", "aːpipiˈjoːlːoːtɬ"],  // Built from ātl 'water' and pipiyōlin 'bee'.
     tkl: ["hēhēmū", "heːheːmuː"],  // From Proto-Polynesian *mu, which names insects in Hawaiian mū.
     mn_cn: ["ᠥᠷᠦᠮᠡᠨ ᠬᠤᠯᠠᠭᠠᠢᠴᠢ", "ɵrmən χʊlɢɑitʃʰ"],
+    ers: ["tĩtĩmaʴ", "tĩ˥˥tĩ˥˥maʴ˥˥"],  // No image is recorded for it, so it counts as a word of its own.
+    kdt: ["mphra̤ːh toːŋ", "mpʰraːh toːŋ"],
+    kjg: ["tlɛŋtɛŋ", "tlɛŋtɛŋ"],
+    kxm: ["កន្ទុំរុយ", "ktum ruj"],
+    pcc: ["bih", "pi˧"],  // No image is recorded for it, so it counts as a word of its own.
+    pt_mo: ["libélula", "liˈβɛlulɐ"],
+    tji: ["ranbuli", "zan˧˥pu˥˥li˥˥"],
+    tyz: ["mèng quang", "mɛŋ˧˨ kwaːŋ˧˥"],  // No image is recorded for it, so it counts as a word of its own.
+    wbm: ["ak yawng", "ʔakjɔŋ"],
   },
 };

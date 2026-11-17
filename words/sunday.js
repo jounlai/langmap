@@ -492,6 +492,16 @@ WORDS.sunday = {
     arc: "count",
     mn_cn: "other",
     cdo: "other",
+    hmn: "sun",
+    khb: "sun",
+    kmc: "other",
+    kxm: "sun",
+    lic: "other",
+    mlm: "other",
+    mmd: "other",
+    prk: "holy",
+    wbm: "holy",
+    za: "other",
   },
   routes: {
     sun: {"color":"#eab308","emoji":"☀️","en":"the sun's day","ja":"太陽の日","ko":"해의 날","zh":"太阳之日","yue":"太陽嘅日","vi":"ngày mặt trời","th":"วันของดวงอาทิตย์","id":"hari matahari","hi":"सूर्य का दिन","de":"Tag der Sonne","fr":"jour du soleil","it":"giorno del sole","es":"día del sol","pt":"dia do sol","ru":"день солнца","uk":"день сонця","ar":"يوم الشمس","he":"יום השמש","sw":"siku ya jua"},
@@ -924,5 +934,15 @@ WORDS.sunday = {
     arc: ["חַד בְּשַׁבָּא", "ħað bʃabbaː"],
     mn_cn: ["ᠭᠠᠷᠠᠭ ᠤᠨ ᠡᠳᠦᠷ", "ɡɑrɑɡiŋ ədur"],
     cdo: ["礼拜日", "lɛ˧˧ pai˨˩˧ niʔ˥"],  // 禮拜 'week (lit. worship)' + 日 'day', as in the row's 禮拜六.
+    hmn: ["hnub vas thiv", "n̥u˥ va˨˩ tʰi˨˦"],  // From Lao ວັນອາທິດ, the sun's day.
+    khb: ["ᦞᧃᦁᦱᦑᦲᧆ", "van˥˩ ʔaː˥˩ tit˧"],
+    kmc: ["mɐn55 ɕən33 tɕhi212", "mɐn˥˥ ɕən˧˧ tɕʰi˨˩˨"],  // mɐn55 'day' + ɕən33 tɕʰi212 'week', from Chinese 星期.
+    kxm: ["ថ្ងៃអាទិត្យ", "ŋaj ʔtɨt"],
+    lic: ["tsheŋ2 khi3 thi2", "tsʰeŋ˥˥ kʰi˩˩ tʰi˥˥"],  // From Chinese 星期日.
+    mlm: ["li3 pa:i4 thian5", "li˥˧ paːi˨˦ tʰian˦˦"],
+    mmd: ["siŋ5 khi2 thian5", "siŋ˦˦ kʰi˨˧˩ tʰian˦˦"],
+    prk: ["ngāix dūah", "ŋa̤iʔ tṳah"],
+    wbm: ["ngaix twah", "ŋaiʔ tuah"],
+    za: ["ngoenzsinghgiz", "ŋon˧˩ θiŋ˧ ki˧˩"],
   },
 };

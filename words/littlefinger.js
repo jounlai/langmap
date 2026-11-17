@@ -514,6 +514,8 @@ WORDS.littlefinger = {
     mjg: "small",
     mvf: "small",
     ybe: "small",
+    ii: "child",
+    pt_mo: "small",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -973,5 +975,7 @@ WORDS.littlefinger = {
     mjg: ["mula huriqi", "mula xuritɕʰi"],  // 'Small finger'.
     mvf: ["mula huriqi", "mula xuriʨi"],  // 'Small finger'.
     ybe: ["atimaq", "atimaq"],  // Perhaps 'little finger' from ati 'little' + tarmaq 'finger'.
+    ii: ["ꇇꏸꌺ", "lo˥tɕɿ˧˧zɯ˧˧"],  // Finger + son.
+    pt_mo: ["mindinho", "mĩˈdiɲu"],
   },
 };

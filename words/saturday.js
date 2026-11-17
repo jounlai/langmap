@@ -448,6 +448,12 @@ WORDS.saturday = {
     la_late: "sabbath",
     arc: "sabbath",
     mn_cn: "count",
+    hmn: "saturn",
+    khb: "saturn",
+    kxm: "saturn",
+    mmd: "count",
+    prk: "count",
+    wbm: "count",
   },
   routes: {
     saturn: {"color":"#7c3aed","emoji":"🪐","en":"Saturn's day","ja":"土星の日","ko":"토성의 날","zh":"土星之日","yue":"土星嘅日","vi":"ngày sao Thổ","th":"วันของดาวเสาร์","id":"hari Saturnus","hi":"शनि का दिन","de":"Saturns Tag","fr":"le jour de Saturne","it":"il giorno di Saturno","es":"el día de Saturno","pt":"o dia de Saturno","ru":"день Сатурна","uk":"день Сатурна","ar":"يوم زحل","he":"יום שבתאי","sw":"siku ya Zohali"},
@@ -838,5 +844,11 @@ WORDS.saturday = {
     la_late: ["sabbatum", "ˈsabbato"],
     arc: ["שַׁבְּתָא", "ʃabbəθaː"],
     mn_cn: ["ᠭᠠᠷᠠᠭ ᠤᠨ ᠵᠢᠷᠭᠤᠭᠠᠨ", "ɡɑrɑɡiŋ dʒirɢʊːn"],
+    hmn: ["hnub vas xaum", "n̥u˥ va˨˩ sau˨˩ˀ"],  // From Lao ວັນເສົາ, the day of Saturn.
+    khb: ["ᦞᧃᦉᧁ", "van˥˩ saw˥"],
+    kxm: ["ថ្ងៃសៅរ៍", "ŋaj saw"],
+    mmd: ["siŋ5 khi2 lu2", "siŋ˦˦ kʰi˨˧˩ lu˨˧˩"],
+    prk: ["ngāix līah", "ŋa̤iʔ li̤ah"],
+    wbm: ["ngaix liah", "ŋaiʔ liah"],
   },
 };

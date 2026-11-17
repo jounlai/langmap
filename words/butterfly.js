@@ -948,5 +948,6 @@ WORDS.butterfly = {
     vi_mid: ["bưâm bớâm", "ɓɨəm˧ ɓɨəm˧˥"],
     mvf: ["xanbalaxji", "ɕanbalaɕʥi"],
     sce: ["hebegvi", "xəpəˈʁi"],
+    bdq: ["pơlai", "pəlaːj"],
   },
 };

@@ -392,6 +392,22 @@ WORDS.soap = {
     cng: "other",
     jya: "other",
     qxs: "other",
+    bdq: "sapo",
+    bru: "sapo",
+    duu: "wash",
+    ers: "other",
+    hmn: "sabao",
+    ium: "sabao",
+    kdt: "sabao",
+    kxm: "sabao",
+    lis: "plain",
+    mlm: "other",
+    mmd: "other",
+    mra: "sabao",
+    nuf: "other",
+    pmi: "other",
+    pt_mo: "sapo",
+    th_isan: "sabao",
   },
   routes: {
     sapo: {"color":"#2563eb","emoji":"🏛️","en":"Latin sapo","ja":"ラテン語 sapo","ko":"라틴어 sapo","zh":"拉丁语 sapo","yue":"拉丁語 sapo","vi":"tiếng Latinh sapo","th":"ละติน sapo","id":"Latin sapo","hi":"लैटिन sapo","de":"lateinisch sapo","fr":"le latin sapo","it":"il latino sapo","es":"el latín sapo","pt":"o latim sapo","ru":"латинское sapo","uk":"латинське sapo","ar":"اللاتينية sapo","he":"הלטינית sapo","sw":"Kilatini sapo"},
@@ -725,5 +741,21 @@ WORDS.soap = {
     cng: ["ɸei tsɑu", "ɸei tsɑu"],
     jya: ["ji tsou", "jitsou"],
     qxs: ["feitsɑu", "fei˧˩tsɑu˩˧"],  // Borrowed from Chinese 肥皂.
+    bdq: ["sơʼbŏng", "səɓɔŋ"],
+    bru: ["sabŏ́ng", "səɓɔŋ"],
+    duu: ["ɟɔdʑɑl", "ɟɔdʑɑl"],  // Ends in dʑɑl 'wash (clothes)'.
+    ers: ["fɛitsau", "fɛi˧˧tsau˧˧"],  // Borrowed from Chinese 肥皂.
+    hmn: ["xus npus", "su˨˩ ᵐbu˨˩"],  // A loan word, like Lao ສະບູ.
+    ium: ["saʼmbu", "sabu˧"],
+    kdt: ["sbuː", "sbuː"],
+    kxm: ["សាប៊ូ", "sɓuː"],
+    lis: ["mi-tshi", "mi˧˩tsʰɿ˦˩"],
+    mlm: ["ja:ŋ2 kjɛn3", "jaːŋ˩˨˩ kjɛn˥˧"],
+    mmd: ["ja:ŋ6 tɕen3", "jaːŋ˨˩˧ tɕen˥˩"],
+    mra: ["sa bu", "sa bu"],
+    nuf: ["i31tsɿ35", "i˧˩tsɿ˧˥"],  // Borrowed from Chinese 胰子 yízi.
+    pmi: ["jã35tɕa53", "jã˧˥tɕa˥˧"],
+    pt_mo: ["sabão", "sɐˈβɐ̃w̃"],
+    th_isan: ["สบู่", "sa˨˦buː˦"],
   },
 };

@@ -645,6 +645,30 @@ WORDS.language = {
     khg: "voice",
     mjg: "speech",
     ybe: "speech",
+    atb: "plain",
+    bca: "speech",
+    blr: "plain",
+    bru: "speech",
+    ers: "plain",
+    ii: "speech",
+    ium: "speech",
+    jiu: "speech",
+    kdt: "speech",
+    kmc: "plain",
+    kxm: "speech",
+    lic: "speech",
+    lis: "plain",
+    mlm: "speech",
+    mmd: "speech",
+    mra: "mouth",
+    mtq: "voice",
+    nuf: "speech",
+    nxq: "plain",
+    prk: "speech",
+    th_isan: "speech",
+    wbm: "speech",
+    yiz: "speech",
+    za: "speech",
   },
   routes: {
     tongue: {"color":"#dc2626","emoji":"👅","en":"the tongue (langue, язык, dil)","ja":"舌（langue, язык, dil）","ko":"혀 (langue, язык, dil)","zh":"舌头（langue、язык、dil）","yue":"脷（langue、язык、dil）","vi":"cái lưỡi (langue, язык, dil)","th":"ลิ้น (langue, язык, dil)","id":"lidah (langue, язык, dil)","hi":"जीभ (langue, язык, dil)","de":"die Zunge (langue, язык, dil)","fr":"l'organe, la langue (langue, язык, dil)","it":"l'organo, la lingua (langue, язык, dil)","es":"el órgano, la lengua (langue, язык, dil)","pt":"o órgão, a língua (langue, язык, dil)","ru":"орган язык (langue, язык, dil)","uk":"орган язик (langue, язык, dil)","ar":"اللسان (langue, язык, dil)","he":"הלשון (langue, язык, dil)","sw":"ulimi (langue, язык, dil)"},
@@ -1228,5 +1252,29 @@ WORDS.language = {
     khg: ["སྐད་ཆ", "ke˥˥tɕʰa˥˧"],
     mjg: ["ugo", "uɡo"],  // Also hgaqa.
     ybe: ["lar", "lar"],  // Also 'speech, words'.
+    atb: ["myíng", "mjiŋ˥˥"],
+    bca: ["ɤ̃", "ɤ̃˦˨"],  // Sun 1991 (Jianchuan Bai) ŋv⁴². Surface follows the row: IPA without tones. Bai form of 語 'speech'; written ɤ̃ as the row writes Sun's ŋv.
+    blr: ["hek31", "hek˧˩"],  // IDS 801 Bulang (Peiros) hek.31, the doculect this row's other IDS cells come from.
+    bru: ["parnai", "parnaj"],  // Also 'word'.
+    ers: ["dʒɿ", "dʒɿ˥˥"],  // No image is recorded for it, so it counts as a word of its own.
+    ii: ["ꉙ", "ho˨˩"],  // ꉙ is also 'speech, words'.
+    ium: ["waac", "waː˨˩"],
+    jiu: ["pjɐ31tɕhɐ33", "pjɐ˧˩tɕʰɐ˧˧"],  // From pjɐ31 'to speak'.
+    kdt: ["phsaː", "pʰsaː"],
+    kmc: ["li31", "li˧˩"],  // No image is recorded for it, so it counts as a word of its own.
+    kxm: ["ភាសា", "pʰsaː"],
+    lic: ["thun1", "tʰun˥˧"],  // Also 'speech, words'.
+    lis: ["ngo", "ŋo˧˩"],
+    mlm: ["wa6", "wa˩˩"],
+    mmd: ["wa6", "wa˨˩˧"],
+    mra: ["sɨm bɛp", "sɨm bɛp"],  // The word for mouth.
+    mtq: ["thiểng", "tʰiəŋ"],
+    nuf: ["khuɔʴ55", "kʰuɔ˞˥˥"],  // The same word as 'say, speak'.
+    nxq: ["geezheeq", "kɯ˧ʈʂʅ˨˩"],  // Sun 1991 (Lijiang Naxi) kɯ³³tʂɯ³¹. Naxi spelling is derived; the source is IPA.
+    prk: ["loux", "loʔ"],
+    th_isan: ["ภาษา", "pʰaː˧˥˨saː˨˦"],
+    wbm: ["lox", "loʔ"],
+    yiz: ["ȵɪʉ", "ȵɪ˨˩ʉ˨˨"],
+    za: ["vah", "βa˧"],  // as in Vahcuengh, the Zhuang language
   },
 };

@@ -1264,5 +1264,6 @@ WORDS.sun = {
     zh_jiao: ["太阳", "tʰɛ˨˩˧ iaŋ˦˨"],  // Qingdao also says 日头 'sun-head'.
     el_koi: ["ἥλιος", "ˈe̝lios"],
     la_late: ["sol", "sol"],
+    egy_dem: ["rꜥ", "reː"],
   },
 };

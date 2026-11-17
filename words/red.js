@@ -1267,5 +1267,6 @@ WORDS.red = {
     zh_jiao: ["红", "xəŋ˦˨"],
     el_koi: ["ἐρυθρός", "eryˈtʰros"],
     la_late: ["ruber", "ˈroβer"],
+    egy_dem: ["tšr", "troʃ"],
   },
 };

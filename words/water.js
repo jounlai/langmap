@@ -1266,5 +1266,6 @@ WORDS.water = {
     zh_jiao: ["水", "ʂue˥˥"],
     el_koi: ["ὕδωρ", "ˈydor"],
     la_late: ["aqua", "ˈakʷa"],
+    egy_dem: ["mw", "moːu"],
   },
 };

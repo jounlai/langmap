@@ -1260,5 +1260,6 @@ WORDS.eat = {
     zh_jiao: ["吃", "tʃʰɿ˥˥"],
     el_koi: ["ἐσθίειν", "esˈtʰiin"],
     la_late: ["manducare", "manduˈkare"],
+    egy_dem: ["wnm", "uoːm"],
   }
 };

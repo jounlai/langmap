@@ -1267,5 +1267,6 @@ WORDS.three = {
     zh_jiao: ["三", "sã˨˩˧"],
     el_koi: ["τρεῖς", "tris"],
     la_late: ["tres", "tres"],
+    egy_dem: ["ḫmt", "ʃomənt"],
   },
 };

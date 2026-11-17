@@ -1250,5 +1250,6 @@ WORDS.four = {
     zh_jiao: ["四", "sɿ˦˨"],
     el_koi: ["τέσσαρες", "ˈtessares"],
     la_late: ["quattuor", "ˈkʷattuor"],
+    egy_dem: ["ftw", "ftoːu"],
   },
 };

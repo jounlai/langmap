@@ -1175,5 +1175,6 @@ WORDS.honey = {
     abe: ["o'mwaimlases", "omwaimlases"],  // Laurent p.29: "O'mwaimlases. Honey."; next line "Mlases. Molasses."
     el_koi: ["μέλι", "ˈmeli"],
     la_late: ["mel", "mɛl"],
+    egy_dem: ["jby", "ebioː"],
   },
 };

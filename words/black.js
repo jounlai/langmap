@@ -1309,5 +1309,6 @@ WORDS.black = {
     osa: ["sápe", "sápe"],
     el_koi: ["μέλας", "ˈmelas"],
     la_late: ["niger", "ˈneɡʲer"],
+    egy_dem: ["km", "kame"],
   },
 };

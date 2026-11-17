@@ -550,6 +550,7 @@ WORDS.fish = {
     el_grc: ["ἰχθύς", "ikʰtʰy̌ːs"],
     el_kath: ["ἰχθύς", "ixˈθis"],
     egy: ["𓂋𓅓", "rem"],
+    egy_dem: ["—", "—"],
     enm: ["fisch", "fiʃ"],
     en_em: ["fish", "fɪʃ"],
     ang: ["fisċ", "fiʃ"],

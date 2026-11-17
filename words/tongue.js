@@ -1272,5 +1272,6 @@ WORDS.tongue = {
     zh_jiao: ["舌头", "ʃə˦˨ tʰou˦˨"],
     el_koi: ["γλῶσσα", "ˈɡlossa"],
     la_late: ["lingua", "ˈleŋɡʷa"],
+    egy_dem: ["ls", "las"],
   },
 };

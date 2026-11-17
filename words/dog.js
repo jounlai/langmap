@@ -1272,5 +1272,6 @@ WORDS.dog = {
     zh_jiao: ["狗", "kou˥˥"],
     el_koi: ["κύων", "ˈkyon"],
     la_late: ["canis", "ˈkanes"],
+    egy_dem: ["whr", "uhoːr"],
   },
 };

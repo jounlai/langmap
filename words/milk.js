@@ -1178,5 +1178,6 @@ WORDS.milk = {
     gqu: ["tɕəu35", "tɕəu˧˥"],  // IDS Qau Kelao, already the source of several cells in this row, though the row's base list is another variety. ćəu.35.
     el_koi: ["γάλα", "ˈɡala"],
     la_late: ["lac", "lak"],
+    egy_dem: ["jrṱ.t", "eroːte"],
   },
 };

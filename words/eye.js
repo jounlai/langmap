@@ -1265,5 +1265,6 @@ WORDS.eye = {
     zh_jiao: ["眼", "iã˥˥"],
     el_koi: ["ὀφθαλμός", "opʰtʰalˈmos"],
     la_late: ["oculus", "ˈɔkolos"],
+    egy_dem: ["jr.t", "jat"],
   },
 };

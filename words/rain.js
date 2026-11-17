@@ -1196,5 +1196,6 @@ WORDS.rain = {
     ake: ["tuna", "tuna"],  // The same word as tuna, 'water'.
     el_koi: ["ὑετός", "yeˈtos"],
     la_late: ["pluvia", "ˈploβja"],
+    egy_dem: ["ḥw", "hoːu"],
   },
 };

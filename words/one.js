@@ -1271,5 +1271,6 @@ WORDS.one = {
     zh_jiao: ["一", "i˥˥"],
     el_koi: ["εἷς", "is"],
     la_late: ["unus", "ˈunos"],
+    egy_dem: ["wꜥ", "ua"],
   },
 };

@@ -1259,5 +1259,6 @@ WORDS.heart = {
     siz: ["ulí", "uˈli"],
     el_koi: ["καρδία", "karˈdia"],
     la_late: ["cor", "kɔr"],
+    egy_dem: ["ḥꜣṱ", "heːt"],
   },
 };

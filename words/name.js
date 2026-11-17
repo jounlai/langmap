@@ -1260,5 +1260,6 @@ WORDS.name = {
     siz: ["smijə́t", "smiˈjət"],  // Borrowed from Arabic.
     el_koi: ["ὄνομα", "ˈonoma"],
     la_late: ["nomen", "ˈnomen"],
+    egy_dem: ["rn", "ran"],
   },
 };

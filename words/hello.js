@@ -610,6 +610,7 @@ WORDS.hello = {
     el_grc: ["χαῖρε", "kʰâire"],
     el_kath: ["χαῖρε", "ˈçere"],
     egy: ["𓇋𓐩𓆓𓏛𓁷𓏤", "inedʒ her"],
+    egy_dem: ["—", "—"],
     enm: ["hail", "hɛːl"],
     en_em: ["good den", "ɡuːd dɛn"],
     ang: ["wes hāl", "wes hɑːl"],

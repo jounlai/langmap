@@ -1260,5 +1260,6 @@ WORDS.father = {
     zh_jiao: ["爸爸", "pa˦˨ pa˦˨"],  // Qingdao also says 爹.
     el_koi: ["πατήρ", "paˈte̝r"],
     la_late: ["pater", "ˈpater"],
+    egy_dem: ["jt", "ejoːt"],
   },
 };

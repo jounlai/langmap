@@ -1176,5 +1176,6 @@ WORDS.person = {
     omy: ["uraṁ", "uraŋ"],  // Old Malay, Kota Kapur N.50 and Bukit Gombak N.96 (ūraṁ) in the DHARMA edition; N.50 has no translation there, sense from context and modern oraṅ. Row's surface is otherwise modern; coordinator may prefer orang.
     el_koi: ["ἄνθρωπος", "ˈantʰropos"],
     la_late: ["homo", "ˈɔmo"],
+    egy_dem: ["rmṯ", "roːme"],
   }
 };

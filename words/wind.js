@@ -1200,5 +1200,6 @@ WORDS.wind = {
     osa: ["htaacé", "htaːtsé"],
     el_koi: ["ἄνεμος", "ˈanemos"],
     la_late: ["ventus", "ˈβɛntos"],
+    egy_dem: ["ṯꜣw", "teːu"],
   },
 };

@@ -1184,5 +1184,6 @@ WORDS.egg = {
     zh_jiao: ["鸡蛋", "tɕi˨˩˧ tã˦˨"],
     el_koi: ["ᾠόν", "oˈon"],
     la_late: ["ovum", "ˈoβo"],
+    egy_dem: ["swḥ.t", "soːuhe"],
   },
 };

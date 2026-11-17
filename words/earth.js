@@ -1219,5 +1219,6 @@ WORDS.earth = {
     ocm: ["tana", "tana"],  // Old Cham pu pom̃ tana rayā, translated 'the lord of the great earth' (C.20, C.89). tanaḥ also occurs (C.140, a place name).
     el_koi: ["γῆ", "ɡe̝"],
     la_late: ["terra", "ˈtɛrra"],
+    egy_dem: ["jtn", "itən"],
   }
 };

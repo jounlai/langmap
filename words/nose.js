@@ -1201,5 +1201,6 @@ WORDS.nose = {
     osa: ["hpá", "hpá"],
     el_koi: ["ῥίς", "ris"],
     la_late: ["nasus", "ˈnasos"],
+    egy_dem: ["šy", "ʃa"],
   },
 };

@@ -1266,5 +1266,6 @@ WORDS.hand = {
     zh_jiao: ["手", "ʃou˥˥"],
     el_koi: ["χείρ", "kʰir"],
     la_late: ["manus", "ˈmanos"],
+    egy_dem: ["ḏr.t", "toːre"],
   },
 };

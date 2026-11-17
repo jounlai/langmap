@@ -1222,5 +1222,6 @@ WORDS.five = {
     xpg: ["pinke", "ˈpinke"],  // From Proto-Indo-European *pénkʷe.
     el_koi: ["πέντε", "ˈpente"],
     la_late: ["quinque", "ˈkʷinkʷe"],
+    egy_dem: ["tyw", "tiu"],
   },
 };

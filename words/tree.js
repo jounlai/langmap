@@ -1267,5 +1267,6 @@ WORDS.tree = {
     zh_jiao: ["树", "ʃu˦˨"],
     el_koi: ["δένδρον", "ˈdendron"],
     la_late: ["arbor", "ˈarβor"],
+    egy_dem: ["šn", "ʃeːn"],
   },
 };

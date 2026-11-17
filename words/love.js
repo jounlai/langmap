@@ -1260,5 +1260,6 @@ WORDS.love = {
     siz: ["əxs", "əχs"],  // Also 'want'; Schiattarella's texts use the Arabic loan ħəbb for 'love each other'.
     el_koi: ["ἀγάπη", "aˈɡape̝"],
     la_late: ["amor", "ˈamor"],
+    egy_dem: ["mr", "me"],
   }
 };

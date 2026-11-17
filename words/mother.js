@@ -1259,5 +1259,6 @@ WORDS.mother = {
     zh_jiao: ["妈", "ma˨˩˧"],  // Qingdao also says 娘.
     el_koi: ["μήτηρ", "ˈme̝te̝r"],
     la_late: ["mater", "ˈmater"],
+    egy_dem: ["mw.t", "maːu"],
   },
 };

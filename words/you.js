@@ -1260,5 +1260,6 @@ WORDS.you = {
     zh_jiao: ["你", "ni˥˥"],
     el_koi: ["σύ", "sy"],
     la_late: ["tu", "tu"],
+    egy_dem: ["mtw=k", "ənˈtok"],
   },
 };

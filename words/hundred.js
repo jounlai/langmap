@@ -1203,5 +1203,6 @@ WORDS.hundred = {
     ocm: ["rutuḥ", "rutuh"],  // Old Cham, C.82 sā rutuḥ translated 'one hundred'; also C.140; C.86 once ratuḥ. DHARMA edition.
     el_koi: ["ἑκατόν", "ekaˈton"],
     la_late: ["centum", "ˈkʲɛnto"],
+    egy_dem: ["š", "ʃe"],
   },
 };

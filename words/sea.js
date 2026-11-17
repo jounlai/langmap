@@ -1123,5 +1123,6 @@ WORDS.sea = {
     xag: ["cʼa", "tsʼa"],  // Possibly from Old Armenian ծով 'sea'; it also means lake.
     el_koi: ["θάλασσα", "ˈtʰalassa"],
     la_late: ["mare", "ˈmare"],
+    egy_dem: ["ym", "jom"],
   }
 };

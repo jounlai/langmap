@@ -1260,5 +1260,6 @@ WORDS.bone = {
     zh_jiao: ["骨头", "ku˥˥ tʰou˦˨"],
     el_koi: ["ὀστέον", "osˈteon"],
     la_late: ["os", "ɔs"],
+    egy_dem: ["qs", "kas"],
   },
 };

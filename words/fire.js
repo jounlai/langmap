@@ -1265,5 +1265,6 @@ WORDS.fire = {
     zh_jiao: ["火", "xuə˥˥"],
     el_koi: ["πῦρ", "pyr"],
     la_late: ["focus", "ˈfɔkos"],
+    egy_dem: ["sty.t", "sate"],
   }
 };

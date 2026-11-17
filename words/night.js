@@ -1264,5 +1264,6 @@ WORDS.night = {
     siz: ["iṭ", "itˤ"],  // The plural liyali is Arabic; 'tonight' is íṭa (Schiattarella p. 48).
     el_koi: ["νύξ", "nyks"],
     la_late: ["nox", "nɔks"],
+    egy_dem: ["grḥ", "kʲoːrh"],
   },
 };

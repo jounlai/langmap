@@ -1125,5 +1125,6 @@ WORDS.book = {
     ojp: ["書", "pumi"],  // ふみ: 日本書紀 (720) 推古一〇年 書生(フミまなふるひと), 岩崎本訓, as quoted in 日本国語大辞典. The kana is a later reading of the text, so medium.
     el_koi: ["βιβλίον", "biˈblion"],
     la_late: ["liber", "ˈleβer"],
+    egy_dem: ["ḏmꜥ", "tʃoːme"],
   }
 };

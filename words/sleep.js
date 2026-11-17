@@ -1224,5 +1224,6 @@ WORDS.sleep = {
     bbl: ["ნჵაპ", "nʕapʼ"],  // Inherited from Proto-Nakh *nHaaṗ.
     el_koi: ["καθεύδειν", "kaˈtʰewdin"],
     la_late: ["dormire", "dorˈmire"],
+    egy_dem: ["nqt", "ənkotək"],
   },
 };

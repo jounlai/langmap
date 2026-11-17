@@ -694,6 +694,7 @@ WORDS.bat = {
     aer: "plain",
     el_koi: "other",
     la_late: "other",
+    egy_dem: "plain",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1333,5 +1334,6 @@ WORDS.bat = {
     aer: ["antyipere", "aɲcipəɾə"],  // The word for the smaller bats; no image is recorded for it, so it counts as a word of its own.
     el_koi: ["νυκτερίς", "nykteˈris"],
     la_late: ["vespertilio", "βesperˈtiljo"],
+    egy_dem: ["gnglꜣ", "kʲinkʲloː"],
   },
 };

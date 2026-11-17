@@ -611,6 +611,7 @@ WORDS.thanks = {
     el_grc: ["χάριν οἶδα", "kʰárin oîda"],  // 'I owe thanks', the Attic formula (LSJ χάρις); εὐχαριστῶ is Hellenistic.
     el_kath: ["εὐχαριστῶ", "efxariˈsto"],
     egy: ["—", "—"],
+    egy_dem: ["—", "—"],
     enm: ["thank", "θank"],
     en_em: ["gramercy", "ɡraˈmɛrsi"],
     ang: ["þanc", "θɑŋk"],

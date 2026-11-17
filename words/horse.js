@@ -1155,5 +1155,6 @@ WORDS.horse = {
     xhu: ["𒀸𒋗𒉿", "aʃːuwa"],  // Borrowed from Mitanni; compare Sanskrit aśva.
     el_koi: ["ἵππος", "ˈippos"],
     la_late: ["caballus", "kaˈβallos"],
+    egy_dem: ["ḥtr", "hto"],
   }
 };

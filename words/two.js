@@ -1260,5 +1260,6 @@ WORDS.two = {
     zh_jiao: ["二", "ɭə˦˨"],
     el_koi: ["δύο", "ˈdyo"],
     la_late: ["duo", "ˈduo"],
+    egy_dem: ["snw", "snau"],
   },
 };

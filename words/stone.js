@@ -1213,5 +1213,6 @@ WORDS.stone = {
     osa: ["į́į", "ĩ́ː"],
     el_koi: ["λίθος", "ˈlitʰos"],
     la_late: ["lapis", "ˈlapes"],
+    egy_dem: ["jny", "oːne"],
   },
 };

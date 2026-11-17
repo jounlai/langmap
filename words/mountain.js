@@ -1167,5 +1167,6 @@ WORDS.mountain = {
     juc: ["alin", "alin"],  // Wiktionary Jurchen 'mountain'; Grube 1896 no. 39 has a-lin, m. alin.
     el_koi: ["ὄρος", "ˈoros"],
     la_late: ["mons", "mons"],
+    egy_dem: ["tw", "toːu"],
   }
 };

@@ -1170,5 +1170,6 @@ WORDS.iron = {
     cho: ["tali", "ˈtali"],  // The same word means rock, stone, iron and metal; it is inherited from Proto-Muskogean *taliCi.
     el_koi: ["σίδηρος", "ˈside̝ros"],
     la_late: ["ferrum", "ˈfɛrro"],
+    egy_dem: ["bnpy", "benipe"],
   },
 };

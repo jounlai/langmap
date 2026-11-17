@@ -1259,5 +1259,6 @@ WORDS.cat = {
     zh_jiao: ["猫", "mɔ˦˨"],
     el_koi: ["αἴλουρος", "ˈɛluros"],
     la_late: ["cattus", "ˈkattos"],
+    egy_dem: ["my", "emu"],
   }
 };

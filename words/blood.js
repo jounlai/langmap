@@ -1270,5 +1270,6 @@ WORDS.blood = {
     zh_jiao: ["血", "ɕiə˥˥"],
     el_koi: ["αἷμα", "ˈɛma"],
     la_late: ["sanguis", "ˈsaŋɡʷes"],
+    egy_dem: ["snf", "snof"],
   },
 };

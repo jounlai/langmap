@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 86 word concepts × 1199 languages/varieties (incl. ~140 excluded from the default modern view)
+ * Word Map Data — 86 word concepts × 1200 languages/varieties (incl. ~140 excluded from the default modern view)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -16,7 +16,7 @@
 // liturgical Sanskrit). The shared property is "hidden from the modern view by default".
 const EXCLUDED_CODES = new Set([
   'ja_edo','ja_heian','ja_kanbun','ko_mid','ko_em','la','egy','sux','akk','hit','nci','emy','p_ine','p_toc','p_jpn','p_kor','ptrk','pmng','p_tun','p_aav','p_viet','ptai','p_hmx','pafa','pkar','pmay','puaz','pban','p_sit','psem','pura','p_dra','paus',
-  'non','enm','en_em','got','cu','pi','pi_edu','cop','arc','el_grc','el_koi','la_late','el_kath','zh_yuan','zh_han','zh_tang','zh_wenyan_edu',
+  'non','enm','en_em','got','cu','pi','pi_edu','cop','arc','el_grc','el_koi','la_late','egy_dem','el_kath','zh_yuan','zh_han','zh_tang','zh_wenyan_edu',
   'vi_nom','vi_han','sa','sa_edu','ar_qur',
   'de_lut','es_sgl','fr_class',
   // Phase 4: historical / ancient
@@ -3634,6 +3634,8 @@ const LANG_DATA = {
 },
   tmh: { name: "Tamasheq", native: 'Tamaceq', lat: 22.78, lng: 5.52, // Tamanrasset (Tahaggart)
 },
+  egy_dem: { name: "Demotic Egyptian", native: "sẖ šꜥ.t", lat: 29.87, lng: 31.25, // Memphis
+},
   la_late: { name: "Late Latin", native: "Latina", lat: 44.42, lng: 12.2, // Ravenna: Western capital 402–751
 },
   el_koi: { name: "Koine Greek", native: "Κοινὴ διάλεκτος", lat: 31.2, lng: 29.92, // Alexandria: Septuagint and the Egyptian papyri
@@ -5559,6 +5561,7 @@ const DATA_STATUS_OVERRIDES = {
     xct:       'attested',       // Classical Tibetan — Buddhist canon, royal annals
     // Afro-Asiatic / Semitic Old:
     egy:       'attested',       // Ancient Egyptian — vast hieroglyphic corpus (Old/Middle/Late)
+    egy_dem:   'attested',       // Demotic Egyptian — contracts, letters, literary papyri
     cop:       'attested',       // Coptic — Christian/Gnostic corpus, Nag Hammadi
     arc:       'attested',       // Aramaic — biblical + Targums + Talmudic
     phn:       'attested',       // Phoenician — inscriptions + Punic
@@ -5682,7 +5685,7 @@ const DATA_STATUS_OVERRIDES = {
 // Moved from wordmap.html to the data layer so the validator does not need
 // to regex-scrape JS source. The browser also reads this constant.
 const HIST_DESCENDANT = {
-    la:'it', la_late:'it', el_grc:'el', el_koi:'el', el_kath:'el', egy:'ar_eg', enm:'en', en_em:'en', non:'is',
+    la:'it', la_late:'it', el_grc:'el', el_koi:'el', el_kath:'el', egy:'ar_eg', egy_dem:'ar_eg', enm:'en', en_em:'en', non:'is',
     got:'de', cu:'bg', pi:'si', cop:null, arc:'aii',
     sa:'hi', sux:null, akk:null, hit:'tr', nci:'es_mx', emy:'es_mx',
     p_ine:null, p_toc:null, p_jpk:null, p_jpn:null, p_kor:null, ptrk:null, pmng:null, p_tun:null, p_aav:null, p_viet:null, ptai:null, p_hmx:null, pafa:null, pkar:null, pmay:null, puaz:null, pban:null, p_sit:null, psem:null, pura:null, p_dra:null, paus:null, zh_yuan:'zh', zh_han:'zh', zh_tang:'zh',

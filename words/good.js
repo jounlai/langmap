@@ -1260,5 +1260,6 @@ WORDS.good = {
     zh_jiao: ["好", "xɔ˥˥"],
     el_koi: ["ἀγαθόν", "aɡaˈtʰon"],
     la_late: ["bonus", "ˈbɔnos"],
+    egy_dem: ["nfr", "nuːfe"],
   },
 };

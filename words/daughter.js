@@ -1181,5 +1181,6 @@ WORDS.daughter = {
     ude: ["аӡига", "adʒiɡa"],  // Udege, glossed «дочь».
     el_koi: ["θυγάτηρ", "tʰyˈɡate̝r"],
     la_late: ["filia", "ˈfilja"],
+    egy_dem: ["šr.t", "ʃeːre"],
   },
 };

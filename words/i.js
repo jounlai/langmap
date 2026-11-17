@@ -1260,5 +1260,6 @@ WORDS.i = {
     zh_jiao: ["我", "və˥˥"],  // Qingdao also says 俺.
     el_koi: ["ἐγώ", "eˈɡo"],
     la_late: ["ego", "ˈɛɡo"],
+    egy_dem: ["jnk", "aˈnok"],
   },
 };

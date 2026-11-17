@@ -907,6 +907,7 @@ WORDS.yesterday = {
     ko_jl: "distinct",
     el_koi: "distinct",
     la_late: "distinct",
+    egy_dem: "distinct",
   },
   routes: {
     same: {"color":"#db2777","emoji":"🔁","en":"one word for yesterday and tomorrow","ja":"昨日と明日が同じ語","ko":"어제와 내일이 한 낱말","zh":"昨天和明天同一个词","yue":"尋日同聽日同一個詞","vi":"một từ cho hôm qua và ngày mai","th":"คำเดียวทั้งเมื่อวานและพรุ่งนี้","id":"satu kata untuk kemarin dan besok","hi":"बीते और आने वाले कल का एक शब्द","de":"ein Wort für gestern und morgen","fr":"un mot pour hier et demain","it":"una parola per ieri e domani","es":"una palabra para ayer y mañana","pt":"uma palavra para ontem e amanhã","ru":"одно слово для вчера и завтра","uk":"одне слово для учора й завтра","ar":"كلمة واحدة لأمس وغد","he":"מילה אחת לאתמול ולמחר","sw":"neno moja kwa jana na kesho"},
@@ -1759,5 +1760,6 @@ WORDS.yesterday = {
     ko_jl: ["어제", "ədʑe"],  // tomorrow: 내일; 어제 is the national word.
     el_koi: ["ἐχθές", "ekʰˈtʰes"],
     la_late: ["heri", "ˈɛri"],
+    egy_dem: ["sf", "saf"],
   },
 };

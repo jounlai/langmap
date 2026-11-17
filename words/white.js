@@ -1223,5 +1223,6 @@ WORDS.white = {
     zkt: ["𘬈", "siu"],  // Wiktionary, Khitan small script 'white', reading [siu] or [su] proposed by Wu 2022. 
     el_koi: ["λευκός", "leʍˈkos"],
     la_late: ["albus", "ˈalβos"],
+    egy_dem: ["wbḫ", "uoːbʃ"],
   },
 };

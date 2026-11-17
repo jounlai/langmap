@@ -1260,5 +1260,6 @@ WORDS.drink = {
     zh_jiao: ["喝", "xa˥˥"],  // Pronounced with -a, unlike Standard Mandarin hē.
     el_koi: ["πίνειν", "ˈpinin"],
     la_late: ["bibere", "ˈbeβere"],
+    egy_dem: ["swr", "soː"],
   }
 };

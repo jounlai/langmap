@@ -1076,5 +1076,6 @@ WORDS.green = {
     txb: ["𑀫𑁄𑀢𑀭𑁆𑀢𑁆𑀲𑁆𑀢𑁆𑀲𑁂", "motartstse"],  // Tocharian B motartstse 'green' (Wiktionary).
     el_koi: ["χλωρός", "kʰloˈros"],
     la_late: ["viridis", "ˈβeredes"],
+    egy_dem: ["wt", "uoːt"],
   }
 };

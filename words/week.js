@@ -479,6 +479,11 @@ WORDS.week = {
     pwo: "seven",
     rhg: "seven",
     tcy: "turn",
+    akk: "other",
+    ar_qur: "seven",
+    gez: "seven",
+    hbo: "seven",
+    he_mis: "seven",
   },
   routes: {
     seven: {"color":"#2563eb","emoji":"7️⃣","en":"the number seven","ja":"数の七","ko":"일곱이라는 수","zh":"数字七","yue":"數字七","vi":"con số bảy","th":"เลขเจ็ด","id":"angka tujuh","hi":"सात की संख्या","de":"die Zahl Sieben","fr":"le nombre sept","it":"il numero sette","es":"el número siete","pt":"o número sete","ru":"число семь","uk":"число сім","ar":"العدد سبعة","he":"המספר שבע","sw":"namba saba"},
@@ -899,5 +904,10 @@ WORDS.week = {
     pwo: ["ကနွ့ၫ", "kə nwɪ"],  // Literally 'one seven'; seven is နွ့ၫ.
     rhg: ["háfta", "hafta"],
     tcy: ["ವಾರೊ", "vaːɾo"],
+    akk: ["𒄩𒈲𒌅", "χamuʃtu"],  // There was no seven-day week; Old Assyrian merchants reckoned in ḫamuštu, a 'fifth' of a month.
+    ar_qur: ["أسبوع", "ʔusbuːʕ"],
+    gez: ["ሱባዔ", "suːbaːʕeː"],
+    hbo: ["שבוע", "ʃɔːˈvuːaʕ"],
+    he_mis: ["שבוע", "ʃaˈvuaʕ"],
   },
 };

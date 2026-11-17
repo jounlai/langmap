@@ -922,5 +922,6 @@ WORDS.rice = {
     ybe: ["tutïrqan", "tutɯrqan"],
     cia: ["bhae", "ɓae"],
     pzh: ["lasu", "lasu"],
+    akk: ["𒆪𒊏𒀭𒄖", "kuranɡu"],
   }
 };

@@ -249,6 +249,7 @@ WORDS.goosebumps = {
     sw: "plain",
     pt_mo: "bird",
     pam: "plain",
+    ar_qur: "plain",
   },
   family2: {
     ko: "bird",
@@ -446,5 +447,6 @@ WORDS.goosebumps = {
     sw: ["kimbimbi", "kiˈmbimbi"],  // Goose pimples; also the shiver of fear (ILCAA: 'hair standing upright from cold or great fear').
     pt_mo: ["pele de galinha", "ˈpɛlɨ ðɨ ɣɐˈliɲɐ"],
     pam: ["kaligkig", "kaliɡkiɡ"],
+    ar_qur: ["قشعريرة", "quʃaʕriːra"],
   },
 };

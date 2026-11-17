@@ -711,6 +711,8 @@ WORDS.bat = {
     njo: "plain",
     sat: "plain",
     el_kath: "other",
+    he_mis: "plain",
+    sux: "plain",
   },
   routes: {
     mouse: {"color":"#ea580c","emoji":"🐭","en":"a mouse or rat","ja":"ネズミ","ko":"쥐","zh":"老鼠","yue":"老鼠","vi":"con chuột","th":"หนู","id":"tikus","hi":"चूहा","de":"Maus · Ratte","fr":"souris · rat","it":"topo · ratto","es":"ratón · rata","pt":"rato","ru":"мышь · крыса","uk":"миша · щур","ar":"فأر · جرذ","he":"עכבר · חולדה","sw":"panya"},
@@ -1367,5 +1369,7 @@ WORDS.bat = {
     njo: ["la", "la"],  // No image is recorded for it, so it counts as a word of its own.
     sat: ["ᱵᱟᱨᱫᱩᱬᱩᱡ", "barduɳutʃ"],
     el_kath: ["νυκτερίς", "nikteˈris"],
+    he_mis: ["עטלף", "ʕatˤaˈlef"],
+    sux: ["𒋢𒁷𒄷", "sudin"],
   },
 };

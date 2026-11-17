@@ -1199,5 +1199,7 @@ WORDS.rain = {
     egy_dem: ["ḥw", "hoːu"],
     vi_mid: ["mưa", "mɨə˧"],
     pcc: ["wenl", "wɯn˨˦"],
+    myz: ["ࡌࡉࡈࡓࡀ", "mitˤra"],
+    xht: ["tūmin", "tuːmin"],
   },
 };

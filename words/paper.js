@@ -488,6 +488,13 @@ WORDS.paper = {
     el_kath: "charta",
     gay: "charta",
     unr: "kaghaz",
+    ar_qur: "charta",
+    cop: "charta",
+    egy: "plain",
+    egy_dem: "plain",
+    he_mis: "plain",
+    sux: "other",
+    uga: "plain",
   },
   routes: {
     papyrus: {"color":"#2563eb","emoji":"📜","en":"from Latin papyrus (papier, papel, Papier)","ja":"ラテン語 papyrus から（papier, papel, Papier）","ko":"라틴어 papyrus에서 (papier, papel, Papier)","zh":"源自拉丁语 papyrus（papier, papel, Papier）","yue":"源自拉丁文 papyrus（papier, papel, Papier）","vi":"từ tiếng Latinh papyrus (papier, papel, Papier)","th":"จากภาษาละติน papyrus (papier, papel, Papier)","id":"dari bahasa Latin papyrus (papier, papel, Papier)","hi":"लैटिन papyrus से (papier, papel, Papier)","de":"aus lateinisch papyrus (papier, papel, Papier)","fr":"du latin papyrus (papier, papel, Papier)","it":"dal latino papyrus (papier, papel, Papier)","es":"del latín papyrus (papier, papel, Papier)","pt":"do latim papyrus (papier, papel, Papier)","ru":"из латинского papyrus (papier, papel, Papier)","uk":"з латинського papyrus (papier, papel, Papier)","ar":"من اللاتينية papyrus (papier, papel, Papier)","he":"מ-papyrus הלטינית (papier, papel, Papier)","sw":"kutoka Kilatini papyrus (papier, papel, Papier)"},
@@ -916,5 +923,12 @@ WORDS.paper = {
     el_kath: ["χάρτης", "ˈxartis"],
     gay: ["kertas", "kərtas"],
     unr: ["kagaj", "kaɡadʒ"],
+    ar_qur: ["قرطاس", "qirtˤaːs"],  // There was no paper in Arabia yet; a qirṭās was a sheet of papyrus or parchment, the word the Qur'an uses for a written page.
+    cop: ["ⲭⲁⲣⲧⲏⲥ", "kʰarteːs"],  // There was no paper yet; ⲭⲁⲣⲧⲏⲥ was the sheet of papyrus Egyptians wrote on.
+    egy: ["𓍑𓄿𓌷𓂝𓎅", "dʒemaː"],  // There was no paper yet; Egypt wrote on sheets of papyrus, which it sold to the whole Mediterranean.
+    egy_dem: ["ḏmꜥ", "tʃoːme"],  // There was no paper; ḏmꜥ was the sheet or roll of papyrus Egyptians wrote on.
+    he_mis: ["נייר", "nəˈjar"],  // Before paper reached the West, nəyār was the blank writing sheet of papyrus or parchment.
+    sux: ["𒉎", "im"],  // There was no paper; Sumerian scribes wrote on clay, im, pressed into tablets.
+    uga: ["𐎍𐎈𐎚", "luːħatu"],  // There was no paper; the scribes of Ugarit wrote their letters on a lūḥatu, a clay tablet.
   },
 };

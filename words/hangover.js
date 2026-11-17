@@ -219,5 +219,7 @@ WORDS.hangover = {
     mn_cn: ["ᠰᠢᠷᠠᠲᠤᠬᠤ", "ʃɑrtɑχ"],
     la: ["crāpula", "ˈkraːpula"],  // crāpula is the after-drink fug Plautus' characters go off to 'sleep off'.
     la_late: ["crapula", "ˈkrapola"],  // Crapula, from Greek κραιπάλη, is the heavy head after too much wine that one 'sleeps off' (edormire crapulam).
+    ar_qur: ["خمار", "xumaːr"],
+    syc: ["ܨܘܕܪܐ", "sˤuːðaːraː"],
   },
 };

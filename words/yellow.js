@@ -583,6 +583,11 @@ WORDS.yellow = {
     pwo: "plain",
     tcy: "turmeric",
     unr: "turmeric",
+    akk: "plain",
+    ar_qur: "plain",
+    hbo: "plain",
+    he_mis: "plain",
+    sux: "plain",
   },
   routes: {
     turmeric: {"color":"#d97706","emoji":"🫚","en":"turmeric","ja":"ウコン","ko":"강황","zh":"姜黄","yue":"黃薑","vi":"nghệ","th":"ขมิ้น","id":"kunyit","hi":"हल्दी","de":"Kurkuma","fr":"le curcuma","it":"la curcuma","es":"la cúrcuma","pt":"a curcuma","ru":"куркума","uk":"куркума","ar":"الكركم","he":"כורכום","sw":"manjano"},
@@ -1105,5 +1110,10 @@ WORDS.yellow = {
     pwo: ["ဘၩ့", "ɓaɴ"],
     tcy: ["ಮಂಜಲ್", "maɲdʒalɯ"],  // Also 'turmeric'.
     unr: ["sasang", "sasaŋ"],
+    akk: ["𒅊", "warqu"],  // Akkadian warqu covered both yellow and green.
+    ar_qur: ["أصفر", "ʔasˤfaru"],
+    hbo: ["צהב", "sˤɔːˈhoːv"],
+    he_mis: ["צהוב", "sˤaˈhov"],
+    sux: ["𒅊", "siɡ"],
   },
 };

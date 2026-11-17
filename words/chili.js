@@ -389,6 +389,10 @@ WORDS.chili = {
     ace: "plain",
     cnh: "plain",
     si: "pepper",
+    ar_qur: "pepper",
+    cop: "pepper",
+    he_mis: "pepper",
+    syc: "pepper",
   },
   routes: {
     chilli: {"color":"#dc2626","emoji":"🌶️","en":"Nahuatl chīlli (chile, chili, sili)","ja":"ナワトル語 chīlli（chile, chili, sili）","ko":"나우아틀어 chīlli (chile, chili, sili)","zh":"纳瓦特尔语 chīlli（chile、chili、sili）","yue":"納瓦特爾語 chīlli（chile、chili、sili）","vi":"tiếng Nahuatl chīlli (chile, chili, sili)","th":"นาวาตล์ chīlli (chile, chili, sili)","id":"Nahuatl chīlli (chile, chili, sili)","hi":"नाहुआत्ल chīlli (chile, chili, sili)","de":"Nahuatl chīlli (chile, Chili, sili)","fr":"le nahuatl chīlli (chile, chili, sili)","it":"il nahuatl chīlli (chile, chili, sili)","es":"el náhuatl chīlli (chile, chili, sili)","pt":"o náuatle chīlli (chile, chili, sili)","ru":"науатль chīlli (chile, chili, sili)","uk":"науатль chīlli (chile, chili, sili)","ar":"الناواتل chīlli (chile, chili, sili)","he":"הנאוואטל chīlli (chile, chili, sili)","sw":"Kinahuatl chīlli (chile, chili, sili)"},
@@ -716,5 +720,9 @@ WORDS.chili = {
     ace: ["campli", "campli"],
     cnh: ["makphek", "makpʰek"],
     si: ["මිරිස්", "miris"],
+    ar_qur: ["فلفل", "filfil"],  // There were no chillies yet; filfil, black pepper from India, was the hot spice of the day.
+    cop: ["ⲡⲓⲡⲉⲣ", "piper"],  // There were no chillies yet; ⲡⲓⲡⲉⲣ, black pepper from India, was the hot spice of the day.
+    he_mis: ["פלפל", "pilˈpel"],  // There were no chillies yet; pepper from India was the hot spice of the day.
+    syc: ["ܦܠܦܠܐ", "pelpelaː"],  // There were no chillies yet; ܦܠܦܠܐ, pepper from India, was the hot spice of the day.
   },
 };

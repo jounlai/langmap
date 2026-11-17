@@ -1170,5 +1170,6 @@ WORDS.mountain = {
     egy_dem: ["tw", "toːu"],
     vi_mid: ["núi", "nuj˧˥"],
     bhb: ["डोंगोर", "ɖoːŋɡoɾ"],
+    xpu: ["𐤄𐤓", "har"],
   }
 };

@@ -378,6 +378,10 @@ WORDS.earthquake = {
     hne: "earth",
     pwo: "earth",
     si: "earth",
+    akk: "shake",
+    ar_qur: "zalzala",
+    hbo: "shake",
+    he_mis: "shake",
   },
   routes: {
     earth: {"color":"#b45309","emoji":"🌍","en":"earth + shaking (Erdbeben, terremoto, भूकंप, 地震)","ja":"大地＋揺れ (Erdbeben, terremoto, भूकंप, 地震)","ko":"땅 + 흔들림 (Erdbeben, terremoto, भूकंप, 地震)","zh":"地 + 震 (Erdbeben, terremoto, भूकंप, 地震)","yue":"地 + 震 (Erdbeben, terremoto, भूकंप, 地震)","vi":"đất + rung (Erdbeben, terremoto, भूकंप, 地震)","th":"ดิน + สั่น (Erdbeben, terremoto, भूकंप, 地震)","id":"bumi + guncang (Erdbeben, terremoto, भूकंप, 地震)","hi":"धरती + कंपन (Erdbeben, terremoto, भूकंप, 地震)","de":"Erde + Beben (Erdbeben, terremoto, भूकंप, 地震)","fr":"terre + tremblement (Erdbeben, terremoto, भूकंप, 地震)","it":"terra + tremore (Erdbeben, terremoto, भूकंप, 地震)","es":"tierra + temblor (Erdbeben, terremoto, भूकंप, 地震)","pt":"terra + tremor (Erdbeben, terremoto, भूकंप, 地震)","ru":"земля + тряска (Erdbeben, terremoto, भूकंप, 地震)","uk":"земля + трус (Erdbeben, terremoto, भूकंप, 地震)","ar":"أرض + اهتزاز (Erdbeben, terremoto, भूकंप, 地震)","he":"אדמה + רעד (Erdbeben, terremoto, भूकंप, 地震)","sw":"ardhi + tikisa (Erdbeben, terremoto, भूकंप, 地震)"},
@@ -699,5 +703,9 @@ WORDS.earthquake = {
     hne: ["भुइंडोल", "bʱuĩɖoːl"],
     pwo: ["ဂၪ့ခိၪဝၭ", "ɣaɴ kʰo waʔ"],  // From ဂၪ့ခိၪ 'earth' + ဝၭ 'to shake'.
     si: ["භූමිකම්පාව", "buːmikampaːʋə"],
+    akk: ["𒊑𒁍", "riːbu"],
+    ar_qur: ["زلزال", "zilzaːl"],
+    hbo: ["רעש", "ˈraʕaʃ"],
+    he_mis: ["זוועה", "zəvaˈʕa"],
   },
 };

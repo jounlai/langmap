@@ -470,6 +470,11 @@ WORDS.saturday = {
     ace: "sabbath",
     kxv: "saturn",
     tcy: "saturn",
+    ar_qur: "sabbath",
+    gez: "sabbath",
+    hbo: "sabbath",
+    he_mis: "sabbath",
+    syc: "sabbath",
   },
   routes: {
     saturn: {"color":"#7c3aed","emoji":"🪐","en":"Saturn's day","ja":"土星の日","ko":"토성의 날","zh":"土星之日","yue":"土星嘅日","vi":"ngày sao Thổ","th":"วันของดาวเสาร์","id":"hari Saturnus","hi":"शनि का दिन","de":"Saturns Tag","fr":"le jour de Saturne","it":"il giorno di Saturno","es":"el día de Saturno","pt":"o dia de Saturno","ru":"день Сатурна","uk":"день Сатурна","ar":"يوم زحل","he":"יום שבתאי","sw":"siku ya Zohali"},
@@ -882,5 +887,10 @@ WORDS.saturday = {
     ace: ["Sabtu", "sabtu"],
     kxv: ["sanibāra", "sanibaːra"],
     tcy: ["ಸನಿಯಾರೊ", "sanijaːɾo"],
+    ar_qur: ["السبت", "assabt"],
+    gez: ["ሰንበት", "sanbat"],
+    hbo: ["שבת", "ʃabˈbɔːθ"],  // Biblical Hebrew had no weekday names; the seventh day was שַׁבָּת, the Sabbath, our Saturday.
+    he_mis: ["שבת", "ʃaˈbat"],
+    syc: ["ܫܒܬܐ", "ʃabbəθaː"],
   },
 };

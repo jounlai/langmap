@@ -1126,5 +1126,8 @@ WORDS.sea = {
     egy_dem: ["ym", "jom"],
     vi_mid: ["bể", "ɓe˧˩˧"],
     atb: ["wuì ming", "vui˥˩miŋ˨˩"],
+    myz: ["ࡉࡀࡌࡀ", "jama"],
+    xht: ["ḫan", "xan"],
+    xpu: ["𐤉𐤌", "jamm"],
   }
 };

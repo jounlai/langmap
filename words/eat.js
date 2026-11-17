@@ -1225,7 +1225,7 @@ WORDS.eat = {
     cmg: ["ᠢᠳᠡ-", "ide-"],
     ett: ["—", "—"],
     cms: ["—", "—"],
-    xht: ["—", "—"],
+    xht: ["tu", "tu"],
     txr: ["—", "—"],
     bew: ["makan", "ˈmakan"],
     ltg: ["ēst", "æːst"],

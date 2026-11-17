@@ -1226,7 +1226,7 @@ WORDS.good = {
     cmg: ["ᠰᠠᠶᠢᠨ", "sajin"],
     ett: ["mlach", "mlakʰ"],
     cms: ["—", "—"],
-    xht: ["—", "—"],
+    xht: ["malḫip", "malxip"],
     txr: ["—", "—"],
     bew: ["baèk", "baˈɛʔ"],
     ltg: ["lobs", "lɔps"],

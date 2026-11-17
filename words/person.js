@@ -1178,5 +1178,6 @@ WORDS.person = {
     la_late: ["homo", "ˈɔmo"],
     egy_dem: ["rmṯ", "roːme"],
     vi_mid: ["người", "ŋɨəj˨˩"],
+    elx: ["𒇽", "ruh"],
   }
 };

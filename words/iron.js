@@ -1176,5 +1176,6 @@ WORDS.iron = {
     yuy: ["temər", "temər"],
     ii: ["ꎸꅍ", "ʂɯ˧˧du˧˧"],
     bfq: ["கப்புணி", "kappuɳi"],
+    xht: ["ḫapalki", "xapalki"],  // Hittite borrowed this word as ḫapalki, the same form as on the Hittite row.
   },
 };

@@ -425,6 +425,12 @@ WORDS.soap = {
     hoc: "sabun",
     kxv: "sabao",
     lus: "sabun",
+    ar_qur: "sabun",
+    cop: "other",
+    egy: "plain",
+    hbo: "wash",
+    he_mis: "plain",
+    sux: "plain",
   },
   routes: {
     sapo: {"color":"#2563eb","emoji":"🏛️","en":"Latin sapo","ja":"ラテン語 sapo","ko":"라틴어 sapo","zh":"拉丁语 sapo","yue":"拉丁語 sapo","vi":"tiếng Latinh sapo","th":"ละติน sapo","id":"Latin sapo","hi":"लैटिन sapo","de":"lateinisch sapo","fr":"le latin sapo","it":"il latino sapo","es":"el latín sapo","pt":"o latim sapo","ru":"латинское sapo","uk":"латинське sapo","ar":"اللاتينية sapo","he":"הלטינית sapo","sw":"Kilatini sapo"},
@@ -791,5 +797,11 @@ WORDS.soap = {
     hoc: ["sabon", "sabon"],
     kxv: ["sabbu", "sabbu"],  // Compare Telugu సబ్బు.
     lus: ["sahbawn", "saʔbɔn"],
+    ar_qur: ["صابون", "sˤaːbuːn"],
+    cop: ["ϩⲟⲥⲙ", "hosəm"],  // There was no soap as we know it; Egyptians washed with natron, ϩⲟⲥⲙ.
+    egy: ["𓎛𓊃𓏠𓈖𓈓", "hezmen"],  // There was no soap yet; Egyptians washed and purified with natron, a natural soda salt.
+    hbo: ["בורית", "boːˈriːθ"],  // There was no soap as we know it; בֹּרִית was the plant-ash lye people washed with.
+    he_mis: ["בורית", "boˈrit"],  // Before true soap, bōrīt was the plant-ash washing agent; the Mishnah lists it among cleaners that lift a stain.
+    sux: ["𒉀", "naɡa"],  // There was no soap as we know it; Sumerians washed with naga, the ash of an alkaline plant.
   },
 };

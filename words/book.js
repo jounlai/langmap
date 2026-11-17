@@ -1130,5 +1130,8 @@ WORDS.book = {
     mvf: ["pujiu", "puʥiu"],
     blt: ["ꪝꪚꪾ", "pap˦"],
     kdt: ["sɤː", "sɤː"],
+    akk: ["𒁾", "tˤuppu"],  // There were no bound books; a text was written on a ṭuppu, a clay tablet.
+    elx: ["𒁾", "tippi"],  // There were no books; tippi was an inscribed text, on clay or stone.
+    oar: ["ספר", "səpar"],  // There were no books as such; spr was any written document, such as the Sefire treaty stone that uses the word for itself.
   }
 };

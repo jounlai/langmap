@@ -1253,5 +1253,6 @@ WORDS.four = {
     egy_dem: ["ftw", "ftoːu"],
     vi_mid: ["bốn", "ɓon˧˥"],
     cja: ["ڤآء", "paʔ"],  // Wiktionary Cham Jawi spelling; Kvoeu-Hor & Friberg (1978) pak.
+    xht: ["tūḫul", "tuːxul"],
   },
 };

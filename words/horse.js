@@ -1164,5 +1164,7 @@ WORDS.horse = {
     cjm: ["ꨀꨔꨰꩍ", "ʔasɛh"],
     kjg: ["hmbraŋ", "hmbraŋ"],
     mui: ["kudo", "kudo"],
+    oar: ["סוס", "suːs"],
+    xpu: ["𐤎𐤎", "suːs"],
   }
 };

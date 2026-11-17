@@ -1224,5 +1224,6 @@ WORDS.head = {
     egy_dem: ["ḏꜣḏꜣ", "tʃoː"],
     vi_mid: ["đầu", "ɗəw˨˩"],
     mvf: ["tulighui", "tuləɢui"],
+    oar: ["ראש", "reːʃ"],
   },
 };

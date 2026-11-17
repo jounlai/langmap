@@ -255,6 +255,7 @@ WORDS.goosebumps = {
     kpv: "plain",
     myv: "plain",
     pmh: "hair",
+    mt: "other",
   },
   family2: {
     ko: "bird",
@@ -458,5 +459,6 @@ WORDS.goosebumps = {
     kpv: ["пупыш", "ˈpupɨʃ"],
     myv: ["зуйть", "zujtʲ"],
     pmh: ["रोमंच", "romaɲtʃa"],
+    mt: ["xewk", "ʃɛwk"],  // Literally 'thorns'
   },
 };

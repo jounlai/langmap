@@ -1185,5 +1185,6 @@ WORDS.daughter = {
     vi_mid: ["con gái", "kɔn˧ ɣaːj˧˥"],
     peh: ["agu", "aɡu"],
     ybe: ["qïz", "qɯz"],  // Also 'girl'.
+    auj: ["wə̀lli", "ˈwəlːi"],
   },
 };

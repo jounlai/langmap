@@ -405,6 +405,10 @@ WORDS.hiccup = {
     de_lut: "plain",
     en_em: "imitative",
     pmh: "imitative",
+    ar_tn: "plain",
+    kab: "plain",
+    siz: "imitative",
+    tzm: "other",
   },
   routes: {
     imitative: {"color":"#ea580c","emoji":"🔊","en":"imitating the sound","ja":"音のまね","ko":"소리 흉내","zh":"模仿声音","yue":"模仿聲音","vi":"mô phỏng âm thanh","th":"เลียนเสียง","id":"tiruan bunyi","hi":"ध्वनि की नक़ल","de":"lautmalend","fr":"imitant le bruit","it":"onomatopeico","es":"imita el sonido","pt":"imita o som","ru":"звукоподражание","uk":"звуконаслідування","ar":"محاكاة الصوت","he":"חיקוי הקול","sw":"kuiga sauti"},
@@ -756,5 +760,9 @@ WORDS.hiccup = {
     de_lut: ["Hesch", "hɛʃ"],
     en_em: ["hickup", "ˈhɪkʊp"],
     pmh: ["हिक्का", "hikːaː"],
+    ar_tn: ["فواقة", "fawwaːqa"],  // Also شهيقة šhhiːqa.
+    kab: ["tiḥiṭect", "tiħitˤəʃt"],
+    siz: ["bufuaq", "bufuaq"],
+    tzm: ["ⵜⵉⵇⵇⵙⵜ", "tiqːəst"],  // From qqes 'to sting': hiccups were blamed on a louse bite.
   },
 };

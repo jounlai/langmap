@@ -477,6 +477,9 @@ WORDS.cheese = {
     tkr: "plain",
     udi: "plain",
     ofs: "caseus",
+    rif: "caseus",
+    siz: "jubn",
+    wo: "formaticum",
   },
   routes: {
     caseus: {"color":"#d97706","emoji":"🧀","en":"Latin cāseus (Käse, cheese, queso, keju, チーズ)","ja":"ラテン語 cāseus（Käse, cheese, queso, keju, チーズ）","ko":"라틴어 cāseus (Käse, cheese, queso, keju, チーズ)","zh":"拉丁语 cāseus（Käse、cheese、queso、keju、チーズ）","yue":"拉丁文 cāseus（Käse、cheese、queso、keju、チーズ）","vi":"tiếng Latin cāseus (Käse, cheese, queso, keju, チーズ)","th":"ละติน cāseus (Käse, cheese, queso, keju, チーズ)","id":"Latin cāseus (Käse, cheese, queso, keju, チーズ)","hi":"लैटिन cāseus (Käse, cheese, queso, keju, チーズ)","de":"lateinisch cāseus (Käse, cheese, queso, keju, チーズ)","fr":"le latin cāseus (Käse, cheese, queso, keju, チーズ)","it":"il latino cāseus (Käse, cheese, queso, keju, チーズ)","es":"el latín cāseus (Käse, cheese, queso, keju, チーズ)","pt":"o latim cāseus (Käse, cheese, queso, keju, チーズ)","ru":"латинское cāseus (Käse, cheese, queso, keju, チーズ)","uk":"латинське cāseus (Käse, cheese, queso, keju, チーズ)","ar":"اللاتينية cāseus (Käse, cheese, queso, keju, チーズ)","he":"הלטינית cāseus (Käse, cheese, queso, keju, チーズ)","sw":"Kilatini cāseus (Käse, cheese, queso, keju, チーズ)"},
@@ -893,5 +896,8 @@ WORDS.cheese = {
     tkr: ["ниссе", "nisːe"],
     udi: ["гъусми", "ʁusmi"],
     ofs: ["zīse", "ˈtsiːze"],
+    rif: ["ⴽⵉⵙⵓ", "kɪsʊ"],
+    siz: ["ʒəbnət", "ʒəbnət"],
+    wo: ["formaas", "fɔrmaːs"],
   },
 };

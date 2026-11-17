@@ -822,6 +822,16 @@ WORDS.snake = {
     tkr: "plain",
     udi: "plain",
     pmh: "crawl",
+    auj: "other",
+    bm: "plain",
+    kab: "plain",
+    mey: "plain",
+    mlq: "plain",
+    rif: "plain",
+    ses: "plain",
+    shi: "plain",
+    snk: "plain",
+    ttq: "plain",
   },
   routes: {
     crawl: {"color":"#059669","emoji":"🐾","en":"a \"crawler\" (serpent, सर्प, yılan, snake)","ja":"「這うもの」 (serpent, सर्प, yılan, snake)","ko":"'기는 것' (serpent, सर्प, yılan, snake)","zh":"“爬行者” (serpent, सर्प, yılan, snake)","yue":"「爬嘅嘢」 (serpent, सर्प, yılan, snake)","vi":"\"kẻ bò\" (serpent, सर्प, yılan, snake)","th":"\"ตัวที่เลื้อย\" (serpent, सर्प, yılan, snake)","id":"\"si perayap\" (serpent, सर्प, yılan, snake)","hi":"\"रेंगने वाला\" (serpent, सर्प, yılan, snake)","de":"„der Kriechende“ (serpent, सर्प, yılan, snake)","fr":"« celui qui rampe » (serpent, सर्प, yılan, snake)","it":"«quello che striscia» (serpent, सर्प, yılan, snake)","es":"«el que se arrastra» (serpent, सर्प, yılan, snake)","pt":"«o que rasteja» (serpent, सर्प, yılan, snake)","ru":"«ползущий» (serpent, सर्प, yılan, snake)","uk":"«повзучий» (serpent, सर्प, yılan, snake)","ar":"«الزاحف» (serpent, सर्प, yılan, snake)","he":"\"הזוחל\" (serpent, सर्प, yılan, snake)","sw":"\"mtambaaji\" (serpent, सर्प, yılan, snake)"},
@@ -1583,5 +1593,15 @@ WORDS.snake = {
     tkr: ["хоче", "χotʃe"],
     udi: ["дизикӏ", "dizikʼ"],
     pmh: ["सप्प", "sapːa"],
+    auj: ["təgišìlt təɣzìft", "təɡiʃilt təɣzift"],  // Literally 'long beetle'.
+    bm: ["sa", "sa"],
+    kab: ["azrem", "azrəm"],
+    mey: ["حنش", "ħnaʃ"],  // IPA from the dictionary's romanization.
+    mlq: ["sa", "sa"],
+    rif: ["ⴼⵉⵖⴰⵔ", "fˤɪʁɑ"],
+    ses: ["gondi", "ɡondi"],
+    shi: ["ⴰⵍⴳⵯⵎⴰⴹ", "alɡʷmadˤ"],
+    snk: ["samaqe", "samaqe"],
+    ttq: ["taššolt", "taʃːolt"],
   },
 };

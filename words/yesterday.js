@@ -953,6 +953,9 @@ WORDS.yesterday = {
     ar_sd: "distinct",
     ar_ye: "distinct",
     kry: "distinct",
+    mey: "distinct",
+    mlq: "distinct",
+    tzm: "distinct",
   },
   routes: {
     same: {"color":"#db2777","emoji":"🔁","en":"one word for yesterday and tomorrow","ja":"昨日と明日が同じ語","ko":"어제와 내일이 한 낱말","zh":"昨天和明天同一个词","yue":"尋日同聽日同一個詞","vi":"một từ cho hôm qua và ngày mai","th":"คำเดียวทั้งเมื่อวานและพรุ่งนี้","id":"satu kata untuk kemarin dan besok","hi":"बीते और आने वाले कल का एक शब्द","de":"ein Wort für gestern und morgen","fr":"un mot pour hier et demain","it":"una parola per ieri e domani","es":"una palabra para ayer y mañana","pt":"uma palavra para ontem e amanhã","ru":"одно слово для вчера и завтра","uk":"одне слово для учора й завтра","ar":"كلمة واحدة لأمس وغد","he":"מילה אחת לאתמול ולמחר","sw":"neno moja kwa jana na kesho"},
@@ -1851,5 +1854,8 @@ WORDS.yesterday = {
     ar_sd: ["أمس", "ʔams"],  // tomorrow: بكرا (bukra).
     ar_ye: ["أمس", "ʔams"],  // tomorrow: غدوا (ghudwa)
     kry: ["naqʼ", "naqʼ"],  // tomorrow: kətə
+    mey: ["يامس", "jaːmis"],  // IPA from the dictionary's romanization.
+    mlq: ["kunun", "kunũ"],
+    tzm: ["ⴰⵙⵏⵏⴰⵟⵟ", "asənːatˤː"],
   },
 };

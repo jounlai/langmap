@@ -1017,5 +1017,6 @@ WORDS.snow = {
     kxm: ["ព្រិល", "prɨl"],
     ja_mvi: ["雪", "jutsɨ"],
     ssy: ["barad", "baɾad"],
+    siz: ["əttəlʒ", "ətːəlʒ"],
   }
 };

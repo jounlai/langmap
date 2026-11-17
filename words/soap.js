@@ -474,6 +474,12 @@ WORDS.soap = {
     en_em: "sapo",
     goh: "sapo",
     non: "sapo",
+    bm: "sabun",
+    kab: "sabun",
+    mey: "sabun",
+    ses: "plain",
+    siz: "sabun",
+    tzm: "sabun",
   },
   routes: {
     sapo: {"color":"#2563eb","emoji":"🏛️","en":"Latin sapo","ja":"ラテン語 sapo","ko":"라틴어 sapo","zh":"拉丁语 sapo","yue":"拉丁語 sapo","vi":"tiếng Latinh sapo","th":"ละติน sapo","id":"Latin sapo","hi":"लैटिन sapo","de":"lateinisch sapo","fr":"le latin sapo","it":"il latino sapo","es":"el latín sapo","pt":"o latim sapo","ru":"латинское sapo","uk":"латинське sapo","ar":"اللاتينية sapo","he":"הלטינית sapo","sw":"Kilatini sapo"},
@@ -889,5 +895,11 @@ WORDS.soap = {
     en_em: ["sope", "soːp"],
     goh: ["seifa", "ˈseifa"],
     non: ["sápa", "ˈsɑːpɑ"],
+    bm: ["safunɛ", "safunɛ"],
+    kab: ["ṣṣabun", "sˤːabun"],
+    mey: ["صابون", "sˤaːbuːn"],  // IPA from the dictionary's romanization.
+    ses: ["soso", "soso"],
+    siz: ["ṣabun", "sˤabun"],
+    tzm: ["ⵚⵚⴰⴱⵓⵏ", "sˤːabun"],
   },
 };

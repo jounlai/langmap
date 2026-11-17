@@ -684,6 +684,13 @@ WORDS.wife = {
     enm: "woman",
     osx: "woman",
     pmh: "own",
+    dje: "own",
+    gha: "woman",
+    mlq: "woman",
+    ses: "own",
+    siz: "woman",
+    snk: "own",
+    ttq: "woman",
   },
   routes: {
     woman: {"color":"#db2777","emoji":"👩","en":"the same word as woman","ja":"「女」と同じ語","ko":"‘여자’와 같은 말","zh":"与“女人”同词","yue":"同「女人」同一個詞","vi":"cùng một từ với “đàn bà”","th":"คำเดียวกับ “ผู้หญิง”","id":"sama dengan kata “perempuan”","hi":"‘औरत’ वाला ही शब्द","de":"dasselbe Wort wie Frau","fr":"le même mot que femme","it":"la stessa parola di donna","es":"la misma palabra que mujer","pt":"a mesma palavra que mulher","ru":"то же слово, что «женщина»","uk":"те саме слово, що «жінка»","ar":"الكلمة نفسها لـ«امرأة»","he":"אותה מילה כמו ״אישה״","sw":"neno sawa na mwanamke"},
@@ -1311,5 +1318,12 @@ WORDS.wife = {
     enm: ["wyf", "wiːf"],
     osx: ["wīf", "wiːf"],  // The same word means woman.
     pmh: ["भज्जा", "bʱadʒːaː"],
+    dje: ["wande", "wande"],
+    gha: ["talta", "talta"],
+    mlq: ["muso", "muso"],
+    ses: ["wande", "wande"],
+    siz: ["taltí", "talˈti"],
+    snk: ["yaqe", "jaqe"],
+    ttq: ["tantut", "tantˤutˤ"],
   },
 };

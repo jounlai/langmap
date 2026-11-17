@@ -1177,5 +1177,6 @@ WORDS.mountain = {
     ani: ["бул", "bul"],
     jpr: ["כוה", "kuːh"],
     qxq: ["dağ", "dɑʁ"],
+    gha: ["adurar", "adurar"],  // Recorded from the Ayt Welid.
   }
 };

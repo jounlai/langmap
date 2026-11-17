@@ -628,5 +628,6 @@ WORDS.chocolate = {
     h_tagalog: ["ᜐᜒᜃᜓᜎᜆᜒ", "sikuˈlate"],
     doi: ["चाकलेट", "tʃaːkleːʈ"],
     zza: ["çikolata", "tʃikolata"],
+    ar_tn: ["شكلاطة", "ʃuklaːtˤa"],
   }
 };

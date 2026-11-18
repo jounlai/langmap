@@ -809,6 +809,7 @@ WORDS.tea = {
     gha: "cha",
     mev: "te",
     p_ryu: "cha",
+    tlh: "other",
   },
   // Route marker shown on each tea label (this concept only): which trade
   // route the word travelled. Localized; falls back to en.
@@ -1578,5 +1579,6 @@ WORDS.tea = {
     gha: ["əššahi", "əʃːahi"],  // Also ātay.
     mev: ["tíì", "tíì"],
     p_ryu: ["*tya", "tja"],
+    tlh: ["Dargh", "ɖɑrɣ"],
   },
 };

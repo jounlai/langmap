@@ -572,6 +572,7 @@ WORDS.china = {
     fkv: "cina",
     ie: "cina",
     lb: "cina",
+    ia: "cina",
   },
   family2: {
     bo: "zhongguo",
@@ -1090,5 +1091,6 @@ WORDS.china = {
     fkv: ["Kiina", "ˈkiːnɑ"],
     ie: ["China", "ˈʃina"],
     lb: ["China", "ˈʃinaː"],
+    ia: ["China", "ˈʃina"],
   },
 };

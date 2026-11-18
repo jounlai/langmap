@@ -691,6 +691,19 @@ WORDS.bread = {
     mix: "panis",
     poh: "other",
     tzh: "other",
+    arp: "plain",
+    blc: "other",
+    chr: "plain",
+    cr: "plain",
+    ess: "hlaib",
+    ik: "plain",
+    iu: "other",
+    mez: "other",
+    mic: "plain",
+    one: "plain",
+    tlh: "other",
+    tok: "panis",
+    tsi: "plain",
   },
   routes: {
     panis: {"color":"#d97706","emoji":"🥖","en":"Latin pānis, and Portuguese pão abroad (pain, pan, パン, 빵)","ja":"ラテン語 pānis と、海を渡ったポルトガル語 pão（pain, pan, パン, 빵）","ko":"라틴어 pānis와 바다를 건넌 포르투갈어 pão (pain, pan, パン, 빵)","zh":"拉丁语 pānis，及远渡重洋的葡萄牙语 pão（pain、pan、パン、빵）","yue":"拉丁文 pānis，同漂洋過海嘅葡萄牙文 pão（pain、pan、パン、빵）","vi":"tiếng Latin pānis, và tiếng Bồ Đào Nha pão ra nước ngoài (pain, pan, パン, 빵)","th":"ละติน pānis และโปรตุเกส pão ที่ข้ามทะเล (pain, pan, パン, 빵)","id":"Latin pānis, dan Portugis pão di seberang laut (pain, pan, パン, 빵)","hi":"लैटिन pānis, और समुद्र पार पुर्तगाली pão (pain, pan, パン, 빵)","de":"lateinisch pānis und portugiesisch pão in Übersee (pain, pan, パン, 빵)","fr":"le latin pānis, et le portugais pão outre-mer (pain, pan, パン, 빵)","it":"il latino pānis, e il portoghese pão oltremare (pain, pan, パン, 빵)","es":"el latín pānis, y el portugués pão en ultramar (pain, pan, パン, 빵)","pt":"o latim pānis, e o português pão além-mar (pain, pan, パン, 빵)","ru":"латинское pānis и португальское pão за морем (pain, pan, パン, 빵)","uk":"латинське pānis і португальське pão за морем (pain, pan, パン, 빵)","ar":"اللاتينية pānis، والبرتغالية pão وراء البحار (pain, pan, パン, 빵)","he":"הלטינית pānis, והפורטוגזית pão מעבר לים (pain, pan, パン, 빵)","sw":"Kilatini pānis, na Kireno pão ng'ambo (pain, pan, パン, 빵)"},
@@ -1320,5 +1333,18 @@ WORDS.bread = {
     mix: ["paa", "pã́ã̂"],  // Borrowed from Spanish pan.
     poh: ["kaxlan wiʼk", "kaʃlan wiʔk"],  // Literally 'Castilian tortilla'.
     tzh: ["kaxlan waj", "kaʃlan wah"],  // Lit. 'Castilian tortilla'.
+    arp: ["cóʼcoo", "tʃóʔtʃoː"],
+    blc: ["saplin", "saplin"],  // Also 'flour'.
+    chr: ["ᎦᏚ", "ɡadu"],
+    cr: ["ᐸᐦᑵᓯᑲᐣ", "pahkweːsikan"],
+    ess: ["хлеба", "xljɛba"],
+    ik: ["qaqqiaq", "qaqːiaq"],
+    iu: ["ᓂᐊᖂᔮᖅ", "niaquːjaq"],
+    mez: ["pahkīsekan", "pahkiːsekan"],  // Also 'flour' and 'wheat'.
+    mic: ["pipnaqan", "bibənaxan"],
+    one: ["kaná:talok", "kanáːtalok"],
+    tlh: ["tIr ngogh", "tʰɪr ŋoɣ"],
+    tok: ["pan", "pan"],
+    tsi: ["anaay", "anaːj"],
   },
 };

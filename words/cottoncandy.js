@@ -201,6 +201,9 @@ WORDS.cottoncandy = {
     hsb: "cotton",
     nn: "thread",
     no: "thread",
+    jbo: "cotton",
+    nv: "cotton",
+    tlh: "thread",
   },
   routes: {
     cotton: {"color":"#0ea5e9","emoji":"🌱","en":"cotton or cotton wool (棉花糖, algodón de azúcar, Zuckerwatte)","ja":"綿・脱脂綿（棉花糖、algodón de azúcar、Zuckerwatte）","ko":"목화·솜 (棉花糖, algodón de azúcar, Zuckerwatte)","zh":"棉花或棉絮（棉花糖、algodón de azúcar、Zuckerwatte）","yue":"棉花或者棉絮（棉花糖、algodón de azúcar、Zuckerwatte）","vi":"bông, bông gòn (棉花糖, algodón de azúcar, Zuckerwatte)","th":"ฝ้ายหรือสำลี (棉花糖, algodón de azúcar, Zuckerwatte)","id":"kapas (棉花糖, algodón de azúcar, Zuckerwatte)","hi":"कपास या रुई (棉花糖, algodón de azúcar, Zuckerwatte)","de":"Baumwolle oder Watte (棉花糖, algodón de azúcar, Zuckerwatte)","fr":"le coton ou l'ouate (棉花糖, algodón de azúcar, Zuckerwatte)","it":"il cotone o l'ovatta (棉花糖, algodón de azúcar, Zuckerwatte)","es":"el algodón (棉花糖, algodón de azúcar, Zuckerwatte)","pt":"o algodão (棉花糖, algodón de azúcar, Zuckerwatte)","ru":"хлопок или вата (棉花糖, algodón de azúcar, Zuckerwatte)","uk":"бавовна або вата (棉花糖, algodón de azúcar, Zuckerwatte)","ar":"القطن (棉花糖, algodón de azúcar, Zuckerwatte)","he":"כותנה או צמר גפן (棉花糖, algodón de azúcar, Zuckerwatte)","sw":"pamba (棉花糖, algodón de azúcar, Zuckerwatte)"},
@@ -339,5 +342,8 @@ WORDS.cottoncandy = {
     hsb: ["cokorowa wata", "tsɔkɔrɔwa wata"],
     nn: ["sukkerspinn", "ˈsʊkərˌspɪn"],  // Literally 'sugar spin'.
     no: ["sukkerspinn", "ˈsukːərˌspin"],
+    jbo: ["maprysakta", "maprəˈsakta"],
+    nv: ["ałkʼédisí ndikʼąʼ ndahalinígíí", "ʔɑ̀ɬkʼɛ́tɪ̀sɪ́ ǹtɪ̀kʼɑ̃̀ʔ ǹtɑ̀hɑ̀lɪ̀nɪ́kíː"],
+    tlh: ["Su'ghar SIrghmey", "ʂuʔɣɑr ʂɪrɣmɛj"],
   },
 };

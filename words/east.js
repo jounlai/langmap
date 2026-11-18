@@ -659,6 +659,15 @@ WORDS.east = {
     tzo: "rising",
     yua: "plain",
     zap: "rising",
+    abe: "rising",
+    blc: "other",
+    chr: "rising",
+    cr: "dawn",
+    kl: "plain",
+    lkt: "rising",
+    oj: "dawn",
+    tlh: "plain",
+    tsi: "rising",
   },
   routes: {
     dawn: {"color":"#f59e0b","emoji":"🌄","en":"a word for dawn or morning (east, Osten, est)","ja":"夜明け・朝の語（east, Osten, est）","ko":"새벽·아침의 말 (east, Osten, est)","zh":"表示黎明或早晨的词（east、Osten、est）","yue":"解黎明或者朝早嘅詞（east、Osten、est）","vi":"từ chỉ bình minh, buổi sáng (east, Osten, est)","th":"คำสำหรับรุ่งอรุณหรือเช้า (east, Osten, est)","id":"kata untuk fajar atau pagi (east, Osten, est)","hi":"भोर या सुबह का शब्द (east, Osten, est)","de":"ein Wort für Morgenröte oder Morgen (east, Osten, est)","fr":"un mot pour l'aube ou le matin (east, Osten, est)","it":"una parola per l'alba o il mattino (east, Osten, est)","es":"una palabra para el alba o la mañana (east, Osten, est)","pt":"uma palavra para a aurora ou a manhã (east, Osten, est)","ru":"слово для зари или утра (east, Osten, est)","uk":"слово для світанку чи ранку (east, Osten, est)","ar":"كلمة للفجر أو الصباح (east, Osten, est)","he":"מילה לשחר או לבוקר (east, Osten, est)","sw":"neno la alfajiri au asubuhi (east, Osten, est)"},
@@ -1256,5 +1265,14 @@ WORDS.east = {
     tzo: ["lokʼeb kʼakʼal", "lokʼeɓ kʼakʼal"],  // Lit. 'where the sun comes out'.
     yua: ["lakʼin", "lakʼin"],
     zap: ["neza rindani gubidxa", "neza ɾindani ɡubidʒa"],  // Literally 'the way the sun comes out'.
+    abe: ["waji-sôkhipozit", "wadʒisɔ̃khipozit"],
+    blc: ["ʔaƛ̓s", "ʔatɬʼs"],  // Also 'behind' and 'inland'.
+    chr: ["ᏗᎧᎸᎬᎢ", "dikalə̃ɡə̃ʔi"],
+    cr: ["ᐚᐸᓄᕽ", "waːpanohk"],
+    kl: ["kangia", "kaŋia"],
+    lkt: ["wiyóhiŋyaŋpata", "wijóhĩjãpata"],
+    oj: ["waabanong", "waːbanoŋ"],
+    tlh: ["chan", "tʃɑn"],
+    tsi: ["wilmanyaagyemk", "wilmanjaːɡʲemk"],
   },
 };

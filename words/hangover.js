@@ -236,5 +236,8 @@ WORDS.hangover = {
     krl: ["kohmelo", "ˈkohmelo"],
     smn: ["kohmá", "ˈkohma"],
     ht: ["malmakak", "malmakak"],
+    ia: ["sequelas de inebriation", "seˈkwelas de inebriaˈtsjon"],
+    jbo: ["xalri'abi'a", "xalrihaˈbiha"],
+    tlh: ["'uH", "ʔux"],
   },
 };

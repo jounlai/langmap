@@ -264,6 +264,7 @@ WORDS.goosebumps = {
     hsb: "bird",
     nn: "bird",
     vro: "bird",
+    jbo: "other",
   },
   family2: {
     ko: "bird",
@@ -476,5 +477,6 @@ WORDS.goosebumps = {
     hsb: ["husaca koža", "ɦusatsa kɔʒa"],
     nn: ["gåsehud", "ˈɡoːsəˌhʉːd"],  // Literally 'goose skin'.
     vro: ["kananahk", "ˈkɑnɑnɑhk"],
+    jbo: ["kapcikna", "kapˈʃikna"],
   },
 };

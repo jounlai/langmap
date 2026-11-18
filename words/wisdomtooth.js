@@ -277,6 +277,8 @@ WORDS.wisdomtooth = {
     hsb: "wisdom",
     lb: "wisdom",
     smn: "wisdom",
+    ia: "wisdom",
+    jbo: "age",
   },
   routes: {
     wisdom: {"color":"#7c3aed","emoji":"🦉","en":"wisdom · sense","ja":"知恵・分別","ko":"지혜 · 분별","zh":"智慧・理智","yue":"智慧 · 理智","vi":"trí khôn · sự hiểu biết","th":"ปัญญา · ความรู้คิด","id":"kebijaksanaan · akal","hi":"बुद्धि · अक़्ल","de":"Weisheit · Verstand","fr":"sagesse · raison","it":"saggezza · giudizio","es":"sabiduría · juicio","pt":"sabedoria · siso","ru":"мудрость · разум","uk":"мудрість · розум","ar":"الحكمة · العقل","he":"חוכמה · בינה","sw":"busara · akili"},
@@ -497,5 +499,7 @@ WORDS.wisdomtooth = {
     hsb: ["zub mudrosće", "zup mudrɔstʃɛ"],
     lb: ["Wäisheetszant", "ˈvæːɪsheːtstsɑnt"],
     smn: ["vijsesvuođâpääni", "ˈvijsesvuoðɐpæːni"],
+    ia: ["dente de sagessa", "ˈdente de saˈʒesa"],
+    jbo: ["lecyde'i", "leʃəˈdehi"],
   },
 };

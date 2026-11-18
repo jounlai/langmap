@@ -790,7 +790,6 @@ WORDS.honey = {
     pmay: ["*kaabʼ", "kaːɓ"],
     nij: ["madu", "madu"],
     sas: ["madu", "madu"],
-    chr: ["ᏩᏚᎵᏏ", "wadulisi"],
     dz: ["སྦྱང", "bdʑaŋ"],
     kl: ["tungusunnitsuut", "tuŋusunːitsuːt"],
     abq: ["цха", "tsχa"],

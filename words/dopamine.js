@@ -348,5 +348,6 @@ WORDS.dopamine = {
     nan_zz: ["多巴胺", "to˦˦ pa˦˦ an˦˦"],
     yue_ts: ["多巴胺", "ʔuɔ˧˧ pa˧˧ ʔuɔn˧˧"],
     zh_jiao: ["多巴胺","tuə˨˩˧ pa˨˩˧ ɣã˦˨"],  // Same word as Standard Mandarin.
+    tlh: ["lI'HemvI'", "lɪʔxɛmvɪʔ"],
   },
 };

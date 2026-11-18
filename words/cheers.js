@@ -312,6 +312,7 @@ WORDS.cheers = {
     ty: "wish",
     war: "other",
     xh: "health",
+    ia: "health",
   },
   routes: {
     health: {"color":"#16a34a","emoji":"💪","en":"to health · to life","ja":"健康に・命に","ko":"건강을 위해 · 생명을 위해","zh":"为健康・为生命","yue":"為健康 · 為生命","vi":"vì sức khỏe · vì sự sống","th":"แด่สุขภาพ · แด่ชีวิต","id":"untuk kesehatan · kehidupan","hi":"सेहत के नाम · जीवन के नाम","de":"auf die Gesundheit · aufs Leben","fr":"à la santé · à la vie","it":"alla salute · alla vita","es":"por la salud · por la vida","pt":"à saúde · à vida","ru":"за здоровье · за жизнь","uk":"за здоров'я · за життя","ar":"للصحة · للحياة","he":"לבריאות · לחיים","sw":"kwa afya · kwa uhai"},
@@ -569,5 +570,6 @@ WORDS.cheers = {
     ty: ["manuia", "manuia"],  // Manuia means 'to succeed, be lucky' (Lemaître: réussir; bonne chance!); the same word is the Samoan toast.
     war: ["tagay", "ˈtaɡaj"],  // Tagay is the round of drink itself, called out as the glasses go up, as in Tagalog and Cebuano.
     xh: ["impilo", "impilo"],  // Impilo means 'health, life'.
+    ia: ["a vostre sanitate!", "a ˈvostre saniˈtate"],
   },
 };

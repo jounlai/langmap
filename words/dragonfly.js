@@ -437,6 +437,11 @@ WORDS.dragonfly = {
     ctu: "plain",
     poh: "plain",
     tzo: "plain",
+    arp: "plain",
+    cr: "plain",
+    esu: "plain",
+    hai: "plain",
+    ia: "plain",
   },
   routes: {
     dragon: {"color":"#dc2626","emoji":"🐉","en":"a dragon","ja":"竜","ko":"용","zh":"龙","yue":"龍","vi":"rồng","th":"มังกร","id":"naga","hi":"ड्रैगन","de":"ein Drache","fr":"un dragon","it":"un drago","es":"un dragón","pt":"um dragão","ru":"дракон","uk":"дракон","ar":"تنّين","he":"דרקון","sw":"joka"},
@@ -819,5 +824,10 @@ WORDS.dragonfly = {
     ctu: ["tujlux", "tuhluʃ"],
     poh: ["tuhluux", "tuhluːʃ"],
     tzo: ["tulix", "tuliʃ"],
+    arp: ["cííʼowoyéihii", "tʃíːʔowojéihiː"],
+    cr: ["ᒍᐍᐦᐃᑲᓈᐱᓰᐢ", "tʃoweːhikanaːpisiːs"],
+    esu: ["ciilraq", "tʃiːɬʁaq"],
+    hai: ["díi gwaa tʼamíi", "díː ɡʷaː tʼamíː"],
+    ia: ["libellula", "liˈbelula"],
   },
 };

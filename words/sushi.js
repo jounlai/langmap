@@ -500,5 +500,6 @@ WORDS.sushi = {
     la_late: ["salsamentum", "salsaˈmɛnto"],
     khb: ["ᦌᦳᦌᦲ", "su˥˩ siː˥˩"],
     arc: ["טְרִיתָא", "tˤaːriːθaː"],  // There was no sushi; ṭārīṯā was salted, pickled fish, the preserved fish of the Galilee trade.
+    tlh: ["Su'SIy", "ʂuʔʂɪj"],
   },
 };

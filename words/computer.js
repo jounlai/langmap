@@ -739,5 +739,6 @@ WORDS.computer = {
     fro: ["abaque", "aˈbakə"],  // There were no computers; the abaque was the counting board on which medieval clerks did their reckoning.
     mga: ["rímid", "ˈrʲiːvʲiðʲ"],  // There were no computers; a rímid was the reckoner who worked out dates and sums.
     aae: ["kompjuteri", "kɔmˈpjutɛɾi"],
+    cr: ["ᒋᑳᐢᑌᐸᔨᐦᒋᑲᐣ", "tʃikaːsteːpajihtʃikan"],
   },
 };

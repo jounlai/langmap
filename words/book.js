@@ -1137,5 +1137,6 @@ WORDS.book = {
     peo: ["𐎮𐎡𐎱𐎡𐏁", "dipiʃ"],  // There were no books; dipi was a written text—an inscription, or a document on clay or leather.
     jpr: ["כתאב", "ketɒːb"],
     onw: ["ϣⲟⲗ", "ʃol"],
+    abe: ["awighigan", "awiɡhiɡan"],
   }
 };

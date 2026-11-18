@@ -548,6 +548,9 @@ WORDS.littlefinger = {
     fit: "small",
     fkv: "small",
     huv: "child",
+    cic: "small",
+    hai: "plain",
+    jbo: "other",
   },
   routes: {
     small: {"color":"#2563eb","emoji":"🤏","en":"the small · little finger","ja":"小さい指","ko":"작은 손가락","zh":"小的手指","yue":"細嘅手指","vi":"ngón nhỏ","th":"นิ้วเล็ก","id":"jari kecil","hi":"छोटी उँगली","de":"kleiner Finger","fr":"petit doigt","it":"dito piccolo","es":"dedo pequeño","pt":"dedo pequeno","ru":"маленький палец","uk":"маленький палець","ar":"الإصبع الصغيرة","he":"האצבע הקטנה","sw":"kidole kidogo"},
@@ -1041,5 +1044,8 @@ WORDS.littlefinger = {
     fit: ["pikkusormi", "ˈpikːusormi"],
     fkv: ["pikkusormi", "ˈpikːuˌsormi"],
     huv: ["nine micual owixeran", "nine mikʷal owiʃeɾan"],  // 'The hand's little child'.
+    cic: ["ilbak-oshiʼ", "ilbakoʃiʔ"],
+    hai: ["stla g̱ud", "stɬa ɢud"],
+    jbo: ["mumymomdegji", "muməmomˈdeɡʒi"],
   },
 };

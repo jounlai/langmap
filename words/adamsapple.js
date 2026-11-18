@@ -328,6 +328,8 @@ WORDS.adamsapple = {
     hsb: "other",
     krl: "other",
     smn: "adam",
+    ia: "adam",
+    jbo: "other",
   },
   routes: {
     adam: {"color":"#dc2626","emoji":"🍏","en":"Adam's apple","ja":"アダムのりんご","ko":"아담의 사과","zh":"亚当的苹果","yue":"亞當嘅蘋果","vi":"táo của Adam","th":"แอปเปิลของอาดัม","id":"apel Adam","hi":"आदम का सेब","de":"Adams Apfel","fr":"pomme d'Adam","it":"pomo d'Adamo","es":"fruto de Adán","pt":"maçã de Adão","ru":"яблоко Адама","uk":"яблуко Адама","ar":"تفاحة آدم","he":"תפוח אדם","sw":"tufaha la Adamu"},
@@ -600,5 +602,7 @@ WORDS.adamsapple = {
     hsb: ["wohryzk", "ˈwɔɦrɨsk"],
     krl: ["keroluu", "ˈkeroluː"],
     smn: ["ááddámoomeen", "ˈaːdːamoːmeːn"],  // Literally 'Adam's apple'.
+    ia: ["pomo de Adam", "ˈpomo de aˈdam"],
+    jbo: ["galxypunli", "ɡalxəˈpunli"],
   },
 };
